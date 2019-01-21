@@ -10,14 +10,14 @@ ms.author: mikejo
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 87758b0f75b3b38f67f72f4a32122fa9d0955335
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fb74e49cb72274292b56a01f0ec654ebe6e44815
+ms.sourcegitcommit: 01185dadd2fa1f9a040d2a366869f1a5e1d18e0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53939981"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54227280"
 ---
-# <a name="inspect-previous-app-states-using-intellitrace-step-back-in-visual-studio"></a>Visual Studio에서 IntelliTrace 뒤로 이동을 사용하여 이전 앱 상태 검사
+# <a name="inspect-previous-app-states-using-intellitrace-step-back-in-visual-studio-visual-studio-enterprise"></a>Visual Studio(Visual Studio Enterprise)에서 IntelliTrace 뒤로 이동을 사용하여 이전 앱 상태 검사
 
 IntelliTrace 뒤로 이동은 모든 중단점 및 디버거 단계 이벤트에서 애플리케이션의 스냅숏을 자동으로 생성합니다. 기록된 스냅숏을 통해 이전 중단점 또는 단계로 돌아가서 애플리케이션의 과거 상태를 볼 수 있습니다. IntelliTrace 뒤로 이동을 사용하면 이전 애플리케이션 상태를 보고 싶지만 디버깅을 다시 시작하거나 원하는 앱 상태를 다시 만들지 않으려는 경우에 시간을 절약할 수 있습니다.
 
@@ -26,7 +26,7 @@ IntelliTrace 뒤로 이동은 Visual Studio Enterprise 2017 버전 15.5 이상�
 이 자습서에서 다음을 수행합니다.
 
 > [!div class="checklist"]
-> * Intellitrace 이벤트 및 스냅숏을 사용하도록 설정
+> * IntelliTrace 이벤트 및 스냅숏 사용
 > * 뒤로 이동 및 앞으로 이동 명령을 사용하여 이벤트 이동
 > * 이벤트 스냅숏 보기
   

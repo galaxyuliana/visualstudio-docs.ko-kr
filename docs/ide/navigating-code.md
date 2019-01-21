@@ -19,12 +19,12 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 467dec8039a50b225bda53de9b19b8539f6604be
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c9415b3cf2c777e0a99b3f24a26e56d1a1c94bf8
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53877434"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269945"
 ---
 # <a name="navigate-code"></a>코드 탐색
 
@@ -67,7 +67,7 @@ Visual Studio는 편집기에서 코드를 탐색하는 다양한 방법을 제�
 입력 | 함수
 ------------ | ---
 **키보드** | 형식 이름 내부에 텍스트 커서를 놓고 **Shift**+**F12** 키를 누릅니다.
-**마우스** | 상황에 맞는 메뉴에서 **모든 참조 찾기**를 선택합니다.
+**마우스** | 오른쪽 클릭 메뉴에서 **모든 참조 찾기**를 선택합니다.
 
 ## <a name="reference-highlighting"></a>참조 강조 표시
 

@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 35f9e866f58d52b7f74ac0a136b0eeb49382c612
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 15facda7bcb2b07dd071aaf0e40c44d265a01826
+ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53927326"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "54204510"
 ---
 # <a name="how-to-debug-for-absolute-beginners"></a>완전 초보자를 위한 디버깅하는 방법
 
@@ -64,9 +64,9 @@ ms.locfileid: "53927326"
 
 *디버깅 모드*라고도 하는 디버거 내의 앱 실행은 디버거가 프로그램이 실행될 때 발생하는 모든 것을 적극적으로 모니터링하는 것을 의미합니다. 또한 해당 상태를 검사하기 위해 언제든지 앱을 일시 중지한 다음, 코드를 줄 단위로 단계별로 실행하여 발생하는 모든 세부 사항을 살펴볼 수 있습니다.
 
-Visual Studio에서 디버그 도구 모음의 **F5**(또는 **디버그** > **디버깅 시작** 메뉴 명령 또는 **디버깅 시작**  단추 ![디버깅 시작](../debugger/media/dbg-tour-start-debugging.png "디버깅 시작")를 사용하여 디버깅 모드로 전환합니다). 예외가 발생하는 경우 Visual Studio의 예외 도우미는 예외가 발생한 정확한 지점으로 안내하고 기타 유용한 정보를 제공합니다.
+Visual Studio에서 디버그 도구 모음의 **F5**(또는 **디버그** > **디버깅 시작** 메뉴 명령 또는 **디버깅 시작**  단추 ![디버깅 시작](../debugger/media/dbg-tour-start-debugging.png "디버깅 시작")를 사용하여 디버깅 모드로 전환합니다). 예외가 발생하는 경우 Visual Studio의 예외 도우미는 예외가 발생한 정확한 지점으로 안내하고 기타 유용한 정보를 제공합니다. 코드의 예외를 처리하는 방법에 대한 자세한 내용은 [더 나은 C# 코드를 작성하여 버그 수정](../debugger/write-better-code-with-visual-studio.md)을 참조하세요.
 
-예외가 발생하지 않은 경우 코드에서 문제를 찾을 수 있는 위치를 알고 있을 것입니다. 이는 코드를 더 신중하게 검사하는 기회를 제공하도록 디버거와 함께 *중단점*을 사용하는 위치입니다. 중단점은 신뢰할 수 있는 디버깅의 가장 기본적이 고 필수적인 기능입니다. 중단점은 변수의 값, 메모리의 동작 또는 코드가 실행되는 시퀀스를 확인할 수 있도록 Visual Studio에서 실행 중인 코드를 일시 중단해야 하는 위치를 나타냅니다.
+예외가 발생하지 않은 경우 코드에서 문제를 찾을 수 있는 위치를 알고 있을 것입니다. 이는 코드를 더 신중하게 검사하는 기회를 제공하도록 디버거와 함께 ‘중단점’을 사용하는 위치입니다. 중단점은 신뢰할 수 있는 디버깅의 가장 기본적이 고 필수적인 기능입니다. 중단점은 변수의 값, 메모리의 동작 또는 코드가 실행되는 시퀀스를 확인할 수 있도록 Visual Studio에서 실행 중인 코드를 일시 중단해야 하는 위치를 나타냅니다.
 
 Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을 신속하게 설정할 수 있습니다. 또는 줄에 커서를 놓고 **F9** 키를 누릅니다.
 

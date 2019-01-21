@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 46a3a0a415af9cddcba63040fd445de7869921e2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 79d39aa23e752ee0ce6f95b6a6d8c419dbd51d9a
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53918614"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269997"
 ---
 # <a name="toolbox"></a>도구 상자
 
@@ -40,7 +40,7 @@ ms.locfileid: "53918614"
 
 기본적으로 **도구 상자**는 Visual Studio IDE 왼쪽에 축소되어 있으며 커서를 위로 이동하면 표시됩니다. 도구 모음의 **핀** 아이콘을 클릭하여 **도구 상자**를 고정하면 커서를 이동해도 도구 상자가 열린 상태로 유지됩니다. **도구 상자** 창의 도킹을 해제하고 화면의 원하는 위치로 끌어 올 수도 있습니다. 도구 모음을 마우스 오른쪽 단추로 클릭하고 옵션 중 하나를 선택하여 **도구 상자**를 도킹 및 도킹 해제하고 숨길 수 있습니다.
 
-컨텍스트 메뉴에서 다음 명령을 사용하여 **도구 상자** 탭의 항목을 다시 정렬하거나 사용자 지정 탭과 항목을 추가할 수 있습니다.
+오른쪽 클릭 메뉴에서 다음 명령을 사용하여 **도구 상자** 탭의 항목을 다시 정렬하거나 사용자 지정 탭과 항목을 추가할 수 있습니다.
 
 - **항목 이름 바꾸기** - 선택한 항목의 이름을 바꿉니다.
 

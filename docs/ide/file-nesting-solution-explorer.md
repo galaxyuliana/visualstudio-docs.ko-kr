@@ -9,12 +9,12 @@ helpviewer_keywords:
 author: angelosp
 ms.author: angelpe
 manager: douge
-ms.openlocfilehash: 3ba20e0df156cf2bba77bb919e55016692630ce7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d4e2767b5b4286dbf57cca6a3b1445cae55fe1a5
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53831156"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269283"
 ---
 # <a name="customize-file-nesting-in-solution-explorer"></a>솔루션 탐색기에서 파일 중첩 사용자 지정
 
@@ -131,7 +131,7 @@ ms.locfileid: "53831156"
 
 ## <a name="create-solution-specific-and-project-specific-settings"></a>솔루션별 설정 및 프로젝트별 설정 만들기
 
-각 솔루션 및 프로젝트의 바로 가기 메뉴를 통해 솔루션별 설정 및 프로젝트별 설정을 만들 수 있습니다.
+각 솔루션 및 프로젝트의 오른쪽 클릭 메뉴(상황에 맞는 메뉴)를 통해 솔루션별 설정 및 프로젝트별 설정을 만들 수 있습니다.
 
 ![솔루션 및 프로젝트별 중첩 규칙](media/filenesting_solutionprojectspecific.png)
 

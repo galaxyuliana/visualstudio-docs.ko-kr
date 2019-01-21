@@ -11,12 +11,12 @@ manager: douge
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 65ba6a0528dee5a0b430787ee4332ca3dab5bdec
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 89e64c88311848d53a114a1f58f711edbe3856e7
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53858073"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269880"
 ---
 # <a name="run-unit-tests-with-test-explorer"></a>테스트 탐색기를 사용하여 단위 테스트 실행
 
@@ -46,7 +46,7 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 
 - 기본 그룹의 모든 테스트를 실행하려면 **실행**을 선택한 다음, 메뉴에서 그룹을 선택합니다.
 
-- 실행할 개별 테스트를 선택하고 선택한 테스트에 대한 상황에 맞는 메뉴를 연 다음 **선택한 테스트 실행**을 선택합니다.
+- 실행할 개별 테스트를 선택하고 선택한 테스트에 대한 오른쪽 클릭 메뉴를 연 후 **선택한 테스트 실행**을 선택합니다.
 
 - 개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
 
@@ -84,7 +84,7 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 
 ### <a name="view-the-source-code-of-a-test-method"></a>테스트 메서드의 소스 코드 보기
 
- Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하려면 테스트를 선택한 다음, 상황에 맞는 메뉴에서 **테스트 열기** (키보드: **F12**)를 선택합니다.
+ Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하려면 테스트를 선택한 다음, 오른쪽 클릭 메뉴에서 **테스트 열기**(키보드: **F12**)를 선택합니다.
 
 ## <a name="group-and-filter-the-test-list"></a>테스트 목록 그룹화 및 필터링
 
@@ -165,9 +165,9 @@ FilterName:"Criteria" -FilterName:"SubsetCriteria"
 
  ![재생 목록 선택](../test/media/ute_playlist.png)
 
- **재생 목록을 만들려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 상황에 맞는 메뉴에서 **재생 목록에 추가** > **새 재생 목록**을 선택합니다. **새 재생 목록 만들기** 대화 상자에서 지정한 이름과 위치를 사용해 파일을 저장합니다.
+ **재생 목록을 만들려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 오른쪽 클릭 메뉴에서 **재생 목록에 추가** > **새 재생 목록**을 선택합니다. **새 재생 목록 만들기** 대화 상자에서 지정한 이름과 위치를 사용해 파일을 저장합니다.
 
- **재생 목록에 테스트를 추가하려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 상황에 맞는 메뉴에서 **재생 목록에 추가**를 선택한 다음 테스트를 추가할 재생 목록을 선택합니다.
+ **재생 목록에 테스트를 추가하려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 오른쪽 클릭 메뉴에서 **재생 목록에 추가**를 선택한 후 테스트를 추가할 재생 목록을 선택합니다.
 
  **재생 목록을 열려면**Visual Studio 메뉴에서 **테스트** > **재생 목록**을 선택하고 최근에 사용한 재생 목록 중에서 선택하거나, **재생 목록 열기**를 선택하여 재생 목록의 이름과 위치를 지정합니다.
 
@@ -184,13 +184,13 @@ FilterName:"Criteria" -FilterName:"SubsetCriteria"
     > [!NOTE]
     > 테스트 메서드는 순서에 관계 없이 실행할 수 있기 때문에 디버그하려는 모든 테스트 메서드에 중단점을 설정합니다.
 
-2. 테스트 탐색기에서 테스트 메서드를 선택한 다음 상황에 맞는 메뉴에서 **선택한 테스트 디버그** 를 선택합니다.
+2. 테스트 탐색기에서 테스트 메서드를 선택한 후 오른쪽 클릭 메뉴에서 **선택한 테스트 디버그**를 선택합니다.
 
    디버거에 대한 자세한 내용은 [Visual Studio에서 디버그](../debugger/debugger-feature-tour.md)를 참조하세요.
 
 ### <a name="diagnose-test-method-performance-issues"></a>테스트 메서드 성능 문제 진단
 
- 테스트 메서드에 너무 많은 시간이 소요되는 이유를 진단하려면 테스트 탐색기에서 메서드를 선택하고 상황에 맞는 메뉴에서 **프로필**을 선택합니다. [성능 탐색기](../profiling/performance-explorer.md)를 참조하세요.
+ 테스트 메서드에 너무 많은 시간이 소요되는 이유를 진단하려면 테스트 탐색기에서 메서드를 선택하고 오른쪽 클릭 메뉴에서 **프로필**을 선택합니다. [성능 탐색기](../profiling/performance-explorer.md)를 참조하세요.
 
 ### <a name="analyze-unit-test-code-coverage"></a>단위 테스트 코드 검사 분석
 

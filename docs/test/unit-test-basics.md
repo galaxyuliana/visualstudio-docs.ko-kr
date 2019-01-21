@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: ce1689f6780f88dd57d41090969082de7ac5685d
-ms.sourcegitcommit: a7e6675185fd34ac8084f09627b2038046cdd2b1
+ms.openlocfilehash: e5b08592fdd60bf88ce703b1b97bd5485cc307ab
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2019
-ms.locfileid: "54060805"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54270182"
 ---
 # <a name="unit-test-basics"></a>단위 테스트 기본 사항
 
@@ -83,7 +83,7 @@ public void Withdraw(double amount)
 
 ### <a name="generate-unit-test-project-and-unit-test-stubs"></a>단위 테스트 프로젝트 및 단위 테스트 스텁 생성
 
-1. 코드 편집기 창에서 마우스 오른쪽 단추를 클릭하고 상황에 맞는 메뉴에서 **단위 테스트 만들기** 를 선택합니다.
+1. 코드 편집기 창에서 마우스 오른쪽 단추를 클릭하고 오른쪽 클릭 메뉴에서 **단위 테스트 만들기**를 선택합니다.
 
     ![편집기 창에서 상황에 맞는 메뉴 표시](../test/media/createunittestsrightclick.png)
 
@@ -218,7 +218,7 @@ public void My_Test ()
 
 ![테스트 탐색기 도구 모음에서 테스트 실행](../test/media/ute_toolbar.png)
 
-사용자는 **모두 실행** 을 선택해서 모든 테스트를 실행하거나 **실행** 을 선택해서 실행할 테스트 하위 집합을 선택할 수 있습니다. 일련의 테스트들을 실행한 다음에는 **테스트 탐색기** 창의 맨 아래에 테스트 실행의 요약이 나타납니다. 테스트를 선택하면 아래쪽 창에 해당 테스트의 세부 정보가 표시됩니다. **테스트 열기**를 상황에 맞는 메뉴에서(키보드: **F12**) 선택하여 선택한 테스트에 대한 소스 코드를 표시합니다.
+사용자는 **모두 실행** 을 선택해서 모든 테스트를 실행하거나 **실행** 을 선택해서 실행할 테스트 하위 집합을 선택할 수 있습니다. 일련의 테스트들을 실행한 다음에는 **테스트 탐색기** 창의 맨 아래에 테스트 실행의 요약이 나타납니다. 테스트를 선택하면 아래쪽 창에 해당 테스트의 세부 정보가 표시됩니다. 오른쪽 클릭 메뉴에서 **테스트 열기**를(키보드: **F12**) 선택하여 선택한 테스트에 대한 소스 코드를 표시합니다.
 
 개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
 

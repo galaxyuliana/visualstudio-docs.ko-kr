@@ -9,12 +9,12 @@ description: Visual Studio 구독에 포함된 기술 지원 혜택을 활성화
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 635280cf52ca82af67ec1b3fc321f5ea6955128a
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: e2e5b66988ba5ff5aedede2e1cef112a3b204919
+ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53740435"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54315516"
 ---
 # <a name="activate-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 기술 지원 혜택 활성화
 
@@ -85,11 +85,8 @@ ms.locfileid: "53740435"
 Azure와 관련된 문제에 대해 Visual Studio 구독 기술 지원 혜택을 사용하려면 Azure 구독에 계약 ID 및 액세스 ID를 연결해야 합니다.
 
 1.  [https://portal.azure.com](https://portal.azure.com)을 방문해 로그인
-2.  왼쪽 탐색에서 “도움말 + 지원”을 클릭합니다.
-3.  “지원”에서 “지원 계약 연결”을 클릭합니다.
-4.  위의 1번에서 제공된 “액세스 ID” 및 “계약 ID”를 입력합니다.
-
-이러한 단계를 완료하면 Visual Studio 구독 혜택과 연결된 지원 플랜을 선택할 수 있습니다.  (플랜 이름에 “MSDN”"이 포함될 수 있습니다.)
+2.  왼쪽 탐색에서 **도움말 + 지원**을 클릭합니다.
+3.  “지원”에서 **새 지원 요청**을 클릭합니다.
 
 ## <a name="eligibility"></a>자격
 

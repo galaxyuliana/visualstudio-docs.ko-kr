@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: a3f01d9d35f8b2c122fb61f4fd9b3a8a22090b21
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 934615be23ebb025740521d35e31fee9f0a6ec47
+ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53918773"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54315581"
 ---
 # <a name="common-msbuild-project-properties"></a>일반적인 MSBuild 프로젝트 속성
 다음 표에서는 Visual Studio 프로젝트 파일에 정의되거나 MSBuild가 제공하는 *.targets* 파일에 포함된 자주 사용하는 속성을 보여 줍니다.  
@@ -85,9 +85,11 @@ ms.locfileid: "53918773"
 | OutputPath | 프로젝트 디렉터리에 상대적인 출력 디렉터리 경로(예: *bin\Debug*)를 지정합니다. |
 | OutputType | 출력 파일의 파일 형식을 지정합니다. 이 매개 변수는 다음 값 중 하나를 가질 수 있습니다.<br /><br /> -   Library. 코드 라이브러리를 만듭니다. 기본값입니다.<br />-   Exe. 콘솔 애플리케이션을 만듭니다.<br />-   Module. 모듈을 만듭니다.<br />-   Winexe. Windows 기반 프로그램을 만듭니다.<br /><br /> 이 속성은 *vbc.exe* 컴파일러의 `/target` 스위치와 동일합니다. |
 | OverwriteReadOnlyFiles | 빌드에서 읽기 전용 파일을 덮어쓸지 아니면 오류를 트리거할지 여부를 나타내는 부울 값입니다. |
+| PathMap | 실제 경로를 컴파일러에서 출력되는 소스 경로 이름에 매핑하는 방법을 지정합니다. 이 속성은 *csc.exe* 컴파일러의 `/pathmap` 스위치와 동일합니다. |
 | PdbFile | 내보낼 *.pdb* 파일의 파일 이름입니다. 이 속성은 *csc.exe* 컴파일러의 `/pdb` 스위치와 동일합니다. |
 | 플랫폼 | 빌드하고 있는 운영 체제입니다. 유효한 값은 "Any CPU", "x86" 및 "x64"입니다. |
 | ProduceReferenceAssembly | 부울 값으로, `true`로 설정하면 현재 어셈블리에 대한 [참조 어셈블리](https://github.com/dotnet/roslyn/blob/master/docs/features/refout.md)를 생성합니다. 이 기능을 사용할 경우 `Deterministic`이 `true`여야 합니다. 이 속성은 *vbc.exe* 및 *csc.exe* 컴파일러의 `/refout` 스위치에 해당합니다. |
+| ProduceOnlyReferenceAssembly | 컴파일러에 컴파일된 코드가 아닌 참조 어셈블리만 내보내도록 지시하는 부울 값입니다. `ProduceReferenceAssembly`와 함께 사용할 수 없습니다.  이 속성은 *vbc.exe* 및 *csc.exe* 컴파일러의 `/refonly` 스위치에 해당합니다. |
 | RemoveIntegerChecks | 정수 오버플로 오류 검사를 비활성화할지 여부를 나타내는 부울 값입니다. 기본값은 `false`입니다. 이 속성은 *vbc.exe* 컴파일러의 `/removeintchecks` 스위치와 동일합니다. |
 | SGenUseProxyTypes | *SGen.exe*에서 프록시 형식을 생성해야 하는지 여부를 나타내는 부울 값입니다.<br /><br /> SGen 대상은 이 속성을 사용하여 UseProxyTypes 플래그를 설정합니다. 이 속성은 기본적으로 true로 설정되어 있으며 이를 변경할 UI가 없습니다. 웹 서비스가 아닌 형식에 대해 serialization 어셈블리를 생성하려면 이 속성을 프로젝트 파일에 추가하고 *Microsoft.Common.Targets* 또는 *C#/VB.targets*를 가져오기 전에 false로 설정합니다. |
 | SGenToolPath | 현재 버전의 *SGen.exe*를 재정의할 때 *SGen.exe*를 구할 수 있는 위치를 나타내는 선택적 도구 경로입니다. |

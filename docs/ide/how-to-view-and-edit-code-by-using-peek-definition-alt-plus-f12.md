@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: d5013e04d1d5b6c73255be907d2b460cb186cea8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c8fb33e1b6df6cd43aaaba9c38123ff7b941da5c
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968711"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269971"
 ---
 # <a name="how-to-view-and-edit-code-by-using-peek-definition-altf12"></a>방법: 정의 피킹(Peeking)을 사용하여 코드 보기 및 편집(Alt+F12)
 
@@ -25,7 +25,7 @@ ms.locfileid: "53968711"
 
 ### <a name="to-open-a-peek-definition-window"></a>정의 피킹(Peeking) 창을 열려면
 
-1. 탐색하려는 형식 또는 멤버에 대한 상황에 맞는 메뉴에서 **정의 피킹(Peeking)** 을 선택하여 정의를 피킹할 수 있습니다. Visual Studio 2017 버전 15.4 이상에서 이 옵션을 설정하는 경우, **Ctrl** 키(또는 다른 한정자)를 누르고 멤버 이름을 클릭하여 마우스를 사용하는 정의를 피킹할 수 있습니다. 또는 키보드에서 **Alt**+**F12**를 누릅니다.
+1. 검색하려는 형식 또는 멤버의 오른쪽 클릭 메뉴에서 **정의 피킹**을 선택하여 정의를 피킹할 수 있습니다. Visual Studio 2017 버전 15.4 이상에서 이 옵션을 설정하는 경우, **Ctrl** 키(또는 다른 한정자)를 누르고 멤버 이름을 클릭하여 마우스를 사용하는 정의를 피킹할 수 있습니다. 또는 키보드에서 **Alt**+**F12**를 누릅니다.
 
      이 그림은 `Print()`라는 메서드에 대한 **정의 피킹(Peeking)** 창을 보여 줍니다.
 

@@ -18,16 +18,16 @@ dev_langs:
 - CPP
 ms.workload:
 - multiple
-ms.openlocfilehash: fc02a504cb6fa36a13992cf188eb0c14b6836fb1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c539e2a20f7fa32ccba86a56831c71b17fdbefa5
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53889230"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269413"
 ---
 # <a name="code-snippets"></a>코드 조각
 
-코드 조각은 상황에 맞는 메뉴 명령이나 바로 가기 키 조합을 사용하여 코드 파일에 삽입할 수 있는 다시 사용 가능한 작은 블록입니다. 일반적으로 `try-finally` 또는 `if-else` 블록과 같이 자주 사용되는 코드 블록을 포함하지만 전체 클래스나 메서드를 삽입하는 데 사용할 수 있습니다.
+코드 조각은 오른쪽 클릭 메뉴(상황에 맞는 메뉴) 명령이나 바로 가기 키 조합을 사용하여 코드 파일에 삽입할 수 있는 다시 사용 가능한 작은 블록입니다. 일반적으로 `try-finally` 또는 `if-else` 블록과 같이 자주 사용되는 코드 블록을 포함하지만 전체 클래스나 메서드를 삽입하는 데 사용할 수 있습니다.
 
 > [!NOTE]
 > 이 토픽은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [코드 조각(Mac용 Visual Studio)](/visualstudio/mac/snippets)을 참조하세요.
@@ -61,7 +61,7 @@ finally
 }
 ```
 
-코드 창의 상황에 맞는 메뉴에서 **조각 삽입**, **Visual C#** 를 차례로 클릭하여 이 조각을 삽입한 다음, `tryf`를 입력하고 나서 **Tab**을 누릅니다. 또는 `tryf`를 입력하고 **Tab**을 두 번 누를 수 있습니다.
+코드 창의 오른쪽 클릭 메뉴(상황에 맞는 메뉴)에서 **코드 조각 삽입**, **Visual C#** 을 차례로 클릭하여 이 코드 조각을 삽입한 다음, `tryf`를 입력하고 나서 **Tab** 키를 누릅니다. 또는 `tryf`를 입력하고 **Tab**을 두 번 누를 수 있습니다.
 
 코드 감싸기 조각의 예: C++에서 바로 가기 `if`는 삽입 조각 또는 코드 감싸기 조각으로 사용할 수 있습니다. 코드 줄(예: `return FALSE;`)을 선택하고 **코드 감싸기** > **if**를 선택하면 해당 줄 주위에서 조각이 확장됩니다.
 
