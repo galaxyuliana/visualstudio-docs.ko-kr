@@ -9,12 +9,12 @@ description: 장기 계약 없이 월간 또는 연간 기준으로 Visual Studi
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: d045e407c030e02ef648c2594a7f2bfa5e97d40f
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: 23926cd28032c1e1b201312220770a83a269c839
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53740223"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269750"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Visual Studio Enterprise 및 Visual Studio Professional 클라우드 구독 구입
 
@@ -37,9 +37,7 @@ Azure 구독에 대한 [소유자 및 기여자 액세스 권한](https://na01.s
 
 1.  [Visual Studio Marketplace > 구독](https://marketplace.visualstudio.com/subscriptions)에 로그인합니다.
 
-2.  구입하려는 구독을 선택합니다. 예:
-    > [!div class="mx-imgBorder"]
-    > ![Visual Studio 구독 구매](_img/buy-vs-subscriptions/buy-vs-sub-start.png)
+2.  구매할 구독을 선택합니다(예: Visual Studio Professional - 월간 구독).
 
 3.  청구에 사용할 Azure 구독을 선택합니다. Azure 구독이 없는 경우 새 Azure 계정을 만들 수 있습니다.
     > [!div class="mx-imgBorder"]

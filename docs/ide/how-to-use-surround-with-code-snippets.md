@@ -11,16 +11,16 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: d3d306d9399ee9454d1967c24a734c5d9b9b2eb9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 11e31d46af00620b9e8ac9f45fe79946eea4eb1a
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53908811"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54270153"
 ---
 # <a name="how-to-use-surround-with-code-snippets"></a>방법: 코드 감싸기 코드 조각 사용
 
-다음 프로시저에서는 코드 감싸기 코드 조각을 사용하는 방법을 설명합니다. 코드 감싸기 코드 조각은 세 가지 방법 즉, 바로 가기 키, **편집** 메뉴 및 바로 가기 메뉴를 통해 사용할 수 있습니다.
+다음 프로시저에서는 코드 감싸기 코드 조각을 사용하는 방법을 설명합니다. 코드 감싸기 코드 조각은 세 가지 방법 즉, 바로 가기 키, **편집** 메뉴 및 오른쪽 클릭(상황에 맞는) 메뉴를 통해 사용할 수 있습니다.
 
 ## <a name="to-use-surround-with-code-snippets-through-keyboard-shortcut"></a>바로 가기 키를 통해 코드 감싸기 코드 조각을 사용하려면
 

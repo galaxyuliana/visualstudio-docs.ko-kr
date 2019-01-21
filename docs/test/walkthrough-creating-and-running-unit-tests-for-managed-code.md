@@ -14,12 +14,12 @@ manager: douge
 ms.workload:
 - dotnet
 author: gewarren
-ms.openlocfilehash: de50a5ee6e65540b1a2052f61eae211074780417
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 537059a78ccc316b7b74a8300961b57b4e6e6f95
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989178"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269984"
 ---
 # <a name="walkthrough-create-and-run-unit-tests-for-managed-code"></a>연습: 관리 코드에 대한 단위 테스트 만들기 및 실행
 
@@ -93,7 +93,7 @@ public void Debit(double amount)
 
 5. **BankTests** 프로젝트에서 **Bank** 프로젝트에 대한 참조를 추가합니다.
 
-   **솔루션 탐색기**에서 **BankTests** 프로젝트의 **참조**를 선택한 다음, 상황에 맞는 메뉴에서 **참조 추가**를 선택합니다.
+   **솔루션 탐색기**에서 **BankTests** 프로젝트의 **참조**를 선택한 다음, 오른쪽 클릭 메뉴에서 **참조 추가**를 선택합니다.
 
 6. **참조 관리자** 대화 상자에서 **솔루션**을 확장한 다음, **Bank** 항목을 선택합니다.
 
@@ -103,7 +103,7 @@ public void Debit(double amount)
 
 ### <a name="rename-a-class-file"></a>클래스 파일 이름 바꾸기
 
-**솔루션 탐색기**에서 BankTests 프로젝트의 *UnitTest1.cs* 파일을 선택합니다. 상황에 맞는 메뉴에서 **이름 바꾸기**를 선택한 다음, 파일 이름을 *BankAccountTests.cs*로 바꿉니다. 프로젝트에서 코드 요소 `UnitTest1`에 대한 모든 참조 이름을 바꿀지 묻는 대화 상자에서 **예**를 선택합니다.
+**솔루션 탐색기**에서 BankTests 프로젝트의 *UnitTest1.cs* 파일을 선택합니다. 오른쪽 클릭 메뉴에서 **이름 바꾸기**를 선택한 다음, 파일 이름을 *BankAccountTests.cs*로 바꿉니다. 프로젝트에서 코드 요소 `UnitTest1`에 대한 모든 참조 이름을 바꿀지 묻는 대화 상자에서 **예**를 선택합니다.
 
 이 단계에서는 클래스 이름을 `BankAccountTests`로 변경합니다. *BankAccountTests.cs* 파일에는 이제 다음 코드가 들어 있습니다.
 

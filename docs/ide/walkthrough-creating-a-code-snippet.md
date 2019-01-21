@@ -18,12 +18,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 3c1336d5bba93fa12010dadce2a47504fa84995f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 66d618999fc2ae3e94316f64e20a82516efbeb38
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53890711"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269802"
 ---
 # <a name="walkthrough-create-a-code-snippet"></a>연습: 코드 조각 만들기
 몇 가지 단계로 코드 조각을 만들 수 있습니다. XML 파일을 만들고, 적절한 요소를 입력하고, 코드를 추가하기만 하면 됩니다. 또한 코드에 참조 및 대체 매개 변수를 추가할 수 있습니다. **코드 조각 관리자**(**도구** > **코드 조각 관리자**)에서 **가져오기** 단추를 사용하여 Visual Studio 설치에 코드 조각을 추가할 수 있습니다.
@@ -79,7 +79,7 @@ ms.locfileid: "53890711"
 
      *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets*
 
-6.  Visual Basic 프로젝트를 열고 코드 파일을 열어 코드 조각을 테스트합니다. 파일의 상황에 맞는 메뉴에서 **코드 조각** > **코드 조각 삽입**을 선택한 다음, **내 코드 조각**을 선택합니다. **내 Visual Basic 코드 조각**이라는 코드 조각이 나타납니다. 폴더를 두 번 클릭합니다.
+6.  Visual Basic 프로젝트를 열고 코드 파일을 열어 코드 조각을 테스트합니다. 파일의 오른쪽 클릭 메뉴에서 **코드 조각** > **코드 조각 삽입**을 선택한 다음, **내 코드 조각**을 선택합니다. **내 Visual Basic 코드 조각**이라는 코드 조각이 나타납니다. 폴더를 두 번 클릭합니다.
 
     `Console.WriteLine("Hello, World!")`이 코드 파일에 삽입됩니다.
 

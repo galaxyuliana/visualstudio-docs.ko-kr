@@ -2,7 +2,7 @@
 title: '자습서: C# 콘솔 앱 시작'
 description: Visual Studio에서 C# 콘솔 앱을 만드는 방법을 단계별로 알아봅니다.
 ms.custom: seodec18, get-started
-ms.date: 12/12/2018
+ms.date: 01/10/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
@@ -15,12 +15,12 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 333eeb3f826663d979e1cec444ede7eda4b55b2a
-ms.sourcegitcommit: 35bebf794f528d73d82602e096fd97d7b8f82c25
+ms.openlocfilehash: 6114910f8c4cbeebc0301cc0c2167a49742823a5
+ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53562219"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "54204433"
 ---
 # <a name="tutorial-get-started-with-a-c-console-app-in-visual-studio"></a>자습서: Visual Studio에서 C# 콘솔 앱 시작
 
@@ -135,9 +135,11 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 
 10진수를 처리하도록 코드를 수정해 보겠습니다.
 
+1. **Ctrl** + **F**를 눌러 **찾기 및 바꾸기** 컨트롤을 엽니다.
+
 1. `int` 변수의 각 인스턴스를 `float`로 변경합니다.
 
-   (이 작업을 수행하는 데 도움이 되는 [찾기 및 바꾸기](../../ide/finding-and-replacing-text.md#find-and-replace-control) 컨트롤을 사용할 수 있습니다. 코드 편집기 내의 검색 컨트롤에 액세스하려면 **Crtl**+**F**를 누릅니다. 그런 다음, 검색 컨트롤에서 **다음 찾기** 단추 또는 **이전 찾기** 단추를 선택합니다. 바꾸기 옵션에 액세스하려면 **찾기** 텍스트 상자 옆의 단추를 선택합니다. 한 번에 하나를 바꾸려면 **바꾸기** 텍스트 상자 옆의 **다음 찾기** 단추를 선택합니다. 모든 일치 항목을 바꾸려면 **모두 바꾸기** 단추를 선택합니다.)
+    ![int 변수를 float로 변경하는 방법을 보여 주는 찾기 및 바꾸기 컨트롤의 애니메이션](./media/find-replace-control-animation.gif)
 
 1. 계산기 앱을 다시 실행하고 숫자 **42**를 숫자 **119**로 나눕니다.
 
@@ -147,9 +149,7 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 
 그러나 앱은 10진수 결과만 생성합니다. 앱도 10진수를 계산할 수 있도록 코드를 몇 가지 수정해 보겠습니다.
 
-1. `float` 변수의 각 인스턴스를 `double`로 변경합니다.
-
-1. `Convert.ToInt32` 메서드의 각 인스턴스를 `Convert.ToDouble`로 변경합니다.
+1. **찾기 및 바꾸기** 컨트롤(**Ctrl** + **F**)을 사용하여 `float` 변수의 각 인스턴스를 `double`로 변경하고 `Convert.ToInt32` 메서드의 각 인스턴스를 `Convert.ToDouble`로 변경합니다.
 
 1. 계산기 앱을 실행하고 숫자 **42.5**를 숫자 **119.75**로 나눕니다.
 

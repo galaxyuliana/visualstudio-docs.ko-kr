@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - uwp
-ms.openlocfilehash: d8dc2ff0f0bc010dd225372c0c96badd9251eae8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2ef58fb7b1f58eb9d7618981251bdc7981142500
+ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964301"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54315542"
 ---
 # <a name="xaml-designer-options-page"></a>XAML 디자이너 옵션 페이지
 
@@ -57,15 +57,15 @@ ms.locfileid: "53964301"
 |||
 |-|-|
 |**마우스 휠**|XAML 디자이너에서 마우스 휠을 스크롤하여 확대/축소합니다.|
-|**Ctrl+마우스 휠**|XAML 디자이너에서 Ctrl 키를 누른 채 마우스 휠을 스크롤하여 확대/축소합니다.|
-|**Alt+마우스 휠**|XAML 디자이너에서 Alt 키를 누른 채 마우스 휠을 스크롤하여 확대/축소합니다.|
+|**Ctrl+마우스 휠**|XAML 디자이너에서 **Ctrl** 키를 누른 채 마우스 휠을 스크롤하여 확대/축소합니다.|
+|**Alt+마우스 휠**|XAML 디자이너에서 **Alt** 키를 누른 채 마우스 휠을 스크롤하여 확대/축소합니다.|
 
 이러한 설정은 XAML 문서를 편집하는 경우의 디자이너 동작을 결정합니다.
 
 |||
 |-|-|
 |**생성 시 대화형 요소에 자동으로 이름 지정**|디자이너에 새 대화형 요소를 추가하는 경우 기본 이름을 제공할지 여부를 지정합니다.|
-|**요소를 만들 때 레이아웃 속성을 자동으로 삽입합니다.**|디자이너에 새 요소를 추가하는 경우 레이아웃 속성을 제공할지 여부를 지정합니다.|
+|**요소를 만들 때 레이아웃 속성을 자동으로 삽입합니다.**|디자이너에 새 요소를 추가하는 경우 레이아웃 속성을 제공할지 여부를 지정합니다. 레이아웃 속성은 컨트롤의 레이아웃에 영향을 주는 속성입니다(예: Margin 및 VerticalAlignment). 다음 XAML은 이 옵션을 선택하고 단추를 만드는 방법과 선택하지 않고 단추를 만드는 방법을 보여 줍니다.<br />`<Button Content="Button" HorizontalAlignment="Left" Margin="245,56,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>`<br />`<Button Content="Button" Grid.Row="1"/>`|
 |**사분면 기반 레이아웃 사용**|현재 선택한 컨트롤을 부모 컨테이너의 가장 가까운 가장자리에 정렬할지 여부를 지정합니다. 이 확인란의 선택을 취소하면 이동 또는 만들기 작업 중 컨트롤 맞춤이 변경되지 않습니다.|
 |**도구 상자 항목 자동 채우기**|현재 솔루션의 사용자 컨트롤 및 사용자 지정 컨트롤을 도구 상자에 자동으로 표시할지 여부를 지정합니다.|
 
@@ -75,7 +75,7 @@ ms.locfileid: "53964301"
 
 |||
 |-|-|
-|**다음을 사용하여 확대/축소**|XAML 디자이너에서 마우스 휠을 스크롤하거나 Ctrl 또는 Alt 키를 누른 채 마우스 휠을 스크롤하여 확대/축소합니다.|
+|**다음을 사용하여 확대/축소**|XAML 디자이너에서 마우스 휠을 스크롤하거나 **Ctrl** 또는 **Alt** 키를 누른 채 마우스 휠을 스크롤하여 확대/축소합니다.|
 |**형식 단위**|디자이너의 측정값이 포인트 또는 픽셀 기반인지를 지정합니다. 유니버설 Windows 앱은 포인트를 지원하지 않으므로 **포인트**를 선택할 경우 단위가 자동으로 픽셀로 변환됩니다.|
 
 ## <a name="artboard-blend-only"></a>아트보드(Blend에만 해당)

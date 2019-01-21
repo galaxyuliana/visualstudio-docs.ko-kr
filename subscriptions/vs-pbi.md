@@ -9,16 +9,19 @@ description: 선택한 Visual Studio 구독에 포함된 Power BI Pro 구독에 
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 0fb3033699c3331ec61e6d3fe30dd70fd47cc759
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: 3d4d24c48868c85b89e833191c03ab8188637de2
+ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53739645"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54315503"
 ---
 # <a name="power-bi-pro-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Power BI Pro
 
 데이터를 풍부한 시각 자료로 변환하여 데이터를 수집하고 정리하세요.
+
+> [!Note]
+> 이 Power BI 라이선스가 있으면 더 큰 프로덕션/개발/테스트 환경에 영향을 주지 않고 안전한 장소에서 Power BI 기능을 알아보고 사용해 볼 수 있습니다.  Power BI의 최신 제품을 사용하려면 구독자가 자신의 테넌트를 만들어 분리를 적용해야 합니다. 회사 테넌트에서 회사 자격 증명과 연결된 Power BI 라이선스가 있어야 하는 경우에는 회사 관리자에게 라이선스를 구매하고 할당해 주도록 문의하세요.
 
 ## <a name="activation-steps"></a>활성화 단계
 Power BI Pro를 사용하려면 기존 계정을 사용하여 계정을 설정하거나 로그인해야 합니다.
@@ -95,8 +98,10 @@ A:  혜택은 무료이지만 유료 주문 처리에 사용되는 것과 동일
 - 신용 카드.  신용 카드 번호를 입력하면 카드에 요금이 청구되지 않습니다. 
 - 청구서.  지불 유형으로 "청구서"를 선택하면 신용 카드 번호를 입력할 필요가 없습니다.  간격을 “연간”으로 설정할 수도 있습니다.  이렇게 하면 청구서가 준비되었다는 이메일을 하나만 받게 됩니다.  청구 금액은 $0.00일 수 있습니다.  
 
-### <a name="q--is-the-power-bi-pro-benefit-included-in-my-subscription-licenses-for-use-in-a-production-environment"></a>Q:  프로덕션 환경에서 사용하기 위해 구독 라이선스에 Power BI Pro 혜택이 포함되어 있나요?
-A:  예.  
+### <a name="q--is-the-power-bi-pro-benefit-included-in-my-subscription-licensed-for-use-in-a-production-environment"></a>Q:  프로덕션 환경에서 사용하기 위해 구독 라이선스에 Power BI Pro 혜택이 포함되어 있나요?
+A:  예. 프로덕션 환경에서 혜택을 사용할 수 있고 두 가지 중요 중의 사항은 다음과 같습니다.
+- 이 제품을 사용하려면 자체 테넌트에 설치해야 합니다.  회사 테넌트에서 회사 자격 증명과 연결된 Power BI 라이선스가 있어야 하는 경우에는 회사 관리자에게 라이선스를 구매하고 할당해 주도록 문의하세요. 
+- 이 Power BI Pro 혜택은 정부 테넌트에서 사용할 수 없습니다.  
 
 ### <a name="q--when-i-try-to-activate-power-bi-pro-i-get-a-message-you-already-have-an-account-through-work--can-i-still-use-the-benefit"></a>Q:  Power BI Pro를 활성화하려고 하면 "이미 작업을 통해 계정이 있습니다."라는 메시지가 나타납니다.  혜택을 계속 사용할 수 있나요?
 A:  예.  메시지는 관리자가 아닌 활성 Office 365 테넌트가 이미 있는 도메인에 로그온했음을 나타냅니다.  테넌트에 Power BI Pro를 추가하려면 해당 테넌트의 관리자여야 합니다.  이 문제를 해결하려면 다음 단계에 따라 고유한 테넌트를 만듭니다.

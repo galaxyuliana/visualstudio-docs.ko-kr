@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: d9c3477926161da09d0b669d32316933d967ee98
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a5f81c38d63659261281f35704edf0ecde3ccd94
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53908894"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269828"
 ---
 # <a name="create-solutions-and-projects"></a>솔루션 및 프로젝트 만들기
 
@@ -129,7 +129,7 @@ Visual Studio IDE를 사용하지 않고 솔루션 및 해당 콘텐츠를 영�
 
 ### <a name="to-permanently-delete-a-solution"></a>솔루션을 영구적으로 삭제하려면
 
-1. **솔루션 탐색기**에서 삭제하려는 솔루션의 상황에 맞는 메뉴에서 **파일 탐색기에서 폴더 열기**를 선택합니다.
+1. **솔루션 탐색기**에서 삭제하려는 솔루션의 오른쪽 클릭 메뉴(상황에 맞는 메뉴)에서 **파일 탐색기에서 폴더 열기**를 선택합니다.
 
 1. 파일 탐색기에서 한 수준 위로 이동합니다.
 

@@ -1,47 +1,54 @@
 ---
 title: -LCID(devenv.exe)
-ms.date: 11/04/2016
+ms.date: 12/10/2018
 ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - language default
 - locale IDs, setting for IDE
+- Devenv, /L switch
 - Devenv, /LCID switch
 - locale IDs
-- /l Devenv switch
+- L Devenv switch
+- /L Devenv switch
 - LCID devenv switch
-- /lcid Devenv switch
+- /LCID Devenv switch
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
 author: gewarren
 ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: f5c3f8633721a4568b81fab31d8fe91a4c33be2f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 42da279a64f04bca7775440f803e7a26e6bd2dc8
+ms.sourcegitcommit: 01185dadd2fa1f9a040d2a366869f1a5e1d18e0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852075"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54227306"
 ---
 # <a name="lcid-devenvexe"></a>/LCID (devenv.exe)
-IDE(통합 개발 환경) 내의 텍스트, 통화 및 다른 값에 사용된 기본 언어를 설정합니다.
+
+IDE 내의 텍스트, 통화 및 다른 값에 사용된 기본 언어를 설정합니다.
 
 ## <a name="syntax"></a>구문
 
-```cmd
-devenv {/LCID|/l} LocaleID
+```shell
+devenv {/LCID|/L} LocaleID
 ```
 
 ## <a name="arguments"></a>인수
- `LocaleID` 필수입니다. 지정한 언어의 LCID(로캘 ID)입니다.
+
+- *LocaleID*
+
+  필수 요소. 지정한 언어의 로캘 식별자(LCID)입니다.
 
 ## <a name="remarks"></a>주의
- IDE를 로드하고 환경에 대한 기본 자연 언어를 설정합니다. 이 변경은 세션 간에 유지되고 IDE의 **옵션** 대화 상자에 있는 **환경** 옵션의 **국가별 설정** 창에 반영됩니다.
 
- 지정된 언어를 사용자의 시스템에서 사용할 수 없는 경우 /LCID 스위치는 무시됩니다.
+IDE를 로드하고 환경에 대한 기본 자연 언어를 설정합니다. 이 변경은 세션 간에 지속되며, IDE는 **도구** > **옵션** > **환경** > **국가별 설정** > **언어** 상자에 이 변경을 표시합니다.
 
- 다음 표에서는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]에서 지원하는 언어의 LCID 목록을 보여 줍니다.
+지정된 언어를 사용자의 시스템에서 사용할 수 없는 경우 `/LCID` 스위치는 무시됩니다.
+
+다음 표에서는 Visual Studio에서 지원하는 언어의 LCID 목록을 보여 줍니다.
 
 |언어|인 DWORD 값의 레지스트리에서 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\|
 |--------------|----------|
@@ -56,9 +63,10 @@ devenv {/LCID|/l} LocaleID
 |스페인어|3082|
 
 ## <a name="example"></a>예제
- 이 예에서는 영어 리소스 문자열을 사용하는 IDE를 로드합니다.
 
-```cmd
+이 예에서는 영어 리소스 문자열을 사용하는 IDE를 로드합니다.
+
+```shell
 devenv /LCID 1033
 ```
 

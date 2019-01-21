@@ -9,12 +9,12 @@ description: 고객에 대한 Visual Studio 클라우드 구독 구입 및 관�
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 9e400373d56e494e9292a086c55c07795a75d989
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: 7ca04ab81462c2126068ed5a5710cee663944431
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53739577"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54270010"
 ---
 # <a name="buy-and-manage-visual-studio-cloud-subscriptions-for-your-customers"></a>고객에 대한 Visual Studio 클라우드 구독 구입 및 관리
 
@@ -46,7 +46,7 @@ Azure 구독에 대한 [소유자 또는 참가자 액세스 권한](https://na0
 0. **Visual Studio Marketplace**를 선택합니다.
 0. 고객의 이름이 오른쪽 상단 모서리에 있는지 확인합니다.
 0. **구독**을 선택합니다.
-0. Enterprise 또는 Professional을 선택하고 Visual Studio에 대한 월간 또는 연간 구독을 선택합니다.
+0. Visual Studio Enterprise 또는 Professional을 선택합니다.
 0. **구입**을 선택합니다.
 0. 구매에 대해 청구할 Azure 구독을 선택합니다.
 0. 고객에게 필요한 사용자 수를 입력합니다.

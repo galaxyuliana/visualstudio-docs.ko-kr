@@ -8,12 +8,12 @@ manager: wpickett
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: eb441d5987a4e1defde83d4ca9737cc27ab278fe
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: eff82db5a7ca5c5a18c7d89017dfae892d209fbf
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53840884"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54270049"
 ---
 # <a name="write-unit-tests-for-cc-in-visual-studio"></a>Visual Studio에서 C/C++에 대한 단위 테스트 작성
 
@@ -37,7 +37,7 @@ C++ 단위 테스트 프로젝트는 [CodeLens](../ide/find-code-changes-and-oth
 
 **Visual Studio 2017 버전 15.5**
 
-- **Google Test 어댑터**는 **C++를 통한 데스크톱 개발** 워크로드의 기본 구성 요소로 포함되어 있습니다. **솔루션 탐색기**의 **새 프로젝트 추가** 바로 가기 메뉴를 통해 솔루션에 추가할 수 있는 프로젝트 템플릿 및 **도구** > **옵션**을 통해 구성할 수 있는 옵션이 있습니다. 자세한 내용은 [방법: Visual Studio에서 Google Test 사용](how-to-use-google-test-for-cpp.md)을 참조하세요.
+- **Google Test 어댑터**는 **C++를 통한 데스크톱 개발** 워크로드의 기본 구성 요소로 포함되어 있습니다. **솔루션 탐색기**의 솔루션 노드에서 **새 프로젝트 추가** 오른쪽 클릭 메뉴를 통해 솔루션에 추가할 수 있는 프로젝트 템플릿 및 **도구** > **옵션**을 통해 구성할 수 있는 옵션이 있습니다. 자세한 내용은 [방법: Visual Studio에서 Google Test 사용](how-to-use-google-test-for-cpp.md)을 참조하세요.
 
 - **Boost.Test**는 **C++를 통한 데스크톱 개발** 워크로드의 기본 구성 요소로 포함되어 있습니다. **테스트 탐색기**와 통합되지만 현재는 프로젝트 템플릿을 갖지 않으므로 수동으로 구성해야 합니다. 자세한 내용은 [방법: Visual Studio에서 Boost.Test 사용](how-to-use-boost-test-for-cpp.md)을 참조하세요.
 

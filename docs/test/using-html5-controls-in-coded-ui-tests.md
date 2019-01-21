@@ -8,12 +8,12 @@ manager: douge
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 9470027e84e33bb3acdd64756db86c951c845d3d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: dbb34804e827ddd0eefdaf4585ba517034a31392
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53883028"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54269893"
 ---
 # <a name="using-html5-controls-in-coded-ui-tests"></a>코딩된 UI 테스트에서 HTML5 컨트롤 사용
 
@@ -39,11 +39,11 @@ ms.locfileid: "53883028"
 
 |작업|기록 중|생성된 코드|
 |-|---------------|-|
-|**오디오 재생**<br /><br /> 컨트롤 또는 컨트롤 상황에 맞는 메뉴에서 직접|00:00:00부터 \<name> 오디오 재생|HtmlAudio.Play(TimeSpan)|
+|**오디오 재생**<br /><br /> 컨트롤 또는 컨트롤의 오른쪽 클릭 메뉴에서 직접|00:00:00부터 \<name> 오디오 재생|HtmlAudio.Play(TimeSpan)|
 |**오디오의 특정 시간까지 검색**|00:01:48까지 \<name> 오디오 검색|HtmlAudio.Seek(TimeSpan)|
-|**오디오 일시 중지**<br /><br /> 컨트롤 또는 컨트롤 상황에 맞는 메뉴에서 직접|00:01:53에 \<name> 오디오 일시 중지|HtmlAudio.Pause(TimeSpan)|
-|**오디오 음소거**<br /><br /> 컨트롤 또는 컨트롤 상황에 맞는 메뉴에서 직접|\<name> 오디오 음소거|HtmlAudio.Mute()|
-|**오디오 음소거 해제**<br /><br /> 컨트롤 또는 컨트롤 상황에 맞는 메뉴에서 직접|\<name> 오디오 음소거 해제|HtmlAudio.Unmute()|
+|**오디오 일시 중지**<br /><br /> 컨트롤 또는 컨트롤의 오른쪽 클릭 메뉴에서 직접|00:01:53에 \<name> 오디오 일시 중지|HtmlAudio.Pause(TimeSpan)|
+|**오디오 음소거**<br /><br /> 컨트롤 또는 컨트롤의 오른쪽 클릭 메뉴에서 직접|\<name> 오디오 음소거|HtmlAudio.Mute()|
+|**오디오 음소거 해제**<br /><br /> 컨트롤 또는 컨트롤의 오른쪽 클릭 메뉴에서 직접|\<name> 오디오 음소거 해제|HtmlAudio.Unmute()|
 |**오디오 볼륨 변경**|\<name> 오디오 볼륨을 79%로 설정|HtmlAudio.SetVolume(float)|
 
 어설션을 추가할 수 있는 속성 목록은 [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioElement)를 참조하세요.
@@ -63,11 +63,11 @@ ms.locfileid: "53883028"
 
 |작업|기록 중|생성된 코드|
 |-|---------------|-|
-|**비디오 재생**<br /><br /> 컨트롤 또는 컨트롤 상황에 맞는 메뉴에서 직접|00:00:00부터 \<name> 비디오 재생|HtmlVideo.Play(TimeSpan)|
+|**비디오 재생**<br /><br /> 컨트롤 또는 컨트롤의 오른쪽 클릭 메뉴에서 직접|00:00:00부터 \<name> 비디오 재생|HtmlVideo.Play(TimeSpan)|
 |**비디오의 특정 시간까지 검색**|00:01:48까지 \<name> 비디오 검색|HtmlVideo.Seek(TimeSpan)|
-|**비디오 일시 중지**<br /><br /> 컨트롤 또는 컨트롤 상황에 맞는 메뉴에서 직접|00:01:53에 \<name> 비디오 일시 중지|HtmlVideo.Pause(TimeSpan)|
-|**비디오 음소거**<br /><br /> 컨트롤 또는 컨트롤 상황에 맞는 메뉴에서 직접|\<name> 비디오 음소거|HtmlVideo.Mute()|
-|**비디오 음소거 해제**<br /><br /> 컨트롤 또는 컨트롤 상황에 맞는 메뉴에서 직접|\<name> 비디오 음소거 해제|HtmlVideo.Unmute()|
+|**비디오 일시 중지**<br /><br /> 컨트롤 또는 컨트롤의 오른쪽 클릭 메뉴에서 직접|00:01:53에 \<name> 비디오 일시 중지|HtmlVideo.Pause(TimeSpan)|
+|**비디오 음소거**<br /><br /> 컨트롤 또는 컨트롤의 오른쪽 클릭 메뉴에서 직접|\<name> 비디오 음소거|HtmlVideo.Mute()|
+|**비디오 음소거 해제**<br /><br /> 컨트롤 또는 컨트롤의 오른쪽 클릭 메뉴에서 직접|\<name> 비디오 음소거 해제|HtmlVideo.Unmute()|
 |**비디오의 볼륨 변경**|\<name> 비디오 볼륨을 79%로 설정||
 
 어설션을 추가할 수 있는 속성 목록은 [HTMLVideoElement](https://developer.mozilla.org/docs/Web/HTML/Element/video)를 참조하세요.

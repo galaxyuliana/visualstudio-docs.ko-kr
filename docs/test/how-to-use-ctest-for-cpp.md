@@ -8,12 +8,12 @@ manager: douge
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: d02c4546b98e2a7551f4454088acfc6a54637e4f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 057f243b0246bac1796fe160550e83f922593830
+ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53925461"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54270221"
 ---
 # <a name="how-to-use-ctest-for-c-in-visual-studio"></a>Visual Studio에서 CTest for C++를 사용하는 방법 | Microsoft Docs
 
@@ -35,7 +35,7 @@ CTest를 사용하지만 Google 또는 Boost 어댑터를 사용하지 않는 �
 
 ## <a name="to-run-tests-visual-studio-2017-version-155"></a>테스트를 실행하려면(Visual Studio 2017 버전 15.5)
 
-**Visual Studio 2017 버전 15.5**에서 CTest는 **테스트 탐색기**에 통합되어 있지 않습니다. CMake 주 메뉴나, **솔루션 탐색기**에서 *CMakeLists.txt* 파일의 바로 가기 메뉴에서 테스트를 실행할 수 있습니다. 테스트 결과는 Visual Studio **출력 창**으로 전달됩니다.
+**Visual Studio 2017 버전 15.5**에서 CTest는 **테스트 탐색기**에 통합되어 있지 않습니다. CMake 주 메뉴나, **솔루션 탐색기**에서 *CMakeLists.txt* 파일의 오른쪽 클릭 메뉴에서 테스트를 실행할 수 있습니다. 테스트 결과는 Visual Studio **출력 창**으로 전달됩니다.
 
 ![VS2017 15.5에서 CTest 테스트 실행](media/cpp-cmake-run-tests.png)
 
