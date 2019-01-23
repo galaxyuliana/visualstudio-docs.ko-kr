@@ -14,19 +14,19 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: c9413e8b6e6db0c81eb1853c24506d20c8d06f3e
-ms.sourcegitcommit: aadb9588877418b8b55a5612c1d3842d4520ca4c
+ms.openlocfilehash: 8f207261af82f8f5e64710df5177e891a6a47c1a
+ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2017
-ms.locfileid: "24571443"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54347504"
 ---
 # <a name="active-script-profiling-overview"></a>액티브 스크립트 프로파일링 개요
 [액티브 스크립트 프로파일러 인터페이스](../winscript/reference/active-script-profiler-interfaces.md)는 스크립팅 엔진의 프로파일링을 사용하도록 설정합니다. 액티브 스크립트 프로파일링은 다음 부분으로 구성됩니다.  
   
 -   언어 엔진  
   
--   Host  
+-   호스트  
   
 -   프로파일러  
   
@@ -38,7 +38,7 @@ ms.locfileid: "24571443"
 > [!NOTE]
 >  [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] 언어 런타임은 작성 시 JS_PROFILER 환경 변수를 확인하여 프로파일링을 사용해야 하는지 여부를 결정합니다. 이 변수가 프로파일러의 CLSID로 설정되면 언어 런타임에서 만들 프로파일러를 결정하기 위해 해당 변수의 값을 사용하여 프로파일러 COM 개체의 인스턴스를 만듭니다.  
   
-## <a name="host"></a>Host  
+## <a name="host"></a>호스트  
  호스트는 언어 엔진을 만들고 실행될 스크립트를 언어 엔진에 제공합니다. 또한 스마트 호스트는 디버그하거나 프로파일링할 때 더 나은 정보를 제공하기 위해 디버거 또는 프로파일러에서 사용할 수 있는 문서 컨텍스트를 제공합니다.  
   
 ## <a name="profiler"></a>프로파일러  

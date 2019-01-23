@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: f365410421f490aeac1534eebc01630849ef1195
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8966512e2d2ad58edaff41ac21301dfce437152c
+ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53872267"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54347700"
 ---
 # <a name="msbuild-reference"></a>MSBuild 참조
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]용 빌드 시스템입니다. 다음 링크를 통해 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 참조 정보가 포함된 항목으로 이동할 수 있습니다.  
@@ -71,9 +71,6 @@ ms.locfileid: "53872267"
 ## <a name="see-also"></a>참고 항목  
  [MSBuild 개요](../msbuild/msbuild.md)     
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에 대해 소개하고 프로젝트를 빌드하는 데 MSBuild를 사용하는 방법을 설명하는 링크를 제공합니다.  
-  
- [Microsoft.Build.Conversion](https://docs.microsoft.com/dotnet/api/microsoft.build.conversion)  
- 변환 네임스페이스 참조를 포함합니다.  
   
  [Microsoft.Build.Evaluation](https://docs.microsoft.com/dotnet/api/microsoft.build.evaluation)  
  평가 네임스페이스 참조를 포함합니다.  

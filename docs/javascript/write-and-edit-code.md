@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: ebc5666ca037276d5b148151e2b41756b105dc2d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41e8628e6d747d523dae12448d81f39ad5de964b
+ms.sourcegitcommit: 8bfabab73b39b3b3e68a3e8dc225515e8b310fed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967429"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54398288"
 ---
 # <a name="learn-to-use-the-code-editor"></a>코드 편집기를 사용하는 방법 알아보기
 
@@ -26,9 +26,6 @@ Visual Studio의 코드 편집기에 대한 간략한 소개에서는 Visual Stu
 > 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다. 수행 중인 앱 개발 형식에 따라 Visual Studio와 함께 **Node.js 개발 워크로드**를 설치해야 할 수 있습니다.
 
 이 문서에서는 이미 JavaScript 개발에 친숙하다고 가정합니다. 그렇지 않은 경우 먼저 [Node.js 및 Express 앱 만들기](../javascript/tutorial-nodejs.md)와 같은 자습서를 살펴보는 것이 좋습니다.
-
-> [!TIP]
-> 이 문서와 함께 수행하려면 Visual Studio에 대해 JavaScript 설정을 선택했는지 확인합니다. IDE(통합 개발 환경)의 설정 선택에 대한 자세한 내용은 [환경 설정](../ide/environment-settings.md)을 참조하세요. 설정을 가져올 때 **JavaScript** 설정을 가져옵니다.
 
 ## <a name="add-a-new-project-file"></a>새 프로젝트 파일 추가
 
@@ -96,7 +93,7 @@ Visual Studio 편집기를 사용하면 형식, 함수 등 정의를 쉽게 검�
 
    ![정의 피킹 창](../javascript/media/write-code-peek-definition.png)
 
-1. 팝업 창의 오른쪽 위에서 "x"가 포함된 작은 상자를 선택하여 피킹된 정의 창을 닫습니다.
+팝업 창의 오른쪽 위에서 "x"가 포함된 작은 상자를 선택하여 피킹된 정의 창을 닫습니다.
 
 ## <a name="use-code-snippets"></a>코드 조각 사용
 

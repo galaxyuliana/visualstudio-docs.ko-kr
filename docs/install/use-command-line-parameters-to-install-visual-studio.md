@@ -16,12 +16,12 @@ ms.author: tglee
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: f2955a9efae219cf992936a8b64cac672a0cd680
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: eb4ab50f5b5b699d2cbb8fa800705f4ed218c588
+ms.sourcegitcommit: a8c841648d862c83a0f0d654df1b367c159adc5e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53869663"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54403969"
 ---
 # <a name="use-command-line-parameters-to-install-visual-studio-2017"></a>명령줄 매개 변수를 사용하여 Visual Studio 2017 설치
 
@@ -77,7 +77,8 @@ ms.locfileid: "53869663"
 | `--help, --?, -h, -?` | 이 페이지의 오프라인 버전을 표시합니다. |
 | `--config <path>` | **선택 사항** 및 **15.9의 새로운 기능**: 설치 또는 수정 작업 중에 이전에 저장한 설치 구성 파일을 기반으로 추가할 워크로드 및 구성 요소를 결정합니다. 이 작업은 추가 작업이며 파일에 없는 워크로드나 구성 요소를 제거하지 않습니다. 또한 제품에 적용되지 않는 항목은 추가되지 않습니다. 내보내기 작업 중에 설치 구성 파일을 저장할 위치가 결정됩니다. |
 
-> 참고: 여러 워크로드와 구성 요소를 지정할 경우 각 항목에 대해 `--add` 또는 `--remove` 명령줄 스위치를 반복해야 합니다.
+> [!IMPORTANT]
+> 여러 워크로드와 구성 요소를 지정할 경우 각 항목에 대해 `--add` 또는 `--remove` 명령줄 스위치를 반복해야 합니다.
 
 | **레이아웃 옵션** | **설명** |
 | ----------------------- | --------------- |
