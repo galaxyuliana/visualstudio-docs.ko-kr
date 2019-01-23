@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: a4e7ebc12419567fb5a5fe8499fb33cbb0d63d9e
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54348687"
----
 # [Windows 스크립트 인터페이스 참조](windows-script-interfaces-reference.md)
 ## [액티브 스크립트 인터페이스](active-script-interfaces.md)
 ### [액티브 스크립트 상수, 열거형 및 오류 코드](active-script-constants-enumerations-and-error-codes.md)
