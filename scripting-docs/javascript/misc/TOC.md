@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: ae9e416186764e447065061aad4d0449eefb7b1d
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54348960"
----
 # ['{' 필요](expected-left-curly-brace.md)
 # [식별자, 문자열 또는 숫자 필요](expected-identifier-string-or-number.md)
 # [함수 필요](function-expected.md)
