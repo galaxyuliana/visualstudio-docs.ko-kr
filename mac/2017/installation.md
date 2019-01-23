@@ -6,12 +6,13 @@ ms.author: crdun
 ms.date: 11/03/2018
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
-ms.openlocfilehash: ca24c09a0eedc9aee10a4fad8ceb126a2d72462a
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.custom: video
+ms.openlocfilehash: 2dca1fdeace3a69fee231c1c31d3db75587e8294
+ms.sourcegitcommit: a260df15214b3198a28ca4e312263942cf6f4ce7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54315811"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54443795"
 ---
 # <a name="install-visual-studio-2017-for-mac"></a>Mac용 Visual Studio 2017 설치
 
@@ -115,6 +116,10 @@ Mac용 Visual Studio를 설치하면 앱 코드 작성을 시작할 수 있습�
 ### <a name="net-core-apps-aspnet-core-web-apps-unity-game-development"></a>.NET Core 앱, ASP.NET Core 웹앱, Unity 게임 개발
 
 다른 워크로드의 경우 [워크로드](/visualstudio/mac/workloads) 페이지를 참조하세요.
+
+## <a name="related-video"></a>관련 동영상
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Acquisition/player]
 
 ## <a name="see-also"></a>참고 항목
 

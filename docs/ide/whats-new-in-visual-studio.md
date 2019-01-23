@@ -17,18 +17,21 @@ ms.author: tglee
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 52a2c396bc6a6e5e09d72d8a1f9a1ac7486bb280
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ac2597b5b87f75402dcc6553096c0bfcf3d30cf1
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53881025"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380093"
 ---
 # <a name="what39s-new-in-visual-studio-2017"></a>Visual Studio 2017의 새로운 기능
 
 **15.9 릴리스[용으로 업데이트됨](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)**
 
 Visual Studio의 이전 버전에서 업그레이드하려고 하십니까? Visual Studio 2017에서 제공할 수 있는 기능은 다음과 같습니다. 모든 개발, 앱 및 플랫폼에서 뛰어난 생산성을 제공합니다. Visual Studio 2017를 사용하여 Android, iOS, Windows, Linux, 웹 및 클라우드용 앱을 개발합니다. 빠르게 코딩하고, 간단하게 디버그 및 진단하고, 자주 테스트하며, 안심하고 릴리스하세요. 개발자 고유의 확장을 빌드하여 Visual Studio를 확장하고 사용자 지정할 수도 있습니다. 이 릴리스로 버전 제어를 사용하고, 민첩하게 대처하고, 효율적으로 공동 작업하세요.
+
+>[!div class="button"]
+>[Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 
 이전 버전 Visual Studio 2015부터 적용해 온 변경을 높은 수준에서 요약한 사항입니다.
 
@@ -50,11 +53,9 @@ Visual Studio 2017에서 가장 두드러진 개선 사항과 새로운 기능�
 
 ### <a name="a-new-setup-experience"></a>새로운 설치 환경
 
-[Visual Studio 2017 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) 또는 [Visual Studio 시스템 요구 사항 확인](/visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default&contextView=vs-2017)
+Visual Studio를 사용하면 필요할 때 필요한 기능만 쉽고 빠르게 설치할 수 있습니다. 또한 완전히 제거됩니다.
 
- Visual Studio를 사용하면 필요할 때 필요한 기능만 쉽고 빠르게 설치할 수 있습니다. 또한 완전히 제거됩니다.
-
- 가장 중요한 변화는 Visual Studio를 설치할 때 확인할 수 있는 새로운 설치 환경입니다. **작업** 탭에는 일반 프레임워크, 언어 및 플랫폼을 나타내도록 그룹화된 설치 옵션이 표시됩니다. .NET 데스크톱 개발에서 Windows, Linux 및 iOS의 C++ 애플리케이션 개발에 이르기까지 모든 작업을 포함합니다.
+가장 중요한 변화는 Visual Studio를 설치할 때 확인할 수 있는 새로운 설치 환경입니다. **작업** 탭에는 일반 프레임워크, 언어 및 플랫폼을 나타내도록 그룹화된 설치 옵션이 표시됩니다. .NET 데스크톱 개발에서 Windows, Linux 및 iOS의 C++ 애플리케이션 개발에 이르기까지 모든 작업을 포함합니다.
 
 필요한 작업을 선택하고, 필요할 때 변경합니다.
 

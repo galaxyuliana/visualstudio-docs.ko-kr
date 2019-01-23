@@ -1,7 +1,7 @@
 ---
 title: 오프라인 설치에 필요한 인증서 설치
 description: Visual Studio 오프라인 설치에 대한 인증서를 설치하는 방법을 알아봅니다.
-ms.date: 08/30/2017
+ms.date: 01/15/2019
 ms.custom: seodec18
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.author: tglee
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 8fd5e55d4f92c38c58aa7207f7770e7123b2127d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b804620ead343723dfafa5ebb108ccf4b51b1571
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53948591"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380164"
 ---
 # <a name="install-certificates-required-for-visual-studio-offline-installation"></a>Visual Studio 오프라인 설치에 필요한 인증서 설치
 
@@ -65,11 +65,11 @@ Visual Studio 설치 엔진은 신뢰할 수 있는 콘텐츠만 설치합니다
    **업데이트**: Visual Studio 2017 버전 15.8 미리 보기 2 이상의 경우, 다음 명령을 사용하여 일괄 처리 파일을 만듭니다.
 
    ```cmd
-   certmgr.exe -add [layout path]\certificates\manifestSignCertificates.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\manifestRootCertificate.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
 
-   certmgr.exe -add [layout path]\certificates\manifestCounterSignCertificates.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\manifestCounterSignRootCertificate.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
 
-   certmgr.exe -add [layout path]\certificates\vs_installer_opc.SignCertificates.cer -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\vs_installer_opc.RootCertificate.cer -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
    ```
 
 3. 일괄 처리 파일을 클라이언트에 배포합니다. 이 명령은 관리자 권한 프로세스에서 실행되어야 합니다.

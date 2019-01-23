@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 7cb006506b479b98710059e8c4d40f0b1af4682c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0fab9dc76bf47dbe03388aaef56c85ca2fa5a7bf
+ms.sourcegitcommit: d0b02affd24e66efed924c197824f35f823e3240
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53911093"
+ms.lasthandoff: 01/21/2019
+ms.locfileid: "54417904"
 ---
 # <a name="property-functions"></a>속성 함수
 
@@ -128,7 +128,7 @@ $([Class]::Property.Method(Parameters))
 예를 들어, 다음 코드를 사용하여 빌드 속성을 현재 날짜 오늘로 설정할 수 있습니다.
 
 ```xml
-<Today>$([System.DateTime]::Now.ToString("yyyy.MM.dd"))</Today>
+<Today>$([System.DateTime]::Now.ToString('yyyy.MM.dd'))</Today>
 ```
 
 ### <a name="msbuild-property-functions"></a>MSBuild 속성 함수

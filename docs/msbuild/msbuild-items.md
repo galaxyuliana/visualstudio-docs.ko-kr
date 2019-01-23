@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: d0714a4edc4b1bfe2a97492bfac85a1a62db1dc0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9046ec4c5523720a917849191cd42b197b115870
+ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898702"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54345606"
 ---
 # <a name="msbuild-items"></a>MSBuild 항목
 MSBuild 항목은 빌드 시스템에 대한 입력이며, 일반적으로 파일을 나타냅니다(파일은 `Include` 특성에 지정됨). 항목은 해당 요소 이름에 따라 항목 종류로 그룹화됩니다. 항목 종류는 작업의 매개 변수로 사용할 수 있는 명명된 항목 목록입니다. 작업은 항목 값을 사용하여 빌드 프로세스의 단계를 수행합니다.  
@@ -321,12 +321,13 @@ Output:
 -->  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고 항목
+ [Item 요소(MSBuild)](../msbuild/item-element-msbuild.md)  
+ [일반적인 MSBuild 프로젝트 항목](../msbuild/common-msbuild-project-items.md)  
  [MSBuild 개념](../msbuild/msbuild-concepts.md)  
  [MSBuild](../msbuild/msbuild.md)   
  [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)   
  [방법: 빌드에서 파일 제외](../msbuild/how-to-exclude-files-from-the-build.md)   
  [방법: 항목 목록을 쉼표로 구분하여 표시](../msbuild/how-to-display-an-item-list-separated-with-commas.md)   
  [항목 정의](../msbuild/item-definitions.md)   
- [일괄 처리](../msbuild/msbuild-batching.md)   
- [Item 요소(MSBuild)](../msbuild/item-element-msbuild.md)
+ [일괄 처리](../msbuild/msbuild-batching.md)
