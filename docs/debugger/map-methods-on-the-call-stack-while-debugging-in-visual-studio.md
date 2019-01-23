@@ -29,14 +29,14 @@ ms.author: mikejo
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: b8a00ca75135c2c2f29ef04d428e028e31054480
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8729b722465eb01d1e497e99ef13ecbedb66f91e
+ms.sourcegitcommit: d0b02affd24e66efed924c197824f35f823e3240
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53960841"
+ms.lasthandoff: 01/21/2019
+ms.locfileid: "54417930"
 ---
-# <a name="create-a-visual-map-of-the-call-stack-while-debugging"></a>디버깅 하는 동안 호출 스택의 시각적 맵 만들기 
+# <a name="create-a-visual-map-of-the-call-stack-while-debugging-c-visual-basic-c-javascript"></a>디버깅 하는 동안 호출 스택의 시각적 맵 만들기 (C#, Visual Basic, c + +, JavaScript)
 
 디버깅하는 동안 호출 스택을 시각적으로 추적할 코드 맵을 만듭니다. 맵을 기록해 두면 코드에서 어떤 작업을 하고 있는지 추적하여 버그를 찾는 데 집중할 수 있습니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "53960841"
 
 ##  <a name="MapStack"></a> 호출 스택 매핑
 
-1. Visual Studio Enterprise에서 C#, Visual Basic, c + +, JavaScript 또는 X + + 프로젝트를 선택 하 여 디버깅을 시작할 **디버그** > **디버깅 시작** 키를 누르거나 **F5**.
+1. Visual Studio Enterprise에서 C#, Visual Basic, c + + 또는 JavaScript 프로젝트를 선택 하 여 디버깅을 시작할 **디버그** > **디버깅 시작** 키를 누르거나 **F5**.
    
 1. 앱 중단 모드로 들어가거나 한 함수 한 단계씩 실행, 한 후 선택 **디버그** > **코드 맵**를 누르거나 **Ctrl**+**Shift** +**`**.
 
