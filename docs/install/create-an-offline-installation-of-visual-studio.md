@@ -1,7 +1,7 @@
 ---
 title: 오프라인 설치 만들기
 description: 불안정한 인터넷 연결 또는 낮은 대역폭이 있는 경우 Visual Studio를 오프라인으로 설치하는 방법에 알아봅니다.
-ms.date: 08/28/2018
+ms.date: 01/15/2019
 ms.custom: seodec18
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.author: tglee
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 8359a3b0d96c92a897532edffa7c6ac0b193cd3c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7be6077d89ffc302ae556c94ed270f8cfd760c38
+ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952402"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54345255"
 ---
 # <a name="create-an-offline-installation-of-visual-studio-2017"></a>Visual Studio 2017의 오프라인 설치 만들기
 
@@ -65,6 +65,9 @@ Visual Studio 2017은 다양한 네트워크 및 컴퓨터 구성에서 제대�
 
 명령 프롬프트를 열고 다음 예제의 명령 중 하나를 사용합니다. 여기에 나열된 예제에서는 Visual Studio의 Community Edition을 사용한다고 가정합니다. 사용 중인 버전에 맞게 명령을 조정하세요.
 
+> [!TIP]
+> 오류를 방지하려면 전체 설치 경로가 80자 미만인지 확인합니다.
+
 - .NET 웹 및 .NET 데스크톱 개발의 경우 다음을 실행합니다.
 
    ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US```
@@ -81,10 +84,10 @@ Visual Studio 2017은 다양한 네트워크 및 컴퓨터 구성에서 제대�
 
    ```vs_community.exe --layout c:\vs2017layout --lang en-US```
 
-영어 이외의 언어를 설치하려면 [언어 로케일 목록](#list-of-language-locales)에서 `en-US`를 로캘로 변경합니다. 그런 다음, [사용 가능한 구성 요소 및 워크로드 목록](workload-and-component-ids.md)을 사용하여 설치 캐시를 추가로 사용자 지정합니다.
+  > [!NOTE]
+  > 전체 Visual Studio 2017 레이아웃에는 35GB 이상의 디스크 공간이 필요합니다. 설치하려는 구성 요소로만 레이아웃을 만드는 방법에 대한 자세한 내용은 [명령줄 매개 변수를 사용하여 Visual Studio 2017 설치](use-command-line-parameters-to-install-visual-studio.md)를 참조하세요.
 
-> [!IMPORTANT]
-> 전체 Visual Studio 2017 레이아웃에는 35GB 이상의 디스크 공간이 필요하며 다운로드하는 데 다소 시간이 걸릴 수 있습니다. 설치하려는 구성 요소로만 레이아웃을 만드는 방법에 대한 자세한 내용은 [명령줄 매개 변수를 사용하여 Visual Studio 2017 설치](use-command-line-parameters-to-install-visual-studio.md)를 참조하세요.
+영어 이외의 언어를 설치하려면 [언어 로케일 목록](#list-of-language-locales)에서 `en-US`를 로캘로 변경합니다. 그런 다음, [사용 가능한 구성 요소 및 워크로드 목록](workload-and-component-ids.md)을 사용하여 설치 캐시를 추가로 사용자 지정합니다.
 
 ### <a name="step-3---install-visual-studio-from-the-local-cache"></a>3단계 - 로컬 캐시에서 Visual Studio 설치
 

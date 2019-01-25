@@ -9,12 +9,12 @@ description: 선택한 Visual Studio 구독에 포함된 DataCamp Training 구�
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 47199fc27491843985326f3ceee5dd6fbf3677ad
-ms.sourcegitcommit: f6dd17b0864419083d0a1bf54910023045526437
+ms.openlocfilehash: afda11bd8cbc0a8f0be1c25ab0b23d9f7b3a39b8
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2018
-ms.locfileid: "53802150"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380406"
 ---
 # <a name="the-datacamp-training-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 DataCamp Training 혜택
 
@@ -79,7 +79,7 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
 
 
 
-<sup>1</sup> *포함:  NFR(전매금지), FTE, MVP(Microsoft Valued Professional), RD(Region Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine*
+<sup>1</sup> *포함:* ‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
 
 
 > [!NOTE]

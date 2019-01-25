@@ -9,16 +9,16 @@ description: 일부 Visual Studio 구독에 포함된 Office 365 혜택을 알�
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: d68c8847dc9ab6f4daeaceb07dbd4023ca2148f5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ded8c37cfcd737e9285b6a1e2a5f9eb51ede2680
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968393"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380139"
 ---
 # <a name="office-365-pro-plus-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Office 365 Pro Plus
 
-최상의 작업을 만들 수 있습니다. 항상 업데이트되는 앱을 사용하여 어디서든 작업할 수 있습니다. Office 365 Pro Plus는 Word, Excel, PowerPoint, OneNote, Outlook, Publisher 및 Access(PC에서만 사용 가능한 Publisher 및 Access)와 같은 프리미엄 앱과 함께 제공되는 구독입니다. PC, Mac, iPad, iPhone, Android 태블릿 및 Android 휴대폰을 포함한 여러 디바이스에 앱을 설치할 수 있습니다. Office 365에는 1TB의 OneDrive 저장소, 매월 60분의 Skype 무료 통화, Microsoft 채팅 및 전화 지원과 같은 서비스도 포함됩니다. 구독을 사용할 경우 최신 버전의 앱을 다운로드할 수 있으며, 업데이트가 제공되면 자동으로 받을 수 있습니다.
+최상의 작업을 만들 수 있습니다. 항상 업데이트되는 앱을 사용하여 어디서든 작업할 수 있습니다. Office 365 Pro Plus는 Word, Excel, PowerPoint, OneNote, Outlook, Publisher 및 Access(PC에서만 사용 가능한 Publisher 및 Access)와 같은 프리미엄 앱과 함께 제공되는 구독입니다. PC, Mac, iPad, iPhone, Android 태블릿 및 Android 휴대폰을 포함한 여러 디바이스에 앱을 설치할 수 있습니다. Office 365에는 1TB의 OneDrive 스토리지, 매월 60분의 Skype 무료 통화, Microsoft 채팅 및 전화 지원과 같은 서비스도 포함됩니다. 구독을 사용할 경우 최신 버전의 앱을 다운로드할 수 있으며, 업데이트가 제공되면 자동으로 받을 수 있습니다.
 
 ## <a name="getting-started-with-office-365-pro-plus"></a>Office 365 Pro Plus 시작
 
@@ -63,7 +63,7 @@ Office용 애플리케이션을 개발하려는 경우 [Office 개발자 구독]
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
 | Visual Studio Dev Essentials | N/A  | 사용할 수 없음 |N/A |
 
-<sup>1</sup> *포함:  NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, MVP(Microsoft Valued Professional), RD(Region Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크.*
+<sup>1</sup> 포함:  NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크
 
 
 > [!NOTE]

@@ -8,16 +8,21 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - dotnet
-ms.openlocfilehash: 05104b9c734b35226fcd9a964372802f351605df
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5b10a0bae3a9e3b0ce5f9135669cb788f0ddce9d
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964285"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380383"
 ---
 # <a name="how-to-insert-xml-comments-for-documentation-generation"></a>방법: 문서 생성에 대한 XML 주석 삽입
 
-Visual Studio는 표준 XML 문서 주석 구조를 자동으로 생성하여 클래스와 메서드 같은 코드 요소의 문서화에 도움이 될 수 있습니다. 컴파일 타임에 문서 주석이 포함된 XMl 파일을 생성할 수 있습니다. Visual Studio 및 기타 IDE가 IntelliSense를 사용하여 형식 및 멤버에 대한 빠른 정보를 표시할 수 있도록 컴파일러에서 생성된 XML 파일은 .NET 어셈블리와 함께 배포될 수 있습니다. 또한 [DocFX](https://dotnet.github.io/docfx/) 및 [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) 같은 도구를 통해 XML 파일을 실행하여 API 참조 웹 사이트를 생성할 수 있습니다.
+Visual Studio는 표준 XML 문서 주석 구조를 자동으로 생성하여 클래스와 메서드 같은 코드 요소의 문서화에 도움이 될 수 있습니다. 컴파일 타임에 문서 주석이 포함된 XMl 파일을 생성할 수 있습니다.
+
+> [!TIP]
+> 생성된 XML 파일의 이름 및 위치 구성에 대한 자세한 내용은 [XML 주석을 사용하여 코드 문서화(C# 가이드)](/dotnet/csharp/codedoc)를 참조하세요.
+
+Visual Studio 및 기타 IDE가 IntelliSense를 사용하여 형식 및 멤버에 대한 빠른 정보를 표시할 수 있도록 컴파일러에서 생성된 XML 파일은 .NET 어셈블리와 함께 배포될 수 있습니다. 또한 [DocFX](https://dotnet.github.io/docfx/) 및 [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) 같은 도구를 통해 XML 파일을 실행하여 API 참조 웹 사이트를 생성할 수 있습니다.
 
 > [!NOTE]
 > XML 문서 주석을 자동으로 삽입하는 **주석 삽입** 명령은 [C#](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) 및 [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)에서 사용할 수 있습니다. 그러나 수동으로 [C++ 파일에 XML 문서 주석을 삽입](/cpp/ide/xml-documentation-visual-cpp)할 수 있으며 컴파일 타임에도 XML 문서 파일을 생성할 수 있습니다.

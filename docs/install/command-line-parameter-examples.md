@@ -1,7 +1,7 @@
 ---
 title: 설치에 대한 명령줄 매개 변수 예제
 description: 이러한 예제를 사용자 지정하여 Visual Studio의 고유한 명령줄 설치를 만듭니다.
-ms.date: 11/14/2018
+ms.date: 01/16/2019
 ms.custom: seodec18
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.author: tglee
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 6584d1b1864712a1c97b8d2405e7b366c5dd69d6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7ba829976e699f9087f9833f5578e80037f999c8
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989989"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380153"
 ---
 # <a name="command-line-parameter-examples-for-visual-studio-2017-installation"></a>Visual Studio 2017 설치에 대한 명령줄 매개 변수 예
 
@@ -28,7 +28,9 @@ ms.locfileid: "53989989"
 > 모든 명령에는 관리자 권한 상승이 필요하며 상승된 프롬프트에서 프로세스가 시작되지 않는 경우 사용자 계정 컨트롤 프롬프트가 표시됩니다.
 >
 > [!NOTE]
->  명령줄의 끝에 `^` 문자를 사용하여 여러 줄을 하나의 명령으로 연결할 수 있습니다. 또는 이러한 줄을 한꺼번에 단일 행에 배치할 수도 있습니다. PowerShell에서 일치하는 항목은 억음 악센트(`` ` ``) 문자입니다.
+> 명령줄의 끝에 `^` 문자를 사용하여 여러 줄을 하나의 명령으로 연결할 수 있습니다. 또는 이러한 줄을 한꺼번에 단일 행에 배치할 수도 있습니다. PowerShell에서 일치하는 항목은 억음 악센트(`` ` ``) 문자입니다.
+
+명령줄을 사용하여 설치할 수 있는 워크로드 및 구성 요소 목록은 [Visual Studio 워크로드 및 구성 요소 ID](workload-and-component-ids.md) 페이지를 참조하세요.
 
 ## <a name="using---installpath"></a>--installPath 사용
 
@@ -83,13 +85,15 @@ ms.locfileid: "53989989"
    --includeRecommended
   ```
 
-## <a name="using---includerecommended"></a>--includeRecommended 사용
+## <a name="using---all"></a>--all 사용
 
 * Visual Studio 2017 Enterprise Edition에서 사용할 수 있는 모든 워크로드 및 구성 요소의 대화형 설치를 시작합니다.
 
   ```cmd
-  vs_enterprise.exe --all --includeRecommended --includeOptional
+  vs_enterprise.exe --all
   ```
+
+## <a name="using---includerecommended"></a>--includeRecommended 사용
 
 * Node.js 개발 지원을 통해 Visual Studio 2017 Community Edition이 이미 설치된 컴퓨터에 Visual Studio 2017 Professional의 두 번째 명명된 인스턴스를 설치합니다.
 
@@ -169,3 +173,4 @@ vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
 * [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)
 * [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
 * [Visual Studio 2017의 오프라인 설치 만들기](create-an-offline-installation-of-visual-studio.md)
+* [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)

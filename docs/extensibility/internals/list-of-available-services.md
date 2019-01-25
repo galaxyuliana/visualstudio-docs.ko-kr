@@ -11,20 +11,21 @@ ms.author: gregvanl
 manager: douge
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7cd076e19a1732309a07feccca899669741b6482
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 95eff5fee76b755ba30d6ec5b74d990b2b250f72
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964639"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54800958"
 ---
 # <a name="list-of-available-services"></a>사용 가능한 서비스 목록
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 및 Visual Studio SDK는 다음 서비스를 지원 합니다. 일부 패키지는 여기에 나열 되지 자신의 서비스를 제공 합니다.-예를 들어 언어 서비스는 단일 서비스가 없는 GUID입니다. 레지스트리에서 언어 서비스의 GUID를 찾으려면 언어의 이름을 사용 해야 합니다.  
-  
- 여기에 나열 된 또는 일부 다른 소스 (예: 언어 서비스)에서 가져온 서비스 Guid를 사용 하 여 각 서비스를 사용 하 여 표시 된 인터페이스나 기본 인터페이스를 가져옵니다.  
-  
-## <a name="the-services"></a>서비스  
-  
+
+[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 및 Visual Studio SDK는 다음 서비스를 지원 합니다. 일부 패키지는 여기에 나열 되지 자신의 서비스를 제공 합니다.-예를 들어 언어 서비스는 단일 서비스가 없는 GUID입니다. 레지스트리에서 언어 서비스의 GUID를 찾으려면 언어의 이름을 사용 해야 합니다.
+
+여기에 나열 된 또는 일부 다른 소스 (예: 언어 서비스)에서 가져온 서비스 Guid를 사용 하 여 각 서비스를 사용 하 여 표시 된 인터페이스나 기본 인터페이스를 가져옵니다.
+
+## <a name="the-services"></a>서비스
+
 | 서비스 | 인터페이스 | Visual Studio | Visual Studio 2005 | 설명 |
 | - | - |---------------|--------------------| - |
 | <xref:Microsoft.VisualStudio.OLE.Interop.SBindHost> | <xref:Microsoft.VisualStudio.OLE.Interop.IBindHost> | 예 | 예 | 가져오는 데 사용 하 여 Vspackage를 <xref:Microsoft.VisualStudio.OLE.Interop.IBindHost> 비동기 데이터 전송을 용이 하 게 ActiveX 컨트롤의 인터페이스입니다. |
@@ -156,7 +157,7 @@ ms.locfileid: "53964639"
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsWebURLMRU> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsWebURLMRU> | 예 | 예 | VSPackage를 Url mru (가장 최근에 사용 됨) 목록에 URL을 추가 하 고 MRU 목록의 모든 Url 목록을 가져올 수 있습니다. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsWindowFrame> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> | 예 | 예 | VSPackage는 패키지 또는 패키지의 파트 수 수 있는 창 프레임을 가져올 수 있습니다. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsXMLMemberIndexService> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsXMLMemberIndexService> | 예 | 예 | 특정 메타 데이터 파일을 사용 하 여 연결 하는 XML 형식 문서 파일에 대 한 액세스를 제공 합니다. |
-  
-## <a name="see-also"></a>참고 항목  
- [COM 및 관리 서비스](http://msdn.microsoft.com/en-us/6c5808b4-ad87-48d7-ae06-33a81e7052af)   
- [서비스 사용 및 제공](../../extensibility/using-and-providing-services.md)
+
+## <a name="see-also"></a>참고자료
+
+- [서비스 사용 및 제공](../../extensibility/using-and-providing-services.md)

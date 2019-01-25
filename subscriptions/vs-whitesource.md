@@ -9,12 +9,12 @@ description: Visual Studio 구독에 포함된 WhiteSource Bolt 구독을 활성
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: a19c2a8882c7de27feef68416b6152e4a173ad54
-ms.sourcegitcommit: 73861cd0ea92e50a3be1ad2a0ff0a7b07b057a1c
+ms.openlocfilehash: 4169036161e19092a78133207261f2fe434c1316
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54154436"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380026"
 ---
 #  <a name="whitesource-bolt-in-visual-studio-subscriptions"></a>Visual Studio 구독의 WhiteSource Bolt
 
@@ -84,7 +84,7 @@ Azure DevOps Services를 사용하는 경우 녹색 **설치** 단추를 클릭�
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |해당 없음 |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> *포함:  Microsoft 파트너 네트워크(Enterprise).  제외: 기타 NFR(전매금지), VSIP(Visual Studio Industry Partner), FTE, MCT Software & Services Developer, BizSpark, Imagine, MVP(Microsoft Valued Professional), RD(Region Director), MCT Software & Services, Microsoft 파트너 네트워크(Professional).*
+<sup>1</sup> 포함:  Microsoft 파트너 네트워크(Enterprise),  제외: 기타 NFR(전매금지), VSIP(Visual Studio Industry Partner), FTE, MCT Software & Services Developer, BizSpark, Imagine, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Microsoft 파트너 네트워크(Professional)
 
 
 > [!NOTE]

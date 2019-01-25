@@ -9,12 +9,12 @@ description: 선택한 Visual Studio 구독에 포함된 Skill Me Up - Powered b
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscriptions
-ms.openlocfilehash: f69caa191a824f4f97ab3604b799e2b2b624f28e
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: c057eda862ffc0ef556d878a0afb3d1dd106918c
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53739710"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380208"
 ---
 # <a name="the-skill-me-up---powered-by-opsgility-training-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Skill Me Up - Powered by Opsgility 교육 혜택
 
@@ -46,7 +46,7 @@ ms.locfileid: "53739710"
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 | 해당 없음  |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-*제외:  MPN(Microsoft 파트너 네트워크), MVP(Microsoft Valued Professional), Microsoft Certified Trainer, BizSpark, Imagine, NFR, FTE*
+제외:  MPN(Microsoft 파트너 네트워크), MVP(Most Valuable Professional), RD(Regional Director), Microsoft Certified Trainer, BizSpark, Imagine, NFR, FTE
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.

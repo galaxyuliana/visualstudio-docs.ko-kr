@@ -9,12 +9,12 @@ description: Visual Studio 구독에 포함된 Concierge Chat 혜택을 알아�
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 6e8a039593d0d08add10e948eee1d923b818e4cb
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: a57a4b2460de373967d29c2e9c9667bdca8ab9ea
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53740236"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54379997"
 ---
 # <a name="concierge-chat"></a>Concierge Chat
 
@@ -49,7 +49,7 @@ Concierge Chat 서비스를 통해 도움을 받는 것은 정말 간단합니�
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |N/A |
 
-<sup>1</sup> *포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너), Microsoft Certified Trainer, BizSpark.  제외:  FTE, MVP(Microsoft Valued Professional), RD(Region Director), MPN(Microsoft 파트너 네트워크), Imagine.*
+<sup>1</sup> 포함:*NFR(전매 금지), VSIP(Visual Studio 업계 파트너), Microsoft Certified Trainer, BizSpark,  제외:* FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), Imagine
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.

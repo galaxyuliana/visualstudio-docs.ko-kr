@@ -9,12 +9,12 @@ description: 선택한 Visual Studio 구독에 포함된 LinkedIn 프리미엄 �
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: fa98ce41f0b88bd679568247eea57aa3e62318d3
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: fc77d1ebe0fe96c55000123e4bf040a35a37b619
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53739538"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380220"
 ---
 # <a name="the-linkedin-learning-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 LinkedIn 학습 혜택
 
@@ -102,7 +102,7 @@ LinkedIn Premium 구독 및 LinkedIn Learning 혜택을 활성화하려면:
 | Visual Studio Dev Essentials | 해당 없음  | 3개월 |아니요.  새 구독자만 사용할 수 있음 |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> *포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너).  제외:  MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, Imagine, MVP(Microsoft Valued Professional), RD(Region Director).  MCT 소프트웨어 및 서비스.*
+<sup>1</sup> 포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너),  제외:  MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, Imagine, MVP(Most Valuable Professional), RD(Regional Director),  MCT 소프트웨어 및 서비스
 
 
 > [!NOTE]

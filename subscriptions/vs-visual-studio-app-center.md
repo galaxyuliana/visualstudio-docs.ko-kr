@@ -9,12 +9,12 @@ description: Visual Studio 구독에 포함된 Visual Studio App Center 혜택�
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 0a1a50888666f1597da008cec5a13c86a23a805e
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: fd90f301abae9f0d85509a46255317282f284b9e
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53738640"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380103"
 ---
 # <a name="visual-studio-app-center-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Visual Studio App Center
 
@@ -51,7 +51,7 @@ Visual Studio App Center를 시작하는 것은 간단합니다.
 | Visual Studio Dev Essentials | 해당 없음  | Included                                                            |예 |
 
 
-<sup>1</sup> *포함:  NFR(전매금지), FTE, VSIP(Visual Studio Industry Partner), Imagine, MPN(Microsoft 파트너 네트워크), MCT Software & Services, MCT Software & Services Developer, BizSpark, MVP(Microsoft Valued Professional), RD(Region Director).*
+<sup>1</sup> 포함:  NFR(전매금지), FTE, VSIP(Visual Studio Industry Partner), Imagine, MPN(Microsoft 파트너 네트워크), MCT Software & Services, MCT Software & Services Developer, BizSpark, MVP(Most Valuable Professional), RD(Regional Director)
 
 
 > [!NOTE]

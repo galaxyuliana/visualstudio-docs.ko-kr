@@ -9,12 +9,12 @@ description: Azure DevOps를 Visual Studio 구독자로 사용할 수 있는 방
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 17210efba6e4505bbf4dc46fcd779be407f0c27e
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: 631683b48faed4e5b967e060b66123aaf685889b
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53740207"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380018"
 ---
 # <a name="azure-devops-benefits-for-visual-studio-subscribers"></a>Visual Studio 구독자용 Azure DevOps 혜택
 
@@ -33,7 +33,7 @@ Visual Studio 구독을 활성화하는 데 사용한 것과 동일한 ID 또는
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | Azure Boards & Repos(기본), Azure Test Plans                                              |  예          |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | Azure Boards & Repos(기본), Azure Test Plans                                              |  예          |
 
-<sup>1</sup> *포함:  NFR(전매금지), MVP(Microsoft Valued Professional), RD(Region Director), VSIP(Visual Studio Industry Partner), Microsoft 파트너 네트워크(Enterprise), BizSpark, MCT Software & Services Developer. 제외: MCT Software & Services, Imagine.*
+<sup>1</sup> 포함:  NFR(전매금지), MVP(Most Valuable Professional), RD(Regional Director), VSIP(Visual Studio Industry Partner), Microsoft 파트너 네트워크(Enterprise), BizSpark, MCT Software & Services Developer, 제외: MCT Software & Services, Imagine
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
