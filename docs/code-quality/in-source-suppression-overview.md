@@ -1,6 +1,6 @@
 ---
 title: 코드 분석 경고 표시 안 함
-ms.date: 08/03/2018
+ms.date: 12/01/2018
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,12 +15,12 @@ dev_langs:
 - CPP
 ms.workload:
 - multiple
-ms.openlocfilehash: d72697a8969983d83445808b75c63bc8657ecf1f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a377f08a8f0a3397aee778a71c74457420dec70f
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53932882"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54835060"
 ---
 # <a name="suppress-code-analysis-warnings"></a>코드 분석 경고 표시 안 함
 
@@ -66,17 +66,19 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 
 - **MessageId** -각 메시지에 대 한 문제의 고유 식별자입니다.
 
-- **범위** -경고가 표시 되는 대상입니다. 대상 지정 하지 않으면, 대상 특성으로 설정 됩니다. 지원 되는 범위는 다음과 같습니다.
+- **범위** -경고가 표시 되는 대상입니다. 대상 지정 하지 않으면, 대상 특성으로 설정 됩니다. 지원 [범위](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) 다음과 같습니다.
 
-    - Module
+   - `module`
 
-    - 네임스페이스
+   - `resource`
 
-    - 리소스
+   - `type`
 
-    - 형식
+   - `member`
 
-    - 멤버
+   - `namespace` -이 범위에는 자체 네임 스페이스에 대해 경고를 하지 않습니다. 네임 스페이스 내의 형식에 대 한 경고를 억제 하지는 않습니다.
+
+   - `namespaceanddescendants` -(New에 대 한 Visual Studio 2019)이이 범위를 표시 하지 않습니다 네임 스페이스 및 해당 하위 모든 기호는 경고입니다. `namespaceanddescendants` 값 Roslyn 분석기에만 유효 하 고 이진, FxCop 기반 정적 분석에서 무시 됩니다.
 
 - **대상** -경고가 표시 되는 대상을 지정 하는 데 사용 되는 식별자입니다. 정규화 된 항목 이름을 포함 해야 합니다.
 
@@ -151,7 +153,7 @@ public class Animal
 `[module: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Scope = "namespace", Target = "MyNamespace")]`
 
 > [!NOTE]
-> 네임 스페이스 범위를 사용 하 여 경고를 표시 하지 않으려면 자체 네임 스페이스에 대 한 경고를 표시 하지 않습니다. 네임 스페이스 내의 형식에 대 한 경고를 표시 하지 않습니다.
+> 사용 하 여 경고를 표시 하는 경우 `namespace` 범위 자체는 네임 스페이스에 대해 경고를 억제 합니다. 네임 스페이스 내의 형식에 대 한 경고를 표시 하지 않습니다.
 
 명시적 범위를 지정 하 여 모든 비 표시 오류를 나타낼 수 있습니다. 이러한 비 표시이 오류 전역 수준에 있어야 합니다. 멤버 수준 비 표시 오류 형식을 데코 레이트 하 여 지정할 수 없습니다.
 
@@ -166,7 +168,8 @@ public class Animal
 
 전역 비 표시 오류 파일에 비 표시 오류는 전역 수준 비 표시 오류 또는 대상을 지정 하지 않는 비 표시 오류는 유지 관리 합니다. 예를 들어, 어셈블리 수준 위반에 대해가이 파일에 저장 됩니다. 또한 일부 ASP.NET 비 표시 오류는 프로젝트 수준 설정 양식 뒤에 있는 코드에 사용할 수 없기 때문에이 파일에 저장 됩니다. 전역 비 표시 오류 파일이 생성 되어 처음 선택 하면 프로젝트에 추가 합니다 **프로젝트 비 표시 오류 파일의** 옵션을 합니다 **표시 안 함** 명령을 **오류 목록**창.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
+- <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope>
 - <xref:System.Diagnostics.CodeAnalysis>
 - [Roslyn 분석기를 사용 합니다.](../code-quality/use-roslyn-analyzers.md)

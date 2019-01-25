@@ -13,16 +13,16 @@ manager: douge
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: f10323a1123b795f1fa6b09d52252b8038b1a732
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 44b957f18061024278710683a63d250f16ae2e4d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53846167"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54761416"
 ---
 # <a name="create-dependency-diagrams-from-your-code"></a>코드에서 종속성 다이어그램 만들기
 
-소프트웨어 시스템의 상위 수준인 논리적 아키텍처를 시각화 하려면 만들기를 *종속성 다이어그램* Visual Studio에서. 코드가 디자인과이 디자인과 일관 되 게 하려면 종속성 다이어그램을 사용 하 여 코드의 유효성을 검사 합니다. Visual C# 및 Visual Basic 프로젝트에 대 한 종속성 다이어그램을 만들 수 있습니다. 이 기능을 지 원하는 Visual Studio의 버전을 보려면을 참조 하세요 [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)합니다.
+소프트웨어 시스템의 상위 수준인 논리적 아키텍처를 시각화 하려면 만들기를 *종속성 다이어그램* Visual Studio에서. 코드가 디자인과이 디자인과 일관 되 게 하려면 종속성 다이어그램을 사용 하 여 코드의 유효성을 검사 합니다. Visual C# 및 Visual Basic 프로젝트에 대 한 종속성 다이어그램을 만들 수 있습니다. 이 기능을 지 원하는 Visual Studio의 버전을 보려면을 참조 하세요 [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#edition-support-for-architecture-and-modeling-tools)합니다.
 
 ![종속성 다이어그램 만들기](../modeling/media/layerdiagramvisualizecode.png)
 
@@ -159,6 +159,7 @@ ms.locfileid: "53846167"
 
 ## <a name="see-also"></a>참고 항목
 
+- [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#edition-support-for-architecture-and-modeling-tools)
 - [비디오: 실시간에서 아키텍처 종속성 유효성 검사](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
 - [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)
 - [종속성 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)
