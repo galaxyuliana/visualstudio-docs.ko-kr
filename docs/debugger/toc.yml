@@ -515,11 +515,6 @@ items:
         - name: COM 서버 및 컨테이너 디버깅
           href: com-server-and-container-debugging.md
           items:
-          - name: COM 서버 디버그
-            href: how-to-debug-com-servers.md
-            items:
-            - name: SDI 서버 응용 프로그램
-              href: sdi-server-applications.md
           - name: RPC 디버깅을 사용하여 COM 클라이언트 및 서버 디버그
             href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
         - name: ActiveX 컨트롤 디버그
@@ -840,9 +835,9 @@ items:
   items:
   - name: Visual Studio 디버거의 새로운 기능
     href: what-s-new-for-the-debugger-in-visual-studio.md
-ms.openlocfilehash: 149cc7c04aad0d070a538ef32aa6b14c015eee56
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b8b5579f74964cb645fd21ba04ce0e8708a1517e
+ms.sourcegitcommit: d0b02affd24e66efed924c197824f35f823e3240
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53947480"
+ms.lasthandoff: 01/21/2019
+ms.locfileid: "54417943"
