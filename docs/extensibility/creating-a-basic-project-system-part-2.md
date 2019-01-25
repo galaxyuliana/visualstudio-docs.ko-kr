@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: douge
 ms.workload:
 - vssdk
-ms.openlocfilehash: d54e8833389d110efdcefd8d437645ef5824d8f6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6c4daab3ef0a045e1c352f170282db5e0189da3b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967776"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54800050"
 ---
 # <a name="create-a-basic-project-system-part-2"></a>2 부 기본 프로젝트 시스템을 만들려면
 이 시리즈의 첫 번째 연습의 [1 부 기본 프로젝트 시스템을 만들려면](../extensibility/creating-a-basic-project-system-part-1.md), 기본 프로젝트 시스템을 만드는 방법을 보여 줍니다. 이 연습에서는 Visual Studio 템플릿, 속성 페이지 및 기타 기능을 추가 하 여 기본 프로젝트 시스템에 작성 합니다. 이 시작 하기 전에 첫 번째 연습을 완료 해야 합니다.  
@@ -266,7 +266,7 @@ ZipProjects:
   
 5. 클릭 **취소** 및 디버깅을 중지 합니다.  
   
-   ![간단한 프로젝트 롤업](../extensibility/media/simpproj2_rollup.png "SimpProj2_Rollup")  
+   ![Simple Project Rollup](../extensibility/media/simpproj2_rollup.png "SimpProj2_Rollup")  
   
    ![간단한 프로젝트-콘솔 노드](../extensibility/media/simpproj2_subfolder.png "SimpProj2_Subfolder")  
   
@@ -339,7 +339,7 @@ ZipProjects:
     }  
     ```  
   
-## <a name="creatr-a-project-property-page"></a>Creatr 프로젝트 속성 페이지  
+## <a name="create-a-project-property-page"></a>프로젝트 속성 페이지를 만들려면  
  사용자 보기를 업데이트 하 고 템플릿을 기반으로 하는 프로젝트의 속성을 변경할 수 있도록 프로젝트 형식에 대 한 속성 페이지를 만들 수 있습니다. 이 섹션에서는 구성에 관계 없이 속성 페이지를 만드는 방법을 보여 줍니다. 이 기본 속성 페이지 속성 표를 사용 하 여 속성 페이지 클래스에서 노출 하는 공용 속성을 표시 합니다.  
   
  속성 페이지에서 파생 된 `SettingsPage` 기본 클래스입니다. 제공한 속성 그리드는 `SettingsPage` 클래스의 가장 기본적인 데이터 형식을 인식 하 고 표시 하는 방법을 알고 있습니다.  또한는 `SettingsPage` 클래스에는 프로젝트 파일에 속성 값을 유지 하는 방법을 알고 있습니다.  
@@ -350,7 +350,7 @@ ZipProjects:
   
 -   OutputType  
   
--   RootNamespace 합니다.  
+-   RootNamespace.  
   
 1. 에 *SimpleProjectPackage.cs* 파일을이 추가 `ProvideObject` 특성을 `SimpleProjectPackage` 클래스:  
   
