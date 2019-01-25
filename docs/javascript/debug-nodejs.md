@@ -1,6 +1,6 @@
 ---
-title: Node.js 앱 디버그
-description: Visual Studio는 Visual Studio에서 Node.js 애플리케이션의 디버깅을 지원합니다.
+title: JavaScript 또는 TypeScript 앱 디버그
+description: Visual Studio는 Visual Studio에서 JavaScript and TypeScript 앱의 디버깅을 지원합니다.
 ms.date: 12/03/2018
 ms.topic: conceptual
 ms.devlang: javascript
@@ -11,16 +11,19 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 6e0ba454a00fb2cebdfaa8ba5fdba63ef3ed2748
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 29b58d588a07be8ba25ab844da171222c57df545
+ms.sourcegitcommit: 8bfabab73b39b3b3e68a3e8dc225515e8b310fed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955895"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54398236"
 ---
-# <a name="debug-a-nodejs-app-in-visual-studio"></a>Visual Studio에서 Node.js 앱 디버그
+# <a name="debug-a-javascript-or-typescript-app-in-visual-studio"></a>Visual Studio에서 JavaScript 또는 TypeScript 앱 디버그
 
 Visual Studio를 사용하여 JavaScript 및 TypeScript 코드를 디버깅할 수 있습니다. 중단점을 설정 및 적중하고, 디버거를 연결하고, 변수를 검사하고, 호출 스택을 보고, 다른 디버깅 기능을 사용할 수 있습니다.
+
+> [!TIP]
+> 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다. 수행 중인 앱 개발 형식에 따라 Visual Studio와 함께 **Node.js 개발 워크로드**를 설치해야 할 수 있습니다.
 
 ## <a name="debug-server-side-script"></a>서버 쪽 스크립트 디버그
 

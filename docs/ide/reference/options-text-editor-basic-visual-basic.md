@@ -1,6 +1,6 @@
 ---
 title: 옵션, 텍스트 편집기, 기본(VB), 고급
-ms.date: 11/04/2016
+ms.date: 01/16/2019
 ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
@@ -19,19 +19,47 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 6ca2178b61aa3cd2aa83314f00c231d564a10944
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8014ad72978a4b3ee37547a6660f739973ae4e46
+ms.sourcegitcommit: 8bfabab73b39b3b3e68a3e8dc225515e8b310fed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53871241"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54398249"
 ---
 # <a name="options-text-editor-basic-visual-basic-advanced"></a>옵션, 텍스트 편집기, 기본(Visual Basic), 고급
-**옵션**(**도구** 메뉴), **텍스트 편집기**의 **기본** 폴더에 있는 **VB 관련** 속성 페이지 대화 상자에는 다음 속성이 포함되어 있습니다.
+**옵션**(**도구** 메뉴), **텍스트 편집기**의 **Basic** 폴더에 있는 **VB 관련** 속성 페이지 대화 상자에는 다음 속성이 포함되어 있습니다.
+
+## <a name="analysis"></a>분석
+
+- 전체 솔루션 분석 사용
+
+   열린 코드 파일뿐만 아니라 솔루션의 모든 파일에 대해 코드 분석을 사용할 수 있습니다. 자세한 내용은 [전체 옵션 분석](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)을 참조하세요.
+
+## <a name="using-directives"></a>Using 지시문
+
+- using 정렬 시 ‘System’ 지시문 먼저 배치
+
+   선택한 경우, 마우스 오른쪽 단추 클릭 메뉴의 **using 제거 및 정렬** 명령은 `using` 지시문을 정렬하고 '시스템' 네임스페이스를 목록의 맨 위에 배치합니다.
+   
+- Using 지시문 그룹 구분
+
+   선택한 경우, 마우스 오른쪽 단추 클릭 메뉴의 **using 제거 및 정렬** 명령은 동일한 루트 네임스페이스를 가진 지시문 그룹 사이에 빈 줄을 삽입하여 `using` 지시문을 구분합니다.
+   
+- 참조 어셈블리의 형식에 대한 using 제안 
+- NuGet 패키지의 형식에 대한 using 제안 
+
+   이러한 옵션을 선택한 경우 [빠른 작업](../quick-actions.md)을 사용하여 NuGet 패키지를 설치하고 참조되지 않은 형식에 대한 `using` 지시문을 추가할 수 있습니다.
+
+   ![Visual Studio의 NuGet 패키지 설치 빠른 작업](media/nuget-lightbulb.png)
+  
+
+## <a name="highlighting"></a>강조 표시
 
  **참조 및 키워드의 강조 표시 사용**
 
-텍스트 편집기는 기호의 모든 인스턴스 또는 `If..Then`, `While...End While` 또는 `Try...Catch...Finally` 등의 절에 있는 모든 키워드를 강조 표시합니다. **Ctrl** + **Shift** + **아래쪽 화살표** 또는 **Ctrl** + **Shift** + **위쪽 화살표**를 눌러 강조 표시된 참조 또는 키워드 간에 탐색할 수 있습니다.
+텍스트 편집기는 기호의 모든 인스턴스 또는 `If..Then`, `While...End While` 또는 `Try...Catch...Finally` 등의 절에 있는 모든 키워드를 강조 표시할 수 있습니다. **Ctrl** + **Shift** + **아래쪽 화살표** 또는 **Ctrl** + **Shift** + **위쪽 화살표**를 눌러 강조 표시된 참조 또는 키워드 간에 탐색할 수 있습니다.
+
+## <a name="outlining"></a>개요
 
 **태그 개요 사용**
 
@@ -47,7 +75,13 @@ ms.locfileid: "53871241"
 |일련의 한 줄 구문 뒤|-   가져오기 문 뒤, 클래스 파일에서 형식 정의 앞<br />-   클래스에서 선언된 모든 프로시저 뒤, 프로시저 앞|
 |한 줄 선언 뒤(블록 수준 선언 외)|-   가져오기 문, 상속 문, 변수 선언, 이벤트 선언, 대리자 선언 및 DLL 선언 문에 이어서|
 
- **코드 서식 다시 적용** 텍스트 편집기는 코드 서식을 적절하게 다시 지정합니다. 이 옵션을 선택하면 코드 편집기는 다음을 수행합니다.
+## <a name="block-structure-guides"></a>블록 구조 가이드
+
+코드에서 중괄호(**{}**) 사이에 세로 점선을 표시하려면 이 확인란을 선택합니다. 이렇게 하면 선언 수준 및 코드 수준 구문의 개별 코드 블록을 쉽게 확인할 수 있습니다.
+
+## <a name="editor-help"></a>편집기 도움말
+
+**코드 서식 다시 적용** 텍스트 편집기는 코드 서식을 적절하게 다시 지정합니다. 이 옵션을 선택하면 코드 편집기는 다음을 수행합니다.
 
 -   올바른 탭 위치에 코드 정렬
 
@@ -65,7 +99,7 @@ ms.locfileid: "53871241"
 
 **맺음 구문 자동 삽입**
 
- 예를 들어 프로시저 선언의 첫 번째 줄 `Sub Main—`을(를) 입력하고 **Enter** 키를 누르면 텍스트 편집기는 일치하는 `End Sub` 줄을 추가합니다. 마찬가지로, [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) 루프를 추가하면 텍스트 편집기는 일치하는 `Next` 문을 추가합니다. 이 옵션을 선택하면 코드 편집기는 종료 구문을 자동으로 추가합니다.
+예를 들어 프로시저 선언의 첫 번째 줄 `Sub Main`을 입력하고 **Enter** 키를 누르면 텍스트 편집기는 일치하는 `End Sub` 줄을 추가합니다. 마찬가지로, [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) 루프를 추가하면 텍스트 편집기는 일치하는 `Next` 문을 추가합니다. 이 옵션을 선택하면 코드 편집기는 종료 구문을 자동으로 추가합니다.
 
 **Interface 및 MustOverride 멤버 자동 삽입**
 

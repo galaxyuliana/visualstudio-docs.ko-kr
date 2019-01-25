@@ -9,12 +9,12 @@ description: 선택한 Visual Studio 구독에 포함된 Power BI Pro 구독에 
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 3d4d24c48868c85b89e833191c03ab8188637de2
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: a437dd537caa75865a245a22387a4db53d94927f
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54315503"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380177"
 ---
 # <a name="power-bi-pro-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Power BI Pro
 
@@ -83,7 +83,7 @@ Power BI Pro를 사용하려면 기존 계정을 사용하여 계정을 설정�
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |해당 없음|
 | Visual Studio Enterprise(월간 클라우드) | Azure                                       | 사용할 수 없음                                  |해당 없음|
 
-<sup>1</sup> *포함:  NFR(전매금지), VSIP(Visual Studio Industry Partner), BizSpark, MCT Software & Services Developer, MCT Software & Service, MVP(Microsoft Valued Professional), RD(Region Director).  제외:  MPN(Microsoft 파트너 네트워크), FTE, Imagine.*
+<sup>1</sup> 포함:  NFR(전매금지), VSIP(Visual Studio Industry Partner), BizSpark, MCT Software & Services Developer, MCT Software & Service, MVP(Most Valuable Professional), RD(Regional Director),  제외:  MPN(Microsoft 파트너 네트워크), FTE, Imagine
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.

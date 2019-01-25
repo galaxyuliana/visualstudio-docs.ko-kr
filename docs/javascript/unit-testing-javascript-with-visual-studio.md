@@ -1,6 +1,6 @@
 ---
-title: Node.js의 단위 테스트
-description: Visual Studio는 Visual Studio용 Node.js 도구를 사용하여 JavaScript 코드의 단위 테스트를 제공합니다.
+title: 유닛 테스트 JavaScript 및 TypeScript
+description: Visual Studio는 Visual Studio용 Node.js 도구를 사용하는 지원 유닛 테스트 JavaScript 및 TypeScript 코드를 제공합니다.
 ms.date: 06/06/2018
 ms.topic: conceptual
 ms.devlang: javascript
@@ -11,14 +11,14 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: a65fc53f72e2e7a90b03f376ced55fffbe9ecbf8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 75f40dc5abe10f75dccad91fa96d7e149267dc47
+ms.sourcegitcommit: 8bfabab73b39b3b3e68a3e8dc225515e8b310fed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952766"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54398223"
 ---
-# <a name="unit-testing-in-nodejs"></a>Node.js의 단위 테스트
+# <a name="unit-testing-javascript-and-typescript-in-visual-studio"></a>Visual Studio의 유닛 테스트 JavaScript 및 TypeScript
 
 Visual Studio용 Node.js 도구를 사용하면 명령 프롬프트로 전환하지 않고도 더 인기 있는 JavaScript 프레임워크를 사용하는 단위 테스트를 작성하고 실행할 수 있습니다.
 

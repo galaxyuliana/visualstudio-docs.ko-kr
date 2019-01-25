@@ -9,12 +9,12 @@ description: Visual Studio 구독에 포함된 Windows 개발자 계정에 대�
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: df49564a920ea6f674c6d92ec2203962407a751e
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: 584048c088acb7ee3a390d941dbd6c59ce2ac3a0
+ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53739892"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "54380259"
 ---
 # <a name="windows-developer-account-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Windows 개발자 계정
 
@@ -60,7 +60,7 @@ Windows 개발자 계정을 사용하려면 기존 계정을 사용하여 계정
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음                                            |  해당 없음|
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> *포함:  NFR(전매 금지), FTE, VSIP(Visual Studio 업계 파트너), BizSpark, MCT 소프트웨어 및 서비스 개발자. 제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Microsoft Valued Professional), RD(Region Director), MCT Software & Services.*
+<sup>1</sup> 포함:  NFR(전매 금지), FTE, VSIP(Visual Studio 업계 파트너), BizSpark, MCT 소프트웨어 및 서비스 개발자, 제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services
 
 
 > [!NOTE]

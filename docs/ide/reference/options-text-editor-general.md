@@ -1,40 +1,22 @@
 ---
 title: 일반, 텍스트 편집기, 옵션
-ms.date: 11/04/2016
+ms.date: 01/18/2019
 ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
-- VS.TOOLSOPTIONSPAGES.TEXT_EDITOR.SQL_SERVER_TOOLS.GENERAL
-- VS.ToolsOptionsPages.Text_Editor.All_Languages.General
 - VS.ToolsOptionsPages.Text_Editor.RDL_Expression.General
 - VS.ToolsOptionsPages.Text_Editor.SQL.General
 - vs.toolsoptionspages.text_editor
-- VS.ToolsOptionsPages.Text_Editor.XML.General
 - VS.ToolsOptionsPages.Text_Editor.T-SQL80.General
-- VS.ToolsOptionsPages.Text_Editor.CSS
-- VS.ToolsOptionsPages.Text_Editor.Plain_Text.General
 - VS.ToolsOptionsPages.Text_Editor.SQL_Script.General
-- VS.ToolsOptionsPages.Text_Editor.CSharp.General
-- VS.ToolsOptionsPages.Text_Editor.All_Languages
 - VS.ToolsOptionsPages.Text_Editor.T-SQL7.General
-- VS.ToolsOptionsPages.Text_Editor.Basic.General
 - VS.ToolsOptionsPages.Text_Editor.T-SQL.General
-- VS.ToolsOptionsPages.Text_Editor.F#.Tabs
-- VS.ToolsOptionsPages.Text_Editor.F#
 - VS.ToolsOptionsPages.Text_Editor.PL/SQL.General
-- VS.ToolsOptionsPages.Text_Editor.C/C++.General
-- VS.ToolsOptionsPages.Text_Editor.Plain_Text
-- VS.ToolsOptionsPages.Text_Editor.HTML
-- VS.ToolsOptionsPages.Text_Editor.XAML.General
 - VS.ToolsOptionsPages.Text_Editor
-- VS.ToolsOptionsPages.Text_Editor.F#.General
 - VS.ToolsOptionsPages.Text_Editor.XOML.General
 - VS.ToolsOptionsPages.Text_Editor.SQL
-- vs.toolsoptionspages.text_editor.c/c++
 - VS.ToolsOptionsPages.Text_Editor.SQL_Script
-- VS.ToolsOptionsPages.Text_Editor.T-SQL90.General
 - VS.ToolsOptionsPages.Text_Editor.General
-- VS.ToolsOptionsPages.Text_Editor.CSharp
 - VS.ToolsOptionsPages.Text_Editor.Python
 - VS.ToolsOptionsPages.Text_Editor.R
 helpviewer_keywords:
@@ -48,12 +30,12 @@ ms.author: gewarren
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: fdd4e366451dd81738305893727554e8b07ffb04
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ce5553f54b5864c27fc4dfa14376e8eb7735c613
+ms.sourcegitcommit: d0b02affd24e66efed924c197824f35f823e3240
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53871332"
+ms.lasthandoff: 01/21/2019
+ms.locfileid: "54417800"
 ---
 # <a name="options-text-editor-general"></a>일반, 텍스트 편집기, 옵션
 
@@ -77,6 +59,16 @@ ms.locfileid: "53871332"
 
 기본적으로 편집기에서는 바이트 순서 표시 또는 문자 집합 태그를 검색하여 인코딩을 검색합니다. 현재 문서에서 아무것도 찾을 수 없으면 코드 편집기에서는 바이트 시퀀스를 검색하여 UTF-8 인코딩을 자동 검색합니다. 인코딩 자동 검색을 사용하지 않으려면 이 옵션의 선택을 취소합니다.
 
+### <a name="follow-project-coding-conventions"></a>프로젝트 코딩 규칙 따름
+
+선택할 경우 프로젝트의 지정된 코딩 규칙이 개인 프로젝트에서 사용하는 코딩 규칙을 재정의합니다.
+
+### <a name="enable-mouse-click-to-perform-go-to-definition"></a>마우스 클릭을 사용하여 정의로 이동 수행
+
+선택할 경우 **Ctrl** 키를 누르고 마우스를 클릭한 채 요소를 가리킬 수 있습니다. 이렇게 하면 선택한 요소의 정의로 이동합니다. **한정자 키 사용** 드롭다운에서 **Alt** 또는 **Ctrl** + **Alt**를 선택할 수도 있습니다.
+
+코드 편집기에서 현재 위치를 벗어나지 않고 창에 요소의 정의를 표시하려면 **Peek 뷰에서 정의 열기** 확인란을 선택합니다. 
+
 ## <a name="display"></a>표시
 
 ### <a name="selection-margin"></a>선택 영역 여백
@@ -94,6 +86,10 @@ ms.locfileid: "53871332"
 ### <a name="highlight-current-line"></a>현재 줄 강조 표시
 
 이 옵션을 선택하면 커서가 놓이는 코드 줄 주위에 회색 상자가 표시됩니다.
+
+### <a name="show-structure-guide-lines"></a>구조 안내선 표시
+
+선택할 경우 세로 선이 편집기에 개별 코드 블록을 쉽게 식별할 수 있는 정형 코드 블록과 함께 일렬로 표시됩니다.
 
 ## <a name="see-also"></a>참고 항목
 
