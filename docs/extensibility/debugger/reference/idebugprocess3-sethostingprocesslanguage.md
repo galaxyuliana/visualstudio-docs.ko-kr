@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: e42f33ed-f29c-4e45-92ce-ab504b72d77c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 170e5a2f315248164cf6af277197f7a9f9da05b5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: dd1d2ff495838082614fe6b5e7d84906d99c145a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933679"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54962812"
 ---
 # <a name="idebugprocess3sethostingprocesslanguage"></a>IDebugProcess3::SetHostingProcessLanguage
 이 메서드는 프로세스에서 호스트 되는 언어를 설정 합니다. 이 언어 적절 한 식 계산기를 로드 하려면 디버그 엔진 (DE)에서 사용할 수 있습니다.  

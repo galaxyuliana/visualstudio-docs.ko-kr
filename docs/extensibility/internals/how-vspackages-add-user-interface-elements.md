@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: abc5d9d9-b267-48a1-92ad-75fbf2f4c1b9
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 40e3d5266b69419e719c5de7a003e642e8016614
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b83da9cfa04183a1820d8b455d6bc609216cf9cc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53962690"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54975298"
 ---
 # <a name="how-vspackages-add-user-interface-elements"></a>Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법
 VSPackage 예제에서는, 메뉴, 도구 모음에 대 한 사용자 인터페이스 (UI) 요소를 추가 하 고 windows를 이용 하 여 Visual Studio 도구를 *.vsct* 파일입니다.  

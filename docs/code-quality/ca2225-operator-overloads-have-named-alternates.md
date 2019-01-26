@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: af8f7ab1-63ad-4861-afb9-b7a7a2be15e1
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0a60a050f6403abec471b02e44696081f07c347a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3da94ae10da4632eafda48f145d9bb099d4c3207
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53954807"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54965135"
 ---
 # <a name="ca2225-operator-overloads-have-named-alternates"></a>CA2225: 연산자 오버로드에는 명명된 대체 항목이 있습니다.
 
@@ -52,13 +52,13 @@ ms.locfileid: "53954807"
 |/=|/=|/=|나누기|
 |==|=|==|같음|
 |^|Xor|^|Xor|
-|^=|Xor =|^=|Xor|
+|^=|Xor=|^=|Xor|
 |>|>|>|비교|
 |>=|>=|>=|비교|
 |++|N/A|++|증가|
 |<>|!=|같음|
-|<<|<<|<<|왼쪽 Shift|
-|<<=|<<=|<<=|왼쪽 Shift|
+|<<|<<|<<|LeftShift|
+|<<=|<<=|<<=|LeftShift|
 |<|<|<|비교|
 |<=|<=|\<=|비교|
 |&&|N/A|&&|LogicalAnd|
@@ -69,14 +69,14 @@ ms.locfileid: "53954807"
 |* (이진)|*|*|곱하기|
 |*=|N/A|*=|곱하기|
 |~|Not|~|OnesComplement|
-|>>|>>|>>|오른쪽 Shift|
-=|N/A|>>=|오른쪽 Shift|
+|>>|>>|>>|RightShift|
+=|N/A|>>=|RightShift|
 |-(이진)|-(이진)|-(이진)|빼기|
 |-=|N/A|-=|빼기|
 |true|IsTrue|N/A|IsTrue (속성)|
 |-(단항)|N/A|-|negate|
 |+ (단항)|N/A|+|더하기|
-|false|IsFalse|False|IsTrue (속성)|
+|False|IsFalse|False|IsTrue (속성)|
 
  해당 사항 없음 = = 선택한 언어로 오버 로드할 수 없습니다.
 

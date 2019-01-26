@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 5caac810-1a79-47df-a27b-c46c5040bf34
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 92221120dbed0994f17ea7a875826c5f25bfdcaa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cb3ecbeb2150554d989e00705709a26bb7a3479c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53881971"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54957964"
 ---
 # <a name="ca1002-do-not-expose-generic-lists"></a>CA1002: 제네릭 목록을 노출하지 마세요.
 
@@ -64,5 +64,5 @@ ms.locfileid: "53881971"
 
  [CA1007: 적합 한 제네릭을 사용합니다](../code-quality/ca1007-use-generics-where-appropriate.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [제네릭](/dotnet/csharp/programming-guide/generics/index)

@@ -11,22 +11,22 @@ helpviewer_keywords:
 ms.assetid: 8112aac8-a269-40e5-b92b-9b9a6ff5a542
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: daf9747ac8918166f08aa087640160805d850629
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9d054348ea88fda4e6e6f7102aaddf49acfe1100
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53959850"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070476"
 ---
 # <a name="supportscodeseparation-element-visual-studio-templates"></a>SupportsCodeSeparation 요소(Visual Studio 템플릿)
 지정 여부는 **별도 파일에 코드를 배치** 의 확인란을 사용할 수는 **새 항목 추가** 대화 상자.  
   
  \<VSTemplate>  
  \<TemplateData>  
- \<SupportsCodeSeparation >  
+ \<SupportsCodeSeparation>  
   
 ## <a name="syntax"></a>구문  
   

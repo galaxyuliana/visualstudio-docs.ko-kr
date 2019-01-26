@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7bcc1485834209133897c776fcb52ed5c600d9ca
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5b37d8d123ff45d563c165a6833151692582ebe6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53837409"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54961561"
 ---
 # <a name="how-to-use-wizards-with-project-templates"></a>방법: 프로젝트 템플릿에 마법사 사용
 
@@ -226,19 +226,19 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
   
 9. 찾을 합니다 *sn.exe* 도구를 서명 합니다. 예를 들어, Windows 10 64 비트 운영 체제에서 일반적인 경로 다음과 같습니다.  
   
-     *C:\Program Files (x86) \Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools*  
+     *C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools*  
   
      도구를 찾을 수 없는 경우 실행 **여기서 /R 합니다.  sn.exe** 명령 창에 있습니다. 경로 기록해 둡니다.  
   
 10. 공개 키를 추출 합니다 *key.snk* 파일입니다. 명령 창에 입력  
   
-     **\<sn.exe의 위치 > \sn.exe-p key.snk outfile.key 합니다.**  
+     **\<location of sn.exe>\sn.exe -p key.snk outfile.key.**  
   
      경로를 잊지 *sn.exe* 디렉터리 이름에 공백이 있는 경우 따옴표를 사용 하 여!  
   
 11. Outfile는에서 공개 키를 토큰을 가져옵니다.  
   
-     **\<sn.exe의 위치 > \sn.exe-t outfile.key 합니다.**  
+     **\<location of sn.exe>\sn.exe -t outfile.key.**  
   
      다시 따옴표를 잊지 마십시오. 다음과 같은 출력에 줄을 표시 됩니다.  
   
@@ -313,7 +313,7 @@ namespace $safeprojectname$
   
      `$custommessage$` 마법사 사용자 입력된 폼에 입력 된 텍스트를 사용 하 여 대체 되었습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
 
 - <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>   
 - [템플릿 사용자 지정](../ide/customizing-project-and-item-templates.md)  

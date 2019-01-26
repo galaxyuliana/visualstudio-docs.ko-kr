@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 8265f31c-c45b-4858-882c-6d9f1e3b9083
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 01756778c7937654339fe0fc41b752ed02659d3c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 243202b116af63a7d14672cd33d30030e8e987b0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828526"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959085"
 ---
 # <a name="inside-the-core-editor"></a>핵심 편집기 내에서
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 핵심 편집기가 텍스트 정보를 쿼리하고 수정할 수 있는 여러 구성 요소 집합입니다. 핵심 편집기 기존 API를 사용 하 여 사용자 지정 하면, 편집기 어댑터를 통해 라우팅되는 이러한 사용자 지정을 사용 하 여 계속 수 있습니다. 하지만 좋습니다, 새 편집기 API로 사용자 지정을 적용 하는.  

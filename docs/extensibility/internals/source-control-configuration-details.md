@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ca634ae50268a87f637dd812508ae793bad74115
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c01c71673640814006fe6771aa841852c247fd54
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53894235"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54965317"
 ---
 # <a name="source-control-configuration-details"></a>소스 제어 구성 세부 정보
 소스 제어를 구현 하려면 다음을 수행 하 여 편집기나 프로젝트 시스템을 올바르게 구성 해야 합니다.

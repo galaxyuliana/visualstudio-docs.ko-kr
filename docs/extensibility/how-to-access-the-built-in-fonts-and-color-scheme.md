@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f1e579ab9e42ffd7448e3c0dbe62766c058e6f01
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 831123caead6593fdbb548fd6e69a63646790d8a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874604"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969092"
 ---
 # <a name="how-to-access-the-built-in-fonts-and-color-ccheme"></a>방법: 기본 제공 글꼴을 액세스 및 ccheme 색
 Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연결 된 글꼴 및 색 구성표를 있습니다. 이 체계를 통해 액세스할 수 있습니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 인터페이스입니다.
@@ -49,7 +49,7 @@ Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연�
 
 1.  특수 한 유형의 다음 위치에 레지스트리 항목 범주를 생성 합니다.
 
-     *[HKLM\SOFTWARE\Microsoft \Visual Studio\\\<Visual Studio 버전 > \FontAndColors\\\<범주 >*]
+     *[HKLM\SOFTWARE\Microsoft \Visual Studio\\\<Visual Studio version>\FontAndColors\\\<Category>*]
 
      *\<범주 >* 범주의 지역화 되지 않은 이름입니다.
 
@@ -93,7 +93,7 @@ if (spPropCatContainer != NULL){
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [글꼴 및 색 사용](../extensibility/using-fonts-and-colors.md)
 - [텍스트 색 지정에 대 한 글꼴 및 색 정보 가져오기](../extensibility/getting-font-and-color-information-for-text-colorization.md)

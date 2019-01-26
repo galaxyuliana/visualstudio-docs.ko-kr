@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: c7ec2366-91c4-477f-908d-e89068bdb3e3
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e55eed8ffd2651ced96f192972127e710a565eaa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ba85e4a6974330cf28ce6ef3f1c30c6688765802
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53830731"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54956339"
 ---
 # <a name="supporting-multiple-document-views"></a>여러 문서 보기 지원
 편집기에 대 한 별도 문서 데이터 및 문서 보기 개체를 만들어 문서 둘 이상의 뷰를 제공할 수 있습니다. 추가 문서 보기를는 유용할 수 있는 경우에 따라 다음과 같습니다.  

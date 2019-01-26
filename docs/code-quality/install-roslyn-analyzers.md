@@ -9,15 +9,15 @@ helpviewer_keywords:
 - Roslyn analyzers
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: d828fbf2bce435c067b6bc1cc66ce379f3304988
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b6a9c2dcbbee307578f837b8472b1026c0aa7a2f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929460"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969581"
 ---
 # <a name="install-net-compiler-platform-analyzers"></a>.NET 컴파일러 플랫폼 분석기 설치
 
@@ -31,7 +31,7 @@ Visual Studio 2017에는.NET 컴파일러 플랫폼의 핵심 집합을 포함 (
 
    > [!NOTE]
    > 각 분석기 패키지에 대 한 www.nuget.org 페이지에 붙여 명령을 표시 합니다 **패키지 관리자 콘솔**합니다. 클립보드에 텍스트를 복사 하는 유용한 단추는 짝수입니다.
-   > 
+   >
    > ![패키지 관리자 콘솔 명령을 표시 하는 NuGet.org 페이지](media/nuget-install-command.png)
 
    분석기 어셈블리 설치 되 고 나타나지 **솔루션 탐색기** 아래에서 **참조가** > **분석기**합니다.
@@ -72,7 +72,7 @@ Visual Studio 2017에는.NET 컴파일러 플랫폼의 핵심 집합을 포함 (
 > [!div class="nextstepaction"]
 > [Visual Studio에서 Roslyn 분석기 사용](../code-quality/use-roslyn-analyzers.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 Roslyn 분석기 개요](../code-quality/roslyn-analyzers-overview.md)
 - [FxCop 분석기 설치](../code-quality/install-fxcop-analyzers.md)

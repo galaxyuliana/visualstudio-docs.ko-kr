@@ -10,16 +10,16 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, creating solutions
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: aeeacdd9fc52f26a14930f0756be463ac4f87eec
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9fd859c3d7fe7af56df976d0e46182dd7f1c6fc6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53943774"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54964199"
 ---
 # <a name="how-to-create-a-domain-specific-language-solution"></a>방법: 도메인 특정 언어 솔루션 만들기
 도메인 특정 언어 (DSL) 특수 한 Visual Studio 솔루션을 사용 하 여 만들어집니다.
@@ -130,7 +130,7 @@ ms.locfileid: "53943774"
 
  강력한 이름 지정에 대 한 자세한 내용은 참조 하세요. [강력한 어셈블리 만들기 및 사용](http://go.microsoft.com/fwlink/?LinkId=186073)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)
 - [도메인 특정 언어 도구 용어집](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

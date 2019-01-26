@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 596c28ee-f48d-4252-a5c4-f730c43a39e6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c515270e530428e7d23ce6c8ea698024eecf145d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d54fbcf42786e7c31244dc0c37f4986e36096e17
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53877668"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958488"
 ---
 # <a name="managing-configuration-options"></a>구성 옵션 관리
 새 프로젝트 형식의 만들면 어떻게 프로젝트가 빌드되는, 패키지, 배포 및 실행을 결정 하는 프로젝트 및 솔루션 구성 설정을 관리 해야 합니다. 다음 항목 프로젝트 및 솔루션 구성에 설명 합니다.  

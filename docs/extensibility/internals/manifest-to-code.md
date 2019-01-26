@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 17ecacea-397d-4a97-b003-01bd5d56e936
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 597fc90ff7b98018aab0fa11fb44fb1bc152272e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1c1a44327205f9bdbdab00ac3554f501c52e1c36
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53895443"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54967549"
 ---
 # <a name="manifest-to-code"></a>Manifest to Code
 코드 도구 매니페스트입니다.imagemanifest 파일을 Visual Studio 이미지 서비스는 래퍼 파일 또는 c + +에서 이미지 매니페스트의 값 참조에 대 한 파일을 생성 하는 콘솔 응용 프로그램을 C#, Visual Studio 용 VB 또는.vsct 파일 확장입니다. 이 도구를 직접 Visual Studio 이미지 서비스에서 요청 이미지 또는 코드는 자체 UI와 렌더링 중 하나를 처리 하지 않습니다 하는 경우 Api 통해 매니페스트 값을 전달 하는 데 사용할 수 있는 래퍼 파일을 생성 합니다.  
@@ -40,11 +40,11 @@ ms.locfileid: "53895443"
   
  **예제**  
   
--   ManifestToCode /manifest:D:\MyManifest.imagemanifest c:\  
+-   ManifestToCode /manifest:D:\MyManifest.imagemanifest                /language:CSharp  
   
 -   ManifestToCode /manifest:D:\MyManifest.imagemanifest /language:C++ /namespace: 내:: Namespace /imageIdClass:MyImageIds /monikerClass:MyMonikers /classAccess:friend  
   
--   ManifestToCode /manifest:D:\MyManifest.imagemanifest /language:VSCT /imageIdClass:MyImageIds  
+-   ManifestToCode /manifest:D:\MyManifest.imagemanifest                /language:VSCT                /imageIdClass:MyImageIds  
   
 ## <a name="notes"></a>노트  
   

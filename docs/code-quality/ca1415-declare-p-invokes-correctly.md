@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 42a90796-0264-4460-bf97-2fb4a093dfdc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 41240738c7c303a04cc3d4251ece3efbead14c4d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fd948964899c58aa5c0f34b5421cfb370c4dd7eb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53840832"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54967117"
 ---
 # <a name="ca1415-declare-pinvokes-correctly"></a>CA1415: P/Invoke를 올바르게 선언하십시오.
 
@@ -48,5 +48,5 @@ ms.locfileid: "53840832"
 
  [!code-csharp[FxCop.Interoperability.DeclarePInvokes#1](../code-quality/codesnippet/CSharp/ca1415-declare-p-invokes-correctly_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [비관리 코드와의 상호 운용](/dotnet/framework/interop/index)

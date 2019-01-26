@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: adee79df-8db5-4510-a7df-c50f4dbf5e35
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c64bd12bba1c3935575078a551d2edf06702e68d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0235caf659ca259780d87a002b5b9eb5225e59aa
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53900379"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54967091"
 ---
 # <a name="idebugbreakpointerrorevent2"></a>IDebugBreakpointErrorEvent2
 이 인터페이스는 보류 중인 중단점을 바인딩할 수 없습니다는 로드 프로그램 경고 또는 오류 때문에 세션 디버그 관리자 SDM ()를 알려 줍니다.  

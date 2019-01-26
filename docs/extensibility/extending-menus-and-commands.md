@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 7b2be4b9-e3fe-4412-874f-ae72ebc84c4b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2ef32dd2bbc44f784a2faaf6edcafcba96a8f113
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 052dff899c1f6c6141e605c41e8269a584800ed7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53910492"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54966818"
 ---
 # <a name="extend-menus-and-commands"></a>메뉴 및 명령 확장
 Visual Studio에 작업 및 프로세스를 추가 하는 방법은 있습니다. 대부분의 명령 메뉴 또는 도구 모음에 표시 됩니다. VSPackage 프로젝트 템플릿은 기본적인 명령을 구현 하는 방법을 보여 줍니다. 약간 더 긴 하지만 여전히 기본적인 구현을 참조 하세요 [메뉴 명령을 사용 하 여 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.  

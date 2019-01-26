@@ -8,16 +8,16 @@ helpviewer_keywords:
 - Domain-Specific Language, compartment shape
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 6a15432e170c814a6e80aebb86a9db31d073a98b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cc2527739c40802f3e21ea4fabebfc20fb09cdcc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53835223"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54962133"
 ---
 # <a name="properties-of-compartment-shapes"></a>구획 모양의 속성
 구획 도형은 도메인 특정 언어의 도메인 클래스를 표시 하 여 셰이프 중 하나입니다. 확장 및 구획을 축소할 수 있습니다.

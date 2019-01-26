@@ -11,17 +11,17 @@ helpviewer_keywords:
 - SharePoint development in Visual Studio, browsing SharePoint sites
 - SharePoint development in Visual Studio, SharePoint Connections
 - SharePoint Connections [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d3804b97967cffb299393e7e3a8866e51a2e3224
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 825bf975d877cd6b0844e86aabff605daa30a900
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931361"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875487"
 ---
 # <a name="browse-sharepoint-connections-by-using-server-explorer"></a>서버 탐색기를 사용 하 여 SharePoint 연결 찾아보기
   로컬 SharePoint 연결에서 검색할 수 있습니다 **서버 탐색기**합니다. 이 방법을 사용하면 시스템에서 SharePoint 사이트의 구성 요소를 탐색할 수 있습니다. 목록 정 및 콘텐츠 형식과 같은 SharePoint 사이트 구성 요소 라는 노드에 나타납니다 **SharePoint 연결** 의 트리 뷰에서 **서버 탐색기**합니다. 표시할 **서버 탐색기**, 메뉴 모음에서 **뷰** > **서버 탐색기**합니다. SharePoint 사이트 구성 요소를 표시하는 것 외에도 바로 가기 메뉴의 명령을 사용하여 항목을 제거하거나, 속성을 보거나, 트리 뷰를 새로 고칠 수 있습니다.  
@@ -49,5 +49,5 @@ ms.locfileid: "53931361"
 |-----------|-----------------|  
 |[방법: SharePoint 연결 추가 또는 제거](../sharepoint/how-to-add-or-remove-sharepoint-connections.md)|새 SharePoint 사이트에 추가 하는 데 필요한 단계를 설명 합니다 **SharePoint 연결** 노드에서 **서버 탐색기**합니다.|  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)  

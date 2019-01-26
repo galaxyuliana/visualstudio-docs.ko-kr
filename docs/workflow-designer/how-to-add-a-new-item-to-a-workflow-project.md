@@ -6,15 +6,15 @@ ms.prod: visual-studio-dev15
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 65a3e9f9bcfbc1200321d2399afbba1585e5c8d3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8988c84ccc3cc1b13e76cff3eedf52083049a828
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53950584"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936127"
 ---
 # <a name="how-to-add-a-new-item-to-a-workflow-project"></a>방법: 워크플로 프로젝트에 새 항목을 추가 합니다.
 
@@ -45,6 +45,6 @@ ms.locfileid: "53950584"
 
 1. 선택 **추가** 프로젝트에 항목을 추가 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [워크플로 프로젝트 만들기](../workflow-designer/creating-a-workflow-project.md)

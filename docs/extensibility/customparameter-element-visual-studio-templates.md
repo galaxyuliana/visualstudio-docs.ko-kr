@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 743c4489-74ac-403a-bbaa-eed7d785a3ac
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fcf6c82298d3ce322214b96ea638c2201e3da2d3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6cb97e6b4c111689cb94c0df7c04c565e96a39cb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53851526"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54966766"
 ---
 # <a name="customparameter-element-visual-studio-templates"></a>CustomParameter 요소 (Visual Studio 템플릿)
 사용자 지정 매개 변수 이름 및 템플릿에서 프로젝트 또는 항목을 만들 때 사용할 값을 포함 합니다.  

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 9810fc50-43c7-4916-9916-1cf333037b51
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c6e9de42d4ff1000ead76158aa3a8c9956286d89
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ab22fa02cdad34031c970c6d0abf591aba5b58bf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53845644"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54973319"
 ---
 # <a name="reference-visual-studio-debugging-apis"></a>참조(Visual Studio 디버깅 API)
 Visual Studio 디버깅 SDK 참조의 런타임 아키텍처 및 디버거 및 해당 구성 요소 기능에 대 한 기본 모델을 간략하게 설명합니다. 설명서에서는 인터페이스를 통해 정의 하는 동작 외에도 설명 구성 요소 및 인터페이스에 대 한 최대한 적은 가정 합니다.  

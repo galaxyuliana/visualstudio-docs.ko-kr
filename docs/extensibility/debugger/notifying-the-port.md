@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: f9fce48e-7d4e-4627-a0fb-77b75428146a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9997a9013ef48820d8f2dc4846f787e4042431ec
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 01730d60c6e4a3d53b95bce55e0abe111d02f347
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964720"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54967065"
 ---
 # <a name="notify-the-port"></a>포트에 게 알림
 프로그램을 시작한 후 포트 알려야, 다음과 같습니다.  
@@ -44,7 +44,7 @@ ms.locfileid: "53964720"
   
  DE의 id가 확인 되 면 SDM를 프로그램에 연결할 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [프로그램 시작](../../extensibility/debugger/launching-a-program.md)   
  [시작 후 연결](../../extensibility/debugger/attaching-after-a-launch.md)   
  [디버깅 작업](../../extensibility/debugger/debugging-tasks.md)

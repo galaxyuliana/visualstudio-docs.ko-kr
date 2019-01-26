@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: e8e78514-5720-4fc2-aa43-00b6af482e38
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2e074a5e293d5b76f19abd97354b10becd603c5b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 93fe45a6d286ab2acdf486e31c6d360af82e79ff
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931504"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54974843"
 ---
 # <a name="how-to-implement-error-markers"></a>방법: 오류 마커를 구현 합니다.
 오류 표식 (또는 빨간색 물결 무늬 밑줄)은 가장 어려운 구현 하려면 텍스트 편집기 사용자 지정 합니다. 그러나 VSPackage의 사용자에 게 혜택을 제공 하는 데 비용이 훨씬 보다 클 수 있습니다. 약간 오류 표식에 언어 파서 하다 구불구불한 또는 물결 모양의 빨간색 선으로 잘못 된 고 판단 되는 텍스트를 표시 합니다. 잘못 된 코드를 시각적으로 표시 하 여 프로그래머에 게 도움이 됩니다.  
@@ -53,7 +53,7 @@ ms.locfileid: "53931504"
   
 4.  오류가 발견 되 면 작업 공급자는 작업 항목 인스턴스를 만듭니다. 이 이런은 환경을 텍스트 보기에는 오류 표식으로 사용 하는 텍스트 마커를 만듭니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [텍스트 마커를 사용 하 여 기존 API를 사용 하 여](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)   
  [방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md)   
