@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 5bb24967-434a-4ef4-87a0-2f3250c9e22d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b8c655faed880b8e3b8764c8846288f07ef481a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 16a9c34d06cc94e3c9fb41fa3cc09b12b7349849
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53881690"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54992895"
 ---
 # <a name="expose-project-objects"></a>프로젝트 개체 노출
 
@@ -91,6 +91,6 @@ ms.locfileid: "53881690"
   
      사용자 지정 `Projects` 컬렉션 개체는 프로젝트 자동화 모델의 나머지 부분에 대 한 편의 진입점입니다. 프로젝트 개체에서 액세스할 수 이기도 합니다 <xref:EnvDTE.Solution> 프로젝트 컬렉션입니다. 사용 하 여 소비자에 게 제공 하는 적절 한 코드 및 레지스트리 항목을 만든 후 `Projects` 컬렉션 개체에 남아 있는 프로젝트 모델에 대 한 표준 개체 구현을 제공 해야 합니다. 자세한 내용은 [프로젝트 모델링](../../extensibility/internals/project-modeling.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>

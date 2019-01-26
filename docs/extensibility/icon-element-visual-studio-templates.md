@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: ec01d903-f4c2-4ca2-9cbc-e939ec84016c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: db50dd4fa62bb1d6a3947d0c7091c94b2138efff
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 145974e3e9eefd92f052940834079ad05f3d3849
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868081"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55013933"
 ---
 # <a name="icon-element-visual-studio-templates"></a>Icon 요소 (Visual Studio 템플릿)
 경로 중에 나타나는 아이콘으로 사용 되는 이미지 파일의 파일 이름을 지정 합니다 **새 프로젝트** 또는 **새 항목 추가** 템플릿에 대 한 대화 상자.  
@@ -93,6 +93,6 @@ ms.locfileid: "53868081"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)
