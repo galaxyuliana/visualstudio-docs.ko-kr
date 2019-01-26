@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: e0f666a0-92a7-4f9c-ba79-d05b13fb7f11
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9c260a8ebfd925b9da1210482b519aacddfa77ff
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d508c26e27b6a9d9709eff00b2b248ee5feb3466
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986858"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000239"
 ---
 # <a name="migrating-a-legacy-language-service"></a>레거시 언어 서비스 마이그레이션
 프로젝트를 업데이트 하 고 source.extension.vsixmanifest 파일을 프로젝트에 추가 하 여 Visual Studio의 이후 버전으로는 레거시 언어 서비스를 마이그레이션할 수 있습니다. Visual Studio 편집기를 조정 하는 언어 서비스 자체 이전과 같이 작동 계속 됩니다.  

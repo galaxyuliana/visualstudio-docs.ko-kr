@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 63ec1ae8-27da-4574-aa15-1c986fe9fe58
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a9ecc1d7970fe8be98d199130db6e87847de3aee
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7cbce46afaa6227f5d15720be8aebd4c60f5f236
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53839007"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015503"
 ---
 # <a name="idebugprocesssecurityquerycansafelyattach"></a>IDebugProcessSecurity::QueryCanSafelyAttach
 이 메서드는 사용자는 안전 하지 않은 프로세스에 연결 하려면 먼저 경고를 표시 하려면 포트 공급자를 사용 합니다.  

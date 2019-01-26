@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 2c017094-3ba2-4067-83f9-147df1d96bce
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d9701fe592e7e357b5f1a89d5bef884d4dbf1ce4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 860b03b26c9da4975d4482412214dcc69199de47
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931131"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54985148"
 ---
 # <a name="idebugportevents2"></a>IDebugPortEvents2
 이 인터페이스는 프로세스 및 프로그램 만들기 및 소멸을 특정 포트에서의 수신기를 (일반적으로 세션 디버그 관리자 [SDM] 또는 디버그 엔진)에 게 알립니다. 프로세스 및 포트에서 실행 중인 프로그램의 실시간 보기를 제공 합니다.이 정보를 사용할 수 있습니다.  

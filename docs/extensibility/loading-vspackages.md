@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: f4c3dcea-5051-4065-898f-601269649d92
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 477ac9b0b97a7544402f0f70204b8ecf7b43ba95
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fe619a93b7e099f70e223c022d56dc4eb6e3df09
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53925838"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012471"
 ---
 # <a name="load-vspackages"></a>Vspackage를 로드 합니다.
 Vspackage는 해당 기능이 필요한 경우에 Visual Studio에 로드 됩니다. 예를 들어, Visual Studio 프로젝트 팩터리 또는 VSPackage 구현 하는 서비스를 사용 하는 경우 VSPackage가 로드 됩니다. 이 기능은 성능 향상을 위해 가능할 때마다 사용 되는 지연 된 로드를 라고 합니다.  
