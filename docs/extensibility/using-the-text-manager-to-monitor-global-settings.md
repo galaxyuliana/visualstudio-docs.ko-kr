@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 023e7671-cf65-419c-9bc1-3c4ee92aa436
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 43b4f1c2de4862b30dd5822931b02292b942c50f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 29f054a5b584f7cf5471e783d28e857994c1a5a2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53877551"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54989369"
 ---
 # <a name="use-the-text-manager-to-monitor-global-settings"></a>전역 설정을 모니터링 하는 텍스트 관리자를 사용 하 여
 핵심 편집기를 구현 하는 경우 이러한 변경 내용은 편집기 인스턴스에 영향을 줄 수 있으므로 전역 설정에 대 한 변경 내용을 모니터링 해야 합니다. 텍스트 관리자에 의해 발생 하는 이벤트를 수신 하 여 변경 내용을 추적할 수 있습니다. 예를 들어, 코어 편집기에서 해당 문서 데이터 개체와 같은 모양이 나 구성 요소의 동작에 대 한 전역 기본 설정을 지정 하는 경우 텍스트 관리자는이 정보를 저장 및 영향을 받는 모든 클라이언트에 통신 합니다.  
@@ -38,6 +38,6 @@ ms.locfileid: "53877551"
   
   제공 하는 텍스트 관리자에 대 한 이벤트 알림을 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManagerEvents> 인터페이스입니다. 이 인터페이스를 구현 합니다. 클라이언트에서 이벤트를 처리 하는 개체는 텍스트 관리자 발생 합니다. 사용 하 여 이러한 이벤트에 대 한 등록을 <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> 텍스트 관리자 인터페이스입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [핵심 편집기 내에서](../extensibility/inside-the-core-editor.md)   
  [편집기 기능](https://msdn.microsoft.com/library/bdac940d-1f14-4019-a01f-fd0bb3dc7198)

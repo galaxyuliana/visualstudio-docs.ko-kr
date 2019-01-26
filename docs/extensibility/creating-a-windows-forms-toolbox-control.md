@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b84c554427d443d54d117b72cec5a423e10e7887
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8edfce1eb86169581acfa2ace857a766b899ee6b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53872923"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54992527"
 ---
 # <a name="create-a-windows-forms-toolbox-control"></a>Windows Forms 도구 상자 컨트롤 만들기
 Visual Studio 확장성 도구 (VS SDK)에 포함 된 Windows Forms 도구 상자 컨트롤 항목 템플릿을 사용 하면 자동으로 추가 되는 컨트롤을 만듭니다는 **도구 상자** 확장이 설치 되는 경우. 이 항목에서는 템플릿을 사용 하 여 다른 사용자에 게 배포할 수 있는 간단한 카운터 컨트롤을 만드는 방법을 보여 줍니다.  
@@ -208,7 +208,7 @@ Visual Studio 확장성 도구 (VS SDK)에 포함 된 Windows Forms 도구 상�
 ## <a name="next-steps"></a>다음 단계  
  작성 하는 경우는 **도구 상자** 컨트롤을 Visual Studio는 라는 파일을 만듭니다 *ProjectName.vsix* 프로젝트의 \bin\debug\ 폴더에 있습니다. 업로드 하 여 컨트롤을 배포할 수 있습니다 합니다 *.vsix* 네트워크 또는 웹 사이트에 파일입니다. 열리는 경우는 *.vsix* 파일인 컨트롤 설치 되며 Visual Studio에 추가할 **도구 상자** 사용자의 컴퓨터. 업로드할 수 있습니다 합니다 *.vsix* 파일을 [Visual Studio Marketplace](http://go.microsoft.com/fwlink/?LinkID=123847) 사용자에 이동 하 여 찾을 수 있도록 합니다 **도구**  >   **확장 및 업데이트** 대화 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio의 다른 부분 확장](../extensibility/extending-other-parts-of-visual-studio.md)   
  [WPF 도구 상자 컨트롤 만들기](../extensibility/creating-a-wpf-toolbox-control.md)   
  [Visual Studio의 다른 부분 확장](../extensibility/extending-other-parts-of-visual-studio.md)   

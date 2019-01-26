@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 950f5fc1-d041-4090-9a5c-60844768a4cc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5be63468d6d290085778791d086a7b541395127f
-ms.sourcegitcommit: 35bebf794f528d73d82602e096fd97d7b8f82c25
+ms.openlocfilehash: 760dc8bb501fb345cbee686818ad0b4d6698a684
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53562440"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55041128"
 ---
 # <a name="buildonload-attribute-and-element"></a>BuildOnLoad 특성 및 요소
 
@@ -82,7 +82,7 @@ ms.locfileid: "53562440"
 </VSTemplate>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [BuildProjectOnload 요소](buildprojectonload-element-visual-studio-templates.md)
 - [TemplateContent 요소](../extensibility/templatecontent-element-visual-studio-templates.md)

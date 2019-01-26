@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 09a18bd2-b788-411a-9da6-067d806e46f6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 089b0f56292dfdeb56eb770a5cec5abf6c0d6b82
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c8cff11ca46924b84c61f45fb5c11993313bff9d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53869416"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993743"
 ---
 # <a name="sccget-function"></a>SccGet 함수
 이 함수는 하나 이상의 파일 보기 및 컴파일하기 위한 아니라 편집의 복사본을 검색 합니다. 대부분의 시스템에서 파일 읽기 전용으로 태그가 지정 됩니다.  
@@ -48,7 +48,7 @@ SCCRTN SccGet(
  lpFileNames  
  [in] 검색할 파일의 정규화 된 이름의 배열입니다.  
   
- 옵션이  
+ fOptions  
  [in] 명령 플래그 (`SCC_GET_ALL`, `SCC_GET_RECURSIVE`).  
   
  pvOptions  
@@ -100,6 +100,6 @@ SCCRTN SccGet(
   
     6.  업데이트 된 *b.txt* 파일 이제 확인할 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [특정 명령에 사용 되는 비트](../extensibility/bitflags-used-by-specific-commands.md)

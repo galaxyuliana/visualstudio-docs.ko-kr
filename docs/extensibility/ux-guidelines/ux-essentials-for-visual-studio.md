@@ -5,18 +5,18 @@ ms.topic: conceptual
 ms.assetid: a793cf7a-f230-43ce-88d0-fa5d6f1aa9c7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6cd0824d245e835159e3887ce7286b2e55876ba3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ac8fdabc54965d521df2552ad4f152b53a7be70a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874874"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54997184"
 ---
-# <a name="ux-essentials-for-visual-studio"></a>Visual Studio 용 UX Essentials
-## <a name="best-practices"></a>최선의 구현 방법  
+# <a name="ux-essentials-for-visual-studio"></a>UX Essentials for Visual Studio
+## <a name="best-practices"></a>최선의 방법  
   
 ### <a name="1-be-consistent-within-the-visual-studio-environment"></a>1. Visual Studio 환경 내에서 일관 되어야 합니다.  
   
@@ -83,7 +83,7 @@ ms.locfileid: "53874874"
   
  ![Visual Studio 안티패턴은 기본적으로 UI 오류 상태에 배치 합니다. ](../../extensibility/ux-guidelines/media/manifestdesignererrordeclarationsanti-pattern.png "ManifestDesignererrordeclarationsanti 패턴")<br />Visual Studio 안티패턴은 기본적으로 UI 오류 상태에 배치 합니다.
   
-#### <a name="alternatives"></a>대안  
+#### <a name="alternatives"></a>대체 형식  
  이 문제를 훨씬 더 나은 솔루션을 해야 합니다.  
   
 -   경고 없이 선언에 추가할 사용자를 허용 하 고 항목 속성을 설정 하려면 즉시 이동 합니다.  
@@ -109,7 +109,7 @@ UI를 해제 하기 전에 설명 텍스트를 읽을 수 있습니다를 강제
 #### <a name="result"></a>결과  
  간단한 닫기 단추 (한 번의 클릭) 하는 대신 사용자는 단순히 UI 비디오 링크가 표시 되는 모든 위치를 해제 하려면 두 번 클릭을 사용 하도록 강제 됩니다.  
   
-#### <a name="alternatives"></a>대안  
+#### <a name="alternatives"></a>대체 형식  
  Internet Explorer, Office 및 Visual Studio에 일반적인 패턴에 따라이 상황에 맞는 올바른 디자인 됩니다: 사용자 마우스로 가리키면 도구 설명을 볼 수 고 한 번의 클릭 UI를 숨깁니다.  
   
  ![앤티 설명 텍스트&#45;패턴 &#45; 올바른](../../extensibility/ux-guidelines/media/explanatorytextanti-pattern-correct.png "Explanatorytextanti 패턴 수정")<br />올바른 비디오 링크 패턴

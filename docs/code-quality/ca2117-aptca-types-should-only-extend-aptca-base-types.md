@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: c505b586-2f1e-47cb-98ee-a5afcbeda70f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bc2086038187093397d53e80b1a26f2006c32c80
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 09f417c1f49239aacb446469944aed5336c6834d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873355"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55033208"
 ---
 # <a name="ca2117-aptca-types-should-only-extend-aptca-base-types"></a>CA2117: APTCA 형식은 APTCA 기본 형식만 확장해야 합니다.
 
@@ -89,7 +89,7 @@ Meet at the sunny meadow 2/22/2003 12:00:00 AM!
 
 [CA2116: APTCA 메서드는 APTCA 메서드만 호출 해야 합니다.](../code-quality/ca2116-aptca-methods-should-only-call-aptca-methods.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [보안 코딩 지침](/dotnet/standard/security/secure-coding-guidelines)
 - [부분적으로 신뢰할 수 있는 코드에서 라이브러리 사용](/dotnet/framework/misc/using-libraries-from-partially-trusted-code)

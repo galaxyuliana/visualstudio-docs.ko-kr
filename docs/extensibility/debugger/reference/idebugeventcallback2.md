@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 2c935ee0-2e22-4be0-a852-73736f33c8c9
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ce30279cb58704ab712245ad69bcda197d0e7fc3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cdc20711d168a25ee28dde04849369a752fdb74a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852760"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54988092"
 ---
 # <a name="idebugeventcallback2"></a>IDebugEventCallback2
 이 인터페이스는 세션 디버그 관리자 (SDM)로 디버그 이벤트를 보내는 디버그 엔진 (DE)에 의해 사용 됩니다.  
@@ -56,5 +56,5 @@ IDebugEventCallback2 : IUnknown
 ## <a name="see-also"></a>참고 항목  
  [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)   
  [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)   
- [연결](../../../extensibility/debugger/reference/idebugprogram2-attach.md)   
+ [Attach](../../../extensibility/debugger/reference/idebugprogram2-attach.md)   
  [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)

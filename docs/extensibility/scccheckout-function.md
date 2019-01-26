@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 06e9ecd7-fc09-40c1-9dd1-2b56c622c80b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 728382594b1682f93ba1823558f3f9f02689be1b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2a01ee4e4010782570d267d5b2e35d56fedb45a1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955041"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54984979"
 ---
 # <a name="scccheckout-function"></a>SccCheckout 함수
 정규화 된 파일 이름 목록이 들어이 함수 체크 로컬 드라이브에 있습니다. 체크 아웃 되 고 모든 파일에 주석을 적용 됩니다. 주석 인수 수를 `null` 문자열입니다.  
@@ -52,7 +52,7 @@ SCCRTN SccCheckout (
  lpComment  
  [in] 각 체크 아웃 되 고 선택한 파일에 적용할 주석 처리 합니다.  
   
- 옵션이  
+ fOptions  
  [in] 명령 플래그 (참조 [특정 명령에 사용 되는 비트](../extensibility/bitflags-used-by-specific-commands.md)).  
   
  pvOptions  
@@ -73,6 +73,6 @@ SCCRTN SccCheckout (
 |SCC_E_FILEOUTEXCLUSIVE|다른 사용자는이 파일에는 단독 체크 아웃을 수행 했습니다.|  
 |SCC_I_OPERATIONCANCELED|작업이 완료 되기 전에 취소 되었습니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [특정 명령에 사용 되는 비트](../extensibility/bitflags-used-by-specific-commands.md)

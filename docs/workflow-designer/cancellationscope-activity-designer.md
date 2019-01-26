@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: 2c85d663-b219-4142-9866-7693ffd46379
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 124b4d5d1b8e35611d990fd6c169a880a4e13a5c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4cd2a6ebfad7a869e6102e1f100c5c130ead9978
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53872254"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000044"
 ---
 # <a name="cancellationscope-activity-designer"></a>CancellationScope 활동 디자이너
 
@@ -42,7 +42,7 @@ ms.locfileid: "53872254"
 |<xref:System.Activities.Statements.CancellationScope.Body%2A>|True|취소 논리가 제공되는 활동을 지정합니다. 추가할 합니다 <xref:System.Activities.Statements.CancellationScope.Body%2A> 활동에서 활동 **도구 상자** 에 **본문** 상자에 **CancellationScope** 활동 디자이너입니다. 여기에 작업 놓기 "힌트 텍스트를 추가 합니다.|
 |<xref:System.Activities.Statements.CancellationScope.CancellationHandler%2A>|True|취소가 없을 경우 실행 되는 작업을 지정 합니다. 추가할 합니다 <xref:System.Activities.Statements.CancellationScope.CancellationHandler%2A> 활동에서 활동 **도구 상자** 에 **CancellationHandler** 상자에 **CancellationScope** 활동 디자이너입니다. 여기에 작업 놓기 "힌트 텍스트를 추가 합니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [트랜잭션](../workflow-designer/transaction-activity-designers.md)
 - [CompensableActivity](../workflow-designer/compensableactivity-activity-designer.md)

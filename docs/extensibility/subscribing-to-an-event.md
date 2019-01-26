@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: e94a4fea-94df-488e-8560-9538413422bc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5dbb3c9db722ff335fd8dddadfffed57457d23ef
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6b0c49df0c7412e86c9cabaf8e260e83727689dc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53916928"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969485"
 ---
 # <a name="subscribing-to-an-event"></a>이벤트 구독
 이 연습에는 실행 중인 문서 테이블 (RDT)의 이벤트에 응답 하는 도구 창을 만드는 방법을 설명 합니다. 도구 창을 구현 하는 사용자 정의 컨트롤을 호스트 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>합니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> 메서드는 이벤트 인터페이스를 연결 합니다.  

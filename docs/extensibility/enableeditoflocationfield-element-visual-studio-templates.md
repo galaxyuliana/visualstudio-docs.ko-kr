@@ -8,22 +8,22 @@ helpviewer_keywords:
 ms.assetid: 51a91963-8a3f-4741-928e-bc90c11473bb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: caf618ab0f6908f994f9f297dfb057bdf8afd1a0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b4363d5317e3b07f8d32c754336eeed04ec3ced5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53925617"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55037969"
 ---
 # <a name="enableeditoflocationfield-element-visual-studio-templates"></a>EnableEditOfLocationField 요소 (Visual Studio 템플릿)
 사용자 위치 필드를 편집할 수는 경우를 지정 합니다.  
   
  \<VSTemplate>  
  \<TemplateData>  
- \<EnableEditOfLocationField >  
+ \<EnableEditOfLocationField>  
   
 ## <a name="syntax"></a>구문  
   
@@ -85,6 +85,6 @@ ms.locfileid: "53925617"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)

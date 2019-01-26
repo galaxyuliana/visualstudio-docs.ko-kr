@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 9f2cf94d-dec5-4776-a836-9a89c75f0c87
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6ba0bb8b36996e48830e6a79f2101197fd3c4fc3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b4b28112abad97dae3c4edcb46b5f93109df4a4e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53896359"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54980312"
 ---
 # <a name="buttons-element"></a>Buttons 요소
 그룹 [단추](../extensibility/button-element.md) 개별 명령을 나타내는 요소입니다.  
@@ -66,6 +66,6 @@ ms.locfileid: "53896359"
 </Buttons>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

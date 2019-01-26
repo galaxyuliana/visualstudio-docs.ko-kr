@@ -5,27 +5,27 @@ ms.topic: conceptual
 ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 847ce9bc55e93f292ffdfe6f237e8c39eeac9fd4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fc8d0ccac452d82ed1a2f5fbce7c88fd82efc1d7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968500"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54983107"
 ---
 # <a name="installing-outside-the-extensions-folder"></a>확장 폴더 외부에 설치
 
 Visual Studio 2017 및 VSIX v3부터 (버전 3), 확장 폴더 외부의 확장 자산을 설치 하기 위한 현재 지원은 합니다. 현재 다음 위치 (여기서 [INSTALLDIR]에 매핑되는 Visual Studio 인스턴스의 설치 디렉터리)는 올바른 설치 위치로 사용 됩니다.
 
-* [INSTALLDIR] \MSBuild
-* [INSTALLDIR] \Xml\Schemas
-* [INSTALLDIR] \Common7\IDE\PublicAssemblies
-* [INSTALLDIR] \Licenses
-* [INSTALLDIR] \Common7\IDE\ReferenceAssemblies
-* [INSTALLDIR] \Common7\IDE\RemoteDebugger
-* [INSTALLDIR] \Common7\IDE\VC\VCTargets
+* [INSTALLDIR]\MSBuild
+* [INSTALLDIR]\Xml\Schemas
+* [INSTALLDIR]\Common7\IDE\PublicAssemblies
+* [INSTALLDIR]\Licenses
+* [INSTALLDIR]\Common7\IDE\ReferenceAssemblies
+* [INSTALLDIR]\Common7\IDE\RemoteDebugger
+* [INSTALLDIR]\Common7\IDE\VC\VCTargets
 
 >**참고:** VSIX 형식 구조 외부에 있는 VS 설치 폴더를 설치할 수 없도록 합니다.
 

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: d5ce10f9-047a-4b74-aa1d-295128898b89
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fbc4c694dcaa39e61eef484f018204474e67dd7a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8536511853b513e485e73005df924fa8fd1b7df3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53820347"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54980000"
 ---
 # <a name="how-to-open-standard-editors"></a>방법: 표준 편집기 열기
 표준 편집기를 열면 IDE 파일에 대 한 프로젝트별 편집기를 지정 하는 대신 지정 된 파일 형식에 대해 표준 편집기를 확인 하 게 있습니다.  
@@ -49,7 +49,7 @@ ms.locfileid: "53820347"
   
      개체를 호출 하 여 해당 데이터를 사용 하 여 초기화 문서 뷰 개체를 문서 보기 창 프레임에 성공적으로 배치 된, 경우 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.LoadDocData%2A>합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>   
  [열기 및 프로젝트 항목 저장](../extensibility/internals/opening-and-saving-project-items.md)   
  [방법: 프로젝트별 편집기 열기](../extensibility/how-to-open-project-specific-editors.md)   
