@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 1d6700a9-fd67-4794-8997-399589e99bec
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 629519a6df8c570ee806ec7360e03f442042b5ba
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 32072a25a57988c0cf1273518e5c0a5d4745fe20
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53915207"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55033806"
 ---
 # <a name="how-to-create-an-xml-schema-from-an-xml-document"></a>방법: XML 문서에서 XML 스키마 만들기
 
@@ -43,6 +43,6 @@ XML 편집기를 사용하여 XML 문서에서 XSD(XML 스키마 정의 언어) 
     > [!NOTE]
     >  합니다 **Create Schema** 명령 역시 XML 편집기의 바로 가기 메뉴에서 사용할 수 있는 합니다 **XML** 메뉴.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 편집기](../xml-tools/xml-editor.md)

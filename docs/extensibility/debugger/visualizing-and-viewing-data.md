@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 699dd0f5-7569-40b3-ade6-d0fe53e832bc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e516e3b7af7cfdbbb2c30ff5045a8b05349d7986
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41075bf41b63377ad6522b1be9602fe184b52217
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53848709"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929681"
 ---
 # <a name="visualizing-and-viewing-data"></a>데이터 시각화 및 보기
 개발자에 게 신속 하 게 의미 있는 방식으로 시각화 도우미 및 데이터를 제공 하는 사용자 지정 뷰어를 입력 합니다. 식 계산기 (EE) 수 뿐만 아니라 타사 형식 시각화 도우미를 지원 뿐만 아니라 자체 사용자 지정 뷰어를 제공 합니다.  
@@ -46,6 +46,6 @@ ms.locfileid: "53848709"
 ## <a name="supporting-both-type-visualizers-and-custom-viewers"></a>형식 시각화 도우미 및 사용자 지정 뷰어를 지원합니다.  
  형식 시각화 도우미 및 사용자 지정 뷰어에 EE 지원할 수는 [GetCustomViewerCount](../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) 하 고 [GetCustomViewerList](../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) 메서드. EE에서 반환 된 값 수가 제공 하는 사용자 지정 뷰어를 추가 하는 먼저 합니다 [GetCustomViewerCount](../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewercount.md) 메서드. 둘째, EE 추가 합니다 `CLSID`에서 반환 된 목록에는 자체 사용자 지정 뷰어에 2!s 합니다 [GetCustomViewerList](../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md) 메서드.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [디버깅 작업](../../extensibility/debugger/debugging-tasks.md)   
  [형식 시각화 도우미 및 사용자 지정 뷰어](../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

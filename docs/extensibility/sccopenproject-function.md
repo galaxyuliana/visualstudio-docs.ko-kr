@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: d609510b-660a-46d7-b93d-2406df20434d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4fde4a8e59fb64e12b78eacc14406fdf5020b64f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f404bf595c1dad1dfd5bc9b7fbc4f6b184fa4f41
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856477"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55029715"
 ---
 # <a name="sccopenproject-function"></a>SccOpenProject 함수
 이 함수 기존 소스 제어 프로젝트를 열거나 새로 만듭니다.  

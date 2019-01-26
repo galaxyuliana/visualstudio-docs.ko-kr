@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 99cd05d3-644a-42ff-b289-8458cd1b20c0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 697685ea3cf39cf1aede3d2a475d3d3bb39c587f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6ccc96d92e83ea42c6921abd2159499c1e9c42c4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886048"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930357"
 ---
 # <a name="usedcommand-element"></a>UsedCommand 요소
 다른.vsct 파일에 정의 된 명령에 액세스 하기 위해 VSPackage를 사용 하도록 설정 합니다. 예를 들어 VSPackage는 표준을 **복사본** 명령에 정의 된는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 셸을 추가할 수 명령을 메뉴나 도구 모음을 다시 구현 하지 않고도 합니다.  

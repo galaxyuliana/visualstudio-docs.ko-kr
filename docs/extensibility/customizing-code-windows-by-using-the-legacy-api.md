@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 5328ab2f-55cb-4680-9744-ec79f55acd1b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 07627ddbc8cf8e6f030418956931ad2e4af544af
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 44ff4fb8a8a2e60b047361624ae805910906c19e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53883041"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55022055"
 ---
 # <a name="customize-code-windows-by-using-the-legacy-api"></a>기존 API를 사용 하 여 코드 창을 사용자 지정
 코드 창에는 하나 이상의 텍스트 뷰를 지 원하는 문서 창 개체입니다. 코드 창의 정확한 기능 관련 된 언어 서비스에 따라 달라 집니다. (MDI) 다중 문서 인터페이스 모드로 코드 MDI 자식 프레임입니다.  
@@ -39,7 +39,7 @@ ms.locfileid: "53883041"
  [방법: 편집기에서 포커스를 잃을 때 이벤트 발생](../extensibility/how-to-fire-events-when-the-editor-loses-focus.md)  
  문서 보기 문서 데이터 개체를 연결 하는 방법에 설명 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>   

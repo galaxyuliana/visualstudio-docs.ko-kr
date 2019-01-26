@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: ef48d2d2-0c47-4f93-8cfe-52026b6c463e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8186e8287c55f5e8d383457d809cd9e3235cee75
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 552389cddf412477443ff47df6d9ec9e2f6e14dc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53895748"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021418"
 ---
 # <a name="combos-element"></a>Combos 요소
 그룹 [Combo 요소](../extensibility/combo-element.md) 요소입니다.  
@@ -76,6 +76,6 @@ ms.locfileid: "53895748"
 </Combos>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

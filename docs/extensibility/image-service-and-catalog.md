@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fb493e2ebd590edcf210c5c38010b0168e06fbe3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3113280b7a32d9323f1b5a1638123dca8163528f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53899706"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018815"
 ---
 # <a name="image-service-and-catalog"></a>이미지 서비스 및 카탈로그
 이 cookbook 지침 및 Visual Studio 이미지 서비스 및 Visual Studio 2015에 도입 된 이미지 카탈로그에 대 한 모범 사례를 포함 합니다.  
@@ -122,11 +122,11 @@ ms.locfileid: "53899706"
   
 |||  
 |-|-|  
-|**기호**|**설명**|  
+|**Symbol**|**설명**|  
 |CommonProgramFiles|% CommonProgramFiles % 환경 변수 값|  
 |LocalAppData|% LocalAppData % 환경 변수 값|  
 |ManifestFolder|매니페스트 파일을 포함 하는 폴더|  
-|내 문서|현재 사용자의 내 문서 폴더의 전체 경로|  
+|MyDocuments|현재 사용자의 내 문서 폴더의 전체 경로|  
 |ProgramFiles|% ProgramFiles % 환경 변수 값|  
 |시스템|합니다 *Windows\System32* 폴더|  
 |WinDir|% WinDir % 환경 변수 값|  
@@ -165,7 +165,7 @@ ms.locfileid: "53899706"
 |-|-|  
 |**특성**|**정의**|  
 |URI|[필수] 이미지를 로드할 수 있는 정의 하는 URI입니다. 다음 중 하나일 수 있습니다.<br /><br /> -A [Pack URI](/dotnet/framework/wpf/app-development/pack-uris-in-wpf) 응용 프로그램을 사용 하 여: / / / 기관<br />-절대 구성 요소 리소스 참조<br />-네이티브 리소스를 포함 하는 파일 경로|  
-|배경|[선택 사항] 어떤 종류의 원본으로 사용할 목적이 백그라운드에서 나타냅니다.<br /><br /> 다음 중 하나일 수 있습니다.<br /><br /> *조명:* 밝은 배경에 소스를 사용할 수 있습니다.<br /><br /> *어두운:* 어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> *고 대비 합니다.* 고대비 모드에서 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> *HighContrastLight:* 고대비 모드에서 밝은 배경에 소스를 사용할 수 있습니다.<br /><br /> *HighContrastDark:* 고대비 모드에서 어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> 배경 특성을 생략 하는 경우 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> 배경이 *Light*를 *어두운*를 *HighContrastLight*, 또는 *HighContrastDark*, 소스의 색 반전 되지 않습니다. 백그라운드 생략 되거나로 설정 하는 경우 *고 대비*, 소스의 색 반전을 이미지의 의해 제어 됩니다 **AllowColorInversion** 특성입니다.|  
+|배경|[선택 사항] 어떤 종류의 원본으로 사용할 목적이 백그라운드에서 나타냅니다.<br /><br /> 다음 중 하나일 수 있습니다.<br /><br /> *조명:* 밝은 배경에 소스를 사용할 수 있습니다.<br /><br /> *어두운:* 어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> *HighContrast:* 고대비 모드에서 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> *HighContrastLight:* 고대비 모드에서 밝은 배경에 소스를 사용할 수 있습니다.<br /><br /> *HighContrastDark:* 고대비 모드에서 어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> 배경 특성을 생략 하는 경우 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> 배경이 *Light*를 *어두운*를 *HighContrastLight*, 또는 *HighContrastDark*, 소스의 색 반전 되지 않습니다. 백그라운드 생략 되거나로 설정 하는 경우 *고 대비*, 소스의 색 반전을 이미지의 의해 제어 됩니다 **AllowColorInversion** 특성입니다.|  
 
 |||  
   
@@ -175,9 +175,9 @@ ms.locfileid: "53899706"
 |-|-|-|  
 |**요소**|**특성 (모두 필요)**|**정의**|  
 |\<크기 >|값|원본 장치 단위로 지정된 된 크기의 이미지에 대 한 사용 됩니다. 이미지는 사각형 됩니다.|  
-|\<SizeRange >|MinSize, MaxSize|원본 장치 단위로 최대 크기로 MinSize에서 이미지에 대 한 포괄적 사용 됩니다. 이미지는 사각형 됩니다.|  
+|\<SizeRange>|MinSize, MaxSize|원본 장치 단위로 최대 크기로 MinSize에서 이미지에 대 한 포괄적 사용 됩니다. 이미지는 사각형 됩니다.|  
 |\<크기 >|너비, 높이|원본은 이미지의 지정 된 너비와 높이 (장치 단위)에 대 한 사용 됩니다.|  
-|\<DimensionRange >|MinWidth, MinHeight<br /><br /> MaxWidth, 최대 높이|원본 장치 단위로 최대 너비/높이에 최소 너비/높이의 이미지에 대 한 포괄적 사용 됩니다.|  
+|\<DimensionRange>|MinWidth, MinHeight,<br /><br /> MaxWidth, MaxHeight|원본 장치 단위로 최대 너비/높이에 최소 너비/높이의 이미지에 대 한 포괄적 사용 됩니다.|  
   
  A \<소스 > 요소는 선택적 수도 있습니다 \<NativeResource > 하위 요소를 정의 하는 \<원본 > 관리 되는 어셈블리 대신 네이티브 어셈블리에서 로드 되는 합니다.  
   
@@ -240,7 +240,7 @@ ms.locfileid: "53899706"
   
     -   사용 하는 경우 필요 합니다 **BrushToColorConverter** 에 대 한 합니다 **ImageThemingUtilities.ImageBackgroundColor** WPF UI에서 합니다.  
   
--   *Microsoft.VisualStudio.Shell 합니다. \<VSVersion >.0*  
+-   *Microsoft.VisualStudio.Shell.\<VSVersion>.0*  
   
     -   사용 하는 경우 필요 합니다 **IVsUIObject** 형식입니다.  
   

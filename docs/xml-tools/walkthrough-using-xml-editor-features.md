@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 524b96fea7fedba248c04f384445ee3a03a3595b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8044c48ee2721a8461d9d7c2932707c3c01eeaf4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902008"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55026757"
 ---
 # <a name="walkthrough-use-xml-editor-features"></a>연습: XML 편집기 기능 사용
 
@@ -109,7 +109,7 @@ ms.locfileid: "53902008"
 
 2.  XML 문서에 대 한 위치와 파일 이름을 입력 하 고 클릭 **저장할**합니다.
 
-## <a name="hiredatexsd-file"></a>hireDate.xsd 파일
+## <a name="hiredatexsd-file"></a>hireDate.xsd file
  다음 스키마 파일은 연습에 사용됩니다.
 
 ```xml

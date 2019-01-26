@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: bb614ed0-1b7c-4b56-99ae-da50ef6cfef9
 ms.author: gewarren
 author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 34ec1b04e10b874d6f8373b5eb0e6c2e5c6d70e4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8b5dea79f1c9e3b21b45542a0617daf47ee7e80b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53844082"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55026040"
 ---
 # <a name="fxcopcmd-tool-errors"></a>FxCopCmd 도구 오류
 
@@ -24,7 +24,7 @@ FxCopCmd 심각한 되도록 모든 오류를 고려 하지 않습니다. FxCopC
 
 다음 표에서 FxCopCmd 반환한 오류 코드를 보여 줍니다.
 
-|오류|숫자 값|
+|Error|숫자 값|
 |-----------|-------------------|
 |오류 없이|0x0|
 |분석 오류|0x1|
@@ -53,6 +53,6 @@ FxCopCmd 심각한 되도록 모든 오류를 고려 하지 않습니다. FxCopC
 > [!NOTE]
 > FxCopCmd 반환 코드 **어셈블리 참조 오류** 0x200 자체는 오류가 아닌 경고 합니다. 이 반환 코드 FxCopCmd에서 처리할 수 없는 누락 대 한 간접 참조를 나타냅니다. 경고는 분석 결과 일부 손상 되었을 수 가능성이 있는 것을 의미 합니다. 처리 **어셈블리 참조 오류** 으로 다른 모든 반환 코드와 결합 된 경우 오류가 발생 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [코드 분석 애플리케이션 오류](../code-quality/code-analysis-application-errors.md)

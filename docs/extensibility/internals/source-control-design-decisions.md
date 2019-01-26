@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 5f60ec1a-5a74-4362-8293-817a4dd73872
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dd1ffa27a8dfa7c1d98e7242d71f7cfe83c319d4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f47e0bdcf5b8dd3a7c41004ce82fca9f92db509e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53883187"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936830"
 ---
 # <a name="source-control-design-decisions"></a>소스 제어 디자인 결정
 소스 제어를 구현 하는 경우 다음 디자인 결정 사항은 프로젝트에 대 한 고려 되어야 합니다.  

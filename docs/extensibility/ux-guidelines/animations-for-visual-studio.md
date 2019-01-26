@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f69665c0a97fb67b4cee9ee71a52c2de0b44310f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 79c45bd5ded6ab80d7bb1a2abb6c1007e3b29e0d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53946057"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55022952"
 ---
 # <a name="animations-for-visual-studio"></a>Visual Studio의 애니메이션
 ## <a name="animation-fundamentals"></a>애니메이션의 기본 사항  
@@ -249,7 +249,7 @@ Visual Studio에서 애니메이션은 사용자 생산성을 방해 하지 않�
   
 -   기간: 독립 실행형 200 밀리초 조합 애니메이션 시퀀스의 일부로 사용 되는 경우 100 밀리초  
   
--   감속/가속 스타일: 사인 InOut  
+-   감속/가속 스타일: Sine InOut  
   
 ##### <a name="examples"></a>예제  
   
@@ -275,7 +275,7 @@ Visual Studio에서 애니메이션은 사용자 생산성을 방해 하지 않�
   
 -   기간: 독립 실행형 200 밀리초 조합 애니메이션 시퀀스의 일부로 사용 되는 경우 100 밀리초  
   
--   감속/가속 스타일: 사인 InOut  
+-   감속/가속 스타일: Sine InOut  
   
 ##### <a name="examples"></a>예제  
   
@@ -325,7 +325,7 @@ UI 요소를 특정 컨텍스트에서 다른 위치를 변경 하는 애니메�
   
 -   기간: 독립 실행형 200 밀리초 조합 애니메이션 시퀀스의 일부로 사용 되는 경우 100 밀리초  
   
--   감속/가속 스타일: 사인 InOut  
+-   감속/가속 스타일: Sine InOut  
   
 ##### <a name="example"></a>예제  
 탭 순서 변경  

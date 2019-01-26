@@ -12,18 +12,18 @@ helpviewer_keywords:
 ms.assetid: 3a2b06ba-6d1b-4666-9eaf-e053ef47ffaa
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 273fb94f4f0b66badef60178635fe3db360f73a4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4e85873a47b18d0155b00052181d190daafb39ff
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53954580"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027310"
 ---
 # <a name="ca2233-operations-should-not-overflow"></a>CA2233: 연산은 오버플로되지 않아야 합니다.
 
@@ -109,7 +109,7 @@ End Sub
 
 3.  선택 **산술 연산 오버플로/언더플로 확인** 누릅니다 **확인**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.OverflowException?displayProperty=fullName>
 - [C# 연산자](/dotnet/csharp/language-reference/operators/index)

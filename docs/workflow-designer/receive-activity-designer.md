@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: f58d3c70-944d-4bb4-90a7-e68c103caddc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 86c2d67d3922679096a3b3980a928a234515b78e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f984a9f7207a8eec77468a3360e2caec5d9400d4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53858998"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55036097"
 ---
 # <a name="receive-activity-designer"></a>Receive 활동 디자이너
 
@@ -54,7 +54,7 @@ ms.locfileid: "53858998"
 | <xref:System.ServiceModel.Activities.Receive.SerializerOption%2A> | False | <xref:System.ServiceModel.Activities.Receive> 활동에 의해 구현되는 서비스 작업에 사용할 serializer의 형식을 지정합니다. 기본값은 <xref:System.Runtime.Serialization.DataContractSerializer>이며, 제공된 데이터 계약을 사용하는 XML 스트림 또는 문서에 형식 인스턴스를 serialize 및 deserialize합니다. XML에 대한 제어를 강화해야 하는 경우에도 <xref:System.Xml.Serialization.XmlSerializer>를 사용할 수 있습니다. |
 | <xref:System.ServiceModel.Activities.Receive.Action%2A> | False | 메시지의 동작 헤더를 지정합니다. 명시적으로 설정 하지 않으면 기본값인: https://tempuri.org/{service 계약 네임 스페이스} / {서비스 계약 이름} /} /{operation name}. |
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md)
 - [CorrelationScope](../workflow-designer/correlationscope-activity-designer.md)

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 961e68ed-2603-4479-a306-330eda2b2efa
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 49c07cbb4ea87c33b0b22ed7db323018be2f2b11
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 531e1cbf3e8489fd68d2bbd94c9a66af3c817a00
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53889100"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929941"
 ---
 # <a name="create-parent-container-folders-for-solutions"></a>부모 솔루션에 대 한 컨테이너 폴더 만들기
 원본 제어 플러그 인 API 버전 1.2에는 사용자 솔루션 내에서 모든 웹 프로젝트에 대 한 단일 루트 원본 제어 대상을 지정할 수 있습니다. 이 단일 루트를 슈퍼 통합 루트 (도메인 이름 얻기) 라고 합니다.  
@@ -56,8 +56,8 @@ ms.locfileid: "53889100"
   
 |솔루션에 포함 된|디스크 위치에|데이터베이스 기본 구조|  
 |-----------------------|-----------------------|--------------------------------|  
-|*sln1.sln*<br /><br /> W e b 1<br /><br /> Web2|*C:\Solutions\sln1*<br /><br /> *C:\Inetpub\wwwroot\Web1*<br /><br /> \\\server\wwwroot$\Web2|$/ < user_choice > / sln1<br /><br /> $/ < user_choice >/C/w e b 1<br /><br /> $/ < user_choice > / w e b 2|  
-|*sln1.sln*<br /><br /> W e b 1<br /><br /> Win1|*C:\Solutions\sln1*<br /><br /> *D:\Inetpub\wwwroot\Web1*<br /><br /> *C:\solutions\sln1\Win1*|$/ < user_choice > / sln1<br /><br /> $/ < user_choice >/D/w e b 1<br /><br /> $/ < user_choice >/sln1 win1|  
+|*sln1.sln*<br /><br /> Web1<br /><br /> Web2|*C:\Solutions\sln1*<br /><br /> *C:\Inetpub\wwwroot\Web1*<br /><br /> \\\server\wwwroot$\Web2|$/<user_choice>/sln1<br /><br /> $/ < user_choice >/C/w e b 1<br /><br /> $/<user_choice>/Web2|  
+|*sln1.sln*<br /><br /> Web1<br /><br /> Win1|*C:\Solutions\sln1*<br /><br /> *D:\Inetpub\wwwroot\Web1*<br /><br /> *C:\solutions\sln1\Win1*|$/<user_choice>/sln1<br /><br /> $/ < user_choice >/D/w e b 1<br /><br /> $/<user_choice>/sln1/win1|  
   
  도메인 이름 얻기 폴더 및 하위 작업의 취소 되거나 오류로 인해 실패 여부에 관계 없이 생성 됩니다. 자동으로 취소 또는 오류 조건에서 제거 되지 않습니다.  
   
@@ -65,5 +65,5 @@ ms.locfileid: "53889100"
   
  **[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl] DoNotCreateSolutionRootFolderInSourceControl** = *dword:00000001*
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 버전 1.2의 새로운 기능](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

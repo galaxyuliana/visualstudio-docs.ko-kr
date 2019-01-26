@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: b0bbcbb6-c92d-4c14-8ef7-9c8b38c791a6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e23ab1c1c245a03e88b05fb15259193bb508b69a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 62ad30516720a843d519a9e514cd325a957b3cff
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53944313"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017125"
 ---
 # <a name="ca2204-literals-should-be-spelled-correctly"></a>CA2204: 리터럴의 맞춤법이 정확해야 합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "53944313"
 
 맞춤법 검사기는 현재 영어 기반 문화권 사전에 대해서만 확인합니다. 추가 하 여 프로젝트 파일에서 프로젝트의 문화권을 변경할 수 있습니다 합니다 **CodeAnalysisCulture** 요소입니다.
 
-예:
+예를 들어:
 
 ```xml
 <Project ...>

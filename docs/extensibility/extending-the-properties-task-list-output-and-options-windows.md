@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 621ba178f255fc3c86e8234d4e01bcb74b106b62
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4be06a69eac693e951407ecf4c04eabff7bbb31c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922327"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54933245"
 ---
 # <a name="extend-the-properties-task-list-output-and-options-windows"></a>속성, 작업 목록, 출력 및 옵션 창 확장
 Visual Studio의 모든 도구 창에 액세스할 수 있습니다. 이 연습에서는 새 도구 창에 대 한 정보를 통합 하는 방법을 보여 줍니다 **옵션** 페이지 및의 새 설정 합니다 **속성** 페이지, 그리고에 쓰는 방법은 **작업목록** 하 고 **출력** windows.  

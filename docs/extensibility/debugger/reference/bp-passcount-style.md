@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e10c1c2f97e56a1ff24aa09a956b628b646985f7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5df5adacb34c151c1347a9fe2b375b371c72e6d1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53864377"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55025581"
 ---
 # <a name="bppasscountstyle"></a>BP_PASSCOUNT_STYLE
 중단점이 발생 하는 중단점 패스 개수와 연결 된 조건을 지정 합니다.  

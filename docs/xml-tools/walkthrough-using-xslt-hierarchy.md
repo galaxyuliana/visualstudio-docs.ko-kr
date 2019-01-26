@@ -5,13 +5,13 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 65af5f973f9440ac781a8af1042700cf89acee1c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: dcbb61e0a23d1a530d9c104337454b7a8ba66ca7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53834726"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020765"
 ---
 # <a name="walkthrough-use-xslt-hierarchy"></a>연습: XSLT 계층 구조를 사용 합니다.
 
@@ -110,6 +110,6 @@ XSLT 계층 구조 도구가 유용한 다른 시나리오는 기본 제공 템�
 
 6.  명령에서 디버거가 중지 되 면 `<xsl:include href="xslincludefile.xsl" />`, 키를 눌러 합니다 **한 단계씩 코드 실행** 단추. 참조 된 스타일 시트에서 디버깅을 계속할 수 있습니다. 계층 구조가 표시되며 디자이너에서 올바른 경로를 표시합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [연습: XSLT 프로파일러](../xml-tools/walkthrough-xslt-profiler.md)

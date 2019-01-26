@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 7014af80-ff4f-4790-a34b-0528918d1fa3
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dcb5ef43f30ca40454cde19a2afde229de6a9ea3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7cee011efedff2cec442e386f32c66d1398b35d3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53924438"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54933609"
 ---
 # <a name="idebugthread2cansetnextstatement"></a>IDebugThread2::CanSetNextStatement
 지정 된 스택 프레임에 현재 명령 포인터를 설정할 수 있는지 여부를 결정 합니다.  

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 43ba49107c1f3b2ab72db024b8dbfd01d8eab857
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cc2cfc74b192be01b9b5ce258d2686dda1b8ccc7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53832556"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930006"
 ---
 # <a name="create-a-basic-project-system-part-1"></a>1 부 기본 프로젝트 시스템을 만들려면
 Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타 자산을 구성 하는 데 사용할 컨테이너를 사용 합니다. 프로젝트에서 솔루션의 자식으로 표시 합니다 **솔루션 탐색기**합니다. 프로젝트를 사용 하 여 구성, 빌드, 디버그 및 소스 코드를 배포 및 웹 서비스, 데이터베이스 및 기타 리소스에 대 한 참조를 만들 수 있습니다.  
@@ -68,7 +68,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
   
 ### <a name="to-create-a-basic-project-template"></a>기본 프로젝트 템플릿을 만들려면  
   
-1. 다른 하나는 프로젝트에 세 개의 폴더를 추가 합니다. *Templates\Projects\SimpleProject*합니다. (에서 **솔루션 탐색기**, 마우스 오른쪽 단추로 클릭 합니다 **SimpleProject** 프로젝트 노드를 가리키도록 **추가**를 클릭 하 고 **새 폴더**. 폴더의 이름을 *템플릿*합니다. 에 *템플릿을* 폴더를 라는 폴더를 추가 *프로젝트*합니다. 에 *프로젝트* 폴더를 라는 폴더를 추가 *SimpleProject*.)  
+1. 다른 하나는 프로젝트에 세 개의 폴더를 추가 합니다. *Templates\Projects\SimpleProject*. (에서 **솔루션 탐색기**, 마우스 오른쪽 단추로 클릭 합니다 **SimpleProject** 프로젝트 노드를 가리키도록 **추가**를 클릭 하 고 **새 폴더**. 폴더의 이름을 *템플릿*합니다. 에 *템플릿을* 폴더를 라는 폴더를 추가 *프로젝트*합니다. 에 *프로젝트* 폴더를 라는 폴더를 추가 *SimpleProject*.)  
   
 2. 에 *Templates\Projects\SimpleProject* 폴더를 라는 아이콘으로 사용할 비트맵 이미지 파일 추가 *SimpleProject.ico*합니다. 클릭 하면 **추가**, 아이콘 편집기가 열립니다.  
   

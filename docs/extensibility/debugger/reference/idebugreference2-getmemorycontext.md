@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 47fc3827-07a0-4eee-b7f4-fc1c62e6b25c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ffc97a36cc8d2ebbae5f8c37b85612a2b078d82f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2d9a312043e9acda68cb7e5083f6fad4159e0217
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53903002"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55041544"
 ---
 # <a name="idebugreference2getmemorycontext"></a>IDebugReference2::GetMemoryContext
 참조의 메모리 컨텍스트를 가져옵니다. 나중에 사용하기 위해 예약되어 있습니다.  

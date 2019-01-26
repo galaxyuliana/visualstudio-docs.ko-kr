@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 19757068-bdaa-4e7e-85d6-f8ce5026a859
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 679a743db707b7354fe104721ea8dd709e151217
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2bce8ffbfc1aebe10bd6bd9a84fe59c51dcaa273
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827444"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027557"
 ---
 # <a name="how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager"></a>방법: 개체 관리자에 게 라이브러리에서 제공 하는 기호 목록을 표시 합니다.
 기호 검색 도구 **클래스 뷰**를 **개체 브라우저**를 **호출 브라우저** 및 **기호 찾기 결과**, 새 데이터에 대 한 요청을 전달 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 개체 관리자입니다. 개체 관리자를 적절 한 라이브러리를 찾아서 새 기호 목록을 요청 합니다. 라이브러리 요청한 데이터를 제공 하 여 응답 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 를 통해 개체 관리자는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> 인터페이스. 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 의 메서드를 호출 하는 개체 관리자 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> 채우거 나 기호 검색 도구 보기 업데이트를 사용 하 여 데이터를 가져오기 위해 인터페이스입니다.  

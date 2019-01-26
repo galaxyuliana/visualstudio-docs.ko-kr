@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: e6c0e636-5ec3-450e-b395-fc4bb9d75918
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 73eb5ab6c139d4ce6bdfb8a5a310ca447ce4267c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 466dc5ea2c3ca4a4f9045a43781598c7e84168ba
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53872124"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930035"
 ---
 # <a name="options-and-options-pages"></a>옵션 및 옵션 페이지
 클릭 **옵션** 에 **도구** 메뉴가 열립니다 합니다 **옵션** 대화 상자. 이 대화 상자에서 옵션은 옵션 페이지 라고 합니다. 탐색 창에서 트리 컨트롤 옵션 범주를 포함 하며 모든 범주 옵션 페이지입니다. 페이지를 선택 하면 해당 옵션이 오른쪽 창에 나타납니다. 이러한 페이지에서는 VSPackage의 상태를 확인 하는 옵션 값을 변경할 수 있습니다.  

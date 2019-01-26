@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 86c50d5a-6df6-4798-818a-c587a8741f90
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6bbea19bdddc27cc04453fe7114960161ce8c280
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 069d72a25547750df27bc52536e0b119acae61db
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956116"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021639"
 ---
 # <a name="idebugreturnvalueevent2getreturnvalue"></a>IDebugReturnValueEvent2::GetReturnValue
 부재 중 또는 함수를 단계별로 실행에서 반환 되는 값을 가져옵니다.  

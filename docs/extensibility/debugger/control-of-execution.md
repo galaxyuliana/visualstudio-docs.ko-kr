@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 97071846-007e-450f-95a6-f072d0f5e61e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f5617849b1dbd8e3857818fb762f562502b89386
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a0fdaa3154dda0dd96f229eace4b82370dfad59a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53947428"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55029010"
 ---
 # <a name="control-of-execution"></a>실행 제어
 디버그 엔진 (DE) 일반적으로 다음 이벤트 중 하나가으로 보냅니다 마지막 startup 이벤트:  
@@ -59,5 +59,5 @@ ms.locfileid: "53947428"
   
    SDM에 게 호출 `Step`, **Execute**, 및 **계속** 은 비동기, SDM 신속 하 게 반환할 호출이 필요 함을 의미 합니다. 경우는 DE 이벤트를 보냅니다 SDM을 중지 하기 전에 동일한 스레드에서 `Step`, **Execute**, 또는 **계속** SDM 중단을 반환 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [작업 디버그](../../extensibility/debugger/debugging-tasks.md)

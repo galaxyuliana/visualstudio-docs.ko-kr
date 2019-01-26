@@ -7,13 +7,13 @@ helpviewer_keywords:
 - command buttons, creating and placing
 - menus, creating commands
 ms.assetid: 553d5e07-3e19-4aba-b490-6c7dd05fd82e
-manager: douge
-ms.openlocfilehash: 3b33d84f62db9cfe1371ffc540830f63d93e67d1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: 0923b179c3a2237c6923a7f889c802239d824fb1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926241"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54935711"
 ---
 # <a name="menucommands-vs-olemenucommands"></a>MenuCommand 및 OleMenuCommand
 파생 하 여 메뉴 명령을 만들 수 있습니다 <xref:System.ComponentModel.Design.MenuCommand> 주고 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 개체를 적절 한 이벤트 처리기를 구현 합니다. 대부분의 경우 <xref:System.ComponentModel.Design.MenuCommand>를 VSPackage 프로젝트 템플릿으로 사용할 수 있지만 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>를 사용해야 할 때가 있습니다.  
@@ -135,7 +135,7 @@ ms.locfileid: "53926241"
   
      [!code-csharp[ButtonGroup#22](../extensibility/codesnippet/CSharp/menucommands-vs-olemenucommands_6.cs)]  
   
-     Visual Studio 패키지 템플릿은 명령의 GUID 및 ID를 저장하는 `GuidList` 및 `PkgCmdIDList` 컬렉션을 제공합니다. 이러한 컬렉션은 템플릿을 통해 추가된 명령에 자동으로 채워지지만 수동으로 추가한 명령의 경우 ID 항목을 `PkgCmdIdList` 클래스에 추가해야 합니다.  
+     Visual Studio 패키지 템플릿은 명령의 GUID 및 ID를 저장하는 `GuidList` 및 `PkgCmdIDList`컬렉션을 제공합니다. 이러한 컬렉션은 템플릿을 통해 추가된 명령에 자동으로 채워지지만 수동으로 추가한 명령의 경우 ID 항목을 `PkgCmdIdList` 클래스에 추가해야 합니다.  
   
      또는 GUID의 원시 문자열 값 및 ID의 정수 값을 사용하여 <xref:System.ComponentModel.Design.CommandID> 개체를 채울 수 있습니다.  
   
@@ -143,9 +143,9 @@ ms.locfileid: "53926241"
   
      [!code-csharp[ButtonGroup#23](../extensibility/codesnippet/CSharp/menucommands-vs-olemenucommands_7.cs)]  
   
-     <xref:System.ComponentModel.Design.MenuCommand>는 정적 명령에 적합합니다. 동적 메뉴 항목 표시에는 QueryStatus 이벤트 처리기가 필요합니다. <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 는 명령의 호스트 메뉴가 열릴 때 발생하는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> 이벤트와 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text%2A>등의 다른 일부 속성을 추가합니다.  
+     <xref:System.ComponentModel.Design.MenuCommand> 는 정적 명령에 적합합니다. 동적 메뉴 항목 표시에는 QueryStatus 이벤트 처리기가 필요합니다. <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 는 명령의 호스트 메뉴가 열릴 때 발생하는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> 이벤트와 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text%2A>등의 다른 일부 속성을 추가합니다.  
   
-     패키지 템플릿으로 만든 명령은 기본적으로 패키지 클래스에 있는 `Initialize()` 메서드의 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 개체에 전달됩니다.  
+     패키지 템플릿으로 만든 명령은 기본적으로 패키지 클래스에 있는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 메서드의 `Initialize()` 개체에 전달됩니다.  
   
 4.  <xref:System.ComponentModel.Design.MenuCommand> 는 정적 명령에 적합합니다. 동적 메뉴 항목 표시에는 QueryStatus 이벤트 처리기가 필요합니다. <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 는 명령의 호스트 메뉴가 열릴 때 발생하는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> 이벤트와 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text%2A>등의 다른 일부 속성을 추가합니다.  
   
@@ -207,7 +207,7 @@ ms.locfileid: "53926241"
   
 1. 유효한 명령에 대해 <xref:Microsoft.VisualStudio.VSConstants.S_OK> 를 반환합니다.  
   
-2. `prgCmds` 매개 변수의 `cmdf` 요소를 설정합니다.  
+2. `cmdf` 매개 변수의 `prgCmds` 요소를 설정합니다.  
   
     `cmdf` 요소의 값은 논리적 OR( <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> ) 연산자를 사용하여 결합한`|`열거형 값의 논리적 공용 구조체입니다.  
   
@@ -235,7 +235,7 @@ ms.locfileid: "53926241"
   
       `prgCmds[0] cmdf |= OLECMDF_DEFHIDEONCTXTMENU`  
   
-   - 명령에서 `TEXTCHANGES` 플래그를 사용하는 경우 `pCmdText` 매개 변수의 `rgwz` 요소를 명령의 새 텍스트로 설정하고 `pCmdText` 매개 변수의 `cwActual` 요소를 명령 문자열의 크기로 설정합니다.  
+   - 명령에서 `TEXTCHANGES` 플래그를 사용하는 경우 `rgwz` 매개 변수의 `pCmdText` 요소를 명령의 새 텍스트로 설정하고 `cwActual` 매개 변수의 `pCmdText` 요소를 명령 문자열의 크기로 설정합니다.  
   
      오류 조건의 경우 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 메서드는 다음과 같은 오류 사례를 처리해야 합니다.  
   

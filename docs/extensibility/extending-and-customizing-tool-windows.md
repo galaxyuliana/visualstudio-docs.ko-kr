@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 46b2892e-7b2b-4b3f-83a7-b884f1e114ee
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4c942076f10aa39994c2a809f994b9725831d67b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1e9f9c11faf18c1131e7e50de1747ba0e332d00c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53949838"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930370"
 ---
 # <a name="extend-and-customize-tool-windows"></a>확장 및 도구 창 사용자 지정
 Visual Studio는 여러 가지 도구 창, 문서 창 및 대화 상자 창 예를 들어 windows 제공합니다. 와 같은 다른 windows는 **속성** 창 합니다 **출력** 창 및 **작업 목록** 창 유형의 도구 창입니다.  
@@ -46,5 +46,5 @@ Visual Studio는 여러 가지 도구 창, 문서 창 및 대화 상자 창 예�
 ## <a name="modal-dialog-boxes"></a>모달 대화 상자  
  Visual Studio 확장에서 만들어야 모달 대화 상자에서 파생 시켜 <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow?displayProperty=fullName>, 있으며 UI의 나머지 부분을 제어할 수 있습니다. 자세한 내용은 [만들기 및 모달 대화 상자 관리](../extensibility/creating-and-managing-modal-dialog-boxes.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [도구 창으로 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-a-tool-window.md)

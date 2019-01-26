@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 1942245d-7a1d-4a11-b5e7-a3fe29f11c0b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 005b321921003e11f9204616727e0b06b85e5c3f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b8d5059ddca1d428f1a1f66cb45e32cdc6f37de3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53915658"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929538"
 ---
 # <a name="how-to-implement-undo-management"></a>방법: 실행 취소 관리 구현
 실행 취소 관리에 사용 되는 기본 인터페이스는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager>, 환경에서 구현 되는 합니다. 실행 취소 관리를 지원 하려면 별도 실행 취소 단위를 구현 합니다. (즉, <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit>, 여러 개별 단계로 포함할 수 있습니다.  
@@ -77,7 +77,7 @@ ms.locfileid: "53915658"
 > [!NOTE]
 >  실행 취소 관리자 개체는 텍스트 편집기에서 광범위 하 게 사용 하는 동안 구성 요소인 일반 있는 텍스트 편집기에 대 한 특정 지원 되지 않습니다. 여러 번 실행 취소 또는 다시 실행을 지원 하려는 경우에 이렇게 하려면이 개체를 사용할 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLifetimeControlledObject>   
  [방법: 실행 취소 스택을 지웁니다.](../extensibility/how-to-clear-the-undo-stack.md)

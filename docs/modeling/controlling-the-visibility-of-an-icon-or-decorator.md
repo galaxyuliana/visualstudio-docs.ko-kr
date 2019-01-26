@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: a8fc55493aab5a19a175b75b7b1d808e9fa156e9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 731ca1a7091af81abb5b9ed2521cc41f575747cb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53877564"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54933752"
 ---
 # <a name="controlling-the-visibility-of-an-icon-or-decorator"></a>아이콘 또는 데코레이터의 가시성 제어
 A *데코레이터* 아이콘 또는 셰이프를 도메인 특정 언어 (DSL)에 표시 되는 텍스트 줄. 데코레이터 표시를 확인 하 고 상태 모델의 속성에 따라 사라질 수 있습니다. 예를 들어 개인을 나타낼 셰이프를에서 사용자의 성별, 자녀 수에 따라 표시 되는 서로 다른 아이콘이 있을 수 있습니다.
@@ -65,7 +65,7 @@ A *데코레이터* 아이콘 또는 셰이프를 도메인 특정 언어 (DSL)�
 
      **이름을** 예를 들어 **DecoratorControl**
 
-     **형식** = `Boolean`
+     **Type** = `Boolean`
 
      자세한 내용은 [사용자 지정 저장소 속성 및 계산](../modeling/calculated-and-custom-storage-properties.md)합니다.
 

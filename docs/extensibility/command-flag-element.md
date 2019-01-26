@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 5ef63399-d2db-4dc1-97ce-be1bd4ef4e39
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b4f7b9b24e9e8ec5a0539a14fe57b92e8c59b68f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 84a27e392552a7194fc4aced6f2ba4a985968c87
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53836990"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55034157"
 ---
 # <a name="command-flag-eelement"></a>명령 플래그 Eelement
 부모 요소를 수정합니다.  
@@ -47,7 +47,7 @@ ms.locfileid: "53836990"
 |DontCache|개발 환경 캐시 하지 않습니다는 `QueryStatus` 이 명령에 대 한 메서드 결과입니다.<br /><br /> 메뉴에 메뉴 컨트롤러를 해당 메뉴 항목의 텍스트를 캐시 하지 그러면 합니다. 메뉴 동적 항목 또는 동적 텍스트가 포함 된 항목을 포함 하는 경우이 플래그를 사용 합니다.<br /><br /> 에 대 한 유효한: `Button`, `Menu`|  
 |DynamicItemStart|동적 목록 시작을 나타냅니다. 연속적으로 호출 하 여 목록을 작성 하는 환경을 가능 하 게이 `QueryStatus` OLECMDERR_E_UNSUPPORTED 플래그 반환 될 때까지 목록 항목에는 메서드. 이 가장 최근에 사용 된 같은 (MRU) 목록 및 창 목록 항목에 대 한 잘 작동 합니다.<br /><br /> 에 대해 유효 합니다. `Button`|  
 |DynamicVisibility|명령의 가시성을 통해 변경할 수 있습니다 합니다 `QueryStatus` 메서드 또는 컨텍스트에 포함 된 GUID 통해는 `VisibilityConstraints` 섹션입니다.<br /><br /> 주 창에 표시 되는 최상위 도구 모음에는 없지만 메뉴 및 도구 창 도구 모음에서 표시 되는 명령에 적용 됩니다. 최상위 도구 모음 항목을 사용 하지 않도록 설정 하지만 숨겨져 있지 않으면이 OLECMDF_INVISIBLE 플래그에서 반환 되 면 수는 `QueryStatus` 메서드. 도구 창 도구 모음에 표시 되는 도구 모음 명령은 숨길 수 있습니다.<br /><br /> 메뉴의이 플래그는이 자동으로 숨기면 모든 해당 멤버를 숨길지도 나타냅니다. 최상위 메뉴에 이미이 동작 때문에이 플래그는 일반적으로 하위 메뉴에 할당 됩니다.<br /><br /> 이 플래그를 사용 하 여 결합 된 `DefaultInvisible` 플래그입니다.<br /><br /> 에 대 한 유효한: `Button`, `Combo`, `Menu`|  
-|필터 키|아래에서 필터링 하는 키 항목을 참조 하세요 [Combo 요소](../extensibility/combo-element.md)합니다.<br /><br /> 에 대해 유효 합니다. `Combo`|  
+|FilterKeys|아래에서 필터링 하는 키 항목을 참조 하세요 [Combo 요소](../extensibility/combo-element.md)합니다.<br /><br /> 에 대해 유효 합니다. `Combo`|  
 |FixMenuController|이 명령이 메뉴 컨트롤러에서 배치 되는, 명령이 항상 기본값이; 즉, 메뉴 컨트롤러 단추 자체 선택 될 때마다 명령을 선택 합니다. 메뉴 컨트롤러에는 `TextIsAnchorCommand` 플래그가 설정 메뉴 컨트롤러도 되는 명령 해당 텍스트를 사용 하는 다음을 `FixMenuController` 플래그입니다.<br /><br /> 메뉴 컨트롤러에서 명령을 하나만 있어야 합니다 `FixMenuController` 플래그입니다. 둘 이상의 명령으로 표시 하므로 기본 명령을 메뉴에서 마지막 명령인이 됩니다.<br /><br /> 에 대해 유효 합니다. `Button`|  
 |IconAndText|메뉴 및 도구 모음에서 아이콘 및 텍스트를 표시 합니다.<br /><br /> 에 대 한 유효한: `Button`, `Combo`, `Menu`|  
 |NoAutoComplete|자동 완성 기능을 사용 하는 사용할 수 없습니다.<br /><br /> 에 대해 유효 합니다. `Combo`|  

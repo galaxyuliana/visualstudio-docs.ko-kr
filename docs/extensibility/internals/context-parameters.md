@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b69aa04583186e20df77f13f54499448b36eb29c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1290fe9aa9b8fc017856d776aa718ff3d1810df1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902621"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54931676"
 ---
 # <a name="context-parameters"></a>컨텍스트 매개 변수
 에 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 마법사를 추가할 수 있습니다 합니다 **새 프로젝트**를 **새 항목 추가**, 또는 **하위 프로젝트 추가** 대화 상자. 추가 마법사에서 사용할 수는 **파일** 메뉴에서 프로젝트를 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**합니다. IDE는 마법사의 구현에 컨텍스트 매개 변수를 전달합니다. IDE는 마법사를 호출 하는 경우 프로젝트의 상태를 정의 하는 컨텍스트 매개 변수입니다.  

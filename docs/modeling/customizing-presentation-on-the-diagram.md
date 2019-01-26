@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, diagram
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: e38984ceeaad6971d94afd488a0f4027e7260769
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cada6491e0c4af20197848302ff0cf7006acd3ba
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968299"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55068917"
 ---
 # <a name="customizing-presentation-on-the-diagram"></a>다이어그램의 프레젠테이션 사용자 지정
 DSL 언어 디자이너의 주 표시 영역은 다이어그램입니다. 사용자는 일반적으로 다이어그램을 사용해 모델을 생성합니다. 다음 항목의 설명에 따라 다이어그램을 사용자 지정할 수 있습니다.

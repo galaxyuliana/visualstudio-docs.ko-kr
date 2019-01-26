@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: e9989da1-55a0-43f8-9aa9-da86afae3b41
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1dbb6f74b138b0ec555af06ece4b6cb11ad8b678
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cf54f65f19d00f385a3e0eea2c8584e345e10b6f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53899686"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54928440"
 ---
 # <a name="ca2120-secure-serialization-constructors"></a>CA2120: serialization 생성자를 안전하게 하세요.
 
@@ -53,7 +53,7 @@ ms.locfileid: "53899686"
 
  [CA2237: SerializableAttribute로 ISerializable 형식 표시](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName>
 - <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName>

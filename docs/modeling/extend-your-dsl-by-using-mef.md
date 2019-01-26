@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 6e6c790677ea49ad784e7ff5d48326a1d5e216ad
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f7ffe818ae58618381451549fdf8a0898ec6aa6f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986169"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55025974"
 ---
 # <a name="extend-your-dsl-by-using-mef"></a>MEF를 사용하여 DSL 확장
 
@@ -373,7 +373,7 @@ namespace MefExtension
 } } } }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)
 - [MEF(Managed Extensibility Framework)](/dotnet/framework/mef/index)

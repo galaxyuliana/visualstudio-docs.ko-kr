@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ddbab3be089d022b85383cb123734546249b376e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ee9f56af0d04daab20c14bf4fff7a8241dd9f01c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53823356"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55022783"
 ---
 # <a name="dynamically-add-menu-items"></a>동적으로 메뉴 항목 추가
 지정 하 여 런타임에 메뉴 항목을 추가할 수 있습니다는 `DynamicItemStart` 플래그는 Visual Studio 명령 테이블에 있는 자리 표시자 단추 정의에서 명령 (*.vsct*) 파일에 다음 코드에서 표시할 메뉴 항목의 수를 정의 하 고 명령 처리 합니다. VSPackage가 로드 되 면 자리 표시자 동적 메뉴 항목으로 바뀝니다.  
@@ -356,6 +356,6 @@ public sealed class DynamicMenuItemsPackage : Package
   
 4.  솔루션을 닫거나 하나의 프로젝트가 포함 된 솔루션을 열고 도구 모음 아이콘 사라져야 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)   
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)

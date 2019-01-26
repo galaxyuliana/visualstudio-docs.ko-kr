@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 1cda43d8-42a5-4b1b-a3c8-cf0401c3202f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: aeeaff19eb0eb479cdb7faa441c2cde8f60f52d0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 201faded164eba9a82ef412924b327aba762b14b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965897"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027024"
 ---
 # <a name="symbols-element"></a>Symbols 요소
 Guid 및 기타 VSCT 요소에서 사용 되는 Id를 정의 합니다. 비관리 코드에 대 한이 정보 일반적으로 제공 하 여 지정 된 헤더 파일에서 [Extern 요소](../extensibility/extern-element.md)합니다. 코드는이 정보를 정의 하는 기호 요소의 자식 요소를 관리 합니다.  

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6fad03b6c06b23f7acd34894cf70197895e44b31
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 00143d181629eee4cfe4b3d49f05cc0641f1ec4c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53960919"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55029208"
 ---
 # <a name="vsct-compiler-command-line-flags"></a>VSCT 컴파일러 명령줄 플래그
 Visual Studio 명령 테이블 (VSCT) 컴파일러.vsct 파일의 컴파일이 성공 하도록 명령줄 스위치를 제공 합니다.  

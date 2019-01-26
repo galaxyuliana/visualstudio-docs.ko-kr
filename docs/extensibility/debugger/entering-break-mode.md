@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: e9a8a241-cd21-4d4e-999a-283554c288b1
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8f83059bb5608f99b9a984159771b5f37a1163ae
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2c115612aead124fa9fc7801923f1e98fdf19db8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886178"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930579"
 ---
 # <a name="enter-break-mode"></a>중단 모드를 입력 합니다.
 다음 정보는 함수를 한 단계씩 실행, 실행, 커서에 있는 소스 코드의 줄으로 또는 중단점까지 실행 후 중단점을 발견할 때 발생 하는 프로세스를 설명 합니다.  
@@ -41,5 +41,5 @@ ms.locfileid: "53886178"
   
     -   [IDebugStackFrame2::GetCodeContext](../../extensibility/debugger/reference/idebugstackframe2-getcodecontext.md) 메모리 정보를 가져오려면  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)

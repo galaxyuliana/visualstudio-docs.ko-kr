@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 478e06a2-07bb-4841-8887-deab0f42ebd0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8ccdbc4fa46e88278e3d3db6e65bff70d7c31c1c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3439791fbefaced7238af815beef4fa07b379cb3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841082"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027947"
 ---
 # <a name="idebugprogram2enumcodecontexts"></a>IDebugProgram2::EnumCodeContexts
 소스 파일에서 지정된 된 위치에 대 한 코드 컨텍스트의 목록을 검색합니다.  

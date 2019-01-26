@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 5044ced5-c18c-4534-b0bf-cc3e50cd57ac
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bdd8937963175ffe0e8cadbfe2f6653b16a1f5a5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e83bea1cf503f7b2b7ffaf19452a4f819f023089
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53888727"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55030602"
 ---
 # <a name="expression-evaluation-visual-studio-debugging-sdk"></a>식 계산 (Visual Studio 디버깅 SDK)
 IDE는 중단 모드에서는 여러 프로그램 변수를 포함 하는 간단한 식 평가 해야 합니다. 평가 위해 디버그 엔진 (DE) 구문 분석 하 고 IDE의 창 중 하나에 입력 한 식을 계산 해야 합니다. 
@@ -38,5 +38,5 @@ IDE는 중단 모드에서는 여러 프로그램 변수를 포함 하는 간단
   
  동기 및 비동기 평가 구현 해야 합니다 [IDebugProperty2::GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) 메서드. 비동기 식 계산의 구현이 필요 [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [실행 제어 및 상태 평가](../../extensibility/debugger/execution-control-and-state-evaluation.md)

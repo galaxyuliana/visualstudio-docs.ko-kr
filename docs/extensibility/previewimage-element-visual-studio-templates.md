@@ -9,22 +9,22 @@ helpviewer_keywords:
 ms.assetid: d1796f20-523b-4e0d-8ac3-ca87f3b5a9b6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b0e2c2f5f4914fafbf37daa5fbc8a9218c8e0482
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a09d116ed59492376944612ab95eb19bbac71e40
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913399"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55030589"
 ---
 # <a name="previewimage-element-visual-studio-templates"></a>PreviewImage 요소 (Visual Studio 템플릿)
 미리 보기 이미지에 표시 되는 미리 보기 이미지에 대 한 파일 이름을 지정 합니다 **새 프로젝트** 또는 **새 항목 추가** 대화 상자.  
   
  \<VSTemplate>  
  \<TemplateData>  
- \<PreviewImage >  
+ \<PreviewImage>  
   
 ## <a name="syntax"></a>구문  
   
@@ -55,6 +55,6 @@ ms.locfileid: "53913399"
 ## <a name="remarks"></a>설명  
  `PreviewImage`는 선택적 요소입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)

@@ -4,15 +4,15 @@ ms.date: 01/02/2018
 ms.topic: conceptual
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 39ebb7c49e5a8482ab0b2ef5c3a5257d0237b39c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ba4501662e483af4ae357d75ca55f1a9cbac2329
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53836155"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017996"
 ---
 # <a name="troubleshooting-template-installation"></a>문제 해결 템플릿 설치
 
@@ -44,6 +44,6 @@ ms.locfileid: "53836155"
 > [!NOTE]
 > 로깅을 사용 하지 않으려면, pkgdef 파일을 제거 또는 값을 변경 `EnableTemplateDiscoveryLog` 하 `dword:00000000`, 다음 실행 `devenv /updateConfiguration` 다시 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 [사용자 지정 프로젝트 및 항목 템플릿 만들기](creating-custom-project-and-item-templates.md)

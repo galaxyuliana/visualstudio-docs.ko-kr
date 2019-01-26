@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, generated code
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: b47fe1e80f2441c729dd2d971bfadffb80dfbd04
-ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
+ms.openlocfilehash: 2a1a32f60f1cee19310af76e1f4b82a4dfe2f828
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54270296"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55033286"
 ---
 # <a name="understanding-the-dsl-code"></a>DSL 코드 이해
 도메인 특정 언어 (DSL) 솔루션을 읽고 Visual Studio에서 dsl 인스턴스를 업데이트 하는 데 사용할 수 있는 API를 생성 합니다. 이 API는 DSL 정의에서 생성되는 코드에서 정의됩니다. 이 항목에서는 생성되는 API에 대해 설명합니다.

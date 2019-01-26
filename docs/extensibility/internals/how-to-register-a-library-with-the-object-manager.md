@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: f124dd05-cb0f-44ad-bb2a-7c0b34ef4038
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0ed3913b8031283b20589a670c5d2da6e51a8dec
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4e0de472738c07de65c04d825cea7e1574cd5df0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941981"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021899"
 ---
 # <a name="how-to-register-a-library-with-the-object-manager"></a>방법: 개체 관리자를 사용 하 여 라이브러리를 등록 합니다.
 와 같은 도구 기호 검색 **클래스 뷰**, **개체 브라우저**를 **호출 브라우저** 고 **기호 찾기 결과**를 볼 수 있도록 외부 구성 요소 또는 프로젝트의 기호입니다. 기호는 네임 스페이스, 클래스, 인터페이스, 메서드 및 다른 언어 요소를 포함 합니다. 라이브러리는 이러한 기호를 추적 하 고 노출 하는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 데이터를 사용 하 여 도구를 채우는 개체 관리자입니다.  
@@ -164,7 +164,7 @@ ms.locfileid: "53941981"
   
     ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [레거시 언어 서비스 확장성](../../extensibility/internals/legacy-language-service-extensibility.md)   
  [기호 검색 도구를 지원 합니다.](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
  [방법: 개체 관리자에 게 라이브러리에서 제공 하는 기호 목록을 표시 합니다.](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: beb8607a-4183-4ed2-9ac8-7527f11513b1
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 88cde80499cc56adc2b347b45a4776257ec0e040
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8a1a28232b276456dd2b9a982533e1974ed9a088
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988312"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54932417"
 ---
 # <a name="specifying-vspackage-file-location-to-the-vs-shell"></a>VSPackage 파일 위치를 VS Shell에 지정
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] VSPackage를 로드 하는 DLL 어셈블리를 찾을 수 있어야 합니다. 다음 표에 설명 된 대로 다양 한 방법으로를 찾을 수 있습니다.  

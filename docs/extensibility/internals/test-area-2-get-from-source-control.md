@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: cbd345c5-ca43-4630-b7a4-85564f4e2090
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f9b58cad8f961b1f3273c31c3a2197fc5a002994
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fc75e6efd3f4f30758ab971da078c23433504e80
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53825131"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018620"
 ---
 # <a name="test-area-2-get-from-source-control"></a>테스트 영역 2: 소스 제어에서 가져오기
 이 테스트 영역 가져오기 명령을 통해 버전 저장소에서 항목을 검색 하는 것에 대 한 테스트 사례를 설명 합니다. 웹 프로젝트를 로컬에 이러한 테스트 사례를 적용할 수 있습니다.  

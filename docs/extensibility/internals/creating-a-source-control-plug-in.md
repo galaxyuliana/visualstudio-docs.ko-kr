@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: c7e69fa4-150e-469a-a6fc-fa1260bdbb07
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f8b6578923134d1aaaeb2c60eb118ab66e71d27e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 03b8f7a02c0332a3f75131ddfaf2e021f4a0c65c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53888090"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55035369"
 ---
 # <a name="create-a-source-control-plug-in"></a>소스 제어 플러그 인 만들기
 소스 제어 기능을 추가할 수 있도록 하는 리소스를 제공 하는 Visual Studio SDK는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)입니다. 이 설명서에 설명 된 원본 제어 플러그 인 API를 사용 하 여 따르는 모든 플러그 인 DLL을 사용할 수 있습니다.  
