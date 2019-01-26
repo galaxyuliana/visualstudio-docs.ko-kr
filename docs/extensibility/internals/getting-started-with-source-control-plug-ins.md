@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 46ac1f9f-4ecc-4a72-88d3-4c7e1647e1cb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 829bf676a407fd166eda252cb4e6e2fbdb93fa41
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9d3d756984f27c66a74e1342aeac99c4fd076ff8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53854505"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55028437"
 ---
 # <a name="get-started-with-source-control-plug-ins"></a>원본 제어 플러그 인 시작
 원본 제어 플러그 인 api에서 정의 된 함수를 구현 하는 DLL을 소스 제어 플러그 인을 만들려면 만들어야 차례로 사용 하 여 DLL을 등록 하려면 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 소스 코드 버전 제어에서 사용 하기 위해 사용할 수 있도록 합니다.  

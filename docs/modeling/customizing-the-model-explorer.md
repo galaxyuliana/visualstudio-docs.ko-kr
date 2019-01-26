@@ -8,16 +8,16 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, Domain-Specific Language Explorer
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: f3b9df35c4dd69b52c6c4562f3e634dd9a2bdb56
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9127531c81471c7ae1bba58224c4d206a0be9c50
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986819"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55039100"
 ---
 # <a name="customizing-the-model-explorer"></a>모델 탐색기 사용자 지정
 변경할 수 있습니다 탐색기의 동작과 모양을 도메인별 언어 디자이너에 대 한 다음과 같습니다.

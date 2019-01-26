@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 34fe5b58-15d5-4387-a266-72120f90a4b6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 62824c46e682b0418b8797d6adee0b504f04b414
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 852b4284bbbf59ce8f3964d98f0464e583f1444f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987209"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55028675"
 ---
 # <a name="expression-evaluation-in-break-mode"></a>중단 모드에서 식 계산
 다음 섹션에서는 디버거가 중단 모드에 있는 및 식 평가 수행 해야 하는 경우 발생 하는 프로세스를 설명 합니다.  
@@ -31,7 +31,7 @@ ms.locfileid: "53987209"
   
 3.  ParseText S_OK를 반환 하지 않으면, 오류 이유로 반환 됩니다.  
   
-     -그렇지 않은 경우-  
+     -otherwise-  
   
      ParseText에서 S_OK를 반환 하는 경우 SDM 호출할 수 있습니다 하나 [IDebugExpression2::EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) 또는 [IDebugExpression2::EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) 구문 분석 된 식에서 최종 값을 가져오려고 합니다.  
   

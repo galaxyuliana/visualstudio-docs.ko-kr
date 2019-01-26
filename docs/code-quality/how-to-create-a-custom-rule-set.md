@@ -9,15 +9,15 @@ helpviewer_keywords:
 - rule sets
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f2a0b2de9450fc2e9350371b08f4a3a9bf8d9c1b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 087651271de696345ed2bed97e24acf280af1cd6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929924"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55025991"
 ---
 # <a name="customize-a-rule-set"></a>규칙 집합을 사용자 지정
 
@@ -84,7 +84,7 @@ ms.locfileid: "53929924"
 
 - 동일한 규칙을 나열 된 두 이거나 번 더 사용 하 여 설정 규칙에는 *동일한* 심각도에 다음 경고가 표시 될 수 있습니다 합니다 **오류 목록**:
 
-   **CA0063: 규칙 집합 파일을 로드 하지 못했습니다 '\[에].ruleset ' 또는 해당 종속 규칙 중 하나가 파일을 설정 합니다. 파일 규칙 집합 스키마에 맞지 않습니다.**
+   **CA0063 : 규칙 집합 파일을 로드 하지 못했습니다 '\[에].ruleset ' 또는 해당 종속 규칙 중 하나가 파일을 설정 합니다. 파일 규칙 집합 스키마에 맞지 않습니다.**
 
 - 규칙 집합을 사용 하 여 설정 하는 자식 규칙을 포함 하는 경우는 **Include** 태그 및 자식 및 부모 규칙 집합에는 모두 동일한 규칙을 나열 하지만 서로 다른 심각도 사용 하 여 다음에서 부모 규칙 집합 심각도 우선 적용 됩니다. 예를 들어:
 
@@ -118,7 +118,7 @@ ms.locfileid: "53929924"
 > [!div class="nextstepaction"]
 > [규칙 집합 편집기에서 규칙 수정](../code-quality/working-in-the-code-analysis-rule-set-editor.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [방법: 관리 코드 프로젝트에 대 한 코드 분석 구성](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)
 - [코드 분석 규칙 집합 참조](../code-quality/rule-set-reference.md)

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: dda23b18-96ef-43c6-b0dc-06d15cbe5cbb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 14583d242c260e4b0f1a754d53faf35b645be666
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 292e30a094cd78954e48817324a44ebacda7a78a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53838166"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54934536"
 ---
 # <a name="instantiate-the-core-editor-by-using-the-legacy-api"></a>기존 API를 사용 하 여 핵심 편집기 인스턴스화합니다
 편집기는 텍스트 삽입, 삭제, 복사 및 붙여넣기 등의 기능을 편집 합니다. 텍스트 색 지정, 들여쓰기 및 IntelliSense 문 완성 등의 언어 서비스에 의해 제공 되는 함수를 사용 하 여 이러한 함수를 결합 합니다.  

@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 03443691-9eb5-46f4-9169-cc2552a04bcb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9ece3ed2671a24c60a59adaae33871cda975c517
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 83c44104c6bed3e864f373fda197166e2cc8e54e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53887054"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55029325"
 ---
 # <a name="locationfieldmruprefix-element-visual-studio-templates"></a>LocationFieldMRUPrefix 요소 (Visual Studio 템플릿)
 가장 최근에 사용한 (MRU) 경로 지정 합니다 **새 프로젝트** 하 고 **새 항목 추가** 대화 상자.  
@@ -48,6 +48,6 @@ ms.locfileid: "53887054"
 ## <a name="remarks"></a>설명  
  이 요소를 통해 생성 된 템플릿에 대 한만 사용 해야는 [!INCLUDE[vsipprvsip](../extensibility/includes/vsipprvsip_md.md)]합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)

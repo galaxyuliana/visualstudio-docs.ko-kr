@@ -11,22 +11,22 @@ helpviewer_keywords:
 ms.assetid: 6f9d36f5-ae23-4a92-8132-b11799e2c21a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 36c3f8ef1e8016fd1ab46cb61f5e076afdd4190a
-ms.sourcegitcommit: 35bebf794f528d73d82602e096fd97d7b8f82c25
+ms.openlocfilehash: 93cbde61c4030a53819f42c65fca386174ac57d0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53562284"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55036032"
 ---
 # <a name="numberofparentcategoriestorollup-element-visual-studio-templates"></a>NumberOfParentCategoriesToRollUp 요소 (Visual Studio 템플릿)
 부모 범주에 템플릿 표시 하는 횟수를 지정 합니다 **새 프로젝트** 대화 상자.  
   
  \<VSTemplate>  
  \<TemplateData>  
- \<NumberOfParentCategoriesToRollUp >  
+ \<NumberOfParentCategoriesToRollUp>  
   
 ## <a name="syntax"></a>구문  
   
@@ -87,6 +87,6 @@ ms.locfileid: "53562284"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)

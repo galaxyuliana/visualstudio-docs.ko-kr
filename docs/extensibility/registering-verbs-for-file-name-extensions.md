@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 81a58e40-7cd0-4ef4-a475-c4e1e84d6e06
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 55b6e8d450a298b6d35079998863a9394ec7d70d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f9dde7935750c7ff7b3e9d41ce940b9df8ab0942
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53949734"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55035437"
 ---
 # <a name="register-verbs-for-file-name-extensions"></a>파일 이름 확장명에 대 한 동사 등록
 응용 프로그램의 파일 이름 확장명을 연결에는 일반적으로 사용자가 파일을 두 번 클릭할 때 발생 하는 기본 작업이 있습니다. 이 작업 동사 예를 들어 열기 작업에 해당 하는 연결 된 것이 좋습니다.  
@@ -111,5 +111,5 @@ ms.locfileid: "53949734"
 > [!NOTE]
 >  Side-by-side-배포에서 확장의 기본 동사가 변경 하려는 경우 설치 및 제거에 미치는 영향을 고려 합니다. 설치 하는 동안 원래 기본 값을 덮어씁니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Side-by-side-파일 연결 관리](../extensibility/managing-side-by-side-file-associations.md)

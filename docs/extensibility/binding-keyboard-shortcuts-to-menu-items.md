@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 19f483b6-4d3e-424e-9d68-dc129c788e47
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d319dfdf1203870ecc1b80787522a56d6f37b5e2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 54741301c1c1402876ab7b13dba30b3c4ef03831
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53940377"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55028610"
 ---
 # <a name="bind-keyboard-shortcuts-to-menu-items"></a>메뉴 항목에 바로 가기 키 바인딩
 바로 가기 키 사용자 지정 메뉴 명령을 바인딩할 항목을 방금 추가 된 *.vsct* 파일 패키지에 대 한 합니다. 이 항목에서는 바로 가기 키 사용자 지정 단추, 메뉴 항목 또는 도구 모음 명령에 매핑하는 방법 및 기본 편집기에서 키보드 매핑을 적용 하거나 사용자 지정 편집기를 제한 하는 방법을 설명 합니다.  
@@ -105,5 +105,5 @@ ms.locfileid: "53940377"
 <KeyBinding guid="guidVSStd97" id="cmdidBold" editor="guidTestEditorEditorFactory" key1="B" mod1="Control" />  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [메뉴 및 명령 확장](../extensibility/extending-menus-and-commands.md)
