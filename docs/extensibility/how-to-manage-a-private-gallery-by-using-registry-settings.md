@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 86b86442-4293-4cad-9fe2-876eef65f426
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d81594265f19eed0530aaeb06aebc777630bfbf7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5d75976ba9c677bb9b8f6c32623f81834471e10a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986975"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021522"
 ---
 # <a name="how-to-manage-a-private-gallery-by-using-registry-settings"></a>방법: 레지스트리 설정을 사용 하 여 개인 갤러리 관리
 관리자 또는 격리 셸 확장의 개발자 인 경우에 컨트롤, 템플릿 및 도구는 Visual Studio 갤러리, 샘플 갤러리 또는 전용 갤러리에 대 한 액세스를 제어할 수 있습니다. 갤러리를 사용 가능 여부 확인을 만들려면을 *.pkgdef* 수정 된 레지스트리 키와 값을 설명 하는 파일입니다.  
@@ -67,5 +67,5 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [전용 갤러리](../extensibility/private-galleries.md)

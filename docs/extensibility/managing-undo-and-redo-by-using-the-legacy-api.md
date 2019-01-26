@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 838c0ddf-fdf3-4df1-8d21-79610b8ba0b1
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ccb49abc1251b489807efcb4d7e9ce89b25dcd16
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c43dc4892f1cf2a938a4ed29fc68bc55e99cc05e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53842699"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948130"
 ---
 # <a name="manage-undo-and-redo-by-using-the-legacy-api"></a>실행 취소를 관리 하 고 기존 API를 사용 하 여 다시 실행
 편집기는 코드를 수정 하는 경우 최근 변경 내용이 되돌릴 수 있도록 하는 실행 취소 작업을 지원 해야 합니다. 대부분의 편집기에서 구현 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 하며 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 통합된 개발 환경 (IDE)에서 자동으로 제공 하는 실행 취소 기능을 가질 수 있습니다.  

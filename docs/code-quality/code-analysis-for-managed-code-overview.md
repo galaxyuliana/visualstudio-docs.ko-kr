@@ -10,15 +10,15 @@ helpviewer_keywords:
 - managed code, code analysis
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: d609413f0c0c955ef334e6b4e25719d59ab06e64
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 04ae73deb4bc4dfba550df2c663d8f77a4b1efcf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987105"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55030082"
 ---
 # <a name="overview-of-static-code-analysis-for-managed-code-in-visual-studio"></a>Visual Studio에서 관리 되는 코드에 대 한 정적 코드 분석 개요
 
@@ -29,7 +29,7 @@ Visual Studio 2017 두 가지 방법으로 관리 되는 코드의 코드 분석
 분석 도구는 분석하는 동안 수행하는 검사를 경고 메시지로 나타냅니다. 경고 메시지는 관련 프로그래밍 및 디자인 문제를 식별하며 가능한 경우 문제 해결 방법에 대한 정보를 제공합니다.
 
 > [!NOTE]
-> Visual Studio에서.NET Core 및.NET Standard 프로젝트에 대 한 정적 코드 분석이 지원 되지 않습니다. Msbuild의 일부로.NET Core 또는.NET Standard 프로젝트에서 코드 분석을 실행 하는 경우 유사한 오류가 표시 됩니다 **오류: CA0055: 에 대 한 플랫폼을 식별할 수 없습니다 \<your.dll >** 합니다. .NET Core 또는.NET Standard 프로젝트에서 코드를 분석 하려면 사용 하 여 [Roslyn 분석기](../code-quality/roslyn-analyzers-overview.md) 대신 합니다.
+> Visual Studio에서.NET Core 및.NET Standard 프로젝트에 대 한 정적 코드 분석이 지원 되지 않습니다. Msbuild의 일부로.NET Core 또는.NET Standard 프로젝트에서 코드 분석을 실행 하는 경우 유사한 오류가 표시 됩니다 **오류: CA0055 : 에 대 한 플랫폼을 식별할 수 없습니다 \<your.dll >** 합니다. .NET Core 또는.NET Standard 프로젝트에서 코드를 분석 하려면 사용 하 여 [Roslyn 분석기](../code-quality/roslyn-analyzers-overview.md) 대신 합니다.
 
 ## <a name="ide-integrated-development-environment-integration"></a>IDE(통합 개발 환경) 통합
 

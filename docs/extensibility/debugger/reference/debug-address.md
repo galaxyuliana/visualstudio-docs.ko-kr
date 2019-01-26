@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c38969fb6a17b01ebe7f04259a6ed7397c86612f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 420f8d6e065fc68077a134f6d7bb677690dc2b57
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53859401"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54972523"
 ---
 # <a name="debugaddress"></a>DEBUG_ADDRESS
 이 구조는 주소를 나타냅니다.  
@@ -55,7 +55,7 @@ public struct DEBUG_ADDRESS {
 > [!NOTE]
 >  이 값은 기호 공급자에 국한 되며 따라서 의미가 없는 일반 이외의 다른 클래스 형식에 대 한 식별자로.  
   
- Addr  
+ addr  
  A [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) 개별 주소 형식을 설명 하는 구조체의 공용 구조체를 포함 하는 구조입니다. 값 `addr`합니다.`dwKind` 제공 되는 [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) 열거형, 공용 구조체를 해석 하는 방법에 설명 합니다.  
   
 ## <a name="remarks"></a>설명  

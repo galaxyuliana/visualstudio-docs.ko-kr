@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: 6f0e4986-3157-4bba-aed3-c28413ebe976
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5f77b14903ccf5569755cf7116a1365d5ba8487c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b04a4332169f2f7ae57daaaeebb8a71ea0fafc72
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53850390"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54947506"
 ---
 # <a name="requiredplatformversion-element-visual-studio-templates"></a>RequiredPlatformVersion 요소 (Visual Studio 템플릿)
 프로젝트 템플릿이 제대로 작동 하는 데 필요한 운영 체제의 최소 버전을 지정 합니다. 이 요소는 프로젝트 템플릿을 만드는 데 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 앱.  
@@ -25,7 +25,7 @@ ms.locfileid: "53850390"
   
  VSTemplate  
 TemplateData  
-..... TargetPlatformName  
+.....TargetPlatformName  
 RequiredPlatformVersion  
   
 ## <a name="syntax"></a>구문  
@@ -71,7 +71,7 @@ RequiredPlatformVersion
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [TargetPlatformName 요소 (Visual Studio 템플릿)](../extensibility/targetplatformname-element-visual-studio-templates.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)

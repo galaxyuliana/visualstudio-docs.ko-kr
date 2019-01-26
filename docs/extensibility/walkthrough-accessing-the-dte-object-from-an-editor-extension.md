@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d178732376fa01c0b204e8d6b2acc27e39a82cb4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b6cd51ebe6965e2bf2c0827e60e35041ea7f593b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53930190"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55040140"
 ---
 # <a name="walkthrough-accessing-the-dte-object-from-an-editor-extension"></a>연습: 편집기 확장에서 DTE 개체 액세스
 Vspackage에서 DTE 개체를 호출 하 여 가져올 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> DTE 개체의 유형과 메서드. Framework MEF (Managed Extensibility) 확장을 가져올 수 있습니다 <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> 호출을 <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> 형식의 메서드 <xref:EnvDTE.DTE>합니다.  
@@ -63,5 +63,5 @@ Vspackage에서 DTE 개체를 호출 하 여 가져올 수 있습니다는 <xref
   
 6.  사용 해야 하는 경우는 <xref:EnvDTE80.DTE2> 인터페이스를 DTE 개체를 캐스팅할 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)

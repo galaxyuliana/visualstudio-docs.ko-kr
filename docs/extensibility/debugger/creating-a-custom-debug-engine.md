@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 52794238-6fae-451c-bf1c-99f344c6f173
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fe3d22bc271366ba307510ea4b61ad6a1093c99d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aff0f3ba1bef25c7754f80dcbb6fb04e2e7da60e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852705"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55029910"
 ---
 # <a name="create-a-custom-debug-engine"></a>사용자 지정 디버그 엔진 만들기
 디버그 엔진 (DE)는 구성 요소로, 특정 런타임 아키텍처를 디버깅할 수 있습니다. 일반적으로 런타임 환경 별로 하나의 DE 구현이입니다.  

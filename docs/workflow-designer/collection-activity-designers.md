@@ -6,15 +6,15 @@ ms.prod: visual-studio-dev15
 ms.assetid: 6a07ed95-8319-44a2-8a1d-b4a89f16d0d9
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 25ce0ee2ecc9f75a091b05b2e9edbd373349b4fb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1f0bb7094123a8476c62f61696cecfd63f5bd957
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874536"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998796"
 ---
 # <a name="collection-activity-designers"></a>컬렉션 활동 디자이너
 

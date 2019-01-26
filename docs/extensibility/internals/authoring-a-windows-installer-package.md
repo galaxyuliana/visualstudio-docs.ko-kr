@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3b590eed19d8c8cff0aac69f445655aa60cbca86
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 93c69b2fba2bc866673b294a4f5c975a6ce3eb6a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955028"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020948"
 ---
 # <a name="author-a-windows-installer-package"></a>Windows Installer 패키지를 작성 합니다.
 데이터 드라이브는 Windows Installer 모델입니다. 레지스트리 항목을 쓰고 파일을 복사 하는 절차 스크립트를 작성 하는 대신 예를 들어 만든 파일 및 레지스트리 데이터를 포함 하는 데이터베이스 테이블의 행과 열입니다.  
@@ -49,5 +49,5 @@ VSPackage를 설치 하려면 Windows Installer 패키지를 다음 작업을 �
   
    에 통합 하는 상용 제품에 대 한 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 를 사용 하 여는 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]를 참조 하십시오 [ http://visualstudiogallery.com ](http://visualstudiogallery.com/)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Windows Installer를 사용 하 여 Vspackage 설치](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

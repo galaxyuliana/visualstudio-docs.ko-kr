@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 97c58bcb9a8f36523a42294bf63008f30f00913d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 65bdda745d5fad04a87f6e46a9810a6a3ab6c352
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53934455"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952773"
 ---
 # <a name="upgrading-custom-project-and-item-templates-for-visual-studio-2017"></a>Visual Studio 2017용 사용자 지정 프로젝트 및 항목 템플릿 업그레이드
 
@@ -45,7 +45,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
   
     1.  파일 변경 검색 다음 레지스트리 키에 의해 활성화 됩니다.  
   
-         **reg은 hklm\software\microsoft\visualstudio\15.0\VSTemplate /v DisableTemplateScanning /t REG_DWORD /d 1 /reg:32 추가**  
+         **reg add hklm\software\microsoft\visualstudio\15.0\VSTemplate /v DisableTemplateScanning /t REG_DWORD /d 1 /reg:32**  
   
     2.  키를 추가한 후 실행할 **devenv /installvstemplates**합니다.  
   
@@ -187,7 +187,7 @@ MSI 기반 배포를 수행 하는 확장 프로그램을 하는 경우 템플�
 
 프로젝트 및 항목 템플릿에 대 한 별도 매니페스트를 만들어야 하 고 루트 템플릿 지정 된 대로 위의 디렉터리를 가리키도록 해야 합니다. 확장 및 로캘 당 하나의 매니페스트를 만듭니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 [템플릿 검색 문제 해결](troubleshooting-template-discovery.md)  
 [사용자 지정 프로젝트 및 항목 템플릿 만들기](creating-custom-project-and-item-templates.md)

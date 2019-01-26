@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: f00a59a7-2c6a-4bbe-a1b3-7bf77d366f34
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 1d1f7214ce570042d1cebdbf0ac75ffaf81b0ea1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8307c9cd133671d5cc1e1c32fc257965198f0a9e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53849495"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023670"
 ---
 # <a name="ca2115-call-gckeepalive-when-using-native-resources"></a>CA2115: 네이티브 리소스를 사용하는 경우에는 GC.KeepAlive를 호출하세요.
 
@@ -64,7 +64,7 @@ ms.locfileid: "53849495"
 
 [!code-csharp[FxCop.Security.IntptrAndFinalize#1](../code-quality/codesnippet/CSharp/ca2115-call-gc-keepalive-when-using-native-resources_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.GC.KeepAlive%2A?displayProperty=fullName>
 - <xref:System.IntPtr?displayProperty=fullName>

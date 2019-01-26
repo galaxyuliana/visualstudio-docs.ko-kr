@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ad112d34c8f23a7738137f148f00a38a27335424
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 16f54bd3bfd2fc6ce0b16ee8fbf849974d53884d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53966562"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54965694"
 ---
 # <a name="add-a-language-server-protocol-extension"></a>언어 서버 프로토콜 확장 추가
 
@@ -239,7 +239,7 @@ VSIX 매니페스트 디자이너를 열고로 이동 합니다 **자산** 탭:
 
 ![MEF 자산을 정의 합니다.](media/lsp-define-asset.png)
 
-* **형식**: Microsoft.VisualStudio.MefComponent
+* **Type**: Microsoft.VisualStudio.MefComponent
 * **원본**: 현재 솔루션의 프로젝트
 * **프로젝트**: [프로젝트]
 
@@ -330,7 +330,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 
    ![vspackage 자산 편집](media/lsp-add-vspackage-asset.png)
 
-   * **형식**: Microsoft.VisualStudio.VsPackage
+   * **Type**: Microsoft.VisualStudio.VsPackage
    * **원본**: 파일 시스템의 파일
    * **경로**: [에 대 한 경로 *.pkgdef* 파일]
 

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1e6d6379d708caeb746a7b609083131ec1bbcce2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 63d6550dd462e9d0c43d79064700440732e75d12
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53879097"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54960869"
 ---
 # <a name="idebugengineprogram2watchforexpressionevaluationonthread"></a>IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 허용 하거나 허용 하지 않습니다 프로그램을 중지 하는 경우에 특정 스레드에서 발생 되는 식 계산.  

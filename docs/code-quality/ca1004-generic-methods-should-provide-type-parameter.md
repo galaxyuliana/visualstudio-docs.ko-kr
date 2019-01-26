@@ -12,18 +12,18 @@ helpviewer_keywords:
 ms.assetid: 38755f6a-fb45-4bf2-932e-0354ad826499
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 2fe40093253cb57d60c2a06239b47b5f3141f76c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cec1af3bfb528902631f0007bd19d2bb4dc8a7e7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53825346"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54971899"
 ---
 # <a name="ca1004-generic-methods-should-provide-type-parameter"></a>CA1004: 제네릭 메서드는 형식 매개 변수를 제공해야 합니다.
 
@@ -67,5 +67,5 @@ ms.locfileid: "53825346"
 
  [CA1007: 적합 한 제네릭을 사용합니다](../code-quality/ca1007-use-generics-where-appropriate.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [제네릭](/dotnet/csharp/programming-guide/generics/index)

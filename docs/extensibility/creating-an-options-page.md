@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 162c03fec6119985636122a414c00c96e384b340
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 35845ed22fa06ca7df62c71ddea4be3629534af9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53843689"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54953473"
 ---
 # <a name="create-an-options-page"></a>옵션 페이지 만들기
 이 연습을 검토 하 고 속성을 설정 하려면 속성 표를 사용 하는 간단한 도구/옵션 페이지를 만듭니다.  
@@ -261,5 +261,5 @@ ms.locfileid: "53843689"
   
      현재 값을 표시 하는 메시지 상자 `OptionInteger`합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [옵션 및 옵션 페이지](../extensibility/internals/options-and-options-pages.md)

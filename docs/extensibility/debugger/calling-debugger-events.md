@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: b3440ac3-80af-40c6-bef4-cbf00fa67885
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b4b97ddde0e7cdcd258a8549f588257d90a365a5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6a24c661c986116d9966d2ca5785bd51e2726c6d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857334"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998406"
 ---
 # <a name="call-debugger-events"></a>디버거 이벤트 호출
 디버깅 세션에 이벤트를 특정 순서로 발생 합니다.  
@@ -47,5 +47,5 @@ ms.locfileid: "53857334"
   
 12. [예외 처리](../../extensibility/debugger/exception-handling-visual-studio-sdk.md)  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [사용자 지정 디버그 엔진 만들기](../../extensibility/debugger/creating-a-custom-debug-engine.md)

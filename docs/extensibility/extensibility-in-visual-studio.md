@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 81b0dbe6-ddf3-4899-b09c-a3837037231d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2a9ffd2fadbcb255754e912704d6027c2116a29b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4dfa55029a1ef73900c2642c3841699c9498b8bc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53854791"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943301"
 ---
 # <a name="extensibility-in-visual-studio"></a>Visual Studio의 확장성
 Visual Studio에서는 다양한 확장성 옵션이 제공됩니다. 사용자 고유의 Sdk를 만드는 하 고, Windows, Windows Phone 및 Azure Sdk (Visual Studio의 일부로 설치 되어 있음)를 사용 하 고, Visual Studio 자체를 확장할 수 있습니다.  

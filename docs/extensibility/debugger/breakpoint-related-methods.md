@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: a6f77bf0-bf81-443f-8683-5f12075bbe10
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4da8292d817649c83f26ebce4abe346e32624a93
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5861e8ea84938aae10c17ce0460514985dceee29
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53947285"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54974073"
 ---
 # <a name="breakpoint-related-methods"></a>중단점 관련 메서드
 디버그 엔진 (DE)에 중단점 설정을 지원 해야 합니다. Visual Studio 디버깅 중단점의 형식을 지원 합니다.  
@@ -82,5 +82,5 @@ ms.locfileid: "53947285"
   
  메서드를 구현 해야 중단점의 소스 코드를 보면 [IDebugStackFrame2::GetDocumentContext](../../extensibility/debugger/reference/idebugstackframe2-getdocumentcontext.md) 의 메서드 및/또는 [IDebugStackFrame2::GetCodeContext](../../extensibility/debugger/reference/idebugstackframe2-getcodecontext.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [실행 제어 및 상태 평가](../../extensibility/debugger/execution-control-and-state-evaluation.md)

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 998b616b-bd08-45cb-845f-808efb8c33bc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e2a99fc6e87e59bf4cc0008c20905f9dc145102b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 709cea938ea898eab1440f38deb563db2530e57d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965579"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54949621"
 ---
 # <a name="command-routing-algorithm"></a>명령 라우팅 알고리즘
 Visual Studio에서 명령은 다양 한 다른 구성 요소에서 처리 됩니다. 명령 (라고도 전역)은 가장 바깥쪽 컨텍스트를 현재 선택 영역을 기반으로 하는 가장 안쪽의 컨텍스트에서 라우팅됩니다. 자세한 내용은 [가용성 명령을](../../extensibility/internals/command-availability.md)합니다.  
@@ -42,5 +42,5 @@ Visual Studio에서 명령은 다양 한 다른 구성 요소에서 처리 됩�
   
 8.  전역: Visual Studio를 구현 하는 명령을 소유 하는 VSPackage에 라우팅할 하려고 앞에서 언급 한 컨텍스트에서 명령을 처리 하지 않은, 경우를 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스입니다. VSPackage 이미 로드 되지 않은, 경우 로드 되지 않습니다 Visual Studio에서 호출 하는 경우는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 메서드. VSPackage는 경우에만 로드 되는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> 메서드가 호출 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [명령 디자인](../../extensibility/internals/command-design.md)

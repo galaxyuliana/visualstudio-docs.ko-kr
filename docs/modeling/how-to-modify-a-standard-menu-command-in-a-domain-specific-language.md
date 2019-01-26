@@ -7,16 +7,16 @@ helpviewer_keywords:
 - Domain-Specific Language, adding custom commands
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: bc7eedfbdf725333a5cd6d3cdd3d683437d1979c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 695634c87c81be4884943c0caf8bde2dae6ea808
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53870192"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020700"
 ---
 # <a name="how-to-modify-a-standard-menu-command-in-a-domain-specific-language"></a>방법: 도메인 특정 언어에서 표준 메뉴 명령 수정
 
@@ -143,7 +143,7 @@ protected override void ProcessOnMenuDeleteCommand()
 
 개체 및 링크를 만드는 방법에 대 한 요소를 이동 하는 방법에 대 한 자세한 내용은 참조 하세요 [탐색 및 업데이트 프로그램 코드에서 모델](../modeling/navigating-and-updating-a-model-in-program-code.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.ComponentModel.Design.MenuCommand>
 - [도메인별 언어를 사용자 지정하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)

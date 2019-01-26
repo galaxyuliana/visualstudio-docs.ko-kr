@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 09643415-36ef-4d0f-9411-5721e14e2512
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 30a925d685a327499f426bc3e6d060b897dd90c3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2f595637f5f2023eaa6529c943a1b1a48b4446d4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53839679"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54980534"
 ---
 # <a name="ca1026-default-parameters-should-not-be-used"></a>CA1026: 기본 매개 변수를 사용하면 안 됩니다.
 
@@ -53,5 +53,5 @@ ms.locfileid: "53839679"
 ## <a name="related-rules"></a>관련된 규칙
  [CA1025: 반복 인수를 배열로 바꾸십시오.](../code-quality/ca1025-replace-repetitive-arguments-with-params-array.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [언어 독립성 및 언어 독립적 구성 요소](/dotnet/standard/language-independence-and-language-independent-components)

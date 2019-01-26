@@ -10,15 +10,15 @@ f1_keywords:
 ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6aee36a87b6bf9210a880c9b547f8efda08dbe98
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d9a4b89fbaf82cd7535919a112ed8a4eab46241e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926650"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54984589"
 ---
 # <a name="flowchart-activity-designer"></a>순서도 활동 디자이너
 
@@ -47,7 +47,7 @@ ms.locfileid: "53926650"
 |<xref:System.Activities.Statements.Flowchart.StartNode%2A>|False|<xref:System.Activities.Statements.FlowNode>를 시작할 때 실행되는 <xref:System.Activities.Statements.Flowchart>입니다.|
 |<xref:System.Activities.Statements.Flowchart.Nodes%2A>|False|<xref:System.Activities.Statements.FlowNode>에 있는 <xref:System.Activities.Statements.Flowchart> 개체 컬렉션을 포함합니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [워크플로](../workflow-designer/flowchart-activity-designers.md)
 - [FlowDecision](../workflow-designer/flowdecision-activity-designer.md)

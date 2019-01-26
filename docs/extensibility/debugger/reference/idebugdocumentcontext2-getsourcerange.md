@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fe2ad435b4b70f2314822414c0cc0eb429c2478e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d5fb28cdfe387c5eb82c79bdab5c848be727ffbb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841557"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54988872"
 ---
 # <a name="idebugdocumentcontext2getsourcerange"></a>IDebugDocumentContext2::GetSourceRange
 이 문서 컨텍스트의 소스 코드 범위를 가져옵니다.  

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 7aca27d3-c7b8-470f-b42c-d1e9d9115edd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b32073b54362c7598c3756ebd691823f5bea76bb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 72f273cc08926b79e188f43356466fa00736fa5b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53946281"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54988992"
 ---
 # <a name="idebugcustomviewer"></a>IDebugCustomViewer
 이 인터페이스는 식 계산기를 (EE) 형식에 관계 없이가 필요한 속성의 값을 표시할 수 있습니다.  

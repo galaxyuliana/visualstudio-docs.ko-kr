@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 104297b2-5806-4de0-a8d9-c589380a796c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 376c7dc88047b861d087896a941079514c1e4303
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aa74ce81e7923115cf4fa07aba26be171e187690
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53944050"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54946557"
 ---
 # <a name="ca1306-set-locale-for-data-types"></a>CA1306: 데이터 형식에 맞는 로캘을 설정하세요.
 
@@ -48,7 +48,7 @@ ms.locfileid: "53944050"
 
  [!code-csharp[FxCop.Globalization.DataTable#1](../code-quality/codesnippet/CSharp/ca1306-set-locale-for-data-types_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Data.DataTable?displayProperty=fullName>
 - <xref:System.Data.DataSet?displayProperty=fullName>

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: ae611714-f114-4cf2-b5bb-37461e6ff289
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5f521325d26b14ab7adbe1401fb62aad3e2a1600
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 04a66aed4f086bc8521195cbb8711f181cfcbfe0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53895966"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952628"
 ---
 # <a name="idebugreference2getreferenceinfo"></a>IDebugReference2::GetReferenceInfo
 가져옵니다 합니다 [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) 대 한 참조를 설명 하는 구조입니다. 나중에 사용하기 위해 예약되어 있습니다.  
