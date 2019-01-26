@@ -15,15 +15,15 @@ helpviewer_keywords:
 - documents [Office development in Visual Studio], opening without running code
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 59cee99ad603ec1a03f8beffd36b82d4b83ed308
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 47c6d80a6d2d9c9ee63d13eca6bcb8a479ea2aad
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53930109"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867756"
 ---
 # <a name="how-to-open-office-solutions-without-running-code"></a>방법: 코드를 실행 하지 않고 Office 솔루션 열기
   관리 코드 확장을 사용 하 여 만든 Microsoft Office 솔루션에는 최종 사용자의 Office 응용 프로그램의 보안 설정이 높은를 설정한 경우에 실행 됩니다. Microsoft Office가 아니라 Microsoft.NET Framework에서.NET 어셈블리 코드 보안을 관리 하는 때문입니다.  
@@ -49,7 +49,7 @@ ms.locfileid: "53930109"
   
      솔루션을 여러 사용자가 사용 하는 경우이 메서드는 실행 모두에 대 한 솔루션을 방지 합니다. 이 기능은 코드 또는 참조 된 서버에서 문제가 발견 되 고 모든 사용자가 해당 실행을 중지 하려는 경우에 유용할 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션 보안](../vsto/securing-office-solutions.md)   
  [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)   
  [Office 솔루션을 만들고 디자인](../vsto/designing-and-creating-office-solutions.md)   
