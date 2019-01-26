@@ -11,15 +11,15 @@ helpviewer_keywords:
 - data [Office development in Visual Studio], caching
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c47f76c2371737b10c5eb58566cef388aff5fcd7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 627469dd3227d82ce1cc97af25d2b8a4537541e5
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968419"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868449"
 ---
 # <a name="how-to-cache-data-in-a-password-protected-document"></a>방법: 암호로 보호 된 문서의 데이터 캐시
   문서 또는 통합 문서를 암호로 보호 되는 데이터 캐시에 데이터를 추가 하는 경우 캐시 된 데이터의 변경 내용은 자동으로 저장 되지 않습니다. 프로젝트의 두 메서드를 재정의 하 여 캐시 된 데이터 변경 내용을 저장할 수 있습니다.  
@@ -73,7 +73,7 @@ ms.locfileid: "53968419"
 ### <a name="compile-the-code"></a>코드 컴파일  
  이 코드를 추가 합니다 `ThisWorkbook` 프로젝트의 클래스입니다. 이 코드는 암호 라는 필드에 저장 되어 있다고 가정 `securelyStoredPassword`합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [데이터 캐시](../vsto/caching-data.md)   
  [방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터 캐시](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)   
  [방법: Office 문서에서 데이터 원본을 프로그래밍 방식으로 캐시](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)  

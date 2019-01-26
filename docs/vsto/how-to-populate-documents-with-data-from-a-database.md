@@ -10,15 +10,15 @@ helpviewer_keywords:
 - data, adding to documents
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 27dc08cc5d63368cecaa54ce59ed6831e7647240
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f1522b2567c05a9c3a61091813a8b5e18315433f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53884001"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863450"
 ---
 # <a name="how-to-populate-documents-with-data-from-a-database"></a>방법: 데이터베이스의 데이터로 문서 채우기
 
@@ -66,7 +66,7 @@ Windows Forms 프로젝트의 데이터에 액세스하는 것과 동일한 방�
 
 형식화 된 데이터 집합 및 데이터베이스에 업데이트를 보내는 방법에 대 한 정보를 참조 하세요. [방법: 호스트 컨트롤의 데이터로 데이터 소스를 업데이트](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Office 솔루션의 컨트롤에 데이터 바인딩](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [새 데이터 소스 추가](../data-tools/add-new-data-sources.md)

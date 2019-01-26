@@ -14,17 +14,17 @@ helpviewer_keywords:
 - Business Data Connectivity service [SharePoint development in Visual Studio], creating a model
 - Business Data Connectivity service [SharePoint development in Visual Studio], data
 - BDC [SharePoint development in Visual Studio], data
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 194f2e0c88a0cbce9ef34f77246cf7969066833e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d04a3fcfac93ffbb6a2a6c60363e4906898e0c7f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53934442"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865478"
 ---
 # <a name="integrate-business-data-into-sharepoint"></a>SharePoint 비즈니스 데이터 통합
   SharePoint에 비즈니스 데이터를 통합할 수 있습니다. 비즈니스 데이터와 같은 백 엔드 서버 응용 프로그램에서 가져올 수 있습니다 [!INCLUDE[TLA#tla_sqlsvr](../sharepoint/includes/tlasharptla-sqlsvr-md.md)], Siebel 및 SAP 또는 웹 서비스입니다. 사용자 수 보기, 추가, 업데이트 또는 외부 목록 또는 SharePoint에 비즈니스 데이터 웹 파트를 사용 하 여 비즈니스 데이터를 삭제 합니다.  이 데이터를 오프 라인 Microsoft Outlook과 같은 Microsoft Office 응용 프로그램에서 액세스할 수도 있습니다. 자세한 내용은 [여기서 수 외부 데이터를 표시할](http://go.microsoft.com/fwlink/?LinkId=169295)합니다.  

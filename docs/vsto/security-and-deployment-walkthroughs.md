@@ -10,17 +10,17 @@ helpviewer_keywords:
 - walkthroughs [Office development in Visual Studio], security
 - deployment manifests [Office development in Visual Studio], walkthroughs
 - walkthroughs [Office development in Visual Studio], deployment
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e0ce327c620531a1ba5f9a21ccbfd3aeef1c1fa8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 53150ecb4f5a8c4233a2cea8a1955908e4becec8
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986247"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863398"
 ---
 # <a name="security-and-deployment-walkthroughs"></a>보안 및 배포 연습
   다음 항목에는 Office 솔루션을 배포 하는 방법 및 솔루션 실행을 허용 하도록 보안 정책을 설정 하는 방법을 보여 줍니다.  
@@ -73,5 +73,5 @@ ms.locfileid: "53986247"
  [Office 솔루션을 만들고 디자인](../vsto/designing-and-creating-office-solutions.md)  
  솔루션에서 Word 및 Excel 솔루션 및 어셈블리의 역할을 만드는 방법에 대 한 링크를 제공 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)  

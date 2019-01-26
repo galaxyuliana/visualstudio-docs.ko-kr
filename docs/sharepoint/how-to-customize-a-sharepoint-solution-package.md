@@ -12,17 +12,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, packages
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 85140f8d85c90d2b58df10a63f50c117e10eb8bd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5e1c2e86f489191c3876154143706be4f9b0f1e4
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53835398"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874941"
 ---
 # <a name="how-to-customize-a-sharepoint-solution-package"></a>방법: SharePoint 솔루션 패키지 사용자 지정
   패키지 디자이너를 사용 하 여를 만들고 패키지를 사용자 지정할 수 있습니다 (*.wsp*). 예를 들어 웹 서버의 솔루션이 배포 될 때 다시 설정 및 배포 서버 유형을 설정 하는 경우 지정할에 SharePoint 프로젝트 항목 및 기능을 추가할 수 있습니다.  
@@ -87,5 +87,5 @@ ms.locfileid: "53835398"
   
      원본 텍스트를 사용 하 여 템플릿을 새로 고쳐집니다 및 XML의 변경 내용이 손실 됩니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  

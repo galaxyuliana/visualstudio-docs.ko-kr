@@ -21,15 +21,15 @@ helpviewer_keywords:
 - document-level customizations [Office development in Visual Studio], Visual Basic for Applications and
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7217665d0d5b9ea594b605739916e017184730fb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fa94c6a3b86abe53e374f8d797158bcded55f440
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987890"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866677"
 ---
 # <a name="combine-vba-and-document-level-customizations"></a>VBA 및 문서 수준 사용자 지정 결합
   Microsoft Office Word 또는 Microsoft Office Excel의 문서 수준 사용자 지정의 일부인 문서에서 VBA(Visual Basic for Applications) 코드를 사용할 수 있습니다. 사용자 지정 어셈블리에서 문서의 VBA 코드를 호출하거나, 문서의 VBA 코드에서 사용자 지정 어셈블리의 코드를 호출할 수 있도록 프로젝트를 구성할 수 있습니다.  
@@ -242,14 +242,14 @@ GetManagedClass(pdispInteropObject Object) As Object
 ## <a name="troubleshoot"></a>문제 해결
  다음 표에는 몇 가지 일반적인 오류와 해당 오류를 해결하기 위한 제안 사항이 나와 있습니다.  
   
-|오류|제안 해결 방법|  
+|Error|제안 해결 방법|  
 |-----------|----------------|  
 |**EnableVbaCallers** 또는 **ReferenceAssemblyFromVbaProject** 속성을 설정한 후 문서에 VBA 프로젝트가 포함되어 있지 않다는 오류 메시지가 표시되거나 문서에서 VBA 프로젝트에 액세스할 수 있는 권한이 없습니다.|프로젝트의 문서에 VBA 매크로가 하나 이상 포함되어 있고, VBA 프로젝트를 실행하는 데 충분한 신뢰가 있으며, VBA 프로젝트가 암호로 보호되지 않는지 확인합니다.|  
 |설정한 후 합니다 **EnableVbaCallers** 또는 **ReferenceAssemblyFromVbaProject** 속성을 오류 메시지를 나타내는 <xref:System.Runtime.InteropServices.GuidAttribute> 선언이 없거나 손상 되었습니다.|있는지 확인 합니다 <xref:System.Runtime.InteropServices.GuidAttribute> 선언에는 *AssemblyInfo.cs* 또는 *AssemblyInfo.vb* 프로젝트에서 파일 및이 특성이 유효한 GUID로 설정 되어 있는지 합니다.|  
 |설정한 후 합니다 **EnableVbaCallers** 또는 **ReferenceAssemblyFromVbaProject** 버전 번호를 지정 된 속성에 오류 메시지가 표시 된 <xref:System.Reflection.AssemblyVersionAttribute> 올바르지 않습니다.|있는지 확인 합니다 <xref:System.Reflection.AssemblyVersionAttribute> 의 선언을 *AssemblyInfo.cs* 또는 *AssemblyInfo.vb* 프로젝트 파일에에서는 올바른 어셈블리 버전 번호를 설정 합니다. 유효한 어셈블리 버전 번호에 대한 자세한 내용은 <xref:System.Reflection.AssemblyVersionAttribute> 클래스를 참조하세요.|  
 |사용자 지정 어셈블리의 이름을 변경한 후 사용자 지정 어셈블리를 호출하는 VBA 코드의 작동이 중지됩니다.|사용자 지정 어셈블리를 VBA 코드에 노출한 후 사용자 지정 어셈블리의 이름을 변경하면 문서의 VBA 프로젝트와 사용자 지정 어셈블리 간의 연결이 끊어집니다. 이 문제를 해결하려면 프로젝트에서 **ReferenceFromVbaAssembly** 속성을 **False** 로 변경했다가 다시 **True**로 변경한 후 VBA 코드에서 이전 어셈블리 이름에 대한 모든 참조를 새 어셈블리 이름으로 바꿉니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: Visual Basic 프로젝트에서 VBA로 코드 노출](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)   
  [방법: Visual C에서 VBA로 코드 노출&#35; 프로젝트](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md)   
  [연습: Visual Basic 프로젝트에서 VBA에서 코드 호출](../vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md)   

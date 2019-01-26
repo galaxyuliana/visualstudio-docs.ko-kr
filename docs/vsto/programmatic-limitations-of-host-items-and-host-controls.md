@@ -25,17 +25,17 @@ helpviewer_keywords:
 - Word [Office development in Visual Studio], host items
 - document-level customizations [Office development in Visual Studio], host items
 - Word [Office development in Visual Studio], host controls
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 70e68a47d4685e3bba9e58fb225f2105f8bdabe4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: facf78a9c737dbaa0d3a48e93d8424d5288f683a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53966027"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865465"
 ---
 # <a name="programmatic-limitations-of-host-items-and-host-controls"></a>호스트 항목 및 호스트 컨트롤의 프로그래밍 방식으로 제한 사항
   각 호스트 항목 및 호스트 컨트롤은 추가 기능을 통해 해당 네이티브 Microsoft Office Word 또는 Microsoft Office Excel 개체처럼 동작하도록 설계되었습니다. 그러나 런타임에 호스트 항목과 호스트 컨트롤의 동작과 네이티브 Office 개체 간에는 몇 가지 근본적인 차이가 있습니다.  
@@ -87,7 +87,7 @@ ms.locfileid: "53966027"
   
  Word 및 Excel 개체 모델은 문서 및 워크시트에서 네이티브 컨트롤의 컬렉션을 노출하는 속성을 포함합니다. 이러한 속성을 사용하면 관리되는 컨트롤에 액세스할 수 없습니다. 예를 들어 <xref:Microsoft.Office.Tools.Word.Bookmark> 의 <xref:Microsoft.Office.Interop.Word._Document.Bookmarks%2A> 속성 또는 <xref:Microsoft.Office.Interop.Word.Document> 의 <xref:Microsoft.Office.Tools.Word.Document.Bookmarks%2A> 속성을 사용하여 문서의 각 <xref:Microsoft.Office.Tools.Word.Document>호스트 컨트롤을 열거할 수 없습니다. 이러한 속성은 문서의 <xref:Microsoft.Office.Interop.Word.Bookmark> 컨트롤만 포함하며 문서의 <xref:Microsoft.Office.Tools.Word.Bookmark> 호스트 컨트롤은 포함하지 않습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)   
  [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)   
  [확장 된 개체를 사용 하 여 Excel 자동화](../vsto/automating-excel-by-using-extended-objects.md)   

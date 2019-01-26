@@ -12,15 +12,15 @@ helpviewer_keywords:
 - collaborative development [Office development in Visual Studio]
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2d8c6d19442a1735ee90db52e4c5f1a98e1fe860
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 897b90c9b370d61cfe8f3202e0f3c5c33ce6f613
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53876499"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875968"
 ---
 # <a name="collaborative-development-of-office-solutions"></a>Office 솔루션 공동 개발
   여러 개발자가 Office 프로젝트에서 다른 Visual Studio 프로젝트에서 공동으로 동일한 방식으로 작동할 수 있습니다. Visual Studio Office가 서로 다른 위치에 설치 된 경우에 각 컴퓨터에 Microsoft Office 설치를 올바르게 찾습니다. 그러나 알아야 할 몇 가지 중요 한 고려 사항이 있습니다.  

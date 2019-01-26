@@ -21,17 +21,17 @@ helpviewer_keywords:
 - Ribbon Designer [Office development in Visual Studio]
 - read-only properties
 - Ribbon [Office development in Visual Studio], shortcut keys
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7179de49f80bee847077a7f247cc11dee855be80
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f923c4762a78f43d2d9b1ba3df990c148a074e68
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53928869"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867262"
 ---
 # <a name="ribbon-designer"></a>리본 디자이너
   리본 디자이너는 시각적 디자인 캔버스입니다. Microsoft Office 응용 프로그램의 리본에 사용자 지정 탭, 그룹 및 컨트롤을 추가 하려면 리본 디자이너를 사용 합니다.
@@ -145,14 +145,14 @@ ms.locfileid: "53928869"
 |**ButtonGroup**|하나 이상의 단추, 설정/해제 단추, 메뉴, 분할 단추 및 갤러리가 포함 된 그룹입니다. 그룹 또는 메뉴에 단추 그룹을 추가할 수 있습니다.|
 |**CheckBox**|선택 하거나 켜기 / 끄기 옵션을 선택 취소 하는 상자입니다.|
 |**ComboBox**|연결 된 목록 상자를 사용 하 여 편집 상자입니다. 사용자가 입력 하거나 해당 항목을 선택 합니다. 현재 선택 영역 상자에 표시 됩니다. 사용 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox.Items%2A> 속성을 추가 하 고 Office 응용 프로그램에 리본 메뉴가 로드 된 후 전이나 런타임에 항목을 제거 합니다.|
-|**드롭다운**|사용자가 선택할 수 있는 항목의 목록입니다. 사용자는 드롭다운 목록에서 새 항목을 입력할 수 없습니다.<br /><br /> 사용 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.Items%2A> 속성 목록에 항목을 추가 합니다. 추가 하 고 런타임 시 항목을 제거할 수 있습니다.<br /><br /> 사용 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.Buttons%2A> 단추 목록에 추가할 속성입니다. 그러나 추가 없으며 Office 응용 프로그램에 리본 메뉴가 로드 된 후에 런타임에 단추를 제거 합니다.|
-|**입력란**|사용자가 텍스트를 입력할 수 있는 하는 상자입니다.|
+|**DropDown**|사용자가 선택할 수 있는 항목의 목록입니다. 사용자는 드롭다운 목록에서 새 항목을 입력할 수 없습니다.<br /><br /> 사용 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.Items%2A> 속성 목록에 항목을 추가 합니다. 추가 하 고 런타임 시 항목을 제거할 수 있습니다.<br /><br /> 사용 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.Buttons%2A> 단추 목록에 추가할 속성입니다. 그러나 추가 없으며 Office 응용 프로그램에 리본 메뉴가 로드 된 후에 런타임에 단추를 제거 합니다.|
+|**EditBox**|사용자가 텍스트를 입력할 수 있는 하는 상자입니다.|
 |**갤러리**|배열 또는 사용자가 선택할 수 있는 시각적 선택 항목의 표를 표시 메뉴는 합니다. 메뉴 선택 항목의 레이아웃을 제어할 수 있습니다. 사용 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ColumnCount%2A> 및 <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.RowCount%2A> 행과 항목을 표시 하는 열 개수 및 갤러리의 단추를 지정 하는 속성입니다.|
 |**레이블**|리본 메뉴의 컨트롤을 식별 하는 데 사용할 수 있는 텍스트입니다.|
 |**메뉴**|다음 컨트롤 중 하나를 포함할 수 있는 드롭다운 목록:<br /><br /> -단추<br />-확인란<br />갤러리<br />-메뉴<br />분할 단추<br />-토글 단추<br />구분 기호<br /><br /> 리본 디자이너에서 메뉴에 컨트롤을 추가 하 여 메뉴 디자인 화면을 표시 하려면 메뉴에서 아래쪽 화살표를 클릭 합니다. 리본 컨트롤을 끌어 놓을 수 있습니다 합니다 **도구 상자** 메뉴에 있습니다. 컨트롤을 정렬 하려면를 원하는 위치로 끌어 옵니다.<br /><br /> 컨트롤을 추가 하려면를 <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu> 리본이 Office 응용 프로그램에 로드, 다음을 설정 해야 합니다 <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu.Dynamic%2A> 속성을 **true** 리본 메뉴가 로드 되기 전에. 이 작업을 수행 하는 방법에 대 한 정보를 참조 하세요 [리본 개체 모델 개요](../vsto/ribbon-object-model-overview.md)합니다.|
 |**구분 기호**|가 목록의 항목을 구분 하는 데는 막대입니다. 그룹에 추가 하는 경우 막대는 세로입니다. 메뉴에 추가 될 경우 가로로 표시가 됩니다.|
 |**SplitButton**|메뉴가 연결 된 단추입니다. 분할 단추는 다음 컨트롤 중 하나를 포함할 수 있습니다.<br /><br /> -단추<br />-확인란<br />갤러리<br />-메뉴<br />분할 단추<br />-토글 단추<br />구분 기호<br /><br /> 메뉴와 같이 분할 단추 자체 디자인 화면을 있습니다. 그러나 메뉴와 달리만 업데이트할 수 있습니다 분할 단추의 항목을 Office 응용 프로그램에 리본 메뉴가 로드 되기 전에 합니다. 분할 단추의 항목을 업데이트 하는 방법에 대 한 자세한 내용은 [리본 개체 모델 개요](../vsto/ribbon-object-model-overview.md)합니다.|
-|**토글 단추**|표시 되는 단추 누름 또는 누르지 않음.|
+|**ToggleButton**|표시 되는 단추 누름 또는 누르지 않음.|
 
 ##  <a name="HandleEventsSetProperties"></a> 이벤트 처리 및 속성 설정
  리본 디자이너를 사용 하 여 디자인 타임에 컨트롤 속성을 설정 하는 데 사용 하도록 설정 합니다 **속성** 창입니다. 또한 리본 가져오고 런타임에 리본 컨트롤의 속성을 설정 하는 데 사용할 수 있는 강력한 형식의 개체 모델을 노출 합니다.
@@ -179,9 +179,9 @@ ms.locfileid: "53928869"
 
 |작업|바로 가기 키|
 |------------|-----------------------|
-|목록의 이전 컨트롤 앞에 컨트롤을 이동 합니다.|**Ctrl**+**등록**<br /><br /> **Ctrl**+**왼쪽**|
-|컨트롤을 목록의 다음 컨트롤 뒤로 이동 합니다.|**Ctrl**+**아래로**<br /><br /> **Ctrl**+**오른쪽**|
-|동일한 그룹의 다른 한 컨트롤에서 선택 영역을 이동 합니다. 드롭다운 패널에 대 한 드롭다운 패널의 컨트롤이 부모 컨트롤 간을 이동 합니다.|**등록**<br /><br /> **아래로**|
+|목록의 이전 컨트롤 앞에 컨트롤을 이동 합니다.|**Ctrl**+**Up**<br /><br /> **Ctrl**+**Left**|
+|컨트롤을 목록의 다음 컨트롤 뒤로 이동 합니다.|**Ctrl**+**Down**<br /><br /> **Ctrl**+**Right**|
+|동일한 그룹의 다른 한 컨트롤에서 선택 영역을 이동 합니다. 드롭다운 패널에 대 한 드롭다운 패널의 컨트롤이 부모 컨트롤 간을 이동 합니다.|**Up**<br /><br /> **아래로**|
 |모든 컨트롤을 정방향으로 반복 합니다.|**Tab**|
 |모든 컨트롤을 역방향으로 반복 합니다.|**Shift**+**Tab**|
 |선택한 컨트롤 또는 컨트롤 집합을 삭제 합니다.|**삭제**|
@@ -201,7 +201,7 @@ ms.locfileid: "53928869"
 |드롭다운 패널이 열려 있는 경우 드롭다운 패널의 첫 번째 컨트롤을 선택 합니다.|**오른쪽**|
 |드롭다운 패널을 닫습니다.|**Esc**|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [리본 개요](../vsto/ribbon-overview.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

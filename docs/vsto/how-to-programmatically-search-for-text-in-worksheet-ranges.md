@@ -9,17 +9,17 @@ helpviewer_keywords:
 - worksheets, searching
 - text [Office development in Visual Studio], searching in worksheets
 - text searches, worksheets
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dba0ce5928b61b1ec6b5777e1922cc68f8ed57ee
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 37f59f2888fc5a572029f4c21116281df008706e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826129"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868591"
 ---
 # <a name="how-to-programmatically-search-for-text-in-worksheet-ranges"></a>방법: 프로그래밍 방식으로 워크시트 범위에서 텍스트 검색
   합니다 <xref:Microsoft.Office.Interop.Excel.Range.Find%2A> 메서드는 <xref:Microsoft.Office.Interop.Excel.Range> 개체 범위 내에서 텍스트를 검색할 수 있습니다. 이 텍스트와 같은 워크시트 셀에 표시 될 수 있는 오류 문자열 중 하나 일 수도 있습니다 `#NULL!` 또는 `#VALUE!`합니다. 오류 문자열에 대 한 자세한 내용은 참조 하세요. [오류 값을 셀](/office/vba/excel/Concepts/Cells-and-Ranges/cell-error-values)합니다.  

@@ -10,15 +10,15 @@ helpviewer_keywords:
 - controls [Office development in Visual Studio], adding to worksheets
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5f5f11b09c5fd44b59ed47702d0eee2e6f563223
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e829a3c9a8621856f70fbd8d3a99fb68c6b2a352
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856594"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863762"
 ---
 # <a name="how-to-add-xmlmappedrange-controls-to-worksheets"></a>방법: 워크시트에 XMLMappedRange 컨트롤 추가
   Visual Studio 자동으로 추가 Microsoft Office Excel에서 셀으로 XML 요소를 매핑하는 경우는 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 워크시트에 컨트롤입니다.  
@@ -60,7 +60,7 @@ ms.locfileid: "53856594"
     > [!NOTE]  
     >  부모 요소를 끌면 합니다 **XML 원본은** 작업창을 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤이 만들어집니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [XmlMappedRange 컨트롤](../vsto/xmlmappedrange-control.md)   
  [확장 된 개체를 사용 하 여 Excel 자동화](../vsto/automating-excel-by-using-extended-objects.md)   
  [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)   

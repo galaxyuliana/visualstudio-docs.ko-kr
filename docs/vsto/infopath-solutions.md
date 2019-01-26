@@ -13,17 +13,17 @@ helpviewer_keywords:
 - projects [Office development in Visual Studio], InfoPath
 - Office solutions [Office development in Visual Studio], InfoPath
 - Office projects [Office development in Visual Studio], InfoPath
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0d346437d6d520ce3beed564c82895ef9f4d1be4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 09880992ff2e0d85e4706fb65753a31e49713e1d
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53864949"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54862735"
 ---
 # <a name="infopath-solutions"></a>InfoPath 솔루션
   Visual Studio에서는 Microsoft Office InfoPath 2013 및 InfoPath 2010용 VSTO 추가 기능을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. InfoPath는 Office 2016에서 사용할 수 없습니다.  

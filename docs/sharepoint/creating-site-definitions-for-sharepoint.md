@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, site definitions
 - site definitions [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 66e3566b7bfabb7ec2049632937beaa697246403
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3b2709426cca892e60d864fa62695b2eef8c776b
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868328"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874044"
 ---
 # <a name="create-site-definitions-for-sharepoint"></a>SharePoint 용 사이트 정의 만들기
   SharePoint 사이트 정의 프로젝트 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 만들 수 있습니다를 *사이트 정의*를 새 SharePoint 사이트에 대 한 기반으로 역할을 하는 합니다. 이러한 정의 뿐만 아니라 모양 및 SharePoint 사이트에 있지만 해당 기본 콘텐츠 및 기능 동작을 결정합니다. 정의에서 미리 구성 된 목록, 콘텐츠 형식, 이벤트 수신기, 이미지 및 기타 항목을 넣을 수 있습니다. SharePoint에는 블로그 등의 사이트 정의가 포함되어 있습니다. 블로그 사이트 정의 기반으로 하는 사이트를 만들 때 사이트 목록, 웹 파트 및 사이트를 블로깅 하면서 필요한 기타 항목을 포함 합니다.  
@@ -36,9 +36,9 @@ ms.locfileid: "53868328"
   
 |파일 이름|설명|  
 |---------------|-----------------|  
-|*Default.aspx*|새 SharePoint 사이트에 대 한 기본 ASPX 홈 페이지.|  
+|*default.aspx*|새 SharePoint 사이트에 대 한 기본 ASPX 홈 페이지.|  
 |*onet.xml*|새 사이트의 구성, 사이트 정의 템플릿 및 기본 동작의 구성 요소를 지정합니다. 이러한 설정은 콘텐츠 형식 사용할 수 있는 기본 목록 보기 문서 템플릿 파일을 같은 특성을 포함 하 고 웹 사이트에 포함 된 파트 수 있습니다. 기본적으로 `Modules` 섹션에서는 SharePoint 사이트 및 구성 하는 방법에 추가할 파일을 나열 합니다.|  
-|*webtemp_\<SiteDefinitionName >.xml*|에 표시 되는 사이트 정의 구성을 지정 합니다 **템플릿 선택** 섹션을 **새 SharePoint 사이트** 페이지.|  
+|*webtemp_\<SiteDefinitionName>.xml*|에 표시 되는 사이트 정의 구성을 지정 합니다 **템플릿 선택** 섹션을 **새 SharePoint 사이트** 페이지.|  
   
  기본적으로 모든 사이트 정의에 저장 합니다  *\<드라이브: > \Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\SiteTemplates* 폴더입니다. 각 사이트 정의는 자체 하위 폴더를 있습니다.  
   

@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, extending projects
 - SharePoint development in Visual Studio, extending project items
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 51449003457ecd09e7dca7bc579d652c94a592e2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9f461cae21dfd43bb8fb1d78af65e0ea234d0100
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891114"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869267"
 ---
 # <a name="extend-the-sharepoint-project-system"></a>SharePoint 프로젝트 시스템 확장
   Visual Studio에서 프로젝트 템플릿과 항목 템플릿 집합을 사용 하 여 SharePoint 솔루션을 만들 수 있습니다. 이러한 템플릿은 여러 개발 시나리오의 요구 사항을 충족 하지만 요구 되는 기능을 제공 하지는 일부 경우를 확인할 수 있습니다. 이러한 경우에 SharePoint 프로젝트 시스템을 확장할 수 있습니다.  

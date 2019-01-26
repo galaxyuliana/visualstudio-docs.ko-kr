@@ -6,17 +6,17 @@ dev_langs:
 - VB
 - CSharp
 helpviewer_keywords: ''
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 67a1f330862ad6156d85a8f86afcfe863d776850
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 267e2ec1b2ec2dbb5b72a100185ce6b68d455c39
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53924451"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865890"
 ---
 # <a name="imanagedaddinload"></a>IManagedAddin::Load
   관리되는 VSTO 추가 기능이 로드되면 호출됩니다.  
@@ -45,6 +45,6 @@ HRESULT Load([in] BSTR bstrManifestURL,
   
  [IManagedAddIn::Load](../vsto/imanagedaddin-load.md) 메서드를 구현하여 로드되는 VSTO 추가 기능을 위한 애플리케이션 도메인 및 보안 정책 구성 등의 작업을 수행합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [IManagedAddin Interface](../vsto/imanagedaddin-interface.md)   
  [IManagedAddin::Unload](../vsto/imanagedaddin-unload.md)  

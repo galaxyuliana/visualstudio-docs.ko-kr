@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - Office projects [Office development in Visual Studio], migrating to .NET Framework 4
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 819a3f1c0ea4541bee55dca2402cac6dbf9848cc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7577ad079b354821a65f741dc8578f94ce383f2e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53917620"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863528"
 ---
 # <a name="required-changes-to-run-office-projects-that-you-migrate-to-the-net-framework-4-or-the-net-framework-45"></a>.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Office 프로젝트를 실행 하는 필요한 변경
   Office 프로젝트의 대상 프레임 워크를 변경 된 경우는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 나중에.NET Framework의 이전 버전에서 수행 해야 솔루션을 개발 컴퓨터에 최종 사용자 컴퓨터에서 실행할 수 있도록 다음 작업을 합니다.  
@@ -69,5 +69,5 @@ ms.locfileid: "53917620"
 ## <a name="reinstall-solutions-on-end-user-computers"></a>최종 사용자 컴퓨터에서 솔루션을 다시 설치  
  ClickOnce를 사용하여 .NET Framework 3.5를 대상으로 하는 Office 솔루션을 배포한 다음 프로젝트 대상을 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상 버전으로 변경하는 경우 다시 게시한 후 최종 사용자가 솔루션을 제거하고 다시 설치해야 합니다. 최종 사용자를 받을 대상이 변경 된 솔루션을 다시 게시 하는 경우 최종 사용자 컴퓨터에서 솔루션이 업데이트 되는 <xref:System.Runtime.InteropServices.COMException> 업데이트 된 솔루션을 실행할 때.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [.NET Framework 4 이상으로 Office 솔루션 마이그레이션](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)  

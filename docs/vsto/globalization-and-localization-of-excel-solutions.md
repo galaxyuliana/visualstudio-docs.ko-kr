@@ -9,15 +9,15 @@ helpviewer_keywords:
 - globalization [Office development in Visual Studio], configuring
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6de8e63331c4cb5250ceadd6f7394dd54319e499
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7b416d48b8e5351f0a6ddf037fa80b442888bbe2
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856412"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866833"
 ---
 # <a name="globalization-and-localization-of-excel-solutions"></a>Excel 솔루션 전역화 및 지역화
   이 섹션에는 영어 이외의 Windows 언어 설정이 있는 컴퓨터에서 실행되는 Microsoft Office Excel 솔루션의 특수 고려 사항에 대한 정보를 포함합니다. Microsoft Office 솔루션을 전역화하고 지역화하는 대부분의 측면은 Visual Studio를 사용하여 다른 종류의 솔루션을 만들 때와 동일하게 발생합니다. 일반적인 정보를 참조 하세요 [Globalize 및 응용 프로그램을 지역화](../ide/globalizing-and-localizing-applications.md)합니다.
@@ -36,7 +36,7 @@ ms.locfileid: "53856412"
 
  관리 코드에서 전달되거나 조작된 데이터에 영어(미국) 서식을 사용해도, Excel은 최종 사용자의 로캘 설정에 따라 데이터를 올바르게 해석합니다. 관리 코드는 데이터와 함께 로캘 ID 1033을 전달하기 때문에 Excel은 데이터의 서식을 올바르게 지정할 수 있으며, 이는 데이터가 영어(미국) 서식이므로 사용자의 로캘 설정과 일치하도록 다시 서식이 지정되어야 한다는 것을 나타냅니다.
 
- 예를 들어 최종 사용자의 국가별 옵션이 독일어 (독일) 로캘로 설정 있으면 기대 이러한 방식으로 형식을 지정할 날짜 2005 년 6 월 29 일: 29.06.2005 합니다. 그러나 솔루션이 날짜를 문자열로 Excel를 통과 하는 경우 영어 (미국) 서식에 따라 날짜를 포맷 해야 합니다. 2005 년 6 월 29 일입니다. 셀의 서식이 날짜 셀로 지정된 경우 Excel은 독일어(독일) 서식으로 날짜를 표시합니다.
+ 예를 들어 최종 사용자의 국가별 옵션이 독일어 (독일) 로캘로 설정 있으면 기대 이러한 방식으로 형식을 지정할 날짜 2005 년 6 월 29 일: 29.06.2005. 그러나 솔루션이 날짜를 문자열로 Excel를 통과 하는 경우 영어 (미국) 서식에 따라 날짜를 포맷 해야 합니다. 6/29/2005. 셀의 서식이 날짜 셀로 지정된 경우 Excel은 독일어(독일) 서식으로 날짜를 표시합니다.
 
 ### <a name="pass-other-locale-ids-to-the-excel-object-model"></a>Excel 개체 모델에 다른 로캘 Id 전달
  CLR(공용 언어 런타임)은 로캘 구분 데이터를 허용하는 Excel 개체 모델의 모든 메서드 및 속성으로 로캘 ID 1033을 자동으로 전달합니다. 모든 호출에 대해 이 동작을 자동으로 개체 모델로 변경하는 방법은 없습니다. 그러나 메서드를 호출하는 <xref:System.Type.InvokeMember%2A> 를 사용하고 로캘 ID를 메서드의 *culture* 매개 변수에 전달하여 다른 로캘 ID를 특정 메서드에 전달할 수 있습니다.

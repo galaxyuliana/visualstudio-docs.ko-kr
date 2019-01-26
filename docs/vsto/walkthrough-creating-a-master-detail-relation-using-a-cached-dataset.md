@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - master-detail tables [Office development in Visual Studio], walkthroughs
 - data caching [Office development in Visual Studio], Master/Detail Relation
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c75ee922694e80b5ba70e4743d397cdf465169e8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 07c286a9166421272866662dea4c244fa50eb168
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53823651"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875656"
 ---
 # <a name="walkthrough-create-a-master-detail-relation-using-a-cached-dataset"></a>연습: 캐시 된 데이터 집합을 사용 하 여 마스터-세부 관계를 만들려면
   이 연습에서는 워크시트에서 마스터/세부 관계를 만들고 솔루션을 오프 라인으로 사용할 수 있도록 데이터를 캐시 하는 방법을 보여 줍니다.  
@@ -186,7 +186,7 @@ ms.locfileid: "53823651"
 ## <a name="next-steps"></a>다음 단계  
  이 연습에서는 워크시트에서 마스터/세부 정보 데이터 관계를 만들고 데이터 집합을 캐시의 기본 사항을 보여 줍니다. 다음으로 수행할 수 있는 몇 가지 작업은 다음과 같습니다.  
   
--   솔루션을 배포 합니다. 자세한 내용은 참조 하세요. [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)  
+-   솔루션을 배포합니다. 자세한 내용은 참조 하세요. [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)  
   
 ## <a name="see-also"></a>참고자료  
  [Office 솔루션의 컨트롤에 데이터 바인딩](../vsto/binding-data-to-controls-in-office-solutions.md)   

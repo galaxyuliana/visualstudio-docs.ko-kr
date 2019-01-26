@@ -14,17 +14,17 @@ helpviewer_keywords:
 - BDC [SharePoint development in Visual Studio], entity backed list
 - Business Data Connectivity service [SharePoint development in Visual Studio], entity backed list
 - Business Data Connectivity service [SharePoint development in Visual Studio], external list
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 96c52d1d30444aa557465ce2022a3ef1db4c3de0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 930edf4483d946c92a0c3c21242bfe0bb421a229
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53918786"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874184"
 ---
 # <a name="walkthrough-create-an-external-list-in-sharepoint-by-using-business-data"></a>연습: 비즈니스 데이터를 사용 하 여 SharePoint에 외부 목록 만들기
 
@@ -76,7 +76,7 @@ ms.locfileid: "53918786"
 
 1. 메뉴 모음에서 선택 **도구가** > **데이터베이스에 연결**합니다.
 
-     합니다 **연결 추가** 대화 상자가 열립니다.
+     **연결 추가** 대화 상자가 열립니다.
 
 2. SQL Server AdventureWorks 샘플 데이터베이스에 대 한 연결을 추가 합니다.
 

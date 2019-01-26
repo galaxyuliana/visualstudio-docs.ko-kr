@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, walkthroughs
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c01f9f07b9d6d0bc962592a370fe2d2104ad2a5e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4b32ebf61d479940fd49c03a3a46f8da690d9a44
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53945849"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867117"
 ---
 # <a name="sharepoint-development-walkthroughs"></a>SharePoint 개발 연습
   다음 연습에는 개발 및 사용 하 여 SharePoint 솔루션을 배포 하는 방법을 보여 줍니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다.  

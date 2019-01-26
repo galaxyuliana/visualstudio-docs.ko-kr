@@ -18,17 +18,17 @@ helpviewer_keywords:
 - ProjectItemFile element
 - ExtensionDataItem element
 - ProjectItem element
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e2023eb4828ab5ac59a45dd72040177a654176d7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c261115b21d1067b7494d09ad8031b3f4dc5a8c5
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53895807"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864919"
 ---
 # <a name="sharepoint-project-item-schema-reference"></a>SharePoint 프로젝트 항목 스키마 참조
   Visual Studio를 사용 하 여 SharePoint 프로젝트 항목 스키마의 내용을 *.spdata* 파일입니다. *.spdata* 파일 내용 및 SharePoint 프로젝트 항목의 동작을 지정 합니다. SharePoint 프로젝트 항목의 내용에 대 한 자세한 내용은 참조 [항목 템플릿 및 SharePoint 프로젝트 항목에 대 한 프로젝트 템플릿 만들기](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)합니다.  
@@ -44,7 +44,7 @@ ms.locfileid: "53895807"
 |[FeatureProperties](../sharepoint/featureproperties-element.md)|SharePoint에 배포 될 때 기능을 사용 하 여 포함 된 속성 값의 컬렉션을 나타냅니다. 기능이 배포 된 후에 코드에서 속성 값을 액세스할 수 있습니다.|  
 |[FeatureProperty](../sharepoint/featureproperty-element.md)|SharePoint에 배포 될 때 기능을 사용 하 여 포함 된 사용자 지정 속성을 나타냅니다. 기능이 배포 된 후에 코드에서 속성을 액세스할 수 있습니다.|  
 |[파일](../sharepoint/files-element.md)|기능 요소 파일이 나 프로젝트의 출력 예: SharePoint 프로젝트 항목을 함께 배포할 파일을 지정 합니다.|  
-|[프로젝트 항목](../sharepoint/projectitem-element.md)|SharePoint 프로젝트 항목을 나타냅니다.|  
+|[ProjectItem](../sharepoint/projectitem-element.md)|SharePoint 프로젝트 항목을 나타냅니다.|  
 |[ProjectItemFile](../sharepoint/projectitemfile-element.md)|기능 요소를 포함할 파일을 프로젝트 항목을 사용 하 여 SharePoint에 배포 될 때와 같은 SharePoint 파일을 나타냅니다.|  
 |[ProjectItemFolder](../sharepoint/projectitemfolder-element.md)|매핑된 폴더를 나타냅니다.|  
 |[ProjectOutputFile](../sharepoint/projectoutputfile-element.md)|SharePoint에 배포할 때 프로젝트 항목과 함께 포함할 프로젝트의 출력을 나타냅니다.|  

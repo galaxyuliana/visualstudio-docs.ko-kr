@@ -16,15 +16,15 @@ helpviewer_keywords:
 - application-level add-ins [Office development in Visual Studio], custom XML parts
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d364f148fb52412038c57e6f4e732ffe4e2a6e31
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b849ec54893dc3505b7ba113d0ef5c6c6117837f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829659"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54862683"
 ---
 # <a name="how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins"></a>방법: VSTO 추가 기능을 사용 하 여 문서에 사용자 지정 XML 부분 추가
   VSTO 추가 기능에서 사용자 지정 XML 부분을 만들어 다음과 같은 형식의 문서에 XML 데이터를 저장할 수 있습니다.  
@@ -41,7 +41,7 @@ ms.locfileid: "53829659"
   
 ## <a name="to-add-a-custom-xml-part-to-an-excel-workbook"></a>Excel 통합 문서에 사용자 지정 XML 부분을 추가하려면  
   
-1.  통합 문서의 <xref:Microsoft.Office.Core.CustomXMLPart> 컬렉션에 새 <xref:Microsoft.Office.Interop.Excel._Workbook.CustomXMLParts%2A> 개체를 추가합니다. <xref:Microsoft.Office.Core.CustomXMLPart>에는 통합 문서에 저장하려는 XML 문자열이 들어 있습니다.  
+1.  통합 문서의 <xref:Microsoft.Office.Core.CustomXMLPart> 컬렉션에 새 <xref:Microsoft.Office.Interop.Excel._Workbook.CustomXMLParts%2A> 개체를 추가합니다. <xref:Microsoft.Office.Core.CustomXMLPart> 에는 통합 문서에 저장하려는 XML 문자열이 들어 있습니다.  
   
      다음 코드 예제에서는 지정된 통합 문서에 사용자 지정 XML 부분을 추가합니다.  
   
@@ -54,7 +54,7 @@ ms.locfileid: "53829659"
   
 ## <a name="to-add-a-custom-xml-part-to-a-word-document"></a>Word 문서에 사용자 지정 XML 부분을 추가하려면  
   
-1.  문서의 <xref:Microsoft.Office.Core.CustomXMLPart> 컬렉션에 새 <xref:Microsoft.Office.Interop.Word._Document.CustomXMLParts%2A> 개체를 추가합니다. <xref:Microsoft.Office.Core.CustomXMLPart>에는 문서에 저장하려는 XML 문자열이 들어 있습니다.  
+1.  문서의 <xref:Microsoft.Office.Core.CustomXMLPart> 컬렉션에 새 <xref:Microsoft.Office.Interop.Word._Document.CustomXMLParts%2A> 개체를 추가합니다. <xref:Microsoft.Office.Core.CustomXMLPart> 에는 문서에 저장하려는 XML 문자열이 들어 있습니다.  
   
      다음 코드 예제에서는 지정된 문서에 사용자 지정 XML 부분을 추가합니다.  
   
@@ -81,6 +81,6 @@ ms.locfileid: "53829659"
 ## <a name="robust-programming"></a>강력한 프로그래밍  
  간단한 설명을 위해 이 예제에서는 메서드에서 지역 변수로 정의된 XML 문자열을 사용합니다. 일반적으로 파일 또는 데이터베이스와 같은 외부 원본에서 XML을 가져와야 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [사용자 지정 XML 부분 개요](../vsto/custom-xml-parts-overview.md)   
  [방법: 문서 수준 사용자 지정에 사용자 지정 XML 부분 추가](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)  

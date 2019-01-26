@@ -11,17 +11,17 @@ dev_langs:
 helpviewer_keywords:
 - deploying [SharePoint development in Visual Studio]
 - SharePoint development in Visual Studio, deploying
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8bef002d1d32abf4f97a63f284545cbaa6eee403
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ebe207bffe16ef7b8dc7af5a79c01b3ee74abe3f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53853458"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863281"
 ---
 # <a name="deploy-publish-and-upgrade-sharepoint-solution-packages"></a>배포, 게시 및 SharePoint 솔루션 패키지를 업그레이드 합니다.
   Visual Studio에서 SharePoint 솔루션을 개발한 후 로컬 SharePoint 서버에 해당 패키지 (.wsp) 파일을 배포 하거나 원격 또는 로컬 SharePoint 서버에 게시 합니다. 파일을 배포 하는 경우 패키지 파일 (.wsp) 배포 되는 방식을 사용자 지정할 수 있습니다.  
@@ -63,5 +63,5 @@ ms.locfileid: "53853458"
 ### <a name="upgrade-published-packages"></a>게시 된 패키지를 업그레이드 합니다.
  모든 Visual Studio에서 SharePoint 프로젝트에 게시 된 후를 변경한 경우 변경 내용을 포함 하도록 게시 된 패키지를 업그레이드 해야 합니다. 를 성공적으로 업그레이드 하려면 패키지는 고유한 이름이 있어야 합니다. 오류 경고는 기존 응용 프로그램을 업데이트 하는 경우 발생할 수 있습니다-폴링하는 SharePoint 사이트에서 동일한 이름의 패키지를 찾은 경우 파일 이름 충돌을 패키지 이름을 바꿀 수 있습니다. 다시 게시 되 고 새 패키지를 SharePoint 사이트에 표시 되 후 업그레이드할 수 있습니다. 업그레이드 된 패키지는 이전 패키지에서 데이터를 사용 하 여 솔루션을 업데이트 하 고 SharePoint에서 솔루션을 활성화 합니다. 자세한 내용은 [방법: 배포, 게시 및 원격 서버에 SharePoint 솔루션 업그레이드](../sharepoint/how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  

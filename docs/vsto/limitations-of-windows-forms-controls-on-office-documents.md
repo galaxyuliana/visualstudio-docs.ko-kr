@@ -15,17 +15,17 @@ helpviewer_keywords:
 - Toolbox [Office development in Visual Studio], unsupported controls
 - user controls [Office development in Visual Studio], grouping controls
 - Windows Forms controls [Office development in Visual Studio], Toolbox
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1e3ea01d83dcb40378e3ac3282d95620eacc5731
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 610ee5e18054b6da35a3098b851d1585c70b6bc3
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929674"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863554"
 ---
 # <a name="limitations-of-windows-forms-controls-on-office-documents"></a>Office 문서의 Windows Forms 컨트롤의 제한 사항
 
@@ -182,7 +182,7 @@ Windows Forms 컨트롤 일반적으로 동일 하 게 동작에서 Office 문�
 
 ActiveX 컨트롤의 기능 손실; 되지 기존 Word 문서 또는 ActiveX 컨트롤이 포함 된 Excel 통합 문서를 사용 하는 문서 수준 Office 프로젝트를 만드는 경우 그러나 Visual Studio 내에서 문서를 새 ActiveX 컨트롤을 추가 하는 것에 대 한 지원은 없습니다. 예를 들어 Word 문서에서 단추에는 **제어** 도구 상자에 Visual Basic for Applications (VBA) 매크로 실행 하는 매크로 문서 Office 프로젝트에서 사용 된 후 실행 계속 합니다. 그러나 ActiveX 컨트롤 및 VBA 매크로 제거 하 고 Windows Forms 컨트롤을 사용 하 여 대체 하는 관리 코드 것이 좋습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Office 문서의 컨트롤](../vsto/controls-on-office-documents.md)
 - [Windows Forms 컨트롤에 대 한 Office 문서 개요](../vsto/windows-forms-controls-on-office-documents-overview.md)

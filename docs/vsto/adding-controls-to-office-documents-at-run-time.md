@@ -20,15 +20,15 @@ helpviewer_keywords:
 - helper methods [Office development in Visual Studio]
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: be96a6967657a79d1e3bed9336ebb530accba2a0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9dc71ba33180fa466b8d457d084faad05c61ec40
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53842790"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869189"
 ---
 # <a name="add-controls-to-office-documents-at-runtime"></a>런타임에 Office 문서에 컨트롤 추가
   Microsoft Office Word 문서 및 런타임에 Microsoft Office Excel 통합 문서에 컨트롤을 추가할 수 있습니다. 런타임 시 이러한를 제거할 수도 있습니다. 추가 하거나 런타임 시 제거 하는 컨트롤 이라고 *동적 컨트롤*합니다.  
@@ -110,7 +110,7 @@ ms.locfileid: "53842790"
 
 - Excel의 경우 <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddControl%2A> 개체의 <xref:Microsoft.Office.Tools.Excel.ControlCollection> 메서드 중 하나를 사용합니다.  
 
-- Word의 경우 <xref:Microsoft.Office.Tools.Word.ControlCollection> 개체의 <xref:Microsoft.Office.Tools.Word.ControlCollection.AddControl%2A> 메서드 중 하나를 사용합니다.  
+- Word의 경우 <xref:Microsoft.Office.Tools.Word.ControlCollection.AddControl%2A> 개체의 <xref:Microsoft.Office.Tools.Word.ControlCollection> 메서드 중 하나를 사용합니다.  
 
   컨트롤을 추가하려면 <xref:System.Windows.Forms.Control>, 컨트롤의 위치 및 컨트롤을 고유하게 식별하는 이름을 `AddControl` 메서드에 전달합니다. `AddControl` 메서드는 컨트롤이 워크시트 또는 문서와 상호 작용하는 방법을 정의하는 개체를 반환합니다. 합니다 `AddControl` 메서드가 반환 되는 <xref:Microsoft.Office.Tools.Excel.ControlSite> (Excel 용) 또는 <xref:Microsoft.Office.Tools.Word.ControlSite> 개체 (Word 용).  
 
@@ -139,7 +139,7 @@ ms.locfileid: "53842790"
   [!code-vb[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#3)]
   [!code-csharp[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#3)]  
 
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 문서의 컨트롤](../vsto/controls-on-office-documents.md)   
  [Office 문서에서 동적 컨트롤 유지](../vsto/persisting-dynamic-controls-in-office-documents.md)   
  [방법: 워크시트에 ListObject 컨트롤 추가](../vsto/how-to-add-listobject-controls-to-worksheets.md)   

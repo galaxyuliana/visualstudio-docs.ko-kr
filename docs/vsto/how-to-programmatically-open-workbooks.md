@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - workbooks, opening
 - Excel [Office development in Visual Studio], opening workbooks
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ab91a1e9a89edee013b559f1653c1607e7b8c884
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 59163e0e054e3546ada8c7ee7b7d23362ca96fba
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53860951"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869903"
 ---
 # <a name="how-to-programmatically-open-workbooks"></a>방법: 프로그래밍 방식으로 통합 문서 열기
   <xref:Microsoft.Office.Interop.Excel.Workbooks> Microsoft Office Excel에서 컬렉션을 사용 하면 열려 있는 모든 통합 문서를 사용 하 여 작동 하 고 통합 문서를 열 수 있습니다.  
@@ -37,7 +37,7 @@ ms.locfileid: "53860951"
   
 -   명명 된 통합 문서 `YourWorkbook.xls` 라는 디렉터리에 있어야 `Test` 에서 C 드라이브입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [통합 문서를 사용 하 여 작동 합니다.](../vsto/working-with-workbooks.md)   
  [방법: 프로그래밍 방식으로 통합 문서로 텍스트 파일 열기](../vsto/how-to-programmatically-open-text-files-as-workbooks.md)   
  [방법: 프로그래밍 방식으로 새 통합 문서 만들기](../vsto/how-to-programmatically-create-new-workbooks.md)   
