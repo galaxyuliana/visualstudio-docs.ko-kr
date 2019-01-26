@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 79dcbb9b-c7f8-40fc-8a00-f37fe1934f51
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7576b3c80ff80ec0c26234cf43682aca19a96a7b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e0e28a266653383621f1d49f37ea8ea4d3a8b8f8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841601"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54957392"
 ---
 # <a name="attaching-and-detaching-to-a-program"></a>연결 및 프로그램에 분리
 디버거를 연결 메서드 및 적절 한 특성을 사용 하 여 이벤트의 순서를 전송 해야 합니다.  
@@ -49,5 +49,5 @@ ms.locfileid: "53841601"
   
 6. DE 보냅니다는 [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)

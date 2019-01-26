@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 432aff03-08a5-4c5a-b2d5-e212090fc70a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6e6bf29280345e1029a0732d36666ceba78ba2ed
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 70ac576cb246f3da6e38a17cfde2b9a0490ec470
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826668"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54917291"
 ---
 # <a name="modulesymbolsearchinfo"></a>MODULE_SYMBOL_SEARCH_INFO
 에 대 한 검색이 있는 기호 검색 경로 대 한 상태 정보를 포함 합니다.  
@@ -51,7 +51,7 @@ public struct MODULE_SYMBOL_SEARCH_INFO {
   
  경우는 `bstrVerboseSearchInfo` 필드가 비어 있지 않으면 다음 검색 경로 및 해당 검색 결과의 목록을 포함 합니다. 목록 결과 뒤에 ("..."), 줄임표 뒤에 경로 형식은입니다. 둘 이상의 경로 결과 쌍의 경우 각 쌍은 "\r\n" (캐리지 리턴/줄 바꿈) 쌍으로 구분 됩니다. 패턴은 다음과 같습니다.  
   
- \<경로 >... \<결과 > \r\n\<경로 >... \<결과 > \r\n\<경로 >... \<결과 >  
+ \<path>...\<result>\r\n\<path>...\<result>\r\n\<path>...\<result>  
   
  마지막 항목 \r\n 순서 없는 참고 합니다.  
   

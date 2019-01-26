@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: b150e0ed-4ac0-4f8c-9732-4b3e54b9d243
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8f8755aae5d349fcb463d7ff2be51ca4015449ac
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9bb2f2b35865f423b4405738260976ab19308eab
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53843978"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920671"
 ---
 # <a name="idebugaddress2"></a>IDebugAddress2
 이 인터페이스는 주소의 개체를 소유 하는 프로세스의 ID에 대 한 액세스는이 인터페이스에서 표시를 제공 합니다.  

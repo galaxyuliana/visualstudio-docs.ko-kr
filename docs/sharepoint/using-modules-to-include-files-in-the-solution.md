@@ -9,17 +9,17 @@ helpviewer_keywords:
 - SharePoint development in Visual Studio, deployment modules
 - SharePoint development in Visual Studio, modules
 - modules [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a9d8cf0da022c038c0e15e6b00f0bea0cdc3cef4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7fe8572ea5ac6f2c100d203063dd43b02c78749b
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53921551"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864191"
 ---
 # <a name="use-modules-to-include-files-in-the-solution"></a>모듈을 사용 하 여 솔루션에 파일을 포함
   새 마스터 페이지와 같은 해당 파일 형식에 관계 없이 SharePoint 서버에 파일을 배포 하려는 경우가 있습니다. 이 위해 사용할 수 있습니다 *모듈* (혼동 해서는 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] 코드 모듈). 모듈은 SharePoint 솔루션의 파일에 대 한 컨테이너입니다. 솔루션을 배포 하면 모듈의 파일을 SharePoint 서버에서 지정된 된 된 폴더에 복사 됩니다.  
@@ -56,7 +56,7 @@ ms.locfileid: "53921551"
   
  배포 하려는 각 파일에는 별도 필요한 `<File>` 의 요소 항목 *Elements.xml*합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [방법: 모듈을 사용 하 여 파일 포함](../sharepoint/how-to-include-files-by-using-a-module.md)   
  [어떻게: 파일을 프로 비전](http://go.microsoft.com/fwlink/?LinkID=144271)   
  [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)   

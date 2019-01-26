@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 37c0a841-1c8d-4802-a990-36b54bca3ef7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: accf18a72969d160d9b4469d9f0e6f4d843a5c70
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7164137d2598f564f5bb2c107f9e1ffdff173d20
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53963164"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069657"
 ---
 # <a name="idebugenginecreateevent2"></a>IDebugEngineCreateEvent2
 디버그 엔진 (DE)는 DE의 인스턴스를 만들 때 (SDM) 세션 디버그 관리자에 게이 인터페이스를 보냅니다.  

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: c8db8fdb-88c1-4b12-86fe-f3c30a18f9ee
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d835ee2062a6feec2fbb13991cc448b0b0b7b7a1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: da49deb7d4cf73ab3f70f5b55e1ceeef005c9f03
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968380"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927361"
 ---
 # <a name="project-modeling"></a>프로젝트 모델링
 표준 프로젝트 개체를 구현 하는 프로젝트에 대 한 자동화를 제공 하는 다음 단계: 합니다 <xref:EnvDTE.Projects> 및 `ProjectItems` 컬렉션에 `Project` 및 <xref:EnvDTE.ProjectItem> 구현에 고유한 나머지 개체와 개체;. 이러한 표준 개체 Dteinternal.h 파일에 정의 됩니다. 표준 개체 구현의 BscPrj 샘플에서 제공 됩니다. Side-by-side-는 표준 프로젝트 개체를 만들려면 모델으로 이러한 클래스를 사용할 수 있습니다 다른 프로젝트 형식에서 프로젝트 개체를 사용 하 여 합니다.  

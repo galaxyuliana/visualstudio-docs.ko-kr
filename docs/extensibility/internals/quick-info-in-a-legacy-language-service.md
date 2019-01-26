@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 159ccb0b-f5d6-4912-b88b-e9612924ed5e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8bba57c0a069f515f29e02ec712e3cce7d457f95
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2fff27f665453ff1b722ec1ef061494d48361988
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53908773"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927622"
 ---
 # <a name="quick-info-in-a-legacy-language-service"></a>레거시 언어 서비스의 빠른 정보
 사용자 중 하나는 식별자에 캐럿을 배치 하 고 선택 하는 경우 IntelliSense 요약 정보 소스에서 식별자에 대 한 정보를 표시 **요약 정보** 에서 합니다 **IntelliSense** 메뉴 또는 마우스를 보유 합니다. 식별자 위로 커서입니다. 이렇게 하면 식별자에 대 한 정보를 사용 하 여 표시할 도구 설명 합니다. 이 정보는 일반적으로 식별자 형식으로 구성 됩니다. 디버그 엔진 활성 상태인 경우이 정보는 현재 값을 포함할 수 있습니다. 언어 서비스 식별자만 처리 하는 동안 디버그 엔진은 식 값을 제공 합니다.  

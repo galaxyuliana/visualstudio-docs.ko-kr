@@ -10,17 +10,17 @@ helpviewer_keywords:
 - SharePoint project items, defining your own types
 - project items [SharePoint development in Visual Studio], defining your own types
 - SharePoint development in Visual Studio, defining new project item types
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e3cae6558bdce8206340f10d570a620ba0fb1972
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5f4164b9d66e0a171a00d81e1044c5078298ec60
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53932326"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876020"
 ---
 # <a name="walkthrough-create-a-custom-action-project-item-with-an-item-template-part-1"></a>연습: 항목 템플릿, 1 부를 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기
   고유한 프로젝트 항목 형식을 생성 하 여 Visual Studio에서 SharePoint 프로젝트 시스템을 확장할 수 있습니다. 이 연습에서는 SharePoint 사이트에서 사용자 지정 작업을 만들려면 SharePoint 프로젝트에 추가할 수 있는 프로젝트 항목을 만들게 됩니다. 사용자 지정 작업에 메뉴 항목을 추가 합니다 **사이트 작업** SharePoint 사이트의 메뉴.
@@ -449,7 +449,7 @@ ms.locfileid: "53932326"
 ## <a name="next-steps"></a>다음 단계
  이 연습을 완료 한 후에 항목 템플릿에 마법사를 추가할 수 있습니다. 사용자가 사용자 지정 작업 프로젝트 항목을 SharePoint 프로젝트에 추가 마법사 (예: 위치 및 동작을 선택할 때 탐색할 URL) 작업에 대 한 정보를 수집 하 고이 정보를 추가 합니다 *Elements.xml*새 프로젝트 항목에는 파일입니다. 자세한 내용은 [연습: 항목 템플릿, 2 부를 사용 하 여 사용자 지정 작업 프로젝트 항목을 만들어](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [연습: 항목 템플릿, 2 부를 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md)
 - [사용자 지정 SharePoint 프로젝트 항목 형식 정의](../sharepoint/defining-custom-sharepoint-project-item-types.md)

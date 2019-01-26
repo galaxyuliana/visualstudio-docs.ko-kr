@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cbb2650fc2c001e57de7b1820cff238c8963e8cc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1cbe007afc111d1638775471e9412a5d30743850
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53889438"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070879"
 ---
 # <a name="idebugprogram3executeonthread"></a>IDebugProgram3::ExecuteOnThread
 디버거가 프로그램을 실행합니다. 스레드는 스레드를 사용자가 프로그램을 실행 하는 경우 보고 디버거 정보를 제공 해에 반환 됩니다.  
@@ -52,5 +52,5 @@ int ExecuteOnThread(
   스레드 전달할 `ExecuteOnThread` 취소 단계를 결정 하는 경우에 유용 합니다. 를 실행 스레드의 실행을 알 수 없는 경우 모든 단계를 취소 합니다. 스레드의 지식을 바탕으로 활성 스레드에서 단계를 취소 해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [실행](../../../extensibility/debugger/reference/idebugprogram2-execute.md)   
+ [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md)   
  [IDebugProgram3](../../../extensibility/debugger/reference/idebugprogram3.md)

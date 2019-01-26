@@ -13,17 +13,17 @@ f1_keywords:
 dev_langs:
 - VB
 - CSharp
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 805500b9f12e227e95add02ca0180b658b85d1cf
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8ec1bc999025128c0dd68281dfc53e3f6353ae6b
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931949"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875552"
 ---
 # <a name="create-site-columns-content-types-and-lists-for-sharepoint"></a>SharePoint 용 사이트 열, 콘텐츠 형식 및 목록 만들기
   Visual Studio는 많은 기본 SharePoint 항목을 포함 하 여 프로젝트 항목 템플릿을 *나열* 하 고 *콘텐츠 형식*, 사이트 열을 통합할 수 있는 (또는  *필드*). 콘텐츠 형식 및 목록에 대한 새로운 디자이너를 사용하면 이러한 항목을 이전보다 쉽게 만들 수 있습니다.  
@@ -48,5 +48,5 @@ ms.locfileid: "53931949"
 |-----------|-----------------|  
 |[연습: SharePoint 용 사이트 열, 콘텐츠 형식 및 목록 만들기](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)|사용자 지정 콘텐츠 형식에서 사용되는 사이트 열을 만드는 방법을 보여 줍니다. 이 경우 콘텐츠 형식이 사용자 지정 목록에서 사용됩니다.|  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 2010에서 개발 시작](http://go.microsoft.com/fwlink/?LinkId=225000)  

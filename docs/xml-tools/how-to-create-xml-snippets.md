@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: d8556dd7-1382-4af7-ba80-3e873c9416be
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ec6332f52e732e99cc6d81512c9b3c469e99e18e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ad0414974946fefe9ab473d120be10deda4b9471
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829104"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920684"
 ---
 # <a name="how-to-create-xml-snippets"></a>방법: XML 조각 만들기
 
@@ -117,7 +117,7 @@ XML 편집기를 사용하여 새 XML 조각을 만들 수 있습니다. 이 편
 
  그런 다음 XML 조각에서 $prefix$ 변수를 사용할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 조각](../xml-tools/xml-snippets.md)
 - [방법: XML 조각 사용](../xml-tools/how-to-use-xml-snippets.md)

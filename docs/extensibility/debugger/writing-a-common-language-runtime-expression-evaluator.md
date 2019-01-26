@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: bd79d57f-8e0a-4e14-a417-0b1de28fa1b2
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 06feb8d0755b3fd36a418238c0f3067c3643feef
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7026a0851288a87a291f3312aa2a955049bb3a39
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53834896"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926945"
 ---
 # <a name="writing-a-common-language-runtime-expression-evaluator"></a>공용 언어 런타임 식 계산기 작성
 > [!IMPORTANT]
@@ -52,5 +52,5 @@ ms.locfileid: "53834896"
  [형식 시각화 도우미 및 사용자 지정 뷰어 구현](../../extensibility/debugger/implementing-type-visualizers-and-custom-viewers.md)  
  형식 시각화 도우미 및 사용자 지정 뷰어를 지원 하도록 구성 요소에서 구현 해야 하는 인터페이스에 설명 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 디버거 확장성](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

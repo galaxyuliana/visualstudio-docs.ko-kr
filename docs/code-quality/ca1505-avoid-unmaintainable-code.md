@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 8292b268-5929-4221-b699-f9c414bcec5d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 250049806eb8765f9cc080f1b2de0b7ae0dd1fce
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 085f3b5ad38e846880d39e813550301a81066745
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53864558"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54957184"
 ---
 # <a name="ca1505-avoid-unmaintainable-code"></a>CA1505: 유지 관리할 수 없는 코드를 사용하지 마세요.
 
@@ -45,7 +45,7 @@ ms.locfileid: "53864558"
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
  형식 또는 메서드는 여전히 크더라도 큰 크기로 나 형식 또는 메서드를 분할할 수 없는 경우 경우이 경고를 제외 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [유지 관리 경고](../code-quality/maintainability-warnings.md)
 - [관리 코드의 복잡성 및 유지 관리 용이성 측정](../code-quality/code-metrics-values.md)

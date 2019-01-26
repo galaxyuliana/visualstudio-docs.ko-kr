@@ -16,15 +16,15 @@ dev_langs:
 ms.assetid: 1b6f626c-66bf-45b0-a3e2-7c41ee9ceda7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d8afe63de8630b3fa7466e8c0784c26ba00bb1ba
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c0a400dc960a1b7eab7165dba718dc70b3f88437
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852481"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920908"
 ---
 # <a name="ca2217-do-not-mark-enums-with-flagsattribute"></a>CA2217: 열거형을 FlagsAttribute로 표시하지 마세요.
 
@@ -71,6 +71,6 @@ ms.locfileid: "53852481"
 
 [CA1027: 열거형을 FlagsAttribute로 표시](../code-quality/ca1027-mark-enums-with-flagsattribute.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.FlagsAttribute?displayProperty=fullName>

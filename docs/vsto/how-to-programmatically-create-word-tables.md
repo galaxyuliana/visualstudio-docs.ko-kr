@@ -10,15 +10,15 @@ helpviewer_keywords:
 - tables [Office development in Visual Studio], adding to documents
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 995e2ed35334c0e3022d7d48dd57add7e2e45198
-ms.sourcegitcommit: 73861cd0ea92e50a3be1ad2a0ff0a7b07b057a1c
+ms.openlocfilehash: 1e0b75230ccce5004d1f764db7c7ea39775f3a4f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54154410"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869933"
 ---
 # <a name="how-to-programmatically-create-word-tables"></a>방법: 프로그래밍 방식으로 Word 표 만들기
   <xref:Microsoft.Office.Interop.Word.Tables> 컬렉션은 <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Interop.Word.Selection> 및 <xref:Microsoft.Office.Interop.Word.Range> 클래스의 멤버이므로 이러한 컨텍스트 중 하나에서 표를 만들 수 있습니다. <xref:Microsoft.Office.Interop.Word.Tables> 컬렉션의 <xref:Microsoft.Office.Interop.Word.Tables.Add%2A> 메서드를 사용하여 지정된 범위에 표를 추가합니다.  

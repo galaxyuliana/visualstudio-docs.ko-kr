@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 10e97f8a-aa6e-47aa-b253-1e5d3a295d82
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: db780257c83c42f97500a83f1843332cae0ecea3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 57845ae2e163aa8d2045204daa4beda948a50e59
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53825178"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54957704"
 ---
 # <a name="ca1824-mark-assemblies-with-neutralresourceslanguageattribute"></a>CA1824: NeutralResourcesLanguageAttribute로 어셈블리를 표시하세요.
 
@@ -63,7 +63,7 @@ ms.locfileid: "53825178"
 
 이 규칙에서 경고를 표시 하지 않을 것입니다. 그러나 시작 성능이 저하 될 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Resources.NeutralResourcesLanguageAttribute>
 - [데스크톱 앱 (.NET)의 리소스](/dotnet/framework/resources/)

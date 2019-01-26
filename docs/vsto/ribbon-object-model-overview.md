@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - Ribbon [Office development in Visual Studio], object model
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e8c0e18146361cfbe89433d79962afcb89de3061
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a97bcd23bd4ac3f69ab39a31a48dabc62e00a3a1
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53961311"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876033"
 ---
 # <a name="ribbon-object-model-overview"></a>리본 개체 모델 개요
   [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 가져오고 런타임에 리본 컨트롤의 속성을 설정 하는 데 사용할 수 있는 강력한 형식의 개체 모델을 노출 합니다. 예를 들어 수 동적으로 메뉴 컨트롤을 채우는 또는 표시 하거나 숨길 수 컨트롤 컨텍스트. Office 응용 프로그램에서 리본 메뉴가 로드 되기 전에만 있지만 리본, 탭, 그룹 및 컨트롤도 추가할 수 있습니다. 정보를 참조 하세요 [읽기 전용이 되는 속성을 설정할](#SettingReadOnlyProperties)합니다.  
@@ -34,7 +34,7 @@ ms.locfileid: "53961311"
 ##  <a name="RibbonEvents"></a> 리본 이벤트  
  합니다 **리본** 클래스는 다음 세 가지 이벤트를 포함 합니다.  
   
-|이벤트|설명|  
+|이벤트(event)|설명|  
 |-----------|-----------------|  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.Load>|Office 응용 프로그램에 리본 사용자 지정 로드 될 때 발생 합니다. <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.Load> 이벤트 처리기는 리본 코드 파일에 자동으로 추가 됩니다. 이 이벤트 처리기를 사용 하 여 리본이 로드 될 때 사용자 지정 코드를 실행 합니다.|  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.LoadImage>|하면 리본 사용자 지정의 캐시 이미지에 리본 메뉴가 로드 하는 경우. 이 이벤트 처리기에서 리본 메뉴 이미지를 캐시 하는 코드를 작성 하는 경우 성능이 약간 향상을 얻을 수 있습니다. 자세한 내용은 <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage>을 참조하세요.|  
@@ -52,8 +52,8 @@ ms.locfileid: "53961311"
 |**ButtonGroup**|<xref:Microsoft.Office.Tools.Ribbon.RibbonButtonGroup>|  
 |**CheckBox**|<xref:Microsoft.Office.Tools.Ribbon.RibbonCheckBox>|  
 |**ComboBox**|<xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox>|  
-|**드롭다운**|<xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown>|  
-|**입력란**|<xref:Microsoft.Office.Tools.Ribbon.RibbonEditBox>|  
+|**DropDown**|<xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown>|  
+|**EditBox**|<xref:Microsoft.Office.Tools.Ribbon.RibbonEditBox>|  
 |**갤러리**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|  
 |**그룹**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGroup>|  
 |**레이블**|<xref:Microsoft.Office.Tools.Ribbon.RibbonLabel>|  
@@ -61,7 +61,7 @@ ms.locfileid: "53961311"
 |**구분 기호**|<xref:Microsoft.Office.Tools.Ribbon.RibbonSeparator>|  
 |**SplitButton**|<xref:Microsoft.Office.Tools.Ribbon.RibbonSplitButton>|  
 |**Tab**|<xref:Microsoft.Office.Tools.Ribbon.RibbonTab>|  
-|**토글 단추**|<xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton>|  
+|**ToggleButton**|<xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton>|  
   
  합니다 <xref:Microsoft.Office.Tools.Ribbon> 에서 컨트롤 클래스의 이름 사용 하 여 이름 충돌을 방지 하려면 이러한 형식에 대 한 "리본" 접두사를 사용 하는 네임 스페이스는 <xref:System.Windows.Forms> 네임 스페이스입니다.  
   
@@ -136,10 +136,10 @@ ms.locfileid: "53961311"
 |--------------|--------------------------|  
 |**BoxStyle**|<xref:Microsoft.Office.Tools.Ribbon.RibbonBox>|  
 |**ButtonType**|<xref:Microsoft.Office.Tools.Ribbon.RibbonSplitButton>|  
-|**열 개수**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|  
+|**ColumnCount**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|  
 |**ControlId**|<xref:Microsoft.Office.Tools.Ribbon.RibbonTab>|  
 |**DialogLauncher**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGroup>|  
-|**동적**|<xref:Microsoft.Office.Tools.Ribbon.RibbonMenu>|  
+|**Dynamic**|<xref:Microsoft.Office.Tools.Ribbon.RibbonMenu>|  
 |**Global**|<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon>|  
 |**그룹**|<xref:Microsoft.Office.Tools.Ribbon.RibbonTab>|  
 |**ImageName**|<xref:Microsoft.Office.Tools.Ribbon.RibbonButton><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDialogLauncher><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonEditBox><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonSplitButton><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton>|  
@@ -148,13 +148,13 @@ ms.locfileid: "53961311"
 |**이름**|<xref:Microsoft.Office.Tools.Ribbon.RibbonComponent>|  
 |**위치**|<xref:Microsoft.Office.Tools.Ribbon.RibbonButton><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonCheckBox><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGroup><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonSeparator><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonSplitButton><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonTab><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton>|  
 |**RibbonType**|<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon>|  
-|**행 개수**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|  
+|**RowCount**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|  
 |**ShowItemImage**|<xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|  
 |**ShowItemLabel**|<xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|  
 |**ShowItemSelection**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|  
 |**SizeString**|<xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonEditBox>|  
 |**StartFromScratch**|<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon>|  
-|**탭**|<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon>|  
+|**Tabs**|<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon>|  
 |**제목**|<xref:Microsoft.Office.Tools.Ribbon.RibbonSeparator>|  
   
 ### <a name="set-properties-for-ribbons-that-appear-in-outlook-inspectors"></a>Outlook 검사기에 나타나는 리본 메뉴에 대 한 속성을 설정 합니다.  
@@ -168,7 +168,7 @@ ms.locfileid: "53961311"
 ## <a name="ribbon-control-events"></a>리본 컨트롤 이벤트  
  각 컨트롤 클래스에는 하나 이상의 이벤트가 포함 됩니다. 다음 표에서 이러한 이벤트를 설명 합니다.  
   
-|이벤트|설명|  
+|이벤트(event)|설명|  
 |-----------|-----------------|  
 |클릭|컨트롤을 클릭할 때 발생 합니다.|  
 |TextChanged|편집 상자 또는 콤보 상자의 텍스트가 변경 될 때 발생 합니다.|  
@@ -181,10 +181,10 @@ ms.locfileid: "53961311"
   
 |매개 변수|설명|  
 |---------------|-----------------|  
-|*보낸 사람*|이벤트를 발생시킨 컨트롤을 나타내는 <xref:System.Object>입니다.|  
+|*sender*|이벤트를 발생시킨 컨트롤을 나타내는 <xref:System.Object>입니다.|  
 |*e*|<xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs>이 들어 있는 <xref:Microsoft.Office.Core.IRibbonControl>입니다. 이 컨트롤에서 제공 하는 리본 개체 모델에서 사용할 수 없는 모든 속성에 액세스 하는 데는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]합니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [런타임에 리본 메뉴에 액세스](../vsto/accessing-the-ribbon-at-run-time.md)   
  [리본 개요](../vsto/ribbon-overview.md)   
  [방법: 리본 사용자 지정 시작](../vsto/how-to-get-started-customizing-the-ribbon.md)   

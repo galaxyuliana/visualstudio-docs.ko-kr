@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5f1c69a280e84a3c444c371bef5c99c7a3c17506
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cceac8f2eb6842166f9c73f6374f4f1923cf3831
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53910037"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920034"
 ---
 # <a name="brace-matching-in-a-legacy-language-service"></a>레거시 언어 서비스의 중괄호 일치
 중괄호 일치 괄호와 중괄호와 같이 함께 수행 해야 하는 언어 요소를 추적 하는 개발자는 데 도움이 됩니다. 개발자가 닫는 중괄호를 여는 중괄호 강조 표시 됩니다.  
@@ -135,6 +135,6 @@ namespace TestLanguagePackage
 }  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [레거시 언어 서비스 기능](../../extensibility/internals/legacy-language-service-features1.md)   
  [레거시 언어 서비스 파서 및 검사기](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)

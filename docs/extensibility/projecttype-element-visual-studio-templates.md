@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: ccf9d83f-c7f3-49c7-a31f-e1f22bec004c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 21826a432dbbebb6ae38db4ed5b1ca33d95cf9f6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d66af0c4ce83feb1153cfd53bf12d8ae40f38b69
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941520"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55071009"
 ---
 # <a name="projecttype-element-visual-studio-templates"></a>ProjectType 요소 (Visual Studio 템플릿)
 지정 된 그룹에 나타나도록 프로젝트 템플릿을 분류 합니다 **새 프로젝트** 하거나 **새 항목 추가** 대화 상자.  
@@ -28,7 +28,7 @@ ms.locfileid: "53941520"
   
  \<VSTemplate>  
  \<TemplateData>  
- \<ProjectType >  
+ \<ProjectType>  
   
 ## <a name="syntax"></a>구문  
   
@@ -96,7 +96,7 @@ ms.locfileid: "53941520"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [ProjectSubType 요소 (Visual Studio 템플릿)](../extensibility/projectsubtype-element-visual-studio-templates.md)

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 74900b9a-baef-432a-8231-4568fb5e19ad
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f82902ebcb82ea311617d3a7a767c5dabaedd311
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4b96eaa576fbb7016b8c907b19a15be3e9c6dedd
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886652"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070541"
 ---
 # <a name="syntax-coloring-in-custom-editors"></a>사용자 지정 편집기의 구문 색 지정
 핵심 편집기를 포함 하 여 visual Studio 환경 SDK 편집기를 특정 구문 항목을 식별 하 여 지정 된 문서 보기에 대 한 지정 된 색을 사용 하 여 표시할 언어 서비스를 사용 합니다.

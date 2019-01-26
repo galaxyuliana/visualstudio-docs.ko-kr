@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 096d273d-4fe9-4f24-9b00-470bfbdf4bdf
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6d3c6895f23b6d2ffe1f4ff8e311140b1e5d5a51
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f31563418e3a72599ea441c41f2b76910f94c870
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53837201"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927868"
 ---
 # <a name="extend-projects"></a>프로젝트를 확장 합니다.
 프로젝트 및 솔루션은 Visual Studio 코드 및 리소스 파일을 컴파일 및 배포 단위로 구성 하는 방법입니다. 프로젝트에 대 한 자세한 정보를 찾을 수 있습니다 [프로젝트 (Visual Studio SDK)](../extensibility/extending-projects.md)합니다.  

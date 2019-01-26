@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 17fe4698-b04e-4798-8412-80e0da60c387
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1d0c3862468d5ad1a9c548297a69d9ae10521e59
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7a27d0dd5c501076f7ee2354736b989a441395df
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964379"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54954958"
 ---
 # <a name="idebugengine2causebreak"></a>IDebugEngine2::CauseBreak
 이 디버그 엔진 (DE) 다음에 실행을 중지 하 여 디버깅 중인 모든 프로그램 요청 실행 하려고 해당 스레드 중 하나입니다.  

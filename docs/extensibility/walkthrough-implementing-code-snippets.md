@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4866f028851fadbee9f8ab5dbd6d4dc50015a728
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 05e266429c30ac2e2a2c5d65f7e037121f02c607
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902190"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043208"
 ---
 # <a name="walkthrough-implement-code-snippets"></a>연습: 코드 조각 구현
 코드 조각을 작성 하 고 확장의 사용자가 자신의 코드에 추가할 수 있도록 편집기 확장에 포함할 수 있습니다.  

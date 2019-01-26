@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: f6fb6388-47f6-4385-9ad5-95d62f9a7592
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 179d8a95bc54db90a98311626b34c3e17b68f7f0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b1ea18b3799a73aa902d61a56669aaae1034ea8c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873121"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043338"
 ---
 # <a name="idebugnosymbolsevent2"></a>IDebugNoSymbolsEvent2
 신호는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버거 UI를 기호 수 없다는 시작한 실행 파일에 대 한 사용자에 게 알립니다.  

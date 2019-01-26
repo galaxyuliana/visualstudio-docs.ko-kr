@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 69faee18-cbf4-470a-b952-c1919c583df8
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 19bc3f44a4ba87195986327fe756e7419f259076
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d6dadd65aa1e3850417e43bfce6dea848b12e07b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827457"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54955146"
 ---
 # <a name="group-element"></a>Group 요소
 VSPackage 명령 그룹을 정의합니다.  
@@ -62,5 +62,5 @@ VSPackage 명령 그룹을 정의합니다.
 </Group>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

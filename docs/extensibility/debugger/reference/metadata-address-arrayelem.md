@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 24321be5-7c17-4038-82a1-c20a2b68ff3c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 80839c9c2a73e71d0d70301e8c4dfcd81913ed8c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 900ac5f6dec739574af27601e2b3a26d6041da55
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53822934"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54917213"
 ---
 # <a name="metadataaddressarrayelem"></a>METADATA_ADDRESS_ARRAYELEM
 이 구조 배열 내에서 배열 요소를 나타냅니다.  

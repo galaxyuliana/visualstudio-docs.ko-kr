@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - documents [Office development in Visual Studio], opening Visio documents
 - Visio [Office development in Visual Studio], opening Visio documents
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1815b0f336026890c88ec0794ea72911560ecb38
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8c9e9eb6a298270deb4f66c38662b0c52d7ee76f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875724"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864451"
 ---
 # <a name="how-to-programmatically-open-visio-documents"></a>방법: 프로그래밍 방식으로 Visio 문서 열기
   기존 Microsoft Office Visio 문서를 여는 방법은 두 가지가 있습니다. 열기 및 OpenEx 합니다. OpenEx 메서드는 인수는 호출자에 게 문서가 열리는 방식을 지정할 수 있다는 점을 제외 하 고 Open 메서드가 동일 합니다.  
@@ -48,7 +48,7 @@ ms.locfileid: "53875724"
   
 -   명명 된 Visio 문서 `myDrawing.vsd` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visio 솔루션](../vsto/visio-solutions.md)   
  [Visio 개체 모델 개요](../vsto/visio-object-model-overview.md)   
  [방법: 프로그래밍 방식으로 새 Visio 문서 만들기](../vsto/how-to-programmatically-create-new-visio-documents.md)   

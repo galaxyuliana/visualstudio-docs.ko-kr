@@ -7,22 +7,22 @@ helpviewer_keywords:
 ms.assetid: 09f61652-7e16-4bb0-8055-f61a84bf384e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4349a1f994612406110f2cefdb0b80358895d269
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 096d73c46ce53d05ec00fc8ba206bd8d7b20f390
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989859"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54922693"
 ---
 # <a name="event-descriptions"></a>이벤트 설명
 각 유형의 이벤트에는 특정 용도가 있습니다.  
   
 ## <a name="events-and-the-reasons-for-their-use"></a>이벤트 및 용도 대 한 이유  
   
-|이벤트|설명|  
+|이벤트(event)|설명|  
 |-----------|-----------------|  
 |문서 이벤트를 활성화 합니다.|디버그 엔진 (DE)가 IDE를 열거나 전경으로 문서를 가져올 때 발생 합니다.|  
 |바인딩된 중단점이 나 중단점 오류 이벤트|전송 중단점이 바인딩된 또는 때 중단점을 바인딩할 수 없으면 오류가 반환 됩니다.|  
@@ -44,5 +44,5 @@ ms.locfileid: "53989859"
 |스레드 이름 변경 이벤트|사용자 스레드 이름을 변경할 때 보냅니다.|  
 |프로그램 이름 변경 이벤트|사용자가 프로그램의 이름을 변경할 때 보냅니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [이벤트 전송](../../extensibility/debugger/sending-events.md)

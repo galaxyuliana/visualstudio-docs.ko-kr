@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Office documents [Office development in Visual Studio, tables
 - Word [Office development in Visual Studio], tables
 - documents [Office development in Visual Studio], tables
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 68d15eab133eebd31ae9119ad8e512b691fc0f4e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2e0d8d176aed6456a2a5bef57f906e509e5093dc
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829935"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869660"
 ---
 # <a name="work-with-tables"></a>테이블 작업
   이 섹션의 항목에서는 Microsoft Office Word의 개체 모델을 사용하여 Office 프로젝트에서 테이블 작업을 수행하는 단계별 절차 및 코드 예제를 제공합니다. VSTO 추가 기능에서 이러한 작업을 수행하는 방법과 문서 수준 사용자 지정에서 수행하는 방법 간에 차이가 있는 경우가 있습니다.  
@@ -32,6 +32,6 @@ ms.locfileid: "53829935"
 |테이블에 행 또는 열을 추가합니다.|[방법: 프로그래밍 방식으로 Word 표에 행 및 열 추가](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)|  
 |셀에 텍스트를 추가하여 서식을 지정합니다.|[방법: 프로그래밍 방식으로 추가 되는 텍스트 및 Word 표 셀에에서 서식 지정](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Word 개체 모델 개요](../vsto/word-object-model-overview.md)   
  [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)  

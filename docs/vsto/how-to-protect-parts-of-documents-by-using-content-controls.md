@@ -13,17 +13,17 @@ helpviewer_keywords:
 - document protection [Office development in Visual Studio]
 - Word [Office development in Visual Studio], restricted permissions
 - GroupContentControl
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8498eac9c34c9876c22eb9f04723b62e40f70ca4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9f12eb0e43b1868d93a155354756b10b9661e560
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989259"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875526"
 ---
 # <a name="how-to-protect-parts-of-documents-by-using-content-controls"></a>방법: 콘텐츠 컨트롤을 사용 하 여 문서 부분 보호
   문서의 일부를 보호하는 경우 사용자가 문서의 해당 부분에서 내용을 변경하거나 삭제할 수 없습니다. 콘텐츠 컨트롤을 사용하여 Microsoft Office Word 문서 부분을 보호할 수 있는 여러 가지 방법이 있습니다.  

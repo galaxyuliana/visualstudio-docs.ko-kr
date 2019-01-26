@@ -11,17 +11,17 @@ helpviewer_keywords:
 - SharePoint project items, associating custom data
 - SharePoint projects, associating custom data
 - SharePoint development in Visual Studio, extensibility features
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c4e3cba7d4b05de4d32f31bd39c0e462174695fe
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 754f5f92dcaf6d19a226f4d1f69ebcbdd8f7d5aa
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53951042"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875500"
 ---
 # <a name="associate-custom-data-with-sharepoint-tools-extensions"></a>SharePoint 도구 확장과 사용자 지정 데이터 연결
   SharePoint 도구 확장의 특정 개체에 사용자 지정 데이터를 추가할 수 있습니다. 이 데이터 확장 프로그램의 다른 코드에서 나중에 액세스 하려면 확장 프로그램의 한 부분에 있는 경우에 유용 합니다. 데이터 저장 및 액세스 하는 사용자 지정 방법을 구현 하는 대신 확장의 개체를 사용 하 여 데이터를 연결할 수 있으며 나중에 동일한 개체에서 데이터를 다음 검색할 수 있습니다.  

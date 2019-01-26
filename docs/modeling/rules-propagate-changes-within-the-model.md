@@ -7,16 +7,16 @@ helpviewer_keywords:
 - Domain-Specific Language, rules
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 70bacc7e181c27efd14b613c20af29e850db321a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aded621c89f6d351c6abb9bbe1744de51673e6b9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53925552"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070801"
 ---
 # <a name="rules-propagate-changes-within-the-model"></a>규칙으로 모델 내부의 변경 내용 전파
 Visualization and Modeling SDK (VMSDK)에서 다른 요소에서 변경 전파 하는 저장소 규칙을 만들 수 있습니다. 저장소의 모든 요소에는 변경이 발생 하는 경우 규칙은 가장 바깥쪽 트랜잭션이 커밋될 때 일반적으로 실행할 예약 됩니다. 다른 유형의 여러 가지 요소를 추가 또는 삭제와 같은 이벤트에 대 한 규칙이 있습니다. 요소, 모양 또는 다이어그램의 특정 형식에 규칙을 연결할 수 있습니다. 많은 기본 제공 기능 규칙에 의해 정의 됩니다: 다이어그램 모델 변경 될 때 업데이트 되는 규칙을 확인 하는 예를 들어, 합니다. 사용자 고유의 규칙을 추가 하 여 도메인 특정 언어를 사용자 지정할 수 있습니다.

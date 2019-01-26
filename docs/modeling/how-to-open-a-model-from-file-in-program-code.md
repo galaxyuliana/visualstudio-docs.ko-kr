@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 52142da504b6dc2e7533a34f381a1243d44a74a1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 592dd923b3ad65f81f0bc637d77fc1c635043a97
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53938071"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54921198"
 ---
 # <a name="how-to-open-a-model-from-file-in-program-code"></a>방법: 프로그램 코드로 파일에서 모델 열기
 모든 응용 프로그램에서 DSL 모델을 열 수 있습니다.
@@ -41,7 +41,7 @@ ms.locfileid: "53938071"
 
     -   아래에서 표시 되지 않으면를 **.NET** 탭에서 **참조 추가** 대화 상자에서 클릭 합니다 **찾아보기** 탭을 이동할 `%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Common\Assemblies\`합니다.
 
--   DSL 어셈블리를 DSL 프로젝트 bin 폴더에서 찾이 됩니다. 폼의 해당 이름은 일반적으로: *YourCompany*. *YourProject*`.Dsl.dll`합니다.
+-   DSL 어셈블리를 DSL 프로젝트 bin 폴더에서 찾이 됩니다. 폼의 해당 이름은 일반적으로: *YourCompany*.*YourProject*`.Dsl.dll`.
 
 ## <a name="important-classes-in-the-dsl"></a>DSL에서 중요 한 클래스
  DSL을 읽는 코드를 작성할 수 있습니다, 전에 일부 DSL에서 생성 된 클래스의 이름을 알아야 합니다. DSL 솔루션을 엽니다는 **Dsl** 프로젝트를 확인 합니다 **GeneratedCode** 폴더입니다. 또는 프로젝트에서 DSL 어셈블리를 두 번 클릭 **참조가**, DSL의 네임 스페이스에 연 **개체 브라우저**합니다.

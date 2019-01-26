@@ -10,17 +10,17 @@ helpviewer_keywords:
 - controls [Office development in Visual Studio], adding to worksheets at run time
 - application-level add-ins [Office development in Visual Studio], adding controls
 - worksheets, adding controls at run time
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5aa574abb6f0d14d17a9bfb73c28a6c330885bc2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a8dde4832a128dd061f8a0982158ac1074f94820
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968646"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875812"
 ---
 # <a name="walkthrough-add-controls-to-a-worksheet-at-runtime-in-vsto-add-in-project"></a>연습: 런타임에 VSTO 추가 기능 프로젝트에서 워크시트에 컨트롤 추가
   Excel VSTO 추가 기능을 사용하여 열려 있는 워크시트에 컨트롤을 추가할 수 있습니다. 이 연습에서는 리본 메뉴를 사용하여 사용자가 <xref:Microsoft.Office.Tools.Excel.Controls.Button>, <xref:Microsoft.Office.Tools.Excel.NamedRange> 및 <xref:Microsoft.Office.Tools.Excel.ListObject>를 워크시트에 추가할 수 있도록 하는 방법을 보여 줍니다. 정보를 참조 하세요 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.  

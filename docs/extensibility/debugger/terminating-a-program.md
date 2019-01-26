@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: eedda0a3-5e05-44fe-841d-a2f4866ac72d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 28be8f34602a3a175c40d630463686f0ca99c919
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 864141055487b598a8f91641f40fe4c027c53b6c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53958854"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54918435"
 ---
 # <a name="terminating-a-program"></a>프로그램 종료
 다음 섹션에서는 하나의 스레드를 사용 하 여 단일 프로그램 종료를 설명합니다.  
@@ -29,5 +29,5 @@ ms.locfileid: "53958854"
   
    IDE는 디자인 모드로 전환 됩니다. 디버그 엔진 또는 런타임 환경 호출 [IDebugPortNotify2::RemoveProgramNode](../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md) 포트에서 프로그램을 제거 하도록 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)

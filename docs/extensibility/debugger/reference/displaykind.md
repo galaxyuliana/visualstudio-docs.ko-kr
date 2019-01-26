@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 940968c5-6065-4bda-8ee6-c31597db4d71
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fd75220c202d65c11ac695e4fa27e736595cbc86
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 93cb18524ac1424e8c7c956b9d244ac58a55e4d5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828880"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070727"
 ---
 # <a name="displaykind"></a>DisplayKind
 유효한 값에서 수행 되는 정보의 종류를 나타내는 열거를 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 개체 및 사용자에 게 표시 합니다.  

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: f5e4b124-1e30-47c8-a511-80084a02dba5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9d493da63aaac406ea1fef0f33abbcef528ead61
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 19dcf2445ace8c6885afe6a66770827f681f89c7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866990"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54915716"
 ---
 # <a name="idebugexpression2"></a>IDebugExpression2
 이 인터페이스 바인딩 및 평가 대 한 구문 분석 된 식을 준비를 나타냅니다.  

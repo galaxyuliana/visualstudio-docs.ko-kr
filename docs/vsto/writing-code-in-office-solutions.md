@@ -28,17 +28,17 @@ helpviewer_keywords:
 - projects [Office development in Visual Studio], writing code
 - Office applications [Office development in Visual Studio], programming model
 - managed code extensions [Office development in Visual Studio], writing code
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 35c78f03cdb537ef5be2fd3b9004ca713485d3bc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1e47e8bea173298761e2a5170382ef2c4b32c6c5
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942975"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864074"
 ---
 # <a name="write-code-in-office-solutions"></a>Office 솔루션에서 코드를 작성 합니다.
   Visual Studio의 Office 프로젝트에는 기타 유형의 프로젝트와 다른 코드 작성의 몇 가지 측면이 있습니다. 이러한 차이점 중 상당수는 Office 개체 모델이 관리 코드에 노출되는 방식과 관련되어 있으며, 다른 차이점은 Office 프로젝트의 디자인과 관련되어 있습니다.

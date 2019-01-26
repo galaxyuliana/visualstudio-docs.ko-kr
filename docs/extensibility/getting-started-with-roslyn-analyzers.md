@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 70dcdcfbc31434dd09f83951e7d89d9fd1832168
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 57573adeceda942b2968bfe07108ff4d54a8435f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54091717"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927696"
 ---
 # <a name="get-started-with-roslyn-analyzers"></a>Roslyn 분석기 시작
 
@@ -33,7 +33,7 @@ Visual Studio에서 프로젝트 기반 라이브 코드 분석기를 사용 하
 
 [소개과 몇 가지 분석기 둘러보기](https://channel9.msdn.com/Events/dotnetConf/2015/NET-Compiler-Platform-Roslyn-Analyzers-and-the-Rise-of-Code-Aware-Libraries)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Roslyn 분석기 개요](../code-quality/roslyn-analyzers-overview.md)
 - [자습서: 첫 번째 분석기 및 코드 수정 사항을 작성 합니다.](/dotnet/csharp/roslyn-sdk/tutorials/how-to-write-csharp-analyzer-code-fix)

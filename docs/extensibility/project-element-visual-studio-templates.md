@@ -11,21 +11,21 @@ helpviewer_keywords:
 ms.assetid: 1da15ea6-26e2-462b-a03e-584ef4996579
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c74868621725d916177df73f648766f706b71d40
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bc197968fa6b4995544df89de6f69718d27b80c4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53950331"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54922049"
 ---
 # <a name="project-element-visual-studio-templates"></a>Project 요소 (Visual Studio 템플릿)
 파일 또는 프로젝트에 추가할 디렉터리를 지정 합니다.  
   
  \<VSTemplate>  
- \<TemplateContent >  
+ \<TemplateContent>  
  \<Project>  
   
 ## <a name="syntax"></a>구문  
@@ -57,7 +57,7 @@ ms.locfileid: "53950331"
 |요소|설명|  
 |-------------|-----------------|  
 |[폴더](../extensibility/folder-element-visual-studio-project-templates.md)|선택적 요소입니다.<br /><br /> 프로젝트에 추가할 폴더를 지정 합니다.|  
-|[프로젝트 항목](../extensibility/projectitem-element-visual-studio-project-templates.md)|선택적 요소입니다.<br /><br /> 프로젝트에 추가할 파일을 지정 합니다.|  
+|[ProjectItem](../extensibility/projectitem-element-visual-studio-project-templates.md)|선택적 요소입니다.<br /><br /> 프로젝트에 추가할 파일을 지정 합니다.|  
   
 ### <a name="parent-elements"></a>부모 요소  
   
@@ -101,7 +101,7 @@ ms.locfileid: "53950331"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [ProjectItem 요소 (Visual Studio 프로젝트 템플릿)](../extensibility/projectitem-element-visual-studio-project-templates.md)   

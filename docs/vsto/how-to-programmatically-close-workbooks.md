@@ -10,15 +10,15 @@ helpviewer_keywords:
 - Excel [Office development in Visual Studio], closing workbooks
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 01f188af2ae96cf8622f3614da493891e3dbabe4
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 187baa6805050507e8f824593a5b1b4f02666c46
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54093147"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864893"
 ---
 # <a name="how-to-programmatically-close-workbooks"></a>방법: 프로그래밍 방식으로 통합 문서 닫기
   활성 통합 문서를 닫거나 닫을 통합 문서를 지정할 수 있습니다.  
@@ -52,7 +52,7 @@ ms.locfileid: "54093147"
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#2](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#2)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#2](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#2)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [통합 문서를 사용 하 여 작동 합니다.](../vsto/working-with-workbooks.md)   
  [방법: 프로그래밍 방식으로 통합 문서 저장](../vsto/how-to-programmatically-save-workbooks.md)   
  [방법: 프로그래밍 방식으로 통합 문서 열기](../vsto/how-to-programmatically-open-workbooks.md)   

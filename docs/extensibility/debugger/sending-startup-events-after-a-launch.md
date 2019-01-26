@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 306ea0b4-6d9e-4871-8d8d-a4032d422940
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: caa9f615c6ed6f314695b195a6095d238382a4c2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aefdf5e039f591ba6b9cd1fe0e1fce88e3b497c4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967503"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54923005"
 ---
 # <a name="send-startup-events-after-a-launch"></a>시작 후 시작 이벤트 보내기
 디버그 엔진 (DE) 프로그램에 연결 된 후 디버그 세션에 다시 일련의 시작 이벤트를 보냅니다.  
@@ -43,6 +43,6 @@ ms.locfileid: "53967503"
   
   코드 로드 및 실행할 준비가 되었지만 경우는 DE SDM을 보내는 코드를 실행 하기 전에 [IDebugLoadCompleteEvent2](../../extensibility/debugger/reference/idebugloadcompleteevent2.md) 부하 완료 이벤트입니다. 마지막으로, 프로그램이 이미 실행 중이 아닌 경우는 DE 보냅니다는 [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) 항목 시점 이벤트, 신호 프로그램에서 해당 주 진입점에 도달 하 고 디버깅 하는 것에 대 한 준비가 되었습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [실행 제어](../../extensibility/debugger/control-of-execution.md)   
  [디버깅 작업](../../extensibility/debugger/debugging-tasks.md)
