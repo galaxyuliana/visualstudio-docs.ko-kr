@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 36350123135142e84adff0c3189ba81e31ebf6b2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aca9177a4dff8da53e3ae9a1075cf09d334f689a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986208"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55033715"
 ---
 # <a name="xml-editor-intellisense-features"></a>XML 편집기 IntelliSense 기능
 
@@ -117,7 +117,7 @@ XML 편집기는 네임 스페이스를 삽입할 수 있습니다 또는 네임
 
 3.  아무 것도 변경 합니다 **자동 삽입** 섹션을 클릭 **확인**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 편집기](../xml-tools/xml-editor.md)
 - [IntelliSense 사용](../ide/using-intellisense.md)

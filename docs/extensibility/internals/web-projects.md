@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: d9c0329f-4b0b-4fda-8061-cce69f2f502d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 41237c927368ff98f8e0eaa61cc1bb5717446674
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4b23602fd9f425b4943544a2af3b815a5363685a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929752"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55034586"
 ---
 # <a name="web-projects"></a>웹 프로젝트
 웹 프로젝트 시스템은 웹 프로젝트를 만드는 프로젝트 시스템. 웹 프로젝트는 웹 응용 프로그램에 만듭니다. 와 같은 일반적인 프로그래밍 언어를 사용 하 여 웹 페이지를 프로그래밍할 수 있습니다 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 또는 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]수집 및 사용자 로부터 정보를 처리 하 고, 데이터베이스에 저장 하 고 등로 합니다. 관련된 코드를 사용 하 여 웹 페이지에는 스마트 웹 페이지 라고 합니다.  

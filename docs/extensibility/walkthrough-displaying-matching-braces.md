@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 5af08ac7-1d08-4ccf-997e-01aa6cb3d3d7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a048ce1e89de65e805d01971de5c4221b13be826
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 14dfc5237f505306c28954a93eb848673f0d3387
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956585"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936101"
 ---
 # <a name="walkthrough-display-matching-braces"></a>연습: 일치 하는 중괄호를 표시 합니다.
 중괄호 일치 하려면 중괄호를 정의 하 고 때 중괄호 중 하나에 캐럿이 여는 중괄호를 텍스트 표식 태그를 추가 하 여 일치 하는 등의 언어 기반 기능을 구현 합니다. 언어의 컨텍스트에서 중괄호를 정의 하 고, 고유한 파일 이름 확장명 및 콘텐츠 형식 정의 하 고, 입력 하거나 기존 콘텐츠 형식 (예: "text")에 태그를 적용 하는 태그를 적용할 수 있습니다. 다음 연습에는 중괄호 일치 하는 "text" 콘텐츠 형식에 대 한 태그를 적용 하는 방법을 보여 줍니다.  
@@ -122,5 +122,5 @@ ms.locfileid: "53956585"
   
 4.  중괄호 앞에 캐럿을 배치 하는 경우 해당 중괄호와 일치 하는 닫는 중괄호 강조 표시 됩니다. 닫는 중괄호 바로 뒤에 커서를 놓습니다는 중괄호와 일치 하는 여는 중괄호는 강조 표시 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: 파일 이름 확장명에 콘텐츠 형식 링크](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

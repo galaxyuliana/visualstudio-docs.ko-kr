@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: ee2d955b-12ca-4f27-89aa-c2d0e768b6b6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ca91ed6fbcbef872332fe309370f420bc4ff2505
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f8701241de5b1e9266069a5eebe14e534ba96cfa
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53895716"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55041518"
 ---
 # <a name="sample-implementation-of-changing-values"></a>값 변경 샘플 구현
 > [!IMPORTANT]
@@ -422,6 +422,6 @@ HRESULT FieldSetValue(
   
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [로컬 값을 변경](../../extensibility/debugger/changing-the-value-of-a-local.md)   
  [평가 컨텍스트](../../extensibility/debugger/evaluation-context.md)

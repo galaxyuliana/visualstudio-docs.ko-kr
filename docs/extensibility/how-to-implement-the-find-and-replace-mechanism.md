@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: bbd348db-3d19-42eb-99a2-3e808528c0ca
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e3847b9125109cd48b458d06cbfc41fa91b7139f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9d803e074970e2827f7e644d29d12e4df920d7c4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53943027"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027518"
 ---
 # <a name="how-to-implement-the-find-and-replace-mechanism"></a>방법: 메커니즘을 바꾸고 찾기 구현
 
@@ -33,7 +33,7 @@ Visual Studio 찾기/바꾸기를 구현 하는 두 가지를 제공 합니다. 
 
 3. 구현 하는 경우는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A> 하 고 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace%2A> 메서드를 호출 하 여 검색 작업을 간소화할 수 있습니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper> 인터페이스입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper>
 - <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>

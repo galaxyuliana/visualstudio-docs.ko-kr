@@ -11,21 +11,21 @@ helpviewer_keywords:
 ms.assetid: d0403a16-5d07-4fe5-b474-19ae3d9fd3ab
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: edff8012362a5752089858be9d168f7165d9671f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e859c5c3106b78bba30613df03a345a43240b07e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53947857"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54944282"
 ---
 # <a name="wizarddata-element-visual-studio-templates"></a>WizardData 요소(Visual Studio 템플릿)
 사용자 지정 XML 지정  
   
  \<VSTemplate>  
- \<WizardData >  
+ \<WizardData>  
   
 ## <a name="syntax"></a>구문  
   

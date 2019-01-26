@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: bfadb366-379d-4ee4-b17b-c4a09bf1106b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b6c7aa4638a1a0a863bf53c85a5e182f57a366d8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1408569498b15a1b30f4a3bcdea546cc002a9202
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53939994"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55036838"
 ---
 # <a name="ca2243-attribute-string-literals-should-parse-correctly"></a>CA2243: 특성 문자열 리터럴이 올바르게 구문 분석되어야 합니다.
 
@@ -60,6 +60,6 @@ ms.locfileid: "53939994"
 
 - System.Uri로 구문 분석할 수 없습니다 및 'uri', 'urn' 또는 'url'를 포함 하는 매개 변수입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [CA1054: URI 매개 변수는 문자열이 면 안 됩니다.](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)

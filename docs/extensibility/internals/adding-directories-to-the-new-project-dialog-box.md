@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 53b328f5-20bb-49a3-bf9e-1818f4fbdf50
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6cba2fc8ee5c0b946a482ddbac12d0726db11032
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 26fe254a168ae1834fba804ca34d4e48bd240ca6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53930231"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54941095"
 ---
 # <a name="add-directories-to-the-new-project-dialog-box"></a>새 프로젝트 대화 상자에 디렉터리 추가
 새 프로젝트 형식을 만들면도 등록할 수 있습니다에 새 디렉터리를 **새 프로젝트** 대화 상자를 템플릿으로 사용 하기 위해 표시 합니다. 다음 코드 예제에서는 노드 라고도 하며 새 디렉터리를 등록 하는 방법에 설명 합니다. 예제에서는 VSPackage에 의해 노출 되는 템플릿 *CLSID_Package*, 등록 됩니다. 결과적으로 좌 변의 합니다 **새 프로젝트** 대화 상자에 따른 이름으로 추가 노드를 제공 합니다 *Folder_Label_ResID* 리소스. 이 리소스는 VSPackage 위성 DLL에서에서 로드 됩니다.  
@@ -45,7 +45,7 @@ NoRemove NewProjectTemplates
 }  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [프로젝트 및 항목 템플릿을 등록합니다](../../extensibility/internals/registering-project-and-item-templates.md)   
  [새 항목 추가 대화 상자에 항목 추가](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [새 항목 추가 대화 상자에 디렉터리 추가](../../extensibility/internals/adding-directories-to-the-add-new-item-dialog-box.md)

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5ba413fa4b5a77c8c4f7fc9dfc9aa3c4ab87d31d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea9e8b271f98774e8bda0121b94b37e0266bf028
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53835973"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54982470"
 ---
 # <a name="troubleshooting-vspackages"></a>VSPackage 문제 해결
 다음은 일반적인 문제는 문제를 해결 하기 위한 팁 및 VSPackage를 사용 하 여 있을 수 있습니다.  
@@ -66,7 +66,7 @@ ms.locfileid: "53835973"
   
    1.  레지스트리의 패키지 섹션에서 VSPackage의 CLSID를 찾습니다.  
   
-        Studio HKLM\Software\Microsoft\Visual\\*\<버전 >* \Packages  
+        HKLM\Software\Microsoft\Visual Studio\\*\<version>* \Packages  
   
    2.  SatelliteDll 하위 키를 제공한 경로가 올바른지 확인 합니다.  
   
@@ -119,7 +119,7 @@ ms.locfileid: "53835973"
   
 2. 비관리 코드에서 VSPackage의 CLSID를 찾기는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] CLSID 레지스트리 노드:  
   
-    Studio HKLM\Software\Microsoft\Visual\\*\<버전 >* \CLSID  
+    HKLM\Software\Microsoft\Visual Studio\\*\<version>* \CLSID  
   
    InprocServer32 항목 VSPackage dll의 올바른 경로가 있는지 확인 합니다.  
   

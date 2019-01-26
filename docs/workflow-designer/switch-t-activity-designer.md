@@ -9,15 +9,15 @@ f1_keywords:
 ms.assetid: 18a6c96e-49a9-4356-ab61-fbd7e3ab44bb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5109b57ba203bbc0bd0a76cb61985ecfaa132967
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f12639eeffc2a4349a30ec3fa244a4ec5c2d3d17
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873858"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55033741"
 ---
 # <a name="switcht-activity-designer"></a>스위치\<T > 활동 디자이너
 
@@ -56,6 +56,6 @@ case를 삭제하는 방법은 두 가지입니다.
 
 삭제하려면 case 자체를 선택해야 합니다. case 내의 활동을 선택하여 삭제하는 경우 case가 아닌 활동만 삭제됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [제어 흐름](../workflow-designer/control-flow-activity-designers.md)

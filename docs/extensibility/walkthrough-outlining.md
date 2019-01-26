@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: d75a44aa-265a-44d4-9c28-457f59c4ff9f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7de78a60dd7de129eb2626e414ce6ec44bb20ce3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1ec5c409e13838c68656a35a92dab3688a5ce326
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827525"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948078"
 ---
 # <a name="walkthrough-outlining"></a>연습: 개요
 개요 확장 또는 축소 하려는 텍스트 영역의 종류를 정의 하 여 같은 언어 기반 기능을 설정 합니다. 언어 서비스의 컨텍스트에서 영역을 정의 또는 하거나 정의할 수 있습니다 고유한 파일 이름 확장명 및 콘텐츠 유형 및 영역 정의 해당 형식에만 적용할 지역 정의 기존 콘텐츠 형식 (예: "text")를 적용 합니다. 이 연습에서는 정의 개요 영역을 표시 하는 방법을 보여 줍니다.  
@@ -131,5 +131,5 @@ ms.locfileid: "53827525"
   
 4.  양쪽 대괄호를 포함 하는 개요 영역 없어야 합니다. 개요 영역을 축소 하 고 여는 중괄호의 왼쪽에 빼기 기호를 클릭 해야 합니다. 경우 영역을 축소 줄임표 기호 (*...* ) 축소 된 영역 및 텍스트가 포함 된 팝업의 왼쪽에 나타날 **가리킨 항목 텍스트** 줄임표 위로 포인터를 이동 하면 표시 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: 파일 이름 확장명에 콘텐츠 형식 링크](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

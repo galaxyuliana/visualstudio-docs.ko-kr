@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 5a3600a1-dc20-4e55-b2a4-809736a6ae65
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 33bc38ca3e0c9b3bde07be48c74c31e4fc5148df
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4558fc7088803477de9dd3b89bee2c933c3cda34
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922218"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948884"
 ---
 # <a name="attach-after-a-launch"></a>시작 후 연결
 프로그램 시작 디버그 세션 언급된 프로그램에 디버그 엔진 (DE)를 연결할 준비가 된 것입니다.  
@@ -43,13 +43,13 @@ ms.locfileid: "53922218"
   
  프로그램 및 시작 이벤트를 보낼 준비가 이제는 DE 연결 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [프로그램에 직접 연결](../../extensibility/debugger/attaching-directly-to-a-program.md)   
  [포트에 알림](../../extensibility/debugger/notifying-the-port.md)   
  [디버깅 작업](../../extensibility/debugger/debugging-tasks.md)   
  [IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)   
- [연결](../../extensibility/debugger/reference/idebugprogram2-attach.md)   
+ [Attach](../../extensibility/debugger/reference/idebugprogram2-attach.md)   
  [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)   
  [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md)   
  [IDebugProgramNodeAttach2](../../extensibility/debugger/reference/idebugprogramnodeattach2.md)   

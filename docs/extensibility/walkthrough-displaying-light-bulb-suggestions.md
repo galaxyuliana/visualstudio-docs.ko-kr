@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1ce64b3fe8d41d1ceb865555d93e6e464b25fb42
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2a1f54efc4b61decd88c9cc322597bcc0be513ed
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935010"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027752"
 ---
 # <a name="walkthrough-display-light-bulb-suggestions"></a>연습: 밝은 전구 추천 표시
 전구는 Visual Studio 편집기에서 일련의 작업, 예를 들어, 기본 제공 코드 분석기 및 코드 리팩터링에 의해 식별 된 문제에 대 한 수정에 표시할 확장 되는 아이콘입니다.  

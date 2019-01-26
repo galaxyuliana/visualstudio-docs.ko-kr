@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 07a2e38f38ca5e9414f5ab6b416eb0ca888131f2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5b373fd51087526c30243391b6b0b32ad27e15ab
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866909"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027427"
 ---
 # <a name="composite-patterns-for-visual-studio"></a>Visual Studio의 복합 패턴
 복합 패턴 고유 구성의 상호 작용 및 설계 요소를 결합 합니다. 일관성 관련 하 여 Visual Studio에서 가장 중요 한 복합 패턴 중 일부는 다음과 같습니다.  
@@ -73,13 +73,13 @@ ms.locfileid: "53866909"
 
 |견본|16 진수|RGB|  
 |------------|---------|---------|  
-|![견본 71B252](../../extensibility/ux-guidelines/media/0711_71b252.png "0711_71B252")|# 71B252|113,178,82|  
-|![견본 BF3F00](../../extensibility/ux-guidelines/media/0711_bf3f00.png "0711_BF3F00")|# BF3F00|191,63,0|  
-|![견본 FCB714](../../extensibility/ux-guidelines/media/0711_fcb714.png "0711_FCB714")|# FCB714|252,183,20|  
-|![견본 903F8B](../../extensibility/ux-guidelines/media/0711_903f8b.png "0711_903F8B")|# 903F8B|144,63,139|  
-|![견본 117AD1](../../extensibility/ux-guidelines/media/0711_117ad1.png "0711_117AD1")|# 117AD1|17,122,209|  
-|![견본 79D7F2](../../extensibility/ux-guidelines/media/0711_79d7f2.png "0711_79D7F2")|# 79D7F2|121,215,242|  
-|![견본 B5B5B5](../../extensibility/ux-guidelines/media/0711_b5b5b5.png "0711_B5B5B5")|# B5B5B5|181,181,181|  
+|![Swatch 71B252](../../extensibility/ux-guidelines/media/0711_71b252.png "0711_71B252")|#71B252|113,178,82|  
+|![Swatch BF3F00](../../extensibility/ux-guidelines/media/0711_bf3f00.png "0711_BF3F00")|#BF3F00|191,63,0|  
+|![Swatch FCB714](../../extensibility/ux-guidelines/media/0711_fcb714.png "0711_FCB714")|#FCB714|252,183,20|  
+|![Swatch 903F8B](../../extensibility/ux-guidelines/media/0711_903f8b.png "0711_903F8B")|#903F8B|144,63,139|  
+|![Swatch 117AD1](../../extensibility/ux-guidelines/media/0711_117ad1.png "0711_117AD1")|#117AD1|17,122,209|  
+|![Swatch 79D7F2](../../extensibility/ux-guidelines/media/0711_79d7f2.png "0711_79D7F2")|#79D7F2|121,215,242|  
+|![Swatch B5B5B5](../../extensibility/ux-guidelines/media/0711_b5b5b5.png "0711_B5B5B5")|#B5B5B5|181,181,181|  
 
 ##  <a name="BKMK_OnObjectUI"></a> 개체에 UI 및 보기  
  이 섹션에서는 관찰, 코드 미리 보기 뷰 라고도 Visual Studio에 고유한 개체에 UI의 형식에 컨텍스트를 제공 합니다.  
@@ -346,7 +346,7 @@ ms.locfileid: "53866909"
 |스페이스바|키 입력은 유지 관리 하는 동안 이동 모드를 활성화 합니다. 추가 마우스 입력은 뷰포트 위치를 이동 해야 합니다.|  
 |Ctrl+스페이스바|키 입력은 유지 관리 하는 동안 확대/축소 모드를 활성화 합니다. 추가 마우스 입력 확대/축소 비율을 늘리거나 줄이는 데 필요 합니다.|  
 |Ctrl + Alt + 빼기 기호|한 수준으로 확대/축소 비율을 줄입니다.|  
-|Ctrl + Alt + 더하기 기호|한 수준으로 확대/축소 비율을 늘립니다.|  
+|Ctrl+Alt+Plus Sign|한 수준으로 확대/축소 비율을 늘립니다.|  
 |Shift 또는 Ctrl|선택 그룹에 개체를 추가합니다. Ctrl 선택 그룹에서 개체를 개별적으로 제거 할 수도 있습니다.|  
 |Enter 키|개체에 대 한 기본 명령을 수행 (일반적으로 열어 또는 편집).|  
 |F2|개체에 대 한 바로 편집을 활성화 합니다.|  
@@ -437,7 +437,7 @@ ms.locfileid: "53866909"
  인접 한,이 목록에서 선택 될 수 있습니다 또는 지역입니다. 다중 선택을 허용 되는 연속 된 시점과 비연속 선택 해야 항상 지원, 지역 (상자) 선택 항목에 대 한 지원을 하는 동안에 선택 사항입니다. 지역 선택 목록 본문의 공백을 드래그 하 여 시작 됩니다.  
 
 
-| 개체 | 선택 |
+| Object | 선택 |
 |--------|------------|
 | 목록 | 연속 |
 | 목록 | 서로 분리 |
@@ -478,7 +478,7 @@ ms.locfileid: "53866909"
 ### <a name="overview"></a>개요  
  Visual Studio의 각 소프트웨어 구성 요소를 일반적으로 자체 상태 및 지 속성에 대 한 책임 있지만 Visual Studio 자동으로 설정을 저장 일부의 경우에서와 같이 창 크기와 위치를 사용 하 여 합니다. 다음 테이블은 자동으로 저장 하는 설정과 명시적 사용자가 필요 하거나 수행할 동작을 프로그래밍 하는 설정의 조합입니다.  
 
-|개체|저장을|저장 하는 경우|저장 위치|  
+|Object|저장을|저장 하는 경우|저장 위치|  
 |------------|------------------|------------------|-------------------|  
 |선택 가능한 개체 (예를 들어, 코드 줄)|코드 줄에 중단점을 설정<br /><br /> 코드 줄을 사용 하 여 연결 된 사용자 바로 가기|프로젝트가 저장 된 경우|합니다 **사용자 옵션 (.suo)** 프로젝트용 파일|  
 |대화 상자|가 이동한 경우 대화 상자에서의 위치<br /><br /> 사용자 대화 상자에서 마지막으로 사용한 뷰|대화 상자가 닫힌 경우<br /><br /> Visual Studio 세션 종료 될 때|메모리에서<br /><br /> 레지스트리에서 **HKEY_Current_User**|  

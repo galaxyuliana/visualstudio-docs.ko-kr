@@ -16,16 +16,16 @@ helpviewer_keywords:
 - MSBuild, validating code
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: ac75be41d547905b122284fa09a654be368d73e7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fd4e3681ad30dc54d9240fff94e1bf60bf5e88cf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53907828"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55033949"
 ---
 # <a name="validate-code-with-dependency-diagrams"></a>종속성 다이어그램을 사용하여 코드 유효성 검사
 
@@ -234,7 +234,7 @@ Visual Studio에서 열기 종속성 다이어그램을에서 수동으로 또�
 | DV3001: **누락 된 링크** | 계층 '*LayerName*'연결'*아티팩트*' 찾을 수 없습니다. 어셈블리 참조가 있는지 확인하세요. |
 | DV9001: **내부 오류를 발견 하는 아키텍처 분석** | 결과가 불완전할 수 있습니다. 자세한 내용은 상세 빌드 이벤트 로그를 참조하세요. |
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio 2017의 라이브 종속성 유효성 검사](https://blogs.msdn.microsoft.com/devops/2016/11/30/live-dependency-validation-in-visual-studio-2017/)
 - [개발하는 동안 시스템 유효성 검사](../modeling/validate-your-system-during-development.md)

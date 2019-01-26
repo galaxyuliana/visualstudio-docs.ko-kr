@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5277b5fa-073b-4bd1-8ba1-9dc913aa3c50
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 37d2d8fbbd98e75b398caec9e4c2f36a5853ba4a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 701bb929bae7b5103e274810cf0ad3a222118781
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53862816"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54951276"
 ---
 # <a name="elimination-of-sak-files"></a>제거 ~ SAK 파일
 원본 제어 플러그 인 API 1.2에서는 *~ SAK* 기능 플래그를 통해 파일 대체 되었으며 원본 여부를 검색 하는 새 함수 제어 플러그 인 지원 합니다 *MSSCCPRJ* 파일 및 공유 체크 아웃 합니다.  
@@ -45,10 +45,10 @@ Visual Studio.NET 2003 접두사로 추가 하는 임시 파일을 만들었습�
   
  소스 제어 플러그 인 만들기 및 사용을 지 원하는 경우는 *MSSCCPRJ.SCC* 선언 파일을 `SCC_CAP_SCCFILE` 기능과 구현을 [SccWillCreateSccFile](../../extensibility/sccwillcreatesccfile-function.md)합니다. 이 함수는 파일의 목록을 사용 하 여 호출 됩니다. 함수 반환 `TRUE' or 'FALSE` Visual Studio를 사용할지 여부를 나타내는 각 파일에 대 한는 *MSSCCPRJ.SCC* 파일에 대 한 합니다. 소스 제어 플러그 인이 새 기능 및 기능을 지원 하지 않도록 선택 하면 다음 레지스트리 키를 사용 하 여 이러한 파일의 생성을 사용 하지 않도록 설정 수 것:  
   
- **[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl] DoNotCreateTemporaryFilesInSourceControl** = *dword:00000001*  
+ **[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl]DoNotCreateTemporaryFilesInSourceControl** = *dword:00000001*  
   
 > [!NOTE]
 >  이 레지스트리 키로 설정 되어 있으면 *dword:00000000은*되 존재 하지 않는, 키 및 Visual Studio는 여전히 임시 파일을 만들려고 시도 합니다. 그러나 레지스트리 키로 설정 되어 있으면 *dword:00000001*, 임시 파일을 만들려면 Visual Studio를 시도 하지 않습니다. 소스 제어 플러그 인을 지원 하지 않음을 가정 대신 합니다 *MSSCCPRJ.SCC* 파일과 공유 체크 아웃을 지원 하지 않습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 버전 1.2의 새로운 기능](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

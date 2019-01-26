@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: c64aac80-a411-463f-b7bd-8b7607a52ece
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4c5a84da9fef0bee2a4701337ea62864f5fd34b3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: abf0840b3067b323f9d1552c5cb4261002004406
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952844"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54945387"
 ---
 # <a name="what39s-new-in-the-visual-studio-2015-sdk"></a>새로운&#39;Visual Studio 2015 SDK에 새로운
 Visual Studio SDK는 Visual Studio 2015, 업데이트 하는 Visual Studio 2015 및 Visual Studio 2017에 대 한 다음 새로운 및 업데이트 된 기능.  

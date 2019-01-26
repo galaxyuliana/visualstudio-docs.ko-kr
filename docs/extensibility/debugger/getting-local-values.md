@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: a10b0764-65ac-476f-bf42-b4a9c38e20de
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8b00453228157970afcca4da50080f32b9d58367
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b0b2fd47242cb5d0fd3daea35a19e18549bda036
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933812"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55038463"
 ---
 # <a name="get-local-values"></a>로컬 값을 얻으려면
 > [!IMPORTANT]
@@ -438,7 +438,7 @@ HRESULT FieldGetValue( in IDebugField* pfield, out VARIANT* pvarValue )
 }  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [지역 변수의 샘플 구현](../../extensibility/debugger/sample-implementation-of-locals.md)   
  [로컬 속성 가져오기](../../extensibility/debugger/getting-local-properties.md)   
  [평가 컨텍스트](../../extensibility/debugger/evaluation-context.md)

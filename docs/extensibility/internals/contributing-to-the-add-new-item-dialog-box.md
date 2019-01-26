@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: b2e53175-9372-4d17-8c2b-9264c9e51e9c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0b9e86b002c212f63076c065d7aca3b7649513b1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 39d88d9e8f5886c74f0c0059066ad240ed725742
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865663"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54938486"
 ---
 # <a name="contribute-to-the-add-new-item-dialog-box"></a>새 항목 추가 대화 상자에 참여
 프로젝트 하위 형식에 대 한 항목의 전체 새 디렉터리를 제공할 수 있습니다 합니다 **새 항목 추가** 등록 하 여 대화 상자 **항목 추가** 에서 템플릿 합니다 **프로젝트** 레지스트리 하위 키입니다.  

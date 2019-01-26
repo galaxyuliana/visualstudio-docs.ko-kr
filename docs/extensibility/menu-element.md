@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: ce0560f3-b4c9-4ab2-a99c-d4e10f37b9e0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c3d2e874a414efd546e3d6841cfaaf9fdd70da5c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 93efb9d03f09be9ce4fc8097b975ddf181a01526
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53951393"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948767"
 ---
 # <a name="menu-element"></a>Menu 요소
 하나의 메뉴 항목을 정의합니다. 다음은 6 유형의 메뉴입니다. 상황에 맞는, 메뉴, MenuController, MenuControllerLatched, 도구 모음 및 ToolWindowToolbar 합니다.  
@@ -74,5 +74,5 @@ ms.locfileid: "53951393"
 </Menu>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

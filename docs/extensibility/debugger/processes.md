@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: a6a1efdc-b243-40c8-a778-6f69f6b018be
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: afe23f403fd5276b1c36c63cdc954e7fe0c24193
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 85cfadc626ac28061ec91da2ea1c0d9c063994bb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53896801"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948198"
 ---
 # <a name="processes"></a>프로세스
 디버거 아키텍처에는 *프로세스*:  
@@ -34,7 +34,7 @@ ms.locfileid: "53896801"
   
   디버그 패키지를 호출 하 여 프로세스에는 디버그 엔진 (DE)에 연결할 수 [연결](../../extensibility/debugger/reference/idebugprocess2-attach.md)에 모든 가능한 프로그램을 처리할 수 있는 프로세스에서 실행 되는 DE 연결 되었음을 의미 합니다. 예를 들어, 공용 언어 런타임 DE 프로세스에 연결을 하는 경우 관리 코드를 실행 중인 프로그램에만 연결 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [프로그램](../../extensibility/debugger/programs.md)   
  [스레드](../../extensibility/debugger/threads.md)   
  [디버거 개념](../../extensibility/debugger/debugger-concepts.md)   

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 9be49e9f-1864-41c2-8a3c-f66895881341
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 62bf7670a40b2cf8094793f833dfa7bcc038cdb3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cfa7c6852db66635b0a2b9d955a090b98dd1b61e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53909816"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55041570"
 ---
 # <a name="text-buffer-events-in-the-legacy-api"></a>기존 API에서 텍스트 버퍼 이벤트
 텍스트 버퍼 개체는 다양 한 상황에 응답할 수 있도록 여러 가지 이벤트를 내보냅니다.  
@@ -49,7 +49,7 @@ ms.locfileid: "53909816"
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsPreliminaryTextChangeCommitEvents>|이벤트가 트리거 마지막 커밋 제스처의 클라이언트에 알립니다 하 고 텍스트 변경의 범위를 제공 합니다. `IVsPreliminaryTextChangeCommitEvents` 인터페이스에 대 한 응답을 취소 하거나 명령을 다시 발생 하지 않습니다. 이벤트는 실행 취소 관리자에 있는 버퍼에만 실행 합니다. `IVsPreliminaryTextChangeCommitEvents` 다른 이벤트는 변경 내용이 커밋되기 전에 텍스트를 변경 하지 않는 있는지 확인 하기 위해 매우 목록 등의 다른 이벤트 전에 발생 합니다. VSPackage 하나를 모니터링 해야 합니다 `IVsPreliminaryTextChangeCommitEvents` 인터페이스 또는 `IVsFinalTextChangeCommitEvents` 인터페이스, 하지만 둘 다.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFinalTextChangeCommitEvents>|이벤트가 트리거 마지막 커밋 제스처의 클라이언트에 알립니다 하 고 텍스트 변경의 범위를 제공 합니다. `IVsFinalTextChangeCommitEvents` 인터페이스에 대 한 응답을 취소 하거나 명령을 다시 발생 하지 않습니다. 이벤트는 실행 취소 관리자에 있는 버퍼에만 실행 합니다. `IVsFinalTextChangeCommitEvents` 언어 서비스 또는 편집 하는 완전히 제어할 수 있는 다른 개체에 의해서만 사용 하 여 위한 것입니다. VSPackage 하나를 모니터링 해야 합니다 `IVsPreliminaryTextChangeCommitEvents` 인터페이스 또는 `IVsFinalTextChangeCommitEvents` 인터페이스, 하지만 둘 다.|  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [기존 API를 사용 하 여 텍스트 버퍼에 액세스](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)
 - [방법: 기존 API 사용 하 여 텍스트 버퍼 이벤트에 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)

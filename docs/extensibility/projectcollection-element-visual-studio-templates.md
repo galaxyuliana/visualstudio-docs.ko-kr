@@ -11,22 +11,22 @@ helpviewer_keywords:
 ms.assetid: deb27180-2035-49ed-b835-c47bb3cd2f8f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 87a2bd56522477e56c57b69e4b3b400c84d3b0a0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2631af8fa4d6ee34fb47b5094631d2d64c9ff73c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841254"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54942609"
 ---
 # <a name="projectcollection-element-visual-studio-templates"></a>ProjectCollection 요소 (Visual Studio 템플릿)
 다중 프로젝트 템플릿의 구성과 내용을 지정합니다.  
   
  \<VSTemplate>  
- \<TemplateContent >  
- \<ProjectCollection >  
+ \<TemplateContent>  
+ \<ProjectCollection>  
   
 ## <a name="syntax"></a>구문  
   
@@ -84,7 +84,7 @@ ms.locfileid: "53841254"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [방법: 다중 프로젝트 템플릿 만들기](../ide/how-to-create-multi-project-templates.md)

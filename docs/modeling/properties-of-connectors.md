@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, connectors
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: e76766eb3b90dd2a515c7622217febfaffe313c0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9ae6a15f554b9eba3a6a9144efbb4dffa8e8ae89
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865260"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54942231"
 ---
 # <a name="properties-of-connectors"></a>연결선의 속성
 연결선은 생성된 된 디자이너의 도메인 관계를 나타냅니다.

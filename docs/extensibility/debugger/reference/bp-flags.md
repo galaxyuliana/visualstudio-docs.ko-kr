@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: c45dfc74-5e7f-4f1e-a147-ab2a55dccbd0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9d3739a2edb3f221548f26ee6f03a6f107c01e62
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aa25e92a7a81c1375ebf6a84f25fa2c2fee16f23
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53907685"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55036656"
 ---
 # <a name="bpflags"></a>BP_FLAGS
 중단점을 설정 하는 경우 추가 정보를 지정 하는 데 사용할 수 있는 선택적 플래그를 제공 합니다.  

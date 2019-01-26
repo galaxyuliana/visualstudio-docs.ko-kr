@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 6e32ed81-c604-4a32-9012-8db3bec7c846
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1c8389788504a49bc9a4962c89ed47500a1dc7da
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 93128e22d3bb70a0ff9cfb9b5b56e8c4e7c463f5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965222"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55030394"
 ---
 # <a name="how-to-create-custom-text-markers"></a>방법: 사용자 지정 텍스트 표식 만들기
 강조 하거나 코드를 구성할 사용자 지정 텍스트 마커를 만들려는 경우 다음 단계를 수행 해야 합니다.  
@@ -32,7 +32,7 @@ ms.locfileid: "53965222"
   
 1. 다음과 같이 레지스트리 항목을 만듭니다.  
   
-    **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<버전 > \Text Editor\External 표식\\\<MarkerGUID >**  
+    **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<Version>\Text Editor\External Markers\\\<MarkerGUID>**  
   
     *\<MarkerGUID >* 되는 `GUID` 추가할 마커를 식별 하는 데 사용  
   

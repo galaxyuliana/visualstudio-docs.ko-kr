@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: cc8c17a6-b190-4856-b001-0c1104f104b2
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6bacf652d1fd691f17e721851b5b49d0da7acca0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: dcb47398b4627558c6f00935b1e7819f06ed6302
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827496"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54935087"
 ---
 # <a name="resources-in-vspackages"></a>VSPackage의 리소스
 자체 관리 되는 VSPackage 또는 네이티브 위성 UI Dll을 관리 되는 위성 Dll에서에서 지역화 된 리소스를 포함할 수 있습니다.  

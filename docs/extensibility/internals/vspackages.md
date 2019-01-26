@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: cad0893a-9c5f-45b7-952a-e2294f83e324
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 98ed051c9f98d481d3816ce5c4bcc2f621d42e86
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 80b6fdb8f7eda6dd5a23c7c5653c8f7d5c2ec157
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886850"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54949752"
 ---
 # <a name="vspackages"></a>VSPackages
 Vspackage는 확장 하는 소프트웨어 모듈의 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] UI 요소, 서비스, 프로젝트, 편집기 및 디자이너를 제공 하 여 통합된 개발 환경 (IDE)입니다.  

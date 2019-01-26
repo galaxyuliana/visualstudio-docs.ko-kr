@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: ee9f574b1d0db7a90b2d056456ccb29db0604e1e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bb5a43224ff94e0e5115265383bff578031793bc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53846102"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936309"
 ---
 # <a name="customizing-element-tools"></a>요소 도구 사용자 지정
 일부 DSL 정의에서 요소 그룹으로 단일 개념을 나타냅니다. 예를 들어, 구성 요소에 고정된 된 포트 집합 모델을 만들려면 항상 하려는 경우 해당 부모 구성 요소와 같은 시간에는 포트입니다. 따라서 요소 하나가 아닌 그룹에 있도록 요소 작성 도구를 사용자 지정 해야 합니다. 이 위해 요소 작성 도구를 초기화 하는 방법을 사용자 지정할 수 있습니다.

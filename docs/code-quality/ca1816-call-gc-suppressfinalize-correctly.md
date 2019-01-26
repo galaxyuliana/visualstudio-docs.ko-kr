@@ -12,18 +12,18 @@ helpviewer_keywords:
 ms.assetid: 47915fbb-103f-4333-b157-1da16bf49660
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: a3dcfdf8f094d50c5f462ae1a9d0ef4e85a0bb87
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d8f7952758c091765116f44ef4454cd9214e0b49
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53882288"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940451"
 ---
 # <a name="ca1816-call-gcsuppressfinalize-correctly"></a>CA1816: GC.SuppressFinalize를 올바르게 호출하세요.
 
@@ -31,7 +31,7 @@ ms.locfileid: "53882288"
 |-|-|
 |TypeName|CallGCSuppressFinalizeCorrectly|
 |CheckId|CA1816|
-|범주|Microsoft입니다. 사용법|
+|범주|Microsoft. 사용법|
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
@@ -83,6 +83,6 @@ ms.locfileid: "53882288"
 - [CA2215: Dispose 메서드는 기본 클래스 dispose를 호출 해야 합니다.](../code-quality/ca2215-dispose-methods-should-call-base-class-dispose.md)
 - [CA2216: 삭제 가능한 형식은 종료자를 선언 해야 합니다.](../code-quality/ca2216-disposable-types-should-declare-finalizer.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [삭제 패턴](/dotnet/standard/design-guidelines/dispose-pattern)

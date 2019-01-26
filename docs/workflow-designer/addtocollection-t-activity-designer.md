@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: f7fc0702-164e-4370-8946-bb2f9f9384b7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cd8e92baa4192d0b40acdc1d51d01ea339b528c8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bc59628de24af3d0e4910f3ff566791a508127fe
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926752"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54953541"
 ---
 # <a name="addtocollectiont-activity-designer"></a>AddToCollection\<T > 활동 디자이너
 
@@ -43,7 +43,7 @@ ms.locfileid: "53926752"
 |<xref:System.Activities.Statements.AddToCollection%601.Collection%2A>|True|항목이 추가될 컬렉션입니다. 이 컬렉션은 형식 **ICollection < TypeArgument\>** 합니다. 컬렉션을 지정하려면 속성 표에 Visual Basic 식을 입력합니다.|
 |*TypeArgument*|True|<xref:System.Collections.Generic.ICollection%601>에 포함된 항목의 형식 T입니다. 기본적으로이 *TypeArgument* 유형이 설정 되어 **Int32**합니다. 유형을 변경 하려면 값을 변경 합니다 *TypeArgument* 속성 표의 콤보 상자에서.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [컬렉션](../workflow-designer/collection-activity-designers.md)
 - [AddToCollection\<T > 활동 디자이너](../workflow-designer/addtocollection-t-activity-designer.md)

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6c5f714260af3ef247ad4fe0a059e6166d59f1df
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9da39a5216f313371753a1b52e411aba093419e0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942426"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54935802"
 ---
 # <a name="sccgetprojpath-function"></a>SccGetProjPath 함수
 이 함수는 프로젝트 경로 소스 제어 플러그 인에 의미 있는 문자열에 대 한 라는 메시지입니다. 사용자가 있는 경우 라고 합니다.  
@@ -105,6 +105,6 @@ SCCRTN SccGetProjPath (
   
  예를 들어, 사용자는 **새 프로젝트** Visual Studio에서 마법사가 자신의 프로젝트를 소스 제어에 추가 하 고이 함수를 호출 하는 Visual Studio 플러그 인에 소스 제어 시스템에서 새 프로젝트를 만들 수 있는지 결정 Visual Studio 프로젝트를 포함 합니다. 클릭 하면 **취소** 마법사를 완료 하기 전에 프로젝트 만들어지지 않습니다. 클릭 하면 **확인**를 호출 하는 Visual Studio `SccOpenProject`전달 `SCC_OPT_CREATEIFNEW`, 소스 제어 프로젝트는 해당 시점에 생성 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [SccOpenProject](../extensibility/sccopenproject-function.md)

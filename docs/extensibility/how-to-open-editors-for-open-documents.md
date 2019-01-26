@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 1a0fa49c-efa4-4dcc-bdc0-299b7052acdc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b4ba9e15a7f7578454aa7b87372ea776399eca57
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aa6fdbefbcfd23afd88c7f85703fd6f02999840c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967309"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55031515"
 ---
 # <a name="how-to-open-editors-for-open-documents"></a>방법: 열린 문서에 대 한 편집기 열기
 프로젝트 문서 창이 열리기 전에 프로젝트 먼저 결정 해야 합니다 있는지 여부를 파일이 이미 열려 다른 편집기에 대 한 문서 창에서. 파일은 프로젝트 관련 편집기에 열거나 수 또는 표준 편집기 중 하나에 등록 된 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다.  
@@ -52,7 +52,7 @@ ms.locfileid: "53967309"
   
 2.  문서가 열려 있지 않으면 다음 단계에 따라 [방법: 표준 편집기 열기](../extensibility/how-to-open-standard-editors.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [열기 및 프로젝트 항목 저장](../extensibility/internals/opening-and-saving-project-items.md)   
  [방법: 프로젝트별 편집기 열기](../extensibility/how-to-open-project-specific-editors.md)   
  [방법: 표준 편집기 열기](../extensibility/how-to-open-standard-editors.md)

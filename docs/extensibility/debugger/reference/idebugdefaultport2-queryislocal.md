@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 1a42e774-c6ed-419a-a0e3-cab5778652ca
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a5becc75e76a0e219664ef07c148620fb2bc1e37
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ad9fb8381509ffbdabb4968f35c6b23c461d70e7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53900401"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55038645"
 ---
 # <a name="idebugdefaultport2queryislocal"></a>IDebugDefaultPort2::QueryIsLocal
 이 메서드는 로컬 컴퓨터에서이 포트 인지 여부를 결정 합니다.  

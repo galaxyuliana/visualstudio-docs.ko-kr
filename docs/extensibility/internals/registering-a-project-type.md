@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2e3c5aa9dd5784f6d987a433b0f402547e8f7d8b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9b1413acafd4358d4b29435a0cd62edd5a8ce22e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826389"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940832"
 ---
 # <a name="registering-a-project-type"></a>프로젝트 형식 등록
 레지스트리 항목을 사용 하도록 설정 하는 새 프로젝트 형식을 만들면 만들어야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 인식 및 프로젝트 형식을 사용 하 여 작동 합니다. 일반적으로 레지스트리 스크립트 (.rgs) 파일을 사용 하 여 이러한 레지스트리 항목을 만듭니다.  
@@ -222,7 +222,7 @@ ms.locfileid: "53826389"
   
 |이름|형식|데이터|설명|  
 |----------|----------|----------|-----------------|  
-|% CLSID_Package|REG_SZ|`,1000,1`|메뉴 정보를 검색할 리소스입니다.|  
+|%CLSID_Package%|REG_SZ|`,1000,1`|메뉴 정보를 검색할 리소스입니다.|  
   
  다음 예제에서는 모든 레지스트리 키 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0Exp\NewProjectTemplates] 아래에 있습니다.  
   
@@ -260,7 +260,7 @@ ms.locfileid: "53826389"
   
  예를 들어, 엔터프라이즈 프레임 워크 프로젝트 템플릿은 다음 레지스트리 항목을 추가합니다.  
   
- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\7.0Exp\Setup\EF\ProductDir C:\Program Files\Microsoft Visual Studio\EnterpriseFrameworks\ =  
+ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\7.0Exp\Setup\EF\ProductDir = C:\Program Files\Microsoft Visual Studio\EnterpriseFrameworks\  
   
  즉, 한 PROJECT_TYPE를 포함 하는 경우 = 이전에 지정한 ProductDir 디렉터리에 사용자.vsz 파일 환경 찾습니다.vsz 파일에서 EF 항목입니다.  
   

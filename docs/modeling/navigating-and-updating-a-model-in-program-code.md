@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 436b327e090d11d6e0e54f1a908e3e871d2b846a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4d0a001e50347b4ec0603aa0aa97af25233e4179
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857123"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54944152"
 ---
 # <a name="navigate-and-update-a-model-in-program-code"></a>프로그램 코드에서 모델 탐색 및 업데이트
 
@@ -264,7 +264,7 @@ using (Transaction t =
 
  역할에 복합성 0..1 또는 1.. 1 인 경우 설정할 수 있습니다 `null`, 또는 다른 값:
 
- `edward.FamilyTreeModel = null;` 또는:
+ `edward.FamilyTreeModel = null;` // or:
 
  `edward.FamilyTreeModel = anotherFamilyTree;`
 

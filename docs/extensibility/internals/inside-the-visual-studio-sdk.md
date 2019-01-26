@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f356fe21f512ae1fabb51df3ab562b067a692665
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c386fb7f9fb57abccf7d7bc3c9cec900a65d883a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53821147"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54978271"
 ---
 # <a name="inside-the-visual-studio-sdk"></a>Visual Studio SDK 기본 사항
 이 섹션에서는 Visual Studio 아키텍처, 구성 요소, 서비스, 스키마, 유틸리티 등을 비롯 한 Visual Studio 확장에 대 한 자세한 정보를 제공 합니다.
@@ -102,7 +102,7 @@ ms.locfileid: "53821147"
 ## <a name="properties-and-options"></a>속성 및 옵션
  합니다 **속성** 단일 또는 여러 선택된 항목의 속성 창에 표시 됩니다. [속성 확장](../../extensibility/internals/extending-properties.md) 옵션 페이지, VSPackage 또는 프로그래밍 언어와 같은 특정 구성 요소와 관련 된 옵션 집합을 포함 합니다. [옵션 및 옵션 페이지](../../extensibility/internals/options-and-options-pages.md)합니다. 설정은 일반적으로 UI 관련 기능을 가져오고 내보낼 수 있습니다. [사용자 설정에 대 한 지원을](../../extensibility/internals/support-for-user-settings.md)합니다.
 
-## <a name="visual-studio-services"></a>Visual Studio 서비스
+## <a name="visual-studio-services"></a>Visual Studio Services
  서비스 구성 요소를 사용 하는 인터페이스의 특정 집합을 제공 합니다. Visual Studio 확장을 포함 하 여 모든 구성 요소에서 사용할 수 있는 서비스 집합을 제공 합니다. 예를 들어, Visual Studio 서비스를 표시 또는 도움말, 상태 표시줄에 또는 UI 이벤트에 액세스할 수 있도록 동적으로 숨겨진 도구 창을 사용 합니다. Visual Studio 편집기는 또한 편집기 확장에서 가져올 수 있는 서비스를 제공 합니다. 자세한 내용은 [사용 및 제공 서비스](../../extensibility/using-and-providing-services.md)합니다.
 
 ## <a name="debugger"></a>디버거

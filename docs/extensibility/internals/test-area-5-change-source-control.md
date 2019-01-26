@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: fdf09e00-108c-4d51-bbd5-72452d52a490
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 83928a2b28b32d7e1ee11475a7693f8f11483cad
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 78e34e919d912af09e1265ea5326189d4f3e7b89
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942634"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54935945"
 ---
 # <a name="test-area-5-change-source-control"></a>테스트 영역 5: 소스 제어 변경
 이 소스 제어 플러그 인 테스트 영역에서는 통한 소스 제어 변경 합니다 **소스 제어 변경** 명령입니다.  

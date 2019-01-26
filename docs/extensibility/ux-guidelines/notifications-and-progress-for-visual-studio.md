@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: f0ef65e9-0f1f-45f4-9f25-6e2398691168
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1c0241a16caec1fd25b3ccd177042af3be90a6b9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ecc47391c3ab80b0c8752de840c6accfb66f0212
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942673"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936699"
 ---
 # <a name="notifications-and-progress-for-visual-studio"></a>Visual Studio의 알림 및 진행률
 ##  <a name="BKMK_NotificationSystems"></a> 알림 시스템  
@@ -281,7 +281,7 @@ ms.locfileid: "53942673"
   
  **지속적인 프로세스 상태를 사용 하 여 출력 창 및 메시징 대기**  
   
-##  <a name="BKMK_Infobars"></a> 정보 표시줄  
+##  <a name="BKMK_Infobars"></a> Infobars  
   
 ### <a name="overview"></a>개요  
  정보 표시줄 관심 지점에 가까운 표시기 사용자에 게 제공 하 고 공유 정보 표시줄 컨트롤을 사용 하면 시각적 모양과 상호 작용의 일관성이 보장 합니다.  
