@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: ea051367-deeb-40f9-9b65-eb818f1e133a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 445330d654e870fe12aa2ca19626377972235eac
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 89ee195da621ea9d7342302efadf582e21f7e619
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53860810"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54956729"
 ---
 # <a name="ca1030-use-events-where-appropriate"></a>CA1030: 적절한 경우 이벤트를 사용하세요.
 
@@ -34,7 +34,7 @@ ms.locfileid: "53860810"
 ## <a name="cause"></a>원인
  Public, protected 또는 private 메서드 이름이 다음 중 하나를 사용 하 여 시작합니다.
 
-- 추가 기능
+- AddOn
 
 - RemoveOn
 

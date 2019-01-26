@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: f25e7a2f-7469-4279-b2f4-ee2dfd4d3af1
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ae65e494c20808123841143155e02d91c41b858e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7c97bd62f6a197d5aac64423002580c8ed05d34b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857908"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55042249"
 ---
 # <a name="start-view"></a>시작 뷰
 
@@ -42,11 +42,11 @@ ms.locfileid: "53857908"
 
 |옵션|설명|
 |-|-----------------|
-|**시작 뷰 표시**|시작 뷰로 전환합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **Ctrl**+**1**합니다.|
-|**콘텐츠 모델 뷰 표시**|콘텐츠 모델 뷰로 전환합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **Ctrl**+**2**합니다.|
-|**그래프 뷰 표시**|그래프 뷰로 전환합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **Ctrl**+**3**합니다.|
+|**시작 뷰 표시**|시작 뷰로 전환합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **Ctrl**+**1**.|
+|**콘텐츠 모델 뷰 표시**|콘텐츠 모델 뷰로 전환합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **Ctrl**+**2**.|
+|**그래프 뷰 표시**|그래프 뷰로 전환합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **Ctrl**+**3**.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)
 - [그래프 뷰](../xml-tools/graph-view.md)

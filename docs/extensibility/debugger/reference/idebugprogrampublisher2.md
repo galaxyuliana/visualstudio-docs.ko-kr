@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: b1d17f63-7146-4076-a588-034cfc6858b9
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 683ea72b7bb40ac4b6ff3a739ff650db2abb260a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 95b12c4a5236a401cebbae93b15b69a1d4176ecf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53938357"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54977709"
 ---
 # <a name="idebugprogrampublisher2"></a>IDebugProgramPublisher2
 이 인터페이스에는 디버그 엔진 (DE) 또는 디버깅에 대 한 프로그램을 등록 하려면 사용자 지정 포트 공급자 수 있습니다.  

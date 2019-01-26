@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 9f0943c0-e802-4e3f-8798-2ab8653ddc80
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: aa8d2e85ebacdedfde9d6731ff3e24a557de3e13
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a359df7f9538c1b1bc3fe03f1f711a41adca009e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988558"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54931247"
 ---
 # <a name="ca1506-avoid-excessive-class-coupling"></a>CA1506: 클래스를 지나치게 많이 결합하지 마세요.
 
@@ -45,7 +45,7 @@ ms.locfileid: "53988558"
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
  형식 또는 메서드가 크더라도 아직 많은 다른 형식에 대 한 종속성에도 불구 하 고 하는 경우이 경고를 제외 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [유지 관리 경고](../code-quality/maintainability-warnings.md)
 - [관리 코드의 복잡성 및 유지 관리 용이성 측정](../code-quality/code-metrics-values.md)

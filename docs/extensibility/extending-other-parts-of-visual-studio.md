@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 27d2f1e1-2503-4aca-9cfc-707abd07ccf0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f49d2e10b61bac39941a12f5617fc313f17c208f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e742e2432596b4b31ecfcfc666a913076050cf06
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967283"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927842"
 ---
 # <a name="extend-other-parts-of-visual-studio"></a>Visual Studio의 다른 부분 확장
 확장할 수 있는 Visual Studio UI의 더 많은 부분이 있습니다. 여기에서는 보여줍니다 일부에 불과합니다.  

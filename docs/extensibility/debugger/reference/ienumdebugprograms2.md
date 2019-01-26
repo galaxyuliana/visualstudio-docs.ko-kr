@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d0277c316329e0adb763eb614f6d453a531781c7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f0cadbfee175f26e13b38775442430676edba254
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53877473"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54931221"
 ---
 # <a name="ienumdebugprograms2"></a>IEnumDebugPrograms2
 이 인터페이스는 현재 디버그 세션에서 실행 중인 프로그램을 열거 합니다.  

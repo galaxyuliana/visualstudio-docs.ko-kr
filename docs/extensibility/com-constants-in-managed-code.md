@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9280ff451b6a03150184b9d64eb5cb78cad6fdbc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0f340308d34558862ba9c073e7a8609bf2af90d8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987274"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54966208"
 ---
 # <a name="com-constants-in-managed-code"></a>관리 코드의 COM 상수
 관리 패키지 프레임 워크 (MPF) 관리 코드에 사용 가능한 몇 가지 표준 COM 상수를 만듭니다. 이러한 상수는 참조용 아래 나열 됩니다.  
@@ -126,5 +126,5 @@ ms.locfileid: "53987274"
   
  <xref:Microsoft.VisualStudio.VSConstants.DISP_E_UNKNOWNNAME>  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [오류 처리 및 반환 값](../extensibility/error-handling-and-return-values.md)

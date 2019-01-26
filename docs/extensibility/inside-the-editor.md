@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 785e47a337eb33eb9416705a4c2c647a99f611d7
-ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
+ms.openlocfilehash: 803fd69df06ae820e39d7edcfa54e56e59717a1c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54204523"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54963114"
 ---
 # <a name="inside-the-editor"></a>편집기 내에서
 
@@ -262,7 +262,7 @@ C# 분류자를 주석으로 전체 범위 레이블 수 및 영어 분류자 �
 
 팝업 장식을 위의 예를 들어 도구 설명 텍스트 뷰를 다른 작은 창에 표시 되는 그래픽입니다.
 
-###  <a name="projection"></a> 프로젝션
+###  <a name="projection"></a> Projection
 
 프로젝션은 서로 다른 종류의 텍스트를 실제로 저장 되지 않습니다 하지만 대신 다른 텍스트 버퍼에서 텍스트를 결합 하는 텍스트 버퍼를 생성 하기 위한 기술입니다. 예를 들어 다른 두 버퍼에서 텍스트를 연결 하 고 하나의 버퍼에 있는 것 처럼 결과 표시 또는 숨기기 하나의 버퍼에서 텍스트의 부분에 프로젝션 버퍼를 사용할 수 있습니다. 프로젝션 버퍼는 다른 프로젝션 버퍼로 소스 버퍼로 작동할 수 있습니다. 다양 한 방법으로 텍스트를 다시 정렬 하려면 프로젝션을 통해 연관 된 버퍼 집합을 생성할 수 있습니다. (이러한 집합은 라고도 *버퍼 그래프*.) Visual Studio 텍스트 개요 기능을 축소 된 텍스트를 숨기려면 프로젝션 버퍼를 사용 하 여 구현 됩니다 하 고 ASP.NET 페이지에 대 한 Visual Studio 편집기 프로젝션을 사용 하 여 Visual Basic 및 C#과 같은 포함 된 언어를 지원 합니다.
 

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: df638f24-166d-4b80-be82-c9c39ca7a556
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d3218a8cf1c61fb9b88520702a953f2288e19b3c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 87c9b43dc4109f5ca5419561a2bcf1f4aa878082
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53855889"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54961415"
 ---
 # <a name="implementing-a-legacy-language-service"></a>레거시 언어 서비스 구현
 구문 강조, 중괄호 일치 및 IntelliSense 완성 등 다양 한 기능을 지 원하는 레거시 언어 서비스를 구현 하려면 클래스 (MPF) 관리 되는 패키지 프레임 워크에서를 사용할 수 있습니다.  

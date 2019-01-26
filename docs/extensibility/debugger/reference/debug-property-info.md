@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fbb1a135cfca3e358d740f6c6ef23b2040843ff4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 29c02335f83438bf727a5daacd01d88c99e8d038
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53927131"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54972758"
 ---
 # <a name="debugpropertyinfo"></a>DEBUG_PROPERTY_INFO
 디버그 속성에 대 한 정보를 포함합니다.  
@@ -64,7 +64,7 @@ public struct DEBUG_PROPERTY_INFO { 
  bstrValue  
  서식이 지정 된 문자열 속성 값입니다.  
   
- 속성  
+ pProperty  
  합니다 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 이 구조에서 설명 하는 개체입니다.  
   
  dwAttrib  

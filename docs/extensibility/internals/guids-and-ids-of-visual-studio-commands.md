@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 2ea4bee2-0259-4675-8e65-2023b312b516
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1440eb7da0299b79aa063d999d581cc159a88e50
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ab45402902e979e26f85e88494b83602357a9177
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898296"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54967367"
 ---
 # <a name="guids-and-ids-of-visual-studio-commands"></a>Guid 및 Id의 Visual Studio 명령
 Visual Studio 통합된 개발 환경 (IDE)에 포함 된 명령의 GUID 및 ID 값은 Visual Studio SDK의 일부로 설치 되는.vsct 파일에서 정의 됩니다. 자세한 내용은 [IDE 정의 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)합니다.  
@@ -31,7 +31,7 @@ Visual Studio 통합된 개발 환경 (IDE)에 포함 된 명령의 GUID 및 ID 
   
 ### <a name="to-locate-a-command-definition"></a>명령 정의 찾을 수  
   
-1. Visual Studio에서 다음 파일을 엽니다는 *< Visual Studio SDK 설치 경로\>\VisualStudioIntegration\Common\Inc\\*  폴더: *SharedCmdDef.vsct*, *ShellCmdDef.vsct*, *VsDbgCmdUsed.vsct*하십시오 *Venusmenu.vsct*합니다.  
+1. Visual Studio에서 다음 파일을 엽니다는 *< Visual Studio SDK 설치 경로\>\VisualStudioIntegration\Common\Inc\\*  폴더: *SharedCmdDef.vsct*, *ShellCmdDef.vsct*, *VsDbgCmdUsed.vsct*, *Venusmenu.vsct*.  
   
     대부분의 Visual Studio 명령에 정의 된 *SharedCmdDef.vsct* 하 고 *ShellCmdDef.vsct*합니다. *VsDbgCmdUsed.vsct* 디버거를 관련 된 명령 정의 하 고 *Venusmenu.vsct* 웹 개발에 관련 된 명령을 정의 합니다.  
   
@@ -60,7 +60,7 @@ Visual Studio 통합된 개발 환경 (IDE)에 포함 된 명령의 GUID 및 ID 
   
      동적 텍스트를 검색할 신뢰할 수 있는 방법은 없습니다. 대신 참조 하 여 원하는 명령을 호스트 하는 그룹을 찾을 [Guid 및 Id의 Visual Studio 메뉴](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) 하거나 [Guid 및 Id의 Visual Studio 도구 모음](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md), 해당 그룹의 ID 검색 합니다. 명령 정의와 그룹에 없으면 해당 [부모 요소](../../extensibility/parent-element.md)를 검색 *SharedCmdPlace.vsct* 하 고 *ShellCmdPlace.vsct* (또는  *VsDbgCmdPlace.vsct* 디버거 명령에 대 한)에 대 한는 `<CommandPlacement>` 명령의 부모를 설정 하는 요소입니다. *SharedCmdPlace.vsct*, *ShellCmdPlace.vsct*, 및 *VsDbgCmdPlace.vsct* 에 *\<Visual Studio SDK 설치 경로\>\ VisualStudioIntegration\Common\Inc\\* 폴더입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Menucommand 및 OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)   
  [Visual Studio 명령 테이블 (.vsct) 파일](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [VSCT XML 스키마 참조](../../extensibility/vsct-xml-schema-reference.md)

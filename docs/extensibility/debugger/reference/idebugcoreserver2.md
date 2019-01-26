@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 9c47d0a6-9eb1-464e-bd44-fa2b552d4d36
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 33347f985f1c495e61e097e04890ca6931751331
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9ace007b07b2e36004d034a804f9e1a070d0c92e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53921759"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54963101"
 ---
 # <a name="idebugcoreserver2"></a>IDebugCoreServer2
 이 인터페이스는 표시 하 고 네트워크의 컴퓨터에서 서버에서 정보를 얻을 사용 됩니다.  
@@ -62,5 +62,5 @@ IDebugCoreServer2 : IUknown
 ## <a name="see-also"></a>참고 항목  
  [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)   
  [이벤트](../../../extensibility/debugger/reference/idebugportevents2-event.md)   
- [Getserver 메서드](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)   
+ [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)   
  [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

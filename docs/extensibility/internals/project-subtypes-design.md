@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 405488bb-1362-40ed-b0f1-04a57fc98c56
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9bf1b3f57fe82a4f5f6747c2667e0849f6ce6456
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41f7708e9e10c1d5ec78354c137c5ee657575bd6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53858025"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927608"
 ---
 # <a name="project-subtypes-design"></a>프로젝트 하위 형식 디자인
 Microsoft Build Engine (MSBuild)을 기준으로 프로젝트를 확장 하는 Vspackage를 사용 하는 프로젝트 하위 형식 있습니다. 집계를 사용 하 여 다시 사용할 수 있습니다에서 구현 되는 관리 되는 코어 프로젝트 시스템의 대량 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 아직 여전히 특정 시나리오에 대 한 동작을 사용자 지정 합니다.  

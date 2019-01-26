@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 4e3f767eeb6ed79aed3281cbe88b1eb1fe46738d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fc122767dbc2b7a901f75b26bcb8635cda64a0ae
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53847490"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54960219"
 ---
 # <a name="working-with-domain-specific-language-solutions"></a>도메인별 언어 솔루션 작업
 도메인 특정 언어 (DSL) Visual Studio 솔루션을 사용 하 여 생성 됩니다. 설정 하 고 솔루션을 사용자 지정 하는 방법에 대 한이 섹션이입니다.

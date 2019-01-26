@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: a8623c56-273a-4c95-8d83-95911a042be7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c0a9439150602bdb3f84f9a82aacac39dc2e9517
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 947b22929c58ce962861c65946941513d7845152
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53881233"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54957784"
 ---
 # <a name="ca1032-implement-standard-exception-constructors"></a>CA1032: 표준 예외 생성자를 구현하세요.
 
@@ -39,7 +39,7 @@ ms.locfileid: "53881233"
 
 예외 형식에는 다음 세 가지 생성자를 구현 해야 합니다.
 
-- 공용 NewException()
+- public NewException()
 
 - 공용 NewException(string)
 
@@ -67,6 +67,6 @@ Public 생성자에 대 한 다른 액세스 수준을 사용 하 여 위반이 
 
 [!code-csharp[FxCop.Design.ExceptionMultipleCtors#1](../code-quality/codesnippet/CSharp/ca1032-implement-standard-exception-constructors_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 [CA2229: serialization 생성자를 구현하십시오.](../code-quality/ca2229-implement-serialization-constructors.md)

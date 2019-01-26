@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 44de482d-93c8-41a4-843c-cefda995a03e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6db9cd21b56fb4d31a97fea9f16541377a8de1f3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d05a73fbe94bc754f60a2f261e47cd0f242e3b94
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952604"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958669"
 ---
 # <a name="contribute-to-the-automation-model"></a>자동화 모델에 참여
 Visual Studio 환경 사용자 지정에 대 한 일련의 자동화 인터페이스를 제공 합니다. 자동화 모델에는 최종 사용자가 Visual Studio 추가 기능 및 확장을 만들 수 있는 개체 모델이입니다.  

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 24d2bffd-a35c-46db-8515-fd60b884b7fb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c6bd1cbf23bf56a6d475f6afa3db5a6225dc75de
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2cfad04648f62cbe289c1ce2408973ed3701c4b9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53896021"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959566"
 ---
 # <a name="walkthrough-create-a-core-editor-and-registering-an-editor-file-type"></a>연습: 핵심 편집기 및 등록 하는 편집기 파일 형식 만들기
 이 연습에는 시작 하는 VSPackage를 만드는 방법을 보여 줍니다 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 핵심 편집기를 사용 하 여 파일을 *.myext* 파일 이름 확장명 로드 됩니다.  
@@ -393,6 +393,6 @@ ms.locfileid: "53896021"
   
  핵심 편집기에 대 한 자세한 내용은 참조 하세요. [핵심 편집기 내에서](../extensibility/inside-the-core-editor.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [핵심 편집기 내에서](../extensibility/inside-the-core-editor.md)   
  [기존 API를 사용 하 여 핵심 편집기 인스턴스화합니다](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)
