@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 014ac5b4c310b97fb1c041eeaededef8c97ab88b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 321b0a7c7eb2a30465098da39abc49cbc9261e11
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53905360"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54947207"
 ---
 # <a name="session-debug-manager"></a>세션 디버그 관리자
 세션 디버그 관리자 SDM ()는 임의 개수의 다양 한 컴퓨터 개수에 관계 없이 여러 프로세스에서 프로그램을 디버깅 하는 디버그 엔진 (DE)를 관리 합니다. 멀티플렉서 디버그 엔진 뿐만 SDM IDE에 디버그 세션의 통합된 보기를 제공 합니다.  
@@ -36,7 +36,7 @@ ms.locfileid: "53905360"
   
  현재 프로세스, 스레드 또는 스택 프레임은 SDM 추적 하지 않습니다. 프로세스, 프로그램 및 스레드 정보는 특정 디버깅 이벤트와 함께에서 SDM에 전송 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [디버그 엔진](../../extensibility/debugger/debug-engine.md)   
  [디버거 구성 요소](../../extensibility/debugger/debugger-components.md)   
  [디버거 컨텍스트](../../extensibility/debugger/debugger-contexts.md)

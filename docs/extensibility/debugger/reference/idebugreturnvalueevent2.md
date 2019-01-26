@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 2daded43-e427-4fbb-a19e-f3834e3723af
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2fe64295ce00d2fcd430595b87f839ea5b980700
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ade206415b59f1de15427b929855f982bc5466d5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863335"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54947038"
 ---
 # <a name="idebugreturnvalueevent2"></a>IDebugReturnValueEvent2
 이 인터페이스의 또는 함수를 단계별로 실행 한 후 디버그 엔진 (DE)에서 (SDM) 세션 디버그 관리자에 게 전송 됩니다.  

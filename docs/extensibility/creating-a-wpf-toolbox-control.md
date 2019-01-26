@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 9cc34db9-b0d1-4951-a02f-7537fbbb51ad
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 07ab3bc10bd755a768c80e53c96ad133ecce08a3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a2b3611245b796cc42f6ef1dcf951d2961510b3d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53847544"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54953488"
 ---
 # <a name="create-a-wpf-toolbox-control"></a>WPF 도구 상자 컨트롤 만들기
 WPF (Windows Presentation Framework) 도구 상자 컨트롤 템플릿을 통해 자동으로 추가 되는 WPF 컨트롤을 만들 수는 **도구 상자** 확장이 설치 되는 경우. 이 항목에서는 템플릿을 사용 하 여 만드는 방법을 보여 줍니다.는 **도구 상자** 컨트롤을 다른 사용자에 게 배포할 수 있습니다.  

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4bce0eda36e637140d10408a37b0ecbb3d8b91ca
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7476208c52884f82a7277d8cbcd69208831efeb3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873978"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54944308"
 ---
 # <a name="using-the-settings-store"></a>설정 저장소 사용
 두 가지 종류의 설정 저장 합니다.  
@@ -79,7 +79,7 @@ ms.locfileid: "53873978"
   
 1.  Regedit.exe를 엽니다.  
   
-2.  HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp_Config\InstalledProducts 이동할\\합니다.  
+2.  Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp_Config\InstalledProducts\\.  
   
     > [!NOTE]
     >  \14.0Exp_Config\ 및 없습니다 \14.0_Config 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 구성 설정은 레지스트리 하이브 "14.0Exp_Config"에 있습니다.  

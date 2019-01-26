@@ -11,22 +11,22 @@ helpviewer_keywords:
 ms.assetid: bce7b49a-90bc-4691-aff3-a87e209f6d83
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e7eebe25af23a6468bd0dfd4b60957a0b365a368
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: be9a74c4aedf49b9ff7f7d56c29f3281c2d4578f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913425"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952810"
 ---
 # <a name="templategroupid-element-visual-studio-templates"></a>TemplateGroupID 요소(Visual Studio 템플릿)
 항목 템플릿이 표시되는 프로젝트 종류를 지정합니다. 이 요소는 상당한 [ShowByDefault (Visual Studio 템플릿)](../extensibility/showbydefault-visual-studio-templates.md) 로 설정 된 `false`합니다. 때 [ShowByDefault (Visual Studio 템플릿)](../extensibility/showbydefault-visual-studio-templates.md) 로 설정 된 `true`, 항목 템플릿에 모든 프로젝트 형식에서 사용할 수 있습니다.  
   
  \<VSTemplate>  
  \<TemplateData>  
- \<TemplateGroupID >  
+ \<TemplateGroupID>  
   
 ## <a name="syntax"></a>구문  
   

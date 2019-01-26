@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: a8d12d41-14bf-4b43-af24-168312d7c390
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: de70944f4bf8e4944b94285a570e6d85ec1a5bb7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6f1b1b6981c4aa03392267d64ce8a28e88d9b904
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53821398"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940728"
 ---
 # <a name="globalization-warnings"></a>전역화 경고
 전역화 경고에 대비한 라이브러리 및 응용 프로그램을 지원합니다.
