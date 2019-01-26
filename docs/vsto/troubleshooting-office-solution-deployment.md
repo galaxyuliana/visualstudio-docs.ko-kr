@@ -9,17 +9,17 @@ helpviewer_keywords:
 - ClickOnce deployment [Office development in Visual Studio], troubleshooting
 - Office development in Visual Studio, troubleshooting
 - deploying applications [Office development in Visual Studio], troubleshooting
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5d6dc3a871389b8b7624b31a4f2a4d3e4e185865
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6773e73eaa4d6d53bbfa63e26b66f56553910444
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53947259"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872263"
 ---
 # <a name="troubleshoot-office-solution-deployment"></a>Office 솔루션 배포 문제 해결
   이 항목에는 Office 솔루션을 배포할 때 발생할 수 있는 일반적인 문제를 해결하는 방법에 대한 정보가 포함되어 있습니다.

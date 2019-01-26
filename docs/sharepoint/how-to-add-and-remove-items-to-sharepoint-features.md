@@ -9,17 +9,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, features
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0a820f506154a72b797963996b39e7ec225fac31
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 876c6a6a328c5a617a6773b76cdb9bb2c6d8f546
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964019"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874239"
 ---
 # <a name="how-to-add-and-remove-items-to-sharepoint-features"></a>방법: SharePoint 기능에 항목 추가 및 제거
   SharePoint 솔루션을 만들 때 Visual Studio 기능에 기본 SharePoint 프로젝트 항목을 추가 합니다. 배포 하기 전에 추가 하는 SharePoint 기능을 수정 하려면 SharePoint 프로젝트 항목을 제거 합니다.  
@@ -52,6 +52,6 @@ ms.locfileid: "53964019"
   
      SharePoint 프로젝트 항목에 표시 된 **솔루션에서 항목** 목록입니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 기능 만들기](../sharepoint/creating-sharepoint-features.md)   
  [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  

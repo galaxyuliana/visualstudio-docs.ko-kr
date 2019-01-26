@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - text [Office development in Visual Studio], adding to worksheets
 - worksheets, displaying text in cells
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 021fe02e501fc5a8921ec8f2a50329653ca45401
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d97e57f35298a14da5c4098b464f8248b93a0592
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53849770"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871808"
 ---
 # <a name="how-to-programmatically-display-a-string-in-a-worksheet-cell"></a>방법: 프로그래밍 방식으로 워크시트 셀에 문자열을 표시
   이 예제에서는 프로그래밍 방식으로 셀에 텍스트를 표시 하는 방법에 설명 합니다. 셀에 텍스트를 표시 하려면를 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 또는 네이티브 Excel 범위 개체입니다.  
@@ -45,7 +45,7 @@ ms.locfileid: "53849770"
      [!code-csharp[Trin_VstcoreExcelAutomation#69](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#69)]
      [!code-vb[Trin_VstcoreExcelAutomation#69](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#69)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: Windows 폼을 사용 하 여 데이터를 수집 합니다.](../vsto/walkthrough-collecting-data-using-a-windows-form.md)   
  [Office 솔루션 문제 해결](../vsto/troubleshooting-office-solutions.md)   
  [NamedRange 컨트롤](../vsto/namedrange-control.md)   

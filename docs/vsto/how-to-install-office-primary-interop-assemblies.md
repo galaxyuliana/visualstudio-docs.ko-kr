@@ -10,15 +10,15 @@ helpviewer_keywords:
 - Office primary interop assemblies, installing
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2a37c93cfe1d0bb03a022e69e2be31f354017c2f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3967ef285aff57c84cd5d43fa1812218dbe0d0e6
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914649"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876085"
 ---
 # <a name="how-to-install-office-primary-interop-assemblies"></a>방법: Office 주 interop 어셈블리 설치
   Office를 설치할 때 Microsoft Office PIA(주 interop 어셈블리)를 설치합니다.  
@@ -32,7 +32,7 @@ ms.locfileid: "53914649"
     > [!WARNING]  
     >  PIA는 기본적으로 프로그램에서 VSTO 추가 기능 또는 사용자 지정을 사용 하 여 필수 구성 요소로 사용자에 게 Pia를 배포할 필요가 빌드할 때 솔루션에 포함 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 주 interop 어셈블리](../vsto/office-primary-interop-assemblies.md)   
  [방법: 주 interop 어셈블리를 통해 대상 Office 응용 프로그램](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)   
  [방법: Office 솔루션을 개발 하도록 컴퓨터를 구성 합니다.](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)   

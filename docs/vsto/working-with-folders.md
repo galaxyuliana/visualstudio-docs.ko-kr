@@ -11,17 +11,17 @@ helpviewer_keywords:
 - folders [Office development in Visual Studio]
 - e-mail [Office development in Visual Studio], folders
 - Outlook [Office development in Visual Studio], folders
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 843019c1e7c845f0cdf2dcae7e571bf9ed991b79
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e57775a90523b02986cdc9b2a13ec42fdf950cc0
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952617"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872640"
 ---
 # <a name="work-with-folders"></a>폴더 작업
   <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> 클래스에는 폴더를 액세스, 작성 및 사용자 지정할 때 사용하는 메서드 및 속성이 포함되어 있습니다.  
@@ -36,7 +36,7 @@ ms.locfileid: "53952617"
   
  Outlook 작업 및 Outlook 개체 모델에 대 한 자세한 내용은 참조 하세요. [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연락처 항목 작업](../vsto/working-with-contact-items.md)   
  [메일 항목 작업](../vsto/working-with-mail-items.md)   
  [달력 항목 작업](../vsto/working-with-calendar-items.md)   

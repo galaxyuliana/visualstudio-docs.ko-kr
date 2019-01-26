@@ -18,17 +18,17 @@ helpviewer_keywords:
 - hiding custom task panes
 - task panes [Office development in Visual Studio], creating
 - task panes [Office development in Visual Studio], synchronizing with Ribbon button
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: eeb0d06b765aee7800ed81b1216efa42b4bd93b5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 985573e6110ddb3ab055f919a14b95faa8cc303a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53943566"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875279"
 ---
 # <a name="walkthrough-synchronize-a-custom-task-pane-with-a-ribbon-button"></a>연습: 사용자 지정 작업창과 리본 단추 동기화
   이 연습에는 사용자 숨기 거 나 리본의 토글 단추를 클릭 하 여 표시할 수 있는 사용자 지정 작업창을 만드는 방법을 보여 줍니다. Microsoft Office 애플리케이션에서는 사용자가 사용자 지정 작업창을 표시하거나 숨기는 기본 방법을 제공하지 않으므로 사용자가 클릭하여 사용자 지정 작업창을 표시하거나 숨길 수 있도록 단추와 같은 UI(사용자 인터페이스) 요소를 항상 만들어야 합니다.  
@@ -171,7 +171,7 @@ ms.locfileid: "53943566"
   
 -   Outlook에서 열린 모든 메일 메시지에 대해 사용자 지정 작업창을 만듭니다. 자세한 내용은 [연습: Outlook에서 전자 메일 메시지를 사용 하 여 사용자 지정 작업창 표시](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [사용자 지정 작업창](../vsto/custom-task-panes.md)   
  [방법: 응용 프로그램에 사용자 지정 작업창 추가](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)   
  [연습: 사용자 지정 작업창에서 응용 프로그램을 자동화](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)   

@@ -11,17 +11,17 @@ helpviewer_keywords:
 - XML [Office development in Visual Studio], XML schemas
 - XML schemas [Office development in Visual Studio], about XML schemas and data
 - Office development in Visual Studio, XML
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dd9f91b8b0fbf786bc06687df14dfe29d579610a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d2959707048cb3223b6866c3c8aa4c04cc146077
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53966760"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875453"
 ---
 # <a name="xml-schemas-and-data-in-document-level-customizations"></a>문서 수준 사용자 지정의 XML 스키마 및 데이터
   **중요 한** Microsoft Word에 대 한이 항목의 설정 정보가 혜택 및 개인 및 United States 및 해당 지역 외부에 위치한는 또는 사용 하는 조직의 사용에 단독으로 표시 되었거나 개발 실행 되는 프로그램, Microsoft Word 2010 년 1 월, Microsoft 구현의 특정 기능을 제거 하는 경우 하기 전에 Microsoft에서 사용이 허가 된 제품에서에서 관련 된 사용자 지정 XML Microsoft Word입니다. Microsoft Word에 대 한이 정보를 읽거나 개인 이나 조직에서는 미국에 있는 Microsoft Word 2010 년 1 월 10 일 후 Microsoft에서 사용이 허가 된 제품에서 실행 되는 프로그램을 개발 하거나를 사용 하는 해당 지역에서 사용 될 수 있습니다. ; 이러한 제품 구매 및 미국 이외의 용도로 사용이 허가 된 날짜 이전에 사용이 허가 된 제품으로 동일한 작동 하지 않습니다.
@@ -49,7 +49,7 @@ ms.locfileid: "53966760"
 
 -   컨트롤입니다. 통합 문서에서 매핑된 모든 개체에 대 한는 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 제어 (반복 되지 않는 스키마 요소) 또는 <xref:Microsoft.Office.Tools.Excel.ListObject> 제어 (반복 되는 스키마 요소) 프로그래밍 모델에 만들어집니다. <xref:Microsoft.Office.Tools.Excel.ListObject> 만 통합 문서에서 매핑 및 매핑된 개체를 삭제 하 여 컨트롤을 삭제할 수 있습니다. 컨트롤에 대 한 자세한 내용은 참조 하세요. [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)합니다.
 
--   BindingSource입니다. 만들 때를 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 워크시트에 반복 되지 않는 스키마 요소를 매핑하여를 <xref:System.Windows.Forms.BindingSource> 만들어집니다 및 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 컨트롤이 바인딩되는 <xref:System.Windows.Forms.BindingSource>합니다. 바인딩해야 합니다 <xref:System.Windows.Forms.BindingSource> 형식화 된 인스턴스와 같은 문서에 매핑된 스키마와 일치 하는 데이터 원본 인스턴스에 <xref:System.Data.DataSet> 생성 된 클래스입니다. 설정 하 여 바인딩을 만들 합니다 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 및 <xref:System.Windows.Forms.BindingSource.DataMember%2A> 속성에서 노출 되는 합니다 **속성** 창입니다.
+-   BindingSource. 만들 때를 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 워크시트에 반복 되지 않는 스키마 요소를 매핑하여를 <xref:System.Windows.Forms.BindingSource> 만들어집니다 및 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 컨트롤이 바인딩되는 <xref:System.Windows.Forms.BindingSource>합니다. 바인딩해야 합니다 <xref:System.Windows.Forms.BindingSource> 형식화 된 인스턴스와 같은 문서에 매핑된 스키마와 일치 하는 데이터 원본 인스턴스에 <xref:System.Data.DataSet> 생성 된 클래스입니다. 설정 하 여 바인딩을 만들 합니다 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 및 <xref:System.Windows.Forms.BindingSource.DataMember%2A> 속성에서 노출 되는 합니다 **속성** 창입니다.
 
     > [!NOTE]
     >  합니다 <xref:System.Windows.Forms.BindingSource> 자동으로 만들어지지는지 않습니다 <xref:Microsoft.Office.Tools.Excel.ListObject> 개체입니다. 에 수동으로 바인딩해야 합니다 <xref:Microsoft.Office.Tools.Excel.ListObject> 설정 하 여 데이터 원본에는 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 및 <xref:System.Windows.Forms.BindingSource.DataMember%2A> 속성에는 **속성** 창.
@@ -79,7 +79,7 @@ ms.locfileid: "53966760"
  [!code-vb[Trin_VstcoreDataWord#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataWordVB/ThisDocument.vb#1)]
  [!code-csharp[Trin_VstcoreDataWord#1](../vsto/codesnippet/CSharp/Trin_VstcoreDataWordCS/ThisDocument.cs#1)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [방법: Visual Studio 내부의 Word 문서에 스키마 매핑](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)
 - [방법: Visual Studio 내에서 워크시트에 스키마 매핑](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)

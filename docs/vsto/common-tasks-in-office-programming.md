@@ -11,15 +11,15 @@ helpviewer_keywords:
 - Office development in Visual Studio, frequently asked questions
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 234f5c70c05e058cac084780ab2777d9f302834a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 655cfbf885e9bd629d4417d007d4137db4521b6f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53911203"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874005"
 ---
 # <a name="common-tasks-in-office-programming"></a>Office 프로그래밍의 일반적인 작업
   이 항목은 Visual Studio를 사용하여 Office 솔루션을 프로그래밍하는 방법에 대한 다음 범주의 일반적인 질문에 대해 답변을 찾을 수 있도록 설계되었습니다.  
@@ -230,7 +230,7 @@ ms.locfileid: "53911203"
   
 -   [방법: Office 솔루션의 설치 경로 변경](https://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [시작 &#40;Visual Studio에서 Office 개발&#41;](../vsto/getting-started-office-development-in-visual-studio.md)   
  [Office 응용 프로그램 및 프로젝트 형식으로 사용할 수 있는 기능](../vsto/features-available-by-office-application-and-project-type.md)   
  [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)  

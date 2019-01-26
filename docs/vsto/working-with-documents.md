@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Office documents [Office development in Visual Studio, common tasks
 - documents [Office development in Visual Studio], common tasks
 - Word [Office development in Visual Studio], document common tasks
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 14ad92911d8a9d6c76b5dd2cff688c4b2a52e1d3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6b6f686f11989a6c57921fa0b169cbdbf3746fe4
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53854895"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874837"
 ---
 # <a name="work-with-documents"></a>문서 작업
   이 섹션의 항목에서는 Microsoft Office Word의 개체 모델을 사용하여 Office 프로젝트에서 문서 작업을 수행하는 단계별 절차 및 코드 예제를 제공합니다.  
@@ -42,6 +42,6 @@ ms.locfileid: "53854895"
 |문서에 머리글 또는 바닥글을 추가합니다.|[방법: 프로그래밍 방식으로 문서에 머리글 및 바닥글 추가](../vsto/how-to-programmatically-add-headers-and-footers-to-documents.md)|  
 |문서에서 모든 메모를 제거합니다.|[방법: 프로그래밍 방식으로 문서에서 모든 메모 제거](../vsto/how-to-programmatically-remove-all-comments-from-documents.md)|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Word 개체 모델 개요](../vsto/word-object-model-overview.md)   
  [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)  

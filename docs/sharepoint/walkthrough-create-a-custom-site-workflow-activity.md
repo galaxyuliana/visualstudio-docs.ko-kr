@@ -11,17 +11,17 @@ helpviewer_keywords:
 - site workflows [SharePoint development in Visual Studio]
 - workflow activities [SharePoint development in Visual Studio]
 - SharePoint development in Visual Studio, site workflows
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e828926b5ddfc70f64f729849aaec99dbdade103
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4cf57ccb62d5a87a3dfb516cc1d7b03f45d609ad
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53951815"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875188"
 ---
 # <a name="walkthrough-create-a-custom-site-workflow-activity"></a>연습: 사용자 지정 사이트 워크플로 작업 만들기
   이 연습에 사용 하 여 사이트 수준 워크플로에 사용자 지정 활동을 만드는 방법을 보여 줍니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. (사이트 수준 워크플로 사이트에서 목록 뿐 아니라 전체 사이트에 적용 합니다.) 사용자 지정 활동 알림 목록을 백업을 만들고 알림 목록의 내용을 그 안에 복사 합니다.  
@@ -122,6 +122,6 @@ ms.locfileid: "53951815"
   
 5.  빠른 실행 모음에서 선택 합니다 **공지 백업** 링크 합니다. 모든에 포함 된 알림이 **공지** 새 목록에 복사 된 목록.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [방법: 이벤트 수신기 만들기](../sharepoint/how-to-create-an-event-receiver.md)   
  [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)  

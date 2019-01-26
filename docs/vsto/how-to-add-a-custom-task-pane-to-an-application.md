@@ -10,15 +10,15 @@ helpviewer_keywords:
 - custom task panes [Office development in Visual Studio], adding to application
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0241cfa4b377d35a639b7aa193a38b44135078e5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 24053fcc8918b80e05031739c36059e82ea024a7
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53822786"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874395"
 ---
 # <a name="how-to-add-a-custom-task-pane-to-an-application"></a>방법: 응용 프로그램에 사용자 지정 작업창 추가
   VSTO 추가 기능을 사용하여 위에 나열된 응용 프로그램에 사용자 지정 작업창을 추가할 수 있습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.  
@@ -49,7 +49,7 @@ ms.locfileid: "53822786"
      [!code-vb[Trin_TaskPaneBasic#1](../vsto/codesnippet/VisualBasic/Trin_TaskPaneBasic/ThisAddIn.vb#1)]
      [!code-csharp[Trin_TaskPaneBasic#1](../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs#1)]  
   
-7.  다음 코드를 `ThisAddIn_Startup` 이벤트 처리기에 추가합니다. 이 코드는 `CustomTaskPanes` 컬렉션에 `MyUserControl` 개체를 추가하여 새 <xref:Microsoft.Office.Tools.CustomTaskPane>을 만듭니다. 코드에서 작업창도 표시합니다.  
+7.  다음 코드를 `ThisAddIn_Startup` 이벤트 처리기에 추가합니다. 이 코드는 <xref:Microsoft.Office.Tools.CustomTaskPane> 컬렉션에 `MyUserControl` 개체를 추가하여 새 `CustomTaskPanes` 을 만듭니다. 코드에서 작업창도 표시합니다.  
   
      [!code-vb[Trin_TaskPaneBasic#2](../vsto/codesnippet/VisualBasic/Trin_TaskPaneBasic/ThisAddIn.vb#2)]
      [!code-csharp[Trin_TaskPaneBasic#2](../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs#2)]  

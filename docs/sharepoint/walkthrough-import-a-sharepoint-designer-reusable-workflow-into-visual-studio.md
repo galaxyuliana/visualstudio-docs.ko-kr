@@ -10,17 +10,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, importing reusable workflows
 - reusable workflows [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c92a1023f5099c6a6d92df825aebebf35dd678dd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 83da0474a156ae714de1e713a1122ceac9fdce23
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53821361"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875409"
 ---
 # <a name="walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio"></a>연습: Visual Studio에 SharePoint Designer의 재사용 가능한 워크플로 가져오기
   이 연습에서는 SharePoint Designer 2010에서 만든 재사용 가능한 워크플로 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 워크플로 프로젝트입니다.  
@@ -52,7 +52,7 @@ ms.locfileid: "53821361"
   
 -   Visual Studio.  
   
--   Microsoft [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] SharePoint Designer 2010입니다.  
+-   Microsoft [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] SharePoint Designer 2010.  
   
 ## <a name="create-target-sharepoint-subsites"></a>대상 SharePoint 하위 사이트 만들기
  먼저 두 개의 새 SharePoint 하위 사이트를 만듭니다: 변환 된 워크플로 호스트 하는 다른 SharePoint Designer에서 재사용 가능한 워크플로 호스트를 하나입니다.  

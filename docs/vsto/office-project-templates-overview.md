@@ -25,17 +25,17 @@ helpviewer_keywords:
 - Visio [Office development in Visual Studio], project templates
 - Word projects in Visual Studio
 - Outlook [Office development in Visual Studio], project templates
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 399a4aa1e735426ee5fe63bca60d89fed1fd94a7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fc1cce8e951e074d45317a9908e7a8b7cbb04f43
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53940603"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874694"
 ---
 # <a name="office-project-templates-overview"></a>Office 프로젝트 템플릿 개요
   Visual Studio의 Microsoft Office 개발자 도구에는 다음 형식의 Office 솔루션을 만들기 위한 프로젝트 템플릿이 포함되어 있습니다.  

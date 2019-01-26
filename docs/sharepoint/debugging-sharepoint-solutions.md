@@ -10,17 +10,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, debugging
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 04c80b0986d9a5bfa85a69994f96b56db337634f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9c602654b5d9a8aac16f671db4e68063ad15a2d5
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53892889"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874460"
 ---
 # <a name="debug-sharepoint-solutions"></a>SharePoint 솔루션 디버깅
   사용 하 여 SharePoint 솔루션을 디버깅할 수는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 디버거. 디버깅을 시작할 때 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 서버에 프로젝트 파일을 배포 하 고 다음 웹 브라우저에서 SharePoint 사이트의 인스턴스를 엽니다. 다음 섹션에서는 SharePoint 응용 프로그램에 디버그 하는 방법에 설명 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다.  

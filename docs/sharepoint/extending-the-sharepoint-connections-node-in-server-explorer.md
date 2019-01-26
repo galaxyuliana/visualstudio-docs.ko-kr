@@ -9,17 +9,17 @@ helpviewer_keywords:
 - SharePoint Connections [SharePoint development in Visual Studio], extending a node
 - SharePoint development in Visual Studio, extending SharePoint Connections node in Server Explorer
 - SharePoint Connections [SharePoint development in Visual Studio], creating a new node type
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 36e99b5d239b48add1de5c281c35e698607500d5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c10906f21a6379d0f1797fa7986e33a401de32f5
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933929"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876137"
 ---
 # <a name="extend-the-sharepoint-connections-node-in-server-explorer"></a>서버 탐색기에서 SharePoint 연결 노드 확장
   Visual Studio에서 있습니다 수 개발 컴퓨터의 로컬 SharePoint 사이트를 사용 하 여 연결 합니다 **SharePoint 연결** 에서 노드를 **서버 탐색기** 창입니다. 이 노드는 계층적 트리 보기에서 다양 한 로컬 SharePoint 사이트의 구성 요소를 표시합니다. 예를 들어, 로컬 사이트에서 목록, 문서 라이브러리 및 콘텐츠 형식을 볼 수 있습니다. 사용에 대 한 자세한 내용은 **서버 탐색기** 로컬 SharePoint 사이트에 연결 하려면 참조 [서버 탐색기를 사용 하 여 찾아보기 SharePoint 연결](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)합니다.  
@@ -66,7 +66,7 @@ ms.locfileid: "53933929"
   
  사용에 대 한 자세한 내용은 합니다 <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> 속성을 참조 하세요 [SharePoint 사용 하 여 사용자 지정 데이터 연결 도구 확장](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [연습: 웹 파트를 표시 하려면 서버 탐색기 확장](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)   
  [방법: 서버 탐색기에서 SharePoint 노드 확장](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md)   
  [방법: 서버 탐색기에 사용자 지정 SharePoint 노드 추가](../sharepoint/how-to-add-a-custom-sharepoint-node-to-server-explorer.md)   

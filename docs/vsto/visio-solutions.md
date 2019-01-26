@@ -12,17 +12,17 @@ helpviewer_keywords:
 - templates [Office development in Visual Studio], Visio
 - projects [Office development in Visual Studio], Visio
 - Office solutions [Office development in Visual Studio], Visio
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ce1de2fae3fe9b5543a779bb3cad95ef8e8b38e1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41a583b54caa706d0e103bb8652b80a25b6837b7
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53885011"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873018"
 ---
 # <a name="visio-solutions"></a>Visio 솔루션
   Visual Studio에서는 Microsoft Office Visio용 VSTO 추가 기능을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. VSTO 추가 기능을 사용하여 Visio를 자동화하거나, Visio 기능을 확장하거나, Visio UI(사용자 인터페이스)를 사용자 지정할 수 있습니다.  

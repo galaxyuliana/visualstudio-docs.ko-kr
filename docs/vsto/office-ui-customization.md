@@ -11,17 +11,17 @@ helpviewer_keywords:
 - WPF [Office development in Visual Studio]
 - toolbars [Office development in Visual Studio], customizing
 - Office applications [Office development in Visual Studio], UI customization
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f776fc7972272804adaf6fe4af8f7e3f3c0edc53
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f6b25c0f0ade13f5b4ebbb8d80ea4f39dbbb912e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53924829"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875695"
 ---
 # <a name="office-ui-customization"></a>Office UI 사용자 지정
   Visual Studio에서 Office 개발자 도구를 사용하여 Microsoft Office 응용 프로그램의 UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. 이 항목에서는 다음 섹션에서 사용자 지정할 수 있는 UI 기능에 대해 설명합니다.  
@@ -50,7 +50,7 @@ ms.locfileid: "53924829"
 |사용자 지정 리본 UI|문서 수준 사용자 지정<br /><br /> VSTO 추가 기능|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> 프로젝트<br /><br /> 단어<br /><br /> Visio|  
 |Backstage 보기|문서 수준 사용자 지정<br /><br /> VSTO 추가 기능|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)].<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> 프로젝트<br /><br /> 단어<br /><br /> Visio|  
 |Outlook 양식 영역|VSTO 추가 기능|Outlook|  
-|문서의 컨트롤|문서 수준 사용자 지정<br /><br /> VSTO 추가 기능|Excel<br /><br /> Word|  
+|문서의 컨트롤|문서 수준 사용자 지정<br /><br /> VSTO 추가 기능|Excel<br /><br /> 단어|  
 |바로 가기 메뉴|문서 수준 사용자 지정<br /><br /> VSTO 추가 기능|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> 프로젝트<br /><br /> 단어<br /><br /> Visio<br /><br /> Excel|  
   
 ##  <a name="Actions"></a> 작업창 및 사용자 지정 작업창  

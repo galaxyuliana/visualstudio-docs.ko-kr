@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - documents [Office development in Visual Studio], hiding text
 - text [Office development in Visual Studio], hiding in documents
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5e820cd3b4ed9ea97d9fa7268253663e2ef328c9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ca17436e022763f606ed950cc7240d78e0ad1b68
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53928437"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874915"
 ---
 # <a name="how-to-programmatically-hide-text-in-documents"></a>방법: 프로그래밍 방식으로 문서에서 텍스트 숨기기
   텍스트의 특정 범위에 대해 <xref:Microsoft.Office.Interop.Word._Font.Hidden%2A> 의 <xref:Microsoft.Office.Interop.Word.Range.Font%2A> 속성을 설정하여 문서에서 텍스트를 숨길 수 있습니다.  
@@ -54,7 +54,7 @@ ms.locfileid: "53928437"
 ## <a name="compile-the-code"></a>코드 컴파일  
  이 코드 예제에서는 문서에 포함 되어 있다고 가정 된 <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤 (문서 수준 사용자 지정) 또는 <xref:Microsoft.Office.Interop.Word.Bookmark> 이라고 하는 컨트롤 (VSTO 추가 기능에서) `bookmark1`합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: 프로그래밍 방식으로 문서 인쇄](../vsto/how-to-programmatically-print-documents.md)   
  [방법: 프로그래밍 방식으로 정의 하 고 문서에서 범위를 선택 합니다.](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)   
  [방법: 프로그래밍 방식으로 Word 문서의 범위 다시 설정](../vsto/how-to-programmatically-reset-ranges-in-word-documents.md)   

@@ -12,15 +12,15 @@ helpviewer_keywords:
 - worksheets, hiding controls when printing
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d245e6d1d4af1d0135abe88c89f54490a0f5296e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ac1145f27cf9fcf5746a18a88f1cc7bc901e38fa
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873433"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875799"
 ---
 # <a name="how-to-hide-controls-on-worksheets-when-printing"></a>방법: 인쇄할 때 워크시트에서 컨트롤 숨기기
   Windows Forms 컨트롤을 포함 하는 Microsoft Office Excel 문서를 인쇄할 때 컨트롤 인쇄 된 워크시트에 표시 됩니다. 워크시트를 인쇄할 때 컨트롤을 숨길 수 있습니다.  

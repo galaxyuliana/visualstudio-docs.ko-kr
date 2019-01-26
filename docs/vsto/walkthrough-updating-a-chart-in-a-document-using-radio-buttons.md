@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - documents [Office development in Visual Studio], updating using controls
 - controls [Office development in Visual Studio], updating documents
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a16a9bffef76d904349f36e7cd2705ef89b13832
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 512edf8c6f694c0c8dc22c3b614f4f9b47145db8
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53943238"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871418"
 ---
 # <a name="walkthrough-update-a-chart-in-a-document-using-radio-buttons"></a>연습: 라디오 단추를 사용 하 여 문서에서 차트를 업데이트 합니다.
   이 연습에서는 Microsoft Office Word의 문서 수준 사용자 지정에서 라디오 단추를 사용하여 문서에서 차트 스타일 선택 옵션을 사용자에게 제공하는 방법을 보여줍니다.  
@@ -212,7 +212,7 @@ ms.locfileid: "53943238"
   
 -   콤보 상자에서 스타일을 선택하여 서식을 변경합니다. 자세한 내용은 [연습: CheckBox 컨트롤을 사용 하 여 변경 문서 서식](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Word를 사용 하 여 연습](../vsto/walkthroughs-using-word.md)   
  [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)   
  [Office 문서의 Windows Forms 컨트롤의 제한 사항](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  

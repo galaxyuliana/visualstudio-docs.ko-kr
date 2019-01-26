@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - Unload method
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4aa3c07ed715a6118bd053d44503607a889f3da7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 68ef36185c193263db386a1e1f80877c0327440c
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53880902"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874343"
 ---
 # <a name="imanagedaddinunload"></a>IManagedAddin::Unload
   관리되는 VSTO 추가 기능이 언로드되기 바로 전에 호출됩니다.  
@@ -34,6 +34,6 @@ HRESULT Unload();
 ## <a name="remarks"></a>설명  
  이 메서드는 현재 버전의 Microsoft Office에서 호출되지 않습니다. @FSHO2@이 메서드는 나중에 사용할 수 있도록 예약되어 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [IManagedAddin 인터페이스](../vsto/imanagedaddin-interface.md)   
  [IManagedAddin::Load](../vsto/imanagedaddin-load.md)  

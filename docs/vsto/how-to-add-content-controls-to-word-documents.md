@@ -23,15 +23,15 @@ helpviewer_keywords:
 - Word [Office development in Visual Studio], restricted permissions
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 10ca0276eb6ddd392fc1ac4e584f5d9caf12fde8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cbb481fffecc6a6b4848fd4cd771cb5b16406d9a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53905282"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871210"
 ---
 # <a name="how-to-add-content-controls-to-word-documents"></a>방법: 콘텐츠 추가 컨트롤을 Word 문서
   문서 수준 Word 프로젝트에서는 있습니다 콘텐츠 컨트롤을 추가할 수 문서 프로젝트에서 디자인 타임 또는 런타임 시. Word VSTO 추가 기능 프로젝트에서는 런타임에 열려 있는 문서에 콘텐츠 컨트롤을 추가할 수 있습니다.  
@@ -182,7 +182,7 @@ ms.locfileid: "53905282"
   
      [!code-csharp[Trin_WordAddInDynamicControls#6](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#6)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)   
  [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)   
  [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)   

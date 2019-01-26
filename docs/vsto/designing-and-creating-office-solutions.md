@@ -12,15 +12,15 @@ helpviewer_keywords:
 - Office project types in Visual Studio
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b1911feec92e802fb8534623c903bb6461832bf2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f03cef62b9fb82e259abac608c6c9c6725019f38
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935991"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875136"
 ---
 # <a name="design-and-create-office-solutions"></a>Office 솔루션을 만들고 디자인
   Visual Studio에서는 몇 가지 유형의 Office 솔루션을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. 설명서의 이 섹션에서는 프로젝트 템플릿에 대해 설명하고 Office 프로젝트를 만드는 지침을 제공합니다. 프로젝트를 만든 후 코드 및 사용자 인터페이스 사용자 지정을 구현 하는 방법에 대 한 정보를 참조 하세요 [개발 Office 솔루션](../vsto/developing-office-solutions.md)합니다.  
@@ -91,7 +91,7 @@ ms.locfileid: "53935991"
 ## <a name="referenced-assemblies"></a>참조된 어셈블리  
  어셈블리는 프로젝트의 참조에 나열된 다른 어셈블리를 참조할 수 있습니다. 그러나 하나의 문서 수준 프로젝트 어셈블리가 다른 문서 수준 프로젝트 어셈블리를 참조할 수 없습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 프로젝트 템플릿 개요](../vsto/office-project-templates-overview.md)   
  [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)   
  [Visual Studio 환경의 office 프로젝트](../vsto/office-projects-in-the-visual-studio-environment.md)   

@@ -11,17 +11,17 @@ helpviewer_keywords:
 - check boxes, Word documents
 - documents [Office development in Visual Studio], check box controls
 - controls [Office development in Visual Studio], adding to documents
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6e33d7b683e55f570961d9f9f8f77ea1491db3f5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a4ab82b47a69509ee151675d483ae5cff859d12d
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913871"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871041"
 ---
 # <a name="walkthrough-change-document-formatting-using-checkbox-controls"></a>연습: CheckBox 컨트롤을 사용 하 여 문서 서식 변경
   이 연습에서는 Microsoft Office Word 용 문서 수준 사용자 지정에서 Windows Forms 컨트롤을 사용 하 여 텍스트 서식을 변경 하는 방법에 설명 합니다.  
@@ -157,7 +157,7 @@ ms.locfileid: "53913871"
 -   라디오 단추를 사용하여 차트 스타일 선택. 자세한 내용은 [연습: 라디오 단추를 사용 하 여 문서에서 차트를 업데이트](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md)합니다.  
   
 
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Word를 사용 하 여 연습](../vsto/walkthroughs-using-word.md)   
  [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)   
  [NamedRange 컨트롤](../vsto/namedrange-control.md)   

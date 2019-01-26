@@ -12,17 +12,17 @@ helpviewer_keywords:
 - custom task panes [Office development in Visual Studio], automating applications
 - custom task panes [Office development in Visual Studio], PowerPoint
 - task panes [Office development in Visual Studio], automating applications
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 511fc73397355c8870f53a410d79ff1ab73321f0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3689b72ef13856ebf3df419377c5bed4ffb88982
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53915090"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874883"
 ---
 # <a name="walkthrough-automate-an-application-from-a-custom-task-pane"></a>연습: 사용자 지정 작업창에서 응용 프로그램을 자동화
   이 연습에서는 PowerPoint를 자동화하는 사용자 지정 작업창을 만드는 방법을 보여 줍니다. 사용자 지정 작업창은 사용자가 사용자 지정 작업창에 있는 <xref:System.Windows.Forms.MonthCalendar> 컨트롤을 클릭할 때 날짜를 슬라이드에 삽입합니다.  
@@ -140,7 +140,7 @@ ms.locfileid: "53915090"
   
 -   Outlook에서 열린 모든 메일 메시지에 대해 사용자 지정 작업창을 만듭니다. 자세한 내용은 [연습: Outlook에서 전자 메일 메시지를 사용 하 여 사용자 지정 작업창 표시](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [사용자 지정 작업창](../vsto/custom-task-panes.md)   
  [방법: 응용 프로그램에 사용자 지정 작업창 추가](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)   
  [연습: 사용자 지정 작업창과 리본 단추 동기화](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)   

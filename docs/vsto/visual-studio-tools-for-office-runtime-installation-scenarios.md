@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - Visual Studio Tools for Office runtime, installation scenarios
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 366863dc9babfd918e3f689420c5e26ec05db6a1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5bf5314abd1cf2266d89feaa8f1772b7a7177949
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53850033"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872471"
 ---
 # <a name="visual-studio-tools-for-office-runtime-installation-scenarios"></a>Visual Studio Tools for Office 런타임 설치 시나리오
   Visual Studio 2010 Tools for Office 런타임 세 가지 방법으로 설치할 수 있습니다.  
@@ -66,6 +66,6 @@ ms.locfileid: "53850033"
   
  ClickOnce 솔루션에 필수 구성 요소를 포함 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: Office 솔루션을 실행 하려면 최종 사용자 컴퓨터에 필수 구성 요소 설치](https://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98)합니다. 재배포 가능 패키지에서 런타임을 수동으로 설치 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: Visual Studio Tools for Office 런타임 재배포 가능 패키지 설치](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Visual Studio Tools for Office 런타임 어셈블리](../vsto/assemblies-in-the-visual-studio-tools-for-office-runtime.md)  

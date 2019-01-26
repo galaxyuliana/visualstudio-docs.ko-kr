@@ -11,17 +11,17 @@ helpviewer_keywords:
 - NamedRange control, events
 - worksheets, events
 - worksheets, automating
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 020d10aec83cd9249378c326f02ba37c3721b126
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0bf7591ad85519f3d68e6f341d325a65f4021fff
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53910820"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875734"
 ---
 # <a name="walkthrough-program-against-events-of-a-namedrange-control"></a>연습: NamedRange 컨트롤의 이벤트에 대 한 프로그램
   이 연습에서는 추가 하는 방법을 보여 줍니다.는 <xref:Microsoft.Office.Tools.Excel.NamedRange> Microsoft Office Excel 워크시트 및 Visual Studio에서 Office 개발 도구를 사용 하 여 해당 이벤트에 대 한 프로그램을 컨트롤 합니다.  

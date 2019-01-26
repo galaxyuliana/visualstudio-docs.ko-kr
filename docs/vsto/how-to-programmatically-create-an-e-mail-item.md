@@ -11,15 +11,15 @@ helpviewer_keywords:
 - mail items [Office development in Visual Studio], creating
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c763e597b192ffe0ae7efdce04c3aba05ab2fa5a
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: b926a7ce44d4a07bc875a275f82cf2ae24de0a3f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54087791"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876059"
 ---
 # <a name="how-to-programmatically-create-an-email-item"></a>방법: 프로그래밍 방식으로 전자 메일 항목 만들기
   이 예제에서는 Microsoft Office Outlook에서 전자 메일 메시지를 만듭니다.  
@@ -29,6 +29,6 @@ ms.locfileid: "54087791"
 ## <a name="example"></a>예제  
  [!code-csharp[Trin_OL_CreateMailItem#1](../vsto/codesnippet/CSharp/Trin_OL_CreateMailItem/thisaddin.cs#1)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [메일 항목 작업](../vsto/working-with-mail-items.md)   
  [VSTO 추가 기능 프로그래밍 시작](../vsto/getting-started-programming-vsto-add-ins.md)  

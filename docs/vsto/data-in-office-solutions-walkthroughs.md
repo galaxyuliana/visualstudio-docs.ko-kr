@@ -10,15 +10,15 @@ helpviewer_keywords:
 - walkthroughs [Office development in Visual Studio], data
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aff3712e9c2c3fdf68e575abf6c3a3bdafafcf53
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 355ecb583bf57fcdb387e716b07cc32b9e6ebe07
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829036"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875383"
 ---
 # <a name="data-in-office-solutions-walkthroughs"></a>에서 데이터 Office 솔루션 연습
   다음 연습에서는 Microsoft Office Word 및 Microsoft Office Excel용 문서 수준 사용자 지정 및 VSTO 추가 기능 데이터로 작업하는 방법을 보여 줍니다.  
