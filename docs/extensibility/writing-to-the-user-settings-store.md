@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2d5fe8e9689448644315306e74deaa394f15c1a8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e6cfb082e149ef8794d52c011c73e89da17face3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53830234"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926737"
 ---
 # <a name="writing-to-the-user-settings-store"></a>사용자 설정 저장소에 쓰기
 사용자 설정은의 것과 같은 쓰기 설정 된 **도구 / 옵션** 대화 상자, 속성 창 및 기타 특정 대화 상자. Visual Studio 확장 적은 양의 데이터를 저장 하려면이 사용할 수 있습니다. 이 연습에서 읽고 써서 사용자 설정 저장소를 Visual studio 외부 도구로 메모장을 추가 하는 방법을 보여 줍니다.  
@@ -24,7 +24,7 @@ ms.locfileid: "53830234"
   
 2.  Regedit.exe를 엽니다.  
   
-3.  HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External 도구 이동할\\합니다.  
+3.  Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\\.  
   
     > [!NOTE]
     >  \14.0Exp\ 및 없습니다 \14.0 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 사용자 설정과 레지스트리 하이브에 "14.0Exp" 됩니다.  

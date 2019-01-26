@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: fc0e5370-1b4f-4867-837f-0d63c4b9dd09
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ac55d884655788dc84615ee8fa6e764ca58c45d7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 69aa56b2db1b8b4de27209d4bb57195ee8872579
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53901206"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54923625"
 ---
 # <a name="metadataaddressmethod"></a>METADATA_ADDRESS_METHOD
 이 구조체는 클래스의 메서드 주소를 나타냅니다.  

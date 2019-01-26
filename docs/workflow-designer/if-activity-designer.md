@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: 930a8fa2-db98-43e9-ad6d-a85cc7a6519a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: de237acd09f4c4139bdf79f986dbb43c1a1f8343
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f069da9bb84074544cc388ab2bf7fa1eab3c7595
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988419"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54917161"
 ---
 # <a name="if-activity-designer"></a>If 활동 디자이너
 
@@ -32,7 +32,7 @@ ms.locfileid: "53988419"
 |<xref:System.Activities.Statements.If.Else%2A>|False|경우에 실행할 활동입니다 합니다 <xref:System.Activities.Statements.If.Condition%2A> 됩니다 **false**합니다. 실행 되는 활동을 추가 하는 <xref:System.Activities.Statements.If.Else%2A> 분기에서의 활동를 **도구 상자** 에 **Else** 상자에 **경우** 힌트 텍스트가 있는 활동 디자이너 " 여기에 작업 놓기 "입니다.|
 |<xref:System.Activities.Statements.If.Then%2A>|False|경우에 실행할 활동입니다 합니다 <xref:System.Activities.Statements.If.Condition%2A> 됩니다 **true**합니다. 실행 되는 활동을 추가 하는 <xref:System.Activities.Statements.If.Then%2A> 분기에서의 활동를 **도구 상자** 에 **다음** 상자에 **경우** 힌트 텍스트가 있는 활동 디자이너 " 여기에 작업 놓기 "입니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Sequence](../workflow-designer/sequence-activity-designer.md)
 - [Parallel](../workflow-designer/parallel-activity-designer.md)

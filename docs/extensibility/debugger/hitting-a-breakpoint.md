@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: a77816e3-b15b-46a0-90cd-be7242e4d6c9
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 728258dc363f906e005c654909cb86fd782824a9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0df2de67466205c9dfe3cd27b338762b80c888ee
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935634"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959072"
 ---
 # <a name="hit-a-breakpoint"></a>중단점 도달
 다음 섹션에서는 디버그 엔진 (DE)를 실행 하거나 단계별로 실행 하는 동안 중단점에 도달 하면 프로세스를 설명 합니다.  
@@ -27,5 +27,5 @@ ms.locfileid: "53935634"
   
 2.  세션 디버그 관리자 (SDM) 호출 [IDebugBreakpointEvent2:::EnumBreakpoints](../../extensibility/debugger/reference/idebugbreakpointevent2-enumbreakpoints.md) 적중 된 중단점을 가져오려고 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)

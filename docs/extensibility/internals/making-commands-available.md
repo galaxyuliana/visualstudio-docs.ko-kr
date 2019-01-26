@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ac673709ea648a3c0fb6602797af90f86f33f0e0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3e01a0030d4c8948652cdfc8706bb620190fd45b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53949721"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54923018"
 ---
 # <a name="making-commands-available"></a>명령을 사용 가능하게 지정
 Visual Studio에 여러 Vspackage를 추가 하는 경우 사용자 인터페이스 (UI) 명령을 사용 하 여 들어오지 될 수 있습니다. 다음과 같이이 문제를 줄이기 위해 패키지를 프로그래밍할 수 있습니다.
@@ -57,7 +57,7 @@ Visual Studio에 여러 Vspackage를 추가 하는 경우 사용자 인터페이
 |-------------------------| - |
 | 현재 프로젝트 형식 | 대부분의 프로젝트 형식에 대 한이 `GUID` 값은 프로젝트를 구현 하는 VSPackage의 GUID와 동일 합니다. 그러나 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 프로젝트에 프로젝트 형식을 사용 하 여 `GUID` 값으로. |
 | 활성 창 | 일반적으로 이것이 키 바인딩에 대 한 현재 UI 컨텍스트를 설정 하는 마지막 활성 문서 창입니다. 그러나 내부 웹 브라우저를 유사한 키 바인딩을 두 테이블에 있는 도구 창 수도 있습니다. HTML 편집기와 같은 다중 탭 문서 창에 대 한 모든 탭에는 다른 명령을 컨텍스트가 `GUID`합니다. |
-| 현재 언어 서비스 | 텍스트 편집기에 현재 표시 되는 파일과 연관 된 언어 서비스입니다. |
+| Active Language Service | 텍스트 편집기에 현재 표시 되는 파일과 연관 된 언어 서비스입니다. |
 | 활성 도구 창 | 가 열려 있고 포커스가 있는 도구 창입니다. |
 
  다섯 번째 주요 상황에 맞는 영역을 IDE의 UI 상태를입니다. 활성 명령 컨텍스트에서 UI 컨텍스트 식별 됩니다 `GUID`같이 s:
@@ -142,7 +142,7 @@ Visual Studio에 여러 Vspackage를 추가 하는 경우 사용자 인터페이
 </VisibilityConstraints>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [MenuCommand 및 OleMenuCommand](../../extensibility/menucommands-vs-olemenucommands.md)
 - [VSPackage에서 사용자 인터페이스 요소를 추가하는 방법](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

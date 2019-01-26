@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 65217e8b-15a6-4446-92b0-4cff1c6220f5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f39e4cea70f407ab4fd9358d35488103aecb2b58
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 01ccbc50f9b88d2263f4fca913b78921ce88a4a4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53903658"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54922157"
 ---
 # <a name="optional-comparison-of-local-project-folder-to-source-control-store"></a>로컬 프로젝트 폴더와 소스 제어 저장소의 선택적 비교
 원본 제어 플러그 인 API 1.2 로컬 프로젝트 폴더 및 소스 제어 간의 비교 함수를 사용 하 여 이루어집니다 [SccDirQueryInfo](../../extensibility/sccdirqueryinfo-function.md) 하 고 [SccDirDiff](../../extensibility/sccdirdiff-function.md)합니다.  
