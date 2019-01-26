@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ea506479226ed8585296208064bd3533cf0a5783
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9a7abb030ab98976a6e55a5d297cf510f01842e8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922845"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929129"
 ---
 # <a name="create-a-software-development-kit"></a>소프트웨어 개발 키트 만들기
 소프트웨어 개발 키트 (SDK)은 Visual Studio에서 단일 항목으로 참조할 수 있는 Api 컬렉션입니다. 합니다 **참조 관리자** 대화 상자는 프로젝트에 관련 된 모든 Sdk를 나열 합니다. 프로젝트에 SDK를 추가 하면 Api는 Visual Studio에서 사용할 수 있습니다.  
@@ -57,7 +57,7 @@ ms.locfileid: "53922845"
 | *DesignTime* 폴더 | 사전-run/디버깅 타임에만 필요한 파일이 포함 됩니다. XML 문서, 라이브러리, 헤더, 도구 상자 디자인 타임 이진 파일, MSBuild 아티팩트 등을 포함 될 수 있습니다 이러한<br /><br /> XML 문서에 이상적으로 배치 하 고는 *\DesignTime* 폴더 하지만 참조에 대 한 XML 문서는 계속 하 여 Visual Studio에서 참조 파일과 함께 배치 합니다. 예를 들어, XML 문서 참조<em>\References\\[구성]\\[arch]\sample.dll</em> 됩니다 *\References\\[구성]\\[arch]\sample.xml*, 해당 문서의 지역화 된 버전 됩니다 *\References\\[구성]\\[arch]\\[locale]\sample.xml*합니다. |
 | *구성* 폴더 | 만 세 개의 폴더가 있을 수 있습니다. *디버그*, *소매* 하 고 *CommonConfiguration*합니다. SDK 작성자는 아래에서 해당 파일을 배치할 수 있습니다 *CommonConfiguration* 경우 SDK 파일의 동일한 집합 사용 해야, SDK 소비자의 대상이 되는 구성에 관계 없이 합니다. |
 | *아키텍처* 폴더 | 지원 되는 모든 *아키텍처* 폴더가 있습니다. Visual Studio는 다음 아키텍처를 지원 합니다: x86, x64, ARM 및 neutral입니다. 참고: Win32, x86에 매핑되고 AnyCPU 중립에 매핑됩니다.<br /><br /> MSBuild 에서만 찾습니다 *\CommonConfiguration\neutral* 플랫폼 Sdk에 대 한 합니다. |
-| *SDKManifest.xml* | 이 파일은 Visual Studio SDK를 사용 해야 하는 방법을 설명 합니다. SDK 매니페스트에서 살펴봅니다 [!INCLUDE[win81](../debugger/includes/win81_md.md)]:<br /><br /> `<FileList             DisplayName = "Windows"             PlatformIdentity = "Windows, version=8.1"             TargetFramework = ".NET for Windows Store apps, version=v4.5.1; .NET Framework, version=v4.5.1"             MinVSVersion = "14.0">              <File Reference = "Windows.winmd">                <ToolboxItems VSCategory = "Toolbox.Default" />             </File> </FileList>`<br /><br /> **표시 이름:** 개체 브라우저 찾아보기 목록에 표시 하는 값입니다.<br /><br /> **PlatformIdentity:** 이 특성의 존재 여부 지시 로컬 Visual Studio 및 MSBuild SDK 플랫폼 SDK는 및에서 추가 된 참조를 복사 하면 안 됩니다.<br /><br /> **TargetFramework:** 이 값에 지정 된 대로 동일한 프레임 워크를 대상으로 하는 프로젝트는 되도록 Visual Studio에서이 특성은 사용 특성 SDK를 사용할 수 있습니다.<br /><br /> **MinVSVersion:** 이 특성에 적용 되는 Sdk만을 사용 하려면 Visual Studio에서 사용 됩니다.<br /><br /> **참조:** 이 특성 컨트롤을 포함 하는 참조만 지정 해야 합니다. 에 대 한 참조를 컨트롤에 포함 되는지 여부를 지정 하는 방법에 대 한 내용은 아래 참조 합니다. |
+| *SDKManifest.xml* | 이 파일은 Visual Studio SDK를 사용 해야 하는 방법을 설명 합니다. SDK 매니페스트에서 살펴봅니다 [!INCLUDE[win81](../debugger/includes/win81_md.md)]:<br /><br /> `<FileList             DisplayName = "Windows"             PlatformIdentity = "Windows, version=8.1"             TargetFramework = ".NET for Windows Store apps, version=v4.5.1; .NET Framework, version=v4.5.1"             MinVSVersion = "14.0">              <File Reference = "Windows.winmd">                <ToolboxItems VSCategory = "Toolbox.Default" />             </File> </FileList>`<br /><br /> **DisplayName:** 개체 브라우저 찾아보기 목록에 표시 하는 값입니다.<br /><br /> **PlatformIdentity:** 이 특성의 존재 여부 지시 로컬 Visual Studio 및 MSBuild SDK 플랫폼 SDK는 및에서 추가 된 참조를 복사 하면 안 됩니다.<br /><br /> **TargetFramework:** 이 값에 지정 된 대로 동일한 프레임 워크를 대상으로 하는 프로젝트는 되도록 Visual Studio에서이 특성은 사용 특성 SDK를 사용할 수 있습니다.<br /><br /> **MinVSVersion:** 이 특성에 적용 되는 Sdk만을 사용 하려면 Visual Studio에서 사용 됩니다.<br /><br /> **참조:** 이 특성 컨트롤을 포함 하는 참조만 지정 해야 합니다. 에 대 한 참조를 컨트롤에 포함 되는지 여부를 지정 하는 방법에 대 한 내용은 아래 참조 합니다. |
 
 ##  <a name="ExtensionSDKs"></a> 확장 Sdk  
  다음 섹션에서는 확장 SDK를 배포 하기 위해 수행 해야 합니다.  
@@ -65,7 +65,7 @@ ms.locfileid: "53922845"
 ### <a name="installation"></a>설치  
  확장 Sdk는 레지스트리 키를 지정 하지 않고 특정 사용자 또는 모든 사용자에 대해 설치할 수 있습니다. 모든 사용자에 대 한 SDK를 설치 하려면 다음 경로 사용 합니다.  
 
- *% Program Files%\Microsoft Sdk\<대상 플랫폼 > \v<platform version number>\ExtensionSDKs*  
+ *%Program Files%\Microsoft SDKs\<target platform>\v<platform version number>\ExtensionSDKs*  
 
  사용자 고유의 설치의 경우 다음 경로 사용 합니다.  
 
@@ -75,7 +75,7 @@ ms.locfileid: "53922845"
 
 1.  레지스트리 키에서이 지정 합니다.  
 
-     **HKLM\Software\Microsoft\Microsoft Sdk\<대상 플랫폼 > \v<platform version number>\ExtensionSDKs\<SDKName >\<SDKVersion >**\  
+     **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number>\ExtensionSDKs\<SDKName>\<SDKVersion>**\  
 
      값이 있는 (기본값) 하위 키를 추가 하 고 `<path to SDK><SDKName><SDKVersion>`입니다.  
 
@@ -263,7 +263,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>  
     ```  
 
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: C + +를 사용 하 여 SDK 만들기](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
  [연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)   
  [프로젝트에서 참조 관리](../ide/managing-references-in-a-project.md)

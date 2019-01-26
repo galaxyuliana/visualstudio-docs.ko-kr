@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 4cb8d2fc-4e44-4dc3-9b74-7f5838827d41
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 1bc65c6c27a22e39e48cb69dbe32108692d5ffea
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 092ac7599b0cfb715019a6a9894d845dc47747fc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53860822"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959059"
 ---
 # <a name="ca2118-review-suppressunmanagedcodesecurityattribute-usage"></a>CA2118: SuppressUnmanagedCodeSecurityAttribute 사용을 검토하세요.
 
@@ -70,7 +70,7 @@ ms.locfileid: "53860822"
 
  [!code-csharp[FxCop.Security.TypeInvokeAndSuppress#1](../code-quality/codesnippet/CSharp/ca2118-review-suppressunmanagedcodesecurityattribute-usage_3.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName>
 - [보안 코딩 지침](/dotnet/standard/security/secure-coding-guidelines)

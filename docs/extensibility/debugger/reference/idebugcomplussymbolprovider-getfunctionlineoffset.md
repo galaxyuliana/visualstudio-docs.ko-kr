@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 51460f5a-4e98-427a-8315-27246e24fb61
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e3fb64f69c584cc5ae9d96ccc864987b1c1e21b2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c32eeef6bbd2862dcd607a95f874011203cd886e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53854102"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54957431"
 ---
 # <a name="idebugcomplussymbolprovidergetfunctionlineoffset"></a>IDebugComPlusSymbolProvider::GetFunctionLineOffset
 지정 된 줄 오프셋을 나타내는 함수 내에서 주소를 검색 합니다.  
