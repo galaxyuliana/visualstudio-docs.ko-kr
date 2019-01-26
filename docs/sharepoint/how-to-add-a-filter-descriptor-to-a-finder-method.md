@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Business Data Connectivity service [SharePoint development in Visual Studio], add a filter
 - BDC [SharePoint development in Visual Studio], add a filter
 - BDC [SharePoint development in Visual Studio], filter descriptors
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bf1909f6c57ed82ba5afcfd30f6586e9bd4d6d14
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f21cecee163b6d79d22d008314c0dcf54a313032
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53877772"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866141"
 ---
 # <a name="how-to-add-a-filter-descriptor-to-a-finder-method"></a>방법: Finder 메서드에 필터 설명자 추가
   필터 설명자 값을 전달할 메서드가 실행 되기 전에 모델의 소비자를 사용 합니다. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.  
@@ -67,7 +67,7 @@ ms.locfileid: "53877772"
      [!code-csharp[SP_BDC#11](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs#11)]
      [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [방법: Finder 메서드 추가](../sharepoint/how-to-add-a-finder-method.md)   
  [방법: 특정 Finder 메서드 추가](../sharepoint/how-to-add-a-specific-finder-method.md)   
  [방법: 메서드에 매개 변수를 추가 합니다.](../sharepoint/how-to-add-a-parameter-to-a-method.md)   

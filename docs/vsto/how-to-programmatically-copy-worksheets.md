@@ -10,15 +10,15 @@ helpviewer_keywords:
 - Excel [Office development in Visual Studio], copying worksheets
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b4763565e426560178d697723257c1a22bb50ca0
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 64121ffcb69eb4bc3cdaa901ffe3d52014630779
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54087778"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865387"
 ---
 # <a name="how-to-programmatically-copy-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 복사
   워크시트의 복사본을 만들고 통합 문서의 기존 워크시트 앞이나 뒤에 해당 워크시트를 삽입할 수 있습니다. 워크시트를 삽입할 위치를 지정하지 않으면 새 워크시트를 포함할 새 통합 문서가 생성됩니다.  
@@ -42,7 +42,7 @@ ms.locfileid: "54087778"
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#12](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#12)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#12](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#12)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [워크시트 작업](../vsto/working-with-worksheets.md)   
  [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)   
  [방법: 프로그래밍 방식으로 통합 문서에 새 워크시트 추가](../vsto/how-to-programmatically-add-new-worksheets-to-workbooks.md)   

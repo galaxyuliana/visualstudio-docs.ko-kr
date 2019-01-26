@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - BDC [SharePoint development in Visual Studio], designing a model
 - Business Data Connectivity service [SharePoint development in Visual Studio], designing a model
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 97172f0b3a03d015c087a58077696ceff2b4369d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3d44654e223c24d3040997bdbd7b7bb0e193263a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53858385"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865166"
 ---
 # <a name="design-a-business-data-connectivity-model"></a>비즈니스 데이터 연결 모델 디자인
   모델 파일에 엔터티 및 메서드를 추가 하 여 비즈니스 데이터 연결 (BDC) 서비스에 대 한 모델을 개발할 수 있습니다. 엔터티는 데이터 필드의 컬렉션을 설명 합니다. 예를 들어, 엔터티는 데이터베이스의 테이블을 나타낼 수 있습니다. 메서드를 추가, 삭제 또는 엔터티를 나타내는 데이터 업데이트와 같은 작업을 수행 합니다. 자세한 내용은 [SharePoint 비즈니스 데이터 통합](../sharepoint/integrating-business-data-into-sharepoint.md)합니다.  

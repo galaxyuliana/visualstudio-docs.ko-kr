@@ -12,17 +12,17 @@ helpviewer_keywords:
 - master pages[SharePoint development in Visual Studio], designing
 - content pages[SharePoint development in Visual Studio], designing
 - page layouts[SharePoint development in Visual Studio], designing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 71f0a75678c0123853f128f42bfdbf1c75ac0c74
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 51903d1bf98a76a3ea3987af5330e8ce3c0d125e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53859817"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864789"
 ---
 # <a name="create-pages-for-sharepoint"></a>SharePoint에 대 한 페이지 만들기
   응용 프로그램 페이지, 사이트 페이지, 마스터 페이지 및 SharePoint 사이트에 대 한 페이지 레이아웃을 만들 수 있습니다.  

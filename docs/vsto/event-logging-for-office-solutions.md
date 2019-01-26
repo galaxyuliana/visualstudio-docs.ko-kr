@@ -12,15 +12,15 @@ helpviewer_keywords:
 - Office development in Visual Studio, event viewer
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6cca606022a8b35ba43f9174925aac978835d289
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 029a4390036474d651f9e23becbb3660f097ed13
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857055"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867665"
 ---
 # <a name="event-logging-for-office-solutions"></a>Office 솔루션에 대 한 이벤트 로깅
   Windows에서 이벤트 뷰어를 사용하여 Office 솔루션을 설치하거나 제거할 때 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 에서 캡처되는 예외 메시지를 확인할 수 있습니다. 이벤트 로거에서 이러한 메시지를 사용하여 설치 및 배포 문제를 해결할 수 있습니다.  

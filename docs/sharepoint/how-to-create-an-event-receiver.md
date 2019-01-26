@@ -12,17 +12,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, event receivers
 - event receivers [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9a9f18bb4399e52c6afbac9b20a7b16d04a39843
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 395fc5976f31fb2d465c57f036b3e5369aaa0c07
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53861574"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865101"
 ---
 # <a name="how-to-create-an-event-receiver"></a>방법: 이벤트 수신기 만들기
   만들어 *이벤트 수신기*, SharePoint 등 목록 또는 목록 항목을 사용 하 여 상호 작용할 때 응답할 수 있습니다. 예를 들어, 사용자 일정을 변경 하거나 연락처 목록에서 이름을 삭제 하는 경우 이벤트 수신기의 코드를 트리거할 수 있습니다. 이 항목에 따라 목록 인스턴스에 이벤트 수신기를 추가 하는 방법을 알아보십시오.
@@ -69,6 +69,6 @@ ms.locfileid: "53861574"
 
      선택한 후는 **저장** 단추를 **환자 이름** Scott Brown 이름 열을 자동으로 업데이트 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)

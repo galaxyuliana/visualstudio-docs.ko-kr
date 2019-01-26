@@ -13,17 +13,17 @@ helpviewer_keywords:
 - deploying applications [Office development in Visual Studio], Publish Wizard
 - Office applications [Office development in Visual Studio], Publish Wizard
 - Publish Wizard, Office solutions
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1a76a333b8a692a8d7dc0a2c0f093e2eaf586c33
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d0ba0e629ba04ec3df6b3be950f59fb34da46364
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965923"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871938"
 ---
 # <a name="publish-wizard-office-development-in-visual-studio"></a>게시 마법사 (Visual Studio에서 Office 개발)
   사용 된 **게시 마법사** 솔루션 파일에 지정된 된 위치를 복사 하려면 매니페스트 파일을 만들고 설치 프로그램을 만듭니다.  
@@ -65,7 +65,7 @@ ms.locfileid: "53965923"
   
  CD 또는 DVD에는 visual Studio 진행 되지 않습니다. 출력을 CD 또는 DVD에 수동으로 복사 해야 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [ClickOnce를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
  [게시 페이지, 프로젝트 디자이너 &#40;Visual Studio에서 Office 개발&#41;](../vsto/publish-page-project-designer-office-development-in-visual-studio.md)   
  [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)  

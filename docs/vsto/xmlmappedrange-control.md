@@ -9,17 +9,17 @@ helpviewer_keywords:
 - XMLMappedRange control, data binding
 - XMLMappedRange control
 - XMLMappedRange control, events
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f19bf36b145a5f2c1b4e841a96cdd485a0fb6ac1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5b9fa7e9ef2a7c5466315e56ca0ebdded0dc8d69
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53946706"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874712"
 ---
 # <a name="xmlmappedrange-control"></a>XmlMappedRange 컨트롤
   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 컨트롤은 반복 되지 않는 스키마 요소는 Microsoft Office Excel에서 셀에 매핑될 때에 생성 되는 범위입니다. 예를 들어 경우는 `maxOccurs` 스키마 요소의 특성에는 1과 같습니다. Visual Studio에서 XML이 매핑된 범위의 만든 후 Excel 개체 모델을 트래버스 하지 않고 직접 프로그래밍할 수 있습니다. 삭제할 수 있습니다는 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 요소 매핑이 제거 되는 경우 Excel 내에서 제어 합니다.  
@@ -57,7 +57,7 @@ ms.locfileid: "53946706"
   
 -   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.SelectionChange>  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [확장 된 개체를 사용 하 여 Excel 자동화](../vsto/automating-excel-by-using-extended-objects.md)   
  [방법: 워크시트에 XMLMappedRange 컨트롤 추가](../vsto/how-to-add-xmlmappedrange-controls-to-worksheets.md)   
  [Office 솔루션의 컨트롤에 데이터 바인딩](../vsto/binding-data-to-controls-in-office-solutions.md)   

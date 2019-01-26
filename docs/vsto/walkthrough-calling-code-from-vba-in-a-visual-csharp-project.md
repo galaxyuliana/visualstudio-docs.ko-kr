@@ -14,17 +14,17 @@ helpviewer_keywords:
 - Office documents [Office development in Visual Studio, Visual Basic for Applications and
 - calling code from VBA
 - document-level customizations [Office development in Visual Studio], calling code
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dcbd55c2c6b8b803eb9591265d512a73f6201771
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bd968d0c963ae4aa46872bf19e97f357361cf248
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989032"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871314"
 ---
 # <a name="walkthrough-call-code-from-vba-in-a-visual-c-project"></a>연습: 시각적 개체에서 vba의 코드를 호출할 C# 프로젝트
   이 연습에서는 통합 문서의 VBA(Visual Basic for Applications) 코드에서 Microsoft Office Excel에 대한 문서 수준 사용자 지정의 메서드를 호출하는 방법을 보여 줍니다. 이 절차에는 세 가지 기본 단계( `Sheet1` 호스트 항목 클래스에 메서드 추가, 통합 문서의 VBA 코드에 메서드 노출, 통합 문서의 VBA 코드에서 메서드 호출)가 포함됩니다.  
@@ -246,7 +246,7 @@ ms.locfileid: "53989032"
   
 -   VBA에서 VSTO 추가 기능의 코드를 호출합니다. 자세한 내용은 [연습: VBA에서 VSTO 추가 기능에서 코드를 호출할](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [VBA 및 문서 수준 사용자 지정 결합](../vsto/combining-vba-and-document-level-customizations.md)   
  [문서 수준 사용자 지정 프로그래밍](../vsto/programming-document-level-customizations.md)   
  [방법: Visual Basic 프로젝트에서 VBA로 코드 노출](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)   

@@ -4,17 +4,17 @@ ms.date: 02/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
 - SharePoint development in Visual Studio, extending deployment
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d55c260618eb7edcf68e91b521f2ace203ddbf01
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cd28e7a9f0fc04a704d6d3600fb80390d9509de1
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898884"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863047"
 ---
 # <a name="how-to-handle-deployment-conflicts"></a>방법: 배포 충돌 처리
   SharePoint 프로젝트 항목에 대 한 배포 충돌을 처리 하는 사용자 고유의 코드를 제공할 수 있습니다. 예를 들어, 현재 프로젝트 항목의 모든 파일 배포 위치에 이미 존재 하 고 현재 프로젝트 항목을 배포 하기 전에 다음 배포 된 파일을 삭제 하는지 여부를 확인할 수 있습니다. 배포 충돌에 대 한 자세한 내용은 참조 하십시오 [확장 SharePoint 패키징 및 배포](../sharepoint/extending-sharepoint-packaging-and-deployment.md)합니다.  
@@ -55,7 +55,7 @@ ms.locfileid: "53898884"
 ## <a name="deploy-the-extension"></a>확장 배포  
  확장 배포를 만들려면를 [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] 어셈블리 및 확장을 사용 하 여 배포 하려는 다른 파일에 대 한 패키지 (VSIX) 확장 합니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구의 확장을 배포할](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 패키징 및 배포 확장](../sharepoint/extending-sharepoint-packaging-and-deployment.md)   
  [SharePoint 프로젝트 항목 확장](../sharepoint/extending-sharepoint-project-items.md)   
  [방법: 배포 단계를 실행할 때 코드를 실행 합니다.](../sharepoint/how-to-run-code-when-deployment-steps-are-executed.md)   

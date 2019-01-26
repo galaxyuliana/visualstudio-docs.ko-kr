@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint commands [SharePoint development in Visual Studio], executing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d6e529420db8261e87c856e2fc80ef436bbc3e73
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: acf9ec69c308c62d55899351594fca01ac18bf97
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53953120"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865322"
 ---
 # <a name="how-to-execute-a-sharepoint-command"></a>방법: SharePoint 명령 실행
   사용자 지정 SharePoint 도구 확장에서 서버 개체 모델을 사용 하려는 경우 만들어야 *SharePoint 명령을* API를 호출 합니다. 명령을 정의 하 고 SharePoint 도구 확장을 통해 배포한 후 확장 프로그램에 SharePoint 서버 개체 모델을 호출 하는 명령을 실행할 수 있습니다. 명령을 실행 하려면의 ExecuteCommand 메서드 중 하나를 사용는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> 개체입니다.  
@@ -70,7 +70,7 @@ ms.locfileid: "53953120"
 ## <a name="compile-the-code"></a>코드 컴파일  
  이 예제에서는 Microsoft.VisualStudio.SharePoint 어셈블리에 대 한 필요합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 개체 모델 호출](../sharepoint/calling-into-the-sharepoint-object-models.md)   
  [방법: SharePoint 명령 만들기](../sharepoint/how-to-create-a-sharepoint-command.md)   
  [연습: 웹 파트를 표시 하려면 서버 탐색기 확장](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)  

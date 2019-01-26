@@ -10,16 +10,16 @@ helpviewer_keywords:
 - tokens [SharePoint development in Visual Studio]
 - replaceable parameters [SharePoint development in Visual Studio]
 - SharePoint development in Visual Studio, replaceable parameters
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload: office
-ms.openlocfilehash: 762ef5ca27fade9a8ec58f6e0b7f5b60e4baaccb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 792c7faf9ed704dd01226c750e9898965111c414
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989167"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871951"
 ---
 # <a name="replaceable-parameters"></a>대체 가능 매개 변수
   대체 가능 매개 변수 또는 *토큰*, 실제 값을 갖는 디자인 타임에 알려지지 않은 SharePoint 솔루션 항목에 대 한 값을 제공 하려면 프로젝트 파일 내에서 사용할 수 있습니다. 표준 비슷합니다 함수에서 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 템플릿 토큰입니다. 자세한 내용은 [템플릿 매개 변수](../ide/template-parameters.md)합니다.  
@@ -65,8 +65,8 @@ ms.locfileid: "53989167"
 |$SharePoint.Feature.DeploymentPath$|패키지에 기능을 포함 하는 폴더의 이름입니다. 이 토큰 기능 디자이너에서 "배포 경로" 속성에는 것과 같습니다. 값의 예는 "Project1_Feature1"입니다.|  
 |$SharePoint.Feature.Id$|포함 된 기능의 SharePoint ID입니다. 이 토큰을 모든 기능 수준 토큰을 사용 하 여 기능을 통해 패키지에 포함 된 파일에 의해서만 사용 될 수 없습니다 직접 추가 기능을 외부에서 패키지를.|  
 |$SharePoint.ProjectItem.Name$|가져온 (해당 파일 이름이 아님), 프로젝트 항목의 이름을 **ISharePointProjectItem.Name**합니다.|  
-|$SharePoint.Type 합니다. \<GUID >. AssemblyQualifiedName $|토큰의 [!INCLUDE[TLA2#tla_guid](../sharepoint/includes/tla2sharptla-guid-md.md)]와 일치하는 형식의 정규화된 어셈블리 이름입니다. [!INCLUDE[TLA2#tla_guid](../sharepoint/includes/tla2sharptla-guid-md.md)]의 형식은 소문자이며 Guid.ToString("D") 형식과 일치합니다(즉, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).|  
-|$SharePoint.Type 합니다. \<GUID >. FullName $|토큰에 GUID와 일치 하는 형식의 전체 이름입니다. GUID의 형식은 소문자 이며 Guid.ToString("D") 형식에 해당 (즉, xxxxxxxx xxxx-xxxx-자).|  
+|$SharePoint.Type.\<GUID>.AssemblyQualifiedName$|토큰의 [!INCLUDE[TLA2#tla_guid](../sharepoint/includes/tla2sharptla-guid-md.md)]와 일치하는 형식의 정규화된 어셈블리 이름입니다. [!INCLUDE[TLA2#tla_guid](../sharepoint/includes/tla2sharptla-guid-md.md)]의 형식은 소문자이며 Guid.ToString("D") 형식과 일치합니다(즉, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).|  
+|$SharePoint.Type.\<GUID>.FullName$|토큰에 GUID와 일치 하는 형식의 전체 이름입니다. GUID의 형식은 소문자 이며 Guid.ToString("D") 형식에 해당 (즉, xxxxxxxx xxxx-xxxx-자).|  
   
 ## <a name="add-extensions-to-the-token-replacement-file-extensions-list"></a>토큰 바꾸기 파일 확장명 목록에 확장 추가
  기본적으로 패키지에 포함 된 항목을 SharePoint 프로젝트에 속하는 모든 파일에 토큰 이론적으로 사용할 수 있지만 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 패키지 파일, 매니페스트 파일 및 파일 확장명이 있는 경우에 토큰을 검색 합니다.  
@@ -105,5 +105,5 @@ ms.locfileid: "53989167"
   
  대상에 직접 확장을 추가할 수 있습니다 (*.targets*) 파일입니다. 그러나 뿐만 아니라 확장 변경 로컬 시스템에 패키지 하는 모든 SharePoint 프로젝트 확장명 목록에 추가 사용자 고유의 합니다. 시스템에서 유일한 개발자 또는 대부분의 프로젝트에 필요한 경우에이 확장 편리할 수 있습니다. 그러나 시스템 관련 인이 방법은 이식 가능 하지 않습니다.이 고 따라서 것이 좋습니다 때문에 추가한 확장 프로젝트 파일에 대신 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)  

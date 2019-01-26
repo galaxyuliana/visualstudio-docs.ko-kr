@@ -10,17 +10,17 @@ helpviewer_keywords:
 - smart documents [Office development in Visual Studio], adding controls
 - actions panes [Office development in Visual Studio], creating in Word
 - actions panes [Office development in Visual Studio], adding controls
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4e868f8639aa8803e1ba9631bf46929bc917be3f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 49a570a68d2ce301ff103c3587e3246a725a1f42
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53943092"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866278"
 ---
 # <a name="walkthrough-insert-text-into-a-document-from-an-actions-pane"></a>연습: 작업 창에서 문서로 텍스트 삽입
   이 연습에는 Microsoft Office Word 문서에서 작업창을 만드는 방법을 보여 줍니다. 작업 창에는 두 개의 입력을 수집 하 고 다음 문서에 텍스트를 보낼 포함 되어 있습니다.  
@@ -111,7 +111,7 @@ ms.locfileid: "53943092"
   
     |속성|값|  
     |--------------|-----------|  
-    |**이름**|**GetName**|  
+    |**이름**|**getName**|  
     |**Size**|**130, 20**|  
   
 5.  두 번째 추가 **레이블** 작업 창 컨트롤에 컨트롤을 변경 합니다 **텍스트** 속성을 **주소**합니다.  
@@ -120,7 +120,7 @@ ms.locfileid: "53943092"
   
     |속성|값|  
     |--------------|-----------|  
-    |**이름**|**GetAddress**|  
+    |**이름**|**getAddress**|  
     |**반환이 허용**|**True**|  
     |**Multiline**|**True**|  
     |**Size**|**130, 40**|  
@@ -179,7 +179,7 @@ ms.locfileid: "53943092"
   
 -   작업 창의 컨트롤에 데이터를 바인딩하십시오. 자세한 내용은 [연습: Word 작업 창의 컨트롤에 데이터 바인딩할](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [작업 창 개요](../vsto/actions-pane-overview.md)   
  [방법: Word 문서 또는 Excel 통합 문서에 작업 창 추가](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
  [방법: Excel 통합 문서에 작업 창 추가](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100))   

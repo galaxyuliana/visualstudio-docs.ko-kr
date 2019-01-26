@@ -11,15 +11,15 @@ helpviewer_keywords:
 - document properties [Office development in Visual Studio]
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0a3dd497bc2c63c58e6072cd48f58cba071ea4f4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e890cedb774527ba49c6061ee36c5efc091f3188
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891591"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865816"
 ---
 # <a name="how-to-create-and-modify-custom-document-properties"></a>방법: 사용자 지정 문서 속성 만들기 및 수정
   위에 나열된 Microsoft Office 애플리케이션은 문서와 함께 저장되는 기본 제공 속성을 제공합니다. 문서와 함께 저장하려는 추가 정보가 있는 경우 사용자 지정 문서 속성을 만들고 수정할 수 있습니다.  

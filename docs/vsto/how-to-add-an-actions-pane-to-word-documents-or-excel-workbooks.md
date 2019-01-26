@@ -12,15 +12,15 @@ helpviewer_keywords:
 - actions panes [Office development in Visual Studio], adding controls
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4630834f1673e1c96ca67b90a8bb329951f53de1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ad0a482b38d91ae7812e794a56e0eb380cd016a8
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827022"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867957"
 ---
 # <a name="how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks"></a>방법: Word 문서 또는 Excel 통합 문서에 작업 창 추가
   작업 창에는 Microsoft Office Word 문서 또는 Microsoft Excel 통합 문서를 추가 하려면 먼저 Windows Forms 사용자 정의 컨트롤을 만듭니다. 그런 다음 사용자 정의 컨트롤을 추가 합니다 <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> 의 속성을 `ThisDocument.ActionsPane` 필드 (Word) 또는 `ThisWorkbook.ActionsPane` 프로젝트에서 필드 (Excel).  
@@ -75,7 +75,7 @@ ms.locfileid: "53827022"
      [!code-csharp[Trin_VstcoreActionsPaneWord#15](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#15)]
      [!code-vb[Trin_VstcoreActionsPaneWord#15](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#15)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [작업 창 개요](../vsto/actions-pane-overview.md)   
  [연습: 작업 창에서 문서로 텍스트 삽입](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)   
  [방법: 작업 창에서 컨트롤 레이아웃 관리](../vsto/how-to-manage-control-layout-on-actions-panes.md)   

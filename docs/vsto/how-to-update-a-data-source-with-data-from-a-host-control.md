@@ -10,17 +10,17 @@ helpviewer_keywords:
 - data [Office development in Visual Studio], updating a data source from a document
 - host controls [Office development in Visual Studio], data source updates
 - Office documents [Office development in Visual Studio, data sources
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ffacf89146932f5a8d1521ea922e27b12fb57151
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f35b5a67ce43d2e727aa052a8165fbdf7123eda0
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933024"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863119"
 ---
 # <a name="how-to-update-a-data-source-with-data-from-a-host-control"></a>방법: 호스트 컨트롤의 데이터로 데이터 소스를 업데이트 합니다.
   호스트 컨트롤을 데이터 원본에 바인딩하고 해당 데이터 원본을 컨트롤에 있는 데이터의 변경 내용으로 업데이트할 수 있습니다. 이 프로세스는 크게 다음과 같은 두 가지 단계로 구성되어 있습니다.  
@@ -63,7 +63,7 @@ ms.locfileid: "53933024"
      > [!NOTE]  
      >  Word 제품 문서-변경 또는 컨트롤 변경 알림을 하지 않으므로 System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged 옵션은 Word 호스트 컨트롤에 적용 되지 않습니다. 그러나 Word 문서의 Windows Forms 컨트롤에 대해서는 이 옵션을 사용할 수 있습니다.  
   
-     다음 예제에서는 컨트롤의 값이 변경될 때 자동으로 데이터 원본을 업데이트하기 위해 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 구성합니다. 이 예제에서는 해당 <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> 속성이 데이터 원본의 필드에 바인딩된 `namedRange1`이라는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤이 있다고 가정합니다.  
+     다음 예제에서는 컨트롤의 값이 변경될 때 자동으로 데이터 원본을 업데이트하기 위해 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 구성합니다. 이 예제에서는 해당 <xref:Microsoft.Office.Tools.Excel.NamedRange> 속성이 데이터 원본의 필드에 바인딩된 `namedRange1` 이라는 <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> 컨트롤이 있다고 가정합니다.  
   
      [!code-csharp[Trin_VstcoreDataExcel#19](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#19)]
      [!code-vb[Trin_VstcoreDataExcel#19](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#19)]  
@@ -96,7 +96,7 @@ ms.locfileid: "53933024"
   
 1.  컨트롤에 대한 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 의 <xref:System.Windows.Forms.BindingSource> 메서드를 호출합니다.  
   
-     디자인 타임에 데이터 바인딩된 컨트롤을 문서나 통합 문서에 추가하면 <xref:System.Windows.Forms.BindingSource> 가 자동으로 생성됩니다. <xref:System.Windows.Forms.BindingSource> 는 해당 컨트롤을 프로젝트의 형식화된 데이터 집합에 연결합니다. 자세한 내용은 [BindingSource 구성 요소 개요](/dotnet/framework/winforms/controls/bindingsource-component-overview)합니다.  
+     디자인 타임에 데이터 바인딩된 컨트롤을 문서나 통합 문서에 추가하면 <xref:System.Windows.Forms.BindingSource> 가 자동으로 생성됩니다. <xref:System.Windows.Forms.BindingSource>는 해당 컨트롤을 프로젝트의 형식화된 데이터 세트에 연결합니다. 자세한 내용은 [BindingSource 구성 요소 개요](/dotnet/framework/winforms/controls/bindingsource-component-overview)합니다.  
   
      다음 코드 예제에서는 프로젝트가 <xref:System.Windows.Forms.BindingSource> 라는 `customersBindingSource`를 포함하고 있다고 가정합니다.  
   
@@ -112,7 +112,7 @@ ms.locfileid: "53933024"
      [!code-csharp[Trin_VstcoreDataExcel#21](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#21)]
      [!code-vb[Trin_VstcoreDataExcel#21](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#21)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션의 컨트롤에 데이터 바인딩](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [데이터베이스에 데이터를 저장 합니다.](../data-tools/save-data-back-to-the-database.md)    
  [TableAdapter를 사용 하 여 데이터를 업데이트 합니다.](../data-tools/update-data-by-using-a-tableadapter.md)    

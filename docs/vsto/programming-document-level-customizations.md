@@ -22,17 +22,17 @@ helpviewer_keywords:
 - Sheet2 class
 - document-level customizations [Office development in Visual Studio], programming
 - application development [Office development in Visual Studio], document-level customizations
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9d559e358e50295368f68ad02ebb7532353a98b6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9eb0243a99b1730a911c65aebdf1f7c2d763959e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53925448"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866815"
 ---
 # <a name="program-document-level-customizations"></a>문서 수준 사용자 지정 프로그래밍
   문서 수준 사용자 지정을 사용하여 Microsoft Office Word 또는 Microsoft Office Excel을 확장한 경우 다음 작업을 수행할 수 있습니다.  

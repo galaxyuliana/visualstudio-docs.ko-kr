@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - reference [Office development in Visual Studio], user interface
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0f11a15e2aa93b88def7e430825ddff3dce6fa5f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 90d026b4d4698f468dfa9494f970d2ad7282c160
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53831419"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872289"
 ---
 # <a name="user-interface-reference-office-development-in-visual-studio"></a>사용자 인터페이스 참조 (Visual Studio에서 Office 개발)
   다음 사용자 인터페이스 요소는 Visual Studio의 Office 프로젝트 중 일부입니다.  

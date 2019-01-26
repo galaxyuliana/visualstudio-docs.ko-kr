@@ -7,17 +7,17 @@ helpviewer_keywords:
 - project items [SharePoint development in Visual Studio], saving string data
 - projects [SharePoint development in Visual Studio], saving string data
 - SharePoint projects, saving string data
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c7f0210a24df180e93aa8772f08b91e7312f5ccc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 373f031795238c599d15eec92f1730289662c3a0
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829256"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866544"
 ---
 # <a name="save-data-in-extensions-of-the-sharepoint-project-system"></a>SharePoint 프로젝트 시스템의 확장에 데이터를 저장 합니다.
   SharePoint 프로젝트 시스템을 확장 하는 경우에 SharePoint 프로젝트를 닫은 후 지속 되는 문자열 데이터를 저장할 수 있습니다. 데이터는 일반적으로 특정 프로젝트 항목 또는 프로젝트 자체에 연결 됩니다.  

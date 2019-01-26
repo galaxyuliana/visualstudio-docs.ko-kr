@@ -13,15 +13,15 @@ helpviewer_keywords:
 - assemblies [Office development in Visual Studio], updating
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 24650d2cb4cbed3a5b4c4f1ee02e395e7b8c2988
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9deabada5a9e3d69c3d3a9a821abf7d6b8dcf56e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828563"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875617"
 ---
 # <a name="application-and-deployment-manifests-in-office-solutions"></a>Office 솔루션에서 응용 프로그램 및 배포 매니페스트
   애플리케이션 매니페스트는 Office 솔루션에서 어셈블리를 찾고 업데이트하는 데 사용되는 정보를 제공하는 XML 파일입니다. 애플리케이션 매니페스트는 배포 매니페스트와 함께 사용할 수 있습니다. 배포 매니페스트는 서버에 저장된 XML 파일로, 최신 버전의 애플리케이션 매니페스트 및 어셈블리를 찾는 데 필요한 정보를 제공합니다.
@@ -47,5 +47,5 @@ ms.locfileid: "53828563"
 - [Office 솔루션을 만들고 디자인](../vsto/designing-and-creating-office-solutions.md)
 - [Office 솔루션에 대 한 응용 프로그램 매니페스트](../vsto/application-manifests-for-office-solutions.md)
 - [Office 솔루션의 배포 매니페스트](../vsto/deployment-manifests-for-office-solutions.md)
-- [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)
+- [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)
 - [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)

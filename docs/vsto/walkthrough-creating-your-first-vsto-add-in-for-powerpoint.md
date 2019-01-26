@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Office development in Visual Studio, creating your first project
 - PowerPoint [Office development in Visual Studio], creating your first project
 - add-ins [Office development in Visual Studio], creating your first project
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9c9bef0c76f0c01c620670bf67882fd90e2e1ba3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b6de1141974303b0ea87a9c03f18ce453597c1d7
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875500"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871145"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-powerpoint"></a>연습: PowerPoint 용 첫 VSTO 추가 기능에 만들기
   이 연습에서는 Microsoft Office PowerPoint 용 VSTO 추가 기능을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 열려 있는 프레젠테이션에 관계없이 응용 프로그램 자체에서 사용할 수 있습니다. 자세한 내용은 [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.  

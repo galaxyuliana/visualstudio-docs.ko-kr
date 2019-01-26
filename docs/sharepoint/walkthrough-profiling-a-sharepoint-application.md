@@ -10,17 +10,17 @@ helpviewer_keywords:
 - performance testing [SharePoint development in Visual Studio]
 - SharePoint development in Visual Studio, performance testing
 - profiling [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1e5fb918761cc8e8d68aaaaa5e6a420bb6758a1e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4cb4e2ac95a17adc918be50fa351a35174f128b1
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913819"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867522"
 ---
 # <a name="walkthrough-profile-a-sharepoint-application"></a>연습: SharePoint 응용 프로그램을 프로 파일링
   이 연습에서는 Visual Studio에서 프로파일링 도구를 사용하여 SharePoint 응용 프로그램의 성능을 최적화하는 방법을 보여 줍니다. 예제 응용 프로그램은 기능 이벤트 수신기의 성능을 저하시키는 유휴 루프가 포함된 SharePoint 기능 이벤트 수신기입니다. Visual Studio 프로파일러를 사용 하면 찾을 라고도 프로젝트의 가장 비용이 많이 드는 (성능이 가장 낮은) 부분을 제거 하는 *실행 부하 과다 경로*합니다.  
@@ -272,7 +272,7 @@ ms.locfileid: "53913819"
   
      유휴 루프 호출이 제거되었으므로 기능이 훨씬 빠르게 활성화됩니다. 샘플 프로파일링 보고서는 이를 반영합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [성능 탐색기](/visualstudio/profiling/performance-explorer)   
  [성능 세션 개요](/visualstudio/profiling/performance-session-overview)   
  [초보자를 위한 성능 프로파일링 지침](/visualstudio/profiling/beginners-guide-to-performance-profiling)   

@@ -14,15 +14,15 @@ helpviewer_keywords:
 - form regions [Office development in Visual Studio], adding
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: de5e5a549a912a84634c2025a3cfa71e4f6688ce
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: adc1b788c01dca16663fa769ffd69904b04e8a98
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53846323"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871002"
 ---
 # <a name="how-to-add-a-form-region-to-an-outlook-add-in-project"></a>방법: Outlook 추가 기능 프로젝트에 양식 영역 추가
   **새 Outlook 양식 영역** 마법사를 사용하여 표준 또는 사용자 지정 Microsoft Office Outlook 양식을 확장하는 양식 영역을 만듭니다. Visual Studio에서 새 양식 영역을 만들어서 사용자 인터페이스를 디자인하거나 Outlook에서 디자인한 양식 영역을 가져와서 Visual Basic 또는 C# 코드를 추가할 수 있습니다.  

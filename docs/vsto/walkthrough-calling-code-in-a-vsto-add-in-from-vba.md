@@ -13,17 +13,17 @@ helpviewer_keywords:
 - add-ins [Office development in Visual Studio], calling code from other solutions
 - interoperability [Office development in Visual Studio]
 - calling code from VBA
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 89b03298d1a0bb180e3eab706383e48ecd75cd7f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: faa71d4cefabbb59e7b9b5255cfebf3677e257a5
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53915905"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865751"
 ---
 # <a name="walkthrough-call-code-in-a-vsto-add-in-from-vba"></a>연습: VBA에서 VSTO 추가 기능에서 코드 호출
   이 연습에서는 VSTO 추가 기능의 개체를 VBA(Visual Basic for Applications) 및 COM VSTO 추가 기능을 비롯한 다른 Microsoft Office 솔루션에 노출하는 방법을 보여 줍니다.  

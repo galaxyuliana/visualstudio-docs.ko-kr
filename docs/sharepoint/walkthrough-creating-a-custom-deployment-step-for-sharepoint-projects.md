@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint commands
 - SharePoint development in Visual Studio, extending deployment
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e12f9d8b93b429b0ecdc433eef59809f2ca4c61d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41f0160b173c07859480aa4a6242acae573374e5
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891578"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871301"
 ---
 # <a name="walkthrough-create-a-custom-deployment-step-for-sharepoint-projects"></a>연습: SharePoint 프로젝트용 사용자 지정 배포 단계 만들기
   SharePoint 프로젝트를 배포할 때 Visual Studio는 특정 순서로 일련의 배포 단계를 실행 합니다. Visual Studio는 많은 기본 제공 배포 단계를 포함 하지만 만들 수도 있습니다 고유한.  
@@ -483,5 +483,5 @@ ms.locfileid: "53891578"
   
 4.  Visual Studio (실험적 인스턴스 및 UpgradeDeploymentStep 솔루션이 열려 있는 Visual Studio의 인스턴스)의 두 인스턴스를 닫습니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 패키징 및 배포 확장](../sharepoint/extending-sharepoint-packaging-and-deployment.md)  

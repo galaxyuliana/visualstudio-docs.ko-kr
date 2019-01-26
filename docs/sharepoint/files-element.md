@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - Files element
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e27e3192ec0d9a312c3cfc0a3521daf534c68e9a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b25bb220d3c22af280a486de115193af38c85dbe
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922314"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864529"
 ---
 # <a name="files-element"></a>Files 요소
   기능 요소 파일 등의 SharePoint 프로젝트 항목 및 종속 비 SharePoint 프로젝트의 출력을 사용 하 여 배포할 파일을 지정 합니다.  
@@ -51,13 +51,13 @@ ms.locfileid: "53922314"
   
 |요소|설명|  
 |-------------|-----------------|  
-|[프로젝트 항목](../sharepoint/projectitem-element.md)|SharePoint 프로젝트 항목을 나타냅니다. 이 요소는 필수 루트 요소에는 `.spdata` 파일.|  
+|[ProjectItem](../sharepoint/projectitem-element.md)|SharePoint 프로젝트 항목을 나타냅니다. 이 요소는 필수 루트 요소에는 `.spdata` 파일.|  
   
 ## <a name="element-information"></a>요소 정보
   
 |||  
 |-|-|  
-|**Namespace**|http<nolink>: //schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**스키마 이름**|SharePoint 프로젝트 항목 스키마|  
 |**유효성 검사 파일**|ProjectItemModelSchema.xsd|  
 |**비어 있을 수 있습니다.**|아니요|  

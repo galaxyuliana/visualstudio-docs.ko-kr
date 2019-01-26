@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Bookmark control, events
 - shortcut menus, Word
 - menus, creating in Office applications
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8cf987c458fb3a79c17fc6efedb34fefd8a53179
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fb09bc2ee3f9278026be2046ff249fb2ca4c558f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53940556"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863996"
 ---
 # <a name="walkthrough-create-shortcut-menus-for-bookmarks"></a>연습: 책갈피에 대 한 바로 가기 메뉴 만들기
   이 연습에 대 한 바로 가기 메뉴를 만드는 방법을 보여 줍니다 <xref:Microsoft.Office.Tools.Word.Bookmark> Word 용 문서 수준 사용자 지정에서 컨트롤입니다. 책갈피의 텍스트를 누를 때 바로 가기 메뉴 표시 되 고 텍스트 서식 지정에 대 한 사용자 옵션을 제공 합니다.  
@@ -192,7 +192,7 @@ ms.locfileid: "53940556"
   
 -   책갈피의 서식을 변경 하는 확인란을 사용 합니다. 자세한 내용은 [연습: CheckBox 컨트롤을 사용 하 여 변경 문서 서식](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Word를 사용 하 여 연습](../vsto/walkthroughs-using-word.md)   
  [Office UI 사용자 지정](../vsto/office-ui-customization.md)   
  [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)   

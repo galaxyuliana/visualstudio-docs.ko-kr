@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, workflows
 - workflows [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4f459b9e637c057ceb08f4db18fb0efa12e0592e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0cda1d413eac76136e3ea40bfec02322927c2368
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857973"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868800"
 ---
 # <a name="form-support-in-workflows"></a>워크플로의 폼 지원
   네 가지 유형의 폼 워크플로에서 사용할 수 있습니다: 연결, 시작, 태스크 및 수정 합니다. 이러한 폼 형식 ASPX 양식은 또는 InfoPath 양식에 기반 할 수 있습니다. 수준의 지원 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 다음 표에 설명 된 여러 가지 요인에 따라 다릅니다. 특정 폼을 제공 합니다. 워크플로 양식 유형에 대 한 자세한 내용은 참조 하세요. [워크플로 양식 개요](http://go.microsoft.com/fwlink/?LinkId=185228)합니다.  
@@ -46,7 +46,7 @@ ms.locfileid: "53857973"
 |작업|-형식에서 참조 되는 *Elements.xml* 워크플로 파일입니다.<br />- *Elements.xml* 워크플로 파일이 리팩터링 되지 않습니다.|-폼을 가져온 되었지만 참조 되지 합니다 *Elements.xml* 워크플로.<br />- *Elements.xml* 워크플로 파일이 리팩터링 되지 않습니다. **참고:**  규칙 및 속성 추가 및이 시나리오가 작동 하려면 변경 해야 합니다.|  
 |수정|해당 사항 없음. SharePoint Designer에서 ASPX 수정 폼을 만들 수 없습니다.|해당 사항 없음. InfoPath 수정 양식 포함 되지 않은.wsp 파일에서 워크플로 내보낼 때 기본 제공 SharePoint 서버 워크플로 제외 하 고 SharePoint Designer에서 만들 수 없습니다.|  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만들기](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)   
  [SharePoint 워크플로 솔루션 만들기](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [기존 SharePoint 사이트에서 항목 가져오기](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)  

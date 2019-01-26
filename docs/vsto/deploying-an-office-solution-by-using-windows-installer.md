@@ -15,15 +15,15 @@ helpviewer_keywords:
 - Office applications [Office development in Visual Studio], MSI
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 946a8dc884db4492e9bb557fa6000059d9912fd8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 91349edaeb864e913351e79846825fb67f2d7d97
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53966053"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864087"
 ---
 # <a name="deploy-an-office-solution-by-using-windows-installer"></a>Windows Installer를 사용 하 여 Office 솔루션 배포
 [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)]을 사용하여 Office 솔루션에 필요한 Windows Installer를 만드는 방법을 알아봅니다.  
@@ -326,8 +326,8 @@ VSTO 추가 기능을 컴퓨터의 모든 사용자에 대해 설치할지(컴�
 
 | Office 버전<br /><br /> | InstallShield 구성 경로<br /><br /> |
 |----------------------------| - |
-| 32비트<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit) \Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
-| 64비트<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(64-Bit) \Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
+| 32비트<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
+| 64비트<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(64-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
 
    **Windows 버전에 다른 컴퓨터 단위 설치 관리자**  
 
@@ -335,8 +335,8 @@ VSTO 추가 기능을 컴퓨터의 모든 사용자에 대해 설치할지(컴�
 
 | Windows 버전<br /><br /> | InstallShield 구성 경로<br /><br /> |
 |-----------------------------| - |
-| 32비트<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit) \Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
-| 64비트<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit) \Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br />**HKEY_LOCAL_MACHINE\SOFTWARE(64-Bit) \Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
+| 32비트<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
+| 64비트<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br />**HKEY_LOCAL_MACHINE\SOFTWARE(64-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
 
    > [!NOTE]  
    >    64 비트 Windows에 대 한 설치 관리자는 32 비트 및 64 비트 버전 Office의 64 비트 Windows를 실행 하는 컴퓨터에서 실행 하는 작업을 할 수 있기 때문에 두 개의 레지스트리 경로가 필요 합니다.  

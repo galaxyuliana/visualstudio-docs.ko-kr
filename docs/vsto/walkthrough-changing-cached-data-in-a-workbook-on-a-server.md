@@ -11,17 +11,17 @@ helpviewer_keywords:
 - server-side data access [Office development in Visual Studio]
 - data [Office development in Visual Studio], accessing on server
 - documents [Office development in Visual Studio], server-side data access
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8977267ba8acadf1105fc0f1608339301b737476
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0c762e715be9b7b210b17d5ff297b090b684400f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53881330"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866011"
 ---
 # <a name="walkthrough-change-cached-data-in-a-workbook-on-a-server"></a>연습: 서버에서 통합 문서에서 캐시 된 데이터를 변경 합니다.
   이 연습에서는 Microsoft Office Excel 통합 문서에 사용 하 여 Excel을 시작 하지 않고 캐시 된 데이터 집합을 수정 하는 방법에 설명 합니다 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 클래스입니다.

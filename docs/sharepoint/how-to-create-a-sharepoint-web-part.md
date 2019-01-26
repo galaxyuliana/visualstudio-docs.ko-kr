@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - Web Parts [SharePoint development in Visual Studio], adding
 - Web Parts [SharePoint development in Visual Studio], creating
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 43d776a4031cabfd027c96105f3e71a93ea1c07f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b66cd0b380612502bb982efd464607a4759f9c4b
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53858425"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54870794"
 ---
 # <a name="how-to-create-a-sharepoint-web-part"></a>방법: SharePoint 웹 파트 만들기
   만들고 추가 하 여 웹 파트를 사용자 지정할 수 있습니다는 **웹 파트** SharePoint 프로젝트 항목 및 다음 웹 파트 또는 디자이너를 사용 하 여 코드 파일을 편집 합니다. 자세한 내용은 [방법: 디자이너를 사용 하 여 SharePoint 웹 파트를 만들](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)합니다.  
@@ -47,7 +47,7 @@ ms.locfileid: "53858425"
   
      예를 들어 참조 [연습: SharePoint 용 웹 파트를 만드는](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 용 웹 파트 만들기](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [방법: 디자이너를 사용 하 여 SharePoint 웹 파트 만들기](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)   
  [연습: SharePoint 용 웹 파트 만들기](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)   

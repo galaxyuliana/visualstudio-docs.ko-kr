@@ -13,17 +13,17 @@ helpviewer_keywords:
 - SharePoint development in Visual Studio, importing items
 - SharePoint development in Visual Studio, importing .wsp files
 - importing items [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6345e6650c815242db661cef52b78db31d447b06
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9dfe79823bbbbb9b96d9732a18272a15c9b3024e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53918156"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864620"
 ---
 # <a name="import-items-from-an-existing-sharepoint-site"></a>기존 SharePoint 사이트에서 항목 가져오기
   SharePoint 솔루션 패키지 가져오기 프로젝트 템플릿을 사용하면 기존 SharePoint 사이트에 있는 콘텐츠 형식 및 필드 등의 요소를 새 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 솔루션에서 다시 사용할 수 있습니다. 수정 없이도 가져온 솔루션을 대부분 실행할 수 있지만 몇 가지 제한 및 문제를 고려해야 합니다. 항목을 가져온 후 수정한 경우에는 특히 주의해야 합니다.  

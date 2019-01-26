@@ -11,15 +11,15 @@ helpviewer_keywords:
 - application manifests [Office development in Visual Studio], <application> element
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7b2f0035bd4072e3245aa44be64d05ef059a70cb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 81b43779b52299f70877231b99d0f8bb730c39df
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53950279"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872302"
 ---
 # <a name="ltapplicationgt-element-office-development-in-visual-studio"></a>&lt;응용 프로그램&gt; 요소 (Visual Studio에서 Office 개발)
   `application` 네임스페이스의 `vstav3` 요소는 Office 솔루션에 대한 설명을 래핑합니다. 문서 수준 사용자 지정 및 VSTO 추가 기능에 대한 자식 요소가 서로 다릅니다.
@@ -124,4 +124,4 @@ ms.locfileid: "53950279"
 
 - [Office 솔루션에 대 한 응용 프로그램 매니페스트](../vsto/application-manifests-for-office-solutions.md)
 - [Office 솔루션의 배포 매니페스트](../vsto/deployment-manifests-for-office-solutions.md)
-- [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)
+- [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)

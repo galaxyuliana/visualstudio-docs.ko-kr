@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Office development in Visual Studio, creating your first project
 - add-ins [Office development in Visual Studio], creating your first project
 - Word [Office development in Visual Studio], creating your first project
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f8cd238c64b32501a42900d37723c350e84673f1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e4ada075dc9f64fb7febc402cdbe690c7dbc9b9f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53948974"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868328"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-word"></a>연습: Word 용 첫 VSTO 추가 기능에 만들기
   이 소개용 연습에서는 Microsoft Office Word용 VSTO 추가 기능을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 열려 있는 문서에 관계없이 응용 프로그램 자체에서 사용할 수 있습니다.  
@@ -91,7 +91,7 @@ ms.locfileid: "53948974"
   
    문서가 저장될 때 문서를 수정하기 위해 앞의 코드 예제에서는 다음 개체를 사용합니다.  
   
--   `ThisAddIn` 클래스의 `Application` 필드. `Application` 필드는 Word의 현재 인스턴스를 나타내는 <xref:Microsoft.Office.Interop.Word.Application> 개체를 반환합니다.  
+-   `Application` 클래스의 `ThisAddIn` 필드. `Application` 필드는 Word의 현재 인스턴스를 나타내는 <xref:Microsoft.Office.Interop.Word.Application> 개체를 반환합니다.  
   
 -   `Doc` 이벤트에 대한 이벤트 처리기의 <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> 매개 변수입니다. `Doc` 매개 변수는 저장된 문서를 나타내는 <xref:Microsoft.Office.Interop.Word.Document> 개체입니다. 자세한 내용은 [Word 개체 모델 개요](../vsto/word-object-model-overview.md)합니다.  
   
@@ -133,7 +133,7 @@ ms.locfileid: "53948974"
   
 -   Word 용 VSTO 추가 기능 배포: [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
  [Word 솔루션](../vsto/word-solutions.md)   
  [VSTO 추가 기능 프로그래밍](../vsto/programming-vsto-add-ins.md)   

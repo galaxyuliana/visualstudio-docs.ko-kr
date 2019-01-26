@@ -12,17 +12,17 @@ helpviewer_keywords:
 - templates [Office development in Visual Studio], Project
 - Office projects [Office development in Visual Studio], Project
 - solutions [Office development in Visual Studio], Project
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1ac5b8a8f26112a849567777cefb907c95a98656
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c7daf85494964ec3d32a744e064f2326f24542f4
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53909777"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865309"
 ---
 # <a name="project-solutions"></a>프로젝트 솔루션
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] 에서는 Microsoft Office Project용 VSTO 추가 기능을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. VSTO 추가 기능을 사용하여 Project를 자동화하거나 Project 기능을 확장하거나 Project UI(사용자 인터페이스)를 사용자 지정할 수 있습니다.  

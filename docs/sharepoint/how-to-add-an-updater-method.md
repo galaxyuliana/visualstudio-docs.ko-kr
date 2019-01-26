@@ -12,17 +12,17 @@ helpviewer_keywords:
 - Business Data Connectivity service [SharePoint development in Visual Studio], Updater
 - Business Data Connectivity service [SharePoint development in Visual Studio], updating entity instances
 - BDC [SharePoint development in Visual Studio], updating entity instances
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8a68ed8809b30444829dc09bb5c1fcb2386c4a92
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 435674325acdb8b415f0a706f3bca8753d704160
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53872520"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864165"
 ---
 # <a name="how-to-add-an-updater-method"></a>방법: Updater 메서드 추가
   사용자가 만들어 외부 SharePoint 목록의 비즈니스 데이터를 업데이트할 수는 *Updater* 메서드. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.  
@@ -64,7 +64,7 @@ ms.locfileid: "53872520"
     [!code-csharp[SP_BDC#5](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#5)]
     [!code-vb[SP_BDC#5](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#5)]  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [방법: Finder 메서드 추가](../sharepoint/how-to-add-a-finder-method.md)   
  [방법: 특정 Finder 메서드 추가](../sharepoint/how-to-add-a-specific-finder-method.md)   

@@ -9,17 +9,17 @@ helpviewer_keywords:
 - printing [Office development in Visual Studio], worksheets
 - worksheets, printing
 - print preview, worksheets
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2c5061c7b83173088a4031455f27d1332219b6f7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e76b53488f1375606980e504bf94dae6343ff267
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53904554"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863424"
 ---
 # <a name="how-to-programmatically-print-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 인쇄
   통합 문서의 모든 워크시트를 인쇄할 수 있습니다.  
@@ -62,7 +62,7 @@ ms.locfileid: "53904554"
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#15](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#15)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#15](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#15)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [워크시트 작업](../vsto/working-with-worksheets.md)   
  [방법: 프로그래밍 방식으로 워크시트에서 맞춤법 검사](../vsto/how-to-programmatically-check-spelling-in-worksheets.md)   
  [워크시트 호스트 항목](../vsto/worksheet-host-item.md)   

@@ -18,17 +18,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, Web Parts
 - Web Parts [SharePoint development in Visual Studio], designing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1efe8524521be590e920818f919a7a52d8fba7e5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: eff779f70cb5b17d03befddce971a4bbb15ca142
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53879136"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865889"
 ---
 # <a name="create-web-parts-for-sharepoint"></a>SharePoint 용 웹 파트 만들기
   웹 파트를 사용 하 여 브라우저를 사용 하 여 콘텐츠, 모양 및 SharePoint 사이트의 페이지의 동작을 수정할 수 있습니다. 웹 파트는 웹 파트 페이지 내에서 실행 되는 서버 쪽 컨트롤: SharePoint 사이트에 표시 되는 페이지의 구성 요소 들은 합니다. 참조 [문서 블록: 웹 파트](http://go.microsoft.com/fwlink/?LinkID=182097)합니다.  

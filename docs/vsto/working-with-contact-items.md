@@ -10,17 +10,17 @@ helpviewer_keywords:
 - contacts [Office development in Visual Studio], about contacts
 - e-mail [Office development in Visual Studio], contacts
 - contacts [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f52df252ef6c173465e45029bb23362ba0c36293
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6e5a1f71d9605288917a2547fbfd414559993403
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857519"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864984"
 ---
 # <a name="work-with-contact-items"></a>연락처 항목 작업
   <xref:Microsoft.Office.Interop.Outlook.ContactItem> 클래스에는 연락처가 있는 작업을 수행하는 데 사용하는 메서드 및 속성이 포함됩니다.  

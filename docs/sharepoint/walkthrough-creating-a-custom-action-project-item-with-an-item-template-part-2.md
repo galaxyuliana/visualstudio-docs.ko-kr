@@ -6,17 +6,17 @@ helpviewer_keywords:
 - project items [SharePoint development in Visual Studio], creating template wizards
 - SharePoint project items, creating template wizards
 - SharePoint development in Visual Studio, defining new project item types
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4305fd980252515f126df2c1b3848c0676cd2079
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 26ea7bb1cc9dcea4c5bdc0c43a68a05e8211b40c
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913938"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873849"
 ---
 # <a name="walkthrough-create-a-custom-action-project-item-with-an-item-template-part-2"></a>연습: 항목 템플릿, 2 부를 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기
   사용자 지정 형식의 SharePoint 프로젝트 항목을 정의 하 고 Visual Studio에서 항목 템플릿을 사용 하 여 연결 후 템플릿에 대 한 마법사를 제공 하려면 수도 있습니다. 서식 파일 프로젝트에 프로젝트 항목의 새 인스턴스를 추가 하는 데 사용할 사용자 로부터 정보를 수집 하는 마법사를 사용할 수 있습니다. 정보를 수집 하는 프로젝트 항목을 초기화에 사용할 수 있습니다.  
@@ -341,7 +341,7 @@ ms.locfileid: "53913938"
   
 4.  Visual Studio (실험적 인스턴스 및 CustomActionProjectItem 솔루션이 열려 있는 Visual Studio의 인스턴스)의 두 인스턴스를 닫습니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [연습: 항목 템플릿, 1 부를 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)   
  [사용자 지정 SharePoint 프로젝트 항목 형식 정의](../sharepoint/defining-custom-sharepoint-project-item-types.md)   
  [SharePoint 프로젝트 항목에 대 한 프로젝트 템플릿과 항목 템플릿 만들기](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)   

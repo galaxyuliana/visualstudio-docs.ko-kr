@@ -9,17 +9,17 @@ helpviewer_keywords:
 - project items [SharePoint development in Visual Studio], extending
 - SharePoint project items, extending
 - SharePoint development in Visual Studio, extending project items
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d02871b991c999c490aac8aaeafc677711c95266
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ecb6df8b7d6207336404d5e2f7562a88a18895bc
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53959974"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872588"
 ---
 # <a name="extend-sharepoint-project-items"></a>SharePoint 프로젝트 항목 확장
   Visual Studio에서 이미 설치 되어 있는 SharePoint 프로젝트 항목 형식에 기능을 추가 하려는 경우 프로젝트 항목 확장을 만듭니다. 예를 들어, 기본 제공 확장을 만들 수 있습니다 **이벤트 수신기** 하거나 **목록 정의** Visual Studio에서 프로젝트 항목 또는 사용자 지정 프로젝트 항목 형식에 대 한 확장을 만들 수 있습니다. 또한 모든 SharePoint 프로젝트 항목 형식에 대 한 확장을 만들 수 있습니다.  
@@ -64,7 +64,7 @@ ms.locfileid: "53959974"
 |웹 파트|Microsoft.VisualStudio.SharePoint.WebPart|  
 |워크플로 연결 양식|Microsoft.VisualStudio.SharePoint.WorkflowAssociation|  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [방법: SharePoint 프로젝트 항목 확장명 만들기](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)   
  [방법: SharePoint 프로젝트 항목 확장에 바로 가기 메뉴 항목 추가](../sharepoint/how-to-add-a-shortcut-menu-item-to-a-sharepoint-project-item-extension.md)   
  [방법: SharePoint 프로젝트 항목 확장에 속성 추가](../sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension.md)   

@@ -22,17 +22,17 @@ helpviewer_keywords:
 - document-level customizations [Office development in Visual Studio], Windows Forms controls
 - Windows Forms controls [Office development in Visual Studio], about Windows Forms controls
 - Office applications [Office development in Visual Studio], Windows Forms
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 48778074587e5cf6e4a51ff2386a437e9c3922d7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fbadf9f2e431cfe441b2cd3ef3694f38e019de49
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902495"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872341"
 ---
 # <a name="windows-forms-controls-on-office-documents-overview"></a>Windows Forms 컨트롤에 대 한 Office 문서 개요
   Windows Forms 컨트롤은 사용자가 데이터를 입력하거나 조작하는 데 사용할 수 있는 개체입니다. Microsoft Office Excel 및 Microsoft Office Word 용 문서 수준 프로젝트에서는 디자인 타임에 프로젝트에서 Windows Forms 컨트롤을 문서 또는 통합 문서를 추가할 수 또는 런타임 시 이러한 컨트롤을 프로그래밍 방식으로 추가할 수 있습니다. Excel 또는 Word에 대 한 열려 있는 문서 또는 VSTO 추가 기능에서 런타임에 워크시트에 이러한 컨트롤을 프로그래밍 방식으로 추가할 수 있습니다.  

@@ -10,15 +10,15 @@ helpviewer_keywords:
 - shapes [Office development in Visual Studio], adding Visio shapes
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 79b71b89ef8923d311fd38684158dd1694aa893f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: accb45527d73c041600dd3216c85e54bdadd5f4a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865559"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54862605"
 ---
 # <a name="how-to-programmatically-add-shapes-to-a-visio-document"></a>방법: 프로그래밍 방식으로 Visio 문서에 셰이프 추가
   스텐실에서 마스터를 검색하고 활성 페이지로 셰이프를 끌어 놓아 Microsoft Office Visio 문서에 셰이프를 추가할 수 있습니다.  
@@ -36,7 +36,7 @@ ms.locfileid: "53865559"
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#13](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#13)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#13](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#13)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visio 솔루션](../vsto/visio-solutions.md)   
  [Visio 개체 모델 개요](../vsto/visio-object-model-overview.md)   
  [Visio 셰이프 작업](../vsto/working-with-visio-shapes.md)   

@@ -12,17 +12,17 @@ helpviewer_keywords:
 - XML [Office development in Visual Studio], Ribbon
 - Ribbon [Office development in Visual Studio], customizing
 - Custom tab [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dda5c2721d9932afd20c0b02f4a82bbbde7116ae
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5b92c3ff12ab284ac208b012f3e03975b4eddd7c
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955229"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871990"
 ---
 # <a name="walkthrough-create-a-custom-tab-by-using-ribbon-xml"></a>연습: 리본 XML을 사용 하 여 사용자 지정 탭 만들기
   이 연습에 사용 하 여 사용자 지정 리본 탭을 만드는 방법을 보여 줍니다 합니다 **리본 (XML)** 항목입니다.  
@@ -154,7 +154,7 @@ ms.locfileid: "53955229"
   
 -   Outlook 양식 영역을 사용하여 Microsoft Office Outlook의 UI를 사용자 지정합니다. 자세한 내용은 [연습: Outlook 양식 영역 디자인](../vsto/walkthrough-designing-an-outlook-form-region.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [리본 개요](../vsto/ribbon-overview.md)   
  [리본 XML](../vsto/ribbon-xml.md)   
  [연습: 리본 디자이너를 사용 하 여 사용자 지정 탭 만들기](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  

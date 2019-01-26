@@ -9,17 +9,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, packages
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b1211b0bdc3625b915221cfafaa5377d371aaa25
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1cbcdc11eab419c6f98ab1ec823c6073286ffe2f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53880863"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868133"
 ---
 # <a name="how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer"></a>방법: 추가 및 패키징 탐색기를 사용 하 여 패키지에 기능과 항목 제거
   SharePoint 항목 및 기능을 배포 하는 패키지를 구성 하려면 패키징 탐색기를 사용할 수 있습니다. .Wsp 파일 내에서 SharePoint 프로젝트 항목 및 기능을 조정할 수 있습니다.  
@@ -62,5 +62,5 @@ ms.locfileid: "53880863"
   
 2.  기능 또는 패키지에 대 한 바로 가기 메뉴를 열고 선택한 **유효성 검사**합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  

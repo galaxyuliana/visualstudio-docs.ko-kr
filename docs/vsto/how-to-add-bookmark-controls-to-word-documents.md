@@ -13,15 +13,15 @@ helpviewer_keywords:
 - controls [Office development in Visual Studio], adding to documents
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5c89e922f41104be880d598354440a4c6665a39e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 019319a2f4f2eb7da8646317796e89b2d3322d28
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53904814"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874213"
 ---
 # <a name="how-to-add-bookmark-controls-to-word-documents"></a>방법: Word 문서에 책갈피 컨트롤 추가
   문서 수준 프로젝트에 추가할 수 있습니다 <xref:Microsoft.Office.Tools.Word.Bookmark> 디자인 타임 또는 런타임에 프로젝트의 문서에 컨트롤을 합니다. VSTO 추가 기능 프로젝트에 추가할 수 있습니다 <xref:Microsoft.Office.Tools.Word.Bookmark> 런타임에 열려 있는 문서에 컨트롤입니다.  

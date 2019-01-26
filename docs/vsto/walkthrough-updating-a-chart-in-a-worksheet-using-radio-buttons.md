@@ -9,17 +9,17 @@ helpviewer_keywords:
 - worksheets, updating using managed controls
 - controls [Office development in Visual Studio], updating worksheets
 - worksheets, using radio buttons
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e165fc0a02f3185c74f4a3eb4b0fe9536f71fb66
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ae451b42642cd3c124b3fe9d5df627c2306a2020
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891943"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873875"
 ---
 # <a name="walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons"></a>연습: 워크시트에서 라디오 단추를 사용하여 차트 업데이트
   이 연습에서는 Microsoft Office Excel 워크시트에서 라디오 단추를 사용 하 여 옵션을 신속 하 게 전환 하는 방법을 사용자에 게 제공의 기본 사항을 보여 줍니다. 이 경우 옵션은 차트의 스타일을 변경 합니다.  
@@ -255,5 +255,5 @@ ms.locfileid: "53891943"
 
 -   확인란을 사용 하 여 워크시트 서식 변경 합니다. 자세한 내용은 [연습: CheckBox 컨트롤을 사용 하 여 변경 워크시트 서식](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md)합니다.  
 
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Excel을 사용 하 여 연습](../vsto/walkthroughs-using-excel.md)  

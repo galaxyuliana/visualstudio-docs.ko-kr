@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Word [Office development in Visual Studio], text
 - text [Office development in Visual Studio]
 - documents [Office development in Visual Studio], text
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 31b6acfaa4ff971b9b5fbf4be5e4509a91df60a3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ac4ca433a942222134705af3b71e6dcace6d60ca
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53960893"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864997"
 ---
 # <a name="work-with-text-in-documents"></a>문서 텍스트 작업
   이 섹션의 항목에서는 Microsoft Office Word의 개체 모델을 사용하여 Office 프로젝트에서 텍스트 작업을 수행하는 단계별 절차 및 코드 예제를 제공합니다.  
@@ -46,6 +46,6 @@ ms.locfileid: "53960893"
 |문서를 인쇄하기 전에 책갈피의 텍스트를 숨깁니다.|[방법: 프로그래밍 방식으로 문서에서 텍스트 숨기기](../vsto/how-to-programmatically-hide-text-in-documents.md)|  
 |텍스트에 주석을 추가합니다.|[방법: 프로그래밍 방식으로 문서의 텍스트에 주석 추가](../vsto/how-to-programmatically-add-comments-to-text-in-documents.md)|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Word 개체 모델 개요](../vsto/word-object-model-overview.md)   
  [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)  

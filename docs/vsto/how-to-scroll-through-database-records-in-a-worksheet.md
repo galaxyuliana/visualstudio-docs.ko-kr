@@ -10,17 +10,17 @@ helpviewer_keywords:
 - records [Office development in Visual Studio], scrolling
 - data [Office development in Visual Studio], scrolling database records
 - worksheets [Office development in Visual Studio], scrolling records
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1459ee941a8cb88d102e14ccfc7f128796c4c333
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 47a95db3797592f4c8d55ffa72e0e7323d251378
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53897472"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863606"
 ---
 # <a name="how-to-scroll-through-database-records-in-a-worksheet"></a>방법: 워크시트에서 데이터베이스 레코드 스크롤
   다음 절차에는 최종 사용자가 모든 레코드를 스크롤할 수 있도록 컨트롤을 사용 하 여 Microsoft Office Excel 워크시트에서 데이터베이스 테이블에서 단일 필드를 표시 하려면 디자이너를 사용 하는 방법을 보여 줍니다.  
@@ -43,5 +43,5 @@ ms.locfileid: "53897472"
   
 6.  **Windows Forms** 탭의 **도구 상자**, 추가 <xref:System.Windows.Forms.BindingNavigator> 워크시트에 컨트롤을 사용 하려는 컨트롤을 설정 합니다. 자세한 내용은 [BindingNavigator 컨트롤 개요 &#40;Windows Forms&#41;](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션의 컨트롤에 데이터 바인딩](../vsto/binding-data-to-controls-in-office-solutions.md)  

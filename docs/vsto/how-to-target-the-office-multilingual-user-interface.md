@@ -12,17 +12,17 @@ helpviewer_keywords:
 - Multilingual User Interface [Office development in Visual Studio]
 - localization [Office development in Visual Studio], user interface targeting
 - Office applications [Office development in Visual Studio], globalization
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e911563406e0cfdeff613f70a5059da34c4b66df
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5180780835f36768cef77207189a1346c1dccdca
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53872283"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866518"
 ---
 # <a name="how-to-target-the-office-multilingual-user-interface"></a>방법: 대상 Office 다국어 사용자 인터페이스
   다국어 사용자 인터페이스 (MUI)에 최종 사용자의 사용자 인터페이스 (UI) 언어를 변경 하는 기능을 제공 하는 Microsoft Office 기능입니다. 예를 들어 스페인어로 영어 UI를 사용 하는 최종 사용자 UI의 언어를 변경할 수 있습니다.  

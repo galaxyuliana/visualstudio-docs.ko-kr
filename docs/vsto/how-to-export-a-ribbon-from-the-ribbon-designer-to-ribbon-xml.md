@@ -15,15 +15,15 @@ helpviewer_keywords:
 - exporting Ribbon
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c1f50ec718e1f3a6c9780d956f9b845abd890bb1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 706c200a1327ed63cc0a37f002f6bb745cbea3ae
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53894063"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876215"
 ---
 # <a name="how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml"></a>방법: 리본 디자이너에서 리본 XML로 리본 메뉴 내보내기
   합니다 **리본 (비주얼 디자이너)** 항목은 가능한 모든 유형의 리본 사용자 지정을 지원 하지 않습니다. 고급 방법으로 리본을 사용자 지정을 리본 XML로 리본 디자이너에서 내보내기 수 있으며 XML을 직접 편집할 수 있습니다.  

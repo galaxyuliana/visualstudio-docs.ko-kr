@@ -10,17 +10,17 @@ helpviewer_keywords:
 - documents [Office development in Visual Studio], search options
 - Word, searching options
 - searching, Word options
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ec5b2f797371d19fea1b4fedc2064ab355ffac10
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 66bd4258d04259c5356ce459328012d50445de62
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53853388"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874369"
 ---
 # <a name="how-to-programmatically-set-search-options-in-word"></a>방법: 프로그래밍 방식으로 Word에서 검색 옵션 설정
   Microsoft Office Word 문서에서 선택 항목에 대 한 검색 옵션을 설정 하는 방법은 두 가지 있습니다.  
@@ -52,7 +52,7 @@ ms.locfileid: "53853388"
      [!code-vb[Trin_VstcoreWordAutomation#77](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#77)]
      [!code-csharp[Trin_VstcoreWordAutomation#77](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#77)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: 프로그래밍 방식으로 검색 하 고 문서에서 텍스트 바꾸기](../vsto/how-to-programmatically-search-for-and-replace-text-in-documents.md)   
  [방법: 프로그래밍 방식으로 문서에서 찾은 항목 반복](../vsto/how-to-programmatically-loop-through-found-items-in-documents.md)   
  [방법: 프로그래밍 방식으로 검색 후 선택 영역 복원](../vsto/how-to-programmatically-restore-selections-after-searches.md)  

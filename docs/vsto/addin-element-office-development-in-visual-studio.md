@@ -13,15 +13,15 @@ helpviewer_keywords:
 - <addin> element
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6ab185a1341192542d4e35ad01aa2d5ce5fba748
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 90ad45aa77ce5e383f258c0fcaa10030b46dd1c4
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53867735"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864321"
 ---
 # <a name="ltaddingt-element-office-development-in-visual-studio"></a>&lt;addin&gt; 요소 (Visual Studio에서 Office 개발)
   합니다 **추가 기능** 의 요소를 `vstav3` 네임 스페이스는 Microsoft Office VSTO 추가 기능 및 Visual Studio를 사용 하 여 개발 하는 문서 수준 사용자 지정 관련 정보를 포함 합니다.
@@ -195,4 +195,4 @@ ms.locfileid: "53867735"
 
 - [Office 솔루션에 대 한 응용 프로그램 매니페스트](../vsto/application-manifests-for-office-solutions.md)
 - [Office 솔루션의 배포 매니페스트](../vsto/deployment-manifests-for-office-solutions.md)
-- [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)
+- [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)

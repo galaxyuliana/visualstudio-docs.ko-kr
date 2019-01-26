@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Office development in Visual Studio, creating your first project
 - Excel [Office development in Visual Studio], creating your first project
 - document-level customizations [Office development in Visual Studio], creating your first project
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 70e82a8b126f5292cd8efe1420c59af90ca59c3d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: eaf5fe98e5c5a9c54245307f50e71345d0e2d477
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955320"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871249"
 ---
 # <a name="walkthrough-create-your-first-document-level-customization-for-excel"></a>연습: Excel 용 첫 문서 수준 사용자 지정 만들기
   이 소개용 연습에서는 Microsoft Office Excel에 대한 문서 수준 사용자 지정을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 특정 통합 문서가 열려 있는 경우에만 사용할 수 있습니다. 통합 문서가 열려 있을 때 새 리본 탭 표시와 같은 응용 프로그램 수준 변경은 문서 수준 사용자 지정을 사용하여 수행할 수 없습니다.  
@@ -166,7 +166,7 @@ ms.locfileid: "53955320"
   
 -   Excel 용 문서 수준 사용자 지정 배포: [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
  [Excel 솔루션](../vsto/excel-solutions.md)   
  [문서 수준 사용자 지정 프로그래밍](../vsto/programming-document-level-customizations.md)   

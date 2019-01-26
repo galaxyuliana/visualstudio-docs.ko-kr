@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, extending deployment
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bb5ba251df3271e704ea4b455c5cc47003ab8e2e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2e3663ec203c7b445c60b17627f1458fcd231a25
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933624"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866089"
 ---
 # <a name="how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted"></a>방법: SharePoint 프로젝트는 배포 되거나 취소 될 때 코드를 실행 합니다.
   SharePoint 프로젝트는 배포 되거나 취소 될 때 추가 작업을 수행 하려는 경우에 Visual Studio에서 발생 하는 이벤트를 처리할 수 있습니다. 자세한 내용은 [확장 SharePoint 패키징 및 배포](../sharepoint/extending-sharepoint-packaging-and-deployment.md)합니다.  
@@ -53,6 +53,6 @@ ms.locfileid: "53933624"
 ## <a name="deploy-the-extension"></a>확장 배포  
  확장 배포를 만들려면를 [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] 어셈블리 및 확장을 사용 하 여 배포 하려는 다른 파일에 대 한 패키지 (VSIX) 확장 합니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구의 확장을 배포할](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 패키징 및 배포 확장](../sharepoint/extending-sharepoint-packaging-and-deployment.md)   
  [방법: 배포 단계를 실행할 때 코드를 실행 합니다.](../sharepoint/how-to-run-code-when-deployment-steps-are-executed.md)  

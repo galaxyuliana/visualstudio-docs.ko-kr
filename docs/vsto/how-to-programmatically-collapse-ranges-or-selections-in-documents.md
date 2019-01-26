@@ -13,15 +13,15 @@ helpviewer_keywords:
 - collapsing ranges
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5b2fdd352c0bf280e237a67d55ac658d9a61f590
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 40dbfca783b75657ba820bdd03695a326bec3343
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54090846"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864646"
 ---
 # <a name="how-to-programmatically-collapse-ranges-or-selections-in-documents"></a>방법: 프로그래밍 방식으로 범위 또는 문서 선택 영역 축소
   <xref:Microsoft.Office.Interop.Word.Range> 또는 <xref:Microsoft.Office.Interop.Word.Selection> 개체를 사용하여 작업하는 경우 기존 텍스트를 덮어쓰지 않도록 텍스트를 삽입하기 전에 삽입 지점으로 선택을 변경해야 할 수 있습니다. 모두를 <xref:Microsoft.Office.Interop.Word.Range> 하 고 <xref:Microsoft.Office.Interop.Word.Selection> 개체에는 축소 메서드를 사용 하는 <xref:Microsoft.Office.Interop.Word.WdCollapseDirection> 열거형 값:  
@@ -86,7 +86,7 @@ ms.locfileid: "54090846"
      [!code-vb[Trin_VstcoreWordAutomationAddIn#45](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#45)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#45](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#45)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: 프로그래밍 방식으로 Word 문서에 텍스트 삽입](../vsto/how-to-programmatically-insert-text-into-word-documents.md)   
  [방법: 프로그래밍 방식으로 정의 하 고 문서에서 범위를 선택 합니다.](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)   
  [방법: 프로그래밍 방식으로 범위의 시작 및 끝 문자 검색](../vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md)   

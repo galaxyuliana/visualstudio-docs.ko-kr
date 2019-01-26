@@ -12,15 +12,15 @@ helpviewer_keywords:
 - documents [Office development in Visual Studio], Windows Forms controls
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ba2d1f46a16724f120d3e3ac788dfc8f2e290474
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 816f5b8d21578b57e93dab7349bfd877da11401c
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53899917"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869293"
 ---
 # <a name="how-to-add-windows-forms-controls-to-office-documents"></a>방법: Office 문서에 Windows Forms 컨트롤 추가
   디자인 타임에 문서 수준 프로젝트에서 Microsoft Office Excel 및 Microsoft Office Word 문서에 Windows Forms 컨트롤을 추가할 수 있습니다. 런타임에 VSTO 추가 기능 및 문서 수준 사용자 지정에서 컨트롤을 추가할 수 있습니다. 예를 들어 사용자가 옵션 목록에서 선택할 수 있도록 워크시트에 <xref:Microsoft.Office.Tools.Excel.Controls.ComboBox> 컨트롤을 추가할 수 있습니다.  

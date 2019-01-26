@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - localizing XML [SharePoint development in Visual Studio]
 - SharePoint development in Visual Studio, localizing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0a646c84df5f6da318e8c21f6a55ac7a852a1af0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: df6e4be288e957708ba7339383d8e80e82f27e40
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53959869"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54870271"
 ---
 # <a name="how-to-localize-aspx-markup"></a>방법: ASPX 태그 지역화
   [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] (.aspx) 페이지는 일반적으로 하드 코드 된 문자열 값을 사용합니다. 이러한 문자열을 지역화 하려면 지역화 된 리소스를 참조 하는 식으로 대체 합니다.  
@@ -74,7 +74,7 @@ ms.locfileid: "53959869"
   
      응용 프로그램에서 지역화 된 문자열을 표시 합니다. 지역화 된 리소스를 표시 하려면 SharePoint 서버에 리소스 파일의 문화권과 일치 하는 언어 팩 설치 되어 있어야 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 솔루션 지역화](../sharepoint/localizing-sharepoint-solutions.md)   
  [방법: 기능 지역화](../sharepoint/how-to-localize-a-feature.md)   
  [방법: 리소스 파일 추가](../sharepoint/how-to-add-a-resource-file.md)   

@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - application pages [SharePoint development in Visual Studio], adding
 - application pages [SharePoint development in Visual Studio], creating
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 659aa277263dab1950309c27e307ddb641bab6b0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b81c907e54f2334a6b8792da50c38cbdcd4be99f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53820227"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865868"
 ---
 # <a name="how-to-create-an-application-page"></a>방법: 응용 프로그램 페이지 만들기
   하나 이상의 SharePoint 사이트에 대한 ASP.NET 웹 페이지를 만들 수 있습니다. Sharepoint에서 이러한 페이지는 응용 프로그램 페이지 라고 합니다. 사이트 페이지와 달리 응용 프로그램 페이지는 페이지 뒤에 실행 되는 코드를 포함 합니다. 자세한 내용은 [SharePoint 용 응용 프로그램 페이지를 만들](../sharepoint/creating-application-pages-for-sharepoint.md)합니다.  
@@ -47,6 +47,6 @@ ms.locfileid: "53820227"
   
      코드 파일을 ASP.NET 페이지 파일에 대 한 노드를 확장 하는 경우 나타나고에 *.cs* 하거나 *.vb* 프로젝트의 언어에 따라 확장 합니다. 응용 프로그램 페이지를 만드는 방법의 종단 간 예제를 참조 하세요. [연습: SharePoint 응용 프로그램 페이지 만들기](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 용 응용 프로그램 페이지 만들기](../sharepoint/creating-application-pages-for-sharepoint.md)   
  [연습: SharePoint 응용 프로그램 페이지 만들기](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)  

@@ -9,17 +9,17 @@ helpviewer_keywords:
 - worksheets, changing formatting using managed controls
 - worksheets, check box controls
 - controls [Office development in Visual Studio], adding to worksheets
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: adc12d920fd3dc128bf23f92508fef8d239b4e8d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 30e89adf2d93e67a63071f79ded213a3dcff6385
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935101"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871028"
 ---
 # <a name="walkthrough-change-worksheet-formatting-using-checkbox-controls"></a>연습: CheckBox 컨트롤을 사용 하 여 워크시트 서식 변경
   이 연습에서는 Microsoft Office Excel 워크시트에서 확인란을 사용 하 여 서식을 변경 하려면의 기본 사항을 보여 줍니다. 만들고 프로젝트에 코드를 추가 하려면 Visual Studio에서 Office 개발 도구를 사용 합니다. 결과 전체 샘플을 보려면 Excel 컨트롤 샘플을 참조 하세요 [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)합니다.  
@@ -112,7 +112,7 @@ ms.locfileid: "53935101"
   
    |속성|값|  
    |--------------|-----------|  
-   |**이름**|**텍스트 글꼴**|  
+   |**이름**|**textFont**|  
    |**Value2**|**이 텍스트의 서식을 변경 하는 확인란을 클릭 합니다.**|  
   
    그런 다음 옵션을 선택할 때 텍스트의 서식을 지정 하는 코드를 작성 합니다.  
@@ -160,7 +160,7 @@ ms.locfileid: "53935101"
 -   프로젝트를 배포 합니다. 자세한 내용은 [ClickOnce를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-clickonce.md)합니다.  
 -   단추를 사용하여 텍스트 상자를 채웁니다. 자세한 내용은 [연습: 단추를 사용 하 여 워크시트에 텍스트 상자에 텍스트 표시](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Excel을 사용 하 여 연습](../vsto/walkthroughs-using-excel.md)   
  [NamedRange 컨트롤](../vsto/namedrange-control.md)   
  [Office 문서의 Windows Forms 컨트롤의 제한 사항](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  

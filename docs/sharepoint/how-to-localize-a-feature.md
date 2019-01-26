@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - features [SharePoint development in Visual Studio]
 - SharePoint development in Visual Studio, localizing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 165eee357c001720af132236a8577f259efa4f24
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 26eb3a1352228d48fb451e3a3520162cdea18b73
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53887680"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867379"
 ---
 # <a name="how-to-localize-a-feature"></a>방법: 기능 지역화
   기능 제목 및 설명을 기본적으로 하드 코드 된 문자열 값을 사용합니다. 기능 제목 및 설명을 지역화 하려면 지역화 된 리소스를 참조 하는 식을 사용 하 여 문자열을 대체 합니다.  
@@ -43,7 +43,7 @@ ms.locfileid: "53887680"
   
 6.  지역화 하는 **제목** 및 **설명** 기능에서 필드 형식을 사용 하 여 다음 해당 상자에 값을 입력 합니다.  
   
-     `$Resources:` *문자열 ID*  
+     `$Resources:` *String ID*  
   
      $Resources 예를 들어, 입력:**제목** 에 **기능 제목** 상자 및 $Resources:**설명을** 에 **기능 설명** 상자 .  
   
@@ -57,7 +57,7 @@ ms.locfileid: "53887680"
   
      지역화 기능 제목 및 설명에는 응용 프로그램에 나타납니다. 지역화 된 리소스를 표시 하려면 SharePoint 서버에 리소스 파일의 문화권과 일치 하는 언어 팩 설치 되어 있어야 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 솔루션 지역화](../sharepoint/localizing-sharepoint-solutions.md)   
  [방법: 리소스 파일 추가](../sharepoint/how-to-add-a-resource-file.md)   
  [방법: ASPX 태그 지역화](../sharepoint/how-to-localize-aspx-markup.md)   

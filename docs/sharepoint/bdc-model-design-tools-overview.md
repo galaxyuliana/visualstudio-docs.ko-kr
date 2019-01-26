@@ -18,17 +18,17 @@ helpviewer_keywords:
 - Business Data Connectivity service [SharePoint development in Visual Studio], method details
 - BDC [SharePoint development in Visual Studio], BDC Explorer
 - BDC [SharePoint development in Visual Studio], designer
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e4b2a094d33088adb9aa3fc2c0fba953030c781b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 533a49db6e528ba75da9cbe232e7875413ed0724
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923337"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871494"
 ---
 # <a name="bdc-model-design-tools-overview"></a>BDC 모델 디자인 도구 개요
   BDC 디자이너를 사용 하 여 비즈니스 데이터 연결 (BDC) 모델을 디자인할 수는 **BDC 메서드 세부 정보** 창 및 **BDC 탐색기**합니다.  
@@ -73,7 +73,7 @@ ms.locfileid: "53923337"
   
  자세한 내용은 [방법: 매개 변수의 형식 설명자 정의](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [방법: BDC 모델 만들기](../sharepoint/how-to-create-a-bdc-model.md)   
  [방법: 모델에 엔터티 추가](../sharepoint/how-to-add-an-entity-to-a-model.md)   
  [방법: Finder 메서드 추가](../sharepoint/how-to-add-a-finder-method.md)   

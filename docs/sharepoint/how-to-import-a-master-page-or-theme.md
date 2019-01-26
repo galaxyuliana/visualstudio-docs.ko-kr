@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, importing items
 - importing items [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7341d12571143d2725b3dd05e5d8e9f03c7d9125
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: af0f7ad40c1e06f1c602f17ba6a80cf47b96ed0e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952920"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863372"
 ---
 # <a name="how-to-import-a-master-page-or-theme"></a>방법: 마스터 페이지 또는 테마 가져오기
   제공할 수 있습니다 페이지 SharePoint 사이트에서 일관 된 모양을 만들고 마스터 페이지 및 테마를 사용 하 여. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 이러한 요소에 대 한 템플릿을 제공 하지 않습니다 SharePoint Designer에서 만들고를 다음으로 가져와야 하지만 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 자세한 내용은 참조 하세요. [문서 블록: 페이지 및 사용자 인터페이스](http://go.microsoft.com/fwlink/?LinkID=182095) Microsoft 웹 사이트입니다.  
@@ -89,7 +89,7 @@ ms.locfileid: "53952920"
   
      마스터 페이지 또는 테마 목록 표시 되 고 가져온 테마 또는 마스터 페이지를 포함 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [마스터 페이지](http://go.microsoft.com/fwlink/?LinkId=184955)   
  [기존 SharePoint 사이트에서 항목 가져오기](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
  [SharePoint에 대 한 페이지 만들기](../sharepoint/creating-pages-for-sharepoint.md)   

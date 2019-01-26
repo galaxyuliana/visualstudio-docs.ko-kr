@@ -10,15 +10,15 @@ helpviewer_keywords:
 - ClickOnce deployment [Office development in Visual Studio], deploying solutions
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 448cd7ccd2c56ab9d7d7117c01f6c7f455aa53f4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8499e6f34ae43e0dfa64b98950316dc65227baac
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53946843"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863931"
 ---
 # <a name="deploy-an-office-solution-by-using-clickonce"></a>ClickOnce를 사용 하 여 Office 솔루션 배포
   ClickOnce를 사용하면 Office 솔루션을 더 적은 단계로 배포할 수 있습니다. 업데이트를 게시하는 경우 솔루션에서 자동으로 이를 감지하여 설치합니다. 그러나 ClickOnce에서는 컴퓨터의 각 사용자에 대해 별도로 솔루션을 설치하도록 합니다. Windows Installer를 사용 하 여 고려해 야 하므로 (*.msi*) 둘 이상의 사용자를 동일한 컴퓨터에 솔루션을 실행 합니다.
@@ -259,7 +259,7 @@ ms.locfileid: "53946843"
 
 3.  엽니다는 **ExcelWorkbook.dll.manifest** 메모장과 같은 텍스트 편집기에서 파일입니다.
 
-4.  `</vstav3:update>` 요소 뒤에 다음 코드를 추가합니다. 클래스 특성에 대 한는 `<vstav3:entryPoint>` 요소 구문을 사용 합니다. *NamespaceName.ClassName*합니다. 다음 예제에서는 네임스페이스 및 클래스 이름이 같기 때문에 결과 진입점 이름은 `FileCopyPDA.FileCopyPDA`입니다.
+4.  `</vstav3:update>` 요소 뒤에 다음 코드를 추가합니다. 클래스 특성에 대 한는 `<vstav3:entryPoint>` 요소 구문을 사용 합니다. *NamespaceName.ClassName*. 다음 예제에서는 네임스페이스 및 클래스 이름이 같기 때문에 결과 진입점 이름은 `FileCopyPDA.FileCopyPDA`입니다.
 
     ```xml
     <vstav3:postActions>

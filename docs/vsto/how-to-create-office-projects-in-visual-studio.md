@@ -20,15 +20,15 @@ helpviewer_keywords:
 - application-level add-ins [Office development in Visual Studio], creating projects
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 66263d8453fc550f0edb9c81d9c424f04a07c1b0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 38be1ae60dd86160bc9b107ffc0bdd19f7a1e56d
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902242"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867184"
 ---
 # <a name="how-to-create-office-projects-in-visual-studio"></a>방법: Visual Studio에서 Office 프로젝트 만들기
   사용할 수 있습니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 만들려면 vsto 추가 기능과 문서 수준 사용자 지정 Microsoft Office 응용 프로그램에 대 한 합니다. 이러한 형식의 프로젝트에 대 한 자세한 내용은 참조 하세요. [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.  
@@ -61,7 +61,7 @@ ms.locfileid: "53902242"
   
     위치 형식은 다음과 같습니다.  
   
-   * [*드라이브*\]\:  
+   * [*drive*\]\:  
   
    * \\\\*서버*\\*공유*  
   
@@ -123,7 +123,7 @@ ms.locfileid: "53902242"
   
     위치 형식은 다음과 같습니다.  
   
-   - [*드라이브*\]\:  
+   - [*drive*\]\:  
   
    - \\\\*서버*\\*공유*  
   
@@ -158,7 +158,7 @@ ms.locfileid: "53902242"
   
      신뢰할 수 있는 위치에 문서를 추가 하는 방법에 대 한 자세한 내용은 Microsoft Office 온라인 웹 사이트를 참조 하세요 [만들기, 제거 또는 변경 프로그램 파일에 대 한 신뢰할 수 있는 위치](https://support.office.com/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 프로젝트 템플릿 개요](../vsto/office-project-templates-overview.md)   
  [Office 솔루션 공동 개발](../vsto/collaborative-development-of-office-solutions.md)   
  [Office 솔루션을 만들고 디자인](../vsto/designing-and-creating-office-solutions.md)   

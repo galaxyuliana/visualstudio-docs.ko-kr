@@ -14,15 +14,15 @@ helpviewer_keywords:
 - calling code from VBA
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5c347000d75beb628c01c5a8f8275d4755db776f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 14ea47b000adb3f60a0925659ff869d25e8ed8f4
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53910271"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874875"
 ---
 # <a name="call-code-in-vsto-add-ins-from-other-office-solutions"></a>다른 Office 솔루션에서 VSTO 추가 기능의 코드 호출
   VSTO 추가 기능의 개체를 다른 Microsoft Office 솔루션을 비롯한 다른 솔루션에 노출할 수 있습니다. 이는 해당 VSTO 추가 기능이 다른 솔루션에서 사용하도록 하려는 서비스를 제공하는 경우에 유용합니다. 예를 들어, 웹 서비스의 재무 데이터에 대해 계산을 수행 하는 Microsoft Office Excel 용 VSTO 추가 기능에 있는 경우 다른 솔루션은 Excel VSTO 추가 기능을 런타임에 호출 하 여 이러한 계산을 수행할 수 있습니다.  

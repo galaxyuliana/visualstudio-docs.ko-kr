@@ -14,17 +14,17 @@ helpviewer_keywords:
 - dates, storing in Excel ranges
 - ranges, storing date values
 - date values
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a28a357aa6a01615d269c6fba41c690f41c7b93d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 24155f9ea8703d7089714a9b0adce9310612a4ea
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863906"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872718"
 ---
 # <a name="how-to-programmatically-store-and-retrieve-date-values-in-excel-ranges"></a>방법: 프로그래밍 방식으로 저장 하 고 Excel 범위에서 날짜 값 검색
   저장할 수 있으며 값을 검색 한 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 또는 네이티브 Excel 범위 개체입니다.  
@@ -80,7 +80,7 @@ ms.locfileid: "53863906"
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#27](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#27)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#27](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#27)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [범위를 사용 하 여 작동 합니다.](../vsto/working-with-ranges.md)   
  [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)   
  [NamedRange 컨트롤](../vsto/namedrange-control.md)   

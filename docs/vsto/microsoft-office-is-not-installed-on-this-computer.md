@@ -7,17 +7,17 @@ f1_keywords:
 dev_langs:
 - VB
 - CSharp
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0f1bfb5a4b46e7f965e66e82ee1506252bd3eba1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f07b17ddb38ad94709739dcc9e0b3489220c2c0b
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873923"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54862984"
 ---
 # <a name="microsoft-office-is-not-installed-on-the-computer"></a>컴퓨터의 Microsoft Office가 설치 되지
   Visual Studio에서는 프로젝트 형식에 해당하는 Microsoft Office 애플리케이션을 찾을 수 없습니다. VSTO 추가 기능 프로젝트를 개발 하는 경우 디버그 하거나 프로젝트를 실행할 수를 의미 합니다. 문서 수준 프로젝트를 만들려고 하는 경우 프로젝트를 만들 수 없다는 의미입니다.  

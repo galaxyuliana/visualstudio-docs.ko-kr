@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, packages
 - packages [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0d275b7d2e4ccfea5d89148b6b46883fa32e6560
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 059bf8068ad3a14d01f0a8167900563eebdff215
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53966666"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867990"
 ---
 # <a name="create-sharepoint-solution-packages"></a>SharePoint 솔루션 패키지 만들기
   패키지 디자이너를 사용 하 여 만들 수 있으며 배포 패키지를 사용자 지정 키를 누릅니다. 예를 들어, SharePoint 프로젝트 항목 및 기능을 IIS 서버를 다시 설정, 기능 활성화 범위를 설정 및 기능 종속성을 식별을 추가할 수 있습니다. 또한 디자이너는 각 패키지를 설명 하는 XML 파일인 매니페스트를 생성 합니다.  
@@ -37,7 +37,7 @@ ms.locfileid: "53966666"
 |-------------------------------|------------------------------------|  
 |이름|필수 요소. 패키지의 기본 이름을 되어 *ProjectName*합니다.|  
 |웹 서버를 다시 설정|선택 사항입니다. 한 후에 웹 서버를 다시 시작 하려는 경우 선택 합니다 *.wsp* 파일이 SharePoint 서버에 설치 됩니다.|  
-|배포 서버 유형|필수 요소. 기본적으로 범위 ApplicationServer에 설정 됩니다.<br /><br /> ApplicationServer. 서비스를 호스팅하는 서버를 설명 합니다.<br /><br /> WebFrontEnd: 웹 사이트를 호스팅하는 서버를 설명 합니다.|  
+|배포 서버 유형|필수 요소. 기본적으로 범위 ApplicationServer에 설정 됩니다.<br /><br /> ApplicationServer: 서비스를 호스팅하는 서버를 설명 합니다.<br /><br /> WebFrontEnd: 웹 사이트를 호스팅하는 서버를 설명 합니다.|  
 |솔루션의 항목|모든 SharePoint 프로젝트 항목 및 패키지에 추가할 수 있는 기능입니다.|  
 |패키지에는 항목|선택 사항입니다. 모든 SharePoint 항목 및 패키지에 배포 하려는 하는 기능입니다.|  
   
@@ -71,7 +71,7 @@ ms.locfileid: "53966666"
 ## <a name="package-folder-structure"></a>패키지 폴더 구조
  SharePoint 프로젝트를 패키지할 때는 *.wsp* 에서 파일을 만들 합니다 *SolutionFolder\bin\\\<BuildConfiguration >* 폴더입니다. 예를 들어 솔루션이 *C:\Visual Studio 2013\Projects\ListDefinition1* 빌드 구성이 릴리스로 설정 됩니다 및 합니다 *.wsp* 파일은 *C:\Visual Studio 2013\ Projects\ListDefinition1\bin\Release*합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [방법: SharePoint 솔루션 패키지 사용자 지정](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)  
  [방법: 추가 및 패키지 디자이너를 사용 하 여 패키지에 기능과 항목 제거](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md)   
  [방법: MSBuild 작업을 사용 하 여 SharePoint 솔루션 패키지 만들기](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)   

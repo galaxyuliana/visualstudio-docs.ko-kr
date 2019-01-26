@@ -10,15 +10,15 @@ helpviewer_keywords:
 - controls [Office development in Visual Studio], adding to worksheets
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 891b7fbbc4f2bf0fc0fa40fe983435a19978d081
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fc0b8a8b22459c386d856c3992059f390f363aea
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53909062"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868981"
 ---
 # <a name="how-to-add-listobject-controls-to-worksheets"></a>방법: 워크시트에 ListObject 컨트롤 추가
   추가할 수 있습니다 <xref:Microsoft.Office.Tools.Excel.ListObject> 디자인 타임 및 런타임에 문서 수준 프로젝트에서 Microsoft Office Excel 워크시트에 컨트롤입니다.  
@@ -86,7 +86,7 @@ ms.locfileid: "53909062"
      [!code-csharp[Trin_Excel_Dynamic_Controls#8](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#8)]
      [!code-vb[Trin_Excel_Dynamic_Controls#8](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#8)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Word 문서 및 런타임에 VSTO 추가 기능에서 Excel 통합 문서 확장](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)   
  [Office 문서의 컨트롤](../vsto/controls-on-office-documents.md)   
  [ListObject 컨트롤](../vsto/listobject-control.md)   

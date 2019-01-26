@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - Ribbon [Office development in Visual Studio], tabs
 - Developer tab [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c8346a1f23cc9aa02291aa994a0cea51b7810345
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 30ff440914448a08ae7d2d50319fbc91e9a43ee2
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53906802"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869738"
 ---
 # <a name="how-to-show-the-developer-tab-on-the-ribbon"></a>방법: 리본 메뉴에 개발 도구 탭 표시
   액세스 하는 **개발자** 탭 Office 응용 프로그램의 리본에서 기본적으로 표시 되지 않으므로 해당 탭을 표시 하도록 구성 해야 있습니다. 예를 표시 Word의 문서 수준 사용자 지정에 <xref:Microsoft.Office.Tools.Word.GroupContentControl>을 추가하려면 해당 탭을 표시해야 합니다.  

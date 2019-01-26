@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Outlook [Office development in Visual Studio], mail items
 - mail items [Office development in Visual Studio]
 - mail items [Office development in Visual Studio], about mail items
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c331840a47df154d15840a41b6086a8e70c3a735
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2cd75db70cb6b6b2afb7c4547c29ca372b4efdbe
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926849"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871080"
 ---
 # <a name="work-with-mail-items"></a>메일 항목 작업
   <xref:Microsoft.Office.Interop.Outlook.MailItem> 클래스 메서드 및 전자 메일 메시지를 사용 하 여 작업을 수행 하는 데 사용할 속성을 포함 합니다.  

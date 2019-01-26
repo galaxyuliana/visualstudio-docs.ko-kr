@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, MSBuild properties
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5cb56698d01739f632f56da061f447ace1153212
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 242412c5cf29a39294c7f223d5ebf34b56b6ea82
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53900973"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866755"
 ---
 # <a name="msbuild-properties-supported-by-sharepoint"></a>SharePoint에서 지 원하는 MsBuild 속성
   모든 [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] Microsoft.VisualStudio.SharePoint.targets 파일, 프로젝트 파일 또는 프로젝트 사용자 파일에 정의 된 속성에서 사용할 수 있습니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다. 일반적인 외에도 [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] SharePoint 프로젝트에 관련 된 추가 속성을 정의 하는 프로젝트를 SharePoint에서 제공 하는 속성입니다.  
@@ -51,6 +51,6 @@ ms.locfileid: "53900973"
 > [!NOTE]  
 >  하나를 사용 합니다 [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] 변수 구문의 `$(` *propertyName* `)` 또는 환경 변수 구문을 `%` *propertyName* `%` 속성을 지정 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [MSBuild 참조](../msbuild/msbuild-reference.md)  

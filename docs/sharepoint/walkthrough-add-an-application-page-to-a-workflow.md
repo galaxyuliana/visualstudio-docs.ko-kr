@@ -10,17 +10,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, adding applications page to workflow
 - application page [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: cb0dfa7212cae1dd4e7c62f71f423c0f8fd275d9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 930252a509466fa65a7cbdf2eabac35cfeb25081
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53938201"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865832"
 ---
 # <a name="walkthrough-add-an-application-page-to-a-workflow"></a>연습: 워크플로에 응용 프로그램 페이지 추가
   이 연습에서는 워크플로 프로젝트에는 워크플로에서 파생 된 데이터를 표시 하는 응용 프로그램 페이지를 추가 하는 방법에 설명 합니다. 항목에서 설명한 프로젝트 기반 [연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만드는](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)합니다.
@@ -347,7 +347,7 @@ ms.locfileid: "53938201"
 
 -   [웹 파트 또는 응용 프로그램 페이지에 대 한 재사용 가능한 컨트롤 만들기](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만들기](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)
 - [방법: 응용 프로그램 페이지 만들기](../sharepoint/how-to-create-an-application-page.md)

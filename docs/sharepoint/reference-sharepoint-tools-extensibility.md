@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, reference for project and tools extensibility
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ffc082f992542f54c9545e9567a924b5480fc8b5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 592720bfce0ed4f05442f82c5c972d63f0d9ad2a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53847050"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868016"
 ---
 # <a name="reference-sharepoint-tools-extensibility"></a>참조 (SharePoint 도구 확장성)
   이 섹션에서는 Visual Studio에서 SharePoint 도구 확장에 대 한 참조 설명서를 포함 합니다.  
@@ -29,5 +29,5 @@ ms.locfileid: "53847050"
  [API 참조 &#40;SharePoint 도구 확장성&#41;](../sharepoint/api-reference-sharepoint-tools-extensibility.md)  
  Visual Studio에서 SharePoint 도구 확장에 대 한 API 참조 설명서를 포함 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [Visual Studio에서 SharePoint 도구 확장](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)  

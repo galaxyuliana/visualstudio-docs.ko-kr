@@ -13,15 +13,15 @@ helpviewer_keywords:
 - Ribbon [Office development in Visual Studio], Outlook
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 58d1acb1c62e4a79226eb3ab5da0b95ccc2156e5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7e7b99272e4ef7ca59566c3de0ab9f89804d4cbd
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53932368"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863632"
 ---
 # <a name="customize-a-ribbon-for-outlook"></a>Outlook의 리본을 사용자 지정
   Microsoft Office Outlook에서 리본을 사용자 지정할 경우 응용 프로그램에서 사용자 지정 리본이 나타나는 위치를 고려해야 합니다. Outlook에서 리본은 사용자가 메일 메시지 만들기 등의 특정 작업을 수행할 때 열리는 창과 기본 응용 프로그램 UI(사용자 인터페이스)에 표시됩니다. 이러한 응용 프로그램 창의 이름을 검사기라고 합니다.  
@@ -50,7 +50,7 @@ ms.locfileid: "53932368"
  [!code-csharp[Trin_RibbonOutlookBasic#1](../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs#1)]
  [!code-vb[Trin_RibbonOutlookBasic#1](../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb#1)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [런타임에 리본 메뉴에 액세스](../vsto/accessing-the-ribbon-at-run-time.md)   
  [리본 개요](../vsto/ribbon-overview.md)   
  [리본 디자이너](../vsto/ribbon-designer.md)   

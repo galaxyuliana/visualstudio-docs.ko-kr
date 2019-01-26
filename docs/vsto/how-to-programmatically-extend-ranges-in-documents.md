@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - ranges, extending
 - documents [Office development in Visual Studio], extending ranges
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4f6bfb4979285753a5dd15dd4fe4dabfab013309
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ed2df2d844383ab0cfc26d67104d03644e1db671
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53919666"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868864"
 ---
 # <a name="how-to-programmatically-extend-ranges-in-documents"></a>방법: 프로그래밍 방식으로 문서의 범위 확장
   Microsoft Office Word 문서에서 <xref:Microsoft.Office.Interop.Word.Range> 개체를 정의한 후 <xref:Microsoft.Office.Interop.Word.Range.MoveStart%2A> 및 <xref:Microsoft.Office.Interop.Word.Range.MoveEnd%2A> 메서드를 사용하여 해당 개체의 시작점과 끝점을 변경합니다. <xref:Microsoft.Office.Interop.Word.Range.MoveStart%2A> 하 고 <xref:Microsoft.Office.Interop.Word.Range.MoveEnd%2A> 메서드는 동일한 두 개의 인수를 *단위* 및 *개수*합니다. 합니다 *개수* 인수는 이동할 단위의 수와 *단위* 인수는 다음 중 하나일 수 있습니다 <xref:Microsoft.Office.Interop.Word.WdUnits> 값:  

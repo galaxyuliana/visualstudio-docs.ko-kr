@@ -9,17 +9,17 @@ helpviewer_keywords:
 - data binding [Office development in Visual Studio], Excel
 - data [Office development in Visual Studio], binding data
 - complex data [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ce629e01192137474382452690e6d7051bb163ac
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f9346b448a64e6e1e89081d628865911897e37eb
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53831773"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867561"
 ---
 # <a name="walkthrough-complex-data-binding-in-vsto-add-in-project"></a>연습: VSTO 추가 기능 프로젝트의 복합 데이터 바인딩
   VSTO 추가 기능 프로젝트에서 호스트 컨트롤 및 Windows Forms 컨트롤에 데이터를 바인딩할 수 있습니다. 이 연습에서는 Microsoft Office Excel 워크시트에 컨트롤을 추가하고 런타임에 컨트롤을 데이터에 바인딩하는 방법을 보여 줍니다.

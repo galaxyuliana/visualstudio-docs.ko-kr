@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, importing items
 - importing items [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f7901bfea334ff3d9ad6d197bf64b3f1a87961a9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 384b96364af71436c3f769ea1da3a7515185696c
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53904155"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863866"
 ---
 # <a name="walkthrough-import-a-custom-master-page-and-site-page-with-an-image"></a>연습: 사용자 지정 마스터 페이지 및 사이트 페이지를 이미지로 가져오기
   이 연습에서는 SharePoint 사용자 지정 마스터 페이지와 이미지가 있는 사이트 페이지를 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다.  
@@ -40,7 +40,7 @@ ms.locfileid: "53904155"
 
 -   Visual Studio.  
 
--   SharePoint Designer 2010입니다.  
+-   SharePoint Designer 2010.  
 
 ## <a name="create-items-in-sharepoint-designer"></a>SharePoint Designer에서 항목 만들기
  이 예제에는 내보내기에 대 한 SharePoint Designer에서 세 개의 항목을 만드는 방법을 보여 줍니다: 사용자 지정 마스터 페이지, 사용자 지정 마스터 페이지 및 사이트 페이지에 표시할 이미지 파일을 참조 하는 사이트 페이지입니다. 이미지는 SharePoint /images/ 폴더에 추가 됩니다.  
@@ -178,7 +178,7 @@ ms.locfileid: "53904155"
 
    대안에는 파일을 가져오는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 하 고 배포 합니다 SharePoint 파일의 모듈에 추가 하는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [어떻게: 마스터 페이지 또는 테마 가져오기](../sharepoint/how-to-import-a-master-page-or-theme.md) 하 고 [모듈을 사용 하 여 솔루션에 파일을 포함](../sharepoint/using-modules-to-include-files-in-the-solution.md)합니다.  
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [기존 SharePoint 사이트에서 항목 가져오기](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
  [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)   
  [웹 파트 또는 응용 프로그램 페이지에 대 한 재사용 가능한 컨트롤 만들기](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  

@@ -9,17 +9,17 @@ helpviewer_keywords:
 - controls [Office development in Visual Studio], validating data
 - ListObject control, new row
 - ListObject control, validating data
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1f6fd03238f9b477f7530353b8b10afb71a41edd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4820acb20b8eadfd79b3d2a22714dbfee5a75cb7
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989843"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54862358"
 ---
 # <a name="how-to-validate-data-when-a-new-row-is-added-to-a-listobject-control"></a>방법: ListObject 컨트롤에는 새 행을 추가할 때 데이터 유효성 검사
   사용자는 데이터에 바인딩된 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤에 새 행을 추가할 수 있습니다. 데이터 원본에 대한 변경 내용을 커밋하기 전에 사용자 데이터의 유효성을 확인할 수 있습니다.  

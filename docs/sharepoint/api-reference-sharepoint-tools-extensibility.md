@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, reference for project and tools extensibility
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 202ddd802978c54c7ba773919ed3fd66a406cc05
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e8e300307405f30e812067144fd5293411889743
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987248"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866768"
 ---
 # <a name="api-reference-sharepoint-tools-extensibility"></a>API 참조 (SharePoint 도구 확장성)
   이 섹션에서는 Visual Studio에서 SharePoint 도구 확장에 대 한 API 참조 설명서를 포함 합니다.  
@@ -56,7 +56,7 @@ ms.locfileid: "53987248"
  <xref:Microsoft.VisualStudio.SharePoint.Validation>  
  SharePoint 프로젝트의 기능 및 패키지 유효성 검사 동작을 사용자 지정하는 데 사용하는 형식을 포함합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [참조 &#40;SharePoint 도구 확장성&#41;](../sharepoint/reference-sharepoint-tools-extensibility.md)   
  [SharePoint의 프로그래밍 모델 개요 도구 확장](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)   
  [SharePoint 프로젝트 시스템 확장](../sharepoint/extending-the-sharepoint-project-system.md)   

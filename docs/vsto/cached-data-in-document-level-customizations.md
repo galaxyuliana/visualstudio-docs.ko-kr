@@ -15,15 +15,15 @@ helpviewer_keywords:
 - document-level customizations [Office development in Visual Studio], data model
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 25cfbeba37be0d11e05b4524f5e683cfa798da6e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 74a6c196bbde0ae6765627e768dd926b992d374d
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964652"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868276"
 ---
 # <a name="cached-data-in-document-level-customizations"></a>문서 수준 사용자 지정의 캐시 된 데이터
   문서 수준 사용자 지정의 주된 목적은 Office 문서에는 보기에서 데이터를 분리 하는 것입니다. 데이터 숫자와 텍스트를 포함 하 여 문서에 저장 된 정보를 가리킵니다. 보기는 사용자 인터페이스와 Microsoft Office Word 및 Microsoft Office Excel의 개체 모델을 가리킵니다.  
@@ -56,10 +56,10 @@ ms.locfileid: "53964652"
   
 ||데이터 캐시|사용자 지정 XML 부분|  
 |-|----------------|----------------------|  
-|Office 응용 프로그램 사용할 수 있습니다.|다음 응용 프로그램에 대 한 문서 수준 사용자 지정 합니다.<br /><br /> -Excel<br />단어|다음 응용 프로그램에 대 한 문서 수준 및 응용 프로그램 수준 솔루션:<br /><br /> -Excel<br />-PowerPoint<br />단어|  
+|Office 응용 프로그램 사용할 수 있습니다.|다음 응용 프로그램에 대 한 문서 수준 사용자 지정 합니다.<br /><br /> -   Excel<br />-   Word|다음 응용 프로그램에 대 한 문서 수준 및 응용 프로그램 수준 솔루션:<br /><br /> -   Excel<br />-   PowerPoint<br />-   Word|  
 |어떤 유형의 데이터를 저장할 수 있습니다?|특정 요구 사항을 충족 하는 사용자 지정 어셈블리의 모든 공용 개체입니다. 자세한 내용은 [데이터 캐시](../vsto/caching-data.md)합니다.|모든 XML 데이터입니다.|  
 |Microsoft Office 응용 프로그램을 시작 하지 않고 데이터에 액세스할 수 있습니다.|사용 하 여 예는 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 에서 제공 하는 클래스는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]합니다.|클래스를 사용 하 여 예는 <xref:System.IO.Packaging> 네임 스페이스 또는 Open XML 형식 SDK를 사용 하 여 합니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션의 데이터](../vsto/data-in-office-solutions.md)   
  [Visual Studio에서 Office 솔루션의 아키텍처](../vsto/architecture-of-office-solutions-in-visual-studio.md)  

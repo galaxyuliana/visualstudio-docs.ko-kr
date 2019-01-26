@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint project service
 - SharePoint development in Visual Studio, extensibility features
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a8416d38629c8970e9cc90e0d873138970b16258
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 90df435e2c6c20b43d12169b32780eefc22c1d70
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875821"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871548"
 ---
 # <a name="use-the-sharepoint-project-service"></a>SharePoint 프로젝트 서비스 사용
   SharePoint 프로젝트 시스템에는 프로젝트 시스템과 관련된 작업을 수행하는 데 사용할 수 있는 프로젝트 서비스가 포함되어 있습니다. 프로젝트 서비스는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> 개체입니다.  

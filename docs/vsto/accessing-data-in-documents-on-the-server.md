@@ -11,15 +11,15 @@ helpviewer_keywords:
 - data access [Office development in Visual Studio]
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9d815178e772e391eb19eb43b5870fbcd9dbdaa6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ef03779b541e4d6de99caf402793d62eeee68f3a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53858106"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866227"
 ---
 # <a name="access-data-in-documents-on-the-server"></a>서버에 있는 문서의 데이터에 액세스
   Microsoft Office Word 또는 Microsoft Office Excel의 개체 모델을 사용 하지 않고도 데이터를 문서 수준 사용자 지정에 대해 프로그래밍할 수 있습니다. 즉, 단어 없는 서버의 문서에 포함 된 데이터에 액세스할 수 있습니다 하거나 Excel이 설치 되어 있습니다. 예를 들어 서버에서 코드 (예를 들어는 [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] 페이지) 문서에서 데이터를 사용자 지정 하 고 최종 사용자에 게 사용자 지정된 된 문서를 보낼 수입니다. 최종 사용자가 문서를 열면 솔루션 어셈블리에 데이터 바인딩 코드가 문서에 사용자 지정된 데이터를 바인딩합니다. 문서의 데이터는 사용자 인터페이스에서 구분 하기 때문에 이것이 가능 합니다. 자세한 내용은 [문서 수준 사용자 지정에서 캐시 된 데이터](../vsto/cached-data-in-document-level-customizations.md)입니다.

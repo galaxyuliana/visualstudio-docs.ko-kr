@@ -14,15 +14,15 @@ helpviewer_keywords:
 - worksheets, populating with data
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 970e30245840d82efbd7b02bbde0f4d8b202eaa4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a41c9c630eb95fbd0fed2b9ca2f05d56eff65c44
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53925630"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865586"
 ---
 # <a name="how-to-fill-listobject-controls-with-data"></a>방법: ListObject 컨트롤을 데이터로 채우기
   신속하게 문서에 데이터를 추가하는 방법으로 데이터 바인딩을 사용할 수 있습니다. 목록 개체에 데이터를 바인딩한 후 해당 데이터를 표시하지만 더 이상 데이터 원본에 바인딩되지 않도록 목록 개체의 연결을 끊을 수 있습니다.  
@@ -38,7 +38,7 @@ ms.locfileid: "53925630"
      [!code-csharp[Trin_VstcoreHostControlsExcel#20](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet4.cs#20)]
      [!code-vb[Trin_VstcoreHostControlsExcel#20](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet4.vb#20)]  
   
-2.  `Sheet1` 클래스(문서 수준 프로젝트) 또는 `ThisAddIn` 클래스(응용 프로그램 수준 프로젝트)의 `Startup` 이벤트 처리기에서 샘플 열과 데이터를 추가합니다.  
+2.  `Startup` 클래스(문서 수준 프로젝트) 또는 `Sheet1` 클래스(애플리케이션 수준 프로젝트)의 `ThisAddIn` 이벤트 처리기에서 샘플 열과 데이터를 추가합니다.  
   
      [!code-csharp[Trin_VstcoreHostControlsExcel#21](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet4.cs#21)]
      [!code-vb[Trin_VstcoreHostControlsExcel#21](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet4.vb#21)]  

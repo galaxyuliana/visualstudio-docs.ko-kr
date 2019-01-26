@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - document properties, inserting in Word tables
 - documents [Office development in Visual Studio], document properties
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aeb4d61211f6b65bf700adf1a52ee4b17ed36008
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cfc5885ffc3c16c937781b991e1d8d83b632bbb6
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53893894"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54862852"
 ---
 # <a name="how-to-programmatically-populate-word-tables-with-document-properties"></a>방법: 프로그래밍 방식으로 문서 속성을 사용 하 여 Word 표 채우기
   다음 예제에서는 문서의 맨 위에 Microsoft Office Word 표를 만들고 호스트 문서의 속성으로 채웁니다.  
@@ -93,7 +93,7 @@ ms.locfileid: "53893894"
    [!code-vb[Trin_VstcoreWordAutomationAddIn#89](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#89)]
    [!code-csharp[Trin_VstcoreWordAutomationAddIn#89](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#89)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: 프로그래밍 방식으로 Word 표 만들기](../vsto/how-to-programmatically-create-word-tables.md)   
  [방법: 프로그래밍 방식으로 추가 되는 텍스트 및 Word 표 셀에에서 서식 지정](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)   
  [방법: 프로그래밍 방식으로 Word 표에 행 및 열 추가](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)   

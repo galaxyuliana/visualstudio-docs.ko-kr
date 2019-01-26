@@ -23,15 +23,15 @@ helpviewer_keywords:
 - Office projects [Office development in Visual Studio], Excel
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 38db6bf4c29694813b41a88b0d5d62a1672cd6b4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cb370be32929436fb6d37ff70837470ee8196689
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856857"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863801"
 ---
 # <a name="excel-solutions"></a>Excel 솔루션
   Visual Studio에서는 Microsoft Office Excel용 VSTO 추가 기능 및 문서 수준 사용자 지정을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. 이러한 솔루션을 사용하여 Excel을 자동화하고, Excel 기능을 확장한 다음 Excel UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. 문서 수준 사용자 지정 및 VSTO 추가 기능 간의 차이점에 대 한 자세한 내용은 참조 하세요. [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.  

@@ -12,15 +12,15 @@ helpviewer_keywords:
 - events [Office development in Visual Studio]
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 338aefadd88c80c533912be3524a496dab932ba9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f2a7661a1bce8e1ff6152040fe5b8d5567b55c7e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53859843"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863840"
 ---
 # <a name="how-to-create-event-handlers-in-office-projects"></a>방법: Office 프로젝트에서 이벤트 처리기 만들기
   Visual Basic 및 C#에서 이벤트 처리기를 만드는 방법은 여러 가지가 있습니다. 디자인 뷰에서 컨트롤을 두 번 클릭 하 여 기본 컨트롤에 대 한 이벤트 처리기 만들기 또는 이벤트 창 수를 **속성** 창 컨트롤에서 모든 이벤트에 대 한 처리기를 만들려고 합니다. 그러나 코드 보기에 있는 경우 있습니다 하지 않을 이벤트 처리기를 만들 디자인 뷰로 전환 합니다.  

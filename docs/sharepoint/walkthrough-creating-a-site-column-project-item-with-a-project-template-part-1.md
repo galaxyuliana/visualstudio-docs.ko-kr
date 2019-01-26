@@ -10,17 +10,17 @@ helpviewer_keywords:
 - project items [SharePoint development in Visual Studio], defining your own types
 - SharePoint projects, creating custom templates
 - SharePoint development in Visual Studio, defining new project item types
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f6c683166eb2192a32e1d829800abed16db43e0c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f9edaadff5fd1e4f180f38b7609c90c031656792
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53832153"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864607"
 ---
 # <a name="walkthrough-create-a-site-column-project-item-with-a-project-template-part-1"></a>연습: 1 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기
   SharePoint 프로젝트는 하나 이상의 SharePoint 프로젝트 항목에 대 한 컨테이너입니다. SharePoint 프로젝트 항목 형식을 사용자를 만들고 프로젝트 템플릿을 사용 하 여 연결 하 여 Visual Studio에서 SharePoint 프로젝트 시스템을 확장할 수 있습니다. 이 연습에서는 사이트 열을 만들기 위한 프로젝트 항목 형식을 정의 하 고 사이트 열 프로젝트 항목을 포함 하는 새 프로젝트를 만드는 데 사용할 수 있는 프로젝트 템플릿을 만듭니다.
@@ -111,7 +111,7 @@ ms.locfileid: "53832153"
 
     -   *Settings.Designer.vb*
 
-    -   생성 되는 Settings.settings
+    -   Settings.settings
 
 #### <a name="to-create-the-extension-project"></a>확장 프로젝트를 만들려면
 
@@ -230,7 +230,7 @@ ms.locfileid: "53832153"
 
 - *Feature1.feature*
 
-- *패키지*
+- *Package.package*
 
 - *SiteColumnProjectTemplate.vstemplate*
 

@@ -9,17 +9,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, packages
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e9653fe6ab79e3615ecb231d19dd9ee20133faf6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 242ba7fa389a832b1299f00c47ba22a67efc5fbc
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53887012"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873641"
 ---
 # <a name="how-to-add-and-remove-additional-assemblies"></a>방법: 추가 어셈블리 추가 및 제거
   SharePoint 패키지 기능이 나 데이터를 위한 다른 어셈블리에 의존 하는 경우에 솔루션 패키지 (.wsp)에 어셈블리를 추가할 수 있습니다. 이러한 방식으로 SharePoint 서버는 사용자 지정 어셈블리는 패키지를 사용 하 여 설치 해야 합니다.  
@@ -108,7 +108,7 @@ ms.locfileid: "53887012"
   
 3.  Delete 키를 선택 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 기능 만들기](../sharepoint/creating-sharepoint-features.md)   
  [방법: SharePoint 기능 사용자 지정](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
  [방법: SharePoint 기능에 항목 추가 및 제거](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   

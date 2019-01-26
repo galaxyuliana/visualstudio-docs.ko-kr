@@ -12,15 +12,15 @@ helpviewer_keywords:
 - spelling, checking in worksheets
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1aa881034458405babbe7777e1d5c689ed1b05c9
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 4b7537d531197a9f9487bddfe3628cc52077d332
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54090508"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54862293"
 ---
 # <a name="how-to-programmatically-check-spelling-in-worksheets"></a>방법: 프로그래밍 방식으로 워크시트에서 맞춤법 검사
   프로그래밍 방식으로 워크시트에 있는 단어의 맞춤법을 검사할 수 있습니다. 워크시트에 맞춤법이 잘못된 단어가 있으면 **맞춤법 검사** 대화 상자가 자동으로 나타납니다.  
@@ -41,7 +41,7 @@ ms.locfileid: "54090508"
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#22](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#22)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#22](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#22)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [워크시트 작업](../vsto/working-with-worksheets.md)   
  [방법: 프로그래밍 방식으로 Excel 계산 실행](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)   
  [NamedRange 컨트롤](../vsto/namedrange-control.md)   

@@ -15,17 +15,17 @@ helpviewer_keywords:
 - Excel [Office development in Visual Studio], workbooks
 - workbooks, events
 - events [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f15d93818c2db553d22d9639e6460f6637d33c80
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 96adc07fb9be28e3d45a16e010eac9baf125dd42
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952890"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54863021"
 ---
 # <a name="workbook-host-item"></a>통합 문서 호스트 항목
   <xref:Microsoft.Office.Tools.Excel.Workbook> 호스트 항목은 Excel용 주 interop 어셈블리의 <xref:Microsoft.Office.Interop.Excel.Workbook> 형식을 확장한 형식입니다. <xref:Microsoft.Office.Tools.Excel.Workbook> 호스트 항목은 <xref:Microsoft.Office.Interop.Excel.Workbook> 개체와 동일한 속성, 메서드 및 이벤트를 제공하지만 추가 기능도 제공합니다.  

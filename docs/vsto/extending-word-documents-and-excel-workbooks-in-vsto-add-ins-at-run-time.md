@@ -15,15 +15,15 @@ helpviewer_keywords:
 - HasVstoObject method
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a93923525ce1a3c1a3396963f05b2f0335a8f635
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8c3527070c1934c723b6038c93347f1a78ac948a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53909193"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864880"
 ---
 # <a name="extend-word-documents-and-excel-workbooks-in-vsto-add-ins-at-runtime"></a>Word 문서 및 런타임에 VSTO 추가 기능에서 Excel 통합 문서 확장
   VSTO 추가 기능을 사용하여 다음과 같은 방법으로 Word 문서 및 Excel 통합 문서를 사용자 지정할 수 있습니다.  

@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - controls [Office development in Visual Studio], resizing
 - Bookmark control, resizing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1a700164ceea11bf83467048140c79723908b619
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f23094aae38cb1b0dc89a2b30ab7a812d7a9cb66
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942452"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869803"
 ---
 # <a name="how-to-resize-bookmark-controls"></a>방법: 책갈피 컨트롤 크기 조정
   Microsoft Office Word 문서에 추가할 때 <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤의 크기를 설정합니다. 나중에 크기를 조정할 수도 있습니다.  

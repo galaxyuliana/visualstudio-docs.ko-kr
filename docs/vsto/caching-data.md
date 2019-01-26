@@ -11,15 +11,15 @@ helpviewer_keywords:
 - data caching [Office development in Visual Studio]
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 66113dae824397f46829a539a016f452cedc0383
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4bdd98dfc9437fb9090ce813f7d8458747b20196
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967257"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54866742"
 ---
 # <a name="cache-data"></a>데이터 캐시
   오프 라인으로 또는 Microsoft Office Word 또는 Microsoft Office Excel을 열지 않고 데이터를 사용할 수 있도록 문서 수준 사용자 지정 데이터 개체를 캐시할 수 있습니다. 개체를 캐시 하려면 개체의 특정 요구 사항을 충족 하는 데이터 형식이 있어야 합니다. .NET Framework의 많은 일반적인 데이터 형식을 포함 하는 이러한 요구 사항을 충족 <xref:System.String>하십시오 <xref:System.Data.DataSet>, 및 <xref:System.Data.DataTable>합니다.  
@@ -83,7 +83,7 @@ ms.locfileid: "53967257"
   
  사용 하 여 개체를 추가 하는 경우를 **null** 데이터 캐시를 사용 하 여 값을 <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> 특성 디자인 타임에 사용할 수 있습니다는 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 문서를 열기 전에 캐시 된 데이터를 초기화 하기 위해 클래스 개체입니다. Word 또는 Excel을 최종 사용자가 문서를 열기 전에 설치 하지 않고 서버에서 캐시 된 데이터를 초기화 하려는 경우에 유용 합니다. 자세한 내용은 [서버에서 문서 데이터에에서 액세스](../vsto/accessing-data-in-documents-on-the-server.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터 캐시](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)   
  [방법: Office 문서에서 데이터 원본을 프로그래밍 방식으로 캐시](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)   
  [방법: 암호로 보호 된 문서의 데이터 캐시](../vsto/how-to-cache-data-in-a-password-protected-document.md)   

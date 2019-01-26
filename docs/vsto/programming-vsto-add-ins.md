@@ -27,17 +27,17 @@ helpviewer_keywords:
 - ThisAddIn_Startup
 - application-level add-ins [Office development in Visual Studio], programming
 - ThisAddIn_Shutdown
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b3520eb8af160a12de5cb74fa40094004e041c0e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ef06079322b521abca2aa1fb6becf720c4ad86c4
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53830653"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867249"
 ---
 # <a name="program-vsto-add-ins"></a>VSTO 추가 기능 프로그래밍
   VSTO 추가 기능을 만들어 Microsoft Office 애플리케이션을 확장하는 경우 프로젝트의 `ThisAddIn` 클래스에 대해 직접 코드를 작성합니다. 이 클래스를 사용하여 Microsoft Office 호스트 애플리케이션의 개체 모델 액세스, 애플리케이션의 UI(사용자 인터페이스) 사용자 지정, 다른 Office 솔루션에 VSTO 추가 기능의 개체 표시 등의 작업을 수행할 수 있습니다.  

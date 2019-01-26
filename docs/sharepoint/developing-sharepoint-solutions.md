@@ -10,17 +10,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, overview
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bc45f1420f073347153c6b7b8dd72cae44dd6b0f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4384396781172c73056de27fd3c674535571d591
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53871059"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869020"
 ---
 # <a name="develop-sharepoint-solutions"></a>SharePoint 솔루션 개발
   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 에서 여러 가지 SharePoint 프로젝트 형식 템플릿을 사용하여 SharePoint 사이트와 사이트 요소를 만들 수 있습니다. 사용 가능한 프로젝트 형식 목록을 참조 하세요 [SharePoint 프로젝트 및 프로젝트 항목 템플릿](../sharepoint/sharepoint-project-and-project-item-templates.md)합니다. SharePoint 프로젝트의 요소와 속성에 대한 설명은 다음과 같습니다.  
@@ -101,7 +101,7 @@ ms.locfileid: "53871059"
 |배포 위치|SharePoint 서버에서 파일의 정규화된 경로입니다. 이 경로는 배포 루트 및 배포 경로 하위 속성으로 구성됩니다.|  
 |배포 경로|Workflow1 같은 SharePoint 서버 파일을 파일의 상대 경로\\합니다. 파일에 대한 정규화된 경로는 *Deployment Path* 값을 *Deployment Root* 값의 끝에 연결해서 만듭니다.<br /><br /> 값을 선택 하 *RootFile* 에 대 한 합니다 *배포 유형을* 속성 변경 내용을 합니다 *Deployment Root* 속성을 \<SharePointRoot >\\의 정규화 된 경로에 결과 \<SharePointRoot > \Workflow1\\합니다. 자세한 내용은 [패키징 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)합니다.|  
 |Deployment Root|문자열. SharePoint 서버에서 파일이 배포되는 루트 폴더입니다. 예를 들어 \<SharePointRoot > \Template\Features\\\<FeatureName >\\합니다.<br /><br /> *Deployment Root* 속성 값은 *Deployment Type* 설정에 따라 결정됩니다.|  
-|RootFile|*Deployment Root* 값을 결정하는 파일의 배포 유형입니다. 다음 값 중 하나입니다.<br /><br /> : NoDeployment  *\<값 없음 >*<br /><br /> ElementManifest: *\<SharePointRoot > \Template\Features\\\<FeatureName >*\\<br /><br /> ElementFile: *\<SharePointRoot > \Template\Features\\\<FeatureName >\\*<br /><br /> TemplateFile: *\<SharePointRoot > \Template\\*<br /><br /> RootFile: *\<SharePointRoot >\\*<br /><br /> GlobalResource: *\<SharePointRoot > \Resources\\*<br /><br /> ClassResource: *\<ClassResourcePath >\\*<br /><br /> 자세한 내용은 <xref:Microsoft.VisualStudio.SharePoint.DeploymentType>을 참조하세요.|  
+|RootFile|*Deployment Root* 값을 결정하는 파일의 배포 유형입니다. 다음 값 중 하나입니다.<br /><br /> : NoDeployment  *\<값 없음 >*<br /><br /> ElementManifest: *\<SharePointRoot>\Template\Features\\\<FeatureName>*\\<br /><br /> ElementFile: *\<SharePointRoot>\Template\Features\\\<FeatureName>\\*<br /><br /> TemplateFile: *\<SharePointRoot>\Template\\*<br /><br /> RootFile: *\<SharePointRoot>\\*<br /><br /> GlobalResource: *\<SharePointRoot>\Resources\\*<br /><br /> ClassResource: *\<ClassResourcePath>\\*<br /><br /> 자세한 내용은 <xref:Microsoft.VisualStudio.SharePoint.DeploymentType>을 참조하세요.|  
 |파일 이름|항목 파일에 대한 파일 또는 폴더의 이름입니다.|  
 |전체 경로|항목에 대한 파일의 위치입니다. 읽기 전용입니다.|  
   

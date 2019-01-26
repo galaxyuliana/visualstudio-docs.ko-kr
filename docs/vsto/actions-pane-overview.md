@@ -13,15 +13,15 @@ helpviewer_keywords:
 - user controls [Office development in Visual Studio], actions panes
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: de9e6a7f148612716cee55b5a21a26f1bcf04d9b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 947b5730ce459751ec281749d369a9770c074df3
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53821129"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875955"
 ---
 # <a name="actions-pane-overview"></a>작업 창 개요
   작업창은 사용자 지정 가능한 **문서 동작** 특정 Microsoft Office Word 문서 또는 Microsoft Office Excel 통합 문서에 연결 된 작업창 합니다. 작업창과 같은 다른 기본 제공 작업창과 함께 Office 작업창 내에서 호스트 되는 **XML 원본은** Excel에서 작업 창 또는 **스타일 및 서식** word에서 작업창입니다. Windows Forms 컨트롤 또는 WPF 컨트롤을 사용하여 작업 창 사용자 인터페이스를 디자인할 수 있습니다.
@@ -151,7 +151,7 @@ ms.locfileid: "53821129"
  [!code-csharp[Trin_VstcoreActionsPaneWord#101](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#101)]
  [!code-vb[Trin_VstcoreActionsPaneWord#101](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#101)]  
 
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션에서 WPF 컨트롤 사용](../vsto/using-wpf-controls-in-office-solutions.md)   
  [Office UI 사용자 지정](../vsto/office-ui-customization.md)   
  [Office 프로젝트의 개체에 대 한 전역 액세스](../vsto/global-access-to-objects-in-office-projects.md)   

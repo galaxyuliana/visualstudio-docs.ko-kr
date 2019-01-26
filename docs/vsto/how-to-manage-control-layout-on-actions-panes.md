@@ -11,15 +11,15 @@ helpviewer_keywords:
 - smart documents [Office development in Visual Studio], control layout
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ee790707a5c1c74f3227f74874c66bb4438e7ab0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 87ec74628bad3d4c0e2031b8399e279bc9b5229d
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53991177"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873121"
 ---
 # <a name="how-to-manage-control-layout-on-actions-panes"></a>방법: 작업 창에서 컨트롤 레이아웃 관리
   기본적으로 작업창 문서 또는 워크시트의 오른쪽에 도킹 그러나 왼쪽, 위쪽 이나 아래쪽에 도킹 될 수 있습니다. 여러 사용자 정의 컨트롤을 사용 하는 경우 작업 창에서 사용자 정의 컨트롤을 제대로 쌓는 코드를 작성할 수 있습니다. 자세한 내용은 [작업창 개요](../vsto/actions-pane-overview.md)합니다.  

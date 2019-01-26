@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - BDC [SharePoint development in Visual Studio], creating a model
 - Business Data Connectivity service [SharePoint development in Visual Studio], creating a model
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c01b8c54a762436f7bf76fd8186765a4fe1b9b6a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4d0d261b0227e024b5b4eda89b237df0c70dbd32
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955622"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54870050"
 ---
 # <a name="how-to-create-a-bdc-model"></a>방법: BDC 모델 만들기
   템플릿을 사용 하 여 해당 종류의 항목에 대 한 다음 SharePoint 프로젝트 모델을 추가 하 여 비즈니스 데이터 연결 (BDC) 모델을 만들 수 있습니다. 자세한 내용은 [비즈니스 데이터 연결 모델 만들기](../sharepoint/creating-a-business-data-connectivity-model.md)합니다. 모델을 디자인 하는 방법에 대 한 자세한 내용은 참조 하세요. [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.  

@@ -10,15 +10,15 @@ helpviewer_keywords:
 - Word [Office development in Visual Studio], closing documents
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: cbe8e29ea42f92e072e3afffca95d6be59765434
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: e294aaaa006579156e752132d6d945206dfac0c1
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54087050"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869176"
 ---
 # <a name="how-to-programmatically-close-documents"></a>방법: 프로그래밍 방식으로 문서 닫기
   활성 문서를 닫거나 닫을 문서를 지정할 수 있습니다.  
@@ -61,7 +61,7 @@ ms.locfileid: "54087050"
      [!code-vb[Trin_VstcoreWordAutomation#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#4)]
      [!code-csharp[Trin_VstcoreWordAutomation#4](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#4)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: 프로그래밍 방식으로 기존 문서 열기](../vsto/how-to-programmatically-open-existing-documents.md)   
  [방법: 프로그래밍 방식으로 문서 저장](../vsto/how-to-programmatically-save-documents.md)   
  [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)   

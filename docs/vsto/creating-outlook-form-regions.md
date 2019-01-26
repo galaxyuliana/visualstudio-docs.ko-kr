@@ -13,15 +13,15 @@ helpviewer_keywords:
 - Outlook [Office development in Visual Studio], form regions
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7b5145701f72bed183dbcff3c3fbe48f757740f0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7bd30624c2948b12885af3a29eb095227cf795f9
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53842202"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865777"
 ---
 # <a name="create-outlook-form-regions"></a>Outlook 양식 영역 만들기
   양식 영역을 사용하여 Microsoft Office Outlook 양식을 사용자 지정할 수 있습니다. Visual Studio는 양식 영역을 쉽게 디자인, 개발 및 디버그할 수 있도록 하는 고급 도구를 제공합니다.  
@@ -151,7 +151,7 @@ ms.locfileid: "53842202"
 ###  <a name="HandlingFormRegionEvents"></a> 양식 영역 이벤트 처리  
  합니다 **Outlook 양식 영역** 항목 양식 영역 코드 파일에 다음 세 개의 이벤트 처리기를 자동으로 추가 합니다.  
   
-|이벤트|설명|  
+|이벤트(event)|설명|  
 |-----------|-----------------|  
 |FormRegionInitializing|양식 영역을 초기화하기 전에 발생합니다. 이 이벤트 처리기의 조건을 검사하여 Outlook에서 양식 영역을 표시할지 여부를 확인할 수 있습니다. 자세한 내용은 [방법: Outlook에서 양식 영역 표시 하지 않기](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)합니다.|  
 |FormRegionShowing|양식 영역의 인스턴스가 만들어진 후 양식 영역이 표시되기 전에 발생합니다.|  

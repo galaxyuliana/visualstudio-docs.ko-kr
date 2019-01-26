@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - form regions [Office development in Visual Studio], creating
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c7c14b7702acff281ab32483930559b5fe521044
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5c066f3673f6f51b01ebf00e9f594551fee03641
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942374"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867366"
 ---
 # <a name="walkthrough-design-an-outlook-form-region"></a>연습: Outlook 양식 영역 디자인
   사용자 지정 양식 영역은 표준 또는 사용자 지정 Microsoft Office Outlook 양식을 확장합니다. 이 연습에서는 연락처 항목의 검사기 창에 새 페이지로 표시되는 사용자 지정 양식 영역을 디자인합니다. 이 양식 영역은 Windows Live 로컬 검색 웹 사이트에 주소 정보를 전송하여 연락처에 대해 나열된 각 주소의 지도를 표시합니다. 양식 영역에 대 한 자세한 내용은 [만들 Outlook 양식 영역](../vsto/creating-outlook-form-regions.md)합니다.  
@@ -143,7 +143,7 @@ ms.locfileid: "53942374"
   
 ### <a name="to-test-the-map-it-form-region"></a>Map It 양식 영역을 테스트하려면  
   
-1.  키를 눌러 **F5** 프로젝트를 실행 합니다.  
+1.  **F5** 키를 눌러 프로젝트를 실행합니다.  
   
      Outlook이 열립니다.  
   

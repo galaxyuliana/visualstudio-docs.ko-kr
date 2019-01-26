@@ -9,17 +9,17 @@ helpviewer_keywords:
 - project output references [SharePoint development in Visual Studio]
 - SharePoint development in Visual Studio, project output references
 - SharePoint development in Visual Studio, advanced packaging tools
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4e7c93b0c23d14c2b129d165cd3a8d701ace8ea1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7a26f6b2abdf0e24d4179986acc56335fb36d002
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53897296"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868786"
 ---
 # <a name="how-to-add-a-project-output-reference"></a>방법: 프로젝트 출력 참조 추가
   SharePoint에 비 SharePoint 프로젝트 어셈블리 (또는 Silverlight 프로젝트에서.xap 파일)를 배포 하려면 프로젝트 출력 참조로 추가 합니다.  
@@ -40,7 +40,7 @@ ms.locfileid: "53897296"
   
 6.  옆의 화살표를 선택 **프로젝트 이름**비 SharePoint 프로젝트 항목의 이름을 선택한 다음 선택 합니다 **확인** 단추입니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [프로젝트 항목에 패키징 및 배포 정보를 제공 합니다.](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)   
  [방법: 안전한 컨트롤로 표시 컨트롤](../sharepoint/how-to-mark-controls-as-safe-controls.md)   
  [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
