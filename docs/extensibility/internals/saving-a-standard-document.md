@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b7f9b650c0d355d83137e302fc716f343d47b57d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3c06702cb49ef48dafe24e7c54a5e8239d0eab42
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868893"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54917083"
 ---
 # <a name="saving-a-standard-document"></a>표준 문서 저장
 환경 저장, 다른 이름으로 저장 및 모두 저장 명령을 처리합니다. 사용자가 선택 하는 경우 **저장**, **다른 이름으로 저장**, 또는 **모두 저장** 에서 **파일** 메뉴에 솔루션을 닫습니다는  **모두 저장**, 다음 프로세스가 발생 합니다.  

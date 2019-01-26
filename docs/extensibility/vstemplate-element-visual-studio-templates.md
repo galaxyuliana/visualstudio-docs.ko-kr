@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: f8ac561b-3b0b-4246-9ec9-118d2447e9a9
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 899a8ac07d8e5b578c7619cceff173608b15792a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7d2ea57e16876d550694fb378a853b10d8f0af29
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53947025"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069319"
 ---
 # <a name="vstemplate-element-visual-studio-templates"></a>VSTemplate 요소 (Visual Studio 템플릿)
 프로젝트 템플릿, 항목 템플릿 또는 시작 키트에 대 한 모든 메타 데이터를 포함합니다.  
@@ -85,6 +85,6 @@ ms.locfileid: "53947025"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)

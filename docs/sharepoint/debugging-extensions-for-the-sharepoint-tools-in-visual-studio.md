@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, debugging extensions
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8f838363b52a85faff022f49542fcc2fcc7e450d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 528665cc54c78a6d5d053cc80522f53385e85daf
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53950818"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875721"
 ---
 # <a name="debug-extensions-for-the-sharepoint-tools-in-visual-studio"></a>Visual Studio에서 SharePoint 도구에 대 한 확장명 디버깅
   실험적 인스턴스 또는 일반 인스턴스의 Visual Studio에서 SharePoint 도구 확장을 디버그할 수 있습니다. 확장 동작 문제를 해결 해야 할 경우에 추가 오류 정보를 표시 하 고 Visual Studio SharePoint 명령을 실행 하는 방법을 구성 하려면 레지스트리 값을 수정할 수 있습니다.

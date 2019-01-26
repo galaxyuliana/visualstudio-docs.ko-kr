@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 92722be7-b397-48c3-a7a7-0b931a341961
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 83e8207ffb52fd41c82eac896611f7454bd7379d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3e71b8675aad05f45d13be5a86e8729266a3a017
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874682"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54954100"
 ---
 # <a name="vspackage-structure-source-control-vspackage"></a>VSPackage 구조(소스 제어 VSPackage)
 
@@ -72,7 +72,7 @@ Visual Studio의 모든 프로젝트를 구현 해야 합니다는 <xref:Microso
 
 소스 제어 VSPackage를 고려해 야 하는 인터페이스의 전체 목록은 참조 하세요 [관련 서비스 및 인터페이스](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [디자인 요소](../../extensibility/internals/source-control-vspackage-design-elements.md)
 - [관련 서비스 및 인터페이스](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)

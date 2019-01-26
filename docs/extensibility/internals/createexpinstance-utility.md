@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 03779774-9401-49ae-997c-0c3ab25ed0d5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 39aed4f3c02b1467f2fdf975d6443923acd018f0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f1a9f73f396fffe93903f4295428a011c5b5e8d4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53961104"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55042545"
 ---
 # <a name="createexpinstance-utility"></a>CreateExpInstance 유틸리티
 사용 된 **CreateExpInstance** 유틸리티를 만들거나 다시 설정 하거나 Visual Studio의 실험적 인스턴스를 삭제 합니다. 디버그 하 고 내부 제품을 변경 하지 않고 Visual Studio 확장을 테스트 하는 실험적 인스턴스를 사용할 수 있습니다.  
@@ -33,16 +33,16 @@ CreateExpInstance.exe [/Create | /Reset | /Clean] /VSInstance=VsInstance /RootSu
 ## <a name="parameters"></a>매개 변수  
  **/ 만들기** 실험적 인스턴스를 만듭니다.  
   
- **/ 재설정**  
+ **/Reset**  
  실험적 인스턴스를 삭제 하 고 새 리소스를 만듭니다.  
   
  **/Clean**  
  실험적 인스턴스를 삭제합니다.  
   
- **/ VSInstance**  
+ **/VSInstance**  
  복사할 기본 Visual Studio 인스턴스를 포함 하는 디렉터리의 이름입니다.  
   
- **/ RootSuffix**  
+ **/RootSuffix**  
  실험적 인스턴스 디렉터리의 이름에 추가할 접미사입니다.  
   
 ## <a name="remarks"></a>설명  
@@ -56,7 +56,7 @@ CreateExpInstance.exe [/Create | /Reset | /Clean] /VSInstance=VsInstance /RootSu
   
  다음 예제에서는 Visual Studio의 기본 실험적 인스턴스 다시 설정합니다.  
   
- **CreateExpInstance.exe /Reset /VSInstance 14.0 = /RootSuffix Exp =**  
+ **CreateExpInstance.exe /Reset /VSInstance=14.0 /RootSuffix=Exp**  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [VSPackage](../../extensibility/internals/vspackages.md)

@@ -11,15 +11,15 @@ helpviewer_keywords:
 - controls [Office development in Visual Studio], adding to worksheets
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1d9515f5a42d37d73a95460fa458090992c488aa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea7ba3c706b80fbd8ce9b4a460badc8713bae428
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53928661"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872159"
 ---
 # <a name="how-to-add-namedrange-controls-to-worksheets"></a>방법: 워크시트에 NamedRange 컨트롤 추가
   추가할 수 있습니다 <xref:Microsoft.Office.Tools.Excel.NamedRange> 디자인 타임 및 런타임에 문서 수준 프로젝트에서 Microsoft Office Excel 워크시트에 컨트롤입니다.  

@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dd4ed2783ba3b56004037338452722f3ea0f8ddc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 80013faf174900c4e94bf452f6f19c0ac9bfbeba
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53909897"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54956495"
 ---
 # <a name="the-structure-of-the-contenttypesxml-file"></a>[Content_types].xml 파일의 구조
 VSIX 패키지에서 원하는 콘텐츠 종류에 대 한 정보를 포함합니다. Visual Studio는 패키지를 설치 하려면 [Content_Types].xml 파일을 사용 하지만 파일 자체를 설치 하지 않습니다.  
@@ -70,11 +70,11 @@ VSIX 패키지에서 원하는 콘텐츠 종류에 대 한 정보를 포함합�
 |pkgdef|텍스트/일반|  
 |xml|text/xml|  
 |vsixmanifest|text/xml|  
-|htm 또는 html|텍스트/html|  
+|htm 또는 html|text/html|  
 |rtf|응용 프로그램/서식 있는 텍스트|  
-|pdf|응용 프로그램/pdf|  
+|pdf|application/pdf|  
 |GIF|image/gif|  
-|jpg 또는 jpeg|jpg 이미지 /|  
+|jpg 또는 jpeg|image/jpg|  
 |Tiff|tiff 이미지 /|  
 |vsix|application/zip|  
 |zip|application/zip|  

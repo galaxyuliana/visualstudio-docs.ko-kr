@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 34c1652e-f019-48ba-8b26-ace20f8a158c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f1b3e9067fd8677d741a3838042b72fdddf02e5e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bfba0f335860375a173ca440fe944ea22c87ac76
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53882817"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069995"
 ---
 # <a name="idebugthreadnamechangedevent2"></a>IDebugThreadNameChangedEvent2
 이 인터페이스는 디버깅 중인 프로그램에 스레드 이름 변경 될 때 세션 디버그 관리자 (SDM)에 디버그 엔진 (DE)에서 전송 됩니다.  

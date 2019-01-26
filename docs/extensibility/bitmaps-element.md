@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 74652e1b-fcfa-421b-aa9f-fbc081d3b476
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a01b4fd1a6c855ce43cc332c8e4b4b01c69140fd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9c06100e666d73341753b6268180224d277e3608
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53896346"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54916499"
 ---
 # <a name="bitmaps-element"></a>Bitmaps 요소
 그룹 [비트맵 요소](../extensibility/bitmap-element.md) 요소입니다.  
@@ -62,6 +62,6 @@ ms.locfileid: "53896346"
 </Bitmaps>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

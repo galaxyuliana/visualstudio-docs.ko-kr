@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: ecd20da8-b04b-4141-a8f4-a2ef91dd597a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d1484840998b7834af55b0f9a026b899aea4f3f2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 09433968c8a735538ce276c854a38449735c2045
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868341"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55043624"
 ---
 # <a name="vspackage-registration"></a>VSPackage 등록
 Vspackage advise 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 는 설치 되 고 해야 로드할 수 있습니다. 이 프로세스는 레지스트리에서 정보를 작성 하 여 수행 됩니다. 설치 관리자의 일반적인 작업입니다.  

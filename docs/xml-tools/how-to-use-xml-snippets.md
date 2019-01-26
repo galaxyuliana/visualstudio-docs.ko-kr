@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 3a27375b-81cc-48f6-a884-e1cb8c4f78f5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 514e3efe56c18288a596d4414512064ed4dcc157
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3a9d7c2713e7bc37a47cce91ef2da4acade45b88
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53940734"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920333"
 ---
 # <a name="how-to-use-xml-snippets"></a>방법: XML 조각 사용
 
@@ -111,7 +111,7 @@ XML 조각을 선택하면 코드 조각의 텍스트가 커서 위치에 자동
 
 편집 가능한 코드 조각 필드에 대 한 기본 색을 수정 하 여 변경할 수 있습니다는 **코드 조각 필드** 에서 설정 합니다 **글꼴 및 색** 창의 **옵션** 대화 상자. 자세한 내용은 [방법: 편집기의 글꼴 및 색 변경](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)을 참조하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 조각](../xml-tools/xml-snippets.md)
 - [방법: XML 스키마에서 XML 조각 생성](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: d9cbd1c4-719b-467a-8100-333c1e146d3b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6d9139ca59394c8d5de69ddf77f51bf57b8b7619
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f05a28ab046c1c0221162bce623a2ccf983f3d43
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931975"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958149"
 ---
 # <a name="error-codes"></a>오류 코드
 원본 제어 플러그 인 API 함수에서 오류를 반환 하는 경우 다음 오류 코드 중 하나를 사용할 수 있습니다. 모든 오류는 경고 또는 정보 제공 용 이므로 오류 코드는 양수, 음수 이며 성공 0입니다.  

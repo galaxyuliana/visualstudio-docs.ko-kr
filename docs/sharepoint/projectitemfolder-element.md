@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - ProjectItemFolder element
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: fdecca0b987efd22d4ddd9d3555ede2601b8205e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3a4a0f60afb35a3e52e3e7b8f00afaef29cf409e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53855626"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875591"
 ---
 # <a name="projectitemfolder-element"></a>ProjectItemFolder 요소
   매핑된 폴더를 나타냅니다.  
@@ -49,7 +49,7 @@ ms.locfileid: "53855626"
   
 |요소|설명|  
 |-------------|-----------------|  
-|[프로젝트 항목](../sharepoint/projectitem-element.md)|SharePoint 프로젝트 항목을 나타냅니다. 이 요소는의 필수 루트 요소는 *.spdata* 파일입니다.|  
+|[ProjectItem](../sharepoint/projectitem-element.md)|SharePoint 프로젝트 항목을 나타냅니다. 이 요소는의 필수 루트 요소는 *.spdata* 파일입니다.|  
   
 ## <a name="remarks"></a>설명  
  매핑된 폴더에 대 한 자세한 내용은 참조 하세요. [방법: 매핑된 폴더 추가 및 제거](../sharepoint/how-to-add-and-remove-mapped-folders.md)합니다.  
@@ -58,11 +58,11 @@ ms.locfileid: "53855626"
   
 |||  
 |-|-|  
-|**Namespace**|http<nolink>: //schemas.microsoft.com/VisualStudio/2010/<br>SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/2010/<br>SharePointTools/SharePointProjectItemModel|  
 |**스키마 이름**|SharePoint 프로젝트 항목 스키마|  
 |**유효성 검사 파일**|ProjectItemModelSchema.xsd|  
 |**비어 있을 수 있습니다.**|아니요|  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 프로젝트 항목 스키마 참조](../sharepoint/sharepoint-project-item-schema-reference.md)   
  [방법: 매핑된 폴더 추가 및 제거](../sharepoint/how-to-add-and-remove-mapped-folders.md)  

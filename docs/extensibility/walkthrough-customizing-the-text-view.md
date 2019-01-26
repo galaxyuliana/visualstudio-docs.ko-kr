@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 32d32ac8-22ff-4de7-af69-bd46ec4ad9bf
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8748ccade8e610c66d9c4142312c2c5dfed1ddf9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1a697456a15008f305b92aacfb1485be1c08c062
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53917321"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920399"
 ---
 # <a name="walkthrough-customize-the-text-view"></a>연습: 텍스트 뷰 사용자 지정
 편집기 서식 맵에에서 다음 속성 중 하나를 수정 하 여 텍스트 뷰를 사용자 지정할 수 있습니다.  
@@ -85,7 +85,7 @@ ms.locfileid: "53917321"
   
     -   표시기 여백 (왼쪽 텍스트 뷰)에 밝은 해야 합니다. 녹색입니다.  
   
-3.  입력 한 텍스트를 선택 합니다. 선택한 텍스트의 색 light 해야 분홍색 합니다.  
+3.  입력한 텍스트를 선택합니다. 선택한 텍스트의 색 light 해야 분홍색 합니다.  
   
 4.  텍스트를 선택한 상태에서 텍스트 창 외부 아무 곳 이나 클릭 합니다. 선택한 텍스트의 색 어두운 분홍 이어야 합니다.  
   

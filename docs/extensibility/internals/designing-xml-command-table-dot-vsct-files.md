@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: eacbe69488d605d9cde2fb219a8adbca1419361b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 68647dbcbeaedd8ce3a6a493b685142434eec2c2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53904298"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54923096"
 ---
 # <a name="design-xml-command-table-vsct-files"></a>XML 명령 테이블 (.vsct) 파일 디자인
 XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 한 명령 항목의 모양을 설명 합니다. 명령 항목 단추, 콤보 상자, 메뉴, 도구 모음 및 명령 항목 그룹에 포함 됩니다. 이 문서에서는 XML 명령 테이블 파일, 메뉴 및 명령 항목에 미치는 및 만드는 방법을 설명 합니다.
@@ -117,9 +117,9 @@ XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 �
 
  개발 하는 동안 여러 VSPackage 프로젝트를 만들고 IDE의 혼동 혼란을 일으킬 수 있는 실험적 레지스트리 하이브에 등록에 대 한 가능성이 있습니다. 이 해결 하려면 실험적 하이브에 등록 된 모든 Vspackage 및 해당 IDE에 수행한 변경 내용을 제거 하려면 기본 설정으로 재설정할 수 있습니다. 실험 하이브를 재설정 하려면 Visual Studio SDK를 사용 하 여 제공 되는 CreateExpInstance.exe 도구를 사용 합니다. 찾을 수 있습니다.
 
- *%PROGRAMFILES (x86) %\Visual Studio\\\<버전 > SDK\VisualStudioIntegration\Tools\Bin\CreateExpInstance.exe*
+ *%PROGRAMFILES(x86)%\Visual Studio\\\<version> SDK\VisualStudioIntegration\Tools\Bin\CreateExpInstance.exe*
 
  명령을 사용 하 여 도구를 실행할 **CreateExpInstance /Reset**합니다. 이 도구를 제거 함을 실험적 하이브에서 일반적으로 사용 하 여 설치 된 모든 등록 된 Vspackage를 기억 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [메뉴 및 명령 확장](../../extensibility/extending-menus-and-commands.md)

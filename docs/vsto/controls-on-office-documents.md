@@ -13,15 +13,15 @@ helpviewer_keywords:
 - documents [Office development in Visual Studio], controls
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0645c7cd3d030b553457abace8d7cdee07984011
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5515cd9169e86555df3585ee17778f6bdd92746f
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53930598"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875929"
 ---
 # <a name="controls-on-office-documents"></a>Office 문서의 컨트롤
   Visual Studio에서 Office 개발 도구를 사용하여 Windows Forms 컨트롤과 *호스트 컨트롤* 을 Word 문서와 Excel 워크시트에 추가할 수 있습니다. 호스트 컨트롤은 Word 및 Excel 개체 모델의 다양한 UI(사용자 인터페이스) 개체를 확장하는 개체입니다.  

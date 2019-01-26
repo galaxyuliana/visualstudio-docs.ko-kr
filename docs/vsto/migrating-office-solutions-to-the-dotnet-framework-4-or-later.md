@@ -9,17 +9,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - Office projects [Office development in Visual Studio], migrating to .NET Framework 4
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 88f417ef8835e0614a2bf13b3717f19e3718feaf
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 501145cf923efa979a0dd6bace3ebf4798ad1ba2
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53845128"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875470"
 ---
 # <a name="migrate-office-solutions-to-the-net-framework-4-or-later"></a>.NET Framework 4 이상으로 Office 솔루션 마이그레이션
   Office 프로젝트의 대상 프레임 워크를 변경 된 경우는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 나중에.NET Framework의 이전 버전에서 몇 가지 추가 단계가 필요할 계속 개발 및 최종 사용자 컴퓨터에서 솔루션을 실행 합니다. 자세한 내용은 [.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Office 프로젝트를 실행 하는 변경 필요한](../vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)합니다.  

@@ -12,12 +12,12 @@ author: John-Hart
 ms.author: johnhart
 ms.workload:
 - office
-ms.openlocfilehash: c4500a8888f33440834584ceba1345e0ca78a998
-ms.sourcegitcommit: 73861cd0ea92e50a3be1ad2a0ff0a7b07b057a1c
+ms.openlocfilehash: 675756152bd69611cbce9cd17ee717c950f5ce5d
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54153885"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875539"
 ---
 # <a name="how-to-programmatically-create-custom-folder-items"></a>방법: 프로그래밍 방식으로 사용자 지정 폴더 항목 만들기
   이 예제에서는 Microsoft Office Outlook에서 새 폴더를 만듭니다. 로그온 한 사용자의 이름은 폴더 이름에 사용 됩니다.  

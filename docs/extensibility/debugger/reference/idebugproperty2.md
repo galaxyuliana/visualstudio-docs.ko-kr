@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a74a32a711e26177acb0a50e895ef0b88c82de94
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bdd5b114e5b34b7c51b210f33d70d831f6188b06
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891283"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54921949"
 ---
 # <a name="idebugproperty2"></a>IDebugProperty2
 이 인터페이스는 스택 프레임 속성, 프로그램 문서 속성 또는 다른 일부 속성을 나타냅니다. 속성은 일반적으로 식 평가의 결과입니다.  

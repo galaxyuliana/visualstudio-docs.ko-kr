@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: 2d898bc4-fba5-472e-8f09-b0c6b511c5a3
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cd988bae2f9fd2776785202a1e632735f989f7ab
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 59efe56d12914db00f26c17ff5d4b8c7a0c3934f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53845488"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54918292"
 ---
 # <a name="native-minimum-rules-rule-set"></a>네이티브 최소 규칙 규칙 집합
 Microsoft 네이티브 최소 규칙은 잠재적 보안 허점 및 응용 프로그램 충돌을 비롯 하 여 네이티브 코드의 가장 중요 한 문제에 집중 합니다. 네이티브 프로젝트에 대해 만드는 모든 사용자 지정 규칙 집합에 이 규칙 집합을 포함해야 합니다.

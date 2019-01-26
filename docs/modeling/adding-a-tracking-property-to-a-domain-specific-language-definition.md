@@ -8,16 +8,16 @@ helpviewer_keywords:
 - walkthroughs [Domain-Specific Language Tools]
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 21899be482e47152e8ca60d78535f49613f52ede
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aab69aee545d3be3c946c6b4f118bc0eeb0c9c34
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53946044"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54923615"
 ---
 # <a name="add-a-tracking-property-to-a-domain-specific-language-definition"></a>도메인 특정 언어 정의에 추적 속성 추가
 
@@ -756,7 +756,7 @@ XML serialization에 대 한 사용자 지정 후 로드 동작을 지 원하는
 
 둘 이상의 추적 속성을 사용 하거나 둘 이상의 DSL에 추적 속성을 구현 하려는 경우 각 추적 속성을 지원 하기 위한 일반적인 코드를 생성 하려면 텍스트 템플릿을 만들 수 있습니다. 텍스트 템플릿에 대 한 자세한 내용은 참조 하세요. [코드 생성 및 T4 텍스트 템플릿](../modeling/code-generation-and-t4-text-templates.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>
 - <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>

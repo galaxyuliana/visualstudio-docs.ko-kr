@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 55c0e4b1c8df4ed0198c2c346f2909a4984c5e9b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ffee39765d28306509ebe3a2ba30e8fabb79cf80
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53830822"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55042779"
 ---
 # <a name="starting-to-develop-visual-studio-extensions"></a>Visual Studio 확장 개발 시작
 
@@ -93,6 +93,6 @@ Visual Studio 확장을 개발 하려면 Visual Studio 외에도 Visual Studio S
 
  또한 많은 수의 Visual Studio 고객에 게 표시 하는 Visual Studio Marketplace에서 확장 프로그램을 게시할 수 있습니다. Marketplace 확장 패키지의 예제를 참조 하세요. [연습: Visual Studio 확장 기능 게시](../extensibility/walkthrough-publishing-a-visual-studio-extension.md)합니다. Marketplace에 게시 하기 위해 수행 해야 하는 방법에 대 한 자세한 내용은 참조 하세요. [제품 및 Visual Studio 용 확장](/azure/devops/extend/overview?view=vsts)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Mac용 Visual Studio 확장](/visualstudio/mac/extending-visual-studio-mac)

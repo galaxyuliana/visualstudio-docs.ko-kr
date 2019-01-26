@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: f657f8c3-5e68-4308-9971-e81e3099ba29
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7773d13c973579aaa82324c63e324e78d62a6e8d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 18a60e5589671101471bbb5f82877ce5234215d8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868630"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920191"
 ---
 # <a name="initialization-sequence-of-project-subtypes"></a>프로젝트 하위 형식의 초기화 시퀀스
 기본 프로젝트 팩터리 구현을 호출 하 여 프로젝트를 생성 하는 환경 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>합니다. 프로젝트 하위 형식의 생성 환경을 프로젝트 파일의 확장에 대 한 프로젝트 형식 GUID 목록이 비어 있지 않은지 확인 하는 경우 시작 합니다. 프로젝트 파일 확장명과 프로젝트 GUID 프로젝트 인지 여부를 지정 된 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 또는 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 프로젝트 형식. 예를 들어,.vbproj 확장명 및 식별 하는 {F184B08F-C81C-45F6-A57F-5ABD9991F28F}는 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 프로젝트입니다.

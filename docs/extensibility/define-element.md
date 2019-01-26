@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 5aee74e3-de41-4dc6-9618-93e158af56dd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 69177b035ee8e0c162a629873110df9f7ec7917f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 47aeeb1b92bc0c29dc9a1edafc1fd1323925a27e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53889158"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54916539"
 ---
 # <a name="define-element"></a>요소를 정의 합니다.
 기호 이름 및 값 쌍을 정의합니다. 조건부 특성에서이 기호를 평가할 수 있습니다. 자세한 내용은 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다. 참고 항목의 [Symbols 요소](../extensibility/symbols-element.md)합니다.  
@@ -34,7 +34,7 @@ ms.locfileid: "53889158"
   
 |특성|설명|  
 |---------------|-----------------|  
-|name|필수 요소. 기호 이름:<br /><br /> 이름 = "모드"|  
+|name|필수 요소. 기호 이름:<br /><br /> name="Mode"|  
 |값|필수 요소. 기호의 값:<br /><br /> 값 = "Standard"|  
 |조건|선택 사항입니다. 자세한 내용은 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|  
   
@@ -54,5 +54,5 @@ ms.locfileid: "53889158"
 <Define name="MODE" value="Standard"/>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -15,17 +15,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - troubleshooting [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d99c3ba5c393638f965fa32f03a6c534d583a166
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 82f1d66b1d4159ddb7a2fc4526af65d6cf3a6ec0
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53919026"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54865205"
 ---
 # <a name="troubleshoot-errors-in-office-solutions"></a>Office 솔루션의 오류 문제 해결
   Visual Studio에서 Office 솔루션을 개발하는 동안 다음 작업을 수행할 때 문제가 발생할 수 있습니다.  
@@ -213,7 +213,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
   
  클릭 하는지에 **Yes** 또는 **No** 대화 상자에서 Visual Studio에서 Excel 또는 Word 프로세스를 종료 하 고 디버거를 중지 합니다. 이 대화 상자를 표시하지 않고 프로젝트 디버깅을 중지하려면 Visual Studio에서 디버거를 중지하는 대신 Excel 또는 Word를 직접 종료합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션 문제 해결](../vsto/troubleshooting-office-solutions.md)   
  [Office 솔루션 보안 문제 해결](../vsto/troubleshooting-office-solution-security.md)   
  [Office 솔루션 배포 문제 해결](../vsto/troubleshooting-office-solution-deployment.md)  

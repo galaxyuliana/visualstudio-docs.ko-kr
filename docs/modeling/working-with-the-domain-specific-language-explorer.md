@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, DSL Explorer
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: b70a7442440a7d7604c226f9b8ae8bc7fc3c4cb1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 295b7c2bb0c146e567ab752f693b8dba9aa08517
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886568"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069358"
 ---
 # <a name="working-with-the-domain-specific-language-explorer"></a>도메인별 언어 탐색기 작업
 합니다 **DSL 탐색기** 트리 보기에서 여러 종류의 정보를 표시 합니다. 대부분의 DSL 탐색기에서 항목에 대 한 자세한 내용은 참조 하세요. [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)합니다.

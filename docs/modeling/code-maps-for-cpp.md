@@ -4,16 +4,16 @@ ms.date: 05/16/2018
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - multiple
-ms.openlocfilehash: b5fc8e84100d8b7ceb2b529e7b1630e644ebc9f7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 087b1f84006140508ba023ba6ba8675ee9719882
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968659"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927179"
 ---
 # <a name="code-maps-for-c-projects"></a>C + + 프로젝트에 대 한 코드 맵
 
@@ -50,6 +50,6 @@ C 및 c + + 코드에 대해 코드 맵을 만들 때 이러한 문제가 발생
 ||디버그 정보가 .pdb 파일에서 제거되었습니다.|**/PDBSTRIPPED** 옵션이 링커에서 사용된 경우 전체 .pdb 파일을 대신 포함합니다.|
 ||호출자가 함수가 아니며 이진 파일의 썽크이거나 데이터 섹션의 포인터입니다.|호출자가 썽크이면 썽크를 방지하기 위해 `_declspec(dllimport)`를 사용해 봅니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [코드 맵 사용 하 여 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: d235b47b-cf11-4d47-a63f-e33d9d16105d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9fdbc00863c7aa0d03ad94bd60966e81f7faaf81
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8c2e5151131efdab36a3c9e5cf646b1ca9bf94b5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53853464"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54922719"
 ---
 # <a name="project-subtypes"></a>프로젝트 하위 형식
 프로젝트 하위 형식을 사용 하면 사용자 지정 하거나의 프로젝트 시스템의 동작을 flavor [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 사용자 지정 포함 프로젝트 파일을 추가 하거나 항목을 필터링의 추가 데이터를 저장 합니다 **새 항목 추가** 어셈블리는 디버깅 및 배포 하는 방법을 제어 하 고 대화 상자에서 프로젝트를 확장 하 고 **속성 페이지** 대화 상자. Vspackage는 프로젝트 하위 형식 COM 집계를 사용 하 여 구현 합니다.  

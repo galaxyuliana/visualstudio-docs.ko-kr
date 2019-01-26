@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: ad404eb5-cf6a-44b7-b78a-8ebfb654bc7f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9a1695ee55c8142a170fae41a1143118e0ba5a53
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 35fa1bb45013b885bfdabb014980f97fe670d697
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53949078"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54921988"
 ---
 # <a name="ca1035-icollection-implementations-have-strongly-typed-members"></a>CA1035: ICollection 구현에 강력한 형식의 멤버가 있습니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "53949078"
 
  [CA1039: 목록은 강력한 형식](../code-quality/ca1039-lists-are-strongly-typed.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Array?displayProperty=fullName>
 - <xref:System.Collections.IEnumerable?displayProperty=fullName>

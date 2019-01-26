@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 66a2e00a-f558-4e87-96b8-5ecf5509e04c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6245459636cb13a13d0ba088663457bce11373f2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fd9bfaf04d1c121c3aa019e7e01393ae1ca5635d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986650"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54922953"
 ---
 # <a name="sample-implementation-of-locals"></a>지역 변수의 샘플 구현
 > [!IMPORTANT]
@@ -67,5 +67,5 @@ ms.locfileid: "53986650"
  [MyCEE 샘플](https://msdn.microsoft.com/library/624a018b-9179-402f-9d48-3aec87b48f4f)  
  하나는 구현 방식이 MyC 언어에 대 한 식 계산기를 만드는 방법을 보여 줍니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [로컬 항목 표시](../../extensibility/debugger/displaying-locals.md)

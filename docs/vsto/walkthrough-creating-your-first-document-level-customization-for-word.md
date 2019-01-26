@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Office development in Visual Studio, creating your first project
 - Word [Office development in Visual Studio], creating your first project
 - document-level customizations [Office development in Visual Studio], creating your first project
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8aff32bbbbc396651079d16449e9746760c4541e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 597d8e415a6d5c72026f0ccf8086b3e01c5f1e61
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856441"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872913"
 ---
 # <a name="walkthrough-create-your-first-document-level-customization-for-word"></a>연습: Word 용 첫 문서 수준 사용자 지정 만들기
   이 소개용 연습에서는 Microsoft Office Word에 대한 문서 수준 사용자 지정을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 특정 문서가 열려 있는 경우에만 사용할 수 있습니다. 문서가 열려 있을 때 새 리본 탭 표시와 같은 응용 프로그램 수준 변경은 문서 수준 사용자 지정을 사용하여 수행할 수 없습니다.  
@@ -154,7 +154,7 @@ ms.locfileid: "53856441"
   
 -   Word 용 문서 수준 사용자 지정 배포: [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
  [Word 솔루션](../vsto/word-solutions.md)   
  [문서 수준 사용자 지정 프로그래밍](../vsto/programming-document-level-customizations.md)   

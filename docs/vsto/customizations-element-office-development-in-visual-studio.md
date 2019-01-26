@@ -13,15 +13,15 @@ helpviewer_keywords:
 - application manifests [Office development in Visual Studio], <customizations> element
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4810f347301f8e91b1a3a0498021d152eaf20974
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8600fd67cd28073544824374135c6966e19b63a0
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53878668"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54864243"
 ---
 # <a name="ltcustomizationsgt-element-office-development-in-visual-studio"></a>&lt;사용자 지정&gt; 요소 (Visual Studio에서 Office 개발)
   `customizations` 네임스페이스의 `vstov4` 요소에는 각 Office 솔루션 설치 및 로드에 대한 모든 정보가 포함됩니다.
@@ -125,4 +125,4 @@ ms.locfileid: "53878668"
 
 - [Office 솔루션에 대 한 응용 프로그램 매니페스트](../vsto/application-manifests-for-office-solutions.md)
 - [Office 솔루션의 배포 매니페스트](../vsto/deployment-manifests-for-office-solutions.md)
-- [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)
+- [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)

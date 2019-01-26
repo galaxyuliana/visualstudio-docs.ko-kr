@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: fa3b993b-ab95-47fa-a38b-b788f3a5b2d8
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ffaadb2ccdf770231abcbbcc5e594644b78ef7e1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 241d586e2055b2689dc7586e6212d8aa4cdae1d1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53957867"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54922628"
 ---
 # <a name="create-an-extension-with-an-editor-item-template"></a>편집기 항목 템플릿을 사용 하 여 확장 만들기
 편집기 분류자, 프로그램 및 여백을 추가 하는 기본 편집기 확장을 만들려면 Visual Studio SDK에 포함 된 항목 템플릿을 사용할 수 있습니다. 편집기 항목 템플릿은 Visual C# 또는 Visual Basic VSIX 프로젝트에 사용할 수 있습니다.  
@@ -96,5 +96,5 @@ ms.locfileid: "53957867"
   
 4.  이 프로젝트를 빌드하고 디버깅을 시작 합니다. 실험적 인스턴스가 표시 됩니다. 단어에 있는 녹색 여백을 텍스트 파일을 열면 **Hello EditorMargin1** 가로 스크롤 막대 아래에 표시 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)

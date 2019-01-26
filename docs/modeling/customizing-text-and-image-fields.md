@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: c74b7547ea62942670b2c5442d16f460dc738f84
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bb603a6a99335d17d204fe342cf8d696d8e9021a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53836092"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54919813"
 ---
 # <a name="customizing-text-and-image-fields"></a>텍스트 및 이미지 필드 사용자 지정
 셰이프의 텍스트 decorator를 정의한 경우에 텍스트 필드에서 표시 됩니다. TextFields와 다른 ShapeFields 초기화의 예제를 DSL 솔루션에서 Dsl\GeneratedCode\Shapes.cs를 검사 합니다.

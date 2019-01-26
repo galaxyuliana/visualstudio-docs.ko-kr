@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: fb07b8e2-a4e3-4cb0-b04f-8eb11c491f35
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 27edc56516293ff6502f0708a02faa7bae1e3719
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 973ea13ca7f175515e0e730cacdf7b1bdd75355b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53940364"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54922979"
 ---
 # <a name="delayed-document-loading"></a>지연 된 문서 로드
 사용자는 Visual Studio 솔루션 다시 열릴 때 대부분의 관련된 문서를 즉시 로드 되지 않습니다. 문서 창 프레임의 초기화 보류 중 상태에 만들어지고 (스텁 프레임) 자리 표시자 문서 실행 Document 테이블 (RDT)에 배치 됩니다.  

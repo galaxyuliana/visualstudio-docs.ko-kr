@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 62a71579-36b3-48b9-a1c8-04ab100efa08
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 21010d25642e81fd9155138c66feb301fe50582c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aa052b7273b0917e604a525e5e7a5265d8e549c4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935166"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55068691"
 ---
 # <a name="sccgetparentprojectpath-function"></a>SccGetParentProjectPath 함수
 이 함수는 지정된 된 프로젝트의 부모 프로젝트 경로 결정합니다. 이 함수는 사용자가 Visual Studio 프로젝트를 소스 제어에 추가할 때 호출 됩니다.  
@@ -86,13 +86,13 @@ SCCRTN SccGetParentProjectPath(
 ## <a name="technical-notes-for-scccreatesubproject-and-sccgetparentprojectpath"></a>SccCreateSubProject 및 SccGetParentProjectPath 기술 참고 사항  
  소스 제어에 솔루션 및 프로젝트를 추가할 수 있는 사용자는 소스 제어 시스템에서 위치를 선택 하 라는 메시지가 표시 되는 횟수를 최소화 하기 위해 Visual Studio에서 간소화 되었습니다. 소스 제어 플러그 인을 지 원하는 새 기능을 모두 경우 이러한 변경 내용은 Visual Studio로 활성화 되는 [SccCreateSubProject](../extensibility/scccreatesubproject-function.md) 하며 `SccGetParentProjectPath` 함수입니다. 그러나 이러한 변경 내용을 사용 하지 않도록 설정 하 여 이전 Visual Studio (소스 제어 플러그 인 API 버전 1.1) 동작으로 되돌리려면 다음 레지스트리 항목을 사용할 수 있습니다.  
   
- **[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl] "DoNotCreateSolutionRootFolderInSourceControl" = dword: 00000001**  
+ **[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl] "DoNotCreateSolutionRootFolderInSourceControl"=dword:00000001**  
   
  이 레지스트리 항목이 존재 하지 않거나 dword:00000000은로 설정 되어, 새 함수를 사용 하 여 Visual Studio 시도 `SccCreateSubProject`고`SccGetParentProjectPath`입니다.  
   
  레지스트리 항목 dword:00000001으로 설정 된 경우 Visual Studio는 이러한 새 함수를 사용 하지 및 이전 버전의 Visual Studio에서와 마찬가지로 소스 제어에 추가 하는 작업에서 작동 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [SccCreateSubProject](../extensibility/scccreatesubproject-function.md)   
  [SccGetProjPath](../extensibility/sccgetprojpath-function.md)

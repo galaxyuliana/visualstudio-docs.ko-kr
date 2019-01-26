@@ -12,18 +12,18 @@ helpviewer_keywords:
 ms.assetid: d5d0d3fc-f105-43da-be5b-923ab023309c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 6d39c98aae5ae577ad82f0ff99f1069fb34e5146
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7be9df5658e3f68c5d5f03b356c60c7ab023ed46
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53920941"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043169"
 ---
 # <a name="ca1406-avoid-int64-arguments-for-visual-basic-6-clients"></a>CA1406: Visual Basic 6 클라이언트에서는 Int64 인수를 사용하지 마세요.
 
@@ -61,7 +61,7 @@ ms.locfileid: "53920941"
 
  [CA1017: ComVisibleAttribute로 어셈블리 표시](../code-quality/ca1017-mark-assemblies-with-comvisibleattribute.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [비관리 코드와의 상호 운용](/dotnet/framework/interop/index)
 - [Long 데이터 형식](/dotnet/visual-basic/language-reference/data-types/long-data-type)

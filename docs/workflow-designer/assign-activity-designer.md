@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: ba3feb3c-f144-47ea-926d-cf752b804153
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e5f3080dfcd7afbc999ad478fa3bbdc8470ef54a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a9f7b695eb0ac6c29925a50b4ad346028c0ba0e4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53905824"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54919488"
 ---
 # <a name="assign-activity-designer"></a>Assign 활동 디자이너
 
@@ -42,7 +42,7 @@ ms.locfileid: "53905824"
 |<xref:System.Activities.Statements.Assign.To%2A>|True|<xref:System.Activities.Statements.Assign.Value%2A>가 할당되는 변수 또는 인수입니다. 값은 유효한 Visual Basic 식별자 여야 합니다. 속성을 설정 하려면 Visual Basic 식을 입력 합니다 **하** 상자에 **할당** 활동 디자이너나 속성 표의.|
 |<xref:System.Activities.Statements.Assign.Value%2A>|True|변수에 할당된 값입니다. 설정 하는 <xref:System.Activities.Statements.Assign.Value%2A>, Visual Basic 식을 입력 합니다 **값** 상자에 **할당** 활동 디자이너나 속성 표의.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Primitives](../workflow-designer/primitives-activity-designers.md)
 - [Delay](../workflow-designer/delay-activity-designer.md)

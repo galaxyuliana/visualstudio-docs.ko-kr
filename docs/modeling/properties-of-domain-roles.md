@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: fbd977b733aa6e8e663cf4a69e577030f5c6106a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 854f282b22427fd805091d39377654b8d988084b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53839707"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54919151"
 ---
 # <a name="properties-of-domain-roles"></a>도메인 역할의 속성
 다음 표의 속성이 도메인 역할 연관 됩니다. 도메인 역할에 대 한 자세한 내용은 [모델, 클래스 및 관계 이해](../modeling/understanding-models-classes-and-relationships.md)합니다. 이러한 속성을 사용 하는 방법에 대 한 자세한 내용은 참조 하세요. [사용자 지정 및 도메인 특정 언어 확장](../modeling/customizing-and-extending-a-domain-specific-language.md)합니다.

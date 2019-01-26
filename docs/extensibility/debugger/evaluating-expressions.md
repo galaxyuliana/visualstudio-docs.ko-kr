@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5ccfcc80-dea5-48a1-8bae-6a26f8d3bc56
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7df128995c114c724c7a25ebe4949be935a3c496
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41e56368497d3a8058437ea726488874081f4d45
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929739"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069744"
 ---
 # <a name="evaluate-expressions"></a>식 평가
 식에서 전달 하는 문자열에서 만든 합니다 **자동**, **조사식**, **간략 한 조사식**, 또는 **직접 실행** windows. 식을 계산할 때 이름과 변수 또는 인수 및 해당 값의 형식을 포함 하는 인쇄 가능한 문자열을 생성 합니다. 이 문자열은 해당 IDE 창에 표시 됩니다.  

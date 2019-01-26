@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 790886d8-1975-4d3c-9a75-cd86c1faf4ca
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 306414e19730d988cbacb14e60f70a6382661ce3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ac70db75eedc59bbd0288b0941ee51068fdf907e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53893683"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069462"
 ---
 # <a name="idebugexpressionevaluatorsetregistryroot"></a>IDebugExpressionEvaluator::SetRegistryRoot
 이 메서드는 레지스트리 루트를 설정합니다. Side-by-side-디버깅에 사용 합니다.  

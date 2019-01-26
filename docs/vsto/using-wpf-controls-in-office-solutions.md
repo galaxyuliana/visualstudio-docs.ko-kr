@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - WPF [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 49b4d2fd4a32b6d73e5fcdfc65850abcb2835856
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 70c77e3b093947703680ab7253fdee0a6c3d60cd
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53822277"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869764"
 ---
 # <a name="use-wpf-controls-in-office-solutions"></a>Office 솔루션에서 WPF 컨트롤 사용
 
@@ -116,7 +116,7 @@ Windows Forms 컨트롤 및 폼에 WPF 컨트롤을 호스트하기 위한 아�
 
 -   [연습: WPF 콘텐츠 스타일](/dotnet/framework/winforms/advanced/walkthrough-styling-wpf-content)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Office UI 사용자 지정](../vsto/office-ui-customization.md)
 - [Windows Forms 컨트롤에 대 한 Office 문서 개요](../vsto/windows-forms-controls-on-office-documents-overview.md)

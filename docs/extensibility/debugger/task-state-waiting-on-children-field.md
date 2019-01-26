@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 6f26b098-84ad-4f6e-ba27-6136581ba630
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8a12652ccd999e7ec1c8a3e87fe1af12c9d91201
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 055b0f8a0babfe5b1492a781c5c80b2bfd8c42c8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53924496"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54918643"
 ---
 # <a name="taskstatewaitingonchildren-field"></a>TASK_STATE_WAITING_ON_CHILDREN 필드
 해당 대리자 실행을 마친 작업과 연결 된 자식 작업이 완료 되기를 기다리는 암시적으로 합니다.  

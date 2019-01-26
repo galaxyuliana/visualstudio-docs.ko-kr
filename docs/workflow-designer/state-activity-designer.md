@@ -7,16 +7,16 @@ f1_keywords:
 - System.Activities.Statements.State.UI
 ms.assetid: 9455ab37-93a0-4c46-9eb8-b6611ca23167
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: bbecce45ddaa883dc53a9b5b105959aa8be7e33f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2d69b5533ebaf617563c7ce8ff9ba83453bc2fb0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868107"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926152"
 ---
 # <a name="state-activity-designer"></a>상태 활동 디자이너
 
@@ -37,7 +37,7 @@ ms.locfileid: "53868107"
 |<xref:System.Activities.Statements.State.Exit%2A>|False|이 상태가 다른 상태로 전환될 때 발생하는 동작을 지정합니다. 경우는 <xref:System.Activities.Statements.State> 활동을 확장에서 활동을 끌어이 값을 설정할 수 있습니다 합니다 **도구 상자** 놓으면를 **종료** 상태 섹션.|
 |<xref:System.Activities.Statements.State.Transitions%2A>|False|<xref:System.Activities.Statements.State>에서 가능한 전환을 나열합니다. 목록의 각 항목에는 관련 <xref:System.Activities.Statements.Transition> 및 대상 <xref:System.Activities.Statements.State>에 대한 링크가 있습니다. 링크를 클릭하면 디자이너가 <xref:System.Activities.Statements.Transition> 또는 <xref:System.Activities.Statements.State>의 확장된 보기로 전환됩니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [StateMachine](../workflow-designer/statemachine-activity-designer.md)
 - [FinalState](../workflow-designer/finalstate-activity-designer.md)

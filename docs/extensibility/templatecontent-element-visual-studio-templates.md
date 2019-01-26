@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e9f6e5d1c28e4990555b1aeef73d284d40c4172c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c27f9ce239d5d82dc972186912266cea0d4f1ddf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53835814"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070502"
 ---
 # <a name="templatecontent-element-visual-studio-templates"></a>TemplateContent 요소(Visual Studio 템플릿)
 
@@ -55,7 +55,7 @@ ms.locfileid: "53835814"
 |[ProjectCollection](../extensibility/projectcollection-element-visual-studio-templates.md)|선택적 요소입니다.<br /><br /> 다중 프로젝트 템플릿의 구성과 내용을 지정합니다.|
 |[프로젝트](../extensibility/project-element-visual-studio-templates.md)|선택적 요소입니다.<br /><br /> 파일 또는 프로젝트에 추가할 디렉터리를 지정 합니다.|
 |[참조](../extensibility/references-element-visual-studio-templates.md)|선택적 요소입니다.<br /><br /> 항목 템플릿에 대해 필요한 어셈블리 참조를 지정 합니다.|
-|[프로젝트 항목](../extensibility/projectitem-element-visual-studio-item-templates.md)|선택적 요소입니다.<br /><br /> 템플릿에 포함 된 파일을 지정 합니다.|
+|[ProjectItem](../extensibility/projectitem-element-visual-studio-item-templates.md)|선택적 요소입니다.<br /><br /> 템플릿에 포함 된 파일을 지정 합니다.|
 |[CustomParameters](../extensibility/customparameters-element-visual-studio-templates.md)|선택적 요소입니다.<br /><br /> 템플릿에서 프로젝트 또는 항목을 만들 때 사용할 수 있는 사용자 지정 매개 변수를 지정 합니다.|
 
 ### <a name="parent-elements"></a>부모 요소

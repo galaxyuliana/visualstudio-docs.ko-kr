@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - importing form regions
 - form regions [Office development in Visual Studio], importing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bfb7365d6e8d336d2cfae24286b6df087430e635
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aeac6711691de4113ace572790df0bf6ac674dae
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956181"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54870232"
 ---
 # <a name="walkthrough-import-a-form-region-that-is-designed-in-outlook"></a>연습: Outlook에서 디자인 한 양식 영역 가져오기
   이 연습에서는 **새 양식 영역** 마법사를 사용하여 Microsoft Office Outlook에서 양식 영역을 디자인한 다음 Outlook VSTO 추가 기능 프로젝트로 양식 영역을 가져오는 방법을 보여 줍니다. Outlook에서 양식 영역을 디자인하면 Outlook 데이터에 바인딩되는 양식 영역에 네이티브 Outlook 컨트롤을 추가할 수 있습니다. 양식 영역을 가져온 후에 각 컨트롤의 이벤트를 처리할 수 있습니다.  
@@ -208,7 +208,7 @@ ms.locfileid: "53956181"
   
 ### <a name="to-test-the-form-region"></a>양식 영역을 테스트하려면  
   
-1.  키를 눌러 **F5** 프로젝트를 실행 합니다.  
+1.  **F5** 키를 눌러 프로젝트를 실행합니다.  
   
      Outlook이 시작됩니다.  
   

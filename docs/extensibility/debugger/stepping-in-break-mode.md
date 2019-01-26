@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: b08dc8ee-6c63-4462-a097-6f525cfbb35a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 95b4cbe8faa42e5eca87dadcb06aa604856e1b91
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4aefa1c4b3767ae58cb526c6f5a663350efd3137
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988860"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54922875"
 ---
 # <a name="stepping-in-break-mode"></a>중단 모드 단계별 실행
 다음 섹션에서는 디버거가 중단 모드 이며 코드를 단계별로 실행 해야 하는 경우 발생 하는 프로세스를 설명 합니다.  
