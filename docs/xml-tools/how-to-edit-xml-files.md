@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 07fa3ecf-6345-4d30-9d85-d5ef5b083319
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d5fc57c894c1e3a616062f01cc46103b4714fa35
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8ee170d42390ed04292be28740dde4d597b7f7d9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53849047"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55005426"
 ---
 # <a name="how-to-edit-xml-files"></a>방법: XML 파일 편집
 
@@ -67,7 +67,7 @@ XML 편집기는 XML 파일을 위한 새 편집기입니다. 이 편집기는 �
 
      XML 편집기에서는 이 프로젝트에 추가한 스키마를 찾아서 이 프로젝트를 연 상태에서 편집하는 모든 XML, 스키마 또는 XSLT 파일의 유효성 검사 및 IntelliSense에 사용합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 편집기](../xml-tools/xml-editor.md)
 - [XML 문서 속성, 속성 창](../xml-tools/xml-document-properties-properties-window.md)

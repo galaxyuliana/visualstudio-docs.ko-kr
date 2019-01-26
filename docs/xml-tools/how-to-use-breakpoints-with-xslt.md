@@ -5,15 +5,15 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 72a22937792cc06bcac18f70a2bd4c53be98f7fe
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7a569e3bc9d467b1cfce16d3836fdd1bb2a86e1c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53894891"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55013693"
 ---
 # <a name="how-to-use-breakpoints-with-xslt"></a>방법: XSLT에 중단점 사용
 
@@ -57,6 +57,6 @@ XSLT 스타일시트 또는 XML 소스 문서에서 중단점을 설정할 수 �
 
 5.  클릭 합니다 **XSL 디버깅** XML 편집기 도구 모음 단추입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [연습: XSLT 스타일 시트 디버깅](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)

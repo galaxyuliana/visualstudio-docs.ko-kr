@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: 631f0daf-1d42-4c90-a7dc-1a6a9de64c93
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: cc1b57bed4ec910b1b06cc8efb5a80d0fa2fdc5a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 937a41f6d308e9c3ff8a99f925cd75c95c17fb24
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933640"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012484"
 ---
 # <a name="basic-correctness-rules-rule-set-for-managed-code"></a>관리 코드에 대한 기본 수정 규칙 규칙 집합
 기본 수정 규칙 규칙 집합을 논리 오류 및 일반적인 실수 프레임 워크 Api의 사용량에서에 중점을 둡니다. 기본 수정 규칙 최소 권장 규칙 규칙 집합에 있는 규칙을 포함 합니다. 자세한 내용은 [관리 되는 코드에 대 한 관리 권장 규칙 규칙 집합](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 의 최소 권장 규칙 보고서는 경고의 목록을 확장 하려면이 규칙 집합을 포함 해야 합니다.

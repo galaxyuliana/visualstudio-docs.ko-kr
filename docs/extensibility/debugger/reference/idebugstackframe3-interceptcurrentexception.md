@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 116c7324-7645-4c15-b484-7a5cdd065ef5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 57bcb44cf872ae559cba83dae1e85f613f3dd910
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 60dfc107cfa65e1a2310c27305a5bc3fe69bd7d5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53962405"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55006897"
 ---
 # <a name="idebugstackframe3interceptcurrentexception"></a>IDebugStackFrame3::InterceptCurrentException
 현재 예외를 차단 하려는 경우 현재 스택 프레임에는 디버거에서 호출 됩니다.  
@@ -50,7 +50,7 @@ int InterceptCurrentException(
   
  가장 일반적인 오류는 다음과 같습니다.  
   
-|오류|설명|  
+|Error|설명|  
 |-----------|-----------------|  
 |`E_EXCEPTION_CANNOT_BE_INTERCEPTED`|현재 예외를 가로챌 수 없습니다.|  
 |`E_EXCEPTION_CANNOT_UNWIND_ABOVE_CALLBACK`|현재 실행 프레임 처리기에 대 한 아직 검색 된 되지 않았습니다.|  

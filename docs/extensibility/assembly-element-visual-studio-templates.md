@@ -11,21 +11,21 @@ helpviewer_keywords:
 ms.assetid: 9242f76a-1273-4b8a-8f26-6606f91829ef
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 74e57ae61ddfaa24de4cc8e3e332b3fa9f7250c6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6d6c251c1aedcfb494047c055e358a049ff69431
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53912901"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55008922"
 ---
 # <a name="assembly-element-visual-studio-templates"></a>Assembly 요소 (Visual Studio 템플릿)
 서식 파일 프로젝트에 해당 어셈블리 참조를 추가 하는 어셈블리에 대 한 정보를 지정 합니다.  
   
  \<VSTemplate>  
- \<TemplateContent >  
+ \<TemplateContent>  
  \<참조 >  
  \<참조 >  
  \<어셈블리 >  
@@ -56,7 +56,7 @@ ms.locfileid: "53912901"
   
  이 텍스트는 항목 템플릿이 인스턴스화될 때 프로젝트에 추가할 어셈블리를 지정 합니다. 다음 방법 중 하나에서이 어셈블리 이름을 지정 해야 합니다.  
   
--   전체 어셈블리 이름입니다. 예:  
+-   전체 어셈블리 이름입니다. 예를 들어:  
   
     ```  
     <Assembly>  
@@ -64,7 +64,7 @@ ms.locfileid: "53912901"
     </Assembly>  
     ```  
   
--   단순한 텍스트 참조 합니다. 예:  
+-   단순한 텍스트 참조 합니다. 예를 들어:  
   
     ```  
     <Assembly> System </Assembly>  

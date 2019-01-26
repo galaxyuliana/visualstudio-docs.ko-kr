@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 499b6cb593dd29d9bd881203daab19fc319ff1a7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: de713065b61df07a791fa81e89425481227676ea
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902456"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55006713"
 ---
 # <a name="add-visual-studio-commands-to-a-start-page"></a>시작 페이지에 Visual Studio 명령 추가
 사용자 지정 시작 페이지를 만들면 Visual Studio 명령에 추가할 수 있습니다. 이 문서에는 Visual Studio 명령 시작 페이지 XAML 개체를 바인딩할 다양 한 방법을 설명 합니다.  
@@ -107,5 +107,5 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
   
  예를 들어 참조 [연습: 시작 페이지에서 사용자 설정 저장](../extensibility/walkthrough-saving-user-settings-on-a-start-page.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [시작 페이지에 사용자 컨트롤 추가](../extensibility/adding-user-control-to-the-start-page.md)

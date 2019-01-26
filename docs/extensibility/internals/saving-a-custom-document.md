@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8fd55353d09f7e08572eecb6c4729205150c2b03
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 396058e226b074853c7570573adce73cf19194e8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53932657"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55006765"
 ---
 # <a name="saving-a-custom-document"></a>사용자 지정 문서 저장
 환경 핸들을 **저장**를 **다른 이름으로 저장**, 및 **모두 저장** 명령입니다. 사용자가 클릭 하면 **저장**, **다른 이름으로 저장**, **또는 모두 저장** 에 **파일** 메뉴 Save All, 다음에 솔루션을 닫습니다 프로세스가 발생합니다.  

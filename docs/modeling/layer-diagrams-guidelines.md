@@ -9,16 +9,16 @@ helpviewer_keywords:
 - constraints, architectural
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: f4a044481b1e359b2021b16da1f0b2b5aba8a872
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 13ffde9d399e0535f7cf6790f199ba4924156636
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53924425"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012185"
 ---
 # <a name="dependency-diagrams-guidelines"></a>종속성 다이어그램: 지침
 
@@ -31,7 +31,7 @@ ms.locfileid: "53924425"
 
 ## <a name="what-is-a-dependency-diagram"></a>종속성 다이어그램 이란?
 
-전형적인 아키텍처 다이어그램과 마찬가지로 종속성 다이어그램 주요 구성 요소나 기능 단위를 디자인 및 해당 상호 종속성을 식별합니다. 다이어그램에서 각 노드를 *레이어*, 네임 스페이스, 프로젝트 또는 다른 아티팩트의 논리 그룹을 나타냅니다. 디자인에 존재해야 하는 종속성을 그릴 수 있습니다. 전형적인 아키텍처 다이어그램과 달리 소스 코드의 실제 종속성이 사용자가 지정한 의도한 종속성에 부합되는지 확인할 수 있습니다. 유효성 검사를 [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]에 대한 정기 빌드의 일부로 포함하여 프로그램 코드가 향후 변경되더라도 시스템의 아키텍처와 계속 일치하도록 할 수 있습니다. 참조 [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)합니다.
+전형적인 아키텍처 다이어그램과 마찬가지로 종속성 다이어그램 주요 구성 요소나 기능 단위를 디자인 및 해당 상호 종속성을 식별합니다. 다이어그램에서 각 노드를 *레이어*, 네임 스페이스, 프로젝트 또는 다른 아티팩트의 논리 그룹을 나타냅니다. 디자인에 존재해야 하는 종속성을 그릴 수 있습니다. 전형적인 아키텍처 다이어그램과 달리 소스 코드의 실제 종속성이 사용자가 지정한 의도한 종속성에 부합되는지 확인할 수 있습니다. 유효성 검사를 [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]에 대한 정기 빌드의 일부로 포함하여 프로그램 코드가 향후 변경되더라도 시스템의 아키텍처와 계속 일치하도록 할 수 있습니다. 참조 [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)를 참조하세요.
 
 ## <a name="how-to-design-or-update-your-app-with-dependency-diagrams"></a>디자인 또는 종속성 다이어그램을 사용 하 여 앱을 업데이트 하는 방법
 
@@ -173,7 +173,7 @@ ms.locfileid: "53924425"
 
 이후 코드 변경 종속성 다이어그램을 따르는지를 확인 하려면 솔루션의 표준 빌드 프로세스에 레이어 유효성 검사를 포함 합니다. 다른 팀 멤버에 솔루션을 빌드할 때마다 코드의 종속성과 종속성 다이어그램 간의 차이점 빌드 오류로 보고 됩니다. 빌드 프로세스에 레이어 유효성 검사를 포함 하는 방법에 대 한 자세한 내용은 참조 하세요. [종속성 다이어그램을 사용 하 여 코드의 유효성을 검사](../modeling/validate-code-with-layer-diagrams.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)
 - [코드에서 종속성 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)

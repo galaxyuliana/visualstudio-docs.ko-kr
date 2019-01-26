@@ -7,15 +7,15 @@ dev_langs:
 - C++
 author: corob-msft
 ms.author: corob
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0eccf13f38799c1d35b7fe4226fa02ec1a291b0c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 499e3776e81fcde3e89eb3436e3938f2feafb137
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986988"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55013706"
 ---
 # <a name="visual-studio-c-project-system-extensibility-and-toolset-integration"></a>Visual Studio c + + 프로젝트 시스템 확장 및 도구 집합 통합
 
@@ -35,7 +35,7 @@ ms.locfileid: "53986988"
 
 - `$(ApplicationType)`
 
-   예를 들면 다음과 같습니다. Windows 스토어, Android, Linux
+   예를 들면 다음과 같습니다. Windows Store, Android, Linux
 
 - `$(ApplicationTypeRevision)`
 
@@ -110,7 +110,7 @@ Windows 데스크톱 프로젝트를 정의 하지는 않습니다 `$(Applicatio
 > `$(VCTargetsPath)`\\*Microsoft.Cpp.Default.props*  
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(MSBuildExtensionsPath)`\\`$(MSBuildToolsVersion)`\\*Microsoft.Common.props*  
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*ImportBefore*\\*기본값*\\\*. *속성*  
-> &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*플랫폼*\\`$(Platform)`\\*Platform.default.props*  
+> &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Platforms*\\`$(Platform)`\\*Platform.default.props*  
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*ImportAfter*\\*기본값*\\\*. *속성*  
 
 사용 하 여는 `$(_PlatformFolder)` 보유 하는 속성을 `$(Platform)` 플랫폼 폴더 위치입니다. 이 속성은 
@@ -138,9 +138,9 @@ Props 파일은이 순서 대로 가져옵니다.
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Microsoft.Cpp.Current.targets*  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*Platform.targets*  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Microsoft.Cpp.Platform.targets*  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportBefore*\\\*. *대상*  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportBefore*\\\*.*targets*  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*PlatformToolsets*\\`$(PlatformToolset)`\\*Toolset.target*  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportAfter*\\\*. *대상*  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportAfter*\\\*.*targets*  
 
 프로그램 도구 집합에 대 한 몇 가지 기본 속성을 정의 하는 경우에 적절 한 ImportBefore 및 ImportAfter 폴더에 파일을 추가할 수 있습니다.
 
@@ -482,8 +482,8 @@ CPS 컨텍스트 형식에 대해 다른 값을 지원 되지만 Visual c + + �
 |------------| - |
 | `generic` | 모든 속성이 범주 머리글 아래에서 한 페이지에 표시 됩니다.<br/>규칙에 대 한 표시 될 수 있습니다 `Project` 하 고 `PropertySheet` 컨텍스트를 아닌 `File`합니다.<br/><br/> 예제: `$(VCTargetsPath)`\\*1033*\\*general.xml* |
 | `tool` | 범주는 하위로 표시 됩니다.<br/>규칙이 모든 컨텍스트에 표시 될 수 있습니다: `Project`, `PropertySheet` 고 `File`입니다.<br/>프로젝트 항목이 있는 경우에 규칙은 프로젝트 속성에 표시 합니다 `ItemType` 에 정의 된 `Rule.DataSource`규칙 이름에 포함 되어 있지 않으면는 `ProjectTools` 항목 그룹입니다.<br/><br/>예제: `$(VCTargetsPath)`\\*1033*\\*clang.xml* |
-| `debugger` | 페이지는 디버깅 페이지의 일부로 표시 됩니다.<br/>범주는 현재 무시 됩니다.<br/>규칙 이름이 디버그 시작 관리자 MEF 개체의 일치 해야 `ExportDebugger` 특성입니다.<br/><br/>예제: `$(VCTargetsPath)`\\*1033*\\*디버거\_로컬\_windows.xml* |
-| *custom* | 사용자 지정 템플릿입니다. 템플릿의 이름은 일치 해야 합니다는 `ExportPropertyPageUIFactoryProvider` 특성을 `PropertyPageUIFactoryProvider` MEF 개체입니다. 참조 **Microsoft.VisualStudio.ProjectSystem.Designers.Properties.IPropertyPageUIFactoryProvider**합니다.<br/><br/> 예제: `$(VCTargetsPath)`\\*1033*\\*userMacros.xml* |
+| `debugger` | 페이지는 디버깅 페이지의 일부로 표시 됩니다.<br/>범주는 현재 무시 됩니다.<br/>규칙 이름이 디버그 시작 관리자 MEF 개체의 일치 해야 `ExportDebugger` 특성입니다.<br/><br/>예제: `$(VCTargetsPath)`\\*1033*\\*debugger\_local\_windows.xml* |
+| *custom* | 사용자 지정 템플릿입니다. 템플릿의 이름은 일치 해야 합니다는 `ExportPropertyPageUIFactoryProvider` 특성을 `PropertyPageUIFactoryProvider` MEF 개체입니다. See **Microsoft.VisualStudio.ProjectSystem.Designers.Properties.IPropertyPageUIFactoryProvider**.<br/><br/> 예제: `$(VCTargetsPath)`\\*1033*\\*userMacros.xml* |
 
 규칙 속성 그리드 기반 템플릿의 하나를 사용 하는 경우 해당 속성에 대 한 이러한 확장 지점을 사용할 수 있습니다.
 
