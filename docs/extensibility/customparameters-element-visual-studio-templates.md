@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: cf3efc91-1532-4022-bbb8-a18658424fee
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 815b9a176d747c2139a5d88326085d48120e1819
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1f3816943ca3779b9110de2359fd10852330eb20
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53847323"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940260"
 ---
 # <a name="customparameters-element-visual-studio-templates"></a>CustomParameters 요소 (Visual Studio 템플릿)
 이 마법사에서는 매개 변수 대체를 수행 하는 경우 템플릿 마법사에 전달 되는 사용자 지정 매개 변수를 그룹화 합니다.  
@@ -62,7 +62,7 @@ ms.locfileid: "53847323"
 </CustomParameters>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [CustomParameter 요소 (Visual Studio 템플릿)](../extensibility/customparameter-element-visual-studio-templates.md)   
  [템플릿 매개 변수](../ide/template-parameters.md)   
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)

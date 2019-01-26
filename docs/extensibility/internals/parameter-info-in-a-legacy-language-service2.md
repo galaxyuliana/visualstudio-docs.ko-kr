@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: a117365d-320d-4bb5-b61d-3e6457b8f6bc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a11f7416f77aa997d6874457cc3af83ebb761bb4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5a6720eb2c7b624b9e440469853328c3e0505bb1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988150"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936257"
 ---
 # <a name="parameter-info-in-a-legacy-language-service"></a>레거시 언어 서비스의 매개 변수 정보
 IntelliSense 매개 변수 정보는 메서드 매개 변수 목록에 대 한 문자 (일반적으로 여는 괄호)를 시작 하는 사용자가 매개 변수 목록 메서드 시그니처를 표시 하는 도구 설명입니다. 각 매개 변수를 입력 매개 변수 구분 기호 (쉼표)를 입력 하 고 도구 설명 굵게 표시 된 다음 매개 변수를 표시 하도록 업데이트 됩니다.  

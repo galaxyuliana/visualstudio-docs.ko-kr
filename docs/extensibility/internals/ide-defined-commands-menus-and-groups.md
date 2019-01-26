@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 86b3af13-7163-48c6-986b-7beeedbc26cc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c9735a1ef80c22a9bf81edc711ef0f8819114720
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2e9c7f8514dffbea2246f74019a8e684f8af76e7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941127"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940689"
 ---
 # <a name="ide-defined-commands-menus-and-groups"></a>IDE 정의 명령, 메뉴 및 그룹
 여러 메뉴, 명령 및 명령 그룹에서 사용 하기 위해 이미 정의 된 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. 확장 하는 경우이 명령은 사용 가능한도 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다.  

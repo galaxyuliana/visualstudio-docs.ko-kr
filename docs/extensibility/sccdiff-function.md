@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: d49bc8c5-f631-4153-9d3c-feb3564da305
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 68f90e406a06069403b76749977c5546b10ed790
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 282c3575de351079feba95b3d4f6985f0cf57327
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53872056"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936894"
 ---
 # <a name="sccdiff-function"></a>SccDiff 함수
 이 함수 표시 (또는 확인만 필요한 경우)에서 차이점 (로컬 디스크)의 현재 파일 및 해당 마지막 체크 인 버전 원본 제어 시스템입니다.  
@@ -44,7 +44,7 @@ SCCRTN SccDiff(
  lpFileName  
  [in] 차이 요청한 대상 파일 이름입니다.  
   
- 옵션이  
+ fOptions  
  [in] 명령 플래그입니다. 세부 정보에 대 한 설명을 참조 하세요.  
   
  pvOptions  
@@ -82,5 +82,5 @@ SCCRTN SccDiff(
 |SCC_DIFF_QD_CHECKSUM|지원 되는 경우 checksum 통해 파일을 자동으로 비교 합니다. 지원 되지 않는 경우 비교 내용 대체 합니다.|  
 |SCC_DIFF_QD_TIME|지원 되는 경우 해당 타임 스탬프를 통해 파일을 자동으로 비교 합니다. 지원 되지 않는 경우 비교 내용 대체 합니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)

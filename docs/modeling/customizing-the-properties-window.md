@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, Properties window
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 42f1f99cd8d5d8bc214b3a7ccde571d2a45a7d4a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c02bdb890ed6e65db4916efa9899e967a1ce897c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987342"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936296"
 ---
 # <a name="customizing-the-properties-window"></a>속성 창 사용자 지정
 도메인 특정 언어 (DSL) Visual Studio에서의 모양 및 동작의 속성 창 사용자 지정할 수 있습니다. DSL 정의에서 각 도메인 클래스에 도메인 속성을 정의합니다. 기본적으로 모델 탐색기 또는 다이어그램에서 클래스의 인스턴스를 선택 하면 속성 창에서 모든 도메인 속성 나열 됩니다. 이 수 다이어그램에서 셰이프 필드에 매핑되지 않은 하는 경우에 하 고 도메인 속성의 값을 편집 합니다.
@@ -180,7 +180,7 @@ ms.locfileid: "53987342"
 > [!NOTE]
 >  별도 코드 파일에서 코드를 추가 합니다 **Dsl** 프로젝트입니다.
 
- 예:
+ 예를 들어:
 
 ```csharp
 internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
@@ -217,7 +217,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 (typeof(MyTypeConverter))]
 ```
 
- <xref:System.ComponentModel.TypeConverter>에서 파생된 클래스를 정의합니다. 별도 파일에 코드를 추가 합니다 **Dsl** 프로젝트입니다. 예:
+ <xref:System.ComponentModel.TypeConverter>에서 파생된 클래스를 정의합니다. 별도 파일에 코드를 추가 합니다 **Dsl** 프로젝트입니다. 예를 들어:
 
 ```csharp
 /// <summary>

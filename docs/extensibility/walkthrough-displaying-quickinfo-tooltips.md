@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 23fb8384-4f12-446f-977f-ce7910347947
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6bc7f49abb808a22cb0f51c0c86e6c196856c205
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 674135c80f871babeb8ad2a3246f9b849a75f371
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965806"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54939532"
 ---
 # <a name="walkthrough-display-quickinfo-tooltips"></a>연습: QuickInfo 도구 설명 표시
 요약 정보 기능은 IntelliSense 메서드 시그니처를 표시 하는 메서드 이름 위로 포인터를 이동 하는 경우 사용자 설명 하며 QuickInfo 설명을 제공 하려면 식별자를 정의 하 고 콘텐츠를 표시 하는 도구 설명을 만드는 QuickInfo 같은 언어 기반 기능을 구현할 수 있습니다. 언어 서비스의 컨텍스트에서 QuickInfo를 정의할 수 있습니다 또는 고유한 파일 이름 확장명 및 콘텐츠 형식을 정의 하 고 바로 해당 형식에 대 한 요약 정보를 표시할 수 있습니다 또는 기존 콘텐츠 형식 (예: "text")에 대 한 요약 정보를 표시할 수 있습니다. 이 연습에서는 "text" 콘텐츠 형식에 대 한 요약 정보를 표시 하는 방법을 보여 줍니다.  
@@ -174,5 +174,5 @@ ms.locfileid: "53965806"
   
 4.  "추가"의 항목 중 하나 위로 포인터를 이동 합니다. 서명 및 설명의 `add` 메서드를 표시 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: 파일 이름 확장명에 콘텐츠 형식 링크](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

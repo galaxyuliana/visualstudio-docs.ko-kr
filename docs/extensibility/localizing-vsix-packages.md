@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1d554819c8c615dc9f8fcd41bb4b460482e21fde
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 28426c7cad7abeb159434108656b5c16d47b148e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956935"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936647"
 ---
 # <a name="localizing-vsix-packages"></a>VSIX 패키지 지역화
 
@@ -99,7 +99,7 @@ Vsixlangpack 파일을 만들 때 설정 해야 합니다 `Include in Vsix` 속�
 </PackageLanguagePackManifest>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 |제목|설명|
 |-----------|-----------------|

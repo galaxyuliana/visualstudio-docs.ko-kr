@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: bd5940d9-d94d-4944-beda-4ec1ab2bbde5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 02b7f04afc666fb842414c8a46793eb3178fe404
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b4165a367a029bc0d226f7fce55f3b2929d0f965
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852588"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936285"
 ---
 # <a name="project-configuration-for-managing-deployment"></a>배포 관리를 위한 프로젝트 구성
 배포는 물리적으로 디버깅 및 설치에 대 한 예상 되는 위치를 빌드 프로세스에서 출력 항목을 이동 하는 행위. 예를 들어, 웹 응용 프로그램을 로컬 컴퓨터에서 작성 및 서버에 배치 될 수 있습니다.  

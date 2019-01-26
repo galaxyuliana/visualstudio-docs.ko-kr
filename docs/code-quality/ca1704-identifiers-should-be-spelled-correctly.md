@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: f2c7a44d-1690-44ca-9cd0-681b04b12b2a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6c39f744556968ff279b3e3e7e9eb923ec069ebc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cfb91c830239a61b3f7f7e58364ae41c87152321
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53954411"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54935659"
 ---
 # <a name="ca1704-identifiers-should-be-spelled-correctly"></a>CA1704: 식별자에는 정확한 철자를 사용해야 합니다.
 
@@ -53,7 +53,7 @@ Microsoft 맞춤법 검사 라이브러리에서 인식 하지 못하는 단어�
 
 맞춤법 검사기는 현재 영어 기반 문화권 사전에 대해서만 확인합니다. 추가 하 여 프로젝트 파일에서 프로젝트의 문화권을 변경할 수 있습니다 합니다 **CodeAnalysisCulture** 요소입니다.
 
-예:
+예를 들어:
 
 ```xml
 <Project ...>

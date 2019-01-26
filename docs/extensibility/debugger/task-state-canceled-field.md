@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: f4f5a96a-8230-493d-9696-8d2716bda261
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9070b2bfd9e5134b02ffcde34025b8a46b0d3687
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0f001b62dd378fec0f869409ac62d9d591aa1366
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941221"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54937459"
 ---
 # <a name="taskstatecanceled-field"></a>TASK_STATE_CANCELED 필드
 작업 실행 상태에 도달 하거나 해당 취소를 확인 하 고 예외 없이 완료 전에 취소 되었습니다.  

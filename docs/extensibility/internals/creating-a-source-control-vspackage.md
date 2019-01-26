@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: cca0a9ed-48ff-409f-8036-ed8db0f7533e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4529011b9e896c2fdbff5595acd5c1a94cbb9e7a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 278f06376ede2ceb26ccc6ed31d7f4666a0882c0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53846837"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936634"
 ---
 # <a name="create-a-source-control-vspackage"></a>소스 제어 VSPackage 만들기
 이 설명서와 통합 소스 제어 패키지의 아키텍처 개요에 대 한 링크가 포함 되어 있습니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 인터페이스를 구현 하 고 사용할 수 있도록 서비스에서 정의한 API 및 간단한 소스를 보여 주는 샘플 패키지 구현을 제어 합니다.  

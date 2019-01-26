@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 4538ecd5-fc6f-4480-ab00-90b2ce4730db
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 50ca27f9c6cf15c663514588a0c08bd5b91e3bd0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 31c644beab7a9945832e0bc7fc28162ee680d56e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53882093"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54939857"
 ---
 # <a name="ca2123-override-link-demands-should-be-identical-to-base"></a>CA2123: 재정의 링크 요청은 기본 링크 요청과 같아야 합니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "53882093"
 
  [!code-csharp[FxCop.Security.OverridesAndSecurity#1](../code-quality/codesnippet/CSharp/ca2123-override-link-demands-should-be-identical-to-base_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [보안 코딩 지침](/dotnet/standard/security/secure-coding-guidelines)
 - [링크 요청](/dotnet/framework/misc/link-demands)

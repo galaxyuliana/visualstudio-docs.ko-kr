@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, decorators
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: fc0f6e3fe8078675792109c41ee75272b44ca714
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9cc30e43ea10a0b206351df9722d813b565b78a6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865364"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54942180"
 ---
 # <a name="properties-of-decorators"></a>데코레이터의 속성
 데코레이터는 아이콘, 텍스트 또는 셰이프 또는 연결선 다이어그램에 표시할 수 있는 확장/축소 펼침 단추입니다. 다음 표에 세 종류의 데코레이터에 대 한 속성을 보여 줍니다. 속성의 일부 셰이프에 데코레이터 또는 커넥터 데코레이터에만 표시 됩니다.
