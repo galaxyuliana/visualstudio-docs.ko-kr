@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b63a2635bcfaf80dea06659ec1472fc93bc6797a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 22f0157515dcd73ef9d75ecead611dc871baff67
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856386"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55002628"
 ---
 # <a name="disassemblydata"></a>DisassemblyData
 표시할 통합된 개발 환경 (IDE)에 대 한 하나의 디스어셈블리 명령을 설명 합니다.  

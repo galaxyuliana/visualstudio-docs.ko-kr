@@ -5,20 +5,20 @@ ms.topic: conceptual
 ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 563c9206e72788cc26eccdfab7d0e0993d14d1a8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c385c7abda5ccf45914cf990770704156dd701a4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53948773"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000811"
 ---
 # <a name="walkthrough-save-user-settings-on-a-start-page"></a>연습: 시작 페이지에서 사용자 설정 저장
 시작 페이지에 대 한 사용자 설정을 유지할 수 있습니다. 이 연습을 수행 하 여 사용자가 단추를 클릭 하 고 다음 시작 페이지가 로드 될 때마다이 설정으로 검색 하는 경우 레지스트리 설정을 저장 하는 컨트롤을 만들 수 있습니다. 시작 페이지 프로젝트 템플릿을 사용자 지정 가능한 사용자 컨트롤을 포함 하 고 해당 컨트롤을 호출 하는 기본 시작 페이지 XAML 때문에 자체 시작 페이지를 수정할 필요가 없습니다.  
   
- 이 연습에서 인스턴스화되는 설정 저장소의 인스턴스가 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> 인터페이스를 읽고 호출 되는 경우 다음 레지스트리 위치에 씁니다. **HKCU\Software\Microsoft\VisualStudio\14.0\\\<CollectionName >**  
+ 이 연습에서 인스턴스화되는 설정 저장소의 인스턴스가 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> 인터페이스를 읽고 호출 되는 경우 다음 레지스트리 위치에 씁니다. **HKCU\Software\Microsoft\VisualStudio\14.0\\\<CollectionName>**  
   
  Visual Studio의 실험적 인스턴스에서 실행 중인 경우 설정 저장소를 읽고 쓸 **HKCU\Software\Microsoft\VisualStudio\14.0Exp\\\<CollectionName >.**  
   

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 93ff8f6cd9423212a64404b55b38751d095b260f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 30c234994fae5799bbb44369edadf9d2f3b82d26
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913388"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54991140"
 ---
 # <a name="best-practices-for-security-in-vspackages"></a>Vspackage의 보안 모범 사례
 설치 하는 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] 컴퓨터에서 관리자 자격 증명을 사용 하 여 컨텍스트 실행 수. 보안 및 배포의 기본 단위를 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 응용 프로그램은 합니다 [VSPackage](../../extensibility/internals/vspackages.md)합니다. 사용 하 여 VSPackage를 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 관리자 자격 증명도 필요 합니다.  
@@ -30,6 +30,6 @@ ms.locfileid: "53913388"
   
  자세한 내용은 [.NET framework 코딩 지침 보안](/previous-versions/visualstudio/visual-studio-2008/d55zzx87(v=vs.90))합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [추가 기능 보안](https://msdn.microsoft.com/Library/44a5c651-6246-4310-b371-65378917c799)   
  [DDEX 보안](https://msdn.microsoft.com/library/44a52a70-5c98-450e-993d-4a3b32f69ba8)

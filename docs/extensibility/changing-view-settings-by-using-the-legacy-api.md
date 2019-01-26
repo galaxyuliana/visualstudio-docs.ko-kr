@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 12c9b300-0894-4124-96a1-764326176d77
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 08c23aa1705880b444fdf036ee269bcc8ae32dfa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 053981aceeb72f0c02f1426068919f72b6cdce8d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902426"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54984732"
 ---
 # <a name="change-view-settings-by-using-the-legacy-api"></a>기존 API를 사용 하 여 보기 설정 변경
 가상 공간, 자동 줄 바꿈 및 선택 영역 여백 등의 핵심 편집기 기능에 대 한 설정을 이용 하 여 사용자가 변경할 수 있습니다 합니다 **옵션** 대화 상자. 하지만 이러한 설정을 변경할 수 이기도 프로그래밍 방식으로 합니다.  

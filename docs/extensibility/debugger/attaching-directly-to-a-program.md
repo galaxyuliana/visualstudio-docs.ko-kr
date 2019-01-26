@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: ad2b7db8-821c-440c-ba07-c55c6a395e0f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 681e01702eeb9dda4e6770823e1c7211f56cfddf
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5e3accbd46ea20f5b37af21cdb4d7fd5c1f87a25
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53924948"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55008298"
 ---
 # <a name="attach-directly-to-a-program"></a>프로그램에 직접 연결
 일반적으로 이미 실행 중인 프로세스에서 프로그램을 디버그 하려는 사용자는이 프로세스를 수행 합니다.  
@@ -40,6 +40,6 @@ ms.locfileid: "53924948"
   
    두 번째 예외는 이미 실행 중인 프로그램에 연결 하는 독일에서 보낸 시작 이벤트 일반적으로 포함 하지 항목 지점 이벤트입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [시작 후 시작 이벤트 보내기](../../extensibility/debugger/sending-startup-events-after-a-launch.md)   
  [디버깅 작업](../../extensibility/debugger/debugging-tasks.md)

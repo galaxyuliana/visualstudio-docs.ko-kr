@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d058f9b82918f74d8e43e56f9814e0d3451376cb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6b4201e6c09037259888290312c4dce616f77459
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53959536"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54988313"
 ---
 # <a name="add-a-menu-to-the-visual-studio-menu-bar"></a>Visual Studio 메뉴 모음에 메뉴 추가
 이 연습에서는 Visual Studio 통합된 개발 환경 (IDE)의 메뉴 모음에 메뉴를 추가 하는 방법을 보여 줍니다. IDE 메뉴 모음에 메뉴 범주와 같은 **파일**를 **편집**를 **뷰**를 **창**, 및 **도움말** .  
@@ -91,5 +91,5 @@ ms.locfileid: "53959536"
   
      메시지 상자를 표시 하 고 "TestCommand 패키지 내에서 TopLevelMenu.TestCommand.MenuItemCallback()" 메시지를 표시 해야 합니다. 이 새 명령이 작동 하는 것을 나타냅니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 47d40aae-7a3c-41e1-a949-34989924aefb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d3f65b6d4daeb928cab1c59aaa5f1f2ded3225e6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea0e10413581e7047b92b640f105023b0a1a8ff3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898218"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54979584"
 ---
 # <a name="support-for-the-autos-window-in-a-legacy-language-service"></a>레거시 언어 서비스의 자동 창 지원
 합니다 **자동** 변수 등 디버깅 중인 프로그램 (되거나 중단점 또는 예외)를 일시 중지 되 면 범위에 있는 매개 변수 식 창에 표시 됩니다. 로컬 또는 전역 변수 및 매개 변수는 로컬 범위에서 변경 된 식이 포함할 수 있습니다. 합니다 **자동** 창 클래스, 구조체 또는 다른 일종의 인스턴스화를 포함할 수도 있습니다. 식 계산기를 평가할 수 있는 모든 항목에 잠재적으로 표시할 수는 **자동** 창입니다.  

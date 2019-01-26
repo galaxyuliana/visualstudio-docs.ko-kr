@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 6d22fa94-21aa-46cb-b5b5-32a6399ebb20
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 784c8cd4bf762e97b69c6a88ae99701dc993efc5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 425a98c2198c075f0e621b8371f23190f62be935
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53921681"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54985031"
 ---
 # <a name="idebugdocumentchecksum2"></a>IDebugDocumentChecksum2
 디버그 문서에 대해 체크섬을 나타내며 체크섬 구성 요소 간에 전달 수 있습니다.  

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 22491cdc-8f04-4e1c-8eb4-ff33798ec792
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 456661c06934063041f06c36c20eee72d52c5b4a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a0939fd9499f9699d5672fe5bb7ef580ffe75489
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53915337"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021483"
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2015"></a>방법: Visual Studio 2015로 확장성 프로젝트 마이그레이션
 확장 프로그램을 업그레이드 하는 방법을 다음과 같습니다.  
@@ -29,7 +29,7 @@ ms.locfileid: "53915337"
   
 2.  업그레이드를 완료 한 후 새 버전의 외부 프로그램의 경로 변경 *devenv.exe*합니다. 프로젝트 노드를 마우스 오른쪽 단추로 클릭 합니다 **솔루션 탐색기**, 선택한 **속성**합니다. 에 **디버그** 탭에서 텍스트 상자에서 찾을 **시작 외부 프로그램** 경로를 변경 하 고 *devenv.exe* Visual Studio 2015 경로이 같이 표시 됩니다는:  
   
-     *%ProgramFiles%\Microsoft visual Studio 14.0\Common7\IDE\devenv.exe*  
+     *%ProgramFiles%\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe*  
   
 3.  에 대 한 참조를 추가 *Microsoft.VisualStudio.Shell.14.0.dll*합니다. (에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭 합니다 **솔루션 탐색기** 를 선택한 후 **추가** > **참조**합니다. 선택 된 **확장** 탭을 확인 한 다음 **Microsoft.VisualStudio.Shell.14.0**.)  
   
@@ -39,7 +39,7 @@ ms.locfileid: "53915337"
   
 ### <a name="to-update-an-extensibility-project-to-nuget-vs-sdk-reference-assemblies"></a>확장성 프로젝트를 NuGet VS SDK 참조 어셈블리를 업데이트 하려면  
   
-1.  프로젝트에 필요한 VS SDK 참조 어셈블리를 결정 합니다.  **솔루션 탐색기**에서 프로젝트의 확장 **참조** 노드와 프로젝트 참조 목록 검토 합니다.  VS SDK 참조 어셈블리는 접두사가 **Microsoft.VisualStudio** 이름에서 (예: Microsoft.VisualStudio.Shell.14.0)입니다.  
+1.  프로젝트에 필요한 VS SDK 참조 어셈블리를 결정 합니다.  **솔루션 탐색기**에서 프로젝트의 확장 **참조** 노드와 프로젝트 참조 목록 검토 합니다.  VS SDK 참조 어셈블리는 접두사가 **Microsoft.VisualStudio** 이름에서 (예: Microsoft.VisualStudio.Shell.14.0).  
   
 2.  마우스 오른쪽 단추로 선택 하 여 VS SDK 참조 어셈블리를 프로젝트에서 제거할 **제거**합니다.  
   

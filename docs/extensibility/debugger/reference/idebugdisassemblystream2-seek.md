@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: afec3008-b1e0-4803-ad24-195dbfb6497e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 81f17bf830a9d7566ad00b062d81edcd7e1a242a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6a2c3cf1a1a5ee17a3ecdb6ed6b097b3ff4dde18
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913122"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54976708"
 ---
 # <a name="idebugdisassemblystream2seek"></a>IDebugDisassemblyStream2::Seek
 디스어셈블리 스트림에 지정된 된 수의 지정 된 위치를 기준으로 지침 읽기 포인터를 이동합니다.  
@@ -56,7 +56,7 @@ int Seek( 
  [in] 에 지정 된 위치를 기준으로 이동 하는 명령 수가 `dwSeekStart`합니다. 이 값은 뒤로 이동 하려면 음수일 수 있습니다.  
   
 ## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`합니다. 반환 `S_FALSE` 검색 위치입니다. 사용 가능한 명령의 시점 이후로 목록 되었으면 합니다. 그러지 않으면 오류 코드가 반환됩니다.  
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 검색 위치입니다. 사용 가능한 명령의 시점 이후로 목록 되었으면 합니다. 그러지 않으면 오류 코드가 반환됩니다.  
   
 ## <a name="remarks"></a>설명  
  목록의 시작 부분 앞에 seek 되었으면 읽기 위치 목록에서 첫 번째 명령으로 설정 됩니다. 참조를 위치로 목록 끝 이후에 읽기 위치 설정 됩니다 마지막 명령 목록에서.  

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 11fb3545-8974-4776-9a54-6b6e7739ae31
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a010a4ea3e135dab9d80cf84edf651df966bf271
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d8b36df3fe4e546e8391d23ccadc33faf9f2a642
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902281"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54992882"
 ---
 # <a name="guidsymbol-element"></a>GuidSymbol 요소
 `GuidSymbol` 요소 메뉴, 그룹 또는 명령을 나타내는 guid: id 쌍의 GUID를 포함 합니다. ID에서 제공 되는 `IDSymbol` 요소에는 `GuidSymbol` 요소입니다. `GuidSymbol` 요소에는 `name` 에 포함 된 GUID 친숙 한 이름을 제공 하는 특성을 `value` 특성.  
@@ -55,5 +55,5 @@ ms.locfileid: "53902281"
 ## <a name="remarks"></a>설명  
  일반적으로 *.vsct* 파일을 포함 된 세 가지 `GuidSymbol` 요소에 해당 `Symbols` 섹션, 패키지 자체에 대 한 명령 집합 (메뉴의 컬렉션으로 그룹화 및 패키지를 사용할 수 있도록 하는 명령)에 대 한 및 단추 및 기타 시각적 구성 요소에 대 한 아이콘을 제공 하는 비트맵에 대 한 하나입니다. 모든 `IDSymbol` 요소에는 주어진 `GuidSymbol` 요소는 고유 해야 합니다. `value`합니다. 그러나 `IDSymbol` 으로 부모가 서로 다른 패키지에 동일한 값을 가진 요소가 있을 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

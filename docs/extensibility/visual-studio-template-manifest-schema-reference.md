@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: bc7d0a81-0df5-41a9-a912-1b30e5da1d13
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8306eb62317807913aa0d23e19b6fb5adc4dfa53
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ba9f4123b69a2decbcc46433e85082a4897b378d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53961957"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54999472"
 ---
 # <a name="visual-studio-template-manifest-schema-reference"></a>Visual Studio 템플릿 매니페스트 스키마 참조
 이 스키마에는 Visual Studio 템플릿 매니페스트의 형식을 설명 합니다 (*.vstman*) Visual Studio 프로젝트 또는 항목 템플릿에 대해 생성 되는 파일입니다. 또한 스키마 위치 및 템플릿에 대 한 기타 관련 정보를 설명합니다.  
@@ -51,7 +51,7 @@ ms.locfileid: "53961957"
   
 -   **RelativePathOnDisk**:  디스크에서 템플릿 파일의 상대 경로입니다. 이 위치에 표시 된 템플릿 트리에서 템플릿의 위치를 정의 합니다 **새 프로젝트** 하거나 **새 항목** 대화 합니다. 디렉터리 및 개별 파일로 배포 템플릿에 대해이 경로 템플릿 파일을 포함 하는 디렉터리를 가리킵니다. 템플릿 배포에 대 한는 *.zip* 파일을이 경로에 대 한 경로 여야 합니다 합니다 *.zip* 파일입니다.  
   
--   * * VSTemplateHeader: A [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) 헤더를 설명 하는 요소입니다.  
+-   **VSTemplateHeader: A [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) 헤더를 설명 하는 요소입니다.  
   
 ### <a name="parent-element"></a>부모 요소  
  **VSTemplateManifest**  

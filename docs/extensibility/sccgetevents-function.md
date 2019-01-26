@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 32f8147d-6dcc-465e-b07b-42da5824f9b0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4f575162d6c5079a1233302186ae904241cb8673
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7da9bce351ef8910f77713bf77d0f5f698193140
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942231"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998315"
 ---
 # <a name="sccgetevents-function"></a>SccGetEvents 함수
 이 함수는 큐에 대기 중인된 상태 이벤트를 검색합니다.  
@@ -52,7 +52,7 @@ SCCRTN SccGetEvents (
 |값|설명|  
 |-----------|-----------------|  
 |SCC_OK|성공 이벤트를 가져옵니다.|  
-|SCC_E_OPNOTSUPPORTED|이 함수는 지원 되지 않습니다.|  
+|SCC_E_OPNOTSUPPORTED|이 함수는 지원되지 않습니다.|  
 |SCC_E_NONSPECIFICERROR|알 수 없는 오류가 발생 했습니다.|  
   
 ## <a name="remarks"></a>설명  
@@ -60,6 +60,6 @@ SCCRTN SccGetEvents (
   
  소스 제어 플러그 인에서 가리키는 버퍼에 빈 문자열을 저장 보고서는 상태 업데이트 되지 경우 `lpFileName`합니다. 그렇지 않으면 플러그 인 저장 파일의 전체 경로 이름에는 상태 정보를 변경 된 적절 한 상태 코드를 반환 합니다 (에 자세히 설명 하는 값 중 하나 [상태 코드를 파일](../extensibility/file-status-code-enumerator.md)).  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [파일 상태 코드](../extensibility/file-status-code-enumerator.md)

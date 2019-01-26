@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 1d8019d3-5e57-47ba-b358-526b0796a63b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ff518df5025131a369e0f82da44cb38a7e6a57da
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b09d8dd21e65d1320aa6de78337ee8959fc42656
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53960867"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55001814"
 ---
 # <a name="template-policy-and-the-properties-window"></a>템플릿 정책 및 속성 창
 엔터프라이즈 템플릿 프로젝트 내에서 프로젝트를 억제 되 면 해당 엔터프라이즈 템플릿 프로젝트에는 정책을 적용할 수 있습니다. 템플릿 정책 속성에 대 한 기본값을 설정, 속성, 속성을 추가 숨기고 등에 사용할 수 있는 시스템을 제한 됩니다.  

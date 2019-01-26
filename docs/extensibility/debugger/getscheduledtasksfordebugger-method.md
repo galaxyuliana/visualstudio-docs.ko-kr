@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 7c9b4cde-6e4a-4cef-929f-7d02b1da5762
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d3e9b090ded89247cb69cac3d08b73fa93fc019f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6b68f8f238c180d4152d99b42f8ac075ef6dd3e7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863893"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54990630"
 ---
 # <a name="getscheduledtasksfordebugger-method"></a>GetScheduledTasksForDebugger 메서드
 모든 예약 된 작업의 배열을 검색합니다.  
@@ -38,5 +38,5 @@ ms.locfileid: "53863893"
 ## <a name="remarks"></a>설명  
  이 메서드는 스레드로부터 안전 하지 및 다른 인스턴스의 동시 사용 하면 안 <xref:System.Threading.Tasks.TaskScheduler>합니다. 디버거가 다른 모든 스레드가 일시 중단 하는 경우에 디버거에서이 메서드를 호출 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [TaskScheduler 클래스](../../extensibility/debugger/taskscheduler-class-internal-members.md)

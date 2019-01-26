@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ad57ead773e2daa8cc17937156e199cd7dddbbde
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 857f4dda6c21ad53acb9963080257a580c342a80
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53850403"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54978401"
 ---
 # <a name="walkthrough-add-features-to-a-custom-editor"></a>연습: 사용자 지정 편집기에 기능 추가
 사용자 지정 편집기를 만든 후에 더 많은 기능을 추가할 수 있습니다.  
@@ -152,6 +152,6 @@ ms.locfileid: "53850403"
   
   -   `Window.Object`  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [자동화 모델에 참여](../extensibility/internals/contributing-to-the-automation-model.md)   
  [방법: 편집기에 대 한 컨텍스트를 제공 합니다.](../extensibility/how-to-provide-context-for-editors.md)

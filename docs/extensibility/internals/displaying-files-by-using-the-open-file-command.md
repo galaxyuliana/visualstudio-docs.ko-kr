@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 59ff5d938c21c6344d1979fbfca94e8acb791db6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a351846df9391881d34f53322a852cab7ebbe3b8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964665"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54987923"
 ---
 # <a name="display-files-by-using-the-open-file-command"></a>파일 열기 명령을 사용 하 여 파일을 표시 합니다.
 다음 단계는 IDE가 처리 하는 방법을 설명 합니다 **열려 있는 파일** 명령에서 사용할 수 있는 **파일** 메뉴에서 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 또한 단계는 프로젝트가이 명령에서 발생 하는 호출에 응답 해야 하는 방법을 설명 합니다.  
@@ -51,7 +51,7 @@ ms.locfileid: "53964665"
   
 5.  프로젝트에는 다음 프로젝트별 편집기 또는 표준 편집기를 사용 하 여 파일을 여는 옵션을 있습니다. 자세한 내용은 [방법: 프로젝트별 편집기 열기](../../extensibility/how-to-open-project-specific-editors.md) 고 [방법: 표준 편집기 열기](../../extensibility/how-to-open-standard-editors.md), 각각.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연결 프로그램 명령을 사용 하 여 파일을 표시 합니다.](../../extensibility/internals/displaying-files-by-using-the-open-with-command.md)   
  [열기 및 프로젝트 항목 저장](../../extensibility/internals/opening-and-saving-project-items.md)   
  [방법: 프로젝트별 편집기 열기](../../extensibility/how-to-open-project-specific-editors.md)   

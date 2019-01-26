@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c971f753656ad876ba3a2401ddd2033f02cbac0a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 54b4d1b3b1dca44acc092cb3a9a639c196ce8e50
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53831760"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010066"
 ---
 # <a name="get-started-with-language-service-and-editor-extensions"></a>언어 서비스 및 편집기 확장 시작
 고유한 프로그래밍 언어 또는 모든 콘텐츠 형식에 개요, 중괄호 일치, IntelliSense 및 light bulbs와 같은 언어 서비스 기능을 추가 하려면 편집기 확장을 사용할 수 있습니다. Visual Studio 편집기에서 색 지정, 여백, 프로그램 및 기타 시각적 요소 예를 들어 텍스트의 동작과 모양을 사용자 지정할 수도 있습니다. 또한 고유한 형식의 콘텐츠를 정의 하 고 콘텐츠에 표시 되는 텍스트 보기의 동작과 모양을 지정할 수 있습니다.  
@@ -64,7 +64,7 @@ ms.locfileid: "53831760"
 ## <a name="run-extensions-in-the-experimental-instance"></a>실험적 인스턴스에서 확장을 실행 합니다.  
  실험적 폴더 (Windows Vista 및 Windows 7)에 배포 하 여 확장을 개발 하는 동안 작업 버전의 Visual Studio를 분리 수 있습니다.  
   
- *{%LOCALAPPDATA%}\VisualStudio\10.0Exp\Extensions\\{회사}\\{ExtensionID}*  
+ *{%LOCALAPPDATA%}\VisualStudio\10.0Exp\Extensions\\{Company}\\{ExtensionID}*  
   
  여기서 *% LOCALAPPDATA %* 로그온 한 사용자의 이름입니다 *회사* 확장을 소유 하는 회사의 이름 및 *ExtensionID* 확장의 ID입니다.  
   

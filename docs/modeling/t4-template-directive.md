@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 337560d6db6d8747b1aedd23d789f2ef56d045c9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f8f60f061e62fecc15a92f313489f4053ed19016
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53885290"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54974255"
 ---
 # <a name="t4-template-directive"></a>T4 템플릿 지시문
 
@@ -36,7 +36,7 @@ Visual Studio T4 텍스트 템플릿을 사용 하 여 일반적으로 시작 �
 `compilerOptions="optimize+"`
 
 유효한 값은
- 
+
 유효한 컴파일러 옵션입니다.
 
 전처리된 런타임 템플릿의 경우 무시됩니다.
@@ -46,11 +46,11 @@ Visual Studio T4 텍스트 템플릿을 사용 하 여 일반적으로 시작 �
 ## <a name="culture-attribute"></a>culture 특성
 
 예제:
- 
+
 `culture="de-CH"`
 
 유효한 값은
- 
+
 "", 기본값인 고정 문화권입니다.
 
 xx-XX 형식의 문자열로 표현된 문화권. 예를 들어 en-US, ja-JP, de-CH, de-DE 등입니다. 자세한 내용은 <xref:System.Globalization.CultureInfo?displayProperty=fullName>을 참조하세요.
@@ -66,11 +66,11 @@ debug="true"
 ```
 
 유효한 값은
- 
+
 `true`
- 
+
 `false`(기본값)
- 
+
 `debug` 특성이 `true`인 경우 중간 코드 파일에 디버거가 중단 또는 예외가 발생한 템플릿의 위치를 정확하게 식별할 수 있도록 하는 정보가 포함됩니다.
 
 디자인 타임 템플릿의 경우 중간 코드 파일에 기록 됩니다 하 **% TEMP %** 디렉터리입니다.
@@ -88,9 +88,9 @@ hostspecific="true"
 유효한 값은
 
 `true`
- 
+
 `false`(기본값)
- 
+
 `trueFromBase`
 
 이 특성의 값을 `true`로 설정하면 `Host`라는 속성이 텍스트 템플릿에서 생성된 클래스에 추가됩니다. 이 속성은 변환 엔진의 호스트에 대한 참조이며 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>로 선언됩니다. 사용자 지정 호스트를 정의한 경우에는 해당 호스트를 사용자 지정 호스트 형식으로 캐스팅할 수 있습니다.
