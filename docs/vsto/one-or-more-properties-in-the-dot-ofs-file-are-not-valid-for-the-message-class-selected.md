@@ -7,17 +7,17 @@ f1_keywords:
 dev_langs:
 - VB
 - CSharp
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6d6469c48def1a5d21eb160cb4ad6d14704bc101
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a607fc0e885ea73f95f4b48a82777234977644bb
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53909127"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872991"
 ---
 # <a name="one-or-more-properties-in-the-ofs-file-are-not-valid-for-the-message-class-selected"></a>.ofs 파일에 있는 하나 이상의 속성을 선택한 메시지 클래스에 사용할 수 없습니다.
   이 오류 Outlook에서 디자인 한 양식 영역을 가져올 때 나타나지만 양식 영역의 하나 이상의 필드의 마지막 페이지에서 선택 하는 메시지 클래스와 호환 되지 않습니다 합니다 **새 양식 영역** 마법사.  
@@ -32,5 +32,5 @@ ms.locfileid: "53909127"
   
 -   Outlook의 Forms 디자이너에서 메시지 클래스와 호환 되지 않는 필드를 제거 합니다. 마지막 페이지에서 선택 하려는 필드를 제거 합니다 **새 양식 영역** 마법사.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: Outlook에서 디자인 한 양식 영역 가져오기](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)  

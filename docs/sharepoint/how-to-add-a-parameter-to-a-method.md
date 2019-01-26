@@ -12,17 +12,17 @@ helpviewer_keywords:
 - BDC [SharePoint development in Visual Studio], parameter
 - Business Data Connectivity service [SharePoint development in Visual Studio], method parameters
 - BDC [SharePoint development in Visual Studio], method parameters
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5f7d0e0ab164bf30c341ca093908be3661452d19
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0d55c345d9cd0e57d7af2ed359cf4bd9a4f06cd9
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866259"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868120"
 ---
 # <a name="how-to-add-a-parameter-to-a-method"></a>방법: 메서드에 매개 변수를 추가 합니다.
   정보 메서드로 전달할 또는 메서드에서 정보를 반환 하려면 매개 변수를 사용 합니다. 모든 메서드 매개 변수가 하나 이상 있어야 합니다. 만들려는 메서드의 유형을 지원 하도록 매개 변수를 디자인 하는 방법에 대 한 자세한 내용은 참조 하세요. [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.  
@@ -53,7 +53,7 @@ ms.locfileid: "53866259"
   
 8.  매개 변수의 형식 설명자를 수정 합니다. 자세한 내용은 [방법: 매개 변수의 형식 설명자 정의](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [BDC 모델 디자인 도구 개요](../sharepoint/bdc-model-design-tools-overview.md)   
  [방법: 모델에 엔터티 추가](../sharepoint/how-to-add-an-entity-to-a-model.md)   
  [방법: 매개 변수의 형식 설명자 정의](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   

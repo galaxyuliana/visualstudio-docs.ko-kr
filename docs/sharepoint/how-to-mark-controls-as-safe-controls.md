@@ -9,17 +9,17 @@ helpviewer_keywords:
 - SharePoint development in Visual Studio, safe controls
 - SharePoint development in Visual Studio, advanced packaging tools
 - safe controls [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 87e99937239ad080d24bf997d6c2de2a5d8f73ac
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d3f0ff39658aca76318174143da52e17594ace24
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989376"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875460"
 ---
 # <a name="how-to-mark-controls-as-safe-controls"></a>방법: 안전한 컨트롤로 표시 컨트롤
   보안을 위해 SharePoint가 없는 웹 컨트롤과 웹 컨트롤 스크립트 삽입에 대해 보호 되는 구분 됩니다. 컨트롤을 보호 하거나 *안전 컨트롤*, 신뢰할 수 없는 사용자가 액세스할 수 있습니다. SharePoint 프로젝트 항목의 또는 안전 컨트롤 항목 속성에 안전 하 게 컨트롤을 표시할 수 있습니다 합니다 **패키지 디자이너** 패키지에 어셈블리를 추가 합니다. 자세한 내용은 다음 항목을 참조하세요.  
@@ -89,7 +89,7 @@ ms.locfileid: "53989376"
     |-------------------|-----------|  
     |네임스페이스|컨트롤에 대 한 정규화 된 네임 스페이스와 같은 **BdcModelProject1.VisualWebPart1**합니다.|  
     |형식 이름|Button1|  
-    |어셈블리 이름|강력한 어셈블리 이름, 예: Microsoft.Office.SharePoint.ClientExtensions, 버전 14.0.0.0, Culture = neutral, PublicKeyToken = 71e9bce111e9429c =.|  
+    |어셈블리 이름|강력한 어셈블리 이름, 예: Microsoft.Office.SharePoint.ClientExtensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c.|  
     |안전 하 게 보호|선택을 취소 합니다 **안전한** 확인란 합니다.|  
     |스크립트에 대해 안전|유지 된 **스크립트에 대해 안전** 확인란의 선택을 취소 합니다.|  
   
@@ -106,7 +106,7 @@ ms.locfileid: "53989376"
     |-------------------|-----------|  
     |네임스페이스|컨트롤에 대 한 정규화 된 네임 스페이스와 같은 **BdcModelProject1.VisualWebPart1**합니다.|  
     |형식 이름|TextBox1|  
-    |어셈블리 이름|강력한 어셈블리 이름, 예: Microsoft.Office.SharePoint.ClientExtensions, 버전 14.0.0.0, Culture = neutral, PublicKeyToken = 71e9bce111e9429c =.|  
+    |어셈블리 이름|강력한 어셈블리 이름, 예: Microsoft.Office.SharePoint.ClientExtensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c.|  
     |안전 하 게 보호|선택 된 **안전한** 확인란 합니다.|  
     |스크립트에 대해 안전|선택 된 **스크립트에 대해 안전** 확인란 합니다.|  
   

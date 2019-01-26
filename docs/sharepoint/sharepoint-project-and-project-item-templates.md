@@ -15,17 +15,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, project and project item templates
 - SharePoint development in Visual Studio, templates
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 71590e2cd5ece2a025b2aef3dfa0baf612fb2808
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3f2479d58dfb8e1e28a2de230c0838ef8c8f3768
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53936297"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872200"
 ---
 # <a name="sharepoint-project-and-project-item-templates"></a>SharePoint 프로젝트 및 프로젝트 항목 템플릿
   다음 섹션에서는 사용할 수 있는 SharePoint 프로젝트에 설명 하 고 프로젝트 항목 템플릿 및 사용 방법에 있습니다. 

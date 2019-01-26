@@ -10,17 +10,17 @@ helpviewer_keywords:
 - inclusion lists [Office development in Visual Studio], about inclusion lists
 - security [Office development in Visual Studio], inclusion lists
 - inclusion lists [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 819225c152c4436340714dd2f5ecb31f5ec6b2f2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2b0e3df3562fe9a7bcbf2ca9cdc899b9303eb19a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857668"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868615"
 ---
 # <a name="trust-office-solutions-by-using-inclusion-lists"></a>포함 목록을 사용 하 여 Office 솔루션 신뢰
   포함 목록을 사용하면 사용자가 게시자를 식별하는 인증서로 서명된 Office 솔루션에 신뢰를 부여할 수 있습니다. 포함 목록은 사용자마다 고유하며 문서 수준 사용자 지정 및 VSTO 추가 기능에 대해 사용할 수 있습니다.  

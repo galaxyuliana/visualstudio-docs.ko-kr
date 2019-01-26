@@ -7,17 +7,17 @@ f1_keywords:
 dev_langs:
 - VB
 - CSharp
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 658417d07fdc0031a6e018d332bdbdd1d7edb1a6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 26449fea0f56e43ac7a502ad8793ec51ce54a03c
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53905717"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871119"
 ---
 # <a name="walkthrough-create-a-silverlight-web-part-that-displays-odata-for-sharepoint"></a>연습: SharePoint 용 OData를 표시 하는 Silverlight 웹 파트 만들기
   SharePoint 2010 OData를 사용 하 여 해당 목록 데이터를 노출합니다. SharePoint에서 OData 서비스는 RESTful 서비스 ListData.svc에 의해 구현 됩니다. 이 연습에서는 Silverlight 응용 프로그램을 호스트 하는 SharePoint 웹 파트를 만드는 방법을 보여 줍니다. Silverlight 응용 프로그램 ListData.svc를 사용 하 여 SharePoint 알림 목록 정보를 표시 합니다. 자세한 내용은 [SharePoint Foundation REST 인터페이스](http://go.microsoft.com/fwlink/?LinkId=225999) 하 고 [개방형 데이터 프로토콜](http://go.microsoft.com/fwlink/?LinkId=226000)합니다.  
@@ -229,6 +229,6 @@ ms.locfileid: "53905717"
     > [!NOTE]  
     >  도메인에 걸쳐 Silverlight에서의 데이터에 액세스할 때 Silverlight 웹 응용 프로그램을 악용 하는 보안 취약점 으로부터 보호 합니다. Silverlight에서의 원격 데이터에 액세스할 때 문제가 발생 하면 참조 [는 서비스 사용 가능한 도메인 경계를 넘어 수행](http://go.microsoft.com/fwlink/?LinkId=223276)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 용 웹 파트 만들기](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [배포, 게시 및 SharePoint 솔루션 패키지를 업그레이드 합니다.](../sharepoint/deploying-publishing-and-upgrading-sharepoint-solution-packages.md)  

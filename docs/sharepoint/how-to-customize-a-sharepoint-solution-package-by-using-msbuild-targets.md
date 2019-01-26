@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, packages
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ad63fd1bbf5f3f41b86368b9215dab670b64f2e3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 814af35e452bce86dd2a6ba780b9fca5fe9bb4d4
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53939288"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873199"
 ---
 # <a name="how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets"></a>방법: MSBuild 대상을 사용 하 여 SharePoint 솔루션 패키지 사용자 지정
   명령 프롬프트에서 MSBuild 대상을 사용 하 여 사용자 지정할 수 있습니다 Visual Studio에서 SharePoint 패키지 파일을 만드는 방법을 (*.wsp*). 예를 들어 MSBuild 속성을 사용자 지정하여 패키징 중간 디렉터리 및 열거되는 파일을 지정하는 MSBuild 항목 그룹을 변경할 수 있습니다.  

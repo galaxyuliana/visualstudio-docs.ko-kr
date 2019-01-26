@@ -15,15 +15,15 @@ helpviewer_keywords:
 - Bookmark control
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d9a2de59d0cdb9cd1114375d4327ab3e3a6b5af7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 10594bb52ca8bfad14acb162b46d86b3b80fdd31
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53960419"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873680"
 ---
 # <a name="bookmark-control"></a>Bookmark 컨트롤
   <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤은 고유한 이름이 있고 이벤트를 노출하며 데이터에 바인딩될 수 있는 책갈피입니다. 책갈피는 Microsoft Office Word 문서에서 항목 또는 위치를 표시하는 자리 표시자로 사용할 수 있습니다. <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤은 <xref:Microsoft.Office.Interop.Word.Bookmark> 개체 및 <xref:Microsoft.Office.Interop.Word.Range> 개체의 조합입니다.
@@ -49,7 +49,7 @@ ms.locfileid: "53960419"
 
 |Text 속성|설명|
 |-------------------|-----------------|
-|<xref:Microsoft.Office.Tools.Word.Bookmark.Text?displayProperty=nameWithType>|이 속성을 사용하여 텍스트를 책갈피 안에 표시하고 문서에 책갈피를 남겨 둡니다. 텍스트를 책갈피에 할당하면 책갈피 범위를 확장하고 책갈피를 삭제하지 않습니다.<br /><br /> 예를 들어 `Bookmark1.Text = "Hello world"`는 텍스트를 책갈피에 삽입하고 책갈피를 그대로 둡니다.|
+|<xref:Microsoft.Office.Tools.Word.Bookmark.Text?displayProperty=nameWithType>|이 속성을 사용하여 텍스트를 책갈피 안에 표시하고 문서에 책갈피를 남겨 둡니다. 텍스트를 책갈피에 할당하면 책갈피 범위를 확장하고 책갈피를 삭제하지 않습니다.<br /><br /> 예를 들어 `Bookmark1.Text = "Hello world"` 는 텍스트를 책갈피에 삽입하고 책갈피를 그대로 둡니다.|
 |<xref:Microsoft.Office.Interop.Word.Range.Text?displayProperty=nameWithType>|이 속성을 사용하여 책갈피 위치에 텍스트를 표시하고 책갈피를 자동으로 삭제합니다. 예를 들어 `Bookmark1.Range.Text = "Hello world"` 는 책갈피에 텍스트를 삽입하고 책갈피를 삭제합니다.|
 
 ## <a name="rename-the-control-at-design-time"></a>디자인 타임에 컨트롤 이름 바꾸기
@@ -90,7 +90,7 @@ ms.locfileid: "53960419"
 |--------------|----------|
 |별도의 두 책갈피|[대체입니다.]{}|
 |책갈피1|This is replacement.|
-|책갈피2|*\<빈 >*|
+|책갈피2|*\<empty>*|
 
 ## <a name="events"></a>이벤트
 
@@ -110,7 +110,7 @@ ms.locfileid: "53960419"
 
 -   <xref:Microsoft.Office.Tools.Word.Bookmark.SelectionChange>
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)
 - [방법: Word 문서에 책갈피 컨트롤 추가](../vsto/how-to-add-bookmark-controls-to-word-documents.md)

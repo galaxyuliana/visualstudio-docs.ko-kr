@@ -10,17 +10,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, URL picker
 - SharePoint development in Visual Studio, designer
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ffeca5bf0149ce5a36e5abb77eab673e87f36dc7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: dbb0c682f478ca7a950cb4d5c1ef88eeee98731a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53925903"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54870755"
 ---
 # <a name="url-picker-dialog-box-sharepoint-development-in-visual-studio"></a>URL 선택기 대화 상자 (Visual Studio에서 SharePoint 개발)
   URL 선택기 대화 상자에서 프로젝트에 있거나 SharePoint를 실행하는 로컬 서버에 있는 마스터 페이지 파일 또는 이미지 파일과 같은 파일을 선택할 수 있습니다.  

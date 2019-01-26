@@ -13,17 +13,17 @@ helpviewer_keywords:
 - malicious code [Office development in Visual Studio]
 - Outlook object model guard [Office development in Visual Studio]
 - security [Office development in Visual Studio], troubleshooting
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 33d827efa7dcc4e5590b4bc45fb0d6bd3fbe1432
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fcfcd6bc23f714d7ba7c67677de70de87b75a41e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955544"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868380"
 ---
 # <a name="specific-security-considerations-for-office-solutions"></a>Office 솔루션에 대 한 특정 보안 고려 사항
   Microsoft .NET Framework 및 Microsoft Office에서 제공된 보안 기능을 통해 다양한 보안 위협에 대해 Office 솔루션을 보호할 수 있습니다. 이 항목에서는 이러한 위협 중 일부에 대해 설명하고 이러한 위협으로부터 보호하기 위한 권장 사항을 제공합니다. 또한 Office 솔루션에 영향을 주는 Microsoft Office 보안 설정에 대한 정보를 포함합니다.  

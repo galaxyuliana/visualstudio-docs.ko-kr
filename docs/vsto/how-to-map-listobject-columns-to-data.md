@@ -10,15 +10,15 @@ helpviewer_keywords:
 - ListObject control, mapping data
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 508a0fa8df58e70eb216f722ee96395c7a9c21ad
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 276b606bbd4f87898916a6e7ca1dbf57ce3d6716
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53899985"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873784"
 ---
 # <a name="how-to-map-listobject-columns-to-data"></a>방법: 데이터에 ListObject 열 매핑
   <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤을 <xref:System.Data.DataTable>에 바인딩할 때 목록에 있는 모든 열이 표시되는 것을 원하지 않거나 데이터에 바인딩되지 않은 특정 열이 있을 수 있습니다. <xref:Microsoft.Office.Tools.Excel.ListObject> 메서드를 호출할 때 <xref:Microsoft.Office.Tools.Excel.ListObject.SetDataBinding%2A> 에 나타내려는 열을 매핑할 수 있습니다.  

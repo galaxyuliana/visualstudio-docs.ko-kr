@@ -1,5 +1,5 @@
 ---
-title: GetVstoSolutionMetadata 함수
+title: GetVstoSolutionMetadata function
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f0cb0acd57ff04b7487d5311f8a05219b3ce0c0a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e066499352b9c9244941efc1b26169d40ec51f60
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53853725"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875357"
 ---
-# <a name="getvstosolutionmetadata-function"></a>GetVstoSolutionMetadata 함수
+# <a name="getvstosolutionmetadata-function"></a>GetVstoSolutionMetadata function
   이 API는 Office 인프라를 지원 하며 코드에서 직접 사용할 수 없습니다.  
   
 ## <a name="syntax"></a>구문  

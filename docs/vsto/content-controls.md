@@ -35,15 +35,15 @@ helpviewer_keywords:
 - BuildingBlockGalleryContentControl class
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b1656f40cd0d75c73f9f1e4b3a74a6f2b7e7ad0e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a837aec3c5f87b51c5874f2fa7bd3f155479b6c2
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956546"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868851"
 ---
 # <a name="content-controls"></a>콘텐츠 컨트롤
   콘텐츠 컨트롤은 다음과 같은 기능이 있는 문서와 템플릿을 디자인하는 방법을 제공합니다.  
@@ -204,7 +204,7 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
 ### <a name="data-bind-events-for-content-controls"></a>데이터 바인딩 콘텐츠 컨트롤에 대 한 이벤트  
  모든 콘텐츠 컨트롤은 데이터 소스가 업데이트되기 전에 컨트롤의 텍스트가 특정 조건을 충족하는지 확인하는 작업과 같은 데이터 관련 작업을 수행하기 위해 처리할 수 있는 이벤트 집합을 제공합니다. 다음 표에서는 데이터 바인딩과 관련된 콘텐츠 컨트롤 이벤트를 보여 줍니다.  
   
-|작업|이벤트|  
+|작업|이벤트(event)|  
 |----------|-----------|  
 |Word에서 사용자 지정 XML 부분에 바인딩된 콘텐츠 컨트롤의 텍스트를 자동으로 업데이트하기 바로 전에 코드를 실행합니다.|<xref:Microsoft.Office.Tools.Word.ContentControlBase.ContentUpdating>|  
 |Word에서 콘텐츠 컨트롤에 바인딩된 사용자 지정 XML 부분의 데이터를 자동으로 업데이트하기 바로 전, 즉 콘텐츠 컨트롤의 텍스트가 변경된 후에 코드를 실행합니다.|<xref:Microsoft.Office.Tools.Word.ContentControlBase.StoreUpdating>|  

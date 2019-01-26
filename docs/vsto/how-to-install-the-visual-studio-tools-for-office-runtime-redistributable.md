@@ -12,15 +12,15 @@ helpviewer_keywords:
 - installing Office development tools in Visual Studio
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f9267e340d62def2660f807670dc9804dd531c8f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 74e63f34a7285fc035ae2acd338a73725a77e6ce
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988769"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867210"
 ---
 # <a name="how-to-install-the-visual-studio-tools-for-office-runtime-redistributable"></a>방법: Visual Studio Tools for Office 런타임 재배포 가능 패키지 설치
   Visual Studio 2010 Tools for Office 런타임에서의 Microsoft Office 개발자 도구를 사용 하 여 만든 솔루션을 실행 하는 각 컴퓨터에 설치 해야 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 런타임은 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 및 Microsoft Office를 설치할 때 자동으로 설치됩니다. 자세한 내용은 [Visual Studio Tools for Office 런타임 설치 시나리오](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)합니다.  
@@ -50,7 +50,7 @@ ms.locfileid: "53988769"
   
      [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]언어 팩을 포함 합니다. Windows 설치가 영어 이외의 언어로 설정된 경우 Windows에 사용하는 동일한 언어로 런타임 메시지를 표시할 수 있습니다. 이와 마찬가지로 최종 사용자가 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]을 설치하고 영어 이외의 언어로 설정된 Windows 설치에서 솔루션을 실행하는 경우 런타임 메시지가 Windows와 동일한 언어로 표시됩니다. 경우에 따라 추가 언어 팩이 필요할 수 있습니다. 예를 들어 Windows의 사본을 두 개 이상의 언어 설정을 사용 하거나 이미 설치한 후 다른 언어를 전환할 경우 추가 언어 팩 해야 할 수 있습니다는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]합니다. 언어 팩을 찾을 수 있습니다 [Microsoft Visual Studio 2010 Tools for Microsoft Office system (버전 4.0 런타임) 언어 팩](http://go.microsoft.com/fwlink/?LinkId=140386)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [시작 &#40;Visual Studio에서 Office 개발&#41;](../vsto/getting-started-office-development-in-visual-studio.md)   
  [Office 솔루션을 개발 하도록 컴퓨터를 구성 합니다.](../vsto/configuring-a-computer-to-develop-office-solutions.md)   
  [방법: Office 솔루션을 개발 하도록 컴퓨터를 구성 합니다.](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)   

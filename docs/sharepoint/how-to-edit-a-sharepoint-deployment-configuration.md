@@ -9,17 +9,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, deploying
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 73b59e709ba75d5624f28cf80c9a5fdfdf8ee835
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 98cdc452663fd32508496c1fc52a49033a0b4381
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53843595"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54870063"
 ---
 # <a name="how-to-edit-a-sharepoint-deployment-configuration"></a>방법: SharePoint 배포 구성 편집
   배포 구성을 만들거나 기존 배포 구성을 수정할 수 있습니다. 예를 들어, 하나의 단계를 실행 또는 배포 프로세스의 단계 순서를 변경할 수 있습니다. 만들기 또는 기본 제공 및 프로그래밍 방식으로 추가 구성을 변경할 수 없으므로 배포 구성을 수정 수 있습니다.  
@@ -51,5 +51,5 @@ ms.locfileid: "53843595"
   
 3.  에 **활성 배포 구성** 목록 상자에서 사용 하려는 배포 구성의 이름을 선택 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  

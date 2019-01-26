@@ -9,17 +9,17 @@ helpviewer_keywords:
 - projects [SharePoint development in Visual Studio], extending
 - SharePoint development in Visual Studio, extending projects
 - SharePoint projects, extending
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2cc42ed418de78ee5f75ab51b63c7e1ccdf29911
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9af36ee6db8421b52978c12c4933e174c71c6fd1
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863984"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872939"
 ---
 # <a name="extend-sharepoint-projects"></a>SharePoint 프로젝트 확장
   SharePoint 프로젝트의 프로젝트 수준 기능을 사용자 지정 하려는 경우 프로젝트 확장을 만듭니다. 예를 들어, 사용자 지정 프로젝트 속성을 추가할 수도 있고 사용자는 Visual Studio에서 SharePoint 솔루션을 개발 하는 경우 발생 하는 프로젝트 수준 이벤트에 응답할 수 있습니다.  
@@ -40,7 +40,7 @@ ms.locfileid: "53863984"
   
  인스턴스를 특정 프로젝트에 액세스 하려면 중 하나를 처리 합니다 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents> 의 이벤트를 *projectService* 구현에서 매개 변수는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> 메서드. 예를 들어 솔루션에 SharePoint 프로젝트를 추가 하는 경우를 확인 하려면 처리는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectAdded> 이벤트입니다. 자세한 내용은 [방법: SharePoint 프로젝트 확장명 만들기](../sharepoint/how-to-create-a-sharepoint-project-extension.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [방법: SharePoint 프로젝트 확장명 만들기](../sharepoint/how-to-create-a-sharepoint-project-extension.md)   
  [방법: 바로 가기 메뉴 항목을 SharePoint 프로젝트에 추가](../sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects.md)   
  [방법: SharePoint 프로젝트에 속성 추가](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md)   

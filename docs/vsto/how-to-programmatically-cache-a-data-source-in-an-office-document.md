@@ -13,15 +13,15 @@ helpviewer_keywords:
 - data [Office development in Visual Studio], caching
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 46411ef1827f6a5adead8ff58e42eaf68e6c58ae
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: a2338e2402167987767ac5c9527113c4b0ff81d6
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54088493"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867327"
 ---
 # <a name="how-to-programmatically-cache-a-data-source-in-an-office-document"></a>방법: Office 문서에서 데이터 원본을 프로그래밍 방식으로 캐시
   호출 하 여 문서의 데이터 캐시에 데이터 개체를 프로그래밍 방식으로 추가할 수 있습니다는 `StartCaching` 와 같은 호스트의 메서드 항목을 <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, 또는 <xref:Microsoft.Office.Tools.Excel.Worksheet>합니다. 데이터 개체를 호출 하 여 데이터 캐시에서 제거 된 `StopCaching` 메서드 호스트 항목의 합니다.
@@ -54,7 +54,7 @@ ms.locfileid: "54088493"
     > [!NOTE]
     >  호출 하지 마세요 `StopCaching` 에 대 한 이벤트 처리기에서는 `Shutdown` 문서 또는 워크시트의 이벤트입니다. 시간을 `Shutdown` 이벤트가 발생 하면 너무 늦게 데이터 캐시를 수정 하는 것입니다. 에 대 한 자세한 내용은 합니다 `Shutdown` 이벤트를 참조 하세요 [Events in Office Projects](../vsto/events-in-office-projects.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [데이터 캐시](../vsto/caching-data.md)
 - [방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터 캐시](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)

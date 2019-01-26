@@ -11,17 +11,17 @@ helpviewer_keywords:
 - ranges, replacing text in documents
 - documents [Office development in Visual Studio], inserting text
 - text [Office development in Visual Studio], replacing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8d5a0382726e6fc481001f4afc7820875e436594
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f62c5e820af830d6cfeb7a8e7f930b8025422565
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828919"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869526"
 ---
 # <a name="how-to-programmatically-insert-text-into-word-documents"></a>방법: 프로그래밍 방식으로 Word 문서에 텍스트 삽입
   Microsoft Office Word 문서에 텍스트를 삽입하는 기본 방법에는 다음 세 가지가 있습니다.  
@@ -125,7 +125,7 @@ ms.locfileid: "53828919"
    [!code-vb[Trin_VstcoreWordAutomation#56](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#56)]
    [!code-csharp[Trin_VstcoreWordAutomation#56](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#56)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: 문서에서 프로그래밍 방식으로 텍스트 서식 지정](../vsto/how-to-programmatically-format-text-in-documents.md)   
  [방법: 프로그래밍 방식으로 정의 하 고 문서에서 범위를 선택 합니다.](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)   
  [방법: 프로그래밍 방식으로 문서의 범위 확장](../vsto/how-to-programmatically-extend-ranges-in-documents.md)  

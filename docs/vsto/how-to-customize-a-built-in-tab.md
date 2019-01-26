@@ -10,15 +10,15 @@ helpviewer_keywords:
 - built-in tabs [Office development in Visual Studio]
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c9f2506ae22b3d33870c4e636a27f100b70358c8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 939c9c6d2d50e9feb6a50d9b49b84620d96a03cc
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53859414"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872224"
 ---
 # <a name="how-to-customize-a-built-in-tab"></a>방법: 기본 제공 탭 사용자 지정
   기본 제공 탭에 그룹과 컨트롤을 추가할 수 있습니다. 기본 제공 탭은 Microsoft Office 응용 프로그램의 리본 메뉴에 이미 있는 탭입니다. 예를 들어 합니다 **데이터** 탭은 Excel에서 기본 제공 탭 합니다. 사용자 지정 그룹을 만드는 경우 탭에서 마지막에 표시되지만 탭의 아무곳으로나 그룹을 이동할 수 있습니다.  
@@ -66,7 +66,7 @@ ms.locfileid: "53859414"
   
      컨트롤 Id의 목록을 참조 하세요. [Office 2010 도움말 파일: Office fluent 사용자 인터페이스 제어 식별자](http://go.microsoft.com/fwlink/?LinkID=181052)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [리본 개요](../vsto/ribbon-overview.md)   
  [리본 디자이너](../vsto/ribbon-designer.md)   
  [리본 XML](../vsto/ribbon-xml.md)   

@@ -11,17 +11,17 @@ helpviewer_keywords:
 - passwords [Office development in Visual Studio], document protections
 - documents [Office development in Visual Studio], restricted permissions
 - Office documents [Office development in Visual Studio, restricted permissions
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4603a6f5722279ccdaf057d30d3bc6e911c4c47e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 062196206d881ebb5a10f4bd7b14d892dbbbe0e9
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857003"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872211"
 ---
 # <a name="password-protection-on-office-documents"></a>Office 문서의 암호 보호
   암호를 알지 못합니다 사람이 열 수 없습니다 있도록 Microsoft Office Word 문서 및 Microsoft Office Excel 통합 문서에는 암호를 설정 하는 것이 가능 합니다. 이 옵션 이라고 **파일을 열 때 암호**합니다.  
@@ -37,7 +37,7 @@ ms.locfileid: "53857003"
   
  Visual Studio에서 Word 문서를 열고 처음 **열기 암호** 활성화 저장할지 확인 암호. 성공적으로 암호를 입력 한 후 **파일을 열 때 암호** 문서에서 제거 됩니다 하 고 문서를 열어 암호를 더 이상 필요 합니다. 솔루션의 문서를 사용 하려는 경우 되기 전에 암호를 요구 하도록 열 수, 사용 하도록 설정 해야 **파일을 열 때 암호** 마지막 빌드 후 솔루션을 배포 하기 전에 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [문서 수준 솔루션의 문서 보호](../vsto/document-protection-in-document-level-solutions.md)   
  [정보 권한 관리 및 관리 코드 확장명 개요](../vsto/information-rights-management-and-managed-code-extensions-overview.md)   
  [방법: 제한 된 권한으로 문서 뒤에서 실행 하는 코드를 허용 합니다.](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)   

@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Web Parts [SharePoint development in Visual Studio], designer
 - Web Parts [SharePoint development in Visual Studio], creating
 - Web Parts [SharePoint development in Visual Studio], designing
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 146a1722f240895e0f508b0474df72f6f5f84ece
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fa5817bb7c20cf58457281667dda76ac43608647
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53870916"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875340"
 ---
 # <a name="walkthrough-create-a-web-part-for-sharepoint-by-using-a-designer"></a>연습: 디자이너를 사용 하 여 SharePoint 용 웹 파트 만들기
 
@@ -185,7 +185,7 @@ SharePoint 사이트에 대 한 웹 파트를 만드는 경우 사용자가 직�
 
 지정한 모든 달력의 이벤트가 월별 달력 보기에 나타납니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 [SharePoint 용 웹 파트 만들기](../sharepoint/creating-web-parts-for-sharepoint.md)  
 [방법: SharePoint 웹 파트 만들기](../sharepoint/how-to-create-a-sharepoint-web-part.md)  

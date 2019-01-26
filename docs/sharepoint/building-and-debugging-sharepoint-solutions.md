@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, building and debugging
 - SharePoint development in Visual Studio, debugging
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0ab8fe8b7a6a26e855e603a2f2969c894ff7da50
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f1cdcf71821bd0f7e9739bc194834500c2dfc6fd
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987196"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871562"
 ---
 # <a name="build-and-debug-sharepoint-solutions"></a>빌드 및 SharePoint 솔루션 디버깅
   일반적으로 SharePoint 솔루션 빌드 및 디버깅 같습니다 빌드 및 기타 유형의 프로젝트를 디버깅 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 이 섹션의 항목에서는 차이점에 대해 설명합니다.  
@@ -48,7 +48,7 @@ ms.locfileid: "53987196"
 ## <a name="using-the-clean-command"></a>정리 명령 사용  
  SharePoint 솔루션 디버깅을 위해 SharePoint 서버에 설치 된 경우는 **정리** 명령 솔루션을 제거 하지 않습니다. 대신 SharePoint 구성을 통해 기능을 비활성화 해야 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)   
  [서버 탐색기를 사용 하 여 SharePoint 연결 찾아보기](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)   
  [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  

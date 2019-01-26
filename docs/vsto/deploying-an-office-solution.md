@@ -20,15 +20,15 @@ helpviewer_keywords:
 - solutions [Office development in Visual Studio], deploying Office solutions (2007 system)
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 890f237f576025743ff17a2e924ab38dec74e923
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d0040ee123c88d2cd54b96701523a5a28fd03b64
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866072"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872393"
 ---
 # <a name="deploy-an-office-solution"></a>Office 솔루션 배포
   ClickOnce 또는 Windows Installer를 사용하여 Office 솔루션을 배포할 수 있습니다. ClickOnce를 사용하면 솔루션의 배포 및 업데이트에 필요한 단계 수를 줄일 수 있습니다. Windows Installer를 사용하는 경우, 솔루션이 설치되는 방법과 사용자가 솔루션을 설치할 때 설치 프로그램에서 표시되는 페이지를 제어할 수 있습니다.  
@@ -42,7 +42,7 @@ ms.locfileid: "53866072"
 ## <a name="deploy-a-solution-by-using-windows-installer"></a>Windows Installer를 사용 하 여 솔루션 배포  
  Windows Installer를 사용하여 솔루션을 배포할 때는 설치 프로그램을 사용자에게 배포하면 사용자가 이 프로그램을 사용하여 솔루션을 설치합니다. 설치 프로그램을 사용하면 현재 사용자뿐 아니라 컴퓨터의 모든 사용자가 동시에 솔루션을 설치할 수 있습니다. 또한 솔루션을 설치할 때 사용자에게 표시되는 옵션을 좀 더 제어할 수 있습니다. 예를 들어, 사용권 계약을 표시할 수도 있고 사용자에게 솔루션의 특정 구성 요소 설치 권한을 줄 수도 있습니다. 그러나 솔루션을 업데이트하는 경우 새 설치 프로그램을 배포해야 합니다. 참조 [Windows Installer를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-windows-installer.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션 보안](../vsto/securing-office-solutions.md)   
  [ClickOnce를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
  [Windows Installer를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-windows-installer.md)   
