@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 80e511d8-9b40-4a85-aa5d-952fa5ee6ae7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 15d811cb01f7d5201f8cc1d7f64795c0197cf99c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: de17039a10137ba6fb0075b9943d0771eb166e33
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53848063"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54981105"
 ---
 # <a name="idebugprogramnode2"></a>IDebugProgramNode2
 이 인터페이스는 디버깅할 수 있는 프로그램을 나타냅니다.  
@@ -62,6 +62,6 @@ IDebugProgramNode2 : IUnknown
  [IDebugProgramNodeAttach2](../../../extensibility/debugger/reference/idebugprogramnodeattach2.md)   
  [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)   
  [RemoveProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md)   
- [연결](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
+ [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
  [GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)   
  [PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogramnode.md)

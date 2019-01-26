@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a57fa611f157fa588158225cece8d38da2babd0c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3b62df361a965028240316c14da4c8c9ee8e578c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967886"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54997704"
 ---
 # <a name="strings-element"></a>Strings 요소
 Strings 요소 있어야 적어도 **ButtonText** 자식 요소입니다. 다른 모든 자식 요소는 선택적입니다. 잘못 된 XML과 같은 문자 '&' 및 ' <' 엔터티로 코딩 해야 합니다 ('&amp;'및'&lt;' 등).  
@@ -39,7 +39,7 @@ Strings 요소 있어야 적어도 **ButtonText** 자식 요소입니다. 다른
   
 |특성|설명|  
 |---------------|-----------------|  
-|language|선택 사항입니다. Language = "."입니다.|  
+|language|선택 사항입니다. Language=".".|  
   
 ### <a name="child-elements"></a>자식 요소  
   

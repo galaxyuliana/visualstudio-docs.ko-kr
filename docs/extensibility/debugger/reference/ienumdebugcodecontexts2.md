@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 72915146-215f-4c99-a034-131b2b474e0e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 198b184059b267bf3ab1879365cb1c0b58321e7d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 75765f714bd52d7e7b01eca15e451152ceba54a7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53937135"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54980586"
 ---
 # <a name="ienumdebugcodecontexts2"></a>IEnumDebugCodeContexts2
 이 인터페이스는 디버그 세션이 나 연결 된 특정 프로그램이 나 문서 코드 컨텍스트 열거 합니다.  

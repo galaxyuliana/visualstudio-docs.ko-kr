@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: 15e6efdc-52ca-46d8-9c5e-063f7c8265a6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cd0b30d3695d13b51b988dfee31829d03e4b661d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7f7cfc820f6f4d3596c932760442371bab294a05
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53946943"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54999771"
 ---
 # <a name="invokemethod-activity-designer"></a>InvokeMethod 활동 디자이너
 
@@ -56,7 +56,7 @@ ms.locfileid: "53946943"
 
 3.  <xref:System.Activities.Statements.InvokeMethod.Parameters%2A> 컬렉션을 반복하고 각 인수를 등록합니다.
 
-예외가 발생 합니다 형식의 <xref:System.Activities.InvalidWorkflowException> 다음 메시지와 함께 합니다. ' InvokeMethod': 이름이 ''를 사용 하 여 변수를 RuntimeArgument 또는 DelegateArgument를을 이미 존재합니다. 이름은 환경 범위 내에서 고유해야 합니다.
+예외가 발생 합니다 형식의 <xref:System.Activities.InvalidWorkflowException> 다음 메시지와 함께 합니다. 'InvokeMethod': 이름이 ''를 사용 하 여 변수를 RuntimeArgument 또는 DelegateArgument를을 이미 존재합니다. 이름은 환경 범위 내에서 고유해야 합니다.
 
 이 제한에 적용 되지 않습니다 <xref:System.Activities.Statements.InvokeMethod.TargetType%2A> 고 <xref:System.Activities.Statements.InvokeMethod.RunAsynchronously%2A>입니다. 워크플로 인수가 아닙니다 하며에 등록 되지 않습니다는 <xref:System.Activities.Statements.InvokeMethod.GenericTypeArguments%2A> 의 컬렉션을 <xref:System.Activities.Statements.InvokeMethod> 활동에서를 <xref:System.Activities.Activity.CacheMetadata%2A> 메서드.
 

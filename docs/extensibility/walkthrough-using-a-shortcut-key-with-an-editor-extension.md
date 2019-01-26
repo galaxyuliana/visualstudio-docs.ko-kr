@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e669b86a84f21dd6187558fc0a853c875d5d2e71
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 46564673417f93d139f554dbe67d1970ec7c5519
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53953013"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54988573"
 ---
 # <a name="walkthrough-use-a-shortcut-key-with-an-editor-extension"></a>연습: 편집기 확장을 사용 하 여 바로 가기 키를 사용 합니다.
 편집기 확장에서 바로 가기 키에 대응할 수 있습니다. 다음 연습에는 바로 가기 키를 사용 하 여 보기 장식 텍스트 뷰를 추가 하는 방법을 보여 줍니다. 이 연습에서는 뷰포트 adornment 편집기 템플릿을 기준으로 하며 장식을 사용 하 여 추가할 수 있도록는 + 문자입니다.  

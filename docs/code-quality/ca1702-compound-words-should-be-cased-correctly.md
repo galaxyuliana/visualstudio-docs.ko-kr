@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 05481245-7ad8-48c3-a456-3aa44b6160a6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 67050291a43be12bab3ac7aee71497e2f58b045b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 67d697ac5c441efaf78fa7382b9efdead647eec8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829578"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54996508"
 ---
 # <a name="ca1702-compound-words-should-be-cased-correctly"></a>CA1702: 복합 단어는 정확한 대/소문자를 사용해야 합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "53829578"
 - [CA1709: 식별자에는 올바르게 표기를 사용 해야](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
 - [CA1708: 식별자 대/소문자만 달라 야 합니다.](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [명명 지침](/dotnet/standard/design-guidelines/naming-guidelines)
 - [대/소문자 표기법](/dotnet/standard/design-guidelines/capitalization-conventions)

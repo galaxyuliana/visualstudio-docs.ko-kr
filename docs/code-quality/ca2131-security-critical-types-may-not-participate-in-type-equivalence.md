@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: 4170f3b1-6086-430d-8fba-837d5538c573
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f91f5be2aad41006dacab059db27e9609a4f84f7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d42b7f0104f00f346146de882c903c2ebd0ececc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913031"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993162"
 ---
 # <a name="ca2131-security-critical-types-may-not-participate-in-type-equivalence"></a>CA2131: 보안에 중요한 형식은 형식 동등에 참여할 수 없습니다.
 
@@ -44,5 +44,5 @@ ms.locfileid: "53913031"
 
  [!code-csharp[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131-security-critical-types-may-not-participate-in-type-equivalence_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [보안 투명 코드, 수준 2](/dotnet/framework/misc/security-transparent-code-level-2)

@@ -12,18 +12,18 @@ helpviewer_keywords:
 ms.assetid: 599ad877-3a15-426c-bf17-5de15427365f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 484755feac873be04648cfef936b2faa701bba2c
-ms.sourcegitcommit: 73861cd0ea92e50a3be1ad2a0ff0a7b07b057a1c
+ms.openlocfilehash: 40a4326924d83d4604f512f41f85e7adb8d21bb6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54154152"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54975051"
 ---
 # <a name="ca2235-mark-all-non-serializable-fields"></a>CA2235: 모두 serialize할 수 없는 필드로 표시하십시오.
 
@@ -39,7 +39,7 @@ ms.locfileid: "54154152"
 
 ## <a name="rule-description"></a>규칙 설명
  직렬화 가능 형식 것으로 표시 되는 <xref:System.SerializableAttribute?displayProperty=fullName> 특성입니다. 형식으로 serialize 될 때를 <xref:System.Runtime.Serialization.SerializationException?displayProperty=fullName> 형식을 직렬화 할 수 없는 형식의 인스턴스 필드를 포함 하는 경우 예외가 throw 됩니다.
- 
+
  이 예외는 유형을 통해 사용자 지정 serialization을 사용 하는 경우는 <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> 인터페이스입니다. 이 인터페이스를 구현 하는 형식 자체 직렬화 논리를 제공 하 고 따라서 CA2235 이러한 형식의 직렬화 인스턴스 필드에 대해 발생 하지 않습니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
