@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: dfff634b-b155-498b-a356-6eb252ac4fad
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 477d18f3cb5f187b61d78d779339e2c43c402a43
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 79eb0bdfdcb9f0b64258128b801e65f257e0ed3e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53854739"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54949950"
 ---
 # <a name="sccpopulatedirlist-function"></a>SccPopulateDirList 함수
 이 함수는 파일과 디렉터리 (선택 사항)를 검사 하는 디렉터리 목록을 지정 된 소스 제어에 저장 됩니다 결정 합니다.  
@@ -51,7 +51,7 @@ SCCRTN SccPopulateDirList(
  pvCallerData  
  [in] 콜백 함수에 전달할 값을 변경 되지 않습니다.  
   
- 옵션이  
+ fOptions  
  [in] 디렉터리를 처리 하는 방법을 제어 하는 값의 조합 ("PopulateDirList 플래그" 섹션을 참조 하세요 [비트는 특정 명령에 사용](../extensibility/bitflags-used-by-specific-commands.md) 가능한 값에 대 한).  
   
 ## <a name="return-value"></a>반환 값  

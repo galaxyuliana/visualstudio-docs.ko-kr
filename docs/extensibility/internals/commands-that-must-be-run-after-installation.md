@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 691cabb67df53faf23c23e2fa3f05f0ca68038a7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bd5fdae152cf3810d9b9bc95596081473eecc965
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53915551"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54942533"
 ---
 # <a name="commands-that-must-be-run-after-installation"></a>설치 후 실행 해야 하는 명령
 통해 확장 프로그램을 배포 하는 경우는 *.msi* 를 실행 해야 파일 **devenv /setup** for Visual Studio 확장을 검색 하는 순서 대로 설치의 일부로.  

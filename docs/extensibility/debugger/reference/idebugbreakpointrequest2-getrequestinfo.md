@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5defd8d7-6daa-479b-8909-fcc4ae0b357a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 32cdf72046b718a4a507081f194a0cc3c1742bbe
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a64d8e62ff729906c0a4cf85421e5ae5dab0b582
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53861175"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948676"
 ---
 # <a name="idebugbreakpointrequest2getrequestinfo"></a>IDebugBreakpointRequest2::GetRequestInfo
 이 중단점 요청을 설명 하는 중단점 요청 정보를 가져옵니다.  

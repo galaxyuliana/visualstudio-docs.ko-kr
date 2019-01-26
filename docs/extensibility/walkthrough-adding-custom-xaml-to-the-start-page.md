@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 9af4d5f9-1cfc-4221-aea7-c8cd3f7571a6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c792f999164c08d3a723a16872df66e69197fe16
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a828fe6f7944e2bb0d9527d781c66630ed1f3879
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929603"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54947285"
 ---
 # <a name="walkthrough-add-custom-xaml-to-the-start-page"></a>연습: 시작 페이지 사용자 지정 XAML 추가
 이 연습에서는 사용자 지정 Visual Studio 시작 페이지를 만들려면 웹 브라우저를 포함 하는 방법을 보여 줍니다.  
@@ -88,6 +88,6 @@ ms.locfileid: "53929603"
 ## <a name="next-steps"></a>다음 단계  
  이제 Visual Studio 시작 페이지는 웹 브라우저 탭 및 MyButton 탭을 표시 하는 탭을 있습니다. 사용 하 여 다른 기능을 포함 하는 사용자 지정 시작 페이지를 만들 수는 *코드 숨김* 모델에 표시 된 대로 사용자 지정.dll을 추가할 [시작 페이지에 사용자 정의 컨트롤 추가](../extensibility/adding-user-control-to-the-start-page.md)합니다. 결과.vsix 파일을 게시 하 여 다른 사용자와 사용자 지정 시작 페이지를 공유할 수 있습니다 합니다 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트 또는 다른 웹 사이트 또는 네트워크 공유 합니다. 자세한 내용은 [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md)을 참조하세요.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)   
  [WPF 컨테이너 컨트롤](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)
