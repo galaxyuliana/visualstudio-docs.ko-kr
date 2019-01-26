@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 20570a00-864b-459c-a1fa-a6e9db5f1001
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0d20ec103b2861fbdb80d45b82135686c26b91c9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 04a6c105f2452392af5c7246508232df18385b5e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53944988"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018386"
 ---
 # <a name="ca1301-avoid-duplicate-accelerators"></a>CA1301: 중복 액셀러레이터 키를 사용하지 마십시오.
 
@@ -51,7 +51,7 @@ ms.locfileid: "53944988"
 
  [!code-csharp[FxCop.Globalization.AvoidDuplicateAccels#1](../code-quality/codesnippet/CSharp/ca1301-avoid-duplicate-accelerators_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Resources.ResourceManager?displayProperty=fullName>
 - [데스크톱 앱의 리소스](/dotnet/framework/resources/index)

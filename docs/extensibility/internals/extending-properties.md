@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 68e2cbd4-861c-453f-8c9f-4ab6afc80e67
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d03533679e367afb1f50ee55196c5d96e03ae580
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 095c9a81b6bd7d1c4eb75fafce6f3311b413581f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53846587"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54935542"
 ---
 # <a name="extend-properties"></a>확장 속성
 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **속성** 창은 COM 및 COM + 구성 요소에 대 한 유니버설 속성 브라우저를 모두 지원 하며 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 제품입니다. 합니다 **속성** 창을 사용 하 여 작동 `ITypeInfo` 정보 및 COM + 통합된 개발 환경 (IDE)에서 다른 창에서 현재 선택한 개체에 대 한 디자인 타임 속성을 나열 하려면 메타 데이터를 입력 합니다.  

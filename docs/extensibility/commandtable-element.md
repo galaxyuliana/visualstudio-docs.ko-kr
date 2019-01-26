@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 15c38159-660a-4ef4-9643-aa6fcfca82a9
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 893c55f00d2067eb481efdf9482ab4e8f47aaaf2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fefaa84cb00bdf0ccabe825067cb86f6c231a840
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886297"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017424"
 ---
 # <a name="commandtable-element"></a>CommandTable 요소
 CommandTable는의 루트 요소는 *.vsct* 파일입니다. VSPackage는 IDE를 제공 하는 명령의 형식과 실제 레이아웃을 정의 하는 파일입니다. 메뉴 항목, 메뉴, 도구 모음 및 콤보 상자에 명령이 포함할 수 있습니다. 자세한 내용은 [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)합니다.  
@@ -46,8 +46,8 @@ CommandTable는의 루트 요소는 *.vsct* 파일입니다. VSPackage는 IDE를
   
 | 특성 | 설명 |
 |-----------| - |
-| xmlns | 필수 요소. XML 네임 스페이스:<br /><br /> xmlns = "<http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable>"<br /><br /> xmlns:xs = "<http://www.w3.org/2001/XMLSchema>" |
-| language | 선택 사항입니다. Language 특성 모두의 기본 언어를 지정 하려면 사용할 수 \<문자열 > 명령 테이블에 있는 요소입니다.  언어를 지정 하지 않으면 현재 프로세스의 언어가 사용 됩니다.<br /><br /> language = "en-우리" |
+| xmlns | 필수 요소. XML 네임 스페이스:<br /><br /> xmlns="<http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable>"<br /><br /> xmlns:xs="<http://www.w3.org/2001/XMLSchema>" |
+| language | 선택 사항입니다. Language 특성 모두의 기본 언어를 지정 하려면 사용할 수 \<문자열 > 명령 테이블에 있는 요소입니다.  언어를 지정 하지 않으면 현재 프로세스의 언어가 사용 됩니다.<br /><br /> language="en-us" |
   
 ### <a name="child-elements"></a>자식 요소  
   
@@ -69,5 +69,5 @@ CommandTable는의 루트 요소는 *.vsct* 파일입니다. VSPackage는 IDE를
 |-------------|-----------------|  
 |없음||  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

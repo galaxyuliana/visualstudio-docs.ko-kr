@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 27117eae-6c58-4189-a61a-1397a43b5ecf
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 05584f7bd7fe9743d12ddb1cdda41f9ef9aedff0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ceb66051d3a1ab0119f4b80a68f0f2990e569fe8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935608"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929772"
 ---
 # <a name="persistence-and-the-running-document-table"></a>지속성 및 실행 중인 문서 테이블
 에 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE 프로젝트는 서비스를 사용 하 여를 달성 하는 해당 프로젝트 항목을 유지 관리를 완전히 담당 <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable>합니다. 문서는 Visual Studio 환경에서 지 속성의 기본 단위입니다. 프로젝트 열기, 저장 및 실행 중인 문서 테이블 (RDT) 모든 열린 문서의 상태를 추적 하는 리소스를 사용 하 여 문서의 이름을 바꿀를 조정 합니다.  

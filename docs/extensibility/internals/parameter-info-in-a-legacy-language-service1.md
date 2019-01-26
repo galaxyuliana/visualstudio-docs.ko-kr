@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 715de0c8ac763a8aa307fcf31038ba1b60c359fd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 79c09dbe23fd36324fe0c173035b9c4c8de7da18
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53864458"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929993"
 ---
 # <a name="parameter-info-in-a-legacy-language-service"></a>레거시 언어 서비스의 매개 변수 정보
 IntelliSense 매개 변수 정보 도구 설명이 있는 언어 구문에 대 한 힌트를 사용 하 여 사용자를 제공 합니다.  

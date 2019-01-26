@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 9b0d5e71-1683-4a0d-bc4a-68b2fbd8af71
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e1a4ac50cd189368bcc59aaff6b02b6f4b639a6b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2e3896056612631bac0c871ea7b09204e2622492
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53908933"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018282"
 ---
 # <a name="ca1307-specify-stringcomparison"></a>CA1307: StringComparison 지정하세요.
 
@@ -45,7 +45,7 @@ ms.locfileid: "53908933"
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
  라이브러리 또는 응용 프로그램은 제한 된 로컬 사용자 이며 따라서 지역화 되지 않을 때이 규칙에서 경고를 표시 하지 않으려면 안전 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [전역화 경고](../code-quality/globalization-warnings.md)
 - [CA1309: 서 수 StringComparison 사용](../code-quality/ca1309-use-ordinal-stringcomparison.md)

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 09991589-2300-430e-b6a4-7f2b95fe676f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 630557cbc4bd9720337bf8e5f2988ffcf3d7c6eb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f0b6b3509af981a07fce76be69f16d767ec0c246
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952779"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017931"
 ---
 # <a name="project-type-essentials"></a>프로젝트 형식 필수 항목
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 같은 언어에 대 한 여러 프로젝트 유형이 포함 되어 있습니다 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 또는 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]합니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 또한 사용자 고유의 프로젝트 형식을 만들 수 있습니다.  

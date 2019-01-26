@@ -10,16 +10,16 @@ helpviewer_keywords:
 - graph documents, analyzing
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: f23b00a1ee4ee437214453d221824313883f7435
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 04e4d51fba62c56ce39fd34d8179f73baeeea77a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53938292"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55025919"
 ---
 # <a name="find-potential-problems-using-code-map-analyzers"></a>코드 맵 분석기를 사용하여 잠재적 문제 찾기
 
@@ -46,7 +46,7 @@ ms.locfileid: "53938292"
 > [!TIP]
 > 매우 큰 맵이 있는 경우 분석기를 실행할 때 메모리 부족 예외가 발생할 수 있습니다. 이 경우 맵을 편집하여 해당 범위를 줄이거나 더 작은 맵을 생성한 다음 분석기를 실행합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)
 - [코드 맵을 사용하여 응용 프로그램 디버그](../modeling/use-code-maps-to-debug-your-applications.md)

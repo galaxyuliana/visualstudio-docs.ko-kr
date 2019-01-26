@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 6a920cb7-453d-4ffd-af1c-6f3084bd03f7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 362a4c09e3e0c732d939cf42b926b003260c4b00
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ebd8fef41c1ba8a81d116bddca61026cdf79ee24
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988124"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929207"
 ---
 # <a name="persisting-data-in-the-msbuild-project-file"></a>MSBuild 프로젝트 파일의 데이터 유지
 프로젝트 하위 형식이 면 나중에 사용할 프로젝트 파일에 하위 형식의 특정 데이터를 유지 해야 합니다. 프로젝트 하위 형식이 면 다음 요구 사항을 충족 하기 위해 프로젝트 파일 지 속성을 사용 합니다.  

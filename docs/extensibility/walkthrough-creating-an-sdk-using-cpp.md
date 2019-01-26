@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2a0db4f34315f9e0eb4a5627cdc286a43a904a34
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5ba197f59ffa38395e8b7c03c0e00111c26581af
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53917607"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020323"
 ---
 # <a name="walkthrough-create-an-sdk-using-c"></a>연습: C + +를 사용 하 여 SDK 만들기
 이 연습에서는 네이티브 c + + 수학 라이브러리 SDK 패키지는 SDK로는 VSIX Visual Studio Extension ()를 만들고 앱을 만드는 데 사용 하는 방법을 보여 줍니다. 이 연습에서는 이러한 단계로 구분 됩니다.  
@@ -173,6 +173,6 @@ ms.locfileid: "53917607"
   
 ## <a name="next-steps"></a>다음 단계  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)   
  [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)

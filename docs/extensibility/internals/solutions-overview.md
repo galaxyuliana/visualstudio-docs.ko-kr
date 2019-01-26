@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1d3117aa61658fe056e6ac48fe8ab4eb4831882b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 090f70776ab3323be55d13888f29d4855386a511
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874591"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020895"
 ---
 # <a name="solutions-overview"></a>솔루션 개요
 솔루션은 그룹 응용 프로그램을 만들기 위해 함께 작동 하는 하나 이상의 프로젝트입니다. 솔루션에 관련 된 프로젝트 및 상태 정보는 두 개의 서로 다른 솔루션 파일에 저장 됩니다. 솔루션 (.sln) 파일은 텍스트 기반 소스 코드 제어에서 및 사용자 간에 공유 될 수 있습니다. 솔루션 사용자 옵션 (.suo) 파일을 이진입니다. 결과적으로,.suo 파일 소스 코드 제어에서 배치할 수 없습니다 및 사용자 관련 정보를 포함 합니다.  

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: bd5376fc-13b4-40b7-9a5d-7ba8289f1b24
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4f977c2e94ef8a41371c4f79bad510be74518d4f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9f8be46a329c6bb62bf4fc039a418e98b577141e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53911717"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027973"
 ---
 # <a name="ieevisualizerdataprovidergetobjectforvisualizer"></a>IEEVisualizerDataProvider::GetObjectForVisualizer
 이 메서드는이 시각화 도우미를 나타내는 개체를 가져옵니다.  

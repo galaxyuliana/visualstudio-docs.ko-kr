@@ -7,15 +7,15 @@ helpviewer_keywords:
 - UML, using models
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b1a507a6995ceb3c04dfc3d9daf57fa341fe6fc7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 123d34383f1dace7d7c6d12d41bfc1122ae521c7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53832820"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55071087"
 ---
 # <a name="use-models-in-your-development-process"></a>개발 프로세스에서 모델 사용
 
@@ -137,7 +137,7 @@ Visual Studio에서 모델을 사용하여 시스템, 응용 프로그램 또는
 |**Blogs**|[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)|
 |**기술 문서 및 저널**|[MSDN 아키텍처 센터](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio 아키텍처 도구 사용 지침](../modeling/visual-studio-architecture-tooling-guidance.md)|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Agile 개발에서 모델 사용](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
 - [앱용 모델 만들기](../modeling/create-models-for-your-app.md)

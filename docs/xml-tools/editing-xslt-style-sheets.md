@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 080bed0f-0ca9-4be7-aecd-6bdaebc04007
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d98fbf2a1041260370946a059599a601f57c482c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8a8625defb0d9e8d656aac7bb3d2236d4f5bb9c9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53867409"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021886"
 ---
 # <a name="edit-xslt-style-sheets"></a>XSLT 스타일시트 편집
 
@@ -43,6 +43,6 @@ XML 편집기를 사용하여 XSLT 스타일시트를 편집할 수 있습니다
 
  XML 편집기에서는 XSLT 파일에서 XSLT 디버거를 시작할 수 있습니다. 이 디버거에서는 XSLT 파일에서 중단점 설정, XSLT 실행 상태 보기 등을 지원합니다. XSLT 변수 위로 마우스를 움직이면 변수 값과 함께 도구 설명이 표시됩니다. 이 디버거를 사용하여 스타일시트를 디버깅하거나 다른 응용 프로그램에서 호출한 컴파일된 XSL 변형을 디버깅할 수 있습니다. 자세한 내용은 [XSLT 디버깅](../xml-tools/debugging-xslt.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 편집기](../xml-tools/xml-editor.md)

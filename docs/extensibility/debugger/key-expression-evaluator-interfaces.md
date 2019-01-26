@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 1cac9aa3-0867-4e12-a16e-1e90abbc0fb6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dbbe661e9a3a8998153369d59317f9d9475e8f35
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 060656c10c8f516681a459153621ad1dd2d72ee0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873446"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55026212"
 ---
 # <a name="key-expression-evaluator-interfaces"></a>Key 식 계산기 인터페이스
 > [!IMPORTANT]
@@ -56,5 +56,5 @@ ms.locfileid: "53873446"
   
      이 인터페이스는 값 및 콘텐츠 형식을 나타내는 및 식 평가의 결과입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [평가 컨텍스트](../../extensibility/debugger/evaluation-context.md)

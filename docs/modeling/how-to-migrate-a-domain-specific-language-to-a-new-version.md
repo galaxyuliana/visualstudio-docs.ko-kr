@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: b53d604fdf9c18a2e5552d787f7a69ff4c92df2a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c2ff1a820e5ac8492b627ac61ddfa234c71b5890
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955070"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54932339"
 ---
 # <a name="how-to-migrate-a-domain-specific-language-to-a-new-version"></a>방법: 도메인 특정 언어를 새 버전으로 마이그레이션
 정의 및 도메인 특정 언어를 사용 하는 프로젝트를 마이그레이션할 수 있습니다 [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] 버전의 [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] 와 함께 배포 된는 [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)]합니다.

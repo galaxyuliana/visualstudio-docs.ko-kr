@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 07d353fc-68ab-4297-a18f-3d3c7a80e121
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c0e30e90aa1778904bc6c6349427c567ea3bb160
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1f7dbad02632663474f62f561773aa62a8735071
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829672"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069384"
 ---
 # <a name="idebugprogram2causebreak"></a>IDebugProgram2::CauseBreak
 프로그램이 다음 실행을 중지 하는 요청 시간 자신의 스레드 실행 시도 중 하나입니다.  

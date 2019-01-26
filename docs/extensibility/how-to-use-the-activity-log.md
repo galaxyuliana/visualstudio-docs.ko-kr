@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9305cf1de6cadc2230b90723ac0f995b425ba3a5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b23dd6ffa0e856ef5d5fb14227953cb22dce65e8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990336"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929354"
 ---
 # <a name="how-to-use-the-activity-log"></a>방법: 활동 로그 사용
 Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기능은 소매 환경에서 Vspackage를 디버깅 하는 데 특히 유용 합니다.  
@@ -59,7 +59,7 @@ Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기�
   
  쓰기 직전 활동 로그를 가져와야 합니다. 캐시 하거나 나중에 사용에 대 한 활동 로그를 저장 하지 마십시오.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>   
  <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>   

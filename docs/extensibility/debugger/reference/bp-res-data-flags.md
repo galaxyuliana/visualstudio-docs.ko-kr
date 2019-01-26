@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: d97611e2-def6-45a9-ad7d-eedf2ad4c82b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: da0d8f842d68e9f307b720409203e02db36aec45
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8db95158ece61792148483a88fb7b4b9c4bf76ed
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53824186"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55025620"
 ---
 # <a name="bpresdataflags"></a>BP_RES_DATA_FLAGS
 데이터 중단점 에뮬레이트 여부 또는에서 구현 된 하드웨어를 지정 합니다.  

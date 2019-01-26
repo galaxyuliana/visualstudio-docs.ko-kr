@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: c1dfbfe3-63f9-4005-a81a-890427b77e79
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 14229e6f73e93aa1ca4323ba12d965270e3228cb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c7d3994c827e7d090ead52d0ea6345ba8d79b2a3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53904736"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018512"
 ---
 # <a name="ca1046-do-not-overload-operator-equals-on-reference-types"></a>CA1046: 참조 형식에 같음 연산자를 오버로드하지 마세요.
 
@@ -67,7 +67,7 @@ c and a are == ? Yes
 
 [CA1013: 오버 로드에 같음 연산자를 오버 더하기 및 빼기](../code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Object.Equals%2A?displayProperty=fullName>
 - [같음 연산자](/dotnet/standard/design-guidelines/equality-operators)

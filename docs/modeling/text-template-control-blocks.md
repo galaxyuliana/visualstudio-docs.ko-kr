@@ -6,16 +6,16 @@ helpviewer_keywords:
 - text templates, template code
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 783adf81fd622fd179a4871823a147246df92ff7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e49cc7161d5f061d18e51865325f27fe37a35864
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53876735"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54928739"
 ---
 # <a name="text-template-control-blocks"></a>텍스트 템플릿 제어 블록
 제어 블록을 사용하면 다양한 출력을 생성하기 위해 텍스트 템플릿에 코드를 작성할 수 있습니다. 다음과 같은 세 가지 종류의 제어 블록이 있으며 각각 여는 대괄호로 구분됩니다.

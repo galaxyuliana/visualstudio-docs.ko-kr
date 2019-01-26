@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 574de335bdc7be6cbef658009645efbd6bc6620d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 131926011a12f397310fe6d4a70836a4972b48bd
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886269"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55026816"
 ---
 # <a name="schema-cache"></a>스키마 캐시
 
@@ -129,6 +129,6 @@ XML 편집기는 솔루션에 있는 스키마를 찾을 수도 있습니다에 
 
      카탈로그가 자동으로 다시 로드됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 편집기](../xml-tools/xml-editor.md)

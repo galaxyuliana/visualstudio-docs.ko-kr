@@ -9,15 +9,15 @@ helpviewer_keywords:
 - Roslyn analyzers
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 660abf31d764d0dd78b4d83c46d0931fb790f14f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7a74a529f990eca48e4e884decdd7d2c0db7b3c7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873225"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930435"
 ---
 # <a name="configure-and-use-roslyn-analyzer-rules"></a>구성 및 Roslyn 분석기 규칙 사용
 
@@ -60,7 +60,7 @@ A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.m
 
 |심각도|빌드 시 동작|편집기 동작|
 |-|-|-|
-|오류|위반으로 표시 *오류* 에 **오류 목록** 명령줄에서 빌드 출력 및 빌드 실패를 발생 합니다.|코드를 잘못 된 물결 및 스크롤 막대의 작은 빨간색 상자에 표시 된 빨간색 밑줄이 그어져 합니다.|
+|Error|위반으로 표시 *오류* 에 **오류 목록** 명령줄에서 빌드 출력 및 빌드 실패를 발생 합니다.|코드를 잘못 된 물결 및 스크롤 막대의 작은 빨간색 상자에 표시 된 빨간색 밑줄이 그어져 합니다.|
 |경고|위반으로 표시 *경고* 에 **오류 목록** 명령줄에서 빌드 출력을 하며 빌드 실패를 발생 하지 않습니다.|녹색 물결 및 스크롤 막대의 작은 녹색 상자에 표시 된 밑줄이 그어져 코드를 위반 합니다.|
 |Info|위반으로 표시 *메시지* 에 **오류 목록**, 및 명령줄 빌드 출력에 전혀 그렇지 않습니다.|물결 및 스크롤 막대의 작은 회색 상자에 표시 된 회색으로 밑줄이 그어져 코드를 위반 합니다.|
 |Hidden|비-사용자에 게 표시 합니다.|비-사용자에 게 표시 합니다. 하지만 진단 IDE 진단 엔진에 보고 됩니다.|
@@ -166,7 +166,7 @@ msbuild myproject.csproj /target:rebuild /verbosity:minimal
 
 ![규칙 위반을 사용하여 MSBuild 출력](media/command-line-build-analyzers.png)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 Roslyn 분석기 개요](../code-quality/roslyn-analyzers-overview.md)
 - [Roslyn 분석기 버그 제출](https://github.com/dotnet/roslyn-analyzers/issues)

@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d9e709ceb16a95094f14df65d42e7167ef5abdba
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 195ec36affc9ede9efc61ead2cdede8233ebb65a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53991245"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54928908"
 ---
 # <a name="shared-colors-for-visual-studio"></a>Visual Studio에 대 한 공유 색
 일반적인 Visual Studio 셸 요소를 사용 하는 UI를 디자인할 때나 사용자 인터페이스 요소를 유사한 기능과 일치 원하는 이름을 사용 하 여 기존 토큰 패키지 정의 파일에서 선택 하 고 색을 할당 합니다. 이렇게 하면 UI가 전체 Visual Studio 환경과 일관성 있게 유지되며 테마를 추가하거나 업데이트할 경우 자동으로 업데이트됩니다.  
@@ -106,7 +106,7 @@ ms.locfileid: "53991245"
 
 **확인란: 기본 상태**  
 
-![확인란](../../extensibility/ux-guidelines/media/0303-162_checkbox.png "0303 162_Checkbox")<br />기본 확인란
+![Check box](../../extensibility/ux-guidelines/media/0303-162_checkbox.png "0303-162_Checkbox")<br />기본 확인란
 
 | 요소 | 토큰 이름: Category.color |
 | --- | --- |
@@ -1133,7 +1133,7 @@ ms.locfileid: "53991245"
 
 **메뉴 항목: 선택 표시 및 상태를 선택 합니다.**  
 
-![메뉴 확인 됨](../../extensibility/ux-guidelines/media/0303-011_menuchecked.png "0303 011_MenuChecked")<br />확인 된 메뉴 항목
+![Menu checked](../../extensibility/ux-guidelines/media/0303-011_menuchecked.png "0303-011_MenuChecked")<br />확인 된 메뉴 항목
 
 ![선택한 메뉴](../../extensibility/ux-guidelines/media/0303-012_menuselected.png "0303 012_MenuSelected")<br />선택한 메뉴 항목    
 

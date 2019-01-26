@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: bb539b3a-027c-4b2f-906e-403e0e22ba8d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 05ddfcb0613dac08fb6e4323062f87475bd8f0d1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d5fbc4678431cd8b540b5bbc90bfab5dc2bb2bd4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53938594"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020791"
 ---
 # <a name="formatting-xml-text-editor-options-dialog-box"></a>서식 지정, XML, 텍스트 편집기, 옵션 대화 상자
 
@@ -65,7 +65,7 @@ ms.locfileid: "53938594"
 </dir>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 문서 속성, 속성 창](../xml-tools/xml-document-properties-properties-window.md)
 - [XML 편집기 구성 요소](../xml-tools/xml-editor-components.md)

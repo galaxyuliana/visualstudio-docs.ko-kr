@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 0b25b82c-7432-4e0a-9e84-350269ba8260
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 36783227ceed5d1b074937684d42c4486ec58dda
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 238716c697ef97c740d8d6a82d48b8ff5e25ae68
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926020"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55024632"
 ---
 # <a name="automation-support-for-options-pages"></a>Automation 옵션 페이지에 대 한 지원
 Vspackage는 사용자 지정을 제공할 수 있습니다 **옵션** 대화 상자에 **도구** 메뉴 (**도구 옵션** 페이지)에서 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 자동화 가능 하도록 만들 수 및 모델입니다.  
@@ -36,5 +36,5 @@ Vspackage는 사용자 지정을 제공할 수 있습니다 **옵션** 대화 �
   
    사용자 지정 구현 샘플 **도구 옵션** 페이지를 참조 하십시오 [VSSDK 샘플](http://aka.ms/vs2015sdksamples)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [프로젝트 개체 노출](../../extensibility/internals/exposing-project-objects.md)

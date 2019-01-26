@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 1f2a4b94-3713-46e9-8272-3917187792bd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cd26a84ef9fc3df6d1850d729e4ff52cef55161c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: de2acab356ad31282e5a11cafd347867ca376258
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53962271"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930138"
 ---
 # <a name="idebugerrorbreakpoint2"></a>IDebugErrorBreakpoint2
 이 인터페이스에는 오류 또는 잘못 된 위치, 잘못 된 식, 이유는 보류 중인 중단점에 바인딩되지 (코드 등, 아직 로드 되지 않은) 하는 이유 등 경고 중단점을 나타냅니다.  

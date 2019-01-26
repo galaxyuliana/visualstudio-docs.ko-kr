@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: d669f154-9b23-48b6-b9f6-7419c8dd61a6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ce8b18ee5c1c84b8e6480ffa9f91f739796f0991
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c192128ff4995a551b50df9347981405e321b703
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53834414"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54933232"
 ---
 # <a name="custom-tools"></a>사용자 지정 도구
 *사용자 지정 도구* 프로젝트에서 항목을 사용 하 여 도구에 연결 하 고 파일을 저장할 때마다 해당 도구를 실행할 수 있습니다. 특정 사용자 지정 도구 라고도 *단일 파일 생성기*는 그 반대로 데이터에서 코드를 생성 하는 변환기를 구현 하는 데 자주 사용 됩니다. 예를 들어, 단일 파일 생성기 만들기 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 하 고 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 소스 코드의는 *.settings* 하 고 *.resx* 파일입니다. 생성된 된 소스 코드의 데이터에 대 한 강력한 형식의 액세스를 제공 합니다 *.settings* 하 고 *.resx* 파일입니다. 합니다 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 고 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 프로젝트 형식 사용자 지정 도구를 지원 합니다. [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 프로젝트 형식 하지 않습니다. 사용자 고유의 프로젝트 형식을 사용자 지정 도구 기능도 사용할 수 있습니다.  

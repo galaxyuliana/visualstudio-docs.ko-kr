@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 891c1eb4-f6d0-4073-8df0-2859dbd417ca
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0d2ca702be87722d2d3197d5584811d77c62472b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4af59a34fe2cb76a0627985ca044d2139543f8f1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874286"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021237"
 ---
 # <a name="how-to-suppress-file-change-notifications"></a>방법: 파일 변경 알림 표시 안 함
 메시지와 함께 대화 상자가 표시 텍스트 버퍼를 나타내는 물리적 파일이 변경 된 경우 **다음 항목의 변경 내용을 저장 하 시겠습니까?** 이 파일 변경 알림 이라고 합니다. 하지만 많은 변경 하는 경우 파일을이 대화 상자를 반복적으로 표시 될 수 있습니다 신속 하 게 성가신.  

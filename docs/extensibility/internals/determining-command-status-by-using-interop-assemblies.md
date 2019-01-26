@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 2f5104d1-7b4c-4ca0-a626-50530a8f7f5c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8d3c6a0f74f6f9f684e35c927bafc2ead7c19485
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c7d21e69bbcfbacd50070b7f5787059ca81e464c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967750"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54933427"
 ---
 # <a name="determine-command-status-by-using-interop-assemblies"></a>Interop 어셈블리를 사용 하 여 명령 상태를 확인 합니다.
 VSPackage 해야 기록해 상태의 명령 처리할 수 있습니다. VSPackage 내에서 처리 명령을 설정 또는 해제 하는 경우 환경이 확인할 수 없습니다. 이 명령은 상태에 대 한 환경에 알림을 보내야 VSPackage의 경우, 예를 들어 일반 상태 같은 명령은 **잘라내기**를 **복사본**, 및 **붙여넣기**합니다.  
@@ -33,6 +33,6 @@ VSPackage 해야 기록해 상태의 명령 처리할 수 있습니다. VSPackag
 ## <a name="status-notification-failure"></a>상태 알림 오류  
  명령 상태 변경의 환경에 알리기 위해 VSPackage의 오류는 일관성이 없는 상태에서 UI를 배치할 수 있습니다. 메뉴 또는 상황에 맞는 메뉴 명령을 중 하나에 배치할 수 도구 모음을 사용자가 해야 합니다. 따라서 UI를 업데이트 하 여 메뉴 또는 상황에 맞는 메뉴가 열리면 충분 하지 않습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [구현](../../extensibility/internals/command-implementation.md)

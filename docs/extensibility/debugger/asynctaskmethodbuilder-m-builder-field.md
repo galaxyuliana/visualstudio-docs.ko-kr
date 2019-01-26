@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: bfaf25a2-0f08-413f-b474-9ce0d97c0eeb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ef71973ffaf680f4ded8c85f5e04a30a89f40bfd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 594ffe24f731b6ca6669650afd72e5007cb37a3c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53961091"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55025828"
 ---
 # <a name="asynctaskmethodbuildermbuilder-field"></a>AsyncTaskMethodBuilder.m_builder 필드
 제네릭이 아닌 인스턴스가 대리자는 제네릭 작성기 개체를 나타냅니다.  
@@ -34,6 +34,6 @@ ms.locfileid: "53961091"
   
 ## <a name="remarks"></a>설명  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder>   
  [.NET Framework에 대 한 병렬 확장 기능 내부](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

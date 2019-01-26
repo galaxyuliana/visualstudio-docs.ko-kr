@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: e55a1098-15df-42a9-9f87-e3a99cf437dd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6c401b1f5179fa03dbd43ffbcff3bd2f0151340c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4706114f87e18ce97789e41098e13cf38917d533
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931675"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54933041"
 ---
 # <a name="keybinding-element"></a>KeyBinding 요소
 KeyBinding 요소는 명령에 대 한 바로 가기 키를 지정합니다.  
@@ -70,6 +70,6 @@ KeyBinding 요소는 명령에 대 한 바로 가기 키를 지정합니다.
 </KeyBindings>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [KeyBindings 요소](../extensibility/keybindings-element.md)   
  [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

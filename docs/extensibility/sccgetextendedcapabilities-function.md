@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 588c6a92-2147-4d8b-a357-96ca7da0a092
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c46a81190fb1c1c9b15627b7fb9620e01faa2f53
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b33858910c435f4dc899b24a707de06548f1c915
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53819609"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54931156"
 ---
 # <a name="sccgetextendedcapabilities-function"></a>SccGetExtendedCapabilities 함수
 이 함수는 소스 제어 플러그 인에서 지 원하는 추가 기능을 반환 합니다.  
@@ -53,7 +53,7 @@ SCCRTN SccGetExtendedCapabilities(
 ## <a name="remarks"></a>설명  
  이 메서드는 주문형; 호출 즉, 기능을 테스트 해야 하는 경우이 메서드는 여부를 확인 하려면 기능이 지원 되는 합니다. 한 번에 하나만 플래그 지정 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [오류 코드](../extensibility/error-codes.md)   
  [기능 플래그](../extensibility/capability-flags.md)

@@ -12,19 +12,19 @@ helpviewer_keywords:
 ms.assetid: c0c84cf5-7701-4897-9114-66fc4b895699
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - CPP
 - CSharp
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 31159ec2e90c96579940f276f1d0410cdf3dadb1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 68b0400e366f70690acb7a04b425472e0059b726
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931439"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021977"
 ---
 # <a name="ca1414-mark-boolean-pinvoke-arguments-with-marshalas"></a>CA1414: 부울 P/Invoke 인수를 MarshalAs로 표시하세요.
 
@@ -62,7 +62,7 @@ ms.locfileid: "53931439"
 
  [CA2101: P/Invoke 문자열 인수에 대해 마샬링을 지정 하십시오.](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Runtime.InteropServices.UnmanagedType?displayProperty=fullName>
 - [비관리 코드와의 상호 운용](/dotnet/framework/interop/index)

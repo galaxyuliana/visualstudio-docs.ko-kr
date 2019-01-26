@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 46e3f307-219d-40cd-a929-d41399c60ecf
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 916addd046bc804f7ef796b7c1218f7e5d007df2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea73240d6797daaee2cb51796800282bf5b60008
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53819471"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54933765"
 ---
 # <a name="idebugpendingbreakpoint2bind"></a>IDebugPendingBreakpoint2::Bind
 하나 이상의 코드 위치로이 보류 중인 중단점에 바인딩합니다.  

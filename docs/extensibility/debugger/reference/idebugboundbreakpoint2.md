@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: df33c52e-ded2-48a0-951d-1f36c8fc922e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9d745bfb4682f92995145cc28967e416baaec35a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d4c3cd8915b74560d1e42125997f9f61240430ed
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53950845"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54931663"
 ---
 # <a name="idebugboundbreakpoint2"></a>IDebugBoundBreakpoint2
 이 인터페이스는 코드 위치에 바인딩되는 중단점을 나타냅니다.  

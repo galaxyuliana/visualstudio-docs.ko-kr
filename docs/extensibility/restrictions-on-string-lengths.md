@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 877173d2-ca27-43b3-b1f4-8379f7c5e268
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5bb973a1f50bb29cc605ab63916d8e75b17d1853
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 679737b9590cd018f0de16298391351aedb0ac94
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852718"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929954"
 ---
 # <a name="restrictions-on-string-lengths"></a>문자열 길이 제한
 원본 제어 플러그 인 API는 다양 한 함수에서 사용 되는 문자열의 길이 제한 합니다.  
@@ -39,5 +39,5 @@ ms.locfileid: "53852718"
 |SCC_USER_SIZE|32|  
 |SCC_PRJPATH_SIZE|301|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인](../extensibility/source-control-plug-ins.md)

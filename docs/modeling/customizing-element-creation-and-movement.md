@@ -8,16 +8,16 @@ helpviewer_keywords:
 - Domain-Specific Language, element merge directives
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: cf200620036c41fe4ed975fa6ff60bd1438b7d88
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e56688d74647c12340fcf9755dca3de282806773
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53821043"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54933028"
 ---
 # <a name="customizing-element-creation-and-movement"></a>요소 만들기 및 이동 사용자 지정
 
@@ -39,7 +39,7 @@ ms.locfileid: "53821043"
 
 Emd는 추가의 책임 개체 또는 개체 그룹만 병합할 방법을 모델의 특정 위치를 결정 하는 것입니다. 특히 모델에 병합 된 그룹을 연결 하려면 어떤 관계를 인스턴스화해야를 결정 합니다. 또한 속성을 설정 하 고 추가 개체를 만들 수를 지정할 수 있습니다.
 
-![DSL&#45;EMD&#95;병합](../modeling/media/dsl-emd_merge.png)
+![DSL&#45;EMD&#95;Merge](../modeling/media/dsl-emd_merge.png)
 
 Emd는 추가 포함 관계를 정의할 때 자동으로 생성 됩니다. 사용자가 새 자식 인스턴스 부모를 추가 하는 경우이 기본 EMD 관계의 인스턴스를 만듭니다. 사용자 지정 코드를 추가 하 여 예를 들어 이러한 기본 EMDs를 수정할 수 있습니다.
 

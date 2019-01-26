@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 71eea623-f566-4feb-84cd-ca1ba71bc493
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d2af41600ed809259cd7512a7fc0a146047a37ad
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5f2deb04f14af93846b0b5a9e13dca14eb5ed710
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53818877"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020154"
 ---
 # <a name="document-data-and-document-view-in-custom-editors"></a>문서 데이터 및 사용자 지정 편집기의 문서 뷰
 사용자 지정 편집기를 두 부분으로 구성 됩니다: 문서 데이터 개체 및 문서 뷰 개체입니다. 이름으로 문서 데이터 개체에 표시할 텍스트 데이터를 나타냅니다. 마찬가지로, 문서 뷰 개체 (또는 "보기")에서 문서 데이터 개체를 표시 하는 하나 이상의 windows를 나타냅니다.  

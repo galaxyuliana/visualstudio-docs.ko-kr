@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: d71cb172929fd9d213c0f09be21c1a844acf4462
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fa5a7b1de4eb656147033e8d06655e3e726fc898
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53892747"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54932261"
 ---
 # <a name="how-to-intercept-a-click-on-a-shape-or-decorator"></a>방법: 모양 또는 데코레이터 클릭 가로채기
 다음 절차에 셰이프 또는 아이콘 데코레이터 클릭 가로채기 방법을 보여 줍니다. 두 번 클릭, 끌기가 가로챌 수 있습니다 하 고 다른 제스처에 응답 하는 요소를 확인 합니다.

@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 348dbf64-3f09-4fff-b47a-a7ecdf3221cc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5572e020dba08c7a417c8a7af40f8d20083198a5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 649617ac905e7d81ea68c5e5550dc106fbe1c24d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53928317"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020960"
 ---
 # <a name="xml-snippets"></a>XML 조각
 
@@ -52,6 +52,6 @@ XML 편집기에는 몇 가지 일반 작업을 포괄하는 많은 조각이 �
 
  자세한 내용은 [방법: XML 조각 만들기](../xml-tools/how-to-create-xml-snippets.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 편집기](../xml-tools/xml-editor.md)
