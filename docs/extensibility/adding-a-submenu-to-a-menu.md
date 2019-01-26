@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 88a80b5a5c2d6bc5b96b88f74e8c6d7ff672c6a3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a356f6a26cfbaad9d81f8a0cb37164660e39f0a8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986598"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55004464"
 ---
 # <a name="add-a-submenu-to-a-menu"></a>메뉴에 하위 메뉴를 추가 합니다.
 이 연습에서 데모 기반 [Visual Studio 메뉴 모음에 메뉴를 추가](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) 하위 메뉴를 추가 하는 방법을 표시 하 여 합니다 **TestMenu** 메뉴.
@@ -152,7 +152,7 @@ ms.locfileid: "53986598"
 
 5.  에 **TestMenu** 메뉴에서 클릭 **하위 메뉴** 을 클릭 한 다음 **테스트 하위 명령**합니다. 메시지 상자를 표시 하 고 "테스트 명령 내에서 TestCommand.SubItemCallback()" 텍스트를 표시 해야 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio 메뉴 모음에 메뉴 추가](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)
 - [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

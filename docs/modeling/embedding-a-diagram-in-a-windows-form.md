@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 41279e483e2ea752fd6cb573d7632f61a206003d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7343fe78ab83b2297f8427e973d1606e208964ab
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841757"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55016163"
 ---
 # <a name="embed-a-diagram-in-a-windows-form"></a>Windows Forms에 다이어그램 포함
 
@@ -142,7 +142,7 @@ Visual Studio 창에 표시 되는 Windows 컨트롤에서 DSL 다이어그램�
 
      올바른지 모든 추가 또는 삭제 후 실행 취소 및 다시 실행 및 목록 상자 모델의 요소 목록을 표시 되는지 확인 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [프로그램 코드에서 모델 탐색 및 업데이트](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [도메인별 언어를 사용자 지정하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)

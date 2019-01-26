@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab18508a7b79361b85c459066a9e083d77983d7a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e1b4b7f27bbecd71fa5a99e942d5f1b75e983c0d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53848089"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55002485"
 ---
 # <a name="idebugfield"></a>IDebugField
 이 인터페이스는 필드를, 즉, 기호 또는 형식에 대 한 설명을 나타냅니다.  

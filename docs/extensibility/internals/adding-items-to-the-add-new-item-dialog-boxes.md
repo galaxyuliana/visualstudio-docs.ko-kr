@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d447090585a2314899bb2d6246c6fb450a9e767d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ef91cc3d3bcec479fd6619662d40fbfeffb82131
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956051"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54989954"
 ---
 # <a name="add-items-to-the-add-new-item-dialog-box"></a>새 항목 추가 대화 상자에 항목 추가
 항목을 추가 하기 위한 프로세스를 **새 항목 추가** 레지스트리 키를 사용 하 여 대화 상자를 시작 합니다. 다음 레지스트리 항목에 표시 된 대로 합니다 **AddItemTemplates** 섹션에서 사용할 수 있는 어떤 항목에 있는 디렉터리의 이름과 경로 포함 합니다 **새 항목 추가** 대화 상자에 배치 됩니다.  
@@ -27,19 +27,19 @@ ms.locfileid: "53956051"
 
  첫 번째 GUID는이 형식의 프로젝트에 대 한 CLSID가 두 번째 GUID 추가 항목 템플릿에 대 한 등록된 프로젝트 종류를 나타냅니다.  
 
- **\\{C061DB26-5833-11D2-96F5-000000000000} \\AddItemTemplates\\TemplatesDir\\{0} ACEF4EB2-57CF-11D2-96F4-000000000000}\\1**
+ **\\{C061DB26-5833-11D2-96F5-000000000000}\\AddItemTemplates\\TemplatesDir\\{ACEF4EB2-57CF-11D2-96F4-000000000000}\\1**
 
- **@** 6 = 
+ **@** = #6 
 
  **TemplatesDir** = \\&lt;Visual Studio SDK 설치 경로가&gt;\\VSIntegration\\&lt;SomeFolder&gt; \\ &lt;SomePackage&gt;\\&lt;SomeProject&gt;\\&lt;SomeProjectItems&gt;
 
- **SortPriority** dword:00000064 =
+ **SortPriority** = dword:00000064
 
 
 | 이름 | 형식 | 데이터 (에서 *.rgs* 파일) | 설명 |
 |------------------|-----------| - | - |
-| @ (기본값) | REG_SZ | #% IDS_ADDITEM_TEMPLATES_ENTRY % | 에 대 한 리소스 ID **항목 추가** 템플릿. |
-| Val TemplatesDir | REG_SZ | %TEMPLATE_PATH\\&lt;SomeProjectItems&gt; | 에 대 한 대화 상자에서 표시 된 프로젝트 항목의 경로 **새 항목 추가** 마법사. |
+| @ (기본값) | REG_SZ | #%IDS_ADDITEM_TEMPLATES_ENTRY% | 에 대 한 리소스 ID **항목 추가** 템플릿. |
+| Val TemplatesDir | REG_SZ | %TEMPLATE_PATH%\\&lt;SomeProjectItems&gt; | 에 대 한 대화 상자에서 표시 된 프로젝트 항목의 경로 **새 항목 추가** 마법사. |
 | Val SortPriority | REG_DWORD | 100 ([!INCLUDE[vcprx64](../../extensibility/internals/includes/vcprx64_md.md)]) | 에 표시 된 파일의 트리 노드가 정렬 순서를 결정 합니다 **새 항목 추가** 대화 상자. |
 
 > [!NOTE]
@@ -78,7 +78,7 @@ ms.locfileid: "53956051"
 
   이 필터 기능을 구현 하는 경우 테이블은 숨겨야 하는 모든 항목을 매핑할 필요가 없습니다. 단순히 항목 유형으로 분류 하는 분류에 배치 합니다 *.vsdir* 파일 또는 파일입니다. 그런 다음 인터페이스를 구현 하 여 특정 분류를이 있는 항목 중 하나를 숨길 수 있습니다. 이러한 방식으로 항목을 만들 수 있습니다 합니다 **새 항목 추가** 프로젝트 내에서 상태를 기반으로 대화 상자 동적입니다.  
 
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   
  [프로젝트 및 항목 템플릿을 등록합니다](../../extensibility/internals/registering-project-and-item-templates.md)   
  [일반적으로 프로젝트를 확장 하는 데 사용 되는 개체에 대 한 Catid](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)   

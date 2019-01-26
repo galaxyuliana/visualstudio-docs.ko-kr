@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: aee34a14-4f9c-4ad3-845f-c96ee938cefd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e8d075657ca034ebfd6d35418aa30f5c5ad85414
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7c730ff3ee9f5c8301c2c518ccb76a4a84faa919
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53934799"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54999537"
 ---
 # <a name="idebugthreadcreateevent2"></a>IDebugThreadCreateEvent2
 이 인터페이스는 디버그 중인 프로그램에서 스레드를 만들 때 세션 디버그 관리자 (SDM)에 디버그 엔진 (DE)에서 전송 됩니다.  

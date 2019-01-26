@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 0c9c0b2b-7540-4424-adb5-fce7aa37a026
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e0366d547dea7f181c42fd5cccbacb568418c203
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c32ae9b5dfbf2559eeb1ec58c1a291a4865d8391
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935413"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55003203"
 ---
 # <a name="idebugproperty2getextendedinfo"></a>IDebugProperty2::GetExtendedInfo
 확장 속성에 대 한 정보를 가져옵니다.  
@@ -56,7 +56,7 @@ int GetExtendedInfo ( 
 |이름|GUID|설명|  
 |----------|----------|-----------------|  
 |guidDocument|{3f98de84-fee9-11d0-b47f-00a0244a1dd2}|반환 된 `IUnknown` 문서에 대 한 인터페이스입니다. 일반적으로 [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) 에서이 인터페이스를 가져올 수 있습니다 `IUnknown` 인터페이스입니다.|  
-|guidCodeContext|{e2fc65e-56ce-11 d 1-b528-00aax004a8797}|반환 된 `IUnknown` 인터페이스 문서 컨텍스트를 합니다. 일반적으로 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 에서이 인터페이스를 가져올 수 있습니다 `IUnknown` 인터페이스입니다.|  
+|guidCodeContext|{e2fc65e-56ce-11d1-b528-00aax004a8797}|반환 된 `IUnknown` 인터페이스 문서 컨텍스트를 합니다. 일반적으로 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 에서이 인터페이스를 가져올 수 있습니다 `IUnknown` 인터페이스입니다.|  
 |guidCustomViewerSupported|{d9c9da31-ffbe-4eeb-9186-23121e3c088c}|식 계산기에서 주로 구현 되는 사용자 지정 뷰어를의 CLSID를 포함 하는 문자열을 반환 합니다.|  
 |guidExtendedInfoSlot|{6df235ad-82c6-4292-9c97-7389770bc42f}|이 속성을 관리 되는 코드 로컬 주소를 나타내는 경우 원하는 슬롯 번호를 나타내는 32 비트 숫자를 반환 합니다.|  
 |guidExtendedInfoSignature|{b5fb6d46-f805-417f-96a3-8ba737073ffd}|속성 개체에 연결 된 변수 시그니처를 포함 하는 문자열을 반환 합니다.|  

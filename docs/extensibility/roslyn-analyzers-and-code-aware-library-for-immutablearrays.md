@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c59fcaa44314c421f896ca5f64e0a2582faa5eb9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7d6b603a59ad27052ab8eb9bbb88942584aa5293
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53833370"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000902"
 ---
 # <a name="roslyn-analyzers-and-code-aware-library-for-immutablearrays"></a>Roslyn 분석기 및 ImmutableArrays에 대 한 코드 인식 라이브러리
 
@@ -306,9 +306,9 @@ private async Task<Document> ChangeToImmutableArrayEmpty(
 
 완성된 된 모든 코드를 볼 수 있습니다 [여기](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)합니다. 하위 폴더 *DoNotUseImmutableArrayCollectionInitializer* 하 고 *DoNotUseImmutableArrayCtor* 각 문제를 찾는 C# 파일을 있고 코드를 구현 하는 C# 파일에 표시 되는 수정 합니다 Visual Studio 전구 UI입니다. 참고, 완성 된 코드에는 약간의 추상화는 ImmutableArray를 페치 하지 않으려면\<T > 형식 개체를 반복 합니다. 중첩 된 등록된 작업을 사용 하 여 사용할 수 있는 컨텍스트에서 형식 개체를 저장 하 때마다 하위 작업 (개체 생성을 분석 하 고 컬렉션 초기화 분석)를 실행 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-* [\\\Build 2015 강연](https://channel9.msdn.com/events/Build/2015/3-725)
+* [\\\Build 2015 talk](https://channel9.msdn.com/events/Build/2015/3-725)
 * [GitHub에서 완성 된 코드](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)
 * [세 가지 유형의 분석기를 그룹화 하는 GitHub에서 몇 가지 예제](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 * [GitHub OSS 사이트에서 다른 docs](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)

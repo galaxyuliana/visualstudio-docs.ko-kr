@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 9041adb5ddb8ac76dde15069ce117ea8ad3c6e66
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 50190afd6dfbda054ab7c1636bb0f0f89984117a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914545"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55004502"
 ---
 # <a name="walkthrough-debugging-a-text-template-that-accesses-a-model"></a>연습: 모델에 액세스 하는 텍스트 템플릿 디버그
 수정 하거나 도메인별 언어 솔루션에서 텍스트 템플릿을 추가 하는 경우 엔진은 소스 코드 또는 생성 된 코드를 컴파일할 때 템플릿을 변환 하는 경우 오류가 발생할 수 있습니다. 다음 연습에서는 텍스트 템플릿 디버그를 수행할 수 있는 작업의 일부를 보여 줍니다.
@@ -158,7 +158,7 @@ ms.locfileid: "53914545"
 
      (C#)
 
-     **변환을 컴파일하는 중: Microsoft.VisualStudio.TextTemplating\<GUID >. GeneratedTextTransformation' 'ExampleModel'에 대 한 정의 없습니다**
+     **변환을 컴파일하는 중: Microsoft.VisualStudio.TextTemplating\<GUID>. GeneratedTextTransformation' 'ExampleModel'에 대 한 정의 없습니다**
 
      (Visual Basic)
 
