@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - Excel [Office development in Visual Studio], worksheets
 - worksheets [Office development in Visual Studio], common tasks
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9133fbf2e8ede3ec8595ae3a0e22bea3b5b07c6b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 749e2936609b425d13116ba905b9b739e8bf834e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857694"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876241"
 ---
 # <a name="work-with-worksheets"></a>워크시트 작업
   <xref:Microsoft.Office.Tools.Excel.Worksheet> 및 <xref:Microsoft.Office.Interop.Excel.Worksheet> 클래스에는 워크시트가 있는 작업을 수행하는 데 사용하는 메서드 및 속성이 포함됩니다.  
@@ -47,7 +47,7 @@ ms.locfileid: "53857694"
   
  VSTO 추가 기능에서 이러한 작업을 수행하는 방법과 문서 수준 사용자 지정에서 수행하는 방법 간에 차이가 있는 경우가 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [확장 된 개체를 사용 하 여 Excel 자동화](../vsto/automating-excel-by-using-extended-objects.md)   
  [통합 문서를 사용 하 여 작동 합니다.](../vsto/working-with-workbooks.md)   
  [범위를 사용 하 여 작동 합니다.](../vsto/working-with-ranges.md)   

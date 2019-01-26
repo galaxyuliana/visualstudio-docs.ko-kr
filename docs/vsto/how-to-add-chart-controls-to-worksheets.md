@@ -10,15 +10,15 @@ helpviewer_keywords:
 - controls [Office development in Visual Studio], adding to worksheets
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 577c0531e73ad5586386c478611e57daa7e651d5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 89da5b9c960c3df426a4ae96c99e2628540fc6ae
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967468"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873797"
 ---
 # <a name="how-to-add-chart-controls-to-worksheets"></a>방법: 워크시트에 Chart 컨트롤 추가
   추가할 수 있습니다 <xref:Microsoft.Office.Tools.Excel.Chart> 디자인 타임 및 런타임에 문서 수준 사용자 지정에서 Microsoft Office Excel 워크시트에 컨트롤입니다. 추가할 수도 있습니다 <xref:Microsoft.Office.Tools.Excel.Chart> VSTO 추가 기능에서 런타임에 컨트롤입니다.  

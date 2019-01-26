@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Office development in Visual Studio, creating your first project
 - add-ins [Office development in Visual Studio], creating your first project
 - Excel [Office development in Visual Studio], creating your first project
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f803db23d868aa553ef4c1cd898428b64e998c3b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 64d3512c8b3f2383b755e75bf62958dab9f82ae2
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53831890"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873316"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-excel"></a>연습: Excel 용 첫 VSTO 추가 기능에 만들기
   이 소개용 연습에서는 Microsoft Office Excel의 애플리케이션 수준 추가 기능을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 열려 있는 통합 문서에 관계없이 애플리케이션 자체에서 사용할 수 있습니다.  
@@ -130,7 +130,7 @@ ms.locfileid: "53831890"
   
 -   Excel 용 VSTO 추가 기능을 배포 합니다. [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
  [Excel 솔루션](../vsto/excel-solutions.md)   
  [VSTO 추가 기능 프로그래밍](../vsto/programming-vsto-add-ins.md)   

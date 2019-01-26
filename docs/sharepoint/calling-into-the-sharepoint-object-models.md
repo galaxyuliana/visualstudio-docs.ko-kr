@@ -10,17 +10,17 @@ helpviewer_keywords:
 - SharePoint development in Visual Studio, server object model
 - SharePoint commands [SharePoint development in Visual Studio]
 - SharePoint development in Visual Studio, extensibility features
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: df55347ea08bfcb243f37aaee111066106da49ff
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cd6e8d1bbd2f880a3e3c4c7fab4b292a2c7bd6d0
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914529"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875669"
 ---
 # <a name="call-into-the-sharepoint-object-models"></a>SharePoint 개체 모델 호출
   Visual Studio에서 SharePoint 도구의 확장을 만들 때 특정 작업을 수행 하려면 SharePoint Api를 호출 해야 합니다. 예를 들어 SharePoint 프로젝트용 사용자 지정 배포 단계를 만드는 경우에 솔루션을 배포 하는 작업의 일부를 수행 하려면 SharePoint Api를 호출 해야 합니다.  
@@ -54,7 +54,7 @@ ms.locfileid: "53914529"
 ### <a name="understand-how-sharepoint-commands-are-executed"></a>SharePoint 명령이 실행 되는 방식을 이해 합니다.
  SharePoint 명령을 정의 하는 어셈블리 명명 된 64 비트 호스트 프로세스에서 로드 되 *vssphost4.exe*합니다. 명령을 실행 하 여 SharePoint 명령은 SharePoint 도구 확장에서를 호출한 후 *vssphost4.exe* 32 비트 Visual Studio 프로세스 대신 (*devenv.exe*). 레지스트리에서 값을 설정 하 여 SharePoint 명령 실행 방법의 몇 가지 측면을 제어할 수 있습니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구의 확장을 디버그](../sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [방법: SharePoint 명령 만들기](../sharepoint/how-to-create-a-sharepoint-command.md)   
  [방법: SharePoint 명령 실행](../sharepoint/how-to-execute-a-sharepoint-command.md)   
  [SharePoint의 프로그래밍 모델 개요 도구 확장](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)  

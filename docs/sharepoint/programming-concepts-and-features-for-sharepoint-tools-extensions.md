@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, extensibility features
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d2451339b7291cba6bff8cebcc60358c84f018d5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 82424a62afa474d6db4df6933071523ce61343a5
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53884021"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873954"
 ---
 # <a name="programming-concepts-and-features-for-sharepoint-tools-extensions"></a>SharePoint 도구 확장의 프로그래밍 개념 및 기능
   몇 가지 중요 한 프로그래밍 개념와 Visual Studio에서 SharePoint 도구와 관련 된 기능입니다. 이러한 개념 및 기능 대부분의 SharePoint 도구 확장에서 중요 한 역할을 수행 합니다.  
@@ -32,7 +32,7 @@ ms.locfileid: "53884021"
  [SharePoint 도구 확장과 사용자 지정 데이터 연결](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md)  
  특정 유형의 SharePoint 도구 확장에서 개체를 사용 하 여 사용자 지정 데이터를 연결 하는 방법에 설명 합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [Visual Studio에서 SharePoint 도구 확장](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)   
  [SharePoint 프로젝트 시스템 확장](../sharepoint/extending-the-sharepoint-project-system.md)   
  [서버 탐색기에서 SharePoint 연결 노드 확장](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)   

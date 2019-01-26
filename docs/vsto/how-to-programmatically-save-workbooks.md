@@ -9,17 +9,17 @@ helpviewer_keywords:
 - workbooks, saving in XML format
 - workbooks, saving
 - workbooks, saving backup copies
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ab05bee8e58ca17d697dc0d3414662fc50ab4234
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bcc0869b8d255ba91e1a1fd017c93cdb24346b27
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829173"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874551"
 ---
 # <a name="how-to-programmatically-save-workbooks"></a>방법: 프로그래밍 방식으로 통합 문서 저장
   통합 문서를 저장하는 방법에는 여러 가지가 있습니다. 경로를 변경하지 않고 통합 문서를 저장할 수 있습니다. 통합 문서가 이전에 저장되지 않은 경우 경로를 지정하여 통합 문서를 저장해야 합니다. 명시적 경로 없이 Microsoft Office Excel은 파일을 만들 때 지정된 이름으로 현재 폴더에 파일을 저장합니다. 메모리에 열려 있는 통합 문서를 수정하지 않고 통합 문서의 복사본을 저장할 수도 있습니다.  
@@ -50,7 +50,7 @@ ms.locfileid: "53829173"
   
 ### <a name="to-save-a-workbook-associated-with-a-document-level-customization"></a>문서 수준 사용자 지정과 연결된 통합 문서를 저장하려면  
   
-1.  `ThisWorkbook` 클래스의 <xref:Microsoft.Office.Tools.Excel.Workbook.SaveAs%2A> 메서드를 호출합니다. 다음 코드 예제를 사용하려면 `ThisWorkbook` 클래스에서 실행합니다.  
+1.  <xref:Microsoft.Office.Tools.Excel.Workbook.SaveAs%2A> 클래스의 `ThisWorkbook` 메서드를 호출합니다. 다음 코드 예제를 사용하려면 `ThisWorkbook` 클래스에서 실행합니다.  
   
      [!code-csharp[Trin_VstcoreExcelAutomation#5](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/ThisWorkbook.cs#5)]
      [!code-vb[Trin_VstcoreExcelAutomation#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/ThisWorkbook.vb#5)]  
@@ -67,7 +67,7 @@ ms.locfileid: "53829173"
   
 ### <a name="to-save-a-workbook-associated-with-a-document-level-customization"></a>문서 수준 사용자 지정과 연결된 통합 문서를 저장하려면  
   
-1.  `ThisWorkbook` 클래스의 <xref:Microsoft.Office.Tools.Excel.Workbook.SaveCopyAs%2A> 메서드를 호출합니다. 다음 코드 예제를 사용하려면 `ThisWorkbook` 클래스에서 실행합니다.  
+1.  <xref:Microsoft.Office.Tools.Excel.Workbook.SaveCopyAs%2A> 클래스의 `ThisWorkbook` 메서드를 호출합니다. 다음 코드 예제를 사용하려면 `ThisWorkbook` 클래스에서 실행합니다.  
   
      [!code-csharp[Trin_VstcoreExcelAutomation#6](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/ThisWorkbook.cs#6)]
      [!code-vb[Trin_VstcoreExcelAutomation#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/ThisWorkbook.vb#6)]  
@@ -82,7 +82,7 @@ ms.locfileid: "53829173"
 ## <a name="robust-programming"></a>강력한 프로그래밍  
  통합 문서를 저장하거나 복사하는 메서드를 대화형으로 취소하면 코드에서 런타임 오류가 발생합니다. 예를 들어, 프로시저를 호출 하는 경우는 <xref:Microsoft.Office.Tools.Excel.Workbook.SaveAs%2A> Excel에서 메시지를 표시 되지 않도록 설정 하지만 메서드 및 사용자를 클릭 **취소** 메시지가 표시 되 면 Excel에서 런타임 오류가 발생 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [통합 문서를 사용 하 여 작동 합니다.](../vsto/working-with-workbooks.md)   
  [통합 문서 호스트 항목](../vsto/workbook-host-item.md)   
  [방법: 프로그래밍 방식으로 통합 문서 닫기](../vsto/how-to-programmatically-close-workbooks.md)   

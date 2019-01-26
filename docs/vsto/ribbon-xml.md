@@ -18,17 +18,17 @@ helpviewer_keywords:
 - customizing the Ribbon, defining behavior
 - Ribbon [Office development in Visual Studio], customizing
 - customizing the Ribbon, displaying
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aec5c0d2fbbf46978a42cfe2808e708eb4a2b35e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d668e53738e1a77cfed4b84c7a292cdc503af6c3
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929577"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54869439"
 ---
 # <a name="ribbon-xml"></a>리본 XML
   리본 (XML) 항목을 사용 하면 XML을 사용 하 여 리본을 사용자 지정할 수 있습니다. 리본 (비주얼 디자이너) 항목에서 지원 되지 않는 방식으로 리본을 사용자 지정 하려는 경우 리본 (XML) 항목을 사용 합니다. 각 항목을 사용 하 여 수행할 수 있는 작업의 비교를 참조 하세요 [리본 개요](../vsto/Ribbon-overview.md)합니다.  
@@ -117,7 +117,7 @@ ms.locfileid: "53929577"
 |-------------|-----------------|  
 |**customUI**|VSTO 추가 기능 프로젝트에서 사용자 지정 리본 메뉴를 나타냅니다.|  
 |**T:Microsoft.Office.Core.IRibbonControl**|리본 메뉴를 나타냅니다.|  
-|**탭**|리본 탭 집합을 나타냅니다.|  
+|**tabs**|리본 탭 집합을 나타냅니다.|  
 |**탭**|리본 탭 하나를 나타냅니다.|  
 |**group**|리본 탭의 컨트롤 그룹을 나타냅니다.|  
   

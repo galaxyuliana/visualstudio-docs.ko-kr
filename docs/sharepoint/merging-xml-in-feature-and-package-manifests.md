@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, packaging
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 30c339bf38f8fc873b27b9c213fad21d66fb9fa7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e3697fe85d13e1131c58f28d572e443affa77a81
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914438"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875565"
 ---
 # <a name="merge-xml-in-feature-and-package-manifests"></a>기능 및 패키지 매니페스트에서 XML 병합
   기능과 패키지 정의한 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 매니페스트 파일. 이러한 패키지 매니페스트 디자이너와 사용자 지정에서 생성 된 데이터의 조합인 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 가 매니페스트 템플릿을 입력 합니다. 패키징 시 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 사용자 지정 병합 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 디자이너 제공를 사용 하 여 문을 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 하 여 패키지 된 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 매니페스트 파일. 유사한 요소 병합 예외의 뒷부분에 설명 된 예외를 사용 하 여 병합 하지 않으려면 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 유효성 검사 오류를 SharePoint에 파일을 배포한 후 더 작고 효율적으로 파일 매니페스트를 확인 합니다.  
@@ -49,7 +49,7 @@ ms.locfileid: "53914438"
 |------------------|----------------|  
 |기능 (모든 특성)|*특성 이름* (Feature 요소의 각 특성 이름이 고유한 키 임)|  
 |ElementFile|위치|  
-|한 ElementManifests/ElementManifest|위치|  
+|ElementManifests/ElementManifest|위치|  
 |속성/속성|Key|  
 |CustomUpgradeAction|이름|  
 |CustomUpgradeActionParameter|이름|  
@@ -65,15 +65,15 @@ ms.locfileid: "53914438"
 |솔루션 (모든 특성)|*특성 이름* (Solution 요소의 각 특성 이름이 고유한 키 임)|  
 |ApplicationResourceFiles/ApplicationResourceFile|위치|  
 |어셈블리/어셈블리|위치|  
-|ClassResource ClassResources /|위치|  
-|DwpFile DwpFiles /|위치|  
+|ClassResources/ClassResource|위치|  
+|DwpFiles/DwpFile|위치|  
 |FeatureManifests/FeatureManifest|위치|  
-|리소스/리소스|위치|  
+|Resources/Resource|위치|  
 |RootFiles/RootFile|위치|  
 |SiteDefinitionManifests/SiteDefinitionManifest|위치|  
 |WebTempFile|위치|  
 |TemplateFiles/TemplateFile|위치|  
-|SolutionDependency|Solutionid 특성이 있으며|  
+|SolutionDependency|SolutionID|  
   
 ## <a name="manually-add-deployed-files"></a>배포 된 파일에 수동으로 추가
  ApplicationResourceFile DwpFiles, 등의 일부 매니페스트 요소에 파일 이름을 포함 하는 위치를 지정 합니다. 그러나 매니페스트 템플릿 파일 이름 항목을 추가 파일이 추가 되지 않습니다는 기본 패키지입니다. 패키지에 포함 하 여 해당 배포 유형 속성을 적절 하 게 설정 하는 프로젝트에 파일을 추가 해야 합니다.  

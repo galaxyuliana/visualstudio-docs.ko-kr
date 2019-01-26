@@ -14,17 +14,17 @@ helpviewer_keywords:
 - SharePoint development in Visual Studio, list instances
 - SharePoint development in Visual Studio, fields
 - SharePoint development in Visual Studio, content types
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9bd2673ec63c9476217e13fad40f2316fcdf1886
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9742f314ff3f2e6b980eaa2fd914def3b05e0a51
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852533"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874590"
 ---
 # <a name="walkthrough-create-a-site-column-content-type-and-list-for-sharepoint"></a>연습: SharePoint 용 사이트 열, 콘텐츠 형식 및 목록 만들기
   다음 절차에는 사용자 지정 SharePoint 사이트 열을 만드는 방법을 보여 줍니다-또는 *필드*-사이트 열을 사용 하는 콘텐츠 형식 및 합니다. 또한 새 콘텐츠 형식을 사용 하는 목록을 만드는 방법을 보여 줍니다.  

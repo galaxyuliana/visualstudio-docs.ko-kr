@@ -33,15 +33,15 @@ helpviewer_keywords:
 - host controls [Office development in Visual Studio], deleting
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e759b493c183c9a42da0130abc87d40c40f9b471
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 48e28c8445154d56751863fccf714c3a65b3591d
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987455"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875747"
 ---
 # <a name="host-items-and-host-controls-overview"></a>호스트 항목 및 호스트 컨트롤 개요
   호스트 항목과 호스트 컨트롤은 Visual Studio에서 Office 개발 도구를 사용하여 만든 Office 솔루션에 프로그래밍 모델을 제공하는 데 도움이 되는 형식입니다. 호스트 항목과 호스트 컨트롤은 COM 기반의 Microsoft Office Word 및 Microsoft Office Excel의 개체 모델과 상호 작용합니다. 이는 Windows Forms 컨트롤과 같이 관리되는 개체와 상호 작용한다고 하는 편이 더 정확합니다.  

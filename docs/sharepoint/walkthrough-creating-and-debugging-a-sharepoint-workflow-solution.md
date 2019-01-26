@@ -11,17 +11,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, workflows
 - workflows [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bfd1d1e434826a652525fb7e7151ecf0e8e13b75
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8b2affcb8339027f146a629b47db57154b173591
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53912992"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871392"
 ---
 # <a name="walkthrough-create-and-debug-a-sharepoint-workflow-solution"></a>연습: 만들고 SharePoint 워크플로 솔루션을 디버그 합니다.
   이 연습에는 기본 순차 워크플로 템플릿을 만드는 방법을 보여 줍니다. 워크플로 문서를 검토 했는지 여부를 결정 하는 공유 문서 라이브러리의 속성을 확인 합니다. 문서를 검토 하는 경우 워크플로가 완료 됩니다.  
@@ -164,7 +164,7 @@ ms.locfileid: "53912992"
   
     |속성|값|  
     |--------------|-----------|  
-    |**correlationToken**|**workflowToken**|  
+    |**CorrelationToken**|**workflowToken**|  
     |**호출**|**onWorkflowItemChanged**|  
   
 ## <a name="handle-activity-events"></a>활동 이벤트를 처리 합니다.
@@ -287,7 +287,7 @@ ms.locfileid: "53912992"
   
 -   Windows Workflow Foundation 활동에 대 한 자세한 내용은 참조 하세요 [Namespace System.Workflow.Activities](http://go.microsoft.com/fwlink/?LinkId=178993)합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [SharePoint 워크플로 솔루션 만들기](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [SharePoint 프로젝트 및 프로젝트 항목 템플릿](../sharepoint/sharepoint-project-and-project-item-templates.md)   
  [SharePoint 솔루션 빌드 및 디버그](../sharepoint/building-and-debugging-sharepoint-solutions.md)  

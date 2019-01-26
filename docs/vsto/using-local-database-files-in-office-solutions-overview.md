@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Office applications [Office development in Visual Studio], data
 - data [Office development in Visual Studio], local
 - local data [Office development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 527b2e2561b89dc38e56c0d9d854034a791edf19
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: eec0a2adcb462bd2bb169cb997ce2fe352b0c72a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53939202"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54872705"
 ---
 # <a name="use-local-database-files-in-office-solutions-overview"></a>Office 솔루션 개요에서 로컬 데이터베이스 파일 사용
   SQL Server Express와 같은 데이터베이스 파일을 포함할 수 있습니다 (*.mdf*) 파일 또는 Microsoft Office Access (*.mdb*) Office 솔루션의 파일입니다. 따라서 최종 사용자가에서 중앙 집중식된 데이터베이스 유지 관리는 단일 컴퓨터에 사용 되는 로컬 인벤토리 솔루션의 예를 들어 필요 없는 경우 로컬 데이터베이스를 유지할 수 있습니다.  

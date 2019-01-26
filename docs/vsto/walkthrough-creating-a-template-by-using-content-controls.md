@@ -9,17 +9,17 @@ helpviewer_keywords:
 - building blocks [Office development in Visual Studio]
 - Word [Office development in Visual Studio], creating documents
 - content controls [Office development in Visual Studio], adding to documents
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0ad53a4e3e834959cbc37d2063a5dd2d1b0d7f6c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6b2bc96a9df16c43c8fe4e66dbed4079a1ae3a40
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931988"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874177"
 ---
 # <a name="walkthrough-create-a-template-by-using-content-controls"></a>연습: 콘텐츠 컨트롤을 사용 하 여 템플릿 만들기
   이 연습에서는 콘텐츠 컨트롤을 사용하여 Microsoft Office Word 서식 파일에서 구조화되고 재사용 가능한 콘텐츠를 만드는 문서 수준 사용자 지정을 만드는 방법을 보여 줍니다.  
@@ -189,7 +189,7 @@ ms.locfileid: "53931988"
   
 ### <a name="to-test-the-employee-table"></a>Employee 표를 테스트하려면  
   
-1.  키를 눌러 **F5** 프로젝트를 실행 합니다.  
+1.  **F5** 키를 눌러 프로젝트를 실행합니다.  
   
 2.  클릭 **첫 번째 문서 블록 선택** 첫 번째 문서 블록 갤러리 콘텐츠 컨트롤을 표시 합니다.  
   
@@ -234,7 +234,7 @@ ms.locfileid: "53931988"
   
 -   문서에 포함된 사용자 지정 XML 부분이라는 XML 부분에 콘텐츠 컨트롤을 바인딩합니다. 자세한 내용은 [연습: 사용자 지정 XML 부분에 콘텐츠 컨트롤 바인딩](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)   
  [콘텐츠 컨트롤](../vsto/content-controls.md)   
  [방법: Word 문서에 콘텐츠 컨트롤 추가](../vsto/how-to-add-content-controls-to-word-documents.md)   

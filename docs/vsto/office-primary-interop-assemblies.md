@@ -9,17 +9,17 @@ helpviewer_keywords:
 - primary interop assemblies
 - assemblies [Office development in Visual Studio], primary interop assemblies
 - Office primary interop assemblies
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f83a2b61a80616fdcdb8b48c7501b4fa47f0b99c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 79651c3404256b3abd7750cdfc20b33abe44c477
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926738"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876111"
 ---
 # <a name="office-primary-interop-assemblies"></a>Office 주 Interop 어셈블리
 
@@ -59,11 +59,11 @@ Visual Studio는 이러한 PIA 복사본을 사용함으로써 전역 어셈블�
   
 Visual Studio는 이러한 PIA 복사본을 개발 컴퓨터의 다음 위치에 설치합니다.  
   
-- *%ProgramFiles%\Microsoft visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14*  
+- *%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14*  
   
   (또는 *%ProgramFiles (x86) %\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14* 64 비트 운영 체제에서)  
   
-- *%ProgramFiles%\Microsoft visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15*  
+- *%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15*  
   
   (또는 *%ProgramFiles (x86) %\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15* 64 비트 운영 체제에서)  
   
@@ -125,7 +125,7 @@ Office PIA를 Office와 함께 또는 PIA의 재배포 가능 패키지를 설�
 
 자세한 내용은 [방법: 사용 하도록 설정 하 고 자동 바인딩 리디렉션 사용 안 함](/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
 
 - [방법: 주 interop 어셈블리를 통해 대상 Office 응용 프로그램](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)   
 - [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)   

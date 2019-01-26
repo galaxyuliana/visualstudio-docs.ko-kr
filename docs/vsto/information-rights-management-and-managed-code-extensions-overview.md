@@ -12,17 +12,17 @@ helpviewer_keywords:
 - documents [Office development in Visual Studio], restricted permissions
 - rights management [Office development in Visual Studio]
 - Office documents [Office development in Visual Studio, restricted permissions
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a2020221ee086b23a8621112122acffb11beef62
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: dbe61b1b9ca43b9c3e4e6d5bcdf82dd2b5e1438a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53823832"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876046"
 ---
 # <a name="information-rights-management-and-managed-code-extensions-overview"></a>정보 권한 관리 및 관리 코드 확장명 개요
   Microsoft Office Word 및 Microsoft Office Excel IRM 정보 권한 관리 (), 권한이 없는 사용자가 보거나 중요 한 정보를 변경 되지 않도록 도움이 될 수 있는 기능을 제공 합니다. 정보 권한 관리의 작동 원리에 대 한 자세한 내용은 특정 Office 응용 프로그램에서 도움말을 참조 합니다.  
@@ -39,7 +39,7 @@ ms.locfileid: "53823832"
   
  문제를 해결 하려면 문서 또는 통합 문서에 대 한 모든 권한을 가진 사람이 개체 모델에 대 한 프로그래밍 방식의 액세스를 허용 하도록 기본 사용 권한 설정을 변경 해야 합니다. 자세한 내용은 [방법: 제한 된 권한으로 문서 뒤에서 실행 하는 코드를 허용](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [문서 수준 솔루션의 문서 보호](../vsto/document-protection-in-document-level-solutions.md)   
  [Office 문서의 암호 보호](../vsto/password-protection-on-office-documents.md)   
  [Office 솔루션 보안](../vsto/securing-office-solutions.md)   

@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Office development in Visual Studio, security
 - Office applications [Office development in Visual Studio], security
 - ClickOnce deployment [Office development in Visual Studio], security
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 40428d36648e159bd8fa90c2680b660b2112ef5f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a334b9eab9fb9b859d45eda4419cdfdcde4b44fc
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827929"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875643"
 ---
 # <a name="secure-deployment"></a>안전한 배포
   Office 솔루션을 만들 때 개발 컴퓨터를 실행 하도록 프로젝트에서 코드를 허용 하도록 자동으로 업데이트 됩니다. 그러나 솔루션을 배포할 때 인증서를 사용 하 여 솔루션을 서명 하거나 사용 하 여 신뢰 결정의 기준이 되는 증명 정보 제공 해야 합니다는 [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] 신뢰 프롬프트 키입니다. 자세한 내용은 [Office 솔루션에 신뢰를 부여](../vsto/granting-trust-to-office-solutions.md)합니다.  
@@ -34,7 +34,7 @@ ms.locfileid: "53827929"
   
 - **HKEY_CURRENT_USER\Software\Microsoft\VSTO**  
   
-- **이**  
+- **HKEY_LOCAL_MACHINE\Software\Microsoft\VSTO**  
   
   Office 솔루션 코드 실행을 방지 하려면 만들기를 `Disabled` 하나 또는 둘 다 이러한 레지스트리 키 항목 다음 데이터 형식 및 값 중 하나를 지정 하 고 `Disabled`:  
   
@@ -44,7 +44,7 @@ ms.locfileid: "53827929"
   
   코드를 실행 하는 Office 솔루션을 사용 하려면 둘 다를 설정 합니다 `Disabled` 항목 0 (영)을 하거나 레지스트리 항목을 삭제 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)   
  [실행 하거나 Office 솔루션을 호스트 하는 컴퓨터 준비](https://msdn.microsoft.com/be1b173f-7261-4d74-aa4e-94ccd43db8d8)   
  [Office 솔루션 보안](../vsto/securing-office-solutions.md)  

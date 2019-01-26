@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - documents [Office development in Visual Studio], saving Visio documents
 - Visio [Office development in Visual Studio], saving Visio documents
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: cd49be6f7ab4e87f0592470e1c5af6039a5f56aa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 228152b668908c89c288f518465fe7ace92a03d6
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865624"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54875435"
 ---
 # <a name="how-to-programmatically-save-visio-documents"></a>방법: 프로그래밍 방식으로 Visio 문서 저장
   여러 가지 방법을 사용하여 Microsoft Office Visio 문서를 저장할 수 있습니다.  
@@ -74,7 +74,7 @@ ms.locfileid: "53865624"
   
 -   디렉터리에 명명 된 새 이름이 있는 문서를 저장 하려면 `Test` 에 있어야 합니다 *내 문서* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visio 솔루션](../vsto/visio-solutions.md)   
  [Visio 개체 모델 개요](../vsto/visio-object-model-overview.md)   
  [방법: 프로그래밍 방식으로 새 Visio 문서 만들기](../vsto/how-to-programmatically-create-new-visio-documents.md)   

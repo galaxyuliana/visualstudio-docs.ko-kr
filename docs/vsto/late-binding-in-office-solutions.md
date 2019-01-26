@@ -10,17 +10,17 @@ helpviewer_keywords:
 - types [Office development in Visual Studio], casting
 - automation [Office development in Visual Studio], casting objects
 - casting, object to specific type
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c886305b3cfe63ef2d2821752d97099d93689891
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 520ad17bf96f4a6c657a8bd48ac0fdd29b52e1b1
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53847258"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873173"
 ---
 # <a name="late-binding-in-office-solutions"></a>Office 솔루션에서 런타임에 바인딩
   Office 응용 프로그램의 개체 모델에서 일부 형식은 런타임에 바인딩 기능을 통해 사용할 수 있는 기능을 제공 합니다. 예를 들어, 일부 메서드 및 속성은 다양 한 유형의 Office 응용 프로그램의 컨텍스트에 따라 개체를 반환할 수 있으며 다른 메서드나 다른 컨텍스트에서 속성 형식도 노출할 수 있습니다.  
@@ -61,7 +61,7 @@ ms.locfileid: "53847258"
   
  [!code-vb[Trin_VstcoreWordAutomation#102](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#102)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Office 솔루션에서 코드를 작성 합니다.](../vsto/writing-code-in-office-solutions.md)   
  [Office 솔루션의 선택적 매개 변수](../vsto/optional-parameters-in-office-solutions.md)   
  [Dynamic 형식 사용 &#40;C&#35; 프로그래밍 가이드&#41;](/dotnet/csharp/programming-guide/types/using-type-dynamic)   
