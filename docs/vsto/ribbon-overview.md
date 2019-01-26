@@ -13,17 +13,17 @@ helpviewer_keywords:
 - Ribbon [Office development in Visual Studio], multiple Ribbons
 - toolbars [Office development in Visual Studio]
 - custom Ribbon, multiple Ribbons
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ff1cda312fdc007c1c700d2edf6576dcc91d87e3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4022720a787801405915fe92a10b93a850a0d2f3
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989205"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54867730"
 ---
 # <a name="ribbon-overview"></a>리본 개요
   리본 메뉴 관련된 명령을 쉽게 찾을 수 있도록 구성할 수 있는 방법이 있습니다. 명령은 리본 메뉴에 컨트롤로 나타납니다. 컨트롤은으로 구성 된 *그룹* 응용 프로그램 창 위쪽 가장자리의 가로 스트립을 따라. 관련 그룹은 탭에서 구성됩니다.  

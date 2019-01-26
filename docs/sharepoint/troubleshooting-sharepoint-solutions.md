@@ -11,17 +11,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - SharePoint development in Visual Studio, troubleshooting
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0e72b1f8a7ca76aa2b3afd68041c500b24efd8db
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d6b203fcfbe5de92787ae5d2dcaba1b7d9b9454e
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53957964"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54870625"
 ---
 # <a name="troubleshoot-sharepoint-solutions"></a>SharePoint 솔루션 문제 해결
   다음 문제 또는 경고를 사용 하 여 SharePoint 솔루션을 디버깅할 때 발생할 수 있습니다는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 디버거. 자세한 내용은 [SharePoint 2007 워크플로 솔루션 디버깅](https://msdn.microsoft.com/3a5392f3-66f3-48be-956e-02de23fa6247)합니다.
@@ -174,7 +174,7 @@ ms.locfileid: "53957964"
 
 -   SharePoint 2010 중앙 관리 합니다. 자세한 내용은 [BDC 모델 관리](http://go.microsoft.com/fwlink/?LinkID=181472) Microsoft TechNet 웹 사이트입니다.
 
--   Windows PowerShell. 명령 프롬프트에서이 명령을 입력 하 여 모델을 삭제할 수 있습니다. **제거-SPBusinessDataCatalogModel**합니다. 자세한 내용은 [일반 cmdlet (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkID=182375) Microsoft TechNet 웹 사이트입니다.
+-   Windows PowerShell. 명령 프롬프트에서이 명령을 입력 하 여 모델을 삭제할 수 있습니다. **Remove-SPBusinessDataCatalogModel**. 자세한 내용은 [일반 cmdlet (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkID=182375) Microsoft TechNet 웹 사이트입니다.
 
 ## <a name="an-error-appears-when-you-try-to-view-a-visual-web-part-in-sharepoint"></a>Sharepoint에서 비주얼 웹 파트를 보려고 할 때 오류가 표시 됩니다.
  이 문제가 발생 하면를 **경로** 사용자 정의 컨트롤의 속성 문자열을 사용 하 여 시작 하지 않습니다 "CONTROLTEMPLATES\\" 합니다.
