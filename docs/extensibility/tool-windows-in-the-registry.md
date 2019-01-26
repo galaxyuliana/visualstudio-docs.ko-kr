@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: c4bb8add-7148-49e4-a377-01d059fd5524
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f49a7d4298dbd387a2fb6a91d5030002eaec8a96
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3b846e7f0dc1cd71110bcb7ed034988c609d7097
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956494"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943288"
 ---
 # <a name="tool-windows-in-the-registry"></a>레지스트리에서 Windows 도구
 도구 창을 제공 하는 Vspackage를 등록 해야 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 으로 도구 창 공급자입니다. Visual Studio 패키지 템플릿을 사용 하 여 만든 도구 windows는 기본적으로이 작업을 수행 합니다. 도구 창 공급자는 기본 도구 창 크기 및 위치에 도구 창 및 도킹 스타일으로 사용 하는 창의 GUID 등의 표시 유형 특성을 지정 하는 시스템 레지스트리 키를 있습니다.  

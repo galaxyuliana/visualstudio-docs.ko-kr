@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: f224bbc9-38fc-4c80-ab09-51dcc8969f8e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fdd9cd8ee037b376b086def1464888f1ae6e11f1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 167be5f3b29fbab77dadf75aecd77bc799a1e89e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826840"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54945699"
 ---
 # <a name="source-control-plug-in-glossary"></a>소스 제어 플러그 인 용어집
 다음과 같은 유용한 용어와 정의 소스 제어 플러그 인 SDK 설명서 관련이 있습니다.  

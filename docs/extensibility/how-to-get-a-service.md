@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 635a02daf6f6501679cc2a38cd252b1e1ebec7a1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e848b3e54d1e3beb6b9681112cd55b74caa6a482
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990031"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54949862"
 ---
 # <a name="how-to-get-a-service"></a>방법: 서비스 가져오기
 다른 기능에 액세스 하려면 Visual Studio 서비스를 가져올 해야 합니다. 일반적으로 Visual Studio 서비스를 사용할 수 있는 하나 이상의 인터페이스를 제공 합니다. VSPackage에서 대부분의 서비스를 가져올 수 있습니다.  
@@ -39,7 +39,7 @@ ms.locfileid: "53990031"
   
    ```  
   
-    이 코드는 SVsActivityLog 서비스를 가져오고 캐스팅을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> 인터페이스를 활동 로그에 쓰는 데 사용할 수 있습니다. 예를 들어 참조 [방법: 활동 로그를 사용 하 여](../extensibility/how-to-use-the-activity-log.md)입니다.  
+    이 코드는 SVsActivityLog 서비스를 가져오고 캐스팅을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> 인터페이스를 활동 로그에 쓰는 데 사용할 수 있습니다. 예는 [방법: 활동 로그를 사용 하 여](../extensibility/how-to-use-the-activity-log.md)입니다.  
   
 4. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다.  
   

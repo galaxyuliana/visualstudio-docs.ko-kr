@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: cb7df109-d29a-4218-b900-6809091459dd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 13d219cf97471e86bde42ee874c1b345a07a0ef0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6860a7fea97755e6779e9fb0175a882cd62bd933
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929347"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54939571"
 ---
 # <a name="ienumdebugobjectsclone"></a>IEnumDebugObjects::Clone
 이 메서드는 별도 개체로 현재 열거형의 복사본을 반환합니다.  

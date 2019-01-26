@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6655b96ed51cd7cce5e94ce96cedf97517f1872a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6455e4999f5115aee50fa1605103c4dadcc165dc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942413"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54951734"
 ---
 # <a name="sdk-helpers-for-debugging"></a>디버깅을 위한 SDK 도우미
 이러한 함수와 선언은 c + +에서 디버그 엔진, 식 계산기 및 기호 공급자를 구현 하는 것에 대 한 전역 도우미 함수입니다.  
@@ -230,7 +230,7 @@ HRESULT EnumMetricSections(
 |metricShowNonUserCode|이 설정 nonuser 코드를 표시 하려면 0이 아닌 합니다.|  
 |metricJustMyCodeStepping|이 설정 단계별 사용자 코드에만 발생할 수 있다는 것을 나타내려면 0이 아닌 합니다.|  
 |metricCLSID|특정 메트릭 형식의 개체에 대 한 CLSID입니다.|  
-|MetricName|특정 메트릭 형식의 개체에 대 한 친숙 한 이름입니다.|  
+|metricName|특정 메트릭 형식의 개체에 대 한 친숙 한 이름입니다.|  
 |metricLanguage|언어 이름입니다.|  
   
 ## <a name="registry-locations"></a>레지스트리 위치  
@@ -247,25 +247,25 @@ HRESULT EnumMetricSections(
   
  `VisualStudio`\  
   
- *[버전 root]*\  
+ *[version root]*\  
   
- *[메트릭 root]*\  
+ *[metric root]*\  
   
  *[메트릭 유형]*\  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
 |자리 표시자|설명|  
 |-----------------|-----------------|  
 |*[레지스트리 키]*|`HKEY_CURRENT_USER` 또는 `HKEY_LOCAL_MACHINE`|  
-|*[버전 root]*|Visual Studio 버전 (예를 들어 `7.0`, `7.1`, 또는 `8.0`). 그러나이 루트 수정할 수도 있습니다를 사용 하는 **/rootsuffix** 전환할 **devenv.exe**합니다. VSIP,이 한정자는 일반적으로 **Exp**이므로 버전 루트 것, 예를 들어 8.0Exp 합니다.|  
-|*[메트릭 root]*|이 값은 `AD7Metrics` 또는 `AD7Metrics(Debug)`dbgmetric.lib의 디버그 버전 사용 여부에 따라 합니다. **참고:**  디버그와 릴리스 간에 차이가 있을 경우이 명명 규칙을 따라야 dbgmetric.lib 사용 여부 버전 레지스트리에서 반영 되어야 합니다.|  
+|*[version root]*|Visual Studio 버전 (예를 들어 `7.0`, `7.1`, 또는 `8.0`). 그러나이 루트 수정할 수도 있습니다를 사용 하는 **/rootsuffix** 전환할 **devenv.exe**합니다. VSIP,이 한정자는 일반적으로 **Exp**이므로 버전 루트 것, 예를 들어 8.0Exp 합니다.|  
+|*[metric root]*|이 값은 `AD7Metrics` 또는 `AD7Metrics(Debug)`dbgmetric.lib의 디버그 버전 사용 여부에 따라 합니다. **참고:**  디버그와 릴리스 간에 차이가 있을 경우이 명명 규칙을 따라야 dbgmetric.lib 사용 여부 버전 레지스트리에서 반영 되어야 합니다.|  
 |*[메트릭 유형]*|쓸 메트릭 형식: `Engine`하십시오 `ExpressionEvaluator`, `SymbolProvider`등. 이러한 모든과 같이 정의 되어으로 dbgmetric.h `metricTypeXXXX`여기서 `XXXX` 특정 형식 이름입니다.|  
-|*[메트릭]*|메트릭을 설정 하기 위해 값을 할당할 수는 항목의 이름입니다. 메트릭의 실제 조직의 메트릭 유형에 따라 달라 집니다.|  
+|*[metric]*|메트릭을 설정 하기 위해 값을 할당할 수는 항목의 이름입니다. 메트릭의 실제 조직의 메트릭 유형에 따라 달라 집니다.|  
 |*[메트릭 값]*|메트릭을 할당할 값입니다. 값 (문자열, 숫자 등) 있어야 합니다. 형식 메트릭에 따라 달라 집니다.|  
   
 > [!NOTE]
@@ -276,15 +276,15 @@ HRESULT EnumMetricSections(
   
  `Engine`\  
   
- *[엔진 guid]*\  
+ *[engine guid]*\  
   
  `CLSID` = *[클래스 guid]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
  `PortSupplier`\  
   
@@ -294,7 +294,7 @@ HRESULT EnumMetricSections(
   
 |자리 표시자|설명|  
 |-----------------|-----------------|  
-|*[엔진 guid]*|디버그 엔진의 GUID입니다.|  
+|*[engine guid]*|디버그 엔진의 GUID입니다.|  
 |*[클래스 guid]*|이 디버그 엔진을 구현 하는 클래스의 GUID입니다.|  
 |*[포트 공급자 guid]*|있는 경우 포트 공급자의 GUID입니다. 많은 디버그 엔진 기본 포트 공급자를 사용 하 여 및 따라서 자체 공급자를 지정 하지 마세요. 이 경우 하위 키 `PortSupplier` 없어야 합니다.|  
   
@@ -307,9 +307,9 @@ HRESULT EnumMetricSections(
   
  `CLSID` = *[클래스 guid]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
 |자리 표시자|설명|  
 |-----------------|-----------------|  
@@ -327,17 +327,17 @@ HRESULT EnumMetricSections(
   
  `CLSID` = *[클래스 guid]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
  `metadata`\  
   
  `CLSID` = *[클래스 guid]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
 |자리 표시자|설명|  
 |-----------------|-----------------|  
@@ -354,13 +354,13 @@ HRESULT EnumMetricSections(
   
  *[언어 guid]*\  
   
- *[공급 업체 guid]*\  
+ *[vendor guid]*\  
   
  `CLSID` = *[클래스 guid]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
  `Engine`\  
   
@@ -371,7 +371,7 @@ HRESULT EnumMetricSections(
 |자리 표시자|설명|  
 |-----------------|-----------------|  
 |*[언어 guid]*|언어의 GUID|  
-|*[공급 업체 guid]*|공급 업체의 GUID|  
+|*[vendor guid]*|공급 업체의 GUID|  
 |*[클래스 guid]*|이 식 계산기를 구현 하는 클래스의 GUID|  
 |*[디버그 엔진 guid]*|이 식 계산기를 사용 하는 디버그 엔진을의 GUID|  
   
@@ -380,15 +380,15 @@ HRESULT EnumMetricSections(
   
  `EEExtensions`\  
   
- *[확장 guid]*\  
+ *[extension guid]*\  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
 |자리 표시자|설명|  
 |-----------------|-----------------|  
-|*[확장 guid]*|식 계산기 확장의 GUID|  
+|*[extension guid]*|식 계산기 확장의 GUID|  
   
 ### <a name="exceptions"></a>예외  
  다음은 레지스트리에 예외 메트릭의 조직입니다. `Exception` 예외에 대 한 메트릭 유형 이름이 며 해당 *[메트릭 유형]* 합니다.  
@@ -399,30 +399,30 @@ HRESULT EnumMetricSections(
   
  *[예외 유형]*\  
   
- *[예외]*\  
+ *[exception]*\  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[예외]*\  
+ *[exception]*\  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
- *[메트릭] = [메트릭 값]*  
+ *[metric] = [metric value]*  
   
 |자리 표시자|설명|  
 |-----------------|-----------------|  
 |*[디버그 엔진 guid]*|예외를 지 원하는 디버그 엔진을의 GUID입니다.|  
-|*[예외 유형]*|처리할 수 있는 예외 클래스를 식별 하는 하위 키에 대 한 일반 제목입니다. 일반적인 이름은 **c + + 예외**, **Win32 예외**합니다 **Common Language Runtime Exceptions**, 및 **네이티브 런타임 검사**합니다. 이러한 이름은 특정 사용자에 게 예외 클래스를 식별 하도 사용 됩니다.|  
-|*[예외]*|예외에 대 한 이름을: 예를 들어 **_com_error** 하거나 **컨트롤 나누기**합니다. 이러한 이름은 사용자에 게 특정 예외를 식별 하도 사용 됩니다.|  
+|*[exception types]*|처리할 수 있는 예외 클래스를 식별 하는 하위 키에 대 한 일반 제목입니다. 일반적인 이름은 **c + + 예외**, **Win32 예외**합니다 **Common Language Runtime Exceptions**, 및 **네이티브 런타임 검사**합니다. 이러한 이름은 특정 사용자에 게 예외 클래스를 식별 하도 사용 됩니다.|  
+|*[exception]*|예외에 대 한 이름을: 예를 들어 **_com_error** 하거나 **컨트롤 나누기**합니다. 이러한 이름은 사용자에 게 특정 예외를 식별 하도 사용 됩니다.|  
   
 ## <a name="requirements"></a>요구 사항  
  이러한 파일은 [!INCLUDE[vs_dev10_ext](../../../extensibility/debugger/reference/includes/vs_dev10_ext_md.md)] SDK 설치 디렉터리 (기본적으로 *[드라이브]* \Program Files\Microsoft Visual Studio 2010 SDK\\).  
   
  헤더: includes\dbgmetric.h  
   
- 라이브러리: libs\ad2de.lib, libs\dbgmetric.lib  
+ Library: libs\ad2de.lib, libs\dbgmetric.lib  
   
 ## <a name="see-also"></a>참고 항목  
  [API 참조](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

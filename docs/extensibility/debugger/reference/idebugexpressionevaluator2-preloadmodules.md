@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e082cea720ebe5ebcbcec51c9c956adc5d894d11
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 996bb82851e3429e0caa39fe1a30f5c8970dc4a5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866957"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54974385"
 ---
 # <a name="idebugexpressionevaluator2preloadmodules"></a>IDebugExpressionEvaluator2::PreloadModules
 지정 된 기호 공급자로 지정 된 모듈을 미리 로드 합니다.  

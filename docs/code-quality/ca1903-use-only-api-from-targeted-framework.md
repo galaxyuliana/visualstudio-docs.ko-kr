@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: efdb5cc7-bbd8-4fa7-9fff-02b91e59350e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0eb85029cb9c3c419b88a31be88d8e1cfbd16142
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2483ebbaab2009d514ecb1ecec31f8ac78d35b6a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53908985"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943996"
 ---
 # <a name="ca1903-use-only-api-from-targeted-framework"></a>CA1903: 대상 프레임워크의 API만 사용하세요.
 
@@ -42,8 +42,8 @@ ms.locfileid: "53908985"
 |||
 |-|-|
 |대상 프레임 워크|에 도입 된 멤버를 사용할 경우 발생|
-|.NET Framework 2.0|.NET framework 2.0 SP1을.NET Framework 2.0 SP2|
-|.NET Framework 3.0|.NET framework 2.0 SP1,.NET Framework 2.0 SP2,.NET Framework 3.0 SP1,.NET Framework 3.0 SP2|
+|.NET Framework 2.0|.NET Framework 2.0 SP1, .NET Framework 2.0 SP2|
+|.NET Framework 3.0|.NET Framework 2.0 SP1, .NET Framework 2.0 SP2, .NET Framework 3.0 SP1, .NET Framework 3.0 SP2|
 |.NET Framework 3.5|.NET Framework 3.5 SP1|
 |.NET Framework 4|N/A|
 
@@ -65,7 +65,7 @@ ms.locfileid: "53908985"
 
  [!code-csharp[FxCop.Portability.UseOnlyApiFromTargetedFramework2#1](../code-quality/codesnippet/CSharp/ca1903-use-only-api-from-targeted-framework_2.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Portability Warnings](../code-quality/portability-warnings.md)
 - [특정 대상 .NET Framework 버전 지정](../ide/visual-studio-multi-targeting-overview.md)

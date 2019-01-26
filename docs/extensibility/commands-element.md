@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 47cf16a5-d78b-452e-86f6-b5893856dddf
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 704a37b1aeb211921b962fd816af89abb686a14e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d846039532f5279a8945ada465d4d8029ddd8aff
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955934"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940195"
 ---
 # <a name="commands-element"></a>Commands 요소
 VSPackage 도구 모음에서 명령의 컬렉션을 나타냅니다. 컬렉션 수 최대 5 개의 하위 섹션에서는 다음과 같이: 메뉴, 그룹, 단추, combos, 및 비트맵입니다.  

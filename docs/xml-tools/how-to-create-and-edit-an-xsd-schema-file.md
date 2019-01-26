@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 91b10cd7-c0cd-4e5a-a46b-4fed60dff542
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 015523e35f3593523ee362faeb6aa544139e1103
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0792149950e3cf1d1e358aac17ae45a3365eda4a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53855509"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54977293"
 ---
 # <a name="how-to-create-and-edit-an-xsd-schema-file"></a>방법: XSD 스키마 파일 만들기 및 편집
 
@@ -38,6 +38,6 @@ ms.locfileid: "53855509"
 
    합니다 **XML 스키마 탐색기** 새 스키마 집합으로 업데이트 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 데이터 사용](../xml-tools/working-with-xml-data.md)

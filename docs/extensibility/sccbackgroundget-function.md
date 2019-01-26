@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 69817e52-b9ac-4f4d-820b-2cc9c384f0dc
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ae32f7b0c9eea907c830a3cc62e0e53e87803177
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6afce798e327e21bf2613a84d717bab3a737d05a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826879"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54975688"
 ---
 # <a name="sccbackgroundget-function"></a>SccBackgroundGet 함수
 이 함수는 소스 제어에서 각 지정된 된 파일의 사용자 상호 작용 없이 가져옵니다.  
@@ -67,6 +67,6 @@ SCCRTN SccBackgroundGet(
   
  사용 된 `dwFlags` 인수는 동일 합니다 [SccGet](../extensibility/sccget-function.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [SccGet](../extensibility/sccget-function.md)

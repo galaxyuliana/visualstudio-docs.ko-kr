@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 3f43d18c-6bd1-4ddd-95ef-9550abd2ad09
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6d90b4d96b5c0ec9e53c68dd58325cdbc9a55fe5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 55c5c6061595b1cd48db9c91b670b8ade26e15de
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53903999"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55031244"
 ---
 # <a name="ienumdebugports2next"></a>IEnumDebugPorts2::Next
 열거형에서 다음 요소 집합을 반환합니다.  
@@ -51,7 +51,7 @@ int Next(
  [out] 에 실제로 반환 된 요소의 수를 반환 합니다. `rgelt`합니다.  
   
 ## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`합니다. 반환 `S_FALSE` 요소의 요청 된 수보다 적은; 반환 될 수 있으면이 고, 그렇지 오류 코드를 반환 합니다.  
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 요소의 요청 된 수보다 적은; 반환 될 수 있으면이 고, 그렇지 오류 코드를 반환 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)   

@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 0bdc3421-3ceb-4182-b30c-a992fbfcc35d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0969147ce4f454f7720f26f72b46cab6e91c37bf
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4bfa7127a645ea2d53a85784297d8da43ee59038
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53937980"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54939233"
 ---
 # <a name="ca2105-array-fields-should-not-be-read-only"></a>CA2105: 배열 필드는 읽기 전용이면 안 됩니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "53937980"
 
 이 규칙에 의해 식별 되는 보안 취약점을 해결 하려면 자제 내용의 공개적으로 액세스할 수 있는 읽기 전용 배열입니다. 다음 절차 중 하나를 사용 하는 것이 좋습니다.
 
-- 변경할 수 없는 강력한 형식의 컬렉션을 사용 하 여 배열을 대체 합니다. 자세한 내용은 <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>을 참조하십시오.
+- 변경할 수 없는 강력한 형식의 컬렉션을 사용 하 여 배열을 대체 합니다. 자세한 내용은 <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>을 참조하세요.
 
 - Public 필드를 private 배열의 복제본을 반환 하는 메서드로 대체 합니다. 코드 복제본에 의존 하지 않습니다, 이므로 위험이 없는 요소를 수정할 경우.
 
@@ -76,7 +76,7 @@ Before tampering: Grades: 90, 90, 90 Private Grades: 90, 90, 90  Secure Grades, 
 After tampering: Grades: 90, 555, 90 Private Grades: 90, 555, 90  Secure Grades, 90, 90, 90
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Array?displayProperty=fullName>
 - <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>

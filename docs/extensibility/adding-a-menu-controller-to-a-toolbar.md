@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 13a1fbd07498f77cde5004dc23df9a2edbfb2e92
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3cf098d0dcd8ccb638738707476c37713e6aa6eb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852994"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55040608"
 ---
 # <a name="add-a-menu-controller-to-a-toolbar"></a>도구 모음에 메뉴 컨트롤러 추가
 이 연습은 합니다 [도구 창에 도구 모음을 추가](../extensibility/adding-a-toolbar-to-a-tool-window.md) 연습 및 도구 창 도구 모음에 메뉴 컨트롤러를 추가 하는 방법을 보여 줍니다. 여기에 나와 있는 단계도 적용할 수 있습니다에서 만든 도구 모음에는 [도구 모음 추가](../extensibility/adding-a-toolbar.md) 연습 합니다.  
@@ -222,6 +222,6 @@ ms.locfileid: "53852994"
   
      메시지와 함께 대화 상자가 나타납니다 **선택한 메뉴 컨트롤러 항목 3**합니다. 메시지 메뉴 컨트롤러 단추의 텍스트에 해당 하는지 확인 합니다. 메뉴 컨트롤러 단추 표시 **MC 항목 3**합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [도구 창에 도구 모음 추가](../extensibility/adding-a-toolbar-to-a-tool-window.md)   
  [도구 모음 추가](../extensibility/adding-a-toolbar.md)

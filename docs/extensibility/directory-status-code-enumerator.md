@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 616026b5-f529-40ef-90c1-1836e116d797
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a8d6a541415e42e8d35dc4f3ab814c89cf939beb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4bd67ea448f7417200b0be9f2f44ca2feb4e3593
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53927612"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54945036"
 ---
 # <a name="directory-status-code-enumerator"></a>디렉터리 상태 코드 열거자
 `SccDirStatus` 소스 제어 시스템에서 디렉터리의 상태를 지정 하는 명명 된 상수 값을 포함 하는 열거자입니다. 이 열거형은에서 사용 된 [SccDirQueryInfo](../extensibility/sccdirqueryinfo-function.md)합니다. 이 원본 제어 플러그 인 API 버전 1.2에에서 도입 되었습니다.  
@@ -45,6 +45,6 @@ enum SccDirStatus {
  SCC_DIRSTATUS_EMPTYPROJ  
  이 디렉터리에 해당 하는 프로젝트가 비어 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인](../extensibility/source-control-plug-ins.md)   
  [SccDirQueryInfo](../extensibility/sccdirqueryinfo-function.md)

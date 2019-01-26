@@ -12,18 +12,18 @@ helpviewer_keywords:
 ms.assetid: a762ea2f-5285-4f73-bfb9-9eb10aea4290
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: c0221231956c565eb2ce3792d0c88864b0e13e65
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a94654475432706592c3cd2845488163529ca260
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53839325"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943223"
 ---
 # <a name="ca1405-com-visible-type-base-types-should-be-com-visible"></a>CA1405: COM 노출 형식의 기본 형식은 COM 노출이어야 합니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "53839325"
  [!code-vb[FxCop.Interoperability.ComBaseTypes#1](../code-quality/codesnippet/VisualBasic/ca1405-com-visible-type-base-types-should-be-com-visible_1.vb)]
  [!code-csharp[FxCop.Interoperability.ComBaseTypes#1](../code-quality/codesnippet/CSharp/ca1405-com-visible-type-base-types-should-be-com-visible_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName>
 - [비관리 코드와의 상호 운용](/dotnet/framework/interop/index)

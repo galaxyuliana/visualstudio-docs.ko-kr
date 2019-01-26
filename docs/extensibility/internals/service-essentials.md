@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: fbe84ad9-efe1-48b1-aba3-b50b90424d47
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3428deeaf0e9cdc2aa926f5b1ff17b5030540f2b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a72dfb519e35cb0bec94fb73d112e0bff27b0b14
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53867279"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027960"
 ---
 # <a name="service-essentials"></a>서비스 필수 항목
 서비스는 두 Vspackage 간의 계약입니다. 하나의 VSPackage를 사용 하는 다른 VSPackage에 대 한 인터페이스의 특정 집합을 제공 합니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 다른 Vspackage에 서비스를 제공 하는 Vspackage의 컬렉션인 됩니다.  
@@ -58,7 +58,7 @@ ms.locfileid: "53867279"
   
 <a name="how-to-use-getglobalservice"></a>  
   
-## <a name="use-getglobalservice"></a>GetGlobalService 사용  
+## <a name="use-getglobalservice"></a>Use GetGlobalService  
   
 경우에 따라 도구 창에서 서비스 가져오기 또는 배치 되지 않습니다. 그러지 않으면 요소가 서비스를 알지 못하는 서비스 공급자를 사용 하 여 배치 된 컨테이너를 제어 해야 합니다. 예를 들어, 다음 컨트롤 내에서 활동 로그에 작성 하는 것이 좋습니다. 이러한 및 기타 시나리오에 대 한 자세한 내용은 참조 하세요. [방법: 서비스 문제 해결](../../extensibility/how-to-troubleshoot-services.md)합니다.  
   
@@ -89,7 +89,7 @@ ms.locfileid: "53867279"
     End If
     ```  
     
-    이 코드 SVsActivityLog 서비스를 가져오고 활동 로그에 쓰는 데 사용할 수 있는 IVsActivityLog 인터페이스로 캐스팅 합니다. 예를 들어 참조 [방법: 활동 로그를 사용 하 여](../../extensibility/how-to-use-the-activity-log.md)입니다.  
+    이 코드 SVsActivityLog 서비스를 가져오고 활동 로그에 쓰는 데 사용할 수 있는 IVsActivityLog 인터페이스로 캐스팅 합니다. 예는 [방법: 활동 로그를 사용 하 여](../../extensibility/how-to-use-the-activity-log.md)입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [사용 가능한 서비스 목록](../../extensibility/internals/list-of-available-services.md)   

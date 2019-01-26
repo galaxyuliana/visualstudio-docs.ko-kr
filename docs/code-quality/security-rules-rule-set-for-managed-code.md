@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: b6ab8f106b4d87b49546a2fa62f31c893210281b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b436ad097209b34efdec87061347c8786352679f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53905035"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54944542"
 ---
 # <a name="security-rules-rule-set-for-managed-code"></a>관리 코드에 대한 보안 규칙 규칙 집합
 Microsoft 보안 규칙 규칙 집합 보고 되는 잠재적인 보안 문제 수를 최대화 하기 위해 포함 해야 합니다.

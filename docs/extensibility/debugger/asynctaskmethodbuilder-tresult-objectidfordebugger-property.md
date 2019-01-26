@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 060b857f-daf5-43ea-bb51-abf9368e1e91
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 363394e2751f6db783e4217c8414de9d65451a11
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2b1229b3bdc517133e704b56b36e857bd6b4aea9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53962512"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54946453"
 ---
 # <a name="asynctaskmethodbuilderlttresultgtobjectidfordebugger-property"></a>AsyncTaskMethodBuilder&lt;TResult&gt;합니다. ObjectIdForDebugger 속성
 이 작성기 디버거를 고유 하 게 식별 하는 데 사용할 수 있는 개체를 가져옵니다.  

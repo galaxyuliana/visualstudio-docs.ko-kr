@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 22fdb969112278fafb636e0162db4ebc93b9a657
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3726ee6995e770d89e5916a922c0546439c3ba14
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53820412"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54953512"
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2017"></a>방법: Visual Studio 2017로 확장성 프로젝트 마이그레이션
 
@@ -104,7 +104,7 @@ Visual Studio의 설치를 사용자의 확장을 실행 하는 데 필요한 �
 
 Visual Studio의 실험적 인스턴스에서 확장 프로그램을 디버그 하려는 경우 확인에 대 한 프로젝트 설정 **디버그** > **작업을 시작** 에 **외부 시작 프로그램:** 값으로 설정 합니다 *devenv.exe* Visual Studio 2017 설치의 파일입니다.
 
-것 처럼 보일 수 있습니다. *C:\Program 파일 (x86) \Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe*
+것 처럼 보일 수 있습니다. *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe*
 
 ![시작 외부 프로그램](media/start-external-program.png)
 
@@ -129,7 +129,7 @@ VSIX 설치 필요한 모든 필수 구성 요소를 사용 하 여 컴퓨터에
 
 확장을 설치 하려고 시도 합니다.
 
-* Visual Studio 2017에서
+* On Visual Studio 2017
 
 ![Visual Studio 2017에서 VSIX 설치 관리자](media/vsixinstaller-vs-2017.png)
 
@@ -175,7 +175,7 @@ WPF | 관리되는 데스크톱 워크로드 핵심 | Microsoft.VisualStudio.Com
 
 특정 이진을 포함 하는 구성 요소 확실 하지 않은 경우 다운로드 합니다 [구성 요소 이진 매핑 스프레드시트->](https://aka.ms/vs2017componentid-binaries)합니다.
 
-### <a name="vs2017-componentbinarymappingxlsx"></a>vs2017 ComponentBinaryMapping.xlsx
+### <a name="vs2017-componentbinarymappingxlsx"></a>vs2017-ComponentBinaryMapping.xlsx
 
 Excel 시트에 4 개의 열을 가지 있습니다. **구성 요소 이름**, **ComponentId**합니다 **버전**, 및 **이진 파일 이름 /** 합니다.  검색 하 고 특정 구성 요소 및 이진 파일을 찾을 필터를 사용할 수 있습니다.
 

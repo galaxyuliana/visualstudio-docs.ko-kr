@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab42147b8600b2c17e3454f545c5d3148e31ba9e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 272c460b4ee0f171548c29793470b7fccfab601b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941877"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54945249"
 ---
 # <a name="walkthrough-highlight-text"></a>연습: 텍스트를 강조 표시
 Managed Extensibility Framework (MEF) 구성 요소 파트를 만들어 편집기로 다양 한 시각 효과 추가할 수 있습니다. 이 연습에서는 텍스트 파일에서 현재 단어의 모든 발생을 강조 표시 하는 방법을 보여 줍니다. 단어 텍스트 파일에서 한 번 이상 발생 하 고 한 번에 캐럿을 배치 하는 경우 모든 강조 표시 됩니다.  
@@ -405,5 +405,5 @@ Managed Extensibility Framework (MEF) 구성 요소 파트를 만들어 편집�
   
 4.  "Hello"의 항목 중 하나를 사용 하는 커서를 이동 합니다. 모든 파란색에서 강조 표시 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: 파일 이름 확장명에 콘텐츠 형식 링크](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

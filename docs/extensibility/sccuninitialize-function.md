@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 17cf5337-d251-4422-bc96-93fe7d48f2ae
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 64e894fe2ce1eaf6f74ed01d2e76f7ce3d33f9fb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8dba45116c956c1edc1a8ffb691397375345c661
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53949643"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54967208"
 ---
 # <a name="sccuninitialize-function"></a>SccUninitialize 함수
 이 함수에 대 한 이전 호출에서 만든 연결 나 할당 정리 합니다 [SccInitialize](../extensibility/sccinitialize-function.md) 소스 제어 플러그 인 종료에 대 한 준비 합니다.  

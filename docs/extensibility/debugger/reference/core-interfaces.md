@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 791e76b462a7ae12ac11b9eb5f33c94baff49888
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: afb66ea504a51a726b1645b0886cf19f1d0ae940
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53919575"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54981352"
 ---
 # <a name="core-interfaces"></a>Core 인터페이스
 다음 인터페이스는 디버거를 사용 하 여 확장에 대 한 핵심 인터페이스는 [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)]합니다.  
@@ -93,7 +93,7 @@ ms.locfileid: "53919575"
 |---------------|--------------------|-----------------|  
 |[IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)|DE|코드 명령의 시작 위치를 나타냅니다.|  
 |[IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)|DE|확장 된 [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 모듈 및 프로세스 인터페이스를 검색할 수 있도록 하는 인터페이스입니다.|  
-|[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)|VS DE|문서의 위치를 나타냅니다.|  
+|[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)|VS, DE|문서의 위치를 나타냅니다.|  
 |[IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)|DE|식을 계산 하는 컨텍스트를 나타냅니다.|  
 |[IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)|DE|메모리 바이트의 컬렉션의 시작 위치를 나타냅니다.|  
 |[IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)|DE|중단점 또는 예외에서 스택 프레임 컨텍스트를 나타냅니다.|  
@@ -127,12 +127,12 @@ ms.locfileid: "53919575"
 |---------------|--------------------|-----------------|  
 |[IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md)|DE|DE 보낸 문서를 열 수를 요청 합니다.|  
 |[IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)|DE|문서에서 디스어셈블된 명령의 스트림을 나타냅니다.|  
-|[IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)|VS DE|이름과 클래스 ID (CLSID)를 지정 하는 독일에서 제공 하는 문서를 나타냅니다.|  
+|[IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)|VS, DE|이름과 클래스 ID (CLSID)를 지정 하는 독일에서 제공 하는 문서를 나타냅니다.|  
 |[IDebugDocumentChecksum2](../../../extensibility/debugger/reference/idebugdocumentchecksum2.md)|DE, EE|디버그 문서에 대해 체크섬을 나타내며 체크섬 구성 요소 간에 전달 수 있습니다.|  
-|[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)|VS DE|문서 컨텍스트를 특정 문 및 코드 컨텍스트에 해당 하는 문서 내의 위치를 나타냅니다.|  
-|[IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)|VS DE|문서 내의 일반적인 위치를 나타냅니다.|  
+|[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)|VS, DE|문서 컨텍스트를 특정 문 및 코드 컨텍스트에 해당 하는 문서 내의 위치를 나타냅니다.|  
+|[IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)|VS, DE|문서 내의 일반적인 위치를 나타냅니다.|  
 |[IDebugDocumentPositionOffset2](../../../extensibility/debugger/reference/idebugdocumentpositionoffset2.md)|VS|문자 오프셋으로 소스 파일의 위치를 나타냅니다.|  
-|[IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)|VS DE|DE 제공한 텍스트 문서를 나타냅니다 (에서 파생 된 [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)), 실제 텍스트를 제공 합니다.|  
+|[IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)|VS, DE|DE 제공한 텍스트 문서를 나타냅니다 (에서 파생 된 [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)), 실제 텍스트를 제공 합니다.|  
 |[IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)|DE|메모리에 있는 소스 파일에 변경 내용을 지정 하는 독일에서 전송 합니다.|  
 
 ##  <a name="Events"></a> 이벤트  
@@ -164,7 +164,7 @@ ms.locfileid: "53919575"
 | [IDebugModuleLoadEvent2](../../../extensibility/debugger/reference/idebugmoduleloadevent2.md) | DE | 모듈 로드 되거나 언로드될 때는 독일에서 전송 합니다. |
 | [IDebugNoSymbolsEvent2](../../../extensibility/debugger/reference/idebugnosymbolsevent2.md) | DE | 신호는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버거 UI를 기호 수 없다는 시작한 실행 파일에 대 한 사용자에 게 알립니다. |
 | [IDebugOutputStringEvent2](../../../extensibility/debugger/reference/idebugoutputstringevent2.md) | DE | 임의의 문자열 IDE 표시 하도록 독일에서 전송 합니다. |
-| [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md) | VS DE | 모든 수신기 포트 이벤트를 통신 포트를 통해 보내집니다. |
+| [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md) | VS, DE | 모든 수신기 포트 이벤트를 통신 포트를 통해 보내집니다. |
 | [IDebugProcessCreateEvent2](../../../extensibility/debugger/reference/idebugprocesscreateevent2.md) | DE, PS | 프로세스를 만들 때 DE 또는 포트에서 전송 합니다. |
 | [IDebugProcessDestroyEvent2](../../../extensibility/debugger/reference/idebugprocessdestroyevent2.md) | DE, PS | 프로세스 제거 될 때 DE 또는 포트에 의해 전송 합니다. |
 | [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md) | DE, PS | 프로그램을 만든 경우 DE 또는 포트에서 전송 합니다. |
@@ -215,9 +215,9 @@ ms.locfileid: "53919575"
 
 | 인터페이스 | 에 의해 구현 | 설명 |
 | - |----------------| - |
-| [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md) | VS를 PS | 로컬 컴퓨터의 기본 포트를 나타냅니다. |
+| [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md) | VS, PS | 로컬 컴퓨터의 기본 포트를 나타냅니다. |
 | [IDebugFirewallConfigurationCallback2](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2.md) | VS | 요청에 DCOM을 사용 하는 디버그 엔진을 사용 하도록 설정 된 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 방화벽이 원격 디버깅을 차단 하지는 않아야 하는 UI입니다. |
-| [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) | VS를 PS | 포트를 나타냅니다. |
+| [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) | VS, PS | 포트를 나타냅니다. |
 | [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md) | PS | 모든 수신기 포트 이벤트를 통신 포트를 통해 보내집니다. |
 | [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md) | PS | 시작 하 고 프로세스를 종료할 수 있는 포트를 나타냅니다. |
 | [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) | PS | 등록 된 포트를 사용 하 여 프로그램의 등록을 취소 하는 데 사용 현재 디버깅 중인 프로그램을 추적 하는 포트를 허용 합니다. |
@@ -227,7 +227,7 @@ ms.locfileid: "53919575"
 | [IDebugPortSupplier3](../../../extensibility/debugger/reference/idebugportsupplier3.md) | PS | 유지할 수 있는 포트의 공급자를 나타내는 만든 포트에 대 한 (디스크에 저장) 정보입니다. |
 | [IDebugPortSupplierDescription2](../../../extensibility/debugger/reference/idebugportsupplierdescription2.md) | PS | 사용 하도록 설정 합니다 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI 내에서 텍스트를 표시 하는 **전송 정보** 의 섹션을 **프로세스에 연결** 대화 상자. |
 | [IDebugWindowsComputerPort2](../../../extensibility/debugger/reference/idebugwindowscomputerport2.md) | VS | 대상 컴퓨터에 대 한 정보를 쿼리할 수 있습니다. |
-| [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) | VS를 PS | 포트의 집합에 대해 열거형을 나타냅니다. |
+| [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) | VS, PS | 포트의 집합에 대해 열거형을 나타냅니다. |
 | [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md) | VS | 포트 공급자 집합을 통해 열거형을 나타냅니다. |
 
 ##  <a name="Processes"></a> 프로세스  

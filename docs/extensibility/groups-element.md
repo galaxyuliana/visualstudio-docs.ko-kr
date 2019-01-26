@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 740ca4ec-79fa-4b98-8f9a-2a137f9f7f98
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8a8a7d17161b6d14926232f66905d7556a244e29
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 35266ff23d93e0dbdfbe6a2be14631db5c0629e5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874552"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54972708"
 ---
 # <a name="groups-element"></a>Groups 요소
 VSPackage의 명령 그룹을 정의 하는 항목을 포함 합니다.  
@@ -62,6 +62,6 @@ VSPackage의 명령 그룹을 정의 하는 항목을 포함 합니다.
 </Groups>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

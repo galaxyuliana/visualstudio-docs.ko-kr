@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: 0271fa26-2205-49bd-96e0-ae1441571808
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b1f8f4824d18618b40ad4073dc6be0c81d9aba37
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aaf6fe3c565e047700792d13ea0542e263492796
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53835210"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54974190"
 ---
 # <a name="xml-schemas-dialog-box"></a>XML 스키마 대화 상자
 
@@ -49,7 +49,7 @@ XML 스키마 파일 이름을 표시합니다.
 
 현재 선택된 스키마를 스키마 집합에서 제거합니다. 그러면 스키마가 메모리 내 스키마 캐시에서 제거되지만 파일 시스템에서는 제거되지 않습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 편집기 구성 요소](../xml-tools/xml-editor-components.md)
 - [방법: 사용 하 여 XML 스키마 선택](../xml-tools/how-to-select-the-xml-schemas-to-use.md)

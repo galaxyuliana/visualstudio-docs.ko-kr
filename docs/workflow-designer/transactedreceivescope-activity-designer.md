@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: 7ca93aad-4e83-4d81-90f4-998ee114d9b6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e4860eb391f4aab0f15eaa0536b248140c1e5770
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 03116b1a625e46bf7ac3758cd78db9eb1cda3741
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914931"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54977319"
 ---
 # <a name="transactedreceivescope-activity-designer"></a>TransactedReceiveScope 활동 디자이너
 
@@ -42,7 +42,7 @@ ms.locfileid: "53914931"
 |<xref:System.ServiceModel.Activities.TransactedReceiveScope.Request%2A>|True|삭제를 <xref:System.ServiceModel.Activities.Receive> 활동을 **요청** activity designer 화면에는 블록입니다.|
 |<xref:System.ServiceModel.Activities.TransactedReceiveScope.Body%2A>|False|삭제를 <xref:System.Activities.Activity> 에 **본문** activity designer 화면에서 차단 합니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [CorrelationScope](../workflow-designer/correlationscope-activity-designer.md)
 - [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md)

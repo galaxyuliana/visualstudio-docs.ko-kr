@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 001551da-4847-4f59-a0b2-fcd327d7f5ca
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ce33e86714c68d8eac39dca236e67b156187448d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 827c4e4aa1857790e090e34c179bffa4a4f439a1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53877944"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55040361"
 ---
 # <a name="how-to-troubleshoot-services"></a>방법: 서비스 문제 해결
 서비스를 가져오려고 할 때 발생할 수 있는 몇 가지 일반적인 문제는  

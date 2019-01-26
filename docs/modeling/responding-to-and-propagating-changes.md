@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, events
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: ace1873c45ba8437ba929ec10ef75db3d0d50bf2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f7ea3068d4dc82e7b53d0f9adc87f08e072ff120
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53905204"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54971340"
 ---
 # <a name="responding-to-and-propagating-changes"></a>변경 내용에 대한 대응 및 전파
 요소를 생성, 삭제 하거나 업데이트할 때이 모델의 다른 부분 또는 파일, 데이터베이스 또는 다른 구성 요소와 같은 외부 리소스에 변경 내용을 전파 하는 코드를 작성할 수 있습니다.
@@ -25,8 +25,8 @@ ms.locfileid: "53905204"
 
 |기술|시나리오|추가 정보|
 |-|-|-|
-|계산 도메인 속성을 정의 합니다.|도메인 속성 값은 모델의 다른 속성에서 계산 됩니다. 예를 들어, 가격이 관련 요소의 가격 합계입니다.|[계산된 저장소 속성 및 사용자 지정 저장소 속성](../modeling/calculated-and-custom-storage-properties.md)|
-|사용자 지정 저장소 도메인 속성을 정의 합니다.|모델 또는 외부에서 다른 부분에 저장 하는 도메인 속성입니다. 예를 들어 모델의 트리에 식 문자열을 구문 분석할 수 있습니다.|[계산된 저장소 속성 및 사용자 지정 저장소 속성](../modeling/calculated-and-custom-storage-properties.md)|
+|계산 도메인 속성을 정의 합니다.|도메인 속성 값은 모델의 다른 속성에서 계산 됩니다. 예를 들어, 가격이 관련 요소의 가격 합계입니다.|[계산된 스토리지 속성 및 사용자 지정 스토리지 속성](../modeling/calculated-and-custom-storage-properties.md)|
+|사용자 지정 저장소 도메인 속성을 정의 합니다.|모델 또는 외부에서 다른 부분에 저장 하는 도메인 속성입니다. 예를 들어 모델의 트리에 식 문자열을 구문 분석할 수 있습니다.|[계산된 스토리지 속성 및 사용자 지정 스토리지 속성](../modeling/calculated-and-custom-storage-properties.md)|
 |OnValueChanging 등 OnDeleting 변경 처리기를 재정의 합니다.|다양 한 요소를의 동기화를 유지 하 고 동기화 외부 값에서 모델을 사용 하 여 키를 누릅니다.<br /><br /> 값이 정의 된 범위를 제한 합니다.<br /><br /> 속성 값 및 기타 변경 전후의 직전에 호출 됩니다. 예외를 throw 하 여 변경 내용을 종료할 수 있습니다.|[도메인 속성 값 변경 처리기](../modeling/domain-property-value-change-handlers.md)|
 |규칙|변경에 발생 한 트랜잭션의 끝 직전 실행 대기 중인 규칙을 정의할 수 있습니다. 실행 취소 또는 다시 실행에서 실행 되지 않습니다. 저장소의 한 부분을 상호 동기화 되도록 사용 합니다.|[규칙으로 모델 내부의 변경 내용 전파](../modeling/rules-propagate-changes-within-the-model.md)|
 |이벤트를 저장 합니다.|모델링 저장소 추가 또는 요소 또는 링크를 삭제 하거나 속성의 값을 변경 하는 등의 이벤트에 대 한 알림을 제공 합니다. 이벤트는 실행 취소 및 다시 실행에도 실행 됩니다. 저장소 이벤트를 사용 하 여 저장소에 있지 않은 값을 업데이트 합니다.|[이벤트 처리기로 모델 외부의 변경 내용 전파](../modeling/event-handlers-propagate-changes-outside-the-model.md)|

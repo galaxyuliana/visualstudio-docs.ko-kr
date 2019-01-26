@@ -13,16 +13,16 @@ helpviewer_keywords:
 - dependency graphs
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 084518e27924c714b2e1ca7982389fb93ff274cc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9d7f438b125e492069073675609757dd9d484427
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53861626"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54950483"
 ---
 # <a name="map-dependencies-with-code-maps"></a>코드 맵 사용 하 여 종속성 매핑
 
@@ -237,7 +237,7 @@ Visual Studio 2017에서 코드 맵을 만들려면 먼저 설치 합니다 **�
 
    ![필터 창을 사용하여 디스플레이 단순화](../modeling/media/almcodemapfilterpane.png)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [비디오: Visual Studio 2015 코드 맵으로 코드의 디자인 이해](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)]
 - [코드 맵을 사용하여 응용 프로그램 디버그](../modeling/use-code-maps-to-debug-your-applications.md)

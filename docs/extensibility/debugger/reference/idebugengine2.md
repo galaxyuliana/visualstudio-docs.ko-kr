@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 1f0e9ac0-6dfb-461a-976c-888d82144cdb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 384d6179f2e8a8c9252e4c631a97d8e429330f96
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5298b807d1e5bb0695a1b6c3a2442c834576a969
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914225"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54949885"
 ---
 # <a name="idebugengine2"></a>IDebugEngine2
 이 인터페이스는 디버그 엔진을 (DE)를 나타냅니다. 중단점을 설정 하 여 예외를 지우면 만들기에서 다양 한 디버깅 세션을 관리 하는 것이 됩니다.  

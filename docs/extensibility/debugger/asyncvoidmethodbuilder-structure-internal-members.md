@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: fe2970ab-d4c5-4355-a8e4-772ee0a57178
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d4aa6a9ab426f3773e7885b449a4b91b284cc0f2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7fa4eb73257b98a588102bee96c037e2d302e96c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875114"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54976656"
 ---
 # <a name="asyncvoidmethodbuilder-structure---internal-members"></a>AsyncVoidMethodBuilder 구조-내부 멤버
 내부 멤버에 설명 합니다 <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder> 클래스입니다. 이 클래스에 대 한 일반 정보에 대 한 참조를 <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder> 참조 항목입니다.  
@@ -40,8 +40,8 @@ ms.locfileid: "53875114"
 |이름|설명|  
 |----------|-----------------|  
 |[ObjectIdForDebugger 속성](../../extensibility/debugger/asyncvoidmethodbuilder-objectidfordebugger-property.md)|이 작성기 디버거를 고유 하 게 식별 하는 데 사용할 수 있는 개체를 가져옵니다.|  
-|[m_objectIdForDebugger 필드](../../extensibility/debugger/asyncvoidmethodbuilder-m-objectidfordebugger-field.md)|디버거에서 사용 하 여이 작성기를 고유 하 게 식별 하 여 지연 초기화 된 개체를 나타냅니다.|  
+|[m_objectIdForDebugger field](../../extensibility/debugger/asyncvoidmethodbuilder-m-objectidfordebugger-field.md)|디버거에서 사용 하 여이 작성기를 고유 하 게 식별 하 여 지연 초기화 된 개체를 나타냅니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder>   
  [.NET Framework에 대 한 병렬 확장 기능 내부](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

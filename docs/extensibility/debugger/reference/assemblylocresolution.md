@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 0bcfe85c-5f37-4a9d-bf2b-141acd96ad67
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a6b16a40b5e3d140de5b7dc2f666f81124ea2490
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c7a15c4f29cc4f7a9224634dc88755582429d581
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53819876"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54972419"
 ---
 # <a name="assemblylocresolution"></a>ASSEMBLYLOCRESOLUTION
 어셈블리 찾을 위치를 지정 합니다.  

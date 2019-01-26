@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fb403e9df8b159162d5160e3927acb40cc775ff3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0671a8f0d926cb90419470278f65eedf07486da7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53862155"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54945881"
 ---
 # <a name="launch-a-program"></a>프로그램 실행
 프로그램을 디버깅 하려는 사용자를 눌러도 **F5** IDE에서 디버거를 실행 합니다. 이 일련의 궁극적으로 IDE의 다시 연결 되거나 연결 프로그램에 다음과 같이 되는 디버그 엔진 (DE)에 연결 하는 이벤트를 시작 합니다.  

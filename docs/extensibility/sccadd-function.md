@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 545268f3-8e83-446a-a398-1a9db9e866e8
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7fc2b74b32c0fb90a578644df0065e24eb8e373f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5124088599eced9d5ae6bc17365d06dc36f81987
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53830906"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027895"
 ---
 # <a name="sccadd-function"></a>SccAdd 함수
 이 함수는 소스 제어 시스템에 새 파일을 추가합니다.  
@@ -93,5 +93,5 @@ SCCRTN SccAdd(
 |SCC_FILETYPE_UTF16LE|0x20|Little Endian 형식 UTF16에 유니코드 텍스트로 파일을 처리합니다.|  
 |SCC_FILETYPE_UTF16BE|0x40|처리에서 UTF16 Big Endian 유니코드 텍스트로 서식을 지정 합니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)

@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: e014ac3a-02e6-46d9-942c-3491dd63782f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3e9fca1eedc94aeb327191f44469945f69584500
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1000009e243906daf32fd68b22b5c49a07b21595
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868588"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54947532"
 ---
 # <a name="performance-warnings"></a>성능 경고
 성능 경고는 고성능 라이브러리 및 응용 프로그램을 지원합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "53868588"
 | [CA1812: 인스턴스화되지 않은 내부 클래스를 방지 합니다.](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md) | 어셈블리 수준 형식의 인스턴스가 어셈블리에서 코드에 의해 만들어지지 않습니다. |
 | [CA1813: 봉인 되지 않은 특성](../code-quality/ca1813-avoid-unsealed-attributes.md) | .NET Framework 클래스 라이브러리는 사용자 지정 특성을 검색 하는 메서드를 제공 합니다. 기본적으로 이러한 메서드는 특성 상속 계층을 검색합니다. 특성을 봉인하면 상속 계층을 검색하지 않으므로 성능이 향상될 수 있습니다. |
 | [CA1814: 다차원 보다 가변 배열을 사용합니다](../code-quality/ca1814-prefer-jagged-arrays-over-multidimensional.md) | 가변 배열의 요소에는 배열이 사용됩니다. 요소를 구성 하는 배열의 일부 데이터 집합에는 발생할 수 있는 다양 한 일 수 있습니다. |
-| [CA1815: Equals를 재정의 하 고 값 형식에서 equals 또는 같음 연산자](../code-quality/ca1815-override-equals-and-operator-equals-on-value-types.md) | 값 형식의 경우 Equals의 상속된 구현에서 Reflection 라이브러리를 사용하며 모든 필드의 내용을 비교합니다. Reflection에는 많은 계산이 요구되며 모든 필드의 일치 여부를 비교하는 것이 불필요할 수 있습니다. 사용자가 인스턴스를 비교 또는 정렬하거나 인스턴스를 해시 테이블 키로 사용할 것으로 예측되는 경우에는 값 형식에서 Equals를 구현해야 합니다. |
+| [CA1815: 값 형식에서 Equals 또는 같음 연산자 재정의](../code-quality/ca1815-override-equals-and-operator-equals-on-value-types.md)를 참조하세요. | 값 형식의 경우 Equals의 상속된 구현에서 Reflection 라이브러리를 사용하며 모든 필드의 내용을 비교합니다. Reflection에는 많은 계산이 요구되며 모든 필드의 일치 여부를 비교하는 것이 불필요할 수 있습니다. 사용자가 인스턴스를 비교 또는 정렬하거나 인스턴스를 해시 테이블 키로 사용할 것으로 예측되는 경우에는 값 형식에서 Equals를 구현해야 합니다. |
 | [CA1816: GC를 호출 합니다. SuppressFinalize 올바르게](../code-quality/ca1816-call-gc-suppressfinalize-correctly.md) | Dispose 구현인 메서드가 GC를 호출 하지 않습니다. Dispose 구현이 아닌 메서드나 SuppressFinalize, GC를 호출 합니다. GC SuppressFinalize, 또는 메서드를 호출합니다. SuppressFinalize이 이외의 값을 전달 하 고 (Me in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). |
 | [CA1819: 속성은 배열을 반환 해서는](../code-quality/ca1819-properties-should-not-return-arrays.md) | 속성에 의해 반환 된 배열은 속성이 읽기 전용인 경우에는 읽기 전용인 지 않습니다. 배열을 무단으로 변경하지 못하도록 하려면 속성에서 배열의 복사본을 반환해야 합니다. 일반적으로 사용자는 이러한 속성을 호출할 경우 성능에 부정적인 영향을 준다는 것을 인식하지 못합니다. |
 | [CA1820: 문자열 길이 사용 하 여 문자열이 비었는지 테스트](../code-quality/ca1820-test-for-empty-strings-using-string-length.md) | String.Length 속성이나 String.IsNullOrEmpty 메서드를 사용하여 문자열을 비교하는 것이 Equals를 사용하는 것보다 훨씬 더 빠릅니다. |

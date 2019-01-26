@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 937a0b19-1216-45d5-a7ad-4fe1d6f73097
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d76c440c3c763b93c14ad03d9f48e6c977e9e5fe
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 270cdaac1f58aefaf13535218613f50bbf645b59
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53867003"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54981305"
 ---
 # <a name="using-text-markers-with-the-legacy-api"></a>텍스트 마커를 사용 하 여 레거시 API를 사용 하 여
 텍스트 마커 부동 표시에 영향을 줄 수 있는 버퍼의 텍스트 범위 및 텍스트 영역의 동작은 합니다. 표식은 중단점, 책갈피, 물결 무늬 밑줄 및 읽기 전용 영역을 포함 합니다. 텍스트 마커 구문 색 지정 기본적으로 다릅니다. 구문 색 지정은 텍스트 영역을 사용 하 여 연결 된 언어 구문의 통신 하는 빠른 방법은 합니다. 속도가 중요 한 Windows 화면에는 연결 하는 경우에 일반적으로 구문 색 지정 요청 됩니다. 구문 색 지정만 텍스트의 색을 변경합니다. 텍스트 마커는 다른 여러 텍스트 속성을 변경할 수 있습니다. 텍스트 마커 "float"를 업데이트 하 고 특별 한 동작을 적용할 수의 색을 지정 합니다.  

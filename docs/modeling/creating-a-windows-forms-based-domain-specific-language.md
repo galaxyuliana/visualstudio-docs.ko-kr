@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 75c50780a8ad48fdd4766576e3d6fe94a580b777
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b6e192d9bf22f2cd299164c1782db208d250e773
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53869929"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55028699"
 ---
 # <a name="creating-a-windows-forms-based-domain-specific-language"></a>Windows Forms 기반 도메인별 언어 만들기
 DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모델의 상태를 표시 하려면 Windows Forms를 사용할 수 있습니다. 이 항목에서는 Visual Studio Visualization and Modeling SDK를 사용 하 여 DSL을 Windows Form 바인딩을 통해 안내 합니다.
