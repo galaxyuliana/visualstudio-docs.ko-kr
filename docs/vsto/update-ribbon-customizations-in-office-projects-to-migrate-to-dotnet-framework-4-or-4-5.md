@@ -7,17 +7,17 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - Office projects [Office development in Visual Studio], migrating to .NET Framework 4
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 864742d3e2ded8ca4cb0531989bebfde9f6f3593
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0479e6de85d156b8a4302b92d2abf0526029c1da
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827340"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871652"
 ---
 # <a name="update-ribbon-customizations-in-office-projects-that-you-migrate-to-the-net-framework-4-or-the-net-framework-45"></a>.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Office 프로젝트에서 리본 사용자 지정 업데이트
   프로젝트를 사용 하 여 만든 리본 사용자 지정을 포함 하는 경우는 **리본 (비주얼 디자이너)** 프로젝트 항목, 대상 프레임 워크를 변경 하는 경우 다음과 같이 변경 하면 프로젝트 코드를 확인 해야 합니다 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 나중에 있습니다.  
@@ -126,7 +126,7 @@ ms.locfileid: "53827340"
 <CodeContentPlaceHolder>11</CodeContentPlaceHolder>  
  다음 표에서는 프로그래밍 방식으로 만들 수 있는 컨트롤 및 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 컨트롤을 만드는 데 사용할 메서드를 보여 줍니다.  
   
-|컨트롤|[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상 프로젝트에서 사용할 RibbonFactory 메서드|  
+|Control|[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상 프로젝트에서 사용할 RibbonFactory 메서드|  
 |-------------| - |  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButton>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonButton%2A>|  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButtonGroup>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonButtonGroup%2A>|  
@@ -151,7 +151,7 @@ ms.locfileid: "53827340"
   
  다음 표에서는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 리본 이벤트 및 연결된 대리자를 보여 줍니다.  
   
-|이벤트|[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상 프로젝트에서 사용할 대리자|  
+|이벤트(event)|[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상 프로젝트에서 사용할 대리자|  
 |-----------| - |  
 |생성된 Ribbon 클래스의 <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage> 이벤트|<xref:Microsoft.Office.Tools.Ribbon.RibbonLoadImageEventHandler>|  
 |<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.Load>|<xref:Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler>|  

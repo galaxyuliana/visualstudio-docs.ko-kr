@@ -9,17 +9,17 @@ helpviewer_keywords:
 - documents [Office development in Visual Studio], managing on server
 - Office documents [Office development in Visual Studio, managing on server
 - ServerDocument class, managing documents on server
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bcaebef3edcdf742bc56915d0209f3f61ee63df8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f776b73b4f80756a36a5ad4610a60440a6f9abd1
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53903252"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54876072"
 ---
 # <a name="manage-documents-on-a-server-by-using-the-serverdocument-class"></a>ServerDocument 클래스를 사용 하 여 서버의 문서 관리
   사용할 수는 `ServerDocument` 클래스는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Microsoft Office Word 및 Microsoft Office Excel 설치 되지 않은 경우에 문서 수준 사용자 지정의 몇 가지 측면을 관리할 수 합니다. 다음 작업을 수행할 수 있습니다.  

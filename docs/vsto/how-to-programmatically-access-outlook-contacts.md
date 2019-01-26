@@ -9,15 +9,15 @@ helpviewer_keywords:
 - contacts [Office development in Visual Studio], searching
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3b02ecc421c2e6c5876061821c8d87e180a4d9a3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7b47d90eef38c5aff055b7ba2a05e39f8de17269
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965384"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873667"
 ---
 # <a name="how-to-programmatically-access-outlook-contacts"></a>방법: 프로그래밍 방식으로 Outlook 연락처 액세스
   이 예제에서는 마지막 이름이 지정 된 검색 문자열을 포함 하는 모든 연락처를 찾습니다.  
@@ -34,7 +34,7 @@ ms.locfileid: "53965384"
   
 -   연락처 마지막 이름에 포함 된 문자열 "**Na"** (예: Tzipi Butnaru)에 **연락처** 폴더입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연락처 항목 작업](../vsto/working-with-contact-items.md)   
  [방법: 프로그래밍 방식으로 Outlook 연락처에 항목 추가](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)   
  [방법: 프로그래밍 방식으로 특정 연락처 검색](../vsto/how-to-programmatically-search-for-a-specific-contact.md)   

@@ -11,15 +11,15 @@ helpviewer_keywords:
 - Office solutions [Office development in Visual Studio], developing
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 53f94016eb354b3c3e5255e37b8399b3687352dc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1aa7be95b0812b27c302500bd166abcb00c7089d
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856607"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874528"
 ---
 # <a name="develop-office-solutions"></a>Office 솔루션 개발
   Visual Studio에서 Office 개발자 도구를 사용하여 프로젝트를 디자인하고 프로젝트 파일을 설정한 후 코드와 사용자 지정 UI(사용자 인터페이스)의 구현에 집중하기 시작할 수 있습니다.  

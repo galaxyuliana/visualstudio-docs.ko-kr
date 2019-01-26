@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - reference [Office development in Visual Studio], 2007 Microsoft Office system
 - Office development in Visual Studio, reference
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 96737b2c5ad7196df873f38b87a6cdd6f11dc10b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aba08ad315c9e3165728b01c552c888f53c94a62
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865234"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871613"
 ---
 # <a name="managed-reference-office-development-in-visual-studio"></a>관리 되는 참조 (Visual Studio에서 Office 개발)
   이 섹션에는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]대상의 Office 프로젝트에서 사용되는 네임스페이스 및 형식에 대한 API 참조 설명서가 포함되어 있습니다. 네임 스페이스 및.NET Framework 3.5를 대상으로 하는 Office 프로젝트에서 사용 되는 형식에 대 한 API 참조 설명서는 Visual Studio 설명서에서 다음 참조 섹션을 참조 하세요.: [ http://go.microsoft.com/fwlink/?LinkId=160658 ](http://go.microsoft.com/fwlink/?LinkId=160658)합니다.  
@@ -60,7 +60,7 @@ ms.locfileid: "53865234"
  <xref:Microsoft.VisualStudio.Tools.Office.BuildTasks>  
  Office 프로젝트를 빌드하는 데 사용되는 MSBuild 작업 클래스가 포함됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [시작 &#40;Visual Studio에서 Office 개발&#41;](../vsto/getting-started-office-development-in-visual-studio.md)   
  [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)   

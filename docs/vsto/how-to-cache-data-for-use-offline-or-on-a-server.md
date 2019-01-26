@@ -14,15 +14,15 @@ helpviewer_keywords:
 - data caching [Office development in Visual Studio], offline use
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b72748a4f37aa89fd12ba8751800fa9cb3c7be84
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 319cd31ccdc2c5c8cfa2b4540e5f32382008ca5a
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53939426"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54873746"
 ---
 # <a name="how-to-cache-data-for-use-offline-or-on-a-server"></a>방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터 캐시
   표시할 수 있습니다 문서에서 캐시할 데이터 항목을 사용할 수 있도록 오프 라인입니다. 또한 따라서 데이터에 대 한 문서에서 문서를 서버에 저장 된 경우 다른 코드를 조작할 수를 합니다.
@@ -59,5 +59,5 @@ ms.locfileid: "53939426"
 
 4.  에 **속성** 창에서 합니다 **한정자** 속성을 **공용** (하며 기본값은 **내부**).
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [데이터를 캐시할](../vsto/caching-data.md) [방법: Office 문서에서 데이터 원본을 프로그래밍 방식으로 캐시](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md) [방법: 암호로 보호 된 문서에서 데이터를 캐시할](../vsto/how-to-cache-data-in-a-password-protected-document.md) [서버에서 문서 데이터에에서 액세스](../vsto/accessing-data-in-documents-on-the-server.md) [데이터 저장](../data-tools/saving-data.md)

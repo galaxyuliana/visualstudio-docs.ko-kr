@@ -8,17 +8,17 @@ dev_langs:
 helpviewer_keywords:
 - SharePoint development in Visual Studio, modules
 - modules [SharePoint development in Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d0cfe558c21a941ed5cc16eccef2e014acfbcdb7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0c08e04dd6ca95e691c33ce77bdedf6a655ee5b4
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923499"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54871730"
 ---
 # <a name="how-to-include-files-by-using-a-module"></a>방법: 모듈을 사용 하 여 파일 포함
   *모듈* (사용 하 여 혼동 하면 안 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] 모듈)은 SharePoint에 ASPX 마스터 페이지와 같은 파일, 텍스트 파일 또는 이미지를 배포할 수 있도록 하는 컨테이너입니다.  
@@ -63,6 +63,6 @@ ms.locfileid: "53923499"
   
      파일을 SharePoint의 지정된 된 위치에 복사합니다.  
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)   
  [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)  

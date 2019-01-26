@@ -10,15 +10,15 @@ helpviewer_keywords:
 - inclusion lists [Office development in Visual Studio]
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 026cdef278f87ec4367dd88a8530a35425452b75
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6c8ea1c94254bc37edc15e0c267592e921003426
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53895579"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54868682"
 ---
 # <a name="how-to-configure-inclusion-list-security"></a>방법: 포함 목록 보안 구성
   관리자 권한이 있는 경우 구성할 수 있습니다는 [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] 신뢰 프롬프트 컨트롤에 최종 사용자가 신뢰 결정 포함 목록에 저장 하 여 Office 솔루션을 설치 하는 옵션이 제공 됩니다 여부. 포함 목록에 대 한 자세한 내용은 [포함 목록을 사용 하 여 Office 신뢰 솔루션](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)합니다.  
@@ -46,7 +46,7 @@ ms.locfileid: "53895579"
   
 2.  다음 레지스트리 키를 찾습니다.  
   
-     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\합니다. NETFramework\Security\TrustManager\PromptingLevel**  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**  
   
      키가 없으면 만듭니다.  
   
@@ -56,7 +56,7 @@ ms.locfileid: "53895579"
     |-------------------------|-----------|  
     |**인터넷**|**AuthenticodeRequired**|  
     |**UntrustedSites**|**Disabled**|  
-    |**내 컴퓨터**|**사용**|  
+    |**MyComputer**|**사용**|  
     |**LocalIntranet**|**사용**|  
     |**TrustedSites**|**사용**|  
   
@@ -105,7 +105,7 @@ ms.locfileid: "53895579"
   
 2.  다음 레지스트리 키를 찾습니다.  
   
-     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\합니다. NETFramework\Security\TrustManager\PromptingLevel**  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**  
   
      키가 없으면 만듭니다.  
   
@@ -115,7 +115,7 @@ ms.locfileid: "53895579"
     |-------------------------|-----------|  
     |**UntrustedSites**|**Disabled**|  
     |**인터넷**|**AuthenticodeRequired**|  
-    |**내 컴퓨터**|**AuthenticodeRequired**|  
+    |**MyComputer**|**AuthenticodeRequired**|  
     |**LocalIntranet**|**AuthenticodeRequired**|  
     |**TrustedSites**|**AuthenticodeRequired**|  
   
@@ -164,7 +164,7 @@ ms.locfileid: "53895579"
   
 2.  이 존재 하지 않는 경우 다음 레지스트리 키를 만듭니다.  
   
-     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\합니다. NETFramework\Security\TrustManager\PromptingLevel**  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**  
   
 3.  다음 하위 키를 추가 **문자열 값**이미 없는, 연관 된 값을 사용 하는 경우.  
   
@@ -172,7 +172,7 @@ ms.locfileid: "53895579"
     |-------------------------|-----------|  
     |**UntrustedSites**|**Disabled**|  
     |**인터넷**|**Disabled**|  
-    |**내 컴퓨터**|**Disabled**|  
+    |**MyComputer**|**Disabled**|  
     |**LocalIntranet**|**Disabled**|  
     |**TrustedSites**|**Disabled**|  
   

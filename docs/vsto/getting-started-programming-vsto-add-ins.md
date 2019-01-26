@@ -12,15 +12,15 @@ helpviewer_keywords:
 - add-ins [Office development in Visual Studio], getting started
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: eef79de32a467bee1d96972da0ccdfd91eede350
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b7827f76703964d76b8a9f217dd781c3f85be6db
+ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53853046"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54874435"
 ---
 # <a name="get-started-programming-vsto-add-ins"></a>VSTO 추가 기능 프로그래밍 시작
   VSTO 추가 기능을 사용하여 Microsoft Office 응용 프로그램을 자동화하고 응용 프로그램의 기능을 확장할 수 있으며 응용 프로그램의 UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. Visual Studio를 사용 하 여 만들 수 있는 다른 유형의 Office 솔루션에 VSTO 추가 기능을 비교 하는 방법에 대 한 정보를 참조 하세요 [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.  
