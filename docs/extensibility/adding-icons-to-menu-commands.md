@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 362a0c7e-5729-4297-a83f-1aba1a37fd44
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 73e49c3ac9586f5287e21e63e4560b7009927f46
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7856015fff4f62fb1f95ba791be34295717c439f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827639"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55003060"
 ---
 # <a name="add-icons-to-menu-commands"></a>메뉴 명령에 아이콘 추가
 명령 메뉴와 도구 모음에서 나타날 수 있습니다. 도구 모음 명령 아이콘 및 텍스트 모두를 사용 하 여 일반적으로 나타납니다. 단순한 아이콘 (공간을 절약 하려면) 하는 동안 메뉴를 사용 하 여 표시할 명령에 대 한 일반적인 것입니다.  

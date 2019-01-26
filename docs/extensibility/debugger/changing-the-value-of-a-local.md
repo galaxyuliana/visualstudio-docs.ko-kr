@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 8407d3df-d38a-4328-82d1-98084bef43ec
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9578ededb468d48c362cdd8defb8e8e548946445
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2440e828d5ffda9600f9314071a60d4b0b93c4c6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53947194"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55008610"
 ---
 # <a name="change-the-value-of-a-local"></a>로컬 값 변경
 > [!IMPORTANT]
@@ -46,6 +46,6 @@ ms.locfileid: "53947194"
  [값 변경 샘플 구현](../../extensibility/debugger/sample-implementation-of-changing-values.md)  
  값을 변경 하는 과정을 단계별로 MyCEE 샘플을 사용 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [CLR 식 계산기 작성](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
  [로컬 항목 표시](../../extensibility/debugger/displaying-locals.md)

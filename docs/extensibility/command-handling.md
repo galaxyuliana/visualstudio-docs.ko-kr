@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 78f67d92-77f7-45cb-ad75-6e3346379cc3
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4198cf6bbed2d8f6172872e4f98f1edb4749e7d7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f3f9086bba7d5c5adfa42f1297de07a2f50ff7e6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926322"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54988131"
 ---
 # <a name="command-handling"></a>명령 처리
 편집기 새 명령을 정의할 수 있습니다. 명령은 상황에 맞는 메뉴 또는 도구 모음 메뉴에서 일반적으로 표시 됩니다.  
@@ -27,21 +27,21 @@ ms.locfileid: "53926322"
 ## <a name="add-commands-to-the-editor-context-menu"></a>편집기 상황에 맞는 메뉴에 명령 추가  
  상황에 맞는 메뉴에 명령을 추가 하려면 먼저 특정 그룹에 속하는 메뉴 명령 집합을 정의 해야 합니다. 다음 예제에서 가져온 것은 *.vsct* 연습의 일환으로 생성 된 파일 [연습: 사용자 지정 편집기에 기능 추가](../extensibility/walkthrough-adding-features-to-a-custom-editor.md):  
   
- \<메뉴 guid = "guidCustomEditorCmdSet" id = "IDMX_RTF" 우선 순위 = "0x0000" type = "컨텍스트" >  
+ \<Menu guid="guidCustomEditorCmdSet" id="IDMX_RTF" priority="0x0000" type="Context">  
   
- \<부모 guid = "guidCustomEditorCmdSet" id = "0" / >  
+ \<Parent guid="guidCustomEditorCmdSet" id="0"/>  
   
- \<문자열 >  
+ \<Strings>  
   
  \<ButtonText > CustomEditor 상황에 맞는 메뉴\</ButtonText >  
   
- \<CommandName > CustomEditorContextMenu\</CommandName >  
+ \<CommandName>CustomEditorContextMenu\</CommandName>  
   
- \</ 문자열 >  
+ \</Strings>  
   
- \</ 메뉴 >  
+ \</Menu>  
   
- \</ 메뉴 >  
+ \</Menus>  
   
  텍스트를 사용 하 여 상황에 맞는 메뉴 명령을 추가 하는 위의 텍스트가 **CustomEditor 상황에 맞는 메뉴**합니다. 메뉴 GUID에는이 편집기를 사용 하 여 만든 명령 집합의 일부입니다. 유형 "컨텍스트"입니다.  
   

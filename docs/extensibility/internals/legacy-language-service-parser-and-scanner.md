@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: daca7b7d49bcd9aa817f26ad485ec35394f50aff
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1c4cc6728600fc4bf605c0600014897025cc27ae
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941851"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54988040"
 ---
 # <a name="legacy-language-service-parser-and-scanner"></a>레거시 언어 서비스 파서 및 검사기
 파서가 언어 서비스의 핵심입니다. 관리 패키지 프레임 워크 (MPF) 언어 클래스에 표시 되는 코드에 대 한 정보를 선택 하는 언어 파서가 필요 합니다. 파서를 어휘 토큰으로 텍스트를 구분 하 고 그런 다음 해당 토큰 유형 및 기능을 식별 합니다.  
@@ -45,7 +45,7 @@ namespace MyNamespace
 |=|연산자|  
 |{ } ( ) ;|구분 기호(delimiter)|  
 |MyNamespace "," MyClass "," MyFunction "," arg1 "," var1|식별자|  
-|MyNamespace|네임스페이스(namespace)|  
+|MyNamespace|namespace|  
 |MyClass|클래스|  
 |MyFunction|메서드|  
 |arg1|매개 변수|  

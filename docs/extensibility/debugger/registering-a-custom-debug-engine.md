@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 493a3ee8ee6b4f1a5dd62bd205831b99b79ca48a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3f403b18175e486dad40166d1b48960fe7b2bed2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53896099"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54996482"
 ---
 # <a name="register-a-custom-debug-engine"></a>사용자 지정 디버그 엔진 등록
 디버그 엔진 해야 다음 COM 규칙 하는 클래스 팩터리로 자체 등록할 뿐만 아니라 Visual Studio 레지스트리 하위 키를 통해 Visual Studio를 사용 하 여 등록 합니다.  

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: bd212a6a-dcc6-4756-a77a-e8dfda38b104
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fdb0c34f873e7f8dce5b771ece2d3620da4deb19
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3d534c5616bd32011fb4e84367911b9a8c1b29ab
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990242"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54986945"
 ---
 # <a name="idebugstackframe2"></a>IDebugStackFrame2
 이 인터페이스는 특정 스레드에서 호출 스택에서 단일 스택 프레임을 나타냅니다.  

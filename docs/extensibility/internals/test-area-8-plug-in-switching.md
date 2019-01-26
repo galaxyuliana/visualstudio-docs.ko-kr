@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 01370792-b5da-4e46-9ce2-7dd326587141
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7e62885b117e8b5fe42b1078c6fb8fbb4b68bf03
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 460d3afc18c19b7e7e3ed97725d69b5a8b04a382
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986234"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998666"
 ---
 # <a name="test-area-8-plug-in-switching"></a>테스트 영역 8: 플러그 인 전환
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 사용자 인터페이스 (UI) 현재 소스 제어 플러그 인을 변경 해야 합니다. 이 테스트 영역은 소스 제어 솔루션에 사용할 플러그 인 선택 프로세스에 대 한 테스트 사례를 제공 합니다.  

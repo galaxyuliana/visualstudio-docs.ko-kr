@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: c49d1362-ab1c-4b6d-9950-fcae40e0e66b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fa554cc3740819d892ca1c3a60028be97928b51e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 26f672a9d18e4963dba47b46a12e113e0a25a618
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922229"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55001552"
 ---
 # <a name="contingentproperties-class---internal-members"></a>ContingentProperties 클래스-내부 멤버
 에 대 한 추가 속성을 포함 한 <xref:System.Threading.Tasks.Task> 개체입니다.  
@@ -45,5 +45,5 @@ ms.locfileid: "53922229"
 ## <a name="remarks"></a>설명  
  .NET Framework는 필요할 때에이 클래스의 필드를 초기화 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [.NET Framework에 대 한 병렬 확장 기능 내부](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

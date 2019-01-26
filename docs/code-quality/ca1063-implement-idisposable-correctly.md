@@ -12,17 +12,17 @@ helpviewer_keywords:
 ms.assetid: 12afb1ea-3a17-4a3f-a1f0-fcdb853e2359
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: 55ebe4c74bcaf2a8d5299018b7666328ff51c028
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e5ff95e43abc5fd303dca5d43da79371f9ca919e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53949052"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000103"
 ---
 # <a name="ca1063-implement-idisposable-correctly"></a>CA1063: IDisposable을 올바르게 구현하십시오.
 
@@ -133,7 +133,7 @@ public class Resource : IDisposable
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [삭제 패턴 (프레임 워크 디자인 지침)](/dotnet/standard/design-guidelines/dispose-pattern)
 - [관리 되지 않는 리소스 (.NET 가이드) 정리](/dotnet/standard/garbage-collection/unmanaged)

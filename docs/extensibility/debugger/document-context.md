@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 8e8b5702-5c16-4988-953d-69dd807d8b84
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dffe0c72a20acc10b45ef12068ba95015db2276f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0ad3996877ee3ba0f16972fbd5cf10cb539ac975
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852890"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993808"
 ---
 # <a name="document-context"></a>문서 컨텍스트
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 디버깅 하는 *문서 컨텍스트*:  
@@ -26,7 +26,7 @@ ms.locfileid: "53852890"
   
 -   에 의해 구현 되는 [IDebugDocumentContext2](../../extensibility/debugger/reference/idebugdocumentcontext2.md) 인터페이스입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [코드 컨텍스트](../../extensibility/debugger/code-context.md)   
  [기호 공급자](../../extensibility/debugger/symbol-provider.md)   
  [기호 공급자 인터페이스](../../extensibility/debugger/reference/symbol-provider-interfaces.md)   

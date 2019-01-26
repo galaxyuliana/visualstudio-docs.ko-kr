@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: e8747d07-6c90-46cc-b425-55b589f7e9e4
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bca879905e524e80205878034773349ddff06460
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d92a8ae5d0581ae5b36276fcf857371d0ae2f8b8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53907168"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993446"
 ---
 # <a name="ui-text-and-help-for-visual-studio"></a>UI 텍스트 및 Visual Studio에 대 한 도움말
 ##  <a name="BKMK_UITextAndTerminology"></a> UI 텍스트 및 용어  
@@ -68,7 +68,7 @@ ms.locfileid: "53907168"
   
  **Visual Studio의 추가 텍스트**  
   
-#### <a name="infotips"></a>정보 팁  
+#### <a name="infotips"></a>InfoTips  
  종종 지침 텍스트 전체 UI에서 위치로 길어질 수 있습니다 또는 숙련 된 사용자에 게 혼란을 여겨질 새 사용자 에게만 유용할 수 있습니다. 이 경우 정보/사용 안내 텍스트 정보 팁에서 도구 설명으로 배치 되어야 합니다.  
   
  정보 팁 눈에 띄는 아직 방해가 되지 않는 특정 정보 팁 아이콘을 사용 해야 관련 된 컨트롤은 거의 배치 되어야 합니다.  
@@ -144,7 +144,7 @@ ms.locfileid: "53907168"
   
 -   동사를 사용 하 여 지침을 제공 합니다.  
   
-     ![Visual Studio에서 텍스트를 힌트로](../../extensibility/ux-guidelines/media/0601-g_hinttext2.png "0601 g_HintText2")  
+     ![Hint text in Visual Studio](../../extensibility/ux-guidelines/media/0601-g_hinttext2.png "0601-g_HintText2")  
   
 -   텍스트를 사용 하 여 필요한 항목을 나타내는:  
   
@@ -281,7 +281,7 @@ ms.locfileid: "53907168"
 #### <a name="instructional-and-supplemental-text-in-dialogs"></a>대화 상자에서 지침 및 추가 텍스트  
  복잡 한 작업을 지 원하는 대화 상자에서 대화 상자 또는 복잡 한 컨트롤 거의 맨 위에 있는 종종 ui에서 지침 텍스트를 제공 해야 할 수 있습니다. 참조 [UI 텍스트 및 용어](../../extensibility/ux-guidelines/ui-text-and-help-for-visual-studio.md#BKMK_UITextAndTerminology) 스타일 작성에 대 한 세부 정보에 대 한 합니다.  
   
-#### <a name="infotips"></a>정보 팁  
+#### <a name="infotips"></a>InfoTips  
  자주 사용 안내 텍스트 UI에서 준비에서 위치로 길어질 수 있습니다 또는 숙련 된 사용자에 게 혼란을 여겨질 새 사용자 에게만 유용할 수 있습니다. 이 경우 정보/사용 안내 텍스트 정보 팁에서 도구 설명으로 배치 되어야 합니다.  
   
  정보 팁 눈에 띄는 아직 방해가 되지 않는 특정 정보 팁 아이콘을 사용 해야 관련 된 컨트롤은 거의 배치 되어야 합니다.  

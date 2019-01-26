@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0d2b39faae51029eb962a377a5c658af6336bcdc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c6fbfc0856e322e1b05ba6ffeffef691cfdd81f3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53835960"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55002728"
 ---
 # <a name="catids-for-objects-that-are-typically-used-to-extend-projects"></a>일반적으로 프로젝트를 확장 하는 데 사용 되는 개체에 대 한 Catid
 다음 표에서 확장 하는 데 사용 되는 Catid `Project` 및 `ProjectItem` 자동화 개체에 대 한 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], 및 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 프로젝트. 에 정의 된 이러한 Catid *VSLangProj.olb*합니다.  
@@ -94,6 +94,6 @@ const LPOLESTR CVCReferences::s_wszCATID = L"{FE8299CA-19B6-4f20-ABEA-E1FD9A33B6
 | [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] | {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC} |
 | [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] | {F184B08F-C81C-45F6-A57F-5ABD9991F28F} |
 
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [프로젝트 및 프로젝트 항목 템플릿 추가](../../extensibility/internals/adding-project-and-project-item-templates.md)   
  [프로젝트 및 항목 템플릿을 등록합니다](../../extensibility/internals/registering-project-and-item-templates.md)
