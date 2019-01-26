@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d49181e598c8ac6c268d1efcece43bd574003f39
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f7e26c7687866fa3d91676e6756d618bee1fb637
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53824394"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943437"
 ---
 # <a name="how-to-select-the-xml-schemas-to-use"></a>방법: 사용 하 여 XML 스키마 선택
 
@@ -72,7 +72,7 @@ XML 편집기에 있는 스키마 캐시를 제공 합니다 *%InstallDir%\Xml\S
     > [!NOTE]
     > 아직 남아 있으면 통해 스키마에 대 한 참조를 `schemaLocation` 특성 또는 일치 하는 `targetNamespace` 한 다음 **제거** 자동 연결으로 인해이 상황에서 작동 하지 것입니다. 이 경우 것이 좋습니다 스키마를 표시 하는 **선택한 스키마를 사용 하지 마십시오** 에 **사용 하 여** 열입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [스키마 캐시](../xml-tools/schema-cache.md)
 - [XML 스키마 대화 상자](../xml-tools/xml-schemas-dialog-box.md)

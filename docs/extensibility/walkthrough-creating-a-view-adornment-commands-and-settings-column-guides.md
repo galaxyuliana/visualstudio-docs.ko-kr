@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 4a2df0a3-42da-4f7b-996f-ee16a35ac922
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4de9446afcc7528ba5c27160b4e00ad911b657e9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 39d3385b56e35018093ceaaf26472d425847b100
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53958744"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54947413"
 ---
 # <a name="walkthrough-create-a-view-adornment-commands-and-settings-column-guides"></a>연습: 보기 장식, 명령 및 설정 (열 안내선) 만들기
 명령 및 효과 보기를 사용 하 여 Visual Studio 텍스트/코드 편집기를 확장할 수 있습니다. 이 문서는 인기 있는 확장 기능을 열 가이드를 사용 하 여 시작 하는 방법을 보여 줍니다. 열 안내선은 특정 열 너비에 코드를 관리할 수 있도록 텍스트 편집기의 보기에 그려지는 시각적으로 밝은 선입니다. 특히, 서식이 지정 된 코드 샘플 문서, 블로그 게시물에서에서 포함 또는 버그 보고서에 대해 중요할 수 있습니다.
@@ -40,7 +40,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 - 사용자 명령에 있는 경우 필요한 VSIP 패키지가 이지만 명령을 구현 개체를 초기화 하는 상용구 코드 뿐입니다.
 - `ColumnGuideCommands` 명령과에 선언 된 명령에 대 한 명령 처리기를 후크 사용자를 실행 하는 개체를 *.vsct* 파일입니다.  
   
-  **VSIX**합니다. 사용 하 여 **파일 &#124; 새로 만들기...**  프로젝트를 만드는 명령입니다. 선택 된 **확장성** 노드 아래의 **C#** 왼쪽된 탐색 창에서 선택한 **VSIX 프로젝트** 오른쪽 창에서. 이름을 입력 **ColumnGuides** 선택한 **확인** 프로젝트를 만듭니다.  
+  **VSIX**. 사용 하 여 **파일 &#124; 새로 만들기...**  프로젝트를 만드는 명령입니다. 선택 된 **확장성** 노드 아래의 **C#** 왼쪽된 탐색 창에서 선택한 **VSIX 프로젝트** 오른쪽 창에서. 이름을 입력 **ColumnGuides** 선택한 **확인** 프로젝트를 만듭니다.  
   
   **Adornment 볼**합니다. 솔루션 탐색기에서 프로젝트 노드의 오른쪽 포인터 단추를 누릅니다. 선택 된 **추가 &#124; 새 항목...**  새 뷰 adornment 항목을 추가 하는 명령입니다. 선택할 **확장성 &#124; 편집기** 왼쪽된 탐색 창에서 선택한 **편집기 뷰포트 Adornment** 오른쪽 창에서. 이름을 입력 **ColumnGuideAdornment** 항목으로 이름을 지정 하 고 선택 **추가** 추가 합니다.  
   
@@ -318,7 +318,7 @@ namespace ColumnGuides
 
 ```
 
-이 코드의 대부분은 만들고 설정 형식을 구문 분석 합니다. "RGB (\<int >,\<int >,\<int >) \<int >, \<int >,..."입니다.  끝에 정수는 열 안내선을 원하는 위치 1부터 시작 열. 열 가이드 확장 설정 단일 값 문자열의 모든 설정을 캡처합니다.
+이 코드의 대부분은 만들고 설정 형식을 구문 분석 합니다. "RGB(\<int>,\<int>,\<int>) \<int>, \<int>, ...".  끝에 정수는 열 안내선을 원하는 위치 1부터 시작 열. 열 가이드 확장 설정 단일 값 문자열의 모든 설정을 캡처합니다.
 
 강조 표시 된 코드의 몇 가지 부분이 있습니다. 다음 코드 줄 설정 저장소에 대 한 Visual Studio 관리 되는 래퍼를 가져옵니다. 대부분의 경우 Windows 레지스트리를 통해 추출이 있지만이 API는 독립적 저장소 메커니즘입니다.
 
@@ -747,7 +747,7 @@ namespace ColumnGuides
 
 ```
 
-**GUID**합니다. 명령 처리기를 찾아 호출할 Visual Studio에 대 한 패키지에 선언 된 GUID를 확인 해야 합니다 *ColumnGuideCommandsPackage.cs* 파일 (프로젝트 항목 템플릿에서 생성 된) 패키지에 선언 된 GUID와 일치 합니다 *.vsct* 파일 (위의 복사). 이 샘플 코드를 다시 사용 하는 경우에이 코드를 복사한 수 있는 다른 모든 사용자와 충돌 하지 않는 다른 GUID 있는지 확인 해야 합니다.
+**GUIDS**. 명령 처리기를 찾아 호출할 Visual Studio에 대 한 패키지에 선언 된 GUID를 확인 해야 합니다 *ColumnGuideCommandsPackage.cs* 파일 (프로젝트 항목 템플릿에서 생성 된) 패키지에 선언 된 GUID와 일치 합니다 *.vsct* 파일 (위의 복사). 이 샘플 코드를 다시 사용 하는 경우에이 코드를 복사한 수 있는 다른 모든 사용자와 충돌 하지 않는 다른 GUID 있는지 확인 해야 합니다.
 
 이 줄을 찾습니다 *ColumnGuideCommandsPackage.cs* 따옴표 사이 있는 GUID를 복사 합니다.
 
@@ -1338,7 +1338,7 @@ Visual Studio 확장성 샘플 GitHub 프로젝트 되 곧 하 고 완료 된 �
 
 이 Visual Studio 갤러리를 사용 하 여 열 안내선 기능의 버전을 사용해 볼 수 있습니다[확장](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 [편집기 안쪽](../extensibility/inside-the-editor.md)
 [편집기 및 언어 서비스 확장](../extensibility/extending-the-editor-and-language-services.md) 
 [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)  

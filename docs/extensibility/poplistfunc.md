@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: b2199fd5-d707-4628-92dd-e2a01e2f507a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b888875720ae08ec4c8dffdc65031877f31ca924
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f35ae28a1a231721d5ee5616a3b075737c24e629
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926098"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54982236"
 ---
 # <a name="poplistfunc"></a>POPLISTFUNC
 이 콜백은에 제공 되는 [SccPopulateList](../extensibility/sccpopulatelist-function.md) IDE에서 소스 제어 플러그 인 파일 또는 디렉터리의 목록을 업데이트 하는 데 사용 됩니다 (도 제공는 `SccPopulateList` 함수).  
@@ -62,7 +62,7 @@ typedef BOOL (*POPLISTFUNC) (
 > [!NOTE]
 >  `SCC_CAP_POPULATELIST` 기능 비트 Visual Studio에 필요 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [IDE에 의해 구현 된 콜백 함수](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [원본 제어 플러그 인](../extensibility/source-control-plug-ins.md)   
  [SccPopulateList](../extensibility/sccpopulatelist-function.md)   

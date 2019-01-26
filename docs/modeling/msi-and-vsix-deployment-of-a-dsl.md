@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 55452088ff947cb92888018aa8d3d262483e0fb9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 75c1e4c2ba3ca50ba49cd00a404747bbd7041500
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53938188"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54941014"
 ---
 # <a name="msi-and-vsix-deployment-of-a-dsl"></a>DSL의 MSI 및 VSIX 배포
 사용자 고유의 컴퓨터 또는 다른 컴퓨터에 도메인 특정 언어를 설치할 수 있습니다. Visual Studio는 이미 대상 컴퓨터에 설치 되어야 합니다.
