@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8ca4ac8523185f1fe818ffa287ed9083b6618c04
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: dd41bb8fd0e35ee13815b11941950d9031f824a0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827652"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55041791"
 ---
 # <a name="new-project-generation-under-the-hood-part-one"></a>새 프로젝트 생성: 내부적으로 1 부
 고유의 프로젝트 형식을 만드는 방법에 대 한 생각 적이 있습니까? 새 프로젝트를 만들 때 실제로 무엇이 발생 궁금해? 살펴보기 해 실제로 그럴까요 참조 보겠습니다.  

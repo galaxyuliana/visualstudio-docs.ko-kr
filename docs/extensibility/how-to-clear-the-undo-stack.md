@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 2200d2d4-7f58-401c-87fc-ddd32d368193
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 14cf2af71f492dc4a82f6d8d9cf05fadcb0dcda2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 71c8e80fceef685b49af53fb5c369500315bbea9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53827549"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000170"
 ---
 # <a name="how-to-clear-the-undo-stack"></a>방법: 실행 취소 스택을 지웁니다.
 아래에 다음 프로시저 실행 취소 스택을 지웁니다. 하는 방법에 설명 합니다.  
@@ -42,5 +42,5 @@ ms.locfileid: "53827549"
     }  
     ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [방법: 실행 취소 관리 구현](../extensibility/how-to-implement-undo-management.md)

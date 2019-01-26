@@ -7,22 +7,22 @@ helpviewer_keywords:
 ms.assetid: 5555b116-cfdb-4773-ba62-af80fda64abd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d32cad965c4165a8f81e9b880121bb54ab1738b7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 15e6e2a1258c698aeb10da95719034f705d0b685
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53901612"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54987326"
 ---
 # <a name="new-or-changed-behavior-with-editor-adapters"></a>편집기 어댑터를 사용 하 여 새롭거나 변경 된 동작
 편집기 어댑터의 동작에 다음과 같은 차이점을 알도록 해야 Visual Studio 핵심 편집기의 이전 버전에 대해 작성 된 코드를 업데이트 하는 새로운 API를 사용 하는 대신 편집기 어댑터 (또는 shim)를 사용 하려는 경우 이전 코어 편집기 관련 하 여입니다.  
   
 ## <a name="features"></a>기능  
   
-### <a name="use-setsite"></a>사용 하 여 SetSite()  
+### <a name="use-setsite"></a>Use SetSite()  
  호출 해야 <xref:Microsoft.VisualStudio.OLE.Interop.IObjectWithSite.SetSite%2A> 텍스트 버퍼에 텍스트 뷰를 cocreate 하지 못했습니다. 하 고 다른 작업을 수행 하기 전에 windows 코드입니다. 그러나 사용 하는 경우에 필요 없는 합니다 <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService> 을 만들고 있으므로이 서비스의 `Create()` 자체 메서드를 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.SetSite%2A>.  
   
 ### <a name="host-ivscodewindow-and-ivstextview-in-your-own-content"></a>사용자 고유의 콘텐츠에서 IVsCodeWindow 호스팅하고 IVsTextView  
@@ -120,7 +120,7 @@ ms.locfileid: "53901612"
   
 -   합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.UpdateTipWindow%2A> 메서드 중 하나를 구현 하지 않는 클래스에서 전달 하는 경우 못합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextTipWindow2> 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodTipWindow3>합니다. 사용자 지정 Win32 소유자가 그린 팝업은 더 이상 지원 합니다.  
   
-#### <a name="smarttags"></a>스마트 태그  
+#### <a name="smarttags"></a>SmartTags  
  스마트 태그를 사용 하 여 만든 어댑터 지원 되지 않습니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagData>하십시오 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagTipWindow>, 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagTipWindow2> 인터페이스.  
   
 #### <a name="dte"></a>DTE  

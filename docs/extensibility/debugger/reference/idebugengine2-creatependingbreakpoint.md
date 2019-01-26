@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 92e85b90-a931-48d9-89a7-a6edcb83ae5a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 64b01e75255f62059be4af94d9369f76d5b9f79b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d55f278a5d966e71e2e3f8f1ebf36280016a9c48
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53892029"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54974947"
 ---
 # <a name="idebugengine2creatependingbreakpoint"></a>IDebugEngine2::CreatePendingBreakpoint
 디버그 엔진 (DE)에서 보류 중인 중단점을 만듭니다.  
@@ -72,6 +72,6 @@ HRESULT CProgram::CreatePendingBreakpoint(IDebugBreakpointRequest2* pBPRequest, 
   
 ## <a name="see-also"></a>참고 항목  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
- [바인딩](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)   
+ [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)   
  [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)   
  [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

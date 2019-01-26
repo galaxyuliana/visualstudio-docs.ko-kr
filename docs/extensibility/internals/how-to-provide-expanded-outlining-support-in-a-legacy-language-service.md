@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a26d9dbc67f502e30968f3db89834b12e02ae3e5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1de93f30ba6ce1f9d2a573b6934a66c469f44ded
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965553"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969956"
 ---
 # <a name="how-to-provide-expanded-outlining-support-in-a-legacy-language-service"></a>방법: 레거시 언어 서비스의 확장된 개요 표시 지원 제공
 초과 지 원하는 언어에 대 한 개요 표시 지원 확장을 위한 두 가지는 **정의 부분만 보이기** 명령입니다. 편집기 제어 개요 영역을 추가 하 고 클라이언트 제어 개요 영역을 추가할 수 있습니다.  

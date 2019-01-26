@@ -6,15 +6,15 @@ ms.prod: visual-studio-dev15
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9540fd6ec203b990f53294e41ee829c9e3be897b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1348e958fa4b4871036794238ea3fb19fddb5745
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914985"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54983822"
 ---
 # <a name="how-to-add-activities-to-the-toolbox"></a>방법: 도구 상자에 활동 추가
 
@@ -59,6 +59,6 @@ ms.locfileid: "53914985"
 
 6.  사용자 지정 활동에 표시 합니다 **도구 상자** 항목 추가 되기 전에 포커스가 있던 범주 아래. 예를 들어 경우는 **일반** 범주에서 선택 된 합니다 **도구 상자** 도구 상자 항목을 추가 하기 전에 활동 아래에 표시 됩니다는 **일반** 범주.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [워크플로 디자이너 사용](developing-applications-with-the-workflow-designer.md)

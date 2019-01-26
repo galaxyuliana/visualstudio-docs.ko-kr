@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 3670439e-2171-405d-9d77-dedb0f1cba93
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f4c744e5dc79c5e704e2cec6d83e39a4170bcd68
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ac77b0c43d6b300bd41e0b49d4b523dc0f43d025
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922970"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54990409"
 ---
 # <a name="idebugcodecontext2"></a>IDebugCodeContext2
 이 인터페이스는 코드 명령의 시작 위치를 나타냅니다. 대부분의 런타임 아키텍처에 대 한 현재 코드 컨텍스트를 생각할 수 있습니다 프로그램의 실행 스트림에 주소로 합니다.  

@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 43d7a8e6-bd94-4407-a800-15a145c74223
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3a4d97ce590929b6cc2cf56997255822b692cc9e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1e2cb44f3416aabfa859d4a8ef2126003b3ce59e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865015"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54992128"
 ---
 # <a name="integration-with-xml-editor"></a>XML 편집기와의 통합
 
@@ -32,6 +32,6 @@ XML 스키마 디자이너는 XML 편집기와 통합되었습니다. XML 편집
 
 ![XSDDesignerWithXMLEditorAndCMV](../xml-tools/media/xsddesignerwithxmleditorandcmv.gif)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)
