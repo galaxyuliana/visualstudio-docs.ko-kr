@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: ea008091-2e4c-4f64-bfa5-afb919552446
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c75ce30ba231efa9084ce6ec733f08c5b86aa861
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 81caba883293a59fe67988d34785758340b4705a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987760"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54987039"
 ---
 # <a name="while-activity-designer"></a>While 활동 디자이너
 
@@ -32,7 +32,7 @@ ms.locfileid: "53987760"
 |<xref:System.Activities.Statements.While.Body%2A>|False|활동 실행을 포함 하는 동안 합니다 <xref:System.Activities.Statements.While.Condition%2A> 로 평가 **true**합니다.|
 |<xref:System.Activities.Statements.While.Condition%2A>|True|확인 하기 위해 평가 되는 Visual Basic 식을 포함 여부를 작업은 <xref:System.Activities.Statements.While.Body%2A> 를 실행 해야 합니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [제어 흐름](../workflow-designer/control-flow-activity-designers.md)
 - [DoWhile](../workflow-designer/dowhile-activity-designer.md)

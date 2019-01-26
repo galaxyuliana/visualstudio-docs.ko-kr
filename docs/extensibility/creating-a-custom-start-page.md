@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: d67e0c53-9f5a-45fb-a929-b9d2125c3c82
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 52050641ee9d2d522ff07dd5eaed72ecbec2b09e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 96b1d55ee31c08f51ab62e799dac843fff55fb67
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941442"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54997886"
 ---
 # <a name="creating-a-custom-start-page"></a>사용자 지정 시작 페이지 만들기
 이 문서의 단계를 수행 하 여 사용자 지정 시작 페이지를 만들 수 있습니다.  
@@ -83,7 +83,7 @@ ms.locfileid: "53941442"
   
 -   시작 페이지를 테스트 하 고 안정적인 수를 사용 하 여 합니다 **시작 페이지 사용자 지정** 옵션을 **옵션** Visual Studio의 기본 인스턴스에서 시작 페이지로 선택 대화 상자  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [연습: 시작 페이지 사용자 지정 XAML 추가](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)   
  [시작 페이지에 사용자 정의 컨트롤 추가](../extensibility/adding-user-control-to-the-start-page.md)   
  [시작 페이지에 Visual Studio 명령 추가](../extensibility/adding-visual-studio-commands-to-a-start-page.md)   

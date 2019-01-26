@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 77ba75a0b62f2b0cbac1d7c60875dd322d0feaf2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6d051809d02624f686f3ffc5408441d18e890854
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841981"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55001487"
 ---
 # <a name="supporting-symbol-browsing-tools"></a>기호 검색 도구 지원
 **개체 브라우저**, **클래스 뷰**를 **호출 브라우저** 하 고 **기호 찾기 결과** 도구는 Visual Studio의 기능을 검색 하는 기호를 제공 합니다. 이러한 도구는 기호의 계층적 트리 보기를 표시 하 고 트리에서 기호 사이의 관계를 보여 줍니다. 네임 스페이스, 개체, 클래스, 클래스 멤버 및 다양 한 구성 요소에 포함 된 다른 언어 요소에 기호를 나타낼 수 있습니다. 구성 요소에는 Visual Studio 프로젝트의 경우 외부 포함 [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] 구성 요소 및 형식 (.tlb) 라이브러리. 자세한 내용은 [코드 구조 보기](../../ide/viewing-the-structure-of-code.md)를 참조하세요.  

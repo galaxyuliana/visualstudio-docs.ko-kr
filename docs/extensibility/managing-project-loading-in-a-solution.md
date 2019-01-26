@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 097c89d0-f76a-4aaf-ada9-9a778bd179a0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1f861f765305dc0ea4bdfd83326a5a4888239033
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cd772667223dace8f08fdd5c4a18c4860b50aaa3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53870153"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000876"
 ---
 # <a name="manage-project-loading-in-a-solution"></a>솔루션의 프로젝트 로드 관리
 Visual Studio 솔루션을 다 수의 프로젝트를 포함할 수 있습니다. 기본 Visual Studio 동작은 솔루션을 열 때 솔루션의 모든 프로젝트를 로드 하 고 사용자가 프로젝트 모두 로드 작업이 완료 될 때까지 액세스할 수 없도록 합니다. 프로젝트 로드 하는 과정은 2 분 이상 지속 로드 되는 프로젝트의 수와 프로젝트의 총 수를 보여 주는 진행률 표시줄이 표시 됩니다. 사용자는 여러 프로젝트가 포함 된 솔루션에서 작업 하는 동안 프로젝트를 언로드할 수 있지만이 절차에 몇 가지 단점이 있습니다: 언로드된 프로젝트에는 솔루션 다시 빌드 명령의 일부로 빌드되지 않는 닫은 IntelliSense 설명은 형식 및 멤버 프로젝트 표시 되지 않습니다.  

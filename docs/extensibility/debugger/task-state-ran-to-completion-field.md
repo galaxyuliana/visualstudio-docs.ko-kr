@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 0f4830af-fe0c-4141-b768-817f4e426b8c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d4af0b4a2b3ef106aeb57e88440638d2b4a4c904
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea3a68237b82873cc4c6646957832beb8880dcac
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53830744"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55001375"
 ---
 # <a name="taskstaterantocompletion-field"></a>TASK_STATE_RAN_TO_COMPLETION 필드
 작업이 실행을 완료했습니다.  
@@ -35,5 +35,5 @@ ms.locfileid: "53830744"
 ## <a name="remarks"></a>설명  
  경우는 [m_stateFlags](../../extensibility/debugger/m-stateflags-field.md) 이 값을 포함 하는 필드를 <xref:System.Threading.Tasks.Task.Status%2A> 속성에서 반환 <xref:System.Threading.Tasks.TaskStatus?displayProperty=fullName>합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Task 클래스](../../extensibility/debugger/task-class-internal-members.md)

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 44f8e96e-9c59-4ffc-9a08-9c908a0e4de7
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2f82b8031c9ca60d843aeb6c96ecf5095fbcfa4f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bb40c3b0d6d08e3b4b995d2f39440775df292f9f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53840978"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55013758"
 ---
 # <a name="idebugmodule3"></a>IDebugModule3
 이 인터페이스에는 기호 및 JustMyCode 상태의 대체 위치를 지 원하는 모듈을 나타냅니다.  

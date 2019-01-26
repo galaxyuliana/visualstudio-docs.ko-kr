@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 54ad66452151142b3ad18a97591a5cf774896a14
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0559f003ec09b6f3b0a12fd8f429f5dc83e6322d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852351"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993564"
 ---
 # <a name="vsix-manifest-designer"></a>VSIX 매니페스트 디자이너
 VSIX 패키지 매니페스트 파일을 Visual Studio 확장에 대 한 설치 동작을 설정 하는 수정 합니다.  
@@ -90,7 +90,7 @@ VSIX 패키지 매니페스트 파일을 Visual Studio 확장에 대 한 설치 
   **설치 유형**  
   나열 **Visual Studio 확장** 하 고 **확장명 SDK** 설치 유형을 대상으로 합니다. 옵션은 선택한 유형에 따라 다릅니다.  
   
-  **Visual Studio 확장**  
+  **Visual Studio Extension**  
   나열 된 **에서 InstallationTarget** 패키지를 설치할 수 있습니다 및 Visual Studio 제품에이 확장을 설치할 수 있습니다 하는 방법을 설명 하는 요소입니다. 각 제품 이름 및 버전 또는 버전 범위 별로 개별적으로 식별 됩니다. 제품을 목록에 추가, 수정 및 삭제 될 수 있습니다. 이름 및 제품의 버전에 해당 하는 **Id** 및 **버전** 관련 된 특성 **에서 InstallationTarget** 요소입니다.  
   
   **버전 범위** 은 [12.0, 14.0] 다음 표기법을 사용 합니다.  
@@ -105,7 +105,7 @@ VSIX 패키지 매니페스트 파일을 Visual Studio 확장에 대 한 설치 
   
 - 단일 버전 #-지정된 된 버전만  
   
-  **확장 SDK**  
+  **Extension SDK**  
   특정 제품 및 버전 범위가 지정 되지 않는 전역 설치를 지정 합니다. **대상 플랫폼 식별자** "Windows에서" 대상으로 하는 등의 플랫폼입니다. **대상 플랫폼 버전** 는 대상 플랫폼의 8.0과 같은 버전입니다. **SDK 이름** 하 고 **SDK 버전** 각각은 이름 및 SDK의 버전 번호입니다.  
   
   **이 VSIX는 모든 사용자 용 으로만 설치 (설치 시 권한 상승 필요)**  
@@ -148,6 +148,6 @@ VSIX 패키지 매니페스트 파일을 Visual Studio 확장에 대 한 설치 
   
   식별자와 일치 해야 합니다는 `ID` 종속성 패키지 메타 데이터의 특성입니다. 원본은 현재 솔루션, 현재 설치 된 확장을 또는 파일에서 프로젝트를 수 있습니다. 합니다 **성은 종속성 해결** 중첩 된 패키지의 상대 경로 또는 종속성에 대 한 다운로드 위치의 URL을 설정할 수 있습니다. 에 해당 하는 ID, 버전 및 종속성 패키지의 해상도 `Id`, `Version`, 및 `Location` 관련 된 특성 `Dependency` 요소입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [VSIX 확장 스키마 2.0 참조](../extensibility/vsix-extension-schema-2-0-reference.md)   
  [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)

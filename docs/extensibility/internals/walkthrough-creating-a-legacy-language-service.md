@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 6a5dd2c2-261b-4efd-a3f4-8fb90b73dc82
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c7f60d580b79ebba03a8617e8bd797ec9d099971
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7aded5dcc3e3cf9e50485d50659c0400c045051d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891961"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55001058"
 ---
 # <a name="walkthrough-creating-a-legacy-language-service"></a>연습: 레거시 언어 서비스 만들기
 언어 서비스를 구현 하는 관리 되는 패키지 프레임 워크 (MPF) 언어 클래스를 사용 하 여 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 간단 합니다. 언어 서비스, 자체 언어 서비스 및 언어에 대 한 파서를 호스트 하기 위해 VSPackage 해야 합니다.  

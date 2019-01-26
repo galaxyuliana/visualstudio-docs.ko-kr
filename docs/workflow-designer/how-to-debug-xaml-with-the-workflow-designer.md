@@ -6,15 +6,15 @@ ms.prod: visual-studio-dev15
 ms.assetid: d9305dbc-af62-4bdd-b03f-c54e3fe9ecc7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 03556c00a6b43e7bbab308bf1acbb1501582a118
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2d7a9932bfb219d818036ec2432c801b4115bae5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53823486"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54997080"
 ---
 # <a name="how-to-debug-xaml-with-the-workflow-designer"></a>방법: 워크플로 디자이너로 XAML 디버그
 
@@ -35,7 +35,7 @@ ms.locfileid: "53823486"
 
 5.  코드 실행이 중단점 중 하나에 도달하면 해당 중단점과 연결된 XAML 요소가 강조 표시됩니다. 다음 중단점으로 이동 하려면 사용 합니다 **F10** 하거나 **F11** 키입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [방법: 워크플로에 중단점 설정](../workflow-designer/how-to-set-breakpoints-in-workflows.md)
 - [워크플로 디버깅](debugging-workflows-with-the-workflow-designer.md)

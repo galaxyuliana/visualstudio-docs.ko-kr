@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: f69972d0-809d-40df-9da3-04738791391c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 158eca797c13ca7889ea4d7cf2e5d811783e997e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3a72dbf33fe3c7f78513534fc31e609721cfd5a8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923681"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55008235"
 ---
 # <a name="operational-modes"></a>운영 모드
 세 가지 모드는 IDE 작동할 수 있습니다, 다음과 같습니다.  
@@ -54,5 +54,5 @@ ms.locfileid: "53923681"
   
  프로그램 코드 또는 함수에 다음 줄으로 성공적으로 단계 또는 중단점을 설정 하거나 커서까지 실행을 중단 모드로 돌아갑니다는 DE 자동으로 전환 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [실행 제어](../../extensibility/debugger/control-of-execution.md)

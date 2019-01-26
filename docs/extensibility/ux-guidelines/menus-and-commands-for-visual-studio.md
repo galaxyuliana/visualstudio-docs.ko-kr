@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bddedab69583c8ec4ff809810e049a4aff2046ee
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 97c0768df844276930004530ef0dfeb1f1e5148d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933801"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54981014"
 ---
 # <a name="menus-and-commands-for-visual-studio"></a>Visual Studio의 메뉴 및 명령
 ## <a name="command-usage"></a>명령 사용법  
@@ -281,7 +281,7 @@ ms.locfileid: "53933801"
   
 - **사용 하는 한정자 키를 확인 하려면 Windows 지침을 따릅니다.** Ctrl 키 조합이 사용 하 여 전체 문서에 적용 되는 명령 등과 같이 대규모 효과 명령에 대 한 합니다. 확장 또는 표준 바로 가기 키의 동작을 보완 하는 명령의 Shift 키 조합을 사용 합니다. Ctrl + alt 키 조합을 사용 하지 마세요.  
   
-- **불필요 한 바로 가기 키를 제거 합니다.** 레거시 기능을 사용 하는 경우에 액세스 키를 동일한 명령에 대 한 빠른 액세스를 제공 하는 경우 (미만 CEIP 데이터에서 10 번) 극단적인 infrequency 이하의 보통 infrequency (100 번 보다 CEIP 데이터에서)를 사용 하 여 사용 되는 바로 가기를 제거 하는 것이 좋습니다. 예: Alt 키를 H C 도움말/콘텐츠 열립니다.  
+- **불필요 한 바로 가기 키를 제거 합니다.** 레거시 기능을 사용 하는 경우에 액세스 키를 동일한 명령에 대 한 빠른 액세스를 제공 하는 경우 (미만 CEIP 데이터에서 10 번) 극단적인 infrequency 이하의 보통 infrequency (100 번 보다 CEIP 데이터에서)를 사용 하 여 사용 되는 바로 가기를 제거 하는 것이 좋습니다. 예를 들어: Alt 키를 H C 도움말/콘텐츠 열립니다.  
   
   바로 가기 가용성을 확인 하는 간단한 방법은 아닙니다. 바로 가기를 추가 하려면 다음이 단계를 수행 합니다.  
   
