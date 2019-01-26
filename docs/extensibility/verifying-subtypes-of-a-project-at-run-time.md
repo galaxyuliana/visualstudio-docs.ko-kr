@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: b87780ec-36a3-4e9a-9ee2-7abdc26db739
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 98d4e020cfd93c75c22583b763ae3b1873765598
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5a64cdb11231649b49f9c0322a241c807d94fe76
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913584"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55011106"
 ---
 # <a name="verify-subtypes-of-a-project-at-run-time"></a>런타임에 프로젝트의 하위 형식 확인
 사용자 지정 프로젝트 하위 형식에 따라 달라 지는 VSPackage를 검색할 하위 형식 없으면 정상적으로 실패 하는 하위 유형을 논리를 포함 해야 합니다. 다음 절차에는 지정 된 하위 있는지 확인 하는 방법을 보여 줍니다.  
@@ -66,7 +66,7 @@ ms.locfileid: "53913584"
     }  
     ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [프로젝트 하위 형식](../extensibility/internals/project-subtypes.md)   
  [프로젝트 하위 형식 디자인](../extensibility/internals/project-subtypes-design.md)   
  [프로젝트 하위 형식으로 확장 하는 메서드와 속성](../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md)

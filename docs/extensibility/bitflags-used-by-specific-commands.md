@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 37969977-6f7d-45c9-ba03-1306ae71f5d1
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 403b9649feb24ca06cb24762f1b0cf484bed0612
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d0a5df2026672f415df688ebc3389ff57606c815
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875422"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55003264"
 ---
 # <a name="bitflags-used-by-specific-commands"></a>특정 명령에 사용 되는 비트
 단일 값에 하나 이상의 비트를 설정 하 여 원본 제어 플러그 인 API 함수 개수의 동작을 수정할 수 있습니다. 이러한 값을 비트 라고 합니다. 원본 제어 플러그 인 API에서 사용 하는 다양 한 비트는 사용 하는 함수에 의해 그룹화 여기서 자세히 나와 있습니다.  
@@ -101,9 +101,9 @@ ms.locfileid: "53875422"
 |`SCC_OPT_EQ_DISABLE`|0x00L|이벤트 큐 작업을 일시 중단합니다.|`SCC_OPT_EVENTQUEUE`|  
 |`SCC_OPT_EQ_ENABLE`|0x01L|이벤트 큐 로깅을 사용합니다.|`SCC_OPT_EVENTQUEUE`|  
 |`SCC_OPT_HCM_NO`|0L|(기본값) 어떠한 취소 모드입니다. 필요한 경우 플러그 인이 제공 해야 합니다.|`SCC_OPT_HASCANCELMODE`|  
-|`SCC_OPT_HCM_YES`|1 L|IDE는 취소를 처리합니다.|`SCC_OPT_HASCANCELMODE`|  
+|`SCC_OPT_HCM_YES`|1L|IDE는 취소를 처리합니다.|`SCC_OPT_HASCANCELMODE`|  
 |`SCC_OPT_SCO_NO`|0L|(기본값) 플러그 인 UI에서 체크 아웃 확인 작업 디렉터리 설정 됩니다.|`SCC_OPT_SCCCHECKOUTONLY`|  
-|`SCC_OPT_SCO_YES`|1 L|없는 플러그 인 UI 체크 아웃, 작업 디렉터리가 없습니다.|`SCC_OPT_SCCCHECKOUTONLY`|  
+|`SCC_OPT_SCO_YES`|1L|없는 플러그 인 UI 체크 아웃, 작업 디렉터리가 없습니다.|`SCC_OPT_SCCCHECKOUTONLY`|  
   
 ## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인](../extensibility/source-control-plug-ins.md)

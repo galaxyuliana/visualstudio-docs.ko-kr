@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 4a8833f0-6ac0-4ea7-9400-8275aa991468
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3dd5196fae42079249f0632a065aacbf504938a8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8e6b3ccdbca62b9a770fd6146ba1b88e5ca54d9e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990781"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017658"
 ---
 # <a name="callback-functions-implemented-by-the-ide"></a>IDE에 의해 구현 된 콜백 함수
 와 통합 하 고 통합 된 최종 사용자 환경을 제공 하기 위해 최대한 원활 하 게으로 통합된 개발 환경 (IDE) 소스 제어 플러그 인 사용할 수 IDE에 의해 구현 되는 콜백 함수. 플러그 인이 함수를 호출할 수 이러한 정보는 IDE를 전달 하는 소스 제어 작업 중 적절 한 시간 IDE 기본 UI에 포함 된 요소로이 정보를 표시할 수 있습니다. 사용자 이면 플러그 인 사용 자체 UI 보다이 시나리오에서 덜 조각난 된 환경이 있습니다.  

@@ -7,20 +7,20 @@ helpviewer_keywords:
 ms.assetid: 91a6417e-a6fe-4bc2-9d9f-5173c634a99b
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d99916c31e35f7494a402ff4c5d1a7b182a0c52d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: abc4824a3e90250401d720aefedda80189419c85
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53907964"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010053"
 ---
 # <a name="language-service-and-editor-extension-points"></a>언어 서비스 및 편집기 확장 지점
 편집기에는 대부분의 언어 서비스 기능을 포함 하 여 Framework MEF (Managed Extensibility) 구성 요소 파트로 확장할 수 있는 확장 지점을 제공 합니다. 다음은 이러한 주요 확장 포인트 범주:  
   
--   콘텐츠 형식  
+-   내용 유형  
   
 -   분류 유형 및 분류 형식  
   
@@ -91,7 +91,7 @@ internal static ContentTypeDefinition TestContentTypeDefinition;
   
 - ENC  
   
-- 내용은 찾기 결과  
+- FindResults  
   
 - F#  
   
