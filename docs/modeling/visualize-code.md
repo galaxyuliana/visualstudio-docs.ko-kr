@@ -9,15 +9,15 @@ helpviewer_keywords:
 - code, exploring
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e1866437fae3fb5594e85299f94a075072dd6528
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea963ac06c44e810c2a7195041b42d3452e19b4b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53907841"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54994214"
 ---
 # <a name="visualize-code"></a>코드 시각화
 
@@ -41,7 +41,7 @@ Visual Studio의 시각화 및 모델링 도구를 사용하여 기존 코드를
 |**클래스 구조 이해:**<br /><br /> 코드에서 클래스 다이어그램을 만들어 프로젝트의 클래스 구조를 시각화합니다.|[방법: (클래스 디자이너) 프로젝트에 클래스 다이어그램 추가](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)|
 |**전반적인 시스템 디자인을 설명 하 고이 디자인에 대해 코드 유효성을 검사 합니다.**<br /><br /> 종속성 다이어그램을 만들어 전반적인 시스템 디자인 및 의도 한 종속성을 설명 합니다. 이 디자인과 비교해서 코드의 유효성을 검사하여 코드의 종속성이 디자인과 일치하는지 확인합니다.|- [코드에서 종속성 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)<br />- [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)<br />- [종속성 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)<br />- [종속성 다이어그램을 사용 하 여 코드 유효성 검사](../modeling/validate-code-with-layer-diagrams.md)|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [시나리오: 모델링 및 시각화를 사용 하 여 디자인 변경](../modeling/scenario-change-your-design-using-visualization-and-modeling.md)
 - [분석 및 모델 아키텍처](../modeling/analyze-and-model-your-architecture.md)

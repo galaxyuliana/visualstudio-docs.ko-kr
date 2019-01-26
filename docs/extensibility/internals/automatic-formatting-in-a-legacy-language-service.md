@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: c210fc94-77bd-4694-b312-045087d8a549
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 89345c7cd466211292a21ec4ca99276ebf95d67a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 74e92cac718c24245988f0e5bdbcbc05e2aee43d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53873550"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55002563"
 ---
 # <a name="automatic-formatting-in-a-legacy-language-service"></a>레거시 언어 서비스의 자동 서식
 자동 서식 지정 된 언어 서비스를 자동으로 삽입 코드 조각과 사용자 알려진된 코드 구문을 입력을 시작 하는 경우.  
@@ -25,5 +25,5 @@ ms.locfileid: "53873550"
   
  자동 서식 지정에 대 한 언어 서비스의 나머지 부분에 사용 되는 명령 필터를 사용할 수도 있습니다. 호출 하 여는 중괄호를 강조 표시도 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.HighlightMatchingBrace%2A>합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [레거시 언어 서비스 개발](../../extensibility/internals/developing-a-legacy-language-service.md)

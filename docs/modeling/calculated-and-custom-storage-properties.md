@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, programming domain properties
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: f86082c1b382904dc721d3caab54bf6d18418096
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f2e212612dd9bf2ede8d41db21a95c9c902f3de0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53938323"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54990929"
 ---
 # <a name="calculated-and-custom-storage-properties"></a>계산된 저장소 속성 및 사용자 지정 저장소 속성
 도메인 특정 언어 (DSL)의 모든 도메인 속성에 언어 탐색기에서 다이어그램에 사용자에 게 표시 하 고 프로그램 코드에서 액세스할 수 있습니다. 그러나 속성은 해당 값을 저장 하는 방식에서 다릅니다.

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: fa1ce513-eb7d-42bc-b6e8-cb2433d051d5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f2f2da0e351f8444ef9966b00551b941830dda3a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 320f394aa08a3be7f1dfc571b3aa80aaecadead6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986442"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54983902"
 ---
 # <a name="document-lock-holder-management"></a>문서 잠금 소유자 관리
 실행 중인 문서 테이블 (RDT) 열린 문서 및 편집 잠금을의 개수를 유지 합니다. 문서 창에 열려 있는 문서를 표시 하는 사용자 없이 백그라운드에서 편집할 프로그래밍 방식으로 때 문서는 RDT에 대해 한 편집 잠금을 배치할 수 있습니다. 이 기능은 그래픽 사용자 인터페이스를 통해 여러 파일을 수정 하는 디자이너에서 자주 사용 됩니다.

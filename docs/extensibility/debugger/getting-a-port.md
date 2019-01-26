@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 745c2337-cfff-4d02-b49c-3ca7c4945c5e
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bedde155fdfa37ea1616e2f79e5dba54a449dd74
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1230d4ed6caf7d44c7cef384bcbffc59103f84dc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988435"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998328"
 ---
 # <a name="get-a-port"></a>포트를 가져오기
 포트는 프로세스를 실행 하는 컴퓨터에 대 한 연결을 나타냅니다. 해당 컴퓨터는 로컬 컴퓨터 또는 원격 컴퓨터 일 수 있습니다 (하는 가능한 경우 실행 될 수는 비 Windows 기반 운영 체제를 참조 하세요 [포트](../../extensibility/debugger/ports.md) 자세한).  

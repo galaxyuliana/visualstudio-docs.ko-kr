@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: 09db9d25-7d58-4725-a252-4a07baadf046
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 279e3d134af967467f195f155373bba725b031e0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 938d080aa61f8370be00069aa9399b195d31d296
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53895222"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55001305"
 ---
 # <a name="ca2151-fields-with-critical-types-should-be-security-critical"></a>CA2151: 중요한 형식이 포함된 필드는 보안에 중요한 필드여야 합니다.
 
@@ -27,7 +27,7 @@ ms.locfileid: "53895222"
 
 ## <a name="cause"></a>원인
 
-보안 투명 필드 또는 안전 중요 필드가 선언되었습니다. 해당 형식은 보안에 중요한 것으로 지정되었습니다. 예:
+보안 투명 필드 또는 안전 중요 필드가 선언되었습니다. 해당 형식은 보안에 중요한 것으로 지정되었습니다. 예를 들어:
 
 ```csharp
 [assembly: AllowPartiallyTrustedCallers]

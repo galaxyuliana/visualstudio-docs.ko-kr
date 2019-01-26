@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: e99442c9-70e2-47f3-b61a-d8ac003bc6e5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: de8df7e124cd8dd8ba9764add4006f7244155de8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a57b3f094449665ec49688b21ebf89dc8b7a1669
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53882080"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998237"
 ---
 # <a name="ca2213-disposable-fields-should-be-disposed"></a>CA2213: 삭제 가능한 필드는 삭제해야 합니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "53882080"
 
 [!code-csharp[FxCop.Usage.IDisposableFields#1](../code-quality/codesnippet/CSharp/ca2213-disposable-fields-should-be-disposed_2.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.IDisposable?displayProperty=fullName>
 - [삭제 패턴](/dotnet/standard/design-guidelines/dispose-pattern)

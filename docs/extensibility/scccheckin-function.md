@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: e3f26ac2-6163-42e1-a764-22cfea5a3bc6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5d86530497620dfab79490e6128cff29cb2fb2d7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a211c7e3c338c962c75d31871515c4398dd04406
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53822864"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998471"
 ---
 # <a name="scccheckin-function"></a>SccCheckin 함수
 이전에 체크 아웃 된 파일이 원본 제어 시스템에 변경 내용을 저장 하 고 새 버전을 만드는이 함수를 확인 합니다. 이 함수는 개수 및 체크 인 파일의 이름 배열을 사용 하 여 호출 됩니다.  
@@ -52,7 +52,7 @@ SCCRTN SccCheckin (
  lpComment  
  [in] 각 체크 인 되 고 선택한 파일에 적용할 주석 처리 합니다. 이 매개 변수는 `NULL` 주석에 대 한 소스 제어 플러그 인에서 메시지를 표시 하는 경우.  
   
- 옵션이  
+ fOptions  
  [in] 명령 플래그, 0 또는 `SCC_KEEP_CHECKEDOUT`합니다.  
   
  pvOptions  

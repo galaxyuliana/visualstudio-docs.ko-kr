@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 9a3f5b83-60b5-4ef0-91fe-a432105bd066
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 50c9ce5079f15c945c963f530997d9bbc333bc42
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 631ccf0b9bd48278318c857e5b6011898bac72ae
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53832611"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014603"
 ---
 # <a name="attach-to-the-program"></a>프로그램에 연결
 적절 한 포트를 사용 하 여 프로그램을 등록 한 후에 디버그 하려는 프로그램에는 디버거를 연결 해야 합니다.  
@@ -57,7 +57,7 @@ ms.locfileid: "53832611"
     > [!NOTE]
     >  이 다릅니다 `IDebugProgram2` 에 전달 된 개체는 `IDebugEngine2::Attach` 메서드. 이전에 전달 된 `IDebugProgram2` 개체 에서만 포트에서 인식 되 고 별도 개체입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [실행 기반 첨부 파일](../../extensibility/debugger/launch-based-attachment.md)   
  [이벤트 전송](../../extensibility/debugger/sending-events.md)   
  [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)   
@@ -68,5 +68,5 @@ ms.locfileid: "53832611"
  [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md)   
  [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)   
  [IDebugProgramEx2](../../extensibility/debugger/reference/idebugprogramex2.md)   
- [연결](../../extensibility/debugger/reference/idebugprogramex2-attach.md)   
+ [Attach](../../extensibility/debugger/reference/idebugprogramex2-attach.md)   
  [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md)
