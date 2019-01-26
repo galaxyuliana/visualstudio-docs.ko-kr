@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 8d73df73-cfff-4b8b-b426-d6051edb1939
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a7ee7d44d6087ea53cf0ae063ce3bcb7473157aa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d4576160183067828f21787af9e24f6e034cad56
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826181"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012157"
 ---
 # <a name="idebugprogram2"></a>IDebugProgram2
 이 인터페이스는 프로세스에서 실행 중인 프로그램을 나타냅니다.  
@@ -76,7 +76,7 @@ IDebugProgram2 : IUnknown
  [GetProgram](../../../extensibility/debugger/reference/idebugthread2-getprogram.md)   
  [다음](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md)   
  [이벤트](../../../extensibility/debugger/reference/idebugportevents2-event.md)   
- [연결](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
+ [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
  [DestroyProgram](../../../extensibility/debugger/reference/idebugengine2-destroyprogram.md)   
  [이벤트](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)   
  [Attach_V7](../../../extensibility/debugger/reference/idebugprogramnode2-attach-v7.md)

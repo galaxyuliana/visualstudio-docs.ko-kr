@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: b514f2e4-767c-4b94-ac61-dd3a54d4b96d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 788884590054b29ae31df9c5ba2ca31ac0ea5c49
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 32d79ef9b17453995bee5979bc6ce6b065a7e9cb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53954028"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55006023"
 ---
 # <a name="send-activity-designer"></a>Sent 활동 디자이너
 
@@ -56,7 +56,7 @@ ms.locfileid: "53954028"
 | <xref:System.ServiceModel.Activities.Send.EndpointAddress%2A> | | 메시지가 전달될 <xref:System.ServiceModel.EndpointAddress>입니다. |
 | <xref:System.ServiceModel.Activities.Send.EndpointConfigurationName%2A> | | 엔드포인트 구성의 이름입니다. 이 속성은 구성 파일에서 엔드포인트를 구성할 때 설정됩니다. 이 속성에 지정 된 이름으로 설정 해야 합니다  **\<끝점 >** 프로그램 구성 파일의 요소입니다. 이 속성을 설정 하는 경우는 <xref:System.ServiceModel.Activities.Send.Endpoint%2A> 속성은 같아야 **null**합니다. |
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md)
 - [CorrelationScope](../workflow-designer/correlationscope-activity-designer.md)

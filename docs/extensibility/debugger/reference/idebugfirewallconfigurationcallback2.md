@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 0827361c-b97c-4851-9898-ab6d88c81811
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0348f1414224a3b9d092b5d7c1623de9720c9e34
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f4b2aa5c4e45dbdf126a0144ebdfd9a0b102e170
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53960828"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010287"
 ---
 # <a name="idebugfirewallconfigurationcallback2"></a>IDebugFirewallConfigurationCallback2
 요청에 DCOM을 사용 하는 디버그 엔진을 사용 하도록 설정 된 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 방화벽이 원격 디버깅을 차단 하지는 않아야 하는 UI입니다.  

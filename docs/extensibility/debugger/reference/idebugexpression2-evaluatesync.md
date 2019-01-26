@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 88964915-dce3-4005-b4f3-9f37415e41e4
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 48e72b61f6d7504572ebcf5e9bed4be062307ed1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 573d808990dd9752d17dfea8490ac4834fac3b94
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53850767"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55006543"
 ---
 # <a name="idebugexpression2evaluatesync"></a>IDebugExpression2::EvaluateSync
 이 메서드는 동기적으로 식을 계산 합니다.  
@@ -58,7 +58,7 @@ int EvaluateSync(
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 몇 가지 일반적인 오류 코드:  
   
-|오류|설명|  
+|Error|설명|  
 |-----------|-----------------|  
 |E_EVALUATE_BUSY_WITH_EVALUATION|다른 식이 계산 되는 현재 및 동시 식 계산에 사용할 수 없습니다.|  
 |E_EVALUATE_TIMEOUT|평가 시간이 초과 되었습니다.|  

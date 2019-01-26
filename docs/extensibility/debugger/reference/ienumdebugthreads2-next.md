@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: bcffd954-3c67-4867-96f3-041ddb3e34d4
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d3e38dcb9943bff6a2d4dd073f5b06d6b731aadf
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 180fee2d7e5839e23d86e0f9389864ae9ad14f52
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53937120"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009624"
 ---
 # <a name="ienumdebugthreads2next"></a>IEnumDebugThreads2::Next
 열거형에서 다음 요소 집합을 반환합니다.  
@@ -51,7 +51,7 @@ int Next(
  [out] 에 실제로 반환 된 요소의 수를 반환 합니다. `rgelt`합니다.  
   
 ## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`합니다. 반환 `S_FALSE` 요소의 요청 된 수보다 적은; 반환 될 수 있으면이 고, 그렇지 오류 코드를 반환 합니다.  
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 요소의 요청 된 수보다 적은; 반환 될 수 있으면이 고, 그렇지 오류 코드를 반환 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)   

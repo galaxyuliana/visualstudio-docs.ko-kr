@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 097108c3-f758-4b87-89d6-b32d12d9041a
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4386294f6c2e3b4a3f81b0cf46f8804c53f490d9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 42b41ee59f842c277400ba03ff682a757d5343e8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933890"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009832"
 ---
 # <a name="command-design"></a>명령 디자인
 VSPackage에 명령을 추가할 때 표시할 경우, 사용 가능한 경우 및 처리 하는 방법 지정 해야 합니다.  

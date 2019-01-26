@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 12bc1f12-47b1-44f6-b8db-862aa88d50d1
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c42cd3d937cd12ae11d6550fec119ea47c2a6025
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 818e086b5b4f02ad37614ca40d38560176088fc8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53857817"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010092"
 ---
 # <a name="how-to-provide-a-service"></a>방법: 서비스를 제공 합니다.
 VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 수 있습니다. 서비스를 제공 하는 VSPackage에 서비스 Visual Studio를 등록 하 고 서비스를 추가 해야 합니다.  

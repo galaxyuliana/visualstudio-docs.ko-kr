@@ -13,15 +13,15 @@ dev_langs:
 - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 47f90e0a9ca01e76ea1a3686c790dcf00a4becde
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: dd5053f3774c7a92d16690883a0845ba7bae32db
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53860782"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55008935"
 ---
 # <a name="anonymous-methods-and-code-analysis"></a>무명 메서드 및 코드 분석
 
@@ -164,6 +164,6 @@ class Class
 - 선언 **무명 메서드** 공용 생성자에서는 모든 생성자 체인입니다.
 - 선언 **무명 메서드** 초기화 메서드에서 모든 생성자에 의해 호출 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [관리 코드 품질 분석](../code-quality/code-analysis-for-managed-code-overview.md)

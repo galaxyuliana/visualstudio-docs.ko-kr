@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 96f760163fcbe80e53cca78f7d554563ff6b7225
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2e2d680bb1342b66ac8fc063ff2fb840c63d05cf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53934416"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010118"
 ---
 # <a name="how-to-open-project-specific-editors"></a>방법: 프로젝트별 편집기 열기
 프로젝트에서 열려 있는 항목 파일을 기본적으로 해당 프로젝트에 대 한 특정 편집기에 바인딩되어 있으면 프로젝트 프로젝트별 편집기를 사용 하 여 파일을 열어야 합니다. 파일은 편집기를 선택 하는 IDE 메커니즘으로 위임할 수 없습니다. 예를 들어 표준 비트맵 편집기를 사용 하는 대신 프로젝트에 고유한 파일의 정보를 인식 하는 특정 비트맵 편집기를 지정 하려면이 프로젝트별 편집기 옵션을 사용할 수 있습니다.  
@@ -51,7 +51,7 @@ ms.locfileid: "53934416"
   
 6.  호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> 메서드를 표시 하 고 보기를 엽니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [열기 및 프로젝트 항목 저장](../extensibility/internals/opening-and-saving-project-items.md)   
  [방법: 표준 편집기 열기](../extensibility/how-to-open-standard-editors.md)   
  [방법: 열린 문서에 대 한 편집기 열기](../extensibility/how-to-open-editors-for-open-documents.md)

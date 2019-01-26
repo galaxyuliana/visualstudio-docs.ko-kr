@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b2913ea1645ab7fced11aa64e671a5c0f0a87edc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9c6628692014cd495490384e8a707c23fdcb3bde
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53844982"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012952"
 ---
 # <a name="how-to-suppress-code-analysis-warnings-for-generated-code"></a>방법: 생성된 코드에 대한 코드 분석 경고 표시 안 함
 관리 되는 코드 컴파일러는 종종 코드를 빠르게 개발할 수 있도록 프로젝트에 추가 되는 코드를 생성 합니다. 또한 개발자는 종종 응용 프로그램을 신속 하 게 개발 하는 데 타사 도구를 사용 합니다. 이러한 도구는 또한 프로젝트에 추가 되는 코드를 생성 합니다.

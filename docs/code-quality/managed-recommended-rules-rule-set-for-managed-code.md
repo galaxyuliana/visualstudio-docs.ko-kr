@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: 1d1160f8-4e51-4e70-99cd-82ad10ee7b32
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 257cd658d798f620a5dd3faf47edea7b1454e7bc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fa15f79be09b9663fb8fc98e32e09e20a030a5d4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987139"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009598"
 ---
 # <a name="managed-recommended-rules-rule-set-for-managed-code"></a>관리 코드에 대한 관리 권장 규칙 규칙 집합
 Microsoft 관리 권장 규칙이라는 규칙 집합을 사용하여 잠재적 보안 허점, 응용 프로그램 충돌 및 기타 중요한 논리 및 디자인 오류와 같은 관리 코드의 가장 중요한 문제에 초점을 맞출 수 있습니다. 프로젝트에 대해 만든 모든 사용자 지정 규칙 집합에이 규칙 집합을 포함 해야 합니다.

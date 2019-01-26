@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: c360d2ad-fe42-4d65-899d-d1588cc8a322
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3129fe384dc434f10024336a3e53864babcd5eb4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d001e324352c566d71e66ae26d769cc8f3c2f644
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53917412"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55011522"
 ---
 # <a name="query-edit-query-save-source-control-vspackage"></a>쿼리 편집, 쿼리 저장(소스 제어 VSPackage)
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 편집기 쿼리 편집 쿼리 저장 (QEQS) 이벤트를 브로드캐스트할 수 있습니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 원본 제어 스텁 QEQS 이벤트 수신자 되도록 QEQS 서비스를 구현 합니다. 그런 다음 이러한 이벤트는 현재 소스 제어 VSPackage에 위임 됩니다. 현재 소스 제어 VSPackage 구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> 및 해당 메서드. 메서드는 `IVsQueryEditQuerySave2` 인터페이스는 일반적으로 문서를 처음으로 및 문서가 저장 될 직전 편집할 직전 호출 됩니다.  

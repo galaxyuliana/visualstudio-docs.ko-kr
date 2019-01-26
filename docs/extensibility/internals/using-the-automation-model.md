@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 0c7f7889-fbfb-4b19-804f-b742138baecd
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b4b13613c93c96b2ce709a9c9e1d082d0f7e8242
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 39c3de415e7c0c8f95380a76de7f8f8a717d97d4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826642"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015435"
 ---
 # <a name="using-the-automation-model"></a>자동화 모델 사용
 속성 및 메서드를 호출 하 여 가져올 수 있습니다 자동화에 VSPackage를 연결한 후 합니다 <xref:EnvDTE.DTEClass.GetObject%2A> 메서드는 <xref:EnvDTE._DTE> 개체를 검색 하려는 개체를 나타내는 문자열을 전달 합니다.  

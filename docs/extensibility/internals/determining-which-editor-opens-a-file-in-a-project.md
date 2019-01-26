@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: acbcf4d8-a53a-4727-9043-696a47369479
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b61aa726a7088d08db6d759a9835816dcaf826a7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea1e91ef3f3ea7bdbefaf0cd13f9cac742b17701
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941062"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014941"
 ---
 # <a name="determine-which-editor-opens-a-file-in-a-project"></a>프로젝트에서 파일을 엽니다는 편집기 결정
 사용자의 프로젝트에서 파일을 열면 환경 최종적으로 적절 한 편집기를 열거나 해당 파일에 대 한 디자이너는 폴링 프로세스를 진행 합니다. 환경에서 사용 되는 초기 절차 표준 및 사용자 지정 편집기에 대해 동일 합니다. 파일 열기를 사용 하는 편집기를 폴링할 때이 환경에서는 다양 한 조건 및 VSPackage이이 프로세스 중 환경과 조정 해야 합니다.  
@@ -39,7 +39,7 @@ ms.locfileid: "53941062"
   
  환경에는 이제 등록된에 대 한 새로 등록 된 편집기 팩터리를 찾을 편집기의 내부 목록을 재확인 *.rtf* 파일입니다. 환경 구현의 호출 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> 메서드를 만들려면 뷰 형식과 파일 이름을 전달 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat>   
  <xref:Microsoft.VisualStudio.OLE.Interop.IPersistStorage>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>   

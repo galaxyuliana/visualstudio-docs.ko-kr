@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: cad0a859-7a84-4ce5-b0a9-f7f64e5f8ebb
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: be2d4745a4d11dd10c299637487a6f69488a4242
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2d30c57139141bf0d739097032064190f4fcd3da
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874111"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009962"
 ---
 # <a name="hierarchies-and-selection"></a>계층 구조 및 선택
 사용자 지정할 때 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]를 이해 해야 하는 방법을 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 프로젝트 및 사용자에 게 표시 되는 내용을 확인 하려면 선택 항목 컨텍스트를 사용 하는 방법 등의 계층이 처리 합니다. 이 섹션의 개념을 설명 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 계층 및 선택 합니다.  
