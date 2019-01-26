@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 902e764d-200e-46e1-8c42-4da7b037f9a0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 717820bdd16daf9c32b32d873035a652d68f6348
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e02c061e6f85ad25e6cd9509b8a86a977a78cbba
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965102"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54978518"
 ---
 # <a name="sccaddfromscc-function"></a>SccAddFromScc 함수
 이 함수는 이미 소스 제어 시스템에 있는 파일을 찾을 수 있도록 하 고 이후에 현재 프로젝트의 일부인 이러한 파일을 확인 합니다. 예를 들어이 함수 파일을 복사 하지 않고 현재 프로젝트에 공통 헤더 파일을 가져올 수 있습니다. 파일의 반환 배열 `lplpFileNames`, IDE 프로젝트에 추가 하는 사용자가 파일의 목록을 포함 합니다.  
@@ -67,6 +67,6 @@ SCCRTN SccAddFromScc (
 > [!NOTE]
 >  VSSCI API의 초기 버전에 추가 된 파일에 대 한 대상 프로젝트를 표시 하는 방법을 제공 하지 않았습니다. 이의 의미 체계에 맞게는 `lplpFIleNames` 매개 변수는 출력 매개 변수 보다는 입/출력 매개 변수를 확인 하려면 향상 되었습니다. 단일 파일을 지정 하는 경우 즉, 값을 가리키는 `lpnFiles` = 1 이면 첫 번째 요소 `lplpFileNames` 대상 폴더를 포함 합니다. 이러한 새로운 의미 체계를 호출 하 여 IDE 사용 하는 `SccSetOption` 함수를 사용 합니다 `nOption`매개 변수 설정 `SCC_OPT_SHARESUBPROJ`합니다. 경우에 소스 제어 플러그 인 의미 체계를 지원 하지 않습니다, 반환 `SCC_E_OPTNOTSUPPORTED`합니다. 따라서 사용 하지 않도록 설정 사용을 수행 하는 **소스 제어에서 추가** 기능입니다. 경우 플러그 인을 지원 합니다 **소스 제어에서 추가** 기능 (`SCC_CAP_ADDFROMSCC`), 새로운 의미 체계를 지원 하 고 반환 하는 다음 `SCC_I_SHARESUBPROJOK`합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [SccSetOption](../extensibility/sccsetoption-function.md)
