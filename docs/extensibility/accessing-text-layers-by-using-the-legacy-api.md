@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 2258fcdd-38d1-479d-b8f8-1d4e6525f72c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 47085216c6f20ca1add535a76ce4f5fb4043a6dd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d231914b024c6a8eca8024bd7bb652d05b4e1a8d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53945940"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55013628"
 ---
 # <a name="access-text-layers-by-using-the-legacy-api"></a>기존 API를 사용 하 여 액세스 텍스트 계층
 일반적으로 텍스트 레이어에 텍스트 레이아웃의 일부 측면을 캡슐화합니다. 예를 들어, "함수에서-한 번" 계층 캐럿 (텍스트 삽입 지점)이 포함 된 함수 앞뒤 텍스트를 숨깁니다.  
@@ -45,7 +45,7 @@ ms.locfileid: "53945940"
   
 -   외에 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLayer>, 텍스트 레이어를 구현 해야 합니다 <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> 에서 이벤트를 발생 시키는 및는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLinesEvents> 인터페이스입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [사용자 지정 편집기의 구문 색 지정](../extensibility/syntax-coloring-in-custom-editors.md)   
  [텍스트 마커를 사용 하 여 기존 API를 사용 하 여](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [기존 API를 사용 하 여 편집기 컨트롤 및 메뉴를 사용자 지정](../extensibility/customizing-editor-controls-and-menus-by-using-the-legacy-api.md)

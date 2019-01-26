@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f710dfed6a6f5225fd74f828077eb228124714c5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 971c7179b281771e20681da59753b774c395f32a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956805"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012757"
 ---
 # <a name="sccdirqueryinfo-function"></a>SccDirQueryInfo 함수
 이 함수는 현재 상태에 대 한 정규화 된 디렉터리의 목록을 검사합니다.  
@@ -64,6 +64,6 @@ LPLONG  lpStatus
 > [!NOTE]
 >  소스 제어 플러그 인을 하나 이상 상태 값은 구현 하지 하기로 구현 되지 않은 비트를 0으로 설정 되어야 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [디렉터리 상태 코드](../extensibility/directory-status-code-enumerator.md)

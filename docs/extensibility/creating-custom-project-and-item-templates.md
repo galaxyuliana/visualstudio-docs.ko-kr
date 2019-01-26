@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d8864c7b3e5bd43de58032daf88a947cd4082c0e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aeb08af2edeea8650303b8e954bc7d3b42ef2641
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53822335"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012250"
 ---
 # <a name="create-custom-project-and-item-templates"></a>사용자 지정 프로젝트 및 항목 템플릿 만들기
 
@@ -82,7 +82,7 @@ Visual Studio SDK에는 사용자 지정 프로젝트 템플릿 및 사용자 �
 
 5.  프로젝트 템플릿 프로젝트의 경우에 나열 된 프로젝트 템플릿을 표시 되어야 합니다 **새 프로젝트** 대화 상자 (**파일** > **새로 만들기**  >  **프로젝트**), Visual C# 또는 Visual Basic 노드. 항목 템플릿 프로젝트의 경우에 나열 된 항목 템플릿을 표시 되어야 합니다 **새 항목 추가** 대화 합니다. 보려는 합니다 **새 항목 추가** 대화 상자에서에서 합니다 **솔루션 탐색기**프로젝트 노드를 선택 하 고 클릭 **추가** > **새 항목**).
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 [Visual Studio 템플릿 참조](../ide/creating-project-and-item-templates.md)
 [Visual Studio 템플릿의 NuGet 패키지](/nuget/visual-studio-extensibility/visual-studio-templates)

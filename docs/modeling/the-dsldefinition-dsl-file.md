@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, definition file
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: c0f69d660a1693e42662a82a2a19ce790725fb43
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4aff681c72b17882db8f7e97daae45bb5da69347
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53869257"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54995871"
 ---
 # <a name="the-dsldefinitiondsl-file"></a>DslDefinition.dsl 파일
 
@@ -177,7 +177,7 @@ DSL 정의에 포함되는 대부분의 요소는 직간접적으로 `DomainClas
 
 -   **GeneratesDoubleDerived.** 이 특성이로 설정 된 경우 true 이면 두 클래스가 생성 되며, 않으며 하나가 다른 서브 클래스입니다. 생성된 모든 메서드는 기본 클래스에 있으며 생성자는 서브클래스에 있습니다. 이 특성을 설정하면 사용자 지정 코드에서 생성된 메서드를 재정의할 수 있습니다.
 
--   **HasCustomConstructor**합니다. 이 특성을 true로 설정하면 생성된 코드에서 생성자가 생략되어 원하는 버전을 직접 작성할 수 있습니다.
+-   **HasCustomConstructor**. 이 특성을 true로 설정하면 생성된 코드에서 생성자가 생략되어 원하는 버전을 직접 작성할 수 있습니다.
 
 -   **특성**합니다. 이 특성은 생성된 클래스의 CLR 특성을 포함합니다.
 
@@ -185,7 +185,7 @@ DSL 정의에 포함되는 대부분의 요소는 직간접적으로 `DomainClas
 
 -   **속성**합니다. 이 특성은 트랜잭션 제어 하에 유지 관리되며 모델 저장 시 영구 저장되는 속성을 포함합니다.
 
--   **ElementMergeDirectives**합니다. 각 요소 병합 지시문은 타 클래스의 다른 인스턴스가 부모 클래스 인스턴스에 추가되는 방법을 제어합니다. 요소 병합 지시문에 대한 자세한 내용은 이 항목 뒷부분에서 확인할 수 있습니다.
+-   **ElementMergeDirectives**. 각 요소 병합 지시문은 타 클래스의 다른 인스턴스가 부모 클래스 인스턴스에 추가되는 방법을 제어합니다. 요소 병합 지시문에 대한 자세한 내용은 이 항목 뒷부분에서 확인할 수 있습니다.
 
 -   `Classes` 섹션에 나열된 각 도메인 클래스에 대해 C# 클래스가 생성됩니다. C# 클래스는 Dsl\GeneratedCode\DomainClasses.cs에 생성됩니다.
 
@@ -262,9 +262,9 @@ OutPort 클래스 멤버를 InPort 클래스 멤버에 연결하는 Connection �
 
 모든 클래스에서 사용 가능한 특성 및 자식 노드 외에 각 관계에는 다음 클래스도 포함됩니다.
 
--   **IsEmbedding**합니다. 이 부울 특성은 관계가 포함 트리의 일부분인지를 지정합니다. 모든 모델은 포함 관계로 트리를 형성해야 합니다. 따라서 모든 도메인 컨트롤러는 모델의 루트가 아니면 포함 관계 하나 이상의 대상이어야 합니다.
+-   **IsEmbedding**. 이 부울 특성은 관계가 포함 트리의 일부분인지를 지정합니다. 모든 모델은 포함 관계로 트리를 형성해야 합니다. 따라서 모든 도메인 컨트롤러는 모델의 루트가 아니면 포함 관계 하나 이상의 대상이어야 합니다.
 
--   **AllowsDuplicates**합니다. 기본적으로 false로 설정되는 이 부울 특성은 소스 및 대상 둘 다에서 다중성이 "다"인 관계에만 적용됩니다. 이 특성은 언어 사용자가 같은 관계의 링크 둘 이상을 사용하여 단일 소스 및 대상 요소 쌍을 연결할 수 있는지 여부를 결정합니다.
+-   **AllowsDuplicates**. 기본적으로 false로 설정되는 이 부울 특성은 소스 및 대상 둘 다에서 다중성이 "다"인 관계에만 적용됩니다. 이 특성은 언어 사용자가 같은 관계의 링크 둘 이상을 사용하여 단일 소스 및 대상 요소 쌍을 연결할 수 있는지 여부를 결정합니다.
 
 ## <a name="designer-and-toolbox-tabs"></a>Designer 및 ToolboxTab
 
@@ -520,7 +520,7 @@ DslDefinition.dsl 파일 자체는 serialize된 파일로, DSL 정의를 준수�
 
 -   **ExposesFillColorAsProperty** 및 여러 유사한 특성. 이러한 부울 특성은 사용자가 해당 속성을 변경할 수 있도록 합니다. 일반적으로 언어 사용자가 다이어그램의 셰이프를 클릭 하면 속성에 표시 되는 **속성** 은 모양이 매핑된 도메인 클래스 인스턴스는 창입니다. `ExposesFillColorAsProperty`를 true로 설정하면 모양 자체의 속성도 표시됩니다.
 
--   **ShapeHasDecorators**합니다. 각 텍스트, 아이콘 또는 확장/축소 Decorator에 대해 이 특성의 인스턴스가 표시됩니다. DslDefinition.dsl 파일에서 `ShapeHasDecorators`는 `UseFullForm`이 true로 설정된 관계입니다.
+-   **ShapeHasDecorators**. 각 텍스트, 아이콘 또는 확장/축소 Decorator에 대해 이 특성의 인스턴스가 표시됩니다. DslDefinition.dsl 파일에서 `ShapeHasDecorators`는 `UseFullForm`이 true로 설정된 관계입니다.
 
 ## <a name="shape-maps"></a>모양 맵
 

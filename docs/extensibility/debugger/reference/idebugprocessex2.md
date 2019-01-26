@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 44e309ba-1d6f-499b-aa7e-9b34858a6d57
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e331702c98656fd0bee31c1b6e1a130fe2c30f77
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 05e4218e18772e581af1651c354c717002fee19d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53962836"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54996027"
 ---
 # <a name="idebugprocessex2"></a>IDebugProcessEx2
 이 인터페이스는 세션을 디버그 관리자 (SDM)에 연결 되었거나 프로세스에서 분리 하는 프로세스를 알릴 수 있습니다.  

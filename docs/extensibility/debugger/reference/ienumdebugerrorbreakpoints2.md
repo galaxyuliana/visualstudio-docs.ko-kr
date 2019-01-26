@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: ffdad73d-969a-45ef-9ad1-7f5d3b814018
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0e193c0174bd5327843e93c95ff5cb50156ce08f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ac234aca006136068d1fc348627ce0003130ea89
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841213"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009325"
 ---
 # <a name="ienumdebugerrorbreakpoints2"></a>IEnumDebugErrorBreakpoints2
 이 인터페이스는 보류 중인 중단점을 사용 하 여 연결 된 오류 중단점을 열거 합니다.  

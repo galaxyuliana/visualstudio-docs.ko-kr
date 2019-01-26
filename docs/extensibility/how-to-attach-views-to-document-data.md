@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: f92c0838-45be-42b8-9c55-713e9bb8df07
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 38818faa83f1fe901c5c3b19786aff8b3935f3b2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1e9aa7b4a36f1d3a073bb13188954a1159012797
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53870101"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010040"
 ---
 # <a name="how-to-attach-views-to-document-data"></a>방법: 문서 데이터에 보기 연결
 새 문서 보기에 있는 경우에 기존 문서 데이터 개체에 연결할 수 있습니다.  
@@ -42,6 +42,6 @@ ms.locfileid: "53870101"
 ## <a name="robust-programming"></a>강력한 프로그래밍  
  Visual Studio의 사용자 구현을 호출 하는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> 메서드를 전달 다시에 대 한 포인터를 기존 문서 데이터 개체에는 `punkDocDataExisting` 있으면 매개 변수입니다. 반환 하는 문서 데이터 개체를 검사 `punkDocDataExisting` 문서 데이터 개체를이 항목의 절차의 4 단계에서 참고에 설명 된 대로 편집기에 대 한 적절 한 경우를 확인 합니다. 적절 한 경우에 설명 된 대로 편집기 팩터리의 데이터에 대 한 두 번째 보기를 제공 해야 [여러 문서 보기 지원](../extensibility/supporting-multiple-document-views.md)합니다. 그렇지 않은 경우 다음 적절 한 오류 메시지가 표시 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [여러 문서 보기를 지원 합니다.](../extensibility/supporting-multiple-document-views.md)   
  [문서 데이터 및 사용자 지정 편집기의 문서 뷰](../extensibility/document-data-and-document-view-in-custom-editors.md)

@@ -6,15 +6,15 @@ ms.topic: reference
 ms.assetid: 3c4032ee-0805-4581-8c48-b1827cd6b213
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: a0c0eb4edfb58d740692f2afff187659a665b234
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3dea6c153196223f91726eaaedcace4f62c2868c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53936986"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015266"
 ---
 # <a name="globalization-rules-rule-set-for-managed-code"></a>관리 코드에 대한 전역화 규칙 규칙 집합
 Microsoft 전역화 규칙 규칙 집합 다른 언어, 로캘 및 문화권에서 올바르게 표시 응용 프로그램에서 데이터를 방해할 수 있는 문제에 초점을 사용할 수 있습니다. 응용 프로그램 전역화, 지역화 된 경우이 규칙 집합 또는 둘 다 포함 해야 합니다.
