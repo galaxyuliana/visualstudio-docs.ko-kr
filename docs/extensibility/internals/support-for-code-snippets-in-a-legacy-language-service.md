@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f5437f511eda582f2de7b28cc35716b0148df254
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c6fb944ce92613a4352d7b69c0975d39791be2cb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852955"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948988"
 ---
 # <a name="support-for-code-snippets-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 조각 지원
 코드 조각은 소스 파일에 삽입 되는 코드입니다. 코드 조각 자체는 XML 기반 서식 파일 필드 집합이 포함 된 경우 이러한 필드에는 코드 조각이 삽입 되 고 코드 조각 삽입 되는 컨텍스트에 따라 다른 값을 가질 수 후 강조 표시 됩니다. 코드 조각을 삽입 한 후에 즉시 코드 조각 언어 서비스에 서식을 지정할 수 있습니다.  
@@ -85,11 +85,11 @@ ms.locfileid: "53852955"
   
 |요소|설명|  
 |-------------|-----------------|  
-|LCID %|로캘 id입니다.|  
-|% InstallRoot %|예를 들어, C:\Program Files\Microsoft Visual Studio 8 Visual Studio에 대 한 루트 설치 폴더입니다.|  
-|% ProjDir|현재 프로젝트를 포함 하는 폴더입니다.|  
-|% ProjItem|현재 프로젝트 항목을 포함 하는 폴더입니다.|  
-|% TestDocs|사용자의 설정 폴더, 예: C:\Documents and Settings 폴더\\ *[username]* documents\visual Studio\8 합니다.|  
+|%LCID%|로캘 id입니다.|  
+|%InstallRoot%|예를 들어, C:\Program Files\Microsoft Visual Studio 8 Visual Studio에 대 한 루트 설치 폴더입니다.|  
+|%ProjDir%|현재 프로젝트를 포함 하는 폴더입니다.|  
+|%ProjItem%|현재 프로젝트 항목을 포함 하는 폴더입니다.|  
+|%TestDocs%|사용자의 설정 폴더, 예: C:\Documents and Settings 폴더\\ *[username]* documents\visual Studio\8 합니다.|  
   
 ### <a name="enabling-code-snippets-for-your-language-service"></a>언어 서비스에 대 한 코드 조각 사용  
  언어 서비스에 대 한 코드 조각을 추가 하 여 설정할 수 있습니다.는 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute> VSPackage 특성 (참조 [레거시 언어 서비스 등록](../../extensibility/internals/registering-a-legacy-language-service1.md) 세부 정보에 대 한). <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute.ShowRoots%2A> 및 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute.SearchPaths%2A> 매개 변수는 선택적 이지만 포함 해야 합니다 `SearchPaths` 에 알리기 위해 명명 된 매개 변수를 **코드 조각 관리자** 조각의 위치입니다.  

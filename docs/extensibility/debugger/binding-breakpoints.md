@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 70737387-c52f-4dae-8865-77d4b203bf25
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 263e339fa4ab8001fcd542f7dcedd10b5a24659a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7e1f2e0d1964f742a7dba9ff2dfc7576d86a1a21
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988782"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54971090"
 ---
 # <a name="bind-breakpoints"></a>중단점 바인딩
 사용자 설정 중단점, 아마도 키를 눌러 **F9**, IDE 요청을 작성 하 고 중단점을 만들려고 하면 디버그 세션의 메시지를 표시 합니다.  
@@ -53,5 +53,5 @@ ms.locfileid: "53988782"
   
  독일에 바인딩할 수도 DE 중단점을 처리 하지만, 일부 다른 바인딩할 수 없습니다 경우 경고를 반환 합니다. IDE는 소스 코드 줄의 왼쪽에 중단점 문자 모양 내 질문 문자 모양을 배치 하 여 응답 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [디버깅 작업](../../extensibility/debugger/debugging-tasks.md)

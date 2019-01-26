@@ -10,22 +10,22 @@ helpviewer_keywords:
 ms.assetid: 6aaaa155-6ce0-4f7f-aa50-8d63d7a7c992
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1bbdff5e2dcee4611b5a46cc74f0255f94d30744
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 747cf53056b7f1d5ccd982e81f92db2c2dd84472
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868505"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54984953"
 ---
 # <a name="locationfield-element-visual-studio-project-templates"></a>LocationField 요소 (Visual Studio 프로젝트 템플릿)
 지정 여부는 **위치** 텍스트 상자에 **새 프로젝트** 대화 상자 활성화, 비활성화 또는 프로젝트 템플릿에 대 한 숨겨진 합니다.  
   
  \<VSTemplate>  
  \<TemplateData>  
- \<LocationField >  
+ \<LocationField>  
   
 ## <a name="syntax"></a>구문  
   
@@ -94,6 +94,6 @@ ms.locfileid: "53868505"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)

@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 21ee64ce-9afe-4b08-94a0-8389cc4dc67c
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3123624460066a70c35d988a0723c019516502ff
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5e179c47cc9a4ce5a1c9538340d31e0089255a34
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926189"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54953369"
 ---
 # <a name="walkthrough-link-a-content-type-to-a-file-name-extension"></a>연습: 파일 이름 확장명에 콘텐츠 형식 링크
 고유의 콘텐츠 형식을 정의 하 고 편집기 프레임 워크 MEF (Managed Extensibility) 확장을 사용 하 여 파일 이름 확장명을 링크 수 있습니다. 경우에 따라 파일 확장명을 언어 서비스로 이미 정의 되었습니다. 하지만 MEF와 함께 사용 하려면 연결 해야 합니다도 콘텐츠 형식입니다.  
@@ -101,5 +101,5 @@ ms.locfileid: "53926189"
     [ContentType("hid")]  
     ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)

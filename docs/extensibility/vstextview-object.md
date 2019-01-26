@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 78272ddc-9718-4c65-a94e-a44a2e8d54f4
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7ac87435175b0959e371af24438926f838971d02
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f8de4ad6c467c2f72743bd6e5aa3a80f629c6f1b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866272"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54953893"
 ---
 # <a name="vstextview-object"></a>VSTextView 개체
 텍스트 보기에는 사용자가 보고 텍스트 버퍼의 유니코드 텍스트를 편집할 수 있는 창입니다. 기본적으로 뷰는 편집기로 대부분의 사용자가 어떤 가리킵니다. 뷰는 버퍼에서 다양 한 텍스트 계층 (줄 바꿈, 개요 텍스트 및 등)로 구분 됩니다, 때문에 뷰 버퍼에 있는 텍스트의 정확한 표시 되도록 보장 되지 않습니다. 텍스트 보기에 대 한 자세한 내용은 참조 하세요. [기존 API를 사용 하 여 텍스트 보기에 액세스](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)  
@@ -37,7 +37,7 @@ ms.locfileid: "53866272"
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLayeredTextView>|텍스트 계층 상호 작용합니다.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsThreadSafeTextView>|다른 스레드에서 작업을 수행합니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [그림 편집](https://www.microsoft.com/download/details.aspx?id=55984)   
  [VSTextBuffer 개체](../extensibility/vstextbuffer-object.md)   
  [기존 API를 사용 하 여 텍스트 보기에 액세스](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)

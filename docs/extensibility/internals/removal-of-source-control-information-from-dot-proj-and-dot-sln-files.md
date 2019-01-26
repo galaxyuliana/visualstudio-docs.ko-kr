@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 7b06883f-35de-41e2-9a9e-d3edba236f17
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 97ebd46d985a58ac0caffb81bf9acd77f5942077
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1cd49b27804e35e28395c78a6e177db1461a54f4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935244"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943372"
 ---
 # <a name="removal-of-source-control-information-from-proj-and-sln-files"></a>.Proj 및 .Sln 파일에서 소스 제어 정보 제거
 SCC는 원본 제어 플러그 인 API 버전 1.2에에서 정보를 MSSCCPRJ에 저장 됩니다. SCC 파일입니다. MSSCCPRJ 활용 합니다. SCC 파일은는 SCC 정보는 원본이 아닌-.proj 및.sln 파일에는 것을 제어 합니다.  

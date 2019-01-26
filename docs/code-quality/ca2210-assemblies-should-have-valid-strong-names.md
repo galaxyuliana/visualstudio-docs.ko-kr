@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 8ed33d1c-8ec6-4b47-a692-e22dc8693088
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f3d6eb70e22da0b17fff9febce47bcaa5b980269
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ed9c934c118f70af7cba5e474bd3d777c77c888b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53908353"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54968455"
 ---
 # <a name="ca2210-assemblies-should-have-valid-strong-names"></a>CA2210: 어셈블리에는 올바른 강력한 이름을 사용해야 합니다.
 
@@ -97,9 +97,9 @@ ms.locfileid: "53908353"
 
 환경에서 어셈블리를 사용 하는 경우이 규칙에서 경고를 표시만 콘텐츠를 변조 하지 않아도 되는 경우.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName>
 - <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName>
-- [방법: 강력한 이름의 어셈블리에 서명](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)
+- [방법: 강력한 이름으로 어셈블리 서명](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)
 - [Sn.exe(강력한 이름 도구)](/dotnet/framework/tools/sn-exe-strong-name-tool)

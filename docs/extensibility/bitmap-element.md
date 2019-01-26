@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: edcd7891-f4e7-416d-809d-5e2eed9f17e4
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dbdd61e22a392309c45005c0e183704c6b84040c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 687523f54d10a6a43e5db8d46ab391f53caf8c94
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53879373"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54972237"
 ---
 # <a name="bitmap-element"></a>Bitmap 요소
 비트맵을 정의합니다. 비트맵 파일 또는 리소스에서 로드 됩니다.  
@@ -57,5 +57,5 @@ ms.locfileid: "53879373"
   usedList="1, 2, 3, 4"/>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

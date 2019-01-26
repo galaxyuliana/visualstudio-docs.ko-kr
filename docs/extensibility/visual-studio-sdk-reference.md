@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8281a6d367ae4d6b51576160479ba492ebdf805a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c55997b47c0195083957ebc4564ca7db6991686d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53943343"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54990123"
 ---
 # <a name="visual-studio-sdk-reference"></a>Visual Studio SDK 참조
 이 섹션에서는 Visual Studio SDK를 사용 하는 개발자를 위한 Visual Studio 네임 스페이스, 관련된 네임 스페이스 및 관심 있는 다른 영역에 대 한 정보를 포함 합니다.  

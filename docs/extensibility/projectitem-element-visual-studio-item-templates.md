@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 9ed94112-0c38-49df-b728-0dd2d0d1eb47
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a27c297dd9b33bbbe02b7addb827323505a7156d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: de479c78d5699fc904174368044a82af5dd64103
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956064"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54980728"
 ---
 # <a name="projectitem-element-visual-studio-item-templates"></a>ProjectItem 요소 (Visual Studio 항목 템플릿)
 항목 템플릿에 포함 된 파일을 지정 합니다.  
@@ -28,8 +28,8 @@ ms.locfileid: "53956064"
 >  `ProjectItem` 요소는 프로젝트 또는 항목에 대 한 템플릿을 인지에 따라 다른 특성을 허용 합니다. 이 항목에 설명 합니다 `ProjectItem` 항목에 대 한 요소입니다. 에 대 한 설명은 합니다 `ProjectItem` 프로젝트 템플릿에 대 한 요소 참조 [ProjectItem 요소 (Visual Studio 프로젝트 템플릿)](../extensibility/projectitem-element-visual-studio-project-templates.md)합니다.  
   
  \<VSTemplate>  
- \<TemplateContent >  
- \<ProjectItem >  
+ \<TemplateContent>  
+ \<ProjectItem>  
   
 ## <a name="syntax"></a>구문  
   

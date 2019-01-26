@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 35b3c2f3-69f4-4013-b555-f847221f62e8
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e35c132acb8d6ac9efe6791bc83ae2bc749f4dc5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 537d72c4ebf91b4ffbde90d7f6a5cdff3c3d2225
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53903684"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54988196"
 ---
 # <a name="idebugreference2enumchildren"></a>IDebugReference2::EnumChildren
 선택한 자식 참조의 목록을 가져옵니다. 나중에 사용하기 위해 예약되어 있습니다.  

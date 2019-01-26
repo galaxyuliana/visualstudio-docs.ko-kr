@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 8d096de3-33b4-427a-a122-4aeff8a72da0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cffc59c0bcaed2797b5f2548a47c067d04da56ba
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 24fb5b51dbb2d377aee4f4bcd376c3e3745e6a26
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53893933"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55037865"
 ---
 # <a name="editor-imports"></a>편집기 가져오기
 편집기 서비스, 팩터리 및 핵심 편집기를 다양 한 종류의 액세스를 사용 하 여 확장을 제공 하는 브로커의 숫자를 가져올 수 있습니다. 예를 들어, 가져올 수 있습니다 합니다 <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> 을 제공 하기는 <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigator> 지정된 된 콘텐츠 형식에 대 한 합니다. (이 검색기 허용 텍스트 버퍼에서 다른 유형의 검색을 수행 합니다.)  

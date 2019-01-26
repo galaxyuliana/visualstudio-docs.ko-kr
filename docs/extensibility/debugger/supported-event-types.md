@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: a3c0386d-551e-4734-9a0c-368d1c2e6671
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3fc11158987ecb1d7401f1127318138c0b865f96
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d272ae5499d28b0290d45947b35bf6e7f7f41b8c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53901794"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952249"
 ---
 # <a name="supported-event-types"></a>지원 되는 이벤트 유형
 현재 visual Studio 디버깅 다음 이벤트 유형을 지원합니다.  
@@ -53,7 +53,7 @@ ms.locfileid: "53901794"
 > [!NOTE]
 >  합니다 [IDebugEngine2](../../extensibility/debugger/reference/idebugengine2.md) 인터페이스는 모든 이벤트에 대 한 필요 합니다.  
   
-|이벤트|IDebugProgram2|IDebugThread2|이벤트를 중지합니다.|  
+|이벤트(event)|IDebugProgram2|IDebugThread2|이벤트를 중지합니다.|  
 |-----------|--------------------|-------------------|---------------------|  
 |[IDebugActivateDocumentEvent2](../../extensibility/debugger/reference/idebugactivatedocumentevent2.md)|하지만 필수가 아닌 허용|하지만 필수가 아닌 허용|아니요|  
 |[IDebugBreakEvent2](../../extensibility/debugger/reference/idebugbreakevent2.md)|필수|필수|예|  
@@ -85,5 +85,5 @@ ms.locfileid: "53901794"
 |[IDebugThreadDestroyEvent2](../../extensibility/debugger/reference/idebugthreaddestroyevent2.md)|필수|필수|아니요|  
 |[IDebugThreadNameChangedEvent2](../../extensibility/debugger/reference/idebugthreadnamechangedevent2.md)|하지만 필수가 아닌 허용|하지만 필수가 아닌 허용|아니요|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [이벤트 전송](../../extensibility/debugger/sending-events.md)
