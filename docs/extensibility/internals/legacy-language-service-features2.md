@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 97c38622-ae0b-4ae0-90ed-604072c298d3
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dc86bda0bb0e9acf8c9ebb3fd248afd0fca4023c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6191d680a262cf76d38faf3a548cc2abb7fcacc0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53861490"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54983055"
 ---
 # <a name="legacy-language-service-features"></a>레거시 언어 서비스 기능
 다음 항목을 제공할 수 있습니다 하는 레거시 언어 서비스 기능 중 일부를 나열 합니다.  

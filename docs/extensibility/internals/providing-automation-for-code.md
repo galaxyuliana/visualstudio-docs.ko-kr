@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 21cb3e63-f25c-404b-bc1d-a32ad0fdd4d5
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3922de57a275dd24ce3161209b7775db104afada
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4adbc5385923e071e158734500e30a6a05832a1f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53896437"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54976221"
 ---
 # <a name="providing-automation-for-code"></a>코드에 대한 자동화 제공
 코드에 대 한 자동화 모델을 만들 필요는 없습니다. 환경 SDK는 이렇게 하는 것에 대 한 샘플을 제공 하지 않습니다. 코드 모델에 대 한 정보를 참조 하세요.를 <xref:EnvDTE.CodeModel> 개체입니다.  

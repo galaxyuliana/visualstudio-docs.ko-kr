@@ -6,16 +6,16 @@ helpviewer_keywords:
 - Domain-Specific Language, providing overridable classes
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 3ea0446d53ad3cc74bd8af96e95fabada1098da5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d96ad4d297fac21f9efd0b67c40308af9c2ed29d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929282"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54978245"
 ---
 # <a name="override-and-extend-the-generated-classes"></a>재정의 하 고 생성된 된 클래스를 확장 합니다.
 
@@ -91,6 +91,6 @@ Partial 클래스 정의 생성된 된 파일을 별개의 파일을 작성 하 
 
 도형 일부 이벤트를 구독할 수 있습니다. 예를 들어 마우스 클릭에 수신 대기할 수 있습니다. 각 개체에 대 한 이벤트를 구독 하는 코드를 작성 해야 합니다. InitializeInstanceResources() 재정의에서이 코드를 작성할 수 있습니다.
 
-일부 이벤트에 데코레이터를 그리는 데 사용 되는 ShapeFields에 생성 됩니다. 예를 들어 참조 [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)합니다.
+일부 이벤트에 데코레이터를 그리는 데 사용 되는 ShapeFields에 생성 됩니다. 예는 [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)합니다.
 
 이러한 이벤트 일반적으로 발생 하지 않습니다는 트랜잭션 내에서. 저장소에서 변경 하려는 경우 트랜잭션을 만들어야 합니다.

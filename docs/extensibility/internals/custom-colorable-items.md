@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5777c5bf6340ac25888bf4a8446c61a68757c6fb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 690770c2091d3c0a983b91b9a25afc3d3eb4b348
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989754"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54974021"
 ---
 # <a name="custom-colorable-items"></a>사용자 지정 색 항목
 언어 서비스의 일부로 사용자 지정 색 항목을 구현 하 여 형식 목록을 키워드 및 주석 등의 색을 지정 재정의할 수 있습니다.  
@@ -30,7 +30,7 @@ ms.locfileid: "53989754"
 > [!CAUTION]
 >  기존 색 항목 이름과 충돌 하지 않도록 하려면 색 항목 이름에 언어 이름을 포함 해야 합니다. 개발 중 색 항목 중 하나의 이름을 변경한 경우에 색 항목 액세스 된 처음 만들어진 캐시를 다시 설정 해야 합니다. 실험적 캐시를 다시 설정할 수 있습니다 합니다 **CreateExpInstance** 디렉터리에 일반적으로 Visual Studio SDK와 함께 설치 되는 도구:  
 >   
->  *C:\Program 파일 (x86) \Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin*
+>  *C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin*
 >   
 >  캐시를 재설정 하려면 입력 **CreateExpInstance /Reset**합니다. 에 대 한 자세한 내용은 **CreateExpInstance**를 참조 하십시오 [CreateExpInstance 유틸리티](../../extensibility/internals/createexpinstance-utility.md)합니다.  
   
@@ -64,7 +64,7 @@ ms.locfileid: "53989754"
   
     구현 하는 방법의 예는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem> 하 고 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem> 인터페이스를 참조 하세요. <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem>.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [레거시 언어 서비스의 모델](../../extensibility/internals/model-of-a-legacy-language-service.md)   
  [사용자 지정 편집기의 구문 색 지정](../../extensibility/syntax-coloring-in-custom-editors.md)   
  [레거시 언어 서비스의 구문 색 지정](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   

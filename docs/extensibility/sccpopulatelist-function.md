@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 7416e781-c571-4a7f-8af3-a089ce8be662
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b41cea5b06022764e2f05ddd32f1ed476934f691
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 519dfe37e6c2120534722a85cb07b7cace143d46
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53887778"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54973397"
 ---
 # <a name="sccpopulatelist-function"></a>SccPopulateList 함수
 이 함수는 특정 원본 제어 명령 위한 파일의 목록을 업데이트 하 고 모든 지정 된 파일에 소스 제어 상태를 제공 합니다.  
@@ -59,7 +59,7 @@ SCCRTN SccPopulateList (
  lpStatus  
  [out에서] 각 파일에 대 한 상태 플래그를 반환 하는 플러그 인 소스 제어에 대 한 배열입니다.  
   
- 옵션이  
+ fOptions  
  [in] 명령 플래그 ("PopulateList 플래그" 섹션을 참조 하세요 [비트는 특정 명령에 사용](../extensibility/bitflags-used-by-specific-commands.md) 세부 정보에 대 한).  
   
 ## <a name="return-value"></a>반환 값  
