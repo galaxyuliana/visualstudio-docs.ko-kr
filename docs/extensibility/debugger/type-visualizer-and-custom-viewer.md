@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: fd3691e6-9c78-4767-846f-43f85ada4375
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0879d18922e730d9cd737bdefde52576b6b03638
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b09dc2d578ade421d35bb17dfbdf01e93313bbdb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53948565"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926868"
 ---
 # <a name="type-visualizer-and-custom-viewer"></a>형식 시각화 도우미 및 사용자 지정 뷰어
 형식 시각화 도우미는 특정 형식의 데이터를 표시 하는 구성 요소입니다. 형식은 완전히 시각화 도우미를 구현 하는 최대 수는 최종 사용자 또는 시각화 도우미의 타사 공급 업체입니다.  
@@ -29,7 +29,7 @@ ms.locfileid: "53948565"
 ## <a name="support-for-custom-viewers-in-an-expression-evaluator"></a>사용자 지정 뷰어에 식 계산기에 대 한 지원  
  EE 자체는 EE 보기 데이터 형식에 대 한 코드를 제공 하는 사용자 지정 뷰어를 기능도 사용할 수 있습니다. 사용자 지정 뷰어를 구현 합니다 [IDebugCustomViewer](../../extensibility/debugger/reference/idebugcustomviewer.md) 인터페이스의 모든 형식으로 데이터를 보여 주는 모든 업무를 처리 하는 필요한; 뷰어에 표시를 완전히 제어할와 데이터를 수정할 수 있습니다. EE 제품 제공 되는 경우는 EE에서 제공 하는 모든 사용자 지정 뷰어가 제공 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고자료  
  [디버거 구성 요소](../../extensibility/debugger/debugger-components.md)   
  [식 계산기](../../extensibility/debugger/expression-evaluator.md)   
  [디버그 엔진](../../extensibility/debugger/debug-engine.md)   

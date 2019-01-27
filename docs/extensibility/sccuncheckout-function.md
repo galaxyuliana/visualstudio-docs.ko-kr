@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 6d498b70-29c7-44b7-ae1c-7e99e488bb09
 author: gregvanl
 ms.author: gregvanl
-manager: douge
+manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fa00faf6fb7605af6098952b2fc592276934d2f1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: acded327d8e1b5b1b2bec0b804e6e72ac157be1a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923220"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54950574"
 ---
 # <a name="sccuncheckout-function"></a>SccUncheckout 함수
 이 함수에는 선택한 하나 이상의 파일의 콘텐츠를 체크 아웃 하기 전의 상태로 복원 이전 체크 아웃 작업을 실행 취소 합니다. 체크 아웃 이후에 파일에 대 한 모든 변경 내용이 손실 됩니다.  
@@ -48,7 +48,7 @@ SCCRTN SccUncheckout (
  lpFileNames  
  [in] 체크 아웃을 취소 하려는 파일의 정규화 된 로컬 경로 이름 배열입니다.  
   
- 옵션이  
+ fOptions  
  [in] 명령 플래그 (사용 되지 않음)입니다.  
   
  pvOptions  
