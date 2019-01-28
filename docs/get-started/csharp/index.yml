@@ -1,18 +1,18 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: f65c4c6ea5ed255f40467839e5fa41c879d422f2
-ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
+ms.openlocfilehash: 7da3e8111a16a8003331de0c388805c459cefa07
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54204322"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014071"
 documentType: LandingData
-title: Visual Studio | C#
+title: Visual Studio 자습서 | C#
 metadata:
   title: Visual Studio를 사용한 C# 개발 | Microsoft Docs
   description: Visual Studio를 사용하여 C# 앱을 개발하는 방법에 대한 자습서 및 문서를 제공합니다.
   ms.custom: seodec18
   author: ghogen
-  manager: douge
+  manager: jillfra
   ms.prod: visual-studio-dev15
   ms.technology: vs-acquisition
   ms.topic: landing-page
@@ -20,6 +20,8 @@ metadata:
   ms.author: ghogen
   dev_langs:
   - CSharp
+abstract:
+  description: 이 페이지에는 Visual Studio를 사용하여 C# 앱을 만드는 방법을 배우기 위한 초보자를 위한 자습서에 대한 링크가 포함되어 있습니다. 전체 Visual Studio 설명서는 <a href="/visualstudio/ide/">Visual Studio</a>를 참조하세요. C# 언어 설명서는 <a href="/dotnet/csharp">C# 가이드</a>를 참조하세요.
 sections:
 - title: 시작
   items:
