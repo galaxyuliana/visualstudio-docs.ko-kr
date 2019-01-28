@@ -3,9 +3,15 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio 설명서 | Microsoft Docs
 titleSuffix: ''
-description: 'Visual Studio 2017을 사용하여 플랫폼 및 장치에 대해 선택한 언어로 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.'
+description: Visual Studio 2017을 사용하여 플랫폼 및 장치에 대해 선택한 언어로 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.
 ms.topic: hub-page
 ms.custom: seodec18
+ms.openlocfilehash: bddd51f4544c1eb96c309330d6cda04e6589db44
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55032213"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -101,7 +107,7 @@ ms.custom: seodec18
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h2>언어 선택</h2>
+                                                <h2>자습서 수행</h2>
                                                 <table cellpadding="0" cellspacing="0" border="0">
                                                     <tr>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">

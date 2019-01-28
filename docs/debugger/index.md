@@ -6,13 +6,13 @@ ms.custom: seodec18
 ms.topic: landing-page
 ms.author: mikejo
 author: mikejo5000
-manager: douge
-ms.openlocfilehash: 79a3aa8fd2d86b7c64d719dc745138b970b92d3c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: 93117ddabe3184d5e1900b68f058a7a5f3dba711
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886639"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55030511"
 ---
 # <a name="debugging-in-visual-studio"></a>Visual Studio의 디버깅
 
@@ -48,7 +48,7 @@ Visual Studio 디버거를 사용하여 프로그램의 런타임 동작을 관�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>버그를 줄이면서 C# 코드를 작성해 보세요.</h3>
+                        <h3>디버깅 기술 및 도구</h3>
                     </div>
                 </div>
             </div>
