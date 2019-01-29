@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: douge
 ms.workload:
 - multiple
-ms.openlocfilehash: 6c1ca9466f4b70f7232cb1832fe05794b8cffd45
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 77ae08c713c4afb617e5626b26f0ed010d13e906
+ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53951500"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54269438"
 ---
 # <a name="com-debugging-tools"></a>COM 디버깅 도구
 
@@ -45,6 +45,6 @@ MFC ActiveX 샘플 OCLIENT 및 SUPERPAD도 응용 프로그램을 테스트하�
 - [COM 및 ActiveX 디버깅](../debugger/com-and-activex-debugging.md)
 - [COM 디버깅 도구](../debugger/com-debugging-tools.md)
 - [Visual Studio의 디버깅](../debugger/index.md)
-- [디버거 기능 둘러보기](../debugger/debugger-feature-tour.md)
+- [디버거 소개](../debugger/debugger-feature-tour.md)
 - [샘플 OCLIENT: 비주얼을 편집 컨테이너 응용 프로그램을 보여 줍니다.](https://msdn.microsoft.com/library/8cd5c234-9a4e-4934-8f5d-bac189ad92c4)
 - [SUPERPAD 샘플: CEditView를 사용하여 텍스트를 편집하는 비주얼 편집 서버를 보여 줍니다](https://msdn.microsoft.com/library/7b14e975-d986-4e6a-8289-226485cfcb72)
