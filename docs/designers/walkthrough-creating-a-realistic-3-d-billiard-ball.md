@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: af8eb0f3-bf6a-4d1c-ab47-dcd88ab04efa
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 75b7b405ba9e25a94c8db22c4ddf5e4a0aedad09
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6c1b1292bbd1c1f734fc7aa949d6af0ac1d0fad1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913493"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54938005"
 ---
 # <a name="walkthrough-create-a-realistic-3d-billiard-ball"></a>연습: 사실적인 3D 당구공 만들기
 
@@ -58,7 +58,7 @@ ms.locfileid: "53913493"
 
     ![당구공 질감](../designers/media/gfx_shader_demo_billiard_art_ball_texture.png)
 
-4. 필요한 경우 이 질감의 저장소 요구 사항을 줄여야 할 수 있습니다. 질감의 너비를 높이에 맞게 줄이면 됩니다. 그러면 너비에 따라 질감이 압축되지만 질감이 구에 매핑된 방식으로 인해 당구공이 렌더링될 때 질감이 확장됩니다. 크기를 조정한 후 질감은 다음과 같이 표시됩니다.
+4. 필요한 경우 이 질감의 스토리지 요구 사항을 줄여야 할 수 있습니다. 질감의 너비를 높이에 맞게 줄이면 됩니다. 그러면 너비에 따라 질감이 압축되지만 질감이 구에 매핑된 방식으로 인해 당구공이 렌더링될 때 질감이 확장됩니다. 크기를 조정한 후 질감은 다음과 같이 표시됩니다.
 
     ![사각형으로 압축된 당구공 질감](../designers/media/gfx_shader_demo_billiard_art_ball_texture_square.png)
 
