@@ -1,4 +1,19 @@
 ---
+title: 기존 코드로 AI 프로젝트를 만듭니다.
+author: lisawong19
+ms.author: liwong
+manager: routlaw
+ms.date: 11/13/2017
+ms.topic: conceptual
+ms.service: multiple
+ms.workload:
+- multiple
+ms.openlocfilehash: a2a09fd3214cddf4f63fd2c32874db5b67a9b9dc
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54760441"
 ---
 # <a name="create-an-ai-project-from-existing-code"></a>기존 코드로 AI 프로젝트를 만듭니다.
 

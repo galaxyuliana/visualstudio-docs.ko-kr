@@ -19,12 +19,12 @@ helpviewer_keywords:
 - conversion, projects
 - asset compatibility
 - projects, conversion
-ms.openlocfilehash: a8161fd7534554da0ad45b3aa2b985a68dd9e49d
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 52decfae74eb978aeb43aad37fabb9e03ed23978
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "53067063"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54768834"
 ---
 # <a name="project-migration-and-upgrade-reference-for-visual-studio-2017"></a>프로젝트 마이그레이션 및 Visual Studio 2017에 대한 업그레이드 참조
 
@@ -95,7 +95,7 @@ ms.locfileid: "53067063"
 
 이 컨텍스트에서 수동으로 프로젝트를 최신 `ToolsVersion` 값으로 업데이트하거나 마이그레이션해야 하는지 여부의 의문이 자연스럽게 발생합니다. 이러한 변경은 필요하지 않으며, 프로젝트를 다시 빌드하도록 수정해야 하는 많은 오류 및 경고를 발생시킬 가능성이 있습니다. 또한 Visual Studio가 향후 특정 `ToolsVersion`에 대한 지원을 중단하는 경우 특히 `ToolsVersion` 값을 변경해야 하기 때문에 프로젝트를 열면 프로젝트 마이그레이션 프로세스를 트리거하게 됩니다. 이러한 경우 해당 특정 프로젝트 형식에 대한 하위 시스템은 변경될 사항을 정확히 알고 이 아티클의 앞에서 설명한 대로 자동으로 이러한 변경을 수행할 수 있습니다.
 
-# <a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 
 자세한 논의 내용은 다음 아티클을 참조하십시오.
 
