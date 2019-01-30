@@ -4,16 +4,16 @@ ms.date: 05/31/2018
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - uwp
 author: gewarren
-ms.openlocfilehash: 1498da202cb6964ced513c6fa42804ac6841c0ef
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7221f5ac3f966e41d0dbe7978cd9f59ad225d34a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863737"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54992427"
 ---
 # <a name="set-a-unique-automation-property-for-uwp-controls-for-testing"></a>테스트를 위해 UWP 컨트롤에 대한 고유 자동화 속성 설정
 

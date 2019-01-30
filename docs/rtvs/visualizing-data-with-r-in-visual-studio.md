@@ -6,15 +6,15 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 8b0c633e3236f537e9f631df12a5af597e67475c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bc568c6e2e28d27516ac5a92d7ccd01d3704bb7c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53859083"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009936"
 ---
 # <a name="create-visual-data-plots-with-r"></a>R을 사용하여 시각적 데이터 플롯 만들기
 
@@ -38,7 +38,7 @@ ms.locfileid: "53859083"
 
 플롯 생성 시 모든 이전 플롯을 플롯 기록에 저장하는 “활성” 플롯 창이 사용됩니다([플롯 기록](#plot-history) 참조). 예를 들어 `plot(100:1)`을 입력하면 첫 번째 플롯이 아래쪽 방향 선으로 바뀝니다.
 
-모든 기타 Visual Studio 창처럼 플롯 창에서는 사용자 지정 레이아웃을 지원합니다([Visual Studio에서 창 레이아웃 사용자 지정](../ide/customizing-window-layouts-in-visual-studio.md) 참조). 플롯 창은 Visual Studio 프레임 내의 여러 위치에 고정되거나, 해당 프레임 내에서 크기가 조정되거나, 독립적인 크기 조정을 위해 프레임에서 완전히 분리됩니다. 
+모든 기타 Visual Studio 창처럼 플롯 창에서는 사용자 지정 레이아웃을 지원합니다([Visual Studio에서 창 레이아웃 사용자 지정](../ide/customizing-window-layouts-in-visual-studio.md) 참조). 플롯 창은 Visual Studio 프레임 내의 여러 위치에 고정되거나, 해당 프레임 내에서 크기가 조정되거나, 독립적인 크기 조정을 위해 프레임에서 완전히 분리됩니다.
 
 플롯 창의 크기를 조정하면 항상 플롯이 다시 렌더링되어 최고 품질의 이미지를 제공합니다. 일반적으로 다음 섹션에 설명된 명령을 사용하여 플롯을 파일 또는 클립보드로 내보내기 전에 플롯 크기를 조정하는 것이 좋습니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "53859083"
 
 플롯 창의 도구 모음에는 적용 가능한 명령이 포함되고 이러한 명령은 대부분 **R 도구** > **플롯** 메뉴를 통해서도 사용할 수 있습니다.
 
-| 단추 | 명령 | 설명 | 
+| 단추 | 명령 | 설명 |
 | --- | --- | --- |
 | ![새 플롯 창 단추](media/plotting-toolbar-01-new-plot-window.png) | 새 플롯 창 | 자체 기록이 포함된 별도의 플롯 창을 만듭니다. [여러 플롯 창](#multiple-plot-windows)을 참조하세요. |
 | ![플롯 창 활성화 단추](media/plotting-toolbar-02-activate-plot-window.png) | 플롯 창 활성화 | 현재 플롯 창을 활성 창으로 설정하므로 후속 `plot` 명령은 해당 창으로 렌더링됩니다. [여러 플롯 창](#multiple-plot-windows)을 참조하세요. [여러 플롯 창](#multiple-plot-windows)을 참조하세요. |
@@ -54,8 +54,8 @@ ms.locfileid: "53859083"
 | ![플롯 기록 단추](media/plotting-toolbar-04-plot-history-arrows.png) | 이전/다음 플롯 |  기록에서 이전 또는 다음 플롯으로 이동합니다. Ctrl+Alt+F11(이전) 및 Ctrl+Alt+F12(다음)를 사용하여 기록을 탐색할 수도 있습니다. [플롯 기록](#plot-history)을 참조하세요. |
 | ![이미지로 저장 단추](media/plotting-toolbar-05-save-as-image.png)| 이미지로 저장 | 파일 이름을 입력하라는 메시지를 표시하고 현재 플롯(창 콘텐츠, 창 크기)을 이미지 파일에 저장합니다. 사용 가능한 형식은 `.png`, `.jpg`, `.bmp` 및 `.tif`입니다. |
 | ![PDF로 저장 단추](media/plotting-toolbar-06-save-as-pdf.png)| PDF로 저장 | 현재 창 크기를 사용하여 현재 플롯을 PDF 파일로 저장합니다. PDF 크기를 조정하면 플롯이 다시 렌더링됩니다. |
-| ![비트맵으로 복사 단추](media/plotting-toolbar-07-copy-as-bitmap.png)| 비트맵으로 복사 | 현재 창 크기를 사용하여 플롯을 클립보드에 래스터 비트맵으로 복사합니다. | 
-| ![메타파일로 복사 단추](media/plotting-toolbar-08-copy-as-metafile.png)| 메타파일로 복사 | 플롯을 클립보드에 [Windows 메타파일](https://en.wikipedia.org/wiki/Windows_Metafile)(Wikipedia)로 복사합니다. | 
+| ![비트맵으로 복사 단추](media/plotting-toolbar-07-copy-as-bitmap.png)| 비트맵으로 복사 | 현재 창 크기를 사용하여 플롯을 클립보드에 래스터 비트맵으로 복사합니다. |
+| ![메타파일로 복사 단추](media/plotting-toolbar-08-copy-as-metafile.png)| 메타파일로 복사 | 플롯을 클립보드에 [Windows 메타파일](https://en.wikipedia.org/wiki/Windows_Metafile)(Wikipedia)로 복사합니다. |
 | ![플롯 제거 단추](media/plotting-toolbar-09-remove-plot.png)| 플롯 제거 | 기록에서 현재 플롯을 제거합니다. |
 | ![모든 플롯 지우기 단추](media/plotting-toolbar-10-clear-all-plots.png) | 모든 플롯 지우기 | 기록에서 모든 플롯을 제거합니다(확인 메시지 표시). |
 
@@ -84,7 +84,7 @@ ms.locfileid: "53859083"
 
 ## <a name="programmatically-manipulate-plot-windows"></a>프로그래밍 방식으로 플롯 창 조작
 
-디바이스 번호를 통해 특정 플롯 창을 식별하여 R 코드에서 플롯 창을 프로그래밍 방식으로 조작할 수 있습니다. 
+디바이스 번호를 통해 특정 플롯 창을 식별하여 R 코드에서 플롯 창을 프로그래밍 방식으로 조작할 수 있습니다.
 
 - `dev.list()`: 현재 R 세션 내의 그래픽 디바이스를 모두 나열합니다.
 - `dev.new()`: 새 그래픽 디바이스를 만듭니다(새 플롯 디바이스).

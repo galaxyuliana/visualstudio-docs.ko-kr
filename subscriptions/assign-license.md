@@ -2,19 +2,19 @@
 title: Visual Studio 구독에 라이선스 할당 | Microsoft Docs
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.date: 07/16/2018
 ms.topic: conceptual
 description: 관리자가 구독자에게 라이선스를 할당하는 방법을 알아봅니다.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 6f0bbded7682bd8f7162ae415c6c83711df04a04
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 4dfec16161f6cd6b875b38738a9340e12d62f975
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49931235"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54970125"
 ---
 # <a name="assign-licenses-in-the-visual-studio-subscriptions-administrator-portal"></a>Visual Studio 구독 관리자 포털에서 라이선스 할당
 
@@ -46,7 +46,7 @@ Visual Studio 구독 관리자는 관리자 포털을 사용하여 개별 사용
 
     구독에 고유한 참조 정보를 추가하려는 경우 **참조 추가** 섹션에서 수행할 수 있습니다.
    > [!div class="mx-imgBorder"]
-   > ![각 구독에 고유한 참조 정보 추가](media/add-subscriber-reference-notes.png) 
+   > ![각 구독에 고유한 참조 정보 추가](media/add-subscriber-reference-notes.png)
 
     옵션 선택 및 구독자에 대한 데이터 입력을 완료한 경우 **구독자 추가** 플라이아웃 맨 아래에 **추가**를 선택합니다.
    > [!div class="mx-imgBorder"]
@@ -54,7 +54,7 @@ Visual Studio 구독 관리자는 관리자 포털을 사용하여 개별 사용
 
 4. 구독자가 추가되면 새 구독자에게 추가 지침이 있는 할당 이메일을 자동으로 보냅니다. 구독자를 선택하고 위쪽 메뉴의 **다시 보내기** 단추를 클릭하여 할당 전자 메일을 다시 보낼 수 있습니다.
    > [!div class="mx-imgBorder"]
-   > ![필요한 때마다 활성화 이메일을 모든 사용자 또는 여러 사용자에게 다시 보내기](media/resend-subscriber-activation-emails.png) 
+   > ![필요한 때마다 활성화 이메일을 모든 사용자 또는 여러 사용자에게 다시 보내기](media/resend-subscriber-activation-emails.png)
 
 ## <a name="bulk-assignments"></a>대량 할당
 
@@ -65,7 +65,7 @@ Visual Studio 구독 관리자는 관리자 포털을 사용하여 개별 사용
 2. 대량 할당은 Microsoft Excel 템플릿을 사용하여 구독자를 업로드합니다. [여러 구독자 업로드] 대화 상자에서 **다운로드**를 클릭하여 템플릿을 다운로드합니다.
    > [!div class="mx-imgBorder"]
    > ![Excel 템플릿을 다운로드하여 여러 구독자 업로드](media/download-template-upload-subscribers.png)
-   > 
+   >
    > [!NOTE]
    > 항상 이 템플릿의 최신 버전을 다운로드합니다. 이전 버전을 사용하는 경우 대량 업로드가 실패할 수 있습니다.
 

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 4017d9d1-d609-4f41-8e4e-976abae746b3
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 21cb675136ba5180c8a7d26073ea16e6c6831aac
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 23bdb6bc462f88f1409fdfb3ab792bce092acb0c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53831682"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54961220"
 ---
 # <a name="collect-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line"></a>프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 자세한 타이밍 데이터 수집
 이 섹션에서는 명령줄 도구에서 계측 방법을 사용하여 클라이언트(독립 실행형) 구성 요소에 대한 자세한 성능 데이터를 수집하기 위한 절차 및 옵션을 설명합니다.  

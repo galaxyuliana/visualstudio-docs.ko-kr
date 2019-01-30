@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7b186f5be27bb1457b7d9beb1a056bec90821f45
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a535b49722c7022a105156c625139d0b8e94a35d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956155"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969670"
 ---
 # <a name="vbc-task"></a>Vbc 작업
 실행 파일(*.exe*), 동적 링크 라이브러리(*.dll*) 또는 코드 모듈(*.netmodule*)을 생성하는 *vbc.exe*를 래핑합니다. *vbc.exe*에 대한 자세한 내용은 [Visual Basic 명령줄 컴파일러](/dotnet/visual-basic/reference/command-line-compiler/index)를 참조하세요.  

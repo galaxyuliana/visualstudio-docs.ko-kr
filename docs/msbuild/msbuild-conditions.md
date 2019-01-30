@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 9d7aa308-b667-48ed-b4c9-a61e49eb0a85
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 781778e00424b88710775cf954e4bf5bba630f4d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 30ac71ccce1b237913db5acc8b34300b0517bcd6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53961649"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969748"
 ---
 # <a name="msbuild-conditions"></a>MSBuild 조건
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 `Condition` 특성이 허용될 때마다 적용할 수 있는 특정 조건 집합을 지원합니다. 다음 표에서는 이러한 조건에 대해 설명합니다.  

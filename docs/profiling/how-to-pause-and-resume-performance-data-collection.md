@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: b8e76363-65cd-424d-8173-3e2b5f54203b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 094b2c345cc308b822e13f9a2f4381a583a74824
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ebcfead4fa7e4192a45dab4d4d34f45d2e4717cc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53845449"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54961860"
 ---
 # <a name="how-to-pause-and-resume-performance-data-collection"></a>방법: 성능 데이터 수집 일시 중지 및 다시 시작
 프로파일링 세션 페이지 창에서 프로파일링 데이터의 컬렉션을 대화형으로 제어할 수 있습니다.  

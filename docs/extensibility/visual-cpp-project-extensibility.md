@@ -1,6 +1,6 @@
 ---
 title: Visual c + + 프로젝트 확장성
-ms.date: 09/12/2018
+ms.date: 01/25/2019
 ms.technology: vs-ide-mobile
 ms.topic: conceptual
 dev_langs:
@@ -10,12 +10,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 499e3776e81fcde3e89eb3436e3938f2feafb137
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e38ff6cf2912ccc18c27f517a35c7a543325a8eb
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55013706"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55232054"
 ---
 # <a name="visual-studio-c-project-system-extensibility-and-toolset-integration"></a>Visual Studio c + + 프로젝트 시스템 확장 및 도구 집합 통합
 
@@ -274,6 +274,8 @@ Microsoft.Cpp.Common.Tasks.dll 이러한 작업을 구현합니다.
 
 - `SetEnv`
 
+- `GetOutOfDateItems`
+
 도구가 있는 경우는 기존 도구와 동일한 작업을 수행 하는 및 유사한 명령줄 스위치 (마찬가지로 clang-cl와 CL)을 둘 다 동일한 태스크를 사용할 수 있습니다.
 
 빌드 도구에 대 한 새 작업을 만들려는 경우 다음 옵션 중에서 선택할 수 있습니다.
@@ -294,11 +296,14 @@ Microsoft.Cpp.Common.Tasks.dll 이러한 작업을 구현합니다.
 
 기본 MSBuild 증분 빌드를 사용 하 여 대상 `Inputs` 고 `Outputs` 특성입니다. 이러한 값을 지정 하는 경우 모든 출력 보다 최신 타임 스탬프가 입력 중 하나가 있으면만 MSBuild 대상을 호출 합니다. 소스 파일 종종 포함 또는 다른 파일을 가져오고 빌드 도구 생성 도구 옵션에 따라 다른 출력이, 때문에 가능한 모든 입력을 지정 하기가 어렵습니다 및 MSBuild 대상에 출력 합니다.
 
-이 문제를 관리 하려면 c + + 빌드는 증분 빌드를 지원 하기 위해 다른 기술을 사용 합니다. 대부분의 대상 입력 및 출력을 지정 하 고 결과적으로 빌드하는 동안 항상 실행 하지 않습니다. 대상에서 호출 하는 작업 모두에 대 한 정보 입력 및 출력을 쓸 *tlog* .tlog 확장명을 가진 파일입니다. 새로운 최신 기능 및.tlog 파일 변경 내용과 다시 작성 해야 하는 경우를 확인 하는 이후 빌드에서 사용 됩니다.
+이 문제를 관리 하려면 c + + 빌드는 증분 빌드를 지원 하기 위해 다른 기술을 사용 합니다. 대부분의 대상 입력 및 출력을 지정 하 고 결과적으로 빌드하는 동안 항상 실행 하지 않습니다. 대상에서 호출 하는 작업 모두에 대 한 정보 입력 및 출력을 쓸 *tlog* .tlog 확장명을 가진 파일입니다. 새로운 최신 기능 및.tlog 파일 변경 내용과 다시 작성 해야 하는 경우를 확인 하는 이후 빌드에서 사용 됩니다. 또한.tlog 파일은 IDE에서 기본 빌드 최신 검사에 대 한 유일한 원본입니다.
 
 모든 입력 및 출력을 확인 하려면 기본 도구 작업 tracker.exe를 사용 하며 [FileTracker](/dotnet/api/microsoft.build.utilities.filetracker) MSBuild에서 제공 하는 클래스입니다.
 
 Microsoft.Build.CPPTasks.Common.dll 정의 `TrackedVCToolTask` 공용 추상 기본 클래스입니다. 대부분의 기본 도구 작업은이 클래스에서 파생 됩니다.
+
+Visual Studio 2017 업데이트 15.8부터 사용할 수는 `GetOutOfDateItems` Microsoft.Cpp.Common.Tasks.dll 알려진 입력과 출력을 사용 하 여 사용자 지정 대상에 대 한.tlog 파일을 생성 하기 위해 구현 하는 작업입니다.
+사용 하 여 이러한를 만들 수는 또는 `WriteLinesToFile` 작업 합니다. 참조를 `_WriteMasmTlogs` 에서 대상 `$(VCTargetsPath)` \\ *BuildCustomizations*\\*masm.targets* 예입니다.
 
 ## <a name="tlog-files"></a>.tlog 파일
 
@@ -314,7 +319,6 @@ MSBuild는 이러한 도우미 클래스를.tlog 파일 읽기 및 쓰기를 제
 
 명령줄 빌드에 사용 하는 방법에 대 한 정보를 포함 하는 명령줄.tlog 파일입니다. 내부 형식을 생성 하는 MSBuild 태스크에 의해 결정 됩니다 있도록만 증분 빌드를 최신 상태가 아닌 검사에 사용 됩니다.
 
-.Tlog 파일 작업에 의해 생성 되 면을 만들고 이러한 도우미 클래스를 사용 하는 것이 적합 합니다. 그러나 기본 최신 검사 이제만.tlog 파일에 의존 하기 때문에 경우에 작업 없이 대상에서 생성 하는 것이 편리 합니다. 사용 하 여 작성할 수 있습니다는 `WriteLinesToFile` 작업 합니다. 참조를 `_WriteMasmTlogs` 에서 대상 `$(VCTargetsPath)` \\ *BuildCustomizations*\\*masm.targets* 예입니다.
 
 ### <a name="read-tlog-format"></a>읽기.tlog 형식
 

@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 52dcee2b-f178-4a76-bddc-e36c50bfcb78
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3fb8f3ca57ce189dc0bcecff5c755860f219a7ad
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d44b324197879e2c325aa487f9e28a814a626612
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53926649"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55029741"
 ---
 # <a name="how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line"></a>방법: 명령줄을 통해 프로파일러와 함께 독립 실행형 애플리케이션을 시작하여 애플리케이션 통계 수집
 이 항목은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구를 사용하여 독립 실행형 애플리케이션을 시작하고 샘플링 방법을 사용하여 성능 통계를 수집하는 방법을 설명합니다.  

@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: fbc31a88-62d4-43d2-b739-68ef3fac38f5
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 71c36b19b0fd44d6668cb497dccafaf12843a492
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 684f55b4b660c48c4186755737b3bc64c6e62788
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53884739"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55042675"
 ---
 # <a name="createproperty-task"></a>CreateProperty 작업
 전달된 값으로 속성을 채웁니다. 이를 통해 하나의 속성 또는 문자열에서 다른 속성 또는 문자열로 값을 복사할 수 있습니다.  
