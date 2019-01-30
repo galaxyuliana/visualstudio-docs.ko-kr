@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.topic: conceptual
 author: seaniyer
 ms.author: seiyer
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 06f7f3cc2d39a28052a0f34eed8ab36d224d4b8e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d01686d3e0bbc034095ae1b4ec54e5995fc6462f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53934361"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958734"
 ---
 # <a name="overview-report-a-problem"></a>Overview: ADO.NET Data Services 문제 보고
 
@@ -63,7 +63,7 @@ ms.locfileid: "53934361"
 
 - - -
 
-![종결 - 개발자 커뮤니티의 문제 보고에 대해 수정된 상태](../ide/media/ProblemStates/ClosedFixed.jpg) 
+![종결 - 개발자 커뮤니티의 문제 보고에 대해 수정된 상태](../ide/media/ProblemStates/ClosedFixed.jpg)
 
 **종결 - 수정됨**은 문제 해결책을 출시했음을 나타냅니다. 이제 문제는 또한 릴리스 버전을 지정하는 "수정 항목:" 태그로 태그가 지정되었습니다.
 

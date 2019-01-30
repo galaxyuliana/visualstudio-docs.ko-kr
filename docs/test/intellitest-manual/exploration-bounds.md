@@ -6,16 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - IntelliTest, Exploration bounds
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 718c8cfdf7b4d03ea0c1c3b5f9f4a120a5997a8e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8077b08765e1db372ec9f19c39e62f10dd2c285a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935465"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069917"
 ---
 # <a name="exploration-bounds"></a>탐색 경계
 
@@ -106,7 +106,7 @@ for (int i=0; i<100; i++) { }
 
 ```csharp
 [PexMethod]
-void ParameterizedTest(int n) 
+void ParameterizedTest(int n)
 {
      for (int i=0; i<n; i++) { // conditions are "0<n", "1<n", ..., "!(n<n)"
           ...
@@ -144,10 +144,10 @@ IntelliTest가 탐색 중에 고려할 최대 고유 경로 수입니다.
 
 이 탐색 경계의 목적은 루프 또는 반복이 포함된 코드에 무한 수의 실행 경로가 있으므로 [입력 생성](input-generation.md) 중에 IntelliTest를 제한하는 것입니다.
 
-두 가지 설정 **MaxRuns** 및 **MaxRunsWithUniquePaths**는 다음과 같이 관련됩니다. 
+두 가지 설정 **MaxRuns** 및 **MaxRunsWithUniquePaths**는 다음과 같이 관련됩니다.
 
 * IntelliTest는 다른 테스트 입력을 통해 매개 변수가 있는 테스트 메서드를 **MaxRuns**번까지 호출합니다.
-* 실행된 코드가 결정적이면 IntelliTest는 매번 다른 경로를 사용합니다. 그러나 조건에 따라 실행된 코드가 다른 입력을 통해 이전에 이미 사용된 실행 경로를 따를 수 있습니다. 
+* 실행된 코드가 결정적이면 IntelliTest는 매번 다른 경로를 사용합니다. 그러나 조건에 따라 실행된 코드가 다른 입력을 통해 이전에 이미 사용된 실행 경로를 따를 수 있습니다.
 * IntelliTest는 발견한 고유한 실행 경로 수를 계산합니다. 이 개수는 **MaxRunsWithUniquePaths** 옵션으로 제한됩니다.
 
 <a name="maxexceptions"></a>

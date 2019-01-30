@@ -6,16 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - IntelliTest, Static helper classes
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 09799a4625791efa137dc9b97b7c3ad9a041feae
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 56493da196a0d53ead738b2eff6d10a2f9328c37
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53897802"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54929327"
 ---
 # <a name="static-helper-classes"></a>정적 도우미 클래스
 
@@ -131,7 +131,7 @@ public static class MathEx {
 public partial class MathExTests {
      [PexMethod]
      public int SquareTest(int a) {
-        int result = MathEx.Square(a); 
+        int result = MathEx.Square(a);
         // storing result
         return result;
      }
@@ -149,7 +149,8 @@ public partial class MathExTests {
 
 **예제**
 
-이 예제에서는 **PexAssume.Arrays.ElementsAreNotNull** 메서드의 구현을 보여 줍니다. 이 메서드에서는 배열 값 길이에 대한 제약 조건을 무시하여 IntelliTest가 다양한 크기의 배열을 생성하지 않도록 합니다. 제약 조건은 여기에서만 무시됩니다. 테스트된 코드가 배열 길이에 따라 다르게 동작할 경우 IntelliTest는 테스트된 코드의 제약 조건에서 다양한 크기의 배열을 생성할 수 없습니다.
+이 예제에서는 **PexAssume.Arrays.ElementsAreNotNull** 메서드의 구현을 보여 줍니다.
+이 메서드에서는 배열 값 길이에 대한 제약 조건을 무시하여 IntelliTest가 다양한 크기의 배열을 생성하지 않도록 합니다. 제약 조건은 여기에서만 무시됩니다. 테스트된 코드가 배열 길이에 따라 다르게 동작할 경우 IntelliTest는 테스트된 코드의 제약 조건에서 다양한 크기의 배열을 생성할 수 없습니다.
 
 ```csharp
 public static void AreElementsNotNull<T>(T[] value)

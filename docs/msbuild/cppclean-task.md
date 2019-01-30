@@ -16,15 +16,15 @@ helpviewer_keywords:
 ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fbf575db0289f0b5bbb5fbcd0bf47605871e52c6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: faf3650bdc190f498d981db5a0cd50867e86cdba
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53966374"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54934880"
 ---
 # <a name="cppclean-task"></a>CPPClean 작업
 Visual C++ 프로젝트가 빌드될 때 MSBuild가 만드는 임시 파일을 삭제합니다. 빌드 파일을 삭제하는 프로세스는 *정리*라고 합니다.  

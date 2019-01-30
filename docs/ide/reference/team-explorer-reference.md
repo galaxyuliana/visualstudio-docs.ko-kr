@@ -5,13 +5,13 @@ ms.prod: visual-studio-dev15
 ms.topic: reference
 ms.author: kaelli
 author: KathrynEE
-ms.manager: douge
-ms.openlocfilehash: c4feda1f01e08807041efb9ae9b3d0bbe84d24b0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.manager: jillfra
+ms.openlocfilehash: 063c002b77761a14bf6a0bae8452b7ff28bd1b99
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53840754"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54918738"
 ---
 # <a name="team-explorer-reference"></a>팀 탐색기 참조
 
@@ -80,8 +80,12 @@ ms.locfileid: "53840754"
 - [Outlook을 사용하여 쿼리 결과 목록을 이메일로 보내기](/azure/devops/boards/queries/share-plans)
 - [Excel에서 쿼리로 보고서 만들기](/azure/devops/report/excel/create-status-and-trend-excel-reports)(TFS에만 해당)
 
+::: moniker range=">= vs-2019"
+
 > [!NOTE]
 > Visual Studio 2019 미리 보기 1에 새 [작업 항목 환경](/azure/devops/boards/work-items/set-work-item-experience-vs)이 있습니다. Visual Studio 2019 미리 보기 1에서 작업 항목을 보는 방법에 대한 자세한 내용은 [작업 항목 보기 및 추가](/azure/devops/boards/work-items/view-add-work-items)를 참조하세요.
+
+::: moniker-end
 
 ## <a name="builds-page"></a>빌드 페이지
 

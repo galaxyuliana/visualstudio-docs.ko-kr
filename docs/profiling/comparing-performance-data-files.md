@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: e6fda144-f21d-4912-9d16-1b8d3555a210
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e75a5da65343a08f0c94be27837e70f4078192d5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aec25bac7d1851095a9c7c5d96766b2326fb36ac
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53893051"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943067"
 ---
 # <a name="compare-performance-data-files"></a>성능 데이터 파일 비교
 프로파일링 도구 데이터 파일 비교 기능을 통해 두 개의 보고서 파일(.*vsp* 또는 .*vsps*)을 선택하고 프로파일링 세션 간에 발생하는 차이, 성능 저하 및 향상된 기능을 보여 주는 보고서를 생성할 수 있습니다.  
