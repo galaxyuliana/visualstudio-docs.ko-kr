@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: fa34810d-185a-4d22-92bd-9852915e5f1d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a1df3eea826f2b439d2dfb9d6607c1afded80421
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f6e840d64ebe91258104846903ae08a9fd2798b8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914003"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015613"
 ---
 # <a name="build-loggers"></a>빌드 로거
 로거는 빌드 출력을 사용자 지정하고 특정 빌드 이벤트에 대한 응답에 메시지, 오류 또는 경고를 표시하는 방법을 제공합니다. 각 로거는 <xref:Microsoft.Build.Framework.ILogger> 인터페이스를 구현하는 .NET 클래스로 구현됩니다. 이 인터페이스는 *Microsoft.Build.Framework.dll* 어셈블리에서 정의됩니다.  

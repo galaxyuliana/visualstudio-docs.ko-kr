@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 471e707b13992a0edf06eb8136d36f3f415b9d11
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b825cd17c11677b95f9400b56cf42c526292e5c5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922160"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55026039"
 ---
 # <a name="task-writing"></a>작업 작성
 작업은 빌드 프로세스 동안 실행되는 코드를 제공합니다. 작업은 대상에 포함되어 있습니다. 일반적인 작업의 라이브러리는 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에 포함되어 있으며 사용자 고유의 작업을 만들 수도 있습니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에 포함된 작업의 라이브러리에 대한 자세한 내용은 [작업 참조](../msbuild/msbuild-task-reference.md)를 참조하세요.  

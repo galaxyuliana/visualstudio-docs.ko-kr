@@ -1,22 +1,22 @@
 ---
 title: Python과 함께 CookieCutter 템플릿 사용
 description: Visual Studio는 Python 코드용 템플릿을 검색하고 해당 템플릿으로 프로젝트를 만들기 위한 그래픽 Cookiecutter 확장을 지원합니다.
-ms.date: 10/29/2018
+ms.date: 01/28/2019
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 1f5123323794d7a333440cb8aa94c51e44c8fc87
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b09e46f65d7aeafbf781af2a5e77ae9e4cc17ea0
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53958237"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231794"
 ---
 # <a name="use-the-cookiecutter-extension"></a>Cookiecutter 확장 사용
 
@@ -60,7 +60,7 @@ Cookiecutter 홈페이지에는 선택하여 다음과 같은 그룹으로 구�
 
 ![Cookiecutter 옵션 페이지](media/cookiecutter-template-options.png)
 
-각 Cookiecutter 템플릿마다 고유한 옵션 집합을 정의하고 각 옵션에 대해 기본값(각 입력 필드에 제안된 텍스트로 표시됨)을 지정합니다. 기본값은 종종 다른 옵션을 사용하는 동적 값인 경우 코드 조각일 수 있습니다. 
+각 Cookiecutter 템플릿마다 고유한 옵션 집합을 정의하고 각 옵션에 대해 기본값(각 입력 필드에 제안된 텍스트로 표시됨)을 지정합니다. 기본값은 종종 다른 옵션을 사용하는 동적 값인 경우 코드 조각일 수 있습니다.
 
 사용자 구성 파일을 사용하여 특정 옵션에 대한 기본값을 사용자 지정할 수 있습니다. Cookiecutter 확장에서 사용자 구성 파일을 감지하면 템플릿의 기본값을 사용자 구성 파일의 기본값으로 덮어씁니다. 이 동작에 대해서는 Cookiecutter 설명서의 [User Config](https://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html)(사용자 구성) 섹션에서 설명합니다.
 

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5797d004-2325-46cf-bbf3-6739a15958ec
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8c4c9eeffe2ac0a3b08d8379a50bb88e3c52cbfe
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 332202d5062b081227619f4007e011f611b6192e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988912"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55036942"
 ---
 # <a name="average-cpu-utilization"></a>평균 CPU 사용률
 프로세스의 기간 동안 시스템 논리 코어의 프로파일링된 프로세스의 평균 사용률을 보여 줍니다. 이 그래프에서는 특정 시간에 활성 상태인 코어를 구체적으로 보여주지는 않습니다. 예를 들어 특정 시간 동안 두 개의 코어가 각각 50% 용량으로 실행되는 경우 이 뷰에서는 하나의 논리 코어가 사용되고 있는 것으로 표시됩니다.  

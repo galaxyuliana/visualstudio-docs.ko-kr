@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 308858941d03f6341cf3d22af074be45d790e16b
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: b4f5a2346a6ae246f9a7676709e35074d71b1437
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49930221"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55028691"
 ---
 # <a name="how-to-configure-projects-to-target-multiple-platforms"></a>방법: 여러 플랫폼을 대상으로 한 프로젝트 구성
 
@@ -30,7 +30,7 @@ Visual Studio에서는 솔루션에서 다양한 CPU 아키텍처 또는 플랫�
 
 1.  **빌드** 메뉴에서 **Configuration Manager**를 클릭합니다.
 
-2.  **활성 솔루션 플랫폼 상자**에서 솔루션의 대상이 될 플랫폼을 선택하거나 **\<새로 만들기>** 를 선택하여 새 플랫폼을 만듭니다. Visual Studio는 응용 프로그램을 컴파일하여 **구성 관리자** 대화 상자에서 활성 플랫폼으로 설정된 플랫폼을 대상으로 지정합니다.
+2.  **활성 솔루션 플랫폼 상자**에서 솔루션의 대상이 될 플랫폼을 선택하거나 **\<새로 만들기>** 를 선택하여 새 플랫폼을 만듭니다. Visual Studio는 애플리케이션을 컴파일하여 **구성 관리자** 대화 상자에서 활성 플랫폼으로 설정된 플랫폼을 대상으로 지정합니다.
 
 ## <a name="remove-a-platform"></a>플랫폼 제거
 

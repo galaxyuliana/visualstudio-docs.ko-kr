@@ -6,16 +6,16 @@ ms.prod: visual-studio-dev15
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: ebaf77963968edd61aa0109c7b16964af7fac90c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c7ef2fb2e9d438fb4129d6835cd88663d3025e64
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891166"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55004697"
 ---
 # <a name="install-data-science-support-in-visual-studio"></a>Visual Studio에서 데이터 과학 지원 설치
 
@@ -71,7 +71,7 @@ SQL Server는 SQL Server 내에서 직접 고급 분석을 수행하도록 R 및
 
 SQL Server 통합을 모두 활용하려면 Visual Studio 설치 관리자를 사용하여 **SQL Server Data Tools** 옵션으로 **데이터 저장소 및 처리** 워크로드를 설치합니다. 두 번째 옵션은 SQL IntelliSense, 구문 강조 표시 및 배포를 활성화합니다.
 
-![데이터 저장소 및 처리 워크로드](media/data-storage-workload.png) &nbsp;&nbsp;&nbsp;&nbsp; ![데이터 저장소 및 처리 워크로드 옵션](media/data-storage-workload-options.png)
+![데이터 스토리지 및 처리 워크로드](media/data-storage-workload.png) &nbsp;&nbsp;&nbsp;&nbsp; ![데이터 스토리지 및 처리 워크로드 옵션](media/data-storage-workload-options.png)
 
 추가 정보
 

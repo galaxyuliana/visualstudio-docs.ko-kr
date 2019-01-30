@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 37052afb-7a58-441f-bb17-f1587cc57068
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6be37dc46b603d8193e45b8aa11d9b0cd78d9891
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1f43a01902801e6d3af9b6611ac2181acbcf398f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841069"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070489"
 ---
 # <a name="vsperfmon"></a>VSPerfMon
 VSPerfMon 도구를 사용하면 애플리케이션의 성능 데이터를 수집할 수 있습니다. 일반적으로는 *VSPerfCmd.exe*를 사용하여 이 도구를 실행합니다. VSPerfMon에는 VSPerfCmd 도구를 사용하는 경우에는 제공되지 않는 프로세스 연결 또는 분리에 대한 추가 정보가 표시됩니다. 이 정보를 보려면 별도의 창에서 VSPerfMon을 시작합니다. VSPerfMon을 호출하려면 다음 구문을 사용합니다.  

@@ -1,22 +1,22 @@
 ---
 title: Requirements.txt 파일을 사용하여 패키지 종속성 관리
 description: requirements.txt 파일은 프로젝트의 종속성을 설명합니다. requirements.txt 파일이 포함된 프로젝트를 수신하는 경우 해당 종속성을 한 단계로 쉽게 설치할 수 있습니다.
-ms.date: 10/29/2018
+ms.date: 01/28/2019
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 209944ddfc86feb3fe5dbfcd7144f3f6e0d66451
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4979ea79a63c8d0618e9106a62cf85d03d7c26cf
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968529"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231677"
 ---
 # <a name="manage-required-packages-with-requirementstxt"></a>requirements.txt를 사용하여 필수 패키지 관리
 

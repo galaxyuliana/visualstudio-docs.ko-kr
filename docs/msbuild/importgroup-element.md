@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: dac3fa2d-6678-4017-af35-93686f53f302
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 21dcaa5e4192c2ee4dd223da5cad560ded220275
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 97d5aeac5115dfa251b42c824b88a779e22ad6a4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53928992"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54978336"
 ---
 # <a name="importgroup-element"></a>ImportGroup 요소
 선택적인 조건으로 그룹화된 `Import` 요소의 컬렉션을 포함합니다. 자세한 내용은 [Import 요소(MSBuild)](../msbuild/import-element-msbuild.md)를 참조하세요.  

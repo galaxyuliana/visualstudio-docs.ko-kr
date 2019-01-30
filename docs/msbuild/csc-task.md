@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: d8c19b36-f5ca-484b-afa6-8ff3b90e103a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 59c9c7d092ff5d080baebdc562bbd6b3da436c88
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9b97ad15c6064f1c27eba252173f9afdfc33eda8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53838335"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009689"
 ---
 # <a name="csc-task"></a>Csc 작업
 *csc.exe*를 래핑하고 실행(*.exe* 파일), 동적 연결 라이브러리(*.dll* 파일) 또는 코드 모듈(*.netmodule* 파일)을 생성합니다. *csc.exe*에 대한 자세한 내용은 [C# 컴파일러 옵션](/dotnet/csharp/language-reference/compiler-options/index)을 참조하세요.  

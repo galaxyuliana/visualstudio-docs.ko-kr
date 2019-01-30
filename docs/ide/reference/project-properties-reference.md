@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1cfbe0c602264da31b89add3e2e6ca1124f62a52
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6bb671d3f023b6e7a1f2bd413409c6d4a10ddeff
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891646"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969157"
 ---
 # <a name="project-properties-reference"></a>프로젝트 속성 참조
 프로젝트 속성을 구성 및 사용자 지정하는 방법을 자세히 알아봅니다.

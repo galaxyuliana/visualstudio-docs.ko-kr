@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4437b108aebd63950bce0ea07b9b1e493cf759af
-ms.sourcegitcommit: a715de2ba8c703f37aa2102567b1aa2c0f05a117
+ms.openlocfilehash: e6033ce2329974cc3c2b1f140d02d112e4f87ba9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "53441951"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54985840"
 ---
 # <a name="tutorial-learn-to-debug-visual-basic-code-using-visual-studio"></a>자습서: Visual Studio를 사용하여 Visual Basic 코드를 디버그하는 방법 알아보기
 
@@ -206,7 +206,7 @@ ms.locfileid: "53441951"
 
     ![중단점 설정](../visual-basic/media/get-started-set-breakpoint-vb.png)
 
-    중단점은 신뢰할 수 있는 디버깅의 가장 기본적이 고 필수적인 기능입니다. 중단점은 변수의 값, 메모리의 동작 또는 코드 분기의 실행 여부를 확인할 수 있도록 Visual Studio에서 실행 중인 코드를 일시 중단해야 하는 위치를 나타냅니다. 
+    중단점은 신뢰할 수 있는 디버깅의 가장 기본적이 고 필수적인 기능입니다. 중단점은 변수의 값, 메모리의 동작 또는 코드 분기의 실행 여부를 확인할 수 있도록 Visual Studio에서 실행 중인 코드를 일시 중단해야 하는 위치를 나타냅니다.
 
 2. **F5** 또는 **디버깅 시작** 단추 ![디버깅 시작](../../debugger/media/dbg-tour-start-debugging.png "디버깅 시작")을 누릅니다. 그러면 앱이 시작되고, 중단점이 설정된 코드 줄에서 디버거가 실행됩니다.
 

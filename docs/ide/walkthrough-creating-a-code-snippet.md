@@ -13,17 +13,17 @@ helpviewer_keywords:
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 66d618999fc2ae3e94316f64e20a82516efbeb38
-ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
+ms.openlocfilehash: 27c8237b04b2c4c903d971b1035558b77d4bf2d6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54269802"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54937602"
 ---
 # <a name="walkthrough-create-a-code-snippet"></a>연습: 코드 조각 만들기
 몇 가지 단계로 코드 조각을 만들 수 있습니다. XML 파일을 만들고, 적절한 요소를 입력하고, 코드를 추가하기만 하면 됩니다. 또한 코드에 참조 및 대체 매개 변수를 추가할 수 있습니다. **코드 조각 관리자**(**도구** > **코드 조각 관리자**)에서 **가져오기** 단추를 사용하여 Visual Studio 설치에 코드 조각을 추가할 수 있습니다.

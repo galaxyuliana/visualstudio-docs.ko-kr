@@ -12,15 +12,15 @@ dev_langs:
 ms.assetid: 258ae433-f68a-49f1-b276-da20e3472e68
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 07728e5f978fce519fa0acdff28d38b987621593
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b2cf9e45a07544820292482ac34c034e81a305af
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53885681"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010352"
 ---
 # <a name="tooltaskextension-base-class"></a>ToolTaskExtension 기본 클래스
 많은 작업은 <xref:Microsoft.Build.Utilities.Task> 클래스에서 상속되는 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 상속되는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스에서 상속됩니다. 이 상속 체인은 매개 변수에서 파생되는 작업에 해당 매개 변수 몇 개를 추가합니다. 이러한 매개 변수가 이 문서에 나열되어 있습니다.  

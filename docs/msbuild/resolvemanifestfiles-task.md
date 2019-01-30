@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: e1e14f67-9b69-433f-94d4-a783a68676b2
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 319d1e5003cf6a46bc7590b3dfcb5d68a1cda767
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4e3d5fd327e6ef9db5029697d502d27574a8a8f7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53910716"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043221"
 ---
 # <a name="resolvemanifestfiles-task"></a>ResolveManifestFiles 작업
 빌드 프로세스에서 빌드된 항목, 종속성, 위성, 콘텐츠, 디버그 기호 및 설명서 등의 항목을 확인합니다.  

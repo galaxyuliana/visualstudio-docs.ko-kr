@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7bc06740c56beac2dc092fb421a92f9d59d044d2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d9195bdb33b84420f66e93afb338b1c203c3886c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53860137"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023121"
 ---
 # <a name="code-analysis-project-designer"></a>프로젝트 디자이너, 코드 분석
 코드에서 실행할 수 있는 코드 분석 도구가 들어 있습니다. 이 도구는 Microsoft .NET Framework 디자인 지침에 명시된 프로그래밍 및 디자인 규칙의 위반과 같은 어셈블리 관련 정보를 보고합니다.

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: affa04cc-8bba-4848-9301-b19846d3c2cb
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8d4c6542c2e72428c06825a1d44ba7d0b04b7648
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f6d97f1b46041578279d5d170f8ce0fd33b81cf3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53903827"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55030836"
 ---
 # <a name="synchronization-time"></a>동기화 시간
 타임라인의 이러한 세그먼트는 동기화로 분류되는 차단 시간과 관련이 있습니다. 스레드가 동기화에서 차단된 것으로 표시되면 이러한 것들 중 하나가 포함됩니다.  

@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6b175c6b7e0fcd145d58318d89707cfd907acb2c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ab169dba1ab6692c0a6df8665e20d2695c7ac2c5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913376"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55028753"
 ---
 # <a name="list-disassembly-command"></a>디스어셈블리 목록 표시 명령
 디버그 프로세스를 시작하고 오류 처리 방식을 지정할 수 있습니다.

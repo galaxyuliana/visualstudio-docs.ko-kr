@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 14a7f774-211f-4ef8-af05-94d1c8f65d2f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 662ae2c4b96320dda0d3f9f4efb350ed0e61be0f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 57fc5075ee375ed73b448e8a90e8bb2c3e22e7bf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53870510"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54970814"
 ---
 # <a name="resource-contentions-view---contention-data"></a>리소스 경합 뷰 - 경합 데이터
 리소스 경합 뷰에는 경합 이벤트의 출처인 리소스의 경합 데이터 목록이 표시됩니다. 다른 스레드의 함수가 리소스에 대한 배타적 액세스 권한을 확보하여 스레드가 해당 리소스 액세스를 대기해야 하는 경우 경합 이벤트가 발생합니다. 각 리소스는 경합 이벤트가 발생한 함수 실행 경로를 표시하는 호출 트리의 루트 노드입니다.  

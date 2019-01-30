@@ -10,15 +10,15 @@ helpviewer_keywords:
 - Project Designer, Services page
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4c3e40108f6bca3226e6f39eb2eb4b09437a4f1e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ac182562241fd35c8eaf58bd49fe8004cb27367f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53952383"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55013368"
 ---
 # <a name="services-page-project-designer"></a>프로젝트 디자이너, 서비스 페이지
 
@@ -72,7 +72,7 @@ ms.locfileid: "53952383"
 
  **고급**
 
- 기본 동작을 재정의하는 데 사용할 수 있는 [서비스의 고급 설정 대화 상자](../../ide/reference/advanced-settings-for-services-dialog-box.md)를 엽니다. 예를 들어 이 대화 상자를 사용하여 로컬 파일 시스템을 사용하는 대신 오프라인 저장소용 데이터베이스를 지정할 수 있습니다. 자세한 내용은 [서비스의 고급 설정 대화 상자](../../ide/reference/advanced-settings-for-services-dialog-box.md)를 참조하세요.
+ 기본 동작을 재정의하는 데 사용할 수 있는 [서비스의 고급 설정 대화 상자](../../ide/reference/advanced-settings-for-services-dialog-box.md)를 엽니다. 예를 들어 이 대화 상자를 사용하여 로컬 파일 시스템을 사용하는 대신 오프라인 스토리지용 데이터베이스를 지정할 수 있습니다. 자세한 내용은 [서비스의 고급 설정 대화 상자](../../ide/reference/advanced-settings-for-services-dialog-box.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

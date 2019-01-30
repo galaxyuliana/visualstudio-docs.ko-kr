@@ -7,14 +7,14 @@ helpviewer_keywords:
 ms.assetid: 0c86918b-cd63-4468-8f49-6d547a1276dc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: f32c03a9cad8c2e264d7b3e9f98e93a71c1ad5d6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e523f66b4d89ea430e3665f8a54095eee103fbde
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53888441"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54973748"
 ---
 # <a name="collect-diagnostic-information-using-test-settings"></a>테스트 설정을 사용하여 진단 정보 수집
 
@@ -42,7 +42,7 @@ Visual Studio를 사용하여 단위, 코딩된 UI, 웹 성능 또는 부하 테
 
 다음 표에서는 로컬 컴퓨터나 원격 컴퓨터 역할에 사용할 수 있는 진단 데이터 어댑터의 다양한 구성 방식을 간략하게 소개합니다.
 
-|테스트 설정에 사용되는 진단 데이터 어댑터|로컬 컴퓨터의 수동 테스트|자동화된 테스트|수동 테스트: 일련의 역할과 환경을 사용하여 데이터 수집|노트|
+|테스트 설정에 사용되는 진단 데이터 어댑터|로컬 컴퓨터의 수동 테스트|자동화된 테스트|수동 테스트: 일련의 역할과 환경을 사용하여 데이터 수집|참고 사항|
 |-|-|-|-|-|
 |**IntelliTrace 및 테스트 영향용 ASP.NET 클라이언트 프록시:** 이 프록시를 사용하면 IntelliTrace 및 테스트 영향 진단 데이터 어댑터와 관련하여 클라이언트에서 웹 서버로 보내는 http 호출에 대한 정보를 수집할 수 있습니다.|예|예|예|- 클라이언트 역할에 대해 IntelliTrace 또는 테스트 영향 진단 데이터 어댑터가 선택된 경우에만 사용하세요.|
 |**ASP.NET 프로파일러:** ASP.NET 웹 애플리케이션의 성능 데이터를 수집하는 ASP.NET 프로파일링을 포함하는 테스트 설정을 만들 수 있습니다.|아니요|예(아래 설명 참조)|아니요|- 이 진단 데이터 어댑터는 Visual Studio에서 부하 테스트를 실행할 때만 지원됩니다.|

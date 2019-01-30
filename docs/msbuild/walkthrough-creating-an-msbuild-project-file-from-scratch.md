@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c2efe3801639fb85e1331fc77cc27cbb42717a12
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: 9cbfa407a35934461fe8f2a9fdc9b4ba1fde8b68
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53926111"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54997483"
 ---
 # <a name="walkthrough-create-an-msbuild-project-file-from-scratch"></a>연습: 처음부터 MSBuild 프로젝트 파일 만들기
 .NET Framework를 대상으로 하는 프로그래밍 언어는 MSBuild 프로젝트 파일을 사용하여 애플리케이션 빌드 프로세스를 설명하고 제어합니다. Visual Studio를 사용하여 MSBuild 프로젝트 파일을 만들 때 적절한 XML이 파일에 자동으로 추가됩니다. 그러나 XML이 구성되는 방식과 이러한 방식을 변경하여 빌드를 제어할 수 있는 방법을 이해하는 것이 좋습니다.  

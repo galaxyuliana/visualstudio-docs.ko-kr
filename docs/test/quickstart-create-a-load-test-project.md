@@ -6,14 +6,14 @@ helpviewer_keywords:
 - load testing, quickstart
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 34127eb64ffbe4f9285e5e5efb215409b6997141
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 300366d94cab09507b4e0785024f055f6d82271e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968458"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54997561"
 ---
 # <a name="quickstart-create-a-load-test-project"></a>빠른 시작: 부하 테스트 프로젝트 만들기
 

@@ -7,15 +7,15 @@ f1_keywords:
 ms.assetid: d7c769af-95fb-49a3-b5ab-deafecee46fa
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c274bc5c98a856e5d2f921f2967d8ee474f06274
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0be66a847628cc5968f4cb636066c937e3433c0e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53833315"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54974869"
 ---
 # <a name="gpu-activity-graph"></a>GPU 작업 그래프
 동시성 시각화 도우미에서 GPU 작업 그래프는 시간 경과에 따라 사용 중인 DirectX 엔진의 개수로 측정되는 시스템의 DirectX 작업 수준을 표시합니다.  그래프에는 사용된 특정 엔진이 표시되지 않습니다.  엔진은 GPU 작업을 처리 중일 때 사용 중인 것으로 간주됩니다.  

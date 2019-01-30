@@ -6,17 +6,17 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: eaeb13a087723b10098c9cfe6f75f3be2aad351e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b6681e3e1a1e04468d00c3b2087d5914cf0e71b6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53964892"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015344"
 ---
 # <a name="remotely-debug-python-code-on-linux"></a>Linux에서 Python 코드 원격 디버그
 
@@ -66,7 +66,7 @@ Azure VM에 대한 방화벽 규칙을 만드는 방법에 대한 자세한 내�
         print('Nope. The number I was thinking of was {0}'.format(number))
     ```
 
-1. `pip3 install ptvsd`를 사용하여 사용자 환경에 `ptvsd` 패키지를 설치합니다. 
+1. `pip3 install ptvsd`를 사용하여 사용자 환경에 `ptvsd` 패키지를 설치합니다.
    >[!NOTE]
    >문제 해결에 필요한 경우를 대비하여 ptvsd 버전을 기록해 두는 것이 좋습니다. [ptvsd 목록](https://pypi.python.org/pypi/ptvsd)은 사용 가능한 버전도 보여줍니다.
 

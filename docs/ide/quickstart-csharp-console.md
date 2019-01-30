@@ -9,17 +9,17 @@ ms.topic: quickstart
 ms.devlang: vb
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b36051f3a316f2b00ebdd08110f22346a910512
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c41aac277136de164ba7148e26fc9c0f422b2eef
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53853920"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014616"
 ---
 # <a name="quickstart-use-visual-studio-to-create-your-first-c-console-app"></a>빠른 시작: Visual Studio를 사용하여 첫 번째 C# 콘솔 앱 만들기
 
@@ -49,7 +49,7 @@ Visual Studio IDE(통합 개발 환경)에 대한 소개는 이 5~10분 분량�
 
 ## <a name="create-the-application"></a>애플리케이션 만들기
 
-C# 프로젝트 템플릿을 선택하고 프로젝트 이름을 지정한 후에 Visual Studio에서 간단한 “Hello World” 애플리케이션을 만듭니다. 
+C# 프로젝트 템플릿을 선택하고 프로젝트 이름을 지정한 후에 Visual Studio에서 간단한 “Hello World” 애플리케이션을 만듭니다.
 
 이렇게 하려면 <xref:System.Console.WriteLine%2A> 메서드를 호출하여 리터럴 문자열 “Hello World!”를 콘솔 창에 표시합니다.
 

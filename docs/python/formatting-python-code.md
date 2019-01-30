@@ -6,17 +6,17 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: b830640284fe5b44a76b5f7d2424e2c1ccd24ea0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 49733b4a63ccffef64ca2fca3ba1f969eca2609b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53850218"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012523"
 ---
 # <a name="format-python-code"></a>Python 코드 서식 지정
 
@@ -44,8 +44,8 @@ Visual Studio에서는 미리 구성된 서식 옵션과 일치하도록 빠르�
 다양한 옵션에 대한 예제가 다음 표에 나와 있습니다.
 
 | 클래스 정의 옵션 | 선택한 상태 | 선택 취소됨 |
-| --- | --- | --- | 
-| **클래스 선언의 이름과 기본 목록 사이에 공백 삽입** | `class X (object): pass` | `class X(object): pass` | 
+| --- | --- | --- |
+| **클래스 선언의 이름과 기본 목록 사이에 공백 삽입** | `class X (object): pass` | `class X(object): pass` |
 | **기본 목록 괄호 내에 공백 삽입** | `class X( object ): pass` | `class X(object): pass` |
 | **빈 기본 목록 괄호 내에 공백 삽입** | `class X( ): pass` | `class X(): pass` |
 
@@ -53,7 +53,7 @@ Visual Studio에서는 미리 구성된 서식 옵션과 일치하도록 빠르�
 
 | 함수 정의 옵션 | 선택한 상태 | 선택 취소됨 |
 | --- | --- | --- |
-| **함수 선언의 이름과 매개 변수 목록 사이에 공백 삽입** | `def X (): pass` | `def X(): pass` | 
+| **함수 선언의 이름과 매개 변수 목록 사이에 공백 삽입** | `def X (): pass` | `def X(): pass` |
 | **매개 변수 목록 괄호 내에 공백 삽입** | `def X( a, b ): pass` | `def X(a, b): pass` |
 | **빈 매개 변수 목록 괄호 내에 공백 삽입** | `def X( ): pass` | `def X(): pass` |
 | **기본 매개 변수 값의 '=' 주위에 공백 삽입** | `includes X(a = 42): pass` | `includes X(a=42): pass` |

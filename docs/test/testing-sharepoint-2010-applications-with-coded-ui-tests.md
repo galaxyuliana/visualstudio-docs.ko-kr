@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 32b408743a2017b6fe83c28659496844b204444f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a4b79531948310d0f2628b6ade334d6ea9df35ca
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53910189"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54946018"
 ---
 # <a name="test-sharepoint-applications-with-coded-ui-tests"></a>코딩된 UI 테스트를 사용하여 SharePoint 애플리케이션 테스트
 

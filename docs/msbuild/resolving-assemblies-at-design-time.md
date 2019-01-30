@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 20dae076-733e-49c1-a2e9-b336757ae21d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7e8f2bc946df5a84b85fc64f513d35c94c98b152
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d599cd7acc4402408c1c5852e7aafe73e93b41ac
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986075"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54991829"
 ---
 # <a name="resolve-assemblies-at-design-time"></a>디자인 타임에 어셈블리 확인
 **참조 추가** 대화 상자의 **.NET** 탭을 통해 어셈블리에 참조를 추가할 때, 참조는 중간 참조 어셈블리를 가리킵니다. 이 어셈블리는 모든 형식 및 시그니처 정보를 포함하지만 코드를 반드시 포함하지는 않습니다. **.NET** 탭에는 .NET Framework의 런타임 어셈블리에 해당하는 참조 어셈블리가 표시됩니다. 또한 타사에서 사용되는 등록된 AssemblyFoldersEx 폴더의 런타임 어셈블리에 해당하는 참조 어셈블리도 표시됩니다.  

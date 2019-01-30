@@ -13,15 +13,15 @@ f1_keywords:
 ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4719d529d3fc9da7367150cd211a598ebf52770a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 17552294f4ce0fdfd3e78621217c4495186a365e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53853283"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55042818"
 ---
 # <a name="options-text-editor-javascript-formatting"></a>옵션, 텍스트 편집기, JavaScript, 서식
 **옵션** 대화 상자의 **서식** 페이지를 사용하여 코드 편집기의 서식 코드에 대한 옵션을 설정합니다. 메뉴 모음에서 이 페이지에 액세스하려면 **도구**, **옵션**을 선택한 다음 **텍스트 편집기**, **JavaScript** 및 **서식**을 확장합니다.

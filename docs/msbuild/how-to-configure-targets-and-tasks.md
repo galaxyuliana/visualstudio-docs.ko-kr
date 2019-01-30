@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a5df9d2961a802718b3f46315d9c479217d9a41b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b9c191508397ef1c1ce54edc701bfafe5ce78724
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53854557"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54982067"
 ---
 # <a name="how-to-configure-targets-and-tasks"></a>방법: 대상 및 작업 구성
 선택된 MSBuild 작업은 개발 컴퓨터의 환경에 관계 없이 대상으로 지정된 환경에서 실행되도록 설정할 수 있습니다. 예를 들어 64비트 컴퓨터를 사용하여 32비트 아키텍처를 대상으로 하는 애플리케이션을 빌드할 경우 선택한 작업은 32비트 프로세스에서 실행됩니다.  
