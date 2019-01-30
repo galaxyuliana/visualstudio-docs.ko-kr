@@ -380,7 +380,45 @@ items:
 - name: Visual Studio C++ 프로젝트 확장성
   href: visual-cpp-project-extensibility.md
 - name: Visual Studio 사용자 환경 지침
-  href: ux-guidelines/toc.yml
+  href: ux-guidelines/visual-studio-user-experience-guidelines.md
+  items:
+  - name: UX Essentials
+    href: ux-guidelines/ux-essentials-for-visual-studio.md
+  - name: 글꼴 및 서식 지정
+    href: ux-guidelines/fonts-and-formatting-for-visual-studio.md
+  - name: 색 및 스타일 지정
+    href: ux-guidelines/colors-and-styling-for-visual-studio.md
+    items:
+    - name: 공유 색
+      href: ux-guidelines/shared-colors-for-visual-studio.md
+    - name: 색 값 참조
+      href: ux-guidelines/color-value-reference-for-visual-studio.md
+  - name: 이미지 및 아이콘
+    href: ux-guidelines/images-and-icons-for-visual-studio.md
+    items:
+    - name: 시각적 언어 사전
+      href: ux-guidelines/visual-language-dictionary-for-visual-studio.md
+  - name: 메뉴 및 명령
+    href: ux-guidelines/menus-and-commands-for-visual-studio.md
+  - name: 상호 작용 패턴
+    href: ux-guidelines/interaction-patterns-for-visual-studio.md
+    items:
+    - name: 애플리케이션 패턴
+      href: ux-guidelines/application-patterns-for-visual-studio.md
+    - name: 일반적인 컨트롤 패턴
+      href: ux-guidelines/common-control-patterns-for-visual-studio.md
+    - name: 복합 패턴
+      href: ux-guidelines/composite-patterns-for-visual-studio.md
+  - name: UI 텍스트 및 도움말
+    href: ux-guidelines/ui-text-and-help-for-visual-studio.md
+  - name: 대화 상자 레이아웃
+    href: ux-guidelines/layout-for-visual-studio.md
+  - name: 알림 및 진행
+    href: ux-guidelines/notifications-and-progress-for-visual-studio.md
+  - name: 애니메이션
+    href: ux-guidelines/animations-for-visual-studio.md
+  - name: 평가 도구
+    href: ux-guidelines/evaluation-tools-for-visual-studio.md
 - name: DPI 문제 해결
   href: addressing-dpi-issues2.md
 - name: 이미지 서비스 및 카탈로그
@@ -743,9 +781,9 @@ items:
     href: roslyn-analyzers-and-code-aware-library-for-immutablearrays.md
   - name: Roslyn 패키지 버전 참조
     href: roslyn-version-support.md
-ms.openlocfilehash: f16722f3f0b684b3923f2dfa5b30c06e79d0a90b
-ms.sourcegitcommit: 35bebf794f528d73d82602e096fd97d7b8f82c25
+ms.openlocfilehash: 14efc710953d669b51b275226885eb9d0f5bbe50
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53562362"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55232002"
