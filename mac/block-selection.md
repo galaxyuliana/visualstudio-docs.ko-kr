@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 11/06/2018
 ms.assetid: E8E0831E-E076-44B1-A82A-A325382916A6
-ms.openlocfilehash: f4aa0283bc2dc950ce1c3f6573176f75b6a3da8f
-ms.sourcegitcommit: 54c65f81a138fc1e8ff1826f7bd9dcec710618cc
+ms.openlocfilehash: 18f0faecc6f18c4915f0c44a838dfae80a1be3fa
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "51948806"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54798376"
 ---
 # <a name="block-selection"></a>블록 선택
 
@@ -20,6 +20,6 @@ Mac용 Visual Studio를 사용하면 코드 섹션을 간단하게 선택, 잘�
 
 ![블록 선택 영역 및 텍스트 추가](media/source-editor-image16.png)
 
-# <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [Visual Studio에 대한 다중 캐럿 선택(Windows에서)](/visualstudio/ide/finding-and-replacing-text#multi-caret-selection)
