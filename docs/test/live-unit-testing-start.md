@@ -10,12 +10,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 6b96faf4ec1daa80bdd6d97e623fd0e155a39325
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bd4986d88654e584b3c05be2fd2b720b76be423a
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942189"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54834255"
 ---
 # <a name="get-started-with-live-unit-testing-in-visual-studio"></a>Visual Studio에서 Live Unit Testing 시작
 
@@ -25,7 +25,7 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
 # <a name="ctabcsharp"></a>[C#](#tab/csharp)
 전체 C# 솔루션은 GitHub의 [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/UtilityLibraries/) 리포지토리에서 다운로드할 수 있습니다.
-# <a name="visual-basictabvisual-basic"></a>[Visual Basic](#tab/visual-basic)
+# <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 전체 Visual Basic 솔루션은 GitHub의 [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/visual-basic/UtilityLibraries/) 리포지토리에서 다운로드할 수 있습니다.
 
 ---
@@ -78,7 +78,7 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
 1.  최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 빌드**를 선택합니다. Visual Studio에서 라이브러리가 성공적으로 빌드됩니다.
 
-# <a name="visual-basictabvisual-basic"></a>[Visual Basic](#tab/visual-basic)
+# <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 1. **솔루션 탐색기**에서 `UtilityLibraries` 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
 1. **새 프로젝트 추가** 대화 상자에서 Visual Basic 노드를 선택한 후 **.NET Standard**를 선택합니다.
@@ -153,7 +153,7 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
 1. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 다시 빌드**를 선택하여 단위 테스트 프로젝트를 컴파일합니다.
 
-# <a name="visual-basictabvisual-basic"></a>[Visual Basic](#tab/visual-basic)
+# <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 
 1. **솔루션 탐색기**에서 `UtilityLibraries` 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
@@ -210,7 +210,7 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 # <a name="ctabcsharp"></a>[C#](#tab/csharp)
 ![Live Unit testing을 시작한 후 테스트 탐색기 및 코드 창](media/lut-start/lut-results-cs.png)
 
-# <a name="visual-basictabvisual-basic"></a>[Visual Basic](#tab/visual-basic)
+# <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 ![Live Unit testing을 시작한 후 테스트 탐색기 및 코드 창](media/lut-start/lut-results-vb.png)
 
 ---
@@ -226,7 +226,7 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
    ![return 문에 대한 코드 검사](media/lut-start/code-coverage-cs2.png)
 
-# <a name="visual-basictabvisual-basic"></a>[Visual Basic](#tab/visual-basic)
+# <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 1. `StartsWithUpper` 메서드에서 `If (String.IsNullOrWhiteSpace(s)) Then`라는 줄에서 녹색 확인 표시를 클릭합니다. 다음 그림처럼 Live Unit Testing은 코드 줄을 포함하는 세 가지 테스트를 나타내며 모두 성공적으로 실행되었습니다.
 
    !['If' 조건 문에 대한 코드 검사](media/lut-start/code-coverage-vb1.png)
@@ -262,7 +262,7 @@ Live Unit Testing에서 확인해야 할 주요 문제점은 불완전한 코드
 
     ![StartsWithLower 메서드에 대한 코드 검사](media/lut-start/lut-extended-cs.png)
 
-# <a name="visual-basictabvisual-basic"></a>[Visual Basic](#tab/visual-basic)
+# <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 1. 다음 `TestStartsWithLower` 및 `TestDoesNotStartWithLower` 메서드를 프로젝트의 테스트 소스 코드 파일로 추가합니다.
 
     [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest2.vb#1)]
@@ -322,7 +322,7 @@ Live Unit Testing에서 확인해야 할 주요 문제점은 불완전한 코드
 
 1. **디버그** > **계속**을 선택하거나, **F5** 키를 누르거나 도구 모음에서 **계속** 단추를 클릭하여 테스트 프로그램 실행을 계속합니다. 처리되지 않은 예외가 발생했으므로 테스트를 종료합니다.
 
-# <a name="visual-basictabvisual-basic"></a>[Visual Basic](#tab/visual-basic)
+# <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 1. 다음 메서드를 테스트 파일에 추가합니다.
 
     [!code-vb[The TestHasEmbeddedSpaces test method](samples/snippets/visual-basic/lut-start/unittest2.vb#3)]
@@ -370,7 +370,7 @@ Live Unit Testing에서 확인해야 할 주요 문제점은 불완전한 코드
 
     ![성공적인 HasEmbeddedSpaces 테스트.](media/lut-start/test-success-cs.png)
 
-# <a name="visual-basictabvisual-basic"></a>[Visual Basic](#tab/visual-basic)
+# <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 1. `HasEmbeddedSpaces` 메서드에서 비교를 확인합니다. 포함된 공백을 U+0020으로 간주합니다. 그러나 유니코드 표준은 다른 공백 문자 수를 포함합니다. 이것은 라이브러리 코드가 공백 문자를 잘못 테스트했음을 나타냅니다.
 
 1. 같음 비교를 <xref:System.Char.IsWhiteSpace%2A?displayProperty=fullName> 메서드에 대한 호출로 바꿉니다.
