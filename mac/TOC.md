@@ -52,6 +52,11 @@
 ## [Subversion 리포지토리 설정](set-up-subversion-repository.md)
 ## [Subversion 작업](working-with-subversion.md)
 
+# [웹앱 배포](web-app-deployment.md)
+## [Azure App Service에 게시](publish-app-svc.md)
+## [폴더에 게시](publish-folder.md)
+
+
 # [작업](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
 ### [Razor](razor.md)
