@@ -7,14 +7,14 @@ helpviewer_keywords:
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 8fd8d07274d67f590de1ab22a3bdfa641b07f847
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3dc5f35c3c530098b9186d0bb4bba7bb13bfc7db
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53832140"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55024073"
 ---
 # <a name="how-to-include-recordings-of-the-screen-and-voice-during-tests-using-test-settings"></a>방법: 테스트 설정을 사용하여 테스트를 수행하는 중에 화면 및 음성의 녹화/녹음 포함
 
@@ -47,7 +47,7 @@ Visual Studio의 구성 편집기에서 화면 및 테스트를 실행하는 사
 5.  (선택 사항) 실패한 테스트와 성공한 테스트 모두에 대해 화면 및 음성 기록을 저장하도록 지정하려면 **테스트 사례가 통과하면 기록 저장** 옆의 확인란을 선택합니다.
 
     > [!WARNING]
-    > **테스트 사례가 통과하면 기록 저장**을 선택하는 경우 서버의 저장 공간을 사용하여 테스트 결과와 함께 기록이 저장됩니다. 이러한 첨부 파일은 **테스트 첨부 파일 정리기** 도구를 사용하여 정리할 수 있습니다.
+    > **테스트 사례가 통과하면 기록 저장**을 선택하는 경우 서버의 스토리지 공간을 사용하여 테스트 결과와 함께 기록이 저장됩니다. 이러한 첨부 파일은 **테스트 첨부 파일 정리기** 도구를 사용하여 정리할 수 있습니다.
 
 6.  **화면 기록 품질**에서 다음 드롭다운 목록 옵션을 구성합니다.
 

@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: e1c3ba41-ffca-4edf-9a7f-8a5a9244ef9b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a7dd85cc1a4fb00acfc6d6f7afde05917552f6c2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7590cec386fbb455284b59d1d37f32b2eaa56546
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53854336"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012172"
 ---
 # <a name="configure-performance-sessions"></a>성능 세션 구성
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구를 사용하여 다양한 애플리케이션 종류에 대한 성능 데이터를 수집할 수 있습니다. 이 섹션에서는 성능 세션 및 대상 이진 파일의 성능 Wizardand 속성을 사용하여 관심 있는 데이터를 수집하도록 프로파일링 도구를 구성하는 방법을 보여 줍니다. 프로파일링 도구 구성 속성을 사용하여 프로파일링 실행에서 수집되는 데이터의 양을 제어할 수도 있습니다. 자세한 내용은 [데이터 수집 제어](../profiling/controlling-data-collection.md)를 참조하세요.  

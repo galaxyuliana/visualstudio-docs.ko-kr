@@ -10,14 +10,14 @@ helpviewer_keywords:
 ms.assetid: 81536233-1962-40d9-9511-0b4633814d90
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 079a7390b462dd8d48535f683f391ec2dca4827d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6d730bc8dd0ec2f7087bd0ec0a22564ae316e6c1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53916798"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54979675"
 ---
 # <a name="how-to-add-and-delete-counters-on-graphs-in-load-test-results"></a>방법: 부하 테스트 결과의 그래프에서 카운터 추가 및 삭제
 
@@ -42,7 +42,7 @@ ms.locfileid: "53916798"
 
 **타이밍 정보를 포함하여 백분위수 데이터를 수집하기 위한 고려 사항**
 
-부하 테스트 편집기의 실행 설정에 **타이밍 정보 스토리지**라는 속성이 있습니다. **타이밍 정보 저장소** 속성을 사용하면 부하 테스트 도중 개별 테스트, 트랜잭션 및 페이지를 실행하는 데 각각 걸리는 시간이 부하 테스트 결과 리포지토리에 저장됩니다. 또한 **부하 테스트 분석기**에서 테스트, 트랜잭션 및 페이지 테이블에 90번째 및 95번째 백분위수 데이터가 표시됩니다.
+부하 테스트 편집기의 실행 설정에 **타이밍 정보 스토리지**라는 속성이 있습니다. **타이밍 정보 스토리지** 속성을 사용하면 부하 테스트 도중 개별 테스트, 트랜잭션 및 페이지를 실행하는 데 각각 걸리는 시간이 부하 테스트 결과 리포지토리에 저장됩니다. 또한 **부하 테스트 분석기**에서 테스트, 트랜잭션 및 페이지 테이블에 90번째 및 95번째 백분위수 데이터가 표시됩니다.
 
 실행 설정 속성에서 **타이밍 정보 스토리지** 속성을 사용할 때는 **StatisticsOnly** 및 **AllIndividualDetails**를 선택할 수 있습니다. 두 가지 경우 모두 개별 테스트, 페이지 및 트랜잭션의 시간이 측정되고 개별 타이밍 데이터에서 백분위수 데이터가 계산됩니다. 하지만 **StatisticsOnly** 옵션을 선택하면 백분위수 데이터가 계산되는 즉시 리포지토리에서 개별 타이밍 데이터가 삭제된다는 차이점이 있습니다. 그러면 타이밍 정보를 사용할 때 리포지토리에 필요한 공간이 감소합니다. 그러나 고급 사용자는 SQL 도구를 사용하는 등의 다른 방법으로 타이밍 정보 데이터를 처리하기를 원할 수 있습니다. 이 경우에는 타이밍 정보 데이터를 해당 처리에 사용할 수 있도록 **AllIndividualDetails** 옵션을 사용해야 합니다. 또한 속성을 **AllIndividualDetails**로 설정하면 부하 테스트 실행이 완료된 후 **부하 테스트 분석기**의 **가상 사용자 동작** 차트를 사용하여 가상 사용자 동작을 분석할 수 있습니다. 자세한 내용은 [세부 정보 뷰에서 가상 사용자 동작 분석](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)을 참조하세요.
 

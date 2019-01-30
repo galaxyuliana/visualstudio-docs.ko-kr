@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: c0aff32f-f2cc-46f6-9c3e-a5c9f8f912b1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c879ddc38b2dd3988878119f87c3d777aea7c09d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f4665d437290e75d1542e79d62f898f916576806
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53917503"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54978141"
 ---
 # <a name="generateresource-task"></a>GenerateResource 작업
 *.txt* 및 *.resx*(XML 기반 리소스 형식) 파일과 런타임 이진 실행 파일에 포함되거나 위성 어셈블리로 컴파일할 수 있는 공용 언어 런타임 이진 *.resources* 파일 간을 변환합니다. 이 작업은 일반적으로 *.txt* 또는 *.resx* 파일을 *.resources* 파일로 변환하는 데 사용됩니다. `GenerateResource` 작업은 [resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator)와 기능적으로 비슷합니다.  

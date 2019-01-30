@@ -2,22 +2,22 @@
 title: Visual Studio 자습서 1단계의 Python 프로젝트 만들기
 titleSuffix: ''
 description: 필수 구성 요소 및 새 Python 프로젝트 만들기를 포함하여 Visual Studio의 Python 기능에 대한 핵심 연습의 개요 및 1단계입니다.
-ms.date: 10/29/2018
+ms.date: 01/28/2019
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 2741d98eff02fd17be67213ab1069bdd43476475
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bc6f831d30f578cb03bbb760da410aefff312e99
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53916048"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231872"
 ---
 # <a name="tutorial-work-with-python-in-visual-studio"></a>자습서: Visual Studio에서 Python 작업
 
@@ -61,7 +61,7 @@ Visual Studio는 Python에 대한 고급 언어 지원을 제공합니다. 이 �
 
     (1) 굵게 강조 표시된 것은 **새 프로젝트** 대화 상자에서 지정한 이름을 사용하는 프로젝트입니다. 디스크에서 이 프로젝트는 프로젝트 폴더의 *.pyproj* 파일로 표시됩니다.
 
-    (2) 최상위 수준은 기본적으로 프로젝트와 동일한 이름이 있는 *솔루션*입니다. 디스크에서 *.sln* 파일로 표시되는 솔루션은 하나 이상의 관련된 프로젝트에 대한 컨테이너입니다. 예를 들어 Python 애플리케이션에 대한 C++ 확장명을 작성하는 경우 해당 C++ 프로젝트는 동일한 솔루션 내에 있을 수 있습니다. 솔루션은 전용 테스트 프로그램에 대한 프로세스와 함께 웹 서비스에 대한 프로젝트를 포함할 수도 있습니다. 
+    (2) 최상위 수준은 기본적으로 프로젝트와 동일한 이름이 있는 *솔루션*입니다. 디스크에서 *.sln* 파일로 표시되는 솔루션은 하나 이상의 관련된 프로젝트에 대한 컨테이너입니다. 예를 들어 Python 애플리케이션에 대한 C++ 확장명을 작성하는 경우 해당 C++ 프로젝트는 동일한 솔루션 내에 있을 수 있습니다. 솔루션은 전용 테스트 프로그램에 대한 프로세스와 함께 웹 서비스에 대한 프로젝트를 포함할 수도 있습니다.
 
     (3) 프로젝트 아래에 소스 파일이 표시됩니다. 이 경우 단일 *.py* 파일만 표시됩니다. 파일을 선택하면 해당 속성이 **속성** 창에 표시됩니다. 파일을 두 번 클릭하면 해당 파일에 대한 적절한 방식으로 열립니다.
 

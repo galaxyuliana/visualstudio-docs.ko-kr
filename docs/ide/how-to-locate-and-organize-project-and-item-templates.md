@@ -11,13 +11,13 @@ helpviewer_keywords:
 - templates [Visual Studio], organizing
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 239fd7c4042c52576aa7a7688bf890d53d2b6a50
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: 9b54513a1cfe5604ddea5fe14be8b4dd1f35d4de
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53843413"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55032178"
 ---
 # <a name="how-to-locate-and-organize-project-and-item-templates"></a>방법: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성
 

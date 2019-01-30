@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cfe0fcdb039b4c7b234f3f43e6ce5741d96f5e9c
-ms.sourcegitcommit: 01185dadd2fa1f9a040d2a366869f1a5e1d18e0f
+ms.openlocfilehash: c7e701a0365827c09ec919dae661aa0bf94c2e45
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54227449"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023475"
 ---
 # <a name="diff-devenvexe"></a>/Diff(devenv.exe)
 
@@ -47,7 +47,7 @@ devenv /Diff SourceFile TargetFile [SourceDisplayName [TargetDisplayName]]
 - *TargetDisplayName*
 
   선택 사항입니다. 두 번째 파일의 표시 이름입니다.
-    
+
 ## <a name="remarks"></a>주의
 
 IDE의 인스턴스가 이미 열려 있는 경우 현재 IDE의 탭에 파일 비교가 나타납니다.

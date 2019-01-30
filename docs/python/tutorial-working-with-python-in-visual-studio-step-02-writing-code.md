@@ -2,22 +2,22 @@
 title: Visual Studio 자습서 2단계에서 Python 코드 작성 및 실행
 titleSuffix: ''
 description: Visual Studio의 Python 기능에 대한 핵심 연습의 2단계로, 코드 편집 및 프로젝트 실행을 포함합니다.
-ms.date: 10/29/2018
+ms.date: 01/28/2019
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 201284ad236b2182ba6c4e69971ff15d0b43a009
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6aec7825387c2eda58c76bf885bcd29b0b7bdd1b
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935146"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231781"
 ---
 # <a name="step-2-write-and-run-code"></a>2단계: 코드 작성 및 실행
 
@@ -46,7 +46,7 @@ ms.locfileid: "53935146"
     ![IntelliSense 구문 색 지정 및 오류 강조 표시](media/vs-getting-started-python-06-IntelliSense3b.png)
 
     > [!Tip]
-    > 개발 환경은 매우 개인적인 문제이기 때문에 Visual Studio는 사용자가 Visual Studio의 모양 및 동작을 완벽히 제어할 수 있는 기능을 제공합니다. **도구** > **옵션** 메뉴 명령을 선택하고 **환경** 및 **텍스트 편집기** 탭 아래에 있는 설정을 탐색합니다. 기본적으로 제한된 개수의 옵션만 표시됩니다. 모든 프로그래밍 언어에 대한 옵션을 모두 보려면 대화 상자의 맨 아래에 있는 **모든 설정 표시**를 선택합니다. 
+    > 개발 환경은 매우 개인적인 문제이기 때문에 Visual Studio는 사용자가 Visual Studio의 모양 및 동작을 완벽히 제어할 수 있는 기능을 제공합니다. **도구** > **옵션** 메뉴 명령을 선택하고 **환경** 및 **텍스트 편집기** 탭 아래에 있는 설정을 탐색합니다. 기본적으로 제한된 개수의 옵션만 표시됩니다. 모든 프로그래밍 언어에 대한 옵션을 모두 보려면 대화 상자의 맨 아래에 있는 **모든 설정 표시**를 선택합니다.
 
 1. **Ctrl**+**F5**를 누르거나 **디버그** > **디버깅하지 않고 시작** 메뉴 항목을 선택하여 이 지점까지 작성한 코드를 실행합니다. 코드에 여전히 오류가 있는 경우 Visual Studio에서 경고 메시지를 표시합니다.
 

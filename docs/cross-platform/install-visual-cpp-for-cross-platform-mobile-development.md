@@ -9,15 +9,15 @@ dev_langs:
 ms.assetid: aaea6b8d-55eb-4427-8185-c050f855c257
 author: corob-msft
 ms.author: corob
-manager: douge
+manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: 5dffe82511e75889ea588cb23b1f19490f991ab0
-ms.sourcegitcommit: 71b307ce86c4079cc7ad686d8d5f96a6a123aadd
+ms.openlocfilehash: c46644b18188475bd6389a795625209f74a7d9b5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "39251909"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55021990"
 ---
 # <a name="install-cross-platform-mobile-development-with-c"></a>C++를 사용하여 플랫폼 간 모바일 개발 설치
 
@@ -28,7 +28,7 @@ Visual Studio에서 C++를 사용하여 Windows 데스크톱 앱, UWP(유니버�
 - 설치 요구 사항은 [Visual Studio 제품군 시스템 요구 사항](/visualstudio/productinfo/vs2017-system-requirements-vs)을 참조하세요.
 
    > [!IMPORTANT]
-   > Windows 7 또는 Windows Server 2008 R2를 사용하는 경우 Windows 데스크톱 응용 프로그램용 코드, Android Native Activity 앱 및 라이브러리, iOS용 앱 및 코드 라이브러리를 개발할 수 있지만 Windows Phone 또는 UWP 앱은 개발할 수 없습니다.
+   > Windows 7 또는 Windows Server 2008 R2를 사용하는 경우 Windows 데스크톱 애플리케이션용 코드, Android Native Activity 앱 및 라이브러리, iOS용 앱 및 코드 라이브러리를 개발할 수 있지만 Windows Phone 또는 UWP 앱은 개발할 수 없습니다.
 
 특정 디바이스 플랫폼용 앱을 빌드하려는 경우에는 다음의 몇 가지 요구 사항이 추가로 적용됩니다.
 
@@ -136,7 +136,7 @@ Visual Studio 2015를 사용하는 경우 설치 관리자에는 Visual Studio 2
 
    기본적으로 설치 관리자는 *C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps*에 Apache Ant를 배치합니다.
 
-- [Microsoft Visual Studio Emulator for Android](https://aka.ms/vscomemudownload)
+- [Android용 Microsoft Visual Studio 에뮬레이터](https://aka.ms/vscomemudownload)
 
    Microsoft Visual Studio Emulator for Android는 코드를 테스트 및 디버그하는 데 유용한 선택적 에뮬레이터입니다. Google은 Visual Studio Emulator for Android의 릴리스 이후 Intel의 HAXM을 통해 하드웨어 가속을 사용하도록 Android Emulator를 업데이트했습니다. 최신 Android OS 이미지 및 Google Play 서비스에 대한 액세스를 제공하므로 Google의 가속 에뮬레이터를 사용하는 것이 좋습니다.
 

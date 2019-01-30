@@ -8,17 +8,17 @@ ms.topic: conceptual
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: e8c42bd40528dfe8567219bdc2bc4a8d216e7c6b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 37061173a7bc0b3d9c3b9b7e011428ec3a297b72
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53899758"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55043715"
 ---
 # <a name="develop-javascript-and-typescript-code-in-visual-studio-without-solutions-or-projects"></a>솔루션이나 프로젝트 없이 Visual Studio에서 JavaScript 및 TypeScript 코드 개발
 
@@ -32,9 +32,9 @@ Visual Studio 2017에는 [프로젝트 또는 솔루션 없이 코드를 개발]
 
 ## <a name="npm-integration"></a>npm 통합
 
-열린 폴더에 *package.json* 파일이 있는 경우 *package.json*을 마우스 오른쪽 단추로 클릭하여 npm에 해당하는 컨텍스트 메뉴(바로 가기 메뉴)를 표시할 수 있습니다. 
+열린 폴더에 *package.json* 파일이 있는 경우 *package.json*을 마우스 오른쪽 단추로 클릭하여 npm에 해당하는 컨텍스트 메뉴(바로 가기 메뉴)를 표시할 수 있습니다.
 
-![솔루션 탐색기의 npm 메뉴](../javascript/media/solution-explorer-npm-ctx.png) 
+![솔루션 탐색기의 npm 메뉴](../javascript/media/solution-explorer-npm-ctx.png)
 
 바로 가기 메뉴에서 프로젝트 파일을 사용할 때 [npm 패키지 관리](npm-package-management.md)와 동일한 방법으로 npm으로 설치된 패키지를 관리할 수 있습니다.
 
@@ -43,7 +43,8 @@ Visual Studio 2017에는 [프로젝트 또는 솔루션 없이 코드를 개발]
 ## <a name="build-and-debug"></a>빌드 및 디버그
 
 ### <a name="packagejson"></a>package.json
-폴더의 *package.json*에 `main` 요소를 지정하는 경우 *package.json*의 오른쪽 클릭 바로 가기 메뉴에서 **디버그** 명령을 사용할 수 있습니다. 이를 클릭하면 *node.exe*가 지정된 스크립트를 인수로 시작합니다.
+폴더의 *package.json*에 `main` 요소를 지정하는 경우 *package.json*의 오른쪽 클릭 바로 가기 메뉴에서 **디버그** 명령을 사용할 수 있습니다.
+이를 클릭하면 *node.exe*가 지정된 스크립트를 인수로 시작합니다.
 
 ### <a name="javascript-files"></a>JavaScript 파일
 파일을 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **디버그**를 선택하여 JavaScript 파일을 디버깅할 수 있습니다. 그러면 *node.exe*가 해당 JavaScript 파일을 인수로 시작합니다.

@@ -6,17 +6,17 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 96921c3b711fa1f2d01bee343d68891cf246bc6b
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: cd0e2079edde74155d38646fa5e22b6a11c1c7fd
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54315633"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55032425"
 ---
 # <a name="create-a-c-extension-for-python"></a>Python용 C++ 확장 만들기
 
@@ -323,7 +323,7 @@ Python 프로젝트와 C++ 프로젝트가 같은 솔루션에 있는 경우 첫
 
     setup(
         name = 'superfastcode2',
-        version = '1.0',    
+        version = '1.0',
         description = 'Python package with superfastcode2 C++ extension (PyBind11)',
         ext_modules = [sfc_module],
     )
@@ -409,7 +409,7 @@ Visual Studio는 디버깅 Python 및 C++ 코드를 함께 지원합니다. 이 
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | 컴파일 안 함, 광범위한 가용성. | 번거로운 C 구조체 액세스 및 변경과 오류 발생 가능성. |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | 한 번에 여러 언어에 대한 바인딩 생성. | Python이 유일한 대상일 경우 과도한 오버헤드. |
 | cffi | 2013 | [cryptography](https://cryptography.io/en/latest/), [pypy](https://pypy.org/) | 간편한 통합, PyPy 호환성. | 더 새롭고 완성도 낮음. |
-| [cppyy](https://cppyy.readthedocs.io/en/latest/) | 2017 | | C++를 사용한 cffi와 유사합니다. | 최신 기능이며, VS 2017에서는 몇 가지 문제가 발생할 수 있습니다. |  
+| [cppyy](https://cppyy.readthedocs.io/en/latest/) | 2017 | | C++를 사용한 cffi와 유사합니다. | 최신 기능이며, VS 2017에서는 몇 가지 문제가 발생할 수 있습니다. |
 
 ## <a name="see-also"></a>참고 항목
 

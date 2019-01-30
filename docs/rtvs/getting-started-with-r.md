@@ -6,19 +6,19 @@ ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: c156993bf2fe425368a2cfebcaca8ac18ea790f2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 83a4f4ea1add79ce0317ff5823066a0070a407c1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53944628"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55024099"
 ---
 # <a name="get-started-with-r-tools-for-visual-studio"></a>Visual Studio용 R 도구 시작
 
-RTVS(Visual Studio용 R 도구)를 설치한 후([설치](installing-r-tools-for-visual-studio.md) 참조) 해당 도구가 제공하는 환경을 빠르게 경험할 수 있습니다. 
+RTVS(Visual Studio용 R 도구)를 설치한 후([설치](installing-r-tools-for-visual-studio.md) 참조) 해당 도구가 제공하는 환경을 빠르게 경험할 수 있습니다.
 
 ## <a name="create-an-r-project"></a>R 프로젝트 만들기
 
@@ -93,7 +93,7 @@ RTVS(Visual Studio용 R 도구)를 설치한 후([설치](installing-r-tools-for
 
 > [!Tip]
 > 편집하고 **Ctrl**+**Enter**를 눌러(또는 **Ctrl**+**A**로 모든 내용을 선택한 다음, **Ctrl**+**Enter**를 누름) 코드를 빠르게 실행하는 패턴을 알아봅니다. 이 방법은 같은 작업에 마우스를 사용하는 것보다 훨씬 더 효율적입니다.
-> 
+>
 > 또한 Visual Studio 프레임에서 플롯 창을 끌어서 놓고 디스플레이에서 필요할 때마다 다른 곳에 배치할 수 있습니다. 그런 다음 플롯 창을 원하는 크기로 조정하고 이미지 또는 PDF 파일에 저장할 수 있습니다.
 
 1. 몇 줄의 코드를 더 추가하여 두 번째 플롯을 포함합니다.

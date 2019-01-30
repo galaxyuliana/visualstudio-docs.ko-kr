@@ -6,21 +6,21 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 93e2887b15ff3f53634d68774ab31d3b4bfb7aaa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: da72f68d72a435ebf7fe90a7a7d5b6141e409f07
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53925500"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54918370"
 ---
 # <a name="debug-r-in-visual-studio"></a>Visual Studio에서 R 디버그
 
 RTVS(Visual Studio용 R 도구)는 Visual Studio의 전체 디버깅 환경과 통합됩니다([Visual Studio의 디버깅](/visualstudio/debugger/debugger-feature-tour) 참조). 이러한 지원에는 중단점, 실행 중인 프로세스에 연결, 변수 검사 및 감시, 호출 스택 검사 등이 포함됩니다. 이 문서에서는 R 및 RTVS에 고유한 디버깅 측면을 살펴봅니다.
 
-R 프로젝트에서 시작 R 파일에 대한 디버거를 시작하는 방법은 다른 프로젝트 형식의 경우도 동일합니다. **디버그** > **디버깅 시작**, **F5** 키 또는 디버그 도구 모음의 **소스 시작 파일**을 사용합니다. 
+R 프로젝트에서 시작 R 파일에 대한 디버거를 시작하는 방법은 다른 프로젝트 형식의 경우도 동일합니다. **디버그** > **디버깅 시작**, **F5** 키 또는 디버그 도구 모음의 **소스 시작 파일**을 사용합니다.
 
 ![R에 대한 디버거 시작 단추](media/debugger-start-button.png)
 

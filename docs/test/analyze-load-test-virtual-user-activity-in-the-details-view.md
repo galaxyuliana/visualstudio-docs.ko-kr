@@ -10,14 +10,14 @@ helpviewer_keywords:
 ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 484c80e474fdce799bc10787bddf157a19f46740
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5d9787cc3b1ec6efbe7bb9bd56d417111550a8f1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53902921"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54917941"
 ---
 # <a name="analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer"></a>부하 테스트 분석기의 세부 정보 뷰에서 부하 테스트 가상 사용자 동작 분석
 
@@ -30,7 +30,7 @@ ms.locfileid: "53902921"
 **세부 정보** 뷰에는 부하 테스트 동안 개별 가상 사용자가 수행한 작업을 시각적으로 분석하는 데 사용되는 **가상 사용자 동작 차트**가 표시됩니다. **가상 사용자 동작 차트**를 사용하면 사용자 동작의 패턴(부하 패턴)을 확인하고, 실패했거나 느린 테스트를 연결하고, 다른 가상 사용자 동작 요청을 확인할 수 있습니다. **가상 사용자 동작 차트**를 사용하면 CPU 사용량 스파이크, 초당 요청 수 감소 그리고 스파이크 및 감소 중에 실행된 테스트 또는 페이지를 확인할 수도 있습니다.
 
 > [!NOTE]
-> **가상 사용자 동작 정보 차트**를 사용할 부하 테스트를 실행하려면 먼저 부하 성능 테스트 편집기를 사용하여 **타이밍 정보 저장소** 속성이 **AllIndividualDetails** 옵션으로 설정되어 있는지 확인해야 합니다.
+> **가상 사용자 동작 정보 차트**를 사용할 부하 테스트를 실행하려면 먼저 부하 성능 테스트 편집기를 사용하여 **타이밍 정보 스토리지** 속성이 **AllIndividualDetails** 옵션으로 설정되어 있는지 확인해야 합니다.
 
  **정보 범례 패널**
 

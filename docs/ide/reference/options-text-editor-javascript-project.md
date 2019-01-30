@@ -11,15 +11,15 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.TypeScript.Project
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7be14c9953fed34e7bdd9507b6224875b1008a22
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: ff2fc32a173f1c05fc200c9acd9b37ad2307a3a3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54350296"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55031814"
 ---
 # <a name="options-text-editor-javascript-project"></a>옵션, 텍스트 편집기, JavaScript, 프로젝트
 
@@ -37,7 +37,7 @@ ms.locfileid: "54350296"
 
 ## <a name="virtual-projects-in-solution-explorer"></a>솔루션 탐색기의 가상 프로젝트
 
-이 옵션을 사용하여 솔루션이 로드되거나 로드되지 않을 경우 가상 프로젝트를 표시할지 여부를 선택할 수 있습니다. 
+이 옵션을 사용하여 솔루션이 로드되거나 로드되지 않을 경우 가상 프로젝트를 표시할지 여부를 선택할 수 있습니다.
 
 ## <a name="compile-on-save"></a>저장 시 컴파일
 

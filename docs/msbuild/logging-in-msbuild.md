@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 9aea2e76-8f60-4234-913d-598e7bbad808
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 259fbda65a745c265315f347e5a04a1cff39ad1c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3a654632bdd551843221e6d4777812983ad73a24
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53842463"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54989616"
 ---
 # <a name="logging-in-msbuild"></a>MSBuild 로그인
 로깅은 빌드의 진행률을 모니터링할 수 있는 방법을 제공합니다. 로깅은 빌드 이벤트, 메시지, 경고 및 오류를 로그 파일에 캡처합니다.  

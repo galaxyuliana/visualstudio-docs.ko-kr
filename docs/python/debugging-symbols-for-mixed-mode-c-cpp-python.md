@@ -6,16 +6,16 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 909b3ab71a4e204372c291ec6ca5421b500a056a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9d61c3bcf9e7d403a73c78700257f1ecfe8a70fd
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53885970"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010157"
 ---
 # <a name="install-debugging-symbols-for-python-interpreters"></a>Python 인터프리터에 대한 디버깅 기호 설치
 
@@ -51,7 +51,7 @@ Visual Studio는 기호가 필요한 경우(일반적으로 혼합 모드 디버
 
 1. **도구** > **옵션** 메뉴를 선택하고 **디버깅** > **기호**로 이동합니다.
 
-1. 도구 모음에서 **추가** 단추를 선택하고(아래에 설명되어 있음) 다운로드한 기호를 확장한 폴더(*python.pdb*가 있는 위치, 예: 아래에 표시된 *c:\python34\Symbols*)를 입력하고 **확인**을 선택합니다. 
+1. 도구 모음에서 **추가** 단추를 선택하고(아래에 설명되어 있음) 다운로드한 기호를 확장한 폴더(*python.pdb*가 있는 위치, 예: 아래에 표시된 *c:\python34\Symbols*)를 입력하고 **확인**을 선택합니다.
 
     ![혼합 모드 디버거 기호 옵션](media/mixed-mode-debugging-symbols.png)
 
@@ -62,9 +62,9 @@ Visual Studio는 기호가 필요한 경우(일반적으로 혼합 모드 디버
 
 ## <a name="official-distributions"></a>공식 배포
 
-| Python 버전 | 다운로드 | 
-| --- | --- | 
-| 3.5 이상 | Python 설치 관리자를 통해 기호를 설치하세요. | 
+| Python 버전 | 다운로드 |
+| --- | --- |
+| 3.5 이상 | Python 설치 관리자를 통해 기호를 설치하세요. |
 | 3.4.4 | [32비트](https://www.python.org/ftp/python/3.4.4/python-3.4.4-pdb.zip) - [64비트](https://www.python.org/ftp/python/3.4.4/python-3.4.4.amd64-pdb.zip) |
 | 3.4.3 | [32비트](https://www.python.org/ftp/python/3.4.3/python-3.4.3-pdb.zip) - [64비트](https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64-pdb.zip) |
 | 3.4.2 | [32비트](https://www.python.org/ftp/python/3.4.2/python-3.4.2-pdb.zip) - [64비트](https://www.python.org/ftp/python/3.4.2/python-3.4.2.amd64-pdb.zip) |

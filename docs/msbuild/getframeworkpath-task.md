@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2eeee3865a9b2a607df48ca6d9ade1990401f759
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d6aa429247d8f27a56d367f821888bdc8caad310
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53944867"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010404"
 ---
 # <a name="getframeworkpath-task"></a>GetFrameworkPath 작업
 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 어셈블리에 대한 경로를 검색합니다.  

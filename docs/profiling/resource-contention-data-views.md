@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: be79ec41-f1dd-4984-993f-5c2962355a32
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ea7cbe0ff412e7955a4a255018e335e1ae6336da
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7dbec142635c1856dfd701f31253b3773cee1b01
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990609"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54917379"
 ---
 # <a name="resource-contention-data-views"></a>리소스 경합 데이터 뷰
 이 섹션에는 스레드 경함 프로파일링 데이터가 포함된 프로파일러 데이터 파일의 뷰와 보고서에 대한 참조 정보가 있습니다.  

@@ -27,15 +27,15 @@ helpviewer_keywords:
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ce5553f54b5864c27fc4dfa14376e8eb7735c613
-ms.sourcegitcommit: d0b02affd24e66efed924c197824f35f823e3240
+ms.openlocfilehash: 69c74548340e8b8f642fa1e373bdd424c3c81a69
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2019
-ms.locfileid: "54417800"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54989746"
 ---
 # <a name="options-text-editor-general"></a>일반, 텍스트 편집기, 옵션
 
@@ -67,7 +67,7 @@ ms.locfileid: "54417800"
 
 선택할 경우 **Ctrl** 키를 누르고 마우스를 클릭한 채 요소를 가리킬 수 있습니다. 이렇게 하면 선택한 요소의 정의로 이동합니다. **한정자 키 사용** 드롭다운에서 **Alt** 또는 **Ctrl** + **Alt**를 선택할 수도 있습니다.
 
-코드 편집기에서 현재 위치를 벗어나지 않고 창에 요소의 정의를 표시하려면 **Peek 뷰에서 정의 열기** 확인란을 선택합니다. 
+코드 편집기에서 현재 위치를 벗어나지 않고 창에 요소의 정의를 표시하려면 **Peek 뷰에서 정의 열기** 확인란을 선택합니다.
 
 ## <a name="display"></a>표시
 

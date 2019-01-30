@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: ca3ba2c6-d2ea-41f2-b7e3-0fc2b0730460
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 65e8980df4d98e4d7c76df43f32d7ca0a224e699
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a87fffbc69860fe41e3497109f889dc2ae8298ca
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53891844"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54980364"
 ---
 # <a name="generatebootstrapper-task"></a>GenerateBootstrapper 작업
 애플리케이션과 해당 필수 조건을 검색, 다운로드, 설치할 수 있는 자동화된 방법을 제공합니다. 이 작업은 애플리케이션을 구성하는 모든 구성 요소에 대한 개별 설치 관리자를 통합하는 단일 설치 관리자로 사용됩니다.  
