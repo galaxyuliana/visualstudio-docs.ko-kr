@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 35f89d86-4683-4db1-aa0c-ae0ce65fa524
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: be48c6d0879a257e17be2d92dc00829097d11c15
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 48e6dc6e35ca6388926030412dbbb5380e054b1e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53939888"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930410"
 ---
 # <a name="performance-report-view-filter"></a>성능 보고서 뷰 필터
 **프로파일러 보고서 뷰 필터** 창은 **성능 보고서** 창 위쪽에 있습니다. 이 창이 표시되지 않으면 **필터 표시** 단추를 클릭합니다.  

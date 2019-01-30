@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 9bb64cae648f8ad747100fb0e27f83617603c804
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d7659de6e90ca13172459b1bcc1e305e14a91cfc
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53878236"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231963"
 ---
 # <a name="walkthrough-create-edit-and-maintain-a-coded-ui-test"></a>연습: 코딩된 UI 테스트 만들기, 편집 및 유지 관리
 
@@ -354,11 +354,7 @@ ms.locfileid: "53878236"
 
 ## <a name="videos"></a>비디오
 
-![비디오 링크](../data-tools/media/playvideo.gif) [코딩된 UI 테스트 시작](http://go.microsoft.com/fwlink/?LinkID=230573)
-
-![비디오 링크](../data-tools/media/playvideo.gif) [코딩된 UI 테스트 유지 관리 및 디버깅](http://go.microsoft.com/fwlink/?LinkID=230574)
-
-![비디오 링크](../data-tools/media/playvideo.gif) [Hand coding coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230575)(코딩된 UI 테스트 수동 코딩)
+![비디오 링크](../data-tools/media/playvideo.gif) [코딩된 UI 테스트 시작](https://onedrive.live.com/?id=2DB0E1EFE1C1D3B8%21110&cid=2DB0E1EFE1C1D3B8)
 
 ## <a name="faq"></a>FAQ
 

@@ -6,17 +6,17 @@ ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 8e4712a5dd73c899e82a8fc6e07331be5b6e6c46
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9dd949f921c3d504823e9204e0974617c8a2b3e7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863695"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54953187"
 ---
 # <a name="quickstart-create-a-project-from-a-cookiecutter-template"></a>빠른 시작: Cookiecutter 템플릿으로 프로젝트 만들기
 
@@ -26,7 +26,7 @@ ms.locfileid: "53863695"
 
 1. Visual Studio를 실행합니다.
 
-1. **파일** > **새로 만들기** > **Cookiecutter에서**를 선택합니다. 이 명령은 템플릿을 검색할 수 있는 Visual Studio에서 창을 엽니다. 
+1. **파일** > **새로 만들기** > **Cookiecutter에서**를 선택합니다. 이 명령은 템플릿을 검색할 수 있는 Visual Studio에서 창을 엽니다.
 
     ![Cookiecutter 템플릿에서 새 프로젝트](media/projects-from-cookiecutter1.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "53863695"
 
 1. 프로세스가 완료되면 **Files created successfully.**(파일을 만들었습니다.)라는 메시지가 나타납니다. **솔루션 탐색기에서 열기** 명령을 선택하여 프로젝트를 엽니다.
 
-1. **Ctrl**+**F5**를 누르거나 **디버그** > **디버깅하지 않고 시작**을 선택하여 프로그램을 실행합니다. 
+1. **Ctrl**+**F5**를 누르거나 **디버그** > **디버깅하지 않고 시작**을 선택하여 프로그램을 실행합니다.
 
     ![python-sklearn-classifier-cookiecutter 템플릿 프로젝트의 출력](media/projects-from-cookiecutter4.png)
 

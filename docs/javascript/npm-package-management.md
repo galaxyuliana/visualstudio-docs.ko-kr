@@ -7,17 +7,17 @@ ms.topic: conceptual
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: bae9beac69daf78bfd6a8604c4364af857dff0a6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c4f04d1d919123bca787c6175696224042f79725
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53845956"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948205"
 ---
 # <a name="manage-npm-packages-in-visual-studio"></a>Visual Studio에서 npm 패키지 관리
 
@@ -36,7 +36,7 @@ Npm 패키지를 설치하는 가장 쉬운 방법은 npm 패키지 설치 창�
 
 ![솔루션 탐색기에서 새 npm 패키지 설치](../javascript/media/solution-explorer-install-package.png)
 
-이 창에서 패키지를 검색, 옵션 지정 및 설치할 수 있습니다. 
+이 창에서 패키지를 검색, 옵션 지정 및 설치할 수 있습니다.
 
 ![npm 패키지 검색](../javascript/media/search-package.png)
 
@@ -73,10 +73,10 @@ Node.js 대화형 창에서 `.npm` 명령을 사용하여 npm 명령을 실행�
 창에서 다음과 같은 명령을 사용하여 패키지를 설치할 수 있습니다.
 
 `.npm install azure@4.2.3`
- 
+
  > [!Tip]
- > 기본적으로 npm은 프로젝트의 홈 디렉터리에서 실행됩니다. 솔루션에 여러 프로젝트가 있는 경우 프로젝트의 이름 또는 경로를 대괄호로 지정합니다. 
+ > 기본적으로 npm은 프로젝트의 홈 디렉터리에서 실행됩니다. 솔루션에 여러 프로젝트가 있는 경우 프로젝트의 이름 또는 경로를 대괄호로 지정합니다.
  > `.npm [MyProjectNameOrPath] install azure@4.2.3`
 
  > [!Tip]
- > 프로젝트에 package.json 파일이 없는 경우 `.npm init -y`를 사용하여 기본 항목이 있는 새 package.json 파일을 만듭니다. 
+ > 프로젝트에 package.json 파일이 없는 경우 `.npm init -y`를 사용하여 기본 항목이 있는 새 package.json 파일을 만듭니다.

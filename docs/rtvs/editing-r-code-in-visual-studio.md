@@ -6,15 +6,15 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: b3191df6ead3454bb138efae2aaf7183cc556d12
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 326627f16bb431b582666cccafb6a511cf815718
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968367"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54918604"
 ---
 # <a name="edit-r-code-in-visual-studio"></a>Visual Studio에서 R 코드 편집
 
@@ -40,7 +40,7 @@ Visual Studio에서는 편집기에 있는 구문 오류에 밑줄을 추가합�
 
 ## <a name="edit-and-organize-code"></a>코드 구성 및 편집
 
-코드를 입력할 때 RTVS에서는 [IntelliSense](r-intellisense.md) 페이지에 설명된 대로 자동 완성을 제공합니다. 또한 중괄호 및 괄호 완성과 같은 자동 서식 지정이 수행됩니다. 
+코드를 입력할 때 RTVS에서는 [IntelliSense](r-intellisense.md) 페이지에 설명된 대로 자동 완성을 제공합니다. 또한 중괄호 및 괄호 완성과 같은 자동 서식 지정이 수행됩니다.
 
 ![인라인 서식 지정 애니메이션](media/editing-inline-formatting.gif)
 
@@ -129,6 +129,6 @@ RTVS에서는 함수의 매개 변수 이름을 사용하여 [Roxygen](http://ro
 | | 첫 번째 문자 입력 시 완성 목록 | 켜기 | 첫 번째 문자 형식에 대한 완성 목록을 표시합니다. 끄기로 설정되면 **편집** > **IntelliSense** > **멤버 목록**(**Ctrl**+**J**)을 통해 완성 목록을 표시합니다. |
 | | **Tab** 키를 누를 때 완성 목록 | 끄기 | 하나 이상의 문자를 입력하고 **Tab**을 눌러서 완성 목록을 호출합니다. |
 | | 일부만 입력된 인수 이름 일치 | 끄기 | 함수 호출에 인수 이름을 입력하면 시그니처 도움말에는 가장 일치하는 인수에 대한 설명이 표시됩니다. |
-| 대화형 창 | R 콘솔의 구문 검사 | 끄기 | 대화형 창에서 구문 검사를 적용합니다. 여러 줄 문에서는 구문 검사가 제대로 작동하지 않을 수 있습니다. | 
+| 대화형 창 | R 콘솔의 구문 검사 | 끄기 | 대화형 창에서 구문 검사를 적용합니다. 여러 줄 문에서는 구문 검사가 제대로 작동하지 않을 수 있습니다. |
 | 개요 | 코드 개요 | 켜기 | 여러 줄 문 같은 영역에 대한 접을 수 있는 영역을 자동으로 만듭니다. |
 | 구문 검사 | 구문 오류 표시 | 켜기 | 코드의 자동 구문 검사를 사용하도록 설정합니다. |

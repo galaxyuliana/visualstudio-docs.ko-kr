@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 306bd176-0ce9-4a10-89ca-20b043d37d4e
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 34ae8f845e53fdd80be055c8d0e592d6d01d75e3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 883e783d474ee878b7367674521a8aa18e1c8f64
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898101"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948546"
 ---
 # <a name="call-tree-view---instrumentation-data"></a>호출 트리 뷰 - 계측 데이터
 호출 트리의 함수 값은 호출 트리의 부모 함수가 호출한 함수 인스턴스의 시간을 나타냅니다. 비율 값은 프로파일링 실행 시 모든 함수의 총 경과된 포괄 시간과 함수 인스턴스 값을 비교하여 계산됩니다.  

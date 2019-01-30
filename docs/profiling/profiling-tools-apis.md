@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: bd9ca972-e5bf-45a6-9a5d-ac30a4d9ee02
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d8bc3326bfe194815f043233120f3e2ee5fae571
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8577cb0c456d3cf3ea295928a9bfd1df59d65c03
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53942569"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55040231"
 ---
 # <a name="profiling-tools-apis"></a>프로파일링 도구 API
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 API의 관리 또는 네이티브 메서드를 삽입하여 프로파일링 실행 시에 데이터 수집을 제어할 수 있습니다. 이 섹션에서는 API의 메서드와 사용 방법을 설명합니다.  

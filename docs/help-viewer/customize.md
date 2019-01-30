@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 9c0bc950-7323-4f0f-8de2-0b0af9a42b85
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f5a8d66cc126d26482aac13a8380b12bee11cdf8
-ms.sourcegitcommit: 75e02ed88a1ace6e8265fd4e3a82a1bc78f3adca
+ms.openlocfilehash: 13cdf7f1d2cf815154b17312645d3c55027a58a1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "54406091"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940702"
 ---
 # <a name="customize-the-help-viewer"></a>도움말 뷰어 사용자 지정
 글꼴 크기, 최대 결과 수 및 영어 콘텐츠 포함 여부 등의 다른 옵션은 물론, 도움말 뷰어 창의 레이아웃을 사용자 지정할 수 있습니다.

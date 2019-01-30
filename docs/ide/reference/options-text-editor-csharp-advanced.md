@@ -8,15 +8,15 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: db27509faf1c3d83eab1cd6c8fcd6b5b70fab48e
-ms.sourcegitcommit: 8bfabab73b39b3b3e68a3e8dc225515e8b310fed
+ms.openlocfilehash: 69f0d2f89901632ab4f500879fc89e3b6ca1e0ba
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54398301"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959725"
 ---
 # <a name="options-text-editor-c-advanced"></a>옵션, 텍스트 편집기, C#, 고급
 
@@ -47,7 +47,7 @@ ms.locfileid: "54398301"
    using Newtonsoft.Json;
    using System;
    ```
-   
+
    정렬 이후:
 
    ```csharp
@@ -58,7 +58,7 @@ ms.locfileid: "54398301"
    using FluentValidation;
    using Newtonsoft.Json;
    ```
-   
+
 - Using 지시문 그룹 구분
 
    선택한 경우, 마우스 오른쪽 단추 클릭 메뉴의 **using 제거 및 정렬** 명령은 동일한 루트 네임스페이스를 가진 지시문 그룹 사이에 빈 줄을 삽입하여 `using` 지시문을 구분합니다.
@@ -73,28 +73,28 @@ ms.locfileid: "54398301"
    using Newtonsoft.Json;
    using System;
    ```
-   
+
    정렬 이후:
-   
+
    ```csharp
    using AutoMapper;
-   
+
    using FluentValidation;
-   
+
    using Newtonsoft.Json;
-   
+
    using System;
    using System.Collections.Generic;
    using System.Linq;
    ```
-   
-- 참조 어셈블리의 형식에 대한 using 제안 
-- NuGet 패키지의 형식에 대한 using 제안 
+
+- 참조 어셈블리의 형식에 대한 using 제안
+- NuGet 패키지의 형식에 대한 using 제안
 
    이러한 옵션을 선택한 경우 [빠른 작업](../quick-actions.md)을 사용하여 NuGet 패키지를 설치하고 참조되지 않은 형식에 대한 `using` 지시문을 추가할 수 있습니다.
 
    ![Visual Studio의 NuGet 패키지 설치 빠른 작업](media/nuget-lightbulb.png)
-  
+
 ## <a name="highlighting"></a>강조 표시
 
 - 커서 아래의 기호에 대한 참조 강조

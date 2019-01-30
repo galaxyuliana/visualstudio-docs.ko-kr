@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: da624c06-8741-4afb-aad1-f8c0002f3de2
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a2ac6322f7264f6a6816b6724f0e477c7daa977c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8142899669d998a3d7e51366c482532f1fa415a6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53833471"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948260"
 ---
 # <a name="callercallee-view---net-memory-instrumentation-data"></a>호출자/호출 수신자 뷰 - .NET 메모리 계측 데이터
 계측 방법을 사용하여 수집한 .NET 메모리 프로파일링 데이터의 호출자/호출 수신자 뷰는 선택한 함수와 선택한 해당 함수의 부모 및 자식 함수에 대한 할당 및 타이밍 데이터를 표시합니다. 호출자/호출 수신자 뷰에는 세 개의 표가 포함되어 있습니다.  

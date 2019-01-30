@@ -8,15 +8,15 @@ helpviewer_keywords:
 - F# features [Visual Studio]
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 18803d3033cc3aa1fdfb43620eb741ff1724ec74
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0eaaf9f82bea6fdba86b6404cfc0ab36384805ff
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990087"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920632"
 ---
 # <a name="develop-with-visual-f-in-visual-studio"></a>Visual F#을 사용하여 Visual Studio에서 개발
 
@@ -42,7 +42,7 @@ Visual Studio의 F#에서 다양한 프로젝트 및 항목 템플릿을 사용�
 
 다음 표에 F#에 대한 프로젝트 속성의 기능이 요약되어 있습니다.
 
-|프로젝트 설정|F#에서 지원되는지 여부|노트|
+|프로젝트 설정|F#에서 지원되는지 여부|참고 사항|
 |---------------|----------------|-----|
 |리소스 파일|예||
 |빌드, 디버그 및 참조 설정|예||

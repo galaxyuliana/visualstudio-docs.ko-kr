@@ -17,22 +17,22 @@ helpviewer_keywords:
 ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d59f81a8bedd62e7127d5541f943f0b0c26b8905
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6fd9304753574b0e76b70c439a34f6a9a6d65031
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856646"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958448"
 ---
 # <a name="signing-page-project-designer"></a>프로젝트 디자이너, 서명 페이지
 **프로젝트 디자이너**의 **서명** 페이지를 사용하여 애플리케이션 및 배포 매니페스트에 서명하고 어셈블리에도 서명합니다(강력한 이름 서명).
 
  애플리케이션 및 배포 매니페스트 서명 및 어셈블리 서명은 둘 다 **서명** 페이지에서 수행되는 작업이지만 서로 다른 프로세스입니다.
 
- 또한 매니페스트 서명 및 어셈블리 서명에 대한 키 파일 정보의 저장소가 다릅니다. 매니페스트 서명의 경우 키 정보는 컴퓨터의 암호화 저장소 데이터베이스 및 현재 사용자의 Windows 인증서 저장소에 저장됩니다. 어셈블리 서명의 경우 키 정보는 컴퓨터의 암호화 저장소 데이터베이스에만 저장됩니다.
+ 또한 매니페스트 서명 및 어셈블리 서명에 대한 키 파일 정보의 스토리지가 다릅니다. 매니페스트 서명의 경우 키 정보는 컴퓨터의 암호화 스토리지 데이터베이스 및 현재 사용자의 Windows 인증서 저장소에 저장됩니다. 어셈블리 서명의 경우 키 정보는 컴퓨터의 암호화 스토리지 데이터베이스에만 저장됩니다.
 
  이 **서명** 페이지에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택한 다음 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너** 가 나타나면 **서명** 탭을 클릭합니다.
 

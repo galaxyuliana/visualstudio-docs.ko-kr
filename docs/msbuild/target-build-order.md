@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: f4a26339-9f9a-497a-9aa6-0797183d450d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 96eb3aacfd83ad60ae6c0e0f1fa95209136307ce
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c2b306e926e784afb0558210f090efdfc1496b31
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53881528"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959449"
 ---
 # <a name="target-build-order"></a>대상 빌드 순서
 단일 대상에 대한 입력이 다른 대상의 출력을 사용하는 경우에는 대상의 순서를 지정해야 합니다. 다음과 같은 특성을 사용하여 대상이 실행되는 순서를 지정할 수 있습니다.  

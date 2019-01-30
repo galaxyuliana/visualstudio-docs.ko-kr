@@ -20,14 +20,14 @@ helpviewer_keywords:
 ms.assetid: 0a84bda3-6051-45eb-9c7f-d57419e1f97d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 1aba6044c877ca5cfadf81c9c88595f7bcf0fff9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 47ae8101deb4682d4e236fae57a5dad510fe7302
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53962638"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936395"
 ---
 # <a name="analyze-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer"></a>부하 테스트 분석기의 테이블 뷰에서 부하 테스트 결과 및 오류 분석
 
@@ -65,7 +65,7 @@ ms.locfileid: "53962638"
 
 ## <a name="collect-percentile-data"></a>백분위수 데이터 수집
 
- 부하 테스트 테이블 중 일부에는 네트워크 에뮬레이션을 기반으로 여러 그룹으로 구분된 백분위수 데이터와 응답 시간이 들어 있는 추가 열이 포함될 수 있습니다. 기본적으로 이 데이터는 수집되지 않습니다. 백분위수 데이터는 결과를 로컬에 저장하지 않고 데이터베이스에 저장한 경우에만 사용할 수 있습니다. 자세한 내용은 [부하 테스트 결과 리포지토리에서 부하 테스트 결과 관리](../test/manage-load-test-results-in-the-load-test-results-repository.md)를 참조하세요. 또한 이 데이터를 수집하려면 **부하 테스트 편집기**의 **실행 설정** 노드에서 변경할 특정 실행 설정 노드를 선택합니다. **속성** 창에서 **타이밍 정보 저장소** 속성에 대해 **StatisticsOnly** 또는 **AllIndividualDetails**를 선택합니다. 자세한 내용은 [방법: 웹 페이지 응답 보기](../test/how-to-view-web-page-response-time-in-a-load-test.md)를 참조하세요.
+ 부하 테스트 테이블 중 일부에는 네트워크 에뮬레이션을 기반으로 여러 그룹으로 구분된 백분위수 데이터와 응답 시간이 들어 있는 추가 열이 포함될 수 있습니다. 기본적으로 이 데이터는 수집되지 않습니다. 백분위수 데이터는 결과를 로컬에 저장하지 않고 데이터베이스에 저장한 경우에만 사용할 수 있습니다. 자세한 내용은 [부하 테스트 결과 리포지토리에서 부하 테스트 결과 관리](../test/manage-load-test-results-in-the-load-test-results-repository.md)를 참조하세요. 또한 이 데이터를 수집하려면 **부하 테스트 편집기**의 **실행 설정** 노드에서 변경할 특정 실행 설정 노드를 선택합니다. **속성** 창에서 **타이밍 정보 스토리지** 속성에 대해 **StatisticsOnly** 또는 **AllIndividualDetails**를 선택합니다. 자세한 내용은 [방법: 웹 페이지 응답 보기](../test/how-to-view-web-page-response-time-in-a-load-test.md)를 참조하세요.
 
 ## <a name="the-requests-table"></a>요청 테이블
 

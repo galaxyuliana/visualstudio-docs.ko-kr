@@ -7,14 +7,14 @@ helpviewer_keywords:
 ms.assetid: de10dabb-02ed-403b-9e6f-0b735524988c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
-ms.openlocfilehash: 73c561cf7f79345751b62b53ec3b7da4f74e2e52
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0ab64f1d59e5a183355f665dd720b02a46be98e9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53860207"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54970177"
 ---
 # <a name="load-test-run-settings-properties"></a>부하 테스트 실행 설정 속성
 
@@ -52,8 +52,8 @@ ms.locfileid: "53860207"
 
 |속성|정의|
 |-|----------------|
-|**저장소 형식**|부하 테스트에서 가져온 성능 카운터를 저장하는 방법으로, 다음과 같은 위치 지정 옵션을 사용할 수 있습니다.<br /><br /> -   **데이터베이스** - **부하 테스트 결과 저장소**가 포함된 SQL 데이터베이스가 필요합니다.<br />-   **없음**.|
-|**타이밍 정보 저장소**|**부하 테스트 결과 저장소**에 저장할 정보를 결정하는 데 사용됩니다. 다음과 같은 세 가지 값을 사용할 수 있습니다.<br /><br /> -   **AllIndividualDetails** - 부하 테스트를 수행하는 동안 실행된 각 테스트, 트랜잭션 및 페이지에 대한 개별 타이밍 값을 수집하여 **부하 테스트 결과 저장소**에 저장합니다. **부하 테스트 분석기**에서 **가상 사용자 작업 차트**를 사용하려는 경우 이 값이 필요합니다.<br />     자세한 내용은 [세부 정보 뷰에서 가상 사용자 동작 분석](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)을 참조하세요.<br />-   **없음** - 개별 타이밍 값을 수집하지 않습니다. 이 값은 Visual Studio 2013 업데이트 4 이상 버전에서 기본값입니다.<br />-   **StatisticsOnly** - 부하 테스트를 수행하는 동안 실행된 각 테스트, 트랜잭션 및 페이지에 대한 개별 타이밍 값을 저장하는 대신 통계만 수집하여 **부하 테스트 결과 저장소**에 저장합니다.<br /><br /> 자세한 내용은 [방법: 타이밍 정보 스토리지 속성 지정](../test/how-to-specify-the-timing-details-storage-property-for-a-load-test.md)을 참조하세요.|
+|**스토리지 형식**|부하 테스트에서 가져온 성능 카운터를 저장하는 방법으로, 다음과 같은 위치 지정 옵션을 사용할 수 있습니다.<br /><br /> -   **데이터베이스** - **부하 테스트 결과 저장소**가 포함된 SQL 데이터베이스가 필요합니다.<br />-   **없음**.|
+|**타이밍 정보 스토리지**|**부하 테스트 결과 저장소**에 저장할 정보를 결정하는 데 사용됩니다. 다음과 같은 세 가지 값을 사용할 수 있습니다.<br /><br /> -   **AllIndividualDetails** - 부하 테스트를 수행하는 동안 실행된 각 테스트, 트랜잭션 및 페이지에 대한 개별 타이밍 값을 수집하여 **부하 테스트 결과 저장소**에 저장합니다. **부하 테스트 분석기**에서 **가상 사용자 작업 차트**를 사용하려는 경우 이 값이 필요합니다.<br />     자세한 내용은 [세부 정보 뷰에서 가상 사용자 동작 분석](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)을 참조하세요.<br />-   **없음** - 개별 타이밍 값을 수집하지 않습니다. 이 값은 Visual Studio 2013 업데이트 4 이상 버전에서 기본값입니다.<br />-   **StatisticsOnly** - 부하 테스트를 수행하는 동안 실행된 각 테스트, 트랜잭션 및 페이지에 대한 개별 타이밍 값을 저장하는 대신 통계만 수집하여 **부하 테스트 결과 저장소**에 저장합니다.<br /><br /> 자세한 내용은 [방법: 타이밍 정보 스토리지 속성 지정](../test/how-to-specify-the-timing-details-storage-property-for-a-load-test.md)을 참조하세요.|
 
 ## <a name="sql-tracing-properties"></a>SQL 추적 속성
 

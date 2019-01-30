@@ -7,17 +7,17 @@ ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 74118aee63a67310656926d84300ba180ff74188
-ms.sourcegitcommit: a7e6675185fd34ac8084f09627b2038046cdd2b1
+ms.openlocfilehash: 6a179dc2dc8f3851b1b75ca840b55e07e1ff6a30
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2019
-ms.locfileid: "54060831"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927518"
 ---
 # <a name="step-4-use-the-full-flask-web-project-template"></a>4단계: 전체 Flask 웹 프로젝트 템플릿 사용
 
@@ -163,7 +163,7 @@ def about():
 
 이 문서의 시작 부분에서 언급했듯이, Visual Studio는 “Flask 웹 프로젝트”에 의해 생성된 것과 시각적으로 동일한 애플리케이션을 만드는 “Flask/Jade 웹 프로젝트” 템플릿을 제공합니다. 주된 차이점은 동일한 개념을 보다 간결한 언어로 구현하는 Jinja의 확장인 Jade 템플릿 엔진을 사용한다는 것입니다. 특히 Jade는 예를 들어 {% %} 구분 기호로 묶인 태그 대신, 키워드를 사용하며 키워드를 사용하여 CSS 스타일과 HTML 요소를 참조할 수 있습니다.
 
-Jade를 사용하도록 설정하려면 먼저 프로젝트 템플릿은 *requirements.txt*에 pyjade 패키지를 포함합니다. 
+Jade를 사용하도록 설정하려면 먼저 프로젝트 템플릿은 *requirements.txt*에 pyjade 패키지를 포함합니다.
 
 앱의 *\_\_init\_\_.py* 파일은 다음 줄을 포함합니다.
 

@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: a34ba40e-01b1-4386-90b1-c8e628a8c527
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f65a44552ee2b8e7b62656580528d13db2a1530e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 018ef620438a678ac90c92d319cc8bb23757b742
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53819772"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952641"
 ---
 # <a name="command-line-profiling-tools-reference"></a>명령줄 프로파일링 도구 참조
 명령줄 성능 도구를 사용하여 프로그래머는 명령 프롬프트에서 애플리케이션을 프로파일링할 수 있습니다. 다음 명령줄 프로파일링 도구를 사용하여 명령 프롬프트에서 코드를 프로파일링할 수 있습니다.  
