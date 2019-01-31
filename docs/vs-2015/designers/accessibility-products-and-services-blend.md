@@ -1,25 +1,20 @@
 ---
 title: 내게 필요한 옵션 제품 및 서비스(Blend) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: ba8557f6-231a-4d8b-80dd-80397e87a17f
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 394940ae59ceb87cf2bc71d71584fe0bf39eb0b0
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: eca75f325557ee118cf4ab54287978dc63420ff7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49197823"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54793483"
 ---
 # <a name="accessibility-products-and-services-blend"></a>내게 필요한 옵션 제품 및 서비스(Blend)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,6 +77,3 @@ Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽�
   
 ## <a name="for-more-information"></a>추가 정보  
  컴퓨터의 접근성 기술이 장애가 있는 사용자에게 어떤 도움을 주는지에 대한 자세한 내용은 [Microsoft 접근성 사이트](http://go.microsoft.com/fwlink/?LinkID=75069)를 참조하세요.
-
-
-

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 732b7ccc-54ea-41db-823b-2b96e3e4083e
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1b92cee00b93541ddc75a4c3210d77c61a82f640
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 59fc1d6936822bb3a5ffad3bcdcbe9bc9976f293
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863383"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940351"
 ---
 # <a name="how-to-search-for-a-message-in-messages-view"></a>방법: 메시지 뷰에서 메시지 검색
 검색 조건으로 해당 핸들, 형식 또는 메시지 ID를 사용 하 여 메시지 보기에서 특정 메시지를 검색할 수 있습니다. 이러한-조합일-유효한 검색 조건이 됩니다. 초기 검색으로 지정할 수 있습니다. 대화 상자의 필드에에서는 현재 선택 된 메시지의 특성을 사용 하 여 미리 로드 됩니다.  

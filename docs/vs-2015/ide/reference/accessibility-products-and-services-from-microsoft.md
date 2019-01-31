@@ -1,14 +1,9 @@
 ---
 title: Microsoft의 접근성 제품 및 서비스 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
 - TTY/TDD services
 - documentation, recorded documentation
@@ -23,13 +18,13 @@ ms.assetid: ef3c6247-9f59-4ef4-aa8b-a8922b3e0943
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 96ad41ff6cec9a03c8d57905427dbdf45b5b4ed9
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: d07901a14b61ccddf8d4799828c6d42bddf7f94b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49826988"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54794356"
 ---
 # <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft의 내게 필요한 옵션 제품 및 서비스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -85,11 +80,5 @@ Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽�
  컴퓨터의 접근성 기술이 장애가 있는 사용자에게 어떤 도움을 주는지에 대한 자세한 내용은 [Microsoft 접근성 웹 사이트](http://go.microsoft.com/fwlink/?LinkId=8431)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
- [액세스 가능한 응용 프로그램 설계를 위한 리소스](../../ide/reference/resources-for-designing-accessible-applications.md)   
+ [액세스 가능한 애플리케이션 설계를 위한 리소스](../../ide/reference/resources-for-designing-accessible-applications.md)   
  [Visual Studio의 접근성 기능](../../ide/reference/accessibility-features-of-visual-studio.md)
-
-
-
-
-
-

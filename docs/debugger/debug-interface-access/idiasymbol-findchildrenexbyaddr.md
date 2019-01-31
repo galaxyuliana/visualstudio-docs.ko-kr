@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: c1e7885d-2d15-4529-9ac2-32dd22efe31c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 900699fc543da7eba25624766ac6c8b0d5cf88bb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c859d7eecdaeba9173d64c850acf098a230b38f1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875101"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54939246"
 ---
 # <a name="idiasymbolfindchildrenexbyaddr"></a>IDiaSymbol::findChildrenExByAddr
 지정된 된 주소에서 사용할 수 있는 기호 자식을 검색 합니다.  
@@ -57,7 +57,7 @@ HRESULT findChildrenExByAddr ( 
  반환 되는 로컬 기호 라이브 범위 정보를 포함 합니다.  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

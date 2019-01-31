@@ -1,14 +1,9 @@
 ---
 title: 보안 및 지역화된 위성 어셈블리 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - key pairs for strong-named assemblies
 - strong-named assemblies, security considerations
@@ -22,13 +17,13 @@ ms.assetid: 6d953840-b301-47d5-8d34-30c1b29b5071
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: d817569a5f6709794b452fb5efe38d584669033f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b4c153697d95f1496ee3380f63c48d0e4521c05a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49218649"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54781023"
 ---
 # <a name="security-and-localized-satellite-assemblies"></a>보안 및 지역화된 위성 어셈블리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +35,6 @@ ms.locfileid: "49218649"
 ## <a name="see-also"></a>참고 항목  
  [어셈블리 보안 고려 사항](http://msdn.microsoft.com/library/1b5439c1-f3d5-4529-bd69-01814703d067)   
  [주요 보안 개념](http://msdn.microsoft.com/library/3cfced4f-ea02-4e66-ae98-d69286363e98)   
- [.NET Framework 기반의 국가별 응용 프로그램 소개](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)   
- [응용 프로그램 지역화](../ide/localizing-applications.md)   
- [응용 프로그램 전역화 및 지역화](../ide/globalizing-and-localizing-applications.md)
-
+ [.NET Framework 기반의 국가별 애플리케이션 소개](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)   
+ [애플리케이션 지역화](../ide/localizing-applications.md)   
+ [애플리케이션 전역화 및 지역화](../ide/globalizing-and-localizing-applications.md)

@@ -1,14 +1,9 @@
 ---
 title: 작업 일괄 처리의 항목 메타데이터 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - batching [MSBuild]
 - MSBuild, batching
@@ -18,13 +13,13 @@ ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: c117f6864aadd7c981aa2b89302c06ccfd6c9768
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c83f499560bf747843fe74ede4d2187a544bee8b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49923786"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769164"
 ---
 # <a name="item-metadata-in-task-batching"></a>작업 일괄 처리의 항목 메타데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,7 +84,7 @@ ms.locfileid: "49923786"
  `Number: 3 -- Items in ExampColl: Item3;Item6`  
   
 ## <a name="dividing-several-item-lists-into-batches"></a>여러 항목 목록을 일괄 처리로 나누기  
- [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 여러 항목 목록을 동일한 메타데이터에 따라 일괄 처리로 나눌 수 있습니다. 이렇게 하면 쉽게 여러 다른 항목 목록을 일괄 처리로 나누어 여러 어셈블리를 빌드할 수 있습니다. 예를 들어 .cs 파일의 항목 목록을 응용 프로그램 일괄 처리 및 어셈블리 일괄 처리로 나누고, 리소스 파일의 항목 목록을 응용 프로그램 일괄 처리 및 어셈블리 일괄 처리로 나눌 수 있습니다. 그런 후 일괄 처리를 사용하여 이러한 항목 목록을 하나의 작업에 전달하고 응용 프로그램 및 어셈블리를 둘 다 빌드할 수 있습니다.  
+ [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 여러 항목 목록을 동일한 메타데이터에 따라 일괄 처리로 나눌 수 있습니다. 이렇게 하면 쉽게 여러 다른 항목 목록을 일괄 처리로 나누어 여러 어셈블리를 빌드할 수 있습니다. 예를 들어 .cs 파일의 항목 목록을 애플리케이션 일괄 처리 및 어셈블리 일괄 처리로 나누고, 리소스 파일의 항목 목록을 애플리케이션 일괄 처리 및 어셈블리 일괄 처리로 나눌 수 있습니다. 그런 후 일괄 처리를 사용하여 이러한 항목 목록을 하나의 작업에 전달하고 애플리케이션 및 어셈블리를 둘 다 빌드할 수 있습니다.  
   
 > [!NOTE]
 >  작업에 전달되는 항목 목록에 참조된 메타데이터가 있는 항목이 없으면 해당 항목 목록의 모든 항목이 모든 일괄 처리로 전달됩니다.  
@@ -233,6 +228,3 @@ Items in ExampColl: Item2;Item5
  [일괄 처리](../msbuild/msbuild-batching.md)   
  [MSBuild 개념](../msbuild/msbuild-concepts.md)   
  [MSBuild 참조](../msbuild/msbuild-reference.md)
-
-
-

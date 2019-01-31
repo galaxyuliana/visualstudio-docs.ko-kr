@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 85ec6fc761ed117004357ed56f90a058e58f7f10
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6c99a5c953238498e5a780c2cd731500af2f5c23
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53870244"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54963517"
 ---
 # <a name="writecodefragment-task"></a>WriteCodeFragment 작업
 생성된 특정 코드 조각에서 임시 코드 파일을 생성합니다. 파일을 삭제하지는 않습니다.  

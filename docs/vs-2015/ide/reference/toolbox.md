@@ -1,14 +1,9 @@
 ---
 title: 도구 상자 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - vs.toolbox.general
 - vs.toolbox
@@ -20,13 +15,13 @@ ms.assetid: b754dad3-1f32-464f-8b9f-065e17e0bc22
 caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 8c12fe819d46eae073367d10c50deec9ee7b4c26
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9f296cda3fb7b57ed323dd8b1a6bbff949b9a6d1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49241477"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799800"
 ---
 # <a name="toolbox"></a>도구 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,7 +34,7 @@ ms.locfileid: "49241477"
  **도구 상자**에는 작업 중인 파일 형식에 적합한 항목만 표시됩니다. 도구 상자 내에서 검색하여 표시되는 항목을 추가로 필터링할 수 있습니다. 프로젝트에 클라이언트 프로필에서 지원되지 않는 컨트롤이 필요한 경우 프로젝트 속성을 편집하여 전체 프레임워크를 대상으로 하도록 프로젝트를 설정할 수 있습니다.  
   
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="help-on-toolbox-tabs"></a>도구 상자 탭에 대한 도움말  
  다음 문서에서는 특정 **도구 상자** 탭에 대한 추가 정보를 제공합니다.  
@@ -58,6 +53,3 @@ ms.locfileid: "49241477"
   
 ## <a name="see-also"></a>참고 항목  
  [도구 상자 사용](../../ide/using-the-toolbox.md)
-
-
-

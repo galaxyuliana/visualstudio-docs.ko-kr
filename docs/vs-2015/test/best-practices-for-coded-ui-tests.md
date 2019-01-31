@@ -1,26 +1,21 @@
 ---
 title: 코딩된 UI 테스트에 대한 모범 사례 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
 - coded UI tests, best practices
 ms.assetid: d5aef766-a24c-4f1f-ac9b-e5462b6627d4
 caps.latest.revision: 41
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 1a067751662895f99f4caf95d487dc8c8a4672f3
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 192d97d8d2096b37d2dd52d2ed942ccb595456d0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49903584"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795794"
 ---
 # <a name="best-practices-for-coded-ui-tests"></a>최선의 코딩된 UI 테스트 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,9 +45,9 @@ ms.locfileid: "49903584"
   
 - UI(사용자 인터페이스)가 변경되면 테스트 메서드 또는 어설션 메서드를 다시 기록하거나 기존 테스트 메서드의 영향을 받는 섹션을 다시 기록합니다.  
   
-- 테스트 대상 응용 프로그램의 각 모듈에 대해 별도 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> 파일을 만듭니다. 자세한 내용은 [여러 UI 맵이 포함된 대형 응용 프로그램 테스트](../test/testing-a-large-application-with-multiple-ui-maps.md)를 참조하세요.  
+- 테스트 대상 애플리케이션의 각 모듈에 대해 별도 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> 파일을 만듭니다. 자세한 내용은 [여러 UI 맵이 포함된 대형 애플리케이션 테스트](../test/testing-a-large-application-with-multiple-ui-maps.md)를 참조하세요.  
   
-- 테스트 대상 응용 프로그램에서 UI 컨트롤을 만들 때 의미 있는 이름을 사용합니다. 이렇게 하면 자동으로 생성된 컨트롤 이름에 더 많은 의미와 유용성이 제공됩니다.  
+- 테스트 대상 애플리케이션에서 UI 컨트롤을 만들 때 의미 있는 이름을 사용합니다. 이렇게 하면 자동으로 생성된 컨트롤 이름에 더 많은 의미와 유용성이 제공됩니다.  
   
 - API로 코딩하여 어설션을 만드는 경우 `UIMap.cs` 파일에 있는 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> 클래스 부분에 각 어설션에 대한 메서드를 만듭니다. 어설션을 실행하려면 테스트 메서드에서 이 메서드를 호출합니다.  
   
@@ -96,8 +91,5 @@ Playback.PlaybackSettings.WaitForReadyLevel = WaitForReadyLevel.UIThreadOnly;
  <xref:Microsoft.VisualStudio.TestTools.UITesting>   
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
  [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
- [여러 UI 맵이 포함된 대형 응용 프로그램 테스트](../test/testing-a-large-application-with-multiple-ui-maps.md)   
+ [여러 UI 맵이 포함된 대형 애플리케이션 테스트](../test/testing-a-large-application-with-multiple-ui-maps.md)   
  [코딩된 UI 테스트 및 작업 기록에 지원되는 구성 및 플랫폼](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-
-
-

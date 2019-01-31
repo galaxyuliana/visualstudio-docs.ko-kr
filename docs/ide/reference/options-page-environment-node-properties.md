@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 26dca41f-91fc-4ca7-9103-3da402baa1d5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 54ce1d5fdd318ddd8c1ac4cd1a988b458898327a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ca01809edc10058097ea40ff67ea263b5a10a5a1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53914970"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959816"
 ---
 # <a name="options-page-environment-node-properties"></a>옵션 페이지, 환경 노드 속성
 이 문서에서는 **옵션** 대화 상자의 **환경** 범주, `DTE.Properties("Environment", <Property Page>)`와 연관된 일부 페이지(또는 속성 컬렉션)에 대해 설명합니다. 각 하위 단원의 제목은 속성 컬렉션에 액세스하는 데 사용되는 호출이며, 각 하위 단원의 표에는 컬렉션의 속성이 나열되어 있습니다.

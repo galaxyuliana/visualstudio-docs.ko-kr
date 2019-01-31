@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: c798eb2b-664a-41ec-ae90-5e9d292507ca
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d4dc9e8ef259c67abe0b972584153c7eba8e80b4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b3f30d9724346686a980fc139ff48474557145a5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956662"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55042975"
 ---
 # <a name="compiland"></a>컴파일 대상
 하나의 `SymTagCompiland` .exe 파일에 연결 된 각 컴파일 대상 기호입니다. Compiland 정보 기호를 간에 분할 되는 `SymTagCompiland` 추가 컴파일 대상 기호를 로드 하지 않고 검색할 수 있는 태그 및 사용 하 여 기호를 `SymTagCompilandDetails` 태그 추가 기호를 로드 해야 할 수 있습니다.  

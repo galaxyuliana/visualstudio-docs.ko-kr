@@ -1,14 +1,9 @@
 ---
 title: '&lt;반환&gt; (JavaScript) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - returns JavaScript XML tag
 - <returns> JavaScript XML tag
@@ -16,13 +11,13 @@ ms.assetid: 10d97829-c0ae-40a5-b04c-d8b538cdefbc
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 5896c35c53feedb2f253bd86691f2fbf6793099e
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 81a9a42a104adb2a9d9a9aba483e2588d7332868
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49875712"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54801778"
 ---
 # <a name="ltreturnsgt-javascript"></a>&lt;반환&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,7 +75,7 @@ ms.locfileid: "49875712"
   `description`  
   선택 사항입니다. 반환 값에 대한 설명입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  `<returns>` 문 앞에서 함수 본문의 요소를 배치 해야 합니다.  
   
 ## <a name="example"></a>예제  
@@ -119,6 +114,3 @@ calculate().  // Completion list for a Number.
   
 ## <a name="see-also"></a>참고 항목  
  [XML 문서 주석](../ide/xml-documentation-comments-javascript.md)
-
-
-

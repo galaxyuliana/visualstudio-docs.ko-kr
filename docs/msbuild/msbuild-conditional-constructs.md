@@ -19,15 +19,15 @@ helpviewer_keywords:
 ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ca2e1c99a8897dc80b30d8e91e48554ddce7451b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5cdb38211cb41722feb4a63d5038647b8a245643
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53985909"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54947896"
 ---
 # <a name="msbuild-conditional-constructs"></a>MSBuild 조건부 구문
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 [Choose](../msbuild/choose-element-msbuild.md), [When](../msbuild/when-element-msbuild.md) 및 [Otherwise](../msbuild/otherwise-element-msbuild.md) 요소를 포함하는 / 또는 처리에 메커니즘을 제공합니다.  

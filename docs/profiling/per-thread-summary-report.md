@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5a0aa339-03f5-4727-90b3-8950446bbdbe
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 737e879f040f503ec367438273d2136670a44e21
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f624a1130c0da261e563e755e55dc2bfcfd49151
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53869585"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54966714"
 ---
 # <a name="per-thread-summary-report"></a>스레드별 요약 보고서
 이 막대 그래프는 현재 표시되는 시간 범위 중 각 작업 범주에서 숨겨진 각 스레드가 소비하는 시간의 비율을 표시합니다. "실행"은 스레드가 실행되고 있음을 의미하며 다른 모든 범주는 스레드가 대기 중임을 의미합니다.  

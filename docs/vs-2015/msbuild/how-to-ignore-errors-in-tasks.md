@@ -1,14 +1,9 @@
 ---
-title: '방법: 작업의 오류 무시 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 작업의 오류 무시 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, ignoring errors
 - ContinueOnError attribute [MSBuild]
@@ -16,13 +11,13 @@ ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 72f638a17fd6d49157f13d54a6ec1deba0e2bf27
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4bac63523829c47b17821ff5905687bd76bbc57e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49891195"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54777033"
 ---
 # <a name="how-to-ignore-errors-in-tasks"></a>방법: 작업의 오류 무시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +42,7 @@ ms.locfileid: "49891195"
   
 #### <a name="to-ignore-an-error-in-a-task"></a>작업의 오류를 무시하려면  
   
--   작업의 `ContinueOnError` 특성을 사용합니다. 예를 들어:  
+-   작업의 `ContinueOnError` 특성을 사용합니다. 예:  
   
      `<Delete Files="@(Files)" ContinueOnError="WarnAndContinue"/>`  
   
@@ -74,5 +69,3 @@ ms.locfileid: "49891195"
 [MSBuild](msbuild.md)  
  [작업 참조](../msbuild/msbuild-task-reference.md)   
  [작업](../msbuild/msbuild-tasks.md)
-
-

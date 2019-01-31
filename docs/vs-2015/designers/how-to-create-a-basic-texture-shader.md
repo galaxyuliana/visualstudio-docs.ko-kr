@@ -1,25 +1,20 @@
 ---
-title: '방법: 기본 질감 셰이더 만들기 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 기본 질감 셰이더 만들기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 5af113fb-6415-4be0-8b23-10fddb10e80a
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 18bb4f1ad4dfc3428e8dc30958013438de22e13a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 66a25c56e50db0caecf4aa7a314be529e2caba12
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49898540"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54793436"
 ---
 # <a name="how-to-create-a-basic-texture-shader"></a>방법: 기본 질감 셰이더 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,10 +66,7 @@ ms.locfileid: "49898540"
  일부 셰이더의 경우 특정 도형을 사용하면 미리 보기가 더 잘 표시될 수 있습니다. 셰이더 디자이너에서 셰이더를 미리 보는 방법에 대한 자세한 내용은 [셰이더 디자이너](../designers/shader-designer.md)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 3D 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)   
+ [방법: 3 차원 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)   
  [이미지 편집기](../designers/image-editor.md)   
  [셰이더 디자이너](../designers/shader-designer.md)   
  [셰이더 디자이너 노드](../designers/shader-designer-nodes.md)
-
-
-

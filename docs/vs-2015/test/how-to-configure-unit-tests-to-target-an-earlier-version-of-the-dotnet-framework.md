@@ -1,24 +1,19 @@
 ---
-title: '방법: 이전 버전의 .NET Framework를 대상으로 사용하도록 단위 테스트 구성 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 이전 버전의.NET Framework 대상으로 하 여 단위 테스트 구성 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: adb6c011-5abd-41d2-8ead-08cd7579bf37
 caps.latest.revision: 14
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 978f4e3edeb83d5980d793d74cf209e8e8f7205e
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 68a0c1b707011026d4fe58d86fc187b0152dae3e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49892794"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795862"
 ---
 # <a name="how-to-configure-unit-tests-to-target-an-earlier-version-of-the-net-framework"></a>방법: 이전 버전의 .NET Framework를 대상으로 사용하도록 단위 테스트 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,9 +30,9 @@ Microsoft Visual Studio에서 테스트 프로젝트를 만들 때 .NET Framewor
   
 - 빌드 에이전트에서 단위 테스트를 빌드의 일부로 실행할 수 있습니다.  
   
-  **SharePoint 응용 프로그램 테스트**  
+  **SharePoint 애플리케이션 테스트**  
   
-  위에 나열된 기능을 통해 Visual Studio를 사용하는 SharePoint 응용 프로그램에 대한 단위 테스트 및 통합 테스트를 작성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] Visual Studio를 사용하여 SharePoint 응용 프로그램을 개발하는 방법은 [SharePoint 솔루션 만들기](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631), [SharePoint 솔루션 빌드 및 디버깅](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae) 및 [SharePoint 코드 확인 및 디버깅](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)을 참조하세요.  
+  위에 나열된 기능을 통해 Visual Studio를 사용하는 SharePoint 애플리케이션에 대한 단위 테스트 및 통합 테스트를 작성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] Visual Studio를 사용하여 SharePoint 애플리케이션을 개발하는 방법은 [SharePoint 솔루션 만들기](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631), [SharePoint 솔루션 빌드 및 디버깅](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae) 및 [SharePoint 코드 확인 및 디버깅](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)을 참조하세요.  
   
   **제한 사항**  
   
@@ -45,7 +40,7 @@ Microsoft Visual Studio에서 테스트 프로젝트를 만들 때 .NET Framewor
   
 - .NET Framework 3.5에서는 단위 테스트만 포함된 테스트 프로젝트에 대해 여러 대상을 지정할 수 있습니다. .NET Framework 3.5에서는 코딩된 UI 또는 로드 테스트 등의 다른 테스트 형식을 지원하지 않습니다. 단위 테스트 이외의 테스트 형식에 대한 대상은 다시 지정할 수 없습니다.  
   
-- .NET Framework의 이전 버전이 대상으로 지정된 테스트는 기본 호스트 어댑터에서만 실행할 수 있습니다. ASP.NET 호스트 어댑터에서는 이 기능이 지원되지 않습니다. ASP.NET 개발 서버 컨텍스트에서 실행해야 하는 ASP.NET 응용 프로그램은 .NET Framework의 현재 버전과 호환되어야 합니다.  
+- .NET Framework의 이전 버전이 대상으로 지정된 테스트는 기본 호스트 어댑터에서만 실행할 수 있습니다. ASP.NET 호스트 어댑터에서는 이 기능이 지원되지 않습니다. ASP.NET 개발 서버 컨텍스트에서 실행해야 하는 ASP.NET 애플리케이션은 .NET Framework의 현재 버전과 호환되어야 합니다.  
   
 - .NET Framework 3.5 멀티 타기팅을 지원하는 테스트를 실행할 경우 데이터 수집 지원이 사용하지 않도록 설정됩니다. Visual Studio 명령줄 도구를 사용하여 코드 검사를 실행할 수 있습니다.  
   
@@ -89,7 +84,7 @@ Microsoft Visual Studio에서 테스트 프로젝트를 만들 때 .NET Framewor
   
      Visual C# 테스트 프로젝트의 속성이 표시됩니다.  
   
-5.  **응용 프로그램** 탭에서 **대상 프레임워크**를 선택하고 드롭다운 목록에서 **.NET Framework 3.5** 이상 버전을 선택하여 다음 그림과 같이 대상 프레임워크를 변경합니다. 클라이언트 버전을 지정하면 안 됩니다.  
+5.  **애플리케이션** 탭에서 **대상 프레임워크**를 선택하고 드롭다운 목록에서 **.NET Framework 3.5** 이상 버전을 선택하여 다음 그림과 같이 대상 프레임워크를 변경합니다. 클라이언트 버전을 지정하면 안 됩니다.  
   
      ![대상 프레임워크 드롭다운 목록](../test/media/howtoconfigureunittest35frameworkcsharp.png "HowToConfigureUnitTest35FrameworkCSharp")  
   
@@ -131,10 +126,7 @@ Microsoft Visual Studio에서 테스트 프로젝트를 만들 때 .NET Framewor
 8.  [솔루션 탐색기]에 있는 새 Visual C++ 테스트 프로젝트의 바로 가기 메뉴에서 **프로젝트 다시 로드**를 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [기존 코드에 대한 단위 테스트 만들기 및 실행](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
+ [기존 코드에 대한 단위 테스트 만들기 및 실행](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
  [SharePoint 솔루션 만들기](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
  [SharePoint 솔루션 빌드 및 디버깅](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
  [고급 컴파일러 설정 대화 상자(Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)
-
-
-

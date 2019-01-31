@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 4c2f52de-bd91-42cf-9028-67aa75f8bd26
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 36fe0363ceebc15bf877bafd1a528ae707668e12
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d8b39629e742328eb70e00d299e2d4fc9919271a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53956559"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54985554"
 ---
 # <a name="how-to-display-window-properties"></a>방법: 창 속성 표시
 에 표시 된 창에 대 한 자세한 내용을 알아보려면 [Windows 보기](../debugger/windows-view.md)를 사용 합니다 [창 속성 대화 상자](../debugger/window-properties-dialog-box.md).  

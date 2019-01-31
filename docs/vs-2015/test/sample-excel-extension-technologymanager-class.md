@@ -1,24 +1,19 @@
 ---
-title: '샘플 Excel 확장: TechnologyManager 클래스 | Microsoft 문서'
-ms.custom: ''
+title: '샘플 Excel 확장: TechnologyManager 클래스 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 8a7b760d-b5ac-4451-9593-6ac1a0b95cdb
 caps.latest.revision: 11
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: b23c3e735aba74d86b31afb4b83862d83bcd2bdb
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4ab353f9c42eebe4af10f56f6ee4cda533069121
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49190582"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54779572"
 ---
 # <a name="sample-excel-extension-technologymanager-class"></a>샘플 Excel 확장: TechnologyManager 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,6 +67,3 @@ ms.locfileid: "49190582"
  <xref:System.Runtime.InteropServices.ComVisibleAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement.QueryId%2A>   
  [Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
-
-
-

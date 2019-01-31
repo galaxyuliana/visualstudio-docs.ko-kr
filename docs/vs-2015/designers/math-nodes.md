@@ -1,25 +1,20 @@
 ---
 title: 수학 노드 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: adc225cc-1cf5-4f7c-9b00-e7ac8450b6b9
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: bab77bbed9f14ccc81429c37ad367d7d51709871
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c2971a13e82e4b31f985be6db2a8a32167a3f74b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49305775"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54796222"
 ---
 # <a name="math-nodes"></a>수학 노드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +26,7 @@ ms.locfileid: "49305775"
   
 ## <a name="math-node-reference"></a>수학 노드 참조  
   
-|노드|설명|속성|  
+|노드|세부 정보|속성|  
 |----------|-------------|----------------|  
 |**Abs**|구성 요소별로 지정된 입력의 절대값을 계산합니다.<br /><br /> 입력 `X`의 각 구성 요소에 대해 음수 값을 양수로 바꿔 결과의 모든 구성 요소가 양수 값을 갖도록 합니다.<br /><br /> **입력:**<br /><br /> `X`: `float`, `float2`, `float3` 또는 `float4`<br /> 절대 값을 확인할 값입니다.<br /><br /> `Output:`<br /><br /> `Output`: 입력 `X`과 동일<br /> 구성 요소별 절대 값입니다.|없음|  
 |**추가**|구성 요소별로 지정된 입력의 구성 요소 단위 합계를 계산합니다.<br /><br /> 결과의 각 구성 요소에 대해 입력 `X` 및 입력 `Y`의 해당 구성 요소를 더합니다.<br /><br /> **입력:**<br /><br /> `X`: `float`, `float2`, `float3` 또는 `float4`<br /> 더할 값 중 하나입니다.<br /><br /> `Y`: 입력 `X`과 동일<br /> 더할 값 중 하나입니다.<br /><br /> **출력:**<br /><br /> `Output`: 입력 `X`과 동일<br /> 구성 요소별 합계입니다.|없음|  
@@ -58,6 +53,3 @@ ms.locfileid: "49305775"
 |**Sqrt**|구성 요소별로 지정된 입력의 제곱근을 계산합니다.<br /><br /> 결과의 각 구성 요소에 대해 해당하는 구성 요소의 제곱근을 계산합니다.<br /><br /> **입력:**<br /><br /> `X`: `float`, `float2`, `float3` 또는 `float4`<br /> 제곱근을 계산할 값입니다.<br /><br /> **출력:**<br /><br /> `Output`: 입력 `X`과 동일<br /> 구성 요소별 제곱근입니다.|없음|  
 |**Subtract**|지정된 입력의 구성 요소 단위 차를 계산합니다.<br /><br /> 결과의 각 구성 요소에 대해 입력 `Y`의 해당 구성 요소를 입력 `X`의 해당 구성 요소에서 뺍니다. 첫 번째 입력에서 두 번째 입력으로 확장되는 벡터를 계산하는 데 사용할 수 있습니다.<br /><br /> **입력:**<br /><br /> `X`: `float`, `float2`, `float3` 또는 `float4`<br /> 뺄 값입니다.<br /><br /> `Y`: 입력 `X`과 동일<br /> 입력 `X`에서 뺄 값입니다.<br /><br /> **출력:**<br /><br /> `Output`: 입력 `X`과 동일<br /> 구성 요소별 차입니다.|없음|  
 |**3D 벡터 변환**|지정된 3차원 벡터를 다른 공간으로 변환합니다.<br /><br /> 의미 있는 계산을 수행하는 데 사용할 수 있도록 점 또는 벡터를 공용 공간으로 이동하는 데 사용할 수 있습니다.<br /><br /> **입력:**<br /><br /> `Vector`: `float3`<br /> 변형할 벡터입니다.<br /><br /> **출력:**<br /><br /> `Output`: `float3`<br /> 변형된 벡터입니다.|**원본 시스템**<br /> 벡터의 원시 공간입니다.<br /><br /> **대상 시스템**<br /> 벡터를 변환할 공간입니다.|
-
-
-

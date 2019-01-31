@@ -1,14 +1,9 @@
 ---
 title: 오류 작업 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Error
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: e96a90ee-a8ae-4e5b-8ef2-b5cf5fedd8b2
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ff957a54c27c4ae4860e31e4fb7001b7f831ab3a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 71c257dae17f6846e3e6a4490178b49f28c6dad3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49212721"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54767487"
 ---
 # <a name="error-task"></a>오류 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +42,7 @@ ms.locfileid: "49212721"
 |`HelpKeyword`|선택적 `String` 매개 변수입니다.<br /><br /> 오류와 연결할 도움말 키워드입니다.|  
 |`Text`|선택적 `String` 매개 변수입니다.<br /><br /> `Condition` 매개 변수가 `true`로 평가될 경우 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]가 기록하는 오류 텍스트입니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  `Error` 작업을 수행하면 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트에서 로거에 대해 오류 텍스트를 실행하고 빌드 실행을 중지할 수 있습니다.  
   
  `Condition` 매개 변수가 `true`로 평가될 경우 빌드가 중지되고 오류가 기록됩니다. `Condition` 매개 변수가 없으면 오류가 기록되고 빌드 실행이 중지됩니다. 로깅에 대한 자세한 내용은 [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)를 참조하세요.  
@@ -74,6 +69,3 @@ ms.locfileid: "49212721"
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)   
  [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)
-
-
-

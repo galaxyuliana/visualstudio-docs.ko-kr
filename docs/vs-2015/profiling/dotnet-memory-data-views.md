@@ -1,14 +1,9 @@
 ---
 title: .NET 메모리 데이터 뷰 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - .NET memory profiling method views
 - profiling tools,.NET memory profiling views
@@ -16,13 +11,13 @@ ms.assetid: 79184d8e-769b-4ace-be2b-521147772081
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: bc893857e56d97442efd9ceee8ffb8a5aed72ea2
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 7d31213dc970fa7cb28c4d4620c6731692db83d2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51762482"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782435"
 ---
 # <a name="net-memory-data-views"></a>.NET 메모리 데이터 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,6 +80,3 @@ ms.locfileid: "51762482"
   
  [계측 방법 데이터 뷰](../profiling/instrumentation-method-data-views.md)  
  계측 방법을 사용하여 생성된 프로파일러 데이터 파일의 뷰와 보고서에 대한 참조 정보입니다.
-
-
-

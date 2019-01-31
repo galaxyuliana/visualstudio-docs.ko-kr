@@ -1,14 +1,9 @@
 ---
-title: '방법: 리소스를 사용하는 프로젝트 빌드 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 리소스를 사용하는 프로젝트 빌드 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - resource files, compiling with MSBuild
 - resources [Visual Studio], compiling with MSBuild
@@ -18,13 +13,13 @@ ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: e2383f563b8f6e80111d382c9abe96a66efadd69
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b45d2dfedcc020a5b6206e4c419c0e4b7f9b0f02
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49256929"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54804003"
 ---
 # <a name="how-to-build-a-project-that-has-resources"></a>방법: 리소스를 사용하는 프로젝트 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,5 +85,3 @@ ms.locfileid: "49256929"
  [GenerateResource 작업](../msbuild/generateresource-task.md)   
  [Csc 작업](../msbuild/csc-task.md)   
  [Resgen.exe(리소스 파일 생성기)](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)
-
-

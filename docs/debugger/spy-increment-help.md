@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 82155004-8d9e-4875-b7db-237a3cffb530
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 156629fdce19dfe4e503f4af67ca31f99041e231
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9114b9e442f4a6cb8525120d24ba59be99891fef
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53855595"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54940104"
 ---
 # <a name="spy-help"></a>Spy++ 도움말
 Spy + + 유틸리티에 대 한 설명서에서 사용 하 여 Spy + +와 Spy + + 보기의 일반 항목의 두 그룹이 포함 되어 있습니다. 이러한 각 사용 가능한 메뉴 명령과 대화 상자에서 추가 세부 정보를 제공 하는 Spy + + 참조를 옵니다.  

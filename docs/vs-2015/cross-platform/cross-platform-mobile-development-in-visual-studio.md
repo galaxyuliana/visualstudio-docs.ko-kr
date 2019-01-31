@@ -1,23 +1,19 @@
 ---
 title: 플랫폼 간 모바일 개발
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology: tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-mobile
+ms.topic: conceptual
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 caps.latest.revision: 66
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: c259a8c84a59f99f647f908ded8b272ed4e943a0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e2052dda4062ea120c529a03c3c0c7e43a4c8421
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53858833"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54789296"
 ---
 # <a name="cross-platform-mobile-development-in-visual-studio"></a>Visual Studio에서 플랫폼 간 모바일 개발
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -121,7 +117,7 @@ Visual Studio를 사용하여 Android, iOS 및 Windows 디바이스용 앱을 �
 |**자세히**|
 |--------------------|
 |[Visual Studio 설치](http://www.visualstudio.com/products/visual-studio-community-vs)(VisualStudio.com)|
-|[Visual Studio Tools for Apache Cordova 시작](http://taco.visualstudio.com/en-us/docs/get-started-vs-tools-apache-cordova/) (taco.visualstudio.com)|
+|[Visual Studio Tools for Apache Cordova 시작](http://taco.visualstudio.com/docs/get-started-vs-tools-apache-cordova/) (taco.visualstudio.com)|
 |[Android 용 Visual Studio 에뮬레이터에 대해 알아보기](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
 ##  <a name="CPP"></a> Android 및 Windows용 앱 빌드(C++)
@@ -167,7 +163,7 @@ Visual Studio를 사용하여 Android, iOS 및 Windows 디바이스용 앱을 �
 
 |**자세히**|
 |--------------------|
-|[Visual Studio를 사용하여 Unity 게임을 제작하는 방법 알아보기](https://www.visualstudio.com/en-us/features/unitytools-vs.aspx)|
+|[Visual Studio를 사용하여 Unity 게임을 제작하는 방법 알아보기](https://www.visualstudio.com/features/unitytools-vs.aspx)|
 |[Visual Studio Tools for Unity에 대해 자세히 알아보기](../cross-platform/visual-studio-tools-for-unity.md) (MSDN Library)|
 |[Visual Studio Tools for Unity 사용 시작](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md) (MSDN Library)|
 |[Visual Studio Tools for Unity 2.0 Preview에서 향상된 최신 기능에 대해 알아보기](http://blogs.msdn.com/b/visualstudio/archive/2014/12/03/visual-studio-tools-for-unity-2-0-preview.aspx) (Visual Studio 블로그)|

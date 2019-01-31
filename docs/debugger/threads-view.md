@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: abfb4e9e-1622-47c9-afda-b6b71a9d88e4
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 616a426192b15353b2d30a8f910619f5333cb5fa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 48babdee829eec50a8b8582e5b48e78b691f1073
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913519"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54979051"
 ---
 # <a name="threads-view"></a>스레드 뷰
 스레드 뷰는 시스템에서 windows와 사용 하 여 연결 된 모든 스레드에 대 한 플랫 목록이 있습니다. 스레드 ID 및 각 스레드에 대해 모듈 이름이 표시 됩니다. 프로세스 포함 되지 않습니다. 하지만 선택된 된 스레드를 소유 하는 프로세스를 쉽게 찾을 수 있습니다.  

@@ -1,25 +1,20 @@
 ---
 title: UWP(유니버설 Windows 플랫폼)용 앱 개발 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: tgt-pltfrm-cross-plat
+ms.topic: conceptual
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
 caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 24dfca5d4ac8432cbe659bb42ca54d0398c47c04
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+ms.openlocfilehash: 949cbbc7146fc744f549201a98f61d82a80185e8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51766481"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54787020"
 ---
 # <a name="develop-apps-for-the-universal-windows-platform-uwp"></a>UWP(유니버설 Windows 플랫폼)용 앱 개발
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,9 +49,9 @@ ms.locfileid: "51766481"
   
   Windows 10 이외의 플랫폼에서 Visual Studio 2015를 사용하여 유니버설 Windows 앱을 개발하기로 선택한 경우 다음과 같은 제한 사항이 적용됩니다.  
   
-- Windows 8.1: 앱을 로컬로 실행할 수 없습니다(원격 Windows 10 디바이스에서만). Visual Studio에서 에뮬레이터를 사용할 수 있지만 시뮬레이터는 사용할 수 없습니다.  
+- Windows 8.1: (원격 Windows 10 장치) 에서만 앱을 로컬로 실행할 수 없습니다. Visual Studio에서 에뮬레이터를 사용할 수 있지만 시뮬레이터는 사용할 수 없습니다.  
   
-- Windows 7: 앱을 로컬로 실행할 수 없습니다(원격 Windows 10 디바이스에서만). Visual Studio에서 에뮬레이터나 시뮬레이터 중 하나만 사용할 수 있습니다.  
+- Windows 7: (원격 Windows 10 장치) 에서만 앱을 로컬로 실행할 수 없습니다. Visual Studio에서 에뮬레이터나 시뮬레이터 중 하나만 사용할 수 있습니다.  
   
   개발 플랫폼이 Windows 10인 경우에만 XAML 디자이너를 사용할 수 있습니다.  
   
@@ -66,4 +61,3 @@ ms.locfileid: "51766481"
  기존 Windows 스토어 8.1 앱, Windows Phone 8.1 앱 또는 Visual Studio 2015 RC를 사용하여 만든 유니버설 Windows 앱이 있으면 [이러한 기존 앱을 포팅](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) 하여 최신 유니버설 Windows 플랫폼을 사용합니다.  
   
  유니버설 Windows 앱을 만든 후 [앱을 패키지하여](https://msdn.microsoft.com/library/windows/apps/hh454036.aspx) Windows 10 디바이스에 설치하거나 Windows 스토어에 제출해야 합니다.
-

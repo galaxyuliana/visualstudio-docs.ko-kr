@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: f5e49c24-d4cf-4f87-977d-37e3223d1196
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cb7e4712c47376c6e7389085b78e2e01c58f6d88
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41d5a490ddd4b426a3c03f9e5bbea94d18660200
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53853478"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54946336"
 ---
 # <a name="instruction-pointers-ips-view---contention-data"></a>IP(명령 포인터) 뷰 - 경합 데이터
 경합 데이터의 IP 뷰는 프로파일링 실행 시 실행되지 않도록 차단된 어셈블리 명령에 대한 데이터를 나열합니다.  

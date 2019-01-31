@@ -9,15 +9,15 @@ f1_keywords:
 ms.assetid: 187ce86e-e340-4f6c-8937-8e8f1027a17f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 50ad611c2f8dc04eb92ba4be112d32d49808f3c0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5f6bbaf9a387a43accfd779c9583687ec98b1813
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53838153"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952433"
 ---
 # <a name="capturing-graphics-information"></a>그래픽 정보 캡처
 Visual Studio Graphics Analyzer를 사용하여 렌더링 문제 및 성능 문제를 진단할 수 있도록 Direct3D 앱에서 그래픽 정보를 캡처합니다.  
@@ -27,7 +27,7 @@ Visual Studio Graphics Analyzer를 사용하여 렌더링 문제 및 성능 문�
   
 ### <a name="to-run-your-app-under-graphics-diagnostics"></a>그래픽 진단 모드로 응용 프로그램을 실행하려면  
   
-- 메뉴 모음에서 **디버그**, **그래픽**하십시오 **그래픽 디버깅 시작**합니다. 키보드 Alt + f5)  
+- 메뉴 모음에서 **디버그**, **그래픽**하십시오 **그래픽 디버깅 시작**합니다. (키보드: Alt + f5)  
   
 - 에 **그래픽** 도구 모음을 선택 합니다 **그래픽 디버깅 시작** 단추.  
   

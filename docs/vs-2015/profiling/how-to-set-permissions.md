@@ -1,14 +1,9 @@
 ---
-title: '방법: 권한 설정 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 권한 설정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - profiling, setting permissions
 - security [Visual Studio ALM], setting permissions
@@ -19,20 +14,20 @@ ms.assetid: 69f27896-8f46-4ef3-bfb7-726d95304f3a
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 2bfbcb15d9dae16dd7d65ac00ad7c5b17600fa9d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 61276307516052673f07a6798673b9998cb609fb
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51792898"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54833838"
 ---
-# <a name="how-to-set-permissions"></a>방법: 권한 설정
+# <a name="how-to-set-permissions"></a>방법: 사용 권한 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목에서는 컴퓨터 관리자가 해당 컴퓨터에 대한 관리자 권한이 없는 사용자 또는 그룹에게 프로파일링에 필요한 보안 권한을 부여하는 방식을 설명합니다.  
   
- 기본 보안 원칙에 의하면 응용 프로그램은 필요한 권한보다 크지 않은 권한으로 실행되어야 합니다. 이 원칙은 사용자에게도 적용됩니다. 사용자가 Administrators 그룹이 아닌 사용자 그룹의 구성원으로 로그온할 때 전체 권한을 가질 수 있다면 사용자에게 관리자 권한을 부여하면 안 됩니다. 첫 번째 절차 "사용자 권한을 가진 사용자 계정을 만들려면"에서는 사용자 그룹의 구성원에 대한 사용자 계정을 만드는 방법을 설명합니다.  
+ 기본 보안 원칙에 의하면 애플리케이션은 필요한 권한보다 크지 않은 권한으로 실행되어야 합니다. 이 원칙은 사용자에게도 적용됩니다. 사용자가 Administrators 그룹이 아닌 사용자 그룹의 구성원으로 로그온할 때 전체 권한을 가질 수 있다면 사용자에게 관리자 권한을 부여하면 안 됩니다. 첫 번째 절차 "사용자 권한을 가진 사용자 계정을 만들려면"에서는 사용자 그룹의 구성원에 대한 사용자 계정을 만드는 방법을 설명합니다.  
   
  **요구 사항**  
   
@@ -135,6 +130,3 @@ ms.locfileid: "51792898"
  [성능 세션 구성](../profiling/configuring-performance-sessions.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [프로파일링 및 Windows Vista 보안](../profiling/profiling-and-windows-vista-security.md)
-
-
-

@@ -1,24 +1,19 @@
 ---
 title: 코드 검사 문제 해결 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: troubleshooting
 ms.assetid: 26de91b8-45e3-4976-a20e-a3bd1942ddcb
 caps.latest.revision: 13
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: f7df2f4c83a61c62a7774bea475d54c3deea4c47
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 5af016c0ef1e38a4ae7ca42d79ed2030821d0369
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49306053"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54797368"
 ---
 # <a name="troubleshooting-code-coverage"></a>코드 검사 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,7 +138,7 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
  정적으로 링크된 네이티브 코드에서 초기화 함수 **DllMain**과 이 함수가 호출하는 코드는 코드가 실행된 경우에도 검사되지 않은 것으로 표시될 수 있습니다.  
   
  설명  
- 코드 검사 도구는 응용 프로그램이 실행을 시작하기 바로 전에 어셈블리에 계측을 삽입하여 작동합니다. 이 시점 이전에 로드된 모든 어셈블리에서, **DllMain**의 초기화 코드는 어셈블리가 로드되는 즉시, 그리고 응용 프로그램이 실행되기 전에 실행됩니다. 해당 코드는 검사되지 않은 것으로 나타납니다.  
+ 코드 검사 도구는 애플리케이션이 실행을 시작하기 바로 전에 어셈블리에 계측을 삽입하여 작동합니다. 이 시점 이전에 로드된 모든 어셈블리에서, **DllMain**의 초기화 코드는 어셈블리가 로드되는 즉시, 그리고 애플리케이션이 실행되기 전에 실행됩니다. 해당 코드는 검사되지 않은 것으로 나타납니다.  
   
  일반적으로, 이 경우는 정적으로 로드된 어셈블리에 적용됩니다.  
   
@@ -152,6 +147,3 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
   
 ## <a name="see-also"></a>참고 항목  
  [코드 검사를 사용하여 테스트할 코드 범위 결정](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-
-
-

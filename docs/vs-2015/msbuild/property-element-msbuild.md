@@ -1,14 +1,9 @@
 ---
 title: Property 요소(MSBuild) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -21,13 +16,13 @@ ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: a8b9ebd5207b4fc4a6274090b91e8fa3ab0b20cb
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 958692d9227017eba0901ddb48a19502af9ec452
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49263005"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769200"
 ---
 # <a name="property-element-msbuild"></a>Property 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,7 +64,7 @@ ms.locfileid: "49263005"
   
  이 텍스트는 속성값을 지정하며 XML을 포함할 수 있습니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  속성 이름에는 ASCII 문자만 사용할 수 있습니다. "`$(`" 및 "`)`" 사이에 속성 이름을 배치하여 프로젝트에서 속성값을 참조합니다. 예를 들어 `builddir` 속성값이 `build`이면 `$(builddir)\classes`는 "build\classes"로 해석됩니다. 속성에 대한 자세한 내용은 [MSBuild 속성](msbuild-properties1.md)을 참조하세요.  
   
 ## <a name="example"></a>예제  
@@ -85,6 +80,3 @@ ms.locfileid: "49263005"
 ## <a name="see-also"></a>참고 항목
 [MSBuild 속성](msbuild-properties1.md)  
  [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

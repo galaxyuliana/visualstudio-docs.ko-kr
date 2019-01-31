@@ -1,14 +1,9 @@
 ---
 title: 리소스 경합 뷰 - 경합 데이터 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.performance.view.resourcecontention
 helpviewer_keywords:
@@ -17,13 +12,13 @@ ms.assetid: 14a7f774-211f-4ef8-af05-94d1c8f65d2f
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: dddc9c85731137c6499e976b4b571396af297f7a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 2f98cad59356b48be185ba8e73d91bd3d368ff2a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810353"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54804136"
 ---
 # <a name="resource-contentions-view---contention-data"></a>리소스 경합 뷰 - 경합 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,6 +60,3 @@ ms.locfileid: "51810353"
 |**프로세스 ID**|함수가 실행된 프로세스의 PID(프로세스 ID)입니다.|  
 |**프로세스 이름**|프로세스의 이름입니다.|  
 |**소스 파일**|이 함수의 정의가 포함된 소스 파일입니다.|
-
-
-

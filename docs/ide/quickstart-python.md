@@ -7,26 +7,26 @@ ms.technology: vs-python
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: a4ef6ebbbce03dce7105b49100c9c8f50c44e5e4
-ms.sourcegitcommit: 0cdd8e8a53fb4fd5e869f07c35204419fa12783d
+ms.openlocfilehash: a5b4cad6d3f033b03f28851fca3c88e9efcc271d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53159804"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54945101"
 ---
 # <a name="quickstart-create-your-first-python-web-app-using-visual-studio"></a>빠른 시작: Visual Studio를 사용하여 첫 번째 Python 웹앱 만들기
 
-Python IDE인 Visual Studio에 대한 5~10분 분량의 소개에서는 Flask 프레임워크에 따라 간단한 Python 웹 응용 프로그램을 만듭니다. Visual Studio의 기본 기능에 대해 알 수 있는 불연속 단계를 통해 프로젝트를 만듭니다.
+Python IDE인 Visual Studio에 대한 5~10분 분량의 소개에서는 Flask 프레임워크에 따라 간단한 Python 웹 애플리케이션을 만듭니다. Visual Studio의 기본 기능에 대해 알 수 있는 불연속 단계를 통해 프로젝트를 만듭니다.
 
 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)로 이동하여 체험용으로 설치합니다. 설치 관리자에서 **Python 개발** 워크로드를 선택하도록 합니다.
 
 ## <a name="create-the-project"></a>프로젝트를 만듭니다.
 
-다음 단계에서는 응용 프로그램에 대한 컨테이너로 제공되는 빈 프로젝트를 만듭니다.
+다음 단계에서는 애플리케이션에 대한 컨테이너로 제공되는 빈 프로젝트를 만듭니다.
 
 1. Visual Studio 2017을 엽니다.
 
@@ -46,7 +46,7 @@ Python IDE인 Visual Studio에 대한 5~10분 분량의 소개에서는 Flask �
 
 **질문: Python 애플리케이션에 대한 Visual Studio에서 프로젝트를 만드는 경우의 이점은 무엇인가요?**
 
-**대답**: 일반적으로 Python 애플리케이션은 폴더 및 파일만 사용하여 정의되지만 애플리케이션이 커질수록 이 간단한 구조는 복잡해질 수 있으며 자동 생성된 파일, 웹 애플리케이션용 JavaScript 등을 포함할 수 있습니다. Visual Studio 프로젝트는 이러한 복잡성을 관리하는 데 도움이 됩니다. 프로젝트(*.pyproj* 파일)는 프로젝트와 관련된 모든 소스 및 콘텐츠 파일을 식별하며 각 파일에 대한 빌드 정보를 포함하고 소스 제어 시스템과 통합할 정보를 유지 관리하며 응용 프로그램을 논리 구성 요소로 구성하는 데 도움을 줍니다.
+**대답**: 일반적으로 Python 애플리케이션은 폴더 및 파일만 사용하여 정의되지만 애플리케이션이 커질수록 이 간단한 구조는 복잡해질 수 있으며 자동 생성된 파일, 웹 애플리케이션용 JavaScript 등을 포함할 수 있습니다. Visual Studio 프로젝트는 이러한 복잡성을 관리하는 데 도움이 됩니다. 프로젝트(*.pyproj* 파일)는 프로젝트와 관련된 모든 소스 및 콘텐츠 파일을 식별하며 각 파일에 대한 빌드 정보를 포함하고 소스 제어 시스템과 통합할 정보를 유지 관리하며 애플리케이션을 논리 구성 요소로 구성하는 데 도움을 줍니다.
 
 **질문: 솔루션 탐색기에 표시된 "솔루션"이란?**
 
@@ -118,7 +118,7 @@ Python의 웹앱은 다수의 사용 가능한 Python 라이브러리 중 하나
 
 **대답**: [Flask 빠른 시작](http://flask.pocoo.org/docs/0.12/quickstart/#quickstart)부터는 Flask 설명서를 참조하세요.
 
-## <a name="run-the-application"></a>응용 프로그램 실행
+## <a name="run-the-application"></a>애플리케이션 실행
 
 1. **솔루션 탐색기**에서 *app.py*를 마우스 오른쪽 단추로 클릭하고 **시작 파일로 설정**을 선택합니다. 이 명령은 앱을 실행할 때 Python으로 실행할 코드 파일을 식별합니다.
 

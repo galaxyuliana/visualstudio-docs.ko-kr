@@ -1,25 +1,20 @@
 ---
 title: XAML 디자이너의 요소 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: a29690bf-f212-4ac6-a77a-adc53d14102e
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f0ec7d97ace8f61f209e4664c0de42b883a6a5d0
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+manager: jillfra
+ms.openlocfilehash: 49ec96150eda9bf0a62b9767fefbfd5936aef840
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "49896954"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54774167"
 ---
 # <a name="working-with-elements-in-xaml-designer"></a>Working with elements in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,7 +74,7 @@ ms.locfileid: "49896954"
   
 -   XAML 디자이너에서, 둘 이상의 요소가 포함된 레이아웃에서 가장자리가 다른 요소에 맞춰지도록 요소 중 하나를 끌거나 크기를 조정합니다.  
   
-     가장자리가 맞춰지는 경우 *맞춤 경계선*이 표시되어 맞춤을 나타냅니다. 맞춤 경계선은 빨간색 파선입니다.  **맞춤선에 맞추기** 를 사용하도록 설정한 경우에만 맞춤 경계선이 나타납니다. 맞춤 경계선을 표시하는 아트보드의 그림은 [XAML 디자이너를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)를 참조하세요.  
+     가장자리가 맞춰지는 경우 *맞춤 경계선*이 표시되어 맞춤을 나타냅니다. 맞춤 경계선은 빨간색 파선입니다. **맞춤선에 맞추기** 를 사용하도록 설정한 경우에만 맞춤 경계선이 나타납니다. 맞춤 경계선을 표시하는 아트보드의 그림은 [XAML 디자이너를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)를 참조하세요.  
   
 ## <a name="changing-the-an-elements-margins"></a>요소의 여백 변경  
  XAML 디자이너의 여백이 아트 보드에서 요소 주위에 있는 빈 공간의 크기를 결정합니다. 예를 들어 여백은 요소의 바깥쪽 가장자리와 요소가 포함된 `Grid` 패널 경계 사이의 공백 양을 지정합니다. 여백은 `StackPanel`에 포함된 요소 간의 공백을 지정합니다.  
@@ -128,6 +123,3 @@ ms.locfileid: "49896954"
   
 ## <a name="see-also"></a>참고 항목  
  [XAML 디자이너를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
-
-
-

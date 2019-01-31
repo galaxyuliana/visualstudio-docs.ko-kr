@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: 579c134a-d50f-4e0c-8e05-2a4ff654896a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e11c336f891ae71968a3b325a66a50d4d9a79446
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b24cb2b90bdd9e3fad5128a483314d75ffc1672f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826957"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926889"
 ---
 # <a name="how-to-specify-which-files-are-published-by-clickonce"></a>방법: ClickOnce를 통해 게시할 파일 지정
 게시 하는 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 프로젝트의 응용 프로그램, 모든 비 코드 파일은 응용 프로그램과 함께 배포 됩니다. 경우에 따라 원하는 또는 특정 파일을 게시 해야 할 수 있습니다 또는 조건에 따라 특정 파일을 설치 하는 것이 좋습니다. Visual Studio, 파일을 제외 하 고, 데이터 파일 또는 필수 구성 요소를으로 파일을 표시 하 고, 조건부 설치를 위한 파일 그룹을 만들려면 하는 기능을 제공 합니다.  

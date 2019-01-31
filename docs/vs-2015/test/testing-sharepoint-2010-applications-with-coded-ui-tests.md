@@ -1,29 +1,24 @@
 ---
-title: 코딩된 UI 테스트를 사용하여 SharePoint 2010 응용 프로그램 테스트 | Microsoft Docs
-ms.custom: ''
+title: 코딩된 UI 테스트를 사용하여 SharePoint 2010 애플리케이션 테스트 | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 51b53778-469c-4cc9-854c-4e4992d6389b
 caps.latest.revision: 32
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: e450cd333c01e4e2e557013ef106337fe5a80a71
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 96a3a9fc38d82a2eaeb1adfbcfdd59f9ae503275
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49937280"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54775014"
 ---
-# <a name="testing-sharepoint-2010-applications-with-coded-ui-tests"></a>코딩된 UI 테스트를 사용하여 SharePoint 2010 응용 프로그램 테스트
+# <a name="testing-sharepoint-2010-applications-with-coded-ui-tests"></a>코딩된 UI 테스트를 사용하여 SharePoint 2010 애플리케이션 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-SharePoint 응용 프로그램에 코딩된 UI 테스트를 포함하면 해당 UI 컨트롤을 포함해서 전체 응용 프로그램이 올바르게 작동하는지 확인할 수 있습니다. 코딩된 UI 테스트는 또한 사용자 인터페이스에서 값 및 논리의 유효성을 검사할 수 있습니다.  
+SharePoint 애플리케이션에 코딩된 UI 테스트를 포함하면 해당 UI 컨트롤을 포함해서 전체 애플리케이션이 올바르게 작동하는지 확인할 수 있습니다. 코딩된 UI 테스트는 또한 사용자 인터페이스에서 값 및 논리의 유효성을 검사할 수 있습니다.  
   
  **요구 사항**  
   
@@ -34,12 +29,12 @@ SharePoint 응용 프로그램에 코딩된 UI 테스트를 포함하면 해당 
   
  **참고**  
   
--   ![필수 구성 요소](../test/media/prereq.png "Prereq") SharePoint 응용 프로그램에 대한 코딩된 UI 테스트는 SharePoint 2010에서만 지원됩니다.  
+-   ![필수 구성 요소](../test/media/prereq.png "Prereq") SharePoint 애플리케이션에 대한 코딩된 UI 테스트는 SharePoint 2010에서만 지원됩니다.  
   
--   ![필수 구성 요소](../test/media/prereq.png "Prereq") SharePoint 응용 프로그램에서 Visio 및 PowerPoint 2010 컨트롤은 지원되지 않습니다.  
+-   ![필수 구성 요소](../test/media/prereq.png "Prereq") SharePoint 애플리케이션에서 Visio 및 PowerPoint 2010 컨트롤은 지원되지 않습니다.  
   
 ## <a name="creating-a-coded-ui-test-for-your-sharepoint-app"></a>SharePoint 응용 프로그램에 대해 코딩된 UI 테스트 만들기  
- SharePoint 2010 응용 프로그램에 대한[코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate) 는 다른 유형의 응용 프로그램에 대해 테스트 만들기와 동일합니다. 기록 및 재생은 웹 편집 인터페이스의 모든 컨트롤에 대해 지원됩니다. 범주 및 웹 파트 선택 인터페이스는 모두 표준 웹 컨트롤입니다.  
+ SharePoint 2010 애플리케이션에 대한[코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate) 는 다른 유형의 애플리케이션에 대해 테스트 만들기와 동일합니다. 기록 및 재생은 웹 편집 인터페이스의 모든 컨트롤에 대해 지원됩니다. 범주 및 웹 파트 선택 인터페이스는 모두 표준 웹 컨트롤입니다.  
   
  ![SharePoint 웹 파트](../test/media/cuit-sharepoint.png "CUIT_SharePoint")  
   
@@ -58,7 +53,7 @@ SharePoint 응용 프로그램에 코딩된 UI 테스트를 포함하면 해당 
 > [!WARNING]
 >  화살표 작업 후 Excel 셀에 텍스트를 입력하는 작업은 올바르게 기록되지 않습니다. 마우스를 사용해서 셀을 선택하세요.  
   
- 빈 셀에 대한 작업을 기록할 때는 셀을 두 번 클릭하고 텍스트 설정 작업을 수행하여 코드를 수정해야 합니다. 셀을 클릭하고 키보드 작업을 수행하면 셀 내에서 `textarea` 가 활성화되기 때문에 이 작업이 필요합니다. 빈 셀에서 단순히 `setvalue` 를 기록하면 셀을 클릭할 때까지 제공되지 않은 `editbox` 가 검색됩니다. 예를 들어:  
+ 빈 셀에 대한 작업을 기록할 때는 셀을 두 번 클릭하고 텍스트 설정 작업을 수행하여 코드를 수정해야 합니다. 셀을 클릭하고 키보드 작업을 수행하면 셀 내에서 `textarea` 가 활성화되기 때문에 이 작업이 필요합니다. 빈 셀에서 단순히 `setvalue` 를 기록하면 셀을 클릭할 때까지 제공되지 않은 `editbox` 가 검색됩니다. 예:  
   
 ```csharp  
 Mouse.DoubliClick(uiItemCell,new Point(31,14));  
@@ -125,7 +120,7 @@ uiGridKeyboardInputEdit.Text=value;
   
 3.  웹 페이지를 엽니다.  
   
-4.  레코더를 시작하고 일반 웹 응용 프로그램 테스트와 마찬가지로 코드를 생성합니다.  
+4.  레코더를 시작하고 일반 웹 애플리케이션 테스트와 마찬가지로 코드를 생성합니다.  
   
 5.  생성된 코드가 Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight.dll을 참조하는지 확인해야 합니다.  
   
@@ -150,11 +145,8 @@ uiGridKeyboardInputEdit.Text=value;
   
 ## <a name="see-also"></a>참고 항목  
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
- [SharePoint 2010 및 2013 응용 프로그램 웹 성능 및 부하 테스트](http://msdn.microsoft.com/library/20c2e469-0e4e-4296-a739-c0e8fff36e54)   
+ [SharePoint 2010 및 2013 애플리케이션 웹 성능 및 부하 테스트](http://msdn.microsoft.com/library/20c2e469-0e4e-4296-a739-c0e8fff36e54)   
  [SharePoint 솔루션 만들기](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
  [SharePoint 코드 확인 및 디버그](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)   
  [SharePoint 솔루션 빌드 및 디버깅](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
- [SharePoint 응용 프로그램 성능 프로파일링](http://msdn.microsoft.com/library/61ae02e7-3f37-4230-bae1-54a498c2fae8)
-
-
-
+ [SharePoint 애플리케이션 성능 프로파일링](http://msdn.microsoft.com/library/61ae02e7-3f37-4230-bae1-54a498c2fae8)

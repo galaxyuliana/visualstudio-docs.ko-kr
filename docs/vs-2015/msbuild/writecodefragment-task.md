@@ -1,14 +1,9 @@
 ---
 title: WriteCodeFragment 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 dev_langs:
 - VB
 - CSharp
@@ -21,13 +16,13 @@ ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 862792e14bd52d52e3dafd83b4a8784f46ce8369
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: ee0b819d0387ecbd0bec3a460bf3c63d3122b269
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49290539"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54796943"
 ---
 # <a name="writecodefragment-task"></a>WriteCodeFragment 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,12 +40,9 @@ ms.locfileid: "49290539"
 |`OutputDirectory`|선택적 <xref:Microsoft.Build.Framework.ITaskItem> 매개 변수입니다.<br /><br /> 생성된 코드에 대한 대상 폴더를 지정합니다. 일반적으로 중간 폴더입니다.|  
 |`OutputFile`|선택적 <xref:Microsoft.Build.Framework.ITaskItem> 출력 매개 변수입니다.<br /><br /> 생성된 파일의 경로를 지정합니다. 이 매개 변수가 파일 이름을 사용하여 설정된 경우 대상 폴더는 파일 이름에 추가됩니다. 루트를 사용하여 설정된 경우 대상 폴더는 무시됩니다.<br /><br /> 이 매개 변수가 설정되지 않은 경우 출력 파일 이름은 지정된 언어에 대한 대상 폴더, 임의의 파일 이름 및 기본 파일 이름 확장명입니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 표에 나열된 매개 변수 외에, <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [작업](../msbuild/msbuild-tasks.md)   
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

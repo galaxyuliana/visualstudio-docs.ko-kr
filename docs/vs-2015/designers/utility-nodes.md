@@ -1,25 +1,20 @@
 ---
 title: 유틸리티 노드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: ff732221-b731-424c-ad5b-82ef5f21dff5
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 1d85735c5fb355163f2003a27a96675ed097d66e
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 5907b388e59b136a2d89b02348e7ac3d2b25d63c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49174423"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54783865"
 ---
 # <a name="utility-nodes"></a>유틸리티 노드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ ms.locfileid: "49174423"
   
 ## <a name="utility-node-reference"></a>유틸리티 노드 참조  
   
-|노드|설명|속성|  
+|노드|세부 정보|속성|  
 |----------|-------------|----------------|  
 |**추가 벡터**|지정된 입력을 함께 추가하여 벡터를 만듭니다.<br /><br /> **입력:**<br /><br /> `Vector`: `float`, `float2` 또는 `float3`<br /> 입력을 추가할 값입니다.<br /><br /> `Value to Append`: `float`<br /> 추가할 값입니다.<br /><br /> **출력:**<br /><br /> `Output`: 입력 `Vector`의 유형에 따라 `float2`, `float3` 또는 `float4`<br /> 새 벡터입니다.|없음|  
 |**프레스넬**|지정한 표면 법선을 기준으로 하여 프레스넬 대칭을 계산합니다.<br /><br /> 프레스넬 대칭 값은 현재 픽셀의 표면 법선이 보기 벡터와 얼마나 근접하게 일치하는지를 표현합니다. 벡터가 정렬되어 있으면 함수 결과는 0이고, 벡터의 유사성이 낮아질수록 결과 값이 커지며, 벡터가 직교 상태가 되면 결과는 최대값이 됩니다. 현재 픽셀과 카메라의 방향 간 관계에 따라 특정 효과를 보다 뚜렷하게 또는 흐리게 표시하는 데 사용할 수 있습니다.<br /><br /> **입력:**<br /><br /> `Surface Normal`: `float3`<br /> 현재 픽셀의 접선 공간에서 정의된 현재 픽셀의 표면 법선입니다. 일반 매핑에서와 같이 명확한 표면 법선을 변경하는 데 사용할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float`<br /> 현재 픽셀의 반사입니다.|**지수**<br /> 프레스넬 대칭을 계산하는 데 사용되는 지수입니다.|  
@@ -37,6 +32,3 @@ ms.locfileid: "49174423"
 |**마스크 벡터**|지정된 벡터의 구성 요소를 마스킹합니다.<br /><br /> 색 값에서 특정 색 채널을 제거하거나, 특정 구성 요소가 후속 계산에 영향을 주지 않도록 하는 데 사용할 수 있습니다.<br /><br /> **입력:**<br /><br /> `Vector`: `float4`<br /> 마스킹할 벡터입니다.<br /><br /> **출력:**<br /><br /> `Output`: `float4`<br /> 마스킹된 벡터입니다.|**빨간색/X**<br /> 빨강(x) 구성 요소를 마스킹하려는 경우 **False**이고, 그렇지 않으면 **True**입니다.<br /><br /> **녹색/Y**<br /> 녹색(y) 구성 요소를 마스킹하려는 경우 **False**이고, 그렇지 않으면 **True**입니다.<br /><br /> **파란색/Z**<br /> 파랑(z) 구성 요소를 마스킹하려는 경우 **False**이고, 그렇지 않으면 **True**입니다.<br /><br /> **알파/W**<br /> 알파(w) 구성 요소를 마스킹하려는 경우 **False**이고, 그렇지 않으면 **True**입니다.|  
 |**리플렉션 벡터**|카메라 위치를 기준으로 접선 공간에서 현재 픽셀의 리플렉션 벡터를 계산합니다.<br /><br /> 반사, 큐브 맵 좌표 및 반사 조명 기여도를 계산하는 데 사용할 수 있습니다.<br /><br /> **입력:**<br /><br /> `Tangent Space Surface Normal`: `float3`<br /> 현재 픽셀의 접선 공간에서 정의된 현재 픽셀의 표면 법선입니다. 일반 매핑에서와 같이 명확한 표면 법선을 변경하는 데 사용할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float3`<br /> 리플렉션 벡터입니다.|없음|  
 |**반사**|지정한 표면 법선을 사용하여 퐁 조명 모델에 따라 반사 조명 기여도를 계산합니다.<br /><br /> 반사 조명은 물, 플라스틱, 금속 등의 개체를 반짝이는 반사 모양으로 표시합니다.<br /><br /> **입력:**<br /><br /> `Surface Normal`: `float3`<br /> 현재 픽셀의 접선 공간에서 정의된 현재 픽셀의 표면 법선입니다. 일반 매핑에서와 같이 명확한 표면 법선을 변경하는 데 사용할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float3`<br /> 반사 하이라이트의 색 기여도입니다.|없음|
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: 옵션, 텍스트 편집기, JavaScript, 서식 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.General
@@ -17,13 +12,13 @@ ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 86c766f776195da17a33b9d52570a2867f700c9b
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 545d5ff9530de577a553923eea3cb208bd5bc68e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50219993"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54794412"
 ---
 # <a name="options-text-editor-javascript-formatting"></a>옵션, 텍스트 편집기, JavaScript, 서식
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,7 +51,7 @@ ms.locfileid: "50219993"
 |**컨트롤 블록의 여는 중괄호를 새 줄에 배치**|이 옵션을 선택하면 코드 편집기는 컨트롤 블록(예:`if` 및 `while` 컨트롤 블록) 과 연결된 여는 중괄호를 새 줄로 이동합니다.|  
   
 ## <a name="spacing"></a>간격  
- 이러한 옵션에 공백을 삽입 하는 방법을 결정 **원본** 보기.  
+ 이러한 옵션은 **소스** 보기에 공백이 삽입되는 방법을 결정합니다.  
   
 ## <a name="uielement-list"></a>UI 요소 목록  
   
@@ -71,6 +66,3 @@ ms.locfileid: "50219993"
   
 ## <a name="see-also"></a>참고 항목  
  [옵션 대화 상자, 환경, 일반](../../ide/reference/general-environment-options-dialog-box.md)
-
-
-

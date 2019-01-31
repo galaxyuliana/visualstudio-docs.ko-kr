@@ -1,14 +1,9 @@
 ---
 title: 호출 스택 목록 표시 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - debug.listcallstack
 helpviewer_keywords:
@@ -18,13 +13,13 @@ ms.assetid: a8b20bf2-81d2-4069-aea8-23e6b15b4347
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 69c3708960f5b1ddaf0ff6620b8d90eb64cd86d8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e1fbd5fa522753f813d6987734de80bb7fc05593
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49194378"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54756375"
 ---
 # <a name="list-call-stack-command"></a>호출 스택 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -82,7 +77,7 @@ Debug.ListCallStack [/Count:number] [/ShowTypes:yes|no]
  스레드:`n`  
  선택 사항입니다. 스레드 `n`에 대한 호출 스택을 표시합니다. 스레드가 지정된 경우 현재 스레드에 대한 호출 스택을 표시합니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  인수 또는 스위치에 대한 변경 내용은 이 명령의 이후 호출에 적용됩니다. Debug.ListCallStackby 자체를 실행하면 전체 호출 스택이 표시됩니다. 예를 들어 인덱스를 지정하는 경우  
   
 ```  
@@ -112,6 +107,3 @@ kb 2
  [명령 창](../../ide/reference/command-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

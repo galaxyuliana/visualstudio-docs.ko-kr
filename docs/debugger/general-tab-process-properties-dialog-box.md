@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 86f4d61d-a594-4aac-8960-c5279b4a10fd
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 52822d3cc503c948c7c1fdc320d850d9e1f84ec6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41667abc250bc2b2ffc869b714fafbcae8f21297
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53927050"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54931962"
 ---
 # <a name="general-tab-process-properties-dialog-box"></a>프로세스 속성 대화 상자, 일반 탭
 사용 된 **일반** 특정 프로세스에 대 한 자세한 내용을 알아보려면 탭 합니다. 표시할 합니다 [프로세스 속성 대화 상자](../debugger/process-properties-dialog-box.md), 포커스를 이동 하는 [프로세스 뷰에](../debugger/processes-view.md) 창입니다. 선택한 프로세스 노드 트리에서 선택 **속성** 에서 합니다 **보기** 메뉴.  

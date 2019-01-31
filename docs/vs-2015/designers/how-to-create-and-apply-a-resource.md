@@ -1,14 +1,9 @@
 ---
 title: '방법: 리소스 만들기 및 적용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords:
 - VS.XamlDesigner.CreateResource
 - VS.XamlDesigner.EditResource
@@ -16,20 +11,20 @@ ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ef5dc15db983a54e60df447a2457d9dbc6804d85
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: fdac7018ec67250514836f22f3c297ddce5bd382
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49915806"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54805031"
 ---
 # <a name="how-to-create-and-apply-a-resource"></a>방법: 리소스 만들기 및 적용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 XAML 디자이너의 요소에 대한 스타일 및 템플릿은 리소스라는 다시 사용 가능한 엔터티에 저장됩니다. 스타일을 사용하면 요소 속성을 설정하고 여러 요소에 걸쳐 일관된 모양을 위해 이러한 설정을 통해 다시 사용할 수 있습니다. [ControlTemplate](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.controltemplate.aspx)은 컨트롤의 모양을 정의하며 리소스로 적용될 수도 있습니다. 자세한 내용은 [빠른 시작: 컨트롤 스타일 지정](http://go.microsoft.com/fwlink/?LinkID=248239) 및 [빠른 시작: 컨트롤 템플릿](http://go.microsoft.com/fwlink/?LinkID=247982)을 참조하세요.  
   
- 기존 속성인 [스타일](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.style.aspx) 또는 `ControlTemplate`으로 새 리소스를 만들 때마다 **리소스 만들기** 대화 상자를 사용하여 응용 프로그램 수준, 문서 수준 또는 요소 수준에서 리소스를 정의할 수 있습니다. 이러한 수준에 따라 리소스를 사용할 수 있는 위치가 결정됩니다. 예를 들어 요소 수준에서 리소스를 정의하는 경우 리소스 만든 요소에만 적용할 수 있습니다. 또한 다른 프로젝트에서 다시 사용할 수 있는 별도 파일인 리소스 사전에 리소스를 저장할 수 있습니다.  
+ 기존 속성인 [스타일](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.style.aspx) 또는 `ControlTemplate`으로 새 리소스를 만들 때마다 **리소스 만들기** 대화 상자를 사용하여 애플리케이션 수준, 문서 수준 또는 요소 수준에서 리소스를 정의할 수 있습니다. 이러한 수준에 따라 리소스를 사용할 수 있는 위치가 결정됩니다. 예를 들어 요소 수준에서 리소스를 정의하는 경우 리소스 만든 요소에만 적용할 수 있습니다. 또한 다른 프로젝트에서 다시 사용할 수 있는 별도 파일인 리소스 사전에 리소스를 저장할 수 있습니다.  
   
 ### <a name="to-create-a-new-resource"></a>새 리소스를 만들려면  
   
@@ -45,7 +40,7 @@ XAML 디자이너의 요소에 대한 스타일 및 템플릿은 리소스라는
   
 4.  **정의 위치**에서 리소스를 정의할 위치를 지정하는 옵션을 선택합니다.  
   
-    -   응용 프로그램의 모든 문서에 리소스를 사용할 수 있도록 하려면 **응용 프로그램**을 선택합니다.  
+    -   애플리케이션의 모든 문서에 리소스를 사용할 수 있도록 하려면 **애플리케이션**을 선택합니다.  
   
     -   현재 문서에서만 리소스를 사용할 수 있도록 하려면 **이 문서**를 선택합니다.  
   
@@ -82,6 +77,3 @@ XAML 디자이너의 요소에 대한 스타일 및 템플릿은 리소스라는
   
 ## <a name="see-also"></a>참고 항목  
  [XAML 디자이너를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
-
-
-

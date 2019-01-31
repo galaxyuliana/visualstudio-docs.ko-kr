@@ -19,15 +19,15 @@ helpviewer_keywords:
 ms.assetid: 9d175bc2-1d95-4c47-9bc3-9755af968a9c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 07710ed0188baf48a567bb3c003f174814c30094
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: 8158444662b7e0b2f7eb90d4ec5919314489dfc1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53907893"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54960605"
 ---
 # <a name="debug-multithreaded-applications-in-visual-studio"></a>Visual Studio에서 다중 스레드 애플리케이션 디버그
 스레드는 운영 체제가 프로세서 시간 권한을 부여 하는 명령 시퀀스입니다. 운영 체제에서 실행되는 모든 프로세스는 최소한 하나의 스레드로 구성됩니다. 프로세스에 스레드가 둘 이상인 경우를 다중 스레드라고 합니다.  

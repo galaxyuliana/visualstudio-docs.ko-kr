@@ -1,14 +1,9 @@
 ---
 title: '방법: 여러 프로젝트 파일에서 동일한 대상 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, importing
 - MSBuild, using the same target in multiple project files
@@ -16,13 +11,13 @@ ms.assetid: 163734bd-1bfd-4093-a730-7741fc21742d
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 7b886c4865d715c4fee4e9385288f2e4eb15baa5
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9e0f787426846137038adf16b9373012f3deeb25
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49223342"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769335"
 ---
 # <a name="how-to-use-the-same-target-in-multiple-project-files"></a>방법: 여러 프로젝트 파일에서 동일한 대상 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "49223342"
   
 1.  가져온 프로젝트의 속성 및 항목에 대한 매개 변수로 사용되는 모든 속성 및 항목을 가져오기 프로젝트 파일에 정의합니다.  
   
-2.  `Import` 요소를 사용하여 프로젝트를 가져옵니다. 예를 들어:  
+2.  `Import` 요소를 사용하여 프로젝트를 가져옵니다. 예:  
   
      `<Import Project="MyCommon.targets"/>`  
   
@@ -123,6 +118,3 @@ ms.locfileid: "49223342"
 ## <a name="see-also"></a>참고 항목  
  [Import 요소(MSBuild)](../msbuild/import-element-msbuild.md)   
  [대상](../msbuild/msbuild-targets.md)
-
-
-

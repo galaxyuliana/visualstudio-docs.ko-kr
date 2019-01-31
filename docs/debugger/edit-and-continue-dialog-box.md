@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: 4390c09c-fc73-4cc3-ab8e-6f07a7d70be2
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3ebec5936249e0d4e9764438060c13411cec8a0c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 88e5f8471a42632f9425df75a6f6b6870fd45348
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53985922"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958851"
 ---
 # <a name="edit-and-continue-dialog-box"></a>편집하며 계속하기 대화 상자
 (네이티브만 해당) 이 대화 상자는 디버깅 중에 코드를 편집했고 **편집하며 계속하기**에서 코드 변경 내용을 적용할 수 있다고 인식한 경우에 나타납니다. 자세한 내용은 [편집하며 계속하기](../debugger/edit-and-continue.md)를 참조하세요.  

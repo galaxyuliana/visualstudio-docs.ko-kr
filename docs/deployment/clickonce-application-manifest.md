@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 29570cec-4e53-4660-a850-abc4fa150243
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 550b4122775f8d38ed874227bb5b36066f411b9f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 47c3ca0877500e8242e7fb96ba15b19c9d8a6e13
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53929230"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54916992"
 ---
 # <a name="clickonce-application-manifest"></a>ClickOnce 애플리케이션 매니페스트
 A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 매니페스트를 사용 하 여 배포 된 응용 프로그램을 설명 하는 XML 파일은 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]합니다.  

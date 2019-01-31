@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 1bde9807-8219-4a2a-a440-ac5ee5178159
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 882d357b606ec5bb0419c88dc9c996ccd4a749a6
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: 96a7fe0e46420a2469271219aa44ee76c9a49774
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54227722"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54986802"
 ---
 # <a name="using-the-intellitrace-stand-alone-collector-c-visual-basic"></a>IntelliTrace 독립 실행형 수집기를 사용 하 여 (C#, Visual Basic)
 
@@ -78,7 +78,7 @@ ms.locfileid: "54227722"
 
 ##  <a name="BKMK_Install_the_IntelliTrace_Stand_Alone_Collector"></a> 수집기 설치
 
-1. 앱 서버에서 수집기 디렉터리를 만듭니다(예: **C:\IntelliTraceCollector**
+1. 앱 서버에서 수집기 디렉터리를 만듭니다(예: **C:\IntelliTraceCollector**).
 
 2. Microsoft 다운로드 센터 또는 Visual Studio 2013 Update 3 설치 폴더에서 수집기를 다운로드하거나 가져옵니다. [Visual Studio 2013 Update 4을 위한 IntelliTrace 수집기](https://www.microsoft.com/en-us/download/details.aspx?id=44909)::
 
@@ -86,7 +86,7 @@ ms.locfileid: "54227722"
 
      1. **IntelliTraceCollector.exe**옆의 **다운로드**를 선택합니다.
 
-     2. IntelliTraceCollector.exe를 수집기 디렉터리에 저장합니다(예: **C:\IntelliTraceCollector**
+     2. IntelliTraceCollector.exe를 수집기 디렉터리에 저장합니다(예: **C:\IntelliTraceCollector**).
 
      3. IntelliTraceCollector.exe를 실행합니다. 그러면 IntelliTraceCollection.cab 파일이 추출됩니다.
 
@@ -98,13 +98,13 @@ ms.locfileid: "54227722"
 
           **..\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\12.0.0**
 
-     2.  IntelliTraceCollection.cab를 수집기 디렉터리에 저장합니다(예: **C:\IntelliTraceCollector**
+     2.  IntelliTraceCollection.cab를 수집기 디렉터리에 저장합니다(예: **C:\IntelliTraceCollector**).
 
 3. 다음 단계를 수행하여 IntelliTraceCollection.cab를 확장합니다.
 
    1.  앱 서버에서 관리자 권한으로 명령 프롬프트 창을 엽니다.
 
-   2.  수집기 디렉터리로 이동합니다(예: **C:\IntelliTraceCollector**
+   2.  수집기 디렉터리로 이동합니다(예: **C:\IntelliTraceCollector**).
 
    3.  끝의 마침표( **.** )를 포함한 다음**expand**명령을 사용하여 IntelliTraceCollection.cab를 확장합니다.
 
@@ -167,7 +167,7 @@ ms.locfileid: "54227722"
 
 ##  <a name="BKMK_Create_and_Configure_a_Log_File_Directory"></a> .iTrace 파일 디렉터리에 대한 사용 권한 설정
 
-1. 앱 서버에서 .iTrace 파일 디렉터리를 만듭니다(예: **C:\IntelliTraceLogFiles**
+1. 앱 서버에서 .iTrace 파일 디렉터리를 만듭니다(예: **C:\IntelliTraceLogFiles**).
 
    > [!NOTE]
    > - 앱 속도 저하를 방지하려면 사용량이 많지 않은 로컬 고속 디스크의 위치를 선택합니다.

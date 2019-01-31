@@ -109,18 +109,18 @@ helpviewer_keywords:
 ms.assetid: 860c7f13-a108-4fe5-8fca-d235cd3ca1cb
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 4351553d5df55dd5dceeffe542ff542a9487d6e5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 163b3e2d3ac222fd2e495e7a3b71841c818a4a3f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53957912"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54961848"
 ---
 # <a name="project-settings-for-a-c-debug-configuration"></a>C++ 디버그 구성에 대한 프로젝트 설정
-C 또는 Visual c + + 디버그 구성에 대 한 프로젝트 설정을 변경할 수 있습니다 합니다 **속성 페이지** 대화 상자에 설명 된 대로 [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md). 다음 표에서는 **속성 페이지** 대화 상자에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.  
+C 또는 Visual c + + 디버그 구성에 대 한 프로젝트 설정을 변경할 수 있습니다 합니다 **속성 페이지** 대화 상자에 설명 된 대로 [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md)을 참조하세요. 다음 표에서는 **속성 페이지** 대화 상자에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.  
   
 > [!NOTE]
 >  디버그 프로젝트 설정은 합니다 **구성 속성/디버깅** 범주의 속성은 다른 c + +로 작성 된 구성 요소 및 UWP 앱에 대 한 합니다. 참조 [디버그 세션 시작 (VB, C#, c + + 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)합니다.  

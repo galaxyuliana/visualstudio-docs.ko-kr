@@ -1,14 +1,9 @@
 ---
 title: VCMessage 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - vc.task.vcmessage
 dev_langs:
@@ -24,13 +19,13 @@ ms.assetid: 956675fd-05dc-40b4-856f-616145103498
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: f592160aae4fc1382b36c7331175eb6ab20d3fdc
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e1011ccfe1609376dc496dc6eb8e7f50795fab5c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49243936"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54784501"
 ---
 # <a name="vcmessage-task"></a>VCMessage 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ ms.locfileid: "49243936"
   
 빌드 중에 경고 및 오류 메시지를 로깅합니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 Visual C++에 대한 MSBuild 구현을 도우며 사용자가 호출할 수 없습니다. 자세한 내용은 <xref:Microsoft.Build.Utilities.TaskLoggingHelper>을 참조하세요.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -52,6 +47,3 @@ ms.locfileid: "49243936"
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

@@ -1,27 +1,22 @@
 ---
 title: MSBuild의 로깅 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, logging
 ms.assetid: 9aea2e76-8f60-4234-913d-598e7bbad808
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 5f2d7fe0e4fabe0a705c771d8f07e7ce349a43d7
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e54cd8962a5aa42b4562b0a407912d582feacf37
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49274380"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54833886"
 ---
 # <a name="logging-in-msbuild"></a>MSBuild 로그인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ ms.locfileid: "49274380"
 ## <a name="related-sections"></a>관련 단원  
  [병렬로 여러 프로젝트 빌드](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)  
  여러 프로젝트를 병렬로 실행하여 더 빠르게 여러 프로젝트를 빌드하는 방법에 대해 설명합니다.
-
-
-
