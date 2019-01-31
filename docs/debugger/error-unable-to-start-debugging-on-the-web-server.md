@@ -23,15 +23,15 @@ helpviewer_keywords:
 - remote debugging, errors
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 804249700ff813de5a45e44787af4f39d4a82ad2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a5bf131634dc673fdeefe61fa2238c35fcc2ed8a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856685"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54938462"
 ---
 # <a name="error-unable-to-start-debugging-on-the-web-server"></a>오류: 웹 서버에서 디버깅을 시작할 수 없습니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "53856685"
 - [원격 서버 오류를 반환합니다.](#server_error)
 - [ASP.NET 디버깅을 시작할 수 없습니다.](#aspnet)
 - [디버거가 원격 컴퓨터에 연결할 수 없습니다.](#cannot_connect)
-- [일반적인 구성 오류는 도움말을 참조하십시오. 디버거 외부에서 웹 페이지를 실행 합니다. 추가 정보가 제공 될 수 있습니다.](#see_help)
+- [ 일반적인 구성 오류는 도움말을 참조하십시오. 디버거 외부에서 웹 페이지를 실행 합니다. 추가 정보가 제공 될 수 있습니다.](#see_help)
 
 ## <a name="IISlist"></a> IIS 시작 일치 하는 웹 사이트를 표시 하지 않습니다 url
 
@@ -61,7 +61,7 @@ ms.locfileid: "53856685"
 
 ## <a name="web_server_config"></a> 웹 서버가 제대로 구성되어 있지 않습니다.
 
-- 참조 [오류: 웹 서버가 제대로 구성되어 있지 않습니다.](../debugger/error-the-web-server-is-not-configured-correctly.md)
+- 참조 [오류: ](../debugger/error-the-web-server-is-not-configured-correctly.md) 웹 서버가 제대로 구성되어 있지 않습니다.
 
 ## <a name="unabletoconnect"></a> 웹 서버에 연결할 수 없습니다.
 

@@ -9,15 +9,15 @@ dev_langs:
 - C++
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 6f8ebe41f2775dddd5f70c654e21c7dc64adc44e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fe9d698e5732c0dfe4c9282e6cfac683e0d4d8b0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53835199"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54984225"
 ---
 # <a name="debug-uwp-apps-using-prefetched-content-in-visual-studio"></a>프리페치된 콘텐츠를 사용 하 여 Visual Studio에서 UWP 앱 디버그
   
@@ -40,4 +40,4 @@ ms.locfileid: "53835199"
 >  지정된 웹 콘텐츠를 추가 또는 수정할 때마다 이러한 단계를 반복합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [블로그 게시물 Visual Studio 2013 업데이트 2에서에서 Windows 스토어 앱 용 프리페치 트리거](https://blogs.msdn.microsoft.com/devops/2014/02/06/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2/)
+ [블로그 게시물: Visual Studio 2013 업데이트 2에서에서 Windows 스토어 앱 용 프리페치 트리거](https://blogs.msdn.microsoft.com/devops/2014/02/06/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2/)

@@ -1,13 +1,9 @@
 ---
 title: 64 비트 지원 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 helpviewer_keywords:
 - 64-bit applications [C++]
 - Visual Studio, 64-bit support
@@ -16,13 +12,13 @@ ms.assetid: b08ff3ad-c6fd-468f-94d5-01a61aab6833
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 1935265b05c5074d043a008aad8a150bf4398c89
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: ab42cd9466561f64ecb35e65621bcbb91004f8f3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53852364"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54775919"
 ---
 # <a name="visual-studio-ide-64-bit-support"></a>Visual Studio IDE 64비트 지원
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +30,7 @@ ms.locfileid: "53852364"
 
 -   [64비트 애플리케이션의 필수 조건 배포](../deployment/deploying-prerequisites-for-64-bit-applications.md)
 
--   [방법: 64 비트 플랫폼용 Windows 설치 관리자 만들기](http://msdn.microsoft.com/en-us/232bfc64-f99a-4cc6-9806-ba70bb9a09ff)
+-   [방법: 64 비트 플랫폼용 Windows 설치 관리자 만들기](http://msdn.microsoft.com/232bfc64-f99a-4cc6-9806-ba70bb9a09ff)
 
 ## <a name="configuring-projects-as-64-bit-applications"></a>프로젝트를 64비트 애플리케이션으로 구성
  다음 항목에서는 프로젝트를 64비트 애플리케이션으로 빌드되도록 구성하는 방법을 설명합니다.
@@ -44,7 +40,7 @@ ms.locfileid: "53852364"
 ## <a name="debugging-a-64-bit-application"></a>64비트 애플리케이션 디버그
  [!INCLUDE[vsprvslong](../includes/vsprvslong-md.md)]가 64비트 Windows 운영 체제에서 실행되고 있으면 편집 및 계속이 작동하지 않습니다. 다음 항목에서는 64비트 애플리케이션을 디버그하는 방법을 설명합니다.
 
--   [방법: 64 비트 플랫폼에서 디버그](http://msdn.microsoft.com/en-us/27495e23-a624-46fb-996f-043d0a816dd5)
+-   [방법: 64 비트 플랫폼에서 디버그](http://msdn.microsoft.com/27495e23-a624-46fb-996f-043d0a816dd5)
 
 -   [64비트 애플리케이션 디버그](../debugger/debug-64-bit-applications.md)
 

@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: a05b5f2f-d1f2-471a-8096-8b11f7554265
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 16ca92b1e34e1cec4426da368fb9a5c557db65b8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 35814b1227f9a03fe40c9d41e7809dac54a0f1fa
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53944274"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54932820"
 ---
 # <a name="secure-clickonce-applications"></a>ClickOnce 애플리케이션 보안
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에서는 .NET Framework의 코드 액세스 보안 제한에 따라 보호된 리소스 및 작업에 대한 코드의 액세스를 제한합니다. 따라서 코드 액세스 보안의 의미를 이해하여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 적절하게 작성해야 합니다. 애플리케이션에서는 완전 신뢰 영역이나 부분 신뢰 영역(예: 인터넷 및 인트라넷 영역)을 사용하여 액세스를 제한할 수 있습니다.  
@@ -66,7 +66,7 @@ ms.locfileid: "53944274"
   
  `http://servername.adatum.com/WindowsApp1.application?username=joeuser`  
   
- 기본적으로 쿼리 문자열 인수는 사용할 수 없습니다. 쿼리 문자열을 사용하려면 애플리케이션 배포 매니페스트에서 `trustUrlParameters` 특성을 설정해야 합니다. 이 값은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 및 MageUI.exe에서 설정할 수 있습니다. 전달을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 쿼리 문자열 [방법: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)  
+ 기본적으로 쿼리 문자열 인수는 사용할 수 없습니다. 쿼리 문자열을 사용하려면 애플리케이션 배포 매니페스트에서 `trustUrlParameters` 특성을 설정해야 합니다. 이 값은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 및 MageUI.exe에서 설정할 수 있습니다. 전달을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 쿼리 문자열 [방법: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)을 참조하세요.  
   
  쿼리 문자열을 통해 검색된 인수를 안전성을 확인하지 않고 데이터베이스나 명령줄에 직접 전달하면 안 됩니다. 안전하지 않은 인수는 데이터베이스 또는 명령줄 이스케이프 문자가 들어 있는 인수입니다. 이러한 문자가 있으면 악의적인 사용자가 애플리케이션을 조작하여 임의의 명령을 실행할 수 있게 됩니다.  
   

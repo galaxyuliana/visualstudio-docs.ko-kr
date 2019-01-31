@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: bb6baa40-fece-4a4c-aba9-f4b41f418f8b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 75ae1f3244e20d4f1fa49ec316f3e1edf85c08c8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b0d02451343aad3cd08f618249aaf50a01f8b6f0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53910807"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069215"
 ---
 # <a name="idiasectioncontribgetnotpaged"></a>IDiaSectionContrib::get_notPaged
 메모리가 부족 섹션 호출 될 수 없습니다 여부를 나타내는 플래그를 검색 합니다.  

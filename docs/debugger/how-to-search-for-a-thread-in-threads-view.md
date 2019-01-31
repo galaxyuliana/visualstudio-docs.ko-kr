@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 5609a9b3-c279-4426-9e2e-dd87896a6d6f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 85b0f05398c4b0301bfd509ab972f9aaf70807e7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1c3b7805f54275c1f2370f981cdd97bdeabfa58c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53832166"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55069802"
 ---
 # <a name="how-to-search-for-a-thread-in-threads-view"></a>방법: 스레드 뷰에서 스레드 검색
 스레드 뷰에서 특정 스레드에 대 한 검색 조건으로 스레드 ID 또는 모듈 문자열을 사용 하 여 검색할 수 있습니다. 또한 검색 시작 방향을 지정할 수 있습니다. 대화 상자의 필드에에서는 스레드 트리에서 선택한 스레드의 특성이 표시 됩니다.  

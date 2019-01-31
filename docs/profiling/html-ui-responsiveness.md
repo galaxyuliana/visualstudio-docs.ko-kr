@@ -13,15 +13,15 @@ helpviewer_keywords:
 - profiler, JavaScript [UWP apps]
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: b3b9cbbeaf94c231de518b6129a11327b69767f4
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: a91714def886fb428040ca42d8a9fd9fa0ea900b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53843530"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54965827"
 ---
 # <a name="analyze-html-ui-responsiveness-in-universal-windows-apps"></a>유니버설 Windows 앱의 HTML UI 응답성 분석
 이 항목에서는 유니버설 Windows 앱에 사용할 수 있는 성능 도구인 UI 응답성 프로파일러를 사용하여 앱에서 성능 문제를 격리하는 방법에 대해 설명합니다.  
@@ -98,7 +98,7 @@ ms.locfileid: "53843530"
   
 9. 사용자 표시, 응용 프로그램 수명 주기 이벤트 또는 그래프에 표시되는 데이터를 사용해서 타임라인 및 프로파일러 그래프에서 관심 영역을 식별합니다. 다음은 그래프에서 데이터를 분석 및 사용하는 데 도움이 되는 몇 가지 지침입니다.  
   
-    -    [진단 세션 타임라인 보기](#Ruler) 을 사용해 [분석을 위한 코드 표시](#ProfileMark), 앱 수명 주기 이벤트 및 이러한 이벤트에 연결된 타임라인과 다른 그래프의 데이터에 대한 타임라인을 확인합니다.  
+    -   [진단 세션 타임라인 보기](#Ruler) 을 사용해 [분석을 위한 코드 표시](#ProfileMark), 앱 수명 주기 이벤트 및 이러한 이벤트에 연결된 타임라인과 다른 그래프의 데이터에 대한 타임라인을 확인합니다.  
   
     -   [CPU utilization graph](#CPUUtilization) 를 사용해 CPU 작업 및 특정 기간에 CPU에서 처리하는 작업 유형에 관한 일반적인 정보를 볼 수 있습니다. CPU 작업이 과도한 기간에는 응답성 문제 및 프레임 저하가 발생할 가능성이 높습니다.  
   
@@ -110,7 +110,7 @@ ms.locfileid: "53843530"
   
      ![CPU 사용률 그래프](../profiling/media/js_htmlvizprof_cpu_util.png "JS_HTMLVizProf_CPU_Util")  
   
-11.  [타임라인 세부 정보 보기](#TimelineDetails) 를 사용하여 너무 자주 실행되거나 완료되는 데 너무 많은 시간이 걸리는 이벤트에 대한 자세한 정보를 확인합니다. 예를 들어, 다음을 확인합니다.  
+11. [타임라인 세부 정보 보기](#TimelineDetails) 를 사용하여 너무 자주 실행되거나 완료되는 데 너무 많은 시간이 걸리는 이벤트에 대한 자세한 정보를 확인합니다. 예를 들어, 다음을 확인합니다.  
   
     -   이벤트 수신기, 타이머 및 애니메이션 프레임 콜백. 특정 이벤트에 따라 제공되는 데이터에는 수정된 DOM 요소의 ID, 수정된 CSS 속성, 소스 위치에 대한 링크, 연결된 이벤트 또는 콜백 함수의 이름이 포함될 수 있습니다.  
   

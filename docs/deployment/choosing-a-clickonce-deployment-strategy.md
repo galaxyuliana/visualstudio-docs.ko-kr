@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 98bcab65-ab8b-4ed1-9adc-fdacf92b8106
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5e752160c7406f858a2aa370a542efe14eb82e3b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: dcb25faba045f9af9a00bd544ae4031e9da239a0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931105"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54985057"
 ---
 # <a name="choose-a-clickonce-deployment-strategy"></a>ClickOnce 배포 전략 선택
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 배포하는 전략에는 세 가지가 있으며, 주로 배포하는 응용 프로그램 종류에 따라 전략을 선택합니다. 세 가지 배포 전략은 다음과 같습니다.  

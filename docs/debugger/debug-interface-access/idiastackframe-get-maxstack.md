@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 6352e972-7105-4d0e-aeba-b8fc16d62dec
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3deb8885f9148a870b63309e69a0c08c64a9f3a6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4528e49a2f57b7b61e79aeb94a926efb3a8b7c67
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986039"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943619"
 ---
 # <a name="idiastackframegetmaxstack"></a>IDiaStackFrame::get_maxStack
 프레임의 스택에 바이트의 최대 수를 검색 합니다.  

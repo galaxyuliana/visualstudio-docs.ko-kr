@@ -14,15 +14,15 @@ helpviewer_keywords:
 - remote debugging, notification error
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0d2c1a36555f9861fabe30937c6ecde856277cdf
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9a122a6113d10c818b08662fe8602b39afa13d12
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955908"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55019335"
 ---
 # <a name="error-unable-to-automatically-step-into-the-server"></a>오류: 서버에 대해 자동으로 한 단계씩 코드를 실행할 수 없음
 이 오류 메시지는 다음과 같습니다.  

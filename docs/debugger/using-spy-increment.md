@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 02769bfa-5679-4ee2-8c6b-27876edb4e8c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a316f2fa786697511a98ae06e5fc52e86412d6b3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3127ab476c0b4500d7cb481222d1f0ef68819edb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53943277"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55016670"
 ---
 # <a name="using-spy"></a>Spy++ 사용
 Spy + + (SPYXX 합니다. EXE)는 시스템의 프로세스, 스레드, 창 및 창 메시지의 그래픽 보기를 제공 하는 Win32 기반 유틸리티입니다. Spy + + 도움말의이 섹션에는 다음 도움말 항목을 다룹니다.  

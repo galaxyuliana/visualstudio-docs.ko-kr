@@ -8,15 +8,15 @@ f1_keywords:
 - vs.toolsoptionspages.text_editor.r.lint
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 7cbbf0e727269baa0a9e199574afcfee1d8ee687
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2f43518ccc223a52173de4df28d081392a89efdb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886684"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54938421"
 ---
 # <a name="lint-r-code-in-visual-studio"></a>Visual Studio에서 R 코드 Lint
 
@@ -36,7 +36,7 @@ Lint는 기본적으로 비활성화되어 있습니다. Lint를 사용하도록
 
 | 옵션 | 기본값 | Lint 효과 |
 | --- | --- | --- |
-|  **\<-** 적용 | **True** | `<-`를 할당에 사용하지 않는 경우를 식별합니다. |
+| **Enforce \<-** | **True** | `<-`를 할당에 사용하지 않는 경우를 식별합니다. |
 
 ## <a name="naming-group"></a>그룹 이름 지정
 

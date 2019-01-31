@@ -9,15 +9,15 @@ dev_langs:
 ms.assetid: d0c311c9-9eb9-42c5-ba07-25604362cd28
 author: corob-msft
 ms.author: corob
-manager: douge
+manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: cbc9e2b0016fde990e2fbd6d79b083907ced5060
-ms.sourcegitcommit: 71218ffc33da325cc1b886f69ff2ca50d44f5f33
+ms.openlocfilehash: 54c93a07d7ac3754c5c57d2029fff9991221ae65
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48881087"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070645"
 ---
 # <a name="install-and-configure-tools-to-build-using-ios"></a>iOS를 사용하여 빌드할 도구 설치 및 구성
 
@@ -34,7 +34,7 @@ iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Ma
 
 - OS X Mavericks(버전 10.9) 이상을 실행하는 Mac 컴퓨터
 
--  [Apple ID](https://appleid.apple.com/)
+- [Apple ID](https://appleid.apple.com/)
 
 - Apple의 활성 [iOS 개발자 프로그램](https://developer.apple.com/programs/ios/) 계정
 

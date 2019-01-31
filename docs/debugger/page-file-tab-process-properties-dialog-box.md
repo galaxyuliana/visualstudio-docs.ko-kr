@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: daf41a06-8a55-48f6-95f5-49a8416bd308
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ded332b68ee4ae4d628bc272b563e973da6154e5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d45fa813a7bb75ea0cdd11a412ae35e5444883dc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53913345"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54924965"
 ---
 # <a name="page-file-tab-process-properties-dialog-box"></a>프로세스 속성 대화 상자, 페이지 파일 탭
 사용 된 **페이지 파일** 프로세스의 페이징 파일을 검사 하려면 탭 합니다. 표시할 합니다 [프로세스 속성 대화 상자](../debugger/process-properties-dialog-box.md), 포커스를 이동 하는 [프로세스 뷰에](../debugger/processes-view.md) 창입니다. 선택한 프로세스 노드 트리에서 선택 **속성** 에서 합니다 **보기** 메뉴.  

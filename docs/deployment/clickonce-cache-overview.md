@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: e379921e-9ef1-4326-bbf3-53ba67925526
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 323b179a81f9bdd66858c1ff2f96b8ce86b30b10
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 82a92600c1f8fafff63e8c4f36ed249457651e0a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865039"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54977098"
 ---
 # <a name="clickonce-cache-overview"></a>ClickOnce 캐시 개요
 모든 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 로컬로 설치 인지 온라인 호스팅 저장 되는지 여부를 클라이언트 컴퓨터에 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]응용 프로그램 *캐시*합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 캐시는 현재 사용자의 Documents and Settings 폴더의 로컬 설정 디렉터리 아래에 숨겨진된 디렉터리의 집합입니다. 이 캐시에 어셈블리, 구성 파일, 응용 프로그램 및 사용자 설정 및 데이터 디렉터리를 포함 하 여 응용 프로그램의 모든 파일을 포함 합니다. 캐시는 응용 프로그램의 데이터 디렉터리를 최신 버전으로 마이그레이션하는 데 이기도 합니다. 데이터 마이그레이션에 대 한 자세한 내용은 참조 하세요. [로컬 및 ClickOnce 응용 프로그램의 원격 데이터 액세스](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)합니다.  

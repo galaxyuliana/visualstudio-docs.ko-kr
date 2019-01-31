@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 016190c5-09e4-48f2-bf60-9b02603a03e0
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0e6dbfc2a61be36dbe64d8198dc56e695d774602
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 80b8bd26fbdb39f539df7ce520ca638458f2de65
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53951185"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54999355"
 ---
 # <a name="idiaenumtables"></a>IDiaEnumTables
 데이터 원본에 포함 된 다양 한 테이블을 열거 합니다.  
@@ -62,7 +62,7 @@ void ShowTableNames(IDiaSession *pSession)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

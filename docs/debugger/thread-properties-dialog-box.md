@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 5352d11a-debb-4c20-b9a0-d37d94900b1c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 30f45bf4ef30ead2740cad45101f6eed6d7c2a1e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 21beeecd4910f2b2f4b5c47ecb694abd31ecedd5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986000"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54944997"
 ---
 # <a name="thread-properties-dialog-box"></a>스레드 속성 대화 상자
 이 대화 상자에 알아보세요 특정 스레드에 대 한 자세한 정보를 사용 합니다. 이 대화 상자를 표시 하려면 포커스를 이동 하는 [스레드 뷰](../debugger/threads-view.md) 창을 열거나 [메시지 뷰](../debugger/messages-view.md) 메시지를 확장 합니다. 선택한 스레드 노드 트리에서 선택 **속성** 에서 합니다 **보기** 메뉴.  

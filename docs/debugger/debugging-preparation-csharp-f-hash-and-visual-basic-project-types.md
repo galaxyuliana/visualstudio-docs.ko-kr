@@ -18,15 +18,15 @@ helpviewer_keywords:
 ms.assetid: 7a0535f6-1cd4-4b51-ad34-f4a45b9f1ce3
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 703c00868eca2f48c06bb24cc45a533411a8147c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a07bfcba0550392c01d7e67abe96ff88bc397805
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866883"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043066"
 ---
 # <a name="debugging-preparation-c-f-and-visual-basic-project-types"></a>디버깅 준비 중: C#, F# 및 Visual Basic 프로젝트 형식
 이 단원의 항목에서는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 프로젝트 템플릿으로 만든 C#, F# 및 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로젝트 형식을 디버깅하는 방법에 대해 설명합니다.  

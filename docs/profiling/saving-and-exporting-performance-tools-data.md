@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 2e9b28fe-3ed2-4e1d-b9cb-0a5e384380b0
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9bb2020ff396eef3dd9dad4c0ed2e2fd015e0fd6
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: 5338d9279e82c8675e00198ffe6fce252e31bd2f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53838374"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54972459"
 ---
 # <a name="save-and-export-performance-tools-data"></a>성능 도구 데이터 저장 및 내보내기
 이 문서에서는 성능 데이터 파일을 저장하고 내보내는 방법을 설명합니다.  
@@ -29,7 +29,7 @@ ms.locfileid: "53838374"
   
 2.  **분석 데이터 저장** 대화 상자에서 디렉터리를 지정하고 파일 이름을 입력합니다.  
   
-3.   **저장**을 클릭합니다.  
+3.  **저장**을 클릭합니다.  
   
 #### <a name="to-save-an-analyzed-performance-report-from-the-report-view-window"></a>보고서 뷰 창에서 분석 성능 보고서를 저장하려면  
   
@@ -41,7 +41,7 @@ ms.locfileid: "53838374"
   
 4.  **분석 데이터 저장** 대화 상자에서 디렉터리를 지정하고 파일 이름을 입력합니다.  
   
-5.   **저장**을 클릭합니다.  
+5.  **저장**을 클릭합니다.  
   
 ## <a name="how-to-export-profiling-tools-reports-to-an-xml-or-csv-file"></a>방법: 프로파일링 도구 보고서를 .xml 또는 .csv 파일로 내보내기  
  .*vsp* 파일 또는 .*vsps* 프로파일링 데이터 파일에서 하나 이상의 보고서 뷰를 쉼표로 분리된 파일 또는 XML 파일로 내보낼 수 있습니다. 내보내기 전에 보고서 뷰 창에서 데이터를 필터링하거나 **성능 탐색기** 창에서 전체 데이터 파일의 보고서 뷰를 내보낼 수 있습니다.  

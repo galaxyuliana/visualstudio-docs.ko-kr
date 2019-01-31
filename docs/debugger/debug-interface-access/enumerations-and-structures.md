@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c8f994e83e6817062878ef7a0d8e6cd9981b3ec9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 20ac4a455b0fd585568ca53e65557133e2d761a1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988085"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969826"
 ---
 # <a name="enumerations-and-structures"></a>열거형 및 구조체
 이들은, 열거형 및 DIA SDK에서 사용 되는 구조입니다.  

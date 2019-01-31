@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: e6467529-508c-4328-85d7-89444ae4d1c1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a563ee3502cc1e713946cd70575be187ecbeadbb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0880009e6ae46f0d5ae89eb4332ddba57fa26394
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53824550"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55031270"
 ---
 # <a name="idiaaddressmap"></a>IDiaAddressMap
 DIA SDK 디버그 개체에 대 한 가상 및 상대 가상 주소를 계산 하는 방법에 대 한 제어를 제공 합니다.  
@@ -49,7 +49,7 @@ IDiaAddressMap : IUnknown
  이 인터페이스는 DIA 세션 개체에서 사용할 수 있습니다. 클라이언트 호출을 `QueryInterface` DIA 세션 개체 인터페이스에서 일반적으로 메서드 [IDiaSession](../../debugger/debug-interface-access/idiasession.md), 검색할는 `IDiaAddressMap` 인터페이스입니다.  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

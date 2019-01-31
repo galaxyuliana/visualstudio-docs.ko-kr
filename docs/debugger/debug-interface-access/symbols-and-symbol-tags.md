@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 2ee3a262-cda6-48bf-b799-a37edde6c8b8
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b9d7c7d3710d7bca7fa76b30b7b2d0e97a0dfd50
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 23214e9a0af3ca506677e5f67b4460fa6d9d8414
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53843491"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969001"
 ---
 # <a name="symbols-and-symbol-tags"></a>기호 및 기호 태그
 컴파일된 프로그램에 대 한 디버그 정보는 디버그 인터페이스 액세스 (DIA) SDK Api를 사용 하 여 액세스할 수 있는 기호로 프로그램 데이터베이스 (.pdb) 파일에 저장 됩니다. 모든 기호는 [idiasymbol:: Get_symtag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md) 와 [idiasymbol:: Get_symindexid](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md) 속성입니다. 합니다 `symTag` 속성에 정의 된 대로 기호의 종류를 나타내는 합니다 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 열거형입니다. 합니다 `symIndexId` 속성이 `DWORD` 기호의 모든 인스턴스에 대 한 고유 식별자를 포함 하는 값입니다.  

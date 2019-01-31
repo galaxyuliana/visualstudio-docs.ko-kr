@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 1a886310-67c8-44e5-a382-c2f0454f887d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a890a7ad0a3b65580f5ef08d33774182c8916140
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0772a06ca5f6d06007f471d3257563b4953c81b7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53869969"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54976591"
 ---
 # <a name="how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api"></a>방법: ClickOnce 배포 API를 사용하여 프로그래밍 방식으로 애플리케이션 업데이트 확인
 ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 제공 합니다. 첫 번째 방법은 특정 간격에 따라 업데이트에 대 한 자동으로 확인 하도록 ClickOnce 배포를 구성할 수 있습니다. 두 번째 메서드를 사용 하는 코드를 작성할 수 있습니다는 <xref:System.Deployment.Application.ApplicationDeployment> 클래스 업데이트를 확인 하려면 사용자 요청과 같은 이벤트를 기반으로 합니다.  
