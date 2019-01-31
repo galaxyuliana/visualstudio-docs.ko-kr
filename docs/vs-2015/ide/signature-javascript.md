@@ -1,14 +1,9 @@
 ---
 title: '&lt;서명&gt; (JavaScript) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - <signature> JavaScript XML tag
 - signature JavaScript XML tag
@@ -16,13 +11,13 @@ ms.assetid: 319138e7-cfbe-4b37-9643-2ddb7f9c63d4
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 0b3278087545a4d49d5f4f2f0d3f6942c4ec6d9a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 02a4c36f3969ca0f9ef61e817afb82eb8247f041
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49293009"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54780319"
 ---
 # <a name="ltsignaturegt-javascript"></a>&lt;서명&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +45,7 @@ ms.locfileid: "49293009"
  `locid`  
  선택 사항입니다. 필드에 대 한 지역화 정보에 대 한 식별자입니다. 식별자는 멤버에 해당 하는 ID 또는를 `name` 특성 OpenAjax 메타 데이터에 의해 정의 된 메시지 묶음의 값입니다. 식별자 형식에 지정 된 형식에 따라 달라 집니다 합니다 [ \<loc >](../ide/loc-javascript.md) 태그입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  하나를 사용 하 여 `<signature>` 각각에 대 한 요소에서.js 파일을 하나 사용 하 여 함수 설명 오버 로드 된 `<signature>` 지정 된 각 외부 멤버 ID에 대 한 요소입니다.  
   
  `<signature>` 문 앞에서 함수 본문의 요소를 배치 해야 합니다. 사용 하는 경우 [ \<요약 >](../ide/summary-javascript.md), [ \<param >](../ide/param-javascript.md), 또는 [ \<반환 >](../ide/returns-javascript.md) 사용 하 여 요소를 `<signature>` 요소 내 다른 요소를 배치 합니다 `<signature>` 블록입니다.  
@@ -100,6 +95,3 @@ function add(a, b) {
   
 ## <a name="see-also"></a>참고 항목  
  [XML 문서 주석](../ide/xml-documentation-comments-javascript.md)
-
-
-

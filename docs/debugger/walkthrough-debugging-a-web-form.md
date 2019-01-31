@@ -20,15 +20,15 @@ helpviewer_keywords:
 ms.assetid: e2b4fa14-8f5b-444d-a903-54070b784bd4
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 66456257e72609183feb5f331c6d5d384c040a61
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f884206ecafebbe26bfdadfaa7e95f3dbd0f389f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53822180"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948728"
 ---
 # <a name="walkthrough-debugging-a-web-form"></a>연습: Web Form 디버그
 이 연습 과정에서는 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 응용 프로그램(Web Form)의 디버깅 방법을 보여 줍니다. 또한 실행을 시작하고 중지하며, 중단점을 설정하고, **조사식** 창에서 변수를 검사하는 방법을 보여 줍니다.

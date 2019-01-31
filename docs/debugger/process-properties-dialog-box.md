@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: fe6c9d32-4b81-4dc4-a307-848d23af66ce
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 42f1838aa2dcfcdd9ac070d3b1c03c4e177c195d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b1650d11c4af758a38d6778b17f61447c0d8485a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898036"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993847"
 ---
 # <a name="process-properties-dialog-box"></a>프로젝트 속성 대화 상자
 이 대화 상자를 사용 하 여 특정 프로세스에 대해 자세히 알아봅니다. 이 대화 상자를 표시 하려면 포커스를 이동 하는 [프로세스 뷰에](../debugger/processes-view.md) 창입니다. 선택한 프로세스 노드 트리에서 선택 **속성** 에서 합니다 **보기** 메뉴.  

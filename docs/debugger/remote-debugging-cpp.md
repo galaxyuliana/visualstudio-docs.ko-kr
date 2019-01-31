@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: 8b8eca0d-122f-4eda-848a-cf0945f207d0
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: bdbcefe1e0878ef6bf2520edb90ce904e414f211
-ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
+ms.openlocfilehash: 88deb9957766b4e4e0802a1eded352a6ccb04f98
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54269763"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231573"
 ---
 # <a name="remote-debugging-a-visual-c-project-in-visual-studio"></a>Visual Studio에서 Visual c + + 프로젝트 원격 디버그
 다른 컴퓨터에 Visual Studio 응용 프로그램을 디버깅 설치 하 고 앱을 배포할 컴퓨터의 원격 도구를 실행 하려면 Visual Studio에서 원격 컴퓨터에 연결 및 다음 배포 하 고 앱을 실행 하도록 프로젝트를 구성 합니다.
@@ -96,9 +96,11 @@ ms.locfileid: "54269763"
 11. Visual Studio 컴퓨터에서 실행이 중단점에서 중지된 것이 표시됩니다.  
   
     > [!TIP]
-    >  또는 별도의 단계로 파일을 배포할 수 있습니다. **솔루션 탐색기**에서 **mymfc** 노드를 마우스 오른쪽 단추로 클릭하고 **배포**를 선택합니다.  
+    > 또는 별도의 단계로 파일을 배포할 수 있습니다. **솔루션 탐색기**에서 **mymfc** 노드를 마우스 오른쪽 단추로 클릭하고 **배포**를 선택합니다.
   
-    응용 프로그램에서 사용해야 하는 비코드 파일이 있는 경우 Visual Studio 프로젝트에 포함해야 합니다. 추가 파일을 위한 프로젝트 폴더를 만듭니다(**솔루션 탐색기**에서 **추가 > 새 폴더** 클릭). 그런 다음, 폴더에 파일을 추가합니다(**솔루션 탐색기**에서 **추가 / 기존 항목**을 클릭한 다음, 파일 선택). 각 파일에 대한 **속성** 페이지에서 **출력 디렉터리에 복사**를 **항상 복사**로 설정합니다.
+    응용 프로그램에서 필요로 하는 비 코드 파일에 있는 경우에 지정할 수 있습니다 **배포에 추가 파일** 에 **원격 Windows 디버거** 페이지입니다.
+
+    프로젝트에서 파일을 포함 하 고 설정할 수 또는 합니다 **콘텐츠** 속성을 **예** 에 **속성** 각 파일에 대 한 페이지입니다. 이러한 파일에 복사 됩니다는 **배포 디렉터리** 에 지정 된 된 **원격 Windows 디버거** 페이지입니다. 변경할 수도 있습니다는 **항목 형식** 하 **파일 복사** 지정 파일의 하위 폴더에 복사 해야 하는 경우 추가 속성이 있습니다 합니다 **배포 디렉터리**.
   
 ## <a name="set-up-debugging-with-remote-symbols"></a>원격 기호를 사용한 디버깅 설정 
 

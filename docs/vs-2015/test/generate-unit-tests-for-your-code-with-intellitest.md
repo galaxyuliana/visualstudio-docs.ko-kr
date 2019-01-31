@@ -1,26 +1,21 @@
 ---
 title: IntelliTest를 사용하여 코드에 대한 단위 테스트 생성 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateIntelliTest
 ms.assetid: cd9ff940-e948-4d28-a72c-b291ef5c1e90
 caps.latest.revision: 35
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6743db0b10d8df4f131f8125b3e2f83bca262054
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c6d880ef434eafd7aee3ffbc5f7d8f80a68a4b25
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49226514"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54790511"
 ---
 # <a name="generate-unit-tests-for-your-code-with-intellitest"></a>IntelliTest를 사용하여 코드에 대한 단위 테스트 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,13 +82,13 @@ IntelliTest는 .NET 코드를 탐색하여 테스트 데이터 및 단위 테스
   
      ![IntelliTest를 다시 실행하여 테스트 데이터 생성](../test/media/pexwarningsfixed.png "PEXWarningsFixed")  
   
-### <a name="specify-use-intellitest-to-validate-correctness-properties-that-you-specify-in-code"></a>선택: IntelliTest를 사용하여 코드에서 지정하는 정확성 속성의 유효성을 검사합니다.  
+### <a name="specify-use-intellitest-to-validate-correctness-properties-that-you-specify-in-code"></a>지정: IntelliTest를 사용하여 코드에서 지정하는 정확성 속성의 유효성을 검사합니다.  
  생성된 단위 테스트를 통해 유효성을 검사할 입력과 출력 간의 일반적인 관계를 지정합니다. 이 사양은 테스트 메서드처럼 보이지만 전체적으로 수치화된 메서드에서 캡슐화됩니다. 이것은 매개 변수가 있는 단위 테스트 메서드이며, 만든 모든 어설션은 IntelliTest에서 생성할 수 있는 모든 입력 값에 대해 적용되어야 합니다.  
   
-##  <a name="QandALink"></a> Q&A  
+##  <a name="QandALink"></a> Q & A  
   
 ### <a name="q-can-you-use-intellitest-for-unmanaged-code"></a>Q: 비관리 코드에 IntelliTest를 사용할 수 있나요?  
- **A:** 아니요. IntelliTest는 관리 코드를 대상으로만 작동됩니다.  
+ **A:** 아니요, IntelliTest는 관리 코드를 대상으로만 작동됩니다.  
   
 ### <a name="q-when-does-a-generated-test-pass-or-fail"></a>Q: 생성된 테스트가 통과하거나 실패하는 경우는 언제입니까?  
  **A:** 예외가 발생하지 않을 경우에는 다른 단위 테스트처럼 통과합니다. 어설션이 실패하거나 테스트 중인 코드가 처리되지 않은 예외를 throw하는 경우에는 실패합니다.  
@@ -109,21 +104,21 @@ IntelliTest는 .NET 코드를 탐색하여 테스트 데이터 및 단위 테스
 -   **PexAllowedExceptionFromAssemblyAttribute**  
   
 ### <a name="q-can-i-add-assumptions-to-the-parameterized-unit-test"></a>Q: 매개 변수가 있는 단위 테스트에 가정을 추가할 수 있습니까?  
- **A:** 예. 가정을 사용하여 특정 메서드에 대한 단위 테스트에 필요하지 않은 테스트 데이터를 지정할 수 있습니다. 가정을 추가하려면 <xref:Microsoft.Pex.Framework.PexAssume> 클래스를 사용합니다. 예를 들어 다음과 같이 lengths 변수가 null이 아니라는 가정을 추가할 수 있습니다.  
+ **A:** 예, 가정을 사용하여 특정 메서드에 대한 단위 테스트에 필요하지 않은 테스트 데이터를 지정할 수 있습니다. 가정을 추가하려면 <xref:Microsoft.Pex.Framework.PexAssume> 클래스를 사용합니다. 예를 들어 다음과 같이 lengths 변수가 null이 아니라는 가정을 추가할 수 있습니다.  
   
  `PexAssume.IsNotNull(lengths);`  
   
  가정을 추가하고 IntelliTest를 다시 실행하면 더 이상 관련이 없는 테스트 데이터가 제거됩니다.  
   
 ### <a name="q-can-i-add-assertions-to-the-parameterized-unit-test"></a>Q: 매개 변수가 있는 단위 테스트에 어설션을 추가할 수 있습니까?  
- **A:** 예. IntelliTest는 단위 테스트를 실행할 때 문에서 어설션된 항목이 실제로 올바른지 확인합니다. 어설션을 추가하려면 테스트 프레임워크와 함께 제공되는 <xref:Microsoft.Pex.Framework.PexAssert> 클래스 또는 어설션 API를 사용합니다. 예를 들어 두 변수가 동일하다는 어설션을 추가할 수 있습니다.  
+ **A:** 예, IntelliTest는 단위 테스트를 실행할 때 명령문에서 어설션된 항목이 실제로 올바른지 확인합니다. 어설션을 추가하려면 테스트 프레임워크와 함께 제공되는 <xref:Microsoft.Pex.Framework.PexAssert> 클래스 또는 어설션 API를 사용합니다. 예를 들어 두 변수가 동일하다는 어설션을 추가할 수 있습니다.  
   
  `PexAssert.AreEqual(a, b);`  
   
  어설션을 추가하고 IntelliTest를 다시 실행하면 IntelliTest가 어설션이 유효한지 확인하고 유효하지 않을 경우 테스트가 실패합니다.  
   
 ###  <a name="NoRun"></a> Q: IntelliTest를 먼저 실행하지 않고 매개 변수가 있는 단위 테스트를 생성할 수 있나요?  
- **A:** 예, 클래스 또는 메서드를 마우스 오른쪽 단추로 클릭하고 **IntelliTest 만들기**를 선택합니다.  
+ **A:** 예, 클래스 또는 메서드를 마우스 오른쪽 단추로 클릭한 다음, **IntelliTest 만들기**를 선택합니다.  
   
  ![편집기를 마우스 오른쪽 단추로 클릭하고 IntelliTest 만들기 선택](../test/media/pexcreateintellitest.png "PEXCreateIntelliTest")  
   
@@ -140,6 +135,3 @@ IntelliTest는 .NET 코드를 탐색하여 테스트 데이터 및 단위 테스
   
 ### <a name="q-can-i-learn-more-about-how-the-tests-are-generated"></a>Q: 테스트가 생성되는 방식에 대해 자세히 알아볼 수 있나요?  
  **A:** 예, 개괄적인 개요를 확인하려면 이 [블로그 게시물](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx)을 참조하세요.
-
-
-

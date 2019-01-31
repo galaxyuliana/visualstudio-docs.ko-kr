@@ -1,14 +1,9 @@
 ---
 title: CL 작업 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - VC.Project.VCCLCompilerTool.UseUnicodeForAssemblerListing
 - vc.task.cl
@@ -26,13 +21,13 @@ ms.assetid: 651ba971-b755-4f03-a549-4816beb3cc0d
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: fb9b6924f5d11e3d857308e3a1bcf1e1644f78bc
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
+manager: jillfra
+ms.openlocfilehash: 136bc554abe6c231dfa80753b19dba89946830c3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50220250"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54756665"
 ---
 # <a name="cl-task"></a>CL 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -255,7 +250,7 @@ Visual C++ 컴파일러 도구 cl.exe를 래핑합니다. 컴파일러는 실행
   
    선택적 부울 매개 변수입니다.  
   
-   `true`인 경우 정적 스레드 로컬 저장소를 사용하여 할당한 데이터(즉, `__declspec(thread)`를 사용하여 할당한 데이터)의 파이버 안전을 지원합니다.  
+   `true`인 경우 정적 스레드 로컬 스토리지를 사용하여 할당한 데이터(즉, `__declspec(thread)`를 사용하여 할당한 데이터)의 파이버 안전을 지원합니다.  
   
    자세한 내용은 [/GT(파이버 안전 스레드 로컬 스토리지 지원)](http://msdn.microsoft.com/library/071fec79-c701-432b-9970-457344133159)를 참조하세요.  
   
@@ -421,7 +416,7 @@ Visual C++ 컴파일러 도구 cl.exe를 래핑합니다. 컴파일러는 실행
   
    선택적 `Boolean` 매개 변수입니다.  
   
-   `true`인 경우 응용 프로그램을 더 빠르게 실행하는 데 도움이 되는 내장 함수 또는 다른 특별한 형태의 함수로 일부 함수 호출을 바꿉니다.  
+   `true`인 경우 애플리케이션을 더 빠르게 실행하는 데 도움이 되는 내장 함수 또는 다른 특별한 형태의 함수로 일부 함수 호출을 바꿉니다.  
   
    자세한 내용은 [/Oi(내장 함수 만들기)](http://msdn.microsoft.com/library/fa4a3bf6-0ed8-481b-91c0-add7636132b4)를 참조하세요.  
   
@@ -563,7 +558,7 @@ Visual C++ 컴파일러 도구 cl.exe를 래핑합니다. 컴파일러는 실행
   
    선택적 `Boolean` 매개 변수입니다.  
   
-   `true`인 경우 C 및 C++소스 파일을 전처리하고, 표준 출력 장치에 전처리된 파일을 복사합니다.  
+   `true`인 경우 C 및 C++소스 파일을 전처리하고, 표준 출력 디바이스에 전처리된 파일을 복사합니다.  
   
    자세한 내용은 [/EP(#line 지시문 없이 stdout으로 전처리)](http://msdn.microsoft.com/library/6ec411ae-e33d-4ef5-956e-0054635eabea)를 참조하세요.  
   
@@ -807,10 +802,7 @@ Visual C++ 컴파일러 도구 cl.exe를 래핑합니다. 컴파일러는 실행
   
    자세한 내용은 이 표의 **TLogReadFiles** 및 **TLogWriteFiles** 매개 변수를 참조하세요.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

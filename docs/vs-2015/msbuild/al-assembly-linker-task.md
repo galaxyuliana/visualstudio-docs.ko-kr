@@ -1,14 +1,9 @@
 ---
 title: AL(어셈블리 링커) 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#AL
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: 2ddefbf2-5662-4d55-99a6-ac383bf44560
 caps.latest.revision: 25
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: cf0f5995b9f0e2fca0d909b9d0da0dbe6b386978
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b8d70651d319f174f2ed7c1ee81021d89201bbcf
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49280477"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758650"
 ---
 # <a name="al-assembly-linker-task"></a>AL(어셈블리 링커) 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ AL 작업은 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]와 함께 배�
 |매개 변수|설명|  
 |---------------|-----------------|  
 |`AlgorithmID`|선택적 `String` 매개 변수입니다.<br /><br /> 어셈블리 매니페스트가 포함된 파일을 제외하고 다중 파일 어셈블리에 있는 모든 파일을 해시하는 알고리즘을 지정합니다. 자세한 내용은 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/algid` 옵션에 대한 설명서를 참조하세요.|  
-|`BaseAddress`|선택적 `String` 매개 변수입니다.<br /><br /> 런타임에 DLL이 사용자의 컴퓨터에 로드되는 주소를 지정합니다. 운영 체제가 프로세스 공간에서 DLL을 재배치하게 하지 않고 DLL의 기본 주소를 직접 지정하면 응용 프로그램의 로드 속도가 빨라집니다. 이 매개 변수는 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 /base[address] 옵션에 해당합니다.|  
+|`BaseAddress`|선택적 `String` 매개 변수입니다.<br /><br /> 런타임에 DLL이 사용자의 컴퓨터에 로드되는 주소를 지정합니다. 운영 체제가 프로세스 공간에서 DLL을 재배치하게 하지 않고 DLL의 기본 주소를 직접 지정하면 애플리케이션의 로드 속도가 빨라집니다. 이 매개 변수는 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 /base[address] 옵션에 해당합니다.|  
 |`CompanyName`|선택적 `String` 매개 변수입니다.<br /><br /> 어셈블리의 `Company` 필드에 대한 문자열을 지정합니다. 자세한 내용은 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/comp[any]` 옵션에 대한 설명서를 참조하세요.|  
 |`Configuration`|선택적 `String` 매개 변수입니다.<br /><br /> 어셈블리의 `Configuration` 필드에 대한 문자열을 지정합니다. 자세한 내용은 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/config[uration]` 옵션에 대한 설명서를 참조하세요.|  
 |`Copyright`|선택적 `String` 매개 변수입니다.<br /><br /> 어셈블리의 `Copyright` 필드에 대한 문자열을 지정합니다. 자세한 내용은 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/copy[right]` 옵션에 대한 설명서를 참조하세요.|  
@@ -67,7 +62,7 @@ AL 작업은 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]와 함께 배�
 |`ResponseFiles`|선택적 `String[]` 매개 변수입니다.<br /><br /> 어셈블리 링커를 통과하기 위한 추가 옵션을 포함하는 응답 파일을 지정합니다.|  
 |`SdkToolsPath`|선택적 `String` 매개 변수입니다.<br /><br /> resgen.exe와 같은 SDK 도구에 대한 경로를 지정합니다.|  
 |`SourceModules`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 어셈블리로 컴파일할 하나 이상의 모듈입니다. 모듈은 결과 어셈블리의 매니페스트에 나열되며 어셈블리가 로드되기 위해 여전히 분산되고 사용 가능해야 합니다. 이 매개 변수로 전달된 항목은 작업이 파일을 복사하는 경로 및 파일 이름을 지정하는 `Target`이라는 추가 메타데이터를 포함할 수 있습니다. 작업은 파일을 복사한 후에 이 새 파일을 어셈블리로 컴파일합니다. 자세한 내용은 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)에 대한 설명서를 참조하세요. 이 매개 변수는 특정 스위치 없이 Al.exe로 전달되는 모듈 목록에 해당합니다.|  
-|`TargetType`|선택적 `String` 매개 변수입니다.<br /><br /> 출력 파일의 파일 형식 즉, `library`(코드 라이브러리), `exe`(콘솔 응용 프로그램) 또는 `win`(Windows 기반 응용 프로그램)을 지정합니다. 기본값은 `library`입니다. 이 매개 변수는 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/t[arget]` 옵션에 해당합니다.|  
+|`TargetType`|선택적 `String` 매개 변수입니다.<br /><br /> 출력 파일의 파일 형식 즉, `library`(코드 라이브러리), `exe`(콘솔 애플리케이션) 또는 `win`(Windows 기반 애플리케이션)을 지정합니다. 기본값은 `library`입니다. 이 매개 변수는 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/t[arget]` 옵션에 해당합니다.|  
 |`TemplateFile`|선택적 `String` 매개 변수입니다.<br /><br /> culture 필드를 제외한 모든 어셈블리 메타데이터를 상속받을 상위 어셈블리를 지정합니다. 지정된 어셈블리에는 강력한 이름이 있어야 합니다.<br /><br /> `TemplateFile` 매개 변수를 사용하여 만든 어셈블리는 위성 어셈블리가 됩니다. 이 매개 변수는 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/template` 옵션에 해당합니다.|  
 |`Timeout`|선택적 `Int32` 매개 변수입니다.<br /><br /> 작업 실행 파일이 얼마 후에 종료될 지를 밀리초 단위로 지정합니다. 기본값은 시간 제한이 없음을 나타내는 `Int.MaxValue`입니다.|  
 |`Title`|선택적 `String` 매개 변수입니다.<br /><br /> 어셈블리의 `Title` 필드에 대한 문자열을 지정합니다. 자세한 내용은 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/title` 옵션에 대한 설명서를 참조하세요.|  
@@ -77,7 +72,7 @@ AL 작업은 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]와 함께 배�
 |`Win32Icon`|선택적 `String` 매개 변수입니다.<br /><br /> .ico 파일을 어셈블리에 삽입합니다. .ico 파일을 사용하면 파일 탐색기에서 출력 파일을 원하는 모양으로 나타납니다. 이 매개 변수는 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/win32icon` 옵션에 해당합니다.|  
 |`Win32Resource`|선택적 `String` 매개 변수입니다.<br /><br /> Win32 리소스(.res 파일)를 출력 파일에 삽입합니다. 자세한 내용은 [Al.exe(어셈블리 링커)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01)의 `/win32res` 옵션에 대한 설명서를 참조하세요.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.  
   
 ## <a name="example"></a>예제  
@@ -103,6 +98,3 @@ AL 작업은 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]와 함께 배�
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)   
  [작업](../msbuild/msbuild-tasks.md)
-
-
-

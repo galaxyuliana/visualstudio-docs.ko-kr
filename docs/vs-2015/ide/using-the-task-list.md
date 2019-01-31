@@ -1,14 +1,9 @@
 ---
 title: 작업 목록 사용 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - TaskListWindow
 - VS.TaskList
@@ -20,13 +15,13 @@ ms.assetid: f46a75a8-47b3-4cb6-bb59-b72e3356a664
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: d5662aebeb0e7b8da36c52c0c9fd727c860a4221
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f912b17e235e92496fa8ffc573429b7708d9198d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49172031"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54801172"
 ---
 # <a name="using-the-task-list"></a>작업 목록 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,11 +43,11 @@ ms.locfileid: "49172031"
 -   [바로 가기](../ide/using-the-task-list.md#shortcuts)  
   
 ##  <a name="taskListWindow"></a> 작업 목록 창  
- **작업 목록** 이 열리면서 응용 프로그램 창의 아래쪽에 나타납니다.  
+ **작업 목록** 이 열리면서 애플리케이션 창의 아래쪽에 나타납니다.  
   
 #### <a name="to-open-the-task-list"></a>작업 목록을 열려면  
   
--   **보기** 메뉴에서 **작업 목록**(키보드: Ctrl+\\,T)을 선택합니다.  
+-   에 **뷰** 메뉴 선택 **작업 목록** (키보드: Ctrl+\\,T).  
   
      ![작업 목록 창](../ide/media/vs2015-task-list.png "vs2015_task_list")  
   
@@ -91,7 +86,7 @@ ms.locfileid: "49172031"
  `TODO` 는 미리 정의된 토큰이므로 이 주석은 목록에 `TODO` 작업으로 표시됩니다.  
   
 ###  <a name="customTokens"></a> 사용자 지정 토큰  
- 기본적으로 Visual Studio에는 HACK, TODO, UNDONE, NOTE 토큰이 포함됩니다. 이러한 토큰은 대/소문자를 구분하지 않습니다.  
+ 기본적으로 Visual Studio에는 다음 토큰이 포함됩니다. HACK, TODO, 실행 취소를 참고 합니다. 이러한 토큰은 대/소문자를 구분하지 않습니다.  
   
  또한 사용자가 직접 토큰을 만들 수도 있습니다.  
   
@@ -127,12 +122,9 @@ ms.locfileid: "49172031"
   
 #### <a name="to-create-a-shortcut"></a>바로 가기를 만들려면  
   
--   바로 가기를 저장할 코드에 포인터를 삽입합니다. **편집 &#124; 책갈피 &#124; 작업 목록 바로 가기 추가**를 선택하거나 키보드에서 Ctrl+K, Ctrl+H를 누릅니다.  
+-   바로 가기를 저장할 코드에 포인터를 삽입합니다. 선택할 **편집 &#124; 책갈피 &#124; 작업 목록 바로 가기 추가** 누르거나 (키보드: Ctrl+K, Ctrl+H).  
   
      코드에서 바로 가기를 탐색하려면 목록에서 바로 가기를 선택한 다음 바로 가기 메뉴에서 **다음 작업** 또는 **이전 작업** 을 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [옵션 대화 상자, 환경, 작업 목록](../ide/reference/task-list-environment-options-dialog-box.md)
-
-
-

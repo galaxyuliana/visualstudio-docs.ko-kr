@@ -1,27 +1,22 @@
 ---
 title: iOS를 사용하여 빌드할 도구 설치 및 구성 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: tgt-pltfrm-cross-plat
+ms.topic: conceptual
 dev_langs:
 - C++
 ms.assetid: d0c311c9-9eb9-42c5-ba07-25604362cd28
 caps.latest.revision: 13
 author: corob-msft
 ms.author: corob
-manager: ghogen
-ms.openlocfilehash: 6a5d5543ace2087db4ed5349e72fcaf53228d8ec
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c1eaa934c83676ee11854701f372b972f3045e66
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51787811"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792865"
 ---
 # <a name="install-and-configure-tools-to-build-using-ios"></a>Install and Configure Tools to Build using iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +25,7 @@ ms.locfileid: "51787811"
 플랫폼 간 모바일 개발용 Visual C++를 사용하여 iOS 코드를 편집 및 디버깅하고 iOS 시뮬레이터 또는 iOS 디바이스에 배포할 수 있지만 라이선스 제한으로 인해 Mac에서 코드를 빌드하고 원격으로 실행해야 합니다. Visual Studio를 사용하여 iOS 앱을 빌드 및 실행하려면 Mac에서 원격 에이전트 [vcremote](http://go.microsoft.com/fwlink/p/?LinkId=534988)를 설정 및 구성해야 합니다. 원격 에이전트는 Visual Studio의 빌드 요청을 처리하고 Mac에 연결된 iOS 디바이스 또는 Mac의 iOS 시뮬레이터에서 앱을 실행합니다.  
   
 > [!NOTE]
->  Mac이 아닌 클라우드에서 호스트되는 Mac 서비스를 사용하는 방법에 대한 자세한 내용은 [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/en-us/docs/build_ios_cloud/)를 참조하세요. 지침은 Visual Studio Tools for Apache Cordova를 사용한 빌드에 해당합니다. 플랫폼 간 모바일 개발용 Visual C++를 사용한 빌드 지침을 사용하려면 vs-mda-remote를 vcremote로 대체합니다.  
+>  Mac이 아닌 클라우드에서 호스트되는 Mac 서비스를 사용하는 방법에 대한 자세한 내용은 [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/docs/build_ios_cloud/)를 참조하세요. 지침은 Visual Studio Tools for Apache Cordova를 사용한 빌드에 해당합니다. 플랫폼 간 모바일 개발용 Visual C++를 사용한 빌드 지침을 사용하려면 vs-mda-remote를 vcremote로 대체합니다.  
   
  iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Mac에서 iOS 개발용 원격 에이전트를 신속하게 구성 및 업데이트하는 방법은 이 항목을 참조하세요.  
   
@@ -247,4 +242,3 @@ ms.locfileid: "51787811"
   
 ## <a name="see-also"></a>참고 항목  
  [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)
-

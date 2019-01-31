@@ -1,14 +1,9 @@
 ---
 title: '방법: 호스팅 프로세스 비활성화 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - hosting process, disabling
 - vshost.exe, disabling the hosting process
@@ -16,15 +11,15 @@ ms.assetid: 9157488d-737f-454b-8d8d-36f99de38bb0
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4251e5aac5042b610ed32f95a13ba5d6ffb9d4eb
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 0266e14b3a03e6d8225e7ec9283fe727a9502e53
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49848491"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54785883"
 ---
-# <a name="how-to-disable-the-hosting-process"></a>How to: Disable the Hosting Process
+# <a name="how-to-disable-the-hosting-process"></a>방법: 호스팅 프로세스 비활성화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 호스팅 프로세스를 사용하면 특정 API에 대한 호출에 영향이 있을 수 있습니다. 이 경우 올바른 결과를 반환하기 위해 호스팅 프로세스를 사용하지 않도록 설정해야 합니다.  
@@ -43,7 +38,7 @@ ms.locfileid: "49848491"
   
    일반적으로 호스팅 프로세스는 사용하지 않습니다.  
   
--   [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 응용 프로그램 디버깅을 시작하는 데 필요한 시간이 증가합니다.  
+-   [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 애플리케이션 디버깅을 시작하는 데 필요한 시간이 증가합니다.  
   
 -   디자인 타임 식 계산을 사용할 수 없습니다.  
   
@@ -52,7 +47,4 @@ ms.locfileid: "49848491"
 ## <a name="see-also"></a>참고 항목  
  [디버깅 및 호스팅 프로세스](../debugger/debugging-and-the-hosting-process.md)   
  [호스팅 프로세스(vshost.exe)](../ide/hosting-process-vshost-exe.md)   
- [응용 프로그램 개발 중 빌드](http://msdn.microsoft.com/en-us/c9497d62-3b7b-4449-88e8-cf27acc9efe6)
-
-
-
+ [애플리케이션 개발 중 빌드](http://msdn.microsoft.com/c9497d62-3b7b-4449-88e8-cf27acc9efe6)

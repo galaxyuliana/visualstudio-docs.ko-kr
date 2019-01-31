@@ -20,15 +20,15 @@ helpviewer_keywords:
 ms.assetid: 1854bca7-d7eb-4502-89bf-b1ee64cb50ef
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ce84105fa1a3d7bf5c6f949421b306b5147368a5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 18485d94aaedcb1f41c0ed747dc6af0be7f7e276
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53892357"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952875"
 ---
 # <a name="report-hook-functions"></a>보고서 후크 함수
 [_CrtSetReportHook](/cpp/c-runtime-library/reference/crtsetreporthook)를 사용하여 설치한 보고서 후크 함수는 [_CrtDbgReport](/cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw)가 디버그 보고서를 생성할 때마다 호출됩니다. 보고서 후크 함수를 사용하여 특정한 할당 형식에 맞게 보고서를 필터링할 수 있습니다. 보고서 후크 함수에는 다음과 같이 프로토타입이 있어야 합니다.  

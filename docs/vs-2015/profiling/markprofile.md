@@ -1,27 +1,22 @@
 ---
 title: MarkProfile | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - MarkProfile
 ms.assetid: 54dac8c8-c8ee-4023-af27-b25466e3a6ec
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 79fcc7fe8789916cce24919551e4130f78653abf
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 105e81ed15a540a0c008eb94cb4af49caa099879
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51722015"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54803032"
 ---
 # <a name="markprofile"></a>MarkProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +47,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );
 |MARK_TEXTTOOLONG|문자열이 최대값인 256자를 초과합니다. 주석 문자열이 잘리고 표시와 주석이 기록됩니다.|  
 |MARK_OK|MARK_OK는 성공을 나타내기 위해 반환됩니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  MarkProfile 함수를 포함하는 스레드가 프로파일링되면 코드가 실행될 때마다 .vsp 파일에 표시 값이 삽입됩니다. MarkProfile을 여러 번 호출할 수 있습니다.  
   
  프로필 표시는 범위 내에서 전역입니다. 예를 들어 한 스레드에 삽입된 프로필 표시를 사용하여 .vsp 파일의 스레드에 있는 데이터 세그먼트의 시작이나 끝을 표시할 수 있습니다.  
@@ -107,6 +102,3 @@ void ExerciseMarkProfile()
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 프로파일러 API 참조(네이티브)](../profiling/visual-studio-profiler-api-reference-native.md)
-
-
-

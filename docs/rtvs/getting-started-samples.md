@@ -6,15 +6,15 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 80553e54489b5c887facca57f3491fd81fd8d24b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d4ebd1c8363c9801a9ac16a3b10a702de5954a14
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53837461"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023264"
 ---
 # <a name="r-tools-for-visual-studio-sample-projects"></a>Visual Studio용 R 도구 샘플 프로젝트
 
@@ -48,7 +48,7 @@ ms.locfileid: "53837461"
 
     ![벤치마크 플롯 예제](media/samples-mro-benchmark-plot.png)
 
-- `Bike_Rental_Estimation_with_MRS`에서는 Microsoft ML Server를 사용하여 기록 데이터 집합을 기반으로 자전거 대여에 대한 수요 예측 모델을 만듭니다. 
+- `Bike_Rental_Estimation_with_MRS`에서는 Microsoft ML Server를 사용하여 기록 데이터 집합을 기반으로 자전거 대여에 대한 수요 예측 모델을 만듭니다.
 
 - `Data_Exploration`에는 다음 세 개의 스크립트가 포함됩니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "53837461"
       ![ggplot2.R 사용 예제 출력](media/samples-3d-interactive.png)
 
 - `Datasets`에는 다른 샘플에서 사용되는 세 개의 *.csv* 파일이 포함됩니다.
-- `Flight_Delays_Prediction_with_R` 및 `Flight_Delays_Prediction_with_MRS`는 R, 기계 학습 및 기록 정시 성능/날씨 데이터를 사용하여 항공 지연을 예측하는 방법을 보여 줍니다. 
+- `Flight_Delays_Prediction_with_R` 및 `Flight_Delays_Prediction_with_MRS`는 R, 기계 학습 및 기록 정시 성능/날씨 데이터를 사용하여 항공 지연을 예측하는 방법을 보여 줍니다.
 - `Machine learning`에는 항공 지연, 주택 가격 및 자전거 임대를 예측하기 위한 세 가지 학습용 샘플이 포함되어 있습니다. 세 샘플은 모두, 실제 문제에 대한 R과 Microsoft ML Server의 애플리케이션을 보여 줍니다. 이러한 항목은 여러 가지 인기 있는 기계 학습 모델을 사용하고 [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/) 작업 영역을 통해 Azure 웹 서비스로 배포하는 방법을 보여 줍니다.
 
 - `R_MRO_MRS_Comparison`은 R, Microsoft R Open 및 Microsoft ML Server의 명령, 구문, 생성 및 성능에 대한 유사점과 차이점을 보여 주는 6개 부분 비교입니다.

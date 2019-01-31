@@ -1,25 +1,20 @@
 ---
 title: Visual Studio Tools for Unity 사용 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-unity-tools
+ms.topic: conceptual
 ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
 caps.latest.revision: 7
 author: conceptdev
 ms.author: crdun
-manager: ghogen
-ms.openlocfilehash: a7dbe0e13691e5ac0dbf67945728bada3ef4e57f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 90926994f6cf67e36260dc85e29accaa88e519ca
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51771309"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54777383"
 ---
 # <a name="using-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -193,4 +188,3 @@ ms.locfileid: "51771309"
      PDB 파일은 DLL의 디버깅 기호를 포함하며 DLL 코드를 소스 코드 형태로 매핑하므로 디버깅에 필요합니다. Visual Studio Tools for Unity에서는 DLL 및 PDB의 정보를 사용하여 Unity 스크립팅 엔진에서 사용되는 디버그 기호 형식인 DLL.MDB 파일을 만듭니다.  
   
 4. 코드를 디버그합니다. 이제 Unity 프로젝트의 소스 코드와 함께 DLL 소스 코드를 디버그할 수 있으며 중단점 및 단계별 코드 실행 등 익숙한 디버깅 기능을 모두 사용할 수 있습니다.
-

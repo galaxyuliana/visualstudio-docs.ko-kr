@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 34c579db-d2f2-4b66-b9c8-47207f33d950
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c9c54b539945093e55aa770f07acc54b589f0c70
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d1fa91423a5c0ddf6b276095b53ae4461d7057c4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53950094"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55005529"
 ---
 # <a name="ltpublisheridentitygt-element-clickonce-deployment"></a>&lt;publisherIdentity&gt; 요소 (ClickOnce 배포)
 이 배포 매니페스트에 서명한 게시자에 대한 정보를 포함합니다.  

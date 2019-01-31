@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 01875b05-cc7b-4add-afba-f2b776f86974
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c90143ae45fba3299cf3eccbcd412d768fcc3738
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a4876cee807f38d141aa7aa3cb4166c54c3b91cb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828409"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017047"
 ---
 # <a name="walkthrough-debugging-rendering-errors-due-to-shading"></a>연습: 음영으로 인한 렌더링 오류 디버그
 이 연습에 사용 하는 방법을 보여 줍니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 그래픽 진단 개체는 색상이 잘못 지정 셰이더 버그로 인해를 조사 합니다.  

@@ -1,14 +1,9 @@
 ---
 title: UsingTask 요소(MSBuild) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#UsingTask
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: 20247902-9446-4a1f-8253-5c7a17e4fe43
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: e412fce1169b0e68c6b2f924b95c5433728be3a7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: be3b993034ef9ab8d39b254cf3f4be1fdebbb106
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49871942"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769128"
 ---
 # <a name="usingtask-element-msbuild"></a>UsingTask 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +70,7 @@ ms.locfileid: "49871942"
 |-------------|-----------------|  
 |[프로젝트](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일의 필수 루트 요소입니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  환경 변수, 명령줄 속성 및 프로젝트 수준 속성은 `UsingTask` 요소가 명시적으로 또는 가져온 프로젝트 파일을 통해 프로젝트 파일 안에 표시되는 한 이 요소 내에서 위치에 상관없이 참조할 수 있습니다. 자세한 내용은 [작업](../msbuild/msbuild-tasks.md)을 참조하세요.  
   
 > [!NOTE]
@@ -111,6 +106,3 @@ ms.locfileid: "49871942"
  [작업](../msbuild/msbuild-tasks.md)   
  [작업 참조](../msbuild/msbuild-task-reference.md)   
  [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

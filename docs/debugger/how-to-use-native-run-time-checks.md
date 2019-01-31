@@ -34,15 +34,15 @@ helpviewer_keywords:
 ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: ae7b736a3273a9b20af0ee0be035a3059c473d67
-ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
+ms.openlocfilehash: 5f09a7e796dbb1bffd5917eae75f6e5389ec74a6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54269646"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54965174"
 ---
 # <a name="how-to-use-native-run-time-checks"></a>방법: 네이티브 런타임 검사 사용
 Visual C++에서는 네이티브 [runtime_checks](/cpp/preprocessor/runtime-checks) 를 사용하여 다음과 같은 일반적인 런타임 오류를 catch할 수 있습니다.  

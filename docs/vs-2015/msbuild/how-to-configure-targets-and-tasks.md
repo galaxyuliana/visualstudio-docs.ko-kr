@@ -1,31 +1,26 @@
 ---
 title: '방법: 대상 및 작업 구성 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ce147a9a393b30111f3f76f605e327b70206ad7f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 036705b8184b0c2465b92d616bec399c769fc496
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49264061"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758228"
 ---
 # <a name="how-to-configure-targets-and-tasks"></a>방법: 대상 및 작업 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-선택된 MSBuild 작업은 개발 컴퓨터의 환경에 관계 없이 대상으로 지정된 환경에서 실행되도록 설정할 수 있습니다. 예를 들어 64비트 컴퓨터를 사용하여 32비트 아키텍처를 대상으로 하는 응용 프로그램을 빌드할 경우 선택한 작업은 32비트 프로세스에서 실행됩니다.  
+선택된 MSBuild 작업은 개발 컴퓨터의 환경에 관계 없이 대상으로 지정된 환경에서 실행되도록 설정할 수 있습니다. 예를 들어 64비트 컴퓨터를 사용하여 32비트 아키텍처를 대상으로 하는 애플리케이션을 빌드할 경우 선택한 작업은 32비트 프로세스에서 실행됩니다.  
   
 > [!NOTE]
 >  빌드 작업이 Visual C# 또는 Visual Basic 같은 .NET 언어로 작성되고 네이티브 리소스 또는 도구를 사용하지 않는 경우 조정 없이도 모든 대상 컨텍스트에서 실행됩니다.  
@@ -118,6 +113,3 @@ ms.locfileid: "49264061"
   
 ## <a name="see-also"></a>참고 항목  
  [대상 및 작업 구성](../msbuild/configuring-targets-and-tasks.md)
-
-
-

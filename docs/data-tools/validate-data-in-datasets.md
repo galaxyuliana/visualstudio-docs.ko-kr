@@ -18,16 +18,16 @@ helpviewer_keywords:
 ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: e485223f73a74a97dd388a9c78dd4cf543a92350
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5a8d533b647861b8185a65c926f1783744cded74
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53936193"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55004398"
 ---
 # <a name="validate-data-in-datasets"></a>데이터 세트의 데이터 유효성 검사
 데이터 유효성 검사는 데이터 집합의 스키마 내에서 제약 조건에 따르는 데이터 개체에 입력할 값 확인 프로세스. 유효성 검사 프로세스는 또한 이러한 값은 다음과 같습니다 응용 프로그램에 대해 설정 된 규칙을 확인 합니다. 기본 데이터베이스에 업데이트를 보내기 전에 데이터의 유효성을 검사 하는 것이 좋습니다. 이렇게 하면 오류 뿐 아니라 잠재적인 응용 프로그램와 데이터베이스 간의 왕복 수가 줄어듭니다.

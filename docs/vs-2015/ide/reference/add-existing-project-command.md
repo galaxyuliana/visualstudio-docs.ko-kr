@@ -1,14 +1,9 @@
 ---
 title: 기존 프로젝트 추가 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - file.addexistingproject
 helpviewer_keywords:
@@ -18,13 +13,13 @@ ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: c881f32594ee6327dfba9792fa83bd2d092efcf9
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 7523db6598a32c76944c22bfdabe56ee288c6b43
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49267646"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54771084"
 ---
 # <a name="add-existing-project-command"></a>기존 프로젝트 추가 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ File.AddExistingProject filename
   
  파일 이름을 지정하지 않은 경우 명령을 실행하면 사용자가 프로젝트를 선택할 수 있는 파일 대화 상자가 열립니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  입력 시 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
 ## <a name="example"></a>예제  
@@ -61,6 +56,3 @@ File.AddExistingProject filename
  [명령 창](../../ide/reference/command-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

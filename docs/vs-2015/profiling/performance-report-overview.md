@@ -1,14 +1,9 @@
 ---
 title: 성능 보고서 개요 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - profiling tools, about performance rerports
 - performance, reports
@@ -17,18 +12,18 @@ ms.assetid: 7324c24c-fd09-479b-b2ad-e0c3b613e040
 caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 6b9a729698841d1bbbcd9b49ffe0d3dd9bddccc8
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: ff52925dea61916b9fa27af8cfacc044588cdb75
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51790522"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54785624"
 ---
 # <a name="performance-report-overview"></a>성능 보고서 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio Team System Development Edition IDE(통합 개발 환경)의 **성능 보고서** 창에서 성능 세션의 프로파일링 데이터를 볼 수 있습니다. 프로파일링 데이터는 .vsps 및 .vsp 파일에 저장됩니다. 보고서 뷰 창에서는 응용 프로그램 성능 문제를 확인하고 분석할 수 있습니다.  
+Visual Studio Team System Development Edition IDE(통합 개발 환경)의 **성능 보고서** 창에서 성능 세션의 프로파일링 데이터를 볼 수 있습니다. 프로파일링 데이터는 .vsps 및 .vsp 파일에 저장됩니다. 보고서 뷰 창에서는 애플리케이션 성능 문제를 확인하고 분석할 수 있습니다.  
   
 > [!CAUTION]
 >  프로파일링 데이터 파일에는 컴퓨터 이름, 운영 체제 버전, 파일 경로, 메모리 정보, 기타 컴퓨터 설정 정보 등의 중요한 정보가 포함됩니다. 따라서 기본 .vsp 형식을 사용할 때나 .csv 또는 .xml 파일로 내보낼 때 모두 데이터 배포를 엄격하게 제어해야 합니다.  
@@ -57,7 +52,7 @@ Visual Studio Team System Development Edition IDE(통합 개발 환경)의 **성
   호출한 목록 또는 호출 수신자 목록에서 함수를 두 번 클릭하여 다른 함수를 선택할 수 있습니다. 자세한 내용은 [호출자/호출 수신자 뷰](../profiling/caller-callee-view.md)를 참조하세요.  
   
 ### <a name="call-tree-view"></a>호출 트리 뷰  
- 호출 트리 뷰에는 프로파일링 된 응용 프로그램에서 이동한 함수 실행 경로가 표시됩니다. 트리의 루트는 응용 프로그램이나 구성 요소에 대한 진입점입니다. 각 함수 노드에는 호출한 모든 함수 및 이러한 함수 호출에 대한 성능 데이터가 나열됩니다.  
+ 호출 트리 뷰에는 프로파일링 된 애플리케이션에서 이동한 함수 실행 경로가 표시됩니다. 트리의 루트는 애플리케이션이나 구성 요소에 대한 진입점입니다. 각 함수 노드에는 호출한 모든 함수 및 이러한 함수 호출에 대한 성능 데이터가 나열됩니다.  
   
  호출 트리 뷰를 확장하여 시간을 가장 많이 사용했거나 가장 자주 샘플링된 함수의 실행 경로를 강조 표시할 수도 있습니다. 가장 많이 사용된 경로를 표시하려면 함수를 마우스 오른쪽 단추로 클릭하고 **실행 부하 과다 경로 확장**을 클릭합니다. 자세한 내용은 [호출 트리 뷰](../profiling/call-tree-view.md)를 참조하세요.  
   
@@ -77,7 +72,7 @@ Visual Studio Team System Development Edition IDE(통합 개발 환경)의 **성
  명령 포인터 뷰를 사용하면 샘플링 프로파일링 중 실행된 특정 명령을 확인할 수 있습니다. 자세한 내용은 [IP(명령 포인터) 뷰](../profiling/instruction-pointers-ips-view.md)를 참조하세요.  
   
 ### <a name="allocation-view"></a>할당 뷰  
- **성능 세션** 속성 대화 상자의 **일반** 의 페이지에서 **.NET 개체 할당 정보 수집**을 선택한 경우 할당 뷰를 사용할 수 있습니다. [성능 세션 개요](../profiling/performance-session-overview.md)를 참조하세요. 할당 뷰는에는 응용 프로그램 또는 구성 요소가 할당한 .NET 개체가 나열됩니다. 개체 행을 확장하면 호출 트리가 표시됩니다. 호출 트리에는 개체가 생성되도록 한 실행 경로가 표시됩니다. 또한 호출 트리의 각 함수에 대한 포괄/전용 할당 횟수에 대한 정보도 표시됩니다. 할당 뷰를 확장하여 가장 많은 수의 개체를 할당한 함수의 실행 경로를 강조 표시할 수도 있습니다. 가장 많이 사용된 경로를 표시하려면 함수를 마우스 오른쪽 단추로 클릭하고 **실행 부하 과다 경로 확장**을 클릭합니다. 자세한 내용은 [.NET 메모리 할당 및 수명 데이터 수집](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md) 및 [할당 뷰](../profiling/dotnet-memory-allocations-view.md)를 참조하세요.  
+ **성능 세션** 속성 대화 상자의 **일반** 의 페이지에서 **.NET 개체 할당 정보 수집**을 선택한 경우 할당 뷰를 사용할 수 있습니다. [성능 세션 개요](../profiling/performance-session-overview.md)를 참조하세요. 할당 뷰는에는 애플리케이션 또는 구성 요소가 할당한 .NET 개체가 나열됩니다. 개체 행을 확장하면 호출 트리가 표시됩니다. 호출 트리에는 개체가 생성되도록 한 실행 경로가 표시됩니다. 또한 호출 트리의 각 함수에 대한 포괄/전용 할당 횟수에 대한 정보도 표시됩니다. 할당 뷰를 확장하여 가장 많은 수의 개체를 할당한 함수의 실행 경로를 강조 표시할 수도 있습니다. 가장 많이 사용된 경로를 표시하려면 함수를 마우스 오른쪽 단추로 클릭하고 **실행 부하 과다 경로 확장**을 클릭합니다. 자세한 내용은 [.NET 메모리 할당 및 수명 데이터 수집](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md) 및 [할당 뷰](../profiling/dotnet-memory-allocations-view.md)를 참조하세요.  
   
 ### <a name="objects-lifetime-view"></a>개체 수명 뷰  
  **성능 세션** 속성 대화 상자의 **일반** 페이지에서 **.NET 개체 할당 정보 수집** 및 **추가적으로 .NET 개체 수명 정보 수집**을 선택한 경우 개체 수명 뷰를 사용할 수 있습니다.  
@@ -104,6 +99,3 @@ Visual Studio Team System Development Edition IDE(통합 개발 환경)의 **성
 ## <a name="see-also"></a>참고 항목  
  [성능 도구 데이터 분석](../profiling/analyzing-performance-tools-data.md)   
  [성능 보고서 뷰](../profiling/performance-report-views.md)
-
-
-

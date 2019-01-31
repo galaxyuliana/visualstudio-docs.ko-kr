@@ -1,26 +1,21 @@
 ---
 title: 코딩된 UI 테스트 분석 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
 - coded UI tests
 ms.assetid: 9c5d82fc-3fb7-4bb1-a9ac-ac1fa3a4b500
 caps.latest.revision: 25
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 7595a967a6dae091da6c5a7613a27c602cc1381e
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 35222fc9e320bafbaafe1bc19e174649142252c1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49202750"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54781179"
 ---
 # <a name="anatomy-of-a-coded-ui-test"></a>코딩된 UI 테스트 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -134,7 +129,7 @@ public void AddItems()
   
  이 메서드에서 `UIItemWindow` 및 `UIItemEdit`는 둘 다 `UIMap.cs` 파일의 뒷부분에서 정의되는 `UICalculatorWindow` 클래스를 사용하여 액세스할 수 있는 속성입니다.  
   
- 다음은 `AddItemsParams` 개체의 속성을 사용하여 키보드에서 계산기 응용 프로그램으로 텍스트를 보내는 줄입니다.  
+ 다음은 `AddItemsParams` 개체의 속성을 사용하여 키보드에서 계산기 애플리케이션으로 텍스트를 보내는 줄입니다.  
   
  `VerifyTotal()` 메서드는 구조가 매우 유사하며 다음과 같은 어설션 코드를 포함합니다.  
   
@@ -145,7 +140,7 @@ Assert.AreEqual(
     uIItemEdit.Text);  
 ```  
   
- Windows 계산기 응용 프로그램의 개발자가 공개적으로 사용할 수 있는 컨트롤 이름을 제공하지 않으므로 텍스트 상자 이름은 알 수 없음으로 나열됩니다. 실제 값이 예상 값과 같지 않은 경우 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName> 메서드가 실패하여 테스트에 실패합니다. 또한 예상 값은 소수점 뒤에 공백을 포함합니다. 이 특정 테스트의 기능을 수정해야 하는 경우 해당 소수점과 공백을 허용해야 합니다.  
+ Windows 계산기 애플리케이션의 개발자가 공개적으로 사용할 수 있는 컨트롤 이름을 제공하지 않으므로 텍스트 상자 이름은 알 수 없음으로 나열됩니다. 실제 값이 예상 값과 같지 않은 경우 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName> 메서드가 실패하여 테스트에 실패합니다. 또한 예상 값은 소수점 뒤에 공백을 포함합니다. 이 특정 테스트의 기능을 수정해야 하는 경우 해당 소수점과 공백을 허용해야 합니다.  
   
 #####  <a name="UIMapProperties"></a> UIMap 속성  
  각 속성에 대한 코드도 클래스 전체에서 매우 표준적입니다. `AddItemsParams` 속성에 대한 다음 코드는 `AddItems()` 메서드에서 사용됩니다.  
@@ -286,8 +281,5 @@ public void MyTestCleanup()
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
  [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [최선의 코딩된 UI 테스트 방법](../test/best-practices-for-coded-ui-tests.md)   
- [여러 UI 맵이 포함된 대형 응용 프로그램 테스트](../test/testing-a-large-application-with-multiple-ui-maps.md)   
+ [여러 UI 맵이 포함된 대형 애플리케이션 테스트](../test/testing-a-large-application-with-multiple-ui-maps.md)   
  [코딩된 UI 테스트 및 작업 기록에 지원되는 구성 및 플랫폼](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-
-
-

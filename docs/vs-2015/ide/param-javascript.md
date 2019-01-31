@@ -1,14 +1,9 @@
 ---
 title: '&lt;param&gt; (JavaScript) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - <param> JavaScript XML tag
 - param JavaScript XML tag
@@ -16,13 +11,13 @@ ms.assetid: 2c4e0167-c1dd-4e54-83f1-c437856bddc1
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: b1178fc6ff2cb5b4664930eaa70fd3de5ebed0f5
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: a8477de8bf84950d778d4ce843522be35b2d7387
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49949073"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54772383"
 ---
 # <a name="ltparamgt-javascript"></a>&lt;param&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +39,7 @@ ms.locfileid: "49949073"
   
 #### <a name="parameters"></a>매개 변수  
  `name`  
- 필수. 매개 변수의 이름입니다.  
+ 필수 요소. 매개 변수의 이름입니다.  
   
  `type`  
  선택 사항입니다. 매개 변수의 데이터 형식입니다. 형식에는 다음 중 하나일 수 있습니다.  
@@ -91,7 +86,7 @@ ms.locfileid: "49949073"
   `description`  
   선택 사항입니다. 매개 변수의 설명입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  유일한 필수 특성은 `name`합니다. 다른 모든 특성은 선택 사항입니다.  
   
  요소와 같은 함수에 주석을 추가 하는 데 [ \<요약 >](../ide/summary-javascript.md)를 [ \<param >](../ide/param-javascript.md), 및 [ \<반환 >](../ide/returns-javascript.md)를 배치 해야 합니다 모든 문 앞 함수 본문입니다.  
@@ -128,6 +123,3 @@ function calculate(a) {
   
 ## <a name="see-also"></a>참고 항목  
  [XML 문서 주석](../ide/xml-documentation-comments-javascript.md)
-
-
-

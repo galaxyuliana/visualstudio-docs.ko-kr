@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: c647c502-a9f0-48e0-a430-976744a5fa51
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f2ee235f5daf0c18bd30fcf804c0672427dc9624
-ms.sourcegitcommit: 01185dadd2fa1f9a040d2a366869f1a5e1d18e0f
+ms.openlocfilehash: 4c246aec092cbaea8d5caf22cb8f204d32533ddb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54227345"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952823"
 ---
 # <a name="how-to-use-the-gpu-threads-window-c"></a>방법: GPU 스레드 창 (c + +)를 사용 합니다.
 GPU 스레드 창에서 디버깅 중인 응용 프로그램의 GPU에서 실행되는 스레드를 검사하고 관련 작업을 수행할 수 있습니다. GPU에서 실행 되는 응용 프로그램에 대 한 자세한 내용은 참조 하세요. [c + + AMP 개요](/cpp/parallel/amp/cpp-amp-overview)합니다.  

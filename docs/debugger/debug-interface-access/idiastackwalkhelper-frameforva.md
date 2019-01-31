@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: f35fc61b-f8dd-473a-b583-82c304059422
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 676fd5fb344b99b3b7e58a7460059368cf216f22
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7756e73f7137ec18d962ff8199a3f5e339c76144
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935725"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926246"
 ---
 # <a name="idiastackwalkhelperframeforva"></a>IDiaStackWalkHelper::frameForVA
 지정된 된 가상 주소를 포함 하는 스택 프레임을 검색 합니다.  

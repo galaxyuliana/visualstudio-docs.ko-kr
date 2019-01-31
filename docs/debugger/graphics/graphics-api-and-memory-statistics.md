@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: 27d2f303-e3ed-4219-9009-345a0d849506
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 36feec786ba0bba71723073fb990054cc0206847
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e0c1ed6e2fdd461b0fdf502c01089aeafd9a87cb
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53916681"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54925632"
 ---
 # <a name="graphics-api-and-memory-statistics"></a>그래픽 API 및 메모리 통계
 <!-- VERSIONLESS --> Visual Studio 2017 이상 그래픽 API 통계 및 메모리 통계 도구를 지원 합니다.  이러한 두 도구를 통해 Direct3D API 사용 뿐만 아니라 다양 한 리소스의 GPU 메모리 사용량에서 다양 한 비트 정보를 볼 수 있습니다.

@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: c85d0968-9f22-4d69-87f4-acca2ae777b8
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: ecc9eb2dc437847786022526265bfcc2942ace88
-ms.sourcegitcommit: 73861cd0ea92e50a3be1ad2a0ff0a7b07b057a1c
+ms.openlocfilehash: 56ae83f41a53ad35c1bec0fd4e0d256f0a8575d7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54153656"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926256"
 ---
 # <a name="how-to-set-a-thread-name-in-native-code"></a>방법: 네이티브 코드에 스레드 이름 설정
 스레드 명명 기능은 Visual Studio의 모든 버전에서 사용할 수 있습니다. 스레드 명명 하는 것은 관심 있는 스레드를 식별 하는 데 유용 합니다 **스레드** 실행 중인 프로세스를 디버깅 하는 경우 창입니다. 스레드 recognizably 라는 것도 유용할 수 있습니다 사후 다양 한 도구를 사용 하 여 캡처한 성능 분석 및 크래시 덤프 검사를 통해 디버깅을 수행 하는 경우.

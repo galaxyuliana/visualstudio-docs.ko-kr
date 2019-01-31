@@ -1,24 +1,19 @@
 ---
 title: Microsoft Fakes의 코드 생성, 컴파일 및 명명 규칙 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 20221de4-2a9e-4787-b99a-b5855bb90872
 caps.latest.revision: 18
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 1de284c8d4fdfe5cb84a474641b880590c2094aa
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 70392f50ecd13539012672bf71900c30845af734
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49895329"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54783373"
 ---
 # <a name="code-generation-compilation-and-naming-conventions-in-microsoft-fakes"></a>Microsoft Fakes의 코드 생성, 컴파일 및 명명 규칙
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,7 +80,7 @@ ms.locfileid: "49895329"
   
      `el!`은 "hello"와 일치하지 않습니다.  
   
-     `hello!`는 "hello"와 일치합니다.  
+     `hello!`은 "hello"와 일치합니다.  
   
 -   필터의 끝에 `*`를 추가하여 문자열의 접두사가 일치하도록 합니다.  
   
@@ -147,7 +142,7 @@ ms.locfileid: "49895329"
 [assembly: InternalsVisibleTo("FileSystem.Fakes, PublicKey=0024000004800000940000000602000000240000525341310004000001000100e92decb949446f688ab9f6973436c535bf50acd1fd580495aae3f875aa4e4f663ca77908c63b7f0996977cb98fcfdb35e05aa2c842002703cad835473caac5ef14107e3a7fae01120a96558785f48319f66daabc862872b2c53f5ac11fa335c0165e202b4c011334c7bc8f4c4e570cf255190f4e3e2cbc9137ca57cb687947bc")]  
 ```  
   
- 대체 키를 `KeyFile` 특성 값으로 **.fakes** 파일의 `Fakes`\\`Compilation` 요소에 포함하는 **.snk** 파일의 전체 경로를 지정하면 shim된 어셈블리에 대해 만든 키와 같은 다른 공용 키를 Fakes 어셈블리에 지정할 수 있습니다. 예를 들어:  
+ 대체 키를 `KeyFile` 특성 값으로 **.fakes** 파일의 `Fakes`\\`Compilation` 요소에 포함하는 **.snk** 파일의 전체 경로를 지정하면 shim된 어셈블리에 대해 만든 키와 같은 다른 공용 키를 Fakes 어셈블리에 지정할 수 있습니다. 예:  
   
 ```xml  
 <-- FileSystem.Fakes.fakes -->  
@@ -290,10 +285,7 @@ attribute of the Assembly element in the .fakes:
 ##  <a name="BKMK_External_resources"></a> 외부 리소스  
   
 ###  <a name="BKMK_Guidance"></a> 지침  
- [Visual Studio 2012를 사용한 연속 배달 테스트 - 2장: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## <a name="see-also"></a>참고 항목  
  [Microsoft Fakes를 사용하여 테스트 중인 코드 격리](../test/isolating-code-under-test-with-microsoft-fakes.md)
-
-
-

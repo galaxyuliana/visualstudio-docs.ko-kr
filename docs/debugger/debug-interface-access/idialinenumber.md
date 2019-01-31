@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 1071f7d0-1f8c-4384-933f-c49c7eb930bd
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a5cc240b6818e3d020b018546f801a3ca890a287
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6329819456f90e1ee6ae3fefebd5a0acc3dbd642
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988665"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54982733"
 ---
 # <a name="idialinenumber"></a>IDiaLineNumber
 소스 파일 줄 번호를 이미지 문자의 바이트 블록을 매핑하는 프로세스를 설명 하는 액세스 정보입니다.  
@@ -135,7 +135,7 @@ void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

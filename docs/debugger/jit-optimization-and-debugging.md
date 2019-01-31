@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 19bfabf3-1a2e-49dc-8819-a813982e86fd
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 917c9bab910b8f3153af46dc9d1d1a64ec6e529d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8699c468a3bf5f9c72131add984055f08f23c7c3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841267"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959293"
 ---
 # <a name="jit-optimization-and-debugging"></a>JIT 최적화 및 디버깅
 **최적화는.NET의 작동 방식:** 코드를 디버그 하려는 경우 쉽습니다 경우 코드는 **되지** 최적화 합니다. 코드를 최적화 하는 경우 컴파일러 및 런타임 코드를 변경 합니다 내보낸 CPU를 더 빠르게 실행 하지만 원래 소스 코드에 덜 직접적인 매핑이 때문입니다. 즉, 디버거를 자주 코드 단계별 실행 및 로컬 변수의 값을 알려 수 없는 중단점 예상한 대로 작동 하지 않을 수 있습니다.

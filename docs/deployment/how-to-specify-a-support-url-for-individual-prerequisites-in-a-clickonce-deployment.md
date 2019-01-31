@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 590742c3-a286-4160-aa75-7a441bb2207b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9d8b510a07ff60420cc81aed073e7f42445e924d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0abf694bcfb0adf13e3da4fb92bcdc9c180a68fe
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53825518"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023147"
 ---
 # <a name="how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment"></a>방법: ClickOnce 배포 시 개별 필수 구성 요소에 대한 지원 URL 지정
 A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 필수 구성 요소에 대 한 클라이언트 컴퓨터에서 사용할 수 있어야 하는 다양 한 테스트 수를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 실행 합니다. 이러한 종속성의 필수 최소 버전을 포함 합니다 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], 운영 체제와 전역 어셈블리 캐시 (GAC)에 미리 설치 해야 하는 모든 어셈블리의 버전입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]그러나 없습니다 스스로 설치 필수 구성이 요소 중 하나; 필수 구성 요소가 없는 경우 단순히 설치를 중지 하 고 설치에 실패 한 이유를 설명 하는 대화 상자를 표시 합니다.  

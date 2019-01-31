@@ -1,27 +1,22 @@
 ---
 title: 플랫폼 간 모바일 개발용 Visual C++ | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-mobile
+ms.topic: conceptual
 dev_langs:
 - C++
 ms.assetid: 0bb872d6-981b-4c96-9143-fcec5336bf0d
 caps.latest.revision: 12
 author: corob-msft
 ms.author: corob
-manager: ghogen
-ms.openlocfilehash: 1e0dfe11fc35ed452010592548e4bd2cba63e14b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c2ff6555be6f8189ff085e203890891f5345d3c4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51781116"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54778305"
 ---
 # <a name="visual-c-for-cross-platform-mobile-development"></a>플랫폼 간 모바일 개발용 Visual C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,19 +38,19 @@ ms.locfileid: "51781116"
  플랫폼 간 모바일 개발용 Visual C++는 Visual Studio 2015와 함께 제공되는 설치 가능한 옵션입니다. 필수 조건과 설치 지침은 [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. iOS용 코드를 빌드하려면 Mac 컴퓨터와 Apple iOS 개발자 계정도 필요합니다. 자세한 내용은 [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)을 참조하세요.  
   
 ## <a name="come-up-to-speed"></a>속도 개선  
- Android 또는 iOS 개발에서 전환하는 경우 시작 방법에 대한 훌륭한 자료가 있습니다. Visual Studio는 표현 능력과 기능을 갖춘 개발 환경입니다. 사용 방법을 알아보려면 [Android 개발자를 위한 시작](https://msdn.microsoft.com/library/windows/apps/dn275875.aspx) 또는 [iOS 개발자를 위한 시작](https://msdn.microsoft.com/library/windows/apps/xaml/jj657966.aspx)을 참조하세요. 이 항목에서는 Windows 및 Windows Phone용 플랫폼 간 앱을 개발하는 데 필요한 개념과 Visual Studio를 안내합니다. iOS 및 Android용 첫 플랫폼 간 앱 작성을 시작하려면 [Build an OpenGL ES Application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md)를 참조하세요.  
+ Android 또는 iOS 개발에서 전환하는 경우 시작 방법에 대한 훌륭한 자료가 있습니다. Visual Studio는 표현 능력과 기능을 갖춘 개발 환경입니다. 사용 방법을 알아보려면 [Android 개발자를 위한 시작](https://msdn.microsoft.com/library/windows/apps/dn275875.aspx) 또는 [iOS 개발자를 위한 시작](https://msdn.microsoft.com/library/windows/apps/xaml/jj657966.aspx)을 참조하세요. 이 항목에서는 Windows 및 Windows Phone용 플랫폼 간 앱을 개발하는 데 필요한 개념과 Visual Studio를 안내합니다. iOS 및 Android용 첫 플랫폼 간 앱 작성을 시작하려면 [Android 및 iOS에서 OpenGL ES 애플리케이션 빌드](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md)를 참조하세요.  
   
  플랫폼 간 모바일 개발용 Visual C++에는 앱에서 시작하는 데 도움이 되는 여러 템플릿이 포함되어 있습니다.  
   
--   OpenGLES 2 응용 프로그램(Android, iOS, Windows Universal)  
+-   OpenGLES 2 애플리케이션(Android, iOS, Windows Universal)  
   
      Android Native Activity 앱, iOS 앱 및 유니버설 Windows 앱을 빌드하기 위한 프로젝트 집합이 포함된 솔루션을 공유 C++ 코드 라이브러리와 함께 만듭니다. 이러한 앱은 공통 OpenGL ES C++ 코드로 만들어진 플랫폼별 라이브러리를 사용하여 각 앱에 동일한 회전 큐브를 그립니다. 이 템플릿을 사용하려면 Visual Studio를 설치할 때 유니버설 Windows 앱 개발 도구 옵션을 포함해야 합니다.  
   
--   Native-Activity 응용 프로그램(Android)  
+-   Native-Activity 애플리케이션(Android)  
   
      전체 C++ OpenGL 앱을 Android Native Activity 프로젝트로 만듭니다.  
   
--   OpenGLES 응용 프로그램(Android, iOS)  
+-   OpenGLES 애플리케이션(Android, iOS)  
   
      Android Native Activity 앱과 iOS 앱 둘 다를 빌드하는 프로젝트 집합이 포함된 솔루션을 만듭니다. 이러한 앱은 공통 OpenGL ES C++ 코드로 만들어진 플랫폼별 라이브러리를 사용하여 각 앱에 동일한 회전 큐브를 그립니다.  
   
@@ -63,11 +58,11 @@ ms.locfileid: "51781116"
   
      공유 프로젝트의 공통 C++ 코드를 사용하여 Android 동적 라이브러리(.so) 파일 및 iOS 정적 라이브러리(.a) 파일을 만드는 프로젝트가 포함된 솔루션을 만듭니다.  
   
--   기본 응용 프로그램(Android, Ant)  
+-   기본 애플리케이션(Android, Ant)  
   
      Java 소스 코드와 Ant 빌드 시스템만 사용하는 Android "Hello, World" 앱 프로젝트를 만듭니다.  
   
--   기본 응용 프로그램(Android, Gradle)  
+-   기본 애플리케이션(Android, Gradle)  
   
      Java 소스 코드와 Gradle 빌드 시스템만 사용하는 Android "Hello, World" 앱 프로젝트를 만듭니다.  
   
@@ -83,7 +78,7 @@ ms.locfileid: "51781116"
   
      C++ 코드를 사용하여 Android 동적 라이브러리(.so) 파일을 만듭니다.  
   
--   OpenGLES 2 응용 프로그램(iOS)  
+-   OpenGLES 2 애플리케이션(iOS)  
   
      OpenGL ES 2 iOS 앱을 빌드하기 위한 프로젝트 집합이 포함된 솔루션을 만듭니다. 이 앱은 C++ OpenGL ES 코드 라이브러리를 사용하여 iOS 앱에서 회전하는 직육면체를 그립니다. 이 앱을 토대로 하여 iOS 앱으로 C++ 라이브러리를 가져오는 방법을 파악할 수 있습니다.  
   
@@ -113,4 +108,3 @@ ms.locfileid: "51781116"
 4.  [Build an OpenGL ES Application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md)  
   
 5.  [Cross-Platform Mobile Development Examples](../cross-platform/cross-platform-mobile-development-examples.md)
-

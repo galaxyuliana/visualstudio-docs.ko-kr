@@ -1,14 +1,9 @@
 ---
 title: SignFile 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#SignFile
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: edef1819-ddeb-4e09-95de-fc7063ba9388
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 849c82fe11e4440c4b3394532ceecfe30ef57253
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 07215b20da99a02100eeb8781c5a637c3b689e71
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49206416"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54764894"
 ---
 # <a name="signfile-task"></a>SignFile 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +47,7 @@ ms.locfileid: "49206416"
 |`TimestampUrl`|선택적 `String` 매개 변수입니다.<br /><br /> 타임스탬프 서버의 URL을 지정합니다.|  
 |`TargetFrameworkVersion`|대상에 대해 사용되는 .NET Framework 버전입니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [Task 기본 클래스](../msbuild/task-base-class.md)를 참조하세요.  
   
 ## <a name="example"></a>예제  
@@ -76,7 +71,7 @@ ms.locfileid: "49206416"
 ```  
   
 > [!NOTE]
->  인증서 지문은 인증서의 SHA-1 해시입니다. 자세한 내용은 [신뢰할 수 있는 루트 CA 인증서의 SHA-1 해시 얻기](http://msdn.microsoft.com/en-us/dd641990-9a88-4228-a245-017797131a87)를 참조하세요.  
+>  인증서 지문은 인증서의 SHA-1 해시입니다. 자세한 내용은 [신뢰할 수 있는 루트 CA 인증서의 SHA-1 해시 얻기](http://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87)를 참조하세요.  
   
 ## <a name="example"></a>예제  
  다음 예제에서는 `Exec` 작업을 통해 `FilesToSign` 속성으로 지정된 인증서를 사용하여 `Certificate` 항목 컬렉션에 지정된 파일에 서명을 합니다. 이 방법으로 빌드 프로세스 중에 Windows Installer 파일에 서명을 할 수 있습니다.  
@@ -102,6 +97,3 @@ ms.locfileid: "49206416"
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)   
  [작업](../msbuild/msbuild-tasks.md)
-
-
-

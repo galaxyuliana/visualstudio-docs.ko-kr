@@ -1,14 +1,9 @@
 ---
-title: '방법: 프로젝트 파일의 이름 또는 위치 참조 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 프로젝트 파일의 이름 또는 위치 참조 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - locations, referencing
 - locations
@@ -21,13 +16,13 @@ ms.assetid: c8fcc594-5d37-4e2e-b070-4d9c012043b5
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 8631d10d56a35f8cf4ef6024d087bf94ec89b9d9
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9a5d07c374e75bd7f042f466f13fc5727241e252
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49845734"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54781004"
 ---
 # <a name="how-to-reference-the-name-or-location-of-the-project-file"></a>방법: 프로젝트 파일의 이름 또는 위치 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ ms.locfileid: "49845734"
   
 #### <a name="to-use-the-msbuildprojectname-property"></a>MSBuildProjectName 속성을 사용하려면  
   
-- 속성을 사용하는 것처럼 $() 표시를 사용하여 프로젝트 파일에서 속성을 참조합니다. 예를 들어:  
+- 속성을 사용하는 것처럼 $() 표시를 사용하여 프로젝트 파일에서 속성을 참조합니다. 예:  
   
   ```  
   <CSC Sources = "@(CSFile)"   
@@ -84,5 +79,3 @@ ms.locfileid: "49845734"
 ## <a name="see-also"></a>참고 항목  
 [MSBuild](msbuild.md)  
  [MSBuild의 예약된 속성 및 잘 알려진 속성](../msbuild/msbuild-reserved-and-well-known-properties.md)
-
-

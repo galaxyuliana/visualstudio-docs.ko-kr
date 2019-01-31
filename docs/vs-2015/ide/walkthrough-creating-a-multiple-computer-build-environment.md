@@ -1,14 +1,9 @@
 ---
-title: '연습: 여러 컴퓨터 빌드 환경 만들기 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 여러 컴퓨터를 만드는 빌드 환경 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, building on multiple computers
 - build environment, MSBuild
@@ -16,13 +11,13 @@ ms.assetid: ae5391b1-3eec-42f5-beb3-f28630615a9e
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 1422a126f88e72d0eca662aaa5348a6af500b8bb
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4dff468ff42173e61c2f7006802c96a11120bd30
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49820696"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769076"
 ---
 # <a name="walkthrough-creating-a-multiple-computer-build-environment"></a>연습: 여러 컴퓨터 빌드 환경 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -431,6 +426,3 @@ ms.locfileid: "49820696"
 ## <a name="see-also"></a>참고 항목  
  [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](http://msdn.microsoft.com/library/f0400989-cc2e-4dce-9788-6bdbe91c6f5a)   
  [명령줄 참조](../msbuild/msbuild-command-line-reference.md)
-
-
-
