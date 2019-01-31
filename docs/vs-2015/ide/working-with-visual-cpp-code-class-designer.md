@@ -1,14 +1,9 @@
 ---
 title: Visual C++ 코드 사용(클래스 디자이너) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - vs.classdesigner.cpplimitation
 helpviewer_keywords:
@@ -23,13 +18,13 @@ ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f777c9bdd0cf2ea300d2df8e7cbfbc8900c25c2a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 90f0c73abb33a2da9c2735bcbc16b5559437bc65
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49929532"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54765014"
 ---
 # <a name="working-with-visual-c-code-class-designer"></a>Visual C++ 코드 사용(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +63,7 @@ ms.locfileid: "49929532"
 ### <a name="type-resolution-issues"></a>형식 확인 문제  
  클래스 디자이너에서는 다음과 같은 경우에 형식을 확인할 수 없습니다.  
   
-- 클래스 다이어그램이 속한 프로젝트에서 참조되지 않는 프로젝트나 어셈블리에 형식이 있습니다. 이 오류를 수정하려면 해당 형식을 포함하는 프로젝트나 어셈블리에 대한 참조를 추가합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+- 클래스 다이어그램이 속한 프로젝트에서 참조되지 않는 프로젝트나 어셈블리에 형식이 있습니다. 이 오류를 수정하려면 해당 형식을 포함하는 프로젝트나 어셈블리에 대한 참조를 추가합니다. 자세한 내용은 참조 하세요. [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)입니다.  
   
 - 형식이 올바른 범위에 있지 않아 클래스 디자이너에서 해당 형식을 찾을 수 없습니다. 이 경우 코드에 `using`, `imports` 또는 `#include` 문이 누락되지 않았는지 확인합니다. 또한 해당 형식이나 관련 형식을 원래 있던 네임스페이스 밖으로 이동하지 않았는지 확인합니다.  
   
@@ -82,7 +77,7 @@ ms.locfileid: "49929532"
   
 - 입력한 형식이 클래스 디자이너에서 지원되는지 확인합니다. [C++ 코드 요소에 대한 제한 사항](#limitations)을 참조하세요.  
   
-- 형식을 확인해 보세요. 프로젝트 또는 클래스 다이어그램이 속한 프로젝트에서 참조되지 않는 어셈블리 형식이 있을 수 있습니다. 이 오류를 수정하려면 해당 형식을 포함하는 프로젝트나 어셈블리에 대한 참조를 추가합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+- 형식을 확인해 보세요. 프로젝트 또는 클래스 다이어그램이 속한 프로젝트에서 참조되지 않는 어셈블리 형식이 있을 수 있습니다. 이 오류를 수정하려면 해당 형식을 포함하는 프로젝트나 어셈블리에 대한 참조를 추가합니다. 자세한 내용은 참조 하세요. [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)입니다.  
   
 - 클래스 디자이너에서 찾을 수 있도록 형식이 올바른 범위에 있는지 확인하세요. 이 경우 코드에 `using`, `imports` 또는 `#include` 문이 누락되지 않았는지 확인합니다. 또한 해당 형식이나 관련 형식을 원래 있던 네임스페이스 밖으로 이동하지 않았는지 확인합니다.  
   
@@ -121,6 +116,3 @@ ms.locfileid: "49929532"
  [클래스 디자이너의 Visual C++ 구조체](../ide/visual-cpp-structures-in-class-designer.md)   
  [클래스 디자이너의 Visual C++ 열거형](../ide/visual-cpp-enumerations-in-class-designer.md)   
  [클래스 디자이너의 Visual C++ 형식 정의](../ide/visual-cpp-typedefs-in-class-designer.md)
-
-
-

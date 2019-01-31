@@ -1,21 +1,17 @@
 ---
 title: Xamarin 환경 확인 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
 caps.latest.revision: 15
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: fa7495673b1c063c210a86734811a34af8855740
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+ms.openlocfilehash: 220931b3c00087b778b4c886046795b3f83acaa0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51794350"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54766999"
 ---
 # <a name="verify-your-xamarin-environment"></a>Xamarin 환경 확인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +51,7 @@ ms.locfileid: "51794350"
   
     -   대상 Android 버전에 따라 적절한 에뮬레이터를 선택합니다. 컴퓨터에 연결된 Android 개발 디바이스가 있으면 에뮬레이터와 함께 여기에 나열됩니다.  
   
-        -   Windows 8+: 아래 표시된 대로 Visual Studio의 디버그 드롭다운에서 **VS 에뮬레이터** 대상을 선택하고 **F5**키를 눌러 디버거를 시작합니다. 자세한 내용은 [Visual Studio Emulator for Android 소개](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx) (영문)(Visual Studio ALM 블로그)를 참조하세요. 에뮬레이터를 작동시키는 중 문제가 발생하면 [Visual Studio Emulator for Android 문제 해결](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)을 참조하세요. **도구 > Visual Studio Emulator for Android...** 를 선택하여 에뮬레이터에 대한 새로운 장치 프로필을 만들 수도 있습니다.  
+        -   Windows 8+: 아래 표시된 대로 Visual Studio의 디버그 드롭다운에서 **VS 에뮬레이터** 대상을 선택하고 **F5**키를 눌러 디버거를 시작합니다. 자세한 내용은 [Visual Studio Emulator for Android 소개](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx) (영문)(Visual Studio ALM 블로그)를 참조하세요. 에뮬레이터를 작동시키는 중 문제가 발생하면 [Visual Studio Emulator for Android 문제 해결](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)을 참조하세요. **도구 &gt; Visual Studio Emulator for Android...** 를 선택하여 에뮬레이터에 대한 새로운 디바이스 프로필을 만들 수도 있습니다.  
   
              ![Visual Studio Emulator for Android를 디버그 대상으로 선택](../cross-platform/media/crossplat-xamarin-verify-3.png "CrossPlat Xamarin Verify 3")  
   
@@ -117,4 +113,3 @@ ms.locfileid: "51794350"
 2.  표시되는 Xamarin 설정 마법사에서 **다음** , **변경**을 차례로 클릭합니다.  
   
 3.  설치할 선택적 기능 목록에서 **Xamarin for Visual Studio 2015**를 확장하고 **will be installed on local drive(로컬 드라이브에 설치)** 를 선택하고 **다음** 을 클릭하여 기능을 추가합니다.
-

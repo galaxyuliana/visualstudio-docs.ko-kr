@@ -1,14 +1,9 @@
 ---
 title: GetFrameworkPath 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#GetFrameworkPath
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: dcad656c058fffaf3f075b195cb1f105079a8e5d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: d3820cca54cd7d5d2e93e48909627d4200f38983
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49248601"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54787222"
 ---
 # <a name="getframeworkpath-task"></a>GetFrameworkPath 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ ms.locfileid: "49248601"
 |`FrameworkVersion40Path`|선택적 `String` 출력 매개 변수입니다.<br /><br /> 프레임워크 버전 4.0 어셈블리에 대한 경로가 있는 경우 포함됩니다. 그렇지 않으면 `null`를 반환합니다.|  
 |`Path`|선택적 `String` 출력 매개 변수입니다.<br /><br /> 사용 가능한 경우 최신 프레임워크 어셈블리에 대한 경로를 포함합니다. 그렇지 않으면 `null`를 반환합니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  여러 버전의 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]를 설치한 경우 이 작업은 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 실행하도록 설계한 버전을 반환합니다.  
   
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
@@ -72,6 +67,3 @@ ms.locfileid: "49248601"
 ## <a name="see-also"></a>참고 항목  
  [작업](../msbuild/msbuild-tasks.md)   
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

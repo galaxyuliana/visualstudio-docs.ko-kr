@@ -10,15 +10,15 @@ dev_langs:
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: c8b25b3a5ef82093403392fcce9c60beeb36c156
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c7efe1fc6b4a1bf47a2b9d2fe34eee203fcf014a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53893567"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018929"
 ---
 # <a name="debug-xaml-in-blend"></a>Blend에서 XAML 디버그
 [!INCLUDE[blend_first](../debugger/includes/blend_first_md.md)]의 도구를 사용하여 앱에서 XAML을 디버그할 수 있습니다. 프로젝트를 빌드할 때 모든 오류는 **결과** 패널에 표시됩니다. 오류를 두 번 클릭하여 오류와 관련된 태그를 찾습니다. 작업 공간이 더 필요하면 F12를 눌러 **결과** 패널을 숨길 수 있습니다.  

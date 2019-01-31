@@ -1,14 +1,9 @@
 ---
 title: '&lt;필드&gt; (JavaScript) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - <field> JavaScript XML tag
 - field JavaScript XML tag
@@ -16,13 +11,13 @@ ms.assetid: c494bae0-3095-42a3-aa0a-4c415188c65c
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: a57f84901f2ac6bc691c50fa6d1e3c8b94db6c50
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b2fe09070261460b7b83f54de44a07cf96d40cf2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49939908"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54766558"
 ---
 # <a name="ltfieldgt-javascript"></a>&lt;필드&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,7 +86,7 @@ ms.locfileid: "49939908"
   `description`  
   선택 사항입니다. 필드에 대 한 설명입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  `name` 특성은 생성자 함수에서 필드를 문서화 하는 경우에 필요 합니다. 다른 모든 시나리오에 대 한 모든 특성이 `<field>` 요소는 선택 사항입니다.  
   
  생성자 함수를 문서화 하는 경우는 `<field>` 요소 필드 선언 바로 앞에 나타나야 합니다. `name` 특성에는 소스 코드에 사용 되는 필드 이름과 일치 해야 합니다. 개체 멤버에 대 한 합니다 `name` 경우 특성을 생략할 수 있습니다는 `<field>` 개체 멤버 선언 직전 요소가 표시 됩니다.  
@@ -162,6 +157,3 @@ new calculator().f.   // Completion list for a Number.
   
 ## <a name="see-also"></a>참고 항목  
  [XML 문서 주석](../ide/xml-documentation-comments-javascript.md)
-
-
-

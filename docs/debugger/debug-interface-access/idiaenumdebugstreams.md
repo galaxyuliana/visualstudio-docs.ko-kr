@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 611caf4f-7a5f-4aa4-b909-52feeb3cc752
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0154972398656c3ebd1caf8cab112f193c02fd62
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3bc7895248e8ba201debf4d5020de9cef6b0a836
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53963355"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014629"
 ---
 # <a name="idiaenumdebugstreams"></a>IDiaEnumDebugStreams
 데이터 원본에 포함 된 다양 한 디버그 스트림을 열거 합니다.  
@@ -78,7 +78,7 @@ void DumpAllDebugStreams( IDiaSession* pSession)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

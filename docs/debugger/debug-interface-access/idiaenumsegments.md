@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 0c9edd5e-b9ce-43e1-a791-cd4c5d16d923
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 72795807415e3ae81a44e38e66ddfc9ebc7ab94c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 426d8dc998bfdf6859735e508595f9661b5c38d2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53954476"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54939220"
 ---
 # <a name="idiaenumsegments"></a>IDiaEnumSegments
 데이터 원본에 포함 된 다양 한 세그먼트를 열거 합니다.  
@@ -65,7 +65,7 @@ void ShowSegments(IDiaTable *pTable, IDiaSession *pSession)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

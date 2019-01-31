@@ -1,26 +1,21 @@
 ---
 title: 테스트 탐색기를 사용하여 단위 테스트 실행 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords:
 - vs.unittesting.testexplorer.overview
 ms.assetid: 91b167a3-280a-498b-8fc2-f67859a2c64e
 caps.latest.revision: 29
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: f4c5a8a4d090a7603f83f6fb3c3d9deb0c67d5f8
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 8c8894239e1e1dd3979b9bb7c61e5aa1f294fe2b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49846839"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54805110"
 ---
 # <a name="run-unit-tests-with-test-explorer"></a>테스트 탐색기를 사용하여 단위 테스트 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -117,7 +112,7 @@ ms.locfileid: "49846839"
   ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   
 ###  <a name="BKMK_View_the_source_code_of_a_test_method"></a> 테스트 메서드의 소스 코드 보기  
- Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하려면 테스트를 선택한 다음 상황에 맞는 메뉴에서 **테스트 열기** (키보드: F12)를 선택합니다.  
+ Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하려면 테스트를 선택한 다음, 상황에 맞는 메뉴에서 **테스트 열기** (키보드: F12)를 선택합니다.  
   
  ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   
@@ -135,8 +130,8 @@ ms.locfileid: "49846839"
   
 |그룹화|설명|  
 |-----------|-----------------|  
-|**기간**|실행 시간을 기준으로 **빠름**, **보통**, **느림**으로 테스트를 그룹화합니다.|  
-|**결과**|실행 결과를 기준으로 **실패한 테스트**, **건너뛴 테스트**, **통과한 테스트**로 테스트를 그룹화합니다.|  
+|**기간**|실행 시간별 그룹 테스트: **빠른**, **중간** 및 **느림**.|  
+|**결과**|실행 결과별 그룹 테스트: **실패한 테스트**, **건너뛴 테스트**, **테스트에 통과함**.|  
 |**특성**|정의한 범주/값 쌍을 기준으로 테스트를 그룹화합니다. 특성(trait) 범주 및 값을 지정하는 구문은 단위 테스트 프레임워크에 의해 정의됩니다.|  
 |**프로젝트**|프로젝트 이름을 기준으로 테스트를 그룹화합니다.|  
   
@@ -216,7 +211,7 @@ TEST_METHOD(Method1)
 |**파일 경로**|테스트 소스 파일의 정규화된 파일 이름에서 일치 항목을 검색합니다.|  
 |**정규화된 이름**|테스트 네임스페이스, 클래스 및 메서드의 정규화된 파일 이름에서 일치 항목을 검색합니다.|  
 |**출력**|표준 출력(stdout) 또는 표준 오류(stderr)에 기록된 사용자 정의 오류 메시지를 검색합니다. 출력 메시지를 지정하는 구문은 단위 테스트 프레임워크에 의해 정의됩니다.|  
-|**결과**|테스트 탐색기 범주 이름에서 **실패한 테스트**, **건너뛴 테스트**, **통과한 테스트**등의 일치 항목을 검색합니다.|  
+|**결과**|테스트 탐색기 범주 이름에서 일치 항목을 검색합니다. **실패한 테스트**, **건너뛴 테스트**, **테스트에 통과함**.|  
   
  필터 결과의 하위 집합을 제외하려면 다음 구문을 사용합니다.  
   
@@ -295,11 +290,8 @@ FullName:"MyClass" - FullName:"PerfTest"
 ##  <a name="BKMK_External_resources"></a> 외부 리소스  
   
 ###  <a name="BKMK_Guidance"></a> 지침  
- [Visual Studio 2012를 사용한 연속 배달 테스트 - 2장: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 단위 테스트](../test/unit-test-your-code.md)   
  [단위 테스트를 64비트 프로세스로 실행](../test/run-a-unit-test-as-a-64-bit-process.md)
-
-
-

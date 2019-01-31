@@ -1,25 +1,20 @@
 ---
 title: 질감 노드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: b7df5ef3-dd4f-4964-9d96-34e0e180515e
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: bda107323b24940ed8cab18a61f9e491f8392f53
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e43329cb15eaf41ccb8859521bd45eff6f749c10
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49252358"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54779842"
 ---
 # <a name="texture-nodes"></a>질감 노드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ ms.locfileid: "49252358"
   
 ## <a name="texture-node-reference"></a>질감 노드 참조  
   
-|노드|설명|속성|  
+|노드|세부 정보|속성|  
 |----------|-------------|----------------|  
 |**큐브맵 샘플**|큐브맵의 지정된 좌표에서 색 샘플을 가져옵니다.<br /><br /> 큐브맵을 사용하면 반사 효과에 대해 색 세부 정보를 제공하거나 2D 질감에 비해 적은 왜곡으로 구면 개체에 질감을 적용할 수 있습니다.<br /><br /> **입력:**<br /><br /> `UVW`: `float3`<br /> 샘플을 가져오는 질감 큐브의 위치를 지정하는 벡터입니다. 이 벡터가 큐브와 교차하는 위치의 샘플을 가져옵니다.<br /><br /> **출력:**<br /><br /> `Output`: `float4`<br /> 색 보기입니다.|**질감**<br /> 샘플러와 연결된 질감 레지스터입니다.|  
 |**법선 맵 샘플**|2D 법선 맵의 지정된 좌표에서 법선 샘플을 가져옵니다.<br /><br /> 법선 맵을 사용하면 각 개체 표면의 추가 기하학적 세부 정보 표시를 시뮬레이션할 수 있습니다. 법선 맵에는 색 데이터가 아닌 단위 벡터를 나타내는 압축 데이터가 포함됩니다.<br /><br /> **입력:**<br /><br /> `UV`: `float2`<br /> 샘플을 가져오는 좌표입니다.<br /><br /> **출력:**<br /><br /> `Output`: `float3`<br /> 법선 샘플입니다.|**축 조정**<br /> 법선 맵 샘플의 선호도를 조정하는 데 사용되는 요인입니다.<br /><br /> **질감**<br /> 샘플러와 연결된 질감 레지스터입니다.|  
@@ -39,6 +34,3 @@ ms.locfileid: "49252358"
 |**텍스처 차원**|2D 질감 맵의 너비와 높이를 출력합니다.<br /><br /> 텍스처 차원을 사용하여 셰이더에서 질감의 너비와 높이를 고려할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float2`<br /> 벡터로 표현된 질감의 너비와 높이입니다. 너비는 벡터의 첫 번째 요소에 저장됩니다. 높이는 두 번째 요소에 저장됩니다.|**질감**<br /> 텍스처 차원과 연결된 질감 레지스터입니다.|  
 |**텍셀 델타**|2D 질감 맵의 텍셀 간 델타(거리)를 출력합니다.<br /><br /> 텍셀 델타를 사용하여 셰이더에서 인접 텍셀 값을 샘플링할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float2`<br /> 정규화된 질감 공간의 벡터로 표현된 특정 텍셀에서 다음 텍셀까지의 델타(거리)입니다(양의 방향으로 대각선 이동). 델타의 U 또는 V 좌표를 선택적으로 무시하거나 부정하여 모든 인접 텍셀의 위치를 파생할 수 있습니다.|**질감**<br /> 텍셀 델타와 연결된 질감 레지스터입니다.|  
 |**질감 샘플**|2D 질감 맵의 지정된 좌표에서 색 샘플을 가져옵니다.<br /><br /> 질감 맵을 사용하면 개체 표면의 색 세부 정보를 제공할 수 있습니다.<br /><br /> **입력:**<br /><br /> `UV`: `float2`<br /> 샘플을 가져오는 좌표입니다.<br /><br /> **출력:**<br /><br /> `Output`: `float4`<br /> 색 보기입니다.|**질감**<br /> 샘플러와 연결된 질감 레지스터입니다.|
-
-
-

@@ -11,16 +11,16 @@ helpviewer_keywords:
 - user controls [Visual Studio], complex data binding
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: e310470afe6448eb328b0981236a1f41efe741f5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8e8a78db0d63edc90cbeb36120cc457edd74d25b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829500"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55001319"
 ---
 # <a name="create-a-windows-forms-user-control-that-supports-complex-data-binding"></a>복합 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기
 

@@ -1,25 +1,20 @@
 ---
 title: 스토어 앱의 Visual C++ DLL 단위 테스트 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 24afc90a-8774-4699-ab01-6602a7e6feb2
 caps.latest.revision: 15
 author: alexhomer1
 ms.author: gewarren
-manager: robinr
-ms.openlocfilehash: e3cce1fcda4ccc9a4e61b5a02d719e1ceaa1d77d
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: dbdf8ccb423058f10246a439838d1b970d65109f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49816497"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54771197"
 ---
 # <a name="unit-testing-a-visual-c-dll-for-store-apps"></a>스토어 앱의 Visual C++ DLL 유닛 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ ms.locfileid: "49816497"
   
  이 항목에서는 개발의 첫 단계로 단위 테스트를 사용하는 방법을 보여 줍니다. 이 방법에서는 먼저 테스트하고 있는 시스템에서 특정 동작을 확인하는 테스트 메서드를 작성한 다음 테스트를 통과하는 코드를 작성합니다. 다음 절차의 순서를 변경함으로써 이 전략을 반대로 적용하여 먼저 테스트할 코드를 작성한 다음 단위 테스트를 작성할 수 있습니다.  
   
- 또한 이 항목에서는 단일 Visual Studio 솔루션과 테스트할 DLL 및 단위 테스트에 대한 별도의 프로젝트를 만듭니다. DLL 프로젝트에 직접 단위 테스트를 포함하거나 단위 테스트 및 .DLL에 대한 별도의 솔루션을 만들 수도 있습니다. 사용할 구조에 대한 팁은 [기존 C++ 응용 프로그램에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)를 참조하세요.  
+ 또한 이 항목에서는 단일 Visual Studio 솔루션과 테스트할 DLL 및 단위 테스트에 대한 별도의 프로젝트를 만듭니다. DLL 프로젝트에 직접 단위 테스트를 포함하거나 단위 테스트 및 .DLL에 대한 별도의 솔루션을 만들 수도 있습니다. 사용할 구조에 대한 팁은 [기존 C++ 애플리케이션에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)를 참조하세요.  
   
 ##  <a name="BKMK_In_this_topic"></a> 항목 내용  
  이 항목에서는 다음 작업을 안내합니다.  
@@ -354,6 +349,3 @@ ms.locfileid: "49816497"
     >  훌륭한 단위 테스트의 안정적인 집합은 코드를 변경할 때 버그를 만들지 않았다는 확신을 줍니다.  
     >   
     >  리팩터링은 다른 변경 사항과 구분해서 관리합니다.
-
-
-

@@ -1,27 +1,22 @@
 ---
 title: 속성 함수 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, property functions
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 0194de0a9f14186dc02b17564c77b1b2bc7441be
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 6ed61d1b65d03053859b5463b574432e0396449a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49920188"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758363"
 ---
 # <a name="property-functions"></a>속성 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -252,9 +247,9 @@ $[MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile)
  다음 예제에서는 이 함수를 사용하는 방법을 보여 줍니다.  
   
 ```  
-$([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, ``))                                  // default value  
+$([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, ``))                                  // default value  
 $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, `SymbolCacheDir`))  
-$([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(SampleValue)`))             // parens in name and value  
+$([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(SampleValue)`))             // parens in name and value  
   
 ```  
   
@@ -265,17 +260,17 @@ $([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(Samp
   
  [MSBuild\]::GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)  
   
- Windows 64비트 운영 체제는 32비트 응용 프로그램에 대한 HKEY_LOCAL_MACHINE\SOFTWARE 레지스트리 보기를 제공하는 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node 레지스트리 키를 유지 관리합니다.  
+ Windows 64비트 운영 체제는 32비트 애플리케이션에 대한 HKEY_LOCAL_MACHINE\SOFTWARE 레지스트리 보기를 제공하는 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node 레지스트리 키를 유지 관리합니다.  
   
- 기본적으로 WOW64에서 실행되는 32비트 응용 프로그램은 32비트 레지스트리 보기에 액세스하고 64비트 응용 프로그램은 64비트 레지스트리 보기에 액세스합니다.  
+ 기본적으로 WOW64에서 실행되는 32비트 애플리케이션은 32비트 레지스트리 보기에 액세스하고 64비트 애플리케이션은 64비트 레지스트리 보기에 액세스합니다.  
   
  다음과 같은 레지스트리 보기를 사용할 수 있습니다.  
   
 |레지스트리 보기|정의|  
 |-------------------|----------------|  
-|RegistryView.Registry32|32비트 응용 프로그램 레지스트리 보기입니다.|  
-|RegistryView.Registry64|64비트 응용 프로그램 레지스트리 보기입니다.|  
-|RegistryView.Default|응용 프로그램이 실행되고 있는 프로세스와 일치하는 레지스트리 보기입니다.|  
+|RegistryView.Registry32|32비트 애플리케이션 레지스트리 보기입니다.|  
+|RegistryView.Registry64|64비트 애플리케이션 레지스트리 보기입니다.|  
+|RegistryView.Default|애플리케이션이 실행되고 있는 프로세스와 일치하는 레지스트리 보기입니다.|  
   
  다음은 예제입니다.  
   
@@ -341,5 +336,3 @@ Output:
 ## <a name="see-also"></a>참고 항목
 [MSBuild 속성](msbuild-properties1.md)   
 [MSBuild 개요](msbuild.md)
-
-

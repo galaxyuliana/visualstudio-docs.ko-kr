@@ -1,14 +1,9 @@
 ---
 title: CodeIndex 명령 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - command-line tools [Team Foundation Server]
 - TFSConfig
@@ -17,13 +12,13 @@ ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 9586348a1862820540613a5f191132c49fa6a74d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 624a2a735032342d4eb47e2393ecae3ea3247891
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49282362"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54797296"
 ---
 # <a name="codeindex-command"></a>CodeIndex 명령
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ ms.locfileid: "49282362"
  **CodeIndex** 명령을 사용하려면 **Team Foundation Administrators** 보안 그룹의 멤버여야 합니다. [Team Foundation Server에 대한 사용 권한 참조](http://msdn.microsoft.com/library/39997de5-b7fb-4777-b779-07de0543abe6)를 참조하세요.  
   
 > [!NOTE]
->  관리자 자격 증명으로 로그온한 경우에도 이 명령을 실행하려면 관리자 권한 명령 프롬프트 창을 열어야 합니다. 또한 Team Foundation의 응용 프로그램 계층에서 이 명령을 실행해야 합니다.  
+>  관리자 자격 증명으로 로그온한 경우에도 이 명령을 실행하려면 관리자 권한 명령 프롬프트 창을 열어야 합니다. 또한 Team Foundation의 애플리케이션 계층에서 이 명령을 실행해야 합니다.  
   
 ## <a name="syntax"></a>구문  
   
@@ -54,13 +49,13 @@ TFSConfig CodeIndex /indexingStatus | /setIndexing:[ on | off | keepupOnly ] | /
 |**옵션**|**설명**|  
 |----------------|---------------------|  
 |**/indexingStatus**|코드 인덱싱 서비스의 상태 및 구성을 보여 줍니다.|  
-|**/setIndexing:**[ on &#124; off &#124; keepupOnly ]|-   **on**: 모든 변경 집합의 인덱싱을 시작합니다.<br />-   **off**: 모든 변경 집합의 인덱싱을 중지합니다.<br />-   **keepupOnly**: 이전에 만든 변경 집합의 인덱싱을 중지하고 새 변경 집합의 인덱싱만 시작합니다.|  
+|**/setIndexing:**[ on &#124; off &#124; keepupOnly ]|-   **on**: 모든 변경 집합의 인덱싱을 시작합니다.<br />-   **off**: 모든 변경 세트의 인덱싱을 중지합니다.<br />-   **keepupOnly**: 이전에 만든 변경 세트의 인덱싱을 중지하고 새 변경 세트의 인덱싱만 시작합니다.|  
 |**/ignoreList:**[ add &#124; remove &#124; removeAll &#124; view ] `ServerPath`<br /><br /> 서버 경로의 시작이나 끝 또는 양쪽 끝에 와일드카드 문자(*)를 사용할 수 있습니다.|인덱싱하지 않을 코드 파일의 목록 및 해당 경로를 지정합니다.<br /><br /> -   **add**: 인덱싱하지 않을 파일을 무시된 파일 목록에 추가합니다.<br />-   **remove**: 인덱싱할 파일을 무시된 파일 목록에서 제거합니다.<br />-   **removeAll**: 무시된 파일 목록을 지우고 모든 파일의 인덱싱을 시작합니다.<br />-   **view**: 인덱싱되고 있지 않는 모든 파일이 표시됩니다.|  
 |**/listLargeFiles [/fileCount:** `FileCount` **/minSize:** `MinSize`]|지정된 크기(KB)를 초과하는 지정된 파일 수를 표시합니다. 그런 다음 **/ignoreList** 옵션을 사용하여 인덱싱에서 해당 파일을 제외할 수 있습니다.|  
 |**/reindexAll**|이전에 인덱싱된 데이터를 지우고 인덱싱을 다시 시작합니다.|  
 |**/destroyCodeIndex [/noPrompt]**|코드 인덱스를 삭제하고 인덱싱된 모든 데이터를 제거합니다. **/noPrompt** 옵션을 사용하는 경우 확인이 필요하지 않습니다.|  
 |**/temporaryDataSizeLimit**:[ view &#124; <`SizeInGBs`> &#124; disable ]|변경 집합을 처리할 때 CodeLens에서 만드는 임시 데이터의 양을 제어합니다. 기본 제한은 6GB입니다.<br /><br /> -   **view**: 현재 크기 제한을 표시합니다.<br />-   `SizeInGBs`: 크기 제한을 변경합니다.<br />-   **disable**: 크기 제한을 제거합니다.<br /><br /> 이 제한은 CodeLens가 새 변경 집합을 처리하기 전에 확인됩니다. 임시 데이터가 이 제한을 초과하면 CodeLens는 새 변경 집합이 아닌 이전 변경 집합 처리를 일시 중지합니다. CodeLens는 데이터가 정리되고 이 제한 아래로 떨어진 후에 처리를 다시 시작합니다. 하루에 한 번씩 자동으로 정리됩니다. 정리가 시작되기 전까지 임시 데이터가 이 제한을 초과할 수 있습니다.|  
-|**/indexHistoryPeriod**:[ view &#124; all &#124; <`NumberOfMonths`> ]|변경 내용을 인덱싱할 기간을 제어합니다. 이 옵션은 CodeLens에서 표시하는 기록의 양에 영향을 줍니다. 기본 제한은 12개월입니다. 즉, CodeLens는 지난 12개월의 변경 내용만 표시합니다.<br /><br /> -   **view**: 현재 기간(월)을 표시합니다.<br />-   **all**: 모든 변경 내용을 인덱싱합니다.<br />-   `NumberOfMonths`: 변경 내용을 인덱싱하는 데 사용되는 기간(월)을 변경합니다.|  
+|**/indexHistoryPeriod**:[ view &#124; all &#124; <`NumberOfMonths`> ]|변경 내용을 인덱싱할 기간을 제어합니다. 이 옵션은 CodeLens에서 표시하는 기록의 양에 영향을 줍니다. 기본 제한은 12개월입니다. 즉, CodeLens는 지난 12개월의 변경 내용만 표시합니다.<br /><br /> -   **view**: 현재 개월 수를 표시합니다.<br />-   **all**: 모든 변경 기록을 인덱싱합니다.<br />-   `NumberOfMonths`: 변경 기록을 인덱싱하는 데 사용되는 기간(월)을 변경합니다.|  
 |**/collectionName:** `CollectionName`|**CodeIndex** 명령을 실행할 팀 프로젝트 컬렉션의 이름을 지정합니다. **/CollectionId**를 사용하지 않는 경우 필수적 요소입니다.|  
 |**/collectionId:** `CollectionId`|**CodeIndex** 명령을 실행할 팀 프로젝트 컬렉션의 식별 번호를 지정합니다. **/CollectionName**을 사용하지 않는 경우 필수적 요소입니다.|  
   
@@ -130,8 +125,5 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Web Site"
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [TFSConfig를 사용하여 서버 구성 관리](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62)   
- [TFS용 명령줄 도구](http://msdn.microsoft.com/en-us/be8c997a-b97b-4e59-97f5-04db0a601a6c)
-
-
-
+ [TFSConfig를 사용하여 서버 구성 관리](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)   
+ [TFS용 명령줄 도구](http://msdn.microsoft.com/be8c997a-b97b-4e59-97f5-04db0a601a6c)

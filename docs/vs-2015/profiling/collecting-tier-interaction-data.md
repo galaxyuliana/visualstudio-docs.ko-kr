@@ -1,14 +1,9 @@
 ---
 title: 계층 상호 작용 데이터 수집 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.performance.property.tierinteraction
 helpviewer_keywords:
@@ -20,18 +15,18 @@ ms.assetid: 47a944c2-3098-497c-8fc7-e1f43d750bbc
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 31e2d46992b48b987966bac7d7dc68787f4016c2
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: abe38162f20fb73de04301e97974dc348d704b6f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51761184"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54770892"
 ---
 # <a name="collecting-tier-interaction-data"></a>계층 상호 작용 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-상호 작용 프로파일링은 ADO.NET 서비스를 통해 데이터베이스와 통신하는 다중 계층 응용 프로그램의 함수 실행 시간에 대한 추가 정보를 제공합니다. 동기 함수 호출에 대해서만 데이터가 수집됩니다.  
+상호 작용 프로파일링은 ADO.NET 서비스를 통해 데이터베이스와 통신하는 다중 계층 애플리케이션의 함수 실행 시간에 대한 추가 정보를 제공합니다. 동기 함수 호출에 대해서만 데이터가 수집됩니다.  
   
  **Visual Studio 버전**  
   
@@ -39,7 +34,7 @@ ms.locfileid: "51761184"
   
  **Windows 8 및 Windows Server 2012**  
   
- Windows 8 데스크톱 앱 및 Windows Server 2012 앱에서 계층 상호 작용 데이터를 수집하려면 계측 방법을 사용해야 합니다. Windows 스토어 앱에 대한 계층 상호 작용 데이터는 수집할 수 없습니다. [Windows 8 및 Windows Server 2012 응용 프로그램의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요. 지원되는 다른 Windows 버전의 모든 프로파일링 방법에 계층 상호 작용 데이터를 포함할 수 있습니다.  
+ Windows 8 데스크톱 앱 및 Windows Server 2012 앱에서 계층 상호 작용 데이터를 수집하려면 계측 방법을 사용해야 합니다. Windows 스토어 앱에 대한 계층 상호 작용 데이터는 수집할 수 없습니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요. 지원되는 다른 Windows 버전의 모든 프로파일링 방법에 계층 상호 작용 데이터를 포함할 수 있습니다.  
   
  **성능 마법사**  
   
@@ -55,6 +50,3 @@ ms.locfileid: "51761184"
   
 ## <a name="see-also"></a>참고 항목  
  [계층 상호 작용 뷰](../profiling/tier-interactions-view.md)
-
-
-

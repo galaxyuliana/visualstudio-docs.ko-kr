@@ -1,14 +1,9 @@
 ---
 title: 옵션 페이지, 텍스트 편집기 노드 속성 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
 - Tools Options settings, Text Editor node properties
 - automation [Visual Studio], controlling Tools Options
@@ -16,13 +11,13 @@ ms.assetid: 19438302-0677-4f4d-9720-5667e6a22ab2
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 88ba9765e292d4f07a7e1392a64270ddf27e8f60
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e117eac0a0a5211dcc97ddf14bf6727f62260ff8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49241906"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54767994"
 ---
 # <a name="options-page-text-editor-node-properties"></a>옵션 페이지, 텍스트 편집기 노드 속성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,7 +58,7 @@ ms.locfileid: "49241906"
 |WordWrap|Get/Set (Boolean)|긴 줄이 단어 경계에서 자동으로 줄 바꿈 하는지 여부를 지정합니다. 이 값을 `true`로 설정하면 이 목록의 `VirtualSpace` 속성 항목이 `false`로 설정됩니다.|  
 |WordWrapGlyphs|Get/Set (Boolean)|줄 끝의 문자 모양을 표시합니다. 이 값은 줄이 다음 줄로 줄바꿈됨을 나타냅니다.|  
 |EnableLeftClickForURLs|Get/Set (Boolean)|편집기에서 URL에 밑줄을 사용할지 여부와 마우스 왼쪽 단추를 한 번 클릭하여 시스템 등록 웹 브라우저에 있는 URL로 이동하는 동작을 사용할지 여부를 지정합니다.|  
-|IndentStyle|Get/Set (<xref:EnvDTE.vsIndentStyle>)|다음 들여쓰기 스타일을 지정합니다. 기본, 스마트 또는 없음|  
+|IndentStyle|Get/Set (<xref:EnvDTE.vsIndentStyle>)|다음과 같이 들여쓰기 스타일을 결정합니다. 기본, 스마트 또는 없음|  
 |TabSize|Get/Set (Long)|탭 하나에 해당하는 공백 수를 나타냅니다. 범위는 1에서 60까지의 정수이고, 이를 벗어난 값을 설정하면 동작이 실패합니다.|  
 |InsertTabs|Get/Set (Boolean)|`True`인 경우 들여쓰기에 탭 문자를 사용합니다.|  
 |IndentSize|Get/Set (Long)|들여쓰기 수준 하나에 해당하는 공백 수를 나타냅니다. 범위는 1에서 60까지의 정수이고, 이를 벗어난 값을 설정하면 동작이 실패합니다.|  
@@ -76,6 +71,3 @@ ms.locfileid: "49241906"
  [옵션 페이지에서 속성 항목의 이름 확인](http://msdn.microsoft.com/library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [옵션 페이지, 환경, 노드 속성](../../ide/reference/options-page-environment-node-properties.md)   
  [옵션 페이지, 글꼴 및 색 노드 속성](../../ide/reference/options-page-fonts-and-colors-node-properties.md)
-
-
-

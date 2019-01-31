@@ -1,25 +1,20 @@
 ---
 title: 옵션 페이지, 디버깅 노드 속성 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 ms.assetid: 564cc8b2-0084-420e-b560-200cc5621a7e
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 8bcc4637ebb933c2d6cc8a06d15ad70c1fbb76c1
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 31eff8876dd6ae1a83f74d419853846bf461e275
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49223851"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782199"
 ---
 # <a name="options-page-debugging-node-properties"></a>옵션 페이지, 디버깅 노드 속성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,7 +61,7 @@ ms.locfileid: "49223851"
 |InvokedByCommands|Get/Set (Boolean)|사용자가 **한 단계 실행** 또는 **계속**과 같은 디버깅 명령을 선택할 때 편집하며 계속하기가 자동으로 코드 변경 내용을 적용할지 결정합니다. 이 옵션은 네이티브 코드에만 적용됩니다.|  
 |InvokedByCommandsAskFirst|Get/Set (Boolean)|사용자가 **한 단계 실행** 또는 **계속**과 같은 디버깅 명령을 선택할 때 편집하며 계속하기가 코드 변경 내용을 적용하기 위한 권한에 대한 프롬프트를 사용자에게 표시할지 결정합니다. 이 옵션은 네이티브 코드에만 적용됩니다.|  
 |WarnAboutStaleCode|Get/Set (Boolean)|편집하며 계속하기에서 오래되거나 부실한 코드가 실행될 경우 디버거가 경고 메시지를 실행할지 결정합니다. 이 옵션은 네이티브 코드에만 적용됩니다.|  
-|RelinkChangesOnStop|Get/Set(Short)|응용 프로그램 실행이 중지될 때 편집하며 계속하기에 의해 적용된 코드 변경 내용을 Visual Studio가 다시 연결할지 결정합니다. 이 옵션은 네이티브 코드에만 적용됩니다.|  
+|RelinkChangesOnStop|Get/Set(Short)|애플리케이션 실행이 중지될 때 편집하며 계속하기에 의해 적용된 코드 변경 내용을 Visual Studio가 다시 연결할지 결정합니다. 이 옵션은 네이티브 코드에만 적용됩니다.|  
 |AllowPrecompiling|Get/Set(Short)|편집하며 계속하기가 백그라운드에서 미리 컴파일된 헤더를 로드하도록 허용할지 결정합니다. 이 옵션은 네이티브 코드에만 적용됩니다.|  
   
 ## <a name="just-in-time"></a>Just-In-Time  
@@ -94,6 +89,3 @@ ms.locfileid: "49223851"
  [옵션 대화 상자, 디버깅, 일반](../../debugger/general-debugging-options-dialog-box.md)   
  [옵션 대화 상자, 디버깅, 편집하며 계속하기](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
  [옵션 대화 상자, 디버깅, Just-In-Time](../../debugger/just-in-time-debugging-options-dialog-box.md)
-
-
-

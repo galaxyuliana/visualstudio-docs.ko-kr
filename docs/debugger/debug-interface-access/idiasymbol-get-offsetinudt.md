@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 442f20d9-9d6a-44a1-83fb-c3f8c14b6c97
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 286565200cba61e5c2fd990de8d6ddb19c3e5ff1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 08cdd6d96823fc10f1bb0e495df5b5805dad08c3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53985750"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920890"
 ---
 # <a name="idiasymbolgetoffsetinudt"></a>IDiaSymbol::get_offsetInUdt
 UDT에서 멤버의 사용자 정의 형식 (UDT)의 시작 부분 까지의 오프셋을 검색합니다.  
@@ -44,7 +44,7 @@ HRESULT get_offsetInUdt( 
  이 함수는 최적화 된 빌드에 로컬 레코드에만 사용 됩니다.  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

@@ -1,14 +1,9 @@
 ---
 title: NuGet을 사용한 참조 추가와 확장 SDK를 사용한 참조 추가 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - vs.toolsoptionspages.nuget_package_manager.general
 - vs.toolsoptionspages.nuget_package_manager.package_sources
@@ -16,13 +11,13 @@ ms.assetid: 2175581e-83cb-444c-bb52-cc1fca8ea196
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 031b582665abeb14f705725c7bee97f272bd5ab4
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 29590b96a8d8d2ad8fbddaf0d97b9ed55e6aadf2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49235809"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54763600"
 ---
 # <a name="adding-references-using-nuget-versus-an-extension-sdk"></a>NuGet을 사용한 참조 추가와 확장명 SDK를 사용한 참조 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +43,7 @@ Visual Studio에 대한 NuGet 확장 또는 SDK(소프트웨어 개발 키트)�
 |파일 및 링크가 **참조 관리자** 대화 상자에 자동으로 추가됩니다(도움말 링크 등의 자동 채우기).|Y|**참조 관리자** 대화 상자에 SDK가 도움말 링크 및 SDK 종속성 목록과 함께 자동으로 열거됩니다.|N|NuGet은 고유한 **NuGet 패키지 관리** 대화 상자를 제공합니다.|  
 |메커니즘에서 여러 아키텍처를 지원합니다.|Y|SDK는 여러 구성을 제공할 수 있습니다. MSBuild에서 각 프로젝트 구성에 적합한 파일을 사용합니다.|N||  
 |메커니즘에서 여러 구성을 지원합니다.|Y|SDK는 여러 구성을 제공할 수 있습니다. 프로젝트 아키텍처에 따라 MSBuild에서 각 프로젝트 아키텍처에 적합한 파일을 사용합니다.|N||  
-|메커니즘에서 "복사하지 않을 항목"을 지정할 수 있습니다.|Y|\redist 또는 \designtime 폴더에 파일을 넣는지에 따라 소비 응용 프로그램 패키지에 복사할 파일을 제어할 수 있습니다.|N|패키지 매니페스트에서 복사할 파일을 선언합니다.|  
+|메커니즘에서 "복사하지 않을 항목"을 지정할 수 있습니다.|Y|\redist 또는 \designtime 폴더에 파일을 넣는지에 따라 소비 애플리케이션 패키지에 복사할 파일을 제어할 수 있습니다.|N|패키지 매니페스트에서 복사할 파일을 선언합니다.|  
 |콘텐츠가 지역화된 파일에 표시됩니다.|Y|디자인 타임 환경 개선을 위해 SDK의 지역화된 XML 문서가 자동으로 포함됩니다.|N||  
 |MSBuild에서 동시에 여러 버전의 SDK를 사용할 수 있도록 지원합니다.|Y|SDK에서 동시에 여러 버전을 사용할 수 있도록 지원합니다.|N|참조가 아닙니다. 프로젝트에 여러 버전의 NuGet 파일을 동시에 사용할 수 없습니다.|  
 |메커니즘에서 해당하는 대상 프레임워크, Visual Studio 버전 및 프로젝트 형식을 지정할 수 있도록 지원합니다.|Y|사용자가 적절한 SDK를 쉽게 선택할 수 있도록 프로젝트에 적용되는 SDK만 **참조 관리자** 대화 상자와 **도구 상자**에 표시됩니다.|Y(부분)|피벗이 대상 프레임워크입니다. 사용자 인터페이스에 필터링이 없습니다. 설치 시 오류가 반환될 수도 있습니다.|  
@@ -77,6 +72,3 @@ Visual Studio에 대한 NuGet 확장 또는 SDK(소프트웨어 개발 키트)�
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)
-
-
-

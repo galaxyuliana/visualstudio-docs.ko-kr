@@ -1,14 +1,9 @@
 ---
 title: Item 요소(MSBuild) | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -21,13 +16,13 @@ ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
 caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 1dfec558a9958d980d25d4160c4b7f2ce269cbb5
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b45d0e9494700d03c0e96ccd0708e2754b4f7a2b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49270037"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54797027"
 ---
 # <a name="item-element-msbuild"></a>Item 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,7 +73,7 @@ ms.locfileid: "49270037"
 |-------------|-----------------|  
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|항목의 grouping 요소입니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  `Item` 요소는 빌드 시스템에 대한 입력을 정의하며 사용자 정의 컬렉션 이름을 기준으로 하여 항목 컬렉션으로 그룹화됩니다. 이러한 항목 컬렉션은 빌드 프로세스의 단계를 수행하기 위해 컬렉션의 개별 항목을 사용하는 [작업](../msbuild/msbuild-tasks.md)의 매개 변수로 사용할 수 있습니다. 자세한 내용은 [항목](../msbuild/msbuild-items.md)을 참조하세요.  
   
  `@(`*myType*`)` 표기법을 사용하면 *myType* 형식의 항목 컬렉션을 세미콜론으로 구분된 문자열 목록으로 확장한 다음 매개 변수로 전달할 수 있습니다. 매개 변수가 `string` 형식인 경우 매개 변수 값은 세미콜론으로 구분된 요소 목록입니다. 매개 변수가 문자열 배열(`string[]`)이면 각 요소는 세미콜론의 위치를 기준으로 배열에 삽입됩니다. 작업 매개 변수가 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 형식이면 값은 항목 컬렉션의 내용(연결된 메타데이터 포함)입니다. 세미콜론 이외의 문자를 사용하여 각 항목을 구분하려면 `@(`*myType*`, '`*구분 기호*`')` 구문을 사용합니다.  
@@ -101,6 +96,3 @@ ms.locfileid: "49270037"
  [항목](../msbuild/msbuild-items.md)   
  [MSBuild 속성](msbuild-properties1.md)   
  [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

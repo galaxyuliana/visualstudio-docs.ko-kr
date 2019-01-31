@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: e964fca5-fdfd-47cf-a1c9-7fb96b1c88b5
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e474bba5168867180f0f50a927ea4c71ebe0370
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: bf4e015da7f5661f0964e9f60d65f39b665fe9d7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53907854"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54973969"
 ---
 # <a name="how-to-install-prerequisites-with-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 필수 구성 요소 설치
 모든 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 여러 응용 프로그램에서는 다른 필수 구성 요소도; 응용 프로그램 실행 되기 전에 올바른 버전의.NET Framework를 컴퓨터에 설치 되어 있는지 필요 합니다. 게시 하는 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 응용 프로그램과 함께 패키지로 될 필수 구성 요소 집합을 선택할 수 있습니다. 설치 과정에서 검사를 수행할 경우 이미 존재 합니다; 확인 하려면 각 필수 구성 요소에 대 한 설치 하기 전에 설치는 되지 않은 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다.  

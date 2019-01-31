@@ -1,14 +1,9 @@
 ---
 title: 고급 컴파일러 설정 대화 상자(Visual Basic) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - vb.ProjectPropertiesAdvancedCompile
 helpviewer_keywords:
@@ -17,13 +12,13 @@ ms.assetid: 1f81133a-293f-4dba-bc1c-8baafb01d857
 caps.latest.revision: 52
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: dd910b0e0295ca12807b96af189032ffec766429
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 1c1932f3b9a065115c7977207b0678fbcd44c2e4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49949827"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758891"
 ---
 # <a name="advanced-compiler-settings-dialog-box-visual-basic"></a>고급 컴파일러 설정 대화 상자(Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "49949827"
   
 2. **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너**가 나타나면 **컴파일** 탭을 클릭합니다.  
   
-3. [프로젝트 디자이너, 컴파일 페이지(Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)에서 **구성** 및 **플랫폼**을 선택합니다. 단순화된 빌드 구성에서 **구성** 및 **플랫폼** 목록이 표시되지 않습니다. 자세한 내용은 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.  
+3. [프로젝트 디자이너, 컴파일 페이지(Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)에서 **구성** 및 **플랫폼**을 선택합니다. 단순화된 빌드 구성에서 **구성** 및 **플랫폼** 목록이 표시되지 않습니다. 자세한 내용은 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.  
   
 4. **고급 컴파일 옵션**을 클릭합니다.  
   
@@ -70,7 +65,7 @@ ms.locfileid: "49949827"
  기본적으로 이 확인란을 선택하면 TRACE 상수가 설정되도록 지정합니다.  
   
  **사용자 지정 상수**  
- 이 텍스트 상자에 응용 프로그램의 사용자 지정 상수를 입력합니다. **Name1="Value1",Name2="Value2",Name3="Value3"** 양식을 사용하여 항목을 쉼표로 구분해야 합니다.  
+ 이 텍스트 상자에 애플리케이션의 사용자 지정 상수를 입력합니다. 다음 양식을 사용하여 항목을 쉼표로 구분해야 합니다. **Name1="Value1",Name2="Value2",Name3="Value3"**.  
   
 ## <a name="other-settings"></a>기타 설정  
  **Serialization 어셈블리 생성**  
@@ -78,6 +73,3 @@ ms.locfileid: "49949827"
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 디자이너, 컴파일 페이지(Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)
-
-
-

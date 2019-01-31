@@ -5,16 +5,16 @@ ms.topic: conceptual
 ms.assetid: 9b693bc3-303a-40a9-97ee-9cef5ca3ae81
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 99dc1c6fefae880d10c1dedd080f9abbceba4d1c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3aeddaa1b3589857124e4658c758a52def896acd
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53961766"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54983575"
 ---
 # <a name="how-to-turn-pluralization-on-and-off-or-designer"></a>방법: 복수 적용 설정 및 해제(O/R 디자이너)
 기본적으로 이름이 s 또는 ies로 끝나는 데이터베이스 개체를 끌면 **서버 탐색기** 또는 **데이터베이스 탐색기** 에 [Visual Studio에서 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md), 생성된 된 엔터티 클래스의 이름은 복수형에서 단수형으로 변경 됩니다. 이렇게 하면 인스턴스화된 엔터티 클래스를 데이터의 단일 레코드에 매핑하는 것을 보다 정확하게 나타낼 수 있습니다. 예를 들어, 추가 `Customers` 테이블의 **O/R 디자이너** 라는 엔터티 클래스가 결과 `Customer` 클래스는 단일 고객을 위한 데이터를 저장 하기 때문에.

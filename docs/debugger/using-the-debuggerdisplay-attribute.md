@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ecbbad832ad206a0a8192d57d2642bc68a8e3902
-ms.sourcegitcommit: 01185dadd2fa1f9a040d2a366869f1a5e1d18e0f
+ms.openlocfilehash: 2a78284cbdfa33953f6675c7d6e7ceee29a0eab4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54228060"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54932196"
 ---
 # <a name="using-the-debuggerdisplay-attribute-c-visual-basic-ccli"></a>DebuggerDisplay 특성 사용 (C#, Visual Basic, C + + /cli CLI)
 <xref:System.Diagnostics.DebuggerDisplayAttribute>는 개체, 속성 또는 필드가 디버거 변수 창에 표시되는 방식을 제어합니다. 이 특성은 형식, 대리자, 속성, 필드 및 어셈블리에 적용할 수 있습니다.  

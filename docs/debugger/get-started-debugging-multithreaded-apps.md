@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: 62df746b-b0f6-4df4-83cf-b1d9d2e72833
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 95a198213daa90a1370cba056a8c522495e06c94
-ms.sourcegitcommit: 01185dadd2fa1f9a040d2a366869f1a5e1d18e0f
+ms.openlocfilehash: 08ce571a5e41807c655e9bc9b42eb7e993a75e35
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54227982"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231976"
 ---
 # <a name="get-started-debugging-multithreaded-applications-c-visual-basic-c"></a>다중 스레드 응용 프로그램 디버깅 시작 (C#, Visual Basic, c + +)
 Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버깅할 수 있도록 사용자 인터페이스 요소를 제공 합니다. 이 자습서에서는 스레드 마커를 사용 하는 방법을 보여 줍니다.는 **병렬 스택** 창에는 **병렬 조사식** 창과 조건부 중단점, 중단점 필터. 이 자습서를 완료 다중 스레드 응용 프로그램 디버깅에 Visual Studio 기능을 숙지 합니다.
@@ -106,39 +106,37 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     ```
 
     ```C++
-    #include "stdafx.h"
+    #include "pch.h"
     #include <thread>
     #include <iostream>
     #include <vector>
-
-    using namespace;
 
     int count = 0;
 
     void doSomeWork() {
 
-        cout << "The doSomeWork function is running on another thread." << endl;
+        std::cout << "The doSomeWork function is running on another thread." << std::endl;
         int data = count++;
         // Pause for a moment to provide a delay to make
         // threads more apparent.
-        this_thread::sleep_for(chrono::seconds(3));
-        cout << "The function called by the worker thread has ended." << endl;
+        std::this_thread::sleep_for(std::chrono::seconds(3));
+        std::cout << "The function called by the worker thread has ended." << std::endl;
     }
 
     int main() {
-        vector<thread> threads;
+        std::vector<std::thread> threads;
 
         for (int i = 0; i < 10; ++i) {
 
-            threads.push_back(thread(doSomeWork));
-            cout << "The Main() thread calls this after starting the new thread" << endl;
-        }
+            threads.push_back(std::thread(doSomeWork));
+            std::cout << "The Main() thread calls this after starting the new thread" << std::endl;
+    }
 
-        for (auto& thread : threads) {
-            thread.join();
-        }
+    for (auto& thread : threads) {
+        thread.join();
+    }
 
-        return 0;
+    return 0;
     }
     ```
 
@@ -194,6 +192,8 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     ```
   
 7.  **파일** 메뉴에서 **모두 저장**을 선택합니다.  
+
+8. (Visual Basic만 해당) 솔루션 탐색기 (오른쪽 창)에서 프로젝트 노드를 마우스 오른쪽 단추로 차례로 **속성**합니다. 아래는 **응용 프로그램** 탭으로 변경 합니다 **시작 개체** 에 **간단한**.
   
 ## <a name="debug-the-multithreaded-app"></a>다중 스레드 앱 디버깅  
   
@@ -205,8 +205,8 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     ```  
   
     ```C++  
-    this_thread::sleep_for(chrono::seconds(3));
-    cout << "The function called by the worker thread has ended." << endl; 
+    std::this_thread::sleep_for(std::chrono::seconds(3));
+    std::cout << "The function called by the worker thread has ended." << std::endl; 
     ```  
 
     ```VB
@@ -214,7 +214,7 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     Console.WriteLine()
     ```
 
-1. 왼쪽된 여백에서 마우스 왼쪽 단추로 클릭 합니다 `Thread.Sleep` 또는 `this_thread::sleep_for` 문을 새 중단점을 삽입 합니다.  
+1. 왼쪽된 여백에서 마우스 왼쪽 단추로 클릭 합니다 `Thread.Sleep` 또는 `std::this_thread::sleep_for` 문을 새 중단점을 삽입 합니다.  
   
     여백에 빨간색 원이이 위치에 중단점 설정 되어 있는지 나타냅니다. 
   

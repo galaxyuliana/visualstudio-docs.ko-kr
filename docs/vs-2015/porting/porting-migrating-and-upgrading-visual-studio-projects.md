@@ -1,13 +1,9 @@
 ---
 title: 포팅, 마이그레이션 및 프로젝트 업그레이드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 f1_keywords:
 - Win8ExpressDesktopBlock
 - w8trefactor
@@ -22,13 +18,13 @@ ms.assetid: bee759bd-6ff5-4c2e-913a-ea7d3c906c29
 caps.latest.revision: 108
 author: kraigb
 ms.author: kraigb
-manager: ghogen
-ms.openlocfilehash: 6c73910b3866546ae0b8c169bfab489dfc3d55f8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: 3b76154db0d85cba745ffe1c694b18a1fb9dde26
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53966601"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54805555"
 ---
 # <a name="porting-migrating-and-upgrading-visual-studio-projects"></a>Porting, Migrating, and Upgrading Visual Studio Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,7 +82,7 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [포트, 마�
 |기타|[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]및 Visual Studio 2010 SP1에서 대부분의 다른 프로젝트 형식을 열 수 있습니다.|
 |FrontPage 웹 사이트|이 프로젝트는 해당 프로젝트 형식을 지원하지 않으므로 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 에서 열 수 없습니다.|
 |이식 가능한 클래스 라이브러리|Visual Studio에서 프로젝트를 자동으로 업데이트하도록 허용하면 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]또는 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다.<br /><br /> -   Silverlight 4를 대상으로 하는 프로젝트는 Silverlight 5를 대상으로 합니다.<br />-   Windows Phone 7.0 또는 Windows Phone 7.5를 대상으로 하는 프로젝트는 Windows Phone 8을 대상으로 합니다.<br />-   Xbox 360을 대상으로 하던 프로젝트가 더 이상 Xbox 360을 대상으로 하지 않습니다.|
-|클라우드 서비스 프로젝트와 같은 Azure 프로젝트(확장명 .ccproj) 및 Azure 리소스 관리자 프로젝트(클라우드 배포 프로젝트)(확장명 .deployproj)|이러한 형식의 프로젝트를 열려면 먼저 [Azure SDK for.NET](http://azure.microsoft.com/en-us/downloads/)을 설치한 다음 프로젝트를 엽니다.|
+|클라우드 서비스 프로젝트와 같은 Azure 프로젝트(확장명 .ccproj) 및 Azure 리소스 관리자 프로젝트(클라우드 배포 프로젝트)(확장명 .deployproj)|이러한 형식의 프로젝트를 열려면 먼저 [Azure SDK for.NET](http://azure.microsoft.com/downloads/)을 설치한 다음 프로젝트를 엽니다.|
 
 ## <a name="troubleshooting-project-compatibility-issues"></a>프로젝트 호환성 문제 해결
  [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] 또는 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]에서 프로젝트가 열리지 않을 경우 다음과 같은 조치를 취할 수 있습니다.

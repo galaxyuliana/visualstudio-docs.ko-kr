@@ -1,14 +1,9 @@
 ---
 title: '방법: 구성 만들기 및 편집 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - solution build configurations, editing
 - build configurations, creating
@@ -23,13 +18,13 @@ ms.assetid: 19be121c-148e-4ece-bbfc-d20b08cfc3f7
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f171c337f73db495b7b71aded24f669b6e613a07
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e885ffa758f6503c10517c672745a31ef0960fe5
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49887789"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54767333"
 ---
 # <a name="how-to-create-and-edit-configurations"></a>방법: 구성 만들기 및 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +53,7 @@ ms.locfileid: "49887789"
   
      **속성 페이지** 창이 열립니다.  
   
-     구성에 대한 속성을 설정할 수 있습니다. 예를 들어 릴리스 구성의 경우 솔루션 빌드 시 코드가 최적화되도록 지정할 수 있고, 디버그 구성의 경우 `DEBUG` 조건부 컴파일 기호가 포함되도록 지정할 수 있습니다. 속성 페이지 설정에 대 한 자세한 내용은 참조 하세요. [프로젝트 디자이너 소개](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)합니다.  
+     구성에 대한 속성을 설정할 수 있습니다. 예를 들어 릴리스 구성의 경우 솔루션 빌드 시 코드가 최적화되도록 지정할 수 있고, 디버그 구성의 경우 `DEBUG` 조건부 컴파일 기호가 포함되도록 지정할 수 있습니다. 속성 페이지 설정에 대 한 자세한 내용은 참조 하세요. [프로젝트 디자이너 소개](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)합니다.  
   
 ## <a name="creating-and-modifying-project-configurations"></a>프로젝트 구성 만들기 및 수정  
   
@@ -131,7 +126,4 @@ ms.locfileid: "49887789"
 ## <a name="see-also"></a>참고 항목  
  [빌드 구성 이해](../ide/understanding-build-configurations.md)   
  [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
- [NIB 방법: 프로젝트 속성 및 구성 설정 수정](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
-
-
-
+ [(NIB)방법: 프로젝트 속성 및 구성 설정 수정](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

@@ -1,14 +1,9 @@
 ---
 title: .NET 메모리 할당 뷰 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.performance.view.allocation
 helpviewer_keywords:
@@ -20,13 +15,13 @@ ms.assetid: 01eb876e-c413-4516-977b-4f896929e8a6
 caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 73a2be1314b01a0a7de73f71794bc94b18f0e851
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 563826c63d851e412b7c74a99f5b8a9ad1c1556e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51760353"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54798809"
 ---
 # <a name="net-memory-allocations-view"></a>.NET 메모리 할당 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ ms.locfileid: "51760353"
 |**포함 바이트 비율(%)**|-   함수의 경우 함수에 의한 부모 형식의 포함 할당으로, 프로파일링 실행 시 할당된 모든 메모리의 비율입니다.<br />-   형식의 경우 형식의 인스턴스에 대해 할당된 프로파일링 실행 시 할당된 모든 메모리의 비율입니다.|  
 |**제외 바이트**|-   함수의 경우 부모 형식의 개체에 대해 함수가 할당한 메모리의 바이트 수입니다. 이 수는 해당 자식 함수에 의해 할당된 메모리를 포함하지 않습니다.<br />-   형식의 경우 형식의 인스턴스에 대해 프로파일링 실행 시 할당된 총 바이트 수입니다.|  
 |**제외 바이트(%)**|-   함수의 경우 함수에 의한 부모 형식의 제외 할당으로, 프로파일링 실행 시 할당된 모든 메모리의 비율입니다.<br />-   형식의 경우 형식의 인스턴스에 대해 할당된 프로파일링 실행 시 할당된 모든 메모리의 비율입니다.|
-
-
-

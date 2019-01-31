@@ -1,35 +1,30 @@
 ---
 title: 동시성 시각화 도우미 표식 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.cv.markersui
 ms.assetid: c4692d17-6cd2-4ad1-8590-d7275c771c70
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 4fa2a57d08f2b86fec573f02129a326907e3e3a9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 47860775a6351cab83cd43975e94373c3558305a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51790450"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795349"
 ---
 # <a name="concurrency-visualizer-markers"></a>동시성 시각화 도우미 표식
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-동시성 시각화 도우미에서 표식은 응용 프로그램의 이벤트를 나타내는 아이콘입니다.  일반적으로 응용 프로그램은 응용 프로그램에서의 단계 또는 발생 작업을 지정하기 위해 이러한 이벤트를 생성합니다.  이벤트는 응용 프로그램에서 생성되거나 응용 프로그램에서 사용되는 라이브러리 및 런타임에 의해 생성될 수 있습니다.  
+동시성 시각화 도우미에서 표식은 응용 프로그램의 이벤트를 나타내는 아이콘입니다.  일반적으로 애플리케이션은 애플리케이션에서의 단계 또는 발생 작업을 지정하기 위해 이러한 이벤트를 생성합니다.  이벤트는 응용 프로그램에서 생성되거나 응용 프로그램에서 사용되는 라이브러리 및 런타임에 의해 생성될 수 있습니다.  
   
 ## <a name="kinds-of-markers"></a>표식 종류  
- 동시성 시각화 도우미는 응용 프로그램 이벤트를 나타내기 위해 플래그, 메시지 및 범위의 세 가지 표식을 사용합니다.  
+ 동시성 시각화 도우미는 애플리케이션 이벤트를 나타내기 위해 플래그, 메시지 및 범위의 세 가지 표식을 사용합니다.  
   
 1.  *플래그*를 사용하여 앱에서 특정 시점을 나타낼 수 있습니다.  예를 들어 플래그를 사용하면 변수 값이 특정 임계값에 도달한 시점 또는 예외가 throw된 시점을 나타낼 수 있습니다.  
   
@@ -59,7 +54,7 @@ ms.locfileid: "51790450"
   
 - [동시성 런타임](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)  
   
-- [시나리오 표식 지원](http://msdn.microsoft.com/en-us/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
+- [시나리오 표식 지원](http://msdn.microsoft.com/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
   
 - [C++ AMP(C++ Accelerated Massive Parallelism)](http://msdn.microsoft.com/library/e27824cb-3167-409b-8c3f-a0e476d8f349)  
   
@@ -73,6 +68,3 @@ ms.locfileid: "51790450"
  [메시지 표식](../profiling/message-markers.md)   
  [범위 표식](../profiling/span-markers.md)   
  [EventSource 이벤트를 표식으로 시각화](../profiling/visualizing-eventsource-events-as-markers.md)
-
-
-

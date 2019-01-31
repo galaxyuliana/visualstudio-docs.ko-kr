@@ -1,14 +1,9 @@
 ---
 title: Exec 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Exec
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: f3d092a6d69f668ef48ca2f586494f848795c178
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 337dcd310efbdf0f0657b5eb44b1ed0fc8253b39
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49300536"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782510"
 ---
 # <a name="exec-task"></a>Exec 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +48,7 @@ ms.locfileid: "49300536"
 |`StdOutEncoding`|선택적 `String` 출력 매개 변수입니다.<br /><br /> 캡처된 작업 표준 출력 스트림의 인코딩을 지정합니다. 기본값은 현재 콘솔 출력 인코딩입니다.|  
 |`WorkingDirectory`|선택적 `String` 매개 변수입니다.<br /><br /> 명령이 실행될 디렉터리를 지정합니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 수행하려는 작업에 대한 특정 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 작업을 사용할 수 없을 때 유용합니다. 그러나 좀 더 구체적인 작업과 달리 `Exec` 작업은 실행하는 도구 또는 명령에서 출력을 수집할 수 없습니다.  
   
  `Exec` 작업은 프로세스를 직접 호출하지 않고 cmd.exe를 호출합니다.  
@@ -80,6 +75,3 @@ ms.locfileid: "49300536"
 ## <a name="see-also"></a>참고 항목  
  [작업](../msbuild/msbuild-tasks.md)   
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

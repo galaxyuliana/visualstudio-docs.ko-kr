@@ -1,14 +1,9 @@
 ---
-title: '연습: Windows 스토어 앱용 단위 테스트 만들기 및 실행 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 만들기 및 Windows 스토어 앱 용 단위 테스트 실행 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, creating
 - unit tests
@@ -17,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: dd3e8a6a-b366-433e-a409-b9a9b89da89a
 caps.latest.revision: 23
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 30a8b7a465c85e60b00f2208bd6e51cc55c4bbe7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: dcd09c2a19bd96a02075901f6b58da71a1a9bee9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49852533"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54754876"
 ---
-# <a name="walkthrough-creating-and-running-unit-tests-for-windows-store-apps"></a>연습: Windows 스토어 앱용 단위 테스트 만들기 및 실행
+# <a name="walkthrough-creating-and-running-unit-tests-for-windows-store-apps"></a>연습: 만들기 및 Windows 스토어 앱 용 단위 테스트를 실행 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램에 대한 단위 테스트 지원이 포함되어 있으며, Visual C#, Visual Basic 및 Visual C++에 대한 단위 테스트 라이브러리 템플릿이 포함되어 있습니다.  
@@ -78,7 +73,7 @@ Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-a
 ##  <a name="CreateAndRunUnitTestWin8Tailored_Manifest"></a> 단위 테스트 프로젝트에 대한 매니페스트 편집  
  단위 테스트 프로젝트가 필요한 기능을 제공하여 응용 프로그램을 실행하려면 매니페스트를 편집해야 할 수 있습니다.  
   
-#### <a name="to-edit-the-unit-test-projects-windows-store-application-manifest-file"></a>단위 테스트 프로젝트의 Windows 스토어 응용 프로그램 매니페스트 파일을 편집하려면  
+#### <a name="to-edit-the-unit-test-projects-windows-store-application-manifest-file"></a>단위 테스트 프로젝트의 Windows 스토어 애플리케이션 매니페스트 파일을 편집하려면  
   
 1.  솔루션 탐색기의 새 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 단위 테스트 프로젝트에서 Package.appxmanifest 파일을 마우스 오른쪽 단추로 클릭하고 **열기**를 선택합니다.  
   
@@ -144,7 +139,7 @@ Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-a
 ## <a name="external-resources"></a>외부 리소스  
   
 ### <a name="videos"></a>비디오  
- [채널 9: XAML을 사용하여 빌드한 Windows 스토어 앱 유닛 테스트](http://go.microsoft.com/fwlink/?LinkId=226285)  
+ [Channel 9 XAML을 사용 하 여 빌드된 Windows 스토어 앱 유닛 테스트](http://go.microsoft.com/fwlink/?LinkId=226285)  
   
 ### <a name="forums"></a>포럼  
  [Visual Studio 유닛 테스트](http://go.microsoft.com/fwlink/?LinkId=224477)  
@@ -155,6 +150,3 @@ Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-a
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio로 스토어 앱 테스트](../test/testing-store-apps-with-visual-studio.md)   
  [Team Foundation Build를 사용하여 Windows 스토어 앱 빌드 및 테스트](http://msdn.microsoft.com/library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)
-
-
-

@@ -7,15 +7,15 @@ f1_keywords:
 ms.assetid: 97e7757e-c372-4626-8149-99a81367a0e1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 80a69c1da16e8e43c1a306a8659bb8e41bed21e7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1bc075aa45482875f57fd2d2329f1cc5c034705b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968104"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55007134"
 ---
 # <a name="graphics-state"></a>그래픽 상태
 Visual Studio 그래픽 진단의 상태 창은 그리기 호출과 같은 현재 이벤트 시간에 활성화된 그래픽 상태를 이해하는 데 도움이 됩니다.  
