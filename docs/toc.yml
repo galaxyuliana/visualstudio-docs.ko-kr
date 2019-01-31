@@ -230,6 +230,8 @@ items:
           href: ide/how-to-update-existing-templates.md
         - name: 템플릿 매개 변수 대체
           href: ide/how-to-substitute-parameters-in-a-template.md
+        - name: 템플릿 매개 변수
+          href: ide/template-parameters.md
       - name: 64비트 지원
         href: ide/visual-studio-ide-64-bit-support.md
     - name: 프로젝트 또는 솔루션 없이 개발(“폴더 열기”)
@@ -719,10 +721,6 @@ items:
       href: ide/creating-applications-in-bi-directional-languages.md
 - name: 참조
   items:
-  - name: 프로젝트 및 항목 템플릿
-    items:
-    - name: 템플릿 매개 변수
-      href: ide/template-parameters.md
   - name: 일반 사용자 인터페이스 요소
     items:
     - name: 호출 계층 구조
@@ -1147,9 +1145,9 @@ items:
   - name: 의견 보내기
     href: ide/talk-to-us.md
   expanded: true
-ms.openlocfilehash: 3734bd3e2955f1f2297ec9a63f92d2e617341142
-ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
+ms.openlocfilehash: 69a36121297349edd6a3e79880935a9b3ed6fe75
+ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "55089294"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55424618"
