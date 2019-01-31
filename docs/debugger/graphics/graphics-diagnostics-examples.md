@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 45dd86b2-801e-4b07-a8c4-7bd25641d7f8
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8419ea4f653d870802fd104da2824952b422ab6f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2509b7e3c373cecfe5cd1554805554afbedd2b3f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53867029"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54999316"
 ---
 # <a name="graphics-diagnostics-examples"></a>그래픽 진단 예제
 다음 예제에서는 DirectX 기반 앱에서 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 그래픽 진단을 사용하여 렌더링 문제를 디버깅하는 방법을 보여줍니다.  
@@ -52,4 +52,4 @@ ms.locfileid: "53867029"
 ## <a name="debugging-compute-shaders"></a>컴퓨터 셰이더 디버깅  
  그래픽 진단을 사용하여 잘못된 결과를 생성한 DirectCompute 계산 셰이더 커널을 디버깅할 수 있습니다. DirectCompute를 사용하면 GPU의 계산 능력을 사용하여 많은 수의 데이터 요소를 함께 계산할 수 있습니다. 일부 문제의 경우 GPU를 활용하면 잘 최적화된 CPU 코드보다 몇 배나 더 빠르게 수행할 수 있습니다. 그러나 기존 디버거는 GPU에서 실행되는 코드를 감지할 수 없습니다. 이런 종류의 코드 디버깅에는 일반적으로 공급업체별 특수 도구가 필요하지만 이러한 도구는 Visual Studio와 잘 통합되지 못할 수 있습니다. GPU 범위 전체에서 보다 일관성 있는 계산 셰이더 디버깅을 수행하기 위해 그래픽 진단에서는 Direct3D 렌더링 이벤트 이외에 DirectCompute Dispatch 이벤트를 캡처합니다. 따라서 친숙한 도구를 사용하여 계산 셰이더 코드의 문제를 디버깅할 수 있습니다.  
   
- 계산 셰이더의 버그로 인해 발생 하는 시뮬레이션 문제를 디버깅 하는 방법에 설명 하는 시나리오를 참조 하세요. [연습: 그래픽 진단을 사용하여 컴퓨팅 셰이더 디버그](walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)
+ 계산 셰이더의 버그로 인해 발생 하는 시뮬레이션 문제를 디버깅 하는 방법에 설명 하는 시나리오를 참조 하세요. [연습: 그래픽 진단 계산 셰이더 디버깅을 사용 하 여](walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)입니다.
