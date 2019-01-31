@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: e8e1beb5-7cb9-43b4-9ff4-760d5f91ea2d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b0f198439c1de41abd763397297e54ca6b359c1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f07555299318d57cb3e57e50cb616611659424ea
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53903970"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54952173"
 ---
 # <a name="usingnamespace"></a>UsingNameSpace
 일부 기호 네임 스페이스에 의해 참조 될 수 있습니다 및 이후에로 식별 되었을 것을 `SymTagUsingNameSpace` 태그입니다.  

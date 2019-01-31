@@ -1,14 +1,9 @@
 ---
-title: '방법: Visual Basic 개발자 설정을 적용하여 빌드 구성 관리 | Microsoft Docs'
-ms.custom: ''
+title: '방법: Visual Basic 개발자 설정 적용 하 여 빌드 구성 관리 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio, building with Visual Basic settings
 - MSBuild, debug build
@@ -21,13 +16,13 @@ ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: b191b5d4223d32e4d620c779f5813c0db651a6cc
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: d6a315adb859445c5efa15df5b8366815bfc86d7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49300562"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54784789"
 ---
 # <a name="how-to-manage-build-configurations-with-visual-basic-developer-settings-applied"></a>방법: Visual Basic 개발자 설정을 적용하여 빌드 구성 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ ms.locfileid: "49300562"
 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 개발자 설정이 적용되면 기본적으로 모든 고급 빌드 구성 옵션이 숨겨집니다. 이 항목에서는 이러한 설정을 수동으로 사용하도록 설정하는 방법을 설명합니다.  
   
 ## <a name="enabling-advanced-build-configurations"></a>고급 빌드 구성 사용  
- 기본적으로 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 개발자 설정은 [프로젝트 디자이너](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)의 **구성** 및 **플랫폼** 목록과 **구성 관리자** 대화 상자를 여는 옵션을 숨깁니다.  
+ 기본적으로 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 개발자 설정은 [프로젝트 디자이너](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)의 **구성** 및 **플랫폼** 목록과 **구성 관리자** 대화 상자를 여는 옵션을 숨깁니다.  
   
 #### <a name="to-enable-advanced-build-configurations"></a>고급 빌드 구성을 사용하도록 설정하려면  
   
@@ -55,6 +50,3 @@ ms.locfileid: "49300562"
 ## <a name="see-also"></a>참고 항목  
  [빌드 구성 이해](../ide/understanding-build-configurations.md)   
  [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)
-
-
-

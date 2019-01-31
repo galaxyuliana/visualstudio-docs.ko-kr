@@ -1,14 +1,9 @@
 ---
 title: 템플릿 매개 변수 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio templates, parameters
 - template parameters [Visual Studio]
@@ -18,13 +13,13 @@ ms.assetid: 1b567143-08c6-4d7a-b484-49f0671754fe
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ef4e1a6e3c56df744ce5375a1cb3a1dbd53a6fad
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 1433d9ba1f207a0f86902d7afd56db6476b1fd56
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49238903"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54787094"
 ---
 # <a name="template-parameters"></a>템플릿 매개 변수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ ms.locfileid: "49238903"
 템플릿에 매개 변수를 사용하여 템플릿이 인스턴스화될 때 클래스 이름 및 네임스페이스 등 템플릿의 주요 부분 값을 바꿀 수 있습니다. 사용자가 **새 프로젝트** 또는 **새 항목 추가** 대화 상자에서 **확인**을 클릭하는 경우 이러한 매개 변수는 백그라운드에서 실행되는 템플릿 마법사로 바뀝니다.  
   
 ## <a name="declaring-and-enabling-template-parameters"></a>템플릿 매개 변수 선언 및 사용  
- 템플릿 매개 변수는 $*매개 변수*$ 형식으로 선언됩니다. 예를 들어:  
+ 템플릿 매개 변수는 $*매개 변수*$ 형식으로 선언됩니다. 예:  
   
 -   $safeprojectname$  
   
@@ -79,7 +74,7 @@ ms.locfileid: "49238903"
 ## <a name="custom-template-parameters"></a>템플릿 매개 변수 사용자 지정  
  매개 변수를 대체하는 동안 사용되는 예약된 기본 템플릿 매개 변수 외에 템플릿 매개 변수와 값을 직접 지정할 수 있습니다. 자세한 내용은 [CustomParameters 요소(Visual Studio 템플릿)](../extensibility/customparameters-element-visual-studio-templates.md)를 참조하세요.  
   
-## <a name="example-replacing-files-names"></a>예: 파일 이름 바꾸기  
+## <a name="example-replacing-files-names"></a>예제: 파일 이름 바꾸기  
  `TargetFileName` 특성을 포함한 매개 변수를 사용하여 프로젝트 항목에 대한 변수 파일 이름을 지정할 수 있습니다. .exe 파일에서 `$projectname$`에서 지정된 프로젝트 이름을 파일 이름으로 사용하도록 지정할 수 있습니다.  
   
 ```  
@@ -93,7 +88,7 @@ ms.locfileid: "49238903"
 </TemplateContent>  
 ```  
   
-## <a name="example-using-the-project-name-for-the-namespace-name"></a>예: 네임스페이스 이름에 프로젝트 이름 사용  
+## <a name="example-using-the-project-name-for-the-namespace-name"></a>예제: Namespace 이름에 대 한 프로젝트 이름 사용  
  Visual C# 클래스 파일, Class1.cs에에서 네임스페이스에 프로젝트 이름을 사용하려면 다음 구문을 사용합니다.  
   
 ```  
@@ -130,6 +125,3 @@ namespace $safeprojectname$
   
 ## <a name="see-also"></a>참고 항목  
  [템플릿 사용자 지정](../ide/customizing-project-and-item-templates.md)
-
-
-

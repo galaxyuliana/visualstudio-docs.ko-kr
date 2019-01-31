@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: d0501fdd-4b3a-4e74-b6ac-51d950a2e15b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8175a8337f15517e0b9c88ae3f5405148a4b22b2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f13930905721cca2d957707655cfd0948c875607
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53934971"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54945218"
 ---
 # <a name="object-lifetime-view"></a>개체 수명 뷰
 개체 수명 뷰는 **성능 세션** 속성 페이지에서 **.NET 개체 수명 데이터도 수집**이 선택된 경우 사용 가능합니다.  

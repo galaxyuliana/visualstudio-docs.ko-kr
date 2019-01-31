@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: c60867af-f814-4fac-8f06-3c39cbefc7ea
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ece3caef0619f580441d8b689ae8a89fbd0b91a1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 861129a6251f0142a22cd916cddbfd95d03b22db
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886165"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54938554"
 ---
 # <a name="spy-views"></a>Spy++ 뷰
 Spy + + 컴퓨터에서 windows, 메시지, 프로세스 및 스레드 사용 가능의 트리 뷰를 표시 합니다.  

@@ -1,14 +1,9 @@
 ---
 title: '&lt;요약&gt; (JavaScript) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - summary JavaScript XML tag
 - <summary> JavaScript XML tag
@@ -16,13 +11,13 @@ ms.assetid: 6540582d-bdb3-42ec-ad2f-c176783e6f9c
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 8ee08ed1e2a5feb1f5a87f7d6337a4b5f1e47a22
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 81d41918d61bbe95cfe19d2382535449a47deb8c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49252410"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54775816"
 ---
 # <a name="ltsummarygt-javascript"></a>&lt;요약&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "49252410"
  `description`  
  선택 사항입니다. 함수 또는 메서드의 설명입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  함수를 포함 하는 주석을 추가 하는 데 필요한 요소 [ \<요약 >](../ide/summary-javascript.md)합니다 [ \<param >](../ide/param-javascript.md), 및 [ \<반환 >](../ide/returns-javascript.md), 함수 본문은 문 앞에 배치 되어야 합니다.  
   
 ## <a name="example"></a>예제  
@@ -64,6 +59,3 @@ function areaFunction(radiusParam)
   
 ## <a name="see-also"></a>참고 항목  
  [XML 문서 주석](../ide/xml-documentation-comments-javascript.md)
-
-
-

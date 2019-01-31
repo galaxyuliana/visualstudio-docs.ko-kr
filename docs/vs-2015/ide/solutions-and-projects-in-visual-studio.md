@@ -1,13 +1,9 @@
 ---
 title: 솔루션 및 프로젝트
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 f1_keywords:
 - vs.savedeferredsaveprojectonclose
 - vs.untrustedtemplateopeningdocuments
@@ -53,13 +49,13 @@ ms.assetid: aeaf56cb-c2dd-47f6-b012-23b84b7a7254
 caps.latest.revision: 41
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: a4e50e386be097338207a2ef66904347f9170d3b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: 32b2f33af3c34cf6245e511cbd54d6ce7cc3a2bd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53905243"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795254"
 ---
 # <a name="solutions-and-projects-in-visual-studio"></a>Visual Studio의 솔루션 및 프로젝트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,7 +75,7 @@ Visual Studio에서 앱, 애플리케이션, 웹 사이트, 웹앱, 스크립트
  사용자 지정 프로젝트 및 항목 템플릿을 만들 수도 있습니다. 자세한 내용은 [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)를 참조하세요.
 
 ## <a name="creating-new-projects"></a>새 프로젝트 만들기
- 새 프로젝트를 만드는 가장 쉬운 방법은 사전 정의된 프로젝트 템플릿으로 시작하는 것입니다. 이 템플릿은 특정 프로그래밍 언어로 특정 유형의 애플리케이션이나 웹 사이트 만들기를 시작하는 미리 생성된 코드 파일, config 파일, 자산 및 설정 기본 세트로 구성되어 있습니다. 이러한 템플릿은 주 메뉴에서 **파일 &#124; 새로 만들기 &#124; 프로젝트** 또는 **파일 &#124; 새로 만들기 &#124; 웹 사이트**를 선택하면 표시되는 **새 프로젝트 대화 상자**에서 확인할 수 있습니다. 자세한 내용은 [솔루션 및 프로젝트 만들기](../ide/creating-solutions-and-projects.md) 및 [NIB 템플릿에서 프로젝트 만들기](http://msdn.microsoft.com/en-us/7c36d86a-6b79-4480-8228-0f925f1204b2)를 참조하세요.
+ 새 프로젝트를 만드는 가장 쉬운 방법은 사전 정의된 프로젝트 템플릿으로 시작하는 것입니다. 이 템플릿은 특정 프로그래밍 언어로 특정 유형의 애플리케이션이나 웹 사이트 만들기를 시작하는 미리 생성된 코드 파일, config 파일, 자산 및 설정 기본 세트로 구성되어 있습니다. 이러한 템플릿은 주 메뉴에서 **파일 &#124; 새로 만들기 &#124; 프로젝트** 또는 **파일 &#124; 새로 만들기 &#124; 웹 사이트**를 선택하면 표시되는 **새 프로젝트 대화 상자**에서 확인할 수 있습니다. 자세한 내용은 [솔루션 및 프로젝트 만들기](../ide/creating-solutions-and-projects.md) 및 [NIB 템플릿에서 프로젝트 만들기](http://msdn.microsoft.com/7c36d86a-6b79-4480-8228-0f925f1204b2)를 참조하세요.
 
 ## <a name="managing-projects-in-solution-explorer"></a>솔루션 탐색기에서 프로젝트 관리
  새 프로젝트를 만든 후에 **솔루션 탐색기** 를 사용하여 프로젝트와 솔루션 및 연결된 항목을 보고 관리합니다. 다음 그림은 두 프로젝트가 포함되어 있으며, C# 솔루션을 사용하는 서버 탐색기를 보여줍니다.

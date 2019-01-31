@@ -1,14 +1,9 @@
 ---
 title: XDCMake 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - vc.task.xdcmake
 dev_langs:
@@ -24,13 +19,13 @@ ms.assetid: a7de9c64-903a-4a02-85f3-f37672270f25
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: caf3803edff01e6ffe650f18aaccef99fc50728f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 58257921634e1afb89dfc0c012728523bc98a2ef
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49204882"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792891"
 ---
 # <a name="xdcmake-task"></a>XDCMake 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ XML 문서 주석(.xdc) 파일을 .xml 파일에 병합하는 XML 문서 도구(
   
  Visual C++ 소스 코드에 문서 주석을 제공하고 [/doc](http://msdn.microsoft.com/library/b54f7e2c-f28f-4f46-9ed6-0db09be2cc63) 컴파일러 옵션을 사용하여 컴파일할 때 .xdc 파일이 생성됩니다. 자세한 내용은 xdcmake.exe에 대한 [XDCMake 참조](http://msdn.microsoft.com/library/14e65747-d000-4343-854b-8393bf01cbac), [XML 문서 생성기 도구 속성 페이지](http://msdn.microsoft.com/library/645912b5-197a-4c36-ba58-64df09444ca0) 및 명령줄 도움말 옵션(**/?**)을 참조하세요.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  기본적으로 xdcmake.exe 도구는 몇 가지 명령줄 옵션을 지원합니다. **/old** 명령줄 옵션을 지정하면 추가 옵션이 지원됩니다.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -60,6 +55,3 @@ XML 문서 주석(.xdc) 파일을 .xml 파일에 병합하는 XML 문서 도구(
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

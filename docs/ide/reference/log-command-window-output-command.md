@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 23e6400df4323fc5bcf918448e35f6d4a2a9d767
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f582b4a2017985f6fcd1961c6da3899b3faa0180
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53830523"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958812"
 ---
 # <a name="log-command-window-output-command"></a>명령 창 출력 로그 명령
 **명령** 창의 모든 입력 및 출력을 파일로 복사합니다.

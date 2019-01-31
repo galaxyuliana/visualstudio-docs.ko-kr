@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 10f0c666-ac2f-4ac5-9fb5-a88f660ab840
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 64dc3965c94a8427c0a5112d7b08715991cf8cb5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fb0d126616827e496abc9cf45d4f54444c94a238
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53949604"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958825"
 ---
 # <a name="cores-view-timeline"></a>코어 뷰 타임라인
 타임라인의 각 행은 프로파일링된 시스템의 논리적 프로세서 코어를 나타냅니다. 각 행의 경우 가로 축은 지정된 시점에 논리 코어에서 실행된 스레드를 보여 줍니다. 타임라인에서 관심 있는 색을 가리켜 스레드를 식별하는 도구 설명으로 돌아갈 수 있습니다. 스레드 식별에 도움이 되도록 창 아래쪽의 범례는 각 색이 나타내는 것을 보여 줍니다. 클릭하고 끌어서 놓거나 CTRL 키를 누르고 마우스 휠을 이동하여 확대/축소하도록 확대/축소 도구를 사용합니다. 확대/축소 일관성은 코어 뷰와 스레드 뷰 사이를 전환할 때 유지 관리됩니다.  

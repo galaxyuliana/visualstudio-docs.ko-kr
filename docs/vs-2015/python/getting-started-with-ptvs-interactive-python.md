@@ -1,27 +1,22 @@
 ---
-title: 'PTVS 시작: 대화형 Python | Microsoft Docs'
-ms.custom: ''
+title: 'Ptvs 시작: 대화형 Python | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-python
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-python
+ms.topic: conceptual
 ms.assetid: fa594314-bdd0-4da5-874a-57b03414b675
 caps.latest.revision: 5
 author: kraigb
 ms.author: kraigb
-manager: ghogen
-ms.openlocfilehash: 7d9438d7d80480349dd53384c2538742a22b4d36
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4fba8bf658a50a7a7e28abace1eb622ab14f5f26
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49183913"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54780988"
 ---
-# <a name="getting-started-with-ptvs-interactive-python"></a>PTVS 시작: 대화형 Python
+# <a name="getting-started-with-ptvs-interactive-python"></a>Ptvs 시작: Interactive Python
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 대화형 프롬프트 또는 REPL(읽기-평가-인쇄 루프)은 생산적인 프로그래밍 언어의 핵심 도구입니다.  이러한 도구를 통해 코드 조각을 실행하여 API를 검색 및 학습하고, API 사용 방법을 실험하고, 프로젝트 또는 프로그램에 포함할 작업 코드를 대화형으로 개발할 수 있습니다.  
@@ -41,4 +36,3 @@ ms.locfileid: "49183913"
 ## <a name="see-also"></a>참고 항목  
  [Wiki 문서](https://github.com/Microsoft/PTVS/wiki/Interactive-REPL)   
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)(PTVS 시작 및 자세히 알아보기 동영상)
-

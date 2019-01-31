@@ -19,15 +19,15 @@ helpviewer_keywords:
 ms.assetid: f2085314-a3a8-4caf-a5a4-2af9ad5aad05
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8453f00dda843f6940c518b7ed3ea83c8c261476
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2f185aebdd23bffbcf7b793a9e3fbda4a0b55271
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989976"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959371"
 ---
 # <a name="macros-for-reporting"></a>보고서 매크로
 디버깅을 사용할 수 있습니다 합니다 **_RPTn** 하 고 **_RPTFn** crtdbg에서 정의 된 매크로 합니다. 사용을 대체 하려면 H `printf` 문입니다. 에 inclose 필요가 **#ifdef**s, 사용 중인 버전에서 자동으로 사라집니다 때문에 빌드에서 **_DEBUG** 정의 되어 있지 않습니다.  

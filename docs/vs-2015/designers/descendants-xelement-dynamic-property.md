@@ -1,25 +1,20 @@
 ---
 title: 하위 항목(XElement 동적 속성) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 9611d00f-23bf-444b-ab0c-f30701bfc13d
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 2a21527162a8204ec47c5af9630caf3041d8e220
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 8c89e04346a4b08d6ee7bbc0012ef52f3b648512
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49229933"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54789354"
 ---
 # <a name="descendants-xelement-dynamic-property"></a>하위 항목(XElement 동적 속성)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ elem.Descendants[{namespaceName}localName]
 ## <a name="property-valuereturn-value"></a>속성 값/반환 값  
  `IEnumerable<XElement> Item(String expandedName)` 형식의 인덱서입니다. 이 인덱서는 지정된 하위 요소의 확장된 이름을 사용하여 <xref:System.Collections.IEnumerable>`<`<xref:System.Xml.Linq.XElement>`>` 컬렉션에서 일치하는 자식 요소를 반환합니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 속성은 <xref:System.Xml.Linq.XContainer.Descendants%28System.Xml.Linq.XName%29?displayProperty=fullName> 클래스의 <xref:System.Xml.Linq.XContainer> 메서드와 동일합니다.  
   
  반환된 컬렉션의 요소는 XML 소스 문서 순서로 되어 있습니다.  
@@ -45,6 +40,3 @@ elem.Descendants[{namespaceName}localName]
 ## <a name="see-also"></a>참고 항목  
  [XAttribute 클래스 동적 속성](../designers/xelement-class-dynamic-properties.md)   
  [요소](../designers/elements-xelement-dynamic-property.md)
-
-
-

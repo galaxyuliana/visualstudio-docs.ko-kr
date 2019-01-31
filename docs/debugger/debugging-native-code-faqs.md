@@ -17,15 +17,15 @@ helpviewer_keywords:
 ms.assetid: 9a497032-cf73-441e-923b-4bbd5d37a6da
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: a38feec1e95dd474623924aca896a24753c8ae17
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2ced728eeba7fd1ae7a39bc885473f76c181dab5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866935"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54941194"
 ---
 # <a name="debugging-native-code-faqs"></a>네이티브 코드 디버깅 FAQ
 다음 항목은 자주 문의되는 몇 가지 질문에 대한 답입니다.  

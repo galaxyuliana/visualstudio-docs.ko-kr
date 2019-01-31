@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 67dfbede-2678-47df-b664-5c49841d0b9b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e816c559215d5662fe1a20dcad21eaf30f7667bc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4bbe801b749b60cd22ce8a980ea78b7713fa4422
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53868055"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54973891"
 ---
 # <a name="namesearchoptions"></a>NameSearchOptions
 기호 및 파일 이름에 대 한 검색 옵션을 지정합니다.  

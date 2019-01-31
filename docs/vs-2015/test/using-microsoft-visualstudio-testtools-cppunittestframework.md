@@ -1,24 +1,19 @@
 ---
 title: Microsoft.VisualStudio.TestTools.CppUnitTestFramework 사용 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: d1ac9188-d79f-407e-9f3a-80dbefa66317
 caps.latest.revision: 10
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 68f083bf6aa99177f6b9e697be8affa5d29804a8
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4315e4008c3a4f14e8d9124da5d7ff83c8275a65
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49889609"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54796930"
 ---
 # <a name="using-microsoftvisualstudiotesttoolscppunittestframework"></a>Microsoft.VisualStudio.TestTools.CppUnitTestFramework 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -657,8 +652,5 @@ public:
   
 ## <a name="see-also"></a>참고 항목  
  [코드 단위 테스트](../test/unit-test-your-code.md)   
- [테스트 탐색기를 사용하여 네이티브 코드 단위 테스트](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c)   
- [기존 C++ 응용 프로그램에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
-
-
-
+ [테스트 탐색기를 사용하여 네이티브 코드 단위 테스트](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)   
+ [기존 C++ 애플리케이션에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)

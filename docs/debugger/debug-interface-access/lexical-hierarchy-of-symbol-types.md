@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 912da653-ddfe-45a4-84aa-64281283739a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5695f2c2398a1abafb5325c85d5cd7e98324dab8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 47c32bdeee62216c17c7557d6651e608953b73b3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53904024"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54928986"
 ---
 # <a name="lexical-hierarchy-of-symbol-types"></a>기호 형식의 어휘 계층 구조
 다음 표에서 어휘 계층 구조에서 기호 형식을 보여 줍니다.  

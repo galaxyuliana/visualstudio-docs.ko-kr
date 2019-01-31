@@ -5,16 +5,16 @@ ms.topic: conceptual
 ms.assetid: d6d1122e-2f55-4607-8d8b-48c3c22600fb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 41704ad1f43dadee1efd16102281173215bad4e0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 275d281c8e127f5ef7278881244252615efd2827
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933786"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54966168"
 ---
 # <a name="how-to-extend-code-generated-by-the-or-designer"></a>방법: O/R 디자이너에서 생성한 코드 확장
 생성 된 코드를 **O/R 디자이너** 엔터티 클래스 및 디자이너 화면의 다른 개체에 변경 될 때 다시 생성 됩니다. 이러한 코드의 다시 생성으로 인해 일반적으로 디자이너에서 코드를 다시 생성하면 생성된 코드에 추가한 모든 코드를 덮어씁니다. 합니다 **O/R 디자이너** 코드를 덮어쓰지 않습니다를 추가할 수 있는 partial 클래스 파일을 생성 하는 기능을 제공 합니다. 사용자 고유의 코드에서 생성 한 코드를 추가 하는 한 가지 예는 **O/R 디자이너** 는 추가 데이터 유효성 검사 LINQ to SQL (엔터티) 클래스입니다. 자세한 내용은 [방법: 엔터티 클래스에 유효성 검사 추가](../data-tools/how-to-add-validation-to-entity-classes.md)를 참조하세요.

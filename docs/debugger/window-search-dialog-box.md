@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 9c30390d-dc3c-4c27-ae1a-9d92dc076d2b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8a57e0bacdbe12b889879eaca417127953f90beb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8dc95b38e755ec9d8e1b14be3c1045d5be0f0bd4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826272"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54951497"
 ---
 # <a name="window-search-dialog-box"></a>창 경로 대화 상자
 이 대화 상자를 사용 하 여 찾아서의 특정 창에 대 한 노드를 선택 [Windows 보기](../debugger/windows-view.md)합니다. 이 대화 상자를 표시 하려면 Windows 보기 창에 포커스를 이동 합니다. 선택한 **창 찾기** 에서 합니다 **검색** 메뉴.  

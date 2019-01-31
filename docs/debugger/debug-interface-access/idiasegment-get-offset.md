@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 97415ac6-b072-4e3c-9dd3-73087ae605fc
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1f78969d128443393c72f374c9ed63dd9ba0d1d1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8d0e12be0f6dbec2febc55a9fae6a010c8b61d4a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53832767"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54979009"
 ---
 # <a name="idiasegmentgetoffset"></a>IDiaSegment::get_offset
 섹션 시작 되는 세그먼트의 오프셋을 검색 합니다.  

@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b6608ede14ab35697462777fcd7b8f4a58e68358
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4239deccfb77bccc2a6f6637d5daf3176e1a3dab
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53831695"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54948247"
 ---
 # <a name="pen-tool-modifier-keys-in-blend"></a>Blend의 펜 도구 보조 키
 다음 표에는 **펜** 도구 ![펜 도구](../designers/media/d514358f-185a-412f-a55d-36633b25dc8a.png)를 사용하여 패스를 만드는 동안 패스를 수정하는 데 사용할 수 있는 바로 가기가 나와 있습니다. **펜** 도구를 사용하여 기존 패스에서 점을 추가 또는 제거하거나 두 개의 기존 패스를 연결할 수 있습니다.

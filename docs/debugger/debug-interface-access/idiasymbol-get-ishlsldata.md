@@ -7,15 +7,15 @@ dev_langs:
 ms.assetid: 4662058b-c505-4ccf-ae03-739a62c814ca
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b1bd237833e27c3c83a24345e6b7c436b40aa8b7
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 648d736f9b48952d370de3e033ee4dc80edccad6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875127"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926681"
 ---
 # <a name="idiasymbolgetishlsldata"></a>IDiaSymbol::get_isHLSLData
 이 기호 셰이더 언어 HLSL (High Level) 데이터를 나타내는지 여부를 지정 합니다.  

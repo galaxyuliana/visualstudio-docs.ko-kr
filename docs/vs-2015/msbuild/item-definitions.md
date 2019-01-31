@@ -1,27 +1,22 @@
 ---
 title: 항목 정의 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, item definitions
 ms.assetid: 8e3dc223-f9e5-4974-aa0e-5dc7967419cb
 caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 35506967ee20ff6c936e2de4a19d7860e154e4c5
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 08d91cbeb4424e2285a49e45d10c5ef2a0484afe
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49866573"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54796675"
 ---
 # <a name="item-definitions"></a>항목 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ ms.locfileid: "49866573"
   
 -   항목 형식은 여러 정의를 포함할 수 있습니다. 추가 메타데이터 사양이 형식에 추가되면 마지막 사양이 우선적으로 적용됩니다. \(메타데이터는 속성이 따르는 동일한 가져오기 순서를 따릅니다.\)  
   
--   메타데이터는 가산될 수 있습니다. 예를 들어 CDefines 값은 설정되는 속성에 따라 조건부로 누적됩니다. 예를 들어, `MT;STD_CALL;DEBUG;UNICODE`을 입력합니다.  
+-   메타데이터는 가산될 수 있습니다. 예를 들어 CDefines 값은 설정되는 속성에 따라 조건부로 누적됩니다. 예를 들어 `MT;STD_CALL;DEBUG;UNICODE`과 같은 형식입니다.  
   
 -   메타데이터는 제거될 수 있습니다.  
   
@@ -98,7 +93,7 @@ ms.locfileid: "49866573"
   
 - 마지막 사양이 우선적으로 적용됩니다.  
   
-  여러 ItemDefinitionGroup이 있는 경우 각 후속 사양은 해당 메타데이터를 이전 정의에 추가합니다. 예를 들어:  
+  여러 ItemDefinitionGroup이 있는 경우 각 후속 사양은 해당 메타데이터를 이전 정의에 추가합니다. 예:  
   
 ```  
 <ItemDefinitionGroup>  
@@ -116,7 +111,7 @@ ms.locfileid: "49866573"
   
  이 예제에서는 "o" 메타데이터는 "m"와 "n"에 추가됩니다.  
   
- 또한 이전에 정의된 메타데이터 값을 추가할 수도 있습니다. 예를 들어:  
+ 또한 이전에 정의된 메타데이터 값을 추가할 수도 있습니다. 예:  
   
 ```  
 <ItemDefinitionGroup>  
@@ -152,7 +147,7 @@ ms.locfileid: "49866573"
 ```  
   
 ## <a name="using-conditions-in-an-itemdefinitiongroup"></a>ItemDefinitionGroup에서 조건 사용  
- ItemDefinitionGroup에서 조건을 사용하여 메타데이터의 포함 여부를 제어할 수 있습니다. 예를 들어:  
+ ItemDefinitionGroup에서 조건을 사용하여 메타데이터의 포함 여부를 제어할 수 있습니다. 예:  
   
 ```  
 <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">  
@@ -167,7 +162,7 @@ ms.locfileid: "49866573"
 > [!NOTE]
 >  로컬 메타데이터 참조만 조건에서 지원됩니다.  
   
- 이전 ItemDefinitionGroup에 정의된 메타데이터에 대한 참조는 정의 그룹이 아닌 항목에 로컬입니다. 즉, 참조의 범위는 항목별로 고유합니다. 예를 들어:  
+ 이전 ItemDefinitionGroup에 정의된 메타데이터에 대한 참조는 정의 그룹이 아닌 항목에 로컬입니다. 즉, 참조의 범위는 항목별로 고유합니다. 예:  
   
 ```  
 <ItemDefinitionGroup>  
@@ -183,7 +178,7 @@ ms.locfileid: "49866573"
  항목이이 예제에서는 "i"이 조건에서 "test" 항목을 참조합니다.  
   
 ## <a name="overriding-and-deleting-metadata"></a>메타데이터 재정의 및 삭제  
- ItemDefinitionGroup 요소에 정의된 메타데이터는 메타데이터 값을 공백으로 설정하여 나중에 ItemDefinitionGroup 요소에서 재정의할 수 있습니다. 또한 빈 값으로 설정하면 메타데이터 항목을 효과적으로 삭제할 수 있습니다. 예를 들어:  
+ ItemDefinitionGroup 요소에 정의된 메타데이터는 메타데이터 값을 공백으로 설정하여 나중에 ItemDefinitionGroup 요소에서 재정의할 수 있습니다. 또한 빈 값으로 설정하면 메타데이터 항목을 효과적으로 삭제할 수 있습니다. 예:  
   
 ```  
 <ItemDefinitionGroup>  
@@ -234,7 +229,7 @@ ms.locfileid: "49866573"
 </ItemDefinitionGroup>  
 ```  
   
- [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 3.5부터 ItemGroup 또한 자체 참조될 수 있습니다. 예를 들어:  
+ [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 3.5부터 ItemGroup 또한 자체 참조될 수 있습니다. 예:  
   
 ```  
 <ItemGroup>  
@@ -247,6 +242,3 @@ ms.locfileid: "49866573"
   
 ## <a name="see-also"></a>참고 항목  
  [일괄 처리](../msbuild/msbuild-batching.md)
-
-
-

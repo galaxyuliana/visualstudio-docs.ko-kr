@@ -1,14 +1,9 @@
 ---
 title: 간략한 조사식 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - debug.quickwatch
 helpviewer_keywords:
@@ -18,13 +13,13 @@ ms.assetid: 9670ac3a-8f2f-4874-974d-cb87d3b0cde1
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: afe27d567601e43b10323f9dcc3417bcf15e9298
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: d8ee0de9cad23b6208c9b015c65a8d9494821eae
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49269414"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54789812"
 ---
 # <a name="quick-watch-command"></a>간략한 조사식 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ Debug.QuickWatchq [text]
  `text`  
  선택 사항입니다. **간략한 조사식** 대화 상자에 추가할 텍스트입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  `text`가 생략되면 커서에서 현재 선택된 텍스트 또는 단어가 조사식 창에 추가됩니다.  
   
 ## <a name="example"></a>예제  
@@ -57,6 +52,3 @@ Debug.QuickWatchq [text]
  [명령 창](../../ide/reference/command-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-
