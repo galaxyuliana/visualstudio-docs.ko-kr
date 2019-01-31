@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: ee733077-d17a-4439-8a49-bc2f5dbc60d0
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 02f88994bb5752a16e690522d35259b0853e997b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c4514f914569c6a28681ce5450d10913bbd7a22a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53879084"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55011691"
 ---
 # <a name="find-window-dialog-box"></a>창 찾기 대화 상자
 이 대화 상자를 사용 하 여 창을 선택 하 고 해당 속성이 나 메시지를 표시 합니다. 이 대화 상자를 표시 하려면 선택 **창 찾기** 에서 합니다 **Spy** 메뉴.  

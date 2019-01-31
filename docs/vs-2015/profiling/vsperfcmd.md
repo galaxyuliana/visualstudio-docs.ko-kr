@@ -1,14 +1,9 @@
 ---
 title: VSPerfCmd | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - performance tools, VSPerfCmd tool
 - command-line tools, VSPerfCmd tool
@@ -19,13 +14,13 @@ ms.assetid: 778bc105-7643-46c4-a338-f3620e31125a
 caps.latest.revision: 54
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: e8cd602a005026c8dec4bf5a309d6f04044b960d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: da82cbd8426b1a9af08e27577cdb76ca4a64d2e2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51766664"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54776100"
 ---
 # <a name="vsperfcmd"></a>VSPerfCmd
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,10 +61,10 @@ VSPerfCmd [/U] [/options]
   
 |옵션|설명|  
 |------------|-----------------|  
-|[Launch](../profiling/launch.md) **:** *Executable*|지정된 응용 프로그램을 시작하고 프로파일링을 시작합니다.|  
-|[Args](../profiling/args.md) **:** *Arguments*|시작된 응용 프로그램에 전달할 명령줄 인수를 지정합니다.|  
+|[Launch](../profiling/launch.md) **:** *실행 파일*|지정된 애플리케이션을 시작하고 프로파일링을 시작합니다.|  
+|[Args](../profiling/args.md) **:** *인수*|시작된 애플리케이션에 전달할 명령줄 인수를 지정합니다.|  
 |[콘솔](../profiling/console.md)|새 명령 프롬프트 창에서 지정된 명령을 시작합니다.|  
-|[Attach](../profiling/attach.md) **:** *PID*[**,**_PID_]|지정된 프로세스의 프로파일링을 시작합니다. 프로세스는 프로세스 ID 또는 프로세스 이름으로 식별할 수 있습니다.|  
+|[연결](../profiling/attach.md) **:** *PID*[**,**_PID_]|지정된 프로세스의 프로파일링을 시작합니다. 프로세스는 프로세스 ID 또는 프로세스 이름으로 식별할 수 있습니다.|  
 |[Detach](../profiling/detach.md)[**:**_PID_[,_PID_]]|지정된 프로세스의 프로파일링을 중지합니다. 프로세스는 프로세스 ID 또는 프로세스 이름으로 식별할 수 있습니다. 프로세스가 지정되지 않은 경우 모든 프로세스의 프로파일링이 중지됩니다.|  
 |[GC](../profiling/gc-vsperfcmd.md)[**:**{**Allocation**`&#124;`**Lifetime**}]|.NET 메모리 할당 및 개체 수명 데이터를 수집합니다. **VSPerfCmdLaunch** 옵션과 함께 사용하는 것만 가능합니다.|  
   
@@ -101,6 +96,3 @@ VSPerfCmd [/U] [/options]
  [VSInstr](../profiling/vsinstr.md)   
  [VSPerfMon](../profiling/vsperfmon.md)   
  [VSPerfReport](../profiling/vsperfreport.md)
-
-
-

@@ -16,15 +16,15 @@ helpviewer_keywords:
 - memory analyzer, JavaScript
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fca1abfe267d877dbe5eec45ecf29c9f73781ce8
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: 4c5773679cc3d9978d84da350a3aafa8415f2ab7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53962378"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54967958"
 ---
 # <a name="analyze-javascript-memory-usage-in-uwp-apps"></a>UWP 앱에서 JavaScript 메모리 사용량 분석
 Visual Studio에서 제공하는 JavaScript 메모리 분석기를 사용하면 JavaScript를 사용하여 Windows용으로 작성된 UWP 앱의 메모리 사용량을 파악하고 메모리 누수를 찾을 수 있습니다. 지원되는 앱으로는 유니버설 Windows 앱을 위한 앱이 있습니다.
@@ -348,7 +348,7 @@ if (performance && performance.mark) {
   
 -   메모리 누수 가능성이 있는 개체를 식별하려면 [메모리 누수 격리](#isolate-a-memory-leak)에 설명된 워크플로를 따르고 차이 뷰에서 **스냅숏 #\<number>에서 남은 개체** 필터를 사용합니다.  
   
--    [개체 트리에서 개체 찾기](#find-an-object-in-the-object-tree) 를 사용합니다. 루트 뷰는 개체의 루트 개체가 전역 개체가 되는 방식을 보여 줍니다. 이 경우 해당 개체는 가비지 수집되지 않습니다.  
+-   [개체 트리에서 개체 찾기](#find-an-object-in-the-object-tree) 를 사용합니다. 루트 뷰는 개체의 루트 개체가 전역 개체가 되는 방식을 보여 줍니다. 이 경우 해당 개체는 가비지 수집되지 않습니다.  
   
 -   메모리 문제의 원인을 식별하기 어려울 때는 여러 가지 뷰(예: 도미네이터 및 형식)를 사용하여 공통점을 찾습니다. 이는 특히 뷰에 표시된 여러 다른 개체에 대한 참조를 포함할 수 있는 하나의 개체(또는 몇 가지 개체)를 식별하는데 도움이 됩니다.  
   

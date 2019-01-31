@@ -16,15 +16,15 @@ helpviewer_keywords:
 - Text editor Options dialog box, formatting
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: b3c4aa17e31797c9c8bbfa1a931369f371977e26
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b66acd2ab44db0c38d714c805db152e338da9175
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53946411"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54925177"
 ---
 # <a name="options-text-editor-c-code-style-formatting"></a>옵션, 텍스트 편집기, C#, 코드 스타일, 서식 지정
 
@@ -39,7 +39,7 @@ ms.locfileid: "53946411"
 |레이블|설명|
 |-----------|-----------------|
 |**입력할 때 서식 자동 지정**|이 옵션을 선택 취소하면 **입력 시 문 서식 지정;** 및 **입력 시 블록 서식 지정}** 옵션이 비활성화됩니다.|
-| **입력 시 문 서식 자동 지정;**|이 옵션을 선택하면 편집기에 대해 선택된 서식 옵션에 따라 완성 시 문에 서식이 지정됩니다.|
+|**입력 시 문 서식 자동 지정;**|이 옵션을 선택하면 편집기에 대해 선택된 서식 옵션에 따라 완성 시 문에 서식이 지정됩니다.|
 |**입력 시 블록 서식 자동 지정}**|이 옵션을 선택하면 코드 블록을 완료하면 바로 편집기에 대해 선택된 서식 옵션에 따라 코드 블록에 서식이 지정됩니다.|
 |**반환할 때 서식 자동 지정**|이 옵션을 선택하면 **Enter** 키를 누를 때 텍스트가 편집기에 대해 선택된 서식 옵션에 맞게 서식 지정됩니다.|
 |**붙여넣을 때 서식 자동 지정**|이 옵션을 선택하면 편집기에 대해 선택된 서식 옵션에 맞게 편집기에 붙여넣는 텍스트에 서식이 지정됩니다.|

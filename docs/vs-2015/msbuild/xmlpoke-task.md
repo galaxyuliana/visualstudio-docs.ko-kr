@@ -1,14 +1,9 @@
 ---
 title: XmlPoke 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 dev_langs:
 - VB
 - CSharp
@@ -21,13 +16,13 @@ ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
 caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: cdf136574e3aad3e1af365491d560678edc80b36
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e635c7b57bc8653184e5a929c2a87f228056fb82
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49234236"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782566"
 ---
 # <a name="xmlpoke-task"></a>XmlPoke 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,12 +40,9 @@ XML 파일로의 XPath 쿼리에 의해 지정된 대로 값을 반환합니다.
 |`Value`|필수 <xref:Microsoft.Build.Framework.ITaskItem> 매개 변수입니다.<br /><br /> 출력 파일을 지정합니다.|  
 |`XmlInputPath`|선택적 <xref:Microsoft.Build.Framework.ITaskItem> 매개 변수입니다.<br /><br /> XML 입력을 파일 경로로 지정합니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 표에 나열된 매개 변수 외에, <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [작업](../msbuild/msbuild-tasks.md)   
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

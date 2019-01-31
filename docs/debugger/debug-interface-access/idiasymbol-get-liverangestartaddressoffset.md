@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: f5b28914-0a14-4b22-8259-59d7f97ee610
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 95c24788894c784cbe1d4b60dac3dbccf0350a85
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a3a7bf8786f2ca066248ada3f1a0473b85681315
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53851315"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54986997"
 ---
 # <a name="idiasymbolgetliverangestartaddressoffset"></a>IDiaSymbol::get_liveRangeStartAddressOffset
 로컬 기호의 유효 범위 시작 주소 오프셋된 부분을 반환 합니다.  
@@ -46,7 +46,7 @@ HRESULT get_liveRangeStartAddressOffset ( 
  섹션에 대 한 부분 주소를 가져오려면 [IDiaSymbol::get_liveRangeStartAddressSection](../../debugger/debug-interface-access/idiasymbol-get-liverangestartaddresssection.md)합니다.  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

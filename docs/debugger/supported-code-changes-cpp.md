@@ -20,15 +20,15 @@ helpviewer_keywords:
 ms.assetid: f5754363-8a56-417b-b904-b05d9dd26d03
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 03b5c279e3d6aeee6cf0b5f0d9ad2e05e9d22fc6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2064d38400172a3aa7a653cd900431d8b24dcf01
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53917672"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018558"
 ---
 # <a name="supported-code-changes-c"></a>지원되는 코드 변경(C++)
 Visual C++용 편집하며 계속하기에서는 대부분의 코드 변경 유형을 처리합니다. 그러나 일부 변경 내용은 프로그램을 실행하는 동안 적용할 수 없습니다. 이러한 변경 내용을 적용하려면 실행을 중지하고 새로운 버전의 코드를 빌드해야 합니다.  

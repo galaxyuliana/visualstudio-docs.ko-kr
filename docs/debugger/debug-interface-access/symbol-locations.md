@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 7c8cd8fe-169e-4161-9cff-5e9015984add
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 892c9f3b200466b22d847063ce2a60cf63301e5a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 285ec62b5cfa0fbff081ccf994633663f69b847a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53915077"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54987524"
 ---
 # <a name="symbol-locations"></a>기호 위치
 대부분의 기호에는 이미지 파일 내에서 정의 된 위치는 있습니다. 값을 사용 하 여 기호 위치를 지정 합니다 [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md) 열거형입니다. 기호 위치에 따라 추가 속성을 지원할 수 있습니다.  

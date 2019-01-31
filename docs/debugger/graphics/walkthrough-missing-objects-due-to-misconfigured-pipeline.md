@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: ed8ac02d-b38f-4055-82fb-67757c2ccbb9
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4619876794abb07a76a38af78d21e51f8a1e86dc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cad880d3c16d2118364a0d9fbce17261b814619b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863971"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54931901"
 ---
 # <a name="walkthrough-missing-objects-due-to-misconfigured-pipeline"></a>연습: 잘못 구성된 파이프라인으로 인해 누락된 개체
 이 연습에서는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 그래픽 진단 도구를 사용하여 설정되지 않은 픽셀 셰이더로 인해 누락된 개체를 조사하는 방법을 보여 줍니다.  

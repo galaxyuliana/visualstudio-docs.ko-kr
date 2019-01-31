@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: caaec619-900c-4790-90e3-8c91f5347635
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 35a6d98a476a8a9612cb5bfb80e7fa8b2f00c4ed
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e414a3d1bc512b15912eb73e3befb575d1437ca2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53864023"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54945738"
 ---
 # <a name="how-to-enable-autostart-for-cd-installations"></a>방법: CD 설치를 위한 자동 시작 사용
 배포 하는 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 설정할 수 있습니다. 예: CD-ROM 또는 DVD-ROM 이동식 미디어를 사용 하 여 응용 프로그램 `AutoStart` 있도록는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에 미디어를 삽입 하는 경우 응용 프로그램은 자동으로 시작 됩니다.  

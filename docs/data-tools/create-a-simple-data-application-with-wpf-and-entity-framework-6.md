@@ -6,16 +6,16 @@ dev_langs:
 - CSharp
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 4fa897ff92cb6956bef59dfcb7a860b24d0d8bae
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: d5c6a5a1e7dab8f52dc098fb14a1f872d14eedcd
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53885746"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54959229"
 ---
 # <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>WPF 및 Entity Framework 6을 사용하여 간단한 데이터 애플리케이션 만들기
 

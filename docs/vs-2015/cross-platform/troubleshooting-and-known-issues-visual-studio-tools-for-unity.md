@@ -1,25 +1,20 @@
 ---
 title: 문제 해결 및 알려진 문제(Visual Studio Tools for Unity) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-unity-tools
+ms.topic: troubleshooting
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 caps.latest.revision: 7
 author: conceptdev
 ms.author: crdun
-manager: ghogen
-ms.openlocfilehash: 94240d5af43944b23890a32b757fe1b4f14b77ec
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f614188d6a4a9855af072b200c71633ef7a2bd57
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51755511"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54776844"
 ---
 # <a name="troubleshooting-and-known-issues-visual-studio-tools-for-unity"></a>문제 해결 및 알려진 문제(Visual Studio Tools for Unity)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,4 +76,3 @@ ms.locfileid: "51755511"
     **명령** 창이 먼저 표시되도록 해야 할 수 있습니다. Visual Studio의 주 메뉴에서 **보기**, **다른 창**, **명령 창**을 선택합니다.  
   
 6. 마지막으로 Visual Studio가 중지되었을 때 수행한 작업에 대한 설명과 함께 스레드 덤프를 [vstusp@microsoft.com](mailto:vstusp@microsoft.com)으로 보냅니다.
-

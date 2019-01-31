@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: c99a2c44-7b72-4e3c-b963-25fe3df3a555
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: df042bc8edcdf8e93ba775797f1d099b24e90343
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 50d38204155e12f65856f60e2b9df7f10837b515
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863724"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920933"
 ---
 # <a name="idiatable"></a>IDiaTable
 DIA 데이터 원본 테이블을 열거합니다.  
@@ -131,7 +131,7 @@ void UseTable(IDiaSession *pSession)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 6b388fe1-eabc-4720-9d59-dc09b0ceaeac
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e098f15238cdf84121cae81685191047c4b04447
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a51367ae2a65ac50c87aee5c9f8be2910fb1c948
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53963342"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55038580"
 ---
 # <a name="idiaenumdebugstreamsitem"></a>IDiaEnumDebugStreams::Item
 인덱스 또는 이름을 사용 하 여 디버그 스트림을 검색 합니다.  

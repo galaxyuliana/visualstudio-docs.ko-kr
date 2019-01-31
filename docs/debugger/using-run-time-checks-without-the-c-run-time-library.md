@@ -20,15 +20,15 @@ helpviewer_keywords:
 ms.assetid: 30ed90f3-9323-4784-80a4-937449eb54f6
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1ae0b5831ef6007832438c4d589c4385711666dc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b440c2e95432dfa543d7e9aacae1256b27929de1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53921931"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020193"
 ---
 # <a name="using-run-time-checks-without-the-c-run-time-library"></a>C 런타임 라이브러리 없이 런타임 검사 사용
 C 런타임 라이브러리 없이 프로그램을 연결 하면 사용 하 여 **/NODEFAULTLIB**, 및 런타임 검사 기능을 사용 하려면 runtmchk.lib에 연결 해야 합니다.  

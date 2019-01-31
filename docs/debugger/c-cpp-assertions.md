@@ -25,15 +25,15 @@ helpviewer_keywords:
 ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 6428f79085ca2a79fdc02a6d4d4ceb191d02f5bb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 714a865997b318bd9984a9e913d1b6ea070a47b2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53894391"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54965006"
 ---
 # <a name="cc-assertions"></a>C/C++ 어설션
 어설션 문은 프로그램의 지점에서 true가 될 예상 하는 조건을 지정 합니다. 어설션이 실패 하 여 프로그램의 실행이 중단 되며 해당 조건이 true가 아닐 경우와 [어설션 오류 대화 상자](../debugger/assertion-failed-dialog-box.md) 나타납니다.  

@@ -17,15 +17,15 @@ helpviewer_keywords:
 ms.assetid: ccee6551-a1b9-4ca2-8845-9c1cf4ac2560
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 652c7eee2e4b3830966882afd4a9b9b31c8aceb3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6dac1a48db34f1b3a5a9dbdbac4469344f3e5383
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923272"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55001724"
 ---
 # <a name="walkthrough-manually-deploy-a-clickonce-application"></a>연습: 수동으로 ClickOnce 응용 프로그램 배포
 배포 하려면 Visual Studio를 사용할 수 없는 경우에 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 고급 배포 기능을 사용 해야 하는 응용 프로그램을 신뢰할 수 있는 응용 프로그램 배포와 같은 사용 해야 합니다 *Mage.exe* 사용자를만들려면명령줄도구[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 매니페스트 합니다. 이 연습에는 만드는 방법을 설명 합니다는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 명령줄 버전을 사용 하 여 배포 (*Mage.exe*) 또는 그래픽 버전 (*MageUI.exe*) 매니페스트 생성 및 도구를 편집 합니다.  

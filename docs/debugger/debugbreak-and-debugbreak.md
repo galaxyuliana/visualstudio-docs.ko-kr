@@ -16,15 +16,15 @@ helpviewer_keywords:
 ms.assetid: 9787c795-df94-4f48-bc8d-3bf899b67421
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: db3af2a2bef69a9329a20523ad5bed4444631410
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cb05c054ffc5dd273b532f72afe0ca046adbe606
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53933851"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55041726"
 ---
 # <a name="debugbreak-and-debugbreak"></a>DebugBreak 및 __debugbreak
 코드의 어떤 위치에서든 DebugBreak Win32 함수 또는 [__debugbreak](/cpp/intrinsics/debugbreak) 내장 함수를 호출할 수 있습니다. `DebugBreak` 및 `__debugbreak`는 해당 위치에 중단점을 설정하는 것과 같은 효과가 있습니다.  

@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 601a193e-432a-417b-9406-6fec9e401264
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: acd3df773748fe85832868b0286613f86ecbe8a1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5b31bd0a1eea92fcc881f3be008ce0ea633782de
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53847102"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54967195"
 ---
 # <a name="how-to-open-messages-view-from-find-window"></a>방법: 창 찾기에서 메시지 뷰 열기
 편리 하 게 사용 하 여 찾을 수 있습니다 합니다 **창 찾기** 대상 창을 연 다음 해당 창 메시지 뷰 대화 상자.  

@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: abab6d34-c3c2-45c1-a8b6-43c7d3131e7a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c2f0ba5d49e0c8a02755bfc9d23d486dcf7f2943
-ms.sourcegitcommit: 73861cd0ea92e50a3be1ad2a0ff0a7b07b057a1c
+ms.openlocfilehash: b19bba65ebfb8ecec778f33211cfb127acc612bc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54154352"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55008688"
 ---
 # <a name="clickonce-security-and-deployment"></a>ClickOnce 보안 및 배포
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 게시 및 Visual Basic 및 시각적 개체를 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 C#입니다. Visual c + + 응용 프로그램을 배포 하는 방법에 대 한 내용은 [Visual c + + 응용 프로그램에 대 한 ClickOnce 배포](/cpp/ide/clickonce-deployment-for-visual-cpp-applications)합니다.  

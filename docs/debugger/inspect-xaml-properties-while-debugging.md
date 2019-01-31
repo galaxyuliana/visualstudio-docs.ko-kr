@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: abb045b2fb0a1a465d4a5c4eb9efb33b6559b40f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ca0ed45ad3f274e6d7fa79734acfd6fabace9bf2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53856432"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54917956"
 ---
 # <a name="inspect-xaml-properties-while-debugging"></a>디버그하는 동안 XAML 속성 검사
 **라이브 시각적 트리** 및 **라이브 속성 탐색기**를 사용하여 실행 중인 XAML 코드를 실시간으로 볼 수 있습니다. 이러한 도구는 실행 중인 XAML 응용 프로그램의 UI 요소에 대한 트리 뷰를 제공하고 선택한 UI 요소의 런타임 속성을 보여 줍니다.  
