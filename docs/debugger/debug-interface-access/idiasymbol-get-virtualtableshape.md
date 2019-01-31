@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 92360cbd-0761-446e-93f9-04dc8f4b66c6
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 031bbac4549c08de4e03f1cbabf171d3d54d1c09
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1147635a3558f1743578acbedb59738dec7d9ca6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53965955"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55016891"
 ---
 # <a name="idiasymbolgetvirtualtableshape"></a>IDiaSymbol::get_virtualTableShape
 사용자 정의 형식에 대 한 가상 테이블 형식의 기호 인터페이스를 검색합니다.  

@@ -1,27 +1,22 @@
 ---
 title: 동시성 시각화 도우미 SDK | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.cv.sdk.about
 ms.assetid: 4b22cdf9-59b1-4c88-a6d8-1644a4a11e08
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: d98a5383a330242110bef860b9dc19a2fb6bef87
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 40c9c3d2da03b70b75f5c2edd8c256e1e35ea0b4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51754826"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769323"
 ---
 # <a name="concurrency-visualizer-sdk"></a>동시성 시각화 도우미 SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -135,6 +130,3 @@ ms.locfileid: "51754826"
 |[C 라이브러리 참조](../profiling/c-library-reference.md)|C용 동시성 시각화 도우미 API를 설명합니다.|  
 |<xref:Microsoft.ConcurrencyVisualizer.Instrumentation>|관리 코드용 동시성 시각화 도우미 API를 설명합니다.|  
 |[동시성 시각화 도우미](../profiling/concurrency-visualizer.md)|동시성 방법을 사용하여 생성되고 스레드 실행 데이터를 포함하는 프로파일링 데이터 파일의 뷰 및 보고서에 대한 정보를 참조합니다.|
-
-
-

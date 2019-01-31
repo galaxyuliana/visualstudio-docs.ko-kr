@@ -18,15 +18,15 @@ helpviewer_keywords:
 ms.assetid: b7ce8696-ebb8-4354-a767-f76b8ada4ac1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4e67d5ed5fbab83edb9b2aeea99e22a71c52424e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9e6969d8bf49390e0dd79a1a201e272bc0aae84e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923983"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015292"
 ---
 # <a name="com-server-and-container-debugging"></a>COM 서버 및 컨테이너 디버깅
 COM 응용 프로그램은 프로그래머가 직접 제어할 수 없는 많은 작업을 수행합니다. DLL 사이의 통신, 개체 사용 횟수, 클립보드 작업 등 제한된 몇 가지 영역에서 프로그램이 비정상적으로 작동할 수 있습니다. 이러한 문제가 발생하면 먼저 문제가 발생한 위치를 추적해야 합니다.  

@@ -1,14 +1,9 @@
 ---
-title: '방법: 편집기에서 줄 번호 표시 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 편집기에서 줄 번호 표시 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
 - line numbers, displaying
 - Code Editor, line numbers
@@ -18,13 +13,13 @@ ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 175abe3eb597289c3e546aaec17aad9379981260
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f4b38f39fbb7b1f72622be58ee049554cb04f02f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49274458"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54800745"
 ---
 # <a name="how-to-display-line-numbers-in-the-editor"></a>방법: 편집기에서 줄 번호 표시
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ ms.locfileid: "49274458"
 코드에 줄 번호를 표시하거나 숨길 수 있습니다.  
   
 > [!NOTE]
->  활성 설정에 따라 화면에 나타나는 대화 상자와 메뉴 명령이 여기에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구/설정 가져오기 및 내보내기**를 엽니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  활성 설정에 따라 화면에 나타나는 대화 상자와 메뉴 명령이 여기에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구/설정 가져오기 및 내보내기**를 엽니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="display-line-numbers-in-code"></a>코드에 줄 번호 표시  
  줄 번호는 코드에 추가되지 않으며 참조용으로만 사용됩니다. 줄 번호를 인쇄하려면 **인쇄** 대화 상자에서 **줄 번호 포함** 확인란을 선택합니다.  
@@ -51,6 +46,3 @@ ms.locfileid: "49274458"
  [편집기 사용자 지정](../../ide/customizing-the-editor.md)   
  [옵션 대화 상자, 텍스트 편집기](../../ide/reference/text-editor-options-dialog-box.md)   
  [코드 작성](../../ide/writing-code-in-the-code-and-text-editor.md)
-
-
-

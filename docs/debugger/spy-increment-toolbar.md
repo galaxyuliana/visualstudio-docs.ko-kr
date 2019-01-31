@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 949c18fb-bb25-42ed-9130-c4a47869f24d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1df2ad55bd154e92072d1bb0dac6ebffe24fbcb3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a7a3213d614caa19fb6df77a72efd05e36484c77
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53884648"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54982678"
 ---
 # <a name="spy-toolbar"></a>Spy++ 도구 모음
 도구 모음 Spy + +의 메뉴 모음 아래에 나타납니다. 표시 하거나 도구 모음에서 숨기기 합니다 **뷰** 메뉴에서 클릭 **도구 모음**합니다.  

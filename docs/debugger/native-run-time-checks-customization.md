@@ -19,15 +19,15 @@ helpviewer_keywords:
 ms.assetid: 76a365fe-6439-49db-8603-34058b78e5a8
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 7530f875b3eb14766e32b1237871e6ec48d4bb85
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 450c69ccffaa35b9dbe519782b28067e6f2beb8f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53836246"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54954087"
 ---
 # <a name="native-run-time-checks-customization"></a>네이티브 런타임 검사 사용자 지정
 로 컴파일할 때 **/RTC** (런타임 검사) 사용 하 여 또는 `runtime_checks` pragma를 C 런타임 라이브러리 네이티브 런타임 검사를 제공 합니다. 다음과 같은 경우에는 CRT 런타임 검사를 사용자 지정할 수도 있습니다.  

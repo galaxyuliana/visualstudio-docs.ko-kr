@@ -1,14 +1,9 @@
 ---
 title: 스레드 뷰(병렬 성능) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.performance.view.threadblocking
 helpviewer_keywords:
@@ -17,20 +12,20 @@ ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 39457684ba19ecbb0ad2ef82caa349e67cdaf8a7
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 34fe3cecc07d567c362e0dbdde3eb271c80dd61c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51756330"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54756806"
 ---
 # <a name="threads-view-parallel-performance"></a>스레드 뷰(병렬 성능)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 스레드 뷰는 Concurrency 시각화에서 가장 자세하며 다양한 기능을 제공하는 뷰입니다. 이 보기를 사용하면 동기화, I/O 또는 기타 이유로 인해 스레드가 차단되는지 아니면 실행되고 있는지를 확인할 수 있습니다.  
   
- 프로필 분석 중에 Concurrency 시각화는 각 응용 프로그램 스레드에 대해 모든 운영 체제 컨텍스트 전환 이벤트를 검사합니다. 컨텍스트 전환은 다음과 같은 여러 가지 이유로 인해 발생할 수 있습니다.  
+ 프로필 분석 중에 Concurrency 시각화는 각 애플리케이션 스레드에 대해 모든 운영 체제 컨텍스트 전환 이벤트를 검사합니다. 컨텍스트 전환은 다음과 같은 여러 가지 이유로 인해 발생할 수 있습니다.  
   
 - 스레드가 동기화 기본 형식에서 차단되는 경우  
   
@@ -62,7 +57,7 @@ ms.locfileid: "51756330"
 -   작업자 스레드 및 중요한 실행 경로 간의 종속성을 이해합니다.  
   
 ## <a name="examining-specific-time-intervals-and-threads"></a>특정 시간 간격 및 스레드 검사  
- 스레드 뷰에는 시간 표시 막대가 표시됩니다. 시간 표시 막대 내에서 확대/축소 및 이동하여 응용 프로그램의 특정 간격 및 스레드를 검사할 수 있습니다. x축에는 시간이 표시되고 y축에는 여러 채널이 표시됩니다.  
+ 스레드 뷰에는 시간 표시 막대가 표시됩니다. 시간 표시 막대 내에서 확대/축소 및 이동하여 애플리케이션의 특정 간격 및 스레드를 검사할 수 있습니다. x축에는 시간이 표시되고 y축에는 여러 채널이 표시됩니다.  
   
 - 시스템의 각 디스크 드라이브에 해당하는 2개 I/O 채널(쓰기용 채널과 읽기용 채널 1개씩)  
   
@@ -77,7 +72,7 @@ ms.locfileid: "51756330"
   ![스레드 뷰](../profiling/media/threadsviewnarrowing.png "ThreadsViewNarrowing")  
   스레드 뷰  
   
-  초기에는 스레드가 만들어진 순서로 정렬되므로 주 응용 프로그램 스레드가 맨 먼저 표시됩니다. 뷰의 왼쪽 위에 있는 정렬 옵션을 사용하여 실행 작업이 가장 많이 수행된 순서대로 스레드를 정렬하는 등 다른 기준에 따라 스레드를 정렬할 수 있습니다.  
+  초기에는 스레드가 만들어진 순서로 정렬되므로 주 애플리케이션 스레드가 맨 먼저 표시됩니다. 뷰의 왼쪽 위에 있는 정렬 옵션을 사용하여 실행 작업이 가장 많이 수행된 순서대로 스레드를 정렬하는 등 다른 기준에 따라 스레드를 정렬할 수 있습니다.  
   
   왼쪽의 열에서 스레드 이름을 선택하고 도구 모음에서 **선택한 스레드를 숨깁니다.** 단추를 선택하여 작업을 수행하고 있지 않은 스레드를 숨길 수 있습니다. 통계가 관련성이 없으며 보고서에 불필요하게 포함되므로 완전히 차단된 스레드를 숨기는 것이 좋습니다.  
   
@@ -126,7 +121,7 @@ ms.locfileid: "51756330"
  선택한 스레드의 차단을 해제한 스레드 및 차단이 해제된 코드 줄을 확인하려면 **차단 해제 스택** 탭을 선택합니다.  
   
 #### <a name="execution"></a>실행  
- 실행 보고서에는 응용 프로그램의 실행에 소요된 시간을 분석한 정보가 표시됩니다.  
+ 실행 보고서에는 애플리케이션의 실행에 소요된 시간을 분석한 정보가 표시됩니다.  
   
  실행 시간이 소요된 코드 줄을 찾으려면 호출 트리를 확장하고 호출 트리 항목의 바로 가기 메뉴에서 **소스 보기** 또는 **호출 사이트 보기**를 선택합니다. **소스 보기**를 선택하면 실행된 코드 줄을 찾습니다. **호출 사이트 보기**를 선택하면 실행된 코드 줄을 호출한 코드 줄을 찾습니다. 호출 사이트가 하나뿐이면 해당 코드 줄이 강조 표시됩니다. 호출 사이트가 여러 개인 경우 표시되는 대화 상자에서 원하는 사이트를 선택한 다음 **소스로 이동** 단추를 선택하여 호출 사이트 코드를 강조 표시할 수 있습니다. 이러한 기능은 인스턴스가 가장 많거나, 시간이 가장 길거나, 인스턴스도 가장 많고 시간도 가장 긴 호출 사이트를 찾는 데 매우 유용한 경우가 많습니다. 자세한 내용은 [실행 프로필 보고서](../profiling/execution-profile-report.md)를 참조하세요.  
   
@@ -156,6 +151,3 @@ ms.locfileid: "51756330"
   
 ## <a name="see-also"></a>참고 항목  
  [동시성 시각화 도우미](../profiling/concurrency-visualizer.md)
-
-
-

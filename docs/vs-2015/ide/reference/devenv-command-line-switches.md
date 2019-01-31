@@ -1,14 +1,9 @@
 ---
 title: Devenv 명령줄 스위치 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
 - switches, Devenv
 - builds [Team System], command-line
@@ -25,13 +20,13 @@ ms.assetid: e12bc6ed-74fd-4bea-8d7c-89b99c20bad8
 caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 7ee1596cf59fb4ba9b21772cdabc0c875ef8779a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c3e6a888a5f904c194bcdb6f5c844dbed3084449
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49215036"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54754973"
 ---
 # <a name="devenv-command-line-switches"></a>Devenv 명령줄 스위치
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -83,7 +78,7 @@ Devenv를 사용하면 IDE(통합 개발 환경)에 대한 다양한 옵션을 �
 |[/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md) or `/r`|지정한 솔루션을 컴파일하고 실행합니다.|  
 |[/Runexit (devenv.exe)](../../ide/reference/runexit-devenv-exe.md)|지정한 솔루션을 컴파일 및 실행하고, 솔루션 실행 시 IDE를 최소화하고, 솔루션 실행이 완료되면 IDE를 닫습니다.|  
 |[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|IDE에서 **옵션** 대화 상자, **프로젝트** 옵션의 VC++ 디렉터리 섹션에 지정된 설정 대신 PATH, INCLUDE 및 LIB 환경 변수를 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 컴파일에 사용하도록 합니다. 자세한 내용은 [명령줄 빌드에 맞는 경로 및 환경 변수 설정](http://msdn.microsoft.com/library/99389528-deb5-43b9-b99a-03c8773ebaf4)을 참조하세요.|  
-|[/Edit (devenv.exe)](../../ide/reference/edit-devenv-exe.md)|이 응용 프로그램의 실행 중인 인스턴스에서 지정한 파일을 엽니다. 실행 중인 인스턴스가 없으면 간단한 창 레이아웃을 사용하여 새 인스턴스를 시작합니다.|  
+|[/Edit (devenv.exe)](../../ide/reference/edit-devenv-exe.md)|이 애플리케이션의 실행 중인 인스턴스에서 지정한 파일을 엽니다. 실행 중인 인스턴스가 없으면 간단한 창 레이아웃을 사용하여 새 인스턴스를 시작합니다.|  
 |[/ResetAddin (devenv.exe)](../../ide/reference/resetaddin-devenv-exe.md)|지정한 추가 기능을 로드하지 않고 Visual Studio IDE 인스턴스를 시작합니다.|  
 |[/SafeMode (devenv.exe)](../../ide/reference/safemode-devenv-exe.md)|안전 모드에서 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작하고 기본 환경 및 서비스와 타사 패키지의 배송된 버전만 로드합니다.|  
 |[/ResetSkipPkgs (devenv.exe)](../../ide/reference/resetskippkgs-devenv-exe.md)|문제 VSPackage를 로드하지 않으려는 사용자가 VSPackage에 추가한 SkipLoading 태그를 모두 지웁니다.|  
@@ -109,6 +104,3 @@ Devenv를 사용하면 IDE(통합 개발 환경)에 대한 다양한 옵션을 �
   
 ## <a name="see-also"></a>참고 항목  
  [옵션 대화 상자, 환경, 일반](../../ide/reference/general-environment-options-dialog-box.md)
-
-
-

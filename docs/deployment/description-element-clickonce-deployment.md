@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 18f6919e-a3ab-4942-a57d-167fabfac44e
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d0ad2399cf43b8e86bd45e9c33dd421eeb55416f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6c926da377688b1248daa01f015cda7914434a36
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828815"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55013901"
 ---
 # <a name="ltdescriptiongt-element-clickonce-deployment"></a>&lt;설명&gt; 요소 (ClickOnce 배포)
 셸에 표시를 만드는 데 사용 되는 응용 프로그램 정보를 식별 하 고 **프로그램 추가 / 제거** 제어판 항목입니다.  

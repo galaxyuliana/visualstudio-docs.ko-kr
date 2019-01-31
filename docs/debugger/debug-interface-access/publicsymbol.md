@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: f8d33007-302d-4549-9dad-47fb33ea60b7
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8466a828c0791f931d4b94f646e258c08a2b1bde
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 32b5264db1a103c23f4f24aa4fa3a411e6bac614
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53918942"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55024619"
 ---
 # <a name="publicsymbol"></a>PublicSymbol
 (최소, 각 전역 함수 및 데이터 기호)에 있는 각 공용 기호는 지정 된.exe 파일을 만든 경우는 `SymTagPublicSymbol` 태그입니다.  

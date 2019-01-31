@@ -1,14 +1,9 @@
 ---
 title: 메모리 할당 및 개체 수명 데이터 값 이해 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - .NET memory profiling method
 - Profiling Tools, .NET memory method
@@ -16,13 +11,13 @@ ms.assetid: a22445b3-39a6-4919-8506-2b5b0ceaf77e
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 3df4fe3189078da07f282b6f323ca697c763a08b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9ddfc891126e5018757f50a1a04378793fe83c53
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51793726"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54763157"
 ---
 # <a name="understanding-memory-allocation-and-object-lifetime-data-values"></a>메모리 할당 및 개체 수명 데이터 값 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ ms.locfileid: "51793726"
   
 - [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
-  메모리 프로파일러는 프로파일링된 응용 프로그램에서 .NET Framework 개체를 할당할 때마다 컴퓨터 프로세서를 중단시킵니다. 개체 수명 데이터도 수집되는 경우 프로파일러는 각 .NET Framework 가비지 수집 후에 프로세서를 중단합니다. 데이터는 프로파일링된 각 함수와 각 개체 유형에 대해 집계됩니다.  
+  메모리 프로파일러는 프로파일링된 애플리케이션에서 .NET Framework 개체를 할당할 때마다 컴퓨터 프로세서를 중단시킵니다. 개체 수명 데이터도 수집되는 경우 프로파일러는 각 .NET Framework 가비지 수집 후에 프로세서를 중단합니다. 데이터는 프로파일링된 각 함수와 각 개체 유형에 대해 집계됩니다.  
   
 ## <a name="allocation-data"></a>할당 데이터  
  메모리 이벤트가 발생하면 할당되거나 삭제된 메모리 개체의 총 개수와 크기가 증가합니다.  
@@ -45,9 +40,6 @@ ms.locfileid: "51793726"
 -   프로파일러는 호출 스택에 있는 다른 모든 함수의 포괄 샘플 개수를 증가시킵니다.  
   
 ## <a name="lifetime-data"></a>수명 데이터  
- .NET Framework의 가비지 수집기는 응용 프로그램의 메모리 할당 및 해제를 관리합니다. 가비지 수집기의 성능을 최적화하기 위해 관리되는 힙은 0세대, 1세대 및 2세대의 3개 세대로 나뉩니다. 런타임 가비지 수집기는 0세대에서 새 개체를 저장합니다. 수집이 완료된 후에 남아 있는 개체는 승격되어 1세대 및 2세대에 저장됩니다.  
+ .NET Framework의 가비지 수집기는 애플리케이션의 메모리 할당 및 해제를 관리합니다. 가비지 수집기의 성능을 최적화하기 위해 관리되는 힙은 0세대, 1세대 및 2세대의 3개 세대로 나뉩니다. 런타임 가비지 수집기는 0세대에서 새 개체를 저장합니다. 수집이 완료된 후에 남아 있는 개체는 승격되어 1세대 및 2세대에 저장됩니다.  
   
- 가비지 수집기는 전체 개체 세대의 할당을 취소하여 메모리를 회수합니다. 프로파일링된 응용 프로그램이 만든 개체의 경우 개체 수명 뷰에는 개체의 수/크기와 해당 개체가 회수된 세대가 표시됩니다.
-
-
-
+ 가비지 수집기는 전체 개체 세대의 할당을 취소하여 메모리를 회수합니다. 프로파일링된 애플리케이션이 만든 개체의 경우 개체 수명 뷰에는 개체의 수/크기와 해당 개체가 회수된 세대가 표시됩니다.

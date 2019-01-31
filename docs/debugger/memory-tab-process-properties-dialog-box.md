@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: a70785f2-5997-40ec-a90f-80a52449768b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 780f741e20ed6a7a328904d7ddcadfb0025ac869
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ccafbcf829b78fa4e1c12b3a46c46dfa59e3e863
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53886516"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54996404"
 ---
 # <a name="memory-tab-process-properties-dialog-box"></a>프로세스 속성 대화 상자, 메모리 탭
 사용 된 **메모리** 프로세스가 메모리를 사용 하는 방법을 표시 하는 탭 합니다. 표시할 합니다 [프로세스 속성 대화 상자](../debugger/process-properties-dialog-box.md), 포커스를 이동 하는 [프로세스 뷰에](../debugger/processes-view.md) 창입니다. 선택한 프로세스 노드 트리에서 선택 **속성** 에서 합니다 **보기** 메뉴.  

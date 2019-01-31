@@ -1,14 +1,9 @@
 ---
 title: -ResetAddin(devenv.exe) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
 - disable addin
 - addin state
@@ -17,13 +12,13 @@ ms.assetid: 9e339c8d-d768-4d86-8f45-2f479fc8255b
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f1b53a30845ca4b20372fb5a6e3552f31f3c1b60
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 1400e61487a7ad052d5a516019e76149e8e3d31e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49950526"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54755056"
 ---
 # <a name="resetaddin-devenvexe"></a>/ResetAddin(devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +36,7 @@ Devenv /ResetAddin AddIn
  `AddIn`  
  선택 사항입니다. 추가 기능의 명령 이름입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  기본적으로 추가 기능의 명령 이름은 *\<AddInSolutionName>*.Connect<em>.\<AddInSolutionName></em>과 같고 Connect.cs에 `Exec` 메서드의 `commandName` 매개 변수로 표시됩니다. 먼저 Visual Studio의 명령 창에 추가 기능 이름을 입력하고 IntelliSense를 사용하여 나머지 부분을 입력하는 방식으로 명령 이름을 확인할 수도 있습니다.  
   
 ## <a name="example"></a>예제  
@@ -52,8 +47,5 @@ Devenv.exe /ResetAddin MyAddin.Connect.MyAddin
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
  [Devenv 명령줄 스위치](../../ide/reference/devenv-command-line-switches.md)
-
-
-

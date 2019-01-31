@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: e144e70e-eef2-45a7-a562-a177f177d9a1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b898713b456afd72f6453bad01028af9090b8dd2
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3b3dad44f0c3971ed3b206db9b3c022f8375153a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922957"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55024671"
 ---
 # <a name="processes-view"></a>프로세스 뷰
 프로세스 뷰에 시스템에서 모든 활성 프로세스의 트리를 표시 합니다. 프로세스 ID 및 모듈 이름이 표시 됩니다. 일반적으로 실행 중인 프로그램에 해당 하는 특정 시스템 프로세스를 검사 하려는 경우에 프로세스 뷰를 사용 합니다. 프로세스는 모듈 이름으로 식별 또는 "시스템 프로세스입니다."로 지정 됩니다.  

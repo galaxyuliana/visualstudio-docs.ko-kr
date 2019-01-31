@@ -16,13 +16,13 @@ ms.assetid: 74dca14c-5071-416f-a92b-d09f95e3dfb8
 caps.latest.revision: 1
 author: bowdenk7
 ms.author: wilkelly
-manager: douge
-ms.openlocfilehash: 1045c515870d2574bfb86d12396c5572b01ddda4
-ms.sourcegitcommit: 8bfabab73b39b3b3e68a3e8dc225515e8b310fed
+manager: jillfra
+ms.openlocfilehash: ee22803c7a479c6d22821a9a6b267cd72938792e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54398437"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55013004"
 ---
 # <a name="javascript-in-visual-studio-2017"></a>Visual Studio 2017의 JavaScript
 
@@ -206,7 +206,8 @@ var x = React.createElement(comps_1.RepoDisplay, {description: "test"});
   }
 }
 ```
-# <a name="troubleshooting-the-javascript-language-service-has-been-disabled-for-the-following-projects"></a>문제 해결 다음 프로젝트에 대해 JavaScript 언어 서비스를 사용할 수 없습니다.
+
+## <a name="troubleshooting-the-javascript-language-service-has-been-disabled-for-the-following-projects"></a>문제 해결 다음 프로젝트에 대해 JavaScript 언어 서비스를 사용할 수 없습니다.
 대규모의 콘텐츠가 있는 JavaScript 프로젝트를 열 때 "JavaScript 언어 서비스가 다음 프로젝트에서 비활성화됩니다."라는 메시지가 표시될 수 있습니다. 대규모의 JavaScript 원본이 있는 가장 일반적인 이유는 20MB 프로젝트 제한을 초과하는 소스 코드를 사용하여 라이브러리를 포함하기 때문입니다.
 
 프로젝트를 간단히 최적화하려면 프로젝트 루트에 `tsconfig.json` 파일을 추가하여 언어 서비스가 무시해도 되는 파일을 알 수 있도록 합니다. 아래 샘플을 사용하여 라이브러리가 저장된 가장 일반적인 디렉터리를 제외합니다.
@@ -231,7 +232,7 @@ var x = React.createElement(comps_1.RepoDisplay, {description: "test"});
 }
 ```
 
-필요하다면 디렉터리를 더 추가합니다. "공급 업체" 또는 "wwwroot/lib" 디렉터리를 포함하는 몇 가지 예제입니다. 
+필요하다면 디렉터리를 더 추가합니다. "공급 업체" 또는 "wwwroot/lib" 디렉터리를 포함하는 몇 가지 예제입니다.
 
 > [!NOTE]
 > 컴파일러 속성 `disableSizeLimit`는 20MB 검사 한계를 비활성화하는 데도 사용할 수 있습니다. 제한을 사용하지 않도록 설정하면 언어 서비스가 중단될 수 있기 때문에 이 속성을 사용할 때 특별한 예방 조치를 취해야 합니다.

@@ -1,25 +1,20 @@
 ---
 title: '&lt;사용 되지 않는&gt; (JavaScript) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: cf33d371-59da-4310-95ee-d7524fd9d58c
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4c643afe786366c7c470e74d02a5145a600a6b87
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b93a2b4dcc541f32c16766da0dd9dd19a4fdfe0d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49269290"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54759758"
 ---
 # <a name="ltdeprecatedgt-javascript"></a>&lt;사용 되지 않는&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +40,7 @@ ms.locfileid: "49269290"
  `description`  
  선택 사항입니다. 함수 또는 메서드의 사용이 중단 되는 설명입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  함수를 포함 하는 주석을 추가 하는 데 필요한 요소 `<deprecated>`, 함수 본문은 문 앞에 배치 되어야 합니다. 더 이상 사용 되지 함수를 표시 하면 대체 하는 것이 좋습니다 해당 [ \<요약 >](../ide/summary-javascript.md) 사용 하 여 요소를 `<deprecated>` 요소입니다.  
   
 ## <a name="example"></a>예제  
@@ -65,6 +60,3 @@ function areaFunction(radiusParam) {
   
 ## <a name="see-also"></a>참고 항목  
  [XML 문서 주석](../ide/xml-documentation-comments-javascript.md)
-
-
-

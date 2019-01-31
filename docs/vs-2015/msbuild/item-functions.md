@@ -1,27 +1,22 @@
 ---
 title: Item 함수 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, Item functions
 ms.assetid: 5e6df3cc-2db8-4cbd-8fdd-3ffd03ac0876
 caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 687d740a379bd3b04bd47d0d2e3111bb71e7934d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 3477c7f4a9f6368ce8c2ef5a87c101e8ef66f4bf
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49207924"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758586"
 ---
 # <a name="item-functions"></a>항목 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,7 +55,7 @@ MSBuild 4.0부터 작업 및 대상의 코드는 프로젝트의 항목에 대�
 ## <a name="intrinsic-item-functions"></a>내장 항목 함수  
  아래 표는 항목에 사용할 수 있는 내장 함수를 나열합니다.  
   
-|기능|예제|설명|  
+|함수|예제|설명|  
 |--------------|-------------|-----------------|  
 |`Count`|`@(MyItem->Count())`|항목 수를 반환합니다.|  
 |`DirectoryName`|`@(MyItem->DirectoryName())`|각 항목에 대한 해당 `Path.DirectoryName`을 반환합니다.|  
@@ -110,6 +105,3 @@ MSBuild 4.0부터 작업 및 대상의 코드는 프로젝트의 항목에 대�
   
 ## <a name="see-also"></a>참고 항목  
  [항목](../msbuild/msbuild-items.md)
-
-
-

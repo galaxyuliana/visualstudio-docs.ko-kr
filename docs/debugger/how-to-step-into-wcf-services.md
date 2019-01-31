@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 9893ad01-54af-499f-85a6-9d1cfe6eb640
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f361369aef97aaa894a1a1929149356d3177cc3f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4d82ee388ff6325a92b8e82a385ace727a754ad2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53890737"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017112"
 ---
 # <a name="how-to-step-into-wcf-services"></a>방법: WCF 서비스 한 단계씩 코드 실행
 [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)]에서는 WCF 서비스를 한 단계씩 실행할 수 있습니다. WCF 서비스가 클라이언트와 같은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 솔루션인 경우에는 WCF 서비스 내의 중단점을 적중할 수 있습니다.  

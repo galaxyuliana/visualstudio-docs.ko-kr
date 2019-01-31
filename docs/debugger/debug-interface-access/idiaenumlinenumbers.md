@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: cdf07b4f-19e4-4dcd-8af8-c2dbca586a7c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 933cbe4f95c5082fb4c5d8b9958c7cd43e9e95d3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cf8a39001fa07632fe6e229587aadf4ea4c9aacf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53838533"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014772"
 ---
 # <a name="idiaenumlinenumbers"></a>IDiaEnumLineNumbers
 데이터 원본에 포함 된 다양 한 줄 번호를 열거 합니다.  
@@ -86,7 +86,7 @@ void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

@@ -9,15 +9,15 @@ f1_keywords:
 ms.assetid: 6ccb1269-d55f-49c4-920d-baedf7de2888
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ad9c458891a13a28d9b13ec9674a4a9e829b95a1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ba089ace95308ddcf6067920da8484064e797ecd
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53955281"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015110"
 ---
 # <a name="graphics-log-document"></a>그래픽 로그 문서
 그래픽 로그 문서는 그래픽 진단 세션에서 앱을 실행하는 동안 발생한 그래픽 이벤트의 레코드입니다. 기록된 후에는 Visual Studio Graphics Analyzer에서 이 로그를 검토하여 렌더링 및 성능 문제를 진단할 수 있습니다.  
@@ -42,7 +42,7 @@ ms.locfileid: "53955281"
 ## <a name="playback-machine"></a>재생 컴퓨터  
  **프레임 목록**의 오른쪽 위 모퉁이에는 **재생 머신**도 표시됩니다. 재생 컴퓨터는 이후 그래픽 진단 세션 중 그래픽 로그 파일에서 그래픽 이벤트를 재생하는 데 사용되는 컴퓨터 또는 장치입니다. 개발 컴퓨터 대신 다른 장치를 사용하여 캡처된 이벤트를 재생하면 문제가 발생한 실행 환경을 보다 정확하게 재현할 수 있습니다. 예를 들어 개발 컴퓨터에서 사용하는 것과 다른 그래픽 하드웨어 또는 드라이버가 있는 컴퓨터나 ARM 기반 Windows RT 태블릿 또는 Windows Phone 장치와 같은 다른 종류의 장치를 사용할 수 있습니다.  
 
- 재생 컴퓨터를 지정 하는 방법에 대 한 정보를 참조 하세요. [방법: 그래픽 진단 재생 머신 변경](how-to-change-the-graphics-diagnostics-playback-machine.md)  
+ 재생 컴퓨터를 지정 하는 방법에 대 한 정보를 참조 하세요. [방법: 그래픽 진단 재생 머신 변경](how-to-change-the-graphics-diagnostics-playback-machine.md)을 참조하세요.  
 
 ## <a name="graphics-log-summary-information"></a>그래픽 로그 요약 정보  
  그래픽 로그 파일이 활성 문서인 경우 **속성** 창에는 그래픽 진단 캡처 세션을 호스팅하는 환경에 대한 정보가 표시됩니다. 여러 정보 범주가 표시됩니다.  

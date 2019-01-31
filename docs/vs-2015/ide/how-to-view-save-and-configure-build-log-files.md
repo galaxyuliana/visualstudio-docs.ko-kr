@@ -1,25 +1,20 @@
 ---
-title: '방법: 빌드 로그 파일 보기, 저장 및 구성 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 보기, 저장 및 빌드 로그 파일 구성 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 75d38b76-26d6-4f43-bbe7-cbacd7cc81e7
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 26ece0c0d46e5c747ac05bae8c2d4fc793c34601
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 6826a2f2618ee77944102245781a8df3b2a4596b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49207404"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54760059"
 ---
 # <a name="how-to-view-save-and-configure-build-log-files"></a>방법: 빌드 로그 파일 보기, 저장 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,6 +60,3 @@ Visual Studio IDE에서 프로젝트를 빌드한 후에 **출력** 창에서 �
  [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)
-
-
-

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 4a61a22a-9cf8-4ea1-9e6e-b42f96872d40
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9fc53f20ea051c995c32fa9e049af7e870564fe1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ae33fc6c135322e6b6a0a965188848ddac363cbc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935980"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993675"
 ---
 # <a name="idiastackwalker"></a>IDiaStackWalker
 스택 작업을 수행 하는 방법 설명 정보를 사용 하 여.pdb 파일에 제공 합니다.  
@@ -60,7 +60,7 @@ if (FAILED(hr))
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

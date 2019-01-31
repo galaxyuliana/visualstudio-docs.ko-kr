@@ -16,15 +16,15 @@ helpviewer_keywords:
 ms.assetid: a7de9c64-903a-4a02-85f3-f37672270f25
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a830639d8e69a331c2d81c6012d0ea7e6fcfb848
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6c88cb617e145d4acda730a86153cfc1a1524521
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990196"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55042480"
 ---
 # <a name="xdcmake-task"></a>XDCMake 작업
 XML 문서 주석(*.xdc*) 파일을 *.xml* 파일에 병합하는 XML 문서 도구(*xdcmake.exe*)를 래핑합니다.  

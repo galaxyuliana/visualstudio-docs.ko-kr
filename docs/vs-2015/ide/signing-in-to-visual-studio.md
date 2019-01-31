@@ -9,13 +9,13 @@ ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: be7577aba812e95f7788f8c3c54350ae8e4bcd33
-ms.sourcegitcommit: 708f77071c73c95d212645b00fa943d45d35361b
+manager: jillfra
+ms.openlocfilehash: 8504ebcbcea9906148f9c3a671f185375d269d83
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53066303"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54766396"
 ---
 # <a name="signing-in-to-visual-studio"></a>Visual Studio에 로그인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ IDE에 로그인하여 개인 설정 계정을 설정하면 Visual Studio의 개
 
 -   Visual Studio Dev Essentials 프로그램을 통해 무료 소프트웨어, 교육, 지원 등을 비롯해**다양한 혜택을 이용** 할 수 있습니다. 자세한 내용은 [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) 를 참조하세요.
 
--   **Visual Studio 설정 동기화** – 아무 장치에서나 Visual Studio에 로그인하면 키 바인딩, 창 레이아웃 및 색 테마 등의 사용자 지정 설정이 즉시 적용됩니다. [Visual Studio의 동기화된 설정](http://msdn.microsoft.com/library/dn135229%28v=vs.120%29.aspx)을 참조하세요.
+-   **Visual Studio 설정 동기화** – 아무 디바이스에서나 Visual Studio에 로그인하면 키 바인딩, 창 레이아웃 및 색 테마 등의 사용자 지정 설정이 즉시 적용됩니다. [Visual Studio의 동기화된 설정](http://msdn.microsoft.com/library/dn135229%28v=vs.120%29.aspx)을 참조하세요.
 
 -   **Visual Studio Express 버전 잠금을 영구적으로 해제** – 평가 기간 30일의 제한 없이 원하는 만큼 Visual Studio Express의 모든 버전을 사용할 수 있습니다.
 

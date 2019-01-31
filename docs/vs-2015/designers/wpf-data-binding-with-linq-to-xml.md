@@ -1,30 +1,25 @@
 ---
 title: LINQ to XML로 WPF 데이터 바인딩 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 356c2cef-3468-495d-b4bd-f6b7f883446b
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 78e30d010621397d12c5580fdc6089aea0d2f5e3
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 47040aab2969f2480db8a35d1740babdf3093666
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49176945"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769509"
 ---
 # <a name="wpf-data-binding-with-linq-to-xml"></a>LINQ to XML로 WPF 데이터 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 단원에서는 LINQ to XML을 WPF(Windows Presentation Foundation) 응용 프로그램의 데이터 바인딩에 대한 데이터 소스로 사용하는 방법에 대해 설명합니다. 이 시나리오에서는 <xref:System.Xml.Linq.XAttribute?displayProperty=fullName> 및 <xref:System.Xml.Linq.XElement?displayProperty=fullName>의 특수 *동적 속성*을 사용합니다. 이러한 동적 속성에 대한 설명도 이 단원에 나와 있습니다.  
+이 단원에서는 LINQ to XML을 WPF(Windows Presentation Foundation) 애플리케이션의 데이터 바인딩에 대한 데이터 소스로 사용하는 방법에 대해 설명합니다. 이 시나리오에서는 <xref:System.Xml.Linq.XAttribute?displayProperty=fullName> 및 <xref:System.Xml.Linq.XElement?displayProperty=fullName>의 특수 *동적 속성*을 사용합니다. 이러한 동적 속성에 대한 설명도 이 단원에 나와 있습니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
   
@@ -43,6 +38,3 @@ ms.locfileid: "49176945"
   
 ## <a name="see-also"></a>참고 항목  
  [고급 LINQ to XML 프로그래밍](http://msdn.microsoft.com/library/88c4a6ea-700b-4468-9a29-0ea18fc63dd0)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: 링크 작업 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - VC.Project.VCLinkerTool.ForceFileOutput
 - VC.Project.VCLinkerTool.LinkStatus
@@ -35,13 +30,13 @@ ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: f2ca9c721567d89bddad4a9ee61639bd3a82f10d
-ms.sourcegitcommit: 1abb9cf4c3ccb90e3481ea8079272c98aad12875
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4575516304862b4d50060a101a08a74f88db4597
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50143452"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54768516"
 ---
 # <a name="link-task"></a>링크 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -194,7 +189,7 @@ Visual C++ 링커 도구 link.exe를 래핑합니다. 링커 도구는 COFF(Comm
   
    관리 코드에서 네이티브 DLL로 호출하는 링커 생성 P/Invoke에 링커가 **SuppressUnmanagedCodeSecurityAttribute**를 적용할지 여부를 지정합니다.  
   
-   자세한 내용은 [/CLRUNMANAGEDCODECHECK (추가 SuppressUnmanagedCodeSecurityAttribute)](http://msdn.microsoft.com/library/73abc426-dab0-45e2-be85-0f9a14206cc2)합니다.  
+   자세한 내용은 [/CLRUNMANAGEDCODECHECK(SuppressUnmanagedCodeSecurityAttribute 추가)](http://msdn.microsoft.com/library/73abc426-dab0-45e2-be85-0f9a14206cc2)를 참조하세요.  
   
 - **CreateHotPatchableImage**  
   
@@ -434,7 +429,7 @@ Visual C++ 링커 도구 link.exe를 래핑합니다. 링커 도구는 COFF(Comm
   
    선택적 **Boolean** 매개 변수입니다.  
   
-   `true`이면 응용 프로그램이 2GB보다 큰 주소를 처리할 수 있습니다.  
+   `true`이면 애플리케이션이 2GB보다 큰 주소를 처리할 수 있습니다.  
   
    자세한 내용은 [/LARGEADDRESSAWARE(큰 주소 처리)](http://msdn.microsoft.com/library/a29756c8-e893-47a9-9750-1f0d25359385)를 참조하세요.  
   
@@ -760,7 +755,7 @@ Visual C++ 링커 도구 link.exe를 래핑합니다. 링커 도구는 COFF(Comm
   
   - **네이티브** - **/SUBSYSTEM:NATIVE**  
   
-  - **EFI 응용 프로그램** - **/SUBSYSTEM:EFI_APPLICATION**  
+  - **EFI 애플리케이션** - **/SUBSYSTEM:EFI_APPLICATION**  
   
   - **EFI 부트 서비스 드라이버** - **/SUBSYSTEM:EFI_BOOT_SERVICE_DRIVER**  
   
@@ -852,9 +847,9 @@ Visual C++ 링커 도구 link.exe를 래핑합니다. 링커 도구는 COFF(Comm
   
    선택적 **Boolean** 매개 변수입니다.  
   
-   `true`이면 프로그램 이미지 선택적 헤더의 IMAGE_OPTIONAL_HEADER DllCharacteristics 필드에서 플래그를 설정합니다. 이 플래그를 설정하면 터미널 서버가 응용 프로그램에서 특정 변경 작업을 수행할 수 없습니다.  
+   `true`이면 프로그램 이미지 선택적 헤더의 IMAGE_OPTIONAL_HEADER DllCharacteristics 필드에서 플래그를 설정합니다. 이 플래그를 설정하면 터미널 서버가 애플리케이션에서 특정 변경 작업을 수행할 수 없습니다.  
   
-   자세한 내용은 [/TSAWARE(터미널 서버 인식 응용 프로그램 만들기)](http://msdn.microsoft.com/library/fe1c1846-de5b-4839-b562-93fbfe36cd29)를 참조하세요.  
+   자세한 내용은 [/TSAWARE(터미널 서버 인식 애플리케이션 만들기)](http://msdn.microsoft.com/library/fe1c1846-de5b-4839-b562-93fbfe36cd29)를 참조하세요.  
   
 - **TrackerLogDirectory**  
   
@@ -898,7 +893,7 @@ Visual C++ 링커 도구 link.exe를 래핑합니다. 링커 도구는 COFF(Comm
   
    선택적 **문자열** 매개 변수입니다.  
   
-   사용자 계정 컨트롤을 사용하여 실행될 때 응용 프로그램에 필요한 실행 수준을 지정합니다.  
+   사용자 계정 컨트롤을 사용하여 실행될 때 애플리케이션에 필요한 실행 수준을 지정합니다.  
   
    각 명령줄 옵션에 해당하는 다음 값 중 하나를 지정하세요.  
   
@@ -914,7 +909,7 @@ Visual C++ 링커 도구 link.exe를 래핑합니다. 링커 도구는 COFF(Comm
   
    선택적 **Boolean** 매개 변수입니다.  
   
-   `true`이면 응용 프로그램에서 사용자 인터페이스 보호 수준을 우회하고 데스크톱에서 상위 권한 창에 입력할 수 있게 하고, 그렇지 않으면 `false`입니다.  
+   `true`이면 애플리케이션에서 사용자 인터페이스 보호 수준을 우회하고 데스크톱에서 상위 권한 창에 입력할 수 있게 하고, 그렇지 않으면 `false`입니다.  
   
    자세한 내용은 [/MANIFESTUAC(매니페스트에 UAC 정보 포함)](http://msdn.microsoft.com/library/2d243c39-fa13-493c-b56f-d0d972a1603a)의 `uiAccess` 인수를 참조하세요.  
   
@@ -934,6 +929,3 @@ Visual C++ 링커 도구 link.exe를 래핑합니다. 링커 도구는 COFF(Comm
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

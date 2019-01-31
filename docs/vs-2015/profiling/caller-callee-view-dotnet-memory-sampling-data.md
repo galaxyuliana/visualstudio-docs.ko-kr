@@ -1,27 +1,22 @@
 ---
 title: 호출자-호출 수신자 뷰 - .NET 메모리 샘플링 데이터 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - Caller/Callee view
 ms.assetid: 36f5b4de-5686-4f40-9e72-f4aee27d833c
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: edeccd8318de36a09a9191a30274ff342cb7a41d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9c43ba87fea6af474975c759cc18dab74b12e8eb
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51816790"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782493"
 ---
 # <a name="callercallee-view---net-memory-sampling-data"></a>호출자/호출 수신자 뷰 - .NET 메모리 샘플링 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,10 +53,7 @@ ms.locfileid: "51816790"
 |**제외 바이트(%)**|이 함수의 제외 할당으로, 프로파일링 실행 시 할당된 모든 메모리 바이트의 비율입니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 보고서 뷰 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
+ [방법: 보고서 보기 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
  [호출자/호출 수신자 뷰 - .NET 메모리 계측 데이터](../profiling/caller-callee-view-net-memory-instrumentation-data.md)   
  [호출자/호출 수신자 뷰 - 샘플링 데이터](../profiling/caller-callee-view-sampling-data.md)   
  [호출자/호출 수신자 뷰 - 계측 데이터](../profiling/caller-callee-view-instrumentation-data.md)
-
-
-

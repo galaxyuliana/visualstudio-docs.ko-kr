@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 999ba473-b0c4-45c7-930a-63ea7a510509
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ddd4158561b0bac7ea3347738f13f0f9530002ea
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1dab142315a7d243caf6604c5f2745244ff166e2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841134"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55027934"
 ---
 # <a name="how-to-clean-a-build"></a>방법: 빌드 정리
 빌드를 정리할 때 프로젝트 및 구성 요소 파일을 그대로 두고 모든 중간 파일과 출력 파일이 삭제됩니다. 그런 다음 프로젝트 및 구성 요소 파일에서 중간 파일과 출력 파일의 새 인스턴스를 빌드할 수 있습니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]를 통해 제공되는 일반 작업 라이브러리에는 시스템 명령을 실행하는 데 사용할 수 있는 [Exec](../msbuild/exec-task.md) 작업이 포함됩니다. 작업의 라이브러리에 자세한 내용은 [작업 참조](../msbuild/msbuild-task-reference.md)를 참조하세요.  

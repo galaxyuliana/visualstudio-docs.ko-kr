@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: 04a804bf-ed55-4a7a-a1e6-f63ed99c0276
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4a148dd9f0f33805fcf0dae423f6a7e33a00ca22
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e21938ed03a7bc8c03b910ce1c9bce7187f31255
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989739"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020687"
 ---
 # <a name="how-to-specify-the-location-where-end-users-will-install-from"></a>방법: 최종 사용자의 설치 원본 위치 지정
 게시 하는 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 다운로드 하 고 응용 프로그램을 설치 하려면 사용자가 일 필요는 없습니다 처음 응용 프로그램을 게시 하는 위치입니다. 예를 들어, 일부 조직에서는 개발자는 응용 프로그램을 스테이징 서버를 게시할 수 있습니다 하 고 관리자는 웹 서버에 응용 프로그램을 이동 합니다.  

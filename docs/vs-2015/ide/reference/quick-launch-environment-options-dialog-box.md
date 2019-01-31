@@ -1,14 +1,9 @@
 ---
 title: 빠른 실행, 환경, 옵션 대화 상자 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.QuickLaunch
 - vs.quicklaunch
@@ -19,13 +14,13 @@ ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 1e012e5ec4d9326cb1e6732ed78a8de8a60aeda8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 2fba7e236dee275048d27c8377c819873f2fbad0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49269063"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782283"
 ---
 # <a name="quick-launch-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 빠른 실행
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ ms.locfileid: "49269063"
  **빠른 실행**은 Visual Studio를 설치하면 기본적으로 활성화됩니다. 메뉴 모음에서 **도구**, **옵션**을 선택하여 **빠른 실행**을 표시하거나 숨길 수 있습니다. **환경** 노드를 확장한 다음 **빠른 실행**을 선택합니다. **빠른 실행 사용** 확인란을 선택하거나 선택 취소합니다. 이 페이지에서 검색 범주를 사용하거나 사용하지 않도록 설정할 수도 있습니다.  
   
 ## <a name="category-list"></a>범주 목록  
- 빠른 실행 검색 결과는 **가장 최근에 사용됨**, **메뉴**, **옵션**, **문서 열기** 등 4개 범주로, 범주에 포함된 항목 수와 함께 나타납니다. 범주별로 검색 결과를 트래버스하려면 Ctrl+Q를 선택하여 다음 범주의 모든 결과를 표시합니다. 마지막 범주가 나타난 후에는 Ctrl+Q를 누르면 각 범주의 몇몇 결과가 표시됩니다. Ctrl+Shift+Q를 사용하면 범주를 역순으로 탐색할 수 있습니다. 범주 아래의 모든 검색 결과를 보려면 범주 이름을 선택합니다.  
+ 빠른 실행 검색 결과는 다음 네 가지 범주로 나타납니다. **가장 최근에 사용됨**, **메뉴**, **옵션** 및 **문서 열기** 등 범주의 항목 수와 함께 나타납니다. 범주별로 검색 결과를 트래버스하려면 Ctrl+Q를 선택하여 다음 범주의 모든 결과를 표시합니다. 마지막 범주가 나타난 후에는 Ctrl+Q를 누르면 각 범주의 몇몇 결과가 표시됩니다. Ctrl+Shift+Q를 사용하면 범주를 역순으로 탐색할 수 있습니다. 범주 아래의 모든 검색 결과를 보려면 범주 이름을 선택합니다.  
   
  다음 바로 가기 키를 사용하여 검색을 특정 범주로 제한할 수 있습니다.  
   
@@ -58,6 +53,3 @@ ms.locfileid: "49269063"
 ## <a name="see-also"></a>참고 항목  
  [일반 사용자 인터페이스 요소(Visual Studio)](../../ide/reference/general-user-interface-elements-visual-studio.md)   
  [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)
-
-
-

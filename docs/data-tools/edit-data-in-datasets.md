@@ -11,16 +11,16 @@ helpviewer_keywords:
 ms.assetid: 50d5c580-fbf7-408f-be70-e63ac4f4d0eb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 733d1d3f1c105116a97d198a9bb4fa1bf1c1c2f1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 08cf47310c9743d1071dd46a30e5c04372ca5cb6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53885212"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54996729"
 ---
 # <a name="edit-data-in-datasets"></a>데이터 세트의 데이터 편집
 모든 데이터베이스의 테이블에서 데이터를 편집할 때 처럼 데이터 테이블의에서 데이터를 편집 합니다. 프로세스는 삽입, 업데이트 및 테이블의 레코드를 삭제 하는 중에 포함할 수 있습니다. 데이터 바인딩된 폼에 있는 사용자가 편집 가능한 필드를 지정할 수 있습니다. 이러한 경우 데이터 바인딩 인프라는 모든 변경 내용 추적 나중에 변경 내용을 데이터베이스로 다시 전송 수 있도록 처리 합니다. 프로그래밍 방식으로 데이터를 편집을 수행한 경우 해당 변경 내용을 다시 데이터베이스에 전송 하려는 개체와 수에 대 한 변경 내용 추적을 수행 하는 메서드를 사용 해야 합니다.

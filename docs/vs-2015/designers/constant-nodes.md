@@ -1,25 +1,20 @@
 ---
 title: 상수 노드 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 2c798a50-a2d7-459b-9879-ad4ad8290c9b
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 0b062f6190213fc2b18670f50fdd527c4c3f212a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: d38a4f8a182562c11dbb742cb26392218edfd981
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49260067"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54788459"
 ---
 # <a name="constant-nodes"></a>상수 노드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ ms.locfileid: "49260067"
   
 ## <a name="constant-node-reference"></a>상수 노드 참조  
   
-|노드|설명|속성|  
+|노드|세부 정보|속성|  
 |----------|-------------|----------------|  
 |**카메라 벡터**|현재 픽셀에서 세계 좌표 공간의 카메라를 확장하는 벡터입니다.<br /><br /> 이를 사용하여 세계 좌표 공간에서 반사를 계산할 수 있습니다.<br /><br /> **출력**<br /><br /> `Output`: `float3`<br /> 현재 픽셀에서 카메라까지의 벡터입니다.|없음|  
 |**색 상수**|상수 색상 값입니다.<br /><br /> **출력**<br /><br /> `Output`: `float4`<br /> 색 값입니다.|**출력**<br /> 색 값입니다.|  
@@ -51,6 +46,3 @@ ms.locfileid: "49260067"
 |**탄젠트 공간 조명 방향**|현재 픽셀의 탄젠트 공간에서 조명이 광원으로부터 캐스트되는 방향을 정의하는 벡터입니다.<br /><br /> 이를 사용하여 탄젠트 공간에서 조명 및 반사 기여도를 계산할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float3`<br /> 현재 픽셀에서 광원까지의 벡터입니다.|없음|  
 |**세계 좌표 법선**|세계 좌표 공간에서 현재 픽셀의 표면 법선입니다.<br /><br /> 이를 사용하여 세계 좌표 공간에서 조명 기여도 및 반사를 계산할 수 있습니다.<br /><br /> **출력**<br /><br /> `Output`: `float3`<br /> 현재 픽셀의 표면 법선입니다.|없음|  
 |**세계 좌표 위치**|세계 좌표 공간에서 현재 픽셀의 위치입니다.<br /><br /> **출력**<br /><br /> `Output`: `float4`<br /> 현재 픽셀의 위치입니다.|없음|
-
-
-

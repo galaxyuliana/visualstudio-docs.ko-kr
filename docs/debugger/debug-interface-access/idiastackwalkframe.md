@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 42d82845-d6f6-4846-9ecd-9dd169216077
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: aa93204c7011fb13a079c22a0f18bede145631c5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cf14665b4a8f6f57e01d53debedbb3534fa025d1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53927209"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015487"
 ---
 # <a name="idiastackwalkframe"></a>IDiaStackWalkFrame
 호출 사이의 스택 컨텍스트를 유지 관리 합니다 [idiaframedata:: Execute](../../debugger/debug-interface-access/idiaframedata-execute.md) 메서드.  
@@ -46,7 +46,7 @@ IDiaStackWalkFrame : IUnknown
  이 인터페이스를 구현 하 고 인터페이스의 인스턴스를 전달 하는 클라이언트 응용 프로그램을 [idiaframedata:: Execute](../../debugger/debug-interface-access/idiaframedata-execute.md) 메서드. 이 인터페이스의 동일한 인스턴스에 나중에 다시 호출 될 때마다 레지스터의 상태를 유지 관리 되는 `execute` 메서드. `execute` 또한 메서드 반환 주소를 확인 하려면이 인터페이스를 사용 합니다.  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

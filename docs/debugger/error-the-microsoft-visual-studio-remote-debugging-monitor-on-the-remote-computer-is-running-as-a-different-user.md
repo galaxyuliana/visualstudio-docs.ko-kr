@@ -18,15 +18,15 @@ helpviewer_keywords:
 - msvsmon.exe
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1d6d36844883b1acd51d169015a226d584c6c096
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 513d05149ca52e1d2ec1ca057cca722cef097bd1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53911301"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55034849"
 ---
 # <a name="error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user"></a>오류: 원격 컴퓨터의 Microsoft Visual Studio 원격 디버깅 모니터가 다른 사용자로 실행 중입니다.
 원격으로 디버깅할 때 다음 오류 메시지가 나타날 수 있습니다.  

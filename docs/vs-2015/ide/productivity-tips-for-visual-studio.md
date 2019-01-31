@@ -1,24 +1,20 @@
 ---
 title: 생산성 팁 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: ccc5e543-7dcf-465c-97dd-e133e869800c
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: c56b2a2cd49d164fa55eae472eaa11942bead262
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: 096de590d49f5d09614bb9149ae6e5218f2ab7ec
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53928856"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54785689"
 ---
 # <a name="productivity-tips-for-visual-studio"></a>Visual Studio 생산성 팁
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -119,7 +115,7 @@ ms.locfileid: "53928856"
 
 -   **대화 상자, 메뉴 명령 및 옵션 찾기** [옵션 대화 상자, 환경, 빠른 실행](../ide/reference/quick-launch-environment-options-dialog-box.md) 상자에 검색하려는 항목의 키워드나 문구를 입력합니다. 예를 들어 `new project`를 입력하면 다음 옵션이 나타납니다.
 
-     그림 3. 에 대 한 빠른 실행 결과 목록 `new project`
+     그림 3: 에 대 한 빠른 실행 결과 목록 `new project`
 
      !['새 프로젝트'의 빠른 실행 결과](../ide/media/productivity-quicklaunch.png "Productivity_QuickLaunch")
 
