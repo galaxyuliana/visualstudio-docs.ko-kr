@@ -1,25 +1,20 @@
 ---
 title: 매개 변수 노드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: da54db0b-3a3d-48dc-858c-7ac43aa04b13
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: bb15b19ebdef04facdb66d4b97042bb47e4cb5fa
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 110f380f7450d611de5786fb865bdee8e64195f6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49276292"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54764173"
 ---
 # <a name="parameter-nodes"></a>매개 변수 노드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ ms.locfileid: "49276292"
   
 ## <a name="parameter-node-reference"></a>매개 변수 노드 참조  
   
-|노드|설명|속성|  
+|노드|세부 정보|속성|  
 |----------|-------------|----------------|  
 |**카메라 세계 좌표 위치**|세계 좌표 공간에서 카메라의 위치입니다.<br /><br /> **출력:**<br /><br /> `Output`: `float4`<br /> 카메라의 위치입니다.|없음|  
 |**조명 방향**|세계 좌표 공간의 광원에서 조명이 비춰지는 방향을 정의하는 벡터입니다.<br /><br /> 세계 좌표 공간에서 조명 및 반사 기여도를 계산하는 데 사용할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float3`<br /> 현재 픽셀에서 광원까지의 벡터입니다.|없음|  
@@ -39,6 +34,3 @@ ms.locfileid: "49276292"
 |**재질 반사 강도**|반사 하이라이트의 강도를 설명하는 스칼라 값입니다.<br /><br /> 반사 강도가 높을수록 반사 하이라이트는 더 뚜렷해지며 멀리까지 표시됩니다.<br /><br /> **출력:**<br /><br /> `Output`: `float`<br /> 현재 픽셀에서 반사 하이라이트의 강도를 설명하는 지수 용어입니다.|**Access**<br /> 모델 편집기에서 속성을 설정할 수 있도록 하려는 경우 **Public**으로 설정하고 그렇지 않으면 **Private**으로 설정합니다.<br /><br /> **Value**<br /> 현재 픽셀에서 반사 하이라이트의 강도를 정의하는 지수입니다.|  
 |**정규화된 시간**|시간이 1에 도달하면 0으로 다시 설정되도록 [0, 1] 범위로 정규화된 시간(초)입니다.<br /><br /> 예를 들어 질감 좌표, 색 값 또는 기타 특성에 애니메이션을 적용하기 위해 셰이더 계산에서 매개 변수로 사용할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float`<br /> 정규화된 시간(초)입니다.|없음|  
 |**시간**|시간(초)입니다.<br /><br /> 예를 들어 질감 좌표, 색 값 또는 기타 특성에 애니메이션을 적용하기 위해 셰이더 계산에서 매개 변수로 사용할 수 있습니다.<br /><br /> **출력:**<br /><br /> `Output`: `float`<br /> 시간(초)입니다.|없음|
-
-
-

@@ -1,26 +1,21 @@
 ---
 title: Excel용 샘플 코딩된 UI 테스트 확장 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
 - coded UI tests, extensions for Excel
 ms.assetid: 451e4d14-7fac-42f9-af56-2bdc8414c6c7
 caps.latest.revision: 15
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 5ccc315b62ffa2e7c70f992a560e55c80eb86dc8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e8e3bebc82ffc2f714a6418afdb73de9092aab55
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49306620"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54757234"
 ---
 # <a name="sample-coded-ui-test-extension-for-excel"></a>Excel용 샘플 코딩된 UI 테스트 확장명
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ Excel 확장 아키텍처
  [ActionFilter 클래스](../test/sample-excel-extension-actionfilter-class.md)   
  [Element 클래스](../test/sample-excel-extension-element-classes.md)   
  [PropertyProvider 클래스](../test/sample-excel-extension-propertyprovider-class.md)
-
-
-

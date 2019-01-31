@@ -20,15 +20,15 @@ helpviewer_keywords:
 ms.assetid: 04b104d0-0bd3-4ccb-b164-1de92d234487
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 44ee28c0e495b0b3868356d6e5a10890937f70a0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ee9d478aa328337d3a2b08c74fcbbf7166580962
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828357"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018347"
 ---
 # <a name="code-access-security-for-clickonce-applications"></a>ClickOnce 애플리케이션의 코드 액세스 보안
 ClickOnce 애플리케이션은 .NET Framework를 기반으로 하며 코드 액세스 보안 제약 조건의 적용을 받습니다. 따라서 코드 액세스 보안의 의미를 이해하여 ClickOnce 애플리케이션을 적절하게 작성해야 합니다.  
@@ -56,7 +56,7 @@ ClickOnce 애플리케이션은 .NET Framework를 기반으로 하며 코드 액
   
  사용 권한 구성의 시작점으로, **보안** 페이지의 **영역** 목록에서 보안 영역을 선택할 수 있습니다. 애플리케이션이 둘 이상의 영역에서 배포되는 경우 최소한의 권한을 가진 영역을 선택합니다. 자세한 내용은 [방법: ClickOnce 애플리케이션의 보안 영역 설정](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)을 참조하세요.  
   
- 설정할 수 있는 속성은 사용 권한 집합에 따라 달라집니다. 일부 사용 권한 집합에는 구성 가능한 속성이 없습니다. 애플리케이션이 요청할 수 있는 사용 권한의 전체 목록에 대한 자세한 내용은 <xref:System.Security.Permissions>를 참조하세요. 사용자 지정 영역에 대 한 권한을 설정 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: ClickOnce 애플리케이션의 사용자 지정 권한 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)  
+ 설정할 수 있는 속성은 사용 권한 집합에 따라 달라집니다. 일부 사용 권한 집합에는 구성 가능한 속성이 없습니다. 애플리케이션이 요청할 수 있는 사용 권한의 전체 목록에 대한 자세한 내용은 <xref:System.Security.Permissions>를 참조하세요. 사용자 지정 영역에 대 한 권한을 설정 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: ClickOnce 애플리케이션의 사용자 지정 권한 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)을 참조하세요.  
   
 ## <a name="debug-an-application-that-has-restricted-permissions"></a>제한 된 권한을 가진 응용 프로그램 디버그  
  개발자는 대개 완전 신뢰 권한으로 개발 컴퓨터를 실행합니다. 따라서 사용자가 제한된 권한으로 실행할 때 표시될 수 있는 애플리케이션을 디버그하는 경우 동일한 보안 예외가 표시되지 않습니다.  

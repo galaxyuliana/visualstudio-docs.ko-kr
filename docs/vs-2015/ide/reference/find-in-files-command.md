@@ -1,14 +1,9 @@
 ---
 title: 파일에서 찾기 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - edit.findinfiles
 helpviewer_keywords:
@@ -18,13 +13,13 @@ ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 5a278bb50af4488e9e627e884b20332717d6d0f8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9cc8218bafd4a6a0a6ce5622b9aff0e28dda8673
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49256726"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54753320"
 ---
 # <a name="find-in-files-command"></a>파일에서 찾기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
   
 ## <a name="arguments"></a>인수  
  `findwhat`  
- 필수. 일치하는 텍스트입니다.  
+ 필수 요소. 일치하는 텍스트입니다.  
   
 ## <a name="switches"></a>스위치  
  /case 또는 /c  
@@ -98,6 +93,3 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
  [찾기/명령 상자](../../ide/find-command-box.md)   
  [Visual Studio 명령](../../ide/reference/visual-studio-commands.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

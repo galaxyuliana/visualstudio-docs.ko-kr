@@ -1,14 +1,9 @@
 ---
 title: 코드 조각을 사용하는 방법에 대한 유용한 정보 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - code snippets, best practices
 - code snippets, security
@@ -16,28 +11,28 @@ ms.assetid: a293ec17-4dd7-4a99-8eeb-99f44a822a8b
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 1dad7bd7ccddf3645abb11dc55afcdf2e7cce7ad
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 750d96442f59c29a8e565e6b57eda292656ad1f7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49919912"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54770325"
 ---
 # <a name="best-practices-for-using-code-snippets"></a>코드 조각을 사용하는 방법에 대한 유용한 정보
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-코드 조각의 코드에는 작업을 수행하는 가장 기본적인 방법만 표시됩니다. 대부분 응용 프로그램에서는 응용 프로그램에 맞게 코드를 수정해야 합니다.  
+코드 조각의 코드에는 작업을 수행하는 가장 기본적인 방법만 표시됩니다. 대부분 애플리케이션에서는 애플리케이션에 맞게 코드를 수정해야 합니다.  
   
 ## <a name="handling-exceptions"></a>예외 처리  
- 일반적으로 코드 조각 Try…Catch 블록은 모든 예외를 catch 및 다시 throw합니다. 이는 프로젝트에 적합한 선택이 아닐 수 있습니다. 각 예외에 대한 여러 가지 응답 방법이 있습니다. 예를 들어 [방법: try/catch를 사용하여 예외 처리(C# 프로그래밍 가이드)](http://msdn.microsoft.com/library/ca8e3773-980e-4767-8633-7408540e9818) 및 [Try...Catch...Finally 문 ](http://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b)을 참조하세요.  
+ 일반적으로 코드 조각 Try…Catch 블록은 모든 예외를 catch 및 다시 throw합니다. 이는 프로젝트에 적합한 선택이 아닐 수 있습니다. 각 예외에 대한 여러 가지 응답 방법이 있습니다. 예제는 [방법: 예외를 사용 하 여 try/catch 처리 (C# 프로그래밍 가이드)](http://msdn.microsoft.com/library/ca8e3773-980e-4767-8633-7408540e9818) 하 고 [시도 하는 중... Catch 하는 중... Finally 문](http://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b)합니다.  
   
 ## <a name="file-locations"></a>파일 위치  
- 응용 프로그램에 맞게 파일 위치를 조정할 경우 다음을 고려해야 합니다.  
+ 애플리케이션에 맞게 파일 위치를 조정할 경우 다음을 고려해야 합니다.  
   
--   액세스 가능한 위치 찾기. 사용자에게 컴퓨터의 Program Files 폴더에 대한 액세스 권한이 없을 수 있으므로 응용 프로그램 파일과 함께 파일이 저장되지 않을 수 있습니다.  
+-   액세스 가능한 위치 찾기. 사용자에게 컴퓨터의 Program Files 폴더에 대한 액세스 권한이 없을 수 있으므로 애플리케이션 파일과 함께 파일이 저장되지 않을 수 있습니다.  
   
--   안전한 위치 찾기. 파일을 루트 폴더(C:\\)에 저장하는 것은 안전하지 않습니다. 응용 프로그램 데이터의 경우 \Application Data 폴더를 사용하는 것이 좋습니다. 개별 사용자 데이터의 경우 응용 프로그램에서 \My Documents 폴더에 각 사용자에 대한 파일을 만들 수 있습니다.  
+-   안전한 위치 찾기. 파일을 루트 폴더(C:\\)에 저장하는 것은 안전하지 않습니다. 애플리케이션 데이터의 경우 \Application Data 폴더를 사용하는 것이 좋습니다. 개별 사용자 데이터의 경우 애플리케이션에서 \My Documents 폴더에 각 사용자에 대한 파일을 만들 수 있습니다.  
   
 -   유효한 파일 이름 사용. <xref:System.Windows.Forms.OpenFileDialog> 및 <xref:System.Windows.Forms.SaveFileDialog> 컨트롤을 사용하여 잘못된 파일 이름을 사용할 가능성을 줄일 수 있습니다. 사용자가 파일을 선택한 시간과 코드에서 파일을 조작한 시간 사이에 파일이 삭제되었을 수 있습니다. 또한 사용자에게 파일에 쓸 권한이 없을 수 있습니다.  
   
@@ -56,10 +51,10 @@ ms.locfileid: "49919912"
   
 - 스크립트 기술에 데이터 전달  
   
-  자세한 내용은 [응용 프로그램 보안](../ide/securing-applications.md)을 참조하세요.  
+  자세한 내용은 [애플리케이션 보안](../ide/securing-applications.md)을 참조하세요.  
   
 ## <a name="downloaded-code-snippets"></a>다운로드된 코드 조각  
- Visual Studio에 의해 설치된 IntelliSense 코드 조각 자체에는 보안 위험이 없습니다. 하지만 이 조각 때문에 응용 프로그램에 보안 위험이 발생할 수 있습니다. 인터넷에서 다운로드된 조각은 다른 다운로드된 콘텐츠처럼 매우 주의해서 처리해야 합니다.  
+ Visual Studio에 의해 설치된 IntelliSense 코드 조각 자체에는 보안 위험이 없습니다. 하지만 이 조각 때문에 애플리케이션에 보안 위험이 발생할 수 있습니다. 인터넷에서 다운로드된 조각은 다른 다운로드된 콘텐츠처럼 매우 주의해서 처리해야 합니다.  
   
 -   신뢰할 수 있는 사이트에서만 조각을 다운로드하고 최신 바이러스 소프트웨어를 사용하세요.  
   
@@ -73,8 +68,5 @@ ms.locfileid: "49919912"
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Basic IntelliSense 코드 조각](http://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
- [응용 프로그램 보안](../ide/securing-applications.md)   
+ [애플리케이션 보안](../ide/securing-applications.md)   
  [코드 조각](../ide/code-snippets.md)
-
-
-

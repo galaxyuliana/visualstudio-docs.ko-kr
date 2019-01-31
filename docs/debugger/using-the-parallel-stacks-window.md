@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: f50efb78-5206-4803-bb42-426ef8133f2f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4e08171c02288f89e706c80ab6dfd5ef9538318c
-ms.sourcegitcommit: 01185dadd2fa1f9a040d2a366869f1a5e1d18e0f
+ms.openlocfilehash: 8d40df6c68b9d62ab6e96483357e45e5c8c122a0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54227943"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55019595"
 ---
 # <a name="view-threads-and-tasks-in-the-parallel-stacks-window-c-visual-basic-c"></a>병렬 스택 창의 스레드 및 작업 보기 (C#, Visual Basic, c + +)
 
@@ -129,7 +129,7 @@ ms.locfileid: "54227943"
 ![스레드 및 태스크 도구 설명](../debugger/media/parallel_threads-tasks-tooltips.png "스레드 및 태스크 도구 설명")  
 
 ## <a name="method-view"></a>메서드 뷰  
-**스레드** 보기 또는 **작업** 뷰를 선택 하 여 현재 메서드가의 그래프를 피벗할 수 있습니다 합니다 **메서드 뷰 설정/해제** 도구 모음에서 아이콘입니다. **메서드 **뷰에서는 현재 메서드를 호출하거나 현재 메서드에 의해 호출되는 모든 스레드에 대한 메서드를 모두 한눈에 볼 수 있습니다. 다음 그림에서 동일한 정보를 표시 되는 모양을 보여 주는 **스레드** 왼쪽에서 볼 **메서드 뷰** 오른쪽에 있습니다.  
+**스레드** 보기 또는 **작업** 뷰를 선택 하 여 현재 메서드가의 그래프를 피벗할 수 있습니다 합니다 **메서드 뷰 설정/해제** 도구 모음에서 아이콘입니다. **메서드** 뷰에서는 현재 메서드를 호출하거나 현재 메서드에 의해 호출되는 모든 스레드에 대한 메서드를 모두 한눈에 볼 수 있습니다. 다음 그림에서 동일한 정보를 표시 되는 모양을 보여 주는 **스레드** 왼쪽에서 볼 **메서드 뷰** 오른쪽에 있습니다.  
 
 ![스레드 뷰와 메서드 뷰](../debugger/media/parallel_methodview.png "스레드 뷰와 메서드 뷰")  
   

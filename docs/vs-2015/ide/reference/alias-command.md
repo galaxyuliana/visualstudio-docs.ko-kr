@@ -1,14 +1,9 @@
 ---
 title: 별칭 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - tools.alias
 helpviewer_keywords:
@@ -21,13 +16,13 @@ ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f9fb6a4da0b18cf022ee388ff4a6fa5f399dc650
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4260804760b4abe55f6a62efa4841ad08dead1b4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49258520"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54753272"
 ---
 # <a name="alias-command"></a>별칭 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,7 +53,7 @@ Tools.Alias [/delete] [/reset] [aliasname] [aliasstring]
  /reset  
  선택 사항입니다. 미리 정의된 별칭 목록을 원래 설정으로 다시 설정합니다. 즉, 미리 정의된 모든 별칭을 복원하고 모든 사용자 정의 별칭을 제거합니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  별칭은 명령을 나타내므로 명령줄 시작 부분에 있어야 합니다.  
   
  이 명령을 실행할 때는 별명 뒤가 아닌 명령 바로 다음에 스위치를 포함해야 합니다. 그렇지 않으면 스위치 자체가 별명 문자열의 일부로 포함됩니다.  
@@ -89,6 +84,3 @@ Tools.Alias [/delete] [/reset] [aliasname] [aliasstring]
  [명령 창](../../ide/reference/command-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

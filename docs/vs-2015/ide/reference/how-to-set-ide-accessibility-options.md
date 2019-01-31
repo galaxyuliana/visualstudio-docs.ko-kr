@@ -1,27 +1,22 @@
 ---
-title: '방법: IDE 접근성 옵션 설정 | Microsoft Docs'
-ms.custom: ''
+title: '방법: IDE 내게 필요한 옵션 설정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
 - accessibility [Visual Studio]
 ms.assetid: ddc96c4c-0600-46c1-8267-7dce4c44ad24
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 485529a8be2adf57f7b79a3d2f0844d662920448
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b1f70f2f33b8ad0af4f0fa13489cb75be529c322
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49867288"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54803225"
 ---
 # <a name="how-to-set-ide-accessibility-options"></a>방법: IDE 내게 필요한 옵션 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,12 +27,12 @@ ms.locfileid: "49867288"
  또한 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서는 가장 자주 입력되는 문자의 접근성을 높이는 Dvorak 키보드 레이아웃을 지원합니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서 제공되는 기본 바로 가기 키를 사용자 지정할 수도 있습니다. 자세한 내용은 [바로 가기 키 식별 및 사용자 지정](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)을 참조하세요.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="editors-dialogs-and-tool-windows"></a>편집기, 대화 상자 및 도구 창  
  기본적으로 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]의 대화 상자와 도구 창에서는 운영 체제와 같은 글꼴 크기 및 색을 사용합니다. IDE, 대화 상자, 도구 모음 및 도구 창의 프레임에 대한 색 설정은 색 테마인 밝은 테마 또는 어두운 테마에 따라 결정됩니다. [옵션 대화 상자, 환경, 일반](../../ide/reference/general-environment-options-dialog-box.md)에서 현재 색 테마를 변경할 수 있습니다.  
   
- 편집기의 코드 보기에서 팝업 창을 표시할 수도 있습니다. 이러한 창에는 현재 개체의 사용 가능한 멤버 함수나 문을 완성하기 위한 매개 변수가 표시될 수 있습니다. 입력이 어려울 경우 이러한 창이 유용할 수 있습니다. 그러나 이러한 창은 코드 편집기에 집중하는 데 방해가 되어 일부 사용자에게 문제가 될 수 있습니다. [옵션] 대화 상자를 열고 **옵션** 대화 상자의 **텍스트 편집기**, **모든 언어**, **일반** 페이지에서 **멤버 목록 자동 표시** 및 **매개 변수 정보**를 선택 취소하여 이러한 창을 끌 수 있습니다. 자세한 내용은 [방법: 일반 편집기 옵션 설정](http://msdn.microsoft.com/en-us/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)을 참조하세요.  
+ 편집기의 코드 보기에서 팝업 창을 표시할 수도 있습니다. 이러한 창에는 현재 개체의 사용 가능한 멤버 함수나 문을 완성하기 위한 매개 변수가 표시될 수 있습니다. 입력이 어려울 경우 이러한 창이 유용할 수 있습니다. 그러나 이러한 창은 코드 편집기에 집중하는 데 방해가 되어 일부 사용자에게 문제가 될 수 있습니다. [옵션] 대화 상자를 열고 **옵션** 대화 상자의 **텍스트 편집기**, **모든 언어**, **일반** 페이지에서 **멤버 목록 자동 표시** 및 **매개 변수 정보**를 선택 취소하여 이러한 창을 끌 수 있습니다. 자세한 내용은 [방법: 일반 편집기 옵션 설정](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)합니다.  
   
  자신의 작업 방식에 가장 적합하게 IDE(통합 개발 환경)에서 창을 다시 정렬할 수 있습니다. 각 도구 창을 도킹 또는 고정 해제하거나, 숨기거나, 자동으로 숨길 수 있습니다.  
   
@@ -77,7 +72,7 @@ ms.locfileid: "49867288"
  편집기에서 텍스트, 여백 표시기, 공백 및 코드 요소의 기본색을 변경할 수도 있습니다.  
   
 > [!NOTE]
->  운영 체제의 모든 응용 프로그램 창에 고대비 색을 사용하려면 왼쪽 <strong>ALT+</strong>왼쪽 **SHIFT+PRINT SCREEN**을 누릅니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]가 열릴 경우 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 닫았다 열면 고대비 색이 완전히 구현됩니다.  
+>  운영 체제의 모든 애플리케이션 창에 고대비 색을 사용하려면 왼쪽 <strong>ALT+</strong>왼쪽 **SHIFT+PRINT SCREEN**을 누릅니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]가 열릴 경우 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 닫았다 열면 고대비 색이 완전히 구현됩니다.  
   
 ##### <a name="to-change-the-color-of-items-in-the-editor"></a>편집기에서 항목의 색을 변경하려면  
   
@@ -89,7 +84,7 @@ ms.locfileid: "49867288"
   
 4.  **표시 항목**에서 변경해야 하는 표시가 포함된 항목을 선택합니다(예: **일반 텍스트**, **표시기 여백**, **공백 표시**, **HTML 특성 이름** 또는 **XML 특성**).  
   
-5.  **항목 전경**, **항목 배경** 및 **굵게** 옵션에서 표시 설정을 선택합니다.  
+5.  다음 옵션 중에서 표시 설정을 선택합니다. **항목 전경**, **항목 배경** 및 **볼드**  
   
 6.  **확인**을 선택합니다.  
   
@@ -118,7 +113,4 @@ ms.locfileid: "49867288"
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 접근성 기능](../../ide/reference/accessibility-features-of-visual-studio.md)   
- [접근성을 제공하는 응용 프로그램 설계를 위한 리소스](../../ide/reference/resources-for-designing-accessible-applications.md)
-
-
-
+ [접근성을 제공하는 애플리케이션 설계를 위한 리소스](../../ide/reference/resources-for-designing-accessible-applications.md)

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: dff1c1eb-bcb2-4275-bb07-f2fdc076d6fb
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e36f51dd977971c78c3ca7593c98dc00831ef2aa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cdb4ee71c05cf065f6a76ddb1ab3c2a0eddd42f5
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875140"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009130"
 ---
 # <a name="idiasymbolgetplatform"></a>IDiaSymbol::get_platform
 컴파일 대상 컴파일된 플랫폼 형식을 검색 합니다.  

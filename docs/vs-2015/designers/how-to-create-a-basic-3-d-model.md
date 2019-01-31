@@ -1,27 +1,22 @@
 ---
-title: '방법: 기본 3D 모델 만들기 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 기본 3d 모델 만들기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: a0d97966-2df8-449b-a8cf-5a19684dc773
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 83d4069135adf37156457321b8ce15a254c9c27b
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c7c904e74793710dedc96d4a769d4f6c61a15e69
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49825493"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54760773"
 ---
-# <a name="how-to-create-a-basic-3-d-model"></a>방법: 기본 3차원 모델 만들기
+# <a name="how-to-create-a-basic-3-d-model"></a>방법: 기본 3d 모델 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 문서에서는 모델 편집기를 사용하여 기본 3D 모델을 만드는 방법을 설명합니다.  
@@ -79,12 +74,9 @@ ms.locfileid: "49825493"
   
    ![완료된 간이형 집 모델](../designers/media/gfx-model-demo-house-final.png "gfx_model_demo_house_final")  
   
-   다음 단계로 이 3D 모델에 셰이더를 적용할 수 있습니다. 자세한 내용은 [방법: 3D 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)을 참조하세요.  
+   다음 단계로 이 3D 모델에 셰이더를 적용할 수 있습니다. 자세한 내용은 [방법: 3 차원 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 3D 지형 모델 만들기](../designers/how-to-model-3-d-terrain.md)   
+ [방법: 3d 지형 모델](../designers/how-to-model-3-d-terrain.md)   
  [모델 편집기](../designers/model-editor.md)   
  [셰이더 디자이너](../designers/shader-designer.md)
-
-
-

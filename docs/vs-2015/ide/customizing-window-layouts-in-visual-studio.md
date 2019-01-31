@@ -1,13 +1,9 @@
 ---
 title: 창 레이아웃 사용자 지정
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 f1_keywords:
 - vs.windows
 - vs.environment
@@ -27,13 +23,13 @@ ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 7a0f6b087f512750ae729d52c0855e3d4981d330
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+manager: jillfra
+ms.openlocfilehash: c02bd6bfdbb11a42688bb434cecfd5748e072d96
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53934377"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802031"
 ---
 # <a name="customizing-window-layouts-in-visual-studio"></a>Visual Studio에서 창 레이아웃 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,7 +77,7 @@ Visual Studio에서 창의 위치, 크기 및 동작을 사용자 지정하여 �
   도구 및 문서 창은 끌거나, **창** 메뉴에서 명령을 사용하거나, 정렬할 창의 제목 표시줄을 마우스 오른쪽 단추로 클릭하여 정렬할 수 있습니다.
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
+>  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
 
 ### <a name="docking-windows"></a>창 도킹
  도구 창의 제목 표시줄이나 문서 창의 탭을 클릭하고 끌면 안내 다이아몬드가 나타납니다. 끌기 작업 중에 마우스 커서가 다이아몬드의 화살표 중 하나 위에 있을 때 지금 마우스 단추를 놓으면 창이 도킹될 위치를 보여 주는 음영 영역이 나타납니다.
@@ -186,4 +182,4 @@ Visual Studio에서 창의 위치, 크기 및 동작을 사용자 지정하여 �
 |[창 종류](../misc/kinds-of-windows.md)|IDE의 도구 창과 문서 창 사이의 차이점에 대해 설명합니다.|
 |[방법: 창 정렬 및 고정](../misc/how-to-arrange-and-dock-windows.md)|창을 도킹하거나, 자동으로 숨기거나, 바둑판식으로 배열하는 방법과 창 레이아웃을 다시 설정하는 방법을 설명합니다.|
 |[방법: IDE에서 이동](../ide/how-to-move-around-in-the-visual-studio-ide.md)|IDE에서 열린 창 사이를 사용 순서에 따라 순환하는 방법을 설명합니다. 특정 문서로 이동하는 방법에 대해서도 설명합니다.|
-|[Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)|설정 조합에 대한 정보를 제공하고 설정이 창 레이아웃, 바로 가기 키 및 IDE의 기타 요소에 어떤 영향을 주는지 설명합니다.|
+|[Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)|설정 조합에 대한 정보를 제공하고 설정이 창 레이아웃, 바로 가기 키 및 IDE의 기타 요소에 어떤 영향을 주는지 설명합니다.|

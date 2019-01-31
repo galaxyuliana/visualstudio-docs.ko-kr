@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 73cd3e9d-cd72-4ad2-8cae-94d6bb6b01e0
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d736ca95b9095aa1db19445762d4734dc49677a1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a8b399b8551810cf4fa33d694eb5a63959a7ea2f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53967276"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55019491"
 ---
 # <a name="how-to-enable-clickonce-security-settings"></a>방법: ClickOnce 보안 설정 사용
 응용 프로그램을 게시 하기 위해 ClickOnce 응용 프로그램에 대 한 코드 액세스 보안을 사용할 수 있어야 합니다. 게시 마법사를 사용 하 여 응용 프로그램을 게시할 때 자동으로 수행 됩니다.  

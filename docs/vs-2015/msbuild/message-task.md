@@ -1,14 +1,9 @@
 ---
 title: Message 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Message
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: 2293309d-42b6-46dc-9684-8c146f66bc28
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 29b51a3e51610ee15bf9908e6c0465fbe1fd5cd6
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 254602005966a9d9f95ff6b76f8ad42360e4a57d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49285079"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54770791"
 ---
 # <a name="message-task"></a>메시지 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +40,7 @@ ms.locfileid: "49285079"
 |`Importance`|선택적 `String` 매개 변수입니다.<br /><br /> 메시지의 중요도를 지정합니다. 이 매개 변수는 `high`, `normal` 또는 `low` 값을 가질 수 있습니다. 기본값은 `normal`입니다.|  
 |`Text`|선택적 `String` 매개 변수입니다.<br /><br /> 기록할 오류 텍스트입니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  `Message` 작업을 통해 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트는 빌드 프로세스의 여러 다른 단계에서 로거로 메시지를 발생할 수 있습니다.  
   
  `Condition` 매개 변수가 `true`이면 `Text` 매개 변수 값은 로깅되고 빌드가 계속 실행됩니다. `Condition` 매개 변수가 없으면 메시지 텍스트가 로깅됩니다. 로깅에 대한 자세한 내용은 [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)를 참조하세요.  
@@ -70,6 +65,3 @@ ms.locfileid: "49285079"
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)   
  [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)
-
-
-

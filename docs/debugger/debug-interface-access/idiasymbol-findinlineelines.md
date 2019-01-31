@@ -7,15 +7,15 @@ dev_langs:
 ms.assetid: 56ba4bc0-8f96-47c2-8b18-332b4e7c2d91
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 008328536e7fe465594f4fbfec25a52aa2a1ed64
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e609381bcdcd68a2ef3f3d739cf5c18c2f2610de
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53927079"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55015565"
 ---
 # <a name="idiasymbolfindinlineelines"></a>IDiaSymbol::findInlineeLines
 클라이언트가 모든 없는 함수를 인라인 처리를 직접 또는 간접적으로이 기호는 줄 번호 정보를 반복 하는 데 사용 하는 열거형을 검색 합니다.  

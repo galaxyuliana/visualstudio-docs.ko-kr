@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 2f18c64c-2cf0-43fc-a447-21e82702ca2a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bacf5c57955f018c684ffb42afb5b9195cf4543f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6a9f3609f97d74cad8a9abb8aad511345d3120c4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53924373"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54977644"
 ---
 # <a name="idialoadcallback"></a>IDiaLoadCallback
 콜백 프로시저 찾기, 위치 시도의 진행률을 보고 하기 위한 사용자 인터페이스를 지원할 DIA 기호에서 받습니다.  
@@ -45,7 +45,7 @@ IDiaLoadCallback : IUnknown
  로드 프로세스에 적용할 수 있는 추가 제한 사항에 대 한 참조를 [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md) 인터페이스입니다.  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

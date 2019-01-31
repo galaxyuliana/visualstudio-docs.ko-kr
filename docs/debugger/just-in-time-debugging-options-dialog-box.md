@@ -17,15 +17,15 @@ helpviewer_keywords:
 ms.assetid: 7f11b2e3-3fb5-449d-b07c-6ecf1d6a487d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 05a1cc9e4847b9ffa2c873b137c35bfbf6f83f83
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b5dc69ca726ddf2f2167be7c52038f3963492281
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968117"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014863"
 ---
 # <a name="just-in-time-debugging-options-dialog-box"></a>옵션 대화 상자, 디버깅, Just-In-Time
 **Just-In-Time** 페이지에 액세스하려면 **도구** 메뉴로 이동하여 **옵션**을 클릭합니다. **옵션** 대화 상자에서 **디버깅** 노드를 확장하고 **Just-In-Time**을 선택합니다. 이 페이지에서는 관리 코드, 네이티브 코드 및 스크립트에 대해 Just-In-Time 디버깅을 사용하도록 설정할 수 있습니다. 자세한 내용은 [Just-In-Time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md)을 참조하세요.  

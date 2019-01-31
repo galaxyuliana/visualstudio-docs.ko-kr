@@ -1,14 +1,9 @@
 ---
 title: RC 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - VC.Project.VCResourceCompilerTool.UndefineProcessorDefinitions
 - vc.task.rc
@@ -27,13 +22,13 @@ ms.assetid: 2fd26c75-a056-4dda-9f7e-2f90d3748d88
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 04bd592f919ab3ced11b36dceba7ce4178927884
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 075b3d9201cc17537d62bbe467cc8fa6d3558c35
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49259352"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54773103"
 ---
 # <a name="rc-task"></a>RC 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,10 +54,7 @@ Microsoft Windows 리소스 컴파일러 도구, rc.exe를 래핑합니다. **RC
 |**TrackerLogDirectory**|선택적 **문자열** 매개 변수입니다.<br /><br /> 추적기 로그 디렉터리를 지정합니다.|  
 |**UndefinePreprocessorDefinitions**|전처리기 기호의 정의를 해제합니다.<br /><br /> 자세한 내용은 MSDN 웹 사이트의 [RC 사용(RC 명령줄)](http://go.microsoft.com/fwlink/?LinkId=155730)에서 **/u** 옵션을 참조하세요. 이 표의 **PreprocessorDefinitions**도 참조하세요.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

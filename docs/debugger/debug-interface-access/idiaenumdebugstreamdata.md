@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: e2023c32-4c05-4d0c-a0be-f016a230c788
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9bf1fdf790878097c9d777ba8eae5386593bccb4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fcce95b178fb612a1fcf6e7c146aa312c9859ba8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989713"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014733"
 ---
 # <a name="idiaenumdebugstreamdata"></a>IDiaEnumDebugStreamData
 디버그 데이터 스트림에서 레코드에 대 한 액세스를 제공합니다.  
@@ -103,7 +103,7 @@ void PrintStreamData(IDiaEnumDebugStreamData* pStream)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

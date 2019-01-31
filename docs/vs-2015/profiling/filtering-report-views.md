@@ -1,36 +1,31 @@
 ---
 title: 보고서 뷰 필터링 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - profiling tools, configuring
 ms.assetid: 820cf192-7fd6-4bee-9a51-aa69154aca85
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: b5ce703fdc3b0d20feda83b59706e7c4792d2ade
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: d27e104aec3719e3f88e75cb326082913068b44b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51753443"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54793089"
 ---
 # <a name="filtering-report-views"></a>보고서 뷰 필터링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 프로파일링 데이터 파일에 필터를 적용하여 성능 보고서 뷰에 표시되고 보고서 파일로 내보내는 프로파일링 데이터를 제한할 수 있습니다. 타임스탬프 값 사이의 데이터로 보고서를 제한하고, 특정 프로세스 및 스레드로 데이터를 제한할 수 있습니다. 파일에 필터를 저장한 다음 저장된 필터를 가져와서 다른 프로파일링 데이터 파일에서 필터를 만들 수 있습니다.  
   
- 요약 뷰에서 그래픽 타임라인을 사용하여 보고서를 시간 세그먼트로 제한할 수도 있습니다. [방법: 요약 타임라인에서 보고서 뷰 필터링](../profiling/how-to-filter-report-views-from-the-summary-timeline.md)을 참조하세요.  
+ 요약 뷰에서 그래픽 타임라인을 사용하여 보고서를 시간 세그먼트로 제한할 수도 있습니다. [방법: 요약 타임라인에서 보고서 보기 필터링](../profiling/how-to-filter-report-views-from-the-summary-timeline.md)을 참조하세요.  
   
- 보고서에서 시스템 및 타사 코드를 제외하려면 [방법: 내 코드만 표시하도록 프로파일링 도구 보고서 뷰 필터링](../profiling/how-to-filter-profiling-tools-report-views-to-display-just-my-code.md)을 참조하세요.  
+ 보고서에서 시스템과 타사 코드를 제외하려면 다음을 참조하세요. [방법: 내 코드만 표시하도록 프로파일링 도구 보고서 뷰 필터링](../profiling/how-to-filter-profiling-tools-report-views-to-display-just-my-code.md)  
   
 ## <a name="procedures"></a>절차  
   
@@ -101,6 +96,3 @@ ms.locfileid: "51753443"
   
 ## <a name="see-also"></a>참고 항목  
  [성능 도구 보고서 뷰 사용자 지정](../profiling/customizing-performance-tools-report-views.md)
-
-
-

@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 6722263c-ccef-40c7-a0ae-87a863fbab00
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f457d35725a0a6041fe82b06853a6dffdf69b53d
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9235adfdf99bd898f8dcd074a3a3cd169161acf7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922457"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018698"
 ---
 # <a name="vsgdbg-class"></a>VsgDbg 클래스
 그래픽 진단의 앱에서 구성 요소 프로그래밍 방식으로 컨트롤에 대 한 인터페이스를 나타냅니다.  

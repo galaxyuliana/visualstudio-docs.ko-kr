@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 3c961641-3ce3-4bc3-bd6e-a802fa3bec49
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a52f34987ac938f09ecbb350d280deb1235589c0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 8e27e63a4a76e188ebf078b3101f7259f62dbefe
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53823531"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55042727"
 ---
 # <a name="idiareadexeatoffsetcallback"></a>IDiaReadExeAtOffsetCallback
 클라이언트 응용 프로그램을 파일 위치에서 지정 된 실행 파일의 바이트를 제공할 수 있습니다.  
@@ -42,7 +42,7 @@ IDiaReadExeAtOffsetCallback : IUnknown
  이 메서드는 클라이언트 응용 프로그램에서 구현 되 고 전달 된 [idiadatasource:: Loaddataforexe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) 파일을 읽는 데 다른 메서드로 메서드.  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 2e54deb7-7744-428e-913c-1d47a2aa89b0
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e2eafc0737a1bb93df73b7648734d1f1c77708a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3466f211edb90783a64f8c7d02c602847e616d82
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875957"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043001"
 ---
 # <a name="idiaframedatagetlengthblock"></a>IDiaFrameData::get_lengthBlock
 프레임으로 설명 하는 코드 블록의 바이트에서 길이 검색 합니다.  

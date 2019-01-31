@@ -1,14 +1,9 @@
 ---
 title: HPC(고성능 컴퓨팅) 클러스터에서 프로파일링 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.performance.hpc.wizard.exeoptions
 - vs.performance.hpc.wizard.summary
@@ -25,13 +20,13 @@ ms.assetid: 1525bbdb-27da-4088-8487-a486cee5e7b3
 caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: f6b0838a7fb3db86290647fadec9ca3572cbdf90
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e952f9611b7bdb4d96e8a50b502ae15e1e6ce528
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51809158"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802316"
 ---
 # <a name="profiling-on-hpc-high-performance-computing-clusters"></a>HPC(High Performance Computing) 클러스터에서 프로파일링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,11 +55,11 @@ ms.locfileid: "51809158"
 |||  
 |-|-|  
 |*%HeadNode%*|클러스터의 헤드 노드 이름입니다.|  
-|*%FxPath%*|[!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] 설치 관리자의 경로입니다. [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 설치 미디어에서 경로는 WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe입니다.|  
-|*%ProfilerPath%*|프로파일링 도구 설치 관리자의 독립 실행형 버전 경로입니다. [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 설치 미디어에서 경로는 Standalone Profiler\x64\vs_profiler.exe입니다.|  
+|*%FxPath%*|[!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] 설치 관리자의 경로입니다. 에 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 설치 미디어에서 경로: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe|  
+|*%ProfilerPath%*|프로파일링 도구 설치 관리자의 독립 실행형 버전 경로입니다. 에 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 설치 미디어에서 경로: Standalone Profiler\x64\vs_profiler.exe|  
   
 ## <a name="profiling-on-an-hpc-compute-node"></a>HPC 컴퓨터 노드에서 프로파일링  
- HPC 성능 마법사를 사용하여 HPC 클러스터 및 대상 정보를 지정하는 방식으로 프로파일링 세션을 구성합니다. 성능 세션 속성 페이지에서 추가 옵션을 설정할 수 있습니다. 프로파일링 도구는 필요한 대상 이진 파일을 자동으로 배포하고 프로파일러 및 HPC 응용 프로그램을 시작합니다.  
+ HPC 성능 마법사를 사용하여 HPC 클러스터 및 대상 정보를 지정하는 방식으로 프로파일링 세션을 구성합니다. 성능 세션 속성 페이지에서 추가 옵션을 설정할 수 있습니다. 프로파일링 도구는 필요한 대상 이진 파일을 자동으로 배포하고 프로파일러 및 HPC 애플리케이션을 시작합니다.  
   
 #### <a name="to-profile-on-an-hpc-compute-node"></a>HPC 컴퓨터 노드에서 프로파일링하려면  
   
@@ -72,7 +67,7 @@ ms.locfileid: "51809158"
   
 2.  마법사의 첫 페이지에서 **다음**을 클릭합니다.  
   
-3.  마법사의 두 번째 페이지에서 프로파일링할 응용 프로그램을 선택합니다.  
+3.  마법사의 두 번째 페이지에서 프로파일링할 애플리케이션을 선택합니다.  
   
     -   현재 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에 열려 있는 프로젝트를 프로파일링하려면 **하나 이상의 사용 가능한 프로젝트** 옵션을 선택하고 목록에서 프로젝트 이름을 선택합니다.  
   
@@ -96,7 +91,7 @@ ms.locfileid: "51809158"
   
     -   **헤드 노드** 목록에서 프로파일링 실행의 HPC 헤드 노드로 사용할 컴퓨터를 클릭합니다. 헤드 노드는 "localhost"일 수 있습니다. 이 경우 클러스터를 사용하지 않고도 로컬 컴퓨터에서 프로파일링할 수 있습니다.  
   
-    -   **프로세스 수** 목록에서 실행할 응용 프로그램 인스턴스의 수를 클릭합니다.  
+    -   **프로세스 수** 목록에서 실행할 애플리케이션 인스턴스의 수를 클릭합니다.  
   
     -   **프로파일링 옵션** 목록에서 프로파일링 대상을 선택합니다.  
   
@@ -125,7 +120,7 @@ ms.locfileid: "51809158"
   
     -   **일반**을 클릭하고 **HPC 클러스터에서 수집**을 선택하여 HPC 프로파일링을 설정하거나 확인란 선택을 취소하여 HPC 프로파일링을 사용하지 않도록 설정합니다.  
   
-    -   **HPC 시작 속성**을 클릭하여 HPC 응용 프로그램을 시작하는 속성을 변경합니다.  
+    -   **HPC 시작 속성**을 클릭하여 HPC 애플리케이션을 시작하는 속성을 변경합니다.  
   
     -   **HPC 고급 속성**을 클릭하여 추가 옵션을 설정합니다.  
   
@@ -134,7 +129,7 @@ ms.locfileid: "51809158"
 |속성|설명|  
 |--------------|-----------------|  
 |**헤드 노드**|프로파일링 실행의 HPC 헤드 노드로 사용할 컴퓨터를 지정합니다.|  
-|**프로세스 수**|프로파일링된 응용 프로그램에서 실행할 응용 프로그램의 인스턴스 수를 지정합니다.|  
+|**프로세스 수**|프로파일링된 애플리케이션에서 실행할 애플리케이션의 인스턴스 수를 지정합니다.|  
 |**순위의 프로필**|클러스터의 특정 프로세스를 프로파일링하려면 **순위의 프로필** 옵션을 선택하고 드롭다운 목록에서 프로세스의 순위를 선택합니다.|  
 |**노드의 프로필**|HPC 클러스터의 특정 노드에서 실행되는 하나 이상의 프로세스를 프로파일링하려면 **노드의 프로필** 옵션을 선택하고 드롭다운 목록에서 노드를 선택합니다.|  
 |**원격 작업 디렉터리**|개별 컴퓨터 노드의 프로세스 인스턴스가 사용하는 폴더의 경로를 지정합니다.|  
@@ -147,14 +142,11 @@ ms.locfileid: "51809158"
 |**프로젝트 이름**|현재 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 프로젝트 또는 솔루션의 이름입니다.|  
 |**프로파일러가 중지되면 정리**|true로 설정하면 실행 디렉터리에 배포된 이진 파일이 제거됩니다. 사용자 프로그램에서 만든 파일과 디렉터리는 이 단계에서 제거되지 않습니다. 실행 디렉터리와 배포 디렉터리를 IDE에서 만든 경우 IDE는 해당 디렉터리 제거를 시도하지만, IDE를 통해 배포되지 않은 파일이 포함되어 있는 경우에는 제거를 시도하지 않습니다.|  
 |**배포할 추가 파일**|컴퓨터 노드에서 배포할 추가 파일의 세미콜론으로 구분된 목록을 지정합니다. 줄임표 단추(**...**)를 클릭하면 대화 상자를 통해 여러 파일을 선택할 수 있습니다.|  
-|**Mpiexec 명령**|MPI 응용 프로그램을 시작 하는 응용 프로그램을 지정합니다. 기본값은 **mpiexec.exe**입니다.|  
+|**Mpiexec 명령**|MPI 애플리케이션을 시작 하는 애플리케이션을 지정합니다. 기본값은 **mpiexec.exe**입니다.|  
 |**Mpiexec 인수**|Mpiexec.exe 명령에 전달할 인수를 지정합니다.|  
-|**클러스터에서 요청된 노드**|응용 프로그램을 실행할 클러스터의 노드 수를 지정합니다.|  
+|**클러스터에서 요청된 노드**|애플리케이션을 실행할 클러스터의 노드 수를 지정합니다.|  
 |**CRT 파일 배포**|true로 설정하면 클러스터에서 C/C++ 런타임을 배포합니다.|  
 |**프로파일링 전 스크립트**|프로파일링 세션이 시작되기 전에 로컬 개발 컴퓨터에서 실행할 스크립트의 경로와 파일 이름을 지정합니다.|  
 |**프로파일링 전 스크립트 인수**|프로파일링 전 스크립트에 전달할 인수를 지정합니다.|  
 |**프로파일링 후 스크립트**|프로파일링 세션이 종료된 후에 로컬 개발 컴퓨터에서 실행할 스크립트의 경로와 파일 이름을 지정합니다.|  
 |**프로파일링 후 스크립트 인수**|프로파일링 후 스크립트에 전달할 인수를 지정합니다.|
-
-
-

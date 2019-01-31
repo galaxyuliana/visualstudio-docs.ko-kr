@@ -7,15 +7,15 @@ dev_langs:
 ms.assetid: ad554d18-9988-4b64-ad71-e7594c266e94
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3f0a185a04f1cbcfb6b8c53256d23e7beac22f50
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 2112f7186ee8bb861cf4d283b0bb0b4499f2c4ae
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53911043"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023995"
 ---
 # <a name="idiasymbolgetsrclineontypedefn"></a>IDiaSymbol::getSrcLineOnTypeDefn
 지정 된 사용자 정의 형식이 정의 되어 있는 나타내는 소스 파일과 줄 번호를 검색 합니다.  

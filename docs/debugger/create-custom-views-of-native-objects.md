@@ -10,15 +10,15 @@ dev_langs:
 ms.assetid: 2d9a177a-e14b-404f-a6af-49498eff0bd7
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: d91a62971db47b78b974cc2dede77d0a47b5c851
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ca1cf68af84556a76c29417c9bd56894a70f12ca
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53821194"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54997327"
 ---
 # <a name="create-custom-views-of-native-objects-in-the-debugger"></a>디버거에서 네이티브 개체의 사용자 지정 뷰 만들기
 
@@ -26,10 +26,6 @@ Visual Studio *Natvis* 프레임 워크와 같은 디버거 변수 창에 네이
 
 Natvis 대체 합니다 *autoexp.dat* XML 구문, 보다 효과적인 진단, 버전 관리를 사용 하 여 이전 버전의 Visual Studio에서 파일 및 여러 파일을 지원 합니다.  
 
-Natvis에 대 한 작동 하지 않습니다.
-
-- 사용 하 여 c + + Windows 데스크톱 프로젝트 **디버거 형식** 로 설정 **혼합** 아래의 **구성 속성** > **디버깅**. 
-- [혼합 모드 디버깅](how-to-debug-in-mixed-mode.md) 관리 되는 호환성 모드에서 Windows 데스크톱 앱 (**도구** > **옵션** > **디버깅**  >  **일반** > **관리 되는 호환성 모드를 사용 하 여**).
 
 ## <a name="BKMK_Why_create_visualizations_"></a>Natvis 시각화
 

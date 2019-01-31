@@ -1,14 +1,9 @@
 ---
 title: 변환 대화 상자 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - jlca_Conversion_F1_3
 - JLCA_Conversion_F1
@@ -19,13 +14,13 @@ ms.assetid: 56f23ef7-17c4-4d76-9ead-982bbcd42061
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 5d08c18daf91e9fa4d879d9a2f12242a1c75b8ad
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f020e23b5a58d700fb698e8026ef0b783b6de6a4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49282999"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758569"
 ---
 # <a name="convert-dialog-box"></a>변환 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,11 +38,8 @@ ms.locfileid: "49282999"
   
      현재 사용할 수 있는 코드 변환 도구 목록이 표시됩니다.  
   
-2.  응용 프로그램에 적합한 도구를 선택합니다.  
+2.  애플리케이션에 적합한 도구를 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [NOTINBUILD - 방법: Visual Basic 6.0에서 프로젝트 업그레이드](http://msdn.microsoft.com/en-us/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
+ [NOTINBUILD-방법: Visual Basic 6.0에서에서 프로젝트 업그레이드](http://msdn.microsoft.com/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
  [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
-
-
-

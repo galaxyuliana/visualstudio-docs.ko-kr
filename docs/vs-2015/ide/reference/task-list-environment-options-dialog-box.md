@@ -1,14 +1,9 @@
 ---
 title: 옵션 대화 상자, 환경, 작업 목록 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Task_List
 - VS.ToolsOptionsPag.Environment.Task_List
@@ -28,13 +23,13 @@ ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 17404838fc567d37f23c683f6b8f83b7529a3dc8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 94f0fc19c84a5e86dbfff27a88b179f6a9bfb566
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49252540"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795486"
 ---
 # <a name="task-list-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 작업 목록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,7 +59,7 @@ ms.locfileid: "49252540"
  우선 순위  
  선택한 토큰을 사용하는 작업의 우선 순위를 설정합니다. 이 토큰으로 시작되는 작업 주석에 **작업 목록**에 지정된 우선 순위가 자동으로 할당됩니다.  
   
- 이름  
+ name  
  토큰 문자열을 입력합니다. 이렇게 하면 **추가** 단추를 사용할 수 있게 됩니다. **추가**하면 이 문자열이 **토큰 목록**에 포함되고 이 이름으로 시작되는 주석이 **작업 목록**에 표시됩니다.  
   
  추가  
@@ -83,6 +78,3 @@ ms.locfileid: "49252540"
  [작업 목록 사용](../../ide/using-the-task-list.md)   
  [코드에 책갈피 설정](../../ide/setting-bookmarks-in-code.md)   
  [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)
-
-
-

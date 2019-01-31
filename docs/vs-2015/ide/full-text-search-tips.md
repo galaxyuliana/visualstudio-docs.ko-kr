@@ -1,14 +1,9 @@
 ---
 title: 전체 텍스트 검색 팁 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - hv_search
 helpviewer_keywords:
@@ -18,13 +13,13 @@ ms.assetid: bcaad23d-2ca7-4bec-8b54-b884bc34e70b
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 85770dfd3c610f92bcb190b7a2c151b40cd31a4c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: a015aeff983979bbb8f6ddedc245c74d3fb5f77b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49850050"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54791710"
 ---
 # <a name="full-text-search-tips"></a>전체 텍스트 검색 팁
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +46,7 @@ ms.locfileid: "49850050"
 >    2.  검색 문구에서 단어 간의 관계를 지정하려면 논리 연산자를 사용합니다. AND, OR, NOT, NEAR 등의 논리 연산자를 포함하여 검색을 구체화할 수 있습니다. 예를 들어 "declaring NEAR union"을 검색하는 경우 "declaring" 및 "union" 단어를 포함하고 그 사이에 몇 단어만 있는 항목이 검색 결과에 포함됩니다. 자세한 내용은 [검색 식의 논리 연산자](../ide/logical-operators-in-search-expressions.md)를 참조하세요.  
   
 ### <a name="filters"></a>필터  
- 고급 검색 연산자를 사용하여 검색 결과를 더욱 제한할 수 있습니다. 도움말에는 전체 텍스트 검색 결과를 필터링하는 데 사용할 수 있는 세 가지 범주(제목, 코드 및 키워드)가 포함되어 있습니다. 자세한 내용은 [검색 식의 고급 검색 연산자](../ide/advanced-search-operators-in-search-expressions.md)를 참조하세요.  
+ 고급 검색 연산자를 사용하여 검색 결과를 더욱 제한할 수 있습니다. 도움말에는 전체 텍스트 검색 결과를 필터링하는 데 사용할 수 있는 다음 세 가지 범주가 포함되어 있습니다. 제목, 코드 및 키워드. 자세한 내용은 [검색 식의 고급 검색 연산자](../ide/advanced-search-operators-in-search-expressions.md)를 참조하세요.  
   
 ### <a name="ranking-of-search-results"></a>검색 결과의 순위 지정  
  검색 알고리즘은 특정 조건을 적용하여 결과 목록에서 검색 결과의 순위를 위나 아래로 조정합니다. 일반적으로 다음과 같이 작동합니다.  
@@ -68,6 +63,3 @@ ms.locfileid: "49850050"
 ## <a name="see-also"></a>참고 항목  
  [정보 찾기](../ide/locate-information.md)   
  [검색 식의 논리 연산자](../ide/logical-operators-in-search-expressions.md)
-
-
-

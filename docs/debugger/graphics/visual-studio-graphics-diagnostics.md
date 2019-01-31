@@ -8,15 +8,15 @@ f1_keywords:
 ms.assetid: fa69c550-62a7-41b5-bb1f-7eb04af1a6e8
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9c4dda5fef6b2a288e5b4f78bbe6b10422ef5ea2
-ms.sourcegitcommit: 73861cd0ea92e50a3be1ad2a0ff0a7b07b057a1c
+ms.openlocfilehash: 6eb8419d08172ee23c4b0eb17e43119505caee6f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54154259"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55030173"
 ---
 # <a name="visual-studio-graphics-diagnostics"></a>Visual Studio 그래픽 진단
 Visual Studio*그래픽 진단* 기록 하 고 다음 Direct3D 앱의 렌더링 및 성능 문제를 분석에 대 한 도구 집합이 있습니다. Windows PC에서 로컬로 실행 중이거나 Windows 장치 에뮬레이터 또는 원격 PC나 장치에서 실행 중인 앱에서 그래픽 진단을 사용할 수 있습니다.  

@@ -1,14 +1,9 @@
 ---
 title: 프로파일링 도구의 새로운 기능 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - profiling
 - what's new
@@ -16,13 +11,13 @@ ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 caps.latest.revision: 47
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 2cf92f6560966cc5b41ad21a1587030e12f86d2a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 0fc61a68e363c7a1616b35fb9ebc875e88550885
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51725620"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54791521"
 ---
 # <a name="what39s-new-in-profiling-tools"></a>새로운&#39;프로 파일링 도구 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,10 +41,7 @@ Visual Studio 2015 업데이트 1 디버깅 및 진단의 모든 새로운 기�
   
  **디버그/수집 중지** 명령( **디버그하지 않고 진단 도구**를 실행할 때 적용)의 바로 가기 키가 Visual Studio 2013의 **Ctrl+Alt+F2** 에서 Visual Studio 2015의 **Ctrl+Shift+F2** 로 변경되었습니다.  
   
- **디버그/프로파일러/Windows Phone 응용 프로그램 분석 도구** (또는 **Alt+F1**)에서 Windows Phone 응용 프로그램 분석 도구를 사용할 수 있습니다.  
+ **디버그/프로파일러/Windows Phone 애플리케이션 분석 도구** (또는 **Alt+F1**)에서 Windows Phone 애플리케이션 분석 도구를 사용할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [프로파일링 도구](../profiling/profiling-tools.md)
-
-
-

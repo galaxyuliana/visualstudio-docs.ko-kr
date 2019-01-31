@@ -1,14 +1,9 @@
 ---
 title: 인쇄 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - debug.print
 helpviewer_keywords:
@@ -19,13 +14,13 @@ ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: e742b1fa6a25525d33e7b8a6fcb321cfea86f693
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c72f6668e6babab6bd62cfb0e9a6ca8632df2a84
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49232754"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54763572"
 ---
 # <a name="print-command"></a>인쇄 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,9 +36,9 @@ Debug.Print text
   
 ## <a name="arguments"></a>인수  
  `text`  
- 필수. 계산할 식 또는 표시할 텍스트입니다.  
+ 필수 요소. 계산할 식 또는 표시할 텍스트입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 명령에 대한 별칭으로 물음표(?)를 사용할 수 있습니다. 따라서 예를 들면  
   
 ```  
@@ -70,6 +65,3 @@ Debug.Print text
  [명령 창](../../ide/reference/command-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

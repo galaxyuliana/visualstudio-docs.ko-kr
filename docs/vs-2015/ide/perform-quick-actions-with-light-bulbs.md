@@ -1,25 +1,20 @@
 ---
 title: 전구를 사용하여 빠른 작업 수행 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 990ee487-cf9a-4b89-9784-e7b47c220e8c
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 3eff05df37dd1d15774fb059396f3f94b0fff2a8
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 74237b42ebafb82e82705d42174efb6f6a4d3661
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49883460"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758644"
 ---
 # <a name="perform-quick-actions-with-light-bulbs"></a>전구를 사용하여 빠른 작업 수행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ ms.locfileid: "49883460"
  마우스 오른쪽 단추를 클릭하고 상황에 맞는 메뉴를 표시하여 리팩터링을 수행할 수 있지만 Ctrl+.를 눌러 리팩터링 옵션을 표시할 수도 있습니다. 다음 그림에서는 Ctrl+.를 누른 후 `Math.Abs` 호출이 포함된 줄의 임의 위치에서 메서드 추출 리팩터링이 제공됩니다.  
   
  ![리팩터링 옵션이 표시 된 전구](../ide/media/vs2015-lightbulbs-refactor.png "VS2015_LightBulbs_refactor")
-
-
-

@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: 3beed819-cece-4864-8184-bd410000973a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: c8723a97f5751b790c946055693064c3b7d12237
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b87a8415bf2df2b8848b4fb619964d981e31ffcf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53881103"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55035252"
 ---
 # <a name="debug-aspnet-or-aspnet-core-apps-in-visual-studio"></a>Visual Studio에서 ASP.NET 또는 ASP.NET Core 앱 디버그
 
@@ -116,7 +116,7 @@ ASP.NET 프로젝트 *web.config* 기본적으로 정보가 포함 된 파일 �
 
 1. Visual Studio에서 ASP.NET 프로젝트를 엽니다 *web.config* 파일입니다.  
   
-2. *Web.config* 은 XML 파일, 따라서 태그로 표시 하는 중첩 된 섹션이 포함 되어 있습니다. 찾을 `configuration/system.web/compilation` 섹션입니다. (경우는 `compilation` 만들가 존재 하지 않는 요소입니다.)
+2. *Web.config* 은 XML 파일, 따라서 태그로 표시 하는 중첩 된 섹션이 포함 되어 있습니다. `configuration/system.web/compilation` 섹션을 찾습니다. (경우는 `compilation` 만들가 존재 하지 않는 요소입니다.)
   
 3. 있는지 확인 합니다 `debug` 특성을 `compilation` 로 설정 된 `true`. (경우 합니다 `compilation` 요소를 포함 하지 않습니다는 `debug` 특성, 추가 및로 설정 `true`.) 
   

@@ -9,13 +9,13 @@ ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 7e4366061cc6eba29f630cb51757ddc2ace58970
-ms.sourcegitcommit: 708f77071c73c95d212645b00fa943d45d35361b
+manager: jillfra
+ms.openlocfilehash: 7fecc637a62e96381362d79f66eb5a3cd4d8fa1d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53066247"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54764850"
 ---
 # <a name="getting-started-with-debugging-in-visual-studio-2015"></a>Visual Studio 2015에서 디버그 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ Visual Studio 2015에서는 프로젝트 빌드 및 디버깅 도구의 강력�
  지금까지 편집기를 살펴보고 일부 코드를 만들었습니다. 이제 해당 코드의 디버그를 시작하려고 합니다. Visual Studio 2015에서는 대부분의 IDE와 마찬가지로 디버깅이 두 단계로 이루어집니다. 먼저 프로젝트 및 컴파일러 오류를 catch하고 해결하는 코드를 빌드한 다음 환경에서 해당 코드를 실행하여 런타임 및 동적 오류를 catch하고 해결합니다.
 
 ### <a name="configuring-a-build"></a>빌드 구성
- 두 가지 기본 유형의 빌드 구성 가지 **디버그** 하 고 **릴리스**합니다. 첫 번째 구성은 보다 풍부한 대화형 런타임 디버깅 환경을 허용하지만 배송하면 안 되는 더 느리고 큰 실행 파일을 생성합니다. 두 번째 구성은 적어도 컴파일러의 관점에서 배송하기에 적합한 더 빠르고 최적화된 실행 파일을 빌드합니다.
+ 빌드 구성에는 다음 두 가지 기본 유형이 있습니다. **디버그** 및 **릴리스**. 첫 번째 구성은 보다 풍부한 대화형 런타임 디버깅 환경을 허용하지만 배송하면 안 되는 더 느리고 큰 실행 파일을 생성합니다. 두 번째 구성은 적어도 컴파일러의 관점에서 배송하기에 적합한 더 빠르고 최적화된 실행 파일을 빌드합니다.
 
  기본 빌드 구성은 **디버그**입니다.
 
@@ -184,7 +184,7 @@ Visual Studio 2015에서는 프로젝트 빌드 및 디버깅 도구의 강력�
  ![Visual Studio 2015 진단 도구 창](../ide/media/vs-ide-gs-debug-diagnostic-tools.PNG "Vs_ide_gs_debug_diagnostic_tools")
 
 ### <a name="running-unit-tests"></a>단위 테스트 실행
- 단위 테스트는 앱이나 서비스에서 코드 경로를 실행하는 프로그램입니다. Visual Studio 2015에서는 관리 코드 및 네이티브 코드에 대한 Microsoft 단위 테스트 프레임워크를 설치합니다. 단위 테스트 프레임워크를 사용하여 단위 테스트를 만들고, 실행하고, 이러한 테스트 결과를 보고합니다. 변경 시 단위 테스트를 다시 실행하여 코드가 여전히 제대로 작동하는지 테스트합니다. Visual Studio 2015 Enterprise를 사용하는 경우 빌드할 때마다 테스트를 자동으로 실행할 수 있습니다.
+ 유닛 테스트는 앱이나 서비스에서 코드 경로를 실행하는 프로그램입니다. Visual Studio 2015에서는 관리 코드 및 네이티브 코드에 대한 Microsoft 단위 테스트 프레임워크를 설치합니다. 유닛 테스트 프레임워크를 사용하여 유닛 테스트를 만들고, 실행하고, 이러한 테스트 결과를 보고합니다. 변경 시 단위 테스트를 다시 실행하여 코드가 여전히 제대로 작동하는지 테스트합니다. Visual Studio 2015 Enterprise를 사용하는 경우 빌드할 때마다 테스트를 자동으로 실행할 수 있습니다.
 
  시작하려면 [IntelliTest를 사용하여 코드에 대한 단위 테스트 생성](../test/generate-unit-tests-for-your-code-with-intellitest.md)을 참조하세요.
 

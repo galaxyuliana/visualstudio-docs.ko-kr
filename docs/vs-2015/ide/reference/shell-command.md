@@ -1,14 +1,9 @@
 ---
 title: 셸 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - tools.shell
 helpviewer_keywords:
@@ -23,13 +18,13 @@ ms.assetid: 737fda23-b852-45c4-a9fe-41cbce6ba70f
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 5f760e449921a45f7ad22a3d81376bca432fe24a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 62b4a3e83b368a015cee30284acee0dbab39ca36
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49242218"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54779310"
 ---
 # <a name="shell-command"></a>셸 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,7 +40,7 @@ Tools.Shell [/command] [/output] [/dir:folder] path [args]
   
 ## <a name="arguments"></a>인수  
  `path`  
- 필수. 실행할 파일의 경로와 파일 이름 또는 열 문서. 지정된 파일이 PATH 환경 변수에 있는 디렉터리 중 하나에 없으면 전체 경로가 필요합니다.  
+ 필수 요소. 실행할 파일의 경로와 파일 이름 또는 열 문서. 지정된 파일이 PATH 환경 변수에 있는 디렉터리 중 하나에 없으면 전체 경로가 필요합니다.  
   
  `args`  
  선택 사항입니다. 호출된 프로그램에 전달할 인수입니다.  
@@ -60,7 +55,7 @@ Tools.Shell [/command] [/output] [/dir:folder] path [args]
  /outputwindow [또는] /output [또는] /out [또는] /o  
  선택 사항입니다. 실행 파일에 대한 출력이 **출력** 창에 표시되도록 지정합니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  `Tools.Shell` 바로 뒤에 /dir /o /c 스위치를 지정해야 합니다. 실행 파일 이름 뒤에 지정된 모든 내용은 명령줄 인수로 전달됩니다.  
   
  미리 정의된 별칭 `Shell`을 `Tools.Shell` 대신 사용할 수 있습니다.  
@@ -94,6 +89,3 @@ Tools.Shell """C:\Program Files\SomeFile.exe"""
  [출력 창](../../ide/reference/output-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

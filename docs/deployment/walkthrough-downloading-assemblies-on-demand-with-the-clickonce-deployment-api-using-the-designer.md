@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: 59a0dd5f-1cab-4f2f-b780-0ab7399905d5
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 067591347a89b8a56d6e271614500c7d3880be80
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 47eed859b0969289a78f4eb13314241e89982f5d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53878603"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54919306"
 ---
 # <a name="walkthrough-download-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer"></a>연습: ClickOnce 배포 API 디자이너를 사용 하 여 요청 시 어셈블리 다운로드
 기본적으로 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에 포함된 모든 어셈블리는 애플리케이션을 처음 실행할 때 다운로드됩니다. 그러나 소수의 사용자가 사용하는 애플리케이션의 일부가 있을 수 있습니다. 이 경우 해당 형식 중 하나를 만들 때에만 어셈블리를 다운로드하고자 할 수 있습니다. 다음 연습에서는 애플리케이션의 특정 어셈블리를 "선택 사항"으로 표시하는 방법 및 공용 언어 런타임에서 요청할 때 <xref:System.Deployment.Application> 네임스페이스에 있는 클래스를 사용하여 이를 다운로드하는 방법을 설명합니다.
@@ -79,7 +79,7 @@ ms.locfileid: "53878603"
 
 4.  **그룹** 드롭다운 상자를 확장하고 **새로 만들기**를 선택합니다. `ClickOnceLibrary` 라는 이름을 새 그룹 이름으로 입력합니다.
 
-5.  에 설명 된 대로 응용 프로그램을 게시 계속 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+5.  에 설명 된 대로 응용 프로그램을 게시 계속 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.
 
 ### <a name="to-mark-assemblies-as-optional-in-your-clickonce-application-by-using-manifest-generation-and-editing-tool--graphical-client-mageuiexe"></a>매니페스트 생성 및 편집 도구 — 그래픽 클라이언트(MageUI.exe)를 사용하여 ClickOnce 애플리케이션에서 어셈블리를 선택 사항으로 표시하려면
 

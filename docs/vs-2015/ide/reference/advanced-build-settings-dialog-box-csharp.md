@@ -1,14 +1,9 @@
 ---
 title: 고급 빌드 설정 대화 상자(C#) | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - cs.AdvancedBuildSettings
 helpviewer_keywords:
@@ -17,13 +12,13 @@ ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 9f3d62f6cd393dfccdaeb9047bac4780546f0087
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f4336ef93eded7ed1d56a8ee34fff0189813da17
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49811979"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54763350"
 ---
 # <a name="advanced-build-settings-dialog-box-c"></a>고급 빌드 설정 대화 상자(C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,13 +49,13 @@ ms.locfileid: "49811979"
   정수 산술 문이 [checked](http://msdn.microsoft.com/library/718a1194-988d-48a3-b089-d6ee8bd1608d) 또는 [unchecked](http://msdn.microsoft.com/library/0c021f7c-923f-4b3d-a58f-55336f5ac27e) 키워드의 범위에 포함되지 않고 데이터 형식 범위를 벗어난 값을 생성할 경우 런타임 예외를 발생시킬지 여부를 지정합니다. 자세한 내용은 [/checked(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/fb7475d3-e6a6-4e6d-b86c-69e7a74c854b)를 참조하세요.  
   
   **mscorlib.dll을 참조하지 않음**  
-  Mscorlib.dll 전체 정의 프로그램으로 가져올 여부를 지정 <xref:System> 네임 스페이스입니다. 고유한 <xref:System> 네임스페이스 및 개체를 정의하거나 만들려면 이 상자를 선택합니다. 자세한 내용은 [/nostdlib(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/ec197989-fa49-4725-a455-e06b551eb65f)를 참조하세요.  
+  mscorlib.dll을 프로그램으로 가져와 전체 <xref:System> 네임스페이스를 정의할지 여부를 지정합니다. 고유한 <xref:System> 네임스페이스 및 개체를 정의하거나 만들려면 이 상자를 선택합니다. 자세한 내용은 [/nostdlib(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/ec197989-fa49-4725-a455-e06b551eb65f)를 참조하세요.  
   
 ## <a name="output"></a>출력  
  다음 옵션을 사용하여 고급 출력 옵션을 지정할 수 있습니다.  
   
  **디버그 정보**  
- 컴파일러에서 생성되는 디버깅 정보 형식을 지정합니다. 응용 프로그램의 디버그 성능을 구성하는 방법에 대한 자세한 내용은 [쉽게 디버깅할 수 있도록 이미지 만들기](http://msdn.microsoft.com/library/7d90ea7a-150f-4f97-98a7-f9c26541b9a3)를 참조하세요. 이 설정에는 다음과 같은 옵션이 있습니다.  
+ 컴파일러에서 생성되는 디버깅 정보 형식을 지정합니다. 애플리케이션의 디버그 성능을 구성하는 방법에 대한 자세한 내용은 [쉽게 디버깅할 수 있도록 이미지 만들기](http://msdn.microsoft.com/library/7d90ea7a-150f-4f97-98a7-f9c26541b9a3)를 참조하세요. 이 설정에는 다음과 같은 옵션이 있습니다.  
   
 - **none**  
   
@@ -85,6 +80,3 @@ ms.locfileid: "49811979"
 ## <a name="see-also"></a>참고 항목  
  [C# 컴파일러 옵션](http://msdn.microsoft.com/library/d3403556-1816-4546-a782-e8223a772e44)   
  [프로젝트 디자이너, 빌드 페이지(C#)](../../ide/reference/build-page-project-designer-csharp.md)
-
-
-

@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: deee6f53-ea87-4b88-a120-bea589822e03
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 48322adffff68d1eecb0d44da7e8f78d39d82203
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cd05cbfb1cd6bf158a0e491d87903fd43fb0bbc8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53986072"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043299"
 ---
 # <a name="register-extensions-of-the-net-framework"></a>.NET Framework 확장명 등록
 .NET Framework의 특정 버전을 확장하는 어셈블리를 개발할 수 있습니다. 해당 어셈블리가 Visual Studio의 **참조 추가** 대화 상자에 표시되도록 설정하려면 이 어셈블리를 포함하는 폴더를 시스템 레지스트리에 추가해야 합니다.  

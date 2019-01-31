@@ -22,16 +22,16 @@ helpviewer_keywords:
 ms.assetid: fd961a1c-76fa-420d-ad8f-c1a6c003b0db
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
 - cplusplus
-ms.openlocfilehash: bcdedfb513d9e10f030df4a6e9ba68b807210669
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a201dab58084476f0993304d961fc5afa5693782
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53936180"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55002231"
 ---
 # <a name="how-to-enable-and-disable-edit-and-continue-c-vb-c"></a>방법: 사용 하도록 설정 하 고 편집 하며 계속 하기를 사용 하지 않도록 설정 (C#, VB, c + +)
 

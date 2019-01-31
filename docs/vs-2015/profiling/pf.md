@@ -1,25 +1,20 @@
 ---
 title: PF | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: cdc0a094-a986-4629-bd1c-dd5fdca323dc
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 67663c067188a703ff6228a703a71ac8a1a0b355
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 3d4895da5247cbfba2263b3b298850086ed16c9b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51757087"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54761445"
 ---
 # <a name="pf"></a>PF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
  **PF**는 다음 옵션 중 하나가 포함된 명령줄에서만 지정할 수 있습니다.  
   
  **Launch:** `AppName`  
- 프로파일러 및 AppName에서 지정한 응용 프로그램을 시작합니다.  
+ 프로파일러 및 AppName에서 지정한 애플리케이션을 시작합니다.  
   
  **Attach:** `PID`  
  AppName으로 지정한 프로세스에 프로파일러를 연결합니다.  
@@ -61,7 +56,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
  샘플링 이벤트를 프로세서 클록 주기로 설정하고 경우에 따라 샘플링 간격을 `Cycles`로 설정합니다. 기본 타이머 간격은 10,000,000입니다.  
   
  **Sys**[**:**`Events`]  
- 프로파일링된 응용 프로그램에서 호출에 대한 샘플링 이벤트를 운영 체제 커널(syscall)로 설정하고 필요에 따라 샘플링 간격을 `Events`로 설정합니다. 기본 시스템 간격은 10입니다.  
+ 프로파일링된 애플리케이션에서 호출에 대한 샘플링 이벤트를 운영 체제 커널(syscall)로 설정하고 필요에 따라 샘플링 간격을 `Events`로 설정합니다. 기본 시스템 간격은 10입니다.  
   
  **Counter:** `Name`[`,Reload`[`,FriendlyName`]]  
  `Name`으로 지정한 CPU 성능 카운터로 샘플링 이벤트를 설정하고 샘플링 이벤트를 `Reload`로 설정합니다.  
@@ -79,9 +74,6 @@ VSPerfCmd.exe /Launch:TestApp.exe /PF:20
   
 ## <a name="see-also"></a>참고 항목  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [독립 실행형 응용 프로그램 프로파일링](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [ASP.NET 웹 응용 프로그램 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [독립 실행형 애플리케이션 프로파일링](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [ASP.NET 웹 애플리케이션 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)
-
-
-

@@ -11,15 +11,15 @@ helpviewer_keywords:
 - debugger, Web application errors
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 798e0892fc78b4ff8f8eb8ed03ee788e4f8f5b25
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: cba31527af469b897ae178b6b0f810840b7d9cd2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866545"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55035486"
 ---
 # <a name="error-the-web-server-could-not-find-the-requested-resource"></a>오류: 웹 서버에서 요청한 리소스를 찾을 수 없습니다
 보안 고려 사항 때문에 IIS에서 일반 오류를 반환했습니다.  

@@ -1,14 +1,9 @@
 ---
 title: IntelliSense 사용 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - vc.tools.intellisense
 helpviewer_keywords:
@@ -29,18 +24,18 @@ ms.assetid: 9fdb489b-8b46-4b92-9ccc-c8f8cc184081
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 586a0b31166f3b7696865e54f7d2df9c415315f9
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: bb859fe5e66dbfcc1f43dfff3c0744c84066054b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49197199"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758830"
 ---
 # <a name="using-intellisense"></a>IntelliSense 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-IntelliSense는 멤버 목록, 매개 변수 정보, 요약 정보 및 단어 자동 완성 등 여러 기능을 위한 제네릭 형식입니다. 이러한 기능을 사용하면 사용 중인 코드에 대한 자세한 정보를 보고, 입력하는 매개 변수를 계속 추적하고, 단 몇 번의 키 입력으로 속성과 메서드에 대한 호출을 추가할 수 있습니다.  
+IntelliSense는 다양 한 기능에 대 한 일반 용어: 멤버 목록, 매개 변수 정보, 요약 정보 및 전체 단어. 이러한 기능을 사용하면 사용 중인 코드에 대한 자세한 정보를 보고, 입력하는 매개 변수를 계속 추적하고, 단 몇 번의 키 입력으로 속성과 메서드에 대한 호출을 추가할 수 있습니다.  
   
  IntelliSense의 많은 부분은 언어별로 고유합니다. 다른 언어의 IntelliSense에 대한 자세한 내용을 보려면 참고 항목의 항목을 참조하세요.  
   
@@ -111,6 +106,3 @@ MessageBox( hWnd, "String literal|") )
  [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)   
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   
  [XML 코드 주석 제공](../ide/supplying-xml-code-comments.md)
-
-
-

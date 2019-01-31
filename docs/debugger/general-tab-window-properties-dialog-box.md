@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 19142c60-9b32-46ba-a556-b62fd77568c1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ac2cbdea0f5ff8fc14ab2901772cd3b77372d471
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 455706670424bdeb1119036df98bac91e6cc9355
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874617"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018761"
 ---
 # <a name="general-tab-window-properties-dialog-box"></a>창 속성 대화 상자, 일반 탭
 사용 된 **일반** 선택한 기간에 대 한 정보를 표시 하려면 탭 합니다. 표시할 합니다 [창 속성 대화 상자](../debugger/window-properties-dialog-box.md), 포커스를 이동 하는 [Windows 보기](../debugger/windows-view.md) 창입니다. 트리에서 창 노드를 선택 하 고 선택 **속성** 에서 합니다 **보기** 메뉴.  

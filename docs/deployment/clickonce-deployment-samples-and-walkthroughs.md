@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: 3973276b-7b11-4692-a0a2-32bebf0b9c2a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d5fd8376cbadd2cc576e0ef3d86c25c53ad98530
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 651f981117cdd9b9cfb26aae61bbd4e2747e921d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53850643"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018373"
 ---
 # <a name="clickonce-deployment-samples-and-walkthroughs"></a>ClickOnce 배포 샘플 및 연습
 이 섹션에서는 샘플 응용 프로그램, 예제 코드 및 구문, 구조 및 Windows Forms, WPF 및 콘솔 응용 프로그램을 배포 하는 데 사용 되는 기술을 설명 하는 단계별 연습을 포함 합니다.
