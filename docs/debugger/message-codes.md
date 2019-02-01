@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 9f91f4e2-c1f1-4349-9f11-2fbbf59654be
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7c1f568ead3e5862460d4ae4e18e51687737d4a5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c3899da3b668406a701ce5c1c4935b531754d10e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866298"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017086"
 ---
 # <a name="message-codes"></a>메시지 코드
 에 표시 된 각 메시지 줄 [메시지 보기](../debugger/messages-view.md) 'P'를 포함의 '의 ' 또는 'R' 코드입니다. 이러한 코드에는 다음과 같은 의미가 있습니다.  

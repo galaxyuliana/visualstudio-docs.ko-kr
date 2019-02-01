@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: be5cbe12-6cb6-49c9-aa59-a1624e1eef3d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5ed1ad3c648a3cf0d8f33d9f15a8cc14c1ebf625
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4f080af10bbac990359f176792f5fab02e5bd285
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874877"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54973514"
 ---
 # <a name="access-local-and-remote-data-in-clickonce-applications"></a>ClickOnce 애플리케이션의 로컬 및 원격 데이터 액세스
 대부분 애플리케이션에서는 데이터를 사용하거나 생성합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에서는 로컬에서 또는 원격으로 데이터를 읽고 쓰는 다양한 옵션을 제공합니다.  
@@ -30,7 +30,7 @@ ms.locfileid: "53874877"
   
 - [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 데이터 디렉터리  
   
-- 격리된 저장소  
+- 격리된 스토리지  
   
 - 기타 로컬 파일  
   
@@ -56,7 +56,7 @@ ms.locfileid: "53874877"
  [!code-csharp[ClickOnce.OpenDataFile#1](../deployment/codesnippet/CSharp/accessing-local-and-remote-data-in-clickonce-applications_1.cs)]
  [!code-vb[ClickOnce.OpenDataFile#1](../deployment/codesnippet/VisualBasic/accessing-local-and-remote-data-in-clickonce-applications_1.vb)]  
   
- 데이터 파일로 배포의 파일을 표시 하는 방법은 참조 하세요. [방법: ClickOnce 애플리케이션에 데이터 파일 포함](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)  
+ 데이터 파일로 배포의 파일을 표시 하는 방법은 참조 하세요. [방법: ClickOnce 애플리케이션에 데이터 파일 포함](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.  
   
  <xref:System.Windows.Forms.Application> 클래스에서 관련 변수(예: <xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A>)를 사용하여 데이터 디렉터리 경로를 가져올 수도 있습니다.  
   
@@ -70,11 +70,11 @@ ms.locfileid: "53874877"
  세부적인 데이터 마이그레이션이 필요하면 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 API를 사용하여 이전 데이터 디렉터리에서 새 데이터 디렉터리로 사용자 지정 마이그레이션을 수행할 수 있습니다. <xref:System.Deployment.Application.ApplicationDeployment.IsFirstRun%2A>을 사용하여 사용 가능한 다운로드가 있는지 테스트하거나, <xref:System.Deployment.Application.ApplicationDeployment.Update%2A> 또는 <xref:System.Deployment.Application.ApplicationDeployment.UpdateAsync%2A>를 사용하여 업데이트를 다운로드하고 업데이트가 완료된 후 사용자 지정 데이터 마이그레이션 작업을 수행해야 합니다.  
   
 ### <a name="isolated-storage"></a>격리된 스토리지  
- 격리된 저장소는 단순 API를 사용하여 파일을 만들고 파일에 액세스하기 위한 API를 제공합니다. 저장된 파일의 실제 위치는 개발자 및 사용자에게 표시되지 않습니다.  
+ 격리된 스토리지는 단순 API를 사용하여 파일을 만들고 파일에 액세스하기 위한 API를 제공합니다. 저장된 파일의 실제 위치는 개발자 및 사용자에게 표시되지 않습니다.  
   
- 격리된 저장소는 모든 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]버전에서 작동합니다. 격리된 저장소는 추가적인 권한을 부여할 필요 없이 부분적으로 신뢰할 수 있는 애플리케이션에서도 작동합니다. 애플리케이션이 부분 신뢰로 실행되어야 하지만 애플리케이션 특정 데이터를 유지 관리해야 하면 격리된 저장소를 사용해야 합니다.  
+ 격리된 스토리지는 모든 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 버전에서 작동합니다. 격리된 스토리지는 추가적인 권한을 부여할 필요 없이 부분적으로 신뢰할 수 있는 애플리케이션에서도 작동합니다. 애플리케이션이 부분 신뢰로 실행되어야 하지만 애플리케이션 특정 데이터를 유지 관리해야 하면 격리된 스토리지를 사용해야 합니다.  
   
- 자세한 내용은 [격리된 저장소](/dotnet/standard/io/isolated-storage)을 참조하세요.  
+ 자세한 내용은 [격리된 스토리지](/dotnet/standard/io/isolated-storage)를 참조하세요.  
   
 ### <a name="other-local-files"></a>기타 로컬 파일  
  애플리케이션이 보고서, 이미지, 음악 등의 최종 사용자 데이터를 사용하거나 저장해야 하면 애플리케이션에는 로컬 파일 시스템에서 데이터를 읽고 쓸 수 있는 <xref:System.Security.Permissions.FileIOPermission> 이 필요합니다.  

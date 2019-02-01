@@ -1,27 +1,22 @@
 ---
-title: 'PTVS 시작: 코드 편집 | Microsoft Docs'
-ms.custom: ''
+title: 'Ptvs 시작: 코드 편집 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-python
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-python
+ms.topic: conceptual
 ms.assetid: b412c87c-2f09-4e25-9cc8-ab54f4c44412
 caps.latest.revision: 5
 author: kraigb
 ms.author: kraigb
-manager: ghogen
-ms.openlocfilehash: ef0a84523a2d828e696fb50f641f392ab7bbd39f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 2e883970b4b265b1864d53ef6e1f347160e5aeb9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49265787"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758402"
 ---
-# <a name="getting-started-with-ptvs-editing-code"></a>PTVS 시작: 코드 편집
+# <a name="getting-started-with-ptvs-editing-code"></a>Ptvs 시작: 코드 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 PTVS는 Python에 대한 생산적인 Visual Studio 편집기 환경을 제공합니다.  
@@ -74,4 +69,3 @@ def main ():
 ## <a name="see-also"></a>참고 항목  
  [Wiki 문서](https://github.com/Microsoft/PTVS/wiki/Editor-Features)   
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)(PTVS 시작 및 자세히 알아보기 동영상)
-

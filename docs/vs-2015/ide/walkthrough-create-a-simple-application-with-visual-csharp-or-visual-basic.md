@@ -1,50 +1,45 @@
 ---
-title: '연습: Visual C# 또는 Visual Basic으로 간단한 응용 프로그램 만들기 | Microsoft 문서'
-ms.custom: ''
+title: '연습: 시각적 개체를 사용 하 여 간단한 응용 프로그램 만들기 C# 또는 Visual Basic | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 51fc073046833165097a8a9a4fb2f169ed3a04e7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 6c45b62e2fb1d6e104621a7fdc285ca208364a22
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49851688"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802618"
 ---
-# <a name="walkthrough-create-a-simple-application-with-visual-c-or-visual-basic"></a>연습: Visual C# 또는 Visual Basic으로 간단한 응용 프로그램 만들기
+# <a name="walkthrough-create-a-simple-application-with-visual-c-or-visual-basic"></a>연습: 시각적 개체를 사용 하 여 간단한 응용 프로그램 만들기 C# 또는 Visual Basic
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습을 완료하면 Visual Studio를 사용하여 응용 프로그램을 개발할 때 사용할 수 있는 여러 도구, 대화 상자 및 디자이너에 익숙해집니다. IDE(통합 개발 환경)의 작업에 대해 배우면서 간단한 “Hello, World” 스타일의 응용 프로그램을 만들고, UI를 디자인하고, 코드를 추가하고, 오류를 디버깅하게 됩니다.  
+이 연습을 완료하면 Visual Studio를 사용하여 애플리케이션을 개발할 때 사용할 수 있는 여러 도구, 대화 상자 및 디자이너에 익숙해집니다. IDE(통합 개발 환경)의 작업에 대해 배우면서 간단한 “Hello, World” 스타일의 애플리케이션을 만들고, UI를 디자인하고, 코드를 추가하고, 오류를 디버깅하게 됩니다.  
   
  이 항목에는 다음과 같은 단원이 포함되어 있습니다.  
   
  [IDE 구성](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_ConfigureIDE)  
   
- [간단한 응용 프로그램 만들기](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_CreateApp)  
+ [간단한 애플리케이션 만들기](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_CreateApp)  
   
- [응용 프로그램 디버깅 및 테스트](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_DebugTest)  
+ [애플리케이션 디버깅 및 테스트](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_DebugTest)  
   
 > [!NOTE]
->  이 연습은 Visual Studio Professional을 기반으로 하며, 여기서 제공하는 WPF 응용 프로그램 템플릿에서 이 연습용 프로젝트를 빌드하게 됩니다. Visual Studio Express for Windows Desktop에서도 이 템플릿을 제공하지만, Visual Studio Express for Windows 및 Visual Studio Express for Web에서는 제공하지 않습니다. Visual Studio Express for Windows 사용 방법에 대한 기본적인 정보는 [Windows 스토어 앱용 개발자 센터](http://msdn.microsoft.com/windows/apps/br229519)를 참조하세요. Visual Studio Express for Web 사용 방법에 대한 기본적인 정보는 [ASP.NET 시작](http://www.asp.net/get-started)을 참조하세요. 또한 사용 중인 Visual Studio 버전과 설정에 따라 일부 사용자 인터페이스 요소의 이름과 위치가 결정됩니다. [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  이 연습은 Visual Studio Professional을 기반으로 하며, 여기서 제공하는 WPF 애플리케이션 템플릿에서 이 연습용 프로젝트를 빌드하게 됩니다. Visual Studio Express for Windows Desktop에서도 이 템플릿을 제공하지만, Visual Studio Express for Windows 및 Visual Studio Express for Web에서는 제공하지 않습니다. Visual Studio Express for Windows 사용 방법에 대한 기본적인 정보는 [Windows 스토어 앱용 개발자 센터](http://msdn.microsoft.com/windows/apps/br229519)를 참조하세요. Visual Studio Express for Web 사용 방법에 대한 기본적인 정보는 [ASP.NET 시작](http://www.asp.net/get-started)을 참조하세요. 또한 사용 중인 Visual Studio 버전과 설정에 따라 일부 사용자 인터페이스 요소의 이름과 위치가 결정됩니다. [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ##  <a name="BKMK_ConfigureIDE"></a> IDE 구성  
  Visual Studio를 처음 시작하는 경우 MSA(Microsoft Service Account)로 로그인하라는 [Visual Studio에 로그인](http://blogs.msdn.com/b/visualstudio/archive/2013/06/28/welcome-sign-in-to-visual-studio.aspx)메시지가 표시됩니다. 당장 로그인할 필요는 없으며 나중에 로그인해도 됩니다.  
   
- Visual Studio가 시작되면 다음으로 IDE에는 일련의 미리 정의된 사용자 지정을 적용하는 설정 조합을 선택해야 합니다. 각 설정 조합은 쉽게 응용 프로그램을 개발할 수 있도록 설계되었습니다.  
+ Visual Studio가 시작되면 다음으로 IDE에는 일련의 미리 정의된 사용자 지정을 적용하는 설정 조합을 선택해야 합니다. 각 설정 조합은 쉽게 애플리케이션을 개발할 수 있도록 설계되었습니다.  
   
- 이 연습은 사용자가 IDE에 최소한의 사용자 지정을 적용하는 **일반 개발 설정**을 적용한다고 가정합니다. C# 또는 Visual Basic(둘 다 적합)을 이미 선택한 경우 설정을 변경할 필요가 없습니다.  설정을 변경하려는 경우 **설정 가져오기 및 내보내기 마법사**를 사용할 수 있습니다. [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+ 이 연습은 사용자가 IDE에 최소한의 사용자 지정을 적용하는 **일반 개발 설정**을 적용한다고 가정합니다. C# 또는 Visual Basic(둘 다 적합)을 이미 선택한 경우 설정을 변경할 필요가 없습니다.  설정을 변경하려는 경우 **설정 가져오기 및 내보내기 마법사**를 사용할 수 있습니다. [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
- Visual Studio를 열면 도구 창, 메뉴 및 도구 모음, 주 창 공간을 식별할 수 있습니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 응용 프로그램 창 왼쪽과 오른쪽에 도킹되어 있습니다. 응용 프로그램 창의 가운데에 **시작 페이지**가 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 **시작 페이지** 가 있는 공간에 나타납니다. 응용 프로그램을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.  
+ Visual Studio를 열면 도구 창, 메뉴 및 도구 모음, 주 창 공간을 식별할 수 있습니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 애플리케이션 창의 가운데에 **시작 페이지**가 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 **시작 페이지** 가 있는 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.  
   
  그림 2: Visual Studio IDE  
   
@@ -72,12 +67,12 @@ ms.locfileid: "49851688"
   
    ![어두운 테마가 적용된 IDE](../ide/media/exploreide-darkthemeide.png "ExploreIDE-DarkThemeIDE")  
   
-   이 연습의 나머지 부분에서 나오는 그림에 사용된 색 테마는 밝은 테마입니다. IDE 사용자 지정에 대한 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+   이 연습의 나머지 부분에서 나오는 그림에 사용된 색 테마는 밝은 테마입니다. IDE 사용자 지정에 대한 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
-##  <a name="BKMK_CreateApp"></a> 간단한 응용 프로그램 만들기  
+##  <a name="BKMK_CreateApp"></a> 간단한 애플리케이션 만들기  
   
 ### <a name="create-the-project"></a>프로젝트를 만듭니다.  
- Visual Studio에서 응용 프로그램을 만들 때 먼저 프로젝트와 솔루션을 만들어야 합니다. 이 예제에서는 WPF(Windows Presentation Foundation) 프로젝트를 만듭니다.  
+ Visual Studio에서 애플리케이션을 만들 때 먼저 프로젝트와 솔루션을 만들어야 합니다. 이 예제에서는 WPF(Windows Presentation Foundation) 프로젝트를 만듭니다.  
   
 ##### <a name="to-create-the-wpf-project"></a>WPF 프로젝트를 만들려면  
   
@@ -89,7 +84,7 @@ ms.locfileid: "49851688"
   
     ![빠른 실행 상자에서 새 프로젝트 지정](../ide/media/exploreide-quicklaunchnewprojectsmall.png "ExploreIDE-QuickLaunchNewProjectsmall")  
   
-2. 예를 들어 왼쪽 창에서 **설치됨**, **템플릿**, **Visual C#**, **Windows**를 차례로 선택한 다음 가운데 창에서 WPF 응용 프로그램을 선택하여 Visual Basic 또는 Visual C# WPF 응용 프로그램 템플릿을 선택합니다.  새 프로젝트 대화 상자 아래쪽의 프로젝트 이름을 HelloWPFApp으로 지정합니다.  
+2. 예를 들어 왼쪽 창에서 **설치됨**, **템플릿**, **Visual C#**, **Windows**를 차례로 선택한 다음 가운데 창에서 WPF 애플리케이션을 선택하여 Visual Basic 또는 Visual C# WPF 애플리케이션 템플릿을 선택합니다.  새 프로젝트 대화 상자 아래쪽의 프로젝트 이름을 HelloWPFApp으로 지정합니다.  
   
     ![Visual Basic WPF 프로젝트 HelloWPFApp 만들기](../ide/media/exploreide-newprojectvb.png "ExploreIDE-NewProjectVB")  
   
@@ -97,13 +92,13 @@ ms.locfileid: "49851688"
   
     ![Visual C&#35; WPF 프로젝트 HelloWPFApp 만들기](../ide/media/exploreide-newprojectcsharp.png "ExploreIDE-NewProjectcsharp")  
   
-   HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. WPF Designer는 분할 뷰에 디자인 뷰와 MainWindow.xaml의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다.  시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다. 자세한 내용은 [Windows Forms 개발자용 WPF 디자이너](http://msdn.microsoft.com/en-us/47ad0909-e89b-4996-b4ac-874d929f94ca)를 참조하세요. 다음 항목이 **솔루션 탐색기**에 나타납니다.  
+   HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. WPF Designer는 분할 뷰에 디자인 뷰와 MainWindow.xaml의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다.  시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다. 자세한 내용은 [Windows Forms 개발자용 WPF 디자이너](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca)를 참조하세요. 다음 항목이 **솔루션 탐색기**에 나타납니다.  
   
    그림 5: 프로젝트 항목  
   
    ![HelloWPFApp 파일이 로드된 솔루션 탐색기](../ide/media/exploreide-hellowpfappfiles.png "ExploreIDE-HelloWPFAppFiles")  
   
-   프로젝트를 만든 후 사용자 지정할 수 있습니다. **보기** 메뉴에 있는 **속성** 창을 사용하여 프로젝트 항목, 컨트롤 및 응용 프로그램의 기타 항목에 대한 옵션을 표시하고 변경할 수 있습니다. 프로젝트 속성 및 속성 페이지를 사용하여 프로젝트 및 솔루션의 옵션을 표시하고 변경할 수 있습니다.  
+   프로젝트를 만든 후 사용자 지정할 수 있습니다. **보기** 메뉴에 있는 **속성** 창을 사용하여 프로젝트 항목, 컨트롤 및 애플리케이션의 기타 항목에 대한 옵션을 표시하고 변경할 수 있습니다. 프로젝트 속성 및 속성 페이지를 사용하여 프로젝트 및 솔루션의 옵션을 표시하고 변경할 수 있습니다.  
   
 ##### <a name="to-change-the-name-of-mainwindowxaml"></a>MainWindow.xaml의 이름을 변경하려면  
   
@@ -123,7 +118,7 @@ ms.locfileid: "49851688"
    MainWindow.xaml의 제목 표시줄에 이제 Greetings가 표시됩니다.  
   
 ### <a name="design-the-user-interface-ui"></a>사용자 인터페이스(UI) 디자인  
- 이 응용 프로그램에 TextBlock 컨트롤 1개, RadioButton 컨트롤 2개 및 Button 컨트롤 1개 등 세 가지 유형의 컨트롤을 추가합니다.  
+ 이 애플리케이션에 TextBlock 컨트롤 1개, RadioButton 컨트롤 2개 및 Button 컨트롤 1개 등 세 가지 유형의 컨트롤을 추가합니다.  
   
 ##### <a name="to-add-a-textblock-control"></a>TextBlock 컨트롤을 추가하려면  
   
@@ -137,7 +132,7 @@ ms.locfileid: "49851688"
   
    해당 창은 다음 그림과 유사합니다.  
   
-   그림 7: TextBlock 컨트롤이 있는 Greetings 창  
+   그림 7 TextBlock 컨트롤이 있는 greetings 창  
   
    ![Greetings 양식의 TextBlock 컨트롤](../ide/media/exploreide-greetingswithtextblockonly.png "ExploreIDE-GreetingswithTextblockonly")  
   
@@ -167,7 +162,7 @@ ms.locfileid: "49851688"
   
     창이 다음과 같이 나타납니다.  
   
-    그림 8: Greetings 창의 RadioButton  
+    그림 8- 20. Greetings 창의 라디오 단추입니다.  
   
     ![TextBlock과 두 개의 라디오 단추가 있는 Greetings 양식](../ide/media/exploreide-greetingswithradiobuttons.png "ExploreIDE-Greetingswithradiobuttons")  
   
@@ -195,12 +190,12 @@ ms.locfileid: "49851688"
   
    해당 창은 다음 그림과 유사합니다.  
   
-   그림 9: 마지막 Greetings UI  
+   그림 마지막 Greetings UI  
   
    ![컨트롤 레이블이 있는 Greetings 양식](../ide/media/exploreide-greetingswithconrollabels.png "ExploreIDE-Greetingswithconrollabels")  
   
 ### <a name="add-code-to-the-display-button"></a>표시 버튼에 코드 추가  
- 이 응용 프로그램을 실행하면 사용자가 먼저 라디오 단추를 선택한 다음 **표시** 단추를 선택하면 메시지 상자가 나타납니다. Hello에 대한 메시지 상자가 하나 나타나고 Goodbye에 대한 메시지 상자가 하나 나타납니다. 이 동작을 생성하려면 Greetings.xaml.vb 또는 Greetings.xaml.cs에서 Button_Click 이벤트에 코드를 추가합니다.  
+ 이 애플리케이션을 실행하면 사용자가 먼저 라디오 단추를 선택한 다음 **표시** 단추를 선택하면 메시지 상자가 나타납니다. Hello에 대한 메시지 상자가 하나 나타나고 Goodbye에 대한 메시지 상자가 하나 나타납니다. 이 동작을 생성하려면 Greetings.xaml.vb 또는 Greetings.xaml.cs에서 Button_Click 이벤트에 코드를 추가합니다.  
   
 ##### <a name="add-code-to-display-message-boxes"></a>메시지 상자를 표시하는 코드를 추가합니다.  
   
@@ -250,10 +245,10 @@ ms.locfileid: "49851688"
     }  
     ```  
   
-3.  응용 프로그램을 저장합니다.  
+3.  애플리케이션을 저장합니다.  
   
-##  <a name="BKMK_DebugTest"></a> 응용 프로그램 디버깅 및 테스트  
- 그런 다음 응용 프로그램에 오류가 있는지 확인하고 두 메시지 상자가 모두 제대로 나타나는지 테스트하기 위해 응용 프로그램을 디버깅합니다. 다음 지침에서는 디버거를 빌드하고 시작하는 방법을 설명하지만 나중에 [WPF 응용 프로그램 빌드(WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) 및 [WPF 디버그](../debugger/debugging-wpf.md)에서 추가 정보를 확인할 수 있습니다.  
+##  <a name="BKMK_DebugTest"></a> 애플리케이션 디버깅 및 테스트  
+ 그런 다음 애플리케이션에 오류가 있는지 확인하고 두 메시지 상자가 모두 제대로 나타나는지 테스트하기 위해 애플리케이션을 디버깅합니다. 다음 지침에서는 디버거를 빌드하고 시작하는 방법을 설명하지만 나중에 [WPF 애플리케이션 빌드(WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) 및 [Debugging WPF](../debugger/debugging-wpf.md) 에서 추가 정보를 확인할 수 있습니다.  
   
 ### <a name="find-and-fix-errors"></a>오류 찾기 및 수정  
  이 단계에서는 이전에 주 창 XAML 파일의 이름을 변경해서 발생시킨 오류를 찾습니다.  
@@ -264,13 +259,13 @@ ms.locfileid: "49851688"
   
     ![디버그 메뉴의 디버깅 시작 명령](../ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")  
   
-    IOException이 발생했음을 나타내는 다음과 같은 대화 상자가 나타납니다. ‘mainwindow.xaml’ 리소스가 없습니다.  
+    IOException이 발생 했음을 나타내는 대화 상자가 나타납니다. 'mainwindow.xaml' 리소스를 찾을 수 없습니다.  
   
 2. **확인** 단추를 선택한 다음 디버거를 중지합니다.  
   
     ![디버그 메뉴의 디버깅 중지 명령](../ide/media/exploreide-stopdebugging.png "ExploreIDE-StopDebugging")  
   
-   이 연습을 시작할 때 Mainwindow.xaml의 이름을 Greetings.xaml로 바꾸었지만 코드가 여전히 응용 프로그램의 시작 URI로 Mainwindow.xaml을 나타내고 있으므로 프로젝트를 시작할 수 없습니다.  
+   이 연습을 시작할 때 Mainwindow.xaml의 이름을 Greetings.xaml로 바꾸었지만 코드가 여전히 애플리케이션의 시작 URI로 Mainwindow.xaml을 나타내고 있으므로 프로젝트를 시작할 수 없습니다.  
   
 ##### <a name="to-specify-greetingsxaml-as-the-startup-uri"></a>Greetings.xaml을 시작 URI로 지정하려면  
   
@@ -278,7 +273,7 @@ ms.locfileid: "49851688"
   
 2. `StartupUri="MainWindow.xaml"` 을 `StartupUri="Greetings.xaml"`로 변경한 다음 Ctrl+S를 눌러 변경 내용을 저장합니다.  
   
-   F5 키를 눌러 디버거를 다시 시작합니다. 응용 프로그램의 Greetings 창이 표시됩니다.  
+   F5 키를 눌러 디버거를 다시 시작합니다. 애플리케이션의 Greetings 창이 표시됩니다.  
   
 ### <a name="to-debug-with-breakpoints"></a>중단점으로 디버깅하려면  
  일부 중단점을 추가하여 디버깅하는 동안 코드를 테스트할 수 있습니다. 기본 메뉴에서 **디버그** , **중단점 설정/해제** 를 선택하거나 중단시킬 코드 줄 옆의 편집기 왼쪽 여백을 클릭하여 중단점을 추가할 수 있습니다.  
@@ -303,7 +298,7 @@ ms.locfileid: "49851688"
   
 6.  메뉴 모음에서 **디버그**, **프로시저 나가기**를 선택합니다.  
   
-     응용 프로그램은 실행을 다시 시작하고 "Hello"라는 단어가 포함된 메시지 상자가 나타납니다.  
+     애플리케이션은 실행을 다시 시작하고 "Hello"라는 단어가 포함된 메시지 상자가 나타납니다.  
   
 7.  메시지 상자에서 **확인** 단추를 선택하여 닫습니다.  
   
@@ -317,8 +312,8 @@ ms.locfileid: "49851688"
   
 11. 메뉴 모음에서 **디버그**, **모든 중단점 해제**를 선택합니다.  
   
-### <a name="build-a-release-version-of-the-application"></a>응용 프로그램 릴리스 버전 빌드  
- 모든 것이 작동하는 것을 확인했으므로 응용 프로그램의 릴리스 빌드를 준비할 수 있습니다.  
+### <a name="build-a-release-version-of-the-application"></a>애플리케이션 릴리스 버전 빌드  
+ 모든 것이 작동하는 것을 확인했으므로 애플리케이션의 릴리스 빌드를 준비할 수 있습니다.  
   
 ##### <a name="to-clean-the-solution-files-and-build-a-release-version"></a>솔루션 파일을 정리하고 릴리스 버전을 빌드하려면  
   
@@ -340,6 +335,3 @@ ms.locfileid: "49851688"
  [Visual Studio 2015의 새로운 기능](../what-s-new-in-visual-studio-2015.md)   
  [Visual Studio에서 개발 시작](../ide/get-started-developing-with-visual-studio.md)   
  [생산성 팁](../ide/productivity-tips-for-visual-studio.md)
-
-
-

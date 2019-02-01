@@ -7,15 +7,15 @@ dev_langs:
 ms.assetid: b6822d8b-70d5-470b-8278-3aec4680326c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b809c8728d96603211148b8a53ab14168d82cc2c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 502f05bbf5aeb5e7cb6813d8816024482fed1236
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53988303"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55019348"
 ---
 # <a name="idiasessionfindinlineelines"></a>IDiaSession::findInlineeLines
 클라이언트가 모든 없는 함수를 인라인을 직접 또는 간접적으로 지정 된 부모 기호는 줄 번호 정보를 반복 하는 데 사용 하는 열거형을 검색 합니다.  

@@ -12,15 +12,15 @@ dev_langs:
 - SQL
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: db9e2e7c489ace9436f101259cccac144e1a933e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a737c9b993a6ffa523cbaa19929821f7d3c2acaf
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53858528"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023173"
 ---
 # <a name="error-unable-to-connect-to-sql-server-on-remote-machine"></a>오류: 원격 컴퓨터의 SQL Server에 연결할 수 없음
 원격 컴퓨터에서 SQL Server에 연결할 수 없습니다 *이름을*입니다. 액세스가 거부되었습니다. 원격 컴퓨터에 원격 디버거를 설치했는지 확인하십시오. 원격 컴퓨터가 도메인에 없거나 Visual Studio가 로컬 계정으로 실행되는 경우 원격 컴퓨터에 로컬 계정과 동일한 사용자 이름과 암호가 있는 계정이 있어야 합니다.  

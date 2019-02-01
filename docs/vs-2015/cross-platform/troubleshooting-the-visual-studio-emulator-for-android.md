@@ -1,23 +1,19 @@
 ---
 title: Android 용 에뮬레이터 문제 해결 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: troubleshooting
 ms.assetid: f3fb5df4-3aae-40e4-9450-bbe15b0c5af5
 caps.latest.revision: 25
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 01c73e4701d98422323b92918bd96d0d09bf2dfb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5500af58ab93b41cc73b48f5ebe2d63ed16ca495
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53841345"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54754943"
 ---
 # <a name="troubleshooting-the-visual-studio-emulator-for-android"></a>Troubleshooting the Visual Studio Emulator for Android
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -259,7 +255,7 @@ ms.locfileid: "53841345"
 
   이 문제를 해결하려면 마더보드의 BIOS 설정에서 USB3를 사용하지 않도록 설정하고 컴퓨터를 다시 부팅합니다. 그런 후 Gigabyte에서 이 마더보드의 BIOS에 대한 업데이트를 출시했는지 확인합니다.
 
-  자세한 내용은 다음 기술 자료 문서를 참조 하세요. [Gigabyte 시스템에서 Hyper-v 역할을 설치한 후 부팅 오류 발생](https://support.microsoft.com/en-us/kb/2693144)합니다.
+  자세한 내용은 다음 기술 자료 문서를 참조 하세요. [Gigabyte 시스템에서 Hyper-v 역할을 설치한 후 부팅 오류 발생](https://support.microsoft.com/kb/2693144)합니다.
 
 ##  <a name="ADB"></a> Visual Studio가 앱을 에뮬레이터에 배포하는 동안 중지되거나 에뮬레이터가 다른 IDE에 디버그 대상으로 표시되지 않습니다.
  에뮬레이터를 실행하고 있지만 ADB(Android 디버그 브리지)에 연결된 것으로 나타나지 않거나 ADB를 사용하는 Android 도구(예: Android Studio 또는 Eclipse)에 나타나지 않는 경우 에뮬레이터가 ADB를 찾는 위치를 조정해야 할 수 있습니다. 에뮬레이터는 레지스트리 키를 사용하여 Android SDK의 기본 위치를 식별하고 해당 디렉터리에서 \platform-tools\adb.exe 파일을 찾습니다. 에뮬레이터에서 사용하는 Android SDK 경로를 수정하려면

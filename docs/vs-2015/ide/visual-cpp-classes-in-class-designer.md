@@ -1,14 +1,9 @@
 ---
 title: 클래스 디자이너의 Visual C++ 클래스 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - vs.classdesigner.inheritancelinelabel
 helpviewer_keywords:
@@ -17,13 +12,13 @@ ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: d4193dda70aeda8534b9dc2fa3428ca08a9d89fa
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 04392545b5b5c352a35b9a3d523f0c6ff5d98b01
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49285690"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54787078"
 ---
 # <a name="visual-c-classes-in-class-designer"></a>클래스 디자이너의 Visual C++ 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +36,7 @@ class A {};
 class B : A {};  
 ```  
   
- 클래스 B만 클래스 다이어그램으로 끌어 B에 대한 클래스 모양을 마우스 오른쪽 단추로 클릭한 다음 **기본 클래스 표시**를 클릭할 수도 있습니다. 그러면 기본 클래스가 A로 표시됩니다.  
+ 클래스 B만 클래스 다이어그램으로 끌어 B에 대한 클래스 모양을 마우스 오른쪽 단추로 클릭한 다음 **기본 클래스 표시**를 클릭할 수도 있습니다. 그러면 기본 클래스가 다음으로 표시됩니다. 대답:  
   
 ## <a name="multiple-inheritance"></a>다중 상속  
  클래스 디자이너는 다중 클래스 상속 관계의 시각화를 지원합니다. *다중 상속*은 파생 클래스에 둘 이상의 기본 클래스의 특성이 있을 때 사용됩니다. 다음은 다중 상속의 예입니다.  
@@ -59,7 +54,7 @@ class Penguin : public Bird, public Swimmer {};
 > [!NOTE]
 >  C++ 코드에는 **파생 클래스 표시** 명령이 지원되지 않습니다. 클래스 뷰로 이동하여 형식 노드를 확장하고 **파생 형식** 하위 폴더를 확장한 후 해당 형식을 클래스 다이어그램으로 끌어 파생 클래스를 표시할 수 있습니다.  
   
- 다중 클래스 상속에 대한 자세한 내용은 [(NOTINBUILD) 다중 상속](http://msdn.microsoft.com/en-us/3b74185e-2beb-4e29-8684-441e51d2a2ca) 및 [다중 기본 클래스](http://msdn.microsoft.com/library/a30c69fe-401c-4a87-96a0-e0da70c7c740)를 참조하세요.  
+ 다중 클래스 상속에 대한 자세한 내용은 [(NOTINBUILD) 다중 상속](http://msdn.microsoft.com/3b74185e-2beb-4e29-8684-441e51d2a2ca) 및 [다중 기본 클래스](http://msdn.microsoft.com/library/a30c69fe-401c-4a87-96a0-e0da70c7c740)를 참조하세요.  
   
 ## <a name="abstract-classes"></a>추상 클래스  
  클래스 디자이너는 추상 클래스(“추상 기본 클래스” 라고도 함)를 지원합니다. 추상 클래스는 인스턴스화하지는 않고 여기에서 다른 클래스를 파생할 수는 있는 클래스입니다. 이 문서 앞부분에 있는 “다중 상속”의 예제를 사용하여 `Bird` 클래스를 개별 개체로 인스턴스화할 수 있습니다.  
@@ -178,9 +173,6 @@ typedef struct
  [Visual C++ 코드 작업(클래스 디자이너)](../ide/working-with-visual-cpp-code-class-designer.md)   
  [클래스 및 구조체](http://msdn.microsoft.com/library/516dd496-13fb-4f17-845a-e9ca45437873)   
  [익명 클래스 형식](http://msdn.microsoft.com/library/9ba667b2-8c2a-4c29-82a6-fa120b9233c8)   
- [(NOTINBUILD) 다중 상속](http://msdn.microsoft.com/en-us/3b74185e-2beb-4e29-8684-441e51d2a2ca)   
+ [(NOTINBUILD) 다중 상속](http://msdn.microsoft.com/3b74185e-2beb-4e29-8684-441e51d2a2ca)   
  [다중 기본 클래스](http://msdn.microsoft.com/library/a30c69fe-401c-4a87-96a0-e0da70c7c740)   
  [템플릿](http://msdn.microsoft.com/library/90fcc14a-2092-47af-9d2e-dba26d25b872)
-
-
-
