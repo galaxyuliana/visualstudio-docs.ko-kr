@@ -11,16 +11,16 @@ helpviewer_keywords:
 ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 2e224ae331b1fba42d06973777b50e84bf1f7e8b
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: c3ee28514af9db5b0a03ce8b9805ef773c649a42
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53924269"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993167"
 ---
 # <a name="walkthrough-create-an-n-tier-data-application"></a>연습: n 계층 데이터 애플리케이션 만들기
 *N 계층* 데이터 애플리케이션은 데이터에 액세스하며 여러 논리 *계층*으로 구분되는 애플리케이션입니다. 응용 프로그램 구성 요소를 개별 계층으로 분리하면 응용 프로그램의 확장성과 유지 관리 가능성이 높아집니다. 이는 전체 솔루션을 다시 설계하지 않고도 단일 계층에 적용할 수 있는 새로운 기술을 보다 쉽게 도입할 수 있기 때문입니다. N 계층 아키텍처에는 표시 계층, 중간 계층 및 데이터 계층이 포함됩니다. 중간 계층에는 대개 데이터 액세스 계층, 비즈니스 논리 계층 및 인증, 유효성 검사 등의 공유 구성 요소가 포함됩니다. 데이터 계층에는 관계형 데이터베이스가 포함됩니다. 표시 계층에 액세스하는 최종 사용자로부터 격리된 상태를 유지하기 위해 N 계층 응용 프로그램에서는 보통 중요한 정보가 중간 계층의 데이터 액세스 계층에 저장됩니다. 자세한 내용은 [N 계층 데이터 응용 프로그램 개요](../data-tools/n-tier-data-applications-overview.md)합니다.
@@ -49,7 +49,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 
 -   데이터 테이블을 채우는 코드를 작성합니다.
 
-![비디오 링크](../data-tools/media/playvideo.gif) 이 항목의 비디오 버전을 참조 하세요. [Video How to: N 계층 데이터 애플리케이션 만들기
+![비디오 링크](../data-tools/media/playvideo.gif) 이 항목의 비디오 버전을 참조 하세요. [Video How to: N 계층 데이터 애플리케이션 만들기](http://go.microsoft.com/fwlink/?LinkId=115188).
 
 ## <a name="prerequisites"></a>전제 조건
 이 연습에서는 Northwind 샘플 데이터베이스 및 SQL Server Express LocalDB를 사용 합니다.
