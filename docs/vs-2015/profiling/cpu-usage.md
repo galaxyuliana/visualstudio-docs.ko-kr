@@ -1,25 +1,20 @@
 ---
 title: CPU 사용량 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: af6d58ac5cd87523124d567e36559a82d69ddfc6
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 46d2005ae22828a01a03141a870acec4e23a785d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810535"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54755359"
 ---
 # <a name="cpu-usage"></a>CPU 사용량
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -118,6 +113,3 @@ ms.locfileid: "51810535"
 -   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` 는 `GetNumberAsync`에 대한 호출을 래핑하는 48개 작업을 예약 및 시작하는 데 필요한 활동을 보여 줍니다.  
   
 -   `MainPage::<GetNumberAsync>b__b` 는 `GetNumber`를 호출하는 작업의 활동을 보여 줍니다.
-
-
-

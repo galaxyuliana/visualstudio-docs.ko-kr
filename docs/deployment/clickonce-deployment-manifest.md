@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 8457e615-e3b6-4990-8dcf-11bc590e4e9b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 44c42d1b0323e8f2d66f7abab13c8fecbf6a1ae4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e62fb21f33658c07a5c7b60885c0cc83310e15f4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53911340"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54927797"
 ---
 # <a name="clickonce-deployment-manifest"></a>ClickOnce 배포 매니페스트
 배포 매니페스트는 배포할 현재 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 버전의 ID를 포함하여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포를 설명하는 XML 파일입니다.  

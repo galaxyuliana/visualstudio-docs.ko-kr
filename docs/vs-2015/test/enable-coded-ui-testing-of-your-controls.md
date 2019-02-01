@@ -1,24 +1,19 @@
 ---
 title: 컨트롤의 코딩된 UI 테스트 사용 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 5ef1188f-89dc-413d-801d-0efdaf9b0427
 caps.latest.revision: 24
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: e5ab2ca3e0f7d8f7006177f89c6850ce9882681a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 1e24e9e405dfeab18ca0e55a617857d73ba4234e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49848542"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54766973"
 ---
 # <a name="enable-coded-ui-testing-of-your-controls"></a>컨트롤의 코딩된 UI 테스트 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,7 +78,7 @@ ms.locfileid: "49848542"
 4.  자식 컨트롤의 액세스 가능성 개체에 대해 <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A> 및 <xref:System.Windows.Forms.AccessibleObject.Select%2A> 속성과 메서드를 재정의합니다.  
   
 > [!NOTE]
->  이 항목에서는 이 절차의 <xref:System.Windows.Forms.AccessibleObject>에 있는 액세스 가능성 샘플로부터 시작해서 남은 절차의 설명에 따라 빌드합니다. 액세스 가능성 샘플의 작동 가능 버전을 만들려면 콘솔 응용 프로그램을 만들고 Program.cs의 코드를 샘플 코드로 바꿉니다. Accessibility, System.Drawing 및 System.Windows.Forms에 대한 참조를 추가해야 합니다. 빌드 경고를 제거하려면 Accessibility에 대한 **Interop 형식 포함**을 **False**로 변경해야 합니다. 프로젝트의 출력 형식을 **콘솔 응용 프로그램**에서 **Windows 응용 프로그램**으로 변경하면 응용 프로그램을 실행할 때 콘솔 창이 표시되지 않습니다.  
+>  이 항목에서는 이 절차의 <xref:System.Windows.Forms.AccessibleObject>에 있는 액세스 가능성 샘플로부터 시작해서 남은 절차의 설명에 따라 빌드합니다. 액세스 가능성 샘플의 작동 가능 버전을 만들려면 콘솔 애플리케이션을 만들고 Program.cs의 코드를 샘플 코드로 바꿉니다. Accessibility, System.Drawing 및 System.Windows.Forms에 대한 참조를 추가해야 합니다. 빌드 경고를 제거하려면 Accessibility에 대한 **Interop 형식 포함**을 **False**로 변경해야 합니다. 프로젝트의 출력 형식을 **콘솔 애플리케이션**에서 **Windows 애플리케이션**으로 변경하면 애플리케이션을 실행할 때 콘솔 창이 표시되지 않습니다.  
   
 ##  <a name="customproprties"></a> 속성 공급자를 구현하여 사용자 지정 속성의 유효성 검사를 지원  
  기록 및 재생과 속성 유효성 검사를 위한 기본 지원을 구현한 다음에는 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> 플러그인을 구현해서 코딩된 UI 테스트에서 컨트롤의 사용자 지정 속성을 사용할 수 있도록 지정할 수 있습니다. 예를 들어 다음 절차에서는 코딩된 UI 테스트가 차트 컨트롤의 CurveLegend 자식 컨트롤의 State 속성에 액세스할 수 있도록 속성 공급자를 만듭니다.  
@@ -520,13 +515,13 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
 >  작업 필터는 액세스 가능성 구현 또는 속성 공급자에 종속되지 않습니다.  
   
 ## <a name="debug-your-property-provider-or-action-filter"></a>속성 공급자 또는 작업 필터 디버그  
- 속성 공급자 및 작업 필터는 응용 프로그램과 별도의 프로세스에서 코딩된 UI 테스트 빌더에 의해 로드 및 실행되는 확장 패키지에 구현됩니다.  
+ 속성 공급자 및 작업 필터는 애플리케이션과 별도의 프로세스에서 코딩된 UI 테스트 빌더에 의해 로드 및 실행되는 확장 패키지에 구현됩니다.  
   
 #### <a name="to-debug-your-property-provider-or-action-filter"></a>속성 공급자 또는 작업 필터를 디버그하려면  
   
 1.  확장명 패키지의 디버그 버전을 빌드하고, .dll 및 .pdb 파일을 %ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages에 복사합니다.  
   
-2.  (디버거가 아닌 위치에서) 응용 프로그램을 실행합니다.  
+2.  (디버거가 아닌 위치에서) 애플리케이션을 실행합니다.  
   
 3.  코딩된 UI 테스트 빌더를 실행합니다.  
   
@@ -541,11 +536,8 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
 ## <a name="external-resources"></a>외부 리소스  
   
 ### <a name="guidance"></a>지침  
- [Visual Studio 2012를 사용한 지속적인 업데이트 테스트 - 2장: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:System.Windows.Forms.AccessibleObject>   
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)
-
-
-

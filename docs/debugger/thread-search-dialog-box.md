@@ -7,15 +7,15 @@ helpviewer_keywords:
 ms.assetid: 52ecb289-9b86-455c-a52b-3dcd3f7255bf
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 654e2a43c45364c7050c84c3d98ca08f6e03e9c4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b25de3d88cb495d869ae76e854eaad476f778bce
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53885863"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54986113"
 ---
 # <a name="thread-search-dialog-box"></a>스레드 검색 대화 상자
 이 대화 상자를 사용 하 여 찾아서 특정 스레드에 대 한 노드를 선택 [스레드 뷰](../debugger/threads-view.md)합니다. 이 대화 상자를 표시 하려면 포커스를 이동 하는 **스레드** 뷰 창. 선택한 **스레드 찾기** 에서 합니다 **검색** 메뉴.  

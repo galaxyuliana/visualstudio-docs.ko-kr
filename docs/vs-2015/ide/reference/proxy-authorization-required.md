@@ -1,25 +1,20 @@
 ---
 title: 프록시 권한 필요 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 ms.assetid: c2d24ae1-9902-460e-b72a-0299eed9ee82
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 2650dadddefe3be18a4406eb4fd07c5599622212
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b55dba438280fc4579fe15bd2a423d323c38abf6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49259216"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54767287"
 ---
 # <a name="proxy-authorization-required"></a>프록시 권한 필요
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ ms.locfileid: "49259216"
   
 -   프록시에 기본 자격 증명을 사용하려는 경우 다음 작업을 수행하면 됩니다.  
   
-    1.  **%ProgramFiles%\Microsoft Visual Studio 14.0\Common7\IDE** (또는 **%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Common7\IDE**)에서 devenv.exe.config(devenv.exe 구성 파일)를 찾습니다.  
+    1.   **%ProgramFiles%\Microsoft Visual Studio 14.0\Common7\IDE** (또는 **%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Common7\IDE**)에서 devenv.exe.config(devenv.exe 구성 파일)를 찾습니다.  
   
     2.  구성 파일에서 `<system.net>` 블록을 찾아 다음 코드를 추가합니다.  
   
@@ -65,6 +60,3 @@ ms.locfileid: "49259216"
 -   또는  
   
 -   [이 게시물](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) 의 지침에 따라 프록시를 사용할 수 있는 코드를 추가할 수도 있습니다.
-
-
-

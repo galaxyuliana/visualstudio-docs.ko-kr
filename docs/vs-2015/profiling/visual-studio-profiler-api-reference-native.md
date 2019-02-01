@@ -1,14 +1,9 @@
 ---
 title: Visual Studio 프로파일러 API 참조(네이티브) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: reference
 helpviewer_keywords:
 - performance tools, API
 - Profiler, API
@@ -16,13 +11,13 @@ ms.assetid: a0c3be92-c263-4678-9fb9-bafead3bd5f5
 caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: b3c2322b3d49b88ccd7c09cc8011548d5e29a340
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 911d80c0116664d93eebe431719a3e834eea6d8e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51772445"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54774830"
 ---
 # <a name="visual-studio-profiler-api-reference-native"></a>Visual Studio 프로파일러 API 참조(네이티브)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Visual Studio 프로파일러 API를 사용하여 수집된 데이터의 양을 
 ## <a name="see-also"></a>참고 항목  
  [프로파일링 도구 API](../profiling/profiling-tools-apis.md)   
  [연습: 프로파일러 API 사용](../profiling/walkthrough-using-profiler-apis.md)
-
-
-

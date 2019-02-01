@@ -1,13 +1,9 @@
 ---
 title: '방법: IDE에서 이동 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 helpviewer_keywords:
 - environments [Visual Studio], navigation
 - documents [Visual Studio], navigating
@@ -21,13 +17,13 @@ ms.assetid: 6c36b6eb-c93f-496b-af08-4199f7afd8bd
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4c252f709875133be7b4106a55cd853fbb309635
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: 94629a2e64d154313711b3e8968b28959d3341e8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53880986"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54805421"
 ---
 # <a name="how-to-move-around-in-the-visual-studio-ide"></a>방법: Visual Studio IDE에서 이동
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +31,7 @@ ms.locfileid: "53880986"
 IDE(통합 개발 환경)는 기본 설정이나 프로젝트 요구 사항에 따라 몇 가지 방법으로 창에서 창으로 이동하고 파일에서 파일로 이동할 수 있도록 하기 위해 설계되었습니다. 편집기에 열려 있는 파일 전체를 순환하거나 IDE의 모든 활성 도구 창을 순환하도록 선택할 수 있습니다. 마지막으로 액세스한 순서에 관계없이 편집기에 열려 있는 원하는 파일로 직접 전환할 수도 있습니다. 이러한 기능은 IDE에서 작업할 때 생산성을 높이는 데 유용할 수 있습니다.
 
 > [!NOTE]
->  대화 상자에서 사용할 수 있는 옵션과 메뉴 명령의 이름 및 위치는 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 이 도움말 페이지는 **일반 개발 설정**을 염두에 두고 작성되었습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
+>  대화 상자에서 사용할 수 있는 옵션과 메뉴 명령의 이름 및 위치는 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 이 도움말 페이지는 **일반 개발 설정**을 염두에 두고 작성되었습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
 
 ## <a name="keyboard-shortcuts"></a>바로 가기 키
  Visual Studio의 거의 모든 메뉴 명령에는 바로 가기 키가 있습니다. 또한 사용자가 직접 바로 가기를 만들 수도 있습니다. 자세한 내용은 [바로 가기 키 식별 및 사용자 지정](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)을 참조하세요.

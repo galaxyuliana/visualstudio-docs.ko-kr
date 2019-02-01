@@ -1,14 +1,9 @@
 ---
 title: 기존 항목 추가 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - project.addexistingitem
 helpviewer_keywords:
@@ -18,13 +13,13 @@ ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: c27c548ae4eff4f2087050060f5bcf51d8e86755
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 7686c4db4984188a4f8c4a52343f1386e9edd909
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49197134"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54797839"
 ---
 # <a name="add-existing-item-command"></a>기존 항목 추가 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ File.AddExistingItem filename [/e:editorname]
   
 ## <a name="arguments"></a>인수  
  `filename`  
- 필수. 현재 솔루션에 추가할 항목의 전체 경로 및 파일 이름(확장명 포함)입니다. 파일 경로 또는 파일 이름은 공백을 포함하며 전체 경로를 따옴표로 묶습니다.  
+ 필수 요소. 현재 솔루션에 추가할 항목의 전체 경로 및 파일 이름(확장명 포함)입니다. 파일 경로 또는 파일 이름은 공백을 포함하며 전체 경로를 따옴표로 묶습니다.  
   
 ## <a name="switches"></a>스위치  
  /e: `editorname`  
@@ -52,10 +47,10 @@ File.AddExistingItem filename [/e:editorname]
 /e:"Source Code (text) Editor"  
 ```  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  입력 시 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 Form1.frm 파일을 현재 솔루션에 추가합니다.  
   
 ```  
@@ -67,6 +62,3 @@ File.AddExistingItem filename [/e:editorname]
  [명령 창](../../ide/reference/command-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

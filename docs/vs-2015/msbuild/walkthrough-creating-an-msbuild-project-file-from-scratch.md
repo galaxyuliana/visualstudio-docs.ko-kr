@@ -1,27 +1,22 @@
 ---
 title: '연습: 처음부터 새로 MSBuild 프로젝트 파일 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, tutorial
 ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
 caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ad32edc94bea49010dfb7073cacbd84419513783
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+manager: jillfra
+ms.openlocfilehash: e5f25f100a1d6eb31dbd03a26d927f81c4e564d3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "49913893"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769434"
 ---
 # <a name="walkthrough-creating-an-msbuild-project-file-from-scratch"></a>연습: 처음부터 MSBuild 프로젝트 파일 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -405,7 +400,7 @@ ms.locfileid: "49913893"
   
      MSBuild는 애플리케이션이 마지막으로 빌드된 이후로 변경된 소스 파일이 없으므로 Build 대상을 건너뜁니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 애플리케이션을 컴파일하고 출력 파일 이름이 포함된 메시지를 기록하는 프로젝트 파일을 보여 줍니다.  
@@ -445,7 +440,7 @@ ms.locfileid: "49913893"
   
 ### <a name="comments"></a>설명  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 애플리케이션을 컴파일하고 출력 파일 이름이 포함된 메시지를 기록하는 프로젝트 파일을 보여 줍니다.  
@@ -489,5 +484,3 @@ ms.locfileid: "49913893"
 ## <a name="see-also"></a>참고 항목  
 [MSBuild 개요](msbuild.md)  
  [MSBuild 참조](../msbuild/msbuild-reference.md)
-
-

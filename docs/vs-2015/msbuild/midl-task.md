@@ -1,14 +1,9 @@
 ---
 title: MIDL 작업 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - VC.Project.VCMidlTool.ServerStubFile
 - VC.Project.VCMidlTool.ApplicationConfigurationMode
@@ -31,13 +26,13 @@ ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 345cd480cd5e34a6fe4650c9321d3ad9f90db01e
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9d0398217bb48786067f8392c5e372b0888d060f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49215789"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782477"
 ---
 # <a name="midl-task"></a>MIDL 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +47,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 midl.exe를
   
      선택적 **String[]** 매개 변수입니다.  
   
-     가져온 IDL 파일, 포함된 헤더 파일 및 ACF(응용 프로그램 구성 파일)가 검색되는 디렉터리 목록에 디렉터리를 추가합니다.  
+     가져온 IDL 파일, 포함된 헤더 파일 및 ACF(애플리케이션 구성 파일)가 검색되는 디렉터리 목록에 디렉터리를 추가합니다.  
   
      자세한 내용은 [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) 웹 사이트의 "MIDL 명령줄 참조"에서 **/I** 옵션을 참조하세요.  
   
@@ -338,7 +333,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 midl.exe를
   
      선택적 **문자열** 매개 변수입니다.  
   
-     응용 프로그램이 실행되는 환경을 지정합니다.  
+     애플리케이션이 실행되는 환경을 지정합니다.  
   
      각 명령줄 옵션에 해당하는 다음 값 중 하나를 지정하세요.  
   
@@ -424,10 +419,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 midl.exe를
   
      자세한 내용은 [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) 웹 사이트의 "MIDL 명령줄 참조"에서 **/W** 옵션을 참조하세요. 이 표의 **WarnAsError** 매개 변수도 참조하세요.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-
