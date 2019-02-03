@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: e0a8c330-21bc-4eb2-b936-fd0f3c3221f1
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: a8732099ab3ef663c6fc253592736bcddbfde55a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 790864b44725287774b4ed3d0eefe2cfa9821179
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53943118"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54975441"
 ---
 # <a name="how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-net-framework"></a>방법: ClickOnce를 사용하여 여러 버전의 .NET Framework에서 실행할 수 있는 애플리케이션 배포
 ClickOnce 배포 기술을 사용 하 여 여러 버전의.NET Framework를 대상으로 하는 응용 프로그램을 배포할 수 있습니다. 그러려면 생성 하 고 응용 프로그램 및 배포 매니페스트를 업데이트 합니다.  
@@ -61,7 +61,7 @@ ClickOnce 배포 기술을 사용 하 여 여러 버전의.NET Framework를 대�
     |4 전체|\<framework targetVersion = "4.0" 프로필 "전체" supportedRuntime = = "4.0.30319" / >|  
     |3.5 클라이언트|\<framework targetVersion = "3.5" 프로필 "클라이언트" supportedRuntime = = "2.0.50727" / >|  
     |3.5 전체|\<framework targetVersion = "3.5" 프로필 "전체" supportedRuntime = = "2.0.50727" / >|  
-    |3.0|\<framework targetVersion "3.0" supportedRuntime = = "2.0.50727" / >|  
+    |3.0|\<framework targetVersion="3.0" supportedRuntime="2.0.50727" />|  
   
 ### <a name="to-change-the-appconfig-file-to-list-the-compatible-net-framework-runtime-versions"></a>호환 가능한.NET Framework 런타임 버전을 나열 하려면 app.config 파일을 변경 하려면  
   
@@ -73,10 +73,10 @@ ClickOnce 배포 기술을 사용 하 여 여러 버전의.NET Framework를 대�
   
     |.NET framework 런타임 버전|XML|  
     |------------------------------------|---------|  
-    |4 클라이언트|\<supportedRuntime 버전 "v4.0.30319" sku = = "입니다. NETFramework, 버전 = v4.0, 프로필 = Client "/ >|  
-    |4 전체|\<supportedRuntime 버전 "v4.0.30319" sku = = "입니다. NETFramework, 버전 = v4.0 "/ >|  
-    |3.5 전체|\<supportedRuntime version="v2.0.50727"/ >|  
-    |3.5 클라이언트|\<supportedRuntime 버전 "v2.0.50727" sku = = "Client" / >|  
+    |4 클라이언트|\<supportedRuntime version="v4.0.30319" sku=".NETFramework,Version=v4.0,Profile=Client" />|  
+    |4 전체|\<supportedRuntime version="v4.0.30319" sku=".NETFramework,Version=v4.0" />|  
+    |3.5 전체|\<supportedRuntime version="v2.0.50727"/>|  
+    |3.5 클라이언트|\<supportedRuntime version="v2.0.50727" sku="Client"/>|  
   
 ### <a name="to-change-the-application-manifest-to-mark-dependent-assemblies-as-net-framework-assemblies"></a>.NET Framework 어셈블리와 종속 어셈블리를 표시 하기 위해 응용 프로그램 매니페스트를 변경 하려면  
   

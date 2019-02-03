@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: fe80d479-3bb5-4f55-9b62-1bd58d0a60ce
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 728bf422604bbc3890c2b35a5902dacc44e81ba5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: adf7054b98b4f3ee821b552d4b247aae14d01b5a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923733"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54969342"
 ---
 # <a name="idiasymbolgetaddresssection"></a>IDiaSymbol::get_addressSection
 섹션에 대 한 부분 주소 위치를 검색합니다. 사용 시기를 [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md) 로 설정 된 `LocIsStatic`합니다.  

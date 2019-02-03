@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: b16629dc-8e17-476b-9c7b-58e7277c61ed
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 83a91a605a0f1b08ee3c8c1d005a1af21e086b88
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea9d30ff3762e8c429cdd92725ee79c6bff603db
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53936258"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54924456"
 ---
 # <a name="idiasymbolgetisnaked"></a>IDiaSymbol::get_isNaked
 함수에 있는지 여부를 지정 하는 플래그를 검색 합니다 [naked](/cpp/cpp/naked-cpp) 특성 (즉, 함수에 프롤로그 또는 에필로그 코드 컴파일러에 의해 추가).  

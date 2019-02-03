@@ -16,15 +16,15 @@ helpviewer_keywords:
 ms.assetid: fc6e047e-ad94-44e8-8ff5-b6d1f4ca7735
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0baff8d685a1ac5f4899edc2f1dbf6ddf9c2e5b9
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3525d12bfbb745c54bb452a16d12cd65394023ad
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53941075"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54995689"
 ---
 # <a name="application-deployment-prerequisites"></a>애플리케이션 배포 필수 구성 요소
 
@@ -75,10 +75,10 @@ ms.locfileid: "53941075"
 | 명령줄 인수 | 설명 |
 | - | - |
 | **-?, -h, -help** | 도움말 대화 상자를 표시합니다. |
-| **--componentsurl url** | 이 설치를 위한 저장된 URL 및 구성 요소 URL을 표시합니다. |
-| **-url =** `location` | *Setup.exe*가 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 찾을 URL을 설정합니다. |
-| **-componentsurl =** `location` | *Setup.exe*가 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 등의 종속성을 찾을 URL을 설정합니다. |
-| **-homesite =** `true`**&#124;** `false` | 때 `true`, 공급 업체의 사이트에서 기본 위치에서 종속성을 다운로드 합니다. 이 설정을 재정의 합니다 **-componentsurl** 설정 합니다. 때 `false`에 의해 지정 된 URL에서 종속성을 다운로드 **-componentsurl**합니다. |
+| **-url, -componentsurl** | 이 설치를 위한 저장된 URL 및 구성 요소 URL을 표시합니다. |
+| **-url=** `location` | *Setup.exe*가 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 찾을 URL을 설정합니다. |
+| **-componentsurl=** `location` | *Setup.exe*가 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 등의 종속성을 찾을 URL을 설정합니다. |
+| **-homesite=** `true` **&#124;** `false` | 때 `true`, 공급 업체의 사이트에서 기본 위치에서 종속성을 다운로드 합니다. 이 설정을 재정의 합니다 **-componentsurl** 설정 합니다. 때 `false`에 의해 지정 된 URL에서 종속성을 다운로드 **-componentsurl**합니다. |
 
 ## <a name="operating-system-support"></a>운영 체제 지원  
  Visual Studio 부트스트래퍼 제한 된 기능을 사용 하 여 낮은 유지 관리 서버 환경을 제공 하므로 Windows Server 2008 Server Core 또는 Windows Server 2008 R2 Server Core에서 지원 되지 않습니다. 예를 들어 Server Core 설치 옵션을 전체.NET Framework에 종속 된 Visual Studio 기능을 실행할 수 없습니다는.NET Framework 3.5 Server Core 프로필을 지원 합니다.  
