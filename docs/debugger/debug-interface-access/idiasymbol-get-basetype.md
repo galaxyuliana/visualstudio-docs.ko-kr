@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5c69a241-a8d3-48ed-8b36-27463a196572
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 37f42b1f999b2f73d6ef534dddd9cfd907ac34f0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0ade7c30ec3cc67af28f3f609d91ccb0a3a8d289
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53919614"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993730"
 ---
 # <a name="idiasymbolgetbasetype"></a>IDiaSymbol::get_baseType
 이 기호에 대 한 기본 형식을 검색<em>합니다.</em>  

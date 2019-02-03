@@ -1,21 +1,17 @@
 ---
 title: Mac 사용자용 설정, 설치 및 확인 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 22725520-59ba-4f6f-80e4-097b1287a34b
 caps.latest.revision: 14
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: fca4f8ef2d3fb1272dc835b4bedd7dcdcc83725f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+ms.openlocfilehash: 52310ffb0a3c08f652f4d628db1c047a5d0417d6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51772835"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54772037"
 ---
 # <a name="setup-install-and-verifications-for-mac-users"></a>Mac 사용자용 설정, 설치 및 확인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +27,7 @@ ms.locfileid: "51772835"
   
 - 다음 구성의 하나:  
   
-  -   **Mac에서 직접 Xamarin Studio를 실행하려면:** Xamarin Studio는 C#을 사용한 Android, iOS 및 Windows 앱 빌드를 지원하는 Xamarin 개발 환경입니다.  Xamarin Studio를 간단히 살펴보려면 [Xamarin Studio 개요](https://xamarin.com/studio) (영문)(xamarin.com)를 참조하세요.  
+  -   **Mac에서 직접 Xamarin studio 실행:** Xamarin Studio는 빌드를 지 원하는 Xamarin 개발 환경 사용 하 여 Android, iOS 및 Windows 앱 C#입니다.  Xamarin Studio를 간단히 살펴보려면 [Xamarin Studio 개요](https://xamarin.com/studio) (영문)(xamarin.com)를 참조하세요.  
   
   -   **Mac에 Parallels 또는 VMWare가 구성되어 있는 경우:** Parallels 또는 VMWare 내부에서 Visual Studio 2015 및 Xamarin 4가 설치된 Windows를 실행합니다.  이 구성을 사용하면 Xamarin은 Visual Studio와 함께 설치되고 C#을 사용하여 Android, iOS 및 WinPhone 앱을 빌드하는 데 Visual Studio를 개발 환경으로 사용하는 기능을 제공하는 확장입니다.  Visual Studio Developer Essentials 프로그램 일부로 무료 3개월 Parallels 구독을 구할 수 있습니다. [Microsoft Visual Studio Dev Essentials에 Parallels Desktop Pro 및 Parallels Access가 포함됨](http://blog.parallels.com/blog/2015/11/18/visual-studio-dev-essentials/) (영문)(Parallels 블로그)을 참조하세요.  
   
@@ -49,7 +45,7 @@ ms.locfileid: "51772835"
   
 1.  Apple ID가 없으면 [내 Apple ID](https://appleid.apple.com/) 에서 무료 Apple ID를 만듭니다. Xcode를 설치하고 서명하려면 이 작업이 필요합니다.  
   
-2.  Xcode 다운로드 및 설치 [ https://developer.apple.com/xcode/ ](https://developer.apple.com/xcode/)합니다.  
+2.  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)에서 Xcode 다운로드 및 설치.  
   
 3.  [Xamarin.iOS 설치 및 구성](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (영문)(xamarin.com)의 지침에 따라 Xamarin을 다운로드하여 설치합니다.  
   
@@ -57,7 +53,7 @@ ms.locfileid: "51772835"
   
 ##  <a name="windows"></a> Parallels 내부의 Windows 설치(Visual Studio 및 Xamarin)  
   
-1.  Parallels/VMWare 내부에 구성한 Windows 데스크톱을 사용하여 [어떤 버전이든 Visual Studio 2015 설치 관리자를 다운로드하여 설치합니다](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) (Community, Professional 또는 Enterprise). Visual Studio 2015 Community는 무료 버전이고, Professional 및 Enterprise 버전은 30일 평가판으로 사용할 수 있습니다.  
+1.  Parallels/VMWare 내부에 구성한 Windows 데스크톱을 사용하여 [어떤 버전이든 Visual Studio 2015 설치 관리자를 다운로드하여 설치합니다](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) (Community, Professional 또는 Enterprise). Visual Studio 2015 Community는 무료 버전이고, Professional 및 Enterprise 버전은 30일 평가판으로 사용할 수 있습니다.  
   
 2.  설치 관리자 내에서 **사용자 지정** 설치를 선택합니다.  
   
@@ -115,7 +111,7 @@ ms.locfileid: "51772835"
   
 2. Android 디자이너 유효성 검사: 솔루션 탐색기의 Android 프로젝트에서**리소스 > 레이아웃 > Main.axml** 파일을 엽니다.  
   
-   -   "설치 된 Android SDK가 너무 오래 되었습니다" 라는 오류가 표시를 클릭 **Android SDK 열기** 는 메시지에 사용 가능한 최신 SDK 버전을 선택 합니다. SDK를 업데이트하려면 Visual Studio를 관리자로 실행하고 있어야 합니다.  
+   -   “설치된 Android SDK가 너무 오래되었습니다.”라는 오류가 표시되면 이 메시지에서 **Android SDK 열기**를 클릭하고 사용 가능한 최신 SDK 버전을 선택합니다. SDK를 업데이트하려면 Visual Studio를 관리자로 실행하고 있어야 합니다.  
   
 3. Visual Studio에서 Mac에 설치된 에뮬레이터로 연결할 수 있는지 확인합니다.  이의 결과로 Visual Studio 내에서 디버깅용으로 선택할 수 있는 에뮬레이터 목록에 Xamarin Player가 표시됩니다.  이 작업을 수행하려면 [Xamarin Android Player에 Visual Studio 연결](http://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/android-player-with-visual-studio-in-vm/) (영문)(xamarin.com)의 지침을 따르세요.  
   
@@ -138,4 +134,3 @@ ms.locfileid: "51772835"
    3.  아래 표시된 대로 Visual Studio의 디버그 드롭다운에서 iPhone 대상을 선택하고 F5 키를 눌러 디버거를 시작합니다. 그러면 앱을 조작할 Mac에서 시뮬레이터가 시작되고 동시에 Visual Studio에서 디버깅이 수행됩니다.  
   
         ![iPhone 디버그 대상 선택](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin Verify 6")
-

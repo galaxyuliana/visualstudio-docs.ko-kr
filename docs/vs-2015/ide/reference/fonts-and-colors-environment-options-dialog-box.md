@@ -1,14 +1,9 @@
 ---
 title: 옵션 대화 상자, 환경, 글꼴 및 색 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPag.Environment.Fonts_And_Colors
 - VS.ToolsOptionsPages.FontsAndColors
@@ -31,13 +26,13 @@ ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: dbaaab64a50a918844a8f9060ce80ee8c8e7ae00
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 691500690470f66bced8fdec5ff885a2d1f0d73b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50220237"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54761629"
 ---
 # <a name="fonts-and-colors-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 글꼴 및 색
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ ms.locfileid: "50220237"
 **옵션** 대화 상자의 **글꼴 및 색** 페이지를 사용하면 IDE(통합 개발 환경)에서 여러 사용자 인터페이스 요소의 사용자 지정 글꼴 및 색 구성표를 설정할 수 있습니다. **도구/옵션**을 클릭한 다음 **환경/글꼴 및 색**을 선택하여 이 대화 상자에 액세스할 수 있습니다. 이 페이지가 목록에 나타나지 않으면 **옵션** 대화 상자에서 **모든 설정 표시**를 선택합니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  색 구성표의 변경 내용은 변경을 수행하는 세션 중에는 적용되지 않습니다. Visual Studio의 또 다른 인스턴스를 열고 이 변경 내용이 적용되는 조건을 만들어 색 변경 내용을 평가할 수 있습니다.  
   
@@ -133,7 +128,7 @@ ms.locfileid: "50220237"
 |**검사가 수행되지 않은 영역**|단위 테스트에서 검사가 수행되지 않은 코드입니다.|  
 |**부분적으로 검사가 수행된 영역**|단위 테스트에서 부분적으로 검사가 수행된 코드입니다.|  
 |**검사가 수행된 영역**|단위 테스트에서 완전하게 검사가 수행된 코드입니다.|  
-|**CSS 주석**|CSS 스타일시트의 주석입니다. 예를 들어:<br /><br /> /* comment \*/|  
+|**CSS 주석**|CSS 스타일시트의 주석입니다. 예:<br /><br /> /* comment \*/|  
 |**CSS 키워드**|CSS 스타일시트의 키워드입니다.|  
 |**CSS 속성 이름**|배경과 같은 속성 이름입니다.|  
 |**CSS 속성 값**|파랑과 같이 속성에 할당되는 값입니다.|  
@@ -153,7 +148,7 @@ ms.locfileid: "50220237"
 |**키워드**|지정된 예약어에 대한 키워드입니다. 예를 들면 클래스와 네임스페이스입니다.|  
 |**메모리 주소**|**메모리** 창에 주소 열을 표시하는 데 사용되는 텍스트 색입니다.|  
 |**메모리 변경**|**메모리** 창에 변경된 데이터를 표시하는 데 사용되는 텍스트 색입니다.|  
-|**메모리 데이터**|데이터를 표시 하는 데 사용 되는 텍스트의 색을 **메모리** 창입니다.|  
+|**메모리 데이터**|**메모리** 창 내에 데이터를 표시하는 데 사용되는 텍스트의 색입니다.|  
 |**읽을 수 없는 메모리**|**메모리** 창에 읽을 수 없는 메모리 영역을 표시하는 데 사용되는 텍스트 색입니다.|  
 |**숫자**|실제 숫자 값을 나타내는 코드 내 숫자입니다.|  
 |**Operator**|+, - 및 !=와 같은 연산자입니다.|  
@@ -169,7 +164,7 @@ ms.locfileid: "50220237"
 |**SQL DML 마커**|Transact-SQL 편집기에 적용됩니다. 기본적으로 이 편집기의 DML 문은 파랑 테두리 상자로 표시됩니다.|  
 |**부실 코드**|업데이트 대기 중인 대체 코드입니다. 경우에 따라 편집하며 계속하기 작업에서는 코드 변경 내용이 즉시 적용되지 않지만 나중에 디버깅을 계속할 때 적용됩니다. 현재 실행 중인 함수를 호출하는 함수를 편집하거나 호출 스택에 대기 중인 함수에 64바이트가 넘는 새 변수를 추가할 때 부실 코드가 발생합니다. 부실 코드가 발생하면 디버거에서 "부실 코드 경고" 대화 상자를 표시하고, 해당 함수가 실행을 마치고 다시 호출될 때까지 대체 코드가 계속 실행됩니다. 이때 편집하며 계속하기 작업을 수행하면 코드 변경 내용이 적용됩니다.|  
 |**String**|문자열 리터럴입니다.|  
-|**문자열(C# @ Verbatim)**|C#에서 약어로 해석되는 문자열 리터럴입니다. 예를 들어:<br /><br /> @"x"|  
+|**문자열(C# @ Verbatim)**|C#에서 약어로 해석되는 문자열 리터럴입니다. 예:<br /><br /> @"x"|  
 |**구문 오류**|구문 분석 오류입니다.|  
 |**작업 목록 바로 가기**|줄에 **작업 목록** 바로 가기가 추가되고 표시기 여백을 사용할 수 없으면 해당 줄이 강조 표시됩니다.|  
 |**추적점(사용 안 함)**|사용되지 않습니다.|  
@@ -197,7 +192,7 @@ ms.locfileid: "50220237"
 |**XML 특성**|특성 이름입니다.|  
 |**XML 특성 따옴표**|XML 특성의 따옴표입니다.|  
 |**XML 특성 값**|XML 특성의 내용입니다.|  
-|**XML CDATA 섹션**|내용을 \<! [ CDATA [...]] >.|  
+|**XML CDATA 섹션**|\<![CDATA[...]]>의 콘텐츠입니다.|  
 |**XML 주석**|\<!-- -->의 콘텐츠입니다.|  
 |**XML 구분 기호**|<, <?, <!, \<!--, -->, ?\>, \<![, ]]>, [, ] 등과 같은 XML 구문 구분 기호입니다.|  
 |**XML 문서 특성**|XML 문서 특성의 값입니다. 예를 들면, \<param name="I">이며 여기서 “I”에 색이 지정됩니다.|  
@@ -242,6 +237,3 @@ ms.locfileid: "50220237"
  [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)   
  [옵션 대화 상자](../../ide/reference/options-dialog-box-visual-studio.md)   
  [방법: 글꼴 및 색 변경](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-
-
-
