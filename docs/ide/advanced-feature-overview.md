@@ -6,23 +6,23 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 739426d5d93628c90638fef32526484f27eef3e8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ea5b321169253202c397d09b9d6daac439213b55
+ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828500"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "55089213"
 ---
 # <a name="features-of-visual-studio-2017"></a>Visual Studio 2017의 기능
 
-[Visual Studio IDE 개요](../get-started/visual-studio-ide.md) 문서에서는 Visual Studio에 대한 기본적인 소개를 제공합니다. 이 문서에서는 숙련된 개발자 또는 이미 Visual Studio에 익숙한 사용자에게 보다 적합한 기능에 대해 설명합니다.
+[Visual Studio IDE 개요](../get-started/visual-studio-ide.md) 문서에서는 Visual Studio에 대한 기본적인 소개를 제공합니다. 이 문서에서는 숙련된 개발자 또는 이미 Visual Studio에 익숙한 개발자에게 보다 적합한 기능에 대해 설명합니다.
 
 ## <a name="modular-installation"></a>모듈식 설치
 
-Visual Studio의 모듈식 설치 관리자를 사용하면 선호하는 프로그래밍 언어 또는 플랫폼에 필요한 기능 그룹인 *워크로드*를 선택하여 설치할 수 있습니다. 이 전략을 통해 Visual Studio 설치에 필요한 공간을 더 작게 유지할 수 있습니다. 즉 Visual Studio를 설치하고 업데이트하는 속도도 매우 빨라집니다.
+Visual Studio의 모듈식 설치 관리자를 사용하면 *워크로드*를 선택하고 설치할 수 있습니다. 워크로드는 선호하는 프로그래밍 언어 또는 플랫폼에 필요한 기능의 그룹입니다. 이 전략을 통해 Visual Studio 설치에 필요한 공간을 더 작게 유지할 수 있습니다. 즉 Visual Studio를 설치하고 업데이트하는 속도도 매우 빨라집니다.
 
 아직 Visual Studio 2017을 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
 
@@ -45,7 +45,7 @@ Visual Studio의 [클라우드 탐색기](/azure/vs-azure-tools-resources-managi
 다음과 같이 **연결된 서비스**를 통해 앱에 대한 Azure 서비스를 활용할 수 있습니다.
 
 - 사용자가 [Azure Active Directory](/azure/active-directory/active-directory-whatis)의 계정을 사용하여 웹앱에 연결할 수 있도록 [Active Directory에 연결된 서비스](/azure/active-directory/develop/vs-active-directory-add-connected-service)
-- BLOB 저장소, 큐 및 테이블용 [Azure Storage 연결 서비스](/azure/vs-azure-tools-connected-services-storage)
+- Blob 스토리지, 큐 및 테이블용 [Azure Storage 연결 서비스](/azure/vs-azure-tools-connected-services-storage)
 - 웹앱의 비밀 관리를 위한 [Key Vault 연결 서비스](/azure/key-vault/vs-key-vault-add-connected-service)
 
 사용 가능한 **연결된 서비스**는 프로젝트 형식에 따라 다릅니다. **솔루션 탐색기**의 프로젝트를 마우스 오른쪽 단추로 클릭하고 **추가** > **연결된 서비스**를 선택하여 서비스를 추가합니다.
@@ -72,7 +72,7 @@ Visual Studio를 사용하여 Android, iOS 및 기타 [모바일 디바이스](h
 
 - [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md)를 사용하여 C#으로 2D 및 3D 게임을 빌드합니다.
 
-- [플랫폼 간 개발용 C++](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md)를 사용하여 iOS, Android 및 Windows 디바이스용 네이티브 C++ 앱을 빌드하고 iOS, Android 및 Windows용으로 빌드된 라이브러리에서 공통 코드를 공유합니다.
+- iOS, Android 및 Windows 디바이스용 네이티브 C++ 앱을 빌드합니다. [플랫폼 간 개발용 C++](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md)를 사용하여 iOS, Android 및 Windows용으로 빌드된 라이브러리에서 공통 코드를 공유합니다.
 
 - [Android Emulator](../cross-platform/visual-studio-emulator-for-android.md)를 사용하여 Android 앱을 배포, 테스트 및 디버그합니다.
 
@@ -82,13 +82,13 @@ Visual Studio를 사용하여 Android, iOS 및 기타 [모바일 디바이스](h
 
 [SSDT(SQL Server Data Tools)](/sql/ssdt/download-sql-server-data-tools-ssdt)는 SQL Server, Azure SQL Database 및 Azure SQL Data Warehouse를 위한 강력한 개발 환경입니다. 이 도구를 사용하면 데이터베이스를 빌드, 디버그, 유지 관리 및 리팩터링할 수 있습니다. 데이터베이스 프로젝트에 대해 작업하거나, 온-프레미스 또는 오프-프레미스로 연결된 데이터베이스 인스턴스에 대해 직접 작업할 수 있습니다.
 
-Visual Studio의 **SQL Server 개체 탐색기**는 SQL Server Management Studio와 비슷한 데이터베이스 개체 보기를 제공합니다. SQL Server 개체 탐색기를 사용하면, SQL Server 개체 탐색기의 바로 상황에 맞는 메뉴를 통해 테이블 데이터 편집, 스키마 비교 및 쿼리 실행 등을 포함하여 간단한 데이터베이스 관리 및 디자인 작업을 수행할 수 있습니다.
+Visual Studio의 **SQL Server 개체 탐색기**는 SQL Server Management Studio와 비슷한 데이터베이스 개체 보기를 제공합니다. SQL Server 개체 탐색기를 사용하면 소규모 데이터베이스 관리 및 디자인 작업을 수행할 수 있습니다. 작업의 예로는 SQL Server 개체 탐색기에서 바로 테이블 데이터 편집, 스키마 비교, 상황에 맞는 메뉴를 사용하여 쿼리 실행 등이 있습니다.
 
 ![SQL Server 개체 탐색기](../ide/media/vs2015_sqlobjectexplorer.png)
 
 ## <a name="debug-test-and-improve-your-code"></a>코드 디버그, 테스트 및 향상
 
-코드를 작성할 때 이를 실행하고 버그와 성능을 테스트해야 합니다. Visual Studio의 최신 디버깅 시스템을 사용하면 로컬 프로젝트에서 실행 중인 코드를 원격 디바이스 또는 [디바이스 에뮬레이터](../cross-platform/visual-studio-emulator-for-android.md)에서 디버그할 수 있습니다. 한 번에 문 하나씩, 코드를 단계별로 실행하고 변수를 검사할 수 있습니다. 지정된 조건이 true인 경우에만 적중되는 중단점을 설정할 수 있습니다. 이러한 값을 모두 코드 편집기 자체에서 관리할 수 있으므로 코드를 떠날 필요가 없습니다. Visual Studio의 디버깅에 대한 자세한 내용은 [디버거 기능 둘러보기](../debugger/debugger-feature-tour.md)를 참조하세요.
+코드를 작성할 때 이를 실행하고 버그와 성능을 테스트해야 합니다. Visual Studio의 최신 디버깅 시스템을 사용하면 로컬 프로젝트에서 실행 중인 코드를 원격 디바이스 또는 [디바이스 에뮬레이터](../cross-platform/visual-studio-emulator-for-android.md)에서 디버그할 수 있습니다. 한 번에 문 하나씩, 코드를 단계별로 실행하고 변수를 검사할 수 있습니다. 지정된 조건이 true인 경우에만 적중되는 중단점을 설정할 수 있습니다. 디버그 옵션을 코드 편집기 자체에서 관리할 수 있으므로 코드를 떠날 필요가 없습니다. Visual Studio의 디버깅에 대한 자세한 내용은 [디버거 기능 둘러보기](../debugger/debugger-feature-tour.md)를 참조하세요.
 
 앱 성능 향상에 대한 자세한 내용은 Visual Studio의 [프로파일링](../profiling/profiling-feature-tour.md) 기능을 참조하세요.
 
@@ -96,13 +96,13 @@ Visual Studio의 **SQL Server 개체 탐색기**는 SQL Server Management Studio
 
 ## <a name="deploy-your-finished-application"></a>완성된 애플리케이션 배포
 
-사용자 또는 고객에게 애플리케이션을 배포할 준비가 되면 Microsoft Store 또는 SharePoint 사이트에 배포하든, InstallShield 또는 Windows Installer 기술을 사용하여 배포하든 Visual Studio에서는 배포 작업을 수행할 수 있는 도구를 제공합니다. 이 경우 IDE를 통해 모두 액세스할 수 있습니다. 자세한 내용은 [애플리케이션, 서비스 및 구성 요소 배포](../deployment/deploying-applications-services-and-components.md)를 참조하세요.
+애플리케이션을 사용자나 고객에게 배포할 준비가 되었을 때 Visual Studio에서 제공하는 도구를 사용하여 해당 작업을 수행할 수 있습니다. 배포 옵션으로는 Microsoft Store에 배포, SharePoint 사이트에 배포, InstallShield 또는 Windows Installer 기술을 사용한 배포가 있습니다. 이 경우 IDE를 통해 모두 액세스할 수 있습니다. 자세한 내용은 [애플리케이션, 서비스 및 구성 요소 배포](../deployment/deploying-applications-services-and-components.md)를 참조하세요.
 
 ## <a name="manage-your-source-code-and-collaborate-with-others"></a>소스 코드 관리 및 다른 사용자와 공동 작업
 
 GitHub를 포함한 모든 공급자가 호스팅하는 Git 리포지토리에서 원본 코드를 관리할 수 있습니다. 또는 [Azure DevOps Services](/azure/devops/index)를 사용하여 전체 프로젝트의 버그 및 작업 항목과 함께 코드를 관리하세요. Visual Studio에서 팀 탐색기를 사용하여 Git 리포지토리를 관리하는 방법에 대해 알아보려면 [Git 및 Azure Repos 시작하기](/azure/devops/repos/git/gitquickstart?tabs=visual-studio)를 참조하세요. Visual Studio에는 기본 제공된 다른 소스 제어 기능이 있습니다. 이에 대한 자세한 내용은 [Visual Studio 2017의 새로운 Git 기능(블로그)](https://blogs.msdn.microsoft.com/devops/2017/03/06/new-git-features-in-visual-studio-2017/)을 참조하세요.
 
-Azure DevOps Services는 소프트웨어를 계획, 호스트, 자동화 및 배포하고 팀의 공동 작업을 지원하기 위한 클라우드 기반 서비스입니다. Azure DevOps Services는 버전 제어 시스템에 저장된 코드의 연속 빌드 및 릴리스(CI/CD)를 위한 파이프라인뿐만 아니라 Git 리포지토리(분산된 버전 제어) 및 Team Foundation 버전 제어(중앙 집중식 버전 제어)도 지원합니다. 또한 Azure DevOps Services는 스크럼, CMMI 및 Agile 개발 방법론도 지원합니다.
+Azure DevOps Services는 소프트웨어를 계획, 호스트, 자동화 및 배포하고 팀의 공동 작업을 지원하기 위한 클라우드 기반 서비스입니다. Azure DevOps Services는 Git 리포지토리(분산형 버전 제어) 및 Team Foundation 버전 제어(중앙 집중식 버전 제어)를 둘 다 지원합니다. 버전 제어 시스템에 저장된 코드의 연속 빌드 및 릴리스(CI/CD)를 위한 파이프라인을 지원합니다. 또한 Azure DevOps Services는 스크럼, CMMI 및 Agile 개발 방법론도 지원합니다.
 
 TFS(Team Foundation Server)는 Visual Studio용 애플리케이션 수명 주기 관리 허브입니다. 개발 프로세스와 관련된 모든 사람이 단일 솔루션을 사용하여 참여할 수 있도록 해줍니다. TFS는 성격이 다른 팀과 프로젝트들을 관리하는 데 유용합니다.
 
@@ -110,7 +110,7 @@ TFS(Team Foundation Server)는 Visual Studio용 애플리케이션 수명 주기
 
 다음 이미지는 Azure DevOps Services에서 호스트되는 솔루션에 대한 **팀 탐색기** 창을 보여 줍니다.
 
-![Visual Studio 팀 탐색기](../ide/media/vs2017_teamexplorer.png)
+![Visual Studio 팀 탐색기](../ide/media/vs2017_teamexplorer_devops.png)
 
 팀의 개발자들이 버전 제어에 체크 인한 코드를 빌드하도록 빌드 프로세스를 자동화할 수도 있습니다. 예를 들어 밤마다 또는 코드를 체크 인할 때마다 하나 이상의 프로젝트를 빌드할 수 있습니다. 자세한 내용은 [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)를 참조하세요.
 
@@ -127,4 +127,5 @@ Visual Studio 확장에 대한 자세한 내용은 [Visual Studio IDE 확장](ht
 ## <a name="see-also"></a>참고 항목
 
 - [Visual Studio IDE 개요](../get-started/visual-studio-ide.md)
-- [Visual Studio 2017의 새로운 기능](../ide/whats-new-in-visual-studio.md)
+- [Visual Studio 2017의 새로운 기능](../ide/whats-new-visual-studio-2017.md)
+- [Visual Studio 2019 Preview의 새로운 기능](../ide/whats-new-visual-studio-2019.md)

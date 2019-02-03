@@ -21,19 +21,19 @@ helpviewer_keywords:
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c96a3b6699428b156a23ad643eb7958cb438b994
-ms.sourcegitcommit: bc43970c000f07c9cc2051f1264a9742943a9755
+ms.openlocfilehash: 25d9f278ab63ddfa4ffbbf72a4899ce99828b720
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51349272"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54942755"
 ---
 # <a name="build-and-clean-projects-and-solutions-in-visual-studio"></a>Visual Studio에서 프로젝트와 솔루션 빌드 및 정리
 
-이 항목의 절차에 따라 솔루션에 포함된 프로젝트 또는 프로젝트 항목의 전체 또는 일부를 빌드, 다시 빌드 또는 정리할 수 있습니다. 단계별 자습서는 [연습: 응용 프로그램 빌드](../ide/walkthrough-building-an-application.md)를 참조하세요.
+이 항목의 절차에 따라 솔루션에 포함된 프로젝트 또는 프로젝트 항목의 전체 또는 일부를 빌드, 다시 빌드 또는 정리할 수 있습니다. 단계별 자습서는 [연습: 애플리케이션 빌드](../ide/walkthrough-building-an-application.md)를 참조하세요.
 
 > [!NOTE]
 > 이 토픽은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [Mac용 Visual Studio에서 프로젝트와 솔루션 빌드 및 정리](/visualstudio/mac/building-and-cleaning-projects-and-solutions)를 참조하세요.

@@ -1,5 +1,5 @@
 ---
-title: 데이터 기반의 코딩된 UI 테스트 만들기
+title: 데이터 기반의 코딩된 UI 테스트 자습서
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -7,15 +7,15 @@ helpviewer_keywords:
 - coded UI tests, data-driven
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 120ca4ac409641af7b3a2b303830288cbcb0d20a
-ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
+ms.openlocfilehash: 28ebaad835888577a8616aab771ba30e4e29c61b
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54270247"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231989"
 ---
 # <a name="create-a-data-driven-coded-ui-test"></a>데이터 기반의 코딩된 UI 테스트 만들기
 
@@ -59,7 +59,8 @@ ms.locfileid: "54270247"
    [TestMethod]
    public void CodedUITestMethod1()
    {
-       // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
+       // To generate code for this test, select "Generate Code for Coded UI Test"
+       // from the shortcut menu and select one of the menu items.
        this.UIMap.AddNumbers();
    }
    ```
@@ -87,7 +88,6 @@ ms.locfileid: "54270247"
    ```csharp
    public void CodedUITestMethod1()
    {
-       // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
        this.UIMap.AddNumbers();
        this.UIMap.ValidateSum();
    }
@@ -131,7 +131,6 @@ ms.locfileid: "54270247"
     [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]
     public void CodedUITestMethod1()
     {
-        // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
         this.UIMap.AddNumbers();
         this.UIMap.ValidateSum();
     }
@@ -150,7 +149,7 @@ ms.locfileid: "54270247"
 
 ### <a name="step-4---use-the-data-in-the-coded-ui-test"></a>4단계 - 코딩된 UI 테스트에서 데이터 사용
 
-1.  *CodedUITest.cs* 파일의 맨 위에 `using Microsoft.VisualStudio.TestTools.UITesting.WinControls`를 추가합니다.
+1. *CodedUITest.cs* 파일의 맨 위에 `using Microsoft.VisualStudio.TestTools.UITesting.WinControls`를 추가합니다.
 
     ```csharp
     using System;
@@ -166,16 +165,16 @@ ms.locfileid: "54270247"
     using Microsoft.VisualStudio.TestTools.UITesting.WinControls;
     ```
 
-2.  데이터 소스의 값을 적용하는 `TestContext.DataRow[]`를 `CodedUITestMethod1()` 메서드에 추가합니다. 데이터 소스 값은 `SearchProperties` 컨트롤을 사용하여 UIMap 컨트롤에 할당된 상수를 재정의합니다.
+2. 데이터 소스의 값을 적용하는 `TestContext.DataRow[]`를 `CodedUITestMethod1()` 메서드에 추가합니다. 데이터 소스 값은 `SearchProperties` 컨트롤을 사용하여 UIMap 컨트롤에 할당된 상수를 재정의합니다.
 
-    ```csharp
-    public void CodedUITestMethod1()
-    {
-        // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
-        this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();this.UIMap.UICalculatorWindow.UIItemWindow21.UIItem2Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num2"].ToString();
-        this.UIMap.AddNumbers();
-        this.UIMap.ValidateSumExpectedValues.UIItem2TextDisplayText = TestContext.DataRow["Sum"].ToString();
-        this.UIMap.ValidateSum();
+   ```csharp
+   public void CodedUITestMethod1()
+   {
+       this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();
+       this.UIMap.UICalculatorWindow.UIItemWindow2.UIItem2Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num2"].ToString();
+       this.UIMap.AddNumbers();
+       this.UIMap.ValidateSumExpectedValues.UIItem3TextDisplayText = TestContext.DataRow["Sum"].ToString();
+       this.UIMap.ValidateSum();
     }
     ```
 
@@ -197,15 +196,15 @@ ms.locfileid: "54270247"
 
 ### <a name="step-5---run-the-data-driven-test"></a>5단계 – 데이터 기반 테스트 실행
 
-1.  테스트를 다시 실행하여 이제 테스트가 데이터 기반인지를 확인합니다.
+테스트를 다시 실행하여 이제 테스트가 데이터 기반인지를 확인합니다.
 
-     *.csv* 파일의 값을 사용하여 3회 반복 실행되는 테스트를 확인할 수 있습니다. 유효성 검사도 작동해야 하며, 테스트 탐색기에서 테스트가 통과로 표시되어야 합니다.
+*.csv* 파일의 값을 사용하여 3회 반복 실행되는 테스트를 확인할 수 있습니다. 유효성 검사도 작동해야 하며, 테스트 탐색기에서 테스트가 통과로 표시되어야 합니다.
 
 ## <a name="q--a"></a>Q&A
 
-###  <a name="CreateDataDrivenCUIT_QA_DataSourceAttributes"></a> SQL Express 또는 XML과 같은 기타 데이터 소스 형식에는 어떤 데이터 소스 특성이 있나요?
+### <a name="CreateDataDrivenCUIT_QA_DataSourceAttributes"></a> SQL Express 또는 XML과 같은 기타 데이터 소스 형식에는 어떤 데이터 소스 특성이 있나요?
 
-아래 테이블의 샘플 데이터 소스 문자열을 코드에 복사하고 필요한 항목을 사용자 지정하여 사용할 수 있습니다.
+**A:** 아래 테이블의 샘플 데이터 소스 문자열을 코드에 복사하고 필요한 항목을 사용자 지정하여 사용할 수 있습니다.
 
 **데이터 소스 형식 및 특성**
 

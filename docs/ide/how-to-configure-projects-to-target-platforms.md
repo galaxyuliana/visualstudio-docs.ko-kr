@@ -16,19 +16,19 @@ helpviewer_keywords:
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2152f90d244ed283250bf8ea6a42a39b545f9c09
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 4cb76611e7259b5cbee88f9ffe4da2dd222b56ec
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49847983"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55017749"
 ---
 # <a name="how-to-configure-projects-to-target-platforms"></a>방법: 플랫폼을 대상으로 한 프로젝트 구성
 
-Visual Studio를 사용하면 64비트 플랫폼을 비롯하여 다양한 플랫폼을 대상으로 하는 응용 프로그램을 설정할 수 있습니다. Visual Studio의 64비트 플랫폼 지원에 대한 자세한 내용은 [64비트 응용 프로그램](/dotnet/framework/64-bit-apps)을 참조하세요.
+Visual Studio를 사용하면 64비트 플랫폼을 비롯하여 다양한 플랫폼을 대상으로 하는 애플리케이션을 설정할 수 있습니다. Visual Studio의 64비트 플랫폼 지원에 대한 자세한 내용은 [64비트 애플리케이션](/dotnet/framework/64-bit-apps)을 참조하세요.
 
 ## <a name="target-platforms-with-the-configuration-manager"></a>구성 관리자에서 대상 플랫폼 지정
 
@@ -69,5 +69,5 @@ Visual Studio를 사용하면 64비트 플랫폼을 비롯하여 다양한 플�
 
 - [빌드 플랫폼 이해](../ide/understanding-build-platforms.md)
 - [/platform(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)
-- [64비트 응용 프로그램](/dotnet/framework/64-bit-apps)
+- [64비트 애플리케이션](/dotnet/framework/64-bit-apps)
 - [Visual Studio IDE 64비트 지원](../ide/visual-studio-ide-64-bit-support.md)

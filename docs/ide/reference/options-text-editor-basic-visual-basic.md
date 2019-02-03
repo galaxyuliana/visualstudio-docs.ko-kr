@@ -16,15 +16,15 @@ helpviewer_keywords:
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8014ad72978a4b3ee37547a6660f739973ae4e46
-ms.sourcegitcommit: 8bfabab73b39b3b3e68a3e8dc225515e8b310fed
+ms.openlocfilehash: ccf0e8d76aeaf1f6982d7b776abfd32609e1b3e1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54398249"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998263"
 ---
 # <a name="options-text-editor-basic-visual-basic-advanced"></a>옵션, 텍스트 편집기, 기본(Visual Basic), 고급
 **옵션**(**도구** 메뉴), **텍스트 편집기**의 **Basic** 폴더에 있는 **VB 관련** 속성 페이지 대화 상자에는 다음 속성이 포함되어 있습니다.
@@ -40,18 +40,18 @@ ms.locfileid: "54398249"
 - using 정렬 시 ‘System’ 지시문 먼저 배치
 
    선택한 경우, 마우스 오른쪽 단추 클릭 메뉴의 **using 제거 및 정렬** 명령은 `using` 지시문을 정렬하고 '시스템' 네임스페이스를 목록의 맨 위에 배치합니다.
-   
+
 - Using 지시문 그룹 구분
 
    선택한 경우, 마우스 오른쪽 단추 클릭 메뉴의 **using 제거 및 정렬** 명령은 동일한 루트 네임스페이스를 가진 지시문 그룹 사이에 빈 줄을 삽입하여 `using` 지시문을 구분합니다.
-   
-- 참조 어셈블리의 형식에 대한 using 제안 
-- NuGet 패키지의 형식에 대한 using 제안 
+
+- 참조 어셈블리의 형식에 대한 using 제안
+- NuGet 패키지의 형식에 대한 using 제안
 
    이러한 옵션을 선택한 경우 [빠른 작업](../quick-actions.md)을 사용하여 NuGet 패키지를 설치하고 참조되지 않은 형식에 대한 `using` 지시문을 추가할 수 있습니다.
 
    ![Visual Studio의 NuGet 패키지 설치 빠른 작업](media/nuget-lightbulb.png)
-  
+
 
 ## <a name="highlighting"></a>강조 표시
 
@@ -77,7 +77,7 @@ ms.locfileid: "54398249"
 
 ## <a name="block-structure-guides"></a>블록 구조 가이드
 
-코드에서 중괄호(**{}**) 사이에 세로 점선을 표시하려면 이 확인란을 선택합니다. 이렇게 하면 선언 수준 및 코드 수준 구문의 개별 코드 블록을 쉽게 확인할 수 있습니다.
+선택할 경우 세로 선이 편집기에 개별 코드 블록을 쉽게 식별할 수 있는 정형 코드 블록과 함께 일렬로 표시됩니다. 예를 들어 `Sub` 문에서 `Sub`와 `EndSub` 사이에 줄이 하나 보일 것입니다.
 
 ## <a name="editor-help"></a>편집기 도움말
 

@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: c1e5da1b-cda1-4545-b46c-0440fba27485
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2f813f9181d54ab3363c5643710b5434457d1959
-ms.sourcegitcommit: a8e01952be5a539104e2c599e9b8945322118055
+ms.openlocfilehash: 2a9dabddaddaa6d19bbf6e73e2ddcb0011c559ea
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
-ms.locfileid: "32425363"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55012227"
 ---
 # <a name="understand-build-platforms"></a>빌드 플랫폼 이해
 
@@ -37,6 +37,6 @@ ms.locfileid: "32425363"
 
 ## <a name="see-also"></a>참고 항목
 
-- [연습: 응용 프로그램 빌드](../ide/walkthrough-building-an-application.md)
+- [연습: 애플리케이션 빌드](../ide/walkthrough-building-an-application.md)
 - [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)

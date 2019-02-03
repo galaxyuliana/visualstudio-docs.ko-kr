@@ -9,13 +9,13 @@ searchscope: VS Subscription
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
-manager: douge
-ms.openlocfilehash: 414a7a9ef25740505e08da74cd4dcfce0fe11ce9
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 01d1aebf03e71d90e31010a3a5610017c01e1f92
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49927231"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55003414"
 ---
 # <a name="what39s-new-in-visual-studio-subscriptions"></a>Visual Studio 구독의 새로운 기능
 
