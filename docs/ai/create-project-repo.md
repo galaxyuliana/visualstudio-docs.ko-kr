@@ -1,4 +1,19 @@
 ---
+title: 리포지토리 복제
+author: lisawong19
+ms.author: liwong
+manager: routlaw
+ms.date: 11/13/2017
+ms.topic: conceptual
+ms.service: multiple
+ms.workload:
+- multiple
+ms.openlocfilehash: fd0c71e9f426c5591f9ac3ecd135c1b230ca5e20
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54986061"
 ---
 # <a name="clone-a-repository-of-python-code-in-visual-studio"></a>Visual Studio에서 Python 코드의 리포지토리 복제
 
@@ -10,16 +25,16 @@
 
 2. Visual Studio를 실행합니다.
 
-3. **보기 > 팀 탐색기...** 를 선택하여 GitHub 또는 Azure DevOps에 연결하거나 리포지토리를 복제할 수 있는 **팀 탐색기** 창을 엽니다.
+3. **보기 > 팀 탐색기**를 선택하여 GitHub 또는 Azure DevOps에 연결하거나 리포지토리를 복제할 수 있는 **팀 탐색기** 창을 엽니다.
 
-    ![Azure DevOps, GitHub를 표시하고 리포지토리를 복제하는 팀 탐색기 창](media/create-project-repo/team-explorer.png)
+    ![Azure DevOps, GitHub를 표시하고 리포지토리를 복제하는 팀 탐색기 창](media/create-project-repo/team-explorer-devops.png)
 
 4. **로컬 Git 리포지토리** 아래의 URL 필드에 `https://github.com/Microsoft/samples-for-ai`를 입력하고, 복제된 파일에 대한 폴더를 입력하고, **복제**를 선택합니다.
 
     > [!Tip]
     > 팀 탐색기에서 지정하는 폴더는 복제된 파일을 받을 특정 폴더입니다. `git clone` 명령과 달리 팀 탐색기에서 복제본을 만드는 것은 리포지토리의 이름으로 하위 폴더를 자동으로 만들지 않습니다.
 
-5. 복제가 완료되면 팀 탐색기의 맨 아래에 있는 리포지토리 폴더를 두 번 클릭하여 리포지토리 대시보드로 이동합니다. **솔루션** 아래에서 **새로 만들기...** 를 선택합니다.
+5. 복제가 완료되면 팀 탐색기의 맨 아래에 있는 리포지토리 폴더를 두 번 클릭하여 리포지토리 대시보드로 이동합니다. **솔루션** 아래에서 **새로 만들기**를 선택합니다.
 
     ![팀 탐색기 창, 복제에서 새 프로젝트 만들기](media/create-project-repo/team-explorer-new-project.png)
 
@@ -29,7 +44,7 @@
 
 8. 솔루션 탐색기에서 `TensorFlow Examples> MNIST` 노드를 확장하고, `convolutional.py`를 마우스 오른쪽 단추로 클릭하고, **시작 파일로 설정**을 선택합니다. 이 단계는 Visual Studio에서 프로젝트를 실행할 때 사용해야 하는 파일을 지정합니다.
 
-9. **Ctrl**+**F5**를 누르거나 **디버그 > 디버깅하지 않고 시작**을 선택하여 프로그램을 실행합니다. `가 표시되면 이전 단계에서 작업 디렉터리 설정을 다시 확인합니다.
+9. **Ctrl**+**F5**를 누르거나 **디버그 > 디버깅하지 않고 시작**을 선택하여 프로그램을 실행합니다. 오류가 표시되면 이전 단계에서 작업 디렉터리 설정을 다시 확인합니다.
 
 10. 프로그램이 성공적으로 실행되면 학습 및 테스트 데이터 세트를 다운로드하기 시작한 다음, 모델을 학습하고 오류 비율을 출력합니다. 시간이 지나면 오류 비율이 감소합니다.
 

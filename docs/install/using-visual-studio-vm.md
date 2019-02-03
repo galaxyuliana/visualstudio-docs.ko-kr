@@ -13,15 +13,15 @@ helpviewer_keywords:
 - visual studio
 author: PhilLee-MSFT
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f139c93eeb64a56f0bd422137417e5ad6e36cb11
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 415e108da2187b2e3b5057da6b9a3850bd3eb3ca
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53836626"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54926750"
 ---
 # <a id="top"> </a> Azure의 Visual Studio 이미지
 
@@ -35,7 +35,7 @@ Azure Marketplace에서 최신 주 버전(Visual Studio 2017 및 Visual Studio 2
 
 | 릴리스 버전                                              | 버전                     |     제품 버전      |
 |:------------------------------------------------------------:|:----------------------------:|:------------------------:|
-|    Visual Studio 2019: 미리 보기(미리 보기 1)                   |           엔터프라이즈         | Version 16.0.0 미리 보기 1 |
+|    Visual Studio 2019: 미리 보기(미리 보기 2)                   |           엔터프라이즈         | 버전 16.0.0 미리 보기 2 |
 | Visual Studio 2017: 최신(버전 15.9)                    |    Enterprise, Community     |      버전 15.9.4      |
 |         Visual Studio 2017: RTW                              |    Enterprise, Community     |      버전 15.0.20     |
 |   Visual Studio 2015: 최신(업데이트 3)                      |    Enterprise, Community     |  버전 14.0.25431.01   |

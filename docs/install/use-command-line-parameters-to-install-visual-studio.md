@@ -13,15 +13,15 @@ f1_keywords:
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eb4ab50f5b5b699d2cbb8fa800705f4ed218c588
-ms.sourcegitcommit: a8c841648d862c83a0f0d654df1b367c159adc5e
+ms.openlocfilehash: a83b3c1be5beeeb2ea40fb9d27089a4b559f758a
+ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54403969"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "55089144"
 ---
 # <a name="use-command-line-parameters-to-install-visual-studio-2017"></a>명령줄 매개 변수를 사용하여 Visual Studio 2017 설치
 
@@ -37,7 +37,7 @@ ms.locfileid: "54403969"
 - [Visual Studio 2017 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 - [Visual Studio 2017 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2017)
 
-## <a name="list-of-command-line-parameters"></a>명령줄 매개 변수 목록
+## <a name="command-line-parameters"></a>명령줄 매개 변수
 
  Visual Studio 명령줄 매개 변수는 대/소문자를 구분하지 않습니다.
 
@@ -56,6 +56,8 @@ ms.locfileid: "54403969"
 | `repair` | 설치된 제품을 복구합니다. |
 | `uninstall` | 설치된 제품을 제거합니다. |
 | `export` | **15.9의 새로운 기능**: 설치 선택 항목을 설치 구성 파일로 내보냅니다. **참고**: vs_installer.exe와 함께만 사용할 수 있습니다. |
+
+## <a name="install-options"></a>설치 옵션
 
 | **설치 옵션** | **설명** |
 | ----------------------- | --------------- |
@@ -79,6 +81,8 @@ ms.locfileid: "54403969"
 
 > [!IMPORTANT]
 > 여러 워크로드와 구성 요소를 지정할 경우 각 항목에 대해 `--add` 또는 `--remove` 명령줄 스위치를 반복해야 합니다.
+
+## <a name="layout-options"></a>레이아웃 옵션
 
 | **레이아웃 옵션** | **설명** |
 | ----------------------- | --------------- |

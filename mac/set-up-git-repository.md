@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
-ms.openlocfilehash: c8d1cec438c0d942290997a6d51c4c0f2252bf8e
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.openlocfilehash: 615f9d5bcba036301c2aa100e4618ab339412882
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51296218"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54796972"
 ---
 # <a name="set-up-a-git-repository"></a>Git 리포지토리 설정
 
@@ -68,7 +68,10 @@ Git 리포지토리를 설정하려면 다음 단계를 수행하세요.
 
 6. **확인**을 클릭한 다음 경고 대화 상자에서 **게시**를 클릭합니다.
 
-7. Mac용 Visual Studio 기본 설정에서 Git 자격 증명을 입력하지 않았으면 지금 입력합니다. 우선 암호 대신 사용할 액세스 토큰을 만들어야 합니다. 액세스 토큰을 만들지 않은 경우에는 Git [액세스 토큰](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) 설명서의 단계를 따르세요.
+7. **Git 자격 증명** 창에 GitHub 사용자 이름 및 암호를 입력합니다. 
+
+> [!NOTE]
+> 계정에 2단계 인증(2FA)이 사용 설정된 경우 암호 대신 사용되는 액세스 토큰을 만들어야 합니다. 액세스 토큰을 만들지 않은 경우에는 Git [액세스 토큰](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) 설명서의 단계를 따르세요.
 
 8. 사용자 이름과 개인용 액세스 토큰을 입력하고 **확인**을 누릅니다.
 

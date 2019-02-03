@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: d5c56dc477b3c788f8d5ebfee4809067c77e08e8
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 371ac2a3473c8e040167c91c0b126715cd2ae674
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829311"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55231820"
 ---
 # <a name="organize-objects-into-layout-containers-in-xaml-designer"></a>XAML 디자이너에서 개체를 레이아웃 컨테이너로 구성
 
@@ -30,19 +30,7 @@ ms.locfileid: "53829311"
 
 다음 레이아웃 패널 중 하나를 선택하여 페이지를 시작합니다. 페이지에 둘 이상의 레이아웃 패널을 지정할 수 있습니다. 예를 들어 **Grid** 레이아웃 패널에서 시작한 후 **Grid**의 영역에 **StackPanel**을 추가하여 해당 요소에서 컨트롤을 세로로 정렬할 수 있습니다.
 
-다음은 가장 많이 사용되는 레이아웃 패널이며, 다른 레이아웃 패널도 있습니다. 이러한 컨트롤은 모두 **자산** 패널에 있습니다.
-
-- [눈금](#Grid)
-
-- [UniformGrid](#UniformGrid)
-
-- [캔버스](#Canvas)
-
-- [StackPanel](#stackpanel)
-
-- [WrapPanel](#wrappanel)
-
-- [DockPanel](#dockpanel)
+다음은 가장 많이 사용되는 레이아웃 패널이며, 다른 레이아웃 패널도 있습니다. 이 모든 항목은 Visual Studio의 **도구 상자** 또는 Blend for Visual Studio의 **자산** 패널에서 확인할 수 있습니다.
 
 ### <a name="grid"></a>표
 
@@ -92,15 +80,7 @@ ms.locfileid: "53829311"
 
 개체를 레이아웃 컨트롤에도 추가할 수 있습니다. 이러한 개체는 레이아웃 패널만큼 기능이 다양하지는 않지만 특정 시나리오에서 유용할 수 있습니다.
 
-다음은 가장 많이 사용되는 레이아웃 컨트롤이며, 다른 레이아웃 컨트롤도 있습니다. 이러한 컨트롤은 모두 **자산** 패널에 있습니다.
-
-- [테두리](#Border)
-
-- [Popup](#Popup)
-
-- [ScrollViewer](#scrollviewer)
-
-- [Viewbox](#viewbox)
+다음은 가장 많이 사용되는 레이아웃 컨트롤이며, 다른 레이아웃 컨트롤도 있습니다. 이 모든 항목은 Visual Studio의 **도구 상자** 또는 Blend for Visual Studio의 **자산** 패널에서 확인할 수 있습니다.
 
 ### <a name="border"></a>테두리
 

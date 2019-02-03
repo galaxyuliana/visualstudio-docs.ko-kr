@@ -6,24 +6,27 @@ ms.topic: conceptual
 helpviewer_keywords:
 - IntelliTest, Dynamic symbolic execution
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: d08094f122ace8908da7800cba84815b201154db
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b210248a9ac27945ee6eb1e2f1d5219c6dd62117
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53834674"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936621"
 ---
 # <a name="input-generation-using-dynamic-symbolic-execution"></a>동적 기호 실행을 사용하여 입력 생성
 
-IntelliTest는 프로그램에서 분기 조건을 분석하여 [매개 변수가 있는 단위 테스트](test-generation.md#parameterized-unit-testing)에 대한 입력을 생성합니다. 테스트 입력은 입력이 프로그램의 새 분기 동작을 트리거할 수 있는지에 따라 선택됩니다. 분석은 증분 프로세스입니다. 이 기능은 조건자 **q: I -> {true, false}** 를 정식 테스트 입력 매개 변수 **I**에 대해 구체화합니다. **q**는 IntelliTest가 이미 관찰한 동작 집합을 나타냅니다. 처음에는 아무것도 관찰되지 않았으므로 **q := false**입니다.
+IntelliTest는 프로그램에서 분기 조건을 분석하여 [매개 변수가 있는 단위 테스트](test-generation.md#parameterized-unit-testing)에 대한 입력을 생성합니다.
+테스트 입력은 입력이 프로그램의 새 분기 동작을 트리거할 수 있는지에 따라 선택됩니다.
+분석은 증분 프로세스입니다. 이 기능은 조건자 **q: I -> {true, false}** 를 정식 테스트 입력 매개 변수 **I**에 대해 구체화합니다. **q**는 IntelliTest가 이미 관찰한 동작 집합을 나타냅니다.
+처음에는 아무것도 관찰되지 않았으므로 **q := false**입니다.
 
 루프 단계는 다음과 같습니다.
 
-1. IntelliTest는 [제약 조건 해결기](#constraint-solver)를 사용하여 **q(i)=false**가 되도록 입력 **i**를 결정합니다. 
+1. IntelliTest는 [제약 조건 해결기](#constraint-solver)를 사용하여 **q(i)=false**가 되도록 입력 **i**를 결정합니다.
    생성 시 입력 **i**는 이전에 표시되지 않은 실행 경로를 사용합니다. 처음에는 실행 경로가 검색되지 않았으므로 이것은 **i**가 입력일 수 있음을 의미합니다.
 
 1. IntelliTest는 선택된 입력 **i**를 사용하여 테스트를 실행하고 테스트 및 테스트 중인 프로그램의 실행을 모니터링합니다.
@@ -55,7 +58,8 @@ IntelliTest는 [Z3](https://github.com/Z3Prover/z3/wiki) 제약 조건 해결기
 <a name="dynamic-code-coverage"></a>
 ## <a name="dynamic-code-coverage"></a>동적 코드 검사
 
-런타임 모니터링의 파생 작업으로 IntelliTest는 동적 코드 검사 데이터를 수집합니다. IntelliTest는 실행된 코드만 인식하므로 이를 *동적*이라고 합니다. 따라서 IntelliTest는 다른 검사 도구가 일반적으로 제공하는 것과 같은 방식으로 검사의 절대 값을 제공할 수 없습니다. 
+런타임 모니터링의 파생 작업으로 IntelliTest는 동적 코드 검사 데이터를 수집합니다.
+IntelliTest는 실행된 코드만 인식하므로 이를 *동적*이라고 합니다. 따라서 IntelliTest는 다른 검사 도구가 일반적으로 제공하는 것과 같은 방식으로 검사의 절대 값을 제공할 수 없습니다.
 
 예를 들어 IntelliTest가 동적 검사를 5/10 기본 블록으로 보고할 경우 이것은 10개 중 5개 블록이 검사되었음을 의미합니다. 여기서 지금까지 분석을 통해 도달한 모든 메서드의 총 블록 수는 테스트 중인 어셈블리에 있는 모든 메서드와는 달리 10개입니다.
 분석이 진행되면서 도달 가능한 메서드가 더 많이 검색되면 분자(이 예제에서는 5) 및 분모(10)가 증가할 수 있습니다.
@@ -80,8 +84,7 @@ IntelliTest는 테스트 및 테스트 중인 프로그램 실행 시 실행된 
 이것은 IntelliTest가 특정 형식의 개체를 만들고 해당 필드 값을 설정해야 함을 의미합니다. 클래스가 [표시 가능](#visibility)하고 [visible](#visibility) 기본 생성자를 포함하는 경우 IntelliTest는 클래스의 인스턴스를 만들 수 있습니다.
 클래스의 모든 필드가 [표시 가능](#visibility)하면 IntelliTest는 이 필드를 자동으로 설정할 수 있습니다.
 
-형식이 표시 가능하지 않거나 필드가 [표시 가능](#visibility)하지 않으면 IntelliTest는 최대 코드 검사를 수행하기 위해 개체를 만들고 흥미로운 상태로 전환하기 위한 지원이 필요합니다. IntelliTest는 리플렉션을 사용하여 임의 방식으로 인스턴스를 만들고 초기화할 수 있지만,  
-개체가 정상적인 프로그램 실행 중에는 발생할 수 없는 상태로 전환될 수 있기 때문에 일반적으로 이 기능을 사용하지 않는 것이 좋습니다. 대신에 IntelliTest는 사용자의 힌트에 의존합니다.
+형식이 표시 가능하지 않거나 필드가 [표시 가능](#visibility)하지 않으면 IntelliTest는 최대 코드 검사를 수행하기 위해 개체를 만들고 흥미로운 상태로 전환하기 위한 지원이 필요합니다. IntelliTest는 리플렉션을 사용하여 자의적인 방식으로 인스턴스를 만들고 초기화할 수 있지만 정상적인 프로그램 실행 중에는 절대 가능하지 않은 상태로 개체가 전환될 수 있으므로 일반적으로 바람직하지 않은 방법입니다. 대신에 IntelliTest는 사용자의 힌트에 의존합니다.
 
 <a name="visibility"></a>
 ## <a name="visibility"></a>표시 유형
@@ -108,7 +111,7 @@ IntelliTest는 테스트를 생성할 때 생성된 테스트의 컨텍스트 �
 
 인터페이스 형식의 매개 변수가 있는 메서드는 어떻게 테스트하나요? 또는 봉인되지 않은 클래스의 경우는 어떤가요? IntelliTest는 이 메서드가 호출될 때 나중에 사용되는 구현을 인식하지 못합니다. 또한 테스트 시간에 사용할 수 있는 실제 구현이 없을 수도 있습니다.
 
-일반적인 답변은 *모의 개체*를 명시적 동작과 함께 사용하는 것입니다. 
+일반적인 답변은 *모의 개체*를 명시적 동작과 함께 사용하는 것입니다.
 
 모의 개체는 인터페이스를 구현하거나 봉인되지 않은 클래스를 확장합니다. 실제 구현이 아니라 모의 개체를 사용하여 테스트를 실행할 수 있는 바로 가기를 나타냅니다. 모의 개체의 동작은 동작이 사용되는 각 테스트 사례의 일부로 수동으로 정의됩니다. 모의 개체와 해당 동작을 쉽게 정의할 수 있는 많은 도구가 있지만, 이 동작은 여전히 수동으로 정의해야 합니다.
 
@@ -129,7 +132,8 @@ IntelliTest의 **struct** 값 지각 기능은 [개체](#objects)를 처리하�
 <a name="arrays-and-strings"></a>
 ## <a name="arrays-and-strings"></a>배열 및 문자열
 
-IntelliTest는 테스트 및 테스트 중인 프로그램 실행 시 실행된 명령을 모니터링합니다. 특히 프로그램이 문자열 또는 배열의 길이와 다차원 배열의 하한 및 최소 길이를 사용하는 경우를 관찰합니다. 또한 프로그램이 문자열 또는 배열의 다양한 요소를 사용하는 방식을 관찰합니다. 그런 다음 [제약 조건 해결기](#constraint-solver)를 사용하여 테스트 및 테스트 중인 프로그램이 흥미로운 방식으로 동작하게 만드는 길이 및 요소 값을 확인합니다.
+IntelliTest는 테스트 및 테스트 중인 프로그램 실행 시 실행된 명령을 모니터링합니다. 특히 프로그램이 문자열 또는 배열의 길이와 다차원 배열의 하한 및 최소 길이를 사용하는 경우를 관찰합니다.
+또한 프로그램이 문자열 또는 배열의 다양한 요소를 사용하는 방식을 관찰합니다. 그런 다음 [제약 조건 해결기](#constraint-solver)를 사용하여 테스트 및 테스트 중인 프로그램이 흥미로운 방식으로 동작하게 만드는 길이 및 요소 값을 확인합니다.
 
 IntelliTest는 흥미로운 프로그램 동작을 트리거하는 데 필요한 배열 및 문자열의 크기를 최소화하려고 합니다.
 

@@ -1,32 +1,32 @@
 ---
-title: '자습서: C# 콘솔 앱 시작'
+title: '자습서: 간단한 C# 콘솔 앱 만들기'
 description: Visual Studio에서 C# 콘솔 앱을 만드는 방법을 단계별로 알아봅니다.
 ms.custom: seodec18, get-started
-ms.date: 01/10/2019
+ms.date: 01/25/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
 - CSharp
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 6114910f8c4cbeebc0301cc0c2167a49742823a5
-ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
+ms.openlocfilehash: 856c20175fd444c7acf83bdf02526c907a28b92f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54204433"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54936959"
 ---
-# <a name="tutorial-get-started-with-a-c-console-app-in-visual-studio"></a>자습서: Visual Studio에서 C# 콘솔 앱 시작
+# <a name="tutorial-create-a-simple-c-console-app-in-visual-studio"></a>자습서: Visual Studio에서 간단한 C# 콘솔 앱 만들기
 
-C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 만들어 실행하고, 그 과정에서 [Visual Studio IDE(통합 개발 환경)](../visual-studio-ide.md)의 일부 기능을 살펴봅니다.
+C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 만들어 실행하고, 그 과정에서 Visual Studio IDE(통합 개발 환경)의 일부 기능을 살펴봅니다.
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
 
 ## <a name="create-a-project"></a>프로젝트 만들기
 
@@ -42,19 +42,58 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 
 ### <a name="add-a-workgroup-optional"></a>(선택 사항) 작업 그룹 추가
 
-**콘솔 앱(.NET Core)** 프로젝트 템플릿이 표시되지 않는 경우, **.NET Core 플랫폼 간 개발** 워크로드를 추가하여 얻을 수 있습니다. 이 작업을 수행하는 방법은 "[워크로드란 무엇이며 어떻게 추가하나요?](#workload)"를 참조하세요. FAQ의 섹션.
+**콘솔 앱(.NET Core)** 프로젝트 템플릿이 표시되지 않는 경우, **.NET Core 플랫폼 간 개발** 워크로드를 추가하여 얻을 수 있습니다. 방법은 다음과 같습니다.
+
+#### <a name="option-1-use-the-new-project-dialog-box"></a>옵션 1: 새 프로젝트 대화 상자 사용
+
+1. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기** 링크를 선택합니다.
+
+   ![새 프로젝트 대화 상자에서 Visual Studio 설치 관리자 열기 링크 선택](./media/csharp-open-visual-studio-installer-generic-dark.png)
+
+1. Visual Studio 설치 관리자가 시작됩니다. **.NET Core 플랫폼 간 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
+
+   ![Visual Studio Installer에서 .NET Core 플랫폼 간 개발 워크로드](./media/dot-net-core-xplat-dev-workload.png)
+
+#### <a name="option-2-use-the-tools-menu-bar"></a>옵션 2: 도구 메뉴 모음 사용
+
+1. **새 프로젝트** 대화 상자를 취소하고 나가 상단 메뉴 모음에서 **도구** > **도구 및 기능 가져오기**를 선택합니다.
+
+1. Visual Studio 설치 관리자가 시작됩니다. **.NET Core 플랫폼 간 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
 
 ## <a name="create-the-app"></a>앱 만들기
 
-먼저 기본 계산기를 만드는 코드를 추가합니다. 다음으로, 코드를 수정하여 기능을 추가하겠습니다. 그런 다음, 오류를 찾아 수정하기 위해 앱을 디버그할 것입니다. 마지막으로, 보다 효율적인 코드를 구체화하겠습니다.
+먼저 C#의 몇 가지 기본 정수 수식을 살펴보겠습니다. 그런 다음, 기본 계산기를 만드는 코드를 추가하겠습니다. 다음으로, 코드를 수정하여 기능을 추가하겠습니다. 그런 다음, 오류를 찾아 수정하기 위해 앱을 디버그할 것입니다. 마지막으로, 보다 효율적인 코드를 구체화하겠습니다.
 
-기본 계산기 코드를 프로젝트에 추가하여 시작해 보겠습니다.
+C#의 몇 가지 정수 수식부터 살펴보겠습니다.
 
 1. 코드 편집기에서 기본 "Hello World" 코드를 삭제합니다.
 
     ![새 계산기 앱에서 기본 Hello World 코드 삭제](./media/csharp-console-calculator-deletehelloworld.png)
 
-   특히, 코드 편집기에 표시되는 모든 코드를 삭제합니다.
+   구체적으로, `Console.WriteLine("Hello World!");`이라는 줄을 삭제합니다.
+
+1. 그 대신 다음 코드를 입력합니다.
+
+    ```csharp
+            int a = 42;
+            int b = 119;
+            int c = a + b;
+            Console.WriteLine(c);
+            Console.ReadKey();
+    ```
+1. 프로그램을 실행할 **계산기**를 선택하거나 **F5** 키를 누릅니다.
+
+   ![계산기 단추를 선택하여 도구 모음에서 앱을 실행합니다.](./media/csharp-console-calculator-button.png)
+
+   42 + 119의 합계를 표시하는 콘솔 창이 열립니다.
+
+1. 이제 빼기에 해당하는 `-`, 곱하기에 해당하는 `*` 또는 나누기에 해당하는 */* 와 같은 다른 연산자를 사용하여 `int c = a + b;` 코드 줄을 변경해 보세요.
+
+    연산자를 변경하고 프로그램을 실행하면 결과도 변경됩니다.
+
+계속해서 프로젝트에 계산기 코드의 더 복잡한 세트를 추가해 보겠습니다.
+
+1. 코드 편집기에 표시되는 모든 코드를 삭제합니다.
 
 1. 코드 편집기에 다음 새 코드를 입력하거나 붙여넣습니다.
 
@@ -165,7 +204,10 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 
 예를 들어 숫자를 0으로 나누거나 앱이 숫자 문자가 필요할 때 알파 문자를 입력하면(또는 그 반대로) 앱이 작동을 중지하고 오류를 반환합니다.
 
-몇 가지 일반적인 사용자 입력 오류를 살펴보고 [디버거](../../debugger/debugger-feature-tour.md)에서 오류를 찾아 코드에서 수정하세요.
+몇 가지 일반적인 사용자 입력 오류를 살펴보고 디버거에서 오류를 찾아 코드에서 수정하세요.
+
+>[!TIP]
+>디버거 및 디버거의 작동 방식에 대한 자세한 내용은 [먼저 Visual Studio 디버거 살펴보기](../../debugger/debugger-feature-tour.md) 페이지를 참조하세요.
 
 ### <a name="fix-the-divide-by-zero-error"></a>"0으로 나누기" 오류 해결
 
@@ -209,7 +251,7 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 
 #### <a name="revise-the-code"></a>코드 수정
 
-모든 코드를 처리하기 위해 `program` 클래스를 사용하는 대신 `calculator` 및 `program` 두 클래스로 앱을 나눕니다.  
+모든 코드를 처리하기 위해 `program` 클래스를 사용하는 대신 `calculator` 및 `program` 두 클래스로 앱을 나눕니다.
 
 `calculator` 클래스는 대량의 계산 작업을 처리하고 `program` 클래스는 사용자 인터페이스 및 오류 캡처 작업을 처리합니다.
 
@@ -483,48 +525,6 @@ namespace Calculator
 
 ```
 
-## <a name="quick-answers-faq"></a>빠른 답변 FAQ
-
-몇 가지 주요 개념을 강조 표시하는 빠른 FAQ는 다음과 같습니다. FAQ에는 자습서의 절차를 수행할 때 제기될 수 있는 질문에 대한 답변도 포함되어 있습니다.
-
-### <a name="what-is-c"></a>C#이란?
-
-C#은 .NET Framework 및 .NET Core에서 실행되는 형식이 안전한 프로그래밍 언어입니다. C#을 사용하여 Windows 애플리케이션, 클라이언트-서버 애플리케이션, 데이터베이스 애플리케이션, XML Web services, 분산 구성 요소 등을 만들 수 있습니다.
-
-### <a name="what-is-visual-studio"></a>Visual Studio란?
-
-Visual Studio는 개발자를 위한 통합 개발 생산성 도구입니다. 프로그램과 애플리케이션을 만드는 데 사용할 수 있는 프로그램으로 생각하면 됩니다.
-
-### <a name="what-is-a-console-app"></a>콘솔 앱이란?
-
-콘솔 앱은 입력을 받고 명령줄 창, 즉 콘솔에 출력을 표시합니다.
-
-### <a name="what-is-net-core"></a>.NET Core란?
-
-.NET Core는 .NET Framework의 다음 진화 단계입니다. NET Framework는 프로그래밍 언어 전체에서 코드를 공유할 수 있게 했고 .NET Core는 플랫폼 간에 코드를 공유하는 기능을 더합니다. 게다가 오픈 소스입니다.
-
-.NET Framework 및 .NET Core 둘 다에 미리 빌드된 기능 라이브러리가 포함되어 있습니다. 사용자 코드를 실행할 가상 머신 역할을 하는 CLR(공용 언어 런타임)도 포함합니다.
-
-### <a id="workload"></a>워크로드란 무엇이며 어떻게 추가하나요?
-
-Visual Studio의 워크로드는 Visual Studio 설치를 사용자 지정하는 데 사용할 수 있는 프로그래밍 옵션 및 템플릿 집합을 나타냅니다. 워크로드는 선택한 프로그래밍 언어와 플랫폼에 필요한 도구만 설치합니다. 설치하는 방법은 다음과 같습니다.
-
-#### <a name="option-1-use-the-new-project-dialog-box"></a>옵션 1: 새 프로젝트 대화 상자 사용
-
-1. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기** 링크를 선택합니다.
-
-   ![새 프로젝트 대화 상자에서 Visual Studio 설치 관리자 열기 링크 선택](./media/csharp-open-visual-studio-installer-generic-dark.png)
-
-1. Visual Studio 설치 관리자가 시작됩니다. **.NET Core 플랫폼 간 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
-
-   ![Visual Studio Installer에서 .NET Core 플랫폼 간 개발 워크로드](./media/dot-net-core-xplat-dev-workload.png)
-
-#### <a name="option-2-use-the-tools-menu-bar"></a>옵션 2: 도구 메뉴 모음 사용
-
-1. **새 프로젝트** 대화 상자를 취소하고 나가 상단 메뉴 모음에서 **도구** > **도구 및 기능 가져오기**를 선택합니다.
-
-1. Visual Studio 설치 관리자가 시작됩니다. **.NET Core 플랫폼 간 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
-
 ## <a name="next-steps"></a>다음 단계
 
 축하합니다. 이 자습서를 마쳤습니다. 자세히 알아보려면 다음 자습서를 계속 진행하세요.
@@ -534,4 +534,5 @@ Visual Studio의 워크로드는 Visual Studio 설치를 사용자 지정하는 
 
 ## <a name="see-also"></a>참고 항목
 
-* [초보자를 위한 C# 기본 사항 비디오 과정](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
+* [비디오 교육 과정: 초보자를 위한 C# 기본 사항](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
+* [Visual Studio에서 C# 코드를 디버그하는 방법 알아보기](tutorial-debugger.md)

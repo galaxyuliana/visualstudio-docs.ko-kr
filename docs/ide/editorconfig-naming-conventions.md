@@ -7,16 +7,16 @@ helpviewer_keywords:
 - EditorConfig naming conventions
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - multiple
-ms.openlocfilehash: 60bffcf458e96a5e224493ac9a33b8fa9fb72541
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 50fe9249baae6d881c2d67ebc0a65a0c6335cbd3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898663"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54935360"
 ---
 # <a name="net-naming-conventions-for-editorconfig"></a>EditorConfig에 대한 .NET 명명 규칙
 
@@ -85,7 +85,7 @@ ms.locfileid: "53898663"
 
 `dotnet_naming_symbols.<symbolTitle>.required_modifiers = <values>`
 
-허용 가능한 값은 아래와 같으며, 이러한 값을 쉼표로 구분하여 여러 값을 지정할 수 있습니다.
+허용 가능한 값은 아래와 같으며, 이러한 값을 쉼표로 구분하여 여러 값을 지정할 수 있습니다. 명명 규칙은 `required_modifiers`에 지정된 모든 한정자가 있는 서명만 일치시킵니다. 이 속성을 생략하면 빈 목록의 기본값이 사용되므로 일치 항목에 특정 한정자가 필요하지 않습니다. 즉, 기호 한정자가 이 규칙의 적용 여부에 영향을 주지 않습니다.
 
 - `abstract` 또는 `must_inherit`
 - `async`
@@ -159,7 +159,7 @@ suggestion | 이 스타일을 따르지 않을 경우 처음 두 문자에 점�
 > [!NOTE]
 > 명명 규칙 위반을 확인하기 위해 프로젝트를 빌드하지 않아도 됩니다. 코드가 편집되면 **오류 목록** 또는 제안 중 하나로 표시됩니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 *.editorconfig* 파일은 공용 속성, 메서드, 필드, 이벤트 및 대리자를 대문자로 시작하도록 지정하는 명명 규칙을 포함하고 있습니다. 이 명명 규칙은 값을 구분하기 위해 쉼표를 사용하여 규칙을 적용하는 여러 종류의 기호를 지정합니다.
 

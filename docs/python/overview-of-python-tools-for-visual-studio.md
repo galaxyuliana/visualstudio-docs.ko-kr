@@ -7,17 +7,17 @@ ms.prod: visual-studio-dev15
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 8e37648be6bb9f78aa80027b50b2fea6592d7c9e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 699578e564999db55562abaad764cde80fc8b618
+ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53927339"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55232067"
 ---
 # <a name="work-with-python-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 작업
 
@@ -40,7 +40,7 @@ Visual Studio의 **Python 환경** 창(넓게 확장된 뷰에서 아래에 표�
 
 ![Python 환경 창의 확장된 뷰](media/environments-expanded-view.png)
 
-Visual Studio의 컨텍스트 내에서 Python을 대화형으로 실행하려면 **대화형 창 열기** 명령을 사용합니다. 선택한 환경의 폴더에서 별도의 명령 창을 열려면 **PowerShell에서 열기** 명령을 사용합니다. 해당 명령 창에서 모든 Python 스크립트를 실행할 수 있습니다. 
+Visual Studio의 컨텍스트 내에서 Python을 대화형으로 실행하려면 **대화형 창 열기** 명령을 사용합니다. 선택한 환경의 폴더에서 별도의 명령 창을 열려면 **PowerShell에서 열기** 명령을 사용합니다. 해당 명령 창에서 모든 Python 스크립트를 실행할 수 있습니다.
 
 추가 정보
 
@@ -140,7 +140,7 @@ Visual Studio **테스트 탐색기**에서 테스트를 검색, 실행 및 관�
 
 Python 워크로드는 Windows, Mac OS X, Linux 앱에서 Azure 서비스를 간편하게 사용할 수 있도록 해주는 Python용 Azure SDK도 포함합니다.
 
-자세한 내용은 [Python용 Azure SDK](azure-sdk-for-python.md)를 참조하세요.
+자세한 내용은 [Python용 Azure SDK](/python/azure/?view=azure-python)를 참조하세요.
 
 ## <a name="python-training-on-microsoft-virtual-academy"></a>Microsoft Virtual Academy의 Python 교육
 

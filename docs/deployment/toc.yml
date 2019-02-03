@@ -21,13 +21,13 @@ items:
   items:
   - name: .NET
     items:
-    - name: 게시 도구를 사용하여 .NET Core 응용 프로그램 배포
+    - name: 게시 도구를 사용하여 .NET Core 애플리케이션 배포
       href: /dotnet/core/deploying/deploy-with-vs
     - name: Microsoft Store의 데스크톱 앱(데스크톱 브리지) 패키지
       href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net
     - name: ClickOnce를 사용하여 데스크톱 앱 배포
       href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
-    - name: 명령줄에서 ClickOnce 응용 프로그램 빌드
+    - name: 명령줄에서 ClickOnce 애플리케이션 빌드
       href: building-clickonce-applications-from-the-command-line.md
   - name: ASP.NET
     items:
@@ -41,7 +41,7 @@ items:
       href: /aspnet/core/publishing/azure-continuous-deployment
     - name: Visual Studio Kubernetes 도구를 사용하여 Kubernetes에 게시
       href: tutorial-kubernetes-tools.md
-  - name: 네이티브
+  - name: C++
     items:
     - name: Visual C++에서 배포...
       href: /cpp/ide/deployment-in-visual-cpp
@@ -74,51 +74,51 @@ items:
       href: clickonce-and-application-settings.md
     - name: Windows Vista의 ClickOnce 배포
       href: clickonce-deployment-on-windows-vista.md
-    - name: ClickOnce 응용 프로그램 지역화
+    - name: ClickOnce 애플리케이션 지역화
       href: localizing-clickonce-applications.md
       items:
       - name: 특정 로캘이 지정된 프로젝트 게시
         href: how-to-publish-a-project-that-has-a-specific-locale.md
-    - name: ClickOnce 응용 프로그램 보안
+    - name: ClickOnce 애플리케이션 보안
       href: securing-clickonce-applications.md
       items:
       - name: ClickOnce 및 Authenticode
         href: clickonce-and-authenticode.md
-      - name: 신뢰할 수 있는 응용 프로그램 배포 개요
+      - name: Trusted Application Deployment Overview
         href: trusted-application-deployment-overview.md
-      - name: ClickOnce 응용 프로그램의 코드 액세스 보안
+      - name: ClickOnce 애플리케이션의 코드 액세스 보안
         href: code-access-security-for-clickonce-applications.md
       - name: ClickOnce 보안 설정 사용
         href: how-to-enable-clickonce-security-settings.md
-      - name: ClickOnce 응용 프로그램의 보안 영역 설정
+      - name: ClickOnce 애플리케이션의 보안 영역 설정
         href: how-to-set-a-security-zone-for-a-clickonce-application.md
-      - name: ClickOnce 응용 프로그램의 사용자 지정 권한 설정
+      - name: ClickOnce 애플리케이션의 사용자 지정 권한 설정
         href: how-to-set-custom-permissions-for-a-clickonce-application.md
-      - name: 제한된 권한으로 ClickOnce 응용 프로그램 디버그
+      - name: 제한된 권한으로 ClickOnce 애플리케이션 디버그
         href: how-to-debug-a-clickonce-application-with-restricted-permissions.md
       - name: 클라이언트 컴퓨터에 신뢰할 수 있는 게시자 추가
         href: how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md
-      - name: 응용 프로그램 및 배포 매니페스트 다시 서명
+      - name: 애플리케이션 및 배포 매니페스트 다시 서명
         href: how-to-re-sign-application-and-deployment-manifests.md
       - name: ClickOnce 신뢰 프롬프트 동작 구성
         href: how-to-configure-the-clickonce-trust-prompt-behavior.md
       - name: SignTool.exe를 사용하여 설치 파일에 서명(ClickOnce)
         href: how-to-sign-setup-files-with-signtool-exe-clickonce.md
-    - name: ClickOnce 응용 프로그램 게시
+    - name: ClickOnce 애플리케이션 게시
       href: publishing-clickonce-applications.md
       items:
-      - name: 다른 사용자가 배포할 수 있는 ClickOnce 응용 프로그램 만들기
+      - name: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시
+        href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+      - name: 다른 사용자가 배포할 수 있는 ClickOnce 애플리케이션 만들기
         href: creating-clickonce-applications-for-others-to-deploy.md
       - name: 다시 서명하지 않고 테스트 및 프로덕션 서버용 앱 배포
         href: deploying-clickonce-applications-for-testing-and-production-without-resigning.md
-      - name: ClickOnce 응용 프로그램의 로컬 및 원격 데이터 액세스
+      - name: ClickOnce 애플리케이션의 로컬 및 원격 데이터 액세스
         href: accessing-local-and-remote-data-in-clickonce-applications.md
       - name: ClickOnce를 사용하여 COM 구성 요소 배포
         href: deploying-com-components-with-clickonce.md
-      - name: 명령줄에서 ClickOnce 응용 프로그램 빌드
+      - name: 명령줄에서 ClickOnce 애플리케이션 빌드
         href: building-clickonce-applications-from-the-command-line.md
-      - name: 게시 마법사를 사용하여 ClickOnce 응용 프로그램 게시
-        href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
       - name: Visual Studio의 파일 복사 위치 지정
         href: how-to-specify-where-visual-studio-copies-the-files.md
       - name: 최종 사용자의 설치 원본 위치 지정
@@ -132,42 +132,42 @@ items:
       - name: ClickOnce를 통해 게시할 파일 지정
         href: how-to-specify-which-files-are-published-by-clickonce.md
         items:
-        - name: ClickOnce 응용 프로그램에 데이터 파일 포함
+        - name: ClickOnce 애플리케이션에 데이터 파일 포함
           href: how-to-include-a-data-file-in-a-clickonce-application.md
-      - name: ClickOnce 응용 프로그램의 필수 구성 요소 설치
+      - name: ClickOnce 애플리케이션의 필수 구성 요소 설치
         href: how-to-install-prerequisites-with-a-clickonce-application.md
-      - name: ClickOnce 응용 프로그램의 필수 구성 요소 포함
+      - name: ClickOnce 애플리케이션의 필수 구성 요소 포함
         href: how-to-include-prerequisites-with-a-clickonce-application.md
-      - name: ClickOnce 응용 프로그램에 대한 업데이트 관리
+      - name: ClickOnce 애플리케이션에 대한 업데이트 관리
         href: how-to-manage-updates-for-a-clickonce-application.md
-      - name: ClickOnce 응용 프로그램의 게시 언어 변경
+      - name: ClickOnce 애플리케이션의 게시 언어 변경
         href: how-to-change-the-publish-language-for-a-clickonce-application.md
-      - name: ClickOnce 응용 프로그램의 시작 메뉴 이름 지정
+      - name: ClickOnce 애플리케이션의 시작 메뉴 이름 지정
         href: how-to-specify-a-start-menu-name-for-a-clickonce-application.md
       - name: 기술 지원을 위한 링크 지정
         href: how-to-specify-a-link-for-technical-support.md
         items:
         - name: 개별 필수 구성 요소에 대한 지원 URL 지정
           href: how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md
-      - name: ClickOnce 응용 프로그램의 게시 페이지 지정
+      - name: ClickOnce 애플리케이션의 게시 페이지 지정
         href: how-to-specify-a-publish-page-for-a-clickonce-application.md
         items:
-        - name: ClickOnce 응용 프로그램의 기본 웹 페이지 사용자 지정
+        - name: ClickOnce 애플리케이션의 기본 웹 페이지 사용자 지정
           href: how-to-customize-the-default-web-page-for-a-clickonce-application.md
       - name: CD 설치를 위한 자동 시작 사용
         href: how-to-enable-autostart-for-cd-installations.md
-      - name: ClickOnce 응용 프로그램에 대한 파일 연결 만들기
+      - name: ClickOnce 애플리케이션에 대한 파일 연결 만들기
         href: how-to-create-file-associations-for-a-clickonce-application.md
-      - name: 온라인 ClickOnce 응용 프로그램에서 쿼리 문자열 정보 검색
+      - name: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색
         href: how-to-retrieve-query-string-information-in-an-online-clickonce-application.md
-      - name: 디자이너를 사용하여 ClickOnce 응용 프로그램의 URL 활성화를 사용하지 않도록 설정
+      - name: 디자이너를 사용하여 ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정
         href: how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer.md
         items:
-        - name: ClickOnce 응용 프로그램의 URL 활성화를 사용하지 않도록 설정
+        - name: ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정
           href: how-to-disable-url-activation-of-clickonce-applications.md
       - name: 여러 버전의 .NET Framework에서 실행할 수 있는 응용 프로그램 배포
         href: how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-dotnet-framework.md
-      - name: 비주얼 스타일을 사용하여 WPF 응용 프로그램 게시
+      - name: 비주얼 스타일을 사용하여 WPF 애플리케이션 게시
         href: how-to-publish-a-wpf-application-with-visual-styles-enabled.md
       - name: '연습: 디자이너를 사용하여 요청 시 어셈블리 다운로드'
         href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
@@ -176,10 +176,10 @@ items:
           href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md
       - name: '연습: 디자이너를 사용하여 요청 시 위성 어셈블리 다운로드'
         href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
-      - name: '연습: ClickOnce 응용 프로그램 수동 배포'
+      - name: '연습: 수동으로 ClickOnce 애플리케이션 배포'
         href: walkthrough-manually-deploying-a-clickonce-application.md
         items:
-        - name: '연습: 다시 서명 하지 않아도 되는 앱을 수동으로 배포'
+        - name: '연습: 다시 서명하지 않아도 되는 앱을 수동으로 배포'
           href: walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md
       - name: '연습: 요청 시 위성 어셈블리 다운로드'
         href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
@@ -190,7 +190,7 @@ items:
       items:
       - name: ClickOnce에서 응용 프로그램 업데이트가 수행되는 방식
         href: how-clickonce-performs-application-updates.md
-      - name: 프로그래밍 방식으로 응용 프로그램 업데이트 확인
+      - name: 프로그래밍 방식으로 애플리케이션 업데이트 확인
         href: how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md
       - name: 배포 업데이트를 위한 대체 위치 지정
         href: how-to-specify-an-alternate-location-for-deployment-updates.md
@@ -209,12 +209,12 @@ items:
         href: security-versioning-and-manifest-issues-in-clickonce-deployments.md
       - name: ClickOnce 배포 관련 오류 문제 해결
         href: troubleshooting-specific-errors-in-clickonce-deployments.md
-      - name: System.Deployment.Application을 사용하는 ClickOnce 응용 프로그램 디버그
+      - name: System.Deployment.Application을 사용하는 ClickOnce 애플리케이션 디버그
         href: debugging-clickonce-applications-that-use-system-deployment-application.md
   - name: 응용 프로그램 배포 필수 구성 요소
     href: application-deployment-prerequisites.md
     items:
-    - name: 64비트 응용 프로그램의 필수 구성 요소 배포
+    - name: 64비트 애플리케이션의 필수 구성 요소 배포
       href: deploying-prerequisites-for-64-bit-applications.md
     - name: 부트스트래퍼 패키지 만들기
       href: creating-bootstrapper-packages.md
@@ -253,19 +253,19 @@ items:
     - name: ndptecclick
       href: clickonce-application-manifest.md
       items:
-      - name: <assembly> Element (ClickOnce Application)
+      - name: <assembly> 요소(ClickOnce 애플리케이션)
         href: assembly-element-clickonce-application.md
-      - name: <assemblyIdentity> Element (ClickOnce Application)
+      - name: <assemblyIdentity> 요소(ClickOnce 애플리케이션)
         href: assemblyidentity-element-clickonce-application.md
-      - name: <trustInfo> Element (ClickOnce Application)
+      - name: <trustInfo> 요소(ClickOnce 애플리케이션)
         href: trustinfo-element-clickonce-application.md
-      - name: <entryPoint> Element (ClickOnce Application)
+      - name: <entryPoint> 요소(ClickOnce 애플리케이션)
         href: entrypoint-element-clickonce-application.md
-      - name: <dependency> Element (ClickOnce Application)
+      - name: <dependency> 요소(ClickOnce 애플리케이션)
         href: dependency-element-clickonce-application.md
-      - name: <file> Element (ClickOnce Application)
+      - name: <file> 요소(ClickOnce 애플리케이션)
         href: file-element-clickonce-application.md
-      - name: <fileAssociation> Element (ClickOnce Application)
+      - name: <fileAssociation> 요소(ClickOnce 애플리케이션)
         href: fileassociation-element-clickonce-application.md
     - name: ClickOnce 배포 매니페스트
       href: clickonce-deployment-manifest.md
@@ -290,9 +290,9 @@ items:
         href: customerrorreporting-element-clickonce-deployment.md
     - name: ClickOnce 관리되지 않는 API 참조
       href: clickonce-unmanaged-api-reference.md
-ms.openlocfilehash: 303890cae6181264f0bcd96e24b27a1065d67d6b
-ms.sourcegitcommit: 1c675dae7c348defb32d9f7ccf7079a1062a1c4b
+ms.openlocfilehash: 427a4156599cbf4ed4fc718c2b5f6199aeef2342
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48243980"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484058"
