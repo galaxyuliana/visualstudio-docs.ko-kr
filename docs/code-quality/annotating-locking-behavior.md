@@ -33,12 +33,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: 5b0a9f28da48582ac562f08e3327fb3d80375c3b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4ee8e68cea1a4f6b708b304b6ca889d29eff0bad
+ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53835294"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "55690317"
 ---
 # <a name="annotating-locking-behavior"></a>잠금 동작에 주석 지정
 다중 스레드 프로그램에서 동시성 버그를 방지하려면 항상 적절한 잠금 규칙을 따르고 SAL 주석을 사용합니다.
@@ -105,6 +105,19 @@ ms.locfileid: "53835294"
 |`_Interlocked_`|변수에 주석을 달며 `_Guarded_by_(_Global_interlock_)`와 동일합니다.|
 |`_Interlocked_operand_`|주석이 달린 함수 매개 변수는 다양한 연동 함수 중 하나의 대상 피연산자입니다.  해당 피연산자에는 특정 추가 속성이 있어야 합니다.|
 |`_Write_guarded_by_(expr)`|변수에 주석을 달고 변수가 수정될 때마다 `expr`로 명명된 잠금 개체의 잠금 수가 1개 이상임을 나타냅니다.|
+
+
+## <a name="smart-lock-and-raii-annotations"></a>Smart Lock 및 RAII 주석
+ 스마트 잠금 일반적으로 네이티브 잠금의 래핑하고 해당 수명을 관리 합니다. 다음 표에서 스마트 잠금 및 RAII 코딩 패턴에 대 한 지원을 사용 하 여 사용할 수 있는 주석을 `move` 의미 합니다.
+
+|주석|설명|
+|----------------|-----------------|
+|`_Analysis_assume_smart_lock_acquired_`|스마트 잠금 획득을 가정 하는 분석기를 알려 줍니다. 이 주석은 매개 변수로 참조 잠금 형식이 필요합니다.|
+|`_Analysis_assume_smart_lock_released_`|스마트 잠금에 릴리스된 것으로 가정 하에 알려 줍니다. 이 주석은 매개 변수로 참조 잠금 형식이 필요합니다.|
+|`_Moves_lock_(target, source)`|에 대해 설명 합니다 `move constructor` 에서 잠금 상태를 전송 하는 작업을 `source` 개체는 `target`합니다. 합니다 `target` 손실 되며 교체 하기 전에 했습니다 상태가 있으므로 개체를 새로 생성 된 것으로 간주 됩니다는 `source` 상태입니다. `source` 는 없지만 잠금 개수 또는 별칭 대상을 가리키는 별칭을 사용 하 여 빈 상태로 재설정 그대로 유지 합니다.|
+|`_Replaces_lock_(target, source)`|설명 `move assignment operator` 원본의 상태를 전송 하기 전에 대상 잠금이 해제 되는 위치 의미 체계. 이 조합으로 간주 될 수 있음 `_Moves_lock_(target, source)` 앞에 `_Releases_lock_(target)`합니다.|
+|`_Swaps_locks_(left, right)`|표준에 설명 합니다 `swap` 개체는 가정 하는 동작 `left` 고 `right` 해당 상태를 교환 합니다. 교환 상태 있으면 잠금 수 및 별칭 지정 대상을 포함 합니다. 가리키는 별칭 합니다 `left` 고 `right` 개체 그대로 유지 됩니다.|
+|`_Detaches_lock_(detached, lock)`|잠금 래퍼 형식은 포함 된 리소스를 사용 하 여 연결 끊기가 허용 하는 시나리오를 설명 합니다. 이 방법과 유사 `std::unique_ptr` 해당 내부 포인터를 사용 하 여 작동: 프로그래머가 수 포인터를 추출 하 고 스마트 포인터 컨테이너 깨끗 한 상태로 둡니다. 유사한 논리 지 `std::unique_lock` 사용자 지정 잠금 래퍼에 구현할 수 있습니다. 분리 된 잠금 (잠금 수 및 별칭 지정 대상, 있는 경우), 상태를 유지 동안 고유한 별칭을 유지 하는 동안 잠금 수가 0 및 별칭 대상이 없습니다. 포함 하는 래퍼 다시 설정 됩니다. 잠금 횟수 (해제 및 확보)에 작업이 없습니다. 이 주석은 처럼 정확히 `_Moves_lock_` 분리 된 인수 여야 한다는 `return` 대신 `this`합니다.|
 
 ## <a name="see-also"></a>참고 항목
 
