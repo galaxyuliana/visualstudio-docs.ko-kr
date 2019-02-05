@@ -5,17 +5,17 @@ items:
   - name: '빠른 시작: Docker용 Visual Studio Tools'
     href: docker-tools.md
   - name: 로컬 Docker 컨테이너에서 앱 디버그
-    href: ../docker/vs-azure-tools-docker-edit-and-refresh.md
+    href: vs-azure-tools-docker-edit-and-refresh.md
   - name: Visual Studio를 사용하여 컨테이너 레지스트리에 ASP.NET 컨테이너 배포
-    href: ../docker/vs-azure-tools-docker-hosting-web-apps-in-docker.md
+    href: vs-azure-tools-docker-hosting-web-apps-in-docker.md
   - name: VirtualBox를 사용하여 Docker 호스트 구성
-    href: ../docker/vs-azure-tools-docker-setup.md
+    href: vs-azure-tools-docker-setup.md
   - name: Docker 관련 Visual Studio 2017 개발 문제 해결
-    href: ../docker/vs-azure-tools-docker-troubleshooting-docker-errors.md
+    href: vs-azure-tools-docker-troubleshooting-docker-errors.md
   expanded: true
-ms.openlocfilehash: 0d476d43454bdbba18ce3dba8baffab1108e4250
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: f0cd49b9bfc857d5cf28ab4b7660074c28b9a5bd
+ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54874716"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "55701243"
