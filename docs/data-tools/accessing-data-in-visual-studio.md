@@ -11,16 +11,16 @@ helpviewer_keywords:
 - ADO.NET, data access
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 9a13efa2335cd0721b71dd61e270e5331d78dede
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7bd87013245bd1c9a28ea093433687009f9c35e8
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53936388"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484149"
 ---
 # <a name="access-data-in-visual-studio"></a>Visual Studio에서 데이터 액세스
 
@@ -28,7 +28,7 @@ Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 
 
 JavaScript, Python, PHP, Ruby 또는 c + +에서 응용 프로그램의 경우 있습니다 컴퓨터 가져오기 라이브러리 및 코드를 작성 하 여 다른 작업을 수행 하기와 같은 데이터에 연결 합니다. .NET 응용 프로그램에 대 한 Visual Studio 데이터 원본 탐색, 개체 모델을 저장 하 고 메모리에서 데이터를 조작 하 고, 사용자 인터페이스에 데이터 바인딩 만들기에 사용할 수 있는 도구를 제공 합니다. Microsoft Azure는 Azure Storage에 연결 하기 위한.NET, Java, Node.js, PHP, Python, Ruby 및 모바일 앱 및 Visual Studio의 도구에 대 한 Sdk를 제공 합니다.
 
-다음 목록에는 Visual Studio에서 사용할 수 있는 여러 데이터베이스 및 저장소 시스템의 일부에 지나지 보여 줍니다. 합니다 [Microsoft Azure](https://azure.microsoft.com/) 제품은 모든 프로 비전 및 관리의 기본 데이터 저장소를 포함 하는 데이터 서비스입니다. 합니다 **Azure 개발** 의 워크 로드가 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) Visual Studio에서 직접 Azure 데이터 저장소를 사용 하 여 사용할 수 있습니다.
+다음 목록에는 Visual Studio에서 사용할 수 있는 여러 데이터베이스 및 저장소 시스템의 일부에 지나지 보여 줍니다. 합니다 [Microsoft Azure](https://azure.microsoft.com/) 제품은 모든 프로 비전 및 관리의 기본 데이터 저장소를 포함 하는 데이터 서비스입니다. 합니다 **Azure 개발** 의 워크 로드가 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) Visual Studio에서 직접 Azure 데이터 저장소를 사용 하 여 사용할 수 있습니다.
 
 ![Azure 개발 워크로드](media/azure-development-workload.png)
 
@@ -61,7 +61,7 @@ JavaScript, Python, PHP, Ruby 또는 c + +에서 응용 프로그램의 경우 �
 - CouchDB
 - MongoDB
 - NDatabase
-- OrientDB |
+- OrientDB|
 - RavenDB
 - VelocityDB
 - 기타...

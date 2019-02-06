@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 276c2a6bc2d03bb03337404b4ae38bd0a9451fca
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0071203200cea00671743fe167ba566ece75d1b2
+ms.sourcegitcommit: 0342f99120fbd603b8f06f7e9166c39f2896827a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55029160"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "55742395"
 ---
 # <a name="idebugloadcompleteevent2"></a>IDebugLoadCompleteEvent2
 이 인터페이스는 프로그램이 로드 되 면 하지만 모든 코드가 실행 되기 전에 세션 디버그 관리자 (SDM)에 디버그 엔진 (DE)에서 전송 됩니다.  
@@ -33,10 +33,7 @@ IDebugLoadCompleteEvent2 : IUnknown
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
  DE을 만들고이 이벤트 개체는 프로그램을 성공적으로 로드 된 보고서를 보냅니다. 이벤트를 사용 하 여 전송 되는 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 디버깅 중인 프로그램에 연결할 때 SDM에서 제공 하는 콜백 함수.  
-  
-## <a name="remarks"></a>설명  
- 이 이벤트는 stopping 이벤트 이며 있어야는 `EVENT_STOPPING` 플래그가 이벤트 특성에 설정 합니다.  
-  
+   
 ## <a name="requirements"></a>요구 사항  
  헤더: msdbg.h  
   
