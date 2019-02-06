@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ea5b321169253202c397d09b9d6daac439213b55
-ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
+ms.openlocfilehash: 3fa12b878a21523e53a3ff78ad838e41eb95888f
+ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "55089213"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "55690439"
 ---
 # <a name="features-of-visual-studio-2017"></a>Visual Studio 2017의 기능
 
@@ -24,7 +24,7 @@ ms.locfileid: "55089213"
 
 Visual Studio의 모듈식 설치 관리자를 사용하면 *워크로드*를 선택하고 설치할 수 있습니다. 워크로드는 선호하는 프로그래밍 언어 또는 플랫폼에 필요한 기능의 그룹입니다. 이 전략을 통해 Visual Studio 설치에 필요한 공간을 더 작게 유지할 수 있습니다. 즉 Visual Studio를 설치하고 업데이트하는 속도도 매우 빨라집니다.
 
-아직 Visual Studio 2017을 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio 2017을 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
 
 시스템에 Visual Studio를 설치하는 방법에 대한 자세한 내용은 [Visual Studio 2017 설치](../install/install-visual-studio.md)를 참조하세요.
 

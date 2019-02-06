@@ -15,12 +15,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - cplusplus
-ms.openlocfilehash: e817302031ba2ec37102e5b3eb41a5b35460c546
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c9bdc4afb0d5f2b9f9f4ae0385b63372644929f8
+ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55029871"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "55690244"
 ---
 # <a name="tutorial-debug-c-and-c-in-the-same-debugging-session"></a>자습서: 동일한 디버깅 세션에서 C# 및 C++ 디버그
 
@@ -44,7 +44,7 @@ Visual Studio를 사용하면 혼합 모드 디버깅이라는 디버깅 세션�
 - **C++를 사용한 데스크톱 개발**
 - 만들려는 앱 형식에 따라 **.NET 데스크톱 개발** 또는 **.NET Core 플랫폼 간 개발**을 사용합니다.
 
-Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)  페이지로 이동하여 평가판을 설치합니다.
+Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)  페이지로 이동하여 평가판을 설치합니다.
 
 Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual Studio **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기**를 선택합니다. Visual Studio 설치 관리자에서 필요한 워크로드 및 **수정**을 차례로 선택합니다.
 

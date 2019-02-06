@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b825cd17c11677b95f9400b56cf42c526292e5c5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e9701497def997b96eff50b0713bc3e16a97f63d
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55026039"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55483863"
 ---
 # <a name="task-writing"></a>작업 작성
 작업은 빌드 프로세스 동안 실행되는 코드를 제공합니다. 작업은 대상에 포함되어 있습니다. 일반적인 작업의 라이브러리는 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에 포함되어 있으며 사용자 고유의 작업을 만들 수도 있습니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에 포함된 작업의 라이브러리에 대한 자세한 내용은 [작업 참조](../msbuild/msbuild-task-reference.md)를 참조하세요.  
@@ -74,14 +74,9 @@ namespace MyTasks
         public override bool Execute()  
         {  
             return true;  
-         }  
-  
-        private string myProperty;  
-        public string MyProperty  
-        {  
-            get { return myProperty; }  
-            set { myProperty = value; }  
         }  
+  
+        public string MyProperty { get; set; }
     }  
 }  
 ```  
@@ -122,12 +117,7 @@ public override bool Execute()
 ```csharp
 public class SimpleTask : ITask  
 {  
-    private IBuildEngine buildEngine;  
-    public IBuildEngine BuildEngine  
-    {  
-        get{ return buildEngine; }  
-        set{ buildEngine = value; }  
-    }  
+    public IBuildEngine BuildEngine { get; set; }
   
     public override bool Execute()  
     {  
@@ -145,19 +135,13 @@ public class SimpleTask : ITask
  작업을 실행하는 모든 프로젝트 파일이 이러한 속성의 값을 설정해야 할 수 있도록 특정 작업 속성을 "required"로 표시할 수 있습니다. 그렇지 않으면 빌드가 실패합니다. `[Required]` 특성을 다음과 같이 작업의 .NET 속성에 적용합니다.  
   
 ```csharp
-private string requiredProperty;  
-  
 [Required]  
-public string RequiredProperty  
-{  
-    get { return requiredProperty; }  
-    set { requiredProperty = value; }  
-}  
+public string RequiredProperty { get; set; }
 ```  
   
  `[Required]` 특성은 <xref:Microsoft.Build.Framework> 네임스페이스에서 <xref:Microsoft.Build.Framework.RequiredAttribute>로 정의됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  다음 [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 클래스는 <xref:Microsoft.Build.Utilities.Task> 도우미 클래스에서 파생되는 작업을 보여 줍니다. 이 작업은 성공했음을 나타내는 `true`를 반환합니다.  
@@ -181,7 +165,7 @@ namespace SimpleTask1
 }  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  다음 [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 클래스는 <xref:Microsoft.Build.Framework.ITask> 인터페이스를 구현하는 작업을 보여 줍니다. 이 작업은 성공했음을 나타내는 `true`를 반환합니다.  
@@ -200,35 +184,12 @@ namespace SimpleTask2
         //implement a BuildEngine property of type  
         //Microsoft.Build.Framework.IBuildEngine. This is done for  
         //you if you derive from the Task class.  
-        private IBuildEngine buildEngine;  
-        public IBuildEngine BuildEngine  
-        {  
-            get  
-            {  
-                return buildEngine;  
-            }  
-            set  
-            {  
-                buildEngine = value;  
-            }  
-         }  
+        public IBuildEngine BuildEngine { get; set; }
   
         // When implementing the ITask interface, it is necessary to  
-        // implement a HostObject property of type Object.  
+        // implement a HostObject property of type object.  
         // This is done for you if you derive from the Task class.  
-        private Object hostObject;  
-        public Object HostObject  
-        {  
-            get  
-            {  
-                return hostObject;  
-            }  
-  
-            set  
-            {  
-                hostObject = value;  
-            }  
-        }  
+        public object HostObject { get; set; }
   
         public bool Execute()  
         {  
@@ -239,7 +200,7 @@ namespace SimpleTask2
 }  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  이 [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 클래스는 <xref:Microsoft.Build.Utilities.Task> 도우미 클래스에서 파생되는 작업을 보여 줍니다. 필수 문자열 속성이 있으며 등록된 모든 로거로 표시되는 이벤트를 발생시킵니다.  
@@ -247,7 +208,7 @@ namespace SimpleTask2
 ### <a name="code"></a>코드  
  [!code-csharp[msbuild_SimpleTask3#1](../msbuild/codesnippet/CSharp/task-writing_1.cs)]  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 이전 예제 작업, SimpleTask3을 호출하는 프로젝트 파일을 보여 줍니다.  

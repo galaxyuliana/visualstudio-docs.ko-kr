@@ -13,18 +13,18 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 890bec08c29491bbd867c9c8380172cced71d2fe
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b00cf69a949dcd5ad73120c9ce1fccb2b7af9040
+ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54985710"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "55690371"
 ---
 # <a name="how-to-distribute-code-snippets"></a>방법: 코드 조각 배포
 
 친구에게 코드 조각을 제공하고 **코드 조각 관리자**를 사용하여 고유한 컴퓨터에 코드 조각을 설치하면 됩니다. 그러나 배포할 코드 조각이 여러 개이거나 더 광범위하게 배포하려는 경우 Visual Studio 확장에 코드 조각 파일을 포함합니다. 그런 다음, Visual Studio 사용자는 확장을 설치할 수 있습니다.
 
-Visual Studio 확장을 만들려면 Visual Studio SDK를 설치해야 합니다. [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)에서 사용 중인 Visual Studio와 일치하는 VSSDK 버전을 찾습니다.
+Visual Studio 확장을 만들려면 Visual Studio SDK를 설치해야 합니다. [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)에서 사용 중인 Visual Studio와 일치하는 VSSDK 버전을 찾습니다.
 
 ## <a name="set-up-the-extension"></a>확장 설정
 

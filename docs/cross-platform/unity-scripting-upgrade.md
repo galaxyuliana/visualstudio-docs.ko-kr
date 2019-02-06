@@ -8,12 +8,12 @@ ms.assetid: E2C9420F-A5D5-4472-9020-2B63FB27A133
 ms.technology: vs-unity-tools
 ms.workload:
 - unity
-ms.openlocfilehash: 294f3efe5e541a316a8bb90da07d75e9319e7983
-ms.sourcegitcommit: 5c049194fa256b876ad303f491af11edd505756c
+ms.openlocfilehash: 09fede64aee943d7c3160a5e9be449752d4f2c68
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53027376"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484214"
 ---
 # <a name="using-net-4x-in-unity"></a>Unity에서 .NET 4.x 사용
 
@@ -24,7 +24,7 @@ Unity 2017.1의 릴리스부터 Unity는 NET 4.6 C# 6 호환 버전으로 업그
 ## <a name="prerequisites"></a>전제 조건
 
 * [Unity 2017.1 이상](https://unity3d.com/)(2018.2 권장)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
+* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)
 
 ## <a name="enabling-the-net-4x-scripting-runtime-in-unity"></a>Unity에서.NET 4.x 스크립팅 런타임 사용
 
@@ -181,9 +181,9 @@ public string PlayerHealthUiText => $"Player health: {Health}";
 
 ### <a name="task-based-asynchronous-pattern-tap"></a>TAP(작업 기반 비동기 패턴)
 
-[비동기 프로그래밍](https://docs.microsoft.com/dotnet/csharp/async)을 사용하면 응용 프로그램이 응답하지 않는 시간이 오래 걸리는 작업을 수행할 수 있습니다. 또한 이 기능을 사용하면 시간이 많이 소요되는 작업이 완료될 때까지 코드를 기다렸다가 이러한 작업의 결과에 따라 코드를 계속 사용할 수 있습니다. 예를 들어 파일이 로드되거나 네트워크 작업이 완료될 때까지 기다릴 수 있습니다.
+[비동기 프로그래밍](https://docs.microsoft.com/dotnet/csharp/async)을 사용하면 애플리케이션이 응답하지 않는 시간이 오래 걸리는 작업을 수행할 수 있습니다. 또한 이 기능을 사용하면 시간이 많이 소요되는 작업이 완료될 때까지 코드를 기다렸다가 이러한 작업의 결과에 따라 코드를 계속 사용할 수 있습니다. 예를 들어 파일이 로드되거나 네트워크 작업이 완료될 때까지 기다릴 수 있습니다.
 
-Unity에서 비동기 프로그래밍은 일반적으로 [코루틴](https://docs.unity3d.com/Manual/Coroutines.html)을 사용하여 수행됩니다. 그러나 C# 5 이후부터 .NET 개발에서 비동기 프로그래밍의 기본 방법은 [ System.Threading.Task](https://docs.microsoft.com/dotnet/api/system.threading.tasks.task)와 함께 `async` 및 `await` 키워드를 사용하는 [TAP(작업 기반 비동기 패턴)](https://docs.microsoft.com/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap)입니다. 요약하면 `async` 함수에서 나머지 응용 프로그램의 업데이트를 차단하지 않고 `await` 작업의 완료가 가능합니다.
+Unity에서 비동기 프로그래밍은 일반적으로 [코루틴](https://docs.unity3d.com/Manual/Coroutines.html)을 사용하여 수행됩니다. 그러나 C# 5 이후부터 .NET 개발에서 비동기 프로그래밍의 기본 방법은 [ System.Threading.Task](https://docs.microsoft.com/dotnet/api/system.threading.tasks.task)와 함께 `async` 및 `await` 키워드를 사용하는 [TAP(작업 기반 비동기 패턴)](https://docs.microsoft.com/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap)입니다. 요약하면 `async` 함수에서 나머지 애플리케이션의 업데이트를 차단하지 않고 `await` 작업의 완료가 가능합니다.
 
 ```csharp
 // Unity coroutine

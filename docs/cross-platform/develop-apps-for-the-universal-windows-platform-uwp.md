@@ -10,12 +10,12 @@ ms.author: shoag
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: cf58ea2ada658f7a1548ed81c875b19d33f81a91
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5fc9378b08db39d26ad491aa8cb213e89e6fa493
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54981696"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55483798"
 ---
 # <a name="develop-apps-for-the-universal-windows-platform-uwp"></a>UWP(유니버설 Windows 플랫폼)용 앱 개발
 유니버설 Windows 플랫폼과 단일 Windows 코어를 사용하여 휴대폰에서 데스크톱에 이르는 모든 Windows 10 디바이스에서 동일한 앱을 실행할 수 있습니다. Visual Studio 및 유니버설 Windows 앱 개발 도구를 사용하여 이러한 유니버설 Windows 앱을 만듭니다.
@@ -39,7 +39,7 @@ ms.locfileid: "54981696"
 
 -   [Windows 10](http://windows.microsoft.com/windows/downloads) - Visual Studio 2017은 Windows 10에서만 UWP 개발을 지원합니다. 자세한 내용은 Visual Studio [플랫폼 대상 지정](/visualstudio/productinfo/vs2017-compatibility-vs) 및 [시스템 요구 사항](/visualstudio/productinfo/vs2017-system-requirements-vs)을 참조하세요.
 
--   [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) - 선택적인 유니버설 Windows 플랫폼 개발 워크로드도 필요합니다.
+-   [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) - 선택적인 유니버설 Windows 플랫폼 개발 워크로드도 필요합니다.
 
      ![UWP 워크로드](media/uwp_workload.png)
 

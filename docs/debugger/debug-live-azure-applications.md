@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 5c21fbbee529cc67f31df98f4a441fdefa3bae6f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f0936078039c4c1071f0214b61702a7f57f794ec
+ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55020115"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "55690194"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure 앱 디버그
 
@@ -37,7 +37,7 @@ Snappoint 및 logpoint 중단점, 유사 하지만 중단점과 달리 snappoint
 
 * 스냅숏 디버거는 Visual Studio 2017 Enterprise 버전 15.5 이상을 사용할 수는 **Azure 개발 워크 로드**합니다. (아래 합니다 **개별 구성 요소** 를 탭 하면 아래에서 찾을 **디버깅 및 테스트** > **스냅숏 디버거**.)
 
-    설치 되어 있지 않은 경우 설치할 [Visual Studio 2017 Enterprise 버전 15.5](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) 이상. 이전 Visual Studio 2017 설치에서를 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 스냅숏 디버거 구성 요소를 확인 합니다 **ASP.NET 및 웹 개발 워크 로드**합니다.
+    설치 되어 있지 않은 경우 설치할 [Visual Studio 2017 Enterprise 버전 15.5](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 이상. 이전 Visual Studio 2017 설치에서를 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 스냅숏 디버거 구성 요소를 확인 합니다 **ASP.NET 및 웹 개발 워크 로드**합니다.
 
 * 기본 또는 그 이상의 Azure App Service 계획입니다.
 
