@@ -14,16 +14,16 @@ ms.prod: visual-studio-dev15
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: eb7059f5a0ecaf07858e6a24b62296383494725c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9f59f1038226d34b15310ac09b6b34706c36c342
+ms.sourcegitcommit: 0342f99120fbd603b8f06f7e9166c39f2896827a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54979558"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "55742478"
 ---
 # <a name="walkthrough-create-a-custom-text-template-host"></a>연습: 사용자 지정 텍스트 템플릿 호스트 만들기
 
-*텍스트 템플릿을*<em>호스트</em> 수 있는 환경을 제공 합니다 *텍스트 템플릿 변환 엔진* 실행 합니다. 호스트는 파일 시스템과 엔진의 상호 작용을 관리합니다. 엔진 또는 *지시문 프로세서* 해야 하는 파일 또는 어셈블리 호스트에서 리소스를 요청할 수 있습니다. 그러면 호스트는 디렉터리와 전역 어셈블리 캐시를 검색하여 요청된 리소스를 찾을 수 있습니다. 자세한 내용은 [은 텍스트 템플릿 변형 프로세스](../modeling/the-text-template-transformation-process.md)합니다.
+A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니다 *텍스트 템플릿 변환 엔진* 실행 합니다. 호스트는 파일 시스템과 엔진의 상호 작용을 관리합니다. 엔진 또는 *지시문 프로세서* 해야 하는 파일 또는 어셈블리 호스트에서 리소스를 요청할 수 있습니다. 그러면 호스트는 디렉터리와 전역 어셈블리 캐시를 검색하여 요청된 리소스를 찾을 수 있습니다. 자세한 내용은 [은 텍스트 템플릿 변형 프로세스](../modeling/the-text-template-transformation-process.md)합니다.
 
 사용 하려는 경우 사용자 지정 호스트를 작성할 수 있습니다 합니다 *텍스트 템플릿 변환* Visual Studio 외부 또는 사용자 지정 도구에 통합 하려는 경우 기능입니다. 사용자 지정 호스트를 만들려면 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>에서 상속되는 클래스를 만들어야 합니다. 개별 메서드에 대한 문서를 보려면 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>를 참조하십시오.
 

@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3545c01564a6128612d3c587df767560b59b1a49
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 10acf356ccfc790f9dd6a185c12a6ec5c26cccd3
+ms.sourcegitcommit: 0342f99120fbd603b8f06f7e9166c39f2896827a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54943515"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "55742481"
 ---
 # <a name="extend-the-output-window"></a>출력 창 확장
 합니다 **출력** 창 집합이 읽기/쓰기 텍스트 창이 있습니다. Visual Studio에 기본 제공 이러한 창이 있습니다. **빌드**는 프로젝트에서 빌드에 대 한 메시지를 통신 하 고 **일반**는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE에 대 한 메시지를 통신 합니다. 프로젝트에 대 한 참조를 가져올는 **빌드** 창을 통해 자동으로 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> 인터페이스 메서드 및 Visual Studio에 대 한 직접 액세스를 제공 합니다 **일반** 통해 창을 <xref:Microsoft.VisualStudio.Shell.Interop.SVsGeneralOutputWindowPane> 서비스입니다. 기본 제공 창 외에도 있습니다 만들고 관리할 수 있습니다 사용자 고유의 사용자 지정 창입니다.  
@@ -115,7 +115,7 @@ void CreatePane(string title)
     catch (ArgumentException)  
     {  
         // Create a new pane and write to it.  
-        return panes.Add(title);  
+        panes.Add(title);  
     }  
 }  
 ```  
