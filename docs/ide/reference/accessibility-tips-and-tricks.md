@@ -12,12 +12,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6451b45f8bb98232ea0c3a1b3cb96d37cf303ccc
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 90a9ba0da2ee8c77b66d147c9af5fa560f50f3a0
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55010391"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484136"
 ---
 # <a name="accessibility-tips-and-tricks-for-visual-studio"></a>Visual Studio의 내게 필요한 옵션 팁과 요령
 
@@ -41,7 +41,7 @@ Visual Studio에는 화면 판독기 및 기타 보조 기술과 호환되는 �
 
 ## <a name="use-annotations-to-reveal-useful-information-about-your-code"></a>주석을 사용하여 코드에 대한 유용한 정보 노출
 
-Visual Studio 편집기에는 코드 줄에서 특정 시점에 특성 및 기능에 대해 알려주는 여러 텍스트 "도구 영역"(전구, 오류 및 경고 "물결선", 책갈피 등)이 포함되어 있습니다. "줄 주석 표시" 명령을 사용하여 이러한 도구 영역 간을 검색하고 탐색할 수 있도록 설정할 수 있습니다.
+Visual Studio 편집기에는 스크루드라이버와 전구 아이콘, 오류 및 경고 "물결선", 책갈피 등과 같은 코드 줄에서 특정 시점에 특성 및 기능에 대해 알려주는 여러 텍스트 "도구 영역"이 포함되어 있습니다. "줄 주석 표시" 명령을 사용하여 이러한 도구 영역 간을 검색한 다음, 탐색할 수 있도록 설정할 수 있습니다.
 
   ![줄 주석 표시 명령 집합 사용](media/show-line-annotations-command-set.png)
 

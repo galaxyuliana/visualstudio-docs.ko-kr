@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 115ffb5c22b45a8cdae1f404556d9aab3ed38bad
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2e90993a6600adaa7f14242289ecb91cf2e74634
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54964615"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484110"
 ---
 # <a name="walkthrough-test-first-development-with-the-generate-from-usage-feature"></a>연습: 관례에서 생성 기능을 통한 테스트 우선 개발
 
@@ -64,7 +64,7 @@ ms.locfileid: "54964615"
    > [!NOTE]
    >  이제 IntelliSense는 IntelliSense 문 완성을 위해 *완성 모드* 및 *제안 모드*라는 두 가지 대안을 제공합니다. 클래스 및 멤버를 정의하기 전에 사용하는 경우에는 제안 모드를 사용합니다. **IntelliSense** 창이 열려 있으면 **Ctrl**+**Alt**+**스페이스**를 눌러 완성 모드와 제안 모드 간을 전환할 수 있습니다. 자세한 내용은 [IntelliSense 사용](../ide/using-intellisense.md)을 참조하세요. 제안 모드는 다음 단계에서 `Automobile` 을 입력할 때 도움이 됩니다.
 
-3. `TestMethod1()` 메서드를 찾아서 이름을 `DefaultAutomobileIsInitializedCorrectly()`로 바꿉니다. 이 메서드 내에서 다음 스크린샷과 같이 `Automobile`이라는 클래스의 새 인스턴스를 만듭니다. 컴파일 타임 오류를 나타내는 물결선이 표시되고 왼쪽 여백(C#에만 해당) 또는 가리키는 경우 오류 표시선 바로 아래에 [빠른 작업](../ide/quick-actions.md) 전구가 나타납니다.
+3. `TestMethod1()` 메서드를 찾아서 이름을 `DefaultAutomobileIsInitializedCorrectly()`로 바꿉니다. 이 메서드 내에서 다음 스크린샷과 같이 `Automobile`이라는 클래스의 새 인스턴스를 만듭니다. 컴파일 타임 오류를 나타내는 물결선이 표시되고 왼쪽 여백 또는 마우스로 가리키는 경우 오류 표시선 바로 아래에 [빠른 작업](../ide/quick-actions.md) 오류 전구가 나타납니다.
 
     ![Visual Basic의 빠른 작업](../ide/media/genclass_underlinevb.png)
 
@@ -90,7 +90,7 @@ ms.locfileid: "54964615"
      [!code-csharp[VbTDDWalkthrough#1](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_1.cs)]
      [!code-vb[VbTDDWalkthrough#1](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_1.vb)]
 
-2. 코드에서 두 개의 정의되지 않은 `Automobile`속성을 참조하기 때문에 `Model` 및 `TopSpeed` 아래에 물결선이 나타납니다. `Model` 위로 마우스를 가져가고 **빠른 작업** 전구를 선택한 다음, **속성 'Automobile.Model' 생성**을 선택합니다.
+2. 코드에서 두 개의 정의되지 않은 `Automobile`속성을 참조하기 때문에 `Model` 및 `TopSpeed` 아래에 물결선이 나타납니다. `Model` 위로 마우스를 가져가고 **빠른 작업** 오류 전구를 선택한 다음, **속성 'Automobile.Model' 생성**을 선택합니다.
 
 3. 동일한 방식으로 `TopSpeed` 속성에 대한 속성 스텁을 생성합니다.
 
@@ -104,12 +104,12 @@ ms.locfileid: "54964615"
      [!code-csharp[VbTDDWalkthrough#2](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.cs)]
      [!code-vb[VbTDDWalkthrough#2](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.vb)]
 
-2.  빨간색 물결선 아래의 **빠른 작업** 전구를 클릭한 다음, **'Automobile'에서 생성자 생성**을 클릭합니다.
+2.  빨간색 물결선 아래의 **빠른 작업** 오류 전구를 클릭한 다음, **'Automobile'에서 생성자 생성**을 클릭합니다.
 
      `Automobile` 클래스 파일에서 새로운 생성자가 생성자 호출에 사용되는 지역 변수의 이름을 검사하고 `Automobile` 클래스에서 동일한 이름을 가진 속성을 찾고 `Model` 및 `TopSpeed` 속성에 인수 값을 저장하는 코드를 생성자 본문에 제공한 것을 확인합니다.
 
 
-3.  새로운 생성자를 생성하면 `DefaultAutomobileIsInitializedCorrectly`의 기본 생성자 호출 아래에 물결선이 표시됩니다. `Automobile` 클래스에 인수를 사용하지 않는 생성자가 없다는 오류 메시지가 나타납니다. 매개 변수가 없는 명시적 기본 생성자를 생성하려면 **빠른 작업** 전구를 클릭한 다음, **'Automobile'에서 생성자 생성**을 클릭합니다.
+3.  새로운 생성자를 생성하면 `DefaultAutomobileIsInitializedCorrectly`의 기본 생성자 호출 아래에 물결선이 표시됩니다. `Automobile` 클래스에 인수를 사용하지 않는 생성자가 없다는 오류 메시지가 나타납니다. 매개 변수가 없는 명시적 기본 생성자를 생성하려면 **빠른 작업** 오류 전구를 클릭한 다음, **'Automobile'에서 생성자 생성**을 클릭합니다.
 
 ### <a name="generate-a-stub-for-a-method"></a>메서드에 대한 스텁 생성
 `Model` 및 `TopSpeed` 속성이 기본값이 아닌 다른 값으로 설정된 경우 사양에 따라 새 `Automobile`을 `IsRunning` 상태로 전환할 수 있다고 가정합니다.
@@ -119,7 +119,7 @@ ms.locfileid: "54964615"
      [!code-csharp[VbTDDWalkthrough#3](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_3.cs)]
      [!code-vb[VbTDDWalkthrough#3](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_3.vb)]
 
-2.  `myAuto.Start` 메서드 호출에 대한 **빠른 작업** 전구를 클릭한 다음, **메서드 'Automobile.Start' 생성**을 클릭합니다.
+2.  `myAuto.Start` 메서드 호출에 대한 **빠른 작업** 오류 전구를 클릭한 다음, **메서드 'Automobile.Start' 생성**을 클릭합니다.
 
 3.  `IsRunning` 속성에 대한 **빠른 작업** 전구를 클릭한 다음, **속성 'Automobile.IsRunning' 생성**을 클릭합니다.
 

@@ -1,6 +1,6 @@
-# <a name="visual-studio-2017-documentation"></a>Visual Studio 2017 설명서
+# <a name="visual-studio-documentation"></a>Visual Studio 설명서
 
-환영합니다. 이 리포지토리는 Visual Studio 2017 기술 문서의 소스 파일을 포함합니다. 항목은 [docs.microsoft.com](https://docs.microsoft.com/visualstudio)에 게시됩니다.
+환영합니다. 이 리포지토리는 Visual Studio 기술 문서의 원본 파일을 포함합니다. 항목은 [docs.microsoft.com](https://docs.microsoft.com/visualstudio)에 게시됩니다.
 
 이 리포지토리는 2017년 6월 23일에 https://github.com/Microsoft/vsdocs 에서 이동되었습니다. 이전 URL에 대한 트래픽이 여기로 리디렉션됩니다.
 

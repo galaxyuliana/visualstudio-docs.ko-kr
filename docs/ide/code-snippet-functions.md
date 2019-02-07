@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d448111a9bac5d03fe3bc8e7ba35c0f9fed1d4a6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d4e09602ed62e21a4a5a80a8e6fee301eef30512
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55020466"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55483720"
 ---
 # <a name="code-snippet-functions"></a>코드 조각 함수
 
@@ -30,11 +30,11 @@ ms.locfileid: "55020466"
 
 |함수|설명|언어|
 |--------------|-----------------|--------------|
-|`GenerateSwitchCases(` `EnumerationLiteral` `)`|`EnumerationLiteral` 매개 변수로 지정된 열거형 멤버에 대한 switch 문과 case 문 집합을 생성합니다. `EnumerationLiteral` 매개 변수는 열거형 리터럴 또는 열거형 형식에 대한 참조여야 합니다.|C#|
+|`GenerateSwitchCases(EnumerationLiteral)`|`EnumerationLiteral` 매개 변수로 지정된 열거형 멤버에 대한 switch 문과 case 문 집합을 생성합니다. `EnumerationLiteral` 매개 변수는 열거형 리터럴 또는 열거형 형식에 대한 참조여야 합니다.|C#|
 |`ClassName()`|삽입된 코드 조각을 포함하는 클래스의 이름을 반환합니다.|C#|
-|`SimpleTypeName(` `TypeName` `)`|*TypeName* 매개 변수를 코드 조각이 호출되는 컨텍스트에서 가장 단순한 형태로 줄입니다.|C#|
+|`SimpleTypeName(TypeName)`|*TypeName* 매개 변수를 코드 조각이 호출되는 컨텍스트에서 가장 단순한 형태로 줄입니다.|C#|
 
-## <a name="example"></a>예제
+## <a name="generateswitchcases-example"></a>GenerateSwitchCases 예제
 
 다음 예제에서는 `GenerateSwitchCases` 함수를 사용하는 방법을 보여 줍니다. 이 코드 조각이 삽입되고 열거형이 `$switch_on$` 리터럴에 입력되면 `$cases$` 리터럴은 열거형의 모든 값에 대해 `case` 문을 생성합니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "55020466"
 </CodeSnippets>
 ```
 
-## <a name="example"></a>예제
+## <a name="classname-example"></a>ClassName 예제
 
 다음 예제에서는 `ClassName` 함수를 사용하는 방법을 보여 줍니다. 이 코드 조각이 삽입되면 `$classname$` 리터럴은 코드 파일의 해당 위치에 있는 바깥쪽 클래스의 이름으로 바뀝니다.
 
@@ -123,7 +123,7 @@ ms.locfileid: "55020466"
 </CodeSnippets>
 ```
 
-## <a name="example"></a>예제
+## <a name="simpletypename-example"></a>SimpleTypeName 예제
 
 이 예제는 `SimpleTypeName` 함수를 사용하는 방법을 보여 줍니다. 이 코드 조각이 코드 파일에 삽입되면 코드 조각이 호출된 컨텍스트에서 `$SystemConsole$` 리터럴이 가장 간단한 형태의 <xref:System.Console> 형식으로 바뀝니다.
 

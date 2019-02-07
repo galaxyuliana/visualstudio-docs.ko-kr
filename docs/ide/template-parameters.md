@@ -11,18 +11,18 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6c46c0094985e8b84e546ef64fbdd268689c5296
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: cd80a7d29ae62cac691775e85cc432ac65a6eded
+ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54935022"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55424449"
 ---
 # <a name="template-parameters"></a>템플릿 매개 변수
 
 템플릿이 인스턴스화될 때 템플릿에서 값을 바꿀 수 있습니다. 이 기능을 설정하려면 *템플릿 매개 변수*를 사용합니다. 템플릿 매개 변수는 템플릿에서 클래스 이름 및 네임 스페이스 같은 값을 바꾸는 데 사용할 수 있습니다. 사용자가 새 항목을 추가하거나 프로젝트가 이러한 매개 변수를 바꾸는 경우 백그라운드에서 실행되는 템플릿 마법사입니다.
 
-## <a name="declaring-and-enabling-template-parameters"></a>템플릿 매개 변수 선언 및 사용
+## <a name="declare-and-enable-template-parameters"></a>템플릿 매개 변수 선언 및 사용
 
 템플릿 매개 변수는 $*매개 변수*$ 형식으로 선언됩니다. 예:
 
@@ -32,7 +32,7 @@ ms.locfileid: "54935022"
 
 - $guid5$
 
-### <a name="to-enable-parameter-substitution-in-templates"></a>템플릿에서 매개 변수 대체를 사용하려면
+### <a name="enable-parameter-substitution-in-templates"></a>템플릿에서 매개 변수 대체 사용
 
 1. 템플릿의 *.vstemplate* 파일에서 매개 변수 대체를 활성화하려는 항목에 해당하는 `ProjectItem` 요소를 찾습니다.
 
@@ -51,6 +51,7 @@ ms.locfileid: "54935022"
 |매개 변수|설명|
 |---------------|-----------------|
 |clrversion|CLR(공용 언어 런타임)의 현재 버전입니다.|
+|ext_*|부모 템플릿의 변수를 참조하는 매개 변수에 `ext_` 접두사를 추가합니다. 예를 들어 `ext_safeprojectname`과 같은 형식입니다.|
 |guid[1-10]|프로젝트 파일에서 프로젝트 GUID를 대체하는 데 사용되는 GUID입니다. 최대 10개의 고유 GUID를 지정할 수 있습니다(예: `guid1`).|
 |itemname|**새 항목 추가** 대화 상자에서 사용자가 제공한 이름입니다.|
 |machinename|현재 컴퓨터 이름(예: Computer01)입니다.|
@@ -118,6 +119,7 @@ namespace $safeprojectname$
 
 ## <a name="see-also"></a>참고 항목
 
+- [방법: 템플릿의 매개 변수 대체](how-to-substitute-parameters-in-a-template.md)
 - [템플릿 사용자 지정](../ide/customizing-project-and-item-templates.md)
 - [방법: 프로젝트 템플릿 만들기](../ide/how-to-create-project-templates.md)
 - [템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)

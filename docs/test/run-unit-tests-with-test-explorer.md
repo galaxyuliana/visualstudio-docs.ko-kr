@@ -1,22 +1,22 @@
 ---
-title: 테스트 탐색기를 사용하여 단위 테스트 실행, 빌드 및 디버그
+title: 테스트 탐색기를 사용하여 단위 테스트 실행 및 디버그
 description: Visual Studio에서 테스트 탐색기를 사용하여 테스트를 실행하는 방법을 알아봅니다. 이 항목에서는 빌드 후 자동 테스트 실행을 사용하도록 설정하고, 테스트 결과를 보고, 테스트 목록을 그룹화 및 필터링하고, 재생 목록을 만들고, 테스트 를 디버그하고, 테스트 바로 가기를 사용하는 방법을 설명합니다.
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - vs.unittesting.testexplorer.overview
+author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-author: gewarren
-ms.openlocfilehash: fd829083cc86d16dd01186bd848c6bc29c062ef5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9f7c7e1f5dbe45f9792c1db4afbfbc151a9a2e26
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000313"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484162"
 ---
 # <a name="run-unit-tests-with-test-explorer"></a>테스트 탐색기를 사용하여 단위 테스트 실행
 
@@ -58,6 +58,9 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 |-|-|
 |![빌드 후 실행](../test/media/ute_runafterbuild_btn.png)|각 로컬 빌드 후에 단위 테스트를 실행하려면 표준 메뉴에서 **테스트**를 선택한 다음, **테스트 탐색기** 도구 모음에서 **빌드 후 테스트 실행**을 선택합니다.|
 
+> [!NOTE]
+> 각 빌드 후에 단위 테스트를 실행하려면 Visual Studio Enterprise 버전이 필요합니다.
+
 ## <a name="view-test-results"></a>테스트 결과 보기
 
 테스트를 실행하고 작성하고 다시 실행하면 테스트 탐색기는 **실패한 테스트**, **통과한 테스트**, **건너뛴 테스트** 및 **실행하지 않은 테스트**의 그룹에 결과를 표시합니다. 테스트 탐색기 아래쪽의 세부 정보 창에 테스트 실행에 대한 요약이 표시됩니다.
@@ -84,7 +87,7 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 
 ### <a name="view-the-source-code-of-a-test-method"></a>테스트 메서드의 소스 코드 보기
 
- Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하려면 테스트를 선택한 다음, 오른쪽 클릭 메뉴에서 **테스트 열기**(키보드: **F12**)를 선택합니다.
+Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하려면 테스트를 선택한 다음, 오른쪽 클릭 메뉴에서 **테스트 열기**(키보드: **F12**)를 선택합니다.
 
 ## <a name="group-and-filter-the-test-list"></a>테스트 목록 그룹화 및 필터링
 
@@ -92,9 +95,9 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 
 ### <a name="group-tests-in-the-test-list"></a>테스트 목록에서 테스트 그룹화
 
- 테스트 구성 방식을 변경하려면 **그룹화 방법** 단추 ![테스트 탐색기 그룹 단추](../test/media/ute_groupby_btn.png) 옆에 있는 아래쪽 화살표를 선택하고 새 그룹화 기준을 선택합니다.
+테스트 구성 방식을 변경하려면 **그룹화 방법** 단추 ![테스트 탐색기 그룹 단추](../test/media/ute_groupby_btn.png) 옆에 있는 아래쪽 화살표를 선택하고 새 그룹화 기준을 선택합니다.
 
- ![테스트 탐색기에서 범주별로 테스트 그룹화](../test/media/ute_groupbycategory.png)
+![테스트 탐색기에서 범주별로 테스트 그룹화](../test/media/ute_groupbycategory.png)
 
 ### <a name="test-explorer-groups"></a>테스트 탐색기 그룹
 
@@ -107,11 +110,11 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 
 ### <a name="group-by-traits"></a>특성(trait)별 그룹화
 
- 특성(trait)은 일반적으로 범주 이름/값 쌍이지만 단일 범주일 수도 있습니다. 특성(trait)은 단위 테스트 프레임워크에서 테스트 메서드로 식별하는 메서드에 할당할 수 있습니다. 단위 테스트 프레임워크는 특성(trait) 범주를 정의할 수 있습니다. 특성(trait) 범주에 고유한 범주 이름/값 쌍을 정의하는 값을 추가할 수 있습니다. 특성(trait) 범주 및 값을 지정하는 구문은 단위 테스트 프레임워크에 의해 정의됩니다.
+특성(trait)은 일반적으로 범주 이름/값 쌍이지만 단일 범주일 수도 있습니다. 특성(trait)은 단위 테스트 프레임워크에서 테스트 메서드로 식별하는 메서드에 할당할 수 있습니다. 단위 테스트 프레임워크는 특성(trait) 범주를 정의할 수 있습니다. 특성(trait) 범주에 고유한 범주 이름/값 쌍을 정의하는 값을 추가할 수 있습니다. 특성(trait) 범주 및 값을 지정하는 구문은 단위 테스트 프레임워크에 의해 정의됩니다.
 
- **Microsoft 단위 테스트 프레임워크의 관리 코드 관련 특성(trait)**
+**Microsoft 단위 테스트 프레임워크의 관리 코드 관련 특성(trait)**
 
- 관리되는 앱에 대한 Microsoft 단위 테스트 프레임워크에서 특성(trait) 이름/값 쌍을  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> 특성에 정의합니다. 테스트 프레임워크에는 다음과 같은 미리 정의된 특성(trait)이 있습니다.
+관리되는 앱에 대한 Microsoft 단위 테스트 프레임워크에서 특성(trait) 이름/값 쌍을  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> 특성에 정의합니다. 테스트 프레임워크에는 다음과 같은 미리 정의된 특성(trait)이 있습니다.
 
 |특성|설명|
 |-|-----------------|
@@ -120,7 +123,9 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|TestCategory 특성을 사용하면 값이 없는 범주를 제공할 수 있습니다. TestCategory 특성으로 정의된 범주는 TestProperty 특성의 범주도 될 수 있습니다.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|TestProperty 특성을 사용하여 특성(trait) 범주/값 쌍을 정의할 수 있습니다.|
 
- **C++용 Microsoft 단위 테스트 프레임워크 특성(trait)** 에 대해서는 [C++용 Microsoft 단위 테스트 프레임워크 사용 방법](how-to-use-microsoft-test-framework-for-cpp.md)을 참조합니다.
+**Microsoft 단위 테스트 프레임워크의 C++ 관련 특성(trait)**
+
+ [Microsoft Unit Testing Framework for C++ 사용 방법](how-to-use-microsoft-test-framework-for-cpp.md)을 참조하세요.
 
 ### <a name="search-and-filter-the-test-list"></a>테스트 목록 검색 및 필터링
 
@@ -161,21 +166,19 @@ FilterName:"Criteria" -FilterName:"SubsetCriteria"
 
 ## <a name="create-custom-playlists"></a>사용자 지정 재생 목록 만들기
 
- 실행하거나 그룹으로 보려는 테스트 목록을 만들어 저장할 수 있습니다. 재생 목록을 선택하면 목록의 테스트가 테스트 탐색기에 표시됩니다. 두 개 이상의 재생 목록에 테스트를 추가할 수 있으며 기본 재생 목록인 **모든 테스트** 를 선택하면 프로젝트의 모든 테스트를 사용할 수 있습니다.
+실행하거나 그룹으로 보려는 테스트 목록을 만들어 저장할 수 있습니다. 재생 목록을 선택하면 목록의 테스트가 테스트 탐색기에 표시됩니다. 두 개 이상의 재생 목록에 테스트를 추가할 수 있으며 기본 재생 목록인 **모든 테스트** 를 선택하면 프로젝트의 모든 테스트를 사용할 수 있습니다.
 
- ![재생 목록 선택](../test/media/ute_playlist.png)
+![재생 목록 선택](../test/media/ute_playlist.png)
 
- **재생 목록을 만들려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 오른쪽 클릭 메뉴에서 **재생 목록에 추가** > **새 재생 목록**을 선택합니다. **새 재생 목록 만들기** 대화 상자에서 지정한 이름과 위치를 사용해 파일을 저장합니다.
+**재생 목록을 만들려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 오른쪽 클릭 메뉴에서 **재생 목록에 추가** > **새 재생 목록**을 선택합니다. **새 재생 목록 만들기** 대화 상자에서 지정한 이름과 위치를 사용해 파일을 저장합니다.
 
- **재생 목록에 테스트를 추가하려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 오른쪽 클릭 메뉴에서 **재생 목록에 추가**를 선택한 후 테스트를 추가할 재생 목록을 선택합니다.
+**재생 목록에 테스트를 추가하려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 오른쪽 클릭 메뉴에서 **재생 목록에 추가**를 선택한 후 테스트를 추가할 재생 목록을 선택합니다.
 
- **재생 목록을 열려면**Visual Studio 메뉴에서 **테스트** > **재생 목록**을 선택하고 최근에 사용한 재생 목록 중에서 선택하거나, **재생 목록 열기**를 선택하여 재생 목록의 이름과 위치를 지정합니다.
+**재생 목록을 열려면**Visual Studio 메뉴에서 **테스트** > **재생 목록**을 선택하고 최근에 사용한 재생 목록 중에서 선택하거나, **재생 목록 열기**를 선택하여 재생 목록의 이름과 위치를 지정합니다.
 
- 개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
+개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
 
 ## <a name="debug-and-analyze-unit-tests"></a>단위 테스트 디버그 및 분석
-
-### <a name="debug-unit-tests"></a>단위 테스트 디버그
 
 테스트 탐색기를 사용하여 테스트에 대한 디버깅 세션을 시작할 수 있습니다. Visual Studio 디버거에서 코드를 단계별로 실행하면 단위 테스트 및 테스트 중인 프로젝트 간을 앞뒤로 매끄럽게 이동할 수 있습니다. 디버깅을 시작하려면
 
@@ -190,7 +193,7 @@ FilterName:"Criteria" -FilterName:"SubsetCriteria"
 
 ### <a name="diagnose-test-method-performance-issues"></a>테스트 메서드 성능 문제 진단
 
- 테스트 메서드에 너무 많은 시간이 소요되는 이유를 진단하려면 테스트 탐색기에서 메서드를 선택하고 오른쪽 클릭 메뉴에서 **프로필**을 선택합니다. [성능 탐색기](../profiling/performance-explorer.md)를 참조하세요.
+테스트 메서드에 너무 많은 시간이 소요되는 이유를 진단하려면 테스트 탐색기에서 메서드를 선택하고 오른쪽 클릭 메뉴에서 **프로필**을 선택합니다. [성능 탐색기](../profiling/performance-explorer.md)를 참조하세요.
 
 ### <a name="analyze-unit-test-code-coverage"></a>단위 테스트 코드 검사 분석
 

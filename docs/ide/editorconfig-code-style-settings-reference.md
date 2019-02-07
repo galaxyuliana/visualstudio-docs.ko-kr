@@ -17,12 +17,12 @@ ms.prod: visual-studio-dev15
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 9cbcdb26b333bc0d4ba0d96d5a81d652666c6c86
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8d7d07efa862e619961c21962dca20303efed97e
+ms.sourcegitcommit: 0342f99120fbd603b8f06f7e9166c39f2896827a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54956092"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "55742523"
 ---
 # <a name="net-coding-convention-settings-for-editorconfig"></a>EditorConfig에 대한 .NET 코딩 규칙 설정
 
@@ -1390,6 +1390,7 @@ csharp_prefer_braces = true:none
 - .NET 서식 지정 설정
     - [using 구성](#usings)
         - dotnet_sort_system_directives_first
+        - dotnet_separate_import_directive_groups
 - C# 서식 지정 설정
     - [줄 바꿈 옵션](#newline)
         - csharp_new_line_before_open_brace
@@ -1432,6 +1433,7 @@ csharp_prefer_braces = true:none
 | 규칙 이름 | 해당 언어 | Visual Studio 기본값 | Visual Studio 2017 버전 |
 | ----------- | -------------------- | ----------------------| ---------------- |
 | dotnet_sort_system_directives_first | C# 및 Visual Basic | true | 15.3 |
+| dotnet_separate_import_directive_groups | C# 및 Visual Basic | true | 15.5 |
 
 **dotnet\_sort\_system\_directives_first**
 
@@ -1458,6 +1460,34 @@ using System.Threading.Tasks;
 # .NET formatting settings:
 [*.{cs,vb}]
 dotnet_sort_system_directives_first = true
+```
+
+**dotnet\_separate\_import\_directive\_groups**
+
+- 이 규칙이 **true**로 설정된 경우 using 지시문 그룹 사이에 빈 줄을 배치합니다.
+- 이 규칙이 **false**로 설정된 경우 using 지시문 그룹 사이에 빈 줄을 배치하지 않습니다.
+
+코드 예제:
+
+```csharp
+// dotnet_separate_import_directive_groups = true
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+using Octokit;
+
+// dotnet_separate_import_directive_groups = false
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Octokit;
+```
+
+예제 *.editorconfig* 파일:
+
+```EditorConfig
+# .NET formatting settings:
+[*.{cs,vb}]
+dotnet_separate_import_directive_groups = true
 ```
 
 ### <a name="c-formatting-settings"></a>C# 서식 지정 설정
@@ -2193,6 +2223,7 @@ charset = utf-8-bom
 [*.{cs,vb}]
 # Organize usings
 dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
 
 # this. preferences
 dotnet_style_qualification_for_field = false:none

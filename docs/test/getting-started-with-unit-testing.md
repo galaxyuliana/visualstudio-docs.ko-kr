@@ -10,20 +10,23 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b0ac3acc8b5addf02e510943b6b61ce1c5f0c5b1
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 52a0b5d046580e5d4dbf499e504cd0ea123ff5b2
+ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54999758"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55424384"
 ---
 # <a name="get-started-with-unit-testing"></a>유닛 테스트 시작
 
-Visual Studio를 사용하여 코드 상태를 유지 관리하고, 코드 검사를 적용하고, 고객이 찾기 전에 오류와 결함을 찾기 위한 단위 테스트를 정의하고 실행합니다.
+Visual Studio를 사용하여 단위 테스트를 정의하고 실행하여 코드 상태를 유지 관리하고, 코드 적용 범위를 확인하고 , 고객이 찾기 전에 오류와 결함을 찾을 수 있습니다. 단위 테스트를 수시로 실행하여 코드가 올바르게 작동하는지 확인합니다.
 
 ## <a name="create-unit-tests"></a>단위 테스트 만들기
 
-단위 테스트를 만들고 수시로 실행하여 코드가 올바르게 작동하는지 확인할 수 있습니다.
+이 섹션에서는 단위 테스트 프로젝트를 만드는 방법을 개략적으로 설명합니다.
+
+> [!TIP]
+> 테스트 중인 프로젝트인 "HelloWorld"는 예제 프로젝트로, 이를 위한 코드는 표시되지 않습니다. 테스트할 "HelloWorld" 프로젝트를 만들려면 [첫 번째 C# 콘솔 앱 만들기](../ide/quickstart-csharp-console.md)를 참조하세요. 전체 연습 문서는 [관리 코드에 대한 단위 테스트 만들기 및 실행](walkthrough-creating-and-running-unit-tests-for-managed-code.md)을 참조하세요.
 
 1. 단위 테스트 프로젝트를 만듭니다.
 
@@ -150,6 +153,7 @@ Boost, Google, NUnit 등의 타사 테스트 프레임워크를 사용하여 Vis
 
 ## <a name="see-also"></a>참고 항목
 
+* [연습: 관리 코드에 대한 단위 테스트 만들기 및 실행](walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 * [단위 테스트 만들기 명령](create-unit-tests-menu.md)
 * [IntelliTest를 사용하여 테스트 생성](generate-unit-tests-for-your-code-with-intellitest.md)
 * [테스트 탐색기를 사용하여 테스트 실행](run-unit-tests-with-test-explorer.md)

@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 18ba71906b38fd889f1db42fcb69c689718107c6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: aae170d2fb9b824d0c547dec7549ef2fdd8401ee
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54951289"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55483980"
 ---
 # <a name="msbuild-task-reference"></a>MSBuild 작업 참조
 작업은 빌드 프로세스 동안 실행되는 코드를 제공합니다. 다음 목록의 작업이 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에 포함되어 있습니다. [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)]가 설치되면 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 프로젝트를 빌드하는 데 사용되는 추가 작업을 사용할 수 있습니다. 자세한 내용은 [Visual C++ 작업](../msbuild/msbuild-tasks-specific-to-visual-cpp.md)을 참조하세요.  
@@ -130,7 +130,10 @@ ms.locfileid: "54951289"
  [GetAssemblyIdentity 작업](../msbuild/getassemblyidentity-task.md)  
  지정된 파일에서 어셈블리 ID를 검색하고 ID 정보를 출력합니다.  
 
- [GetFrameworkPath 작업](../msbuild/getframeworkpath-task.md)  
+ [GetFileHash 작업](../msbuild/getfilehash-task.md)  
+ 파일 내용 또는 파일 집합의 체크섬을 계산합니다.
+
+[GetFrameworkPath 작업](../msbuild/getframeworkpath-task.md)  
  [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 어셈블리에 대한 경로를 검색합니다.  
 
  [GetFrameworkSdkPath 작업](../msbuild/getframeworksdkpath-task.md)  
@@ -210,6 +213,9 @@ ms.locfileid: "54951289"
 
  [Vbc 작업](../msbuild/vbc-task.md)  
  Visual Basic 컴파일러를 호출하여 실행 파일, 동적 연결 라이브러리 또는 코드 모듈을 생성합니다.  
+
+ [VerifyFileHash 작업](../msbuild/verifyfilehash-task.md)  
+ 파일이 예상 파일 해시와 일치하는지 확인합니다.
 
  [Warning 작업](../msbuild/warning-task.md)  
  평가된 조건부 문에 따라 빌드 중에 경고를 로깅합니다.  

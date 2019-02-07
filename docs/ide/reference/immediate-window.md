@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 91f25f9ab44bee749283603b78744c9e01e4e469
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b18e1837fdc673500fae96555dab7fb0195ec42e
+ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54992635"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55424242"
 ---
 # <a name="immediate-window"></a>직접 실행 창
 
@@ -91,7 +91,7 @@ ms.locfileid: "54992635"
 
 **즉시 실행** 창에서 Visual Studio 명령을 실행할 경우 보다 큼 기호(>)를 입력하세요. **위쪽 화살표** 및 **아래쪽 화살표** 키를 사용해서 이전에 실행된 명령을 스크롤합니다.
 
-|작업|솔루션|예제|
+|작업|솔루션|예|
 |----------|--------------|-------------|
 |식을 계산합니다.|식 앞에 물음표(?)를 추가합니다.|`? a+b`|
 |직접 실행 모드(단일 명령 실행)에 있는 동안 명령 모드를 일시적으로 입력합니다.|앞에 보다 큼 기호(>)를 추가하여 명령을 입력합니다.|`>alias`|
@@ -102,7 +102,7 @@ ms.locfileid: "54992635"
 
 **즉시 실행** 창에서 이전 줄을 클릭하면 자동으로 표시 모드로 전환됩니다. 이 모드에서는 텍스트 편집기를 사용하는 것처럼 이전 명령의 텍스트를 선택, 편집 및 복사하고 현재 줄에 붙여넣을 수 있습니다.
 
-## <a name="the-equals-sign"></a>등호(=)
+## <a name="the-equals-sign-"></a>등호(=)
 
 `EvaluateStatement` 명령을 입력하는 데 사용되는 창에서는 같음 기호(=)를 비교 연산자 또는 대입 연산자로 해석할지 결정합니다.
 

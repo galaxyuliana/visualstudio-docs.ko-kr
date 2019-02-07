@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bab4485953203c9f3b19947b89f76329b6bc277b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 99b84e02c4ca63d80d6ef80637fcce042c869bcf
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55017099"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55483772"
 ---
 # <a name="make-code-work-in-visual-studio"></a>Visual Studio에서 코드를 작동하게 하기
 
@@ -89,9 +89,9 @@ IDE 아래쪽에 있는 **오류 목록** 탭에 새로운 경고나 업데이�
 
 ![경고가 포함된 Visual Studio 오류 목록](../ide/media/cpp-code-analysis-warning.png)
 
-## <a name="use-light-bulbs-to-fix-or-refactor-code"></a>전구를 사용하여 코드 수정 또는 리팩터링
+## <a name="use-quick-actions-to-fix-or-refactor-code"></a>빠른 작업을 사용하여 코드 수정 또는 리팩터링
 
-전구 또는 스크루 드라이버 아이콘에서 사용할 수 있는 [빠른 작업](../ide/quick-actions.md)을 통해 인라인으로 코드를 리팩터링할 수 있습니다. 전구를 통해 일반적인 경고를 C#, C++ 및 Visual Basic에서 빠르고 효율적으로 수정할 수 있습니다. 액세스하려면 경고 물결선을 마우스 오른쪽 단추로 클릭하고 **빠른 작업 및 리팩터링**을 선택합니다. 또는 커서가 색 있는 물결선 위에 있을 때 **Ctrl**+ **키를 누릅니다.** 또는 여백에서 전구 또는 스크루 드라이버 아이콘을 선택합니다. 해당 코드 줄에 적용할 수 있는 가능한 수정 또는 리팩터링 목록이 표시됩니다.
+전구 또는 스크루 드라이버 아이콘에서 사용할 수 있는 [빠른 작업](../ide/quick-actions.md)을 통해 인라인으로 코드를 리팩터링할 수 있습니다. 전구를 통해 일반적인 경고를 C#, C++ 및 Visual Basic에서 빠르고 효율적으로 수정할 수 있습니다. 액세스하려면 경고 물결선을 마우스 오른쪽 단추로 클릭하고 **빠른 작업 및 리팩터링**을 선택합니다. 또는 커서가 색 있는 물결선 위에 있을 때 **Ctrl**+ **키를 누릅니다.** 또는 여백에서 전구, 오류 전구 또는 스크루드라이버 아이콘을 선택합니다. 해당 코드 줄에 적용할 수 있는 가능한 수정 또는 리팩터링 목록이 표시됩니다.
 
 ![Visual Studio 전구 미리 보기](../ide/media/quick-actions-options.png)
 
