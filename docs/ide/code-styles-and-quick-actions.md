@@ -11,12 +11,12 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
 ms.workload:
 - multiple
-ms.openlocfilehash: 065a4c21be596b409ed82718e0b38c38367612cc
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f33c1edec4b4093e9157a59618befa2e1175be49
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55039057"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55483993"
 ---
 # <a name="code-style-preferences"></a>코드 스타일 기본 설정
 
@@ -31,7 +31,7 @@ ms.locfileid: "55039057"
 
 ## <a name="preference-and-severity"></a>기본 설정 및 심각도
 
-각 항목에 대해 각 줄에 있는 드롭다운을 사용하여 **기본 설정** 및 **심각도** 값을 설정할 수 있습니다. 심각도는 **없음**, **제안**, **경고** 또는 **오류**로 설정할 수 있습니다. 코드 스타일에 대해 [빠른 작업](../ide/quick-actions.md)을 사용하려면 **심각도** 설정이 **없음** 이외의 값으로 설정되어 있는지 확인합니다. 선호하지 않는 스타일이 사용될 경우 **빠른 작업** 전구 아이콘![작은 전구 아이콘](media/vs2015_lightbulbsmall.png)이 표시되고, **빠른 작업** 목록에서 옵션을 선택하면 코드를 원하는 스타일로 자동으로 다시 작성할 수 있습니다.
+각 항목에 대해 각 줄에 있는 드롭다운을 사용하여 **기본 설정** 및 **심각도** 값을 설정할 수 있습니다. 심각도는 **없음**, **제안**, **경고** 또는 **오류**로 설정할 수 있습니다. 코드 스타일에 대해 [빠른 작업](../ide/quick-actions.md)을 사용하려면 **심각도** 설정이 **없음** 이외의 값으로 설정되어 있는지 확인합니다. 선호하지 않는 스타일이 사용될 경우 **빠른 작업** 전구 ![전구](media/vs2015_lightbulbsmall.png), 오류 전구 ![오류 전구](media/error-bulb.png) 또는 스크루드라이버 ![스크루드라이버](media/screwdriver.png) 아이콘이 표시되고, **빠른 작업** 목록에서 옵션을 선택하면 코드를 원하는 스타일로 자동으로 다시 작성할 수 있습니다.
 
 ## <a name="editorconfig-files"></a>EditorConfig 파일
 

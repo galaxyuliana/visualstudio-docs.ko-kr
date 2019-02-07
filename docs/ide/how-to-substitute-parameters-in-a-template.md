@@ -10,12 +10,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 93e553338478bcdead9e283323348b02ac73eaac
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 19dcfbca8025ef73cea38e5b2b6e5768ab5e8a1f
+ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55031762"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55424280"
 ---
 # <a name="how-to-substitute-parameters-in-a-template"></a>방법: 템플릿 매개 변수 대체
 
@@ -25,7 +25,7 @@ ms.locfileid: "55031762"
 
 다음 섹션에서는 네임스페이스의 이름을 "안전한 프로젝트 이름"으로 바꾸도록 템플릿을 수정하는 방법을 보여 줍니다.
 
-## <a name="to-use-a-parameter-to-replace-the-namespace-name"></a>매개 변수를 사용하여 네임스페이스 이름을 바꾸려면
+## <a name="example---namespace-name"></a>예 - 네임스페이스 이름
 
 1. 템플릿의 하나 이상 코드 파일에 매개 변수를 삽입합니다. 예:
 

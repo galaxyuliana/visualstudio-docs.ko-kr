@@ -2,7 +2,7 @@
 title: Visual Studio 2019의 새로운 기능
 titleSuffix: ''
 description: Visual Studio 2019의 새로운 기능을 알아보세요.
-ms.date: 01/24/2019
+ms.date: 01/29/2019
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -15,12 +15,12 @@ ms.topic: conceptual
 ms.workload:
 - multiple
 monikerRange: '>= vs-2017'
-ms.openlocfilehash: 9f1d2ba67739dd5349a1a361744543089900a371
-ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
+ms.openlocfilehash: 88fe1f9a4f1f3d1d21af2d7d00dee677cab11fc5
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "55090109"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55483707"
 ---
 # <a name="whats-new-in-visual-studio-2019-preview"></a>Visual Studio 2019 Preview의 새로운 기능
 
@@ -40,7 +40,7 @@ Visual Studio가 제공하는 장점은 다음과 같습니다.
 * **[지속적인 혁신](#continuous-innovation)**. 코드에 인텔리전트 클라우드 기반 지원이 제공됩니다.
 
 > [!NOTE]
-> Visual Studio 2019 미리 보기의 새로운 특징 및 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)를 참조하세요.
+> Visual Studio 2019 미리 보기의 새로운 특징 및 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)를 참조하세요. 두 번째 미리 보기의 새로운 기능에 대해서는 [현재 Visual Studio 2019 미리 보기 2 사용 가능](https://blogs.msdn.microsoft.com/visualstudio/2019/01/24/visual-studio-2019-preview-2-is-now-available/) 블로그 게시물을 참조하세요.
 
 ## <a name="personal-and-team-productivity"></a>개인 및 팀 생산성
 
@@ -82,6 +82,8 @@ Visual Studio 2019를 열면 가장 먼저 보이는 것이 새로운 시작 창
 
    ![Visual Studio 2019의 새로운 조사식 창 및 포맷 값 기능](media/search-watch-window.png)
 
+자세한 내용은 [Visual Studio 2019의 향상된 기능: 조사식, 자동 및 지역 Windows의 개체와 속성 검색](https://blogs.msdn.microsoft.com/visualstudio/2019/01/28/enhanced-in-visual-studio-2019-search-for-objects-and-properties-in-the-watch-autos-and-locals-windows/) 블로그 게시물을 참조하세요.
+
 ### <a name="visual-studio-live-share"></a>Visual Studio Live Share
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/)는 Visual Studio 내에서 바로 코드베이스와 컨텍스트를 팀원과 공유하고 즉각적인 양방향 공동 작업을 수행할 수 있는 개발자 서비스입니다. 실시간 공유를 사용하면 귀하가 공유한 프로젝트를 팀원이 원활하고 안전하게 읽고, 탐색하고, 편집하고, 디버깅할 수 있습니다.
@@ -110,7 +112,7 @@ Visual Studio 2019의 미리 보기 릴리스는 모든 플랫폼에서 [.NET Co
 
 여러 디스플레이 배율 인수를 사용하여 구성된 모니터를 사용하거나, 디스플레이 배율 인수가 주 디바이스와 다른 머신에 원격으로 연결하는 경우 Visual Studio가 흐리게 보이거나 잘못된 배율로 렌더링될 수 있습니다.
 
-Visual Studio 2019 미리 보기 1 릴리스부터 Visual Studio를 PMA(모니터별 인식) 애플리케이션으로 만들기 위한 첫 번째 단계가 시작됩니다. 사용하는 디스플레이 배율에 관계없이 Visual Studio가 올바르게 렌더링할 수 있도록 기반 작업을 진행 중입니다.
+Visual Studio 2019 미리 보기 릴리스부터 Visual Studio를 PMA(모니터별 인식) 애플리케이션으로 만들기 위한 첫 번째 단계가 시작됩니다. 사용하는 디스플레이 배율에 관계없이 Visual Studio가 올바르게 렌더링할 수 있도록 기반 작업을 진행 중입니다.
 
    ![Visual Studio 2019의 PMA(모니터별 인식) 렌더링](media/per-monitor-aware-dpi-scaling.png)
 

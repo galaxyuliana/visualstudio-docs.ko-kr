@@ -1,5 +1,5 @@
 ---
-title: UI 만들기 - Blend for Visual Studio
+title: Blend for Visual Studio 기능 둘러보기
 titleSuffix: ''
 ms.date: 07/17/2017
 ms.prod: visual-studio-dev15
@@ -11,14 +11,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5e0a39bee4f44f0cf62c237ec9bb62135637a957
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 58b2e84a28a2d453eb109915bb9c38672b6bed98
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54923794"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484123"
 ---
-# <a name="creating-a-ui-by-using-blend-for-visual-studio"></a>Blend for Visual Studio를 사용하여 UI 만들기
+# <a name="blend-for-visual-studio-overview"></a>Blend for Visual Studio 개요
 
 Blend for Visual Studio를 사용하면 XAML 기반 Windows 및 웹 애플리케이션을 디자인할 수 있습니다. Visual Studio와 같은 기본 XAML 디자인 환경을 제공하고, 애니메이션 및 동작과 같은 고급 작업에 대한 비주얼 디자이너를 추가합니다. Blend 및 Visual Studio 비교를 보려면 [Visual Studio 및 Blend for Visual Studio에서 XAML 디자인](../designers/designing-xaml-in-visual-studio.md)을 참조하세요.
 

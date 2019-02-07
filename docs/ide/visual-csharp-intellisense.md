@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: f352ac46b87fee66a491c178f5f11369eca7b7d7
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d45501f4f8038daf0a891493286ab5f5835195b8
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54979064"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484188"
 ---
 # <a name="c-intellisense"></a>C# IntelliSense
 
@@ -99,7 +99,7 @@ IntelliSense는 자동 개체 이름 완성을 위해 팝업 [멤버 목록](../
 
 ![using 추가, 빠른 작업 확장된 이미지](../ide/media/addusing-quickaction.png)
 
-전구 아이콘을 클릭한 다음 **using System.Xml;** 을 선택하여 using 지시문을 자동으로 추가합니다.
+오류 전구 아이콘을 클릭한 다음, **using System.Xml;** 을 선택하여 using 지시문을 자동으로 추가합니다.
 
 ### <a name="remove-and-sort-usings"></a>using 제거 및 정렬
 
@@ -123,7 +123,7 @@ IntelliSense는 코드 편집기에서 작업하는 동안 자동으로 추상 �
 
 빨간색 물결선 밑줄이 정의되지 않은 각 식별자 아래에 나타납니다. 식별자에 마우스 포인터를 놓으면 오류 메시지가 도구 설명에 나타납니다. 적절한 옵션을 표시하려면 다음 절차 중 하나를 사용할 수 있습니다.
 
-- 정의되지 않은 식별자를 클릭합니다. **빠른 작업** 전구가 식별자 아래에 나타납니다. 전구를 클릭합니다.
+- 정의되지 않은 식별자를 클릭합니다. **빠른 작업** 오류 전구가 식별자 아래에 나타납니다. 오류 전구를 클릭합니다.
 
 - 정의되지 않은 식별자를 클릭한 다음 **Ctrl**+**.** (**Ctrl** + 마침표)를 누릅니다.
 

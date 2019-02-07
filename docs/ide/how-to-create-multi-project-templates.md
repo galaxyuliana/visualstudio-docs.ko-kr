@@ -10,12 +10,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: cefeabffc42722b1fa574a19068eb45c5e850e86
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0b1470620ce6640b3a287a5d86fc6922597258b3
+ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54985918"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55424216"
 ---
 # <a name="how-to-create-multi-project-templates"></a>방법: 다중 프로젝트 템플릿 만들기
 
@@ -69,17 +69,20 @@ ms.locfileid: "54985918"
     </TemplateContent>
     ```
 
-## <a name="to-create-a-multi-project-template-from-an-existing-solution"></a>기존 솔루션에서 다중 프로젝트 템플릿을 만들려면 다음을 수행합니다.
+## <a name="create-a-multi-project-template-from-an-existing-solution"></a>기존 솔루션에서 다중 프로젝트 템플릿을 만들기
 
 1. 솔루션을 만들고 두 개 이상의 프로젝트를 추가합니다.
 
 1. 서식 파일에 내보낼 준비가 될 때까지 프로젝트를 사용자 지정합니다.
 
+   > [!TIP]
+   > [템플릿 매개 변수](template-parameters.md)를 사용하고 부모 템플릿에서 변수를 참조하려면 매개 변수 이름 접두사를 `ext_`로 지정합니다. 예를 들어 `$ext_safeprojectname$`과 같은 형식입니다.
+
 1. **프로젝트** 메뉴에서 **템플릿 내보내기**를 선택합니다.
 
    **템플릿 내보내기 마법사**가 열립니다.
 
-1. **템플릿 형식 선택** 페이지에서 **프로젝트 템플릿**을 선택합니다. 템플릿으로 내보낼 프로젝트를 선택한 후 **다음**을 선택합니다.
+1. **템플릿 형식 선택** 페이지에서 **프로젝트 템플릿**을 선택합니다. 템플릿으로 내보낼 프로젝트 중 하나를 선택한 후, **다음**을 선택합니다. (솔루션의 각 프로젝트에 대해 이러한 단계를 반복합니다.)
 
 1. **템플릿 옵션 선택** 페이지에서 템플릿의 이름 및 설명(옵션), 아이콘 및 미리 보기 이미지를 입력합니다. **마침**을 선택합니다.
 

@@ -11,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 4625d8c4b6bce3235fe07682cb6a0e977258adf6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a9a3a72a9b02d51407bf8a1c06c900596ded4ab4
+ms.sourcegitcommit: 0342f99120fbd603b8f06f7e9166c39f2896827a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54948182"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "55742432"
 ---
 # <a name="sync-a-type-to-a-filename-or-a-filename-to-a-type-refactoring"></a>형식을 파일 이름에 동기화 또는 파일 이름을 형식 리팩터링에 동기화
 
@@ -31,6 +31,9 @@ ms.locfileid: "54948182"
 **시기:** 파일 또는 형식의 이름이 바뀌었지만 일치시킬 해당 파일 또는 형식이 업데이트되지 않았습니다.
 
 **이유:** 다른 이름의 파일로 형식을 저장하거나 그 반대로 저장하면 검색할 대상을 찾기 어렵습니다. 형식 또는 파일의 이름을 바꾸면 코드를 더 쉽게 읽고 탐색할 수 있습니다.
+
+> [!NOTE]
+> 이 리팩터링은 .NET Standard 및 .NET Core 프로젝트에서 아직 사용할 수 없습니다.
 
 ## <a name="how-to"></a>방법
 
@@ -62,8 +65,6 @@ ms.locfileid: "54948182"
    - Visual Basic: 아래 예제에서는 **Employee.vb** 파일의 이름이 형식 이름과 일치하도록 **Person.vb**로 바뀌었습니다.
 
        ![인라인 결과 Visual Basic](media/synctype-result-vb.png)
-
-> ![참고] 이 리팩터링은 .NET Standard 및 .NET Core 프로젝트에서 아직 사용할 수 없습니다.
 
 ## <a name="see-also"></a>참고 항목
 

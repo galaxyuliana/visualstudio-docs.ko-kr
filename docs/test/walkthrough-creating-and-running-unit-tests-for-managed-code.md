@@ -14,12 +14,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 author: gewarren
-ms.openlocfilehash: 130cb83e078a0f7c2924349dcd13692d3fe9125a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 12b232bf32be6802ccd82ecad647f2becc95addc
+ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54924602"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55484201"
 ---
 # <a name="walkthrough-create-and-run-unit-tests-for-managed-code"></a>연습: 관리 코드에 대한 단위 테스트 만들기 및 실행
 
@@ -82,6 +82,11 @@ public void Debit(double amount)
 ## <a name="create-a-unit-test-project"></a>단위 테스트 프로젝트 만들기
 
 1. **파일** 메뉴에서 **추가** > **새 프로젝트**를 선택합니다.
+
+   > [!TIP]
+   > 기존 솔루션에 추가 프로젝트를 추가하는 몇 가지 다른 방법이 있습니다. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택할 수 있습니다. 또는 **파일** > **새로 만들기** > **프로젝트**를 선택한 다음, **새 프로젝트** 대화 상자에서 **솔루션에 추가** 옵션을 선택할 수 있습니다.
+   >
+   > ![새 프로젝트 대화 상자의 솔루션 옵션에 추가](media/add-to-solution.png)
 
 2. **새 프로젝트** 대화 상자에서 **설치됨** 및 **Visual C#** 을 확장한 다음, **테스트**를 선택합니다.
 
