@@ -1,7 +1,6 @@
 ---
 title: 코드 분석 규칙 집합 편집기 사용
 ms.date: 04/04/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - vs.codeanalysis.ruleseteditor
@@ -11,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eea18a356eb140e3eecf779d9b5468316b4fc785
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 719d8f1e11365de0b864f41f54546fb4bfc64cd2
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55034014"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55937221"
 ---
 # <a name="use-the-code-analysis-rule-set-editor"></a>코드 분석 규칙 집합 편집기 사용
 

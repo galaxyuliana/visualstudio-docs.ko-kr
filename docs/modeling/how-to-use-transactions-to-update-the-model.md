@@ -7,13 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 70ec77254ec4d76e978b685441bb8d6e3df1b802
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: eed10c7535a08a299f43138774935f4c65eafffa
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54921224"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55924398"
 ---
 # <a name="how-to-use-transactions-to-update-the-model"></a>방법: 트랜잭션을 사용하여 모델 업데이트
 트랜잭션에 저장소에 대 한 변경 내용을 그룹으로 처리할지 있는지 확인 합니다. 그룹화 된 변경 내용은 커밋 또는 단일 단위로 롤백될 수 있습니다.

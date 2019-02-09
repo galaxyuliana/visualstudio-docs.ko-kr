@@ -1,7 +1,6 @@
 ---
 title: 'CA2207: 값 형식 정적 필드 인라인을 초기화하십시오.'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - InitializeValueTypeStaticFieldsInline
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fb75c6d06502c9d2fac437a8924af4d51ddd6d0a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9b00403af731439ecef4667c632e53b52670afff
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55036162"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55926881"
 ---
 # <a name="ca2207-initialize-value-type-static-fields-inline"></a>CA2207: 값 형식 정적 필드 인라인을 초기화하십시오.
 

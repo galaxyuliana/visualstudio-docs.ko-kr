@@ -1,7 +1,6 @@
 ---
 title: 관리 코드에 대 한 정적 코드 분석
 ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - vs.projectpropertypages.codeanalysis
@@ -13,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 04ae73deb4bc4dfba550df2c663d8f77a4b1efcf
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0da99377a6e0f5405029c0ac194484de3a3a1c90
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55030082"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55909143"
 ---
 # <a name="overview-of-static-code-analysis-for-managed-code-in-visual-studio"></a>Visual Studio에서 관리 되는 코드에 대 한 정적 코드 분석 개요
 
@@ -35,13 +34,13 @@ Visual Studio 2017 두 가지 방법으로 관리 되는 코드의 코드 분석
 
 수동 또는 자동으로 프로젝트에서 코드 분석을 실행할 수 있습니다.
 
-프로젝트를 빌드할 때마다 코드 분석을 실행 하려면 선택한 **빌드에 코드 분석 사용** 프로젝트의 속성 페이지. 자세한 내용은 [방법: 자동 코드 분석 활성화 및 비활성화](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)합니다.
+프로젝트를 빌드할 때마다 코드 분석을 실행 하려면 선택한 **빌드에 코드 분석 사용** 프로젝트의 속성 페이지. 자세한 내용은 [방법: 자동 코드 분석 사용 설정 및 해제](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)를 참조하세요.
 
 프로젝트에 대해 수동으로 코드 분석을 실행, 메뉴 모음에서 선택 **분석** > **코드 분석 실행** > **에서 코드 분석 실행 \<프로젝트 >** 합니다.
 
 ## <a name="rule-sets"></a>규칙 집합
 
-관리 코드에 대 한 코드 분석 규칙 그룹화 됩니다 [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)합니다. Microsoft 표준 규칙 집합 중 하나를 사용 하거나 할 수 있습니다 [사용자 지정 규칙 집합 만들기](../code-quality/how-to-create-a-custom-rule-set.md) 를 특정 요구를 충족 합니다.
+관리 코드에 대한 코드 분석 규칙은 [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)으로 그룹화됩니다. Microsoft 표준 규칙 집합 중 하나를 사용 하거나 할 수 있습니다 [사용자 지정 규칙 집합 만들기](../code-quality/how-to-create-a-custom-rule-set.md) 를 특정 요구를 충족 합니다.
 
 ## <a name="suppress-warnings"></a>경고 표시 안 함
 
@@ -80,4 +79,4 @@ Public class MyClass
 
 - [Roslyn 분석기 개요](../code-quality/roslyn-analyzers-overview.md)
 - [규칙 집합을 사용하여 코드 분석 규칙 그룹화](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
-- [방법: 자동 코드 분석 활성화 및 비활성화](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
+- [방법: 자동 코드 분석 사용 설정 및 해제](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
