@@ -7,13 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 4f07b75806d331fa0fb21444dee72214706edbcb
-ms.sourcegitcommit: 612f8c21d1448f1a013c30100cdecfbec5ddb24f
+ms.openlocfilehash: 410ab74e672d29673674131b30e2412581b9b399
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "55571163"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55954207"
 ---
 # <a name="guidelines-for-writing-t4-text-templates"></a>T4 텍스트 템플릿 작성 지침
 Visual Studio에서 프로그램 코드 또는 기타 응용 프로그램 리소스를 생성 하는 경우에 다음 일반 지침 유용할 수도 있습니다. 규칙 고정 되지 것입니다.

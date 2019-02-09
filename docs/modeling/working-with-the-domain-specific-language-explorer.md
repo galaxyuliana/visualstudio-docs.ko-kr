@@ -9,13 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 295b7c2bb0c146e567ab752f693b8dba9aa08517
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a27558ea21569e4e31bdbb3ea2c238ce863efda3
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069358"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55907739"
 ---
 # <a name="working-with-the-domain-specific-language-explorer"></a>도메인별 언어 탐색기 작업
 합니다 **DSL 탐색기** 트리 보기에서 여러 종류의 정보를 표시 합니다. 대부분의 DSL 탐색기에서 항목에 대 한 자세한 내용은 참조 하세요. [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)합니다.
