@@ -10,16 +10,15 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: 2d99fc575bffb6bf6af72be7e09b642cdf7f1b5a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a84b24dff387e0a93058c07e9f6d7b6cfe503d49
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55041001"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55935591"
 ---
 # <a name="walkthrough-connect-a-host-to-a-generated-directive-processor"></a>연습: 생성된 된 지시문 프로세서에 호스트 연결
 
@@ -67,7 +66,7 @@ DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.
 
    -   회사 이름: Fabrikam
 
-   도메인별 언어 솔루션을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 도메인별 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)합니다.
+   도메인별 언어 솔루션을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 도메인 특정 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)를 참조하세요.
 
 2. **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.
 

@@ -2,19 +2,18 @@
 title: 워크플로 디자이너에서 지원되지 않는 디버깅 시나리오
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 ms.assetid: 6adbe379-41d0-4681-9cd0-b91f187c3c2c
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: a93547bfb76459655f0b7fb896709ef880d84476
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 169f7d1cdd0976cac377f99f5f09b3c43948524c
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55009975"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55918236"
 ---
 # <a name="unsupported-debugging-scenarios-in-the-workflow-designer"></a>워크플로 디자이너에서 지원되지 않는 디버깅 시나리오
 

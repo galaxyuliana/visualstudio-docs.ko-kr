@@ -11,13 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 9127531c81471c7ae1bba58224c4d206a0be9c50
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 781e1cce1d363ade1d236c8e17f9c3feeb4b0f5c
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55039100"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55913290"
 ---
 # <a name="customizing-the-model-explorer"></a>모델 탐색기 사용자 지정
 변경할 수 있습니다 탐색기의 동작과 모양을 도메인별 언어 디자이너에 대 한 다음과 같습니다.

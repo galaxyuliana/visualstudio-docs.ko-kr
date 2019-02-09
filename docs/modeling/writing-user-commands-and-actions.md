@@ -7,13 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 74466c4757c802647bc98082c68b3a9d73207f68
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 50b151358df90be3db423bbf3db8b5123d1069f3
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54940390"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55949423"
 ---
 # <a name="writing-user-commands-and-actions"></a>사용자 명령 및 작업 작성
 다이어그램에 명령을 추가하고 끌어서 놓기, 클릭, 두 번 클릭 이벤트와 같은 제스처에 응답하여 DSL을 사용자 지정할 수 있습니다.

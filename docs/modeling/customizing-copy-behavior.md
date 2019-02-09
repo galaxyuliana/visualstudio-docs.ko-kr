@@ -7,13 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 5629bcd7e4db81cd7a46d71d9f0e9928d5eaab15
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d8572ecf95790fdc5f6e73ce0b137e5532c44bdc
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54995260"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55911821"
 ---
 # <a name="customizing-copy-behavior"></a>복사 동작 사용자 지정
 Visual Studio Visualization and Modeling SDK를 사용 하 여 만든 도메인 특정 언어 (DSL)에서 사용자는 복사 하 고 요소를 붙여넣을 때 일어나 변경할 수 있습니다.

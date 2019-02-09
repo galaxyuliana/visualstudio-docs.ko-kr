@@ -1,7 +1,6 @@
 ---
 title: Office 솔루션을 개발 하는 추가 리소스
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -13,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6626f9dbc6f0b17ba3e02a66d2f104873089a616
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: ea45bc0bec473983765a7358dabc36a485f520b8
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54873394"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55939465"
 ---
 # <a name="additional-resources-to-develop-office-solutions"></a>Office 솔루션을 개발 하는 추가 리소스
   Visual Studio의 Microsoft Office 개발자 도구는 Office 애플리케이션을 확장하는 많은 방법 중 하나일 뿐입니다. Office 애플리케이션에는 또한 Open XML 형식과 같이 Visual Studio의 Office 개발자 도구 또는 이 설명서에서 다루지 않는 몇 가지 기본 제공 기능도 있습니다.  

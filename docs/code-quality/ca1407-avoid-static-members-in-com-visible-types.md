@@ -1,7 +1,6 @@
 ---
 title: 'CA1407: COM 노출 형식에 정적 멤버를 사용하지 마세요.'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - CA1407
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b37fffe4ee3000ee1b85d2680bceb0f2aedb5aaf
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5b09122aebdc02b9eacb32df596914a0a08a9ea9
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55012861"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55932683"
 ---
 # <a name="ca1407-avoid-static-members-in-com-visible-types"></a>CA1407: COM 노출 형식에 정적 멤버를 사용하지 마세요.
 

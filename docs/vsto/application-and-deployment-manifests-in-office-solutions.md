@@ -1,7 +1,6 @@
 ---
 title: Office 솔루션에서 응용 프로그램 및 배포 매니페스트
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -16,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9deabada5a9e3d69c3d3a9a821abf7d6b8dcf56e
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: d22d58eb8a2264d5c7765a15726db556c7d5569f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54875617"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55949566"
 ---
 # <a name="application-and-deployment-manifests-in-office-solutions"></a>Office 솔루션에서 응용 프로그램 및 배포 매니페스트
   애플리케이션 매니페스트는 Office 솔루션에서 어셈블리를 찾고 업데이트하는 데 사용되는 정보를 제공하는 XML 파일입니다. 애플리케이션 매니페스트는 배포 매니페스트와 함께 사용할 수 있습니다. 배포 매니페스트는 서버에 저장된 XML 파일로, 최신 버전의 애플리케이션 매니페스트 및 어셈블리를 찾는 데 필요한 정보를 제공합니다.
