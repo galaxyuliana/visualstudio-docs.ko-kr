@@ -9,13 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 6151cafd1b89333e6db45abd3d93a61648346bc9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 310a12b51987d9a324be24757ba3346b8b0303ee
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54981196"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55927856"
 ---
 # <a name="properties-of-domain-properties"></a>도메인 속성의 속성
 A *도메인 속성* 값을 보유할 수 있는 모델 요소의 기능입니다. 예를 들어 `Person` 도메인 클래스는 `Name` 및 `BirthDate` 속성을 포함할 수 있습니다. DSL 정의에서 도메인 속성은 다이어그램의 도메인 클래스 상자와 DSL 탐색기의 도메인 클래스 아래에 나열됩니다. 자세한 내용은 [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)합니다.

@@ -11,13 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 6e72d5165319eab7062c6a3f4106f232dca23808
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 35707e715a8f38f7ebe1b508ee1e933f54b09c3e
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54969605"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55939686"
 ---
 # <a name="customizing-deletion-behavior"></a>삭제 동작 사용자 지정
 일반적으로 요소를 삭제하면 관련 요소도 삭제됩니다. 해당 요소에 연결된 모든 관계와 모든 자식 요소도 삭제됩니다. 이 동작은 라고 *삭제 전파*합니다. 예를 들어 삭제 전파를 사용자 지정하여 추가 관련 요소도 삭제되도록 지정할 수 있습니다. 프로그램 코드를 작성하면 모델 상태에 따라 삭제 전파가 수행되도록 지정할 수 있습니다. 또한 삭제에 응답하여 다른 변경도 수행되도록 할 수 있습니다.

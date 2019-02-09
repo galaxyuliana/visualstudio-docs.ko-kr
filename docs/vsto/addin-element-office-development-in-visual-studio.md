@@ -2,7 +2,6 @@
 title: '&lt;addin&gt; 요소 (Visual Studio에서 Office 개발)'
 titleSuffix: ''
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -16,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 90ad45aa77ce5e383f258c0fcaa10030b46dd1c4
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 3ab7b0617f09b98c9e30c7f198ef0e2aaa301e33
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54864321"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55926309"
 ---
 # <a name="ltaddingt-element-office-development-in-visual-studio"></a>&lt;addin&gt; 요소 (Visual Studio에서 Office 개발)
   합니다 **추가 기능** 의 요소를 `vstav3` 네임 스페이스는 Microsoft Office VSTO 추가 기능 및 Visual Studio를 사용 하 여 개발 하는 문서 수준 사용자 지정 관련 정보를 포함 합니다.

@@ -9,13 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 25ee3bbe5ba4e3891fcf6454f42f2a5d5ed561fe
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 82f464e6c58c8403ffee34957f9bd49b39471114
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55042454"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55940284"
 ---
 # <a name="develop-tests-from-a-model"></a>모델에서 테스트 개발
 요구 사항 및 아키텍처 모델을 사용하여 시스템 및 해당 구성 요소의 테스트를 구성하도록 지원할 수 있습니다. 이렇게 하면 사용자 및 기타 이해 관계자에게 중요한 요구 사항을 테스트하는지 확인할 수 있고 요구 사항이 변경될 때 테스트를 빠르게 업데이트할 수 있습니다. [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)]를 사용하는 경우 모델과 테스트 간의 링크를 유지할 수도 있습니다.

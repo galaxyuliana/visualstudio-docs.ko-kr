@@ -2,18 +2,17 @@
 title: Visual Studio에서 작업 영역 | Microsoft 문서
 ms.date: 02/21/2018
 ms.topic: conceptual
-ms.assetid: 3489592a-dc0c-4cd3-9b08-cd367626980a
 author: vukelich
 ms.author: svukel
 manager: viveis
 ms.workload:
 - vssdk
-ms.openlocfilehash: 406d55b773a586d5cb0128599e225dabbadf21d3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: da61f3f46d9737bef6c14cf69a52be1951da28fb
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53876905"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55925438"
 ---
 # <a name="workspaces"></a>작업 영역
 
@@ -180,5 +179,5 @@ UI 컨텍스트의 자동 로드 패키지를 사용할 수 있습니다. 값이
 
 ## <a name="next-steps"></a>다음 단계
 
-* [파일 컨텍스트를](workspace-file-contexts.md) -파일 상황에 맞는 공급자 폴더 열기 작업 영역에 대 한 코드 인텔리전스를 제공 합니다. 
+* [파일 컨텍스트를](workspace-file-contexts.md) -파일 상황에 맞는 공급자 폴더 열기 작업 영역에 대 한 코드 인텔리전스를 제공 합니다.
 * [인덱싱](workspace-indexing.md) -작업 영역 인덱싱 수집 및 작업 영역에 대 한 정보를 유지 합니다.

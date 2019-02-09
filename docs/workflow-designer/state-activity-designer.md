@@ -2,7 +2,6 @@
 title: 워크플로 디자이너-상태 활동 디자이너
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
 - System.Activities.Statements.State.UI
 ms.assetid: 9455ab37-93a0-4c46-9eb8-b6611ca23167
@@ -11,20 +10,22 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 2d69b5533ebaf617563c7ce8ff9ba83453bc2fb0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4d07cfeeb713767bc4f711c99b6b482759af2232
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54926152"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55940766"
 ---
 # <a name="state-activity-designer"></a>상태 활동 디자이너
 
-<xref:System.Activities.Statements.State>는 상태 시스템이 가질 수 있는 상태를 나타냅니다.
+
+  <xref:System.Activities.Statements.State>는 상태 시스템이 가질 수 있는 상태를 나타냅니다.
 
 ## <a name="using-the-state-activity-designer"></a>상태 활동 디자이너 사용
 
-추가할를 <xref:System.Activities.Statements.State> 워크플로 끌어 옵니다.를 **상태** 활동 디자이너의를 **상태 시스템** 섹션을 **도구 상자** 에 놓습니다를 <xref:System.Activities.Statements.StateMachine> 워크플로 디자이너 화면에서 작업입니다. <xref:System.Activities.Statements.State> 활동은 <xref:System.Activities.Statements.StateMachine>에 끌어 놓고 나중에 전환을 추가하거나 <xref:System.Activities.Statements.State> 활동을 끌어 놓을 때 전환을 만들 수 있습니다. 추가할를 <xref:System.Activities.Statements.State> 활동 고 한 단계로 끌어서 전환을 만들려면를 **상태** 활동에서를 **상태 시스템** 섹션을 **도구 상자** 다른 위로 가져갑니다 워크플로 디자이너의 상태입니다. 끌어 온 <xref:System.Activities.Statements.State>를 다른 <xref:System.Activities.Statements.State> 위로 가져가면 <xref:System.Activities.Statements.State> 주위에 삼각형 4개가 표시됩니다. <xref:System.Activities.Statements.State>를 삼각형 4개 중 하나에 놓으면 상태 시스템에 추가되고, 소스 <xref:System.Activities.Statements.State>에서 놓은 대상 <xref:System.Activities.Statements.State>로의 전환이 만들어집니다. 자세한 내용은 [전환](../workflow-designer/transition-activity-designer.md)합니다.
+추가할를 <xref:System.Activities.Statements.State> 워크플로 끌어 옵니다.를 **상태** 활동 디자이너의를 **상태 시스템** 섹션을 **도구 상자** 에 놓습니다를 <xref:System.Activities.Statements.StateMachine> 워크플로 디자이너 화면에서 작업입니다. <xref:System.Activities.Statements.State> 활동은 <xref:System.Activities.Statements.StateMachine>에 끌어 놓고 나중에 전환을 추가하거나 <xref:System.Activities.Statements.State> 활동을 끌어 놓을 때 전환을 만들 수 있습니다. 추가할를 <xref:System.Activities.Statements.State> 활동 고 한 단계로 끌어서 전환을 만들려면를 **상태** 활동에서를 **상태 시스템** 섹션을 **도구 상자** 다른 위로 가져갑니다 워크플로 디자이너의 상태입니다. 끌어 온 <xref:System.Activities.Statements.State>를 다른 <xref:System.Activities.Statements.State> 위로 가져가면 <xref:System.Activities.Statements.State> 주위에 삼각형 4개가 표시됩니다. 
+  <xref:System.Activities.Statements.State>를 삼각형 4개 중 하나에 놓으면 상태 시스템에 추가되고, 소스 <xref:System.Activities.Statements.State>에서 놓은 대상 <xref:System.Activities.Statements.State>로의 전환이 만들어집니다. 자세한 내용은 [전환](../workflow-designer/transition-activity-designer.md)합니다.
 
 ### <a name="state-activity-properties-in-the-workflow-designer"></a>워크플로 디자이너의 State 활동 속성
 

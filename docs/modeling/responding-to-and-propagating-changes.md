@@ -9,13 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: f7ea3068d4dc82e7b53d0f9adc87f08e072ff120
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 99b35f465d9fa7683c6bc26c9c79bab478ce7ecf
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54971340"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55939595"
 ---
 # <a name="responding-to-and-propagating-changes"></a>변경 내용에 대한 대응 및 전파
 요소를 생성, 삭제 하거나 업데이트할 때이 모델의 다른 부분 또는 파일, 데이터베이스 또는 다른 구성 요소와 같은 외부 리소스에 변경 내용을 전파 하는 코드를 작성할 수 있습니다.

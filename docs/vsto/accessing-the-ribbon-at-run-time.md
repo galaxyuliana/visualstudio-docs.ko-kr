@@ -1,7 +1,6 @@
 ---
 title: 런타임에 리본 메뉴에 액세스
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -15,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e408b475b4ba7ac912826af3021c371b3af57f4c
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 5b00721325d6d4fa57fcb0ef6ecd2ebdf0da9930
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54876228"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55919965"
 ---
 # <a name="access-the-ribbon-at-runtime"></a>런타임에 리본 메뉴에 액세스
   리본을 표시, 숨기기 및 수정하고, 사용자가 사용자 지정 작업창, 작업 창 또는 Outlook 양식 영역의 컨트롤에서 코드를 실행할 수 있도록 하는 코드를 작성할 수 있습니다.  

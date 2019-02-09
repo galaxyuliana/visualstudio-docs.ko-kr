@@ -9,13 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 2a1a32f60f1cee19310af76e1f4b82a4dfe2f828
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 29424efe9b6d170033853e1959073406626b7be0
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55033286"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55928285"
 ---
 # <a name="understanding-the-dsl-code"></a>DSL 코드 이해
 도메인 특정 언어 (DSL) 솔루션을 읽고 Visual Studio에서 dsl 인스턴스를 업데이트 하는 데 사용할 수 있는 API를 생성 합니다. 이 API는 DSL 정의에서 생성되는 코드에서 정의됩니다. 이 항목에서는 생성되는 API에 대해 설명합니다.
@@ -59,7 +58,7 @@ ms.locfileid: "55033286"
 
  *YourDsl* `Schema.xsd`
 
- DSL 인스턴스를 포함하는 파일의 스키마입니다. 이 파일은 컴파일에 복사 (**bin**) 디렉터리입니다. DSL을 설치할 때이 파일을 복사할 수 있습니다 **\Program Files\Microsoft Visual Studio 11.0\Xml\Schemas** 모델 파일의 유효성을 검사할 수 있도록 합니다. 자세한 내용은 [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)합니다.
+ DSL 인스턴스를 포함하는 파일의 스키마입니다. 이 파일은 컴파일에 복사 (**bin**) 디렉터리입니다. DSL을 설치할 때이 파일을 복사할 수 있습니다 **\Program Files\Microsoft Visual Studio 11.0\Xml\Schemas** 모델 파일의 유효성을 검사할 수 있도록 합니다. 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.
 
  DSL 탐색기에서 옵션을 설정하여 serialization을 사용자 지정하면 스키마도 그에 따라 변경됩니다. 그러나 serialization 코드를 직접 작성하면 이 파일이 실제 스키마를 더 이상 나타내지 않을 수 있습니다. 자세한 내용은 [사용자 지정 파일 저장소 및 XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md)합니다.
 
@@ -138,7 +137,7 @@ ms.locfileid: "55033286"
 
  이 파일에는 도메인 클래스와 속성의 설명, 속성 이름, 도구 상자 레이블, 표준 오류 메시지, 사용자에게 표시될 수 있는 기타 문자열 등의 문자열이 포함됩니다. 또한 이미지 모양의 이미지와 도구 아이콘도 포함됩니다.
 
- 이 파일은 작성된 어셈블리로 바인딩되며 이러한 리소스의 기본값을 제공합니다. 리소스의 지역화된 버전을 포함하는 위성 어셈블리를 만들어 DSL을 지역화할 수 있습니다. 해당 버전은 지역화된 리소스와 일치하는 문화권에서 DSL을 설치할 때 사용됩니다. 자세한 내용은 [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)합니다.
+ 이 파일은 작성된 어셈블리로 바인딩되며 이러한 리소스의 기본값을 제공합니다. 리소스의 지역화된 버전을 포함하는 위성 어셈블리를 만들어 DSL을 지역화할 수 있습니다. 해당 버전은 지역화된 리소스와 일치하는 문화권에서 DSL을 설치할 때 사용됩니다. 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.
 
  `DomainRelationships.cs`
 
@@ -341,7 +340,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
 > [!WARNING]
 >  아이콘, 이미지 등의 리소스를 포함하도록 .tt 파일을 편집하는 경우에는 VSIX 빌드에 리소스가 포함되는지 확인해야 합니다. 솔루션 탐색기에서 파일을 선택 하 고 있는지 확인 합니다 **VSIX에 포함** 속성은 `True`합니다.
 
- 이 파일은 DSL을 VSIX(Visual Studio Integration Extension)로 패키징하는 방식을 제어합니다. 자세한 내용은 [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)합니다.
+ 이 파일은 DSL을 VSIX(Visual Studio Integration Extension)로 패키징하는 방식을 제어합니다. 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

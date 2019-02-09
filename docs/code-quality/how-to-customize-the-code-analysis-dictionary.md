@@ -1,7 +1,6 @@
 ---
 title: '방법: 코드 분석 사전 사용자 지정'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis dictionary
@@ -13,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 19ad0da444f99e0fbf618d97729c64a1e5ed5666
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 71ba70f536074365b3b0ead56b845216918f1a6f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54971821"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55919848"
 ---
 # <a name="how-to-customize-the-code-analysis-dictionary"></a>방법: 코드 분석 사전 사용자 지정
 코드 분석 맞춤법, 문법 경우 및.NET Framework 지침의 다른 명명 규칙에 대 한 오류에 대 한 코드의 식별자를 확인 하는 기본 제공 사전을 사용 합니다. 사용자 지정 사전을 Xml 파일을 추가, 제거 또는 수정 용어, 약어 및 기본 제공 사전에 머리 글자어를 만들 수 있습니다.
