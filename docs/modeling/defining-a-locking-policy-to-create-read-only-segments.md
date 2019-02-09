@@ -7,13 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 548840c3671b0760380c84520fe3a39238dfd19a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e53c91a641606f0ab4b29f9ce0357f4e9ee87022
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55027349"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55944632"
 ---
 # <a name="defining-a-locking-policy-to-create-read-only-segments"></a>잠금 정책을 정의하여 읽기 전용 세그먼트 만들기
 Visual Studio Visualization and Modeling SDK의 불변성 API는 프로그램을을 읽을 수 있지만 변경 되지 않도록 도메인 특정 언어 (DSL) 모델의 전체 또는 일부를 잠글 수 있습니다. 이 읽기 전용 옵션이 사용할 수 있습니다, 예를 들어 사용자 동료 들이 주석 달기 및 DSL 모델 검토를 요청할 수 있지만 원래 변경에서 차단할 수 있습니다.
@@ -96,7 +95,8 @@ partition.SetLocks(Locks.Delete);
 
  잠금 정책을 정의 하려면를 지정 해야 합니다.
 
--   <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>를 구현하는 클래스를 만듭니다.
+-   
+  <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>를 구현하는 클래스를 만듭니다.
 
 -   DSL의 DocData를 통해 사용할 수 있는 서비스에이 클래스를 추가 합니다.
 

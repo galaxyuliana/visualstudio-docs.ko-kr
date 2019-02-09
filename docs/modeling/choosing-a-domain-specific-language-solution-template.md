@@ -9,13 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: ca1cb693977a5197bdf6adfe399ed269e0211a00
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6b3e6d9812f06df6d4af65f624579ec5f6550515
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55071074"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55913316"
 ---
 # <a name="choosing-a-domain-specific-language-solution-template"></a>도메인별 언어 솔루션 템플릿 선택
 도메인별 언어 솔루션을 만들려면 도메인 특정 언어 디자이너 마법사에서 사용할 수 있는 솔루션 템플릿 중 하나를 선택 합니다. 서식 파일을 만들려고 할 수 있는 언어와 가장 유사한를 선택 하 여 시작 솔루션을 확인 해야 할 수정 작업을 최소화할 수 있습니다.

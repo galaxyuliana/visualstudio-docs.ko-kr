@@ -1,7 +1,6 @@
 ---
 title: 내장 함수
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - _String_length_
@@ -16,12 +15,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: 7781a1ac48945b2c272d5234ac7f4dcbd923b309
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 41ac8e38f501152d329e788572c500f68a8d2214
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53944524"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55907960"
 ---
 # <a name="intrinsic-functions"></a>내장 함수
 SAL의 식을 제공 하는 의도 하지 않은 식 C/c + + 식일 수 있습니다-예를 들어, + +,--를이 컨텍스트에서 의도 하지 않은 모든 함수 호출 합니다.  그러나 SAL는 일부 함수와 비슷한 개체 및 SAL 식에서 사용할 수 있는 일부 예약 된 기호를 제공 합니다. 이러한 이라고 *내장 함수*합니다.

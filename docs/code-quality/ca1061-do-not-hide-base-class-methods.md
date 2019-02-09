@@ -1,7 +1,6 @@
 ---
 title: 'CA1061: 기본 클래스 메서드를 숨기지 마십시오.'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - CA1061
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 57da84c7109826ff08a60ca5f2b808facaaa5ce9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: faa225178a50be080f92a728998e914025c17168
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54995613"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55947603"
 ---
 # <a name="ca1061-do-not-hide-base-class-methods"></a>CA1061: 기본 클래스 메서드를 숨기지 마십시오.
 

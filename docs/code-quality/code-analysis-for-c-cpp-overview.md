@@ -1,7 +1,6 @@
 ---
 title: C/C++용 코드 분석 개요
 ms.date: 04/28/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - annotations, code analysis
@@ -22,12 +21,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 534421fb2a455fafad785a3bc8d4e6e7013b3931
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 07ba2c64be0af987b82c870b89d3451b5d48d28f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53896398"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55947642"
 ---
 # <a name="code-analysis-for-cc-overview"></a>C/C++용 코드 분석 개요
 
@@ -57,7 +56,7 @@ C:\>cl /analyze Sample.cpp
 
 주석을 통해 코드 분석의 정확성을 개선 할 수 있습니다. 주석을 이용해 함수 매개변수나 반환 형식의 사전, 사후 조건에 대한 추가 정보를 제공할 수 있습니다. 자세한 내용은 [방법: __analysis_assume를 사용한 추가 코드 정보 지정](../code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md)을 참조하세요.
 
-## <a name="run-analysis-tool-as-part-of-check-in-policy"></a>체크 인 정책의 일부로 분석 도구를 실행 합니다.
+## <a name="run-analysis-tool-as-part-of-check-in-policy"></a>체크 인 정책의 일부로 분석 도구 실행
 
 모든 소스 코드 체크인이 특정 정책을 충족하도록 요구할 수 있습니다. 특히, 최신 로컬 빌드 과정에서 분석이 실행되도록 할 수 있습니다. 코드 분석 체크인 정책을 사용하도록 설정하는 방법에 대한 자세한 내용은 [코드 분석 체크인 정책 만들고 사용하기](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)를 참조하세요.
 
@@ -65,7 +64,7 @@ C:\>cl /analyze Sample.cpp
 
 빌드 시스템의 통합 기능을 사용하여 [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] 빌드 절차에 코드 분석 도구 실행 단계를 추가할 수 있습니다. 자세한 내용은 [Azure 파이프라인](/azure/devops/pipelines/index?view=vsts)을 참조합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [빠른 시작: C/c + + 용 코드 분석](quick-start-code-analysis-for-c-cpp.md)
 - [연습: 오류에 대 한 C/c + + 코드 분석](walkthrough-analyzing-c-cpp-code-for-defects.md)

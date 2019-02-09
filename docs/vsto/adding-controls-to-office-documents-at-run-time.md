@@ -1,7 +1,6 @@
 ---
 title: 런타임에 Office 문서에 컨트롤 추가
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -23,12 +22,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9dc71ba33180fa466b8d457d084faad05c61ec40
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 01daa9a0446cc35090e6e47787b338cc74a9b1c8
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54869189"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55944964"
 ---
 # <a name="add-controls-to-office-documents-at-runtime"></a>런타임에 Office 문서에 컨트롤 추가
   Microsoft Office Word 문서 및 런타임에 Microsoft Office Excel 통합 문서에 컨트롤을 추가할 수 있습니다. 런타임 시 이러한를 제거할 수도 있습니다. 추가 하거나 런타임 시 제거 하는 컨트롤 이라고 *동적 컨트롤*합니다.  

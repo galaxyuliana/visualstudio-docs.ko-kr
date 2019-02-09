@@ -4,7 +4,6 @@ decsprition: You must explicitly enable access to the Office VBA project system 
 titleSuffix: ''
 ms.custom: seodec18
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - vst.project.vbawrongversion
@@ -20,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1d95f3915cb3c8bd780247655058fdc9dd908df2
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 219b2e1bd3ff7690f19066f83e914e5d0b878a73
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54869361"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55945783"
 ---
 # <a name="enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-the-microsoft-office-system-project"></a>만들거나 Visual Studio Tools for the Microsoft Office system 프로젝트를 열고는 VBA에 대 한 액세스를 사용 하도록 설정
 

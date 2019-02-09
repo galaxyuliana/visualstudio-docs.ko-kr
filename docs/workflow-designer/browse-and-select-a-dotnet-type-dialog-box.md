@@ -2,7 +2,6 @@
 title: 워크플로 디자이너-찾아보기 및.NET 유형 선택 대화 상자
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 f1_keywords:
 - TypeBrowser.UI
 - ActivityTypeResolver.UI
@@ -12,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 5430e489b90a99a2bec2acc368a26671d7ffd4cb
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d7cbe3b0593b3a71c65667e78d7b0284cacc4538
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54995988"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55942195"
 ---
 # <a name="browse-and-select-a-net-type-dialog-box"></a>.NET 유형 선택 대화 상자
 

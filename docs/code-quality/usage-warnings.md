@@ -1,7 +1,6 @@
 ---
 title: 사용법 경고
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - vs.codeanalysis.usagerules
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 751b2e7f37ff57b980ca5d6c304dfa8ad7404128
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3b8f2deaa728a2bcd71bcd2264fcd110aee7982e
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55070515"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55945770"
 ---
 # <a name="usage-warnings"></a>사용법 경고
 사용량 경고는.NET Framework의 적절 한 사용을 지원합니다.
