@@ -7,13 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 55faad5ee76819320384d977100bf02e482b79ca
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 93a121a103d18d886fafa2368d8669276a8010e8
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54940130"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55938289"
 ---
 # <a name="get-started-with-domain-specific-languages"></a>도메인 특정 언어 시작
 
@@ -394,7 +393,7 @@ DSL 정의 저장할 각 변경 후 클릭 **모든 템플릿 변환** 에서 **
 
  DSL을 설치할 컴퓨터에 Visual Studio의 실험적 인스턴스를 사용할 필요가 없도록 동일한 절차를 사용할 수 있습니다.
 
- 자세한 내용은 [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)합니다.
+ 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.
 
 ##  <a name="Reset"></a> 오래 된 실험적 Dsl 제거
  더 이상 원하는 실험적 Dsl을 만든 경우 Visual Studio 실험적 인스턴스 다시 설정 하 여 컴퓨터에서 제거 수 없습니다.

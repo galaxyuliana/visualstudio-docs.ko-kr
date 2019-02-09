@@ -11,13 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: cc2527739c40802f3e21ea4fabebfc20fb09cdcc
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b44b32f98406e4692de97562bbf97e2656b3a7de
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54962133"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55937380"
 ---
 # <a name="properties-of-compartment-shapes"></a>구획 모양의 속성
 구획 도형은 도메인 특정 언어의 도메인 클래스를 표시 하 여 셰이프 중 하나입니다. 확장 및 구획을 축소할 수 있습니다.
@@ -28,7 +27,7 @@ ms.locfileid: "54962133"
 
 |속성|설명|기본|
 |-|-|-|
-|기본 확장 축소 상태|경우 `Expanded`, 생성 시 구획이 표시 됩니다. 경우 `Collapsed`, 않습니다.|확장됨|
+|기본 확장 축소 상태|경우 `Expanded`, 생성 시 구획이 표시 됩니다. 경우 `Collapsed`, 않습니다.|넓게|
 |채우기 색|이 도형의 채우기 색입니다.|하얀|
 |채우기 그라데이션 모드|이 도형의 채우기 그라데이션 모드입니다.|가로|
 |기 하 도형|이 셰이프 (직사각형 또는 모서리가 둥근 사각형)의 기 하 도형입니다.|사각형|

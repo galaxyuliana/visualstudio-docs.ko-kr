@@ -2,7 +2,6 @@
 title: SendAndReceiveReply 템플릿 디자이너-워크플로 디자이너
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
 f1_keywords:
 - System.ServiceModel.Activities.SendAndReceiveReply.UI
 - System.ServiceModel.Activities.ReceiveReply.UI
@@ -12,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 469e8ca3c325b04684e9481957c2e6bf9e14cffb
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c6731f91544235c3011e458aea7c4c5b90f89908
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54940416"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55907557"
 ---
 # <a name="sendandreceivereply-template-designer"></a>SendAndReceiveReply 템플릿 디자이너
 

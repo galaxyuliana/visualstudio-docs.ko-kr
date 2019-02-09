@@ -1,7 +1,6 @@
 ---
 title: '연습: 오류에 대한 C/C++ 코드 분석'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - C/C++, code analysis
@@ -13,12 +12,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 3a35bc07c9fe6478107162b625a824b6344898f1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 26635f9f6680931d02993613f96dcfcbe623af1d
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829513"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55919679"
 ---
 # <a name="walkthrough-analyzing-cc-code-for-defects"></a>연습: 오류에 대한 C/C++ 코드 분석
 
@@ -120,7 +119,7 @@ ms.locfileid: "53829513"
 
 6. 에 **오류 목록**, 다음 경고를 두 번 클릭 합니다.
 
-     경고 C6011: NULL 포인터 'newNode'를 역참조 합니다.
+     warning C6011: NULL 포인터 'newNode'를 역참조 합니다.
 
      이 경고는 반환 값을 확인 하려면 호출자가 오류를 나타냅니다. 이 경우 호출에서 **AllocateNode** NULL 값을 반환할 수 있습니다 (AllocateNode에 대 한 함수 선언에 대 한 annotations.h 헤더 파일 참조).
 
@@ -157,7 +156,7 @@ ms.locfileid: "53829513"
 
 3. 에 **오류 목록**, 다음 경고를 두 번 클릭 합니다.
 
-     경고 C6011: 'Node' NULL 포인터를 역참조 합니다.
+     warning C6011: 'Node' NULL 포인터를 역참조 합니다.
 
      이 경고는 함수에 전달 하는 노드는 null 일 수를 나타냅니다와 경고를 발생 하는 줄 번호를 나타냅니다.
 

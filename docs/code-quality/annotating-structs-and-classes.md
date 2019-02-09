@@ -1,7 +1,6 @@
 ---
 title: 구조체 및 클래스에 주석 지정
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - _Field_size_bytes_part_
@@ -25,12 +24,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: 25d3a964020cf9b5c885e52a948ad1fc229d44db
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e37d1ad27fab77e5aff1064ecc83e67ee7cc739d
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53948935"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55935058"
 ---
 # <a name="annotating-structs-and-classes"></a>구조체 및 클래스에 주석 지정
 고정 처럼 작동 하는 주석을 사용 하 여 구조체와 클래스 멤버에 주석을 달 수 있습니다-함수 진입/종료 바깥쪽 구조를 매개 변수나 결과 값을 포함 하는 또는 함수 호출에서 true가 될 것으로 가정 됩니다.
@@ -59,7 +58,7 @@ ms.locfileid: "53948935"
 
 -   `_Struct_size_bytes_(size)`
 
-     구조체 또는 클래스 선언에 적용 됩니다.  가 지정한 바이트 수를 사용 하 여 해당 형식의 유효한 개체를 선언된 된 형식 보다 클 수 있습니다 나타냅니다 `size`합니다.  예:
+     구조체 또는 클래스 선언에 적용 됩니다.  가 지정한 바이트 수를 사용 하 여 해당 형식의 유효한 개체를 선언된 된 형식 보다 클 수 있습니다 나타냅니다 `size`합니다.  예를 들어:
 
     ```cpp
 

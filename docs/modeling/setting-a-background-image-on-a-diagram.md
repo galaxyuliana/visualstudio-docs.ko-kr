@@ -7,13 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 992a3fe8c32c757425a0f223e37dfac32ea0a080
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c4b559b80613197dae62bc6246bd7ef1532d7071
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55037046"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55941168"
 ---
 # <a name="setting-a-background-image-on-a-diagram"></a>다이어그램에 배경 이미지 설정
 Visual Studio Visualization and Modeling SDK에서 사용자 지정 코드를 사용 하 여 생성된 된 디자이너의 배경 이미지를 설정할 수 있습니다.

@@ -1,7 +1,6 @@
 ---
 title: 'CA1303: 리터럴을 지역화된 매개 변수로 전달하지 마세요.'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - Do not pass literals as localized parameters
@@ -20,12 +19,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 7ca26a7c0a11915f1f68fab2ec4a6e4b3268f349
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5bdae3d0ee17624a2b168e5ce944ba10ab37fc8a
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55043351"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55907700"
 ---
 # <a name="ca1303-do-not-pass-literals-as-localized-parameters"></a>CA1303: 리터럴을 지역화된 매개 변수로 전달하지 마세요.
 
