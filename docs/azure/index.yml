@@ -1,10 +1,10 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: 2a4b94a26b8f22ee87e42a1f890c58ab1299524f
-ms.sourcegitcommit: 612f8c21d1448f1a013c30100cdecfbec5ddb24f
+ms.openlocfilehash: 4efe20ba0ff0b25dd0d05154aad2df81767569b4
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "55571085"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55928896"
 documentType: LandingData
 title: Visual Studio를 사용한 Azure 개발
 metadata:
@@ -12,7 +12,7 @@ metadata:
   description: Azure에 앱 및 서비스를 연결하고 Azure 서비스를 개발하는 방법에 대한 자습서 및 개념 문서입니다.
   author: ghogen
   manager: jillfra
-  ms.prod: visual-studio-dev15
+  ms.prod: visual-studio-windows
   ms.technology: vs-azure
   ms.topic: landing-page
   ms.date: 10/09/2018
