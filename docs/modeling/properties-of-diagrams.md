@@ -11,13 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: cf3405d74a1545bb86b1297b766faf46e68223a4
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 05c348edfa4665b138ac0f6069b0afaf6735da7a
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54942050"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55937364"
 ---
 # <a name="properties-of-diagrams"></a>다이어그램의 속성
 생성된 된 디자이너에서 다이어그램 모양을 지정 하는 속성을 설정할 수 있습니다. 예를 들어 다이어그램에 텍스트에 대 한 기본 색을 지정할 수 있습니다.

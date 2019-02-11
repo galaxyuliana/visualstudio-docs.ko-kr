@@ -1,7 +1,6 @@
 ---
 title: 문서 수준 사용자 지정 아키텍처
 ms.date: 02/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -20,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9e80fbe0244c897f626c6fba248447881a92594a
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: eab615c7ce03dbf5a2763a5081c32ea3e09317c9
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54868458"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55949182"
 ---
 # <a name="architecture-of-document-level-customizations"></a>문서 수준 사용자 지정 아키텍처
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] 에는 Microsoft Office Word 및 Microsoft Office Excel용 문서 수준 사용자 지정을 만드는 프로젝트가 포함되어 있습니다. 이 항목에서는 다음과 같은 문서 수준 사용자 지정의 측면에 대해 설명합니다.  
