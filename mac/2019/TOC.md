@@ -10,7 +10,7 @@
 
 # [사용자 계정](/visualstudio/mac/user-accounts)
 ## [로그인](/visualstudio/mac/signing-in)
-## [사용할 수 있는 구독](/visualstudio/mac/activation)
+## [사용할 수 있는 구독](/visualstudio/mac/enable-subscription)
 
 # [IDE 사용자 지정](/visualstudio/mac/customizing-the-ide)
 ## [Mac용 Visual Studio 확장](/visualstudio/mac/extending-visual-studio-mac)
