@@ -9,7 +9,7 @@
 
 # [사용자 계정](user-accounts.md)
 ## [로그인](signing-in.md)
-## [사용할 수 있는 구독](activation.md)
+## [사용할 수 있는 구독](enable-subscription.md)
 
 # [IDE 사용자 지정](customizing-the-ide.md)
 ## [Mac용 Visual Studio 확장](extending-visual-studio-mac.md)
