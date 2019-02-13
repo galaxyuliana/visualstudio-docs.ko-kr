@@ -2,7 +2,6 @@
 title: Python 프로젝트에 대한 사용자 지정 메뉴 명령 정의
 description: 프로젝트 및 대상 파일을 편집하여 Visual Studio의 Python 프로젝트 컨텍스트 메뉴에 사용자 지정 명령을 추가하여 실행 가능 프로그램, 스크립트, 모듈, 인라인 코드 조각 및 pip를 호출할 수 있습니다.
 ms.date: 11/12/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: d5ef751610510e6b167d2aa7975196d17cb1b72b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3d183041732b5170da4a7e8832346a93dec32451
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54965564"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55943092"
 ---
 # <a name="define-custom-commands-for-python-projects"></a>Python 프로젝트에 대한 사용자 지정 명령 정의
 
@@ -134,9 +133,9 @@ Visual Studio의 특정 Python 프로젝트 템플릿은 해당 *.targets* 파�
 
 | 특성 | 필수 | 설명 |
 | --- | --- | --- |
-| name | 예 | Visual Studio 프로젝트 내에서 명령에 대한 식별자입니다. 명렁을 Python 하위 메뉴에 표시하려면 이 이름을 명령에 대한 `<PythonCommands>` 속성 그룹에 추가해야 합니다. |
-| 레이블 | 예 | Python 하위 메뉴에 나타나는 UI 표시 이름입니다. |
-| 반환 값 | 예 | 대상을 명령으로 식별하는 `@(Commands)`를 포함해야 합니다. |
+| name | 적용 | Visual Studio 프로젝트 내에서 명령에 대한 식별자입니다. 명렁을 Python 하위 메뉴에 표시하려면 이 이름을 명령에 대한 `<PythonCommands>` 속성 그룹에 추가해야 합니다. |
+| 레이블 | 적용 | Python 하위 메뉴에 나타나는 UI 표시 이름입니다. |
+| 반환 값 | 적용 | 대상을 명령으로 식별하는 `@(Commands)`를 포함해야 합니다. |
 
 ### <a name="createpythoncommanditem-attributes"></a>CreatePythonCommandItem 특성
 
@@ -144,10 +143,10 @@ Visual Studio의 특정 Python 프로젝트 템플릿은 해당 *.targets* 파�
 
 | 특성 | 필수 | 설명 |
 | --- | --- | --- |
-| TargetType | 예 | 포함된 대상 특성 및 해당 특성이 Arguments 특성과 함께 사용되는 방법을 지정합니다.<ul><li>**실행 파일**: 대상에 이름이 지정된 실행 파일을 실행하여 인수의 값을 마치 명령줄에서 직접 입력한 것처럼 추가합니다. 값은 인수 없이 프로그램 이름만 포함해야 합니다.</li><li>**스크립트**: 대상에 파일 이름이 포함된 *python.exe*를 실행하면 인수의 값이 이어집니다.</li><li>**모듈**: `python -m` 뒤에 대상의 모듈 이름 및 그 뒤에 인수의 값을 실행합니다.</li><li>**코드**: 대상에 포함된 인라인 코드를 실행합니다. Arguments 값은 무시됩니다.</li><li>**pip**: 대상의 명령 및 그 뒤에 인수를 사용하여 `pip`를 실행합니다. ExecuteIn은 "output"으로 설정되지만 pip는 `install` 명령을 가정하고 대상을 패키지 이름으로 사용합니다.</li></ul> |
-| 대상 | 예 | TargetType에 따라 사용할 파일 이름, 모듈 이름, 코드 또는 pip 명령입니다. |
+| TargetType | 적용 | 포함된 대상 특성 및 해당 특성이 Arguments 특성과 함께 사용되는 방법을 지정합니다.<ul><li>**실행 파일**: 대상에 이름이 지정된 실행 파일을 실행하여 인수의 값을 마치 명령줄에서 직접 입력한 것처럼 추가합니다. 값은 인수 없이 프로그램 이름만 포함해야 합니다.</li><li>**스크립트**: 대상에 파일 이름이 포함된 *python.exe*를 실행하면 인수의 값이 이어집니다.</li><li>**모듈**: `python -m` 뒤에 대상의 모듈 이름 및 그 뒤에 인수의 값을 실행합니다.</li><li>**코드**: 대상에 포함된 인라인 코드를 실행합니다. Arguments 값은 무시됩니다.</li><li>**pip**: 대상의 명령 및 그 뒤에 인수를 사용하여 `pip`를 실행합니다. ExecuteIn은 "output"으로 설정되지만 pip는 `install` 명령을 가정하고 대상을 패키지 이름으로 사용합니다.</li></ul> |
+| 대상 | 적용 | TargetType에 따라 사용할 파일 이름, 모듈 이름, 코드 또는 pip 명령입니다. |
 | 인수 | Optional | 대상에 부여할 인수(있는 경우)의 문자열을 지정합니다. TargetType이 `script`이면 *python.exe*가 아닌 Python 프로그램에 인수가 지정됩니다. `code` TargetType에 대해서는 무시됩니다. |
-| ExecuteIn | 예 | 명령을 실행할 환경을 지정합니다.<ul><li>**콘솔**: (기본값) 대상 및 인수를 마치 명령줄에서 직접 입력한 것처럼 실행합니다. Target이 실행되는 동안 명령 창이 표시되었다가 자동으로 닫힙니다.</li><li>**consolepause**: 콘솔과 같지만 키 누르기를 기다렸다가 창을 닫습니다.</li><li>**출력**: 대상을 실행하고 그 결과를 Visual Studio의 **출력** 창에 표시합니다. TargetType이 "pip"인 경우 Visual Studio는 Target을 패키지 이름으로 사용하고 Arguments를 추가합니다.</li><li>**repl**: [Python 대화형](python-interactive-repl-in-visual-studio.md) 창에서 대상을 실행합니다. 창의 제목에 선택적 표시 이름이 사용됩니다.</li><li>**none**: console과 같이 동작합니다.</li></ul>|
+| ExecuteIn | 적용 | 명령을 실행할 환경을 지정합니다.<ul><li>**콘솔**: (기본값) 대상 및 인수를 마치 명령줄에서 직접 입력한 것처럼 실행합니다. Target이 실행되는 동안 명령 창이 표시되었다가 자동으로 닫힙니다.</li><li>**consolepause**: 콘솔과 같지만 키 누르기를 기다렸다가 창을 닫습니다.</li><li>**출력**: 대상을 실행하고 그 결과를 Visual Studio의 **출력** 창에 표시합니다. TargetType이 "pip"인 경우 Visual Studio는 Target을 패키지 이름으로 사용하고 Arguments를 추가합니다.</li><li>**repl**: [Python 대화형](python-interactive-repl-in-visual-studio.md) 창에서 대상을 실행합니다. 창의 제목에 선택적 표시 이름이 사용됩니다.</li><li>**none**: console과 같이 동작합니다.</li></ul>|
 | 시작 위치 | Optional | 명령을 실행할 폴더입니다. |
 | ErrorRegex<br>WarningRegEx | Optional | ExecuteIn이 `output`인 경우에만 사용됩니다. 두 값 모두 Visual Studio가 명령 출력을 구문 분석하여 해당 **오류 목록** 창에 오류 및 경고를 표시하는 정규식을 지정합니다. 지정되지 않은 경우 이 명령은 **오류 목록** 창에 영향을 미치지 않습니다. Visual Studio에서 예상되는 내용에 대한 자세한 내용은 [명명된 캡처 그룹](#named-capture-groups-for-regular-expressions)을 참조하세요. |
 | RequiredPackages | Optional | [*requirements.txt*](https://pip.readthedocs.io/en/1.1/requirements.html)와 같은 형식을 사용하는 명령에 대한 패키지 요구 사항의 목록입니다(pip.readthedocs.io). 예를 들어 **PyLint 실행** 명령은 `pylint>=1.0.0`을 지정합니다. 명령을 실행하기 전에 Visual Studio은 목록의 모든 패키지가 설치되었는지 확인합니다. Visual Studio는 pip를 사용하여 누락된 패키지를 설치합니다. |
