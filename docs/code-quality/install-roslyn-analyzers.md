@@ -24,7 +24,7 @@ Visual Studio 2017에는.NET 컴파일러 플랫폼의 핵심 집합을 포함 (
 
 ## <a name="to-install-nuget-analyzer-packages"></a>NuGet 분석기 패키지를 설치 하려면
 
-1. www.nuget.org 설치 하려는 분석기 패키지를 찾습니다. 예를 들어, 하려는 [Microsoft FxCop 분석기 설치](install-fxcop-analyzers.md#to-install-fxcop-analyzers-as-a-nuget-package) 특히 보안과 성능 문제에 대 한 코드를 확인 합니다.
+1.  www.nuget.org 설치 하려는 분석기 패키지를 찾습니다. 예를 들어, 하려는 [Microsoft FxCop 분석기 설치](install-fxcop-analyzers.md#to-install-fxcop-analyzers-as-a-nuget-package) 특히 보안과 성능 문제에 대 한 코드를 확인 합니다.
 
 2. 사용 하 여 Visual Studio에서 패키지를 설치 합니다 [패키지 관리자 콘솔](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) 또는 [패키지 관리자 UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console)합니다.
 
