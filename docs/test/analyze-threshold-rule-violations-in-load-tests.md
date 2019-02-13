@@ -15,13 +15,12 @@ ms.assetid: 969ed346-cf2e-4d48-82b3-edb3e075e1c0
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: c810cea20a33760e1cb197b353bd1ced3664aa7e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4a7cd36fcb144eaa098acc30a7da550b1288684a
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54997262"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55943404"
 ---
 # <a name="analyzing-threshold-rule-violations-in-load-tests-using-the-load-test-analyzer"></a>부하 테스트 분석기를 사용하여 부하 테스트에서 임계값 규칙 위반 분석
 
@@ -37,12 +36,12 @@ ms.locfileid: "54997262"
 
 |열|설명|기본적으로 표시되는지 여부|
 |-|-|-|
-|시간|부하 테스트 도중 위반이 발생한 시간입니다.|예|
-|컴퓨터|테스트 도중 위반이 발생한 컴퓨터의 이름입니다. **참고:**  Rig에서 부하 테스트를 실행하는 경우 이 정보가 중요합니다.|예|
-|범주|위반이 발생한 성능 카운터 범주입니다.|예|
-|카운터|위반이 발생한 성능 카운터 이름입니다.|예|
-|인스턴스|위반이 발생한 성능 카운터 인스턴스입니다.|예|
-|메시지|임계값 위반을 설명하는 메시지입니다. 예: **값 5가 중요 임계값 0을 초과합니다.**|예|
+|시간|부하 테스트 도중 위반이 발생한 시간입니다.|적용|
+|컴퓨터|테스트 도중 위반이 발생한 컴퓨터의 이름입니다. **참고:**  Rig에서 부하 테스트를 실행하는 경우 이 정보가 중요합니다.|적용|
+|범주|위반이 발생한 성능 카운터 범주입니다.|적용|
+|카운터|위반이 발생한 성능 카운터 이름입니다.|적용|
+|인스턴스|위반이 발생한 성능 카운터 인스턴스입니다.|적용|
+|메시지|임계값 위반을 설명하는 메시지입니다. 예: **값 5가 중요 임계값 0을 초과합니다.**|적용|
 
 > [!NOTE]
 > 열 머리글을 선택하여 테이블을 정렬할 수 있습니다.

@@ -1,7 +1,6 @@
 ---
 title: -RunExit(devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - RunExit Devenv switch
@@ -13,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c3d426ec4737d2024a4dd24e74753fc216181536
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3fa010e72267dadfb1974f7ce8be3b6b9a3e1cff
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069815"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55936397"
 ---
 # <a name="runexit-devenvexe"></a>/RunExit(devenv.exe)
 
@@ -52,7 +51,7 @@ devenv /RunExit {SolutionName|ProjectName} [/Out OutputFilename]
 
 - 오류를 포함한 요약 정보는 **명령** 창 또는 `/Out` 스위치로 지정된 로그 파일에 표시할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 이 예제에서는 활성 배포 구성을 사용하여 최소화된 IDE에서 `MySolution` 솔루션을 실행한 다음 IDE를 닫습니다.
 

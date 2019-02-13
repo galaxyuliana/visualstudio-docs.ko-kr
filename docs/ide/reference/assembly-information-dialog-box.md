@@ -1,7 +1,6 @@
 ---
 title: 어셈블리 정보 대화 상자
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - vb.ProjectPropertiesAssemblyInfo
@@ -13,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5e6214ec04dbf45e7d6b5a973babe4c7d95b571b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8b79d1b0a4b59246c9497c0594047c6457c1b685
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55020089"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55930014"
 ---
 # <a name="assembly-information-dialog-box"></a>어셈블리 정보 대화 상자
 **어셈블리 정보** 대화 상자는 프로젝트에서 자동으로 만들어진 AssemblyInfo 파일에 저장된 [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] 전역 어셈블리 특성의 값을 지정하는 데 사용됩니다. **솔루션 탐색기**에서 파일은 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]의 **내 프로젝트** 노드에 있고(파일을 보려면 **모든 파일 표시** 클릭). [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]의 **속성** 아래에 있습니다. 어셈블리 특성에 대한 자세한 내용은 [특성(C# 및 Visual Basic)](https://msdn.microsoft.com/Library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)을 참조하세요.

@@ -12,13 +12,12 @@ ms.assetid: 27806972-1b15-4388-833d-6d0632816f1f
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 92a974d233e2d449148a515f3e7bf39f89a95f20
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 33927bcebbd4cffbed912d66dd723856af8b11d7
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54967156"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55948877"
 ---
 # <a name="how-to-create-a-load-test-plug-in"></a>방법: 부하 테스트 플러그 인 만들기
 
@@ -100,7 +99,7 @@ ms.locfileid: "54967156"
     > 1.  웹 성능 및 부하 테스트 프로젝트에서는 참조에 경고가 표시됩니다. 참조를 제거했다가 플러그 인 DLL에 다시 추가합니다.
     > 2.  테스트 또는 적절한 위치에서 플러그 인을 제거했다가 다시 추가합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 코드에서는 LoadTestFinished 이벤트가 발생한 후 사용자 지정 코드를 실행하는 부하 테스트 플러그 인을 보여 줍니다. 이 코드가 원격 컴퓨터의 테스트 에이전트에서 실행되는 경우 테스트 에이전트에 localhost SMTP 서비스가 없으면 메시지 상자가 열려 있으므로 부하 테스트가 "진행 중" 상태로 유지됩니다.
 

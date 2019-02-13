@@ -1,7 +1,6 @@
 ---
 title: Blend의 직접 선택 도구 보조 키
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 21f9b951-dc2b-4d09-bd70-75caed8fb964
 author: gewarren
@@ -9,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a56279d9b7bd773bd56d260abe9944e653f78148
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 955968137e1f8d2ba1322f5ccf9be2eac6196580
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55029705"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55940258"
 ---
 # <a name="direct-selection-tool-modifier-keys-in-blend"></a>Blend의 직접 선택 도구 보조 키
 다음 표에는 **직접 선택** 도구 ![직접 선택 도구](../designers/media/6dd6571f-c116-451d-8dd2-1f88b8406362.png)를 사용하여 기존 경로의 모양을 수정하는 데 사용할 수 있는 바로 가기가 나와 있습니다. 기존 패스에서 점을 추가 또는 제거하거나 두 개의 기존 패스를 조인하려면 **펜** 도구를 사용합니다.

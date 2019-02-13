@@ -1,7 +1,6 @@
 ---
 title: -Command(devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - Devenv, /Command switch
@@ -13,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 65c9533a12b8c3f5cd163889315c613b65ff6523
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: cf8f72f0d9b0c2d847ddb2c5e7e6c3c8d4ae4467
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55002589"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55932497"
 ---
 # <a name="command-devenvexe"></a>/Command (devenv.exe)
 
@@ -42,7 +41,7 @@ devenv /Command CommandName
 
 추가 기능이 명령을 표시할 경우에는 이 스위치를 사용하여 명령줄에서 추가 기능을 시작할 수 있습니다. 자세한 내용은 [방법: 추가 기능 관리자를 사용하여 추가 기능 제어](/previous-versions/xwdatdwh(v=vs.140))를 참조하세요.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 첫 번째 예제에서는 Visual Studio를 시작하고 Open Favorite Files(즐겨찾기 파일 열기) 매크로를 자동으로 실행합니다.
 

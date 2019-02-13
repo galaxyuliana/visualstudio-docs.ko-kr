@@ -1,7 +1,6 @@
 ---
 title: 스레드 목록 표시 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - debug.listthreads
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8f4d8706b41448289e5e653ee431ba56fb7d957f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 44c66eab323f42ba3aa5392fed657e3afd3a6e5c
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55031502"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55947018"
 ---
 # <a name="list-threads-command"></a>스레드 목록 표시 명령
 현재 프로그램의 스레드 목록을 표시합니다.
@@ -39,7 +38,7 @@ Debug.ListThreads [index]
 ## <a name="remarks"></a>주의
  지정하는 경우 `index` 인수는 현재 스레드로 지정된 스레드를 표시합니다. 별표(*)는 현재 스레드 옆에 있는 목록에 표시됩니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```
 >Debug.ListThreads

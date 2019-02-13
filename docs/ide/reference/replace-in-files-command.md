@@ -1,7 +1,6 @@
 ---
 title: 파일에서 바꾸기 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - edit.replaceinfiles
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e5187c3f914a9c276cdc546691b24f123721a7af
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a87b4dcff0bd626947a0d98822150d03fc7c7059
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54990084"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55935656"
 ---
 # <a name="replace-in-files-command"></a>파일에서 바꾸기 명령
 **찾기 및 바꾸기** 창의 **파일에서 바꾸기**에서 사용할 수 있는 옵션의 하위 집합을 사용하여 파일의 텍스트를 바꿉니다.
@@ -99,7 +98,7 @@ Edit.ReplaceinFiles findwhat replacewith [/all] [/case]
 
  선택 사항입니다. 단어 단위로 검색합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  이 예제에서는 `btnCancel`을 검색하고, "내 Visual Studio 프로젝트" 폴더에 있는 모든 .cls 파일에서 `btnReset`으로 바꾸고, **찾기 결과 2** 창에서 대체 정보를 표시합니다.
 
 ```

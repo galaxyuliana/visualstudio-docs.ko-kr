@@ -3,7 +3,6 @@ title: C# 개발자를 위한 편집 소개
 description: Visual Studio의 코드 편집기에 대한 이 10분 소개에서는 Visual Studio에서 C# 코드를 보다 쉽게 작성, 탐색 및 이해하는 몇 가지 방법을 보여줍니다.
 ms.custom: seodec18, get-started
 ms.date: 11/20/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: tutorial
 author: gewarren
@@ -13,12 +12,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: dc0e143b4ff84422a344caae1e50e88f47af5eeb
-ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
+ms.openlocfilehash: ebcf76f07eadaee6402facb4fa62a3ac309ebbac
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55424566"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55933160"
 ---
 # <a name="learn-to-use-the-code-editor"></a>코드 편집기를 사용하는 방법 알아보기
 

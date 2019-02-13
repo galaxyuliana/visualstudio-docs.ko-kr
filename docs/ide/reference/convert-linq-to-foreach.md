@@ -1,7 +1,6 @@
 ---
 title: LINQ 쿼리를 foreach 문으로 변환하도록 코드 리팩터링
 ms.date: 05/15/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
@@ -10,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: e8d19f86578e2aebda4e6c497d0c2d89c4826d8f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9e58b9af583c6183a12f611bcc527443bc9bd30a
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54960154"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55949605"
 ---
 # <a name="refactoring-to-convert-linq-to-a-foreach-statement"></a>LINQ를 foreach 문으로 변환하도록 리팩터링
 

@@ -2,7 +2,6 @@
 title: '방법: IDE 접근성 옵션 설정'
 description: 시각 장애인의 읽기와 손 장애인의 쓰기를 포함해 IDE(통합 개발 환경)가 모든 이의 사용을 도와줄 Visual Studio의 접근성 옵션을 설정 하는 방법에 대해 알아봅니다.
 ms.date: 08/22/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - accessibility [Visual Studio]
@@ -12,12 +11,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2ac057edf27661403185fb31e5ca9364c629bd38
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: aad7b5896ce8f090ef627fe9d08b0eae506a42cc
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54982418"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55928441"
 ---
 # <a name="how-to-set-ide-accessibility-options"></a>방법: IDE 접근성 옵션 설정
 
