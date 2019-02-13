@@ -1,7 +1,6 @@
 ---
 title: UWP 앱에 대한 단위 테스트 만들기 및 실행
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, creating
@@ -13,12 +12,12 @@ manager: jillfra
 ms.workload:
 - uwp
 author: gewarren
-ms.openlocfilehash: 3495cef6fd14e6f8cf56da0838f1649c3a3fcb25
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f02880e512f1030de0c53e2b68b463ac5ce2703a
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54981548"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55941112"
 ---
 # <a name="walkthrough-create-and-run-unit-tests-for-uwp-apps"></a>연습: UWP 앱의 유닛 테스트 만들기 및 실행
 

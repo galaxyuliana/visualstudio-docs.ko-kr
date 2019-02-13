@@ -1,7 +1,6 @@
 ---
 title: 주 어셈블리 및 지역화된 위성 어셈블리의 버전 번호
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - satellite assemblies, version numbers
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c6776df2bd0edf6fc639604e6b00502dbf83f657
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4ca6724a78ca6b01a5d893b06e01674a35abc7f1
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54925552"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55940674"
 ---
 # <a name="version-numbers-for-main-and-localized-satellite-assemblies"></a>주 어셈블리 및 지역화된 위성 어셈블리의 버전 번호
 <xref:System.Resources.SatelliteContractVersionAttribute> 클래스는 Resource Manager를 통해 지역화된 리소스를 사용하는 주 어셈블리에 대한 버전 관리 지원을 제공합니다. <xref:System.Resources.SatelliteContractVersionAttribute>를 애플리케이션의 주 어셈블리에 적용하면 위성 어셈블리를 업데이트하지 않고 어셈블리를 업데이트 및 재배포할 수 있습니다. 예를 들어 위성 어셈블리를 다시 빌드 및 다시 배포하지 않고 새 리소스를 도입하지 않은 서비스 팩과 함께 <xref:System.Resources.SatelliteContractVersionAttribute> 클래스를 사용할 수 있습니다. 지역화된 리소스를 사용하려면 주 어셈블리의 위성 계약 버전이 위성 어셈블리의 <xref:System.Reflection.AssemblyVersionAttribute> 클래스와 일치해야 합니다. <xref:System.Resources.SatelliteContractVersionAttribute>에서 정확한 버전 번호를 지정하고 와일드카드 문자(예: “*”)는 허용되지 않습니다. 자세한 내용은 [리소스 검색](/dotnet/framework/resources/retrieving-resources-in-desktop-apps)을 참조하세요.

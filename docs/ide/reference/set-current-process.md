@@ -1,7 +1,6 @@
 ---
 title: 현재 프로세스 설정
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - Debug.SetCurrentProcess command
@@ -12,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f139e204fe24b105c467f9698b78c1764521706c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 24f4c08147f72168f5207418a51d7a9cfa8a2b51
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54977137"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55938438"
 ---
 # <a name="set-current-process"></a>현재 프로세스 설정
 디버거에서 지정한 프로세스를 활성 프로세스로 설정합니다.
@@ -36,7 +35,7 @@ Debug.SetCurrentProcess index
 ## <a name="remarks"></a>주의
  디버그하는 동안 여러 프로세스에 연결할 수 있지만 한 번에 프로세스 하나만 디버거에서 활성화됩니다. `SetCurrentProcess` 명령을 사용하여 활성 프로세스를 설정할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```cmd
 >Debug.SetCurrentProcess 1

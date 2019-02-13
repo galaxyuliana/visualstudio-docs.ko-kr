@@ -3,7 +3,6 @@ title: Visual Basic 개발자를 위한 편집 소개
 description: Visual Studio의 코드 편집기에 대한 이 10분 소개에서는 Visual Studio에서 Visual Basic 코드를 보다 쉽게 작성, 탐색 및 이해하는 몇 가지 방법을 보여줍니다.
 ms.custom: seodec18, get-started
 ms.date: 11/20/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: tutorial
 author: gewarren
@@ -13,12 +12,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: b2183b12f1614adf7939c17b3e260cebb1c3238b
-ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
+ms.openlocfilehash: baed4947d6e31cb06a64f04b0cb68d17d31c6f2f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55424488"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55939478"
 ---
 # <a name="learn-to-use-the-code-editor"></a>코드 편집기를 사용하는 방법 알아보기
 
