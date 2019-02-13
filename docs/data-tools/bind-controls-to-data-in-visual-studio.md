@@ -11,15 +11,14 @@ ms.assetid: be8b6623-86a6-493e-ab7a-050de4661fd6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: ff7c2db3fc1032e08a9e15f17ca6ae1af6d9373b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 32b392f59fb0ac587730d2aa432ca11d91d5a9ea
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54991634"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55939764"
 ---
 # <a name="bind-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 컨트롤 바인딩
 
@@ -33,16 +32,16 @@ ms.locfileid: "54991634"
 
 | 데이터 원본 | **Windows Forms 디자이너**에서의 끌어서 놓기 지원 | **WPF 디자이너**에서의 끌어서 놓기 지원 | **Silverlight 디자이너**에서의 끌어서 놓기 지원 |
 | - | - | - | - |
-| 데이터 집합 | 예 | 예 | 아니요 |
-| 엔터티 데이터 모델 | 예<sup>1</sup> | 예 | 예 |
+| 데이터 집합 | 적용 | 예 | 아니요 |
+| 엔터티 데이터 모델 | 예<sup>1</sup> | 적용 | 적용 |
 | LINQ to SQL 클래스 | No<sup>2</sup> | No<sup>2</sup> | No<sup>2</sup> |
-| [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF 서비스, 웹 서비스 등의 서비스 | 예 | 예 | 예 |
-| Object | 예 | 예 | 예 |
-| SharePoint | 예 | 예 | 예 |
+| [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF 서비스, 웹 서비스 등의 서비스 | 적용 | 예 | 적용 |
+| Object | 적용 | 예 | 적용 |
+| SharePoint | 적용 | 예 | 적용 |
 
 1. 사용 하 여 모델을 생성 합니다 **엔터티 데이터 모델** 마법사 다음 해당 개체를 디자이너로 끌어 옵니다.
 
-2. LINQ to SQL 클래스는 **데이터 원본** 창에 표시되지 않습니다. 그러나 LINQ to SQL 클래스에 기반하는 개체 데이터 소스를 새로 만든 다음 해당 개체를 디자이너로 끌어 와 데이터 바인딩된 컨트롤을 만들 수는 있습니다. 자세한 내용은 [연습: LINQ to SQL 클래스 만들기(O/R 디자이너)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md).
+2. LINQ to SQL 클래스는 **데이터 원본** 창에 표시되지 않습니다. 그러나 LINQ to SQL 클래스에 기반하는 개체 데이터 소스를 새로 만든 다음 해당 개체를 디자이너로 끌어 와 데이터 바인딩된 컨트롤을 만들 수는 있습니다. 자세한 내용은 [연습: 만들기 LINQ to SQL 클래스 (O-r 디자이너)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)합니다.
 
 ## <a name="data-sources-window"></a>데이터 소스 창
 

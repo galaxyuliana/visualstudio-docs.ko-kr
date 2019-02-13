@@ -14,15 +14,14 @@ ms.assetid: e05a1e0c-5082-479d-bbc9-d395b0bc6580
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: b1359371cc7a10ceb3056660a7b445f47e950247
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 00cc931a75dee9d3762e94ca522e4d060584840b
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54918272"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55939101"
 ---
 # <a name="bind-wpf-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 WPF 컨트롤 바인딩
 
@@ -53,10 +52,10 @@ Visual Studio에서 데이터 바인딩된 컨트롤을 만드는 방법에 대 
 
 | 데이터 원본 | 데이터 소스에 컨트롤을 바인딩하는 XAML을 생성합니다. | 데이터 소스를 데이터로 채우는 코드를 생성합니다. |
 | - | - | - |
-| 데이터 집합 | 예 | 예 |
-| [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] | 예 | 예 |
-| 서비스 | 예 | 아니요 |
-| Object | 예 | 아니요 |
+| 데이터 집합 | 적용 | 예 |
+| [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] | 예 | 적용 |
+| 서비스 | 적용 | 아니요 |
+| Object | 적용 | 아니요 |
 
 ### <a name="datasets"></a>데이터 세트
 
