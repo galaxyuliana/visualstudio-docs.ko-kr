@@ -13,15 +13,14 @@ ms.assetid: cfe274f0-71fe-40f6-994e-7c7f6273c9ba
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 8f349887512cdfb9a98d64b0880eda45ecd5c186
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 611accb591b63f31ffe6a14535d470f2807f0e99
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54970229"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55951737"
 ---
 # <a name="create-relationships-between-datasets"></a>데이터 세트 간 관계 만들기
 관련된 데이터를 포함 하는 데이터 집합에 사용 하 여 테이블 <xref:System.Data.DataRelation> 서로 관련된 레코드를 반환 하 고 테이블 간의 부모/자식 관계를 나타내는 개체입니다. 관련된 테이블을 사용 하 여 데이터 집합에 추가 합니다 **데이터 소스 구성 마법사**, 또는 **데이터 집합 디자이너**생성 하 고 구성 합니다 <xref:System.Data.DataRelation> 개체입니다.
@@ -59,7 +58,7 @@ Unique 제약 조건을 구현 됩니다 설정 하 여 하나를 <xref:System.D
 |외래 키 제약 조건 규칙|작업|
 | - |------------|
 |<xref:System.Data.Rule.Cascade>|자식 테이블에서 관련된 레코드의 부모 레코드에 대 한 변경 (update 또는 delete)도 만들어집니다.|
-|<xref:System.Data.Rule.SetNull>|자식 레코드는 삭제 되지 않지만 자식 레코드의 외래 키로는 <xref:System.DBNull>합니다. 이 설정을 사용 하 여 자식 레코드도 유지할 수 있습니다 "고아"-즉, 부모 레코드 아무런 관계가 갖습니다. **참고:** 이 규칙을 사용 하 여 자식 테이블에 잘못 된 데이터가 될 수 있습니다.|
+|<xref:System.Data.Rule.SetNull>|자식 레코드는 삭제 되지 않지만 자식 레코드의 외래 키로는 <xref:System.DBNull>합니다. 이 설정을 사용 하 여 자식 레코드도 유지할 수 있습니다 "고아"-즉, 부모 레코드 아무런 관계가 갖습니다. **참고:** 자식 테이블에 잘못 된 데이터가이 규칙을 사용 하 여 발생할 수 있습니다.|
 |<xref:System.Data.Rule.SetDefault>|관련된 자식 레코드의 외래 키가 기본값으로 설정 (열에서 설정한 <xref:System.Data.DataColumn.DefaultValue%2A> 속성).|
 |<xref:System.Data.Rule.None>|관련 된 자식 레코드에 변경 되지 않습니다. 이 설정을 사용 하 여 자식 레코드는 잘못 된 부모 레코드에 대 한 참조를 포함할 수 있습니다.|
 

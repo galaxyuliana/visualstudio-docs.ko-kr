@@ -6,15 +6,14 @@ ms.assetid: 45e477c0-5c6b-41f9-b2d0-2808fb4f6537
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: fd5a496ea53bf7958385e6d8fdf106c9bf45afb3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4105a93d4ad459c8bc1cb3a7a20b37c69f311c12
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55043611"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55931639"
 ---
 # <a name="linq-to-sql-tools-in-visual-studio"></a>Visual Studio의 LINQ to SQL 도구
 
@@ -49,7 +48,7 @@ Visual Studio 만듭니다는 *.dbml* 파일을 솔루션에 추가 합니다. �
 
 ## <a name="create-entity-classes-that-map-to-database-tables-and-views"></a>데이터베이스 테이블 및 뷰에 매핑되는 엔터티 클래스 만들기
 
-데이터베이스 테이블 및 뷰를 끌어 테이블 및 뷰에 매핑된 엔터티 클래스를 만들 수 있습니다 **서버 탐색기** 하거나 **데이터베이스 탐색기** 에 **O/R 디자이너**합니다. 이전 섹션에서 설명한 것처럼 <xref:System.Data.Linq.DataContext>는 디자인 화면으로 끌어온 첫 번째 항목에서 제공된 연결 정보를 사용하여 구성됩니다. 다른 연결을 사용 하는 후속 항목에 추가 됩니다는 **O/R 디자이너**에 대 한 연결을 변경할 수는 <xref:System.Data.Linq.DataContext>합니다. 자세한 내용은 [방법: 테이블 및 보기에 매핑된 LINQ to SQL 클래스 만들기(O/R 디자이너)](../data-tools/how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)를 참조하세요.
+데이터베이스 테이블 및 뷰를 끌어 테이블 및 뷰에 매핑된 엔터티 클래스를 만들 수 있습니다 **서버 탐색기** 하거나 **데이터베이스 탐색기** 에 **O/R 디자이너**합니다. 이전 섹션에서 설명한 것처럼 <xref:System.Data.Linq.DataContext>는 디자인 화면으로 끌어온 첫 번째 항목에서 제공된 연결 정보를 사용하여 구성됩니다. 다른 연결을 사용 하는 후속 항목에 추가 됩니다는 **O/R 디자이너**에 대 한 연결을 변경할 수는 <xref:System.Data.Linq.DataContext>합니다. 자세한 내용은 [방법: 만들 매핑된 LINQ to SQL 클래스 테이블 및 뷰 (O/R 디자이너)](../data-tools/how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)합니다.
 
 ## <a name="create-datacontext-methods-that-call-stored-procedures-and-functions"></a>저장된 프로시저 및 함수를 호출 하는 DataContext 메서드 만들기
 
@@ -60,11 +59,11 @@ Visual Studio 만듭니다는 *.dbml* 파일을 솔루션에 추가 합니다. �
 
 ## <a name="configure-a-datacontext-to-use-stored-procedures-to-save-data-between-entity-classes-and-a-database"></a>엔터티 클래스와 데이터베이스 간에 데이터를 저장 하려면 저장된 프로시저를 사용 하도록 DataContext 구성
 
-앞에서 설명한 대로 저장 프로시저 및 함수를 호출하는 <xref:System.Data.Linq.DataContext> 메서드를 만들 수 있습니다. 또한 기본 LINQ to SQL 런타임 동작을 수행 하는 삽입, 업데이트 및 삭제에 사용 되는 저장된 프로시저를 할당할 수 있습니다. 자세한 내용은 [방법: 저장 프로시저를 할당하여 업데이트, 삽입 및 삭제 수행(O/R 디자이너)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)을 참조하세요.
+앞에서 설명한 대로 저장 프로시저 및 함수를 호출하는 <xref:System.Data.Linq.DataContext> 메서드를 만들 수 있습니다. 또한 기본 LINQ to SQL 런타임 동작을 수행 하는 삽입, 업데이트 및 삭제에 사용 되는 저장된 프로시저를 할당할 수 있습니다. 자세한 내용은 [방법: 업데이트, 삽입 및 삭제 (O/R 디자이너)를 수행 하는 저장된 프로시저를 할당](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)합니다.
 
 ## <a name="inheritance-and-the-or-designer"></a>상속 및 O/R 디자이너
 
-다른 개체와 마찬가지로 LINQ to SQL 클래스 상속을 사용할 수 및 다른 클래스에서 파생 되어야 합니다. 데이터베이스에서 상속 관계는 여러 가지 방법으로 만들어집니다. 합니다 **O/R 디자이너** 관계형 시스템에서 주로 구현 되는 단일 테이블 상속 개념을 지원 합니다. 자세한 내용은 [방법: O/R 디자이너를 사용하여 상속 구성](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)을 참조하세요.
+다른 개체와 마찬가지로 LINQ to SQL 클래스 상속을 사용할 수 및 다른 클래스에서 파생 되어야 합니다. 데이터베이스에서 상속 관계는 여러 가지 방법으로 만들어집니다. 합니다 **O/R 디자이너** 관계형 시스템에서 주로 구현 되는 단일 테이블 상속 개념을 지원 합니다. 자세한 내용은 [방법: O/R 디자이너를 사용 하 여 상속 구성](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)합니다.
 
 ## <a name="linq-to-sql-queries"></a>LINQ to SQL 쿼리
 

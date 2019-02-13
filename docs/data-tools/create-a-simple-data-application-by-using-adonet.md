@@ -9,15 +9,14 @@ ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 833f4fba621c41a51adca1368c784df313419f97
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 36fc5dd306782779f553d4144c272c91c7e0f0af
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54945517"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55929403"
 ---
 # <a name="create-a-simple-data-application-by-using-adonet"></a>ADO.NET을 사용하여 간단한 데이터 애플리케이션 만들기
 
@@ -60,7 +59,7 @@ ms.locfileid: "54945517"
 
 7. T-SQL 스크립트, 쿼리 편집기에 붙여넣고 선택한 합니다 **Execute** 단추입니다.
 
-     짧은 시간 후 쿼리 실행이 완료 하 고 데이터베이스 개체 생성 됩니다. 데이터베이스에는 두 개의 테이블이 있습니다. 고객과 주문입니다. 이러한 테이블에 데이터가 없는 처음에 있지만 앞으로 만들 응용 프로그램을 실행 하는 경우 데이터를 추가할 수 있습니다. 또한 데이터베이스 4 개의 간단한 저장된 프로시저를 포함합니다.
+     짧은 시간 후 쿼리 실행이 완료 하 고 데이터베이스 개체 생성 됩니다. 데이터베이스에 두 개의 테이블이: 고객 및 주문 합니다. 이러한 테이블에 데이터가 없는 처음에 있지만 앞으로 만들 응용 프로그램을 실행 하는 경우 데이터를 추가할 수 있습니다. 또한 데이터베이스 4 개의 간단한 저장된 프로시저를 포함합니다.
 
 ## <a name="create-the-forms-and-add-controls"></a>폼 만들기 및 컨트롤 추가
 

@@ -7,15 +7,14 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: d5c6a5a1e7dab8f52dc098fb14a1f872d14eedcd
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0febbf31dcf9f0ae1e7a4e47dae2e9cf3d291dbf
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54959229"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55909169"
 ---
 # <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>WPF 및 Entity Framework 6을 사용하여 간단한 데이터 애플리케이션 만들기
 
@@ -354,7 +353,7 @@ Visual Studio에서 생성 된 기본 배열을 변경 일부 수동으로 XAML�
 
 Windows Forms 응용 프로그램에서 데이터베이스의 행을 이동 하 고 기본적인 CRUD 작업 수행에 대 한 단추를 사용 하 여을 BindingNavigator 개체를 가져옵니다. WPF는 BindingNavigator를 제공 하지 않습니다 하지만 쉽게 만드세요. 가로 StackPanel 내에서 단추를 사용 하 여 작업을 수행 하 고이 정보를 코드 숨김의 메서드에 바인딩되는 명령 단추를 연결 합니다.
 
-명령 논리에서는 부분이 있습니다. (1) 명령, (2) 바인딩, (3) 단추 및 코드 숨김에서 명령 처리기 (4).
+에서는 명령 논리 부분이 있습니다. (1) 명령, (2) 바인딩, (3) 단추 및 코드 숨김에서 명령 처리기 (4).
 
 ### <a name="add-commands-bindings-and-buttons-in-xaml"></a>XAML에서 명령, 바인딩 및 단추 추가
 

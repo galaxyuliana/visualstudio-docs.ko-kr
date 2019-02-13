@@ -13,15 +13,14 @@ ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 989eb815a6e55b5ecaed0b960963eb036b73065a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6df50eb1f8a4d722a0140fd37a6ff0c0d7474a39
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54970541"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55955273"
 ---
 # <a name="extend-the-functionality-of-a-tableadapter"></a>TableAdapter의 기능 확장
 
@@ -33,7 +32,7 @@ Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 �
 
 ## <a name="locate-tableadapters-in-code"></a>코드에서 Tableadapter를 찾습니다
 
-사용 하 여 Tableadapter 설계 되어는 **데이터 집합 디자이너**, 생성 된 TableAdapter 클래스의 중첩 된 클래스는 아닙니다 <xref:System.Data.DataSet>합니다. Tableadapter는 TableAdapter의 연결 된 데이터 집합의 이름을 기반으로 하는 네임 스페이스에 있습니다. 예를 들어, 응용 프로그램 이라는 데이터 집합을 포함 하는 경우 `HRDataSet`에서 Tableadapter에 위치를 `HRDataSetTableAdapters` 네임 스페이스입니다. (명명 규칙은이 패턴을 따릅니다. *DatasetName* + `TableAdapters`).
+사용 하 여 Tableadapter 설계 되어는 **데이터 집합 디자이너**, 생성 된 TableAdapter 클래스의 중첩 된 클래스는 아닙니다 <xref:System.Data.DataSet>합니다. Tableadapter는 TableAdapter의 연결 된 데이터 집합의 이름을 기반으로 하는 네임 스페이스에 있습니다. 예를 들어, 응용 프로그램 이라는 데이터 집합을 포함 하는 경우 `HRDataSet`에서 Tableadapter에 위치를 `HRDataSetTableAdapters` 네임 스페이스입니다. (명명 규칙은이 패턴을 따릅니다: *DatasetName* + `TableAdapters`).
 
 다음 예제에서는 라는 TableAdapter `CustomersTableAdapter`사용 하 여 프로젝트에 `NorthwindDataSet`입니다.
 

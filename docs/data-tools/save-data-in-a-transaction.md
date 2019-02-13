@@ -15,15 +15,14 @@ ms.assetid: 80260118-08bc-4b37-bfe5-9422ee7a1e4e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: b06e433c5c412ba97d0cd04c670a39cc4bb7ec8a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fc2626ba0efab60921ed721b9f06fec28c66f58b
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54946077"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55932276"
 ---
 # <a name="walkthrough-save-data-in-a-transaction"></a>연습: 트랜잭션에 데이터 저장
 
@@ -123,7 +122,8 @@ ms.locfileid: "54946077"
 
 1.  선택 합니다 **저장할** 단추를 **CustomersBindingNavigator** (플로피 디스크 아이콘이 있는 단추).
 
-2.  `CustomersBindingNavigatorSaveItem_Click` 메서드를 다음 코드로 바꿉니다.
+2.  
+  `CustomersBindingNavigatorSaveItem_Click` 메서드를 다음 코드로 바꿉니다.
 
      [!code-vb[VbRaddataSaving#4](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_1.vb)]
      [!code-csharp[VbRaddataSaving#4](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_1.cs)]
