@@ -1,7 +1,6 @@
 ---
 title: 오프라인 도움말 설치
 ms.date: 11/01/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - installing Help Viewer
@@ -11,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cb6f2fb01c73a588adc64813c191742de5bf5938
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 182b10919a92f27f8ad9563570ee6ae3ef330710
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55005711"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155671"
 ---
 # <a name="microsoft-help-viewer-installation"></a>Microsoft 도움말 뷰어 설치
 
@@ -43,10 +42,6 @@ Microsoft 도움말 뷰어를 쉽게 설치하는 다른 방법은 **빠른 실�
 1. 대화 상자가 열리면 **설치** 단추를 선택합니다.
 
    ![설치 단추](media/installation/install.png)
-
-| | |
-|---------|---------|
-| ![동영상에 대한 비디오 카메라 아이콘](../install/media/video-icon.png) | Visual Studio 설치 관리자를 사용하여 Microsoft 도움말 뷰어를 설치하는 방법에 대한 [비디오를 봅니다](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=ZMfaVID6D_7411787171). |
 
 ## <a name="see-also"></a>참고 항목
 

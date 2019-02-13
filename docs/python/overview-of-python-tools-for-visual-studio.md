@@ -3,7 +3,6 @@ title: Windows의 Visual Studio에서 Python 지원
 titleSuffix: ''
 description: Windows에서 최상의 Python IDE(PTVS(Visual Studio용 Python 도구)로도 알려짐)로 만드는 Visual Studio의 Python 기능에 대한 요약입니다.
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
@@ -12,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 699578e564999db55562abaad764cde80fc8b618
-ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
+ms.openlocfilehash: 39d11b1b3bc17cd8a7329fd6f4c1a8010f461438
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55232067"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155840"
 ---
 # <a name="work-with-python-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 작업
 
@@ -30,7 +29,7 @@ Python은 현재 Mac용 Visual Studio에서 지원되지 않지만 Visual Studio
 시작하려면 다음을 수행합니다.
 
 - [설치 지침](installing-python-support-in-visual-studio.md)에 따라 Python 워크로드를 설치합니다.
-- 이 문서의 섹션을 통해 Visual Studio의 Python 기능을 숙지합니다. Visual Studio의 Python 소개 [비디오 시리즈(Microsoft Virtual Academy)를 시청](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121)할 수 있습니다(총 22분).
+- 이 문서의 섹션을 통해 Visual Studio의 Python 기능을 숙지합니다.
 - 빠른 시작을 하나 이상 수행하여 프로젝트를 만듭니다. 확실하지 않은 경우 [Flask를 사용하여 웹앱 만들기](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json)부터 시작합니다.
 - 전체 종단 간 환경을 위한 [Visual Studio에서 Python 작업](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) 자습서를 수행합니다.
 
@@ -44,9 +43,8 @@ Visual Studio의 컨텍스트 내에서 Python을 대화형으로 실행하려�
 
 추가 정보
 
-- 비디오(2분 35초): [Python 환경 관리](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567)
-- 문서: [Python 환경 관리](managing-python-environments-in-visual-studio.md)
-- 문서: [Python 환경 참조](python-environments-window-tab-reference.md)
+- [Python 환경 관리](managing-python-environments-in-visual-studio.md)
+- [Python 환경 참조](python-environments-window-tab-reference.md)
 
 ## <a name="rich-editing-intellisense-and-code-comprehension"></a>다양한 편집 기능, IntelliSense 및 코드 이해
 
@@ -56,7 +54,6 @@ Visual Studio에서는 구문 색 지정, 모든 코드 및 라이브러리에 �
 
 추가 정보
 
-- 비디오(2분 30초): [Python 코드 편집](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567)
 - 문서: [Python 코드 편집](editing-python-code-in-visual-studio.md)
 - 문서: [코드 형식](formatting-python-code.md)
 - 문서: [코드 리팩터링](refactoring-python-code.md)
@@ -75,9 +72,8 @@ Visual Studio에 알려진 모든 Python 환경의 경우 별도 명령 프롬�
 
 추가 정보
 
-- 비디오(2분 22초: [Python 대화형 창](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=gJYKY5LWE_4605918567)
-- 문서: [대화형 창](python-interactive-repl-in-visual-studio.md)
-- 문서: [Visual Studio의 IPython](interactive-repl-ipython.md)
+- [대화형 창](python-interactive-repl-in-visual-studio.md)
+- [Visual Studio의 IPython](interactive-repl-ipython.md)
 
 ## <a name="project-system-and-project-and-item-templates"></a>프로젝트 시스템, 프로젝트 및 항목 템플릿
 
@@ -106,7 +102,6 @@ Visual Studio의 장점 중 하나는 강력한 디버거입니다. 특히 Pytho
 
 추가 정보
 
-- 비디오: [Python 디버깅 3분 32초](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=Ep5dp5LWE_3805918567)
 - 문서: [Python 디버그](debugging-python-in-visual-studio.md)
 - 문서: [Python/C++ 혼합 모드 디버깅](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - 문서: [Linux에서 원격 디버깅](debugging-python-code-on-remote-linux-machines.md)
@@ -120,7 +115,6 @@ Visual Studio의 장점 중 하나는 강력한 디버거입니다. 특히 Pytho
 
 추가 정보
 
-- 비디오: [Python 프로파일링 3분 00초](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=s6FoC6LWE_1005918567)
 - 문서: [Python 프로파일링 도구](profiling-python-code-in-visual-studio.md)
 - 일반 Visual Studio 기능 문서: [프로파일링 기능 둘러보기](../profiling/profiling-feature-tour.md). (Python에 대해 일부 Visual Studio 프로파일링 기능만 사용할 수 있습니다).
 
@@ -132,7 +126,6 @@ Visual Studio **테스트 탐색기**에서 테스트를 검색, 실행 및 관�
 
 추가 정보
 
-- 비디오: [Python 테스트 2분 31초](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=hb46k6LWE_405918567)
 - 문서: [Python용 단위 테스트 도구](unit-testing-python-in-visual-studio.md)
 - 일반 Visual Studio 기능 문서: [코드 단위 테스트](../test/unit-test-your-code.md).
 
@@ -141,12 +134,6 @@ Visual Studio **테스트 탐색기**에서 테스트를 검색, 실행 및 관�
 Python 워크로드는 Windows, Mac OS X, Linux 앱에서 Azure 서비스를 간편하게 사용할 수 있도록 해주는 Python용 Azure SDK도 포함합니다.
 
 자세한 내용은 [Python용 Azure SDK](/python/azure/?view=azure-python)를 참조하세요.
-
-## <a name="python-training-on-microsoft-virtual-academy"></a>Microsoft Virtual Academy의 Python 교육
-
-|   |   |
-|---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | <ul><li>[Python을 사용한 프로그래밍 소개](https://mva.microsoft.com/en-US/training-courses/introduction-to-programming-with-python-8360?l=lqhuMxFz_8904984382)</li><li>[Python 초보자: 문자열 및 함수](https://mva.microsoft.com/en-US/training-courses/python-beginner-strings-and-functions-18015)</li><li>[Python 기본 사항: 목록 및 루프](https://mva.microsoft.com/en-US/training-courses/python-fundamentals-lists-and-loops-18019)</li><li>[Python에 대해 가장 많이 하는 질문](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121)</li></ul> |
 
 ## <a name="questions-and-answers"></a>질문과 대답
 
@@ -314,9 +301,3 @@ Visual Studio 2015 및 이전 버전은 [visualstudio.microsoft.com/vs/older-dow
 1. Windows 8 이상이 필요합니다. **서버 탐색기**에서 **디버거 연결(Python)** 명령을 사용하려면 [.NET 2.3용 Azure SDK - Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=323510) 이상이 필요합니다.
 
 1. Windows 8 이상이 필요합니다.
-
-## <a name="additional-resources"></a>추가 자료
-
-- [IIS 및 Python 간 WFastCGI 브리지](https://pypi.org/p/wfastcgi)(pypi.org)
-- [Microsoft Virtual Academy의 무료 Python 코스](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
-- [Microsoft Virtual Academy의 Python에 대해 가장 많이 하는 질문](https://aka.ms/mva-top-python-questions)

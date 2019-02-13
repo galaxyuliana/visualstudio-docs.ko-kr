@@ -2,7 +2,6 @@
 title: Python 코드의 성능 측정
 description: CPython 기반 인터프리터를 사용할 때 Visual Studio 프로파일러를 통해 Python 코드의 성능을 확인합니다.
 ms.date: 11/12/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: d598ce08942ed159b7e03a282ccf9f378f89c889
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 985b0120d54cf7a606bcf2bab5b11ae416d986a3
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54979545"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155138"
 ---
 # <a name="profile-python-code"></a>Python 코드 프로파일링
 
@@ -31,10 +30,6 @@ CPython 기반 인터프리터를 사용하는 경우 Python 애플리케이션�
 **확인**을 선택하면 프로파일러가 실행되고 애플리케이션에서 소요된 시간을 탐색할 수 있는 성능 보고서를 엽니다.
 
 ![프로파일링 성능 보고서](media/profiling-results.png)
-
-|   |   |
-|---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | Python 프로파일링 데모 [비디오(Microsoft Virtual Academy)를 시청](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Profiling-Python-s6FoC6LWE_1005918567)하세요(3분 00초).|
 
 > [!Note]
 > 현재 Visual Studio는 이 수준의 전체 응용 프로그램 프로파일링만 지원하지만 향후 기능에 대한 여러분의 피드백을 보내 주시기 바랍니다. 이 페이지 아래쪽에 있는 [**제품 피드백** 단추](#feedback)를 사용하세요.

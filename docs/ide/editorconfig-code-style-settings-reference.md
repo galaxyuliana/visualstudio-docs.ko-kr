@@ -13,16 +13,15 @@ helpviewer_keywords:
 author: kuhlenh
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 8d7d07efa862e619961c21962dca20303efed97e
-ms.sourcegitcommit: 0342f99120fbd603b8f06f7e9166c39f2896827a
+ms.openlocfilehash: 52848599e05f5b7e5050e408f98d9ff4d670ca72
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "55742523"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55911873"
 ---
 # <a name="net-coding-convention-settings-for-editorconfig"></a>EditorConfig에 대한 .NET 코딩 규칙 설정
 
@@ -1433,7 +1432,7 @@ csharp_prefer_braces = true:none
 | 규칙 이름 | 해당 언어 | Visual Studio 기본값 | Visual Studio 2017 버전 |
 | ----------- | -------------------- | ----------------------| ---------------- |
 | dotnet_sort_system_directives_first | C# 및 Visual Basic | true | 15.3 |
-| dotnet_separate_import_directive_groups | C# 및 Visual Basic | true | 15.5 |
+| dotnet_separate_import_directive_groups | C# 및 Visual Basic | False | 15.5 |
 
 **dotnet\_sort\_system\_directives_first**
 

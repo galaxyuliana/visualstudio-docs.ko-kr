@@ -15,27 +15,27 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 60db5058f3a084a4d24f3b3a1d83e615a9071d8e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 1f380b57b95cfc0601984794bf02ad4ed145bac5
+ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54920256"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55853341"
 ---
 # <a name="endtrackingcontext"></a>EndTrackingContext
-현재 추적 컨텍스트를 종료합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT WINAPI EndTrackingContext();  
-```  
-  
-## <a name="return-value"></a>반환 값  
- 추적 컨텍스트가 종료된 경우 **SUCCEEDED** 비트가 설정된 **HRESULT**를 반환합니다.  
-  
-## <a name="requirements"></a>요구 사항  
- **헤더:** *FileTracker.h*  
-  
-## <a name="see-also"></a>참고 항목  
- [StartTrackingContext](../msbuild/starttrackingcontext.md)
+현재 추적 컨텍스트를 종료합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT WINAPI EndTrackingContext();
+```
+
+## <a name="return-value"></a>반환 값
+추적 컨텍스트가 종료된 경우 **SUCCEEDED** 비트가 설정된 **HRESULT**를 반환합니다.
+
+## <a name="requirements"></a>요구 사항
+**헤더:** *FileTracker.h*
+
+## <a name="see-also"></a>참고 항목
+[StartTrackingContext](../msbuild/starttrackingcontext.md)

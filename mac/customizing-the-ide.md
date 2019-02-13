@@ -5,12 +5,13 @@ author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: F7C2A28C-0759-4E0D-A28E-B72D5AB73DB6
-ms.openlocfilehash: 58ad6f41528fd11510d55c4062cdd9a6ae678989
-ms.sourcegitcommit: bc43970c000f07c9cc2051f1264a9742943a9755
+ms.custom: video
+ms.openlocfilehash: b8386e5d27c2ddf6abd93ac93266f58869cd6c79
+ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51349613"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55853393"
 ---
 # <a name="customizing-the-ide"></a>IDE 사용자 지정
 
@@ -126,6 +127,10 @@ Mac용 Visual Studio에서는 텍스트 편집기를 Side-by-Side로 열거나 �
 ![추가 탭이 있는 2열 Side-by-Side](media/customizing-the-ide-sbs2.png)
 
 하나의 열린 편집기로 되돌리려면 **보기 > 편집기 열 > 1열**을 선택합니다.
+
+## <a name="related-video"></a>관련 동영상
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Customize-the-Look-and-Feel/player]
 
 ## <a name="see-also"></a>참고 항목
 

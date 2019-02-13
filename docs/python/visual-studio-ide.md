@@ -2,7 +2,6 @@
 title: Python 개발자용 Visual Studio 개요
 titleSuffix: ''
 ms.date: 12/14/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -12,12 +11,12 @@ dev_langs:
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 97b48daf123ea39cd00070fa95c4b488da9d9163
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 666f0df2e0b210b41155a5c1cd082e969d029e4e
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54952953"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155853"
 ---
 # <a name="welcome-to-the-visual-studio-ide--python"></a>Visual Studio IDE 시작 | Python
 
@@ -136,4 +135,3 @@ Windows의 세 가지 Visual Studio 2017 버전은 다음과 같습니다. Commu
 - [Visual Studio 추가 기능](../ide/advanced-feature-overview.md)을 검색하세요.
 - [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)을 방문하세요.
 - [Visual Studio 블로그](https://blogs.msdn.microsoft.com/visualstudio/)를 참고하세요.
-- [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)에서 무료 Visual Studio 과정을 체크 아웃하세요.
