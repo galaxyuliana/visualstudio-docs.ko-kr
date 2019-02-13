@@ -3,10 +3,7 @@ title: Visual Studio 2015의 새로운 기능 | Microsoft Docs
 titleSuffix: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 f1_keywords:
 - VS.StartPage.WhatsNew
 helpviewer_keywords:
@@ -16,13 +13,13 @@ ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 caps.latest.revision: 364
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 16c9a490970d6c41a5661f0755f09731ce2fba7e
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+manager: jillfra
+ms.openlocfilehash: 6b3554373d4447aa3bd503668328424b25c43348
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53740275"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54790735"
 ---
 # <a name="what39s-new-in-visual-studio-2015"></a>Visual Studio 2015의 새로운 기능
 [!INCLUDE[vs2017banner](./includes/vs2017banner.md)]
@@ -84,7 +81,7 @@ ms.locfileid: "53740275"
 #### <a name="the-net-framework"></a>.NET Framework
  Microsoft [!INCLUDE[net_v46](./includes/net-v46-md.md)] 에서는 약 150개의 새로운 API와 50개의 업데이트된 API를 통해 더 많은 시나리오를 지원합니다. 예를 들어 이제 더 많은 컬렉션에서 <xref:System.Collections.Generic.IReadOnlyCollection%601>을 구현하므로 컬렉션을 보다 쉽게 사용할 수 있습니다. 또한 ASP.NET 5는 앞에서 언급한 것처럼 첨단 클라우드 기반 앱을 빌드하기 위한 간결한 .NET 플랫폼을 제공합니다.
 
- 따라서 이제 C#으로 작성되었으며 .NET Framework를 대상으로 하는 Windows Store 앱에서 .NET 네이티브를 활용하여 앱을 IL이 아닌 네이티브 코드로 컴파일할 수 있습니다. 또한 [!INCLUDE[net_v46](./includes/net-v46-md.md)]에서는 64비트 JIT(Just-In-Time) 컴파일러인 RyuJIT를 추가합니다.
+ 따라서 이제 C#으로 작성되었으며 .NET Framework를 대상으로 하는 Windows Store 앱에서 .NET 네이티브를 활용하여 앱을 IL이 아닌 네이티브 코드로 컴파일할 수 있습니다. 또한 [!INCLUDE[net_v46](./includes/net-v46-md.md)] 에서는 64비트 JIT(Just-In-Time) 컴파일러인 RyuJIT를 추가합니다.
 
  새로운 C# 및 VB 컴파일러("Roslyn")는 컴파일 시간을 대폭 개선하고 포괄적인 코드 분석 API를 제공합니다. Visual Studio 2015에서는 Roslyn을 활용하여 인라인 이름 바꾸기, 분석기, 빠른 수정을 비롯해 보다 다양한 리팩터링을 수행합니다.
 
@@ -160,7 +157,7 @@ ms.locfileid: "53740275"
 ## <a name="enjoy-these-additional-ide-improvements"></a>이러한 추가 IDE 개선 사항 활용
 
 ### <a name="synchronized-settings-roaming-settings"></a>동기화된 설정(로밍 설정)
- Visual Studio 2013은 텍스트 편집기, 키 바인딩, 테마 및 글꼴 및 색상, 시작, 환경 별칭과 같이 가장 일반적으로 구성되는 일부 설정에 대해 동기화된 설정을 도입했습니다.  Visual Studio 2015는 더 많은 설정을 동기화하고 Professional, Enterprise, Express SKU, Blend와 같은 Visual Studio 응용 프로그램 제품군 전체에서 설정을 동기화하여 이러한 환경을 향상합니다. Visual Studio 2013에서 사용한 것과 동일한 계정으로 Visual Studio 2015에 처음으로 로그인하면 Visual Studio 2013에서 적용된 동기화된 설정을 볼 수 있습니다. **빠른 실행**에서 "동기화"를 입력하거나 **도구 > 옵션 > 환경 > 동기화된 설정**으로 이동하여 설정에 액세스할 수 있습니다.
+ Visual Studio 2013은 텍스트 편집기, 키 바인딩, 테마 및 글꼴 및 색상, 시작, 환경 별칭과 같이 가장 일반적으로 구성되는 일부 설정에 대해 동기화된 설정을 도입했습니다.  Visual Studio 2015는 더 많은 설정을 동기화하고 Professional, Enterprise, Express SKU, Blend와 같은 Visual Studio 애플리케이션 제품군 전체에서 설정을 동기화하여 이러한 환경을 향상합니다. Visual Studio 2013에서 사용한 것과 동일한 계정으로 Visual Studio 2015에 처음으로 로그인하면 Visual Studio 2013에서 적용된 동기화된 설정을 볼 수 있습니다. **빠른 실행**에서 "동기화"를 입력하거나 **도구 > 옵션 > 환경 > 동기화된 설정**으로 이동하여 설정에 액세스할 수 있습니다.
 
 ### <a name="automatic-extension-updates"></a>자동 확장 업데이트
  이제 Visual Studio 갤러리에서 새 버전을 사용할 수 있는 경우 설치된 Visual Studio 확장이 자동으로 업데이트됩니다. 자동 확장 업데이트를 사용자 지정할 수 있는 방법에 대한 자세한 내용은 [Visual Studio 확장 찾기 및 사용](./ide/finding-and-using-visual-studio-extensions.md) 을 참조하세요.
@@ -183,18 +180,18 @@ ms.locfileid: "53740275"
 ### <a name="notification-hub"></a>알림 허브
  알림 허브에 대한 UI가 쉽고 빠르게 검색할 수 있도록 간소화되었습니다. 성능 문제, 렌더링 문제 및 크래시를 포함하는 기타 종류의 알림이 추가되었으며, 이제 알림 표시를 중지하도록 Visual Studio에 지시할 수 있습니다. 자세한 내용은 [Visual Studio 알림](./ide/visual-studio-notifications.md)을 참조하세요.
 
-### <a name="codelens-find-what-happened-to-your-code-enterprise-and-professional-editions-only"></a>CodeLens (Enterprise 및 Professional edition만 해당) 코드 변경 사항 찾기
+### <a name="codelens-find-what-happened-to-your-code-enterprise-and-professional-editions-only"></a>CodeLens: 코드 변경 사항 찾기(Enterprise 및 Professional Edition에만 해당)
  코드에 대한 정보를 찾는 동안 편집기에서 나가지 않고 계속 작업에 집중할 수 있습니다. VSTS(Visual Studio Team Services) 또는 TFS(Team Foundation Server)에 저장된 코드에 대한 작업 항목, 버그, 코드 검토 등의 변경 내용과 기타 기록을 검토할 수 있습니다.
 
  Visual Studio Enterprise 및 Visual Studio Professional에서 이제 다음 작업을 수행할 수 있습니다.
 
 - Visual Studio 편집기에서 전체 코드 파일의 기록을 가져옵니다.
 
-   ![CodeLens 코드 파일 세부 정보 가져오기](./ide/media/codelensfilelevel.png "CodeLensFileLevel")
+   ![CodeLens: 코드 파일 세부 정보 가져오기](./ide/media/codelensfilelevel.png "CodeLensFileLevel")
 
 - 코드를 변경한 사용자를 보여 주는 그래프를 확인합니다. 이는 팀의 변경 내용에서 패턴을 찾고 해당 영향을 평가하는 데 도움이 될 수 있습니다.
 
-   ![CodeLens 코드 변경 내용 기록을 그래프로 참조](./ide/media/codelens.png "CodeLens")
+   ![CodeLens: 코드 변경 내용 기록을 그래프로 보기](./ide/media/codelens.png "CodeLens")
 
 - 코드가 마지막으로 변경된 시기를 쉽게 확인합니다.
 

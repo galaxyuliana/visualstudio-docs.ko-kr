@@ -1,13 +1,9 @@
 ---
 title: XAML 디자이너를 사용하여 UI 만들기
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology: vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords:
 - VS.XamlDesigner
 - VS.DevicePanel
@@ -17,13 +13,13 @@ ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 3bd82bd99901ba0b8df400e3780b17d1baadab0c
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+manager: jillfra
+ms.openlocfilehash: c928d9f939db96ae302620952bbb6bbdedc396a3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53837292"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795171"
 ---
 # <a name="creating-a-ui-by-using-xaml-designer-in-visual-studio"></a>Visual Studio에서 XAML 디자이너를 사용하여 UI 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +32,7 @@ Visual Studio의 XAML 디자이너는 XAML 기반 Windows 스토어, Windows Pho
  XAML 디자이너의 작업 영역은 몇 가지 그래픽 인터페이스 요소로 구성됩니다. 여기에는 아트보드, XAML 편집기, 디바이스 창, 문서 개요 창 및 속성 창이 포함됩니다. XAML 디자이너를 열려면 **솔루션 탐색기** 에서 XAML 파일을 마우스 오른쪽 단추로 클릭하고 **뷰 디자이너**를 선택합니다.
 
 ## <a name="authoring-views"></a>뷰 작성
- XAML 디자이너는 앱의 렌더링된 XAML 태그에 대한 XAML 뷰 및 동기화된 디자인 뷰를 제공합니다. Visual Studio에서 XAML 파일을 연 상태에서, **디자인** 및 **XAML** 탭을 사용하여 디자인 뷰와 XAML 뷰 사이에서 전환할 수 있습니다.  **창 바꾸기** 단추를 사용하여 아트보드 또는 XAML 편집기 중 하나의 맨 위에 나타나는 창을 전환할 수 있습니다.
+ XAML 디자이너는 앱의 렌더링된 XAML 태그에 대한 XAML 뷰 및 동기화된 디자인 뷰를 제공합니다. Visual Studio에서 XAML 파일을 연 상태에서, **디자인** 및 **XAML** 탭을 사용하여 디자인 뷰와 XAML 뷰 사이에서 전환할 수 있습니다. **창 바꾸기** 단추를 사용하여 아트보드 또는 XAML 편집기 중 하나의 맨 위에 나타나는 창을 전환할 수 있습니다.
 
  디자인 뷰에서 *아트 보드* 포함하는 창이 활성 창이고 이를 기본 작업 화면으로 사용할 수 있습니다. 이 창에서 요소를 추가하거나 그린 다음 수정하여 앱에서 페이지를 시각적으로 디자인할 수 있습니다. 자세한 내용은 [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)을 참조하세요. 이 그림은 디자인 뷰에서 아트보드를 보여 줍니다.
 
@@ -44,7 +40,7 @@ Visual Studio의 XAML 디자이너는 XAML 기반 Windows 스토어, Windows Pho
 
  이러한 기능은 아트보드에서 사용할 수 있습니다.
 
- **맞춤선** 맞춤선은 빨간색 파선 선으로 표시되는 *맞춤 경계선*으로, 컨트롤의 가장자리가 맞춰진 경우나 텍스트 기준선이 맞춰진 경우를 나타냅니다.  **맞춤선에 맞추기** 를 사용하도록 설정한 경우에만 맞춤 경계선이 나타납니다.
+ **맞춤선** 맞춤선은 빨간색 파선 선으로 표시되는 *맞춤 경계선*으로, 컨트롤의 가장자리가 맞춰진 경우나 텍스트 기준선이 맞춰진 경우를 나타냅니다. **맞춤선에 맞추기** 를 사용하도록 설정한 경우에만 맞춤 경계선이 나타납니다.
 
  **모눈 레일** `Grid` 레일은 [모눈](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx) 패널의 행과 열을 관리하는 데 사용됩니다. 행과 열을 만들고 삭제하며, 상대적인 너비와 높이를 조정할 수 있습니다. 아트보드의 왼쪽에 나타나는 세로 모눈 레일은행에 사용되고 맨 위에 나타나는 가로줄은 열에 사용됩니다.
 
@@ -91,9 +87,9 @@ Visual Studio의 XAML 디자이너는 XAML 기반 Windows 스토어, Windows Pho
 
  **디스플레이** 앱의 다른 디스플레이 크기 및 해상도를 미리 봅니다.
 
- **방향** 앱에 대해 다른 방향을 지정 합니다. 가로 또는 **세로**
+ **방향** 앱의 다른 방향 즉, **가로** 또는 **세로**를 지정합니다.
 
- **Edge** 앱의 다른 가장자리 맞춤을 지정 합니다. 모두, **왼쪽**, **오른쪽** 또는 **없음**
+ **가장자리** 앱의 다른 가장자리 맞춤 즉, **모두**, **왼쪽**, **오른쪽** 또는 **없음**을 지정합니다.
 
  **고대비** 선택한 대비 설정에 따라 응용 프로그램을 미리 봅니다. 이 설정은 **기본값**이외의 값으로 설정된 경우 App.xaml에 설정된 `RequestedTheme` 속성을 재정의합니다.
 

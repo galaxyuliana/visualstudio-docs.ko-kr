@@ -1,34 +1,29 @@
 ---
-title: '1단계: Windows Forms 응용 프로그램 프로젝트 만들기 | Microsoft 문서'
-ms.custom: ''
+title: '1단계: Windows Forms 애플리케이션 프로젝트 만들기 | Microsoft 문서'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: dd6c7f5398575f70da4414cfd529dbd6a67f5c6f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: add477fd77731f81da4cc0ee94f7f7d0c7a09cb6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49292385"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54780471"
 ---
-# <a name="step-1-create-a-windows-forms-application-project"></a>1단계: Windows Forms 응용 프로그램 프로젝트 만들기
+# <a name="step-1-create-a-windows-forms-application-project"></a>1단계: Windows Forms 애플리케이션 프로젝트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-사진 뷰어를 만드는 첫 번째 단계는 Windows Forms 응용 프로그램 프로젝트를 만드는 것입니다.  
+사진 뷰어를 만드는 첫 번째 단계는 Windows Forms 애플리케이션 프로젝트를 만드는 것입니다.  
   
  ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo")이 항목의 비디오 버전을 보려면 [자습서 1: Visual Basic에서 사진 뷰어 만들기 - 비디오 1](http://go.microsoft.com/fwlink/?LinkId=205209) 또는 [자습서 1: C#에서 사진 뷰어 만들기 - 비디오 1](http://go.microsoft.com/fwlink/?LinkId=205199)을 참조하세요. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.  
   
-### <a name="to-create-a-windows-forms-application-project"></a>Windows Forms 응용 프로그램 프로젝트를 만들려면  
+### <a name="to-create-a-windows-forms-application-project"></a>Windows Forms 애플리케이션 프로젝트를 만들려면  
   
 1.  메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다. 대화 상자는 다음과 같습니다.  
   
@@ -37,7 +32,7 @@ ms.locfileid: "49292385"
   
 2.  **설치된 템플릿** 목록에서 **Visual C#** 또는 **Visual Basic**을 선택합니다.  
   
-3.  템플릿 목록에서 **Windows Forms 응용 프로그램** 아이콘을 선택합니다. 새 폼의 이름을 **PictureViewer**로 지정한 후 **확인** 단추를 선택합니다.  
+3.  템플릿 목록에서 **Windows Forms 애플리케이션** 아이콘을 선택합니다. 새 폼의 이름을 **PictureViewer**로 지정한 후 **확인** 단추를 선택합니다.  
   
      Visual Studio에서 프로그램의 솔루션이 생성됩니다. 솔루션은 프로그램에 필요한 모든 프로젝트 및 파일의 컨테이너 역할을 합니다. 이러한 용어에 대해서는 이 자습서의 뒷부분에서 자세히 설명합니다.  
   
@@ -78,6 +73,3 @@ IDE 창
 -   다음 자습서 단계로 이동하려면 [2단계: 프로그램 실행](../ide/step-2-run-your-program.md)을 참조하세요.  
   
 -   개요 항목으로 돌아가려면 [자습서 1: 사진 뷰어 만들기](../ide/tutorial-1-create-a-picture-viewer.md)를 참조하세요.
-
-
-

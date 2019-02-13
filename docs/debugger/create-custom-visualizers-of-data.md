@@ -16,15 +16,15 @@ helpviewer_keywords:
 ms.assetid: c24c006f-f2ac-429f-89db-677fc0c6e1ea
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9bb693e509eb12b01d3c70f8f341b39de06e5797
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
-ms.translationtype: HT
+ms.openlocfilehash: 8649e862a20e6f6c854a2bbe67b756103c5e68dc
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54204390"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009051"
 ---
 # <a name="create-custom-data-visualizers"></a>사용자 지정 데이터 시각화 도우미 만들기
  A *시각화 도우미* 의 일부인는 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] 해당 데이터 형식에 적합 한 방식으로 변수나 개체를 표시 하는 디버거 사용자 인터페이스입니다. 예를 들어, HTML 시각화 도우미는 HTML 문자열을 해석 하 고 브라우저 창에는 것과 동일한 결과 표시 합니다. 비트맵 시각화 도우미는 비트맵 구조를 해석 하 고 나타내므로 그래픽을 표시 합니다. 일부 시각화 도우미 뿐만 아니라 데이터를 보고 수정할 수 있습니다.

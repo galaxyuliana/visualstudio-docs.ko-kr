@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: ab5b6712-f32a-4e33-842f-e88ab4818ccf
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2fe73ba2ef02ecf6f9eb75663650862fd78fea1c
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
-ms.translationtype: HT
+ms.openlocfilehash: 59f2947554748fffcd1886a6cb8d6d44ed829d2c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53859150"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000749"
 ---
 # <a name="clickonce-and-authenticode"></a>ClickOnce 및 Authenticode
 *Authenticode* 는 업계 표준 암호화를 사용하여 애플리케이션 게시자의 신뢰성을 확인하는 디지털 인증서로 애플리케이션 코드에 서명하는 Microsoft 기술입니다. 애플리케이션 배포에 Authenticode를 사용하여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 트로이 목마의 위험을 줄입니다. 트로이 목마는 악의적인 제3자가 신뢰할 수 있는 기존의 소스에서 온 적법한 프로그램처럼 속여 표시하는 바이러스 또는 기타 유해 프로그램입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포에 디지털 인증서로 서명하는 것은 어셈블리와 파일이 손상되지 않았음을 확인하기 위한 선택적인 단계입니다.  
@@ -53,7 +53,7 @@ ms.locfileid: "53859150"
 ### <a name="timestamps"></a>타임스탬프  
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션 서명에 사용된 인증서는 특정 기간(대개 12개월) 이후 만료됩니다. 계속해서 새 인증서로 애플리케이션에 다시 서명해야 하는 불편을 없애기 위해 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 타임스탬프를 지원합니다. 애플리케이션을 타임스탬프로 서명하면, 타임스탬프가 유효한 경우 해당 인증서는 심지어 만료 이후에도 계속 허용됩니다. 따라서 인증서는 만료되었지만 타임스탬프는 유효한 경우 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 다운로드하여 실행할 수 있습니다. 또한 만료된 인증서가 있는 설치된 애플리케이션이 계속해서 업데이트를 다운로드하고 설치할 수 있습니다.  
   
- 애플리케이션 서버에 타임스탬프를 포함하려면 타임스탬프 서버를 사용할 수 있어야 합니다. 타임 스탬프 서버를 선택 하는 방법에 대 한 정보를 참조 하세요. [방법: 애플리케이션 및 배포 매니페스트 서명](../ide/how-to-sign-application-and-deployment-manifests.md)을 참조하세요.  
+ 애플리케이션 서버에 타임스탬프를 포함하려면 타임스탬프 서버를 사용할 수 있어야 합니다. 타임스탬프 서버를 선택하는 방법에 대한 자세한 내용은 [How to: Sign Application and Deployment Manifests](../ide/how-to-sign-application-and-deployment-manifests.md)를 참조하세요.  
   
 ### <a name="update-expired-certificates"></a>만료 된 인증서를 업데이트 합니다.  
  .NET Framework의 이전 버전에서 인증서가 만료된 애플리케이션을 업데이트하면 해당 애플리케이션의 작동이 중지될 수 있습니다. 이 문제를 해결하려면 다음 방법 중 하나를 사용합니다.  

@@ -1,26 +1,22 @@
 ---
 title: 사용자 지정 빌드 이벤트 지정
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 helpviewer_keywords:
 - build events, customizing
 ms.assetid: 69e935a5-e208-4bcd-865c-3e5f9b047ca8
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 650a0501de3f2c3728c068be13dc096361f9a54f
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+manager: jillfra
+ms.openlocfilehash: 3eca61e696fea82952e3efde5cea1f6164d5bab5
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53893554"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54775848"
 ---
 # <a name="specifying-custom-build-events-in-visual-studio"></a>Visual Studio에서 사용자 지정 빌드 이벤트 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,9 +25,9 @@ ms.locfileid: "53893554"
 
  사용 중인 프로그래밍 언어에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   Visual Basic--[방법: 빌드 이벤트 지정(Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md).
+-   Visual Basic--[방법: 빌드 이벤트 지정(Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md)
 
--   Visual C# 및 F#-[방법: 빌드 이벤트 지정(C#)](../ide/how-to-specify-build-events-csharp.md)
+-   Visual C# 및 F#--[방법: 빌드 이벤트 지정(C#)](../ide/how-to-specify-build-events-csharp.md)
 
 -   Visual C++--[빌드 이벤트 지정](http://msdn.microsoft.com/library/788a6c18-2dbe-4a49-8cd6-86c1ad7a95cc)
 
@@ -60,4 +56,4 @@ ms.locfileid: "53893554"
     >  위 코드의 `%I`는 배치 스크립트에서 `%%I`여야 합니다.
 
 ## <a name="see-also"></a>참고 항목
- [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md) [빌드 전 이벤트/빌드 후 이벤트 명령줄 대화 상자](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md) [MSBuild 특수 문자](../msbuild/msbuild-special-characters.md) [연습: 애플리케이션 빌드를 참조하세요.
+ [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md) [빌드 전 이벤트/빌드 후 이벤트 명령줄 대화 상자](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md) [MSBuild 특수 문자](../msbuild/msbuild-special-characters.md) [연습: 애플리케이션 빌드를 참조하세요](../ide/walkthrough-building-an-application.md)

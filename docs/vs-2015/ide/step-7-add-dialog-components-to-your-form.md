@@ -1,25 +1,20 @@
 ---
 title: '7단계: 폼에 대화 상자 구성 요소 추가 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: ea98c55e-6213-4893-ba7b-f19d7f119527
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ca17a6958a3c66054b89fc65c30bf397c4e6b821
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 051f88f81f443b1748ce3d8b0c9ce33e89fac77d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49192948"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54796659"
 ---
 # <a name="step-7-add-dialog-components-to-your-form"></a>7단계: 폼에 대화 상자 구성 요소 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,13 +50,10 @@ ms.locfileid: "49192948"
          **필터** 속성 설정은 **그림 선택** 파일 대화 상자에 표시되는 파일 형식을 지정합니다.  
   
     > [!NOTE]
-    >  다른 응용 프로그램에서 **파일 열기** 대화 상자의 예제를 보려면 메모장이나 그림판을 열고 메뉴 모음에서 **파일**, **열기**를 선택합니다. 맨 아래에 있는 **파일 형식** 드롭다운 목록을 살펴봅니다. 이러한 값은 단순히 **OpenFileDialog** 구성 요소의 **필터** 속성을 사용하여 설정했습니다. 또한 **속성** 창에서 굵게 표시된 **제목** 및 **필터** 속성도 살펴봅니다. IDE에서는 굵은 글꼴을 사용하여 기본값에서 변경된 속성을 표시합니다.  
+    >  다른 애플리케이션에서 **파일 열기** 대화 상자의 예제를 보려면 메모장이나 그림판을 열고 메뉴 모음에서 **파일**, **열기**를 선택합니다. 맨 아래에 있는 **파일 형식** 드롭다운 목록을 살펴봅니다. 이러한 값은 단순히 **OpenFileDialog** 구성 요소의 **필터** 속성을 사용하여 설정했습니다. 또한 **속성** 창에서 굵게 표시된 **제목** 및 **필터** 속성도 살펴봅니다. IDE에서는 굵은 글꼴을 사용하여 기본값에서 변경된 속성을 표시합니다.  
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   
 -   다음 자습서 단계로 이동하려면 [8단계: 그림 단추 이벤트 처리기 표시를 위한 코드 작성](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md)을 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [6단계: 단추 컨트롤 이름 지정](../ide/step-6-name-your-button-controls.md)을 참조하세요.
-
-
-

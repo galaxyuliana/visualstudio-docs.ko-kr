@@ -1,25 +1,20 @@
 ---
 title: '11단계: 프로그램 실행 및 기타 기능 사용 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: a80a962017cc54e6ce7aae6201079f976dee9ab1
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e0fe2ce712e4322eb9ebe83549ff485f0e2615f2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49172278"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54790386"
 ---
 # <a name="step-11-run-your-program-and-try-other-features"></a>11단계: 프로그램 실행 및 기타 기능 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,13 +55,10 @@ ms.locfileid: "49172278"
   
 -   Visual Studio에서의 프로그래밍에 대한 자세한 내용은 [프로그래밍 개념](http://msdn.microsoft.com/library/65c12cca-af4f-4017-886e-2dbc00a189d6)을 참조하세요.  
   
--   Visual Basic에 대한 자세한 내용은 [Visual Basic으로 응용 프로그램 개발](http://msdn.microsoft.com/library/1e1c0c81-6d95-4167-a98b-44b1efb6d25f)을 참조하세요.  
+-   Visual Basic에 대한 자세한 내용은 [Visual Basic으로 애플리케이션 개발](http://msdn.microsoft.com/library/1e1c0c81-6d95-4167-a98b-44b1efb6d25f)을 참조하세요.  
   
 -   Visual C#에 대한 자세한 내용은 [C# 언어 및 .NET Framework 소개](http://msdn.microsoft.com/library/0a2dff4e-cd84-42ff-8141-e89889b24081)를 참조하세요.  
   
 -   다음 자습서로 이동하려면 [자습서 2: 시간이 지정된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)를 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [10단계: 추가 단추 및 확인란의 코드 작성](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)을 참조하세요.
-
-
-

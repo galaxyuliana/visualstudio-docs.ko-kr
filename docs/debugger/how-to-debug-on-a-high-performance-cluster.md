@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: a2f0eb07-840e-4f95-a1b1-9509217e5b8f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cd2b009afac34ebb484d144c345382431c91f5b0
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: 124aae4c9e6c0ddb28562230203d2210b8e464be
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54228047"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55070008"
 ---
 # <a name="how-to-debug-on-a-high-performance-cluster-c-visual-basic-c"></a>방법: 고성능 클러스터에서 디버깅 (C#, Visual Basic, c + +)
 
@@ -91,7 +91,7 @@ ms.locfileid: "54228047"
   
 4.  **확인**을 클릭합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 `marvin`이라는 컴퓨터와 `fourier1`이라는 스레드에 중단점 필터를 만드는 방법을 보여 줍니다.  
   
 `(MachineName = marvin) & (ThreadName = fourier1)`  

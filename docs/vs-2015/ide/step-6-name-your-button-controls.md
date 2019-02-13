@@ -1,25 +1,20 @@
 ---
 title: '6단계: 단추 컨트롤 이름 지정 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: e02c240f8e4146ce1c87fd1d90c30eb7787cef5d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: a65eb289cf42ba7b9a9bd7d0ad2cfdc1b630a131
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49303786"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54796831"
 ---
 # <a name="step-6-name-your-button-controls"></a>6단계: 단추 컨트롤 이름 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,13 +73,10 @@ Visual C# 코드가 사용된 Form1.cs 탭
   
      컨트롤에 대한 이벤트 처리기를 추가한 후에는 언제든지 컨트롤을 두 번 클릭하거나 메뉴 모음에서 **보기**, **코드**를 선택하여 Windows Forms 디자이너에서 이벤트 처리기로 돌아갈 수 있습니다.  
   
-     프로그램을 빌드할 때는 이름이 중요하므로 이벤트 처리기를 비롯한 메서드에 원하는 이름을 지정할 수 있습니다. IDE를 사용하여 이벤트 처리기를 추가하면 컨트롤 이름과 처리 중인 이벤트를 기반으로 이름이 만들어집니다. 예를 들어 **showButton** 이라는 단추에 대한 Click 이벤트의 이름은 `showButton_Click()` 이벤트 처리기 메서드로 지정됩니다. 또한 일반적으로 메서드 이름 뒤에는 메서드임을 나타내기 위해 여는 괄호와 닫는 괄호 ()가 추가됩니다. 코드 변수 이름을 변경하려고 결정한 경우 코드에서 변수를 마우스 오른쪽 단추로 클릭한 다음 **리팩터링**, **이름 바꾸기**를 선택합니다. 코드에서 해당 변수의 인스턴스 이름이 모두 바뀝니다. 참조 [이름 바꾸기 리팩터링 (C#)](../csharp-ide/rename-refactoring-csharp.md) 하거나 [리팩터링 및 이름 바꾸기 대화 상자](http://msdn.microsoft.com/library/001d2d81-9bb6-4e8e-ae3a-20c0daaa3959) 자세한 내용은 합니다.  
+     프로그램을 빌드할 때는 이름이 중요하므로 이벤트 처리기를 비롯한 메서드에 원하는 이름을 지정할 수 있습니다. IDE를 사용하여 이벤트 처리기를 추가하면 컨트롤 이름과 처리 중인 이벤트를 기반으로 이름이 만들어집니다. 예를 들어 **showButton** 이라는 단추에 대한 Click 이벤트의 이름은 `showButton_Click()` 이벤트 처리기 메서드로 지정됩니다. 또한 일반적으로 메서드 이름 뒤에는 메서드임을 나타내기 위해 여는 괄호와 닫는 괄호 ()가 추가됩니다. 코드 변수 이름을 변경하려고 결정한 경우 코드에서 변수를 마우스 오른쪽 단추로 클릭한 다음 **리팩터링**, **이름 바꾸기**를 선택합니다. 코드에서 해당 변수의 인스턴스 이름이 모두 바뀝니다. 참조 [이름 바꾸기 리팩터링 (C#)](../csharp-ide/rename-refactoring-csharp.md) 하거나 [리팩터링 및 이름 바꾸기 대화 상자](http://msdn.microsoft.com/library/001d2d81-9bb6-4e8e-ae3a-20c0daaa3959) 에 대 한 자세한 내용은 합니다.  
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   
 -   다음 자습서 단계로 이동하려면 [7단계: 폼에 대화 상자 구성 요소 추가](../ide/step-7-add-dialog-components-to-your-form.md)를 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [5단계: 폼에 컨트롤 추가](../ide/step-5-add-controls-to-your-form.md)를 참조하세요.
-
-
-

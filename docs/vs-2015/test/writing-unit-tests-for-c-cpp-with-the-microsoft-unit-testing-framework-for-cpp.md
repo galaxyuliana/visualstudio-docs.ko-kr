@@ -1,24 +1,19 @@
 ---
 title: C++용 Microsoft 단위 테스트 프레임워크를 사용하여 C/C++용 단위 테스트 작성 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 4f4b5f10-7314-4725-8c6e-e72f52eff918
 caps.latest.revision: 16
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 180f970f35ed0bb3de70ba3a7b7b47dbe656ddf7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: a6600621c195994bf5becec9cae4f77340008516
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49904047"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54760030"
 ---
 # <a name="writing-unit-tests-for-cc-with-the-microsoft-unit-testing-framework-for-c"></a>C++용 Microsoft 유닛 테스트 프레임워크를 사용하여 C/C++용 유닛 테스트 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -163,7 +158,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
   
      ![C&#43;&#43; Win32 프로젝트 만들기](../test/media/utecpp05.png "UteCpp05")  
   
-2.  Win32 응용 프로그램 마법사에서 **DLL** 및 **내보내기 기호** 를 선택합니다.  
+2.  Win32 애플리케이션 마법사에서 **DLL** 및 **내보내기 기호** 를 선택합니다.  
   
      **내보내기 기호** 옵션은 내보낸 메서드를 선언하는 데 사용할 수 있는 편리한 매크로를 생성합니다.  
   
@@ -398,12 +393,9 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
      또한 최소한의 코드 검사 수준을 강제로 지정할 수도 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [기존 C++ 응용 프로그램에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)   
+ [기존 C++ 애플리케이션에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)   
  [Microsoft.VisualStudio.TestTools.CppUnitTestFramework 사용](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)   
  [관리되는/관리되지 않는 코드 상호 운용성에 대한 개요](http://msdn.microsoft.com/library/ms973872.aspx)   
  [네이티브 코드 디버그](../debugger/debugging-native-code.md)   
  [연습: 동적 연결 라이브러리 만들기 및 사용(C++)](http://msdn.microsoft.com/library/3ae94848-44e7-4955-bbad-7d40f493e941)   
  [가져오기 및 내보내기](http://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b)
-
-
-
