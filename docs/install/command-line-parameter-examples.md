@@ -3,7 +3,6 @@ title: 설치에 대한 명령줄 매개 변수 예제
 description: 이러한 예제를 사용자 지정하여 Visual Studio의 고유한 명령줄 설치를 만듭니다.
 ms.date: 01/16/2019
 ms.custom: seodec18
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: TerryGLee
@@ -11,12 +10,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f407d1465211962743c51e0241f03cd25f5d5ca5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 042ec56cd7d94556f1bd3c64e1746e7cd4899c7b
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54992167"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55908597"
 ---
 # <a name="command-line-parameter-examples-for-visual-studio-2017-installation"></a>Visual Studio 2017 설치에 대한 명령줄 매개 변수 예
 

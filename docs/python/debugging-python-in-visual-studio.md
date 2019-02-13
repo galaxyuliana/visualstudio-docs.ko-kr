@@ -2,7 +2,6 @@
 title: Python 코드 디버그
 description: Visual Studio는 중단점 설정, 단계별 실행, 값 검사, 예외 확인, 대화형 창에서 디버깅을 포함하여 Python 코드에 대한 풍부한 디버깅 기능을 제공합니다.
 ms.date: 01/07/2019
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: cdaaf7964ee7da9a5ae7a1b1bfa0f77631c22622
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fc6c448a80f9517a3bde0333736f4cb83efb09c6
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55036071"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155879"
 ---
 # <a name="debug-your-python-code"></a>Python 코드 디버그
 
@@ -27,10 +26,6 @@ Visual Studio에서는 실행 중인 프로세스에 연결하고, **조사식**
 - [Linux 원격 디버깅](debugging-python-code-on-remote-linux-machines.md)
 - [Python/C++ 혼합 모드 디버깅](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - [혼합 모드 디버깅 기호](debugging-symbols-for-mixed-mode-c-cpp-python.md)
-
-|   |   |
-|---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | Python 디버깅 데모 [비디오(Microsoft Virtual Academy)를 시청](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Debugging-Python-Ep5dp5LWE_3805918567)하세요(3분 32초).|
 
 <a name="debugging-without-a-project"></a>
 

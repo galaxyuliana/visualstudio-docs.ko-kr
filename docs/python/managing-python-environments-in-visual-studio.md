@@ -2,7 +2,6 @@
 title: Python 환경 및 인터프리터 관리
 description: Python 환경 창을 사용하여 전역, 가상 및 conda 환경을 관리하고 Python 인터프리터 및 패키지를 설치하며 Visual Studio 프로젝트에 환경을 할당합니다.
 ms.date: 12/07/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -10,12 +9,12 @@ manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: e883cb199ca2959015dac0c6492d19e7875c5ca1
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4514aa132adab37425d0d49c4594fec8db09d12d
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54958786"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155723"
 ---
 # <a name="how-to-create-and-manage-python-environments-in-visual-studio"></a>Visual Studio에서 Python 환경을 만들고 관리하는 방법
 
@@ -71,10 +70,6 @@ Visual Studio는 레지스트리(다음 [PEP 514](https://www.python.org/dev/pep
 
 > [!Note]
 > Visual Studio에서는 system-site-packages 옵션을 적용하지만 Visual Studio 내에 이를 변경하는 방법은 제공하지 않습니다.
-
-|   |   |
-|---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | Visual Studio의 Python 환경에 대한 [비디오(Microsoft Virtual Academy)를 시청](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567)하세요(2분 35초).|
 
 ### <a name="what-if-no-environments-appear"></a>환경이 나타나지 않으면 어떻게 하나요?
 

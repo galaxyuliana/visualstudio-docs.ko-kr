@@ -3,7 +3,6 @@ title: Visual Studio 자습서 1단계의 Python 프로젝트 만들기
 titleSuffix: ''
 description: 필수 구성 요소 및 새 Python 프로젝트 만들기를 포함하여 Visual Studio의 Python 기능에 대한 핵심 연습의 개요 및 1단계입니다.
 ms.date: 01/28/2019
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
@@ -12,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: bc6f831d30f578cb03bbb760da410aefff312e99
-ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
+ms.openlocfilehash: 23f843c745d672d9aa4f8dcbfec9c25f7ba98919
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55231872"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155216"
 ---
 # <a name="tutorial-work-with-python-in-visual-studio"></a>자습서: Visual Studio에서 Python 작업
 
@@ -79,5 +78,3 @@ Visual Studio는 Python에 대한 고급 언어 지원을 제공합니다. 이 �
 - [Visual Studio의 Python 프로젝트](managing-python-projects-in-visual-studio.md).
 - [python.org의 Python 언어에 대한 자세한 정보](https://www.python.org)
 - [초보자용 Python](https://www.python.org/about/gettingstarted/)(python.org)
-- [Microsoft Virtual Academy의 무료 Python 코스](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
-- [Microsoft Virtual Academy의 상위 Python 질문](https://aka.ms/mva-top-python-questions)

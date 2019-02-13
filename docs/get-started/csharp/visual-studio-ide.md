@@ -1,7 +1,6 @@
 ---
 title: C# 개발자를 위한 개요
 ms.date: 11/15/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: conceptual
@@ -12,12 +11,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: f1b1ccaaeb8f51e662c85b7894f9f752dba9c2a8
-ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
+ms.openlocfilehash: b7799abea1ab8dcb0c792d5ba49c66274d255685
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55484175"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155996"
 ---
 # <a name="welcome-to-the-visual-studio-ide--c"></a>Visual Studio IDE 시작 | C#
 
@@ -305,4 +304,3 @@ IDE를 개인 설정할 수 있는 다른 방법을 배우려면 [Visual Studio 
 - [Visual Studio 추가 기능](../../ide/advanced-feature-overview.md)을 검색하세요.
 - [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)을 방문하세요.
 - [Visual Studio 블로그](https://blogs.msdn.microsoft.com/visualstudio/)를 참고하세요.
-- [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)에서 무료 Visual Studio 과정을 체크 아웃하세요.

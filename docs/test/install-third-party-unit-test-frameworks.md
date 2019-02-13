@@ -1,19 +1,18 @@
 ---
 title: 타사 단위 테스트 프레임워크 설치
 ms.date: 06/07/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 4cf2635cf46b1fa8b395cb8a7cab8769ae6ed6d3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b4dd4e347d6a8c96cef9ce9028071214200682c4
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54960116"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55916169"
 ---
 # <a name="install-unit-test-frameworks"></a>단위 테스트 프레임워크 설치
 

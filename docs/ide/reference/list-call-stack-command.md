@@ -1,7 +1,6 @@
 ---
 title: 호출 스택 목록 표시 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - debug.listcallstack
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a4442b5c7275bd7733f4d5a49c4ac3baf0b92c1c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 55272f5d30602d03d0f3bb7e2ac16e9a709cafdf
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55007466"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55912406"
 ---
 # <a name="list-call-stack-command"></a>호출 스택 목록 표시 명령
 현재 호출 스택을 표시합니다.
@@ -101,7 +100,7 @@ kb 2
 
  현재 스택 프레임을 두 번째 프레임으로 설정할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```cmd
 >Debug.CallStack /Count:4 /ShowTypes:yes
