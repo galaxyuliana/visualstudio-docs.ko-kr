@@ -1,7 +1,6 @@
 ---
 title: 프로젝트 열기 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - file.openproject
@@ -16,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 14ca6ed2f9a3e21d641f9d5dbe83234066886164
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 7e9249088b188fde1b346772ab1230d33160fe59
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55010170"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55914739"
 ---
 # <a name="open-project-command"></a>프로젝트 열기 명령
 
@@ -48,7 +47,7 @@ File.OpenProject filename
 
 디버깅 중에는 이 명령을 사용할 수 없습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 예제에서는 Visual Basic 프로젝트 **Test1**을 엽니다.
 

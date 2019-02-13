@@ -2,7 +2,6 @@
 title: Python 코드 편집
 description: Python의 경우 Visual Studio는 서식, Lint, 리팩터링과 함께 풍부한 IntelliSense, 코드 조각 및 탐색 기능을 제공합니다.
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,22 +10,18 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 81430d156330f067f84cdf7fbba1238c098ae406
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3a18b743b4dd0f239399b7350e1a479acf7ef4c8
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55036058"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155398"
 ---
 # <a name="edit-python-code"></a>Python 코드 편집
 
 사용자는 코드 편집기에서 많은 개발 시간을 보내므로 [Visual Studio의 Python 지원](installing-python-support-in-visual-studio.md)에서 생산성 향상에 도움이 되는 기능을 제공합니다. 이러한 기능에는 IntelliSense 구문 강조 표시, 자동 완성, 시그니처 도움말, 메서드 재정의/검색 및 탐색이 포함됩니다.
 
 또한 편집기는 Visual Studio의 **대화형** 창과 통합되므로 편집기와 창 간에 코드를 쉽게 교환할 수 있습니다. 자세한 내용은 [자습서 3단계: 대화형 REPL 창 사용](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) 및 [대화형 창 사용 - 대화형 명령에 보내기](python-interactive-repl-in-visual-studio.md#send-to-interactive-command)를 참조하세요.
-
-|   |   |
-|---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | Python 코드 편집 데모 [비디오(Microsoft Virtual Academy)를 시청](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567)하세요(2분 30초).|
 
 Visual Studio의 코드 편집에 대한 일반적인 설명서는 [코드 편집기의 기능](../ide/writing-code-in-the-code-and-text-editor.md)을 참조하세요. 또한 코드의 특정 섹션에 집중하는 데 도움이 되는 [개요](../ide/outlining.md)도 참조하세요.
 

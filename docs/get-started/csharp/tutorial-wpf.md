@@ -3,7 +3,6 @@ title: '자습서: C#에서 WPF(Windows Presentation Foundation)를 사용한 He
 description: WPF(Windows Presentation Foundation) UI 프레임워크를 사용하는 C#을 통해 Visual Basic으로 간단한 Windows 데스크톱 .NET 앱을 만듭니다.
 ms.custom: seodec18, get-started
 ms.date: 10/03/2017
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 dev_langs:
@@ -14,12 +13,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 757ec79e2ae1996c6453fd01b20e71e9a6d62594
-ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
+ms.openlocfilehash: 8fa5a78fbf1852e49da8a4cda59398c302029430
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55424514"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55909949"
 ---
 # <a name="tutorial-create-a-simple-application-with-c"></a>자습서: C#으로 간단한 애플리케이션 만들기
 

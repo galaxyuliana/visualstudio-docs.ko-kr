@@ -1,7 +1,6 @@
 ---
 title: 프로젝트 템플릿 및 항목 템플릿 사용자 지정
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - customizing templates [Visual Studio]
@@ -9,12 +8,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8ec3640b4ed194d246088a93453d28a6a94aa76d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 7e80bf422906c2b89e75462938d736fd3a0e5a41
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55011197"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55919328"
 ---
 # <a name="customize-project-and-item-templates"></a>프로젝트 및 항목 템플릿 사용자 지정
 

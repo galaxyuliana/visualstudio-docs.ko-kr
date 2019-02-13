@@ -3,7 +3,6 @@ title: Visual Studio 1단계, Flask 기본 사항에서 Flask 자습서 알아�
 titleSuffix: ''
 description: 필수 구성 요소, Git 및 가상 환경을 비롯하여 Visual Studio 프로젝트의 컨텍스트에서 Flask 기본 사항을 살펴봅니다.
 ms.date: 01/07/2019
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
@@ -12,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 9a3386647edeb9af7fa8d6d0e97e142f7cf6ef60
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: cad792adaaebb6c446d071aca0edd57932605375
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54990487"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55920108"
 ---
 # <a name="tutorial-get-started-with-the-flask-web-framework-in-visual-studio"></a>자습서: Visual Studio에서 Flask 웹 프레임워크 시작
 

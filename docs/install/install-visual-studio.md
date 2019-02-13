@@ -4,7 +4,6 @@ titleSuffix: ''
 description: Visual Studio를 설치하는 방법을 단계별로 알아봅니다.
 ms.date: 05/07/2018
 ms.custom: seodec18
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - vs.about
@@ -19,12 +18,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e01f51bd94f14b5f78ab26d452be6a100e4fd50
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fab4a79bfd7a72b6b81493db241cd1ade8068158
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54961882"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56156139"
 ---
 # <a name="install-visual-studio-2017"></a>Visual Studio 2017 설치
 
@@ -55,10 +54,6 @@ Visual Studio 2017과 함께 이전 버전의 Visual Studio를 나란히 실행�
  > [!div class="button"]
  > [Visual Studio 2017 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 <br/>
-
-|         |         |
-|---------|---------|
-|  ![비디오에 대한 비디오 카메라 아이콘](media/video-icon.png "비디오 보기")  |    Visual Studio 부트스트래퍼 파일을 다운로드하고 적합한 Visual Studio의 버전을 선택하는 방법에 대한 [비디오를 봅니다](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Download-the-Visual-Studio-Installer-GgrESHD6D_3311787171). |
 
 ## <a name="step-3---install-the-visual-studio-installer"></a>3단계 - Visual Studio 설치 관리자 설치
 
@@ -95,29 +90,17 @@ Visual Studio 2017과 함께 이전 버전의 Visual Studio를 나란히 실행�
 > [!TIP]
 > 설치 후에 언제든지 초기에 설치하지 않은 워크로드 또는 구성 요소를 설치할 수 있습니다. Visual Studio가 열려 있으면 **도구** > **도구 및 기능 가져오기...** 로 이동하여 Visual Studio 설치 관리자를 엽니다. 또는 [시작] 메뉴에서 **Visual Studio 설치 관리자**를 엽니다. 여기서 설치하려는 워크로드 또는 구성 요소를 선택한 다음 **수정**을 클릭합니다.
 
-|         |         |
-|---------|---------|
-|  ![비디오에 대한 비디오 카메라 아이콘](media/video-icon.png "비디오 보기")  |    Visual Studio 설치 관리자를 설치하고 다음 워크로드를 설치하는 방법에 대한 [비디오를 봅니다](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Workloads-in-Visual-Studio-2017-jHE19HD6D_1611787171). |
-
 ## <a name="step-5---select-individual-components-optional"></a>5단계 - 개별 구성 요소 선택(선택 사항)
 
 워크로드 기능을 사용하여 Visual Studio 설치를 사용자 지정하지 않으려면 대신 개별 구성 요소를 설치하여 수행할 수 있습니다. 개별 구성 요소를 선택하려면 Visual Studio 설치 관리자에서 **개별 구성 요소** 옵션을 클릭하고, 원하는 항목을 선택한 다음 표시되는 메시지를 따릅니다.
 
   ![Visual Studio 2017 - 개별 구성 요소 설치](media/vs2017-components.PNG "Visual Studio 개별 구성 요소 설치")
 
-  |         |         |
-  |---------|---------|
-  |  ![비디오에 대한 비디오 카메라 아이콘](media/video-icon.png "비디오 보기")  |   Visual Studio 설치 관리자를 사용하여 개별 구성 요소를 설치하는 방법에 대한 [비디오를 봅니다](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Components-in-Visual-Studio-2017-ZMfaVID6D_7411787171). |
-
 ## <a name="step-6---install-language-packs-optional"></a>6단계 - 언어 팩 설치(선택 사항)
 
 기본적으로 설치 관리자 프로그램은 처음 실행될 때 운영 체제의 언어와 일치시키려고 합니다. 선택한 언어로 Visual Studio 2017을 설치하려면 Visual Studio 설치 관리자에서 **언어 팩** 옵션을 클릭하고 프롬프트를 따릅니다.
 
   ![Visual Studio 2017 - 언어 팩 설치](media/vs2017-languages.PNG "Visual Studio 언어 팩 설치")
-
-  |         |         |
-  |---------|---------|
-  |  ![비디오에 대한 비디오 카메라 아이콘](media/video-icon.png "비디오 보기")  |   Visual Studio 설치 관리자를 사용하여 언어 팩을 설치하는 방법에 대한 [비디오를 봅니다](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Install-Language-Packs-in-Visual-Studio-2017-ByT7yID6D_9011787171). |
 
 ### <a name="change-the-installer-language-from-the-command-line"></a>명령줄에서 설치 관리자 언어 변경
 

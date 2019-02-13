@@ -1,7 +1,6 @@
 ---
 title: 정규식 사용
 ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - vsregularexpressionhelp
@@ -17,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9ca2804e5703e854e73e932e9b3d4763dd680ee4
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a5421599d2ffa006a445e0410088671d8897cc52
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55025035"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55923254"
 ---
 # <a name="use-regular-expressions-in-visual-studio"></a>Visual Studio에서 정규식 사용
 
@@ -38,7 +37,7 @@ Visual Studio에서는 [.NET Framework 정규식](/dotnet/standard/base-types/re
 
 다음은 몇 가지 예입니다.
 
-|용도|식|예제|
+|용도|식|예|
 |-------------|----------------|-------------|
 |줄 바꿈 이외의 모든 단일 문자를 찾습니다.|.|`a.o`는 "around"의 "aro" 및 "about"의 "abo"와 일치하지만 "across"의 "acro"와 일치하지 않습니다.|
 |이전 식에서 일치 항목 0개 이상을 찾습니다(가능한 한 많은 문자를 찾음).|*|`a*r`는 "rack"의 "r", "ark"의 "ar", "aardvark"의 "aar"과 일치합니다.|

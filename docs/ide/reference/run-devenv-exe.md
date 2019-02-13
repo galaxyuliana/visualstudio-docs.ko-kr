@@ -1,7 +1,6 @@
 ---
 title: -Run(devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - /Run Devenv
@@ -16,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0d8e89a223ef43d7d2235772940a05b7fb42c0f8
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 22c56e3dc4272fd927cc060f5a5a9972e5b8e6ca
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54996339"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55914502"
 ---
 # <a name="run-devenvexe"></a>/Run (devenv.exe)
 
@@ -55,7 +54,7 @@ devenv {/Run|/R} {SolutionName|ProjectName} [/Out OutputFilename]
 
 - 오류를 포함한 요약 정보는 **명령** 창 또는 `/Out` 스위치로 지정된 로그 파일에 표시할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 이 예제에서는 활성 배포 구성을 사용하여 `MySolution` 솔루션을 실행합니다.
 

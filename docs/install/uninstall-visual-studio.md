@@ -4,7 +4,6 @@ titleSuffix: ''
 description: Visual Studio를 제거하는 방법을 단계별로 알아봅니다.
 ms.date: 08/16/2017
 ms.custom: seodec18
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - uninstall
@@ -15,12 +14,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b1ccfc82c911472bba8a85f832daed8aa332f3ad
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0fe26bb7e0139c1521de17dab7cd7e8146aa780a
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55070424"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55907850"
 ---
 # <a name="uninstall-visual-studio-2017"></a>Visual Studio 2017 제거
 
