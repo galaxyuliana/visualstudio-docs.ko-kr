@@ -1,7 +1,6 @@
 ---
 title: 명령 창
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - VS.CommandWindow
@@ -17,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6d939ca758d8ea398fc0af3f40c38f6459c27b5d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: bed026b76ae99509dd2abb77b11b46c14b1d3aae
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55026000"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55928753"
 ---
 # <a name="command-window"></a>명령 창
 **명령** 창은 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE(통합 개발 환경)에서 직접 명령 또는 별칭을 실행하는 데 사용됩니다. 메뉴 명령 및 메뉴에 나타나지 않는 명령을 둘 다 실행할 수 있습니다. **명령** 창을 표시하려면 **보기** 메뉴에서 **다른 창**을 선택하고 **명령 창**을 선택합니다.
@@ -45,7 +44,7 @@ ms.locfileid: "55026000"
 ## <a name="entering-commands"></a>명령 입력
  보다 큼 기호(`>`)는 명령 창의 왼쪽 가장자리에 새 줄 프롬프트로 표시됩니다. 위쪽 화살표 및 아래쪽 화살표 키를 사용해서 이전에 실행된 명령을 스크롤합니다.
 
-|작업|솔루션|예제|
+|작업|솔루션|예|
 |----------|--------------|-------------|
 |식을 계산합니다.|식 앞에 물음표(`?`)를 추가합니다.|`? myvar`|
 |직접 실행 창으로 전환합니다.|`immed`를 보다 큼 기호(>) 없이 창에 입력합니다.|`immed`|

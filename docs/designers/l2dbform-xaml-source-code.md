@@ -1,7 +1,6 @@
 ---
 title: L2DBForm.xaml 원본 코드
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: sample
 ms.assetid: 624e96d4-6d27-4195-8ac2-2f3835f6c57e
 author: gewarren
@@ -9,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0a04eef2d9d0a9c4c5f36f4a3b6fd8f91f9832a7
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b650c65eb81fb087b7783b41065445e1bbea20a0
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55008753"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55931171"
 ---
 # <a name="l2dbformxaml-source-code"></a>L2DBForm.xaml 소스 코드
 
@@ -84,7 +83,7 @@ Text="{Binding Path=Attribute[id].Value}"...Text="{Binding Path=Value}"
 
 최신 UI 섹션인 **Add New Book**에서는 XAML 코드에 데이터 바인딩을 사용하지 않습니다. 대신, 데이터 바인딩은 *L2DBForm.xaml.cs* 파일의 이벤트 처리 코드에 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ### <a name="description"></a>설명
 

@@ -2,7 +2,6 @@
 title: 프로그램 오류 수정 및 코드 개선
 description: 이 문서에서는 빌드 오류, 코드 분석, 디버깅 도구, 단위 테스트 등을 포함하여 코드에서 문제를 찾아 수정하는 데 Visual Studio가 도움이 될 수 있는 몇 가지 기본적인 방법을 설명합니다.
 ms.date: 05/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 author: gewarren
@@ -10,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 99b84e02c4ca63d80d6ef80637fcce042c869bcf
-ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
+ms.openlocfilehash: 57650bbe01a9d93b9847fd42075492c158d4db59
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55483772"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55928311"
 ---
 # <a name="make-code-work-in-visual-studio"></a>Visual Studio에서 코드를 작동하게 하기
 

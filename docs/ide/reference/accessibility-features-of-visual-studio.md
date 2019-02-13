@@ -2,7 +2,6 @@
 title: Visual Studio의 접근성 기능
 description: Windows 운영 체제 및 Visual Studio 개발자 도구 모음 모두가 장애인을 포함하여 모든 사용자를 위해 보다 액세스하기 쉽게 만들 수 있는 내게 필요한 옵션 기능 및 유틸리티에 대해 자세히 알아봅니다.
 ms.date: 08/22/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio, accessibility
@@ -13,12 +12,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1b9a42279680f6cb0b2f617428af49114bbc993c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 09b21ab89fe7631ae40def360c1dd111ded0df93
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54937524"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55935006"
 ---
 # <a name="accessibility-features-of-visual-studio"></a>Visual Studio의 접근성 기능
 

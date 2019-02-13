@@ -1,7 +1,6 @@
 ---
 title: 레지스터 목록 표시 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - debug.listregisters
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 83e79829caea30ece2c427d851b68d74bf9c586e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fb1a2361534f167a0b88b3f1b5b38c005915243d
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54943041"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55934473"
 ---
 # <a name="list-registers-command"></a>레지스터 목록 표시 명령
 선택된 레지스터의 값을 등록하고 표시할 레지스터의 목록을 수정합니다.
@@ -59,7 +58,7 @@ Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
 ## <a name="remarks"></a>주의
  별칭 `r`을 `Debug.ListRegisters` 대신 사용할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  이 예제에서는 `Debug.ListRegisters` 별칭 `r`을 사용하여 `Flags` 레지스터 그룹의 값을 표시합니다.
 
 ```cmd

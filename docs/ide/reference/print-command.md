@@ -1,7 +1,6 @@
 ---
 title: 인쇄 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - debug.print
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1677e05668b8681976447ef9ee401624d82bdd9a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c9a3de1fba86c78f16703efd858448bc0f25e8d0
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54939831"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55952296"
 ---
 # <a name="print-command"></a>인쇄 명령
 식을 계산하거나 지정된 텍스트를 표시합니다.
@@ -51,7 +50,7 @@ Debug.Print text
 
  이 명령의 두 버전은 모두 `expA` 식의 현재 값을 반환합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```cmd
 >Debug.Print varA

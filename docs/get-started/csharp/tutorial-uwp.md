@@ -3,7 +3,6 @@ description: Visual Studio에서 XAML 및 C#을 사용하여 UWP 앱 만들기
 titleSuffix: ''
 ms.custom: seodec18, get-started
 ms.date: 04/04/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -14,12 +13,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: 63ef768b0279d1859972bd3a5b49242fe549cea7
-ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
+ms.openlocfilehash: 63bf52b39023209f54835d9753f4bb7a0df1e413
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55424436"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55934551"
 ---
 # <a name="tutorial-create-your-first-universal-windows-platform-application-in-visual-studio-with-xaml-and-c35"></a>자습서: XAML 및 C&#35를 사용하여 Visual Studio에서 첫 번째 유니버설 Windows 플랫폼 애플리케이션 만들기
 

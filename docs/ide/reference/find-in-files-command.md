@@ -1,7 +1,6 @@
 ---
 title: 파일에서 찾기 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - edit.findinfiles
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 03dc4a1c83b3056e4991da6cecbe6c3b7b97324e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5549bd0047b38ef8f0dff5fa420d4b5ce0ae4ce9
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54958422"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55947083"
 ---
 # <a name="find-in-files-command"></a>파일에서 찾기 명령
 **찾기 및 바꾸기** 창의 **파일에서 바꾸기** 탭에서 사용할 수 있는 옵션의 하위 집합을 사용하여 파일을 검색합니다.
@@ -64,7 +63,7 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
 
  /word 또는 /w 선택 사항입니다. 전체 단어만을 검색합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  이 예제에서는 "내 Visual Studio 프로젝트" 폴더에 있는 모든 .cls 파일에서 btnCancel을 검색하고 찾기 결과 2 창에서 일치 항목 정보를 표시합니다.
 
 ```cmd

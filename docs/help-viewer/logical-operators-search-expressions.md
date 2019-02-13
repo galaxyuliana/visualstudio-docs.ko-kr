@@ -1,7 +1,6 @@
 ---
 title: 검색 식의 논리 연산자 및 고급 연산자(도움말 뷰어)
 ms.date: 11/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - Help Viewer, logical operators in search
@@ -12,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 827977f2763eff209e400538262b511a2124a1f9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: dc27a5206b7939cd55fc95878d2cc8968ae8bf39
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54956196"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55944223"
 ---
 # <a name="logical-and-advanced-operators-in-search-expressions"></a>검색 식의 논리 및 고급 연산자
 
@@ -27,7 +26,7 @@ ms.locfileid: "54956196"
 
 논리 연산자는 여러 검색어가 검색 쿼리에서 결합되는 방식을 지정합니다. 다음 표는 논리 연산자 AND, OR, NOT 및 NEAR을 보여줍니다.
 
-|검색 대상|사용|예제|결과|
+|검색 대상|사용|예|결과|
 |-------------------|---------|-------------|------------|
 |동일한 아티클에 두 용어가 모두 있음|AND|dib AND palette|"dib" 및 "palette"를 둘 다 포함하는 항목|
 |아티클에 두 용어 중 하나가 있음|또는|raster OR vector|"raster" 또는 "vector"를 포함하는 항목|
@@ -41,7 +40,7 @@ ms.locfileid: "54956196"
 
 고급 검색 연산자는 아티클에서 검색어를 찾을 위치를 지정하여 콘텐츠 검색을 구체화합니다. 다음 표에서 4개의 사용 가능한 고급 검색 연산자를 설명합니다.
 
-|검색 대상|사용|예제|결과|
+|검색 대상|사용|예|결과|
 |-------------------|---------|-------------|------------|
 |아이클 제목의 용어|`title:`|`title:binaryreader`|제목에 “binaryreader”가 포함된 항목입니다.|
 |코드 예제의 용어|`code:`|`code:readdouble`|코드 예제에 “readdouble”이 포함된 항목입니다.|

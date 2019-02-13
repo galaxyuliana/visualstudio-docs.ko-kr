@@ -1,7 +1,6 @@
 ---
 title: Live Unit Testing FAQ
-ms.date: 2017-10-03
-ms.prod: visual-studio-dev15
+ms.date: 10/03/2017
 ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio ALM
@@ -10,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: e6e6cf314ed477ade4093f90737e2e1a9c949c8c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: f3aefd7ec3f50538ed0986c0e6e80acf75b8e84f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935595"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55947395"
 ---
 # <a name="live-unit-testing-frequently-asked-questions"></a>Live Unit Testing 질문과 대답
 
@@ -139,7 +138,7 @@ Live Unit Testing은 다음 테이블에 나열된 세 가지 인기 있는 단�
 
 `LiveUnitTesting_BuildRoot` 사용자 수준 환경 변수를 Live Unit Testing 빌드 아티팩트를 배치하려는 경로로 설정합니다. 
 
-## <a name="test-explorer-vs-live-unit-testing-test-runs"></a>테스트 탐색기 및 Live Unit Testing 테스트 실행 
+## <a name="test-explorer-vs-live-unit-testing-test-runs"></a>테스트 탐색기 및 Live Unit Testing 테스트 실행
 **테스트 탐색기 창에서 테스트를 실행하는 것과 Live Unit Testing에서 테스트를 실행하는 것은 어떻게 다른가요?**
 
 다음과 같은 몇 가지 차이점이 있습니다.
@@ -158,7 +157,7 @@ Live Unit Testing은 다음 테이블에 나열된 세 가지 인기 있는 단�
 **Live Unit Testing에 참여하지 않도록 테스트를 제외하려면 어떻게 할까요?**
 
 사용자 지정 설정은 [Visual Studio 2017 Enterprise Edition에서 Live Unit Testing 사용](live-unit-testing.md#include-and-exclude-test-projects-and-test-methods) 아티클의 "테스트 프로젝트 및 테스트 메서드 포함 및 제외" 섹션을 참조하세요. 테스트 포함 또는 제외는 특정 편집 세션에 특정 집합의 테스트를 실행하거나 고유한 개인 기본 설정을 유지하려는 경우에 유용합니다.
- 
+
 솔루션 지정 설정은 Live Unit Testing에서 계측한 메서드, 속성, 클래스 또는 구조를 제외하여 프로그래밍 방식으로 <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute?displayProperty=fullName> 특성을 적용할 수 있습니다. 또한 프로젝트 파일에서 `<ExcludeFromCodeCoverage>` 속성을 `true`로 설정하여 전체 프로젝트를 계측하지 않도록 제외할 수도 있습니다. Live Unit Testing은 계측되지 않는 테스트를 실행하지만 해당 검사를 시각화할 수는 없습니다.
 
 `Microsoft.CodeAnalysis.LiveUnitTesting.Runtime`이 현재 애플리케이션 도메인에 로드되고 원인에 따라 테스트를 사용하지 않도록 설정하는지 여부를 확인할 수도 있습니다. 예를 들어 xUnit을 사용하여 다음과 같은 작업이 가능합니다.

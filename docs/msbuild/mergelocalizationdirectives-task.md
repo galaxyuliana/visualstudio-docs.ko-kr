@@ -18,43 +18,43 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1b9b9f5a708abacecaf90a7de1d2a3e9ee231579
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0cb537f045f3ed2409dfcf0def2826057fd55687
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55016254"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55927746"
 ---
 # <a name="mergelocalizationdirectives-task"></a>MergeLocalizationDirectives 작업
-<xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> 작업은 하나 이상의 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 이진 형식 파일에 대한 지역화 특성과 주석을 전체 어셈블리에 대한 단일 파일로 병합합니다.  
-  
-## <a name="task-parameters"></a>작업 매개 변수  
-  
+<xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> 작업은 하나 이상의 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 이진 형식 파일에 대한 지역화 특성과 주석을 전체 어셈블리에 대한 단일 파일로 병합합니다.
+
+## <a name="task-parameters"></a>작업 매개 변수
+
 | 매개 변수 | 설명 |
 |------------------------------| - |
 | `GeneratedLocalizationFiles` | 필수 **ITaskItem[]** 매개 변수입니다.<br /><br /> 개별 파일에 대한 지역화 지시문 파일 목록을 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 이진 형식으로 지정합니다. |
 | `OutputFile` | 필수 **String** 출력 매개 변수입니다.<br /><br /> 컴파일된 지역화 지시문 어셈블리의 출력 경로를 지정합니다. |
-  
-## <a name="remarks"></a>주의  
- 지역화 특성 및 주석을 [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] 내용에 추가할 수 있습니다. [!INCLUDE[TLA#tla_wpf](../msbuild/includes/tlasharptla_wpf_md.md)] 지역화 지원을 사용하면 지역화 특성 및 주석을 제거하고 생성된 어셈블리와는 별개인 *.loc* 파일에 추가할 수 있습니다. 이 작업은 **LocalizationPropertyStorage** 특성을 사용하여 수행할 수 있습니다. 지역화 특성 및 주석과 **LocalizationPropertyStorage**에 대한 자세한 내용은 [지역화 특성 및 주석](/dotnet/framework/wpf/advanced/localization-attributes-and-comments)을 참조하세요.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 이진 형식 파일에 해당하는 지역화 주석을 단일 *.loc* 파일에 병합합니다.  
-  
-```xml  
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <UsingTask   
-    TaskName="Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives"   
-    AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />  
-  <Target Name="MergeLocalizationDirectivesTask">  
-    <MergeLocalizationDirectives   
-      GeneratedLocalizationFiles="obj\debug\page1.loc;obj\debug\page2.loc;obj\debug\page3.loc"  
-      OutputFile="obj\debug\WPFMSBuildSample.loc" />  
-  </Target>  
-</Project>  
-```  
-  
-## <a name="see-also"></a>참고 항목  
+
+## <a name="remarks"></a>주의
+지역화 특성 및 주석을 [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] 내용에 추가할 수 있습니다. [!INCLUDE[TLA#tla_wpf](../msbuild/includes/tlasharptla_wpf_md.md)] 지역화 지원을 사용하면 지역화 특성 및 주석을 제거하고 생성된 어셈블리와는 별개인 *.loc* 파일에 추가할 수 있습니다. 이 작업은 **LocalizationPropertyStorage** 특성을 사용하여 수행할 수 있습니다. 지역화 특성 및 주석과 **LocalizationPropertyStorage**에 대한 자세한 내용은 [지역화 특성 및 주석](/dotnet/framework/wpf/advanced/localization-attributes-and-comments)을 참조하세요.
+
+## <a name="example"></a>예
+다음 예제에서는 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 이진 형식 파일에 해당하는 지역화 주석을 단일 *.loc* 파일에 병합합니다.
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask
+    TaskName="Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives"
+    AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />
+  <Target Name="MergeLocalizationDirectivesTask">
+    <MergeLocalizationDirectives
+      GeneratedLocalizationFiles="obj\debug\page1.loc;obj\debug\page2.loc;obj\debug\page3.loc"
+      OutputFile="obj\debug\WPFMSBuildSample.loc" />
+  </Target>
+</Project>
+```
+
+## <a name="see-also"></a>참고 항목
 [WPF MSBuild 참조](../msbuild/wpf-msbuild-reference.md)  
 [WPF MSBuild 작업 참조](../msbuild/wpf-msbuild-task-reference.md)  
 [MSBuild 참조](../msbuild/msbuild-reference.md)  
