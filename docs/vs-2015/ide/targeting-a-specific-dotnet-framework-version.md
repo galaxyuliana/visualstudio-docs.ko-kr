@@ -1,14 +1,9 @@
 ---
 title: 특정 대상 .NET Framework 버전 지정 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - targeting .NET Framework version [Visual Studio]
 - versions [Visual Studio], targeting .NET Framework version
@@ -18,18 +13,18 @@ ms.assetid: 91e77ad4-4da3-419d-85fb-9036f0e5c330
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: bc084c025e19e5466cd860611eeef91a3a7fedca
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 38a12f851bb99eb553856556608aaf029c91c40d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49277929"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54755153"
 ---
 # <a name="targeting-a-specific-net-framework-version"></a>특정 대상 .NET Framework 버전 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio에서는 프로젝트에서 대상으로 하려는 .NET Framework의 버전 또는 프로필을 지정할 수 있습니다. 응용 프로그램이 다른 컴퓨터에서 실행되려면 응용 프로그램이 대상으로 하는 Framework 버전이 컴퓨터에 설치된 Framework 버전과 호환되어야 합니다.  
+Visual Studio에서는 프로젝트에서 대상으로 하려는 .NET Framework의 버전 또는 프로필을 지정할 수 있습니다. 애플리케이션이 다른 컴퓨터에서 실행되려면 애플리케이션이 대상으로 하는 Framework 버전이 컴퓨터에 설치된 Framework 버전과 호환되어야 합니다.  
   
  이 섹션에는 프로젝트에서 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]의 특정 버전을 대상으로 하는 방법에 대해 설명하는 항목이 있습니다.  
   
@@ -42,16 +37,13 @@ Visual Studio에서는 프로젝트에서 대상으로 하려는 .NET Framework�
   
 ## <a name="related-sections"></a>관련 단원  
  [ASP.NET 웹 프로젝트에 대한 .NET Framework 멀티 타기팅](http://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)  
- 이 버전의 Visual Studio를 사용하여 이전 버전 .NET Framework에서 실행되는 웹 응용 프로그램을 개발하는 방법을 설명합니다.  
+ 이 버전의 Visual Studio를 사용하여 이전 버전 .NET Framework에서 실행되는 웹 애플리케이션을 개발하는 방법을 설명합니다.  
   
- [프로젝트 디자이너, 응용 프로그램 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md)  
+ [프로젝트 디자이너, 애플리케이션 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md)  
  프로젝트 디자이너에서 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트에 대한 **대상 프레임워크** 컨트롤에 대해 설명합니다.  
   
- [프로젝트 디자이너, 응용 프로그램 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
+ [프로젝트 디자이너, 애플리케이션 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
  프로젝트 디자이너에서 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트에 대한 **대상 프레임워크** 컨트롤에 대해 설명합니다.  
   
  [방법: 대상 프레임워크 및 플랫폼 도구 집합 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)  
  다른 버전의 .NET Framework를 대상으로 하고 다른 플랫폼 도구 집합을 사용하도록 Visual C++ 프로젝트 설정을 변경하는 방법을 설명합니다.
-
-
-

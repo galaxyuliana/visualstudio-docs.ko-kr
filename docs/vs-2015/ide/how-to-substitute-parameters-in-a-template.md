@@ -19,7 +19,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "54780293"
 ---
-# <a name="how-to-substitute-parameters-in-a-template"></a>방법: 템플릿 매개 변수 대체를 참조하세요.
+# <a name="how-to-substitute-parameters-in-a-template"></a>방법: 템플릿 매개 변수 대체
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 템플릿을 기반으로 하는 파일을 만들 때 클래스 이름 및 네임스페이스와 같은 템플릿 매개 변수를 바꿀 수 있습니다. 템플릿 매개 변수의 전체 목록은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.  

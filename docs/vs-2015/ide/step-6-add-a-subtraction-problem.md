@@ -1,25 +1,20 @@
 ---
-title: '6단계: 빼기 문제 추가 | Microsoft 문서'
-ms.custom: ''
+title: '6단계: 빼기 문제 추가 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 59204ef9-24bd-4f81-b85f-e3168e518a3e
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 793204bf4a08d09d7ce6e48e37254dd311ac6a08
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 500836281c1dba10bfdfe61b2442d30fb985fe38
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49229244"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54796626"
 ---
 # <a name="step-6-add-a-subtraction-problem"></a>6단계: 빼기 문제 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,6 +86,3 @@ IntelliSense의 Next() 메서드 오버로드
 -   다음 자습서 단계로 이동하려면 [7단계: 곱하기 및 나누기 문제 추가](../ide/step-7-add-multiplication-and-division-problems.md)를 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [5단계: NumericUpDown 컨트롤에 대한 Enter 이벤트 처리기 추가](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md)를 참조하세요.
-
-
-

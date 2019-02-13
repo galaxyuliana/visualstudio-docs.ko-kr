@@ -1,32 +1,27 @@
 ---
 title: '방법: 성능 규칙 구성 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.performance.ruleseditor
 ms.assetid: a148b468-b849-4858-880a-808a6b47e596
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 3b4750dcd245094d0ea116097c7e58b87065aa91
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: dc91bff6819cc5a1ed1e22864157143843f88ba9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51765112"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54790431"
 ---
 # <a name="how-to-configure-performance-rules"></a>방법: 성능 규칙 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 프로파일링 도구의 성능 경고는 프로파일링된 응용 프로그램에서 프로그램 실행 속도를 저하시킬 수 있는 문제를 나타냅니다. 또한 경고는 보다 유용한 데이터를 수집하기 위해 수집 방법을 변경해야 할 수 있음을 나타낼 수도 있습니다. 성능 경고는 프로파일링 세션에서 자동으로 생성되며 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 프로파일링 데이터 파일을 열 때 **오류 목록** 창에 표시됩니다. 특정 경고가 관심 있는 시나리오에 적용되지 않을 수도 있고 일부 경고가 부정확하게 발생할 수도 있습니다. 특정 경고를 표시하거나 숨기도록 성능 경고를 구성할 수 있습니다.  
+Visual Studio 프로파일링 도구의 성능 경고는 프로파일링된 애플리케이션에서 프로그램 실행 속도를 저하시킬 수 있는 문제를 나타냅니다. 또한 경고는 보다 유용한 데이터를 수집하기 위해 수집 방법을 변경해야 할 수 있음을 나타낼 수도 있습니다. 성능 경고는 프로파일링 세션에서 자동으로 생성되며 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 프로파일링 데이터 파일을 열 때 **오류 목록** 창에 표시됩니다. 특정 경고가 관심 있는 시나리오에 적용되지 않을 수도 있고 일부 경고가 부정확하게 발생할 수도 있습니다. 특정 경고를 표시하거나 숨기도록 성능 경고를 구성할 수 있습니다.  
   
 ### <a name="to-configure-profiler-performance-warnings"></a>프로파일러 성능 경고를 구성하려면  
   
@@ -45,6 +40,3 @@ Visual Studio 프로파일링 도구의 성능 경고는 프로파일링된 응�
     -   **오류** - 프로파일링 실행을 정지하고 규칙을 오류로 표시합니다.  
   
     -   **정보** - 규칙을 정보 제공용으로만 표시합니다.
-
-
-

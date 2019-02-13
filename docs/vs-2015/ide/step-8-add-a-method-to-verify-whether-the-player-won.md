@@ -1,25 +1,20 @@
 ---
-title: '8단계: 게임 플레이어가 이겼는지 여부를 확인하는 메서드 추가 | Microsoft Docs'
-ms.custom: ''
+title: '8단계: 플레이어가 겼는 지 여부를 확인 하는 메서드 추가 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 6e317f6e-ba4c-4306-8924-300b0c2f65c6
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 278d8d71378c0d14047fe8e012fed21951101548
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 18f234f5b283c20db730b241d6dd73c3524f430e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49306635"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792782"
 ---
 # <a name="step-8-add-a-method-to-verify-whether-the-player-won"></a>8단계: 게임 플레이어가 이겼는지 여부를 확인하는 메서드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ MessageBox가 표시된 일치 게임
 -   다음 자습서 단계로 이동하려면 [9단계: 기타 기능 사용](../ide/step-9-try-other-features.md)를 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [7단계: 쌍 표시](../ide/step-7-keep-pairs-visible.md)를 참조하세요.
-
-
-

@@ -1,24 +1,19 @@
 ---
 title: Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 6b0f72a4-70ca-4e55-b236-2ea1034fd8a7
 caps.latest.revision: 32
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 705604153a0f24eb7ae6b2ff5924a600ddbff54e
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4852dc5b65f00f7d298f5f1a15d39ff041022578
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49872982"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54791994"
 ---
 # <a name="extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel"></a>Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +48,7 @@ ms.locfileid: "49872982"
 ## <a name="details-about-the-sample"></a>샘플에 대한 정보  
  다음 단원에서는 샘플과 구조에 대한 정보를 제공합니다.  
   
-### <a name="microsoft-excel-add-in-excelcodeduiaddinhelper"></a>Microsoft Excel 추가 기능: ExcelCodedUIAddinHelper  
+### <a name="microsoft-excel-add-in-excelcodeduiaddinhelper"></a>Microsoft Excel 추가 기능에서: ExcelCodedUIAddinHelper  
  이 프로젝트에는 Excel 프로세스에서 실행되는 추가 기능이 포함됩니다. 추가 기능 프로젝트에 대한 간략한 개요는 [코딩된 UI 테스트에 대한 샘플 Excel 추가 기능](../test/sample-excel-add-in-for-coded-ui-testing.md)을 참조하세요.  
   
  자세한 내용은 [연습: Excel용 첫 VSTO 추가 기능 만들기](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)를 참조하세요.  
@@ -61,7 +56,7 @@ ms.locfileid: "49872982"
 ### <a name="excel-ui-communication-exceluicommunicationhelper"></a>Excel UI 통신: ExcelUIcommunicationHelper  
  이 프로젝트에는 코딩된 UI 테스트 프레임워크와 Excel 간 데이터를 전달하기 위해 사용되는 `IExcelUICommunication` 인터페이스 및 정보 클래스가 포함되어 있습니다. 자세한 내용은 [샘플 Excel Communicator 인터페이스](../test/sample-excel-communicator-interface.md)를 참조하세요.  
   
-### <a name="coded-ui-test-extension-codeduiexentsibilitysample"></a>코딩된 UI 테스트 확장: CodedUIExentsibilitySample  
+### <a name="coded-ui-test-extension-codeduiexentsibilitysample"></a>코딩 된 UI 테스트 확장: CodedUIExentsibilitySample  
  이 프로젝트에는 Excel 워크시트 테스트에 사용되는 사용자 지정 클래스가 포함됩니다. 이 클래스의 각 코드는 별도의 설명 없이도 바로 이해할 수 있습니다. 그러나 각 사용자 지정 클래스에 대해 간단한 설명을 제공합니다. 자세한 내용은 [Excel용 샘플 코딩된 UI 테스트 확장명](../test/sample-coded-ui-test-extension-for-excel.md)을 참조하세요.  
   
 ### <a name="deploying-your-add-in-and-extension"></a>추가 기능 및 확장명 프로그램 배포  
@@ -84,6 +79,3 @@ ms.locfileid: "49872982"
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
  [코딩된 UI 테스트에 대한 모범 사례](../test/best-practices-for-coded-ui-tests.md)   
  [코딩된 UI 테스트 및 작업 기록에 지원되는 구성 및 플랫폼](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-
-
-

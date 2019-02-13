@@ -1,25 +1,20 @@
 ---
 title: Unity 로그 콜백을 VSTU와 공유 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-unity-tools
+ms.topic: conceptual
 ms.assetid: 5d71f906-6e50-4399-b59b-d38c6dfef7ee
 caps.latest.revision: 5
 author: conceptdev
 ms.author: crdun
-manager: ghogen
-ms.openlocfilehash: 278258d50f82fc55e26caf51d5989b2a7c4583fb
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 5e4fcfdc35e9329429421fd03a941e611e6b5b8f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51758464"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54789171"
 ---
 # <a name="share-the-unity-log-callback-with-vstu"></a>Unity 로그 콜백을 VSTU와 공유
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +25,7 @@ Visual Studio Tools for Unity는 콘솔을 Visual Studio에 스트림할 수 있
 ## <a name="demonstrates"></a>세부 항목  
  Visual Studio Tools for Unity에서 만든 Unity 로그 콜백을 공유하는 방법  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```csharp  
 using System;  
@@ -55,4 +50,3 @@ public class LogCallbackHook
   
 ## <a name="see-also"></a>참고 항목  
  [예제: 프로젝트 파일 생성](../cross-platform/customize-project-files-created-by-vstu.md)
-

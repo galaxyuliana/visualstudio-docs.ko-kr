@@ -1,14 +1,9 @@
 ---
-title: '방법: 편집기의 글꼴 및 색 변경 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 편집기에서 글꼴 및 색 변경 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
 - editors, fonts
 - text, color
@@ -19,13 +14,13 @@ ms.assetid: 3f7629d1-1cdf-4046-9a31-0632517f234d
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 7fb415c68884b2486d0bd45559530f1a36c90bfc
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9d3b9957d9eb08c8e6398866fa4b4dd51dbcea70
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49229319"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799110"
 ---
 # <a name="how-to-change-fonts-and-colors-in-the-editor"></a>방법: 편집기의 글꼴 및 색 변경
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ ms.locfileid: "49229319"
 -   각 형식의 텍스트 요소에 대한 **항목 전경**, **항목 배경** 및 **굵게** 옵션을 설정할 수 있습니다. 예를 들어 **주석** 및 **책갈피**에 대한 색을 변경하고 **굵게**를 선택하면 다른 형식의 텍스트 요소는 영향을 받지 않습니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정 또는 버전에 따라 **도움말**에 설명된 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  표시되는 대화 상자와 메뉴 명령은 활성 설정 또는 버전에 따라 **도움말**에 설명된 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ### <a name="to-change-the-default-font-face-size-and-colors"></a>기본 글꼴, 크기 및 색을 변경하려면  
   
@@ -64,6 +59,3 @@ ms.locfileid: "49229319"
  [옵션 대화 상자, 텍스트 편집기](../../ide/reference/text-editor-options-dialog-box.md)   
  [코드 작성](../../ide/writing-code-in-the-code-and-text-editor.md)   
  [방법: 글꼴 및 색 변경](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-
-
-

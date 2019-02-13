@@ -1,14 +1,9 @@
 ---
 title: Visual C++ 관련 MSBuild 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 dev_langs:
 - VB
 - CSharp
@@ -20,13 +15,13 @@ ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 1da9bdb5c181c9fd935987d629f08af1505f0501
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c7bebf38462e7ca6d979e22a962f7872a7f764b5
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49246157"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54790300"
 ---
 # <a name="msbuild-tasks-specific-to-visual-c"></a>Visaul C++ 관련 MSBuild 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +55,3 @@ ms.locfileid: "49246157"
 |[MSBuild 참조](../msbuild/msbuild-reference.md)|MSBuild 시스템 요소에 대해 설명합니다.|  
 |[작업](../msbuild/msbuild-tasks.md)|결합되어 빌드를 생성할 수 있는 코드 단위인 작업에 대해 설명합니다.|  
 |[작업 작성](../msbuild/task-writing.md)|작업을 만드는 방법을 설명합니다.|
-
-
-

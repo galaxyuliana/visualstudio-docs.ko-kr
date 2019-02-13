@@ -1,14 +1,9 @@
 ---
 title: '방법: 여러 플랫폼을 대상으로 한 프로젝트 구성 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio], targeting platforms
 - platforms, changing target platforms
@@ -16,13 +11,13 @@ ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 9a3010e6304124ee306c5ecad3593df98d555523
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e67d4a5df03f128285de45473c933761d6c7eb04
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49921836"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54785828"
 ---
 # <a name="how-to-configure-projects-to-target-multiple-platforms"></a>방법: 여러 플랫폼을 대상으로 한 프로젝트 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ ms.locfileid: "49921836"
   
 1.  **빌드** 메뉴에서 **Configuration Manager**를 클릭합니다.  
   
-2.  **활성 솔루션 플랫폼 상자**에서 솔루션의 대상이 될 플랫폼을 선택하거나 **\<새로 만들기>** 를 선택하여 새 플랫폼을 만듭니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]은(는) **Configuration Manager** 대화 상자에서 활성 플랫폼으로 설정된 플랫폼을 대상으로 응용 프로그램을 컴파일합니다.  
+2.  **활성 솔루션 플랫폼 상자**에서 솔루션의 대상이 될 플랫폼을 선택하거나 **\<새로 만들기>** 를 선택하여 새 플랫폼을 만듭니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]은(는) **Configuration Manager** 대화 상자에서 활성 플랫폼으로 설정된 플랫폼을 대상으로 애플리케이션을 컴파일합니다.  
   
 ## <a name="removing-a-platform"></a>플랫폼 제거  
  플랫폼에 대한 요구가 없다고 생각되면 Configuration Manager 대화 상자를 사용하여 제거할 수 있습니다. 그러면 구성 및 대상 조합에 대해 구성한 모든 솔루션 및 프로젝트 설정이 제거됩니다.  
@@ -72,6 +67,3 @@ ms.locfileid: "49921836"
  [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)   
  [빌드 구성 이해](../ide/understanding-build-configurations.md)   
  [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
-
-
-

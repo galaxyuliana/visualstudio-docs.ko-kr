@@ -12,15 +12,14 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: cf68127d875ba4c785f10319cabdd96a3c11adc2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: 841620330c10bae3cbced7710930af8c72456c31
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54996196"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55943781"
 ---
 # <a name="upgrade-mdf-files"></a>.mdf 파일 업그레이드
 
@@ -70,9 +69,9 @@ Visual Studio를 사용 하 여 데이터베이스 파일을 포함 하는 프�
 
         -   특정 버전을 사용 하려면: `(localdb)\ProjectsV12` 또는 `(localdb)\ProjectsV13`, 여기서 V12 LocalDB 2014 이며 V13 LocalDB 2016 합니다.
 
-    -   **데이터베이스 파일 첨부**: 주 데이터베이스의 실제 경로로 *.mdf* 파일입니다.
+    -   **데이터베이스 파일 첨부**: 주 데이터베이스의 실제 경로가 *.mdf* 파일입니다.
 
-    -   논리적 이름(&L): 파일을 사용 하려는 이름입니다.
+    -   **논리적 이름**: 파일을 사용 하려는 이름입니다.
 
 3.  **확인** 단추를 선택합니다.
 

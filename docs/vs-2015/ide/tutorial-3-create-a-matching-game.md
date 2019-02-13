@@ -1,30 +1,25 @@
 ---
 title: '자습서 3: 일치 게임 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: e5bd7243e49c447dc8c362b0c98bf2cc7d77d76d
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 44c9b6578085ee49796078976b30d78f1656e58f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49939500"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792713"
 ---
 # <a name="tutorial-3-create-a-matching-game"></a>자습서 3: 일치 게임 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 자습서에서는 플레이어가 숨겨진 아이콘의 쌍을 찾는 일치 게임을 빌드합니다. 여기에서는 다음과 같은 작업을 수행하는 방법에 대해 배우게 됩니다.  
+이 자습서에서는 플레이어가 숨겨진 아이콘의 쌍을 찾는 일치 게임을 빌드합니다. 다음과 같은 작업을 수행하는 방법을 살펴봅니다.  
   
 - 아이콘과 같은 개체를 `List` 개체에 저장합니다.  
   
@@ -61,6 +56,3 @@ ms.locfileid: "49939500"
 |[7단계: 쌍 표시](../ide/step-7-keep-pairs-visible.md)|일치하는 쌍이 선택되면 해당 아이콘 쌍을 표시합니다.|  
 |[8단계: 게임 플레이어가 이겼는지 여부를 확인하는 메서드 추가](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md)|플레이어가 게임에 이겼는지 여부를 확인하기 위해 `CheckForWinner()` 메서드를 추가합니다.|  
 |[9단계: 기타 기능 사용](../ide/step-9-try-other-features.md)|아이콘과 색을 변경하고 모눈과 소리를 추가하는 등 다른 기능을 테스트해 봅니다. 보드를 크게 하거나 타이머를 조정해 볼 수 있습니다.|
-
-
-

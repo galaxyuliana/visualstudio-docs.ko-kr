@@ -1,14 +1,9 @@
 ---
 title: '방법: 수집 방법 선택 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - performance tools, choosing collection method
 - profiling tools, choosing collection method
@@ -17,13 +12,13 @@ ms.assetid: c87cfd3a-0fc7-49ae-9c05-d8480891cc63
 caps.latest.revision: 39
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 6ca8018b572671f349c058e314b26f7897e421b9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 187a45a925b8124309da44e114ac63e2212bf7c9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51727623"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792878"
 ---
 # <a name="how-to-choose-collection-methods"></a>방법: 컬렉션 방법 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +29,7 @@ ms.locfileid: "51727623"
   
 - [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
-  성능 세션 **Method** 속성을 사용하여 응용 프로그램에 가장 적절한 수집 방법을 지정할 수 있습니다. 성능 마법사, 성능 탐색기 또는 성능 세션의 속성 페이지에서 수집 방법을 설정할 수 있습니다. 명령줄 도구를 사용할 경우 자세한 내용은 [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)을 참조하세요.  
+  성능 세션 **Method** 속성을 사용하여 애플리케이션에 가장 적절한 수집 방법을 지정할 수 있습니다. 성능 마법사, 성능 탐색기 또는 성능 세션의 속성 페이지에서 수집 방법을 설정할 수 있습니다. 명령줄 도구를 사용할 경우 자세한 내용은 [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)을 참조하세요.  
   
 ## <a name="performance-wizard"></a>성능 마법사  
   
@@ -44,7 +39,7 @@ ms.locfileid: "51727623"
   
 |옵션|설명|  
 |------------|-----------------|  
-|**CPU 샘플링**|초기 분석 및 CPU 사용률 문제 분석에 유용한 응용 프로그램 통계를 수집합니다.|  
+|**CPU 샘플링**|초기 분석 및 CPU 사용률 문제 분석에 유용한 애플리케이션 통계를 수집합니다.|  
 |**계측**|집중 분석 및 입/출력 성능 문제 분석에 유용한 자세한 타이밍 데이터를 수집합니다.|  
 |**.NET 메모리 할당**|샘플링 프로파일링 방법을 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 메모리 할당 데이터를 수집합니다.|  
 |**동시성**|숫자 리소스 경합 데이터를 수집합니다.|  
@@ -105,6 +100,3 @@ ms.locfileid: "51727623"
  [성능 세션 구성](../profiling/configuring-performance-sessions.md)   
  [샘플링 데이터 값 이해](../profiling/understanding-sampling-data-values.md)   
  [성능 세션 속성](../profiling/performance-session-properties.md)
-
-
-

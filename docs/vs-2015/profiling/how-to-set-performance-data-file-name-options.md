@@ -1,25 +1,20 @@
 ---
 title: '방법: 성능 데이터 파일 이름 옵션 설정 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: d7a8d6b9-ab23-46fb-98ed-774781157860
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 06751d510c38f055036865a8f368c4e0c3298a30
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f3d513010b94c61e09f8bda6a9fb3074ba949bdd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51801990"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54760416"
 ---
 # <a name="how-to-set-performance-data-file-name-options"></a>방법: 성능 데이터 파일 이름 옵션 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ ms.locfileid: "51801990"
     |**자동으로 세션에 새 보고서 추가**|데이터 파일을 성능 세션에 자동으로 추가하려면 확인란을 선택합니다.|  
     |**생성된 보고서에 증분 번호 추가**|같은 이름을 가진 파일이 두 개 이상 있을 경우 파일 이름에 증분 번호를 추가하려면 확인란을 선택합니다. 기존 파일을 덮어쓰려면 확인란의 선택을 취소합니다.|  
     |**숫자에 타임스탬프 사용**|파일 이름에 날짜 스탬프를 추가하려면 확인란을 선택합니다.|
-
-
-

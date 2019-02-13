@@ -1,14 +1,9 @@
 ---
-title: '연습: 구성 파일을 통한 데이터 소스 정의 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 구성 파일을 사용 하 여 데이터 원본을 정의 하려면 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
 - configuration files [Visual Studio ALM], defining data sources
 - unit tests, walkthrough
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 95fa5214-b12e-4e1f-84e5-cc4c2d86b0d7
 caps.latest.revision: 34
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: f3dca876e777e8f40773ca42b05fece1c22fe33e
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: a6adfc19d16e13449dd673ca7722781f16b4b6cb
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49843043"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54835123"
 ---
 # <a name="walkthrough-using-a-configuration-file-to-define-a-data-source"></a>연습: 구성 파일을 통한 데이터 소스 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +53,7 @@ ms.locfileid: "49843043"
   
      **새 항목 추가** 창이 열립니다.  
   
-3.  **응용 프로그램 구성 파일** 템플릿을 선택하고 **추가**를 클릭합니다.  
+3.  **애플리케이션 구성 파일** 템플릿을 선택하고 **추가**를 클릭합니다.  
   
 ##  <a name="DefineCustomConfigurationSection"></a> 사용자 지정 구성 섹션 정의 Section  
  app.config 파일을 검토합니다. XML 선언과 루트 요소는 반드시 포함되어야 합니다.  
@@ -81,7 +76,7 @@ ms.locfileid: "49843043"
 >  어셈블리 이름은 사용 중인 Microsoft Visual Studio .NET Framework 빌드와 일치해야 합니다. Visual Studio .NET Framework 3.5를 사용 중인 경우 버전을 9.0.0.0으로 설정합니다. Visual Studio .NET Framework 2.0을 사용 중인 경우 버전을 8.0.0.0으로 설정합니다.  
   
 ## <a name="define-connection-strings"></a>연결 문자열 정의  
- 연결 문자열은 데이터 원본 액세스를 위한 공급자 특정 정보를 정의합니다. 구성 파일에 정의된 연결 문자열은 응용 프로그램 전체에서 재사용 가능한 데이터 공급자 정보를 제공합니다. 이 섹션에서는 사용자 지정 구성 섹션에 정의된 데이터 원본에서 사용되는 두 개의 연결 문자열을 만듭니다.  
+ 연결 문자열은 데이터 원본 액세스를 위한 공급자 특정 정보를 정의합니다. 구성 파일에 정의된 연결 문자열은 애플리케이션 전체에서 재사용 가능한 데이터 공급자 정보를 제공합니다. 이 섹션에서는 사용자 지정 구성 섹션에 정의된 데이터 원본에서 사용되는 두 개의 연결 문자열을 만듭니다.  
   
 #### <a name="to-define-connection-strings"></a>연결 문자열을 정의하려면  
   
@@ -224,7 +219,7 @@ ms.locfileid: "49843043"
   
 1.  테스트 프로젝트에 단위 테스트를 추가합니다.  
   
-     자세한 내용은 [기존 코드에 대한 단위 테스트 만들기 및 실행](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)을 참조하세요.  
+     자세한 내용은 [기존 코드에 대한 단위 테스트 만들기 및 실행](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)을 참조하세요.  
   
 2.  자동 생성된 단위 테스트 콘텐츠를 다음 코드로 바꿉니다.  
   
@@ -275,9 +270,6 @@ ms.locfileid: "49843043"
   
 ## <a name="see-also"></a>참고 항목  
  [코드 단위 테스트](../test/unit-test-your-code.md)   
- [기존 코드에 대한 단위 테스트 만들기 및 실행](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
- [응용 프로그램 테스트](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)   
+ [기존 코드에 대한 단위 테스트 만들기 및 실행](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
+ [애플리케이션 테스트](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)   
  [방법: 데이터 기반 단위 테스트 만들기](../test/how-to-create-a-data-driven-unit-test.md)
-
-
-

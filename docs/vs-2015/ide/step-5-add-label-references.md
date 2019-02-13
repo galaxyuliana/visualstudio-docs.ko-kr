@@ -1,25 +1,20 @@
 ---
-title: '5단계: 레이블 참조 추가 | Microsoft 문서'
-ms.custom: ''
+title: '5단계: 레이블 참조 추가 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: d418350c-0396-494e-8149-71fa61b395c5
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 829911bc2f08010b9e0d3d9c710862097720d4df
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: baae597f606b6333f15ba114d31af2cb0cf28836
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49285226"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54833667"
 ---
 # <a name="step-5-add-label-references"></a>5단계: 레이블 참조 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ ms.locfileid: "49285226"
      [!code-csharp[VbExpressTutorial4Step5#5](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs#5)]
      [!code-vb[VbExpressTutorial4Step5#5](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb#5)]  
   
-     이러한 참조 변수는 이전에 폼에 개체(예: `Timer` 개체, `List` 개체 및 `Random` 개체)를 추가할 때 사용한 문과 비슷합니다. 그러나 두 문 중 하나에 `new` 키워드가 사용되지 않았으므로 이러한 문을 통해 두 개의 추가 레이블 컨트롤이 폼에 나타나지 않습니다. `new` 키워드가 없으면 개체가 만들어지지 않습니다. 이 때문에 `firstClicked`와 `secondClicked`를 참조 변수라고 합니다. 참조 변수는 `Label` 개체를 추적 또는 참조만 합니다.  
+     이러한 참조 변수는 이전에 폼에 개체(예: `Timer` 개체, `List` 개체 및 `Random` 개체)를 추가할 때 사용한 문과 비슷합니다. 그러나 두 문 중 하나에 `new` 키워드가 사용되지 않았으므로 이러한 문을 통해 두 개의 추가 레이블 컨트롤이 폼에 나타나지 않습니다. `new` 키워드가 없으면 개체가 만들어지지 않습니다. `firstClicked` 및 `secondClicked`를 참조 변수라고 하는 이유는 추적 (또는을 참조 하세요) `Label` 개체입니다.  
   
      변수가 개체를 추적하지 않으면 `null`(Visual C#의 경우)과 `Nothing`(Visual Basic의 경우)이라는 예약된 특수 값이 변수에 설정됩니다. 따라서 프로그램이 시작되면 `firstClicked`와 `secondClicked` 둘 다 `null` 또는 `Nothing`으로 설정되며, 이는 변수가 아무것도 추적하고 있지 않음을 나타냅니다.  
   
@@ -56,6 +51,3 @@ ms.locfileid: "49285226"
 -   다음 자습서 단계로 이동하려면 [6단계: 타이머 추가](../ide/step-6-add-a-timer.md)를 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [4단계: 각 레이블에 클릭 이벤트 처리기 추가](../ide/step-4-add-a-click-event-handler-to-each-label.md)를 참조하세요.
-
-
-

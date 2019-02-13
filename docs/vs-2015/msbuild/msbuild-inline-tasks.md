@@ -1,27 +1,22 @@
 ---
 title: MSBuild 인라인 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords:
 - MSBuild, tasks
 ms.assetid: e72e6506-4a11-4edf-ae8d-cfb5a3b9d8a0
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 1f210aa8e33859f41046edc8e524cbfbeaf5417b
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 03a0dcde4b96afa028a69f5def5cdb52632e5e85
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49898618"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792174"
 ---
 # <a name="msbuild-inline-tasks"></a>MSBuild 인라인 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -169,7 +164,7 @@ Log.LogError("Hello, world!");
   
   `Code` 요소에 `Fragment` 또는 `Method`의 `Type` 특성이 있는 경우 모든 매개 변수에 대해 자동으로 속성이 만들어집니다. 그렇지 않으면 작업 소스 코드에서 속성을 명시적으로 선언해야 하며 이러한 속성은 해당 매개 변수 정의와 정확히 일치해야 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 인라인 작업은 지정된 파일에서 나오는 모든 토큰을 지정된 값으로 바꿉니다.  
   
 ```  
@@ -200,6 +195,3 @@ File.WriteAllText(Path, content);
 ## <a name="see-also"></a>참고 항목  
  [작업](../msbuild/msbuild-tasks.md)   
  [연습: 인라인 작업 만들기](../msbuild/walkthrough-creating-an-inline-task.md)
-
-
-

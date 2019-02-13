@@ -1,25 +1,20 @@
 ---
-title: '1단계: 프로젝트 만들기 및 폼에 테이블 추가 | Microsoft Docs'
-ms.custom: ''
+title: '1단계: 프로젝트를 만들고 폼에 테이블 추가 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: c49a3e9ac7c4a37c1c030d631667d90b274143cf
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f716c279bce14a2a262578de090ed59290890f57
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49934693"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54776033"
 ---
 # <a name="step-1-create-a-project-and-add-a-table-to-your-form"></a>1단계: 프로젝트 만들기 및 폼에 테이블 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ ms.locfileid: "49934693"
   
 2. Visual Studio Express를 사용하고 있지 않으면 먼저 프로그래밍 언어를 선택해야 합니다. **설치된 템플릿** 목록에서 **Visual C#** 또는 **Visual Basic**을 선택합니다.  
   
-3. 프로젝트 템플릿 목록에서 **Windows Forms 응용 프로그램**을 선택하고 프로젝트 이름으로 **MatchingGame**을 지정한 다음 **확인** 단추를 선택합니다.  
+3. 프로젝트 템플릿 목록에서 **Windows Forms 애플리케이션**을 선택하고 프로젝트 이름으로 **MatchingGame**을 지정한 다음 **확인** 단추를 선택합니다.  
   
 4. **속성** 창에서 다음 폼 속성을 설정합니다.  
   
@@ -99,6 +94,3 @@ ms.locfileid: "49934693"
 -   다음 자습서 단계로 이동하려면 [2단계: 임의의 개체 및 아이콘 목록 추가](../ide/step-2-add-a-random-object-and-a-list-of-icons.md)를 참조하세요.  
   
 -   개요 항목으로 돌아가려면 [자습서 3: 일치 게임 만들기](../ide/tutorial-3-create-a-matching-game.md)를 참조하세요.
-
-
-

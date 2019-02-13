@@ -1,25 +1,20 @@
 ---
-title: '1단계: 프로젝트 만들기 및 폼에 레이블 추가 | Microsoft 문서'
-ms.custom: ''
+title: '1단계: 프로젝트를 만들고 폼에 레이블 추가 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 6332659307f10b5cf7f4f224c8a99456de03d81a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b29944ac31498710b1d97f75d96d3bc3cbbca696
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49207001"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54786059"
 ---
 # <a name="step-1-create-a-project-and-add-labels-to-your-form"></a>1단계: 프로젝트 만들기 및 폼에 레이블 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ ms.locfileid: "49207001"
   
 2.  **설치된 템플릿** 목록에서 **C#** 또는 **Visual Basic**을 선택합니다.  
   
-3.  템플릿 목록에서 **Windows Forms 응용 프로그램** 템플릿을 선택하고 이름으로 **수학 퀴즈**를 지정한 다음 **확인** 단추를 선택합니다.  
+3.  템플릿 목록에서 **Windows Forms 애플리케이션** 템플릿을 선택하고 이름으로 **수학 퀴즈**를 지정한 다음 **확인** 단추를 선택합니다.  
   
      선택한 프로그래밍 언어에 따라 **Form1.cs** 또는 **Form1.vb**라는 폼이 표시됩니다.  
   
@@ -183,6 +178,3 @@ ms.locfileid: "49207001"
 -   다음 자습서 단계로 이동하려면 [2단계: 난수 더하기 문제 만들기](../ide/step-2-create-a-random-addition-problem.md)를 참조하세요.  
   
 -   개요 항목으로 돌아가려면 [자습서 2: 시간이 지정된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)를 참조하세요.
-
-
-

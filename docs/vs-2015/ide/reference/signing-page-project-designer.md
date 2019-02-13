@@ -1,14 +1,9 @@
 ---
 title: 프로젝트 디자이너, 서명 페이지 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - vs.AddNewStrongNameKey
 - ResolveKeySource.KeyFileForSignAssemblyNotImported
@@ -24,19 +19,19 @@ ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
 caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: e4aa8ee86032c4cadf9cbfa59d3db840102be669
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 59f8cb15db6f93c76275fd1d8318ae04df998cf7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49263947"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54788728"
 ---
 # <a name="signing-page-project-designer"></a>프로젝트 디자이너, 서명 페이지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-**프로젝트 디자이너**의 **서명** 페이지를 사용하여 응용 프로그램 및 배포 매니페스트에 서명하고 어셈블리에도 서명합니다(강력한 이름 서명).  
+**프로젝트 디자이너**의 **서명** 페이지를 사용하여 애플리케이션 및 배포 매니페스트에 서명하고 어셈블리에도 서명합니다(강력한 이름 서명).  
   
  애플리케이션 및 배포 매니페스트 서명 및 어셈블리 서명은 둘 다 **서명** 페이지에서 수행되는 작업이지만 서로 다른 프로세스입니다.  
   
@@ -72,7 +67,7 @@ ms.locfileid: "49263947"
   
 ## <a name="assembly-signing"></a>어셈블리 서명  
  **어셈블리 서명** 확인란  
- 어셈블리에 서명하고 강력한 이름 키 파일을 만들려면 이 확인란을 선택합니다. **프로젝트 디자이너**를 사용하여 어셈블리에 서명하는 방법에 대한 자세한 내용은 [방법: 어셈블리 서명(Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564)을 참조하세요.  
+ 어셈블리에 서명하고 강력한 이름 키 파일을 만들려면 이 확인란을 선택합니다. **프로젝트 디자이너**를 사용하여 어셈블리에 서명하는 방법에 대한 자세한 내용은 [방법: 어셈블리 서명(Visual Studio)](http://msdn.microsoft.com/f468a7d3-234c-4353-924d-8e0ae5896564)을 참조하세요.  
   
  이 옵션은 [!INCLUDE[winsdklong](../../includes/winsdklong-md.md)]에서 제공된 Al.exe 도구를 사용하여 어셈블리에 서명합니다. Al.exe에 대한 자세한 내용은 [방법: 강력한 이름으로 어셈블리 서명](http://msdn.microsoft.com/library/2c30799a-a826-46b4-a25d-c584027a6c67)을 참조하세요.  
   
@@ -97,11 +92,8 @@ ms.locfileid: "49263947"
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 속성 참조](../../ide/reference/project-properties-reference.md)   
  [어셈블리 및 매니페스트 서명 관리](../../ide/managing-assembly-and-manifest-signing.md)   
- [관리되는 응용 프로그램의 강력한 이름 서명](http://msdn.microsoft.com/en-us/5fef3490-c519-4363-94fd-8b1ad260dab5)   
- [방법: 응용 프로그램 및 배포 매니페스트 서명](../../ide/how-to-sign-application-and-deployment-manifests.md)   
- [방법: 어셈블리 서명(Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564)   
+ [관리되는 애플리케이션의 강력한 이름 서명](http://msdn.microsoft.com/5fef3490-c519-4363-94fd-8b1ad260dab5)   
+ [방법: 애플리케이션 및 배포 매니페스트 서명](../../ide/how-to-sign-application-and-deployment-manifests.md)   
+ [방법: 어셈블리 서명(Visual Studio)](http://msdn.microsoft.com/f468a7d3-234c-4353-924d-8e0ae5896564)   
  [방법: 강력한 이름으로 어셈블리 서명](http://msdn.microsoft.com/library/2c30799a-a826-46b4-a25d-c584027a6c67)   
  [강력한 이름의 어셈블리](http://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)
-
-
-

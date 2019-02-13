@@ -1,32 +1,27 @@
 ---
 title: '방법: 계측을 특정 DLL로 제한 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - performance tools, runtime profiling control window
 ms.assetid: 17c5996f-e3d0-4e44-b175-52b401b0f2d5
 caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 054a281d445f5910e9a2d635bb453dd283425453
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 93d2e85455544a52d7ed6e9d49c5e93b5c771a3f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51803463"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54779497"
 ---
 # <a name="how-to-limit-instrumentation-to-specific-dlls"></a>방법: 계측을 특정 DLL로 제한
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-계측 프로파일링 방법을 사용하여 프로파일링 데이터 수집을 응용 프로그램의 DLL 하나 이상으로 제한할 수 있습니다. 응용 프로그램에서 하나 이상의 DLL을 프로파일링하려면 .dll 파일이 대상으로 포함된 성능 세션을 만듭니다. 프로파일링할 DLL을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 프로젝트로 또는 독립 이진 파일로 지정할 수 있습니다.  
+계측 프로파일링 방법을 사용하여 프로파일링 데이터 수집을 애플리케이션의 DLL 하나 이상으로 제한할 수 있습니다. 애플리케이션에서 하나 이상의 DLL을 프로파일링하려면 .dll 파일이 대상으로 포함된 성능 세션을 만듭니다. 프로파일링할 DLL을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 프로젝트로 또는 독립 이진 파일로 지정할 수 있습니다.  
   
 ### <a name="to-limit-instrumentation-to-specific-dlls-in-a-visual-studio-solution"></a>Visual Studio 솔루션에서 계측을 특정 DLL로 제한하려면  
   
@@ -62,7 +57,7 @@ ms.locfileid: "51803463"
   
     -   **실행 파일 경로**에서 .dll을 실행할 실행 파일(.exe)의 경로 및 파일 이름을 입력합니다. 줄임표 단추(...)를 클릭하여 **시작할 실행 파일** 대화 상자에서 파일을 찾을 수도 있습니다.  
   
-    -   선택 사항입니다. **명령줄 인수**로 실행 파일에 전달할 명령줄 인수를 입력합니다. 필요한 경우 **작업 디렉터리**에서 응용 프로그램의 작업 디렉터리를 지정합니다.  
+    -   선택 사항입니다. **명령줄 인수**로 실행 파일에 전달할 명령줄 인수를 입력합니다. 필요한 경우 **작업 디렉터리**에서 애플리케이션의 작업 디렉터리를 지정합니다.  
   
     -   **다음**을 클릭합니다.  
   
@@ -78,6 +73,3 @@ ms.locfileid: "51803463"
 ## <a name="see-also"></a>참고 항목  
  [데이터 수집 제어](../profiling/controlling-data-collection.md)   
  [방법: 특정 함수로 계측 제한](../profiling/how-to-limit-instrumentation-to-specific-functions.md)
-
-
-

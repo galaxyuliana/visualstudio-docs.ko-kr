@@ -1,25 +1,20 @@
 ---
 title: '방법: 명령줄에서 기호 파일 위치 지정 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: 8aa067bb-e8bf-4081-aff0-cfbcf65934a0
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 3d138166bc0dfdf93df5d4e340fc0d0a62d1828b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: d4cb6fcfac8e9f619ab99e1d96472824d6c98e51
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51721197"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54776180"
 ---
 # <a name="how-to-specify-symbol-file-locations-from-the-command-line"></a>방법: 명령줄에서 기호 파일 위치 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,7 +55,7 @@ ms.locfileid: "51721197"
 ## <a name="specifying-component-symbol-files"></a>구성 요소 기호 파일 지정  
  프로파일링 도구는 프로파일링 데이터 파일이 포함된 폴더 또는 구성 요소에 저장된 원래 위치에서 프로파일링하려는 구성 요소의 .pdb 파일을 검색합니다. **_NT_SYMBOL_PATH** 또는 **/SymbolPath** 옵션에 하나 이상의 경로를 추가하여 검색할 다른 위치를 지정할 수 있습니다. 경로를 세미콜론으로 구분합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 명령줄은 **_NT_SYMBOL_PATH** 환경 변수를 Windows 기호 서버로 설정하고 로컬 디렉터리를 **C:\Symbols**로 설정합니다.  
   
  **set  _NT_SYMBOL_PATH=srv\*C:\symbols\*http://msdl.microsoft.com/downloads/symbols**  
@@ -68,6 +63,3 @@ ms.locfileid: "51721197"
  다음 VSPerfReport 명령줄은 **/SymbolPath** 옵션을 사용하여 C:\Projects\Symbols 디렉터리를 검색 경로에 추가합니다.  
   
  **VSPerfReport**  *MyApp* **.exe /SymbolPath:C:\Projects\Symbols /summary:all**
-
-
-

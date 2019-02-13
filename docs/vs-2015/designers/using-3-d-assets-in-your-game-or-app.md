@@ -1,14 +1,9 @@
 ---
 title: 게임 또는 앱에서 3차원 자산 사용 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords:
 - VC.Project.ImageContentTask.ContentOutput
 - VC.Project.MeshContentTask.ContentOutput
@@ -20,13 +15,13 @@ ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: e04f4c82e6f11f2659b4cc65549efb291009b720
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 0ca0150b44bbed9f411af25c5ce3805e553e8272
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49863597"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54775113"
 ---
 # <a name="using-3-d-assets-in-your-game-or-app"></a>게임 또는 응용 프로그램에 3차원 자산 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -212,6 +207,3 @@ cbuffer MiscVars : register(b3)
 |[방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|이미지 콘텐츠 파이프라인을 사용하여 Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 내보내는 방법에 대해 설명합니다.|  
 |[게임 및 응용 프로그램을 위한 3D 자산 작업](../designers/working-with-3-d-assets-for-games-and-apps.md)|Visual Studio에서는 질감 및 이미지, 3-D 모델 및 셰이더를 비롯한 3-D 자산을 만들고 조작하는 편집 도구에 대해 설명합니다.|  
 |[방법: 셰이더 내보내기](../designers/how-to-export-a-shader.md)|셰이더 디자이너에서 셰이더를 내보내는 방법을 설명합니다.|
-
-
-

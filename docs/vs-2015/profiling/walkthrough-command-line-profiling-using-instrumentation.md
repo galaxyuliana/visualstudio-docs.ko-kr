@@ -1,14 +1,9 @@
 ---
-title: '연습: 계측을 사용하여 명령줄 프로파일링 | Microsoft 문서'
-ms.custom: ''
+title: '연습: 계측을 사용 하 여 명령줄 프로 파일링 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - profiling tools, walkthroughs
 - performance tools, walkthroughs
@@ -17,18 +12,18 @@ ms.assetid: 1c6f1586-3d6a-431f-bedf-c54088e280ba
 caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 1b670ef29ca2edcc96ed8886b82dd5d7c6cb416b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 053904df9a4930385d25c90c310c3199ce1d664f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51741462"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54755435"
 ---
 # <a name="walkthrough-command-line-profiling-using-instrumentation"></a>연습: 계측을 사용하여 명령줄 프로파일링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 프로파일링 도구의 계측 방법을 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 독립 실행형 응용 프로그램을 프로파일링해 자세한 타이밍 및 호출 수 데이터를 수집하는 과정을 안내합니다. 이 연습에서는 다음 작업을 수행합니다.  
+이 연습에서는 프로파일링 도구의 계측 방법을 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 독립 실행형 애플리케이션을 프로파일링해 자세한 타이밍 및 호출 수 데이터를 수집하는 과정을 안내합니다. 이 연습에서는 다음 작업을 수행합니다.  
   
 -   [VSInstr](../profiling/vsinstr.md) 명령줄 도구를 사용하여 계측된 이진 파일을 생성합니다.  
   
@@ -54,11 +49,11 @@ ms.locfileid: "51741462"
  계측은 계측된 모듈의 함수에 대한 진입 및 종료 시 타이밍 정보를 수집하는 프로브 함수를 특수하게 작성된 버전의 프로파일링된 이진 파일에 포함할 수 있는 프로파일링 방법입니다. 이 프로파일링 방법은 샘플링보다 침입성이 높으므로오버헤드가 더 많이 발생합니다. 계측된 이진 파일도 디버그 또는 릴리스 이진 파일보다 더 크므로 배포할 수 없습니다.  
   
 > [!NOTE]
->  고객에게는 계측된 이진 파일을 전송하지 마세요. 계측된 이진 파일에는 여러 가지 위험 요소가 포함될 수 있습니다. 이진 파일에는 응용 프로그램을 보다 쉽게 리버스 엔지니어링할 수 있도록 만드는 정보와 보안 위험이 포함되어 있습니다.  
+>  고객에게는 계측된 이진 파일을 전송하지 마세요. 계측된 이진 파일에는 여러 가지 위험 요소가 포함될 수 있습니다. 이진 파일에는 애플리케이션을 보다 쉽게 리버스 엔지니어링할 수 있도록 만드는 정보와 보안 위험이 포함되어 있습니다.  
   
-#### <a name="to-profile-the-peopletrax-application-by-using-the-instrumentation-method"></a>계측 방법을 사용하여 PeopleTrax 응용 프로그램을 프로파일링하려면  
+#### <a name="to-profile-the-peopletrax-application-by-using-the-instrumentation-method"></a>계측 방법을 사용하여 PeopleTrax 애플리케이션을 프로파일링하려면  
   
-1.  PeopleTrax 샘플 응용 프로그램을 설치하고 릴리스 버전을 빌드합니다.  
+1.  PeopleTrax 샘플 애플리케이션을 설치하고 릴리스 버전을 빌드합니다.  
   
 2.  명령 프롬프트 창을 열고 **프로파일링 도구** 디렉터리를 로컬 Path 환경 변수에 추가합니다.  
   
@@ -70,7 +65,7 @@ ms.locfileid: "51741462"
     md Reports  
     ```  
   
-5.  VSInstr 명령줄 도구를 사용하여 응용 프로그램의 이진 파일을 계측합니다. 별도의 명령줄에서 다음 명령을 입력합니다.  
+5.  VSInstr 명령줄 도구를 사용하여 애플리케이션의 이진 파일을 계측합니다. 별도의 명령줄에서 다음 명령을 입력합니다.  
   
     ```  
     VSInstr PeopleTrax.exe  
@@ -96,7 +91,7 @@ ms.locfileid: "51741462"
   
 8.  프로파일러를 추적 모드에서 시작한 후 PeopleTrax.exe 프로세스의 계측된 버전을 실행하여 데이터를 수집합니다.  
   
-     **PeopleTrax** 응용 프로그램 창이 나타납니다.  
+     **PeopleTrax** 애플리케이션 창이 나타납니다.  
   
 9. **사용자 가져오기**를 클릭합니다.  
   
@@ -104,9 +99,9 @@ ms.locfileid: "51741462"
   
 10. **데이터 내보내기**를 클릭합니다.  
   
-     메모장이 시작되고 **PeopleTrax** 응용 프로그램의 사용자 목록이 들어 있는 새 파일이 표시됩니다.  
+     메모장이 시작되고 **PeopleTrax** 애플리케이션의 사용자 목록이 들어 있는 새 파일이 표시됩니다.  
   
-11. 메모장을 닫은 다음 **PeopleTrax** 응용 프로그램을 닫습니다.  
+11. 메모장을 닫은 다음 **PeopleTrax** 애플리케이션을 닫습니다.  
   
 12. 프로파일러를 종료합니다. 다음 명령을 입력합니다.  
   
@@ -134,6 +129,3 @@ ms.locfileid: "51741462"
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [샘플링 데이터 값 이해](../profiling/understanding-sampling-data-values.md)   
  [성능 보고서 뷰](../profiling/performance-report-views.md)
-
-
-

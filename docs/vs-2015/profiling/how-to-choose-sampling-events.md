@@ -1,14 +1,9 @@
 ---
 title: '방법: 샘플링 이벤트 선택 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.performance.property.sampling
 helpviewer_keywords:
@@ -23,13 +18,13 @@ ms.assetid: ce7cb734-80ac-4930-a4ef-e24395e1cc07
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 96bf47c6bfc28e0939f6feb9fd7999e898c042a1
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 78d5e8bbc024009ad6515bdf08c5219253b42d12
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51734507"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54784514"
 ---
 # <a name="how-to-choose-sampling-events"></a>방법: 샘플링 이벤트 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +48,7 @@ ms.locfileid: "51734507"
   
 2.  **속성 페이지**에서 **샘플링** 속성을 클릭합니다.  
   
-3.  **샘플 이벤트** 드롭다운 목록에서 응용 프로그램 프로파일링에 사용할 샘플 이벤트를 선택합니다.  
+3.  **샘플 이벤트** 드롭다운 목록에서 애플리케이션 프로파일링에 사용할 샘플 이벤트를 선택합니다.  
   
     > [!NOTE]
     >  **사용 가능한 성능 카운터**는 **샘플 이벤트** 드롭다운 목록에서 **성능 카운터**를 선택한 경우에만 사용하도록 설정됩니다.  
@@ -72,6 +67,3 @@ ms.locfileid: "51734507"
  [CPU 및 Windows 카운터](../profiling/cpu-and-windows-counters.md)   
  [샘플링 데이터 값 이해](../profiling/understanding-sampling-data-values.md)   
  [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)
-
-
-

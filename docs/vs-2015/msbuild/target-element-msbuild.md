@@ -1,14 +1,9 @@
 ---
 title: Target 요소(MSBuild) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Target
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: 350f6fc2-86b3-45f2-a31e-ece0e6bd4dca
 caps.latest.revision: 38
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: bc4224930782e24b20d3e9720c517304b0153f2d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 6e763c0a39e3785e91733105f8fc18eae324e958
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49173409"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758292"
 ---
 # <a name="target-element-msbuild"></a>Target 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,7 +88,7 @@ ms.locfileid: "49173409"
 |-------------|-----------------|  
 |[프로젝트](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일의 필수 루트 요소입니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  실행할 첫 번째 대상은 런타임에 지정됩니다. 대상은 다른 대상에 대한 종속성을 포함할 수 있습니다. 예를 들어 배포용 대상은 컴파일용 대상에 종속됩니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 엔진은 종속성을 `DependsOnTargets` 특성에 나타나는 순서대로 왼쪽에서 오른쪽으로 실행합니다. 자세한 내용은 [대상](../msbuild/msbuild-targets.md)을 참조하세요.  
   
  둘 이상의 대상이 종속성을 포함하고 있더라도 대상은 빌드 중에 한 번만 실행됩니다.  
@@ -108,7 +103,7 @@ ms.locfileid: "49173409"
   
  MSBuild 4 이전 버전에서는 `Target`에 `Outputs`의 같은 항목에 대한 여러 참조가 포함되어 있는 경우 항상 중복 항목이 기록되었습니다. 중복 항목은 전혀 사용되지 않으므로 출력 수와 프로젝트 상호 종속성이 많은 대형 빌드에서는 이러한 방식으로 인해 많은 양의 메모리가 낭비됩니다. `KeepDuplicateOutputs` 특성을 `true`로 설정하면 이러한 중복 항목이 기록됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제는 `Csc` 작업을 실행하는 `Target` 요소를 보여 줍니다.  
   
 ```  
@@ -128,6 +123,3 @@ ms.locfileid: "49173409"
 ## <a name="see-also"></a>참고 항목  
  [대상](../msbuild/msbuild-targets.md)   
  [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

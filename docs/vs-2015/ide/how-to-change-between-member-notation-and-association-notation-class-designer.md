@@ -1,14 +1,9 @@
 ---
-title: '방법: 멤버 표기법과 연결 표기법 간 변경(클래스 디자이너) | Microsoft Docs'
-ms.custom: ''
+title: '방법: 멤버 표기법과 연결 표기법 (클래스 디자이너) 사이의 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - notation, member
 - association notation
@@ -18,13 +13,13 @@ ms.assetid: 65881c5a-d251-4a36-ad0d-73d088436092
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 1ed7ee328e65f0e76426a21db8f2481e590b0546
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 23320b93f0cdafc7cd47ed5b04fcdf66754c4b67
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49173610"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54777327"
 ---
 # <a name="how-to-change-between-member-notation-and-association-notation-class-designer"></a>방법: 멤버 표시와 연결 표시 간 변경(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ ms.locfileid: "49173610"
  [방법: 형식 간의 상속 보기(클래스 디자이너)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
  [형식 및 관계 보기(클래스 디자이너)](../ide/viewing-types-and-relationships-class-designer.md)   
  [방법: 컬렉션 형식 연결 시각화(클래스 디자이너)](../ide/how-to-visualize-a-collection-association-class-designer.md)
-
-
-

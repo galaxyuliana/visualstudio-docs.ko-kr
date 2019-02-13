@@ -1,32 +1,27 @@
 ---
 title: '방법: LinqToXmlDataBinding 예제 빌드 및 실행 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 3943deaf-80e2-4968-ac04-d3ef56cfad6c
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 9e299000cd8477ccc36829e806072cb25e115f8f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 0128ab98f1fb359ea41accfec115325ea8888eb7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49237915"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54786370"
 ---
 # <a name="how-to-build-and-run-the-linqtoxmldatabinding-example"></a>방법: LinqToXmlDataBinding 예제 빌드 및 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목에서는 LinqToXmlDataBinding Visual Studio 프로젝트를 만들고 실행하는 방법과 생성되는 LinqToXmlDataBinding WPF(Windows Presentation Foundation) 예제 프로그램을 실행하는 방법을 보여 줍니다.  
   
- Visual Studio를 사용하여 프로젝트를 만드는 방법에 대한 자세한 내용은 [Visual Studio에서 응용 프로그램 개발](http://msdn.microsoft.com/en-us/97490c1b-a247-41fb-8f2c-bc4c201eff68)을 참조하세요.  
+ Visual Studio를 사용하여 프로젝트를 만드는 방법에 대한 자세한 내용은 [Visual Studio에서 애플리케이션 개발](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)을 참조하세요.  
   
 ## <a name="creating-and-populating-the-project"></a>프로젝트 만들기 및 채우기  
   
@@ -84,7 +79,4 @@ ms.locfileid: "49237915"
 ## <a name="see-also"></a>참고 항목  
  [LINQ to XML 예제를 사용한 WPF 데이터 바인딩](../designers/wpf-data-binding-using-linq-to-xml-example.md)   
  [연습: LinqToXmlDataBinding 예제](../designers/walkthrough-linqtoxmldatabinding-example.md)   
- [Visual Studio에서 응용 프로그램 개발](http://msdn.microsoft.com/en-us/97490c1b-a247-41fb-8f2c-bc4c201eff68)
-
-
-
+ [Visual Studio에서 애플리케이션 개발](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)

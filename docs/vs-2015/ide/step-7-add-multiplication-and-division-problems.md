@@ -1,25 +1,20 @@
 ---
-title: '7단계: 곱하기 및 나누기 문제 추가 | Microsoft 문서'
-ms.custom: ''
+title: '7단계: 곱하기 및 나누기 문제 추가 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: e638959e-f6a4-4eb4-b2e9-f63b7855cf8f
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 0c0c2b069ebb75cbe4547528317544172b1d7ae2
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: a558372c69aaf5aeb76685cae3eae4f30a6b9737
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49195158"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795270"
 ---
 # <a name="step-7-add-multiplication-and-division-problems"></a>7단계: 곱하기 및 나누기 문제 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ ms.locfileid: "49195158"
 -   다음 자습서 단계로 이동하려면 [8단계: 퀴즈 사용자 지정](../ide/step-8-customize-the-quiz.md)을 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [6단계: 빼기 문제 추가](../ide/step-6-add-a-subtraction-problem.md)를 참조하세요.
-
-
-

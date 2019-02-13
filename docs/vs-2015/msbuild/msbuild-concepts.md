@@ -1,27 +1,22 @@
 ---
 title: MSBuild 개념 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords:
 - MSBuild, concepts
 ms.assetid: 083b8ba3-e4ad-45af-bb5d-3bc81d406131
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 54c8fcd52a6d3650726281f55c3d6192c089ce78
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b12406af6894c8478c6f142c98edf064f2c58280
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49174124"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54770868"
 ---
 # <a name="msbuild-concepts"></a>MSBuild 개념
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,4 @@ ms.locfileid: "49174124"
 |[연습: 처음부터 새로 MSBuild 프로젝트 파일 만들기](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|텍스트 편집기만을 사용해서 기본 프로젝트 파일을 증분 방식으로 만드는 방법을 보여 줍니다.|  
 |[연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)|MSBuild의 구성 요소를 소개하고 Visual Studio IDE(통합 개발 환경)를 닫지 않고 MSBuild 프로젝트를 작성, 조작 및 디버깅하는 방법을 보여 줍니다.|  
 |[MSBuild 참조](../msbuild/msbuild-reference.md)|참조 정보를 포함하는 문서에 대한 링크입니다.|  
-|[MSBuild](http://msdn.microsoft.com/en-us/e39f13f7-1e1d-4435-95ca-0c222bca071c)|프로젝트 파일용 XML 스키마에 대해 간략하게 소개하고 이 스키마가 소프트웨어를 빌드하는 프로세스를 제어하는 방법을 보여 줍니다.|
-
-
-
+|[MSBuild](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)|프로젝트 파일용 XML 스키마에 대해 간략하게 소개하고 이 스키마가 소프트웨어를 빌드하는 프로세스를 제어하는 방법을 보여 줍니다.|

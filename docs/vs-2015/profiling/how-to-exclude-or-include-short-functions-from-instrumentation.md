@@ -1,5 +1,5 @@
 ---
-title: '방법: 계측에서 간단한 함수 제외 또는 포함 | Microsoft Docs'
+title: '방법: 계측에서 간단한 함수 제외 또는 포함 | Microsoft 문서'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug

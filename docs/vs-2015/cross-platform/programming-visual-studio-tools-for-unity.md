@@ -1,25 +1,20 @@
 ---
 title: Visual Studio Tools for Unity 프로그래밍 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-unity-tools
+ms.topic: conceptual
 ms.assetid: a5758cb0-e73b-45f5-8cae-c0eb40491026
 caps.latest.revision: 5
 author: conceptdev
 ms.author: crdun
-manager: ghogen
-ms.openlocfilehash: baeb860d5d5c739f7f194b780e71bc9d3768edec
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: ccdc91643725e8799f587d14923ecf7620fc13b3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51771711"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54774376"
 ---
 # <a name="programming-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 프로그래밍
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,4 +30,3 @@ ms.locfileid: "51771711"
   
 ### <a name="share-the-unity-log-callback-with-vstu"></a>Unity 로그 콜백을 VSTU와 공유  
  Visual Studio Tools for Unity는 콘솔을 Visual Studio에 스트림할 수 있도록 로그 콜백을 Unity로 등록합니다. 또한 편집기 스크립트에서 로그 콜백을 Unity로 등록하는 경우 VSTU 콜백으로 인해 방해가 생길 수 있습니다. Unity 로그 콜백을 VSTU와 공유하는 방법을 알아보려면 [예: 로그 콜백](../cross-platform/share-the-unity-log-callback-with-vstu.md)을 참조하세요.
-

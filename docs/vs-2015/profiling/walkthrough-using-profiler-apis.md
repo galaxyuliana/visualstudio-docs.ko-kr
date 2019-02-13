@@ -1,14 +1,9 @@
 ---
 title: '연습: 프로파일러 API 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - profiling tools, walkthroughs
 - performance tools, walkthroughs
@@ -16,26 +11,26 @@ ms.assetid: c2ae0b3e-a0ca-4967-b4df-e319008f520e
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 3ab545d338defb3876145c8ac648574484fbf89a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 82d6c16c75cb2605bcdb8382d461d3557846fcc2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51749076"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54769637"
 ---
 # <a name="walkthrough-using-profiler-apis"></a>연습: 프로파일러 API 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-연습에서는 C# 응용 프로그램을 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 API를 사용하는 방법을 보여 줍니다. 프로파일러 API를 사용하여 계측 프로파일링 동안 수집되는 데이터 양을 제한합니다.  
+연습에서는 C# 애플리케이션을 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 API를 사용하는 방법을 보여 줍니다. 프로파일러 API를 사용하여 계측 프로파일링 동안 수집되는 데이터 양을 제한합니다.  
   
- 이 연습의 단계는 일반적으로 C/C++ 응용 프로그램에 적용됩니다. 각 언어의 경우 빌드 환경을 적절하게 구성해야 합니다.  
+ 이 연습의 단계는 일반적으로 C/C++ 애플리케이션에 적용됩니다. 각 언어의 경우 빌드 환경을 적절하게 구성해야 합니다.  
   
- 일반적으로 샘플 프로파일링을 사용하여 응용 프로그램 성능 분석을 시작합니다. 샘플 프로파일링에서 병목 상태를 파악할 수 있는 정보를 제공하지 않는 경우 계측 프로파일링은 더 높은 수준의 세부 정보를 제공할 수 있습니다. 계측 프로파일링은 스레드 상호 작용을 조사하는 데 매우 유용합니다.  
+ 일반적으로 샘플 프로파일링을 사용하여 애플리케이션 성능 분석을 시작합니다. 샘플 프로파일링에서 병목 상태를 파악할 수 있는 정보를 제공하지 않는 경우 계측 프로파일링은 더 높은 수준의 세부 정보를 제공할 수 있습니다. 계측 프로파일링은 스레드 상호 작용을 조사하는 데 매우 유용합니다.  
   
- 그러나 더 높은 수준의 세부 정보는 더 많은 데이터가 수집됨을 의미합니다. 계측 프로파일링에서 대용량 데이터 파일을 만드는 것을 알 수 있습니다. 또한 계측은 응용 프로그램의 성능에 영향을 줄 가능성이 높습니다. 자세한 내용은 [계측 데이터 값 이해](../profiling/understanding-instrumentation-data-values.md) 및 [샘플링 데이터 값 이해](../profiling/understanding-sampling-data-values.md)를 참조하세요.  
+ 그러나 더 높은 수준의 세부 정보는 더 많은 데이터가 수집됨을 의미합니다. 계측 프로파일링에서 대용량 데이터 파일을 만드는 것을 알 수 있습니다. 또한 계측은 애플리케이션의 성능에 영향을 줄 가능성이 높습니다. 자세한 내용은 [계측 데이터 값 이해](../profiling/understanding-instrumentation-data-values.md) 및 [샘플링 데이터 값 이해](../profiling/understanding-sampling-data-values.md)를 참조하세요.  
   
- Visual Studio 프로파일러를 사용하면 데이터의 수집을 제한할 수 있습니다. 이 연습에서는 프로파일러 API를 사용하여 데이터의 수집을 제한하는 방법의 예를 제공합니다. Visual Studio 프로파일러는 응용 프로그램 내에서 데이터 수집 제어에 대한 API를 제공합니다.  
+ Visual Studio 프로파일러를 사용하면 데이터의 수집을 제한할 수 있습니다. 이 연습에서는 프로파일러 API를 사용하여 데이터의 수집을 제한하는 방법의 예를 제공합니다. Visual Studio 프로파일러는 애플리케이션 내에서 데이터 수집 제어에 대한 API를 제공합니다.  
   
  네이티브 코드의 경우 Visual Studio 프로파일러 API는 VSPerf.dll에 있습니다. 헤더 파일, VSPerf.h 및 가져오기 라이브러리, VSPerf.lib는 Microsoft Visual Studio 9\Team Tools\Performance Tools 디렉터리에 있습니다.  
   
@@ -148,7 +143,7 @@ DataCollection.CurrentId);
   
 1.  이 연습 앞부분의 "프로파일링할 코드 만들기" 절차에서 만든 샘플 코드의 디버그 버전을 컴파일합니다.  
   
-2.  관리되는 응용 프로그램을 프로파일링하려면 다음 명령을 입력하여 적절한 환경 변수를 설정합니다.  
+2.  관리되는 애플리케이션을 프로파일링하려면 다음 명령을 입력하여 적절한 환경 변수를 설정합니다.  
   
      **VsPefCLREnv /traceon**  
   
@@ -171,6 +166,3 @@ DataCollection.CurrentId);
  [Visual Studio 프로파일러 API 참조(네이티브)](../profiling/visual-studio-profiler-api-reference-native.md)   
  [시작](../profiling/getting-started-with-performance-tools.md)   
  [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)
-
-
-

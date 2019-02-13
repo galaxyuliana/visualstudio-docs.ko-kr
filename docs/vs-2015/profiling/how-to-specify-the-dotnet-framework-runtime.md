@@ -1,5 +1,5 @@
 ---
-title: '방법: .NET Framework 런타임 지정 | Microsoft Docs'
+title: '방법: .NET Framework 런타임 지정 | Microsoft 문서'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug

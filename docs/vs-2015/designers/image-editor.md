@@ -1,14 +1,9 @@
 ---
 title: 이미지 편집기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords:
 - vs.graphics.designer.imageeditor
 - vs.graphics.imageeditor
@@ -16,13 +11,13 @@ ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
 caps.latest.revision: 47
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 748d58ec8446841242fdf7b5b990eebe90df5ba1
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 0bda440c463082d62568bcdfd0525eebe2a17c61
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49185772"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54768305"
 ---
 # <a name="image-editor"></a>이미지 편집기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -279,6 +274,3 @@ ms.locfileid: "49185772"
 |[게임 및 응용 프로그램을 위한 3D 자산 작업](../designers/working-with-3-d-assets-for-games-and-apps.md)|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 질감, 이미지, 3차원 모델 및 셰이더 효과와 같은 그래픽 자산으로 작업하는 데 사용할 수 있는 도구에 대한 개요를 제공합니다.|  
 |[모델 편집기](../designers/model-editor.md)|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 모델 편집기를 사용하여 3차원 모델 작업을 수행하는 방법을 설명합니다.|  
 |[셰이더 디자이너](../designers/shader-designer.md)|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 셰이더 디자이너를 사용하여 셰이더 작업을 수행하는 방법을 설명합니다.|
-
-
-

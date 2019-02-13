@@ -1,14 +1,9 @@
 ---
 title: 직접 실행 창 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - VS.ImmediateWindow
 helpviewer_keywords:
@@ -19,13 +14,13 @@ ms.assetid: d33e7937-73f3-4c69-9df0-777a8713c6f2
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: be77104c4570068cbebf6c25801f600757a6ee0d
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e856a4fcdc2fbe9174c91910f6676be9e03fafb0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49850427"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802676"
 ---
 # <a name="immediate-window"></a>직접 실행 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ ms.locfileid: "49850427"
  이 창을 사용하여 개별 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 명령을 실행할 수 있습니다. 사용할 수 있는 명령에는 변수에 값을 할당하는 데 사용할 수 있는 `EvaluateStatement`이(가) 포함됩니다. **직접 실행** 창도 IntelliSense를 지원합니다.  
   
 ## <a name="displaying-the-values-of-variables"></a>변수 값 표시  
- 이 창은 응용 프로그램을 디버깅할 때 특히 유용할 수 있습니다. 예를 들어, `varA` 변수의 값을 확인하려면 [인쇄 명령](../../ide/reference/print-command.md)을 사용할 수 있습니다.  
+ 이 창은 애플리케이션을 디버깅할 때 특히 유용할 수 있습니다. 예를 들어, `varA` 변수의 값을 확인하려면 [인쇄 명령](../../ide/reference/print-command.md)을 사용할 수 있습니다.  
   
 ```  
 >Debug.Print varA  
@@ -58,7 +53,7 @@ ms.locfileid: "49850427"
   
 #### <a name="to-execute-a-function-at-design-time"></a>디자인 타임에 함수를 실행하려면  
   
-1. 다음 코드를 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 콘솔 응용 프로그램에 복사합니다.  
+1. 다음 코드를 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 콘솔 애플리케이션에 복사합니다.  
   
    ```  
    Module Module1  
@@ -82,7 +77,7 @@ ms.locfileid: "49850427"
   
    함수 또는 서브루틴에 중단점이 포함된 경우 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]는 적절한 지점에서 실행을 중단합니다. 그런 다음 디버거 창을 사용하여 프로그램 상태를 조사할 수 있습니다. 자세한 내용은 [연습: 디자인 타임에 디버깅](../../debugger/walkthrough-debugging-at-design-time.md)을 참조하십시오.  
   
-   [!INCLUDE[trprVSTOshort](../../includes/trprvstoshort-md.md)] 프로젝트, 웹 프로젝트, 스마트 장치 프로젝트 및 SQL 프로젝트를 포함해 실행 환경을 시작해야 하는 프로젝트 형식에서 디자인 타임 식 평가를 사용할 수 있습니다.  
+   [!INCLUDE[trprVSTOshort](../../includes/trprvstoshort-md.md)] 프로젝트, 웹 프로젝트, 스마트 디바이스 프로젝트 및 SQL 프로젝트를 포함해 실행 환경을 시작해야 하는 프로젝트 형식에서 디자인 타임 식 평가를 사용할 수 있습니다.  
   
 ### <a name="design-time-expression-evaluation-in-multi-project-solutions"></a>다중 프로젝트 솔루션에서 디자인 타임 식 계산  
  디자인 타임 식 계산에 대한 컨텍스트를 설정할 때 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]는 솔루션 탐색기에서 현재 선택된 프로젝트를 참조합니다. 솔루션 탐색기에서 선택된 프로젝트가 없는 경우 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]는 시작 프로젝트에 대해 함수를 평가하려고 합니다. 현재 컨텍스트에서 함수를 실행할 수 없는 경우 오류 메시지를 받게 됩니다. 솔루션을 위해 시작 프로젝트가 아닌 프로젝트에서 함수를 계산하려고 하는데 오류를 받은 경우 솔루션 탐색기에서 프로젝트를 선택하고 계산을 다시 시도하세요.  
@@ -90,7 +85,7 @@ ms.locfileid: "49850427"
 ## <a name="entering-commands"></a>명령 입력  
  **즉시 실행** 창에서 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 명령을 실행할 경우 보다 큼 기호(>)를 입력해야 합니다. 위쪽 화살표 및 아래쪽 화살표 키를 사용해서 이전에 실행된 명령을 스크롤합니다.  
   
-|작업|솔루션|예제|  
+|작업|솔루션|예|  
 |----------|--------------|-------------|  
 |식을 계산합니다.|식 앞에 물음표(?)를 추가합니다.|`? a+b`|  
 |직접 실행 모드(단일 명령 실행)에 있는 동안 명령 모드를 일시적으로 입력합니다.|앞에 보다 큼 기호(>)를 추가하여 명령을 입력합니다.|`>alias`|  
@@ -136,6 +131,3 @@ ms.locfileid: "49850427"
  [연습: 디자인 타임에 디버깅](../../debugger/walkthrough-debugging-at-design-time.md)   
  [Visual Studio 명령 별칭](../../ide/reference/visual-studio-command-aliases.md)   
  [Visual Studio에서 정규식 사용](../../ide/using-regular-expressions-in-visual-studio.md)
-
-
-

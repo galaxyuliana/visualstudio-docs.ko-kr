@@ -1,25 +1,20 @@
 ---
 title: '6단계: 타이머 추가 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 09e7930b-cab6-4a22-9a6f-72e23f489585
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 577ef28c49d769bac8d979330f181c67b8d35687
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 31116171a15a7a38b76451777faaed35dc8b1e52
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49293383"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795289"
 ---
 # <a name="step-6-add-a-timer"></a>6단계: 타이머 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,6 +61,3 @@ Timer
 -   다음 자습서 단계로 이동하려면 [7단계: 쌍 표시](../ide/step-7-keep-pairs-visible.md)를 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [5단계: 레이블 참조 추가](../ide/step-5-add-label-references.md)를 참조하세요.
-
-
-

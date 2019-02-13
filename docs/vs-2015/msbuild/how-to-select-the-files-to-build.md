@@ -1,14 +1,9 @@
 ---
 title: '방법: 빌드할 파일 선택 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, wildcards
 - MSBuild, including files
@@ -17,13 +12,13 @@ ms.assetid: f5ff182f-7b3a-46fb-9335-37df54cfb8eb
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 7b8eeb62b8a5091743345c1a5c136bc2fa87269c
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 2dad0c732a8f342e5c584202f810e1f53defb61e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49223810"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54798906"
 ---
 # <a name="how-to-select-the-files-to-build"></a>방법: 빌드할 파일 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,7 +105,7 @@ ms.locfileid: "49223810"
 >   
 >  `<CSC Sources="*.cs">...</CSC>`  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 모든 입력 파일을 개별적으로 포함하는 프로젝트를 보여 줍니다.  
   
 ```  
@@ -144,7 +139,7 @@ ms.locfileid: "49223810"
 </Project>  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 와일드카드를 사용하여 모든 .cs 파일을 포함합니다.  
   
 ```  
@@ -181,6 +176,3 @@ ms.locfileid: "49223810"
 ## <a name="see-also"></a>참고 항목  
  [방법: 빌드에서 파일 제외](../msbuild/how-to-exclude-files-from-the-build.md)   
  [항목](../msbuild/msbuild-items.md)
-
-
-

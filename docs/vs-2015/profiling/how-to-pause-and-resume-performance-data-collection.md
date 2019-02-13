@@ -1,27 +1,22 @@
 ---
 title: '방법: 성능 데이터 수집 일시 중지 및 다시 시작 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - profiling tools, remote profiling
 ms.assetid: b8e76363-65cd-424d-8173-3e2b5f54203b
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ebffd85a3895a47ebaaa4e9739452c862ac8c4b7
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c9916a46089e1d3381f1bc1f41dd5b7c0178c964
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51798639"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54790886"
 ---
 # <a name="how-to-pause-and-resume-performance-data-collection"></a>방법: 성능 데이터 수집 일시 중지 및 다시 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ ms.locfileid: "51798639"
 ## <a name="see-also"></a>참고 항목  
  [데이터 수집 제어](../profiling/controlling-data-collection.md)   
  [방법: 성능 데이터 수집 시작 및 종료](../profiling/how-to-start-and-end-performance-data-collection.md)
-
-
-

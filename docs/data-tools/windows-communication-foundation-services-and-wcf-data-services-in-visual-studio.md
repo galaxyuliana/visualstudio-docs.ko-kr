@@ -33,15 +33,14 @@ ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 677d68aab6f6dfdb39f12ba33002758f61a03a31
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: b253c4e3447b8d7cd76dcef010adf99addb7bf9d
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54919943"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55933667"
 ---
 # <a name="windows-communication-foundation-services-and-wcf-data-services-in-visual-studio"></a>Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services
 
@@ -92,7 +91,7 @@ WCF 클라이언트를 만든 후 서비스에서에서 참조 코드는 다른 
 
 ## <a name="wcf-tools-in-visual-studio"></a>Visual Studio의 WCF 도구
 
-Visual Studio는 WCF 서비스와 WCF 클라이언트를 만들 수 있도록 도구를 제공 합니다. 도구를 보여 주는 연습을 참조 하세요. [연습: Windows Forms에서 간단한 WCF 서비스 만들기
+Visual Studio는 WCF 서비스와 WCF 클라이언트를 만들 수 있도록 도구를 제공 합니다. 도구를 보여 주는 연습을 참조 하세요 [연습: Windows Forms에서 간단한 WCF 서비스 만들기](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md)합니다.
 
 ### <a name="create-and-test-wcf-services"></a>만들기 및 WCF 서비스 테스트
 

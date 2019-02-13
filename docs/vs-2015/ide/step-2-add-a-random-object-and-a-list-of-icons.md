@@ -1,25 +1,20 @@
 ---
 title: '2단계: 임의의 개체 및 아이콘 목록 추가 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 95faea28-eddc-4cfa-95fb-3b34b5a976d7
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 2740e61de964f3b0c72f44e9a5c11018894c4fe0
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: bfdedd3c6666ca6535237de11eb08a9b013fe8c6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49226657"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54766343"
 ---
 # <a name="step-2-add-a-random-object-and-a-list-of-icons"></a>2단계: 임의의 개체 및 아이콘 목록 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ IntelliSense 창
 -   다음 자습서 단계로 가려면 [3단계: 각 레이블에 임의 아이콘 할당](../ide/step-3-assign-a-random-icon-to-each-label.md)을 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [1단계: 프로젝트 만들기 및 폼에 테이블 추가](../ide/step-1-create-a-project-and-add-a-table-to-your-form.md)를 참조하세요.
-
-
-

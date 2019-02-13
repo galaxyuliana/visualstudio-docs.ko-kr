@@ -1,36 +1,31 @@
 ---
-title: '연습: 코딩된 UI 테스트 만들기, 편집 및 유지 관리 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 만들기, 편집 및 코딩된 된 UI 테스트 유지 관리 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: f7c25ba7-5c9c-455b-9242-701cda56f90c
 caps.latest.revision: 43
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: aff0363b1fe554e55cae7b58d79cd8f765e76d68
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c110ace4eba116c578d9d675eeafe4f678ac9d5d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49257532"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792235"
 ---
 # <a name="walkthrough-creating-editing-and-maintaining-a-coded-ui-test"></a>연습: 코딩된 UI 테스트 만들기, 편집 및 유지 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 간단한 WPF(Windows Presentation Foundation) 웹 응용 프로그램을 만들어, 코딩된 UI 테스트를 만들고 편집하고 유지 관리하는 방법을 보여 줍니다. 이 연습에서는 여러 타이밍 문제 및 제어 리팩터링으로 인해 중단된 테스트를 해결하기 위한 방법을 제공합니다.  
+이 연습에서는 간단한 WPF(Windows Presentation Foundation) 웹 애플리케이션을 만들어, 코딩된 UI 테스트를 만들고 편집하고 유지 관리하는 방법을 보여 줍니다. 이 연습에서는 여러 타이밍 문제 및 제어 리팩터링으로 인해 중단된 테스트를 해결하기 위한 방법을 제공합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  
  이 연습을 수행하려면 다음이 필요합니다.  
   
 -   Visual Studio Enterprise  
   
-### <a name="create-a-simple-wpf-application"></a>간단한 WPF 응용 프로그램 만들기  
+### <a name="create-a-simple-wpf-application"></a>간단한 WPF 애플리케이션 만들기  
   
 1.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 선택합니다.  
   
@@ -40,7 +35,7 @@ ms.locfileid: "49257532"
   
 3.  가운데 창 위에서 대상 프레임워크 드롭다운 목록이 **.NET Framework 4.5**로 설정되어 있는지 확인합니다.  
   
-4.  가운데 창에서 **WPF 응용 프로그램** 템플릿을 선택합니다.  
+4.  가운데 창에서 **WPF 애플리케이션** 템플릿을 선택합니다.  
   
 5.  **이름** 텍스트 상자에 **SimpleWPFApp**을 입력합니다.  
   
@@ -60,7 +55,7 @@ ms.locfileid: "49257532"
   
 12. Checkbox 컨트롤을 선택합니다. 속성 창에서 **Name** 속성을 \<이름 없음>에서 checkBox1로 변경하고 **IsEnabled** 속성을 선택 취소합니다.  
   
-     ![간단한 WPF 응용 프로그램](../test/media/codedui-wpfapp.png "CodedUI_WPFApp")  
+     ![간단한 WPF 애플리케이션](../test/media/codedui-wpfapp.png "CodedUI_WPFApp")  
   
 13. 단추 컨트롤을 두 번 클릭하여 Click 이벤트 처리기를 추가합니다.  
   
@@ -109,7 +104,7 @@ ms.locfileid: "49257532"
   
 16. 파일을 저장합니다.  
   
-### <a name="verify-the-wpf-application-runs-correctly"></a>WPF 응용 프로그램이 제대로 실행되는지 확인  
+### <a name="verify-the-wpf-application-runs-correctly"></a>WPF 애플리케이션이 제대로 실행되는지 확인  
   
 1.  **디버그** 메뉴에서 **디버깅 시작**을 선택하거나 **F5** 키를 누릅니다.  
   
@@ -123,12 +118,12 @@ ms.locfileid: "49257532"
   
 ### <a name="create-and-run-a-coded-ui-test-for-simplewpfapp"></a>SimpleWPFApp에 대해 코딩된 UI 테스트 만들기 및 실행  
   
-1.  앞에서 만든 SimpleWPFApp 응용 프로그램을 찾습니다. 기본적으로 응용 프로그램은 C:\Users\\<사용자 이름\>\Documents\Visual Studio \<버전>\Projects\SimpleWPFApp\SimpleWPFApp\bin\Debug\SimpleWPFApp.exe에 있습니다.  
+1.  앞에서 만든 SimpleWPFApp 애플리케이션을 찾습니다. 기본적으로 애플리케이션은 C:\Users\\&lt;사용자 이름\>\Documents\Visual Studio \<버전&gt;\Projects\SimpleWPFApp\SimpleWPFApp\bin\Debug\SimpleWPFApp.exe에 있습니다.  
   
-2.  SimpleWPFApp 응용 프로그램에 대한 바탕 화면 바로 가기를 만듭니다. SimpleWPFApp.exe를 마우스 오른쪽 단추로 클릭한 다음 **복사**를 선택합니다. 바탕 화면에서 마우스 오른쪽 단추를 클릭하고 **바로 가기 붙여넣기**를 선택합니다.  
+2.  SimpleWPFApp 애플리케이션에 대한 바탕 화면 바로 가기를 만듭니다. SimpleWPFApp.exe를 마우스 오른쪽 단추로 클릭한 다음 **복사**를 선택합니다. 바탕 화면에서 마우스 오른쪽 단추를 클릭하고 **바로 가기 붙여넣기**를 선택합니다.  
   
     > [!TIP]
-    >  응용 프로그램 바로 가기를 사용하면 응용 프로그램을 신속하게 시작할 수 있기 때문에 응용 프로그램에 대해 코딩된 UI 테스트를 쉽게 추가하거나 수정할 수 있습니다.  
+    >  애플리케이션 바로 가기를 사용하면 애플리케이션을 신속하게 시작할 수 있기 때문에 애플리케이션에 대해 코딩된 UI 테스트를 쉽게 추가하거나 수정할 수 있습니다.  
   
 3.  솔루션 탐색기에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가**를 선택한 다음 **새 프로젝트**를 선택합니다.  
   
@@ -171,7 +166,7 @@ ms.locfileid: "49257532"
   
 11. 이제 사용하도록 설정된 확인란 컨트롤을 선택합니다.  
   
-12. SimpleWPFApp 응용 프로그램을 닫습니다.  
+12. SimpleWPFApp 애플리케이션을 닫습니다.  
   
 13. UIMap – 코딩된 UI 테스트 빌더에서 **코드 생성**을 선택합니다.  
   
@@ -304,7 +299,7 @@ ms.locfileid: "49257532"
   
      UIMap – 코딩된 UI 테스트 빌더가 나타납니다.  
   
-2.  앞에서 만든 바탕 화면 바로 가기를 사용하여, 앞에서 만든 SimpleWPFApp 응용 프로그램을 실행합니다.  
+2.  앞에서 만든 바탕 화면 바로 가기를 사용하여, 앞에서 만든 SimpleWPFApp 애플리케이션을 실행합니다.  
   
 3.  UIMap – 코딩된 UI 테스트 빌더에서 십자형 도구를 SimpleWPFApp의 **시작** 단추로 끌어옵니다.  
   
@@ -381,7 +376,7 @@ ms.locfileid: "49257532"
  ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode3-HandCoding](http://go.microsoft.com/fwlink/?LinkID=230575)  
   
 ### <a name="hands-on-lab"></a>실습  
- [MSDN 가상 랩: Visual Studio 2010을 사용하여 코딩된 UI 테스트 만들기 소개](http://go.microsoft.com/fwlink/?LinkID=22508)  
+ [MSDN 가상 실습: Visual Studio 2010을 사용 하 여 코딩 된 UI 테스트 만들기 소개](http://go.microsoft.com/fwlink/?LinkID=22508)  
   
 ### <a name="faq"></a>FAQ  
  [코딩된 UI 테스트 FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)  
@@ -393,9 +388,6 @@ ms.locfileid: "49257532"
   
 ## <a name="see-also"></a>참고 항목  
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
- [WPF Designer 시작](http://msdn.microsoft.com/en-us/18e61d03-b96a-4058-a166-8ec6b3f6116b)   
+ [WPF Designer 시작](http://msdn.microsoft.com/18e61d03-b96a-4058-a166-8ec6b3f6116b)   
  [코딩된 UI 테스트 및 작업 기록에 지원되는 구성 및 플랫폼](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
  [코딩된 UI 테스트 편집기를 사용하여 코딩된 UI 테스트 편집](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)
-
-
-

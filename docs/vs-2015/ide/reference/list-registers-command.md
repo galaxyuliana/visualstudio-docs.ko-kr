@@ -1,14 +1,9 @@
 ---
 title: 레지스터 목록 표시 명령 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - debug.listregisters
 helpviewer_keywords:
@@ -19,13 +14,13 @@ ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 9e52b7de812be9168c30093b16041db42ea4676b
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 6fadd5429b351eb2393aa0823dec133749b32c83
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49195418"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54763041"
 ---
 # <a name="list-registers-command"></a>레지스터 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
   
 ## <a name="switches"></a>스위치  
  /Display [{`register`&#124;`registerGroup`}...]  
- 지정된 `register` 또는 `registerGroup`의 값을 표시합니다. `register` 또는 `registerGroup`를 지정하지 않은 경우 레지스터의 기본 목록이 표시됩니다. 스위치를 지정하지 않은 경우 동작은 동일합니다. 예를 들어:  
+ 지정된 `register` 또는 `registerGroup`의 값을 표시합니다. `register` 또는 `registerGroup`를 지정하지 않은 경우 레지스터의 기본 목록이 표시됩니다. 스위치를 지정하지 않은 경우 동작은 동일합니다. 예:  
   
  `Debug.ListRegisters /Display eax`  
   
@@ -60,10 +55,10 @@ Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
  /Unwatch [{`register`&#124;`registerGroup`}...]  
  하나 이상의 `register` 또는 `registerGroup` 값을 목록에서 제거합니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  별칭 `r`을 `Debug.ListRegisters` 대신 사용할 수 있습니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 `Debug.ListRegisters` 별칭 `r`을 사용하여 `Flags` 레지스터 그룹의 값을 표시합니다.  
   
 ```  
@@ -74,6 +69,3 @@ r /Display Flags
  [Visual Studio 명령](../../ide/reference/visual-studio-commands.md)   
  [디버깅 기본 사항: 레지스터 창](../../debugger/debugging-basics-registers-window.md)   
  [방법: 레지스터 창 사용](../../debugger/how-to-use-the-registers-window.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: '방법: 프로젝트 템플릿 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - VS.ExportTemplateWizard
 helpviewer_keywords:
@@ -21,13 +16,13 @@ ms.assetid: a1a6999d-a34c-48a8-b1cf-027eb5c76398
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: fb68a9902fc3adf9f2643b52e069cf182d9ca75a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9a7a48039699c5bb35e07a21e5c5c3be8ae8585f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49225513"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54785915"
 ---
 # <a name="how-to-create-project-templates"></a>방법: 프로젝트 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "49225513"
   
 2.  템플릿으로 내보낼 준비가 될 때까지 프로젝트를 편집합니다.  
   
-3.  해당하는 경우 매개 변수를 대체해야 하는 위치를 나타내도록 코드 파일을 편집합니다. 매개 변수 대체에 대한 자세한 내용은 [방법: 템플릿 매개 변수 대체](../ide/how-to-substitute-parameters-in-a-template.md)를 참조하세요.  
+3.  해당하는 경우 매개 변수를 대체해야 하는 위치를 나타내도록 코드 파일을 편집합니다. 매개 변수 대체에 대 한 자세한 내용은 참조 하세요. [방법: 템플릿 매개 변수 대체](../ide/how-to-substitute-parameters-in-a-template.md)를 참조하세요.  
   
 4.  **파일** 메뉴에서 **템플릿 내보내기**를 클릭합니다. **템플릿 내보내기** 마법사가 열립니다.  
   
@@ -64,6 +59,3 @@ ms.locfileid: "49225513"
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [방법: 항목 템플릿 만들기](../ide/how-to-create-item-templates.md)
-
-
-

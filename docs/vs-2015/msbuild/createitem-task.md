@@ -1,14 +1,9 @@
 ---
 title: CreateItem 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#CreateItem
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: c4311f38-979e-4324-b524-9e8c1cbdc41a
 caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 7db76f3ec603c493cef38536b6fb54b74ac6c43b
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 936ab49a07da5065b14b4a56325607001352f747
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49180910"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802162"
 ---
 # <a name="createitem-task"></a>CreateItem 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,10 +45,10 @@ ms.locfileid: "49180910"
 |`Include`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수<br /><br /> 출력 항목 컬렉션에 포함할 항목을 지정합니다. 이 매개 변수는 와일드카드 지정을 포함할 수 있습니다.|  
 |`PreserveExistingMetadata`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `True`인 경우 추가 메타데이터만 적용합니다(아직 존재하지 않을 경우).|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 항목 컬렉션 `MySourceItems`에서 `MySourceItemsWithMetadata`라는 새 항목 컬렉션을 만듭니다. `CreateItem` 작업은 `MySourceItems` 항목에 있는 항목으로 새 항목 컬렉션을 채웁니다. 그런 다음 값이 `Hello`인 `MyMetadata`라는 추가 메타데이터 항목을 새 컬렉션의 각 항목에 추가합니다.  
   
  작업이 실행된 후 `MySourceItemsWithMetadata` 항목 컬렉션에는 `MyMetadata`에 대한 메타데이터 항목을 포함하는 `file1.resx` 및 `file2.resx` 항목이 포함됩니다. `MySourceItems` 항목 컬렉션은 변경되지 않습니다.  
@@ -88,6 +83,3 @@ ms.locfileid: "49180910"
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)   
  [작업](../msbuild/msbuild-tasks.md)
-
-
-

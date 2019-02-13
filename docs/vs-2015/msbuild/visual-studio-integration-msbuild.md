@@ -1,14 +1,9 @@
 ---
 title: Visual Studio 통합(MSBuild) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, reference resolution
 - MSBuild, well-known target names
@@ -23,13 +18,13 @@ ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
 caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: e2b9591ebff8708d0cd63825854c31cf297d32ce
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 83f9bf8b0e427fd3e0357a5cf9e69d797dfc4782
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49294855"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54763312"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,14 +49,14 @@ Visual Studio는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 호
   
 ```  
 Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "  
-Condition=" '$(Configuration)' == 'Release' "   
+Condition=" '$(Configuration)' == 'Release' "   
 Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' "  
 ```  
   
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 이를 위해 `PropertyGroup`, `ItemGroup`, `Import`, 속성 및 항목 요소에서 조건을 확인합니다.  
   
 ## <a name="additional-build-actions"></a>추가 빌드 작업  
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 [파일 속성](http://msdn.microsoft.com/en-us/013c4aed-08d6-4dce-a124-ca807ca08959) 창의 **빌드 작업** 속성을 사용하여 프로젝트에 있는 파일의 항목 형식 이름을 변경할 수 있습니다. `Compile`, `EmbeddedResource`, `Content`, `None` 등의 항목 형식 이름은 프로젝트에 이미 있는 다른 모든 항목 형식 이름과 함께 항상 이 메뉴에 표시됩니다. 사용자 지정 항목 형식 이름이 항상 이 메뉴에 표시되도록 하려면 `AvailableItemName`이라는 항목 형식에 해당 이름을 추가하면 됩니다. 예를 들어, 프로젝트 파일에 다음을 추가하면 해당 파일을 가져오는 모든 프로젝트에 대해 `JScript` 사용자 지정 형식이 이 메뉴에 추가됩니다.  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 [파일 속성](http://msdn.microsoft.com/013c4aed-08d6-4dce-a124-ca807ca08959) 창의 **빌드 작업** 속성을 사용하여 프로젝트에 있는 파일의 항목 형식 이름을 변경할 수 있습니다. `Compile`, `EmbeddedResource`, `Content`, `None` 등의 항목 형식 이름은 프로젝트에 이미 있는 다른 모든 항목 형식 이름과 함께 항상 이 메뉴에 표시됩니다. 사용자 지정 항목 형식 이름이 항상 이 메뉴에 표시되도록 하려면 `AvailableItemName`이라는 항목 형식에 해당 이름을 추가하면 됩니다. 예를 들어, 프로젝트 파일에 다음을 추가하면 해당 파일을 가져오는 모든 프로젝트에 대해 `JScript` 사용자 지정 형식이 이 메뉴에 추가됩니다.  
   
 ```  
 <ItemGroup>  
@@ -96,7 +91,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내에서 빌드할 때 `$(BuildingInsideVisualStudio)` 속성은 `true`로 설정됩니다. 프로젝트 또는 .targets 파일에서 이 속성을 사용하여 빌드가 다르게 동작하도록 할 수 있습니다.  
   
 ## <a name="displaying-properties-and-items"></a>속성 및 항목 표시  
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 특정 속성 이름과 값을 인식합니다. 예를 들어, 프로젝트의 다음 속성을 사용하면 **Windows 응용 프로그램** 이 **프로젝트 디자이너** 의 **응용 프로그램 형식**상자에 나타납니다.  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 특정 속성 이름과 값을 인식합니다. 예를 들어, 프로젝트의 다음 속성을 사용하면 **Windows 애플리케이션** 이 **프로젝트 디자이너** 의 **애플리케이션 형식**상자에 나타납니다.  
   
 ```  
 <OutputType>WinExe</OutputType>  
@@ -197,6 +192,3 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [Target 요소(MSBuild)](../msbuild/target-element-msbuild.md)   
  [Csc 작업](../msbuild/csc-task.md)   
  [Vbc 작업](../msbuild/vbc-task.md)
-
-
-

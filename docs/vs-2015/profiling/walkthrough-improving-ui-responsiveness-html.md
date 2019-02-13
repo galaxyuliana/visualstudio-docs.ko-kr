@@ -1,14 +1,9 @@
 ---
-title: '연습: UI 응답성 개선(HTML) | Microsoft 문서'
-ms.custom: ''
+title: '연습: UI 응답성 개선 (HTML) | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -23,13 +18,13 @@ ms.assetid: 7e5a2524-dbf5-4a40-b5d6-2d1ed7fff3de
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: f0cf1b080a0e803beda6682265dc383dc43a33d0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b31d5c7d22ae209b46bdd4c422f6c3e7473ec8e0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51791149"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54758687"
 ---
 # <a name="walkthrough-improving-ui-responsiveness-html"></a>연습: UI 응답성 개선(HTML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -207,7 +202,7 @@ ms.locfileid: "51791149"
   
      ![타이머 이벤트](../profiling/media/js-htmlviz-app-timer.png "JS_HTMLViz_App_Timer")  
   
-     데이터를 통해 다양한 정보를 수집할 수 있습니다. 예를 들어:  
+     데이터를 통해 다양한 정보를 수집할 수 있습니다. 예:  
   
     -   스크립팅 이벤트로 식별하기 위해 색으로 구분된 각 `Timer` 이벤트에는 `document.createElement`에 대한 호출과 스타일 계산 및 `style.backgroundColor`와 `appendChild()`에 대한 호출이 포함됩니다.  
   
@@ -249,6 +244,3 @@ ms.locfileid: "51791149"
   
 ## <a name="see-also"></a>참고 항목  
  [HTML UI 응답성](../profiling/html-ui-responsiveness.md)
-
-
-

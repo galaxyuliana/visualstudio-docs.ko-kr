@@ -1,14 +1,9 @@
 ---
 title: MSBuild 작업 참조 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 dev_langs:
 - VB
 - CSharp
@@ -20,13 +15,13 @@ ms.assetid: b3144b27-a426-4259-b8ae-5f7991b202b6
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: b6f1767ce1c572e1e3d8eacae8ba3a60f3593476
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 5bd6df873bf1aadbec4b12763369c60f127819c0
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49193994"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54834425"
 ---
 # <a name="msbuild-task-reference"></a>MSBuild 작업 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +50,7 @@ ms.locfileid: "49193994"
  모듈 또는 리소스 파일에 해당하는 하나 이상의 파일에 있는 매니페스트로 어셈블리를 만듭니다.  
   
  [AspNetCompiler 작업](../msbuild/aspnetcompiler-task.md)  
- ASP.NET 응용 프로그램을 미리 컴파일하는 유틸리티인 aspnet_compiler.exe를 래핑합니다.  
+ ASP.NET 애플리케이션을 미리 컴파일하는 유틸리티인 aspnet_compiler.exe를 래핑합니다.  
   
  [AssignCulture 작업](../msbuild/assignculture-task.md)  
  항목에 문화권 식별자를 할당합니다.  
@@ -118,10 +113,10 @@ ms.locfileid: "49193994"
  버전 번호에 수정 버전 번호를 추가합니다.  
   
  [GenerateApplicationManifest 작업](../msbuild/generateapplicationmanifest-task.md)  
- [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 매니페스트 또는 네이티브 매니페스트를 생성합니다.  
+ [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션 매니페스트 또는 네이티브 매니페스트를 생성합니다.  
   
  [GenerateBootstrapper 작업](../msbuild/generatebootstrapper-task.md)  
- 응용 프로그램과 해당 필수 조건을 검색, 다운로드, 설치할 수 있는 자동화된 방법을 제공합니다.  
+ 애플리케이션과 해당 필수 조건을 검색, 다운로드, 설치할 수 있는 자동화된 방법을 제공합니다.  
   
  [GenerateDeploymentManifest 작업](../msbuild/generatedeploymentmanifest-task.md)  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 매니페스트를 생성합니다.  
@@ -130,7 +125,7 @@ ms.locfileid: "49193994"
  .txt 및 .resx 파일을 공용 언어 런타임 이진 .resources 파일로 변환합니다.  
   
  [GenerateTrustInfo 작업](../msbuild/generatetrustinfo-task.md)  
- 기본 매니페스트, `TargetZone` 및 `ExcludedPermissions` 매개 변수에서 응용 프로그램 신뢰를 생성합니다.  
+ 기본 매니페스트, `TargetZone` 및 `ExcludedPermissions` 매개 변수에서 애플리케이션 신뢰를 생성합니다.  
   
  [GetAssemblyIdentity 작업](../msbuild/getassemblyidentity-task.md)  
  지정된 파일에서 어셈블리 ID를 검색하고 ID 정보를 출력합니다.  
@@ -172,7 +167,7 @@ ms.locfileid: "49193994"
  지정된 항목 컬렉션에서 중복된 항목을 제거합니다.  
   
  [RequiresFramework35SP1Assembly 작업](../msbuild/requiresframework35sp1assembly-task.md)  
- 응용 프로그램에 .NET Framework 3.5 SP1이 필요한지 여부를 확인합니다.  
+ 애플리케이션에 .NET Framework 3.5 SP1이 필요한지 여부를 확인합니다.  
   
  ResGen 작업  
  사용되지 않습니다. [GenerateResource 작업](../msbuild/generateresource-task.md)을 사용하여 .txt 및 .resx 파일을 공용 언어 런타임 이진 .resources 파일로 변환하거나 그 반대로 변환합니다.  
@@ -235,6 +230,3 @@ ms.locfileid: "49193994"
  [MSBuild 참조](../msbuild/msbuild-reference.md)   
  [작업 작성](../msbuild/task-writing.md)   
  [작업](../msbuild/msbuild-tasks.md)
-
-
-
