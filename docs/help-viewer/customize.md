@@ -1,7 +1,6 @@
 ---
 title: 도움말 뷰어 사용자 지정
 ms.date: 11/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - hv_options
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 13cdf7f1d2cf815154b17312645d3c55027a58a1
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e416a0dc91cfd4bd77983f1e0e5d215a85ee1f27
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54940702"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55914661"
 ---
 # <a name="customize-the-help-viewer"></a>도움말 뷰어 사용자 지정
 글꼴 크기, 최대 결과 수 및 영어 콘텐츠 포함 여부 등의 다른 옵션은 물론, 도움말 뷰어 창의 레이아웃을 사용자 지정할 수 있습니다.

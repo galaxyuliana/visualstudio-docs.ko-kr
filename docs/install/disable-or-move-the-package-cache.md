@@ -3,7 +3,6 @@ title: 패키지 캐시를 사용하지 않도록 설정 또는 이동
 description: Visual Studio 배포에 대해 패키지 캐시를 사용하지 않도록 설정하거나, 사용하도록 설정하거나, 이동하는 방법을 알아봅니다.
 ms.date: 04/14/2017
 ms.custom: seodec18
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - cache
@@ -17,12 +16,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 06234ab61bc77f9d52e18b479f05f145e850d0ba
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8472394c06d3388b480abdaf262610811a7a72f4
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54924154"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55970259"
 ---
 # <a name="disable-or-move-the-package-cache"></a>패키지 캐시를 사용하지 않도록 설정 또는 이동
 

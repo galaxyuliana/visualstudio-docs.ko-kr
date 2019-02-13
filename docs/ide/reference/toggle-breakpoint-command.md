@@ -1,7 +1,6 @@
 ---
 title: 중단점 설정/해제 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - debug.togglebreakpoint
@@ -15,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 71fc920451848558ddc6b04b5940787926e245c0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 214897a0f938d8ea52306b8f605948b38f196111
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54930084"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55970467"
 ---
 # <a name="toggle-breakpoint-command"></a>중단점 설정/해제 명령
 파일의 현재 위치에서 현재 상태에 따라 중단점을 켜거나 끕니다.
@@ -34,7 +33,7 @@ Debug.ToggleBreakpoint [text]
 ## <a name="arguments"></a>인수
  `text` 선택 사항입니다. 텍스트를 지정하는 경우 해당 줄은 명명된 중단점으로 표시됩니다. 그렇지 않은 경우 해당 줄은 F9 키를 누를 때처럼 명명되지 않은 중단점으로 표시됩니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  다음 예제에서는 현재 중단점을 설정/해제합니다.
 
 ```

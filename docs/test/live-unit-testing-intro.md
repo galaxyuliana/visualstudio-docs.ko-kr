@@ -2,7 +2,6 @@
 title: Live Unit Testing 소개
 description: Live Unit Testing의 이점 및 프로젝트를 단위 테스트할 때 이를 사용하는 방법에 대해 알아봅니다.
 ms.date: 2017-09-11
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio ALM
@@ -11,12 +10,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: eafc069c48c536bb58d38888485acf4f44d710d1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b55e30529cdf02d8fea235b7a84cb27aeee1f3a7
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53935023"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55955572"
 ---
 # <a name="introducing-live-unit-testing"></a>Live Unit Testing 소개
 

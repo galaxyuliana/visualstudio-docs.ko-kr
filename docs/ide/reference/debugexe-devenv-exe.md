@@ -1,7 +1,6 @@
 ---
 title: -DebugExe(devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - Devenv, /DebugExe switch
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a93a582af62ed0eac8cdc0f5da55ac7bda555152
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 05266a6f1b5ee0be22e2edc8df1c03b720844f4f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55008974"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55924125"
 ---
 # <a name="debugexe-devenvexe"></a>/DebugExe(devenv.exe)
 
@@ -41,7 +40,7 @@ devenv /DebugExe ExecutableFile
 
 *ExecutableFile* 매개 변수 다음에 나오는 모든 문자열은 해당 파일에 인수로 전달됩니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 예제는 디버깅을 위해 `MyApplication.exe` 파일을 엽니다.
 
