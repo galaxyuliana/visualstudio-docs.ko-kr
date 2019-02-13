@@ -1,14 +1,9 @@
 ---
 title: 프로젝트 디자이너, 빌드 이벤트 페이지(C#) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - cs.ProjectPropertiesBuildEvents
 helpviewer_keywords:
@@ -20,13 +15,13 @@ ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 5a73978bf78c26914e7ee6b21c27f1eb2e7682ea
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e55d9d34a4837e2c01d78cc1f52ae2a25f28da8d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49223097"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54785786"
 ---
 # <a name="build-events-page-project-designer-c"></a>프로젝트 디자이너, 빌드 이벤트 페이지(C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ ms.locfileid: "49223097"
  [방법: 빌드 이벤트 지정(C#)](../../ide/how-to-specify-build-events-csharp.md)   
  [프로젝트 속성 참조](../../ide/reference/project-properties-reference.md)   
  [컴파일 및 빌드](../../ide/compiling-and-building-in-visual-studio.md)
-
-
-

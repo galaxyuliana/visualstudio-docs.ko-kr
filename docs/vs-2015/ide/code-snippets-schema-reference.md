@@ -1,14 +1,9 @@
 ---
 title: 코드 조각 스키마 참조 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
 - schema reference [Visual Studio]
 - snippets [Visual Studio], schema reference
@@ -18,18 +13,18 @@ ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 19a14972d36bcb7070e0604b47caab55f41d0126
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 5c62d8a65b1015029f183ea2b617dfe77f9b4f05
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49188127"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54753565"
 ---
 # <a name="code-snippets-schema-reference"></a>코드 조각 스키마 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-IntelliSense 코드 조각은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 응용 프로그램에 삽입되도록 미리 작성된 코드 부분입니다. 코드 조각을 제공함으로써 반복 코드를 입력하거나 샘플 검색에 드는 시간을 줄여 생산성을 높일 수 있습니다. IntelliSense 코드 조각 XML 스키마를 사용하여 사용자 지정 코드 조각을 만들어 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 이미 포함되어 있는 코드 조각에 추가할 수 있습니다.  
+IntelliSense 코드 조각은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 애플리케이션에 삽입되도록 미리 작성된 코드 부분입니다. 코드 조각을 제공함으로써 반복 코드를 입력하거나 샘플 검색에 드는 시간을 줄여 생산성을 높일 수 있습니다. IntelliSense 코드 조각 XML 스키마를 사용하여 사용자 지정 코드 조각을 만들어 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 이미 포함되어 있는 코드 조각에 추가할 수 있습니다.  
   
 ## <a name="intellisense-code-snippets-schema-elements"></a>IntelliSense 코드 조각 스키마 요소  
   
@@ -666,6 +661,3 @@ is a great color. I love Blue.
 ## <a name="see-also"></a>참고 항목  
  [코드 조각](../ide/code-snippets.md)   
  [연습: 코드 조각 만들기](../ide/walkthrough-creating-a-code-snippet.md)
-
-
-

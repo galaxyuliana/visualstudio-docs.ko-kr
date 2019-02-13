@@ -1,14 +1,9 @@
 ---
 title: VSPerfReport | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - command-line tools, VSPerfReporttool
 - performance tools, VSPerfReport tool
@@ -20,13 +15,13 @@ ms.assetid: dbfd8d91-4430-4b82-81b9-97ac61412a6c
 caps.latest.revision: 37
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 12b76923a0687125643f95228397d3051cb08c5b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b7667aac348a6f7b208786191c35afe86542862d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51806830"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54788883"
 ---
 # <a name="vsperfreport"></a>VSPerfReport
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +72,7 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
   
 |옵션|설명|  
 |-------------|-----------------|  
-|**JustMyCode**[**:**[`caller`][,`callee`]]|사용자 응용 프로그램 함수 호출만 표시하고 시스템 호출은 숨깁니다.<br /><br /> - 매개 변수 없음 - 시스템 함수를 모두 숨깁니다.<br />-   `caller` - 응용 프로그램 함수를 호출하는 한 수준의 시스템 함수를 표시합니다.<br />-   `callee` - 사용자 응용 프로그램 함수가 호출하는 한 수준의 시스템 함수를 표시합니다.|  
+|**JustMyCode**[**:**[`caller`][,`callee`]]|사용자 애플리케이션 함수 호출만 표시하고 시스템 호출은 숨깁니다.<br /><br /> - 매개 변수 없음 - 시스템 함수를 모두 숨깁니다.<br />-   `caller` - 애플리케이션 함수를 호출하는 한 수준의 시스템 함수를 표시합니다.<br />-   `callee` - 사용자 애플리케이션 함수가 호출하는 한 수준의 시스템 함수를 표시합니다.|  
 |**StartTime:**[*value*]|value 이후에 수집된 데이터만 표시합니다(밀리초).|  
 |**EndTime:**[*value*]|value 이전에 수집된 데이터만 표시합니다(밀리초).|  
 |**FilterFile:** `VSPFFile`|Visual Studio 성능 보고서 창에서 생성된 필터 파일의 위치를 지정합니다.|  
@@ -99,6 +94,3 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
   
 ## <a name="see-also"></a>참고 항목  
  [성능 보고서 뷰](../profiling/performance-report-views.md)
-
-
-

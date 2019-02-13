@@ -1,25 +1,20 @@
 ---
-title: '방법: 스크롤 막대를 사용자 지정하여 코드 추적 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 스크롤 막대를 사용자 지정 하 여 코드 추적 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: a9ebe7ec-4b6f-4ba2-a79e-80fab3db485b
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: bcbce0884dbc5be78371b6df00b0eb482aa8c26e
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 11df0e3ca4e8b9c814bf91735d48bb091c711068
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49270792"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54788208"
 ---
 # <a name="how-to-track-your-code-by-customizing-the-scrollbar"></a>How to: Track Your Code by Customizing the Scrollbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ ms.locfileid: "49270792"
      ![도구 설명이 있는 스크롤 막대](../ide/media/enhancedscrollbarsearchtooltip.png "EnhancedScrollbarSearchTooltip")  
   
      지도 모드 스크롤 동작 및 미리 보기 도구 설명을 유지하지만 소스 코드 개요를 표시하지 않으려는 경우 **소스 개요**를 **해제**로 설정할 수 있습니다.
-

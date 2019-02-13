@@ -1,27 +1,22 @@
 ---
 title: '연습: MSBuild 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, tutorial
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
 caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 56d8ea0c4b79764c1326c96b42748b8291349ac2
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: bbce3f0723a4f4729c844db92ffddb5c43430107
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49841423"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792222"
 ---
 # <a name="walkthrough-using-msbuild"></a>연습: MSBuild 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ MSBuild는 Microsoft 및 Visual Studio용 빌드 플랫폼입니다. 이 연습�
   
 2.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
   
-3.  **새 프로젝트** 대화 상자에서 Visual C# 프로젝트 형식을 선택하고 **Windows Forms 응용 프로그램** 템플릿을 선택합니다. **이름** 상자에 `BuildApp`을 입력합니다. 솔루션의 **위치**를 `D:\`와 같이 입력합니다. **솔루션용 디렉터리 만들기**의 기본값(선택된 상태), **소스 제어에 추가**의 기본값(선택되지 않은 상태) 및 **솔루션 이름**의 기본값(`BuildApp`)을 적용합니다.  
+3.  **새 프로젝트** 대화 상자에서 Visual C# 프로젝트 형식을 선택하고 **Windows Forms 애플리케이션** 템플릿을 선택합니다. **이름** 상자에 `BuildApp`을 입력합니다. 솔루션의 **위치**를 `D:\`와 같이 입력합니다. **솔루션용 디렉터리 만들기**의 기본값(선택된 상태), **소스 제어에 추가**의 기본값(선택되지 않은 상태) 및 **솔루션 이름**의 기본값(`BuildApp`)을 적용합니다.  
   
      **확인**을 클릭하여 프로젝트 파일을 만듭니다.  
   
@@ -75,11 +70,11 @@ MSBuild는 Microsoft 및 Visual Studio용 빌드 플랫폼입니다. 이 연습�
   
  프로젝트 요소에서 xmlns 네임스페이스를 지정해야 합니다.  
   
- 응용 프로그램 빌드 작업에서는 [대상](../msbuild/target-element-msbuild.md) 및 [작업](../msbuild/task-element-msbuild.md) 요소를 사용합니다.  
+ 애플리케이션 빌드 작업에서는 [대상](../msbuild/target-element-msbuild.md) 및 [작업](../msbuild/task-element-msbuild.md) 요소를 사용합니다.  
   
 - 작업(task)은 작업(work)의 최소 단위(빌드의 "구성 요소")이며, 입력과 출력을 포함할 수 있는 독립적인 실행 가능 구성 요소입니다. 현재 프로젝트 파일에는 참조되거나 정의된 작업(task)이 없습니다. 아래 섹션에서 프로젝트 파일에 작업(task)을 추가합니다. 자세한 내용은 [작업](../msbuild/msbuild-tasks.md) 항목을 참조하세요.  
   
-- 대상은 작업의 명명된 순서입니다. 프로젝트 파일의 끝에는 현재 HTML 주석으로 묶인 두 개의 대상(BeforeBuild 및 AfterBuild)이 있습니다.  
+- 대상은 작업의 명명된 순서입니다. 현재 HTML 주석에 포함 된 프로젝트 파일의 끝에 두 대상을 가지가 있습니다. BeforeBuild 및 AfterBuild입니다.  
   
   ```  
   <Target Name="BeforeBuild">  
@@ -165,7 +160,7 @@ MSBuild는 Microsoft 및 Visual Studio용 빌드 플랫폼입니다. 이 연습�
  코드 편집기와 명령 창을 오가면서 프로젝트 파일을 변경하고 결과를 빠르게 확인할 수 있습니다.  
   
 > [!NOTE]
->  /t 명령 스위치 없이 msbuild를 실행하는 경우 msbuild는 Project 요소의 DefaultTarget 특성에 의해 제공되는 대상(이 연습의 경우에는 "Build")을 빌드합니다. 그러면 Windows Forms 응용 프로그램 BuildApp.exe가 빌드됩니다.  
+>  /t 명령 스위치 없이 msbuild를 실행하는 경우 msbuild는 Project 요소의 DefaultTarget 특성에 의해 제공되는 대상(이 연습의 경우에는 "Build")을 빌드합니다. 그러면 Windows Forms 애플리케이션 BuildApp.exe가 빌드됩니다.  
   
 ## <a name="build-properties"></a>빌드 속성  
  빌드 속성은 빌드를 안내하는 이름-값 쌍입니다. 여러 빌드 속성이 프로젝트 파일의 위쪽에 이미 정의되어 있습니다.  
@@ -587,5 +582,3 @@ $(PropertyName)
 ## <a name="see-also"></a>참고 항목
 [MSBuild 개요](msbuild.md)  
  [MSBuild 참조](../msbuild/msbuild-reference.md)
-
-

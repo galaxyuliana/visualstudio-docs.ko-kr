@@ -1,14 +1,9 @@
 ---
 title: 프로젝트 디자이너, 서비스 페이지 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - vb.ProjectPropertiesServices
 helpviewer_keywords:
@@ -18,29 +13,29 @@ ms.assetid: 6dd9e0fa-acba-4d7d-b081-705b0fc86ff5
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 3a968283a8836c9a31c1d7f1e6552c8302d87140
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 412dc2adaa168cce8d11e4181537a7ccf3908e8f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49243700"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54756426"
 ---
 # <a name="services-page-project-designer"></a>프로젝트 디자이너, 서비스 페이지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-클라이언트 애플리케이션 서비스를 통해 Windows Forms 및 WPF(Windows Presentation Foundation) 애플리케이션에서 [!INCLUDE[ajax_current_short](../../includes/ajax-current-short-md.md)] 로그인, 역할 및 프로필 서비스에 간편하게 액세스할 수 있습니다. **프로젝트 디자이너**의 **서비스** 페이지를 사용하여 프로젝트에 대해 클라이언트 응용 프로그램 서비스를 사용하도록 설정하고 구성할 수 있습니다.  
+클라이언트 애플리케이션 서비스를 통해 Windows Forms 및 WPF(Windows Presentation Foundation) 애플리케이션에서 [!INCLUDE[ajax_current_short](../../includes/ajax-current-short-md.md)] 로그인, 역할 및 프로필 서비스에 간편하게 액세스할 수 있습니다. **프로젝트 디자이너**의 **서비스** 페이지를 사용하여 프로젝트에 대해 클라이언트 애플리케이션 서비스를 사용하도록 설정하고 구성할 수 있습니다.  
   
  클라이언트 애플리케이션 서비스를 통해 중앙 집중식 서버를 사용하여 사용자를 인증하고, 각 사용자의 할당된 역할을 결정하고, 네트워크에서 공유할 수 있는 사용자별 애플리케이션 설정을 저장할 수 있습니다. 자세한 내용은 [클라이언트 애플리케이션 서비스](http://msdn.microsoft.com/library/1487d8df-089e-4f21-abfb-a791a652b58e)를 참조하세요.  
   
  **서비스** 페이지에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택하고 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너**가 나타나면 **서비스** 탭을 클릭합니다.  
   
 > [!NOTE]
->  클라이언트 애플리케이션 서비스를 사용하려면 .NET Framework 정식 버전이 필요합니다. .NET Framework Client Profile에서는 클라이언트 애플리케이션 서비스가 지원되지 않습니다. **클라이언트 응용 프로그램 서비스 사용** 확인란이 사용하지 않도록 설정되어 있으면 **대상 프레임워크**가 .NET Framework 3.5 이상으로 설정되어 있는지 확인합니다. C#에서 **대상 프레임워크** 설정을 확인하려면 프로젝트 디자이너를 열고 **애플리케이션** 페이지를 클릭합니다. Visual Basic에서 **대상 프레임워크** 설정을 확인하려면 프로젝트 디자이너를 열고 **컴파일** 페이지를 클릭한 다음 **고급 컴파일 옵션**을 클릭합니다.  
+>  클라이언트 애플리케이션 서비스를 사용하려면 .NET Framework 정식 버전이 필요합니다. .NET Framework Client Profile에서는 클라이언트 애플리케이션 서비스가 지원되지 않습니다. **클라이언트 애플리케이션 서비스 사용** 확인란이 사용하지 않도록 설정되어 있으면 **대상 프레임워크**가 .NET Framework 3.5 이상으로 설정되어 있는지 확인합니다. C#에서 **대상 프레임워크** 설정을 확인하려면 프로젝트 디자이너를 열고 **애플리케이션** 페이지를 클릭합니다. Visual Basic에서 **대상 프레임워크** 설정을 확인하려면 프로젝트 디자이너를 열고 **컴파일** 페이지를 클릭한 다음 **고급 컴파일 옵션**을 클릭합니다.  
   
 ## <a name="task-list"></a>작업 목록  
- [방법: 클라이언트 응용 프로그램 서비스 구성](http://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)  
+ [방법: 클라이언트 애플리케이션 서비스 구성](http://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)  
   
 ## <a name="uielement-list"></a>UI 요소 목록  
  **구성**  
@@ -49,7 +44,7 @@ ms.locfileid: "49243700"
  **플랫폼**  
  이 컨트롤은 이 페이지에서 편집할 수 없습니다. 이 컨트롤에 대한 자세한 내용은 [프로젝트 디자이너, 컴파일 페이지(Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md) 또는 [프로젝트 디자이너, 빌드 페이지(C#)](../../ide/reference/build-page-project-designer-csharp.md)를 참조하세요.  
   
- **클라이언트 응용 프로그램 서비스 사용**  
+ **클라이언트 애플리케이션 서비스 사용**  
  클라이언트 애플리케이션 서비스를 사용하려면 선택합니다. 클라이언트 애플리케이션 서비스를 사용하려면 **서비스** 페이지에서 서비스 위치를 지정해야 합니다.  
   
  **Windows 인증 사용**  
@@ -74,12 +69,9 @@ ms.locfileid: "49243700"
  기본 동작을 재정의하는 데 사용할 수 있는 [서비스의 고급 설정 대화 상자](../../ide/reference/advanced-settings-for-services-dialog-box.md)를 엽니다. 예를 들어 이 대화 상자를 사용하여 로컬 파일 시스템을 사용하는 대신 오프라인 스토리지용 데이터베이스를 지정할 수 있습니다. 자세한 내용은 [서비스의 고급 설정 대화 상자](../../ide/reference/advanced-settings-for-services-dialog-box.md)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
- [클라이언트 응용 프로그램 서비스](http://msdn.microsoft.com/library/1487d8df-089e-4f21-abfb-a791a652b58e)   
+ [클라이언트 애플리케이션 서비스](http://msdn.microsoft.com/library/1487d8df-089e-4f21-abfb-a791a652b58e)   
  [서비스의 고급 설정 대화 상자](../../ide/reference/advanced-settings-for-services-dialog-box.md)   
- [방법: 클라이언트 응용 프로그램 서비스 구성](http://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)   
+ [오프라인으로 로그인할 수 있도록 로컬에 암호 해시 저장](http://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)   
  [프로젝트 디자이너, 컴파일 페이지(Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)   
  [프로젝트 디자이너, 빌드 페이지(C#)](../../ide/reference/build-page-project-designer-csharp.md)   
- [프로젝트 디자이너 소개](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)
-
-
-
+ [프로젝트 디자이너 소개](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)

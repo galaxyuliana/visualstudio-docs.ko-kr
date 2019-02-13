@@ -70,7 +70,7 @@ ms.locfileid: "54769372"
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 증분 방식으로 빌드](../msbuild/how-to-build-incrementally.md)   
+ [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md)   
  [일괄 처리](../msbuild/msbuild-batching.md)   
  [Target 요소(MSBuild)](../msbuild/target-element-msbuild.md)   
  [작업 일괄 처리의 항목 메타데이터](../msbuild/item-metadata-in-task-batching.md)

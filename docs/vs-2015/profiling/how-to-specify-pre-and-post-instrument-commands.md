@@ -1,14 +1,9 @@
 ---
 title: '방법: 계측 전 명령 및 계측 후 명령 지정 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.performance.property.instrument
 helpviewer_keywords:
@@ -19,13 +14,13 @@ ms.assetid: 6a8d5340-1d1b-4d81-88dd-8e1f435eb828
 caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: b88d49be8ee4651d82135b3e8d27bef8218ffd43
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b548265959ed2be10feb1096d7dc92d95a6cfed0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51772224"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54792838"
 ---
 # <a name="how-to-specify-pre--and-post-instrument-commands"></a>방법: 계측 전 명령 및 계측 후 명령 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ ms.locfileid: "51772224"
   
 - [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
-  명령이 실행되는 작업 디렉터리는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]를 실행 중인 운영 체제 및 프로파일링된 응용 프로그램의 대상 플랫폼에 따라 달라집니다.  
+  명령이 실행되는 작업 디렉터리는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]를 실행 중인 운영 체제 및 프로파일링된 애플리케이션의 대상 플랫폼에 따라 달라집니다.  
   
   **32비트 컴퓨터**  
   
@@ -46,13 +41,13 @@ ms.locfileid: "51772224"
   
   **64비트 컴퓨터**  
   
-  64비트 컴퓨터에서 프로파일링된 응용 프로그램의 대상 플랫폼에 따라 경로를 지정합니다.  
+  64비트 컴퓨터에서 프로파일링된 애플리케이션의 대상 플랫폼에 따라 경로를 지정합니다.  
   
-- 32비트 응용 프로그램의 경우 기본 프로파일러 도구 디렉터리는 다음과 같습니다.  
+- 32비트 애플리케이션의 경우 기본 프로파일러 도구 디렉터리는 다음과 같습니다.  
   
    *드라이브*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools  
   
-- 64비트 응용 프로그램의 경우 기본 프로파일러 도구가 위치한 디렉터리는 다음과 같습니다.  
+- 64비트 애플리케이션의 경우 기본 프로파일러 도구가 위치한 디렉터리는 다음과 같습니다.  
   
    *드라이브*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64  
   
@@ -96,6 +91,3 @@ ms.locfileid: "51772224"
   
 ## <a name="see-also"></a>참고 항목  
  [성능 세션 구성](../profiling/configuring-performance-sessions.md)
-
-
-

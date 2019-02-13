@@ -1,14 +1,9 @@
 ---
 title: '방법: 먼저 빌드할 대상 지정 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - DefaultTargets attribute [MSBuild]
 - MSBuild, specifying the defalut target
@@ -17,13 +12,13 @@ ms.assetid: a580ba5b-2919-42d2-ae38-1af991e0205a
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: f4ea97ed3650e74a10bfc5e49657f0ed3dce60ba
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 52baabe5a8cf2e064c72ef7a5ab146d534214d90
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49840703"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54797042"
 ---
 # <a name="how-to-specify-which-target-to-build-first"></a>방법: 먼저 빌드할 대상 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ ms.locfileid: "49840703"
   
 #### <a name="to-specify-one-initial-target"></a>하나의 초기 대상을 지정합니다.  
   
-- `Project` 요소의 `InitialTargets` 특성에서 기본 대상을 지정합니다. 예를 들어:  
+- `Project` 요소의 `InitialTargets` 특성에서 기본 대상을 지정합니다. 예:  
   
    `<Project InitialTargets="Clean">`  
   
@@ -53,7 +48,7 @@ ms.locfileid: "49840703"
   
 #### <a name="to-specify-one-default-target"></a>하나의 기본 대상을 지정하려면  
   
-- `Project` 요소의 `DefaultTargets` 특성에서 기본 대상을 지정합니다. 예를 들어:  
+- `Project` 요소의 `DefaultTargets` 특성에서 기본 대상을 지정합니다. 예:  
   
    `<Project DefaultTargets="Compile">`  
   
@@ -70,13 +65,13 @@ ms.locfileid: "49840703"
   
 #### <a name="to-use-a-target-other-than-the-default-target-first"></a>기본 대상 이외의 대상을 먼저 사용하려면  
   
--   **/target** 명령줄 스위치를 사용하여 대상을 첫 번째 대상으로 지정합니다. 예를 들어:  
+-   **/target** 명령줄 스위치를 사용하여 대상을 첫 번째 대상으로 지정합니다. 예:  
   
      `msbuild file.proj /target:Clean`  
   
 #### <a name="to-use-several-targets-other-than-the-default-targets-first"></a>기본 대상 이외의 여러 대상을 먼저 사용하려면  
   
--   **/target** 명령줄 스위치를 사용하여 세미콜론 또는 쉼표로 구분된 대상을 나열합니다. 예를 들어:  
+-   **/target** 명령줄 스위치를 사용하여 세미콜론 또는 쉼표로 구분된 대상을 나열합니다. 예:  
   
      `msbuild <file name>.proj /t:Clean;Compile`  
   
@@ -84,5 +79,3 @@ ms.locfileid: "49840703"
   [MSBuild](msbuild.md)  
  [대상](../msbuild/msbuild-targets.md)   
  [방법: 빌드 정리](../msbuild/how-to-clean-a-build.md)
-
-

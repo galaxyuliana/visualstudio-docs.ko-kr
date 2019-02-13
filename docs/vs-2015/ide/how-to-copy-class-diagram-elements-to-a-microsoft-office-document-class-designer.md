@@ -1,14 +1,9 @@
 ---
-title: '방법: 클래스 다이어그램 요소를 Microsoft Office 문서에 복사(클래스 디자이너) | Microsoft Docs'
-ms.custom: ''
+title: '방법: 클래스 다이어그램 요소를 Microsoft Office 문서 (클래스 디자이너)에 복사 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - class diagrams, copying elements to Office documents
 - Office documents [Visual Studio]
@@ -16,13 +11,13 @@ ms.assetid: c43061ad-d258-46b1-be66-f97a312e86d5
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 7bdae912e1eb43d3fa323850fa9dae35f2c56f18
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9d7ac06c15fb3b6e4370a3e785abe2ac94483a34
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49923214"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54756760"
 ---
 # <a name="how-to-copy-class-diagram-elements-to-a-microsoft-office-document-class-designer"></a>방법: 클래스 다이어그램 요소를 Microsoft Office 문서에 복사(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,11 +40,8 @@ ms.locfileid: "49923214"
   
 2. **편집** 메뉴에서 **이미지 복사**를 선택합니다.  
   
-   **이미지 복사** 대신 **복사**를 선택할 수도 있습니다. **복사**를 선택하면 이미지가 일반 비트맵으로 복사됩니다. **이미지 복사**를 선택하면 이미지가 벡터 기반 이미지로 복사되며 대부분의 Office 응용 프로그램의 경우 이 옵션을 선택하는 것이 좋습니다.  
+   **이미지 복사** 대신 **복사**를 선택할 수도 있습니다. **복사**를 선택하면 이미지가 일반 비트맵으로 복사됩니다. **이미지 복사**를 선택하면 이미지가 벡터 기반 이미지로 복사되며 대부분의 Office 애플리케이션의 경우 이 옵션을 선택하는 것이 좋습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 클래스 다이어그램 인쇄(클래스 디자이너)](../ide/how-to-print-class-diagrams-class-designer.md)   
  [방법: 클래스 다이어그램을 이미지로 내보내기(클래스 디자이너)](../ide/how-to-export-class-diagrams-as-images-class-designer.md)
-
-
-

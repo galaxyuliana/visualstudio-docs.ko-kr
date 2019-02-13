@@ -1,14 +1,9 @@
 ---
 title: 출력 창 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - vs.build.output
 - vs.debug.output
@@ -21,13 +16,13 @@ ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 55869ff13cf4048b6d256e57892d470062847501
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 26b826b19a14731ba4fbbb11eccee5fc4337c4ff
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49189906"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54784821"
 ---
 # <a name="output-window"></a>출력 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -65,7 +60,7 @@ ms.locfileid: "49189906"
   
  [명령 창](../../ide/reference/command-window.md)에서 호출된 특정 IDE 기능 및 명령은 해당 출력을 **출력** 창으로 전달합니다. [외부 도구 관리](../../ide/managing-external-tools.md)에서 **출력 창 사용**을 선택하면 일반적으로 명령 프롬프트 창에 표시되는 .bat 및 .com 파일과 같은 외부 도구의 출력이 **출력** 창으로 라우팅됩니다. 다른 종류의 메시지는 대부분 **출력** 창에도 표시될 수 있습니다. 예를 들어 저장 프로시저의 Transact-SQL 구문이 대상 데이터베이스에 대해 확인되면 결과는 **출력** 창에 표시됩니다.  
   
- 런타임에 진단 메시지를 **출력** 창에 쓰도록 자체 응용 프로그램을 프로그래밍할 수도 있습니다. 이렇게 하려면 .NET Framework 클래스 라이브러리의 <xref:System.Diagnostics> 네임스페이스에서 <xref:System.Diagnostics.Debug> 클래스 또는 <xref:System.Diagnostics.Trace> 클래스의 멤버를 사용합니다. <xref:System.Diagnostics.Debug> 클래스의 멤버는 솔루션 또는 프로젝트의 디버그 구성을 빌드할 때 출력을 표시하고, <xref:System.Diagnostics.Trace> 클래스의 멤버는 디버그 또는 릴리스 구성을 빌드할 때 출력을 표시합니다. 자세한 내용은 [출력 창에 표시되는 진단 메시지](../../debugger/diagnostic-messages-in-the-output-window.md)를 참조하세요.  
+ 런타임에 진단 메시지를 **출력** 창에 쓰도록 자체 애플리케이션을 프로그래밍할 수도 있습니다. 이렇게 하려면 .NET Framework 클래스 라이브러리의 <xref:System.Diagnostics> 네임스페이스에서 <xref:System.Diagnostics.Debug> 클래스 또는 <xref:System.Diagnostics.Trace> 클래스의 멤버를 사용합니다. <xref:System.Diagnostics.Debug> 클래스의 멤버는 솔루션 또는 프로젝트의 디버그 구성을 빌드할 때 출력을 표시하고, <xref:System.Diagnostics.Trace> 클래스의 멤버는 디버그 또는 릴리스 구성을 빌드할 때 출력을 표시합니다. 자세한 내용은 [출력 창에 표시되는 진단 메시지](../../debugger/diagnostic-messages-in-the-output-window.md)를 참조하세요.  
   
  [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)]에서 경고 및 오류가 **출력** 창에서 표시되고 계산되는 사용자 지정 빌드 단계 및 빌드 이벤트를 만들 수 있습니다. 출력 줄에서 F1 키를 눌러 해당 도움말 항목을 표시할 수 있습니다. 자세한 내용은 [사용자 지정 빌드 단계 또는 빌드 이벤트의 출력 형식 지정](http://msdn.microsoft.com/library/92ad3e38-24d7-4b89-90e6-5a16f5f998da)을 참조하세요.  
   
@@ -78,6 +73,3 @@ ms.locfileid: "49189906"
  [컴파일 및 빌드](../../ide/compiling-and-building-in-visual-studio.md)   
  [빌드 구성 이해](../../ide/understanding-build-configurations.md)   
  [클래스 라이브러리 개요](http://msdn.microsoft.com/library/7e4c5921-955d-4b06-8709-101873acf157)
-
-
-

@@ -1,26 +1,21 @@
 ---
 title: 데이터 기반의 코딩된 UI 테스트 만들기 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
 - coded UI tests, data-driven
 ms.assetid: 5838f02d-001f-49ce-adce-c9ea1afaec2f
 caps.latest.revision: 58
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: d3674d6ccbda89a2a3ee1de551587ba034ba51c7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 71c08c78d67f65ec69a982ce431a64ec1c620d27
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49932626"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54755372"
 ---
 # <a name="creating-a-data-driven-coded-ui-test"></a>데이터 기반의 코딩된 UI 테스트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ ms.locfileid: "49932626"
 -   Visual Studio Enterprise  
   
 ## <a name="create-a-data-driven-coded-ui-test"></a>데이터 기반의 코딩된 UI 테스트 만들기  
- 이 샘플은 Windows 계산기 응용 프로그램에서 실행되는 코딩된 UI 테스트를 만듭니다. 이 테스트에서는 두 숫자를 더한 다음 어설션을 사용해 합이 올바른지 유효성을 검사합니다. 그런 다음 두 숫자의 매개 변수 값과 어설션이 데이터 기반 방식으로 코딩되어 쉼표로 구분된 값(.csv) 파일에 저장됩니다.  
+ 이 샘플은 Windows 계산기 애플리케이션에서 실행되는 코딩된 UI 테스트를 만듭니다. 이 테스트에서는 두 숫자를 더한 다음 어설션을 사용해 합이 올바른지 유효성을 검사합니다. 그런 다음 두 숫자의 매개 변수 값과 어설션이 데이터 기반 방식으로 코딩되어 쉼표로 구분된 값(.csv) 파일에 저장됩니다.  
   
 #### <a name="step-1---create-a-coded-ui-test"></a>1단계 - 코딩된 UI 테스트 만들기  
   
@@ -210,7 +205,7 @@ ms.locfileid: "49932626"
   
    **지침**  
   
-   자세한 내용은 [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)(Visual Studio 2012를 사용한 연속 배달 테스트 - 2장: 단위 테스트: 내부 테스트) 및 [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)(Visual Studio 2012를 사용한 연속 배달 테스트 - 5장: 시스템 테스트 자동화)를 참조하세요.  
+   자세한 내용은 참조 하세요. [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188) 고 [Testing for Continuous Delivery with Visual Studio 2012 – 5 장: 시스템 테스트 자동화](http://go.microsoft.com/fwlink/?LinkID=255196)  
   
 ## <a name="q--a"></a>Q & A  
   
@@ -262,6 +257,3 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
  [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [최선의 코딩된 UI 테스트 방법](../test/best-practices-for-coded-ui-tests.md)   
  [코딩된 UI 테스트 및 작업 기록에 지원되는 구성 및 플랫폼](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-
-
-

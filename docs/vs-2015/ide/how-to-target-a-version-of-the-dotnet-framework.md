@@ -1,14 +1,9 @@
 ---
-title: '방법: 한 버전의 .NET Framework를 대상으로 지정 | Microsoft 문서'
-ms.custom: ''
+title: '방법: .NET Framework의 버전 대상 지정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - targeting .NET Framework version [Visual Studio]
 - versions [Visual Studio], targeting .NET Framework version
@@ -16,13 +11,13 @@ ms.assetid: dea62d25-3d1b-492e-a6cc-b5154489800a
 caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 3370c62535f2bb915115533ea79f4b913c3ac347
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: ee322255cbb737aa4503517c599c62c9151937ab
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49182366"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782309"
 ---
 # <a name="how-to-target-a-version-of-the-net-framework"></a>방법: 한 버전의 .NET Framework를 대상으로 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,9 +64,9 @@ ms.locfileid: "49182366"
     > [!IMPORTANT]
     >  C++ 프로젝트의 대상 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 대상 프레임워크 및 플랫폼 도구 집합 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)을 참조하세요.  
   
-2.  [속성] 창의 왼쪽 열에서 **응용 프로그램** 탭을 선택합니다.  
+2.  [속성] 창의 왼쪽 열에서 **애플리케이션** 탭을 선택합니다.  
   
-     ![Visual Studio 응용 프로그램 속성 응용 프로그램 탭](../ide/media/vs-slnexplorer-properties-applicationtab.png "vs_slnExplorer_Properties_ApplicationTab")  
+     ![Visual Studio 애플리케이션 속성 애플리케이션 탭](../ide/media/vs-slnexplorer-properties-applicationtab.png "vs_slnExplorer_Properties_ApplicationTab")  
   
     > [!NOTE]
     >  Windows 스토어 앱을 만든 후에는 Windows 또는 .NET Framework의 대상 버전을 변경할 수 없습니다.  
@@ -89,10 +84,7 @@ ms.locfileid: "49182366"
  [Visual Studio 멀티 타기팅 개요](../ide/visual-studio-multi-targeting-overview.md)   
  [ASP.NET 웹 프로젝트에 대한 .NET Framework 멀티 타기팅](http://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)   
  [.NET Framework 대상 지정 오류 문제 해결](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)   
- [프로젝트 디자이너, 응용 프로그램 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md)   
- [프로젝트 디자이너, 응용 프로그램 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
+ [프로젝트 디자이너, 애플리케이션 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md)   
+ [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [프로젝트 구성](http://msdn.microsoft.com/library/a1489abb-6294-4f8f-b71f-2cb126393526)   
  [방법: 대상 프레임워크 및 플랫폼 도구 집합 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)
-
-
-

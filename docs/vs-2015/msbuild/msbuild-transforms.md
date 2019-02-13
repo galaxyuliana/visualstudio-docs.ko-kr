@@ -1,14 +1,9 @@
 ---
 title: MSBuild 변환 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
@@ -16,13 +11,13 @@ ms.assetid: d0bcfc3c-14fa-455e-805c-63ccffa4a3bf
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ce1d0b63518fb48636fca38b2788eea2d0c189a8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: a42cee0574d5cf5f0de50fb1e9923c9e54504a91
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49223708"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54773087"
 ---
 # <a name="msbuild-transforms"></a>MSBuild 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,7 +69,7 @@ ms.locfileid: "49223708"
 </Target>  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 변환을 사용하는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일을 보여줍니다. 이 예제에서는 c:\sub0\sub1\sub2\sub3 디렉터리에 .xsd 파일 하나만 있고 작업 디렉터리가 c:\sub0이라고 가정합니다.  
@@ -118,6 +113,3 @@ extension: .xsd
  [MSBuild 개념](../msbuild/msbuild-concepts.md)   
  [MSBuild 참조](../msbuild/msbuild-reference.md)   
  [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md)
-
-
-

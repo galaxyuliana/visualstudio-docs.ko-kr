@@ -13,15 +13,14 @@ ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 1a84a9a1a8f0a7d30aafc1daa7a0a669674b021e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: eb6b9a9a213932662a548314bcc39c75e9d35bc3
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54918020"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55909689"
 ---
 # <a name="bind-wpf-controls-to-a-wcf-data-service"></a>WCF 데이터 서비스에 WPF 컨트롤 바인딩
 
@@ -79,7 +78,7 @@ WCF 데이터 서비스에 대 한 프로젝트를 만들어이 연습을 시작
 
 ## <a name="create-an-entity-data-model-for-the-service"></a>서비스에 대 한 엔터티 데이터 모델 만들기
 
-WCF 데이터 서비스를 사용 하 여 응용 프로그램에 데이터를 노출 하려면 서비스에 대 한 데이터 모델을 정의 해야 합니다. WCF Data Service는 두 가지 유형의 데이터 모델을 지원합니다. 엔터티 데이터 모델 및 구현 하는 공용 언어 런타임 (CLR) 개체를 사용 하 여 정의 된 사용자 지정 데이터 모델을 <xref:System.Linq.IQueryable%601> 인터페이스입니다. 이 연습에서는 데이터 모델에 대해 엔터티 데이터 모델을 만듭니다.
+WCF 데이터 서비스를 사용 하 여 응용 프로그램에 데이터를 노출 하려면 서비스에 대 한 데이터 모델을 정의 해야 합니다. WCF Data Service는 두 가지 유형의 데이터 모델: 엔터티 데이터 모델 및 구현 하는 공용 언어 런타임 (CLR) 개체를 사용 하 여 정의 된 사용자 지정 데이터 모델을 <xref:System.Linq.IQueryable%601> 인터페이스입니다. 이 연습에서는 데이터 모델에 대해 엔터티 데이터 모델을 만듭니다.
 
 1. **프로젝트** 메뉴에서 **새 항목 추가**를 클릭합니다.
 
@@ -230,7 +229,7 @@ WPF 디자이너에서 XAML을 수정하여 창에 여러 단추를 추가합니
 
 서비스 프록시 개체를 사용 하 여 서비스에서 판매 데이터를 로드 합니다. 그런 다음 반환된 된 데이터에 대 한 데이터 원본에 할당 된 <xref:System.Windows.Data.CollectionViewSource> WPF 창에서.
 
-1. 디자이너를 만들려면를 `Window_Loaded` 이벤트 처리기에서 텍스트를 두 번 클릭: MainWindow()
+1. 디자이너를 만들려면를 `Window_Loaded` 이벤트 처리기에서 텍스트를 두 번 클릭: **MainWindow**.
 
 2. 이벤트 처리기를 다음 코드로 바꿉니다. 이 코드의 *localhost*주소는 사용 중인 개발 컴퓨터의 로컬 호스트 주소로 바꿔야 합니다.
 
@@ -306,7 +305,7 @@ WPF 디자이너에서 XAML을 수정하여 창에 여러 단추를 추가합니
 
 - Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤을 다른 형식의 데이터 원본에 바인딩하는 방법을 알아봅니다. 자세한 내용은 [데이터 집합에 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-a-dataset.md)합니다.
 
-- Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤에 관련 데이터(즉, 부모-자식 관계가 있는 데이터)를 표시하는 방법을 알아봅니다. 자세한 내용은 [연습: WPF 애플리케이션에서 관련 데이터 표시](../data-tools/display-related-data-in-wpf-applications.md)를 참조하세요.
+- Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤에 관련 데이터(즉, 부모-자식 관계가 있는 데이터)를 표시하는 방법을 알아봅니다. 자세한 내용은 [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/display-related-data-in-wpf-applications.md)합니다.
 
 ## <a name="see-also"></a>참고 항목
 

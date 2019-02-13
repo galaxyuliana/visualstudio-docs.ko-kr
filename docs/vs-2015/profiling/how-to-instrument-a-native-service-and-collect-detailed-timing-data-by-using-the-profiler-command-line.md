@@ -1,25 +1,20 @@
 ---
 title: '방법: 프로파일러 명령줄을 사용하여 네이티브 서비스 계측 및 자세한 타이밍 데이터 수집 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: dfe58b39-63f8-4a87-ab3a-2b5b14faa8d0
 caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: aa230e858db8eea19e1f5b2ff7ad683e45a76fcb
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f0e1007ce9119d12282b4ee7f6b85f22257af659
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51757777"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54781405"
 ---
 # <a name="how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line"></a>방법: 프로파일러 명령줄을 사용하여 네이티브 서비스 계측 및 자세한 타이밍 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "51757777"
 
  프로파일링 세션을 종료하려면 서비스를 끈 다음 프로파일러를 명시적으로 종료합니다.  
 
-## <a name="starting-the-application-with-the-profiler"></a>프로파일러를 사용하여 응용 프로그램 시작  
+## <a name="starting-the-application-with-the-profiler"></a>프로파일러를 사용하여 애플리케이션 시작  
 
 #### <a name="to-start-profiling-a-native-service"></a>네이티브 서비스 프로파일링을 시작하려면  
 
@@ -58,12 +53,12 @@ ms.locfileid: "51757777"
      **/start:trace** 옵션과 다음 옵션을 함께 사용할 수 있습니다.  
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 응용 프로그램에 필요합니다.  
+   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 애플리케이션에 필요합니다.  
 
    |                                 옵션                                  |                                                                                                                                                   설명                                                                                                                                                    |
    |-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | [/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName` |               ASP.NET 작업자 프로세스를 소유한 계정의 도메인 및 사용자 이름을 지정합니다. 프로세스가 로그온한 사용자 이외의 사용자로 실행 중인 경우 이 옵션이 필요합니다. [Windows 작업 관리자]의 [프로세스] 탭에 있는 [사용자 이름] 열에 프로세스 소유자가 나열됩니다.               |
-   |              [/crosssession](../profiling/crosssession.md)              | 프로세스 프로파일링 기능을 다른 로그온 세션에서 사용하도록 설정합니다. 이 옵션은 ASP.NET 응용 프로그램이 다른 세션에서 실행 중인 경우 필요합니다. [Windows 작업 관리자]의 [프로세스] 탭에 있는 [세션 ID] 열에 세션 ID가 나열됩니다. **/CS**를 **/crosssession**에 대한 약어로 지정할 수 있습니다. |
+   |              [/crosssession](../profiling/crosssession.md)              | 프로세스 프로파일링 기능을 다른 로그온 세션에서 사용하도록 설정합니다. 이 옵션은 ASP.NET 애플리케이션이 다른 세션에서 실행 중인 경우 필요합니다. [Windows 작업 관리자]의 [프로세스] 탭에 있는 [세션 ID] 열에 세션 ID가 나열됩니다. **/CS**를 **/crosssession**에 대한 약어로 지정할 수 있습니다. |
    |        [/waitstart](../profiling/waitstart.md)[**:**`Interval`]         |                                                 프로파일러가 오류를 반환하기 전에 초기화할 때까지 기다리는 시간(초)을 지정합니다. `Interval`을 지정하지 않으면 프로파일러에서 무기한 기다립니다. 기본적으로 **/start**는 즉시 반환합니다.                                                  |
    |          [/globaloff](../profiling/globalon-and-globaloff.md)           |                                                                             데이터 수집을 일시 중지하고 프로파일러를 시작하려면 **/globaloff** 옵션을 **/start** 명령줄에 추가합니다. **/globalon**을 사용하여 프로파일링을 다시 시작합니다.                                                                              |
    |           [/counter](../profiling/counter.md) **:** `Config`            |                                                                           구성에 지정된 프로세서 성능 카운터에서 정보를 수집합니다. 카운터 정보는 각 프로파일링 이벤트에서 수집된 데이터에 추가됩니다.                                                                           |
@@ -103,6 +98,3 @@ ms.locfileid: "51757777"
 ## <a name="see-also"></a>참고 항목  
  [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)   
  [계측 방법 데이터 뷰](../profiling/instrumentation-method-data-views.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: '방법: 빌드 시 환경 변수 사용 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - environment variables, referencing
 - projects [.NET Framework], environment variables
@@ -17,13 +12,13 @@ ms.assetid: 7f9e4469-8865-4b59-aab3-3ff26bd36e77
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 463acc185a73b9a483bf74c98d4bde1cf0f42494
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: cf043fbaac2e718b108920a61026378545fa5a95
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49877506"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54780975"
 ---
 # <a name="how-to-use-environment-variables-in-a-build"></a>방법: 빌드 시 환경 변수 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +49,7 @@ ms.locfileid: "49877506"
     > [!NOTE]
     >  속성 이름은 대/소문자를 구분하지 않으므로 `$(ToolsPath)` 및 `$(TOOLSPATH)`는 둘 다 같은 속성 또는 환경 변수를 참조합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 프로젝트 파일에서는 환경 변수를 사용하여 디렉터리의 위치를 지정합니다.  
   
 ```  
@@ -78,5 +73,3 @@ ms.locfileid: "49877506"
 [MSBuild 속성](../msbuild/msbuild-properties1.md)
 
 [방법: 동일한 소스 파일을 다른 옵션을 사용하여 빌드](../msbuild/how-to-build-the-same-source-files-with-different-options.md)
-
-

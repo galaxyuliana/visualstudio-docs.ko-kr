@@ -1,14 +1,9 @@
 ---
 title: MSBuild | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, about MSBuild
 - MSBuild, overview
@@ -16,18 +11,18 @@ ms.assetid: e39f13f7-1e1d-4435-95ca-0c222bca071c
 caps.latest.revision: 62
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 9a2ca3a14c1e4e35da4e8cddfdecb0346740286a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 56c7e5a5a02f2ef5c114665d358e86d768a24a44
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49837765"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54756573"
 ---
 # <a name="msbuild"></a>MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-[!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)]은 응용 프로그램을 빌드하기 위한 플랫폼입니다. MSBuild라고도 하는 이 엔진은 빌드 플랫폼에서 소프트웨어를 처리하고 빌드하는 방법을 제어하는 프로젝트 파일에 대한 XML 스키마를 제공합니다. Visual Studio는 MSBuild를 사용하지만 Visual Studio에 종속되지 않습니다. 프로젝트 또는 솔루션 파일에서 msbuild.exe를 호출하여 Visual Studio가 설치되지 않은 환경에서 제품을 조정하고 빌드할 수 있습니다.  
+[!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)]은 애플리케이션을 빌드하기 위한 플랫폼입니다. MSBuild라고도 하는 이 엔진은 빌드 플랫폼에서 소프트웨어를 처리하고 빌드하는 방법을 제어하는 프로젝트 파일에 대한 XML 스키마를 제공합니다. Visual Studio는 MSBuild를 사용하지만 Visual Studio에 종속되지 않습니다. 프로젝트 또는 솔루션 파일에서 msbuild.exe를 호출하여 Visual Studio가 설치되지 않은 환경에서 제품을 조정하고 빌드할 수 있습니다.  
   
  Visual Studio는 MSBuild를 사용하여 관리되는 프로젝트를 로드하고 빌드합니다. Visual Studio의 프로젝트 파일(.csproj, .vbproj, vcxproj 등)에는 IDE를 사용하여 프로젝트를 빌드할 때 실행되는 MSBuild XML 코드가 들어 있습니다. Visual Studio 프로젝트는 필요한 모든 설정을 가져오고 일반적인 개발 작업을 수행하는 프로세스를 빌드하지만 Visual Studio 내에서 또는 XML 편집기를 사용하여 확장하거나 수정할 수 있습니다.  
   
@@ -54,7 +49,7 @@ ms.locfileid: "49837765"
   Visual Studio IDE에서 코드를 작성하지만 MSBuild를 사용하여 빌드를 실행할 수 있습니다. 또는 개발 컴퓨터의 IDE에서 코드를 빌드하지만 MSBuild 명령줄을 사용하여 여러 개발자로부터 통합된 코드를 빌드할 수 있습니다.  
   
 > [!NOTE]
->  Team Foundation Build를 사용하여 응용 프로그램을 자동으로 컴파일, 테스트 및 배포할 수 있습니다. 개발자가 코드를 체크 인할 때(예: 연속 통합 전략의 일부로) 또는 일정에 따라(예: 야간 빌드 확인 테스트 빌드) 빌드 시스템에서 빌드를 자동으로 실행할 수 있습니다. Team Foundation Build는 MSBuild를 사용하여 코드를 컴파일합니다. 자세한 내용은 [응용 프로그램 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
+>  Team Foundation Build를 사용하여 애플리케이션을 자동으로 컴파일, 테스트 및 배포할 수 있습니다. 개발자가 코드를 체크 인할 때(예: 연속 통합 전략의 일부로) 또는 일정에 따라(예: 야간 빌드 확인 테스트 빌드) 빌드 시스템에서 빌드를 자동으로 실행할 수 있습니다. Team Foundation Build는 MSBuild를 사용하여 코드를 컴파일합니다. 자세한 내용은 [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
   
  이 항목에서는 MSBuild에 대해 간략하게 설명합니다. 입문용 자습서는 [연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)을 참조하세요.  
   
@@ -178,11 +173,11 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
  Visual Studio에서 MSBuild를 사용하는 방법에 대한 자습서는 [연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)을 참조하세요.  
   
 ##  <a name="BKMK_Multitargeting"></a> 멀티 타기팅  
- Visual Studio를 사용하면 .NET Framework의 여러 버전 중 하나에서 실행되는 응용 프로그램을 컴파일할 수 있습니다. 예를 들어 32비트 플랫폼의 .NET Framework 2.0에서 실행되도록 응용 프로그램을 컴파일하고 동일한 응용 프로그램을 64비트 플랫폼의 .NET Framework 4.5에서 실행되도록 컴파일할 수 있습니다. 둘 이상의 프레임워크에서 실행 가능하도록 컴파일하는 기능을 다중 대상 지정이라고 합니다.  
+ Visual Studio를 사용하면 .NET Framework의 여러 버전 중 하나에서 실행되는 애플리케이션을 컴파일할 수 있습니다. 예를 들어 32비트 플랫폼의 .NET Framework 2.0에서 실행되도록 애플리케이션을 컴파일하고 동일한 애플리케이션을 64비트 플랫폼의 .NET Framework 4.5에서 실행되도록 컴파일할 수 있습니다. 둘 이상의 프레임워크에서 실행 가능하도록 컴파일하는 기능을 다중 대상 지정이라고 합니다.  
   
  다중 대상 지정에는 다음과 같은 이점이 있습니다.  
   
-- .NET Framework의 이전 버전(예: 2.0, 3.0 및 3.5)을 대상으로 하는 응용 프로그램을 개발할 수 있습니다.  
+- .NET Framework의 이전 버전(예: 2.0, 3.0 및 3.5)을 대상으로 하는 애플리케이션을 개발할 수 있습니다.  
   
 - .NET Framework 외에 Silverlight 등의 다른 프레임워크를 대상으로 지정할 수 있습니다.  
   
@@ -190,7 +185,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
 - 현재 버전의 .NET Framework용 서비스 팩이 릴리스될 경우 해당 서비스 팩을 대상으로 지정할 수 있습니다.  
   
-- 다중 대상 지정은 대상 프레임워크 및 플랫폼에서 사용 가능한 기능만 응용 프로그램에서 사용되도록 합니다.  
+- 다중 대상 지정은 대상 프레임워크 및 플랫폼에서 사용 가능한 기능만 애플리케이션에서 사용되도록 합니다.  
   
   자세한 내용은 [멀티 타기팅](../msbuild/msbuild-multitargeting-overview.md)을 참조하세요.  
   
@@ -216,8 +211,3 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  용어  
  일반적인 MSBuild 용어를 정의합니다.
-
-
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: 빌드 전 이벤트 및 빌드 후 이벤트 명령줄 대화 상자 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - cs.ProjectPropertiesBuildEventsBuilder
 - vb.ProjectPropertiesBuildEventsBuilder
@@ -38,13 +33,13 @@ ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f4c2f0297195dc1a9be23a1dd8aca980a6e32958
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: d3e6597e8b288e85c6bd49d3c8e843fd464bf094
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49202516"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54753380"
 ---
 # <a name="pre-build-eventpost-build-event-command-line-dialog-box"></a>빌드 전 이벤트/빌드 후 이벤트 명령줄 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -101,6 +96,3 @@ ms.locfileid: "49202516"
  [프로젝트 디자이너, 빌드 이벤트 페이지(C#)](../../ide/reference/build-events-page-project-designer-csharp.md)   
  [방법: 빌드 이벤트 지정(Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
  [방법: 빌드 이벤트 지정(C#)](../../ide/how-to-specify-build-events-csharp.md)
-
-
-

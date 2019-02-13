@@ -1,27 +1,22 @@
 ---
-title: '방법: 코드 조각 배포 | Microsoft 문서'
-ms.custom: ''
+title: '방법: 코드 조각 배포 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - code snippets, distributing
 ms.assetid: 5f717abd-e167-47ae-818c-6b0bae100ceb
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 14dea3842289b626b79d8dc7e294ba5f335d0351
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: bf0cff7902bfbf62dbb0e0929cf924505d37aed2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49185707"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799034"
 ---
 # <a name="how-to-distribute-code-snippets"></a>방법: 코드 조각 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +26,7 @@ ms.locfileid: "49185707"
  Visual Studio 확장을 만들려면 Visual Studio SDK를 설치해야 합니다. Visual Studio 설치에서 일치 하는 VSSDK 버전을 찾으려면 [Visual Studio 2015 다운로드](http://www.visualstudio.com/downloads/visual-studio-2015-downloads-vs.aspx)합니다.  
   
 ## <a name="setting-up-the-extension"></a>확장명 설정  
- 이 절차에서는 [연습: 코드 조각 만들기](../ide/walkthrough-creating-a-code-snippet.md)에서 만들어진 같은 Hello World 코드 조각을 사용합니다. .snippet text가 제공되므로 돌아가서 코드 조각을 만들 필요가 없습니다.  
+ 이 절차에서 만들어진 같은 Hello World 코드 조각을 사용은 [연습: 코드 조각 만들기](../ide/walkthrough-creating-a-code-snippet.md)를 참조하세요. .snippet text가 제공되므로 돌아가서 코드 조각을 만들 필요가 없습니다.  
   
 1.  **TestSnippet**이라는 새 VSIX 프로젝트를 만듭니다. (**파일/새로 만들기/프로젝트/Visual C#(또는 Visual Basic)/확장성**)  
   
@@ -101,7 +96,7 @@ ms.locfileid: "49185707"
   
 4.  조각을 테스트합니다. 실험적 인스턴스에서 Visual Basic 프로젝트를 열고 코드 파일의 하나를 엽니다. 코드의 임의 위치에 커서를 놓고 마우스 오른쪽 단추를 클릭하고 나서 상황에 맞는 메뉴에서 **조각 삽입**을 선택합니다.  
   
-5.  HelloWorldVB가 폴더의 하나로 표시되어야 합니다. 폴더를 두 번 클릭합니다. 드롭다운 **HelloWorldVB**가 포함된 **코드 조각 삽입: HellowWorldVB >** 팝업이 표시되어야 합니다. HelloWorldVB 드롭다운을 클릭합니다. 파일에 추가된 다음 줄을 확인해야 합니다.  
+5.  HelloWorldVB가 폴더의 하나로 표시되어야 합니다. 폴더를 두 번 클릭합니다. **코드 조각 삽입: HellowWorldVB >** 드롭다운에 있는 **HelloWorldVB**합니다. HelloWorldVB 드롭다운을 클릭합니다. 파일에 추가된 다음 줄을 확인해야 합니다.  
   
     ```vb  
     Console.WriteLine("Hello, World!")  
@@ -109,6 +104,3 @@ ms.locfileid: "49185707"
   
 ## <a name="see-also"></a>참고 항목  
  [코드 조각](../ide/code-snippets.md)
-
-
-

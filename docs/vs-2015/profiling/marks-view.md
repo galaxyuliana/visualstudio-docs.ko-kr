@@ -28,7 +28,7 @@ ms.locfileid: "54764926"
   
  보고서에 미리 채워지는 기본 표시는 프로그램의 시작과 프로그램의 끝을 레이블로 지정합니다.  
   
- 자동으로 생성되는 표시의 Windows 카운터 데이터는 이 뷰에도 표시됩니다. 자세한 내용은 [방법: Windows 카운터 데이터 수집](../profiling/how-to-collect-windows-counter-data.md)  
+ 자동으로 생성되는 표시의 Windows 카운터 데이터는 이 뷰에도 표시됩니다. 자세한 내용은 [방법: Windows 카운터 데이터 수집](../profiling/how-to-collect-windows-counter-data.md)을 참조하세요.  
   
  두 표시 사이에 필터를 만들려면 표시를 선택하고 마우스 오른쪽 단추로 클릭한 다음 **표시에 대한 필터 추가** 또는 **타임스탬프에 대한 필터 추가**를 클릭합니다.  
   

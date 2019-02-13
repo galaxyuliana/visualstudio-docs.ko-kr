@@ -1,14 +1,9 @@
 ---
 title: '방법: 성능 데이터 파일 비교 | Microsoft 문서'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vsperf.choosediffbinaries
 helpviewer_keywords:
@@ -18,13 +13,13 @@ ms.assetid: 1905b45d-c6b3-43c8-87b1-1aee734f37f9
 caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: cf80c86f233a40ba0d65d239ae1668d575a66bb2
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: ee0da10a6ac8786666aaf9dc041f6f198cff2d10
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51752616"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799566"
 ---
 # <a name="how-to-compare-performance-data-files"></a>방법: 성능 데이터 파일 비교
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ ms.locfileid: "51752616"
   
  Diff 보고서는 데이터의 테이블 뷰를 제공합니다. 테이블은 델타 또는 기준선으로부터 변경을 표시합니다. 이는 이전 값, 기준 값, 새 분석의 결과 값 간의 차이를 확인하여 계산됩니다.  
   
- 프로파일러 데이터의 비교는 코드의 함수, 응용 프로그램의 모듈, 줄, IP(명령 포인터) 및 형식에 따라 달라질 수 있습니다.  
+ 프로파일러 데이터의 비교는 코드의 함수, 애플리케이션의 모듈, 줄, IP(명령 포인터) 및 형식에 따라 달라질 수 있습니다.  
   
  노이즈를 줄이고, 지정된 크기만큼 변경되지 않은 행의 테이블 뷰에서 임의의 데이터를 필터링하도록 임계값을 설정할 수 있습니다.  
   
@@ -64,6 +59,3 @@ ms.locfileid: "51752616"
 2.  In the **비교할 분석 파일을 선택합니다.** 창에서 **기본 파일** 분석 파일(.vsp 또는 .vsps) 및 **비교 파일**(.vsp 또는 .vsps)을 선택합니다.  
   
 3.  **확인**을 클릭합니다.
-
-
-

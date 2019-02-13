@@ -32,7 +32,7 @@ ms.locfileid: "54778956"
   
  다음 그림과 같이 동시성 시각화 도우미가 CPU 사용률 뷰에 이 증상을 표시할 수 있습니다. 여기서 다중 스레드가 있더라도 애플리케이션은 하나의 논리 코어만 사용합니다.  
   
- 자세한 내용은 MSDN 블로그 웹 사이트에 있는 Hazim Shafi의 [Windows용 병렬 성능 도구](http://go.microsoft.com/fwlink/?LinkID=160569) 블로그에서 "성능 패턴 1: 잠금 경합 식별"을 참조하세요.  
+ 자세한 내용은 MSDN 블로그 웹 사이트에 있는 Hazim Shafi의 [Parallel Performance Tools For Windows](http://go.microsoft.com/fwlink/?LinkID=160569)(Windows용 병렬 성능 도구) 블로그에서 "Performance Pattern 1: Identifying Lock Contention"(성능 패턴 1: 잠금 경합 식별)을 참조하세요.  
   
  ![잠금 경합](../profiling/media/lockcontention-2.png "LockContention_2")  
   

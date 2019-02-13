@@ -1,27 +1,22 @@
 ---
 title: '연습: XAML 디자이너의 데이터 바인딩 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords:
 - VS.XamlDesigner.DataBinding
 ms.assetid: 1a99aeae-c3ef-407d-ba79-b8055489a43d
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 597145da912c8d80508b67f4ff47c901f5ccac1d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 74b628c1c3295cee94435c975f89420fcb097538
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49298768"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802814"
 ---
 # <a name="walkthrough-binding-to-data-in-xaml-designer"></a>연습: XAML 디자이너의 데이터 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
   
 1.  **파일** 메뉴에서 **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
   
-2.  **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 노드를 선택하고, **Windows 바탕 화면** 노드를 펼친 다음, **WPF 응용 프로그램** 템플릿을 선택합니다.  
+2.  **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 노드를 선택하고, **Windows 바탕 화면** 노드를 펼친 다음, **WPF 애플리케이션** 템플릿을 선택합니다.  
   
 3.  **BindingTest** 프로젝트 이름을 지정한 다음 **확인** 단추를 선택합니다.  
   
@@ -105,7 +100,4 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
   
 ## <a name="see-also"></a>참고 항목  
  [XAML 디자이너를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)   
- [NIB: 값 변환기 추가 대화 상자](http://msdn.microsoft.com/en-us/c5f3d110-a541-4b55-8bca-928f77778af8)
-
-
-
+ [NIB: 값 변환기 추가 대화 상자](http://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)
