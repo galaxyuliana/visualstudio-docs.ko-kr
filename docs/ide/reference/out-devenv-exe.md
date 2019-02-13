@@ -1,7 +1,6 @@
 ---
 title: -Out(devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - errors [Visual Studio], builds
@@ -19,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3f060f1f098b3a9a0f9b9939ecde6c7c2b48d946
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 039456c10993199ec2265042aabc0ed5c475ccd9
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55022614"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55954740"
 ---
 # <a name="out-devenvexe"></a>/Out (devenv.exe)
 
@@ -48,7 +47,7 @@ devenv /Out FileName
 
 명령줄 빌드 오류는 **명령** 창 및 **출력** 창의 솔루션 작성기 보기에 표시됩니다. 이 스위치는 무인 빌드의 결과를 보는 데 유용합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 이 예제에서는 `MySolution`을 실행하고 `MyErrorLog.txt` 파일에 오류를 기록합니다.
 

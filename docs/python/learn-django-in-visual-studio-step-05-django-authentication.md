@@ -3,7 +3,6 @@ title: Visual Studio, 5단계, 인증에서 Django 자습서 알아보기
 titleSuffix: ''
 description: Visual Studio 프로젝트 컨텍스트에서 Django 기본 사항을 검토하는 연습 과정으로, Django 웹 프로젝트 템플릿에서 제공하는 인증 기능을 구체적으로 설명합니다.
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
@@ -12,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: f90612c93ee2530f24f7ebb0a019d5ea3704f5d0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 01c37d70fd38ce8e35b1903308773ccf38203170
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54927414"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55955182"
 ---
 # <a name="step-5-authenticate-users-in-django"></a>5단계: Django에서 사용자 인증
 

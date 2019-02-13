@@ -1,7 +1,6 @@
 ---
 title: Blend의 펜 도구 보조 키
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
 author: gewarren
@@ -9,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4239deccfb77bccc2a6f6637d5daf3176e1a3dab
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b43aa4dcb754b2df67b58b09ab3a9920c552acdf
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54948247"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55957561"
 ---
 # <a name="pen-tool-modifier-keys-in-blend"></a>Blend의 펜 도구 보조 키
 다음 표에는 **펜** 도구 ![펜 도구](../designers/media/d514358f-185a-412f-a55d-36633b25dc8a.png)를 사용하여 패스를 만드는 동안 패스를 수정하는 데 사용할 수 있는 바로 가기가 나와 있습니다. **펜** 도구를 사용하여 기존 패스에서 점을 추가 또는 제거하거나 두 개의 기존 패스를 연결할 수 있습니다.

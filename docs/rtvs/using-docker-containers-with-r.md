@@ -2,7 +2,6 @@
 title: R 및 Docker 컨테이너
 description: R에 맞게 Docker 컨테이너를 설정하고 Visual Studio를 사용하여 컨테이너에 연결하는 방법입니다.
 ms.date: 12/04/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -10,12 +9,12 @@ ms.reviewer: karthiknadig
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: aff41dbf0d3f0130c1158806c9420e8edd651fb3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8c5b4278ab50aac96703f03e74c014d29831f22e
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55036513"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55954792"
 ---
 # <a name="use-docker-containers-with-r-tools-for-visual-studio"></a>Visual Studio용 R 도구와 함께 Docker 컨테이너 사용
 

@@ -1,7 +1,6 @@
 ---
 title: devops에 랩 환경 사용
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - lab environment, test lab
@@ -10,12 +9,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 6bf618f8d7f93ca19e788fe8e6e9e1486548fa06
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 35bc798052bac30f76e76983d0a5dc0bdf4f1fa6
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000226"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55956131"
 ---
 # <a name="use-a-lab-environment-for-your-devops"></a>Devops에 랩 환경 사용
 

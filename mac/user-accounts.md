@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 17AB4F31-4921-4B4E-8D9D-95FB84294521
-ms.openlocfilehash: 8ae291054a08a8835d7bf3d1d1df77c1c6eb8519
-ms.sourcegitcommit: 2597236a481afbaf1ad4915743898ee1aee49760
+ms.openlocfilehash: 71233b609f2e68935b71e3044a9b6ec0f59091bb
+ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "43224013"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "55987287"
 ---
 # <a name="user-accounts"></a>사용자 계정
 
@@ -21,4 +21,4 @@ Mac용 Visual Studio를 다운로드하여 설치한 후 Mac용 Visual Studio의
 ## <a name="in-this-section"></a>단원 내용
 
 * [Mac용 Visual Studio에 로그인](signing-in.md)
-* [사용할 수 있는 구독](activation.md)
+* [사용할 수 있는 구독](enable-subscription.md)

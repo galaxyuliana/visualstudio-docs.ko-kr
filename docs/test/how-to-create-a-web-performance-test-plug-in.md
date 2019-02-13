@@ -11,13 +11,12 @@ ms.assetid: a612f2d2-9806-477d-a126-12842f07da6e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 34e9358dbe84f93e107a28298e6657df801ea6f6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6a9b5ec7b0a4231297925ab8b487ec3f529ddaef
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54938947"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55955104"
 ---
 # <a name="how-to-create-a-web-performance-test-plug-in"></a>방법: 웹 성능 테스트 플러그 인 만들기
 
@@ -117,7 +116,7 @@ ms.locfileid: "54938947"
     > 1.  웹 성능 및 부하 테스트 프로젝트에서는 참조에 경고가 표시됩니다. 참조를 제거했다가 플러그 인 DLL에 다시 추가합니다.
     > 2.  테스트 또는 적절한 위치에서 플러그 인을 제거했다가 다시 추가합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 코드에서는 테스트 반복을 나타내는 <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestContext>에 항목을 추가하는 사용자 지정 웹 성능 테스트 플러그 인이 만들어집니다.
 

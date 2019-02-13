@@ -3,7 +3,6 @@ title: Visual Studio 6단계, 설문 조사 프로젝트 템플릿에서 Django 
 titleSuffix: ''
 description: Visual Studio 프로젝트 컨텍스트에서 Django 기본 사항을 검토하는 연습 과정으로, 관리 사용자 지정과 같은 설문 조사 Django 웹 프로젝트 템플릿의 기능을 구체적으로 설명합니다.
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
@@ -12,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: e7b4741bf7b8644182afb666b8683212ab957c56
-ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
+ms.openlocfilehash: a8169dc759091bcc89da64a9676589e473bccf1f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55232028"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55957793"
 ---
 # <a name="step-6-use-the-polls-django-web-project-template"></a>6단계: 설문 조사 Django 웹 프로젝트 템플릿 사용
 

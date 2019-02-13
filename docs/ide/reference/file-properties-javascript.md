@@ -1,7 +1,6 @@
 ---
 title: 파일 속성, JavaScript
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - javascript.project.property.expandedsdknode.fileversion
@@ -26,12 +25,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9fc9832ba7774f58d5f1826e633dfd9bf24ce205
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 684e638d1a2e69d48381964272294999d43c5242
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54946544"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55956768"
 ---
 # <a name="file-properties-javascript"></a>파일 속성, JavaScript
 파일 속성을 사용하여 프로젝트 시스템이 파일에 대해 수행해야 하는 작업을 지정할 수 있습니다. 예를 들어 파일 속성을 설정하여 파일을 패키지에 리소스 파일로 추가해야 하는지 여부를 지정할 수 있습니다.

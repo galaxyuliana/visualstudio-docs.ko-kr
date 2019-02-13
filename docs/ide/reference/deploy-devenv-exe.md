@@ -1,7 +1,6 @@
 ---
 title: -Deploy(devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - Devenv, /Deploy switch
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0eef6420f09157a349658ca232a9e2551476b9d1
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 835891689d376d06bda31b050394ae4e61315a8f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55008480"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55956157"
 ---
 # <a name="deploy-devenvexe"></a>/Deploy (devenv.exe)
 
@@ -61,7 +60,7 @@ devenv SolutionName /Deploy [SolnConfigName [/Project ProjName [/ProjectConfig P
 
 오류를 포함한 빌드에 대한 요약 정보는 **명령** 창 또는 [/Out](out-devenv-exe.md) 스위치로 지정된 로그 파일에 표시할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 이 예제에서는 `MySolution` 내에 있는 `Release` 프로젝트 빌드 구성을 사용하여 `CSharpWinApp` 프로젝트를 배포합니다.
 

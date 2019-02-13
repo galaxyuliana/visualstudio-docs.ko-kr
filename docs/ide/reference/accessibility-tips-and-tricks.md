@@ -2,7 +2,6 @@
 title: Visual Studio의 내게 필요한 옵션 팁과 요령
 description: Visual Studio IDE(통합 개발 환경)가 장애인을 포함하여 모든 사용자에 대해 보다 쉽게 액세스할 수 있도록 도와주는 팁과 요령에 대해 자세히 알아봅니다.
 ms.date: 09/15/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - accessibility [Visual Studio]
@@ -12,12 +11,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 90a9ba0da2ee8c77b66d147c9af5fa560f50f3a0
-ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
+ms.openlocfilehash: 8fddaedca2e1e1728916a2e12ea9d9538081be96
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55484136"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55954051"
 ---
 # <a name="accessibility-tips-and-tricks-for-visual-studio"></a>Visual Studio의 내게 필요한 옵션 팁과 요령
 

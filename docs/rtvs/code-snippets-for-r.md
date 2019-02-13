@@ -2,19 +2,18 @@
 title: R에 대한 코드 조각
 description: Visual Studio의 R용 코드 조각은 임의 길이의 코드 블록을 빠르게 삽입하여 비슷한 코드를 반복해서 다시 입력하지 않도록 도와주는 바로 가기를 제공합니다.
 ms.date: 01/24/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 0f7dbe2322ceedaf057db67b2c56411abb46a7a9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 05a21da94dd643b04cea94b7840ca26d9379cb5a
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54964732"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55956365"
 ---
 # <a name="code-snippets"></a>코드 조각
 
