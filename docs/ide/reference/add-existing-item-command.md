@@ -1,7 +1,6 @@
 ---
 title: 기존 항목 추가 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - project.addexistingitem
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: aaa9784b40b02ba726b1bcc4b82e0708223fb283
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b8ab2ce6e9f1260172bf0ffbf0aede9138a5115f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55039633"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55951568"
 ---
 # <a name="add-existing-item-command"></a>기존 항목 추가 명령
 현재 솔루션에 기존 파일을 추가하고 엽니다.
@@ -45,7 +44,7 @@ File.AddExistingItem filename [/e:editorname]
 ## <a name="remarks"></a>주의
  입력 시 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  이 예제에서는 Form1.frm 파일을 현재 솔루션에 추가합니다.
 
 ```cmd

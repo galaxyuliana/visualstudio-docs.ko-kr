@@ -9,13 +9,12 @@ ms.assetid: b7fae849-0538-40d1-ab35-2bb3a0fe4393
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 81364c4f6cb963d713fc0a63c1f0076268a84b78
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 25e44e9b05a34cbcd245debc87dfbe23c5772a3c
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54964641"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55948929"
 ---
 # <a name="emulate-expected-real-world-usage-of-a-website-or-application-in-a-load-test-using-a-test-mix-model"></a>테스트 조합 모델을 사용하여 부하 테스트에서 웹 사이트 또는 애플리케이션의 예상 실제 사용법 에뮬레이트
 

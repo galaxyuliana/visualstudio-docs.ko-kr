@@ -1,7 +1,6 @@
 ---
 title: 새 항목 추가 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - project.addnewitem
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0568e4c03e53896b21dc725c415bda82da69f487
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2bfede96c889a22b181d46cb85e49147bb2f41aa
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54956911"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55945081"
 ---
 # <a name="add-new-item-command"></a>새 항목 추가 명령
 현재 솔루션에 .htm, .css, .txt 또는 프레임셋 같은 새 솔루션 항목을 추가하고 엽니다.
@@ -54,7 +53,7 @@ File.AddNewItem [filename] [/t:templatename] [/e:editorname]
 /e:"Source Code (text) Editor"
 ```
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  이 예제에서는 새 솔루션 항목인 MyHTMLpg를 현재 솔루션에 추가합니다.
 
 ```cmd
