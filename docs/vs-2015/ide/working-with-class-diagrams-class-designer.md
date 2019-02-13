@@ -1,14 +1,9 @@
 ---
 title: 클래스 다이어그램 사용(클래스 디자이너) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - class diagrams
 - documentation, using class diagrams
@@ -20,13 +15,13 @@ ms.assetid: 37908cb7-f77b-4698-a4f9-3c21e5440fee
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 8bf855566c24e91137d7aaeadeb2c65843eca9e1
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 578fd81c41d2c46130cf80f7e55e71a0d0f196de
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49306711"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54834102"
 ---
 # <a name="working-with-class-diagrams-class-designer"></a>클래스 다이어그램 사용(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,7 +69,4 @@ ms.locfileid: "49306711"
 ## <a name="see-also"></a>참고 항목  
  [형식 및 관계 보기(클래스 디자이너)](../ide/viewing-types-and-relationships-class-designer.md)   
  [방법: 클래스 다이어그램 사용자 지정(클래스 디자이너)](../ide/how-to-customize-class-diagrams-class-designer.md)   
- [방법: 클래스 다이어그램에서 형식 도형 제거(클래스 디자이너)](http://msdn.microsoft.com/en-us/ae41897d-d066-4b8c-bb9b-05436e12ff39)
-
-
-
+ [방법: 클래스 다이어그램에서 형식 도형 제거(클래스 디자이너)](http://msdn.microsoft.com/ae41897d-d066-4b8c-bb9b-05436e12ff39)

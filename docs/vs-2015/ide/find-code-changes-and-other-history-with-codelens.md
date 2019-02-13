@@ -1,25 +1,20 @@
 ---
 title: CodeLens에서 코드 변경 내용 및 기타 기록 찾기 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: f697d7b4-704e-4cac-b13a-bc57d2ff8318
 caps.latest.revision: 134
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: df4b435f791b066afda90ac9f5492a946d7e215c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c8cf042ce5a0b713eccdf9c89b15dcb57cf966ac
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49825675"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54753902"
 ---
 # <a name="find-code-changes-and-other-history-with-codelens"></a>CodeLens에서 코드 변경 내용 및 기타 기록 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,7 +83,7 @@ ms.locfileid: "49825675"
   
  ![CodeLens: TFVC에서 코드에 대한 변경 기록 가져오기](../ide/media/codelenscodechanges.png "CodeLensCodeChanges")  
   
- 기본 기간은 지난 12 개월입니다. 코드가 Team Foundation Server에 저장되는 경우 [TFSConfig 명령](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62) 을 [CodeIndex 명령](../ide/codeindex-command.md) 및 **/indexHistoryPeriod** 플래그와 함께 실행하여 변경할 수 있습니다.  
+ 기본 기간은 지난 12 개월입니다. 코드가 Team Foundation Server에 저장되는 경우 [TFSConfig 명령](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62) 을 [CodeIndex 명령](../ide/codeindex-command.md) 및 **/indexHistoryPeriod** 플래그와 함께 실행하여 변경할 수 있습니다.  
   
  1년 이상 전의 변경 내용을 포함하여 모든 변경 내용에 대한 자세한 기록을 보려면 **모든 파일 변경 내용 표시**를 선택합니다.  
   
@@ -187,9 +182,9 @@ ms.locfileid: "49825675"
   
 -   Visual C# .NET 또는 Visual Basic .NET 코드  
   
--   응용 프로그램 코드에 대한 단위 테스트가 있는 [단위 테스트 프로젝트](../test/unit-test-your-code.md)  
+-   애플리케이션 코드에 대한 단위 테스트가 있는 [단위 테스트 프로젝트](../test/unit-test-your-code.md)  
   
-1.  단위 테스트가 있는 응용 프로그램 코드로 이동합니다.  
+1.  단위 테스트가 있는 애플리케이션 코드로 이동합니다.  
   
 2.  해당 코드에 대한 테스트를 검토합니다(**Alt+3**).  
   
@@ -227,11 +222,11 @@ ms.locfileid: "49825675"
   
 -   CodeLens가 설정되어 있는지 확인합니다. 그렇게 하려면 **도구**, **옵션**, **텍스트 편집기**, **모든 언어**, **CodeLens**로 이동합니다.  
   
--   코드가 TFS에 저장되는 경우 [CodeIndex 명령](../ide/codeindex-command.md) 과 [TFS 구성 명령](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62)을 함께 사용하여 코드 인덱싱이 설정되어 있는지 확인합니다.  
+-   코드가 TFS에 저장되는 경우 [CodeIndex 명령](../ide/codeindex-command.md) 과 [TFS 구성 명령](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)을 함께 사용하여 코드 인덱싱이 설정되어 있는지 확인합니다.  
   
--   TFS 관련 지표는 작업 항목이 코드와 링크되어 있는 경우 및 링크된 작업 항목을 열 권한이 있는 경우에만 나타납니다. [팀 멤버 권한이 있는지 확인합니다.](http://msdn.microsoft.com/en-us/f58805de-ba61-4d09-8f2d-d3ab9662ecfd)  
+-   TFS 관련 지표는 작업 항목이 코드와 링크되어 있는 경우 및 링크된 작업 항목을 열 권한이 있는 경우에만 나타납니다. [팀 멤버 권한이 있는지 확인합니다.](http://msdn.microsoft.com/f58805de-ba61-4d09-8f2d-d3ab9662ecfd)  
   
--   단위 테스트 지표는 응용 프로그램 코드에서 단위 테스트를 하지 않은 경우 나타나지 않습니다. 테스트 상태 지표는 테스트 프로젝트에 자동으로 나타납니다. 응용 프로그램 코드에 단위 테스트가 있지만 테스트 지표가 나타나지 않는 경우 솔루션 빌드를 시도하십시오(**Ctrl + Shift + B**).  
+-   단위 테스트 지표는 애플리케이션 코드에서 단위 테스트를 하지 않은 경우 나타나지 않습니다. 테스트 상태 지표는 테스트 프로젝트에 자동으로 나타납니다. 애플리케이션 코드에 단위 테스트가 있지만 테스트 지표가 나타나지 않는 경우 솔루션 빌드를 시도하십시오(**Ctrl + Shift + B**).  
   
 ### <a name="q-why-dont-i-see-the-work-item-details-for-a-commit"></a>Q: 커밋에 대한 작업 항목 정보가 나타나지 않습니다.  
  **A:** CodeLens가 TFS의 작업 항목을 찾을 수 없기 때문에 이러한 현상이 발생할 수 있습니다. 작업 항목이 포함된 팀 프로젝트에 연결되어 있으며 해당 작업 항목을 볼 수 있는 권한이 있는지 확인하세요. 커밋 설명에 TFS의 작업 항목 ID에 대한 잘못된 정보가 포함된 경우에도 이러한 현상이 발생할 수 있습니다.  
@@ -288,8 +283,4 @@ ms.locfileid: "49825675"
  **A:** **로컬 버전** 화살표는 이 파일의 로컬 버전에 있는 최신 변경 집합을 가리킵니다. 서버에 최신 변경 집합이 있는 경우, 변경 집합을 정렬하는 순서에 따라 **로컬 버전** 화살표의 위 또는 아래에 나타납니다.  
   
 ### <a name="q-can-i-manage-how-codelens-processes-code-to-show-history-and-linked-items"></a>Q: CodeLens가 코드를 처리하여 기록 및 연결된 항목을 표시하는 방법을 관리할 수 있나요?  
- **A:** 예, 코드가 TFS에 있는 경우 [CodeIndex 명령](../ide/codeindex-command.md) 과 [TFS 구성 명령](http://msdn.microsoft.com/en-us/94424190-3b6b-4f33-a6b6-5807f4225b62)을 함께 사용합니다.
-
-
-
-
+ **A:** 예, 코드가 TFS에 있는 경우 [CodeIndex 명령](../ide/codeindex-command.md) 과 [TFS 구성 명령](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)을 함께 사용합니다.

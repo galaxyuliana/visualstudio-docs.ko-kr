@@ -1,25 +1,20 @@
 ---
 title: '2단계: 프로그램 실행 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: b4c8c3788a40941d2cc6fe563af8bd030b2b913d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 689d577f0d8ac626094391be0f3767f441854093
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49242192"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54778567"
 ---
 # <a name="step-2-run-your-program"></a>2단계: 프로그램 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "49242192"
   
 2.  Visual Studio에서 프로그램이 실행되고 **Form1** 창이 표시됩니다. 다음 그림에서는 방금 빌드한 프로그램을 보여 줍니다. 이 프로그램은 현재 실행 중이며, 더 많은 기능이 추가될 예정입니다.  
   
-     ![실행 중인 Windows Form 응용 프로그램 프로그램](../ide/media/express-firstrun.png "Express_FirstRun")  
+     ![실행 중인 Windows Form 애플리케이션 프로그램](../ide/media/express-firstrun.png "Express_FirstRun")  
 실행 중인 Windows Form 응용 프로그램  
   
 3.  Visual Studio IDE(통합 개발 환경)으로 돌아가서 새 도구 모음을 살펴봅니다. 프로그램을 실행하면 추가 단추가 도구 모음에 나타납니다. 이러한 단추를 사용하면 프로그램 중지 및 시작과 같은 작업을 수행할 수 있으며 발생할 수 있는 모든 오류(버그)를 추적할 수 있습니다. 이 예제에서는 프로그램을 시작하고 중지하는 데에만 이를 사용하도록 합니다.  
@@ -66,7 +61,4 @@ ms.locfileid: "49242192"
   
 -   다음 자습서 단계로 이동하려면 [3단계: 폼 속성 설정](../ide/step-3-set-your-form-properties.md)을 참조하세요.  
   
--   이전 자습서 단계로 돌아가려면 [1단계: Windows Forms 응용 프로그램 프로젝트 만들기](../ide/step-1-create-a-windows-forms-application-project.md)를 참조하세요.
-
-
-
+-   이전 자습서 단계로 돌아가려면 [1단계: Windows Forms 애플리케이션 프로젝트 만들기](../ide/step-1-create-a-windows-forms-application-project.md)를 참조하세요.

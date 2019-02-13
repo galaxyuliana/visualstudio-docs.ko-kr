@@ -1,14 +1,9 @@
 ---
 title: 형식 멤버 만들기 및 구성(클래스 디자이너) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - vs.classdetails.method
 - vs.classdetails.property
@@ -34,13 +29,13 @@ ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 93a112fac274921fe2d1075e1a1b9178c408240c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 51e9f831941fff79c42c8e7fc529db3df0d46b0d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49827976"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54795305"
 ---
 # <a name="creating-and-configuring-type-members-class-designer"></a>형식 멤버 만들기 및 구성(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -136,7 +131,7 @@ ms.locfileid: "49827976"
      **참고**: 바로 가기 키를 사용하여 멤버를 만들 수도 있습니다. 자세한 내용은 [클래스 다이어그램 및 클래스 세부 내용 창의 키보드 및 마우스 바로 가기(클래스 디자이너)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md)를 참조하세요.  
   
 ##  <a name="ModifyTypeMembers"></a> 형식 멤버 수정  
- 클래스 디자이너를 사용하여 다이어그램에 표시된 형식의 멤버를 수정할 수 있습니다. 클래스 다이어그램에 표시된 형식의 멤버 중에서 읽기 전용이 아닌 멤버만 수정할 수 있습니다. [읽기 전용 정보 표시(클래스 디자이너)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요. 형식 멤버는 디자인 화면, 속성 창 및 클래스 세부 내용 창에서 바로 편집 기능을 사용하여 수정할 수 있습니다.  
+ 클래스 디자이너를 사용하여 다이어그램에 표시된 형식의 멤버를 수정할 수 있습니다. 클래스 다이어그램에 표시된 형식의 멤버 중에서 읽기 전용이 아닌 멤버만 수정할 수 있습니다. [읽기 전용 정보 표시(클래스 디자이너)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요. 형식 멤버는 디자인 화면, 속성 창 및 클래스 세부 내용 창에서 바로 편집 기능을 사용하여 수정할 수 있습니다.  
   
  클래스 세부 내용 창에 표시된 멤버는 모두 클래스 다이어그램에 있는 형식의 멤버를 나타냅니다. 멤버의 종류로는 메서드, 속성, 필드 및 이벤트 등 4가지가 있습니다.  
   
@@ -268,7 +263,7 @@ ms.locfileid: "49827976"
   
  클래스 세부 내용 창의 모든 셀은 몇 가지 예외를 제외하고 편집이 가능합니다.  
   
-- 예를 들어 형식이 참조 어셈블리에 있는 경우에는 전체 형식이 읽기 전용이 됩니다. [읽기 전용 정보 표시(클래스 디자이너)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요. 클래스 디자이너에서 모양을 선택하면 클래스 세부 내용 창에 해당 모양에 대한 세부 내용이 읽기 전용 상태로 표시됩니다.  
+- 예를 들어 형식이 참조 어셈블리에 있는 경우에는 전체 형식이 읽기 전용이 됩니다. [읽기 전용 정보 표시(클래스 디자이너)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요. 클래스 디자이너에서 모양을 선택하면 클래스 세부 내용 창에 해당 모양에 대한 세부 내용이 읽기 전용 상태로 표시됩니다.  
   
 - 인덱서의 경우 이름은 읽기 전용이고 나머지 형식, 한정자, 요약 등은 편집 가능합니다.  
   

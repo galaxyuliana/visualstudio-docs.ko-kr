@@ -3,10 +3,7 @@ title: Visual Studio 2015 시작 | Microsoft Docs
 titleSuffix: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 f1_keywords:
 - msdnstart
 helpviewer_keywords:
@@ -15,18 +12,18 @@ helpviewer_keywords:
 ms.assetid: ba237712-f8c4-4d13-854b-ab4a16afa309
 caps.latest.revision: 128
 ms.author: gewarren
-manager: crdun
-ms.openlocfilehash: c25afa4447a77c6e8bdeb0abb502235fdba1e203
-ms.sourcegitcommit: f6dd17b0864419083d0a1bf54910023045526437
+manager: jillfra
+ms.openlocfilehash: 4d71c74f54e2ce2a79ffff44d8054c15bd3b4a86
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2018
-ms.locfileid: "53805148"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54835088"
 ---
 # <a name="welcome-to-visual-studio-2015"></a>Visual Studio 2015 시작
 [!INCLUDE[vs2017banner](includes/vs2017banner.md)]
 
-클라우드를 비롯한 다양한 환경에서 장치, 데스크톱 및 웹용으로 유용한 앱을 만드는 데 필요한 모든 기능을 갖춘 Visual Studio를 시작합니다. 단일 IDE에서 iOS, Android 및 Windows용 코드를 작성할 수 있습니다. 유용한 IntelliSense, 쉬운 코드 탐색, 빠른 빌드 및 신속한 배포의 이점을 누려 보세요. Visual Studio를 사용하여 생산성을 높이고 혼자서나 대규모 팀에 속해서 작업을 손쉽게 수행할 수 있습니다.
+클라우드를 비롯한 다양한 환경에서 디바이스, 데스크톱 및 웹용으로 유용한 앱을 만드는 데 필요한 모든 기능을 갖춘 Visual Studio를 시작합니다. 단일 IDE에서 iOS, Android 및 Windows용 코드를 작성할 수 있습니다. 유용한 IntelliSense, 쉬운 코드 탐색, 빠른 빌드 및 신속한 배포의 이점을 누려 보세요. Visual Studio를 사용하여 생산성을 높이고 혼자서나 대규모 팀에 속해서 작업을 손쉽게 수행할 수 있습니다.
 
 > [!NOTE]
 >  [Visual Studio 2015 업데이트 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs)의 릴리스 정보는 여기를 클릭하세요.
@@ -53,17 +50,17 @@ ms.locfileid: "53805148"
 ## <a name="build-apps-for-android-ios-and-windows"></a>Android, iOS 및 Windows용 앱 빌드
  Visual Studio를 사용하여 Android, iOS 및 Windows 디바이스용 앱을 빌드할 수 있습니다. [플랫폼 간 모바일 개발](./cross-platform/cross-platform-mobile-development-in-visual-studio.md)에서 자세한 내용을 알아보세요.
 
- UWP(유니버설 Windows 앱)에 대한 자세한 내용은 [유니버설 Windows 앱](https://dev.windows.com/en-us/windows-apps)을 참조하세요.
+ UWP(유니버설 Windows 앱)에 대한 자세한 내용은 [유니버설 Windows 앱](https://dev.windows.com/windows-apps)을 참조하세요.
 
  앱 요구 사항과 사용하려는 언어에 따라 필요한 도구를 선택합니다.
 
 1.  [Xamarin for Visual Studio](./cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): C#을 사용하는 모든 디바이스용 공용 코드베이스
 
-2.  [Visual Studio 사용 하 여 Apache Cordova](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42): HTML, CSS 및 JavaScript 또는 Typescript에 대 한 기본 공용 코드
+2.  [Apache Cordova with Visual Studio](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42): HTML, CSS 및 JavaScript 또는 Typescript용 공용 코드베이스
 
 3.  [Visual Studio Tools for Unity](./cross-platform/visual-studio-tools-for-unity.md): C#을 사용하는 2D/3D 게임 개발
 
-4.  [플랫폼 간 개발용 c + +](./cross-platform/visual-cpp-for-cross-platform-mobile-development.md): 공유 코드 라이브러리 및 c + + 앱
+4.  [플랫폼 간 개발용 C++](./cross-platform/visual-cpp-for-cross-platform-mobile-development.md): C++를 사용하는 공유 코드 라이브러리 및 앱
 
 5.  [Visual Studio Emulator for Android](./cross-platform/visual-studio-emulator-for-android.md): Android용 Visual Studio 에뮬레이터: IDE에 관계 없이 Android 앱 디버그 및 테스트
 
@@ -72,7 +69,7 @@ ms.locfileid: "53805148"
 
 -   [Azure 모바일 서비스](http://azure.microsoft.com/documentation/services/mobile-services/)
 
--   [Azure 저장소](http://azure.microsoft.com/documentation/services/storage/)
+-   [Azure Storage](http://azure.microsoft.com/documentation/services/storage/)
 
 -   클라우드에 저장된 데이터에 연결하기 위해 자신의 앱에 Office 365 REST API를 통합합니다. 자세한 내용은 [이러한 샘플](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365)(영문)을 참조하세요.
 
@@ -82,7 +79,7 @@ ms.locfileid: "53805148"
 ## <a name="build-test-and-manage-your-code"></a>코드 빌드, 테스트 및 관리
 
 ### <a name="check-in-your-code"></a>코드 체크 인
- 팀에서 작업하는 경우 팀의 모든 구성원이 동일한 코드베이스를 사용하도록 최신 버전의 코드도 공유해야 합니다.  Visual Studio는 Visual Studio Team Services나 Team Foundation Server와 원활하게 통합되어 Git 또는 TFVC(Team Foundation 버전 제어)를 통해 버전 제어를 제공합니다. 로컬 서버를 유지 관리하지 않고 클라우드에 코드를 저장하려면 Visual Studio Team Services를 사용하고, 온-프레미스 서버를 사용하려면 Team Foundation Server를 사용합니다. 코드 프로젝트를 만들 때마다 버전 제어에 추가하는 옵션이 있습니다. 시스템은 사용자의 요구에 가장 적합 한 버전 제어에 대 한에 대해 알아봅니다. [버전 제어 사용](http://msdn.microsoft.com/library/33267cee-fe5f-4aa3-b2cd-6d22ceace314)
+ 팀에서 작업하는 경우 팀의 모든 구성원이 동일한 코드베이스를 사용하도록 최신 버전의 코드도 공유해야 합니다. Visual Studio는 Visual Studio Team Services나 Team Foundation Server와 원활하게 통합되어 Git 또는 TFVC(Team Foundation 버전 제어)를 통해 버전 제어를 제공합니다. 로컬 서버를 유지 관리하지 않고 클라우드에 코드를 저장하려면 Visual Studio Team Services를 사용하고, 온-프레미스 서버를 사용하려면 Team Foundation Server를 사용합니다. 코드 프로젝트를 만들 때마다 버전 제어에 추가하는 옵션이 있습니다. 요구 사항에 가장 적합한 버전 제어에 대해 알아보려면 [버전 제어 사용](http://msdn.microsoft.com/library/33267cee-fe5f-4aa3-b2cd-6d22ceace314)을 참조하세요.
 
 ### <a name="build-your-app"></a>응용 프로그램 빌드
  [로컬로 앱을 빌드](./ide/compiling-and-building-in-visual-studio.md) 하고 올바르게 작동하는지 확인할 수 있습니다. 그런 다음 [디버깅 도구](./debugger/debugging-in-visual-studio.md) 를 사용하여 앱 관련 문제를 해결합니다. 또는 공유 빌드 서버나 클라우드에서 프로젝트를 빌드할 수 있습니다. 팀의 개발자들이 버전 제어에 체크 인한 코드를 빌드하도록 빌드 프로세스를 자동화합니다. 예를 들어 밤마다 또는 코드를 체크 인할 때마다 하나 이상의 프로젝트를 빌드할 수 있습니다.
@@ -99,7 +96,7 @@ ms.locfileid: "53805148"
 
 |||||
 |-|-|-|-|
-|[Visual Studio 2015의 새로운 기능](./what-s-new-in-visual-studio-2015.md)|[Visual C#의 새로운 기능](http://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[.NET Framework 4.6의 새로운 기능](http://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[ALM의 새로운 기능](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|
+|[Visual Studio 2015의 새로운 기능](./what-s-new-in-visual-studio-2015.md)|[Visual C#의 새로운 기능](http://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[.NET Framework 4.6의 새로운 기능](http://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[ALM의 새로운 기능](http://msdn.microsoft.com/54b98a53-6083-4303-869a-8063d8fae938)|
 |[C++의 새로운 기능](http://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7)|[Visual Basic의 새로운 기능](http://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[JavaScript의 새로운 기능](/visualstudio/scripting-docs/javascript/what-s-new-in-javascript)||
 |[Python](./python/getting-started-with-python.md)||||
 

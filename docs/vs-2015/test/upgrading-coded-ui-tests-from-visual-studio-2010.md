@@ -2,18 +2,18 @@
 title: 코딩 된 UI 테스트 업그레이드
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.technology: vs-devops-test
+ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 11232a83-73ea-46bd-bc0c-46f74f6e3a42
 caps.latest.revision: 35
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 664eeb618b92b7d3181a223a531aac02e046ab0f
-ms.sourcegitcommit: 708f77071c73c95d212645b00fa943d45d35361b
+manager: jillfra
+ms.openlocfilehash: 54ccd9ad0cfefe33be7c51d44e9adb6c15717a7a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53055052"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54803629"
 ---
 # <a name="upgrading-coded-ui-tests-from-visual-studio-2010"></a>Visual Studio 2010에서 코딩된 UI 테스트 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "53055052"
 -   Visual Studio Enterprise
 
 > [!NOTE]
->  Visual Studio에는 둘 이상의 테스트 프로젝트 형식이 있습니다. 코딩된 UI 테스트를 새로 만드는 경우 코딩된 UI 테스트 프로젝트 형식으로 만들어집니다. 자세한 내용은 [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/en-us/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)를 참조하세요.
+>  Visual Studio에는 둘 이상의 테스트 프로젝트 형식이 있습니다. 코딩된 UI 테스트를 새로 만드는 경우 코딩된 UI 테스트 프로젝트 형식으로 만들어집니다. 자세한 내용은 [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)를 참조하세요.
 
 > [!WARNING]
 >  코딩된 UI 테스트를 포함하는[!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 테스트 프로젝트는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 에서 열거나 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 와 함께 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 여는 경우 다시 작성해야 합니다.
@@ -41,8 +41,8 @@ ms.locfileid: "53055052"
 
 |코딩된 UI 기능|문제|솔루션|
 |----------------------------|-----------|--------------|
-|[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서는 Silverlight UI 테스트가 지원되지 않습니다.|**빌드가 실패합니다.**<br /><br /> [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 기능 팩 2가 있고 Silverlight 응용 프로그램에 대한 코딩된 UI 테스트 프로젝트를 만든 경우 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 이러한 프로젝트를 열 수 없습니다.|이러한 프로젝트는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 기능 팩 2에서만 관리하는 것이 좋습니다.|
-|[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서는 Firefox UI 테스트가 지원되지 않습니다.|**빌드는 성공하지만 테스트 실행이 실패합니다.**<br /><br /> [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 기능 팩 2가 있고 Firefox에서 웹 응용 프로그램에 대한 코딩된 UI 테스트 프로젝트를 만든 경우 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 이러한 프로젝트를 열 수 없습니다.|이러한 프로젝트는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 기능 팩 2에서만 관리하는 것이 좋습니다.|
+|[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서는 Silverlight UI 테스트가 지원되지 않습니다.|**빌드가 실패합니다.**<br /><br /> [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 기능 팩 2가 있고 Silverlight 애플리케이션에 대한 코딩된 UI 테스트 프로젝트를 만든 경우 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 이러한 프로젝트를 열 수 없습니다.|이러한 프로젝트는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 기능 팩 2에서만 관리하는 것이 좋습니다.|
+|[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서는 Firefox UI 테스트가 지원되지 않습니다.|**빌드는 성공하지만 테스트 실행이 실패합니다.**<br /><br /> [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 기능 팩 2가 있고 Firefox에서 웹 애플리케이션에 대한 코딩된 UI 테스트 프로젝트를 만든 경우 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 이러한 프로젝트를 열 수 없습니다.|이러한 프로젝트는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 기능 팩 2에서만 관리하는 것이 좋습니다.|
 |새 UI 코드 테스트 API가 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]추가되었습니다.|**빌드가 실패합니다.**<br /><br /> [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 새 UI 테스트 API를 사용하여 코딩된 UI 테스트를 만드는 경우 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)]에서 이러한 프로젝트를 열 수 없습니다.|새 API를 사용하는 프로젝트는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서만 관리해야 합니다.|
 |[!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)]에서 참조가 csproj 파일의 'Choose' 문 내부에 추가되었습니다. [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서는 코딩된 UI 테스트 어셈블리 참조를 포함하는 피드백 대상 파일이 사용됩니다.|[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] (또는 SP1)에서 만든, 코딩된 UI 테스트를 포함하지 않는 테스트 프로젝트에 코딩된 UI 테스트를 추가할 수 없습니다.<br /><br /> 복구 프로세스에서 대상 파일 및 Choose 문을 추가합니다. 코딩된 UI 테스트가 테스트 프로젝트에 없는 경우 프로젝트가 복구됨으로 표시되면 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 코딩된 UI 테스트를 추가할 때 적절한 참조가 추가되지 않습니다.|동일한 솔루션에서 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 를 사용하여 새 테스트 프로젝트를 만들고 새 코딩된 UI 테스트를 추가해야 합니다. 또는 코딩된 UI 테스트를 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1의 테스트 프로젝트에 추가하고 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 해당 프로젝트를 열 수 있습니다.|
 
@@ -57,11 +57,11 @@ ms.locfileid: "53055052"
 
   업데이트에는 다음과 같은 문제에 대한 수정 사항도 포함되어 있습니다.
 
-- **코드 검사** Visual Studio 2012에서 만든 코드 검사 파일 (.coverage) 열 수 없습니다 [!INCLUDE[vs2010](../includes/vs2010-md.md)] SP1.
+- **코드 검사:** Visual Studio 2012에서 만든 코드 검사 파일(.coverage)은 [!INCLUDE[vs2010](../includes/vs2010-md.md)] SP1에서 열 수 없습니다.
 
-- **방치 테스트 아티팩트:** 팀에 Team Foundation Server (TFS) 2010에서 잘못 된 사용자에 할당 된 테스트 아티팩트가 있습니다. 예를 들어 사용자가 퇴사했지만 이 사용자에게 할당된 테스트 사례가 계속 있습니다. TFS 2010을 TFS 2012로 업그레이드합니다. [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010을 사용하여 업그레이드된 TFS 서버에 연결합니다. [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010을 사용하여 TFS 사용자에게 테스트 아티팩트를 할당할 수 없습니다.
+- **잘못 할당된 테스트 아티팩트:** TFS(Team Foundation Server) 2010에서 잘못된 사용자에게 할당된 테스트 아티팩트가 팀에 있습니다. 예를 들어 사용자가 퇴사했지만 이 사용자에게 할당된 테스트 사례가 계속 있습니다. TFS 2010을 TFS 2012로 업그레이드합니다. [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010을 사용하여 업그레이드된 TFS 서버에 연결합니다. [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010을 사용하여 TFS 사용자에게 테스트 아티팩트를 할당할 수 없습니다.
 
-- 부하 테스트 네트워크 에뮬레이터 드라이버로 컴퓨터에서 로컬 영역 네트워크 (LAN) 프로필이 아닌 다른 네트워크 형식과 함께 부하 테스트를 실행 하면이 Windows 8을 실행 하면 운영 체제가 충돌 합니다. 자세한 내용은 [기술 자료 문서 2736182](http://support.microsoft.com/kb/2736182)를 참조하세요.
+- **부하 테스트:** Windows 8을 실행하는 컴퓨터에서 LAN(Local Area Network) 프로필이 아닌 다른 네트워크 형식과 함께 부하 테스트를 실행하는 경우 네트워크 에뮬레이터 드라이버로 인해 운영 체제가 충돌합니다. 자세한 내용은 [기술 자료 문서 2736182](http://support.microsoft.com/kb/2736182)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [포팅, 마이그레이션 및 Visual Studio 프로젝트를 업그레이드](../porting/porting-migrating-and-upgrading-visual-studio-projects.md) [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/en-us/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52) [UI 자동화를 사용 하 여 코드를 테스트 하려면](../test/use-ui-automation-to-test-your-code.md) [생성을 코딩 된 UI 테스트에서 기존 작업 기록](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497) [코딩 된 UI 테스트 및 작업 기록에 대 한 구성 및 플랫폼 지원](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+ [포팅, 마이그레이션 및 Visual Studio 프로젝트를 업그레이드](../porting/porting-migrating-and-upgrading-visual-studio-projects.md) [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52) [UI 자동화를 사용 하 여 코드를 테스트 하려면](../test/use-ui-automation-to-test-your-code.md) [생성을 코딩 된 UI 테스트에서 기존 작업 기록](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497) [코딩 된 UI 테스트 및 작업 기록에 대 한 구성 및 플랫폼 지원](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
