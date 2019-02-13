@@ -1,7 +1,6 @@
 ---
 title: 옵션, 텍스트 편집기, C/C++, 고급
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.C\C++.Advanced
@@ -15,12 +14,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 7e5b78f6642cf458e9099d421d7b4a20540ab8c5
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 6136c9c1cd2bb169c08fc314dcd7cb327d143125
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53903047"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55933966"
 ---
 # <a name="options-text-editor-cc-advanced"></a>옵션, 텍스트 편집기, C/C++, 고급
 이러한 옵션을 변경하면 C 또는 C++에서 프로그래밍할 때 IntelliSense 및 검색 데이터베이스 관련 동작을 변경할 수 있습니다.

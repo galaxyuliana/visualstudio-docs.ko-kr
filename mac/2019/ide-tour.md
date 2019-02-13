@@ -3,14 +3,15 @@ title: Mac용 Visual Studio 둘러보기
 description: Mac용 Visual Studio에서는 iOS, Android, Mac, Xamarin.Forms용 Xamarin 프로젝트와 ASP.NET Core 웹 사이트를 비롯하여 macOS에서 .NET 애플리케이션을 빌드하기 위한 통합 개발 환경을 제공합니다.
 author: conceptdev
 ms.author: crdun
-ms.date: 11/03/2018
+ms.date: 02/07/2019
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
-ms.openlocfilehash: 54b3c3ac265f00ba0fb5a9d95e65ed3913eb5c9c
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.custom: video
+ms.openlocfilehash: 2a5b60496a53c35bb67e5cd19d6059212e22ccfd
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54315841"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55911782"
 ---
 # <a name="visual-studio-2019-for-mac-preview-tour"></a>Mac용 Visual Studio 2019 미리 보기 둘러보기
 
@@ -107,6 +108,10 @@ Visual Studio에서 버전 제어를 사용하는 방법에 대한 자세한 내
 
 - [Mac용 Visual Studio 설치](installation.md)
 - [사용 가능한 워크로드 검토](/visualstudio/mac/workloads/)
+
+## <a name="related-video"></a>관련 동영상
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Overview/player]
 
 ## <a name="see-also"></a>참고 항목
 

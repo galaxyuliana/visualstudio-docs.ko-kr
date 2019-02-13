@@ -1,7 +1,6 @@
 ---
 title: 새 파일 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - file.newfile
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c6ccf2d50a0e6c6319da30be09df2b0573d0ce8a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9d6707d2e9ed8e001762939cb08ffee58f1c1cdc
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54937615"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55930521"
 ---
 # <a name="new-file-command"></a>새 파일 명령
 새 파일을 만들고 엽니다. 파일은 기타 파일 폴더 아래에 나타납니다.
@@ -62,7 +61,7 @@ File.NewFile [filename] [/t:templatename] [/editor:editorname]
 /e:"Source Code (text) Editor"
 ```
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  이 예제에서는 “test1.htm”이라는 새 웹 페이지를 만들고 소스 코드 편집기에서 엽니다.
 
 ```cmd

@@ -1,7 +1,6 @@
 ---
 title: -Project(devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
 - /Project Devenv switch
@@ -17,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3dd1a55c687ebd5e6997310b54d6622ed4ddb730
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5fe7ec9fe8734d17868bee6a108d447729e4167f
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55039503"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55970701"
 ---
 # <a name="project-devenvexe"></a>/Project (devenv.exe)
 
@@ -68,7 +67,7 @@ devenv SolutionName {/Build|/Clean|/Deploy|/Rebuild} [SolnConfigName [/Project P
 
 - 오류를 포함한 빌드에 대한 요약 정보는 **명령** 창 또는 `/Out` 스위치로 지정된 로그 파일에 표시할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 이 예제에서는 `MySolution` 내에 있는 `Debug` 프로젝트 빌드 구성을 사용하여 `CSharpWinApp` 프로젝트를 빌드합니다.
 

@@ -2,19 +2,18 @@
 title: R Markdown
 description: Visual Studio에서 R Markdown 문서를 만들어 고품질 보고서, 프레젠테이션 및 대시보드를 생성하는 방법입니다.
 ms.date: 11/16/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 3a15899d561088ee9911cb08eaa4f5887b996a3e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: df723845fe99b32cd41231353142e0f03b667977
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000131"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55941402"
 ---
 # <a name="create-r-markdown-documents"></a>R Markdown 문서 만들기
 

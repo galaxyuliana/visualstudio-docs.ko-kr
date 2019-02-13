@@ -2,7 +2,6 @@
 title: Microsoft의 내게 필요한 옵션 제품 및 서비스
 description: 장애가 있는 사용자를 포함하여 모든 사용자가 운영 체제, 프로그램 및 애플리케이션에 더욱 쉽게 액세스할 수 있도록 하는 Microsoft의 제품 및 서비스에 대해 자세히 알아봅니다.
 ms.date: 08/22/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - TTY/TDD services
@@ -20,12 +19,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5eb85431916a844724e7bfd4b69a6d269045db5a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2a5b610a268344946390c66a5c6cc34ae0dc3c4d
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55034560"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55932094"
 ---
 # <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft의 내게 필요한 옵션 제품 및 서비스
 

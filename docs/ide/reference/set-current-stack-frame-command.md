@@ -1,7 +1,6 @@
 ---
 title: 현재 스택 프레임 설정 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - debug.setcurrentstackframe
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 451a989729e18338ae3bc7e0b615b256ab806664
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9eea69dc4d2931f66d4c6769667e23bdfb4eecf1
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54924060"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55938292"
 ---
 # <a name="set-current-stack-frame-command"></a>현재 스택 프레임 설정 명령
 특정 스택 프레임을 설정할 수 있습니다.
@@ -35,7 +34,7 @@ Debug.SetCurrentStackFrame index
 
  필수 요소. 해당 인덱스로 스택 프레임을 선택합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```cmd
 >Debug.SetCurrentStackFrame 1
