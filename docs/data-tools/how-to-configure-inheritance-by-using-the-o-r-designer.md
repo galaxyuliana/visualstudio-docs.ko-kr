@@ -5,23 +5,23 @@ ms.topic: conceptual
 ms.assetid: e594af12-e777-434a-bc08-7dd2dac84cdc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 99f353da4b6269ebf9fac425a12dfce5b5917df6
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: 2a68101b6090a20526088309a441956a68e875e9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "53923759"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55014668"
 ---
 # <a name="how-to-configure-inheritance-by-using-the-or-designer"></a>방법: O/R 디자이너를 사용하여 상속 구성
 합니다 **Object Relational Designer** (**O/R 디자이너**) 관계형 시스템에서 주로 구현 되는 단일 테이블 상속 개념을 지원 합니다. 단일 테이블 상속에서는 부모 정보와 자식 정보에 대한 필드를 모두 포함하는 데이터베이스 테이블이 하나 있습니다. 관계형 데이터의 경우 판별자 열에는 해당 레코드가 어느 클래스에 속해 있는지를 판별하는 값이 포함됩니다.
 
 예를 들어 한 `Persons` 회사에 고용 모든 사람들을 포함 하는 테이블입니다. 어떤 사람들은 사원이고 어떤 사람들은 관리자입니다. 합니다 `Persons` 인 열을 포함 하는 테이블 `EmployeeType` 직원에 대 한 관리자 및 값 2에 대 한 1의 값이 있는,이 판별자 열입니다. 이 시나리오에서는 직원 서브클래스를 만든 후 `EmployeeType` 값이 2인 레코드로만 클래스를 채울 수 있습니다. 각 클래스에서 적용되지 않는 열은 제거할 수도 있습니다.
 
-상속을 사용하고 관계형 데이터에 대응하는 개체 모델을 만드는 것은 조금 복잡할 수 있습니다. 다음 절차에서는 **O/R 디자이너**를 사용하여 상속을 구성하는 데 필요한 단계를 요약한 것입니다. 기존 테이블 및 열을 참조 하지 않고 일반 단계를 따르는 것은 어려울 수 있도록 데이터를 사용 하는 연습이 제공 됩니다. 사용 하 여 상속을 구성 하는 것에 대 한 자세한 단계별 지침은 **O/R 디자이너**를 참조 하세요 [연습: 단일 테이블 상속 (O/R 디자이너)를 사용 하 여 만드는 LINQ to SQL 클래스](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)합니다.
+상속을 사용하고 관계형 데이터에 대응하는 개체 모델을 만드는 것은 조금 복잡할 수 있습니다. 다음 절차에서는 **O/R 디자이너**를 사용하여 상속을 구성하는 데 필요한 단계를 요약한 것입니다. 기존 테이블 및 열을 참조 하지 않고 일반 단계를 따르는 것은 어려울 수 있도록 데이터를 사용 하는 연습이 제공 됩니다. 사용 하 여 상속을 구성 하는 것에 대 한 자세한 단계별 지침에 대해서는 **O/R 디자이너**를 참조 [연습: 단일 테이블 상속을 사용하여 LINQ to SQL 클래스 만들기(O/R 디자이너)
 
 ## <a name="to-create-inherited-data-classes"></a>상속된 데이터 클래스를 만들려면
 
