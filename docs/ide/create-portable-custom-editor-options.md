@@ -7,13 +7,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: f2043fb01a67a916ebf13fada7c03111c7a80510
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 259d1c3ca0d86125e0b7c59c39851c2bb2f20b83
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55027115"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55953050"
 ---
 # <a name="create-portable-custom-editor-settings-with-editorconfig"></a>EditorConfig를 사용하여 휴대용, 사용자 지정 편집기 설정 만들기
 
@@ -124,7 +123,7 @@ EditorConfig 파일을 편집한 후 새 설정을 적용하려면 코드 파일
 
 ![EditorConfig 언어 서비스 확장을 사용한 IntelliSense](media/editorconfig-intellisense.png)
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 예제에서는 *.editorconfig* 파일을 프로젝트에 추가하기 전과 후의 C# 코드 조각 들여쓰기 상태를 보여줍니다. Visual Studio 텍스트 편집기에 대한 **옵션** 대화 상자의 **탭** 설정은 **Tab** 키를 누를 때 공백 문자를 생성하도록 설정되어 있습니다.
 

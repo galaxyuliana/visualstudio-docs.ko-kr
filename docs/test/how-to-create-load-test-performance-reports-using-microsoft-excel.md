@@ -9,13 +9,12 @@ ms.assetid: b87fb196-9973-4512-a924-088788def4ea
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
-ms.openlocfilehash: 30f071297769ed2cc5a9b92f79a27910e6b3108e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fb820ccc72e0070f947e362def1da137d19d8494
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54946319"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55955598"
 ---
 # <a name="how-to-create-load-test-performance-reports-using-microsoft-excel"></a>방법: Microsoft Excel을 사용하여 부하 테스트 성능 보고서 만들기
 

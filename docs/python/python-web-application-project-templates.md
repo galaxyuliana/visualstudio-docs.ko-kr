@@ -2,7 +2,6 @@
 title: Python용 웹 애플리케이션 템플릿
 description: Visual Studio는 Bottle, Flask 및 Django 프레임워크를 사용하는 Python 웹 애플리케이션용 템플릿을 제공합니다. 지원에는 디버깅 구성 및 Azure App Service에 게시하는 것이 포함됩니다.
 ms.date: 01/28/2019
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 214db7bcc2dca01917228598f2103a5bd90bbc37
-ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
+ms.openlocfilehash: 81684f8069189f6ee3deed48d9f2a6718b01d7b4
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55231716"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55957902"
 ---
 # <a name="python-web-application-project-templates"></a>Python 웹 애플리케이션 프로젝트 템플릿
 
