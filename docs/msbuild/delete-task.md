@@ -18,44 +18,44 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b36b2c2a4a4d59426b8ccdd258a0a879ba50a1e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0893ded1cd2eb40cc6004f90e29e0765ff48ca6a
+ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54982249"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55853800"
 ---
 # <a name="delete-task"></a>Delete 작업
-지정한 파일을 삭제합니다.  
-  
-## <a name="parameters"></a>매개 변수  
- 다음 표에서는 `Delete` 작업의 매개 변수에 대해 설명합니다.  
-  
-|매개 변수|설명|  
-|---------------|-----------------|  
-|`DeletedFiles`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 삭제된 파일을 지정합니다.|  
-|`Files`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 삭제할 파일을 지정합니다.|  
-|`TreatErrorsAsWarnings`|선택적 `Boolean` 매개 변수<br /><br /> `true`이면 오류가 경고로 기록됩니다. 기본값은 `false`입니다.|  
-  
-## <a name="remarks"></a>주의  
- 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는 파일 *MyApp.pdb*를 삭제합니다.  
-  
-```xml  
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  
-    <PropertyGroup>  
-        <AppName>MyApp</AppName>  
-    </PropertyGroup>  
-  
-    <Target Name="DeleteFiles">  
-        <Delete Files="$(AppName).pdb" />  
-    </Target>  
-</Project>  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [작업](../msbuild/msbuild-tasks.md)   
- [작업 참조](../msbuild/msbuild-task-reference.md)
+지정한 파일을 삭제합니다.
+
+## <a name="parameters"></a>매개 변수
+다음 표에서는 `Delete` 작업의 매개 변수에 대해 설명합니다.
+
+|매개 변수|설명|
+|---------------|-----------------|
+|`DeletedFiles`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 삭제된 파일을 지정합니다.|
+|`Files`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 삭제할 파일을 지정합니다.|
+|`TreatErrorsAsWarnings`|선택적 `Boolean` 매개 변수<br /><br /> `true`이면 오류가 경고로 기록됩니다. 기본값은 `false`입니다.|
+
+## <a name="remarks"></a>주의
+이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
+
+## <a name="example"></a>예
+다음 예제에서는 파일 *MyApp.pdb*를 삭제합니다.
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <AppName>MyApp</AppName>
+    </PropertyGroup>
+
+    <Target Name="DeleteFiles">
+        <Delete Files="$(AppName).pdb" />
+    </Target>
+</Project>
+```
+
+## <a name="see-also"></a>참고 항목
+[작업](../msbuild/msbuild-tasks.md)  
+[작업 참조](../msbuild/msbuild-task-reference.md)

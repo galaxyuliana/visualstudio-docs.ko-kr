@@ -2,19 +2,18 @@
 title: R 코드 편집
 description: Visual Studio는 모든 기능과 확장 사용 기능을 유지하면서 R에 맞게 조정된 편집 환경을 제공합니다.
 ms.date: 11/05/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 326627f16bb431b582666cccafb6a511cf815718
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2ec13113d8b7707c404a8af9788dacc98b12bb42
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54918604"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55921239"
 ---
 # <a name="edit-r-code-in-visual-studio"></a>Visual Studio에서 R 코드 편집
 

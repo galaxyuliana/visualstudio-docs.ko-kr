@@ -1,7 +1,6 @@
 ---
 title: 옵션, 텍스트 편집기, 기본(VB), 고급
 ms.date: 01/16/2019
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Visual_Basic.Editor
@@ -19,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ccf0e8d76aeaf1f6982d7b776abfd32609e1b3e1
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8a7ea9c2efd6a204932e24de0ef250ba143b8b34
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54998263"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55925464"
 ---
 # <a name="options-text-editor-basic-visual-basic-advanced"></a>옵션, 텍스트 편집기, 기본(Visual Basic), 고급
 **옵션**(**도구** 메뉴), **텍스트 편집기**의 **Basic** 폴더에 있는 **VB 관련** 속성 페이지 대화 상자에는 다음 속성이 포함되어 있습니다.

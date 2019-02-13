@@ -2,7 +2,6 @@
 title: 단위 테스트 Python 코드
 description: Visual Studio에서 Python 코드에 대한 단위 테스트를 설정하면 테스트 탐색기 기능을 최대한 활용하여 테스트를 검색, 실행 및 디버그할 수 있습니다.
 ms.date: 11/12/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 76cdaadc8258acd3ed0ea87b69a6446b4ad920df
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3290c091cd406bdf21aa841fc6148c9c2f6cd5b0
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54929194"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155983"
 ---
 # <a name="set-up-unit-testing-for-python-code"></a>Python 코드에 대해 유닛 테스트 설정
 
@@ -25,10 +24,6 @@ ms.locfileid: "54929194"
 Python은 단위 테스트를 광범위하게 사용하여 프로그램을 설계하는 동안 시나리오를 검증합니다. Visual Studio의 Python 지원에는 테스트를 별도로 실행할 필요 없이 개발 프로세스 컨텍스트 내에서 단위 테스트 검색, 실행, 디버깅이 포함됩니다.
 
 이 문서에서는 Visual Studio에서 Python을 사용하여 유닛 테스트를 수행하는 기능에 대해 간략히 설명합니다. 일반적인 단위 테스트에 대한 자세한 내용은 [코드 단위 테스트](../test/unit-test-your-code.md)를 참조하세요.
-
-|   |   |
-|---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | Python의 유닛 테스트에 대한 [비디오(Microsoft Virtual Academy)를 시청](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Testing-Python-hb46k6LWE_405918567)하세요(2분 31초). |
 
 ## <a name="discover-and-view-tests"></a>테스트 검색 및 보기
 

@@ -1,8 +1,7 @@
 ---
 title: Python 대화형 창(REPL)
 description: Visual Studio에서 빠른 Python 코드 개발을 위해 대화형 창(REPL)을 사용합니다.
-ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
+ms.date: 02/11/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 601527ee9fadb3ac9bda196df71ac75501635e9e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: aa223bc4e63d5672feb6d518bc8df534f3162da0
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54992388"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155658"
 ---
 # <a name="work-with-the-python-interactive-window"></a>Python 대화형 창 작업
 
@@ -36,10 +35,6 @@ Visual Studio에는 선택 가능한 다양한 Python REPL 모드가 있습니�
 이 문서에서는 **표준** 및 **디버그** REPL 모드를 설명합니다. IPython 모드에 대한 자세한 내용은 [IPython REPL 사용](interactive-repl-ipython.md)을 참조하세요.
 
 **Ctrl**+**Enter** 등의 편집기 조작을 포함하여 예제를 사용한 자세한 연습을 보려면 [자습서 3단계: 대화형 REPL 창 사용](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)을 참조하세요.
-
-|   |   |
-|---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | **대화형** 창에 대한 [비디오(Microsoft Virtual Academy)를 시청](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Python-Interactive-Window-gJYKY5LWE_4605918567)하세요(2분 22초).|
 
 ## <a name="open-an-interactive-window"></a>대화형 창 열기
 

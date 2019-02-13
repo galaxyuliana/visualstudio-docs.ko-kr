@@ -1,7 +1,6 @@
 ---
 title: 여러 UI 맵이 포함된 대형 애플리케이션 테스트
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
 - coded UI tests, multiple UI maps
@@ -11,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b0fa21c56b3d4f09d73426cc68227cf72484299b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5bebc8581ead00eeb6b28c2c45f4dcfe991a9e1a
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54996417"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55918155"
 ---
 # <a name="test-a-large-application-with-multiple-ui-maps"></a>여러 UI 맵이 포함된 대형 애플리케이션 테스트
 
@@ -80,7 +79,7 @@ UI 맵 파일을 여러 개 사용하면 다음과 같은 이점을 얻을 수 �
 
    이러한 영향을 최소화하려면 `CopyFrom()` 메서드를 사용하여 해당 UI 맵의 새 최상위 창이 주 최상위 창과 동일한지 확인할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 예제는 다양한 UI 맵에서 생성된 클래스로 표현되는 각 구성 요소 및 해당 자식 컨트롤에 액세스할 수 있는 유틸리티 클래스의 일부입니다.
 

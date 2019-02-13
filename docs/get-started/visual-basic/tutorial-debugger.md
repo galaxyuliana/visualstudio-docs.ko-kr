@@ -15,20 +15,16 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8bcdf55e8e28c479f611d9cea34d57d29249e13b
-ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
+ms.openlocfilehash: dc450217dc6b0055a14cccd02c471329870a74ac
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55424462"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155530"
 ---
 # <a name="tutorial-learn-to-debug-visual-basic-code-using-visual-studio"></a>자습서: Visual Studio를 사용하여 Visual Basic 코드를 디버그하는 방법 알아보기
 
 이 문서에서는 단계별 연습을 통해 Visual Studio 디버거의 기능을 소개합니다. 디버거 기능을 개략적으로 살펴보려면 [디버거 소개](../../debugger/debugger-feature-tour.md)를 참조하세요. *애플리케이션을 디버그*하는 경우는 일반적으로 디버거가 연결된 상태에서 애플리케이션을 실행하고 있음을 의미합니다. 이렇게 하면 디버거가 실행되는 동안 코드에서 수행하는 작업을 확인할 수 있는 여러 가지 방법이 제공됩니다. 코드를 단계별로 실행하고, 변수에 저장된 값을 살펴보고, 변수에 대한 조사식을 설정하여 값이 변경되는 경우를 확인하며, 코드의 실행 경로를 검사하고, 코드의 분기가 실행되는지 등을 확인할 수 있습니다. 코드를 처음으로 디버그하려고 하는 경우 이 문서를 계속 진행하기 전에 먼저 [완전 초보자를 위한 디버깅](../../debugger/debugging-absolute-beginners.md)을 참조하는 것이 좋습니다.
-
-| | |
-|---------|---------|
-| ![비디오에 대한 비디오 카메라 아이콘](../../install/media/video-icon.png "비디오 보기") | 비슷한 단계를 보여 주는 [디버깅에 대한 비디오를 시청하세요](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171). |
 
 이 자습서에서 다음을 수행합니다.
 

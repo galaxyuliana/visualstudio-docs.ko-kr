@@ -3,7 +3,6 @@ title: Visual Studio 5단계, 설문 조사 프로젝트 템플릿에서 Flask �
 titleSuffix: ''
 description: Visual Studio 프로젝트 컨텍스트에서 Flask 기본 사항을 검토하는 연습 과정으로, 특히 설문 조사 Flask 웹 프로젝트 및 설문 조사 Flask/Jadek 웹 프로젝트 템플릿의 기능을 구체적으로 설명합니다.
 ms.date: 01/07/2019
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
@@ -12,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 2b265224198cff87f808a946d4fa1397ec1db0e7
-ms.sourcegitcommit: a916ce1eec19d49f060146f7dd5b65f3925158dd
+ms.openlocfilehash: 38b77b4461303cd4bf21b98c63c1ae0b93a4cdc6
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55231924"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55913394"
 ---
 # <a name="step-5-use-the-polls-flask-web-project-template"></a>5단계: 설문 조사 Flask 웹 프로젝트 템플릿 사용
 

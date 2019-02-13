@@ -2,7 +2,6 @@
 title: Python 설치 지원
 description: 옵션 및 설치 위치를 포함하여 Visual Studio 2017, 2015, 2013, 2012 및 2010에서 PTVS(Visual Studio용 Python 도구)를 설치하는 방법입니다.
 ms.date: 12/06/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 31fc5a4ffd9f6c973597e59bac6c89823b30d80b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5a74c5992699fa321839c671f527c513ae2b9291
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54991179"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155489"
 ---
 # <a name="how-to-install-python-support-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 지원 설치 방법
 
@@ -69,10 +68,6 @@ Visual Studio용 Python 지원(Visual Studio용 Python 도구 또는 PTVS라고�
 1. 설치가 끝나면 설치 관리자는 Visual Studio를 수정, 실행, 복구 또는 제거하는 옵션을 제공합니다. **수정** 단추는 설치된 구성 요소의 Visual Studio에 대한 업데이트를 사용할 수 있으면 **업데이트**로 변경됩니다. (**수정** 옵션은 드롭다운 메뉴에서 사용할 수 있습니다.) "Visual Studio"를 검색하여 Windows **시작** 메뉴에서 Visual Studio 및 설치 관리자를 시작할 수도 있습니다.
 
     ![설치 관리자에서 Visual Studio 시작, 수정 또는 제거](media/installation-vs-launch.png)
-
-|   |   |
-|---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | Visual Studio에서 Python 지원 설치에 대한 [비디오(Microsoft Virtual Academy)를 시청](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567)하세요.|
 
 ### <a name="troubleshooting"></a>문제 해결
 

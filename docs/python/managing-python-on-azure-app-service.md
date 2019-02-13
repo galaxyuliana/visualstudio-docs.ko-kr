@@ -2,7 +2,6 @@
 title: Azure App Service에서 Python 구성(Windows)
 description: Azure App Service에 Python 인터프리터 및 라이브러리를 설치하고 해당 인터프리터를 제대로 참조하도록 웹 애플리케이션을 구성하는 방법입니다.
 ms.date: 01/07/2019
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -12,12 +11,12 @@ ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: d7cfcb3a288103bd79ff0196073411e81c3bf8b5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f68f12578ea7b5148aa018c21e14c334c33ad9a1
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54943119"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55918925"
 ---
 # <a name="how-to-set-up-a-python-environment-on-azure-app-service-windows"></a>Azure App Service에서 Python 환경을 설정하는 방법(Windows)
 

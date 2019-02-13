@@ -1,7 +1,6 @@
 ---
 title: 시작 명령
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
 - debug.start
@@ -14,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0307bc8fef348aa408bf6d4fad53759df61806fb
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 1f7488353cd4c64b0afca27060c364a1f9ddc6f8
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54962825"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55912571"
 ---
 # <a name="start-command"></a>시작 명령
 시작 프로젝트 디버깅을 시작합니다.
@@ -38,7 +37,7 @@ Debug.Start [address]
 ## <a name="remarks"></a>주의
  **시작** 명령을 실행하면 지정된 주소로 RunToCursor 작업을 수행합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  이 예제에서는 디버거를 시작하고 발생하는 모든 예외를 무시합니다.
 
 ```cmd
