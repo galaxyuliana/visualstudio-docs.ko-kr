@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 6e9be757-797f-4960-ba62-c14092620bbd
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6ca628689376bce696f49b3d1e01110108f58c0a
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: a4bbbf35ab49eeee730a4c96f8cd66ff50142376
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53851211"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043104"
 ---
 # <a name="idiasourcefile"></a>IDiaSourceFile
 원본 파일을 나타냅니다.  
@@ -44,7 +44,7 @@ IDiaSourceFile : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
  호출 하 여이 인터페이스를 가져올는 [idiaenumsourcefiles:: Item](../../debugger/debug-interface-access/idiaenumsourcefiles-item.md) 하거나 [idiaenumsourcefiles:: Next](../../debugger/debug-interface-access/idiaenumsourcefiles-next.md) 메서드. 세부 정보에 대 한 예제를 참조 하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 함수는 지정된 된 테이블에 영향을 주는 모든 소스 파일의 이름을 표시 합니다.  
   
 ```C++  
@@ -73,7 +73,7 @@ void ShowSourceFiles(IDiaTable *pTable)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

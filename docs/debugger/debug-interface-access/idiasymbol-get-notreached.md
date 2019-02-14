@@ -1,5 +1,5 @@
 ---
-title: 'Idiasymbol:: Get_notreached | Microsoft Docs'
+title: IDiaSymbol::get_notReached | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: e44ba922-6cda-40c2-9b62-44e5a8628e63
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cdc228f239ae8ed051c90cf8e9ee57a098e49a86
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 4b3ef7418a232c5c6fa06062fbe6214f55e40b8e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53859896"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55008532"
 ---
 # <a name="idiasymbolgetnotreached"></a>IDiaSymbol::get_notReached
 함수 또는 레이블은 되지에 도달 여부를 지정 하는 플래그를 검색 합니다.  

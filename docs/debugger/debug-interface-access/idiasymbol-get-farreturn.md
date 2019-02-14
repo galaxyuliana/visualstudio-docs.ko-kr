@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 141df0e9-f4d9-4330-a043-5d9ea865257f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3934ad4076a5f38a2d79920286aa25e25fe25c7c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 21990c772d03c7ef1657b01c64c393c8d77c79af
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53819716"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54977595"
 ---
 # <a name="idiasymbolgetfarreturn"></a>IDiaSymbol::get_farReturn
 함수는 훨씬 반환 포함 되는지 여부를 지정 하는 플래그를 검색 합니다.  

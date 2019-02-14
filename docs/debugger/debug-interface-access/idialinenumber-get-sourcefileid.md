@@ -1,5 +1,5 @@
 ---
-title: 'Idialinenumber:: Get_sourcefileid | Microsoft Docs'
+title: IDiaLineNumber::get_sourceFileId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 4f482a1e-e85f-4173-98de-8e5f7622554b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7d5376e0822d45bcfff238235e5256c484f48e29
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7efaa94c24c6f814de5058865664cf7b1b106ba3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53837773"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55003320"
 ---
 # <a name="idialinenumbergetsourcefileid"></a>IDiaLineNumber::get_sourceFileId
 이 줄을 제공 하는 소스 파일에 대 한 고유한 소스 파일 식별자를 검색 합니다.  

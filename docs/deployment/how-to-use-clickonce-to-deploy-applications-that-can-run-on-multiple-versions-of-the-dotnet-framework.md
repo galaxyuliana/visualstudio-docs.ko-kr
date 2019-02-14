@@ -100,7 +100,7 @@ ClickOnce 배포 기술을 사용 하 여 여러 버전의.NET Framework를 대�
   
 ### <a name="to-update-and-re-sign-the-application-and-deployment-manifests"></a>매니페스트를 업데이트 하 고 응용 프로그램 및 배포에 다시 서명  
   
--   업데이트 및 응용 프로그램 및 배포 매니페스트에 다시 서명 합니다. 자세한 내용은 [방법: 애플리케이션 및 배포 매니페스트 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)을 참조하세요.  
+-   업데이트 및 응용 프로그램 및 배포 매니페스트에 다시 서명 합니다. 자세한 내용은 [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 애플리케이션 게시](../deployment/publishing-clickonce-applications.md)   

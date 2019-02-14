@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: 19c95b0d-9a4d-441f-9ed7-3acb39e67521
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a5422cf4899e68a913e6cf15e4923da564859653
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 675bd0ceef2b8eef382891bf0fc4b42400ca9df4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922575"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018659"
 ---
 # <a name="vsgnodefaultinstance"></a>VSG_NODEFAULT_INSTANCE
 기본 인스턴스에 있는지 여부를 존재로 정의 된 [VsgDbg 클래스](vsgdbg-class.md) 클래스-프로그래밍 캡처 인터페이스를 제공 하는-제공 됩니다.  
@@ -40,7 +40,7 @@ VsgDbg *g_pVsgDbg;
   
  기본 인스턴스를 사용 하지 않으려면 정의 해야 합니다 `VSG_NODEFAULT_INSTANCE` 포함 하기 전에 `vsgcapture.h` 프로그램에서 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 기본 인스턴스를 사용하지 않도록 설정하는 방법을 보여줍니다.  
   
 ```cpp

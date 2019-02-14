@@ -22,15 +22,15 @@ helpviewer_keywords:
 ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: f01951a45a2e50f6dac093924627fe178011c9f0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: fe922960b0571593cc15581c29244798fd0f671e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53899016"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55018737"
 ---
 # <a name="format-specifiers-in-c-in-the-visual-studio-debugger"></a>형식 지정자에 C# Visual Studio 디버거에서
 값이 표시 하는 형식을 변경할 수 있습니다 합니다 **조사식** 형식 지정자를 사용 하 여 창입니다. 형식 지정자를 사용할 수도 있습니다는 **직접 실행** 창 합니다 **명령** 창에서 [추적점](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), 및 소스 창. 를 일시 중지 하면 해당 창에 식의 결과에 표시 됩니다는 [DataTip](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) 지정 된 형식으로 표시 합니다.  

@@ -18,15 +18,15 @@ helpviewer_keywords:
 ms.assetid: 4fafa9c2-97a0-4cea-b8fd-9746dca33af4
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d3165337a7386d90d674b42e7fd7e6f29822b284
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 55035a214d98abd262f85c29c55bd633c0b35505
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53906932"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023722"
 ---
 # <a name="ltdeploymentgt-element-clickonce-deployment"></a>&lt;배포&gt; 요소 (ClickOnce 배포)
 업데이트를 배포하고 시스템에 노출하는 데 사용되는 특성을 식별합니다.  
@@ -67,7 +67,7 @@ ms.locfileid: "53906932"
 | `minimumRequiredVersion` | 선택 사항입니다. 클라이언트에서 실행할 수 있는이 응용 프로그램의 최소 버전을 지정 합니다. 응용 프로그램의 버전 번호를 배포 매니페스트에 지정 된 버전 번호 보다 작은 경우에 응용 프로그램이 실행 되지 않습니다. 버전 번호 형식으로 지정 해야 합니다 `N.N.N.N`여기서 `N` 는 부호 없는 정수입니다. 경우는 `install` 특성이 `false`, `minimumRequiredVersion` 설정 해서는 안 됩니다. |
 | `mapFileExtensions` | 선택 사항입니다. 기본값은 `false`입니다. 경우 `true`, 배포의 모든 파일에.deploy 확장명이 있어야 합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 웹 서버에서 다운로드 하는 즉시이 확장명 이러한 파일을 제거 됩니다. 사용 하 여 응용 프로그램을 게시 하는 경우 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], 모든 파일에이 확장을 자동으로 추가 합니다. 이 매개 변수를 사용 하면 내 모든 파일이 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포.exe와 같은 "unsafe" 확장명으로 끝나는 파일의 전송을 차단 하는 웹 서버에서 다운로드 합니다. |
 | `disallowUrlActivation` | 선택 사항입니다. 기본값은 `false`입니다. 경우 `true`, 설치 된 응용 프로그램 URL을 클릭 하거나 Internet Explorer에 URL을 입력 하 여 시작 하는 것을 방지 합니다. 경우는 `install` 특성이 있는,이 특성이 무시 됩니다. |
-| `trustURLParameters` | 선택 사항입니다. 기본값은 `false`입니다. 경우 `true`응용 프로그램에 전달 되는 쿼리 문자열 매개 변수를 포함 하도록 URL을 사용 하면, 많은 like 명령줄 인수는 명령줄 응용 프로그램에 전달 됩니다. 자세한 내용은 [방법: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)을 참조하세요.<br /><br /> 경우는 `disallowUrlActivation` 특성이 `true`를 `trustUrlParameters` 매니페스트에서 제외 이거나 명시적으로 설정 `false`합니다. |
+| `trustURLParameters` | 선택 사항입니다. 기본값은 `false`입니다. 경우 `true`응용 프로그램에 전달 되는 쿼리 문자열 매개 변수를 포함 하도록 URL을 사용 하면, 많은 like 명령줄 인수는 명령줄 응용 프로그램에 전달 됩니다. 자세한 내용은 [방법: 온라인 ClickOnce 응용 프로그램에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)합니다.<br /><br /> 경우는 `disallowUrlActivation` 특성이 `true`를 `trustUrlParameters` 매니페스트에서 제외 이거나 명시적으로 설정 `false`합니다. |
 
  `deployment` 다음 자식 요소를 포함 합니다.  
 
