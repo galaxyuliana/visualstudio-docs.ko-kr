@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 5f425fa3-7ba6-4979-8b3e-0fcd06cbba73
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5b6b0c5940f6c32477989a4d260d57c5def8ae0b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0abfdc449d85a193aef41799d77dd0739599794c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53987157"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54993537"
 ---
 # <a name="idiasymbolgetcode"></a>IDiaSymbol::get_code
 기호 코드 주소를 참조 하는지 여부를 지정 하는 플래그를 검색 합니다.  

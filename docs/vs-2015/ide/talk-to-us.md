@@ -1,12 +1,8 @@
 ---
 title: 의견 보내기 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 helpviewer_keywords:
 - product support [Visual Studio]
 - Help [Visual Studio], product support
@@ -14,13 +10,13 @@ ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: d046603919c0639427b29cb23cdfa6f8ea74337c
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 198953116a6489c0e771a66b463e44da48590a4f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49289837"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54785941"
 ---
 # <a name="talk-to-us"></a>Talk to Us
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +31,7 @@ Visual Studio 2017에서 최신 설명서를 참조 하세요 [의견을 보내]
  페이지 아래쪽의 피드백 단추(**이 페이지가 도움이 되었나요?**)를 사용하세요. 이 단추는 모든 MSDN 페이지에 있습니다. 원하는 정보를 찾을 수 없는 경우 알려 주시기 바랍니다.  
   
 ## <a name="i-would-like-to-report-a-problem-with-visual-studio"></a>Visual Studio의 문제를 보고하려는 경우  
- 작동 중단, 느려지는 성능, 예기치 않은 동작 등 Visual Studio를 사용 하 여 문제를 실행 하는 경우 문제를 알려 주세요 옆에 있는 피드백 아이콘에서 마우스 오른쪽 단추로 **빠른 실행**, 또는 를선택하여 **도움말 &#124; 사용자 의견 보내기 &#124; 문제 보고** 주 메뉴에서. 자세한 내용은 [Visual Studio를 사용 하 여 문제를 보고 하는 방법을](../ide/how-to-report-a-problem-with-visual-studio-2015.md)합니다.  
+ 작동 중단, 느려지는 성능, 예기치 않은 동작 등 Visual Studio를 사용 하 여 문제를 실행 하는 경우 문제를 알려 주세요 옆에 있는 피드백 아이콘에서 마우스 오른쪽 단추로 **빠른 실행**, 또는 를선택하여 **도움말 &#124; 사용자 의견 보내기 &#124; 문제 보고** 주 메뉴에서. 자세한 내용은 [Visual Studio의 문제를 보고하는 방법](../ide/how-to-report-a-problem-with-visual-studio-2015.md)을 참조하세요.  
   
 ## <a name="i-want-to-make-a-suggestion-about-visual-studio-features"></a>Visual Studio 기능에 대한 제안 보내기  
  더 개선할 사항이 있으면 알려주세요. **제안하기** 를 선택하여 기능이나 변경 사항을 Visual Studio 팀에 제한해 주세요. 제안은 다른 사람들이 투표할 수 있는 [UserVoice](https://visualstudio.uservoice.com)에 자동으로 게시됩니다.  

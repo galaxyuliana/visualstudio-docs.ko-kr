@@ -1,14 +1,9 @@
 ---
 title: '&lt;값&gt; (JavaScript) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - <value> JavaScript XML tag
 - value JavaScript XML tag
@@ -16,13 +11,13 @@ ms.assetid: 983e31de-cb1d-411e-b60d-eea6698a26f6
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f88f3ae2e7442549004d2331b4517eb7fa2b5509
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: ac74dde41a2d6cea0a768cfc89838cc34ce41afd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49914335"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799144"
 ---
 # <a name="ltvaluegt-javascript"></a>&lt;값&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ ms.locfileid: "49914335"
   
 #### <a name="parameters"></a>매개 변수  
  `type`  
- 선택 사항입니다. 데이터 형식 속성입니다. 형식에는 다음 중 하나일 수 있습니다.  
+ 선택 사항입니다. 속성의 데이터 형식입니다. 형식에는 다음 중 하나일 수 있습니다.  
   
 - ECMAScript 5 사양에는 하는 ECMAScript 언어 형식 `Number` 고 `Object`입니다.  
   
@@ -77,12 +72,12 @@ ms.locfileid: "49914335"
   `description`  
   선택 사항입니다. 속성의 설명입니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  ECMAScript 5 속성 사용 합니다 [ \<요약 >](../ide/summary-javascript.md) 요소입니다.  
   
  사용 합니다 `<value>` 요소 바로 앞의 `get` 또는 `set` 함수입니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제를 사용 하는 방법을 보여 줍니다 합니다 `<value>` 요소는 `get` 함수입니다.  
   
 ```javascript  
@@ -95,6 +90,3 @@ function Sys$CancelEventArgs$get_cancel() {
   
 ## <a name="see-also"></a>참고 항목  
  [XML 문서 주석](../ide/xml-documentation-comments-javascript.md)
-
-
-

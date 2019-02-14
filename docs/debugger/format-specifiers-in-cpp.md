@@ -24,15 +24,15 @@ helpviewer_keywords:
 ms.assetid: 0f6f3b7c-ce2c-4b4d-b14f-7589dbed5444
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 5732c7bd4f1c2fec8b7b3349d0985a2f7cbf896b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: 83e1d56c14ff4659c681ae2aadd0c6f1b88bec50
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53968341"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55009897"
 ---
 # <a name="format-specifiers-for-c-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 c + +에 대 한 형식 지정자
 값이 표시 하는 형식을 변경할 수 있습니다 합니다 **조사식** 형식 지정자를 사용 하 여 창입니다.  
@@ -74,7 +74,7 @@ int main() {
 |su|유니코드 (utf-16 인코딩) 문자열 (따옴표 포함)|\<위치 > L "hello world"|L"hello world"<br /><br /> u"hello world"|  
 |sub|유니코드(UTF-16 인코딩) 문자열(따옴표 없음)|\<위치 > L "hello world"|hello world|  
 |bstr|BSTR 이진 문자열 (따옴표 포함)|\<위치 > L "hello world"|L"hello world"|  
-|env|환경 블록(이중 null로 종결되는 문자열)|\<위치 > L "=:: =::\\\\"|L "=:: =::\\\\\\0 = C: = C:\\\\windows\\\\system32\\0ALLUSERSPROFILE =...|
+|env|환경 블록(이중 null로 종결되는 문자열)|\<location> L"=::=::\\\\"|L"=::=::\\\\\\0=C:=C:\\\\windows\\\\system32\\0ALLUSERSPROFILE=...|
 |**s32**|UTF-32 문자열 (따옴표 포함)|\<위치 > U "hello world"|u"hello world"|  
 |**s32b**|UTF-32 문자열(따옴표 제외)|\<위치 > U "hello world"|hello world|  
 |**en**|enum|Saturday(6)|토요일|  

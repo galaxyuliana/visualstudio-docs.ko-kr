@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 69dab9bf-2c68-4f70-9678-3b50fba3e6fa
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d469ea89b7ef5f09296fce03fa10c47a7500e52e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: 7257301616c40735f31df3cd777e16e8cf0bd71c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923837"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55026361"
 ---
 # <a name="idiasession"></a>IDiaSession
 디버그 기호에 대 한 쿼리 컨텍스트를 제공 합니다.  
@@ -73,7 +73,7 @@ IDiaSession : IUnknown
 ## <a name="remarks"></a>주의  
  호출 해야 합니다 [idiasession:: Put_loadaddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md) 메서드를 만든 후를 `IDiaSession` 개체-및 전달 되는 값을 `put_loadAddress` 메서드는 0이 아닌 값 이어야 합니다.-기호 수의 가상 주소 (VA) 속성에 대 한 액세스할 수 있습니다. 원하는 프로그램 로드 디버깅 중인 실행 파일의 로드 주소 제공 됩니다. 예를 들어 Win32 함수를 호출할 수 있습니다 `GetModuleInformation` 검색할 실행 파일의 로드 주소 실행 파일에 대 한 핸들을 지정 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  가져오는 방법을 보여 주는이 예제는 `IDiaSession` DIA sdk 일반 초기화의 일부로 인터페이스입니다.  
   
 ```C++  
@@ -110,7 +110,7 @@ void InitializeDIA(const char *szFilename)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

@@ -1,5 +1,5 @@
 ---
-title: 'Idiasymbol:: Get_type | Microsoft Docs'
+title: IDiaSymbol::get_type | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 1c6a4176-dd4e-4c22-8b8f-0e559fc078ba
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ba944bd2871e23c44806caf291334743813c16d0
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: bdf55138c6260404fca706017131bbe5615d77b8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898115"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55043014"
 ---
 # <a name="idiasymbolgettype"></a>IDiaSymbol::get_type
 이 기호에 대 한 형식을 나타내는 기호를 검색 합니다.  
@@ -43,7 +43,7 @@ HRESULT get_type ( 
 ## <a name="remarks"></a>주의  
  기호는 형식을 확인 하려면이 메서드를 호출 하며 결과 검사할 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 개체입니다. 형식 없는 기호에 대 한 수 있다는 것을 참고 합니다. 예를 들어 구조의 이름 형식이 있지만 자식 기호를 가질 수 있습니다 (사용 된 [idiasymbol:: Findchildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md) 해당 자식 항목을 검사 하는 방법).  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```C++  
 IDiaSymbol*         pType;  

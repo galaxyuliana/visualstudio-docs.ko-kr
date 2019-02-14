@@ -1,14 +1,9 @@
 ---
 title: 파일에서 바꾸기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - vs.findreplace.replaceinfiles
 - vs.replaceinfiles
@@ -20,21 +15,21 @@ ms.assetid: ca361466-53bd-44db-a28a-3a74bc03b028
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 92029377d5e7d4faf4c6b7f38deda1eecdeaa395
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 87a9d344b6cad7d27979e73c73caf0dbf97f521d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49228828"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54779244"
 ---
 # <a name="replace-in-files"></a>파일에서 바꾸기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-파일 * *에서 바꾸기 문자열 또는 식에 대 한 파일의 지정 된 집합의 코드를 검색 하 고 찾은 일치 항목의 일부 또는 전부를 변경할 수 있습니다. 찾은 일치 항목과 수행된 작업이 **결과 옵션**에서 선택된 **결과 찾기** 창에 나열됩니다.  
+파일에서 바꾸기를 사용하여 지정된 파일 집합의 코드에서 문자열 또는 식을 검색하고 찾은 일부 또는 전체 일치 항목을 변경합니다. 찾은 일치 항목과 수행된 작업이 **결과 옵션**에서 선택된 **결과 찾기** 창에 나열됩니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  다음 방법 중 하나를 사용하여 **찾기 및 바꾸기** 창에서 **파일에서 바꾸기**를 표시할 수 있습니다.  
   
@@ -99,6 +94,3 @@ ms.locfileid: "49228828"
  [텍스트 찾기 및 바꾸기](../ide/finding-and-replacing-text.md)   
  [파일에서 찾기](../ide/find-in-files.md)   
  [Visual Studio 명령](../ide/reference/visual-studio-commands.md)
-
-
-

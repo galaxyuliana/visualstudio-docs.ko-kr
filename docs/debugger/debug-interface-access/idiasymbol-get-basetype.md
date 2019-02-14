@@ -14,7 +14,7 @@ ms.workload:
 - multiple
 ms.openlocfilehash: 0ade7c30ec3cc67af28f3f609d91ccb0a3a8d289
 ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "54993730"
@@ -43,7 +43,7 @@ HRESULT get_baseType ( 
 ## <a name="remarks"></a>주의  
  기호에 대 한 기본 형식은 먼저 기호의 형식을 가져오고 다음 기본 형식에 대 한 형식을 반환 하는 조회 하 여 확인할 수 있습니다. 참고 일부 기호는 기본 형식에 없을 수 있습니다-예를 들어 구조 이름입니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```C++  
 IDiaSymbol* pType;  

@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 7faacd35-2638-492d-80f6-6b57e5f820de
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a3db855d06c71551dd6f1bb1d9e6f6ac0d34da72
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 5ca1f9c8879130abfd762aea4b803e7734433b8d
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53957448"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54930669"
 ---
 # <a name="how-to-specify-an-alternate-location-for-deployment-updates"></a>방법: 배포 업데이트를 위한 대체 위치 지정
 설치할 수 있습니다 프로그램 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] CD 또는 파일 공유에서 처음에 응용 프로그램 이지만 응용 프로그램 웹에 대 한 주기적인 업데이트를 확인 해야 합니다. 응용 프로그램을 처음 설치한 후 웹에서 자동으로 업데이트할 수 있도록 배포 매니페스트에 업데이트에 대 한 대체 위치를 지정할 수 있습니다.  
@@ -48,7 +48,7 @@ ms.locfileid: "53957448"
   
 2. 다음 명령을 사용 하 여 업데이트 위치를 설정 합니다. 이 예제에서는 *HelloWorld.exe.application* 경로인 프로그램 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 항상.application 확장명에는 응용 프로그램 매니페스트 및 *<http://adatum.com/Update/Path>* 해당URL은[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 업데이트를 확인 합니다.  
   
-    **Mage-ProviderUrl HelloWorld.exe.application 업데이트 http://adatum.com/Update/Path**  
+    **Mage -Update HelloWorld.exe.application -ProviderUrl http://adatum.com/Update/Path**  
   
 3. 파일을 저장합니다.  
   

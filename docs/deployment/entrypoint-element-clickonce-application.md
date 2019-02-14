@@ -15,15 +15,15 @@ helpviewer_keywords:
 ms.assetid: 10ad3083-10c1-4189-a870-9bba2eab244f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e37021c6c8492b0c882a84cbb88fe1cd9b5458e6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: b1d315a76ab66414dff42c00e62fb1e963722c32
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53950266"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55010300"
 ---
 # <a name="ltentrypointgt-element-clickonce-application"></a>&lt;entryPoint&gt; 요소 (ClickOnce 응용 프로그램)
 해야 하는 어셈블리를 식별 될 때 실행이 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램이 클라이언트 컴퓨터에서 실행 됩니다.  
@@ -88,14 +88,14 @@ ms.locfileid: "53950266"
 <customUX xmlns="urn:schemas-microsoft-com:clickonce.v1" />  
 ```  
 
- CustomUX 요소를 포함 하는 응용 프로그램 사용자 지정 설치 관리자를 사용 하 여 제공 해야 합니다는 <xref:System.Deployment.Application.InPlaceHostingManager> 설치 작업을 수행 하는 클래스입니다. 필수 구성 요소는 매니페스트 또는 setup.exe 부트스트래퍼를 두 번 클릭 하 여이 요소를 사용 하 여 응용 프로그램을 설치할 수 없습니다. 시작 메뉴 항목, 바로 가기 및 프로그램 추가 / 제거 항목 사용자 지정 설치 관리자를 만들면 됩니다. 제공한 구독 식별자를 저장 해야 사용자 지정 설치 관리자에서 프로그램 추가 / 제거 항목을 만들지 않는 경우는 <xref:System.Deployment.Application.GetManifestCompletedEventArgs.SubscriptionIdentity%2A> 속성을 호출 하 여 나중에 응용 프로그램을 제거 하려면 사용자가 사용 된 <xref:System.Deployment.Application.InPlaceHostingManager.UninstallCustomUXApplication%2A> 메서드. 자세한 내용은 [연습: ClickOnce 애플리케이션용 사용자 지정 설치 관리자 만들기](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)를 참조하세요.  
+ CustomUX 요소를 포함 하는 응용 프로그램 사용자 지정 설치 관리자를 사용 하 여 제공 해야 합니다는 <xref:System.Deployment.Application.InPlaceHostingManager> 설치 작업을 수행 하는 클래스입니다. 필수 구성 요소는 매니페스트 또는 setup.exe 부트스트래퍼를 두 번 클릭 하 여이 요소를 사용 하 여 응용 프로그램을 설치할 수 없습니다. 시작 메뉴 항목, 바로 가기 및 프로그램 추가 / 제거 항목 사용자 지정 설치 관리자를 만들면 됩니다. 제공한 구독 식별자를 저장 해야 사용자 지정 설치 관리자에서 프로그램 추가 / 제거 항목을 만들지 않는 경우는 <xref:System.Deployment.Application.GetManifestCompletedEventArgs.SubscriptionIdentity%2A> 속성을 호출 하 여 나중에 응용 프로그램을 제거 하려면 사용자가 사용 된 <xref:System.Deployment.Application.InPlaceHostingManager.UninstallCustomUXApplication%2A> 메서드. 자세한 내용은 [연습: ClickOnce 응용 프로그램에 대 한 사용자 지정 설치 관리자 만들기](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)합니다.  
 
 ## <a name="remarks"></a>주의  
  이 요소에 대 한 어셈블리 및 진입점 지점을 식별 된 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다.  
 
- 사용할 수 없습니다 `commandLine` 런타임 시 응용 프로그램에 매개 변수를 전달 합니다. 에 대 한 쿼리 문자열 매개 변수를 액세스할 수는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에서 응용 프로그램의 배포 <xref:System.AppDomain>합니다. 자세한 내용은 [방법: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)을 참조하세요.  
+ 사용할 수 없습니다 `commandLine` 런타임 시 응용 프로그램에 매개 변수를 전달 합니다. 에 대 한 쿼리 문자열 매개 변수를 액세스할 수는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에서 응용 프로그램의 배포 <xref:System.AppDomain>합니다. 자세한 내용은 [방법: 온라인 ClickOnce 응용 프로그램에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)합니다.  
 
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제는 `entryPoint` 요소에 대 한 응용 프로그램 매니페스트에서 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다. 이 코드 예제는에 대해 제공 된 큰 예제의 일부 합니다 [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md) 항목입니다.  
 
 ```xml  

@@ -4,15 +4,15 @@ ms.date: 06/08/2018
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: douge
+manager: jillfra
 ms.workload:
 - azure
-ms.openlocfilehash: 8cb250cd319f28b444a8f3bfecef421ecbaac9b4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c6a0ba1f44d9e6d9cc0dbcce03af2705e370cbb6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53848365"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54965461"
 ---
 # <a name="get-started-with-visual-studio-kubernetes-tools"></a>Visual Studio Kubernetes 도구 시작
 
@@ -74,7 +74,7 @@ Visual Studio Kubernetes 도구 도움말 Kubernetes를 대상으로 하는 컨�
 
 - Helm 차트 및 *차트* 폴더입니다. 이 yaml 파일을 Kubernetes에 배포 하는 데 사용할 수 있는 응용 프로그램에 대 한 Helm 차트를 구성 합니다. Helm에 대 한 자세한 내용은 참조 하세요. [ https://www.helm.sh ](https://www.helm.sh)합니다.
 
-- *azds.yaml*합니다. Azure Kubernetes Service에서 신속 하 고 반복 디버깅 환경을 제공 하는 Azure 개발 공간에 대 한 설정을 포함 합니다. 자세한 내용은 참조 하세요 [Azure 개발 공간 설명서](https://docs.microsoft.com/azure/dev-spaces/azure-dev-spaces)합니다.
+- *azds.yaml*. Azure Kubernetes Service에서 신속 하 고 반복 디버깅 환경을 제공 하는 Azure 개발 공간에 대 한 설정을 포함 합니다. 자세한 내용은 참조 하세요 [Azure 개발 공간 설명서](https://docs.microsoft.com/azure/dev-spaces/azure-dev-spaces)합니다.
 
 ## <a name="publish-to-azure-kubernetes-service-aks"></a>AKS (Azure Kubernetes Service)에 게시
 

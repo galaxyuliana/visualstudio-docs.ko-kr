@@ -1,5 +1,5 @@
 ---
-title: 'Idiasymbol:: Get_symtag | Microsoft Docs'
+title: IDiaSymbol::get_symTag | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 139a35bd-faeb-4878-be72-394dedfbb18f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7fb8c758bb9b23951493990ac663398918cd08ba
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 69c8061d8ae19b1d3f22096928bef74a0709a7f7
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53893868"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55020453"
 ---
 # <a name="idiasymbolgetsymtag"></a>IDiaSymbol::get_symTag
 기호 형식 분류자를 검색합니다.  
@@ -40,7 +40,7 @@ HRESULT get_symTag ( 
 > [!NOTE]
 >  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```C++  
 IDiaSymbol* pType;  

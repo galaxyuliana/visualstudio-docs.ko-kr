@@ -25,15 +25,15 @@ helpviewer_keywords:
 ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0d2609c76c39924794e2a9623e9e70c037c20415
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: fa81baae882376aae99eedd1fdf825c863fd70c4
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53899615"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54932404"
 ---
 # <a name="attach-to-running-processes-with-the-visual-studio-debugger"></a>Visual Studio 디버거에서 실행 중인 프로세스에 연결
 로컬 또는 원격 컴퓨터에서 실행 중인 프로세스에 Visual Studio 디버거를 연결할 수 있습니다. 프로세스를 실행 한 후 선택 **디버깅할** > **프로세스에 연결** 누르거나 **Ctrl**+**Alt** + **P** 사용 하 여 Visual Studio에는 **프로세스에 연결** 프로세스에 디버거를 연결 하는 대화 상자.
@@ -118,7 +118,7 @@ IIS에 배포 된 ASP.NET 응용 프로그램 디버깅에 대 한 자세한 내
    - 모든 사용자 계정으로 실행 되는 프로세스를 찾으려면 다음을 선택 합니다 **모든 사용자의 프로세스 표시** 확인란 합니다.
       
      >[!NOTE]
-     >신뢰할 수 없는 사용자 계정에서 소유한 프로세스에 연결하면 보안 경고 확인 대화 상자가 나타납니다. 자세한 내용은 참조 하세요. [보안 경고: 신뢰할 수 없는 사용자가 소유한 프로세스에 연결 하면 위험할 수 있습니다. 다음 정보가 의심 스 럽 또는 확실 하지 않은 경우이 프로세스에 연결 하지 않는](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)합니다.  
+     >신뢰할 수 없는 사용자 계정에서 소유한 프로세스에 연결하면 보안 경고 확인 대화 상자가 나타납니다. 자세한 내용은 참조 하세요. [보안 경고: 신뢰할 수 없는 사용자가 소유한 프로세스에 연결하면 위험할 수 있습니다. 아래의 정보가 의심스럽거나 잘 모르겠으면 이 프로세스에 연결하지 않습니다](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)  
       
 5. 에 **연결할** 필드에 디버그 하려는 코드의 형식이 표시 되어 있는지 확인 합니다. 기본값 **자동** 대부분의 앱 형식에 대 한 작동을 설정 합니다. 
   
@@ -161,7 +161,7 @@ IIS에 배포 된 ASP.NET 응용 프로그램 디버깅에 대 한 자세한 내
 |원격 디버그 ASP.NET 4 또는 4.5에서 IIS 서버|원격 도구를 사용 하 고 **프로세스에 연결**|*w3wp.exe*|참조 [원격 원격 IIS 컴퓨터에서 ASP.NET 디버깅](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |IIS 서버에서 원격 디버그 ASP.NET Core|원격 도구를 사용 하 고 **프로세스에 연결**|*dotnet.exe*|앱 배포에 대해서 [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html)합니다. 디버깅을 참조 하세요. [원격 IIS 컴퓨터에서 원격 디버깅 Asp.net](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)|
 |지원 되는 앱 형식에 대 한 로컬 IIS 서버에서 클라이언트 쪽 스크립트 디버깅 |사용 하 여 **프로세스에 연결**|*chrome.exe*하십시오 *MicrosoftEdgeCP.exe*, 또는 *iexplore.exe*|스크립트 디버깅을 사용할 수 있어야 합니다. Chrome에 대 한 실행 해야 Chrome에서 디버그 모드를 선택 **Webkit 코드** 에 **연결할** 필드입니다.|
-|디버그는 C#, Visual Basic 또는 c + + 로컬 컴퓨터에서 앱을|사용 하 여 [표준 디버깅](../debugger/debugger-feature-tour.md) 또는 **프로세스에 연결**|*\<응용 프로그램 이름 >.exe*|대부분의 시나리오에서 사용 하 여 표준 디버깅 및 not **프로세스에 연결**합니다.|
+|디버그는 C#, Visual Basic 또는 c + + 로컬 컴퓨터에서 앱을|사용 하 여 [표준 디버깅](../debugger/debugger-feature-tour.md) 또는 **프로세스에 연결**|*\<appname>.exe*|대부분의 시나리오에서 사용 하 여 표준 디버깅 및 not **프로세스에 연결**합니다.|
 |Windows 데스크톱 앱을 원격 디버그|원격 도구|N/A| 참조 [원격 디버그를 C# 또는 Visual Basic 앱](../debugger/remote-debugging-csharp.md) 하거나 [원격 c + + 앱을 디버그](../debugger/remote-debugging-cpp.md)|
 |디버거 없이 앱을 시작한 후 로컬 컴퓨터에 ASP.NET 앱 디버그|사용 하 여 **프로세스에 연결**|*iiexpress.exe*|로드 앱을 확인 하면 도움이 될이 빠르고 같은 (예) 프로 파일링 하는 경우. |
 |서버 프로세스에서 다른 유형의 지원 되는 앱 디버그|서버가 원격 인 경우 원격 도구를 사용 하 고 **프로세스에 연결**|*chrome.exe*하십시오 *iexplore.exe*, 또는 기타 프로세스|필요한 경우 리소스 모니터 프로세스를 식별 하는 데 사용 합니다. [원격 디버깅](../debugger/remote-debugging.md)을 참조하세요.|

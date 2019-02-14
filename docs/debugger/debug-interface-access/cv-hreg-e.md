@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 3f0622f7-6790-41d8-8778-227cbbf8a212
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 95a3ecd9d4b7e1dc8cffc3a11a8b58c0812a1a36
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 0697507b9df10ac1f39108581a651c5290ad6b78
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53829646"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54919554"
 ---
 # <a name="cvhrege"></a>CV_HREG_e
 대상 레지스터를 지정합니다.  
@@ -409,37 +409,37 @@ enum CV_HREG_e { 
 ```  
   
 ## <a name="elements"></a>요소  
- CV_REG_ *  
+ CV_REG_*  
  Intel 80x86 ix86 프로세서 및 p-코드를 사용한 등록 합니다.  
   
- CV_R68_ *  
+ CV_R68_*  
  등록은 68 K 프로세서에 사용 합니다.  
   
- CV_M4_ *  
+ CV_M4_*  
  MIPS 4000 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
- CV_ALPHA_ *  
+ CV_ALPHA_*  
  Digital Equipment Corporation Alpha AXP 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
- CV_PPC_ *  
+ CV_PPC_*  
  Motorola/IBM PowerPC 프로세서에서 사용 하는 등록 합니다.  
   
- CV_SH3_ * 및 CV_SH_\*  
+ CV_SH3_* and CV_SH_\*  
  Hitachi SH3 및 Hitachi SH 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
- CV_ARM_ *  
+ CV_ARM_*  
  Advanced RISC Machine (ARM) 프로세서에서 사용 하는 등록 합니다.  
   
- CV_IA64_ *  
+ CV_IA64_*  
  Intel IA64 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
- CV_TRI_ *  
+ CV_TRI_*  
  Infineon 기술 TriCore 프로세서에서 사용 하는 등록 합니다.  
   
- CV_AM33_ *  
+ CV_AM33_*  
  레지스터는 Matsushita/Panasonic AM33 사용과 프로세서.  
   
- CV_M32R_ *  
+ CV_M32R_*  
  Mitsubishi M32R 프로세서에서 사용 하는 등록 합니다.  
   
 ## <a name="remarks"></a>주의  

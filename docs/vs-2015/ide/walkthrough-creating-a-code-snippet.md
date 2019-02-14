@@ -1,14 +1,9 @@
 ---
 title: '연습: 코드 조각 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - code snippets, creating
 - code snippets, shortcut
@@ -20,18 +15,18 @@ ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 038635db92d08837cc6519670053c9619ebe3c9b
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f9b09a8990de97357da2703f1d08dabec50ea75e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49267750"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54790115"
 ---
 # <a name="walkthrough-creating-a-code-snippet"></a>연습: 코드 조각 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-몇 가지 단계로 코드 조각을 만들 수 있습니다. XML 파일을 만들고, 적절한 요소를 입력하고, 코드를 추가하기만 하면 됩니다. 또한 코드에 참조 및 대체 매개 변수를 추가할 수 있습니다. 코드 조각 관리자에서 [가져오기] 단추를 사용 하 여 Visual Studio 설치에 코드 조각을 추가할 수 있습니다 (**도구/코드 조각 관리자**).  
+몇 가지 단계로 코드 조각을 만들 수 있습니다. XML 파일을 만들고, 적절한 요소를 입력하고, 코드를 추가하기만 하면 됩니다. 또한 코드에 참조 및 대체 매개 변수를 추가할 수 있습니다. 코드 조각 관리자(**도구**, 코드 조각 관리자...)에서 가져오기 단추를 사용하여 Visual Studio 설치에 코드 조각을 추가할 수 있습니다.  
   
 > [!TIP]
 >  코드 조각을 보다 쉽게 작성 하는 방법에 대 한 정보를 검색 커뮤니티 도구가 있는 CodePlex 웹 사이트와 같은 [Snippet Editor](http://go.microsoft.com/fwlink/?LinkId=251033)합니다.  
@@ -78,7 +73,7 @@ ms.locfileid: "49267750"
   
 ### <a name="to-add-a-code-snippet-to-visual-studio"></a>Visual Studio에 코드 조각을 추가하려면  
   
-1.  코드 조각 관리자를 사용하여 Visual Studio 설치에 사용자 고유의 코드 조각을 추가할 수 있습니다. 코드 조각 관리자를 엽니다 (**도구/코드 조각 관리자**).  
+1.  코드 조각 관리자를 사용하여 Visual Studio 설치에 사용자 고유의 코드 조각을 추가할 수 있습니다. 코드 조각 관리자(**도구**, 코드 조각 관리자...)를 엽니다.  
   
 2.  **내보내기** 단추를 클릭합니다.  
   
@@ -268,6 +263,3 @@ ms.locfileid: "49267750"
   
 ## <a name="see-also"></a>참고 항목  
  [코드 조각 스키마 참조](../ide/code-snippets-schema-reference.md)
-
-
-

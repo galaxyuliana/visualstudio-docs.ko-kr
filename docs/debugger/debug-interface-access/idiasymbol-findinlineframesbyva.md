@@ -7,15 +7,15 @@ dev_langs:
 ms.assetid: 54295d3e-bbb6-4c10-ab9d-adcfc22b1f71
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8bdf5fbc0ac282dbf6ccda9a5fc5931a9eb9ffdc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3711e87c8914d0dbf482f358e849154bc1a4e380
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53874906"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55003218"
 ---
 # <a name="idiasymbolfindinlineframesbyva"></a>IDiaSymbol::findInlineFramesByVA
 클라이언트가 지정된 된 가상 주소 (VA)에 있는 인라인 프레임의 모든 반복 하는 데 사용 하는 열거형을 검색 합니다.  

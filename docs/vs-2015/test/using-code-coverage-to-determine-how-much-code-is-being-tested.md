@@ -1,26 +1,21 @@
 ---
 title: 코드 검사를 사용하여 테스트할 코드 범위 결정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
 ms.assetid: 800fc739-acd2-4242-84cb-1d83b4d82cf9
 caps.latest.revision: 38
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: adeca654f14fd068c7ce1cb042e57dbc3891cbf4
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 46e9ad272dd7d7b6e4a1f6033f09e99cb4b289d3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49834060"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782661"
 ---
 # <a name="using-code-coverage-to-determine-how-much-code-is-being-tested"></a>코드 검사를 사용하여 테스트할 코드 범위 결정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "49834060"
   
 2.  실행된 줄을 확인하려면 ![코드 검사 강조 표시 아이콘](../test/media/codecoverage-showcoloringicon.png "CodeCoverage ShowColoringIcon")**코드 검사 강조 표시**을 선택합니다.  
   
-     색을 변경하거나 굵게 표시하려면 **도구**, **옵션**, **환경**, **글꼴 및 색**, **설정 표시: 텍스트 편집기**를 선택합니다. **표시 항목**에서 검사 항목을 조정합니다.  
+     색을 변경 하거나 굵게 표시 하려면 선택 **도구**를 **옵션**합니다 **환경**를 **글꼴 및 색**, **표시 설정: 텍스트 편집기**를 선택합니다. **표시 항목**에서 검사 항목을 조정합니다.  
   
 3.  결과에 검사가 낮게 표시되는 경우, 코드에서 실행되지 않은 부분을 확인한 다음 검사할 추가 테스트를 작성합니다. 개발 팀을 일반적으로 약 80%의 코드 검사를 목표로 합니다. 경우에 따라 더 낮은 검사도 허용됩니다. 예를 들어, 일부 코드가 표준 템플릿에서 생성된 경우 낮은 검사가 허용됩니다.  
   
@@ -101,7 +96,7 @@ ms.locfileid: "49834060"
 ## <a name="excluding-elements-from-the-code-coverage-results"></a>코드 검사 결과에서 요소 제외  
  코드가 텍스트 템플릿에서 생성된 경우와 같이 검사 점수에서 코드의 특정 요소를 제외하려는 경우가 있습니다. `System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage` 특성을 class, struct, method, property, property setter 또는 getter, event 코드 요소에 임의로 추가할 수 있습니다. 클래스를 제외할 경우 해당 파생 클래스는 제외되지 않습니다.  
   
- 예를 들어:  
+ 예:  
   
 ```csharp  
   
@@ -240,7 +235,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
   
 -   임의의 네임스페이스 또는 클래스 안이 아닌 전역 네임스페이스에 제외 매크로에 대한 호출을 추가합니다.  
   
--   단위 테스트 코드 파일 또는 응용 프로그램 코드 파일에 제외를 추가할 수 있습니다.  
+-   단위 테스트 코드 파일 또는 애플리케이션 코드 파일에 제외를 추가할 수 있습니다.  
   
 -   제외는 컴파일러 옵션을 설정하거나 `#pragma managed(off)`를 사용하여 관리되지 않는(네이티브) 코드로 컴파일해야 합니다.  
   
@@ -261,7 +256,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
   
     테스트 소스 정의가 두 개 이상일 경우 각각에 대해 이 단계를 반복합니다.  
   
-   - <em>라는 이름의 필드가 이지만 **실행 설정 파일 형식</em>*. *  
+   - <em>하지만 *실행 설정 파일 형식</em>이라는 필드는 없습니다.*  
   
       **자동화된 테스트**에서 **테스트 어셈블리**를 선택한 다음 줄임표 단추 **[...]** 를 선택합니다. **테스트 실행 추가/편집** 대화 상자의 **Test Runner**에서 **Visual Studio Test Runner**를 선택합니다.  
   
@@ -286,12 +281,9 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 ## <a name="external-resources"></a>외부 리소스  
   
 ### <a name="guidance"></a>지침  
- [Visual Studio 2012를 사용한 지속적인 업데이트 테스트 - 2장: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 검사 분석 사용자 지정](../test/customizing-code-coverage-analysis.md)   
  [코드 검사 문제 해결](../test/troubleshooting-code-coverage.md)   
  [코드 단위 테스트](../test/unit-test-your-code.md)
-
-
-

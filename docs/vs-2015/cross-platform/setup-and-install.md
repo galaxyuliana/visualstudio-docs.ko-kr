@@ -1,21 +1,17 @@
 ---
 title: 설정 및 설치 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
 caps.latest.revision: 19
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: f3a72c197963332ad433f88e6cb7fffde5a9a41b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+ms.openlocfilehash: 26733c576a8bfd260368697ba0791a665afa46ff
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51730407"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54781711"
 ---
 # <a name="setup-and-install"></a>설정 및 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +59,7 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
 > [!TIP]
 >  이러한 지침은 Visual Studio 2015에 적용됩니다. Visual Studio 2013(업데이트 2 필요)에서 Xamarin을 사용하려면 [직접 Xamarin 설치](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install)(xamarin.com)의 지침을 따릅니다.  
   
-1. [어떤 버전이든 Visual Studio 2015 설치 관리자를 다운로드하여 설치합니다](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) (Community, Professional 또는 Enterprise). Visual Studio 2015 Community는 무료 버전이고, Professional 및 Enterprise 버전은 30일 평가판으로 사용할 수 있으며 평가 기간 이후에는 라이선스를 구매해야 합니다.  
+1. [어떤 버전이든 Visual Studio 2015 설치 관리자를 다운로드하여 설치합니다](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) (Community, Professional 또는 Enterprise). Visual Studio 2015 Community는 무료 버전이고, Professional 및 Enterprise 버전은 30일 평가판으로 사용할 수 있으며 평가 기간 이후에는 라이선스를 구매해야 합니다.  
   
    1.  Visual Studio를 이미 설치했으면 **제어판 > 프로그램 및 기능**을 열고 **Visual Studio 2015** 항목을 선택한 후에 **변경**을 클릭합니다. 설치 관리자가 열리면 **수정**을 클릭하고 아래의 3단계로 건너뜁니다.  
   
@@ -77,9 +73,9 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
   
         ![플랫폼 간 모바일 개발 아래에서 Xamarin 옵션 선택](../cross-platform/media/cross-plat-xamarin-setup-2.png "Cross-Plat Xamarin Setup 2")  
   
-   2.  Windows 8 이상: **플랫폼 간 모바일 개발 > Microsoft Visual Studio Emulator for Android**. 참고: Windows 7 이하 컴퓨터를 사용하거나 Mac에서 Windows를 실행하고 있으면 이 확인란이 *선택 취소*되어 있는지 확인합니다. 5단계 후에 "Windows 컴퓨터의 에뮬레이터에 대한 참고"를 참조하세요. 물리적 Android 디바이스에서만 디버그하려는 경우에는 이 확인란을 선택 취소한 상태로 유지해도 됩니다.  
+   2.  Windows의 경우: **플랫폼 간 모바일 개발 > Microsoft Visual Studio Emulator for Android**합니다. 참고: Windows 7 이하 컴퓨터를 사용하거나 Mac에서 Windows를 실행하고 있으면 이 확인란이 *선택 취소*되어 있는지 확인합니다. 5단계 후에 "Windows 컴퓨터의 에뮬레이터에 대한 참고"를 참조하세요. 물리적 Android 디바이스에서만 디버그하려는 경우에는 이 확인란을 선택 취소한 상태로 유지해도 됩니다.  
   
-   3.  (선택 사항) Windows 장치를 대상으로 지정하려면 **Windows 및 웹 개발 > 유니버설 Windows 앱 개발 도구** 및/또는 **Windows 8.1 및 Windows Phone 8.0/8.1 도구**도 선택합니다. 여기에는 다운로드하는 데 시간이 더 오래 걸리는 에뮬레이터 이미지를 설치하기 위한 옵션이 포함되고, 언제든지 Visual Studio 설치 관리자로 돌아가서 나중에 추가할 수 있습니다.  
+   3.  (선택 사항) Windows 디바이스를 대상으로 지정하려면 **Windows 및 웹 개발 &gt; 유니버설 Windows 앱 개발 도구** 및/또는 **Windows 8.1 및 Windows Phone 8.0/8.1 도구**도 선택합니다. 여기에는 다운로드하는 데 시간이 더 오래 걸리는 에뮬레이터 이미지를 설치하기 위한 옵션이 포함되고, 언제든지 Visual Studio 설치 관리자로 돌아가서 나중에 추가할 수 있습니다.  
   
 4. 설치 단추를 클릭하면 프로세스가 실행됩니다. 이 작업도 완료하는 데 약간 시간이 걸리므로 기다리는 동안 Mac 설치 지침을 계속 확인하고 [Xamarin을 사용한 모바일 개발에 대해 알아보기](../cross-platform/learn-about-mobile-development-with-xamarin.md)를 살펴볼 수 있습니다.  
   
@@ -94,11 +90,11 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
       
 6. Windows 7 이하 버전의 경우 또는 Mac에서 Windows를 실행하는 경우 물리적 디바이스가 없으면 [Android SDK 에뮬레이터](https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debug-on-emulator/android-sdk-emulator/)를 사용합니다. 다음 참고를 참조하세요.  
   
-   **Windows 컴퓨터의 에뮬레이터에 대한 참고:** CPU는 한 번에 하나의 가상화 기술만 지원하므로 개발 컴퓨터에서 하나의 기술만 사용하는 것이 좋습니다. 세 가지 주요 가상화 기술은 Hyper-V(Visual Studio Emulator for Android 및 Windows Phone 에뮬레이터에서 사용됨), Virtual Box(Genymotion에서 사용됨) 및 Intel HAXM(Android SDK 에뮬레이터에서 사용됨)입니다. Hyper-V와 Virtual Box 간의 다양한 문제 때문에 지정된 컴퓨터에서 한 가지 유형의 에뮬레이터만 사용하는 것이 좋습니다. 즉, 위의 권장 사항에 따라 Windows 8 이상 컴퓨터에서는 Hyper-V를 사용하고 Windows 7 이하 컴퓨터를 사용하는 경우와 Mac에서 Windows를 실행하는 경우에는 Intel HAXM 에뮬레이터를 사용하는 것이 좋습니다.  
+   **컴퓨터의 에뮬레이터에 Windows에 대 한 note:** Cpu를 한 번에 하나의 가상화 기술 지원 하므로 개발 컴퓨터에서 사용 하 여에 하나만 있어야 하는 것이 좋습니다. 세 가지 주요 가상화 기술은 Hyper-V(Visual Studio Emulator for Android 및 Windows Phone 에뮬레이터에서 사용됨), Virtual Box(Genymotion에서 사용됨) 및 Intel HAXM(Android SDK 에뮬레이터에서 사용됨)입니다. Hyper-V와 Virtual Box 간의 다양한 문제 때문에 지정된 컴퓨터에서 한 가지 유형의 에뮬레이터만 사용하는 것이 좋습니다. 즉, 위의 권장 사항에 따라 Windows 8 이상 컴퓨터에서는 Hyper-V를 사용하고 Windows 7 이하 컴퓨터를 사용하는 경우와 Mac에서 Windows를 실행하는 경우에는 Intel HAXM 에뮬레이터를 사용하는 것이 좋습니다.  
   
 ##  <a name="mac"></a> Mac 설치(Apple ID, Xcode 및 Xamarin)  
   
-1.  무료 Apple ID를 만듭니다 [ https://appleid.apple.com ](https://appleid.apple.com/) 있습니다 아직 없는 경우. Xcode를 설치하고 서명하려면 이 작업이 필요합니다.  
+1.  Apple ID가 없으면 [https://appleid.apple.com](https://appleid.apple.com/)에서 무료 Apple ID를 만듭니다. Xcode를 설치하고 서명하려면 이 작업이 필요합니다.  
   
 2.  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)에서 Xcode를 다운로드하여 설치하고 [Adding Your Account to XCode(XCode에 계정 추가)](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html#//apple_ref/doc/uid/TP40013839-CH40-SW1)(apple.com)에 설명된 대로 Apple ID를 추가합니다.  
   
@@ -107,4 +103,3 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
 4.  Windows 및 Mac 컴퓨터에서 Xamarin 설치를 마친 후 [Mac에 연결](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/)(xamarin.com)의 지침에 따라 Windows 컴퓨터의 Visual Studio에서 iOS 및 Mac 작업을 수행할 수 있습니다.  
   
      두 컴퓨터는 같은 로컬 네트워크에 있어야 합니다.
-

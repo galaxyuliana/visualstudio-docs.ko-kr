@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 29080009-36e4-4697-acd7-50f2e3e1bf1b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7b9a3f790acd7a285468810f981fd7e0210563eb
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3b5dd6ab6df05d4b7e119e4b1ab6f27a93e5e981
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53931144"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920763"
 ---
 # <a name="idiasymbolfindchildrenexbyva"></a>IDiaSymbol::findChildrenExByVA
 지정된 된 가상 주소에서 사용할 수 있는 기호 자식을 검색 합니다.  
@@ -57,7 +57,7 @@ HRESULT findChildrenExByVA ( 
  반환 되는 로컬 기호 라이브 범위 정보를 포함 합니다.  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

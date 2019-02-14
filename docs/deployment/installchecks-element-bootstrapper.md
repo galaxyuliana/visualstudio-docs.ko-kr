@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: ad329c87-b0ad-4304-84de-ae9496514c42
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ccd9fa5ea1f7963d4864e276bd05011be817de2c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3556c36e00ac092c1ebb3af4e6d09921fcd11233
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53865983"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55023579"
 ---
 # <a name="ltinstallchecksgt-element-bootstrapper"></a>&lt;InstallChecks&gt; 요소 (부트스트래퍼)
 `InstallChecks` 요소를 지 원하는 다양 한 응용 프로그램에 대 한 적절 한 필수 구성 요소가 모두 설치 되었는지 확인 하려면 로컬 컴퓨터에 대해 테스트를 시작 합니다.  
@@ -92,7 +92,7 @@ ms.locfileid: "53865983"
 |`PackageFile`|필수 요소. 외부 프로그램을 실행 합니다. 프로그램 설치 배포 패키지의 일부 여야 합니다.|  
 |`Arguments`|선택 사항입니다. 으로 명명 된 실행 파일에 명령줄 인수를 제공 `PackageFile`합니다.|  
 
-## <a name="filecheck"></a>체크  
+## <a name="filecheck"></a>FileCheck  
  이 요소는 선택적 자식 요소의 `InstallChecks`합니다. 각 인스턴스에 대해 `FileCheck`, 부트스트래퍼는 명명 된 파일이 있으면 및 파일의 버전 번호를 반환 하는지 여부를 확인 합니다. 부트스트래퍼에서 명명 한 속성 설정 파일에 버전 번호를 찾을 수 없는 경우 `Property` 0입니다. 파일이 없으면 `Property` 값으로 설정 되지 않은 합니다.  
 
  `FileCheck` 요소를 포함 하지 하 고 다음과 같은 특성이 있습니다.  
@@ -144,7 +144,7 @@ ms.locfileid: "53865983"
 ## <a name="remarks"></a>주의  
  요소 아래에 있는 동안 `InstallChecks` 해당 실행 되지, 실행할 테스트를 정의 합니다. 테스트를 실행 하려면 만들어야 `Command` 아래에 있는 요소는 `Commands` 요소입니다.  
 
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제는 `InstallChecks` 되는 요소에 대 한 제품 파일에는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다.  
 
 ```xml  
@@ -165,10 +165,10 @@ ms.locfileid: "53865983"
 ## <a name="predefined-properties"></a>미리 정의 된 속성  
  다음 표에서 `BypassIf` 고 `FailIf` 요소:  
 
-|속성|노트|가능한 값|  
+|속성|참고 사항|가능한 값|  
 |--------------|-----------|---------------------|  
-|`Version9X`|Windows 9 X 운영 체제의 버전 번호입니다.|4.10 Windows 98 =|  
-|`VersionNT`|Windows NT 기반 운영 체제의 버전 번호입니다.|Major.minor.servicepack<br /><br /> 5.0 Windows 2000 =<br /><br /> 5.1.0 = Windows XP<br /><br /> 5.1.2 = Windows XP Professional SP2<br /><br /> 5.2.0 = Windows Server 2003|  
+|`Version9X`|Windows 9 X 운영 체제의 버전 번호입니다.|4.10 = Windows 98|  
+|`VersionNT`|Windows NT 기반 운영 체제의 버전 번호입니다.|Major.Minor.ServicePack<br /><br /> 5.0 = Windows 2000<br /><br /> 5.1.0 = Windows XP<br /><br /> 5.1.2 = Windows XP Professional SP2<br /><br /> 5.2.0 = Windows Server 2003|  
 |`VersionNT64`|64 비트 Windows NT 기반 운영 체제의 버전 번호입니다.|앞서 언급 한 것 처럼 동일 합니다.|  
 |`VersionMsi`|Windows Installer 서비스의 버전 번호입니다.|2.0 = Windows Installer 2.0|  
 |`AdminUser`|사용자는 Windows NT 기반 운영 체제에 대 한 관리자 권한이 있는지 여부를 지정 합니다.|0 = 관리자 권한 없음<br /><br /> 1 = 관리자 권한|  

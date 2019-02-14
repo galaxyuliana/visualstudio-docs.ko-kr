@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: 3ea252d7-18a3-47d8-af83-47feebcfe82b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fd2436f7aa3fe24e90f380cf523b3affa6579e2b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 3a51984484f2120bd853e90b3dabff6928c2dce1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990349"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54958748"
 ---
 # <a name="ltpackagefilesgt-element-bootstrapper"></a>&lt;PackageFiles&gt; 요소 (부트스트래퍼)
 합니다 `PackageFiles` 요소에 포함 되어 `PackageFile` 의 결과로 실행 설치 패키지를 정의 하는 요소는 `Command` 요소입니다.  
@@ -62,7 +62,7 @@ ms.locfileid: "53990349"
 | `PublicKey` | 패키지의 인증서 서명자의 공개 키 암호화입니다. 필요한 경우 `HomeSite` 사용 되는, 그렇지 않으면 선택적입니다. |
 | `Hash` | 선택 사항입니다. 패키지 파일의 SHA1 해시를 합니다. 설치 시 파일의 무결성을 확인 하는이 사용 됩니다. 패키지 파일에서 동일한 해시를 계산할 수 없습니다 패키지가 설치 되지 않습니다. |
 
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에 대 한 패키지 정의 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 재배포 가능 패키지 및 해당 종속성, Windows Installer 등입니다.  
 
 ```xml  

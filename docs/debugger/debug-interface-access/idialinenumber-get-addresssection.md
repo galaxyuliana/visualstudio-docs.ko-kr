@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: a01c1bae-04b2-4c30-8621-60939a3124c2
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8a7be1140cbfbdda23b2cb2861f9fbd51bb711dd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: c764e99fc9c5e5024ccc3d508949fd3a9d9b39e8
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53920052"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920593"
 ---
 # <a name="idialinenumbergetaddresssection"></a>IDiaLineNumber::get_addressSection
 섹션에 대 한 부분 블록 시작 되는 메모리 주소를 검색 합니다.  
@@ -37,7 +37,7 @@ HRESULT get_addressSection ( 
 ## <a name="return-value"></a>반환 값  
  성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```C++  
 CComPtr< IDiaLineNumber > pLine;  

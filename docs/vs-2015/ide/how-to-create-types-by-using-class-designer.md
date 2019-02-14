@@ -1,14 +1,9 @@
 ---
-title: '방법: 클래스 디자이너를 사용하여 형식 만들기 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 클래스 디자이너를 사용 하 여 형식 만들기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
 - VS.Clr.ClrAttributesDialog
 helpviewer_keywords:
@@ -22,13 +17,13 @@ ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 8288e17ecfb4c9169b2b9b8fb7cd5a3c3788f4d9
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c5e859e999d7aec8a58464f145ed7c3e9afbc788
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49175036"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54772156"
 ---
 # <a name="how-to-create-types-by-using-class-designer"></a>방법: 클래스 디자이너를 사용하여 형식 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,7 +79,7 @@ ms.locfileid: "49175036"
   
 1.  클래스 다이어그램에서 형식의 모양을 클릭합니다.  
   
-2.  속성 창에서 다음에 **사용자 지정 특성** 속성 형식에 대 한 줄임표 (...) 단추를 클릭 합니다.  
+2.  속성 창에서 해당 형식의 **사용자 지정 특성** 속성 옆에 있는 줄임표(...) 단추를 클릭합니다.  
   
 3.  하나 이상의 사용자 지정 특성을 한 줄에 하나씩 추가합니다. 중괄호로 묶지 마십시오.  
   
@@ -106,6 +101,3 @@ ms.locfileid: "49175036"
  [형식 멤버 만들기 및 구성(클래스 디자이너)](../ide/creating-and-configuring-type-members-class-designer.md)   
  [클래스 다이어그램 사용(클래스 디자이너)](../ide/working-with-class-diagrams-class-designer.md)   
  [클래스 및 형식 디자인(클래스 디자이너)](../ide/designing-classes-and-types-class-designer.md)
-
-
-

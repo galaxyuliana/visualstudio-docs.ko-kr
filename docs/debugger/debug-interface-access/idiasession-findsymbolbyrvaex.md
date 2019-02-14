@@ -1,5 +1,5 @@
 ---
-title: 'Idiasession:: Findsymbolbyrvaex | Microsoft Docs'
+title: IDiaSession::findSymbolByRVAEx | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 61344966-fed4-4c02-9e27-20356ec2ef7c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 166a5cd0de9980a72cdcf83a4e4cd12f02642d90
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 278c88e71ce6350c2d7a1dbd21cc467dd1867274
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53895115"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54917174"
 ---
 # <a name="idiasessionfindsymbolbyrvaex"></a>IDiaSession::findSymbolByRVAEx
 포함 된 단어나 가장 가까운 지정 된 가상 RVA (상대 주소) 및 오프셋에 지정 된 기호 형식을 검색 합니다.  
@@ -49,7 +49,7 @@ HRESULT findSymbolByRVAEx ( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```C++  
 IDiaSymbol* pFunc;  
