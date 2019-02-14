@@ -17,21 +17,21 @@ helpviewer_keywords:
 - debugging [Visual Studio ALM], IntelliTrace
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 353be65ceb87827bcce56c7fb6a07b6af8919c58
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
+ms.openlocfilehash: 2191ed7d6c091b730be9204d70cec79a0c6e5e44
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54227839"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55035239"
 ---
 # <a name="intellitrace-features-c-visual-basic-c"></a>IntelliTrace 기능 (C#, Visual Basic, c + +)
 
 IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호출을 기록하고 실행 중 다양한 지점에서 상태(호출 스택 및 지역 변수 값)를 검사할 수 있습니다. 평소와 같이 디버깅을 시작하면 됩니다. IntelliTrace가 기본적으로 설정되어 있으므로 **이벤트** 탭 아래의 새로운 **진단 도구** 창에서 IntelliTrace가 기록하는 정보를 확인할 수 있습니다. 이벤트를 선택하고 **기록 디버깅 활성화**를 클릭하면 호출 스택 및 이 이벤트에 대해 기록된 로컬 변수를 볼 수 있습니다.
 
-단계별 설명을 참조 하세요. [연습: IntelliTrace 사용
+단계별 설명을 참조 하세요 [연습: IntelliTrace를 사용 하 여](../debugger/walkthrough-using-intellitrace.md)입니다.
 
 IntelliTrace는 Visual Studio Enterprise Edition에서 사용할 수 있으며 Visual Studio Professional 또는 Community Edition에서는 사용할 수 없습니다.
 

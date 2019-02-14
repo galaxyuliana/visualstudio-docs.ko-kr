@@ -10,19 +10,19 @@ dev_langs:
 ms.assetid: 51893967-98c8-4141-ba40-03646f221760
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1ffb41dc978598264cfff165602c9c9a8e4cce71
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: 131fb1cf2db9a22bb6bc6aa4ca313481c3b399aa
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53947558"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54991582"
 ---
 # <a name="debug-html-and-css-sample-code"></a>HTML 및 CSS 샘플 코드 디버그
   
- 이 항목의 코드에 대 한 샘플 파일이 [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md) QuickStart에서 의도적으로 제공되는 오류는 이 버전의 코드에서 수정됩니다.  
+ 이 항목의 코드에 대 한 샘플 파일이 [빠른 시작: HTML 및 CSS 디버깅](../debugger/quickstart-debug-html-and-css.md)합니다. QuickStart에서 의도적으로 제공되는 오류는 이 버전의 코드에서 수정됩니다.  
   
 ## <a name="sample-code"></a>샘플 코드  
  다음 HTML 코드는 QuickStart의 \<body> 태그에서 사용됩니다.  

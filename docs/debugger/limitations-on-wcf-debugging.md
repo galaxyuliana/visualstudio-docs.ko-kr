@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 8e0333c4-1ddc-4abe-8f1c-d19bf6a2a07a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 51c34e96576b5e227e396310775ba8712312c9da
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 9743e3a5a186b74c5afed6fc4724332faf400a17
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53826983"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55039776"
 ---
 # <a name="limitations-on-wcf-debugging"></a>WCF 디버깅의 제한 사항
 다음 세 가지 방법으로 WCF 서비스의 디버깅을 시작할 수 있습니다.  
@@ -74,7 +74,7 @@ ms.locfileid: "53826983"
   ```  
   
 ## <a name="self-hosting"></a>자체 호스팅  
- *자체 호스팅 서비스*는 IIS, WCF 서비스 호스트 또는 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server 내에서 실행되지 않는 WCF 서비스입니다. 자체 호스팅된 서비스를 디버깅 하는 방법에 대 한 정보를 참조 하세요. [방법: 자체 호스팅 WCF 서비스 디버그](../debugger/how-to-debug-a-self-hosted-wcf-service.md)  
+ *자체 호스팅 서비스*는 IIS, WCF 서비스 호스트 또는 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server 내에서 실행되지 않는 WCF 서비스입니다. 자체 호스팅된 서비스를 디버깅 하는 방법에 대 한 정보를 참조 하세요 [방법: 자체 호스팅 WCF 서비스 디버그](../debugger/how-to-debug-a-self-hosted-wcf-service.md)합니다.  
   
 ## <a name="self-hosting"></a>자체 호스팅  
  [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 또는 3.5 애플리케이션을 디버깅할 수 있으려면 [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)]를 설치하기 전에 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 또는 3.5를 설치해야 합니다. [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)]가 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 또는 3.5 이전에 설치된 경우 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 또는 3.5 애플리케이션을 디버깅하려고 하면 오류가 발생합니다. 오류 메시지는 "서버에 대해 자동으로 한 단계씩 코드를 실행할 수 없습니다."입니다. 이 문제를 해결 하려면 Windows를 사용 하 여 **Control Panel** > **프로그램 및 기능** 복구에 [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] 설치 합니다.  
