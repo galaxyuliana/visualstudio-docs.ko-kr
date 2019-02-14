@@ -1,29 +1,24 @@
 ---
-title: shim을 사용하여 유닛 테스트를 위한 다른 어셈블리에서 응용 프로그램 격리 | Microsoft Docs
-ms.custom: ''
+title: shim을 사용하여 유닛 테스트를 위한 다른 어셈블리에서 애플리케이션 격리 | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: d2a34de2-6527-4c21-8b93-2f268ee894b7
 caps.latest.revision: 14
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: a6cd7efa12fc87c5de4bd82bcfb789d50193dbe7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b5d905c16be219229b62d3f0a9a8d125874a22f0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49904418"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54784143"
 ---
-# <a name="using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing"></a>shim을 사용하여 유닛 테스트를 위한 다른 어셈블리에서 응용 프로그램 격리
+# <a name="using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing"></a>shim을 사용하여 유닛 테스트를 위한 다른 어셈블리에서 애플리케이션 격리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Shim 형식 * *는 환경에서 테스트 중인 구성 요소를 쉽게 격리 시킬 수 있도록 Microsoft Fakes 프레임 워크를 사용 하는 두 가지 기술 중 하나입니다. shim은 특정 메서드 호출을 테스트의 일부로 작성하는 코드로 우회합니다. 대부분의 메서드는 외부 조건에 따라 다른 결과를 반환하지만 shim은 테스트에 의해 제어되며 모든 호출에서 일관된 결과를 반환할 수 있습니다. 이렇게 하면 테스트를 훨씬 쉽게 작성할 수 있습니다.  
+shim 형식은 Microsoft Fakes 프레임워크가 환경에서 테스트 대상 구성 요소를 쉽게 격리시킬 수 있도록 하기 위해 사용하는 두 기술 중 하나입니다. shim은 특정 메서드 호출을 테스트의 일부로 작성하는 코드로 우회합니다. 대부분의 메서드는 외부 조건에 따라 다른 결과를 반환하지만 shim은 테스트에 의해 제어되며 모든 호출에서 일관된 결과를 반환할 수 있습니다. 이렇게 하면 테스트를 훨씬 쉽게 작성할 수 있습니다.  
   
  shim을 사용하여 솔루션의 일부가 아닌 코드를 어셈블리에서 격리할 수 있습니다. 솔루션의 구성 요소를 서로 격리하려면 스텁을 사용하는 것이 좋습니다.  
   
@@ -33,7 +28,7 @@ Shim 형식 * *는 환경에서 테스트 중인 구성 요소를 쉽게 격리 
   
 - Visual Studio Enterprise  
   
-  [비디오(1h16): Visual Studio 2012에서 Fakes를 사용하여 테스트되지 않은 코드 테스트](http://go.microsoft.com/fwlink/?LinkId=261837) 참조  
+  참조 [비디오 ((1h16): Visual Studio 2012에서 Fakes 사용 하 여 테스트 되지 않은 코드 테스트](http://go.microsoft.com/fwlink/?LinkId=261837)  
   
 ## <a name="in-this-topic"></a>항목 내용  
  이 항목에서 학습할 내용은 다음과 같습니다.  
@@ -139,7 +134,7 @@ public void Y2kCheckerTest() {
  각 shim 컨텍스트를 올바르게 삭제하는 것이 중요합니다. 경험상, 항상 `using` 문 내에서 `ShimsContext.Create`를 호출하여 등록된 shim이 제대로 지워지도록 합니다. 예를 들어 항상 2000년 1월 1일을 반환하는 대리자로 `DateTime.Now` 메서드를 대체하는 테스트 메서드에 대해 shim을 등록할 수 있습니다. 테스트 메서드에서 등록된 shim을 지우지 않으면 테스트 실행의 나머지 부분에서 항상 2000년 1월 1일을 DateTime.Now 값으로 반환합니다. 이 결과는 놀라움과 혼동을 줄 수 있습니다.  
   
 ###  <a name="WriteShims"></a> shim을 사용하여 테스트 작성  
- 테스트 코드에서 모조할 메서드에 대해 *우회*를 삽입합니다. 예를 들어:  
+ 테스트 코드에서 모조할 메서드에 대해 *우회*를 삽입합니다. 예:  
   
 ```csharp  
 [TestClass]  
@@ -201,7 +196,7 @@ End Class
   
  shim 클래스 이름은 원래 형식 이름에 `Fakes.Shim` 접두사를 추가하여 구성합니다.  
   
- shim은 테스트 대상 응용 프로그램의 코드에 *우회*를 삽입하여 작동합니다. 원래 메서드가 호출될 때마다 Fakes 시스템은 실제 메서드를 호출하는 대신 shim 코드가 호출되도록 우회를 수행합니다.  
+ shim은 테스트 대상 애플리케이션의 코드에 *우회*를 삽입하여 작동합니다. 원래 메서드가 호출될 때마다 Fakes 시스템은 실제 메서드를 호출하는 대신 shim 코드가 호출되도록 우회를 수행합니다.  
   
  우회는 런타임에 생성 및 삭제됩니다. 항상 `ShimsContext`의 수명 내에서 우회를 만들어야 합니다. 삭제하면 활성화된 동안 만든 shim이 모두 제거됩니다. 이 작업은 `using` 문 내에서 수행하는 것이 가장 좋습니다.  
   
@@ -552,12 +547,9 @@ ShimFile.WriteAllTextStringString = shim;
 ## <a name="external-resources"></a>외부 리소스  
   
 ### <a name="guidance"></a>지침  
- [Visual Studio 2012를 사용한 지속적인 업데이트 테스트 - 2장: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## <a name="see-also"></a>참고 항목  
  [Microsoft Fakes를 사용하여 테스트 중인 코드 격리](../test/isolating-code-under-test-with-microsoft-fakes.md)   
  [Peter Provost의 블로그: Visual Studio 2012 Shim](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)   
- [비디오(1h16): Visual Studio 2012에서 Fakes를 사용하여 테스트되지 않은 코드 테스트](http://go.microsoft.com/fwlink/?LinkId=261837)
-
-
-
+ [비디오(1h16): Visual Studio 2012에서 Fakes 사용 하 여 테스트 되지 않은 코드 테스트](http://go.microsoft.com/fwlink/?LinkId=261837)

@@ -1,24 +1,19 @@
 ---
 title: 빌드 확인 테스트에서 코드 검사 분석 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 59c07d15-511e-4fd0-b398-bde9d5ed00d9
 caps.latest.revision: 10
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: b67986e42a914c73dea99f97611967aa6ee24097
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e7525fe8e01922880199275576a8b12ec29bc029
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49905456"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54834935"
 ---
 # <a name="analyzing-code-coverage-in-build-verification-tests"></a>빌드 확인 테스트에서 코드 검사 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ Microsoft Visual Studio의 코드 검사 분석에서는 자동화된 테스트�
   
     테스트 소스 정의가 두 개 이상일 경우 각각에 대해 이 단계를 반복합니다.  
   
-   - <em>라는 이름의 필드가 이지만 **실행 설정 파일 형식</em>*. *  
+   - <em>하지만 *실행 설정 파일 형식</em>이라는 필드는 없습니다.*  
   
       **자동화된 테스트**에서 **테스트 어셈블리**를 선택한 다음 줄임표 단추 **[...]** 를 선택합니다. **테스트 실행 추가/편집** 대화 상자의 **Test Runner**에서 **Visual Studio Test Runner**를 선택합니다.  
   
@@ -43,6 +38,3 @@ Microsoft Visual Studio의 코드 검사 분석에서는 자동화된 테스트�
   
 ## <a name="see-also"></a>참고 항목  
  [코드 검사를 사용하여 테스트할 코드 범위 결정](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-
-
-

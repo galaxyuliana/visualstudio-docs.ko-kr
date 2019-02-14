@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 761e61a5-44a6-4d5d-a98e-c2e9b89d2343
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ddb54c8084cea8d89b7453fb11547063c338cfee
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: ff59abc8aa0db3d25a42b443cccdc20084dd0d11
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53958373"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55031185"
 ---
 # <a name="idiaenumdebugstreamdataitem"></a>IDiaEnumDebugStreamData::Item
 지정된 된 레코드를 검색합니다.  
@@ -43,7 +43,7 @@ HRESULT Item ( 
  pcbData  
  [out] 반환 된 바이트 수를 반환 합니다. 하는 경우 `data` 됩니다 `NULL`, 다음 `pcbData` 지정된 된 레코드에서 사용 가능한 데이터의 바이트의 총 수를 포함 합니다.  
   
- data[]  
+ 데이터[]  
  [out] 디버그 스트림 레코드 데이터를 사용 하 여 입력 되는 버퍼입니다.  
   
 ## <a name="return-value"></a>반환 값  

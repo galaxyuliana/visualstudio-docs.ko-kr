@@ -1,14 +1,9 @@
 ---
 title: ResolveComReference 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#ResolveComReference
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
 caps.latest.revision: 29
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: bf70e5c2fe77f275f31ed9966df262d64ed2c23d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9f535c1d79b1a37a5a25ff3e6f6d424eb4bc631d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49179363"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54801429"
 ---
 # <a name="resolvecomreference-task"></a>ResolveComReference 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +47,7 @@ ms.locfileid: "49179363"
 |`ResolvedAssemblyReferences`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 확인된 어셈블리 참조를 지정합니다.|  
 |`ResolvedFiles`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 디스크에서 이 작업에 대한 입력으로 제공된 형식 라이브러리의 물리적 위치에 해당하는 정규화된 파일을 지정합니다.|  
 |`ResolvedModules`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.|  
-|`SdkToolsPath`|선택 사항 [String] (<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> `ExecuteAsTool`이 `true`인 경우 이 매개 변수를 대상이 되는 프레임워크 버전의 SDK 도구 경로로 설정해야 합니다.|  
+|`SdkToolsPath`|선택적 <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->String 매개 변수입니다.<br /><br /> `ExecuteAsTool`이 `true`인 경우 이 매개 변수를 대상이 되는 프레임워크 버전의 SDK 도구 경로로 설정해야 합니다.|  
 |`StateFile`|선택적 <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> COM 구성 요소 타임스탬프에 대한 캐시 파일을 지정합니다. 이 매개 변수가 없으면 실행할 때마다 모든 래퍼가 다시 생성됩니다.|  
 |`TargetFrameworkVersion`|선택적 <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 프로젝트 대상 프레임워크 버전을 지정합니다.<br /><br /> 기본값은 `String.Empty`입니다. 대상 프레임워크를 기반으로 하는 참조에 대한 필터링이 없음을 의미합니다.|  
 |`TargetProcessorArchitecture`|선택적 <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 기본 대상 프로세서 아키텍처를 지정합니다. 변환 후에 tlbimp.exe /machine 플래그에 전달됩니다.<br /><br /> 매개 변수 값은 <xref:Microsoft.Build.Utilities.ProcessorArchitecture>의 멤버여야 합니다.|  
@@ -60,7 +55,7 @@ ms.locfileid: "49179363"
 |`TypeLibNames`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 확인할 형식 라이브러리 이름을 지정합니다. 이 매개 변수에 포함된 항목에는 일부 항목 메타데이터가 포함되어야 합니다. 자세한 내용은 아래 “TypeLibNames 항목 메타데이터” 섹션을 참조하세요.|  
 |`WrapperOutputDirectory`|선택적 `String` 매개 변수입니다.<br /><br /> 생성된 interop 어셈블리를 배치할 디스크의 위치입니다. 이 항목 메타데이터를 지정하지 않으면 작업은 프로젝트 파일이 있는 디렉터리의 절대 경로를 사용합니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
   
 ## <a name="typelibnames-item-metadata"></a>TypeLibNames 항목 메타데이터  
  다음 표에서는 `TypeLibNames` 매개 변수에 전달된 항목에 사용 가능한 항목 메타데이터를 설명합니다.  
@@ -70,7 +65,7 @@ ms.locfileid: "49179363"
 |`GUID`|필수 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 GUID입니다. 이 항목 메타데이터를 지정하지 않으면 작업이 실패합니다.|  
 |`VersionMajor`|필수 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 주 버전입니다. 이 항목 메타데이터를 지정하지 않으면 작업이 실패합니다.|  
 |`VersionMinor`|필수 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 부 버전입니다. 이 항목 메타데이터를 지정하지 않으면 작업이 실패합니다.|  
-|`LocaleIdentifier`|선택적 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 로캘 식별자(또는 LCID)입니다. 이 항목 메타데이터는 사용자, 지역 또는 응용 프로그램에서 선호되는 인간 언어를 나타내는 32비트 값으로 지정됩니다. 이 항목 메타데이터를 지정하지 않으면 작업에서 기본 로캘 식별자 “0”이 사용됩니다.|  
+|`LocaleIdentifier`|선택적 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 로캘 식별자(또는 LCID)입니다. 이 항목 메타데이터는 사용자, 지역 또는 애플리케이션에서 선호되는 인간 언어를 나타내는 32비트 값으로 지정됩니다. 이 항목 메타데이터를 지정하지 않으면 작업에서 기본 로캘 식별자 “0”이 사용됩니다.|  
 |`WrapperTool`|선택적 항목 메타데이터입니다.<br /><br /> 이 형식 라이브러리의 어셈블리 래퍼를 생성하는 데 사용되는 래퍼 도구를 지정합니다. 이 항목 메타데이터를 지정하지 않으면 작업에서 기본 래퍼 도구 “tlbimp”가 사용됩니다. 사용 가능한 typelib(대/소문자 구분)는 다음과 같습니다.<br /><br /> -   `Primary`: COM 구성 요소에 대한 이미 생성된 주 interop 어셈블리를 사용하려면 이 래퍼 도구를 사용합니다. 이 래퍼 도구를 사용할 경우 래퍼 출력 디렉터리를 지정하지 마세요. 지정하면 작업이 실패합니다.<br />-   `TLBImp`: COM 구성 요소에 대한 interop 어셈블리를 생성하려면 이 래퍼 도구를 사용합니다.<br />-   `AXImp`: ActiveX 컨트롤에 대한 interop 어셈블리를 생성하려면 이 래퍼 도구를 사용합니다.|  
   
 ## <a name="typelibfiles-item-metadata"></a>TypeLibFiles 항목 메타데이터  
@@ -83,12 +78,9 @@ ms.locfileid: "49179363"
 > [!NOTE]
 >  형식 라이브러리를 고유하게 식별하기 위해 더 많은 정보를 제공할수록 작업이 디스크에서 올바른 파일로 확인될 가능성이 커집니다.  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [Task 기본 클래스](../msbuild/task-base-class.md)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [작업](../msbuild/msbuild-tasks.md)   
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

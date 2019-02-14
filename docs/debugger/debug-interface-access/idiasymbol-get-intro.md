@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 101afe4a-4c57-45de-87b4-330394c6de10
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 05d520947c5e5e998ecf67a1b9dbb6d77bdff2c4
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: f478af5932626a738f0212716511d9a28c1dcde3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53989544"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55000261"
 ---
 # <a name="idiasymbolgetintro"></a>IDiaSymbol::get_intro
 함수를 소개 하는 가상 함수 인지 여부를 지정 하는 플래그를 검색 합니다.  
@@ -40,7 +40,7 @@ HRESULT get_intro ( 
 > [!NOTE]
 >  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```C++  
 class A {  

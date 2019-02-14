@@ -1,38 +1,33 @@
 ---
-title: '연습: 응용 프로그램 빌드 | Microsoft 문서'
-ms.custom: ''
+title: '연습: 응용 프로그램 빌드 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 4842955d-8959-4e4e-98b8-2358360179b3
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: e6c45a552e66c2d256c191f6bd8296f5b2ca2c61
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 7f4103502b3ebd6371f0b1c0ac27c6da7c8904c6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50220210"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799157"
 ---
-# <a name="walkthrough-building-an-application"></a>연습: 응용 프로그램 빌드
+# <a name="walkthrough-building-an-application"></a>연습: 애플리케이션 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습을 완료하면 Visual Studio로 응용 프로그램을 빌드할 때 구성할 수 있는 여러 옵션에 더 익숙해집니다. 다른 작업 중에 샘플 응용 프로그램에 대한 사용자 지정 빌드 구성을 만들고, 특정 경고 메시지를 숨기고, 빌드 출력 정보를 늘립니다.  
+이 연습을 완료하면 Visual Studio로 애플리케이션을 빌드할 때 구성할 수 있는 여러 옵션에 더 익숙해집니다. 다른 작업 중에 샘플 애플리케이션에 대한 사용자 지정 빌드 구성을 만들고, 특정 경고 메시지를 숨기고, 빌드 출력 정보를 늘립니다.  
   
  이 항목에는 다음과 같은 단원이 포함되어 있습니다.  
   
- [샘플 응용 프로그램 설치](../ide/walkthrough-building-an-application.md#BKMK_installapp)  
+ [샘플 애플리케이션 설치](../ide/walkthrough-building-an-application.md#BKMK_installapp)  
   
  [사용자 지정 빌드 구성 만들기](../ide/walkthrough-building-an-application.md#BKMK_CreateBuildConfig)  
   
- [응용 프로그램 빌드](../ide/walkthrough-building-an-application.md#BKMK_building)  
+ [애플리케이션 빌드](../ide/walkthrough-building-an-application.md#BKMK_building)  
   
  [컴파일러 경고 숨기기](../ide/walkthrough-building-an-application.md#BKMK_hidewarning)  
   
@@ -40,10 +35,10 @@ ms.locfileid: "50220210"
   
  [릴리스 빌드 만들기](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)  
   
-##  <a name="BKMK_installapp"></a> 샘플 응용 프로그램 설치  
- **확장 및 업데이트** 대화 상자를 사용하여 Microsoft 웹 사이트의 샘플 갤러리에서 [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE)(WPF 응용 프로그램 빌드 소개) 샘플을 찾아서 설치합니다. 샘플 갤러리에서는 응용 프로그램을 계획하고 개발할 때 다운로드 및 검토할 수 있는 다양한 예제 프로젝트 및 코드를 제공합니다.  
+##  <a name="BKMK_installapp"></a> 샘플 애플리케이션 설치  
+ **확장 및 업데이트** 대화 상자를 사용하여 Microsoft 웹 사이트의 샘플 갤러리에서 [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE)(WPF 애플리케이션 빌드 소개) 샘플을 찾아서 설치합니다. 샘플 갤러리에서는 애플리케이션을 계획하고 개발할 때 다운로드 및 검토할 수 있는 다양한 예제 프로젝트 및 코드를 제공합니다.  
   
-#### <a name="to-install-the-sample-application"></a>샘플 응용 프로그램을 설치하려면  
+#### <a name="to-install-the-sample-application"></a>샘플 애플리케이션을 설치하려면  
   
 1. 메뉴 모음에서 **도구**, **확장 및 업데이트**를 선택합니다.  
   
@@ -53,19 +48,19 @@ ms.locfileid: "50220210"
   
     ![확장 및 업데이트 대화 상자](../ide/media/buildwalk-extensionsdialogsampledownload.png "BuildWalk_ExtensionsDialogSampleDownload")  
   
-4. 결과 목록에서 **Introduction to Building WPF Applications (Visual C#)**(WPF 응용 프로그램 빌드 소개(Visual C#)) 또는 **Introduction to Building WPF Applications (Visual Basic)**(WPF 응용 프로그램 빌드 소개(Visual Basic))를 선택합니다.  
+4. 결과 목록에서 **Introduction to Building WPF Applications (Visual C#)**(WPF 애플리케이션 빌드 소개(Visual C#)) 또는 **Introduction to Building WPF Applications (Visual Basic)**(WPF 애플리케이션 빌드 소개(Visual Basic))를 선택합니다.  
   
 5. **다운로드** 단추를 선택하고 나서 **닫기** 단추를 선택합니다.  
   
-   Introduction to Building WPF Applications(WPF 응용 프로그램 빌드 소개) 샘플이 **새 프로젝트** 대화 상자에 나타납니다.  
+   Introduction to Building WPF Applications(WPF 애플리케이션 빌드 소개) 샘플이 **새 프로젝트** 대화 상자에 나타납니다.  
   
-#### <a name="to-create-a-solution-for-the-sample-application"></a>샘플 응용 프로그램에 대한 솔루션을 만들려면  
+#### <a name="to-create-a-solution-for-the-sample-application"></a>샘플 애플리케이션에 대한 솔루션을 만들려면  
   
 1.  **새 프로젝트** 대화 상자를 엽니다.  
   
      ![메뉴 모음에서 파일, 새로 만들기, 프로젝트를 차례로 선택합니다.](../ide/media/exploreide-filenewproject.png "ExploreIDE-FileNewProject")  
   
-2.  **설치됨** 범주에서 **샘플** 범주를 선택하여 Introduction to Building WPF Applications(WPF 응용 프로그램 빌드 소개) 샘플을 표시합니다.  
+2.  **설치됨** 범주에서 **샘플** 범주를 선택하여 Introduction to Building WPF Applications(WPF 애플리케이션 빌드 소개) 샘플을 표시합니다.  
   
 3.  Visual C#의 경우 솔루션 이름을 `IntroWPFcsharp`로 지정합니다.  
   
@@ -80,7 +75,7 @@ ms.locfileid: "50220210"
 4.  **확인** 단추를 선택합니다.  
   
 ##  <a name="BKMK_CreateBuildConfig"></a> 사용자 지정 빌드 구성 만들기  
- 솔루션을 만들면 솔루션에 대한 디버그 및 릴리스 빌드 구성과 해당 기본 플랫폼 대상이 자동으로 정의됩니다. 나중에 이러한 구성을 사용자 지정하거나 고유한 구성을 만들 수 있습니다. 빌드 구성은 빌드 형식을 지정합니다. 빌드 플랫폼은 응용 프로그램이 해당 구성에 대한 대상으로 지정하는 운영 체제를 지정합니다. 자세한 내용은 [빌드 구성 이해](../ide/understanding-build-configurations.md), [빌드 플랫폼 이해](../ide/understanding-build-platforms.md) 및 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.  
+ 솔루션을 만들면 솔루션에 대한 디버그 및 릴리스 빌드 구성과 해당 기본 플랫폼 대상이 자동으로 정의됩니다. 나중에 이러한 구성을 사용자 지정하거나 고유한 구성을 만들 수 있습니다. 빌드 구성은 빌드 형식을 지정합니다. 빌드 플랫폼은 애플리케이션이 해당 구성에 대한 대상으로 지정하는 운영 체제를 지정합니다. 자세한 내용은 [빌드 구성 이해](../ide/understanding-build-configurations.md), [빌드 플랫폼 이해](../ide/understanding-build-platforms.md) 및 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.  
   
  **구성 관리자** 대화 상자를 사용하여 구성 및 플랫폼 설정을 변경하거나 만들 수 있습니다. 이 절차에서는 테스트용 빌드 구성을 만듭니다.  
   
@@ -98,7 +93,7 @@ ms.locfileid: "50220210"
   
 4. **활성 솔루션 플랫폼** 목록에서 **새로 만들기**를 선택합니다.  
   
-5. 에 **새 솔루션 플랫폼** 대화 상자에서 **x64**, x86에서 설정을 복사 하지 않습니다 플랫폼입니다.  
+5. 5. **새 솔루션 플랫폼** 대화 상자에서 **x64**를 선택하지만 x86 플랫폼에서 설정을 복사하지 않습니다.  
   
     ![새 솔루션 플랫폼 대화 상자](../ide/media/buildwalk-newsolutionplatform.png "BuildWalk_NewSolutionPlatform")  
   
@@ -112,7 +107,7 @@ ms.locfileid: "50220210"
   
    ![솔루션 구성 옵션 표준 도구 모음](../ide/media/buildwalk-standardtoolbarsolutioncongfig.png "BuildWalk_StandardToolbarSolutionCongfig")  
   
-##  <a name="BKMK_building"></a> 응용 프로그램 빌드  
+##  <a name="BKMK_building"></a> 애플리케이션 빌드  
  다음에는 사용자 지정 빌드 구성을 사용하여 솔루션을 빌드합니다.  
   
 #### <a name="to-build-the-solution"></a>솔루션을 빌드하려면  
@@ -206,9 +201,9 @@ ms.locfileid: "50220210"
    자세한 내용은 [방법: 빌드 로그 파일 보기, 저장 및 구성](../ide/how-to-view-save-and-configure-build-log-files.md)을 참조하세요.  
   
 ##  <a name="BKMK_releasebuild"></a> 릴리스 빌드 만들기  
- 전달에 최적화된 샘플 응용 프로그램 버전을 빌드할 수 있습니다. 릴리스 빌드의 경우 빌드가 시작되기 전에 실행 파일이 네트워크 공유에 복사되도록 지정합니다.  
+ 전달에 최적화된 샘플 애플리케이션 버전을 빌드할 수 있습니다. 릴리스 빌드의 경우 빌드가 시작되기 전에 실행 파일이 네트워크 공유에 복사되도록 지정합니다.  
   
- 자세한 내용은 [방법: 빌드 출력 디렉터리 변경](../ide/how-to-change-the-build-output-directory.md) 및 [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)를 참조하세요.  
+ 자세한 내용은 [방법: 빌드 출력 디렉터리 변경](../ide/how-to-change-the-build-output-directory.md) 하 고 [프로젝트와 Visual Studio에서 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)합니다.  
   
 #### <a name="to-specify-a-release-build-for-visual-basic"></a>Visual Basic에 대한 릴리스 빌드를 지정하려면  
   
@@ -229,7 +224,7 @@ ms.locfileid: "50220210"
     > [!IMPORTANT]
     >  지정한 네트워크 공유가 신뢰할 수 있는 위치가 아님을 알리는 메시지 상자가 나타날 수 있습니다. 지정한 위치를 신뢰하는 경우 메시지 상자에서 **확인** 단추를 선택합니다.  
   
-6.  응용 프로그램을 빌드합니다.  
+6.  애플리케이션을 빌드합니다.  
   
      ![빌드 메뉴의 솔루션 빌드 명령](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
@@ -252,7 +247,7 @@ ms.locfileid: "50220210"
    > [!IMPORTANT]
    >  지정한 네트워크 공유가 신뢰할 수 있는 위치가 아님을 알리는 메시지 상자가 나타날 수 있습니다. 지정한 위치를 신뢰하는 경우 메시지 상자에서 **확인** 단추를 선택합니다.  
   
-6. 응용 프로그램을 빌드합니다.  
+6. 애플리케이션을 빌드합니다.  
   
     ![빌드 메뉴의 솔루션 빌드 명령](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
@@ -262,8 +257,5 @@ ms.locfileid: "50220210"
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 프로젝트 빌드(C++)](http://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)   
- [ASP.NET 웹 응용 프로그램 프로젝트 미리 컴파일 개요](http://msdn.microsoft.com/en-us/b940abbd-178d-4570-b441-52914fa7b887)   
+ [ASP.NET 웹 애플리케이션 프로젝트 미리 컴파일 개요](http://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)   
  [연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)
-
-
-

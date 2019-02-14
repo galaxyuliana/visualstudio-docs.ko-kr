@@ -12,15 +12,15 @@ helpviewer_keywords:
 ms.assetid: e61d5787-fe1f-4ebf-b0cf-0d7909be7ffb
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2370f8e394727c0a4f83488a77096b10cb36746c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: eab1e5d8ab9a4e1644c8eb1a99d1aab4fdf6d9e0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53990453"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54928076"
 ---
 # <a name="ltcommandsgt-element-bootstrapper"></a>&lt;명령을&gt; 요소 (부트스트래퍼)
 `Commands` 요소 아래에서 설명 하는 테스트를 구현 하는 `InstallChecks` 요소를 패키지를 선언 하 고는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 부트스트래퍼를 테스트에 실패 하면 설치 해야 합니다.  
@@ -125,7 +125,7 @@ ms.locfileid: "53990453"
 |`String`|선택 사항입니다. 이 종료 코드에 대 한 응답에서 사용자에 게 표시할 값입니다.|  
 |`FormatMessageFromSystem`|선택 사항입니다. 종료 코드에 해당 하는 시스템 제공 오류 메시지에 제공 된 값을 사용 하 여를 사용할지 결정 `String`합니다. 유효한 값은 `true`, 즉, 시스템 제공 오류 데 및 `false`, 즉, 제공한 문자열을 사용 하도록 `String`합니다. 기본값은 `false`입니다. 이 속성이 `false`, 하지만 `String` 시스템 제공 오류 사용될지를 설정 하지 않으면.|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는.NET Framework 2.0을 설치 하기 위한 명령을 정의 합니다.  
   
 ```xml  

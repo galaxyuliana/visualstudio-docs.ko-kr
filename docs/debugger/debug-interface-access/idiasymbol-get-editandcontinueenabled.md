@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: cd703c64-9ff8-4654-8493-8cde9309cb22
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e918c13002fc6ae171122a4ebcc642e9cb9c5824
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 16e22de399d69c2e22cb4c24e12504786a28df74
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53863951"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54951614"
 ---
 # <a name="idiasymbolgeteditandcontinueenabled"></a>IDiaSymbol::get_editAndContinueEnabled
 모듈을 사용 하 여 컴파일된 여부를 나타내는 플래그를 검색 합니다 [/z7, /Zi, /ZI (디버그 정보 형식)](/cpp/build/reference/z7-zi-zi-debug-information-format) 컴파일러 스위치입니다.  

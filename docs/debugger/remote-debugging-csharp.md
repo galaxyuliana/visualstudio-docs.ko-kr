@@ -16,15 +16,15 @@ helpviewer_keywords:
 ms.assetid: a9753fbb-e7f4-47f0-9dbe-9de90c6c8457
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 3f923d145d52ac86ad99c9aecd9875be4f78d4ef
-ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
+ms.openlocfilehash: 2b29907488ba276f3deb18e10cf47a0205501e1e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54270114"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54982886"
 ---
 # <a name="remote-debugging-a-c-or-visual-basic-project-in-visual-studio"></a>원격 디버깅을 C# 또는 Visual Studio에서 Visual Basic 프로젝트
 다른 컴퓨터에 배포 된 Visual Studio 응용 프로그램을 디버깅 하려면 설치 하 고 앱을 배포한 컴퓨터에서 원격 도구를 실행, Visual Studio에서 원격 컴퓨터에 연결 하도록 프로젝트를 구성 및 응용 프로그램을 실행 합니다.

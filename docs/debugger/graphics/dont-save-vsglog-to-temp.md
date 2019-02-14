@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: f27ab0e6-9575-4ca0-9901-37d3e5c3a2f5
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d945f3ef7fe2c5aa2abb0bd2263bae693d517f7c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 967ff50991efbbd7b598605abd992b298367d01c
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53859161"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55006179"
 ---
 # <a name="dontsavevsglogtotemp"></a>DONT_SAVE_VSGLOG_TO_TEMP
 그래픽 로그 파일이 사용자의 임시 파일 디렉터리에 저장되는지 여부를 존재로 정의합니다.  
@@ -32,7 +32,7 @@ ms.locfileid: "53859161"
 
  그래픽 로그 파일 임시 파일 디렉터리에 저장 되 고을 방지 하려면 정의 해야 합니다 `DONT_SAVE_VSGLOG_TO_TEMP` 포함 하기 전에 `vsgcapture.h`입니다.  
 
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 호스트 컴퓨터의 절대 경로를 그래픽 로그 파일을 저장 하는 방법을 보여 줍니다.  
 
 ```cpp

@@ -1,5 +1,5 @@
 ---
-title: 'Idiasession:: Findfile | Microsoft Docs'
+title: IDiaSession::findFile | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: a215dc21-b316-40d7-9923-55bfa014976b
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 72b010b60ef911dea970bf68567fc75a8c29e04f
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 59d36847416801965841d79b5be9e9a654487b96
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53875931"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54986906"
 ---
 # <a name="idiasessionfindfile"></a>IDiaSession::findFile
 컴파일 대상 이름으로 소스 파일을 검색 합니다.  
@@ -49,7 +49,7 @@ HRESULT findFile ( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```C++  
 IDiaEnumSourceFiles* pEnum;  

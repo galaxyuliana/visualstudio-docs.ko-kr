@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 39f22db8-632a-4ef0-babc-23f758e6d937
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 340e6a8cffbf681bb9e976664ccbbe15e6b00786
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 7b15d8cb68336de044e79484533124cbb8080348
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53918735"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55036084"
 ---
 # <a name="idialoadcallback2restrictsystemrootaccess"></a>IDiaLoadCallback2::RestrictSystemRootAccess
 시스템 루트 디렉터리에.pdb 파일을 검색할 허용 되는지 여부를 결정 합니다.  

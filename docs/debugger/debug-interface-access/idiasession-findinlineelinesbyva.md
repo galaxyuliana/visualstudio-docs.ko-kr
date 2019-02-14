@@ -7,15 +7,15 @@ dev_langs:
 ms.assetid: dffe6594-e0d1-4ed5-aeea-8773f88d82a6
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 637161fc197a34ceb1b8e2704bbc0e695aaa2ff1
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 520f15e56ad1a6370c444ce6a7596ac55f25e6d3
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53893447"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54949313"
 ---
 # <a name="idiasessionfindinlineelinesbyva"></a>IDiaSession::findInlineeLinesByVA
 클라이언트가 모든 없는 함수를 인라인을 직접 또는 간접적으로 지정 된 부모 기호는 줄 번호 정보를 반복 하는 데 사용 하는 지정 된 가상 주소 (VA) 내에 포함 된 열거자를 검색 합니다.  

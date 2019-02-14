@@ -3,11 +3,8 @@ title: 명령줄 매개 변수를 사용 하 여 Visual Studio 2015를 설치 �
 titleSuffix: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-install
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 f1_keywords:
 - command-line parameters
 - switches
@@ -16,13 +13,13 @@ ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 caps.latest.revision: 10
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
-ms.openlocfilehash: e81e9f7fad5976ad853254e04289d89d09b87ac6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: cd61d03b5639038612e305697f4245e582ee3efe
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53922184"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54794041"
 ---
 # <a name="use-command-line-parameters-to-install-visual-studio"></a>명령줄 매개 변수를 사용하여 Visual Studio 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,16 +37,16 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [명령줄 �
 |매개 변수|설명|
 |---------------|-----------------|
 |**/?**<br /><br /> **/help**<br /><br /> **/h**|명령줄 매개 변수를 표시합니다.|
-|**/ AddRemoveFeatures**|설치된 제품에서 추가하거나 제거할 기능을 지정합니다.|
-|**/ AdminFile** *AdminDeployment.xml*|관리 설치용으로 지정한 데이터 파일을 사용하여 Visual Studio를 설치합니다.|
-|**/ ChainingPackage** *BundleName*|이 번들을 연결하는 번들을 지정합니다. 고객 환경 개선 프로그램 cohort를 지정할 수도 있습니다.|
-|**/ CreateAdminFile \<파일 이름 >**|/AdminFile로 사용할 수 있는 제어 파일을 만들 위치를 지정합니다.|
-|**/ CustomInstallPath** *InstallationDirectory*|지정한 디렉터리에 대상 변경 가능 패키지를 모두 설치합니다.|
-|**/ ForceRestart**|설치 후 항상 컴퓨터를 다시 시작합니다.|
+|**/AddRemoveFeatures**|설치된 제품에서 추가하거나 제거할 기능을 지정합니다.|
+|**/AdminFile** *AdminDeployment.xml*|관리 설치용으로 지정한 데이터 파일을 사용하여 Visual Studio를 설치합니다.|
+|**/ChainingPackage** *BundleName*|이 번들을 연결하는 번들을 지정합니다. 고객 환경 개선 프로그램 cohort를 지정할 수도 있습니다.|
+|**/CreateAdminFile \<filename>**|/AdminFile로 사용할 수 있는 제어 파일을 만들 위치를 지정합니다.|
+|**/CustomInstallPath** *InstallationDirectory*|지정한 디렉터리에 대상 변경 가능 패키지를 모두 설치합니다.|
+|**/ForceRestart**|설치 후 항상 컴퓨터를 다시 시작합니다.|
 |**/full**|모든 제품 기능을 설치합니다.|
 |**/ InstallSelectableItems \<1 항목 이름 > [;\< 항목 이름 2 >]**|설치 마법사의 선택 화면에서 선택할 선택 트리 항목의 목록입니다.|
-|**/l**<br /><br /> **/ 로그인** *파일 이름*|로그 파일의 위치를 지정합니다.|
-|**/layout** *디렉터리*|설치 미디어에 있는 파일을 지정한 디렉터리로 복사합니다.|
+|**/l**<br /><br /> **/Log** *Filename*|로그 파일의 위치를 지정합니다.|
+|**/layout** *Directory*|설치 미디어에 있는 파일을 지정한 디렉터리로 복사합니다.|
 |**/NoCacheOnlyMode**|패키지 캐시 미리 채우기를 방지합니다.|
 |**/NoRefresh**|필수 또는 권장 업데이트 버전에 대해 이 제품의 최신 버전을 선택할 수 없게 합니다.|
 |**/norestart**|설치 응용 프로그램에서 설치 중 또는 설치 후 컴퓨터를 다시 시작하지 않습니다. 찾으려는 반환 코드에 대한 [Visual Studio 관리자 가이드](../install/visual-studio-administrator-guide.md)의 반환 코드 섹션을 참조하세요.|
@@ -62,7 +59,7 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [명령줄 �
 |**/repair**|Visual Studio를 복구합니다.|
 |**/SuppressRefreshPrompt**|설치 마법사에 업데이트 사용 가능 대화 상자가 표시되지 않도록 하므로 설치 마법사가 필수 또는 권장 업데이트 버전을 자동으로 수락합니다.|
 |**/u**<br /><br /> **/Uninstall**|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 제거합니다.|
-|**/Uninstall /Force**<br /><br /> **/u /force**|Visual Studio 및 다른 제품과 공유하는 모든 기능을 제거합니다. **경고:**  이 매개 변수를 사용할 경우 같은 컴퓨터에 설치된 다른 제품이 제대로 작동하지 않을 수 있습니다.|
+|**/Uninstall /Force**<br /><br /> **/u /force**|Visual Studio 및 다른 제품과 공유하는 모든 기능을 제거합니다. **경고:** 동일한 컴퓨터에 설치 된 다른 제품이 제대로 작동 하지 않을 경우이 매개 변수를 사용 합니다.|
 
 ## <a name="see-also"></a>참고 항목
  [Visual Studio 관리자 가이드](../install/visual-studio-administrator-guide.md)

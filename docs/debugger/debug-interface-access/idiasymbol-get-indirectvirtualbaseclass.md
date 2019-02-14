@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 853b5c6f-e1cb-4675-ad36-9ee16e3341c3
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4328c7b8a1506cb21a9c1af9dcfeb3e32140d9fd
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 40764a85cca7b23567411bbea765f132667265b0
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53957540"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54984030"
 ---
 # <a name="idiasymbolgetindirectvirtualbaseclass"></a>IDiaSymbol::get_indirectVirtualBaseClass
 사용자 정의 데이터 형식에는 간접 가상 기본 클래스 인지 여부를 지정 하는 플래그를 검색 합니다.  

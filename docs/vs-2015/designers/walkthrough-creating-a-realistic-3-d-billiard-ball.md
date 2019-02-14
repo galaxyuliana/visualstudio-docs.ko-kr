@@ -1,27 +1,22 @@
 ---
-title: '연습: 사실적인 3차원 당구공 만들기 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 사실적인 3 차원 당구 공 만들기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: af8eb0f3-bf6a-4d1c-ab47-dcd88ab04efa
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 29d45f4d5df6131182dfe70467e655bd23f6fcf2
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: e63b1d767fca3514f6f765c56362d0e395496fc4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49829588"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54793307"
 ---
-# <a name="walkthrough-creating-a-realistic-3-d-billiard-ball"></a>연습: 사실적인 3차원 당구공 만들기
+# <a name="walkthrough-creating-a-realistic-3-d-billiard-ball"></a>연습: 사실적인 3 차원 당구 공 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 연습에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 셰이더 디자이너 및 이미지 편집기를 사용하여 사실적인 3차원 당구공을 만드는 방법을 보여 줍니다. 당구공의 3차원 모양을 만들려면 여러 셰이더 기술을 적절한 질감 리소스와 결합합니다.  
@@ -193,7 +188,7 @@ ms.locfileid: "49829588"
   
    ![환경 큐브 맵의 레이아웃](../designers/media/gfx-shader-demo-billiard-art-env-texture-top.png "gfx_shader_demo_billiard_art_env_texture_top")  
   
-   맨 위에 있는 이미지는 양수 Y (+ Y) 큐브 면; 왼쪽에서 오른쪽, 가운데에는-X + Z, + X 및-Z 큐브 면입니다. 맨 아래에-Y 큐브 면입니다.  
+   위쪽의 이미지는 양의 Y(+Y) 큐브 면이고, 중간에, 왼쪽에서 오른쪽까지 이미지는 -X, +Z, +X 및 -Z 큐브 면이고, 아래쪽의 이미지는 -Y 큐브 면입니다.  
   
    이제 큐브 맵 샘플을 나머지 셰이더로 혼합하도록 셰이더를 수정할 수 있습니다.  
   
@@ -221,10 +216,7 @@ ms.locfileid: "49829588"
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 셰이더 내보내기](../designers/how-to-export-a-shader.md)   
- [방법: 3D 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)   
+ [방법: 3 차원 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)   
  [셰이더 디자이너](../designers/shader-designer.md)   
  [이미지 편집기](../designers/image-editor.md)   
  [셰이더 디자이너 노드](../designers/shader-designer-nodes.md)
-
-
-

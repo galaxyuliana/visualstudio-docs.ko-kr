@@ -1,5 +1,5 @@
 ---
-title: 'Idiasession:: Findlinesbylinenum | Microsoft Docs'
+title: IDiaSession::findLinesByLinenum | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 76d5622d-9a91-4c2a-a98f-263af5d1daef
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c2d34539d84e359366fa0ecc06b87f2a6c8b1fd6
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: a1e59970a35da4671ae5002d5e125e48fc72a3fe
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53867867"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54944919"
 ---
 # <a name="idiasessionfindlinesbylinenum"></a>IDiaSession::findLinesByLinenum
 컴파일 대상에 있는 소스 파일에서 지정 된 줄 번호 또는 근처의 줄 번호를 확인 합니다.  
@@ -56,7 +56,7 @@ HRESULT findLinesByLinenum ( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 소스 파일을 열고이 파일에 제공한 컴파일 대상 열거, 각 컴파일 대상 시작 되는 소스 파일의 줄 번호를 찾으려면 하는 방법을 보여 줍니다.  
   
 ```C++  

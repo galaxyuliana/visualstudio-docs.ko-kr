@@ -1,14 +1,9 @@
 ---
 title: '방법: 증분 빌드 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, incremental builds
 - incremental builds
@@ -17,13 +12,13 @@ ms.assetid: 8d82d7d8-a2f1-4df6-9d2f-80b9e0cb3ac3
 caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 88ad4f984af2be6884005c5ec3c7dec4d7b5c6aa
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b1bcb8752d8defacadc641f55594e354e081d5cb
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49844623"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54803912"
 ---
 # <a name="how-to-build-incrementally"></a>방법: 증분 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,14 +52,14 @@ ms.locfileid: "49844623"
 </Target>  
 ```  
   
- 대상에 입력 및 출력이 지정된 경우 각 출력은 하나의 입력에만 매핑될 수 있습니다. 그렇지 않으면 출력과 입력 간에 직접 매핑이 없을 수 있습니다. 이전 [Csc 작업](../msbuild/csc-task.md), 예를 들어 출력 hello.exe는 단일 입력에 매핑할 수 없습니다 – 모든 속성에 따라 다릅니다.  
+ 대상에 입력 및 출력이 지정된 경우 각 출력은 하나의 입력에만 매핑될 수 있습니다. 그렇지 않으면 출력과 입력 간에 직접 매핑이 없을 수 있습니다. 예를 들어 이전 [Csc 작업](../msbuild/csc-task.md)에서 출력 hello.exe는 단일 입력에 매핑될 수 없습니다. 이 출력은 모든 입력을 사용합니다.  
   
 > [!NOTE]
 >  입력과 출력 간에 직접 매핑이 없는 대상은 항상 각 출력이 하나의 입력에만 매핑될 수 있는 대상보다 더 자주 빌드됩니다. 이는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 일부 입력이 변경된 경우 다시 빌드해야 하는 출력을 결정할 수 없기 때문입니다.  
   
  출력과 입력 간에 직접 매핑을 식별할 수 있는 작업(예: [LC 작업](../msbuild/lc-task.md))은 많은 입력에서 하나의 출력 어셈블리를 생성하는 `Csc` 및 [Vbc](../msbuild/vbc-task.md)와 같은 작업과 달리 증분 빌드에 가장 적합합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 가상 도움말 시스템에 대한 도움말 파일을 빌드하는 프로젝트를 사용합니다. 프로젝트는 소스 .txt 파일을 중간 .content 파일로 변환하는 방식으로 작동합니다. .content 파일은 이후 XML 메타데이터와 결합되어 도움말 시스템에서 사용되는 최종 .help 파일을 생성합니다. 프로젝트는 다음 가상 작업을 사용합니다.  
   
 - `GenerateContentFiles`: .txt 파일을 .content 파일로 변환합니다.  
@@ -116,6 +111,3 @@ ms.locfileid: "49844623"
  [변환](../msbuild/msbuild-transforms.md)   
  [Csc 작업](../msbuild/csc-task.md)   
  [Vbc 작업](../msbuild/vbc-task.md)
-
-
-

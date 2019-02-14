@@ -1,5 +1,5 @@
 ---
-title: 'Idiasymbol:: Get_undecoratednameex | Microsoft Docs'
+title: IDiaSymbol::get_undecoratedNameEx | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 579aed0b-c57d-41a1-a94a-3bf665fd4a9d
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 715ab90837441974c05176c69c53366199e3543c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 1db5d9b876beecc68345075a624e0368d8115999
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53932183"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54928831"
 ---
 # <a name="idiasymbolgetundecoratednameex"></a>IDiaSymbol::get_undecoratedNameEx
 C + + 데코 레이트 되지 않은 이름의 전체 또는 일부 검색 데코 레이트 된 이름 (링크).  

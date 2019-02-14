@@ -45,7 +45,7 @@ HRESULT findSymbolByVA ( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```C++  
 IDiaSymbol* pFunc;  

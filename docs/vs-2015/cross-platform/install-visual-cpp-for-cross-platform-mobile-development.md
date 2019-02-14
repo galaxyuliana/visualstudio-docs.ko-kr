@@ -1,33 +1,28 @@
 ---
 title: 플랫폼 간 모바일 개발용 Visual C++ 설치 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-mobile
+ms.topic: conceptual
 dev_langs:
 - C++
 ms.assetid: aaea6b8d-55eb-4427-8185-c050f855c257
 caps.latest.revision: 17
 author: corob-msft
 ms.author: corob
-manager: ghogen
-ms.openlocfilehash: 0c8cbe8992a1035e2fb4a26feb9a77b5546bfa56
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 47285fe9fb57b9c4d5d80c60f9e626f394e11934
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51786017"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54762861"
 ---
 # <a name="install-visual-c-for-cross-platform-mobile-development"></a>플랫폼 간 모바일 개발용 Visual C++ 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-플랫폼 간 모바일 개발용 visual c + +] (http://go.microsoft.com/fwlink/p/?LinkId=536383) 는 Visual Studio 2015의 설치 가능한 구성 요소입니다. 플랫폼 간 Visual Studio 템플릿을 포함하며, 직접 찾아서 다운로드 및 구성하지 않고도 신속하게 시작할 수 있도록 플랫폼 간 도구 및 SDK를 설치합니다. Visual Studio에서 이러한 도구를 사용하여 플랫폼 간 프로젝트를 쉽게 만들고, 편집, 디버그 및 테스트할 수 있습니다. 이 항목에서는 Visual Studio를 사용하여 플랫폼 간 앱을 개발하는 데 필요한 도구 및 타사 소프트웨어를 설치하는 방법을 설명합니다. 구성 요소의 개요는 [Visual C++ 플랫폼 간 모바일](http://go.microsoft.com/fwlink/p/?LinkId=536387)을 참조하세요.  
+http://go.microsoft.com/fwlink/p/?LinkId=536383)플랫폼 간 모바일 개발용 Visual C++ 는 Visual Studio 2015의 설치 가능한 구성 요소입니다. 플랫폼 간 Visual Studio 템플릿을 포함하며, 직접 찾아서 다운로드 및 구성하지 않고도 신속하게 시작할 수 있도록 플랫폼 간 도구 및 SDK를 설치합니다. Visual Studio에서 이러한 도구를 사용하여 플랫폼 간 프로젝트를 쉽게 만들고, 편집, 디버그 및 테스트할 수 있습니다. 이 항목에서는 Visual Studio를 사용하여 플랫폼 간 앱을 개발하는 데 필요한 도구 및 타사 소프트웨어를 설치하는 방법을 설명합니다. 구성 요소의 개요는 [Visual C++ 플랫폼 간 모바일](http://go.microsoft.com/fwlink/p/?LinkId=536387)을 참조하세요.  
   
  [요구 사항](#Requirements)   
  [도구 다운로드](#GetTheTools)   
@@ -40,11 +35,11 @@ ms.locfileid: "51786017"
 - 설치 요구 사항은 [Visual Studio 2015 시스템 요구 사항](https://www.visualstudio.com/visual-studio-2015-system-requirements-vs)을 참조하세요.  
   
   > [!IMPORTANT]
-  >  Windows 7 또는 Windows Server 2008 R2를 사용하는 경우 클래식 Windows 응용 프로그램용 코드, Android Native Activity 앱 및 라이브러리, iOS용 앱 및 코드 라이브러리를 개발할 수 있지만 Windows 스토어 또는 유니버설 Windows 앱은 개발할 수 없습니다.  
+  >  Windows 7 또는 Windows Server 2008 R2를 사용하는 경우 클래식 Windows 애플리케이션용 코드, Android Native Activity 앱 및 라이브러리, iOS용 앱 및 코드 라이브러리를 개발할 수 있지만 Windows 스토어 또는 유니버설 Windows 앱은 개발할 수 없습니다.  
   
   특정 디바이스 플랫폼용 앱을 빌드하려는 경우에는 다음의 몇 가지 요구 사항이 추가로 적용됩니다.  
   
-- Windows Phone 에뮬레이터 및 Android용 Microsoft Visual Studio 에뮬레이터를 사용하려면 Hyper-V를 실행할 수 있는 컴퓨터가 필요합니다. 에뮬레이터를 설치하고 실행하려면 먼저 Windows에서 Hyper-V 기능을 사용하도록 설정해야 합니다. 자세한 내용은 에뮬레이터의 [시스템 요구 사항](http://msdn.microsoft.com/en-us/4d5bb438-231a-4cd2-84b7-e9660b0e3baf)을 참조하세요.  
+- Windows Phone 에뮬레이터 및 Android용 Microsoft Visual Studio 에뮬레이터를 사용하려면 Hyper-V를 실행할 수 있는 컴퓨터가 필요합니다. 에뮬레이터를 설치하고 실행하려면 먼저 Windows에서 Hyper-V 기능을 사용하도록 설정해야 합니다. 자세한 내용은 에뮬레이터의 [시스템 요구 사항](http://msdn.microsoft.com/4d5bb438-231a-4cd2-84b7-e9660b0e3baf)을 참조하세요.  
   
 - Android SDK와 함께 제공되는 x86 Android 에뮬레이터는 Intel HAXM 드라이버를 실행할 수 있는 컴퓨터에서 가장 잘 작동합니다. 이 드라이버를 사용하려면 VT-x 및 XD 비트(Execute Disable Bit)를 지원하는 Intel x64 프로세서가 필요합니다. 자세한 내용은 [Intel ® Hardware Accelerated Execution Manager 설치 지침 - Microsoft Windows](http://go.microsoft.com/fwlink/p/?LinkId=536385)(영문)를 참조하세요.  
   
@@ -142,4 +137,3 @@ ms.locfileid: "51786017"
 ## <a name="see-also"></a>참고 항목  
  [iOS를 사용하여 빌드할 도구 설치 및 구성](../cross-platform/install-and-configure-tools-to-build-using-ios.md)   
  [Visual C++ 플랫폼 간 모바일](https://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx)
-

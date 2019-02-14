@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: a46b9d0e-43e6-433f-b2c7-aa203981e4e4
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6593092fc155a375480f082a1f82dc53a1d851fa
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e2435d009197c77945476fbc173b1b74e33a9be9
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53834141"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54943645"
 ---
 # <a name="idiaaddressmapsetimageheaders"></a>IDiaAddressMap::set_imageHeaders
 집합에는 상대 가상 주소 변환을 사용 하도록 설정 하는 헤더 이미지입니다.  
@@ -36,7 +36,7 @@ HRESULT set_imageHeaders ( 
  cbData  
  [in] 헤더 데이터의 바이트 수입니다. 여야 `n*sizeof(IMAGE_SECTION_HEADER)` 여기서 `n` 실행 파일의 섹션 헤더입니다.  
   
- data[]  
+ 데이터[]  
  [in] 배열을 `IMAGE_SECTION_HEADER` 이미지 헤더로 사용할 구조입니다.  
   
  originalHeaders  

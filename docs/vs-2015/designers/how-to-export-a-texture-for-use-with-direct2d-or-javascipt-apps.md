@@ -1,30 +1,25 @@
 ---
-title: '방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기 | Microsoft Docs'
-ms.custom: ''
+title: '방법: Direct2D 또는 Javascipt 앱을 사용 하 여 사용 하기 위해 질감 내보내기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 241c25fe-764e-4e1b-ad32-b1377dcbb605
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: e2b08760e567f6e000e191703695ee0703da7215
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 5d5858df00057298f961189173a3943f3e23d2b6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49812142"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54781482"
 ---
 # <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps"></a>방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이미지 콘텐츠 파이프라인은 Direct2D의 내부 렌더링 규칙과 호환 되는 질감을 생성할 수 있습니다. 이 종류의 질감은 Direct2D를 사용하는 앱 및 JavaScript를 통해 생성된 Windows 스토어 앱에서 사용하기에 적합합니다.  
+이미지 콘텐츠 파이프라인은 Direct2D의 내부 렌더링 규칙에 부합되는 질감을 생성할 수 있습니다. 이 종류의 질감은 Direct2D를 사용하는 앱 및 JavaScript를 통해 생성된 Windows 스토어 앱에서 사용하기에 적합합니다.  
   
  이 문서는 다음 활동을 보여 줍니다.  
   
@@ -62,7 +57,7 @@ ms.locfileid: "49812142"
 3. 출력 형식을 블록 압축 형식 중 하나로 설정합니다. **구성 속성**, **이미지 콘텐츠 파이프라인**, **일반** 페이지에서 **압축** 속성을 **BC3_UNORM 압축(/compress:BC3_UNORM)** 으로 설정합니다. 요구 사항에 따라 기타 BC1, BC2 또는 BC3 형식 중에서 선택할 수 있습니다. Direct2D는 현재 BC4, BC5, BC6 또는 BC7 질감을 지원하지 않습니다. 다른 BC 형식에 대한 자세한 내용은 [Block Compression (Direct3D 10)](http://msdn.microsoft.com/library/windows/desktop/bb694531.aspx)(블록 압축(Direct3D 10))을 참조하세요.  
   
    > [!NOTE]
-   >  지정된 압축 형식은 이미지 콘텐츠 파이프라인에서 생성되는 파일의 형식을 결정합니다. 이 형식은 이미지 편집기에 있는 소스 이미지의 **형식** 속성과 다릅니다. 이 속성은 디스크에 저장된 소스 이미지 파일의 형식(*작업 형식*)을 결정합니다. 일반적으로 압축 된 작업 형식을 하지 않으려고 합니다.  
+   >  지정된 압축 형식은 이미지 콘텐츠 파이프라인에서 생성되는 파일의 형식을 결정합니다. 이 형식은 이미지 편집기에 있는 소스 이미지의 **형식** 속성과 다릅니다. 이 속성은 디스크에 저장된 소스 이미지 파일의 형식(*작업 형식*)을 결정합니다. 일반적으로 압축된 작업 형식은 필요하지 않습니다.  
   
 4. 미리 곱한 알파를 사용하는 출력을 생성하도록 이미지 콘텐츠 파이프라인을 구성합니다. **구성 속성**, **이미지 콘텐츠 파이프라인**, **일반** 페이지에서 **미리 곱한 알파 형식으로 변환** 속성을 **예(/generatepremultipliedalpha)** 로 설정합니다.  
   
@@ -70,7 +65,4 @@ ms.locfileid: "49812142"
   
 6. **확인** 단추를 선택합니다.  
   
-   프로젝트를 빌드할 때 이미지 콘텐츠 파이프라인은 소스 이미지 작업 형식에서 형식으로 변환 출력 지정한-미리 곱한 알파 생성이 포함 되며-결과 프로젝트의 출력 디렉터리로 복사 됩니다.
-
-
-
+   프로젝트를 빌드할 때 이미지 콘텐츠 파이프라인은 소스 이미지를 작업 형식에서 지정한 출력 형식으로 변환하고(변환에는 미리 곱한 알파 생성이 포함됨) 결과는 프로젝트의 출력 디렉터리로 복사됩니다.

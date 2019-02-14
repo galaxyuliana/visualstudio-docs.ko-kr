@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 2f2cf1e0-f817-4ca0-b782-3341362c46a9
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fd380adab64dbc082fde9346d9e4c7767c9a4e55
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 81a684ac12a277036e5392cd3a76b4e55eee634f
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53923772"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54928539"
 ---
 # <a name="idiasymbolgetconstructor"></a>IDiaSymbol::get_constructor
 사용자 정의 데이터 형식에 생성자 또는 소멸자가 있는지 여부를 지정 하는 플래그를 검색 합니다.  

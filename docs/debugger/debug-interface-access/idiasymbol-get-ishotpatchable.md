@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: b7b6f490-1cf2-4a68-9237-b152dac84d3c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: de20310d3b41bf13f8f70a90cc9c702ef327c23b
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 93ace7dd54a64e6d5fbb6fb7ed830b9055f1d684
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828802"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54996248"
 ---
 # <a name="idiasymbolgetishotpatchable"></a>IDiaSymbol::get_isHotpatchable
 모듈을 사용 하 여 컴파일된 여부를 나타내는 플래그를 검색 합니다 [/hotpatch (핫 패치 가능 이미지 만들기)](/cpp/build/reference/hotpatch-create-hotpatchable-image) 컴파일러 스위치입니다.  

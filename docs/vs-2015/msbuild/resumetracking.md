@@ -1,14 +1,9 @@
 ---
 title: ResumeTracking | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 api_name:
 - ResumeTracking
 api_location:
@@ -21,13 +16,13 @@ ms.assetid: d637e019-7c50-4b0a-812e-bc822001e697
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 5c64cb40110e4f9af4d38994a64a337377d9faaa
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 2328b318c00b214138cf70e505c1988f8f1afc6a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49283584"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802204"
 ---
 # <a name="resumetracking"></a>ResumeTracking
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,13 +37,10 @@ HRESULT WINAPI ResumeTracking();
 ```  
   
 ## <a name="return-value"></a>반환 값  
- [HRESULT] (<!-- TODO: review code entity reference <xref:assetId:///HRESULT?qualifyHint=False&amp;autoUpgrade=True>  -->) [성공]를 사용 하 여 (<!-- TODO: review code entity reference <xref:assetId:///SUCCEEDED?qualifyHint=False&amp;autoUpgrade=True>  -->) 추적이 다시 시작 된 경우에 비트가 설정 합니다. [E_FAIL] (<!-- TODO: review code entity reference <xref:assetId:///E_FAIL?qualifyHint=False&amp;autoUpgrade=True>  -->) 추적 컨텍스트를 사용할 수 없어서 재개할 수 없습니다 경우 반환 됩니다.  
+ 추적이 다시 시작된 경우 SUCCEEDED 비트가 설정된 <!-- TODO: review code entity reference <xref:assetId:///HRESULT?qualifyHint=False&amp;autoUpgrade=True>  -->HRESULT<!-- TODO: review code entity reference <xref:assetId:///SUCCEEDED?qualifyHint=False&amp;autoUpgrade=True>  -->를 반환합니다. 컨텍스트를 사용할 수 없어 추적을 다시 시작할 수 없는 경우 <!-- TODO: review code entity reference <xref:assetId:///E_FAIL?qualifyHint=False&amp;autoUpgrade=True>  -->E_FAIL이 반환됩니다.  
   
 ## <a name="requirements"></a>요구 사항  
  **헤더:** FileTracker.h  
   
 ## <a name="see-also"></a>참고 항목  
  [SuspendTracking](../msbuild/suspendtracking.md)
-
-
-

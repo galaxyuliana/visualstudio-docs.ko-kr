@@ -1,27 +1,22 @@
 ---
 title: '방법: 템플릿 문제 해결 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: troubleshooting
 helpviewer_keywords:
 - Visual Studio templates, troubleshooting
 ms.assetid: 3e577ad2-f725-4c11-93b3-477f2404ec81
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: a68097745de1f1d94e5c09963a474a0095588fba
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: eb2c708bfb6bfafe90b548ad2826e0cf11882a3b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49296428"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54793208"
 ---
 # <a name="how-to-troubleshoot-templates"></a>방법: 템플릿 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +39,7 @@ ms.locfileid: "49296428"
 5.  .vstemplate 파일의 XML이 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 템플릿 스키마에 부합하는지 확인합니다. .vstemplate 스키마에 대한 자세한 내용은 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)를 참조하세요.  
   
     > [!NOTE]
-    >  .Vstemplate 파일을 작성 하는 동안 IntelliSense 지원을 가져오려면를 추가 하는 `xmlns` 특성을 `VSTemplate` 요소의 값을 할당 하 고 http://schemas.microsoft.com/developer/vstemplate/2005입니다.  
+    >  `xmlns`vstemplate`VSTemplate` 파일을 제작하는 동안 IntelliSense 지원을 가져오려면 http://schemas.microsoft.com/developer/vstemplate/2005 특성을  요소에 추가하고 의 값을 할당합니다.  
   
 6.  .vstemplate 파일을 저장한 다음 닫습니다.  
   
@@ -61,7 +56,7 @@ ms.locfileid: "49296428"
   
 1.  Windows에서 **시작**, **제어판**을 차례로 클릭한 다음 **관리 도구**, **이벤트 뷰어**를 차례로 두 번 클릭합니다.  
   
-2.  왼쪽 창에서 **응용 프로그램**을 클릭합니다.  
+2.  왼쪽 창에서 **애플리케이션**을 클릭합니다.  
   
 3.  `Visual Studio - VsTemplate`이라는 **원본** 값을 포함하는 이벤트를 검색합니다.  
   
@@ -71,6 +66,3 @@ ms.locfileid: "49296428"
  [템플릿 사용자 지정](../ide/customizing-project-and-item-templates.md)   
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)
-
-
-

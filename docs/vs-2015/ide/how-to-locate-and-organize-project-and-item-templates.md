@@ -1,14 +1,9 @@
 ---
-title: '방법: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 찾기 및 프로젝트 구성 및 항목 템플릿 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - project templates [Visual Studio], locations
 - custom template locations [Visual Studio]
@@ -20,13 +15,13 @@ ms.assetid: 71f9ed52-c9c9-4818-9bce-c279ffaa0438
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 2a3954e5d18db6585c8dbda017773969f96b33de
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 5e734100928bdd6a8609ab59d172d278e91b8ae7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49830979"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54778528"
 ---
 # <a name="how-to-locate-and-organize-project-and-item-templates"></a>방법: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,7 +51,7 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
   
   예를 들어 다음 디렉터리에는 사용자 지정 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트 템플릿이 포함되어 있습니다.  
   
-  C:\Documents and Settings\UserName\My 문서\\< Visual Studio 버전\>\Templates\ProjectTemplates\Visual C# \  
+  C:\Documents and Settings\UserName\My Documents\Visual Studio \\Version\>\Templates\ProjectTemplates\Visual C#\  
   
   사용자 지정 템플릿은 지역화된 템플릿에 대한 하위 디렉터리를 포함하지 않습니다. **환경\프로젝트 및 솔루션**의 **옵션** 대화 상자에서 사용자 지정 템플릿의 기본 디렉터리를 변경할 수 있습니다.  
   
@@ -122,7 +117,7 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
   
 1. 사용자 지정 프로젝트 템플릿 디렉터리의 언어 폴더에 폴더를 만듭니다. 예를 들어 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 템플릿에 대해 HelloWorld 범주를 만들려면 다음 디렉터리를 만듭니다.  
   
-    \My documents\\< Visual Studio 버전\>\Templates\ProjectTemplates\CSharp\HelloWorld\  
+    \My Documents\Visual Studio \\Version\>\Templates\ProjectTemplates\CSharp\HelloWorld\  
   
 2. 이 범주의 모든 템플릿을 새 폴더에 넣습니다.  
   
@@ -136,7 +131,7 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
   
 1.  사용자 지정 항목 템플릿 디렉터리의 언어 폴더에 폴더를 만듭니다. 예를 들어 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 템플릿에 대해 HelloWorld 범주를 만들려면 다음 디렉터리를 만듭니다.  
   
-     \My documents\\< Visual Studio 버전\>\Templates\ItemTemplates\CSharp\HelloWorld\  
+     \My Documents\Visual Studio \\Version\>\Templates\ItemTemplates\CSharp\HelloWorld\  
   
 2.  이 범주의 모든 템플릿을 새 폴더에 넣습니다.  
   
@@ -183,6 +178,3 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
  [NumberOfParentCategoriesToRollUp(Visual Studio 템플릿)](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md)   
  [방법: 프로젝트 템플릿 만들기](../ide/how-to-create-project-templates.md)   
  [방법: 항목 템플릿 만들기](../ide/how-to-create-item-templates.md)
-
-
-

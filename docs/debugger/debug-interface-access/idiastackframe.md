@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 486d25b8-a590-41c1-bdb5-faff3ae35632
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dba69f49650c1c90233a6fda44529d0bd9f2f913
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: 2c2d2567eac66e15b3c096f3b4d6932347c65fac
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53893486"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54998809"
 ---
 # <a name="idiastackframe"></a>IDiaStackFrame
 스택 프레임의 속성을 표시 합니다.  
@@ -56,7 +56,7 @@ IDiaStackFrame : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
  이 인터페이스를 호출 하 여 가져올는 [idiaenumstackframes:: Next](../../debugger/debug-interface-access/idiaenumstackframes-next.md) 메서드. 참조를 [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md) 얻는 방법에 예제에 대 한 인터페이스를 `IDiaStackFrame` 인터페이스입니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제는 스택 프레임의 다양 한 특성을 표시합니다.  
   
 ```C++  
@@ -101,7 +101,7 @@ void PrintStackFrame(IDiaStackFrame* pFrame)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

@@ -1,14 +1,9 @@
 ---
 title: ToolsVersion 설정 재정의 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, overriding ToolsVersion setting
 - MSBuild, building solutions with
@@ -16,13 +11,13 @@ ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 2a4e3485b09780490a9d589766eeed85e6b84e28
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e4cd6d3199d09ffa56c0ac6d2d29fcba613fd280
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49277721"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54770712"
 ---
 # <a name="overriding-toolsversion-settings"></a>ToolsVersion 설정 재정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "49277721"
 3.  솔루션 내의 프로젝트에서 `$(ProjectToolsVersion)` 속성 설정. 이 방법에서는 다른 프로젝트와는 다른 도구 집합 버전을 사용하여 솔루션에서 프로젝트를 빌드할 수 있습니다.  
   
 ## <a name="override-the-toolsversion-settings-of-projects-and-solutions-on-command-line-builds"></a>명령줄 빌드에서 프로젝트 및 솔루션의 ToolsVersion 설정 재정의  
- 일반적으로 Visual Studio 프로젝트는 프로젝트 파일에 지정된 ToolsVersion을 사용하여 빌드되지만 명령줄에서 `/ToolsVersion`(또는 `/tv`) 스위치를 사용하여 해당 값을 재정의하고 다른 도구 집합을 사용하여 모든 프로젝트 및 프로젝트 간 종속성을 빌드할 수 있습니다. 예를 들어:  
+ 일반적으로 Visual Studio 프로젝트는 프로젝트 파일에 지정된 ToolsVersion을 사용하여 빌드되지만 명령줄에서 `/ToolsVersion`(또는 `/tv`) 스위치를 사용하여 해당 값을 재정의하고 다른 도구 집합을 사용하여 모든 프로젝트 및 프로젝트 간 종속성을 빌드할 수 있습니다. 예:  
   
 ```  
 msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug  
@@ -116,7 +111,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 5.  환경 변수 `MSBUILDLEGACYDEFAULTTOOLSVERSION`이 설정되거나 `ToolsVersion`이 설정되지 않은 경우에는 다음 단계가 사용됩니다.  
   
-    1.  프로젝트 파일의 [Project](../msbuild/project-element-msbuild.md) 요소에 대한 `ToolsVersion` 특성. 이 특성이 없는 경우 현재 버전로 간주 됩니다.  
+    1.  프로젝트 파일의 [Project](../msbuild/project-element-msbuild.md) 요소에 대한 `ToolsVersion` 특성. 이 특성이 없으면 현재 버전이라고 간주합니다.  
   
     2.  MSBuild.exe.config 파일의 기본 도구 버전.  
   
@@ -137,6 +132,3 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
  [MSBuild 개념](../msbuild/msbuild-concepts.md)   
  [도구 집합(ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)   
  [표준 및 사용자 지정 도구 집합 구성](../msbuild/standard-and-custom-toolset-configurations.md)
-
-
-

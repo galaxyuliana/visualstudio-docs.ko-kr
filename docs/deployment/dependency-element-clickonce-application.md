@@ -23,15 +23,15 @@ helpviewer_keywords:
 ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c95d2caea47db9429f62eaf0527aa36ddcec2ca3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 195e574a3ae98bc43e41d2040e2070cf36b89067
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53898625"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920658"
 ---
 # <a name="ltdependencygt-element-clickonce-application"></a>&lt;종속성&gt; 요소 (ClickOnce 응용 프로그램)
 응용 프로그램에 필요한 플랫폼 또는 어셈블리 종속성을 식별 합니다.  
@@ -101,7 +101,7 @@ ms.locfileid: "53898625"
 |`supportUrl`|선택 사항입니다. 종속 플랫폼에 대 한 지원 URL을 지정합니다. 이 URL은 필요한 플랫폼 없으면 사용자에 게 표시 됩니다.|  
 |`description`|선택 사항입니다. 에 설명 된 운영 체제를 이해 하기 쉬운 형태로 설명 된 `dependentOS` 요소입니다.|  
 
-### <a name="osversioninfo"></a>데  
+### <a name="osversioninfo"></a>osVersionInfo  
  필수 요소. 이 요소는 `dependentOS` 요소의 자식이며 `os` 요소를 포함합니다. 이 요소에는 특성이 없습니다.  
 
 ### <a name="os"></a>os  
@@ -172,7 +172,7 @@ ms.locfileid: "53898625"
 ## <a name="remarks"></a>주의  
  해당 응용 프로그램에서 사용 하는 모든 어셈블리에 있어야 `dependency` 요소입니다. 종속 어셈블리는 플랫폼 어셈블리와 전역 어셈블리 캐시에 미리 설치 해야 하는 어셈블리를 포함 하지 않습니다.  
 
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제를 보여 줍니다 `dependency` 의 요소를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 매니페스트 합니다. 이 코드 예제는에 대해 제공 된 큰 예제의 일부 합니다 [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md) 항목입니다.  
 
 ```xml  

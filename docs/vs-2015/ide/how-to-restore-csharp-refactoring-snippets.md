@@ -1,14 +1,9 @@
 ---
-title: '방법: C# 리팩터링 코드 조각 복원 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 복원 C# 리팩터링 코드 조각 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - unsafe expansion
 - expansions, unsafe
@@ -16,20 +11,20 @@ ms.assetid: 12114273-7f2f-43d0-abcb-2d4711a3a68d
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 8cb5906009d4c3f5d9d94a8e9898a1f02b3aedc0
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: c9ebd6b96a24b10601257d5eefc58014ef7058c9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49227885"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54782598"
 ---
-# <a name="how-to-restore-c-refactoring-snippets"></a>방법: C# 리팩터링 코드 조각 복원
+# <a name="how-to-restore-c-refactoring-snippets"></a>방법: 복원 C# 리팩터링 코드 조각
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 C# 리팩터링 작업은 다음 디렉터리에 있는 코드 조각을 사용합니다.  
   
- *설치 디렉터리*\Microsoft Visual Studio 14.0\VC#\Snippets\\*언어 ID*\Refactoring  
+ *Installation directory*\Microsoft Visual Studio 15.0\VC#\Snippets\\*language ID*\Refactoring  
   
  이 Refactoring 디렉터리나 이 디렉터리의 파일이 삭제되거나 손상되면 C# 리팩터링 작업이 IDE에서 작동하지 않을 수 있습니다. 다음 절차를 통해 C# 리팩터링 코드 조각을 복원할 수 있습니다.  
   
@@ -53,7 +48,7 @@ C# 리팩터링 작업은 다음 디렉터리에 있는 코드 조각을 사용�
   
 5.  다음 디렉터리 경로에서 **Refactoring** 폴더를 찾습니다.  
   
-     *설치 디렉터리*\Microsoft Visual Studio 14.0\VC#\Snippets\\*언어 ID*\Refactoring  
+     *Installation directory*\Microsoft Visual Studio 15.0\VC#\Snippets\\*language ID*\Refactoring  
   
      기본 설치에 대한 실제 경로는 다음과 비슷합니다.  
   
@@ -65,6 +60,3 @@ C# 리팩터링 작업은 다음 디렉터리에 있는 코드 조각을 사용�
  [Visual C# 코드 조각](../ide/visual-csharp-code-snippets.md)   
  [리팩터링(C#)](../csharp-ide/refactoring-csharp.md)   
  [코드 조각](../ide/code-snippets.md)
-
-
-

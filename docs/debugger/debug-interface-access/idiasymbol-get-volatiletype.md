@@ -1,5 +1,5 @@
 ---
-title: 'Idiasymbol:: Get_volatiletype | Microsoft Docs'
+title: IDiaSymbol::get_volatileType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 19782a4d-40a8-467b-ab7d-58bc4d812309
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d491a43e65ed7e6c06a5c94e94b62230db1634dc
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: e358efc95d3c0d281a24109ee5ab954d6ea88506
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53864322"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54989032"
 ---
 # <a name="idiasymbolgetvolatiletype"></a>IDiaSymbol::get_volatileType
 사용자 정의 데이터 형식 (UDT) 휘발성 인지 여부를 지정 하는 플래그를 검색 합니다.  

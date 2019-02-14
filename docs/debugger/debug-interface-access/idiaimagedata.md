@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: b696f350-fc08-4352-9287-a15e87512c1e
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4f10f12f8f9f08335e6234757c5254efca78dd18
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: e6854a099548b8db97b26a2b3fe70c7870fb2af2
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53894131"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54964940"
 ---
 # <a name="idiaimagedata"></a>IDiaImageData
 모듈 또는 이미지의 기본 위치와 메모리 오프셋의 세부 정보를 표시합니다.  
@@ -43,7 +43,7 @@ IDiaImageData : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
  호출 하 여이 인터페이스를 가져올 `QueryInterface` 에 [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) 개체입니다. 모든 디버그는 스트림 지원은 `IDiaImageData` 인터페이스입니다. 예를 들어 현재 XDATA 및 PDATA 스트림을 지원 합니다 `IDiaImageData` 인터페이스입니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예에서는 검색을 지 원하는 모든 스트림에 대 한 디버그 스트림의 모든는 `IDiaImageData` 인터페이스입니다. 이러한 스트림이 있으면 해당 스트림에 대 한 일부 정보가 표시 됩니다.  
   
 ```C++  
@@ -111,7 +111,7 @@ void ShowImageData(IDiaSession *pSession)
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- 헤더: dia2.h  
+ 헤더: Dia2.h  
   
  라이브러리: diaguids.lib  
   

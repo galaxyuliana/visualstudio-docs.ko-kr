@@ -9,15 +9,15 @@ helpviewer_keywords:
 ms.assetid: 01ad328a-736c-4933-a9f8-c2ded19ddd8c
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c47d898e9a0fb40347b2463cfa8ecccb1e58f896
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: 0c0f8241bfb4ba4d6eee228dd3563209a4c4afae
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53906711"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54920125"
 ---
 # <a name="idiasymbol"></a>IDiaSymbol
 기호 인스턴스의 속성을 설명합니다.  
@@ -257,7 +257,7 @@ IDiaSymbol : IUnknown
   
 -   [IDiaSymbol::get_types](../../debugger/debug-interface-access/idiasymbol-get-types.md)  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 지정된 된 상대 가상 주소에는 함수에 대 한 지역 변수를 표시 하는 방법을 보여 줍니다. 또한 다양 한 종류의 기호 서로 어떻게 관련 되어 있는지 보여 줍니다.  
   
 > [!NOTE]
@@ -336,7 +336,7 @@ void DumpLocalVars( DWORD rva, IDiaSession *pSession )
 ```  
   
 ## <a name="requirements"></a>요구 사항  
- `Header:` dia2.h  
+ `Header:` Dia2.h  
   
  라이브러리: diaguids.lib  
   
