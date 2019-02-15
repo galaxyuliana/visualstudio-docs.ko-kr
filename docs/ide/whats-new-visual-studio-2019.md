@@ -2,7 +2,7 @@
 title: Visual Studio 2019의 새로운 기능
 titleSuffix: ''
 description: Visual Studio 2019의 새로운 기능을 알아보세요.
-ms.date: 01/29/2019
+ms.date: 02/08/2019
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -14,13 +14,12 @@ ms.prod: visual-studio-dev16
 ms.topic: conceptual
 ms.workload:
 - multiple
-monikerRange: '>= vs-2017'
-ms.openlocfilehash: 88fe1f9a4f1f3d1d21af2d7d00dee677cab11fc5
-ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
+ms.openlocfilehash: 4667fd19f59453e9efc856aefeaaf8d43aff302d
+ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55483707"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "55987420"
 ---
 # <a name="whats-new-in-visual-studio-2019-preview"></a>Visual Studio 2019 Preview의 새로운 기능
 
@@ -90,6 +89,8 @@ Visual Studio 2019를 열면 가장 먼저 보이는 것이 새로운 시작 창
 
 Visual Studio 2019 미리 보기를 사용하면 이 서비스가 기본적으로 설치됩니다.
 
+   ![Visual Studio 2019의 Live Share 공동 작업 기능을 보여 주는 애니메이션 GIF 파일](media/live-share-collaboration.gif)
+
 자세한 내용은 [실시간 코드 검토 및 대화형 교육을 위한 Visual Studio Live Share](https://blogs.msdn.microsoft.com/visualstudio/2018/12/06/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/) 블로그 게시물을 참조하세요.
 
 ## <a name="modern-development-support"></a>최신 개발 지원
@@ -100,11 +101,16 @@ Visual Studio 2019 미리 보기를 사용하면 이 서비스가 기본적으�
 
 지금 시작하려면 Visual Studio Marketplace에서 [Visual Studio에 대한 끌어오기 요청](https://aka.ms/pr4vs) 확장을 다운로드하세요.
 
-### <a name="develop-with-net-core-3-preview-1"></a>.NET Core 3 Preview 1을 사용하여 개발
+### <a name="develop-with-net-core-3-preview"></a>.NET Core 3 Preview를 사용하여 개발
 
-Visual Studio 2019의 미리 보기 릴리스는 모든 플랫폼에서 [.NET Core 3](http://aka.ms/netcore3preview1) 애플리케이션 빌드를 지원합니다. 앞으로도 계속해서 플랫폼 간 C++ 개발뿐 아니라 Xamarin을 사용한 iOS 및 Android용 .NET 모바일 개발을 지원하고 개선할 것입니다.
+Visual Studio 2019의 미리 보기 릴리스는 모든 플랫폼에서 [.NET Core 3](https://dotnet.microsoft.com/download/dotnet-core/3.0) 애플리케이션 빌드를 지원합니다. 앞으로도 계속해서 플랫폼 간 C++ 개발뿐 아니라 Xamarin을 사용한 iOS 및 Android용 .NET 모바일 개발을 지원하고 개선할 것입니다.
 
-   ![Visual Studio 2019에서 .NET Core 3 Preview 1을 사용하여 앱 개발](media/dot-net-core-three-dev.png)
+   ![Visual Studio 2019에서 .NET Core 3 Preview를 사용하여 앱 개발](media/dot-net-core-three-dev.png)
+
+자세한 내용은 다음 페이지를 참조하세요.
+
+* [.NET Core 3 Preview 1](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview1.md) 및 [.NET Core 3 Preview 2](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview2.md) 릴리스 노트
+* [.NET Core 3 Preview 1 발표](https://blogs.msdn.microsoft.com/dotnet/2018/12/04/announcing-net-core-3-preview-1-and-open-sourcing-windows-desktop-frameworks/) 및 [.NET Core 3 Preview 2 발표](https://blogs.msdn.microsoft.com/dotnet/2019/01/29/announcing-net-core-3-preview-2/) 블로그 게시물
 
 ## <a name="continuous-innovation"></a>지속적인 혁신
 
@@ -116,6 +122,8 @@ Visual Studio 2019 미리 보기 릴리스부터 Visual Studio를 PMA(모니터�
 
    ![Visual Studio 2019의 PMA(모니터별 인식) 렌더링](media/per-monitor-aware-dpi-scaling.png)
 
+자세한 내용은 [Better multi-monitor experience with Visual Studio 2019](https://blogs.msdn.microsoft.com/visualstudio/2019/02/07/a-better-multi-monitor-experience-with-visual-studio-2019/)(Visual Studio 2019를 사용하여 다중 모니터 경험 향상) 블로그 게시물을 참조하세요.
+
 ### <a name="visual-studio-intellicode"></a>Visual Studio IntelliCode
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/)는 AI(인공 지능)를 사용하여 소프트웨어 개발 작업을 개선하는 확장 프로그램입니다. IntelliCode는 각각 100개 이상의 별이 달린 GitHub의 오픈 소스 프로젝트 2,000개를 학습하여 권장 사항을 생성합니다.
@@ -126,6 +134,8 @@ Visual Studio IntelliCode로 생산성을 높이는 몇 가지 방법이 있습�
 * 개발자에게 팀의 패턴 및 스타일을 준수하도록 안내
 * 찾기 어려운 코드 문제 발견
 * 정말 중요한 영역으로 주의를 끌어 코드 검토에 집중
+
+ ![IntelliSense 제안의 예](media/intellicode-intellisense-suggestion.png)
 
 Visual Studio용 IntelliCode 확장을 처음 소개할 때는 C#만 지원했습니다. 이제 Visual Studio에서 C++ 및 XAML 지원도 추가되었습니다.
 

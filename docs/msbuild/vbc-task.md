@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a535b49722c7022a105156c625139d0b8e94a35d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2714001cef1f9e1e39c6b5cbce50df1d2728f3e1
+ms.sourcegitcommit: 5dc74b4fdff1357df43a19f6e8a51d7bf706abd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54969670"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55768435"
 ---
 # <a name="vbc-task"></a>Vbc 작업
 실행 파일(*.exe*), 동적 링크 라이브러리(*.dll*) 또는 코드 모듈(*.netmodule*)을 생성하는 *vbc.exe*를 래핑합니다. *vbc.exe*에 대한 자세한 내용은 [Visual Basic 명령줄 컴파일러](/dotnet/visual-basic/reference/command-line-compiler/index)를 참조하세요.  
@@ -51,7 +51,7 @@ ms.locfileid: "54969670"
 | `Imports` | 선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 지정된 항목 컬렉션에서 네임스페이스를 가져옵니다. 이 매개 변수는 *vbc.exe* 컴파일러의 [-imports](/dotnet/visual-basic/reference/command-line-compiler/imports) 스위치에 해당합니다. |
 | `KeyContainer` | 선택적 `String` 매개 변수입니다.<br /><br /> 암호화 키 컨테이너의 이름을 지정합니다. 이 매개 변수는 *vbc.exe* 컴파일러의 [-keycontainer](/dotnet/visual-basic/reference/command-line-compiler/keycontainer) 스위치에 해당합니다. |
 | `KeyFile` | 선택적 `String` 매개 변수입니다.<br /><br /> 암호화 키를 포함하는 파일 이름을 지정합니다. 자세한 내용은 [-keyfile](/dotnet/visual-basic/reference/command-line-compiler/keyfile)을 참조하세요. |
-| `LangVersion` | 선택적 <xref:System.String?displayProperty=fullName> 매개 변수입니다.<br /><br /> 언어 버전으로 “9” 또는 “10”을 지정합니다. |
+| `LangVersion` | 선택적 <xref:System.String?displayProperty=fullName> 매개 변수입니다.<br /><br /> [언어 버전](/dotnet/visual-basic/language-reference/configure-language-version)으로 예를 들어 “15.5”를 지정합니다. |
 | `LinkResources` | 선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 출력 파일에 .NET Framework 리소스에 대한 링크를 만듭니다. 리소스 파일은 출력 파일에 저장되지 않습니다. 이 매개 변수는 *vbc.exe* 컴파일러의 [-linkresource](/dotnet/visual-basic/reference/command-line-compiler/linkresource) 스위치에 해당합니다. |
 | `MainEntryPoint` | 선택적 `String` 매개 변수입니다.<br /><br /> `Sub Main` 프로시저가 포함된 클래스 또는 모듈을 지정합니다. 이 매개 변수는 *vbc.exe* 컴파일러의 [-main](/dotnet/visual-basic/reference/command-line-compiler/main) 스위치에 해당합니다. |
 | `ModuleAssemblyName` | 선택적 `String` 매개 변수입니다.<br /><br /> 이 모듈이 속한 어셈블리를 지정합니다. |
@@ -91,7 +91,7 @@ ms.locfileid: "54969670"
 ## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.  
 
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 Visual Basic 프로젝트를 컴파일합니다.  
 
 ```xml  

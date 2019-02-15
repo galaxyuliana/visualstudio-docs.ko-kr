@@ -3,7 +3,6 @@ title: '자습서: Visual Basic 시작'
 description: Visual Studio에서 Visual Basic 콘솔 앱을 만드는 방법을 단계별로 알아봅니다.
 ms.custom: seodec18, get-started
 ms.date: 08/10/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: vb
@@ -14,12 +13,12 @@ dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: 7e2d5cf15b6afd1b6eed6d800a1b7ba67c1f87b8
-ms.sourcegitcommit: 9866740aec05d1a3a5dc3b4b6d2ceaeecbd3fc29
+ms.openlocfilehash: 146a0cdb5e553f262bea0b5b7dd5f592592cf6ad
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55424501"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155697"
 ---
 # <a name="tutorial-get-started-with-visual-basic-in-visual-studio"></a>자습서: Visual Studio에서 Visual Basic 시작
 
@@ -142,10 +141,10 @@ Visual Studio는 개발자를 위한 통합 개발 생산성 도구입니다. �
 축하합니다. 이 자습서를 마쳤습니다. 자세히 알아보려면 계속 다음 자습서를 참조하세요.
 
 > [!div class="nextstepaction"]
-> [비디오 자습서: 초보자를 위한 Visual Basic 기본 사항](https://mva.microsoft.com/en-us/training-courses/visual-basic-fundamentals-for-absolute-beginners-16507)
+> [Visual Studio에서 Visual Basic 및 .NET Core SDK를 사용하여 라이브러리 빌드](/dotnet/core/tutorials/vb-library-with-visual-studio)
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Basic 2010의 새로운 기능](/dotnet/visual-basic/getting-started/whats-new)
-* [Visual Basic 코드 파일에 대한 IntelliSense](../../ide/visual-basic-specific-intellisense.md)
+* [Visual Basic 언어 연습](/dotnet/visual-basic/walkthroughs)
 * [Visual Basic 언어 참조](/dotnet/visual-basic/language-reference/index)
+* [Visual Basic 코드 파일에 대한 IntelliSense](../../ide/visual-basic-specific-intellisense.md)
