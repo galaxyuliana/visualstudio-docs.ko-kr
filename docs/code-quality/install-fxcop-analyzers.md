@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: e4b97779c458fd7cb02ab5c168401f061869ccb1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 84d83cba5afb201725354069ff1816dd8985b15c
+ms.sourcegitcommit: b623042906de4f12d68af365e36eb38b7b44aa90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55953453"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56270578"
 ---
 # <a name="install-fxcop-analyzers-in-visual-studio"></a>Visual Studio에서 FxCop 분석기 설치
 
@@ -43,7 +43,7 @@ Visual Studio의 버전에 대 한 설치 FxCop 분석기 패키지의 버전을
 
 | Visual Studio 버전 | FxCop 분석기 패키지 버전 |
 | - | - |
-| Visual Studio 2017 버전 15.5 이상 | 예를 들어 2.6.2 https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.2 |
+| Visual Studio 2017 버전 15.5 이상 | 예를 들어 2.6.3 https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.3 |
 | Visual Studio 2017 버전 15.3을 15.4 | 예를 들어 2.3.0-beta1 https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.3.0-beta1 |
 | Visual Studio 2017 버전 15.0을 15.2 | 예를 들어 2.0.0-beta2 https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.0.0-beta2 |
 | Visual Studio 2015 업데이트 2와 3 | 예를 들어 버전 1.2.0-beta2 https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.2.0-beta2 |
@@ -79,7 +79,7 @@ Visual Studio 2017 버전 15.5 이상에 설치할 수 있습니다 합니다 [M
 
 1. 선택 **수정** 설치를 시작 합니다.
 
-1. 2 분 정도 후 설치를 완료 합니다. 선택 **닫기**합니다.
+1. 2 분 정도 후 설치를 완료 합니다. **닫기**를 선택합니다.
 
 1. Visual Studio를 다시 엽니다.
 
