@@ -2,9 +2,8 @@
 title: 명령줄 매개 변수를 사용하여 Visual Studio 설치
 titleSuffix: ''
 description: 명령줄 매개 변수를 사용하여 Visual Studio 설치를 제어하거나 사용자 지정하는 방법을 알아봅니다.
-ms.date: 11/14/2018
+ms.date: 02/12/2019
 ms.custom: seodec18
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -16,12 +15,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a83b3c1be5beeeb2ea40fb9d27089a4b559f758a
-ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
+ms.openlocfilehash: d6f04d6cdf94a351025e62f4bafb1eb92b1fcf91
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "55089144"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155502"
 ---
 # <a name="use-command-line-parameters-to-install-visual-studio-2017"></a>명령줄 매개 변수를 사용하여 Visual Studio 2017 설치
 
@@ -108,7 +107,7 @@ ms.locfileid: "55089144"
 | `--cache` | **15.2의 새로운 기능, 선택 사항**: 있는 경우, 패키지가 이후 복구를 위해 설치된 후에도 유지됩니다. 이는 이후 설치, 복구 또는 수정에 사용할 전역 정책 설정을 재정의합니다. 기본 정책은 패키지를 캐시하는 것입니다. 제거 명령의 경우 무시됩니다. 자세한 내용은 [패키지 캐시를 사용하지 않도록 설정 또는 이동](disable-or-move-the-package-cache.md)하는 방법을 참조하세요. |
 | `--nocache` | **15.2의 새로운 기능, 선택 사항**: 패키지가 있는 경우 설치 또는 복구된 후에 삭제됩니다. 필요한 경우에만 다시 다운로드되고 사용한 후 다시 삭제됩니다. 이는 이후 설치, 복구 또는 수정에 사용할 전역 정책 설정을 재정의합니다. 기본 정책은 패키지를 캐시하는 것입니다. 제거 명령의 경우 무시됩니다. 자세한 내용은 [패키지 캐시를 사용하지 않도록 설정 또는 이동](disable-or-move-the-package-cache.md)하는 방법을 참조하세요. |
 | `--noUpdateInstaller` | **15.2의 새로운 기능, 선택 사항**: 있는 경우, quiet가 지정되었을 때 설치 프로그램이 자동으로 업데이트되지 않습니다. quiet와 함께 noUpdateInstaller가 지정되었는데 설치 프로그램 업데이트가 필요한 경우 설치 프로그램에서 명령을 실패로 처리하고 0이 아닌 종료 코드를 반환합니다. |
-| `--noWeb` | **15.3의 새로운 기능, 선택 사항**: 설치 프로그램이 이제 설치하는 콘텐츠를 인터넷에서 다운로드합니다.  설치되는 모든 콘텐츠를 오프라인 레이아웃에서 사용할 수 있어야 합니다.  레이아웃에 콘텐츠에 없으면 설치에 실패합니다.  자세한 내용은 [네트워크 설치에서 배포](create-a-network-installation-of-visual-studio.md)를 참조하세요. |
+| `--noWeb` | **15.3의 새로운 기능, 선택 사항**: 있는 경우, Visual Studio 설치 프로그램에서 레이아웃 디렉터리에 있는 파일을 사용하여 Visual Studio를 설치합니다. 사용자가 레이아웃에 없는 구성 요소를 설치하려고 시도하면 설치에 실패합니다.  자세한 내용은 [네트워크 설치에서 배포](create-a-network-installation-of-visual-studio.md)를 참조하세요. <br/><br/> **중요**: 이 스위치는 Visual Studio 설치 프로그램에서 업데이트를 확인하는 과정을 허용합니다. 자세한 내용은 [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md)를 참조하세요.|
 | `--path <name>=<path>` | **15.7의 새로운 기능, 선택 사항**: 설치에 대해 사용자 지정 설치 경로를 지정하는 데 사용합니다. 지원되는 경로 이름은 공유, 캐시 및 설치입니다. |
 | `--path cache=<path>` | **15.7의 새로운 기능, 선택 사항**: 설치 파일을 다운로드하는 데 사용자가 지정한 위치를 사용합니다. 이 위치는 처음 Visual Studio를 설치할 때만 설정할 수 있습니다. 예: `--path cache="C:\VS\cache"` |
 | `--path shared=<path>` | **15.7의 새로운 기능, 선택 사항**: Visual Studio 병렬 설치를 위한 공유 파일을 포함합니다. 일부 도구 및 SDK가 이 드라이브의 위치에 설치되지만 나머지는 이 설정을 재정의하고 다른 드라이브에 설치될 수 있습니다. 예: `--path shared="C:\VS\shared"` <br><br>중요: 이는 Visual Studio를 처음으로 설치할 때 한 번만 설정하면 됩니다. |

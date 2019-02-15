@@ -5,18 +5,18 @@ author: conceptdev
 ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
-ms.openlocfilehash: 7fbd275e3e946461559db41668a749cd6631ba09
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.openlocfilehash: f2b3abf20e75dcf783f03f696ec679a1ce575c56
+ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51296309"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55853640"
 ---
 # <a name="customizing-the-build-system"></a>빌드 시스템 사용자 지정
 
-MSbuild는 Microsoft에서 개발한 빌드 엔진으로, 주로 .NET 응용 프로그램의 빌드에 사용됩니다. Mono 프레임워크에는 **xbuild**라는 Microsoft 빌드 엔진의 자체 구현도 있습니다. 그러나 xbuild는 모든 운영 체제에서 MSBuild를 사용하는 데 유리하므로 단계적으로 사용이 중단됩니다.
+MSBuild는 Microsoft에서 개발한 빌드 엔진으로, 주로 .NET 애플리케이션의 빌드에 사용됩니다. Mono 프레임워크에는 **xbuild**라는 Microsoft 빌드 엔진의 자체 구현도 있습니다. 그러나 xbuild는 모든 운영 체제에서 MSBuild를 사용하는 데 유리하므로 단계적으로 사용이 중단됩니다.
 
-**MSbuild**는 주로 Mac용 Visual Studio의 프로젝트에 대한 빌드 시스템으로 사용됩니다.
+**MSBuild**는 주로 Mac용 Visual Studio의 프로젝트에 대한 빌드 시스템으로 사용됩니다.
 
 MSBuild는 소스 파일 등의 입력 집합을 사용하여 작동하며, 실행 파일 등의 출력으로 변환합니다. 컴파일러 등의 도구를 호출하면 이 출력을 얻을 수 있습니다.
 
@@ -62,7 +62,7 @@ MSBuild에는 두 가지 기본적인 데이터 형식인 ‘항목’ 및 ‘�
 
 PropertyGroup을 사용하여 설정되며, 임의 개수의 속성을 포함하는 임의 개수의 PropertiesGroup을 포함할 수 있습니다.
 
-예를 들어, 간단한 콘솔 응용 프로그램의 PropertyGroup은 다음 XML과 같이 표시될 수 있습니다.
+예를 들어, 간단한 콘솔 애플리케이션의 PropertyGroup은 다음 XML과 같이 표시될 수 있습니다.
 
 ```xml
 <PropertyGroup>

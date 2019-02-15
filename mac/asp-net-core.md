@@ -5,12 +5,13 @@ author: conceptdev
 ms.author: crdun
 ms.date: 07/13/2017
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
-ms.openlocfilehash: 9576048cb6a62f7a4e8c93456154997af359a711
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.custom: video
+ms.openlocfilehash: 290c1971e22a0a0f8ffcd7b92441c81a4ec0037b
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51296478"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55910989"
 ---
 # <a name="getting-started-with-aspnet-core"></a>ASP.NET Core 시작
 
@@ -26,22 +27,22 @@ Mac용 Visual Studio를 엽니다. 시작 페이지에서 **새 프로젝트...*
 
 ![새 프로젝트 대화 상자](media/asp-net-core-image1.png)
 
-그러면 응용 프로그램을 만들 템플릿을 선택할 수 있는 새 프로젝트 대화 상자가 표시됩니다.
+그러면 애플리케이션을 만들 템플릿을 선택할 수 있는 새 프로젝트 대화 상자가 표시됩니다.
 
-ASP.NET Core 응용 프로그램 빌드를 시작하기 위해 미리 작성된 템플릿을 제공하는 많은 프로젝트가 있습니다. 이러한 항목은 다음과 같습니다.
+ASP.NET Core 애플리케이션 빌드를 시작하기 위해 미리 작성된 템플릿을 제공하는 많은 프로젝트가 있습니다. 이러한 항목은 다음과 같습니다.
 
-- **.NET Core > ASP.NET Core 빈 웹 응용 프로그램**
+- **.NET Core &gt; ASP.NET Core 빈 웹 애플리케이션**
 - **.NET Core > ASP.NET Core 웹앱**
 - **.NET Core > ASP.NET Core Web API**
 - **다중 플랫폼 > 앱 > 연결된 앱**
 
 ![ASP.NET 프로젝트 옵션](media/asp-net-core-image11.png)
 
-**ASP.NET Core 빈 웹 응용 프로그램**을 선택하고 **다음**을 누릅니다. 프로젝트에 이름을 지정하고 **만들기**를 누릅니다. 그러면 아래 이미지와 비슷하게 표시되는 새로운 ASP.NET Core 앱이 생성됩니다.
+**ASP.NET Core 빈 웹 애플리케이션**을 선택하고 **다음**을 누릅니다. 프로젝트에 이름을 지정하고 **만들기**를 누릅니다. 그러면 아래 이미지와 비슷하게 표시되는 새로운 ASP.NET Core 앱이 생성됩니다.
 
 ![새로운 ASP.NET Core 빈 프로젝트 보기](media/asp-net-core-image4.png)
 
-ASP.NET Core 빈 웹 응용 프로그램은 두 개의 기본 파일 **Program.cs** 및 **Startup.cs**가 포함된 웹 응용 프로그램을 만듭니다. 두 파일은 아래에서 설명합니다. 또한 ASP.NET Core, .NET Core 프레임워크, 프로젝트를 빌드하는 MSBuild 대상 등 프로젝트의 NuGet 패키지 종속성을 포함하는 종속성 폴더를 만듭니다.
+ASP.NET Core 빈 웹 애플리케이션은 두 개의 기본 파일 **Program.cs** 및 **Startup.cs**가 포함된 웹 애플리케이션을 만듭니다. 또한 ASP.NET Core, .NET Core 프레임워크, 프로젝트를 빌드하는 MSBuild 대상 등 프로젝트의 NuGet 패키지 종속성을 포함하는 종속성 폴더를 만듭니다.
 
 ![종속성을 표시하는 Solution Pad](media/asp-net-core-image12.png)
 
@@ -108,7 +109,7 @@ public class Startup
 
 `ConfigureServices` 메서드는 앱에서 사용될 서비스를 정의합니다.
 
-`Configure`를 사용하면 [미들웨어](/aspnet/core/fundamentals/middleware)를 통해 요청 파이프라인을 구성할 수 있습니다. ASP.NET 응용 프로그램 파이프라인 내에서 요청과 응답을 처리하는 데 사용되는 구성 요소입니다. HTTP 파이프라인은 순서대로 호출되는 많은 요청 대리자로 구성됩니다. 각 대리자는 요청을 직접 처리하거나 다음 대리자에 전달하도록 선택할 수 있습니다.
+`Configure`를 사용하면 [미들웨어](/aspnet/core/fundamentals/middleware)를 통해 요청 파이프라인을 구성할 수 있습니다. ASP.NET 애플리케이션 파이프라인 내에서 요청과 응답을 처리하는 데 사용되는 구성 요소입니다. HTTP 파이프라인은 순서대로 호출되는 많은 요청 대리자로 구성됩니다. 각 대리자는 요청을 직접 처리하거나 다음 대리자에 전달하도록 선택할 수 있습니다.
 
 `IApplicationBuilder`의 `Run`, `Map`, `Use` 메서드를 사용하여 대리자를 구성할 수 있지만, `Run` 메서드는 다음 대리자를 호출하지 않으며 항상 파이프라인의 끝에 사용해야 합니다.
 
@@ -118,11 +119,11 @@ public class Startup
 
 ![앱 실행](media/asp-net-core-image5.png)
 
-Mac용 Visual Studio는 임의 포트를 사용하여 웹 프로젝트를 시작합니다. 해당 포트를 확인하려면 **보기 > 패드** 아래에 나열된 응용 프로그램 출력을 엽니다. 아래에 표시된 것과 비슷한 출력이 나타납니다.
+Mac용 Visual Studio는 임의 포트를 사용하여 웹 프로젝트를 시작합니다. 해당 포트를 확인하려면 **보기 &gt; 패드** 아래에 나열된 애플리케이션 출력을 엽니다. 아래에 표시된 것과 비슷한 출력이 나타납니다.
 
-![수신 대기 포트를 표시하는 응용 프로그램 출력](media/asp-net-core-image6.png)
+![수신 대기 포트를 표시하는 애플리케이션 출력](media/asp-net-core-image6.png)
 
-선택한 브라우저를 열고 `http://localhost:5000/`을 입력합니다. 여기서 `5000`을 Visual Studio 응용 프로그램 출력에 출력된 포트로 바꿉니다. `Hello World!` 텍스트가 표시됩니다.
+선택한 브라우저를 열고 `http://localhost:5000/`을 입력합니다. 여기서 `5000`을 Visual Studio 애플리케이션 출력에 출력된 포트로 바꿉니다. `Hello World!` 텍스트가 표시됩니다.
 
 ![텍스트를 표시하는 브라우저](media/asp-net-core-image7.png)
 
@@ -131,7 +132,7 @@ Mac용 Visual Studio는 임의 포트를 사용하여 웹 프로젝트를 시작
 ASP.NET Core 앱은 MVC(모델-뷰-컨트롤러) 디자인 패턴을 사용하여 앱의 각 부분에 대한 책임을 논리적으로 구분합니다. MVC는 다음과 같이 구성됩니다.
 
 - **모델**: 앱의 데이터를 나타내는 클래스입니다.
-- **뷰**: 앱의 사용자 인터페이스(대개 모델 데이터임)를 표시합니다.
+- **보기**: 앱의 사용자 인터페이스(대개 모델 데이터임)를 표시합니다.
 - **컨트롤러**: 브라우저 요청을 처리하고 사용자 입력 및 상호 작용에 응답하는 클래스입니다.
 
 MVC 사용 방법에 대한 자세한 내용은 [ASP.NET Core MVC 개요](/aspnet/core/mvc/overview) 가이드를 참조하세요.
@@ -223,7 +224,7 @@ MVC 사용 방법에 대한 자세한 내용은 [ASP.NET Core MVC 개요](/aspne
 
 Mac OS 10.11(El Capitan) 이상에 .NET Core를 수동으로 설치해야 하는 경우 다음을 수행합니다.
 
-1. .NET Core 설치를 시작하기 전에 모든 OS 업데이트를 안정적인 최신 버전으로 업데이트했는지 확인합니다. 앱 스토어 응용 프로그램으로 이동한 다음 업데이트 탭을 선택하면 확인할 수 있습니다.
+1. .NET Core 설치를 시작하기 전에 모든 OS 업데이트를 안정적인 최신 버전으로 업데이트했는지 확인합니다. 앱 스토어 애플리케이션으로 이동한 다음 업데이트 탭을 선택하면 확인할 수 있습니다.
 
 2. [.NET Core 사이트](https://www.microsoft.com/net/core#macos)에 나열된 단계를 따르세요.
 
@@ -234,5 +235,9 @@ Mac OS 10.11(El Capitan) 이상에 .NET Core를 수동으로 설치해야 하는
 이 가이드에서는 ASP.NET Core를 소개했습니다. ASP.NET Core란 무엇이고 언제 사용해야 하는지를 설명하고, Mac용 Visual Studio에서 사용하는 방법에 대한 정보를 제공했습니다.
 이후 단계에 대한 자세한 내용은 다음 가이드를 참조하세요.
 - [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1#build-web-ui-and-web-apis-using-aspnet-core-mvc) 문서
-- [네이티브 모바일 응용 프로그램용 백 엔드 서비스 만들기](/aspnet/core/mobile/native-mobile-backend) - Xamarin.Forms 앱용 ASP.NET Core를 사용하여 REST 서비스를 빌드하는 방법을 보여 줍니다.
+- [네이티브 모바일 애플리케이션용 백 엔드 서비스 만들기](/aspnet/core/mobile/native-mobile-backend) - Xamarin.Forms 앱용 ASP.NET Core를 사용하여 REST 서비스를 빌드하는 방법을 보여 줍니다.
 - [ASP.NET Core 실습 교육](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started)
+
+## <a name="related-video"></a>관련 동영상
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]

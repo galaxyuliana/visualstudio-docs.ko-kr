@@ -12,12 +12,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: a4b912f523be0380858d639dbf43a4c53bc358c6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 89d08619ede0269adb8cbf1df70bb423bb436bca
+ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54947025"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56155385"
 ---
 # <a name="create-a-vuejs-application-using-nodejs-tools-for-visual-studio"></a>Visual Studio용 Node.js 도구를 사용하여 Vue.js 애플리케이션 만들기
 
@@ -177,6 +177,6 @@ vue-cli 3.0을 사용한 알 수 없는 문제는 빌드 프로세스를 자동�
 
 ## <a name="see-also"></a>참고 항목
 
-- https://vuejs.org/v2/guide - Vue 시작 가이드입니다.
-- https://github.com/vuejs/vue-cli -Vue CLI 프로젝트입니다.
-- https://webpack.js.org/configuration/ -Webpack 구성 설명서입니다.
+- [Vue 시작 가이드입니다](https://vuejs.org/v2/guide).
+- [Vue CLI 프로젝트](https://github.com/vuejs/vue-cli(.
+- [Webpack 구성 설명서입니다](https://webpack.js.org/configuration/).
