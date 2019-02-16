@@ -1,4 +1,4 @@
-# [Visual Studio for Mac](index.md)
+# [Visual Studio for Mac](index.yml)
 # [IDE 둘러보기](/visualstudio/mac/ide-tour/)
 
 # [설치](/visualstudio/mac/installation/)
@@ -70,7 +70,7 @@
 ### [Unity 도구 사용](using-vsmac-tools-unity.md)
 ### [Unity에서 .NET 4.x 사용](/visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)
 ### [변경 로그](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
-## [Xamarin을 사용한 모바일 앱](/xamarin/)
+## [Xamarin을 사용한 모바일 앱](/visualstudio/mac/xamarin)
 
 # [액세스 가능성](accessibility.md)
 
