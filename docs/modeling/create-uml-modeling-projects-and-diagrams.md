@@ -10,16 +10,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4a501a6073133363885630805098b2c7a61826e8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 940b6b1b232e213238af7b1cb547e8278efd0d25
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926062"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317499"
 ---
 # <a name="create-uml-modeling-projects-and-diagrams"></a>UML 모델링 프로젝트 및 다이어그램 만들기
 
-Visual Studio 2017부터 UML 디자이너 Visual Studio에서 제거 되었습니다. 자세한 내용은 참조 [블로그 게시물](https://blogs.msdn.microsoft.com/devops/2016/10/14/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/)합니다.
+Visual Studio 2017부터 UML 디자이너 Visual Studio에서 제거 되었습니다. 자세한 내용은 참조 [블로그 게시물](https://devblogs.microsoft.com/devops/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/)합니다.
 
 UML 사용 해야 하는 경우 이후 버전의 Visual Studio를 사용 하 여 side-by-side-호환 되는 Visual Studio 2015 Enterprise edition을 사용할 수 있습니다.
 

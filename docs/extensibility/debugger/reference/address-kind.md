@@ -12,87 +12,87 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 635602117eac80aacd8c78ef6a30de905877a550
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: ce0328e3ddae1f58717fd831f64c0131c3e6beba
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54983146"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317200"
 ---
 # <a name="addresskind"></a>ADDRESS_KIND
-주소의 종류를 지정합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-enum enum_ADDRESS_KIND {  
-   ADDRESS_KIND_NATIVE                  = 0x0001,  
-   ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,  
-   ADDRESS_KIND_UNMANAGED_PHYSICAL      = 0x0005,  
-   ADDRESS_KIND_METADATA_METHOD         = 0x0010,  
-   ADDRESS_KIND_METADATA_FIELD          = 0x0011,  
-   ADDRESS_KIND_METADATA_LOCAL          = 0x0012,  
-   ADDRESS_KIND_METADATA_PARAM          = 0x0013,  
-   ADDRESS_KIND_METADATA_ARRAYELEM      = 0x0014,  
-   ADDRESS_KIND_METADATA_RETVAL         = 0x0015,  
-};  
-typedef DWORD ADDRESS_KIND;  
-```  
-  
-```csharp  
-public enum enum_ADDRESS_KIND {  
-   ADDRESS_KIND_NATIVE                  = 0x0001,  
-   ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,  
-   ADDRESS_KIND_UNMANAGED_PHYSICAL      = 0x0005,  
-   ADDRESS_KIND_METADATA_METHOD         = 0x0010,  
-   ADDRESS_KIND_METADATA_FIELD          = 0x0011,  
-   ADDRESS_KIND_METADATA_LOCAL          = 0x0012,  
-   ADDRESS_KIND_METADATA_PARAM          = 0x0013,  
-   ADDRESS_KIND_METADATA_ARRAYELEM      = 0x0014,  
-   ADDRESS_KIND_METADATA_RETVAL         = 0x0015,  
-};  
-```  
-  
-## <a name="terms"></a>용어  
- ADDRESS_KIND_NATIVE  
- 기본 주소를 표시 합니다 [NATIVE_ADDRESS](../../../extensibility/debugger/reference/native-address.md) 구조입니다.  
-  
- ADDRESS_KIND_UNMANAGED_THIS_RELATIVE  
- 기준으로 관리 되지 않는 주소를 `this` (`Me` Visual Basic의) 포인터 나타내는 및 합니다 [UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md) 구조입니다.  
-  
- ADDRESS_KIND_UNMANAGED_PHYSICAL  
- 나타내는 관리 되지 않는 실제 주소를 합니다 [UNMANAGED_ADDRESS_PHYSICAL](../../../extensibility/debugger/reference/unmanaged-address-physical.md) 구조입니다.  
-  
- ADDRESS_KIND_METHOD  
- 나타내는 클래스의 메서드를 [METADATA_ADDRESS_METHOD](../../../extensibility/debugger/reference/metadata-address-method.md) 구조입니다.  
-  
- ADDRESS_KIND_FIELD  
- 나타내는 클래스의 필드를 [METADATA_ADDRESS_FIELD](../../../extensibility/debugger/reference/metadata-address-field.md) 구조입니다.  
-  
- ADDRESS_KIND_LOCAL  
- 주소를 지역 변수에 대해 이며은 표현 합니다 [METADATA_ADDRESS_LOCAL](../../../extensibility/debugger/reference/metadata-address-local.md) 구조입니다.  
-  
- ADDRESS_KIND_PARAM  
- 메서드 또는 함수 매개 변수를 표시 합니다 [METADATA_ADDRESS_PARAM](../../../extensibility/debugger/reference/metadata-address-param.md) 구조입니다.  
-  
- ADDRESS_KIND_ARRAYELEM  
- 배열 요소를 표시 합니다 [METADATA_ADDRESS_ARRAYELEM](../../../extensibility/debugger/reference/metadata-address-arrayelem.md) 구조입니다.  
-  
- ADDRESS_KIND_RETVAL  
- 반환 값으로 표시 합니다 [METADATA_ADDRESS_RETVAL](../../../extensibility/debugger/reference/metadata-address-retval.md) 구조입니다.  
-  
-## <a name="remarks"></a>설명  
- [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md) 메서드가 반환 되는 [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) 가능한 구조의 공용 구조체를 포함 하는 구조는 [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) 구조. `dwKind` 필드를 `DEBUG_ADDRESS_UNION` 포함 구조체는 `ADDRESS_KIND` 값 및 공용 구조체 필드를 해석 하는 방법에 설명 합니다.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: sh.h  
-  
- 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
-  
- 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
- [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)   
- [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)   
- [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
+주소의 종류를 지정합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+enum enum_ADDRESS_KIND {
+    ADDRESS_KIND_NATIVE                  = 0x0001,
+    ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,
+    ADDRESS_KIND_UNMANAGED_PHYSICAL      = 0x0005,
+    ADDRESS_KIND_METADATA_METHOD         = 0x0010,
+    ADDRESS_KIND_METADATA_FIELD          = 0x0011,
+    ADDRESS_KIND_METADATA_LOCAL          = 0x0012,
+    ADDRESS_KIND_METADATA_PARAM          = 0x0013,
+    ADDRESS_KIND_METADATA_ARRAYELEM      = 0x0014,
+    ADDRESS_KIND_METADATA_RETVAL         = 0x0015,
+};
+typedef DWORD ADDRESS_KIND;
+```
+
+```csharp
+public enum enum_ADDRESS_KIND {
+    ADDRESS_KIND_NATIVE                  = 0x0001,
+    ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,
+    ADDRESS_KIND_UNMANAGED_PHYSICAL      = 0x0005,
+    ADDRESS_KIND_METADATA_METHOD         = 0x0010,
+    ADDRESS_KIND_METADATA_FIELD          = 0x0011,
+    ADDRESS_KIND_METADATA_LOCAL          = 0x0012,
+    ADDRESS_KIND_METADATA_PARAM          = 0x0013,
+    ADDRESS_KIND_METADATA_ARRAYELEM      = 0x0014,
+    ADDRESS_KIND_METADATA_RETVAL         = 0x0015,
+};
+```
+
+## <a name="terms"></a>용어
+ADDRESS_KIND_NATIVE  
+기본 주소를 표시 합니다 [NATIVE_ADDRESS](../../../extensibility/debugger/reference/native-address.md) 구조입니다.
+
+ADDRESS_KIND_UNMANAGED_THIS_RELATIVE  
+기준으로 관리 되지 않는 주소를 `this` (`Me` Visual Basic의) 포인터 나타내는 및 합니다 [UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md) 구조입니다.
+
+ADDRESS_KIND_UNMANAGED_PHYSICAL  
+나타내는 관리 되지 않는 실제 주소를 합니다 [UNMANAGED_ADDRESS_PHYSICAL](../../../extensibility/debugger/reference/unmanaged-address-physical.md) 구조입니다.
+
+ADDRESS_KIND_METHOD  
+나타내는 클래스의 메서드를 [METADATA_ADDRESS_METHOD](../../../extensibility/debugger/reference/metadata-address-method.md) 구조입니다.
+
+ADDRESS_KIND_FIELD  
+나타내는 클래스의 필드를 [METADATA_ADDRESS_FIELD](../../../extensibility/debugger/reference/metadata-address-field.md) 구조입니다.
+
+ADDRESS_KIND_LOCAL  
+주소를 지역 변수에 대해 이며은 표현 합니다 [METADATA_ADDRESS_LOCAL](../../../extensibility/debugger/reference/metadata-address-local.md) 구조입니다.
+
+ADDRESS_KIND_PARAM  
+메서드 또는 함수 매개 변수를 표시 합니다 [METADATA_ADDRESS_PARAM](../../../extensibility/debugger/reference/metadata-address-param.md) 구조입니다.
+
+ADDRESS_KIND_ARRAYELEM  
+배열 요소를 표시 합니다 [METADATA_ADDRESS_ARRAYELEM](../../../extensibility/debugger/reference/metadata-address-arrayelem.md) 구조입니다.
+
+ADDRESS_KIND_RETVAL  
+반환 값으로 표시 합니다 [METADATA_ADDRESS_RETVAL](../../../extensibility/debugger/reference/metadata-address-retval.md) 구조입니다.
+
+## <a name="remarks"></a>설명
+[GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md) 메서드가 반환 되는 [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) 가능한 구조의 공용 구조체를 포함 하는 구조는 [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) 구조. `dwKind` 필드를 `DEBUG_ADDRESS_UNION` 포함 구조체는 `ADDRESS_KIND` 값 및 공용 구조체 필드를 해석 하는 방법에 설명 합니다.
+
+## <a name="requirements"></a>요구 사항
+헤더: sh.h
+
+네임스페이스: Microsoft.VisualStudio.Debugger.Interop
+
+어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## <a name="see-also"></a>참고 항목
+[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
+[GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)  
+[DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)  
+[DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)

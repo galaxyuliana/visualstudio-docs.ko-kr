@@ -6,12 +6,12 @@ author: PooyaZv
 ms.author: pozandev
 manager: jillfra
 ms.workload: multiple
-ms.openlocfilehash: c4852e3c760f2974620f0a6c641a540b92d19bc3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 01b565e6b3d39e39b84054522f3a94e6c4149de4
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54957444"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317122"
 ---
 # <a name="how-to-diagnose-ui-delays-caused-by-extensions"></a>방법: 확장으로 인해 발생한 진단 UI 지연
 
@@ -102,7 +102,7 @@ PerfView 추적 컬렉션 시작 된 후 다시 표시 하려면 알림에 대 �
 그런 다음 왼쪽된 창에서 추적 파일을 선택 하 고 선택 하 여 엽니다 **엽니다** 마우스 오른쪽 단추 메뉴나 상황에 맞는 메뉴에서.
 
 > [!NOTE]
-> 기본적으로 PerfView Zip 보관 파일을 출력합니다. 열면 *trace.zip*를 자동으로 보관 압축을 해제 하 고 추적을 엽니다. 선택을 취소 하 여이 건너뛸 수 있습니다 합니다 **Zip** 추적 수집 하는 동안 상자입니다. 그러나 전송 하 고 여러 컴퓨터에서 추적을 사용 하려는 경우 좋습니다 선택을 취소 합니다 **Zip** 상자입니다. 이 옵션이 없으면 Ngen 어셈블리에 대 한 필수 Pdb에는 추적와 함께 제공 됩니다 하 고 따라서 Ngen 어셈블리의 기호는 확인할 수 없는 대상 컴퓨터에서. (참조 [이 블로그 게시물](https://blogs.msdn.microsoft.com/devops/2012/12/10/creating-ngen-pdbs-for-profiling-reports/) 어셈블리의 Ngen Pdb에 대 한 자세한 내용은 합니다.) 
+> 기본적으로 PerfView Zip 보관 파일을 출력합니다. 열면 *trace.zip*를 자동으로 보관 압축을 해제 하 고 추적을 엽니다. 선택을 취소 하 여이 건너뛸 수 있습니다 합니다 **Zip** 추적 수집 하는 동안 상자입니다. 그러나 전송 하 고 여러 컴퓨터에서 추적을 사용 하려는 경우 좋습니다 선택을 취소 합니다 **Zip** 상자입니다. 이 옵션이 없으면 Ngen 어셈블리에 대 한 필수 Pdb에는 추적와 함께 제공 됩니다 하 고 따라서 Ngen 어셈블리의 기호는 확인할 수 없는 대상 컴퓨터에서. (참조 [이 블로그 게시물](https://devblogs.microsoft.com/devops/creating-ngen-pdbs-for-profiling-reports/) 어셈블리의 Ngen Pdb에 대 한 자세한 내용은 합니다.) 
 
 PerfView 처리 하 여 추적 열에 대 일 분 정도 걸릴 수 있습니다. 추적을 연 후 그 아래 다양 한 "보기"의 목록이 표시 됩니다.
 

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 25f528f650f51d2d0db2aed2b40dcc6442d3b74b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: aced2be4d584fb2ede58527a1d541f24089f220d
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950463"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56315809"
 ---
 # <a name="use-models-in-your-development-process"></a>개발 프로세스에서 모델 사용
 
@@ -133,7 +133,7 @@ Visual Studio에서 모델을 사용하여 시스템, 응용 프로그램 또는
 |-|-|
 |**비디오**|![비디오를 연결할](../data-tools/media/playvideo.gif) [MSDN How Do I Video: UML 모델 및 다이어그램 (Visual Studio 2010 Ultimate) 만들기 및 사용 하는 방법](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![비디오를 연결할](../data-tools/media/playvideo.gif) [Channel 9: Visual Studio 2010을 사용한 UML](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![비디오를 연결할](../data-tools/media/playvideo.gif) [MSDN 어떻게 할까요? 시리즈: UML 도구 및 확장성 (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|
 |**포럼**|- [Visual Studio 시각화 및 모델링 도구](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio 시각화 및 모델링 SDK(DSL 도구)](http://go.microsoft.com/fwlink/?LinkId=184721)|
-|**Blogs**|[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)|
+|**Blogs**|[Microsoft DevOps](https://devblogs.microsoft.com/devops/)|
 |**기술 문서 및 저널**|[MSDN 아키텍처 센터](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio 아키텍처 도구 사용 지침](../modeling/visual-studio-architecture-tooling-guidance.md)|
 
 ## <a name="see-also"></a>참고자료

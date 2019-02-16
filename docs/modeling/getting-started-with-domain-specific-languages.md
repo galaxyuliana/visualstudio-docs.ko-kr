@@ -7,19 +7,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 93a121a103d18d886fafa2368d8669276a8010e8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 05d085ca32363888e2c59748aa5fdfd19eb190d5
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55938289"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316797"
 ---
 # <a name="get-started-with-domain-specific-languages"></a>도메인 특정 언어 시작
 
 이 항목에서는 정의 하 고 Visual Studio 용 모델링 SDK를 사용 하 여 만든 도메인 특정 언어 (DSL)를 사용 하 여 기본적인 개념을 설명 합니다.
 
 > [!NOTE]
-> Visual Studio의 특정 기능을 설치한 경우에 Visual Studio 2017에서 텍스트 템플릿 변환 SDK 및 Visual Studio 모델링 SDK에 자동으로 설치 됩니다. 자세한 내용은 참조 하세요. [이 블로그 게시물](https://blogs.msdn.microsoft.com/devops/2016/12/12/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)합니다.
+> Visual Studio의 특정 기능을 설치한 경우에 Visual Studio 2017에서 텍스트 템플릿 변환 SDK 및 Visual Studio 모델링 SDK에 자동으로 설치 됩니다. 자세한 내용은 참조 하세요. [이 블로그 게시물](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)합니다.
 
 Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있습니다. [Visualizaton 및 모델링 SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
