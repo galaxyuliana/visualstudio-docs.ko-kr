@@ -70,7 +70,7 @@
 ### [Unity 도구 사용](/visualstudio/mac/using-vsmac-tools-unity)
 ### [Unity에서 .NET 4.x 사용](/visualstudio/mac//visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)
 ### [변경 로그](/visualstudio/mac//visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
-## [Xamarin을 사용한 모바일 앱](/xamarin/)
+## [Xamarin을 사용한 모바일 앱](/visualstudio/mac/xamarin)
 
 # [액세스 가능성](/visualstudio/mac/accessibility)
 

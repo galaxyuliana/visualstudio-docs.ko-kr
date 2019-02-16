@@ -6,12 +6,12 @@ titleSuffix: ''
 description: Visual Studio 2017을 사용하여 플랫폼 및 장치에 대해 선택한 언어로 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.
 ms.topic: hub-page
 ms.custom: seodec18
-ms.openlocfilehash: bddd51f4544c1eb96c309330d6cda04e6589db44
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9bcd261ce7d6efbd7fac50352c9dfaa17ed6c41f
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55032213"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316784"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -988,7 +988,7 @@ ASP.NET Core를 사용한 웹앱</a>
         <h2>연락 방법</h2>
         <ul class="links">
            <li>
-                <a href="https://blogs.msdn.microsoft.com/visualstudio/"> 블로그 </a>
+                <a href="https://devblogs.microsoft.com/visualstudio/"> 블로그 </a>
             </li>
             <li>
                 <a href="https://twitter.com/VisualStudio"> Twitter </a>
