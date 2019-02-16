@@ -8,16 +8,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8a862d3da21d082c65e742bdd69851121f5b463e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 978e4d2717d1275c00305e2eadda289a9e257912
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55012276"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56318747"
 ---
 # <a name="changes-in-visual-studio-2017-extensibility"></a>Visual Studio 2017 확장성의 변경 내용
 
-Visual Studio 2017을 사용 하 여 저희는 [빠르고 가벼운 Visual Studio 설치 환경을](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer) 사용자에 게 큰 워크 로드 및 기능을 통해 제공 하는 동안 사용자 시스템에 Visual Studio의 영향을 줄여 주는 설치 됩니다. 이러한 향상 된이 기능을 지원 하려면 확장성 모델을 변경 했습니다 하 고 Visual Studio 확장성으로 몇 가지 주요 변경 했습니다. 이 문서에서는 이러한 변경 내용 및 해결을 수행할 수 있는 작업의 기술 세부 정보를 설명 합니다. 이 시점에서 구현 세부 정보 및 정보 나중에 변경할 수 있습니다 note 하십시오.
+Visual Studio 2017을 사용 하 여 저희는 [빠르고 가벼운 Visual Studio 설치 환경을](https://devblogs.microsoft.com/visualstudio/faster-leaner-visual-studio-installer) 사용자에 게 큰 워크 로드 및 기능을 통해 제공 하는 동안 사용자 시스템에 Visual Studio의 영향을 줄여 주는 설치 됩니다. 이러한 향상 된이 기능을 지원 하려면 확장성 모델을 변경 했습니다 하 고 Visual Studio 확장성으로 몇 가지 주요 변경 했습니다. 이 문서에서는 이러한 변경 내용 및 해결을 수행할 수 있는 작업의 기술 세부 정보를 설명 합니다. 이 시점에서 구현 세부 정보 및 정보 나중에 변경할 수 있습니다 note 하십시오.
 
 ## <a name="changes-affecting-vsix-format-and-installation"></a>VSIX 형식 및 설치에 영향을 주는 변경 내용
 
@@ -28,7 +28,7 @@ VSIX v3 도입 가벼운 설치 환경을 지원 하도록 (버전 3) 형식입�
 * 설치 필수 구성 요소의 선언입니다. 약속 fast-Visual Studio 설치, 간단한 전달할 설치 관리자에 게 더 많은 구성 옵션 이제 제공 합니다. 결과적으로, 기능 및 확장에서 필요한 구성 요소가 설치 되어 있는지를 확장 해야 해당 종속성을 선언 합니다.
   * Visual Studio 2017 설치 관리자는 획득 및 확장 설치의 일부로 사용자에 대해 필요한 구성 요소를 설치 하려면 자동으로 제공 됩니다.
   * 사용자가 만들어지지 않은 새 VSIX v3 형식을 사용 하 여 대상 버전 15.0으로 매니페스트에 표시 된 경우에 확장을 설치 하려고 할 때 경고가 표시도 됩니다.
-* VSIX 형식에 대 한 향상 된 기능입니다. 제공 하는 [영향이 적은 설치](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install) 또한 side-by-side-설치를 지 원하는 Visual studio를 더 이상 시스템 레지스트리에 대부분의 구성 데이터를 저장 하 고 Visual Studio 관련 어셈블리를 GAC에서 이동 합니다. 또한 늘렸습니다 VSIX 형식 및 VSIX 설치 엔진의 기능 일부 설치 유형에 대 한 확장을 설치 하지 않고는 MSI 또는 EXE를 사용할 수 있습니다.
+* VSIX 형식에 대 한 향상 된 기능입니다. 제공 하는 [영향이 적은 설치](https://devblogs.microsoft.com/visualstudio/anatomy-of-a-low-impact-visual-studio-install) 또한 side-by-side-설치를 지 원하는 Visual studio를 더 이상 시스템 레지스트리에 대부분의 구성 데이터를 저장 하 고 Visual Studio 관련 어셈블리를 GAC에서 이동 합니다. 또한 늘렸습니다 VSIX 형식 및 VSIX 설치 엔진의 기능 일부 설치 유형에 대 한 확장을 설치 하지 않고는 MSI 또는 EXE를 사용할 수 있습니다.
 
   새로운 기능에는 다음이 포함 됩니다.
 

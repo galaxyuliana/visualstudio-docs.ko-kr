@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16f54bd3bfd2fc6ce0b16ee8fbf849974d53884d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a47a076336a9e8f97bae9fdde79a7d8b3b525963
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54965694"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56318799"
 ---
 # <a name="add-a-language-server-protocol-extension"></a>언어 서버 프로토콜 확장 추가
 
@@ -89,9 +89,9 @@ textDocument/rename | 예
 ## <a name="getting-started"></a>시작
 
 > [!NOTE]
-> Visual Studio 15.8 미리 보기 3, 공용 언어 서버 프로토콜에 대 한 지원부터 Visual Studio에 빌드됩니다.  미리 보기를 사용 하 여 LSP 확장 구축 하는 경우 [언어 서버 클라이언트 VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) 버전인을 15.8 미리 보기 3 이상으로 업그레이드 한 후 작업을 하지 않을 것입니다.  작업을 다시 LSP 확장을 가져오려면 다음을 수행 해야 합니다.
+> Visual Studio 15.8 미리 보기 3, 공용 언어 서버 프로토콜에 대 한 지원부터 Visual Studio에 빌드됩니다. 미리 보기를 사용 하 여 LSP 확장 구축 하는 경우 [언어 서버 클라이언트 VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) 버전인을 15.8 미리 보기 3 이상으로 업그레이드 한 후 작업을 하지 않을 것입니다. 작업을 다시 LSP 확장을 가져오려면 다음을 수행 해야 합니다.
 >
-> 1. Microsoft Visual Studio 언어 서버 프로토콜 Preview VSIX를 제거 합니다.  15.8 Preview 4부터 Visual Studio에서 업그레이드를 수행 될 때마다 자동으로 감지 하 고 업그레이드 프로세스를 VSIX preview를 제거 합니다.
+> 1. Microsoft Visual Studio 언어 서버 프로토콜 Preview VSIX를 제거 합니다. 15.8 Preview 4부터 Visual Studio에서 업그레이드를 수행 될 때마다 자동으로 감지 하 고 업그레이드 프로세스를 VSIX preview를 제거 합니다.
 >
 > 2. 에 대 한 미리 보기가 아닌 최신 Nuget 참조를 업데이트할 [LSP 패키지](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client)합니다.
 >
@@ -129,10 +129,10 @@ LSP는 언어에 대 한 텍스트 색 지정을 제공 하는 방법에 대 한
 
 4. 만들기는 *.pkgdef* 파일과 비슷한이 줄을 추가 합니다.
 
-   ```xml
-   [$RootKey$\TextMate\Repositories]
-   "MyLang"="$PackageFolder$\Grammars"
-   ```
+    ```xml
+    [$RootKey$\TextMate\Repositories]
+    "MyLang"="$PackageFolder$\Grammars"
+    ```
 
 5. 선택한 파일을 마우스 오른쪽 단추로 클릭 **속성**합니다. 변경 합니다 **빌드** 작업을 **콘텐츠** 하며 **VSIX에 포함** 속성을 true로 합니다.
 
@@ -292,31 +292,31 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 
 1. JSON 파일을 추가 (예를 들어 *MockLanguageExtensionSettings.json*) 설정 및 기본값을 포함 하는 프로젝트에서. 예를 들어:
 
-   ```json
-   {
-    "foo.maxNumberOfProblems": -1
-   }
-   ```
+    ```json
+    {
+        "foo.maxNumberOfProblems": -1
+    }
+    ```
 2. JSON 파일을 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다. 변경 된 **빌드** "콘텐츠"에 대 한 작업 및 "VSIX에 포함 ' 속성을 true로 합니다.
 
 3. ConfigurationSections를 구현 하 고 JSON 파일에 정의 된 설정에 대 한 접두사의 목록을 반환 합니다 (Visual Studio Code에서이 매핑할 package.json에서 구성 섹션 이름):
 
-   ```csharp
-   public IEnumerable<string> ConfigurationSections
-   {
-      get
-      {
-          yield return "foo";
-      }
-   }
-   ```
+    ```csharp
+    public IEnumerable<string> ConfigurationSections
+    {
+        get
+        {
+            yield return "foo";
+        }
+    }
+    ```
 
 4. .Pkgdef 파일을 프로젝트에 추가 (새 텍스트 파일을 추가 하 고.pkgdef 파일 확장명이 변경). Pkgdef 파일에는이 정보를 포함 되어야 합니다.
 
-   ```xml
+    ```xml
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\[settings-name]]
     @="$PackageFolder$\[settings-file-name].json"
-   ```
+    ```
 
     예제:
     ```xml
@@ -340,13 +340,13 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 2. 사용자의 파일을 추가 합니다 *.vs* 라는 폴더 *VSWorkspaceSettings.json*합니다.
 3. 줄을 추가 하는 사용자를 *VSWorkspaceSettings.json* 파일 서버에서 제공 하는 설정에 대 한 합니다. 예를 들어:
 
-   ```json
-   {
-    "foo.maxNumberOfProblems": 10
-   }
-   ```
-   ### <a name="enabling-diagnostics-tracing"></a>진단 추적을 사용 하도록 설정
-   클라이언트와 서버 문제를 디버깅할 때 유용할 수 있는 모든 메시지를 출력 하도록 진단 추적을 사용할 수 있습니다.  진단 추적을 사용 하려면 다음을 수행 합니다.
+    ```json
+    {
+        "foo.maxNumberOfProblems": 10
+    }
+    ```
+    ### <a name="enabling-diagnostics-tracing"></a>진단 추적을 사용 하도록 설정
+    클라이언트와 서버 문제를 디버깅할 때 유용할 수 있는 모든 메시지를 출력 하도록 진단 추적을 사용할 수 있습니다. 진단 추적을 사용 하려면 다음을 수행 합니다.
 
 4. 작업 영역 설정 파일을 만들거나 엽니다 *VSWorkspaceSettings.json* ("사용자의 작업 영역에 대 한 설정을 편집" 참조).
 5. 설정 json 파일에 다음 줄을 추가 합니다.
@@ -362,7 +362,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 * "메시지": 추적 켜져 있지만 유일한 메서드 이름과 응답 ID를 추적 합니다.
 * "Verbose": 추적 설정 전체 rpc 메시지 추적 됩니다.
 
-파일에 기록 됩니다 추적 콘텐츠에 대해 설정 되어 있을 때 합니다 *%temp%\VisualStudio\LSP* 디렉터리입니다.  로그 명명 형식을 따릅니다 *[LanguageClientName]-[날짜/시간 스탬프].log*합니다.  현재 추적 폴더 열기 시나리오에만 사용할 수 있습니다.  언어 서버를 활성화 하는 단일 파일을 열고 추적 지원을 진단 결과는 없습니다.
+파일에 기록 됩니다 추적 콘텐츠에 대해 설정 되어 있을 때 합니다 *%temp%\VisualStudio\LSP* 디렉터리입니다. 로그 명명 형식을 따릅니다 *[LanguageClientName]-[날짜/시간 스탬프].log*합니다. 현재 추적 폴더 열기 시나리오에만 사용할 수 있습니다. 언어 서버를 활성화 하는 단일 파일을 열고 추적 지원을 진단 결과는 없습니다.
 
 ### <a name="custom-messages"></a>사용자 지정 메시지
 
@@ -425,7 +425,7 @@ internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCus
     }
 
     public async Task SendServerCustomNotification(object arg)
-    {    
+    {
         await this.customMessageRpc.NotifyWithParameterObjectAsync("OnCustomNotification", arg);
     }
 
@@ -477,7 +477,7 @@ Visual Studio에서 LSP 클라이언트 API를 사용 하 여 샘플 확장 프�
 
 **Visual Studio에서 다양 한 기능 지원을 제공 하기 위해 내 LSP 언어 서버를 보완 하기 위해 사용자 지정 프로젝트 시스템을 구축 하려는 그렇게 하는 방법에 대 한 할?**
 
-Visual Studio 언어 LSP 기반 서버에 대 한 지원에 의존 합니다 [폴더 열기 기능](https://blogs.msdn.microsoft.com/visualstudio/2016/04/12/open-any-folder-with-visual-studio-15-preview/) 사용자 지정 프로젝트 시스템을 요구 하지 않도록 특별히 설계 되었습니다. 지침에 따라 사용자 고유의 사용자 지정 프로젝트 시스템을 빌드할 수 있습니다 [여기](https://github.com/Microsoft/VSProjectSystem), 하지만 설정과 같은 일부 기능은 작동 하지 않을 수 있습니다. LSP 언어 서버에 대 한 기본 초기화 논리 되므로 언어 서버 수 있으며 되도록 초기화 하는 동안 사용자 지정 논리를 제공 해야 할 수는 사용자 지정 프로젝트 시스템을 사용 하면 현재 열려 있는 폴더의 루트 폴더 위치를 전달 하는 것 제대로 시작 합니다.
+Visual Studio 언어 LSP 기반 서버에 대 한 지원에 의존 합니다 [폴더 열기 기능](https://devblogs.microsoft.com/visualstudio/open-any-folder-with-visual-studio-15-preview/) 사용자 지정 프로젝트 시스템을 요구 하지 않도록 특별히 설계 되었습니다. 지침에 따라 사용자 고유의 사용자 지정 프로젝트 시스템을 빌드할 수 있습니다 [여기](https://github.com/Microsoft/VSProjectSystem), 하지만 설정과 같은 일부 기능은 작동 하지 않을 수 있습니다. LSP 언어 서버에 대 한 기본 초기화 논리 되므로 언어 서버 수 있으며 되도록 초기화 하는 동안 사용자 지정 논리를 제공 해야 할 수는 사용자 지정 프로젝트 시스템을 사용 하면 현재 열려 있는 폴더의 루트 폴더 위치를 전달 하는 것 제대로 시작 합니다.
 
 **디버거 지원을 추가 하려면 어떻게 해야 하나요?**
 
