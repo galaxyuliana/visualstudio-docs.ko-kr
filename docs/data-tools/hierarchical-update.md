@@ -18,16 +18,15 @@ helpviewer_keywords:
 ms.assetid: 68bae3f6-ec9b-45ee-a33a-69395029f54c
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
+manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 95aa29fc9856777912afa2efac2551ec4a703506
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: aaaa9b5f30844e9d23b35ec9304a70edcd2b6139
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53892704"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55933252"
 ---
 # <a name="hierarchical-update"></a>계층적 업데이트
 
@@ -102,7 +101,8 @@ ms.locfileid: "53892704"
 
 ### <a name="to-add-code-to-commit-parent-records-in-the-dataset-before-adding-new-child-records"></a>새 자식 레코드를 추가하기 전에 데이터 집합에서 부모 레코드를 커밋하는 코드를 추가하려면
 
-1.  `OrdersBindingSource.AddingNew` 이벤트에 대한 이벤트 처리기를 만듭니다.
+1.  
+  `OrdersBindingSource.AddingNew` 이벤트에 대한 이벤트 처리기를 만듭니다.
 
     -   오픈 **Form1** 디자인 뷰에서 선택 **OrdersBindingSource** 구성 요소 트레이에 선택 **이벤트** 에 **속성** 창 및 다음 두 번 클릭 합니다 **AddingNew** 이벤트입니다.
 

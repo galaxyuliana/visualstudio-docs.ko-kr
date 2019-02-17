@@ -9,17 +9,16 @@ ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 12b09ee0e0767ad98a27387e7caf79425320598b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 27c2677b8afef1f1e2cd035acb3038b42a4ef56d
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55009754"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55948604"
 ---
-# <a name="walkthrough-customize-the-insert-update-and-delete-behavior-of-entity-classes"></a>연습: 엔터티 클래스의 삽입, 업데이트 및 삭제 동작 사용자 지정
+# <a name="walkthrough-customize-the-insert-update-and-delete-behavior-of-entity-classes"></a>연습: 삽입, 업데이트 및 엔터티 클래스의 삭제 동작 사용자 지정
 
 합니다 [Visual Studio에서 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md) 만들고 LINQ to SQL 클래스 (엔터티 클래스)는 데이터베이스의 개체를 기반으로 하는 편집 하기 위한 시각적 디자인 화면을 제공 합니다. 사용 하 여 [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), SQL 데이터베이스에 액세스 하려면 LINQ 기술을 사용할 수 있습니다. 자세한 내용은 [LINQ(Language-Integrated Query)](/dotnet/csharp/linq/)를 참조하세요.
 
@@ -103,7 +102,7 @@ LINQ to SQL 클래스 테이블을 끌어 데이터베이스 테이블에 매핑
      **Customer**라는 엔터티 클래스를 만듭니다. 이 클래스에는 Customers 테이블의 열에 해당하는 속성이 있습니다. 이 엔터티 클래스는 Customers 테이블의 단일 고객을 나타내므로 이름이 **Customers**가 아닌 **Customer**로 지정됩니다.
 
     > [!NOTE]
-    > 이러한 이름 바꾸기 동작을 *복수 적용*이라고 합니다. 설정할 수 있습니다 또는 해제는 [옵션 대화 상자](../ide/reference/options-dialog-box-visual-studio.md)합니다. 자세한 내용은 [방법: 복수 적용 설정 및 해제(O/R 디자이너)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md)를 참조하세요.
+    > 이러한 이름 바꾸기 동작을 *복수 적용*이라고 합니다. 설정할 수 있습니다 또는 해제는 [옵션 대화 상자](../ide/reference/options-dialog-box-visual-studio.md)합니다. 자세한 내용은 [방법: 복수형 설정 및 해제 (O/R 디자이너)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md)합니다.
 
 3.  **빌드** 메뉴에서 **UpdatingwithSProcsWalkthrough 빌드**를 클릭하여 프로젝트를 빌드합니다.
 
@@ -233,7 +232,7 @@ LINQ에서 SQL 데이터 원본 항목을 끌어 엔터티 클래스에 바인�
 19. **확인**을 클릭합니다.
 
 > [!NOTE]
-> LINQ to SQL 삽입 하는 동안 identity (자동 증분), rowguidcol (데이터베이스에서 생성 된 GUID) 및 timestamp 열에 대해 자동으로 데이터베이스에서 생성 된 값을 처리 하는 주목할 만한 것은이 연습에서는 문제가 없지만 및 업데이트합니다. 데이터베이스에서 생성된 값이 다른 형식의 열에 있으면 null 값이라는 예기치 않은 결과가 발생합니다. 데이터베이스에서 생성된 값을 반환하려면 수동으로 <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A>를 `true`로 설정하고 <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A>를 ,  또는  중 하나로 설정해야 합니다. [AutoSync.Always](<xref:System.Data.Linq.Mapping.AutoSync.Always>)하십시오 [AutoSync.OnInsert](<xref:System.Data.Linq.Mapping.AutoSync.OnInsert>), 또는 [AutoSync.OnUpdate](<xref:System.Data.Linq.Mapping.AutoSync.OnUpdate>)합니다.
+> LINQ to SQL 삽입 하는 동안 identity (자동 증분), rowguidcol (데이터베이스에서 생성 된 GUID) 및 timestamp 열에 대해 자동으로 데이터베이스에서 생성 된 값을 처리 하는 주목할 만한 것은이 연습에서는 문제가 없지만 및 업데이트합니다. 데이터베이스에서 생성된 값이 다른 형식의 열에 있으면 null 값이라는 예기치 않은 결과가 발생합니다. 데이터베이스에서 생성 된 값을 반환 하려면 직접 설정 해야 <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> 를 `true` 하 고 <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> 중 하나를: [AutoSync.Always](<xref:System.Data.Linq.Mapping.AutoSync.Always>)를 [AutoSync.OnInsert](<xref:System.Data.Linq.Mapping.AutoSync.OnInsert>), 또는 [AutoSync.OnUpdate](<xref:System.Data.Linq.Mapping.AutoSync.OnUpdate>)합니다.
 
 ## <a name="test-the-application"></a>애플리케이션 테스트
 
@@ -274,6 +273,6 @@ LINQ에서 SQL 데이터 원본 항목을 끌어 엔터티 클래스에 바인�
 
 - [Visual Studio의 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [DataContext 메서드](../data-tools/datacontext-methods-o-r-designer.md)
-- [방법: 저장 프로시저를 할당하여 업데이트, 삽입 및 삭제 수행](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)
+- [방법: 업데이트, 삽입 및 삭제 하는 데 저장된 프로시저를 할당 합니다.](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)
 - [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)
 - [LINQ to SQL 쿼리](/dotnet/framework/data/adonet/sql/linq/linq-to-sql-queries)

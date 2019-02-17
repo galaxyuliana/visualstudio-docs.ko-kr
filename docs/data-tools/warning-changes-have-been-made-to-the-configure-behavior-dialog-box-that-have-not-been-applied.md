@@ -6,17 +6,16 @@ ms.assetid: ce5822dd-4f10-4c86-b707-7766837be216
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 9b892ab4566409f29506359d4655002877c9740e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0526f08e1bbffb0a4dc8729e2b180ad9efe319ff
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54970216"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55936566"
 ---
-# <a name="warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied"></a>경고: 동작 구성 대화 상자에 적용되지 않은 변경 내용이 있습니다.
+# <a name="warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied"></a>경고: 동작 구성 대화 상자에 적용되지 않은 변경이 있음
 
 경고. 동작 구성 대화 상자에 적용되지 않은 변경 내용이 있습니다. 변경 내용을 적용하시겠습니까?
 
