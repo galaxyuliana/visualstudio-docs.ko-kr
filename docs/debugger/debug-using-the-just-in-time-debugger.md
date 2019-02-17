@@ -5,18 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Visual Studio], Just-In-Time
 - Just-In-Time debugging
-ms.assetid: ee4d79a5-a1d2-4418-a93f-dd57a53e1836
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fbdf32377db26cdb3696187248bd9b8becb8de24
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: a593548936b84f852015a09dd8f63f7fceb7472b
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53831552"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55921434"
 ---
 # <a name="debug-using-the-just-in-time-debugger-in-visual-studio"></a>Just-In-Time 디버거를 사용 하 여 Visual Studio에서 디버그
 
@@ -40,7 +39,7 @@ Just In Time Visual Studio에서 디버깅을 구성할 수 있습니다 **도�
 
    ![JIT 디버깅을 사용할지](../debugger/media/dbg-jit-enable-or-disable.png "JIT 디버깅을 사용할지")
 
-1. 에 **이러한 유형의 코드에 Just-In-Time 디버깅 사용** 상자 시간 Just-디버그 하려면 디버그 하려는 코드의 형식을 선택 합니다. **관리 되는**, **네이티브**, 및/또는 **스크립트**합니다.
+1. 에 **이러한 유형의 코드에 Just-In-Time 디버깅 사용** 상자 시간 Just-디버그 하려면 디버그 하려는 코드의 형식을 선택 합니다: **관리 되는**에 **네이티브**, 및/또는  **스크립트**합니다.
    
 1. **확인**을 선택합니다.
 
@@ -56,7 +55,7 @@ Just In Time Visual Studio에서 디버깅을 구성할 수 있습니다 **도�
 
 2.  에 **레지스트리 편집기** 창 찾기 및 다음 레지스트리 항목을 삭제 합니다.
 
-    -   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\합니다. NETFramework\DbgManagedDebugger**
+    -   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
 
     -   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
 
@@ -64,7 +63,7 @@ Just In Time Visual Studio에서 디버깅을 구성할 수 있습니다 **도�
 
 3.  컴퓨터는 64 비트 운영 체제를 실행 하는 경우 다음 레지스트리 항목을 삭제 합니다.
 
-    -   **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\합니다. NETFramework\DbgManagedDebugger**
+    -   **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
 
     -   **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
 
@@ -105,7 +104,7 @@ Just In Time 표준 Windows 폼 오류를 처리 하는 대신 디버깅을 사�
 
 예를 들어 해야는 C# 를 throw 하는 Visual Studio에서 콘솔 앱을 [NullReferenceException](/dotnet/api/system.nullreferenceexception).
 
-1. Visual studio는 C# 콘솔 앱 (**파일** > **새로 만들기** > **프로젝트** > **C#**  >  **콘솔 응용 프로그램**) 라는 *ThrowsNullException*합니다. Visual Studio에서 프로젝트를 만드는 방법에 대 한 자세한 내용은 참조 하세요. [연습: ](/visualstudio/get-started/csharp/tutorial-wpf) 간단한 애플리케이션 만들기
+1. Visual studio는 C# 콘솔 앱 (**파일** > **새로 만들기** > **프로젝트** > **C#**  >  **콘솔 응용 프로그램**) 라는 *ThrowsNullException*합니다. Visual Studio에서 프로젝트를 만드는 방법에 대 한 자세한 내용은 참조 하세요. [연습: 간단한 응용 프로그램](/visualstudio/get-started/csharp/tutorial-wpf)합니다.
    
 1. Visual Studio에서 프로젝트가 열리면 엽니다는 *Program.cs* 파일입니다. 콘솔에 줄을 출력 하 고 다음 NullReferenceException을 throw 하는 다음 코드를 사용 하 여 main () 메서드를 바꿉니다.
    
@@ -159,7 +158,7 @@ Just In Time 경우 디버깅 시작 되지 않는 앱 충돌 하는 경우 Visu
 
   - **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows 오류 보고**
     
-  - (64 비트 컴퓨터)의 경우 **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows 오류 보고**
+  - (64 비트 컴퓨터용): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows 오류 보고**
   
   자세한 내용은 참조 하세요. [합니다. WER 설정](https://docs.microsoft.com/windows/desktop/wer/wer-settings)합니다.
   
@@ -170,7 +169,7 @@ Just In Time 경우 디버깅 시작 되지 않는 앱 충돌 하는 경우 Visu
   
   - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
     
-  - (64 비트 컴퓨터)의 경우 **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (64 비트 컴퓨터용): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
 Just In Time 중 다음 오류 메시지가 표시 될 수 있습니다 디버깅:
 
@@ -193,6 +192,7 @@ Just In Time 중 다음 오류 메시지가 표시 될 수 있습니다 디버�
     이 문제를 해결 하려면 Visual Studio 설치 관리자를 사용 하 여 다시 설치 하거나 Visual Studio 설치를 복구 합니다.
 
 ## <a name="see-also"></a>참고 항목
+
 - [디버거 보안](../debugger/debugger-security.md)
 - [디버거 소개](../debugger/debugger-feature-tour.md)
 - [Just In Time, 디버깅, 옵션 대화 상자](../debugger/just-in-time-debugging-options-dialog-box.md)

@@ -17,15 +17,14 @@ ms.assetid: f6ae2ee0-ea5f-4a79-8f4b-e21c115afb20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
 - data-storage
-ms.openlocfilehash: 143a98cb6a7c805932548e61e3c1cdcdfa422a93
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c6da3f51a249aaf52cf3f20b90f3add6ceeb7aa1
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54941856"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55936553"
 ---
 # <a name="work-with-datasets-in-n-tier-applications"></a>n 계층 애플리케이션에서 데이터 세트 작업
 
@@ -43,7 +42,7 @@ TableAdapter 및 데이터 클래스를 개별 프로젝트로 생성할 수 있
 ## <a name="see-also"></a>참고 항목
 
 - [N 계층 데이터 애플리케이션 개요](../data-tools/n-tier-data-applications-overview.md)
-- [연습: N 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)
+- [연습: n 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)
 - [n 계층 애플리케이션에서 TableAdapter에 코드 추가](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)
 - [n 계층 애플리케이션에서 데이터 세트에 코드 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md)
 - [n 계층 데이터 세트에 유효성 검사 추가](../data-tools/add-validation-to-an-n-tier-dataset.md)
