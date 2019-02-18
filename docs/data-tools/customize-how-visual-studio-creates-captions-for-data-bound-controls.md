@@ -10,16 +10,15 @@ helpviewer_keywords:
 ms.assetid: 6d4d15f8-4d78-42fd-af64-779ae98d62c8
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
+manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 396afaf7b2cd5821db05ee4a6291d976fc852878
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 60e67e7150f00abb44f4af6b812f0ede43be8037
+ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53847966"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55939842"
 ---
 # <a name="customize-how-visual-studio-creates-captions-for-data-bound-controls"></a>Visual Studio에서 데이터 바인딩된 컨트롤에 대한 캡션을 만드는 방식 사용자 지정
 
@@ -42,14 +41,14 @@ ms.locfileid: "53847966"
 
 |레지스트리 항목|기본값|설명|
 |-------------------|-------------------|-----------------|
-|**SmartCaptionExpression**|**(\\\p{Ll}) (\\\p{Lu})&#124;_ +**|대문자 또는 밑줄 뒤에 소문자 문자를 찾습니다.|
+|**SmartCaptionExpression**|**(\\\p{Ll})(\\\p{Lu})&#124;_+**|대문자 또는 밑줄 뒤에 소문자 문자를 찾습니다.|
 |**SmartCaptionReplacement**|**$1 $2**|**$1** 식의 첫 번째 괄호로 일치 하는 문자를 나타내는 하며 **$2** 두 번째 괄호로 일치 하는 문자를 나타냅니다. 첫 번째 일치 하는, 공백 하나 및 두 번째 일치 항목이 바뀝니다.|
 |**SmartCaptionSuffix**|**:**|반환된 된 문자열에 추가 되는 문자를 나타냅니다. 예를 들어, 캡션이 `Company Name`, 접미사를 사용 하면 `Company Name:`|
 
 > [!CAUTION]
 > 레지스트리 편집기에서 작업을 수행 하는 경우에 매우 주의 해야 합니다. 편집 하기 전에 레지스트리를 백업 합니다. 레지스트리 편집기를 잘못 사용 하면 운영 체제를 다시 설치 해야 할 수 있는 심각한 문제가 발생할 수 있습니다. Microsoft은 레지스트리 편집기를 잘못 사용 하 여 발생 하는 문제를 해결할 수 있음을 보장 하지 않습니다. 레지스트리 편집기 사용에 따른 결과는 사용자의 책임입니다.
 >
-> 다음 기술 자료 문서를 백업, 편집 및 레지스트리 복원 지침이 포함 되어 있습니다. [Microsoft Windows 레지스트리 설명](http://support.microsoft.com/default.aspx?scid=kb;en-us;256986) (http://support.microsoft.com/default.aspx?scid=kb; en-우리; 256986)
+> 다음 기술 자료 문서에는 백업, 편집 및 레지스트리 복원에 대 한 지침이 포함 되어 있습니다.: [Microsoft Windows 레지스트리 설명](http://support.microsoft.com/default.aspx?scid=kb;en-us;256986) (http://support.microsoft.com/default.aspx?scid=kb; en-우리; 256986)
 
 ## <a name="modify-the-smart-captioning-behavior-of-the-data-sources-window"></a>데이터 소스 창에서의 스마트 캡션 동작을 수정
 
