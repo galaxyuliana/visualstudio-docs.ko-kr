@@ -12,10 +12,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 6b40b37c8c0ee97b5d7e0cc33773af140bd1010b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54790271"
 ---
 # <a name="suspendprofile"></a>SuspendProfile
@@ -72,7 +72,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI SuspendProfile(
   
  가져오기 라이브러리: VSPerf.lib  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 SuspendProfile 메서드를 보여 줍니다. 이 예에서는 StartProfile에 대한 이전 호출이 [PROFILE_CURRENTID](../profiling/profile-currentid.md)에 의해 식별된 프로세스 또는 스레드에 대해 만들어졌다고 가정합니다.  
   
 ```  

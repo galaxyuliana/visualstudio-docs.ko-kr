@@ -13,10 +13,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 100e303df62a1ca9855b891915e43f1fe020555e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54802342"
 ---
 # <a name="commentmarkprofile"></a>CommentMarkProfile
@@ -73,7 +73,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
 |**라이브러리**|VSPerf.lib 사용|  
 |**유니코드**|`CommentMarkProfileW`(유니코드) 및 `CommentMarkProfileA`(ANSI)로 구현됐습니다.|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드에서는 CommentMarkProfile 함수 호출을 보여 줍니다. 예제에서는 코드에서 [!INCLUDE[vcpransi](../includes/vcpransi-md.md)] 함수 호출을 호출할지 여부를 결정하도록 Win32 문자열 매크로 및 Unicode 컴파일러 설정의 사용을 가정합니다.  
   
 ```  

@@ -18,10 +18,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b45d0e9494700d03c0e96ccd0708e2754b4f7a2b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54797027"
 ---
 # <a name="item-element-msbuild"></a>Item 요소(MSBuild)
@@ -80,7 +80,7 @@ ms.locfileid: "54797027"
   
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 엔진은 `*`, `?` 등의 와일드카드와 `/**/*.cs` 등의 재귀 와일드카드를 평가할 수 있습니다. 자세한 내용은 [항목](../msbuild/msbuild-items.md)을 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 `CSFile` 형식의 두 항목을 선언하는 방법을 보여 줍니다. 두 번째로 선언된 항목은 `MyMetadata`가 `HelloWorld`로 설정된 메타데이터를 포함합니다.  
   
 ```  

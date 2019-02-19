@@ -19,10 +19,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 09562c3372a6dd933d3656f1b2f7ccf7ca68109d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54771033"
 ---
 # <a name="vsinstr"></a>VSInstr
@@ -47,7 +47,7 @@ VSInstr [/U] filename [/options]
 |**DumpFuncs**|지정된 이미지 내의 함수 목록을 표시합니다. 계측은 수행되지 않습니다.|  
 |**ExcludeSmallFuncs**|함수를 호출하지 않는 짧은 함수인 작은 함수를 계측에서 제외합니다. **ExcludeSmallFuncs** 옵션을 사용하는 경우 계측 오버헤드가 감소하므로 계측 속도를 높일 수 있습니다.<br /><br /> 또한 작은 함수를 제외하면 .vsp 파일의 크기와 분석에 필요한 시간도 감소합니다.|  
 |**Mark:**{**Before**`&#124;`**After**`&#124;`**Top**`&#124;`**Bottom**}`,funcname,markid`|.vsp 보고서 파일에서 데이터 범위의 시작이나 끝을 식별하는 데 사용할 수 있는 프로필 표시(보고서의 데이터를 구분하는 데 사용되는 식별자)를 삽입합니다.<br /><br /> **Before** - 대상 함수 진입 위치 바로 앞에 삽입합니다.<br /><br /> **After** - 대상 함수 종료 위치 바로 뒤에 삽입합니다.<br /><br /> **Top** - 대상 함수의 진입 위치 바로 뒤에 삽입합니다.<br /><br /> **Bottom** - 대상 함수의 각 반환 바로 앞에 삽입합니다.<br /><br /> `funcname` - 대상 함수의 이름입니다.<br /><br /> `Markid` - 프로필 표시의 식별자로 사용할 양의 정수(long)입니다.|  
-|**Coverage**|검사 계측을 수행합니다. 다음 옵션과 사용할 수 있습니다 수 있습니다. **Verbose**, **OutputPath**, **Exclude** 및 **Logfile**|  
+|**Coverage**|검사 계측을 수행합니다. **Verbose**, **OutputPath**, **Exclude**, **Logfile** 옵션과 함께 사용해야 합니다.|  
 |**Verbose**|**Verbose** 옵션은 계측 프로세스에 대한 자세한 정보를 확인하는 데 사용됩니다.|  
 |**NoWarn** `[:[Message Number[;Message Number]]]`|모든 경고를 표시하지 않거나 특정 경고를 표시하지 않습니다.<br /><br /> `Message Number` - 경고 번호입니다. `Message Number`를 생략 하면 모든 경고가 표시되지 않습니다.<br /><br /> 자세한 내용은 [VSInstr 경고](../profiling/vsinstr-warnings.md)를 참조하세요.|  
 |**Control** `:{` **Thread** `&#124;` **Process** `&#124;` **Global** `}`|다음 VSInstr 데이터 수집 제어 옵션의 프로파일링 수준을 지정합니다.<br /><br /> **Start**<br /><br /> **StartOnly**<br /><br /> **Suspend**<br /><br /> **StopOnly**<br /><br /> **SuspendOnly**<br /><br /> **ResumeOnly**<br /><br /> **Thread** - 스레드 수준 데이터 수집 제어 함수를 지정합니다. 현재 스레드에 대해서만 프로파일링이 시작되거나 중지됩니다. 다른 스레드의 프로파일링 상태는 영향을 받지 않습니다. 기본값은 thread입니다.<br /><br /> **Process** - 프로세스 수준 프로파일링 데이터 수집 제어 함수를 지정합니다. 현재 프로세스의 모든 스레드에 대해 프로파일링이 시작되거나 중지됩니다. 다른 프로세스의 프로파일링 상태는 영향을 받지 않습니다.<br /><br /> **Global** - 전역 수준(프로세스 간) 데이터 수집 제어 함수를 지정합니다.<br /><br /> 프로파일링 수준을 지정하지 않으면 오류가 발생합니다.|  

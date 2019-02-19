@@ -20,10 +20,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f3f537e6f9f1712e3d103a0d425265153bf2152e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54774685"
 ---
 # <a name="generatetemporarytargetassembly-task"></a>GenerateTemporaryTargetAssembly 작업
@@ -51,7 +51,7 @@ ms.locfileid: "54774685"
   
  대신, **MarkupCompilePass1**는 동일한 프로젝트의 형식에 대한 참조를 포함하는 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일의 변환을 [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md)에 의해 실행되는 두 번째 마크업 컴파일 패스로 연기합니다. **MarkupCompilePass2**가 실행되기 전에 임시 어셈블리가 생성됩니다. 이 어셈블리에는 해당 마크업 컴파일 패스가 지연되는 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일에서 사용되는 형식이 포함됩니다. 지연된 컴파일 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일이 이진 형식으로 변환될 수 있도록 하기 위해 생성된 어셈블리에 대한 참조가 **MarkupCompilePass2** 실행 시에 제공됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 `Page1.xaml`에 동일한 프로젝트에 있는 형식에 대한 참조가 포함되므로 임시 어셈블리를 생성합니다.  
   
 ```  

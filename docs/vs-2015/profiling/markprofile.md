@@ -12,10 +12,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 105e81ed15a540a0c008eb94cb4af49caa099879
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54803032"
 ---
 # <a name="markprofile"></a>MarkProfile
@@ -65,7 +65,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );
   
  가져오기 라이브러리: VSPerf.lib  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드에서는 MarkProfile 함수를 보여 줍니다.  
   
 ```  

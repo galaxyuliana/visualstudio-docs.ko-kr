@@ -12,10 +12,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 340a12bfb8dc9a26c4200682851bb0acc684dddf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54787395"
 ---
 # <a name="functions-view---net-memory-instrumentation-data"></a>함수 뷰 - .NET 메모리 계측 데이터
@@ -100,7 +100,7 @@ ms.locfileid: "54787395"
 |**최소 애플리케이션 전용 시간**|이 함수에 대한 호출의 최소 애플리케이션 전용 시간입니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 보고서 보기 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
+ [방법: 보고서 뷰 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
  [함수 뷰 - 샘플링](../profiling/functions-view-dotnet-memory-sampling-data.md)   
  [함수 뷰](../profiling/functions-view-instrumentation-data.md)   
  [함수 뷰](../profiling/functions-view-sampling-data.md)

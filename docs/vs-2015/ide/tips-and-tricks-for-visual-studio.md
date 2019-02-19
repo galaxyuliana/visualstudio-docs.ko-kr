@@ -10,10 +10,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 6eb3e77c8d84f7603828c39b637bb49a8310a269
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54771181"
 ---
 # <a name="tips-and-tricks-for-visual-studio"></a>Visual Studio에 대한 유용한 정보
@@ -139,7 +139,7 @@ ms.locfileid: "54771181"
 
 ##  <a name="BKMK_ALM"></a> 애플리케이션 수명 주기 관리
 
-참조 [바로 가기 키: Visual Studio Online, TFS 웹 포털 및 팀 탐색기](/azure/devops/project/navigation/keyboard-shortcuts?view=vsts)합니다.
+[바로 가기 키: Visual Studio Online, TFS 웹 포털 및 팀 탐색기](/azure/devops/project/navigation/keyboard-shortcuts?view=vsts)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

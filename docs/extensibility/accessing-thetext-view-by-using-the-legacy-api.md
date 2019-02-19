@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bee3e781e9cb504148ae46f6a9e0b37b6ae778fb
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: bce39d8ae736d9f7dcda8b18198053f90933b811
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54979649"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335506"
 ---
 # <a name="access-the-text-view-by-using-the-legacy-api"></a>기존 API를 사용 하 여 텍스트 보기에 액세스
 텍스트 뷰는 텍스트 버퍼에 저장 되는 텍스트를 표시 합니다. 다음 섹션에 나와 있는 것 처럼 기존 API를 사용 하 여 텍스트 보기에 액세스할 수 있습니다.
@@ -23,7 +23,7 @@ ms.locfileid: "54979649"
 ## <a name="text-view-object"></a>텍스트 뷰 개체
  뷰는 데이터 버퍼에 대 한 창 및 각 뷰에 자체 텍스트 버퍼를 사용 하 여 연결 됩니다. 다음 다이어그램으로 표현 되는 텍스트 뷰 개체의 키 인터페이스를 보여 줍니다. <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>합니다.
 
- ![Visual Studio 텍스트 뷰 개체](../extensibility/media/vstextview.gif "vstextview") 텍스트 뷰 개체
+ ![Visual Studio 텍스트 뷰 개체](../extensibility/media/vstextview.gif)
 
  뷰는 버퍼에 텍스트를 표시 하는 방법. 보기에 표시 되지 않도록 버퍼에 있는 텍스트의 정확한 표시 개요, 자동 줄 바꿈 등의 기능을 포함 합니다.
 

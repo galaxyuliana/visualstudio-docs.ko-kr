@@ -13,13 +13,13 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: c4eb2b40d6f61cefe0b8d80cafba84ebdf0dcedc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54793941"
 ---
-# <a name="how-to-locate-the-visual-studio-product-key"></a>방법: Visual Studio 제품 키 찾기
+# <a name="how-to-locate-the-visual-studio-product-key"></a>How to: Locate the Visual Studio Product Key
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 고객 지원 팀과 작업하거나, 평가판에서 업그레이드하거나, 사용자 고유의 레코드를 업데이트하는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 의 제품 키를 찾으려고 할 수 있습니다.

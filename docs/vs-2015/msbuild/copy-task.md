@@ -23,10 +23,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 8f6e1bf48d80362a4f51e10583c5827eff8fe932
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54758321"
 ---
 # <a name="copy-task"></a>Copy 작업
@@ -46,7 +46,7 @@ ms.locfileid: "54758321"
 |`OverwriteReadOnlyFiles`|선택적 `Boolean` 매개 변수입니다.<br /><br /> 파일이 읽기 전용으로 표시된 경우에 파일을 덮어씁니다.|  
 |`Retries`|선택적 `Int32` 매개 변수입니다.<br /><br /> 이전 시도가 모두 실패한 경우 복사를 시도할 횟수를 지정합니다. 기본값은 0입니다.<br /><br /> **참고:** 다시 시도하면 빌드 프로세스에서 동기화 문제를 마스킹할 수 있습니다.|  
 |`RetryDelayMilliseconds`|선택적 `Int32` 매개 변수입니다.<br /><br /> 필요한 다시 시도 간의 지연 시간을 지정합니다. 기본값은 CopyTask 생성자에 전달되는 RetryDelayMillisecondsDefault 인수입니다.|  
-|`SkipUnchangedFiles`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`이면 소스와 대상 간에 변경되지 않은 파일의 복사를 건너뜁니다. 파일 크기가 같고 마지막으로 수정된 시간이 같으면 `Copy` 작업에서 파일이 변경되지 않은 것으로 간주합니다. **참고:**  이 매개 변수를 `true`로 설정하면 포함 대상에 대한 종속성 분석을 사용하지 않아야 합니다. 원본 파일을 마지막으로 수정한 시간이 대상 파일을 마지막으로 수정한 시간보다 더 최신일 경우에만 작업을 수행하기 때문입니다.|  
+|`SkipUnchangedFiles`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`이면 소스와 대상 간에 변경되지 않은 파일의 복사를 건너뜁니다. 파일 크기가 같고 마지막으로 수정된 시간이 같으면 `Copy` 작업에서 파일이 변경되지 않은 것으로 간주합니다. **참고:**  이 매개 변수를 `true`로 설정하면 포함 대상에 대한 종속성 분석을 사용하지 않아야 합니다. 소스 파일의 마지막으로 수정된 시간이 대상 파일의 마지막으로 수정된 시간보다 더 최신일 경우에만 작업을 수행하기 때문입니다.|  
 |`SourceFiles`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 복사할 파일을 지정합니다.|  
 |`UseHardlinksIfPossible`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`이면 파일을 복사 하는 대신 복사된 파일에 대한 하드 링크를 만듭니다.|  
   
@@ -74,7 +74,7 @@ ms.locfileid: "54758321"
   
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 `MySourceFiles` 항목 컬렉션의 항목을 c:\MyProject\Destination 폴더로 복사합니다.  
   
 ```  
@@ -94,7 +94,7 @@ ms.locfileid: "54758321"
 </Project>  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 재귀적 복사를 수행하는 방법을 보여 줍니다. 이 프로젝트는 디렉터리 구조를 유지하면서 c:\MySourceTree의 모든 파일을 재귀적으로 c:\MyDestinationTree에 복사합니다.  
   
 ```  

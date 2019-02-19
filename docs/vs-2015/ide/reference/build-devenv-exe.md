@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 58e48676cb8719cca5da1989342642669c6565cd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54778486"
 ---
 # <a name="build-devenvexe"></a>/Build (devenv.exe)
@@ -55,7 +55,7 @@ Devenv SolutionName /build SolnConfigName [/project ProjName [/projectconfig Pro
   
  이 명령은 마지막 빌드 이후 변경된 프로젝트만을 빌드합니다. 솔루션에서 모든 프로젝트를 빌드하려면 [/Rebuild(devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)를 사용합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 `MySolution`의 `Debug` 솔루션 구성 내에 있는 `Debug` 프로젝트 빌드 구성을 사용하여 `CSharpConsoleApp` 프로젝트를 빌드합니다.  
   
 ```  

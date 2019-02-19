@@ -12,20 +12,22 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6ec1a46b619eecc08e08c74535430f9a0d7bfc3c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4f341a0825c4fcacc41fc01b29c6d65882fa500d
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54957056"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335300"
 ---
 # <a name="project-property-user-interface"></a>프로젝트 속성 사용자 인터페이스
+
 프로젝트 하위 형식 프로젝트에서 항목을 사용할 수 있습니다 **속성 페이지** 대화 상자 기본 프로젝트에서 제공 되기 때문 숨기기 또는 제공 하 고, 읽기 전용 컨트롤 및 전체 페이지를 확인 또는 프로젝트 하위 형식의 특정 페이지를 추가할**속성 페이지** 대화 상자.
 
 ## <a name="extending-the-project-property-dialog-box"></a>프로젝트 속성 대화 상자를 확장합니다.
- 프로젝트 하위 형식 automation extender 및 프로젝트 구성 찾아보기 개체를 구현합니다. 이러한 extender 구현 된 <xref:EnvDTE.IFilterProperties> 숨김 또는 읽기 전용으로 특정 속성을 확인 하는 인터페이스입니다. 합니다 **속성 페이지** 기본 프로젝트를 구현한 기본 프로젝트의 대화 상자는 Automation extender가 수행한 필터링 합니다.
 
- 확장 프로세스는 **프로젝트 속성** 아래 설명 된 대화 상자:
+프로젝트 하위 형식 automation extender 및 프로젝트 구성 찾아보기 개체를 구현합니다. 이러한 extender 구현 된 <xref:EnvDTE.IFilterProperties> 숨김 또는 읽기 전용으로 특정 속성을 확인 하는 인터페이스입니다. 합니다 **속성 페이지** 기본 프로젝트를 구현한 기본 프로젝트의 대화 상자는 Automation extender가 수행한 필터링 합니다.
+
+확장 프로세스는 **프로젝트 속성** 아래 설명 된 대화 상자:
 
 -   기본 프로젝트 extender 프로젝트 하위 형식에서 구현 하 여 검색 된 <xref:EnvDTE80.IInternalExtenderProvider> 인터페이스입니다. 찾아보기, 프로젝트 자동화 및 모든 기본 프로젝트의 프로젝트 구성 찾아보기 개체에는이 인터페이스를 구현 합니다.
 
@@ -39,11 +41,11 @@ ms.locfileid: "54957056"
 
 -   프로젝트 하위 형식이 면 다음을 검색 하 여 런타임 시 기본 프로젝트의 다양 한 확장 가능한 개체에 대 한 적절 한 Catid를 확인할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> 값:
 
-    -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>
+    - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2.VSHPROPID_ExtObjectCATID>
 
-    -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>
+    - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2.VSHPROPID_BrowseObjectCATID>
 
-    -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>
+    - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2.VSHPROPID_CfgBrowseObjectCATID>
 
 프로젝트 범위에 대 한 Catid를 확인 하려면 프로젝트 하위 형식에 대 한 위의 속성을 검색 [VSITEMID 합니다. 루트](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Root>) 에서 `VSITEMID typedef`합니다. 프로젝트 하위 형식 제어 하는 수도 **속성 페이지** 대화 상자 페이지를 프로젝트에 대해 표시 되 구성 종속 및 독립 구성 합니다. 일부 프로젝트 하위 형식 기본 제공 페이지를 제거 하 고 프로젝트 하위 형식에 대 한 특정 페이지를 추가 해야 합니다. 이 호출 하 여 관리 되는 클라이언트 프로젝트를 사용 하도록 설정 하기 위해는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> 다음 속성에 대 한 메서드:
 

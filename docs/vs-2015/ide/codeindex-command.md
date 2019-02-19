@@ -14,10 +14,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 624a2a735032342d4eb47e2393ecae3ea3247891
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54797296"
 ---
 # <a name="codeindex-command"></a>CodeIndex 명령
@@ -49,13 +49,13 @@ TFSConfig CodeIndex /indexingStatus | /setIndexing:[ on | off | keepupOnly ] | /
 |**옵션**|**설명**|  
 |----------------|---------------------|  
 |**/indexingStatus**|코드 인덱싱 서비스의 상태 및 구성을 보여 줍니다.|  
-|**/setIndexing:**[ on &#124; off &#124; keepupOnly ]|-   **on**: 모든 변경 집합의 인덱싱을 시작합니다.<br />-   **off**: 모든 변경 세트의 인덱싱을 중지합니다.<br />-   **keepupOnly**: 이전에 만든 변경 세트의 인덱싱을 중지하고 새 변경 세트의 인덱싱만 시작합니다.|  
+|**/setIndexing:**[ on &#124; off &#124; keepupOnly ]|-   **on**: 모든 변경 집합의 인덱싱을 시작합니다.<br />-   **off**: 모든 변경 집합의 인덱싱을 중지합니다.<br />-   **keepupOnly**: 이전에 만든 변경 집합의 인덱싱을 중지하고 새 변경 집합의 인덱싱만 시작합니다.|  
 |**/ignoreList:**[ add &#124; remove &#124; removeAll &#124; view ] `ServerPath`<br /><br /> 서버 경로의 시작이나 끝 또는 양쪽 끝에 와일드카드 문자(*)를 사용할 수 있습니다.|인덱싱하지 않을 코드 파일의 목록 및 해당 경로를 지정합니다.<br /><br /> -   **add**: 인덱싱하지 않을 파일을 무시된 파일 목록에 추가합니다.<br />-   **remove**: 인덱싱할 파일을 무시된 파일 목록에서 제거합니다.<br />-   **removeAll**: 무시된 파일 목록을 지우고 모든 파일의 인덱싱을 시작합니다.<br />-   **view**: 인덱싱되고 있지 않는 모든 파일이 표시됩니다.|  
 |**/listLargeFiles [/fileCount:** `FileCount` **/minSize:** `MinSize`]|지정된 크기(KB)를 초과하는 지정된 파일 수를 표시합니다. 그런 다음 **/ignoreList** 옵션을 사용하여 인덱싱에서 해당 파일을 제외할 수 있습니다.|  
 |**/reindexAll**|이전에 인덱싱된 데이터를 지우고 인덱싱을 다시 시작합니다.|  
 |**/destroyCodeIndex [/noPrompt]**|코드 인덱스를 삭제하고 인덱싱된 모든 데이터를 제거합니다. **/noPrompt** 옵션을 사용하는 경우 확인이 필요하지 않습니다.|  
 |**/temporaryDataSizeLimit**:[ view &#124; <`SizeInGBs`> &#124; disable ]|변경 집합을 처리할 때 CodeLens에서 만드는 임시 데이터의 양을 제어합니다. 기본 제한은 6GB입니다.<br /><br /> -   **view**: 현재 크기 제한을 표시합니다.<br />-   `SizeInGBs`: 크기 제한을 변경합니다.<br />-   **disable**: 크기 제한을 제거합니다.<br /><br /> 이 제한은 CodeLens가 새 변경 집합을 처리하기 전에 확인됩니다. 임시 데이터가 이 제한을 초과하면 CodeLens는 새 변경 집합이 아닌 이전 변경 집합 처리를 일시 중지합니다. CodeLens는 데이터가 정리되고 이 제한 아래로 떨어진 후에 처리를 다시 시작합니다. 하루에 한 번씩 자동으로 정리됩니다. 정리가 시작되기 전까지 임시 데이터가 이 제한을 초과할 수 있습니다.|  
-|**/indexHistoryPeriod**:[ view &#124; all &#124; <`NumberOfMonths`> ]|변경 내용을 인덱싱할 기간을 제어합니다. 이 옵션은 CodeLens에서 표시하는 기록의 양에 영향을 줍니다. 기본 제한은 12개월입니다. 즉, CodeLens는 지난 12개월의 변경 내용만 표시합니다.<br /><br /> -   **view**: 현재 개월 수를 표시합니다.<br />-   **all**: 모든 변경 기록을 인덱싱합니다.<br />-   `NumberOfMonths`: 변경 기록을 인덱싱하는 데 사용되는 기간(월)을 변경합니다.|  
+|**/indexHistoryPeriod**:[ view &#124; all &#124; <`NumberOfMonths`> ]|변경 내용을 인덱싱할 기간을 제어합니다. 이 옵션은 CodeLens에서 표시하는 기록의 양에 영향을 줍니다. 기본 제한은 12개월입니다. 즉, CodeLens는 지난 12개월의 변경 내용만 표시합니다.<br /><br /> -   **view**: 현재 기간(월)을 표시합니다.<br />-   **all**: 모든 변경 내용을 인덱싱합니다.<br />-   `NumberOfMonths`: 변경 내용을 인덱싱하는 데 사용되는 기간(월)을 변경합니다.|  
 |**/collectionName:** `CollectionName`|**CodeIndex** 명령을 실행할 팀 프로젝트 컬렉션의 이름을 지정합니다. **/CollectionId**를 사용하지 않는 경우 필수적 요소입니다.|  
 |**/collectionId:** `CollectionId`|**CodeIndex** 명령을 실행할 팀 프로젝트 컬렉션의 식별 번호를 지정합니다. **/CollectionName**을 사용하지 않는 경우 필수적 요소입니다.|  
   

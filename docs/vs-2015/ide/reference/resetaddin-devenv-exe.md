@@ -14,10 +14,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 1400e61487a7ad052d5a516019e76149e8e3d31e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54755056"
 ---
 # <a name="resetaddin-devenvexe"></a>/ResetAddin(devenv.exe)
@@ -39,7 +39,7 @@ Devenv /ResetAddin AddIn
 ## <a name="remarks"></a>주의  
  기본적으로 추가 기능의 명령 이름은 *\<AddInSolutionName>*.Connect<em>.\<AddInSolutionName></em>과 같고 Connect.cs에 `Exec` 메서드의 `commandName` 매개 변수로 표시됩니다. 먼저 Visual Studio의 명령 창에 추가 기능 이름을 입력하고 IntelliSense를 사용하여 나머지 부분을 입력하는 방식으로 명령 이름을 확인할 수도 있습니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 Visual Studio를 시작하고 `MyAddin` 추가 기능이 시작 시 실행되지 않도록 합니다.  
   
 ```  

@@ -10,10 +10,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 26a9532bcf0e641d9ad27522f207493b905dc471
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54776959"
 ---
 # <a name="output"></a>출력
@@ -37,7 +37,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  **Start:** `Method`  
  출력 파일 이름을 지정합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서 프로파일링 데이터 파일은 현재 디렉터리에 만들어집니다.  
   
 ```  

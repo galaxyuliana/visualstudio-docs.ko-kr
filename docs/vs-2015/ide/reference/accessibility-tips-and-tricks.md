@@ -12,10 +12,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 77254bea0c4b587df8f4aef8297f17b6b4304339
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54800790"
 ---
 # <a name="accessibility-tips-and-tricks"></a>내게 필요한 옵션에 대한 유용한 정보
@@ -50,7 +50,7 @@ ms.locfileid: "54800790"
 |도구 상자 창|폼 또는 디자이너에 도구 상자의 컨트롤 추가|**Enter**|  
 |옵션 대화 상자, 환경, 키보드|**바로 가기 키 누르기** 옵션에 입력된 키 조합 삭제|**백스페이스**|  
 |모든 도구 창|창의 도구 모음에서 첫 번째 단추 선택|**Shift** + **Alt**|  
-|IDE 도구 모음|표준 도구 모음에서 첫 번째 단추 선택|**ALT**, **CTRL** + **TAB** **Note:**  키를 눌러 **CTRL** + **탭** 다음 IDE 도구 모음에서 첫 번째 단추를 선택 하려면 다시 합니다.|  
+|IDE 도구 모음|표준 도구 모음에서 첫 번째 단추 선택|**Alt**, **Ctrl** + **Tab** **참고:** 다음 IDE 도구 모음에서 첫 번째 단추를 선택하려면 **Ctrl** + **Tab**을 다시 누릅니다.|  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 접근성 기능](../../ide/reference/accessibility-features-of-visual-studio.md)

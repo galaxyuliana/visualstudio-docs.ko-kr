@@ -12,10 +12,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 994cde18cfe304add796bffa74d2a327e1c63f45
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54774729"
 ---
 # <a name="startprofile"></a>StartProfile
@@ -72,7 +72,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI StartProfile(
   
  가져오기 라이브러리: VSPerf.lib  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 StartProfile 함수 호출을 보여 줍니다.  
   
 ```  

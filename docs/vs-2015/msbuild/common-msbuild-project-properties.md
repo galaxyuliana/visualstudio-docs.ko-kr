@@ -20,10 +20,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3f5c7c2f587f4c2fb44ab56223dafa2f988c6103
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54758472"
 ---
 # <a name="common-msbuild-project-properties"></a>일반적인 MSBuild 프로젝트 속성
@@ -67,7 +67,7 @@ ms.locfileid: "54758472"
 |DisableFastUpToDateCheck|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에만 적용되는 부울 값입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 빌드 관리자는 FastUpToDateCheck 프로세스를 사용하여 프로젝트를 최신 상태로 다시 빌드해야 하는지 여부를 확인합니다. 확인할 때 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 사용하는 것보다 이 프로세스가 더 빠릅니다. DisableFastUpToDateCheck 속성을 `true`로 설정하면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 빌드 관리자를 사용하지 않고 대신 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 사용하여 프로젝트가 최신 상태인지 여부를 확인할 수 있습니다.|  
 |DocumentationFile|XML 문서 파일로 생성된 파일의 이름입니다. 이 이름에는 파일 이름만 포함되고 경로 정보는 포함되지 않습니다.|  
 |ErrorReport|컴파일러 작업에서 내부 컴파일러 오류를 보고하는 방식을 지정합니다. 유효한 값은 "prompt", "send" 또는 "none"입니다. 이 속성은 `/errorreport` 컴파일러 스위치와 동일합니다.|  
-|ExcludeDeploymentUrl|[GenerateDeploymentManifest 작업](../msbuild/generatedeploymentmanifest-task.md)에서는 프로젝트 파일에 다음 요소가 하나라도 포함된 경우 배포 매니페스트에 deploymentProvider 태그를 추가합니다.<br /><br /> -   UpdateUrl<br />-   InstallUrl<br />-   PublishUrl<br /><br /> 그러나 ExcludeDeploymentUrl을 사용하면 위의 URL이 지정되더라도 deploymentProvider 태그가 배포 매니페스트에 추가되지 않습니다. 이렇게 하려면 프로젝트 파일에 다음 속성을 추가합니다.<br /><br /> `<ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>` **참고:**  ExcludeDeploymentUrl은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE에 노출되지 않으며 프로젝트 파일을 수동으로만 편집하여 설정할 수 있습니다. 이 속성을 설정해도 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내의 게시에는 영향을 주지 않습니다. 즉, deploymentProvider 태그는 PublishUrl로 지정된 URL에 계속 추가됩니다.|  
+|ExcludeDeploymentUrl|[GenerateDeploymentManifest 작업](../msbuild/generatedeploymentmanifest-task.md)에서는 프로젝트 파일에 다음 요소가 하나라도 포함된 경우 배포 매니페스트에 deploymentProvider 태그를 추가합니다.<br /><br /> -   UpdateUrl<br />-   InstallUrl<br />-   PublishUrl<br /><br /> 그러나 ExcludeDeploymentUrl을 사용하면 위의 URL이 지정되더라도 deploymentProvider 태그가 배포 매니페스트에 추가되지 않습니다. 이렇게 하려면 프로젝트 파일에 다음 속성을 추가합니다.<br /><br /> `<ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>` **참고:** ExcludeDeploymentUrl은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE에 노출되지 않으며 프로젝트 파일을 수동으로만 편집하여 설정할 수 있습니다. 이 속성을 설정해도 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내의 게시에는 영향을 주지 않습니다. 즉, deploymentProvider 태그는 PublishUrl로 지정된 URL에 계속 추가됩니다.|  
 |FileAlignment|출력 파일의 섹션에 맞출 위치(바이트)를 지정합니다. 올바른 값은 512, 1024, 2048, 4096, 8192입니다. 이 속성은 `/filealignment` 컴파일러 스위치와 동일합니다.|  
 |FrameworkPathOverride|mscorlib.dll 및 microsoft.visualbasic.dll의 위치를 지정합니다. 이 매개 변수는 vbc.exe 컴파일러의 `/sdkpath` 스위치와 동일합니다.|  
 |GenerateDocumentation|빌드 시 문서의 생성 여부를 나타내는 부울 매개 변수입니다. `true`이면 빌드 시 문서 정보를 생성하여 이 정보를 빌드 작업에서 만든 실행 파일이나 라이브러리의 이름과 함께 .xml 파일에 배치합니다.|  

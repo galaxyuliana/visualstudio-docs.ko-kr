@@ -14,10 +14,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 04392545b5b5c352a35b9a3d523f0c6ff5d98b01
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54787078"
 ---
 # <a name="visual-c-classes-in-class-designer"></a>클래스 디자이너의 Visual C++ 클래스
@@ -36,7 +36,7 @@ class A {};
 class B : A {};  
 ```  
   
- 클래스 B만 클래스 다이어그램으로 끌어 B에 대한 클래스 모양을 마우스 오른쪽 단추로 클릭한 다음 **기본 클래스 표시**를 클릭할 수도 있습니다. 그러면 기본 클래스가 다음으로 표시됩니다. 대답:  
+ 클래스 B만 클래스 다이어그램으로 끌어 B에 대한 클래스 모양을 마우스 오른쪽 단추로 클릭한 다음 **기본 클래스 표시**를 클릭할 수도 있습니다. 그러면 기본 클래스가 A로 표시됩니다.  
   
 ## <a name="multiple-inheritance"></a>다중 상속  
  클래스 디자이너는 다중 클래스 상속 관계의 시각화를 지원합니다. *다중 상속*은 파생 클래스에 둘 이상의 기본 클래스의 특성이 있을 때 사용됩니다. 다음은 다중 상속의 예입니다.  

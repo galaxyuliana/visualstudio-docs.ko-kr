@@ -11,10 +11,10 @@ caps.latest.revision: 25
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 35222fc9e320bafbaafe1bc19e174649142252c1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54781179"
 ---
 # <a name="anatomy-of-a-coded-ui-test"></a>코딩된 UI 테스트 분석
@@ -32,8 +32,8 @@ ms.locfileid: "54781179"
 |파일|목차|편집 가능 여부|  
 |----------|--------------|---------------|  
 |[UIMap.Designer.cs](#UIMapDesignerFile)|[선언 섹션](#UIMapDesignerFile)<br /><br /> [UIMap 클래스](#UIMapClass)(부분, 자동 생성됨)<br /><br /> [메서드](#UIMapMethods)<br /><br /> [속성](#UIMapProperties)|아니요|  
-|[UIMap.cs](#UIMapCS)|[UIMap 클래스](#UIMapCS)(부분)|예|  
-|[CodedUITest1.cs](#CodedUITestCS)|[CodedUITest1 클래스](#CodedUITestCS)<br /><br /> [메서드](#CodedUITestMethods)<br /><br /> [속성](#CodedUITestProperties)|예|  
+|[UIMap.cs](#UIMapCS)|[UIMap 클래스](#UIMapCS)(부분)|적용|  
+|[CodedUITest1.cs](#CodedUITestCS)|[CodedUITest1 클래스](#CodedUITestCS)<br /><br /> [메서드](#CodedUITestMethods)<br /><br /> [속성](#CodedUITestProperties)|적용|  
 |[UIMap.uitest](#UIMapuitest)|테스트용 UI의 XML 맵|아니요|  
   
 ###  <a name="UIMapDesignerFile"></a> UIMap.Designer.cs  

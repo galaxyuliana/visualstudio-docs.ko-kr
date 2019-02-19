@@ -1,5 +1,5 @@
 ---
-title: '방법: 클래스 (클래스 디자이너) 클래스를 부분 클래스로 분할 | Microsoft Docs'
+title: '방법: 클래스를 Partial 클래스로 분할(클래스 디자이너) | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general
@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 15c57de4a8f51283692b21bcaa148c86bb4deb2d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54775794"
 ---
 # <a name="how-to-split-a-class-into-partial-classes-class-designer"></a>방법: 클래스를 부분 클래스로 분할(클래스 디자이너)
@@ -37,7 +37,7 @@ Visual Basic의 `Partial` 키워드 또는 Visual C#의 `partial` 키워드를 �
   
  Visual Basic의 부분 형식(Partial Type)에 대한 자세한 내용은 [Partial](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448)을 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  Visual Basic의 클래스 정의를 분할하려면 다음 예제와 같이 `Partial` 키워드를 사용합니다.  
   
 ```vb  
@@ -54,7 +54,7 @@ Partial Public Class Employee
 End Class  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  Visual C#에서 클래스 정의를 분할하려면 다음 예제와 같이 `partial` 키워드를 사용합니다.  
   
 ```csharp  

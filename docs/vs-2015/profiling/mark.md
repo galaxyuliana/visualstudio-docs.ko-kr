@@ -10,10 +10,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: e6d7902ec588af2687b048639a930847ec02b3fa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54769098"
 ---
 # <a name="mark"></a>표시
@@ -36,7 +36,7 @@ VSPerfCmd.exe /Mark:MarkID,[MarkName]
  `MarkName`  
  (선택 사항) 프로파일러 보기 및 보고서에서 표시 이름으로 나열되는 사용자 지정 문자열입니다. `MarkName`이 지정되지 않은 경우 나열된 표시의 표시 이름 필드는 비어 있습니다. 따옴표에서 공백 또는 슬래시("/")가 포함된 문자열을 묶습니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 ID 123으로 표시 및 "TestMark"의 표시 이름을 삽입합니다.  
   
 ```  
