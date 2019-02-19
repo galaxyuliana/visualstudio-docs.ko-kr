@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 02a4c36f3969ca0f9ef61e817afb82eb8247f041
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54780319"
 ---
 # <a name="ltsignaturegt-javascript"></a>&lt;서명&gt; (JavaScript)
@@ -50,7 +50,7 @@ ms.locfileid: "54780319"
   
  `<signature>` 문 앞에서 함수 본문의 요소를 배치 해야 합니다. 사용 하는 경우 [ \<요약 >](../ide/summary-javascript.md), [ \<param >](../ide/param-javascript.md), 또는 [ \<반환 >](../ide/returns-javascript.md) 사용 하 여 요소를 `<signature>` 요소 내 다른 요소를 배치 합니다 `<signature>` 블록입니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제를 사용 하는 방법을 보여 줍니다는 `<signature>` 요소입니다.  
   
 ```javascript  

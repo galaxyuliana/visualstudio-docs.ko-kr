@@ -1,5 +1,5 @@
 ---
-title: 'Ptvs 시작: 대화형 Python | Microsoft Docs'
+title: 'PTVS 시작: 대화형 Python | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-python
@@ -10,13 +10,13 @@ author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.openlocfilehash: 4fba8bf658a50a7a7e28abace1eb622ab14f5f26
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54780988"
 ---
-# <a name="getting-started-with-ptvs-interactive-python"></a>Ptvs 시작: Interactive Python
+# <a name="getting-started-with-ptvs-interactive-python"></a>PTVS 시작: 대화형 Python
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 대화형 프롬프트 또는 REPL(읽기-평가-인쇄 루프)은 생산적인 프로그래밍 언어의 핵심 도구입니다.  이러한 도구를 통해 코드 조각을 실행하여 API를 검색 및 학습하고, API 사용 방법을 실험하고, 프로젝트 또는 프로그램에 포함할 작업 코드를 대화형으로 개발할 수 있습니다.  

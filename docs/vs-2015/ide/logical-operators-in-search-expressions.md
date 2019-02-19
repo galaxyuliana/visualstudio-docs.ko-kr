@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 66d6aa6a11ef0ce308c5ba2b089aaa8170b6441f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54760072"
 ---
 # <a name="logical-operators-in-search-expressions"></a>검색 식의 논리 연산자
@@ -27,7 +27,7 @@ ms.locfileid: "54760072"
 > [!IMPORTANT]
 >  검색 엔진에서 인식할 수 있도록 논리 연산자는 모두 대문자로 입력해야 합니다.  
   
-|검색 대상|사용|예제|결과|  
+|검색 대상|사용|예|결과|  
 |-------------------|---------|-------------|------------|  
 |두 용어가 모두 포함된 항목|AND|dib AND palette|"dib" 및 "palette"를 둘 다 포함하는 항목|  
 |두 용어 중 하나가 포함된 항목|또는|raster OR vector|"raster" 또는 "vector"를 포함하는 항목|  

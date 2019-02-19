@@ -14,10 +14,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 73d515c03b7966e3434a2fc2507d3ad5f8d13c1b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54782861"
 ---
 # <a name="overview-of-the-domain-specific-language-tools-user-interface"></a>도메인별 언어 도구 사용자 인터페이스 개요
@@ -43,7 +43,7 @@ ms.locfileid: "54782861"
   
  다음 표에서는 도메인 모델 다이어그램의 일부 요소를 설명합니다.  
   
-|**용어**|**정의**|  
+|**기간**|**정의**|  
 |--------------|--------------------|  
 |도메인 클래스|도메인 클래스는 모델의 요소 형식입니다.<br /><br /> 도메인 클래스는 둘 이상 관계의 대상일 경우 다이어그램에 두 번 이상 나타날 수 있습니다.<br /><br /> 도메인 클래스를 추가하려면 **도구 상자**에서 다이어그램의 **클래스 및 관계** 측면으로 도메인 클래스 도구를 끕니다.|  
 |도메인 관계|도메인 관계는 모델에서 요소 간의 링크 형식입니다.<br /><br /> *포함 관계*는 원본 요소가 대상 요소를 소유하거나 포함하고 있음을 나타내며 실선으로 표시됩니다. 모델의 모든 요소는 모델이 트리를 형성할 수 있도록 포함 관계 하나의 대상이어야 합니다. *참조 관계*는 모델 요소 간의 일반적인 링크를 나타내며 점선으로 표시됩니다. 모든 요소에는 참조 링크가 얼마든지 포함될 수 있습니다.<br /><br /> **도구 상자**에서 도구를 클릭하고 원본 도메인 클래스를 클릭한 후 대상 클래스를 클릭하여 관계를 만들 수 있습니다.|  

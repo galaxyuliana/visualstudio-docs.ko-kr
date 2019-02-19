@@ -1,5 +1,5 @@
 ---
-title: '연습: 시각적 개체를 사용 하 여 간단한 응용 프로그램 만들기 C# 또는 Visual Basic | Microsoft Docs'
+title: '연습: Visual C# 또는 Visual Basic으로 간단한 애플리케이션 만들기 | Microsoft 문서'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general
@@ -10,13 +10,13 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 6c45b62e2fb1d6e104621a7fdc285ca208364a22
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54802618"
 ---
-# <a name="walkthrough-create-a-simple-application-with-visual-c-or-visual-basic"></a>연습: 시각적 개체를 사용 하 여 간단한 응용 프로그램 만들기 C# 또는 Visual Basic
+# <a name="walkthrough-create-a-simple-application-with-visual-c-or-visual-basic"></a>연습: Visual C# 또는 Visual Basic으로 간단한 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 연습을 완료하면 Visual Studio를 사용하여 애플리케이션을 개발할 때 사용할 수 있는 여러 도구, 대화 상자 및 디자이너에 익숙해집니다. IDE(통합 개발 환경)의 작업에 대해 배우면서 간단한 “Hello, World” 스타일의 애플리케이션을 만들고, UI를 디자인하고, 코드를 추가하고, 오류를 디버깅하게 됩니다.  
@@ -132,7 +132,7 @@ ms.locfileid: "54802618"
   
    해당 창은 다음 그림과 유사합니다.  
   
-   그림 7 TextBlock 컨트롤이 있는 greetings 창  
+   그림 7: TextBlock 컨트롤이 있는 Greetings 창  
   
    ![Greetings 양식의 TextBlock 컨트롤](../ide/media/exploreide-greetingswithtextblockonly.png "ExploreIDE-GreetingswithTextblockonly")  
   
@@ -162,7 +162,7 @@ ms.locfileid: "54802618"
   
     창이 다음과 같이 나타납니다.  
   
-    그림 8- 20. Greetings 창의 라디오 단추입니다.  
+    그림 8: Greetings 창의 RadioButton  
   
     ![TextBlock과 두 개의 라디오 단추가 있는 Greetings 양식](../ide/media/exploreide-greetingswithradiobuttons.png "ExploreIDE-Greetingswithradiobuttons")  
   
@@ -190,7 +190,7 @@ ms.locfileid: "54802618"
   
    해당 창은 다음 그림과 유사합니다.  
   
-   그림 마지막 Greetings UI  
+   그림 9: 마지막 Greetings UI  
   
    ![컨트롤 레이블이 있는 Greetings 양식](../ide/media/exploreide-greetingswithconrollabels.png "ExploreIDE-Greetingswithconrollabels")  
   
@@ -259,7 +259,7 @@ ms.locfileid: "54802618"
   
     ![디버그 메뉴의 디버깅 시작 명령](../ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")  
   
-    IOException이 발생 했음을 나타내는 대화 상자가 나타납니다. 'mainwindow.xaml' 리소스를 찾을 수 없습니다.  
+    IOException이 발생했음을 나타내는 다음과 같은 대화 상자가 나타납니다. ‘mainwindow.xaml’ 리소스가 없습니다.  
   
 2. **확인** 단추를 선택한 다음 디버거를 중지합니다.  
   

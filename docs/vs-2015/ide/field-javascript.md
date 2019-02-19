@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b2fe09070261460b7b83f54de44a07cf96d40cf2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54766558"
 ---
 # <a name="ltfieldgt-javascript"></a>&lt;필드&gt; (JavaScript)
@@ -91,7 +91,7 @@ ms.locfileid: "54766558"
   
  생성자 함수를 문서화 하는 경우는 `<field>` 요소 필드 선언 바로 앞에 나타나야 합니다. `name` 특성에는 소스 코드에 사용 되는 필드 이름과 일치 해야 합니다. 개체 멤버에 대 한 합니다 `name` 경우 특성을 생략할 수 있습니다는 `<field>` 개체 멤버 선언 직전 요소가 표시 됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제를 사용 하는 방법을 보여 줍니다는 `<field>` 요소입니다.  
   
 ```javascript  
@@ -115,7 +115,7 @@ function Engine() {
 }  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 사용 하는 방법을 보여 줍니다 합니다 `<field>` 요소를 `static` 특성이로 설정 `true`합니다.  
   
 ```javascript  
@@ -129,7 +129,7 @@ Engine.
   
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 사용 하는 방법을 보여 줍니다 합니다 `<field>` 요소를 `static` 특성이로 설정 `false`합니다.  
   
 ```javascript  
@@ -144,7 +144,7 @@ eng.
   
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 사용 하는 방법을 보여 줍니다 합니다 `<field>` 요소는 `value` 특성입니다.  
   
 ```javascript  

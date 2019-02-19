@@ -11,13 +11,13 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: bbbc5cf6a6a65f7dbb38de60a5a99ec89fc70687
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54834850"
 ---
-# <a name="how-to-automatically-apply-product-keys-when-deploying-visual-studio"></a>방법: Visual Studio를 배포할 때 제품 키를 자동으로 적용
+# <a name="how-to-automatically-apply-product-keys-when-deploying-visual-studio"></a>How to: Automatically apply product keys when deploying Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [Visual Studio를 배포할 때 제품 키를 자동으로 적용](/visualstudio/install/automatically-apply-product-keys-when-deploying-visual-studio)합니다.
@@ -54,7 +54,7 @@ Visual Studio 2015의 배포를 자동화하는 데 사용되는 스크립트의
 |Visual Studio Professional 2013|06177|
 |Visual Studio Test Professional 2013|06194|
 
- 제품 키를 가져오는 방법에 대 한 자세한 내용은 참조 하십시오 [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md)합니다.
+ 제품 키를 가져오는 방법에 대한 자세한 내용은 [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md)를 참조하세요.
 
  StorePID.exe는 제품 키를 성공적으로 적용한 경우 0을 반환합니다. 오류가 발생하는 경우 1에서 6까지의 숫자를 반환합니다.
 

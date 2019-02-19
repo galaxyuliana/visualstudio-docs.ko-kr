@@ -10,10 +10,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 77e21a280700520b6861dd42e01a4aefa4faa704
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54756467"
 ---
 # <a name="processon-and-processoff"></a>ProcessOn 및 ProcessOff
@@ -65,7 +65,7 @@ VSPerfCmd.exe /{ProcessOff|ProcessOn}:PID [Options]
  {**ThreadOff**&#124;**ThreadOn**}**:**`TID`  
  지정된 스레드에 대한 프로파일링을 중지 또는 시작합니다(계측 방법만 해당).  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서 **ProcessOff** 하위 명령은 애플리케이션 시작에 대한 프로파일링 데이터를 수집하는 데 사용됩니다.  
   
 ```  

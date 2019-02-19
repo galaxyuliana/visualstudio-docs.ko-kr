@@ -18,10 +18,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: def8ce2a40e068c602b0182b4580f5e3b524d222
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54782225"
 ---
 # <a name="lcid-devenvexe"></a>/LCID (devenv.exe)
@@ -59,7 +59,7 @@ devenv {/LCID|/l} LocaleID
 |한국어|1042|  
 |스페인어|3082|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예에서는 영어 리소스 문자열을 사용하는 IDE를 로드합니다.  
   
 ```  

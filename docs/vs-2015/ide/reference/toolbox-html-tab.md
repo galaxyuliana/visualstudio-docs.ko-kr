@@ -16,10 +16,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: bd9b728ee8537f5668914f05f05481fd3fe56d92
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54780426"
 ---
 # <a name="toolbox-html-tab"></a>도구 상자, HTML 탭
@@ -42,7 +42,7 @@ ms.locfileid: "54780426"
  **포인터**  
  ![ASP.NET 모바일 디자이너 HTMLpage 포인터](../../ide/reference/media/vxpointer.gif "vxPointer")  
   
- [도구 상자] 탭이 열리면 이 도구가 기본적으로 선택됩니다. 이 도구는 삭제할 수 없습니다. 포인터를 사용하여 개체를 디자인 보기 화면에 끌어다 놓고, 크기를 조정하고, 페이지 또는 양식에서 위치를 변경합니다. 자세한 내용은 [방법: 도구 상자 창 관리](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2) 고 [방법: 도구 상자 탭 조작](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)합니다.  
+ [도구 상자] 탭이 열리면 이 도구가 기본적으로 선택됩니다. 이 도구는 삭제할 수 없습니다. 포인터를 사용하여 개체를 디자인 보기 화면에 끌어다 놓고, 크기를 조정하고, 페이지 또는 양식에서 위치를 변경합니다. 자세한 내용은 [방법: 도구 상자 창 관리](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2) 및 [방법: 도구 상자 탭 조작](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)을 참조하세요.  
   
  **Input (Button)**  
  ![HTML 웹 페이지 단추](../../ide/reference/media/vxbutton.gif "vxButton")  
@@ -55,7 +55,7 @@ ms.locfileid: "54780426"
 <input id="Button1" type="button" value="Button" name="Button1">  
 ```  
   
- 자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de)를 [HtmlInputButton 서버 컨트롤 선언 구문](http://msdn.microsoft.com/99ccf7fb-7e2a-4ba1-bcd9-981b619a16aa), [NIB: 방법: 스크립트를 만들 이벤트 처리기를 편집 하 고](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [단추 웹 서버 컨트롤 콘텐츠 맵](http://msdn.microsoft.com/library/66b3ce28-3b93-4f0a-951f-42fb5bb5fddf), <xref:System.Web.UI.HtmlControls.HtmlInputButton>에 <xref:System.Web.UI.HtmlControls.HtmlButton>, 및 <xref:System.Web.UI.WebControls.Button>합니다.  
+ 자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputButton 서버 컨트롤 선언 구문](http://msdn.microsoft.com/99ccf7fb-7e2a-4ba1-bcd9-981b619a16aa)를 [NIB: 방법: 스크립트 만들기 및 이벤트 처리기 편집](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [ 단추 웹 서버 컨트롤 콘텐츠 맵](http://msdn.microsoft.com/library/66b3ce28-3b93-4f0a-951f-42fb5bb5fddf), <xref:System.Web.UI.HtmlControls.HtmlInputButton>를 <xref:System.Web.UI.HtmlControls.HtmlButton>, 및 <xref:System.Web.UI.WebControls.Button>합니다.  
   
  **Input (Reset)**  
  ![HTMLpageResetButton 스크린샷](../../ide/reference/media/vxreset.gif "vxReset")  
@@ -126,7 +126,7 @@ ms.locfileid: "54780426"
 <input id="Password1" type="password" name="Password1">  
 ```  
   
- 자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de)를 [HtmlInputPassword 서버 컨트롤 선언 구문](http://msdn.microsoft.com/df703dd0-1624-4e5a-a547-c97f2f331b9f), [방법: 암호 항목에 대 한 TextBox 웹 서버 컨트롤을 설정](http://msdn.microsoft.com/library/5b5069f3-64a1-435a-aee6-da263f4e6310), 및 [연습: Forms 웹에서 사용자 입력 유효성 검사 페이지](http://msdn.microsoft.com/library/7141d6ba-34f3-410b-b5cd-2102a24cb436)합니다.  
+ 자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputPassword 서버 컨트롤 선언 구문](http://msdn.microsoft.com/df703dd0-1624-4e5a-a547-c97f2f331b9f), [방법: 암호 입력란으로 TextBox 웹 서버 컨트롤 설정](http://msdn.microsoft.com/library/5b5069f3-64a1-435a-aee6-da263f4e6310) 및 [연습: Web Forms 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/7141d6ba-34f3-410b-b5cd-2102a24cb436)를 참조하세요.  
   
 > [!IMPORTANT]
 >  애플리케이션에서 사용자 이름과 암호를 전송할 경우 SSL(Secure Sockets Layer)을 사용하여 전송을 암호화하도록 웹 사이트를 구성해야 합니다. 자세한 내용은 [IIS Operations Guide](http://go.microsoft.com/fwlink/?linkid=47856)(IIS 작업 가이드)에서 "Securing Connections with SSL(SSL을 사용하여 연결 보호)"을 참조하세요. 또한 모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
@@ -225,7 +225,7 @@ ms.locfileid: "54780426"
   
  size 속성 값을 늘려 여러 줄 `select` 요소를 만들 수 있습니다.  
   
- 자세한 내용은 [HtmlSelect 서버 컨트롤 선언 구문](http://msdn.microsoft.com/ee93bdec-b343-441a-a8ff-56ffcafe9ae5), [NIB: 방법: 스크립트를 만들 이벤트 처리기를 편집 하 고](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [DropDownList 웹 서버 컨트롤 개요](http://msdn.microsoft.com/library/517dd1a4-8df3-4c9f-8c89-1549a1aee608)를 [ListBox 웹 서버 컨트롤 개요](http://msdn.microsoft.com/library/c08ee025-787a-408d-858e-a4a5fdb61d97)를 <xref:System.Web.UI.HtmlControls.HtmlSelect>, 및 <xref:System.Web.UI.WebControls.DropDownList>합니다.  
+ 자세한 내용은 [HtmlSelect 서버 컨트롤 선언 구문](http://msdn.microsoft.com/ee93bdec-b343-441a-a8ff-56ffcafe9ae5)를 [NIB: 방법: 스크립트 만들기 및 편집 하는 이벤트 처리기](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [DropDownList 웹 서버 컨트롤 개요](http://msdn.microsoft.com/library/517dd1a4-8df3-4c9f-8c89-1549a1aee608)하십시오 [ListBox 웹 서버 컨트롤 개요](http://msdn.microsoft.com/library/c08ee025-787a-408d-858e-a4a5fdb61d97), <xref:System.Web.UI.HtmlControls.HtmlSelect>, 및 <xref:System.Web.UI.WebControls.DropDownList>합니다.  
   
  **Horizontal Rule**  
  ![HTML 페이지 가로줄 항목](../../ide/reference/media/vxhorizontal.gif "vxHorizontal")  

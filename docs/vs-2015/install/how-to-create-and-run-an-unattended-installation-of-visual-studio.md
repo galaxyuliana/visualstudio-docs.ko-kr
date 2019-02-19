@@ -13,13 +13,13 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: b7fdf45fedece028a0bf5d62ccd60951754b9064
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54803564"
 ---
-# <a name="how-to-create-and-run-an-unattended-installation-of-visual-studio"></a>방법: 만들기 및 Visual Studio의 무인된 설치 실행
+# <a name="how-to-create-and-run-an-unattended-installation-of-visual-studio"></a>How to: Create and Run an Unattended Installation of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에 대한 설치 애플리케이션을 DVD와 같은 미디어 대신 인트라넷을 통해 무인(즉, 사용자 지정된 자동 설치) 설치로 실행할 수 있습니다. 이 항목에서는 준비 하는 방법을 설명 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 이 유형의 네트워크 공유에서 설치 합니다.
@@ -173,7 +173,7 @@ ms.locfileid: "54803564"
 
 2.  제품 키를 입력합니다.
 
-     자세한 내용은 [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) 하며 [방법: Visual Studio를 배포할 때 제품 키를 자동으로 적용](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md) 항목입니다.)
+     (자세한 내용은 참조 하세요. 합니다 [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) 및 [방법: Visual Studio를 배포할 때 제품 키를 자동으로 적용](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md) 항목입니다.)
 
 ## <a name="see-also"></a>참고 항목
  [Visual Studio 설치](../install/install-visual-studio-2015.md)

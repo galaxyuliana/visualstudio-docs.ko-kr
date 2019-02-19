@@ -18,10 +18,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 59605af2d0ebb7ed094602e9f300dc8dbc3b7ead
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54799834"
 ---
 # <a name="prerequisites-dialog-box"></a>필수 조건 대화 상자
@@ -57,7 +57,7 @@ ms.locfileid: "54799834"
 |**Microsoft Visual F# Runtime for .NET 2.0**|이 패키지는 기존의 개체 지향 및 명령적 방식(절차적) 프로그래밍과 함수형 프로그래밍에 대한 지원을 모두 제공하는 x86 및 x64 운영 체제용 Visual F# 런타임 라이브러리를 설치합니다. 애플리케이션 또는 구성 요소가 Visual F# 및 .NET Framework 2.0, .NET Framework 3.0 또는 .NET Framework 3.5에서 작성된 경우 이 패키지를 설치해야 합니다.<br /><br /> 자세한 내용은 [F# Language Reference](http://msdn.microsoft.com/library/16b706f8-b5f2-4ff7-b2c1-64df33cd6adf)(F# 언어 참조)를 참조하세요.|  
 |**Microsoft Visual F# Runtime for .NET 4.0**|이 패키지는 기존의 개체 지향 및 명령적 방식(절차적) 프로그래밍과 함수형 프로그래밍에 대한 지원을 모두 제공하는 x86 및 x64 운영 체제용 Visual F# 런타임 라이브러리를 설치합니다. 애플리케이션 또는 구성 요소가 Visual F# 및 .NET Framework 4에서 작성된 경우 이 패키지를 설치해야 합니다.<br /><br /> 자세한 내용은 [F# Language Reference](http://msdn.microsoft.com/library/16b706f8-b5f2-4ff7-b2c1-64df33cd6adf)(F# 언어 참조)를 참조하세요.|  
 |**Microsoft Visual Studio 2010 보고서 뷰어**|이 패키지는 Windows Forms 및 ASP.NET 애플리케이션에 다양한 데이터 보고 기능을 추가하는 데 사용할 수 있는 보고서 뷰어 컨트롤을 설치합니다.|  
-|**Microsoft Visual Studio 2010 for Office Runtime(x86 및 x64)**|Visual Studio의 Office 개발자 도구는 Microsoft Office를 사용하여 사용자 지정 비즈니스 솔루션을 편리하게 개발할 수 있는 통합된 도구를 제공합니다. Office 애플리케이션을 사용자 인터페이스로 사용하는 관리되는 스마트 클라이언트 솔루션을 만들 수 있습니다. 이 도구를 사용하면 쉽게 배포하고 유지 관리할 수 있는 보안 솔루션을 개발할 수 있습니다.<br /><br /> 자세한 내용은 [방법: ClickOnce를 사용 하 여 Office 솔루션 게시](http://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)합니다.|  
+|**Microsoft Visual Studio 2010 for Office Runtime(x86 및 x64)**|Visual Studio의 Office 개발자 도구는 Microsoft Office를 사용하여 사용자 지정 비즈니스 솔루션을 편리하게 개발할 수 있는 통합된 도구를 제공합니다. Office 애플리케이션을 사용자 인터페이스로 사용하는 관리되는 스마트 클라이언트 솔루션을 만들 수 있습니다. 이 도구를 사용하면 쉽게 배포하고 유지 관리할 수 있는 보안 솔루션을 개발할 수 있습니다.<br /><br /> 자세한 내용은 [방법: ClickOnce를 사용하여 Office 솔루션 게시](http://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)를 참조하세요.|  
 |**SQL Server 2005 Express Edition SP2(x86)**|이 패키지는 [!INCLUDE[sqprsqext](../../includes/sqprsqext-md.md)]를 기반으로 하는 데이터베이스 애플리케이션인 Microsoft SQL Server 2005 Express Edition SP2를 설치합니다. SQL Server Express는 MSDE(Microsoft SQL Server Desktop Engine)를 대체합니다. SQL Server Express는 무료이고 계약 내용에 따라 재배포할 수 있으며, 클라이언트 데이터베이스와 기본 서버 데이터베이스의 역할을 모두 수행합니다. 다음과 같은 차이점을 제외하면 SQL Server 2005와 같습니다.<br /><br /> -   엔터프라이즈 기능이 지원되지 않습니다.<br />-   하나의 CPU로 제한됩니다.<br />-   버퍼 풀의 메모리는 1GB로 제한됩니다.<br />-   데이터베이스의 최대 크기는 4GB입니다.|  
 |**SQL Server 2008 Express**|이 패키지는 소규모 웹, 서버 또는 데스크톱 애플리케이션에 적합한 데이터베이스이며 Microsoft SQL Server 2008의 무료 버전인 Microsoft SQL Server 2008 Express를 설치합니다. 이 응용 프로그램은 개발 및 프로덕션 용도로 무료로 사용할 수 있습니다. 애플리케이션과 함께 SQL Server 2008 Express를 배포하려면 무료 [등록](http://go.microsoft.com/fwlink/?LinkId=130380)이 필요합니다.<br /><br /> 부트스트래퍼의 동작은 다음과 같습니다.<br /><br /> -   컴퓨터에 이미 SQL Server 2008 Express 이상이 있으면 해당 컴퓨터는 SQL Server 2008 Express 이상으로 유지됩니다.<br />-   컴퓨터에 이미 SQL Server 2008 Express 이상의 버전이 없으면 패키지가 SQL Server 2008 Express SP1의 최신 버전을 설치합니다.<br /><br /> SQL Server 2008 Express에 대 한 자세한 내용은 방문 [ http://go.microsoft.com/fwlink/?LinkId=183586 ](http://go.microsoft.com/fwlink/?LinkId=183586)합니다.|  
 |**Visual C++ 2010 런타임 라이브러리(IA64)**|이 패키지는 Microsoft Windows 운영 체제에 프로그래밍 루틴을 제공하는 Itanium 아키텍처용 Visual C++ 런타임 라이브러리를 설치합니다. 이러한 루틴은 C 및 C++ 언어에서 제공하지 않는 여러 일반 프로그래밍 작업을 자동화합니다.<br /><br /> 자세한 내용은 [C 런타임 라이브러리 참조](http://msdn.microsoft.com/library/a503e11c-8dca-4846-84fb-025a826c32b8)를 참조하세요.|  

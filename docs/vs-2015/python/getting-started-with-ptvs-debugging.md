@@ -1,5 +1,5 @@
 ---
-title: 'Ptvs 시작: 디버깅 | Microsoft Docs'
+title: 'PTVS 시작: 디버깅 | Microsoft 문서'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-python
@@ -10,13 +10,13 @@ author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.openlocfilehash: b636dd4f3a5c5265231898573bfdf52de2dff84e
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54834476"
 ---
-# <a name="getting-started-with-ptvs-debugging"></a>Ptvs 시작: 디버깅
+# <a name="getting-started-with-ptvs-debugging"></a>PTVS 시작: 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio의 대화형 디버거를 사용하면 Python 코드의 문제를 쉽게 진단하고 해결할 수 있습니다.  

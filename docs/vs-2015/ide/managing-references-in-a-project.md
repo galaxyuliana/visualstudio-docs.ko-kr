@@ -24,10 +24,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 3da4501d472949a89ad9120a07da99aaff3ebd1b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54763652"
 ---
 # <a name="managing-references-in-a-project"></a>프로젝트의 참조 관리
@@ -35,7 +35,7 @@ ms.locfileid: "54763652"
 
 외부 구성 요소 또는 연결된 서비스에 대해 코드를 작성하기 전에 프로젝트에 이에 대한 참조가 포함되어 있어야 합니다. 참조는 기본적으로 Visual Studio에서 구성 요소 또는 서비스를 찾기 위해 필요로 하는 정보를 포함하는 프로젝트 파일의 항목입니다.  
   
- 참조를 추가하려면 솔루션 탐색기에서 참조 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다. 자세한 내용은 [방법: 참조 관리자를 사용하여 참조 추가 또는 제거](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).  
+ 참조를 추가하려면 솔루션 탐색기에서 참조 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다. 자세한 내용은 [방법: 참조 관리자를 사용하여 참조 추가 또는 제거](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)를 참조하세요.  
   
  ![Visual C&#43;&#43;에서 참조 추가](../ide/media/vs2015-cpp-add-reference.png "vs2015_cpp_add_reference")  
   
@@ -108,7 +108,7 @@ ms.locfileid: "54763652"
 ## <a name="project-to-project-references"></a>프로젝트 간 참조  
  프로젝트 간 참조는 어셈블리가 포함된 프로젝트에 대한 참조로, **프로젝트** 탭을 사용하여 만들 수 있습니다. 프로젝트에 경로가 지정되면 Visual Studio에서 어셈블리를 찾을 수 있습니다.  
   
- 어셈블리를 생성하는 프로젝트를 사용하는 경우에는 프로젝트를 참조하고 파일 참조(아래 참조)를 사용하지 말아야 합니다. 프로젝트 간 참조의 이점은 빌드 시스템에서 프로젝트 간의 종속성을 만들 수 있다는 점입니다. 참조하는 프로젝트가 마지막으로 빌드된 이후 변경된 경우 종속 프로젝트가 빌드됩니다. 파일 참조는 빌드 종속성을 만들지 않습니다. 따라서 종속 프로젝트를 빌드하지 않고 참조되는 프로젝트를 빌드할 수 있으며 해당 참조가 더 이상 사용되지 않습니다. (즉, 프로젝트가 이전에 빌드된 프로젝트 버전을 참조할 수 있습니다.) 그러면 bin 디렉터리에 여러 버전의 단일 DLL이 필요하게 되는데 이것은 불가능합니다. 이러한 충돌이 발생하면 [경고: 프로젝트 '프로젝트'의 종속성 '파일'을 실행 디렉터리에 복사할 수 없습니다. 그러면 참조 ‘파일'을 덮어쓰기 때문입니다.](/visualstudio/vs-2015/misc/warning-the-dependency-file-in-project-project-cannot-be-copied)와 같은 메시지가 표시됩니다. 자세한 내용은 [끊어진 참조 문제 해결](../ide/troubleshooting-broken-references.md) 고 [방법: 프로젝트 종속성 만들기 및 제거](../ide/how-to-create-and-remove-project-dependencies.md)를 참조하세요.  
+ 어셈블리를 생성하는 프로젝트를 사용하는 경우에는 프로젝트를 참조하고 파일 참조(아래 참조)를 사용하지 말아야 합니다. 프로젝트 간 참조의 이점은 빌드 시스템에서 프로젝트 간의 종속성을 만들 수 있다는 점입니다. 참조하는 프로젝트가 마지막으로 빌드된 이후 변경된 경우 종속 프로젝트가 빌드됩니다. 파일 참조는 빌드 종속성을 만들지 않습니다. 따라서 종속 프로젝트를 빌드하지 않고 참조되는 프로젝트를 빌드할 수 있으며 해당 참조가 더 이상 사용되지 않습니다. (즉, 프로젝트가 이전에 빌드된 프로젝트 버전을 참조할 수 있습니다.) 그러면 bin 디렉터리에 여러 버전의 단일 DLL이 필요하게 되는데 이것은 불가능합니다. 이러한 충돌이 발생하면 [경고: 프로젝트 '프로젝트'의 종속성 '파일'을 실행 디렉터리에 복사할 수 없습니다. 그러면 참조 ‘파일'을 덮어쓰기 때문입니다.](/visualstudio/vs-2015/misc/warning-the-dependency-file-in-project-project-cannot-be-copied)와 같은 메시지가 표시됩니다. 자세한 내용은 [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md) 및 [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md)를 참조하세요.  
   
 > [!NOTE]
 >  한 프로젝트의 대상 .NET Framework 버전이 버전 4.5이고 다른 프로젝트의 대상 버전이 버전 2, 3, 3.5 또는 4.0인 경우 프로젝트 간 참조 대신 파일 참조가 만들어집니다.  
@@ -119,4 +119,4 @@ ms.locfileid: "54763652"
 ## <a name="see-also"></a>참고 항목  
  [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)   
  [어셈블리를 사용한 프로그래밍](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)   
- [방법: 참조 관리자를 사용하여 참조 추가 또는 제거](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)
+ [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

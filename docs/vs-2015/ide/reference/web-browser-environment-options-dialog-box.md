@@ -25,10 +25,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: f66dae4d9e69ce1fc5d4351d72606e1fdad10725
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54755315"
 ---
 # <a name="web-browser-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 웹 브라우저
@@ -54,7 +54,7 @@ ms.locfileid: "54755315"
   
 - **소스 편집기** [코드 작성](../../ide/writing-code-in-the-code-and-text-editor.md)에서 소스를 보려면 선택합니다.  
   
-- **HTML 편집기** [HTML 디자이너](http://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477)에서 소스를 보려면 선택합니다. 다음 두 보기 중 하나에서 웹 페이지를 편집하려면 이 선택 영역을 사용합니다. 디자인 보기 또는 표준 텍스트 기반 원본 보기  
+- **HTML 편집기** [HTML 디자이너](http://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477)에서 소스를 보려면 선택합니다. 디자인 뷰 또는 표준 텍스트 기반 소스 뷰 중 하나에서 웹 페이지를 편집하려면 이 선택을 사용합니다.  
   
 - **외부 편집기** 다른 편집기에서 소스를 보려면 선택합니다. Notepad.exe 등 선택한 편집기의 경로를 지정합니다.  
   

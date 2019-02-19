@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 5e5ae21fcbe215a7abaec247201f2af44caa740f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54764828"
 ---
 # <a name="code-analysis-project-designer"></a>프로젝트 디자이너, 코드 분석
@@ -67,4 +67,4 @@ ms.locfileid: "54764828"
 ## <a name="see-also"></a>참고 항목  
  [관리 코드 경고에 대한 코드 분석](../../code-quality/code-analysis-for-managed-code-warnings.md)   
  [관리 코드에 대한 코드 분석 개요](../../code-quality/code-analysis-for-managed-code-overview.md)   
- [연습: 코드 오류에 대한 관리 코드 분석](../../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
+ [연습: 관리 코드의 코드 오류 분석](../../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)

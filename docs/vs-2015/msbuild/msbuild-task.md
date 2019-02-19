@@ -20,10 +20,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 15a6f0d3a0a50068d05a96994cb01462f07f3258
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54772339"
 ---
 # <a name="msbuild-task"></a>MSBuild 작업
@@ -46,8 +46,8 @@ ms.locfileid: "54772339"
 |`SkipNonexistentProjects`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`인 경우 디스크에 없는 프로젝트 파일을 건너뜁니다. 그렇지 않은 경우 이러한 프로젝트로 인해 오류가 발생합니다.|  
 |`StopOnFirstFailure`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`인 경우 프로젝트 중 하나를 빌드하지 못하면 더 이상 프로젝트를 빌드하지 않습니다. 현재 여러 프로세서를 사용하여 병렬로 빌드할 때는 이 매개 변수가 지원되지 않습니다.|  
 |`TargetAndPropertyListSeparators`|선택적 `String[]` 매개 변수입니다.<br /><br /> 대상 및 속성의 목록을 `Project` 항목 메타데이터로 지정합니다. 처리 전에 구분 기호를 이스케이프 해제합니다. 예를 들어 %3B(이스케이프된 ';')는 이스케이프 해제된 ';'로 처리됩니다.|  
-|`TargetOutputs`|선택적 읽기 전용 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 모든 프로젝트 파일에서 작성된 대상의 출력을 반환합니다. 해당 대상이 종속된 대상에 있을 수 있는 출력이 아닌, 지정된 대상의 출력만 반환됩니다.<br /><br /> `TargetOutputs` 매개 변수는 다음 메타데이터도 포함합니다.<br /><br /> -   `MSBuildSourceProjectFile`: 출력을 설정하는 대상이 포함된 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일입니다.<br />-   `MSBuildSourceTargetName`: 출력을 설정하는 대상입니다. **참고:**  각 프로젝트 파일이나 대상의 출력을 개별적으로 식별하려는 경우 각 프로젝트 파일 또는 대상에 대해 `MSBuild` 작업을 개별적으로 실행합니다. `MSBuild` 작업을 한 번만 실행하여 모든 프로젝트 파일을 빌드하는 경우에는 모든 대상의 출력이 배열 하나에 수집됩니다.|  
-|`Targets`|선택적 `String` 매개 변수입니다.<br /><br /> 프로젝트 파일에서 빌드할 하나 이상의 대상을 지정합니다. 세미콜론을 사용하여 대상 이름 목록을 구분합니다. `MSBuild` 작업에 대상이 지정되어 있지 않으면 프로젝트 파일에 지정된 기본 대상이 빌드됩니다. **참고:**  모든 프로젝트 파일에는 대상이 있어야 합니다. 대상이 없으면 빌드 오류가 발생합니다.|  
+|`TargetOutputs`|선택적 읽기 전용 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 모든 프로젝트 파일에서 작성된 대상의 출력을 반환합니다. 해당 대상이 종속된 대상에 있을 수 있는 출력이 아닌, 지정된 대상의 출력만 반환됩니다.<br /><br /> `TargetOutputs` 매개 변수는 다음 메타데이터도 포함합니다.<br /><br /> -   `MSBuildSourceProjectFile`: 출력을 설정하는 대상이 포함된 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일입니다.<br />-   `MSBuildSourceTargetName`: 출력을 설정하는 대상입니다. **참고:** 각 프로젝트 파일이나 대상의 출력을 개별적으로 식별하려는 경우 각 프로젝트 파일 또는 대상에 대해 `MSBuild`를 개별적으로 실행합니다. `MSBuild` 작업을 한 번만 실행하여 모든 프로젝트 파일을 빌드하는 경우에는 모든 대상의 출력이 배열 하나에 수집됩니다.|  
+|`Targets`|선택적 `String` 매개 변수입니다.<br /><br /> 프로젝트 파일에서 빌드할 하나 이상의 대상을 지정합니다. 세미콜론을 사용하여 대상 이름 목록을 구분합니다. `MSBuild` 작업에 대상이 지정되어 있지 않으면 프로젝트 파일에 지정된 기본 대상이 빌드됩니다. **참고:** 모든 프로젝트 파일에는 대상이 있어야 합니다. 대상이 없으면 빌드 오류가 발생합니다.|  
 |`ToolsVersion`|선택적 `String` 매개 변수입니다.<br /><br /> 이 작업에 전달된 프로젝트를 빌드할 때 사용할 `ToolsVersion`을 지정합니다.<br /><br /> [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 작업이 프로젝트에 지정된 것과 다른 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 대상으로 하는 프로젝트를 빌드할 수 있도록 설정합니다. 유효한 값은 `2.0`, `3.0` 및 `3.5`입니다. 기본값은 `3.5`여야 합니다.|  
 |`UnloadProjectsOnCompletion`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`인 경우 작업이 완료되면 프로젝트가 언로드됩니다.|  
 |`UseResultsCache`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`인 경우 캐시된 결과(있는 경우)가 반환됩니다. MSBuild 작업이 실행되면 해당 결과는 (ProjectFileName, GlobalProperties)[TargetNames] 범위에<br /><br /> 빌드 항목의 목록으로 캐시됩니다.|  
@@ -167,7 +167,7 @@ ms.locfileid: "54772339"
 </Project>  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 `MSBuild` 작업을 사용하여 `ProjectReferences` 항목 컬렉션으로 지정된 프로젝트를 빌드합니다. 결과 대상 출력은 `AssembliesBuiltByChildProjects` 항목 컬렉션에 저장됩니다.  
   
 ```  

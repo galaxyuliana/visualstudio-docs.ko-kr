@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d37e20154b3471e26f170c8437369493764935fc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54775874"
 ---
 # <a name="user-permissions-and-visual-studio"></a>사용자 권한 및 Visual Studio
@@ -48,8 +48,8 @@ ms.locfileid: "54775874"
 ||에뮬레이터를 사용하여 Microsoft Azure용 클라우드 서비스 프로젝트 디버깅|[Visual Studio에서 Azure 클라우드 서비스 또는 가상 컴퓨터 디버깅](http://go.microsoft.com/fwlink/?LinkId=266725)|
 ||원격 디버깅을 위한 방화벽 구성|[디바이스에서 원격 도구 설정](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)|
 |성능 도구|애플리케이션 프로파일링|[초보자를 위한 성능 프로파일링 지침](../profiling/beginners-guide-to-performance-profiling.md)|
-|배포|로컬 컴퓨터에서 IIS(인터넷 정보 서비스)에 웹 애플리케이션 배포|[Visual Studio 또는 Visual Web Developer를 사용 하 여 호스팅 공급자를 ASP.NET 웹 응용 프로그램을 배포 합니다. IIS에 테스트 환경으로 배포](http://go.microsoft.com/fwlink/?LinkId=266478)|
-|Microsoft에 사용자 의견 제공|Visual Studio 사용자 환경 개선 프로그램 참여 방법 변경|[방법: 의견 보내기](../misc/how-to-send-feedback-about-visual-studio.md)|
+|배포|로컬 컴퓨터에서 IIS(인터넷 정보 서비스)에 웹 애플리케이션 배포|[Deploying an ASP.NET Web Application to a Hosting Provider using Visual Studio or Visual Web Developer: Deploying to IIS as a Test Environment](http://go.microsoft.com/fwlink/?LinkId=266478)(Visual Studio 또는 Visual Web Developer를 사용하여 호스팅 제공업체에 ASP.NET 웹 애플리케이션 배포: IIS에 테스트 환경으로 배포)|
+|Microsoft에 사용자 의견 제공|Visual Studio 사용자 환경 개선 프로그램 참여 방법 변경|[방법: 사용자 의견 보내기](../misc/how-to-send-feedback-about-visual-studio.md)|
 
 ## <a name="running-visual-studio-as-an-administrator"></a>관리자로 Visual Studio 실행
  IDE를 시작할 때마다 관리자 권한으로 Visual Studio를 실행하거나 애플리케이션 바로 가기를 수정하여 항상 관리자 권한으로 실행할 수 있습니다. 자세한 내용은 Windows 도움말을 참조하십시오.
