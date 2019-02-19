@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 317103b514a04ca149940513e4e70c2799037e62
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54775903"
 ---
 # <a name="command-devenvexe"></a>/Command (devenv.exe)
@@ -40,7 +40,7 @@ devenv /command CommandName
   
  추가 기능이 명령을 표시할 경우에는 이 스위치를 사용하여 명령줄에서 추가 기능을 시작할 수 있습니다. 자세한 내용은 [방법: 추가 기능 관리자를 사용하여 추가 기능 제어](http://msdn.microsoft.com/library/4f60444a-cb48-4cdb-8df4-941f6419aeeb)를 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작하고 Open Favorite Files(즐겨찾기 파일 열기) 매크로를 자동으로 실행합니다.  
   
 ```  

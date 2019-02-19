@@ -10,10 +10,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1262e88055fceef0b2170c304c8ff646eea07205
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54793076"
 ---
 # <a name="detach"></a>Detach
@@ -50,7 +50,7 @@ VSPerfCmd.exe /Detach[:PIDs|ProcessNames]
  **Crosssession**  
  로그온 세션 이외의 세션에서 프로파일링 애플리케이션을 활성화합니다. **Start** 옵션이 **Crosssession** 옵션으로 지정된 경우 필요합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서 **Detach** 명령은 프로파일링을 일시 중단하고 **Shutdown** 명령은 프로파일러 데이터 파일을 닫습니다.  
   
 ```  

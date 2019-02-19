@@ -16,10 +16,10 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: b84cff997e24882903abae048dbdd5c3c16f7e17
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54834831"
 ---
 # <a name="uninstall-visual-studio"></a>Visual Studio 제거
@@ -43,7 +43,7 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [Visual Studi
 1.  Visual Studio.exe 파일을 찾습니다 (예를 들어, "vs_enterprise.exe" 찾습니다).
 
     > [!NOTE]
-    >  파일은 "%ProgramData%\Package Cache"의 하위 폴더에 예를 들어 이어야 합니다. C:\ProgramData\Package Cache\\{37e19555-e88d-4aed-9d42-82d0784d2b79}\vs_enterprise.exe
+    >  예를 들어 파일 "%ProgramData%\Package Cache"의 하위 폴더 여야 합니다: C:\ProgramData\Package 캐시\\{37e19555-e88d-4aed-9d42-82d0784d2b79} \vs_enterprise.exe
 
 2.  사용 하 여.exe 파일을 실행 합니다 /uninstall /force 명령줄 매개 변수입니다.
 

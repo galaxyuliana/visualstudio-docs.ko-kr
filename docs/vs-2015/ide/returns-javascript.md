@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 81a9a42a104adb2a9d9a9aba483e2588d7332868
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54801778"
 ---
 # <a name="ltreturnsgt-javascript"></a>&lt;반환&gt; (JavaScript)
@@ -78,7 +78,7 @@ ms.locfileid: "54801778"
 ## <a name="remarks"></a>주의  
  `<returns>` 문 앞에서 함수 본문의 요소를 배치 해야 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제를 사용 하는 방법을 보여 줍니다는 `<returns>` 요소입니다.  
   
 ```javascript  
