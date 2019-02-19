@@ -16,15 +16,15 @@ helpviewer_keywords:
 ms.assetid: a3f23f05-e7f1-4620-b23c-2d68f9643684
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 95436528b42c4b32e15048b771a36daf32a22c1c
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 591f69ddc1ac163858c3d3a2b2ce8721c27e16b6
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53945901"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54955910"
 ---
 # <a name="how-to-manage-updates-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션에 대한 업데이트 관리
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 업데이트를 자동으로 또는 프로그래밍 방식으로 확인할 수 있습니다. 개발자는 업데이트 검사를 수행 하는 방법과 시기, 필수 업데이트 인지 여부 및 업데이트를 확인 하는 위치를 지정 하는 유연성을 많이 해야 합니다.  
@@ -101,7 +101,7 @@ ms.locfileid: "53945901"
   
 5.  에 **위치를 업데이트** 필드 형식을 사용 하는 정규화 된 URL로 업데이트 위치를 입력 합니다 *http://Hostname/ApplicationName*, 또는 형식을 사용 하 여 UNC 경로  *\\\Server\ ApplicationName*를 클릭 합니다 **찾아보기** 업데이트 위치에 대 한 찾아보기 단추. 업데이트 위치는 자체의 업데이트 된 버전에 대 한 응용 프로그램을 찾을 위치입니다.  
   
-6.  업데이트를 확인 하려면 사용자를 선택 하는 Windows 폼에 단추, 메뉴 항목 또는 기타 사용자 인터페이스 항목을 만듭니다. 해당 항목의 이벤트 처리기에서 확인 하 고 업데이트를 설치 하는 메서드를 호출 합니다. Visual Basic 및 Visual의 예제를 찾을 수 있습니다 C# 에서 이러한 메서드에 대 한 코드 [방법: ClickOnce 배포 API를 사용하여 프로그래밍 방식으로 애플리케이션 업데이트 확인](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md)  
+6.  업데이트를 확인 하려면 사용자를 선택 하는 Windows 폼에 단추, 메뉴 항목 또는 기타 사용자 인터페이스 항목을 만듭니다. 해당 항목의 이벤트 처리기에서 확인 하 고 업데이트를 설치 하는 메서드를 호출 합니다. Visual Basic 및 Visual의 예제를 찾을 수 있습니다 C# 에서 이러한 메서드에 대 한 코드 [방법: ClickOnce 배포 API를 사용 하 여 프로그래밍 방식으로 응용 프로그램 업데이트 확인](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md)합니다.  
   
 7.  응용 프로그램을 빌드하십시오.  
   
