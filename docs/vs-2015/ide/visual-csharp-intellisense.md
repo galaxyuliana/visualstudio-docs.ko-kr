@@ -1,14 +1,9 @@
 ---
 title: Visual C# IntelliSense | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - IntelliSense [J#]
 - Visual C#, IntelliSense
@@ -17,13 +12,13 @@ ms.assetid: 79ca304d-dc1e-4dc9-a2a6-7808df2e588e
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 0d094a0272e5c90afa1a83a42543dd464f219a17
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: f0d67cc907155f3f5c6bc4b0f132f9045f7d698a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49862205"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54800877"
 ---
 # <a name="visual-c-intellisense"></a>Visual C# IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,10 +38,10 @@ Visual C# IntelliSense는 편집기에서 코딩할 때와 [직접 실행 모드
   
 - [확장명 메서드](#ExtensionMethods)  
   
-  또한 C#의 완성 목록은 컨텍스트에 따라 관련이 없는 토큰을 필터링하고 토큰을 미리 선택할 정도로 스마트합니다. 자세한 내용은 [C#의 필터링 된 완성 목록](../misc/filtered-completion-lists-in-csharp.md) 하 고 [C#의 미리 선택 된 완성 목록 항목](../misc/pre-selected-completion-list-items-in-csharp.md)합니다.  
+  또한 C#의 완성 목록은 컨텍스트에 따라 관련이 없는 토큰을 필터링하고 토큰을 미리 선택할 정도로 스마트합니다. 자세한 내용은 [C#의 필터링된 완성 목록](../misc/filtered-completion-lists-in-csharp.md) 및 [C#의 미리 선택된 완성 목록 항목](../misc/pre-selected-completion-list-items-in-csharp.md)을 참조하세요.  
   
 ###  <a name="CodeSnippets"></a> 완성 목록의 코드 조각  
- Visual C#의 완성 목록에는 미리 정의된 코드 본문을 프로그램에 쉽게 삽입하도록 지원하는 코드 조각이 포함되어 있습니다. 코드 조각은 완성 목록에 코드 조각의 [Shortcut 요소(IntelliSense 코드 조각)](http://msdn.microsoft.com/en-us/052cc97a-5c70-42f8-b398-4c3adf670cfa)로 나타납니다.  Visual C#에서 기본적으로 사용할 수 있는 코드 조각에 대한 자세한 내용은 [Visual C# 코드 조각](../ide/visual-csharp-code-snippets.md)을 참조하세요.  
+ Visual C#의 완성 목록에는 미리 정의된 코드 본문을 프로그램에 쉽게 삽입하도록 지원하는 코드 조각이 포함되어 있습니다. 코드 조각은 완성 목록에 코드 조각의 [Shortcut 요소(IntelliSense 코드 조각)](http://msdn.microsoft.com/052cc97a-5c70-42f8-b398-4c3adf670cfa)로 나타납니다.  Visual C#에서 기본적으로 사용할 수 있는 코드 조각에 대한 자세한 내용은 [Visual C# 코드 조각](../ide/visual-csharp-code-snippets.md)을 참조하세요.  
   
 ###  <a name="Keywords"></a> 완성 목록의 언어 키워드  
  Visual C#의 완성 목록에는 언어 키워드도 포함되어 있습니다. C# 언어 키워드에 대한 자세한 내용은 [C# 키워드](http://msdn.microsoft.com/library/e929b0f2-4b92-4d37-8060-23d323b098ad)를 참조하세요.  
@@ -93,7 +88,7 @@ Visual C# IntelliSense는 편집기에서 코딩할 때와 [직접 실행 모드
 ### <a name="add-using"></a>using 추가  
  using 추가 IntelliSense 작업을 사용하면 코드의 다른 부분으로 포커스를 이동할 필요 없이 작성 중인 코드에 포커스를 유지할 수 있습니다.  
   
- using 추가 작업을 시작하려면 확인할 수 없는 형식 참조에 커서를 놓습니다. 예를 들어 콘솔 응용 프로그램을 만들고 `XmlTextReader`를 `Main` 메서드 본문에 추가하면 스마트 태그는 확인할 수 없는 형식 참조로 나타나므로 `XmlTextReader`의 맨 오른쪽 아래에 표시됩니다.  
+ using 추가 작업을 시작하려면 확인할 수 없는 형식 참조에 커서를 놓습니다. 예를 들어 콘솔 애플리케이션을 만들고 `XmlTextReader`를 `Main` 메서드 본문에 추가하면 스마트 태그는 확인할 수 없는 형식 참조로 나타나므로 `XmlTextReader`의 맨 오른쪽 아래에 표시됩니다.  
   
  ![스마트 태그 이미지 사용 추가](../ide/media/addusesmart.gif "AddUseSmart")  
   
@@ -164,6 +159,3 @@ Visual C# IntelliSense는 편집기에서 코딩할 때와 [직접 실행 모드
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio IDE](../ide/visual-studio-ide.md)
-
-
-

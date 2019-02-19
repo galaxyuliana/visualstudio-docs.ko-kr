@@ -1,25 +1,20 @@
 ---
 title: 도움말 뷰어 관리자 가이드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f470c55b08cc559e481ed75e962fda4f0e625a5c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e0f63555cbda069c3db0a3a1d5819292fc3cda14
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49871292"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799707"
 ---
 # <a name="help-viewer-administrator-guide"></a>도움말 뷰어 관리자 가이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +36,7 @@ ms.locfileid: "49871292"
 ## <a name="deploying-local-help-content-from-the-internet"></a>인터넷에서 로컬 도움말 콘텐츠 배포  
  MSDN 콘텐츠 패키지 서비스를 사용하여 인터넷에서 클라이언트 컴퓨터로 로컬 도움말 콘텐츠를 배포할 수 있습니다. 다음 구문을 사용합니다.  
   
- \\<*에 대 한 경로*> \v2.2\HlpCtntmgr.exe /operation \< *이름*> /catalogname \< *카탈로그 이름*> /locale \<  *로캘*>  
+ \\<*대상 경로*>\v2.2\HlpCtntmgr.exe /operation \<*이름*> /catalogname \<*카탈로그 이름*> /locale \<*로캘*>  
   
  HlpCtntMgr.exe 명령줄 구문에 대한 자세한 내용은 [도움말 콘텐츠 관리자 명령줄 인수](../ide/command-line-arguments-for-the-help-content-manager.md)를 참조하세요.  
   
@@ -60,7 +55,7 @@ ms.locfileid: "49871292"
   
 - 클라이언트에서 Visual Studio를 처음 시작할 때 기본 도움말 콘텐츠를 설치하라는 메시지가 계속 표시됩니다. HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\Help\DisableFirstRunHelpSelection 레지스트리 키를 수정하여 이 메시지가 표시되지 않도록 설정할 수 있습니다.  
   
-### <a name="example"></a>예제  
+### <a name="example"></a>예  
  다음 예제에서는 클라이언트 컴퓨터에 Visual Studio에 대한 영어 콘텐츠를 설치합니다.  
   
 ##### <a name="to-install-english-content-from-the-internet"></a>인터넷에서 영어 콘텐츠를 설치하려면  
@@ -100,13 +95,13 @@ ms.locfileid: "49871292"
   
 1. 도움말 뷰어에서 **콘텐츠 관리** 탭을 선택합니다.  
   
-2. 아래 **사용 가능한 설명서**, Visual Studio 문서 집합으로 이동 합니다.  
+2. **사용 가능한 설명서** 아래에서 Visual Studio 문서 집합으로 이동합니다.  
   
 3. 각 하위 항목 옆의 **제거**를 선택합니다.  
   
-4. 선택할 **시작** 제거 하려면  
+4. **시작**을 선택하여 제거합니다.  
   
-5. 이동할 *n*: \ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio12 폴더 catalogType.xml 파일만 포함 되어 있는지 확인 합니다.  
+5. *n*:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio12로 이동하고 이 폴더에 catalogType.xml 파일만 포함되어 있는지 확인합니다.  
   
    이전에 설치한 로컬 Visual Studio 도움말 콘텐츠를 모두 제거하면 기본 콘텐츠 집합을 다운로드할 준비가 됩니다.  
   
@@ -114,7 +109,7 @@ ms.locfileid: "49871292"
   
 1. 도움말 뷰어에서 **콘텐츠 관리** 탭을 선택합니다.  
   
-2. 아래 **사용 가능한 설명서**를 다운로드 하 고 선택 하려는 설명서 집합으로 이동 **추가**합니다.  
+2. **사용 가능한 설명서** 아래에서 다운로드하려는 설명서 집합으로 이동한 다음, **추가**를 선택합니다.  
   
 3. **시작**을 선택합니다.  
   
@@ -132,9 +127,9 @@ ms.locfileid: "49871292"
   
 4.  다음과 같이 입력합니다.  
   
-     Xcopy %SYSTEMDRIVE%\ProgramData\Microsoft\HelpLibrary2 \< *foldername*> \ /y /e /k /o  
+     Xcopy %SYSTEMDRIVE%\ProgramData\Microsoft\HelpLibrary2 \<*폴더 이름*>\ /y /e /k /o  
   
-     `Xcopy %SYSTEMDRIVE%\ProgramData\Microsoft\HelpLibrary2 c:\VS12Help\ /y /e /k /o`  
+     예를 들면 다음과 같습니다: `Xcopy %SYSTEMDRIVE%\ProgramData\Microsoft\HelpLibrary2 c:\VS12Help\ /y /e /k /o`  
   
 ### <a name="deploying-the-content"></a>콘텐츠 배포  
   
@@ -142,11 +137,11 @@ ms.locfileid: "49871292"
   
 1.  네트워크 공유를 만들고 해당 위치에 도움말 콘텐츠를 복사합니다.  
   
-     예를 들어를 c:\VS12Help의 콘텐츠를 복사 \\\myserver\VS12Help 합니다.  
+     예를 들어 c:\VS12Help의 콘텐츠를 \\\myserver\VS12Help에 복사합니다.  
   
 2.  도움말 콘텐츠에 대한 배포 스크립트를 포함할 .bat 파일을 만듭니다. 클라이언트에서 푸시의 일부로 삭제될 파일에 대한 읽기 잠금이 있을 수 있으므로 업데이트를 푸시하기 전에 클라이언트를 종료해야 합니다.  
   
-     예를 들면 다음과 같습니다.  
+     예:  
   
     ```  
     REM - copy pre-ripped content to ProgramData  
@@ -207,8 +202,5 @@ ms.locfileid: "49871292"
 3.  도움말 콘텐츠가 설치될 로컬 컴퓨터에서 bat 파일을 실행합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [도움말 콘텐츠 관리자 명령줄 인수](../ide/command-line-arguments-for-the-help-content-manager.md)   
+ [도움말 콘텐츠 관리자에 대한 명령줄 인수](../ide/command-line-arguments-for-the-help-content-manager.md)   
  [도움말 콘텐츠 관리자 재정의](../ide/help-content-manager-overrides.md)
-
-
-

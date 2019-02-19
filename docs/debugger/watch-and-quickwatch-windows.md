@@ -14,15 +14,15 @@ helpviewer_keywords:
 - debugging [Visual Studio], expression evaluation
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e9a7e936b565a961bb7b32d5599c79049857328e
-ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
+ms.openlocfilehash: 49afa8e56a45e3ebda5572afd1604cee7076578a
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54204471"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55002525"
 ---
 # <a name="watch-variables-with-watch-windows-and-quickwatch"></a>조사식 창 및 간략 한 조사식을 사용 하 여 변수를 시청 하세요. 
 
@@ -30,7 +30,7 @@ ms.locfileid: "54204471"
 
 **조사식** windows 디버깅 하는 동안 한 번에 여러 변수를 표시할 수 있습니다. 합니다 **간략 한 조사식** 대화 한 번에 하나의 변수가 표시 및 디버그를 계속 하기 전에 닫아야 합니다.
 
-코드를 처음으로 디버그하는 경우 이 문서를 진행하기 전에 먼저 [완전 초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md) 및 [더 나은 C# 코드를 작성하여 버그 수정](../debugger/write-better-code-with-visual-studio.md)을 읽어보는 것이 좋습니다.
+읽을 하려는 처음 코드를 디버그 하려는 경우 [초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md) 하 고 [기술 및 도구 디버깅](../debugger/write-better-code-with-visual-studio.md) 이 문서를 진행 하기 전에 합니다.
 
 ## <a name="observe-variables-with-a-watch-window"></a>조사식 창 변수 관찰
 
@@ -280,5 +280,5 @@ static void Main(string[] args)
 
 ## <a name="see-also"></a>참고 항목
  [디버깅이란?](../debugger/what-is-debugging.md)  
- [더 나은 C# 코드 작성으로 버그 수정](../debugger/write-better-code-with-visual-studio.md)  
+ [디버깅 기술 및 도구](../debugger/write-better-code-with-visual-studio.md)  
  [디버깅 소개](../debugger/debugger-feature-tour.md) [디버거 창](../debugger/debugger-windows.md)

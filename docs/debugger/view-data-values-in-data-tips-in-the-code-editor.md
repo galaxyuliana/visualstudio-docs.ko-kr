@@ -15,19 +15,19 @@ helpviewer_keywords:
 ms.assetid: ffa7bd18-439b-4685-a9b3-c7884b5de41f
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 59f7b21530ff51697daca40b5c9f412682f7df89
-ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
+ms.openlocfilehash: caca7622d2634a6da08d0d09aaef5b0a8634180e
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54204403"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54986555"
 ---
 # <a name="view-data-values-in-datatips-in-the-code-editor"></a>코드 편집기에서 DataTips의 데이터 값 보기
 
-DataTips를 통해 디버깅하는 동안 프로그램의 변수에 대한 정보를 손쉽게 볼 수 있습니다. DataTips는 중단 모드에서 현재 실행 범위 내의 변수에 대해서만 작동합니다. 코드를 처음으로 디버그하는 경우 이 문서를 진행하기 전에 먼저 [완전 초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md) 및 [더 나은 C# 코드를 작성하여 버그 수정](../debugger/write-better-code-with-visual-studio.md)을 읽어보는 것이 좋습니다.
+DataTips를 통해 디버깅하는 동안 프로그램의 변수에 대한 정보를 손쉽게 볼 수 있습니다. DataTips는 중단 모드에서 현재 실행 범위 내의 변수에 대해서만 작동합니다. 읽을 하려는 처음 코드를 디버그 하려는 경우 [초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md) 하 고 [기술 및 도구 디버깅](../debugger/write-better-code-with-visual-studio.md) 이 문서를 진행 하기 전에 합니다.
   
 ## <a name="work-with-datatips"></a>DataTips를 사용 하 여 작동 합니다.
 
@@ -124,7 +124,7 @@ DataTips를 공유 하거나 텍스트 편집기를 사용 하 여 편집할 수
 
 ## <a name="see-also"></a>참고 항목  
  [디버깅이란?](../debugger/what-is-debugging.md)  
- [더 나은 C# 코드 작성으로 버그 수정](../debugger/write-better-code-with-visual-studio.md)  
+ [디버깅 기술 및 도구](../debugger/write-better-code-with-visual-studio.md)  
  [디버깅 소개](../debugger/debugger-feature-tour.md) [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)   
  [조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)   
  [Create Custom Visualizers of Data](../debugger/create-custom-visualizers-of-data.md)(데이터의 사용자 지정 시각화 도우미 만들기)   

@@ -1,30 +1,25 @@
 ---
 title: Visual Studio Emulator for Android | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-cross-plat
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: tgt-pltfrm-cross-plat
+ms.topic: conceptual
 ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
 caps.latest.revision: 7
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 22126bb5a364148c7079d59d750483a7ebc47418
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+ms.openlocfilehash: ec7e6d3ee6d27c444d0904e750293a3d82c3ab4a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51799602"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54789857"
 ---
 # <a name="visual-studio-emulator-for-android"></a>Android용 Visual Studio 에뮬레이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-Android용 Visual Studio 에뮬레이터는 Android 디바이스를 에뮬레이트하는 데스크톱 응용 프로그램입니다. 물리적 디바이스를 사용하지 않고도 Android 앱을 디버그하고 테스트할 수 있는 가상화된 환경을 제공합니다. 또한 응용 프로그램 프로토타입을 위한 격리된 환경을 제공합니다.  
+Android용 Visual Studio 에뮬레이터는 Android 장치를 에뮬레이트하는 데스크톱 애플리케이션입니다. 물리적 디바이스를 사용하지 않고도 Android 앱을 디버그하고 테스트할 수 있는 가상화된 환경을 제공합니다. 또한 애플리케이션 프로토타입을 위한 격리된 환경을 제공합니다.  
   
  Android용 Visual Studio 에뮬레이터는 실제 디바이스와 비슷한 성능을 제공하도록 설계되었습니다. 하지만 앱을 게시하기 전에 물리적 디바이스에서 앱을 테스트하는 것이 좋습니다.  
   
@@ -119,4 +114,3 @@ Android용 Visual Studio 에뮬레이터는 Android 디바이스를 에뮬레이
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio Emulator for Android에 대한 시스템 요구 사항](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)   
  [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)
-

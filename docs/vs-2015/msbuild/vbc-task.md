@@ -1,14 +1,9 @@
 ---
 title: Vbc 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Vbc
 dev_langs:
@@ -23,13 +18,13 @@ ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
 caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 4ed9563f4149b550e123cf74a09f19245514fe97
-ms.sourcegitcommit: c9a01c599ce19a5845605b3b28c0229fd0abb93f
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 1a4610f5603ad0197487c198074ad72d1381fda1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52281864"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802191"
 ---
 # <a name="vbc-task"></a>Vbc 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +53,7 @@ ms.locfileid: "52281864"
 |`Imports`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 지정된 항목 컬렉션에서 네임스페이스를 가져옵니다. 이 매개 변수는 vbc.exe 컴파일러의 [/imports](http://msdn.microsoft.com/library/9a93fb53-c080-497b-bf9b-441022dbbc39) 스위치에 해당합니다.|  
 |`KeyContainer`|선택적 `String` 매개 변수입니다.<br /><br /> 암호화 키 컨테이너의 이름을 지정합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/keycontainer](http://msdn.microsoft.com/library/6a9bc861-1752-4db1-9f64-b5252f0482cc) 스위치에 해당합니다.|  
 |`KeyFile`|선택적 `String` 매개 변수입니다.<br /><br /> 암호화 키를 포함하는 파일 이름을 지정합니다. 자세한 내용은 [/keyfile](http://msdn.microsoft.com/library/ffa82a4b-517a-4c6c-9889-5bae7b534bb8)을 참조하세요.|  
-|`LangVersion`|선택 사항 [String] (<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> 언어 버전으로 “9” 또는 “10”을 지정합니다.|  
+|`LangVersion`|선택적 [문자열](<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> 언어 버전으로 “9” 또는 “10”을 지정합니다.|  
 |`LinkResources`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 출력 파일에 .NET Framework 리소스에 대한 링크를 만듭니다. 리소스 파일은 출력 파일에 저장되지 않습니다. 이 매개 변수는 vbc.exe 컴파일러의 [/linkresource](http://msdn.microsoft.com/library/cf4dcad8-17b7-404c-9184-29358aa05b15) 스위치에 해당합니다.|  
 |`MainEntryPoint`|선택적 `String` 매개 변수입니다.<br /><br /> `Sub Main` 프로시저가 포함된 클래스 또는 모듈을 지정합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/main](http://msdn.microsoft.com/library/83fc339d-6652-415d-b205-b5133319b5b0) 스위치에 해당합니다.|  
 |`ModuleAssemblyName`|선택적 `String` 매개 변수입니다.<br /><br /> 이 모듈이 속한 어셈블리를 지정합니다.|  
@@ -83,22 +78,22 @@ ms.locfileid: "52281864"
 |`SdkPath`|선택적 `String` 매개 변수입니다.<br /><br /> mscorlib.dll 및 microsoft.visualbasic.dll의 위치를 지정합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/sdkpath](http://msdn.microsoft.com/library/fec8a3f1-b791-4a37-8af7-344859f8212d) 스위치에 해당합니다.|  
 |`Sources`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 소스 파일을 하나 이상 지정합니다.|  
 |`TargetCompactFramework`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`이면 작업에서 [!INCLUDE[Compact](../includes/compact-md.md)]를 대상으로 지정합니다. 이 스위치는 vbc.exe 컴파일러의 [/netcf](http://msdn.microsoft.com/library/db7cfa59-c315-401c-a59b-0daf355343d6) 스위치에 해당합니다.|  
-|`TargetType`|선택적 `String` 매개 변수입니다.<br /><br /> 출력 파일의 파일 형식을 지정합니다. 이 매개 변수는 각각 코드 라이브러리를 만드는 `library`, 콘솔 응용 프로그램을 만드는 `exe`, 모듈을 만드는 `module` 또는 Windows 프로그램을 만드는 `winexe`를 값으로 가질 수 있습니다. 기본값은 `library`입니다. 이 매개 변수는 vbc.exe 컴파일러의 [/target](http://msdn.microsoft.com/library/e0954147-548b-461f-9c4b-a8f88845616c) 스위치에 해당합니다.|  
+|`TargetType`|선택적 `String` 매개 변수입니다.<br /><br /> 출력 파일의 파일 형식을 지정합니다. 이 매개 변수는 각각 코드 라이브러리를 만드는 `library`, 콘솔 애플리케이션을 만드는 `exe`, 모듈을 만드는 `module` 또는 Windows 프로그램을 만드는 `winexe`를 값으로 가질 수 있습니다. 기본값은 `library`입니다. 이 매개 변수는 vbc.exe 컴파일러의 [/target](http://msdn.microsoft.com/library/e0954147-548b-461f-9c4b-a8f88845616c) 스위치에 해당합니다.|  
 |`Timeout`|선택적 `Int32` 매개 변수입니다.<br /><br /> 작업 실행 파일이 얼마 후에 종료될 지를 밀리초 단위로 지정합니다. 기본값은 시간 제한이 없음을 나타내는 `Int.MaxValue`입니다.|  
 |`ToolPath`|선택적 `String` 매개 변수입니다.<br /><br /> 작업에서 내부 실행 파일(vbc.exe)을 로드할 위치를 지정합니다. 이 매개 변수를 지정하지 않으면 작업에서는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 실행하고 있는 버전의 Framework에 해당하는 SDK 설치 경로가 사용됩니다.|  
 |`TreatWarningsAsErrors`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`이면 모든 경고가 오류로 처리됩니다. 자세한 내용은 [/warnaserror(Visual Basic)](http://msdn.microsoft.com/library/49819f1d-a1bd-4201-affe-5afe6d9712e1)를 참조하세요.|  
 |`UseHostCompilerIfAvailable`|선택적 `Boolean` 매개 변수입니다.<br /><br /> 사용 가능한 경우 In Process 컴파일러 개체를 사용하도록 작업에 지시합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서만 사용됩니다.|  
 |`Utf8Output`|선택적 `Boolean` 매개 변수입니다.<br /><br /> UTF-8 인코딩을 사용하여 컴파일러 출력을 기록합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/utf8output](http://msdn.microsoft.com/library/8ab36b1e-027a-49ac-85b4-f48997d9e4d6) 스위치에 해당합니다.|  
-|`Verbosity`|선택적 `String` 매개 변수입니다.<br /><br /> 컴파일러의 출력의 자세한 정도 지정합니다. 자세한 정도는 `Quiet`, `Normal`(기본값) 또는 `Verbose`일 수 있습니다.|  
+|`Verbosity`|선택적 `String` 매개 변수입니다.<br /><br /> 컴파일러의 출력에 대한 자세한 정도를 지정합니다. 자세한 정도는 `Quiet`, `Normal`(기본값) 또는 `Verbose`일 수 있습니다.|  
 |`WarningsAsErrors`|선택적 `String` 매개 변수입니다.<br /><br /> 오류로 처리할 경고 목록을 지정합니다. 자세한 내용은 [/warnaserror(Visual Basic)](http://msdn.microsoft.com/library/49819f1d-a1bd-4201-affe-5afe6d9712e1)를 참조하세요.<br /><br /> 이 매개 변수는 `TreatWarningsAsErrors` 매개 변수를 재정의합니다.|  
 |`WarningsNotAsErrors`|선택적 `String` 매개 변수입니다.<br /><br /> 오류로 처리하지 않을 경고 목록을 지정합니다. 자세한 내용은 [/warnaserror(Visual Basic)](http://msdn.microsoft.com/library/49819f1d-a1bd-4201-affe-5afe6d9712e1)를 참조하세요.<br /><br /> 이 매개 변수는 `TreatWarningsAsErrors` 매개 변수가 `true`로 설정된 경우에만 유용합니다.|  
 |`Win32Icon`|선택적 `String` 매개 변수입니다.<br /><br /> 파일 탐색기에서 출력 파일을 원하는 모양으로 표시하는 .ico 파일을 어셈블리에 삽입합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/win32icon](http://msdn.microsoft.com/library/aecaab01-9353-46c5-941c-6edabd4eff92) 스위치에 해당합니다.|  
 |`Win32Resources`|선택적 `String` 매개 변수입니다.<br /><br /> Win32 리소스(.res) 파일을 출력 파일에 삽입합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/win32resource](http://msdn.microsoft.com/library/e226946d-19ce-4cc9-91f5-aed24f77aa2b) 스위치에 해당합니다.|  
   
-## <a name="remarks"></a>설명  
+## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트를 컴파일합니다.  
   
 ```  
@@ -113,6 +108,3 @@ ms.locfileid: "52281864"
  [Visual Basic 명령줄 컴파일러](http://msdn.microsoft.com/library/6b57c444-50c7-4b88-8f59-ed65cff5e05c)   
  [작업](../msbuild/msbuild-tasks.md)   
  [작업 참조](../msbuild/msbuild-task-reference.md)
-
-
-

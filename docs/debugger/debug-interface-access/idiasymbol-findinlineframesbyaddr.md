@@ -1,5 +1,5 @@
 ---
-title: IDiaSymbol::findInlineFramesByAddr | Microsoft Docs
+title: IDiaSymbol::findInlineFramesByAddr | Microsft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

@@ -1,24 +1,19 @@
 ---
 title: 코드 검사 분석 사용자 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: f6337c35-acae-4c5f-b5d9-ac5ff687ef18
 caps.latest.revision: 18
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: d8a0b09bf2e67813548865b6ed56fee0b0170cc5
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 70e74c1c4d5b8cc93f4afaeebc74f5fc0579a692
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49890168"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54768036"
 ---
 # <a name="customizing-code-coverage-analysis"></a>코드 검사 분석 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +22,7 @@ ms.locfileid: "49890168"
   
  코드 검사 동작을 사용자 지정하기 전에 몇 가지 다른 방법을 고려하세요.  
   
-- *코드 검사 결과에서 테스트 코드를 제외하고 응용 프로그램 코드만 포함하려고 합니다.*  
+- *코드 검사 결과에서 테스트 코드를 제외하고 애플리케이션 코드만 포함하려고 합니다.*  
   
    테스트 클래스에 `ExcludeFromCodeCoverage Attribute`를 추가합니다.  
   
@@ -77,7 +72,7 @@ ms.locfileid: "49890168"
 >  기호 확인은 어셈블리가 많은 원격 파일 위치를 사용할 경우 특히 오래 걸릴 수 있습니다. 따라서 원격 .pdb 파일을 이진(.dll 및.exe) 파일과 같은 로컬 위치에 복사하는 것이 좋습니다.  
   
 ### <a name="excluding-and-including"></a>제외 및 포함  
- 코드 검사 분석에서 지정한 어셈블리를 제외할 수 있습니다. 예를 들면 다음과 같습니다.  
+ 코드 검사 분석에서 지정한 어셈블리를 제외할 수 있습니다. 예:  
   
 ```minterastlib  
 <ModulePaths>  
@@ -106,7 +101,7 @@ ms.locfileid: "49890168"
 ### <a name="regular-expressions"></a>정규식  
  Include 및 exclude 노드는 정규식을 사용합니다. 자세한 내용은 [Visual Studio에서 정규식 사용](../ide/using-regular-expressions-in-visual-studio.md)을 참조하세요. 정규식은 와일드 카드와 다릅니다. 특히 다음과 같습니다.  
   
-1. **\.\\*** 모든 문자의 문자열과 일치합니다.  
+1. **\.\\***는 모든 문자의 문자열과 일치합니다.  
   
 2. **\\.** 점 “.”과 일치합니다.  
   
@@ -120,7 +115,7 @@ ms.locfileid: "49890168"
   
    모든 일치 항목은 대소문자를 구분하지 않습니다.  
   
-   예를 들면 다음과 같습니다.  
+   예:  
   
 ```xml  
 <ModulePaths>  
@@ -158,7 +153,7 @@ ms.locfileid: "49890168"
   
   **함수 이름 일치**  
   
-  정규식은 네임스페이스, 클래스 이름, 메서드 이름, 매개 변수 목록을 포함한 함수의 정규화된 이름과 일치해야 합니다. 예를 들면 다음과 같습니다.  
+  정규식은 네임스페이스, 클래스 이름, 메서드 이름, 매개 변수 목록을 포함한 함수의 정규화된 이름과 일치해야 합니다. 예를 들어 개체에 적용된  
   
 - C# 또는 Visual Basic의 경우: `Fabrikam.Math.LocalMath.SquareRoot(double)`입니다.  
   
@@ -207,7 +202,7 @@ ms.locfileid: "49890168"
   
 3. **프로세스** 페이지에서 **자동화된 테스트**, **테스트 소스**, **실행 설정**을 확장합니다. **.runsettings** 파일을 선택합니다.  
   
-   - <em>하지만 **테스트 어셈블리</em>* 대신 나타납니다 **테스트 소스**합니다. 실행 설정** 필드를 설정하려고 하면 .testsettings 파일만 선택할 수 있습니다.*  
+   - <em>하지만 **테스트 소스** 대신 **테스트 어셈블리</em>* 가 나타납니다. **실행 설정** 필드를 설정하려고 하면 .testsettings 파일만 선택할 수 있습니다.*  
   
       **자동화된 테스트**에서 **테스트 어셈블리**를 선택한 다음 줄 끝에서 **[...]** 를 선택합니다. **테스트 실행 추가/편집** 대화 상자에서 **Test Runner**를 **Visual Studio Test Runner**로 설정합니다.  
   
@@ -333,6 +328,3 @@ Included items must then not match any entries in the exclude list to remain inc
 ## <a name="see-also"></a>참고 항목  
  [코드 검사를 사용하여 테스트할 코드 범위 결정](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)   
  [코드 단위 테스트](../test/unit-test-your-code.md)
-
-
-

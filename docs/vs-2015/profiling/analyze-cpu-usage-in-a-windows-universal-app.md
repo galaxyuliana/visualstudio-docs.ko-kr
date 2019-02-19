@@ -1,14 +1,9 @@
 ---
 title: Windows 유니버설 앱에서 CPU 사용량 분석 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,21 +13,21 @@ ms.assetid: c122b08e-e3bf-43e6-bd6c-e776e178fd9a
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
+manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 11e8587176ecc452f8f97132d296cff93b09b5ac
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+ms.openlocfilehash: d6728ce1f83c53a406512c75d89368dbcdd87c3e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51741291"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54777436"
 ---
 # <a name="analyze-cpu-usage-in-a-windows-universal-app"></a>Windows 유니버설 앱에서 CPU 사용량 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content.png "windows_and_phone_content")  
   
- 앱 성능 문제를 검토해야 하는 경우 앱에서 CPU를 사용하는 방식을 파악하는 것부터 시작하는 것이 좋습니다. **CPU 사용량** 도구는 CPU가 코드 실행 시간을 어디에 소모하는지를 보여 줍니다. 특정 시나리오에 초점을 CPU 사용량을 실행할 수 있습니다 합니다 [XAML UI 응답성](http://msdn.microsoft.com/library/4ff84cd1-4e63-4fda-b34f-3ef862a6e480) 도구인 합니다 [에너지 소비](../profiling/analyze-energy-use-in-store-apps.md) 도구 또는 둘 다 단일 진단 세션에서.  
+ 앱 성능 문제를 검토해야 하는 경우 앱에서 CPU를 사용하는 방식을 파악하는 것부터 시작하는 것이 좋습니다. **CPU 사용량** 도구는 CPU가 코드 실행 시간을 어디에 소모하는지를 보여 줍니다. 특정 시나리오에 초점을 맞추려면 단일 진단 세션에서 [XAML UI 응답성](http://msdn.microsoft.com/library/4ff84cd1-4e63-4fda-b34f-3ef862a6e480) 도구, [에너지 소비](../profiling/analyze-energy-use-in-store-apps.md) 도구 또는 둘 다를 이용하여 CPU 사용량을 실행할 수 있습니다.  
   
 > [!NOTE]
 >  **CPU 사용량** 도구는 Windows Phone Silverlight 8.1 앱과 함께 사용할 수 없습니다.  
@@ -321,6 +316,3 @@ namespace CpuUseDemo
 }  
   
 ```
-
-
-

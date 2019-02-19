@@ -1,25 +1,20 @@
 ---
 title: Visual C++ IntelliSense | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 9d7c6414-4e6c-4889-a74c-a6033795eccc
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ced999c20678cc64dc5f96e86070b5f39d5ca2c7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 25c11d0ab2a136c82956ffa1ed0f90da534acb87
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49881679"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54802631"
 ---
 # <a name="visual-c-intellisense"></a>Visual C++ IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,14 +80,14 @@ Visual Studio 2015에서 IntelliSense는 프로젝트의 파일과 단일 코드
   
   다음 사항을 참고하십시오.  
   
-- #Ifdef 분기 6 번 줄은 회색으로 비활성 지역을 나타내기 위해 때문 *_ANDROID\\*  \_ iOS 프로젝트에 대해 정의 되지 않았습니다.  
+- *_ANDROID\\*\_가 iOS 프로젝트에 대해 정의되지 않았으므로 6줄 #ifdef 분기가 회색으로 표시되어 비활성 지역을 나타냅니다.  
   
 - 11줄의 인사말 변수는 HELLO 식별자로 초기화되어 이제 빨간색 물결 기호가 표시되었습니다. 이는 HELLO 식별자가 현재 활성 iOS 프로젝트에 정의되어 있지 않기 때문입니다.  
   
 - 12줄에는 BYE 식별자에 자주색 물결 기호가 있습니다. 이 식별자는 현재 비활성 Android.NativeActivity 프로젝트에 정의되어 있지 않았습니다.  
   
 ## <a name="single-file-intellisense"></a>단일 파일 IntelliSense  
- 프로젝트 외부의 단일 파일을 여는 경우에도 IntelliSense가 작동합니다. **텍스트 편집기, C/C++, 고급**으로 이동하여 IntelliSense 기능을 켜면 특정 기능을 사용하거나 사용하지 않도록 설정할 수 있습니다. 프로젝트의 일부가 아닌 단일 파일에 대해 IntelliSense를 구성하려면 **고급** 섹션에서 **프로젝트가 아닌 파일에 대한 IntelliSense 및 검색**을 찾습니다. [Visual C++ 둘러보기](http://msdn.microsoft.com/en-us/499cb66f-7df1-45d6-8b6b-33d94fd1f17c)를 참조하세요.  
+ 프로젝트 외부의 단일 파일을 여는 경우에도 IntelliSense가 작동합니다. **텍스트 편집기, C/C++, 고급**으로 이동하여 IntelliSense 기능을 켜면 특정 기능을 사용하거나 사용하지 않도록 설정할 수 있습니다. 프로젝트의 일부가 아닌 단일 파일에 대해 IntelliSense를 구성하려면 **고급** 섹션에서 **프로젝트가 아닌 파일에 대한 IntelliSense 및 검색**을 찾습니다. [Visual C++ 둘러보기](http://msdn.microsoft.com/499cb66f-7df1-45d6-8b6b-33d94fd1f17c)를 참조하세요.  
   
  ![Visual C&#43;&#43; 단일 파일 IntelliSense](../ide/media/vs2015-cpp-single-file-intellisense.png "vs2015_cpp_single_file_intellisense")  
   
@@ -102,6 +97,3 @@ Visual Studio 2015에서 IntelliSense는 프로젝트의 파일과 단일 코드
   
 ## <a name="see-also"></a>참고 항목  
  [IntelliSense 사용](../ide/using-intellisense.md)
-
-
-

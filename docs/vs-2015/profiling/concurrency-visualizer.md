@@ -26,7 +26,7 @@ ms.locfileid: "54779119"
 # <a name="concurrency-visualizer"></a>동시성 시각화 도우미
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-참고
+참고]
 >  동시성 시각화 도우미는 Visual Studio의 선택적 확장입니다. 다음 링크에서 동시성 시각화 도우미와 동시성 시각화 수집 도구를 다운로드하세요.  
 > 
 > - [동시성 시각화 도우미](https://visualstudiogallery.msdn.microsoft.com/a6c24ce9-beec-4545-9261-293061436ee9) 확장을 다운로드합니다.  

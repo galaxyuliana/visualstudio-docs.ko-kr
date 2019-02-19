@@ -1,14 +1,9 @@
 ---
 title: Visual C# 코드 조각 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - snippets [C#], default snippets
 - snippets [C#], Code Snippet Inserter
@@ -19,13 +14,13 @@ ms.assetid: dbea3dd6-e650-4190-b874-c9f097d7de6e
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 9c06243b4f41919c1c51002f0ed805a3fbd67112
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 47658a8aec8b2dedd2dcdeb337bdca805e1b0bca
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49297416"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54787107"
 ---
 # <a name="visual-c-code-snippets"></a>Visual C# 코드 조각
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ ms.locfileid: "49297416"
 |클래스|class 선언을 만듭니다.|네임스페이스(전역 네임스페이스 포함), 클래스 또는 구조체 내부|  
 |ctor|포함하는 클래스에 대한 생성자를 만듭니다.|클래스 내부|  
 |cw|<xref:System.Console.WriteLine%2A> 호출을 만듭니다.|메서드, 인덱서, 속성 접근자 또는 이벤트 접근자 내부|  
-|do|만듭니다는 [마십시오](http://msdn.microsoft.com/library/50725f79-9ba6-4898-aa78-6e331568a1bb) `while` 루프입니다.|메서드, 인덱서, 속성 접근자 또는 이벤트 접근자 내부|  
+|do|[do](http://msdn.microsoft.com/library/50725f79-9ba6-4898-aa78-6e331568a1bb)`while` 루프를 만듭니다.|메서드, 인덱서, 속성 접근자 또는 이벤트 접근자 내부|  
 |else|[else](http://msdn.microsoft.com/library/d9a1d562-8cf5-4bd4-9ba7-8ad970cd25b2) 블록을 만듭니다.|메서드, 인덱서, 속성 접근자 또는 이벤트 접근자 내부|  
 |enum|[enum](http://msdn.microsoft.com/library/bbeb9a0f-e9b3-41ab-b0a6-c41b1a08974c) 선언을 만듭니다.|네임스페이스(전역 네임스페이스 포함), 클래스 또는 구조체 내부|  
 |equals|<xref:System.Object> 클래스에 정의된 <xref:System.Object.Equals%2A> 메서드를 재정의하는 메서드 선언을 만듭니다.|클래스 또는 구조체 내부|  
@@ -83,10 +78,7 @@ ms.locfileid: "49297416"
 ## <a name="see-also"></a>참고 항목  
  [코드 조각 함수](../ide/code-snippet-functions.md)   
  [코드 조각](../ide/code-snippets.md)   
- [방법: 대체를 사용하여 새 코드 조각 만들기](http://msdn.microsoft.com/en-us/8d56d43c-097a-475b-aa85-cae1554b6338)   
+ [방법: 대체를 사용 하 여 새 코드 조각 만들기](http://msdn.microsoft.com/8d56d43c-097a-475b-aa85-cae1554b6338)   
  [템플릿 매개 변수](../ide/template-parameters.md)   
  [방법: 코드 감싸기 코드 조각 사용](../ide/how-to-use-surround-with-code-snippets.md)   
- [방법: C# 리팩터링 코드 조각 복원](../ide/how-to-restore-csharp-refactoring-snippets.md)
-
-
-
+ [방법: 복원 C# 리팩터링 코드 조각](../ide/how-to-restore-csharp-refactoring-snippets.md)

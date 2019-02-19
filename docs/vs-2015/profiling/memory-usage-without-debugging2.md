@@ -1,14 +1,9 @@
 ---
 title: 디버그하지 않는 경우의 메모리 사용량2 | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,13 +13,13 @@ ms.assetid: 24238fc0-40b8-4079-8579-698211db9a26
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ebd4dd187f2b976ca7861f95609dd6ce8d8d318f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 4612325b467e92b40650d591b7d03bc611e66640
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51808585"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54765085"
 ---
 # <a name="memory-usage-without-debugging"></a>디버그하지 않는 경우의 메모리 사용량
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -213,6 +208,3 @@ ms.locfileid: "51808585"
  [성능 및 진단 도구 실행](http://msdn.microsoft.com/library/788279d8-f56b-40a0-9bef-facc3dfba471)   
  [C++, C# 및 Visual Basic을 사용하는 Windows 스토어 앱의 성능 모범 사례](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)(Visual Studio에서 새 메모리 사용량 도구로 메모리 문제 진단)
-
-
-

@@ -14,7 +14,7 @@ ms.workload:
 - multiple
 ms.openlocfilehash: 0697507b9df10ac1f39108581a651c5290ad6b78
 ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "54919554"
@@ -424,7 +424,7 @@ enum CV_HREG_e { 
  CV_PPC_*  
  Motorola/IBM PowerPC 프로세서에서 사용 하는 등록 합니다.  
   
- CV_SH3_* and CV_SH_\*  
+ CV_SH3_* 및 CV_SH_\*  
  Hitachi SH3 및 Hitachi SH 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
  CV_ARM_*  

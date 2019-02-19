@@ -188,7 +188,7 @@ ms.locfileid: "54793307"
   
    ![환경 큐브 맵의 레이아웃](../designers/media/gfx-shader-demo-billiard-art-env-texture-top.png "gfx_shader_demo_billiard_art_env_texture_top")  
   
-   위쪽의 이미지는 양의 Y(+Y) 큐브 면이고, 중간에, 왼쪽에서 오른쪽까지 이미지는 -X, +Z, +X 및 -Z 큐브 면이고, 아래쪽의 이미지는 -Y 큐브 면입니다.  
+   위쪽의 이미지는 양의 Y(+Y) 큐브 면이고, 중간에, 왼쪽에서 오른쪽까지 이미지는 –X, +Z, +X 및 –Z 큐브 면이고, 아래쪽의 이미지는 –Y 큐브 면입니다.  
   
    이제 큐브 맵 샘플을 나머지 셰이더로 혼합하도록 셰이더를 수정할 수 있습니다.  
   
