@@ -1,5 +1,5 @@
 ---
-title: '방법: 프로젝트 파일에서 예약된 XML 문자 사용 | Microsoft Docs'
+title: '방법: 프로젝트 파일에서 예약된 XML 문자 사용 | Microsoft 문서'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: msbuild
@@ -13,10 +13,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9943378043c7ddd5787d32b331334555b27cd947
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54780642"
 ---
 # <a name="how-to-use-reserved-xml-characters-in-project-files"></a>방법: 프로젝트 파일에서 예약된 XML 문자 사용
@@ -44,7 +44,7 @@ ms.locfileid: "54780642"
     <Message Text="The output file is "@(EXEFile)"."/>  
     ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 프로젝트 파일에서 출력된 메시지에서 파일 이름을 강조 표시할 때 큰따옴표가 사용됩니다.  
   
 ```  

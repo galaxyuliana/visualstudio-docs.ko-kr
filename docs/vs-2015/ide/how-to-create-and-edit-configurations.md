@@ -20,10 +20,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: e885ffa758f6503c10517c672745a31ef0960fe5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54767333"
 ---
 # <a name="how-to-create-and-edit-configurations"></a>방법: 구성 만들기 및 편집
@@ -126,4 +126,4 @@ ms.locfileid: "54767333"
 ## <a name="see-also"></a>참고 항목  
  [빌드 구성 이해](../ide/understanding-build-configurations.md)   
  [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
- [(NIB)방법: 프로젝트 속성 및 구성 설정 수정](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [NIB 방법: 프로젝트 속성 및 구성 설정 수정](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

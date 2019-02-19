@@ -1,5 +1,5 @@
 ---
-title: '방법: IDE 내게 필요한 옵션 설정 | Microsoft Docs'
+title: '방법: IDE 접근성 옵션 설정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general
@@ -12,10 +12,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b1f70f2f33b8ad0af4f0fa13489cb75be529c322
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54803225"
 ---
 # <a name="how-to-set-ide-accessibility-options"></a>방법: IDE 내게 필요한 옵션 설정
@@ -32,7 +32,7 @@ ms.locfileid: "54803225"
 ## <a name="editors-dialogs-and-tool-windows"></a>편집기, 대화 상자 및 도구 창  
  기본적으로 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]의 대화 상자와 도구 창에서는 운영 체제와 같은 글꼴 크기 및 색을 사용합니다. IDE, 대화 상자, 도구 모음 및 도구 창의 프레임에 대한 색 설정은 색 테마인 밝은 테마 또는 어두운 테마에 따라 결정됩니다. [옵션 대화 상자, 환경, 일반](../../ide/reference/general-environment-options-dialog-box.md)에서 현재 색 테마를 변경할 수 있습니다.  
   
- 편집기의 코드 보기에서 팝업 창을 표시할 수도 있습니다. 이러한 창에는 현재 개체의 사용 가능한 멤버 함수나 문을 완성하기 위한 매개 변수가 표시될 수 있습니다. 입력이 어려울 경우 이러한 창이 유용할 수 있습니다. 그러나 이러한 창은 코드 편집기에 집중하는 데 방해가 되어 일부 사용자에게 문제가 될 수 있습니다. [옵션] 대화 상자를 열고 **옵션** 대화 상자의 **텍스트 편집기**, **모든 언어**, **일반** 페이지에서 **멤버 목록 자동 표시** 및 **매개 변수 정보**를 선택 취소하여 이러한 창을 끌 수 있습니다. 자세한 내용은 [방법: 일반 편집기 옵션 설정](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)합니다.  
+ 편집기의 코드 보기에서 팝업 창을 표시할 수도 있습니다. 이러한 창에는 현재 개체의 사용 가능한 멤버 함수나 문을 완성하기 위한 매개 변수가 표시될 수 있습니다. 입력이 어려울 경우 이러한 창이 유용할 수 있습니다. 그러나 이러한 창은 코드 편집기에 집중하는 데 방해가 되어 일부 사용자에게 문제가 될 수 있습니다. [옵션] 대화 상자를 열고 **옵션** 대화 상자의 **텍스트 편집기**, **모든 언어**, **일반** 페이지에서 **멤버 목록 자동 표시** 및 **매개 변수 정보**를 선택 취소하여 이러한 창을 끌 수 있습니다. 자세한 내용은 [방법: 일반 편집기 옵션 설정](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)을 참조하세요.  
   
  자신의 작업 방식에 가장 적합하게 IDE(통합 개발 환경)에서 창을 다시 정렬할 수 있습니다. 각 도구 창을 도킹 또는 고정 해제하거나, 숨기거나, 자동으로 숨길 수 있습니다.  
   
@@ -84,7 +84,7 @@ ms.locfileid: "54803225"
   
 4.  **표시 항목**에서 변경해야 하는 표시가 포함된 항목을 선택합니다(예: **일반 텍스트**, **표시기 여백**, **공백 표시**, **HTML 특성 이름** 또는 **XML 특성**).  
   
-5.  다음 옵션 중에서 표시 설정을 선택합니다. **항목 전경**, **항목 배경** 및 **볼드**  
+5.  **항목 전경**, **항목 배경** 및 **굵게** 옵션에서 표시 설정을 선택합니다.  
   
 6.  **확인**을 선택합니다.  
   

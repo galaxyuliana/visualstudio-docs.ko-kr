@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 63a2e1b98baa61ef0a83c1de65653dd2e57a8b2c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54755466"
 ---
 # <a name="managing-assembly-and-manifest-signing"></a>어셈블리 및 매니페스트 서명 관리
@@ -61,11 +61,11 @@ ms.locfileid: "54755466"
 > [!WARNING]
 >  다른 사용자가 사용하지 못하도록 키 파일을 항상 암호로 보호해야 합니다. 공급자 또는 인증서 저장소를 사용하여 키를 보호할 수도 있습니다.  
   
- 이미 만든 키를 가리킬 수도 있습니다. 키를 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 공개/개인 키 쌍 만들기](http://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)를 참조하세요.  
+ 이미 만든 키를 가리킬 수도 있습니다. 키 만들기에 대한 자세한 내용은 [방법: 공개/개인 키 쌍 만들기](http://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)를 참조하세요.  
   
  공개 키에만 액세스할 수 있는 경우 서명 연기를 사용하여 키 할당을 지연시킬 수 있습니다. **서명만 연기** 확인란을 선택하여 서명 연기를 사용하도록 설정합니다. 지연 서명된 프로젝트가 실행되지 않고 이 프로젝트를 디버그할 수 없습니다. 그러나 [Sn.exe(강력한 이름 도구)](http://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6)를 `-Vr` 옵션과 함께 사용하여 개발 중에 확인을 건너뛸 수 있습니다.  
   
- 매니페스트를 서명하는 방법에 대한 자세한 내용은 [방법: 애플리케이션 및 배포 매니페스트 서명](../ide/how-to-sign-application-and-deployment-manifests.md)을 참조하세요.  
+ 매니페스트 서명에 대한 자세한 내용은 [방법: 애플리케이션 및 배포 매니페스트 서명](../ide/how-to-sign-application-and-deployment-manifests.md)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [강력한 이름의 어셈블리](http://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   

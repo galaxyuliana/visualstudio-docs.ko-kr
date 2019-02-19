@@ -10,10 +10,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 05e1f2360b3257e44fde1af8be3554dd7fd95115
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54790341"
 ---
 # <a name="crosssession"></a>CrossSession
@@ -38,7 +38,7 @@ VSPerfCmd.exe /Start:Method /CrossSession [Options]
  **Start:** `Method`  
  **Start** 옵션은 지정된 프로파일링 방법으로 프로파일러를 초기화합니다.  
   
- **연결:** _PID_[**,**_PID_]  
+ **Attach:** _PID_[**,**_PID_]  
  지정된 프로세스의 프로파일링을 시작합니다.  
   
  **Detach**[**:**_PID_[,_PID_]]  

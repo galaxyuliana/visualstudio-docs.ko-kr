@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 9ffa71b12a0cbe72b2c4fae479990e112fc75940
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54790316"
 ---
 # <a name="find-command"></a>찾기 명령
@@ -75,7 +75,7 @@ Edit.Find findwhat [/case] [/doc | /proc | /open | /sel]
  /word 또는 /w  
  선택 사항입니다. 전체 단어만을 검색합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 코드의 현재 선택된 섹션에서 "somestring"이라는 단어에 대해 대/소문자 구분 검색을 수행합니다.  
   
 ```  

@@ -10,10 +10,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 096de590d49f5d09614bb9149ae6e5218f2ab7ec
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54785689"
 ---
 # <a name="productivity-tips-for-visual-studio"></a>Visual Studio 생산성 팁
@@ -85,7 +85,7 @@ ms.locfileid: "54785689"
 
      빨간 상자는 코드를 리팩터링하는 방법을 제안합니다.
 
-     그림 2: 리팩터링 스마트 태그
+     그림 2: 스마트 태그 리팩터링
 
      ![리팩터링 스마트 태그 제안](../ide/media/productivity-redsmarttags.png "Productivity_RedSmartTags")
 
@@ -115,7 +115,7 @@ ms.locfileid: "54785689"
 
 -   **대화 상자, 메뉴 명령 및 옵션 찾기** [옵션 대화 상자, 환경, 빠른 실행](../ide/reference/quick-launch-environment-options-dialog-box.md) 상자에 검색하려는 항목의 키워드나 문구를 입력합니다. 예를 들어 `new project`를 입력하면 다음 옵션이 나타납니다.
 
-     그림 3: 에 대 한 빠른 실행 결과 목록 `new project`
+     그림 3: `new project`에 대한 빠른 실행 결과 목록
 
      !['새 프로젝트'의 빠른 실행 결과](../ide/media/productivity-quicklaunch.png "Productivity_QuickLaunch")
 
@@ -155,7 +155,7 @@ ms.locfileid: "54785689"
 
      **솔루션 탐색기**의 다른 인스턴스를 만들고 다른 모니터로 이동하여 파일을 더욱 쉽게 관리할 수도 있습니다. **솔루션 탐색기**의 다른 인스턴스를 만들려면 **솔루션 탐색기**에서 바로 가기 메뉴를 열고 **새 솔루션 탐색기 뷰**를 선택합니다.
 
--   **Visual Studio에 표시되는 글꼴 사용자 지정** IDE에서 텍스트에 사용되는 글꼴 서체, 크기 및 색을 변경할 수 있습니다. 예를 들어, 편집기의 특정 코드 요소의 색과 도구 창 또는 IDE 전체에서 글꼴을 사용자 지정할 수 있습니다. 자세한 내용은 [방법: 글꼴 및 색 변경](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) 및 [방법: 편집기의 글꼴 및 색 변경](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)을 참조하세요.
+-   **Visual Studio에 표시되는 글꼴 사용자 지정** IDE에서 텍스트에 사용되는 글꼴 서체, 크기 및 색을 변경할 수 있습니다. 예를 들어, 편집기의 특정 코드 요소의 색과 도구 창 또는 IDE 전체에서 글꼴을 사용자 지정할 수 있습니다. 자세한 내용은 [방법: 글꼴 및 색 변경](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) 및 [방법: 편집기에서 글꼴 및 색 변경](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [자주 사용 되는 명령의 기본 바로 가기 키](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md) [방법: 메뉴 및 도구 모음 사용자 지정](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md) [연습: 간단한 응용 프로그램을 만듭니다](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md) [접근성 팁과 요령](../ide/reference/accessibility-tips-and-tricks.md)
+ [자주 사용 되는 명령의 기본 바로 가기 키](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md) [방법: 메뉴 및 도구 모음 사용자 지정](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md) [연습: 간단한 응용 프로그램](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md) [내게 필요한 옵션 팁 및 트릭](../ide/reference/accessibility-tips-and-tricks.md)

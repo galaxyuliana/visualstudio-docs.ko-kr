@@ -14,10 +14,10 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: 67a564b789d24b11b92b218c2a30673c6bd7baad
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54834863"
 ---
 # <a name="install-visual-studio-versions-side-by-side"></a>Visual Studio 버전 병렬 설치
@@ -51,7 +51,7 @@ ms.locfileid: "54834863"
     |[!INCLUDE[vbprvb](../includes/vbprvb-md.md)]|[프로젝트 디자이너, 애플리케이션 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)|
     |Visual C#|[프로젝트 디자이너, 애플리케이션 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md)|
     |Visual F#|[프로젝트 구성](http://msdn.microsoft.com/library/a1489abb-6294-4f8f-b71f-2cb126393526)|
-    |C++|[방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)|
+    |C++|[방법: 대상 프레임워크 및 플랫폼 도구 집합 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)|
     |[!INCLUDE[jsprjscript](../includes/jsprjscript-md.md)]|[이전 버전의 공용 언어 런타임에서 JScript 애플리케이션 실행](http://msdn.microsoft.com/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|
 
 ## <a name="see-also"></a>참고 항목

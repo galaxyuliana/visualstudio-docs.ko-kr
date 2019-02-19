@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: e117eac0a0a5211dcc97ddf14bf6727f62260ff8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54767994"
 ---
 # <a name="options-page-text-editor-node-properties"></a>옵션 페이지, 텍스트 편집기 노드 속성
@@ -58,7 +58,7 @@ ms.locfileid: "54767994"
 |WordWrap|Get/Set (Boolean)|긴 줄이 단어 경계에서 자동으로 줄 바꿈 하는지 여부를 지정합니다. 이 값을 `true`로 설정하면 이 목록의 `VirtualSpace` 속성 항목이 `false`로 설정됩니다.|  
 |WordWrapGlyphs|Get/Set (Boolean)|줄 끝의 문자 모양을 표시합니다. 이 값은 줄이 다음 줄로 줄바꿈됨을 나타냅니다.|  
 |EnableLeftClickForURLs|Get/Set (Boolean)|편집기에서 URL에 밑줄을 사용할지 여부와 마우스 왼쪽 단추를 한 번 클릭하여 시스템 등록 웹 브라우저에 있는 URL로 이동하는 동작을 사용할지 여부를 지정합니다.|  
-|IndentStyle|Get/Set (<xref:EnvDTE.vsIndentStyle>)|다음과 같이 들여쓰기 스타일을 결정합니다. 기본, 스마트 또는 없음|  
+|IndentStyle|Get/Set (<xref:EnvDTE.vsIndentStyle>)|다음 들여쓰기 스타일을 지정합니다. 기본, 스마트 또는 없음|  
 |TabSize|Get/Set (Long)|탭 하나에 해당하는 공백 수를 나타냅니다. 범위는 1에서 60까지의 정수이고, 이를 벗어난 값을 설정하면 동작이 실패합니다.|  
 |InsertTabs|Get/Set (Boolean)|`True`인 경우 들여쓰기에 탭 문자를 사용합니다.|  
 |IndentSize|Get/Set (Long)|들여쓰기 수준 하나에 해당하는 공백 수를 나타냅니다. 범위는 1에서 60까지의 정수이고, 이를 벗어난 값을 설정하면 동작이 실패합니다.|  

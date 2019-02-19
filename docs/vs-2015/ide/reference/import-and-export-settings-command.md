@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b6b29179332920197960ebe3be71e5973bdc8fe9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54769453"
 ---
 # <a name="import-and-export-settings-command"></a>설정 가져오기 및 내보내기 명령
@@ -44,9 +44,9 @@ Tools.ImportandExportSettings [/export:filename | /import:filename | /reset]
  선택 사항입니다. 현재 설정을 다시 설정합니다.  
   
 ## <a name="remarks"></a>주의  
- 스위치 없이 이 명령을 실행하면 **설정 가져오기 및 내보내기** 마법사가 열립니다. 자세한 내용은 [방법: 컴퓨터 또는 Visual Studio 버전 간 설정 공유](http://msdn.microsoft.com/1131fb10-35c1-42da-9cd8-91aa3235b882)합니다.  
+ 스위치 없이 이 명령을 실행하면 **설정 가져오기 및 내보내기** 마법사가 열립니다. 자세한 내용은 [방법: 컴퓨터 또는 Visual Studio 버전 간 설정 공유](http://msdn.microsoft.com/1131fb10-35c1-42da-9cd8-91aa3235b882)을 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 명령은 현재 설정을 `MyFile.vssettings` 파일로 내보냅니다.  
   
 ```  

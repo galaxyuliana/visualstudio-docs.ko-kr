@@ -56,11 +56,10 @@
 ## [Azure App Service에 게시](publish-app-svc.md)
 ## [폴더에 게시](publish-folder.md)
 
-
 # [작업](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
 ### [Razor](razor.md)
-### [Javascript](javascript.md)
+### [JavaScript 및 TypeScript](javascript.md)
 ## [Azure](azure-workload.md)
 ### [Azure Functions 소개](azure-functions.md)
 ### [자습서: Azure Functions](azure-functions-lab.md)

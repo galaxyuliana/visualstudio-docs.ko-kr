@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 7523db6598a32c76944c22bfdabe56ee288c6b43
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54771084"
 ---
 # <a name="add-existing-project-command"></a>기존 프로젝트 추가 명령
@@ -44,7 +44,7 @@ File.AddExistingProject filename
 ## <a name="remarks"></a>주의  
  입력 시 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 프로젝트인 TestProject1을 현재 솔루션에 추가합니다.  
   
 ```  

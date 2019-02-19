@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: a015aeff983979bbb8f6ddedc245c74d3fb5f77b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54791710"
 ---
 # <a name="full-text-search-tips"></a>전체 텍스트 검색 팁
@@ -46,7 +46,7 @@ ms.locfileid: "54791710"
 >    2.  검색 문구에서 단어 간의 관계를 지정하려면 논리 연산자를 사용합니다. AND, OR, NOT, NEAR 등의 논리 연산자를 포함하여 검색을 구체화할 수 있습니다. 예를 들어 "declaring NEAR union"을 검색하는 경우 "declaring" 및 "union" 단어를 포함하고 그 사이에 몇 단어만 있는 항목이 검색 결과에 포함됩니다. 자세한 내용은 [검색 식의 논리 연산자](../ide/logical-operators-in-search-expressions.md)를 참조하세요.  
   
 ### <a name="filters"></a>필터  
- 고급 검색 연산자를 사용하여 검색 결과를 더욱 제한할 수 있습니다. 도움말에는 전체 텍스트 검색 결과를 필터링하는 데 사용할 수 있는 다음 세 가지 범주가 포함되어 있습니다. 제목, 코드 및 키워드. 자세한 내용은 [검색 식의 고급 검색 연산자](../ide/advanced-search-operators-in-search-expressions.md)를 참조하세요.  
+ 고급 검색 연산자를 사용하여 검색 결과를 더욱 제한할 수 있습니다. 도움말에는 전체 텍스트 검색 결과를 필터링하는 데 사용할 수 있는 세 가지 범주(제목, 코드 및 키워드)가 포함되어 있습니다. 자세한 내용은 [검색 식의 고급 검색 연산자](../ide/advanced-search-operators-in-search-expressions.md)를 참조하세요.  
   
 ### <a name="ranking-of-search-results"></a>검색 결과의 순위 지정  
  검색 알고리즘은 특정 조건을 적용하여 결과 목록에서 검색 결과의 순위를 위나 아래로 조정합니다. 일반적으로 다음과 같이 작동합니다.  

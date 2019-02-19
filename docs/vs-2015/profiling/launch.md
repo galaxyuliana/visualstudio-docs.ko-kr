@@ -10,10 +10,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 97ccdd3bf5e78af277430be1d86a95fad2f180e8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54778930"
 ---
 # <a name="launch"></a>Launch
@@ -76,7 +76,7 @@ VSPerfCmd.exe /Launch:AppName [Options]
   
 -   **GC** - .NET 메모리 데이터를 수집합니다. 기본적으로(**allocation**) 모든 메모리 할당 이벤트에서 데이터가 수집됩니다. **lifetime** 매개변수가 지정되면 데이터는 각 가비지 컬렉션 이벤트에서도 수집됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 애플리케이션을 시작하는 **Launch**의 사용을 보여 줍니다.  
   
 ```  

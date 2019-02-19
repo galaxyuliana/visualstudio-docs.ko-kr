@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 773ecc04569850546f03fd0cdb68bfe1a81a79f9
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54835028"
 ---
 # <a name="choose-toolbox-items-wpf-components"></a>도구 상자 항목 선택, WPF 구성 요소
@@ -30,7 +30,7 @@ ms.locfileid: "54835028"
 - 구성 요소 옆의 확인란이 선택되면 해당 구성 요소의 아이콘이 **도구 상자**에 표시됩니다.  
   
   > [!TIP]
-  >  WPF 컨트롤 인스턴스를 편집용으로 열린 프로젝트 문서에 추가하려면 해당 **도구 상자** 아이콘을 디자인 보기 화면으로 끌어서 놓습니다. 구성 요소의 기본 태그 및 코드가 프로젝트에 삽입되고 이제 수정할 수 있습니다. 자세한 내용은 [방법: 도구 상자 창 관리](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2) 고 [방법: 도구 상자 탭 조작](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)합니다.  
+  >  WPF 컨트롤 인스턴스를 편집용으로 열린 프로젝트 문서에 추가하려면 해당 **도구 상자** 아이콘을 디자인 보기 화면으로 끌어서 놓습니다. 구성 요소의 기본 태그 및 코드가 프로젝트에 삽입되고 이제 수정할 수 있습니다. 자세한 내용은 [방법: 도구 상자 창 관리](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2) 및 [방법: 도구 상자 탭 조작](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)을 참조하세요.  
   
 - 구성 요소 옆의 확인란이 선택 취소되면 해당 아이콘이 **도구 상자**에서 제거됩니다.  
   
@@ -73,10 +73,10 @@ ms.locfileid: "54835028"
   
   또한 디자인 타임 메타데이터가 사용자 지정 컨트롤에 적용되고 이 메타데이터에서 <xref:Microsoft.Windows.Design.ToolboxBrowsableAttribute>가 `false`로 설정되도록 지정하면 컨트롤이 도구 상자에 표시되지 않습니다.  
   
-  컨트롤에 대한 네임스페이스 및 어셈블리를 매핑하면 XAML에서 직접 컨트롤을 참조할 수 있습니다. 자세한 내용은 [방법: XAML을 Namespace 가져올](http://msdn.microsoft.com/6cda7c7a-369c-47dd-9c2d-13a35dcf737c)합니다.  
+  컨트롤에 대한 네임스페이스 및 어셈블리를 매핑하면 XAML에서 직접 컨트롤을 참조할 수 있습니다. 자세한 내용은 [방법: 네임스페이스를 XAML로 가져오기](http://msdn.microsoft.com/6cda7c7a-369c-47dd-9c2d-13a35dcf737c)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [도구 상자 항목 선택 대화 상자(Visual Studio)](http://msdn.microsoft.com/bd07835f-18a8-433e-bccc-7141f65263bb)   
  [도구 상자](../../ide/reference/toolbox.md)   
- [방법: WPF 응용 프로그램에서 타사 WPF 컨트롤을 사용 합니다.](http://msdn.microsoft.com/f4c0b601-3818-4f9f-85e5-77905f3b427f)   
+ [방법: WPF 애플리케이션에서 타사 WPF 컨트롤 사용](http://msdn.microsoft.com/f4c0b601-3818-4f9f-85e5-77905f3b427f)   
  [WPF 디자이너](http://msdn.microsoft.com/c6c65214-8411-4e16-b254-163ed4099c26)
