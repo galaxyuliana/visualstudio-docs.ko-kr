@@ -1,5 +1,5 @@
 ---
-title: '방법: 프로젝트 파일의 이름 또는 위치 참조 | Microsoft Docs'
+title: '방법: 프로젝트 파일의 이름 또는 위치 참조 | Microsoft 문서'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: msbuild
@@ -18,10 +18,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9a5d07c374e75bd7f042f466f13fc5727241e252
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54781004"
 ---
 # <a name="how-to-reference-the-name-or-location-of-the-project-file"></a>방법: 프로젝트 파일의 이름 또는 위치 참조
@@ -48,7 +48,7 @@ ms.locfileid: "54781004"
 > [!NOTE]
 >  프로젝트 파일에서 예약된 속성을 다시 정의할 수 없습니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제 프로젝트 파일은 출력의 이름을 지정하기 위해 프로젝트 이름을 예약된 속성으로 참조합니다.  
   
 ```  

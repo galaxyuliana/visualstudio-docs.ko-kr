@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 8029dc6282e7b5a4ff9075257bcb1b6213a4a6b4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54758527"
 ---
 # <a name="ltlocgt-javascript"></a>&lt;loc&gt; (JavaScript)
@@ -45,7 +45,7 @@ ms.locfileid: "54758527"
   
  메시지 번들 형식을 사용 하는 경우 사용 합니다 `locid` XML 문서 주석에 지정 하는 특성을 `name` 특성 값.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 사용 하는 방법을 보여 줍니다는 `<loc>` messagebundle 형식 요소입니다. MessageFilename.xml 라는 파일에 다음 XML을 추가 하 고 설명에 지정 된 대로 올바른 문화권별 폴더에 파일을 배치 합니다 `filename` 매개 변수입니다.  
   
 ```  

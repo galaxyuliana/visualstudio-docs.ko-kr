@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b25e7bb0f6498e9160dd8602648ced28b3bb9fed
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54780516"
 ---
 # <a name="edit-devenvexe"></a>/Edit (devenv.exe)
@@ -43,7 +43,7 @@ Devenv /edit [file1[ file2]]
   
  예를 들어 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]의 기존 인스턴스가 모달 상태인 경우 [옵션 대화 상자](../../ide/reference/options-dialog-box-visual-studio.md)가 열리면 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]이(가) 모달 상태를 벗어날 때 파일이 기존 인스턴스에서 열립니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]의 기존 인스턴스로 `MyFile.cs` 파일을 열거나 없는 경우 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]의 새 인스턴스로 파일을 엽니다.  
   
 ```  

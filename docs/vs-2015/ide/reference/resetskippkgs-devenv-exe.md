@@ -14,10 +14,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 59bde318995ed8b66637a2220ae1817db2a1e800
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54834680"
 ---
 # <a name="resetskippkgs-devenvexe"></a>/ResetSkipPkgs(devenv.exe)
@@ -35,7 +35,7 @@ Devenv /ResetSkipPkgs
 ## <a name="remarks"></a>주의  
  SkipLoading 태그가 존재하면 VSPackage를 로드할 수 없습니다. 해당 태그를 지우면 VSPackage를 다시 로드할 수 있습니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 모든 SkipLoading 태그를 지웁니다.  
   
 ```  

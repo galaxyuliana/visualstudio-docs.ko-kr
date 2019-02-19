@@ -10,10 +10,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 264fcea4b04b1777a455199789ed1bb9c3757f7c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54758244"
 ---
 # <a name="getting-started-with-c-in-visual-studio"></a>Visual Studio에서 C++ 시작
@@ -148,4 +148,4 @@ ms.locfileid: "54758244"
    이 연습을 완료한 것을 축하 드립니다! 더 많은 예제를 탐색하려는 경우 [Visual Studio 샘플](../ide/visual-studio-samples.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [연습: 간단한 응용 프로그램을 만듭니다](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md) [생산성 팁](../ide/productivity-tips-for-visual-studio.md) [Visual Studio 샘플](../ide/visual-studio-samples.md) [Visual Studio를 사용 하 여 개발 시작](../ide/get-started-developing-with-visual-studio.md)
+ [연습: 간단한 응용 프로그램 만들기](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md) [생산성 팁](../ide/productivity-tips-for-visual-studio.md) [Visual Studio 샘플](../ide/visual-studio-samples.md) [Visual Studio를 사용 하 여 개발 시작](../ide/get-started-developing-with-visual-studio.md)

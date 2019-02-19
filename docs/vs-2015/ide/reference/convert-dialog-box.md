@@ -16,10 +16,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: f020e23b5a58d700fb698e8026ef0b783b6de6a4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54758569"
 ---
 # <a name="convert-dialog-box"></a>변환 대화 상자
@@ -41,5 +41,5 @@ ms.locfileid: "54758569"
 2.  애플리케이션에 적합한 도구를 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [NOTINBUILD-방법: Visual Basic 6.0에서에서 프로젝트 업그레이드](http://msdn.microsoft.com/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
+ [NOTINBUILD - 방법: Visual Basic 6.0에서 프로젝트 업그레이드](http://msdn.microsoft.com/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
  [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../../porting/porting-migrating-and-upgrading-visual-studio-projects.md)

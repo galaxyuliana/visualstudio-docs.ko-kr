@@ -21,10 +21,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b3e5a1ce334f0d5cb567eb8c4cefd27f1bca408b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54752968"
 ---
 # <a name="html-ui-responsiveness"></a>HTML UI 응답성
@@ -74,7 +74,7 @@ ms.locfileid: "54752968"
 6.  응용 프로그램의 프로파일링을 중지하고 프로파일러가 수집한 데이터를 보려면 **수집 중지**를 선택합니다.  
   
 ##  <a name="IsolateAnIssue"></a> 문제 격리  
- 다음 섹션에서는 성능 문제를 격리하는 데 도움이 되는 제안 사항을 제공합니다. 샘플 성능 테스트 앱을 사용하여 성능 문제를 확인 및 수정하는 방법에 대한 단계별 설명은 [연습: UI 응답성 개선(HTML)](../profiling/walkthrough-improving-ui-responsiveness-html.md)을 참조하세요.  
+ 다음 섹션에서는 성능 문제를 격리하는 데 도움이 되는 제안 사항을 제공합니다. 샘플 성능 테스트 앱을 사용하여 성능 문제를 확인 및 수정하는 방법에 대한 단계별 설명은 [연습: UI 응답성 향상(HTML)](../profiling/walkthrough-improving-ui-responsiveness-html.md)을 참조하세요.  
   
 ###  <a name="Workflow"></a> UI 응답성 문제 격리  
  다음 단계에서는 UI 응답성 프로파일러를 보다 효과적으로 사용할 수 있는 제안 워크플로를 제공합니다.  
@@ -104,7 +104,7 @@ ms.locfileid: "54752968"
   
 9. 사용자 표시, 응용 프로그램 수명 주기 이벤트 또는 그래프에 표시되는 데이터를 사용해서 타임라인 및 프로파일러 그래프에서 관심 영역을 식별합니다. 다음은 그래프에서 데이터를 분석 및 사용하는 데 도움이 되는 몇 가지 지침입니다.  
   
-    -    [진단 세션 타임라인 보기](#Ruler) 을 사용해 [분석을 위한 코드 표시](#ProfileMark), 앱 수명 주기 이벤트 및 이러한 이벤트에 연결된 타임라인과 다른 그래프의 데이터에 대한 타임라인을 확인합니다.  
+    -   [진단 세션 타임라인 보기](#Ruler) 을 사용해 [분석을 위한 코드 표시](#ProfileMark), 앱 수명 주기 이벤트 및 이러한 이벤트에 연결된 타임라인과 다른 그래프의 데이터에 대한 타임라인을 확인합니다.  
   
     -   [CPU utilization graph](#CPUutilization) 를 사용해 CPU 작업 및 특정 기간에 CPU에서 처리하는 작업 유형에 관한 일반적인 정보를 볼 수 있습니다. CPU 작업이 과도한 기간에는 응답성 문제 및 프레임 저하가 발생할 가능성이 높습니다.  
   
@@ -116,7 +116,7 @@ ms.locfileid: "54752968"
   
      ![CPU 사용률 그래프](../profiling/media/js-htmlvizprof-cpu-util.png "JS_HTMLVizProf_CPU_Util")  
   
-11.  [타임라인 세부 정보 보기](#TimelineDetails) 를 사용하여 너무 자주 실행되거나 완료되는 데 너무 많은 시간이 걸리는 이벤트에 대한 자세한 정보를 확인합니다. 예를 들어, 다음을 확인합니다.  
+11. [타임라인 세부 정보 보기](#TimelineDetails) 를 사용하여 너무 자주 실행되거나 완료되는 데 너무 많은 시간이 걸리는 이벤트에 대한 자세한 정보를 확인합니다. 예를 들어, 다음을 확인합니다.  
   
     -   이벤트 수신기, 타이머 및 애니메이션 프레임 콜백. 특정 이벤트에 따라 제공되는 데이터에는 수정된 DOM 요소의 ID, 수정된 CSS 속성, 소스 위치에 대한 링크, 연결된 이벤트 또는 콜백 함수의 이름이 포함될 수 있습니다.  
   
@@ -193,7 +193,7 @@ if (performance.mark && performance.measure) {
 -   다른 페이지를 탐색할 때 발생하는 탐색 이벤트. 이벤트에 대한 도구 설명으로 대상 페이지 URL을 표시합니다.  
   
 ###  <a name="CPUUtilization"></a> CPU 사용률 보기  
- CPU 사용률 그래프에서는 과도한 CPU 작업이 있던 기간을 확인할 수 있습니다. 여기에서는 일정 기간에 걸쳐 응용 프로그램의 평균 CPU 사용에 대한 정보를 제공합니다. 정보는 다음과 같은 특정 범주를 나타낼 수 있도록 색으로 구분됩니다. **로드**, **스크립팅**, **GC**(가비지 수집), **스타일 지정**, **렌더링** 및 **이미지 디코딩** 이러한 범주에 대한 자세한 내용은 이 항목 뒷부분에 나오는 [Profiler event reference](#ProfilerEvents) 를 참조하세요.  
+ CPU 사용률 그래프에서는 과도한 CPU 작업이 있던 기간을 확인할 수 있습니다. 여기에서는 일정 기간에 걸쳐 응용 프로그램의 평균 CPU 사용에 대한 정보를 제공합니다. 정보는 **로드**, **스크립팅**, 가비지 수집(**GC**), **스타일 지정**, **렌더링**, **이미지 디코딩**과 같은 특정 범주를 나타내도록 색으로 구분되어 있습니다. 이러한 범주에 대한 자세한 내용은 이 항목 뒷부분에 나오는 [Profiler event reference](#ProfilerEvents) 를 참조하세요.  
   
  CPU 사용률 그래프는 전체 앱 스레드에 소요된 시간을 하나 이상의 CPU에 대한 CPU 사용률 값을 단일 백분율 값으로 결합하여 보여 줍니다. 둘 이상의 CPU를 사용 중일 경우 CPU 사용률 값은 100%를 초과할 수 있습니다.  
   

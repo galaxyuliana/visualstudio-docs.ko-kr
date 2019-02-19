@@ -15,10 +15,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 7fbd03676d69dde5f9a6d169739a25e7b5e1b82e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54755127"
 ---
 # <a name="formatversion-task"></a>FormatVersion 작업
@@ -27,11 +27,11 @@ ms.locfileid: "54755127"
   
 버전 번호에 수정 버전 번호를 추가합니다.  
   
--   사례 #1: 입력: Version=\<undefined>;  Revision=\<don't care>;   Output: OutputVersion="1.0.0.0"  
+-   사례 #1: Input: Version=\<undefined>;  Revision=\<don't care>;   Output: OutputVersion="1.0.0.0"  
   
--   사례 #2: 입력: Version="1.0.0.*"  Revision="5"  Output: OutputVersion="1.0.0.5"  
+-   사례 #2: Input: Version="1.0.0.*"  Revision="5"  Output: OutputVersion="1.0.0.5"  
   
--   사례 #3: 입력: Version="1.0.0.0"  Revision=\<don't care>;  Output: OutputVersion="1.0.0.0"  
+-   사례 #3: Input: Version="1.0.0.0"  Revision=\<don't care>;  Output: OutputVersion="1.0.0.0"  
   
 ## <a name="parameters"></a>매개 변수  
  다음 표에서는 `FormatVersion` 작업의 매개 변수에 대해 설명합니다.  

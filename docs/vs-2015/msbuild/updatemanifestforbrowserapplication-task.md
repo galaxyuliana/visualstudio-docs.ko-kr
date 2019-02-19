@@ -20,10 +20,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: d1c45f001c6d050ca48546579f313ee64d5fec2a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54778817"
 ---
 # <a name="updatemanifestforbrowserapplication-task"></a>UpdateManifestForBrowserApplication 작업
@@ -60,7 +60,7 @@ ms.locfileid: "54778817"
   
  [!INCLUDE[TLA2#tla_xbap](../includes/tla2sharptla-xbap-md.md)] 프로젝트를 빌드할 때 `<hostInBrowser />` 요소를 추가하기 위해 <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> 작업이 실행됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 애플리케이션 매니페스트 파일에 `<hostInBrowser />` 요소를 포함하는 방법을 보여 줍니다.  
   
 ```  

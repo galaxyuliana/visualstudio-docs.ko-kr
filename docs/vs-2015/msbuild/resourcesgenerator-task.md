@@ -19,10 +19,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f53f6f66b30509b56fbaf7cf54eecd0fe93b1434
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54805399"
 ---
 # <a name="resourcesgenerator-task"></a>ResourcesGenerator 작업
@@ -39,7 +39,7 @@ ms.locfileid: "54805399"
 |`OutputResourcesFile`|필수 **ITaskItem** 출력 매개 변수입니다.<br /><br /> 생성된 .resources 파일의 경로 및 이름을 지정합니다. 경로가 절대 경로가 아니면 루트 프로젝트 디렉터리에 상대적으로 .resource 파일이 생성됩니다.|  
 |`ResourcesFiles`|필수 **ITaskItem[]** 매개 변수입니다.<br /><br /> 생성된 .resources 파일에 포함할 하나 이상의 리소스를 지정합니다.|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 단일 .bmp 리소스로 .resources 파일을 생성합니다. .bmp 리소스는 프로젝트 루트 디렉터리에 상대적인 디렉터리에 생성됩니다.  
   
 ```  

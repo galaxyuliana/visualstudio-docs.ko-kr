@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 13993fca03afce3e14b5a016eba7924226c24b8d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: deb28fcce5f27b7a392b570c140bb959b30b596c
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55037839"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335248"
 ---
 # <a name="how-to-implement-nested-projects"></a>방법: 중첩 된 프로젝트를 구현 합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "55037839"
      부모 및 자식 프로젝트는 프로그래밍 방식으로 인스턴스화 때문에 시점에서 중첩 된 프로젝트에 대 한 속성을 설정할 수 있습니다.
 
     > [!NOTE]
-    > 중첩 된 프로젝트에서 컨텍스트 정보를을 받고 뿐 아니라 부모 프로젝트로 있는지 확인 하 여 모든 컨텍스트에 해당 항목에 대해 질문할 수도 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>합니다. 이런 방식으로 개별 중첩된 프로젝트에 추가 동적 도움말 특성과 관련 된 메뉴 옵션을 추가할 수 있습니다.
+    > 중첩 된 프로젝트에서 컨텍스트 정보를을 받고 뿐 아니라 부모 프로젝트로 있는지 확인 하 여 모든 컨텍스트에 해당 항목에 대해 질문할 수도 있습니다 [__VSHPROPID 합니다. VSHPROPID_UserContext](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_UserContext>)합니다. 이런 방식으로 개별 중첩된 프로젝트에 추가 동적 도움말 특성과 관련 된 메뉴 옵션을 추가할 수 있습니다.
 
 10. 계층에 표시 하기 위해 빌드됩니다 **솔루션 탐색기** 에 대 한 호출을 사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A> 메서드.
 

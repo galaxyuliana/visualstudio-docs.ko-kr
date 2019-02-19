@@ -9,10 +9,10 @@ caps.latest.revision: 18
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 70392f50ecd13539012672bf71900c30845af734
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54783373"
 ---
 # <a name="code-generation-compilation-and-naming-conventions-in-microsoft-fakes"></a>Microsoft Fakes의 코드 생성, 컴파일 및 명명 규칙
@@ -239,7 +239,7 @@ attribute of the Assembly element in the .fakes:
   
   getter 또는 setter 속성과 같은 **특수 메서드 이름**은 다음 표에 설명된 대로 처리됩니다.  
   
-|메서드 특성...|예제|추가되는 메서드 이름|  
+|메서드 특성...|예|추가되는 메서드 이름|  
 |-------------------|-------------|--------------------------|  
 |**생성자**|`.ctor`|`Constructor`|  
 |정적 **생성자**|`.cctor`|`StaticConstructor`|  
@@ -285,7 +285,7 @@ attribute of the Assembly element in the .fakes:
 ##  <a name="BKMK_External_resources"></a> 외부 리소스  
   
 ###  <a name="BKMK_Guidance"></a> 지침  
- [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012를 사용한 연속 배달 테스트 - 2장: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## <a name="see-also"></a>참고 항목  
  [Microsoft Fakes를 사용하여 테스트 중인 코드 격리](../test/isolating-code-under-test-with-microsoft-fakes.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Ptvs 시작: Azure에서 웹 사이트를 구축 | Microsoft Docs'
+title: 'PTVS 시작: Azure에서 웹 사이트 빌드 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-python
@@ -10,13 +10,13 @@ author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.openlocfilehash: 61f8748a3874f32db9c235d03b6b7464bc5cecf1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54783198"
 ---
-# <a name="getting-started-with-ptvs-building-a-website-in-azure"></a>Ptvs 시작: Azure에서 웹 사이트 빌드
+# <a name="getting-started-with-ptvs-building-a-website-in-azure"></a>PTVS 시작: Azure에서 웹 사이트 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Azure에서 Python 웹 사이트를 신속하게 빌드할 수 있습니다.  

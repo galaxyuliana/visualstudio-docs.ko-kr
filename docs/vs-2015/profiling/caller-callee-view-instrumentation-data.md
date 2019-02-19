@@ -12,10 +12,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3c8db1d559682ccb0f202d100fac6a586d3477cd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54764955"
 ---
 # <a name="callercallee-view---instrumentation-data"></a>호출자/호출 수신자 뷰 - 계측 데이터
@@ -93,7 +93,7 @@ ms.locfileid: "54764955"
 |**최소 애플리케이션 전용 시간**|이 컨텍스트에서 이 함수에 대한 호출의 최소 애플리케이션 전용 시간입니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 보고서 보기 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
+ [방법: 보고서 뷰 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
  [호출자/호출 수신자 뷰 - 샘플링 데이터](../profiling/caller-callee-view-sampling-data.md)   
  [호출자/호출 수신자 뷰 - .NET 메모리 샘플링 데이터](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)   
  [호출자/호출 수신자 뷰 - .NET 메모리 계측 데이터](../profiling/caller-callee-view-net-memory-instrumentation-data.md)

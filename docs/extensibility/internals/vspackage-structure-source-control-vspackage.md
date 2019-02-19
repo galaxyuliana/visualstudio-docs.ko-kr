@@ -11,16 +11,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3e71b8675aad05f45d13be5a86e8729266a3a017
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: aeaa87cf55b9429904286817b043dcba92d2bfcf
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54954100"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335222"
 ---
 # <a name="vspackage-structure-source-control-vspackage"></a>VSPackage 구조(소스 제어 VSPackage)
 
-소스 제어 패키지 SDK는 Visual Studio 환경을 사용 하 여 자신의 소스 제어 기능을 통합 하는 원본 제어 구현자를 허용 하는 VSPackage를 만들기 위한 지침을 제공 합니다. VSPackage는 해당 레지스트리 항목에서 패키지를 통해 보급 된 서비스에 따라 Visual Studio 통합된 개발 환경 (IDE)에서 일반적으로 요청 시 로드 되는 COM 구성 요소입니다. 모든 VSPackage 구현 해야 합니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>합니다. VSPackage는 일반적으로 Visual Studio IDE에서 제공 하는 서비스를 사용 하 고 일부 서비스는 자체 proffers 합니다.
+소스 제어 패키지 SDK는 Visual Studio 환경을 사용 하 여 자신의 소스 제어 기능을 통합 하는 원본 제어 구현자를 허용 하는 VSPackage를 만들기 위한 지침을 제공 합니다. VSPackage는 해당 레지스트리 항목에서 패키지를 통해 보급 된 서비스에 따라 Visual Studio 통합된 개발 환경 (IDE)에서 일반적으로 요청 시 로드 되는 COM 구성 요소입니다. 모든 VSPackage 구현 해야 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>합니다. VSPackage는 일반적으로 Visual Studio IDE에서 제공 하는 서비스를 사용 하 고 일부 서비스는 자체 proffers 합니다.
 
 VSPackage는 해당 메뉴 항목을 선언 하 고.vsct 파일을 통해 기본 항목 상태를 설정 합니다. Visual Studio IDE는 VSPackage가 로드 될 때까지이 상태에서 메뉴 항목을 표시 합니다. 이후에 VSPackage 구현 된 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 메서드는 메뉴 항목을 사용할지 여부를 합니다.
 
@@ -66,9 +66,9 @@ SVsRegisterScciProvider 서비스
 
 소스 제어 패키지를 VSPackage로 이며 따라서 Visual Studio를 사용 하 여 등록 된 다른 Vspackage를 사용 하 여 직접 작용할 수 있습니다. 전체 범위의 소스 제어 기능을 제공 하기 위해 소스 제어 VSPackage 처리할 수 인터페이스 프로젝트 또는 셸에서에서 제공 합니다.
 
-Visual Studio의 모든 프로젝트를 구현 해야 합니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3> Visual Studio IDE 내에서 프로젝트로 인식 됩니다. 그러나이 인터페이스는 특수화 된 하지 소스 제어에 적합 합니다. 프로젝트 소스 아래에 있는 것으로 예상 되는 제어 구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>합니다. 이 인터페이스는 사용 하 여 소스 제어 VSPackage 그 내용에 대해 프로젝트를 쿼리 하 고 문자 모양 및 바인딩 정보 (정보 아래에 있는 프로젝트의 디스크 위치와 서버 위치 간의 연결을 설정 하는 데 필요한 입력 소스 제어)입니다.
+Visual Studio의 모든 프로젝트를 구현 해야 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3> Visual Studio IDE 내에서 프로젝트로 인식 됩니다. 그러나이 인터페이스는 특수화 된 하지 소스 제어에 적합 합니다. 프로젝트 소스 아래에 있는 것으로 예상 되는 제어 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>합니다. 이 인터페이스는 사용 하 여 소스 제어 VSPackage 그 내용에 대해 프로젝트를 쿼리 하 고 문자 모양 및 바인딩 정보 (정보 아래에 있는 프로젝트의 디스크 위치와 서버 위치 간의 연결을 설정 하는 데 필요한 입력 소스 제어)입니다.
 
-소스 제어 VSPackage 구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>, 다시 프로젝트를 소스 제어에 대 한 자체를 등록 하 고 해당 상태 문자 모양을 검색할 수 있습니다.
+소스 제어 VSPackage 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>, 다시 프로젝트를 소스 제어에 대 한 자체를 등록 하 고 해당 상태 문자 모양을 검색할 수 있습니다.
 
 소스 제어 VSPackage를 고려해 야 하는 인터페이스의 전체 목록은 참조 하세요 [관련 서비스 및 인터페이스](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)합니다.
 

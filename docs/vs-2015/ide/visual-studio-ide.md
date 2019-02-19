@@ -10,10 +10,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 76e1d9c4a7cbfdfc2a7011668eb58a5ea9741d3d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54780681"
 ---
 # <a name="visual-studio-ide"></a>Visual Studio IDE
@@ -111,7 +111,7 @@ Visual Studio 2015의 새로운 기능에 자세히 알아보려면 원한다 �
 
  ![코드 편집기의 GreetingsConsoleApp.cpp](../ide/media/c-ide-editorlinenumberswordwrapon.png "C + + IDE_EditorLineNumbersWordWrapOn")
 
- 텍스트 편집기는 보다 효율적인 코드를 더 빠르게 작성할 수 있도록 도와주는 많은 생산성 기능이 포함된 대화형(원할 경우)입니다. 기능 언어에 따라 다르며 (빠른 실행에서 "편집기"을 입력 하는 경우) 중 하나를 사용 하 여 기능을 켜거나 끌 필요가 없습니다. 몇 가지 일반적인 생산성 기능은 다음과 같습니다.
+ 텍스트 편집기는 보다 효율적인 코드를 더 빠르게 작성할 수 있도록 도와주는 많은 생산성 기능이 포함된 대화형(원할 경우)입니다. 기능은 언어에 따라 달라지며, 기능을 설정하거나 해제하기 위해 언어를 사용할 필요가 없습니다(빠른 실행에서 "편집기" 입력). 몇 가지 일반적인 생산성 기능은 다음과 같습니다.
 
 1. [Refactoring](../ide/refactoring-in-visual-studio.md) 에는 변수의 지능형 이름 바꾸기, 선택한 코드 줄을 별도 함수로 이동, 코드를 다른 위치로 이동, 함수 매개 변수 다시 정렬 등의 작업이 포함됩니다.
 

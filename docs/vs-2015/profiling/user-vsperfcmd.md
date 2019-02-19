@@ -10,10 +10,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 311d02ad3e15f184f8b7e21b5794d73c41a8d4fb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54787826"
 ---
 # <a name="user-vsperfcmd"></a>사용자(VSPerfCmd)
@@ -42,7 +42,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName /User:[Domain\]UserName [Options]
  **Start:** `Method`  
  지정된 프로파일링 방법으로 프로파일러를 초기화합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 **User** 옵션을 사용하는 방법을 보여 줍니다.  
   
 ```  

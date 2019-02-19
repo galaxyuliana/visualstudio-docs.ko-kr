@@ -20,10 +20,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 70430172c734a37259f7dc80fdfa440d9d0ee471
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54766293"
 ---
 # <a name="onerror-element-msbuild"></a>OnError 요소(MSBuild)
@@ -67,7 +67,7 @@ ms.locfileid: "54766293"
   
  `ContinueOnError` 특성에 대한 자세한 내용은 [Task 요소(MSBuild)](../msbuild/task-element-msbuild.md)를 참조하세요. 대상에 대한 자세한 내용은 [대상](../msbuild/msbuild-targets.md)을 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드는 `TaskOne` 및 `TaskTwo` 태스크를 실행합니다. `TaskOne`에 실패하는 경우 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 `OnError` 요소를 평가하고 `OtherTarget` 대상을 실행합니다.  
   
 ```  

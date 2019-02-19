@@ -15,10 +15,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 43b95fd47c2d5b859478814dd330c175e82bac89
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54758667"
 ---
 # <a name="how-to-extend-the-visual-studio-build-process"></a>방법: Visual Studio 빌드 프로세스 확장
@@ -59,7 +59,7 @@ ms.locfileid: "54758667"
 |대상 이름|설명|
 |-----------------|-----------------|
 |`BeforeCompile`, `AfterCompile`|이러한 대상 중 하나에 삽입된 작업은 핵심 컴파일이 완료되기 전이나 후에 실행됩니다. 대부분의 사용자 지정은 이러한 두 개의 대상 중 하나에서 수행됩니다.|
-|`BeforeBuild`, `AfterBuild`|이러한 대상 중 하나에 삽입된 작업은 빌드의 모든 작업 전이나 후에 실행됩니다. **참고:**  합니다 `BeforeBuild` 및 `AfterBuild` 대상 대부분의 프로젝트 파일의 끝 주석에서 이미 정의 되어 있습니다. 이를 통해 빌드 전 및 후 이벤트를 프로젝트 파일에 쉽게 추가할 수 있습니다.|
+|`BeforeBuild`, `AfterBuild`|이러한 대상 중 하나에 삽입된 작업은 빌드의 모든 작업 전이나 후에 실행됩니다. **참고:** `BeforeBuild` 및 `AfterBuild` 대상은 대부분의 프로젝트 파일 끝의 주석에서 이미 정의되어 있습니다. 이를 통해 빌드 전 및 후 이벤트를 프로젝트 파일에 쉽게 추가할 수 있습니다.|
 |`BeforeRebuild`, `AfterRebuild`|이러한 대상 중 하나에 삽입된 작업은 핵심 다시 빌드 기능이 호출되기 전 또는 후에 실행됩니다. Microsoft.Common.targets에서 대상 실행 순서는 `BeforeRebuild`, `Clean`, `Build` 및 `AfterRebuild`입니다.|
 |`BeforeClean`, `AfterClean`|이러한 대상 중 하나에 삽입된 작업은 핵심 정리 기능이 호출되기 전 또는 후에 실행됩니다.|
 |`BeforePublish`, `AfterPublish`|이러한 대상 중 하나에 삽입된 작업은 핵심 게시 기능이 호출되기 전 또는 후에 실행됩니다.|

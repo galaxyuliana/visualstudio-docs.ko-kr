@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: fee905da1fbb973a9cb1a6c954b7d450511b4be1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54768882"
 ---
 # <a name="visual-studio-multi-targeting-overview"></a>Visual Studio 다중 대상 지정 개요
@@ -60,7 +60,7 @@ ms.locfileid: "54768882"
 >  프레임워크 대상 지정을 수행해도 애플리케이션이 제대로 실행되지 않을 수 있습니다. 애플리케이션을 테스트하여 대상 버전에 대해 실행되는지 확인해야 합니다. .NET Framework 2.0 이전의 프레임워크 버전은 대상으로 지정할 수 없습니다.
 
 ## <a name="selecting-a-target-framework-version"></a>대상 프레임워크 버전 선택
- 프로젝트를 만들 때 **새 프로젝트** 대화 상자에서 대상 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 선택합니다. 사용 가능한 프로젝트 템플릿 목록은 선택에 따라 필터링됩니다. 기존 프로젝트의 경우 [프로젝트 속성] 대화 상자에서 대상 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 변경할 수 있습니다. 자세한 내용은 [방법: 한 버전의 .NET Framework를 대상으로 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+ 프로젝트를 만들 때 **새 프로젝트** 대화 상자에서 대상 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 선택합니다. 사용 가능한 프로젝트 템플릿 목록은 선택에 따라 필터링됩니다. 기존 프로젝트의 경우 [프로젝트 속성] 대화 상자에서 대상 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 변경할 수 있습니다. 자세한 내용은 [방법: 한 버전의 .NET Framework를 대상으로 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)을 참조하세요.
 
 > [!NOTE]
 >  Visual Studio의 Express 버전에서는 **새 프로젝트** 대화 상자에서 대상 프레임워크를 설정할 수 없습니다.

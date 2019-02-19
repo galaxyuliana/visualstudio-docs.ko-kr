@@ -16,10 +16,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 027612d7ce4ee2ec933897b05f33f03e8a6df992
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54788816"
 ---
 # <a name="rebuild-devenvexe"></a>/Rebuild (devenv.exe)
@@ -55,7 +55,7 @@ devenv SolutionName /rebuild SolnConfigName [/project ProjName] [/projectconfig 
   
 -   오류를 포함한 정리 및 빌드에 대한 요약 정보는 **명령** 창 또는 `/out` 스위치로 지정된 로그 파일에 표시할 수 있습니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 `MySolution`의 `Debug` 솔루션 구성 내에 있는 `Debug` 프로젝트 빌드 구성을 사용하여 `CSharpWinApp` 프로젝트를 정리하고 다시 빌드합니다.  
   
 ```  

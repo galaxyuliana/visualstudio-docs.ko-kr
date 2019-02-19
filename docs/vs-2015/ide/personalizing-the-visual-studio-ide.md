@@ -10,10 +10,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: dbdeb2188580c9be67cbca992a8513c509d5514e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54778447"
 ---
 # <a name="personalizing-the-visual-studio-ide"></a>Visual Studio IDE 개인 설정
@@ -36,7 +36,7 @@ ms.locfileid: "54778447"
  사용자와 사용자의 팀을 위한 사용자 지정 시작 페이지를 만들려면 [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)을 참조하세요.
 
 ### <a name="environment-color-themes"></a>환경 색 테마
- 밝게, 어둡게 및 파란색 중에서 색 테마를 변경하려면 **빠른 실행**에서 environment를 입력하고 **환경 &#124; 일반**을 선택합니다. 편집기에서 색 지정 옵션을 변경하려면 **빠른 실행**에서 `environment`를 입력하고 **환경 &#124; 글꼴 및 색**을 선택합니다. [방법: 글꼴 및 색 변경](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)도 참조하세요.
+ 밝게, 어둡게 및 파란색 중에서 색 테마를 변경하려면 **빠른 실행**에서 environment를 입력하고 **환경 &#124; 일반**을 선택합니다. 편집기에서 색 지정 옵션을 변경하려면 **빠른 실행**에서 `environment`를 입력하고 **환경 &#124; 글꼴 및 색**을 선택합니다. [방법: 글꼴 및 색 변경](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)을 참조하세요.
 
 ### <a name="menus-and-toolbars"></a>메뉴 및 도구 모음
  메뉴 또는 도구 모음 항목을 추가하거나 제거하려면 [방법: 메뉴 및 도구 모음 사용자 지정](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)을 참조하세요.

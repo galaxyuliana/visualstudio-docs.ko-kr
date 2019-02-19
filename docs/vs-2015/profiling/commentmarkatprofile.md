@@ -13,10 +13,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 20211a2526062a67a3e23896512f072edc6ae44d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54791428"
 ---
 # <a name="commentmarkatprofile"></a>CommentMarkAtProfile
@@ -76,7 +76,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
 |**라이브러리**|VSPerf.lib 사용|  
 |**유니코드**|CommentMarkAtProfileW(유니코드) 및 CommentMarkAtProfileA(ANSI)로 구현됩니다.|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드는 CommentMarkAtProfile 일반 함수 호출의 사용을 보여 줍니다. 예제에서는 코드에서 ANSI 사용 함수를 호출할지 여부를 결정하도록 Win32 문자열 매크로 및 ANSI에 대한 컴파일러 설정의 사용을 가정합니다.  
   
 ```  

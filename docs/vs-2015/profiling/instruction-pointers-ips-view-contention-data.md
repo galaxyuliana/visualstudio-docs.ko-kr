@@ -12,10 +12,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b27b185e659fc3a1f0adca4379896543a1eb87ea
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54834589"
 ---
 # <a name="instruction-pointers-ips-view---contention-data"></a>IP(명령 포인터) 뷰 - 경합 데이터
@@ -46,7 +46,7 @@ ms.locfileid: "54834589"
 |**소스 줄 끝**|이 명령이 끝나는 소스 파일의 줄 번호입니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 보고서 보기 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
+ [방법: 보고서 뷰 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
  [IP(명령 포인터) 뷰](../profiling/instruction-pointers-ips-view.md)   
  [IP(명령 포인터) 뷰 - 샘플링](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)   
  [IP(명령 포인터) 뷰](../profiling/instruction-pointers-ips-view-sampling-data.md)

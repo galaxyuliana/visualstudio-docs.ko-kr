@@ -12,17 +12,17 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 121474dcc7abcfb01ff992558f3ce0a245444e9f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54775890"
 ---
 # <a name="toolbox-components-tab"></a>도구 상자, 구성 요소 탭
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-[!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 및 [!INCLUDE[csprcs](../../includes/csprcs-md.md)] 디자이너에 추가할 수 있는 구성 요소를 표시합니다. <xref:System.Messaging.MessageQueue> 및 <xref:System.Diagnostics.EventLog>와 같이 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에 함께 제공되는 [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] 구성 요소 이외에 사용자 지정 또는 타사 구성 요소를 이 탭에 추가할 수 있습니다. 자세한 내용은 [방법: 도구 상자 탭 조작](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)합니다.  
+[!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 및 [!INCLUDE[csprcs](../../includes/csprcs-md.md)] 디자이너에 추가할 수 있는 구성 요소를 표시합니다. <xref:System.Messaging.MessageQueue> 및 <xref:System.Diagnostics.EventLog>와 같이 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에 함께 제공되는 [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] 구성 요소 이외에 사용자 지정 또는 타사 구성 요소를 이 탭에 추가할 수 있습니다. 자세한 내용은 [방법: 도구 상자 탭 조작](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)을 참조하세요.  
   
  이 탭을 표시하려면 **보기** 메뉴에서 **도구 상자**를 선택합니다. **도구 상자**에서 **구성 요소** 탭을 선택합니다.  
   
@@ -42,7 +42,7 @@ ms.locfileid: "54775890"
  로그에 이벤트 쓰기 및 로그 데이터 읽기와 같이 시스템 및 사용자 지정 이벤트 로그를 조작하는 데 사용할 수 있는 <xref:System.Diagnostics.EventLog> 구성 요소 인스턴스를 만듭니다. 자세한 내용은 [EventLog 구성 요소 소개](http://msdn.microsoft.com/a2ba4f28-4b1a-435e-99ef-51b28e21f805)를 참조하세요.  
   
  **FileSystemWatcher**  
- 액세스 권한을 가진 디렉터리 또는 파일이 변경되었는지 모니터링하는 데 사용할 수 있는 <xref:System.IO.FileSystemWatcher> 구성 요소 인스턴스를 만듭니다. 자세한 내용은 [방법: FileSystemWatcher 구성 요소 인스턴스 구성](http://msdn.microsoft.com/2e628234-4951-4135-8a86-28b924070d50)합니다.  
+ 액세스 권한을 가진 디렉터리 또는 파일이 변경되었는지 모니터링하는 데 사용할 수 있는 <xref:System.IO.FileSystemWatcher> 구성 요소 인스턴스를 만듭니다. 자세한 내용은 [방법: FileSystemWatcher 구성 요소 인스턴스 구성](http://msdn.microsoft.com/2e628234-4951-4135-8a86-28b924070d50)을 참조하세요.  
   
  **HelpProvider**  
  컨트롤에 대한 팝업 또는 온라인 도움말을 제공하는 `System.Windows.Forms.HelpProvider` 구성 요소 인스턴스를 만듭니다.  

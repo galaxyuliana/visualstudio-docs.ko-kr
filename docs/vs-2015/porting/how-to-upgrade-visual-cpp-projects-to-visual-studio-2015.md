@@ -13,13 +13,13 @@ author: mikeblome
 ms.author: mblome
 manager: jillfra
 ms.openlocfilehash: 047cb8733e1f1fa32e67b2fc7b6c53edb6174fcb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54797053"
 ---
-# <a name="how-to-upgrade-visual-c-projects-to-visual-studio-2015"></a>방법: Visual c + + 프로젝트를 Visual Studio 2015로 업그레이드
+# <a name="how-to-upgrade-visual-c-projects-to-visual-studio-2015"></a>방법: Visual C++ 프로젝트를 Visual Studio 2015로 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [Visual c + + 포팅 및 업그레이드 가이드](https://docs.microsoft.com/cpp/porting/visual-cpp-porting-and-upgrading-guide)합니다.

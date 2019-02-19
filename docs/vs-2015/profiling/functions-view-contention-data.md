@@ -12,10 +12,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1aaab824f40c0cd6ba0a240a6f3035d7ebcccd00
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54762987"
 ---
 # <a name="functions-view---contention-data"></a>함수 뷰 - 경합 데이터
@@ -45,7 +45,7 @@ ms.locfileid: "54762987"
 |**소스 파일**|이 함수의 정의가 포함된 소스 파일입니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 보고서 보기 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
+ [방법: 보고서 뷰 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
  [함수 뷰](../profiling/functions-view.md)   
  [함수 뷰 - 계측](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   
  [함수 뷰 - 샘플링](../profiling/functions-view-dotnet-memory-sampling-data.md)   

@@ -10,10 +10,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 5da78c33af599accf5ff3a2e09a9afb52982573a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54758350"
 ---
 # <a name="counter"></a>카운터
@@ -59,7 +59,7 @@ VSPerfCmd.exe /Start:Method /Counter:Name[,Reload[,FriendlyName]][/Counter:Name[
  **Attach:** `PID`  
  프로파일러를 시작하고 프로세스 ID로 지정한 프로세스에 연결합니다. 샘플링 방법을 사용하려면 프로파일러를 초기화해야 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  샘플링 방법 예제는 일반 프로파일러 카운터 NonHaltedCycles가 1000번 발생할 때마다 애플리케이션을 샘플링하는 방법을 보여 줍니다.  
   
  계측 방법 예제는 프로파일러를 초기화하여 L2InstructionFetches 카운터 이벤트를 수집하는 방법을 보여 줍니다. L2InstructionFetches 카운터 이름은 프로세서마다 고유합니다.  

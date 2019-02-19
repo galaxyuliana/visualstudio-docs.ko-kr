@@ -12,10 +12,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: abc5f1f6a15271fa3ec530658add2b6ca3027959
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54804097"
 ---
 # <a name="modules-view---net-memory-sampling-data"></a>모듈 뷰 - .NET 메모리 샘플링 데이터
@@ -44,7 +44,7 @@ ms.locfileid: "54804097"
 |**제외 바이트(%)**|모듈, 함수, 줄 또는 명령의 제외 바이트인 프로파일링 실행에서 할당된 모든 바이트의 비율입니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 보고서 보기 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
+ [방법: 보고서 뷰 열 사용자 지정](../profiling/how-to-customize-report-view-columns.md)   
  [모듈 뷰 - 계측](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
  [모듈 뷰](../profiling/modules-view-sampling-data.md)   
  [모듈 뷰](../profiling/modules-view-instrumentation-data.md)

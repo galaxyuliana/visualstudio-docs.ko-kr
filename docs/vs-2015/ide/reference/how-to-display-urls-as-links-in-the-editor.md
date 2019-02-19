@@ -1,5 +1,5 @@
 ---
-title: '방법: Url을 편집기에서 링크로 표시 | Microsoft Docs'
+title: '방법: 편집기에서 URL을 링크로 표시 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general
@@ -14,10 +14,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d5842f0f931eecd822dcaeba5eb6b3e33bd826c9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54758843"
 ---
 # <a name="how-to-display-urls-as-links-in-the-editor"></a>방법: 편집기에서 URL을 링크로 표시

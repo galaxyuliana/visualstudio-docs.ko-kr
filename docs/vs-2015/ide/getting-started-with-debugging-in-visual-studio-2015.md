@@ -11,10 +11,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 7fecc637a62e96381362d79f66eb5a3cd4d8fa1d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54764850"
 ---
 # <a name="getting-started-with-debugging-in-visual-studio-2015"></a>Visual Studio 2015에서 디버그 시작
@@ -28,7 +28,7 @@ Visual Studio 2015에서는 프로젝트 빌드 및 디버깅 도구의 강력�
  지금까지 편집기를 살펴보고 일부 코드를 만들었습니다. 이제 해당 코드의 디버그를 시작하려고 합니다. Visual Studio 2015에서는 대부분의 IDE와 마찬가지로 디버깅이 두 단계로 이루어집니다. 먼저 프로젝트 및 컴파일러 오류를 catch하고 해결하는 코드를 빌드한 다음 환경에서 해당 코드를 실행하여 런타임 및 동적 오류를 catch하고 해결합니다.
 
 ### <a name="configuring-a-build"></a>빌드 구성
- 빌드 구성에는 다음 두 가지 기본 유형이 있습니다. **디버그** 및 **릴리스**. 첫 번째 구성은 보다 풍부한 대화형 런타임 디버깅 환경을 허용하지만 배송하면 안 되는 더 느리고 큰 실행 파일을 생성합니다. 두 번째 구성은 적어도 컴파일러의 관점에서 배송하기에 적합한 더 빠르고 최적화된 실행 파일을 빌드합니다.
+ 빌드 구성에는 **디버그** 및 **릴리스**의 두 가지 기본 유형이 있습니다. 첫 번째 구성은 보다 풍부한 대화형 런타임 디버깅 환경을 허용하지만 배송하면 안 되는 더 느리고 큰 실행 파일을 생성합니다. 두 번째 구성은 적어도 컴파일러의 관점에서 배송하기에 적합한 더 빠르고 최적화된 실행 파일을 빌드합니다.
 
  기본 빌드 구성은 **디버그**입니다.
 

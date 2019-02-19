@@ -1,5 +1,5 @@
 ---
-title: 'Ptvs 시작: Visual Studio 2015 설정 | Microsoft Docs'
+title: 'PTVS 시작: Visual Studio 2015 설정 | Microsoft Docs'
 titleSuffix: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
@@ -11,13 +11,13 @@ author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.openlocfilehash: 56afdd8be32e4977fd6c42a6b3c442e237c4f370
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54782349"
 ---
-# <a name="getting-started-with-ptvs-setting-up-visual-studio"></a>Ptvs 시작: Visual Studio 설정
+# <a name="getting-started-with-ptvs-setting-up-visual-studio"></a>PTVS 시작: Visual Studio 설정
 
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
