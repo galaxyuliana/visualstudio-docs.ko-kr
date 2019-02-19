@@ -13,15 +13,15 @@ helpviewer_keywords:
 - DOM Explorer [UWP apps]
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 0ea34ba58ec882121b40ca7e7585fa0cb0419356
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
-ms.translationtype: MTE95
+ms.openlocfilehash: 914c9dba1d6af4b624f43bda9a43c2b8d68aaec1
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53892717"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54978037"
 ---
 # <a name="debug-html-and-css-in-uwp-apps-in-visual-studio"></a>Visual Studio에서 UWP 앱에서 HTML 및 CSS 디버그
   
@@ -148,7 +148,7 @@ ms.locfileid: "53892717"
   
     ![디버그 대상 목록 선택](../debugger/media/js_select_target.png "JS_Select_Target")  
   
-8.  **디버그** > **Start 디버그ging**을 선택하거나 F5 키를 눌러 디버그 모드에서 앱을 실행합니다.  
+8. **디버그** > **Start 디버그ging**을 선택하거나 F5 키를 눌러 디버그 모드에서 앱을 실행합니다.  
   
     앱이 실행 되지만 스타일 지정에 몇 가지 버그가 있으므로 대부분 빈 화면이 표시 됩니다. 첫 번째 `FlipView` 이미지가 화면 가운데에 작은 사각형 안에 나타납니다.  
   

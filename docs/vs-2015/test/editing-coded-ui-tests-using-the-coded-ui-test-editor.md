@@ -1,14 +1,9 @@
 ---
 title: 코딩된 UI 테스트 편집기를 사용하여 코딩된 UI 테스트 편집 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords:
 - vs.codedUItest.testeditor
 helpviewer_keywords:
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 76435c4b-593e-43a3-a9fe-709a7f9f5e0f
 caps.latest.revision: 42
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 1bf24c24a60a37fd8fc5859d216c34eaa2e9b4f8
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: e25ce519510f9b003784806bf6055b19c11ba285
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49951270"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54793765"
 ---
 # <a name="editing-coded-ui-tests-using-the-coded-ui-test-editor"></a>코딩된 UI 테스트 편집기를 사용하여 코딩된 UI 테스트 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,9 +47,9 @@ ms.locfileid: "49951270"
   
 7.  [다음 항목 앞에 지연 삽입](#CodedUITestEditor_InsertDelay) - 특정 UI 작업 앞에 일시 중지(밀리초 단위)를 추가합니다.  
   
-8.  [UI 컨트롤 찾기](#CodedUITestEditor_LocateUIControl) - 테스트 중인 응용 프로그램의 UI에서 컨트롤의 위치를 식별합니다.  
+8.  [UI 컨트롤 찾기](#CodedUITestEditor_LocateUIControl) - 테스트 중인 애플리케이션의 UI에서 컨트롤의 위치를 식별합니다.  
   
-9. [모두 찾기](#CodedUITestEditor_LocateDecendants) - 응용 프로그램의 컨트롤의 컨트롤 속성 및 중요한 변경을 확인할 수 있습니다.  
+9. [모두 찾기](#CodedUITestEditor_LocateDecendants) - 애플리케이션의 컨트롤의 컨트롤 속성 및 중요한 변경을 확인할 수 있습니다.  
   
 ## <a name="how-do-i-do-this"></a>문제 해결 방법  
  [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서는 코딩된 UI 테스트 프로젝트에 있는 코딩된 UI 테스트와 연결된 UIMap.uitest 파일을 열면 코딩된 UI 테스트가 코딩된 UI 테스트 편집기에 자동으로 표시됩니다. 다음 절차에서는 테스트가 표시된 후에 편집기 도구 모음 및 바로 가기 메뉴를 사용해 테스트 메서드, UI 작업 속성, 컨트롤 등을 찾고 편집할 수 있는 방법을 설명합니다.  
@@ -80,14 +75,14 @@ UI 작업 속성 편집
   
  UI 작업에 대한 속성을 수정하려면 **UI 작업** 창에서 속성을 편집하려는 UI 작업이 포함된 테스트 메서드를 확장하고, 해당 UI 작업을 선택한 다음, 속성 창을 사용해 속성을 수정합니다.  
   
- 예를 들어 서버를 사용할 수 없는 상황이며 웹 브라우저에 나오는 **웹 페이지 '<http://Contoso1/default.aspx’>'로 이동**과 관련된 UI 작업이 있는 경우 이 URL을 `‘http://Contoso2/default.aspx’`로 변경할 수 있습니다.  
+ 예를 들어 서버를 사용할 수 없는 상황이며 웹 브라우저에 나오는 **웹 페이지 ‘<http://Contoso1/default.aspx’>** 로 이동과 관련된 UI 작업이 있는 경우 이 URL을 `‘http://Contoso2/default.aspx’`로 변경할 수 있습니다.  
   
  ![컨트롤 속성](../test/media/codeduitestcontrolprop.png "CodedUITestControlProp")  
 컨트롤 속성 편집  
   
  컨트롤에 대한 속성을 수정하는 일은 UI 작업과 동일한 방식으로 이루어집니다. **UI 컨트롤 맵** 에서 속성 창을 사용해 속성을 편집 및 수정하려는 컨트롤을 선택합니다.  
   
- 예를 들어 개발자가 테스트 대상 응용 프로그램의 소스 코드에서 단추 컨트롤에 대한 **(ID)** 속성을 "idSubmit"에서 "idLogin"으로 변경했을 수 있습니다. 응용 프로그램에서 **(ID)** 속성이 변경되면 코딩된 UI 테스트에서 단추를 찾을 수 없고 테스트가 실패합니다. 이런 경우, 테스터는 **검색 속성** 모음을 열어 개발자가 응용 프로그램에서 사용한 새 값에 일치하도록 **Id** 속성을 변경할 수 있습니다. 테스터는 또한 **이름** 속성 값을 "제출"에서 "로그인"으로 변경할 수도 있습니다. 이렇게 변경하면 코딩된 UI 테스트 편집기의 관련된 UI 작업이 "'제출' 단추 선택"에서 "'로그인' 단추 선택"으로 업데이트됩니다.  
+ 예를 들어 개발자가 테스트 대상 애플리케이션의 소스 코드에서 단추 컨트롤에 대한 **(ID)** 속성을 "idSubmit"에서 "idLogin"으로 변경했을 수 있습니다. 애플리케이션에서 **(ID)** 속성이 변경되면 코딩된 UI 테스트에서 단추를 찾을 수 없고 테스트가 실패합니다. 이런 경우, 테스터는 **검색 속성** 모음을 열어 개발자가 애플리케이션에서 사용한 새 값에 일치하도록 **Id** 속성을 변경할 수 있습니다. 테스터는 또한 **이름** 속성 값을 "제출"에서 "로그인"으로 변경할 수도 있습니다. 이렇게 변경하면 코딩된 UI 테스트 편집기의 관련된 UI 작업이 "'제출' 단추 선택"에서 "'로그인' 단추 선택"으로 업데이트됩니다.  
   
  수정을 완료한 후에는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 도구 모음에 있는 **저장**을 선택하여 변경 내용을 UIMap.Designer 파일에 저장합니다.  
   
@@ -100,7 +95,7 @@ UI 작업 속성 편집
   
 -   ![팁](../test/media/tip.png "팁") 코딩된 UI 테스트 편집기 도구 모음에 있는 **찾기** 단추를 사용하여 Visual Studio의 찾기 및 바꾸기 도구를 열 수 있습니다. 그런 다음, 찾기 컨트롤을 사용하여 코딩된 UI 테스트 편집기에서 UI 작업을 찾을 수 있습니다. 예를 들어 "'로그인' 단추 클릭"을 찾아볼 수 있습니다. 대규모 테스트에 유용할 수 있는 기능입니다. 코딩된 UI 테스트 편집기에서는 찾기 및 바꾸기 도구의 바꾸기 기능을 사용할 수 없습니다. 자세한 내용은 [텍스트 찾기 및 바꾸기](../ide/finding-and-replacing-text.md)의 컨트롤 찾기를 참조하세요.  
   
--   ![팁](../test/media/tip.png "팁") 경우에 따라 테스트 중인 응용 프로그램의 UI에서 컨트롤이 위치한 지점을 시각화하기 어려울 수 있습니다. 코딩된 UI 테스트 편집기의 기능 중 하나를 사용하면, UI 컨트롤 맵에 나열된 컨트롤을 선택하고 테스트 중인 응용 프로그램에서 해당 컨트롤의 위치를 볼 수 있습니다. [!INCLUDE[crdefault](../includes/crdefault-md.md)][테스트 중인 응용 프로그램에서 UI 컨트롤 찾기](#CodedUITestEditor_LocateUIControl)를 이 항목 아래쪽에서 설명합니다.  
+-   ![팁](../test/media/tip.png "팁") 경우에 따라 테스트 중인 애플리케이션의 UI에서 컨트롤이 위치한 지점을 시각화하기 어려울 수 있습니다. 코딩된 UI 테스트 편집기의 기능 중 하나를 사용하면, UI 컨트롤 맵에 나열된 컨트롤을 선택하고 테스트 중인 애플리케이션에서 해당 컨트롤의 위치를 볼 수 있습니다. [!INCLUDE[crdefault](../includes/crdefault-md.md)][테스트 중인 애플리케이션에서 UI 컨트롤 찾기](#CodedUITestEditor_LocateUIControl) 를 이 항목 아래쪽에서 설명합니다.  
   
 -   ![팁](../test/media/tip.png "팁") 편집하려는 컨트롤이 포함된 컨테이너 컨트롤을 확장해야 할 수도 있습니다. [!INCLUDE[crdefault](../includes/crdefault-md.md)][컨트롤 및 해당 하위 요소 찾기](#CodedUITestEditor_LocateDecendants)를 이 항목 아래쪽에서 설명합니다.  
   
@@ -155,37 +150,37 @@ UI 작업 속성 편집
   
 - ![팁](../test/media/tip.png "팁") 이동을 실행 취소하려면 **편집** 메뉴에서 **실행 취소**를 선택하거나 Ctrl+Z를 누릅니다. 하지만 그런 다음에 반드시 수동으로 UIMap.cs 또는 UIMap.vb 파일에서 코드를 제거해야 합니다.  
   
-##  <a name="CodedUITestEditor_LocateUIControl"></a> 테스트 중인 응용 프로그램에서 UI 컨트롤 찾기  
- 경우에 따라 테스트 중인 응용 프로그램의 UI에서 컨트롤이 위치한 지점을 시각화하기 어려울 수 있습니다. 코딩된 UI 테스트 편집기의 기능 중 하나를 사용하면, UI 컨트롤 맵에 나열된 컨트롤을 선택하고 테스트 중인 응용 프로그램에서 해당 컨트롤의 위치를 볼 수 있습니다. 테스트 중인 응용 프로그램의 **UI 컨트롤 찾기** 기능을 사용해서도 컨트롤의 검색 속성 수정 사항을 확인할 수 있습니다.  
+##  <a name="CodedUITestEditor_LocateUIControl"></a> 테스트 중인 애플리케이션에서 UI 컨트롤 찾기  
+ 경우에 따라 테스트 중인 애플리케이션의 UI에서 컨트롤이 위치한 지점을 시각화하기 어려울 수 있습니다. 코딩된 UI 테스트 편집기의 기능 중 하나를 사용하면, UI 컨트롤 맵에 나열된 컨트롤을 선택하고 테스트 중인 애플리케이션에서 해당 컨트롤의 위치를 볼 수 있습니다. 테스트 중인 애플리케이션의 **UI 컨트롤 찾기** 기능을 사용해서도 컨트롤의 검색 속성 수정 사항을 확인할 수 있습니다.  
   
  ![UI 컨트롤 찾기](../test/media/codeduilocatecontrol.png "CodedUILocateControl")  
   
- ![테스트 중인 응용 프로그램에서 찾은 컨트롤](../test/media/codeduilocatecontrol2.png "CodedUILocateControl2")  
+ ![테스트 중인 애플리케이션에서 찾은 컨트롤](../test/media/codeduilocatecontrol2.png "CodedUILocateControl2")  
   
- **UI 컨트롤 맵** 창에서 테스트와 관련하여 응용 프로그램에 배치할 컨트롤을 선택합니다. 다음으로, 해당 컨트롤에 대한 바로 가기 메뉴를 연 다음 **UI 컨트롤 찾기**를 선택합니다. 테스트 중인 응용 프로그램에서 해당 컨트롤에 파란색 테두리가 지정됩니다.  
+ **UI 컨트롤 맵** 창에서 테스트와 관련하여 애플리케이션에 배치할 컨트롤을 선택합니다. 다음으로, 해당 컨트롤에 대한 바로 가기 메뉴를 연 다음 **UI 컨트롤 찾기**를 선택합니다. 테스트 중인 애플리케이션에서 해당 컨트롤에 파란색 테두리가 지정됩니다.  
   
  *그 외 무엇을 알아야 하나요?*  
  **중요한 문제**  
   
-- ![주의 아이콘](../test/media/caution.gif "주의") **경고:** UI 컨트롤을 찾기 전에 먼저, 테스트에 연결된 응용 프로그램이 실행 중인지 확인합니다.  
+- ![주의 아이콘](../test/media/caution.gif "주의") **경고:** UI 컨트롤을 찾기 전에 먼저, 테스트에 연결된 애플리케이션이 실행 중인지 확인합니다.  
   
   **팁**  
   
 - ![팁](../test/media/tip.png "팁") 또는 **모두 찾기** 옵션을 사용하여 컨테이너 아래의 모든 컨트롤을 제대로 찾을 수 있는지 확인합니다. 이 옵션에 대해서는 다음 섹션에서 설명합니다.  
   
 ##  <a name="CodedUITestEditor_LocateDecendants"></a> 컨트롤 및 해당 하위 요소 찾기  
- 테스트 중인 응용 프로그램의 UI에서 컨테이너 아래의 모든 컨트롤을 제대로 찾을 수 있는지 확인할 수 있습니다. 이 기능은 컨테이너에 대해 수행한 검색 속성 변경을 확인하는 데 유용할 수 있습니다. 또한 테스트 중인 응용 프로그램의 UI에 중요한 변경 내용이 있는 경우에는 기존 컨트롤 검색 속성이 여전히 올바른지 확인할 수 있습니다.  
+ 테스트 중인 애플리케이션의 UI에서 컨테이너 아래의 모든 컨트롤을 제대로 찾을 수 있는지 확인할 수 있습니다. 이 기능은 컨테이너에 대해 수행한 검색 속성 변경을 확인하는 데 유용할 수 있습니다. 또한 테스트 중인 애플리케이션의 UI에 중요한 변경 내용이 있는 경우에는 기존 컨트롤 검색 속성이 여전히 올바른지 확인할 수 있습니다.  
   
  ![모든 하위 컨트롤 찾기](../test/media/codeduilocateall.png "CodedUILocateAll")  
   
  ![찾은 모든 컨트롤](../test/media/codeduilocateall2.png "CodedUILocateAll2")  
   
- **UI 컨트롤 맵** 창에서 찾으려는 컨테이너 컨트롤을 선택하고 해당되는 모든 하위 항목을 봅니다. 다음으로, 컨트롤에 대한 바로 가기 메뉴를 열고 **모두 찾기**를 선택합니다. 컨테이너 컨트롤 및 모든 하위 컨트롤이 코딩된 UI 테스트 편집기에서 녹색 확인 표시나 빨간색 'X'로 표시됩니다. 이 표시를 통해 테스트 중인 응용 프로그램에서 컨트롤을 성공적으로 찾을 수 있는지 여부를 확인할 수 있습니다.  
+ **UI 컨트롤 맵** 창에서 찾으려는 컨테이너 컨트롤을 선택하고 해당되는 모든 하위 항목을 봅니다. 다음으로, 컨트롤에 대한 바로 가기 메뉴를 열고 **모두 찾기**를 선택합니다. 컨테이너 컨트롤 및 모든 하위 컨트롤이 코딩된 UI 테스트 편집기에서 녹색 확인 표시나 빨간색 'X'로 표시됩니다. 이 표시를 통해 테스트 중인 애플리케이션에서 컨트롤을 성공적으로 찾을 수 있는지 여부를 확인할 수 있습니다.  
   
  *그 외 무엇을 알아야 하나요?*  
  **중요한 문제**  
   
--   ![주의 아이콘](../test/media/caution.gif "주의") **경고:** UI 컨트롤을 찾기 전에 먼저, 테스트에 연결된 응용 프로그램이 실행 중인지 확인합니다.  
+-   ![주의 아이콘](../test/media/caution.gif "주의") **경고:** UI 컨트롤을 찾기 전에 먼저, 테스트에 연결된 애플리케이션이 실행 중인지 확인합니다.  
   
 ##  <a name="CodedUITestEditor_InsertDelay"></a> UI 작업 앞에 지연 삽입  
  창이 나타나거나 진행률 표시줄이 사라지는 등 특정 이벤트가 발생할 때까지 테스트가 대기하도록 해야 하는 경우가 있습니다. 코딩된 UI 테스트 편집기를 사용하여 UI 작업 앞에 지연을 삽입하면 됩니다. 원하는 지연 시간을 지정할 수 있습니다(초 단위).  
@@ -210,7 +205,7 @@ UI 작업 속성 편집
 ## <a name="external-resources"></a>외부 리소스  
   
 ### <a name="guidance"></a>지침  
- [Visual Studio 2012를 사용한 연속 배달 테스트 - 2장: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ### <a name="faq"></a>FAQ  
  [코딩된 UI 테스트 FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)  
@@ -226,6 +221,3 @@ UI 작업 속성 편집
  [데이터 기반의 코딩된 UI 테스트 만들기](../test/creating-a-data-driven-coded-ui-test.md)   
  [기존 작업 기록에서 코딩된 UI 테스트 생성](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)   
  [연습: 코딩된 UI 테스트 만들기, 편집 및 유지 관리](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
-
-
-

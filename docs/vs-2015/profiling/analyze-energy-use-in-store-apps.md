@@ -1,14 +1,9 @@
 ---
 title: 스토어 앱의 에너지 사용 분석 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,13 +13,13 @@ ms.assetid: 96d06843-b97e-45a8-8126-07478a40bfc4
 caps.latest.revision: 39
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 102302a1c14f379745007135593cc039aa9f8836
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b61f367384c8ff11de72f16586a98a5d54f0ee06
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51742008"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54790355"
 ---
 # <a name="analyze-energy-use-in-store-apps"></a>스토어 앱의 에너지 사용 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ Visual Studio **에너지 소비** 프로파일러를 사용하면 자체 배터
  에너지 소비 프로파일러는 세션을 프로파일링하는 중 디바이스의 디스플레이, CPU, 네트워크 연결 활동을 캡처합니다. 그런 다음 그러한 활동에 사용된 전력과 세션 프로파일링의 총 에너지량의 추정치를 생성합니다.  
   
 > [!NOTE]
->  에너지 프로파일러는 표준 참조 디바이스 하드웨어를 사용하여 응용 프로그램을 실행하는 저전력 태블릿 디바이스의 대표적 전력 및 에너지 사용을 추정합니다. 가장 정확한 추정치를 제공하려면 저전력 태블릿 디바이스에서 프로파일 데이터를 수집하는 것이 좋습니다.  
+>  에너지 프로파일러는 표준 참조 장치 하드웨어를 사용하여 애플리케이션을 실행하는 저전력 태블릿 장치의 대표적 전력 및 에너지 사용을 추정합니다. 가장 정확한 추정치를 제공하려면 저전력 태블릿 디바이스에서 프로파일 데이터를 수집하는 것이 좋습니다.  
 >   
 >  이 모델은 다양한 저전력 디바이스에 대해 상당히 정확한 추정치를 제공하지만 프로파일링하는 디바이스의 실제 값은 달라질 가능성이 높습니다. 이러한 값을 사용하여 다른 리소스 사용에 비해 많은 에너지를 사용하고 있어서 최적화해야 할 디스플레이, CPU, 네트워크 활동을 찾습니다.  
   
@@ -65,7 +60,7 @@ Visual Studio **에너지 소비** 프로파일러를 사용하면 자체 배터
  메서드가 실행되면 프로파일링 데이터에 사용자 표시와 메시지가 추가됩니다.  
   
 > [!NOTE]
-> - Windows.Foundation.Diagnostics LoggingChannel 구현 된 [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) 인터페이스 (로 프로젝션 [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) C# 및 VB에서). 운영 체제 리소스 누수를 방지 하려면 호출 [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)() (C# 및 VB에서 Windows.Foundation.Diagnostics.LoggingChannel.Dispose())는 로깅 채널이 완료 될 때입니다.  
+> - Windows.Foundation.Diagnostics LoggingChannel은 [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) 인터페이스를 구현합니다(C# 및 VB에서 [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) 로 프로젝션됨). 운영 체제 리소스 누수를 방지하려면 로깅 채널이 완료될 때 [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)(C# 및 VB에서는 Windows.Foundation.Diagnostics.LoggingChannel.Dispose)를 호출합니다.  
 >   -   열린 각 로깅 채널의 이름은 고유해야 합니다. 동일한 이름의 새 로깅 채널을 삭제되지 않은 채널로 만들려고 하면 예외가 발생합니다.  
   
  예제는 Windows SDK 샘플 [LoggingSession 샘플](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) 을 참조하세요.  
@@ -132,7 +127,7 @@ if (performance && performance.mark) {
 |![1단계](../profiling/media/procguid-1.png "ProcGuid_1")|보고서 파일의 이름은 Report*YYYYMMDD-HHMM*.diagsession입니다. 보고서를 저장할 경우 이름을 변경할 수 있습니다.|  
 |![2단계](../profiling/media/procguid-2.png "ProcGuid_2")|타임라인에는 프로파일링 세션 길이, 응용 프로그램 수명 주기 시작 이벤트 및 사용자 표시가 표시됩니다.|  
 |![3단계](../profiling/media/procguid-3.png "ProcGuid_3")|파란색 막대를 끌어 타임라인의 부분의 선택하여 보고서를 타임라인의 일부분으로 제한할 수 있습니다.|  
-|![4단계](../profiling/media/procguid-4.png "ProcGuid_4")|**전원 사용** 그래프는 프로파일링 세션 동안 장치 리소스로 발생하는 전원 출력의 변화를 나타내는 다중선형 차트입니다. 에너지 소비 프로파일러는 CPU, 네트워크 작업 및 화면 디스플레이에서 사용하는 전력을 추적합니다.|  
+|![4단계](../profiling/media/procguid-4.png "ProcGuid_4")|**전원 사용** 그래프는 프로파일링 세션 동안 디바이스 리소스로 발생하는 전원 출력의 변화를 나타내는 다중선형 차트입니다. 에너지 소비 프로파일러는 CPU, 네트워크 작업 및 화면 디스플레이에서 사용하는 전력을 추적합니다.|  
 |![5단계](../profiling/media/procguid-6.png "ProcGuid_6")|**리소스(설정/해제)**  그래프는 네트워크 에너지 소비에 대한 자세한 정보를 제공합니다. **네트워크** 표시줄은 네트워크 연결이 열려 있던 시간을 나타냅니다. **데이터 전송** 하위 막대는 앱에서 네트워크를 통해 데이터를 수신하거나 송신하는 시간을 나타냅니다.|  
 |![6단계](../profiling/media/procguid-6a.png "ProcGuid_6a")|**에너지 사용 요약** 에서는 선택한 타임라인에서 CPU, 네트워크 작업 및 화면 디스플레이 사용에 비례하는 총 에너지양을 보여 줍니다.|  
   
@@ -153,11 +148,8 @@ if (performance && performance.mark) {
   
 ##  <a name="BKMK_Other_resources"></a> 기타 리소스  
   
--   Windows 개발자 센터에 나와 있는 **C#/VB/C++ 및 XAML** 및 [JavaScript 및 HTML](http://msdn.microsoft.com/en-us/0ee0b706-8432-4d49-9801-306ed90764e1) 의 [연결 상태 및 원가 관리](http://msdn.microsoft.com/en-us/372afa6a-1c7c-4657-967d-03a77cd8e933) 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.  
+-   Windows 개발자 센터에 나와 있는 **C#/VB/C++ 및 XAML** 및 [JavaScript 및 HTML](http://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) 의 [연결 상태 및 원가 관리](http://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.  
   
-     Windows 스토어 앱에 대한 Visual Studio 시뮬레이터를 사용하여 네트워크 정보 API의 데이터 연결 속성을 시뮬레이트할 수 있습니다.  [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하십시오.  
+     Windows 스토어 앱에 대한 Visual Studio 시뮬레이터를 사용하여 네트워크 정보 API의 데이터 연결 속성을 시뮬레이트할 수 있습니다. [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하십시오.  
   
 -   **JavaScript 함수 타이밍** 및 **CPU 사용** 도구를 사용하면 비효율적 함수 때문에 발생하는 CPU 로드를 줄일 수 있습니다. [CPU 사용 분석](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md)을 참조하세요.
-
-
-

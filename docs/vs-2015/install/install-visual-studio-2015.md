@@ -3,10 +3,7 @@ title: Visual Studio 2015 설치 | Microsoft Docs
 titleSuffix: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
 ms.technology: vs-ide-install
-ms.tgt_pltfrm: ''
 ms.topic: conceptual
 f1_keywords:
 - vs.about
@@ -21,13 +18,13 @@ ms.assetid: da049020-cfda-40d7-8ff4-7492772b620f
 caps.latest.revision: 183
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
-ms.openlocfilehash: 55dad8adf4b3ce6e79214471c93052318f7228f3
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+manager: jillfra
+ms.openlocfilehash: ecb6e2ef6927638aa06bbb04a09f64f8ca4c4a46
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53828058"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799179"
 ---
 # <a name="install-visual-studio-2015"></a>Visual Studio 2015 설치
 
@@ -42,11 +39,11 @@ ms.locfileid: "53828058"
 |||
 |------------------|----------------|
 |![Visual Studio 다운로드](../install/media/downloads.png "다운로드") |**다운로드** Visual Studio 2015를 설치 하려면에서 제품 실행 파일을 다운로드할 수 있습니다 합니다 [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) (구독 필수), 페이지 또는 boxed 제품의 설치 미디어를 사용 합니다. [현재 또는 이전 버전의 Visual Studio를 다운로드 하는 방법에 자세히 알아보려면](https://www.visualstudio.com/vs/older-downloads/)합니다.|
-|![기능에 자세히 알아보려면](../install/media/features.png "기능") |기능 Visual Studio 2015의 기능에 대 한 자세한 내용은 릴리스 정보 참조 [RTM](https://www.visualstudio.com/news/vs2015-vs)를 [업데이트 1](https://www.visualstudio.com/news/vs2015-update1-vs)를 [업데이트 2](https://www.visualstudio.com/news/vs2015-update2-vs), 및 [업데이트 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs)합니다.|
-|![각 SKU에 포함 된 내용 알아보십시오](../install/media/sku.png "Sku") |**SKU**: Visual Studio 2015의 각 버전에서 사용할 수 있는 항목을 확인하려면 [Visual Studio 제품 비교](http://go.microsoft.com/fwlink/?LinkID=242142) 페이지를 참조하세요.|
-|![시스템 요구 사항을 보려면](../install/media/system-requirements.png "시스템 요구 사항") |**시스템 요구 사항**: Visual Studio 2015의 각 버전에 대한 시스템 요구 사항을 보려면 [Visual Studio 2015 호환성](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs) 페이지를 참조하세요.|
+|![기능에 자세히 알아보려면](../install/media/features.png "기능") |**기능**: Visual Studio 2015의 기능에 대 한 자세한 내용은 릴리스 정보를 참조 하세요. [RTM](https://www.visualstudio.com/news/vs2015-vs), [업데이트 1](https://www.visualstudio.com/news/vs2015-update1-vs)하십시오 [업데이트 2](https://www.visualstudio.com/news/vs2015-update2-vs), 및 [ 업데이트 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs)합니다.|
+|![각 SKU에 포함 된 내용 알아보십시오](../install/media/sku.png "Sku") |**SKUs**: Visual Studio 2015의 각 버전에서 사용할 수 있는 항목을 확인하려면 [Visual Studio 제품 비교](http://go.microsoft.com/fwlink/?LinkID=242142) 페이지를 참조하세요.|
+|![시스템 요구 사항을 보려면](../install/media/system-requirements.png "시스템 요구 사항") |**시스템 요구 사항**: Visual Studio 2015의 각 버전에 대 한 시스템 요구 사항을 보려면을 참조 합니다 [Visual Studio 2015 호환성](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs) 페이지.|
 |![제품 키를 찾습니다](../install/media/product-keys.png "제품 키") |**제품 키** 제품 키를 찾으려면 참조는 [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) 항목입니다.|
-|![라이선스에 대해 알아봅니다](../install/media/licensing.png "라이선스") |**라이선싱**: 개인 고객과 기업 고객 모두에 대한 라이선싱 옵션을 확인하려면 [Visual Studio 및 MSDN 라이선싱](https://www.microsoft.com/download/details.aspx?id=13350) 백서를 참조하세요.|
+|![라이선스에 대해 알아봅니다](../install/media/licensing.png "라이선스") |**라이선스**: 개인 또는 기업 고객 모두에 대 한 옵션을 라이선싱 하는 방법에 대 한 알아보려면 참조 합니다 [Visual Studio and MSDN Licensing](https://www.microsoft.com/download/details.aspx?id=13350) 백서입니다.|
 
 ##  <a name="custom"></a> 기본 설치 및 사용자 지정 설치
  Visual Studio 2015를 설치할 때 매일 사용하는 구성 요소를 포함하거나 제외할 수 있습니다. 즉, 기본 설치가 사용자 지정 설치보다 더 작고 더 빠르게 설치되는 경우가 많습니다. 이전 버전에서는 기본적으로 설치된 많은 구성 요소가 이제는 이 버전에서 명시적으로 선택해야 하는 사용자 지정 구성 요소로 간주된다는 의미이기도 합니다.
@@ -83,7 +80,7 @@ ms.locfileid: "53828058"
 |프로그램 디버그|SeDebugPrivilege|
 |감사 및 보안 로그 관리|SeSecurityPrivilege|
 
- 이 로컬 관리자 계정 요구 사항에 대한 자세한 내용은 기술 자료 문서 [설치 계정에 특정 사용자 권한이 없는 경우 SQL Server 설치가 실패함](https://support.microsoft.com/en-us/kb/2000257)을 참조하세요.
+ 이 로컬 관리자 계정 요구 사항에 대한 자세한 내용은 기술 자료 문서 [설치 계정에 특정 사용자 권한이 없는 경우 SQL Server 설치가 실패함](https://support.microsoft.com/kb/2000257)을 참조하세요.
 
 ###  <a name="BKMK_Media"></a> 설치 미디어를 사용 하 여
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 설치하려면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 설치 미디어의 루트 디렉터리에서 원하는 버전에 대한 설치 파일을 실행합니다.

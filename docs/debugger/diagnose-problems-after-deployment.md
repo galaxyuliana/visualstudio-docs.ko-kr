@@ -5,15 +5,15 @@ ms.topic: conceptual
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1836fac34088b8cc0a144da47d011de9948d8fbb
-ms.sourcegitcommit: 5a65ca6688a2ebb36564657d2d73c4b4f2d15c34
-ms.translationtype: MTE95
+ms.openlocfilehash: 172a7d27de88e7d5d6361fdc29e4cc49a0ff3d94
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54228034"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55008714"
 ---
 # <a name="diagnose-problems-after-deployment-using-intellitrace-c-visual-basic"></a>IntelliTrace를 사용 하 여 배포 후 문제 진단 (C#, Visual Basic)
 
@@ -90,7 +90,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
 6.  새 빌드를 실행합니다.
 
-    1단계로 이동합니다. 앱 릴리스](#DeployRelease)
+    로 [2 단계: 앱 릴리스](#DeployRelease)
 
 ####  <a name="TFS2012_2010"></a> Team Foundation Server 2012 또는 2010
  다음 단계에 따라 프로젝트에 대한 빌드 매니페스트(BuildInfo.config 파일)를 자동으로 만들고 프로젝트의 출력 폴더에 파일을 저장합니다. 이 파일은 출력 폴더에 "*ProjectName*.BuildInfo.config"로 표시되지만 앱 게시 후 배포 폴더에는 "BuildInfo.config"라는 이름으로 바뀝니다.
@@ -115,7 +115,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
 4.  새 빌드를 실행합니다.
 
-    1단계로 이동합니다. 앱 릴리스](#DeployRelease)
+    로 [2 단계: 앱 릴리스](#DeployRelease)
 
 ###  <a name="ManualBuild"></a> Visual Studio를 사용하여 수동 빌드용 빌드 매니페스트 만들기
  다음 단계에 따라 프로젝트에 대한 빌드 매니페스트(BuildInfo.config 파일)를 자동으로 만들고 프로젝트의 출력 폴더에 파일을 저장합니다. 이 파일은 출력 폴더에 "*ProjectName*.BuildInfo.config"로 표시되지만 앱 게시 후 배포 폴더에는 "BuildInfo.config"라는 이름으로 바뀝니다.
@@ -142,7 +142,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
 4.  새 빌드를 실행합니다.
 
-    1단계로 이동합니다. 앱 릴리스](#DeployRelease)
+    로 [2 단계: 앱 릴리스](#DeployRelease)
 
 ###  <a name="MSBuild"></a> MSBuild.exe를 사용하여 수동 빌드용 빌드 매니페스트 만들기
  빌드를 실행할 때 다음의 빌드 인수를 추가합니다.
@@ -168,7 +168,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
 1.  Visual Studio Enterprise에서 IntelliTrace 로그(.iTrace 파일)를 엽니다. 같은 컴퓨터에 Visual Studio Enterprise가 설치된 경우에는 파일을 두 번 클릭합니다.
 
-2.  프로젝트가 솔루션에 포함되어 빌드되지 않은 경우 Visual Studio가 일치하는 솔루션이나 프로젝트를 자동으로 열도록 하려면 **솔루션 열기** 를 선택합니다. [Q: IntelliTrace 로그에 배포된 애플리케이션에 대한 정보가 누락됐습니다. 그 이유는 무엇입니까? 어떻게 해야 합니까?](#InvalidConfigFile)
+2.  프로젝트가 솔루션에 포함되어 빌드되지 않은 경우 Visual Studio가 일치하는 솔루션이나 프로젝트를 자동으로 열도록 하려면 **솔루션 열기** 를 선택합니다. [Q: IntelliTrace 로그에 배포된 앱에 대한 정보가 없습니다. 그 이유는 무엇입니까? 어떻게 해야 합니까?](#InvalidConfigFile)
 
      Visual Studio는 일치하는 솔루션 또는 프로젝트를 열 때 보류 중인 변경 내용을 자동으로 보류하지 않습니다. 이 보류 집합에 대해 자세한 정보를 가져오려면 **출력** 창 또는 **팀 탐색기**를 확인합니다.
 
@@ -188,7 +188,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
      [Q: Visual Studio에 내가 선택한 작업 영역이 적합하지 않다고 표시되는 이유는 무엇인가요?](#IneligibleWorkspace)
 
-     [Q: 팀 컬렉션이나 다른 컬렉션을 선택할 때까지 계속할 수 없는 이유는 무엇입니까?](#ChooseTeamProject)
+     [Q: 팀 컬렉션이나 다른 컬렉션을 선택할 때까지 계속할 수 없는 이유는 무엇인가요?](#ChooseTeamProject)
 
 ### <a name="diagnose-a-performance-problem"></a>성능 문제 진단
 
@@ -253,7 +253,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
  TFS를 사용하는데 이 정보가 빌드 매니페스트(BuildInfo.config 파일)에 없는 경우 Visual Studio는 현재 연결된 TFS에서 일치하는 소스 및 기호를 찾습니다. Visual Studio가 올바른 TFS나 일치하는 소스를 찾을 수 없는 경우에는 다른 TFS를 선택하라는 메시지가 표시됩니다.
 
-####  <a name="InvalidConfigFile"></a> Q: IntelliTrace 로그에 배포된 애플리케이션에 대한 정보가 누락됐습니다. 그 이유는 무엇입니까? 어떻게 해야 합니까?
+####  <a name="InvalidConfigFile"></a> Q: IntelliTrace 로그에 배포된 앱에 대한 정보가 없습니다. 그 이유는 무엇입니까? 어떻게 해야 합니까?
  개발 컴퓨터에서 배포하거나 배포 시 TFS에 연결되어 있지 않은 경우에 이러한 문제가 발생할 수 있습니다.
 
 1.  프로젝트의 배포 폴더로 이동합니다.
@@ -362,7 +362,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
  ![매핑된 작업 영역 없이 소스 제어에서 열기](../debugger/media/ffr_openprojectfromsourcecontrol_notmapped.png "FFR_OpenProjectFromSourceControl_NotMapped")
 
-####  <a name="ChooseTeamProject"></a> Q: 팀 컬렉션이나 다른 컬렉션을 선택할 때까지 계속할 수 없는 이유는 무엇입니까?
+####  <a name="ChooseTeamProject"></a> Q: 팀 컬렉션이나 다른 컬렉션을 선택할 때까지 계속할 수 없는 이유는 무엇인가요?
  **A:** 이 문제는 다음과 같은 이유로 인해 발생할 수 있습니다.
 
 -   Visual Studio가 TFS에 연결되어 있지 않습니다.
@@ -382,7 +382,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 ####  <a name="WhatWorkspace"></a> Q: 작업 영역 이란?
  **A:** [작업 영역은 소스 사본을 저장](/azure/devops/repos/tfvc/create-work-workspaces?view=vsts) 하므로 작업을 체크 인하기 전에 개별적으로 개발하고 테스트할 수 있습니다. 발견된 솔루션 또는 프로젝트에 특별히 매핑된 작업 영역이 아직 없는 경우 Visual Studio는 사용 가능한 작업 영역을 선택하거나 기본 작업 영역 이름으로 사용자 컴퓨터 이름을 사용하는 새 작업 영역을 만들 것인지 묻는 메시지를 표시합니다.
 
-####  <a name="UntrustedSymbols"></a> Q: 신뢰할 수 없는 기호에 대한 메시지를 받는 이유는 무엇인가요?
+####  <a name="UntrustedSymbols"></a> Q: 신뢰할 수 없는 기호에 대해 이 메시지를 받는 이유는 무엇인가요?
  ![신뢰할 수 없는 기호 경로 사용 하 여 디버그? ](../debugger/media/ffr_ituntrustedsymbolpaths.png "FFR_ITUntrustedSymbolPaths")
 
- **A:** 이 메시지는 빌드 매니페스트 파일(\<*ProjectName*>.BuildInfo.config)의 기호 경로가 신뢰하는 기호 경로의 목록에 포함되지 않을 때 나타납니다. 디버거 옵션에서 기호 경로 목록에 경로를 추가할 수 있습니다.
+ **A:** 이 메시지는 빌드 매니페스트 파일(\<*ProjectName*>.BuildInfo.config)의 기호 경로가 신뢰하는 기호 경로의 목록에 포함되지 않았을 때 나타납니다. 디버거 옵션에서 기호 경로 목록에 경로를 추가할 수 있습니다.

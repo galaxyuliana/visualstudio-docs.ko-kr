@@ -1,32 +1,27 @@
 ---
-title: '4단계: TableLayoutPanel 컨트롤을 사용하여 폼 레이아웃 | Microsoft Docs'
-ms.custom: ''
+title: '4단계: TableLayoutPanel 컨트롤을 사용 하 여 폼 레이아웃 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4a08359c11fa45c87c787a5a3a414eb8515e7473
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 8807272ddac0be12fe8a6d80f0aa8e9425307d89
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49210101"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54763273"
 ---
 # <a name="step-4-lay-out-your-form-with-a-tablelayoutpanel-control"></a>4단계: TableLayoutPanel 컨트롤을 사용하여 폼 레이아웃
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 단계에서는 폼에 `TableLayoutPanel` 컨트롤을 추가합니다. TableLayoutPanel을 사용하여 나중에 추가하는 폼에서 컨트롤을 적절히 맞출 수 있습니다.  
   
- ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo")이 항목의 비디오 버전을 보려면 [자습서 1: Visual Basic에서 사진 뷰어 만들기 - 비디오 2](http://go.microsoft.com/fwlink/?LinkId=205211) 또는 [자습서 1: C#에서 사진 뷰어 만들기 - 비디오 2](http://go.microsoft.com/fwlink/?LinkId=205200)를 참조하세요. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.  
+ ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo")이 항목의 비디오 버전을 참조 하세요. [자습서 1: Visual Basic-비디오 2에서에서 사진 뷰어 만들기](http://go.microsoft.com/fwlink/?LinkId=205211) 또는 [자습서 1:에서 사진 뷰어 만들기 C# -비디오 2](http://go.microsoft.com/fwlink/?LinkId=205200)합니다. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.  
   
 ### <a name="to-lay-out-your-form-with-a-tablelayoutpanel-control"></a>TableLayoutPanel 컨트롤을 사용하여 폼을 레이아웃하려면  
   
@@ -62,7 +57,7 @@ TableLayoutPanel 컨트롤이 표시된 속성 창
      ![Fill이 선택된 속성 창](../ide/media/express-docktable.png "Express_DockTable")  
 Fill이 선택된 속성 창  
   
-     Visual Studio에서 *도킹*은 창이 IDE의 다른 창이나 영역에 연결되는 경우를 말합니다. 예를 들어, 속성 창 도킹 해제 – 즉, 연결 되지 않은 및 Visual Studio 내에서 자유 부동 또는 대해 도킹 될 수 있습니다 **솔루션 탐색기**합니다.  
+     Visual Studio에서 *도킹*은 창이 IDE의 다른 창이나 영역에 연결되는 경우를 말합니다. 예를 들어 속성 창은 도킹 해제, 즉 Visual Studio 내에서 연결되지 않은 상태로 자유롭게 움직이거나 **솔루션 탐색기**에 대해 도킹될 수 있습니다.  
   
 7.  TableLayoutPanel **Dock** 속성을 **Fill**로 설정합니다. 그러면 패널이 전체 폼으로 채워집니다. 폼의 크기를 다시 조정하면 TableLayoutPanel은 도킹된 상태를 유지한 채 폼의 크기에 맞게 자동으로 크기가 조정됩니다.  
   
@@ -98,6 +93,3 @@ TableLayoutPanel 열 및 행 스타일
 -   다음 자습서 단계로 이동하려면 [5단계: 폼에 컨트롤 추가](../ide/step-5-add-controls-to-your-form.md)를 참조하세요.  
   
 -   이전 자습서 단계로 돌아가려면 [3단계: 폼 속성 설정](../ide/step-3-set-your-form-properties.md)을 참조하세요.
-
-
-

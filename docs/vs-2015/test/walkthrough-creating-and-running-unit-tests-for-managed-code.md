@@ -1,14 +1,9 @@
 ---
-title: '연습: 관리 코드에 대한 단위 테스트 만들기 및 실행 | Microsoft 문서'
-ms.custom: ''
+title: '연습: 관리 코드에 대 한 단위 테스트 만들기 및 실행 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
 - unit tests, creating
@@ -18,13 +13,13 @@ helpviewer_keywords:
 ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 85
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 50d8190f386a4923fd05cbfaec137791bd9f2b5a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 9c74a4f4089fa2af5c7413f8c95076c6254ffa21
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49874503"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54784662"
 ---
 # <a name="walkthrough-creating-and-running-unit-tests-for-managed-code"></a>연습: 관리 코드에 대한 단위 테스트 만들기 및 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,7 +66,7 @@ ms.locfileid: "49874503"
   
 3. **설치된 템플릿**에서 **Visual C#** 을 클릭합니다.  
   
-4. 응용 프로그램 형식 목록에서 **클래스 라이브러리**를 클릭합니다.  
+4. 애플리케이션 형식 목록에서 **클래스 라이브러리**를 클릭합니다.  
   
 5. In the **이름** 상자에 `Bank` 를 가리킨 다음 **확인**을 참조하세요.  
   
@@ -113,7 +108,7 @@ public void Debit(double amount)
 ```  
   
 ##  <a name="BKMK_Create_a_unit_test_project"></a> 단위 테스트 프로젝트 만들기  
- **필수 조건**: [Prepare the walkthrough](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#BKMK_Prepare_the_walkthrough)절차의 단계를 따릅니다.  
+ **필수 구성 요소**: 절차의 단계를 따릅니다 [연습 준비](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#BKMK_Prepare_the_walkthrough)합니다.  
   
 #### <a name="to-create-a-unit-test-project"></a>단위 테스트 프로젝트를 만들려면  
   
@@ -182,7 +177,7 @@ using BankAccountNS;
   
  테스트 중인 메서드를 분석한 결과, 세 가지 이상의 동작을 확인하기로 결정했습니다.  
   
-1. 메서드에서 throw [ArgumentOutOfRangeException] (<!-- TODO: review code entity reference <xref:assetId:///ArgumentOutOfRangeException?qualifyHint=False&amp;autoUpgrade=True>  -->) 대변 금액이 잔액 보다 큰 경우.  
+1. 이 메서드는 대변 금액이 잔액보다 큰 경우 [ArgumentOutOfRangeException](<!-- TODO: review code entity reference <xref:assetId:///ArgumentOutOfRangeException?qualifyHint=False&amp;autoUpgrade=True>  -->)을 발생시킵니다.  
   
 2. 또한 대변 금액이 0보다 작을 경우에도 `ArgumentOutOfRangeException` 을 발생시킵니다.  
   
@@ -423,6 +418,3 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 ```  
   
  이 최종 단원에서는 테스트 코드 개선 작업으로 테스트 메서드가 더욱 더 견고하고 유용해졌습니다. 하지만 더 중요한 것은 추가 분석을 통해 테스트 중인 프로젝트의 코드가 향상되었다는 점입니다.
-
-
-
