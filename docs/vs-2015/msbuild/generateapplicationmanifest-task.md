@@ -45,7 +45,7 @@ ms.locfileid: "54756586"
 |`Dependencies`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 생성된 매니페스트에 대한 종속 어셈블리 집합을 정의하는 항목 목록을 지정합니다. 각 항목은 배포 상태 및 종속성 형식을 나타내는 항목 메타데이터를 통해 추가로 설명될 수 있습니다. 자세한 내용은 아래 “항목 메타데이터” 섹션을 참조하세요.|  
 |`Description`|선택적 `String` 매개 변수입니다.<br /><br /> 애플리케이션 및 구성 요소에 대한 설명을 지정합니다.|  
 |`EntryPoint`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 생성된 매니페스트 어셈블리에 대한 진입점을 나타내는 단일 항목을 지정합니다.<br /><br /> [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션 매니페스트의 경우 이 매개 변수는 애플리케이션 실행 시 시작되는 어셈블리를 지정합니다.|  
-|`ErrorReportUrl`|선택적 <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->String 매개 변수입니다.<br /><br /> ClickOnce 설치의 오류 보고 중에 대화 상자에 표시되는 웹 페이지의 URL을 지정합니다.|  
+|`ErrorReportUrl`|선택적 [문자열](<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> ClickOnce 설치의 오류 보고 중에 대화 상자에 표시되는 웹 페이지의 URL을 지정합니다.|  
 |`FileAssociations`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> ClickOnce 배포 매니페스트와 연결된 하나 이상의 파일 형식 목록을 지정합니다.<br /><br /> .NET Framework 3.5 이상을 대상으로 할 경우에만 유효한 파일 연결입니다.|  
 |`Files`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 매니페스트에 포함할 파일입니다. 각 파일의 전체 경로를 지정합니다.|  
 |`HostInBrowser`|선택적 [Boolean](<!-- TODO: review code entity reference <xref:assetId:///Boolean?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> `true`의 경우 애플리케이션이 브라우저에서 호스트됩니다(예: WPF 웹 브라우저 애플리케이션).|  

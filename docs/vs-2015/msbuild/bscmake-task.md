@@ -32,7 +32,7 @@ ms.locfileid: "54777154"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-중요:
+중요]
 >  bscmake는 더 이상 Visual Studio IDE에서 사용되지 않습니다. Visual Studio 2008부터 찾아보기 정보는 솔루션 폴더의 .sdf 파일에 자동으로 저장됩니다.  
   
  Microsoft Browse Information Maintenance Utility 도구(bscmake.exe)를 래핑합니다.  bscmake.exe 도구는 컴파일하는 동안 만들어진 소스 브라우저 파일(.sbr)에서 찾아보기 정보 파일(.bsc)을 빌드합니다. **개체 브라우저**를 사용하여 .bsc 파일을 볼 수 있습니다. 자세한 내용은 [BSCMAKE 참조](http://msdn.microsoft.com/library/b97ad994-1355-4809-98db-6abc12c6fb13)를 참조하세요.  

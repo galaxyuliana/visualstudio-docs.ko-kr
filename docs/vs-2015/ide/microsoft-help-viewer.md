@@ -1,14 +1,9 @@
 ---
 title: Microsoft 도움말 뷰어 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 f1_keywords:
 - hv_general
 helpviewer_keywords:
@@ -24,13 +19,13 @@ ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: c8c8803394c4f6d31db187384304f8fbb1db4468
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 141bf63a3cf64cfb1e3576f76512351b496a2778
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49820098"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54755040"
 ---
 # <a name="microsoft-help-viewer"></a>Microsoft 도움말 뷰어
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ ms.locfileid: "49820098"
 Microsoft 도움말 뷰어를 사용하여 로컬 컴퓨터에서 다양한 제품 및 기술에 대한 콘텐츠를 설치하고 볼 수 있습니다.  
   
 > [!WARNING]
->  Visual Studio를 설치하면 도움말 뷰어를 얻을 수 있습니다. MSDN 다운로드 사이트 대신 도움말 뷰어에서 도움말 항목을 읽기를 시작 하려면로 이동 합니다 **도움말** Visual Studio에서 메뉴 **도움말 기본 설정 지정**를 선택한 후 **도움말 시작 뷰어**합니다. 특정 버전의 Visual Studio에 대한 오프라인 도움말 항목은 해당 버전의 최종 릴리스 후에만 사용할 수 있습니다.  
+>  Visual Studio를 설치하면 도움말 뷰어를 얻을 수 있습니다. MSDN 다운로드 사이트 대신 도움말 뷰어에서 도움말 항목을 읽기 시작하려면 Visual Studio에서 **도움말** 메뉴로 이동하고 **도움말 기본 설정 지정**을 선택한 다음, **도움말 뷰어에서 시작**을 선택합니다. 특정 버전의 Visual Studio에 대한 오프라인 도움말 항목은 해당 버전의 최종 릴리스 후에만 사용할 수 있습니다.  
   
  이 경우 다음 작업을 수행할 수 있습니다.  
   
@@ -84,6 +79,3 @@ Microsoft 도움말 뷰어를 사용하여 로컬 컴퓨터에서 다양한 제�
  [로컬 콘텐츠 설치 및 관리](../ide/install-and-manage-local-content.md)   
  [정보 찾기](../ide/locate-information.md)   
  [도움말 뷰어 문제 해결](../ide/troubleshooting-the-help-viewer.md)
-
-
-

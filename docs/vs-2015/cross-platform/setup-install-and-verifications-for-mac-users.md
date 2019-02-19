@@ -45,7 +45,7 @@ ms.locfileid: "54772037"
   
 1.  Apple ID가 없으면 [내 Apple ID](https://appleid.apple.com/) 에서 무료 Apple ID를 만듭니다. Xcode를 설치하고 서명하려면 이 작업이 필요합니다.  
   
-2.  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)에서 Xcode 다운로드 및 설치.  
+2.  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)에서 Xcode 다운로드하여 설치합니다.  
   
 3.  [Xamarin.iOS 설치 및 구성](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (영문)(xamarin.com)의 지침에 따라 Xamarin을 다운로드하여 설치합니다.  
   
@@ -111,7 +111,7 @@ ms.locfileid: "54772037"
   
 2. Android 디자이너 유효성 검사: 솔루션 탐색기의 Android 프로젝트에서**리소스 > 레이아웃 > Main.axml** 파일을 엽니다.  
   
-   -   “설치된 Android SDK가 너무 오래되었습니다.”라는 오류가 표시되면 이 메시지에서 **Android SDK 열기**를 클릭하고 사용 가능한 최신 SDK 버전을 선택합니다. SDK를 업데이트하려면 Visual Studio를 관리자로 실행하고 있어야 합니다.  
+   -   "설치된 Android SDK가 너무 오래되었습니다."라는 오류가 표시되면 이 메시지에서 **Android SDK 열기**를 클릭하고 사용 가능한 최신 SDK 버전을 선택합니다. SDK를 업데이트하려면 Visual Studio를 관리자로 실행하고 있어야 합니다.  
   
 3. Visual Studio에서 Mac에 설치된 에뮬레이터로 연결할 수 있는지 확인합니다.  이의 결과로 Visual Studio 내에서 디버깅용으로 선택할 수 있는 에뮬레이터 목록에 Xamarin Player가 표시됩니다.  이 작업을 수행하려면 [Xamarin Android Player에 Visual Studio 연결](http://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/android-player-with-visual-studio-in-vm/) (영문)(xamarin.com)의 지침을 따르세요.  
   

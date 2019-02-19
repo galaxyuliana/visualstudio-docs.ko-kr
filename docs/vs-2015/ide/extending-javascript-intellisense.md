@@ -1,14 +1,9 @@
 ---
 title: JavaScript IntelliSense 확장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - JavaScript, intellisense object
 - extending JavaScript IntelliSense
@@ -19,13 +14,13 @@ ms.assetid: 004e1ab6-bd7a-4327-9e01-89b9be96ba2f
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 239416a1638940207a8dcb78b395ed1915e8a93a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: 81aab6e0eea808c8dcb9b37d5772144a863329aa
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49867080"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54797449"
 ---
 # <a name="extending-javascript-intellisense"></a>JavaScript IntelliSense 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -98,9 +93,9 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ##  <a name="intellisenseObject"></a> intellisense 개체  
  다음 표에서 사용할 수 있는 함수는 `intellisense` 개체입니다. `intellisense` 개체를 디자인 타임에만 사용할 수 있습니다.  
   
-|기능|설명|  
+|함수|설명|  
 |--------------|-----------------|  
-|`addEventListener(type, handler);`|IntelliSense 이벤트에 대 한 이벤트 처리기를 추가합니다.<br /><br /> `type` 문자열 값이입니다. 유효한 값은 `statementcompletion`하십시오 `signaturehelp`, 및 `statementcompletionhint`합니다.<br /><br /> `handler` 다음 형식 중 하나의 이벤트 개체를 받는 이벤트 처리기 함수:<br /><br /> -   `CompletionEvent`를 사용 합니다 `statementcompletion` 이벤트입니다.<br />-   `SignatureHelpEvent`를 사용 합니다 `signaturehelp` 이벤트입니다.<br />-   `CompletionHintEvent`를 사용 합니다 `statementcompletionhint` 이벤트입니다.<br /><br /> 이 함수를 사용 하는 예제를 보려면 [코드 예제에서는](#CodeExamples)합니다.|  
+|`addEventListener(type, handler);`|IntelliSense 이벤트에 대 한 이벤트 처리기를 추가합니다.<br /><br /> `type` 문자열 값이입니다. 유효한 값은 `statementcompletion`, `signaturehelp` 및 `statementcompletionhint`입니다.<br /><br /> `handler` 다음 형식 중 하나의 이벤트 개체를 받는 이벤트 처리기 함수:<br /><br /> -   `CompletionEvent`를 사용 합니다 `statementcompletion` 이벤트입니다.<br />-   `SignatureHelpEvent`를 사용 합니다 `signaturehelp` 이벤트입니다.<br />-   `CompletionHintEvent`를 사용 합니다 `statementcompletionhint` 이벤트입니다.<br /><br /> 이 함수를 사용 하는 예제를 보려면 [코드 예제에서는](#CodeExamples)합니다.|  
 |`annotate(obj, doc);`|다른 개체에 문서 주석을 한 개체에서 복사 하 여 개체에 대 한 설명서를 지정 합니다.<br /><br /> `obj` 설명서를 복사 하는 개체를 지정 합니다.<br /><br /> `doc` 설명서를 복사할 개체를 지정 합니다.<br /><br /> 이 함수를 사용 하는 방법을 보여 주는 예제를 보려면 [IntelliSense 주석 추가](#Annotations)합니다.|  
 |`getFunctionComments(func);`|지정된 된 함수에 대 한 설명을 반환합니다.<br /><br /> `func` 주석을 반환 되는 함수를 지정 합니다.<br /><br /> 설정할 수 있습니다 합니다 `func` 매개 변수를 사용 하 여 `completionItem.value`입니다.<br /><br /> 반환 된 `functionComments` 개체에는 다음 멤버가 포함 됩니다. `above`, `inside`, 및 `paramComment`. 자세한 내용은 참조는 [functionComments 속성](#FunctionComments) 속성입니다.<br /><br /> `getFunctionComments` 등록 된 이벤트 처리기 중 하나 내 에서만 호출할 수 있습니다 `addEventListener`합니다.<br /><br /> 이 함수를 사용 하는 방법을 보여 주는 예제를 보려면 \\ \\ *Visual Studio 설치 경로*\JavaScript\References\showPlainComments.js 합니다.|  
 |`logMessage(msg);`|출력 창에 진단 메시지를 보냅니다.<br /><br /> `msg` 메시지를 포함 하는 문자열입니다.<br /><br /> 이 함수를 사용 하는 방법을 보여 주는 예제를 보려면 [출력 창에 메시지 보내기](#Logging)합니다.|  
@@ -266,9 +261,9 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ##  <a name="CodeExamples"></a> 코드 예제  
  이 섹션에는 IntelliSense 확장성 Api를 사용 하는 방법을 보여 주는 코드 예제가 포함 됩니다. 이러한 Api를 사용 하는 다른 방법 있습니다. 추가 예제를 보려면에서 다음 파일을 \\ \\ *Visual Studio 설치 경로*\JavaScript\References 폴더입니다. 이 JavaScript language service를 사용 하는 예제 작업 합니다.  
   
--   underscoreFilter.js 합니다. 이 코드는 IntelliSense에서 전용 멤버를 숨깁니다. 여기에 대 한 이벤트 처리기는 `statementcompletion` 이벤트입니다.  
+-   underscoreFilter.js. 이 코드는 IntelliSense에서 전용 멤버를 숨깁니다. 여기에 대 한 이벤트 처리기는 `statementcompletion` 이벤트입니다.  
   
--   showPlainComments.js 합니다. 이 코드는 표준 주석에 대 한 IntelliSense 지원을 제공합니다. 여기에 대 한 이벤트 처리기를 `signaturehelp` 고 `statementcompletionhint` 이벤트입니다.  
+-   showPlainComments.js. 이 코드는 표준 주석에 대 한 IntelliSense 지원을 제공합니다. 여기에 대 한 이벤트 처리기를 `signaturehelp` 고 `statementcompletionhint` 이벤트입니다.  
   
 ###  <a name="Annotations"></a> IntelliSense 주석 추가  
  다음 절차에는 라이브러리를 직접 수정 하지 않고 타사 라이브러리에 대 한 IntelliSense 설명서 지원을 제공 하는 방법을 보여 줍니다. 이 위해 사용할 수 있습니다 `intellisense.annotate` 를 확장 합니다.  
@@ -491,7 +486,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
     ```  
   
-4.  appCode.js에 다음 코드를 입력합니다. 네임 스페이스에 대 한 아이콘이 변경 되어 있는지 참조를 입력 하는 동안 "{}" 처럼 C#에서 사용 됩니다.  
+4.  appCode.js에 다음 코드를 입력합니다. 네임 스페이스에 대 한 아이콘이 변경 되어 있는지 참조를 입력 하는 동안 "{}"에 사용 되는, C#합니다.  
   
      ![문자 모양 속성의 사용을 보여 주는](../ide/media/js-intellisense-glyph-namespace.png "js_intellisense_glyph_namespace")  
   
@@ -553,6 +548,3 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ## <a name="see-also"></a>참고 항목  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   
  [식별자 문 완성](../ide/statement-completion-for-identifiers.md)
-
-
-

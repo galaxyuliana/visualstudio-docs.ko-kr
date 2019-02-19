@@ -1,5 +1,5 @@
 ---
-title: 원격 디버그는 C# 또는 VB 프로젝트 | Microsoft Docs
+title: 원격 디버그 C# 또는 VB 프로젝트 | Microsoft Docs
 ms.custom:
 - remotedebugging"=
 - seodec18
@@ -21,7 +21,7 @@ ms.workload:
 - dotnet
 ms.openlocfilehash: 2b29907488ba276f3deb18e10cf47a0205501e1e
 ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "54982886"

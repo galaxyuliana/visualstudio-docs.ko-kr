@@ -1,5 +1,5 @@
 ---
-title: 옵션, 텍스트 편집기, C/C++, 실험적 | Microsoft 문서
+title: 옵션, 텍스트 편집기, C-C++, 실험적 | Microsoft Docs
 ms.date: 11/15/2016
 ms.topic: reference
 f1_keywords:

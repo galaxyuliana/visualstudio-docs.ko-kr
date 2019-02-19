@@ -1,5 +1,5 @@
 ---
-title: 옵션, 텍스트 편집기, C/C++, 서식 | Microsoft Docs
+title: 옵션, 텍스트 편집기, C-C++, 서식 | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general

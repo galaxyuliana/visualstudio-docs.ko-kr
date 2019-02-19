@@ -1,14 +1,9 @@
 ---
 title: '방법: 편집기 모드 관리 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - word wrap
 - views, virtual space
@@ -29,13 +24,13 @@ ms.assetid: 1fb48027-d870-439f-8b72-4a0321390748
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 8d38812007e042d014cb0090f1334bee2cce0858
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: fde858615894967dea83239388925851f342c3aa
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49229218"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54781036"
 ---
 # <a name="how-to-manage-editor-modes"></a>방법: 편집기 모드 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "49229218"
 Visual Studio Code 편집기를 다양한 표시 모드로 표시할 수 있습니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="enabling-full-screen-mode"></a>전체 화면 모드 사용  
  **전체 화면** 모드를 사용하도록 설정하여 모든 도구 창을 숨기고 문서 창만 보도록 선택할 수 있습니다.  
@@ -72,8 +67,5 @@ Visual Studio Code 편집기를 다양한 표시 모드로 표시할 수 있습�
   
 ## <a name="see-also"></a>참고 항목  
  [편집기 사용자 지정](../ide/customizing-the-editor.md)   
- [방법: 정렬 및 도킹 Windows](../misc/how-to-arrange-and-dock-windows.md)   
+ [방법: 창 정렬 및 도킹](../misc/how-to-arrange-and-dock-windows.md)   
  [옵션 대화 상자, 환경, 글꼴 및 색](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)
-
-
-

@@ -155,7 +155,7 @@ ms.locfileid: "54788251"
   
 7.  Windows 탐색기에서 템플릿에 포함할 파일을 선택하고 선택 항목을 마우스 오른쪽 단추로 클릭한 다음 보내기를 클릭하고 압축(ZIP) 폴더를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
   
-8.  .zip 파일을 복사하여 사용자 항목 템플릿 위치에 붙여넣습니다. Visual Studio 2017에서 기본 디렉터리는 ..\Users\\<username\>\Documents\Visual Studio 2017\Templates\ItemTemplates\\입니다. 자세한 내용은 방법: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성을 참조하세요.  
+8.  .zip 파일을 복사하여 사용자 항목 템플릿 위치에 붙여넣습니다. Visual Studio 2015에서 기본 디렉터리는 ..\Users\\<username\>\Documents\Visual Studio 2015\Templates\ItemTemplates\\입니다. 자세한 내용은 방법: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   

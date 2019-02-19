@@ -1,25 +1,20 @@
 ---
 title: '방법: 항목 검색 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 683f1b0c-1551-4bba-91fe-3855f03fdd69
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ef0cbdff47423fe1ed580f3f51ba1e6039ee3e01
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: MT
+manager: jillfra
+ms.openlocfilehash: b784dc20f072a7cb8ab6ed80242c09e57ce1127a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49248291"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54799082"
 ---
 # <a name="how-to-search-for-topics"></a>방법: 항목 검색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,11 +34,11 @@ ms.locfileid: "49248291"
     > [!NOTE]
     >  **뷰어 옵션** 대화 상자에서 한번에 표시할 최대 검색 결과 수 등의 추가 기본 설정과 기본 로캘이 영어가 아닌 경우 영어 콘텐츠를 포함할지 지정할 수 있습니다.  
   
-3.  Enter 키를 선택 합니다.  
+3.  Enter 키를 선택합니다.  
   
      검색은 기본적으로 최대 200개의 결과를 반환하며 검색 결과 영역에 표시합니다.  
   
-     각 결과 대 한 추가적인 버전 정보는 콘텐츠에 따라 나타날 수 있습니다.  
+     각 결과에 대한 추가 버전 정보가 콘텐츠에 따라 나타날 수 있습니다.  
   
 4.  항목을 보려면 결과 목록에서 해당 제목을 선택합니다.  
   
@@ -52,6 +47,3 @@ ms.locfileid: "49248291"
  [검색 식의 논리 연산자](../ide/logical-operators-in-search-expressions.md)   
  [검색 식의 고급 검색 연산자](../ide/advanced-search-operators-in-search-expressions.md)   
  [방법: 검색 결과 사용자 지정](../ide/how-to-customize-search-results.md)
-
-
-

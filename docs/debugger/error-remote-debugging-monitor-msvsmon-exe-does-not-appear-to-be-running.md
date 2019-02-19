@@ -72,7 +72,7 @@ ms.locfileid: "54991036"
 ## <a name="more-help"></a>자세한 도움말  
  명령줄 스위치를 포함 하 여 더 많은 원격 디버거 도움말을 보려면 클릭 **도움말 > 사용량** 원격 디버거 창에서. 열려 있지 않은 경우에 다음 줄을 복사 하 여 웹 페이지를 볼 수는 **파일 탐색기** 창입니다. (대체 해야 \<Visual Studio 설치 디렉터리 > Visual Studio 설치의 위치를 사용 하 여.)  
   
- res://*\<Visual Studio installation directory>* \Common7\IDE\Remote%20Debugger\x64\msvsmon.exe/help.htm  
+ res://*\<Visual Studio 설치 디렉터리>* \Common7\IDE\Remote%20Debugger\x64\msvsmon.exe/help.htm  
   
 ## <a name="see-also"></a>참고 항목  
  [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)

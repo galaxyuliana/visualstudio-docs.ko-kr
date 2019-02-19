@@ -8,15 +8,15 @@ helpviewer_keywords:
 - debugger
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6933f3b5dd826eda586c92466bcd9a8cbe6dc527
-ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
+ms.openlocfilehash: c01317f3b8fa92cf1bc17c3745f708e0d3f26e5b
+ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54204283"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54919332"
 ---
 # <a name="what-is-debugging"></a>디버깅이란 무엇인가요?
 
@@ -54,4 +54,4 @@ A **디버그** 값 디버그 구성을 나타냅니다. 앱을 시작 하는 �
 > [완전 초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md)
 
 > [!div class="nextstepaction"]
-> [더 나은 C# 코드 작성으로 버그 수정](../debugger/write-better-code-with-visual-studio.md)
+> [디버깅 기술 및 도구](../debugger/write-better-code-with-visual-studio.md)

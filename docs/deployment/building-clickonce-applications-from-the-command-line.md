@@ -78,7 +78,7 @@ ms.locfileid: "55031285"
 ## <a name="publish-properties"></a>속성 게시  
  위 절차의 응용 프로그램을 게시할 때 다음 속성을 게시 마법사가 프로젝트 파일에 삽입 됩니다. 이러한 속성에 직접 영향을 하는 방법을 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 생성 됩니다.  
   
- In *CmdLineDemo.vbproj* / *CmdLineDemo.csproj*:  
+ *CmdLineDemo.vbproj* / *CmdLineDemo.csproj*에서:  
   
 ```xml  
 <AssemblyOriginatorKeyFile>WindowsApplication3.snk</AssemblyOriginatorKeyFile>  

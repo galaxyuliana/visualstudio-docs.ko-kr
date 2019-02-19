@@ -94,7 +94,7 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
   
 ##  <a name="mac"></a> Mac 설치(Apple ID, Xcode 및 Xamarin)  
   
-1.  Apple ID가 없으면 [https://appleid.apple.com](https://appleid.apple.com/)에서 무료 Apple ID를 만듭니다. Xcode를 설치하고 서명하려면 이 작업이 필요합니다.  
+1.  아직 없는 경우 [https://appleid.apple.com](https://appleid.apple.com/)에서 무료 Apple ID를 만듭니다. Xcode를 설치하고 서명하려면 이 작업이 필요합니다.  
   
 2.  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)에서 Xcode를 다운로드하여 설치하고 [Adding Your Account to XCode(XCode에 계정 추가)](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html#//apple_ref/doc/uid/TP40013839-CH40-SW1)(apple.com)에 설명된 대로 Apple ID를 추가합니다.  
   

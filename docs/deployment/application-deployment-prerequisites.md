@@ -48,7 +48,7 @@ ms.locfileid: "54995689"
   [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 누락 된 필수 구성 요소를 검색할 수 있습니다 하 고 부트스트래퍼를 사용 하 여 필수 구성 요소를 설치할 수 있습니다. 자세한 내용은 [방법: ClickOnce 응용 프로그램을 사용 하 여 필수 구성 요소 설치](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)합니다.  
 
 > [!NOTE]
->  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 및 *MageUI.exe*와 같은 도구를 통해 생성된 매니페스트의 값을 변경하려면 텍스트 편집기에서 애플리케이션 매니페스트를 편집한 다음, 애플리케이션 및 배포 매니페스트를 모두 다시 서명해야 합니다. 자세한 내용은 [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)을 참조하세요.  
+>  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 및 *MageUI.exe*와 같은 도구를 통해 생성된 매니페스트의 값을 변경하려면 텍스트 편집기에서 애플리케이션 매니페스트를 편집한 다음, 애플리케이션 및 배포 매니페스트를 모두 다시 서명해야 합니다. 자세한 내용은 [방법: 애플리케이션 및 배포 매니페스트에 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)을 참조하세요.  
 
  Visual Studio 및 ClickOnce를 사용하여 응용 프로그램을 배포하는 경우 기본적으로 선택되는 부트스트래퍼 패키지는 솔루션의 .NET Framework 버전에 따라 달라집니다. 그러나 대상 .NET Framework 버전을 변경하는 경우에는 **필수 구성 요소 대화 상자**에서 옵션을 수동으로 업데이트해야 합니다.  
 

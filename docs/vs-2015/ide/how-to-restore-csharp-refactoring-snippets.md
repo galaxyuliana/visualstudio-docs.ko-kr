@@ -24,7 +24,7 @@ ms.locfileid: "54782598"
 
 C# 리팩터링 작업은 다음 디렉터리에 있는 코드 조각을 사용합니다.  
   
- *Installation directory*\Microsoft Visual Studio 15.0\VC#\Snippets\\*language ID*\Refactoring  
+ *Installation directory*\Microsoft Visual Studio 14.0\VC#\Snippets\\*language ID*\Refactoring  
   
  이 Refactoring 디렉터리나 이 디렉터리의 파일이 삭제되거나 손상되면 C# 리팩터링 작업이 IDE에서 작동하지 않을 수 있습니다. 다음 절차를 통해 C# 리팩터링 코드 조각을 복원할 수 있습니다.  
   
@@ -48,7 +48,7 @@ C# 리팩터링 작업은 다음 디렉터리에 있는 코드 조각을 사용�
   
 5.  다음 디렉터리 경로에서 **Refactoring** 폴더를 찾습니다.  
   
-     *Installation directory*\Microsoft Visual Studio 15.0\VC#\Snippets\\*language ID*\Refactoring  
+     *Installation directory*\Microsoft Visual Studio 14.0\VC#\Snippets\\*language ID*\Refactoring  
   
      기본 설치에 대한 실제 경로는 다음과 비슷합니다.  
   

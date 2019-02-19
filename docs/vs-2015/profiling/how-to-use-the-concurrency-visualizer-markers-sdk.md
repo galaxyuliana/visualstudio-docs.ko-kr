@@ -96,7 +96,7 @@ ms.locfileid: "54801715"
     using Microsoft.ConcurrencyVisualizer.Instrumentation;  
     ```  
   
-3.  기본 표식 시리즈에서 세 개의 범위를 만들고 플래그, 메시지 및 경고를 하나씩 각 범위에 씁니다. static <!-- TODO: review code entity reference <xref:assetId:///EnterSpan?qualifyHint=False&amp;autoUpgrade=True>  -->EnterSpan 메서드를 호출하여 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> 개체를 만듭니다. 기본 시리즈에 쓰려면 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> 클래스의 static 쓰기 메서드를 사용합니다.  
+3.  기본 표식 시리즈에서 세 개의 범위를 만들고 플래그, 메시지 및 경고를 하나씩 각 범위에 씁니다. 정정 [EnterSpan](<!-- TODO: review code entity reference <xref:assetId:///EnterSpan?qualifyHint=False&amp;autoUpgrade=True>  -->) 메서드를 호출하여 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> 개체를 만듭니다. 기본 시리즈에 쓰려면 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> 클래스의 static 쓰기 메서드를 사용합니다.  
   
     ```vb  
   

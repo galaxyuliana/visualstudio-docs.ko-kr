@@ -73,7 +73,7 @@ ms.locfileid: "54773175"
  올바르게 해석하려면 "이스케이프"해야 하는 문자의 목록을 제공합니다. 이스케이프 시퀀스는 뒤에 오는 내용이 대체 해석임을 나타내는 일련의 문자입니다.  
   
 ## <a name="related-sections"></a>관련 단원  
- [MSBuild 개요 ](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c) [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에 대해 소개하고 프로젝트를 빌드하는 데 MSBuild를 사용하는 방법을 설명하는 링크를 제공합니다.  
+ [MSBuild 개요](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c) [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 소개하고 프로젝트를 빌드하는 데 사용하는 방법을 설명하는 항목에 대한 링크를 제공합니다.  
   
  <xref:Microsoft.Build.Conversion>  
  변환 네임스페이스 참조를 포함합니다.  
