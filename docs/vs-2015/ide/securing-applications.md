@@ -13,10 +13,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d5e7bba9dd9806952fc56ac62b2322f00aebc5ed
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54800769"
 ---
 # <a name="securing-applications"></a>애플리케이션 보안
@@ -30,7 +30,7 @@ ms.locfileid: "54800769"
  [보안 모범 사례](http://msdn.microsoft.com/library/86acaccf-cdb4-4517-bd58-553618e3ec42)  
  Visual C++에서 작업하는 경우 사용할 수 있는 보안 기능 및 방법에 대한 정보를 제공합니다.  
   
- [빌드에 없음: 보안 및 프로그래밍(C# 및 Visual Basic)](http://msdn.microsoft.com/227e2863-cf09-4c28-9611-bcd82be5e994)  
+ [빌드에 없음: 보안과 프로그래밍(C# 및 Visual Basic)](http://msdn.microsoft.com/227e2863-cf09-4c28-9611-bcd82be5e994)  
  Visual Basic 및 C# 개발자에게 중요한 세 가지 상위 보안 문제인 권한, 웹 애플리케이션 및 Visual Studio 설치에 대한 정보를 제공합니다.  
   
 ## <a name="securing-mobile-applications"></a>모바일 애플리케이션 보안  
