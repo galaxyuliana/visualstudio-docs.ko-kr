@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6e8b1f602dc791b0475b0e33aa49215aaa62860d
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 7bc7d75329e83345107cac18fa49267dc62f964d
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155307"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316706"
 ---
 # <a name="measure-application-performance-by-analyzing-cpu-usage"></a>CPU 사용량을 분석하여 애플리케이션 성능 측정
 Visual Studio 프로파일링 도구를 사용하여 애플리케이션의 성능 문제를 분석할 수 있습니다. 이 절차에서는 진단 도구의 **CPU 사용량** 탭을 사용하여 앱의 성능 데이터를 가져오는 방법을 보여 줍니다. 진단 도구는 ASP.NET을 포함한 Visual Studio의 .NET 개발 및 네이티브/C++ 개발에 사용할 수 있습니다.
@@ -64,7 +64,7 @@ Windows 7 이상에서 디버거 없이 프로파일링 도구를 사용할 수 
 
      ![진단 도구 요약 탭](../profiling/media/DiagToolsSummaryTab.png "DiagToolsSummaryTab")
 
-     이벤트에 대한 자세한 내용은 [진단 도구 창의 이벤트 탭 검색 및 필터링](https://blogs.msdn.microsoft.com/devops/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/)을 참조하세요.
+     이벤트에 대한 자세한 내용은 [진단 도구 창의 이벤트 탭 검색 및 필터링](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/)을 참조하세요.
 
 6.  첫 번째 중단점이 발생할 시나리오를 실행합니다.
 

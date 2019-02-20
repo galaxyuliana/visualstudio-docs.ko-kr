@@ -5,12 +5,13 @@ author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
-ms.openlocfilehash: 672c7547da9360ae3e278f783b160ffdaed05e03
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.custom: video
+ms.openlocfilehash: d7df01e2d2c6e4acb347b40cb82a04bee9394fe1
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51296465"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335391"
 ---
 # <a name="refactoring"></a>리팩터링
 
@@ -105,6 +106,10 @@ Mac용 Visual Studio는 Microsoft의 오픈 소스 .NET 컴파일러 플랫폼�
 상단의 원을 클릭하면 심각도가 가장 높은 문제부터 순서대로 표시된 상태에서 각 제안을 반복할 수 있습니다. 개별 결과나 줄을 마우스로 가리키면 문제가 표시되며, 이 문제는 컨텍스트 작업을 통해 수정할 수 있습니다.
 
 ![소스 분석 항목](media/refactoring-image5.png)
+
+## <a name="related-video"></a>관련 동영상
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Refactoring-Code/player]
 
 ## <a name="see-also"></a>참고 항목
 

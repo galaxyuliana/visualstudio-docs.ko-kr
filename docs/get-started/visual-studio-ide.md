@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 32bb2ea08ffc5b60948d45c31b7c7a471d7d57ea
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: d38f102dd0a61d80c383307abdc96a03b50c0d74
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155958"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316823"
 ---
 # <a name="welcome-to-the-visual-studio-ide"></a>Visual Studio IDE 시작
 
@@ -285,5 +285,5 @@ IDE를 개인 설정할 수 있는 다른 방법을 배우려면 [Visual Studio 
 
 - [Visual Studio 추가 기능](../ide/advanced-feature-overview.md)을 검색하세요.
 - [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)을 방문하세요.
-- [Visual Studio 블로그](https://blogs.msdn.microsoft.com/visualstudio/)를 참고하세요.
+- [Visual Studio 블로그](https://devblogs.microsoft.com/visualstudio/)를 참고하세요.
 - [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)에서 Visual Studio를 다운로드하세요.

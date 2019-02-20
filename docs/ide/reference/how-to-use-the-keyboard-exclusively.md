@@ -16,17 +16,17 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3fad50ea0a2d37d04edb12830ecb195990c508fb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d03ef199e0c1c4ea3684287e1621e6d9b5fc52f8
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55921421"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56315536"
 ---
 # <a name="how-to-use-the-keyboard-exclusively"></a>방법: 단독으로 키보드 사용
 
 > [!TIP]
-> 접근성에 대한 최신 업데이트에 대한 자세한 내용은 [Accessibility improvements in Visual Studio 2017 version 15.3(Visual Studio 2017 버전 15.3의 접근성 향상)](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) 블로그 게시물을 참조하세요.
+> 접근성에 대한 최신 업데이트에 대한 자세한 내용은 [Accessibility improvements in Visual Studio 2017 version 15.3(Visual Studio 2017 버전 15.3의 접근성 향상)](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) 블로그 게시물을 참조하세요.
 
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]에서는 IDE(통합 개발 환경) 내에서 쉽게 탐색 및 코딩할 수 있도록 하는 다양한 기본 바로 가기 키 조합을 제공합니다. Visual Studio에서 사용되는 바로 가기 키의 전체 목록은 [기본 바로 가기 키](../../ide/default-keyboard-shortcuts-in-visual-studio.md)를 참조하세요. 다른 Microsoft 제품에 사용 가능한 바로 가기 키에 대한 자세한 내용은 [http://www.microsoft.com/enable/products/keyboard.aspx](http://go.microsoft.com/fwlink/?LinkID=40400)을 참조하세요.
 

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 577cb338e7cbf20b23d2d75ad2dfded017b0aacb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d4a8a8ae7f3a256665697615c3c239a88f2b0d87
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955143"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56315107"
 ---
 # <a name="create-unit-test-method-stubs-with-the-create-unit-tests-command"></a>단위 테스트 만들기 명령을 사용하여 단위 테스트 메서드 스텁 만들기
 
@@ -60,11 +60,11 @@ Visual Studio에서는 모든 테스트 프레임워크를 사용하여 필요�
 
 ## <a name="when-should-i-use-this-feature"></a>이 기능은 언제 사용해야 하나요?
 
-이 기능은 단위 테스트를 만들어야 할 때마다 사용하지만, 특히 테스트 검사가 거의 없거나 문서가 없는 기존 코드를 테스트할 경우 사용합니다. 즉, 코드 사양이 제한되거나 없는 경우 사용합니다. 이 기능은 관찰된 코드 동작의 특징을 결정하는 [스마트 단위 테스트](https://blogs.msdn.microsoft.com/devops/2014/11/19/introducing-smart-unit-tests/)와 비슷한 방법을 효과적으로 구현합니다.
+이 기능은 단위 테스트를 만들어야 할 때마다 사용하지만, 특히 테스트 검사가 거의 없거나 문서가 없는 기존 코드를 테스트할 경우 사용합니다. 즉, 코드 사양이 제한되거나 없는 경우 사용합니다. 이 기능은 관찰된 코드 동작의 특징을 결정하는 [스마트 단위 테스트](https://devblogs.microsoft.com/devops/introducing-smart-unit-tests/)와 비슷한 방법을 효과적으로 구현합니다.
 
 그러나 이 기능은 개발자가 일부 코드를 먼저 작성하고 이 코드를 사용하여 유닛 테스트 분야를 부트스트랩하는 상황에도 똑같이 적용할 수 있습니다. 코딩 흐름 내에서 개발자는 특정 코드 조건에 대한 단위 테스트 메서드 스텁을 빠르게 만들어야 할 수 있습니다(적합한 테스트 클래스 및 적합한 테스트 프로젝트 사용).
 
 ## <a name="see-also"></a>참고 항목
 
-- [Creating unit test method stubs with “Create Unit Tests”](https://blogs.msdn.microsoft.com/devops/2015/03/06/creating-unit-test-method-stubs-with-create-unit-tests/)(“유닛 테스트 만들기”를 사용하여 유닛 테스트 메서드 스텁 만들기)
-- [유닛 테스트 블로그 게시물](https://blogs.msdn.microsoft.com/devops/?s=unit+testing)
+- [Creating unit test method stubs with “Create Unit Tests”](https://devblogs.microsoft.com/devops/creating-unit-test-method-stubs-with-create-unit-tests/)(“유닛 테스트 만들기”를 사용하여 유닛 테스트 메서드 스텁 만들기)
+- [유닛 테스트 블로그 게시물](https://devblogs.microsoft.com/devops/?s=unit+testing)

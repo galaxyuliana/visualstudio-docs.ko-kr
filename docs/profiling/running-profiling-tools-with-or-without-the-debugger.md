@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e96341ada2485654f5553b7b862c84dd03b8b4a4
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a6f7b61bc3dd6f11bf16808df15d9c2dad1222f6
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54979493"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316914"
 ---
 # <a name="run-profiling-tools-with-or-without-the-debugger"></a>디버거를 사용하거나 사용하지 않고 프로파일링 도구 실행
 
@@ -63,7 +63,7 @@ Visual Studio는 성능 측정 및 프로파일링 도구 중에서 선택할 �
 
 ![진단 이벤트 검색](../profiling/media/diagnosticseventsearch.png "진단 이벤트 검색")  
 
-자세한 내용은 [진단 도구 창의 이벤트 탭 검색 및 필터링](https://blogs.msdn.microsoft.com/devops/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/)을 참조하세요.  
+자세한 내용은 [진단 도구 창의 이벤트 탭 검색 및 필터링](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/)을 참조하세요.  
 
 ## <a name="collect-profiling-data-without-debugging"></a>디버깅을 사용하지 않고 프로파일링 데이터 수집  
 
@@ -118,14 +118,14 @@ Visual Studio는 성능 측정 및 프로파일링 도구 중에서 선택할 �
   
  [MSDN Magazine: IntelliTrace를 사용하여 문제를 더 빠르게 진단](https://msdn.microsoft.com/magazine/dn973014.aspx)
   
- [블로그 게시물: Visual Studio 2015의 메모리 사용량 도구로 이벤트 처리기 누수 진단](https://blogs.msdn.microsoft.com/devops/2015/04/29/diagnosing-event-handler-leaks-with-the-memory-usage-tool-in-visual-studio-2015/)
+ [블로그 게시물: Visual Studio 2015의 메모리 사용량 도구로 이벤트 처리기 누수 진단](https://devblogs.microsoft.com/devops/diagnosing-event-handler-leaks-with-the-memory-usage-tool-in-visual-studio-2015/)
   
  [비디오: Microsoft Visual Studio Ultimate 2015의 IntelliTrace를 사용하여 기록 디버그](https://channel9.msdn.com/Events/Ignite/2015/BRK3716)
   
  [비디오: Visual Studio 2015를 사용하여 성능 문제 디버그](https://channel9.msdn.com/Events/Build/2015/3-731)
   
- [PerfTips: Visual Studio에서 디버깅 중에 성능 정보 한눈에 확인](https://blogs.msdn.microsoft.com/devops/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio/)
+ [PerfTips: Visual Studio에서 디버깅 중에 성능 정보 한눈에 확인](https://devblogs.microsoft.com/devops/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio/)
   
- [Visual Studio 2015의 진단 도구 디버거 창](https://blogs.msdn.microsoft.com/devops/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015/)
+ [Visual Studio 2015의 진단 도구 디버거 창](https://devblogs.microsoft.com/devops/diagnostic-tools-debugger-window-in-visual-studio-2015/)
   
- [Visual Studio Enterprise 2015의 IntelliTrace](https://blogs.msdn.microsoft.com/devops/2015/01/16/intellitrace-in-visual-studio-ultimate-2015/)
+ [Visual Studio Enterprise 2015의 IntelliTrace](https://devblogs.microsoft.com/devops/intellitrace-in-visual-studio-ultimate-2015/)

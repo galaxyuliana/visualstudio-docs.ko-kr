@@ -8,16 +8,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e5614f182b08c41a7ec2172fe080560a4f78b439
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 4b881ee7a782d7c5f90a447c1719bb88afd1d332
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918548"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56314600"
 ---
 # <a name="help-content-manager-overrides"></a>도움말 콘텐츠 관리자 재정의
 
-Visual Studio IDE에서 도움말 뷰어와 도움말 관련 기능의 기본 동작을 변경할 수 있습니다. 일부 옵션은 [.pkgdef](https://blogs.msdn.microsoft.com/visualstudio/2009/12/18/whats-a-pkgdef-and-why/) 파일을 만들어 다양한 레지스트리 키 값을 설정하여 지정됩니다. 다른 옵션은 레지스트리에서 직접 설정됩니다.
+Visual Studio IDE에서 도움말 뷰어와 도움말 관련 기능의 기본 동작을 변경할 수 있습니다. 일부 옵션은 [.pkgdef](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/) 파일을 만들어 다양한 레지스트리 키 값을 설정하여 지정됩니다. 다른 옵션은 레지스트리에서 직접 설정됩니다.
 
 ## <a name="how-to-control-help-viewer-behavior-by-using-a-pkgdef-file"></a>.pkgdef 파일을 사용하여 도움말 뷰어 동작을 제어하는 방법
 

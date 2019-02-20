@@ -7,8 +7,9 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload: multiple
+monikerRange: vs-2017
 f1_keywords:
 - Win8ExpressDesktopBlock
 - w8trefactor
@@ -19,12 +20,12 @@ helpviewer_keywords:
 - conversion, projects
 - asset compatibility
 - projects, conversion
-ms.openlocfilehash: 52decfae74eb978aeb43aad37fabb9e03ed23978
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 85e1341d80c0f81474f748a47db19de1fde50b1b
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54768834"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335542"
 ---
 # <a name="project-migration-and-upgrade-reference-for-visual-studio-2017"></a>프로젝트 마이그레이션 및 Visual Studio 2017에 대한 업그레이드 참조
 
@@ -34,7 +35,7 @@ ms.locfileid: "54768834"
 
 이 현재 문서에서는 Visual Studio 2017에서 마이그레이션할 수 있는 프로젝트 형식에 대해서만 세부 정보를 제공합니다. 이 문서에서는 Visual Studio 2017에서 더 이상 지원되지 않는 프로젝트 유형을 제외하므로 마이크레이션할 수 없습니다. 이 문서에서는 마이그레이션 문제가 없는 지원되는 프로젝트 유형도 제외됩니다. 해당 목록은 [플랫폼 대상 지정 및 호환성](/visualstudio/productinfo/vs2017-compatibility-vs)에서 확인할 수 있습니다.
 
-> [!Important]
+> [!IMPORTANT]
 > 특정 프로젝트 형식은 Visual Studio 설치 관리자를 통해 적절한 워크로드를 설치해야 합니다. 워크로드가 설치되어 있지 않으면 Visual Studio에서 알 수 없거나 호환되지 않는 프로젝트 형식을 보고합니다. 이 경우 설치 옵션을 확인하고 다시 시도하세요. Visual Studio 2017의 프로젝트 지원에 대한 자세한 내용은 [플랫폼 대상 지정 및 호환성](/visualstudio/productinfo/vs2017-compatibility-vs) 문서를 참조하세요.
 
 ## <a name="project-types"></a>프로젝트 형식

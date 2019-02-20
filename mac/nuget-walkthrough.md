@@ -5,12 +5,13 @@ author: conceptdev
 ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
-ms.openlocfilehash: 0a98425ba12ae7aba16a2bc6ffa29e701c1b9f11
-ms.sourcegitcommit: 54c65f81a138fc1e8ff1826f7bd9dcec710618cc
+ms.custom: video
+ms.openlocfilehash: 59ee47f8971278e1be9714e8ee4e70911f612d52
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "51948624"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335092"
 ---
 # <a name="include-a-nuget-package-in-your-project"></a>프로젝트에 NuGet 패키지 포함
 
@@ -113,6 +114,10 @@ NuGet 설명서에서는 [소스 제어에 패키지를 커밋하지 않고 NuGe
 ![패키지를 자동으로 복원](media/nuget-walkthrough-AutoRestore.png)
 
 추적 대상에서 `packages` 디렉터리를 제외하는 방법에 대한 자세한 내용은 해당 소스 제어 설명서를 참조하세요.
+
+## <a name="related-video"></a>관련 동영상
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Using-NuGet/player]
 
 ## <a name="see-also"></a>참고 항목
 
