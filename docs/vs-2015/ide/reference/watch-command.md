@@ -15,10 +15,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b1a04dce73dbf2551b51f2395b3512e62daf3766
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54788192"
 ---
 # <a name="watch-command"></a>조사식 명령
@@ -40,7 +40,7 @@ Debug.Watch[index]
 ## <a name="remarks"></a>주의  
  `index`는 정수여야 합니다. 유효한 값은 1, 2, 3 또는 4입니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```  
 >Debug.Watch1  
@@ -49,7 +49,7 @@ Debug.Watch[index]
 ## <a name="see-also"></a>참고 항목  
  [자동 및 지역 창](../../debugger/autos-and-locals-windows.md)   
  [방법: 변수 창에서 값 편집](http://msdn.microsoft.com/library/36f464ab-c900-4c0b-9ab3-557b3d9cdab5)   
- [방법: 간략 한 조사식 대화 상자를 사용 합니다.](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
+ [방법: 간략한 조사식 대화 상자 사용](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Visual Studio 명령](../../ide/reference/visual-studio-commands.md)   
  [명령 창](../../ide/reference/command-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   

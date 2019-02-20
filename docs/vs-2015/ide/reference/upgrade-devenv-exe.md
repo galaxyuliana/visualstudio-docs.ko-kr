@@ -14,10 +14,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 465c90736f5470f48d47336bc916ca3cb2c09b6a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
+ms.lasthandoff: 02/19/2019
 ms.locfileid: "54779348"
 ---
 # <a name="upgrade-devenvexe"></a>/Upgrade (devenv.exe)
@@ -44,9 +44,9 @@ devenv SolutionFile | ProjectFile /upgrade
   
  소스 제어 솔루션 또는 프로젝트는 업그레이드하기 전에 체크 아웃해야 합니다.  
   
- `/upgrade` 스위치를 사용해도 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]가 시작되지 않습니다. 솔루션 또는 프로젝트의 개발 언어에 대한 업그레이드 보고서에서 업그레이드 결과를 확인할 수 없습니다. 오류 또는 사용 정보가 반환되지 않습니다. 프로젝트를 업그레이드 하는 방법은 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 참조 하세요 [방법: 실패 한 Visual Studio 프로젝트 업그레이드 문제 해결](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)합니다.  
+ `/upgrade` 스위치를 사용해도 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]가 시작되지 않습니다. 솔루션 또는 프로젝트의 개발 언어에 대한 업그레이드 보고서에서 업그레이드 결과를 확인할 수 없습니다. 오류 또는 사용 정보가 반환되지 않습니다. 프로젝트를 업그레이드 하는 방법은 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 참조 하세요 [방법: 해결 실패 한 Visual Studio 프로젝트 업그레이드](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 솔루션에 대한 기본 폴더에서 “MyProject.sln”이라는 솔루션 파일을 업그레이드합니다.  
   
 ```  
@@ -54,5 +54,5 @@ devenv "MyProject.sln" /upgrade
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 실패 한 Visual Studio 프로젝트 업그레이드 문제 해결](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)   
+ [방법: 실패한 Visual Studio 프로젝트 업그레이드 문제 해결](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)   
  [Devenv 명령줄 스위치](../../ide/reference/devenv-command-line-switches.md)
