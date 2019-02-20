@@ -12,50 +12,50 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0793253891a99a03b26d656a8462358eca09b92d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0b85d7a681d84f5549e0cb8f88d3c7a40773cc2f
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54992011"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56413204"
 ---
 # <a name="idebugclassfieldenumnestedclasses"></a>IDebugClassField::EnumNestedClasses
-이 클래스에서 중첩 된 클래스에 대 한 열거자를 만듭니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT EnumNestedClasses(   
-   IEnumDebugFields** ppEnum  
-);  
-```  
-  
-```csharp  
-int EnumNestedClasses(  
-   out IEnumDebugFields ppEnum  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ppEnum`  
- [out] 반환 된 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 중첩된 클래스의 목록을 나타내는 개체입니다. 중첩된 클래스에 없는 경우 null 값을 반환 합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 S_OK를 반환 하거나 중첩된 클래스에 없는 경우 S_FALSE를 반환 합니다. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="remarks"></a>설명  
- 열거형의 각 요소는 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) 중첩된 클래스를 설명 하는 개체입니다.  
-  
- 중첩된 클래스는 다른 클래스 내에서 정의 되는 클래스입니다. 예를 들어:  
-  
-```  
-class RootClass {  
-   class NestedClass { }  
-};  
-```  
-  
- 합니다 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 열거형이 나타내는 개체 하나 포함 됩니다는 `NestedClass` 클래스입니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)   
- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
+이 클래스에서 중첩 된 클래스에 대 한 열거자를 만듭니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT EnumNestedClasses(
+    IEnumDebugFields** ppEnum
+);
+```
+
+```csharp
+int EnumNestedClasses(
+    out IEnumDebugFields ppEnum
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`ppEnum`  
+[out] 반환 된 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 중첩된 클래스의 목록을 나타내는 개체입니다. 중첩된 클래스에 없는 경우 null 값을 반환 합니다.
+
+## <a name="return-value"></a>반환 값
+성공 하면 S_OK를 반환 하거나 중첩된 클래스에 없는 경우 S_FALSE를 반환 합니다. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="remarks"></a>설명
+열거형의 각 요소는 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) 중첩된 클래스를 설명 하는 개체입니다.
+
+중첩된 클래스는 다른 클래스 내에서 정의 되는 클래스입니다. 예를 들어:
+
+```
+class RootClass {
+   class NestedClass { }
+};
+```
+
+합니다 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 열거형이 나타내는 개체 하나 포함 됩니다는 `NestedClass` 클래스입니다.
+
+## <a name="see-also"></a>참고 항목
+[IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)  
+[IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

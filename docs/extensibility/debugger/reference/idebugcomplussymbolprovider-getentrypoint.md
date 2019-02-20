@@ -11,81 +11,81 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 343268b51d6a65129725939f1ffba04e2389d707
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 961655b82873b01596c5baaf5aaf08997d4b5abc
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54998003"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56413152"
 ---
 # <a name="idebugcomplussymbolprovidergetentrypoint"></a>IDebugComPlusSymbolProvider::GetEntryPoint
-응용 프로그램 진입점을 검색합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetEntryPoint(  
-   ULONG32         ulAppDomainID,  
-   GUID            guidModule,  
-   IDebugAddress** ppAddress  
-);  
-```  
-  
-```csharp  
-int GetEntryPoint(  
-   uint              ulAppDomainID,  
-   Guid              guidModule,  
-   out IDebugAddress ppAddress  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ulAppDomainID`  
- [in] 응용 프로그램 도메인에 대 한 식별자입니다.  
-  
- `guidModule`  
- [in] 모듈에 대 한 고유 식별자입니다.  
-  
- `ppAddress`  
- [out] 나타내는 진입점을 반환 합니다는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CDebugSymbolProvider** 노출 하는 개체를 [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) 인터페이스입니다.  
-  
-```cpp  
-HRESULT CDebugSymbolProvider::GetEntryPoint(  
-    ULONG32 ulAppDomainID,  
-    GUID guidModule,  
-    IDebugAddress **ppAddress  
-)  
-{  
-    HRESULT hr = S_OK;  
-    CComPtr<CModule> pModule;  
-    Module_ID idModule(ulAppDomainID, guidModule);  
-  
-    ASSERT(IsValidObjectPtr(this, CDebugSymbolProvider));  
-    ASSERT(IsValidWritePtr(ppAddress, IDebugAddress *));  
-  
-    METHOD_ENTRY( CDebugSymbolProvider::GetEntryPoint );  
-  
-    IfFalseGo( ppAddress, E_INVALIDARG );  
-  
-    *ppAddress = NULL;  
-  
-    IfFailGo( GetModule( idModule, &pModule) );  
-  
-    IfFailGo( pModule->GetEntryPoint( ppAddress ) );  
-  
-Error:  
-  
-    METHOD_EXIT( CDebugSymbolProvider::GetEntryPoint, hr );  
-  
-    return hr;  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+응용 프로그램 진입점을 검색합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetEntryPoint(
+    ULONG32         ulAppDomainID,
+    GUID            guidModule,
+    IDebugAddress** ppAddress
+);
+```
+
+```csharp
+int GetEntryPoint(
+    uint              ulAppDomainID,
+    Guid              guidModule,
+    out IDebugAddress ppAddress
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`ulAppDomainID`  
+[in] 응용 프로그램 도메인에 대 한 식별자입니다.
+
+`guidModule`  
+[in] 모듈에 대 한 고유 식별자입니다.
+
+`ppAddress`  
+[out] 나타내는 진입점을 반환 합니다는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="example"></a>예제
+다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CDebugSymbolProvider** 노출 하는 개체를 [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) 인터페이스입니다.
+
+```cpp
+HRESULT CDebugSymbolProvider::GetEntryPoint(
+    ULONG32 ulAppDomainID,
+    GUID guidModule,
+    IDebugAddress **ppAddress
+)
+{
+    HRESULT hr = S_OK;
+    CComPtr<CModule> pModule;
+    Module_ID idModule(ulAppDomainID, guidModule);
+
+    ASSERT(IsValidObjectPtr(this, CDebugSymbolProvider));
+    ASSERT(IsValidWritePtr(ppAddress, IDebugAddress *));
+
+    METHOD_ENTRY( CDebugSymbolProvider::GetEntryPoint );
+
+    IfFalseGo( ppAddress, E_INVALIDARG );
+
+    *ppAddress = NULL;
+
+    IfFailGo( GetModule( idModule, &pModule) );
+
+    IfFailGo( pModule->GetEntryPoint( ppAddress ) );
+
+Error:
+
+    METHOD_EXIT( CDebugSymbolProvider::GetEntryPoint, hr );
+
+    return hr;
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

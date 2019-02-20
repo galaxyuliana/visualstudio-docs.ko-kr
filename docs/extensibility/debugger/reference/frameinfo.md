@@ -12,109 +12,109 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1f9a58fba7189220b8aa60083d048ebfe015feb6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 723bab4d42f01fe7b2c6362155a959b689428dc5
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54954347"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56413191"
 ---
 # <a name="frameinfo"></a>FRAMEINFO
-스택 프레임을 설명합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-typedef struct tagFRAMEINFO {   
-   FRAMEINFO_FLAGS    m_dwValidFields;  
-   BSTR               m_bstrFuncName;  
-   BSTR               m_bstrReturnType;  
-   BSTR               m_bstrArgs;  
-   BSTR               m_bstrLanguage;  
-   BSTR               m_bstrModule;  
-   UINT64             m_addrMin;  
-   UINT64             m_addrMax;  
-   IDebugStackFrame2* m_pFrame;  
-   IDebugModule2*     m_pModule;  
-   BOOL               m_fHasDebugInfo;  
-   BOOL               m_fStaleCode;  
-   BOOL               m_fAnnotatedFrame;  
-} FRAMEINFO;  
-```  
-  
-```csharp  
-public struct FRAMEINFO {   
-   public uint              m_dwValidFields;  
-   public string            m_bstrFuncName;  
-   public string            m_bstrReturnType;  
-   public string            m_bstrArgs;  
-   public string            m_bstrLanguage;  
-   public string            m_bstrModule;  
-   public ulong             m_addrMin;  
-   public ulong             m_addrMax;  
-   public IDebugStackFrame2 m_pFrame;  
-   public IDebugModule2     m_pModule;  
-   public int               m_fHasDebugInfo;  
-   public int               m_fStaleCode;  
-   public int               m_fAnnotatedFrame;  
-} FRAMEINFO;  
-```  
-  
-## <a name="members"></a>멤버  
- m_dwValidFields  
- 플래그의 조합을 합니다 [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) 어떤 필드가 채워지는 지정 하는 열거형입니다.  
-  
- m_bstrFuncName  
- 스택 프레임과 연결 된 함수 이름입니다.  
-  
- m_bstrReturnType  
- 스택 프레임을 연관 된 형식을 반환 합니다.  
-  
- m_bstrArgs  
- 스택 프레임과 연결 된 함수에 인수입니다.  
-  
- m_bstrLanguage  
- 함수를 구현 하는 언어입니다.  
-  
- m_bstrModule  
- 스택 프레임과 연결 된 모듈 이름입니다.  
-  
- m_addrMin  
- 최소 실제 스택 주소입니다.  
-  
- m_addrMAX  
- 최대 물리적 스택 주소입니다.  
-  
- m_pFrame  
- 합니다 [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) 이 스택 프레임을 나타내는 개체입니다.  
-  
- m_pFrame  
- 합니다 [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) 이 스택 프레임을 포함 하는 모듈을 나타내는 개체입니다.  
-  
- m_fHasDebugInfo  
- 0이 아닌 (`TRUE`) 디버그 정보를 지정 된 프레임에 있는 경우.  
-  
- m_fHasDebugInfo  
- 0이 아닌 (`TRUE`) 스택 프레임은 더 이상 유효 하지는 코드와 연결 하는 경우.  
-  
- m_fHasDebugInfo  
- 0이 아닌 (`TRUE`) 스택 프레임 (SDM) 세션 디버그 관리자에서 주석을 처리 하는 경우.  
-  
-## <a name="remarks"></a>설명  
- 이 구조에 전달 되는 [GetInfo](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md) 메서드를 채울 수 있습니다. 이 구조에 포함 된 목록에도 포함 되는 [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) 차례로 호출에서 반환 되는 인터페이스를 [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) 메서드.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: msdbg.h  
-  
- 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
-  
- 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [구조체 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)   
- [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)   
- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)   
- [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)   
- [GetInfo](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md)   
- [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)   
- [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md)
+스택 프레임을 설명합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+typedef struct tagFRAMEINFO {
+    FRAMEINFO_FLAGS    m_dwValidFields;
+    BSTR               m_bstrFuncName;
+    BSTR               m_bstrReturnType;
+    BSTR               m_bstrArgs;
+    BSTR               m_bstrLanguage;
+    BSTR               m_bstrModule;
+    UINT64             m_addrMin;
+    UINT64             m_addrMax;
+    IDebugStackFrame2* m_pFrame;
+    IDebugModule2*     m_pModule;
+    BOOL               m_fHasDebugInfo;
+    BOOL               m_fStaleCode;
+    BOOL               m_fAnnotatedFrame;
+} FRAMEINFO;
+```
+
+```csharp
+public struct FRAMEINFO {
+    public uint              m_dwValidFields;
+    public string            m_bstrFuncName;
+    public string            m_bstrReturnType;
+    public string            m_bstrArgs;
+    public string            m_bstrLanguage;
+    public string            m_bstrModule;
+    public ulong             m_addrMin;
+    public ulong             m_addrMax;
+    public IDebugStackFrame2 m_pFrame;
+    public IDebugModule2     m_pModule;
+    public int               m_fHasDebugInfo;
+    public int               m_fStaleCode;
+    public int               m_fAnnotatedFrame;
+} FRAMEINFO;
+```
+
+## <a name="members"></a>멤버
+m_dwValidFields  
+플래그의 조합을 합니다 [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) 어떤 필드가 채워지는 지정 하는 열거형입니다.
+
+m_bstrFuncName  
+스택 프레임과 연결 된 함수 이름입니다.
+
+m_bstrReturnType  
+스택 프레임을 연관 된 형식을 반환 합니다.
+
+m_bstrArgs  
+스택 프레임과 연결 된 함수에 인수입니다.
+
+m_bstrLanguage  
+함수를 구현 하는 언어입니다.
+
+m_bstrModule  
+스택 프레임과 연결 된 모듈 이름입니다.
+
+m_addrMin  
+최소 실제 스택 주소입니다.
+
+m_addrMAX  
+최대 물리적 스택 주소입니다.
+
+m_pFrame  
+합니다 [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) 이 스택 프레임을 나타내는 개체입니다.
+
+m_pFrame  
+합니다 [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) 이 스택 프레임을 포함 하는 모듈을 나타내는 개체입니다.
+
+m_fHasDebugInfo  
+0이 아닌 (`TRUE`) 디버그 정보를 지정 된 프레임에 있는 경우.
+
+m_fHasDebugInfo  
+0이 아닌 (`TRUE`) 스택 프레임은 더 이상 유효 하지는 코드와 연결 하는 경우.
+
+m_fHasDebugInfo  
+0이 아닌 (`TRUE`) 스택 프레임 (SDM) 세션 디버그 관리자에서 주석을 처리 하는 경우.
+
+## <a name="remarks"></a>설명
+이 구조에 전달 되는 [GetInfo](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md) 메서드를 채울 수 있습니다. 이 구조에 포함 된 목록에도 포함 되는 [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) 차례로 호출에서 반환 되는 인터페이스를 [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) 메서드.
+
+## <a name="requirements"></a>요구 사항
+헤더: msdbg.h
+
+네임스페이스: Microsoft.VisualStudio.Debugger.Interop
+
+어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## <a name="see-also"></a>참고 항목
+[클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)  
+[FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)  
+[IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)  
+[IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)  
+[GetInfo](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md)  
+[IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)  
+[EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md)
