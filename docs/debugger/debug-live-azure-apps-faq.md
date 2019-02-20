@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a1465d7ee664b1c1d534350be19e4c067a74cb79
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0899b70ce4a917b0479a9ac6623e33ee8bcdbe22
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55024502"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335105"
 ---
 # <a name="frequently-asked-questions-for-snapshot-debugging-in-visual-studio"></a>Visual Studio에서 스냅숏 디버깅에 대 한 자주 묻는 질문
 
@@ -57,4 +57,6 @@ ms.locfileid: "55024502"
 
 [Visual Studio의 디버깅](../debugger/index.md)  
 [스냅숏 디버거를 사용 하 여 라이브 ASP.NET 앱 디버그](../debugger/debug-live-azure-applications.md)  
+[라이브 ASP.NET Azure 가상 Machines\Virtual Machines Scale Sets 스냅숏 디버거를 사용 하 여 디버그](../debugger/debug-live-azure-virtual-machines.md)  
+[스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure Kubernetes 디버깅](../debugger/debug-live-azure-kubernetes.md)  
 [스냅숏 디버깅 문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)

@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2b29907488ba276f3deb18e10cf47a0205501e1e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: 470212f3b6dc4151b793dcd62b9ff1d39fc2e55b
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54982886"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316225"
 ---
 # <a name="remote-debugging-a-c-or-visual-basic-project-in-visual-studio"></a>원격 디버깅을 C# 또는 Visual Studio에서 Visual Basic 프로젝트
 다른 컴퓨터에 배포 된 Visual Studio 응용 프로그램을 디버깅 하려면 설치 하 고 앱을 배포한 컴퓨터에서 원격 도구를 실행, Visual Studio에서 원격 컴퓨터에 연결 하도록 프로젝트를 구성 및 응용 프로그램을 실행 합니다.
@@ -98,7 +98,7 @@ ms.locfileid: "54982886"
 
      WPF 애플리케이션의 주 창이 원격 컴퓨터에서 열려 있다고 표시됩니다.
   
-14. 필요한 경우 중단점을 적중 하려면 작업을 수행 합니다. 중단점이 활성화된 것으로 표시되어야 합니다. 그렇지 않은 경우 응용 프로그램에 대 한 기호 로드 되지 않은 합니다. 다시 시도 및에서 문제를 해결 하는 방법 및 기호를 로드 하는 방법에 대 한 정보를 제공 하는 작동 하지 않으면 [기호 파일 이해 및 Visual Studio의 기호 설정](https://blogs.msdn.microsoft.com/devops/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)합니다.
+14. 필요한 경우 중단점을 적중 하려면 작업을 수행 합니다. 중단점이 활성화된 것으로 표시되어야 합니다. 그렇지 않은 경우 응용 프로그램에 대 한 기호 로드 되지 않은 합니다. 다시 시도 및에서 문제를 해결 하는 방법 및 기호를 로드 하는 방법에 대 한 정보를 제공 하는 작동 하지 않으면 [기호 파일 이해 및 Visual Studio의 기호 설정](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/)합니다.
   
 15. Visual Studio 컴퓨터에서 실행이 중단점에서 중지된 것이 표시됩니다.
   
