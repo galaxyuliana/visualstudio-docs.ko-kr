@@ -11,76 +11,76 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ecb3b42ac99fb3e5309615a4453fcb8f19310d1b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2c28bea7daa727ecf67701d8634efb803449382c
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55029286"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56413256"
 ---
 # <a name="idebugcomplussymbolprovider2functionhaslineinfo"></a>IDebugComPlusSymbolProvider2::FunctionHasLineInfo
-지정된 된 메서드에 줄 정보를 포함 하는지를 결정 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT FunctionHasLineInfo(  
-   IDebugAddress* pAddress  
-);  
-```  
-  
-```csharp  
-int FunctionHasLineInfo(  
-   IDebugAddress pAddress  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pAddress`  
- [in] 가 나타낸 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다. 이 주소는 METHOD_ADDRESS 여야 합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE`합니다.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CDebugSymbolProvider** 노출 하는 개체를 [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) 인터페이스입니다.  
-  
-```cpp  
-HRESULT CDebugSymbolProvider::FunctionHasLineInfo(  
-    IDebugAddress* pAddress  
-)  
-{  
-    HRESULT hr = S_OK;  
-    CDEBUG_ADDRESS address;  
-    CComPtr<CModule> pModule;  
-  
-    METHOD_ENTRY( CDebugSymbolProvider::LoadSymbol );  
-  
-    IfFalseGo( pAddress, E_INVALIDARG );  
-  
-    IfFailGo( pAddress->GetAddress( &address ) );  
-  
-    ASSERT(address.addr.dwKind == ADDRESS_KIND_METADATA_METHOD);  
-    IfFalseGo( address.addr.dwKind == ADDRESS_KIND_METADATA_METHOD, S_FALSE );  
-  
-    IfFailGo( GetModule( address.GetModule(), &pModule) );  
-  
-    if (!pModule->FunctionHasLineInfo( address.addr.addr.addrMethod.tokMethod,  
-                                       address.addr.addr.addrMethod.dwVersion))  
-    {  
-  
-        // S_FALSE indicates this method does not have line info  
-  
-        hr = S_FALSE;  
-    }  
-  
-Error:  
-  
-    METHOD_EXIT( CDebugSymbolProvider::LoadSymbol, hr );  
-  
-    return hr;  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
+지정된 된 메서드에 줄 정보를 포함 하는지를 결정 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT FunctionHasLineInfo(
+    IDebugAddress* pAddress
+);
+```
+
+```csharp
+int FunctionHasLineInfo(
+    IDebugAddress pAddress
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`pAddress`  
+[in] 가 나타낸 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다. 이 주소는 METHOD_ADDRESS 여야 합니다.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE`합니다.
+
+## <a name="example"></a>예제
+다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CDebugSymbolProvider** 노출 하는 개체를 [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) 인터페이스입니다.
+
+```cpp
+HRESULT CDebugSymbolProvider::FunctionHasLineInfo(
+    IDebugAddress* pAddress
+)
+{
+    HRESULT hr = S_OK;
+    CDEBUG_ADDRESS address;
+    CComPtr<CModule> pModule;
+
+    METHOD_ENTRY( CDebugSymbolProvider::LoadSymbol );
+
+    IfFalseGo( pAddress, E_INVALIDARG );
+
+    IfFailGo( pAddress->GetAddress( &address ) );
+
+    ASSERT(address.addr.dwKind == ADDRESS_KIND_METADATA_METHOD);
+    IfFalseGo( address.addr.dwKind == ADDRESS_KIND_METADATA_METHOD, S_FALSE );
+
+    IfFailGo( GetModule( address.GetModule(), &pModule) );
+
+    if (!pModule->FunctionHasLineInfo( address.addr.addr.addrMethod.tokMethod,
+                                       address.addr.addr.addrMethod.dwVersion))
+    {
+
+        // S_FALSE indicates this method does not have line info
+
+        hr = S_FALSE;
+    }
+
+Error:
+
+    METHOD_EXIT( CDebugSymbolProvider::LoadSymbol, hr );
+
+    return hr;
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

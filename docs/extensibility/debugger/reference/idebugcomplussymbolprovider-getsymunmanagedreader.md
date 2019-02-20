@@ -11,72 +11,72 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c9f0346bd3f288965c199c592cb4be07a2b080a2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: dc45a9ba956d563e40292ec9a113217c46129f5d
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55006130"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56412645"
 ---
 # <a name="idebugcomplussymbolprovidergetsymunmanagedreader"></a>IDebugComPlusSymbolProvider::GetSymUnmanagedReader
-비관리 코드에서 사용할 기호 판독기를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetSymUnmanagedReader(  
-   ULONG32    ulAppDomainID,  
-   GUID       guidModule,  
-   IUnknown** ppSymUnmanagedReader  
-);  
-```  
-  
-```csharp  
-int GetSymUnmanagedReader(  
-   uint       ulAppDomainID,  
-   Guid       guidModule,  
-   out object ppSymUnmanagedReader  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ulAppDomainID`  
- [in] 응용 프로그램 도메인의 식별자입니다.  
-  
- `guidModule`  
- [in] 모듈의 고유 식별자입니다.  
-  
- `ppSymUnmanagedReader`  
- [out] 기호 판독기를 나타내는 개체를 반환 합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CDebugSymbolProvider** 노출 하는 개체를 [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) 인터페이스입니다.  
-  
-```cpp  
-HRESULT CDebugSymbolProvider::GetSymUnmanagedReader(  
-    ULONG32 ulAppDomainID,  
-    GUID guidModule,  
-    IUnknown ** ppSymUnmanagedReader  
-)  
-{  
-    HRESULT hr = S_OK;  
-    CComPtr<CModule> pModule;  
-    Module_ID idModule(ulAppDomainID, guidModule);  
-  
-    METHOD_ENTRY( CDebugSymbolProvider::GetSymUnmanagedReader );  
-  
-    IfFailGo( GetModule( idModule, &pModule ) );  
-    IfFailGo( pModule->GetSymReader((ISymUnmanagedReader**) ppSymUnmanagedReader) );  
-  
-Error:  
-  
-    METHOD_EXIT( CDebugSymbolProvider::GetSymUnmanagedReader, hr );  
-    return hr;  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+비관리 코드에서 사용할 기호 판독기를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetSymUnmanagedReader(
+    ULONG32    ulAppDomainID,
+    GUID       guidModule,
+    IUnknown** ppSymUnmanagedReader
+);
+```
+
+```csharp
+int GetSymUnmanagedReader(
+    uint       ulAppDomainID,
+    Guid       guidModule,
+    out object ppSymUnmanagedReader
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`ulAppDomainID`  
+[in] 응용 프로그램 도메인의 식별자입니다.
+
+`guidModule`  
+[in] 모듈의 고유 식별자입니다.
+
+`ppSymUnmanagedReader`  
+[out] 기호 판독기를 나타내는 개체를 반환 합니다.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="example"></a>예제
+다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CDebugSymbolProvider** 노출 하는 개체를 [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) 인터페이스입니다.
+
+```cpp
+HRESULT CDebugSymbolProvider::GetSymUnmanagedReader(
+    ULONG32 ulAppDomainID,
+    GUID guidModule,
+    IUnknown ** ppSymUnmanagedReader
+)
+{
+    HRESULT hr = S_OK;
+    CComPtr<CModule> pModule;
+    Module_ID idModule(ulAppDomainID, guidModule);
+
+    METHOD_ENTRY( CDebugSymbolProvider::GetSymUnmanagedReader );
+
+    IfFailGo( GetModule( idModule, &pModule ) );
+    IfFailGo( pModule->GetSymReader((ISymUnmanagedReader**) ppSymUnmanagedReader) );
+
+Error:
+
+    METHOD_EXIT( CDebugSymbolProvider::GetSymUnmanagedReader, hr );
+    return hr;
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

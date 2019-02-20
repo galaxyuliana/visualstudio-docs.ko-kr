@@ -11,72 +11,72 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4a457c6604dab2d6da3fec1e0a68a69b0183b617
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 02e88780e41b9a46163c7b66b2d83e64d190c307
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54986347"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56413386"
 ---
 # <a name="idebugcomplussymbolproviderloadsymbolsfromstream"></a>IDebugComPlusSymbolProvider::LoadSymbolsFromStream
-로드는 데이터 스트림을 지정 된 기호를 디버그 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT LoadSymbolsFromStream(  
-   ULONG32   ulAppDomainID,  
-   GUID      guidModule,  
-   ULONGLONG baseAddress,  
-   IUnknown* pUnkMetadataImport,  
-   IStream*  pStream  
-);  
-```  
-  
-```csharp  
-int LoadSymbolsFromStream(  
-   uint    ulAppDomainID,  
-   Guid    guidModule,  
-   ulong   baseAddress,  
-   object  pUnkMetadataImport,  
-   IStream pStream  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ulAppDomainID`  
- [in] 응용 프로그램 도메인의 식별자입니다.  
-  
- `guidModule`  
- [in] 모듈의 고유 식별자입니다.  
-  
- `baseAddress`  
- [in] 기본 메모리 주소입니다.  
-  
- `pUnkMetadataImport`  
- [in] 기호 메타 데이터가 포함 된 개체입니다.  
-  
- `pStream`  
- [in] 기호를 포함 하는 데이터 스트림.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CDebugSymbolProvider** 노출 하는 개체를 [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) 인터페이스입니다. 메서드 호출을 [LoadSymbolsFromStreamWithCorModule](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-loadsymbolsfromstreamwithcormodule.md) 메서드.  
-  
-```cpp  
-HRESULT CDebugSymbolProvider::LoadSymbolsFromStream(  
-    ULONG32 ulAppDomainID,  
-    GUID guidModule,  
-    ULONGLONG baseOffset,  
-    IUnknown* pUnkMetadataImport,  
-    IStream* pStream  
-)  
-{  
-    return LoadSymbolsFromStreamWithCorModule (ulAppDomainID, guidModule, baseOffset, pUnkMetadataImport, NULL, pStream);  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+로드는 데이터 스트림을 지정 된 기호를 디버그 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT LoadSymbolsFromStream(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    IStream*  pStream
+);
+```
+
+```csharp
+int LoadSymbolsFromStream(
+    uint    ulAppDomainID,
+    Guid    guidModule,
+    ulong   baseAddress,
+    object  pUnkMetadataImport,
+    IStream pStream
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`ulAppDomainID`  
+[in] 응용 프로그램 도메인의 식별자입니다.
+
+`guidModule`  
+[in] 모듈의 고유 식별자입니다.
+
+`baseAddress`  
+[in] 기본 메모리 주소입니다.
+
+`pUnkMetadataImport`  
+[in] 기호 메타 데이터가 포함 된 개체입니다.
+
+`pStream`  
+[in] 기호를 포함 하는 데이터 스트림.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="example"></a>예제
+다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CDebugSymbolProvider** 노출 하는 개체를 [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) 인터페이스입니다. 메서드 호출을 [LoadSymbolsFromStreamWithCorModule](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-loadsymbolsfromstreamwithcormodule.md) 메서드.
+
+```cpp
+HRESULT CDebugSymbolProvider::LoadSymbolsFromStream(
+    ULONG32 ulAppDomainID,
+    GUID guidModule,
+    ULONGLONG baseOffset,
+    IUnknown* pUnkMetadataImport,
+    IStream* pStream
+)
+{
+    return LoadSymbolsFromStreamWithCorModule (ulAppDomainID, guidModule, baseOffset, pUnkMetadataImport, NULL, pStream);
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
