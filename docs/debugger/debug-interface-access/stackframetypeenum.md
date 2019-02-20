@@ -12,54 +12,54 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 157ee347b52a3820811693732fce183b6f54a303
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: dab674576655df3b4a695d97fdfdb42df2ffa449
+ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54917500"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56227266"
 ---
 # <a name="stackframetypeenum"></a>StackFrameTypeEnum
-스택 프레임 형식을 지정합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-enum StackFrameTypeEnum {  
-   FrameTypeFPO,  
-   FrameTypeTrap,  
-   FrameTypeTSS,  
-   FrameTypeStandard,  
-   FrameTypeFrameData,  
-   FrameTypeUnknown = -1  
-};  
-```  
-  
-## <a name="elements"></a>요소  
- `FrameTypeFPO`  
- 프레임 포인터 생략 합니다. FPO 정보를 사용할 수 있습니다.  
-  
- `FrameTypeTrap`  
- 커널 트랩 프레임입니다.  
-  
- `FrameTypeTSS`  
- 커널 트랩 프레임입니다.  
-  
- `FrameTypeStandard`  
- 표준 EBP 스택 프레임입니다.  
-  
- `FrameTypeFrameData`  
- 프레임 포인터 생략 합니다. 프레임 데이터 정보를 사용할 수 있습니다.  
-  
- `FrameTypeUnknown`  
- 모든 디버그 정보가 없는 프레임입니다.  
-  
-## <a name="remarks"></a>주의  
- 이 열거형의 값에는 호출에서 반환 되는 [idiastackframe:: Get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md) 메서드.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: cvconst.h  
-  
-## <a name="see-also"></a>참고 항목  
- [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md)
+스택 프레임 형식을 지정합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+enum StackFrameTypeEnum {
+    FrameTypeFPO,
+    FrameTypeTrap,
+    FrameTypeTSS,
+    FrameTypeStandard,
+    FrameTypeFrameData,
+    FrameTypeUnknown = -1
+};
+```
+
+## <a name="elements"></a>요소
+`FrameTypeFPO`  
+프레임 포인터 생략 합니다. FPO 정보를 사용할 수 있습니다.
+
+`FrameTypeTrap`  
+커널 트랩 프레임입니다.
+
+`FrameTypeTSS`  
+커널 트랩 프레임입니다.
+
+`FrameTypeStandard`  
+표준 EBP 스택 프레임입니다.
+
+`FrameTypeFrameData`  
+프레임 포인터 생략 합니다. 프레임 데이터 정보를 사용할 수 있습니다.
+
+`FrameTypeUnknown`  
+모든 디버그 정보가 없는 프레임입니다.
+
+## <a name="remarks"></a>주의
+이 열거형의 값에는 호출에서 반환 되는 [idiastackframe:: Get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md) 메서드.
+
+## <a name="requirements"></a>요구 사항
+헤더: cvconst.h
+
+## <a name="see-also"></a>참고 항목
+[열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)  
+[IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md)

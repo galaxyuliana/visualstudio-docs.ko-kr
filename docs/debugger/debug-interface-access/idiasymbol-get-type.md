@@ -12,51 +12,51 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bdf55138c6260404fca706017131bbe5615d77b8
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: a5550ed7551e58140301f6a434d252a534b78228
+ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55043014"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56227199"
 ---
 # <a name="idiasymbolgettype"></a>IDiaSymbol::get_type
-이 기호에 대 한 형식을 나타내는 기호를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_type (   
-   IDiaSymbol** pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 반환 된 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 이 기호의 형식을 나타내는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
+이 기호에 대 한 형식을 나타내는 기호를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_type (
+    IDiaSymbol** pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`pRetVal`  
+[out] 반환 된 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 이 기호의 형식을 나타내는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
-  
-## <a name="remarks"></a>주의  
- 기호는 형식을 확인 하려면이 메서드를 호출 하며 결과 검사할 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 개체입니다. 형식 없는 기호에 대 한 수 있다는 것을 참고 합니다. 예를 들어 구조의 이름 형식이 있지만 자식 기호를 가질 수 있습니다 (사용 된 [idiasymbol:: Findchildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md) 해당 자식 항목을 검사 하는 방법).  
-  
-## <a name="example"></a>예  
-  
-```C++  
-IDiaSymbol*         pType;  
-CComPtr<IDiaSymbol> pBaseType;  
-if (SUCCEEDED(pType->get_type( &pBaseType ))) {  
-    BasicType btBaseType;  
-    if (SUCCEEDED(pBaseType->get_baseType((DWORD *)&btBaseType))) {  
-        // Do something with basic type.  
-    }  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)   
- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+
+## <a name="remarks"></a>주의
+기호는 형식을 확인 하려면이 메서드를 호출 하며 결과 검사할 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 개체입니다. 형식 없는 기호에 대 한 수 있다는 것을 참고 합니다. 예를 들어 구조의 이름 형식이 있지만 자식 기호를 가질 수 있습니다 (사용 된 [idiasymbol:: Findchildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md) 해당 자식 항목을 검사 하는 방법).
+
+## <a name="example"></a>예
+
+```C++
+IDiaSymbol*         pType;
+CComPtr<IDiaSymbol> pBaseType;
+if (SUCCEEDED(pType->get_type( &pBaseType ))) {
+    BasicType btBaseType;
+    if (SUCCEEDED(pBaseType->get_baseType((DWORD *)&btBaseType))) {
+        // Do something with basic type.
+    }
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
+[IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)  
+[IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)

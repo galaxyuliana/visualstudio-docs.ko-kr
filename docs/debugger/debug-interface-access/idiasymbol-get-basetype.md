@@ -12,60 +12,60 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0ade7c30ec3cc67af28f3f609d91ccb0a3a8d289
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: c2844003bf7ec81b256537fe06520dfdff473faa
+ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54993730"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56227279"
 ---
 # <a name="idiasymbolgetbasetype"></a>IDiaSymbol::get_baseType
-이 기호에 대 한 기본 형식을 검색<em>합니다.</em>  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_baseType (   
-   DWORD* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 값을 반환 합니다 [BasicType 열거형](../../debugger/debug-interface-access/basictype.md) 기호의 기본 형식을 지정 하는 열거형입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
+이 기호에 대 한 기본 형식을 검색<em>합니다.</em>
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_baseType (
+    DWORD* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`pRetVal`  
+[out] 값을 반환 합니다 [BasicType 열거형](../../debugger/debug-interface-access/basictype.md) 기호의 기본 형식을 지정 하는 열거형입니다.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.  
-  
-## <a name="remarks"></a>주의  
- 기호에 대 한 기본 형식은 먼저 기호의 형식을 가져오고 다음 기본 형식에 대 한 형식을 반환 하는 조회 하 여 확인할 수 있습니다. 참고 일부 기호는 기본 형식에 없을 수 있습니다-예를 들어 구조 이름입니다.  
-  
-## <a name="example"></a>예  
-  
-```C++  
-IDiaSymbol* pType;  
-CComPtr<IDiaSymbol> pBaseType;  
-if (pType->get_type( &pBaseType ) == S_OK)  
-{  
-    BasicType btBaseType;  
-    if (pBaseType->get_baseType((DWORD *)&btBaseType) == S_OK)  
-    {  
-        // Do something with basic type.  
-    }  
-}  
-```  
-  
-## <a name="requirements"></a>요구 사항  
-  
-|요구 사항|설명|  
-|-----------------|-----------------|  
-|헤더:|dia2.h|  
-|버전:|DIA SDK v7.0|  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [BasicType 열거형](../../debugger/debug-interface-access/basictype.md)   
- [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)
+> 반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
+
+## <a name="remarks"></a>주의
+기호에 대 한 기본 형식은 먼저 기호의 형식을 가져오고 다음 기본 형식에 대 한 형식을 반환 하는 조회 하 여 확인할 수 있습니다. 참고 일부 기호는 기본 형식에 없을 수 있습니다-예를 들어 구조 이름입니다.
+
+## <a name="example"></a>예
+
+```C++
+IDiaSymbol* pType;
+CComPtr<IDiaSymbol> pBaseType;
+if (pType->get_type( &pBaseType ) == S_OK)
+{
+    BasicType btBaseType;
+    if (pBaseType->get_baseType((DWORD *)&btBaseType) == S_OK)
+    {
+        // Do something with basic type.
+    }
+}
+```
+
+## <a name="requirements"></a>요구 사항
+
+|요구 사항|설명|
+|-----------------|-----------------|
+|헤더:|dia2.h|
+|버전:|DIA SDK v7.0|
+
+## <a name="see-also"></a>참고 항목
+[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
+[BasicType 열거형](../../debugger/debug-interface-access/basictype.md)  
+[IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)

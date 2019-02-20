@@ -12,55 +12,55 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 063403df90ff222d13384ef61d865ba2c5187c9f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: e2503707b8fd5907cd028b7af3e67cd5acd76a00
+ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000434"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56227789"
 ---
 # <a name="idiasessionfindlinesbyva"></a>IDiaSession::findLinesByVA
-지정 된 가상 주소 (VA) 범위에 포함 된 줄에 대 한 줄 번호 정보를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT findLinesByVA (   
-   ULONGLONG             va,  
-   DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `va`  
- [in] VA.로 주소를 지정합니다.  
-  
- `length`  
- [in] 이 쿼리를 처리 하기 위해 주소 범위의 바이트 수를 지정 합니다.  
-  
- `ppResult`  
- [out] 반환 된 [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) 모든 줄의 목록을 포함 하는 개체 번호 규정 하는 지정된 된 주소 범위입니다.  
-  
-## <a name="example"></a>예  
- 이 예제에서는 함수의 가상 주소 및 길이 사용 하는 함수에 포함 된 모든 줄 번호를 가져오는 함수를 보여 줍니다.  
-  
-```C++  
-IDiaEnumLineNumbers *GetLineNumbersByVA(IDiaSymbol *pFunc, IDiaSession *pSession)  
-{  
-    IDiaEnumLineNumbers* pEnum = NULL;  
-    ULONGLONG            va;  
-    ULONGLONG            length;  
-  
-    if (pFunc->get_virtualAddress ( &va ) == S_OK)  
-    {  
-        pFunc->get_length( &length );  
-        pSession->findLinesByVA( va, static_cast<DWORD>( length ), &pEnum );  
-    }  
-    return(pEnum);  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)   
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+지정 된 가상 주소 (VA) 범위에 포함 된 줄에 대 한 줄 번호 정보를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT findLinesByVA (
+    ULONGLONG             va,
+    DWORD                 length,
+    IDiaEnumLineNumbers** ppResult
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`va`  
+[in] VA.로 주소를 지정합니다.
+
+`length`  
+[in] 이 쿼리를 처리 하기 위해 주소 범위의 바이트 수를 지정 합니다.
+
+`ppResult`  
+[out] 반환 된 [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) 모든 줄의 목록을 포함 하는 개체 번호 규정 하는 지정된 된 주소 범위입니다.
+
+## <a name="example"></a>예
+이 예제에서는 함수의 가상 주소 및 길이 사용 하는 함수에 포함 된 모든 줄 번호를 가져오는 함수를 보여 줍니다.
+
+```C++
+IDiaEnumLineNumbers *GetLineNumbersByVA(IDiaSymbol *pFunc, IDiaSession *pSession)
+{
+    IDiaEnumLineNumbers* pEnum = NULL;
+    ULONGLONG            va;
+    ULONGLONG            length;
+
+    if (pFunc->get_virtualAddress ( &va ) == S_OK)
+    {
+        pFunc->get_length( &length );
+        pSession->findLinesByVA( va, static_cast<DWORD>( length ), &pEnum );
+    }
+    return(pEnum);
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)  
+[IDiaSession](../../debugger/debug-interface-access/idiasession.md)

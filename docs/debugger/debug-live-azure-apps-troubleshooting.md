@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 817e6f31d9282caf77c9f403c7e5555075726d2d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: bbdbeb10d9d5d7afb7adf17b7a27a0b8d59c9e72
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54943801"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335482"
 ---
 # <a name="troubleshooting-and-known-issues-for-snapshot-debugging-in-visual-studio"></a>Visual Studio에서 스냅숏 디버깅 문제 해결 및 알려진 문제
 
@@ -32,7 +32,7 @@ ms.locfileid: "54943801"
 
 1. 빌드 및 배포에 app.isua1 하는 데 사용 된 소스 코드의 같은 버전이 있는지 확인 합니다. 배포에 대 한 올바른 기호를 로드 하는 있는지 확인 합니다. 이렇게 하려면 보기를 **모듈** 창 스냅숏 디버깅 하는 동안 및 기호 파일 열에는 표시.pdb 파일을 디버깅 하는 모듈에 대 한 로드를 확인 합니다. 스냅숏 디버거는 자동으로 다운로드 하 고 배포에 대 한 기호를 사용 하려고 합니다.
 
-## <a name="issue-symbols-do-not-load-when-i-open-a-snapshot"></a>문제: 스냅숏을 열면 기호를 로드 하지 않습니다.
+## <a name="issue-symbols-do-not-load-when-i-open-a-snapshot"></a>문제: 스냅숏을 열면 기호 로드 하지 않습니다.
 
 다음 창 표시 되 면 기호가 로드 되지 않았습니다.
 
@@ -48,12 +48,24 @@ ms.locfileid: "54943801"
 
 - 또는 조직 기호 서버를 사용 하 여 또는 다른 경로에서 기호를 삭제 하는 경우 배포에 대 한 올바른 기호를 로드 하려면 기호 설정을 사용 합니다.
 
-## <a name="issue-i-cannot-see-the-attach-snapshot-debugger-option-in-the-cloud-explorer"></a>문제: 클라우드 탐색기에서 "스냅숏 디버거 연결" 옵션을 볼 수 없는
+## <a name="issue-i-cannot-see-the-attach-snapshot-debugger-option-in-the-cloud-explorer"></a>클라우드 탐색기에서 "스냅숏 디버거 연결" 옵션을 볼 수 없는 문제:
 
 다음이 단계를 수행 합니다.
 
 - 스냅숏 디버거 구성 요소가 설치 되어 있는지 확인 합니다. Visual Studio 설치 관리자를 열고 확인 합니다 **스냅숏 디버거** Azure 워크 로드 구성 요소입니다.
+::: moniker range="< vs-2019"
 - 앱 지원 되는지 확인 합니다. 현재만 ASP.NET (4.6.1+) 및 Azure App Services에 배포 된 ASP.NET Core (2.0 이상) 앱 지원 됩니다.
+::: moniker-end
+::: moniker range=">= vs-2019"
+- 앱 지원 되는지 확인 합니다.
+  - Azure App Services-.NET Framework 4.6.1에서 실행 중인 ASP.NET 응용 프로그램 이상.
+  - Azure App Services-.NET Core 2.0 또는 나중에 Windows에서 실행 되는 ASP.NET Core 응용 프로그램입니다.
+  - Azure 가상 머신 (및 VMSS)-ASP.NET 실행 중인 응용 프로그램에서.NET Framework 4.6.1 이상.
+  - Azure 가상 머신 (및 VMSS)-ASP.NET Core 응용 프로그램에서.NET Core 2.0 또는 나중에 Windows를 실행 합니다.
+  - Azure Kubernetes 서비스-ASP.NET Core 응용 프로그램에서.NET Core 2.2 또는 Debian 9 나중에 실행 합니다.
+  - Azure Kubernetes 서비스-ASP.NET Core 응용 프로그램에서.NET Core 2.2 Alpine 3.8 또는 나중에 실행 합니다.
+  - Azure Kubernetes 서비스-.NET Core 2.2 또는 나중에 Ubuntu 18.04에서 실행 되는 ASP.NET Core 응용 프로그램.
+::: moniker-end
 
 ## <a name="issue-i-only-see-throttled-snapshots-in-the-diagnostic-tools"></a>문제: 표시 되는 진단 도구에서 스냅숏 제한
 
@@ -66,7 +78,7 @@ ms.locfileid: "54943801"
 ## <a name="known-issues"></a>알려진 문제
 
 - 동일한 App Service에 대 한 여러 Visual Studio 클라이언트를 사용 하 여 스냅숏 디버깅 현재 지원 되지 않습니다.
-- Roslyn IL 최적화 ASP.NET Core 프로젝트에서 완전히 지원 되지 않습니다. 일부 ASP.NET Core 프로젝트에 대 한 몇 가지 변수를 참조 하세요. 또는 조건문에서 일부 변수를 사용 하 여 못할 수 있습니다. 
+- Roslyn IL 최적화 ASP.NET Core 프로젝트에서 완전히 지원 되지 않습니다. 일부 ASP.NET Core 프로젝트에 대 한 몇 가지 변수를 참조 하세요. 또는 조건문에서 일부 변수를 사용 하 여 못할 수 있습니다.
 - 특수 변수와 같은 *$FUNCTION* 하거나 *$CALLER*, 조건문 또는 ASP.NET Core 프로젝트에 대 한 logpoint 계산할 수 없습니다.
 - 스냅숏 디버깅 있는 App Services에서 작동 하지 않습니다 [로컬 캐싱](/azure/app-service/app-service-local-cache) 켜져 있습니다.
 - API 앱을 디버깅 하는 스냅숏 현재 지원 되지 않습니다.
@@ -86,4 +98,6 @@ ms.locfileid: "54943801"
 
 [Visual Studio의 디버깅](../debugger/index.md)  
 [스냅숏 디버거를 사용 하 여 라이브 ASP.NET 앱 디버그](../debugger/debug-live-azure-applications.md)  
+[라이브 ASP.NET Azure 가상 Machines\Virtual Machines Scale Sets 스냅숏 디버거를 사용 하 여 디버그](../debugger/debug-live-azure-virtual-machines.md)  
+[스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure Kubernetes 디버깅](../debugger/debug-live-azure-kubernetes.md)  
 [스냅숏 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md)  

@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9f2f709322c847057e31b89260a7cfae99e46f7b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8d484a343969bd6abb73a128d740e6ec57c9432e
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55016536"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56318422"
 ---
 # <a name="learn-productivity-tips-and-tricks-for-the-debugger-in-visual-studio"></a>For the Debugger in Visual Studio 생산성 팁과 트릭 배우기
 
@@ -77,9 +77,9 @@ Visual Studio에서 지 원하는 대부분의 언어에서 디버깅 세션 중
 3. 변수를 찾을 합니다 **지역** 창 (**디버그 > Windows > 지역**), 변수를 마우스 오른쪽 단추로 **개체 ID 만들기**합니다.
 
     ![개체 ID를 만듭니다](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
-  
+
 4.  **$** 창에 **지역** 창을 닫습니다. 이 변수는 개체 id입니다.
-  
+
 5.  개체 ID 변수를 마우스 오른쪽 단추로 클릭 하 고 선택 **조사식 추가**합니다.
 
 자세한 내용은 [개체 ID 만들기](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds)합니다.
@@ -123,11 +123,11 @@ Visual Studio에서 지 원하는 대부분의 언어에서 디버깅 세션 중
 #### <a name="to-show-threads-in-your-source-code"></a>소스 코드에서 스레드를 표시 하려면
 
 1.  디버깅 하는 동안 클릭 합니다 **소스의 스레드 표시** 단추 ![소스의 스레드 표시](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") 에 **디버그** 도구 모음입니다.
-  
+
 2.  창 왼쪽의 여백을 확인합니다. 이 줄에 표시 된 *스레드 마커* 아이콘 ![스레드 마커](../debugger/media/dbg-thread-marker.png "ThreadMarker") 두 가닥의 실와 유사한 합니다. 스레드 마커는 이 위치에서 스레드가 중지되었음을 나타냅니다.
 
     스레드 마커 중단점에서 부분적으로 숨겨진 수를 확인 합니다.
-  
+
 3.  스레드 마커에 포인터를 올려 놓습니다. DataTips가 나타납니다. DataTip을 통해 중지된 각 스레드의 이름과 스레드 ID 번호를 알 수 있습니다.
 
     스레드 위치를 볼 수도 있습니다는 [병렬 스택 창의](../debugger/get-started-debugging-multithreaded-apps.md)합니다.
@@ -162,8 +162,8 @@ UWP 앱에서 사용 하 여 수행 된 네트워크 작업을 분석할 수 있
 
 추가 팁 및 요령 및 자세한 내용은 다음 블로그 게시물을 참조 하세요.
 
-- [Visual Studio에서 디버깅을 위해 더 적은 알려진된 해킹을 7](https://blogs.msdn.microsoft.com/visualstudio/2017/06/26/7-lesser-known-hacks-for-debugging-in-visual-studio/)
-- [Visual Studio에서 7 숨겨진된 보석](https://blogs.msdn.microsoft.com/visualstudio/2017/10/05/7-hidden-gems-in-visual-studio-2017/)
+- [Visual Studio에서 디버깅을 위해 더 적은 알려진된 해킹을 7](https://devblogs.microsoft.com/visualstudio/7-lesser-known-hacks-for-debugging-in-visual-studio/)
+- [Visual Studio에서 7 숨겨진된 보석](https://devblogs.microsoft.com/visualstudio/7-hidden-gems-in-visual-studio-2017/)
 
 ## <a name="see-also"></a>참고 항목
 [바로 가기 키](../ide/tips-and-tricks-for-visual-studio.md)

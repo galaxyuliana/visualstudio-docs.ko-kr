@@ -12,53 +12,53 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f478af5932626a738f0212716511d9a28c1dcde3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: 020d631405586227d91fd06fb1794ab5554d1075
+ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000261"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56226912"
 ---
 # <a name="idiasymbolgetintro"></a>IDiaSymbol::get_intro
-함수를 소개 하는 가상 함수 인지 여부를 지정 하는 플래그를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_intro (   
-   BOOL* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 반환 `TRUE` 함수는 가상이 소개 하는 경우이 고, 그렇지 반환 `FALSE`합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
+함수를 소개 하는 가상 함수 인지 여부를 지정 하는 플래그를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_intro ( 
+    BOOL* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`pRetVal`  
+[out] 반환 `TRUE` 함수는 가상이 소개 하는 경우이 고, 그렇지 반환 `FALSE`합니다.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
-  
-## <a name="example"></a>예  
-  
-```C++  
-class A {  
-   virtual int f1();  
-}  
-class B : public A {  
-   int f1();  
-}  
-```  
-  
- 둘 다 `A::f1` 하 고 `B::f1` 가상 함수가 있지만 `A::f1` 소개 가상이 아닙니다.  
-  
-## <a name="requirements"></a>요구 사항  
-  
-|요구 사항|설명|  
-|-----------------|-----------------|  
-|헤더:|dia2.h|  
-|버전:|DIA SDK v7.0|  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+
+## <a name="example"></a>예
+
+```C++
+class A {
+    virtual int f1();
+}
+class B : public A {
+    int f1();
+}
+```
+
+둘 다 `A::f1` 하 고 `B::f1` 가상 함수가 있지만 `A::f1` 소개 가상이 아닙니다.
+
+## <a name="requirements"></a>요구 사항
+
+|요구 사항|설명|
+|-----------------|-----------------|
+|헤더:|dia2.h|
+|버전:|DIA SDK v7.0|
+
+## <a name="see-also"></a>참고 항목
+[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
