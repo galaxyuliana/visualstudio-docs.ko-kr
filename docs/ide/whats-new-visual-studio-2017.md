@@ -16,12 +16,12 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 942007063ffa5ce6f24963067b7707495faa84b9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 767b757187e65454fb89c83613646c59d172c7e5
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935097"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56318812"
 ---
 # <a name="whats-new-in-visual-studio-2017"></a>Visual Studio 2017의 새로운 기능
 
@@ -72,7 +72,7 @@ Visual Studio를 사용하면 필요할 때 필요한 기능만 쉽고 빠르게
 
 **15.3의 새로운 기능**: Visual Studio와 고객들이 많이 사용하는 보조 기술 간의 호환성을 개선하기 위해 1,700가지가 넘는 대상 수정 사항을 적용했습니다. 화면 판독기, 고대비 테마 및 기타 보조 기술과 이전보다 더 높은 호환성을 제공하는 수십 가지 시나리오가 있습니다. 디버거, 편집기 및 셸 역시 모두 크게 향상되었습니다.
 
-자세한 내용은 [Accessibility improvements in Visual Studio 2017 version 15.3(Visual Studio 2017 버전 15.3의 접근성 향상)](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) 블로그 게시물을 참조하세요.
+자세한 내용은 [Accessibility improvements in Visual Studio 2017 version 15.3(Visual Studio 2017 버전 15.3의 접근성 향상)](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) 블로그 게시물을 참조하세요.
 
 ## <a name="performance-and-productivity"></a>성능 및 생산성
 
@@ -80,7 +80,7 @@ Visual Studio를 사용하면 필요할 때 필요한 기능만 쉽고 빠르게
 
 팀 탐색기, Azure 도구, Microsoft 스토어 게시 등에서 사용자 계정을 공유할 수 있는 새로운 ID 서비스를 Visual Studio에 도입했습니다.
 
-더 오랫동안 로그인 상태를 유지할 수도 있습니다. Visual Studio에서 12시간마다 다시 로그인하라는 메시지가 표시하되 않습니다. 자세한 내용은 [Fewer Visual Studio Sign-in Prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/)(Visual Studio 로그인 프롬프트 횟수 감소) 블로그 게시물을 참조하세요.
+더 오랫동안 로그인 상태를 유지할 수도 있습니다. Visual Studio에서 12시간마다 다시 로그인하라는 메시지가 표시하되 않습니다. 자세한 내용은 [Fewer Visual Studio Sign-in Prompts](https://devblogs.microsoft.com/visualstudio/fewer-visual-studio-sign-in-prompts/)(Visual Studio 로그인 프롬프트 횟수 감소) 블로그 게시물을 참조하세요.
 
 ### <a name="start-visual-studio-faster"></a>더 빨리 Visual Studio 시작
 
@@ -131,7 +131,7 @@ Visual Studio Enterprise 2017에서 라이브 단위 테스트는 코딩하는 �
 
 자동화된 테스트에 대한 자세한 내용은 [CI/CD pipeline for automated tests in DevOps(DevOps에서 자동화된 테스트에 대한 CI/CD 파이프라인)](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) 블로그 게시물을 참조하세요.
 
-또한 [Visual Studio의 지속적인 업데이트 도구](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs 확장의 새로운 기능에 대한 자세한 내용은 [정확하게 커밋: 커밋 타임 코드 품질](https://blogs.msdn.microsoft.com/visualstudio/2017/08/21/committing-with-confidence-commit-time-code-quality-information-updated/) 블로그 게시물을 참조하세요.
+또한 [Visual Studio의 지속적인 업데이트 도구](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs 확장의 새로운 기능에 대한 자세한 내용은 [정확하게 커밋: 커밋 타임 코드 품질](https://devblogs.microsoft.com/visualstudio/committing-with-confidence-commit-time-code-quality-information-updated/) 블로그 게시물을 참조하세요.
 
 ### <a name="visual-studio-ide-enhancements"></a>Visual Studio IDE 향상
 
@@ -188,7 +188,7 @@ A에서 B로 이동하는 데 도움이 되는 탐색 환경을 새로 고쳐 �
 
   ![Visual Studio 2017 구조체 시각화 도우미](media/vsIDE-StructureVisualizer.png)
 
-새로운 생산성 기능에 대한 자세한 내용은 Mark Wilson-Thomas의 [Visual Studio 2017의 생산성](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/)(영문) 블로그 게시물을 참조하세요.
+새로운 생산성 기능에 대한 자세한 내용은 Mark Wilson-Thomas의 [Visual Studio 2017의 생산성](https://devblogs.microsoft.com/visualstudio/productivity-in-visual-studio-2017-rc/)(영문) 블로그 게시물을 참조하세요.
 
 ### <a name="visual-c"></a>Visual C++
 
@@ -212,7 +212,7 @@ Visual Studio에서 C++ 핵심 지침을 배포하고, C++11 및 C++ 기능에 �
 
 ![Visual Studio의 새 예외 도우미 대화 상자](media/vs2017ide-ExceptionHelper.png)
 
-자세한 내용은 [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/devops/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/)(Visual Studio에서 새 예외 도우미 사용) 블로그 게시물을 참조하세요.
+자세한 내용은 [Using the New Exception Helper in Visual Studio](https://devblogs.microsoft.com/devops/using-the-new-exception-helper-in-visual-studio-15-preview/)(Visual Studio에서 새 예외 도우미 사용) 블로그 게시물을 참조하세요.
 
 #### <a name="snapshots-and-intellitrace-step-back"></a>스냅숏 및 IntelliTrace 뒤로 이동
 
@@ -328,7 +328,7 @@ Visual Studio 2017의 모든 버전에는 다음이 포함되어 있습니다.
 
 * [Redgate SQL 검색](http://www.red-gate.com/products/sql-development/sql-search/?utm_source=microsoft&utm_medium=link&utm_campaign=sqlsearch&utm_term=docs-newinvs)은 여러 데이터베이스에서 SQL 조각 및 개체를 빠르게 찾을 수 있도록 하여 생산성을 높입니다.
 
-자세히 알아보려면 [Visual Studio 2017의 Redgate 데이터 도구](https://blogs.msdn.microsoft.com/visualstudio/2017/03/07/redgate-data-tools-in-visual-studio-2017/)(영문) 블로그 게시물을 참조하세요.
+자세히 알아보려면 [Visual Studio 2017의 Redgate 데이터 도구](https://devblogs.microsoft.com/visualstudio/redgate-data-tools-in-visual-studio-2017/)(영문) 블로그 게시물을 참조하세요.
 
 ### <a name="net-core"></a>.NET Core
 

@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cd3b213c9baf82317c390ee29512de946a220fb6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: da502b2f527f811f20bbce299107cac20517048a
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909638"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317837"
 ---
 # <a name="features-of-visual-studio-2017"></a>Visual Studio 2017의 기능
 
@@ -99,7 +99,7 @@ Visual Studio의 **SQL Server 개체 탐색기**는 SQL Server Management Studio
 
 ## <a name="manage-your-source-code-and-collaborate-with-others"></a>소스 코드 관리 및 다른 사용자와 공동 작업
 
-GitHub를 포함한 모든 공급자가 호스팅하는 Git 리포지토리에서 원본 코드를 관리할 수 있습니다. 또는 [Azure DevOps Services](/azure/devops/index)를 사용하여 전체 프로젝트의 버그 및 작업 항목과 함께 코드를 관리하세요. Visual Studio에서 팀 탐색기를 사용하여 Git 리포지토리를 관리하는 방법에 대해 알아보려면 [Git 및 Azure Repos 시작하기](/azure/devops/repos/git/gitquickstart?tabs=visual-studio)를 참조하세요. Visual Studio에는 기본 제공된 다른 소스 제어 기능이 있습니다. 이에 대한 자세한 내용은 [Visual Studio 2017의 새로운 Git 기능(블로그)](https://blogs.msdn.microsoft.com/devops/2017/03/06/new-git-features-in-visual-studio-2017/)을 참조하세요.
+GitHub를 포함한 모든 공급자가 호스팅하는 Git 리포지토리에서 원본 코드를 관리할 수 있습니다. 또는 [Azure DevOps Services](/azure/devops/index)를 사용하여 전체 프로젝트의 버그 및 작업 항목과 함께 코드를 관리하세요. Visual Studio에서 팀 탐색기를 사용하여 Git 리포지토리를 관리하는 방법에 대해 알아보려면 [Git 및 Azure Repos 시작하기](/azure/devops/repos/git/gitquickstart?tabs=visual-studio)를 참조하세요. Visual Studio에는 기본 제공된 다른 소스 제어 기능이 있습니다. 이에 대한 자세한 내용은 [Visual Studio 2017의 새로운 Git 기능(블로그)](https://devblogs.microsoft.com/devops/new-git-features-in-visual-studio-2017/)을 참조하세요.
 
 Azure DevOps Services는 소프트웨어를 계획, 호스트, 자동화 및 배포하고 팀의 공동 작업을 지원하기 위한 클라우드 기반 서비스입니다. Azure DevOps Services는 Git 리포지토리(분산형 버전 제어) 및 Team Foundation 버전 제어(중앙 집중식 버전 제어)를 둘 다 지원합니다. 버전 제어 시스템에 저장된 코드의 연속 빌드 및 릴리스(CI/CD)를 위한 파이프라인을 지원합니다. 또한 Azure DevOps Services는 스크럼, CMMI 및 Agile 개발 방법론도 지원합니다.
 

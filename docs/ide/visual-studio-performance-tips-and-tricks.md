@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d800336a921d76e3b30580127547081dc8f02967
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: fdfc350305400a42565aa55fa5e29cc40286ed0c
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55930248"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56318773"
 ---
 # <a name="visual-studio-performance-tips-and-tricks"></a>Visual Studio 성능 팁과 요령
 
@@ -130,4 +130,4 @@ CLR 가비지 수집기에 대한 자세한 내용은 [가비지 수집 기본 �
 ## <a name="see-also"></a>참고 항목
 
 - [Visual Studio 성능 최적화](../ide/optimize-visual-studio-performance.md)
-- [솔루션을 더 빠르게 로드(Visual Studio 블로그)](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [솔루션을 더 빠르게 로드(Visual Studio 블로그)](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)

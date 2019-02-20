@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: f8cdcc9e05a3b238adcd559911208cbb6532b1d5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 0a5cf418b04f43be9d10b39b9ffc518255092a8a
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918249"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56318435"
 ---
 # <a name="use-different-web-browsers-with-coded-ui-tests"></a>코딩된 UI 테스트에 다른 웹 브라우저 사용
 
@@ -24,13 +24,13 @@ ms.locfileid: "55918249"
 
 ## <a name="whats-supported-across-all-web-browsers"></a>모든 웹 브라우저에 어떤 기능이 지원됩니까?
 
--   속성, 검색, 재생 대기자 등 [기능 제어를 위한 사용자 지정 코드를 추가](https://blogs.msdn.microsoft.com/devops/2012/12/09/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/)합니다.
+-   속성, 검색, 재생 대기자 등 [기능 제어를 위한 사용자 지정 코드를 추가](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/)합니다.
 
 -   팝업 및 대화 상자
 
--   [반환 형식이 없는 기본 JavaScript 실행](https://blogs.msdn.microsoft.com/devops/2013/01/18/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
+-   [반환 형식이 없는 기본 JavaScript 실행](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
 
--   검색 복원력(스마트 매치 사용) 및 [성능 향상](https://blogs.msdn.microsoft.com/devops/2012/01/31/guidelines-on-improving-performance-of-coded-ui-test-playback/)
+-   검색 복원력(스마트 매치 사용) 및 [성능 향상](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
 
 ## <a name="why-should-i-use-coded-ui-tests-across-multiple-web-browser-types"></a>여러 웹 브라우저 형식에 코딩된 UI 테스트를 사용해야 하는 이유는 무엇입니까?
 

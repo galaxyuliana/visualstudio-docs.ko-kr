@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b133a9ce3aa5773349260249ee80edc02d6b318b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 216cee6181122997ef8cc5937b9b1af76ba71b06
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954958"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316355"
 ---
 # <a name="developer-testing-tools-scenarios-and-capabilities"></a>개발자 테스트 도구, 시나리오 및 호환성
 
@@ -29,7 +29,7 @@ IntelliTest를 사용하여 검사를 개선하고 재발을 방지합니다. In
 ![작동 중인 IntelliTest](media/devtest-intellitest.png)
 
 * [Introduction to IntelliTest with Visual Studio](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20IntelliTest%20with%20Visual%20Studio%20Enterprise%202015.docx)(Visual Studio의 IntelliTest 소개)
-* [IntelliTest - 한 번 테스트로 모두 제어](https://blogs.msdn.microsoft.com/devops/2015/07/05/intellitest-one-test-to-rule-them-all/)
+* [IntelliTest - 한 번 테스트로 모두 제어](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
 * [IntelliTest 비디오](https://channel9.msdn.com/Series/Test-Tools-in-Visual-Studio)
 * [IntelliTest 시작](generate-unit-tests-for-your-code-with-intellitest.md)
 * [IntelliTest 참조 설명서](intellitest-manual/index.md)
@@ -78,7 +78,7 @@ Visual Studio는 확장 가능하고 이제 NUnit 및 xUnit.net과 같은 타사
 ## <a name="see-also"></a>참고 항목
 
 * [유닛 테스트 시작](getting-started-with-unit-testing.md)
-* [Team Foundation Server의 단위 테스트 실행 시간 단축](https://blogs.msdn.microsoft.com/devops/2015/07/30/speeding-up-unit-test-execution-in-tfs/)
-* [병렬 및 컨텍스트 단위 테스트 실행](https://blogs.msdn.microsoft.com/devops/2016/02/08/parallel-and-context-sensitive-test-execution-with-visual-studio-2015-update-1/)
+* [Team Foundation Server의 단위 테스트 실행 시간 단축](https://devblogs.microsoft.com/devops/speeding-up-unit-test-execution-in-tfs/)
+* [병렬 및 컨텍스트 단위 테스트 실행](https://devblogs.microsoft.com/devops/parallel-and-context-sensitive-test-execution-with-visual-studio-2015-update-1/)
 * [Visual Studio의 유닛 테스트, 코드 검사 및 코드 복제본 분석(랩)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Unit%20Testing,%20Code%20Coverage%20and%20Code%20Clone%20Analysis%20with%20Visual%20Studio%202015.docx)
 * [C/C++에 대한 단위 테스트 작성](writing-unit-tests-for-c-cpp.md)

@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 6bdb40610050f03e54b499b6bc44a57faa09cb93
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9edda9d12ad5dfea1e65bd0356010d97af6dc3ac
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907752"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317421"
 ---
 # <a name="generate-unit-tests-for-your-code-with-intellitest"></a>IntelliTest를 사용하여 코드에 대한 단위 테스트 생성
 
@@ -157,4 +157,4 @@ Visual Studio를 다시 시작하고 솔루션을 다시 연 후 클래스 또�
 
 ### <a name="q-can-i-learn-more-about-how-the-tests-are-generated"></a>Q: 테스트가 생성되는 방식에 대해 자세히 알아볼 수 있나요?
 
-**A:** 예, 개괄적인 개요를 확인하려면 이 [블로그 게시물](https://blogs.msdn.microsoft.com/devops/2015/07/05/intellitest-one-test-to-rule-them-all/)을 참조하세요.
+**A:** 예, 개괄적인 개요를 확인하려면 이 [블로그 게시물](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)을 참조하세요.

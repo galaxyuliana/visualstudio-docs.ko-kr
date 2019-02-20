@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: b4dd4e347d6a8c96cef9ce9028071214200682c4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: af10b4d83cd39c388c5343501f4d6281c0b7a960
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55916169"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316147"
 ---
 # <a name="install-unit-test-frameworks"></a>단위 테스트 프레임워크 설치
 
@@ -58,7 +58,7 @@ Visual Studio 확장 관리자 또는 [Visual Studio Marketplace](https://market
 
 ## <a name="update-to-the-latest-test-adapters"></a>최신 테스트 어댑터로 업데이트
 
-테스트 검색 및 실행을 향상하려면 안정적인 최신 테스트 어댑터로 업데이트합니다. MSTest, NUnit 및 xUnit 테스트 어댑터의 업데이트에 대한 자세한 내용은 [Visual Studio 블로그](https://blogs.msdn.microsoft.com/visualstudio/2017/11/16/test-experience-improvements/)를 참조하세요.
+테스트 검색 및 실행을 향상하려면 안정적인 최신 테스트 어댑터로 업데이트합니다. MSTest, NUnit 및 xUnit 테스트 어댑터의 업데이트에 대한 자세한 내용은 [Visual Studio 블로그](https://devblogs.microsoft.com/visualstudio/test-experience-improvements/)를 참조하세요.
 
 ### <a name="to-update-to-the-latest-stable-test-adapter-version"></a>안정적인 최신 테스트 어댑터 버전으로 업데이트하려면
 

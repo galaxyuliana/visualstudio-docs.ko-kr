@@ -11,12 +11,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: b7799abea1ab8dcb0c792d5ba49c66274d255685
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: aaa5443c8fdbe2dd8a39f082ee92e9522c6de7bc
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155996"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317226"
 ---
 # <a name="welcome-to-the-visual-studio-ide--c"></a>Visual Studio IDE 시작 | C#
 
@@ -122,18 +122,6 @@ C# 개발자에게 맞춰진 환경 설정을 사용하도록 Visual Studio를 �
 IDE를 개인 설정할 수 있는 다른 방법을 배우려면 [Visual Studio 개인 설정](../../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="create-a-program"></a>프로그램 만들기
-
-먼저, C# 개발자에게 맞춰진 환경 설정을 사용하도록 Visual Studio를 구성합니다.
-
-1. 메뉴 모음에서 **도구** > **설정 가져오기 및 내보내기**를 선택합니다.
-
-2. **설정 가져오기 및 내보내기 마법사**의 첫 번째 페이지에서 **모두 다시 설정**을 선택한 후 **다음**을 선택합니다.
-
-3. **현재 설정 저장** 페이지에서 현재 설정을 저장하거나 저장하지 않는 옵션을 선택한 후 **다음**을 선택합니다. 설정을 사용자 지정하지 않은 경우 **아니요, 다시 설정하여 현재 설정을 덮어씁니다.** 를 선택합니다.
-
-4. **기본 설정 컬렉션 선택** 페이지에서 **Visual C#** 을 선택한 후 **마침**을 선택합니다.
-
-5. **다시 설정 완료** 페이지에서 **닫기**를 선택합니다.
 
 이제 본격적으로 간단한 프로그램을 만들어 보겠습니다.
 
@@ -303,4 +291,4 @@ IDE를 개인 설정할 수 있는 다른 방법을 배우려면 [Visual Studio 
 
 - [Visual Studio 추가 기능](../../ide/advanced-feature-overview.md)을 검색하세요.
 - [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)을 방문하세요.
-- [Visual Studio 블로그](https://blogs.msdn.microsoft.com/visualstudio/)를 참고하세요.
+- [Visual Studio 블로그](https://devblogs.microsoft.com/visualstudio/)를 참고하세요.

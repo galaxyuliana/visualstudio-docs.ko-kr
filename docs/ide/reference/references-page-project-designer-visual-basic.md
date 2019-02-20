@@ -9,19 +9,18 @@ f1_keywords:
 helpviewer_keywords:
 - References page in Project Designer
 - Project Designer, References page
-- Unused References dialog box
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0afd144248ed01210c888ee516a19bf93a156b86
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a7c1bcb041101cf90957d02991ab1619d47051b5
+ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970753"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "56335132"
 ---
 # <a name="references-page-project-designer-visual-basic"></a>참조 페이지, 프로젝트 디자이너(Visual Basic)
 
@@ -32,12 +31,6 @@ ms.locfileid: "55970753"
 ## <a name="uielement-list"></a>UI 요소 목록
 
 다음 옵션을 사용하여 프로젝트에서 참조 및 가져온 네임스페이스를 선택하거나 제거할 수 있습니다.
-
-**사용하지 않는 참조**
-
-**사용하지 않는 참조** 대화 상자에 액세스하려면 이 단추를 클릭합니다.
-
-**사용하지 않는 참조** 대화 상자에서는 프로젝트에 포함된 참조를 제거할 수 있지만 실제로 코드에 사용되는 참조는 제거할 수 없습니다. 이 대화 상자에는 **참조 이름**, **경로** 및 프로젝트에서 사용하지 않는 네임스페이스 참조에 대한 기타 정보를 나열하는 표가 있습니다. 프로젝트에서 제거할 네임스페이스를 표에서 선택하고 **제거**를 클릭합니다.
 
 **참조 경로**
 
