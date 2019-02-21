@@ -2,7 +2,7 @@
 title: Visual Studio 2019의 새로운 기능
 titleSuffix: ''
 description: Visual Studio 2019의 새로운 기능을 알아보세요.
-ms.date: 02/08/2019
+ms.date: 02/14/2019
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -14,16 +14,16 @@ ms.prod: visual-studio-dev16
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 4667fd19f59453e9efc856aefeaaf8d43aff302d
-ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
+ms.openlocfilehash: b9ecca40da855daf4f49619bb62498927dc9a296
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "55987420"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56318396"
 ---
 # <a name="whats-new-in-visual-studio-2019-preview"></a>Visual Studio 2019 Preview의 새로운 기능
 
-**[미리 보기 2 릴리스](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)의 업데이트**
+**[미리 보기 3 릴리스](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)의 업데이트**
 
 >[!div class="button"]
 >[미리 보기 다운로드](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview)
@@ -39,7 +39,7 @@ Visual Studio가 제공하는 장점은 다음과 같습니다.
 * **[지속적인 혁신](#continuous-innovation)**. 코드에 인텔리전트 클라우드 기반 지원이 제공됩니다.
 
 > [!NOTE]
-> Visual Studio 2019 미리 보기의 새로운 특징 및 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)를 참조하세요. 두 번째 미리 보기의 새로운 기능에 대해서는 [현재 Visual Studio 2019 미리 보기 2 사용 가능](https://blogs.msdn.microsoft.com/visualstudio/2019/01/24/visual-studio-2019-preview-2-is-now-available/) 블로그 게시물을 참조하세요.
+> Visual Studio 2019 미리 보기의 새로운 특징 및 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)를 참조하세요.
 
 ## <a name="personal-and-team-productivity"></a>개인 및 팀 생산성
 
@@ -53,7 +53,7 @@ Visual Studio 2019를 열면 가장 먼저 보이는 것이 새로운 시작 창
 
 새로운 시작 창은 코드를 복제 또는 체크 아웃하고, 프로젝트 또는 솔루션을 열고, 로컬 폴더를 열고, 새 프로젝트를 만드는 옵션을 제공합니다. 이러한 옵션을 간단한 대화 상자에 제공하므로 Visual Studio 초보자부터 고급 사용자까지 모든 사용자가 신속하게 코드를 가져올 수 있습니다.
 
-자세한 내용은 [코드 가져오기: 새 Visual Studio 시작 창 디자인 방법](https://blogs.msdn.microsoft.com/visualstudio/2018/12/13/get-to-code-how-we-designed-the-new-visual-studio-start-window/) 블로그 게시물을 참조하세요.
+자세한 내용은 [코드 가져오기: 새 Visual Studio 시작 창 디자인 방법](https://devblogs.microsoft.com/visualstudio/get-to-code-how-we-designed-the-new-visual-studio-start-window/) 블로그 게시물을 참조하세요.
 
 ### <a name="better-search"></a>향상된 검색
 
@@ -81,7 +81,7 @@ Visual Studio 2019를 열면 가장 먼저 보이는 것이 새로운 시작 창
 
    ![Visual Studio 2019의 새로운 조사식 창 및 포맷 값 기능](media/search-watch-window.png)
 
-자세한 내용은 [Visual Studio 2019의 향상된 기능: 조사식, 자동 및 지역 Windows의 개체와 속성 검색](https://blogs.msdn.microsoft.com/visualstudio/2019/01/28/enhanced-in-visual-studio-2019-search-for-objects-and-properties-in-the-watch-autos-and-locals-windows/) 블로그 게시물을 참조하세요.
+자세한 내용은 [Visual Studio 2019의 향상된 기능: 조사식, 자동 및 지역 Windows의 개체와 속성 검색](https://devblogs.microsoft.com/visualstudio/enhanced-in-visual-studio-2019-search-for-objects-and-properties-in-the-watch-autos-and-locals-windows/) 블로그 게시물을 참조하세요.
 
 ### <a name="visual-studio-live-share"></a>Visual Studio Live Share
 
@@ -89,9 +89,9 @@ Visual Studio 2019를 열면 가장 먼저 보이는 것이 새로운 시작 창
 
 Visual Studio 2019 미리 보기를 사용하면 이 서비스가 기본적으로 설치됩니다.
 
-   ![Visual Studio 2019의 Live Share 공동 작업 기능을 보여 주는 애니메이션 GIF 파일](media/live-share-collaboration.gif)
+![Visual Studio 2019의 Live Share 공동 작업 기능을 보여 주는 애니메이션 GIF 파일](media/live-share-collaboration.gif)
 
-자세한 내용은 [실시간 코드 검토 및 대화형 교육을 위한 Visual Studio Live Share](https://blogs.msdn.microsoft.com/visualstudio/2018/12/06/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/) 블로그 게시물을 참조하세요.
+자세한 내용은 [실시간 코드 검토 및 대화형 교육을 위한 Visual Studio Live Share](https://devblogs.microsoft.com/visualstudio/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/) 블로그 게시물을 참조하세요.
 
 ## <a name="modern-development-support"></a>최신 개발 지원
 
@@ -122,7 +122,7 @@ Visual Studio 2019 미리 보기 릴리스부터 Visual Studio를 PMA(모니터�
 
    ![Visual Studio 2019의 PMA(모니터별 인식) 렌더링](media/per-monitor-aware-dpi-scaling.png)
 
-자세한 내용은 [Better multi-monitor experience with Visual Studio 2019](https://blogs.msdn.microsoft.com/visualstudio/2019/02/07/a-better-multi-monitor-experience-with-visual-studio-2019/)(Visual Studio 2019를 사용하여 다중 모니터 경험 향상) 블로그 게시물을 참조하세요.
+자세한 내용은 [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/)(Visual Studio 2019를 사용하여 다중 모니터 경험 향상) 블로그 게시물을 참조하세요.
 
 ### <a name="visual-studio-intellicode"></a>Visual Studio IntelliCode
 
@@ -141,7 +141,7 @@ Visual Studio용 IntelliCode 확장을 처음 소개할 때는 C#만 지원했�
 
 C#을 사용하는 분들을 위해 사용자 고유의 코드에서 사용자 지정 모델을 학습하는 기능도 추가되었습니다.
 
-최근 업데이트에 대한 자세한 내용은 [Visual Studio IntelliCode는 더 많은 언어를 지원하고 코드에서 학습](https://blogs.msdn.microsoft.com/visualstudio/2018/12/05/visual-studio-intellicode-supports-more-languages-and-learns-from-your-code/) 블로그 게시물을 참조하세요. 그리고, 확장과 다운로드 방법에 대한 자세한 내용은 Microsoft DevLabs의 [Visual Studio IntelliCode - 미리 보기](https://go.microsoft.com/fwlink/?linkid=872707) 페이지를 참조하세요.
+최근 업데이트에 대한 자세한 내용은 [Visual Studio IntelliCode는 더 많은 언어를 지원하고 코드에서 학습](https://devblogs.microsoft.com/visualstudio/visual-studio-intellicode-supports-more-languages-and-learns-from-your-code/) 블로그 게시물을 참조하세요. 그리고, 확장과 다운로드 방법에 대한 자세한 내용은 Microsoft DevLabs의 [Visual Studio IntelliCode - 미리 보기](https://go.microsoft.com/fwlink/?linkid=872707) 페이지를 참조하세요.
 
 ## <a name="give-us-feedback"></a>피드백 보내기
 

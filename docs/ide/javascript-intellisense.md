@@ -24,25 +24,25 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 56ba6a9407b87640879c3d591f1a6aafad1ee42a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 91ea140ffef8d564cc1380d2fe3fd30a252fef14
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918938"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56318459"
 ---
 # <a name="javascript-intellisense"></a>JavaScript IntelliSense
 
-[!include[vs_dev15](../misc/includes/vs_dev15_md.md)]에서는 즉시 사용 가능한 강력한 JavaScript 편집 환경을 제공합니다. TypeScript 기반 언어 서비스로 제공되는 Visual Studio는 더 다양한 IntelliSense, 최신 JavaScript 기능 지원 및 정의로 이동, 리팩터링 등의 향상된 생산성 기능을 제공합니다.
+Visual Studio 2017에서는 즉시 사용 가능한 강력한 JavaScript 편집 환경을 제공합니다. TypeScript 기반 언어 서비스로 제공되는 Visual Studio는 더 다양한 IntelliSense, 최신 JavaScript 기능 지원 및 정의로 이동, 리팩터링 등의 향상된 생산성 기능을 제공합니다.
 
 > [!NOTE]
-> [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]의 JavaScript Language Service에는 새로운 언어 서비스용 엔진("Salsa"라고 함)이 사용됩니다. 자세한 내용은 이 항목에 포함되어 있고 이 [블로그 게시물](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/more-productive-javascript-in-visual-studio-2017-rc/)을 참조할 수도 있습니다. 새 편집 환경은 일반적으로 Visual Studio Code에도 적용됩니다. 자세한 내용은 [VS 코드 문서](https://code.visualstudio.com/docs/languages/javascript)를 참조하세요.
+> Visual Studio 2017의 JavaScript Language Service에는 새로운 언어 서비스용 엔진("Salsa"라고 함)이 사용됩니다. 자세한 내용은 이 항목에 포함되어 있고 이 [블로그 게시물](https://devblogs.microsoft.com/visualstudio/previewing-salsa-javascript-language-service-visual-studio-15/)을 참조할 수도 있습니다. 새 편집 환경은 일반적으로 Visual Studio Code에도 적용됩니다. 자세한 내용은 [VS 코드 문서](https://code.visualstudio.com/docs/languages/javascript)를 참조하세요.
 
 Visual Studio의 일반 IntelliSense 기능에 대한 자세한 내용은 [IntelliSense 사용](../ide/using-intellisense.md)을 참조하세요.
 
-## <a name="whats-new-in-the-javascript-language-service-in-includevsdev15miscincludesvsdev15mdmd"></a>[!include[vs_dev15](../misc/includes/vs_dev15_md.md)] JavaScript 언어 서비스의 새로운 기능
+## <a name="whats-new-in-the-javascript-language-service-in-visual-studio-2017"></a>Visual Studio 2017의 JavaScript 언어 서비스의 새로운 기능
 
-[!include[vs_dev15](../misc/includes/vs_dev15_md.md)]부터 시작하여 JavaScript IntelliSense는 매개 변수 및 멤버 목록에 대한 더 많은 정보를 표시합니다.
+Visual Studio 2017부터 JavaScript IntelliSense는 매개 변수 및 멤버 목록에 대한 더 많은 정보를 표시합니다.
 이 새로운 정보는 코드를 더 잘 이해하도록 내부에서 정적 분석으로 사용하는 TypeScript 언어 서비스를 통해 제공됩니다.
 TypeScript는 여러 소스를 사용하여 이 정보를 구성합니다.
 

@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d387bbc54d1eb1619ddffbf7e96308834d125826
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b9680087162cbfa89e12cb7d9b44d7079cba4ef2
+ms.sourcegitcommit: b623042906de4f12d68af365e36eb38b7b44aa90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911093"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56270656"
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio"></a>Visual Studio의 기본 바로 가기 키
 
@@ -798,11 +798,17 @@ ms.locfileid: "55911093"
 | 편집.현재영역확장 | **Ctrl+M, Ctrl+E** |
 | 편집.문서서식 | **Ctrl+K, Ctrl+D** |
 | 편집.선택영역서식 | **Ctrl+K, Ctrl+F** |
+| Edit.GotoAll | **Ctrl+T**<br /><br /> 또는<br /><br /> **Ctrl+,** |
 | Edit.GotoBrace | **Ctrl+]** |
 | 편집.중괄호로이동확장 | **Ctrl+Shift+]** |
+| Edit.GotoRecent | **Ctrl+T,R** |
+| Edit.GotoNextIssueinFile | **Alt+PgDn** |
+| Edit.GotoPreviousIssueinFile  **Alt+PgUp** |
 | 편집.선택영역숨기기 | **Ctrl+M, Ctrl+H** |
 | 편집.필터수준높임 | **Alt+.** |
 | 편집.증분검색 | **Ctrl+I** |
+| Edit.InsertCaretsatAllMatching | **Shift+Alt+;** | 
+| Edit.InsertNextMatchingCaret | **Shift+Alt+.** | 
 | 편집.탭삽입 | **Tab** |
 | 편집.줄잘라내기 | **Ctrl+L** |
 | 편집.줄삭제 | **Ctrl+Shift+L** |
@@ -845,7 +851,8 @@ ms.locfileid: "55911093"
 | 편집.현재단어선택 | **Ctrl+W** |
 | 편집.선택취소 | **Esc** |
 | 편집.이전위치까지선택 | **Ctrl+=** |
-| Edit.ShowCodeLensMenu | **Alt+\`** |
+| Edit.ShowCodeLensMenu | **Ctrl+K, Ctrl+\`** |
+| Edit.ShowNavigateMenu | **Alt+\`** |
 | 편집.현재숨기기중지 | **Ctrl+M, Ctrl+U** |
 | 편집.개요표시중지 | **Ctrl+M, Ctrl+P** |
 | 편집.앵커바꾸기 | **Ctrl+K, Ctrl+A** |
