@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 172a7d27de88e7d5d6361fdc29e4cc49a0ff3d94
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
+ms.openlocfilehash: c6f7a6053c36805ccc219319c93b4064fe45472b
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55008714"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316888"
 ---
 # <a name="diagnose-problems-after-deployment-using-intellitrace-c-visual-basic"></a>IntelliTrace를 사용 하 여 배포 후 문제 진단 (C#, Visual Basic)
 
@@ -31,7 +31,7 @@ IntelliTrace를 사용하여 배포한 후 ASP.NET 웹앱의 문제를 진단하
 
 -   IntelliTrace를 사용하여 진단 데이터를 검토하고 코드를 디버그하기 위한 Visual Studio Enterprise(Professional 또는 Community Edition 아님)
 
-##  <a name="SetUpBuild"></a> 1단계: 릴리스를 사용 하 여 빌드 정보를 포함 합니다.
+##  <a name="SetUpBuild"></a> 1단계: 빌드 정보를 릴리스에 포함
  빌드 프로세스를 설정하여 웹 프로젝트의 빌드 매니페스트(*BuildInfo.config* 파일)를 만들어 이 매니페스트를 릴리스에 포함시킵니다. 이 매니페스트에는 특정 빌드를 만드는 데 사용된 프로젝트, 소스 제어 및 빌드 시스템에 대한 정보가 포함됩니다. 기록된 이벤트를 살펴보기 위해 IntelliTrace 로그를 열면 Visual Studio가 이 매니페스트 정보를 통해 일치하는 소스 및 기호를 간단히 찾을 수 있습니다.
 
 ###  <a name="AutomatedBuild"></a> Team Foundation Server를 사용하여 자동화 빌드용 빌드 매니페스트 만들기
@@ -161,7 +161,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 ## <a name="step-3-monitor-your-app"></a>3단계: 앱 모니터링
  앱의 문제를 모니터링하고 진단 이벤트를 기록하고 해당 이벤트를 IntelliTrace 로그 파일에 저장할 수 있도록 웹 서버에 애플리케이션 성능 모니터링을 설정합니다. [배포 문제에 대해 릴리스 모니터링](../debugger/using-the-intellitrace-stand-alone-collector.md)을 참조하세요.
 
-##  <a name="InvestigateEvents">4단계:</a> 문제 찾기
+##  <a name="InvestigateEvents"></a> 4단계: 문제 찾기
  IntelliTrace를 사용하여 기록된 이벤트를 검토하고 코드를 디버그하려면 개발 컴퓨터 또는 다른 컴퓨터에 Visual Studio Enterprise가 있어야 합니다. 문제 진단을 도와주는 CodeLens, 디버거 지도 및 코드 맵 등의 도구를 사용할 수도 있습니다.
 
 ### <a name="open-the-intellitrace-log-and-matching-solution"></a>IntelliTrace 로그 및 연결 솔루션 열기
@@ -216,7 +216,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
     - [IntelliTrace 로그에 포함되어 있는 기타 모든 이벤트 및 정보는 무엇인가요?](../debugger/using-saved-intellitrace-data.md)
     - [여기에서 무엇을 할 수 있습니까?](#WhatElse)
-    - [성능 이벤트에 대해 더 자세히 알고 싶으세요?](https://blogs.msdn.microsoft.com/devops/2013/09/20/performance-details-in-intellitrace/)
+    - [성능 이벤트에 대해 더 자세히 알고 싶으세요?](https://devblogs.microsoft.com/devops/performance-details-in-intellitrace/)
 
 ### <a name="diagnose-an-exception"></a>예외 진단
 
@@ -276,9 +276,9 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
   - **TFS**
 
-    - **ProjectCollectionUri**: Team Foundation Server 및 프로젝트 컬렉션에 대 한 URI
+    - **ProjectCollectionUri**: Team Foundation Server 및 프로젝트 컬렉션의 URI
 
-    - **ProjectItemSpec**: 앱의 프로젝트 파일 (.csproj 또는.vbproj)의 경로를
+    - **ProjectItemSpec**: 앱 프로젝트 파일(.csproj 또는 .vbproj)의 경로
 
     - **ProjectVersionSpec**: 프로젝트 버전
 
@@ -296,11 +296,11 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
   - **Git**
 
-    - **GitSourceControl**: 위치를 **GitSourceControl** 스키마
+    - **GitSourceControl**: **GitSourceControl** 스키마의 위치
 
     - **RepositoryUrl**: Team Foundation Server, 프로젝트 컬렉션 및 Git 리포지토리의 URI
 
-    - **ProjectPath**: 앱의 프로젝트 파일 (.csproj 또는.vbproj)의 경로를
+    - **ProjectPath**: 앱 프로젝트 파일(.csproj 또는 .vbproj)의 경로
 
     - **CommitId**: 커밋 id
 
@@ -320,15 +320,15 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
    빌드 시스템( `"TeamBuild"` 또는 `"MSBuild"`) 및 다음의 필수 속성에 대한 정보입니다.
 
-  - **BuildLabel** (TeamBuild 용): 빌드 이름 및 번호입니다. 이 레이블은 배포 이벤트의 이름으로도 사용됩니다. 빌드 번호에 대한 자세한 내용은 [빌드 번호를 사용하여 완료된 빌드에 의미 있는 이름 지정](/azure/devops/pipelines/build/options?view=vsts)을 참조하세요.
+  - **BuildLabel** (TeamBuild용): 빌드 이름 및 번호입니다. 이 레이블은 배포 이벤트의 이름으로도 사용됩니다. 빌드 번호에 대한 자세한 내용은 [빌드 번호를 사용하여 완료된 빌드에 의미 있는 이름 지정](/azure/devops/pipelines/build/options?view=vsts)을 참조하세요.
 
-  - **SymbolPath** (권장): 세미콜론으로 구분 기호 (PDB 파일) 위치 Uri 목록입니다. 이러한 URI는 URL 또는 UNC일 수 있습니다. 이 정보를 통해 Visual Studio에서는 사용자가 디버깅을 손쉽게 할 수 있도록 일치하는 기호를 쉽게 찾을 수 있습니다.
+  - **SymbolPath** (권장): 세미콜론으로 구분한 기호(PDB 파일) 위치 URI 목록입니다. 이러한 URI는 URL 또는 UNC일 수 있습니다. 이 정보를 통해 Visual Studio에서는 사용자가 디버깅을 손쉽게 할 수 있도록 일치하는 기호를 쉽게 찾을 수 있습니다.
 
-  - **BuildReportUrl** (TeamBuild 용): TFS 내에서 빌드 보고서의 위치
+  - **BuildReportUrl** (TeamBuild용): TFS 내 빌드 보고서의 위치
 
-  - **BuildId** (TeamBuild 용): TFS의 빌드 세부 정보에 대 한 URI입니다. 이 URI는 배포 이벤트의 ID로도 사용됩니다. TeamBuild를 사용하지 않을 경우 고유 ID여야 합니다.
+  - **BuildId** (TeamBuild용): TFS 내 빌드 세부 정보의 URI 이 URI는 배포 이벤트의 ID로도 사용됩니다. TeamBuild를 사용하지 않을 경우 고유 ID여야 합니다.
 
-  - **BuiltSolution**: Visual Studio를 찾고 일치 하는 솔루션을 열기 위해 사용 하는 솔루션 파일에 대 한 경로입니다. **SolutionPath** MsBuild 속성의 내용입니다.
+  - **BuiltSolution**: Visual Studio에서 일치하는 솔루션을 찾고 열기 위해 사용하는 솔루션 파일의 경로입니다. **SolutionPath** MsBuild 속성의 내용입니다.
 
     예:
 
@@ -379,7 +379,7 @@ Visual Studio 2017을 다루지 않습니다 합니다 *BuildInfo.config* 파일
 
      ![소스 제어에서 열기 &#45; 마이그레이션된](../debugger/media/ffr_openprojectfromsourcecontrol_migrated.png "FFR_OpenProjectFromSourceControl_Migrated")
 
-####  <a name="WhatWorkspace"></a> Q: 작업 영역 이란?
+####  <a name="WhatWorkspace"></a> Q: 작업 영역이란 무엇인가요?
  **A:** [작업 영역은 소스 사본을 저장](/azure/devops/repos/tfvc/create-work-workspaces?view=vsts) 하므로 작업을 체크 인하기 전에 개별적으로 개발하고 테스트할 수 있습니다. 발견된 솔루션 또는 프로젝트에 특별히 매핑된 작업 영역이 아직 없는 경우 Visual Studio는 사용 가능한 작업 영역을 선택하거나 기본 작업 영역 이름으로 사용자 컴퓨터 이름을 사용하는 새 작업 영역을 만들 것인지 묻는 메시지를 표시합니다.
 
 ####  <a name="UntrustedSymbols"></a> Q: 신뢰할 수 없는 기호에 대해 이 메시지를 받는 이유는 무엇인가요?

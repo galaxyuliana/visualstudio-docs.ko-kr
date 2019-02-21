@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: fe9d698e5732c0dfe4c9282e6cfac683e0d4d8b0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 693c63e7d1094974643d17c3899a7c7c93f9f5d0
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54984225"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56315796"
 ---
 # <a name="debug-uwp-apps-using-prefetched-content-in-visual-studio"></a>프리페치된 콘텐츠를 사용 하 여 Visual Studio에서 UWP 앱 디버그
   
@@ -28,9 +28,9 @@ ms.locfileid: "54984225"
 ## <a name="to-force-preloading-of-contentprefetcher-specified-resources"></a>ContentPrefetcher 지정 리소스를 강제로 미리 로드하려면  
  이 절차는 이미 ContentPrefetcher 기능을 설정하고 응용 프로그램 프로젝트에서 미리 로드할 콘텐츠 URI를 지정했다는 가정 하에 진행됩니다. 지정된 리소스를 새로 만들거나 수정하는 경우 강제로 콘텐츠를 미리 로드하려면 **Windows 스토어 앱 프리페치 트리거** 명령을 선택하기 전에 앱을 시작했다가 종료해야 합니다. 먼저 응용 프로그램을 실행하여 URI를 등록합니다. 그러면 **Windows 스토어 앱 프리페치 트리거** 명령을 통해 ContentPrefetcher에서 강제로 콘텐츠를 다운로드하여 캐시를 추가합니다. 후속 응용 프로그램 실행 시 콘텐츠가 미리 로드되었다고 가정할 수 있습니다.  
   
-1. 응용 프로그램을 시작하여 프리페치 콘텐츠 URI를 앱과 함께 등록합니다. **디버그** 메뉴에서 **디버깅 시작**(키보드 바로 가기: F5)을 선택합니다.  
+1. 응용 프로그램을 시작하여 프리페치 콘텐츠 URI를 앱과 함께 등록합니다. **디버그** 메뉴에서 **디버깅 시작**(바로 가기 키: F5)을 선택합니다.  
   
-2. 에 **디버깅할** 메뉴 선택 **디버깅 중지** (바로 가기 키: Shift + F5)입니다.  
+2. **디버그** 메뉴에서 **디버깅 중지**(바로 가기 키: Shift+F5)를 선택합니다.  
   
 3. **디버그** 메뉴에서 **기타 디버그 대상**을 선택한 다음, **Windows 스토어 앱 프리페치 트리거**를 선택합니다.  
   
@@ -40,4 +40,4 @@ ms.locfileid: "54984225"
 >  지정된 웹 콘텐츠를 추가 또는 수정할 때마다 이러한 단계를 반복합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [블로그 게시물: Visual Studio 2013 업데이트 2에서에서 Windows 스토어 앱 용 프리페치 트리거](https://blogs.msdn.microsoft.com/devops/2014/02/06/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2/)
+ [블로그 게시물:에 대 한 Windows 스토어 앱 프리페치 트리거 Visual Studio 2013 업데이트 2](https://devblogs.microsoft.com/devops/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2/)
