@@ -13,74 +13,74 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d06c712e72af0cdab61370df8537f7c9aaeff75b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4ba9f1fd7587eb99115751790fdca2995c9ab019
+ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55028492"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56450129"
 ---
 # <a name="idebugpendingbreakpoint2virtualize"></a>IDebugPendingBreakpoint2::Virtualize
-중단점 보류 중인이 가상화 된 상태를 토글합니다. 보류 중인 중단점은 가상화 된 경우 새 코드를 프로그램에 로드 될 때마다 사용자에 게 바인딩하지 디버그 엔진 시도가입니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT Virtualize(   
-   BOOL fVirtualize  
-);  
-```  
-  
-```cpp  
-int Virtualize(   
-   int fVirtualize  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `fVirtualize`  
- [in] 설정에 0이 아닌 값 (`TRUE`) 보류 중인 중단점, 가상화 또는 0 (`FALSE`) 가상화를 해제 하려면.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 중단점 삭제 된 경우.  
-  
-## <a name="remarks"></a>설명  
- 가상화 된 중단점은 코드가 로드 될 때마다 바인딩됩니다.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는 간단한에 대 한이 메서드를 구현 하는 방법을 보여 줍니다 `CPendingBreakpoint` 노출 하는 개체를 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 인터페이스입니다.  
-  
-```cpp  
-HRESULT CPendingBreakpoint::Virtualize(BOOL fVirtualize)    
-{    
-   HRESULT hr;    
-  
-   // Verify that the pending breakpoint has not been deleted. If deleted,   
-   // then return hr = E_BP_DELETED.    
-   if (m_state.state != PBPS_DELETED)    
-   {    
-      if (fVirtualize)    
-      {    
-         // Set the PBPSF_VIRTUALIZED flag in the PENDING_BP_STATE_FLAGS   
-         // structure.    
-         SetFlag(m_state.flags, PBPSF_VIRTUALIZED);    
-      }    
-      else    
-      {    
-         // Clear the PBPSF_VIRTUALIZED flag in the PENDING_BP_STATE_FLAGS   
-         // structure.    
-         ClearFlag(m_state.flags, PBPSF_VIRTUALIZED);    
-      }    
-      hr = S_OK;    
-   }    
-   else    
-   {    
-      hr = E_BP_DELETED;    
-   }    
-  
-   return hr;    
-}    
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+중단점 보류 중인이 가상화 된 상태를 토글합니다. 보류 중인 중단점은 가상화 된 경우 새 코드를 프로그램에 로드 될 때마다 사용자에 게 바인딩하지 디버그 엔진 시도가입니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT Virtualize(
+    BOOL fVirtualize
+);
+```
+
+```cpp
+int Virtualize(
+    int fVirtualize
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`fVirtualize`  
+[in] 설정에 0이 아닌 값 (`TRUE`) 보류 중인 중단점, 가상화 또는 0 (`FALSE`) 가상화를 해제 하려면.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 중단점 삭제 된 경우.
+
+## <a name="remarks"></a>설명
+가상화 된 중단점은 코드가 로드 될 때마다 바인딩됩니다.
+
+## <a name="example"></a>예제
+다음 예제에서는 간단한에 대 한이 메서드를 구현 하는 방법을 보여 줍니다 `CPendingBreakpoint` 노출 하는 개체를 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 인터페이스입니다.
+
+```cpp
+HRESULT CPendingBreakpoint::Virtualize(BOOL fVirtualize)
+{
+    HRESULT hr;
+
+    // Verify that the pending breakpoint has not been deleted. If deleted,
+    // then return hr = E_BP_DELETED.
+    if (m_state.state != PBPS_DELETED)
+    {
+        if (fVirtualize)
+        {
+            // Set the PBPSF_VIRTUALIZED flag in the PENDING_BP_STATE_FLAGS
+            // structure.
+            SetFlag(m_state.flags, PBPSF_VIRTUALIZED);
+        }
+        else
+        {
+            // Clear the PBPSF_VIRTUALIZED flag in the PENDING_BP_STATE_FLAGS
+            // structure.
+            ClearFlag(m_state.flags, PBPSF_VIRTUALIZED);
+        }
+        hr = S_OK;
+    }
+    else
+    {
+        hr = E_BP_DELETED;
+    }
+
+    return hr;
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

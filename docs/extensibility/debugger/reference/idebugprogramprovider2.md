@@ -12,77 +12,77 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4a91016c493b722ef6c14a0fe6e45468544f35d0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 1a1ca2f649bd680249cc00ec537c6015def6ad8a
+ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54995598"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56449610"
 ---
 # <a name="idebugprogramprovider2"></a>IDebugProgramProvider2
-이 등록된 인터페이스를 사용 하면 세션 디버그 관리자 (SDM)가 "게시"를 통해 프로그램에 대 한 정보를 [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md) 인터페이스입니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```  
-IDebugProgramProvider2 : IUnknown  
-```  
-  
-## <a name="notes-for-implementers"></a>구현자 참고 사항  
- 디버그 엔진 (DE) 디버깅 중인 프로그램에 대 한 정보를 제공 하려면이 인터페이스를 구현 합니다. 이 인터페이스는 메트릭을 사용 하 여 레지스트리 DE 섹션에 등록 되어 `metricProgramProvider`에 설명 된 대로 [디버깅을 위한 SDK 도우미](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)합니다.  
-  
-## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- COM의 호출 `CoCreateInstance` 함수는 `CLSID` 레지스트리에서 가져온 프로그램 공급자의입니다. 예제를 참조 하세요.  
-  
-## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
-  
-|메서드|설명|  
-|------------|-----------------|  
-|[GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)|프로그램 실행, 다양 한 방법으로 필터링 하는 방법에 대 한 정보를 얻습니다.|  
-|[GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)|노드를 가져옵니다. 프로그램에는 특정 프로세스 ID를 지정 합니다.|  
-|[WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)|특정 유형의 프로세스와 관련 된 공급자 이벤트를 조사 하는 콜백을 설정 합니다.|  
-|[SetLocale](../../../extensibility/debugger/reference/idebugprogramprovider2-setlocale.md)|DE에 필요한 모든 언어 관련 리소스에 대 한 로캘을 설정 합니다.|  
-  
-## <a name="remarks"></a>설명  
- 일반적으로 프로세스는 해당 프로세스에서 실행 중인 프로그램에 자세히 알아보려면이 인터페이스를 사용 합니다.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: msdbg.h  
-  
- 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
-  
- 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## <a name="example"></a>예제  
-  
-```cpp  
-IDebugProgramProvider2 *GetProgramProvider(GUID *pDebugEngineGuid)  
-{  
-    // This is typically defined globally.  For this example, it is  
-    // defined here.  
-    static const WCHAR strRegistrationRoot[] = L"Software\\Microsoft\\VisualStudio\\8.0Exp";  
-    IDebugProgramProvider2 *pProvider = NULL;  
-    if (pDebugEngineGuid != NULL) {  
-        CLSID clsidProvider = { 0 };  
-        ::GetMetric(NULL,  
-                    metrictypeEngine,  
-                    *pDebugEngineGuid,  
-                    metricProgramProvider,  
-                    &clsidProvider,  
-                    strRegistrationRoot);  
-        if (!IsEqualGUID(clsidProvider,GUID_NULL)) {  
-            CComPtr<IDebugProgramProvider2> spProgramProvider;  
-            spProgramProvider.CoCreateInstance(clsidProvider);  
-            if (spProgramProvider != NULL) {  
-                pProvider = spProgramProvider.Detach();  
-            }  
-        }  
-    }  
-    return(pProvider);  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)   
- [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)   
- [디버깅을 위한 SDK 도우미](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+이 등록된 인터페이스를 사용 하면 세션 디버그 관리자 (SDM)가 "게시"를 통해 프로그램에 대 한 정보를 [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md) 인터페이스입니다.
+
+## <a name="syntax"></a>구문
+
+```
+IDebugProgramProvider2 : IUnknown
+```
+
+## <a name="notes-for-implementers"></a>구현자 참고 사항
+디버그 엔진 (DE) 디버깅 중인 프로그램에 대 한 정보를 제공 하려면이 인터페이스를 구현 합니다. 이 인터페이스는 메트릭을 사용 하 여 레지스트리 DE 섹션에 등록 되어 `metricProgramProvider`에 설명 된 대로 [디버깅을 위한 SDK 도우미](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)합니다.
+
+## <a name="notes-for-callers"></a>호출자에 대 한 정보
+COM의 호출 `CoCreateInstance` 함수는 `CLSID` 레지스트리에서 가져온 프로그램 공급자의입니다. 예제를 참조 하세요.
+
+## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드
+
+|메서드|설명|
+|------------|-----------------|
+|[GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)|프로그램 실행, 다양 한 방법으로 필터링 하는 방법에 대 한 정보를 얻습니다.|
+|[GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)|노드를 가져옵니다. 프로그램에는 특정 프로세스 ID를 지정 합니다.|
+|[WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)|특정 유형의 프로세스와 관련 된 공급자 이벤트를 조사 하는 콜백을 설정 합니다.|
+|[SetLocale](../../../extensibility/debugger/reference/idebugprogramprovider2-setlocale.md)|DE에 필요한 모든 언어 관련 리소스에 대 한 로캘을 설정 합니다.|
+
+## <a name="remarks"></a>설명
+일반적으로 프로세스는 해당 프로세스에서 실행 중인 프로그램에 자세히 알아보려면이 인터페이스를 사용 합니다.
+
+## <a name="requirements"></a>요구 사항
+헤더: msdbg.h
+
+네임스페이스: Microsoft.VisualStudio.Debugger.Interop
+
+어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## <a name="example"></a>예제
+
+```cpp
+IDebugProgramProvider2 *GetProgramProvider(GUID *pDebugEngineGuid)
+{
+    // This is typically defined globally. For this example, it is
+    // defined here.
+    static const WCHAR strRegistrationRoot[] = L"Software\\Microsoft\\VisualStudio\\8.0Exp";
+    IDebugProgramProvider2 *pProvider = NULL;
+    if (pDebugEngineGuid != NULL) {
+        CLSID clsidProvider = { 0 };
+        ::GetMetric(NULL,
+                    metrictypeEngine,
+                    *pDebugEngineGuid,
+                    metricProgramProvider,
+                    &clsidProvider,
+                    strRegistrationRoot);
+        if (!IsEqualGUID(clsidProvider,GUID_NULL)) {
+            CComPtr<IDebugProgramProvider2> spProgramProvider;
+            spProgramProvider.CoCreateInstance(clsidProvider);
+            if (spProgramProvider != NULL) {
+                pProvider = spProgramProvider.Detach();
+            }
+        }
+    }
+    return(pProvider);
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)  
+[IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)  
+[디버깅을 위한 SDK 도우미](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
