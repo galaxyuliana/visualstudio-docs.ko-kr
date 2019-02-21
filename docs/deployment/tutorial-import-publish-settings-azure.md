@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 98498b59f01bbd8a72a52695203d80a995497823
-ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
+ms.openlocfilehash: be70da79b1edc6142be1c45464097a027f859979
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "55690465"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56413568"
 ---
 # <a name="publish-an-application-to-azure-app-service-by-importing-publish-settings-in-visual-studio"></a>Visual Studio에서 게시 설정을 가져와서 Azure App Service에 애플리케이션 게시
 
@@ -50,6 +50,8 @@ ms.locfileid: "55690465"
 1. **Visual C#**  또는 **Visual Basic** 아래에서 **웹**을 선택한 다음, 가운데 창에서 **ASP.NET 웹 애플리케이션(.NET Framework)** 또는 (C# 전용인 경우) **ASP.NET Core 웹 애플리케이션**을 선택한 다음, **확인**을 클릭합니다.
 
     지정된 프로젝트 템플릿이 표시되지 않으면 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Open Visual Studio 설치 관리자** 링크를 클릭합니다. Visual Studio 설치 관리자가 시작됩니다. **ASP.NET 및 웹 개발** 워크로드를 설치합니다.
+
+    선택한 프로젝트 템플릿(ASP.NET 또는 ASP.NET Core)은 웹 서버에 설치된 ASP.NET의 버전과 일치해야 합니다.
 
 1. **MVC**(.NET Framework) 또는 **웹 애플리케이션(Model-View-Controller)**(.NET Core용)을 선택하고, **인증 안 함**이 선택되었는지 확인한 다음, **확인**을 클릭합니다.
 

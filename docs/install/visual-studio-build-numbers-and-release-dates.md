@@ -6,18 +6,18 @@ keywords: ''
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 02/05/2019
+ms.date: 02/14/2019
 ms.topic: reference
 helpviewer_keywords: ''
 ms.custom: seodec18
 ms.workload:
 - multiple
-ms.openlocfilehash: 8b33b794bf790d2b68368ee4853c699f6de01300
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: fceccbc77b2999124e1d2af50a53cfd044556312
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939530"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317993"
 ---
 # <a name="visual-studio-build-numbers-and-release-dates"></a>Visual Studio 빌드 번호 및 릴리스 날짜
 
@@ -27,6 +27,8 @@ ms.locfileid: "55939530"
 
 | **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.7 | Release | 2019년 2월 12일 | 15.9.28307.423 |
+| 15.0.21 | Release | 2019년 2월 12일 | 15.0.26228.73 |
 | 15.9.6 | Release | 2019년 1월 24일 | 15.9.28307.344 |
 | 15.9.5 | Release | 2019년 1월 8일 | 15.9.28307.280 |
 | 15.9.4 | Release | 2018년 12월 11일 | 15.9.28307.222 |
@@ -175,6 +177,7 @@ ms.locfileid: "55939530"
 
 | **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | Preview 3 | 2019년 2월 13일 | 16.0.28608.199 |
 | 16.0.0 | 미리 보기 2.2 | 2019년 2월 5일 | 16.0.28602.52 |
 | 16.0.0 | 미리 보기 2.1 | 2019년 1월 31일 | 16.0.28529.54 |
 | 16.0.0 | Preview 2 | 2019년 1월 23일 | 16.0.28522.59 |
@@ -185,6 +188,7 @@ ms.locfileid: "55939530"
 
 ## <a name="see-also"></a>참고 항목
 
+* [Visual Studio 릴리스 리듬](/visualstudio/productinfo/release-rhythm)
 * [Visual Studio 2017 관리자 가이드](visual-studio-administrator-guide.md)
 * [명령줄 매개 변수를 사용하여 Visual Studio 2017 설치](use-command-line-parameters-to-install-visual-studio.md)
 * [Visual Studio 인스턴스 검색 및 관리 도구](tools-for-managing-visual-studio-instances.md)

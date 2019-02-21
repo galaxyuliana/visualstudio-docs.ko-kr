@@ -19,8 +19,7 @@ ms.locfileid: "55940766"
 ---
 # <a name="state-activity-designer"></a>상태 활동 디자이너
 
-
-  <xref:System.Activities.Statements.State>는 상태 시스템이 가질 수 있는 상태를 나타냅니다.
+<xref:System.Activities.Statements.State>는 상태 시스템이 가질 수 있는 상태를 나타냅니다.
 
 ## <a name="using-the-state-activity-designer"></a>상태 활동 디자이너 사용
 

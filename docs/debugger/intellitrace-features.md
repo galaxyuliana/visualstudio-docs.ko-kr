@@ -20,18 +20,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2191ed7d6c091b730be9204d70cec79a0c6e5e44
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8ab4bf684fae4919869bb4c3ad170c5dee29eda9
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55035239"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317772"
 ---
 # <a name="intellitrace-features-c-visual-basic-c"></a>IntelliTrace 기능 (C#, Visual Basic, c + +)
 
 IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호출을 기록하고 실행 중 다양한 지점에서 상태(호출 스택 및 지역 변수 값)를 검사할 수 있습니다. 평소와 같이 디버깅을 시작하면 됩니다. IntelliTrace가 기본적으로 설정되어 있으므로 **이벤트** 탭 아래의 새로운 **진단 도구** 창에서 IntelliTrace가 기록하는 정보를 확인할 수 있습니다. 이벤트를 선택하고 **기록 디버깅 활성화**를 클릭하면 호출 스택 및 이 이벤트에 대해 기록된 로컬 변수를 볼 수 있습니다.
 
-단계별 설명을 참조 하세요 [연습: IntelliTrace를 사용 하 여](../debugger/walkthrough-using-intellitrace.md)입니다.
+단계별 설명을 보려면 [연습: IntelliTrace 사용](../debugger/walkthrough-using-intellitrace.md)을 참조하세요.
 
 IntelliTrace는 Visual Studio Enterprise Edition에서 사용할 수 있으며 Visual Studio Professional 또는 Community Edition에서는 사용할 수 없습니다.
 
@@ -105,21 +105,21 @@ IntelliTrace 데이터를 파일에 저장하면 IntelliTrace가 수집한 프�
 
 ## <a name="blogs"></a>블로그
 
-[Visual Studio Enterprise 2015의 IntelliTrace](https://blogs.msdn.microsoft.com/devops/2015/01/16/intellitrace-in-visual-studio-ultimate-2015/)
+[Visual Studio Enterprise 2015의 IntelliTrace](https://devblogs.microsoft.com/devops/intellitrace-in-visual-studio-ultimate-2015/)
 
-[라이브 디버깅 연습 (텍스트 편집기) Visual Studio 2015의 IntelliTrace를 사용 하 여](https://blogs.msdn.microsoft.com/devops/2015/01/16/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-text-editor/)
+[라이브 디버깅 연습 (텍스트 편집기) Visual Studio 2015의 IntelliTrace를 사용 하 여](https://devblogs.microsoft.com/devops/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-text-editor/)
 
-[라이브 디버깅 연습 (소셜 클럽) Visual Studio 2015의 IntelliTrace를 사용 하 여](https://blogs.msdn.microsoft.com/devops/2015/04/29/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-social-club/)
+[라이브 디버깅 연습 (소셜 클럽) Visual Studio 2015의 IntelliTrace를 사용 하 여](https://devblogs.microsoft.com/devops/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-social-club/)
 
-[연결 지원 이제 Visual Studio Enterprise 2015의 IntelliTrace!](https://blogs.msdn.microsoft.com/devops/2015/05/14/intellitrace-in-visual-studio-enterprise-2015-now-supports-attach/)
+[연결 지원 이제 Visual Studio Enterprise 2015의 IntelliTrace!](https://devblogs.microsoft.com/devops/intellitrace-in-visual-studio-enterprise-2015-now-supports-attach/)
 
-[IntelliTrace 독립 실행형 수집기를 사용 하 여 windows 서비스에서 데이터를 수집 합니다.](https://blogs.msdn.microsoft.com/devops/2015/05/14/collect-data-from-a-windows-service-using-the-intellitrace-standalone-collector/)
+[IntelliTrace 독립 실행형 수집기를 사용 하 여 windows 서비스에서 데이터를 수집 합니다.](https://devblogs.microsoft.com/devops/collect-data-from-a-windows-service-using-the-intellitrace-standalone-collector/)
 
-[IntelliTrace 컬렉션 계획 편집](https://blogs.msdn.microsoft.com/devops/2015/03/09/editing-the-intellitrace-collection-plan/)
+[IntelliTrace 컬렉션 계획 편집](https://devblogs.microsoft.com/devops/editing-the-intellitrace-collection-plan)
 
-[사용자 지정 TraceSource 및 IntelliTrace를 사용한 디버깅](https://blogs.msdn.microsoft.com/devops/2014/12/16/custom-tracesource-and-debugging-using-intellitrace/)
+[사용자 지정 TraceSource 및 IntelliTrace를 사용한 디버깅](https://devblogs.microsoft.com/devops/custom-tracesource-and-debugging-using-intellitrace/)
 
-[Active Directory 계정으로 IntelliTrace 독립 실행형 수집기 및 응용 프로그램 풀이 실행](https://blogs.msdn.microsoft.com/devops/2014/12/22/intellitrace-standalone-collector-and-application-pools-running-under-active-directory-accounts/)
+[Active Directory 계정으로 IntelliTrace 독립 실행형 수집기 및 응용 프로그램 풀이 실행](https://devblogs.microsoft.com/devops/intellitrace-standalone-collector-and-application-pools-running-under-active-directory-accounts/)
 
 ## <a name="forums"></a>포럼
 

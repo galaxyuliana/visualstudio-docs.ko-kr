@@ -6,23 +6,34 @@ ms.author: crdun
 ms.date: 02/07/2019
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video
-ms.openlocfilehash: 2a5b60496a53c35bb67e5cd19d6059212e22ccfd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e192f75508173cd4014e391168ab27e9abe2bc9a
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911782"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317213"
 ---
 # <a name="visual-studio-2019-for-mac-preview-tour"></a>Mac용 Visual Studio 2019 미리 보기 둘러보기
 
 > [!NOTE]
 > 이제 Mac용 Visual Studio 2019는 테스트용 미리 보기로 [제공됩니다](installation.md).
 
-Mac용 Visual Studio는 Xamarin의 모바일 중심 IDE인 Xamarin Studio를 Mac의 모바일 우선, 클라우드 우선 개발 환경으로 발전시킵니다. 이 개발자 중심 도구를 통해 .NET의 기능을 사용하여 사용자에게 필요한 모든 플랫폼용 애플리케이션을 만들 수 있습니다.
+Mac용 Visual Studio는 코드를 편집, 디버그 및 빌드한 다음, 앱을 게시하는 데 사용할 수 있는 Mac의 .NET _통합 개발 환경_입니다. Mac용 Visual Studio는 표준 편집기 및 디버거와 같은 예상 기능 외에도 컴파일러, 코드 완성 도구, 그래픽 디자이너 및 소프트웨어 개발 프로세스를 위한 소스 제어를 포함하고 있습니다.
 
-Mac용 Visual Studio의 UX(사용자 환경)는 해당하는 Windows 제품과 비슷하지만 네이티브 macOS 느낌이 있습니다. 앱을 만들고 열고 개발하는 작업은 이전에 Windows에서 Visual Studio를 사용한 적이 있는 모든 사용자에게 익숙한 경험일 것입니다. 또한 Mac용 Visual Studio에서는 해당하는 Windows 제품을 효과적인 IDE로 만드는 여러 가지 효과적인 도구를 활용합니다. Roslyn 컴파일러 플랫폼은 리팩터링 및 IntelliSense에 사용됩니다. 해당 프로젝트 시스템과 빌드 엔진은 MSBuild를 사용하고, 해당 소스 편집기는 TextMate 번들을 지원합니다. Xamarin 및 .NET Core 앱에 대해 동일한 디버거 엔진을 사용하고, Xamarin.iOS 및 Xamarin.Android에 대해 동일한 디자이너를 사용합니다.
+Mac용 Visual Studio는 `.csproj`, `.fsproj` 또는 `.sln` 파일과 같은 Windows 카운터파트와 동일한 여러 파일 형식을 지원하고 EditorConfig와 같은 기능을 지원합니다. 이는 가장 적합한 IDE를 사용할 수 있음을 의미합니다.
+앱을 만들고 열고 개발하는 작업은 이전에 Windows에서 Visual Studio를 사용한 적이 있는 모든 사용자에게 익숙한 경험일 것입니다. 또한 Mac용 Visual Studio에서는 해당하는 Windows 제품을 효과적인 IDE로 만드는 여러 가지 효과적인 도구를 활용합니다. Roslyn 컴파일러 플랫폼은 리팩터링 및 IntelliSense에 사용됩니다. 해당 프로젝트 시스템과 빌드 엔진은 MSBuild를 사용하고, 해당 소스 편집기는 TextMate 번들을 지원합니다. Xamarin 및 .NET Core 앱에 대해 동일한 디버거 엔진을 사용하고, Xamarin.iOS 및 Xamarin.Android에 대해 동일한 디자이너를 사용합니다.
 
-이 문서에서는 Mac용 Visual Studio의 다양한 섹션을 살펴보고, 플랫폼 간 애플리케이션을 만들기 위한 효과적인 도구를 구성하는 몇 가지 기능을 설명합니다.
+## <a name="what-can-i-do-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 무엇을 할 수 있나요?
+
+Mac용 Visual Studio는 다음과 같은 개발 유형을 지원합니다.
+
+- Razor 페이지, JavaScript 및 TypeScript를 위한 C#, F# 및 지원 기능이 있는 ASP.NET Core 웹 애플리케이션
+- C# 또는 F#이 있는 .NET Core 콘솔 애플리케이션
+- C#이 있는 플랫폼 간 Unity 게임 및 애플리케이션
+- C# 또는 F# 및 XAML이 있는 Xamarin의 Android, iOS, tvOS 및 watchOS 애플리케이션
+- C# 또는 F#의 Cocoa 데스크톱 앱
+
+이 문서에서는 Mac용 Visual Studio의 다양한 섹션을 살펴보고, 이러한 애플리케이션을 만들기 위한 효과적인 도구를 구성하는 몇 가지 기능을 설명합니다.
 
 ## <a name="ide-tour"></a>IDE 둘러보기
 

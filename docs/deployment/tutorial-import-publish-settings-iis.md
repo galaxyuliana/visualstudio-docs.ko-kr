@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b38f9d951be37619c84095c379879e1acd51cf7b
-ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
+ms.openlocfilehash: 6ab41ead57671948dcc30a0d3009fad2bfabfa34
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "55690452"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56413308"
 ---
 # <a name="publish-an-application-to-iis-by-importing-publish-settings-in-visual-studio"></a>Visual Studio에서 게시 설정을 가져와서 IIS에 애플리케이션 게시
 
@@ -52,7 +52,7 @@ ms.locfileid: "55690452"
 
     지정된 프로젝트 템플릿이 표시되지 않으면 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Open Visual Studio 설치 관리자** 링크를 클릭합니다. Visual Studio 설치 관리자가 시작됩니다. **ASP.NET 및 웹 개발** 워크로드를 설치합니다.
 
-    선택한 프로젝트 템플릿(ASP.NET 또는 ASP.NET Core)은 다음과 일치해야 합니다. 
+    선택한 프로젝트 템플릿(ASP.NET 또는 ASP.NET Core)은 웹 서버에 설치된 ASP.NET의 버전과 일치해야 합니다.
 
 1. **MVC**(.NET Framework) 또는 **웹 애플리케이션(Model-View-Controller)**(.NET Core용)을 선택하고, **인증 안 함**이 선택되었는지 확인한 다음, **확인**을 클릭합니다.
 

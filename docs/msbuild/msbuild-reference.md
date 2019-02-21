@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 81a081f49fd8d19cac524021ca854cd5b8142e22
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 31e819ebb18e5bb723d3a138a139cdc0269fa6ed
+ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54920834"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56413321"
 ---
 # <a name="msbuild-reference"></a>MSBuild 참조
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]용 빌드 시스템입니다. 다음 링크를 통해 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 참조 정보가 포함된 항목으로 이동할 수 있습니다.  

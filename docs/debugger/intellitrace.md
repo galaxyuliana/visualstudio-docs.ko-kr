@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 408864d2f105762cbaede528f8794595a34b3b29
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a4ad4108e798c493ee17bf37420440acdf607b53
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54973332"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56317057"
 ---
 # <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic, c + +)
 
@@ -141,7 +141,7 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
     - [저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)
 
-    - [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)
+    - [연습: IntelliTrace를 사용하여 SharePoint 애플리케이션 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)
 
 **스냅숏 캡처**
 
@@ -186,7 +186,7 @@ IntelliTrace가 호출 정보를 어느 정도 수집할지 제어하려면 관�
 
 ### <a name="blogs"></a>블로그
 
-[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
+[Microsoft DevOps](https://devblogs.microsoft.com/devops/)
 
 ### <a name="forums"></a>포럼
 

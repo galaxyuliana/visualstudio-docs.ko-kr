@@ -10,12 +10,12 @@ author: gewarren
 dev_langs:
 - VB
 - CSharp
-ms.openlocfilehash: 512c62c589dcfc4276e35247d268a035b03865a9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1d3ec88a8abc0a6fcac47043a1b27d27f5b3e6f4
+ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937723"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56316459"
 ---
 # <a name="isolate-code-under-test-with-microsoft-fakes"></a>Microsoft Fakes를 사용하여 테스트 중인 코드 격리
 
@@ -35,7 +35,8 @@ Fakes는 두 가지 버전이 있습니다.
 -   .NET Framework 프로젝트
 
 > [!NOTE]
-> .NET Standard 프로젝트는 지원되지 않습니다.
+> - .NET Standard 프로젝트는 지원되지 않습니다.
+> - Visual Studio를 이용한 프로파일링은 Microsoft Fakes를 사용하는 테스트에는 사용할 수 없습니다.
 
 ## <a name="choose-between-stub-and-shim-types"></a>스텁 및 shim 형식 중에 선택
 일반적으로 이러한 클래스를 동시에 개발하고 업데이트했으므로 Visual Studio 프로젝트를 구성 요소라고 생각할 수 있습니다. 프로젝트가 솔루션의 다른 프로젝트에 대해 만드는 호출 또는 프로젝트가 참조하는 다른 어셈블리에 대해 만드는 호출에 스텁 또는 shim을 사용하는 것을 고려할 수 있습니다.
