@@ -12,54 +12,54 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0f2819f0e913b9078f22482fb39164e8ba8d40da
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 151d45159c6c5dda42e138899a027adcc60774c2
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54866506"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56619539"
 ---
 # <a name="safecontrols-element"></a>SafeControls 요소
-  ASPX 컨트롤 및 SharePoint 사이트의 모든 ASPX 페이지에 액세스 하려면 모든 사용자에 대 한 보안 지정 된 웹 파트의 컬렉션입니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```xml  
-<SafeControls>  
-  <SafeControl.../>  
-</SafeControls>  
-```  
-  
+  ASPX 컨트롤 및 SharePoint 사이트의 모든 ASPX 페이지에 액세스 하려면 모든 사용자에 대 한 보안 지정 된 웹 파트의 컬렉션입니다.
+
+## <a name="syntax"></a>구문
+
+```xml
+<SafeControls>
+  <SafeControl.../>
+</SafeControls>
+```
+
 ## <a name="attributes-and-elements"></a>특성 및 요소
- 다음 단원에서는 특성, 자식 요소 및 부모 요소에 대해 설명합니다.  
-  
-### <a name="attributes"></a>특성  
- 없음  
-  
+ 다음 단원에서는 특성, 자식 요소 및 부모 요소에 대해 설명합니다.
+
+### <a name="attributes"></a>특성
+ 없음
+
 ### <a name="child-elements"></a>자식 요소
-  
-|요소|설명|  
-|-------------|-----------------|  
-|[SafeControl](../sharepoint/safecontrol-element.md)|선택적 요소입니다.<br /><br /> ASPX 컨트롤 또는 SharePoint 사이트의 모든 ASPX 페이지에 액세스 하려면 모든 사용자에 대 한 보안 지정 된 웹 파트를 나타냅니다.|  
-  
+
+|요소|설명|
+|-------------|-----------------|
+|[SafeControl](../sharepoint/safecontrol-element.md)|선택적 요소입니다.<br /><br /> ASPX 컨트롤 또는 SharePoint 사이트의 모든 ASPX 페이지에 액세스 하려면 모든 사용자에 대 한 보안 지정 된 웹 파트를 나타냅니다.|
+
 ### <a name="parent-elements"></a>부모 요소
-  
-|요소|설명|  
-|-------------|-----------------|  
-|[ProjectItem](../sharepoint/projectitem-element.md)|SharePoint 프로젝트 항목을 나타냅니다. 이 요소는 필수 루트 요소에는 *.spdata* 파일.|  
-  
-## <a name="remarks"></a>설명  
- 안전 컨트롤에 대 한 자세한 내용은 참조 하세요. [프로젝트 항목에 패키징 및 배포 정보를 제공](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)합니다.  
-  
+
+|요소|설명|
+|-------------|-----------------|
+|[ProjectItem](../sharepoint/projectitem-element.md)|SharePoint 프로젝트 항목을 나타냅니다. 이 요소는 필수 루트 요소에는 *.spdata* 파일.|
+
+## <a name="remarks"></a>설명
+ 안전 컨트롤에 대 한 자세한 내용은 참조 하세요. [프로젝트 항목에 패키징 및 배포 정보를 제공](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)합니다.
+
 ## <a name="element-information"></a>요소 정보
-  
-|||  
-|-|-|  
-|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
-|**스키마 이름**|SharePoint 프로젝트 항목 스키마|  
-|**유효성 검사 파일**|ProjectItemModelSchema.xsd|  
-|**비어 있을 수 있습니다.**|아니요|  
-  
+
+|||
+|-|-|
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|
+|**스키마 이름**|SharePoint 프로젝트 항목 스키마|
+|**유효성 검사 파일**|ProjectItemModelSchema.xsd|
+|**비어 있을 수 있습니다.**|아니요|
+
 ## <a name="see-also"></a>참고자료
- [SharePoint 프로젝트 항목 스키마 참조](../sharepoint/sharepoint-project-item-schema-reference.md)   
- [프로젝트 항목에 패키징 및 배포 정보를 제공 합니다.](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
+- [SharePoint 프로젝트 항목 스키마 참조](../sharepoint/sharepoint-project-item-schema-reference.md)
+- [프로젝트 항목에 패키징 및 배포 정보를 제공 합니다.](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)

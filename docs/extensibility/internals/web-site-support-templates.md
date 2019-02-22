@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 36c22cbb5ca39e48e488851f26786955c9704fda
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 75e918c752484129f9b89f939bc6fbbce6df803c
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54961600"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56618200"
 ---
 # <a name="web-site-support-templates"></a>웹 사이트 지원 템플릿
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 웹 사이트 프로젝트 및 항목 템플릿을 처음부터 새 웹 사이트 프로젝트와 항목을 만들 필요성을 제거 하 여 개발 프로세스를 가속화 하는 재사용 가능한 및 사용자 지정 가능한 웹 사이트 프로젝트 및 항목 스텁을 제공 합니다. 에 대 한 자세한 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 을 참조 하십시오 [프로젝트 및 항목 템플릿 만들기](../../ide/creating-project-and-item-templates.md)합니다.
@@ -185,4 +185,4 @@ ms.locfileid: "54961600"
      있는 경우 새 마스터 페이지 및 해당 종속 파일의 내용을 결정 하는 템플릿 파일입니다.
 
 ## <a name="see-also"></a>참고 항목
- [웹 사이트 지원](../../extensibility/internals/web-site-support.md)
+- [웹 사이트 지원](../../extensibility/internals/web-site-support.md)
