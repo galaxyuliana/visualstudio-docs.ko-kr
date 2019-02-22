@@ -11,18 +11,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4f94efff27ea45dc070e34f26d85be4bd7ff5b50
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4f9a4a873f2b6b3f41bd86d046bc187c17f063f1
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54936907"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56601155"
 ---
 # <a name="services-provided-source-control-vspackage"></a>제공된 서비스(소스 제어 VSPackage)
-서비스는 있는 기능 및 Visual Studio 통합된 개발 환경 (IDE)와 해당 설치 Vspackage Vspackage 간에 공유 되는 기본 메커니즘입니다. 서비스 및 Visual Studio IDE에서 중요도의 자세한 설명을 참조 하세요[사용 및 제공 서비스](../../extensibility/using-and-providing-services.md)합니다.  
-  
-## <a name="the-source-control-service"></a>소스 제어 서비스  
- Visual Studio 서비스, IDE 수준 서비스 및 패키지 수준 서비스의 두 계층을 제공합니다. Visual Studio IDE는 고유 하 게 IDE 수준 서비스를 제공합니다. 소스 제어 패키지 이러한 서비스 중 일부를 사용 합니다. 소스 제어 VSPackage로 패키지 자체의 개인 원본 제어 서비스를 제공 하 여 해당 원본 제어 기능을 공유 합니다. 소스 제어 패키지는 Visual Studio IDE에서 사용할 수 있는 계약의 형식에 의해 구현 된 원본 제어와 관련 된 인터페이스 집합을 캡슐화 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [디자인 요소](../../extensibility/internals/source-control-vspackage-design-elements.md)
+서비스는 있는 기능 및 Visual Studio 통합된 개발 환경 (IDE)와 해당 설치 Vspackage Vspackage 간에 공유 되는 기본 메커니즘입니다. 서비스 및 Visual Studio IDE에서 중요도의 자세한 설명을 참조 하세요[사용 및 제공 서비스](../../extensibility/using-and-providing-services.md)합니다.
+
+## <a name="the-source-control-service"></a>소스 제어 서비스
+ Visual Studio 서비스, IDE 수준 서비스 및 패키지 수준 서비스의 두 계층을 제공합니다. Visual Studio IDE는 고유 하 게 IDE 수준 서비스를 제공합니다. 소스 제어 패키지 이러한 서비스 중 일부를 사용 합니다. 소스 제어 VSPackage로 패키지 자체의 개인 원본 제어 서비스를 제공 하 여 해당 원본 제어 기능을 공유 합니다. 소스 제어 패키지는 Visual Studio IDE에서 사용할 수 있는 계약의 형식에 의해 구현 된 원본 제어와 관련 된 인터페이스 집합을 캡슐화 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [디자인 요소](../../extensibility/internals/source-control-vspackage-design-elements.md)

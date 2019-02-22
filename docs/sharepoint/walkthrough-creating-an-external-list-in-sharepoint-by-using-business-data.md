@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 930edf4483d946c92a0c3c21242bfe0bb421a229
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 45f0a896db97d489d58036ea226962550b512665
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54874184"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56600300"
 ---
 # <a name="walkthrough-create-an-external-list-in-sharepoint-by-using-business-data"></a>연습: 비즈니스 데이터를 사용 하 여 SharePoint에 외부 목록 만들기
 
@@ -276,7 +276,7 @@ Specificfinder 메서드를 사용 하 여 연락처 엔터티를 추가 합니�
 
 ## <a name="see-also"></a>참고자료
 
-[비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)  
-[비즈니스 데이터 연결 모델 만들기](../sharepoint/creating-a-business-data-connectivity-model.md)  
-[BDC 모델 디자인 도구 개요](../sharepoint/bdc-model-design-tools-overview.md)  
-[SharePoint 비즈니스 데이터 통합](../sharepoint/integrating-business-data-into-sharepoint.md)
+[비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)
+[비즈니스 데이터 연결 모델 만들기](../sharepoint/creating-a-business-data-connectivity-model.md)
+[BDC 모델 디자인 도구 개요](../sharepoint/bdc-model-design-tools-overview.md) 
+ [ SharePoint 비즈니스 데이터 통합](../sharepoint/integrating-business-data-into-sharepoint.md)

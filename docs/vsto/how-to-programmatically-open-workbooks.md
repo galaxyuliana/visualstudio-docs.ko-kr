@@ -13,36 +13,36 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 59163e0e054e3546ada8c7ee7b7d23362ca96fba
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: f9d8ab4be67ffd84406869c956f9046a53d6ec79
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54869903"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56611895"
 ---
 # <a name="how-to-programmatically-open-workbooks"></a>방법: 프로그래밍 방식으로 통합 문서 열기
-  <xref:Microsoft.Office.Interop.Excel.Workbooks> Microsoft Office Excel에서 컬렉션을 사용 하면 열려 있는 모든 통합 문서를 사용 하 여 작동 하 고 통합 문서를 열 수 있습니다.  
-  
- [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
-  
-## <a name="to-open-an-existing-workbook"></a>기존 통합 문서를 열려면  
-  
-1.  사용 하 여는 <xref:Microsoft.Office.Interop.Excel.Workbooks.Open%2A> 메서드는 <xref:Microsoft.Office.Interop.Excel.Workbooks> 컬렉션, 통합 문서에 경로 전달 합니다.  
-  
+  <xref:Microsoft.Office.Interop.Excel.Workbooks> Microsoft Office Excel에서 컬렉션을 사용 하면 열려 있는 모든 통합 문서를 사용 하 여 작동 하 고 통합 문서를 열 수 있습니다.
+
+ [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
+
+## <a name="to-open-an-existing-workbook"></a>기존 통합 문서를 열려면
+
+1.  사용 하 여는 <xref:Microsoft.Office.Interop.Excel.Workbooks.Open%2A> 메서드는 <xref:Microsoft.Office.Interop.Excel.Workbooks> 컬렉션, 통합 문서에 경로 전달 합니다.
+
      [!code-csharp[Trin_VstcoreExcelAutomation#2](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#2)]
-     [!code-vb[Trin_VstcoreExcelAutomation#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#2)]  
-  
-## <a name="compile-the-code"></a>코드 컴파일  
- 이 코드 예제에는 다음이 필요합니다.  
-  
--   명명 된 통합 문서 `YourWorkbook.xls` 라는 디렉터리에 있어야 `Test` 에서 C 드라이브입니다.  
-  
-## <a name="see-also"></a>참고자료  
- [통합 문서를 사용 하 여 작동 합니다.](../vsto/working-with-workbooks.md)   
- [방법: 프로그래밍 방식으로 통합 문서로 텍스트 파일 열기](../vsto/how-to-programmatically-open-text-files-as-workbooks.md)   
- [방법: 프로그래밍 방식으로 새 통합 문서 만들기](../vsto/how-to-programmatically-create-new-workbooks.md)   
- [방법: 프로그래밍 방식으로 통합 문서 저장](../vsto/how-to-programmatically-save-workbooks.md)   
- [방법: 프로그래밍 방식으로 통합 문서 닫기](../vsto/how-to-programmatically-close-workbooks.md)   
- [호스트 항목 및 호스트 컨트롤의 프로그래밍 방식으로 제한 사항](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
- [Office 솔루션의 선택적 매개 변수](../vsto/optional-parameters-in-office-solutions.md)   
- [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)  
+     [!code-vb[Trin_VstcoreExcelAutomation#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#2)]
+
+## <a name="compile-the-code"></a>코드 컴파일
+ 이 코드 예제에는 다음이 필요합니다.
+
+-   명명 된 통합 문서 `YourWorkbook.xls` 라는 디렉터리에 있어야 `Test` 에서 C 드라이브입니다.
+
+## <a name="see-also"></a>참고자료
+- [통합 문서를 사용 하 여 작동 합니다.](../vsto/working-with-workbooks.md)
+- [방법: 프로그래밍 방식으로 통합 문서로 텍스트 파일 열기](../vsto/how-to-programmatically-open-text-files-as-workbooks.md)
+- [방법: 프로그래밍 방식으로 새 통합 문서 만들기](../vsto/how-to-programmatically-create-new-workbooks.md)
+- [방법: 프로그래밍 방식으로 통합 문서 저장](../vsto/how-to-programmatically-save-workbooks.md)
+- [방법: 프로그래밍 방식으로 통합 문서 닫기](../vsto/how-to-programmatically-close-workbooks.md)
+- [호스트 항목 및 호스트 컨트롤의 프로그래밍 방식으로 제한 사항](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+- [Office 솔루션의 선택적 매개 변수](../vsto/optional-parameters-in-office-solutions.md)
+- [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)

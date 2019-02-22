@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ac58ec0d7175d2d7989ce9c4d6086b5a741e77c9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 076b7aa56ec00fda559bbdfdc8b2b9df2be38816
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54927244"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56603133"
 ---
 # <a name="web-site-support-attributes"></a>웹 사이트 지원 특성
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 웹 사이트 프로젝트 프로그래밍 언어로 웹에 대 한 지원을 제공 하기 위해 확장할 수 있습니다. 언어를 사용 하 여 자체 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 프로젝트 템플릿에 나타날 수 있도록 합니다 **새 웹 사이트** 언어 선택 대화 상자.
@@ -55,4 +55,4 @@ public class PythonPackage : Package, IOleComponent
  IVsIntellisenseProject 구현 참조를 처리 하 고 코드를 사용 하 여 웹 페이지를 요청 하지만 캐시 되지 않을 경우 언어 컴파일러를 호출 합니다.
 
 ## <a name="see-also"></a>참고 항목
- [웹 사이트 지원](../../extensibility/internals/web-site-support.md)
+- [웹 사이트 지원](../../extensibility/internals/web-site-support.md)

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 081f48f89b533862125069f751996c72a4cf00f0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 734898fdaffe067025d45a0b4905443f87450d3c
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55025646"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56629575"
 ---
 # <a name="syntax-coloring-in-a-legacy-language-service"></a>레거시 언어 서비스의 구문 색 지정
 
@@ -63,11 +63,17 @@ Visual Studio는 언어의 요소를 식별 하 고 편집기에서 지정 된 �
 >  언어 서비스 colorizer를 사용 하는 것 외에도 VSPackage는 범용 Visual Studio 텍스트 색 지정 메커니즘을 사용할 수도 있습니다. 이 메커니즘에 대 한 자세한 내용은 참조 하세요. [를 사용 하 여 글꼴 및 색](../../extensibility/using-fonts-and-colors.md)합니다.
 
 ## <a name="in-this-section"></a>섹션 내용
- [구문 색 지정 구현](../../extensibility/internals/implementing-syntax-coloring.md) 편집기에 언어 서비스의 구문 색 지정 및 구문 색 지정을 지원 하도록 언어 서비스를 구현 해야 합니다를 액세스 하는 방법에 대해 설명 합니다.
+- [구문 색 지정 구현](../../extensibility/internals/implementing-syntax-coloring.md)
 
- [방법: 기본 제공 색 항목을 사용 하 여](../../extensibility/internals/how-to-use-built-in-colorable-items.md) 언어 서비스에서 기본 제공 색 항목을 사용 하는 방법을 보여 줍니다.
+ 편집기에서 언어 서비스의 구문 색 지정 및 언어 서비스 해야 구문을 지원 하려면 구현 색 지정을 액세스 하는 방법을 설명 합니다.
 
- [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md) 사용자 지정 색 항목을 구현 하는 방법에 설명 합니다.
+- [방법: 기본 제공 색 항목 사용](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
+
+ 언어 서비스에서 기본 제공 색 항목을 사용 하는 방법을 보여 줍니다.
+
+- [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)
+
+ 사용자 지정 색 항목을 구현 하는 방법에 설명 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

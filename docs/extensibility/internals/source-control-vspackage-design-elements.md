@@ -10,26 +10,30 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2ab547ea2750658d40e20ab9101976dd93b236da
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9e10825bb9bc9659728fbaaeb023a595745b7bcd
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069485"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56642705"
 ---
 # <a name="source-control-vspackage-design-elements"></a>소스 제어 VSPackage 디자인 요소
-이 섹션의에서 항목에서는 소스 제어 VSPackage의 긴밀 한 통합에 대 한 구현 해야 구조를 간략하게 설명 합니다. 또한 인터페이스를 나열 하 고 서비스는 소스 제어 VSPackage를 구현할 수 있습니다 다른 소스 제어 VSPackage 사용 수 인터페이스 및 서비스를 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 모델 및 기능을 제어 하는 구성 요소를 해당 소스를 지원 합니다.  
-  
-## <a name="in-this-section"></a>섹션 내용  
- [VSPackage 구조체](../../extensibility/internals/vspackage-structure-source-control-vspackage.md)  
- 소스 제어 VSPackage의 구조를 정의합니다.  
-  
- [관련 서비스 및 인터페이스](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)  
- 원본 제어 패키지 관련 인터페이스 및 서비스를 나열합니다.  
-  
- [제공된 서비스](../../extensibility/internals/services-provided-source-control-vspackage.md)  
- 소스 제어 VSPackage에서 제공 하는 소스 제어 서비스를 설명 합니다.  
-  
-## <a name="related-sections"></a>관련 단원  
- [소스 제어 VSPackage 만들기](../../extensibility/internals/creating-a-source-control-vspackage.md)  
+이 섹션의에서 항목에서는 소스 제어 VSPackage의 긴밀 한 통합에 대 한 구현 해야 구조를 간략하게 설명 합니다. 또한 인터페이스를 나열 하 고 서비스는 소스 제어 VSPackage를 구현할 수 있습니다 다른 소스 제어 VSPackage 사용 수 인터페이스 및 서비스를 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 모델 및 기능을 제어 하는 구성 요소를 해당 소스를 지원 합니다.
+
+## <a name="in-this-section"></a>섹션 내용
+- [VSPackage 구조체](../../extensibility/internals/vspackage-structure-source-control-vspackage.md)
+
+ 소스 제어 VSPackage의 구조를 정의합니다.
+
+- [관련 서비스 및 인터페이스](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)
+
+ 원본 제어 패키지 관련 인터페이스 및 서비스를 나열합니다.
+
+- [제공된 서비스](../../extensibility/internals/services-provided-source-control-vspackage.md)
+
+ 소스 제어 VSPackage에서 제공 하는 소스 제어 서비스를 설명 합니다.
+
+## <a name="related-sections"></a>관련 단원
+- [소스 제어 VSPackage 만들기](../../extensibility/internals/creating-a-source-control-vspackage.md)
+
  소스 제어 뿐 아니라 소스 제어 기능을 제공 하지만 사용자 지정에 사용할 수 있는 VSPackage를 만드는 방법에 설명 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 소스 UI 컨트롤입니다.

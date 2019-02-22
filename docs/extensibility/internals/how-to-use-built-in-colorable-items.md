@@ -11,30 +11,30 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2f0900792b92a185ce7da66440e0b368870e97be
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e82b28a22d64ed1a97e2f932368da266b6b79d56
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54965957"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56603055"
 ---
 # <a name="how-to-use-built-in-colorable-items"></a>방법: 기본 제공 색 항목 사용
-기본 제공 색 항목을 사용 하면 먼저 알려야 통합된 개발 환경 (IDE)이 경우에 고유한 사용자 지정 색 항목을 제공 하지 않는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> 개체입니다. 언어 서비스에 대 한 레지스트리 항목을 설정 하 여이 작업을 수행 합니다.  
-  
-## <a name="to-use-built-in-colorable-items"></a>기본 제공 색 항목을 사용 하려면  
-  
-1. 아래 **HKEY_LOCAL_MACHINE\VisualStudio\\< X.Y > \Languages\Language Services\\< 언어 이름을\>** 여기서 \<X.Y >의 버전이 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 및 \<언어 이름 > 이름인 언어를 이라는 DWORD 레지스트리 항목 값을 만들 **RequestStockColors**합니다.  
-  
-2. 설정 된 **RequestStockColors** 레지스트리 항목 값을 *1*합니다.  
-  
-    레지스트리 항목에 colorizer의를 만든 후 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> 메서드는 멤버를 사용할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.DEFAULTITEMS> 편집기 사용에 대 한 색 특성 배열을 작성 하는 열거형입니다.  
-  
+기본 제공 색 항목을 사용 하면 먼저 알려야 통합된 개발 환경 (IDE)이 경우에 고유한 사용자 지정 색 항목을 제공 하지 않는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> 개체입니다. 언어 서비스에 대 한 레지스트리 항목을 설정 하 여이 작업을 수행 합니다.
+
+## <a name="to-use-built-in-colorable-items"></a>기본 제공 색 항목을 사용 하려면
+
+1. 아래 **HKEY_LOCAL_MACHINE\VisualStudio\\< X.Y > \Languages\Language Services\\< 언어 이름을\>** 여기서 \<X.Y >의 버전이 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 및 \<언어 이름 > 이름인 언어를 이라는 DWORD 레지스트리 항목 값을 만들 **RequestStockColors**합니다.
+
+2. 설정 된 **RequestStockColors** 레지스트리 항목 값을 *1*합니다.
+
+    레지스트리 항목에 colorizer의를 만든 후 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> 메서드는 멤버를 사용할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.DEFAULTITEMS> 편집기 사용에 대 한 색 특성 배열을 작성 하는 열거형입니다.
+
    > [!NOTE]
-   >  사용자 지정 색 항목을 제공 하는 경우에이 레지스트리 항목을 설정 하지 마십시오. 자세한 내용은 [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)합니다.  
-  
-## <a name="see-also"></a>참고자료  
- [사용자 지정 편집기의 구문 색 지정](../../extensibility/syntax-coloring-in-custom-editors.md)   
- [레거시 언어 서비스의 구문 색 지정](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   
- [구문 색 지정 구현](../../extensibility/internals/implementing-syntax-coloring.md)   
- [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)   
- [레거시 언어 서비스 등록](../../extensibility/internals/registering-a-legacy-language-service2.md)
+   >  사용자 지정 색 항목을 제공 하는 경우에이 레지스트리 항목을 설정 하지 마십시오. 자세한 내용은 [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)합니다.
+
+## <a name="see-also"></a>참고자료
+- [사용자 지정 편집기의 구문 색 지정](../../extensibility/syntax-coloring-in-custom-editors.md)
+- [레거시 언어 서비스의 구문 색 지정](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
+- [구문 색 지정 구현](../../extensibility/internals/implementing-syntax-coloring.md)
+- [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)
+- [레거시 언어 서비스 등록](../../extensibility/internals/registering-a-legacy-language-service2.md)
