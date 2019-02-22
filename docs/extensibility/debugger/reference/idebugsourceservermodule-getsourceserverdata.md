@@ -10,66 +10,66 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 72cc81a9c93e35ad972a49d7c8ed14e02c16387e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8880f00528b1c2b1f081b6c306e1f94cccc109ec
+ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55003349"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56450284"
 ---
 # <a name="idebugsourceservermodulegetsourceserverdata"></a>IDebugSourceServerModule::GetSourceServerData
-원본 서버 정보를 검색합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetSourceServerData(  
-   ULONG* pDataByteCount,   
-   BYTE** ppData  
-);  
-```  
-  
-```csharp  
-public int GetSourceServerData(  
-   out uint  pDataByteCount,   
-   out int[] ppData  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pDataByteCount`  
- [out] 데이터 배열의 바이트 수입니다.  
-  
- `ppData`  
- [out] 데이터 배열에 대 한 참조입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CModule** 노출 하는 개체를 [IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md) 인터페이스입니다.  
-  
-```cpp  
-HRESULT CModule::GetSourceServerData(ULONG* pDataByteCount, BYTE** ppData)  
-{  
-    HRESULT hr = S_OK;  
-    CComPtr<ISymUnmanagedReader> pSymReader;  
-    CComPtr<ISymUnmanagedSourceServerModule> pSourceServerModule;  
-  
-    IfFalseGo( pDataByteCount && ppData, E_INVALIDARG );  
-    *pDataByteCount = 0;  
-    *ppData = NULL;  
-  
-    IfFailGo( this->GetUnmanagedSymReader( &pSymReader ) );  
-    IfFailGo( pSymReader->QueryInterface( &pSourceServerModule ) );  
-  
-    IfFailGo( pSourceServerModule->GetSourceServerData( pDataByteCount, ppData ) );  
-  
-Error:  
-  
-    return hr;  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md)
+원본 서버 정보를 검색합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetSourceServerData(
+    ULONG* pDataByteCount,
+    BYTE** ppData
+);
+```
+
+```csharp
+public int GetSourceServerData(
+    out uint  pDataByteCount,
+    out int[] ppData
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+`pDataByteCount`  
+[out] 데이터 배열의 바이트 수입니다.
+
+`ppData`  
+[out] 데이터 배열에 대 한 참조입니다.
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="example"></a>예제
+다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CModule** 노출 하는 개체를 [IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md) 인터페이스입니다.
+
+```cpp
+HRESULT CModule::GetSourceServerData(ULONG* pDataByteCount, BYTE** ppData)
+{
+    HRESULT hr = S_OK;
+    CComPtr<ISymUnmanagedReader> pSymReader;
+    CComPtr<ISymUnmanagedSourceServerModule> pSourceServerModule;
+
+    IfFalseGo( pDataByteCount && ppData, E_INVALIDARG );
+    *pDataByteCount = 0;
+    *ppData = NULL;
+
+    IfFailGo( this->GetUnmanagedSymReader( &pSymReader ) );
+    IfFailGo( pSymReader->QueryInterface( &pSourceServerModule ) );
+
+    IfFailGo( pSourceServerModule->GetSourceServerData( pDataByteCount, ppData ) );
+
+Error:
+
+    return hr;
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md)

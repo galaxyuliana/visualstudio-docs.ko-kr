@@ -12,85 +12,85 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c1fb3ee789a4d24d74e5bd87c0bfe22407af2aab
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 24f766a0ed5ce4fca2060624b1d8b4016f8e8c41
+ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54965931"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56450024"
 ---
 # <a name="idebugproperty3getstringcharlength"></a>IDebugProperty3::GetStringCharLength
-연결된 된 속성의 문자열의 문자 수를 반환합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetStringCharLength(  
-   ULONG *pLen  
-);  
-```  
-  
-```csharp  
-int GetStringCharLength(  
-   out uint pLen  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
-  
-|매개 변수|설명|  
-|---------------|-----------------|  
-|`pLen`|[out] 속성의 문자열의 문자 수를 반환합니다.|  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 버퍼에 대 한 호출에 대 한 할당에 대해 궁금할이 메서드는 일반적으로 [GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md) 메서드.  
-  
-## <a name="example"></a>예제  
- 다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CProperty** 노출 하는 개체를 [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) 인터페이스입니다.  
-  
-```cpp  
-STDMETHODIMP CProperty::GetStringCharLength(ULONG *pLen)  
-{  
-    HRESULT hr = E_INVALIDARG;  
-  
-    EVALFLAGS oldEVALFLAGS = m_EVALFLAGS;  
-  
-    m_EVALFLAGS &= ~EVAL_NOFUNCEVAL;  
-  
-    if (pLen)  
-    {  
-        DEBUG_PROPERTY_INFO dpInfo;  
-        dpInfo.bstrValue = NULL;  
-        ULONG ulen = 0;  
-        hr = GetPropertyInfo(DEBUGPROP_INFO_VALUE,10,DEFAULT_TIMEOUT,NULL,0,&dpInfo);  
-        if (hr == S_OK && dpInfo.bstrValue)  
-        {  
-            if (wcscmp(dpInfo.bstrValue,L"Nothing") == 0)  
-            {  
-                ulen = 0;   //VSWhidbey#64815  
-            }  
-            else  
-            {  
-                ulen = ::SysStringLen(dpInfo.bstrValue);  
-                if( ulen > 2 &&  
-                    dpInfo.bstrValue[0] == L'"' &&  
-                    dpInfo.bstrValue[ulen-1] == L'"')  
-                {                      
-                    ulen = ulen > 2 ? ulen - 2 : ulen;  //remove two double quotes  
-                }  
-            }  
-        }  
-        ::SysFreeString(dpInfo.bstrValue);  
-        *pLen = ulen;  
-    }  
-    m_EVALFLAGS = oldEVALFLAGS;  
-    return hr;  
-}  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md)   
- [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
+연결된 된 속성의 문자열의 문자 수를 반환합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetStringCharLength(
+    ULONG *pLen
+);
+```
+
+```csharp
+int GetStringCharLength(
+    out uint pLen
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+
+|매개 변수|설명|
+|---------------|-----------------|
+|`pLen`|[out] 속성의 문자열의 문자 수를 반환합니다.|
+
+## <a name="return-value"></a>반환 값
+성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+버퍼에 대 한 호출에 대 한 할당에 대해 궁금할이 메서드는 일반적으로 [GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md) 메서드.
+
+## <a name="example"></a>예제
+다음 예제에서는이 메서드를 구현 하는 방법을 보여 줍니다는 **CProperty** 노출 하는 개체를 [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) 인터페이스입니다.
+
+```cpp
+STDMETHODIMP CProperty::GetStringCharLength(ULONG *pLen)
+{
+    HRESULT hr = E_INVALIDARG;
+
+    EVALFLAGS oldEVALFLAGS = m_EVALFLAGS;
+
+    m_EVALFLAGS &= ~EVAL_NOFUNCEVAL;
+
+    if (pLen)
+    {
+        DEBUG_PROPERTY_INFO dpInfo;
+        dpInfo.bstrValue = NULL;
+        ULONG ulen = 0;
+        hr = GetPropertyInfo(DEBUGPROP_INFO_VALUE,10,DEFAULT_TIMEOUT,NULL,0,&dpInfo);
+        if (hr == S_OK && dpInfo.bstrValue)
+        {
+            if (wcscmp(dpInfo.bstrValue,L"Nothing") == 0)
+            {
+                ulen = 0; //VSWhidbey#64815
+            }
+            else
+            {
+                ulen = ::SysStringLen(dpInfo.bstrValue);
+                if( ulen > 2 &&
+                    dpInfo.bstrValue[0] == L'"' &&
+                    dpInfo.bstrValue[ulen-1] == L'"')
+                {
+                    ulen = ulen > 2 ? ulen - 2 : ulen; //remove two double quotes
+                }
+            }
+        }
+        ::SysFreeString(dpInfo.bstrValue);
+        *pLen = ulen;
+    }
+    m_EVALFLAGS = oldEVALFLAGS;
+    return hr;
+}
+```
+
+## <a name="see-also"></a>참고 항목
+[GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md)  
+[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

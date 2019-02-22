@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7b416d48b8e5351f0a6ddf037fa80b442888bbe2
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: f8d21f1697ce3d566c27e9845ae4c2a9a9d5e068
+ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54866833"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56450180"
 ---
 # <a name="globalization-and-localization-of-excel-solutions"></a>Excel 솔루션 전역화 및 지역화
   이 섹션에는 영어 이외의 Windows 언어 설정이 있는 컴퓨터에서 실행되는 Microsoft Office Excel 솔루션의 특수 고려 사항에 대한 정보를 포함합니다. Microsoft Office 솔루션을 전역화하고 지역화하는 대부분의 측면은 Visual Studio를 사용하여 다른 종류의 솔루션을 만들 때와 동일하게 발생합니다. 일반적인 정보를 참조 하세요 [Globalize 및 응용 프로그램을 지역화](../ide/globalizing-and-localizing-applications.md)합니다.
@@ -47,7 +47,7 @@ ms.locfileid: "54866833"
  문서 텍스트와 상호 작용하는 일부 코드가 텍스트의 언어와 계속 일치하는지 그리고 책갈피, 명명된 범위, 기타 표시 필드가 다른 문법 및 텍스트 길이에 맞도록 조정하는 데 필요한 Office 문서의 서식을 다시 지정하는 것을 수용하는지는 여전히 확인해야 합니다. 비교적 적은 양의 텍스트가 포함 된 문서 템플릿의 경우 리소스 파일에 텍스트를 저장 하 고 다음 런타임에 텍스트를 로드 하는 것이 좋습니다.
 
 ### <a name="text-direction"></a>텍스트 방향
- Excel에서는 텍스트를 오른쪽에서 왼쪽으로 렌더링하도록 워크시트의 속성을 설정할 수 있습니다. 호스트 컨트롤 또는 포함 된 모든 컨트롤을 `RightToLeft` 속성 디자이너에서 자동으로 배치 되는 런타임 시 이러한 설정과 일치 합니다. Word에는 텍스트 맞춤을 변경할 수 있는 양방향 텍스트에 대해 문서 설정이 없으므로 컨트롤을 이 설정에 매핑할 수 없습니다. 대신 각 컨트롤에 대한 텍스트 맞춤을 설정해야 합니다. 모든 컨트롤을 안내하는 코드를 작성하고 텍스트를 오른쪽에서 왼쪽으로 렌더링하도록 할 수 있습니다.
+ Excel에서는 텍스트를 오른쪽에서 왼쪽으로 렌더링하도록 워크시트의 속성을 설정할 수 있습니다. 호스트 컨트롤 또는 포함 된 모든 컨트롤을 `RightToLeft` 속성 디자이너에서 자동으로 배치 되는 런타임 시 이러한 설정과 일치 합니다. Word (바꾸기만 하면 텍스트의 맞춤) 양방향 텍스트에 대해 문서 설정이 없는 하므로이 설정은에 컨트롤을 매핑할 수 없습니다. 대신 각 컨트롤에 대한 텍스트 맞춤을 설정해야 합니다. 모든 컨트롤을 안내하는 코드를 작성하고 텍스트를 오른쪽에서 왼쪽으로 렌더링하도록 할 수 있습니다.
 
 ### <a name="change-culture"></a>문화권 변경
  문서 수준 사용자 지정 코드는 일반적으로 Excel의 주 UI 스레드를 공유하므로 스레드 문화권을 변경하면 해당 스레드에서 실행되는 그 밖의 모든 부분에 영향을 미칩니다. 즉, 변경 내용이 사용자 지정에 제한되는 것이 아닙니다.
