@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: fa5817bb7c20cf58457281667dda76ac43608647
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 4a22d814ce50dea1ee67ed3bf1f071839e60a797
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54875340"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56607026"
 ---
 # <a name="walkthrough-create-a-web-part-for-sharepoint-by-using-a-designer"></a>연습: 디자이너를 사용 하 여 SharePoint 용 웹 파트 만들기
 
@@ -187,6 +187,6 @@ SharePoint 사이트에 대 한 웹 파트를 만드는 경우 사용자가 직�
 
 ## <a name="see-also"></a>참고자료
 
-[SharePoint 용 웹 파트 만들기](../sharepoint/creating-web-parts-for-sharepoint.md)  
-[방법: SharePoint 웹 파트 만들기](../sharepoint/how-to-create-a-sharepoint-web-part.md)  
+[SharePoint 용 웹 파트를 만들](../sharepoint/creating-web-parts-for-sharepoint.md)
+[방법: SharePoint 웹 파트를 만듭니다](../sharepoint/how-to-create-a-sharepoint-web-part.md)
 [연습: SharePoint 용 웹 파트 만들기](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)

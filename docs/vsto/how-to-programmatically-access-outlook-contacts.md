@@ -12,31 +12,31 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7b47d90eef38c5aff055b7ba2a05e39f8de17269
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: c46df4218a12c0f9a155567aeee0c007d0a19c53
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54873667"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56598208"
 ---
 # <a name="how-to-programmatically-access-outlook-contacts"></a>방법: 프로그래밍 방식으로 Outlook 연락처 액세스
-  이 예제에서는 마지막 이름이 지정 된 검색 문자열을 포함 하는 모든 연락처를 찾습니다.  
-  
- [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
-  
-## <a name="example"></a>예제  
+  이 예제에서는 마지막 이름이 지정 된 검색 문자열을 포함 하는 모든 연락처를 찾습니다.
+
+ [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
+
+## <a name="example"></a>예제
  [!code-csharp[Trin_OL_AccessContacts#1](../vsto/codesnippet/CSharp/Trin_OL_AccessContacts.trin_ol_accesscontacts/thisaddin.cs#1)]
  [!code-csharp[Trin_OL_AccessContacts#1](../vsto/codesnippet/CSharp/Trin_OL_AccessContacts.trin_ol_accesscontacts/thisaddin.cs#1)]
- [!code-vb[Trin_OL_AccessContacts#1](../vsto/codesnippet/VisualBasic/Trin_OL_AccessContacts/thisaddin.vb#1)]  
-  
-## <a name="compile-the-code"></a>코드 컴파일  
- 이 예제에는 다음 사항이 필요합니다.  
-  
--   연락처 마지막 이름에 포함 된 문자열 "**Na"** (예: Tzipi Butnaru)에 **연락처** 폴더입니다.  
-  
-## <a name="see-also"></a>참고자료  
- [연락처 항목 작업](../vsto/working-with-contact-items.md)   
- [방법: 프로그래밍 방식으로 Outlook 연락처에 항목 추가](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)   
- [방법: 프로그래밍 방식으로 특정 연락처 검색](../vsto/how-to-programmatically-search-for-a-specific-contact.md)   
- [방법: 프로그래밍 방식으로 연락처에서 전자 메일 주소 검색](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)   
- [방법: 프로그래밍 방식으로 Outlook 연락처 삭제](../vsto/how-to-programmatically-delete-outlook-contacts.md)  
+ [!code-vb[Trin_OL_AccessContacts#1](../vsto/codesnippet/VisualBasic/Trin_OL_AccessContacts/thisaddin.vb#1)]
+
+## <a name="compile-the-code"></a>코드 컴파일
+ 이 예제에는 다음 사항이 필요합니다.
+
+-   연락처 마지막 이름에 포함 된 문자열 "**Na"** (예: Tzipi Butnaru)에 **연락처** 폴더입니다.
+
+## <a name="see-also"></a>참고자료
+- [연락처 항목 작업](../vsto/working-with-contact-items.md)
+- [방법: 프로그래밍 방식으로 Outlook 연락처에 항목 추가](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)
+- [방법: 프로그래밍 방식으로 특정 연락처 검색](../vsto/how-to-programmatically-search-for-a-specific-contact.md)
+- [방법: 프로그래밍 방식으로 연락처에서 전자 메일 주소 검색](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)
+- [방법: 프로그래밍 방식으로 Outlook 연락처 삭제](../vsto/how-to-programmatically-delete-outlook-contacts.md)

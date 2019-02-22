@@ -15,31 +15,31 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 193e61c0794282a2a4dba2498d8494d27f6c6d2a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e84ca70383facc608740cd42a29c4ee769adb069
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55040621"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56609672"
 ---
 # <a name="default-command-group-and-toolbar-placement"></a>기본 명령, 그룹 및 도구 모음 배치
-제품 일관성 및 안정성에 대 한 UI를 기본적으로 특정 명령 그룹을 표시 하 고 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 명령 및 명령 그룹에 대 한 정의 제공 합니다. 표준 명령 및 명령 그룹 Vspackage를 이용할 수 있습니다.  
-  
- 기본 명령 그룹은 다음과 같은 세 가지 범주로 분류 됩니다. IDE 명령, 제품 명령 및 편집기 명령입니다.  
-  
-## <a name="default-ide-commands"></a>기본 IDE 명령  
- 기본 IDE 도구 모음에 명령에 포함 된 모든 제품에서 공유 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 다음과 같은 일반 프로젝트 작업에 관련 된 명령은 합니다 **저장** 명령 및 **항목 추가** 명령입니다. Vspackage를 추가 하지 않거나 한 가지 예외로이 도구 모음에서 뺄 해야 합니다. 제품 또는 VSPackage는 새 도구 창을 추가 하는 경우에 사용할 수 있는 도구 창의 목록에 추가할 해야 창 합니다 **보기** 메뉴. 새 제품 또는 Vspackage는 자체 도구 모음을 추가할 수 있습니다.  
-  
-## <a name="default-product-commands"></a>기본 제품 명령  
- 각 제품 중요 한 포함 된 자주 사용 하는 명령 자체 기본 도구 모음을 사용 하 여 IDE를 제공할 수 있습니다. 그러나 기존 메뉴 및 가능한 경우 도구 모음을 사용 하 고 필요에 따라 다른 태스크 별 도구 모음을 사용 하 여 보완 하는 것이 좋습니다 합니다.  
-  
- 도구 모음에 대 한 우선 순위 필드의 행 위치를 결정합니다. 메뉴 모음 아래에 세 번째 행 (행 3)의 도구 모음을 배치 하는 0 우선 순위 (1 행) 및 **표준** 도구 모음 (2 행). 따라서 다른 도구 모음으로 행에 표시 (우선 순위 + 3). 다음 도구 모음; 공간이 있는 경우 같은 행에 배치 됩니다. 그렇지 않은 경우 자동으로 이동 하는 다음 행.  
-  
-## <a name="default-editor-commands"></a>기본 편집기 명령  
- 사용자 지정 편집기를 제공 하는 VSPackage는 가장 중요 한 포함 하는 편집기에서 자주 사용 되는 명령을 기본 도구 모음을 제공 해야 합니다. 편집기 도구 모음 편집기가 활성 상태일 편집기를 사용 하지 않으면 숨겨야 할 때 표시 됩니다. 이러한 가시성은에서 제어를 `VisibilityConstraints` 의 요소를 *.vsct* 파일입니다.  
-  
- 제품 및 IDE 도구 모음 아래 편집기 도구 모음을 배치 되어야 합니다.  
-  
-## <a name="see-also"></a>참고자료  
- [IDE 정의 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)   
- [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+제품 일관성 및 안정성에 대 한 UI를 기본적으로 특정 명령 그룹을 표시 하 고 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 명령 및 명령 그룹에 대 한 정의 제공 합니다. 표준 명령 및 명령 그룹 Vspackage를 이용할 수 있습니다.
+
+ 기본 명령 그룹은 다음과 같은 세 가지 범주로 분류 됩니다. IDE 명령, 제품 명령 및 편집기 명령입니다.
+
+## <a name="default-ide-commands"></a>기본 IDE 명령
+ 기본 IDE 도구 모음에 명령에 포함 된 모든 제품에서 공유 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 다음과 같은 일반 프로젝트 작업에 관련 된 명령은 합니다 **저장** 명령 및 **항목 추가** 명령입니다. Vspackage를 추가 하지 않거나 한 가지 예외로이 도구 모음에서 뺄 해야 합니다. 제품 또는 VSPackage는 새 도구 창을 추가 하는 경우에 사용할 수 있는 도구 창의 목록에 추가할 해야 창 합니다 **보기** 메뉴. 새 제품 또는 Vspackage는 자체 도구 모음을 추가할 수 있습니다.
+
+## <a name="default-product-commands"></a>기본 제품 명령
+ 각 제품 중요 한 포함 된 자주 사용 하는 명령 자체 기본 도구 모음을 사용 하 여 IDE를 제공할 수 있습니다. 그러나 기존 메뉴 및 가능한 경우 도구 모음을 사용 하 고 필요에 따라 다른 태스크 별 도구 모음을 사용 하 여 보완 하는 것이 좋습니다 합니다.
+
+ 도구 모음에 대 한 우선 순위 필드의 행 위치를 결정합니다. 메뉴 모음 아래에 세 번째 행 (행 3)의 도구 모음을 배치 하는 0 우선 순위 (1 행) 및 **표준** 도구 모음 (2 행). 따라서 다른 도구 모음으로 행에 표시 (우선 순위 + 3). 다음 도구 모음; 공간이 있는 경우 같은 행에 배치 됩니다. 그렇지 않은 경우 자동으로 이동 하는 다음 행.
+
+## <a name="default-editor-commands"></a>기본 편집기 명령
+ 사용자 지정 편집기를 제공 하는 VSPackage는 가장 중요 한 포함 하는 편집기에서 자주 사용 되는 명령을 기본 도구 모음을 제공 해야 합니다. 편집기 도구 모음 편집기가 활성 상태일 편집기를 사용 하지 않으면 숨겨야 할 때 표시 됩니다. 이러한 가시성은에서 제어를 `VisibilityConstraints` 의 요소를 *.vsct* 파일입니다.
+
+ 제품 및 IDE 도구 모음 아래 편집기 도구 모음을 배치 되어야 합니다.
+
+## <a name="see-also"></a>참고자료
+- [IDE 정의 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)
+- [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
