@@ -10,29 +10,29 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c58c248650c0ba1e5fdc1fc5c9310b3e4530fbe4
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 47c96e9384d561aeda3a966ca8bc5b305a9351e2
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54994529"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56628262"
 ---
 # <a name="project-priority"></a>프로젝트 우선 순위
-프로젝트 항목에는 일반적으로 솔루션에 프로젝트가 하나만의 멤버인 경우 따라서 IDE 쉽게 확인할 수는 프로젝트가 항목을 열 때 사용 됩니다. 그러나 항목이 둘 이상의 프로젝트의 멤버인 경우 IDE 항목을 열기 위한 최상의 프로젝트를 확인할 수는 우선 순위 체계를 사용 합니다.  
-  
- 다음은 프로젝트 우선 순위 체계를 보여 줍니다.  
-  
--   호출 하 여 IDE <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2.IsDocumentInProject%2A> 문서 해당 프로젝트의 멤버 인지 여부를 확인 하는 솔루션의 각 프로젝트에 대 한 메서드.  
-  
--   문서 프로젝트의 멤버인 경우 프로젝트 응답 우선 순위를 사용 하 여 해당 문서 처리에 따라 프로젝트를 매기는 합니다. 예를 들어 언어 프로젝트를 해당 언어 소스 파일에 대 한 우선 순위를 사용 하 여 응답 하지만 해당 빌드 프로세스의 일부로 사용 되지 않는 인식할 수 없는 파일 형식에 대 한 낮은 우선 순위를 사용 하 여 응답 합니다.  
-  
--   또한 문서에 대 한 사용자 지정, 프로젝트별 편집기 또는 디자이너를 제공 하는 프로젝트에 높은 우선 순위를 받습니다.  
-  
--   <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> 열거형 문서 우선 순위 값을 제공 합니다.  
-  
--   가장 높은 우선 순위를 지정 하는 프로젝트 컨텍스트 문서를 열도록 지정 됩니다. 두 개의 프로젝트 우선 순위가 같은 값을 반환 하는 경우 활성 프로젝트를 사용 하는 것이 좋습니다. 솔루션에 프로젝트가 없습니다. 응답 문서를 열 수 있도록 하는 경우 IDE는 기타 파일 프로젝트의 문서를 배치 합니다. 자세한 내용은 [기타 파일 프로젝트](../../extensibility/internals/miscellaneous-files-project.md)합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [기타 파일 프로젝트](../../extensibility/internals/miscellaneous-files-project.md)   
- [방법: 열린 문서에 대 한 편집기 열기](../../extensibility/how-to-open-editors-for-open-documents.md)   
- [프로젝트 및 프로젝트 항목 템플릿 추가](../../extensibility/internals/adding-project-and-project-item-templates.md)
+프로젝트 항목에는 일반적으로 솔루션에 프로젝트가 하나만의 멤버인 경우 따라서 IDE 쉽게 확인할 수는 프로젝트가 항목을 열 때 사용 됩니다. 그러나 항목이 둘 이상의 프로젝트의 멤버인 경우 IDE 항목을 열기 위한 최상의 프로젝트를 확인할 수는 우선 순위 체계를 사용 합니다.
+
+ 다음은 프로젝트 우선 순위 체계를 보여 줍니다.
+
+-   호출 하 여 IDE <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2.IsDocumentInProject%2A> 문서 해당 프로젝트의 멤버 인지 여부를 확인 하는 솔루션의 각 프로젝트에 대 한 메서드.
+
+-   문서 프로젝트의 멤버인 경우 프로젝트 응답 우선 순위를 사용 하 여 해당 문서 처리에 따라 프로젝트를 매기는 합니다. 예를 들어 언어 프로젝트를 해당 언어 소스 파일에 대 한 우선 순위를 사용 하 여 응답 하지만 해당 빌드 프로세스의 일부로 사용 되지 않는 인식할 수 없는 파일 형식에 대 한 낮은 우선 순위를 사용 하 여 응답 합니다.
+
+-   또한 문서에 대 한 사용자 지정, 프로젝트별 편집기 또는 디자이너를 제공 하는 프로젝트에 높은 우선 순위를 받습니다.
+
+-   <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> 열거형 문서 우선 순위 값을 제공 합니다.
+
+-   가장 높은 우선 순위를 지정 하는 프로젝트 컨텍스트 문서를 열도록 지정 됩니다. 두 개의 프로젝트 우선 순위가 같은 값을 반환 하는 경우 활성 프로젝트를 사용 하는 것이 좋습니다. 솔루션에 프로젝트가 없습니다. 응답 문서를 열 수 있도록 하는 경우 IDE는 기타 파일 프로젝트의 문서를 배치 합니다. 자세한 내용은 [기타 파일 프로젝트](../../extensibility/internals/miscellaneous-files-project.md)합니다.
+
+## <a name="see-also"></a>참고 항목
+- [기타 파일 프로젝트](../../extensibility/internals/miscellaneous-files-project.md)
+- [방법: 열린 문서에 대 한 편집기 열기](../../extensibility/how-to-open-editors-for-open-documents.md)
+- [프로젝트 및 프로젝트 항목 템플릿 추가](../../extensibility/internals/adding-project-and-project-item-templates.md)

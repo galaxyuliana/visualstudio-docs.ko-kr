@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 68647dbcbeaedd8ce3a6a493b685142434eec2c2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a833478a8dec3b9fe82b22295482fed6f5562d14
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54923096"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56641548"
 ---
 # <a name="design-xml-command-table-vsct-files"></a>XML 명령 테이블 (.vsct) 파일 디자인
 XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 한 명령 항목의 모양을 설명 합니다. 명령 항목 단추, 콤보 상자, 메뉴, 도구 모음 및 명령 항목 그룹에 포함 됩니다. 이 문서에서는 XML 명령 테이블 파일, 메뉴 및 명령 항목에 미치는 및 만드는 방법을 설명 합니다.
@@ -61,7 +61,7 @@ XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 �
 - 키 바인딩: 더 이상 에뮬레이터를 지정 해야 합니다. 하나를 지정 않을 경우 컴파일러는 편집기 및 에뮬레이터 동일 합니다.
 
 - Keychord: Keychord 삭제 되었습니다. 새 형식이 *Mod1, Key1, Key2, Mod2*합니다.  문자, 16 진수 또는 VK 상수를 지정할 수 있습니다.
-       
+
 새 컴파일러 *vsct.exe*를 둘 다 컴파일합니다 *.ctc* 하 고 *.vsct* 파일. 그러나 이전 *ctc.exe* 컴파일러, 인식 하지 못하거나 컴파일 *.vsct* 파일입니다.
 
 사용할 수는 *vsct.exe* 기존 변환할 컴파일러 *.cto* 파일을 *.vsct* 파일입니다. 자세한 내용은 [방법: 기존.cto 파일에서.vsct 파일 만들기](../../extensibility/internals/how-to-create-a-dot-vsct-file.md#how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file)합니다.
@@ -69,31 +69,31 @@ XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 �
 ## <a name="the-vsct-file-elements"></a>.Vsct 파일 요소
  명령 테이블에는 다음 계층 구조 및 요소에 있습니다.
 
- [CommandTable 요소](../../extensibility/commandtable-element.md): 모든 명령, 메뉴 그룹 및 VSPackage와 사용 하 여 연결 된 메뉴를 나타냅니다.
+- [CommandTable 요소](../../extensibility/commandtable-element.md): 모든 명령, 메뉴 그룹 및 VSPackage와 사용 하 여 연결 된 메뉴를 나타냅니다.
 
- [Extern 요소](../../extensibility/extern-element.md): 사용 하 여 병합할 모든 외부.h 파일 참조를 *.vsct* 파일입니다.
+- [Extern 요소](../../extensibility/extern-element.md): 사용 하 여 병합할 모든 외부.h 파일 참조를 *.vsct* 파일입니다.
 
- [요소를 포함](../../extensibility/include-element.md): 와 함께 컴파일할 하려는 모든 추가 헤더 (.h) 파일을 참조 하 *.vsct* 파일입니다. A *.vsct* 파일이 포함 될 수 있습니다 *.h* 명령, 메뉴 그룹 및 메뉴 IDE 또는 다른 VSPackage에서 제공 하는 정의 하는 상수를 포함 하는 파일입니다.
+- [요소를 포함](../../extensibility/include-element.md): 와 함께 컴파일할 하려는 모든 추가 헤더 (.h) 파일을 참조 하 *.vsct* 파일입니다. A *.vsct* 파일이 포함 될 수 있습니다 *.h* 명령, 메뉴 그룹 및 메뉴 IDE 또는 다른 VSPackage에서 제공 하는 정의 하는 상수를 포함 하는 파일입니다.
 
- [Commands 요소](../../extensibility/commands-element.md): 모든 실행 될 수 있는 개별 명령을 나타냅니다. 각 명령에는 다음 4 명의 자식 요소가 있습니다.
+- [Commands 요소](../../extensibility/commands-element.md): 모든 실행 될 수 있는 개별 명령을 나타냅니다. 각 명령에는 다음 4 명의 자식 요소가 있습니다.
 
- [Menus 요소](../../extensibility/menus-element.md): 모든 메뉴 및 VSPackage에서 도구 모음을 나타냅니다. 메뉴는 명령 그룹에 대 한 컨테이너입니다.
+- [Menus 요소](../../extensibility/menus-element.md): 모든 메뉴 및 VSPackage에서 도구 모음을 나타냅니다. 메뉴는 명령 그룹에 대 한 컨테이너입니다.
 
- [Groups 요소](../../extensibility/groups-element.md): 모든 VSPackage에서 그룹을 나타냅니다. 그룹은 개별 명령 컬렉션입니다.
+- [Groups 요소](../../extensibility/groups-element.md): 모든 VSPackage에서 그룹을 나타냅니다. 그룹은 개별 명령 컬렉션입니다.
 
- [Buttons 요소](../../extensibility/buttons-element.md): 모든 명령 단추 및 VSPackage에서 메뉴 항목을 나타냅니다. 단추는 명령과 사용 하 여 연결할 수 있는 시각적 컨트롤입니다.
+- [Buttons 요소](../../extensibility/buttons-element.md): 모든 명령 단추 및 VSPackage에서 메뉴 항목을 나타냅니다. 단추는 명령과 사용 하 여 연결할 수 있는 시각적 컨트롤입니다.
 
- [Bitmaps 요소](../../extensibility/bitmaps-element.md): 모든 VSPackage에서 단추에 대 한 비트맵의 모든 나타냅니다. 비트맵은 컨텍스트에 따라 명령 단추, 또는 옆에 표시 되는 그림입니다.
+- [Bitmaps 요소](../../extensibility/bitmaps-element.md): 모든 VSPackage에서 단추에 대 한 비트맵의 모든 나타냅니다. 비트맵은 컨텍스트에 따라 명령 단추, 또는 옆에 표시 되는 그림입니다.
 
- [CommandPlacements 요소](../../extensibility/commandplacements-element.md): VSPackage의 메뉴에 개별 명령 해야 위치할 추가 위치를 나타냅니다.
+- [CommandPlacements 요소](../../extensibility/commandplacements-element.md): VSPackage의 메뉴에 개별 명령 해야 위치할 추가 위치를 나타냅니다.
 
- [VisibilityConstraints 요소](../../extensibility/visibilityconstraints-element.md): 시간에 또는 특정 대화 상자 또는 창 표시 될 때와 같은 특정 컨텍스트에서 명령을 전혀 표시 여부를 지정 합니다. 메뉴와이 요소의 값이 있는 명령에 지정된 된 컨텍스트 활성 상태일 때에 표시 됩니다. 기본 동작은 모든 시간에 명령이 표시 됩니다.
+- [VisibilityConstraints 요소](../../extensibility/visibilityconstraints-element.md): 시간에 또는 특정 대화 상자 또는 창 표시 될 때와 같은 특정 컨텍스트에서 명령을 전혀 표시 여부를 지정 합니다. 메뉴와이 요소의 값이 있는 명령에 지정된 된 컨텍스트 활성 상태일 때에 표시 됩니다. 기본 동작은 모든 시간에 명령이 표시 됩니다.
 
- [KeyBindings 요소](../../extensibility/keybindings-element.md): 명령에 대 한 키 바인딩을 지정합니다. 즉, 하나 이상의 키 조합와 같은 명령을 실행 하려면 눌러야 하는 **Ctrl**+**S**입니다.
+- [KeyBindings 요소](../../extensibility/keybindings-element.md): 명령에 대 한 키 바인딩을 지정합니다. 즉, 하나 이상의 키 조합와 같은 명령을 실행 하려면 눌러야 하는 **Ctrl**+**S**입니다.
 
- [UsedCommands 요소](../../extensibility/usedcommands-element.md): 알립니다는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 현재 VSPackage를 활성화할 때 지정된 된 명령을 다른 코드에 의해 구현 되는 있지만 제공 명령을 구현 하는 환경입니다.
+- [UsedCommands 요소](../../extensibility/usedcommands-element.md): 알립니다는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 현재 VSPackage를 활성화할 때 지정된 된 명령을 다른 코드에 의해 구현 되는 있지만 제공 명령을 구현 하는 환경입니다.
 
- [Symbols 요소](../../extensibility/symbols-element.md): 기호 이름 및 패키지에 명령의 모든 GUID Id를 포함 합니다.
+- [Symbols 요소](../../extensibility/symbols-element.md): 기호 이름 및 패키지에 명령의 모든 GUID Id를 포함 합니다.
 
 ## <a name="vsct-file-design-guidelines"></a>.vsct 파일 디자인 지침
  성공적으로 디자인 하는 *.vsct* 파일에서 이러한 지침을 따릅니다.
@@ -122,4 +122,4 @@ XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 �
  명령을 사용 하 여 도구를 실행할 **CreateExpInstance /Reset**합니다. 이 도구를 제거 함을 실험적 하이브에서 일반적으로 사용 하 여 설치 된 모든 등록 된 Vspackage를 기억 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다.
 
 ## <a name="see-also"></a>참고자료
- [메뉴 및 명령 확장](../../extensibility/extending-menus-and-commands.md)
+- [메뉴 및 명령 확장](../../extensibility/extending-menus-and-commands.md)

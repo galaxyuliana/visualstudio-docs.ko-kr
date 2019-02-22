@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 219b2e1bd3ff7690f19066f83e914e5d0b878a73
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ca3810df7751245acc3f7a93372d565b88170b07
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55945783"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56634827"
 ---
 # <a name="enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-the-microsoft-office-system-project"></a>만들거나 Visual Studio Tools for the Microsoft Office system 프로젝트를 열고는 VBA에 대 한 액세스를 사용 하도록 설정
 
@@ -126,5 +126,4 @@ ms.locfileid: "55945783"
 5. 선택 **Office 설치에서 오류 감지 및 복구**를 클릭 하 고 **설치**합니다.
 
 ## <a name="see-also"></a>참고자료
-
- [Office 솔루션 보안](../vsto/securing-office-solutions.md)
+- [Office 솔루션 보안](../vsto/securing-office-solutions.md)

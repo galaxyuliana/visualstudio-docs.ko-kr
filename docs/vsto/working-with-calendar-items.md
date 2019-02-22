@@ -18,27 +18,27 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d3800c5e2665d201f9f8806272e95a6862ef98c0
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 8d9c0f634ce95814ba746325e8efd67228653775
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54863411"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56612571"
 ---
 # <a name="work-with-calendar-items"></a>달력 항목 작업
-  <xref:Microsoft.Office.Interop.Outlook.AppointmentItem> 클래스에는 달력 항목이 있는 작업을 수행하는 데 사용하는 메서드 및 속성이 포함됩니다.  
-  
-|작업|프로시저|  
-|----------|---------------|  
-|약속을 만들고 받는 사람을 추가합니다.|[방법: 프로그래밍 방식으로 약속 만들기](../vsto/how-to-programmatically-create-appointments.md)|  
-|되풀이하는 약속의 인스턴스를 삭제합니다.|[방법: 프로그래밍 방식으로 약속 삭제](../vsto/how-to-programmatically-delete-appointments.md)|  
-|달력 폴더를 만들고 약속 항목을 추가합니다.|[방법: 프로그래밍 방식으로 사용자 지정 달력 만들기](../vsto/how-to-programmatically-create-a-custom-calendar.md)|  
-|모임 요청을 작성하고 보냅니다.|[방법: 프로그래밍 방식으로 모임 요청 만들기](../vsto/how-to-programmatically-create-a-meeting-request.md)|  
-  
- Outlook 작업 및 Outlook 개체 모델에 대 한 자세한 내용은 참조 하세요. [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)합니다.  
-  
-## <a name="see-also"></a>참고자료  
- [연락처 항목 작업](../vsto/working-with-contact-items.md)   
- [폴더 작업](../vsto/working-with-folders.md)   
- [메일 항목 작업](../vsto/working-with-mail-items.md)   
- [Outlook 솔루션](../vsto/outlook-solutions.md)  
+  <xref:Microsoft.Office.Interop.Outlook.AppointmentItem> 클래스에는 달력 항목이 있는 작업을 수행하는 데 사용하는 메서드 및 속성이 포함됩니다.
+
+|작업|프로시저|
+|----------|---------------|
+|약속을 만들고 받는 사람을 추가합니다.|[방법: 프로그래밍 방식으로 약속 만들기](../vsto/how-to-programmatically-create-appointments.md)|
+|되풀이하는 약속의 인스턴스를 삭제합니다.|[방법: 프로그래밍 방식으로 약속 삭제](../vsto/how-to-programmatically-delete-appointments.md)|
+|달력 폴더를 만들고 약속 항목을 추가합니다.|[방법: 프로그래밍 방식으로 사용자 지정 달력 만들기](../vsto/how-to-programmatically-create-a-custom-calendar.md)|
+|모임 요청을 작성하고 보냅니다.|[방법: 프로그래밍 방식으로 모임 요청 만들기](../vsto/how-to-programmatically-create-a-meeting-request.md)|
+
+ Outlook 작업 및 Outlook 개체 모델에 대 한 자세한 내용은 참조 하세요. [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)합니다.
+
+## <a name="see-also"></a>참고자료
+- [연락처 항목 작업](../vsto/working-with-contact-items.md)
+- [폴더 작업](../vsto/working-with-folders.md)
+- [메일 항목 작업](../vsto/working-with-mail-items.md)
+- [Outlook 솔루션](../vsto/outlook-solutions.md)
