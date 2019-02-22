@@ -12,32 +12,38 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 03b8f7a02c0332a3f75131ddfaf2e021f4a0c65c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c33b852a585825f3c5b5fc415b01ac31e35f763f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55035369"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56606529"
 ---
 # <a name="create-a-source-control-plug-in"></a>소스 제어 플러그 인 만들기
-소스 제어 기능을 추가할 수 있도록 하는 리소스를 제공 하는 Visual Studio SDK는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)입니다. 이 설명서에 설명 된 원본 제어 플러그 인 API를 사용 하 여 따르는 모든 플러그 인 DLL을 사용할 수 있습니다.  
-  
-## <a name="in-this-section"></a>단원 내용  
- [시작](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)  
- 소스 제어 플러그 인을 설치 하는 방법에 설명 하 고 현재 사용 가능한 원본 제어 플러그 인 API 버전을 강조 표시 합니다.  
-  
- [아키텍처](../../extensibility/internals/source-control-plug-in-architecture.md)  
- 아키텍처 다이어그램을 사용 하 여 포함 된 플러그 인 소스 제어 통합을 설명 하는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.  
-  
- [테스트 가이드](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)  
- 설치 및 작업을 소스 제어 플러그 인을 테스트 하는 방법에 대 한 지침을 제공 합니다.  
-  
-## <a name="related-sections"></a>관련 단원  
- [소스 제어 VSPackage 만들기](../../extensibility/internals/creating-a-source-control-vspackage.md)  
- 소스 제어 뿐 아니라 소스 제어 기능을 제공 하지만 대체 하는 VSPackage를 만드는 방법에 설명 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 소스 UI 컨트롤입니다.  
-  
- [원본 제어 플러그 인](../../extensibility/source-control-plug-ins.md)  
- 원본 제어 플러그 인 API에 있는 모든 요소의 전체 목록을 제공합니다.  
-  
- [소스 제어](../../extensibility/internals/source-control.md)  
+소스 제어 기능을 추가할 수 있도록 하는 리소스를 제공 하는 Visual Studio SDK는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)입니다. 이 설명서에 설명 된 원본 제어 플러그 인 API를 사용 하 여 따르는 모든 플러그 인 DLL을 사용할 수 있습니다.
+
+## <a name="in-this-section"></a>단원 내용
+- [시작](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)
+
+ 소스 제어 플러그 인을 설치 하는 방법에 설명 하 고 현재 사용 가능한 원본 제어 플러그 인 API 버전을 강조 표시 합니다.
+
+- [아키텍처](../../extensibility/internals/source-control-plug-in-architecture.md)
+
+ 아키텍처 다이어그램을 사용 하 여 포함 된 플러그 인 소스 제어 통합을 설명 하는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.
+
+- [테스트 가이드](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
+
+ 설치 및 작업을 소스 제어 플러그 인을 테스트 하는 방법에 대 한 지침을 제공 합니다.
+
+## <a name="related-sections"></a>관련 단원
+- [소스 제어 VSPackage 만들기](../../extensibility/internals/creating-a-source-control-vspackage.md)
+
+ 소스 제어 뿐 아니라 소스 제어 기능을 제공 하지만 대체 하는 VSPackage를 만드는 방법에 설명 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 소스 UI 컨트롤입니다.
+
+- [원본 제어 플러그 인](../../extensibility/source-control-plug-ins.md)
+
+ 원본 제어 플러그 인 API에 있는 모든 요소의 전체 목록을 제공합니다.
+
+- [소스 제어](../../extensibility/internals/source-control.md)
+
  소스 제어의 통합된 기능으로 구현 하기 위한 옵션에 설명 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다.

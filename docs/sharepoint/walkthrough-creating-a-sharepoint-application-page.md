@@ -13,15 +13,15 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 802c20a21b624e868cddac4badfd8827ef765506
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 749ec5f7f7bd68911accb33e4e8631b42de8e630
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54866193"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56630901"
 ---
 # <a name="walkthrough-create-a-sharepoint-application-page"></a>연습: SharePoint 응용 프로그램 페이지 만들기
- 
+
 응용 프로그램 페이지는 특수 한 형태의 ASP.NET 페이지입니다. 응용 프로그램 페이지에는 SharePoint 마스터 페이지를 사용 하 여 병합 되는 콘텐츠가 포함 됩니다. 자세한 내용은 [SharePoint 용 응용 프로그램 페이지를 만들](../sharepoint/creating-application-pages-for-sharepoint.md)합니다.
 
 이 연습에서는 응용 프로그램 페이지를 만들고 다음 로컬 SharePoint 사이트를 사용 하 여 디버그 하는 방법을 보여 줍니다. 이 페이지에는 각 사용자가 만들거나 서버 팜의 모든 사이트에서 수정한 모든 항목이 표시 됩니다.
@@ -153,5 +153,5 @@ SharePoint 응용 프로그램 페이지에 대 한 자세한 내용은 참조 �
 
 ## <a name="see-also"></a>참고자료
 
-[방법: 응용 프로그램 페이지 만들기](../sharepoint/how-to-create-an-application-page.md)  
+[방법: 응용 프로그램 페이지 만들기](../sharepoint/how-to-create-an-application-page.md)
 [응용 프로그램 _layouts 페이지 형식](http://go.microsoft.com/fwlink/?LinkID=169274)

@@ -14,22 +14,22 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c60ac58c59adaacd66a7c56b4c394d596cfd6b24
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: e83f8b7f6bcdb790b5e545aa76426bc05f0735f5
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54871275"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56604304"
 ---
 # <a name="how-to-programmatically-associate-a-web-page-with-an-outlook-folder"></a>방법: 프로그래밍 방식으로 Outlook 폴더를 사용 하 여 웹 페이지에 연결
-  이 예제에서는 라는 폴더에 대 한 확인 `HtmlView` Microsoft Office Outlook에서. 폴더가 없으면 코드는 폴더를 만들고 웹 페이지를 할당 합니다. 폴더가 있으면 폴더의 내용을 표시 합니다.  
-  
- [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
-  
-## <a name="example"></a>예제  
- [!code-csharp[Trin_OL_HTMLFolder#1](../vsto/codesnippet/CSharp/Trin_OL_HTMLFolder/thisaddin.cs#1)]  
-  
-## <a name="see-also"></a>참고자료  
- [폴더 작업](../vsto/working-with-folders.md)   
- [방법: 프로그래밍 방식으로 이름으로 폴더 검색](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)   
- [방법: 프로그래밍 방식으로 사용자 지정 폴더 항목 만들기](../vsto/how-to-programmatically-create-custom-folder-items.md)  
+  이 예제에서는 라는 폴더에 대 한 확인 `HtmlView` Microsoft Office Outlook에서. 폴더가 없으면 코드는 폴더를 만들고 웹 페이지를 할당 합니다. 폴더가 있으면 폴더의 내용을 표시 합니다.
+
+ [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
+
+## <a name="example"></a>예제
+ [!code-csharp[Trin_OL_HTMLFolder#1](../vsto/codesnippet/CSharp/Trin_OL_HTMLFolder/thisaddin.cs#1)]
+
+## <a name="see-also"></a>참고자료
+- [폴더 작업](../vsto/working-with-folders.md)
+- [방법: 프로그래밍 방식으로 이름으로 폴더 검색](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
+- [방법: 프로그래밍 방식으로 사용자 지정 폴더 항목 만들기](../vsto/how-to-programmatically-create-custom-folder-items.md)

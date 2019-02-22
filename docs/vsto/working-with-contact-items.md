@@ -15,28 +15,28 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6e5a1f71d9605288917a2547fbfd414559993403
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 325f6b1b7ee489102d1ed4d2ef72350b3a6f5f3d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54864984"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56631031"
 ---
 # <a name="work-with-contact-items"></a>연락처 항목 작업
-  <xref:Microsoft.Office.Interop.Outlook.ContactItem> 클래스에는 연락처가 있는 작업을 수행하는 데 사용하는 메서드 및 속성이 포함됩니다.  
-  
-|작업|프로시저|  
-|----------|---------------|  
-|지정한 문자열을 포함하는 성을 가진 모든 연락처를 검색합니다.|[방법: 프로그래밍 방식으로 Outlook 연락처 액세스](../vsto/how-to-programmatically-access-outlook-contacts.md)|  
-|이름과 성으로 연락처를 검색합니다.|[방법: 프로그래밍 방식으로 특정 연락처 검색](../vsto/how-to-programmatically-search-for-a-specific-contact.md)|  
-|새 연락처를 만들고 연락처 정보를 입력합니다.|[방법: 프로그래밍 방식으로 Outlook 연락처에 항목 추가](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)|  
-|특정 도메인을 포함하는 메일 주소를 가진 연락처를 검색합니다.|[방법: 프로그래밍 방식으로 연락처에서 전자 메일 주소 검색](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)|  
-|지정한 이름을 가진 연락처를 삭제합니다.|[방법: 프로그래밍 방식으로 Outlook 연락처 삭제](../vsto/how-to-programmatically-delete-outlook-contacts.md)|  
-  
- Outlook 작업 및 Outlook 개체 모델에 대 한 자세한 내용은 참조 하세요. [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)합니다.  
-  
-## <a name="see-also"></a>참고자료  
- [메일 항목 작업](../vsto/working-with-mail-items.md)   
- [폴더 작업](../vsto/working-with-folders.md)   
- [달력 항목 작업](../vsto/working-with-calendar-items.md)   
- [Outlook 솔루션](../vsto/outlook-solutions.md)  
+  <xref:Microsoft.Office.Interop.Outlook.ContactItem> 클래스에는 연락처가 있는 작업을 수행하는 데 사용하는 메서드 및 속성이 포함됩니다.
+
+|작업|프로시저|
+|----------|---------------|
+|지정한 문자열을 포함하는 성을 가진 모든 연락처를 검색합니다.|[방법: 프로그래밍 방식으로 Outlook 연락처 액세스](../vsto/how-to-programmatically-access-outlook-contacts.md)|
+|이름과 성으로 연락처를 검색합니다.|[방법: 프로그래밍 방식으로 특정 연락처 검색](../vsto/how-to-programmatically-search-for-a-specific-contact.md)|
+|새 연락처를 만들고 연락처 정보를 입력합니다.|[방법: 프로그래밍 방식으로 Outlook 연락처에 항목 추가](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)|
+|특정 도메인을 포함하는 메일 주소를 가진 연락처를 검색합니다.|[방법: 프로그래밍 방식으로 연락처에서 전자 메일 주소 검색](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)|
+|지정한 이름을 가진 연락처를 삭제합니다.|[방법: 프로그래밍 방식으로 Outlook 연락처 삭제](../vsto/how-to-programmatically-delete-outlook-contacts.md)|
+
+ Outlook 작업 및 Outlook 개체 모델에 대 한 자세한 내용은 참조 하세요. [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)합니다.
+
+## <a name="see-also"></a>참고자료
+- [메일 항목 작업](../vsto/working-with-mail-items.md)
+- [폴더 작업](../vsto/working-with-folders.md)
+- [달력 항목 작업](../vsto/working-with-calendar-items.md)
+- [Outlook 솔루션](../vsto/outlook-solutions.md)

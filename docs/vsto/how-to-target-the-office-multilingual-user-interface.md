@@ -17,27 +17,27 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5180780835f36768cef77207189a1346c1dccdca
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: a9af26cae55a9a13f7aaaeb2297b19c81105f438
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54866518"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56635685"
 ---
 # <a name="how-to-target-the-office-multilingual-user-interface"></a>방법: 대상 Office 다국어 사용자 인터페이스
-  다국어 사용자 인터페이스 (MUI)에 최종 사용자의 사용자 인터페이스 (UI) 언어를 변경 하는 기능을 제공 하는 Microsoft Office 기능입니다. 예를 들어 스페인어로 영어 UI를 사용 하는 최종 사용자 UI의 언어를 변경할 수 있습니다.  
-  
- [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
-  
- Office의 여러 언어를 사용 하는 사용자가 응용 프로그램을 사용할 경우 자동으로 (사용자가 설치 하 고 올바른 리소스) 하는 경우 사용자의 컴퓨터에 Office가 사용 되는 언어와 일치 하도록 UI 문자열의 언어를 변경 하는 코드를 추가할 수 있습니다.  
-  
-## <a name="to-check-the-current-office-ui-setting"></a>현재 Office UI 설정을 확인 하려면  
-  
-1.  사용 된 <xref:System.Threading.Thread.CurrentUICulture%2A> 현재 스레드의 속성입니다. 현재 사용자의 컴퓨터에서 실행 되는 Office 버전에 사용 되는 언어와 일치 하도록 UI 문자열의 언어를 설정 합니다.  
-  
+  다국어 사용자 인터페이스 (MUI)에 최종 사용자의 사용자 인터페이스 (UI) 언어를 변경 하는 기능을 제공 하는 Microsoft Office 기능입니다. 예를 들어 스페인어로 영어 UI를 사용 하는 최종 사용자 UI의 언어를 변경할 수 있습니다.
+
+ [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
+
+ Office의 여러 언어를 사용 하는 사용자가 응용 프로그램을 사용할 경우 자동으로 (사용자가 설치 하 고 올바른 리소스) 하는 경우 사용자의 컴퓨터에 Office가 사용 되는 언어와 일치 하도록 UI 문자열의 언어를 변경 하는 코드를 추가할 수 있습니다.
+
+## <a name="to-check-the-current-office-ui-setting"></a>현재 Office UI 설정을 확인 하려면
+
+1.  사용 된 <xref:System.Threading.Thread.CurrentUICulture%2A> 현재 스레드의 속성입니다. 현재 사용자의 컴퓨터에서 실행 되는 Office 버전에 사용 되는 언어와 일치 하도록 UI 문자열의 언어를 설정 합니다.
+
      [!code-vb[Trin_VstcoreCreatingExcel#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb#10)]
-     [!code-csharp[Trin_VstcoreCreatingExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#10)]  
-  
-## <a name="see-also"></a>참고자료  
- [방법: 주 interop 어셈블리를 통해 대상 Office 응용 프로그램](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)   
- [Office 솔루션에서 런타임에 바인딩](../vsto/late-binding-in-office-solutions.md)  
+     [!code-csharp[Trin_VstcoreCreatingExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#10)]
+
+## <a name="see-also"></a>참고자료
+- [방법: 주 interop 어셈블리를 통해 대상 Office 응용 프로그램](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
+- [Office 솔루션에서 런타임에 바인딩](../vsto/late-binding-in-office-solutions.md)
