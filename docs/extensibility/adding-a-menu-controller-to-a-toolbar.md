@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c355ba523bd16cce9d352d483af8c142f0ee439c
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 2938da8f5f24c5c60cfe8d09423be886de1d0c86
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318240"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56705640"
 ---
 # <a name="add-a-menu-controller-to-a-toolbar"></a>도구 모음에 메뉴 컨트롤러 추가
 이 연습은 합니다 [도구 창에 도구 모음을 추가](../extensibility/adding-a-toolbar-to-a-tool-window.md) 연습 및 도구 창 도구 모음에 메뉴 컨트롤러를 추가 하는 방법을 보여 줍니다. 여기에 나와 있는 단계도 적용할 수 있습니다에서 만든 도구 모음에는 [도구 모음 추가](../extensibility/adding-a-toolbar.md) 연습 합니다.
@@ -223,5 +223,5 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     메시지와 함께 대화 상자가 나타납니다 **선택한 메뉴 컨트롤러 항목 3**합니다. 메시지 메뉴 컨트롤러 단추의 텍스트에 해당 하는지 확인 합니다. 메뉴 컨트롤러 단추 표시 **MC 항목 3**합니다.
 
 ## <a name="see-also"></a>참고자료
-[도구 창에 도구 모음 추가](../extensibility/adding-a-toolbar-to-a-tool-window.md)  
-[도구 모음 추가](../extensibility/adding-a-toolbar.md)
+- [도구 창에 도구 모음 추가](../extensibility/adding-a-toolbar-to-a-tool-window.md)
+- [도구 모음 추가](../extensibility/adding-a-toolbar.md)

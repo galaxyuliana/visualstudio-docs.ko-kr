@@ -1,7 +1,7 @@
 ---
 title: IDebugDocumentChecksum2::GetChecksumAndAlgorithmId | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugDocumentChecksum2::GetChecksumAndAlgorithmI
 - GetChecksumAndAlgorithmI
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: da313d42ac8e50e7f1a3788b3d40242d1ddffb0c
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 0f1a00b34aa640f9198649552ad7f1620d9b026d
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412905"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56704620"
 ---
 # <a name="idebugdocumentchecksum2getchecksumandalgorithmid"></a>IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
 사용 하는 바이트의 최대 수를 지정 된 문서 체크섬과 알고리즘 식별자를 검색 합니다.
@@ -42,17 +42,21 @@ public int GetChecksumAndAlgorithmId(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pRetVal`  
-[out] 체크섬 알고리즘에 대 한 고유 식별자입니다.
+`pRetVal`
 
-`cMaxBytes`  
-[in] 체크섬에 사용 되는 바이트의 최대 수입니다.
+ [out] 체크섬 알고리즘에 대 한 고유 식별자입니다.
 
-`pChecksum`  
-[out] 체크섬 값입니다.
+`cMaxBytes`
 
-`pcNumBytes`  
-[out] 실제 체크섬에 사용 된 바이트 수입니다.
+ [in] 체크섬에 사용 되는 바이트의 최대 수입니다.
+
+`pChecksum`
+
+ [out] 체크섬 값입니다.
+
+`pcNumBytes`
+
+ [out] 실제 체크섬에 사용 된 바이트 수입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -124,4 +128,4 @@ HRESULT CDebugCodeContext::GetDocumentChecksumAndAlgorithmId(GUID *pguidAlgorith
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugDocumentChecksum2](../../../extensibility/debugger/reference/idebugdocumentchecksum2.md)
+- [IDebugDocumentChecksum2](../../../extensibility/debugger/reference/idebugdocumentchecksum2.md)

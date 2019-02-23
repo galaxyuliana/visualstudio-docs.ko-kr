@@ -1,7 +1,7 @@
 ---
 title: IDebugCodeContext3::GetModule | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugCodeContext3::GetModule
 ms.assetid: 8e4317b8-8255-486c-a896-a68ed94f8aa1
@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3f79403bfd1dfe89868b3a8e3a901e2fc370609d
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: ae925ab4c05db45d09638070df9291541f19a869
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412788"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56703723"
 ---
 # <a name="idebugcodecontext3getmodule"></a>IDebugCodeContext3::GetModule
 디버그 모듈의 인터페이스에 대 한 참조를 검색합니다.
@@ -35,8 +35,9 @@ public int GetModule(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ppModule`  
-[out] 디버그 모듈 인터페이스에 대 한 참조입니다.
+`ppModule`
+
+ [out] 디버그 모듈 인터페이스에 대 한 참조입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -63,4 +64,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)
+- [IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)

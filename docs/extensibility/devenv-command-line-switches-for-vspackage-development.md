@@ -18,28 +18,28 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 89114689f933f3b09aac1d7ffcec109e81f631ad
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: dd95fe31949b51c7167337ad21c51251e84a19a7
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54970554"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56705533"
 ---
 # <a name="devenv-command-line-switches-for-vspackage-development"></a>VSPackage 개발을 위한 Devenv 명령줄 스위치
 
-Visual Studio에서는 실행 하는 경우 명령줄에서 작업을 자동화 하는 개발자 `devenv.exe`, Visual Studio IDE를 시작 하는 파일입니다.  
+Visual Studio에서는 실행 하는 경우 명령줄에서 작업을 자동화 하는 개발자 `devenv.exe`, Visual Studio IDE를 시작 하는 파일입니다.
 
- 작업은 다음과 같습니다.  
+ 작업은 다음과 같습니다.
 
-- IDE 외부에서 미리 정의 된 구성에서 응용 프로그램을 배포 합니다.  
+- IDE 외부에서 미리 정의 된 구성에서 응용 프로그램을 배포 합니다.
 
-- 자동으로 사전 설정을 사용 하 여 프로젝트 빌드는 빌드 설정 또는 디버그 구성 합니다.  
+- 자동으로 사전 설정을 사용 하 여 프로젝트 빌드는 빌드 설정 또는 디버그 구성 합니다.
 
-- IDE 외부 모두에서 특정 한 구성에서 IDE를 로드 합니다. 시작할 때 IDE를 사용자 지정할 수도 있습니다.  
+- IDE 외부 모두에서 특정 한 구성에서 IDE를 로드 합니다. 시작할 때 IDE를 사용자 지정할 수도 있습니다.
 
 ## <a name="guidelines-for-switches"></a>스위치에 대 한 지침
 
-Visual Studio 설명서 사용자 수준 설명 `devenv` 명령줄 스위치입니다. 자세한 내용은 [Devenv 명령줄 스위치](../ide/reference/devenv-command-line-switches.md)합니다. `devenv` 도구에서는 VSPackage 개발, 배포 및 디버깅을 사용 하 여 유용한 명령줄 스위치를 추가 합니다.  
+Visual Studio 설명서 사용자 수준 설명 `devenv` 명령줄 스위치입니다. 자세한 내용은 [Devenv 명령줄 스위치](../ide/reference/devenv-command-line-switches.md)합니다. `devenv` 도구에서는 VSPackage 개발, 배포 및 디버깅을 사용 하 여 유용한 명령줄 스위치를 추가 합니다.
 
 | 명령줄 스위치 | 설명 |
 |---------------------| - |

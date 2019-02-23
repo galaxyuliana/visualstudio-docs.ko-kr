@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider2::GetTypesByName | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - GetTypesByName
 - IDebugComPlusSymbolProvider2::GetTypesByName
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d23b88cbb9bc2c87ef42ba729d7b98359ac3a2a1
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: be32b39df6da618e38dc9e62264412fce8c29e20
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413451"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56678854"
 ---
 # <a name="idebugcomplussymbolprovider2gettypesbyname"></a>IDebugComPlusSymbolProvider2::GetTypesByName
 이름이 지정 된 형식을 검색 합니다.
@@ -40,14 +40,17 @@ int GetTypesByName(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pszClassName`  
-[in] 형식의 이름입니다.
+`pszClassName`
 
-`nameMatch`  
-[in] 형식을 일치, 예를 들어, 대/소문자 구분을 선택합니다. 값을 [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) 열거형입니다.
+ [in] 형식의 이름입니다.
 
-`ppEnum`  
-[out] 지정 된 이름의 형식을 포함 하는 열거자입니다.
+`nameMatch`
+
+ [in] 형식을 일치, 예를 들어, 대/소문자 구분을 선택합니다. 값을 [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) 열거형입니다.
+
+`ppEnum`
+
+ [out] 지정 된 이름의 형식을 포함 하는 열거자입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -122,4 +125,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
+- [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
