@@ -1,7 +1,7 @@
 ---
 title: IDebugReference2::Compare | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugReference2::Compare
 helpviewer_keywords:
@@ -12,42 +12,44 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3b4ed4488c10053da12eacaa4f90158dcf9a1fa1
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d3ca4e944125f6673ca66accdb78742f693def77
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55009286"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56703918"
 ---
 # <a name="idebugreference2compare"></a>IDebugReference2::Compare
-다른 하나의 참조를 비교합니다. 나중에 사용하기 위해 예약되어 있습니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT Compare (   
-   REFERENCE_COMPARE dwCompare,  
-   IDebugReference2* pReference  
-);  
-```  
-  
-```csharp  
-int Compare (   
-   enum_REFERENCE_COMPARE dwCompare,  
-   IDebugReference2       pReference  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `dwCompare`  
- [in] 값을 [REFERENCE_COMPARE](../../../extensibility/debugger/reference/reference-compare.md) 는 비교 연산을 수행 하려면 예를 들어, 보다 크거나 같음, 작음,를 지정 하는 열거형입니다.  
-  
- `pReference`  
- [in] [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) 비교에 대 한 참조를 나타내는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 항상 `E_NOTIMPL`를 반환합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)   
- [REFERENCE_COMPARE](../../../extensibility/debugger/reference/reference-compare.md)
+다른 하나의 참조를 비교합니다. 나중에 사용하기 위해 예약되어 있습니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT Compare ( 
+   REFERENCE_COMPARE dwCompare,
+   IDebugReference2* pReference
+);
+```
+
+```csharp
+int Compare ( 
+   enum_REFERENCE_COMPARE dwCompare,
+   IDebugReference2       pReference
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `dwCompare`
+
+ [in] 값을 [REFERENCE_COMPARE](../../../extensibility/debugger/reference/reference-compare.md) 는 비교 연산을 수행 하려면 예를 들어, 보다 크거나 같음, 작음,를 지정 하는 열거형입니다.
+
+ `pReference`
+
+ [in] [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) 비교에 대 한 참조를 나타내는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 항상 `E_NOTIMPL`를 반환합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [REFERENCE_COMPARE](../../../extensibility/debugger/reference/reference-compare.md)

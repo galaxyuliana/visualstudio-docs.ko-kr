@@ -1,7 +1,7 @@
 ---
 title: IDebugCoreServer2::GetMachineUtilities_V7 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugCoreServer2::GetMachineUtilities_V7
 helpviewer_keywords:
@@ -12,42 +12,43 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 977c7157ade60afe57b3564934319a34d140d81c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9b7b0aa54cb5102867ba536729404ad298db9fd3
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55027661"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56678178"
 ---
 # <a name="idebugcoreserver2getmachineutilitiesv7"></a>IDebugCoreServer2::GetMachineUtilities_V7
-이 메서드는 서버에 대 한 시스템 유틸리티를 가져옵니다.  
-  
+이 메서드는 서버에 대 한 시스템 유틸리티를 가져옵니다.
+
 > [!NOTE]
->  이 메서드는 사용 되지 않는: 사용 하지 마세요 ([!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 항상 반환 `E_NOTIMPL` 이 메서드를 호출 하는 경우). 기록을 위해 보존 됩니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetMachineUtilities_V7(  
-   IDebugMDMUtil2_V7** ppUtil  
-);  
-```  
-  
-```csharp  
-int GetMachineUtilities_V7(  
-   out IDebugMDMUtil2_V7 ppUtil  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ppUtil`  
- [out] 반환 된 `IDebugMDMUtil2_V7` 머신 유틸리티 정보를 나타내는 인터페이스입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 항상 반환 `E_NOTIMPL`, 메서드가 구현 되지 않았음을 나타내는입니다.  
-  
-## <a name="remarks"></a>설명  
- [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 항상 반환 `E_NOTIMPL` 이 메서드를 호출 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
+>  이 메서드는 사용 되지 않는: 사용 하지 마세요 ([!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 항상 반환 `E_NOTIMPL` 이 메서드를 호출 하는 경우). 기록을 위해 보존 됩니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetMachineUtilities_V7(
+   IDebugMDMUtil2_V7** ppUtil
+);
+```
+
+```csharp
+int GetMachineUtilities_V7(
+   out IDebugMDMUtil2_V7 ppUtil
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `ppUtil`
+
+ [out] 반환 된 `IDebugMDMUtil2_V7` 머신 유틸리티 정보를 나타내는 인터페이스입니다.
+
+## <a name="return-value"></a>반환 값
+ 항상 반환 `E_NOTIMPL`, 메서드가 구현 되지 않았음을 나타내는입니다.
+
+## <a name="remarks"></a>설명
+ [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 항상 반환 `E_NOTIMPL` 이 메서드를 호출 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

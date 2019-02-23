@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetNameFromToken | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetNameFromToken
 - GetNameFromToken
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 06f9a07b7c6e1abcf8bf63fb8f6bd61ec82d7e9b
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 6122e134fda4b7704385609fec8fa7cd25665968
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413412"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56682533"
 ---
 # <a name="idebugcomplussymbolprovidergetnamefromtoken"></a>IDebugComPlusSymbolProvider::GetNameFromToken
 해당 메타 데이터 개체를 지정 하는 지정된 된 토큰을 사용 하 여 연결 된 이름을 반환 합니다.
@@ -40,14 +40,17 @@ int GetNameFromToken (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pMetadataImport`  
-[in] 메타 데이터 정보를 포함 하는 개체입니다.
+`pMetadataImport`
 
-`dwToken`  
-[in] 이름을 지정 하는 토큰입니다.
+ [in] 메타 데이터 정보를 포함 하는 개체입니다.
 
-`pbstrName`  
-[out] 토큰에 해당 하는 이름입니다.
+`dwToken`
+
+ [in] 이름을 지정 하는 토큰입니다.
+
+`pbstrName`
+
+ [out] 토큰에 해당 하는 이름입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -120,4 +123,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

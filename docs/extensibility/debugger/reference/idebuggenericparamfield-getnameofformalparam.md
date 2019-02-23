@@ -1,7 +1,7 @@
 ---
 title: IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField::GetNameOfFormalParam
 - GetNameOfFormalParam
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3994ab978335d9cf8f1c607d2bd90fea7d45bc3f
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 8e927c6fb85a4e654224f95564f6575141783137
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450167"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56682871"
 ---
 # <a name="idebuggenericparamfieldgetnameofformalparam"></a>IDebugGenericParamField::GetNameOfFormalParam
 이 제네릭 매개 변수의 이름을 검색합니다.
@@ -36,8 +36,9 @@ int GetNameOfFormalParam (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pbstrName`  
-[out] 이 제네릭 매개 변수의 이름입니다.
+`pbstrName`
+
+ [out] 이 제네릭 매개 변수의 이름입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -65,4 +66,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

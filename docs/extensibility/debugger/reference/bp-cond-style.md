@@ -1,7 +1,7 @@
 ---
 title: BP_COND_STYLE | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - BP_COND_STYLE
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d8ca4f551f4dd6541bad9d73b5e91c671ad80492
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 70ab3655d27e810b3c05d0e0e81d81bc15a26950
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318305"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56685861"
 ---
 # <a name="bpcondstyle"></a>BP_COND_STYLE
 보류 중인 중단점 조건 스타일을 지정 하 고 바인딩된 중단점.
@@ -42,14 +42,11 @@ public enum enum_BP_COND_STYLE {
 ```
 
 ## <a name="members"></a>멤버
-BP_COND_NONE  
-중단점의 위치에 도달 하면 중단점을 발생 시킵니다. 중단점 조건 지정 없습니다.
+BP_COND_NONE는 중단점의 위치에 도달 하면 중단점을 발생 시킵니다. 중단점 조건 지정 없습니다.
 
-BP_COND_WHEN_TRUE  
-중단점이 설정 된 조건식을 연결 하는 경우로 중단점이 발생 `true`합니다.
+BP_COND_WHEN_TRUE로 조건식 중단점을 사용 하 여 연결 하는 경우에 중단점이 발생 `true`합니다.
 
-BP_COND_WHEN_CHANGED  
-발생 조건 식의 값 중단점과 연결 된 경우에 중단점 이전 해당 평가에서 변경 되었습니다.
+중단점 조건 식의 값 중단점과 연결 된 경우에 해당 이전 평가에서 변경 된 BP_COND_WHEN_CHANGED 발생 합니다.
 
 ## <a name="remarks"></a>설명
 에 사용 되는 합니다 `styleCondition` 의 멤버는 [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) 구조입니다.
@@ -62,5 +59,5 @@ BP_COND_WHEN_CHANGED
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)

@@ -1,7 +1,7 @@
 ---
 title: dwTYPE_KIND | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - dwTYPE_KIND
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c5a60939b779fe7377662a267826722b4c916679
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 2a33bdf1875426898a6db72831bee4d1d7ac1f9a
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317382"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56689254"
 ---
 # <a name="dwtypekind"></a>dwTYPE_KIND
 형식의 해석 하는 방법을 지정는 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 개체입니다.
@@ -43,14 +43,11 @@ public enum enum_dwTYPE_KIND {
 ```
 
 #### <a name="parameters"></a>매개 변수
-TYPE_KIND_METADATA  
-합니다 [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) union으로 해석할지를 [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md) 구조입니다.
+TYPE_KIND_METADATA 합니다 [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) union으로 해석할지를 [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md) 구조입니다.
 
-TYPE_KIND_PDB  
-합니다 `TYPE_INFO` union으로 해석할지를 [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md) 구조입니다.
+TYPE_KIND_PDB 합니다 `TYPE_INFO` union으로 해석할지를 [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md) 구조입니다.
 
-TYPE_KIND_BUILT  
-합니다 `TYPE_INFO` union으로 해석할지를 [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) 구조입니다.
+TYPE_KIND_BUILT 합니다 `TYPE_INFO` union으로 해석할지를 [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) 구조입니다.
 
 ## <a name="remarks"></a>설명
 이 열거형의 값이 나타나는 `dwKind` 필드를 [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) 구조체이 고 해석 하는 방법을 결정 하는 데 사용 되는 `type` 공용 구조체 멤버입니다. 합니다 `TYPE_INFO` 구조에 대 한 호출에서 반환 되는 [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) 메서드.
@@ -63,9 +60,9 @@ TYPE_KIND_BUILT
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)  
-[GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)  
-[METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md)  
-[PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md)  
-[BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
+- [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)
+- [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md)
+- [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md)
+- [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md)

@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetTypeFromAddress | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetTypeFromAddress
 - GetTypeFromAddress
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 21fd08a0a7163a61eeb03d8488076475271ed2e3
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 48e1e90c69688cf1ef5388e74060e38087d50920
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413100"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56691412"
 ---
 # <a name="idebugcomplussymbolprovidergettypefromaddress"></a>IDebugComPlusSymbolProvider::GetTypeFromAddress
 해당 디버그 주소 지정 된 기호 형식으로 검색 합니다.
@@ -38,11 +38,13 @@ int GetTypeFromAddress(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pAddress`  
-[in] 가 나타낸 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
+`pAddress`
 
-`ppField`  
-[out] 으로 표시 되어 배열 형식을 반환 합니다는 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) 인터페이스입니다.
+ [in] 가 나타낸 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
+
+`ppField`
+
+ [out] 으로 표시 되어 배열 형식을 반환 합니다는 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -116,4 +118,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

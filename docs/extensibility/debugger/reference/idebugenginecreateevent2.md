@@ -1,7 +1,7 @@
 ---
 title: IDebugEngineCreateEvent2 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugEngineCreateEvent2
 helpviewer_keywords:
@@ -12,43 +12,43 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7164137d2598f564f5bb2c107f9e1ffdff173d20
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: eec2d1dd536b70432b761d613389acdac80cd6d5
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069657"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56702306"
 ---
 # <a name="idebugenginecreateevent2"></a>IDebugEngineCreateEvent2
-디버그 엔진 (DE)는 DE의 인스턴스를 만들 때 (SDM) 세션 디버그 관리자에 게이 인터페이스를 보냅니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```  
-IDebugEngineCreateEvent2 : IUnknown  
-```  
-  
-## <a name="notes-for-implementers"></a>구현자 참고 사항  
- DE는 정상적인 작업의 일부로이 인터페이스를 구현합니다. [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) 이 인터페이스와 동일한 개체에서 인터페이스를 구현 해야 (SDM을 사용 합니다 `QueryInterface` 액세스 하는 방법은 `IDebugEvent2` 인터페이스).  
-  
-## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- DE 만들고는 DE 인스턴스화된 경우이 이벤트 개체를 전송 합니다. 이벤트를 사용 하 여 전송 되는 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 디버깅 중인 프로그램에 연결할 때 SDM에서 제공 하는 콜백 함수.  
-  
-## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
- 다음 표에서의 메서드를 보여 줍니다. `IDebugEngineCreateEvent2`합니다.  
-  
-|메서드|설명|  
-|------------|-----------------|  
-|[GetEngine](../../../extensibility/debugger/reference/idebugenginecreateevent2-getengine.md)|새로 만든된 디버그 엔진 (DE)를 나타내는 개체를 검색 합니다.|  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: msdbg.h  
-  
- 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
-  
- 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
- [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
- [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
+디버그 엔진 (DE)는 DE의 인스턴스를 만들 때 (SDM) 세션 디버그 관리자에 게이 인터페이스를 보냅니다.
+
+## <a name="syntax"></a>구문
+
+```
+IDebugEngineCreateEvent2 : IUnknown
+```
+
+## <a name="notes-for-implementers"></a>구현자 참고 사항
+ DE는 정상적인 작업의 일부로이 인터페이스를 구현합니다. [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) 이 인터페이스와 동일한 개체에서 인터페이스를 구현 해야 (SDM을 사용 합니다 `QueryInterface` 액세스 하는 방법은 `IDebugEvent2` 인터페이스).
+
+## <a name="notes-for-callers"></a>호출자에 대 한 정보
+ DE 만들고는 DE 인스턴스화된 경우이 이벤트 개체를 전송 합니다. 이벤트를 사용 하 여 전송 되는 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 디버깅 중인 프로그램에 연결할 때 SDM에서 제공 하는 콜백 함수.
+
+## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드
+ 다음 표에서의 메서드를 보여 줍니다. `IDebugEngineCreateEvent2`합니다.
+
+|메서드|설명|
+|------------|-----------------|
+|[GetEngine](../../../extensibility/debugger/reference/idebugenginecreateevent2-getengine.md)|새로 만든된 디버그 엔진 (DE)를 나타내는 개체를 검색 합니다.|
+
+## <a name="requirements"></a>요구 사항
+ 헤더: msdbg.h
+
+ 네임스페이스: Microsoft.VisualStudio.Debugger.Interop
+
+ 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## <a name="see-also"></a>참고 항목
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
+- [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

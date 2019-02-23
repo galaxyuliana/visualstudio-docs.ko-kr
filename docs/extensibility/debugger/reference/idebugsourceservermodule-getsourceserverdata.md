@@ -1,7 +1,7 @@
 ---
 title: IDebugSourceServerModule::GetSourceServerData | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugSourceServerModule::GetSourceServerData
 ms.assetid: f15d86aa-1bd9-4b16-a64a-21b01c27db2e
@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8880f00528b1c2b1f081b6c306e1f94cccc109ec
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: fc99d014c1e31616ebd2a6cc16608a1d1bc741ce
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450284"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56683872"
 ---
 # <a name="idebugsourceservermodulegetsourceserverdata"></a>IDebugSourceServerModule::GetSourceServerData
 원본 서버 정보를 검색합니다.
@@ -37,11 +37,13 @@ public int GetSourceServerData(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pDataByteCount`  
-[out] 데이터 배열의 바이트 수입니다.
+`pDataByteCount`
 
-`ppData`  
-[out] 데이터 배열에 대 한 참조입니다.
+ [out] 데이터 배열의 바이트 수입니다.
+
+`ppData`
+
+ [out] 데이터 배열에 대 한 참조입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -72,4 +74,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md)
+- [IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md)
