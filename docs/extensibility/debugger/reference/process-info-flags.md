@@ -1,7 +1,7 @@
 ---
 title: PROCESS_INFO_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - PROCESS_INFO_FLAGS
 helpviewer_keywords:
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1d3541355da9ea144129e730efe9876b4e6d642f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 42a596eb8d720a273d89586427232dcf833f8595
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55009572"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56696521"
 ---
 # <a name="processinfoflags"></a>PROCESS_INFO_FLAGS
 
@@ -45,17 +45,13 @@ enum enum_PROCESS_INFO_FLAGS { 
 
 ## <a name="members"></a>멤버
 
-PIFLAG_SYSTEM_PROCESS  
-프로세스가 시스템 프로세스 임을 나타냅니다.
+PIFLAG_SYSTEM_PROCESS 프로세스는 시스템 프로세스를 나타냅니다.
 
-PIFLAG_DEBUGGER_ATTACHED  
-프로세스는 디버거에서 디버깅 되 고 있는지를 나타냅니다. 것을 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버거, 또는 일부 다른 디버거, 예를 들어, WinDbg를 수 있습니다.
+PIFLAG_DEBUGGER_ATTACHED 프로세스가 디버거에서 디버깅 되는 것을 나타냅니다. 것을 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버거, 또는 일부 다른 디버거, 예를 들어, WinDbg를 수 있습니다.
 
-PIFLAG_PROCESS_STOPPED  
-프로세스 중지 되었음을 나타냅니다. 경우에만 유효한 `PIFLAG_DEBUGGER_ATTACHED` 도 지정 합니다. Visual Studio 2005 이상 사용할 수 있습니다.
+PIFLAG_PROCESS_STOPPED 프로세스 중지 되었음을 나타냅니다. 경우에만 유효한 `PIFLAG_DEBUGGER_ATTACHED` 도 지정 합니다. Visual Studio 2005 이상 사용할 수 있습니다.
 
-PIFLAG_PROCESS_RUNNING  
-프로세스가 실행 중임을 나타냅니다. 경우에만 유효한 `PIFLAG_DEBUGGER_ATTACHED` 도 지정 합니다. Visual Studio 2005 이상 사용할 수 있습니다.
+PIFLAG_PROCESS_RUNNING 프로세스가 실행 되는 것을 나타냅니다. 경우에만 유효한 `PIFLAG_DEBUGGER_ATTACHED` 도 지정 합니다. Visual Studio 2005 이상 사용할 수 있습니다.
 
 ## <a name="remarks"></a>설명
 
@@ -73,5 +69,5 @@ PIFLAG_PROCESS_RUNNING
 
 ## <a name="see-also"></a>참고 항목
 
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)

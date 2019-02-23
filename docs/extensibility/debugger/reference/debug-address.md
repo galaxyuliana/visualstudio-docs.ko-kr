@@ -1,7 +1,7 @@
 ---
 title: DEBUG_ADDRESS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - DEBUG_ADDRESS
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 779564cf93e22f64b926a80644bb9da3375335b9
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: d45fa0be28fcad891366581e13425d3940a0a967
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317824"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56684613"
 ---
 # <a name="debugaddress"></a>DEBUG_ADDRESS
 이 구조는 주소를 나타냅니다.
@@ -43,14 +43,11 @@ public struct DEBUG_ADDRESS {
 ```
 
 ## <a name="terms"></a>용어
-ulAppDomainID  
-프로세스 id입니다.
+ulAppDomainID 프로세스 id입니다.
 
-guidModule  
-이 주소를 포함 하는 모듈의 GUID입니다.
+guidModule이이 주소를 포함 하는 모듈의 GUID입니다.
 
-tokClass  
-클래스 또는이 주소의 형식 식별 토큰입니다.
+tokClass 클래스 또는이 주소의 형식 식별 토큰입니다.
 
 > [!NOTE]
 > 이 값은 기호 공급자에 국한 되며 따라서 의미가 없는 일반 이외의 다른 클래스 형식에 대 한 식별자로.
@@ -79,7 +76,7 @@ if (addr.dwKind == ADDRESS_KIND_METADATA_LOCAL && addr.addr.addrLocal.pLocal != 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)  
-[DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)  
-[ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)
+- [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)
+- [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
+- [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

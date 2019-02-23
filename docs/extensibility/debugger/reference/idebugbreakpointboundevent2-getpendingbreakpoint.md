@@ -1,7 +1,7 @@
 ---
 title: IDebugBreakpointBoundEvent2::GetPendingBreakpoint | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4039a8ca3b6759480ff1df7b2a9f648ae4ad01e9
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: e0a67ec99f553fd5201b1ee1bf17760fd94bb890
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316160"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56699186"
 ---
 # <a name="idebugbreakpointboundevent2getpendingbreakpoint"></a>IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 바인딩되는 보류 중인 중단점을 가져옵니다.
@@ -37,8 +37,9 @@ int GetPendingBreakpoint(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ppPendingBP`  
-[out] 반환 된 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 바인딩되는 보류 중인 중단점을 나타내는 개체입니다.
+`ppPendingBP`
+
+ [out] 반환 된 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 바인딩되는 보류 중인 중단점을 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -73,5 +74,5 @@ STDMETHODIMP CBreakpointSetDebugEventBase::GetPendingBreakpoint(
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md)  
-[IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md)
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

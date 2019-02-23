@@ -12,26 +12,26 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 35b22c47aa80713ae494f868996142e776c94a0a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4d38f53b6841c03e769c8d1f1af967cf903a0b32
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55020337"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56684094"
 ---
 # <a name="stack-frames"></a>스택 프레임
-디버거 아키텍처에는 *스택 프레임*:  
-  
--   스레드의 실행 컨텍스트를 제공 하는 스택의 추상화가입니다. 스레드는 항상 함수 내에서 실행 됩니다. 스택 프레임에 인수를 함수의 로컬 변수를 보유합니다. Visual Studio를 사용 하 여 디버그 하기 위해 언어 또는 디버깅 중인 환경 스택 프레임을 지원 해야 합니다.  
-  
--   수 모두 파악 자체에 대해 설명 하 고 관련된 스레드를 반환할 수 있습니다. 스택 프레임을 현재 명령 포인터 및 관련된 설명서를 나타내는 코드 컨텍스트 및 식 평가 컨텍스트를 반환할 수도 있습니다.  
-  
--   이름, 형식 및 지역 변수 및 인수 값을 설명 하 고 다양 한 IDE 디버그 창에 표시 되는 속성이 있습니다.  
-  
--   로 표시 됩니다는 [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md) 인터페이스를 일반적으로 디버그 엔진 (DE), 가상 머신에서 스레드 실행의 결과로 생성 합니다.  
-  
-## <a name="see-also"></a>참고자료  
- [디버거 컨텍스트](../../extensibility/debugger/debugger-contexts.md)   
- [디버거 개념](../../extensibility/debugger/debugger-concepts.md)   
- [디버그 엔진](../../extensibility/debugger/debug-engine.md)   
- [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md)
+디버거 아키텍처에는 *스택 프레임*:
+
+-   스레드의 실행 컨텍스트를 제공 하는 스택의 추상화가입니다. 스레드는 항상 함수 내에서 실행 됩니다. 스택 프레임에 인수를 함수의 로컬 변수를 보유합니다. Visual Studio를 사용 하 여 디버그 하기 위해 언어 또는 디버깅 중인 환경 스택 프레임을 지원 해야 합니다.
+
+-   수 모두 파악 자체에 대해 설명 하 고 관련된 스레드를 반환할 수 있습니다. 스택 프레임을 현재 명령 포인터 및 관련된 설명서를 나타내는 코드 컨텍스트 및 식 평가 컨텍스트를 반환할 수도 있습니다.
+
+-   이름, 형식 및 지역 변수 및 인수 값을 설명 하 고 다양 한 IDE 디버그 창에 표시 되는 속성이 있습니다.
+
+-   로 표시 됩니다는 [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md) 인터페이스를 일반적으로 디버그 엔진 (DE), 가상 머신에서 스레드 실행의 결과로 생성 합니다.
+
+## <a name="see-also"></a>참고자료
+- [디버거 컨텍스트](../../extensibility/debugger/debugger-contexts.md)
+- [디버거 개념](../../extensibility/debugger/debugger-concepts.md)
+- [디버그 엔진](../../extensibility/debugger/debug-engine.md)
+- [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md)

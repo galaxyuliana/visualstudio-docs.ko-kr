@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3d84b8b6b186887fe9add71d5e70ac007e3157ab
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 87a2b604b27b58c40f1ba1ad8628fe2be06701e5
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54934207"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56695793"
 ---
 # <a name="list-of-available-services"></a>사용 가능한 서비스 목록
 
@@ -129,7 +129,7 @@ ms.locfileid: "54934207"
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolutionObject> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution> | 예 | 예 | 사용 된 <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution> 대신 서비스입니다. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolutionPersistence> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence> | 예 | 예 | VSPackage를 저장 하 고 현재 솔루션의.sln 파일에서 정보를 검색할 수 있습니다. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsSQLCLRReferences> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSQLCLRReferences> | 아니요 | 예 | 기능도 추가 하 고 관리 코드 어셈블리의 참조를 업데이트 합니다. |
-| <xref:Microsoft.VisualStudio.Shell.Interop.SVsStartPageDownload> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsStartPageDownload> | 아니요 | 예 | 시작 페이지의 다운로드 서비스 시작 및 백그라운드 스레드에서 다운로드 서비스 중지에 대 한 액세스를 제공 합니다. |
+| <xref:Microsoft.VisualStudio.Shell.Interop.SVsStartPageDownload> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsStartPageDownload> | 아니요 | 예 | Visual Studio 2017 시작 페이지의 다운로드 서비스 시작 및 백그라운드 스레드에서 다운로드 서비스 중지에 대 한 액세스를 제공 합니다. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> | 예 | 예 | IDE의 상태 표시줄에 대 한 액세스를 제공합니다. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsStrongNameKeys> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsStrongNameKeys> | 아니요 | 예 | 관리 코드 어셈블리를 서명에서 사용 되는 암호를 사용 하 여 강력한 키 이름 및 키 파일을 만드는 방법에 대 한 액세스를 제공 합니다. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsStructuredFileIO> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsStructuredFileIO> | 예 | 예 | 여러 형식에 데이터를 저장 하기 위한 지원을 제공 하기 위해 VSPackage를 사용 하도록 설정 합니다. |
