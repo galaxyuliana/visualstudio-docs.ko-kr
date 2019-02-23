@@ -1,7 +1,7 @@
 ---
 title: IDebugProgram2::EnumModules | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugProgram2::EnumModules
 helpviewer_keywords:
@@ -12,40 +12,41 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 81ad763bbfd1825af965ca692d7496cfe74f82d2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e8de1f98cb6953ba713796e1dbd74de849a0aaf7
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54976344"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56715941"
 ---
 # <a name="idebugprogram2enummodules"></a>IDebugProgram2::EnumModules
-이 프로그램에 로드 하 고 실행 되는 모듈의 목록을 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT EnumModules(   
-   IEnumDebugModules2** ppEnum  
-);  
-```  
-  
-```csharp  
-int EnumModules(   
-   out IEnumDebugModules2 ppEnum  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ppEnum`  
- [out] 반환 된 [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md) 모듈의 목록을 포함 하는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 모듈 DLL 또는 어셈블리 이며 일반적으로 나오는 합니다 **모듈** 디버그 창입니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
- [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)
+이 프로그램에 로드 하 고 실행 되는 모듈의 목록을 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT EnumModules( 
+   IEnumDebugModules2** ppEnum
+);
+```
+
+```csharp
+int EnumModules( 
+   out IEnumDebugModules2 ppEnum
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `ppEnum`
+
+ [out] 반환 된 [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md) 모듈의 목록을 포함 하는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 모듈 DLL 또는 어셈블리 이며 일반적으로 나오는 합니다 **모듈** 디버그 창입니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)

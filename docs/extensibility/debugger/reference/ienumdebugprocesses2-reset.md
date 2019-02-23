@@ -1,7 +1,7 @@
 ---
 title: IEnumDebugProcesses2::Reset | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IEnumDebugProcesses2::Reset
 helpviewer_keywords:
@@ -12,33 +12,33 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4258201e381a8915db562e1995a18ecf70041bad
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d40f40ac792eab1c84c3b195d49cd570ec6f83b8
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54953849"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56708393"
 ---
 # <a name="ienumdebugprocesses2reset"></a>IEnumDebugProcesses2::Next
-첫 번째 요소를 열거를 초기화합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT Reset(  
-   void  
-);  
-```  
-  
-```csharp  
-int Reset();  
-```  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 이 메서드를 호출한 후, 다음 호출을 [다음](../../../extensibility/debugger/reference/ienumdebugprocesses2-next.md) 메서드 열거형의 첫 번째 요소를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IEnumDebugProcesses2](../../../extensibility/debugger/reference/ienumdebugprocesses2.md)
+첫 번째 요소를 열거를 초기화합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT Reset(
+   void
+);
+```
+
+```csharp
+int Reset();
+```
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 이 메서드를 호출한 후, 다음 호출을 [다음](../../../extensibility/debugger/reference/ienumdebugprocesses2-next.md) 메서드 열거형의 첫 번째 요소를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IEnumDebugProcesses2](../../../extensibility/debugger/reference/ienumdebugprocesses2.md)

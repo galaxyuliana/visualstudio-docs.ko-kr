@@ -1,7 +1,7 @@
 ---
 title: IDebugCoreServer2::GetPort | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugCoreServer2::GetPort
 helpviewer_keywords:
@@ -12,42 +12,44 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7d1bc15f1de05a2474c924f7407353a7a0040d69
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 44e801318a2a997e7c1ab2f863b737c4d6693e14
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55021327"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56708006"
 ---
 # <a name="idebugcoreserver2getport"></a>IDebugCoreServer2::GetPort
-특정 포트를 검색합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetPort(   
-   REFGUID       guidPort,  
-   IDebugPort2** ppPort  
-);  
-```  
-  
-```csharp  
-int GetPort(   
-   ref Guid        guidPort,  
-   out IDebugPort2 ppPort  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `guidPort`  
- [in] 검색할 포트의 GUID입니다.  
-  
- `ppPort`  
- [out] 반환 된 [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) 원하는 포트를 나타내는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_PORTSUPPLIER_NO_PORT` 주어진된 식별자를 사용 하 여 포트가 없는 경우.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)   
- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
+특정 포트를 검색합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetPort( 
+   REFGUID       guidPort,
+   IDebugPort2** ppPort
+);
+```
+
+```csharp
+int GetPort( 
+   ref Guid        guidPort,
+   out IDebugPort2 ppPort
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `guidPort`
+
+ [in] 검색할 포트의 GUID입니다.
+
+ `ppPort`
+
+ [out] 반환 된 [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) 원하는 포트를 나타내는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_PORTSUPPLIER_NO_PORT` 주어진된 식별자를 사용 하 여 포트가 없는 경우.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
+- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

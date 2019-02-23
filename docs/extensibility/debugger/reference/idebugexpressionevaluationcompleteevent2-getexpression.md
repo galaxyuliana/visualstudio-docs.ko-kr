@@ -1,7 +1,7 @@
 ---
 title: IDebugExpressionEvaluationCompleteEvent2::GetExpression | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetExpression
 helpviewer_keywords:
@@ -12,41 +12,42 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fdd4f1a48658b748a4ed48bb9fcbab1507331638
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: bb413457b9e84d57079d9c5efa3369ddad608934
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55006556"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56707694"
 ---
 # <a name="idebugexpressionevaluationcompleteevent2getexpression"></a>IDebugExpressionEvaluationCompleteEvent2::GetExpression
-원래 식을 가져옵니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetExpression(   
-   IDebugExpression2** ppExpr  
-);  
-```  
-  
-```csharp  
-int GetExpression(   
-   out IDebugExpression2 ppExpr  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ppExpr`  
- [out] 반환 된 [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) 구문 분석 된 식을 나타내는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 이 메서드 호출에서 생성 된 개체를 반환 합니다 [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) 메서드.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)   
- [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)   
- [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md)
+원래 식을 가져옵니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetExpression( 
+   IDebugExpression2** ppExpr
+);
+```
+
+```csharp
+int GetExpression( 
+   out IDebugExpression2 ppExpr
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `ppExpr`
+
+ [out] 반환 된 [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) 구문 분석 된 식을 나타내는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 이 메서드 호출에서 생성 된 개체를 반환 합니다 [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) 메서드.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)
+- [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
+- [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md)

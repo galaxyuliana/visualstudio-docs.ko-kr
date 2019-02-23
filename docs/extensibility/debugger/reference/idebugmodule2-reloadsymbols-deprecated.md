@@ -1,7 +1,7 @@
 ---
 title: IDebugModule2::ReloadSymbols_Deprecated | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugModule2::ReloadSymbols
 helpviewer_keywords:
@@ -12,45 +12,47 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 182561200e6239520b1345f43cc0a150baa30622
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: cc5651a85ccc89a8a084c608e3fc698aa326e07c
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54961311"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56721305"
 ---
 # <a name="idebugmodule2reloadsymbolsdeprecated"></a>IDebugModule2::ReloadSymbols_Deprecated
-사용되지 않습니다. 사용 하지 마세요. 이 모듈의 기호를 다시 로드합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT ReloadSymbols(   
-   LPCOLESTR pszUrlToSymbols,  
-   BSTR*     pbstrDebugMessage  
-);  
-```  
-  
-```csharp  
-int ReloadSymbols(   
-   string     pszUrlToSymbols,  
-   out string pbstrDebugMessage  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pszUrlToSymbols`  
- [in] 기호 저장소에 대 한 경로입니다.  
-  
- `pbstrDebugMessage`  
- [out] 모듈 창에서 모듈 이름 오른쪽에 표시 되는 상태 또는 오류 메시지와 같은 정보 메시지를 반환 합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 디버그 엔진을 항상 반환 `E_FAIL`합니다.  
-  
-## <a name="remarks"></a>설명  
- 이 메서드는 더 이상 지원 합니다. 구현 된 [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md) 메서드 대신 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)   
- [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md)
+사용되지 않습니다. 사용 하지 마세요. 이 모듈의 기호를 다시 로드합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT ReloadSymbols( 
+   LPCOLESTR pszUrlToSymbols,
+   BSTR*     pbstrDebugMessage
+);
+```
+
+```csharp
+int ReloadSymbols( 
+   string     pszUrlToSymbols,
+   out string pbstrDebugMessage
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pszUrlToSymbols`
+
+ [in] 기호 저장소에 대 한 경로입니다.
+
+ `pbstrDebugMessage`
+
+ [out] 모듈 창에서 모듈 이름 오른쪽에 표시 되는 상태 또는 오류 메시지와 같은 정보 메시지를 반환 합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 디버그 엔진을 항상 반환 `E_FAIL`합니다.
+
+## <a name="remarks"></a>설명
+ 이 메서드는 더 이상 지원 합니다. 구현 된 [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md) 메서드 대신 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)
+- [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md)
