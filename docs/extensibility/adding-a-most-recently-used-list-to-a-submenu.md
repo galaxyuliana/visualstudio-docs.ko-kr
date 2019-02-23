@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 91db654370cb9a186484c0fd61688bcb25af4ba1
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 462f59d472c6de8872394b2eadd5f33aa27bccca
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316191"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710086"
 ---
 # <a name="add-a-most-recently-used-list-to-a-submenu"></a>가장 최근에 사용한 되는 하위 메뉴에 목록 추가
 이 연습에서 데모 기반 [하위 메뉴에 추가](../extensibility/adding-a-submenu-to-a-menu.md), 동적 목록을 하위 메뉴에 추가 하는 방법을 보여줍니다. 동적 목록 mru (가장 최근에 사용 됨) 목록을 만들기 위한 기본을 형성 합니다.
@@ -202,4 +202,4 @@ ms.locfileid: "56316191"
 4. 하위 메뉴를 다시 엽니다. 있음을 **항목 3** 목록의 맨 위에 있는 이제는 다른 항목을 한 위치 아래로 푸시한 및 합니다. 클릭 **항목 3** 다시 및 메시지 상자는 여전히 표시 되었다는 **선택 항목 3**, 텍스트는 새 위치 명령 레이블 함께 올바르게 옮겨 졌음을 나타냅니다.
 
 ## <a name="see-also"></a>참고자료
-[메뉴 항목 동적 추가](../extensibility/dynamically-adding-menu-items.md)
+- [메뉴 항목 동적 추가](../extensibility/dynamically-adding-menu-items.md)

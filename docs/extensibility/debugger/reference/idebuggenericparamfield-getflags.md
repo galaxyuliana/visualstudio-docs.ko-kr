@@ -1,7 +1,7 @@
 ---
 title: IDebugGenericParamField::GetFlags | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - GetFlags
 - IDebugGenericParamField::GetFlags
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5c68e532c893cd8a51895c8e409f646b003bba85
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: a5f03eae07ff02d69f304d1a9bb9deaa668bf521
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56449726"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56689644"
 ---
 # <a name="idebuggenericparamfieldgetflags"></a>IDebugGenericParamField::GetFlags
 이 제네릭 매개 변수에 대 한 플래그를 검색 합니다.
@@ -36,8 +36,9 @@ int GetFlags(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pdwFlags`  
-[out] 이 제네릭 매개 변수에 대 한 플래그를 반환 합니다.
+`pdwFlags`
+
+ [out] 이 제네릭 매개 변수에 대 한 플래그를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -67,4 +68,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
