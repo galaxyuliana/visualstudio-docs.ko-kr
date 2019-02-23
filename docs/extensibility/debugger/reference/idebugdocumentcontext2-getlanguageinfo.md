@@ -1,7 +1,7 @@
 ---
 title: IDebugDocumentContext2::GetLanguageInfo | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2::GetLanguageInfo
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2895d943196f29f39d1abd38415be7ad374f0012
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 0eb1106bce363bcf1b817853cafc77d192adad86
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450220"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56718796"
 ---
 # <a name="idebugdocumentcontext2getlanguageinfo"></a>IDebugDocumentContext2::GetLanguageInfo
 이 문서 컨텍스트와 연결 된 언어를 가져옵니다.
@@ -39,11 +39,13 @@ int GetLanguageInfo(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pbstrLanguage`  
-[out] 이 문서의 컨텍스트에서 코드를 구현 하는 언어의 이름을 반환 합니다.
+`pbstrLanguage`
 
-`pguidLanguage`  
-[out] 이 문서의 컨텍스트에서 코드를 구현 하는 언어의 GUID를 반환 합니다. 예를 들어 `guidVBScriptLang` 또는 `guidCPPLang`로 이름을 지정할 수 있습니다. 이 GUID가 제공한 언어로 국한 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]합니다.
+ [out] 이 문서의 컨텍스트에서 코드를 구현 하는 언어의 이름을 반환 합니다.
+
+`pguidLanguage`
+
+ [out] 이 문서의 컨텍스트에서 코드를 구현 하는 언어의 GUID를 반환 합니다. 예를 들어 `guidVBScriptLang` 또는 `guidCPPLang`로 이름을 지정할 수 있습니다. 이 GUID가 제공한 언어로 국한 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -81,4 +83,4 @@ HRESULT CDebugContext::GetLanguageInfo(BSTR* pbstrLanguage, GUID* pguidLanguage)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
+- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

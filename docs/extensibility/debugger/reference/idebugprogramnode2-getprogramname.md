@@ -1,7 +1,7 @@
 ---
 title: IDebugProgramNode2::GetProgramName | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugProgramNode2::GetProgramName
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d6f678adc135e85f8808cef36d819733033447e4
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: ef32de11f1667e32684bf39e38f6b609fc67afa8
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450375"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56714051"
 ---
 # <a name="idebugprogramnode2getprogramname"></a>IDebugProgramNode2::GetProgramName
 프로그램의 이름을 가져옵니다.
@@ -37,8 +37,9 @@ int GetProgramName (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pbstrProgramName`  
-[out] 프로그램의 이름을 반환합니다.
+`pbstrProgramName`
+
+ [out] 프로그램의 이름을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -61,4 +62,4 @@ HRESULT CProgram::GetProgramName(BSTR* pbstrProgramName) {
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

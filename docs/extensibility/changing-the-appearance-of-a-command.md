@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6446df8f1f3334cac9ebb6e0501a42b3da408455
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 7431fa1670f6a75b69c1a1033a51975307426771
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317083"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56691347"
 ---
 # <a name="change-the-appearance-of-a-command"></a>명령 모양 변경
 명령의 모양을 변경 하 여 사용자에 게 피드백을 제공할 수 있습니다. 예를 들어 명령을 사용할 수 없을 때 다르게 좋습니다. 명령을 사용 가능 여부, 숨기기 또는 표시 하면 또는 확인 하거나 메뉴에서 선택 취소 합니다.
@@ -85,7 +85,7 @@ ms.locfileid: "56317083"
 8. 에 **도구** 돌아가면 메뉴 **새 텍스트**합니다. 클릭 **새 텍스트**합니다. 명령이 회색 이제 해야 합니다.
 
 ## <a name="see-also"></a>참고자료
-[명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)  
-[Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)  
-[메뉴 및 명령 확장](../extensibility/extending-menus-and-commands.md)  
-[Visual Studio 명령 테이블 (합니다. Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)
+- [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+- [메뉴 및 명령 확장](../extensibility/extending-menus-and-commands.md)
+- [Visual Studio 명령 테이블 (합니다. Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -1,7 +1,7 @@
 ---
 title: BP_LOCATION_RESOLUTION | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - BP_LOCATION_RESOLUTION
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b0060855edb08f7e064d7d77ca4fbb1772745ea4
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 07c9a6bad31d36b334a9764dba7897bbf6ad14c1
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317564"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710788"
 ---
 # <a name="bplocationresolution"></a>BP_LOCATION_RESOLUTION
 특정 위치에 있는 중단점의 해결 방법을 설명합니다.
@@ -31,8 +31,7 @@ typedef struct _BP_LOCATION_RESOLUTION {
 ```
 
 ## <a name="members"></a>멤버
-pResolution  
-합니다 [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) 중단점 및 해당 해결 정보의 형식을 결정 하는 개체입니다.
+pResolution 합니다 [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) 중단점 및 해당 해결 정보의 형식을 결정 하는 개체입니다.
 
 ## <a name="remarks"></a>설명
 이 구조체의 멤버인 합니다 [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) 공용 구조체의 일부로 구조입니다.
@@ -45,6 +44,6 @@ pResolution
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)  
-[IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)
+- [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
+- [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)

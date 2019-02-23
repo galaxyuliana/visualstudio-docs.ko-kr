@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetAssemblyName | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetAssemblyName
 - GetAssemblyName
@@ -11,20 +11,19 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 60ea9a6f498a776bc8db0b7ee0fe12aa3c23e19f
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 491e3cbb2003dc293f41a207ab7ae13a7e76cc68
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412931"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56692309"
 ---
 # <a name="idebugcomplussymbolprovidergetassemblyname"></a>IDebugComPlusSymbolProvider::GetAssemblyName
 모듈 및 응용 프로그램 도메인을 지정 된 어셈블리의 이름을 검색 합니다.
 
 ## <a name="syntax"></a>구문
 
-```
-[C++]
+```cpp
 HRESULT GetAssemblyName(
     ULONG32 ulAppDomainID,
     GUID    guidModule,
@@ -32,8 +31,7 @@ HRESULT GetAssemblyName(
 );
 ```
 
-```
-[C#]
+```csharp
 int GetAssemblyName(
     uint   ulAppDomainID,
     Guid   guidModule,
@@ -42,14 +40,17 @@ int GetAssemblyName(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ulAppDomainID`  
-[in] 응용 프로그램 도메인에 대 한 식별자입니다.
+`ulAppDomainID`
 
-`guidModule`  
-[in] 모듈에 대 한 고유 식별자입니다.
+ [in] 응용 프로그램 도메인에 대 한 식별자입니다.
 
-`pbstrName`  
-[out] 어셈블리의 이름을 반환합니다.
+`guidModule`
+
+ [in] 모듈에 대 한 고유 식별자입니다.
+
+`pbstrName`
+
+ [out] 어셈블리의 이름을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -84,4 +85,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

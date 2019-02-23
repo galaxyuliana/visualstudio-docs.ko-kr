@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2d014dad98e442f0cd1d93f157c6c38fc8677377
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: df5db60d81d6cb814764e935d5ead909c4c7c476
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317720"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56695260"
 ---
 # <a name="enumerate-locals"></a>지역 변수를 열거 합니다.
 > [!IMPORTANT]
@@ -246,6 +246,6 @@ STDMETHODIMP CFieldProperty::EnumChildren(
 ```
 
 ## <a name="see-also"></a>참고자료
-[지역 변수의 샘플 구현](../../extensibility/debugger/sample-implementation-of-locals.md)  
-[GetMethodProperty 구현](../../extensibility/debugger/implementing-getmethodproperty.md)  
-[평가 컨텍스트](../../extensibility/debugger/evaluation-context.md)
+- [지역 변수의 샘플 구현](../../extensibility/debugger/sample-implementation-of-locals.md)
+- [GetMethodProperty 구현](../../extensibility/debugger/implementing-getmethodproperty.md)
+- [평가 컨텍스트](../../extensibility/debugger/evaluation-context.md)

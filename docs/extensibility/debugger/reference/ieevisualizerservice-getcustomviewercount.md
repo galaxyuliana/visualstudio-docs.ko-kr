@@ -1,7 +1,7 @@
 ---
 title: IEEVisualizerService::GetCustomViewerCount | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IEEVisualizerService::GetCustomViewerCount
 helpviewer_keywords:
@@ -12,40 +12,41 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f71c97bd08105b229a965338a9af492b09befd80
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 27e7402de5de39a6135ad083f80f0699c1663e7d
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54933550"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56709722"
 ---
 # <a name="ieevisualizerservicegetcustomviewercount"></a>IEEVisualizerService::GetCustomViewerCount
-이 메서드는이 서비스에서 사용할 수 있는 형식 시각화 도우미의 수를 가져옵니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetCustomViewerCount(  
-   ULONG* pcelt  
-);  
-```  
-  
-```csharp  
-int GetCustomViewerCount(  
-   out uint pcelt  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pcelt`  
- [out] 사용 가능한 형식 시각화 도우미를 반환합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) 형식 시각화 도우미에 대 한이 메서드는 지원에서에 요청을 전달 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)   
- [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md)
+이 메서드는이 서비스에서 사용할 수 있는 형식 시각화 도우미의 수를 가져옵니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetCustomViewerCount(
+   ULONG* pcelt
+);
+```
+
+```csharp
+int GetCustomViewerCount(
+   out uint pcelt
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pcelt`
+
+ [out] 사용 가능한 형식 시각화 도우미를 반환합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+- [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) 형식 시각화 도우미에 대 한이 메서드는 지원에서에 요청을 전달 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
+- [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md)

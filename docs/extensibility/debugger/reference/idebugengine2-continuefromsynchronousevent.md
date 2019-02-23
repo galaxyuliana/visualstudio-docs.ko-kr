@@ -1,7 +1,7 @@
 ---
 title: IDebugEngine2::ContinueFromSynchronousEvent | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugEngine2::ContinueFromSynchronousEvent
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c9e4a02fdccb15f959615c0e7e39d22a05c40ea2
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 87b484a1f8e2a116bd6cae288be7cc295c1a93e5
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450466"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56711841"
 ---
 # <a name="idebugengine2continuefromsynchronousevent"></a>IDebugEngine2::ContinueFromSynchronousEvent
 세션 디버그 관리자 (SDM) 이전에 보낸 디버그 엔진 (DE)은 SDM 동기식 디버그 이벤트를 수신 되어 처리를 나타내기 위해 호출 됩니다.
@@ -37,8 +37,9 @@ HRESULT ContinueFromSynchronousEvent(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pEvent`  
-[in] [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) 디버거는 이제 계속 이전에 보낸된 동기 이벤트를 나타내는 개체입니다.
+`pEvent`
+
+ [in] [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) 디버거는 이제 계속 이전에 보낸된 동기 이벤트를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -86,5 +87,5 @@ HRESULT CEngine::ContinueFromSynchronousEvent(IDebugEvent2* pEvent)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)  
-[IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)

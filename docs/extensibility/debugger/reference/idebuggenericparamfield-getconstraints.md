@@ -1,7 +1,7 @@
 ---
 title: IDebugGenericParamField::GetConstraints | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField::GetConstraints
 - GetConstraints
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: abed2d77156aac83b09bf5a0ba472b1887d15600
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: a98a62ca294af5f7151ca0047b966cc151970fe6
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450076"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56700876"
 ---
 # <a name="idebuggenericparamfieldgetconstraints"></a>IDebugGenericParamField::GetConstraints
 이 제네릭 매개 변수를 사용 하 여 연결 된 제약 조건을 검색 합니다.
@@ -40,14 +40,17 @@ int GetConstraints(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`cConstraints`  
-[in] 제약 조건 수입니다.
+`cConstraints`
 
-`ppConstraints`  
-[out] 이 필드와 연결 된 제약 조건을 포함 하는 배열을 반환 합니다.
+ [in] 제약 조건 수입니다.
 
-`pcConstraints`  
-[out에서] 에 제약 조건의 수는 `ppConstraints` 배열입니다.
+`ppConstraints`
+
+ [out] 이 필드와 연결 된 제약 조건을 포함 하는 배열을 반환 합니다.
+
+`pcConstraints`
+
+ [out에서] 에 제약 조건의 수는 `ppConstraints` 배열입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -149,4 +152,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
