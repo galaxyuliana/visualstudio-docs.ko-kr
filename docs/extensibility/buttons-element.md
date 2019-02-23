@@ -11,61 +11,61 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b4b28112abad97dae3c4edcb46b5f93109df4a4e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f30ce24d720ff849b4c3959780facc8115b0fb23
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54980312"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56697054"
 ---
 # <a name="buttons-element"></a>Buttons 요소
-그룹 [단추](../extensibility/button-element.md) 개별 명령을 나타내는 요소입니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```  
-<Buttons>  
-  <Button>... </Button>  
-  <Button>... </Button>  
-</Buttons>  
-```  
-  
-## <a name="attributes-and-elements"></a>특성 및 요소  
- 다음 단원에서는 특성, 자식 요소 및 부모 요소에 대해 설명합니다.  
-  
-### <a name="attributes"></a>특성  
-  
-|특성|설명|  
-|---------------|-----------------|  
-|조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|  
-  
-### <a name="child-elements"></a>자식 요소  
-  
-|요소|설명|  
-|-------------|-----------------|  
-|[Buttons 요소](../extensibility/buttons-element.md)|단추 요소를 그룹화합니다.|  
-|[Button 요소](../extensibility/button-element.md)|사용자가 상호 작용할 수 있는 명령을 정의 합니다.|  
-  
-### <a name="parent-elements"></a>부모 요소  
-  
-|요소|설명|  
-|-------------|-----------------|  
-|[Commands 요소](../extensibility/commands-element.md)|VSPackage 도구 모음에서 명령의 컬렉션을 나타냅니다.|  
-  
-## <a name="example"></a>예제  
-  
-```  
-<Buttons>  
-  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
-    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
-    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
-    <Strings>  
-      <ButtonText>C# Command Sample</ButtonText>  
-    </Strings>  
-  </Button>  
-</Buttons>  
-```  
-  
-## <a name="see-also"></a>참고자료  
- [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)
+그룹 [단추](../extensibility/button-element.md) 개별 명령을 나타내는 요소입니다.
+
+## <a name="syntax"></a>구문
+
+```
+<Buttons>
+  <Button>... </Button>
+  <Button>... </Button>
+</Buttons>
+```
+
+## <a name="attributes-and-elements"></a>특성 및 요소
+ 다음 단원에서는 특성, 자식 요소 및 부모 요소에 대해 설명합니다.
+
+### <a name="attributes"></a>특성
+
+|특성|설명|
+|---------------|-----------------|
+|조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|
+
+### <a name="child-elements"></a>자식 요소
+
+|요소|설명|
+|-------------|-----------------|
+|[Buttons 요소](../extensibility/buttons-element.md)|단추 요소를 그룹화합니다.|
+|[Button 요소](../extensibility/button-element.md)|사용자가 상호 작용할 수 있는 명령을 정의 합니다.|
+
+### <a name="parent-elements"></a>부모 요소
+
+|요소|설명|
+|-------------|-----------------|
+|[Commands 요소](../extensibility/commands-element.md)|VSPackage 도구 모음에서 명령의 컬렉션을 나타냅니다.|
+
+## <a name="example"></a>예제
+
+```
+<Buttons>
+  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">
+    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>
+    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>
+    <Strings>
+      <ButtonText>C# Command Sample</ButtonText>
+    </Strings>
+  </Button>
+</Buttons>
+```
+
+## <a name="see-also"></a>참고자료
+- [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+- [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

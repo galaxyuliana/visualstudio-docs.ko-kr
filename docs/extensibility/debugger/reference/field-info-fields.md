@@ -1,7 +1,7 @@
 ---
 title: FIELD_INFO_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - FIELD_INFO_FIELDS
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cab1d06c868f0236d1d24c186af705e9adab717e
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 9614d3b99df71c9bfa8328478348385472f1a8fa
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317473"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710008"
 ---
 # <a name="fieldinfofields"></a>FIELD_INFO_FIELDS
 에 대 한 검색 정보를 지정 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 개체입니다.
@@ -48,17 +48,13 @@ public enum enum_FIELD_INFO_FIELDS {
 ```
 
 ## <a name="members"></a>멤버
-FIF_FULLNAME  
-초기화/사용 된 `bstrFullName` 필드를 [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) 구조입니다.
+FIF_FULLNAME 초기화/사용 된 `bstrFullName` 필드에 [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) 구조입니다.
 
-FIF_NAME  
-초기화/사용 된 `bstrName` 필드에 `FIELD_INFO` 구조입니다.
+FIF_NAME 초기화/사용 된 `bstrName` 필드에 `FIELD_INFO` 구조입니다.
 
-FIF_TYPE  
-초기화/사용 된 `bstrType` 필드에 `FIELD_INFO` 구조입니다.
+FIF_TYPE 초기화/사용 된 `bstrType` 필드에 `FIELD_INFO` 구조입니다.
 
-FIF_MODIFIERS  
-초기화/사용 된 `bstrModifiers` 필드에 `FIELD_INFO` 구조입니다.
+FIF_MODIFIERS 초기화/사용 된 `bstrModifiers` 필드에 `FIELD_INFO` 구조입니다.
 
 ## <a name="remarks"></a>설명
 이러한 값을 인수로 전달도 됩니다는 [GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md) 의 필드를 지정 하는 메서드는 [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) 구조는 초기화할.
@@ -75,7 +71,7 @@ FIF_MODIFIERS
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)  
-[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)  
-[GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)
