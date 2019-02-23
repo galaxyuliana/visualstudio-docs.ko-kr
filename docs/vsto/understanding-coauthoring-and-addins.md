@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 254a7ce0409ffbf254f0ec7d10ad3fa543775d61
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 96d83bbe34e0510ccf14204eb83fa1ed2da2d173
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54870037"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56631967"
 ---
 # <a name="understand-coauthoring-and-add-ins"></a>공동 작업 및 추가 기능 이해
 
@@ -26,4 +26,4 @@ ms.locfileid: "54870037"
 참고: Windows 데스크톱 Excel에 대 한 공동 작업 2017에서 도입 되었으며 office 365 구독자에서 현재 사용할 수 있습니다. Office 2016 또는 이전 영구 라이선스를 구매한 사용자에 게 현재 없는 이러한 기능에 액세스할 수 있습니다. (Excel Online에서 Excel for Android, ios, Excel 및 Excel Mobile Windows 스토어에서도 지원 공동 작업).
 
 ## <a name="see-also"></a>참고자료
-[Excel 솔루션](./excel-solutions.md)
+- [Excel 솔루션](./excel-solutions.md)

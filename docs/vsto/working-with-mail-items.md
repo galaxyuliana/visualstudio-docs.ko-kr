@@ -15,29 +15,29 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2cd75db70cb6b6b2afb7c4547c29ca372b4efdbe
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 1a0e5007163d10aee15e39759448928e44ae5a68
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54871080"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56629211"
 ---
 # <a name="work-with-mail-items"></a>메일 항목 작업
-  <xref:Microsoft.Office.Interop.Outlook.MailItem> 클래스 메서드 및 전자 메일 메시지를 사용 하 여 작업을 수행 하는 데 사용할 속성을 포함 합니다.  
-  
-|작업|프로시저|  
-|----------|---------------|  
-|전자 메일 메시지를 만듭니다.|[방법: 프로그래밍 방식으로 전자 메일 항목 만들기](../vsto/how-to-programmatically-create-an-e-mail-item.md)|  
-|전자 메일 메시지를 보냅니다.|[방법: 프로그래밍 방식으로 전자 메일 보내기](../vsto/how-to-programmatically-send-e-mail-programmatically.md)|  
-|사용자 지정 작업을 사용 하 여 새 전자 메일 메시지에 응답 합니다.|[방법: 프로그래밍 방식으로 전자 메일 메시지를 받으면 작업을 수행](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)|  
-|첨부 파일을 저장 합니다.|[방법: 프로그래밍 방식으로 Outlook 전자 메일 항목의 첨부 파일 저장](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)|  
-|첨부 파일 추가|[방법: 프로그래밍 방식으로 Outlook 전자 메일 항목에 파일을 첨부](../vsto/how-to-programmatically-attach-files-to-outlook-e-mail-items.md)|  
-|읽지 않은 메시지가 모두를 반복 합니다.|[방법: 프로그래밍 방식으로 받은 편지함에서 읽지 않은 메시지 검색](../vsto/how-to-programmatically-retrieve-unread-messages-from-the-inbox.md)|  
-  
- Outlook 작업 및 Outlook 개체 모델에 대 한 자세한 내용은 참조 하세요. [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)합니다.  
-  
-## <a name="see-also"></a>참고자료  
- [연락처 항목 작업](../vsto/working-with-contact-items.md)   
- [폴더 작업](../vsto/working-with-folders.md)   
- [달력 항목 작업](../vsto/working-with-calendar-items.md)   
- [Outlook 솔루션](../vsto/outlook-solutions.md)  
+  <xref:Microsoft.Office.Interop.Outlook.MailItem> 클래스 메서드 및 전자 메일 메시지를 사용 하 여 작업을 수행 하는 데 사용할 속성을 포함 합니다.
+
+|작업|프로시저|
+|----------|---------------|
+|전자 메일 메시지를 만듭니다.|[방법: 프로그래밍 방식으로 전자 메일 항목 만들기](../vsto/how-to-programmatically-create-an-e-mail-item.md)|
+|전자 메일 메시지를 보냅니다.|[방법: 프로그래밍 방식으로 전자 메일 보내기](../vsto/how-to-programmatically-send-e-mail-programmatically.md)|
+|사용자 지정 작업을 사용 하 여 새 전자 메일 메시지에 응답 합니다.|[방법: 프로그래밍 방식으로 전자 메일 메시지를 받으면 작업을 수행](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)|
+|첨부 파일을 저장 합니다.|[방법: 프로그래밍 방식으로 Outlook 전자 메일 항목의 첨부 파일 저장](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)|
+|첨부 파일 추가|[방법: 프로그래밍 방식으로 Outlook 전자 메일 항목에 파일을 첨부](../vsto/how-to-programmatically-attach-files-to-outlook-e-mail-items.md)|
+|읽지 않은 메시지가 모두를 반복 합니다.|[방법: 프로그래밍 방식으로 받은 편지함에서 읽지 않은 메시지 검색](../vsto/how-to-programmatically-retrieve-unread-messages-from-the-inbox.md)|
+
+ Outlook 작업 및 Outlook 개체 모델에 대 한 자세한 내용은 참조 하세요. [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)합니다.
+
+## <a name="see-also"></a>참고자료
+- [연락처 항목 작업](../vsto/working-with-contact-items.md)
+- [폴더 작업](../vsto/working-with-folders.md)
+- [달력 항목 작업](../vsto/working-with-calendar-items.md)
+- [Outlook 솔루션](../vsto/outlook-solutions.md)
