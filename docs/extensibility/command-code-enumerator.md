@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 97b856b0c22631b3e4f9b8860f9aaba728e6944d
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: ddb2e88db15d60731bc17fcc60cb69772779f14e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56315495"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56718419"
 ---
 # <a name="command-code-enumerator"></a>명령 코드 열거자
 이 열거자에 대 한 옵션에 사용 되는 [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) 하며 [SccPopulateList](../extensibility/sccpopulatelist-function.md)옵션 지정 되는 명령을 나타냅니다.
@@ -40,40 +40,29 @@ enum SCCCOMMAND {
 ```
 
 ## <a name="members"></a>멤버
-SCC_COMMAND_GET  
-에 해당 하는 [SccGet](../extensibility/sccget-function.md)합니다.
+에 해당 하는 SCC_COMMAND_GET 합니다 [SccGet](../extensibility/sccget-function.md)합니다.
 
-SCC_COMMAND_CHECKOUT  
-에 해당 하는 [SccCheckout](../extensibility/scccheckout-function.md)합니다.
+에 해당 하는 SCC_COMMAND_CHECKOUT 합니다 [SccCheckout](../extensibility/scccheckout-function.md)합니다.
 
-SCC_COMMAND_CHECKIN  
-에 해당 하는 [SccCheckin](../extensibility/scccheckin-function.md)합니다.
+에 해당 하는 SCC_COMMAND_CHECKIN 합니다 [SccCheckin](../extensibility/scccheckin-function.md)합니다.
 
-SCC_COMMAND_UNCHECKOUT  
-에 해당 하는 [SccUncheckout](../extensibility/sccuncheckout-function.md)합니다.
+에 해당 하는 SCC_COMMAND_UNCHECKOUT 합니다 [SccUncheckout](../extensibility/sccuncheckout-function.md)합니다.
 
-SCC_COMMAND_ADD  
-에 해당 하는 [SccAdd](../extensibility/sccadd-function.md)합니다.
+에 해당 하는 SCC_COMMAND_ADD 합니다 [SccAdd](../extensibility/sccadd-function.md)합니다.
 
-SCC_COMMAND_REMOVE  
-에 해당 하는 [SccRemove](../extensibility/sccremove-function.md)합니다.
+에 해당 하는 SCC_COMMAND_REMOVE 합니다 [SccRemove](../extensibility/sccremove-function.md)합니다.
 
-SCC_COMMAND_DIFF  
-에 해당 하는 [SccDiff](../extensibility/sccdiff-function.md)합니다.
+에 해당 하는 SCC_COMMAND_DIFF 합니다 [SccDiff](../extensibility/sccdiff-function.md)합니다.
 
-SCC_COMMAND_HISTORY  
-에 해당 하는 [SccHistory](../extensibility/scchistory-function.md)합니다.
+에 해당 하는 SCC_COMMAND_HISTORY 합니다 [SccHistory](../extensibility/scchistory-function.md)합니다.
 
-SCC_COMMAND_RENAME  
-에 해당 하는 [SccRename](../extensibility/sccrename-function.md)합니다.
+에 해당 하는 SCC_COMMAND_RENAME 합니다 [SccRename](../extensibility/sccrename-function.md)합니다.
 
-SCC_COMMAND_PROPERTIES  
-에 해당 하는 [SccProperties](../extensibility/sccproperties-function.md)합니다.
+에 해당 하는 SCC_COMMAND_PROPERTIES 합니다 [SccProperties](../extensibility/sccproperties-function.md)합니다.
 
-SCC_COMMAND_OPTIONS  
-에 해당 하는 [SccSetOption](../extensibility/sccsetoption-function.md)합니다.
+에 해당 하는 SCC_COMMAND_OPTIONS 합니다 [SccSetOption](../extensibility/sccsetoption-function.md)합니다.
 
 ## <a name="see-also"></a>참고자료
-[원본 제어 플러그 인](../extensibility/source-control-plug-ins.md)  
-[SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)  
-[SccPopulateList](../extensibility/sccpopulatelist-function.md)
+- [원본 제어 플러그 인](../extensibility/source-control-plug-ins.md)
+- [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)
+- [SccPopulateList](../extensibility/sccpopulatelist-function.md)

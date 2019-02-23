@@ -1,7 +1,7 @@
 ---
 title: IDebugProgramProvider2 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugProgramProvider2
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1a1ca2f649bd680249cc00ec537c6015def6ad8a
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 74604e0b3446e33962c6a8e69a69bfc400f0e3e2
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56449610"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56700174"
 ---
 # <a name="idebugprogramprovider2"></a>IDebugProgramProvider2
 이 등록된 인터페이스를 사용 하면 세션 디버그 관리자 (SDM)가 "게시"를 통해 프로그램에 대 한 정보를 [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md) 인터페이스입니다.
@@ -83,6 +83,6 @@ IDebugProgramProvider2 *GetProgramProvider(GUID *pDebugEngineGuid)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)  
-[IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)  
-[디버깅을 위한 SDK 도우미](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
+- [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
+- [디버깅을 위한 SDK 도우미](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

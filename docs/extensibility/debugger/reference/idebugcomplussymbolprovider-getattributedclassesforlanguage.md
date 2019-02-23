@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - GetAttributedClassesForLanguage
 - IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
@@ -11,20 +11,19 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d6b8d23db5f1be603f71794426aff8d4a8283ffb
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 10d25cb9e58ac3eb38282a3ef2a2f631b6ba0e66
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412944"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56706238"
 ---
 # <a name="idebugcomplussymbolprovidergetattributedclassesforlanguage"></a>IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 지정된 된 프로그래밍 언어에서 구현 되는 지정된 된 특성을 사용 하 여 클래스를 검색 합니다.
 
 ## <a name="syntax"></a>구문
 
-```
-[C++]
+```cpp
 HRESULT GetAttributedClassesForLanguage (
     GUID               guidLanguage,
     LPOLESTR           pstrAttribute,
@@ -32,8 +31,7 @@ HRESULT GetAttributedClassesForLanguage (
 );
 ```
 
-```
-[C#]
+```csharp
 int GetAttributedClassesForLanguage (
     Guid                 guidLanguage,
     string               pstrAttribute,
@@ -42,14 +40,17 @@ int GetAttributedClassesForLanguage (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`guidLanguage`  
-[in] 언어에 대 한 고유 식별자입니다.
+`guidLanguage`
 
-`pstrAttribute`  
-[in] 특성 문자열입니다.
+ [in] 언어에 대 한 고유 식별자입니다.
 
-`ppEnum`  
-[out] 특성 클래스의 열거형을 반환합니다.
+`pstrAttribute`
+
+ [in] 특성 문자열입니다.
+
+`ppEnum`
+
+ [out] 특성 클래스의 열거형을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -186,4 +187,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

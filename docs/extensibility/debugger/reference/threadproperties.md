@@ -1,7 +1,7 @@
 ---
 title: THREADPROPERTIES | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - THREADPROPERTIES
 helpviewer_keywords:
@@ -12,76 +12,69 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3ad8b989b916e668fede0f8193c124d05785fd46
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 55b3334c8bd28d3975f06aa39ca8c7fd719f1f9e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54922663"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56694480"
 ---
 # <a name="threadproperties"></a>THREADPROPERTIES
-스레드 속성을 설명합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-typedef struct _tagTHREADPROPERTIES {   
-   THREADPROPERTY_FIELDS dwFields;  
-   DWORD                 dwThreadId;  
-   DWORD                 dwSuspendCount;  
-   DWORD                 dwThreadState;  
-   BSTR                  bstrPriority;  
-   BSTR                  bstrName;  
-   BSTR                  bstrLocation;  
-} THREADPROPERTIES;  
-```  
-  
-```csharp  
-public struct THREADPROPERTIES {   
-   public uint   dwFields;  
-   public uint   dwThreadId;  
-   public uint   dwSuspendCount;  
-   public uint   dwThreadState;  
-   public string bstrPriority;  
-   public string bstrName;  
-   public string bstrLocation;  
-};  
-```  
-  
-## <a name="members"></a>멤버  
- dwFields  
- 플래그의 조합을 합니다 [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) 이 구조의 필드는 유효한 설명 하는 열거형입니다.  
-  
- dwThreadId  
- 스레드 id입니다.  
-  
- dwSuspendCount  
- 스레드 수를 일시 중단 합니다.  
-  
- dwThreadState  
- 값을 [THREADSTATE](../../../extensibility/debugger/reference/threadstate.md) 운영 스레드의 상태를 나타내는 열거형입니다.  
-  
- bstrPriority  
- 스레드 우선 순위;를 지정 하는 문자열 예를 들어, "위에 Normal", "Normal" 또는 "시간이 중요 한"입니다.  
-  
- bstName  
- 스레드 이름입니다.  
-  
- bstrLocation  
- 일반적으로 실행이 중단 현재 메서드의 이름으로 표시 된 스레드 위치 (일반적으로 최상위 스택 프레임)입니다.  
-  
-## <a name="remarks"></a>설명  
- 이 구조에 대 한 호출에 의해 채워진 합니다 [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md) 메서드. 따라서 반환 된 정보는 일반적으로 채우는 사용 합니다 **스레드** 창입니다.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: msdbg.h  
-  
- 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
-  
- 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [구조체 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)   
- [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)   
- [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)   
- [THREADSTATE](../../../extensibility/debugger/reference/threadstate.md)
+스레드 속성을 설명합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+typedef struct _tagTHREADPROPERTIES { 
+   THREADPROPERTY_FIELDS dwFields;
+   DWORD                 dwThreadId;
+   DWORD                 dwSuspendCount;
+   DWORD                 dwThreadState;
+   BSTR                  bstrPriority;
+   BSTR                  bstrName;
+   BSTR                  bstrLocation;
+} THREADPROPERTIES;
+```
+
+```csharp
+public struct THREADPROPERTIES { 
+   public uint   dwFields;
+   public uint   dwThreadId;
+   public uint   dwSuspendCount;
+   public uint   dwThreadState;
+   public string bstrPriority;
+   public string bstrName;
+   public string bstrLocation;
+};
+```
+
+## <a name="members"></a>멤버
+ 플래그는 dwFields 조합 합니다 [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) 이 구조의 필드는 유효한 설명 하는 열거형입니다.
+
+ dwThreadId 스레드 id입니다.
+
+ dwSuspendCount 스레드 수를 일시 중단 합니다.
+
+ dwThreadState는 값을 [THREADSTATE](../../../extensibility/debugger/reference/threadstate.md) 운영 스레드의 상태를 나타내는 열거형입니다.
+
+ bstrPriority; 스레드 우선 순위를 지정 하는 문자열 예를 들어, "위에 Normal", "Normal" 또는 "시간이 중요 한"입니다.
+
+ bstName 스레드 이름입니다.
+
+ bstrLocation 일반적으로 실행이 중단 현재 메서드의 이름으로 표시 된 스레드 위치 (일반적으로 최상위 스택 프레임).
+
+## <a name="remarks"></a>설명
+ 이 구조에 대 한 호출에 의해 채워진 합니다 [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md) 메서드. 따라서 반환 된 정보는 일반적으로 채우는 사용 합니다 **스레드** 창입니다.
+
+## <a name="requirements"></a>요구 사항
+ 헤더: msdbg.h
+
+ 네임스페이스: Microsoft.VisualStudio.Debugger.Interop
+
+ 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## <a name="see-also"></a>참고 항목
+- [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)
+- [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)
+- [THREADSTATE](../../../extensibility/debugger/reference/threadstate.md)

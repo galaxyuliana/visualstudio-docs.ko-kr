@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetLocalVariablelayout | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - GetLocalVariablelayout
 - IDebugComPlusSymbolProvider::GetLocalVariablelayout
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8439b2a522405dae9fd8aa1e19f070c917f9ae9c
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: f5ed664c3c9b018be6e29b5129c375d1e8f5eb41
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413217"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56723853"
 ---
 # <a name="idebugcomplussymbolprovidergetlocalvariablelayout"></a>IDebugComPlusSymbolProvider::GetLocalVariablelayout
 레이아웃의 지역 변수는 메서드 집합을 검색합니다.
@@ -44,20 +44,25 @@ int GetLocalVariablelayout(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ulAppDomainID`  
-[in] 응용 프로그램 도메인의 식별자입니다.
+`ulAppDomainID`
 
-`guidModule`  
-[in] 모듈의 고유 식별자입니다.
+ [in] 응용 프로그램 도메인의 식별자입니다.
 
-`cMethods`  
-[in] 메서드의 수에 토큰을 `rgMethodTokens` 배열입니다.
+`guidModule`
 
-`rgMethodTokens`  
-[in] 배열 메서드 토큰입니다.
+ [in] 모듈의 고유 식별자입니다.
 
-`pStreamLayout`  
-[out] 변수 레이아웃이 들어 있는 텍스트 스트림.
+`cMethods`
+
+ [in] 메서드의 수에 토큰을 `rgMethodTokens` 배열입니다.
+
+`rgMethodTokens`
+
+ [in] 배열 메서드 토큰입니다.
+
+`pStreamLayout`
+
+ [out] 변수 레이아웃이 들어 있는 텍스트 스트림.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -111,4 +116,4 @@ HRESULT CDebugSymbolProvider::GetLocalVariablelayout(
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

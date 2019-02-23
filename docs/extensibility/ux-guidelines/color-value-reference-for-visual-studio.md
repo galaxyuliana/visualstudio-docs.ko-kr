@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: Jamie.Young
 manager: jillfra
-ms.openlocfilehash: 9807f37925620b3672c3fcb9319913194d09d6ab
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 40d5e730bef85fe047923cd85aaa7ee3fa8f5d49
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55016241"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56722280"
 ---
 # <a name="color-value-reference-for-visual-studio"></a>Visual Studio에 대 한 색 값 참조
 
-이 항목은 새 색 토큰을 만들기에 대 한 참조입니다. 새 UI를 만들 때 각 기본 테마에 대 한 색 및 고대비 테마의 해당 요소에 대 한 시스템 색 이름을 선택 하려면 기존 UI에서 비슷한 색을 사용할 수 있습니다. 
+이 항목은 새 색 토큰을 만들기에 대 한 참조입니다. 새 UI를 만들 때 각 기본 테마에 대 한 색 및 고대비 테마의 해당 요소에 대 한 시스템 색 이름을 선택 하려면 기존 UI에서 비슷한 색을 사용할 수 있습니다.
 
 새 색 토큰을 만드는 방법에 대 한 구현 정보를 참조 하세요 [색 테마 도구](../../extensibility/internals/color-theming-tools.md)합니다.
 
@@ -26,11 +26,11 @@ ms.locfileid: "55016241"
 
 이 참조 가이드를 사용할 때 기억해 야 합니다.
 
--   **항상 전경 및 배경 색상을 함께 복사 합니다.** 색상을 원하는 단지 하나의 UI 요소와 다른 백그라운드에서 포그라운드를 선택 하지 마십시오.  
+-   **항상 전경 및 배경 색상을 함께 복사 합니다.** 색상을 원하는 단지 하나의 UI 요소와 다른 백그라운드에서 포그라운드를 선택 하지 마십시오.
 
 -   **이들은 16 진수 코드를 색 토큰에 없습니다.** 토큰을 나중에 변경 될 수 있습니다 하는 방법을 제어할 수 없으므로 이러한 UI 요소의 실제 색 토큰 이름을 사용할 수 없습니다. 대신 사용자 고유의 범주 내 토큰 만들고 테이블에 표시 되는 색상 값을 사용 합니다. 기존 UI에서 찾을 수 있습니다에 대 한 토큰 색상 [Visual Studio에 대 한 색 공유](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md)합니다.
 
-- **높은 대비 견본 비교만 표시 됩니다.** 높은 대비 UI에 대 한 시스템 색 이름을 사용 하 고 이러한 견본에는 스 포 이트 또는 색 선택기를 사용 하지 마십시오. 이 항목의 높은 대비 견본 Windows에서 고대비 #1 테마를 반영합니다. 색 다른 고대비 테마에서 다르게 보입니다. 
+- **높은 대비 견본 비교만 표시 됩니다.** 높은 대비 UI에 대 한 시스템 색 이름을 사용 하 고 이러한 견본에는 스 포 이트 또는 색 선택기를 사용 하지 마십시오. 이 항목의 높은 대비 견본 Windows에서 고대비 #1 테마를 반영합니다. 색 다른 고대비 테마에서 다르게 보입니다.
 
 -   **최상의 결과 쌍 색 설정 UI를 사용 하 여 예제와 비슷합니다.**
 
@@ -39,17 +39,17 @@ ms.locfileid: "55016241"
 ![밝게 (왼쪽), (가운데), 어둡게 및 파란색 (오른쪽) 테마의 속성 창](../../extensibility/ux-guidelines/media/properties-window-light-dark-blue.png "밝게, 어둡게, 및 파란색 테마의 속성 창")<br />밝게, 어둡게, 및 파란색 테마의 속성 창
 
 > [!NOTE]
-> **높은 대비 견본 비교만 표시 됩니다.** 높은 대비 UI에 대 한 시스템 색 이름을 사용 하 고 이러한 견본에는 스 포 이트 또는 색 선택기를 사용 하지 마십시오. 이 항목의 높은 대비 견본 Windows에서 고대비 #1 테마를 반영합니다. 색 다른 고대비 테마에서 다르게 보입니다. 
+> **높은 대비 견본 비교만 표시 됩니다.** 높은 대비 UI에 대 한 시스템 색 이름을 사용 하 고 이러한 견본에는 스 포 이트 또는 색 선택기를 사용 하지 마십시오. 이 항목의 높은 대비 견본 Windows에서 고대비 #1 테마를 반영합니다. 색 다른 고대비 테마에서 다르게 보입니다.
 
 ### <a name="divider-lines"></a>구분선
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 기본 | ![#FFEEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 견본")<br />`#FFEEEEF2` | ![#FF2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 견본")<br />`#FF2D2D30` | ![#FFEEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 견본")<br />`#FFEEEEF2` | ![ControlDark 견본](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark 견본")<br />`ControlDark` |
 
 ### <a name="expander-glyph"></a>Expander 문자 모양
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground |![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![창 견본](../../extensibility/ux-guidelines/media/HCWindow.png "창 견본")<br />`Window`|
@@ -60,7 +60,7 @@ ms.locfileid: "55016241"
 
 ### <a name="embedded-tab-control-body"></a>Tab 컨트롤을 포함 합니다: 본문
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 배경 | ![#FFE7E8EC 견본](../../extensibility/ux-guidelines/media/E7E8EC.png "#FFE7E8EC 견본")<br />`#FFE7E8EC` | ![#FF1B1B1C swatch](../../extensibility/ux-guidelines/media/1B1B1C.png "#FF1B1B1C swatch")<br />`#FF1B1B1C` | ![#FFE7E8EC 견본](../../extensibility/ux-guidelines/media/E7E8EC.png "#FFE7E8EC 견본")<br />`#FFE7E8EC` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
@@ -68,7 +68,7 @@ ms.locfileid: "55016241"
 
 ### <a name="embedded-tab-control-active-tab"></a>Tab 컨트롤을 포함 합니다: 활성 탭
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` |![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 배경 | ![# # FFE7E8EC 견본](../../extensibility/ux-guidelines/media/E7E8EC.png "#FFE7E8EC 견본")<br />`#FFE7E8EC` | ![#FF1B1B1C swatch](../../extensibility/ux-guidelines/media/1B1B1C.png "##FF1B1B1C swatch")<br />`#FF1B1B1C` | ![#FFE7E8EC 견본](../../extensibility/ux-guidelines/media/E7E8EC.png "#FFE7E8EC 견본")<br />`#FFE7E8EC` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
@@ -76,7 +76,7 @@ ms.locfileid: "55016241"
 
 ### <a name="embedded-tab-control-inactive-tab"></a>Tab 컨트롤을 포함 합니다: 비활성 탭
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
@@ -85,12 +85,12 @@ ms.locfileid: "55016241"
 | 전경: 사용 하지 않도록 설정 | ![#FFA2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#FFA2A4A5 swatch")<br />`#FFA2A4A5` | ![#FF656565 견본](../../extensibility/ux-guidelines/media/656565.png "#FF656565 견본")<br />`#FF656565` | ![#FFA2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#FFA2A4A5 swatch")<br />`#FFA2A4A5` | ![GrayText 견본](../../extensibility/ux-guidelines/media/HCGrayText.png "GrayText 견본")<br />`GrayText` |
 | 배경: 사용 하지 않도록 설정 | ![##FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "##FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
 | 테두리 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![WindowFrame 견본](../../extensibility/ux-guidelines/media/HCWindowFrame.png "WindowFrame 견본")<br />`WindowFrame` |
-| 테두리: 가리키기 | ![#FFC9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 견본")<br />`#FFC9DEF5` | ![#FF3E3E40 swatch](../../extensibility/ux-guidelines/media/3E3E40.png "#FF3E3E40 swatch")<br />`#FF3E3E40` | ![#FFFEFEFE 견본](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE 견본")<br />`#FFFEFEFE` | ![WindowFrame 견본](../../extensibility/ux-guidelines/media/HCWindowFrame.png "WindowFrame 견본")<br />`WindowFrame` | 
+| 테두리: 가리키기 | ![#FFC9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 견본")<br />`#FFC9DEF5` | ![#FF3E3E40 swatch](../../extensibility/ux-guidelines/media/3E3E40.png "#FF3E3E40 swatch")<br />`#FF3E3E40` | ![#FFFEFEFE 견본](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE 견본")<br />`#FFFEFEFE` | ![WindowFrame 견본](../../extensibility/ux-guidelines/media/HCWindowFrame.png "WindowFrame 견본")<br />`WindowFrame` |
 | 테두리: 사용 하지 않도록 설정 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![WindowFrame 견본](../../extensibility/ux-guidelines/media/HCWindowFrame.png "WindowFrame 견본")<br />`WindowFrame` |
 
 ### <a name="section-header"></a>섹션 헤더
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![##FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 전경: 가리키기 | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -101,7 +101,7 @@ ms.locfileid: "55016241"
 
 ### <a name="category-group"></a>범주 그룹
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 본문 전경 | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 본문 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
@@ -110,7 +110,7 @@ ms.locfileid: "55016241"
 
 ### <a name="toggle-buttons"></a>설정/해제 단추
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![WindowText 견본](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText 견본")<br />`WindowText` |
 | 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![창 견본](../../extensibility/ux-guidelines/media/HCWindow.png "창 견본")<br />`Window` |
@@ -127,7 +127,7 @@ ms.locfileid: "55016241"
 
 ### <a name="input-fields"></a>입력된 필드
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 배경 | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FF333337 견본](../../extensibility/ux-guidelines/media/333337.png "#FF333337 견본")<br />`#FF333337` | ![#FFFCFCFC 견본](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC 견본")<br />`#FFFCFCFC` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
@@ -138,7 +138,7 @@ ms.locfileid: "55016241"
 
 ### <a name="list-items"></a>목록 항목
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 전경: 가리키기 | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -151,7 +151,7 @@ ms.locfileid: "55016241"
 
 ### <a name="command-buttons"></a>명령 단추
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 배경: 가리키기 | ![#FFC9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 견본")<br />`#FFC9DEF5` | ![#FF3E3E40 swatch](../../extensibility/ux-guidelines/media/3E3E40.png "#FF3E3E40 swatch")<br />`#FF3E3E40` | ![#FFFEFEFE 견본](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE 견본")<br />`#FFFEFEFE` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
@@ -172,7 +172,7 @@ ms.locfileid: "55016241"
 
 ### <a name="content"></a>콘텐츠
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | ![WindowText 견본](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText 견본")<br />`WindowText` |
 | 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
@@ -184,7 +184,7 @@ ms.locfileid: "55016241"
 
 ### <a name="header"></a>헤더
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | ![WindowText 견본](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText 견본")<br />`WindowText` |
 | 배경 | ![#FF2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 견본")<br />`#FFEEEEF2` | ![#FF2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 견본")<br />`#FF2D2D30` | ![#FFEEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 견본")<br />`#FFEEEEF2` | ![ControlDark 견본](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark 견본")<br />`ControlDark` |
@@ -193,7 +193,7 @@ ms.locfileid: "55016241"
 
 ![CodeLens UI](../../extensibility/ux-guidelines/media/codelens.png "CodeLens UI")
 
-> [!NOTE] 
+> [!NOTE]
 > CodeLens UI 색 밝게, 어둡게, 및 파랑 테마에 대 한 동일합니다.
 
 > [!NOTE]
@@ -201,7 +201,7 @@ ms.locfileid: "55016241"
 
 ### <a name="body"></a>본문
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![WindowText 견본](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText 견본")<br />`WindowText` |
 | 배경 | ![#FFFCFCFC 견본](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC 견본")<br />`#FFFCFCFC` | ![#FFFCFCFC 견본](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC 견본")<br />`#FFFCFCFC` | ![#FFFCFCFC 견본](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC 견본")<br />`#FFFCFCFC` | ![창 견본](../../extensibility/ux-guidelines/media/HCWindow.png "창 견본")<br />`Window` |
@@ -212,7 +212,7 @@ ms.locfileid: "55016241"
 
 ### <a name="hyperlink-and-separator"></a>하이퍼링크 및 구분 기호
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 하이퍼링크 전경색 | ![#FF0E70C0 swatch](../../extensibility/ux-guidelines/media/0E70C0.png "#FF0E70C0 swatch")<br />`#FF0E70C0` | ![#FF0E70C0 swatch](../../extensibility/ux-guidelines/media/0E70C0.png "#FF0E70C0 swatch")<br />`#FF0E70C0` | ![#FF0E70C0 swatch](../../extensibility/ux-guidelines/media/0E70C0.png "#FF0E70C0 swatch")<br />`#FF0E70C0` | ![HotTrack 견본](../../extensibility/ux-guidelines/media/HCHotTrack.png "HotTrack 견본")<br />`HotTrack` |
 | 구분 기호 전경 | ![#FF9C9C9C swatch](../../extensibility/ux-guidelines/media/9C9C9C.png "#FF9C9C9C swatch")<br />`#FF9C9C9C` | ![#FF9C9C9C swatch](../../extensibility/ux-guidelines/media/9C9C9C.png "#FF9C9C9C swatch")<br />`#FF9C9C9C` | ![#FF9C9C9C swatch](../../extensibility/ux-guidelines/media/9C9C9C.png "#FF9C9C9C swatch")<br />`#FF9C9C9C` | ![HotTrack 견본](../../extensibility/ux-guidelines/media/HCHotTrack.png "HotTrack 견본")<br />`HotTrack` |
@@ -226,14 +226,14 @@ ms.locfileid: "55016241"
 
 ### <a name="body"></a>본문
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | ![WindowText 견본](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText 견본")<br />`WindowText` |
 | 전경: 선택한 | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
 
 ### <a name="subsection-header"></a>하위 섹션 헤더
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF717171 견본](../../extensibility/ux-guidelines/media/717171.png "#FF717171 견본")<br />`#FF717171` | ![#FF999999 swatch](../../extensibility/ux-guidelines/media/999999.png "#FF999999 swatch")<br />`#FF999999` | ![#FF717171 견본](../../extensibility/ux-guidelines/media/717171.png "#FF717171 견본")<br />`#FF717171` | ![GrayText 견본](../../extensibility/ux-guidelines/media/HCGrayText.png "GrayText 견본")<br />`GrayText` |
 | 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![창 견본](../../extensibility/ux-guidelines/media/HCWindow.png "창 견본")<br />`Window` |
@@ -241,7 +241,7 @@ ms.locfileid: "55016241"
 
 ### <a name="grid-lines"></a>모눈선
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 항목 (전경) | ![#FFF0F0F0 견본](../../extensibility/ux-guidelines/media/F0F0F0.png "#FFF0F0F0 견본")<br />`#FFF0F0F0` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | ![#FFF0F0F0 견본](../../extensibility/ux-guidelines/media/F0F0F0.png "#FFF0F0F0 견본")<br />`#FFF0F0F0` | ![스크롤 막대 견본](../../extensibility/ux-guidelines/media/HCScrollBar.png "ScrollBar 견본")<br />`ScrollBar` |
 | 헤더 (전경) | ![#FFE0E3E6 견본](../../extensibility/ux-guidelines/media/E0E3E6.png "#FFE0E3E6 견본")<br />`#FFE0E3E6` | ![#FF333337 견본](../../extensibility/ux-guidelines/media/333337.png "#FF333337 견본")<br />`#FF333337` | ![#FFBEC3CB 견본](../../extensibility/ux-guidelines/media/BEC3CB.png "#FFBEC3CB 견본")<br />`#FFBEC3CB` | ![ControlDark 견본](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark 견본")<br />`ControlDark` |
@@ -255,21 +255,21 @@ ms.locfileid: "55016241"
 
 ### <a name="body"></a>본문
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
 
 ### <a name="active-tab"></a>활성 탭
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ActiveCaptionText 견본](../../extensibility/ux-guidelines/media/HCActiveCaptionText.png "ActiveCaptionText 견본")<br />`ActiveCaptionText` |
 | 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` |![ActiveCaption 견본](../../extensibility/ux-guidelines/media/HCActiveCaption.png "ActiveCaption 견본")<br />`ActiveCaption` |
 
 ### <a name="inactive-tab"></a>비활성 탭
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![InactiveCaptionText 견본](../../extensibility/ux-guidelines/media/HCInactiveCaptionText.png "InactiveCaptionText 견본")<br />`InactiveCaptionText` |
 | 배경 | ![#FFFEFEFE 견본](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE 견본")<br />`#FFFEFEFE` | ![#FF333337 견본](../../extensibility/ux-guidelines/media/333337.png "#FF333337 견본")<br />`#FF333337` | ![#FFFEFEFE 견본](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE 견본")<br />`#FFFEFEFE` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -278,14 +278,14 @@ ms.locfileid: "55016241"
 
 ### <a name="watermark-text"></a>워터 마크 텍스트
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF717171 견본](../../extensibility/ux-guidelines/media/717171.png "#FF717171 견본")<br />`#FF999999` | ![#FF999999 swatch](../../extensibility/ux-guidelines/media/717171.png "999999 swatch")<br />`#FF999999` | ![#FF717171 견본](../../extensibility/ux-guidelines/media/717171.png "#FF717171 견본")<br />`#FF717171` | ![GrayText 견본](../../extensibility/ux-guidelines/media/HCGrayText.png "GrayText 견본")<br />`GrayText` |
 | 배경 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
 
 ### <a name="description-pane"></a>설명 창
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
 | 배경 | ![#FFEEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 견본")<br />`#FFEEEEF2` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
@@ -299,7 +299,7 @@ ms.locfileid: "55016241"
 
 ### <a name="tags"></a>태그
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 전경 (텍스트) | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![ActiveCaptionText 견본](../../extensibility/ux-guidelines/media/HCActiveCaptionText.png "ActiveCaptionText 견본")<br />`ActiveCaptionText` |
 | 배경 | ![#FFE1E6F1 견본](../../extensibility/ux-guidelines/media/E1E6F1.png "#FFE1E6F1 견본")<br />`#FFE1E6F1` | ![#FF424242 견본](../../extensibility/ux-guidelines/media/424242.png "#FF424242 견본")<br />`#FF424242` | ![#FFE9ECEE 견본](../../extensibility/ux-guidelines/media/E9ECEE.png "#FFE9ECEE 견본")<br />`#FFE9ECEE` | ![ActiveCaption 견본](../../extensibility/ux-guidelines/media/HCActiveCaption.png "ActiveCaption 견본")<br />`ActiveCaption` |
@@ -312,7 +312,7 @@ ms.locfileid: "55016241"
 
 ### <a name="glyph-on-hover"></a>문자 모양 가리키기
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 문자 모양 | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
 | 배경 | ![#FFF7F7F9 swatch](../../extensibility/ux-guidelines/media/F7F7F9.png "#FFF7F7F9 swatch")<br />`#FFF7F7F9` | ![#FF393939 swatch](../../extensibility/ux-guidelines/media/393939.png "#FF393939 swatch")<br />`#FF393939` | ![#FFFFFCF4 견본](../../extensibility/ux-guidelines/media/FFFCF4.png "#FFFFFCF4 견본")<br />`#FFFFFCF4` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -323,7 +323,7 @@ ms.locfileid: "55016241"
 
 ### <a name="selected-glyph"></a>선택한 문자 모양
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 문자 모양 | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
 | 배경 | ![#FF52B0EF 견본](../../extensibility/ux-guidelines/media/52B0EF.png "#FF52B0EF 견본")<br />`#FF52B0EF` | ![#FF52B0EF 견본](../../extensibility/ux-guidelines/media/52B0EF.png "#FF52B0EF 견본")<br />`#FF52B0EF` | ![#FF52B0EF 견본](../../extensibility/ux-guidelines/media/52B0EF.png "#FF52B0EF 견본")<br />`#FF52B0EF` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -339,7 +339,7 @@ ms.locfileid: "55016241"
 
 ### <a name="default"></a>기본
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 기본 단추가](../../extensibility/ux-guidelines/media/03.03.Button.controls.default.png "밝은 테마의 기본 단추") | ![어두운 테마의 기본 단추가](../../extensibility/ux-guidelines/media/03.03.Button.controls.default.dark.png "어두운 테마의 기본 단추") | ![파란색 테마의 기본 단추가](../../extensibility/ux-guidelines/media/03.03.Button.controls.default.blue.png "파란색 테마의 기본 단추") | ![고대비 테마의 기본 단추가](../../extensibility/ux-guidelines/media/03.03.Button.controls.default.hc.png "고대비 테마의 기본 단추") |
 | Foreground | ![#1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E 견본")<br />`#1E1E1E` | ![#F1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 견본")<br />`#F1F1F1` | ![#1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E 견본")<br />`#1E1E1E` | ![ControlText 견본](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText 견본")<br />`ControlText` |
@@ -348,7 +348,7 @@ ms.locfileid: "55016241"
 
 ### <a name="disabled"></a>사용 안 함
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 비활성화 된 단추](../../extensibility/ux-guidelines/media/03.03.Button.controls.disabled.png "밝은 테마의 단추 사용 안 함") | ![어두운 테마의 비활성화 된 단추](../../extensibility/ux-guidelines/media/03.03.Button.controls.disabled.dark.png "어두운 테마의 단추 사용 안 함") | ![파란색 테마의 비활성화 된 단추](../../extensibility/ux-guidelines/media/03.03.Button.controls.disabled.blue.png "파란색 테마의 단추 사용 안 함") | ![고대비 테마의 비활성화 된 단추](../../extensibility/ux-guidelines/media/03.03.Button.controls.disabled.hc.png "고대비 테마의 단추 사용 안 함") |
 | Foreground | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![#656565 swatch](../../extensibility/ux-guidelines/media/656565.png "#656565 swatch")<br />`#656565` | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![InactiveCaptionText 견본](../../extensibility/ux-guidelines/media/HCInactiveCaptionText.png "InactiveCaptionText 견본")<br />`InactiveCaptionText` |
@@ -357,7 +357,7 @@ ms.locfileid: "55016241"
 
 ### <a name="hover"></a>가리키기
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 가리키기 상태 단추](../../extensibility/ux-guidelines/media/03.03.Button.controls.hover.png "밝은 테마의 가리키기 상태 단추") | ![어두운 테마의 가리키기 상태 단추](../../extensibility/ux-guidelines/media/03.03.Button.controls.hover.dark.png "어두운 테마의 가리키기 상태 단추") | ![파란색 테마의 가리키기 상태 단추](../../extensibility/ux-guidelines/media/03.03.Button.controls.hover.blue.png "파란색 테마의 가리키기 상태 단추") | ![고대비 테마의 가리키기 상태 단추](../../extensibility/ux-guidelines/media/03.03.Button.controls.hpf.hc.png "고대비 테마의 가리키기 상태 단추") |
 | Foreground | ![#1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E 견본")<br />`#1E1E1E` | ![#F1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 견본")<br />`#F1F1F1` | ![#1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E 견본")<br />`#1E1E1E` | ![ActiveCaptionText 견본](../../extensibility/ux-guidelines/media/HCActiveCaptionText.png "ActiveCaptionText 견본")<br />`ActiveCaptionText` |
@@ -366,7 +366,7 @@ ms.locfileid: "55016241"
 
 ### <a name="pressed"></a>누름
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 단추를 누르면된](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.png "밝은 테마의 누른된 단추") | ![어두운 테마의 단추를 누르면된](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.dark.png "어두운 테마의 누른된 단추") | ![파란색 테마의 단추를 누르면된](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.blue.png "파란색 테마의 누른된 단추") | ![고대비 테마의 단추를 누르면된](../../extensibility/ux-guidelines/media/03.03.Button.controls.hpf.hc.png "고대비 테마의 누른된 단추") |
 | Foreground | ![#FFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF 견본")<br />`#FFFFFF` | ![#F1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 견본")<br />`#F1F1F1` | ![#FFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF 견본")<br />`#FFFFFF` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -375,7 +375,7 @@ ms.locfileid: "55016241"
 
 ### <a name="focused"></a>포커스 있음
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 단추 Focused](../../extensibility/ux-guidelines/media/03.03.Button.controls.focused.png "밝은 테마의 집중 된 단추") | ![어두운 테마의 단추 Focused](../../extensibility/ux-guidelines/media/03.03.Button.controls.focused.dark.png "어두운 테마의 집중 된 단추") | ![파란색 테마의 단추 Focused](../../extensibility/ux-guidelines/media/03.03.Button.controls.focused.blue.png "파란색 테마의 집중 된 단추") | ![고대비 테마의 단추 Focused](../../extensibility/ux-guidelines/media/03.03.Button.controls.hpf.hc.png "고대비 테마의 집중 된 단추") |
 | Foreground | ![#1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E 견본")<br />`#1E1E1E` | ![#F1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 견본")<br />`#F1F1F1` | ![#1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E 견본")<br />`#1E1E1E` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -389,7 +389,7 @@ ms.locfileid: "55016241"
 
 ### <a name="default"></a>기본
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 기본 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.default.png "밝은 테마의 기본 확인란") | ![어두운 테마의 기본 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.default.dark.png "어두운 테마의 기본 확인란") | ![파란색 테마의 기본 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.default.blue.png "기본 파란색 테마의 확인란") | ![고대비 테마의 기본 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.default.hc.png "고대비 테마의 기본 확인란") |
 | 배경 | ![#FEFEFE 견본](../../extensibility/ux-guidelines/media/FEFEFE.png "#FEFEFE 견본")<br />`#FEFEFE` | ![#252526 견본](../../extensibility/ux-guidelines/media/252526.png "#252526 견본")<br />`#252526` | ![#FEFEFE 견본](../../extensibility/ux-guidelines/media/FEFEFE.png "#FEFEFE 견본")<br />`#FEFEFE` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
@@ -399,7 +399,7 @@ ms.locfileid: "55016241"
 
 ### <a name="disabled"></a>사용 안 함
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 비활성화 된 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.disabled.png "밝은 테마의 확인란을 사용 하지 않도록 설정") | ![어두운 테마의 비활성화 된 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.disabled.dark.png "어두운 테마의 확인란을 사용 하지 않도록 설정") | ![파란색 테마의 비활성화 된 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.disabled.blue.png "파란색 테마의 확인란을 사용 하지 않도록 설정") | ![고대비 테마의 비활성화 된 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.disabled.hc.png "고대비 테마의 확인란을 사용 하지 않도록 설정") |
 | 배경 | ![#F6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#F6F6F6 견본")<br />`#F6F6F6` | ![#2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 견본")<br />`#2D2D30` | ![#F6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#F6F6F6 견본")<br />`#F6F6F6` | ![InactiveCaption 견본](../../extensibility/ux-guidelines/media/HCInactiveCaption.png "InactiveCaption 견본")<br />`InactiveCaption` |
@@ -409,7 +409,7 @@ ms.locfileid: "55016241"
 
 ### <a name="hover"></a>가리키기
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 가리키기 상태 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hover.png "밝은 테마의 가리키기 상태 확인란") | ![어두운 테마의 가리키기 상태 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hover.dark.png "어두운 테마의 가리키기 상태 확인란") | ![파란색 테마의 가리키기 상태 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hover.blue.png "파란색 테마의 가리키기 상태 확인란") | ![고대비 테마의 가리키기 상태 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hpf.hc.png "고대비 테마의 가리키기 상태 확인란") |
 | 배경 | ![#F3F9FF 견본](../../extensibility/ux-guidelines/media/F3F9FF.png "#F3F9FF 견본")<br />`#F3F9FF` | ![#1F1F20 견본](../../extensibility/ux-guidelines/media/1F1F20.png "#1F1F20 견본")<br />`#1F1F20` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
@@ -419,7 +419,7 @@ ms.locfileid: "55016241"
 
 ### <a name="pressed"></a>누름
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 누른된 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.pressed.png "밝은 테마의 누른된 확인란") | ![어두운 테마의 누른된 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.pressed.dark.png "어두운 테마의 누른된 확인란") | ![파란색 테마의 누른된 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.pressed.blue.png "파란색 테마의 누른된 확인란") | ![고대비 테마의 누른된 확인란](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hpf.hc.png "고대비 테마의 누른된 확인란") |
 | 배경 | ![#007ACC 견본](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC 견본")<br />`#007ACC` | ![#007ACC 견본](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC 견본")<br />`#007ACC` | ![#E5C365 swatch](../../extensibility/ux-guidelines/media/E5C365.png "#E5C365 swatch")<br />`#E5C365` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
@@ -429,7 +429,7 @@ ms.locfileid: "55016241"
 
 ### <a name="focused"></a>포커스 있음
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 확인란 Focused](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.focused.png "Focused 밝은 테마의 확인란") | ![어두운 테마의 확인란 Focused](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.focused.dark.png "Focused 어두운 테마의 확인란") | ![파란색 테마의 확인란 Focused](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.focused.blue.png "Focused 파란색 테마의 확인란") | ![고대비 테마의 확인란 Focused](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hpf.hc.png "Focused 고대비 테마의 확인란") |
 | 배경 | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![#1F1F20 견본](../../extensibility/ux-guidelines/media/1F1F20.png "#1F1F20 견본")<br />`#1F1F20` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
@@ -446,7 +446,7 @@ ms.locfileid: "55016241"
 
 #### <a name="default"></a>기본
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 기본 드롭다운/콤보 상자](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.default.png "밝은 테마의 기본 드롭다운/콤보 상자") | ![어두운 테마의 기본 드롭다운/콤보 상자](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.default.dark.png "어두운 테마의 기본 드롭다운/콤보 상자") | ![파란색 테마의 기본 드롭다운/콤보 상자](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.default.blue.png "파란색 테마의 기본 드롭다운/콤보 상자") | ![고대비 테마의 기본 드롭다운/콤보 상자](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.default.hc.png "고대비 테마의 기본 드롭다운/콤보 상자") |
 | 배경 | ![##007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "##007ACC swatch")<br />`##007ACC` | ![#333337 swatch](../../extensibility/ux-guidelines/media/333337.png "#333337 swatch")<br />`#333337` | ![#FCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FCFCFC swatch")<br />`#FCFCFC` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
@@ -457,19 +457,19 @@ ms.locfileid: "55016241"
 
 #### <a name="disabled"></a>사용 안 함
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 드롭다운/콤보 상자를 사용 안 함된](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.disabled.png "밝은 테마의 드롭다운/콤보 상자를 사용 하지 않도록 설정") | ![어두운 테마의 드롭다운/콤보 상자를 사용 안 함된](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.disabled.dark.png "어두운 테마의 드롭다운/콤보 상자를 사용 하지 않도록 설정") | ![파란색 테마의 드롭다운/콤보 상자를 사용 안 함된](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.disabled.blue.png "파란색 테마의 드롭다운/콤보 상자를 사용 하지 않도록 설정") | ![고대비 테마의 드롭다운/콤보 상자를 사용 안 함된](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.disabled.hc.png "고대비 테마의 드롭다운/콤보 상자를 사용 하지 않도록 설정") |
 | 배경 | ![#EEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#EEEEF2 견본")<br />`#EEEEF2` | ![#2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 견본")<br />`#2D2D30` | ![#DFE7F3 swatch](../../extensibility/ux-guidelines/media/DFE7F3.png "#DFE7F3 swatch")<br />`#DFE7F3` | ![InactiveCaption 견본](../../extensibility/ux-guidelines/media/HCInactiveCaption.png "InactiveCaption 견본")<br />`InactiveCaption` |
 | 테두리 | ![#CCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB 견본")<br />`#CCCEDB` | ![#434346 swatch](../../extensibility/ux-guidelines/media/434346.png "#434346 swatch")<br />`#434346` | ![#A4ADBA swatch](../../extensibility/ux-guidelines/media/A4ADBA.png "#A4ADBA swatch")<br />`#A4ADBA` | ![InactiveBorder 견본](../../extensibility/ux-guidelines/media/HCInactiveBorder.png "InactiveBorder 견본")<br />`InactiveBorder` |
 | 텍스트 | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![# 656565swatch](../../extensibility/ux-guidelines/media/656565.png "#656565 swatch")<br />`#656565` | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![InactiveCaptionText 견본](../../extensibility/ux-guidelines/media/HCInactiveCaptionText.png "InactiveCaptionText 견본")<br />`InactiveCaptionText` |
-| 구분 기호 | ![#EEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#EEEEF2 견본")<br />`#EEEEF2` | ![#2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 견본")<br />`#2D2D30` | ![#D5DCE8 견본](../../extensibility/ux-guidelines/media/D5DCE8.png "#D5DCE8 견본")<br />`#D5DCE8` | ![InactiveBorder 견본](../../extensibility/ux-guidelines/media/HCInactiveBorder.png "InactiveBorder 견본")<br />`InactiveBorder` | 
+| 구분 기호 | ![#EEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#EEEEF2 견본")<br />`#EEEEF2` | ![#2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 견본")<br />`#2D2D30` | ![#D5DCE8 견본](../../extensibility/ux-guidelines/media/D5DCE8.png "#D5DCE8 견본")<br />`#D5DCE8` | ![InactiveBorder 견본](../../extensibility/ux-guidelines/media/HCInactiveBorder.png "InactiveBorder 견본")<br />`InactiveBorder` |
 | 문자 모양 | ![#CCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB 견본")<br />`#CCCEDB` | ![#656565 swatch](../../extensibility/ux-guidelines/media/656565.png "#656565 swatch")<br />`#656565` | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![InactiveCaptionText 견본](../../extensibility/ux-guidelines/media/HCInactiveCaptionText.png "InactiveCaptionText 견본")<br />`InactiveCaptionText` |
 | 문자 모양 배경 | ![#EEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#EEEEF2 견본")<br />`#EEEEF2` | ![#2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 견본")<br />`#2D2D30` | ![#D5DCE8 견본](../../extensibility/ux-guidelines/media/D5DCE8.png "#D5DCE8 견본")<br />`#D5DCE8` | ![InactiveCaption 견본](../../extensibility/ux-guidelines/media/HCInactiveCaption.png "InactiveCaption 견본")<br />`InactiveCaption` |
 
 #### <a name="hover"></a>가리키기
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 가리키기 상태 드롭다운/콤보 상자](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.hover.png "밝은 테마의 가리키기 상태 드롭다운/콤보 상자") | ![어두운 테마의 가리키기 상태 드롭다운/콤보 상자](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.hover.dark.png "어두운 테마의 가리키기 상태 드롭다운/콤보 상자") | ![파란색 테마의 가리키기 상태 드롭다운/콤보 상자](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.hover.blue.png "파란색 테마의 가리키기 상태 드롭다운/콤보 상자") | ![고대비 테마의 가리키기 상태 드롭다운/콤보 상자](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.hover.hc.png "고대비 테마의 가리키기 상태 드롭다운/콤보 상자") |
 | 배경 | ![#007ACC 견본](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC 견본")<br />`#007ACC` | ![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#FCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FCFCFC swatch")<br />`#FCFCFC` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
@@ -481,7 +481,7 @@ ms.locfileid: "55016241"
 
 #### <a name="pressed"></a>누름
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 드롭다운/콤보 상자 누름된](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.pressed.png "밝은 테마의 드롭다운/콤보 상자 누름된") | ![어두운 테마의 드롭다운/콤보 상자 누름된](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.pressed.dark.png "어두운 테마의 드롭다운/콤보 상자 누름된") | ![파란색 테마의 드롭다운/콤보 상자 누름된](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.pressed.blue.png "파란색 테마의 드롭다운/콤보 상자 누름된") | ![고대비 테마의 드롭다운/콤보 상자 누름된](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.pressed.hc.png "고대비 테마의 드롭다운/콤보 상자 누름된") |
 | 배경 | ![#FFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF 견본")<br />`#FFFFFF` | ![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#FCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FCFCFC swatch")<br />`#FCFCFC` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
@@ -493,7 +493,7 @@ ms.locfileid: "55016241"
 
 #### <a name="focused"></a>포커스 있음
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![밝은 테마의 드롭다운/콤보 상자 Focused](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.focused.png "밝은 테마의 드롭다운/콤보 상자 Focused") | ![어두운 테마의 드롭다운/콤보 상자 Focused](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.focused.dark.png "어두운 테마의 드롭다운/콤보 상자 Focused") | ![파란색 테마의 드롭다운/콤보 상자 Focused](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.focused.blue.png "파란색 테마의 드롭다운/콤보 상자 Focused") | ![고대비 테마의 드롭다운/콤보 상자 Focused](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.focused.hc.png "고대비 테마의 드롭다운/콤보 상자 Focused") |
 | 배경 | ![#FFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF 견본")<br />`#FFFFFF` | ![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#FCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FCFCFC swatch")<br />`#FCFCFC` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
@@ -511,7 +511,7 @@ ms.locfileid: "55016241"
 
 #### <a name="default"></a>기본
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 배경 | ![#F6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#F6F6F6 견본")<br />`#F6F6F6` | ![#1B1B1C swatch](../../extensibility/ux-guidelines/media/1B1B1C.png "#1B1B1C swatch")<br />`#1B1B1C` | ![#EFEFEF 견본](../../extensibility/ux-guidelines/media/EFEFEF.png "#EFEFEF 견본")<br />`#EFEFEF` | ![메뉴 견본](../../extensibility/ux-guidelines/media/HCMenu.png "메뉴 견본")<br />`Menu` |
 | 테두리 | ![#CCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB 견본")<br />`#CCCEDB` | ![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#98A7B7 견본](../../extensibility/ux-guidelines/media/98A7B7.png "#98A7B7 견본")<br />`#98A7B7`| ![MenuText 견본](../../extensibility/ux-guidelines/media/HCMenuText.png "MenuText 견본")<br />`MenuText` |
@@ -520,7 +520,7 @@ ms.locfileid: "55016241"
 
 #### <a name="hover"></a>가리키기
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 배경 | ![#C9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#C9DEF5 견본")<br />`#C9DEF5` | ![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
 | 테두리 | ![#CCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB 견본")<br />`#CCCEDB` |![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -528,7 +528,7 @@ ms.locfileid: "55016241"
 
 #### <a name="pressed"></a>누름
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 배경 |![#C9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#C9DEF5 견본")<br />`#C9DEF5` |![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
 | 테두리 | ![#CCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB 견본")<br />`#CCCEDB` |![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -536,7 +536,7 @@ ms.locfileid: "55016241"
 
 #### <a name="focused"></a>포커스 있음
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 배경 | ![#F6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#F6F6F6 견본")<br />`#F6F6F6` |![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![견본을 강조 표시](../../extensibility/ux-guidelines/media/HCHighlight.png "견본 강조 표시")<br />`Highlight` |
 | 테두리 | ![#C9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#C9DEF5 견본")<br />`#C9DEF5` |![#3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 견본")<br />`#3F3F46` |![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
@@ -544,14 +544,14 @@ ms.locfileid: "55016241"
 
 ### <a name="text-input-selection"></a>텍스트 입력 선택
 
-| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 | 
+| | 밝은 테마 | 어두운 테마 | 파란색 테마 | 고대비 |
 | --- | :---: | :---: | :---: | :---: |
 | 모양 | ![드롭다운/콤보 상자 텍스트 입력 밝은 테마의 선택을](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.input.png "드롭다운/콤보 상자 텍스트 입력 밝은 테마의 선택") | ![드롭다운/콤보 상자 텍스트 입력 어두운 테마에서 선택](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.input.dark.png "드롭다운/콤보 상자 텍스트 입력 어두운 테마에서 선택") | ![드롭다운/콤보 상자 텍스트 입력 파란색 테마의 선택을](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.input.blue.png "드롭다운/콤보 상자 텍스트 입력 파란색 테마의 선택") | ![드롭다운/콤보 상자 텍스트 입력 고대비 테마에서 선택](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.input.hc.png "드롭다운/콤보 상자 텍스트 입력 고대비 테마 선택") |
 | 텍스트 입력 선택 | ![#66007ACC swatch](../../extensibility/ux-guidelines/media/66007ACC.png "#66007ACC swatch")<br />`#66007ACC` | ![#66007ACC swatch](../../extensibility/ux-guidelines/media/66007ACC.png "#66007ACC swatch")<br />`#66007ACC` | ![#66007ACC swatch](../../extensibility/ux-guidelines/media/66007ACC.png "#66007ACC swatch")<br />`#66007ACC` | ![HighlightText 견본](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText 견본")<br />`HighlightText` |
 
 ## <a name="color-swatches-by-function"></a>함수에 의해 색 견본
 
-| 밝게 | 어둡게 | 파랑 | 에 사용 되는 중... | 
+| 밝게 | 어둡게 | 파랑 | 에 사용 되는 중... |
 | :---: | :---: | :---: | --- |
 | ![#FFC9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 견본")<br />`#FFC9DEF5`   | ![#FF2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 견본")<br />`#FF2D2D30`   | ![#FFFDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FFFDF4BF swatch")<br />`#FFFDF4BF` | 실행 단추, 콤보 상자 항목, 명령 모음 단추, 드롭다운 단추 및 메뉴 항목: 백그라운드 |
 | ![#FFCCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB 견본")<br />`#FFCCCEDB` | ![#FF3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#FF3F3F46 견본")<br />`#FF3F3F46` | ![#FF465A7D 견본](../../extensibility/ux-guidelines/media/465A7D.png "#FF465A7D 견본")<br />`#FF465A7D` | 자동 숨기기 탭 테두리 |

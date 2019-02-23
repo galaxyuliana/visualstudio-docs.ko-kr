@@ -1,7 +1,7 @@
 ---
 title: IDebugEngine2::GetEngineID | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugEngine2::GetEngineID
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 09863abc81d3f4f1a5e4e541c9e0019d30156b67
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 842d78a2ea2ff665102b9cef922f463baf53cb78
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56449635"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56698848"
 ---
 # <a name="idebugengine2getengineid"></a>IDebugEngine2::GetEngineID
 디버그 엔진 (DE)의 GUID를 가져옵니다.
@@ -37,8 +37,9 @@ int GetEngineID(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pguidEngine`  
-[out] DE의 GUID를 반환합니다.
+`pguidEngine`
+
+ [out] DE의 GUID를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -64,4 +65,4 @@ HRESULT CEngine::GetEngineId(GUID *pguidEngine) {
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

@@ -1,7 +1,7 @@
 ---
 title: BPREQI_FIELDS90 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - BPREQI_FIELDS90 enumeration
 ms.assetid: bf6f7efc-39f2-46a2-906d-c3647bf89995
@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4b9135ddc2f2fb1c45f9f4c9d31ff8fe5bfdb0ee
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: be07e034b4059ae7ade40a5a248c01bc4a8237b8
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316238"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56695936"
 ---
 # <a name="bpreqifields90"></a>BPREQI_FIELDS90
 중단점 요청에 대 한 정보를 검색할 수를 지정 하는 유효한 값을 열거 합니다. 이 열거형을 확장 합니다 [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) 열거형입니다.
@@ -74,50 +74,35 @@ public enum enum_BPREQI_FIELDS90
 ```
 
 #### <a name="parameters"></a>매개 변수
-BPREQI90_BPLOCATION  
-초기화 또는 사용 하 여 합니다 `bpLocation` (중단점 위치) 필드를 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 또는 [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) 구조입니다.
+BPREQI90_BPLOCATION 초기화 하거나 사용 합니다 `bpLocation` (중단점 위치) 필드를 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 또는 [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) 구조입니다.
 
-BPREQI90_LANGUAGE  
-초기화 하거나 사용 합니다 `guidLanguage` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_LANGUAGE 초기화 하거나 사용 합니다 `guidLanguage` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_PROGRAM  
-초기화 하거나 사용 합니다 `pProgram` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_PROGRAM 초기화 하거나 사용 합니다 `pProgram` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_PROGRAMNAME  
-초기화 하거나 사용 합니다 `bstrProgramName` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_PROGRAMNAME 초기화 하거나 사용 합니다 `bstrProgramName` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_THREAD  
-초기화 하거나 사용 합니다 `pThread` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_THREAD 초기화 하거나 사용 합니다 `pThread` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_THREADNAME  
-초기화 하거나 사용 합니다 `bstrThreadName` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_THREADNAME 초기화 하거나 사용 합니다 `bstrThreadName` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_PASSCOUNT  
-초기화 하거나 사용 합니다 `bpPassCount` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_PASSCOUNT 초기화 하거나 사용 합니다 `bpPassCount` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_CONDITION  
-초기화 또는 사용 합니다 `bpCondition` (중단점 조건) 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_CONDITION 초기화 하거나 사용 합니다 `bpCondition` (중단점 조건) 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_FLAGS  
-초기화 하거나 사용 합니다 `dwFlags` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_FLAGS 초기화 하거나 사용 합니다 `dwFlags` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_ALLOLDFIELDS  
-초기화 또는 사용에 대 한 모든 필드의의 `BP_REQUEST_INFO` 구조입니다.
+BPREQI90_ALLOLDFIELDS 초기화 또는 사용에 대 한 모든 필드의의 `BP_REQUEST_INFO` 구조입니다.
 
-BPREQI90_VENDOR  
-초기화 하거나 사용 합니다 `guidVendor` 필드에 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_VENDOR 초기화 하거나 사용 합니다 `guidVendor` 필드에 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_CONSTRAINT  
-초기화 하거나 사용 합니다 `bstrConstraint` 필드에 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_CONSTRAINT 초기화 하거나 사용 합니다 `bstrConstraint` 필드에 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_TRACEPOINT  
-초기화 하거나 사용 합니다 `bstrTracepoint` 필드에 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI90_TRACEPOINT 초기화 하거나 사용 합니다 `bstrTracepoint` 필드에 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI90_MACROTRACEPOINT  
-초기화 하거나 사용 합니다 `bstrMacroTracepoint` 필드에 `BP_REQUEST_INFO2` 구조입니다. BPREQI_ALLFIELDS이이 필드를 포함 하지 않습니다.
+BPREQI90_MACROTRACEPOINT 초기화 하거나 사용 합니다 `bstrMacroTracepoint` 필드에 `BP_REQUEST_INFO2` 구조입니다. BPREQI_ALLFIELDS이이 필드를 포함 하지 않습니다.
 
-BPREQI90_ALLFIELDS  
-에 대 한 모든 필드를 지정 합니다 `BP_REQUEST_INFO2` 구조입니다.
+에 대 한 필드 BPREQI90_ALLFIELDS 모든 지정 된 `BP_REQUEST_INFO2` 구조입니다.
 
 ## <a name="requirements"></a>요구 사항
 헤더: Msdbg90.h
@@ -127,4 +112,4 @@ BPREQI90_ALLFIELDS
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)

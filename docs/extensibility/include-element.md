@@ -13,49 +13,49 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4f79a05268a6c1741f7c5d341b0d56e316dbce9c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d77cca0b197f939170fc92f4d7d07bcadae8b53d
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54940533"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56722397"
 ---
 # <a name="include-element"></a>요소를 포함 합니다.
-찾을 수 있는 파일을 지정 하는 Include 요소에 제공 된 현재 파일에 삽입에 대 한 경로 포함 합니다.  모든 기호 및 형식 정의 컴파일된 결과 포함 됩니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```csharp  
-<Include href="stdidcmd.h" />  
-```  
-  
-## <a name="attributes-and-elements"></a>특성 및 요소  
- 다음 단원에서는 특성, 자식 요소 및 부모 요소에 대해 설명합니다.  
-  
-### <a name="attributes"></a>특성  
-  
-|특성|설명|  
-|---------------|-----------------|  
-|href|필수 요소. 헤더 파일에 대 한 경로:<br /><br /> href="stdidcmd.h"|  
-|조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|  
-  
-### <a name="child-elements"></a>자식 요소  
-  
-|요소|설명|  
-|-------------|-----------------|  
-|없음|없음|  
-  
-### <a name="parent-elements"></a>부모 요소  
-  
-|요소|설명|  
-|-------------|-----------------|  
-|[CommandTable 요소](../extensibility/commandtable-element.md)|명령을 나타내는 요소를 모두 정의-메뉴 항목, 메뉴, 도구 모음 및 콤보 상자,-VSPackage IDE를 제공 하는 합니다.|  
-  
-## <a name="example"></a>예제  
-  
-```  
-<Include href="PackagePlacements.vsct"/>  
-```  
-  
-## <a name="see-also"></a>참고자료  
- [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+찾을 수 있는 파일을 지정 하는 Include 요소에 제공 된 현재 파일에 삽입에 대 한 경로 포함 합니다.  모든 기호 및 형식 정의 컴파일된 결과 포함 됩니다.
+
+## <a name="syntax"></a>구문
+
+```csharp
+<Include href="stdidcmd.h" />
+```
+
+## <a name="attributes-and-elements"></a>특성 및 요소
+ 다음 단원에서는 특성, 자식 요소 및 부모 요소에 대해 설명합니다.
+
+### <a name="attributes"></a>특성
+
+|특성|설명|
+|---------------|-----------------|
+|href|필수 요소. 헤더 파일에 대 한 경로:<br /><br /> href="stdidcmd.h"|
+|조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|
+
+### <a name="child-elements"></a>자식 요소
+
+|요소|설명|
+|-------------|-----------------|
+|없음|없음|
+
+### <a name="parent-elements"></a>부모 요소
+
+|요소|설명|
+|-------------|-----------------|
+|[CommandTable 요소](../extensibility/commandtable-element.md)|명령을 나타내는 요소를 모두 정의-메뉴 항목, 메뉴, 도구 모음 및 콤보 상자,-VSPackage IDE를 제공 하는 합니다.|
+
+## <a name="example"></a>예제
+
+```
+<Include href="PackagePlacements.vsct"/>
+```
+
+## <a name="see-also"></a>참고자료
+- [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

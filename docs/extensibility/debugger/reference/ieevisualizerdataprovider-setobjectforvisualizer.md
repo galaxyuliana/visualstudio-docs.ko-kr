@@ -1,7 +1,7 @@
 ---
 title: IEEVisualizerDataProvider::SetObjectForVisualizer | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IEEVisualizerDataProvider::SetObjectForVisualizer
 helpviewer_keywords:
@@ -12,50 +12,53 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2f9ae1d22afc5d2faa54e623c76ba686624aaad1
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a55328c4148aa911d86b8f2daf05ba84a50ff444
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069423"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56711543"
 ---
 # <a name="ieevisualizerdataprovidersetobjectforvisualizer"></a>IEEVisualizerDataProvider::SetObjectForVisualizer
-이 메서드는 시각화 도우미를 나타내는 개체를 변경 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT SetObjectForVisualizer(  
-   IDebugObject*  pNewObject,  
-   BSTR*          error,  
-   IDebugObject** pException  
-);  
-```  
-  
-```csharp  
-int SetObjectForVisualizer(  
-   IDebugObject     pNewObject,  
-   out string       error,  
-   out IDebugObject pException  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pNewObject`  
- [in] 개체 집합입니다.  
-  
- `error`  
- [out] 개체를 설정할 때 오류가 발생에 발생 한 경우이 문자열 오류 메시지를 보유 합니다.  
-  
- `pException`  
- [out] 오류가 있는 경우이 개체는 예외 정보를 보유 합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 오류 정보 반환 하는 방법을 확인 하려면 구현자는 것입니다. 그러나 것을 알고 있는 예외 개체 반환 된 경우 오류가 발생할 경우이 메서드는 예외 개체를 항상 반환 해야 하므로 오류가 발생 했습니다 일부 호출자 수는 가능 합니다. 오류 문자열을 호출자에 게 확인 하려고 하는 경우에 제공 해야 사용 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)   
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+이 메서드는 시각화 도우미를 나타내는 개체를 변경 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT SetObjectForVisualizer(
+   IDebugObject*  pNewObject,
+   BSTR*          error,
+   IDebugObject** pException
+);
+```
+
+```csharp
+int SetObjectForVisualizer(
+   IDebugObject     pNewObject,
+   out string       error,
+   out IDebugObject pException
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pNewObject`
+
+ [in] 개체 집합입니다.
+
+ `error`
+
+ [out] 개체를 설정할 때 오류가 발생에 발생 한 경우이 문자열 오류 메시지를 보유 합니다.
+
+ `pException`
+
+ [out] 오류가 있는 경우이 개체는 예외 정보를 보유 합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 오류 정보 반환 하는 방법을 확인 하려면 구현자는 것입니다. 그러나 것을 알고 있는 예외 개체 반환 된 경우 오류가 발생할 경우이 메서드는 예외 개체를 항상 반환 해야 하므로 오류가 발생 했습니다 일부 호출자 수는 가능 합니다. 오류 문자열을 호출자에 게 확인 하려고 하는 경우에 제공 해야 사용 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
