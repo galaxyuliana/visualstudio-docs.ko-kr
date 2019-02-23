@@ -1,7 +1,7 @@
 ---
 title: IDebugPendingBreakpoint2::Enable | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugPendingBreakpoint2::Enable
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a06ed6e7d3c5f95e0de2ee88c63783924c2b015d
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 3d6498ffbad5fef4d387139b41cefc3d54468245
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450011"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56720824"
 ---
 # <a name="idebugpendingbreakpoint2enable"></a>IDebugPendingBreakpoint2::Enable
 보류 중인 중단점의 활성화 상태를 전환합니다.
@@ -38,8 +38,9 @@ int Enable(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`fEnable`  
-[in] 설정에 0이 아닌 값 (`TRUE`) 보류 중인 중단점을 사용 하도록 설정 하거나 0 (`FALSE`) 사용 하지 않도록 설정 합니다.
+`fEnable`
+
+ [in] 설정에 0이 아닌 값 (`TRUE`) 보류 중인 중단점을 사용 하도록 설정 하거나 0 (`FALSE`) 사용 하지 않도록 설정 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 중단점 삭제 된 경우.
@@ -83,4 +84,4 @@ HRESULT CPendingBreakpoint::Enable(BOOL fEnable)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
