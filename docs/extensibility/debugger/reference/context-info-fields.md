@@ -1,7 +1,7 @@
 ---
 title: CONTEXT_INFO_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - CONTEXT_INFO_FIELDS
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: da34a7b5e2c111f7e9385d729f6c3739d1ada285
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 13501c86eabd249e0e47137099862cd6db654415
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317526"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56706095"
 ---
 # <a name="contextinfofields"></a>CONTEXT_INFO_FIELDS
 검색할 메모리 컨텍스트에 대 한 정보를 지정 합니다.
@@ -50,23 +50,17 @@ public enum enum_CONTEXT_INFO_FIELDS {
 ```
 
 ## <a name="members"></a>멤버
-CIF_MODULEURL  
-초기화/사용 된 `bstrModuleUrl` 필드를 [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) 구조입니다.
+CIF_MODULEURL 초기화/사용 된 `bstrModuleUrl` 필드를 [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) 구조입니다.
 
-CIF_FUNCTION  
-초기화/사용 된 `bstrFunction` 필드는 `CONTEXT_INFO` 구조입니다.
+CIF_FUNCTION 초기화/사용 된 `bstrFunction` 필드는 `CONTEXT_INFO` 구조입니다.
 
-CIF_FUNCTIONOFFSET  
-초기화/사용 된 `posFunctionOffset` 필드는 `CONTEXT_INFO` 구조입니다.
+CIF_FUNCTIONOFFSET 초기화/사용 된 `posFunctionOffset` 필드는 `CONTEXT_INFO` 구조입니다.
 
-CIF_ADDRESS  
-초기화/사용 된 `bstrAddress` 필드는 `CONTEXT_INFO` 구조입니다.
+CIF_ADDRESS 초기화/사용 된 `bstrAddress` 필드는 `CONTEXT_INFO` 구조입니다.
 
-CIF_ADDRESSOFFSET  
-초기화/사용 된 `bstrAddressOffset` 필드는 `CONTEXT_INFO` 구조입니다.
+CIF_ADDRESSOFFSET 초기화/사용 된 `bstrAddressOffset` 필드는 `CONTEXT_INFO` 구조입니다.
 
-CIF_ALLFIELDS  
-초기화/사용의 모든 필드는 `CONTEXT_INFO` 구조입니다.
+CIF_ALLFIELDS 초기화/사용의 모든 필드는 `CONTEXT_INFO` 구조입니다.
 
 ## <a name="remarks"></a>설명
 이러한 값을 매개 변수를 전달 됩니다는 [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md) 의 필드를 나타내려면 메서드는 [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) 구조는 초기화할 합니다.
@@ -83,6 +77,6 @@ CIF_ALLFIELDS
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)  
-[GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)

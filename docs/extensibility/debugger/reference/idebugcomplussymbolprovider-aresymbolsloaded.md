@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::AreSymbolsLoaded | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - AreSymbolsLoaded
 - IDebugComPlusSymbolProvider::AreSymbolsLoaded
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 32e47f84c399f3a2119c42ee12b5384e96a92fb4
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: a53b1a1ad377543107154e355a47b7100dcb2f16
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412853"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56686602"
 ---
 # <a name="idebugcomplussymbolprovideraresymbolsloaded"></a>IDebugComPlusSymbolProvider::AreSymbolsLoaded
 응용 프로그램 도메인 식별자를 지정 하는 지정된 된 모듈의 디버그 기호가 로드 하는 경우를 결정 합니다.
@@ -38,11 +38,13 @@ int AreSymbolsLoaded (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ulAppDomainID`  
-[in] 응용 프로그램 도메인에 대 한 식별자입니다.
+`ulAppDomainID`
 
-`guidModule`  
-[in] 모듈에 대 한 고유 식별자입니다.
+ [in] 응용 프로그램 도메인에 대 한 식별자입니다.
+
+`guidModule`
+
+ [in] 모듈에 대 한 고유 식별자입니다.
 
 ## <a name="return-value"></a>반환 값
 디버그 기호를 로드 되 면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE`합니다.
@@ -71,4 +73,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

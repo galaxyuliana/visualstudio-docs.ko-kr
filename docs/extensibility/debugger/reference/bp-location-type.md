@@ -1,7 +1,7 @@
 ---
 title: BP_LOCATION_TYPE | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - BP_LOCATION_TYPE
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 781aa55f26fbd332b901dacdb3b4ac12d85579cf
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 1695c61a829cf1439ed773e48088430f36f8c653
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318513"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56715663"
 ---
 # <a name="bplocationtype"></a>BP_LOCATION_TYPE
 중단점 요청에 대 한 중단점 위치 유형을 지정합니다.
@@ -66,50 +66,35 @@ public enum enum_BP_LOCATION_TYPE {
 ```
 
 ## <a name="members"></a>멤버
-BPLT_NONE  
-없는 중단점 위치를 지정합니다.
+BPLT_NONE 없습니다 중단점 위치를 지정합니다.
 
-BPLT_FILE_LINE  
-파일 줄으로 중단점의 위치 유형을 지정합니다.
+BPLT_FILE_LINE 파일 선으로 중단점의 위치 유형을 지정합니다.
 
-BPLT_FUNC_OFFSET  
-중단점 위치 형식 함수 오프셋으로 지정합니다.
+BPLT_FUNC_OFFSET 함수 오프셋으로 중단점의 위치 유형을 지정합니다.
 
-BPLT_CONTEXT  
-중단점 위치 유형을 컨텍스트로 지정합니다.
+BPLT_CONTEXT 컨텍스트로 중단점의 위치 유형을 지정합니다.
 
-BPLT_STRING  
-중단점 위치 형식의 문자열로 지정합니다.
+BPLT_STRING 문자열로 중단점의 위치 유형을 지정합니다.
 
-BPLT_ADDRESS  
-주소로 중단점의 위치 유형을 지정합니다.
+BPLT_ADDRESS 주소로 중단점의 위치 유형을 지정합니다.
 
-BPLT_RESOLUTION  
-중단점 위치 형식 해상도로 지정합니다.
+BPLT_RESOLUTION은 해상도으로 중단점의 위치 유형을 지정합니다.
 
-BPLT_CODE_FILE_LINE  
-소스 코드의 줄으로 중단점의 위치 유형을 지정합니다.
+BPLT_CODE_FILE_LINE 소스 코드의 줄으로 중단점의 위치 유형을 지정합니다.
 
-BPLT_CODE_FUNC_OFFSET  
-코드 함수 오프셋으로 중단점의 위치 유형을 지정합니다.
+BPLT_CODE_FUNC_OFFSET 코드 함수 오프셋으로 중단점의 위치 유형을 지정합니다.
 
-BPLT_CODE_CONTEXT  
-코드 컨텍스트로 중단점의 위치 유형을 지정합니다.
+BPLT_CODE_CONTEXT 코드 컨텍스트로 중단점의 위치 유형을 지정합니다.
 
-BPLT_CODE_STRING  
-중단점 위치 형식 코드 문자열로 지정합니다.
+BPLT_CODE_STRING 코드 문자열로 중단점의 위치 유형을 지정합니다.
 
-BPLT_CODE_ADDRESS  
-중단점 위치 형식 코드 주소로 지정합니다.
+BPLT_CODE_ADDRESS 코드 주소로 중단점의 위치 유형을 지정합니다.
 
-BPLT_DATA_STRING  
-중단점 위치 형식 데이터 문자열로 지정합니다.
+BPLT_DATA_STRING 문자열로 데이터 중단점의 위치 유형을 지정합니다.
 
-BPLT_TYPE_MASK  
-중단점 형식 값에서 추출할 수 있도록 하는 비트 마스크를 지정 합니다.
+BPLT_TYPE_MASK 지정 비트 마스크를, 중단점 형식 값에서 추출할 수 있도록 합니다.
 
-BPLT_LOCATION_TYPE_MASK  
-중단점 위치 유형 값에서 추출할 수 있도록 하는 비트 마스크를 지정 합니다.
+BPLT_LOCATION_TYPE_MASK 지정 비트 마스크를, 중단점 위치 유형 값에서 추출할 수 있도록 합니다.
 
 ## <a name="remarks"></a>설명
 매개 변수로 전달 된 [GetLocationType](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype.md) 메서드.
@@ -126,6 +111,6 @@ BPLT_LOCATION_TYPE_MASK
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetLocationType](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype.md)  
-[BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetLocationType](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype.md)
+- [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)

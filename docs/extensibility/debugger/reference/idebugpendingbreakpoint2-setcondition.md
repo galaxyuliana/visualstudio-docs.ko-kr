@@ -1,7 +1,7 @@
 ---
 title: IDebugPendingBreakpoint2::SetCondition | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugPendingBreakpoint2::SetCondition
 helpviewer_keywords:
@@ -13,40 +13,41 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: df52c80b38a715f56df002720c002e66db112523
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4a67286b4732436c2a680e13e90740ca9faff299
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54937563"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56680232"
 ---
 # <a name="idebugpendingbreakpoint2setcondition"></a>IDebugPendingBreakpoint2::SetCondition
-설정 하거나 연결 된 보류 중인 중단점 조건을 변경 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT SetCondition(   
-   BP_CONDITION bpCondition  
-);  
-```  
-  
-```csharp  
-int SetCondition(   
-   BP_CONDITION bpCondition  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `bpCondition`  
- [in] A [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) 설정 하는 조건을 지정 하는 구조입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 보류 중인 중단점을 사용 하 여 이전에 연관 된 모든 상태는 손실 됩니다. 중단점 보류 중인이 바인딩된 모든 중단점 해당 조건에 지정 된 값으로 설정 하기 위해 호출 되는 `bpCondition` 매개 변수입니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)   
- [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
+설정 하거나 연결 된 보류 중인 중단점 조건을 변경 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT SetCondition( 
+   BP_CONDITION bpCondition
+);
+```
+
+```csharp
+int SetCondition( 
+   BP_CONDITION bpCondition
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `bpCondition`
+
+ [in] A [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) 설정 하는 조건을 지정 하는 구조입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 보류 중인 중단점을 사용 하 여 이전에 연관 된 모든 상태는 손실 됩니다. 중단점 보류 중인이 바인딩된 모든 중단점 해당 조건에 지정 된 값으로 설정 하기 위해 호출 되는 `bpCondition` 매개 변수입니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)

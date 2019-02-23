@@ -1,7 +1,7 @@
 ---
 title: MODULE_INFO_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - MODULE_INFO_FIELDS
 helpviewer_keywords:
@@ -12,110 +12,97 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5d0b5e1423875bfa7834bd1340339ebab2a9e3b3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f4302a911e58a23bdcd58bb054c1fc90c389fed6
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55040348"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56708389"
 ---
 # <a name="moduleinfofields"></a>MODULE_INFO_FIELDS
-디버그 모듈 정보에 대 한 플래그를 지정합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-enum enum_MODULE_INFO_FIELDS {   
-   MIF_NONE              = 0x0000,  
-   MIF_NAME              = 0x0001,  
-   MIF_URL               = 0x0002,  
-   MIF_VERSION           = 0x0004,  
-   MIF_DEBUGMESSAGE      = 0x0008,  
-   MIF_LOADADDRESS       = 0x0010,  
-   MIF_PREFFEREDADDRESS  = 0x0020,  
-   MIF_SIZE              = 0x0040,  
-   MIF_LOADORDER         = 0x0080,  
-   MIF_TIMESTAMP         = 0x0100,  
-   MIF_URLSYMBOLLOCATION = 0x0200,  
-   MIF_FLAGS             = 0x0400,  
-   MIF_ALLFIELDS         = 0x07ff  
-};  
-typedef DWORD MODULE_INFO_FIELDS;  
-```  
-  
-```csharp  
-public enum enum_MODULE_INFO_FIELDS {   
-   MIF_NONE              = 0x0000,  
-   MIF_NAME              = 0x0001,  
-   MIF_URL               = 0x0002,  
-   MIF_VERSION           = 0x0004,  
-   MIF_DEBUGMESSAGE      = 0x0008,  
-   MIF_LOADADDRESS       = 0x0010,  
-   MIF_PREFFEREDADDRESS  = 0x0020,  
-   MIF_SIZE              = 0x0040,  
-   MIF_LOADORDER         = 0x0080,  
-   MIF_TIMESTAMP         = 0x0100,  
-   MIF_URLSYMBOLLOCATION = 0x0200,  
-   MIF_FLAGS             = 0x0400,  
-   MIF_ALLFIELDS         = 0x07ff  
-};  
-```  
-  
-## <a name="members"></a>멤버  
- MIF_NONE  
- 구조에 필드를 초기화/사용 합니다.  
-  
- MIF_NAME  
- 초기화/사용 된 `m_bstrName` 필드를 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조입니다.  
-  
- MIF_URL  
- 초기화/사용 된 `m_bstrUrl` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_VERSION  
- 초기화/사용 된 `m_bstrVersion` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_DEBUGMESSAGE  
- 초기화/사용 된 `m_bstrDebugMessage` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_LOADADDRESS  
- 초기화/사용 된 `m_addrLoadAddress` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_PREFFEREDADDRESS  
- 초기화/사용 된 `m_addrPreferredLoadAddress` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_SIZE  
- 초기화/사용 된 `m_dwSize` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_LOADORDER  
- 초기화/사용 된 `m_dwLoadOrder` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_TIMESTAMP  
- 초기화/사용 된 `m_TimeStamp` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_URLSYMBOLLOCATION  
- 초기화/사용 된 `m_bstrUrlSymbolLocation` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_FLAGS  
- 초기화/사용 된 `m_dwModuleFlags` 필드에 `MODULE_INFO` 구조입니다.  
-  
- MIF_ALLFIELDS  
- 모든 필드의 초기화/사용 된 `MODULE_INFO` 구조입니다.  
-  
-## <a name="remarks"></a>설명  
- 이러한 값을 인수로 전달 됩니다는 [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md) 의 필드를 나타내려면 메서드는 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조는 초기화할 합니다.  
-  
- 이러한 값에도 사용 됩니다는 `MODULE_INFO` 에 유효 하 고 사용 되는 필드는 구조체.  
-  
- 이러한 플래그는 비트과 결합 될 수 `OR`입니다.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: msdbg.h  
-  
- 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
-  
- 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
- [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)   
- [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)
+디버그 모듈 정보에 대 한 플래그를 지정합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+enum enum_MODULE_INFO_FIELDS { 
+   MIF_NONE              = 0x0000,
+   MIF_NAME              = 0x0001,
+   MIF_URL               = 0x0002,
+   MIF_VERSION           = 0x0004,
+   MIF_DEBUGMESSAGE      = 0x0008,
+   MIF_LOADADDRESS       = 0x0010,
+   MIF_PREFFEREDADDRESS  = 0x0020,
+   MIF_SIZE              = 0x0040,
+   MIF_LOADORDER         = 0x0080,
+   MIF_TIMESTAMP         = 0x0100,
+   MIF_URLSYMBOLLOCATION = 0x0200,
+   MIF_FLAGS             = 0x0400,
+   MIF_ALLFIELDS         = 0x07ff
+};
+typedef DWORD MODULE_INFO_FIELDS;
+```
+
+```csharp
+public enum enum_MODULE_INFO_FIELDS { 
+   MIF_NONE              = 0x0000,
+   MIF_NAME              = 0x0001,
+   MIF_URL               = 0x0002,
+   MIF_VERSION           = 0x0004,
+   MIF_DEBUGMESSAGE      = 0x0008,
+   MIF_LOADADDRESS       = 0x0010,
+   MIF_PREFFEREDADDRESS  = 0x0020,
+   MIF_SIZE              = 0x0040,
+   MIF_LOADORDER         = 0x0080,
+   MIF_TIMESTAMP         = 0x0100,
+   MIF_URLSYMBOLLOCATION = 0x0200,
+   MIF_FLAGS             = 0x0400,
+   MIF_ALLFIELDS         = 0x07ff
+};
+```
+
+## <a name="members"></a>멤버
+ MIF_NONE 초기화/사용 하 여 구조에 있는 필드 없음.
+
+ MIF_NAME 초기화/사용 된 `m_bstrName` 필드에 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조입니다.
+
+ MIF_URL 초기화/사용 된 `m_bstrUrl` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_VERSION 초기화/사용 된 `m_bstrVersion` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_DEBUGMESSAGE 초기화/사용 된 `m_bstrDebugMessage` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_LOADADDRESS 초기화/사용 된 `m_addrLoadAddress` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_PREFFEREDADDRESS 초기화/사용 된 `m_addrPreferredLoadAddress` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_SIZE 초기화/사용 된 `m_dwSize` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_LOADORDER 초기화/사용 된 `m_dwLoadOrder` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_TIMESTAMP 초기화/사용 된 `m_TimeStamp` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_URLSYMBOLLOCATION 초기화/사용 된 `m_bstrUrlSymbolLocation` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_FLAGS 초기화/사용 된 `m_dwModuleFlags` 필드에 `MODULE_INFO` 구조입니다.
+
+ MIF_ALLFIELDS 초기화/사용 하 여 모든 필드는 `MODULE_INFO` 구조입니다.
+
+## <a name="remarks"></a>설명
+ 이러한 값을 인수로 전달 됩니다는 [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md) 의 필드를 나타내려면 메서드는 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조는 초기화할 합니다.
+
+ 이러한 값에도 사용 됩니다는 `MODULE_INFO` 에 유효 하 고 사용 되는 필드는 구조체.
+
+ 이러한 플래그는 비트과 결합 될 수 `OR`입니다.
+
+## <a name="requirements"></a>요구 사항
+ 헤더: msdbg.h
+
+ 네임스페이스: Microsoft.VisualStudio.Debugger.Interop
+
+ 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## <a name="see-also"></a>참고 항목
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)

@@ -1,7 +1,7 @@
 ---
 title: IDebugBreakpointUnboundEvent2::GetBreakpoint | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugBreakpointUnboundEvent2::GetBreakpoint
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2519e919a9140d881b6323b0ecfc2aacc657306c
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 510ffebfd1bbff116b4899663baac7cf6f1087d3
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412879"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56682039"
 ---
 # <a name="idebugbreakpointunboundevent2getbreakpoint"></a>IDebugBreakpointUnboundEvent2::GetBreakpoint
 바인딩 해제 된 중단점을 가져옵니다.
@@ -37,8 +37,9 @@ int GetBreakpoint(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ppBP`  
-[out] 반환 된 [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md) 바인딩 해제 된 중단점을 나타내는 개체입니다.
+`ppBP`
+
+ [out] 반환 된 [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md) 바인딩 해제 된 중단점을 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -74,5 +75,5 @@ STDMETHODIMP CBreakpointUnboundDebugEventBase::GetBreakpoint(
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)  
-[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+- [IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)
+- [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
