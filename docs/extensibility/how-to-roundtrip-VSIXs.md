@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: justinclareburt
 ms.workload:
 - willbrown
-ms.openlocfilehash: 809ca83d164b4cb589f19438b1fc5672cc1b4b8e
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 07a9363eef7d350ddbc7ec55f9fab62f38dadc1d
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53880954"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710606"
 ---
 # <a name="how-to-make-extensions-compatible-with-visual-studio-2017-and-visual-studio-2015"></a>방법: 확장을 Visual Studio 2017 및 Visual Studio 2015와 호환 되도록
 
@@ -109,7 +109,7 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 </Prerequisites>
 ```
 
-* 파일을 저장한 후 닫습니다.
+* 파일을 저장하고 닫습니다.
 
 > [!NOTE]
 > Visual Studio 2017에서 VSIX 디자이너를 사용 하 여이 작업을 수행 하려는 경우 Visual Studio 2017의 모든 버전과 호환 되는지 확인 하는 필수 구성 요소 버전을 수동으로 편집 해야 합니다.  디자이너는 최소 버전 (예를 들어 15.0.26208.0) Visual Studio의 현재 버전으로 삽입 때문입니다.  그러나 다른 사용자가 이전 버전 수 없으므로 수동으로 편집 하려면이를 15.0입니다.
@@ -165,7 +165,7 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 
 * 추가 조건부 명령문을 추가 합니다 `<import>` Microsoft.VSSDK.BuildTools 참조 하는 태그입니다.  삽입 `'$(VisualStudioVersion)' != '14.0' And` 조건문 맨 앞에 있습니다.  이러한 문은 머리글과 바닥글을 csproj 파일에 표시 됩니다.
 
-예를 들어:
+예를 들면,
 
 ```xml
 <Import Project="packages\Microsoft.VSSDK.BuildTools.15.0.26201…" Condition="'$(VisualStudioVersion)' != '14.0' And Exists(…" />
@@ -173,7 +173,7 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 
 * 추가 조건부 명령문을 추가 합니다 `<import>` 는 Microsoft.VisualStudio.Sdk.BuildTasks.14.0 있는 태그입니다. 삽입 `'$(VisualStudioVersion)' == '14.0' And` 조건문 맨 앞에 있습니다. 이러한 문은 머리글과 바닥글을 csproj 파일에 표시 됩니다.
 
-예를 들어:
+예를 들면,
 
 ```xml
 <Import Project="packages\Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…" Condition="'$(VisualStudioVersion)' == '14.0' And Exists(…" />
@@ -189,7 +189,7 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 
 * 추가 조건부 명령문을 추가 합니다 `<Error>` 는 Microsoft.VisualStudio.Sdk.BuildTasks.14.0 있는 태그입니다.  삽입 `'$(VisualStudioVersion)' == '14.0' And` 조건문 맨 앞에 있습니다. 이러한 문은 csproj 파일의 바닥글에 표시 됩니다.
 
-예를 들어:
+예를 들면,
 
 ```xml
 <Error Condition="'$(VisualStudioVersion)' == '14.0' And Exists('packages\Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…" />

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c5ffcc334a69a38da4869532d633960cfac7260d
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 22b84716f320883c71f534ea762adf34d5c2a983
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317135"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56709943"
 ---
 # <a name="add-a-tool-window"></a>도구 창 추가
 이 연습에서 도구 창을 만들고 다음과 같은 방법으로 Visual Studio에 통합 하는 방법을 배웁니다.
@@ -277,4 +277,4 @@ public System.Windows.Controls.MediaElement MediaPlayer
     종소리 소리가 들립니다.
 
 ## <a name="see-also"></a>참고자료
-[명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)
+- [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

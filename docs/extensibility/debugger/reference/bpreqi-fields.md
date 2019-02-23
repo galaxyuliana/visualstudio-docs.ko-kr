@@ -1,7 +1,7 @@
 ---
 title: BPREQI_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - BPREQI_FIELDS
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 448cdf3087014b927a9c144fbc756c5cc8f4a37e
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 25b95e2934de9d09ef9541162b05920a04f645bd
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317408"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56723047"
 ---
 # <a name="bpreqifields"></a>BPREQI_FIELDS
 중단점 요청에 대 한 검색할 정보를 지정 합니다.
@@ -64,47 +64,33 @@ public enum enum_BPREQI_FIELDS {
 ```
 
 ## <a name="members"></a>멤버
-BPREQI_BPLOCATION  
-초기화/사용 합니다 `bpLocation` (중단점 위치) 필드를 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 또는 [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) 구조입니다.
+BPREQI_BPLOCATION 초기화/사용 합니다 `bpLocation` (중단점 위치) 필드를 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 또는 [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) 구조입니다.
 
-BPREQI_LANGUAGE  
-초기화/사용 된 `guidLanguage` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_LANGUAGE 초기화/사용 된 `guidLanguage` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_PROGRAM  
-초기화/사용 된 `pProgram` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_PROGRAM 초기화/사용 된 `pProgram` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_PROGRAMNAME  
-초기화/사용 된 `bstrProgramName` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_PROGRAMNAME 초기화/사용 된 `bstrProgramName` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_THREAD  
-초기화/사용 된 `pThread` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_THREAD 초기화/사용 된 `pThread` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_THREADNAME  
-초기화/사용 된 `bstrThreadName` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_THREADNAME 초기화/사용 된 `bstrThreadName` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_PASSCOUNT  
-초기화/사용 된 `bpPassCount` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_PASSCOUNT 초기화/사용 된 `bpPassCount` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_CONDITION  
-초기화/사용 합니다 `bpCondition` (중단점 조건) 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_CONDITION 초기화/사용 합니다 `bpCondition` (중단점 조건) 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_FLAGS  
-초기화/사용 된 `dwFlags` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_FLAGS 초기화/사용 된 `dwFlags` 필드를 `BP_REQUEST_INFO` 또는 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_ALLOLDFIELDS  
-초기화/사용에 대 한 모든 필드의의 `BP_REQUEST_INFO` 구조입니다.
+BPREQI_ALLOLDFIELDS 초기화/사용 하 여 모든 필드의의 `BP_REQUEST_INFO` 구조입니다.
 
-BPREQI_VENDOR  
-초기화/사용 된 `guidVendor` 필드에 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_VENDOR 초기화/사용 된 `guidVendor` 필드에 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_CONSTRAINT  
-초기화/사용 된 `bstrConstraint` 필드에 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_CONSTRAINT 초기화/사용 된 `bstrConstraint` 필드에 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_TRACEPOINT  
-초기화/사용 된 `bstrTracepoint` 필드에 `BP_REQUEST_INFO2` 구조입니다.
+BPREQI_TRACEPOINT 초기화/사용 된 `bstrTracepoint` 필드에 `BP_REQUEST_INFO2` 구조입니다.
 
-BPREQI_ALLFIELDS  
-에 대 한 모든 필드를 지정 합니다 `BP_REQUEST_INFO2` 구조입니다.
+에 대 한 필드 BPREQI_ALLFIELDS 모든 지정 된 `BP_REQUEST_INFO2` 구조입니다.
 
 ## <a name="remarks"></a>설명
 인수로 전달 합니다 [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md) 및 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 의 필드를 지정 하는 방법의 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 및 [BP_REQUEST_INFO2 ](../../../extensibility/debugger/reference/bp-request-info2.md) 구조체가 초기화 되어야 합니다.
@@ -121,7 +107,7 @@ BPREQI_ALLFIELDS
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)  
-[BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)  
-[BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)
+- [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
+- [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)

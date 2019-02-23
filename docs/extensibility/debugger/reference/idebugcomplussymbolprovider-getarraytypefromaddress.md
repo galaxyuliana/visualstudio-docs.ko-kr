@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetArrayTypeFromAddress | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - GetArrayTypeFromAddress
 - IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
@@ -11,20 +11,19 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0878f4224d024e353c2c7ab798450a65e9677178
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: d5d6e06a30d6c76cc36bf7a7d64f97016bc60803
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413347"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56712738"
 ---
 # <a name="idebugcomplussymbolprovidergetarraytypefromaddress"></a>IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 검색의 디버그 주소 지정 된 경우 지정된 된 배열에 대 한 정보를 입력 합니다.
 
 ## <a name="syntax"></a>구문
 
-```
-[C++]
+```cpp
 HRESULT GetArrayTypeFromAddress(
     IDebugAddress* pAddress,
     BYTE*          pSig,
@@ -33,8 +32,7 @@ HRESULT GetArrayTypeFromAddress(
 );
 ```
 
-```
-[C#]
+```csharp
 int GetArrayTypeFromAddress(
     IDebugAddress   pAddress,
     int[]           pSig,
@@ -44,17 +42,21 @@ int GetArrayTypeFromAddress(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pAddress`  
-[in] 디버그 주소 표시를 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
+`pAddress`
 
-`pSig`  
-[in] 검사할 배열입니다.
+ [in] 디버그 주소 표시를 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
 
-`dwSigLength`  
-[in] 바이트의 길이 `pSig` 배열입니다.
+`pSig`
 
-`ppField`  
-[out] 에 표시 된 대로 배열 형식을 반환 합니다는 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) 인터페이스입니다.
+ [in] 검사할 배열입니다.
+
+`dwSigLength`
+
+ [in] 바이트의 길이 `pSig` 배열입니다.
+
+`ppField`
+
+ [out] 에 표시 된 대로 배열 형식을 반환 합니다는 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -96,4 +98,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

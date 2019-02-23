@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::LoadSymbolsFromStream | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 - LoadSymbolsFromStream
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 02e88780e41b9a46163c7b66b2d83e64d190c307
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 4fb22dfdfb92b4955624a587a340d9f57eb2d59c
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413386"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56717951"
 ---
 # <a name="idebugcomplussymbolproviderloadsymbolsfromstream"></a>IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 로드는 데이터 스트림을 지정 된 기호를 디버그 합니다.
@@ -44,20 +44,25 @@ int LoadSymbolsFromStream(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ulAppDomainID`  
-[in] 응용 프로그램 도메인의 식별자입니다.
+`ulAppDomainID`
 
-`guidModule`  
-[in] 모듈의 고유 식별자입니다.
+ [in] 응용 프로그램 도메인의 식별자입니다.
 
-`baseAddress`  
-[in] 기본 메모리 주소입니다.
+`guidModule`
 
-`pUnkMetadataImport`  
-[in] 기호 메타 데이터가 포함 된 개체입니다.
+ [in] 모듈의 고유 식별자입니다.
 
-`pStream`  
-[in] 기호를 포함 하는 데이터 스트림.
+`baseAddress`
+
+ [in] 기본 메모리 주소입니다.
+
+`pUnkMetadataImport`
+
+ [in] 기호 메타 데이터가 포함 된 개체입니다.
+
+`pStream`
+
+ [in] 기호를 포함 하는 데이터 스트림.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -79,4 +84,4 @@ HRESULT CDebugSymbolProvider::LoadSymbolsFromStream(
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

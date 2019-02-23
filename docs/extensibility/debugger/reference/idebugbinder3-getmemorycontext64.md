@@ -1,7 +1,7 @@
 ---
 title: IDebugBinder3::GetMemoryContext64 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - GetMemoryContext64
 - IDebugBinder3::GetMemoryContext64
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5be0e07721e0f38db68bae2ff8a99aaf50b649b6
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 522d6cc0888f3ccbfd8c39a9ec313f7e06add25f
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317850"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56713869"
 ---
 # <a name="idebugbinder3getmemorycontext64"></a>IDebugBinder3::GetMemoryContext64
 메모리 컨텍스트에 개체 위치 또는 64 비트 메모리 주소를 변환합니다.
@@ -40,14 +40,17 @@ int GetMemoryContext64 (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pField`  
-[in] [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 설명 하는 찾을 개체입니다. 하는 경우 `NULL`를 사용 하 여 `dwConstant` 대신 합니다.
+`pField`
 
-`uConstant`  
-[in] 0x50000000 같은 64 비트 메모리 주소입니다.
+ [in] [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 설명 하는 찾을 개체입니다. 하는 경우 `NULL`를 사용 하 여 `dwConstant` 대신 합니다.
 
-`ppMemCxt`  
-[out] 반환 된 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 개체의 주소나 메모리 주소를에서 나타내는 인터페이스입니다.
+`uConstant`
+
+ [in] 0x50000000 같은 64 비트 메모리 주소입니다.
+
+`ppMemCxt`
+
+ [out] 반환 된 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 개체의 주소나 메모리 주소를에서 나타내는 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -127,4 +130,4 @@ HRESULT CValueProperty::GetMemoryContext ( IDebugMemoryContext2** out_ppMemoryCo
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
+- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)

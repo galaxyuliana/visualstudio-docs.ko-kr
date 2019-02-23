@@ -1,7 +1,7 @@
 ---
 title: IDebugModule3::GetSymbolInfo | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugModule3::GetSymbolInfo
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: adffeb018bfaa597d399042ef9651965674f92bb
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: c5fedebe6a8e411e09b527841bd0ded3854749ae
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450143"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56717444"
 ---
 # <a name="idebugmodule3getsymbolinfo"></a>IDebugModule3::GetSymbolInfo
 각 경로 검색 한 결과 뿐만 아니라 기호에 대 한 검색 하는 경로의 목록을 검색 합니다.
@@ -40,11 +40,13 @@ int GetSymbolInfo(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`dwFields`  
-[in] 플래그의 조합 된 [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) 의 필드를 지정 하는 열거형 `pInfo` 작성 해야 할 합니다.
+`dwFields`
 
-`pInfo`  
-[out] A [MODULE_SYMBOL_SEARCH_INFO](../../../extensibility/debugger/reference/module-symbol-search-info.md) 멤버가 지정 된 정보로 채워질 구조체입니다. 이 경우 null 값이이 메서드가 반환 `E_INVALIDARG`합니다.
+ [in] 플래그의 조합 된 [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) 의 필드를 지정 하는 열거형 `pInfo` 작성 해야 할 합니다.
+
+`pInfo`
+
+ [out] A [MODULE_SYMBOL_SEARCH_INFO](../../../extensibility/debugger/reference/module-symbol-search-info.md) 멤버가 지정 된 정보로 채워질 구조체입니다. 이 경우 null 값이이 메서드가 반환 `E_INVALIDARG`합니다.
 
 ## <a name="return-value"></a>반환 값
 메서드가 성공 하는 경우 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -81,12 +83,12 @@ void ShowSymbolSearchResults(IDebugModule3 *pIDebugModule3)
 }
 ```
 
-**c:\symbols\user32.pdb... 파일을 찾을 수 없습니다.**  
-**c:\winnt\symbols\user32.pdb... 버전이 일치 하지 않습니다.**  
-**\\\symbols\symbols\user32.dll\0a8sd0ad8ad\user32.pdb... 기호를 로드 합니다.**
+**c:\symbols\user32.pdb... 파일을 찾을 수 없습니다. ** 
+ **c:\winnt\symbols\user32.pdb... 버전이 일치 하지 않습니다. ** 
+ ** \\\symbols\symbols\user32.dll\0a8sd0ad8ad\user32.pdb... 기호를 로드 합니다.**
 
 ## <a name="see-also"></a>참고 항목
 
-[SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md)  
-[MODULE_SYMBOL_SEARCH_INFO](../../../extensibility/debugger/reference/module-symbol-search-info.md)  
-[IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)
+- [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md)
+- [MODULE_SYMBOL_SEARCH_INFO](../../../extensibility/debugger/reference/module-symbol-search-info.md)
+- [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

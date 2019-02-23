@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e33b0eba41b2faa7070452444779b14b85bf72f4
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: e1704a33abddada9a439786b408a8bc7bceeba0d
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56315913"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56711230"
 ---
 # <a name="evaluate-a-watch-expression"></a>조사식 평가
 > [!IMPORTANT]
@@ -83,7 +83,6 @@ namespace EEMC
 이 구현의 `IDebugParsedExpression::EvaluateSync` 비관리 코드에서. 도우미 함수 `Evaluate` 구문 분석 하 고 반환 하는 식 평가 `VARIANT` 결과 값을 보유 합니다. 도우미 함수 `VariantValueToProperty` 번들의 `VARIANT` 에 `CValueProperty` 개체입니다.
 
 ```cpp
-[C++]
 STDMETHODIMP CParsedExpression::EvaluateSync(
     in  DWORD                 evalFlags,
     in  DWORD                 dwTimeout,
@@ -173,5 +172,5 @@ STDMETHODIMP CParsedExpression::EvaluateSync(
 ```
 
 ## <a name="see-also"></a>참고자료
-[조사식 창 식 평가](../../extensibility/debugger/evaluating-a-watch-window-expression.md)  
-[식 계산의 샘플 구현](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)
+- [조사식 창 식 평가](../../extensibility/debugger/evaluating-a-watch-window-expression.md)
+- [식 계산의 샘플 구현](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)

@@ -1,7 +1,7 @@
 ---
 title: IDebugReference2::GetMemoryBytes | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugReference2::GetMemoryBytes
 helpviewer_keywords:
@@ -12,37 +12,38 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 081a320c7d2ddd84712bc834fa9817d6f18edeca
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 20e08fdd59bd519358342c9cb8abbc1516d8637e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54996391"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56713843"
 ---
 # <a name="idebugreference2getmemorybytes"></a>IDebugReference2::GetMemoryBytes
-실제로 참조의 값을 포함 하는 메모리 바이트 수를 가져옵니다. 나중에 사용하기 위해 예약되어 있습니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetMemoryBytes (   
-   IDebugMemoryBytes2** ppMemoryBytes  
-);  
-```  
-  
-```csharp  
-int GetMemoryBytes (   
-   out IDebugMemoryBytes2 ppMemoryBytes  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ppMemoryBytes`  
- [out] 반환 된 [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) 참조의 값을 포함 하는 메모리를 검색 하는 데 사용할 수 있습니다.  
-  
-## <a name="return-value"></a>반환 값  
- 항상 `E_NOTIMPL`를 반환합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)   
- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
+실제로 참조의 값을 포함 하는 메모리 바이트 수를 가져옵니다. 나중에 사용하기 위해 예약되어 있습니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetMemoryBytes ( 
+   IDebugMemoryBytes2** ppMemoryBytes
+);
+```
+
+```csharp
+int GetMemoryBytes ( 
+   out IDebugMemoryBytes2 ppMemoryBytes
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `ppMemoryBytes`
+
+ [out] 반환 된 [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) 참조의 값을 포함 하는 메모리를 검색 하는 데 사용할 수 있습니다.
+
+## <a name="return-value"></a>반환 값
+ 항상 `E_NOTIMPL`를 반환합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+- [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
