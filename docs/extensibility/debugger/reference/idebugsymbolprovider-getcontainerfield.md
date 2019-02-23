@@ -1,7 +1,7 @@
 ---
 title: IDebugSymbolProvider::GetContainerField | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetContainerField
 helpviewer_keywords:
@@ -12,43 +12,45 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1cced3eb3bea16d3c45fba69f86f607b8332f679
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9e215222b8637d97378dc9db24f995ab76123f00
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54935074"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56705153"
 ---
 # <a name="idebugsymbolprovidergetcontainerfield"></a>IDebugSymbolProvider::GetContainerField
-이 메서드는 디버그 주소를 포함 하는 필드를 가져옵니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetContainerField(   
-   IDebugAddress*         pAddress,  
-   IDebugContainerField** ppContainerField  
-);  
-```  
-  
-```csharp  
-int GetContainerField(  
-   IDebugAddress            pAddress,   
-   out IDebugContainerField ppContainerField  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pAddress`  
- [in] 에 표시 된 대로 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.  
-  
- `ppContainerField`  
- [out] 나타내는 컨테이너 필드를 반환 합니다는 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)   
- [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)
+이 메서드는 디버그 주소를 포함 하는 필드를 가져옵니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetContainerField( 
+   IDebugAddress*         pAddress,
+   IDebugContainerField** ppContainerField
+);
+```
+
+```csharp
+int GetContainerField(
+   IDebugAddress            pAddress,
+   out IDebugContainerField ppContainerField
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pAddress`
+
+ [in] 에 표시 된 대로 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
+
+ `ppContainerField`
+
+ [out] 나타내는 컨테이너 필드를 반환 합니다는 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
+- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
+- [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)

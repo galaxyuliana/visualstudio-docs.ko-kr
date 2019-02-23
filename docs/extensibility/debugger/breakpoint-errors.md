@@ -12,25 +12,25 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ea48e83034a02f4c99bb1d9de03db0ee1b371281
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 81f1b484ed3cf34ffd7041b6ff2d72fa6fcb1bf4
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55038424"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56697119"
 ---
 # <a name="breakpoint-errors"></a>중단점 오류
-다음 코드에 중단점을 바인딩하려는 경우 프로세스를 설명 하지만 실패 합니다.  
-  
-## <a name="troubleshoot-a-breakpoint-error"></a>중단점 오류 해결  
-  
-1.  디버그 엔진 (DE) 보냅니다는 [IDebugBreakpointErrorEvent2](../../extensibility/debugger/reference/idebugbreakpointerrorevent2.md) 세션 디버그 관리자 (SDM).  
-  
-2.  SDM 호출 [IDebugBreakpointErrorEvent2::GetErrorBreakpoint](../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md) (IDebugErrorBreakpoint2 * * `ppErrorBP`) 오류 중단점을 가져오려고 합니다.  
-  
-3.  SDM 호출 [IDebugErrorBreakpoint2::GetPendingBreakpoint](../../extensibility/debugger/reference/idebugerrorbreakpoint2-getpendingbreakpoint.md) 오류 중단점이 발생 한 보류 중인 중단점을 가져오려고 합니다.  
-  
-4.  SDM 호출 [IDebugErrorBreakpoint2::GetBreakpointResolution](../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) 오류 중단점을 바인딩하지 못했습니다. 이유는 이유를 가져오려고 합니다.  
-  
-## <a name="see-also"></a>참고자료  
- [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)
+다음 코드에 중단점을 바인딩하려는 경우 프로세스를 설명 하지만 실패 합니다.
+
+## <a name="troubleshoot-a-breakpoint-error"></a>중단점 오류 해결
+
+1.  디버그 엔진 (DE) 보냅니다는 [IDebugBreakpointErrorEvent2](../../extensibility/debugger/reference/idebugbreakpointerrorevent2.md) 세션 디버그 관리자 (SDM).
+
+2.  SDM 호출 [IDebugBreakpointErrorEvent2::GetErrorBreakpoint](../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md) (IDebugErrorBreakpoint2 * * `ppErrorBP`) 오류 중단점을 가져오려고 합니다.
+
+3.  SDM 호출 [IDebugErrorBreakpoint2::GetPendingBreakpoint](../../extensibility/debugger/reference/idebugerrorbreakpoint2-getpendingbreakpoint.md) 오류 중단점이 발생 한 보류 중인 중단점을 가져오려고 합니다.
+
+4.  SDM 호출 [IDebugErrorBreakpoint2::GetBreakpointResolution](../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) 오류 중단점을 바인딩하지 못했습니다. 이유는 이유를 가져오려고 합니다.
+
+## <a name="see-also"></a>참고자료
+- [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)
