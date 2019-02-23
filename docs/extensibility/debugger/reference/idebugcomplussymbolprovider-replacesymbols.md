@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::ReplaceSymbols | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - ReplaceSymbols
 - IDebugComPlusSymbolProvider::ReplaceSymbols
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ee202ec6462adffa3f4c21d518b18388bea2e072
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: e863d6af1ed78fc0fe3c4d683386826708c39708
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413490"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56679972"
 ---
 # <a name="idebugcomplussymbolproviderreplacesymbols"></a>IDebugComPlusSymbolProvider::ReplaceSymbols
 지정된 된 데이터 스트림에 있는 현재 디버그 기호를 바꿉니다.
@@ -40,14 +40,17 @@ int ReplaceSymbols(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ulAppDomainID`  
-[in] 응용 프로그램 도메인의 식별자입니다.
+`ulAppDomainID`
 
-`guidModule`  
-[in] 모듈의 고유 식별자입니다.
+ [in] 응용 프로그램 도메인의 식별자입니다.
 
-`pStream`  
-[in] 새 기호를 포함 하는 데이터 스트림.
+`guidModule`
+
+ [in] 모듈의 고유 식별자입니다.
+
+`pStream`
+
+ [in] 새 기호를 포함 하는 데이터 스트림.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -79,4 +82,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

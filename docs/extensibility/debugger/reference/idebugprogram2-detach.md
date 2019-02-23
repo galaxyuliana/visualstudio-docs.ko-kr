@@ -1,7 +1,7 @@
 ---
 title: IDebugProgram2::Detach | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugProgram2::Detach
 helpviewer_keywords:
@@ -12,33 +12,33 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 08442a075f5759be35c9b2764da5efc2fd86d38a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e15f617978f0e3ffb6e09f0a55cdf20d040c13d2
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54975623"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56701448"
 ---
 # <a name="idebugprogram2detach"></a>IDebugProgram2::Detach
-프로그램에서 디버그 엔진을 분리합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT Detach(   
-   void   
-);  
-```  
-  
-```csharp  
-int Detach();  
-```  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 분리 된 프로그램 실행을 계속 이지만 더 이상 디버그 세션에 포함 합니다. 프로그램 디버그 이벤트가 더 이상 디버그 엔진 분리 되 면 전송 됩니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+프로그램에서 디버그 엔진을 분리합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT Detach( 
+   void 
+);
+```
+
+```csharp
+int Detach();
+```
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 분리 된 프로그램 실행을 계속 이지만 더 이상 디버그 세션에 포함 합니다. 프로그램 디버그 이벤트가 더 이상 디버그 엔진 분리 되 면 전송 됩니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

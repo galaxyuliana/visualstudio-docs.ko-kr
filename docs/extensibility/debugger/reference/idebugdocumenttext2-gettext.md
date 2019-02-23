@@ -1,7 +1,7 @@
 ---
 title: IDebugDocumentText2::GetText | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugDocumentText2::GetText
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 729b56b4161d6cfd38db91334427840d0c7339d8
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 3eb4eae82dd11d58734ed114886c9ec121b60b69
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56449658"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56678360"
 ---
 # <a name="idebugdocumenttext2gettext"></a>IDebugDocumentText2::GetText
 문서의 지정된 된 위치에서 텍스트를 검색합니다.
@@ -43,17 +43,21 @@ int GetText(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pos`  
-[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 검색할 텍스트의 위치를 나타내는 구조입니다.
+`pos`
 
-`cMaxChars`  
-[in] 검색할 텍스트 문자의 최대 수입니다.
+ [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 검색할 텍스트의 위치를 나타내는 구조입니다.
 
-`pText`  
-[out에서] 원하는 텍스트를 채울 수 있는 버퍼에 대 한 포인터입니다. 이 버퍼는 이상 포함할 수 있어야 합니다. `cMaxChars` 와이드 문자 수입니다.
+`cMaxChars`
 
-`pcNumChars`  
-[out] 실제로 검색 하는 문자 수를 반환 합니다.
+ [in] 검색할 텍스트 문자의 최대 수입니다.
+
+`pText`
+
+ [out에서] 원하는 텍스트를 채울 수 있는 버퍼에 대 한 포인터입니다. 이 버퍼는 이상 포함할 수 있어야 합니다. `cMaxChars` 와이드 문자 수입니다.
+
+`pcNumChars`
+
+ [out] 실제로 검색 하는 문자 수를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -98,5 +102,5 @@ namespace Mynamespace
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)  
-[TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
+- [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
+- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

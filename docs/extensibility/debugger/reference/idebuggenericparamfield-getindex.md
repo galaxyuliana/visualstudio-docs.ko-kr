@@ -1,7 +1,7 @@
 ---
 title: IDebugGenericParamField::GetIndex | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField::GetIndex
 ms.assetid: 8e0bdb26-1247-44d9-8d80-ec6e35187fb4
@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 77fe5e06562292eaef477b77d05f685c7c1f9d35
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 77c5a2ccb8ff81cade0a110f8226f54a04ef65ea
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450193"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56702774"
 ---
 # <a name="idebuggenericparamfieldgetindex"></a>IDebugGenericParamField::GetIndex
 이 제네릭 매개 변수의 인덱스를 검색합니다.
@@ -35,8 +35,9 @@ int GetIndex(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pIndex`  
-[out] 이 제네릭 매개 변수의 인덱스 값입니다.
+`pIndex`
+
+ [out] 이 제네릭 매개 변수의 인덱스 값입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -66,4 +67,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

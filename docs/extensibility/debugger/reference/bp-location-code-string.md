@@ -1,7 +1,7 @@
 ---
 title: BP_LOCATION_CODE_STRING | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - BP_LOCATION_CODE_STRING
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0650c7b3c2961531b64539887a1c4c68ac2bc819
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: a0c3739469f45a365746a9a9272eb2859ec26f94
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316212"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56705705"
 ---
 # <a name="bplocationcodestring"></a>BP_LOCATION_CODE_STRING
 통합된 개발 환경 (IDE)에서 사용자가 입력할 수 있는 문자열을 기반으로 코드 중단점을 설정 하는 데 사용 합니다.
@@ -32,11 +32,9 @@ typedef struct _BP_LOCATION_CODE_STRING {
 ```
 
 ## <a name="members"></a>멤버
-`bstrContext`  
-코드 내에서 중단점, 호출 스택에 표시 된 메서드 또는 함수 이름 일반적으로의 컨텍스트.
+`bstrContext` 코드 내에서 중단점, 호출 스택에 표시 된 메서드 또는 함수 이름 일반적으로의 컨텍스트.
 
-`bstrCodeExpr`  
-사용자가에 코드 중단점을 설명 하는 문자열입니다.
+`bstrCodeExpr` 사용자가에 코드 중단점을 설명 하는 문자열입니다.
 
 ## <a name="remarks"></a>설명
 이 구조체의 멤버인 합니다 [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) 공용 구조체의 일부로 구조입니다.
@@ -49,5 +47,5 @@ typedef struct _BP_LOCATION_CODE_STRING {
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
+- [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)

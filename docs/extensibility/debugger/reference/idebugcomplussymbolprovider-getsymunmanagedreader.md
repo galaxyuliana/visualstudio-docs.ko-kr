@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetSymUnmanagedReader | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 - GetSymUnmanagedReader
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dc45a9ba956d563e40292ec9a113217c46129f5d
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 3651b48217274f1b408c10831f78daa245ff1471
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412645"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56701292"
 ---
 # <a name="idebugcomplussymbolprovidergetsymunmanagedreader"></a>IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 비관리 코드에서 사용할 기호 판독기를 검색 합니다.
@@ -40,14 +40,17 @@ int GetSymUnmanagedReader(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ulAppDomainID`  
-[in] 응용 프로그램 도메인의 식별자입니다.
+`ulAppDomainID`
 
-`guidModule`  
-[in] 모듈의 고유 식별자입니다.
+ [in] 응용 프로그램 도메인의 식별자입니다.
 
-`ppSymUnmanagedReader`  
-[out] 기호 판독기를 나타내는 개체를 반환 합니다.
+`guidModule`
+
+ [in] 모듈의 고유 식별자입니다.
+
+`ppSymUnmanagedReader`
+
+ [out] 기호 판독기를 나타내는 개체를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -79,4 +82,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
