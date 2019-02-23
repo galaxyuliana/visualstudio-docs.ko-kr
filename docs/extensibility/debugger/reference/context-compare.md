@@ -1,7 +1,7 @@
 ---
 title: CONTEXT_COMPARE | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - CONTEXT_COMPARE
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 35c68d2be2179b3bbcb1b3c691deb42cd8e8414f
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 21628bda9dc0437672b0b755bb64f1c882b0acbf
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412840"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56689176"
 ---
 # <a name="contextcompare"></a>CONTEXT_COMPARE
 두 메모리 컨텍스트를 비교 하기 위한 조건을 지정 합니다.
@@ -54,32 +54,23 @@ public enum enum_CONTEXT_COMPARE {
 ```
 
 ## <a name="members"></a>멤버
-CONTEXT_EQUAL  
-대상 메모리 컨텍스트에 해당 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_EQUAL 대상 메모리 컨텍스트에 해당 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
 
-CONTEXT_LESS_THAN  
-대상 메모리 컨텍스트 보다 작은 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_LESS_THAN 대상 메모리 컨텍스트 보다 작은 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
 
-CONTEXT_GREATER_THAN  
-대상 메모리 컨텍스트보다 큰 목록에서 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_GREATER_THAN 대상 메모리 컨텍스트보다 큰 목록에서 첫 번째 메모리 컨텍스트를 찾습니다.
 
-CONTEXT_LESS_THAN_OR_EQUAL  
-대상 메모리 컨텍스트 보다 작거나는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_LESS_THAN_OR_EQUAL 보다 작거나 대상 메모리 컨텍스트에 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
 
-CONTEXT_GREATER_THAN_OR_EQUAL  
-대상 메모리 컨텍스트 보다 크거나 같은 경우에 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_GREATER_THAN_OR_EQUAL 대상 메모리 컨텍스트 보다 크거나 같은 경우에 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
 
-CONTEXT_SAME_SCOPE  
-대상 메모리 컨텍스트 같은 범위에 있는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_SAME_SCOPE 대상 메모리 컨텍스트 같은 범위에 있는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
 
-CONTEXT_SAME_FUNCTION  
-대상 메모리 범위와 동일한 기능에 있는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_SAME_FUNCTION 대상 메모리 범위와 동일한 기능에 있는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
 
-CONTEXT_SAME_MODULE  
-대상 메모리 컨텍스트와 같은 모듈에 있는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_SAME_MODULE 대상 메모리 컨텍스트와 같은 모듈에 있는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
 
-CONTEXT_SAME_PROCESS  
-대상 메모리 컨텍스트로 동일한 프로세스에 있는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
+CONTEXT_SAME_PROCESS 대상 메모리 컨텍스트로 동일한 프로세스에 있는 목록의 첫 번째 메모리 컨텍스트를 찾습니다.
 
 ## <a name="remarks"></a>설명
 인수로 전달 된 [비교](../../../extensibility/debugger/reference/idebugmemorycontext2-compare.md) 메서드.
@@ -94,5 +85,5 @@ CONTEXT_SAME_PROCESS
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[Compare](../../../extensibility/debugger/reference/idebugmemorycontext2-compare.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [Compare](../../../extensibility/debugger/reference/idebugmemorycontext2-compare.md)

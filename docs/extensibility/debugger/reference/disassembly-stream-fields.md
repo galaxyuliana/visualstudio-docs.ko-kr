@@ -1,7 +1,7 @@
 ---
 title: DISASSEMBLY_STREAM_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - DISASSEMBLY_STREAM_FIELDS
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 73214385e3bc2b8ac6dbe2dff8705377d6f14e12
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: d3fdc4a738a28f64aa87955f339409d1e64ed3bd
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413594"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56715676"
 ---
 # <a name="disassemblystreamfields"></a>DISASSEMBLY_STREAM_FIELDS
 디스어셈블리 필드에 대 한 검색 정보를 지정 합니다.
@@ -62,44 +62,31 @@ public enum enum_DISASSEMBLY_STREAM_FIELDS {
 ```
 
 ## <a name="members"></a>멤버
-DSF_ADDRESS  
-초기화/사용 된 `bstrAddress` 필드입니다.
+DSF_ADDRESS 초기화/사용 된 `bstrAddress` 필드입니다.
 
-DSF_ADDRESSOFFSET  
-초기화/사용 된 `bstrAddressOffset` 필드입니다.
+DSF_ADDRESSOFFSET 초기화/사용 된 `bstrAddressOffset` 필드입니다.
 
-DSF_CODEBYTES  
-초기화/사용 된 `bstrCodeBytes` 필드입니다.
+DSF_CODEBYTES 초기화/사용 된 `bstrCodeBytes` 필드입니다.
 
-DSF_OPCODE  
-초기화/사용 된 `bstrOpCode` 필드입니다.
+DSF_OPCODE 초기화/사용 된 `bstrOpCode` 필드입니다.
 
-DSF_OPERANDS  
-초기화/사용 된 `bstrOperands` 필드입니다.
+DSF_OPERANDS 초기화/사용 된 `bstrOperands` 필드입니다.
 
-DSF_SYMBOL  
-초기화/사용 된 `bstrSymbol` 필드입니다.
+DSF_SYMBOL 초기화/사용 된 `bstrSymbol` 필드입니다.
 
-DSF_CODELOCATIONID  
-초기화/사용 된 `uCodeLocationId` 필드입니다.
+DSF_CODELOCATIONID 초기화/사용 된 `uCodeLocationId` 필드입니다.
 
-DSF_POSITION  
-초기화/사용 된 `posBeg` 고 `posEnd` 필드입니다.
+DSF_POSITION 초기화/사용 된 `posBeg` 고 `posEnd` 필드입니다.
 
-DSF_DOCUMENTURL  
-초기화/사용 된 `bstrDocumentUrl` 필드입니다.
+DSF_DOCUMENTURL 초기화/사용 된 `bstrDocumentUrl` 필드입니다.
 
-DSF_BYTEOFFSET  
-초기화/사용 된 `dwByteOffset` 필드입니다.
+DSF_BYTEOFFSET 초기화/사용 된 `dwByteOffset` 필드입니다.
 
-DSF_FLAGS  
-초기화/사용 된 `dwFlags` ([DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md)) 필드입니다.
+DSF_FLAGS 초기화/사용 된 `dwFlags` ([DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md)) 필드입니다.
 
-DSF_OPERANDS_SYMBOLS  
-기호 이름에 포함 된 `bstrOperands` 필드입니다.
+DSF_OPERANDS_SYMBOLS 포함 기호 이름에 `bstrOperands` 필드입니다.
 
-DSF_ALL  
-디스어셈블리 스트림에 대 한 모든 필드를 지정합니다.
+디스어셈블리 스트림에 대 한 필드 DSF_ALL 모두 지정 합니다.
 
 ## <a name="remarks"></a>설명
 매개 변수로 전달 합니다 [읽기](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) 의 필드를 표시 하는 방법 합니다 [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) 구조는 초기화할.
@@ -116,7 +103,7 @@ DSF_ALL
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)  
-[Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)  
-[DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)
+- [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)
+- [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md)

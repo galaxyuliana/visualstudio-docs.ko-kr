@@ -1,7 +1,7 @@
 ---
 title: IDebugProgram2::EnumThreads | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugProgram2::EnumThreads
 helpviewer_keywords:
@@ -12,38 +12,39 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e6c11352aa245810c8bb18f383587309090ee1b8
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9b261ca6973d938f8530ea75788d6ba6779ea9f0
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54962929"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56690008"
 ---
 # <a name="idebugprogram2enumthreads"></a>IDebugProgram2::EnumThreads
-프로그램에서 실행 되는 스레드의 목록을 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT EnumThreads(   
-   IEnumDebugThreads2** ppEnum  
-);  
-```  
-  
-```csharp  
-int EnumThreads(   
-   out IEnumDebugThreads2 ppEnum  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ppEnum`  
- [out] 반환 된 [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) 스레드의 목록을 포함 하는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
- [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)   
- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+프로그램에서 실행 되는 스레드의 목록을 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT EnumThreads( 
+   IEnumDebugThreads2** ppEnum
+);
+```
+
+```csharp
+int EnumThreads( 
+   out IEnumDebugThreads2 ppEnum
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `ppEnum`
+
+ [out] 반환 된 [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) 스레드의 목록을 포함 하는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

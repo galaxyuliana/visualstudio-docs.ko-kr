@@ -1,7 +1,7 @@
 ---
 title: IDebugProgramNode2::GetEngineInfo | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugProgramNode2::GetEngineInfo
 helpviewer_keywords:
@@ -12,41 +12,43 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b67c6919fbdcc68b44b52ed449147ebe09085c5d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 421eea42c169f586657998e5d4cd57c4c797b71e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54972009"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56693193"
 ---
 # <a name="idebugprogramnode2getengineinfo"></a>IDebugProgramNode2::GetEngineInfo
-이름 및 프로그램을 실행 하는 디버그 엔진 (DE)의 식별자를 가져옵니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetEngineInfo (   
-   BSTR* pbstrEngine,  
-   GUID* pguidEngine  
-);  
-```  
-  
-```csharp  
-int GetEngineInfo(  
-   out string pbstrEngine,   
-   out Guid pguidEngine  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pbstrEngine`  
- [out] 프로그램을 실행 하는 DE의 이름을 반환 합니다 (c + + 관련: 호출자 엔진의 이름을 원하는 임을 나타내는 null 포인터 수)입니다.  
-  
- `pguidEngine`  
- [out] 프로그램을 실행 하는 DE의 전역 고유 식별자를 반환 (c + + 관련: 호출자가 엔진의 GUID에 관심이 없는 나타내는 null 포인터 수)입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+이름 및 프로그램을 실행 하는 디버그 엔진 (DE)의 식별자를 가져옵니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetEngineInfo ( 
+   BSTR* pbstrEngine,
+   GUID* pguidEngine
+);
+```
+
+```csharp
+int GetEngineInfo(
+   out string pbstrEngine,
+   out Guid pguidEngine
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pbstrEngine`
+
+ [out] 프로그램을 실행 하는 DE의 이름을 반환 합니다 (c + + 관련: 호출자 엔진의 이름을 원하는 임을 나타내는 null 포인터 수)입니다.
+
+ `pguidEngine`
+
+ [out] 프로그램을 실행 하는 DE의 전역 고유 식별자를 반환 (c + + 관련: 호출자가 엔진의 GUID에 관심이 없는 나타내는 null 포인터 수)입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
