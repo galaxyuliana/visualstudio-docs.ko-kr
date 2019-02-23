@@ -10,24 +10,24 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0ad3996877ee3ba0f16972fbd5cf10cb539ac975
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a45836b2556eac5703ff47d959fa89b16c8d6819
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54993808"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56695312"
 ---
 # <a name="document-context"></a>문서 컨텍스트
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 디버깅 하는 *문서 컨텍스트*:  
-  
--   소스 파일의 위치를 나타냅니다. 문서 컨텍스트를 사용 하는 원본 파일을 나타날 수 없는 언어에 대 한 런타임 환경에서 일반적으로 생성 된 문서의 위치를 식별 합니다. 예를 들어, 스크립팅 엔진에서 스크립트 문서를 생성할 수 있습니다. 자세한 내용은 [위치에 문서](../../extensibility/debugger/document-position.md)합니다.  
-  
--   코드 컨텍스트에 해당 하는 소스 문서의 위치를 설명 합니다. 기호 처리기 코드 컨텍스트를 컨텍스트 설명서, 컴파일러 또는 인터프리터에서 생성 되는 정보를 사용 하 여 매핑됩니다.  
-  
--   에 의해 구현 되는 [IDebugDocumentContext2](../../extensibility/debugger/reference/idebugdocumentcontext2.md) 인터페이스입니다.  
-  
-## <a name="see-also"></a>참고자료  
- [코드 컨텍스트](../../extensibility/debugger/code-context.md)   
- [기호 공급자](../../extensibility/debugger/symbol-provider.md)   
- [기호 공급자 인터페이스](../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
- [디버거 컨텍스트](../../extensibility/debugger/debugger-contexts.md)
+[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 디버깅 하는 *문서 컨텍스트*:
+
+-   소스 파일의 위치를 나타냅니다. 문서 컨텍스트를 사용 하는 원본 파일을 나타날 수 없는 언어에 대 한 런타임 환경에서 일반적으로 생성 된 문서의 위치를 식별 합니다. 예를 들어, 스크립팅 엔진에서 스크립트 문서를 생성할 수 있습니다. 자세한 내용은 [위치에 문서](../../extensibility/debugger/document-position.md)합니다.
+
+-   코드 컨텍스트에 해당 하는 소스 문서의 위치를 설명 합니다. 기호 처리기 코드 컨텍스트를 컨텍스트 설명서, 컴파일러 또는 인터프리터에서 생성 되는 정보를 사용 하 여 매핑됩니다.
+
+-   에 의해 구현 되는 [IDebugDocumentContext2](../../extensibility/debugger/reference/idebugdocumentcontext2.md) 인터페이스입니다.
+
+## <a name="see-also"></a>참고자료
+- [코드 컨텍스트](../../extensibility/debugger/code-context.md)
+- [기호 공급자](../../extensibility/debugger/symbol-provider.md)
+- [기호 공급자 인터페이스](../../extensibility/debugger/reference/symbol-provider-interfaces.md)
+- [디버거 컨텍스트](../../extensibility/debugger/debugger-contexts.md)

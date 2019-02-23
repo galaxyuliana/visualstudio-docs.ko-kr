@@ -11,12 +11,13 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e89ff96ef73070570b7295ab6256a501d5865b6e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+monikerRange: vs-2017
+ms.openlocfilehash: dcc184d6aedb3e15bfddd8396c54b351ef4d3288
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54982769"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56693011"
 ---
 # <a name="deploy-custom-start-pages"></a>사용자 지정 시작 페이지를 배포 합니다.
 
@@ -43,13 +44,13 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
 
 - 수동으로 만들어를 *.vsix* 파일입니다. 만들려는 *.vsix* 수동으로 파일:
 
-  1.  만들기는 *extension.vsixmanifest* 파일 및 *[Content_Types].xml* 새 폴더에는 파일입니다. 자세한 내용은 [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)합니다.
+   1. 만들기는 *extension.vsixmanifest* 파일 및 *[Content_Types].xml* 새 폴더에는 파일입니다. 자세한 내용은 [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)합니다.
 
-  2.  Windows 탐색기에서 두 개의 XML 파일이 포함 된 폴더를 마우스 오른쪽 단추로 클릭 합니다 **보내기**, 한 다음 압축 (zip) 폴더를 클릭 합니다. 결과 이름 바꾸기 *.zip* 파일을 *Filename.vsix*여기서 Filename은 패키지를 설치 하는 재배포 가능 파일의 이름입니다.
+   2. Windows 탐색기에서 두 개의 XML 파일이 포함 된 폴더를 마우스 오른쪽 단추로 클릭 합니다 **보내기**, 한 다음 압축 (zip) 폴더를 클릭 합니다. 결과 이름 바꾸기 *.zip* 파일을 *Filename.vsix*여기서 Filename은 패키지를 설치 하는 재배포 가능 파일의 이름입니다.
 
-  For Visual Studio 시작 페이지를 인식 하는 `Content Element` 의 VSIX 매니페스트가 포함 되어야 합니다는 `CustomExtension Element` 있는 `Type` 특성이로 설정 `"StartPage"`합니다. VSIX 배포를 사용 하 여 설치 된 시작 페이지 확장에 표시 된 **시작 페이지 사용자 지정** 목록에서 **시작** 옵션으로 페이지 **[설치 된 확장]** *확장 이름*합니다.
+For Visual Studio 시작 페이지를 인식 하는 `Content Element` 의 VSIX 매니페스트가 포함 되어야 합니다는 `CustomExtension Element` 있는 `Type` 특성이로 설정 `"StartPage"`합니다. VSIX 배포를 사용 하 여 설치 된 시작 페이지 확장에 표시 된 **시작 페이지 사용자 지정** 목록에서 **시작** 옵션으로 페이지 **[설치 된 확장]** *확장 이름*합니다.
 
-  시작 페이지 패키지 어셈블리에 포함 된 경우 Visual Studio를 시작할 때 사용할 수 있도록 바인딩 경로 등록을 추가 해야 합니다. 이렇게 하려면 패키지에 포함 되는지 확인 한 *.pkgdef* 다음 정보가 포함 된 파일입니다.
+시작 페이지 패키지 어셈블리에 포함 된 경우 Visual Studio를 시작할 때 사용할 수 있도록 바인딩 경로 등록을 추가 해야 합니다. 이렇게 하려면 패키지에 포함 되는지 확인 한 *.pkgdef* 다음 정보가 포함 된 파일입니다.
 
 ```
 [$RootKey$\BindingPaths\{Insert a new GUID here}]

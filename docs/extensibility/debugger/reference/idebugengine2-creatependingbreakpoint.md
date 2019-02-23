@@ -1,7 +1,7 @@
 ---
 title: IDebugEngine2::CreatePendingBreakpoint | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugEngine2::CreatePendingBreakpoint
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1beac81e3d2b9e5a6c563028bbc39c7f4cb82539
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 72719a2dc6d424487c0fdd6b5850ff7f1d1e29aa
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450336"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56703385"
 ---
 # <a name="idebugengine2creatependingbreakpoint"></a>IDebugEngine2::CreatePendingBreakpoint
 디버그 엔진 (DE)에서 보류 중인 중단점을 만듭니다.
@@ -39,11 +39,13 @@ int CreatePendingBreakpoint(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pBPRequest`  
-[in] [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) 만들려면 보류 중인 중단점을 설명 하는 개체입니다.
+`pBPRequest`
 
-`ppPendingBP`  
-[out] 반환 된 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 보류 중인 중단점을 나타내는 개체입니다.
+ [in] [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) 만들려면 보류 중인 중단점을 설명 하는 개체입니다.
+
+`ppPendingBP`
+
+ [out] 반환 된 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 보류 중인 중단점을 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 일반적으로 반환 합니다 `E_FAIL` 경우는 `pBPRequest` 매개 변수는 DE 경우를 지 원하는 모든 언어에 맞지 않습니다를 `pBPRequest` 매개 변수가 잘못 되었거나 완전 하지 않습니다.
@@ -70,7 +72,7 @@ HRESULT CProgram::CreatePendingBreakpoint(IDebugBreakpointRequest2* pBPRequest, 
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)  
-[Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)  
-[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)  
-[IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)
+- [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

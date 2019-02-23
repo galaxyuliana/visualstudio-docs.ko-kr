@@ -1,7 +1,7 @@
 ---
 title: IDebugPort2::GetPortRequest | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugPort2::GetPortRequest
 helpviewer_keywords:
@@ -12,38 +12,39 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d8fb849d7b0d029d298cb4bd828513536424061a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e8a103316a292c444a35b8c819968d98cda777b6
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55018243"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56678126"
 ---
 # <a name="idebugport2getportrequest"></a>IDebugPort2::GetPortRequest
-(있는 경우) 포트를 만들려면 이전에 사용한 포트에 대 한 설명을 가져옵니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetPortRequest(   
-   IDebugPortRequest2** ppRequest  
-);  
-```  
-  
-```csharp  
-int GetPortRequest(   
-   out IDebugPortRequest2 ppRequest  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ppRequest`  
- [out] 반환 된 [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) 포트를 만드는 데 사용 된 요청을 나타내는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  반환 `E_PORT_NO_REQUEST` 포트를 사용 하 여 만들지 않은 경우는 [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) 포트 요청 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)   
- [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md)   
- [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)
+(있는 경우) 포트를 만들려면 이전에 사용한 포트에 대 한 설명을 가져옵니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetPortRequest( 
+   IDebugPortRequest2** ppRequest
+);
+```
+
+```csharp
+int GetPortRequest( 
+   out IDebugPortRequest2 ppRequest
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `ppRequest`
+
+ [out] 반환 된 [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) 포트를 만드는 데 사용 된 요청을 나타내는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  반환 `E_PORT_NO_REQUEST` 포트를 사용 하 여 만들지 않은 경우는 [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) 포트 요청 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
+- [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md)
+- [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)
