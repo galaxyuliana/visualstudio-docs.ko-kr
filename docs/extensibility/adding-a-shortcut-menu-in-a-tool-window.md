@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0bbaedce280924cbad81286992c9bdef586b4346
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: eede5f76a9689f79e769d23572a1d92f3ae3a867
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316329"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56681480"
 ---
 # <a name="add-a-shortcut-menu-in-a-tool-window"></a>도구 창의 바로 가기 메뉴 추가
 이 연습에서는 도구 창의 바로 가기 메뉴를 배치합니다. 바로 가기 메뉴에 단추, 텍스트 상자 또는 창 배경 단추로 클릭할 때 표시 되는 메뉴가입니다. 바로 가기 메뉴에서 명령을 다른 메뉴 또는 도구 모음에서 명령과 동일 하 게 동작 합니다. 바로 가기 메뉴를 지원 하려면 지정 된 *.vsct* 파일을 마우스 오른쪽 단추 클릭에 대 한 응답에 표시 합니다.
@@ -277,5 +277,5 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 4. 바로 가기 메뉴의 색을 클릭 합니다. 도구 창 배경 색상은 선택한 색으로 변경 되어야 합니다.
 
 ## <a name="see-also"></a>참고자료
-[명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)  
-[사용 하 고 서비스를 제공 합니다.](../extensibility/using-and-providing-services.md)
+- [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)
+- [사용 하 고 서비스를 제공 합니다.](../extensibility/using-and-providing-services.md)

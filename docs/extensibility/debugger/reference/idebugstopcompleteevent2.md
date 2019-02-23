@@ -1,7 +1,7 @@
 ---
 title: IDebugStopCompleteEvent2 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugStopCompleteEvent2 interface
 author: gregvanl
@@ -9,12 +9,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 33272f87ae30832588a998ebea2fc46e9adaae50
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a3ec59d6e9a6008f195cab40fe5c1998aff24a50
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54984238"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56705283"
 ---
 # <a name="idebugstopcompleteevent2"></a>IDebugStopCompleteEvent2
 
@@ -30,7 +30,7 @@ IDebugStopCompleteEvent2 : IUnknown
 
 이 인터페이스는 Visual Studio 2005에 도입 되었습니다. 이전 릴리스에서 비동기 중지를 지원 하지 않았습니다.
 
-[중지](../../../extensibility/debugger/reference/idebugengineprogram2-stop.md) 다중 프로세스 또는 다중 프로그램 시나리오에서 SDM에 의해 호출 됩니다. 한 프로그램 중지 이벤트를 보내면 SDM, SDM을 너무 중지 하려면 다른 프로그램을 요청 합니다.
+- [중지](../../../extensibility/debugger/reference/idebugengineprogram2-stop.md) 다중 프로세스 또는 다중 프로그램 시나리오에서 SDM에 의해 호출 됩니다. 한 프로그램 중지 이벤트를 보내면 SDM, SDM을 너무 중지 하려면 다른 프로그램을 요청 합니다.
 
 중지는 비동기적으로 프로그램을 중지 하는 SDM을 알리는 데 사용 됩니다. SDM 인터프리터 디버그 엔진에 대 한 유용 알리는, 코드 없이 디버깅 내에서 실행 되는 경우에 따라에 있는 프로그램을 [중지](../../../extensibility/debugger/reference/idebugengineprogram2-stop.md) 동기적으로 완료할 수 없습니다. 반환 해야 하는 경우 디버그 엔진을 원하는이 비동기 알림을 사용할 `S_ASYNC_STOP` 에서 [중지](../../../extensibility/debugger/reference/idebugengineprogram2-stop.md)합니다.
 

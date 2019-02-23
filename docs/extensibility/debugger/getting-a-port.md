@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3967dc1b324c2dd73de4797588159d745ae24756
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 25b703eafccb412c33640a9e73e72afa09c0c277
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56315718"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56695988"
 ---
 # <a name="get-a-port"></a>포트를 가져오기
 포트는 프로세스를 실행 하는 컴퓨터에 대 한 연결을 나타냅니다. 해당 컴퓨터는 로컬 컴퓨터 또는 원격 컴퓨터 일 수 있습니다 (하는 가능한 경우 실행 될 수는 비 Windows 기반 운영 체제를 참조 하세요 [포트](../../extensibility/debugger/ports.md) 자세한).
@@ -97,7 +97,7 @@ HRESULT CDebugEngine::ResumeProcess(IDebugProcess2 *pDebugProcess)
 ```
 
 ## <a name="see-also"></a>참고자료
-[프로그램 등록](../../extensibility/debugger/registering-the-program.md)  
-[디버그할 프로그램을 사용 하도록 설정](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)  
-[포트 공급자](../../extensibility/debugger/port-suppliers.md)  
-[포트](../../extensibility/debugger/ports.md)
+- [프로그램 등록](../../extensibility/debugger/registering-the-program.md)
+- [디버그할 프로그램을 사용 하도록 설정](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
+- [포트 공급자](../../extensibility/debugger/port-suppliers.md)
+- [포트](../../extensibility/debugger/ports.md)

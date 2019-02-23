@@ -10,44 +10,44 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a2898a78971eaf20abe89274a1492afb343edfbb
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4c353ca11df1a897ec5dc8acecd822c1c1f44e92
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54919397"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56707031"
 ---
 # <a name="breakpoints-visual-studio-sdk"></a>중단점(Visual Studio SDK)
-중단점의 세 가지 종류가 있습니다: 보류 중 및 오류입니다.  
-  
- **중단점 보류 중인는:**  
-  
-- 하나 이상의 응용 프로그램에서 하나 이상의 코드 컨텍스트에 중단점을 바인딩할 때 필요한 모든 정보를 포함 하는 추상화가입니다. 때마다 원인 로드 하는 코드 디버깅 중인 프로그램의 디버그 엔진 확인를 바인딩할 수 있으면 모든 보류 중인 중단점 합니다.  
-  
-   자체 보류 중인 중단점 되지 코드에 바인딩합니다 하지만 대신 수집 하 고 생성 하는 모든 바인딩된 중단점을 포함 합니다.  
-  
-- 표시 되는 [IDebugPendingBreakpoint2](../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 인터페이스입니다.  
-  
-  **바인딩된 중단점:**  
-  
-- 중단점에 대 한 추상화와 연결 된 또는 단일 코드 컨텍스트에 바인딩. 각각의 바인딩된 중단점은 보류 중인 중단점에 대 한 응답으로 생성 됩니다. 그러나 보류 중인 중단점 둘 이상의 바인딩된 중단점을 생성할 수 있습니다.  
-  
-   코드를 로드 하는 경우 바인딩된 중단점을 바인딩 해제 하 고 삭제 수 있습니다.  
-  
-- 표시 되는 [IDebugBoundBreakpoint2](../../extensibility/debugger/reference/idebugboundbreakpoint2.md) 인터페이스입니다.  
-  
-  **오류 중단점:**  
-  
-- 보류 중인 중단점 코드 컨텍스트를 바인딩할 때 오류를 설명 하기 위한 추상화가입니다. 오류 중단점을 중단점 식 자체 또는 위치에서 두 오류를 설명 합니다. 자세한 내용은 [중단점 바인딩](../../extensibility/debugger/binding-breakpoints.md)합니다.  
-  
-   중단점 오류는 오류 또는 경고 중 수 있습니다.  
-  
-- 표시 되는 [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) 인터페이스입니다.  
-  
-## <a name="see-also"></a>참고자료  
- [프로그램](../../extensibility/debugger/programs.md)   
- [디버거 개념](../../extensibility/debugger/debugger-concepts.md)   
- [코드 컨텍스트](../../extensibility/debugger/code-context.md)   
- [IDebugBoundBreakpoint2](../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
- [IDebugPendingBreakpoint2](../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)   
- [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
+중단점의 세 가지 종류가 있습니다: 보류 중 및 오류입니다.
+
+ **중단점 보류 중인는:**
+
+- 하나 이상의 응용 프로그램에서 하나 이상의 코드 컨텍스트에 중단점을 바인딩할 때 필요한 모든 정보를 포함 하는 추상화가입니다. 때마다 원인 로드 하는 코드 디버깅 중인 프로그램의 디버그 엔진 확인를 바인딩할 수 있으면 모든 보류 중인 중단점 합니다.
+
+   자체 보류 중인 중단점 되지 코드에 바인딩합니다 하지만 대신 수집 하 고 생성 하는 모든 바인딩된 중단점을 포함 합니다.
+
+- 표시 되는 [IDebugPendingBreakpoint2](../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 인터페이스입니다.
+
+  **바인딩된 중단점:**
+
+- 중단점에 대 한 추상화와 연결 된 또는 단일 코드 컨텍스트에 바인딩. 각각의 바인딩된 중단점은 보류 중인 중단점에 대 한 응답으로 생성 됩니다. 그러나 보류 중인 중단점 둘 이상의 바인딩된 중단점을 생성할 수 있습니다.
+
+   코드를 로드 하는 경우 바인딩된 중단점을 바인딩 해제 하 고 삭제 수 있습니다.
+
+- 표시 되는 [IDebugBoundBreakpoint2](../../extensibility/debugger/reference/idebugboundbreakpoint2.md) 인터페이스입니다.
+
+  **오류 중단점:**
+
+- 보류 중인 중단점 코드 컨텍스트를 바인딩할 때 오류를 설명 하기 위한 추상화가입니다. 오류 중단점을 중단점 식 자체 또는 위치에서 두 오류를 설명 합니다. 자세한 내용은 [중단점 바인딩](../../extensibility/debugger/binding-breakpoints.md)합니다.
+
+   중단점 오류는 오류 또는 경고 중 수 있습니다.
+
+- 표시 되는 [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) 인터페이스입니다.
+
+## <a name="see-also"></a>참고자료
+- [프로그램](../../extensibility/debugger/programs.md)
+- [디버거 개념](../../extensibility/debugger/debugger-concepts.md)
+- [코드 컨텍스트](../../extensibility/debugger/code-context.md)
+- [IDebugBoundBreakpoint2](../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+- [IDebugPendingBreakpoint2](../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)

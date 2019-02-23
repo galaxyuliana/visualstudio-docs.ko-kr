@@ -1,7 +1,7 @@
 ---
 title: CONST_GUID_ARRAY | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - CONST_GUID_ARRAY
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 40511cac0a6d731d451d1fb2e0e4c02d214297f7
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: bca2d50cc678efe3373aace28343ac3732dd00c6
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318539"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56696066"
 ---
 # <a name="constguidarray"></a>CONST_GUID_ARRAY
 목록을 포함 하는 구조 `GUID`s입니다.
@@ -39,11 +39,9 @@ public struct CONST_GUID_ARRAY {
 ```
 
 ## <a name="members"></a>멤버
-dwCount  
-수가 `GUID`의 `Members` 배열입니다.
+dwCount 수의 `GUID`의 `Members` 배열입니다.
 
-멤버  
-배열을 `GUID`s입니다.
+멤버 배열을 `GUID`s입니다.
 
 ## <a name="remarks"></a>설명
 이 구조에 전달 되는 [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md) 메서드를에서 반환 되 고는 [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md) 하 고 [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md) 메서드.
@@ -58,7 +56,7 @@ dwCount
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md)  
-[GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)  
-[WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)
+- [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md)
+- [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)
+- [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)
