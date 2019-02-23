@@ -1,7 +1,7 @@
 ---
 title: FIELD_KIND | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - FIELD_KIND
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7dd9bd533a8314f73c6d39c34638f018cf4dde53
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 46b965def820771b0bab883c1bdd9bf90d18414e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316303"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56680376"
 ---
 # <a name="fieldkind"></a>FIELD_KIND
 에 포함 된 필드의 종류를 지정 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 개체입니다.
@@ -122,104 +122,71 @@ public enum enum_FIELD_KIND {
 ```
 
 ## <a name="members"></a>멤버
-FIELD_KIND_TYPE  
-필드에만 형식 인지를 나타냅니다.
+FIELD_KIND_TYPE 필드에만 형식 인지를 나타냅니다.
 
-FIELD_KIND_SYMBOL  
-필드 형식, 이름 및 기타 정보를 사용 하 여 기호를 나타냅니다.
+FIELD_KIND_SYMBOL 필드 형식, 이름 및 기타 정보를 사용 하 여 기호를 나타냅니다.
 
-FIELD_TYPE_PRIMITIVE  
-필드는 기본 데이터 형식을 나타냅니다.
+FIELD_TYPE_PRIMITIVE 필드는 기본 데이터 형식을 나타냅니다.
 
-FIELD_TYPE_STRUCT  
-필드는 구조체 임을 나타냅니다.
+FIELD_TYPE_STRUCT 필드 구조를 나타냅니다.
 
-FIELD_TYPE_CLASS  
-필드는 클래스를 나타냅니다.
+FIELD_TYPE_CLASS 필드가 클래스 임을 나타냅니다.
 
-FIELD_TYPE_INTERFACE  
-인터페이스 필드 임을 나타냅니다.
+FIELD_TYPE_INTERFACE 인터페이스 필드 임을 나타냅니다.
 
-FIELD_TYPE_UNION  
-공용 구조체 필드 임을 나타냅니다.
+FIELD_TYPE_UNION 공용 구조체 필드 임을 나타냅니다.
 
-FIELD_TYPE_ARRAY  
-필드는 배열 임을 나타냅니다.
+FIELD_TYPE_ARRAY 필드 배열 임을 나타냅니다.
 
-FIELD_TYPE_METHOD  
-필드는 메서드를 나타냅니다.
+FIELD_TYPE_METHOD 필드 메서드임을 나타냅니다.
 
-FIELD_TYPE_BLOCK  
-블록 필드 임을 나타냅니다.
+FIELD_TYPE_BLOCK 필드 블록을 나타냅니다.
 
-FIELD_TYPE_POINTER  
-필드에 대 한 포인터 임을 나타냅니다.
+FIELD_TYPE_POINTER 필드에 대 한 포인터 임을 나타냅니다.
 
-FIELD_TYPE_ENUM  
-열거형된 데이터 형식의 필드 임을 나타냅니다.
+FIELD_TYPE_ENUM 필드를 열거형된 데이터 형식임을 나타냅니다.
 
-FIELD_TYPE_LABEL  
-레이블 필드 임을 나타냅니다.
+FIELD_TYPE_LABEL 필드 레이블을 나타냅니다.
 
-FIELD_TYPE_TYPEDEF  
-필드는 typedef 임을 나타냅니다.
+FIELD_TYPE_TYPEDEF 필드는 typedef 임을 나타냅니다.
 
-FIELD_TYPE_BITFIELD  
-필드는 비트 필드 임을 나타냅니다.
+FIELD_TYPE_BITFIELD 필드는 비트 필드 임을 나타냅니다.
 
-FIELD_TYPE_NAMESPACE  
-네임 스페이스 필드 임을 나타냅니다.
+FIELD_TYPE_NAMESPACE 필드 네임 스페이스를 나타냅니다.
 
-FIELD_TYPE_MODULE  
-필드는 모듈 임을 나타냅니다.
+FIELD_TYPE_MODULE 필드 모듈 임을 나타냅니다.
 
-FIELD_TYPE_DYNAMIC  
-동적 필드 임을 나타냅니다.
+FIELD_TYPE_DYNAMIC 필드 동적 임을 나타냅니다.
 
-FIELD_TYPE_PROP  
-필드 속성 임을 나타냅니다.
+FIELD_TYPE_PROP 필드 속성 임을 나타냅니다.
 
-FIELD_TYPE_INNERCLASS  
-필드는 내부 클래스를 나타냅니다.
+FIELD_TYPE_INNERCLASS 필드는 내부 클래스를 나타냅니다.
 
-FIELD_TYPE_REFERENCE  
-필드에 대 한 참조 임을 나타냅니다.
+FIELD_TYPE_REFERENCE 필드 참조를 나타냅니다.
 
-FIELD_TYPE_EXTENDED  
-나중에 사용하기 위해 예약되어 있습니다.
+FIELD_TYPE_EXTENDED 예약 나중에 사용할 수 있습니다.
 
-FIELD_SYM_MEMBER  
-멤버가 필드 임을 나타냅니다.
+FIELD_SYM_MEMBER 필드 멤버 임을 나타냅니다.
 
-FIELD_SYM_LOCAL  
-로컬 필드 임을 나타냅니다.
+FIELD_SYM_LOCAL 필드 로컬 임을 나타냅니다.
 
-FIELD_SYM_PARAMETER  
-매개 변수 필드 임을 나타냅니다.
+FIELD_SYM_PARAMETER 필드 매개 변수임을 나타냅니다.
 
-FIELD_SYM_THIS  
-필드 "this"이 포인터 임을 나타냅니다.
+FIELD_SYM_THIS 필드 "this"이 포인터 임을 나타냅니다.
 
-FIELD_SYM_GLOBAL  
-전역 필드 임을 나타냅니다.
+FIELD_SYM_GLOBAL 전역 필드 임을 나타냅니다.
 
-FIELD_SYM_PROP_GETTER  
-필드 속성을 검색 합니다를 나타냅니다.
+FIELD_SYM_PROP_GETTER 나타냅니다 필드 속성을 검색 합니다.
 
-FIELD_SYM_PROP_SETTER  
-필드 속성을 설정 함을 나타냅니다.
+FIELD_SYM_PROP_SETTER 필드 속성을 설정 함을 나타냅니다.
 
-FIELD_SYM_EXTENDED  
-나중에 사용하기 위해 예약되어 있습니다.
+FIELD_SYM_EXTENDED 예약 나중에 사용할 수 있습니다.
 
-FIELD_KIND_MASK  
-필드 종류에 대 한 마스크를 나타냅니다.
+FIELD_KIND_MASK 필드 종류에 대 한 마스크를 나타냅니다.
 
-FIELD_TYPE_MASK  
-필드 형식에 대 한 마스크를 나타냅니다.
+FIELD_TYPE_MASK 필드 형식에 대 한 마스크를 나타냅니다.
 
-FIELD_SYM_MASK  
-기호 정보에 대 한 마스크를 나타냅니다.
+FIELD_SYM_MASK 기호 정보에 대 한 마스크를 나타냅니다.
 
 ## <a name="remarks"></a>설명
 호출에서 반환 된 [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) 메서드.
@@ -234,7 +201,7 @@ FIELD_SYM_MASK
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md)  
-[GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)  
-[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md)
+- [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

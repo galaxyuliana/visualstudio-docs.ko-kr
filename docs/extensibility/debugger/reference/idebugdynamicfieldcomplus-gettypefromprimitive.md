@@ -1,7 +1,7 @@
 ---
 title: IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 - GetTypeFromPrimitive
@@ -11,41 +11,43 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 52fb5d5da4fb8b5ed0f87c41889a8a5305ef970e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6f29a1d77e4bb56608750c1f277fc6d58b81c255
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54987988"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56678283"
 ---
 # <a name="idebugdynamicfieldcomplusgettypefromprimitive"></a>IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
-해당 기본 형식이 지정 된 형식을 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT GetTypeFromPrimitive(  
-   DWORD         dwCorElementType,  
-   IDebugField** ppType  
-);  
-```  
-  
-```csharp  
-int GetTypeFromPrimitive(  
-   uint            dwCorElementType,  
-   out IDebugField ppType  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `dwCorElementType`  
- [in] 값을 [CorElementType 열거형](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) 기본 형식을 나타내는입니다.  
-  
- `ppType`  
- [out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 형식을 나타내는입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugDynamicFieldCOMPlus](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus.md)
+해당 기본 형식이 지정 된 형식을 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT GetTypeFromPrimitive(
+   DWORD         dwCorElementType,
+   IDebugField** ppType
+);
+```
+
+```csharp
+int GetTypeFromPrimitive(
+   uint            dwCorElementType,
+   out IDebugField ppType
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `dwCorElementType`
+
+ [in] 값을 [CorElementType 열거형](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) 기본 형식을 나타내는입니다.
+
+ `ppType`
+
+ [out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 형식을 나타내는입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugDynamicFieldCOMPlus](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus.md)

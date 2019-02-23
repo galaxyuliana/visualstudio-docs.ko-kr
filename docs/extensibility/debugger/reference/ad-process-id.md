@@ -1,7 +1,7 @@
 ---
 title: AD_PROCESS_ID | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - AD_PROCESS_ID
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e03b51081b082c1180091e823eead47a21a7b3d2
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 395070d018492fa8950c6856270c61c0a645cdd0
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56315432"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56688422"
 ---
 # <a name="adprocessid"></a>AD_PROCESS_ID
 시스템 ID 또는 GUID 일 수 있는 프로세스 ID를 지정 합니다.
@@ -45,17 +45,13 @@ public struct AD_PROCESS_ID {
 ```
 
 ## <a name="members"></a>멤버
-`ProcessIdType`  
-값을 [AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md) 해석 하는 방법을 지정 하는 열거형을 `ProcessId` 공용 구조체 (또는 구조체의 멤버에 액세스를 관리 코드용)입니다.
+`ProcessIdType` 값을 [AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md) 해석 하는 방법을 지정 하는 열거형을 `ProcessId` 공용 구조체 (또는 구조체의 멤버에 액세스를 관리 코드용)입니다.
 
-dwProcessId  
-시스템에서 값으로 프로세스 ID입니다.
+시스템에서 값으로 dwProcessId 프로세스 ID가 있습니다.
 
-guidProcessId  
-GUID로 프로세스 ID입니다.
+프로세스 ID GUID로 guidProcessId 합니다.
 
-dwUnused  
-안쪽 여백입니다.
+dwUnused 안쪽 여백입니다.
 
 ## <a name="remarks"></a>설명
 이 구조는 다음 메서드에 전달 됩니다.
@@ -82,12 +78,12 @@ dwUnused
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)  
-[PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)  
-[AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md)  
-[GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)  
-[GetHostId](../../../extensibility/debugger/reference/idebugprogramhost2-gethostid.md)  
-[GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)  
-[WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)  
-[GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)
+- [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)
+- [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)
+- [AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md)
+- [GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)
+- [GetHostId](../../../extensibility/debugger/reference/idebugprogramhost2-gethostid.md)
+- [GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)
+- [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)
+- [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)

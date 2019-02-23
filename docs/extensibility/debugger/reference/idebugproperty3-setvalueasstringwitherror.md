@@ -1,7 +1,7 @@
 ---
 title: IDebugProperty3::SetValueAsStringWithError | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugProperty3::SetValueAsStringWithError
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ee3d317cf45692a8214f15c1473eb8f781b21451
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 1f3bc987cf097f3573b40d4d907204c742608fd0
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450310"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56709280"
 ---
 # <a name="idebugproperty3setvalueasstringwitherror"></a>IDebugProperty3::SetValueAsStringWithError
 이 속성의 값을 설정 하 고 필요한 경우에 오류 메시지를 반환 합니다.
@@ -43,17 +43,21 @@ int SetValueAsStringWithError(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pszValue`  
-[in] 설정할 값입니다.
+`pszValue`
 
-`dwRadix`  
-[in] 기 수 설정 되는 값입니다.
+ [in] 설정할 값입니다.
 
-`dwTimeout`  
-[in] 설정할 값에 대 한 대기 시간의 길이 (`INFINITE` 의미 무기한 대기).
+`dwRadix`
 
-`errorString`  
-[out] 값을 설정할 때 오류가 발생에 발생 한 경우이 오류가 발생 한 이유를 보유 합니다.
+ [in] 기 수 설정 되는 값입니다.
+
+`dwTimeout`
+
+ [in] 설정할 값에 대 한 대기 시간의 길이 (`INFINITE` 의미 무기한 대기).
+
+`errorString`
+
+ [out] 값을 설정할 때 오류가 발생에 발생 한 경우이 오류가 발생 한 이유를 보유 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -167,4 +171,4 @@ HRESULT CProperty::SetValueAsStringWithError(
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
+- [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

@@ -1,7 +1,7 @@
 ---
 title: IDebugThread2::SetNextStatement | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugThread2::SetNextStatement
 helpviewer_keywords:
@@ -12,52 +12,52 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f8d5074dab25b539a7243b800abf8b6fa505bd8f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 896167d3655c5234f56f3b70e4369706250973c5
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54949339"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56719576"
 ---
 # <a name="idebugthread2setnextstatement"></a>IDebugThread2::SetNextStatement
-지정 된 코드 컨텍스트에 현재 명령 포인터를 설정합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT SetNextStatement (   
-   IDebugStackFrame2*  pStackFrame,  
-   IDebugCodeContext2* pCodeContext  
-);  
-```  
-  
-```csharp  
-int SetNextStatement (   
-   IDebugStackFrame2  pStackFrame,  
-   IDebugCodeContext2 pCodeContext  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pStackFrame`  
- 사용 하도록 예약 됩니다. null 값으로 설정 합니다.  
-  
- `pCodeContext`  
- [in] [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 실행 될 코드 위치를 설명 하는 개체 및 컨텍스트.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 다음 표에서 가능한 다른 값을 보여 줍니다.  
-  
-|값|설명|  
-|-----------|-----------------|  
-|E_CANNOT_SET_NEXT_STATEMENT_ON_NONLEAF_FRAME|다음 문이 프레임 스택에 심층적인 스택 프레임을 일 수 없습니다.|  
-|E_CANNOT_SETIP_TO_DIFFERENT_FUNCTION|다음 문을 스택의 모든 프레임을 사용 하 여 연결 되지 않습니다.|  
-|E_CANNOT_SET_NEXT_STATEMENT_ON_EXCEPTION|일부 디버그 엔진에 예외가 발생 한 후 다음 문을 설정할 수 없습니다.|  
-  
-## <a name="remarks"></a>설명  
- 명령 포인터는 다음 명령 또는 문 실행을 나타냅니다. 이 메서드는 소스 코드 줄을 다시 시도 하거나 다른 함수에 예를 들어 계속 실행 하도록 사용 됩니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)   
- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
+지정 된 코드 컨텍스트에 현재 명령 포인터를 설정합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT SetNextStatement ( 
+   IDebugStackFrame2*  pStackFrame,
+   IDebugCodeContext2* pCodeContext
+);
+```
+
+```csharp
+int SetNextStatement ( 
+   IDebugStackFrame2  pStackFrame,
+   IDebugCodeContext2 pCodeContext
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pStackFrame` 사용 하도록 예약 됩니다. null 값으로 설정 합니다.
+
+ `pCodeContext`
+
+ [in] [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 실행 될 코드 위치를 설명 하는 개체 및 컨텍스트.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 다음 표에서 가능한 다른 값을 보여 줍니다.
+
+|값|설명|
+|-----------|-----------------|
+|E_CANNOT_SET_NEXT_STATEMENT_ON_NONLEAF_FRAME|다음 문이 프레임 스택에 심층적인 스택 프레임을 일 수 없습니다.|
+|E_CANNOT_SETIP_TO_DIFFERENT_FUNCTION|다음 문을 스택의 모든 프레임을 사용 하 여 연결 되지 않습니다.|
+|E_CANNOT_SET_NEXT_STATEMENT_ON_EXCEPTION|일부 디버그 엔진에 예외가 발생 한 후 다음 문을 설정할 수 없습니다.|
+
+## <a name="remarks"></a>설명
+ 명령 포인터는 다음 명령 또는 문 실행을 나타냅니다. 이 메서드는 소스 코드 줄을 다시 시도 하거나 다른 함수에 예를 들어 계속 실행 하도록 사용 됩니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
+- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

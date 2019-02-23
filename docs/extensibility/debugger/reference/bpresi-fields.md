@@ -1,7 +1,7 @@
 ---
 title: BPRESI_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - BPRESI_FIELDS
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0784d26f4d5ae6bd8edd9b6565644a6cd513db78
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: fac4c65047c51d1213d8be4352c1b8e6efc35c8e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413061"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56680570"
 ---
 # <a name="bpresifields"></a>BPRESI_FIELDS
 중단점을 해결 하는 방법에 대 한 검색할 정보를 지정 합니다.
@@ -44,17 +44,13 @@ public enum enum_BPRESI_FIELDS {
 ```
 
 ## <a name="members"></a>멤버
-BPRESI_BPRESLOCATION  
-초기화/사용 합니다 `bpResLocation` (중단점 해결 위치) 필드를 [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) 구조입니다.
+BPRESI_BPRESLOCATION 초기화/사용 합니다 `bpResLocation` (중단점 해결 위치) 필드를 [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) 구조입니다.
 
-BPRESI_PROGRAM  
-초기화/사용 된 `pProgram` 필드는 `BP_RESOLUTION_INFO` 구조입니다.
+BPRESI_PROGRAM 초기화/사용 된 `pProgram` 필드는 `BP_RESOLUTION_INFO` 구조입니다.
 
-BPRESI_THREAD  
-초기화/사용 된 `pThread` 필드는 `BP_RESOLUTION_INFO` 구조입니다.
+BPRESI_THREAD 초기화/사용 된 `pThread` 필드는 `BP_RESOLUTION_INFO` 구조입니다.
 
-BPRESI_ALLFIELDS  
-모든 필드를 지정합니다.
+BPRESI_ALLFIELDS 모든 필드를 지정합니다.
 
 ## <a name="remarks"></a>설명
 에 전달 합니다 [GetResolutionInfo](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md) 의 필드를 표시 하는 방법을 [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) 구조는 초기화할 합니다.
@@ -71,6 +67,6 @@ BPRESI_ALLFIELDS
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)  
-[GetResolutionInfo](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)
+- [GetResolutionInfo](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md)

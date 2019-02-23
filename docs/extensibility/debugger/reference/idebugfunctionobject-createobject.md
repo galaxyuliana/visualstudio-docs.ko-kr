@@ -1,7 +1,7 @@
 ---
 title: IDebugFunctionObject::CreateObject | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugFunctionObject::CreateObject
 helpviewer_keywords:
@@ -12,57 +12,61 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 94ee856f3f1b514fb4d6cb11c448edd102038953
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 54d1e6c21cdf4e16db69cbad0947e864e7c1847e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55031697"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56689930"
 ---
 # <a name="idebugfunctionobjectcreateobject"></a>IDebugFunctionObject::CreateObject
-생성자를 사용 하 여 개체를 만듭니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT CreateObject(   
-   IDebugFunctionObject* pConstructor,  
-   DWORD                 dwArgs,  
-   IDebugObject*         pArgs[],  
-   IDebugObject**        ppObject  
-);  
-```  
-  
-```csharp  
-int CreateObject(  
-   IDebugFunctionObject pConstructor,   
-   uint                 dwArgs,   
-   IDebugObject[]       pArgs,   
-   out IDebugObject     ppObject  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pConstructor`  
- [in] [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) 만들려는 개체의 생성자를 나타내는 개체입니다.  
-  
- `dwArgs`  
- [in] 매개 변수 개수는 `pArg` 배열입니다. 생성자에 전달 된 매개 변수의 수를 나타냅니다.  
-  
- `pArg`  
- [in] 배열을 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 생성자에 전달 된 매개 변수를 나타내는 개체입니다.  
-  
- `ppObject`  
- [out] 반환 된 `IDebugObject` 새로 만든된 개체를 나타내는입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.  
-  
-## <a name="remarks"></a>설명  
- 클래스 (또는 생성자에 필요한 다른 복합 형식)의 인스턴스를 나타내는 개체를 만들려면이 메서드를 호출으로 표현 되는 함수에는 매개 변수를 [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) 인터페이스입니다.  
-  
- 개체 매개 변수는 생성자가 필요 하지 않으면 하는 경우 호출 된 [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md) 메서드.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)   
- [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md)
+생성자를 사용 하 여 개체를 만듭니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT CreateObject( 
+   IDebugFunctionObject* pConstructor,
+   DWORD                 dwArgs,
+   IDebugObject*         pArgs[],
+   IDebugObject**        ppObject
+);
+```
+
+```csharp
+int CreateObject(
+   IDebugFunctionObject pConstructor,
+   uint                 dwArgs,
+   IDebugObject[]       pArgs,
+   out IDebugObject     ppObject
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pConstructor`
+
+ [in] [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) 만들려는 개체의 생성자를 나타내는 개체입니다.
+
+ `dwArgs`
+
+ [in] 매개 변수 개수는 `pArg` 배열입니다. 생성자에 전달 된 매개 변수의 수를 나타냅니다.
+
+ `pArg`
+
+ [in] 배열을 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 생성자에 전달 된 매개 변수를 나타내는 개체입니다.
+
+ `ppObject`
+
+ [out] 반환 된 `IDebugObject` 새로 만든된 개체를 나타내는입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
+
+## <a name="remarks"></a>설명
+ 클래스 (또는 생성자에 필요한 다른 복합 형식)의 인스턴스를 나타내는 개체를 만들려면이 메서드를 호출으로 표현 되는 함수에는 매개 변수를 [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) 인터페이스입니다.
+
+ 개체 매개 변수는 생성자가 필요 하지 않으면 하는 경우 호출 된 [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md) 메서드.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
+- [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md)

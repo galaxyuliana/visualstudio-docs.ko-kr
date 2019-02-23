@@ -1,7 +1,7 @@
 ---
 title: IDebugMemoryBytes2 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugMemoryBytes2
 helpviewer_keywords:
@@ -12,52 +12,52 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2a9434f7464d4c13d0c4085a3ad195ba8b1bd2f3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 43b03a7b26af76d5d914e1aa3ef182d18c805f4e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55007583"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56714675"
 ---
 # <a name="idebugmemorybytes2"></a>IDebugMemoryBytes2
-이 인터페이스는 메모리의 바이트를 나타냅니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```  
-IDebugMemoryBytes2 : IUnknown  
-```  
-  
-## <a name="notes-for-implementers"></a>구현자 참고 사항  
- 디버그 엔진 (DE) 메모리의 바이트를 나타내는 데이 인터페이스를 구현 합니다.  
-  
-## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md) 시스템 메모리에 대 한 액세스를 제공 하려면이 인터페이스를 반환 합니다. [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md) 하 고 [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md) 개체의 바이트에 대 한 액세스를 제공 하려면이 인터페이스를 반환 합니다.  
-  
-## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
- 다음 표에서의 메서드를 보여 줍니다. `IDebugMemoryBytes2`합니다.  
-  
-|메서드|설명|  
-|------------|-----------------|  
-|[ReadAt](../../../extensibility/debugger/reference/idebugmemorybytes2-readat.md)|지정된 된 위치에서 시작 하는 바이트 시퀀스를 읽습니다.|  
-|[WriteAt](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md)|씁니다 `dwCount` 부터 바이트 `pStartContext`합니다.|  
-|[GetSize](../../../extensibility/debugger/reference/idebugmemorybytes2-getsize.md)|이 인터페이스를 나타내는 메모리의 바이트에서 크기를 가져옵니다.|  
-  
-## <a name="remarks"></a>설명  
- 속성에는 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 배열을 나타내는 인터페이스를 제공는 `IDebugMemoryBytes2` 해당 배열에 값에 액세스 하는 인터페이스입니다.  
-  
- Visual Studio **메모리 보기** 호출 [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md) 검색 하는 `IDebugMemoryBytes2` 시스템 메모리에 액세스 하기 위한 인터페이스입니다. 주소에 액세스할 수를 가져온 메모리 뷰로 주소로 입력 식 구문 분석을 사용 하 여 구문 분석 된 식을 평가한 후 [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) 가져오려고는 `IDebugProperty2` 인터페이스입니다. 에 대 한 호출 [GetMemoryContext](../../../extensibility/debugger/reference/idebugproperty2-getmemorycontext.md) 를 반환 합니다 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 메모리 주소를 설명 하는 합니다. 이 메모리 컨텍스트에 전달 되어 [ReadAt](../../../extensibility/debugger/reference/idebugmemorybytes2-readat.md) 하 고 [WriteAt](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md)합니다.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: msdbg.h  
-  
- 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
-  
- 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)   
- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md)   
- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md)   
- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md)   
- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
+이 인터페이스는 메모리의 바이트를 나타냅니다.
+
+## <a name="syntax"></a>구문
+
+```
+IDebugMemoryBytes2 : IUnknown
+```
+
+## <a name="notes-for-implementers"></a>구현자 참고 사항
+ 디버그 엔진 (DE) 메모리의 바이트를 나타내는 데이 인터페이스를 구현 합니다.
+
+## <a name="notes-for-callers"></a>호출자에 대 한 정보
+- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md) 시스템 메모리에 대 한 액세스를 제공 하려면이 인터페이스를 반환 합니다. [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md) 하 고 [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md) 개체의 바이트에 대 한 액세스를 제공 하려면이 인터페이스를 반환 합니다.
+
+## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드
+ 다음 표에서의 메서드를 보여 줍니다. `IDebugMemoryBytes2`합니다.
+
+|메서드|설명|
+|------------|-----------------|
+|[ReadAt](../../../extensibility/debugger/reference/idebugmemorybytes2-readat.md)|지정된 된 위치에서 시작 하는 바이트 시퀀스를 읽습니다.|
+|[WriteAt](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md)|씁니다 `dwCount` 부터 바이트 `pStartContext`합니다.|
+|[GetSize](../../../extensibility/debugger/reference/idebugmemorybytes2-getsize.md)|이 인터페이스를 나타내는 메모리의 바이트에서 크기를 가져옵니다.|
+
+## <a name="remarks"></a>설명
+ 속성에는 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 배열을 나타내는 인터페이스를 제공는 `IDebugMemoryBytes2` 해당 배열에 값에 액세스 하는 인터페이스입니다.
+
+ Visual Studio **메모리 보기** 호출 [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md) 검색 하는 `IDebugMemoryBytes2` 시스템 메모리에 액세스 하기 위한 인터페이스입니다. 주소에 액세스할 수를 가져온 메모리 뷰로 주소로 입력 식 구문 분석을 사용 하 여 구문 분석 된 식을 평가한 후 [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) 가져오려고는 `IDebugProperty2` 인터페이스입니다. 에 대 한 호출 [GetMemoryContext](../../../extensibility/debugger/reference/idebugproperty2-getmemorycontext.md) 를 반환 합니다 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 메모리 주소를 설명 하는 합니다. 이 메모리 컨텍스트에 전달 되어 [ReadAt](../../../extensibility/debugger/reference/idebugmemorybytes2-readat.md) 하 고 [WriteAt](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md)합니다.
+
+## <a name="requirements"></a>요구 사항
+ 헤더: msdbg.h
+
+ 네임스페이스: Microsoft.VisualStudio.Debugger.Interop
+
+ 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## <a name="see-also"></a>참고 항목
+- [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
+- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md)
+- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md)
+- [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md)
+- [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

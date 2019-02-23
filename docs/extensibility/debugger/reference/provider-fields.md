@@ -1,7 +1,7 @@
 ---
 title: PROVIDER_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - PROVIDER_FIELDS
 helpviewer_keywords:
@@ -12,52 +12,50 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ec381484a0628715f593dad10848f6e8f4206eee
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 67c055c1cf9fffde227d4e52a9764b2559a2342b
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55071022"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56684353"
 ---
 # <a name="providerfields"></a>PROVIDER_FIELDS
-프로그램 공급자와 연결 된 속성을 지정 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-enum enum_PROVIDER_FIELDS {  
-   PFIELD_PROGRAM_NODES       = 0x01,  
-   PFIELD_IS_DEBUGGER_PRESENT = 0x02  
-};  
-typedef DWORD PROVIDER_FIELDS;  
-```  
-  
-```csharp  
-public enum enum_PROVIDER_FIELDS {  
-   PFIELD_PROGRAM_NODES       = 0x01,  
-   PFIELD_IS_DEBUGGER_PRESENT = 0x02  
-};  
-```  
-  
-## <a name="members"></a>멤버  
- PFIELD_PROGRAM_NODES  
- `ProgramNodes` 필드가 올바릅니다.  
-  
- PFIELD_IS_DEBUGGER_PRESENT  
- `fIsDebuggerPresent` 필드가 올바릅니다.  
-  
-## <a name="remarks"></a>설명  
- 이러한 값은 반환 합니다 `Fields` 의 멤버는 [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) 구조를 나타내는 구조체의 필드에서 명시적으로 채워진 합니다.  
-  
- 이러한 값을 비트 결합할 수 있습니다 `OR`합니다.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: msdbg.h  
-  
- 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
-  
- 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
- [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md)
+프로그램 공급자와 연결 된 속성을 지정 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+enum enum_PROVIDER_FIELDS {
+   PFIELD_PROGRAM_NODES       = 0x01,
+   PFIELD_IS_DEBUGGER_PRESENT = 0x02
+};
+typedef DWORD PROVIDER_FIELDS;
+```
+
+```csharp
+public enum enum_PROVIDER_FIELDS {
+   PFIELD_PROGRAM_NODES       = 0x01,
+   PFIELD_IS_DEBUGGER_PRESENT = 0x02
+};
+```
+
+## <a name="members"></a>멤버
+ PFIELD_PROGRAM_NODES는 `ProgramNodes` 필드가 올바릅니다.
+
+ PFIELD_IS_DEBUGGER_PRESENT는 `fIsDebuggerPresent` 필드가 올바릅니다.
+
+## <a name="remarks"></a>설명
+ 이러한 값은 반환 합니다 `Fields` 의 멤버는 [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) 구조를 나타내는 구조체의 필드에서 명시적으로 채워진 합니다.
+
+ 이러한 값을 비트 결합할 수 있습니다 `OR`합니다.
+
+## <a name="requirements"></a>요구 사항
+ 헤더: msdbg.h
+
+ 네임스페이스: Microsoft.VisualStudio.Debugger.Interop
+
+ 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## <a name="see-also"></a>참고 항목
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md)

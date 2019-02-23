@@ -1,7 +1,7 @@
 ---
 title: METADATA_ADDRESS_ARRAYELEM | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - METADATA_ADDRESS_ARRAYELEM
 helpviewer_keywords:
@@ -12,14 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b7cfd9204dfbcc2254da6a4539e6b18d90c156c4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: HT
+ms.openlocfilehash: 2b08d3d25912123d62de9a096b810f42d1418aa6
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56632799"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56707902"
 ---
 # <a name="metadataaddressarrayelem"></a>METADATA_ADDRESS_ARRAYELEM
+
 이 구조 배열 내에서 배열 요소를 나타냅니다.
 
 ## <a name="syntax"></a>구문
@@ -39,12 +40,15 @@ public struct METADATA_ADDRESS_ARRAYELEM {
 ```
 
 ## <a name="terms"></a>용어
-tokMethod  
+
+tokMethod
+
 배열의 ID이이 요소는 부분입니다.
 
 [C + +] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
 
-dwIndex  
+dwIndex
+
 배열 내에서이 요소의 인덱스입니다.
 
 ## <a name="remarks"></a>설명
@@ -58,6 +62,7 @@ dwIndex
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)  
-[ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)
+
+- [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
+- [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

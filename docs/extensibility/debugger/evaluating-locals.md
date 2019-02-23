@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c762df17c836fd99b62603678eb17c65f0015c3c
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 977962352887e9cce09b3b703c3f66dd15cb7397
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318214"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710905"
 ---
 # <a name="evaluate-locals"></a>지역 변수를 평가 합니다.
 > [!IMPORTANT]
@@ -190,6 +190,6 @@ HRESULT FieldGetPrimitiveValue(
 ```
 
 ## <a name="see-also"></a>참고자료
-[지역 변수의 샘플 구현](../../extensibility/debugger/sample-implementation-of-locals.md)  
-[로컬 값을 얻으려면](../../extensibility/debugger/getting-local-values.md)  
-[평가 컨텍스트](../../extensibility/debugger/evaluation-context.md)
+- [지역 변수의 샘플 구현](../../extensibility/debugger/sample-implementation-of-locals.md)
+- [로컬 값을 얻으려면](../../extensibility/debugger/getting-local-values.md)
+- [평가 컨텍스트](../../extensibility/debugger/evaluation-context.md)

@@ -7,12 +7,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba4501662e483af4ae357d75ca55f1a9cbac2329
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 1e84ff96381fb29a1728ad43df4ff558abd17243
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55017996"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56689840"
 ---
 # <a name="troubleshooting-template-installation"></a>문제 해결 템플릿 설치
 
@@ -46,4 +46,4 @@ ms.locfileid: "55017996"
 
 ## <a name="see-also"></a>참고자료
 
-[사용자 지정 프로젝트 및 항목 템플릿 만들기](creating-custom-project-and-item-templates.md)
+- [사용자 지정 프로젝트 및 항목 템플릿 만들기](creating-custom-project-and-item-templates.md)

@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetSymAttribute | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetSymAttribute
 - GetSymAttribute
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c46719b7de97e2a55eefb28d9e27df1557a90e65
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: bc0b5f5c8b435358464bd8b8f3984aee54af79b1
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413360"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56701227"
 ---
 # <a name="idebugcomplussymbolprovidergetsymattribute"></a>IDebugComPlusSymbolProvider::GetSymAttribute
 지정된 된 모듈에 대 한 지정 된 부모 특성을 사용 하 여 디버그 기호를 검색합니다.
@@ -48,26 +48,33 @@ int GetSymAttribute (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ulAppDomainID`  
-[in] 응용 프로그램 도메인의 식별자입니다.
+`ulAppDomainID`
 
-`guidModule`  
-[in] 모듈의 고유 식별자입니다.
+ [in] 응용 프로그램 도메인의 식별자입니다.
 
-`tokParent`  
-[in] 부모 특성에 대 한 토큰입니다.
+`guidModule`
 
-`pstrName`  
-[in] 모듈의 이름입니다.
+ [in] 모듈의 고유 식별자입니다.
 
-`cBuffer`  
-[in] 출력에 필요한 바이트 수가 `buffer`합니다.
+`tokParent`
 
-`pcBuffer`  
-[out] 출력의 길이 `buffer`입니다.
+ [in] 부모 특성에 대 한 토큰입니다.
 
-`buffer`  
-[out] 기호를 포함 하는 배열입니다.
+`pstrName`
+
+ [in] 모듈의 이름입니다.
+
+`cBuffer`
+
+ [in] 출력에 필요한 바이트 수가 `buffer`합니다.
+
+`pcBuffer`
+
+ [out] 출력의 길이 `buffer`입니다.
+
+`buffer`
+
+ [out] 기호를 포함 하는 배열입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -104,4 +111,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

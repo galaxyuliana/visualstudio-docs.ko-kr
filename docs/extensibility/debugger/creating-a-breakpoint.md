@@ -11,31 +11,31 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16fc85090b59909add7ae228a795c6396ca61a3c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8a5c2769b4d2b194923ce0ba5ca5d6e644a8c5f0
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54967234"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56704763"
 ---
 # <a name="create-a-breakpoint"></a>중단점 만들기
-다음 중단점을 만드는 과정을 설명 합니다.  
-  
-## <a name="methods-in-breakpoint-creation"></a>중단점을 만드는 방법  
- 중단점을 바인딩할 필요한 모듈 로드 되 면 세션 디버그 관리자 (SDM) 다음 메서드를 호출 합니다.  
-  
-1.  [IDebugPendingBreakpoint2::Enable](../../extensibility/debugger/reference/idebugpendingbreakpoint2-enable.md)  
-  
-2.  [IDebugPendingBreakpoint2::Virtualize](../../extensibility/debugger/reference/idebugpendingbreakpoint2-virtualize.md)  
-  
-3.  [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md)  
-  
+다음 중단점을 만드는 과정을 설명 합니다.
+
+## <a name="methods-in-breakpoint-creation"></a>중단점을 만드는 방법
+ 중단점을 바인딩할 필요한 모듈 로드 되 면 세션 디버그 관리자 (SDM) 다음 메서드를 호출 합니다.
+
+1.  [IDebugPendingBreakpoint2::Enable](../../extensibility/debugger/reference/idebugpendingbreakpoint2-enable.md)
+
+2.  [IDebugPendingBreakpoint2::Virtualize](../../extensibility/debugger/reference/idebugpendingbreakpoint2-virtualize.md)
+
+3.  [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md)
+
     > [!NOTE]
-    >  **CanBind** 사용자가에서 중단점을 때에 호출 되는 **중단점** 창입니다.  
-  
-4.  [IDebugPendingBreakpoint2::Bind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)  
-  
-5.  [IDebugPendingBreakpoint2::EnumBoundBreakpoints](../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md)  
-  
-## <a name="see-also"></a>참고자료  
- [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)
+    >  **CanBind** 사용자가에서 중단점을 때에 호출 되는 **중단점** 창입니다.
+
+4.  [IDebugPendingBreakpoint2::Bind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)
+
+5.  [IDebugPendingBreakpoint2::EnumBoundBreakpoints](../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md)
+
+## <a name="see-also"></a>참고자료
+- [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)

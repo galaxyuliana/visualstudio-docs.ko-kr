@@ -1,7 +1,7 @@
 ---
 title: IDebugThread2::Resume | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugThread2::Resume
 helpviewer_keywords:
@@ -12,42 +12,43 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 807f89eeed4e85e86c1a09a34ae12744bac8e0ae
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4997b8c711a67a3bb45529627e81e70b786acf00
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54935269"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56702072"
 ---
 # <a name="idebugthread2resume"></a>IDebugThread2::Resume
-스레드의 실행을 다시 시작합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT Resume (   
-   DWORD *pdwSuspendCount  
-);  
-```  
-  
-```csharp  
-int Resume (   
-   out uint pdwSuspendCount  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pdwSuspendCount`  
- [out] 작업을 다시 시작 후 일시 중단 횟수를 반환합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 이 메서드 감소를 호출할 때마다 일시 중단 횟수가 실행이 실제로 다시 시작 될 때 0에 도달할 때까지 합니다. 이 일시 중단 횟수가 표시 됩니다는 **스레드** 디버그 창입니다.  
-  
- 이 메서드를 호출할 때마다 이전 호출 있어야 합니다 [Suspend](../../../extensibility/debugger/reference/idebugthread2-suspend.md) 메서드. 일시 중단 횟수가 결정 횟수는 `IDebugThread2::Suspend` 지금 메서드가 호출 되었습니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
- [Suspend](../../../extensibility/debugger/reference/idebugthread2-suspend.md)
+스레드의 실행을 다시 시작합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT Resume ( 
+   DWORD *pdwSuspendCount
+);
+```
+
+```csharp
+int Resume ( 
+   out uint pdwSuspendCount
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pdwSuspendCount`
+
+ [out] 작업을 다시 시작 후 일시 중단 횟수를 반환합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 이 메서드 감소를 호출할 때마다 일시 중단 횟수가 실행이 실제로 다시 시작 될 때 0에 도달할 때까지 합니다. 이 일시 중단 횟수가 표시 됩니다는 **스레드** 디버그 창입니다.
+
+ 이 메서드를 호출할 때마다 이전 호출 있어야 합니다 [Suspend](../../../extensibility/debugger/reference/idebugthread2-suspend.md) 메서드. 일시 중단 횟수가 결정 횟수는 `IDebugThread2::Suspend` 지금 메서드가 호출 되었습니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [Suspend](../../../extensibility/debugger/reference/idebugthread2-suspend.md)

@@ -1,7 +1,7 @@
 ---
 title: IDebugBoundBreakpoint2::GetState | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugBoundBreakpoint2::GetState
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7cf782a23c630153539f76b66c97af8db15a4d6a
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 716721a94b5fa31bfff6dfcae647e1de2f45a995
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56315965"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56715611"
 ---
 # <a name="idebugboundbreakpoint2getstate"></a>IDebugBoundBreakpoint2::GetState
 이 바인딩된 중단점의 상태를 가져옵니다.
@@ -38,8 +38,9 @@ int GetState( 
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pState`  
-[out] 값을 반환 합니다 [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) 중단점의 상태를 설명 하는 열거형입니다.
+`pState`
+
+ [out] 값을 반환 합니다 [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) 중단점의 상태를 설명 하는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -68,5 +69,5 @@ HRESULT CBoundBreakpoint::GetState(BP_STATE* pState)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)  
-[BP_STATE](../../../extensibility/debugger/reference/bp-state.md)
+- [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+- [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

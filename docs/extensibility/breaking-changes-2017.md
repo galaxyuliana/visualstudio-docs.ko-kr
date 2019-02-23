@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 978e4d2717d1275c00305e2eadda289a9e257912
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: fac02f024813e3ca747f498025e113ba4e7a59bd
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318747"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56680477"
 ---
 # <a name="changes-in-visual-studio-2017-extensibility"></a>Visual Studio 2017 확장성의 변경 내용
 
@@ -103,6 +103,6 @@ Visual Studio 프로세스 내에서 실행 되는 코드는 Visual Studio Setti
 ### <a name="reacting-to-this-breaking-change"></a>이 주요 변경에 대응
 
 * 외부 코드도 COM 구성 요소에 대 한 등록이 필요 없는 활성화를 사용 하도록 변환 됩니다.
-* 외부 구성 요소는 Visual Studio 위치를 찾을 수 있습니다 [지침에 따라](https://blogs.msdn.microsoft.com/heaths/2016/09/15/changes-to-visual-studio-15-setup)합니다.
+* 외부 구성 요소는 Visual Studio 위치를 찾을 수 있습니다 [지침에 따라](https://devblogs.microsoft.com/setup/changes-to-visual-studio-15-setup)합니다.
 * 외부 구성 요소를 사용 하는 것이 좋습니다 합니다 [외부 Settings Manager](/dotnet/api/microsoft.visualstudio.settings.externalsettingsmanager) Visual Studio 레지스트리 키에 직접 읽고 쓰는 대신 합니다.
 * 여부를 구성 요소 확장을 사용 하는 수 구현한 또 다른 방법은 등록에 대 한 확인 합니다. 예를 들어, 디버거 확장 새 활용 하는 일을 할 수 있습니다 [msvsmon JSON 파일 COM 등록](migrate-debugger-COM-registration.md)합니다.

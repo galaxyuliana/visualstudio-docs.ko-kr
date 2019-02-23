@@ -1,7 +1,7 @@
 ---
 title: IDebugErrorBreakpointResolution2::GetBreakpointType | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugErrorBreakpointResolution2::GetBreakpointType
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4dbb829b9d1b74bb4dcabb635867d34f33bef140
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: a733a600c8e8f3e346ffffdac306982c88994709
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450531"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56707681"
 ---
 # <a name="idebugerrorbreakpointresolution2getbreakpointtype"></a>IDebugErrorBreakpointResolution2::GetBreakpointType
 중단점 유형을 가져옵니다.
@@ -37,8 +37,9 @@ int GetBreakpointType(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pBPType`  
-[out] 값을 반환 합니다 [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) 중단점의 형식을 설명 하는 열거형입니다.
+`pBPType`
+
+ [out] 값을 반환 합니다 [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) 중단점의 형식을 설명 하는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -81,5 +82,5 @@ HRESULT CDebugErrorBreakpointResolution::GetBreakpointType(BP_TYPE* pBPType)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)  
-[BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)
+- [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)
+- [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)

@@ -10,31 +10,31 @@ ms.author: chitray
 manager: Meng
 ms.workload:
 - vssdk
-ms.openlocfilehash: 55ceb788807f5d4fc9de2a96b4d359f290218dda
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 05d42e5239378886840f8943d26c5e21138907fa
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53866324"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56718368"
 ---
 # <a name="walkthrough-create-an-extension-pack"></a>연습: 확장 팩 만들기
 
 확장 팩을 함께 설치할 수 있는 확장 집합이 있습니다. 확장 팩을 사용 하면 손쉽게 즐겨 찾는 확장을 다른 사용자와 공유 하거나, 특정 시나리오에 함께 확장 집합이 번들 수 있습니다.
-  
+
 ## <a name="prerequisites"></a>전제 조건
 
-Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
+Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.
 
 확장 팩이 기능은 Visual Studio 15.8 Preview 2부터 사용할 수 있습니다.
-  
+
 ## <a name="create-an-extension-with-an-extension-pack-item-template"></a>확장 팩 항목 템플릿을 사용 하 여 확장 만들기
 
 확장 팩 항목 템플릿을 함께 설치할 수 있는 확장 집합과 확장 팩을 만듭니다.
-  
-1. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `Test Extension Pack`을 입력합니다. **확인**을 클릭합니다.  
-  
-2. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **확장 팩**합니다. 기본 파일 이름 (ExtensionPack1.cs)을 그대로 둡니다.  
-  
+
+1. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `Test Extension Pack`을 입력합니다. **확인**을 클릭합니다.
+
+2. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **확장 팩**합니다. 기본 파일 이름 (ExtensionPack1.cs)을 그대로 둡니다.
+
 3. 다음 코드를 포함 하는 ExtensionPack1.vsext 파일이 추가 됩니다.
 
    ```json
@@ -53,18 +53,18 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
         "name": "CopyAsHtml"
       }
     ]
-   }  
+   }
    ```
 
 4. 확장 팩에 포함 된 확장의 vsixid 복지부 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/)합니다. 포함 하 고 클릭 하려는 확장을 찾을 **복사 ID**합니다. 기존 업데이트할 수 있습니다 **vsixId** 위의 파일 또는 목록에 다른 확장을 추가 합니다.
 
     ![Marketplace에서 VsixId 복사](media/vsixid-marketplace.png)
 
-5. 프로젝트를 빌드하고 Marketplace에 확장을 업로드 합니다. 참조 [Visual Studio 확장 기능 게시](../extensibility/walkthrough-publishing-a-visual-studio-extension.md)합니다. 
-    
+5. 프로젝트를 빌드하고 Marketplace에 확장을 업로드 합니다. 참조 [Visual Studio 확장 기능 게시](../extensibility/walkthrough-publishing-a-visual-studio-extension.md)합니다.
+
 > [!NOTE]
 > 확장 팩에서 사용할 수 있는 확장만 설치할 수는 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 또는 [전용 갤러리](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md)합니다.
- 
+
 ## <a name="install-the-extension-pack-from-the-visual-studio-marketplace"></a>Visual Studio Marketplace에서 확장 팩을 설치 합니다.
 
 확장을 게시 했으므로 Visual Studio에서 설치 하 고 테스트 합니다.
