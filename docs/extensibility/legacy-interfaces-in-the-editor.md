@@ -10,17 +10,17 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 21ebfb4babc32642c37d1a8ccf469a1a5c37046e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 044bf36845be70290291b79dee255c452f56f0a0
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54982548"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56694415"
 ---
 # <a name="legacy-interfaces-in-the-editor"></a>편집기에서 레거시 인터페이스
-레거시 인터페이스에서 Visual Studio 편집기에 액세스할 수 있습니다. 라고 하는 어댑터를 포함 하는 Visual Studio SDK *shim*, 이러한 인터페이스 새 편집기와 상호 작용할 수 있도록 합니다. 그럼에도 불구 하 고 새 편집기 API를 사용 하도록 레거시 코드를 업데이트 하는 것이 좋습니다. 코드를 더 잘 수행 됩니다 및 Windows Presentation Foundation (WPF) 등의 프레임 워크 MEF (Managed Extensibility) 새 기술을 사용할 수 있습니다.  
+레거시 인터페이스에서 Visual Studio 편집기에 액세스할 수 있습니다. 라고 하는 어댑터를 포함 하는 Visual Studio SDK *shim*, 이러한 인터페이스 새 편집기와 상호 작용할 수 있도록 합니다. 그럼에도 불구 하 고 새 편집기 API를 사용 하도록 레거시 코드를 업데이트 하는 것이 좋습니다. 코드를 더 잘 수행 됩니다 및 Windows Presentation Foundation (WPF) 등의 프레임 워크 MEF (Managed Extensibility) 새 기술을 사용할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목  
+## <a name="related-topics"></a>관련 항목
 
 | 제목 | 설명 |
 | - | - |

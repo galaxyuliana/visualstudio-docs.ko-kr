@@ -1,7 +1,7 @@
 ---
 title: IDebugComPlusSymbolProvider::GetFunctionLineOffset | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetFunctionLineOffset
 - GetFunctionLineOffset
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6ff64676ba99f16941044f18c8988a690bfc8a28
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 73bd3184396ec020e8337efe6397503263be5359
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56412983"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56706290"
 ---
 # <a name="idebugcomplussymbolprovidergetfunctionlineoffset"></a>IDebugComPlusSymbolProvider::GetFunctionLineOffset
 지정 된 줄 오프셋을 나타내는 함수 내에서 주소를 검색 합니다.
@@ -40,14 +40,17 @@ int GetFunctionLineOffset(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pAddress`  
-[in] 함수를 나타내는 주소입니다.
+`pAddress`
 
-`dwLine`  
-[in] 함수의 시작 부분에서 오프셋을 줄.
+ [in] 함수를 나타내는 주소입니다.
 
-`ppNewAddress`  
-[out] 함수의 시작 부분에서 오프셋 되는 줄을 나타내는 새 주소입니다.
+`dwLine`
+
+ [in] 함수의 시작 부분에서 오프셋을 줄.
+
+`ppNewAddress`
+
+ [out] 함수의 시작 부분에서 오프셋 되는 줄을 나타내는 새 주소입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -101,4 +104,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

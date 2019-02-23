@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e3650f59f4ad9fe690064d9972b3280bf5bbd15d
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: d23c0803bb81b34156d2cdb56e54388ba3cc5661
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318487"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56681311"
 ---
 # <a name="create-a-basic-project-system-part-2"></a>2 부 기본 프로젝트 시스템을 만들려면
 이 시리즈의 첫 번째 연습의 [1 부 기본 프로젝트 시스템을 만들려면](../extensibility/creating-a-basic-project-system-part-1.md), 기본 프로젝트 시스템을 만드는 방법을 보여 줍니다. 이 연습에서는 Visual Studio 템플릿, 속성 페이지 및 기타 기능을 추가 하 여 기본 프로젝트 시스템에 작성 합니다. 이 시작 하기 전에 첫 번째 연습을 완료 해야 합니다.
@@ -40,7 +40,7 @@ ms.locfileid: "56318487"
 > 이 연습 단계에서는 C# 프로젝트를 기반으로 합니다. 그러나 파일 이름 확장명 및 코드와 같은 세부 정보를 제외 하 고 Visual Basic 프로젝트에 대 한 동일한 단계를 사용할 수 있습니다.
 
 ## <a name="create-a-visual-studio-template"></a>Visual Studio 템플릿 만들기
-[1 부 기본 프로젝트 시스템을 만들려면](../extensibility/creating-a-basic-project-system-part-1.md) 기본 프로젝트 템플릿을 만들고 프로젝트 시스템에 추가 하는 방법을 보여 줍니다. 또한를 사용 하 여 Visual Studio를 사용 하 여이 템플릿을 등록 하는 방법을 보여 줍니다는 <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> 의 전체 경로 기록 하는 특성을 *\\Templates\Projects\SimpleProject\\* 시스템의 폴더 레지스트리입니다.
+- [1 부 기본 프로젝트 시스템을 만들려면](../extensibility/creating-a-basic-project-system-part-1.md) 기본 프로젝트 템플릿을 만들고 프로젝트 시스템에 추가 하는 방법을 보여 줍니다. 또한를 사용 하 여 Visual Studio를 사용 하 여이 템플릿을 등록 하는 방법을 보여 줍니다는 <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> 의 전체 경로 기록 하는 특성을 *\\Templates\Projects\SimpleProject\\* 시스템의 폴더 레지스트리입니다.
 
 Visual Studio 템플릿을 사용 하 여 (*.vstemplate* 파일)에 템플릿을 표시 되는 방식을 제어할 수 있습니다 기본 프로젝트 템플릿을 대신 합니다 **새 프로젝트** 대화 상자 및 템플릿 매개 변수는 방법 대체 합니다. A *.vstemplate* 파일은 프로젝트 시스템 템플릿을 사용 하 여 프로젝트를 만들면 포함 되도록 소스 파일은 하는 방법을 설명 하는 XML 파일입니다. 프로젝트 시스템 자체를 수집 하 여 빌드됩니다를 *.vstemplate* 파일 및 소스 파일을 *.zip* 파일을 복사 하 여 배포 및를 *.zip* 수 있는 위치에 파일 Visual Studio에 알려진 합니다. 이 프로세스는이 연습의 뒷부분에서 자세히 설명 합니다.
 
@@ -271,7 +271,7 @@ Visual Studio 템플릿을 사용 하 여 프로젝트 계층 구조를 만드�
     ![간단한 프로젝트-콘솔 노드](../extensibility/media/simpproj2_subfolder.png "SimpProj2_Subfolder")
 
 ## <a name="substitute-project-template-parameters"></a>프로젝트 템플릿 매개 변수를 대체 합니다.
-[기본 프로젝트 시스템 만들기, 1 부](../extensibility/creating-a-basic-project-system-part-1.md) 덮어쓰는 방법을 보여 주었습니다는 `ProjectNode.AddFileFromTemplate` 템플릿 매개 변수를 대체 하는 기본 유형의 작업을 수행 하는 메서드. 이 섹션에서는 보다 복잡 한 Visual Studio 템플릿 매개 변수를 사용 하는 방법을 설명 합니다.
+- [기본 프로젝트 시스템 만들기, 1 부](../extensibility/creating-a-basic-project-system-part-1.md) 덮어쓰는 방법을 보여 주었습니다는 `ProjectNode.AddFileFromTemplate` 템플릿 매개 변수를 대체 하는 기본 유형의 작업을 수행 하는 메서드. 이 섹션에서는 보다 복잡 한 Visual Studio 템플릿 매개 변수를 사용 하는 방법을 설명 합니다.
 
 Visual Studio 템플릿을 사용 하 여 프로젝트를 만들면 합니다 **새 프로젝트** 프로젝트를 사용자 지정 대화 상자에서 템플릿을 사용 하 여 매개 변수는 대체 문자열입니다. 템플릿 매개 변수는 시작 하 고 예를 들어 $time$ 달러 기호로 끝나는 특수 토큰입니다. 다음 두 매개 변수는 사용자 지정 템플릿을 기반으로 하는 프로젝트에서 사용 하도록 설정 하는 데 특히 유용:
 

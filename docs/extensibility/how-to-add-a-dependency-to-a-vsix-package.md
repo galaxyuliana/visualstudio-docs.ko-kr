@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba9f1f5f1d656dc2283d9cc943ca03f752cb5067
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 225f2bba47aea209e406abe4555b508a2ee93ade
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000115"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56708578"
 ---
 # <a name="how-to-add-a-dependency-to-a-vsix-package"></a>방법: VSIX 패키지에 종속성을 추가 합니다.
 
@@ -49,6 +49,6 @@ VSIXInstaller 이전 버전의 Visual Studio를 감지 하 고 이후의 업데�
 
 ## <a name="see-also"></a>참고자료
 
- [VSIX 확장 스키마 1.0 참조](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
- [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)   
- [Windows Installer 배포에 대 한 확장 준비](../extensibility/preparing-extensions-for-windows-installer-deployment.md)
+- [VSIX 확장 스키마 1.0 참조](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
+- [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)
+- [Windows Installer 배포에 대 한 확장 준비](../extensibility/preparing-extensions-for-windows-installer-deployment.md)

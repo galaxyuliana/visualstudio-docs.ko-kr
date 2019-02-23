@@ -1,7 +1,7 @@
 ---
 title: CONTEXT_INFO | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - CONTEXT_INFO
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9a162858431f319e4d56667c2c85b7b53d1d86ab
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: c41a155fb3a85bcb9f0b0e5eae461f2ae172c7e2
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316030"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56709982"
 ---
 # <a name="contextinfo"></a>CONTEXT_INFO
 이 구조는 메모리 컨텍스트 또는 코드 컨텍스트를 설명합니다.
@@ -49,26 +49,19 @@ public struct CONTEXT_INFO {
 ```
 
 ## <a name="members"></a>멤버
-dwFields  
-그의 플래그의 조합을 [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) 채워진 필드를 지정 하는 열거형<strong>합니다.</strong>
+그의 플래그의 조합 dwFields [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) 채워진 필드를 지정 하는 열거형<strong>합니다.</strong>
 
-bstrModuleUrl  
-컨텍스트가 있는 모듈의 이름입니다.
+bstrModuleUrl 컨텍스트가 있는 모듈의 이름입니다.
 
-bstrFunction  
-컨텍스트가 있는 함수 이름입니다.
+bstrFunction 컨텍스트가 있는 함수 이름입니다.
 
-posFunctionOffset  
-A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 코드 컨텍스트와 연결 된 함수의 줄 및 열 오프셋을 식별 하는 구조입니다.
+posFunctionOffset [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 코드 컨텍스트와 연결 된 함수의 줄 및 열 오프셋을 식별 하는 구조입니다.
 
-bstrAddress  
-지정된 된 컨텍스트 위치한 코드 주소입니다.
+bstrAddress 지정된 된 컨텍스트 위치한 코드 주소입니다.
 
-bstrAddressOffset  
-지정된 된 컨텍스트 위치한 코드에서 주소의 오프셋입니다.
+bstrAddressOffset 지정된 된 컨텍스트 위치한 코드에서 주소의 오프셋입니다.
 
-bstrAddressAbsolute  
-지정 된 컨텍스트가 있는 메모리의 절대 주소입니다.
+절대 메모리 주소를 지정된 된 컨텍스트 위치한 bstrAddressAbsolute 합니다.
 
 ## <a name="remarks"></a>설명
 이 구조에 대 한 호출에서 반환 되는 [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md) 메서드.
@@ -83,7 +76,7 @@ bstrAddressAbsolute
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)  
-[CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)  
-[TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
+- [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)
+- [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)
+- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

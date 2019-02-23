@@ -1,7 +1,7 @@
 ---
 title: IDebugBreakpointEvent2::EnumBreakpoints | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugBreakpointEvent2:::EnumBreakpoints
 helpviewer_keywords:
@@ -12,40 +12,41 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 310f4b9937632abddf0c789b510140081bbb51f1
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0b9ce3894af04b30c0f14c8d5afce8be920b1cae
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54944766"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56720408"
 ---
 # <a name="idebugbreakpointevent2enumbreakpoints"></a>IDebugBreakpointEvent2::EnumBreakpoints
-현재 코드 위치에서 발생 하는 모든 중단점에 대 한 열거자를 만듭니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT EnumBreakpoints(  
-  IEnumDebugBoundBreakpoints2** ppEnum  
-);  
-```  
-  
-```csharp  
-int EnumBreakpoints(  
-  out IEnumDebugBoundBreakpoints2 ppEnum  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `ppEnum`  
- [out] 반환 된 [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) 현재 코드 위치에 연결 된 모든 중단점을 열거 하는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 특정 위치에서 모든 중단점 특정 시간에 실행 될 수 있습니다 (예를 들어, 조건 사용 하 여 중단점을 발생 하지 것입니다 조건이 충족 될 때까지).  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md)   
- [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)
+현재 코드 위치에서 발생 하는 모든 중단점에 대 한 열거자를 만듭니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT EnumBreakpoints(
+  IEnumDebugBoundBreakpoints2** ppEnum
+);
+```
+
+```csharp
+int EnumBreakpoints(
+  out IEnumDebugBoundBreakpoints2 ppEnum
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `ppEnum`
+
+ [out] 반환 된 [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) 현재 코드 위치에 연결 된 모든 중단점을 열거 하는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 특정 위치에서 모든 중단점 특정 시간에 실행 될 수 있습니다 (예를 들어, 조건 사용 하 여 중단점을 발생 하지 것입니다 조건이 충족 될 때까지).
+
+## <a name="see-also"></a>참고 항목
+- [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md)
+- [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)

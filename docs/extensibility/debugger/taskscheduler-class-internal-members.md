@@ -11,40 +11,40 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1801bc087311170169c752af8b50de4cd4e01da6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: cf7b693c058cd69ab2dcb79be787cf5a16d8f8a0
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54926841"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56696157"
 ---
 # <a name="taskscheduler-class---internal-members"></a>TaskScheduler 클래스-내부 멤버
-이 문서에서는 설명의 internal 멤버를 <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> 도움이 되는 클래스 사용자 지정 디버거를 구현 합니다. 이 클래스에 대 한 일반 정보에 대 한 참조를 <xref:System.Threading.Tasks.TaskScheduler> 참조 문서입니다.  
-  
- **네임스페이스:** <xref:System.Threading.Tasks?displayProperty=fullName>  
-  
- **어셈블리:** mscorlib (에서 *mscorlib.dll*)  
-  
- .NET Framework에서 이러한 내부 멤버에 액세스할 수 없는 때문에 다음 구문은 공통 중간 언어 (CIL) 제공 됩니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```csharp  
-.class public abstract auto ansi beforefieldinit System.Threading.Tasks.TaskScheduler  
-       extends System.Object  
-```  
-  
-## <a name="members"></a>멤버  
-  
-### <a name="methods"></a>메서드  
-  
-|이름|설명|  
-|----------|-----------------|  
-|[GetScheduledTasksForDebugger](../../extensibility/debugger/getscheduledtasksfordebugger-method.md)|모든 예약 된 작업의 배열을 검색합니다.|  
-|[GetTaskSchedulersForDebugger](../../extensibility/debugger/gettaskschedulersfordebugger-method.md)|모든 배열을 검색 <xref:System.Threading.Tasks.TaskScheduler> 현재 활성화 되어 있는 개체입니다.|  
-  
-## <a name="remarks"></a>설명  
-  
-## <a name="see-also"></a>참고자료  
- <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>   
- [.NET Framework에 대 한 병렬 확장 기능 내부](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+이 문서에서는 설명의 internal 멤버를 <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> 도움이 되는 클래스 사용자 지정 디버거를 구현 합니다. 이 클래스에 대 한 일반 정보에 대 한 참조를 <xref:System.Threading.Tasks.TaskScheduler> 참조 문서입니다.
+
+ **네임스페이스:** <xref:System.Threading.Tasks?displayProperty=fullName>
+
+ **어셈블리:** mscorlib (에서 *mscorlib.dll*)
+
+ .NET Framework에서 이러한 내부 멤버에 액세스할 수 없는 때문에 다음 구문은 공통 중간 언어 (CIL) 제공 됩니다.
+
+## <a name="syntax"></a>구문
+
+```csharp
+.class public abstract auto ansi beforefieldinit System.Threading.Tasks.TaskScheduler
+       extends System.Object
+```
+
+## <a name="members"></a>멤버
+
+### <a name="methods"></a>메서드
+
+|이름|설명|
+|----------|-----------------|
+|[GetScheduledTasksForDebugger](../../extensibility/debugger/getscheduledtasksfordebugger-method.md)|모든 예약 된 작업의 배열을 검색합니다.|
+|[GetTaskSchedulersForDebugger](../../extensibility/debugger/gettaskschedulersfordebugger-method.md)|모든 배열을 검색 <xref:System.Threading.Tasks.TaskScheduler> 현재 활성화 되어 있는 개체입니다.|
+
+## <a name="remarks"></a>설명
+
+## <a name="see-also"></a>참고자료
+- <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>
+- [.NET Framework에 대 한 병렬 확장 기능 내부](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

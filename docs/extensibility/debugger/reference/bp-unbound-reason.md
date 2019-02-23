@@ -1,7 +1,7 @@
 ---
 title: BP_UNBOUND_REASON | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - BP_UNBOUND_REASON
 helpviewer_keywords:
@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab701ef9886dddc0c2e32aa79092f22ad91d4630
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 65393f6e162cb15ded7a0e598e360c7ce90bb3cd
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316069"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56717665"
 ---
 # <a name="bpunboundreason"></a>BP_UNBOUND_REASON
 중단점이 바인딩된 없습니다. 이유를 제공 합니다.
@@ -44,17 +44,13 @@ public enum enum_BP_UNBOUND_REASON {
 ```
 
 ## <a name="members"></a>멤버
-BPUR_UNKNOWN  
-알 수 없는 이유입니다.
+BPUR_UNKNOWN 이유를 알 수 없는 합니다.
 
-BPUR_CODE_UNLOADED  
-중단점을 포함 하는 코드는 언로드 되었습니다.
+BPUR_CODE_UNLOADED 중단점을 포함 하는 코드는 언로드 되었습니다.
 
-BPUR_BREAKPOINT_REBIND  
-다른 위치에 다시 바인딩 중단점. 이 편집 후 발생 하 고 중단점 움직이면 또는 더 이상 유효 경로 사용 하 여 파일 중단점이 바인딩될 때 작업을 계속 수 없습니다.
+다른 위치에 다시 바인딩 BPUR_BREAKPOINT_REBIND 중단점. 이 편집 후 발생 하 고 중단점 움직이면 또는 더 이상 유효 경로 사용 하 여 파일 중단점이 바인딩될 때 작업을 계속 수 없습니다.
 
-BPUR_ BREAKPOINT_ERROR  
-중단점이 바인딩된 후 오류에 포함 되도록 결정 됩니다. 이 관리 되는 중단점 조건이 더 이상 유효 합니다.
+BPUR_ BREAKPOINT_ERROR 중단점이 바인딩된 후 오류에 포함 되도록 결정 됩니다. 이 관리 되는 중단점 조건이 더 이상 유효 합니다.
 
 ## <a name="remarks"></a>설명
 반환 된 [GetReason](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getreason.md) 메서드.
@@ -67,5 +63,5 @@ BPUR_ BREAKPOINT_ERROR
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## <a name="see-also"></a>참고 항목
-[열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetReason](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getreason.md)
+- [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetReason](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getreason.md)

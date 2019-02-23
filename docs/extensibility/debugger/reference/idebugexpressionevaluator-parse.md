@@ -1,7 +1,7 @@
 ---
 title: IDebugExpressionEvaluator::Parse | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluator::Parse
 helpviewer_keywords:
@@ -12,66 +12,72 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e232ba0fb13cfdb383d7f63a402b361e296505e2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5a93d909fbc8882c5864097a2a36c36749327a2d
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54971275"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56693920"
 ---
 # <a name="idebugexpressionevaluatorparse"></a>IDebugExpressionEvaluator::Parse
-이 메서드는 구문 분석 된 식에 식 문자열을 변환합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT Parse(   
-   LPCOLESTR                upstrExpression,  
-   PARSEFLAGS               dwFlags,  
-   UINT                     nRadix,  
-   BSTR*                    pbstrError,  
-   UINT*                    pichError,  
-   IDebugParsedExpression** ppParsedExpression  
-);  
-```  
-  
-```csharp  
-int Parse(  
-   string                     upstrExpression,   
-   enum_PARSEFLAGS            dwFlags,   
-   uint                       nRadix,   
-   out string                 pbstrError,   
-   out uint                   pichError,   
-   out IDebugParsedExpression ppParsedExpression  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `upstrExpression`  
- [in] 식 문자열을 구문 분석할 수입니다.  
-  
- `dwFlags`  
- [in] 컬렉션인 [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) 식을 구문 분석 하는 방법을 결정 하는 상수입니다.  
-  
- `nRadix`  
- [in] 모든 숫자 정보를 해석 하는 데 사용할 기 수입니다.  
-  
- `pbstrError`  
- [out] 사람이 읽을 수 있는 텍스트는 오류를 반환합니다.  
-  
- `pichError`  
- [out] 식 문자열의 오류의 시작 문자 위치를 반환합니다.  
-  
- `ppParsedExpression`  
- [out] 구문 분석 된 식을 반환 합니다는 [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>설명  
- 이 메서드는 구문 분석 된 식에는 실제 값이 아닌를 생성합니다. 구문 분석 된 식 준비가 되었습니다 평가 되 고, 즉, 값으로 변환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)   
- [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md)   
- [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)
+이 메서드는 구문 분석 된 식에 식 문자열을 변환합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT Parse( 
+   LPCOLESTR                upstrExpression,
+   PARSEFLAGS               dwFlags,
+   UINT                     nRadix,
+   BSTR*                    pbstrError,
+   UINT*                    pichError,
+   IDebugParsedExpression** ppParsedExpression
+);
+```
+
+```csharp
+int Parse(
+   string                     upstrExpression,
+   enum_PARSEFLAGS            dwFlags,
+   uint                       nRadix,
+   out string                 pbstrError,
+   out uint                   pichError,
+   out IDebugParsedExpression ppParsedExpression
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `upstrExpression`
+
+ [in] 식 문자열을 구문 분석할 수입니다.
+
+ `dwFlags`
+
+ [in] 컬렉션인 [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) 식을 구문 분석 하는 방법을 결정 하는 상수입니다.
+
+ `nRadix`
+
+ [in] 모든 숫자 정보를 해석 하는 데 사용할 기 수입니다.
+
+ `pbstrError`
+
+ [out] 사람이 읽을 수 있는 텍스트는 오류를 반환합니다.
+
+ `pichError`
+
+ [out] 식 문자열의 오류의 시작 문자 위치를 반환합니다.
+
+ `ppParsedExpression`
+
+ [out] 구문 분석 된 식을 반환 합니다는 [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>설명
+ 이 메서드는 구문 분석 된 식에는 실제 값이 아닌를 생성합니다. 구문 분석 된 식 준비가 되었습니다 평가 되 고, 즉, 값으로 변환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)
+- [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md)
+- [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)

@@ -1,7 +1,7 @@
 ---
 title: IDebugBinder::Bind | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IDebugBinder::Bind
 helpviewer_keywords:
@@ -12,48 +12,51 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 82455db074e23b5ea08010747c80888e4629cf18
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: bcb3535a2ace5818664a34a5d7b818d7dfd8b025
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54979961"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56704945"
 ---
 # <a name="idebugbinderbind"></a>IDebugBinder::Bind
-이 메서드는 메모리 컨텍스트 또는 기호의 현재 값이 포함 된 개체를 가져옵니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-HRESULT Bind(   
-   IDebugObject*  pContainer,  
-   IDebugField*   pField,  
-   IDebugObject** ppObject  
-);  
-```  
-  
-```csharp  
-int Bind(  
-   IDebugObject     pContainer,  
-   IDebugField      pField,  
-   out IDebugObject ppObject  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pContainer`  
- [in] 합니다 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 자식에서 참조를 포함 하는 `pField`합니다.  
-  
- `pField`  
- [in] 합니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 기호를 나타내는입니다.  
-  
- `ppObject`  
- [out] 반환 된 `IDebugObject` 기호의 인스턴스를 나타내는입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)   
- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)   
- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+이 메서드는 메모리 컨텍스트 또는 기호의 현재 값이 포함 된 개체를 가져옵니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT Bind( 
+   IDebugObject*  pContainer,
+   IDebugField*   pField,
+   IDebugObject** ppObject
+);
+```
+
+```csharp
+int Bind(
+   IDebugObject     pContainer,
+   IDebugField      pField,
+   out IDebugObject ppObject
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pContainer`
+
+ [in] 합니다 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 자식에서 참조를 포함 하는 `pField`합니다.
+
+ `pField`
+
+ [in] 합니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 기호를 나타내는입니다.
+
+ `ppObject`
+
+ [out] 반환 된 `IDebugObject` 기호의 인스턴스를 나타내는입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
+- [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

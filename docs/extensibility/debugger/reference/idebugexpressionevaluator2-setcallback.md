@@ -1,7 +1,7 @@
 ---
 title: IDebugExpressionEvaluator2::SetCallback | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugExpressionEvaluator2::SetCallback
 - SetCallback
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fef36b663a95f2c6eaca31c9091898cbe70db435
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: d758d6c34563a2915e295514380cf07c847d86c4
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450388"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56686797"
 ---
 # <a name="idebugexpressionevaluator2setcallback"></a>IDebugExpressionEvaluator2::SetCallback
 식 계산기를 (EE) 메트릭 설정의 읽을 디버거 엔진 (DE)를 사용 하는 콜백 인터페이스를 지정할 수 있습니다.
@@ -36,8 +36,9 @@ int SetCallback (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pCallback`  
-[in] 설정 콜백에 대 한 사용 하는 인터페이스입니다.
+`pCallback`
+
+ [in] 설정 콜백에 대 한 사용 하는 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -74,4 +75,4 @@ HRESULT CEE::SetCallback(IDebugSettingsCallback2* in_pCallback)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
+- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

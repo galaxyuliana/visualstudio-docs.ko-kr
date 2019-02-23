@@ -12,19 +12,22 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1bf06084be7ea3d9f7dfa27a0d6dec49351ab5cd
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+monikerRange: vs-2017
+ms.openlocfilehash: 5a5e8d752122432e27d7b6845f6d144856746387
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317759"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56703242"
 ---
 # <a name="add-user-control-to-the-start-page"></a>시작 페이지에 사용자 정의 컨트롤 추가
+
 이 연습에서는 사용자 지정 시작 페이지에 대 한 DLL 참조를 추가 하는 방법을 보여 줍니다. 예제 솔루션에 사용자 컨트롤을 추가, 사용자 정의 컨트롤을 빌드 및 시작 페이지에서 빌드된 어셈블리를 참조 한 다음 *.xaml* 파일입니다. 새 탭을 기본 웹 브라우저로 함수는 사용자 컨트롤을 호스팅합니다.
 
 호출할 수 있는 모든 어셈블리를 추가 하려면 동일한 프로세스를 사용 하는 *.xaml* 파일입니다.
 
 ## <a name="add-a-wpf-user-control-to-the-solution"></a>솔루션에 WPF 사용자 컨트롤 추가
+
 첫째, 시작 페이지 솔루션에 Windows Presentation Foundation (WPF) 사용자 정의 컨트롤을 추가 합니다.
 
 1. 시작 페이지를 사용 하 여 만들기에서 만든 [사용자 지정 시작 페이지를 만들려면](../extensibility/creating-a-custom-start-page.md)합니다.
@@ -36,6 +39,7 @@ ms.locfileid: "56317759"
 4. 컨트롤의 이름을 `WebUserControl` 을 클릭 한 다음 **확인**합니다.
 
 ## <a name="implement-the-user-control"></a>사용자 정의 컨트롤 구현
+
 WPF 사용자 컨트롤을 구현 하려면 XAML의 사용자 인터페이스 (UI) 빌드하고 C# 또는 다른.NET 언어에서 코드 숨김 이벤트를 기록 합니다.
 
 ### <a name="to-write-the-xaml-for-the-user-control"></a>사용자 정의 컨트롤에 대 한 XAML 작성
@@ -132,7 +136,8 @@ WPF 사용자 컨트롤을 구현 하려면 XAML의 사용자 인터페이스 (U
 4. 솔루션을 빌드합니다.
 
 ## <a name="add-the-user-control-to-the-start-page"></a>시작 페이지에 사용자 정의 컨트롤 추가
- 이 제어를 사용할 수 있도록 시작 페이지 프로젝트 시작 페이지 프로젝트 파일에서 새 컨트롤 라이브러리에 대 한 참조를 추가 합니다. 그런 다음 시작 페이지 XAML 태그에 컨트롤을 추가할 수 있습니다.
+
+이 제어를 사용할 수 있도록 시작 페이지 프로젝트 시작 페이지 프로젝트 파일에서 새 컨트롤 라이브러리에 대 한 참조를 추가 합니다. 그런 다음 시작 페이지 XAML 태그에 컨트롤을 추가할 수 있습니다.
 
 1. **솔루션 탐색기**, 시작 페이지 프로젝트를 마우스 오른쪽 단추로 클릭 **참조** 을 클릭 한 다음 **참조 추가**합니다.
 
@@ -185,5 +190,6 @@ WPF 사용자 컨트롤을 구현 하려면 XAML의 사용자 인터페이스 (U
     사용자 지정 시작 페이지에 표시 되어야 합니다. 파일을 변경 하려는 경우 실험적 인스턴스, 변경, 복사 및 변경 된 파일을 붙여넣을 닫은 다음 변경 내용을 보려면 실험적 인스턴스를 다시 엽니다.
 
 ## <a name="see-also"></a>참고자료
-[WPF 컨테이너 컨트롤](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)  
-[연습: 시작 페이지 사용자 지정 XAML 추가](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
+
+- [WPF 컨테이너 컨트롤](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)
+- [연습: 시작 페이지 사용자 지정 XAML 추가](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
