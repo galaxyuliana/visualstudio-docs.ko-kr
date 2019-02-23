@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9c68ddea3f92c33056ba1dc98332755dfd3bb1b9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f354b31e3979aacdb55aba566a646616ddc4108e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54921051"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56688344"
 ---
 # <a name="create-your-first-extension-hello-world"></a>첫 번째 확장을 만듭니다. Hello World
 
@@ -42,7 +42,7 @@ ms.locfileid: "54921051"
 
 ## <a name="create-an-extensibility-project"></a>확장성 프로젝트 만들기
 
-1단계: **파일** 메뉴에서 클릭 **새 프로젝트**합니다. 화면 아래쪽에서 프로젝트의 이름을 입력 합니다.
+1단계. **파일** 메뉴에서 클릭 **새 프로젝트**합니다. 화면 아래쪽에서 프로젝트의 이름을 입력 합니다.
 
 2단계. **템플릿** 메뉴에서 클릭 **Visual C#**, 클릭 **확장성**를 클릭 하 고 **VSIX 프로젝트**합니다.
 
@@ -50,11 +50,15 @@ ms.locfileid: "54921051"
 
 이제 시작 페이지 및 일부 샘플 리소스 표시 됩니다.
 
+::: moniker range="vs-2017"
+
 이 자습서를 두고 돌아올 것 해야 할 경우에서 새 HelloWorld 프로젝트를 찾을 수 있습니다 합니다 **시작 페이지** 에 **최근** 섹션입니다.
+
+::: moniker-end
 
 ## <a name="add-a-custom-command"></a>사용자 지정 명령 추가
 
-1단계: 매니페스트를 선택 하면 인스턴스, 메타 데이터, 설명 및 버전에 대 한 변경할 수 있는 옵션을 볼 수 있습니다.
+1단계. 매니페스트를 선택 하면 인스턴스, 메타 데이터, 설명 및 버전에 대 한 변경할 수 있는 옵션을 볼 수 있습니다.
 
 2단계. 프로젝트 (솔루션 아님)를 마우스 오른쪽 단추로 클릭 합니다. 상황에 맞는 메뉴를 클릭 **추가**를 클릭 하 고 **새 항목**합니다.
 
@@ -74,7 +78,7 @@ ms.locfileid: "54921051"
 
 * CS 파일이 있는 click 처리기 등의 작업을 정의할 수 있습니다.
 
-1단계: **솔루션 탐색기**, 새 명령에 대 한 VSCT 파일을 찾습니다. 이 경우 호출 하는 *CommandPackage.vsct*합니다.
+1단계. **솔루션 탐색기**, 새 명령에 대 한 VSCT 파일을 찾습니다. 이 경우 호출 하는 *CommandPackage.vsct*합니다.
 
 ![명령은 패키지 vsct](media/hello-world-command-package-vsct.png)
 
@@ -119,7 +123,7 @@ ms.locfileid: "54921051"
 
 이제 Visual Studio 실험적 인스턴스에서 소스 코드를 실행할 수 있습니다.
 
-1단계: 클릭 **시작** 도구 모음에서 합니다. 이 프로젝트를 빌드하고 라는 Visual Studio의 새 인스턴스를 시작 하 고 디버거를 시작 합니다 **실험적 인스턴스**합니다.
+1단계. 클릭 **시작** 도구 모음에서 합니다. 이 프로젝트를 빌드하고 라는 Visual Studio의 새 인스턴스를 시작 하 고 디버거를 시작 합니다 **실험적 인스턴스**합니다.
 
 단어를 보면 **실험적 인스턴스** Visual Studio 제목 표시줄에 있습니다.
 

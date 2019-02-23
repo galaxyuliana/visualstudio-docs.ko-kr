@@ -1,7 +1,7 @@
 ---
 title: IDebugGenericParamField::GetOwner | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField::GetOwner
 ms.assetid: c7f6d166-a69e-40c4-bd0b-1a1fdf9aaacf
@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 09e400e0b2f8da168becb5bc84ab833138c7750e
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: f31152aecb62a1491b58c33b73539426bc4e0464
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56449584"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56694701"
 ---
 # <a name="idebuggenericparamfieldgetowner"></a>IDebugGenericParamField::GetOwner
 이 제네릭 매개 변수의 형식 또는 메서드의 소유자를 검색합니다.
@@ -35,8 +35,9 @@ int GetOwner(
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ppOwner`  
-[out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 이 제네릭 매개 변수를 소유 하는 개체입니다.
+`ppOwner`
+
+ [out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 이 제네릭 매개 변수를 소유 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -93,4 +94,4 @@ Error:
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

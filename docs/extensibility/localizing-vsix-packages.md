@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 28426c7cad7abeb159434108656b5c16d47b148e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e83bf0c3c0bd63ed994784e89252dd2a5479590f
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54936647"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56687083"
 ---
 # <a name="localizing-vsix-packages"></a>VSIX 패키지 지역화
 
@@ -27,7 +27,7 @@ VSIX 패키지 콘텐츠를 추가 하는 VSPackage를 포함 하는 경우 메�
 
 ## <a name="directory-structure"></a>디렉터리 구조
 
- 사용자가 확장을 설치 하면 **확장 및 업데이트** VSIX 패키지 이름이 대상 컴퓨터의 Visual Studio 로캘과 일치 하는 폴더에 대 한 최상위 수준 확인 합니다. 하는 경우 **확장 및 업데이트** 찾습니다는 *.vsixlangpack* 파일 폴더에서 해당 파일의 해당 값의 지역화 된 값 대체를 *.vsixmanifest*파일입니다. 이러한 값은 확장을 설치 하는 경우에 표시 됩니다. 다음 예제에서는 스페인어 (ES-ES) 및 프랑스어 (FR)로 지역화 된 VSIX 패키지에 대 한 디렉터리 구조를 보여 줍니다.  
+ 사용자가 확장을 설치 하면 **확장 및 업데이트** VSIX 패키지 이름이 대상 컴퓨터의 Visual Studio 로캘과 일치 하는 폴더에 대 한 최상위 수준 확인 합니다. 하는 경우 **확장 및 업데이트** 찾습니다는 *.vsixlangpack* 파일 폴더에서 해당 파일의 해당 값의 지역화 된 값 대체를 *.vsixmanifest*파일입니다. 이러한 값은 확장을 설치 하는 경우에 표시 됩니다. 다음 예제에서는 스페인어 (ES-ES) 및 프랑스어 (FR)로 지역화 된 VSIX 패키지에 대 한 디렉터리 구조를 보여 줍니다.
 
 ```text
 .
@@ -63,7 +63,7 @@ Vsixlangpack 파일을 만들 때 설정 해야 합니다 `Include in Vsix` 속�
 
 ### <a name="code"></a>코드
 
- [*Extension.vsixmanifest*]
+- [*Extension.vsixmanifest*]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -83,7 +83,7 @@ Vsixlangpack 파일을 만들 때 설정 해야 합니다 `Include in Vsix` 속�
 </PackageManifest>
 ```
 
- [*Extension.vsixlangpack*]
+- [*Extension.vsixlangpack*]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

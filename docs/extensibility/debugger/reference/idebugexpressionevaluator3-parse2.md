@@ -1,7 +1,7 @@
 ---
 title: IDebugExpressionEvaluator3::Parse2 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDebugExpressionEvaluator3::Parse2
 ms.assetid: 78099628-d600-4f76-b7c8-ee07c864af1e
@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba8f5f214c8100780bb703a0733854228dae097f
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 626911d4eb9f23655ad2808e1e79ec6635cb8b00
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450544"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56678607"
 ---
 # <a name="idebugexpressionevaluator3parse2"></a>IDebugExpressionEvaluator3::Parse2
 기호 공급자 및 평가 프레임의 주소를 제공 하는 구문 분석 된 식에 식 문자열을 변환 합니다.
@@ -49,29 +49,37 @@ HRESULT Parse2 (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`upstrExpression`  
-[in] 식 문자열을 구문 분석할 수입니다.
+`upstrExpression`
 
-`dwFlags`  
-[in] 컬렉션인 [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) 식을 구문 분석 하는 방법을 결정 하는 상수입니다.
+ [in] 식 문자열을 구문 분석할 수입니다.
 
-`nRadix`  
-[in] 모든 숫자 정보를 해석 하는 데 사용할 기 수입니다.
+`dwFlags`
 
-`pSymbolProvider`  
-[in] 기호 공급자의 인터페이스입니다.
+ [in] 컬렉션인 [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) 식을 구문 분석 하는 방법을 결정 하는 상수입니다.
 
-`pAddress`  
-[in] 평가 프레임의 주소입니다.
+`nRadix`
 
-`pbstrError`  
-[out] 사람이 읽을 수 있는 텍스트는 오류를 반환합니다.
+ [in] 모든 숫자 정보를 해석 하는 데 사용할 기 수입니다.
 
-`pichError`  
-[out] 식 문자열의 오류의 시작 문자 위치를 반환합니다.
+`pSymbolProvider`
 
-`ppParsedExpression`  
-[out] 구문 분석 된 식을 반환 합니다는 [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) 개체입니다.
+ [in] 기호 공급자의 인터페이스입니다.
+
+`pAddress`
+
+ [in] 평가 프레임의 주소입니다.
+
+`pbstrError`
+
+ [out] 사람이 읽을 수 있는 텍스트는 오류를 반환합니다.
+
+`pichError`
+
+ [out] 식 문자열의 오류의 시작 문자 위치를 반환합니다.
+
+`ppParsedExpression`
+
+ [out] 구문 분석 된 식을 반환 합니다는 [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -135,4 +143,4 @@ HRESULT CEE::Parse2 ( LPCOLESTR in_szExprText,
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDebugExpressionEvaluator3](../../../extensibility/debugger/reference/idebugexpressionevaluator3.md)
+- [IDebugExpressionEvaluator3](../../../extensibility/debugger/reference/idebugexpressionevaluator3.md)
