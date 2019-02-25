@@ -673,15 +673,15 @@ items:
       href: ide/environment-settings.md
     - name: 동기화된 설정
       href: ide/synchronized-settings-in-visual-studio.md
-    - name: 글꼴 및 색 변경
+    - name: 글꼴 및 색
       href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
-    - name: 메뉴 및 도구 모음 사용자 지정
+    - name: 메뉴 및 도구 모음
       href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
-    - name: 창 레이아웃 사용자 지정
+    - name: 창 레이아웃
       href: ide/customizing-window-layouts-in-visual-studio.md
-    - name: 솔루션 탐색기에서 파일 중첩 사용자 지정
+    - name: 솔루션 탐색기에서 파일 중첩
       href: ide/file-nesting-solution-explorer.md
-    - name: 시작 페이지 사용자 지정
+    - name: 시작 동작
       href: ide/customizing-the-start-page-for-visual-studio.md
     - name: Visual Studio 확장 찾기 및 사용
       href: ide/finding-and-using-visual-studio-extensions.md
@@ -1135,9 +1135,9 @@ items:
   - name: 의견 보내기
     href: ide/talk-to-us.md
   expanded: true
-ms.openlocfilehash: f956b9a47ffe8fcf3f082711a742e36c90c95304
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 5145f3d07dc85e137bca0bbc605381d5347a624d
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450609"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56722579"

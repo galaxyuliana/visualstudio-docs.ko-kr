@@ -41,6 +41,7 @@
 # [컴파일 및 빌드](compiling-and-building.md)
 ## [프로젝트 및 솔루션 빌드 및 정리](building-and-cleaning-projects-and-solutions.md)
 ## [빌드 작업](build-actions.md)
+## [방법: 여러 시작 프로젝트 설정](set-startup-projects.md)
 ## [빌드 시스템 사용자 지정](customizing-build-system.md)
 ## [구성](configurations.md)
 ### [구성 만들기 및 편집](create-and-edit-configurations.md)
