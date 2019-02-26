@@ -82,7 +82,7 @@ Visual Studio는 Unity 프로젝트가 열릴 때마다 .csproj 및.sln 파일�
 
 1. zip 파일 내에서 **lib/netstandard2.0** 디렉터리로 이동하여 **Newtonsoft.Json.dll** 파일을 복사합니다.
 
-1. Unity 프로젝트의 루트 **자산** 폴더에서 **플러그 인**이라는 새 폴더를 만듭니다. 플러그 인은 Unity의 특수 폴더 이름입니다. 자세한 내용은 [Unity 설명서](https://docs.unity3d.com/Manual/Plugins.html)를 참조하세요.
+1. Unity 프로젝트의 루트 **Assets** 폴더에서 **Plugins**라는 새 폴더를 만듭니다. 플러그 인은 Unity의 특수 폴더 이름입니다. 자세한 내용은 [Unity 설명서](https://docs.unity3d.com/Manual/Plugins.html)를 참조하세요.
 
 1. **Newtonsoft.Json.dll** 파일을 Unity 프로젝트의 **플러그 인** 디렉터리에 붙여 넣습니다.
 
