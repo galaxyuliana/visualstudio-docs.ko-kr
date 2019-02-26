@@ -10,12 +10,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: b5f6741828f1f8ba5aeb433fb8702ca6b0a798e4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6db375422e4a8d21d9b82cac82a07fed45e7d279
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949475"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796818"
 ---
 # <a name="c-core-guidelines-checker-reference"></a>C++ Core Guidelines에 대한 정보
 
@@ -201,7 +201,7 @@ ms.locfileid: "55949475"
 
 [C26446 USE_GSL_AT](c26446.md) 사용을 선호 `gsl::at()` 검사 되지 않은 아래 첨자 연산자 대신 합니다. 참조 [c + + Core Guidelines:  Bounds.4: 표준 라이브러리 함수 및 범위 선택 되지 않은 형식을 사용 하지 않는](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#probounds-bounds-safety-profile)합니다.
 
-[C26448 USE_GSL_FINALLY ](c26448.md) 사용해 보세요 `gsl::finally` 사용 되는 최종 동작 합니다. 참조 [c + + Core Guidelines:  GSL.util: 유틸리티](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-utilities)합니다.
+[C26448 USE_GSL_FINALLY](c26448.md) 사용해 보세요 `gsl::finally` 사용 되는 최종 동작 합니다. 참조 [c + + Core Guidelines:  GSL.util: 유틸리티](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-utilities)합니다.
 
 [C26449 NO_SPAN_FROM_TEMPORARY](c26449.md) 
  `gsl::span` 또는 `std::string_view` 임시에서 만든 유효 하지 않게 됩니다 때 임시 무효화 됩니다. 참조 [c + + Core Guidelines: GSL.view: 뷰](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#gslview-views)합니다.

@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0a002ca0696f18aa8c524b27be27047ed29b9b25
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 2ea2217614ed27a98281cce7a3d34b72f74ae803
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720499"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796597"
 ---
 # <a name="shipping-visual-studio-extensions"></a>Visual Studio 확장 전달
 확장 프로그램 개발을 완료 한 후 다른 컴퓨터에 설치 수, 친구 및 동료와 공유 또는 Visual Studio Marketplace에 게시 합니다. 이 섹션에서는 게시 하 고 확장 프로그램을 유지 하기 위해 수행 해야 하는 모든 항목 설명:.vsix 파일을 게시, 지역화, 및 업데이트를 사용 합니다.
@@ -25,7 +25,7 @@ ms.locfileid: "56720499"
 ## <a name="working-with-vsix-extensions"></a>VSIX 확장을 사용 하 여 작업
  빈 VSIX 프로젝트를 만들고 다음을 다른 항목 템플릿을 추가 하 여 VSIX 확장을 만들 수 있습니다. 자세한 내용은 [VSIX 프로젝트 템플릿](../extensibility/vsix-project-template.md)합니다.
 
- 패키지 프로젝트 템플릿, 템플릿, Vspackage, 프레임 워크 MEF (Managed Extensibility) 구성 요소 항목을 VSIX 형식을 사용할 수 있습니다 **도구 상자** 컨트롤, 어셈블리 및 사용자 지정 형식 (예: 사용자 지정 시작 페이지). VSIX 형식은 파일 기반 배포를 사용합니다. VSIX 패키지에 대 한 자세한 내용은 참조 하십시오 [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)합니다.
+ 패키지 프로젝트 템플릿, 템플릿, Vspackage, 프레임 워크 MEF (Managed Extensibility) 구성 요소 항목을 VSIX 형식을 사용할 수 있습니다 **도구 상자** 컨트롤, 어셈블리 및 사용자 지정 형식 (여기에 시작 페이지 사용자 지정 시각적 개체 Studio 2017)입니다. VSIX 형식은 파일 기반 배포를 사용합니다. VSIX 패키지에 대 한 자세한 내용은 참조 하십시오 [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)합니다.
 
  VSIX 형식 코드 조각 기능을 지원 하지 않습니다. 전역 어셈블리 캐시 (GAC)에 또는 시스템 레지스트리에 쓰기와 같은 다른 시나리오도 지원 하지 않습니다. GAC에 설치의 레지스트리에서 작성 해야 할 경우 Windows 설치 관리자를 사용 해야 합니다. 자세한 내용은 [Windows에 대 한 확장 준비 Installer 배포](../extensibility/preparing-extensions-for-windows-installer-deployment.md)합니다.
 

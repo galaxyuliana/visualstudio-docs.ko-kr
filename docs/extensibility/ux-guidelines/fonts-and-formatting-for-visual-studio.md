@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 311ccb546d1712fc21e6ca01a69b5aa50a21786b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 56c7dc7557c91d82c89e612da7b78e3a889ad01e
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721825"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796753"
 ---
 # <a name="fonts-and-formatting-for-visual-studio"></a>글꼴 및 Visual Studio에 대 한 서식 지정
 ##  <a name="BKMK_TheEnvironmentFont"></a> 환경 글꼴
@@ -101,9 +101,22 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visual
 ```
 
 #### <a name="375-environment-font--light"></a>375% 환경 글꼴 + Light
- **다음과 같이 나타납니다.** 34 pt Segoe UI Light **사용:** (드물게) 고유한 브랜드 UI와 같은 Visual Studio 2017 시작 페이지
 
- **절차적 코드:** 여기서 `textBlock` 는 이전에 정의 된 textblock 및 `label` 은 이전에 정의 된 레이블입니다.
+**다음과 같이 나타납니다.** 34 pt Segoe UI Light
+
+::: moniker range="vs-2017"
+
+**사용:** (드물게) 고유한 브랜드 UI와 같은 시작 페이지
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+**사용:** (드물게) 고유한 브랜드 UI
+
+::: moniker-end
+
+**절차적 코드:** 여기서 `textBlock` 는 이전에 정의 된 textblock 및 `label` 은 이전에 정의 된 레이블입니다.
 
 ```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,  
@@ -112,7 +125,7 @@ label.SetResourceReference(Label.StyleProperty,  
         VsResourceKeys.LabelEnvironment375PercentFontSizeStyleKey);
 ```
 
- **XAML:** TextBlock 또는 표시 된 것 처럼 레이블 스타일을 설정 합니다.
+**XAML:** TextBlock 또는 표시 된 것 처럼 레이블 스타일을 설정 합니다.
 
 ```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment375PercentFontSizeStyleKey}}">TextBlock: 375 Percent Scaling</TextBlock> 
@@ -406,9 +419,21 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 #### <a name="310-environment-font--light"></a>310% 환경 글꼴 + Light
 
+::: moniker range="vs-2017"
+
 |||
 |-|-|
 |**사용법:**<br /><br /> -더 큰 서명 대화 상자 제목<br />-기본 보고서 제목<br /><br /> **Do:**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-간단한 항상 사용<br /><br /> **안 함:**<br /><br /> -사용 하 여 UI에 대 한 서명 시작 페이지와 같은 UI 이외의<br />-굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 28 pt Segoe UI Light<br /><br /> **예를 보여 줍니다.**<br /><br /> ![310% 환경 글꼴의 예 &#43; Light 제목의](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202 a_EF310")|
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+|||
+|-|-|
+|**사용법:**<br /><br /> -더 큰 서명 대화 상자 제목<br />-기본 보고서 제목<br /><br /> **Do:**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-간단한 항상 사용<br /><br /> **안 함:**<br /><br /> -사용 하 여 UI에 대 한 서명 UI 이외의<br />-굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 28 pt Segoe UI Light<br /><br /> **예를 보여 줍니다.**<br /><br /> ![310% 환경 글꼴의 예 &#43; Light 제목의](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202 a_EF310")|
+
+::: moniker-end
 
 #### <a name="200-environment-font--semilight"></a>200% 환경 글꼴 + Semilight
 
