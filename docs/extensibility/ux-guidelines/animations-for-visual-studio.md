@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 953347c79470b4a77fcd590a1107416f5fcce872
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 0d132c9689348fa728fc639d2aa3c8ecd8ba9e25
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56694285"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796792"
 ---
 # <a name="animations-for-visual-studio"></a>Visual Studio의 애니메이션
 ## <a name="animation-fundamentals"></a>애니메이션의 기본 사항
@@ -305,7 +305,7 @@ Visual Studio에서 애니메이션은 사용자 생산성을 방해 하지 않�
 
 -   아키텍처 탐색기 패널 확장 및 축소
 
--   시작 페이지 항목 확장 및 축소
+-   Visual Studio 2017 시작 페이지 항목 확장 및 축소
 
 #### <a name="x-y-position-change"></a>X, Y 위치 변경
 이 패턴을 사용 하 여 UI 요소를 X 또는 Y 위치 또는 둘 다 변경합니다.

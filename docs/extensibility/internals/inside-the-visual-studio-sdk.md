@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c386fb7f9fb57abccf7d7bc3c9cec900a65d883a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 42ec103cf9ca867582d4762e06ca59eac48da588
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54978271"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796675"
 ---
 # <a name="inside-the-visual-studio-sdk"></a>Visual Studio SDK 기본 사항
 이 섹션에서는 Visual Studio 아키텍처, 구성 요소, 서비스, 스키마, 유틸리티 등을 비롯 한 Visual Studio 확장에 대 한 자세한 정보를 제공 합니다.
@@ -55,13 +55,13 @@ ms.locfileid: "54978271"
 
  도구 창은 일반적으로 사용자 작용할 수 있는 다양 한 컨트롤을 제공 합니다. 예를 들어 합니다 **속성** 창에는 사용자가 특정 목적으로 사용 되는 개체의 속성을 설정할 수 있습니다. 합니다 **속성** 창 이므로 이런 점에서 특수 하지만 또한 일반 많은 다양 한 상황에서 사용할 수 있습니다. 마찬가지로, 합니다 **출력** 창 많은 하위 시스템 Visual Studio에서 Visual Studio 사용자에 게 출력을 제공 하는 데 사용할 수 있으므로 하지만 일반 텍스트 기반 출력을 제공 하기 때문에 맞게 특별히 설정 됩니다.
 
- 몇 가지 도구 창을 포함 하는 Visual Studio의 다음 그림을 것이 좋습니다.
+ 다음 그림의 몇 가지 도구 창을 포함 하는 Visual Studio를 고려 합니다.
 
  ![스크린 샷](../../extensibility/internals/media/t1gui.png "T1gui")
 
  도구 창 중 일부는 솔루션 탐색기 도구 창을 표시 하 고 다른 도구 창을 숨깁니다 있지만 탭을 클릭 하 여 사용할 수 있게 하는 단일 창에 함께 도킹 됩니다. 그림과 두 개의 다른 도구 창에는 **오류 목록** 하 고 **출력** 단일 창에 함께 도킹 창입니다.
 
- 여러 편집기 창에 표시 되는 주 문서 창을도 표시 됩니다. 도구 창에는 일반적으로 하나의 인스턴스만 필요는 없지만 (예를 들어 하나만 열 수 있습니다 **솔루션 탐색기**), 편집기 창에 도킹 되는 모든 있지만 별도 문서를 편집 하는 데는 각각의 여러 인스턴스를 가질 수 있습니다 같은 창입니다. 그림에는 두 개의 편집기 창, 하나의 폼 디자이너 창 및 시작 페이지를 표시 하는 브라우저 창이 있는 문서 창을 보여 줍니다. 문서 창에 있는 모든 창을 탭을 클릭 하 여 사용할 수 있지만 EditorPane.cs 파일이 포함 된 편집기 창이 표시 되 고 활성.
+ 여러 편집기 창에 표시 되는 주 문서 창을도 표시 됩니다. 도구 창에는 일반적으로 하나의 인스턴스만 필요는 없지만 (예를 들어 하나만 열 수 있습니다 **솔루션 탐색기**), 편집기 창에 도킹 되는 모든 있지만 별도 문서를 편집 하는 데는 각각의 여러 인스턴스를 가질 수 있습니다 같은 창입니다. 그림에는 두 개의 편집기 창, 하나의 폼 디자이너 창에 있는 문서 창을 보여 줍니다. 문서 창에 있는 모든 창을 탭을 클릭 하 여 사용할 수 있지만 EditorPane.cs 파일이 포함 된 편집기 창이 표시 되 고 활성.
 
  Visual Studio를 확장할 때 확장을 통해 Visual Studio 사용자가 수 있는 windows 상호 작용 하는 도구를 만들 수 있습니다. 또한 Visual Studio 사용자가 문서를 편집할 수 있는 사용자 고유의 편집기를 만들 수 있습니다. 도구 창 및 편집기에는 Visual Studio에 통합 되어야 하기 때문에 도킹 되거나 탭에 올바르게 표시 하도록 프로그래밍할 필요가 없습니다. Visual Studio에 올바르게 등록 되므로 때 자동으로 도구 창과 문서 창을 Visual Studio에서의 일반적인 기능을 갖습니다. 자세한 내용은 [확장 및 사용자 지정 도구 Windows](../../extensibility/extending-and-customizing-tool-windows.md)합니다.
 

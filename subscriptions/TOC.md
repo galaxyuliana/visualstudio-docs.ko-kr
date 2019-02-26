@@ -18,7 +18,7 @@
 ### [구독자 혜택](subscriber-benefits.md)
 ## 구독자 혜택 사용
 ### 도구
-#### [Visual Studio IDE ](vs-ide-benefit.md)
+#### [Visual Studio IDE](vs-ide-benefit.md)
 #### [Azure DevOps](vs-azure-devops.md)
 #### [Azure 크레딧](vs-azure.md)
 #### [Office 365 개발자 구독](vs-office-dev.md)
