@@ -12,30 +12,31 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 99c5743829dcb25580bb35317413d4fbe427dead
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6d92b7873395c51491b9164f27d62eec8020a0f8
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55031307"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56613546"
 ---
 # <a name="idiaenumdebugstreamdatagetname"></a>IDiaEnumDebugStreamData::get_name
-디버그 데이터 스트림의 이름을 검색합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_Name (   
-   BSTR * pRetVal  
-)  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- pRetVal  
- [out] 디버그 데이터 스트림의 이름을 반환합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
+디버그 데이터 스트림의 이름을 검색합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_Name ( 
+   BSTR * pRetVal
+)
+```
+
+#### <a name="parameters"></a>매개 변수
+ pRetVal
+
+[out] 디버그 데이터 스트림의 이름을 반환합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 625b9dd6a1ffb6e982097626018617c9b74d4746
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: b1e3dd8c395c59bc3255c1c9ee55837466c1cef7
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227108"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56635867"
 ---
 # <a name="idiaimagedata"></a>IDiaImageData
 모듈 또는 이미지의 기본 위치와 메모리 오프셋의 세부 정보를 표시합니다.
@@ -43,7 +43,7 @@ IDiaImageData : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 호출 하 여이 인터페이스를 가져올 `QueryInterface` 에 [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) 개체입니다. 모든 디버그는 스트림 지원은 `IDiaImageData` 인터페이스입니다. 예를 들어 현재 XDATA 및 PDATA 스트림을 지원 합니다 `IDiaImageData` 인터페이스입니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예에서는 검색을 지 원하는 모든 스트림에 대 한 디버그 스트림의 모든는 `IDiaImageData` 인터페이스입니다. 이러한 스트림이 있으면 해당 스트림에 대 한 일부 정보가 표시 됩니다.
 
 ```C++
@@ -118,5 +118,5 @@ void ShowImageData(IDiaSession *pSession)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)

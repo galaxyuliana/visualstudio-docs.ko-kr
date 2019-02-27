@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b472c52934353e6324d72077f8ea878467159cbd
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 311762f4eafc8dad63da5854870f2836ee68b3ee
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318643"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56637089"
 ---
 # <a name="diaaddressmapentry"></a>DiaAddressMapEntry
 주소 맵에서 항목을 설명 합니다.
@@ -32,11 +32,9 @@ struct DiaAddressMapEntry {
 ```
 
 ## <a name="elements"></a>요소
-`rva`  
-1. 이미지의 상대 가상 주소 (RVA)
+`rva` 1. 이미지의 상대 가상 주소 (RVA)
 
-`rvaTo`  
-상대 가상 주소 `rva` 이미지 2.에 매핑된
+`rvaTo` 상대 가상 주소 `rva` 이미지 2.에 매핑된
 
 ## <a name="remarks"></a>주의
 주소 지도 (A)에서 다른 (B) 하나 이미지 레이아웃에서 번역을 제공합니다. 배열을 `DiaAddressMapEntry` 기준으로 정렬 하는 구조 `rva` 주소 지도 정의 합니다.
@@ -55,5 +53,5 @@ struct DiaAddressMapEntry {
 헤더: dia2.h
 
 ## <a name="see-also"></a>참고 항목
-[열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)
+- [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)

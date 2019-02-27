@@ -10,41 +10,44 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eb7765f4864208d4dbc494f2877efc0d87c695a9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 673ca8137244fed933df0be3fa0221115951a9c1
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55039964"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56618109"
 ---
 # <a name="idiasymbolfindsymbolsbyrvaforacceleratorpointertag"></a>IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag
-이 메서드 해당 태그 값을 지정 합니다 지정된 된 상대 가상 주소에서이 스텁 함수에 포함 된 기호의 열거형을 반환 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT findSymbolsByRVAForAcceleratorPointerTag (   
-   DWORD             tagValue,  
-   DWORD             rva,  
-   IDiaEnumSymbols** ppResult);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `tagValue`  
- [in] 포인터 태그 pointee 기호 레코드를 검색 한 값입니다.  
-  
- `rva`  
- [in] 지정 된 태그 값을 사용 하 여 pointee 변수에 해당 하는 기호를 필터링 하는 데 사용 되는 rva입니다.  
-  
- `ppResult`  
- [out] 에 대 한 포인터는 `IDiaEnumSymbols` 결과 사용 하 여 초기화 되는 인터페이스 포인터입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
-## <a name="remarks"></a>주의  
- 경우에이 메서드를 호출는 `IDiaSymbol` Accelerator 스텁 함수에 해당 하는 인터페이스입니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
+이 메서드 해당 태그 값을 지정 합니다 지정된 된 상대 가상 주소에서이 스텁 함수에 포함 된 기호의 열거형을 반환 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT findSymbolsByRVAForAcceleratorPointerTag (
+   DWORD             tagValue,
+   DWORD             rva,
+   IDiaEnumSymbols** ppResult);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `tagValue`
+
+[in] 포인터 태그 pointee 기호 레코드를 검색 한 값입니다.
+
+ `rva`
+
+[in] 지정 된 태그 값을 사용 하 여 pointee 변수에 해당 하는 기호를 필터링 하는 데 사용 되는 rva입니다.
+
+ `ppResult`
+
+[out] 에 대 한 포인터는 `IDiaEnumSymbols` 결과 사용 하 여 초기화 되는 인터페이스 포인터입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
+## <a name="remarks"></a>주의
+ 경우에이 메서드를 호출는 `IDiaSymbol` Accelerator 스텁 함수에 해당 하는 인터페이스입니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

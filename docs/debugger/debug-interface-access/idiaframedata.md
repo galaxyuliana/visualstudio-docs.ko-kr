@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d710699912a05839ac32c582f40571b04b2de7c2
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 4e4adb0747ce569bc372daf0d36cfe1719a2ff61
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155751"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56597753"
 ---
 # <a name="idiaframedata"></a>IDiaFrameData
 스택 프레임의 세부 정보를 표시합니다.
@@ -58,7 +58,7 @@ IDiaFrameData : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
  호출 하 여이 인터페이스를 가져올는 [idiaenumframedata:: Next](../../debugger/debug-interface-access/idiaenumframedata-next.md) 하거나 [idiaenumframedata:: Item](../../debugger/debug-interface-access/idiaenumframedata-item.md) 메서드. 참조 된 [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) 세부 정보에 대 한 인터페이스입니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
  이 예제에서는 속성을 출력을 `IDiaFrameData` 개체입니다. 참조 된 [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) 방법의 예는 인터페이스 `IDiaFrameData` 인터페이스를 가져옵니다.
 
 ```C++
@@ -120,7 +120,7 @@ void PrintFrameData(IDiaFrameData* pFrameData){
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)  
-[IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md)  
-[IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata-next.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
+- [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md)
+- [IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata-next.md)

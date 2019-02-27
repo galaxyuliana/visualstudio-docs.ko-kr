@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0899b70ce4a917b0479a9ac6623e33ee8bcdbe22
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: f5b6315ba3cc99b60c97e70621f42cf13f6397c9
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335105"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56630719"
 ---
 # <a name="frequently-asked-questions-for-snapshot-debugging-in-visual-studio"></a>Visual Studio에서 스냅숏 디버깅에 대 한 자주 묻는 질문
 
@@ -23,11 +23,11 @@ ms.locfileid: "56335105"
 
 #### <a name="what-is-the-performance-cost-of-taking-a-snapshot"></a>스냅숏을 만드는 성능 비용은 얼마 인가요?
 
-스냅숏 디버거는 앱의 스냅숏을 캡처한 응용 프로그램의 프로세스를 분기과 분기 된 복사본을 일시 중단 됩니다. 스냅숏을 디버깅 하는 경우 프로세스의 포크 된 복사본에 대해 디버깅 하는 합니다. 이 프로세스만 10 ~ 20 밀리초가 걸리지만 앱의 전체 힙 복사 하지 않습니다. 대신 페이지 테이블만 복사 하 고 쓰기 시 복사 페이지를 설정 합니다. 힙 변경 시 앱의 개체의 일부를 각 페이지는 복사 됩니다. 따라서 각 스냅숏은 작은 메모리 비용 (대부분의 응용 프로그램 (킬로바이트) 수백) 순서를 포함 됩니다. 
+스냅숏 디버거는 앱의 스냅숏을 캡처한 응용 프로그램의 프로세스를 분기과 분기 된 복사본을 일시 중단 됩니다. 스냅숏을 디버깅 하는 경우 프로세스의 포크 된 복사본에 대해 디버깅 하는 합니다. 이 프로세스만 10 ~ 20 밀리초가 걸리지만 앱의 전체 힙 복사 하지 않습니다. 대신 페이지 테이블만 복사 하 고 쓰기 시 복사 페이지를 설정 합니다. 힙 변경 시 앱의 개체의 일부를 각 페이지는 복사 됩니다. 따라서 각 스냅숏은 작은 메모리 비용 (대부분의 응용 프로그램 (킬로바이트) 수백) 순서를 포함 됩니다.
 
 #### <a name="what-happens-if-i-have-a-scaled-out-azure-app-service-multiple-instances-of-my-app"></a>규모가 확장 된 Azure App Service (내 앱의 여러 인스턴스)이 있으면 어떻게 되나요?
 
-앱의 여러 인스턴스가 있는 경우 snappoint 모든 단일 인스턴스에 적용 합니다. 지정 된 조건을 적중를 첫 번째 snappoint에만 스냅숏을 만듭니다. 여러 snappoint를 설정한 경우 후속 스냅숏은 첫 번째 스냅숏을 생성 하는 동일한 인스턴스에서 제공 됩니다. Logpoint 출력 창에 전송 되지만 logpoint 응용 프로그램 로그를 보낼 모든 인스턴스에서 메시지를 보내는 인스턴스로, 메시지를에서 표시 됩니다. 
+앱의 여러 인스턴스가 있는 경우 snappoint 모든 단일 인스턴스에 적용 합니다. 지정 된 조건을 적중를 첫 번째 snappoint에만 스냅숏을 만듭니다. 여러 snappoint를 설정한 경우 후속 스냅숏은 첫 번째 스냅숏을 생성 하는 동일한 인스턴스에서 제공 됩니다. Logpoint 출력 창에 전송 되지만 logpoint 응용 프로그램 로그를 보낼 모든 인스턴스에서 메시지를 보내는 인스턴스로, 메시지를에서 표시 됩니다.
 
 #### <a name="how-does-the-snapshot-debugger-load-symbols"></a>스냅숏 디버거 기호를 로드 하는 방법
 
@@ -35,11 +35,11 @@ ms.locfileid: "56335105"
 
 #### <a name="does-the-snapshot-debugger-work-against-release-builds-of-my-application"></a>스냅숏 디버거 내 응용 프로그램의 릴리스 빌드에 대해 작동 합니까?
 
-예-스냅숏 디버거는 릴리스 빌드에 대해 작동 하도록 것입니다. 함수에서 snappoint 넣으면 함수를 쉽게 디버깅할 수 있는 디버그 버전으로 다시 컴파일됩니다. 스냅숏 디버거를 중지 하면 함수는 해당 릴리스 빌드에 반환 됩니다. 
+예-스냅숏 디버거는 릴리스 빌드에 대해 작동 하도록 것입니다. 함수에서 snappoint 넣으면 함수를 쉽게 디버깅할 수 있는 디버그 버전으로 다시 컴파일됩니다. 스냅숏 디버거를 중지 하면 함수는 해당 릴리스 빌드에 반환 됩니다.
 
 #### <a name="can-logpoints-cause-side-effects-in-my-production-application"></a>Logpoint은 프로덕션 응용 프로그램에서 부작용을 일으킬 수 있습니까?
 
-아니요-앱에 추가 된 로그 메시지는 사실상 평가 됩니다. 응용 프로그램에서 부작용 문제를 일으킬 수 없습니다. 있습니다. 그러나 일부 네이티브 속성 logpoint를 사용 하 여 액세스할 수 있습니다. 
+아니요-앱에 추가 된 로그 메시지는 사실상 평가 됩니다. 응용 프로그램에서 부작용 문제를 일으킬 수 없습니다. 있습니다. 그러나 일부 네이티브 속성 logpoint를 사용 하 여 액세스할 수 있습니다.
 
 #### <a name="does-the-snapshot-debugger-work-if-my-server-is-under-load"></a>My server는 부하가 있는 경우 스냅숏 디버거 작동 하나요?
 
@@ -55,8 +55,8 @@ ms.locfileid: "56335105"
 
 ## <a name="see-also"></a>참고 항목
 
-[Visual Studio의 디버깅](../debugger/index.md)  
-[스냅숏 디버거를 사용 하 여 라이브 ASP.NET 앱 디버그](../debugger/debug-live-azure-applications.md)  
-[라이브 ASP.NET Azure 가상 Machines\Virtual Machines Scale Sets 스냅숏 디버거를 사용 하 여 디버그](../debugger/debug-live-azure-virtual-machines.md)  
-[스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure Kubernetes 디버깅](../debugger/debug-live-azure-kubernetes.md)  
-[스냅숏 디버깅 문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)
+- [Visual Studio의 디버깅](../debugger/index.md)
+- [스냅숏 디버거를 사용 하 여 라이브 ASP.NET 앱 디버그](../debugger/debug-live-azure-applications.md)
+- [라이브 ASP.NET Azure 가상 Machines\Virtual Machines Scale Sets 스냅숏 디버거를 사용 하 여 디버그](../debugger/debug-live-azure-virtual-machines.md)
+- [스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure Kubernetes 디버깅](../debugger/debug-live-azure-kubernetes.md)
+- [스냅숏 디버깅 문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)

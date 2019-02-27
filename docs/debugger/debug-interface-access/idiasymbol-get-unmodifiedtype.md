@@ -12,43 +12,44 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4924d7e18df75183f65233d237c4b76772c08b1d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6fb271a03a8932989d6201329c441a21a226f559
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55016969"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56614287"
 ---
 # <a name="idiasymbolgetunmodifiedtype"></a>IDiaSymbol::get_unmodifiedType
-이 기호에 대 한 원래 형식을 검색합니다. 사용 시기를 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 유형으로 설정 됩니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_unmodifiedType(   
-   IDiaSymbol** pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 반환 된 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 이 기호의 원래 형식을 나타내는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
+이 기호에 대 한 원래 형식을 검색합니다. 사용 시기를 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 유형으로 설정 됩니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_unmodifiedType( 
+   IDiaSymbol** pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 반환 된 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 이 기호의 원래 형식을 나타내는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
-  
-## <a name="remarks"></a>주의  
- 현재 형식이 반환 된 원래 형식의 수정 합니다. 기호에 대 한 원래 형식은 먼저 기호의 형식을 가져오고 다음 원래 형식에 대 한 형식을 반환 하는 조회 하 여 확인할 수 있습니다. 참고 일부 기호는 원래 형식이 수정 된 형식에 없을 수 있습니다.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: Dia2.h  
-  
- 라이브러리: diaguids.lib  
-  
- DLL: msdia100.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+>  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+
+## <a name="remarks"></a>주의
+ 현재 형식이 반환 된 원래 형식의 수정 합니다. 기호에 대 한 원래 형식은 먼저 기호의 형식을 가져오고 다음 원래 형식에 대 한 형식을 반환 하는 조회 하 여 확인할 수 있습니다. 참고 일부 기호는 원래 형식이 수정 된 형식에 없을 수 있습니다.
+
+## <a name="requirements"></a>요구 사항
+ 헤더: Dia2.h
+
+ 라이브러리: diaguids.lib
+
+ DLL: msdia100.dll
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

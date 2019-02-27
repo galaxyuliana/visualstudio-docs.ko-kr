@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3640cebfda96b0c618352017e982c695ad908de0
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 393abb3b1e1872a416865cbfee5c142bef98ce78
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155593"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56637076"
 ---
 # <a name="idiadatasourceopensession"></a>IDiaDataSource::openSession
 기호를 쿼리 하는 것에 대 한 세션을 엽니다.
@@ -31,7 +31,8 @@ HRESULT openSession ( 
 ```
 
 #### <a name="parameters"></a>매개 변수
-ppSession  
+ppSession
+
 [out] 반환 된 [IDiaSession](../../debugger/debug-interface-access/idiasession.md) 세션 열기를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
@@ -48,7 +49,7 @@ ppSession
 
 `IDiaSession` 데이터 원본에 쿼리를 구현 하는 개체입니다. 세션은 디버그 기호의 각 집합에 대 한 이상의 주소 공간을 관리합니다. 데이터 원본 기호에서 설명 하는.exe 또는.dll 파일은 활성 여러 주소에서 범위 (예를 들어 여러 프로세스가 있으므로 로드) 한 다음 각 주소 범위에 대 한 세션을 사용 해야 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```C++
 IDiaSession* pSession;
@@ -60,7 +61,7 @@ if (FAILED(hr))
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)  
-[개요](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
-[.Pdb 파일 쿼리](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)
+- [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+- [개요](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [.Pdb 파일 쿼리](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)

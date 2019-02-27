@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4a120a1610e6ca62ba4c19bb5dd2289628e1d273
-ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
+ms.openlocfilehash: ed505499efcabd7173fea9d668cd9afa5ed6d925
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "55987407"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56608580"
 ---
 # <a name="constants-debug-interface-access-sdk"></a>상수(디버그 인터페이스 액세스 SDK)
 DIA SDK를 통해 프로그램 디버그 데이터베이스 (PDB) 파일의 다양 한 섹션을 확인 하려면 이러한 문자열 상수를 사용할 수 있습니다.
@@ -37,7 +37,7 @@ DIA SDK를 통해 프로그램 디버그 데이터베이스 (PDB) 파일의 다�
 |`DiaTable_InjSrc`|L "InjectedSource"|
 |`DiaTable_FrameData`|L "FrameData"|
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이러한 기호 중 하나를 사용 하는 예제는 다음과 같습니다.
 
 ```C++
@@ -56,7 +56,7 @@ HRESULT GetSymbolTable(IDiaEnumTables *pEnumTables, IDiaTable **pTable)
 헤더: dia2.h
 
 ## <a name="see-also"></a>참고 항목
-[참조](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)  
-[열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaEnumTables::Item](../../debugger/debug-interface-access/idiaenumtables-item.md)
+- [참조](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)
+- [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaEnumTables::Item](../../debugger/debug-interface-access/idiaenumtables-item.md)

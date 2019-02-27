@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 39ac47f107c7365e2932d36084b2fc114934daba
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 255c55dff0dab0c7b36f5029de9e688db949a1fe
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227357"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56623569"
 ---
 # <a name="idiaenumsegments"></a>IDiaEnumSegments
 데이터 원본에 포함 된 다양 한 세그먼트를 열거 합니다.
@@ -46,7 +46,7 @@ IDiaEnumSegments : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 호출 하 여이 인터페이스를 가져올는 `QueryInterface` 메서드는 [IDiaTable](../../debugger/debug-interface-access/idiatable.md) 개체입니다. 세부 정보에 대 한 예제를 참조 하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 가져오는 방법을 보여 주는이 예제는 `IDiaEnumSections` 테이블에서 인터페이스입니다. 세그먼트를 사용 하 여 자세한 예제를 참조 하세요. 합니다 [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md) 인터페이스입니다.
 
 ```C++
@@ -72,6 +72,6 @@ void ShowSegments(IDiaTable *pTable, IDiaSession *pSession)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaTable](../../debugger/debug-interface-access/idiatable.md)  
-[IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaTable](../../debugger/debug-interface-access/idiatable.md)
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

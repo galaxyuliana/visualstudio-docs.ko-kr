@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c0e1bc647f8455eeaa5b31a9ddae99b2ae7d2de3
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 81d1a256b4300510ed31c163d92cea89df884aac
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227659"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610764"
 ---
 # <a name="idiapropertystorage"></a>IDiaPropertyStorage
 DIA 속성 집합의 영구 속성을 읽을 수 있습니다.
@@ -62,7 +62,7 @@ IDiaPropertyStorage : IUnknown
 
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 노출 하는 모든 속성을 표시 하는 함수를 보여 주는이 예제는 `IDiaPropertyStorage` 개체입니다. 참조를 [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) 방법의 예는 인터페이스 `IDiaPropertyStorage` 인터페이스에서 가져온 합니다 [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) 인터페이스입니다.
 
 ```C++
@@ -127,13 +127,13 @@ void PrintPropertyStorage(IDiaPropertyStorage* pPropertyStorage)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)  
-[IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)  
-[IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)  
-[IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)  
-[IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)  
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
-[IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)  
-[IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)  
-[IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+- [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

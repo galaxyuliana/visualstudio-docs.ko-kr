@@ -12,24 +12,24 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5d9194483e836ab1280fa7ba473987e926828687
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9f85cd612dc2b45150745c17420d79a487c821ff
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55070853"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56603107"
 ---
 # <a name="idiaenumsegmentsreset"></a>IDiaEnumSegments::Reset
-열거형 시퀀스를 처음으로 다시 설정합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT Reset ();  
-```  
-  
-## <a name="return-value"></a>반환 값  
- `S_OK`를 반환합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)
+열거형 시퀀스를 처음으로 다시 설정합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT Reset ();
+```
+
+## <a name="return-value"></a>반환 값
+ `S_OK`를 반환합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)

@@ -12,30 +12,31 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bc493c13cd5efda4e32f772b202e1855a2996471
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 328536b64bdea2591b4ab8c242348b8304984466
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54964888"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56624635"
 ---
 # <a name="idiaenumsourcefilesclone"></a>IDiaEnumSourceFiles::Clone
-현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT Clone (   
-   IDiaEnumSourceFiles** ppenum  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- ppenum  
- [out] 반환 된 [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md) 열거자의 중복을 포함 하는 개체입니다. 원본 파일에 없는 중복 열거자만 합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)
+현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT Clone ( 
+   IDiaEnumSourceFiles** ppenum
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ ppenum
+
+[out] 반환 된 [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md) 열거자의 중복을 포함 하는 개체입니다. 원본 파일에 없는 중복 열거자만 합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)

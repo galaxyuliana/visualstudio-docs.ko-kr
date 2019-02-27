@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7a91b12ae49028d2c84c8308d043d69bf2297797
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: cb86929a050a61a50a7aa1dd41220f4e087ad767
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54939118"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56607046"
 ---
 # <a name="dia2dump-sample"></a>Dia2dump 샘플
 
@@ -76,4 +76,4 @@ Dia2Dump.exe는 msdia 의존*버전*.dll COM 서버를 해당 서비스를 제�
 
 ## <a name="see-also"></a>참고 항목
 
-- [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
+- [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)

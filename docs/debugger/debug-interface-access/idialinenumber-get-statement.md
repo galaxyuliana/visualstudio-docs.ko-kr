@@ -12,33 +12,34 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e517eac8e3649328c56b77e86288fbb9a52ba436
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 397873a65176024327f371e9727b15984cd7d03f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54977436"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56632110"
 ---
 # <a name="idialinenumbergetstatement"></a>IDiaLineNumber::get_statement
-이 줄 정보 프로그램 소스에 식 대신 문을 시작 부분을 설명 하는지 나타내는 플래그를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_statement (   
-   BOOL* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 반환 `TRUE` 이 줄 정보 프로그램 원본에서 문의 시작 부분에 대해 설명 하는 경우.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="remarks"></a>주의  
- 문을 여러 줄으로 나누어 입력할 수 있습니다. 이 메서드는 연결 된 줄 번호를 이러한 여러 줄 문의 시작을 표시 하는 경우를 나타냅니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+이 줄 정보 프로그램 소스에 식 대신 문을 시작 부분을 설명 하는지 나타내는 플래그를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_statement ( 
+   BOOL* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 반환 `TRUE` 이 줄 정보 프로그램 원본에서 문의 시작 부분에 대해 설명 하는 경우.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="remarks"></a>주의
+ 문을 여러 줄으로 나누어 입력할 수 있습니다. 이 메서드는 연결 된 줄 번호를 이러한 여러 줄 문의 시작을 표시 하는 경우를 나타냅니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

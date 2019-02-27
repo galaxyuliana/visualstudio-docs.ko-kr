@@ -10,45 +10,49 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bcbf6a02784273070d0e8d3ecbc961b5d546a906
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 900680fe58ab5061d3f8cca07fa1906cf34f7e5b
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54920100"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56642263"
 ---
 # <a name="idiasessionfindinlineelinesbyrva"></a>IDiaSession::findInlineeLinesByRVA
-클라이언트가 모든 없는 함수를 인라인을 직접 또는 간접적으로 지정 된 부모 기호는 줄 번호 정보를 반복 하는 데 사용 하는 지정 된 가상 RVA (상대 주소) 내에 포함 된 열거자를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT findInlineeLinesByRVA (   
-   IDiaSymbol*           parent,  
-   DWORD                 rva,  
-   DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `parent`  
- [in] `IDiaSymbol` 부모를 나타내는 개체입니다.  
-  
- `rva`  
- [in] RVA로 주소를 지정합니다.  
-  
- `length`  
- [in] 이 쿼리를 처리 하기 위해 바이트 수의 주소 범위를 지정 합니다.  
-  
- `ppResult`  
- [out] 보유 한 `IDiaEnumLineNumbers` 검색 되는 줄 번호의 목록을 포함 하는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)   
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md)   
- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+클라이언트가 모든 없는 함수를 인라인을 직접 또는 간접적으로 지정 된 부모 기호는 줄 번호 정보를 반복 하는 데 사용 하는 지정 된 가상 RVA (상대 주소) 내에 포함 된 열거자를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT findInlineeLinesByRVA ( 
+   IDiaSymbol*           parent,
+   DWORD                 rva,
+   DWORD                 length,
+   IDiaEnumLineNumbers** ppResult
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `parent`
+
+[in] `IDiaSymbol` 부모를 나타내는 개체입니다.
+
+ `rva`
+
+[in] RVA로 주소를 지정합니다.
+
+ `length`
+
+[in] 이 쿼리를 처리 하기 위해 바이트 수의 주소 범위를 지정 합니다.
+
+ `ppResult`
+
+[out] 보유 한 `IDiaEnumLineNumbers` 검색 되는 줄 번호의 목록을 포함 하는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md)
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
