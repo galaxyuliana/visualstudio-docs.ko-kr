@@ -15,28 +15,28 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 16782fcf3c8f859edd8363c43741f598d5929188
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a3855b8975684b088b2838a866db36e6ec19e665
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55007015"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56635542"
 ---
 # <a name="da0029-unsupported-clr-version"></a>DA0029: 지원되지 않는 CLR 버전
 
-|||  
-|-|-|  
-|규칙 ID|DA0029|  
-|범주|프로파일링 도구 사용|  
-|프로파일링 방법|명령줄에서 프로파일링|  
-|메시지|지원되지 않는 CLR 버전이 수집하는 동안 발견되었습니다. 관리되는 기호가 제대로 확인되지 않을 수 있습니다.|  
-|규칙 유형|정보.|  
+|||
+|-|-|
+|규칙 ID|DA0029|
+|범주|프로파일링 도구 사용|
+|프로파일링 방법|명령줄에서 프로파일링|
+|메시지|지원되지 않는 CLR 버전이 수집하는 동안 발견되었습니다. 관리되는 기호가 제대로 확인되지 않을 수 있습니다.|
+|규칙 유형|정보.|
 
-## <a name="cause"></a>원인  
- 프로파일링 도구에서 지원되지 않는 [!INCLUDE[net_v11_long](../profiling/includes/net_v11_long_md.md)]을(를) 사용하는 애플리케이션 프로파일링하려고 합니다.  
+## <a name="cause"></a>원인
+ 프로파일링 도구에서 지원되지 않는 [!INCLUDE[net_v11_long](../profiling/includes/net_v11_long_md.md)]을(를) 사용하는 애플리케이션 프로파일링하려고 합니다.
 
-## <a name="rule-description"></a>규칙 설명  
- 이 경고는 프로파일링 도구가 애플리케이션에서 실행되는 관리되는 코드에 대한 기호를 확인할 수 없기 때문에 발생합니다. 프로파일링 도구는 [!INCLUDE[net_v11_long](../profiling/includes/net_v11_long_md.md)]을(를) 실행하는 애플리케이션에 대한 관리되는 코드 기호를 확인할 수 없습니다.  
+## <a name="rule-description"></a>규칙 설명
+ 이 경고는 프로파일링 도구가 애플리케이션에서 실행되는 관리되는 코드에 대한 기호를 확인할 수 없기 때문에 발생합니다. 프로파일링 도구는 [!INCLUDE[net_v11_long](../profiling/includes/net_v11_long_md.md)]을(를) 실행하는 애플리케이션에 대한 관리되는 코드 기호를 확인할 수 없습니다.
 
-## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법  
+## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  없음

@@ -11,19 +11,19 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 139cc1ad17448334098dc8e0ac0bbfbdf9ef6d5a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3d8e4c2b8b5f557f9f7eff26972593c4f40146be
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55043520"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56646137"
 ---
 # <a name="how-to-profile-javascript-code-in-web-pages"></a>방법: 웹 페이지에서 JavaScript 코드 프로파일링
 
 Visual Studio 프로파일링 도구는 계측 프로파일링 방법을 사용하여 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션, 임의 웹 페이지 또는 JavaScript 애플리케이션에서 실행되는 JavaScript 코드에 대한 성능 데이터를 수집할 수 있습니다. Internet Explorer 8 이상이 필요합니다.
 
 > [!WARNING]
-> UWP에서 JavaScript를 프로파일링하려면 [JavaScript 메모리](../profiling/javascript-memory.md)를 참조하세요. 
+> UWP에서 JavaScript를 프로파일링하려면 [JavaScript 메모리](../profiling/javascript-memory.md)를 참조하세요.
 
 프로파일링 마법사를 사용하여 성능 세션을 만들 수 있습니다. 계측 방법을 지정한 다음 성능 세션에 대한 속성 대화 상자의 계측 페이지에서 JavaScript 프로파일링 옵션을 지정합니다.
 

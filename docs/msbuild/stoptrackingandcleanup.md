@@ -15,27 +15,27 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9b6ed74dab67cc2ca718ba312fb657659897c78c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 56f4fb82ab0e9792cadbeeea05499744e4c8ce46
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54955598"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56621307"
 ---
 # <a name="stoptrackingandcleanup"></a>StopTrackingAndCleanup
-모든 추적을 중지하고 추적 세션에 사용된 메모리를 해제합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp 
-HRESULT WINAPI StopTrackingAndCleanup(void);  
-```  
-  
-## <a name="return-value"></a>반환 값  
- 추적이 중지된 경우 **SUCCEEDED** 비트가 설정된 **HRESULT**를 반환합니다.  
-  
-## <a name="requirements"></a>요구 사항  
- **헤더:** *FileTracker.h*  
-  
-## <a name="see-also"></a>참고 항목  
- [StartTrackingContext](../msbuild/starttrackingcontext.md)
+모든 추적을 중지하고 추적 세션에 사용된 메모리를 해제합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT WINAPI StopTrackingAndCleanup(void);
+```
+
+## <a name="return-value"></a>반환 값
+ 추적이 중지된 경우 **SUCCEEDED** 비트가 설정된 **HRESULT**를 반환합니다.
+
+## <a name="requirements"></a>요구 사항
+ **헤더:** *FileTracker.h*
+
+## <a name="see-also"></a>참고 항목
+- [StartTrackingContext](../msbuild/starttrackingcontext.md)

@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3afbee1d4f0aee1dbf752ca241521ee121d00975
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: cb06b656b107dce623ea75df162b20a1ea34b401
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54937498"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610322"
 ---
 # <a name="generatedeploymentmanifest-task"></a>GenerateDeploymentManifest 작업
 
@@ -67,7 +67,7 @@ ms.locfileid: "54937498"
 
 ## <a name="see-also"></a>참고 항목
 
-[작업](../msbuild/msbuild-tasks.md)  
-[GenerateApplicationManifest 작업](../msbuild/generateapplicationmanifest-task.md)  
-[SignFile 작업](../msbuild/signfile-task.md)  
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [GenerateApplicationManifest 작업](../msbuild/generateapplicationmanifest-task.md)
+- [SignFile 작업](../msbuild/signfile-task.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

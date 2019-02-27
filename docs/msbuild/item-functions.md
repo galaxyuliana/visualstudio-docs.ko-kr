@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 27e62482df42581b60e4e7758806efd5c7d9300c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d01de837deb5141b4b0bdbb7bebcb50412826b1f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950515"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56617160"
 ---
 # <a name="item-functions"></a>항목 함수
 MSBuild 4.0부터 작업 및 대상의 코드는 프로젝트의 항목에 대한 정보를 얻기 위해 item 함수를 호출할 수 있습니다. 이러한 함수를 사용하면 Distinct() 항목을 간편하게 가져올 수 있으며 항목을 반복하는 방식보다 속도도 더 빠릅니다.
@@ -51,7 +51,7 @@ MSBuild 4.0부터 작업 및 대상의 코드는 프로젝트의 항목에 대�
 ## <a name="intrinsic-item-functions"></a>내장 항목 함수
 아래 표는 항목에 사용할 수 있는 내장 함수를 나열합니다.
 
-|함수|예|설명|
+|함수|예제|설명|
 |--------------|-------------|-----------------|
 |`Count`|`@(MyItem->Count())`|항목 수를 반환합니다.|
 |`DirectoryName`|`@(MyItem->DirectoryName())`|각 항목에 대한 해당 `Path.DirectoryName`을 반환합니다.|
@@ -100,4 +100,4 @@ MSBuild 4.0부터 작업 및 대상의 코드는 프로젝트의 항목에 대�
 ```
 
 ## <a name="see-also"></a>참고 항목
-[항목](../msbuild/msbuild-items.md)
+- [항목](../msbuild/msbuild-items.md)

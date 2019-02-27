@@ -13,27 +13,27 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f7957917c999396f2e09bbb697474beb47ebcc47
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 72a634bd83a55d4e646874cce5546e2a7310afb2
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55042441"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56617849"
 ---
 # <a name="how-to-serialize-symbol-information"></a>방법: 기호 정보 직렬화
-애플리케이션을 분석하기 위해 포함해야 하는 기호를 직렬화할 수 있습니다. 기호를 직렬화하면 기호가 .*vsp* 파일에 추가됩니다. 기호 정보를 .*vsp* 파일에 추가하면 다른 사용자가 원래 기호에 대한 액세스 권한이 없어도 성능 보고서를 분석할 수 있습니다. 기호가 직렬화되지 않은 경우 .*vsp* 파일을 분석하려면 원래 계측된 .*exe* 및 .*pdb* 파일이 있어야 합니다.  
-  
-### <a name="to-automatically-serialize-symbol-information"></a>기호 정보를 자동으로 직렬화하려면  
-  
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
-  
-     **옵션** 대화 상자가 표시됩니다.  
-  
-2.  **성능 도구**를 클릭합니다.  
-  
-3.  **일반 설정**에서 **자동으로 기호 정보 직렬화**를 선택합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [성능 세션 구성](../profiling/configuring-performance-sessions.md)   
- [방법: Windows 기호 정보 참조](../profiling/how-to-reference-windows-symbol-information.md)   
- [방법: 분석된 보고서 파일 저장](/previous-versions/visualstudio/visual-studio-2010/bb763106\(v\=vs.100\))
+애플리케이션을 분석하기 위해 포함해야 하는 기호를 직렬화할 수 있습니다. 기호를 직렬화하면 기호가 .*vsp* 파일에 추가됩니다. 기호 정보를 .*vsp* 파일에 추가하면 다른 사용자가 원래 기호에 대한 액세스 권한이 없어도 성능 보고서를 분석할 수 있습니다. 기호가 직렬화되지 않은 경우 .*vsp* 파일을 분석하려면 원래 계측된 .*exe* 및 .*pdb* 파일이 있어야 합니다.
+
+### <a name="to-automatically-serialize-symbol-information"></a>기호 정보를 자동으로 직렬화하려면
+
+1.  **도구** 메뉴에서 **옵션**을 클릭합니다.
+
+     **옵션** 대화 상자가 표시됩니다.
+
+2.  **성능 도구**를 클릭합니다.
+
+3.  **일반 설정**에서 **자동으로 기호 정보 직렬화**를 선택합니다.
+
+## <a name="see-also"></a>참고 항목
+- [성능 세션 구성](../profiling/configuring-performance-sessions.md)
+- [방법: Windows 기호 정보 참조](../profiling/how-to-reference-windows-symbol-information.md)
+- [방법: 분석된 보고서 파일 저장](/previous-versions/visualstudio/visual-studio-2010/bb763106\(v\=vs.100\))

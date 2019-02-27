@@ -8,28 +8,35 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8577cb0c456d3cf3ea295928a9bfd1df59d65c03
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 35b1f0a56cc2aee3aafe31ca786d508d2162e50c
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55040231"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56634762"
 ---
 # <a name="profiling-tools-apis"></a>프로파일링 도구 API
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 API의 관리 또는 네이티브 메서드를 삽입하여 프로파일링 실행 시에 데이터 수집을 제어할 수 있습니다. 이 섹션에서는 API의 메서드와 사용 방법을 설명합니다.  
-  
-## <a name="in-this-section"></a>단원 내용  
- [Visual Studio 프로파일러 API 참조(네이티브)](../profiling/visual-studio-profiler-api-reference-native.md)  
- C++ 프로파일링 도구 메서드에 대해 설명합니다.  
-  
- <xref:Microsoft.VisualStudio.Profiler>  
- .NET 프로파일링 도구 메서드에 대해 설명합니다.  
-  
- [연습: 프로파일러 API 사용](../profiling/walkthrough-using-profiler-apis.md)  
- 이 전체 예제에서 .NET 프로파일링 도구 메서드를 사용하는 방법을 알아봅니다.  
-  
-## <a name="related-sections"></a>관련 단원  
- [데이터 수집 제어](../profiling/controlling-data-collection.md)  
-  
-## <a name="see-also"></a>참고 항목  
- [성능 탐색기](../profiling/performance-explorer.md)
+
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 API의 관리 또는 네이티브 메서드를 삽입하여 프로파일링 실행 시에 데이터 수집을 제어할 수 있습니다. 이 섹션에서는 API의 메서드와 사용 방법을 설명합니다.
+
+## <a name="in-this-section"></a>단원 내용
+
+[Visual Studio 프로파일러 API 참조(네이티브)](../profiling/visual-studio-profiler-api-reference-native.md)
+
+C++ 프로파일링 도구 메서드에 대해 설명합니다.
+
+<xref:Microsoft.VisualStudio.Profiler>
+
+.NET 프로파일링 도구 메서드에 대해 설명합니다.
+
+[연습: 프로파일러 API 사용](../profiling/walkthrough-using-profiler-apis.md)
+
+이 전체 예제에서 .NET 프로파일링 도구 메서드를 사용하는 방법을 알아봅니다.
+
+## <a name="related-sections"></a>관련 단원
+
+[데이터 수집 제어](../profiling/controlling-data-collection.md)
+
+## <a name="see-also"></a>참고 항목
+
+- [성능 탐색기](../profiling/performance-explorer.md)

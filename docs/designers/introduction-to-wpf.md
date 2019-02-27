@@ -11,12 +11,12 @@ dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: 893b073c2722fc91e342d37f0aeb2a490fccb53a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: bc943fe059850b024a5067d36bcc14d258ca5565
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919991"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56635074"
 ---
 # <a name="wpf-overview"></a>WPF 개요
 
@@ -315,7 +315,7 @@ WPF 2D 기능의 하위 집합에는 그라데이션, 비트맵, 그리기, 비�
 
 WPF에는 더 흥미로운 사용자 인터페이스를 만들 수 있도록 2D 그래픽을 통합하는 3D 렌더링 기능도 포함되어 있습니다. 예를 들어 다음 그림에서는 3D 도형에 렌더링된 2D 이미지를 보여줍니다.
 
-![Visual3D 샘플 스크린샷](../designers/media/wpfintrofigure13.png)
+![Visual3D 샘플 스크린 샷](../designers/media/wpfintrofigure13.png)
 
 자세한 내용은 [3D 그래픽 개요](/dotnet/framework/wpf/graphics-multimedia/3-d-graphics-overview)를 참조하세요.
 

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e8ef9aa27638c01b0b941284b6c5a0fff442c4c
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 9c5bb6bbd3d05c22b7615a027ac3fcf6aa686156
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853523"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56602483"
 ---
 # <a name="build-loggers"></a>빌드 로거
 로거는 빌드 출력을 사용자 지정하고 특정 빌드 이벤트에 대한 응답에 메시지, 오류 또는 경고를 표시하는 방법을 제공합니다. 각 로거는 <xref:Microsoft.Build.Framework.ILogger> 인터페이스를 구현하는 .NET 클래스로 구현됩니다. 이 인터페이스는 *Microsoft.Build.Framework.dll* 어셈블리에서 정의됩니다.
@@ -25,8 +25,8 @@ ms.locfileid: "55853523"
 로거를 구현할 때 다음 두 가지 방법을 사용할 수 있습니다.
 
 - <xref:Microsoft.Build.Framework.ILogger> 인터페이스를 직접 구현합니다.
-- 도우미 클래스 <xref:Microsoft.Build.Utilities.Logger>에서 클래스를 파생합니다. 이 클래스는 *Microsoft.Build.Utilities.dll* 어셈블리에서 정의됩니다. <xref:Microsoft.Build.Utilities.Logger>는 <xref:Microsoft.Build.Framework.ILogger>를 구현하고 일부 <xref:Microsoft.Build.Framework.ILogger> 멤버의 기본 구현을 제공합니다.  
-  
+- 도우미 클래스 <xref:Microsoft.Build.Utilities.Logger>에서 클래스를 파생합니다. 이 클래스는 *Microsoft.Build.Utilities.dll* 어셈블리에서 정의됩니다. <xref:Microsoft.Build.Utilities.Logger>는 <xref:Microsoft.Build.Framework.ILogger>를 구현하고 일부 <xref:Microsoft.Build.Framework.ILogger> 멤버의 기본 구현을 제공합니다.
+
   이 항목에서는 <xref:Microsoft.Build.Utilities.Logger>에서 파생되는 단순 로거를 작성하는 방법을 설명하고 특정 빌드 이벤트에 대한 응답으로 콘솔에 메시지를 표시합니다.
 
 ## <a name="register-for-events"></a>이벤트에 등록
@@ -59,7 +59,7 @@ MSBuild -nologo -noconsolelogger -logger:SimpleLogger.dll
 MSBuild -nologo -noconsolelogger -logger:SimpleLogger.dll -verbosity:Detailed
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ### <a name="description"></a>설명
 다음 예제에서는 로거에 대한 전체 코드를 보여 줍니다.
@@ -67,7 +67,7 @@ MSBuild -nologo -noconsolelogger -logger:SimpleLogger.dll -verbosity:Detailed
 ### <a name="code"></a>코드
 [!code-csharp[msbuild_SimpleConsoleLogger#1](../msbuild/codesnippet/CSharp/build-loggers_4.cs)]
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ### <a name="description"></a>설명
 다음 예제에서는 로그를 콘솔 창에 표시하지 않고 파일에 쓰는 로거를 구현하는 방법을 보여 줍니다.
@@ -76,5 +76,5 @@ MSBuild -nologo -noconsolelogger -logger:SimpleLogger.dll -verbosity:Detailed
 [!code-csharp[msbuild_BasicLogger#1](../msbuild/codesnippet/CSharp/build-loggers_5.cs)]
 
 ## <a name="see-also"></a>참고 항목
-[빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)  
-[MSBuild 개념](../msbuild/msbuild-concepts.md)
+- [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)
+- [MSBuild 개념](../msbuild/msbuild-concepts.md)

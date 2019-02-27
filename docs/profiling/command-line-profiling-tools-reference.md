@@ -8,31 +8,37 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 018ef620438a678ac90c92d319cc8bb23757b742
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3e5bdd0897d5b53a6949731a233909664d3fce7d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54952641"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56615366"
 ---
 # <a name="command-line-profiling-tools-reference"></a>명령줄 프로파일링 도구 참조
-명령줄 성능 도구를 사용하여 프로그래머는 명령 프롬프트에서 애플리케이션을 프로파일링할 수 있습니다. 다음 명령줄 프로파일링 도구를 사용하여 명령 프롬프트에서 코드를 프로파일링할 수 있습니다.  
-  
-## <a name="in-this-section"></a>단원 내용  
- [VSInstr](../profiling/vsinstr.md)  
- VSInstr.exe 계측 옵션을 나열합니다.  
-  
- [VSInstr 경고](../profiling/vsinstr-warnings.md)  
- VSInstr 도구에서 발생된 경고를 나열합니다.  
-  
- [VSPerfCLREnv](../profiling/vsperfclrenv.md)  
- 관리 코드를 프로파일링하는 환경을 구성하기 위한 VSPerfCLREnv.exe 옵션을 나열합니다.  
-  
- [VSPerfCmd](../profiling/vsperfcmd.md)  
- 성능 데이터를 수집하기 위한 VSPerfCmd.exe 옵션을 나열합니다.  
-  
- [VSPerfMon](../profiling/vsperfmon.md)  
- 데이터 컬렉션을 수집하기 위한 VSPerfMon.exe 옵션을 나열합니다.  
-  
- [VSPerfReport](../profiling/vsperfreport.md)  
+명령줄 성능 도구를 사용하여 프로그래머는 명령 프롬프트에서 애플리케이션을 프로파일링할 수 있습니다. 다음 명령줄 프로파일링 도구를 사용하여 명령 프롬프트에서 코드를 프로파일링할 수 있습니다.
+
+## <a name="in-this-section"></a>단원 내용
+- [VSInstr](../profiling/vsinstr.md)
+
+ VSInstr.exe 계측 옵션을 나열합니다.
+
+- [VSInstr 경고](../profiling/vsinstr-warnings.md)
+
+ VSInstr 도구에서 발생된 경고를 나열합니다.
+
+- [VSPerfCLREnv](../profiling/vsperfclrenv.md)
+
+ 관리 코드를 프로파일링하는 환경을 구성하기 위한 VSPerfCLREnv.exe 옵션을 나열합니다.
+
+- [VSPerfCmd](../profiling/vsperfcmd.md)
+
+ 성능 데이터를 수집하기 위한 VSPerfCmd.exe 옵션을 나열합니다.
+
+- [VSPerfMon](../profiling/vsperfmon.md)
+
+ 데이터 컬렉션을 수집하기 위한 VSPerfMon.exe 옵션을 나열합니다.
+
+- [VSPerfReport](../profiling/vsperfreport.md)
+
  보고서를 만들기 위한 VSPerfReport.exe 명령줄 옵션을 나열합니다.

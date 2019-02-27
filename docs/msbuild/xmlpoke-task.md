@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 691a9ddbba4291bb6b54d15c9b60e6339b2548b3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6eb87a279da834004e599a49b33d0c1b32355269
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54963786"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56626689"
 ---
 # <a name="xmlpoke-task"></a>XmlPoke 작업
 
@@ -30,7 +30,7 @@ XML 파일로의 XPath 쿼리에 의해 지정된 대로 값을 반환합니다.
 ## <a name="parameters"></a>매개 변수
 
  다음 표에서는 `XmlPoke` 작업의 매개 변수에 대해 설명합니다.
-  
+
 |매개 변수|설명|
 |---------------|-----------------|
 |`Namespaces`|선택적 `String` 매개 변수입니다.<br /><br /> XPath 쿼리 접두사에 대한 네임스페이스를 지정합니다. `Namespaces`는 `Prefix` 및 `Uri` 특성을 포함한 `Namespace` 요소로 이루어진 XML 코드 조각입니다. `Prefix` 특성은 `Uri` 특성에 지정된 네임스페이스와 연결할 접두사를 지정합니다. 빈 `Prefix`를 사용하지 않습니다.|
@@ -81,5 +81,5 @@ XML 파일로의 XPath 쿼리에 의해 지정된 대로 값을 반환합니다.
 
 ## <a name="see-also"></a>참고 항목
 
- [작업](../msbuild/msbuild-tasks.md)   
- [작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

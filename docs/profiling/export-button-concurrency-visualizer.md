@@ -12,16 +12,16 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2d46934b6240c07b7fed3fe2025b732eb554813a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 50c5aed4f12cc5bef9bc50c2a41009de4e6ad811
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54963868"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56627469"
 ---
 # <a name="export-button-concurrency-visualizer"></a>내보내기 단추(동시성 시각화 도우미)
-**내보내기** 단추를 통해 사용자 고유의 레코드 또는 Microsoft Excel과 같은 다른 도구와 함께 사용하기 위해 .*csv* 파일로 호출 스택을 내보낼 수 있습니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [동시성 시각화 도우미](../profiling/concurrency-visualizer.md)   
- [스레드 뷰](../profiling/threads-view-parallel-performance.md)
+**내보내기** 단추를 통해 사용자 고유의 레코드 또는 Microsoft Excel과 같은 다른 도구와 함께 사용하기 위해 .*csv* 파일로 호출 스택을 내보낼 수 있습니다.
+
+## <a name="see-also"></a>참고 항목
+- [동시성 시각화 도우미](../profiling/concurrency-visualizer.md)
+- [스레드 뷰](../profiling/threads-view-parallel-performance.md)

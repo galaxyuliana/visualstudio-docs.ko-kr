@@ -12,18 +12,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 040b0f5f657b41a268f69d7f34d6c0072646a8e2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 617783019a8a8b5a1ac2623ed113b78308466501
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55034092"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56696885"
 ---
 # <a name="quickstart-debug-with-c-or-visual-basic-using-the-visual-studio-debugger"></a>빠른 시작: Visual Studio 디버거를 사용하여 C# 또는 Visual Basic으로 디버그
 
 Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력한 기능을 제공합니다. 이 항목에는 기본 기능 중 일부에 대해 알아보는 빠른 방법을 제공합니다.
 
-## <a name="create-a-new-project"></a>새 프로젝트 만들기 
+## <a name="create-a-new-project"></a>새 프로젝트 만들기
 
 1. Visual Studio에서 **파일 > 새 프로젝트**를 선택합니다.
 
@@ -158,7 +158,7 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
 
     ![datatip 보기](../debugger/media/dbg-qs-data-tip-csharp.png "datatip 보기")
 
-    datatip은 `c1` 변수의 현재 값을 보여주고 이를 통해 해당 속성을 검사할 수 있습니다. 디버깅할 때 예상하지 않은 값이 표시되는 경우 이전 또는 호출하는 코드 줄에 버그가 있을 가능성이 큽니다. 
+    datatip은 `c1` 변수의 현재 값을 보여주고 이를 통해 해당 속성을 검사할 수 있습니다. 디버깅할 때 예상하지 않은 값이 표시되는 경우 이전 또는 호출하는 코드 줄에 버그가 있을 가능성이 큽니다.
 
 2. datatip을 확장하여 `c1` 개체의 현재 속성 값을 확인합니다.
 

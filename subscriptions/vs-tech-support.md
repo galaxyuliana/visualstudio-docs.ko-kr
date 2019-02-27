@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독에 포함된 기술 지원 혜택을 활성화하는 방법을 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: de53a94bd8ab0513e27f7c62461165d9ff8e865c
-ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
+ms.openlocfilehash: fc1fabec9e6f220162ace335e69e63e8bc1c7286
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "55089226"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841711"
 ---
 # <a name="activate-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 기술 지원 혜택 활성화
 
@@ -22,13 +20,13 @@ ms.locfileid: "55089226"
 
 > [!NOTE]
 > 지정된 수준의 일부 구독은 지원 인시던트를 받을 수 없습니다. FTE, NFR, MPN, MCT 및 기타 프로그램을 통해 취득한 구독은 지원 인시던트를 받을 수 없습니다. 구독에 기술 지원 인시던트를 받을 자격이 없는 경우 기술 지원 타일이 사용 가능한 혜택에 나타나지 않습니다.
-> 
+>
 > [!div class="mx-imgBorder"]
 > ![기술 지원 혜택 타일](_img/vs-tech-support/vs-tech-support-tile.png)
 
 
-1. 기술 지원 혜택의 사용을 시작하려면 https://my.visualstudio.com/Benefits로 이동하고, 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다. 
-2. 그러면 계약 ID 및 액세스 ID를 만들고 사용자에게 제공할 수 있는 담당자와 채팅 세션이 시작됩니다. 
+1. 기술 지원 혜택의 사용을 시작하려면 https://my.visualstudio.com/Benefits로 이동하고, 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다.
+2. 그러면 계약 ID 및 액세스 ID를 만들고 사용자에게 제공할 수 있는 담당자와 채팅 세션이 시작됩니다.
 3. 프로세스를 완료하려면 담당자에게 다음을 제공해야 합니다.
    - 구독에 로그인하는 데 사용하는 전자 메일 주소
    - [구독](https://my.visualstudio.com/subscriptions) 탭에서 찾을 수 있는 구독 ID입니다.
@@ -38,7 +36,7 @@ ms.locfileid: "55089226"
 
 
 > [!NOTE]
-> 지원 계정을 영어가 아닌 다른 언어로 활성화하려면 [이 목록](https://support.microsoft.com/help/14084/activate-support-contract)에서 국가를 선택합니다.   
+> 지원 계정을 영어가 아닌 다른 언어로 활성화하려면 [이 목록](https://support.microsoft.com/help/14084/activate-support-contract)에서 국가를 선택합니다.
 
 
 ## <a name="how-to-submit-an-incident"></a>인시던트 제출 방법
@@ -48,12 +46,12 @@ ms.locfileid: "55089226"
 ### <a name="submit-an-incident-online"></a>온라인으로 인시던트 제출
 
 1. [인시던트를 온라인으로 제출](http://support.microsoft.com/oas/)하려면 지원이 필요한 제품을 지정합니다. 다양한 목록에서 선택하거나 이름으로 검색할 수 있습니다. 예를 들어 Visual Studio Enterprise 2017에 대한 인시던트를 제출하려면 **개발자 도구** 그룹에서 **Visual Studio**를 클릭합니다.
-   > [!div class="mx-imgBorder"]    
+   > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 인시던트 제품 선택](_img/vs-tech-support/vs-tech-support-select-product.png)
 
 2. 지원이 필요한 제품을 선택합니다. (예를 들어 Visual Studio 제품 목록에서 **Visual Studio Enterprise 2017**을 클릭합니다.)
 3. **인시던트 만들기** 페이지의 드롭다운 목록에서 해당 문제 유형을 선택합니다. 이 예에서는 **IDE(Integrated Development Environment)** 를 선택합니다.
-   > [!div class="mx-imgBorder"]    
+   > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 인시던트 만들기](_img/vs-tech-support/vs-tech-support-create-incident.png)
 
 4. 그런 다음 질문/문제에 가장 적합한 **범주**를 선택합니다. 이 예에서는 **도구 설계**를 선택합니다.
@@ -64,7 +62,7 @@ ms.locfileid: "55089226"
    - 액세스 ID와 계약 ID를 입력합니다.
    - **추가**를 클릭합니다.
 7. 지원 계약이 추가되면 전문가 지원 계약 목록에 표시됩니다. 해당 항목을 선택하고 **계속**을 클릭합니다.
-   > [!div class="mx-imgBorder"]     
+   > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 결제](_img/vs-tech-support/vs-tech-support-payment.png)
 
 8. 연락처 정보와 기본 설정된 연락 방법을 제공하고 **계속**을 클릭합니다.
@@ -99,7 +97,7 @@ Azure와 관련된 문제에 대해 Visual Studio 구독 기술 지원 혜택을
 | Visual Studio Dev Essentials | 해당 없음 | 사용할 수 없음 |해당 없음|
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> *포함: Imagine Premium. 제외: NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services
+<sup>1</sup> *포함: Imagine Premium. 제외: NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services*
 
 <sup>2</sup> *포함: Imagine Standard.*
 

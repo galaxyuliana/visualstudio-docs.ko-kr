@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b374d897b3c2e03504a334c41d6eafc682e38f9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 36e5e8f59474a9a2fcbfef7a1c6b3d75febe3086
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913082"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56708773"
 ---
 # <a name="personalize-the-visual-studio-ide"></a>Visual Studio IDE 개인 설정
 
@@ -50,9 +50,13 @@ ms.locfileid: "55913082"
 
 메뉴 또는 도구 모음 항목을 추가하거나 제거하려면 [방법: 메뉴 및 도구 모음 사용자 지정](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)을 참조하세요.
 
+::: moniker range="vs-2017"
+
 ## <a name="start-page"></a>시작 페이지
 
 사용자와 사용자의 팀을 위한 사용자 지정 시작 페이지를 만들려면 [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)을 참조하세요.
+
+::: moniker-end
 
 ## <a name="window-layouts"></a>창 레이아웃
 

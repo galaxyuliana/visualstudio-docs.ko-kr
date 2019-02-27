@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8a8b1e43a311936a35b15cf7a73c4f00a4793268
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2684ed1389556dfb96bf8eeb113f82336eb8c6d0
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54947623"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56605187"
 ---
 # <a name="msbuild-toolset-toolsversion"></a>MSBuild 도구 집합(ToolsVersion)
 MSBuild는 애플리케이션을 빌드하기 위한 작업, 대상 및 도구로 구성된 도구 집합을 사용합니다. 일반적으로 MSBuild 도구 집합에는 *microsoft.common.tasks* 파일, *microsoft.common.targets* 파일 및 컴파일러(예: *csc.exe* 및 *vbc.exe*)가 포함되어 있습니다. 대부분의 도구 집합을 사용하여 애플리케이션을 둘 이상의 .NET Framework 버전 및 둘 이상의 시스템 플랫폼으로 컴파일할 수 있습니다. 그러나 MSBuild 2.0 도구 집합을 사용해서는 .NET Framework 2.0만 대상으로 할 수 있습니다.
@@ -116,4 +116,5 @@ MSBuild는 `ToolLocationHelper` 열거형 값을 매개 변수로 추가하는 `
 하위 도구 집합은 .NET Framework 4.5에서 도입되었습니다.
 
 ## <a name="see-also"></a>참고 항목
- [표준 및 사용자 지정 도구 세트 구성](../msbuild/standard-and-custom-toolset-configurations.md) [다중 대상 지정](../msbuild/msbuild-multitargeting-overview.md)
+- [표준 및 사용자 지정 도구 집합 구성](../msbuild/standard-and-custom-toolset-configurations.md)
+- [멀티 타기팅](../msbuild/msbuild-multitargeting-overview.md)

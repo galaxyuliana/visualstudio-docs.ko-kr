@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d61cfb8d61daaf570cb03865aa0568e670fb4919
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 86593ca3ac437b9a36fb671694898a7d80434eba
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55854111"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56626624"
 ---
 # <a name="generateapplicationmanifest-task"></a>GenerateApplicationManifest 작업
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션 매니페스트 또는 네이티브 매니페스트를 생성합니다. 네이티브 매니페스트는 구성 요소의 고유 ID를 정의하고 구성 요소를 구성하는 모든 어셈블리와 파일을 식별하는 방식으로 구성 요소를 설명합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션 매니페스트는 애플리케이션의 진입점을 지정하고 애플리케이션 보안 수준을 지정하여 네이티브 매니페스트를 확장합니다.
@@ -81,14 +81,14 @@ ms.locfileid: "55854111"
 |`TargetPath`|생성된 매니페스트에서 경로를 정의하는 방법을 지정합니다. 이 특성은 모든 파일에 유효합니다. 이 특성을 지정하지 않으면 항목 사양이 사용됩니다. 이 특성은 `DependencyType` 값이 `Install`인 모든 파일 및 종속성에 유효합니다.|
 |`IsDataFile`|파일이 데이터 파일인지 여부를 나타내는 `Boolean` 메타데이터 값입니다. 데이터 파일은 애플리케이션 업데이트 간에 마이그레이션된다는 점에서 특별합니다. 이 메타데이터는 파일에만 유효합니다. 기본값은 `False`입니다.|
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 `GenerateApplicationManifest` 작업을 사용하여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션 매니페스트를 생성하고 `GenerateDeploymentManifest` 작업을 사용하여 단일 어셈블리가 포함된 애플리케이션의 배포 매니페스트를 생성합니다. 그런 다음 `SignFile` 작업을 사용하여 매니페스트에 서명합니다.
 
 다음은 단일 프로그램에 대한 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 매니페스트가 생성되는 가장 간단할 수 있는 매니페스트 생성 시나리오를 보여 줍니다. 기본 이름 및 ID는 매니페스트에 대한 어셈블리에서 유추됩니다.
 
 > [!NOTE]
 > 아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포를 생성합니다.
-> 
+>
 > [!NOTE]
 > 이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.
 
@@ -134,14 +134,14 @@ ms.locfileid: "55854111"
 </Project>
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 `GenerateApplicationManifest` 및 `GenerateDeploymentManifest` 작업을 통해 단일 어셈블리가 포함된 애플리케이션에 대한 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션 및 배포 매니페스트를 생성하여 매니페스트의 이름과 ID를 지정합니다.
 
 이 예제는 매니페스트의 이름 및 ID가 명시적으로 지정된다는 점을 제외하고 이전 예제와 비슷합니다. 또한 이 예제는 설치된 애플리케이션이 아닌 온라인 애플리케이션으로 구성됩니다.
 
 > [!NOTE]
 > 아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포를 생성합니다.
-> 
+>
 > [!NOTE]
 > 이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.
 
@@ -194,12 +194,12 @@ ms.locfileid: "55854111"
 </Project>
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 `GenerateApplicationManifest` 및 `GenerateDeploymentManifest` 작업을 통해 여러 파일 및 어셈블리가 포함된 애플리케이션에 대한 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션 및 배포 매니페스트를 생성합니다.
 
 > [!NOTE]
 > 아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포를 생성합니다.
-> 
+>
 > [!NOTE]
 > 이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.
 
@@ -312,7 +312,7 @@ ms.locfileid: "55854111"
 </Project>
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 `GenerateApplicationManifest` 작업을 통해 애플리케이션 *Test.exe*에 대한 네이티브 매니페스트를 생성하여 네이티브 구성 요소 *Alpha.dll* 및 격리된 COM 구성 요소 *Bravo.dll*을 참조합니다.
 
 이 예제에서는 *Test.exe.manifest*를 생성하여 등록이 필요 없는 COM을 활용하는 애플리케이션 XCOPY를 배포 가능하도록 만듭니다.
@@ -350,7 +350,7 @@ ms.locfileid: "55854111"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[작업](../msbuild/msbuild-tasks.md)  
-[GenerateDeploymentManifest 작업](../msbuild/generatedeploymentmanifest-task.md)  
-[SignFile 작업](../msbuild/signfile-task.md)  
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [GenerateDeploymentManifest 작업](../msbuild/generatedeploymentmanifest-task.md)
+- [SignFile 작업](../msbuild/signfile-task.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

@@ -16,18 +16,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 85ad6261dba80e56ab44f43b4c70df79d63bb509
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6594620051675f2c0ce6e06ca098d26e443f624b
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55001633"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56617238"
 ---
 # <a name="calltarget-task"></a>CallTarget 작업
-프로젝트 파일 내의 지정된 대상을 호출합니다.  
+프로젝트 파일 내의 지정된 대상을 호출합니다.
 
-## <a name="task-parameters"></a>작업 매개 변수  
- 다음 표에서는 `CallTarget` 작업의 매개 변수에 대해 설명합니다.  
+## <a name="task-parameters"></a>작업 매개 변수
+ 다음 표에서는 `CallTarget` 작업의 매개 변수에 대해 설명합니다.
 
 
 | 매개 변수 | 설명 |
@@ -37,31 +37,31 @@ ms.locfileid: "55001633"
 | `Targets` | 선택적 `String[]` 매개 변수입니다.<br /><br /> 빌드할 대상을 지정합니다. |
 | `UseResultsCache` | 선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`인 경우 캐시된 결과(있는 경우)가 반환됩니다.<br /><br /> **참고** MSBuild 작업이 실행되면 해당 출력은 (ProjectFileName, GlobalProperties)[TargetNames] 범위에 빌드 항목의 목록으로 캐시됩니다. |
 
-## <a name="remarks"></a>주의  
- `Targets`에 지정된 대상이 실패하고 `RunEachTargetSeparately`가 `true`인 경우 작업이 나머지 대상을 계속 빌드합니다.  
+## <a name="remarks"></a>주의
+ `Targets`에 지정된 대상이 실패하고 `RunEachTargetSeparately`가 `true`인 경우 작업이 나머지 대상을 계속 빌드합니다.
 
- 기본 대상을 빌드하려는 경우 [MSBuild 작업](../msbuild/msbuild-task.md)을 사용하고 `$(MSBuildProjectFile)`와 동일한 `Projects` 매개 변수를 설정합니다.  
+ 기본 대상을 빌드하려는 경우 [MSBuild 작업](../msbuild/msbuild-task.md)을 사용하고 `$(MSBuildProjectFile)`와 동일한 `Projects` 매개 변수를 설정합니다.
 
- 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.  
+ 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
 
-## <a name="example"></a>예제  
- 다음 예제에서는 `CallOtherTargets` 내에서 `TargetA`를 호출합니다.  
+## <a name="example"></a>예제
+ 다음 예제에서는 `CallOtherTargets` 내에서 `TargetA`를 호출합니다.
 
-```xml  
-<Project DefaultTargets="CallOtherTargets"  
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+```xml
+<Project DefaultTargets="CallOtherTargets"
+    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-    <Target Name="CallOtherTargets">  
-        <CallTarget Targets="TargetA"/>  
-    </Target>  
+    <Target Name="CallOtherTargets">
+        <CallTarget Targets="TargetA"/>
+    </Target>
 
-    <Target Name="TargetA">  
-        <Message Text="Building TargetA..." />  
-    </Target>  
+    <Target Name="TargetA">
+        <Message Text="Building TargetA..." />
+    </Target>
 
-</Project>  
-```  
+</Project>
+```
 
-## <a name="see-also"></a>참고 항목  
- [작업 참조](../msbuild/msbuild-task-reference.md)   
- [대상](../msbuild/msbuild-targets.md)
+## <a name="see-also"></a>참고 항목
+- [작업 참조](../msbuild/msbuild-task-reference.md)
+- [대상](../msbuild/msbuild-targets.md)

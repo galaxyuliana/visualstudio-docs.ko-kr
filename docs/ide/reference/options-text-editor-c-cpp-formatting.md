@@ -16,12 +16,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: ae24e69ddceea88155d7185157a6ed25daab5430
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3884507bb594853ebdb0cbc16ab2ee07a372c566
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922123"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56645487"
 ---
 # <a name="options-text-editor-cc-formatting"></a>옵션, 텍스트 편집기, C/C++, 서식
 
@@ -42,7 +42,7 @@ ms.locfileid: "55922123"
 
 ### <a name="configuring-clangformat-options"></a>ClangFormat 옵션 구성
 
-Visual Studio 2017 버전 15.7 이상에서는 ClangFormat 지원이 기본적으로 사용하도록 설정됩니다. 다음과 같은 모든 프로젝트에 적용할 수 있는 공통의 서식 지정 규칙을 선택할 수 있습니다. LLVM, Google, Chromium, Mozilla 또는 WebKit 또한 사용자 지정 서식 정의 .clang-format 또는 _clang-format 파일을 만들 수도 있습니다. 이러한 파일이 프로젝트 폴더에 있는 경우 Visual Studio는 이 파일을 사용하여 해당 폴더 및 하위 폴더의 모든 소스 코드 파일에 서식을 지정합니다. 
+Visual Studio 2017 버전 15.7 이상에서는 ClangFormat 지원이 기본적으로 사용하도록 설정됩니다. 다음과 같은 모든 프로젝트에 적용할 수 있는 공통의 서식 지정 규칙을 선택할 수 있습니다. LLVM, Google, Chromium, Mozilla 또는 WebKit 또한 사용자 지정 서식 정의 .clang-format 또는 _clang-format 파일을 만들 수도 있습니다. 이러한 파일이 프로젝트 폴더에 있는 경우 Visual Studio는 이 파일을 사용하여 해당 폴더 및 하위 폴더의 모든 소스 코드 파일에 서식을 지정합니다.
 
 기본적으로 Visual Studio는 clangformat.exe를 백그라운드에서 실행하여 입력과 동시에 서식을 적용합니다. 수동으로 호출된 서식 명령 **문서 서식(Ctrl+K, Ctrl+D)** 또는 **선택 영역 서식(Ctrl + K, Ctrl + F)** 에 대해서만 실행하도록 지정할 수도 있습니다.
 

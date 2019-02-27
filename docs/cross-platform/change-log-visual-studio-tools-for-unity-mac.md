@@ -10,12 +10,12 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: 0b641c9dd1fe797fc036a6ece893ad61fc52ff87
-ms.sourcegitcommit: 5c049194fa256b876ad303f491af11edd505756c
+ms.openlocfilehash: d9563d45d9a09e4402f1586a18fe9e5d7d9775c1
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53027239"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56611076"
 ---
 # <a name="change-log-visual-studio-tools-for-unity-mac"></a>변경 로그(Visual Studio Tools for Unity, Mac)
 Visual Studio Tools for Unity에 대한 변경 로그입니다.
@@ -34,11 +34,11 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 -   **디버거:**
 
      -   특히 ‘Unity에 연결’을 누르거나 게임을 다시 시작할 때, Unity의 디버거 엔진과 통신하는 데 사용되는 라이브러리에서 교착 상태가 발생하여 Visual Studio 또는 Unity를 동결시키는 문제가 해결되었습니다.
-     
+
 -   **통합:**
 
      -   다른 기본 편집기가 선택되었을 때 고정 Unity 플러그 인 활성화.
-     
+
      -   고정 Unity 파일 템플릿 생성.
 
 ## <a name="1602"></a>1.6.0.2
@@ -49,7 +49,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 -   **통합:**
 
      -   Unity에서 수정된 Unity 성능 버그에 대한 해결 방법이 롤백되었습니다.
-     
+
 ## <a name="1601"></a>1.6.0.1
  릴리스 날짜: 2018년 7월 10일
 
@@ -58,7 +58,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 -   **통합:**
 
      -   셰이더 코드 색 지정 지원이 수정되었습니다.
-     
+
 ## <a name="1600"></a>1.6.0.0
  릴리스 날짜: 2018년 6월 26일
 
@@ -71,23 +71,23 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 -   **Project Generation:**
 
      -   Unity 성능 버그에 대한 일시적인 해결 방법: 프로젝트를 생성할 때 MonoIslands를 캐시합니다.
-     
+
      -   새 Unity 런타임에서 사용하는 경우 더 이상 이식 가능한 pdb를 mdb로 변환하지 않습니다.
-     
+
 ## <a name="1502"></a>1.5.0.2
  릴리스 날짜: 2018년 4월 18일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **통합:**
 
     -   기본 셰이더 코드 완성에 대한 지원이 추가되었습니다.
-    
+
     -   셰이더 파일에서 주석을 설정/해제하는 지원이 추가되었습니다.
 
 ## <a name="1501"></a>1.5.0.1
  릴리스 날짜: 2018년 3월 28일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **통합:**
@@ -96,7 +96,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1500"></a>1.5.0.0
  릴리스 날짜: 2018년 3월 21일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **통합:**
@@ -105,7 +105,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1403"></a>1.4.0.3
  릴리스 날짜: 2018년 3월 5일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **Project Generation:**
@@ -118,7 +118,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1402"></a>1.4.0.2
  릴리스 날짜: 2018년 1월 24일
- 
+
 ### <a name="bug-fixes"></a>버그 수정
 
 -   **Project Generation:**
@@ -133,7 +133,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1401"></a>1.4.0.1
  릴리스 날짜: 2018년 1월 23일
- 
+
 ### <a name="bug-fixes"></a>버그 수정
 
 -   **통합:**
@@ -142,7 +142,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1400"></a>1.4.0.0
  릴리스 날짜: 2017년 12월 13일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **Project Generation:**
@@ -157,7 +157,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1301"></a>1.3.0.1
  릴리스 날짜: 2017년 12월 12일
- 
+
 ### <a name="bug-fixes"></a>버그 수정
 
 -   **통합:**
@@ -170,7 +170,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1300"></a>1.3.0.0
  릴리스 날짜: 2017년 11월 20일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **마법사:**
@@ -181,7 +181,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1200"></a>1.2.0.0
  릴리스 날짜: 2017년 10월 23일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **디버거:**
@@ -198,7 +198,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1103"></a>1.1.0.3
  릴리스 날짜: 2017년 10월 23일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **Project Generation:**
@@ -207,7 +207,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1102"></a>1.1.0.2
  릴리스 날짜: 2017년 8월 8일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **디버거:**
@@ -220,7 +220,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1101"></a>1.1.0.1
  릴리스 날짜: 2017년 7월 20일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **통합:**
@@ -229,7 +229,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1100"></a>1.1.0.0
  릴리스 날짜: 2017년 7월 12일
- 
+
 ### <a name="new-features"></a>새 기능
 
 -   **통합:**
@@ -240,9 +240,9 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   mcs.rsp 파일을 사용한 어셈블리 이름 참조를 수정했습니다.
 
-    -   assembly.json 컴파일 단위 지원이 추가되었습니다.    
+    -   assembly.json 컴파일 단위 지원이 추가되었습니다.
 
-    -   API 수준을 사용한 정의를 수정했습니다.    
+    -   API 수준을 사용한 정의를 수정했습니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
@@ -252,7 +252,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ## <a name="1001"></a>1.0.0.1
  릴리스 날짜: 2017년 5월 4일
- 
+
 ### <a name="bug-fixes"></a>버그 수정
 
 -   **통합:**

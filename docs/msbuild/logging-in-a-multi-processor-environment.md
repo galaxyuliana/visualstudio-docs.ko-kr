@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 27b96dff857d49f12ffaa10e22c9189eb3a1d5b2
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: efbc02bb536ca8e39454fbbb476460c4cbd51363
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55925451"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56638737"
 ---
 # <a name="logging-in-a-multi-processor-environment"></a>다중 프로세서 환경에서의 로그인
 MSBuild에서는 다중 프로세서를 사용할 수 있기 때문에 프로젝트 빌드 시간을 크게 줄일 수 있는 반면 로깅은 복잡해집니다. 단일 프로세서 환경에서 로거는 예측 가능하고 순차적인 방식으로 들어오는 이벤트, 메시지, 경고 및 오류를 처리할 수 있습니다. 그러나 다중 프로세서 환경에서 여러 원본의 이벤트는 동시에 또는 순서 없이 도착할 수 있습니다. MSBuild에서는 새 다중 프로세서 인식 로거가 제공되며, 사용자 지정 "전달 로거"를 만들 수 있습니다.
@@ -71,5 +71,5 @@ Culture=neutral
 별표(*)는 `-dl` 스위치에서 두 개의 로거 이름을 구분합니다.
 
 ## <a name="see-also"></a>참고 항목
-[빌드 로거](../msbuild/build-loggers.md)  
-[전달 로거 만들기](../msbuild/creating-forwarding-loggers.md)
+- [빌드 로거](../msbuild/build-loggers.md)
+- [전달 로거 만들기](../msbuild/creating-forwarding-loggers.md)

@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c5759be35cda11557847d128233811d8aaffced7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: fa9a210b61a1ba28d2dca2f81184b3d20a91ff7f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55938932"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56638703"
 ---
 # <a name="lc-task"></a>LC 작업
 *.licx* 파일에서 *.license* 파일을 생성하는 *LC.exe*를 래핑합니다. *LC.exe*에 대한 자세한 내용은 [Lc.exe(라이선스 컴파일러)](/dotnet/framework/tools/lc-exe-license-compiler)를 참조하세요.
@@ -43,7 +43,7 @@ ms.locfileid: "55938932"
 
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 `LC` 작업을 사용하여 라이선스를 컴파일합니다.
 
 ```xml
@@ -67,5 +67,5 @@ ms.locfileid: "55938932"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[작업](../msbuild/msbuild-tasks.md)  
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

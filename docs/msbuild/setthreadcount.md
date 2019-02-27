@@ -15,28 +15,29 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b4bfb8e1f60ed668039011841e12021e0f0702f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 656e491e683c7ec2de23ea7e49938e833af3a295
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54942011"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56709618"
 ---
 # <a name="setthreadcount"></a>SetThreadCount
-전역 스레드 개수를 설정하고 해당 개수를 현재 스레드에 할당합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cmd  
-HRESULT WINAPI SetThreadCount(int threadCount);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- [in] `threadCount`  
- 사용할 스레드 수입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 스레드 개수가 업데이트된 경우 **SUCCEEDED** 비트가 설정된 **HRESULT**를 반환합니다.  
-  
-## <a name="requirements"></a>요구 사항  
+전역 스레드 개수를 설정하고 해당 개수를 현재 스레드에 할당합니다.
+
+## <a name="syntax"></a>구문
+
+```cmd
+HRESULT WINAPI SetThreadCount(int threadCount);
+```
+
+#### <a name="parameters"></a>매개 변수
+[in] `threadCount`
+
+ 사용할 스레드 수입니다.
+
+## <a name="return-value"></a>반환 값
+ 스레드 개수가 업데이트된 경우 **SUCCEEDED** 비트가 설정된 **HRESULT**를 반환합니다.
+
+## <a name="requirements"></a>요구 사항
  **헤더:** *FileTracker.h*

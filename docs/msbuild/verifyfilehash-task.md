@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b8122f1a3869efe32d7ae35ff05cdbb77ad84375
-ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
+ms.openlocfilehash: faf7738019680085020b9650094931d5860bc29b
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55485045"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56618382"
 ---
 # <a name="verifyfilehash-task"></a>VerifyFileHash 작업
 
@@ -40,7 +40,7 @@ ms.locfileid: "55485045"
 |`Algorithm`|선택적 `String` 매개 변수입니다.<br /><br />알고리즘입니다. 허용되는 값: `SHA256`, `SHA384`, `SHA512`. 기본값은 `SHA256`입니다.|
 |`HashEncoding`|선택적 `String` 매개 변수입니다.<br /><br />생성된 해시에 사용할 인코딩입니다. 기본값은 `hex`입니다. 허용되는 값은 `hex`, `base64`입니다.|
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 예제에서는 `VerifyFileHash` 작업을 사용하여 자체 체크섬을 확인합니다.
 
@@ -64,6 +64,5 @@ ms.locfileid: "55485045"
 
 ## <a name="see-also"></a>참고 항목
 
-[작업](../msbuild/msbuild-tasks.md)
-
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 93edaaf22dd59014a29c374ea3c4613d98d00d36
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9167c56d976cd79e2e51cf9914213b766f647416
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946547"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56623712"
 ---
 # <a name="item-metadata-in-task-batching"></a>작업 일괄 처리의 항목 메타데이터
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에는 항목 목록을 항목 메타데이터에 따라 여러 다른 범주 또는 일괄 처리로 나누고 각 일괄 처리를 사용하여 한 번에 하나의 작업을 실행하는 기능이 있습니다. 어떤 항목이 어떤 일괄 처리를 통해 전달될지 정확히 이해하는 것은 어려울 수 있습니다. 이 항목에서는 일괄 처리와 관련된 다음과 같은 일반적인 시나리오를 다룹니다.
@@ -218,9 +218,9 @@ Items in ExampColl: Item2;Item5
 ```
 
 ## <a name="see-also"></a>참고 항목
-[잘 알려진 항목 메타데이터](../msbuild/msbuild-well-known-item-metadata.md)  
-[Item 요소(MSBuild)](../msbuild/item-element-msbuild.md)  
-[ItemMetadata 요소(MSBuild)](../msbuild/itemmetadata-element-msbuild.md)  
-[일괄 처리](../msbuild/msbuild-batching.md)  
-[MSBuild 개념](../msbuild/msbuild-concepts.md)  
-[MSBuild 참조](../msbuild/msbuild-reference.md)
+- [잘 알려진 항목 메타데이터](../msbuild/msbuild-well-known-item-metadata.md)
+- [Item 요소(MSBuild)](../msbuild/item-element-msbuild.md)
+- [ItemMetadata 요소(MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
+- [일괄 처리](../msbuild/msbuild-batching.md)
+- [MSBuild 개념](../msbuild/msbuild-concepts.md)
+- [MSBuild 참조](../msbuild/msbuild-reference.md)

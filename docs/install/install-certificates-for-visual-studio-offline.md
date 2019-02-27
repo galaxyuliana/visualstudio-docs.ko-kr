@@ -13,12 +13,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d6855603c0cc322d5ed235ac81e0f9f15cef725c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ab235393996396aaba8331b8e55001ad292bdc51
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936644"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56645721"
 ---
 # <a name="install-certificates-required-for-visual-studio-offline-installation"></a>Visual Studio 오프라인 설치에 필요한 인증서 설치
 
@@ -61,6 +61,7 @@ Visual Studio 설치 엔진은 신뢰할 수 있는 콘텐츠만 설치합니다
 
    certmgr.exe -add -c certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
    ```
+
    **업데이트**: Visual Studio 2017 버전 15.8 미리 보기 2 이상의 경우, 다음 명령을 사용하여 일괄 처리 파일을 만듭니다.
 
    ```cmd
@@ -123,7 +124,7 @@ Visual Studio 설치 엔진은 신뢰할 수 있는 콘텐츠만 설치합니다
 
 ## <a name="install-visual-studio"></a>Visual Studio 설치
 
-인증서가 설치되면 "Visual Studio의 네트워크 설치 만들기" 페이지에 있는 [네트워크 설치에서 배포](create-a-network-installation-of-visual-studio.md#deploying-from-a-network-installation) 섹션의 지침에 따라 Visual Studio 배포를 진행할 수 있습니다.
+인증서가 설치되면 "Visual Studio의 네트워크 설치 만들기" 페이지에 있는 [네트워크 설치에서 배포](create-a-network-installation-of-visual-studio.md#deploy-from-a-network-installation) 섹션의 지침에 따라 Visual Studio 배포를 진행할 수 있습니다.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

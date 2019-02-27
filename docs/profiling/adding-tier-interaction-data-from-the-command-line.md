@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 50e6af91a542c105704a7237d5cd1dcbf8efa2a7
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b04b2d2c3c23b444d011d81002f7f22a12b1ebf0
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55015812"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56638545"
 ---
 # <a name="add-tier-interaction-data-from-the-command-line"></a>명령줄에서 계층 상호 작용 데이터 추가
 
@@ -61,7 +61,7 @@ SQLServer 데이터베이스에 대해 동기 [!INCLUDE[vstecado](../data-tools/
 3. 프로파일러를 시작합니다. 다음 명령을 입력합니다.
 
     ```cmd
-    vsperfcmd /start:trace /output:Desktop_tip.vsp 
+    vsperfcmd /start:trace /output:Desktop_tip.vsp
     ```
 
 4. VSPerfCmd로 애플리케이션을 시작합니다. 다음 명령을 입력합니다.
@@ -113,7 +113,7 @@ SQLServer 데이터베이스에 대해 동기 [!INCLUDE[vstecado](../data-tools/
 7. 프로파일러를 시작합니다. 다음 명령을 입력합니다.
 
     ```cmd
-    vsperfcmd /start:trace /output:MiddleTier_tip.vsp /user:SYSTEM /crosssession 
+    vsperfcmd /start:trace /output:MiddleTier_tip.vsp /user:SYSTEM /crosssession
     ```
 
 8. 필요한 경우 서비스를 시작합니다.
@@ -121,7 +121,7 @@ SQLServer 데이터베이스에 대해 동기 [!INCLUDE[vstecado](../data-tools/
 9. 프로파일러를 서비스에 연결합니다. 다음 명령을 입력합니다.
 
     ```cmd
-    vsperfcmd /attach:MiddleTier.exe /output:MyService_tip.vsp /user:SYSTEM /crosssession 
+    vsperfcmd /attach:MiddleTier.exe /output:MyService_tip.vsp /user:SYSTEM /crosssession
     ```
 
 10. 서비스를 실행하고 프로파일링 데이터를 수집합니다.
