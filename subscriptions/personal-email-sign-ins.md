@@ -4,19 +4,17 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/23/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독 - 구독자의 Hotmail 또는 Gmail 주소가 보이는 이유는 무엇인가요?
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: a9b0e02acd0c362759997938cec91983a5d48547
-ms.sourcegitcommit: 37144589d9f850ff81ec7bfb884429989925a43d
+ms.openlocfilehash: 0ba4029fcec0c8d35a58def14ab38afbb79e2fee
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2018
-ms.locfileid: "34335722"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843379"
 ---
-# <a name="visual-studio-subscriptions--why-am-i-seeing-hotmail-or-gmail-addresses-for-my-subscribers"></a>Visual Studio 구독 - 구독자의 Hotmail 또는 Gmail 주소가 보이는 이유는 무엇인가요? 
+# <a name="visual-studio-subscriptions--why-am-i-seeing-hotmail-or-gmail-addresses-for-my-subscribers"></a>Visual Studio 구독 - 구독자의 Hotmail 또는 Gmail 주소가 보이는 이유는 무엇인가요?
 
 기업이 VLSC(볼륨 라이선스 서비스 센터)에서 새 Visual Studio [구독 관리 포털](https://manage.visualstudio.com)로 마이그레이션할 경우 관리자는 일부 구독자의 “로그인 전자 메일 주소”에 Hotmail, Gmail 또는 Yahoo와 같은 타사 전자 메일 주소가 표시되는 경우를 발견할 수 있습니다.  자세한 내용은 [이 비디오](https://www.youtube.com/watch?v=1op-i1zEMfY&t=0s&list=PLReL099Y5nRfDyvvwzNDBaZe7qTxmuM2T&index=6)를 참조하세요.
 
@@ -26,15 +24,15 @@ ms.locfileid: "34335722"
 1. 관리자가 해당 회사 또는 학교 전자 메일 주소를 사용하여 개별 구독자에게 구독을 “할당”했습니다.
 2. 구독자가 구독을 “활성화”했습니다.
 
-구독자 활성화 프로세스 중에 로그인하려면 MSA(Microsoft 계정)가 필요했습니다. 구독자가 해당 회사 또는 학교 계정(예: tasha@contoso.com)을 MSA로 설정하지 않은 경우 새 MSA를 만들거나 기존 MSA를 활용할 수 있었습니다. 이로 인해 “로그인 전자 메일 주소”가 “할당 대상 전자 메일 주소”와 달라졌습니다.
+구독자 활성화 프로세스 중에: 로그인하려면 Microsoft 계정(MSA)이 필요했습니다. 구독자가 해당 회사 또는 학교 계정(예: tasha@contoso.com)을 MSA로 설정하지 않은 경우 새 MSA를 만들거나 기존 MSA를 활용할 수 있었습니다. 이로 인해 “로그인 전자 메일 주소”가 “할당 대상 전자 메일 주소”와 달라졌습니다.
 
-> [!NOTE] 
+> [!NOTE]
 > [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs)의 새로운 구독자 환경은 회사/학교 및 Microsoft 계정(MAA) ID 유형을 둘 다 지원합니다.
 
 마지막으로, 관리자 마이그레이션은 구독자의 “로그인 전자 메일 주소”에 대한 VLSC의 데이터를 가져와서 새 구독자 관리 환경을 채우므로, 이 정보가 더 잘 보이는 사용자 인터페이스 변경으로 인해 최근에 마이그레이션된 관리자는 이전에는 보이지 않았던 이러한 개인 계정을 볼 수 있습니다.
 
 ## <a name="solution"></a>솔루션
 
-문제를 해결하려면 구독자 정보를 편집하여 로그인 전자 메일 주소를 업데이트해야 합니다.  개별 구독자를 편집하거나 일괄적으로 편집할 수 있습니다. 자세한 내용은 [구독 편집](edit-license.md)을 참조하세요.  
+문제를 해결하려면 구독자 정보를 편집하여 로그인 전자 메일 주소를 업데이트해야 합니다.  개별 구독자를 편집하거나 일괄적으로 편집할 수 있습니다. 자세한 내용은 [구독 편집](edit-license.md)을 참조하세요.
 
-구독자 전자 메일 주소를 업데이트한 후 로그인 정보가 변경되었음을 구독자에게 알려야 할 수 있습니다.  또한 업데이트된 정보가 포함된 전자 메일을 받게 됩니다.   
+구독자 전자 메일 주소를 업데이트한 후 로그인 정보가 변경되었음을 구독자에게 알려야 할 수 있습니다.  또한 업데이트된 정보가 포함된 전자 메일을 받게 됩니다.

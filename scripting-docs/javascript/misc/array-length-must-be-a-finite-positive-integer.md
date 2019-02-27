@@ -1,14 +1,9 @@
 ---
 title: 배열 길이 유한한 양의 정수 여야 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT5029
 dev_langs:
@@ -16,18 +11,17 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: 1a467040-4702-4178-848f-418a5974e907
-caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: c6589bd2e9bb4acbec5f169087a49e64417dfae7
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 691f7aff61a8a2bfae6444540afe9a28a200278d
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54348596"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840434"
 ---
-# <a name="array-length-must-be-a-finite-positive-integer"></a>배열의 길이는 유한한 양의 정수여야 합니다.
+# <a name="array-length-must-be-a-finite-positive-integer"></a>배열 길이는 유한 양의 정수여야 합니다.
 호출 하는 **배열** 생성자 인수를 정수 (0 + 양의 정수 집합의 정수 구성)를 사용 하 여 합니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  

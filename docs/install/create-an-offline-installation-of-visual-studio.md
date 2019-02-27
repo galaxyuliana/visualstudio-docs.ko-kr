@@ -1,7 +1,7 @@
 ---
 title: 오프라인 설치 만들기
 description: 불안정한 인터넷 연결 또는 낮은 대역폭이 있는 경우 Visual Studio를 오프라인으로 설치하는 방법에 알아봅니다.
-ms.date: 02/06/2019
+ms.date: 02/23/2019
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -14,12 +14,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 71c618efc383227167b3d4ccb034e32758229294
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b33e08e8aa639540461216b057ae80d1eb7701f6
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954025"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796545"
 ---
 # <a name="create-an-offline-installation-of-visual-studio-2017"></a>Visual Studio 2017의 오프라인 설치 만들기
 
@@ -55,9 +55,9 @@ Visual Studio를 다운로드한 컴퓨터에 단일 설치로 다운로드할 �
 
 | 버전                    | 파일                                                                    |
 |----------------------------|-------------------------------------------------------------------------|
-| Visual Studio 커뮤니티    | [vs_community.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017)       |
-| Visual Studio Professional | [vs_professional.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017) |
-| Visual Studio Enterprise   | [vs_enterprise.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017)     |
+| Visual Studio 커뮤니티    | [vs_community.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017)       |
+| Visual Studio Professional | [vs_professional.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017) |
+| Visual Studio Enterprise   | [vs_enterprise.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2017)     |
 
 ### <a name="step-2---create-a-local-install-cache"></a>2다계 - 로컬 설치 캐시 만들기
 
@@ -73,19 +73,27 @@ Visual Studio를 다운로드한 컴퓨터에 단일 설치로 다운로드할 �
 
 - .NET 웹 및 .NET 데스크톱 개발의 경우 다음을 실행합니다.
 
-   ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US```
+   ```cmd
+    vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
+    ```
 
 - .NET 데스크톱 및 Office 개발의 경우 다음을 실행합니다.
 
-   ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Office --includeOptional --lang en-US```
+   ```cmd
+    vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Office --includeOptional --lang en-US
+    ```
 
 - C++ 데스크톱 개발의 경우 다음을 실행합니다.
 
-   ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US```
+   ```cmd
+    vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US
+    ```
 
 - 모든 기능이 포함된 전체 로컬 레이아웃을 만들려면(&mdash;_수많은_ 기능이 있어서 오래 걸릴 수 있음) 다음을 실행합니다.
 
-   ```vs_community.exe --layout c:\vs2017layout --lang en-US```
+   ```cmd
+    vs_community.exe --layout c:\vs2017layout --lang en-US
+    ```
 
   > [!NOTE]
   > 전체 Visual Studio 2017 레이아웃에는 35GB 이상의 디스크 공간이 필요합니다. 설치하려는 구성 요소로만 레이아웃을 만드는 방법에 대한 자세한 내용은 [명령줄 매개 변수를 사용하여 Visual Studio 2017 설치](use-command-line-parameters-to-install-visual-studio.md)를 참조하세요.
@@ -99,11 +107,15 @@ Visual Studio를 다운로드한 컴퓨터에 단일 설치로 다운로드할 �
 
 이전에 다운로드한 파일만 설치하려면 레이아웃 캐시를 만드는 데 사용한 것과 동일한 명령줄 옵션을 사용하세요. 예를 들어 다음 명령으로 레이아웃 캐시를 만든 경우
 
-```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US```
+```cmd
+vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
+```
 
 그런 다음, 이 명령을 사용하여 설치를 실행합니다.
 
-```c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional```
+```cmd
+c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional
+```
 
 > [!NOTE]
 > 서명이 올바르지 않다는 오류가 발생하면 업데이트된 인증서를 설치해야 합니다. 오프라인 캐시에서 인증서 폴더를 엽니다. 각 인증서 파일을 두 번 클릭하고 인증서 관리자 마법사를 클릭합니다. 암호를 묻는 메시지가 표시되면 비워 두세요.

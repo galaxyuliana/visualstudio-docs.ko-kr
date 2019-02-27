@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 68f8323b5f3d2a4ca0acff8cf5f7f770d4446cba
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 9d5999febf6e926ef8e9beb365728a3b150e1a38
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227828"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56647061"
 ---
 # <a name="idiasessionfindlinesbylinenum"></a>IDiaSession::findLinesByLinenum
 컴파일 대상에 있는 소스 파일에서 지정 된 줄 번호 또는 근처의 줄 번호를 확인 합니다.
@@ -35,28 +35,33 @@ HRESULT findLinesByLinenum ( 
 ```
 
 #### <a name="parameters"></a>매개 변수
-`compiland`  
+`compiland`
+
 [in] [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 컴파일 대상 줄 번호에 대 한 검색을 나타내는 개체입니다. 이 매개 변수는 `NULL`일 수 없습니다.
 
-`file`  
+`file`
+
 [in] [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) 소스 파일에서 검색을 나타내는 개체입니다. 이 매개 변수는 `NULL`일 수 없습니다.
 
-`linenum`  
+`linenum`
+
 [in] 1부터 시작 줄 번호를 지정합니다.
 
 > [!NOTE]
 > 모든 선을 지정 하려면 0을 사용할 수 없습니다 (사용 된 [idiasession:: Findlines](../../debugger/debug-interface-access/idiasession-findlines.md) 모든 줄 찾기 방법).
 
-`column`  
+`column`
+
 [in] 열 번호를 지정합니다. 모든 열을 지정 하려면 0을 사용 합니다. 열이 줄에 대 한 바이트 오프셋입니다.
 
-`ppResult`  
+`ppResult`
+
 [out] 반환 된 [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) objta 줄 번호의 목록을 포함 하는 검색 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 소스 파일을 열고이 파일에 제공한 컴파일 대상 열거, 각 컴파일 대상 시작 되는 소스 파일의 줄 번호를 찾으려면 하는 방법을 보여 줍니다.
 
 ```C++
@@ -97,8 +102,8 @@ void ShowLinesInCompilands(IDiaSession *pSession, LPCOLESTR filename)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
-[IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)  
-[IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)  
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

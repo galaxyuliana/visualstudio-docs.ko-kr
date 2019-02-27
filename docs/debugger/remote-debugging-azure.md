@@ -11,12 +11,12 @@ ms.workload:
 - aspnet
 - dotnetcore
 - azure
-ms.openlocfilehash: 28f97dd46c38b356d45c4c0ded08f1c2790ab229
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9d1a64da1e27f5d3504608441306e820b4547539
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54981274"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710827"
 ---
 # <a name="remote-debug-aspnet-core-on-iis-in-azure-in-visual-studio-2017"></a>Visual Studio 2017에서 Azure에는 IIS에서 ASP.NET Core 원격 디버그
 
@@ -47,7 +47,7 @@ Azure의 원격 디버그 하는 권장된 방법은 시나리오에 따라 달�
 
 프록시를 통해 연결 하는 두 컴퓨터 간에 디버깅이 지원 되지 않습니다. 국가 간 높은 대기 시간 또는 낮은 대역폭 연결에서는 인터넷에 접속 등을 통해 또는 인터넷을 통해 디버깅 권장 되지 않습니다 및 실패 하거나 느리고 수 있습니다. 요구 사항의 전체 목록은 참조 하세요 [요구 사항](../debugger/remote-debugging.md#requirements_msvsmon)합니다.
 
-## <a name="create-the-aspnet-core-application-on-the-visual-studio-2017-computer"></a>Visual Studio 2017 컴퓨터의 ASP.NET Core 응용 프로그램 만들기 
+## <a name="create-the-aspnet-core-application-on-the-visual-studio-2017-computer"></a>Visual Studio 2017 컴퓨터의 ASP.NET Core 응용 프로그램 만들기
 
 1. 새 ASP.NET Core 응용 프로그램을 만듭니다. (선택 **파일 > 새로 만들기 > 프로젝트**을 선택한 후 **시각적 C# > 웹 > ASP.NET Core 웹 응용 프로그램**).
 
@@ -61,7 +61,7 @@ Azure의 원격 디버그 하는 권장된 방법은 시나리오에 따라 달�
 
 ## <a name="remote_debug_azure_app_service"></a> Azure App Service에 ASP.NET Core 원격 디버그
 
-Visual Studio에서 게시 하 고 IIS의 인스턴스를 완전히 프로 비전 된 앱을 디버그 신속 하 게 수 있습니다. 그러나 IIS 구성을 미리 설정 됩니다 하 고 사용자 지정할 수 없습니다. 자세한 내용은 참조 [Visual Studio를 사용 하 여 Azure에 ASP.NET Core 웹 앱 배포](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)합니다. (IIS를 사용자 지정 하는 기능을 할 경우 시도 디버깅는 [Azure VM](#remote_debug_azure_vm).) 
+Visual Studio에서 게시 하 고 IIS의 인스턴스를 완전히 프로 비전 된 앱을 디버그 신속 하 게 수 있습니다. 그러나 IIS 구성을 미리 설정 됩니다 하 고 사용자 지정할 수 없습니다. 자세한 내용은 참조 [Visual Studio를 사용 하 여 Azure에 ASP.NET Core 웹 앱 배포](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)합니다. (IIS를 사용자 지정 하는 기능을 할 경우 시도 디버깅는 [Azure VM](#remote_debug_azure_vm).)
 
 #### <a name="to-deploy-the-app-and-remote-debug-using-server-explorer"></a>원격 디버그 서버 탐색기를 사용 하 고 앱을 배포 하려면
 
@@ -184,7 +184,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 이 자습서에서는 Visual Studio 2017을 사용 하는 것입니다.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-  
+
 ### <a name="BKMK_setup"></a> Windows Server에서 원격 디버거 설정
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
@@ -198,7 +198,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 2. Visual Studio에서 클릭 **디버그 > 프로세스에 연결** (Ctrl + Alt + P).
 
     > [!TIP]
-    > Visual Studio 2017에서 다시 연결할 수 있습니다 이전에 연결을 사용 하 여 동일한 프로세스에 **디버그 > 프로세스에 다시 연결 하는 중...** Shift+Alt+P 
+    > Visual Studio 2017에서 다시 연결할 수 있습니다 이전에 연결을 사용 하 여 동일한 프로세스에 **디버그 > 프로세스에 다시 연결 하는 중...** Shift+Alt+P
 
 3. 한정자 필드를 **\<원격 컴퓨터 이름>:4022**로 설정합니다.
 4. **새로 고침**을 클릭합니다.
@@ -211,7 +211,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 5. **모든 사용자의 프로세스 표시**를 선택합니다.
 
 6. 프로세스 이름 신속 하 게 찾을의 첫 글자를 입력 *dotnet.exe* (ASP.NET Core)에 대 한 합니다.
-   
+
    ASP.NET Core 앱을 이전 프로세스 이름 이었습니다 *dnx.exe*합니다.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
@@ -219,7 +219,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 7. **연결**을 클릭합니다.
 
 8. 원격 컴퓨터의 웹 사이트를 엽니다. 브라우저에서 **http://\<원격 컴퓨터 이름>** 으로 이동합니다.
-    
+
     ASP.NET 웹 페이지가 표시됩니다.
 9. 실행 중인 ASP.NET 응용 프로그램에 대 한 링크를 클릭 합니다 **에 대 한** 페이지입니다.
 
@@ -229,7 +229,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 
 대부분의 설치 프로그램에서 ASP.NET와 원격 디버거 설치를 통해 필요한 포트가 열려 있습니다. 그러나 배포 문제를 해결 하는 응용 프로그램 방화벽 뒤에서 호스팅되는 경우에 올바른 포트가 열려 있는지 확인 해야 합니다.
 
-Azure VM에서 포트를 통해 열어야 합니다 [네트워크 보안 그룹](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic)합니다. 
+Azure VM에서 포트를 통해 열어야 합니다 [네트워크 보안 그룹](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic)합니다.
 
 필요한 포트:
 

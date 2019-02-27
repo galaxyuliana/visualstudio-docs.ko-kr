@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9a6f1d12e5735a0c285918c4621083bf6c1b6769
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 31af6efb2021567b9eb4a5f5048b367c57971fee
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54949797"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841750"
 ---
 # <a name="upgrading-projects"></a>프로젝트 업그레이드
 
@@ -64,7 +64,7 @@ ms.locfileid: "54949797"
 
 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> 인터페이스를 사용하는 이전 메커니즘은 계속 지원되지만 프로젝트의 일부가 열릴 때 프로젝트 시스템을 개념적으로 업그레이드합니다. 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> 경우에도 Visual Studio 환경에서 따라서 라고 인터페이스는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> 인터페이스가 호출 또는 구현 합니다. 이 접근 방식을 사용하면 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory>를 사용하여 업그레이드의 복사 및 프로젝트 전용 부분을 구현하고 나머지 작업은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> 인터페이스에서 바로(아마도 새 위치에서) 수행하도록 위임할 수 있습니다.
 
-샘플 구현은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>를 참조 하세요 [VSSDK 샘플](http://aka.ms/vs2015sdksamples)합니다.
+샘플 구현은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>를 참조 하세요 [VSSDK 샘플](https://aka.ms/vs2015sdksamples)합니다.
 
 프로젝트 업그레이드에서는 다음과 같은 시나리오가 발생합니다.
 

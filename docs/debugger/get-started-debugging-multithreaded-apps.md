@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8e30eafdc9a01b126f2a08bb8e4395298f446069
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 704605ed2d4eb3d69b988da59ba443790ffa138d
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155788"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56709852"
 ---
 # <a name="get-started-debugging-multithreaded-applications-c-visual-basic-c"></a>다중 스레드 응용 프로그램 디버깅 시작 (C#, Visual Basic, c + +)
 
@@ -33,25 +33,25 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
 - 사용 하는 **디버그 위치** 도구 모음 및 **스레드** 창 참조 [연습: 다중 스레드 응용 프로그램을 디버그](../debugger/how-to-use-the-threads-window.md)합니다.
 
 - 사용 하는 샘플에 대 한 <xref:System.Threading.Tasks.Task> (관리 코드) (c + +), 동시성 런타임에서 참조 및 [연습: 병렬 애플리케이션 디버그](../debugger/walkthrough-debugging-a-parallel-application.md). 대부분의 다중 스레드 응용 프로그램 형식에 적용 되는 일반적인 디버깅 팁, 해당 항목 및이 참조 하세요.
-  
-다중 스레드 응용 프로그램 프로젝트를 먼저 해야 합니다. 예를 들면 다음과 같습니다.  
-  
-## <a name="create-a-multithreaded-app-project"></a>다중 스레드 앱 프로젝트 만들기  
-  
-1.  **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택합니다.  
-  
-     **새 프로젝트** 대화 상자가 나타납니다.  
-  
-2.  언어 선택: **시각적 C#** 를 **Visual c + +**, 또는 **Visual Basic**.  
-  
-3.  아래 **Windows 바탕 화면**, 선택 **콘솔 앱**합니다.  
-  
-4.  에 **이름을** 필드 MyThreadWalkthroughApp를 입력 합니다.  
-  
-5.  **확인**을 선택합니다.  
-  
-     새 콘솔 프로젝트가 나타납니다. 프로젝트가 만들어지면 소스 파일이 나타납니다. 선택한 언어에 따라 소스 파일을 호출할 수 있습니다 *Program.cs*하십시오 *MyThreadWalkthroughApp.cpp*, 또는 *Module1.vb*합니다.  
-  
+
+다중 스레드 응용 프로그램 프로젝트를 먼저 해야 합니다. 예를 들면 다음과 같습니다.
+
+## <a name="create-a-multithreaded-app-project"></a>다중 스레드 앱 프로젝트 만들기
+
+1.  **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택합니다.
+
+     **새 프로젝트** 대화 상자가 나타납니다.
+
+2.  언어 선택: **시각적 C#** 를 **Visual c + +**, 또는 **Visual Basic**.
+
+3.  아래 **Windows 바탕 화면**, 선택 **콘솔 앱**합니다.
+
+4.  에 **이름을** 필드 MyThreadWalkthroughApp를 입력 합니다.
+
+5.  **확인**을 선택합니다.
+
+     새 콘솔 프로젝트가 나타납니다. 프로젝트가 만들어지면 소스 파일이 나타납니다. 선택한 언어에 따라 소스 파일을 호출할 수 있습니다 *Program.cs*하십시오 *MyThreadWalkthroughApp.cpp*, 또는 *Module1.vb*합니다.
+
 6.  소스 파일에 표시 되는 코드를 삭제 하 고 아래 나열 된 적절 한 예제 코드로 바꿉니다.
 
     ```csharp
@@ -186,54 +186,54 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
         End Sub
     End Class
     ```
-  
-7.  **파일** 메뉴에서 **모두 저장**을 선택합니다.  
+
+7.  **파일** 메뉴에서 **모두 저장**을 선택합니다.
 
 8. (Visual Basic만 해당) 솔루션 탐색기 (오른쪽 창)에서 프로젝트 노드를 마우스 오른쪽 단추로 차례로 **속성**합니다. 아래는 **응용 프로그램** 탭으로 변경 합니다 **시작 개체** 에 **간단한**.
-  
-## <a name="debug-the-multithreaded-app"></a>다중 스레드 앱 디버깅  
-  
-1. 소스 코드 편집기에서 다음 코드 조각 중 하나를 찾습니다. 
-  
-    ```csharp  
-    Thread.Sleep(3000);  
-    Console.WriteLine();  
-    ```  
-  
-    ```C++  
+
+## <a name="debug-the-multithreaded-app"></a>다중 스레드 앱 디버깅
+
+1. 소스 코드 편집기에서 다음 코드 조각 중 하나를 찾습니다.
+
+    ```csharp
+    Thread.Sleep(3000);
+    Console.WriteLine();
+    ```
+
+    ```C++
     std::this_thread::sleep_for(std::chrono::seconds(3));
-    std::cout << "The function called by the worker thread has ended." << std::endl; 
-    ```  
+    std::cout << "The function called by the worker thread has ended." << std::endl;
+    ```
 
     ```VB
     Thread.Sleep(3000)
     Console.WriteLine()
     ```
 
-1. 왼쪽된 여백에서 마우스 왼쪽 단추로 클릭 합니다 `Thread.Sleep` 또는 `std::this_thread::sleep_for` 문을 새 중단점을 삽입 합니다.  
-  
-    여백에 빨간색 원이이 위치에 중단점 설정 되어 있는지 나타냅니다. 
-  
-2. 에 **디버그** 메뉴에서 **디버깅 시작** (**F5**).  
-  
-    Visual Studio 솔루션을 빌드합니다, 그리고 앱, 연결 된 디버거와 함께 실행을 시작 및 앱 중단점에서 멈춥니다.  
-  
+1. 왼쪽된 여백에서 마우스 왼쪽 단추로 클릭 합니다 `Thread.Sleep` 또는 `std::this_thread::sleep_for` 문을 새 중단점을 삽입 합니다.
+
+    여백에 빨간색 원이이 위치에 중단점 설정 되어 있는지 나타냅니다.
+
+2. 에 **디버그** 메뉴에서 **디버깅 시작** (**F5**).
+
+    Visual Studio 솔루션을 빌드합니다, 그리고 앱, 연결 된 디버거와 함께 실행을 시작 및 앱 중단점에서 멈춥니다.
+
 3. 소스 코드 편집기에서 해당 중단점이 있는 줄을 찾습니다.
-  
+
 ### <a name="ShowThreadsInSource"></a>스레드 마커를 검색 합니다.  
 
 1.  디버그 도구 모음에서 선택 합니다 **소스의 스레드 표시** 단추 ![소스의 스레드 표시](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker")합니다.
 
 2. 키를 눌러 **F11** 디버거를 한 줄 코드를 한 번입니다.
-  
+
 3.  창 왼쪽의 여백을 확인합니다. 이 줄에 표시 됩니다는 *스레드 마커* 아이콘 ![스레드 마커](../debugger/media/dbg-thread-marker.png "ThreadMarker") 트위스트 스레드가 각각 두와 유사한 합니다. 스레드 마커는 이 위치에서 스레드가 중지되었음을 나타냅니다.
 
-    중단점에서 스레드 마커를 부분적으로 숨겨진 수 있습니다. 
-  
-4.  스레드 마커에 포인터를 올려 놓습니다. 중지 된 각 스레드의 이름과 스레드 ID 번호를 알리는 DataTip이 나타납니다. 이 경우 이름의 되었을 `<noname>`합니다. 
-  
+    중단점에서 스레드 마커를 부분적으로 숨겨진 수 있습니다.
+
+4.  스레드 마커에 포인터를 올려 놓습니다. 중지 된 각 스레드의 이름과 스레드 ID 번호를 알리는 DataTip이 나타납니다. 이 경우 이름의 되었을 `<noname>`합니다.
+
 5.  바로 가기 메뉴에서 사용할 수 있는 옵션을 보려면 스레드 마커를 선택 합니다.
-    
+
 ### <a name="ParallelStacks"></a>스레드 위치를 보려면
 
 에 **병렬 스택** 전환할 수 있습니다 창 작업 보기 및 있습니다 각 스레드에 대 한 호출 스택 정보를 볼 수 있습니다 (작업 기반 프로그래밍)에 대 한 스레드 뷰 사이입니다. 이 앱의 경우 스레드 뷰에 사용할 수 있습니다.
@@ -243,7 +243,7 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     ![병렬 스택 창](../debugger/media/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
 
     이 예제에서는 왼쪽에서 오른쪽 알 관리 코드에 대 한이 정보:
-    
+
     - 주 스레드 (왼쪽)에서 중지 되었습니다. `Thread.Start`, 여기서 중지 지점 나타난 스레드 마커 아이콘 ![스레드 마커](../debugger/media/dbg-thread-marker.png "ThreadMarker")합니다.
     - 입력 한 두 개의 스레드를 `ServerClass.InstanceMethod`, 그 중 하나는 현재 스레드 (노란색 화살표)을에서 다른 스레드를 중지 하는 동안 `Thread.Sleep`합니다.
     - (오른쪽) 새 스레드 시작 수도 있지만에서 중지 되었습니다 `ThreadHelper.ThreadStart`합니다.
@@ -271,31 +271,31 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
 
 4. 사용 가능한 옵션을 표시 하려면 창의 행 중 하나를 오른쪽 단추로 클릭 합니다.
 
-### <a name="flag-and-unflag-threads"></a>스레드에 플래그 지정 및 스레드의 플래그 해제  
-스레드 중 중요 한 스레드를 추적 하 고 다른 스레드를 무시 플래그를 지정할 수 있습니다.  
-  
+### <a name="flag-and-unflag-threads"></a>스레드에 플래그 지정 및 스레드의 플래그 해제
+스레드 중 중요 한 스레드를 추적 하 고 다른 스레드를 무시 플래그를 지정할 수 있습니다.
+
 1. 에 **병렬 조사식** 누른 창 합니다 **Shift** 키 및 여러 행을 선택 합니다.
 
 2. 마우스 오른쪽 단추로 클릭 **플래그**합니다.
 
     선택한 모든 스레드에 플래그가 지정 됩니다. 이제 플래그가 지정 된 스레드만 표시 하도록 필터링 할 수 있습니다.
-  
-3.  에 **병렬 조사식** 창에서 합니다 **플래그가 지정 된 스레드만 표시** 단추 ![플래그가 지정 된 스레드 표시](../debugger/media/dbg-threads-show-flagged.png "ThreadMarker")합니다.  
-  
+
+3.  에 **병렬 조사식** 창에서 합니다 **플래그가 지정 된 스레드만 표시** 단추 ![플래그가 지정 된 스레드 표시](../debugger/media/dbg-threads-show-flagged.png "ThreadMarker")합니다.
+
     플래그가 지정 된 스레드만 목록에 표시 합니다.
 
     > [!TIP]
     > 일부 스레드를 플래그를 지정한 후 코드 편집기에서 코드 줄을 마우스 오른쪽 단추로 클릭 하 고 선택할 수 **커서 플래그가 지정 된 스레드가 실행**합니다. 코드는 모든 플래그가 지정 된 스레드만 도달 선택 해야 합니다. Visual Studio는 스레드를 일시 중지 선택한 코드 줄에서의 실행 순서를 제어 하려면 쉽게 [스레드 중지 및 재개](#bkmk_freeze)합니다.
 
 4.  선택 된 **플래그가 지정 된 스레드만 표시** 단추를 다시 설정/해제를 다시 **모든 스레드 표시** 모드입니다.
-    
+
 5. 하나 이상의 플래그가 지정 된 스레드를 마우스 오른쪽 단추로 클릭 스레드의 플래그를 해제 하는 **병렬 조사식** 창과 선택 **플래그 해제**합니다.
 
-### <a name="bkmk_freeze"></a> 중지 하 고 스레드 실행을 재개 
+### <a name="bkmk_freeze"></a> 중지 하 고 스레드 실행을 재개
 
 > [!TIP]
 > 고정 및 고정 해제 수 있습니다 (일시 중단 및 다시 시작) 스레드를 스레드 작업을 수행 하는 순서를 제어 합니다. 이 교착 상태 같은 동시성 문제를 해결 하 고 경합 조건을 수 있습니다.
-   
+
 1.  에 **병렬 조사식** 창에 선택 된 모든 행을 마우스 오른쪽 단추로 **Freeze**합니다.
 
     두 번째 열에서 각 행에 대 한 일시 중지 아이콘이 나타납니다. 일시 중지 아이콘은 스레드를 고정 하는 것을 나타냅니다.
@@ -336,11 +336,11 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     중단점 조건은 스레드로 고유 있으며 디버거 (비활성화 해야 할) 다른 스레드에서 다른 중단점을 적중 하지 않습니다, 코드 수 있으며 다른 스레드를 전환 하지 않고 코드를 한 단계씩 수 있습니다.
 
     > [!NOTE]
-    > 디버거를 진행 하면 모든 스레드가 실행 됩니다. 그러나 다른 스레드 중 하나는 중단점에 도달 하지 않는 한 다른 스레드에서 코드에 디버거를 중단 하지 않습니다. 
-  
+    > 디버거를 진행 하면 모든 스레드가 실행 됩니다. 그러나 다른 스레드 중 하나는 중단점에 도달 하지 않는 한 다른 스레드에서 코드에 디버거를 중단 하지 않습니다.
+
 ## <a name="see-also"></a>참고 항목
 
-[다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)  
-[방법: 디버그 중 다른 스레드로 전환](../debugger/how-to-switch-to-another-thread-while-debugging.md)  
-[방법: 병렬 스택 창 사용](../debugger/using-the-parallel-stacks-window.md)  
-[방법: 병렬 조사식 창 사용](../debugger/how-to-use-the-parallel-watch-window.md)  
+- [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)
+- [방법: 디버그 중 다른 스레드로 전환](../debugger/how-to-switch-to-another-thread-while-debugging.md)
+- [방법: 병렬 스택 창 사용](../debugger/using-the-parallel-stacks-window.md)
+- [방법: 병렬 조사식 창 사용](../debugger/how-to-use-the-parallel-watch-window.md)

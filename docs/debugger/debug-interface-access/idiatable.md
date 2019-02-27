@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f3ca5cc1806aa1b53a3646c1b67320037ed56983
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 604c68ef82f66358238f94b43f000fae24a076f1
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227292"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56616835"
 ---
 # <a name="idiatable"></a>IDiaTable
 DIA 데이터 원본 테이블을 열거합니다.
@@ -62,7 +62,7 @@ IDiaTable : IEnumUnknown
 
 - [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 첫 번째 함수 `ShowTableNames`, 세션에 있는 모든 테이블의 이름을 표시 합니다. 두 번째 함수를 `GetTable`, 모든 지정된 된 인터페이스를 구현 하는 테이블에 대 한 테이블을 검색 합니다. 세 번째 함수 `UseTable`를 사용 하는 방법을 보여 줍니다는 `GetTable` 함수입니다.
 
 > [!NOTE]
@@ -138,7 +138,7 @@ void UseTable(IDiaSession *pSession)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)  
-[IDiaEnumTables::Item](../../debugger/debug-interface-access/idiaenumtables-item.md)  
-[IDiaEnumTables::Next](../../debugger/debug-interface-access/idiaenumtables-next.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)
+- [IDiaEnumTables::Item](../../debugger/debug-interface-access/idiaenumtables-item.md)
+- [IDiaEnumTables::Next](../../debugger/debug-interface-access/idiaenumtables-next.md)

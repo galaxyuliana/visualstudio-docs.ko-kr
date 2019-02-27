@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7d6b603a59ad27052ab8eb9bbb88942584aa5293
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 753201d8f09b93186cac279d20dee2c7f3e1534d
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000902"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843314"
 ---
 # <a name="roslyn-analyzers-and-code-aware-library-for-immutablearrays"></a>Roslyn 분석기 및 ImmutableArrays에 대 한 코드 인식 라이브러리
 
@@ -25,7 +25,7 @@ ms.locfileid: "55000902"
 
 * Visual Studio 2015 (하지는 Express Edition) 또는 이후 버전입니다. 무료 따르면 [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
 * [Visual Studio SDK](../extensibility/visual-studio-sdk.md). Visual Studio를 설치 하는 경우를 확인할 수도 있습니다 **Visual Studio 확장성 도구** 아래에서 **일반 도구** 동시에 SDK를 설치 합니다. Visual Studio를 이미 설치한 경우 설치할 수도 있습니다이 SDK 주 메뉴로 이동 하 여 **파일** > **새로 만들기** > **프로젝트**, 선택 **C#** 왼쪽된 탐색 창에서을 차례로 선택 **확장성**합니다. 선택 하는 경우는 "**Visual Studio 확장성 도구를 설치할**" 이동 경로 탐색 프로젝트 템플릿을 묻는 다운로드 하 여 SDK를 설치 합니다.
-* [.NET 컴파일러 플랫폼 ("Roslyn") SDK](http://aka.ms/roslynsdktemplates)합니다. 주 메뉴로 이동 하 여이 SDK를 설치할 수도 있습니다 **파일** > **새로 만들기** > **프로젝트**, 선택 **C#** 왼쪽된 탐색 창에서을 차례로 선택 **확장성**합니다. 선택 하는 경우 "**.NET Compiler Platform SDK 다운로드**" 이동 경로 탐색 프로젝트 템플릿을 묻는 다운로드 하 여 SDK를 설치 합니다. 이 SDK에 포함 된 [Roslyn 구문 시각화 도우미](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer)합니다. 코드 모델 유형을 파악이 유용한 도구를 사용 하면 확인 해야 할 사용자 분석기에서입니다. 분석기 인프라 코드만 필요한 경우를 실행 하 고 관련 코드 분석에 집중할 수 있도록 특정 코드 모델 형식에 대 한 코드를 호출 합니다.
+* [.NET 컴파일러 플랫폼 ("Roslyn") SDK](https://aka.ms/roslynsdktemplates)합니다. 주 메뉴로 이동 하 여이 SDK를 설치할 수도 있습니다 **파일** > **새로 만들기** > **프로젝트**, 선택 **C#** 왼쪽된 탐색 창에서을 차례로 선택 **확장성**합니다. 선택 하는 경우 "**.NET Compiler Platform SDK 다운로드**" 이동 경로 탐색 프로젝트 템플릿을 묻는 다운로드 하 여 SDK를 설치 합니다. 이 SDK에 포함 된 [Roslyn 구문 시각화 도우미](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer)합니다. 코드 모델 유형을 파악이 유용한 도구를 사용 하면 확인 해야 할 사용자 분석기에서입니다. 분석기 인프라 코드만 필요한 경우를 실행 하 고 관련 코드 분석에 집중할 수 있도록 특정 코드 모델 형식에 대 한 코드를 호출 합니다.
 
 ## <a name="whats-the-problem"></a>문제가 뭔가요?
 

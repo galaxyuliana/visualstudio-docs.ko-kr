@@ -25,12 +25,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: dc36b13d6b6bdc6df0b881f2b4b91c32995a08d5
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 4091aa8c312938a725a89e5ef131923671af3169
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227685"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56698991"
 ---
 # <a name="format-specifiers-in-c-in-the-visual-studio-debugger"></a>형식 지정자에 C# Visual Studio 디버거에서
 값이 표시 하는 형식을 변경할 수 있습니다 합니다 **조사식** 형식 지정자를 사용 하 여 창입니다. 형식 지정자를 사용할 수도 있습니다는 **직접 실행** 창 합니다 **명령** 창에서 [추적점](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), 및 소스 창. 를 일시 중지 하면 해당 창에 식의 결과에 표시 됩니다는 [DataTip](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) 지정 된 형식으로 표시 합니다.
@@ -68,5 +68,5 @@ ms.locfileid: "56227685"
 |results|IEnumerable 또는 IEnumerable을 구현 하는 형식의 변수와 함께 사용할\<T >를 일반적으로 쿼리 식의 결과입니다. 쿼리 결과가 포함된 멤버만 표시합니다.|모든 멤버 표시|쿼리 조건에 맞는 멤버 표시|
 
 ## <a name="see-also"></a>참고 항목
-[조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)  
-[자동 및 지역 창](../debugger/autos-and-locals-windows.md)
+- [조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)
+- [자동 및 지역 창](../debugger/autos-and-locals-windows.md)

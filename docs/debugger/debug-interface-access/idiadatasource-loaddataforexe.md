@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b078e918f399019b2532e7fe3adea220fc09e012
-ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
+ms.openlocfilehash: 4f95e8a9321ff7ae518e72496289f8ad0c7b4682
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "55987550"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56609646"
 ---
 # <a name="idiadatasourceloaddataforexe"></a>IDiaDataSource::loadDataForExe
 열리고.exe/.dll 파일과 관련 된 디버그 데이터를 준비 합니다.
@@ -33,13 +33,16 @@ HRESULT loadDataForExe (
 ```
 
 #### <a name="parameters"></a>매개 변수
-executable  
+executable
+
 [in] .Exe 또는.dll 파일 경로입니다.
 
-searchPath  
+searchPath
+
 [in] 디버그 데이터를 검색 하려면 대체 경로입니다.
 
-pCallback  
+pCallback
+
 [in] `IUnknown` 와 같은 디버그 콜백 인터페이스를 지 원하는 개체에 대 한 인터페이스를 [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md)를 [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)는 [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md), 및/또는 [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
@@ -67,7 +70,7 @@ pCallback
 
 메모리에서 직접.pdb 파일을 로드 하려면 사용 합니다 [idiadatasource:: Loaddatafromistream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md) 메서드.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```C++
 class MyCallBack: public IDiaLoadCallback
@@ -84,12 +87,12 @@ if (FAILED(hr))
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)  
-[IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md)  
-[IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)  
-[IDiaLoadCallback::NotifyDebugDir](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md)  
-[IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md)  
-[IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md)  
-[IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)  
-[IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)  
-[IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)
+- [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+- [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md)
+- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
+- [IDiaLoadCallback::NotifyDebugDir](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md)
+- [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md)
+- [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md)
+- [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)
+- [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)
+- [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)

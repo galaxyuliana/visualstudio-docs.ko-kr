@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4a4482069d16ef6f0f64472b838057949890a6d3
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 190372e44f068296f7fea14819a3520803b89406
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335157"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843140"
 ---
 # <a name="how-to-provide-automation-for-windows"></a>방법: Windows에 대 한 자동화 제공
 
@@ -38,7 +38,7 @@ ms.locfileid: "56335157"
 
 표준 <xref:EnvDTE.Document> 또한 개체는 환경에서 사용할 수 있는 편집기의 자체 구현이 있을 수 있지만 합니다 <xref:EnvDTE.Document> 구현 하 여 개체 `IExtensibleObject` 인터페이스 및 대응 `GetAutomationObject`합니다.
 
-편집기를 통해 검색할 VSPackage 관련 자동화 개체를 제공할 수 또한 합니다 <xref:EnvDTE.Document.Object%2A> 메서드를 구현 하 여는 `IVsExtensibleObject` 또는 `IExtensibleObject` 인터페이스입니다. 합니다 [VSSDK 샘플](http://aka.ms/vs2015sdksamples) RTF 문서 관련 자동화 개체를 제공 합니다.
+편집기를 통해 검색할 VSPackage 관련 자동화 개체를 제공할 수 또한 합니다 <xref:EnvDTE.Document.Object%2A> 메서드를 구현 하 여는 `IVsExtensibleObject` 또는 `IExtensibleObject` 인터페이스입니다. 합니다 [VSSDK 샘플](https://aka.ms/vs2015sdksamples) RTF 문서 관련 자동화 개체를 제공 합니다.
 
 ## <a name="see-also"></a>참고자료
 

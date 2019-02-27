@@ -17,12 +17,12 @@ manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 3589447cdc9451a52dcffb4653a31f188b33c634
-ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
+ms.openlocfilehash: 04f696325da6f9f5b08f37b3d0d0f90498aacd85
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "55987394"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56702020"
 ---
 # <a name="options-for-python-in-visual-studio"></a>Visual Studio의 Python 옵션
 
@@ -33,7 +33,7 @@ Python 옵션을 보려면 **도구** > **옵션** 메뉴 명령을 사용하고
 **텍스트 편집기** > **Python** > **고급** 탭과 **환경** > **글꼴 및 색** 탭의 **텍스트 편집기** 그룹 내에 추가 Python 관련 옵션이 있습니다.
 
 > [!Note]
-> **실험적** 그룹은 아직 개발 중인 기능에 대한 옵션을 포함하며 여기서는 설명하지 않습니다. 종종 [Microsoft 블로그의 Python 엔지니어링](https://blogs.msdn.microsoft.com/pythonengineering/)의 포스트에 논의됩니다.
+> **실험적** 그룹은 아직 개발 중인 기능에 대한 옵션을 포함하며 여기서는 설명하지 않습니다. 종종 [Microsoft 블로그의 Python 엔지니어링](https://devblogs.microsoft.com/python/)의 포스트에 논의됩니다.
 
 ## <a name="general-options"></a>일반 옵션
 

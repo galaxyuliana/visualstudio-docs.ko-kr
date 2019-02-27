@@ -1,14 +1,9 @@
 ---
 title: 예상 '@end' | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT1029
 dev_langs:
@@ -16,16 +11,15 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: c2608995-944e-4d35-8b7e-1cfe264d2458
-caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: a9138a7152dae44ff5f293e1a06de146d66bb125
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 6179d628c8da58cffa76020f04e3fd1df3396b5d
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54344150"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840499"
 ---
 # <a name="expected-end"></a>예상 '\@끝 '
 조건부로 컴파일된 코드 블록을 만들려고 했지만 포함 되지 않았습니다 합니다 <strong>@end</strong> 후에 문의 합니다. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 문 내에서 묶어 조건부로 컴파일할 수는 <strong>@if/ @end</strong> 블록입니다.  

@@ -1,14 +1,9 @@
 ---
 title: 레이블을 찾을 수 없음 | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT1026
 dev_langs:
@@ -16,16 +11,15 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: 79e32926-b03f-457b-997c-2bb2ec8a1ec5
-caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: df36f35b8e681c22e38f19b00fb25b680c6323ef
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: aef1efa0a0b597d9c75d46e24fd443943cca17ab
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54346978"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840635"
 ---
 # <a name="label-not-found"></a>레이블을 찾을 수 없습니다.
 만든 존재 하지 않는 레이블에 대 한 참조입니다. 레이블을 코드의 이지만 지정된 된 범위 내의 블록에 표시할 수, 고유 해야 합니다.  

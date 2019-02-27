@@ -1,14 +1,9 @@
 ---
 title: 잘못 된 문자 (JavaScript) | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT1014
 dev_langs:
@@ -16,16 +11,15 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: b6a54a93-7fc9-459a-bdd6-f42d1ce40b5f
-caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: c91e755b9a52deade5d5d5d24c0a7f28310c4425
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 49a465345ad7cb70fc21d1a253816162daf939a8
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54348479"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843661"
 ---
 # <a name="invalid-character-javascript"></a>잘못된 문자입니다.(JavaScript)
 식별자를 구성 하 여 유효한 것으로 인식 되지 문자 (또는 문자)을 사용 하 여 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 컴파일러. 다음 규칙을 사용 하는 유효한 문자:  

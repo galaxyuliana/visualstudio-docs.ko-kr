@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fc977826517bca14187dcadbd73dfbf03b99d6bf
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 49257aa3b9b51a1e8b62c867ced030b853deae9c
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227594"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56634437"
 ---
 # <a name="idiaenumlinenumbers"></a>IDiaEnumLineNumbers
 데이터 원본에 포함 된 다양 한 줄 번호를 열거 합니다.
@@ -56,7 +56,7 @@ IDiaEnumLineNumbers : IUnknown
 
 - [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 가져오는 방법을 보여 주는이 예제는 `IDiaEnumLineNumbers` 세션에서 인터페이스입니다. 이 경우에 예제에서는 함수에 대 한 줄 번호 열거형을 가져옵니다 (나타내는 `pSymbol`). 줄 번호를 사용 하 여 자세한 예제를 참조 하세요. 합니다 [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) 인터페이스입니다.
 
 ```C++
@@ -93,10 +93,10 @@ void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
-[IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)  
-[IDiaSession::findLinesByRVA](../../debugger/debug-interface-access/idiasession-findlinesbyrva.md)  
-[IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)  
-[IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md)  
-[IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)
+- [IDiaSession::findLinesByRVA](../../debugger/debug-interface-access/idiasession-findlinesbyrva.md)
+- [IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)
+- [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md)
+- [IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)

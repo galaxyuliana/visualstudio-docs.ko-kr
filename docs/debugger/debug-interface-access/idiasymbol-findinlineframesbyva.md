@@ -10,37 +10,39 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3711e87c8914d0dbf482f358e849154bc1a4e380
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: bc91ad3a2e4e89a154295bf41baa31e59c4d65e4
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55003218"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56623374"
 ---
 # <a name="idiasymbolfindinlineframesbyva"></a>IDiaSymbol::findInlineFramesByVA
-클라이언트가 지정된 된 가상 주소 (VA)에 있는 인라인 프레임의 모든 반복 하는 데 사용 하는 열거형을 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT findInlineFramesByVA (   
-   ULONGLONG         va,  
-   IDiaEnumSymbols** ppResult  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `va`  
- [in] VA.로 주소를 지정합니다.  
-  
- `ppResult`  
- [out] 보유 한 `IDiaEnumSymbols` 검색 되는 프레임의 목록을 포함 하는 개체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)   
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md)   
- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
+클라이언트가 지정된 된 가상 주소 (VA)에 있는 인라인 프레임의 모든 반복 하는 데 사용 하는 열거형을 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT findInlineFramesByVA ( 
+   ULONGLONG         va,
+   IDiaEnumSymbols** ppResult
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `va`
+
+[in] VA.로 주소를 지정합니다.
+
+ `ppResult`
+
+[out] 보유 한 `IDiaEnumSymbols` 검색 되는 프레임의 목록을 포함 하는 개체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md)
+- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

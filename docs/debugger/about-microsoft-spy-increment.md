@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7e3a3d680d221848a72e069c38b38ccf8bb7eeee
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 54877dfd5164cae2c256f21fc2886d779ecf64a4
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54919718"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56601194"
 ---
 # <a name="about-microsoft-spy"></a>Microsoft Spy++ 정보
 저작권, 버전, 소유권 및 Spy + +에 대 한 다른 정보를 표시 하려면이 대화 상자를 사용 합니다.

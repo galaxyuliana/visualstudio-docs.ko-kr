@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8ab4bf684fae4919869bb4c3ad170c5dee29eda9
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 762fc8a28b8c5b3f8729ecd728d12ed5cdbbafc6
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317772"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56720187"
 ---
 # <a name="intellitrace-features-c-visual-basic-c"></a>IntelliTrace 기능 (C#, Visual Basic, c + +)
 
@@ -56,7 +56,7 @@ Visual Studio Enterprise 2017 버전 15.5 이상에서 사용할 수 있는 스�
 
 이 기능은 기본적으로 사용하도록 설정되어 있지 않지만, IntelliTrace는 이벤트를 통해 메서드 호출을 기록할 수 있습니다. 호출으로 이동 하는 메서드의 컬렉션을 사용 하도록 설정 하려면 **도구 > 옵션 > IntelliTrace > 일반**, 선택한 **IntelliTrace 이벤트 및 호출 정보 (관리 전용)** 합니다.
 
-호출 정보를 현재.NET Core 및 ASP.NET Core 앱에서 사용할 수 없는 경우 
+호출 정보를 현재.NET Core 및 ASP.NET Core 앱에서 사용할 수 없는 경우
 
 이렇게 하면 호출 스택 이력을 참조하고 코드에서 호출을 통해 앞뒤로 이동할 수 있습니다. IntelliTrace는 메서드 이름, 메서드 시작/종료 지점, 특정 매개 변수 값, 반환 값 등의 데이터를 기록합니다.
 

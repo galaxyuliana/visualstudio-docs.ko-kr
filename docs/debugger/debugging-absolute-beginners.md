@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 917e9927e6eb8771ea911ee938d9226ecb2eadff
-ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
+ms.openlocfilehash: 8fb0b713df5658fa245fb49a537cde16accce41c
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55484227"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56713154"
 ---
 # <a name="how-to-debug-for-absolute-beginners"></a>완전 초보자를 위한 디버깅하는 방법
 
@@ -101,7 +101,7 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
     ```csharp
     using System;
     using System.Collections.Generic;
-    
+
     namespace ConsoleApp_FirstApp
     {
         class Program
@@ -112,7 +112,7 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
                 IterateThroughList();
                 Console.ReadKey();
             }
-    
+
             private static void IterateThroughList()
             {
                 var theGalaxies = new List<Galaxy>
@@ -124,33 +124,33 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
                 new Galaxy() { Name="Andromeda", MegaLightYears=3, GalaxyType=new GType('S')},
                 new Galaxy() { Name="Maffei 1", MegaLightYears=11, GalaxyType=new GType('E')}
             };
-    
+
                 foreach (Galaxy theGalaxy in theGalaxies)
                 {
                     Console.WriteLine(theGalaxy.Name + "  " + theGalaxy.MegaLightYears + ",  " + theGalaxy.GalaxyType);
                 }
-    
-                // Expected Output:  
-                //  Tadpole  400,  Spiral 
-                //  Pinwheel  25,  Spiral 
+
+                // Expected Output:
+                //  Tadpole  400,  Spiral
+                //  Pinwheel  25,  Spiral
                 //  Cartwheel, 500,  Lenticular
                 //  Small Magellanic Cloud .2,  Irregular
                 //  Andromeda  3,  Spiral
                 //  Maffei 1,  11,  Elliptical
             }
         }
-    
+
         public class Galaxy
         {
             public string Name { get; set; }
-    
+
             public double MegaLightYears { get; set; }
             public object GalaxyType { get; set; }
-    
+
         }
-    
+
         public class GType
-        { 
+        {
             public GType(char type)
             {
                 switch(type)
@@ -188,8 +188,8 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
     앱이 시작되고 디버거에 의해 표시되는 예외가 없습니다. 그러나 콘솔 창에 표시되는 출력은 예상하는 것과 다릅니다. 예상되는 출력은 다음과 같습니다.
 
     ```
-    Tadpole  400,  Spiral 
-    Pinwheel  25,  Spiral 
+    Tadpole  400,  Spiral
+    Pinwheel  25,  Spiral
     Cartwheel, 500,  Lenticular
     Small Magellanic Cloud .2,  Irregular
     Andromeda  3,  Spiral
@@ -199,8 +199,8 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
     하지만 대신 다음이 표시됩니다.
 
     ```
-    Tadpole  400,  ConsoleApp_FirstApp.GType 
-    Pinwheel  25,  ConsoleApp_FirstApp.GType 
+    Tadpole  400,  ConsoleApp_FirstApp.GType
+    Pinwheel  25,  ConsoleApp_FirstApp.GType
     Cartwheel, 500,  ConsoleApp_FirstApp.GType
     Small Magellanic Cloud .2,  ConsoleApp_FirstApp.GType
     Andromeda  3,  ConsoleApp_FirstApp.GType
@@ -217,7 +217,7 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
     foreach (Galaxy theGalaxy in theGalaxies)
     {
         Console.WriteLine(theGalaxy.Name + "  " + theGalaxy.MegaLightYears + ",  " + theGalaxy.GalaxyType);
-    }    
+    }
     ```
 
     중단점을 설정하는 경우 왼쪽 여백에 빨간색 점이 나타납니다.
@@ -247,13 +247,13 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
 1. 은하계 유형 설정과 관련된 코드를 확인하여 `Galaxy` 클래스의 `GalaxyType` 속성이 `GType` 대신 `object`로 지정된 것을 확인합니다.
 
     ```csharp
-    public object GalaxyType { get; set; }     
+    public object GalaxyType { get; set; }
     ```
 
 1. 이전 코드를 다음으로 변경합니다.
 
     ```csharp
-    public GType GalaxyType { get; set; }     
+    public GType GalaxyType { get; set; }
     ```
 
 1. 디버그 도구 모음에서 **다시 시작** ![앱 다시 시작](../debugger/media/dbg-tour-restart.png "RestartApp") 단추를 클릭하여(**Ctrl** + **Shift** + **F5**) 코드를 다시 컴파일하고 다시 시작합니다.
@@ -265,8 +265,8 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
     앱이 실행되고 출력을 표시합니다. 이제 괜찮아 보이지만 한 가지를 알 수 있습니다. 소규모 마젤란성운 은하계가 콘솔 출력에서 불규칙 은하계로 나타날 것으로 예상했지만 은하계 형식을 보여주지 않습니다.
 
     ```
-    Tadpole  400,  Spiral 
-    Pinwheel  25,  Spiral 
+    Tadpole  400,  Spiral
+    Pinwheel  25,  Spiral
     Cartwheel, 500,  Lenticular
     Small Magellanic Cloud .2,
     Andromeda  3,  Spiral
@@ -283,7 +283,7 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
 
 1. 디버그 도구 모음에서 **다시 시작** ![앱 다시 시작](../debugger/media/dbg-tour-restart.png "RestartApp") 단추를 클릭하여(**Ctrl** + **Shift** + **F5**) 다시 시작합니다.
 
-    디버거는 중단점을 설정한 코드 줄에서 일시 중지됩니다.  
+    디버거는 중단점을 설정한 코드 줄에서 일시 중지됩니다.
 
 1. 마우스로 `type` 변수를 가리킵니다. `S`의 값이 표시됩니다(문자 코드 뒤에). 불규칙 은하계 유형임을 알고 있으므로 `I`의 값에 관심이 있습니다.
 
@@ -323,7 +323,7 @@ Visual Studio에서 코드 줄 옆의 왼쪽 여백을 클릭하여 중단점을
 * 애플리케이션에서 예상하는 코드를 실행하고 있는지 여부를 확인합니다. (예를 들어 애플리케이션 예제에서 switch 문의 코드가 불규칙의 은하계 유형으로 설정될 것이라고 예상했지만 앱은 오타로 인해 코드를 건너뛰었습니다.)
 
 > [!TIP]
-> 디버거를 사용하면 버그를 찾는 데 도움이 됩니다. 디버깅 도구에서 코드의 의도를 아는 경우에만 *사용자를 위해* 버그를 찾을 수 있습니다. 도구는 개발자가 해당 의도를 표시하는 경우에만 코드의 의도를 알 수 있습니다. [단위 테스트](../test/improve-code-quality.md)를 작성하는 것이 해당 작업을 수행하는 방법입니다. 
+> 디버거를 사용하면 버그를 찾는 데 도움이 됩니다. 디버깅 도구에서 코드의 의도를 아는 경우에만 *사용자를 위해* 버그를 찾을 수 있습니다. 도구는 개발자가 해당 의도를 표시하는 경우에만 코드의 의도를 알 수 있습니다. [단위 테스트](../test/improve-code-quality.md)를 작성하는 것이 해당 작업을 수행하는 방법입니다.
 
 ## <a name="next-steps"></a>다음 단계
 

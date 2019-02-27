@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cf49998d2aecdce37992cf51337a4d96201c9111
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 9fd695c5a33ea8ea7bb9895d34995abd37db7019
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692699"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843963"
 ---
 # <a name="create-a-basic-project-system-part-1"></a>1 부 기본 프로젝트 시스템을 만들려면
 Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타 자산을 구성 하는 데 사용할 컨테이너를 사용 합니다. 프로젝트에서 솔루션의 자식으로 표시 합니다 **솔루션 탐색기**합니다. 프로젝트를 사용 하 여 구성, 빌드, 디버그 및 소스 코드를 배포 및 웹 서비스, 데이터베이스 및 기타 리소스에 대 한 참조를 만들 수 있습니다.
@@ -35,7 +35,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
  이 연습에서는 프로젝트 파일 이름 확장명을 가진 프로젝트 형식을 만드는 방법을 보여 줍니다. *.myproj*합니다. 이 연습에서는 기존 Visual C# 프로젝트 시스템에서 활용합니다.
 
 > [!NOTE]
->  더 많은 예제 확장 프로젝트를 참조 하세요 [VSSDK 샘플](http://aka.ms/vs2015sdksamples)합니다.
+>  더 많은 예제 확장 프로젝트를 참조 하세요 [VSSDK 샘플](https://aka.ms/vs2015sdksamples)합니다.
 
  이 연습에서는 이러한 작업을 수행 하는 방법에 설명 합니다.
 

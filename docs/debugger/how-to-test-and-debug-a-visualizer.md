@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bd0c483f7fb4941430355ef287bce973e1a1659e
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: f0353234e5a266ca1a344ce7bc304f27d8c3af95
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227134"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56700447"
 ---
 # <a name="how-to-test-and-debug-a-visualizer"></a>방법: 시각화 도우미 테스트 및 디버깅
 시각화 도우미를 작성한 후에는 이를 디버깅하고 테스트해야 합니다.
@@ -54,6 +54,6 @@ ms.locfileid: "56227134"
     보다 완전 한 예제를 참조 하세요 [연습: 시각화 도우미를 작성 C# ](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)합니다.
 
 ## <a name="see-also"></a>참고 항목
-[연습: C#에서 시각화 도우미 작성](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)  
-[방법: 시각화 도우미 설치](../debugger/how-to-install-a-visualizer.md)  
-[Create Custom Visualizers of Data](../debugger/create-custom-visualizers-of-data.md)(데이터의 사용자 지정 시각화 도우미 만들기)
+- [연습: C#에서 시각화 도우미 작성](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
+- [방법: 시각화 도우미 설치](../debugger/how-to-install-a-visualizer.md)
+- [Create Custom Visualizers of Data](../debugger/create-custom-visualizers-of-data.md)(데이터의 사용자 지정 시각화 도우미 만들기)

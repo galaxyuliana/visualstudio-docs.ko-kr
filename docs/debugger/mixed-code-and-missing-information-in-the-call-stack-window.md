@@ -23,21 +23,21 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dc43ba24e821c00adb4efb64e4785e02dae31f28
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 025591ffea4d6746f87e5f1240cd226fa291d116
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54992557"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56703671"
 ---
 # <a name="mixed-code-and-missing-information-in-the-call-stack-window"></a>호출 스택 창의 혼합 코드 및 누락된 정보
-관리 코드에 대한 호출 스택과 네이티브 코드에 대한 호출 스택은 서로 다르기 때문에 코드 형식이 혼합된 경우 디버거에서 전제 호출 스택이 표시되지 않을 수 있습니다. 네이티브 코드가 관리 코드를 호출하면 **호출 스택** 창이 다음과 같이 변경될 수 있습니다.  
-  
-- 관리 코드 바로 위의 네이티브 프레임이 **호출 스택** 창에서 없어질 수 있습니다. 자세한 내용은 [방법: 호출 스택 창에 네이티브 프레임이 없을 때 관리 코드에서 나가기](../debugger/how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window.md)를 참조하세요.  
-  
-- 디버거 외부에서 실행된 혼합 모드 애플리케이션의 경우, **호출 스택** 창에 관리 코드만 표시될 수 있으며 네이티브 프레임은 표시되지 않습니다.  
-  
-  두 경우 모두 아주 드문 경우입니다. 관리 코드에 대한 대부분의 네이티브 호출에서는 호출 스택이 올바르게 나타납니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [방법: 호출 스택 창 사용](../debugger/how-to-use-the-call-stack-window.md)
+관리 코드에 대한 호출 스택과 네이티브 코드에 대한 호출 스택은 서로 다르기 때문에 코드 형식이 혼합된 경우 디버거에서 전제 호출 스택이 표시되지 않을 수 있습니다. 네이티브 코드가 관리 코드를 호출하면 **호출 스택** 창이 다음과 같이 변경될 수 있습니다.
+
+- 관리 코드 바로 위의 네이티브 프레임이 **호출 스택** 창에서 없어질 수 있습니다. 자세한 내용은 [방법: 네이티브 프레임이 호출 스택 창에서 누락 된 경우에 관리 코드를 나가기](../debugger/how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window.md)합니다.
+
+- 디버거 외부에서 실행된 혼합 모드 애플리케이션의 경우, **호출 스택** 창에 관리 코드만 표시될 수 있으며 네이티브 프레임은 표시되지 않습니다.
+
+  두 경우 모두 아주 드문 경우입니다. 관리 코드에 대한 대부분의 네이티브 호출에서는 호출 스택이 올바르게 나타납니다.
+
+## <a name="see-also"></a>참고 항목
+- [방법: 호출 스택 창 사용](../debugger/how-to-use-the-call-stack-window.md)

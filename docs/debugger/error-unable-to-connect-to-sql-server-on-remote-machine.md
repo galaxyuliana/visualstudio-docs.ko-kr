@@ -15,19 +15,19 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a737c9b993a6ffa523cbaa19929821f7d3c2acaf
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0fb2ffcb7d3cb14f4551f85b1bec702d56e94f92
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55023173"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56682780"
 ---
-# <a name="error-unable-to-connect-to-sql-server-on-remote-machine"></a>오류: 원격 컴퓨터의 SQL Server에 연결할 수 없음
-원격 컴퓨터에서 SQL Server에 연결할 수 없습니다 *이름을*입니다. 액세스가 거부되었습니다. 원격 컴퓨터에 원격 디버거를 설치했는지 확인하십시오. 원격 컴퓨터가 도메인에 없거나 Visual Studio가 로컬 계정으로 실행되는 경우 원격 컴퓨터에 로컬 계정과 동일한 사용자 이름과 암호가 있는 계정이 있어야 합니다.  
-  
-### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
-  
--   [원격 디버깅](../debugger/remote-debugging.md)을 참조하세요.  
-  
-## <a name="see-also"></a>참고 항목  
- [SQL 디버깅](/previous-versions/visualstudio/visual-studio-2010/zefbf0t6(v=vs.100))
+# <a name="error-unable-to-connect-to-sql-server-on-remote-machine"></a>오류: 원격 컴퓨터의 SQL Server에 연결할 수 없습니다.
+원격 컴퓨터에서 SQL Server에 연결할 수 없습니다 *이름을*입니다. 액세스가 거부되었습니다. 원격 컴퓨터에 원격 디버거를 설치했는지 확인하십시오. 원격 컴퓨터가 도메인에 없거나 Visual Studio가 로컬 계정으로 실행되는 경우 원격 컴퓨터에 로컬 계정과 동일한 사용자 이름과 암호가 있는 계정이 있어야 합니다.
+
+### <a name="to-correct-this-error"></a>이 오류를 해결하려면
+
+-   [원격 디버깅](../debugger/remote-debugging.md)을 참조하세요.
+
+## <a name="see-also"></a>참고 항목
+- [SQL 디버깅](/previous-versions/visualstudio/visual-studio-2010/zefbf0t6(v=vs.100))

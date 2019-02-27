@@ -10,12 +10,12 @@ ms.author: crdun
 manager: crdun
 ms.workload:
 - multiple
-ms.openlocfilehash: ab8c76a867f67f94cb0ce3589cc8aa411fd70663
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 340d376308c9647895f814dbf6d3d438a98d75e2
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316967"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843823"
 ---
 # <a name="cross-platform-mobile-development-in-visual-studio"></a>Visual Studio에서 플랫폼 간 모바일 개발
 
@@ -38,7 +38,7 @@ Xamarin용 Visual Studio Tools를 사용하면 동일한 솔루션 및 공유 �
 |[Xamarin 모바일 앱 개발 설명서](/xamarin/) |
 |[Xamarin 앱을 사용한 DevOps](/xamarin/tools/ci/devops/) |
 |[Visual Studio의 유니버설 Windows 앱에 대한 자세한 정보](https://visualstudio.microsoft.com/vs/universal-windows-platform/)(VisualStudio.com)|
-|[Swift와 C# 간의 유사점에 대해 알아보기](http://aka.ms/scposter) (download.microsoft.com)|
+|[Swift와 C# 간의 유사점에 대해 알아보기](https://aka.ms/scposter) (download.microsoft.com)|
 
 ###  <a name="AndroidHTML"></a> 단일 코드 베이스에서 Android, iOS 및 Windows를 대상으로 지정
 

@@ -11,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 427aa1e0821d38488b626656a06e8952c381053e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 13590ffaed624a8704d74d738dab35da28b5443b
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918106"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843093"
 ---
 # <a name="step-2-write-and-run-code"></a>2단계: 코드 작성 및 실행
 
@@ -53,7 +53,7 @@ ms.locfileid: "55918106"
 
     ![프로그램의 첫 번째 실행에 대한 출력](media/vs-getting-started-python-07-output.png)
 
-1. IntelliSense는 명령문 및 함수 완성 외에 Python `import` 및 `from` 문 완성 기능도 제공합니다. 이러한 완성 기능을 사용하면 사용자 환경에서 사용할 수 있는 모듈과 해당 모듈의 멤버를 손쉽게 확인할 수 있습니다. 편집기에서 `print` 줄을 삭제하고 `import ` 입력을 시작합니다. 공백을 입력하면 모듈의 목록이 표시됩니다.
+1. IntelliSense는 명령문 및 함수 완성 외에 Python `import` 및 `from` 문 완성 기능도 제공합니다. 이러한 완성 기능을 사용하면 사용자 환경에서 사용할 수 있는 모듈과 해당 모듈의 멤버를 손쉽게 확인할 수 있습니다. 편집기에서 `print` 줄을 삭제하고 `import` 입력을 시작합니다. 공백을 입력하면 모듈의 목록이 표시됩니다.
 
     ![import 문에 사용할 수 있는 모듈을 보여 주는 IntellSense](media/vs-getting-started-python-08-import1.png)
 

@@ -11,47 +11,36 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 407c161c700f4dd24eb8d123f0ef015398051caa
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b28c737f0a1c17d302cc2924b5d2c3ddc9c1dbb6
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54925618"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56686589"
 ---
 # <a name="spy-reference"></a>Spy++ 참조
-각 Spy + + 메뉴 및 대화 상자에 대 한 설명은 아래에 나열 된 섹션을 참조 하세요.  
-  
-## <a name="in-this-section"></a>섹션 내용  
- [메뉴 명령](../debugger/menu-commands.md)  
- 각 Spy + + 메뉴에서 사용할 수 있는 명령을 설명합니다.  
-  
- [글꼴 대화 상자](../debugger/font-dialog-box-microsoft-spy-increment-help.md)  
- Spy + + 뷰 창에서 사용 된 문자 글꼴을 구성 하는 데 사용 합니다.  
-  
- [Spy++ 뷰의 검색 도구](../debugger/search-tools-for-spy-increment-views.md)  
- Spy + + 뷰 창에서 특정 노드를 찾는 데 사용 되는 대화 상자입니다.  
-  
- [창 속성 대화 상자](../debugger/window-properties-dialog-box.md)  
- Windows 보기에서 선택한 창의 속성을 표시 하는 데 사용 합니다.  
-  
- [메시지 옵션 대화 상자](../debugger/message-options-dialog-box.md)  
- 메시지 보기에 표시 되는 메시지를 선택 하는 데 사용 합니다.  
-  
- [메시지 속성 대화 상자](../debugger/message-properties-dialog-box.md)  
- 선택한 메시지 뷰에서 메시지의 속성을 표시 하는 데 사용 합니다.  
-  
- [프로젝트 속성 대화 상자](../debugger/process-properties-dialog-box.md)  
- 선택한 프로세스 뷰에서 프로세스의 속성을 표시 하는 데 사용 합니다.  
-  
- [스레드 속성 대화 상자](../debugger/thread-properties-dialog-box.md)  
- 스레드 보기에서 선택한 스레드의 속성을 표시 하는 데 사용 합니다.  
-  
- [기타 대화 상자](../debugger/other-dialog-boxes.md)  
- Spy + + 프로그램에 대 한 정보를 표시 하는 데 사용 합니다.  
-  
-## <a name="related-sections"></a>관련 단원  
- [Spy++ 사용](../debugger/using-spy-increment.md)  
- Spy + + 도구를 소개 하 고 사용할 수 있는 방법을 설명 합니다.  
-  
- [Spy++ 뷰](../debugger/spy-increment-views.md)  
- Windows, 메시지, 프로세스 및 스레드 Spy + + 트리 보기에 설명합니다.
+각 Spy + + 메뉴 및 대화 상자에 대 한 설명은 아래에 나열 된 섹션을 참조 하세요.
+
+## <a name="in-this-section"></a>섹션 내용
+ [메뉴 명령](../debugger/menu-commands.md) 각 Spy + + 메뉴에서 사용할 수 있는 명령에 설명 합니다.
+
+ [글꼴 대화 상자](../debugger/font-dialog-box-microsoft-spy-increment-help.md) Spy + + 뷰 창에서 사용 된 문자 글꼴을 구성 하는 데 사용 합니다.
+
+ [Spy + + 뷰의 검색 도구](../debugger/search-tools-for-spy-increment-views.md) Spy + + 뷰 창에서 특정 노드를 찾는 데 사용 되는 대화 상자.
+
+ [창 속성 대화 상자](../debugger/window-properties-dialog-box.md) Windows 보기에서 선택한 창의 속성을 표시 하는 데 사용 합니다.
+
+ [메시지 옵션 대화 상자](../debugger/message-options-dialog-box.md) 메시지 보기에 표시 되는 메시지를 선택 하는 데 사용 합니다.
+
+ [메시지 속성 대화 상자](../debugger/message-properties-dialog-box.md) 메시지 보기에서 선택한 메시지의 속성을 표시 하는 데 사용 합니다.
+
+ [프로세스 속성 대화 상자](../debugger/process-properties-dialog-box.md) 프로세스 뷰에서 선택한 프로세스의 속성을 표시 하는 데 사용 합니다.
+
+ [스레드 속성 대화 상자](../debugger/thread-properties-dialog-box.md) 스레드 보기에서 선택한 스레드의 속성을 표시 하는 데 사용 합니다.
+
+ [기타 대화 상자](../debugger/other-dialog-boxes.md) Spy + + 프로그램에 대 한 정보를 표시 하는 데 사용 합니다.
+
+## <a name="related-sections"></a>관련 단원
+ [Spy + +를 사용 하 여](../debugger/using-spy-increment.md) Spy + + 도구를 소개 하 고 사용할 수 있는 방법을 설명 합니다.
+
+ [Spy + + 뷰](../debugger/spy-increment-views.md) windows, 메시지, 프로세스 및 스레드 Spy + + 트리 보기에 설명 합니다.

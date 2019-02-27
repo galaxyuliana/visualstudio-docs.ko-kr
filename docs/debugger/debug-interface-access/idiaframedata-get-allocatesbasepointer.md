@@ -12,34 +12,35 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c3aa3150efe4dffb1df2090e8381d471c720c690
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b9efd6500f979436027a160357c881ae6d1de426
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55009780"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56596251"
 ---
 # <a name="idiaframedatagetallocatesbasepointer"></a>IDiaFrameData::get_allocatesBasePointer
-이 주소 범위에서 코드에 대 한 기본 포인터 할당 되었는지 여부를 나타내는 플래그를 검색 합니다. 이 메서드는 사용 되지 않습니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_allocatesBasePointer (   
-   BOOL* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 반환 `TRUE` 기본 포인터 할당 되어 있습니다; 그렇지 않으면 반환 `FALSE`합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="remarks"></a>주의  
- FPO_DATA, 이전의 액세스는 또는 프로그램 문자열을 반환 하는 경우 코드 에서만이 속성을 사용 해야 합니다 [idiaframedata:: Get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md) 메서드는 `NULL`합니다. 그렇지 않은 경우 프로그램 문자열이 이전 레지스터 값을 계산 하는 데 필요한 모든 정보를 포함 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)   
- [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)
+이 주소 범위에서 코드에 대 한 기본 포인터 할당 되었는지 여부를 나타내는 플래그를 검색 합니다. 이 메서드는 사용 되지 않습니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_allocatesBasePointer ( 
+   BOOL* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 반환 `TRUE` 기본 포인터 할당 되어 있습니다; 그렇지 않으면 반환 `FALSE`합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="remarks"></a>주의
+ FPO_DATA, 이전의 액세스는 또는 프로그램 문자열을 반환 하는 경우 코드 에서만이 속성을 사용 해야 합니다 [idiaframedata:: Get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md) 메서드는 `NULL`합니다. 그렇지 않은 경우 프로그램 문자열이 이전 레지스터 값을 계산 하는 데 필요한 모든 정보를 포함 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)

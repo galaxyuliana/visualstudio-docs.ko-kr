@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9466e081aad6e5e928198b4d6f43d9f68c4eee8a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 437372a5b88e58c12b7a7d34102d87afce5c086b
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616887"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841781"
 ---
 # <a name="hierarchies-in-visual-studio"></a>Visual Studio의 계층 구조
 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 로 프로젝트를 표시 하는 통합된 개발 환경 (IDE)를 *계층*합니다. IDE에서 계층은 각 노드에 연결 된 속성 집합에 있는 노드의 트리입니다. A *계층 프로젝트* 은 프로젝트의 항목, 항목의 관계 및 항목의 관련된 속성 및 명령을 포함 하는 컨테이너입니다.
@@ -35,4 +35,4 @@ ms.locfileid: "56616887"
 ## <a name="see-also"></a>참고자료
 - [프로젝트 형식](../../extensibility/internals/project-types.md)
 - [IDE의 선택 및 통화](../../extensibility/internals/selection-and-currency-in-the-ide.md)
-- [VSSDK 샘플](http://aka.ms/vs2015sdksamples)
+- [VSSDK 샘플](https://aka.ms/vs2015sdksamples)

@@ -12,30 +12,31 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eddf32b495ab5f2eda2e190a0461e01452f70ed6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 833ef811f6859d7b991ba5931803fc0a3d21745c
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55009793"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56632773"
 ---
 # <a name="idiaframedatagetrelativevirtualaddress"></a>IDiaFrameData::get_relativeVirtualAddress
-프레임에 대 한 코드 상대 가상 주소 RVA ()를 검색합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_relativeVirtualAddress (   
-   DWORD* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 프레임에 대 한 코드 상대 가상 주소를 반환합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+프레임에 대 한 코드 상대 가상 주소 RVA ()를 검색합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_relativeVirtualAddress ( 
+   DWORD* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 프레임에 대 한 코드 상대 가상 주소를 반환합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

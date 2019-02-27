@@ -3,19 +3,17 @@ title: Visual Studio 구독의 새로운 기능
 description: Visual Studio 구독을 관리하는 데 사용할 수 있는 새롭고 업데이트된 기능에 대해 알아봅니다.
 ms.custom: ''
 ms.date: 06/25/2018
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: 01d1aebf03e71d90e31010a3a5610017c01e1f92
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 81c7c62a85af6950c1c888e9f6673fc0d4429735
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55003414"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56842067"
 ---
 # <a name="what39s-new-in-visual-studio-subscriptions"></a>Visual Studio 구독의 새로운 기능
 

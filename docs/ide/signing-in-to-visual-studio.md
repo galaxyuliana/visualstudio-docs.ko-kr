@@ -10,12 +10,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 682461df50999f14d3f8ca1f3acbee7c69559c8d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 008d0d8d464f3f1a24d15f1cb6f299edb30776fd
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908584"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840833"
 ---
 # <a name="sign-in-to-visual-studio"></a>Visual Studio에 로그인
 
@@ -30,7 +30,7 @@ IDE에 로그인하여 개인 설정 계정을 설정하면 Visual Studio의 개
 
 다음은 로그인 후 예상할 수 있고 수행할 수 있는 작업의 전체 목록입니다.
 
-- **Visual Studio Dev Essentials 프로그램에 액세스** - 이 프로그램은 무료 소프트웨어 제품, 교육, 지원 등을 포함합니다. 자세한 내용은 [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) 를 참조하세요.
+- **Visual Studio Dev Essentials 프로그램에 액세스** - 이 프로그램은 무료 소프트웨어 제품, 교육, 지원 등을 포함합니다. 자세한 내용은 [Visual Studio Dev Essentials](https://aka.ms/vsdevhelp) 를 참조하세요.
 
 - **Visual Studio 설정 동기화** – 아무 디바이스에서나 Visual Studio에 로그인하면 키 바인딩, 창 레이아웃 및 색 테마 등의 사용자 지정 설정이 즉시 적용됩니다. [Visual Studio의 동기화된 설정](../ide/synchronized-settings-in-visual-studio.md)을 참조하세요.
 

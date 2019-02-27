@@ -1,14 +1,9 @@
 ---
 title: 액세스가 거부 되었습니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT5
 dev_langs:
@@ -16,15 +11,14 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: 8a512060-d744-47af-a83e-4ba42ea2c5b2
-caps.latest.revision: 2
 author: mikejo5000
 ms.author: mikejo
-ms.openlocfilehash: 9b49f60395a853d7dfda91738ccccaba9d585b46
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 75f1bb08031769c06f7d94d4f8c120496fffc02d
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349480"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843755"
 ---
 # <a name="access-is-denied"></a>액세스가 거부되었습니다.
 스크립트가 현재 페이지의 호스트가 아닌 다른 소스에서 데이터에 액세스하려고 했습니다. Internet Explorer 및 다른 브라우저가 따르는 동일 원본 정책에서는 스크립트가 현재 페이지 URL의 체계, 호스트 및 포트와 동일한 소스의 데이터만 액세스할 수 있습니다.  

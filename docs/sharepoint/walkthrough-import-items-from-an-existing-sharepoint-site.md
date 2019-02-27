@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 76b7fa5b722851357ed7f383b3f9c8e4ad4dc95e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 24ee1588555d51c20989d782375b32e5874df878
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605993"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841751"
 ---
 # <a name="walkthrough-import-items-from-an-existing-sharepoint-site"></a>연습: 기존 SharePoint 사이트에서 항목 가져오기
   이 연습에서는 기존 SharePoint 사이트에서 항목을 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다.
@@ -43,7 +43,7 @@ ms.locfileid: "56605993"
 ## <a name="customize-a-sharepoint-site"></a>SharePoint 사이트를 사용자 지정
  예를 들어 만들고 새 사이트 열을 추가 하 고 나중에 사용할 다른 하위 사이트를 만들어 SharePoint 하위 사이트를 사용자 지정 합니다. 나중에 첫 번째 하위.wsp 파일로 내보내려면를 다음.wsp 가져오기 프로젝트를 사용 하 여 두 번째 하위 사이트에 사용자 지정 사이트 열을 가져옵니다.
 
-#### <a name="to-create-and-customize-a-sharepoint-site"></a>만들고 SharePoint 사이트를 사용자 지정
+### <a name="to-create-and-customize-a-sharepoint-site"></a>만들고 SharePoint 사이트를 사용자 지정
 
 1. 예: http:// 웹 브라우저를 사용 하 여 SharePoint 사이트를 엽니다<em>시스템 이름</em>/SitePages/Home.aspx 합니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "56605993"
 > [!IMPORTANT]
 >  다음 절차를 수행 하는 런타임 오류가 발생 하는 경우 SharePoint 사이트에 액세스할 수 있는 시스템에서 절차를 수행 해야 합니다.
 
-#### <a name="to-export-an-existing-sharepoint-site"></a>기존 SharePoint 사이트를 내보내려면
+### <a name="to-export-an-existing-sharepoint-site"></a>기존 SharePoint 사이트를 내보내려면
 
 1.  SharePoint 사이트에서 선택할 **사이트 설정** 에 **사이트 작업** 사이트 설정 페이지를 표시 하려면 탭 합니다.
 
@@ -100,7 +100,7 @@ ms.locfileid: "56605993"
 ## <a name="import-the-wsp-file"></a>.Wsp 파일 가져오기
  이제는 *.wsp* 가져오기, (사용자 지정 사이트 열 테스트)를 다시 사용 하려는 항목을 포함 하는 파일을 *.wsp* 파일에 액세스할 수 합니다.
 
-#### <a name="to-import-a-wsp-file"></a>.Wsp 파일을 가져오려면
+### <a name="to-import-a-wsp-file"></a>.Wsp 파일을 가져오려면
 
 1. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], 메뉴 모음에서 **파일** > **New** > **프로젝트** 표시할는 **새 프로젝트**대화 상자. IDE는 메뉴 모음에서 Visual Basic 개발 설정을 사용 하도록 설정 하는 경우 선택할 **파일** > **새 프로젝트**합니다.
 
@@ -128,7 +128,7 @@ ms.locfileid: "56605993"
 ## <a name="deploy-the-project"></a>프로젝트 배포
  마지막으로 배포 **WspImportProject1** 두 번째 SharePoint에는 앞에서 만든 사용자 지정 사이트 열을 보려면 하위 사이트입니다.
 
-#### <a name="to-deploy-the-project"></a>프로젝트를 배포 하려면
+### <a name="to-deploy-the-project"></a>프로젝트를 배포 하려면
 
 1.  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 선택 합니다 **F5** 배포 및 실행 하는 키를 *.wsp* 프로젝트 가져오기.
 

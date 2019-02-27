@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: kraigb
 ms.author: kraigb
 manager: jillfra
-ms.openlocfilehash: 18e55aef8d95110dc44f20084eb5e45f643bf3cf
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 11febf99dc411d50ee94e003515bfa6581591b91
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54833945"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56678867"
 ---
 # <a name="getting-started-with-python"></a>Python 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,7 +65,7 @@ Python 자체를 설치 하려면 방문 [ https://www.python.org/download/ ](ht
 - [문서](https://github.com/Microsoft/PTVS/wiki)  
 
 
-Visual Studio 제공 하지 않음을 현재 기본적으로 포함 된 Python 인터프리터를 사용 하 여 프로그램을 의미 하는 Python을 사용 하 여 독립 실행형 실행 파일을 만들 note 합니다. 그러나 [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency)에 설명된 것처럼 Python 커뮤니티 내에 이렇게 하는 다양한 방법이 있습니다. 또한 CPython은 블로그 게시물 [Using CPython's Embeddable Zip File](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/)(CPython의 포함 가능한 Zip 파일 사용)에 설명된 것처럼 네이티브 애플리케이션 내에 포함되는 기능을 지원합니다.
+Visual Studio 제공 하지 않음을 현재 기본적으로 포함 된 Python 인터프리터를 사용 하 여 프로그램을 의미 하는 Python을 사용 하 여 독립 실행형 실행 파일을 만들 note 합니다. 그러나 [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency)에 설명된 것처럼 Python 커뮤니티 내에 이렇게 하는 다양한 방법이 있습니다. 또한 CPython은 블로그 게시물 [Using CPython's Embeddable Zip File](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/)(CPython의 포함 가능한 Zip 파일 사용)에 설명된 것처럼 네이티브 애플리케이션 내에 포함되는 기능을 지원합니다.
   
 ## <a name="building-ui-with-python"></a>Python 사용 하 여 UI 빌드  
 
@@ -93,8 +93,8 @@ Windows, Mac 및 Linux를 지원하는 Python용 Azure SDK을 통해 Microsoft A
   
 ## <a name="see-also"></a>참고 항목  
 
-[Ptvs 시작: Visual Studio 설정](../python/getting-started-with-ptvs-setting-up-visual-studio.md)
-[PTVS 시작: 코딩 시작 (프로젝트)](../python/getting-started-with-ptvs-start-coding-projects.md)
+[PTVS 시작: Visual Studio 설정](../python/getting-started-with-ptvs-setting-up-visual-studio.md)
+[PTVS 시작: 코딩 시작(프로젝트)](../python/getting-started-with-ptvs-start-coding-projects.md)
 [PTVS 시작: 코드 편집](../python/getting-started-with-ptvs-editing-code.md)
 [PTVS 시작: 디버깅](../python/getting-started-with-ptvs-debugging.md)
 [PTVS 시작: 대화형 Python](../python/getting-started-with-ptvs-interactive-python.md)

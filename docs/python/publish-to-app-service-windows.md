@@ -11,12 +11,12 @@ ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: d6ff3f4d13e2182c5187bc80489115b8c351c194
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b5d2d878cb7f9597c0341f26fa41df8e4834a886
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935331"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56713544"
 ---
 # <a name="publishing-to-azure-app-service-on-windows"></a>Windows의 Azure App Service에 게시
 
@@ -28,7 +28,7 @@ Visual Studio는 Python 웹앱을 Windows의 Azure App Service에 직접 게시�
 게시 프로세스는 Visual Studio 2017과 Visual Studio 2015가 다릅니다. 특히 Visual Studio 2015는 `web.config` 만들기를 비롯한 단계 중 일부를 자동화합니다. 단, 이 자동화로 인해 장기 유연성 및 제어에 제한이 있습니다. Visual Studio 2017은 더 많은 수동 단계가 필요하지만 Python 환경에서의 보다 정확한 제어를 제공합니다. 두 옵션 모두 여기에 설명되어 있습니다.
 
 > [!Note]
-> Visual Studio 2015와 Visual Studio 2017 간 변경 사항에서 배경의 경우, 블로그 게시물을 [Visual Studio 2017에서 Azure에 게시](https://blogs.msdn.microsoft.com/pythonengineering/2016/12/12/publish-to-azure-in-vs-2017/)를 참조하세요.
+> Visual Studio 2015와 Visual Studio 2017 간 변경 사항에서 배경의 경우, 블로그 게시물을 [Visual Studio 2017에서 Azure에 게시](https://devblogs.microsoft.com/python/publish-to-azure-in-vs-2017/)를 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
 

@@ -12,12 +12,12 @@ manager: jillfra
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: b2db748d747f1e3c12a2d9e91a4b310e31b0299c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 89c66d0ce71a77dcfcaa6364cba6d31cf5707c4a
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335599"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56613377"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure 앱 디버그
 
@@ -63,7 +63,7 @@ Snappoint 및 logpoint 중단점, 유사 하지만 중단점과 달리 snappoint
 2. 스냅숏 디버거를 연결 합니다. 여러 다른 방법 중 하나를 사용할 수 있습니다.
 
     * 선택 **디버그 > 스냅숏 디버거를 연결 하는 중...** . 프로젝트에 배포 된 Azure App Service 및 Azure storage 계정을 선택한 다음 클릭 **연결**합니다.
-  
+
       ![디버그 메뉴에서 스냅숏 디버거를 시작 합니다.](../debugger/media/snapshot-debug-menu-attach.png)
 
     * 에 프로젝트를 마우스 오른쪽 단추로 클릭 **게시**, 게시 페이지 클릭 **스냅숏 디버거 연결**합니다. 프로젝트에 배포 된 Azure App Service 및 Azure storage 계정을 선택한 다음 클릭 **연결**합니다.
@@ -73,7 +73,7 @@ Snappoint 및 logpoint 중단점, 유사 하지만 중단점과 달리 snappoint
     ![F5 드롭 다운 메뉴에서 스냅숏 디버거를 시작 합니다.](../debugger/media/snapshot-F5-dropdown-attach.png)
 
     * 클라우드 탐색기를 사용 하 여 (**보기 > 클라우드 탐색기**), Azure App Service에 배포 된 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 Azure storage 계정을 선택 및 클릭 **스냅숏 디버거 연결**합니다.
-  
+
       ![클라우드 탐색기에서 스냅숏 디버거를 시작 합니다.](../debugger/media/snapshot-launch.png)
 
     처음으로 선택 하면 **스냅숏 디버거 연결**, Azure App Service에서 스냅숏 디버거 사이트 확장을 설치 하 라는 메시지가 나타납니다. 이 설치에는 Azure App Service를 다시 시작을 해야 합니다.

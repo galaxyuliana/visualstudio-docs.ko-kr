@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5c331171a62d2319666229f108428b9d62b7464e
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 759972fa02c7645ae457e0b715d835b2d717e26f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227620"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56608593"
 ---
 # <a name="idiasessiongetenumtables"></a>IDiaSession::getEnumTables
 기호 저장소에 포함 된 모든 테이블에 대 한 열거자를 검색 합니다.
@@ -31,13 +31,14 @@ HRESULT getEnumTables (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`ppEnumTables`  
+`ppEnumTables`
+
 [out] 반환 된 [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md) 개체입니다. 이 인터페이스를 사용 하 여 기호 저장소의 테이블을 열거 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제를 사용 하는 일반 함수를 제공 합니다 `getEnumTables` 특정 열거자 개체를 가져오려면 메서드. 함수는 원하는 인터페이스를 캐스팅할 수 있는 포인터를 반환 하면 열거자가 있으면 반환이 고, 그렇지 `NULL`합니다.
 
 ```C++
@@ -67,5 +68,5 @@ IUnknown *GetTable(IDiaSession *pSession, REFIID iid)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)

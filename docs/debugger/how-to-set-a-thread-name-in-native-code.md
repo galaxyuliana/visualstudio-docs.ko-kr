@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: c547dd00f7a5a31b949d22c13f305050355207c7
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 264ac57a0d159b9cdd2627d7a62372fa070e31de
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227318"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56715182"
 ---
 # <a name="how-to-set-a-thread-name-in-native-code"></a>방법: 네이티브 코드에 스레드 이름 설정
 스레드 명명 기능은 Visual Studio의 모든 버전에서 사용할 수 있습니다. 스레드 명명 하는 것은 관심 있는 스레드를 식별 하는 데 유용 합니다 **스레드** 실행 중인 프로세스를 디버깅 하는 경우 창입니다. 스레드 recognizably 라는 것도 유용할 수 있습니다 사후 다양 한 도구를 사용 하 여 캡처한 성능 분석 및 크래시 덤프 검사를 통해 디버깅을 수행 하는 경우.
@@ -109,6 +109,6 @@ void SetThreadName(DWORD dwThreadID, const char* threadName) {
 ```
 
 ## <a name="see-also"></a>참고 항목
-[다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)  
-[디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)  
-[방법: 관리 코드에 스레드 이름 설정](../debugger/how-to-set-a-thread-name-in-managed-code.md)
+- [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)
+- [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)
+- [방법: 관리 코드에 스레드 이름 설정](../debugger/how-to-set-a-thread-name-in-managed-code.md)

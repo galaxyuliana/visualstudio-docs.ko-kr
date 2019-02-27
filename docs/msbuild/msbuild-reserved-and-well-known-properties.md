@@ -15,20 +15,20 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: af1241de2849ce0b32206c0815928c8beb140e23
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 35ef81aba75e42e7d3d713d5f6efb7129b55b2d2
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54963660"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56632396"
 ---
 # <a name="msbuild-reserved-and-well-known-properties"></a>MSBuild의 예약된 속성 및 잘 알려진 속성
-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에서는 프로젝트 파일과 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 이진 파일에 대한 정보를 저장하는 미리 정의된 속성 집합을 제공합니다. 이러한 속성은 다른 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 속성과 동일한 방식으로 평가됩니다. 예를 들어, `MSBuildProjectFile` 속성을 사용하려면 `$(MSBuildProjectFile)`을 입력합니다.  
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에서는 프로젝트 파일과 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 이진 파일에 대한 정보를 저장하는 미리 정의된 속성 집합을 제공합니다. 이러한 속성은 다른 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 속성과 동일한 방식으로 평가됩니다. 예를 들어, `MSBuildProjectFile` 속성을 사용하려면 `$(MSBuildProjectFile)`을 입력합니다.
 
  MSBuild에서는 다음 표에 있는 값을 사용하여 예약된 속성 및 잘 알려진 속성을 미리 정의할 수 있습니다. 예약된 속성은 재정의할 수 없지만 잘 알려진 속성은 동일하게 이름이 지정된 환경 속성, 전역 속성 또는 프로젝트 파일에 선언된 속성을 사용하여 재정의할 수 있습니다.
 
-## <a name="reserved-and-well-known-properties"></a>예약된 속성 및 잘 알려진 속성  
- 다음 표에서는 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]의 미리 정의된 속성에 대해 설명합니다.  
+## <a name="reserved-and-well-known-properties"></a>예약된 속성 및 잘 알려진 속성
+ 다음 표에서는 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]의 미리 정의된 속성에 대해 설명합니다.
 
 
 | 속성 | 예약됨 또는 잘 알려짐 | 설명 |
@@ -75,7 +75,7 @@ ms.locfileid: "54963660"
 * When
 * Otherwise
 
-## <a name="see-also"></a>참고 항목  
-[MSBuild 참조](../msbuild/msbuild-reference.md)
+## <a name="see-also"></a>참고 항목
+- [MSBuild 참조](../msbuild/msbuild-reference.md)
 
-[MSBuild 속성](../msbuild/msbuild-properties.md)
+- [MSBuild 속성](../msbuild/msbuild-properties.md)

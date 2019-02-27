@@ -15,16 +15,16 @@ manager: jillfra
 ms.workload:
 - dotnet
 - cplusplus
-ms.openlocfilehash: c9bdc4afb0d5f2b9f9f4ae0385b63372644929f8
-ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
+ms.openlocfilehash: 011e51e126fc70f12be7dd94c05b27df17e77adf
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "55690244"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56714623"
 ---
 # <a name="tutorial-debug-c-and-c-in-the-same-debugging-session"></a>자습서: 동일한 디버깅 세션에서 C# 및 C++ 디버그
 
-Visual Studio를 사용하면 혼합 모드 디버깅이라는 디버깅 세션에서 하나를 초과하는 디버거 형식을 사용하도록 설정할 수 있습니다. 이 자습서에서는 단일 디버깅 세션에서 관리 및 네이티브 코드를 디버그하는 방법을 알아봅니다. 
+Visual Studio를 사용하면 혼합 모드 디버깅이라는 디버깅 세션에서 하나를 초과하는 디버거 형식을 사용하도록 설정할 수 있습니다. 이 자습서에서는 단일 디버깅 세션에서 관리 및 네이티브 코드를 디버그하는 방법을 알아봅니다.
 
 이 자습서에서는 관리 앱에서 네이티브 코드를 디버그하는 방법을 보여주지만 [네이티브 앱에서 관리 코드를 디버그](../debugger/how-to-debug-in-mixed-mode.md)할 수도 있습니다. 디버거는 [Python 및 네이티브 코드](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md) 디버깅 및 ASP.NET과 같은 앱 형식에서 스크립트 디버거 사용과 같은 다른 유형의 혼합 모드 디버깅을 지원합니다.
 
@@ -60,7 +60,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
    Visual Studio에서는 빈 프로젝트를 만들고 **솔루션 탐색기**에 해당 프로젝트를 표시합니다.
 
-1. **솔루션 탐색기**에서 **원본 파일**을 선택한 다음, **프로젝트** > **새 항목 추가**를 선택합니다. 또는 **원본 파일**을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목**을 선택합니다. 
+1. **솔루션 탐색기**에서 **원본 파일**을 선택한 다음, **프로젝트** > **새 항목 추가**를 선택합니다. 또는 **원본 파일**을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목**을 선택합니다.
 
 1. **새 항목** 대화 상자에서 **C++ 파일(.cpp)** 을 선택합니다. **이름** 필드에 **Mixed_Mode.cpp**를 입력한 다음, **추가**를 선택합니다.
 
@@ -71,7 +71,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
     ```cpp
     #include "Mixed_Mode.h"
     ```
-1. **솔루션 탐색기**에서 **헤더 파일**을 선택한 다음, **프로젝트** > **새 항목 추가**를 선택합니다. 또는 **헤더 파일**을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목**을 선택합니다. 
+1. **솔루션 탐색기**에서 **헤더 파일**을 선택한 다음, **프로젝트** > **새 항목 추가**를 선택합니다. 또는 **헤더 파일**을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목**을 선택합니다.
 
 1. **새 항목** 대화 상자에서 **헤더 파일(.h)** 을 선택합니다. **이름** 필드에 **Mixed_Mode.h**를 입력한 다음, **추가**를 선택합니다.
 
@@ -100,10 +100,10 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
 1. **솔루션 탐색기**에서 **Mixed_Mode_Debugging** 프로젝트 노드 및 **속성** 아이콘을 차례로 선택하거나, 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
-1. **속성** 창 맨 위에서 **구성**이 **활성(디버그)** 로 설정되고 **플랫폼**이 도구 모음에서 설정한 것과 동일한 플랫폼 즉, **x64** 또는 **Win32** x86 플랫폼인지 확인합니다. 
+1. **속성** 창 맨 위에서 **구성**이 **활성(디버그)** 로 설정되고 **플랫폼**이 도구 모음에서 설정한 것과 동일한 플랫폼 즉, **x64** 또는 **Win32** x86 플랫폼인지 확인합니다.
 
    > [!IMPORTANT]
-   > 플랫폼을 **x86**에서 **x64**로 또는 반대로 전환하는 경우 새 플랫폼의 속성을 다시 구성해야 합니다. 
+   > 플랫폼을 **x86**에서 **x64**로 또는 반대로 전환하는 경우 새 플랫폼의 속성을 다시 구성해야 합니다.
 
 1. 왼쪽 창의 **구성 속성**에서 **링커** > **고급**을 선택하고, **진입점 없음** 옆에 있는 드롭다운 목록에서 **아니오**를 선택합니다. **아니오**로 변경해야 하는 경우 **적용**을 선택합니다.
 
@@ -125,7 +125,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 1. **새 프로젝트** 대화 상자에서 **Visual C#** 을 선택하고 가운데 창에서는 다음을 수행합니다.
 
    - .NET Framework 앱의 경우 **콘솔 앱(.NET Framework)** 을 선택합니다.
-   
+
    - .NET Core 앱의 경우 **콘솔 앱(.NET Core)** 을 선택합니다.
 
 1. **이름** 필드에 **Mixed_Mode_Calling_App**을 입력한 다음, **확인**을 선택합니다.
@@ -164,9 +164,9 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
 1. **파일** > **Program.cs 저장**을 선택하거나 **Ctrl**+**S**를 눌러 파일을 저장합니다.
 
-## <a name="configure-mixed-mode-debugging"></a>혼합 모드 디버깅 구성 
+## <a name="configure-mixed-mode-debugging"></a>혼합 모드 디버깅 구성
 
-### <a name="to-configure-mixed-mode-debugging-for-a-net-framework-app"></a>.NET Framework 앱에 대한 혼합 모드 디버깅을 구성하려면 
+### <a name="to-configure-mixed-mode-debugging-for-a-net-framework-app"></a>.NET Framework 앱에 대한 혼합 모드 디버깅을 구성하려면
 
 1. **솔루션 탐색기**에서 **Mixed_Mode_Calling_App** 프로젝트 노드 및 **속성** 아이콘을 차례로 선택하거나, 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
@@ -174,11 +174,11 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
     ![혼합된 모드 디버깅 사용](../debugger/media/mixed-mode-enable-native-code-debugging.png)
 
-### <a name="to-configure-mixed-mode-debugging-for-a-net-core-app"></a>.NET Core 앱에 대한 혼합 모드 디버깅을 구성하려면 
+### <a name="to-configure-mixed-mode-debugging-for-a-net-core-app"></a>.NET Core 앱에 대한 혼합 모드 디버깅을 구성하려면
 
 Visual Studio 2017의 대부분 버전에서 프로젝트 속성 대신 *launchSettings.json* 파일을 사용하여 .NET Core 앱에서 네이티브 코드에 대한 혼합 모드 디버깅을 사용하도록 설정합니다. 이 기능에 대한 UI 업데이트를 추적하려면 이 [GitHub 문제](https://github.com/dotnet/project-system/issues/1125)를 참조하세요.
 
-1. **솔루션 탐색기**에서 **속성**을 확장하고 *launchSettings.json* 파일을 엽니다. 
+1. **솔루션 탐색기**에서 **속성**을 확장하고 *launchSettings.json* 파일을 엽니다.
 
    >[!NOTE]
    >기본적으로 *launchSettings.json*은 *C:\Users\username\source\repos\Mixed_Mode_Calling_App\Properties*에 있습니다. *launchSettings.json*이 존재하지 않는 경우 **솔루션 탐색기**에서 **Mixed_Mode_Calling_App** 프로젝트 및 **속성** 아이콘을 차례로 선택하거나, 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다. **디버그** 탭에서 임시로 변경하고 프로젝트를 빌드합니다. 이렇게 *launchSettings.json* 파일을 만듭니다. **디버그** 탭에서 변경한 내용을 취소합니다.

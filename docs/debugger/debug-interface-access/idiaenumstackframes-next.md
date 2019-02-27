@@ -12,39 +12,42 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 00be37ffa1724cb6ced2423ea388b2a24dae42f3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f9cf220c65cf11836e64a7e1f4c0142c89669f4b
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54919970"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56619448"
 ---
 # <a name="idiaenumstackframesnext"></a>IDiaEnumStackFrames::Next
-열거형 시퀀스에서 지정 된 개수의 스택 프레임 요소를 검색합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT Next(   
-   ULONG             celt,  
-   IDiaStackFrame**  rgelt,  
-   ULONG*            pceltFetched  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- celt  
- [in] 검색할 열거자의 stackframe 요소의 수입니다.  
-  
- rgelt  
- [out] 배열을 채울 요청한 [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md) 개체입니다.  
-  
- pceltFetched  
- [out] 인출된 열거자의 수가 스택 프레임 요소를 반환합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 자세한 스택 프레임이 없는 경우. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)   
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+열거형 시퀀스에서 지정 된 개수의 스택 프레임 요소를 검색합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT Next( 
+   ULONG             celt,
+   IDiaStackFrame**  rgelt,
+   ULONG*            pceltFetched
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ celt
+
+[in] 검색할 열거자의 stackframe 요소의 수입니다.
+
+ rgelt
+
+[out] 배열을 채울 요청한 [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md) 개체입니다.
+
+ pceltFetched
+
+[out] 인출된 열거자의 수가 스택 프레임 요소를 반환합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 자세한 스택 프레임이 없는 경우. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
