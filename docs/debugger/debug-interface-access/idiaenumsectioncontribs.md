@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1c5727232b90955d660be88f57327e058d6969c8
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: ede7789fcdba63595cecd6426c8f3ca1a4048e07
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227526"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56631759"
 ---
 # <a name="idiaenumsectioncontribs"></a>IDiaEnumSectionContribs
 데이터 원본에 포함 된 다양 한 섹션 기여도 열거 합니다.
@@ -46,7 +46,7 @@ IDiaEnumSectionContribs : IUnknown
 ## <a name="note-for-callers"></a>호출자 참고
 이 인터페이스를 가져올는 [idiasession:: Getenumtables](../../debugger/debug-interface-access/idiasession-getenumtables.md) 메서드. 세부 정보에 대 한 예제를 참조 하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 가져오는 방법을 보여 줍니다 (를 `GetEnumSectionContribs` 함수) 사용 하 여 (합니다 `ShowSectionContribs` 함수)는 `IDiaEnumSectionContribs` 인터페이스. 섹션 기여를 사용 하 여 자세한 예제를 참조 하세요. 합니다 [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md) 인터페이스입니다.
 
 ```C++
@@ -107,6 +107,6 @@ void ShowSectionContribs(IDiaSession *pSession)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)  
-[IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

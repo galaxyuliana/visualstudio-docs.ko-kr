@@ -28,12 +28,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 461c2c4bc5525eee61c413cb8c25afd6090852a5
-ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
+ms.openlocfilehash: c103448ae1471e2d9806a1d1cd2f8510c607f844
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "55987472"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56628327"
 ---
 # <a name="cc-assertions"></a>C/C++ 어설션
 어설션 문은 프로그램의 지점에서 true가 될 예상 하는 조건을 지정 합니다. 어설션이 실패 하 여 프로그램의 실행이 중단 되며 해당 조건이 true가 아닐 경우와 [어설션 오류 대화 상자](../debugger/assertion-failed-dialog-box.md) 나타납니다.
@@ -46,7 +46,7 @@ Visual c + +에서는 다음 구문을 기반으로 하는 어설션 문을 지�
 
 - C 런타임 라이브러리를 사용 하는 프로그램에 대 한 CRT 어설션입니다.
 
-- ANSI [어설션 함수](/cpp/c-runtime-library/reference/assert-macro-assert-wassert) 다른 C/c + + 프로그램에 대 한 합니다.  
+- ANSI [어설션 함수](/cpp/c-runtime-library/reference/assert-macro-assert-wassert) 다른 C/c + + 프로그램에 대 한 합니다.
 
   논리 오류를 catch는 작업의 결과 확인 하 고 처리 해야 하는 오류 조건을 테스트에 어설션을 사용할 수 있습니다.
 
@@ -63,7 +63,7 @@ Visual c + +에서는 다음 구문을 기반으로 하는 어설션 문을 지�
 
 - [MFC ASSERT_VALID 및 CObject::AssertValid](#BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid)
 
-- [AssertValid의 제한 사항](#BKMK_Limitations_of_AssertValid)  
+- [AssertValid의 제한 사항](#BKMK_Limitations_of_AssertValid)
 
   [어설션을 사용 하 여](#BKMK_Using_assertions)
 
@@ -339,6 +339,7 @@ _ASSERT(!myErr); // Don't do this, either!
 [항목 내용](#BKMK_In_this_topic)
 
 ## <a name="see-also"></a>참고 항목
-[디버거 보안](../debugger/debugger-security.md)  
-[네이티브 코드 디버그](../debugger/debugging-native-code.md)  
-[관리 코드에 어설션 사용](../debugger/assertions-in-managed-code.md)
+
+- [디버거 보안](../debugger/debugger-security.md)
+- [네이티브 코드 디버그](../debugger/debugging-native-code.md)
+- [관리 코드에 어설션 사용](../debugger/assertions-in-managed-code.md)

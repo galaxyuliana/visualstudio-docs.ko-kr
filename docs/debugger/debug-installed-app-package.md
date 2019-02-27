@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 84d2296a467bb1fc2c3e1466b715578c94c7d0d8
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: b6a41ad863ee25e4294d5d0242b3113cd405fb00
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317940"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56637349"
 ---
 # <a name="debug-an-installed-uwp-app-package-in-visual-studio"></a>Visual Studio에서 설치 된 UWP 앱 패키지 디버그
 
@@ -33,7 +33,7 @@ Visual Studio는 Xbox, HoloLens, IoT 장치와 Windows 10 컴퓨터에 설치 �
 
 >[!NOTE]
 >Visual Studio 설치 된 UWP 앱에 대 한 디버깅 휴대폰에서 지원 되지 않습니다.
-   
+
 UWP 앱을 디버깅 하는 방법에 대 한 자세한 내용은 블로그 게시물을 참조 [설치 된 앱 패키지를 디버깅](https://devblogs.microsoft.com/devops/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) 하 고 [유니버설 Windows 앱 (UWP) 빌드](https://devblogs.microsoft.com/visualstudio/universal-windows-apps-targeting-windows-10-anniversary-sdk/)합니다.
 
 ## <a name="debug-an-installed-uwp-app-on-a-local-machine"></a>로컬 컴퓨터에 설치 된 UWP 앱 디버그

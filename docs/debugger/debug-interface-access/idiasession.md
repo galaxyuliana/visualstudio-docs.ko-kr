@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 26293210bfc0dc18ded747ef44c5cc8699b3c5c8
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: c69383eacfdb39a65cd9a791185d6793e9e6f681
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227776"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56642810"
 ---
 # <a name="idiasession"></a>IDiaSession
 디버그 기호에 대 한 쿼리 컨텍스트를 제공 합니다.
@@ -73,7 +73,7 @@ IDiaSession : IUnknown
 ## <a name="remarks"></a>주의
 호출 해야 합니다 [idiasession:: Put_loadaddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md) 메서드를 만든 후를 `IDiaSession` 개체-및 전달 되는 값을 `put_loadAddress` 메서드는 0이 아닌 값 이어야 합니다.-기호 수의 가상 주소 (VA) 속성에 대 한 액세스할 수 있습니다. 원하는 프로그램 로드 디버깅 중인 실행 파일의 로드 주소 제공 됩니다. 예를 들어 Win32 함수를 호출할 수 있습니다 `GetModuleInformation` 검색할 실행 파일의 로드 주소 실행 파일에 대 한 핸들을 지정 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 가져오는 방법을 보여 주는이 예제는 `IDiaSession` DIA sdk 일반 초기화의 일부로 인터페이스입니다.
 
 ```C++
@@ -117,11 +117,11 @@ void InitializeDIA(const char *szFilename)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[개요](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)  
-[Exe](../../debugger/debug-interface-access/exe.md)  
-[IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)  
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)  
-[IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)  
-[IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)  
-[.Pdb 파일 쿼리](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [개요](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
+- [Exe](../../debugger/debug-interface-access/exe.md)
+- [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
+- [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+- [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)
+- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
+- [.Pdb 파일 쿼리](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)

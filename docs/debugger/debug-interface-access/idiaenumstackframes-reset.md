@@ -12,24 +12,24 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a7432359916c2f6af904c892ab1951a77e4e248b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0bdf24fb9926c66b389430208d16f943af41cc11
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54957297"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56641444"
 ---
 # <a name="idiaenumstackframesreset"></a>IDiaEnumStackFrames::Reset
-열거형 시퀀스를 시작 부분으로 다시 설정합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT Reset();  
-```  
-  
-## <a name="return-value"></a>반환 값  
- `S_OK`를 반환합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)
+열거형 시퀀스를 시작 부분으로 다시 설정합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT Reset();
+```
+
+## <a name="return-value"></a>반환 값
+ `S_OK`를 반환합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)

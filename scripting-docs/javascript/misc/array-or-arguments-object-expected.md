@@ -1,14 +1,9 @@
 ---
 title: Array 또는 arguments 개체가 필요 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT5028
 dev_langs:
@@ -16,18 +11,17 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: 22b83e2f-8916-46db-8d8c-50c8481b7c90
-caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 0bc287026c88687274ad63cc6c1cd03309af8b93
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 6bd30ac1a49ff976ae928243fb74b9939c1eaf27
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54345359"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840622"
 ---
-# <a name="array-or-arguments-object-expected"></a>배열 또는 인수 개체가 필요합니다.
+# <a name="array-or-arguments-object-expected"></a>Array 또는 Arguments 개체가 필요합니다.
 인수로 배열을 제공 하지 않았습니다. 이 오류에 적용 됩니다는 **Function.prototype.apply** 방법만 해당 합니다. 이 함수에서 두 번째 인수 중 하나 여야 합니다를 지정 하는 경우는 `Array` 개체 또는 **인수** 개체입니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
