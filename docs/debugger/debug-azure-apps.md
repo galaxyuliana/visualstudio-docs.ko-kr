@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - azure
-ms.openlocfilehash: 6190f4e735b7b3f05efe80f8d8562ac03f1ee3c8
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 67d25bcea141c15a55b5cc2950c42d9a5fb5f4f8
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335037"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56654154"
 ---
 # <a name="debug-azure-services-in-visual-studio"></a>Visual Studio에서 Azure 서비스를 디버그 합니다.
 
@@ -33,5 +33,6 @@ ms.locfileid: "56335037"
 
 - Azure Service Fabric에서 ASP.NET 원격 디버그 참조 [원격 Service Fabric 응용 프로그램 디버그](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)
 
-## <a name="see-also"></a>참고 항목  
- [Visual Studio의 디버깅](../debugger/index.md)
+## <a name="see-also"></a>참고 항목
+
+- [Visual Studio의 디버깅](../debugger/index.md)

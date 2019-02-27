@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 779df14d01950b90a45764ba9d84760a1448d475
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: faff61833cb130902efbd64d60a16f74c507a3e2
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318656"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56627937"
 ---
 # <a name="locationtype"></a>LocationType
 기호에 포함 된 위치 정보의 종류를 나타냅니다.
@@ -42,41 +42,29 @@ enum LocationType {
 ```
 
 ## <a name="elements"></a>요소
-`LocIsNull`  
-위치 정보를 사용할 수 없는 경우
+`LocIsNull` 위치 정보를 사용할 수 없는 경우
 
-`LocIsStatic`  
-위치는 정적입니다.
+`LocIsStatic` 위치는 정적입니다.
 
-`LocIsTLS`  
-스레드 로컬 저장소의 위치는입니다.
+`LocIsTLS` 스레드 로컬 저장소의 위치는입니다.
 
-`LocIsRegRel`  
-위치는 레지스터 상대입니다.
+`LocIsRegRel` 위치는 레지스터 상대입니다.
 
-`LocIsThisRel`  
-위치가 `this`-상대 합니다.
+`LocIsThisRel` 위치가 `this`-상대 합니다.
 
-`LocIsEnregistered`  
-레지스터에 위치가 있습니다.
+`LocIsEnregistered` 레지스터에 위치가 있습니다.
 
-`LocIsBitField`  
-위치는 비트 필드입니다.
+`LocIsBitField` 위치는 비트 필드입니다.
 
-`LocIsSlot`  
-위치는 Microsoft 중간 언어 (MSIL) 슬롯입니다.
+`LocIsSlot` 위치는 Microsoft 중간 언어 (MSIL) 슬롯입니다.
 
-`LocIsIlRel`  
-위치는 MSIL 상대적입니다.
+`LocIsIlRel` 위치는 MSIL 상대적입니다.
 
-`LocInMetaData`  
-위치는 메타 데이터입니다.
+`LocInMetaData` 위치는 메타 데이터입니다.
 
-`LocIsConstant`  
-위치는 상수 값입니다.
+`LocIsConstant` 위치는 상수 값입니다.
 
-`LocTypeMax`  
-이 열거형의 위치 형식의 수입니다.
+`LocTypeMax` 이 열거형의 위치 형식의 수입니다.
 
 ## <a name="remarks"></a>주의
 사용할 수 있는 속성을 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 인터페이스 내 이미지 파일에서 기호 위치에 따라 달라 집니다. 자세한 내용은 [기호 위치](../../debugger/debug-interface-access/symbol-locations.md)합니다.
@@ -87,7 +75,7 @@ enum LocationType {
 헤더: cvconst.h
 
 ## <a name="see-also"></a>참고 항목
-[열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
-[IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)  
-[기호 위치](../../debugger/debug-interface-access/symbol-locations.md)
+- [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)
+- [기호 위치](../../debugger/debug-interface-access/symbol-locations.md)

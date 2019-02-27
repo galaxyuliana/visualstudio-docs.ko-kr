@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2cfd6153389bbfe9cbbd36f33f6a2e4384509297
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 2fc5e8a7e0bbc80fd7fa0aa2d242239a9be6a219
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227063"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56714974"
 ---
 # <a name="how-to-debug-the-onstart-method"></a>방법: OnStart 메서드 디버깅
 서비스를 시작하고 디버거를 서비스 프로세스에 연결하여 Windows 서비스를 디버그할 수 있습니다. 자세한 내용은 [How to: Debug Windows Service Applications](/dotnet/framework/windows-services/how-to-debug-windows-service-applications)을 참조하십시오. 그러나 Windows 서비스의 <xref:System.ServiceProcess.ServiceBase.OnStart%2A?displayProperty=fullName> 메서드를 디버그하려면 메서드 내에서 디버거를 시작해야 합니다.
@@ -53,5 +53,5 @@ ms.locfileid: "56227063"
 5. Visual Studio의 새 인스턴스가 시작되고 `Debugger.Launch()` 메서드에서 실행이 중지됩니다.
 
 ## <a name="see-also"></a>참고 항목
-[디버거 보안](../debugger/debugger-security.md)  
-[관리 코드 디버그](../debugger/debugging-managed-code.md)
+- [디버거 보안](../debugger/debugger-security.md)
+- [관리 코드 디버그](../debugger/debugging-managed-code.md)

@@ -13,12 +13,12 @@ monikerRange: vs-2019
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 7a0363c26171382b0cab13e529b08378681f3f65
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: b2baf119259c749e8da99a9326eb22aa1e034b4a
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56336003"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56646475"
 ---
 # <a name="debug-live-aspnet-apps-on-azure-virtual-machines-and-azure-virtual-machine-scale-sets-using-the-snapshot-debugger"></a>Azure virtual machines 및 스냅숏 디버거를 사용 하 여 Azure 가상 머신 확장 집합에 라이브 ASP.NET 앱 디버그
 
@@ -53,7 +53,7 @@ Snappoint 및 logpoint 중단점, 유사 하지만 중단점과 달리 snappoint
 1. 스냅숏 디버거를 연결 합니다. 여러 다른 방법 중 하나를 사용할 수 있습니다.
 
     * 선택 **디버그 > 스냅숏 디버거를 연결 하는 중...** . Azure VM/VMSS에 배포 된 웹 앱 및 Azure storage 계정을 선택 하 고 클릭 **연결**합니다.
-  
+
       ![디버그 메뉴에서 스냅숏 디버거를 시작 합니다.](../debugger/media/snapshot-debug-menu-attach.png)
 
     * 에 프로젝트를 마우스 오른쪽 단추로 클릭 **게시**, 게시 페이지 클릭 **스냅숏 디버거 연결**합니다. Azure VM/VMSS에 배포 된 웹 앱 및 Azure storage 계정을 선택 하 고 클릭 **연결**합니다.
@@ -63,7 +63,7 @@ Snappoint 및 logpoint 중단점, 유사 하지만 중단점과 달리 snappoint
     ![F5 드롭 다운 메뉴에서 스냅숏 디버거를 시작 합니다.](../debugger/media/snapshot-F5-dropdown-attach.png)
 
     * 클라우드 탐색기를 사용 하 여 (**보기 > 클라우드 탐색기**), Azure VM/VMSS에 배포 된 웹 앱을 마우스 오른쪽 단추로 클릭 하 고 Azure storage 계정을 선택 및 클릭 **스냅숏 디버거 연결**합니다.
-  
+
       ![클라우드 탐색기에서 스냅숏 디버거를 시작 합니다.](../debugger/media/snapshot-launch.png)
 
     > [!IMPORTANT]

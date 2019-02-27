@@ -12,35 +12,37 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e49d7332fee2b6e5e3c919e595e891fe8511edca
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4bef903304e3892284fc38d9e2b2367ebfe650f4
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54939272"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56642211"
 ---
 # <a name="idiasessionfindinjectedsource"></a>IDiaSession::findInjectedSource
-컴파일 프로세스의 다른 구성 요소 또는 특성 공급자에 의해 기호 저장소에 배치 된 원본 목록을 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT findInjectedSource (   
-   LPCOLESTR                 srcFile,  
-   IDiaEnumInjectedSources** ppResult  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- srcFile  
- [in] 검색할 소스 파일의 이름입니다.  
-  
- ppResult  
- [out] 반환 된 [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) 삽입 된 원본의 모든 목록을 포함 하는 개체.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)   
- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+컴파일 프로세스의 다른 구성 요소 또는 특성 공급자에 의해 기호 저장소에 배치 된 원본 목록을 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT findInjectedSource ( 
+   LPCOLESTR                 srcFile,
+   IDiaEnumInjectedSources** ppResult
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ srcFile
+
+[in] 검색할 소스 파일의 이름입니다.
+
+ ppResult
+
+[out] 반환 된 [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) 삽입 된 원본의 모든 목록을 포함 하는 개체.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)

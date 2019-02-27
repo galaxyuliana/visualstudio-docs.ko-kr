@@ -12,30 +12,31 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 52f83ebca4d7d03afb8eae7a9b885334ccc1cb71
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: ff4c5d26d875dc098775d0d379e7d12b062801cd
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54924309"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56621528"
 ---
 # <a name="idiaenumsegmentsskip"></a>IDiaEnumSegments::Skip
-열거형 시퀀스에서 세그먼트의 지정 된 수를 건너뜁니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT Skip (   
-   ULONG celt  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- celt  
- [in] 건너뛸 열거형 시퀀스에서 세그먼트의 수입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 건너뛸 자세한 세그먼트가 없을 경우.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)
+열거형 시퀀스에서 세그먼트의 지정 된 수를 건너뜁니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT Skip ( 
+   ULONG celt
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ celt
+
+[in] 건너뛸 열거형 시퀀스에서 세그먼트의 수입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 건너뛸 자세한 세그먼트가 없을 경우.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)

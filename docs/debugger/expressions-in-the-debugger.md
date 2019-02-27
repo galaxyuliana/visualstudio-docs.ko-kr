@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 596f36457627e8da435c2a8c4223487aa35c60f4
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: c2cce521a78c9e7c3c2e9ba9dd6240c5380de64a
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227396"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56692270"
 ---
 # <a name="expressions-in-the-visual-studio-debugger"></a>Visual Studio 디버거의 식
 Visual Studio 디버거에는 **간략한 조사식** 대화 상자, **조사식** 창 또는 **직접 실행** 창에 식을 입력할 때 사용되는 식 계산기가 포함되어 있습니다. 식 계산기는 **중단점** 창과 디버거의 여러 가지 다른 부분에서도 사용됩니다.
@@ -205,7 +205,7 @@ Import 별칭은 지원되지 않습니다.
 - `End Sub` 또는 `Module`과 같은 네임스페이스 또는 모듈 수준 키워드
 
 ## <a name="see-also"></a>참고 항목
-[C++의 형식 지정자](../debugger/format-specifiers-in-cpp.md)  
-[컨텍스트 연산자(C++)](../debugger/context-operator-cpp.md)  
-[C#의 형식 지정자](../debugger/format-specifiers-in-csharp.md)  
-[의사 변수](../debugger/pseudovariables.md)
+- [C++의 형식 지정자](../debugger/format-specifiers-in-cpp.md)
+- [컨텍스트 연산자(C++)](../debugger/context-operator-cpp.md)
+- [C#의 형식 지정자](../debugger/format-specifiers-in-csharp.md)
+- [의사 변수](../debugger/pseudovariables.md)

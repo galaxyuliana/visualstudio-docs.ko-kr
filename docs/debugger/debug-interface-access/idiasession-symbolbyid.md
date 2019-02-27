@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 71072c597a445d54fc3429e949b24fde81761fc1
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 9b58fcf55741975a776e222b2845ae50774e7fc9
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227672"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56645513"
 ---
 # <a name="idiasessionsymbolbyid"></a>IDiaSession::symbolById
 해당 고유 식별자로 기호를 검색합니다.
@@ -32,10 +32,12 @@ HRESULT symbolById (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`id`  
+`id`
+
 [in] 고유 식별자입니다.
 
-`ppSymbol`  
+`ppSymbol`
+
 [out] 반환 된 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 기호를 나타내는 개체를 검색 합니다.
 
 ## <a name="return-value"></a>반환 값
@@ -46,7 +48,7 @@ HRESULT symbolById (
 
 이 방법을 사용할 수, 예를 들어, 다른 기호 유형을 나타내는 기호를 검색할 (예제 참조).
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 검색을 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 나타내는 다른 기호의 형식입니다. 사용 하는 방법을 보여 주는이 예제는 `symbolById` 세션에서 메서드. 간단 호출 하는 것은 [idiasymbol:: Get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md) 형식 기호를 직접 검색 하는 방법입니다.
 
 ```C++
@@ -64,6 +66,6 @@ IDiaSymbol *GetSymbolType(IDiaSymbol *pSymbol, IDiaSession *pSession)
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
-[IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)

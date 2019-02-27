@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2636e2a3a6fe3e99213198eb3296a765a664b4f4
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 7f5ec540fe2454c0e5b31c93002c099f7a54388a
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227095"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56697769"
 ---
 # <a name="debug-html-and-css-sample-code"></a>HTML 및 CSS 샘플 코드 디버그
 
@@ -101,4 +101,4 @@ ms.locfileid: "56227095"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)
+- [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)

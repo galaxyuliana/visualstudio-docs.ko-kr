@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2f7f81abd82857b3d9ed2161a6923a79b614bf5a
-ms.sourcegitcommit: 0342f99120fbd603b8f06f7e9166c39f2896827a
+ms.openlocfilehash: 1840f6f5650b3491cf7898c1d8d6a6fcae19f906
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "55742404"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56682845"
 ---
 # <a name="allocation-hooks-and-c-run-time-memory-allocations"></a>할당 후크 및 C 런타임 메모리 할당
 할당 후크 함수에 대 한 매우 중요 한 제한 명시적으로 무시 해야 한다는 점은 `_CRT_BLOCK` 블록입니다. 이러한 블록은 내부 메모리를 할당 하는 C 런타임 라이브러리 함수를 호출 하는 경우 C 런타임 라이브러리 함수에 의해 내부적으로 만든 메모리 할당입니다. 무시 해도 `_CRT_BLOCK` 할당 된 시작 부분에 다음 코드를 포함 하 여 블록 후크 함수:
@@ -40,4 +40,4 @@ if ( nBlockUse == _CRT_BLOCK )
 런타임 라이브러리 소스 파일을 검사하면 기본 할당 후크 함수 **CrtDefaultAllocHook**(**TRUE**만 반환)가 자체 별도 파일인 DBGHOOK.C에 있음을 알 수 있습니다. 애플리케이션의 **main** 함수보다 먼저 실행되는 런타임 시작 코드가 만든 할당에 대해서도 할당 후크를 호출하려면 [_CrtSetAllocHook](/cpp/c-runtime-library/reference/crtsetallochook)를 사용하지 말고 사용자의 함수로 이 기본 함수를 대체합니다.
 
 ## <a name="see-also"></a>참고 항목
-[디버그 후크 함수 작성](../debugger/debug-hook-function-writing.md)
+- [디버그 후크 함수 작성](../debugger/debug-hook-function-writing.md)

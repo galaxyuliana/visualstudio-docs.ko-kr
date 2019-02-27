@@ -15,37 +15,44 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 754b765f52e15f3738630a9594ec54e68dc63cae
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0f3b22dacdb0192df70f9fcb13b8a228188f129d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55034611"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56638116"
 ---
 # <a name="clickonce-reference"></a>ClickOnce 참조
-다음 페이지를 ClickOnce 응용 프로그램을 나타내는 데 사용 된 XML 파일의 구조를 설명 합니다.  
-  
-## <a name="in-this-section"></a>단원 내용  
- [ndptecclick](../deployment/clickonce-application-manifest.md)  
- 나열 하 고 응용 프로그램 매니페스트를 구성 하는 특성과 요소에 설명 합니다.  
-  
- [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)  
- 나열 하 고 배포 매니페스트를 구성 하는 특성과 요소에 설명 합니다.  
-  
- [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)  
- 제품 및 패키지 파일 요소를 나열합니다.  
-  
- [ClickOnce 관리되지 않는 API 참조](../deployment/clickonce-unmanaged-api-reference.md)  
- 목록 dfshim.dll에서 관리 되지 않는 공용 Api입니다.  
-  
-## <a name="reference"></a>참조  
-  
-## <a name="related-sections"></a>관련 단원  
- [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)  
- ClickOnce 배포에 대 한 자세한 개념 정보를 제공합니다.  
-  
- <xref:System.Deployment.Application>  
- ClickOnce를 지 원하는 관리 코드 내에서 공용 클래스의 설명서를 참조 하는 링크를 제공 합니다.  
-  
- [ClickOnce 애플리케이션 게시](../deployment/publishing-clickonce-applications.md)  
+다음 페이지를 ClickOnce 응용 프로그램을 나타내는 데 사용 된 XML 파일의 구조를 설명 합니다.
+
+## <a name="in-this-section"></a>단원 내용
+ [ndptecclick](../deployment/clickonce-application-manifest.md)
+
+ 나열 하 고 응용 프로그램 매니페스트를 구성 하는 특성과 요소에 설명 합니다.
+
+ [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)
+
+ 나열 하 고 배포 매니페스트를 구성 하는 특성과 요소에 설명 합니다.
+
+ [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)
+
+ 제품 및 패키지 파일 요소를 나열합니다.
+
+ [ClickOnce 관리되지 않는 API 참조](../deployment/clickonce-unmanaged-api-reference.md)
+
+ 목록 dfshim.dll에서 관리 되지 않는 공용 Api입니다.
+
+## <a name="reference"></a>참조
+
+## <a name="related-sections"></a>관련 단원
+ [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)
+
+ ClickOnce 배포에 대 한 자세한 개념 정보를 제공합니다.
+
+<xref:System.Deployment.Application>
+
+ ClickOnce를 지 원하는 관리 코드 내에서 공용 클래스의 설명서를 참조 하는 링크를 제공 합니다.
+
+ [ClickOnce 애플리케이션 게시](../deployment/publishing-clickonce-applications.md)
+
  연습을 제공 하는 방법 및-의 ClickOnce 작업 수행 합니다.

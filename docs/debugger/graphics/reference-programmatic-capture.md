@@ -8,33 +8,33 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 892831423ccc3607db1b3f162fb79f4508764afa
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a462d22df9768d2ffc8b344933e9f5c1f556575a
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55006752"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56713596"
 ---
 # <a name="reference-programmatic-capture"></a>참조(프로그램 방식 캡처)
-그래픽 진단에서는 프로그래밍 방식 캡처 API를 통해 해당 캡처 기능을 프로그래밍 방식으로 제어할 수 있습니다. 이 API를 사용하면 메시지를 전환하여 그래픽 진단 HUD(헤드업 디스플레이)에 추가하고, 그래픽 로그 파일을 초기화하고 만들며, 그래픽 정보를 캡처할 수 있습니다.  
+그래픽 진단에서는 프로그래밍 방식 캡처 API를 통해 해당 캡처 기능을 프로그래밍 방식으로 제어할 수 있습니다. 이 API를 사용하면 메시지를 전환하여 그래픽 진단 HUD(헤드업 디스플레이)에 추가하고, 그래픽 로그 파일을 초기화하고 만들며, 그래픽 정보를 캡처할 수 있습니다.
 
-## <a name="programmatic-capture-apis"></a>프로그래밍 방식 캡처 API  
+## <a name="programmatic-capture-apis"></a>프로그래밍 방식 캡처 API
 
-### <a name="classes"></a>클래스  
+### <a name="classes"></a>클래스
 
-|name|설명|  
-|----------|-----------------|  
-|[VsgDbg 클래스](vsgdbg-class.md)|그래픽 진단의 앱 내 구성 요소를 프로그래밍 방식으로 제어하는 인터페이스를 나타냅니다.|  
+|name|설명|
+|----------|-----------------|
+|[VsgDbg 클래스](vsgdbg-class.md)|그래픽 진단의 앱 내 구성 요소를 프로그래밍 방식으로 제어하는 인터페이스를 나타냅니다.|
 
-### <a name="preprocessor-symbols"></a>전처리기 기호  
+### <a name="preprocessor-symbols"></a>전처리기 기호
 
-|name|설명|  
-|----------|-----------------|  
-|[DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)|그래픽 로그 파일이 사용자의 임시 파일 디렉터리에 저장되는지 여부를 존재로 정의합니다.|  
-|[VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)|그래픽 로그 파일의 기본 파일 이름을 정의합니다.|  
-|[VSG_NODEFAULT_INSTANCE](vsg-nodefault-instance.md)|`VsgDbg` 클래스의 기본 인스턴스가 제공되는지 여부를 존재로 정의합니다.|  
+|name|설명|
+|----------|-----------------|
+|[DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)|그래픽 로그 파일이 사용자의 임시 파일 디렉터리에 저장되는지 여부를 존재로 정의합니다.|
+|[VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)|그래픽 로그 파일의 기본 파일 이름을 정의합니다.|
+|[VSG_NODEFAULT_INSTANCE](vsg-nodefault-instance.md)|`VsgDbg` 클래스의 기본 인스턴스가 제공되는지 여부를 존재로 정의합니다.|
 
-## <a name="related-articles"></a>관련 문서  
+## <a name="related-articles"></a>관련 문서
 
 | 제목 | 설명 |
 | - | - |

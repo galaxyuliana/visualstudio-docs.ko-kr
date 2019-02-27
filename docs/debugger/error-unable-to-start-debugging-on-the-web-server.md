@@ -26,18 +26,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a5bf131634dc673fdeefe61fa2238c35fcc2ed8a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e4c9d783fb68372e67f41eb84a1697ea3e1123b5
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54938462"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56688214"
 ---
 # <a name="error-unable-to-start-debugging-on-the-web-server"></a>오류: 웹 서버에서 디버깅을 시작할 수 없습니다.
 
 웹 서버에서 실행 중인 ASP.NET 응용 프로그램을 디버깅 하려고 할 때이 오류 메시지가 표시 될 수 있습니다: `Unable to start debugging on the Web server`합니다.
 
-종종이 오류는 응용 프로그램 풀, IIS가 재설정 중 하나 또는 둘 다에 대 한 업데이트를 필요로 하는 오류 또는 구성 변경이 발생 했기 때문에 발생 합니다. 관리자 권한 명령 프롬프트를 열고 입력 하 여 IIS를 다시 설정할 수 있습니다 `iisreset`합니다. 
+종종이 오류는 응용 프로그램 풀, IIS가 재설정 중 하나 또는 둘 다에 대 한 업데이트를 필요로 하는 오류 또는 구성 변경이 발생 했기 때문에 발생 합니다. 관리자 권한 명령 프롬프트를 열고 입력 하 여 IIS를 다시 설정할 수 있습니다 `iisreset`합니다.
 
 ## <a name="specificerrors"></a>자세한 오류 메시지는 무엇입니까?
 
@@ -61,7 +61,7 @@ ms.locfileid: "54938462"
 
 ## <a name="web_server_config"></a> 웹 서버가 제대로 구성되어 있지 않습니다.
 
-- 참조 [오류: ](../debugger/error-the-web-server-is-not-configured-correctly.md) 웹 서버가 제대로 구성되어 있지 않습니다.
+- 참조 [오류: 웹 서버가 올바르게 구성 되지 않았습니다](../debugger/error-the-web-server-is-not-configured-correctly.md)합니다.
 
 ## <a name="unabletoconnect"></a> 웹 서버에 연결할 수 없습니다.
 
@@ -106,12 +106,12 @@ ms.locfileid: "54938462"
 
 ##  <a name="vxtbshttpservererrorsthingstocheck"></a> IIS 구성 확인
 
-문제를 해결 하려면 여기서 설명 하는 단계를 수행한 후 및 디버깅을 다시 시도 하기 전에 IIS를 다시 설정 해야 할 수 있습니다. 관리자 권한 명령 프롬프트를 열고 입력 하 여 이렇게 `iisreset`합니다. 
+문제를 해결 하려면 여기서 설명 하는 단계를 수행한 후 및 디버깅을 다시 시도 하기 전에 IIS를 다시 설정 해야 할 수 있습니다. 관리자 권한 명령 프롬프트를 열고 입력 하 여 이렇게 `iisreset`합니다.
 
-* 중지 하 고 IIS 응용 프로그램 풀을 다시 시작을 다시 시도 하세요. 
+* 중지 하 고 IIS 응용 프로그램 풀을 다시 시작을 다시 시도 하세요.
 
     응용 프로그램 풀 오류로 인해 중지 될 수도 있습니다. 또는 중지 하 고 응용 프로그램 풀이 다시 시작 하는 내용을 다른 구성을 변경 해야 할 수 있습니다.
-    
+
     > [!NOTE]
     > 응용 프로그램 풀을 중지 하는 경우 제어판에서 URL 재작성 모듈을 제거 해야 합니다. 웹 플랫폼 설치 관리자 (WebPI)를 사용 하 여 다시 설치할 수 있습니다. 이 문제는 중요 한 시스템을 업그레이드 한 후 발생할 수 있습니다.
 
@@ -120,7 +120,7 @@ ms.locfileid: "54938462"
     Visual Studio 프로젝트와 일치 하지 않는 ASP.NET의 버전에 대 한 응용 프로그램 풀을 구성할 수 있습니다. 응용 프로그램 풀에서 ASP.NET 버전을 업데이트 하 고 다시 시작 합니다. 자세한 내용은 [IIS 8.0를 사용 하 여 ASP.NET 3.5 및 ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)합니다.
 
     또한 암호 자격 증명으로 변경 된 경우에 응용 프로그램 풀 또는 웹 사이트에서 업데이트 해야 합니다.  응용 프로그램 풀 자격 증명 업데이트 **고급 설정 > 프로세스 모델 > Identity**합니다. 웹 사이트에 대 한 자격 증명 업데이트 **기본 설정 >로 연결 하는 중...** . 응용 프로그램 풀이 다시 시작 합니다.
-    
+
 * 웹 응용 프로그램 폴더에 올바른 권한이 있는지 확인 합니다.
 
     있는지 IIS_IUSRS를 IUSR, 부여 또는 특정 사용자가 연관 된 [응용 프로그램 풀](/iis/manage/configuring-security/application-pool-identities) 웹 응용 프로그램 폴더에 대 한 권한을 읽고 합니다. 이 문제를 해결 하 고 응용 프로그램 풀이 다시 시작 합니다.
@@ -128,11 +128,11 @@ ms.locfileid: "54938462"
 * IIS에서 올바른 버전의 ASP.NET가 설치 되었는지 확인 합니다.
 
     일치 하지 않는 버전의 Visual Studio 프로젝트에 IIS에서 ASP.NET에는이 문제가 발생할 수 있습니다. Web.config에서 프레임 워크 버전을 설정 해야 합니다. IIS에서 ASP.NET을 설치 하려면 사용 합니다 [웹 플랫폼 설치 관리자 (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx)합니다. 도 참조 하세요 [IIS 8.0를 사용 하 여 ASP.NET 3.5 및 ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) 또는 ASP.NET Core [IIS 사용 하 여 Windows에서 호스트](https://docs.asp.net/en/latest/publishing/iis.html)합니다.
-  
+
 * IP 주소만 사용하는 경우의 인증 오류 해결
 
      기본적으로 IP 주소는 인터넷의 일부로 인식되는데 인터넷에서는 NTLM 인증을 수행할 수 없습니다. 웹 사이트를 IIS에서 인증을 요구 하도록 구성 된 경우이 인증이 실패 합니다. 이 문제를 해결 하려면 원격 컴퓨터에서 IP 주소 대신의 이름을 지정할 수 있습니다.
-     
+
 ## <a name="other-causes"></a>다른 원인
 
 IIS 구성 문제를 유발 하지 않는지, 하는 경우 이러한 단계를 시도 합니다.
@@ -140,7 +140,7 @@ IIS 구성 문제를 유발 하지 않는지, 하는 경우 이러한 단계를 
 - 관리자 권한으로 Visual Studio를 다시 시작 하 고 다시 시도 하세요.
 
     웹 배포를 사용 하는 등 몇 가지 ASP.NET 디버깅 시나리오는 Visual Studio에 대 한 상승 된 권한이 필요 합니다.
-    
+
 - Visual Studio의 여러 인스턴스를 실행 하는 경우 (관리자 권한)으로 Visual Studio의 한 인스턴스에서 프로젝트를 다시 열고 다시 시도 하십시오.
 
 - 호스트 파일을 로컬 주소를 사용 하 여를 사용 하는 경우 컴퓨터의 IP 주소 대신 루프백 주소를 사용해 보세요.
@@ -152,12 +152,12 @@ IIS 구성 문제를 유발 하지 않는지, 하는 경우 이러한 단계를 
 * 서버의 브라우저에서 localhost 페이지 표시 합니다.
 
      IIS가 올바르게 설치되어 있지 않은 경우 브라우저에 `http://localhost` 를 입력하면 오류가 발생합니다.
-     
+
      IIS에 배포 하는 방법에 대 한 자세한 내용은 참조 하세요. [IIS 8.0를 사용 하 여 ASP.NET 3.5 및 ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) 및 ASP.NET Core [IIS 사용 하 여 Windows에서 호스트](https://docs.asp.net/en/latest/publishing/iis.html)합니다.
 
 * 서버의 기본 ASP.NET 응용 프로그램을 만들고 (또는 기본 web.config 파일을 사용).
 
     서버에서 로컬로 기본 ASP.NET 응용 프로그램을 만들어 보세요 앱 디버거를 사용 하 여 작업을 확인할 수 없는 경우에 기본 응용 프로그램을 디버깅 하려고 합니다. (기본 ASP.NET MVC 템플릿을 사용 하 여 삭제할 수 있습니다.) 기본 앱을 디버그할 수 하는 경우는 도움이 될 수 있습니다 두 구성 간의 차이점을 식별 합니다. URL 다시 쓰기 규칙이 같은 web.config 파일에서 설정의 차이 찾아보십시오.
 
-## <a name="see-also"></a>참고 항목  
- [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
+## <a name="see-also"></a>참고 항목
+- [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

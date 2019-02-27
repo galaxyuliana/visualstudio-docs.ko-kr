@@ -18,26 +18,24 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c47d51566074eec4c38bab1bd7846b1dfe0f034d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5fa8bb0fb7672c177d0543a06fe423ca1d115514
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55027830"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56693128"
 ---
 # <a name="debugging-web-applications"></a>웹 응용 프로그램 디버깅
-이 단원에서는 다양한 형식의 웹 응용 프로그램을 디버깅하는 방법에 대해 설명합니다.  
-  
-## <a name="in-this-section"></a>섹션 내용   
- [클라이언트 쪽 스크립트 디버깅](../debugger/client-side-script-debugging.md)  
- [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 페이지에서 스크립트와 클라이언트 쪽 스크립트를 테스트하는 방법에 대해 설명합니다.  
-  
-## <a name="related-sections"></a>관련 단원  
- [ASP.NET 애플리케이션 디버그](../debugger/how-to-enable-debugging-for-aspnet-applications.md)  
- [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 응용 프로그램을 디버깅할 수 있도록 설정하는 데 필요한 단계를 설명합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [웹 애플리케이션 및 스크립트 디버그](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)  
- [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)  
- [디버거 소개](../debugger/debugger-feature-tour.md)  
- [Visual Studio의 디버깅](../debugger/index.md)
+이 단원에서는 다양한 형식의 웹 응용 프로그램을 디버깅하는 방법에 대해 설명합니다.
+
+## <a name="in-this-section"></a>섹션 내용
+ [클라이언트 쪽 스크립트 디버깅](../debugger/client-side-script-debugging.md) 테스트 스크립트 및 클라이언트 쪽 스크립트에 설명 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 페이지입니다.
+
+## <a name="related-sections"></a>관련 단원
+ [ASP.NET 응용 프로그램 디버그](../debugger/how-to-enable-debugging-for-aspnet-applications.md) 디버깅을 사용 하는 데 필요한 단계를 설명 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 응용 프로그램입니다.
+
+## <a name="see-also"></a>참고 항목
+- [웹 애플리케이션 및 스크립트 디버그](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
+- [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)
+- [디버거 소개](../debugger/debugger-feature-tour.md)
+- [Visual Studio의 디버깅](../debugger/index.md)
