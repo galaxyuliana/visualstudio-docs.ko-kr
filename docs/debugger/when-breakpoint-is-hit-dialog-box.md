@@ -17,25 +17,23 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 53f27b400c96f6b4336339e8d1beeec0dd87277c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d4cc3c2366ca20328f591b0661e8c2b3e5af1e45
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54944750"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56717704"
 ---
 # <a name="when-breakpoint-is-hit-dialog-box"></a>중단점이 적중될 때 대화 상자
-이 대화 상자를 사용 하 여 중단점을 적중 될 때 발생 하는 동작을 사용자 지정할 수 있습니다.  
-  
-## <a name="uielement-list"></a>UI 요소 목록  
- **메시지 인쇄**  
- DebuggerDisplay 구문을 사용 하 여 메시지를 인쇄 합니다. 자세한 내용은 [DebuggerDisplay 특성을 사용 하 여](../debugger/using-the-debuggerdisplay-attribute.md)입니다.  
-  
- 또한이 텍스트 상자에이 붙여넣습니다 (예: $ADDRESS) 단독으로 또는 DebuggerDisplay 식의 중괄호 내에서 사용할 수 있는 특수 키워드를 지원 합니다. 사용할 수 있는 키워드는 대화 상자에 나열 됩니다.  
-  
- **실행 계속**  
- 이 컨트롤은 **메시지 인쇄**를 선택한 경우에만 활성화됩니다. 이 컨트롤을 선택 하면 프로그램 실행을 추적 하려면 추적점으로 중단점을 사용할 수 있습니다 위치 적중 될 때 중단 하는 대신 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [중단점 사용](../debugger/using-breakpoints.md)   
- [DebuggerDisplay 특성 사용](../debugger/using-the-debuggerdisplay-attribute.md)
+이 대화 상자를 사용 하 여 중단점을 적중 될 때 발생 하는 동작을 사용자 지정할 수 있습니다.
+
+## <a name="uielement-list"></a>UI 요소 목록
+ **메시지를 인쇄** DebuggerDisplay 구문을 사용 하 여 메시지를 출력 합니다. 자세한 내용은 [DebuggerDisplay 특성을 사용 하 여](../debugger/using-the-debuggerdisplay-attribute.md)입니다.
+
+ 또한이 텍스트 상자에이 붙여넣습니다 (예: $ADDRESS) 단독으로 또는 DebuggerDisplay 식의 중괄호 내에서 사용할 수 있는 특수 키워드를 지원 합니다. 사용할 수 있는 키워드는 대화 상자에 나열 됩니다.
+
+ **계속 실행** 이 컨트롤을 사용할 수 경우에만 **메시지를 인쇄** 을 선택 합니다. 이 컨트롤을 선택 하면 프로그램 실행을 추적 하려면 추적점으로 중단점을 사용할 수 있습니다 위치 적중 될 때 중단 하는 대신 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [중단점 사용](../debugger/using-breakpoints.md)
+- [DebuggerDisplay 특성 사용](../debugger/using-the-debuggerdisplay-attribute.md)

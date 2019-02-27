@@ -1,14 +1,9 @@
 ---
 title: Date 개체가 필요 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT5006
 dev_langs:
@@ -16,16 +11,15 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: d6ab82e6-ca64-46b4-a06c-5c6b0aa057cb
-caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 05e27b822f933ade811084552f6f0379257ae82e
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: a53ff758622cf719c2b10ea47fc516ac8684eb6a
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349116"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56842249"
 ---
 # <a name="date-object-expected"></a>Date 개체가 필요합니다.
 호출 하려고 합니다 **Date.prototype.toString** 또는 **Date.prototype.valueOf** 이외의 다른 형식의 개체의 메서드를 `Date`입니다. 이 형식의 호출 개체 유형 이어야 `Date`합니다. 예를 들어:  

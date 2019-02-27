@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9dccb229712d173e847a7205f03aad308fab224d
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 3d9dd845a69243cd8bedb095c63f75670f39afff
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853196"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56640586"
 ---
 # <a name="fileclassifier-task"></a>FileClassifier 작업
 <xref:Microsoft.Build.Tasks.Windows.FileClassifier> 작업은 소스 리소스 집합을 어셈블리에 포함될 항목으로 분류합니다. 리소스를 지역화할 수 없는 경우 주 애플리케이션 어셈블리에 포함되고, 그렇지 않으면 위성 어셈블리에 포함합니다.
@@ -43,7 +43,7 @@ ms.locfileid: "55853196"
 ## <a name="remarks"></a>주의
 **Culture** 매개 변수를 설정하지 않으면 **SourceFiles** 매개 변수를 사용하여 지정된 모든 리소스는 지역화할 수 없고, 그렇지 않고 이러한 리소스가 **false**로 설정된 **Localizable** 특성과 연결되어 있지 않는 한, 지역화할 수 있습니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 단일 소스 파일을 리소스로 분류한 다음 프랑스어-캐나다(fr-CA) 문화권에 대한 위성 어셈블리에 포함합니다.
 
 ```xml
@@ -64,8 +64,8 @@ ms.locfileid: "55853196"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[WPF MSBuild 참조](../msbuild/wpf-msbuild-reference.md)  
-[작업 참조](../msbuild/wpf-msbuild-task-reference.md)  
-[MSBuild 참조](../msbuild/msbuild-reference.md)  
-[작업 참조](../msbuild/msbuild-task-reference.md)  
-[WPF 애플리케이션 빌드(WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+- [WPF MSBuild 참조](../msbuild/wpf-msbuild-reference.md)
+- [작업 참조](../msbuild/wpf-msbuild-task-reference.md)
+- [MSBuild 참조](../msbuild/msbuild-reference.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)
+- [WPF 애플리케이션 빌드(WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)

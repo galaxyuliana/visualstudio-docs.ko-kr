@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 020d631405586227d91fd06fb1794ab5554d1075
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 153daa1f43ba4945a5eb32aea82c5d58ff57c5f6
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56226912"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56613585"
 ---
 # <a name="idiasymbolgetintro"></a>IDiaSymbol::get_intro
 함수를 소개 하는 가상 함수 인지 여부를 지정 하는 플래그를 검색 합니다.
@@ -31,7 +31,8 @@ HRESULT get_intro ( 
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pRetVal`  
+`pRetVal`
+
 [out] 반환 `TRUE` 함수는 가상이 소개 하는 경우이 고, 그렇지 반환 `FALSE`합니다.
 
 ## <a name="return-value"></a>반환 값
@@ -40,7 +41,7 @@ HRESULT get_intro ( 
 > [!NOTE]
 > 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```C++
 class A {
@@ -61,4 +62,4 @@ class B : public A {
 |버전:|DIA SDK v7.0|
 
 ## <a name="see-also"></a>참고 항목
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 876868d8c2faf483f1033bab1ff8ac14f6e9ab10
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 88c2198f0908e0ef8f7918d42f4ba256378e0e60
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55956911"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841846"
 ---
 # <a name="the-dsldefinitiondsl-file"></a>DslDefinition.dsl 파일
 
@@ -70,7 +70,7 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
 
 이 섹션에서는 모아 놓은 디자이너 (편집기)를 정의 **도구 상자**, 유효성 검사 설정, 다이어그램 및 serialization 체계입니다. Designer 섹션에서는 모델의 루트 클래스(대개 다이어그램의 루트 클래스이기도 함)도 정의합니다.
 
-### <a name="explorer"></a>탐색기
+### <a name="explorer"></a>Explorer
 
 이 섹션에서는 합니다 **DSL 탐색기** 동작 (XmlSerializationBehavior 섹션에 정의 됨).
 
@@ -78,7 +78,7 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
 
 DslDefinition.dsl 파일 전체에서 모니커를 사용하여 특정 항목에 대한 상호 참조를 만들 수 있습니다. 예를 들어 각 관계 정의에는 Source 하위 섹션과 Target 하위 섹션이 포함됩니다. 각 하위 섹션은 해당 관계와 연결할 수 있는 개체 클래스의 모니커를 포함합니다.
 
-```
+```xml
 <DomainRelationship ...        Name="LibraryHasMembers" Namespace="ExampleNamespace" >    <Source>      <DomainRole ...>
        <RolePlayer>
          <DomainClassMoniker Name="Library" />
@@ -89,7 +89,7 @@ DslDefinition.dsl 파일 전체에서 모니커를 사용하여 특정 항목에
 
 보통 참조되는 항목(이 예에서는 `Library` 도메인 클래스)의 네임스페이스는 참조하는 항목(여기서는 LibraryHasMembers 도메인 관계)과 같습니다. 이러한 경우 모니커는 클래스 이름만 제공해야 합니다. 그렇지 않으면 /Namespace/Name의 전체 형식을 사용해야 합니다.
 
-```
+```xml
 <DomainClassMoniker Name="/ExampleNameSpace/Library" />
 ```
 
@@ -107,7 +107,7 @@ Types 섹션은 DslDefinition.dsl 파일이 속성 형식으로 포함하는 모
 
 각 외부 형식 정의는 String 및 System과 같은 이름과 문자열로만 구성됩니다.
 
-```
+```xml
 <ExternalType Name="String" Namespace="System" />
 ```
 
@@ -119,7 +119,7 @@ Types 섹션은 DslDefinition.dsl 파일이 속성 형식으로 포함하는 모
 
 일반적인 열거형 사양은 다음 예와 비슷합니다.
 
-```
+```xml
 <DomainEnumeration IsFlags="true" Name="PageSort"          Namespace="Fabrikam.Wizard">
   <Literals>
     <EnumerationLiteral Name="Start" Value="1"/>
@@ -136,7 +136,7 @@ DSL 정의에 포함되는 대부분의 요소는 직간접적으로 `DomainClas
 
 각 클래스에는 속성 집합이 있으며 기본 클래스도 있을 수 있습니다. 구성 요소 다이어그램 예제에서 `NamedElement`는 `Name` 속성을 포함하는 추상 클래스로, 해당 형식은 문자열입니다.
 
-```
+```xml
 <DomainClass Id="ee3161ca-2818-42c8-b522-88f50fc72de8"  Name="NamedElement" Namespace="Fabrikam.CmptDsl5"      DisplayName="Named Element"  InheritanceModifier="Abstract">
   <Properties>
     <DomainProperty Id="ef553cf0-33b5-4e34-a30b-cfcfd86f2261"   Name="Name" DisplayName="Name"  DefaultValue="" Category="" IsElementName="true">
@@ -150,7 +150,7 @@ DSL 정의에 포함되는 대부분의 요소는 직간접적으로 `DomainClas
 
 `NamedElement`는 `Component`와 같은 여러 기타 클래스의 기준 클래스이며, 자체 속성과 함께 `Name`에서 상속되는 `NamedElement` 속성도 포함합니다. BaseClass 자식 노드는 모니커 참조를 포함합니다. 참조되는 클래스가 같은 네임스페이스에 있으므로 모니커에는 해당 이름만 필요합니다.
 
-```
+```xml
 <DomainClass Name="Component" Namespace="Fabrikam.CmptDsl5"              DisplayName="Component">
   <BaseClass>
     <DomainClassMoniker Name="NamedElement" />
@@ -194,7 +194,7 @@ DSL 정의에 포함되는 대부분의 요소는 직간접적으로 `DomainClas
 
 형식은 `Types` 섹션에 나열된 형식 중 하나를 지칭해야 합니다. 일반적으로 모니커는 네임스페이스를 포함해야 합니다.
 
-```
+```xml
 <DomainProperty Name="Name" DisplayName="Name"  DefaultValue="" Category="" IsElementName="true">
   <Type>
     <ExternalTypeMoniker Name="/System/String" />
@@ -246,13 +246,13 @@ OutPort 클래스 멤버를 InPort 클래스 멤버에 연결하는 Connection �
 
 -   역할의 `Name` 은 Relationship 클래스 내에서 해당 링크 쪽을 지칭하는 데 사용되는 이름입니다. 각 링크의 양쪽에는 인스턴스가 하나뿐이므로 규칙에 따라 역할 이름은 항상 단수입니다. 그러므로 다음과 같은 코드가 작동합니다.
 
-    ```
+    ``` 
     Connection connectionLink = ...; OutPort op = connectionLink.Source;
     ```
 
 -   기본적으로 `IsPropertyGenerator` 특성은 true로 설정됩니다. 이 특성을 false로 설정하면 역할 수행자 클래스에서 속성이 만들어지지 않습니다. 그러면 예를 들어 `op.Targets` 등의 코드는 작동하지 않습니다. 그러나 사용자 지정 코드를 사용하여 관계를 트래버스하거나 사용자 지정 코드가 관계를 명시적으로 사용하는 경우에는 링크 자체에 대한 액세스 권한을 얻을 수 있습니다.
 
-    ```
+    ``` 
     OutPort op = ...; foreach (InPort ip in Connection.GetTargets(op)) ...
     foreach (Connection link in Connection.GetLinksToTargets(op)) ...
     ```
@@ -287,7 +287,7 @@ OutPort 클래스 멤버를 InPort 클래스 멤버에 연결하는 Connection �
 
 구성 요소 다이어그램 예제에서는 InPort에 대한 ShapeMap의 ParentElementPath에 경로가 포함되어 있습니다. 이 경로는 다음과 같이 시작됩니다.
 
-```
+``` 
     ComponentHasPorts.Component
 ```
 
@@ -295,13 +295,13 @@ OutPort 클래스 멤버를 InPort 클래스 멤버에 연결하는 Connection �
 
 를 작성할 때 C#이 모델에 대 한 각각의 관련 된 클래스의 관계를 생성 하는 속성을 사용 하 여 한 단계로 링크를 이동할 수 있습니다.
 
-```
+``` 
      InPort port; ...  Component c = port.Component;
 ```
 
 그러나 경로 구문에서 두 홉을 모두 명시적으로 지정해야 합니다. 이 요구 사항으로 인해 중간 링크에 보다 쉽게 액세스할 수 있습니다. 다음 코드는 링크에서 Component로의 홉을 완료합니다.
 
-```
+``` 
     ComponentHasPorts.Component / ! Component
 ```
 
@@ -313,7 +313,7 @@ OutPort 클래스 멤버를 InPort 클래스 멤버에 연결하는 Connection �
 
 Component 등의 잠재적 호스트 클래스는 새 요소 클래스의 요소 병합 지시문을 포함하는 경우에만 새 요소를 수락합니다. 예를 들어 Name="Component"인 DomainClass 노드는 다음 코드를 포함합니다.
 
-```
+```xml
 <DomainClass Name="Component" ...> ...
     <ElementMergeDirective>
       <Index>
@@ -337,7 +337,7 @@ Index 노드 아래의 클래스 모니커는 수락할 수 있는 요소 클래
 
 예를 들어 Component 클래스에 다음 요소 병합 지시문을 추가할 수 있습니다.
 
-```
+```xml
 <DomainClass Name="Component" ...> ...
   <ElementMergeDirective>
     <Index>
@@ -372,7 +372,7 @@ Index 노드 아래의 클래스 모니커는 수락할 수 있는 요소 클래
 
 -   **ElementName** 이 클래스의 serialize 된 인스턴스 XML 태그를 결정 하는 문자열입니다. 규칙에 따라 ElementName은 첫 글자가 소문자라는 것을 제외하면 대개 클래스 이름과 같습니다. 다음 코드로 시작되는 샘플 모델 파일을 예로 들 수 있습니다.
 
-    ```
+    ```xml
     <componentModel ...
     ```
 
@@ -380,7 +380,7 @@ Index 노드 아래의 클래스 모니커는 수락할 수 있는 요소 클래
 
 -   **MonikerAttributeName**, 모니커 내의 XML 특성의 이름을 식별 합니다. 사용자의 serialize 된 파일의이 부분에서 도메인 특정 언어의 작성자는 다음과 같이 정의 됩니다. **MonikerElementName** "inPortMoniker"로 하 고 **MonikerAttributeName** 을 "path":
 
-    ```
+    ```xml
     <inPortMoniker path="//Component2/InPort1" />
     ```
 
@@ -400,7 +400,7 @@ A **DomainPropertyMoniker** 특성 데이터를 참조 하는 속성을 식별 �
 
 serialize된 모델 파일에서 요소의 전체 모니커는 모델 루트에서 포함 관계 트리까지의 경로로, 각 지점에서 모니커 키를 인용합니다. InPort는 Component 내에 포함되고 Component는 모델 루트에 포함되는 경우를 예로 들면 올바른 모니커는 다음과 같습니다.
 
-```
+```xml
 <inPortMoniker name="//Component2/InPort1" />
 ```
 
@@ -418,7 +418,7 @@ serialize된 모델 파일 내에서 포함 관계와 참조 관계 둘 다의 �
 
 예를 들어 DslDefinition.dsl 파일에는 다음 코드가 포함됩니다.
 
-```
+```xml
 <XmlClassData ElementName="component" ...>
   <DomainClassMoniker Name="Component" />
   <ElementData>
@@ -429,10 +429,10 @@ serialize된 모델 파일 내에서 포함 관계와 참조 관계 둘 다의 �
 
 따라서 serialize된 파일에는 다음 코드가 포함됩니다.
 
-```
-<component name="Component1"> <!-- parent ->
-   <ports> <!-- role ->
-     <outPort name="OutPort1"> <!-- child element ->
+```xml
+<component name="Component1"> <!-- parent -->
+   <ports> <!-- role -->
+     <outPort name="OutPort1"> <!-- child element -->
        ...
      </outPort>
    </ports> ...
@@ -440,7 +440,7 @@ serialize된 모델 파일 내에서 포함 관계와 참조 관계 둘 다의 �
 
 경우는 **UseFullForm** 특성이로 설정 된 true는 추가 중첩 레이어가 도입 되었습니다. 이 레이어는 관계 자체를 나타냅니다. 관계에 속성이 있으면 특성을 true로 설정해야 합니다.
 
-```
+```xml
 <XmlClassData ElementName="outPort">
    <DomainClassMoniker Name="OutPort" />
    <ElementData>
@@ -453,11 +453,11 @@ serialize된 모델 파일 내에서 포함 관계와 참조 관계 둘 다의 �
 
 이 경우 serialize된 파일에는 다음 코드가 포함됩니다.
 
-```
-<outPort name="OutPort1">  <!-- Parent ->
-   <targets>  <!-- role ->
-     <connection sourceRoleName="X">  <!-- relationship link ->
-         <inPortMoniker name="//Component2/InPort1" /> <!-- child ->
+```xml
+<outPort name="OutPort1">  <!-- Parent -->
+   <targets>  <!-- role -->
+     <connection sourceRoleName="X">  <!-- relationship link -->
+         <inPortMoniker name="//Component2/InPort1" /> <!-- child -->
      </connection>
     </targets>
   </outPort>
@@ -467,9 +467,9 @@ serialize된 모델 파일 내에서 포함 관계와 참조 관계 둘 다의 �
 
 경우는 **OmitElement** 특성이 설정 되어 true 이면 관계 역할 이름이 생략 된 serialize 된 파일을 줄여서 표시 하며 모호 하지 않은 경우 두 개의 클래스에 둘 이상의 관계가 있는 경우. 예를 들어:
 
-```
+```xml
 <component name="Component3">
-  <!-- only one relationship could get here: ->
+  <!-- only one relationship could get here: -->
   <outPort name="OutPort1">
      <targets> ...
 ```
@@ -482,7 +482,7 @@ DslDefinition.dsl 파일 자체는 serialize된 파일로, DSL 정의를 준수�
 
 -   **클래스** 되는 **RoleElementName** 도메인 특정 언어 및 DomainClass 간 관계.
 
-```
+```xml
 <Dsl Name="CmptDsl5" ...>
   <Classes>
     <DomainClass Name="NamedElement" InheritanceModifier="Abstract" ...
@@ -490,7 +490,7 @@ DslDefinition.dsl 파일 자체는 serialize된 파일로, DSL 정의를 준수�
 
 -   **XmlSerializationBehavior** 특성 아래에 포함 되는 `Dsl` 특성을 하지만 **OmitElement** 특성 포함 관계에 대해 설정한. 따라서 `RoleElementName` 특성은 사용되지 않습니다. 반면를 **클래스-데이터** 특성은 합니다 `RoleElementName` 간의 포함 관계의 특성을 **XmlSerializationBehavior** 특성 및 **XmlClassData** 특성입니다.
 
-```
+```xml
 <Dsl Name="CmptDsl5" ...> ...
   <XmlSerializationBehavior Name="ComponentsSerializationBehavior" >
     <ClassData>
@@ -500,7 +500,7 @@ DslDefinition.dsl 파일 자체는 serialize된 파일로, DSL 정의를 준수�
 
 -   ConnectorHasDecorators는 `Connector` 및 `Decorator` 간의 포함 관계입니다. `UseFullForm`이 설정되었으므로 Connector 개체로부터의 각 링크에 대한 속성 목록과 함께 관계 이름이 표시됩니다. 그러나 `OmitElement`도 설정되었으므로 `RoleElementName` 내에 포함되는 여러 링크가 `Connector`으로 묶이지 않습니다.
 
-```
+```xml
 <Connector Name="AssociationLink" ...>
   <ConnectorHasDecorators Position="TargetTop" ...>
     <TextDecorator Name="TargetRoleName"   />
@@ -527,7 +527,7 @@ DslDefinition.dsl 파일 자체는 serialize된 파일로, DSL 정의를 준수�
 
 다음 예에서와 같이 `ShapeMap` 요소는 최소한 도메인 클래스의 모니커, 모양의 모니커 및 `ParentElementPath` 요소를 포함합니다.
 
-```
+```xml
 <ShapeMap>
   <DomainClassMoniker Name="InPort" />
   <ParentElementPath>
@@ -549,7 +549,7 @@ ComponentHasPorts . Component / ! Component /    ComponentModelHasComponents . C
 
 모델 루트에는 모양 맵이 없습니다. 대신 `Class` 요소가 포함된 다이어그램에서 루트를 직접 참조합니다.
 
-```
+```xml
 <Diagram Name="ComponentDiagram" >
     <Class>
       <DomainClassMoniker Name="ComponentModel" />
@@ -568,7 +568,7 @@ Decorator 맵은 매핑된 클래스의 속성을 모양의 Decorator와 연결�
 
 최소 연결선 맵은 다음과 같이 연결선과 관계를 참조합니다.
 
-```
+```xml
 <ConnectorMap>
   <ConnectorMoniker Name="CommentLink" />
   <DomainRelationshipMoniker Name="CommentsReferenceComponents" />

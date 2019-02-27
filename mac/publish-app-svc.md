@@ -1,5 +1,5 @@
 ---
-title: Azure App Service에 게시 - Mac용 Visual Studio
+title: Azure App Service에 게시
 ms.date: 01/17/2019
 ms.topic: quickstart
 helpviewer_keywords:
@@ -8,16 +8,16 @@ ms.assetid: 8524a4c5-97a9-41ac-a2a0-034efb9bfc57
 author: sayedihashimi
 ms.author: sayedha
 manager: unniravindranathan
-ms.prod: visual-studio-mac-dev15
+ms.prod: visual-studio-mac
 ms.custom: video
 ms.workload:
 - azure
-ms.openlocfilehash: ebf7f9bcc924326f1abad81dacb38cdc7256d17c
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 8cc0678dbb3e55d80f51e457f141c7f2dc5a12d9
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853929"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56844271"
 ---
 # <a name="publish-a-web-app-to-azure-app-service-using-visual-studio-for-mac"></a>Mac용 Visual Studio를 사용하여 Azure App Service에 웹앱 게시
 
@@ -45,7 +45,7 @@ ms.locfileid: "55853929"
 
     ![Azure App Service에 게시 대화 상자](media/publish-to-app-service-dialog.png)
 
- 5. 새 App Service를 만들려면 **새로 만들기** 단추를 클릭합니다. 
+ 5. 새 App Service를 만들려면 **새로 만들기** 단추를 클릭합니다.
 
     ![App Service에 게시 대화 상자](media/publish-to-app-service-dialog-new-selected.png)
 

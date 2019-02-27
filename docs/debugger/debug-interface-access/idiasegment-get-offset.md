@@ -12,30 +12,31 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8d0e12be0f6dbec2febc55a9fae6a010c8b61d4a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fe768bc356f5e3284218d973c31fa41db0bc51ad
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54979009"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56596492"
 ---
 # <a name="idiasegmentgetoffset"></a>IDiaSegment::get_offset
-섹션 시작 되는 세그먼트의 오프셋을 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_offset (   
-   DWORD* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 섹션 시작 되는 세그먼트에서의 오프셋을 반환 합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)
+섹션 시작 되는 세그먼트의 오프셋을 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_offset ( 
+   DWORD* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 섹션 시작 되는 세그먼트에서의 오프셋을 반환 합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

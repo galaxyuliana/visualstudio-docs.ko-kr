@@ -4,21 +4,19 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 3/14/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: VLSC 관리자에게 제공된 온보딩 통신의 예제
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: a91626328b60fee748f465e3b5bde8bd29f227dd
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 2f2b376ca3a7de91f67d45f7a138dbefd6b65988
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49847861"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56844323"
 ---
 # <a name="onboarding-email-communications-for-administrators"></a>관리자용 온보딩 이메일 통신
 
-조직의 볼륨 라이선스(VL) 계약에 나열된 개인은 조직이 마이그레이션할 준비가 됐을 때 이메일을 받습니다. 회사에서 누구나 Visual Studio 구독을 관리하려면 따라야 할 프로세스를 설명합니다. 
+조직의 볼륨 라이선스(VL) 계약에 나열된 개인은 조직이 마이그레이션할 준비가 됐을 때 이메일을 받습니다. 회사에서 누구나 Visual Studio 구독을 관리하려면 따라야 할 프로세스를 설명합니다.
 
 ![Header](_img/onboarding-email/header.png)
 

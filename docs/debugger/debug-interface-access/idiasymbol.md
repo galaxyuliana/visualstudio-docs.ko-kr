@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1e0bdf7c5c22794fa271e43dd1b4c4605480cc3f
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: b6698159828c6092f0bb00b9ccc132415df82d7b
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227854"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56603120"
 ---
 # <a name="idiasymbol"></a>IDiaSymbol
 기호 인스턴스의 속성을 설명합니다.
@@ -257,7 +257,7 @@ IDiaSymbol : IUnknown
 
 - [IDiaSymbol::get_types](../../debugger/debug-interface-access/idiasymbol-get-types.md)
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 지정된 된 상대 가상 주소에는 함수에 대 한 지역 변수를 표시 하는 방법을 보여 줍니다. 또한 다양 한 종류의 기호 서로 어떻게 관련 되어 있는지 보여 줍니다.
 
 > [!NOTE]
@@ -343,10 +343,10 @@ void DumpLocalVars( DWORD rva, IDiaSession *pSession )
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)  
-[IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
-[기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)  
-[기호 및 기호 태그](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)  
-[컴파일 대상](../../debugger/debug-interface-access/compiland.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
+- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+- [기호 및 기호 태그](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)
+- [컴파일 대상](../../debugger/debug-interface-access/compiland.md)

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 34d59fbfe6213bbcec1311cf9ad6216b3d8c86c1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 81cf358d3dfb8fc45a4f696b0483e28673094d44
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629147"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840460"
 ---
 # <a name="automation-support-for-options-pages"></a>Automation 옵션 페이지에 대 한 지원
 Vspackage는 사용자 지정을 제공할 수 있습니다 **옵션** 대화 상자에 **도구** 메뉴 (**도구 옵션** 페이지)에서 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 자동화 가능 하도록 만들 수 및 모델입니다.
@@ -34,7 +34,7 @@ Vspackage는 사용자 지정을 제공할 수 있습니다 **옵션** 대화 �
 
 4. VSPackage의 자동화 개체는 다음 각를 제공 하는 데 사용 됩니다 <xref:EnvDTE.Property> 반환한 <xref:EnvDTE._DTE.Properties%2A>합니다.
 
-   사용자 지정 구현 샘플 **도구 옵션** 페이지를 참조 하십시오 [VSSDK 샘플](http://aka.ms/vs2015sdksamples)합니다.
+   사용자 지정 구현 샘플 **도구 옵션** 페이지를 참조 하십시오 [VSSDK 샘플](https://aka.ms/vs2015sdksamples)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [프로젝트 개체 노출](../../extensibility/internals/exposing-project-objects.md)

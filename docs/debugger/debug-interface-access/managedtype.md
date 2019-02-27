@@ -14,24 +14,24 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 36352d88a777b33d65853e17144f771a5cd4d5c5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0c121e996972b47a91a018d910a5d3677cb4cffa
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54987598"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56607462"
 ---
 # <a name="managedtype"></a>ManagedType
-관리 되는 형식 (같은 메타 데이터 또는 네이티브 언어의 메모리 및 리소스 관리 기능에 의해 정의 된 기호 C#)으로 식별 되는 `SymTagManagedType` 기호입니다.  
-  
-## <a name="properties"></a>속성  
- 다음 표에서이 기호 형식에 대 한 추가 올바른 속성을 보여 줍니다.  
-  
-|속성|데이터 형식|설명|  
-|--------------|---------------|-----------------|  
-|[IDiaSymbol::get_name](../../debugger/debug-interface-access/idiasymbol-get-name.md)|`BSTR`|관리 되는 기호의 이름입니다.|  
-|[IDiaSymbol::get_symIndexId](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md)|`DWORD`|기호 인덱스 ID입니다.|  
-|[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|반환 `SymTagManagedType` (중 하나는 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 값).|  
-  
-## <a name="see-also"></a>참고 항목  
- [기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+관리 되는 형식 (같은 메타 데이터 또는 네이티브 언어의 메모리 및 리소스 관리 기능에 의해 정의 된 기호 C#)으로 식별 되는 `SymTagManagedType` 기호입니다.
+
+## <a name="properties"></a>속성
+ 다음 표에서이 기호 형식에 대 한 추가 올바른 속성을 보여 줍니다.
+
+|속성|데이터 형식|설명|
+|--------------|---------------|-----------------|
+|[IDiaSymbol::get_name](../../debugger/debug-interface-access/idiasymbol-get-name.md)|`BSTR`|관리 되는 기호의 이름입니다.|
+|[IDiaSymbol::get_symIndexId](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md)|`DWORD`|기호 인덱스 ID입니다.|
+|[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|반환 `SymTagManagedType` (중 하나는 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 값).|
+
+## <a name="see-also"></a>참고 항목
+- [기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

@@ -10,29 +10,30 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ebc5566821fd64b9f5d6a44e990e3cc2b9f0ff67
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 99d549a0edc56d48d686424c35f22fc7ea74438b
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55040296"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56613169"
 ---
 # <a name="idiasymbolgetunmodifiedtypeid"></a>IDiaSymbol::get_unmodifiedTypeId
-원래 (수정 되지 않은) 형식의 ID를 검색합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_unmodifiedTypeId(   
-   DWORD* pRetVal);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 에 대 한 포인터를 `DWORD` ID를 보유 하는  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+원래 (수정 되지 않은) 형식의 ID를 검색합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_unmodifiedTypeId(
+   DWORD* pRetVal);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 에 대 한 포인터를 `DWORD` ID를 보유 하는
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

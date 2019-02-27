@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dbd089cc22c69978485c9277a67b44114b66c38b
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: ab2081d5f75eea3ad23db4151f43ed882bdf74cc
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56315252"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56599737"
 ---
 # <a name="cvcputypee"></a>CV_CPU_TYPE_e
 대상 프로세서를 지정합니다.
@@ -101,5 +101,5 @@ typedef enum CV_CPU_TYPE_e {
 헤더: cvconst.h
 
 ## <a name="see-also"></a>참고 항목
-[열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md)
+- [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md)

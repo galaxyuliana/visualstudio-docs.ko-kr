@@ -12,33 +12,34 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d7a15e0001342a31d13cb1b77f2c8e6d7fc4d31c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 49502c0d693c7a309da9756f73c34df361b7d7bb
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54936270"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56621749"
 ---
 # <a name="idiasectioncontribgetcomdat"></a>IDiaSectionContrib::get_comdat
-섹션 COMDAT 레코드 인지 여부를 나타내는 플래그를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_comdat (   
-   BOOL* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 반환 `TRUE` 섹션을 COMDAT 레코드가 고, 그렇지 반환 `FALSE`합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="remarks"></a>주의  
- COMDAT 레코드에는 패키지 함수 링커에 보이도록 하는 개체 파일 형식 COFF (공용) 레코드가입니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+섹션 COMDAT 레코드 인지 여부를 나타내는 플래그를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_comdat ( 
+   BOOL* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 반환 `TRUE` 섹션을 COMDAT 레코드가 고, 그렇지 반환 `FALSE`합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="remarks"></a>주의
+ COMDAT 레코드에는 패키지 함수 링커에 보이도록 하는 개체 파일 형식 COFF (공용) 레코드가입니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

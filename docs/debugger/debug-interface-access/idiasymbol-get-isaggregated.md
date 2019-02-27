@@ -12,44 +12,45 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3026dc8b228d16ecdd5b41379c180a2a3a5f0502
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0ac588314b69c6be8b31cc5719a4be8add3cad33
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54986724"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56611037"
 ---
 # <a name="idiasymbolgetisaggregated"></a>IDiaSymbol::get_isAggregated
-데이터 기호는 집계 또는 기호의; 컬렉션의 일부 인지 여부를 지정 하는 플래그를 검색 합니다. 컴파일러에서 집계 된 기호를 별도 엔터티로 처리 되지만 실제로 더 큰 단일 기호 부분입니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_isAggregated(  
-   BOOL *pFlag  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pFlag`  
- [out] 반환 `TRUE` 그렇지 않으면 반환 데이터 부모 기호에서 분할 하는 기호의 집계의 일부인 경우 `FALSE`합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
+데이터 기호는 집계 또는 기호의; 컬렉션의 일부 인지 여부를 지정 하는 플래그를 검색 합니다. 컴파일러에서 집계 된 기호를 별도 엔터티로 처리 되지만 실제로 더 큰 단일 기호 부분입니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_isAggregated(
+   BOOL *pFlag
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pFlag`
+
+[out] 반환 `TRUE` 그렇지 않으면 반환 데이터 부모 기호에서 분할 하는 기호의 집계의 일부인 경우 `FALSE`합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
-  
-## <a name="remarks"></a>주의  
- 합니다 [idiasymbol:: Get_issplitted](../../debugger/debug-interface-access/idiasymbol-get-issplitted.md) 메서드는 `TRUE` 집계 된 기호의 부모인 기호에 대 한 합니다.  
-  
-## <a name="requirements"></a>요구 사항  
-  
-|요구 사항|설명|  
-|-----------------|-----------------|  
-|헤더:|dia2.h|  
-|버전:|DIA SDK v8.0|  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [IDiaSymbol::get_isSplitted](../../debugger/debug-interface-access/idiasymbol-get-issplitted.md)
+>  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+
+## <a name="remarks"></a>주의
+ 합니다 [idiasymbol:: Get_issplitted](../../debugger/debug-interface-access/idiasymbol-get-issplitted.md) 메서드는 `TRUE` 집계 된 기호의 부모인 기호에 대 한 합니다.
+
+## <a name="requirements"></a>요구 사항
+
+|요구 사항|설명|
+|-----------------|-----------------|
+|헤더:|dia2.h|
+|버전:|DIA SDK v8.0|
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol::get_isSplitted](../../debugger/debug-interface-access/idiasymbol-get-issplitted.md)

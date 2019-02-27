@@ -1,14 +1,9 @@
 ---
 title: 필요 합니다. ';' | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT1004
 dev_langs:
@@ -16,16 +11,15 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: 3070cc6c-1138-4655-a7ac-723379f48f94
-caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: eabe34fdcb4551fc8bc794b84875a10a32e5ec33
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: fb3610a41579311e3be8f14483b606a8a9bdc031
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54347205"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840486"
 ---
 # <a name="expected-"></a>';'이 필요합니다.
 둘 이상의 문이 줄에 배치 하려고 해도 세미콜론으로 구분 되지 않았습니다. 세미콜론은 문 종료 하는 데 사용 됩니다. 사용할 수 있지만 여러 문을 한 줄에 세미콜론을 사용 하 여 다음에서 각각 구분 해야 합니다.  

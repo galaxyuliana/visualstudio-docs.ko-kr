@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5df6e50185bf04dd1f4dbb9f1016a1d6b73b1185
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: f07ecb151b6bf2cd4a9d48fbe6596bc7a533f97a
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318279"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56598676"
 ---
 # <a name="idiaenumdebugstreamsitem"></a>IDiaEnumDebugStreams::Item
 인덱스 또는 이름을 사용 하 여 디버그 스트림을 검색 합니다.
@@ -32,16 +32,18 @@ HRESULT Item (
 ```
 
 #### <a name="parameters"></a>매개 변수
-인덱스입니다.  
+인덱스입니다.
+
 [in] 검색할 인덱스 또는 디버그 스트림 이름입니다. 0에서 범위에 있어야는 정수 변형을 사용 하는 경우 `count`-1로, 여기서 `count` 에서 반환 되는 합니다 [idiaenumdebugstreams:: Get_count](../../debugger/debug-interface-access/idiaenumdebugstreams-get-count.md) 메서드.
 
-스트림  
+스트림
+
 [out] 반환 된 [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) 지정 된 디버그 스트림을 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```C++
 IDiaEnumDebugStreamData *GetStreamData(IDiaEnumDebugStreams *pStreamList,
@@ -68,5 +70,5 @@ IDiaEnumDebugStreamData *GetStreamData(IDiaEnumDebugStreams *pStreamList,
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)  
-[IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)
+- [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
+- [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)

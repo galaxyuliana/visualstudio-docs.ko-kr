@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3bc24a62281e754af8d97e641e8fa6e6866f7570
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 03e82a8c17b33aa085b4ed64b9ba609bee183e1d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318022"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56626117"
 ---
 # <a name="basictype"></a>BasicType
 기호 기본 형식을 지정합니다.
@@ -50,59 +50,41 @@ enum BasicType {
 ```
 
 ## <a name="elements"></a>요소
-btNoType  
-기본 형식이 지정 되지 않은 합니다.
+btNoType 기본 유형이 지정 되지 않았습니다.
 
-btVoid  
-기본 형식은 `void`합니다.
+기본 형식 btVoid는는 `void`합니다.
 
-btChar  
-기본 형식은 `char` (C/c + + 형식).
+기본 형식 btChar는는 `char` (C/c + + 형식).
 
-btWChar  
-기본 형식은 와이드 (유니코드) 문자 (`WCHAR`).
+기본 형식 btWChar 와이드 (유니코드) 문자는 (`WCHAR`).
 
-btInt  
-기본 형식은 `signed int` (C/c + + 형식).
+기본 형식 btInt는 `signed int` (C/c + + 형식).
 
-btUInt  
-기본 형식은 `unsigned int` (C/c + + 형식).
+기본 형식 btUInt는 `unsigned int` (C/c + + 형식).
 
-btFloat  
-기본 형식은 부동 소수점 숫자로 (`FLOAT`).
+btFloat 기본 형식 부동 소수점 숫자인 (`FLOAT`).
 
-btBCD  
-기본 형식은 이진 코딩 된 10 진수 (`BCD`).
+기본 형식 btBCD이 이진 코딩 된 10 진수 (`BCD`).
 
-btBool  
-기본 형식은 부울 (`BOOL`).
+기본 형식 btBool은 부울 (`BOOL`).
 
-btLong  
-기본 형식은 `long int` (C/c + + 형식).
+기본 형식 btLong는는 `long int` (C/c + + 형식).
 
-btULong  
-기본 형식은 `unsigned long int` (C/c + + 형식).
+기본 형식 btULong는는 `unsigned long int` (C/c + + 형식).
 
-btCurrency  
-기본 형식은 통화입니다.
+기본 형식 btCurrency는 통화입니다.
 
-btDate  
-기본 형식은 날짜/시간 (`DATE`).
+기본 형식 btDate는 날짜/시간 (`DATE`).
 
-btVariant  
-기본 형식은 변수 형식 구조 (`VARIANT`).
+btVariant 기본 형식을 변수 유형 구조가 (`VARIANT`).
 
-btComplex  
-기본 형식은 복소수입니다.
+기본 형식 btComplex 복합 숫자입니다.
 
-btBit  
-기본 형식은 약간입니다.
+기본 형식 btBit 약간입니다.
 
-btBSTR  
-기본 형식은 기본 또는 이진 문자열 (`BSTR`).
+기본 형식 btBSTR는 기본 또는 이진 문자열 (`BSTR`).
 
-btHresult  
-기본 형식은 `HRESULT`합니다.
+기본 형식 btHresult는는 `HRESULT`합니다.
 
 ## <a name="remarks"></a>주의
 이 열거형의 값에서 반환 되는 [idiasymbol:: Get_basetype](../../debugger/debug-interface-access/idiasymbol-get-basetype.md) 메서드.
@@ -111,6 +93,6 @@ btHresult
 헤더: cvconst.h
 
 ## <a name="see-also"></a>참고 항목
-[열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)  
-[IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol-get-length.md)
+- [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)
+- [IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol-get-length.md)
