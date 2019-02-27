@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0ae786d3fa65bdf4ce591be1c8ec677a5ac757e7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 853a131ce522da156f0e59aaea99bc289cd2a452
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615535"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840911"
 ---
 # <a name="projects"></a>프로젝트
 Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및에 표시 되는 기타 리소스를 구성 하는 데 사용할 컨테이너 **솔루션 탐색기**합니다. 일반적으로 프로젝트는 소스 코드 파일 및 비트맵 파일 같은 리소스에 대 한 참조를 저장 하는 파일 (예를 들어 C# 프로젝트의.csproj 파일)입니다. 구성, 빌드, 디버그 및 소스 코드를 배포할 수 있습니다. 프로젝트, 웹 서비스 및 데이터베이스 및 기타 리소스에 대 한 참조입니다. Vspackage는 세 가지 주요 방법으로 Visual Studio 프로젝트 시스템을 확장할 수 있습니다: *프로젝트 형식*, *프로젝트 하위 형식*, 및 *사용자 지정 도구*합니다.
@@ -41,7 +41,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및에 표
 
  새 프로젝트를 만들 때 실제로 발생에 대해 설명 합니다.
 
-- [VSSDK 샘플](http://aka.ms/vs2015sdksamples) 프로젝트 및 솔루션을 사용 하 여 처리 하는 VSSDK에 대 한 샘플이 포함 되어 있습니다.
+- [VSSDK 샘플](https://aka.ms/vs2015sdksamples) 프로젝트 및 솔루션을 사용 하 여 처리 하는 VSSDK에 대 한 샘플이 포함 되어 있습니다.
 
 ## <a name="related-sections"></a>관련 단원
 - [Visual Studio SDK 기본 사항](../../extensibility/internals/inside-the-visual-studio-sdk.md)

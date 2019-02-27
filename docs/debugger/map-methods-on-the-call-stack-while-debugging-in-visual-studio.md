@@ -29,12 +29,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c5285149bbefa8230940cfad19b5e0391a1e99bd
-ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
+ms.openlocfilehash: 118b8a6c8d857e626d39cf27d2767f75cd0550ee
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "55690504"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56704815"
 ---
 # <a name="create-a-visual-map-of-the-call-stack-while-debugging-c-visual-basic-c-javascript"></a>디버깅 하는 동안 호출 스택의 시각적 맵 만들기 (C#, Visual Basic, c + +, JavaScript)
 
@@ -54,7 +54,7 @@ ms.locfileid: "55690504"
 ##  <a name="MapStack"></a> 호출 스택 매핑
 
 1. Visual Studio Enterprise에서 C#, Visual Basic, c + + 또는 JavaScript 프로젝트를 선택 하 여 디버깅을 시작할 **디버그** > **디버깅 시작** 키를 누르거나 **F5**.
-   
+
 1. 앱 중단 모드로 들어가거나 한 함수 한 단계씩 실행, 한 후 선택 **디버그** > **코드 맵**를 누르거나 **Ctrl**+**Shift** +**`**.
 
    현재 호출 스택은 새 코드 맵에 주황색으로 표시됩니다.
@@ -73,19 +73,19 @@ ms.locfileid: "55690504"
 ## <a name="map-external-code"></a>외부 코드 맵
 
 기본적으로 맵에는 고유한 코드만 나타납니다. 맵에서 외부 코드를 보려면:
-  
+
 - 마우스 오른쪽 단추로 클릭 합니다 **호출 스택** 창과 선택 **외부 코드 포시**:
-  
+
   ![호출 스택 창을 사용 하 여 외부 코드 표시](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")
 - 또는 선택 취소 **내 코드만** Visual Studio에서 **도구** (또는 **디버그**) > **옵션**  >   **디버깅**:
-  
+
   ![옵션 대화 상자를 사용 하 여 외부 코드 표시](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")
 
 ## <a name="control-the-maps-layout"></a>맵 레이아웃을 제어 합니다.
 
-맵 레이아웃 변경 코드에 전혀 영향을 주지 않습니다. 
+맵 레이아웃 변경 코드에 전혀 영향을 주지 않습니다.
 
-맵 레이아웃을 제어 하려면 선택 합니다 **레이아웃** 맵 도구 모음의 메뉴입니다. 
+맵 레이아웃을 제어 하려면 선택 합니다 **레이아웃** 맵 도구 모음의 메뉴입니다.
 
 에 **레이아웃** 메뉴에서 할 수 있습니다.
 
@@ -95,9 +95,9 @@ ms.locfileid: "55690504"
 
 ##  <a name="MakeNotes"></a> 코드에 대해 메모하기
 
-코드에서 발생 하는 추적 하기 위한 주석을 추가할 수 있습니다. 
+코드에서 발생 하는 추적 하기 위한 주석을 추가할 수 있습니다.
 
-주석을 추가할 코드 맵을 마우스 오른쪽 단추로 클릭 하 고 선택 **편집할** > **새 주석**, 메모를 입력 합니다. 
+주석을 추가할 코드 맵을 마우스 오른쪽 단추로 클릭 하 고 선택 **편집할** > **새 주석**, 메모를 입력 합니다.
 
 주석에 새 줄을 추가 하려면 다음을 누릅니다 **Shift**+**Enter**합니다.
 
@@ -109,11 +109,11 @@ ms.locfileid: "55690504"
 
 ![다음 호출 스택으로 코드 맵 업데이트](../debugger/media/debuggermap_addclearcallstack.png "DebuggerMap_AddClearCallStack")
 
-맵에 새 호출 스택이 자동으로 추가 중지 하려면 선택 ![자동으로 코드 맵에 표시 호출 스택](../debugger/media/debuggermap_automaticupdateicon.gif "자동으로 코드 맵에 표시 호출 스택") 코드 맵 도구 모음에서 합니다. 맵에 계속 기존 호출 스택을 강조 표시 합니다. 현재 호출 스택을 맵에 수동으로 추가 하려면 다음을 누릅니다 **Ctrl**+**Shift**+**`** 합니다. 
+맵에 새 호출 스택이 자동으로 추가 중지 하려면 선택 ![자동으로 코드 맵에 표시 호출 스택](../debugger/media/debuggermap_automaticupdateicon.gif "자동으로 코드 맵에 표시 호출 스택") 코드 맵 도구 모음에서 합니다. 맵에 계속 기존 호출 스택을 강조 표시 합니다. 현재 호출 스택을 맵에 수동으로 추가 하려면 다음을 누릅니다 **Ctrl**+**Shift**+**`** 합니다.
 
 ##  <a name="AddRelatedCode"></a> 맵에 관련 코드 추가
 
-이제를 가져온 후 지도 C# 또는 Visual Basic의 경우 필드, 속성 및 코드에서 발생 하는 추적에 다른 메서드와 같은 항목을 추가할 수 있습니다. 
+이제를 가져온 후 지도 C# 또는 Visual Basic의 경우 필드, 속성 및 코드에서 발생 하는 추적에 다른 메서드와 같은 항목을 추가할 수 있습니다.
 
 코드에서 메서드 정의로 이동할 맵에서 메서드를 두 번 클릭 하거나 선택 하 고 키를 눌러 **F12**, 또는 마우스 오른쪽 단추로 클릭 하 고 선택 **정의로 이동**합니다.
 
@@ -151,7 +151,7 @@ ms.locfileid: "55690504"
 
 맵 내보내기 Microsoft Outlook을 사용 하 여 다른 사용자에 게 전송 및 솔루션에 저장 버전 제어에 체크 인할 수 있습니다.
 
-를 공유 하거나 맵을 저장 **공유** 코드 맵 도구 모음에 있습니다. 
+를 공유 하거나 맵을 저장 **공유** 코드 맵 도구 모음에 있습니다.
 
 ![다른 사용자와 공유 호출 스택 코드 맵의](../debugger/media/debuggermap_sharewithothers.png "다른 사용자와 공유 호출 스택 코드 맵")
 

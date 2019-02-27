@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e0c1ed6e2fdd461b0fdf502c01089aeafd9a87cb
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 7810889d4af411477573c71aa694d797a90763f3
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54925632"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56720603"
 ---
 # <a name="graphics-api-and-memory-statistics"></a>그래픽 API 및 메모리 통계
 <!-- VERSIONLESS --> Visual Studio 2017 이상 그래픽 API 통계 및 메모리 통계 도구를 지원 합니다.  이러한 두 도구를 통해 Direct3D API 사용 뿐만 아니라 다양 한 리소스의 GPU 메모리 사용량에서 다양 한 비트 정보를 볼 수 있습니다.
@@ -39,7 +39,7 @@ Visual Studio 그래픽 진단의 그래픽 API 통계를 사용 하면 모든 �
 
 API 통계 도구와 마찬가지로 추가 분석을 위해 Excel 같은에 붙여 넣을 수 있는 CSV로 모두 복사 데이터 창에 있는 단추로 수 있습니다.
 
-## <a name="see-also"></a>참고 항목  
-[그래픽 진단(DirectX 그래픽 디버그)](visual-studio-graphics-diagnostics.md)   
-[리소스 기록](graphics-event-list.md#resource-history)
+## <a name="see-also"></a>참고 항목
+- [그래픽 진단(DirectX 그래픽 디버그)](visual-studio-graphics-diagnostics.md)
+- [리소스 기록](graphics-event-list.md#resource-history)
 <!-- /VERSIONLESS -->

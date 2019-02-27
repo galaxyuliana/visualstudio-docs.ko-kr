@@ -31,12 +31,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1e4c1c12409d89d88e683cd0e5b39a8d5a5459df
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b0bf0da5f15bbb59c2898af0dc0bfec1105cbab0
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54969774"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56715429"
 ---
 # <a name="set-debug-and-release-configurations-in-visual-studio"></a>Visual Studio에서 디버그 및 릴리스 구성 설정
 
@@ -118,10 +118,10 @@ Visual Studio 프로젝트에는 사용하는 프로그램에 대한 별도의 �
    컴파일러는 실행 파일이 나 주 출력 파일과 동일한 폴더에 기호 파일을 만듭니다.
 
 ## <a name="see-also"></a>참고 항목
- 
-[Visual Studio 디버거에서 기호 (.pdb) 파일 및 소스 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)<br/>
-[디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)<br/>
-[C++ 디버그 구성에 대한 프로젝트 설정](../debugger/project-settings-for-a-cpp-debug-configuration.md)<br/>
-[C# 디버그 구성을 위한 프로젝트 설정](../debugger/project-settings-for-csharp-debug-configurations.md)<br/>
-[Visual Basic 디버그 구성에 대한 프로젝트 설정](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)<br/>
-[방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)
+
+- [Visual Studio 디버거에서 기호 (.pdb) 파일 및 소스 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)<br/>
+- [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)<br/>
+- [C++ 디버그 구성에 대한 프로젝트 설정](../debugger/project-settings-for-a-cpp-debug-configuration.md)<br/>
+- [C# 디버그 구성을 위한 프로젝트 설정](../debugger/project-settings-for-csharp-debug-configurations.md)<br/>
+- [Visual Basic 디버그 구성에 대한 프로젝트 설정](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)<br/>
+- [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)

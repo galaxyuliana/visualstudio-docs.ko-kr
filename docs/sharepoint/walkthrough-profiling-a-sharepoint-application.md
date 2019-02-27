@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bf6957b0757da709a7f95ccf58b1b192e0edf098
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ff02b666f48e959001a800cb37b5820c39a12034
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602041"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841741"
 ---
 # <a name="walkthrough-profile-a-sharepoint-application"></a>연습: SharePoint 응용 프로그램을 프로 파일링
   이 연습에서는 Visual Studio에서 프로파일링 도구를 사용하여 SharePoint 응용 프로그램의 성능을 최적화하는 방법을 보여 줍니다. 예제 응용 프로그램은 기능 이벤트 수신기의 성능을 저하시키는 유휴 루프가 포함된 SharePoint 기능 이벤트 수신기입니다. Visual Studio 프로파일러를 사용 하면 찾을 라고도 프로젝트의 가장 비용이 많이 드는 (성능이 가장 낮은) 부분을 제거 하는 *실행 부하 과다 경로*합니다.
@@ -47,7 +47,7 @@ ms.locfileid: "56602041"
 ## <a name="create-a-sharepoint-project"></a>SharePoint 프로젝트 만들기
  먼저 SharePoint 프로젝트를 만듭니다.
 
-#### <a name="to-create-a-sharepoint-project"></a>SharePoint 프로젝트를 만들려면
+### <a name="to-create-a-sharepoint-project"></a>SharePoint 프로젝트를 만들려면
 
 1. 메뉴 모음에서 선택 **파일** > **새로 만들기** > **프로젝트** 표시 하는 **새 프로젝트** 대화 상자.
 
@@ -70,7 +70,7 @@ ms.locfileid: "56602041"
 ## <a name="add-a-feature-and-feature-event-receiver"></a>기능 및 기능 이벤트 수신기 추가
  다음 작업으로, 기능의 이벤트 수신기와 함께 프로젝트에 기능을 추가합니다. 이 이벤트 수신기에는 프로파일링할 코드가 포함됩니다.
 
-#### <a name="to-add-a-feature-and-feature-event-receiver"></a>기능 및 기능 이벤트 수신기를 추가하려면
+### <a name="to-add-a-feature-and-feature-event-receiver"></a>기능 및 기능 이벤트 수신기를 추가하려면
 
 1.  **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **기능** 노드를 선택 **추가 기능**, 이름 값을 기본값으로 유지 하 고 **Feature1**.
 
@@ -191,7 +191,7 @@ ms.locfileid: "56602041"
 ## <a name="configure-and-deploy-the-sharepoint-application"></a>구성 및 SharePoint 응용 프로그램 배포
  SharePoint 프로젝트가 준비되었으므로 이 프로젝트를 구성하고 SharePoint 서버에 배포합니다.
 
-#### <a name="to-configure-and-deploy-the-sharepoint-application"></a>SharePoint 응용 프로그램을 구성하고 배포하려면
+### <a name="to-configure-and-deploy-the-sharepoint-application"></a>SharePoint 응용 프로그램을 구성하고 배포하려면
 
 1.  에 **분석** 메뉴 선택 **성능 마법사 시작**합니다.
 
@@ -214,7 +214,7 @@ ms.locfileid: "56602041"
 ## <a name="run-the-sharepoint-application"></a>SharePoint 응용 프로그램 실행
  SharePoint에서 기능을 활성화하여 `FeatureActivation` 이벤트 코드가 실행되도록 합니다.
 
-#### <a name="to-run-the-sharepoint-application"></a>SharePoint 응용 프로그램을 실행하려면
+### <a name="to-run-the-sharepoint-application"></a>SharePoint 응용 프로그램을 실행하려면
 
 1.  SharePoint에서 엽니다는 **사이트 작업** 메뉴를 선택한 후 **사이트 설정**합니다.
 
@@ -235,7 +235,7 @@ ms.locfileid: "56602041"
 ## <a name="view-and-interpret-the-profile-results"></a>확인 하 고 프로필 결과 해석 합니다.
  SharePoint 응용 프로그램을 실행하고 프로파일링했으므로 테스트 결과를 확인합니다.
 
-#### <a name="to-view-and-interpret-the-profile-results"></a>결과 확인 하 고 프로필을 해석 하려면
+### <a name="to-view-and-interpret-the-profile-results"></a>결과 확인 하 고 프로필을 해석 하려면
 
 1.  에 **작업이 가장 많은 개별 함수** 섹션 샘플 프로 파일링 보고서의 있음을 `TimeCounter` 목록의 위쪽에 합니다.
 
@@ -256,7 +256,7 @@ ms.locfileid: "56602041"
 ## <a name="fix-the-code-and-reprofile-the-application"></a>코드를 수정 하 고 응용 프로그램을 다시 프로 파일링
  SharePoint 응용 프로그램의 핫 스폿 함수가 식별되었으므로 해당 함수를 수정합니다.
 
-#### <a name="to-fix-the-code-and-reprofile-the-application"></a>코드를 수정하고 응용 프로그램을 다시 프로파일링하려면
+### <a name="to-fix-the-code-and-reprofile-the-application"></a>코드를 수정하고 응용 프로그램을 다시 프로파일링하려면
 
 1.  기능 이벤트 수신기 코드의 `TimeCounter`에서 `FeatureActivated` 메서드 호출을 주석으로 처리하여 호출되지 않도록 합니다.
 

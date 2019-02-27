@@ -8,12 +8,12 @@ ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: c6f37c26dac231bbfab38b6370786bd9bbe6b17c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 107e39e147c62f73c5656f3a398fbca231620c67
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55956404"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840411"
 ---
 # <a name="rtvs-current-version"></a>RTVS 최신 버전
 
@@ -27,4 +27,4 @@ Visual Studio 2015의 경우 가장 최근 설치 관리자는 [aka.ms/rtvs-curr
 
 Visual Studio 및 Windows 요구 사항은 [설치](installing-r-tools-for-visual-studio.md)를 참조하세요.
 
-Microsoft R Open 및 Microsoft Machine Learning Server(이전 Microsoft R Server)에 대한 업데이트는 [Microsoft R 제품](http://aka.ms/rtvs-msft-r)을 참조하세요.
+Microsoft R Open 및 Microsoft Machine Learning Server(이전 Microsoft R Server)에 대한 업데이트는 [Microsoft R 제품](https://aka.ms/rtvs-msft-r)을 참조하세요.

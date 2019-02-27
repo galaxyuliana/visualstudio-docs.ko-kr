@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0d643a3ad43c41b90cdb2c331ff0222f1dc8a75f
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: ebfe3efdb567930d931ab43d5cf2ce33713247f8
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155476"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56679127"
 ---
 # <a name="tutorial-learn-to-debug-c-code-using-visual-studio"></a>자습서: Visual Studio를 사용하여 C++ 코드를 디버그하는 방법 알아보기
 
@@ -183,7 +183,7 @@ ms.locfileid: "56155476"
 
     중단점을 설정하면 빨간색 원이 나타납니다.
 
-    중단점은 신뢰할 수 있는 디버깅의 가장 기본적이 고 필수적인 기능입니다. 중단점은 변수의 값, 메모리의 동작 또는 코드 분기의 실행 여부를 확인할 수 있도록 Visual Studio에서 실행 중인 코드를 일시 중단해야 하는 위치를 나타냅니다. 
+    중단점은 신뢰할 수 있는 디버깅의 가장 기본적이 고 필수적인 기능입니다. 중단점은 변수의 값, 메모리의 동작 또는 코드 분기의 실행 여부를 확인할 수 있도록 Visual Studio에서 실행 중인 코드를 일시 중단해야 하는 위치를 나타냅니다.
 
 2. **F5** 키 또는 **디버깅 시작** 단추 ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging"를 누르면 앱이 시작되고, 중단점이 설정된 코드 줄에서 디버거가 실행됩니다.
 

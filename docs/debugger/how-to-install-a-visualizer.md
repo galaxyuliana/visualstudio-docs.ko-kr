@@ -17,33 +17,33 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6e2ff65e5d410295e9ce7fa0512588b68ca25e55
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d1a552c07443e4dd38070a86b7d9513d8cfa0136
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54965538"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56691425"
 ---
 # <a name="how-to-install-a-visualizer"></a>방법: 시각화 도우미 설치
-시각화 도우미를 만든 후에는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 사용할 수 있도록 이 시각화 도우미를 설치해야 합니다. 시각화 도우미를 설치하는 과정은 간단합니다.  
-  
+시각화 도우미를 만든 후에는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 사용할 수 있도록 이 시각화 도우미를 설치해야 합니다. 시각화 도우미를 설치하는 과정은 간단합니다.
+
 > [!NOTE]
->  UWP 앱에만 표준 텍스트, HTML, XML 및 JSON 시각화 도우미 지원 됩니다. 사용자가 만든 사용자 지정 시각화 도우미는 지원되지 않습니다.  
-  
-### <a name="to-install-a-visualizer"></a>시각화 도우미를 설치하려면  
-  
-1.  빌드한 시각화 도우미가 들어 있는 DLL을 찾습니다.  
-  
-2.  이 DLL을 다음 위치 중 한 곳에 복사합니다.  
-  
-    -   *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`  
-  
-    -   `My Documents\` *VisualStudioVersion* `\Visualizers`  
-  
-3.  원격 디버깅에 관리되는 시각화 도우미를 사용하려면 원격 컴퓨터의 동일한 경로에 DLL을 복사합니다.  
-  
-4.  디버깅 세션을 다시 시작합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [사용자 지정 시각화 도우미 만들기](../debugger/create-custom-visualizers-of-data.md)   
- [방법: 시각화 도우미 작성](/visualstudio/debugger/create-custom-visualizers-of-data)
+>  UWP 앱에만 표준 텍스트, HTML, XML 및 JSON 시각화 도우미 지원 됩니다. 사용자가 만든 사용자 지정 시각화 도우미는 지원되지 않습니다.
+
+### <a name="to-install-a-visualizer"></a>시각화 도우미를 설치하려면
+
+1.  빌드한 시각화 도우미가 들어 있는 DLL을 찾습니다.
+
+2.  이 DLL을 다음 위치 중 한 곳에 복사합니다.
+
+    -   *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`
+
+    -   `My Documents\` *VisualStudioVersion* `\Visualizers`
+
+3.  원격 디버깅에 관리되는 시각화 도우미를 사용하려면 원격 컴퓨터의 동일한 경로에 DLL을 복사합니다.
+
+4.  디버깅 세션을 다시 시작합니다.
+
+## <a name="see-also"></a>참고 항목
+- [Create Custom Visualizers of Data](../debugger/create-custom-visualizers-of-data.md)(데이터의 사용자 지정 시각화 도우미 만들기)
+- [방법: 시각화 도우미 작성](/visualstudio/debugger/create-custom-visualizers-of-data)

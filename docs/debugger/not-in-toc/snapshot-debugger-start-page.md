@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 841a420a278849f1f26de6869a8b723617e7fd8b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: ff8403390d2cd9126ce17f97dbc87b901ca544fd
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54939792"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56703710"
 ---
 # <a name="getting-started-with-the-snapshot-debugger"></a>스냅숏 디버거를 시작 하기
 
@@ -27,7 +27,7 @@ Visual Studio 스냅숏 디버거를 서비스에 연결 되 고 디버깅 하�
 
 ### <a name="set-a-snappoint"></a>Snappoint를 설정 합니다.
 
-1. 코드 편집기에서 관심 있는에서 snappoint를 설정 하려면 코드 줄 옆에 있는 왼쪽된 여백을 클릭 합니다. 실행될지 알고 있는 코드 인지 확인 합니다. 
+1. 코드 편집기에서 관심 있는에서 snappoint를 설정 하려면 코드 줄 옆에 있는 왼쪽된 여백을 클릭 합니다. 실행될지 알고 있는 코드 인지 확인 합니다.
 
     ![편집기에서 snappoint를 설정](../media/snapshot-startpage-set-snappoint.png)
 
@@ -37,7 +37,7 @@ Visual Studio 스냅숏 디버거를 서비스에 연결 되 고 디버깅 하�
 
 ### <a name="open-a-snapshot"></a>스냅숏을 열기
 
-1. Snappoint는 적중 될 때 스냅숏이 오른쪽 위에 있는 진단 도구 창에 표시 됩니다. 창이 열리지 않으면 경우 선택 하 여 열 수 있습니다 **디버깅할** > **Windows** > **진단 도구 표시**합니다. 
+1. Snappoint는 적중 될 때 스냅숏이 오른쪽 위에 있는 진단 도구 창에 표시 됩니다. 창이 열리지 않으면 경우 선택 하 여 열 수 있습니다 **디버깅할** > **Windows** > **진단 도구 표시**합니다.
 
     ![진단 도구 창에서 스냅숏](../media/snapshot-startpage-diagsession-window.png)
 
@@ -59,16 +59,16 @@ DataTips를 보고, 조사식, 지역 변수를 사용 하 여, 호출 하는 �
 
 3. 에 **메시지** 필드에 기록 하려는 로그 메시지를 입력 합니다. 중괄호 안에 배치 하 여 로그 메시지의 변수를 평가할 수 있습니다.
 
-    선택 하면 **출력 창에 보냅니다**, 메시지는 logpoint 적중 될 때 진단 도구 창에 나타납니다. 
+    선택 하면 **출력 창에 보냅니다**, 메시지는 logpoint 적중 될 때 진단 도구 창에 나타납니다.
 
     선택 하면 **응용 프로그램 로그 보내기**, 메시지의 메시지에서 볼 수 있는 아무 곳 이나 표시 `System.Diagnostics.Trace` (또는 `ILogger` .NET Core에서), App Insights는 logpoint 적중 될 때 같은 합니다.
 
-## <a name="learn-more"></a>자세히
+## <a name="learn-more"></a>자세한 내용
 
 스냅숏 디버거에 대 한 자세한 정보를 찾을 수 있습니다 합니다 [docs 페이지](../debug-live-azure-applications.md)합니다. 쉽게 버그를 찾는 조건을 설정 하는 방법에 대 한 자세히 알아봅니다.
 
 ## <a name="dont-show-me-this-again"></a>다시 표시 안 함
 
-다시 표시 안 함 스냅숏 디버거 시작 페이지를 스냅숏 디버거를 연결 하는 경우를 변경 합니다 **세션 시작 시 'Getting Started 페이지 표시** 옵션 **도구**  >   **옵션** > **스냅숏 디버거**합니다. 
+다시 표시 안 함 스냅숏 디버거 시작 페이지를 스냅숏 디버거를 연결 하는 경우를 변경 합니다 **세션 시작 시 'Getting Started 페이지 표시** 옵션 **도구**  >   **옵션** > **스냅숏 디버거**합니다.
 
 ![스냅숏 디버거 도구 옵션 페이지](../media/snapshot-startpage-tools-options.png)

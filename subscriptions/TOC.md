@@ -81,7 +81,7 @@
 #### [MPN에 대한 구독 관리](manage-mpn-subscriptions.md)
 #### [Microsoft for Startups](program-startups.md)
 ## 자료
-### [Visual Studio 라이선스 백서](http://aka.ms/vslicensing)
+### [Visual Studio 라이선스 백서](https://aka.ms/vslicensing)
 ### [구독 옵션 및 가격 비교](https://visualstudio.microsoft.com/vs/pricing)
 ### [Visual Studio IDE 기능 비교](https://visualstudio.microsoft.com/vs/compare)
 ### [Visual Studio 관리 및 구독 지원](https://visualstudio.microsoft.com/support/support-overview-vs)

@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 02203ba84ee2d394ca9b714d74f607480ba68460
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: e1f430268549da74c1039899e828d37a21ac336c
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227815"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56721058"
 ---
 # <a name="debug-html-and-css-in-uwp-apps-in-visual-studio"></a>Visual Studio에서 UWP 앱에서 HTML 및 CSS 디버그
 
@@ -162,7 +162,7 @@ DOM 탐색기를 사용하면 다음 작업을 수행할 수 있습니다.
     ![DOM 탐색기](../debugger/media/js_dom_explorer.png "JS_DOM_Explorer")
 
     > [!TIP]
-    > >> 입력 프롬프트에서 `select(fView)`를 입력한 다음 Enter 키를 눌러 JavaScript 콘솔 창 왼쪽 아래에서 DIV 요소를 선택할 수도 있습니다.
+    > 입력 하 여 JavaScript 콘솔 창의 왼쪽된 아래 모서리에서 DIV 요소를 선택할 수도 있습니다 `select(fView)` 에 >> 프롬프트 및 Enter 키를 입력 합니다.
 
     DOM 탐색기 창의 오른쪽 탭에 나타나는 값이 DOM 탐색기의 현재 요소를 반영하도록 자동으로 업데이트됩니다.
 
@@ -254,10 +254,10 @@ DOM 탐색기를 사용하면 다음 작업을 수행할 수 있습니다.
 > 요소를 마우스로 가리키면 강조 표시되는 기능은 Windows Phone 에뮬레이터에서만 일부 지원됩니다.
 
 ## <a name="see-also"></a>참고 항목
-[Visual Studio에서 앱 디버그](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)  
-[앱 새로 고침(JavaScript)](../debugger/refresh-an-app-javascript.md)  
-[WebView 컨트롤 디버그](../debugger/debug-a-webview-control.md)  
-[바로 가기 키](../debugger/keyboard-shortcuts-html-and-javascript.md)  
-[JavaScript 콘솔 명령](../debugger/javascript-console-commands.md)  
-[HTML, CSS 및 JavaScript 샘플 코드 디버그](../debugger/debug-html-css-and-javascript-sample-code.md)  
-[기술 지원 및 접근성](https://msdn.microsoft.com/library/tzbxw1af(VS.120).aspx)
+- [Visual Studio에서 앱 디버그](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+- [앱 새로 고침(JavaScript)](../debugger/refresh-an-app-javascript.md)
+- [WebView 컨트롤 디버그](../debugger/debug-a-webview-control.md)
+- [바로 가기 키](../debugger/keyboard-shortcuts-html-and-javascript.md)
+- [JavaScript 콘솔 명령](../debugger/javascript-console-commands.md)
+- [HTML, CSS 및 JavaScript 샘플 코드 디버그](../debugger/debug-html-css-and-javascript-sample-code.md)
+- [기술 지원 및 접근성](https://msdn.microsoft.com/library/tzbxw1af(VS.120).aspx)

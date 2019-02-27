@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/22/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독 - 기본 연락처 찾기
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 2a9108009e497a4685659cdc904e77352f94365a
-ms.sourcegitcommit: 06db1892fff22572f0b0a11994dc547c2b7e2a48
+ms.openlocfilehash: 46f36348c9275b47b885d9a7179885b4450502bd
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39637983"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843353"
 ---
 # <a name="locating-the-primary-contact-associated-with-visual-studio-subscriptions"></a>Visual Studio 구독에 연결된 기본 연락처 찾기
 
@@ -25,13 +23,11 @@ ms.locfileid: "39637983"
 2. [라이선스] 탭의 드롭다운에서 **관계 요약**을 선택합니다.
     > [!div class="mx-imgBorder"]
     > ![관계 선택](_img/locate-primary-contact/vlsc-relationship.png)
-   
-3. 적용 가능한 계약 번호를 선택합니다. 
+
+3. 적용 가능한 계약 번호를 선택합니다.
     > [!div class="mx-imgBorder"]
     > ![계약 선택](_img/locate-primary-contact/vlsc-agreement.png)
 
-4. **연락처** 탭을 선택합니다.  기본 연락처가 계약에 연결된 연락처 목록에 나열됩니다. 
+4. **연락처** 탭을 선택합니다.  기본 연락처가 계약에 연결된 연락처 목록에 나열됩니다.
     > [!div class="mx-imgBorder"]
     > ![연락처 선택](_img/locate-primary-contact/vlsc-contacts.png)
-
-

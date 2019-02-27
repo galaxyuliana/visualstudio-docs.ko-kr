@@ -11,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 39d11b1b3bc17cd8a7329fd6f4c1a8010f461438
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 6b4e257f77d29a75e0400d9dd43030fc479c04c6
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155840"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56711204"
 ---
 # <a name="work-with-python-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 작업
 
@@ -147,7 +147,7 @@ Python 워크로드는 Windows, Mac OS X, Linux 앱에서 Azure 서비스를 간
 
 **질문: Python 프로젝트에서 독립 실행형 실행 파일을 생성할 수 있나요?**
 
-대답: Python은 일반적으로 Visual Studio, 웹 서버와 같은 적합한 Python 지원 환경에서 요청 시 코드를 실행하는 데 사용되는 해석된 언어입니다. 현재는 Visual Studio 자체에서 독립 실행형 실행 파일을 만드는 방법을 제공하지 않습니다. 즉, 기본적으로 포함된 Python 인터프리터가 있는 프로그램입니다. 그러나 [StackOverflow](https://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency)에 설명된 것처럼 Python 커뮤니티에서는 실행 파일을 만드는 다양한 방법을 제공합니다. 또한 CPython은 블로그 게시물 [Using CPython's embeddable zip file](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/)(CPython의 포함 가능한 zip 파일 사용)에 설명된 것처럼 네이티브 애플리케이션 내에 포함되는 기능을 지원합니다.
+대답: Python은 일반적으로 Visual Studio, 웹 서버와 같은 적합한 Python 지원 환경에서 요청 시 코드를 실행하는 데 사용되는 해석된 언어입니다. 현재는 Visual Studio 자체에서 독립 실행형 실행 파일을 만드는 방법을 제공하지 않습니다. 즉, 기본적으로 포함된 Python 인터프리터가 있는 프로그램입니다. 그러나 [StackOverflow](https://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency)에 설명된 것처럼 Python 커뮤니티에서는 실행 파일을 만드는 다양한 방법을 제공합니다. 또한 CPython은 블로그 게시물 [Using CPython's embeddable zip file](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/)(CPython의 포함 가능한 zip 파일 사용)에 설명된 것처럼 네이티브 애플리케이션 내에 포함되는 기능을 지원합니다.
 
 ## <a name="features-matrix"></a>기능 매트릭스
 

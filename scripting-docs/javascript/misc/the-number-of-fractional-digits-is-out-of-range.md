@@ -1,14 +1,9 @@
 ---
 title: 소수 자리 수가 범위를 벗어났습니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT5026
 dev_langs:
@@ -16,18 +11,17 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: dbe05d7d-fcf6-4823-9c61-4b814d1ad3c4
-caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 17ffec5e6b4cfff85b49f61e7105ca8ce3d75c78
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 78b8d3773731a1135bff75a3c2d3b35696f065b8
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54348466"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56842947"
 ---
-# <a name="the-number-of-fractional-digits-is-out-of-range"></a>소수 자리수가 범위를 초과하였습니다.
+# <a name="the-number-of-fractional-digits-is-out-of-range"></a>소수 자릿수가 범위를 벗어납니다.
 함수에 잘못 된 인수를 전달 하려고 **Number.prototype.toExponential**합니다. 함수에 인수 **toExponential()** 0과 20 (포함) 사이 여야 합니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  

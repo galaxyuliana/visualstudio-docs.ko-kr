@@ -1,14 +1,9 @@
 ---
 title: 부울이 필요 | Microsoft Docs
-ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-client-threshold
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- javascript
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-windows
+ms.technology: javascript
+ms.topic: reference
 f1_keywords:
 - VS.WebClient.Help.SCRIPT5010
 dev_langs:
@@ -16,16 +11,15 @@ dev_langs:
 - TypeScript
 - DHTML
 ms.assetid: 35d71b7f-53fd-44c4-a7c7-b1550c65cfd4
-caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: cb8ec8f7244b98cfa628794b485859dbec611c19
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 82123fe2a38b3de1d6e6c015f47bc5f7edd02791
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54347933"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840526"
 ---
 # <a name="boolean-expected"></a>부울이 필요합니다.
 호출 하려고 합니다 **Boolean.prototype.toString** 또는 **Boolean.prototype.valueOf** 이외의 다른 형식의 개체의 메서드를 `Boolean`입니다. 이 형식의 호출 개체 유형 이어야 `Boolean`합니다. 예를 들어:

@@ -12,18 +12,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 7bcf2c97e26e61b72a1279a11e8c95474099c3d6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 139a0889c590ac07f8aba93122883e5c519ab811
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54918566"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56716521"
 ---
 # <a name="quickstart-debug-with-c-using-the-visual-studio-debugger"></a>빠른 시작: Visual Studio 디버거를 사용하여 C++ 디버그
 
 Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력한 기능을 제공합니다. 이 항목에는 기본 기능 중 일부에 대해 알아보는 빠른 방법을 제공합니다.
 
-## <a name="create-a-new-project"></a>새 프로젝트 만들기 
+## <a name="create-a-new-project"></a>새 프로젝트 만들기
 
 1. Visual Studio에서 **파일 > 새 프로젝트**를 선택합니다.
 
@@ -47,7 +47,7 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
     이 코드로 바꿉니다(`#include "stdafx.h"` 제거 안 함).
 
     ```c++
-    #include <list>  
+    #include <list>
     #include <iostream>
 
     using namespace std;
@@ -90,7 +90,7 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
     > [!TIP]
     > 루프 또는 재귀에 중단점이 있는 경우 또는 자주 한 단계씩 실행하는 많은 중단점이 있는 경우 [조건부 중단점](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression)을 사용하여 특정 조건이 충족되는 경우에만 코드가 일시 중단되도록 합니다. 조건부 중단점은 시간을 절약하고 재현하기 어려운 문제를 쉽게 디버그할 수 있도록 할 수 있습니다.
 
-    C++에서 메모리 관련 오류를 디버그하려고 시도할 때 중단점을 사용하여 주소 값(NULL 검색)을 검사하고 개수를 참조할 수도 있습니다. 
+    C++에서 메모리 관련 오류를 디버그하려고 시도할 때 중단점을 사용하여 주소 값(NULL 검색)을 검사하고 개수를 참조할 수도 있습니다.
 
 ## <a name="navigate-code"></a>코드 탐색
 
@@ -110,7 +110,7 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
 
     ![datatip 보기](../debugger/media/dbg-qs-data-tip.png "datatip 보기")
 
-    datatip은 `c1` 변수의 현재 값을 보여주고 이를 통해 해당 속성을 검사할 수 있습니다. 디버깅할 때 예상하지 않은 값이 표시되는 경우 이전 또는 호출하는 코드 줄에 버그가 있을 가능성이 큽니다. 
+    datatip은 `c1` 변수의 현재 값을 보여주고 이를 통해 해당 속성을 검사할 수 있습니다. 디버깅할 때 예상하지 않은 값이 표시되는 경우 이전 또는 호출하는 코드 줄에 버그가 있을 가능성이 큽니다.
 
 2. datatip을 확장하여 `c1` 개체의 현재 속성 값을 확인합니다.
 
