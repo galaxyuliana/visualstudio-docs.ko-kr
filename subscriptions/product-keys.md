@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독에서 제품 키를 얻고 관리하는 방법을 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: cdd37aae3e0a3e3caebafa026fd5dcf3922c0998
-ms.sourcegitcommit: f6dd17b0864419083d0a1bf54910023045526437
+ms.openlocfilehash: ed204bad85bcc63603aff6585adfdf30ffec4168
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2018
-ms.locfileid: "53803826"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843726"
 ---
 # <a name="using-product-keys-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 제품 키 사용
 
@@ -47,9 +45,9 @@ MPN, BizSpark, MCT 소프트웨어 및 서비스 및 MCT를 통해 제공되는 
 
 ## <a name="locating-and-claiming-product-keys"></a>제품 키 찾기 및 요청
 제품 키를 보려면 Visual Studio 구독에 로그인해야 합니다. 개별 제품 키는 아래 표시된 것처럼 [다운로드](https://my.visualstudio.com/downloads) 페이지에서 특정 제품에 대한 파란색 **키 가져오기** 링크를 선택하여 확인할 수 있습니다.  또한 모든 키는 [제품 키](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) 페이지에서 전체적으로 사용할 수도 있습니다. 단일 제품에 대해 여러 키가 있는 경우 다운로드를 위해 [메모] 열에 해당 정보가 표시되어 사용해야 할 키를 식별하는 데 도움이 됩니다.
-> [!div class="mx-imgBorder"]   
+> [!div class="mx-imgBorder"]
 > ![다운로드 페이지에서 키 가져오기](_img/product-keys/download-get-key.png)
-    
+
 일부 제품은 한 번에 다운로드할 수 있도록 여러 버전이 번들로 구성되어 있습니다. 이러한 경우 입력하는 제품 키에 따라 설치되는 제품 버전이 결정됩니다.
 일부 키는 "정적" 키와 같이 자동으로 제공되며, 정품 인증이 필요하지 않으므로 필요한 만큼 여러 번 사용할 수 있습니다. 다른 키는 제품에 대한 **키 가져오기** 링크를 선택하여 요청해야 합니다.
 

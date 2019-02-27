@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eab68c077ea6897d32ca215ae1fa2726900622f7
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 3252d15ebfb06fa840bfad6bf74dc3b8748776ef
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227305"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56623244"
 ---
 # <a name="idiastackframe"></a>IDiaStackFrame
 스택 프레임의 속성을 표시 합니다.
@@ -56,7 +56,7 @@ IDiaStackFrame : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 이 인터페이스를 호출 하 여 가져올는 [idiaenumstackframes:: Next](../../debugger/debug-interface-access/idiaenumstackframes-next.md) 메서드. 참조를 [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md) 얻는 방법에 예제에 대 한 인터페이스를 `IDiaStackFrame` 인터페이스입니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제는 스택 프레임의 다양 한 특성을 표시합니다.
 
 ```C++
@@ -108,7 +108,7 @@ void PrintStackFrame(IDiaStackFrame* pFrame)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)  
-[IDiaEnumStackFrames::Next](../../debugger/debug-interface-access/idiaenumstackframes-next.md)  
-[IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)
+- [IDiaEnumStackFrames::Next](../../debugger/debug-interface-access/idiaenumstackframes-next.md)
+- [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)

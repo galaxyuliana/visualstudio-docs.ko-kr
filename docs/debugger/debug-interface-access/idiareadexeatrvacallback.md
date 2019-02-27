@@ -12,43 +12,43 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c6a190cecdfbf9d7ae77543d8a955a52a3f16d15
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c86a0e995e3336bc217bcc9ad0e7ce28a6434478
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55070632"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56597142"
 ---
 # <a name="idiareadexeatrvacallback"></a>IDiaReadExeAtRVACallback
-클라이언트 응용 프로그램을 상대 가상 주소에 지정 된 대로 실행 파일의 바이트를 제공할 수 있습니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```  
-IDiaReadExeAtRVACallback : IUnknown  
-```  
-  
-## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
- 다음 표에서의 메서드를 보여 줍니다. `IDiaReadExeAtRVACallback`합니다.  
-  
-|메서드|설명|  
-|------------|-----------------|  
-|[IDiaReadExeAtRVACallback::ReadExecutableAtRVA](../../debugger/debug-interface-access/idiareadexeatrvacallback-readexecutableatrva.md)|지정된 된 상대 가상 주소에 (RVA) 실행 파일에서 시작 하는 바이트의 지정 된 수를 읽습니다.|  
-  
-## <a name="remarks"></a>주의  
- 클라이언트 응용 프로그램 실행 파일의 파일에 상대 가상 주소를 사용 하 여 실행 파일의 바이트를 제공 하기 위해이 인터페이스를 구현 합니다. 절대 파일 오프셋을 사용 하려면 구현 합니다 [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md) 인터페이스입니다.  
-  
-## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 이 메서드는 클라이언트 응용 프로그램에서 구현 되 고 전달 된 [idiadatasource:: Loaddataforexe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) 파일을 읽는 데 다른 메서드로 메서드.  
-  
-## <a name="requirements"></a>요구 사항  
- 헤더: Dia2.h  
-  
- 라이브러리: diaguids.lib  
-  
- DLL: msdia80.dll  
-  
-## <a name="see-also"></a>참고 항목  
- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
- [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)   
- [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md)
+클라이언트 응용 프로그램을 상대 가상 주소에 지정 된 대로 실행 파일의 바이트를 제공할 수 있습니다.
+
+## <a name="syntax"></a>구문
+
+```
+IDiaReadExeAtRVACallback : IUnknown
+```
+
+## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드
+ 다음 표에서의 메서드를 보여 줍니다. `IDiaReadExeAtRVACallback`합니다.
+
+|메서드|설명|
+|------------|-----------------|
+|[IDiaReadExeAtRVACallback::ReadExecutableAtRVA](../../debugger/debug-interface-access/idiareadexeatrvacallback-readexecutableatrva.md)|지정된 된 상대 가상 주소에 (RVA) 실행 파일에서 시작 하는 바이트의 지정 된 수를 읽습니다.|
+
+## <a name="remarks"></a>주의
+ 클라이언트 응용 프로그램 실행 파일의 파일에 상대 가상 주소를 사용 하 여 실행 파일의 바이트를 제공 하기 위해이 인터페이스를 구현 합니다. 절대 파일 오프셋을 사용 하려면 구현 합니다 [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md) 인터페이스입니다.
+
+## <a name="notes-for-callers"></a>호출자에 대 한 정보
+ 이 메서드는 클라이언트 응용 프로그램에서 구현 되 고 전달 된 [idiadatasource:: Loaddataforexe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) 파일을 읽는 데 다른 메서드로 메서드.
+
+## <a name="requirements"></a>요구 사항
+ 헤더: Dia2.h
+
+ 라이브러리: diaguids.lib
+
+ DLL: msdia80.dll
+
+## <a name="see-also"></a>참고 항목
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
+- [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md)

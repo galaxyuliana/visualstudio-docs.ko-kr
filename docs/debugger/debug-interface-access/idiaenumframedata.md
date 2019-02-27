@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eea2b3e903e3311773bc1fcfe9df7d67949dc5e5
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: db06efe400106260556d8eab5fd644bbfc27f0c2
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155568"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56645059"
 ---
 # <a name="idiaenumframedata"></a>IDiaEnumFrameData
 데이터 원본에 포함 된 다양 한 프레임 데이터 요소를 열거 합니다.
@@ -48,7 +48,7 @@ IDiaEnumFrameData : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 이 인터페이스를 가져올는 [idiasession:: Getenumtables](../../debugger/debug-interface-access/idiasession-getenumtables.md) 메서드. 세부 정보에 대 한 예제를 참조 하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 가져오는 방법을 보여 줍니다 (를 `GetEnumFrameData` 함수) 사용 하 여 (합니다 `ShowFrameData` 함수)는 `IDiaEnumFrameData` 인터페이스. 참조 된 [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) 인터페이스의 예는 `PrintFrameData` 함수입니다.
 
 ```C++
@@ -95,7 +95,7 @@ void ShowFrameData(IDiaSession *pSession)
             PrintFrameData(pFrameData);
             pFrameData->Release();
         }
-        pEnumFrameData->Release(); 
+        pEnumFrameData->Release();
     }
 }
 ```
@@ -108,6 +108,6 @@ void ShowFrameData(IDiaSession *pSession)
 **DLL:** msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)  
-[IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

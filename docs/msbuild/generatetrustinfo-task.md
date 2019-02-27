@@ -16,30 +16,30 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3a476027333b648d175dbe54c487dd2081aecae7
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9eda4e54c67a9e9e80b4fd8f59266bc4bc5f27a4
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54978102"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56643901"
 ---
 # <a name="generatetrustinfo-task"></a>GenerateTrustInfo 작업
-기본 매니페스트, `TargetZone` 및 `ExcludedPermissions` 매개 변수에서 애플리케이션 신뢰를 생성합니다.  
-  
-## <a name="parameters"></a>매개 변수  
- 다음 표에서는 `GenerateTrustInfo` 작업의 매개 변수에 대해 설명합니다.  
-  
-|매개 변수|설명|  
-|---------------|-----------------|  
-|`ApplicationDependencies`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 종속 어셈블리를 지정합니다.|  
-|`BaseManifest`|선택적 <xref:Microsoft.Build.Framework.ITaskItem> 매개 변수입니다.<br /><br /> 애플리케이션 신뢰를 생성할 기본 매니페스트를 지정합니다.|  
-|`ExcludedPermissions`|선택적 `String` 매개 변수입니다.<br /><br /> 영역 기본 권한 집합에서 제외할 하나 이상의 세미콜론으로 구분된 권한 ID 값을 지정합니다.|  
-|`TargetZone`|선택적 `String` 매개 변수입니다.<br /><br /> 컴퓨터 정책에서 가져온 영역 기본 권한 집합을 지정합니다.|  
-|`TrustInfoFile`|필수 <xref:Microsoft.Build.Framework.ITaskItem> 출력 매개 변수입니다.<br /><br /> 애플리케이션 보안 신뢰 정보가 포함된 파일을 지정합니다.|  
-  
-## <a name="remarks"></a>주의  
- 이 작업은 표에 나열된 매개 변수 외에, <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.  
-  
-## <a name="see-also"></a>참고 항목  
- [작업](../msbuild/msbuild-tasks.md)   
- [작업 참조](../msbuild/msbuild-task-reference.md)
+기본 매니페스트, `TargetZone` 및 `ExcludedPermissions` 매개 변수에서 애플리케이션 신뢰를 생성합니다.
+
+## <a name="parameters"></a>매개 변수
+ 다음 표에서는 `GenerateTrustInfo` 작업의 매개 변수에 대해 설명합니다.
+
+|매개 변수|설명|
+|---------------|-----------------|
+|`ApplicationDependencies`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 종속 어셈블리를 지정합니다.|
+|`BaseManifest`|선택적 <xref:Microsoft.Build.Framework.ITaskItem> 매개 변수입니다.<br /><br /> 애플리케이션 신뢰를 생성할 기본 매니페스트를 지정합니다.|
+|`ExcludedPermissions`|선택적 `String` 매개 변수입니다.<br /><br /> 영역 기본 권한 집합에서 제외할 하나 이상의 세미콜론으로 구분된 권한 ID 값을 지정합니다.|
+|`TargetZone`|선택적 `String` 매개 변수입니다.<br /><br /> 컴퓨터 정책에서 가져온 영역 기본 권한 집합을 지정합니다.|
+|`TrustInfoFile`|필수 <xref:Microsoft.Build.Framework.ITaskItem> 출력 매개 변수입니다.<br /><br /> 애플리케이션 보안 신뢰 정보가 포함된 파일을 지정합니다.|
+
+## <a name="remarks"></a>주의
+ 이 작업은 표에 나열된 매개 변수 외에, <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
+
+## <a name="see-also"></a>참고 항목
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5e18484154e3fd1664eae1ccbdd5fd787d3d1c3b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9d3021aef3f9a2e11849991327a6ef8783b62439
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54960830"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56636818"
 ---
 # <a name="noise-reduction-percentage"></a>노이즈 감소 백분율
 기본적으로 노이즈 감소 백분율 설정의 값은 2입니다. 이 설정보다 크거나 같은 포괄 시간의 백분율을 갖는 항목만 호출 트리에 표시됩니다. 설정을 변경하여 호출 트리에 표시되는 항목의 수를 제어할 수 있습니다. 예를 들어 값을 10으로 변경하면 10%보다 크거나 같은 포괄 시간을 가진 호출 트리 항목만 표시됩니다. 설정의 값을 늘려 프로세스의 성능에 큰 영향을 주는 항목에만 집중할 수 있습니다.

@@ -12,37 +12,39 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5dea61b14cdee1ac260e4a21db0056abbdcad74f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f365578aba73ed94bdcd1d87801fc53030cfecdb
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54977384"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56616016"
 ---
 # <a name="idiapropertystoragereadulonglong"></a>IDiaPropertyStorage::ReadULONGLONG
-읽고 `ULONGLONG` 속성 집합의 값입니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT ReadULONGLONG (   
-   PROPID     id,  
-   ULONGLONG* pValue  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `id`  
- [in] 읽을 속성의 식별자 (`PROPID` 으로 WTypes.h에 정의 된 `ULONG`).  
-  
- `pValue`  
- [out] 속성 값을 반환 합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_INVALIDARG` 형식의 속성이 없는 경우 `ULONGLONG`합니다.  
-  
-## <a name="remarks"></a>주의  
- `ULONGLONG` Windows 64 비트 부호 없는 정수로 정의 됩니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)
+읽고 `ULONGLONG` 속성 집합의 값입니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT ReadULONGLONG ( 
+   PROPID     id,
+   ULONGLONG* pValue
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `id`
+
+[in] 읽을 속성의 식별자 (`PROPID` 으로 WTypes.h에 정의 된 `ULONG`).
+
+ `pValue`
+
+[out] 속성 값을 반환 합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_INVALIDARG` 형식의 속성이 없는 경우 `ULONGLONG`합니다.
+
+## <a name="remarks"></a>주의
+ `ULONGLONG` Windows 64 비트 부호 없는 정수로 정의 됩니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

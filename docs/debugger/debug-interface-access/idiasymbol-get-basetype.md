@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c2844003bf7ec81b256537fe06520dfdff473faa
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: e1d38e39fd7687de3ff87737b49972cb389187aa
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227279"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56640170"
 ---
 # <a name="idiasymbolgetbasetype"></a>IDiaSymbol::get_baseType
 이 기호에 대 한 기본 형식을 검색<em>합니다.</em>
@@ -31,7 +31,8 @@ HRESULT get_baseType (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`pRetVal`  
+`pRetVal`
+
 [out] 값을 반환 합니다 [BasicType 열거형](../../debugger/debug-interface-access/basictype.md) 기호의 기본 형식을 지정 하는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
@@ -43,7 +44,7 @@ HRESULT get_baseType (
 ## <a name="remarks"></a>주의
 기호에 대 한 기본 형식은 먼저 기호의 형식을 가져오고 다음 기본 형식에 대 한 형식을 반환 하는 조회 하 여 확인할 수 있습니다. 참고 일부 기호는 기본 형식에 없을 수 있습니다-예를 들어 구조 이름입니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```C++
 IDiaSymbol* pType;
@@ -66,6 +67,6 @@ if (pType->get_type( &pBaseType ) == S_OK)
 |버전:|DIA SDK v7.0|
 
 ## <a name="see-also"></a>참고 항목
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
-[BasicType 열거형](../../debugger/debug-interface-access/basictype.md)  
-[IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [BasicType 열거형](../../debugger/debug-interface-access/basictype.md)
+- [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9a2978d9248193cf554f23701c1d04a33459091a
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 2e8956fb7da61519ed9d0939da087ce8a4181ac1
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56226611"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56643810"
 ---
 # <a name="idiainjectedsource"></a>IDiaInjectedSource
 액세스는 DIA 데이터 원본에 저장 하는 소스 코드를 삽입 합니다.
@@ -47,7 +47,7 @@ IDiaInjectedSource : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 호출 하 여이 인터페이스를 가져올는 [idiaenuminjectedsources:: Item](../../debugger/debug-interface-access/idiaenuminjectedsources-item.md) 하거나 [idiaenuminjectedsources:: Next](../../debugger/debug-interface-access/idiaenuminjectedsources-next.md) 메서드. 참조 된 [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) 가져오는 예제에 대 한 인터페이스를 `IDiaInjectedSource` 인터페이스입니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 사용 가능한 데이터를 표시 하는이 예제는 `IDiaInjectedSource` 인터페이스입니다. 사용 하는 또 다른 방법은 합니다 [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md) 인터페이스의 예제를 참조 하십시오 합니다 [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) 인터페이스입니다.
 
 ```C++
@@ -120,7 +120,7 @@ void PrintInjectedSource(IDiaInjectedSource* pSource)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaEnumInjectedSources::Item](../../debugger/debug-interface-access/idiaenuminjectedsources-item.md)  
-[IDiaEnumInjectedSources::Next](../../debugger/debug-interface-access/idiaenuminjectedsources-next.md)  
-[IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaEnumInjectedSources::Item](../../debugger/debug-interface-access/idiaenuminjectedsources-item.md)
+- [IDiaEnumInjectedSources::Next](../../debugger/debug-interface-access/idiaenuminjectedsources-next.md)
+- [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

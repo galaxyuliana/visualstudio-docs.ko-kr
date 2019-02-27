@@ -12,30 +12,31 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bdf9d5c24e175a3c12084330e01313da1d13b3c2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f8505556e814493078bcd3944768011a2405510c
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55040093"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56630576"
 ---
 # <a name="idiastackframegetlengthparams"></a>IDiaStackFrame::get_lengthParams
-스택에 푸시된 매개 변수는 바이트 수를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_lengthParams (   
-   DWORD* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 매개 변수는 바이트 수를 반환합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 속성이 지원 되지 않는 경우. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+스택에 푸시된 매개 변수는 바이트 수를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_lengthParams ( 
+   DWORD* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 매개 변수는 바이트 수를 반환합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 속성이 지원 되지 않는 경우. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
