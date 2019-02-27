@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b9680087162cbfa89e12cb7d9b44d7079cba4ef2
-ms.sourcegitcommit: b623042906de4f12d68af365e36eb38b7b44aa90
+ms.openlocfilehash: 6bc8879dbc515f7f779308db0b745ce5bb5afc50
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56270656"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56607410"
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio"></a>Visual Studio의 기본 바로 가기 키
 
@@ -807,8 +807,8 @@ ms.locfileid: "56270656"
 | 편집.선택영역숨기기 | **Ctrl+M, Ctrl+H** |
 | 편집.필터수준높임 | **Alt+.** |
 | 편집.증분검색 | **Ctrl+I** |
-| Edit.InsertCaretsatAllMatching | **Shift+Alt+;** | 
-| Edit.InsertNextMatchingCaret | **Shift+Alt+.** | 
+| Edit.InsertCaretsatAllMatching | **Shift+Alt+;** |
+| Edit.InsertNextMatchingCaret | **Shift+Alt+.** |
 | 편집.탭삽입 | **Tab** |
 | 편집.줄잘라내기 | **Ctrl+L** |
 | 편집.줄삭제 | **Ctrl+Shift+L** |

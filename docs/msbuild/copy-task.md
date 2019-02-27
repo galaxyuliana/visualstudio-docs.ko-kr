@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7f974cde33103f86aa7330600e87c856119f537c
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: d996aa0c16c67cfdda23a1ecb63adcbb32d02b15
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853549"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56596297"
 ---
 # <a name="copy-task"></a>Copy 작업
 파일 시스템의 새 위치에 파일을 복사합니다.
@@ -70,7 +70,7 @@ ms.locfileid: "55853549"
 
 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 `MySourceFiles` 항목 컬렉션의 항목을 *c:\MyProject\Destination* 폴더로 복사합니다.
 
 ```xml
@@ -90,7 +90,7 @@ ms.locfileid: "55853549"
 </Project>
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 재귀적 복사를 수행하는 방법을 보여 줍니다. 이 프로젝트는 디렉터리 구조를 유지하면서 *c:\MySourceTree*의 모든 파일을 재귀적으로 *c:\MyDestinationTree*에 복사합니다.
 
 ```xml
@@ -111,5 +111,5 @@ ms.locfileid: "55853549"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[작업](../msbuild/msbuild-tasks.md)  
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

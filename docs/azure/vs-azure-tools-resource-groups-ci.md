@@ -4,19 +4,19 @@ description: Visual Studio에서 Azure 리소스 그룹 배포 프로젝트를 �
 author: mlearned
 manager: jillfra
 ms.assetid: b81c172a-be87-4adc-861e-d20b94be9e38
-ms.service: azure-resource-manager
 ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 08/01/2016
 ms.author: mlearned
-ms.openlocfilehash: bbe4fc4f59527b73b46d95f70541202f87ffab4e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c91b52d10e3692be600bdee3a0e2dd60182f0668
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55140588"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841794"
 ---
 # <a name="continuous-integration-in-azure-devops-services-using-azure-resource-group-deployment-projects"></a>Azure 리소스 그룹 배포 프로젝트를 사용하여 Azure DevOps Services에서 연속 통합
+
 Azure 템플릿을 배포하려면 다음과 같은 다양한 단계로 작업을 수행합니다. 빌드, 테스트, Azure에 복사("준비"라고도 함), 템플릿 배포. Azure DevOps Services에 템플릿을 배포하는 두 가지 방법이 있습니다. 두 방법 모두 결과는 같으므로 사용자의 워크플로에 가장 적합한 방법을 선택하면 됩니다.
 
 1. Azure 리소스 그룹 배포 프로젝트(Deploy-AzureResourceGroup.ps1)에 포함된 PowerShell 스크립트를 실행하는 한 단계를 빌드 파이프라인에 추가합니다. 이 스크립트는 아티팩트를 복사한 뒤 템플릿을 배포합니다.

@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f0d270afeb4c0c0404ae83bbaa51938d7c741965
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: ce0e95a72c6c2400f5ac245f3ac4741423194c68
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069865"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56618239"
 ---
 # <a name="msbuild"></a>MSBuild
 [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]은 애플리케이션을 빌드하기 위한 플랫폼입니다. MSBuild라고도 하는 이 엔진은 빌드 플랫폼에서 소프트웨어를 처리하고 빌드하는 방법을 제어하는 프로젝트 파일에 대한 XML 스키마를 제공합니다. Visual Studio는 MSBuild를 사용하지만 Visual Studio에 종속되지 않습니다. 프로젝트 또는 솔루션 파일에서 *msbuild.exe*를 호출하여 Visual Studio가 설치되지 않은 환경에서 제품을 조정하고 빌드할 수 있습니다.
@@ -183,6 +183,6 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 | [추가 리소스](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild) | MSBuild에 대한 자세한 정보를 볼 수 있는 커뮤니티 및 지원 리소스를 나열합니다. |
 
 ## <a name="reference"></a>참조
- 참조 정보를 포함하는 항목에 대한 [MSBuild 참조](../msbuild/msbuild-reference.md) 링크입니다.
+- 참조 정보를 포함하는 항목에 대한 [MSBuild 참조](../msbuild/msbuild-reference.md) 링크입니다.
 
- [용어집](msbuild-glossary.md)은 일반적인 MSBuild 용어를 정의합니다.
+- [용어집](msbuild-glossary.md)은 일반적인 MSBuild 용어를 정의합니다.

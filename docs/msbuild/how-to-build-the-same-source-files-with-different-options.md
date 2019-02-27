@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4e07ed209b0e2fee460bd43e2a588a8deb25eeb1
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 8cb678a05b9301982b4842d272c3032cafa46a87
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55854072"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610127"
 ---
 # <a name="how-to-build-the-same-source-files-with-different-options"></a>방법: 다른 옵션을 사용하여 동일한 원본 파일 빌드
 프로젝트를 빌드할 때 같은 구성 요소를 서로 다른 빌드 옵션으로 자주 컴파일하게 됩니다. 예를 들어 기호 정보가 포함된 디버그 빌드를 만들거나 기호 정보가 없지만 최적화가 사용하도록 설정된 릴리스 빌드를 만들 수 있습니다. x86 또는 [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)] 등의 특정 플랫폼에서 실행되는 프로젝트를 빌드할 수도 있습니다. 이러한 모든 경우에 대부분의 빌드 옵션은 동일하게 유지되고, 빌드 구성을 제어하기 위해 몇 가지 옵션만 변경됩니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]를 통해 속성과 조건을 사용하여 다양한 빌드 구성을 만듭니다.
@@ -84,7 +84,7 @@ ms.locfileid: "55854072"
 
   프로젝트 태그에서 `TreatAsLocalProperty` 특성을 사용하여 이 동작을 변경할 수 있습니다. 해당 특성을 통해 나열된 속성 이름의 경우 명령줄에서 지정된 속성 값이 프로젝트 파일의 값보다 우선 적용되지 않습니다. 이 항목의 뒷부분에 있는 예제를 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 코드 예제 "Hello World" 프로젝트에는 디버그 빌드 및 릴리스 빌드를 만드는 데 사용할 수 있는 새로운 두 가지 속성 그룹이 포함됩니다.
 
 이 프로젝트의 디버그 버전을 빌드하려면 다음을 입력합니다.
@@ -151,7 +151,7 @@ msbuild consolehwcs1.proj -p:flavor=retail
 </Project>
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 `TreatAsLocalProperty` 특성을 사용하는 방법을 보여 줍니다. `Color` 속성에는 프로젝트 파일의 `Blue` 값 및 명령줄의 `Green` 값이 포함됩니다. 프로젝트 태그의 `TreatAsLocalProperty="Color"`를 사용하면 명령줄 속성(`Green`)이 프로젝트 파일에 정의된 속성(`Blue`)을 재정의하지 않습니다.
 
 프로젝트를 빌드하려면 다음 명령을 입력합니다.
@@ -183,7 +183,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 ```
 
 ## <a name="see-also"></a>참고 항목
-[MSBuild](../msbuild/msbuild.md)  
-[MSBuild 개념](../msbuild/msbuild-concepts.md)  
-[MSBuild 참조](../msbuild/msbuild-reference.md)  
-[Project 요소(MSBuild)](../msbuild/project-element-msbuild.md)
+- [MSBuild](../msbuild/msbuild.md)
+- [MSBuild 개념](../msbuild/msbuild-concepts.md)
+- [MSBuild 참조](../msbuild/msbuild-reference.md)
+- [Project 요소(MSBuild)](../msbuild/project-element-msbuild.md)

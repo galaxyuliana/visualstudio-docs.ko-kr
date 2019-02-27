@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1357c598b2a30f390372ed9630b044c951172531
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: ef9759c5a422a0b67cdb9e8f7dde565b732958dd
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853718"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610258"
 ---
 # <a name="exec-task"></a>Exec 작업
 지정된 인수를 사용하여 지정한 프로그램 또는 명령을 실행합니다.
@@ -54,7 +54,7 @@ ms.locfileid: "55853718"
 
 이 작업은 이 문서에 나와 있는 매개 변수 외에도 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 `Exec` 작업을 사용하여 명령을 실행합니다.
 
 ```xml
@@ -71,5 +71,5 @@ ms.locfileid: "55853718"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[작업](../msbuild/msbuild-tasks.md)  
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

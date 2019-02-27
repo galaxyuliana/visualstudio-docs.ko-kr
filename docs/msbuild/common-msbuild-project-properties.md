@@ -18,20 +18,20 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e16cf15e4c2f201c76fba72f547b939ce883ad2d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 103503b5f35d335867b4f5a9b0b76d7c3e6ed20e
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55020882"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610608"
 ---
 # <a name="common-msbuild-project-properties"></a>일반적인 MSBuild 프로젝트 속성
-다음 표에서는 Visual Studio 프로젝트 파일에 정의되거나 MSBuild가 제공하는 *.targets* 파일에 포함된 자주 사용하는 속성을 보여 줍니다.  
-  
- Visual Studio의 프로젝트 파일(*.csproj*, *.vbproj*, *.vcxproj* 등)은 IDE를 사용하여 프로젝트를 빌드할 때 실행하는 MSBuild XML 코드를 포함합니다. 일반적으로 프로젝트에서는 하나 이상의 *.targets* 파일을 가져와서 빌드 프로세스를 정의합니다. 자세한 내용은 [MSBuild .targets 파일](../msbuild/msbuild-dot-targets-files.md)을 참조하세요.  
-  
-## <a name="list-of-common-properties-and-parameters"></a>공용 속성 및 매개 변수 목록  
-  
+다음 표에서는 Visual Studio 프로젝트 파일에 정의되거나 MSBuild가 제공하는 *.targets* 파일에 포함된 자주 사용하는 속성을 보여 줍니다.
+
+ Visual Studio의 프로젝트 파일(*.csproj*, *.vbproj*, *.vcxproj* 등)은 IDE를 사용하여 프로젝트를 빌드할 때 실행하는 MSBuild XML 코드를 포함합니다. 일반적으로 프로젝트에서는 하나 이상의 *.targets* 파일을 가져와서 빌드 프로세스를 정의합니다. 자세한 내용은 [MSBuild .targets 파일](../msbuild/msbuild-dot-targets-files.md)을 참조하세요.
+
+## <a name="list-of-common-properties-and-parameters"></a>공용 속성 및 매개 변수 목록
+
 | 속성 또는 매개 변수 이름 | 설명 |
 |------------------------------------| - |
 | AdditionalLibPaths | 컴파일러에서 참조 어셈블리를 조회해야 하는 추가 폴더를 지정합니다. |
@@ -128,6 +128,6 @@ ms.locfileid: "55020882"
 | WarningsNotAsErrors | 오류로 처리하지 않을 경고 목록을 지정합니다. 이 매개 변수는 `/warnaserror` 컴파일러 스위치와 동일합니다. |
 | Win32Manifest | 최종 어셈블리에 포함해야 하는 매니페스트 파일의 이름입니다. 이 매개 변수는 `/win32Manifest` 컴파일러 스위치와 동일합니다. |
 | Win32Resource | 최종 어셈블리에 포함할 Win32 리소스의 파일 이름입니다. 이 매개 변수는 `/win32resource` 컴파일러 스위치와 동일합니다. |
-  
-## <a name="see-also"></a>참고 항목  
- [일반적인 MSBuild 프로젝트 항목](../msbuild/common-msbuild-project-items.md)
+
+## <a name="see-also"></a>참고 항목
+- [일반적인 MSBuild 프로젝트 항목](../msbuild/common-msbuild-project-items.md)

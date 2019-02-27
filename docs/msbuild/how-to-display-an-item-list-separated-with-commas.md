@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 531bd7877a6bfc2f1300a7a397556c9e24d84654
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: b01e39569207065fac9c28d093267348a829d73f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853432"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610465"
 ---
 # <a name="how-to-display-an-item-list-separated-with-commas"></a>방법: 항목 목록을 쉼표로 구분하여 표시
 [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)])에서 항목 목록을 사용할 때 쉽게 읽을 수 있는 방식으로 해당 항목 목록의 내용을 표시하는 데 유용합니다. 또는 특별한 구분 기호 문자열로 구분된 항목의 목록을 사용하는 작업이 있을 수 있습니다. 이러한 모든 경우에 항목 목록에 대한 구분 기호 문자열을 지정할 수 있습니다.
@@ -42,7 +42,7 @@ ms.locfileid: "55853432"
 
     `@(TXTFile, ', ')`
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서 [Exec](../msbuild/exec-task.md) 작업은 findstr 도구를 실행하여 *Phrases.txt* 파일에 지정된 텍스트 문자열을 찾습니다. findstr 명령에서 리터럴 검색 문자열은 **-c:** 스위치로 나타나므로 항목 구분 기호 `-c:`는 `@(Phrase)` 항목 목록에 있는 항목 사이에 삽입됩니다.
 
 이 예제에서 해당하는 명령줄 명령은 다음과 같습니다.
@@ -67,5 +67,5 @@ ms.locfileid: "55853432"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[MSBuild 참조](../msbuild/msbuild-reference.md)  
-[항목](../msbuild/msbuild-items.md)
+- [MSBuild 참조](../msbuild/msbuild-reference.md)
+- [항목](../msbuild/msbuild-items.md)

@@ -20,71 +20,71 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9996ee8c3b1cf8a6298ad21d0ae0058d90f78b64
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8e83f21ab05e298635c13f8e2bddb72520459ab1
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54963829"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56631174"
 ---
 # <a name="xsd-task"></a>XSD 작업
-소스에서 스키마 또는 클래스 파일을 생성하는 XML 스키마 정의 도구(*xsd.exe*)를 래핑합니다.  
+소스에서 스키마 또는 클래스 파일을 생성하는 XML 스키마 정의 도구(*xsd.exe*)를 래핑합니다.
 
 > [!NOTE]
-> Visual Studio 2017에서 *xsd.exe*에 대한 C++ 프로젝트 지원이 사용되지 않습니다. *CppCodeProvider.dll*을 수동으로 GAC에 추가하여 **Microsoft.VisualC.CppCodeProvider** API를 계속 사용할 수 있습니다. 
-  
-## <a name="parameters"></a>매개 변수  
- 다음 표에서는 **XSD** 작업의 매개 변수에 대해 설명합니다.  
-  
--   **AdditionalOptions**  
-  
-     선택적 **문자열** 매개 변수입니다.  
-  
-     명령줄에 지정된 것처럼 옵션 목록입니다. 예: /\<option1> /\<option2> /\<option#>. 이 매개 변수를 사용하여 다른 **XSD** 작업 매개 변수로 표현되지 않는 옵션을 지정합니다.  
-  
--   **GenerateFromSchema**  
-  
-     선택적 **문자열** 매개 변수입니다.  
-  
-     지정한 스키마에서 생성되는 유형을 지정합니다.  
-  
-     각각 XSD 옵션에 해당하는 다음 값 중 하나를 지정합니다.  
-  
-    -   **클래스** - **/classes**  
-  
-    -   **데이터 세트** - **/dataset**  
-  
--   **언어**  
-  
-     선택적 **String** 매개 변수입니다.  
-  
-     생성된 코드에 사용할 프로그래밍 언어를 지정합니다.  
-  
-     **CS**(C#, 기본값), **VB**(Visual Basic) 또는 **JS**(JScript) 중에서 선택합니다. `System.CodeDom.Compiler.CodeDomProvider Class`를 구현하는 클래스의 정규화된 이름을 지정할 수도 있습니다.  
-  
--   **Namespace**  
-  
-     선택적 **문자열** 매개 변수입니다.  
-  
-     생성된 형식에 대한 런타임 네임스페이스를 지정합니다.  
-  
--   **Sources**  
-  
-     필수 `ITaskItem[]` 매개 변수입니다.  
-  
-     작업에서 사용하고 내보낼 수 있는 MSBuild 소스 파일 항목의 배열을 정의합니다.  
-  
--   **SuppressStartupBanner**  
-  
-     선택적 **Boolean** 매개 변수입니다.  
-  
-     `true`인 경우 작업을 시작할 때 저작권과 버전 번호 메시지가 표시되지 않도록 합니다.  
-  
--   **TrackerLogDirectory**  
-  
-     선택적 **문자열** 매개 변수입니다.  
-  
-     추적기 로그용 디렉터리를 지정합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [작업 참조](../msbuild/msbuild-task-reference.md)
+> Visual Studio 2017에서 *xsd.exe*에 대한 C++ 프로젝트 지원이 사용되지 않습니다. *CppCodeProvider.dll*을 수동으로 GAC에 추가하여 **Microsoft.VisualC.CppCodeProvider** API를 계속 사용할 수 있습니다.
+
+## <a name="parameters"></a>매개 변수
+ 다음 표에서는 **XSD** 작업의 매개 변수에 대해 설명합니다.
+
+-   **AdditionalOptions**
+
+     선택적 **문자열** 매개 변수입니다.
+
+     명령줄에 지정된 것처럼 옵션 목록입니다. 예: /\<option1> /\<option2> /\<option#>. 이 매개 변수를 사용하여 다른 **XSD** 작업 매개 변수로 표현되지 않는 옵션을 지정합니다.
+
+-   **GenerateFromSchema**
+
+     선택적 **문자열** 매개 변수입니다.
+
+     지정한 스키마에서 생성되는 유형을 지정합니다.
+
+     각각 XSD 옵션에 해당하는 다음 값 중 하나를 지정합니다.
+
+    -   **클래스** - **/classes**
+
+    -   **데이터 세트** - **/dataset**
+
+-   **언어**
+
+     선택적 **String** 매개 변수입니다.
+
+     생성된 코드에 사용할 프로그래밍 언어를 지정합니다.
+
+     **CS**(C#, 기본값), **VB**(Visual Basic) 또는 **JS**(JScript) 중에서 선택합니다. `System.CodeDom.Compiler.CodeDomProvider Class`를 구현하는 클래스의 정규화된 이름을 지정할 수도 있습니다.
+
+-   **Namespace**
+
+     선택적 **문자열** 매개 변수입니다.
+
+     생성된 형식에 대한 런타임 네임스페이스를 지정합니다.
+
+-   **Sources**
+
+     필수 `ITaskItem[]` 매개 변수입니다.
+
+     작업에서 사용하고 내보낼 수 있는 MSBuild 소스 파일 항목의 배열을 정의합니다.
+
+-   **SuppressStartupBanner**
+
+     선택적 **Boolean** 매개 변수입니다.
+
+     `true`인 경우 작업을 시작할 때 저작권과 버전 번호 메시지가 표시되지 않도록 합니다.
+
+-   **TrackerLogDirectory**
+
+     선택적 **문자열** 매개 변수입니다.
+
+     추적기 로그용 디렉터리를 지정합니다.
+
+## <a name="see-also"></a>참고 항목
+- [작업 참조](../msbuild/msbuild-task-reference.md)

@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: d29c23873bc22172e73c5bf8db0789177b8e9f75
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 50ebaad52473eaccb39d8253e9af5fbb9f4a3cbf
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919276"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56596740"
 ---
 # <a name="debug-or-disable-project-code-in-xaml-designer"></a>XAML 디자이너에서 프로젝트 코드 디버그 또는 사용하지 않도록 설정
 
@@ -47,7 +47,7 @@ ms.locfileid: "55919276"
 
 2.  Windows 작업 관리자에서 **작업 끝내기** 단추를 선택하여 현재 실행 중인 Visual Studio XAML 디자이너의 모든 인스턴스를 닫습니다.
 
-     ![작업 관리자의 XAML 디자이너 인스턴스](../designers/media/xaml_taskmanager.png)
+     ![태스크 관리자의 XAML 디자이너 인스턴스](../designers/media/xaml_taskmanager.png)
 
 3.  Visual Studio에서 디버그하려는 코드 또는 컨트롤이 포함된 XAML 페이지를 엽니다.
 
@@ -88,7 +88,7 @@ ms.locfileid: "55919276"
 ## <a name="control-display-options"></a>컨트롤 표시 옵션
 
 > [!NOTE]
-> **컨트롤 표시 옵션**은 Windows 10 Fall Creators Update(빌드 16299) 이상을 대상으로 하는 유니버설 Windows 플랫폼 애플리케이션에만 사용할 수 있습니다. **컨트롤 표시 옵션** 기능은 Visual Studio 2017 버전 15.9 이상에서 사용할 수 있습니다. 
+> **컨트롤 표시 옵션**은 Windows 10 Fall Creators Update(빌드 16299) 이상을 대상으로 하는 유니버설 Windows 플랫폼 애플리케이션에만 사용할 수 있습니다. **컨트롤 표시 옵션** 기능은 Visual Studio 2017 버전 15.9 이상에서 사용할 수 있습니다.
 
 XAML 디자이너에서 Windows SDK의 플랫폼 컨트롤만 표시하도록 컨트롤 표시 옵션을 변경할 수 있습니다. 이로 인해 XAML 디자이너의 안정성이 향상될 수 있습니다.
 

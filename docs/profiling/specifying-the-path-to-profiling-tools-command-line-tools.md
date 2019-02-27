@@ -8,28 +8,28 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a42774d2f91afe0e3b469a97a17763950b4bdc2e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c89e741e4f854f0426a3b3908b896a8908325684
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54968127"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56634814"
 ---
 # <a name="specify-the-path-to-profiling-tools-command-line-tools"></a>프로파일링 도구 명령줄 도구의 경로 지정
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구의 경로가 PATH 환경 변수에 추가되지 않았습니다. 32비트 컴퓨터에는 도구가 단일 디렉터리에 있습니다. 64비트 컴퓨터에는 프로파일링 도구가 32비트 및 64비트 버전으로 있습니다.  
-  
-## <a name="32-bit-computers"></a>32비트 컴퓨터  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구의 경로가 PATH 환경 변수에 추가되지 않았습니다. 32비트 컴퓨터에는 도구가 단일 디렉터리에 있습니다. 64비트 컴퓨터에는 프로파일링 도구가 32비트 및 64비트 버전으로 있습니다.
+
+## <a name="32-bit-computers"></a>32비트 컴퓨터
  네이티브 코드의 경우 Visual Studio 프로파일러 API는 *VSPerf.dll*에 있습니다. 헤더 파일, *VSPerf.h* 및 가져오기 라이브러리, *VSPerf.lib*는 *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK* 디렉터리에 있습니다.
-  
+
  관리되는 코드의 경우 프로파일러 API는 *Microsoft.VisualStudio.Profiler.dll*에 있습니다. 이 DLL은 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* 디렉터리에 있습니다.
-  
-## <a name="64-bit-computers"></a>64비트 컴퓨터  
- 64비트 컴퓨터에서 프로파일링된 응용 프로그램의 대상 플랫폼에 따라 경로를 지정합니다.  
-  
--   32비트 애플리케이션의 경우 기본 프로파일러 도구 디렉터리는 다음과 같습니다.  
-  
-     (네이티브) *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK* (관리) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools*  
-  
--   64비트 애플리케이션의 경우 기본 프로파일러 도구가 위치한 디렉터리는 다음과 같습니다.  
-  
+
+## <a name="64-bit-computers"></a>64비트 컴퓨터
+ 64비트 컴퓨터에서 프로파일링된 응용 프로그램의 대상 플랫폼에 따라 경로를 지정합니다.
+
+-   32비트 애플리케이션의 경우 기본 프로파일러 도구 디렉터리는 다음과 같습니다.
+
+     (네이티브) *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK* (관리) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools*
+
+-   64비트 애플리케이션의 경우 기본 프로파일러 도구가 위치한 디렉터리는 다음과 같습니다.
+
      (네이티브) *Microsoft Visual Studio\2017\Team Tools\Performance Tools\x64\PerfSDK* (관리) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*

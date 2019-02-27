@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 20178ee5b241f1748ac7d0467f10ff571db0df96
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: b836a0fef26f34e83f7238ebe4f6c64731b84257
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853406"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610361"
 ---
 # <a name="getframeworkpath-task"></a>GetFrameworkPath 작업
 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 어셈블리에 대한 경로를 검색합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "55853406"
 
 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 `GetFrameworkPath` 작업을 사용하여 `FrameworkPath` 속성에서 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]에 대한 경로를 저장합니다.
 
 ```xml
@@ -61,5 +61,5 @@ ms.locfileid: "55853406"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[작업](../msbuild/msbuild-tasks.md)  
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

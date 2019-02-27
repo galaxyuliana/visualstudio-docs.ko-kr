@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4ae109558c19f408c2300830b64960d11fb57e39
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 74787c9b310742e94b45c09748ec5b6c0210b2fe
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000837"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56611921"
 ---
 # <a name="quickstart-first-look-at-profiling-tools"></a>빠른 시작: 프로파일링 도구 살펴보기
 
@@ -149,22 +149,22 @@ CPU 사용량 또는 메모리 사용량 도구에 현재 표시되지 않는 �
 
 ![성능 탐색기 도구](../profiling/media/prof-tour-performance-explorer.png "성능 탐색기")
 
-## <a name="which-tool-should-i-use"></a>어떤 도구를 사용해야 하나요?  
+## <a name="which-tool-should-i-use"></a>어떤 도구를 사용해야 하나요?
 
 다음 테이블에는 Visual Studio가 제안하는 다양한 도구 및 그와 함께 사용할 수 있는 다양한 프로젝트 형식이 나열되어 있습니다.
-  
-|성능 도구|Windows 바탕 화면|UWP|ASP.NET/ASP.NET Core| 
-|----------------------|---------------------|-------------|-------------|  
+
+|성능 도구|Windows 바탕 화면|UWP|ASP.NET/ASP.NET Core|
+|----------------------|---------------------|-------------|-------------|
 |[CPU 사용량](../profiling/cpu-usage.md)|예|예|예|
-|[메모리 사용량](../profiling/memory-usage.md)|예|예|예| 
-|[GPU 사용량](../debugger/gpu-usage.md)|예|예|no| 
+|[메모리 사용량](../profiling/memory-usage.md)|예|예|예|
+|[GPU 사용량](../debugger/gpu-usage.md)|예|예|no|
 |[애플리케이션 타임라인](../profiling/application-timeline.md)|예|예|no|
 |[PerfTips](../profiling/perftips.md)|예|XAML은 예, HTML은 no|예|
 |[성능 탐색기](../profiling/performance-explorer.md)|예|no|예|
 |[IntelliTrace](../debugger/intellitrace.md)|Visual Studio Enterprise만 포함된 .NET|Visual Studio Enterprise만 포함된 .NET|Visual Studio Enterprise만 포함된 .NET|
 |[네트워크 사용량](../profiling/network-usage.md)|no|예|no|
-|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|HTML은 예, XAML은 no|no| 
+|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|HTML은 예, XAML은 no|no|
 |[JavaScript 메모리](../profiling/javascript-memory.md)|no|HTML은 예, XAML은 no|no|
 
-## <a name="see-also"></a>참고 항목  
- [Visual Studio의 디버깅](/visualstudio/debugger/debugger-feature-tour)
+## <a name="see-also"></a>참고 항목
+- [Visual Studio의 디버깅](/visualstudio/debugger/debugger-feature-tour)

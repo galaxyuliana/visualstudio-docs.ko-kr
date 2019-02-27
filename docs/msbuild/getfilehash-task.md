@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 71ebd50b42408dc7bd2642c257dece686245870f
-ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
+ms.openlocfilehash: ab5da58b125f86627d54547bd9f6f7cddc16c4de
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55485044"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56622022"
 ---
 # <a name="getfilehash-task"></a>GetFileHash 작업
 
@@ -41,7 +41,7 @@ ms.locfileid: "55485044"
 |`MetadataName`|선택적 `String` 매개 변수입니다.<br /><br />각 항목의 해시가 저장된 메타데이터 이름입니다. 기본값은 `FileHash`입니다.|
 |`HashEncoding`|선택적 `String` 매개 변수입니다.<br /><br />생성된 해시에 사용할 인코딩입니다. 기본값은 `hex`입니다. 허용되는 값은 `hex`, `base64`입니다.|
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 예제는 `GetFileHash` 작업을 사용하여 `FilesToHash` 항목의 체크섬을 확인하고 인쇄합니다.
 
@@ -65,6 +65,6 @@ ms.locfileid: "55485044"
 
 ## <a name="see-also"></a>참고 항목
 
-[작업](../msbuild/msbuild-tasks.md)
+- [작업](../msbuild/msbuild-tasks.md)
 
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

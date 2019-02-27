@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c6aabe66359c1f400eb06d6738615c1a81b679e0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 07d97707034946f4711ac7df92c6a0f0743d13fe
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069898"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56612662"
 ---
 # <a name="whats-new-in-msbuild-15"></a>MSBuild 15의 새로운 기능
 
@@ -51,4 +51,4 @@ MSBuild는 현재 [.NET Core SDK](https://www.microsoft.com/net/download/core)�
 - `GetPathOfFileAbove`는 바로 앞에 오는 파일의 경로를 반환합니다. `<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />`를 호출하는 것과 기능적으로 동일합니다.
 
 ## <a name="see-also"></a>참고 항목
-[MSBuild](../msbuild/msbuild.md)
+- [MSBuild](../msbuild/msbuild.md)

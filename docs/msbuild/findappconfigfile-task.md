@@ -16,29 +16,29 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7a43060f05caf0cb0ae076df9b53c7b2263c12bd
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0033bcb21922d6f7e0204b1555fa2c46f8d91d50
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55037293"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56597558"
 ---
 # <a name="findappconfigfile-task"></a>FindAppConfigFile 작업
-제공된 목록에서 *app.config* 파일(있는 경우)을 찾습니다.  
-  
-## <a name="parameters"></a>매개 변수  
- 다음 표에서는 `FindAppConfigFile` 작업의 매개 변수에 대해 설명합니다.  
-  
-|매개 변수|설명|  
-|---------------|-----------------|  
-|`AppConfigFile`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 있는 경우 목록에서 처음 일치 항목을 지정합니다.|  
-|`PrimaryList`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 검색할 기본 목록을 지정합니다.|  
-|`SecondaryList`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 검색할 보조 목록을 지정합니다.|  
-|`TargetPath`|필수 `String` 매개 변수입니다.<br /><br /> 메타데이터로 추가할 값을 지정합니다.|  
-  
-## <a name="remarks"></a>주의  
- 이 작업은 표에 나열된 매개 변수 외에, <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.  
-  
-## <a name="see-also"></a>참고 항목  
- [작업](../msbuild/msbuild-tasks.md)   
- [작업 참조](../msbuild/msbuild-task-reference.md)
+제공된 목록에서 *app.config* 파일(있는 경우)을 찾습니다.
+
+## <a name="parameters"></a>매개 변수
+ 다음 표에서는 `FindAppConfigFile` 작업의 매개 변수에 대해 설명합니다.
+
+|매개 변수|설명|
+|---------------|-----------------|
+|`AppConfigFile`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 있는 경우 목록에서 처음 일치 항목을 지정합니다.|
+|`PrimaryList`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 검색할 기본 목록을 지정합니다.|
+|`SecondaryList`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 검색할 보조 목록을 지정합니다.|
+|`TargetPath`|필수 `String` 매개 변수입니다.<br /><br /> 메타데이터로 추가할 값을 지정합니다.|
+
+## <a name="remarks"></a>주의
+ 이 작업은 표에 나열된 매개 변수 외에, <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
+
+## <a name="see-also"></a>참고 항목
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

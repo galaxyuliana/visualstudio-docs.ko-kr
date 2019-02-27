@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cee0c3c503be815feacd5d6077dd9e560b2c4074
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 22aa04bb41363eebc20257236515634f5e7e14ee
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928402"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56603471"
 ---
 # <a name="msbuild-batching"></a>MSBuild 일괄 처리
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에는 항목 목록을 항목 메타데이터에 따라 여러 다른 범주 또는 일괄 처리로 나누고 각 일괄 처리를 사용하여 한 번에 하나의 대상 또는 작업을 실행하는 기능이 있습니다.
@@ -100,7 +100,7 @@ ms.locfileid: "55928402"
 속성 함수에 대한 자세한 내용은 [속성 함수](../msbuild/property-functions.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
-[ItemMetadata 요소(MSBuild)](../msbuild/itemmetadata-element-msbuild.md)  
-[MSBuild 개념](../msbuild/msbuild-concepts.md)  
-[MSBuild 참조](../msbuild/msbuild-reference.md)  
-[고급 개념](../msbuild/msbuild-advanced-concepts.md)
+- [ItemMetadata 요소(MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
+- [MSBuild 개념](../msbuild/msbuild-concepts.md)
+- [MSBuild 참조](../msbuild/msbuild-reference.md)
+- [고급 개념](../msbuild/msbuild-advanced-concepts.md)

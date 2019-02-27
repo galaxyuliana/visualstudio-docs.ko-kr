@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8353bc1cfd9b3b48357979345ba29532cd3102bc
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d22e92bc025cc1372be2b765d803c2c658364b7e
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908493"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56603263"
 ---
 # <a name="how-to-extend-the-visual-studio-build-process"></a>방법: Visual Studio 빌드 프로세스 확장
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 빌드 프로세스는 프로젝트 파일로 가져온 일련의 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] *.targets* 파일로 정의됩니다. 이러한 가져온 파일 중 하나인 *Microsoft.Common.targets*는 빌드 프로세스의 여러 지점에서 사용자 지정 작업을 실행할 수 있도록 확장될 수 있습니다. 이 아티클에서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 빌드 프로세스를 확장하는 데 사용할 수 있는 두 가지 방법을 설명합니다.
@@ -35,8 +35,8 @@ ms.locfileid: "55908493"
 
 1. 재정의하려는 *Microsoft.Common.targets*에서 미리 정의된 대상을 식별합니다. 안전하게 재정의할 수 있는 대상의 전체 목록은 아래 표를 참조하세요.
 
-2. `</Project>` 태그 바로 앞에, 프로젝트 파일의 끝에 하나 이상의 대상을 정의합니다. 예:  
-  
+2. `</Project>` 태그 바로 앞에, 프로젝트 파일의 끝에 하나 이상의 대상을 정의합니다. 예:
+
     ```xml
     <Project>
         ...
@@ -48,7 +48,7 @@ ms.locfileid: "55908493"
         </Target>
     </Project>
     ```
-  
+
 3. 프로젝트 파일을 빌드합니다.
 
 다음 표는 안전하게 재정의할 수 있는 *Microsoft.Common.targets*에서 모든 대상을 표시합니다.
@@ -124,6 +124,6 @@ ms.locfileid: "55908493"
 |`CompileDependsOn`|컴파일 단계 앞이나 뒤에 사용자 지정 프로세스를 삽입하려는 경우 재정의할 속성입니다.|
 
 ## <a name="see-also"></a>참고 항목
-[Visual Studio 통합](../msbuild/visual-studio-integration-msbuild.md)  
-[MSBuild 개념](../msbuild/msbuild-concepts.md)  
-[.targets 파일](../msbuild/msbuild-dot-targets-files.md)
+- [Visual Studio 통합](../msbuild/visual-studio-integration-msbuild.md)
+- [MSBuild 개념](../msbuild/msbuild-concepts.md)
+- [.targets 파일](../msbuild/msbuild-dot-targets-files.md)

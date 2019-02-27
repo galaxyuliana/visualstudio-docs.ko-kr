@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f09e5c32bd18213969481ab214fa7873f4f69c48
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fc4515ad8f61d749c9fb7552911bfb15dcc3471a
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54982158"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610335"
 ---
 # <a name="customize-your-build-c-visual-basic"></a>빌드 사용자 지정(C#, Visual Basic)
 
@@ -160,6 +160,6 @@ MSBuild에서 솔루션 파일을 빌드할 때 먼저 프로젝트 파일로 �
 
 ## <a name="see-also"></a>참고 항목
 
-[MSBuild 개념](../msbuild/msbuild-concepts.md)
+- [MSBuild 개념](../msbuild/msbuild-concepts.md)
 
-[MSBuild 참조](../msbuild/msbuild-reference.md)
+- [MSBuild 참조](../msbuild/msbuild-reference.md)

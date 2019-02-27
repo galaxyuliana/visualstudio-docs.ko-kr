@@ -15,18 +15,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b2cf9e45a07544820292482ac34c034e81a305af
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8e4cb02cdaf2827ac5c892c7565f446d8f84257c
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55010352"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56623010"
 ---
 # <a name="tooltaskextension-base-class"></a>ToolTaskExtension 기본 클래스
-많은 작업은 <xref:Microsoft.Build.Utilities.Task> 클래스에서 상속되는 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 상속되는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스에서 상속됩니다. 이 상속 체인은 매개 변수에서 파생되는 작업에 해당 매개 변수 몇 개를 추가합니다. 이러한 매개 변수가 이 문서에 나열되어 있습니다.  
+많은 작업은 <xref:Microsoft.Build.Utilities.Task> 클래스에서 상속되는 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 상속되는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스에서 상속됩니다. 이 상속 체인은 매개 변수에서 파생되는 작업에 해당 매개 변수 몇 개를 추가합니다. 이러한 매개 변수가 이 문서에 나열되어 있습니다.
 
-## <a name="parameters"></a>매개 변수  
- 다음 표에서는 기본 클래스의 매개 변수에 대해 설명합니다.  
+## <a name="parameters"></a>매개 변수
+ 다음 표에서는 기본 클래스의 매개 변수에 대해 설명합니다.
 
 
 | 매개 변수 | 설명 |
@@ -48,6 +48,6 @@ ms.locfileid: "55010352"
 | <xref:Microsoft.Build.Utilities.ToolTask.UseCommandProcessor%2A> | 선택적 `bool` 매개 변수입니다.<br /><br /> `true`로 설정된 경우 이 작업은 명령줄에 대한 배치 파일을 만들고 명령을 직접 실행하는 대신 명령 처리기를 사용하여 실행합니다. |
 | <xref:Microsoft.Build.Utilities.ToolTask.YieldDuringToolExecution%2A> | 선택적 `bool` 매개 변수입니다.<br /><br /> `true`로 설정된 경우 작업이 실행 중이면 이 작업이 노드를 발생시킵니다. |
 
-## <a name="see-also"></a>참고 항목  
- [작업 참조](../msbuild/msbuild-task-reference.md)   
- [작업](../msbuild/msbuild-tasks.md)
+## <a name="see-also"></a>참고 항목
+- [작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)

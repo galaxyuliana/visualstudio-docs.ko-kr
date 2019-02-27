@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0cb537f045f3ed2409dfcf0def2826057fd55687
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 5814ea188de7d3c5b7aba78ab1b239d1e9fe29e1
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927746"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56627222"
 ---
 # <a name="mergelocalizationdirectives-task"></a>MergeLocalizationDirectives 작업
 <xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> 작업은 하나 이상의 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 이진 형식 파일에 대한 지역화 특성과 주석을 전체 어셈블리에 대한 단일 파일로 병합합니다.
@@ -38,7 +38,7 @@ ms.locfileid: "55927746"
 ## <a name="remarks"></a>주의
 지역화 특성 및 주석을 [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] 내용에 추가할 수 있습니다. [!INCLUDE[TLA#tla_wpf](../msbuild/includes/tlasharptla_wpf_md.md)] 지역화 지원을 사용하면 지역화 특성 및 주석을 제거하고 생성된 어셈블리와는 별개인 *.loc* 파일에 추가할 수 있습니다. 이 작업은 **LocalizationPropertyStorage** 특성을 사용하여 수행할 수 있습니다. 지역화 특성 및 주석과 **LocalizationPropertyStorage**에 대한 자세한 내용은 [지역화 특성 및 주석](/dotnet/framework/wpf/advanced/localization-attributes-and-comments)을 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 이진 형식 파일에 해당하는 지역화 주석을 단일 *.loc* 파일에 병합합니다.
 
 ```xml
@@ -55,8 +55,8 @@ ms.locfileid: "55927746"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[WPF MSBuild 참조](../msbuild/wpf-msbuild-reference.md)  
-[WPF MSBuild 작업 참조](../msbuild/wpf-msbuild-task-reference.md)  
-[MSBuild 참조](../msbuild/msbuild-reference.md)  
-[MSBuild 작업 참조](../msbuild/msbuild-task-reference.md)  
-[WPF 애플리케이션 빌드(WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)  
+- [WPF MSBuild 참조](../msbuild/wpf-msbuild-reference.md)
+- [WPF MSBuild 작업 참조](../msbuild/wpf-msbuild-task-reference.md)
+- [MSBuild 참조](../msbuild/msbuild-reference.md)
+- [MSBuild 작업 참조](../msbuild/msbuild-task-reference.md)
+- [WPF 애플리케이션 빌드(WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)

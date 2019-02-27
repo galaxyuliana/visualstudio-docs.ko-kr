@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0c63e9293cffca2c1b071dcd537c0f49f8faa438
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 9b47c3315236dc228d3c561c4a3e0f333f5c9600
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853981"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56615920"
 ---
 # <a name="generateresource-task"></a>GenerateResource 작업
 *.txt* 및 *.resx*(XML 기반 리소스 형식) 파일과 런타임 이진 실행 파일에 포함되거나 위성 어셈블리로 컴파일할 수 있는 공용 언어 런타임 이진 *.resources* 파일 간을 변환합니다. 이 작업은 일반적으로 *.txt* 또는 *.resx* 파일을 *.resources* 파일로 변환하는 데 사용됩니다. `GenerateResource` 작업은 [resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator)와 기능적으로 비슷합니다.
@@ -67,7 +67,7 @@ ms.locfileid: "55853981"
 
 MSBuild 4.0을 사용하여 .NET 3.5 프로젝트를 대상으로 지정하면 x86 리소스에 대해 빌드가 실패할 수 있습니다. 이 문제를 해결하려면 대상을 AnyCPU 어셈블리로 빌드할 수 있습니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제에서는 `GenerateResource` 작업을 사용하여 `Resx` 항목 컬렉션으로 지정된 파일에서 *.resources* 파일을 생성합니다.
 
 ```xml
@@ -95,5 +95,5 @@ MSBuild 4.0을 사용하여 .NET 3.5 프로젝트를 대상으로 지정하면 x
 \<LogicalName> 메타데이터가 없으면 리소스 이름은 *myAssembly.myResource.resources*로 지정됩니다.  이 예제는 Visual Basic 및 Visual C# 빌드 프로세스에만 적용됩니다.
 
 ## <a name="see-also"></a>참고 항목
-[작업](../msbuild/msbuild-tasks.md)  
-[작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 54cd1e9855bbc09a0045cd50ac26c1aef38bac2c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9942c680f93614a84da3502de4b3a26a08576fb7
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942814"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610543"
 ---
 # <a name="how-to-select-the-files-to-build"></a>방법: 빌드할 파일 선택
 여러 파일이 포함된 프로젝트를 빌드할 경우 각 파일을 프로젝트 파일에 개별적으로 나열하거나, 와일드카드를 사용하여 모든 파일을 하나의 디렉터리 또는 중첩된 디렉터리 집합에 포함할 수 있습니다.
@@ -29,25 +29,25 @@ ms.locfileid: "55942814"
 
 #### <a name="to-declare-items-individually"></a>항목을 개별적으로 선언하려면
 
-- 다음과 비슷한 `Include` 특성을 사용합니다.  
-  
-    `<CSFile Include="form1.cs"/>`  
-  
-    또는  
-  
-    `<VBFile Include="form1.vb"/>`  
-  
+- 다음과 비슷한 `Include` 특성을 사용합니다.
+
+    `<CSFile Include="form1.cs"/>`
+
+    또는
+
+    `<VBFile Include="form1.vb"/>`
+
     > [!NOTE]
     > 항목 컬렉션의 항목이 프로젝트 파일과 같은 디렉터리에 있지 않으면 항목의 전체 또는 상대 경로를 지정해야 합니다. 예: `Include="..\..\form2.cs"`
 
 #### <a name="to-declare-multiple-items"></a>여러 항목을 선언하려면
 
--   다음과 비슷한 `Include` 특성을 사용합니다.  
-  
-    `<CSFile Include="form1.cs;form2.cs"/>`  
-  
-    또는  
-  
+-   다음과 비슷한 `Include` 특성을 사용합니다.
+
+    `<CSFile Include="form1.cs;form2.cs"/>`
+
+    또는
+
     `<VBFile Include="form1.vb;form2.vb"/>`
 
 ## <a name="specify-inputs-with-wildcards"></a>와일드카드를 사용하여 입력 지정
@@ -63,24 +63,24 @@ ms.locfileid: "55942814"
 
 #### <a name="to-include-all-jpg-files-in-the-images-directory-and-subdirectories"></a>*Images* 디렉터리 및 하위 디렉터리의 모든 *.jpg* 파일을 포함하려면
 
-- 다음 `Include` 특성을 사용합니다.  
-  
+- 다음 `Include` 특성을 사용합니다.
+
     `Include="Images\**\*.jpg"`
 
 #### <a name="to-include-all-jpg-files-starting-with-img"></a>*img*로 시작하는 모든 *.jpg* 파일을 포함하려면
 
-- 다음 `Include` 특성을 사용합니다.  
-  
+- 다음 `Include` 특성을 사용합니다.
+
     `Include="Images\**\img*.jpg"`
 
 #### <a name="to-include-all-files-in-directories-with-names-ending-in-jpgs"></a>디렉터리에서 이름이 *jpgs*로 끝나는 모든 파일을 포함하려면
 
-- 다음 `Include` 특성 중 하나를 사용합니다.  
-  
-    `Include="Images\**\*jpgs\*.*"`  
-  
-    또는  
-  
+- 다음 `Include` 특성 중 하나를 사용합니다.
+
+    `Include="Images\**\*jpgs\*.*"`
+
+    또는
+
     `Include="Images\**\*jpgs\*"`
 
 ## <a name="pass-items-to-a-task"></a>작업에 항목 전달
@@ -88,20 +88,20 @@ ms.locfileid: "55942814"
 
 #### <a name="to-use-all-visual-c-or-visual-basic-files-as-inputs"></a>모든 Visual C# 또는 Visual Basic 파일을 입력으로 사용하려면
 
-- 다음과 비슷한 `Include` 특성을 사용합니다.  
-  
-    `<CSC Sources="@(CSFile)">...</CSC>`  
-  
-    또는  
-  
+- 다음과 비슷한 `Include` 특성을 사용합니다.
+
+    `<CSC Sources="@(CSFile)">...</CSC>`
+
+    또는
+
     `<VBC Sources="@(VBFile)">...</VBC>`
 
 > [!NOTE]
 >  항목과 함께 와일드카드를 사용해서 빌드의 입력을 지정해야 합니다. 입력을 지정하는 데 [Csc](../msbuild/csc-task.md) 또는 [Vbc](../msbuild/vbc-task.md)와 같은 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 작업의 `Sources` 특성을 사용할 수는 없습니다. 다음 예제는 프로젝트 파일에서 유효하지 않습니다.
-> 
+>
 > `<CSC Sources="*.cs">...</CSC>`
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 코드 예제에서는 모든 입력 파일을 개별적으로 포함하는 프로젝트를 보여 줍니다.
 
 ```xml
@@ -135,7 +135,7 @@ ms.locfileid: "55942814"
 </Project>
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 코드 예제에서는 와일드카드를 사용하여 모든 *.cs* 파일을 포함합니다.
 
 ```xml
@@ -170,5 +170,5 @@ ms.locfileid: "55942814"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[방법: 빌드에서 파일 제외](../msbuild/how-to-exclude-files-from-the-build.md)  
-[항목](../msbuild/msbuild-items.md)
+- [방법: 빌드에서 파일 제외](../msbuild/how-to-exclude-files-from-the-build.md)
+- [항목](../msbuild/msbuild-items.md)

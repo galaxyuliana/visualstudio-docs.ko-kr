@@ -12,22 +12,22 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 231c39b739e7d508fe01857d8388201929ec00db
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: ac0cf2a60fd194176b7cd9091f4e7dc7a758006f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54945855"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56618590"
 ---
 # <a name="execution-time-threads-view"></a>실행 시간(스레드 뷰)
-스레드가 시스템의 논리 코어에서 활발히 작업을 수행할 경우 스레드 뷰 타임라인의 이러한 세그먼트는 실행 시간을 나타냅니다.  
-  
- 스레드 상태가 변경되면 커널 컨텍스트 스위치 이벤트를 통해 감지됩니다. ETW(Windows용 이벤트 추적)는 밀리초마다 샘플 스택을 캡처합니다. 매우 짧은 녹색 세그먼트에서는 샘플이 수집되지 않을 수 있습니다. 따라서 일부 짧은 실행 세그먼트는 호출 스택을 표시하지 않을 수 있습니다.  
-  
- 실행 세그먼트를 클릭하면 동시성 시각화 도우미가 클릭 위치에 가장 가까운 샘플 스택을 표시합니다. 해당 샘플 스택의 위치는 검은색 화살표 또는 캐럿으로 표시되고 샘플 스택이 **현재** 탭에 나타납니다.  
-  
- 현재 뷰에서 모든 실행 세그먼트에 대한 기존 방식의 샘플링 프로필을 보려면 표시되는 시간 표시 막대 프로필에서 **실행**을 클릭합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [실행 프로필 보고서](../profiling/execution-profile-report.md)   
- [스레드 뷰](../profiling/threads-view-parallel-performance.md)
+스레드가 시스템의 논리 코어에서 활발히 작업을 수행할 경우 스레드 뷰 타임라인의 이러한 세그먼트는 실행 시간을 나타냅니다.
+
+ 스레드 상태가 변경되면 커널 컨텍스트 스위치 이벤트를 통해 감지됩니다. ETW(Windows용 이벤트 추적)는 밀리초마다 샘플 스택을 캡처합니다. 매우 짧은 녹색 세그먼트에서는 샘플이 수집되지 않을 수 있습니다. 따라서 일부 짧은 실행 세그먼트는 호출 스택을 표시하지 않을 수 있습니다.
+
+ 실행 세그먼트를 클릭하면 동시성 시각화 도우미가 클릭 위치에 가장 가까운 샘플 스택을 표시합니다. 해당 샘플 스택의 위치는 검은색 화살표 또는 캐럿으로 표시되고 샘플 스택이 **현재** 탭에 나타납니다.
+
+ 현재 뷰에서 모든 실행 세그먼트에 대한 기존 방식의 샘플링 프로필을 보려면 표시되는 시간 표시 막대 프로필에서 **실행**을 클릭합니다.
+
+## <a name="see-also"></a>참고 항목
+- [실행 프로필 보고서](../profiling/execution-profile-report.md)
+- [스레드 뷰](../profiling/threads-view-parallel-performance.md)

@@ -18,18 +18,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dd28e67a629fd9922ed1ac30d497c1bb8bbe9a56
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 5e863b8a35d8ef0d5ced0a200d1033b3768df690
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55854046"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56624908"
 ---
 # <a name="al-assembly-linker-task"></a>AL(어셈블리 링커) 작업
-AL 작업은 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]와 함께 배포되는 도구인 *AL.exe*를 래핑합니다. 이 어셈블리 링커 도구는 모듈 또는 리소스 파일에 해당하는 하나 이상의 파일에 있는 매니페스트로 어셈블리를 생성하는 데 사용됩니다. 컴파일러 및 개발 환경에서 이러한 기능을 이미 제공할 수 있으므로 이 작업을 직접 사용할 필요가 없는 경우가 많습니다. 어셈블리 링커는 혼합 언어 개발에서 생성될 수 있는 것과 같은 여러 구성 요소 파일에서 단일 어셈블리를 만들어야 하는 개발자에게 가장 유용합니다. 이 작업은 모듈을 단일 어셈블리 파일로 결합하지 않습니다. 결과 어셈블리가 올바르게 로드되려면 여전히 개별 모듈이 분산되어야 하고 사용 가능해야 하기 때문입니다. *AL.exe*에 대한 자세한 내용은 [Al.exe(어셈블리 링커)](/dotnet/framework/tools/al-exe-assembly-linker)를 참조하세요.  
+AL 작업은 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]와 함께 배포되는 도구인 *AL.exe*를 래핑합니다. 이 어셈블리 링커 도구는 모듈 또는 리소스 파일에 해당하는 하나 이상의 파일에 있는 매니페스트로 어셈블리를 생성하는 데 사용됩니다. 컴파일러 및 개발 환경에서 이러한 기능을 이미 제공할 수 있으므로 이 작업을 직접 사용할 필요가 없는 경우가 많습니다. 어셈블리 링커는 혼합 언어 개발에서 생성될 수 있는 것과 같은 여러 구성 요소 파일에서 단일 어셈블리를 만들어야 하는 개발자에게 가장 유용합니다. 이 작업은 모듈을 단일 어셈블리 파일로 결합하지 않습니다. 결과 어셈블리가 올바르게 로드되려면 여전히 개별 모듈이 분산되어야 하고 사용 가능해야 하기 때문입니다. *AL.exe*에 대한 자세한 내용은 [Al.exe(어셈블리 링커)](/dotnet/framework/tools/al-exe-assembly-linker)를 참조하세요.
 
-## <a name="parameters"></a>매개 변수  
- 다음 표에서는 `AL` 작업의 매개 변수에 대해 설명합니다.  
+## <a name="parameters"></a>매개 변수
+ 다음 표에서는 `AL` 작업의 매개 변수에 대해 설명합니다.
 
 
 | 매개 변수 | 설명 |
@@ -69,30 +69,29 @@ AL 작업은 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]와 
 | `Win32Icon` | 선택적 `String` 매개 변수입니다.<br /><br /> *.ico* 파일을 어셈블리에 삽입합니다. *.ico* 파일을 사용하면 파일 탐색기에서 출력 파일을 원하는 모양으로 나타납니다. 이 매개 변수는 [Al.exe(어셈블리 링커)](/dotnet/framework/tools/al-exe-assembly-linker)의 `/win32icon` 옵션에 해당합니다. |
 | `Win32Resource` | 선택적 `String` 매개 변수입니다.<br /><br /> Win32 리소스(*.res* 파일)를 출력 파일에 삽입합니다. 자세한 내용은 [Al.exe(어셈블리 링커)](/dotnet/framework/tools/al-exe-assembly-linker)의 `/win32res` 옵션에 대한 설명서를 참조하세요. |
 
-## <a name="remarks"></a>주의  
- 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.  
+## <a name="remarks"></a>주의
+ 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.
 
-## <a name="example"></a>예  
- 다음 예제에서는 지정된 옵션을 사용하여 어셈블리를 만듭니다.  
+## <a name="example"></a>예제
+ 다음 예제에서는 지정된 옵션을 사용하여 어셈블리를 만듭니다.
 
-```xml  
-<AL  
-    EmbedResources="@(EmbeddedResource)"  
-    Culture="%(EmbeddedResource.Culture)"  
-    TemplateFile="@(IntermediateAssembly)"  
-    KeyContainer="$(KeyContainerName)"  
-    KeyFile="$(KeyOriginatorFile)"  
-    DelaySign="$(DelaySign)"  
+```xml
+<AL
+    EmbedResources="@(EmbeddedResource)"
+    Culture="%(EmbeddedResource.Culture)"
+    TemplateFile="@(IntermediateAssembly)"
+    KeyContainer="$(KeyContainerName)"
+    KeyFile="$(KeyOriginatorFile)"
+    DelaySign="$(DelaySign)"
 
-    OutputAssembly=  
-       "%(EmbeddedResource.Culture)\$(TargetName).resources.dll">  
+    OutputAssembly=
+       "%(EmbeddedResource.Culture)\$(TargetName).resources.dll">
 
-    <Output TaskParameter="OutputAssembly"  
-        ItemName="SatelliteAssemblies"/>  
-</AL>  
-```  
+    <Output TaskParameter="OutputAssembly"
+        ItemName="SatelliteAssemblies"/>
+</AL>
+```
 
-## <a name="see-also"></a>참고 항목  
-* [작업 참조](../msbuild/msbuild-task-reference.md)   
+## <a name="see-also"></a>참고 항목
+* [작업 참조](../msbuild/msbuild-task-reference.md)
 * [작업](../msbuild/msbuild-tasks.md)
-

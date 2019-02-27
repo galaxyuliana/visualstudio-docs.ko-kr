@@ -13,28 +13,28 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ccc44f1dd1a7c9b81330912871a090881987d2a9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: aa263f6ceab515627fd33070517e3393aeec419d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55033627"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56637206"
 ---
 # <a name="da0002-vsperfcorprofdll-is-missing"></a>DA0002: VSPerfCorProf.dll이 없습니다.
 
-|||  
-|-|-|  
-|규칙 ID|DA0002|  
-|범주|프로파일링 도구 사용|  
-|프로파일링 방법|VSPerfCmd 및 VSPerfASPNETCmd 명령줄 도구를 사용하는 프로파일링|  
-|메시지|*VSPerfCLREnv.cmd*를 사용하여 환경 변수를 제대로 설정하지 않고 파일을 수집한 것 같습니다. 관리되는 이진에 대한 기호가 확인되지 않을 수 있습니다.|  
-|규칙 유형|정보|  
+|||
+|-|-|
+|규칙 ID|DA0002|
+|범주|프로파일링 도구 사용|
+|프로파일링 방법|VSPerfCmd 및 VSPerfASPNETCmd 명령줄 도구를 사용하는 프로파일링|
+|메시지|*VSPerfCLREnv.cmd*를 사용하여 환경 변수를 제대로 설정하지 않고 파일을 수집한 것 같습니다. 관리되는 이진에 대한 기호가 확인되지 않을 수 있습니다.|
+|규칙 유형|정보|
 
-## <a name="cause"></a>원인  
- 프로파일러는 프로파일링 실행 중 *VSPerfCorProf.dll*을 찾을 수 없습니다. 이 경고는 필요한 환경 변수를 초기화할 *VSPerfCLREnv.cmd* 도구를 사용하지 않고 프로파일러 데이터 컬렉션에 대한 명령줄 도구를 사용하는 경우에 발생합니다. 경고는 프로파일링 도구를 시작할 때 다른 프로파일러를 실행하는 경우 발생할 수도 있습니다.  
+## <a name="cause"></a>원인
+ 프로파일러는 프로파일링 실행 중 *VSPerfCorProf.dll*을 찾을 수 없습니다. 이 경고는 필요한 환경 변수를 초기화할 *VSPerfCLREnv.cmd* 도구를 사용하지 않고 프로파일러 데이터 컬렉션에 대한 명령줄 도구를 사용하는 경우에 발생합니다. 경고는 프로파일링 도구를 시작할 때 다른 프로파일러를 실행하는 경우 발생할 수도 있습니다.
 
-## <a name="rule-description"></a>규칙 설명  
- 특정 환경 변수는 .NET Framework 이진 파일에서 기호를 확인하도록 프로파일러에 대한 프로파일링을 실행하기 전에 설정되어야 합니다. 이 경고는 프로파일링 데이터가 수집되기 전에 *VSPerfCLREnv.cmd* 도구가 실행되지 않았음을 제안합니다. 관리되는 이진에 대한 기호가 확인되지 않을 수 있습니다. 명령줄에서 프로파일링 도구 사용에 대한 자세한 내용은 [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)을 참조하세요.  
+## <a name="rule-description"></a>규칙 설명
+ 특정 환경 변수는 .NET Framework 이진 파일에서 기호를 확인하도록 프로파일러에 대한 프로파일링을 실행하기 전에 설정되어야 합니다. 이 경고는 프로파일링 데이터가 수집되기 전에 *VSPerfCLREnv.cmd* 도구가 실행되지 않았음을 제안합니다. 관리되는 이진에 대한 기호가 확인되지 않을 수 있습니다. 명령줄에서 프로파일링 도구 사용에 대한 자세한 내용은 [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)을 참조하세요.
 
-## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법  
+## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구에서 명령줄 도구를 사용하여 관리되는 애플리케이션을 프로파일링할 때 데이터 수집을 시작하기 전에 [VSPerfCLREnv](../profiling/vsperfclrenv.md) 명령줄 도구를 시작합니다.

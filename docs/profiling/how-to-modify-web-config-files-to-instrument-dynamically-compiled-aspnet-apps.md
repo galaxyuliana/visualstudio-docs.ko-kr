@@ -8,42 +8,42 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: 5018216157334636ee7a6e8e057efae13b0396b4
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 925112de25a127d4664bb66d602ca137ad624f70
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55010131"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56616692"
 ---
 # <a name="how-to-modify-webconfig-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications"></a>방법: 계측할 web.config 파일 수정 및 동적으로 컴파일된 ASP.NET 웹 애플리케이션 프로파일링
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 계측 방법을 사용하여 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션에서 세부 타이밍 데이터, .NET 메모리 할당 데이터 및 .NET 개체 수명 데이터를 수집할 수 있습니다.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 계측 방법을 사용하여 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션에서 세부 타이밍 데이터, .NET 메모리 할당 데이터 및 .NET 개체 수명 데이터를 수집할 수 있습니다.
 
- 이 항목에서는 *web.config* 구성 파일을 수정하여 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션의 계측 및 프로파일링을 사용하도록 설정하는 방법을 설명합니다.  
+ 이 항목에서는 *web.config* 구성 파일을 수정하여 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션의 계측 및 프로파일링을 사용하도록 설정하는 방법을 설명합니다.
 
 > [!NOTE]
->  샘플링 프로파일링 방법을 사용할 경우 또는 미리 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 모듈을 계측하고자 할 경우 *web.config* 파일을 수정할 필요가 없습니다.  
+>  샘플링 프로파일링 방법을 사용할 경우 또는 미리 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 모듈을 계측하고자 할 경우 *web.config* 파일을 수정할 필요가 없습니다.
 
- *web.config* 파일의 루트는 **configuration** 요소입니다. 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션을 계측 및 프로파일링하려면 다음 요소를 추가하거나 수정해야 합니다.  
+ *web.config* 파일의 루트는 **configuration** 요소입니다. 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션을 계측 및 프로파일링하려면 다음 요소를 추가하거나 수정해야 합니다.
 
-- **configuration/runtime/assemblyBinding/dependentAssembly** 요소 - 프로파일링을 제어하는 Microsoft.VisualStudio.Enterprise.ASPNetHelper 어셈블리를 식별합니다. **dependentAssembly** 요소에는 두 개의 자식 요소인 **assemblyIdentity** 및 **codeBase**가 포함됩니다.  
+- **configuration/runtime/assemblyBinding/dependentAssembly** 요소 - 프로파일링을 제어하는 Microsoft.VisualStudio.Enterprise.ASPNetHelper 어셈블리를 식별합니다. **dependentAssembly** 요소에는 두 개의 자식 요소인 **assemblyIdentity** 및 **codeBase**가 포함됩니다.
 
-- **configuration/system.web/compilation** 요소 - 대상 어셈블리에 대한 프로파일러 사후 처리 컴파일 단계를 식별합니다.  
+- **configuration/system.web/compilation** 요소 - 대상 어셈블리에 대한 프로파일러 사후 처리 컴파일 단계를 식별합니다.
 
-- 프로파일링 도구의 위치를 식별하는 두 개의 **add** 요소가 **configuration/appSettings** 섹션에 추가됩니다.  
+- 프로파일링 도구의 위치를 식별하는 두 개의 **add** 요소가 **configuration/appSettings** 섹션에 추가됩니다.
 
-  애플리케이션 구성을 복원하는 데 사용할 수 있는 원래 *web.config* 파일의 복사본을 만드는 것이 좋습니다.  
+  애플리케이션 구성을 복원하는 데 사용할 수 있는 원래 *web.config* 파일의 복사본을 만드는 것이 좋습니다.
 
-### <a name="to-add-the-aspnethelper-assembly-as-a-configurationruntimeassemblybindingdependentassembly-element"></a>ASPNetHelper 어셈블리를 configuration/runtime/assemblyBinding/dependentAssembly 요소로 추가하려면  
+### <a name="to-add-the-aspnethelper-assembly-as-a-configurationruntimeassemblybindingdependentassembly-element"></a>ASPNetHelper 어셈블리를 configuration/runtime/assemblyBinding/dependentAssembly 요소로 추가하려면
 
-1. 필요한 경우 **runtime** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+1. 필요한 경우 **runtime** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
 
-    **runtime** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **runtime** 자식 요소만 포함될 수 있습니다.  
+    **runtime** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **runtime** 자식 요소만 포함될 수 있습니다.
 
-2. 필요한 경우 **assemblyBinding** 요소를 **runtime** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+2. 필요한 경우 **assemblyBinding** 요소를 **runtime** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
 
-    **runtime** 요소에는 하나의 **assemblyBinding** 요소만 포함될 수 있습니다.  
+    **runtime** 요소에는 하나의 **assemblyBinding** 요소만 포함될 수 있습니다.
 
-3. 다음 특성 이름 및 값을 **assemblyBinding** 요소에 추가합니다.  
+3. 다음 특성 이름 및 값을 **assemblyBinding** 요소에 추가합니다.
 
 
    | 특성 이름 | 특성 값 |
@@ -51,13 +51,13 @@ ms.locfileid: "55010131"
    | **Xmlns** | **urn:schemas-microsoft-com:asm.v1** |
 
 
-4. **dependentAssembly** 요소를 **assemblyBinding** 요소의 자식 요소로 추가합니다.  
+4. **dependentAssembly** 요소를 **assemblyBinding** 요소의 자식 요소로 추가합니다.
 
-    **dependentAssembly** 요소에는 특성이 없습니다.  
+    **dependentAssembly** 요소에는 특성이 없습니다.
 
-5. **assemblyIdentity** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.  
+5. **assemblyIdentity** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.
 
-6. 다음 특성 이름 및 값을 **assemblyIdentity** 요소에 추가합니다.  
+6. 다음 특성 이름 및 값을 **assemblyIdentity** 요소에 추가합니다.
 
 
    | 특성 이름 | 특성 값 |
@@ -67,78 +67,78 @@ ms.locfileid: "55010131"
    | **culture** | **Neutral** |
 
 
-7. **codeBase** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.  
+7. **codeBase** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.
 
-8. 다음 특성 이름 및 값을 **codeBase** 요소에 추가합니다.  
+8. 다음 특성 이름 및 값을 **codeBase** 요소에 추가합니다.
 
-   |특성 이름|특성 값|  
-   |--------------------|---------------------|  
-   |**version**|**10.0.0.0**|  
-   |**href**|`PathToASPNetHelperDll`|  
+   |특성 이름|특성 값|
+   |--------------------|---------------------|
+   |**version**|**10.0.0.0**|
+   |**href**|`PathToASPNetHelperDll`|
 
-    `PathToASPNetHelperDll`은 Microsoft.VisualStudio.Enterprise.ASPNetHelper.dll의 파일 URL입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]가 기본 위치에 설치된 경우 **href** 값은 `C:/Program%20Files/Microsoft%20Visual%20Studio%202010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL`이어야 합니다.  
+    `PathToASPNetHelperDll`은 Microsoft.VisualStudio.Enterprise.ASPNetHelper.dll의 파일 URL입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]가 기본 위치에 설치된 경우 **href** 값은 `C:/Program%20Files/Microsoft%20Visual%20Studio%202010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL`이어야 합니다.
 
-```xml  
-    <configuration>  
-        <runtime>  
-            <assemblyBinding   
-                xmlns="urn:schemas-microsoft-com:asm.v1"  
-            >  
-                <dependentAssembly>  
-                    <assemblyIdentity name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"   
+```xml
+    <configuration>
+        <runtime>
+            <assemblyBinding
+                xmlns="urn:schemas-microsoft-com:asm.v1"
+            >
+                <dependentAssembly>
+                    <assemblyIdentity name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"
                         publicKeyToken="b03f5f7f11d50a3a"
-                        culture="neutral"   
-                    />  
-                    <codeBase   
-                        version="10.0.0.0"  
-                        href="file:///C:/Program%20Files/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL"   
-                    />  
-                </dependentAssembly>  
-            </assemblyBinding>  
-        </runtime>  
-```  
+                        culture="neutral"
+                    />
+                    <codeBase
+                        version="10.0.0.0"
+                        href="file:///C:/Program%20Files/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL"
+                    />
+                </dependentAssembly>
+            </assemblyBinding>
+        </runtime>
+```
 
-### <a name="to-add-the-profiler-post-process-step-to-the-configurationsystemwebcompilation-element"></a>프로파일러 사후 처리 단계를 configuration/system.web/compilation 요소에 추가하려면  
+### <a name="to-add-the-profiler-post-process-step-to-the-configurationsystemwebcompilation-element"></a>프로파일러 사후 처리 단계를 configuration/system.web/compilation 요소에 추가하려면
 
-1.  필요한 경우 **system.web** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+1.  필요한 경우 **system.web** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
 
-     **system.web** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **system.web** 자식 요소만 포함될 수 있습니다.  
+     **system.web** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **system.web** 자식 요소만 포함될 수 있습니다.
 
-2.  필요한 경우 **compilation** 요소를 **system.web** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+2.  필요한 경우 **compilation** 요소를 **system.web** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
 
-     **system.web** 요소에는 하나의 **compilation** 자식 요소만 포함될 수 있습니다.  
+     **system.web** 요소에는 하나의 **compilation** 자식 요소만 포함될 수 있습니다.
 
-3.  **compilation** 요소에서 기존 특성을 제거하고 다음 특성 이름 및 값을 추가합니다.  
+3.  **compilation** 요소에서 기존 특성을 제거하고 다음 특성 이름 및 값을 추가합니다.
 
-    |특성 이름|특성 값|  
-    |--------------------|---------------------|  
-    |**assemblyPostProcessorType**|**Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter, Microsoft.VisualStudio.Enterprise.ASPNetHelper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a**|  
+    |특성 이름|특성 값|
+    |--------------------|---------------------|
+    |**assemblyPostProcessorType**|**Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter, Microsoft.VisualStudio.Enterprise.ASPNetHelper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a**|
 
-```xml  
-    <configuration>  
-        <runtime>  
-        . . .  
-        </runtime>  
-        <system.web>  
-            <compilation  
-                assemblyPostProcessorType="Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter,  
-                    Microsoft.VisualStudio.Enterprise.ASPNetHelper,  
-                    Version=10.0.0.0,  
-                    Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"   
-            />  
-        </system.web>  
-    <configuration>  
-```  
+```xml
+    <configuration>
+        <runtime>
+        . . .
+        </runtime>
+        <system.web>
+            <compilation
+                assemblyPostProcessorType="Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter,
+                    Microsoft.VisualStudio.Enterprise.ASPNetHelper,
+                    Version=10.0.0.0,
+                    Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+            />
+        </system.web>
+    <configuration>
+```
 
-### <a name="to-add-profiler-location-settings-to-the-configurationappsettings-element"></a>configuration/appSettings 요소에 프로파일러 위치 설정을 추가하려면  
+### <a name="to-add-profiler-location-settings-to-the-configurationappsettings-element"></a>configuration/appSettings 요소에 프로파일러 위치 설정을 추가하려면
 
-1. 필요한 경우 **appSettings** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+1. 필요한 경우 **appSettings** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
 
-    **appSettings** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **appSettings** 자식 요소만 포함될 수 있습니다.  
+    **appSettings** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **appSettings** 자식 요소만 포함될 수 있습니다.
 
-2. **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.  
+2. **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.
 
-3. 다음 특성 이름 및 값을 **add** 요소에 추가합니다.  
+3. 다음 특성 이름 및 값을 **add** 요소에 추가합니다.
 
 
    | 특성 이름 | 특성 값 |
@@ -147,85 +147,85 @@ ms.locfileid: "55010131"
    | **value** | `PerformanceToolsFolder` **\VSInstr.Exe** |
 
 
-4. 또 다른 **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.  
+4. 또 다른 **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.
 
-5. 다음 특성 이름 및 값을 **add** 요소에 추가합니다.  
+5. 다음 특성 이름 및 값을 **add** 요소에 추가합니다.
 
-   |특성 이름|특성 값|  
-   |--------------------|---------------------|  
-   |**key**|**Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools**|  
-   |**value**|`PerformanceToolsFolder`|  
+   |특성 이름|특성 값|
+   |--------------------|---------------------|
+   |**key**|**Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools**|
+   |**value**|`PerformanceToolsFolder`|
 
     `PerformanceToolsFolder`는 프로파일러 실행 파일의 경로입니다. 프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.
 
 
-```xml  
-    <configuration>  
-        <runtime>  
-        . . .  
-        </runtime>  
-        . . .  
-        <system.web>  
-        </system.web>  
-        <appSettings>  
-            <add  
-                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"  
-                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\vsinstr.exe"  
-        />  
-            <add  
-                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"  
-                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\"  
-            />  
-        </appSettings>  
-    </configuration>  
-```  
+```xml
+    <configuration>
+        <runtime>
+        . . .
+        </runtime>
+        . . .
+        <system.web>
+        </system.web>
+        <appSettings>
+            <add
+                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"
+                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\vsinstr.exe"
+        />
+            <add
+                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"
+                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\"
+            />
+        </appSettings>
+    </configuration>
+```
 
-## <a name="example"></a>예제  
- 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션의 계측 및 프로파일링을 사용하도록 설정하는 전체 *web.config* 파일은 다음과 같습니다. 이 예제에서는 수정하기 전에 파일에 다른 설정이 없었다고 가정합니다.  
+## <a name="example"></a>예제
+ 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션의 계측 및 프로파일링을 사용하도록 설정하는 전체 *web.config* 파일은 다음과 같습니다. 이 예제에서는 수정하기 전에 파일에 다른 설정이 없었다고 가정합니다.
 
-```xml  
-<?xml version="1.0"?>  
-    <configuration>  
-        <runtime>  
-            <assemblyBinding   
-                xmlns="urn:schemas-microsoft-com:asm.v1"  
-            >  
-                <dependentAssembly>  
-                    <assemblyIdentity   
-                        name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"   
-                        publicKeyToken="b03f5f7f11d50a3a"  
-                        culture="neutral"   
-                    />  
-                    <codeBase   
-                        version="10.0.0.0"  
-                        href="file:///C:/Program%20Files/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL"   
-                    />  
-                </dependentAssembly>  
-            </assemblyBinding>  
-        </runtime>  
-        <system.web>  
-            <compilation  
-                assemblyPostProcessorType="Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter,  
-                    Microsoft.VisualStudio.Enterprise.ASPNetHelper,  
-                    Version=10.0.0.0,  
-                    Culture=neutral,  
-                    PublicKeyToken=b03f5f7f11d50a3a"   
-            />  
-        </system.web>  
-        <appSettings>  
-            <add  
-                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"  
-                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\vsinstr.exe"  
-            />  
-            <add  
-                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"  
-                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\"  
-            />  
-        </appSettings>  
-    </configuration>  
+```xml
+<?xml version="1.0"?>
+    <configuration>
+        <runtime>
+            <assemblyBinding
+                xmlns="urn:schemas-microsoft-com:asm.v1"
+            >
+                <dependentAssembly>
+                    <assemblyIdentity
+                        name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"
+                        publicKeyToken="b03f5f7f11d50a3a"
+                        culture="neutral"
+                    />
+                    <codeBase
+                        version="10.0.0.0"
+                        href="file:///C:/Program%20Files/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL"
+                    />
+                </dependentAssembly>
+            </assemblyBinding>
+        </runtime>
+        <system.web>
+            <compilation
+                assemblyPostProcessorType="Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter,
+                    Microsoft.VisualStudio.Enterprise.ASPNetHelper,
+                    Version=10.0.0.0,
+                    Culture=neutral,
+                    PublicKeyToken=b03f5f7f11d50a3a"
+            />
+        </system.web>
+        <appSettings>
+            <add
+                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"
+                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\vsinstr.exe"
+            />
+            <add
+                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"
+                value="C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\"
+            />
+        </appSettings>
+    </configuration>
 
-```  
+```
 
-## <a name="see-also"></a>참고 항목  
- [방법: 동적으로 컴파일된 ASP.NET 애플리케이션 계측 및 자세한 타이밍 데이터 수집](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)   
- [방법: 동적으로 컴파일된 ASP.NET 애플리케이션 계측 및 메모리 데이터 수집](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md)
+## <a name="see-also"></a>참고 항목
+- [방법: 동적으로 컴파일된 ASP.NET 애플리케이션 계측 및 자세한 타이밍 데이터 수집](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
+- [방법: 동적으로 컴파일된 ASP.NET 애플리케이션 계측 및 메모리 데이터 수집](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md)

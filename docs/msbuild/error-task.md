@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dc603d11a087fb413896b9ae897ee730e18aae1b
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: d3788fae176b344f99884efe7552f33762255ddc
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853380"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56610309"
 ---
 # <a name="error-task"></a>Error 작업
 빌드를 중지하고 평가된 조건부 문에 따라 오류를 기록합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "55853380"
 
 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 코드 예제는 모든 필수 속성이 설정되었는지 확인합니다. 설정되지 않은 경우 프로젝트에서는 오류 이벤트를 발생시키고 `Error` 작업의 `Text` 매개 변수 값을 기록합니다.
 
 ```xml
@@ -63,5 +63,5 @@ ms.locfileid: "55853380"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[작업 참조](../msbuild/msbuild-task-reference.md)  
-[빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)
+- [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: d45cf1e1ee8cbb12af9f10733db9aed06e252ece
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b21e9b1735f7d6e631d25cecb2923662625400c0
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54996209"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56634060"
 ---
 # <a name="quickstart-analyze-cpu-usage-data-in-visual-studio-aspnet"></a>빠른 시작: Visual Studio에서 CPU 사용량 데이터(ASP.NET) 분석
 
@@ -87,8 +87,8 @@ Windows 8 이상에서는 디버거(**진단 도구** 창)를 포함한 프로�
             {
                 m_totalIterations += iters;
             }
-            // we're just spinning here  
-            // and using Random to frustrate compiler optimizations  
+            // we're just spinning here
+            // and using Random to frustrate compiler optimizations
             for (var i = 0; i < iters; i++)
             {
                 result = rand.Next();
@@ -153,8 +153,8 @@ Windows 8 이상에서는 디버거(**진단 도구** 창)를 포함한 프로�
     }
     ```
 
-##  <a name="step-1-collect-profiling-data"></a>1단계: 프로파일링 데이터 수집 
-  
+##  <a name="step-1-collect-profiling-data"></a>1단계: 프로파일링 데이터 수집
+
 1.  먼저 `Simple` 생성자의 이 코드 줄에서 앱에 중단점을 설정합니다.
 
     `for (int i = 0; i < 200; i++)`
@@ -167,7 +167,7 @@ Windows 8 이상에서는 디버거(**진단 도구** 창)를 포함한 프로�
 
     > [!TIP]
     > 두 개의 중단점을 설정하여, 분석하려는 코드 부분으로 데이터 수집을 제한할 수 있습니다.
-  
+
 1.  사용자가 닫지 않았다면 **진단 도구** 창이 이미 표시되어 있을 것입니다. 창을 다시 표시하려면 **디버그** > **Windows** > **진단 도구 표시**를 클릭합니다.
 
 1.  **디버그** > **디버깅 시작**을 클릭합니다(또는 도구 모음의 **시작** 또는 **F5** 키 누름).
@@ -189,7 +189,7 @@ Windows 8 이상에서는 디버거(**진단 도구** 창)를 포함한 프로�
      이제 구체적으로 두 개의 중단점 사이에서 실행되는 코드 영역에 대한 애플리케이션의 성능 데이터가 제공됩니다.
 
      프로파일러는 스레드 데이터 준비를 시작합니다. 끝날 때까지 기다립니다.
-  
+
      CPU 사용량 도구는 **CPU 사용량** 탭에 보고서를 표시합니다.
 
      이 시점에서 데이터 분석을 시작할 수 있습니다.
@@ -207,7 +207,7 @@ CPU 사용량 아래의 함수 목록을 검사하고, 가장 많은 작업을 �
 
 2. 함수 목록에서 `MyProfilingApp_MVC.Models.ServerClass::GetNumber` 함수를 두 번 클릭합니다.
 
-    함수를 두 번 클릭하면 **호출자/호출 수신자** 뷰가 왼쪽 창에 열립니다. 
+    함수를 두 번 클릭하면 **호출자/호출 수신자** 뷰가 왼쪽 창에 열립니다.
 
     ![진단 도구 호출자/호출 수신자 뷰](../profiling/media/quickstart-cpu-usage-caller-callee-aspnet.png)
 
@@ -226,7 +226,7 @@ CPU 사용량 아래의 함수 목록을 검사하고, 가장 많은 작업을 �
 - [CPU 사용량 분석](../profiling/cpu-usage.md)은 CPU 사용량 도구에 대한 더 상세한 정보를 제공합니다.
 - 디버거를 연결하지 않고 또는 실행 중인 앱을 대상으로 지정하여 CPU 사용량을 분석합니다. 자세한 내용은 [디버거를 사용하거나 사용하지 않고 프로파일링 도구 실행](../profiling/running-profiling-tools-with-or-without-the-debugger.md)의 [디버깅을 사용하지 않고 프로파일링 데이터 수집](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging)을 참조하세요.
 
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참고 항목
 
- [Visual Studio의 프로파일링](../profiling/index.md)  
- [프로파일링 도구 살펴보기](../profiling/profiling-feature-tour.md)
+- [Visual Studio의 프로파일링](../profiling/index.md)
+- [프로파일링 도구 살펴보기](../profiling/profiling-feature-tour.md)

@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ea5dc0d2516ab7cf3c4e26b5e8f39328eabe47cb
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 39b732a962f648f0c812f3f9d37df7dcf17296ce
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853445"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56626611"
 ---
 # <a name="createproperty-task"></a>CreateProperty 작업
 전달된 값으로 속성을 채웁니다. 이를 통해 하나의 속성 또는 문자열에서 다른 속성 또는 문자열로 값을 복사할 수 있습니다.
@@ -39,7 +39,7 @@ ms.locfileid: "55853445"
 ## <a name="remarks"></a>주의
 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 예제는 `CreateProperty` 작업을 사용하여 `SourceFilename` 및 `SourceFileExtension` 속성 값의 조합을 사용하는 `NewFile` 속성을 만듭니다.
 
 ```xml
@@ -67,5 +67,5 @@ ms.locfileid: "55853445"
 프로젝트를 실행한 후 `NewFile` 속성의 값은 *Module1.vb*입니다.
 
 ## <a name="see-also"></a>참고 항목
-[작업 참조](../msbuild/msbuild-task-reference.md)  
-[작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)
+- [작업](../msbuild/msbuild-tasks.md)

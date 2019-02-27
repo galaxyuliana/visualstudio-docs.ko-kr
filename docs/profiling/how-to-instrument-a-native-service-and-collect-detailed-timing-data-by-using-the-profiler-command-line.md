@@ -8,49 +8,49 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 46c9061163b36b6d75bb7e6d8a9b8631ce1ea01a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b2be1ac0818f7efd31fb30981e50eff5e42df7af
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55070684"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56634788"
 ---
 # <a name="how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line"></a>방법: 프로파일러 명령줄을 사용하여 네이티브 서비스 계측 및 자세한 타이밍 데이터 수집
-이 문서에서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구를 사용하여 네이티브(C/C++) 서비스를 계측하고 자세한 타이밍 데이터를 수집하는 방법을 설명합니다.  
+이 문서에서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구를 사용하여 네이티브(C/C++) 서비스를 계측하고 자세한 타이밍 데이터를 수집하는 방법을 설명합니다.
 
 > [!NOTE]
->  서비스가 컴퓨터가 운영 체제가 시작되는 경우에만 시작하는 서비스를 시작한 후 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.  
-> 
+>  서비스가 컴퓨터가 운영 체제가 시작되는 경우에만 시작하는 서비스를 시작한 후 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.
+>
 >  프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
- 
- 계측 방법을 사용하여 네이티브 서비스에서 자세한 타이밍 데이터를 수집하려면 [VSInstr.exe](../profiling/vsinstr.md) 도구를 사용하여 계측된 구성 요소의 버전을 생성합니다. 그런 다음 계측되지 않은 버전의 서비스를 계측된 버전으로 바꿉니다. 서비스가 수동으로 시작되도록 구성되어 있는지 확인합니다. 그런 다음 프로파일러를 시작합니다.  
 
- 서비스가 시작되면 자동으로 타이밍 데이터가 데이터 파일로 수집됩니다. 프로파일링 세션 중에 데이터 수집을 일시 중지하고 다시 시작할 수 있습니다.  
+ 계측 방법을 사용하여 네이티브 서비스에서 자세한 타이밍 데이터를 수집하려면 [VSInstr.exe](../profiling/vsinstr.md) 도구를 사용하여 계측된 구성 요소의 버전을 생성합니다. 그런 다음 계측되지 않은 버전의 서비스를 계측된 버전으로 바꿉니다. 서비스가 수동으로 시작되도록 구성되어 있는지 확인합니다. 그런 다음 프로파일러를 시작합니다.
 
- 프로파일링 세션을 종료하려면 서비스를 끈 다음 프로파일러를 명시적으로 종료합니다.  
+ 서비스가 시작되면 자동으로 타이밍 데이터가 데이터 파일로 수집됩니다. 프로파일링 세션 중에 데이터 수집을 일시 중지하고 다시 시작할 수 있습니다.
 
-## <a name="start-the-application-with-the-profiler"></a>프로파일러를 사용하여 애플리케이션 시작  
+ 프로파일링 세션을 종료하려면 서비스를 끈 다음 프로파일러를 명시적으로 종료합니다.
 
-#### <a name="to-start-profiling-a-native-service"></a>네이티브 서비스 프로파일링을 시작하려면  
+## <a name="start-the-application-with-the-profiler"></a>프로파일러를 사용하여 애플리케이션 시작
 
-1. 명령 프롬프트 창을 엽니다.  
+#### <a name="to-start-profiling-a-native-service"></a>네이티브 서비스 프로파일링을 시작하려면
 
-2. **VSInstr** 도구를 사용하여 서비스 이진 파일의 계측된 버전을 생성합니다.  
+1. 명령 프롬프트 창을 엽니다.
 
-3. 원래 이진을 계측된 버전으로 바꿉니다. Windows 서비스 제어 관리자에서 서비스 시작 유형이 수동으로 설정되어 있는지 확인합니다.  
+2. **VSInstr** 도구를 사용하여 서비스 이진 파일의 계측된 버전을 생성합니다.
 
-4. 프로파일러를 시작합니다. 유형:  
+3. 원래 이진을 계측된 버전으로 바꿉니다. Windows 서비스 제어 관리자에서 서비스 시작 유형이 수동으로 설정되어 있는지 확인합니다.
 
-    **VSPerfCmd** [/start](../profiling/start.md) **:trace**  [/output](../profiling/output.md) **:** `OutputFile` [`Options`]  
+4. 프로파일러를 시작합니다. 유형:
 
-   - **/start:trace** 옵션은 프로파일러를 초기화합니다.  
+    **VSPerfCmd** [/start](../profiling/start.md) **:trace**  [/output](../profiling/output.md) **:** `OutputFile` [`Options`]
 
-   - **/start**에는 **/output:**`OutputFile` 옵션이 필요합니다. `OutputFile`은 프로파일링 데이터(.*vsp*) 파일의 이름과 위치를 지정합니다.  
+   - **/start:trace** 옵션은 프로파일러를 초기화합니다.
 
-     **/start:trace** 옵션과 다음 옵션을 함께 사용할 수 있습니다.  
+   - **/start**에는 **/output:**`OutputFile` 옵션이 필요합니다. `OutputFile`은 프로파일링 데이터(.*vsp*) 파일의 이름과 위치를 지정합니다.
+
+     **/start:trace** 옵션과 다음 옵션을 함께 사용할 수 있습니다.
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 애플리케이션에 필요합니다.  
+   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 애플리케이션에 필요합니다.
 
    | 옵션 | 설명 |
    | - | - |
@@ -64,34 +64,34 @@ ms.locfileid: "55070684"
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | 프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.*etl*)로 수집됩니다. |
 
 
-5. 서비스 제어 관리자에서 서비스를 시작합니다.  
+5. 서비스 제어 관리자에서 서비스를 시작합니다.
 
-## <a name="control-data-collection"></a>데이터 수집 제어  
- 서비스가 실행되는 동안 *VSPerfCmd.exe* 옵션을 사용하여 프로파일러 데이터 파일에 대한 데이터 쓰기를 시작하고 중지할 수 있습니다. 데이터 수집을 제어하면 서비스의 시작 또는 종료와 같이 프로그램 실행의 특정 부분에 대한 데이터를 수집할 수 있습니다.  
+## <a name="control-data-collection"></a>데이터 수집 제어
+ 서비스가 실행되는 동안 *VSPerfCmd.exe* 옵션을 사용하여 프로파일러 데이터 파일에 대한 데이터 쓰기를 시작하고 중지할 수 있습니다. 데이터 수집을 제어하면 서비스의 시작 또는 종료와 같이 프로그램 실행의 특정 부분에 대한 데이터를 수집할 수 있습니다.
 
-#### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면  
+#### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면
 
--   **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
+-   **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
 
-    |옵션|설명|  
-    |------------|-----------------|  
-    |[/globalon /globaloff](../profiling/globalon-and-globaloff.md)|모든 프로세스에 대한 데이터 수집을 시작(**/globalon**) 또는 중지(**/globaloff**)합니다.|  
-    |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|프로세스 ID(`PID`)로 지정된 프로세스에 대한 데이터 수집을 시작(**/processon**) 또는 중지(**/processoff**)합니다.|  
-    |[/threadon](../profiling/threadon-and-threadoff.md) **:** `TID` [/threadoff](../profiling/threadon-and-threadoff.md) **:** `TID`|스레드 ID(`TID`)로 지정된 스레드에 대한 데이터 수집을 시작(**/threadon**) 또는 중지(**/threadoff**)합니다.|  
+    |옵션|설명|
+    |------------|-----------------|
+    |[/globalon /globaloff](../profiling/globalon-and-globaloff.md)|모든 프로세스에 대한 데이터 수집을 시작(**/globalon**) 또는 중지(**/globaloff**)합니다.|
+    |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|프로세스 ID(`PID`)로 지정된 프로세스에 대한 데이터 수집을 시작(**/processon**) 또는 중지(**/processoff**)합니다.|
+    |[/threadon](../profiling/threadon-and-threadoff.md) **:** `TID` [/threadoff](../profiling/threadon-and-threadoff.md) **:** `TID`|스레드 ID(`TID`)로 지정된 스레드에 대한 데이터 수집을 시작(**/threadon**) 또는 중지(**/threadoff**)합니다.|
 
-## <a name="end-the-profiling-session"></a>프로파일링 세션 종료  
- 프로파일링 세션을 종료하려면 계측된 구성 요소를 실행하고 있는 서비스를 중지한 다음 **VSPerfCmd**[/shutdown](../profiling/shutdown.md) 옵션을 호출하여 프로파일러를 끄고 프로파일링 데이터 파일을 닫습니다.  
+## <a name="end-the-profiling-session"></a>프로파일링 세션 종료
+ 프로파일링 세션을 종료하려면 계측된 구성 요소를 실행하고 있는 서비스를 중지한 다음 **VSPerfCmd**[/shutdown](../profiling/shutdown.md) 옵션을 호출하여 프로파일러를 끄고 프로파일링 데이터 파일을 닫습니다.
 
-#### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면  
+#### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면
 
-1.  서비스 제어 관리자에서 서비스를 중지합니다.  
+1.  서비스 제어 관리자에서 서비스를 중지합니다.
 
-2.  프로파일러를 종료합니다. 유형:  
+2.  프로파일러를 종료합니다. 유형:
 
-     **VSPerfCmd /shutdown**  
+     **VSPerfCmd /shutdown**
 
-3.  계측된 모듈을 원본으로 바꿉니다. 필요한 경우 서비스의 시작 유형을 다시 구성합니다.  
+3.  계측된 모듈을 원본으로 바꿉니다. 필요한 경우 서비스의 시작 유형을 다시 구성합니다.
 
-## <a name="see-also"></a>참고 항목  
- [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)   
- [계측 방법 데이터 뷰](../profiling/instrumentation-method-data-views.md)
+## <a name="see-also"></a>참고 항목
+- [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)
+- [계측 방법 데이터 뷰](../profiling/instrumentation-method-data-views.md)

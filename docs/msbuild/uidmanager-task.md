@@ -19,45 +19,45 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b2e6f653ca7fc6bc335ab58530242f94b1f95d39
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9c4e8c5ccae37aba0f287e2c2f9e29ab36371846
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54963810"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56608567"
 ---
 # <a name="uidmanager-task"></a>UidManager 작업
-<xref:Microsoft.Build.Tasks.Windows.UidManager> 작업은 소스 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 파일에 포함된 모든 [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] 요소를 지역화하기 위해 UID(고유 식별자)를 확인, 업데이트 또는 제거합니다.  
-  
-## <a name="task-parameters"></a>작업 매개 변수  
-  
+<xref:Microsoft.Build.Tasks.Windows.UidManager> 작업은 소스 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 파일에 포함된 모든 [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] 요소를 지역화하기 위해 UID(고유 식별자)를 확인, 업데이트 또는 제거합니다.
+
+## <a name="task-parameters"></a>작업 매개 변수
+
 | 매개 변수 | 설명 |
 |-------------------------| - |
 | `IntermediateDirectory` | 선택적 **문자열** 매개 변수입니다.<br /><br /> **MarkupFiles** 매개 변수로 지정된 소스 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 파일을 백업하는 데 사용되는 디렉터리를 지정합니다. |
 | `MarkupFiles` | 필수 **ITaskItem[]** 매개 변수입니다.<br /><br /> UID 확인, 업데이트 또는 제거를 포함할 소스 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 파일을 지정합니다. |
 | `Task` | 필수 **String** 매개 변수입니다.<br /><br /> 수행하려는 UID 관리 작업을 지정합니다. 유효한 옵션은 **Check**, **Update** 또는 **Remove**입니다. |
-  
-## <a name="example"></a>예제  
- 다음 예제에서는 <xref:Microsoft.Build.Tasks.Windows.UidManager> 작업을 사용하여 지정된 소스 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 파일에 해당 UID를 갖는 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 요소가 포함되어 있는지를 확인합니다.  
-  
-```xml  
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <UsingTask   
-    TaskName="Microsoft.Build.Tasks.Windows.UidManager"   
-    AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />  
-  <Target Name="UidManagerTask">  
-    <UidManager  
-      Task="Check"  
-      MarkupFiles="Page1.xaml;Page2.xaml"  
-      IntermediateDirectory="c:\UidManagerIntermediateDirectory" />  
-  </Target>  
-</Project>  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [WPF MSBuild 참조](../msbuild/wpf-msbuild-reference.md)   
- [작업 참조](../msbuild/wpf-msbuild-task-reference.md)   
- [MSBuild 참조](../msbuild/msbuild-reference.md)   
- [작업 참조](../msbuild/msbuild-task-reference.md)   
- [WPF 애플리케이션 빌드(WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)   
- [방법: 애플리케이션 지역화](/dotnet/framework/wpf/advanced/how-to-localize-an-application)
+
+## <a name="example"></a>예제
+ 다음 예제에서는 <xref:Microsoft.Build.Tasks.Windows.UidManager> 작업을 사용하여 지정된 소스 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 파일에 해당 UID를 갖는 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 요소가 포함되어 있는지를 확인합니다.
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask
+    TaskName="Microsoft.Build.Tasks.Windows.UidManager"
+    AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />
+  <Target Name="UidManagerTask">
+    <UidManager
+      Task="Check"
+      MarkupFiles="Page1.xaml;Page2.xaml"
+      IntermediateDirectory="c:\UidManagerIntermediateDirectory" />
+  </Target>
+</Project>
+```
+
+## <a name="see-also"></a>참고 항목
+- [WPF MSBuild 참조](../msbuild/wpf-msbuild-reference.md)
+- [작업 참조](../msbuild/wpf-msbuild-task-reference.md)
+- [MSBuild 참조](../msbuild/msbuild-reference.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)
+- [WPF 애플리케이션 빌드(WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+- [방법: 애플리케이션 지역화](/dotnet/framework/wpf/advanced/how-to-localize-an-application)

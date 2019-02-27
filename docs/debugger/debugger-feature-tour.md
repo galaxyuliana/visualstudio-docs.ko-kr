@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 638e49a2e2146503186eb26f25e67ff68bb4a354
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9f0248936b41c9103a772cd4b2622f4fddfe5fff
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55042064"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56696742"
 ---
 # <a name="first-look-at-the-visual-studio-debugger"></a>먼저 Visual Studio 디버거 살펴보기
 
@@ -27,7 +27,7 @@ ms.locfileid: "55042064"
 
 ## <a name="set-a-breakpoint-and-start-the-debugger"></a>중단점 설정 및 디버거 시작
 
-디버그하려면 앱 프로세스에 연결된 디버거로 앱을 시작해야 합니다. **F5**(**디버그 > 디버깅 시작**)는 디버그 작업을 수행하는 가장 일반적인 방법입니다. 그러나 지금 앱 코드를 검사할 중단점을 설정하지 않았으므로 먼저 중단점을 설정한 다음, 디버깅을 시작합니다. 중단점은 신뢰할 수 있는 디버깅의 가장 기본적이 고 필수적인 기능입니다. 중단점은 변수의 값, 메모리의 동작 또는 코드 분기의 실행 여부를 확인할 수 있도록 Visual Studio에서 실행 중인 코드를 일시 중단해야 하는 위치를 나타냅니다. 
+디버그하려면 앱 프로세스에 연결된 디버거로 앱을 시작해야 합니다. **F5**(**디버그 > 디버깅 시작**)는 디버그 작업을 수행하는 가장 일반적인 방법입니다. 그러나 지금 앱 코드를 검사할 중단점을 설정하지 않았으므로 먼저 중단점을 설정한 다음, 디버깅을 시작합니다. 중단점은 신뢰할 수 있는 디버깅의 가장 기본적이 고 필수적인 기능입니다. 중단점은 변수의 값, 메모리의 동작 또는 코드 분기의 실행 여부를 확인할 수 있도록 Visual Studio에서 실행 중인 코드를 일시 중단해야 하는 위치를 나타냅니다.
 
 코드 편집기에 파일이 열려 있는 경우 코드 줄의 왼쪽 여백을 클릭하여 중단점을 설정할 수 있습니다.
 

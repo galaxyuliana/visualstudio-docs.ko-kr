@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b4889c0d9c7342652063633e11c82e7e8eb6d2c6
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: f3f3b272808d0e24747cceb97e4d1339b5989339
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853705"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56603233"
 ---
 # <a name="how-to-configure-targets-and-tasks"></a>방법: 대상 및 작업 구성
 선택된 MSBuild 작업은 개발 컴퓨터의 환경에 관계 없이 대상으로 지정된 환경에서 실행되도록 설정할 수 있습니다. 예를 들어 64비트 컴퓨터를 사용하여 32비트 아키텍처를 대상으로 하는 애플리케이션을 빌드할 경우 선택한 작업은 32비트 프로세스에서 실행됩니다.
@@ -108,4 +108,4 @@ MSBuild가 작업을 실행하기 전에 동일한 대상 컨텍스트를 갖는
 > 작업 매개 변수는 작업 호스트의 컨텍스트가 아니라 부모 노드의 컨텍스트에서 평가됩니다. 런타임 종속적 또는 아키텍처 종속적 환경 변수(예: *프로그램 파일* 위치)는 부모 노드와 일치하는 값으로 평가됩니다. 그러나 동일한 환경 변수를 작업에서 직접 읽을 경우 작업 호스트의 컨텍스트에서 올바르게 평가됩니다.
 
 ## <a name="see-also"></a>참고 항목
-[대상 및 작업 구성](../msbuild/configuring-targets-and-tasks.md)
+- [대상 및 작업 구성](../msbuild/configuring-targets-and-tasks.md)
