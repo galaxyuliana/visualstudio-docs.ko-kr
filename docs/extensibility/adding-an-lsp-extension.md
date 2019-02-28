@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a47a076336a9e8f97bae9fdde79a7d8b3b525963
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: d7590350fdcfb74f90cd4441e97503a60b298c66
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318799"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954282"
 ---
 # <a name="add-a-language-server-protocol-extension"></a>언어 서버 프로토콜 확장 추가
 
@@ -129,7 +129,7 @@ LSP는 언어에 대 한 텍스트 색 지정을 제공 하는 방법에 대 한
 
 4. 만들기는 *.pkgdef* 파일과 비슷한이 줄을 추가 합니다.
 
-    ```xml
+    ```
     [$RootKey$\TextMate\Repositories]
     "MyLang"="$PackageFolder$\Grammars"
     ```
@@ -290,7 +290,7 @@ LSP 언어 서버에 대 한 지원을 추가 하지 않아도 Visual Studio에�
 
 LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아래이 단계를 수행 합니다.
 
-1. JSON 파일을 추가 (예를 들어 *MockLanguageExtensionSettings.json*) 설정 및 기본값을 포함 하는 프로젝트에서. 예를 들어:
+1. JSON 파일을 추가 (예를 들어 *MockLanguageExtensionSettings.json*) 설정 및 기본값을 포함 하는 프로젝트에서. 예를 들면,
 
     ```json
     {
@@ -313,13 +313,13 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 
 4. .Pkgdef 파일을 프로젝트에 추가 (새 텍스트 파일을 추가 하 고.pkgdef 파일 확장명이 변경). Pkgdef 파일에는이 정보를 포함 되어야 합니다.
 
-    ```xml
+    ```
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\[settings-name]]
     @="$PackageFolder$\[settings-file-name].json"
     ```
 
     예제:
-    ```xml
+    ```
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\MockLanguageExtension]
     @="$PackageFolder$\MockLanguageExtensionSettings.json"
     ```
@@ -338,15 +338,17 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 
 1. 사용자는 서버를 소유 하는 파일이 포함 된 작업 영역을 엽니다.
 2. 사용자의 파일을 추가 합니다 *.vs* 라는 폴더 *VSWorkspaceSettings.json*합니다.
-3. 줄을 추가 하는 사용자를 *VSWorkspaceSettings.json* 파일 서버에서 제공 하는 설정에 대 한 합니다. 예를 들어:
+3. 줄을 추가 하는 사용자를 *VSWorkspaceSettings.json* 파일 서버에서 제공 하는 설정에 대 한 합니다. 예를 들면,
 
     ```json
     {
         "foo.maxNumberOfProblems": 10
     }
     ```
-    ### <a name="enabling-diagnostics-tracing"></a>진단 추적을 사용 하도록 설정
-    클라이언트와 서버 문제를 디버깅할 때 유용할 수 있는 모든 메시지를 출력 하도록 진단 추적을 사용할 수 있습니다. 진단 추적을 사용 하려면 다음을 수행 합니다.
+
+### <a name="enabling-diagnostics-tracing"></a>진단 추적을 사용 하도록 설정
+
+클라이언트와 서버 문제를 디버깅할 때 유용할 수 있는 모든 메시지를 출력 하도록 진단 추적을 사용할 수 있습니다. 진단 추적을 사용 하려면 다음을 수행 합니다.
 
 4. 작업 영역 설정 파일을 만들거나 엽니다 *VSWorkspaceSettings.json* ("사용자의 작업 영역에 대 한 설정을 편집" 참조).
 5. 설정 json 파일에 다음 줄을 추가 합니다.

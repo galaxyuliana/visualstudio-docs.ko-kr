@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: Jamie.Young
 manager: jillfra
-ms.openlocfilehash: 40d5e730bef85fe047923cd85aaa7ee3fa8f5d49
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: cb345d756e748703f407b0601a4ac321452af6a6
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722280"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954431"
 ---
 # <a name="color-value-reference-for-visual-studio"></a>Visual Studio에 대 한 색 값 참조
 
@@ -553,7 +553,7 @@ ms.locfileid: "56722280"
 
 | 밝게 | 어둡게 | 파랑 | 에 사용 되는 중... |
 | :---: | :---: | :---: | --- |
-| ![#FFC9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 견본")<br />`#FFC9DEF5`   | ![#FF2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 견본")<br />`#FF2D2D30`   | ![#FFFDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FFFDF4BF swatch")<br />`#FFFDF4BF` | 실행 단추, 콤보 상자 항목, 명령 모음 단추, 드롭다운 단추 및 메뉴 항목: 백그라운드 |
+| ![#FFC9DEF5 견본](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 견본")<br />`#FFC9DEF5` | ![#FF2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 견본")<br />`#FF2D2D30` | ![#FFFDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FFFDF4BF swatch")<br />`#FFFDF4BF` | 실행 단추, 콤보 상자 항목, 명령 모음 단추, 드롭다운 단추 및 메뉴 항목: 백그라운드 |
 | ![#FFCCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB 견본")<br />`#FFCCCEDB` | ![#FF3F3F46 견본](../../extensibility/ux-guidelines/media/3F3F46.png "#FF3F3F46 견본")<br />`#FF3F3F46` | ![#FF465A7D 견본](../../extensibility/ux-guidelines/media/465A7D.png "#FF465A7D 견본")<br />`#FF465A7D` | 자동 숨기기 탭 테두리 |
 | ![#FFEEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 견본")<br />`#FFEEEEF2` | ![#FF2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 견본")<br />`#FF2D2D30` | ![#FF293955 swatch](../../extensibility/ux-guidelines/media/293955.png "#FF293955 swatch")<br />`#FF293955` | 자동 숨기기 탭 가리키기 및 기본 배경 |
 | ![#FF444444 견본](../../extensibility/ux-guidelines/media/444444.png "#FF444444 견본")<br />`#FF444444` | ![#FFD0D0D0 swatch](../../extensibility/ux-guidelines/media/D0D0D0.png "#FFD0D0D0 swatch")<br />`#FFD0D0D0` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | 자동 숨기기 탭 텍스트, 포커스가 없는 도구 창 제목 표시줄 텍스트 및 도구 창 탭 텍스트 |
@@ -570,7 +570,7 @@ ms.locfileid: "56722280"
 | ![#FF007ACC 견본](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC 견본")<br />`#FF007ACC` | ![#FF007ACC 견본](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC 견본")<br />`#FF007ACC` | ![#FF1B293E 견본](../../extensibility/ux-guidelines/media/1B293E.png "#FF1B293E 견본")<br />`#FF1B293E` | 명령 옵션 모음: 문자 모양 이동 |
 | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FFFFFFFF 견본](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF 견본")<br />`#FFFFFFFF` | ![#FF1B293E 견본](../../extensibility/ux-guidelines/media/1B293E.png "#FF1B293E 견본")<br />`#FF1B293E` | 명령 옵션 모음: 마우스 문자 모양 누름 |
 | ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF1B293E 견본](../../extensibility/ux-guidelines/media/1B293E.png "#FF1B293E 견본")<br />`#FF1B293E` | 명령 모음 텍스트, 드롭다운 및 콤보 상자 메뉴 항목 텍스트 |
-| ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF000000   swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | 명령 모음: 마우스 포인터를 마우스 아래로 및 텍스트를 선택 합니다. |
+| ![#FF1E1E1E 견본](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E 견본")<br />`#FF1E1E1E` | ![#FFF1F1F1 견본](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 견본")<br />`#FFF1F1F1` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | 명령 모음: 마우스 포인터를 마우스 아래로 및 텍스트를 선택 합니다. |
 | ![#FFCCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB 견본")<br />`#FFCCCEDB` | ![#FF222222 견본](../../extensibility/ux-guidelines/media/222222.png "#FF222222 견본")<br />`#FF222222` | ![#FF8591A2 견본](../../extensibility/ux-guidelines/media/8591A2.png "#FF8591A2 견본")<br />`#FF8591A2` | 명령 모음: 도구 모음 구분 기호 |
 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF46464A 견본](../../extensibility/ux-guidelines/media/46464A.png "#FF46464A 견본")<br />`#FF46464A` | ![#FFD6DBE9 swatch](../../extensibility/ux-guidelines/media/D6DBE9.png "#FFD6DBE9 swatch")<br />`#FFD6DBE9` | 명령 모음: 도구 모음 구분 기호 강조 표시 |
 | ![#FFEEEEF2 견본](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 견본")<br />`#FFEEEEF2` | ![#FF2D2D30 견본](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 견본")<br />`#FF2D2D30` | ![#FFD6DBE9 swatch](../../extensibility/ux-guidelines/media/D6DBE9.png "#FFD6DBE9 swatch")<br />`#FFD6DBE9` | 명령 선반 배경 |
