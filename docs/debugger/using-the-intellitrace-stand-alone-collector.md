@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 446348078f79ae49408dac9a1d00cb29f968b184
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 62fabe86798a957f148c4b497f36e9512663cd17
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316849"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710593"
 ---
 # <a name="using-the-intellitrace-stand-alone-collector-c-visual-basic"></a>IntelliTrace 독립 실행형 수집기를 사용 하 여 (C#, Visual Basic)
 
@@ -172,7 +172,7 @@ ms.locfileid: "56316849"
    > [!NOTE]
    > - 앱 속도 저하를 방지하려면 사용량이 많지 않은 로컬 고속 디스크의 위치를 선택합니다.
    >   -   .ITrace 파일과 수집기 파일은 같은 위치에 배치할 수 있습니다. 그러나 웹앱 또는 SharePoint 애플리케이션이 있는 경우에는 이 위치가 애플리케이션을 호스트하는 디렉터리 외부에 있어야 합니다.
-   > 
+   >
    > [!IMPORTANT]
    > - .ITrace 파일 디렉터리는 수집기에서 사용해야 하는 ID만으로 제한합니다. IntelliTrace는 메서드 매개 변수로 또는 반환 값으로 전달되는 데이터를 기록할 수 있으므로 .iTrace 파일은 사용자, 데이터베이스, 기타 소스 정보 및 연결 문자열의 데이터와 같은 중요한 정보를 포함할 수 있습니다.
    >   -   .ITrace 파일을 열 수 있는 사용자에게 중요한 데이터를 볼 수 있는 권한이 있는지 확인합니다. .ITrace 파일을 공유할 때는 주의해야 합니다. 다른 사람이 액세스해야 하는 파일은 안전한 공유 위치에 복사합니다.

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 57ef75b27f90df37132ecb246b6f8d433581a696
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 730793d2b9f2e02d7e5665777f8df4d245b0ddf6
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227461"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56642185"
 ---
 # <a name="idiasessionfindlinesbyaddr"></a>IDiaSession::findLinesByAddr
 지정된 된 주소를 포함 하는 지정 된 compiland에서 줄을 검색 합니다.
@@ -34,22 +34,26 @@ HRESULT findLinesByAddr (
 ```
 
 #### <a name="parameters"></a>매개 변수
-`seg`  
+`seg`
+
 [in] 특정 주소 섹션 구성 요소를 지정합니다.
 
-`offset`  
+`offset`
+
 [in] 특정 주소의 오프셋된 구성 요소를 지정합니다.
 
-`length`  
+`length`
+
 [in] 이 쿼리를 처리 하기 위해 주소 범위의 바이트 수를 지정 합니다.
 
-`ppResult`  
+`ppResult`
+
 [out] 반환 된 [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) 모든 줄의 목록을 포함 하는 개체 번호 규정 하는 지정된 된 주소 범위입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 이 예제에서는 함수의 주소 및 길이 사용 하는 함수에 포함 된 모든 줄 번호를 가져오는 함수를 보여 줍니다.
 
 ```C++
@@ -72,6 +76,6 @@ IDiaEnumLineNumbers* GetLineNumbersByAddr(IDiaSymbol *pFunc,
 ```
 
 ## <a name="see-also"></a>참고 항목
-[IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)  
-[IDiaSession](../../debugger/debug-interface-access/idiasession.md)  
-[IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)

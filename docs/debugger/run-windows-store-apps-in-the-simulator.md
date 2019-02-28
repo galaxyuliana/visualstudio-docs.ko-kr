@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 36e5d5285f59170afaa22338829d186e7eb3e2e2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 628683ae87bc53d59a61e13d3c21d45bfa4eee79
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54949803"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710541"
 ---
 # <a name="run-uwp-apps-in-the-simulator"></a>시뮬레이터에서 UWP 앱 실행
 UWP 앱 용 Visual Studio 시뮬레이터는 UWP 앱을 시뮬레이션 하는 데스크톱 응용 프로그램입니다. 일반적으로 로컬 컴퓨터, 연결된 된 장치 또는 원격 컴퓨터에서 디버그 하려고 합니다. 그러나 일부 시나리오에서는 Visual Studio 시뮬레이터를 사용 하 여 다른 실제 화면 크기와 해상도 에뮬레이션 하려는 합니다. 일반적인 터치 및 회전 이벤트를 시뮬레이션 하 고 네트워크 연결 속성을 시뮬레이트할 수도 있습니다.
@@ -107,7 +107,7 @@ UWP 앱 용 Visual Studio 시뮬레이터는 UWP 앱을 시뮬레이션 하는 �
      ![스크린샷 설정 상황에 맞는 메뉴](../debugger/media/simulator_screenshotsettingscntxmnu.png "SIMULATOR_ScreenShotSettingsCntxMnu")
 
 ##  <a name="BKMK_Simulate_network_connection_properties"></a> 네트워크 연결 속성 시뮬레이트
- 앱 사용자가 네트워크 연결 비용이나 데이터 계획 상태 변경을 지속적으로 인지하고, 지정된 데이터 전송 제한의 로밍 또는 초과로 인한 추가 비용이 발생하지 않도록 앱에서 이 정보를 사용하여 요금제 네트워크 연결 비용을 관리할 수 있습니다. [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) API를 통해 서명된 [NetworkStatusChanged](/uwp/api/windows.networking.connectivity.networkinformation) 및 [TriggerType](/uwp/api/windows.applicationmodel.background.systemtrigger) 이벤트에 응답할 수 있습니다. ([빠른 시작: 요금제 네트워크 비용 제약 조건의 관리](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)합니다.
+ 앱 사용자가 네트워크 연결 비용이나 데이터 계획 상태 변경을 지속적으로 인지하고, 지정된 데이터 전송 제한의 로밍 또는 초과로 인한 추가 비용이 발생하지 않도록 앱에서 이 정보를 사용하여 요금제 네트워크 연결 비용을 관리할 수 있습니다. [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) API를 통해 서명된 [NetworkStatusChanged](/uwp/api/windows.networking.connectivity.networkinformation) 및 [TriggerType](/uwp/api/windows.applicationmodel.background.systemtrigger) 이벤트에 응답할 수 있습니다. [빠른 시작: 데이터 통신 연결 네트워크 비용 제약 조건의 관리](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)을 참조하세요.
 
  네트워크 비용 인식 코드를 디버그하거나 테스트하려면 시뮬레이터가 [GetInternetConnectionProfile](/uwp/api/windows.networking.connectivity.connectionprofile) 에서 반환되는 [ConnectionProfile](/uwp/api/windows.networking.connectivity.networkinformation)개체를 통해 노출되는 네트워크의 속성을 모방하면 됩니다.
 
@@ -131,7 +131,7 @@ UWP 앱 용 Visual Studio 시뮬레이터는 UWP 앱을 시뮬레이션 하는 �
 
    **네트워크 연결 관리에 대한 자세한 내용**
 
-   [빠른 시작: 관리 데이터 통신 연결된 네트워크 비용 제약 조건](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)
+   [빠른 시작: 데이터 통신 연결 네트워크 비용 제약 조건의 관리](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)
 
    [네트워크 정보 샘플](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)
 
@@ -149,4 +149,4 @@ UWP 앱 용 Visual Studio 시뮬레이터는 UWP 앱을 시뮬레이션 하는 �
  키를 눌러 시뮬레이터를 종료할 수 있습니다 **CTRL + ALT + F4**합니다.
 
 ## <a name="see-also"></a>참고 항목
- [Visual Studio에서 앱 실행](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+- [Visual Studio에서 앱 실행](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)

@@ -12,34 +12,34 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 01f8442c12cdbe31111967bd04e2af6d091e36b6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 03d24770c90ebd225fa37dd7f60d794781e79e7e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54925779"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56703008"
 ---
 # <a name="idialinenumbergetcolumnnumber"></a>IDiaLineNumber::get_columnNumber
-식 또는 문이 시작 되는 열 번호를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```  
-[C++]  
-HRESULT get_columnNumber (   
-   DWORD* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 식 또는 문이 시작 되는 열 번호를 반환 합니다. 값이 0 이면 다음 열 정보가 나타나지 않습니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="remarks"></a>주의  
- 이 메서드에서 반환 된 열 값이 문의 줄에서 첫 번째 문자는 줄에 대 한 바이트 오프셋입니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
+식 또는 문이 시작 되는 열 번호를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+HRESULT get_columnNumber ( 
+   DWORD* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 식 또는 문이 시작 되는 열 번호를 반환 합니다. 값이 0 이면 다음 열 정보가 나타나지 않습니다.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="remarks"></a>주의
+ 이 메서드에서 반환 된 열 값이 문의 줄에서 첫 번째 문자는 줄에 대 한 바이트 오프셋입니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

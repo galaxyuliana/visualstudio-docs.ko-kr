@@ -2,15 +2,9 @@
 layout: HubPage
 hide_bc: true
 title: Visual Studio 설명서 | Microsoft Docs
-description: Visual Studio 2017을 사용하여 플랫폼 및 디바이스에 대해 선택한 언어로 응용 프로그램, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.
+description: 'Visual Studio 2017을 사용하여 플랫폼 및 장치에 대해 선택한 언어로 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.'
 ms.topic: landing-page
 searchScope: []
-ms.openlocfilehash: d4419aadd8be604918b6793685079053e03d4289
-ms.sourcegitcommit: d7f232a7596420e40ff8051d42cdf90203af4a74
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "52821359"
 ---
 <div id="main" class="v2">
     <div class="container">

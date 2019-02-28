@@ -22,20 +22,20 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ca749d28b7931b6301d591f0bca513877f3060d9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 11bd61cda8c92721fb42c640b0b5100b8054acdf
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069683"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56698029"
 ---
 # <a name="how-can-i-use-debugger-windows-while-debugging-a-foreground-program"></a>전경 프로그램을 디버깅하는 동안 디버거 창을 어떻게 사용합니까?
-## <a name="problem-description"></a>문제 설명  
- 화면 그림에 대한 문제를 디버깅하려고 합니다. 이 문제를 살펴 보려면 프로그램을 전경에 유지해야 하는데 이 때 디버깅 창에 액세스할 수 없습니다. 어떻게 해야 합니까?  
-  
-## <a name="solution"></a>솔루션  
- 다른 컴퓨터가 있을 경우 원격 디버깅을 사용할 수 있습니다. 컴퓨터 두 대를 설치하면 호스트에서 디버거가 작동하는 동안 원격 컴퓨터에서 화면 그림을 볼 수 있습니다. 원격 디버깅에 대 한 자세한 내용은 참조 하세요. [원격 디버깅](../debugger/remote-debugging.md)합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [네이티브 코드 디버깅 FAQ](../debugger/debugging-native-code-faqs.md)   
- [네이티브 코드 디버그](../debugger/debugging-native-code.md)
+## <a name="problem-description"></a>문제 설명
+ 화면 그림에 대한 문제를 디버깅하려고 합니다. 이 문제를 살펴 보려면 프로그램을 전경에 유지해야 하는데 이 때 디버깅 창에 액세스할 수 없습니다. 어떻게 해야 합니까?
+
+## <a name="solution"></a>솔루션
+ 다른 컴퓨터가 있을 경우 원격 디버깅을 사용할 수 있습니다. 컴퓨터 두 대를 설치하면 호스트에서 디버거가 작동하는 동안 원격 컴퓨터에서 화면 그림을 볼 수 있습니다. 원격 디버깅에 대 한 자세한 내용은 참조 하세요. [원격 디버깅](../debugger/remote-debugging.md)합니다.
+
+## <a name="see-also"></a>참고 항목
+- [네이티브 코드 디버그 FAQ](../debugger/debugging-native-code-faqs.md)
+- [네이티브 코드 디버그](../debugger/debugging-native-code.md)

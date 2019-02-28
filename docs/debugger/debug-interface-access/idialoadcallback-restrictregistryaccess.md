@@ -12,27 +12,27 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ab01afeec0539dbb6f7ccd4e41f265e3430eb923
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 25e6397b65c717be65a9a707dd0a53fc70321acb
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54920047"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56615600"
 ---
 # <a name="idialoadcallbackrestrictregistryaccess"></a>IDiaLoadCallback::RestrictRegistryAccess
-레지스트리 쿼리 기호 검색 경로 찾을 수 하는 경우를 결정 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT RestrictRegistryAccess();  
-```  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>주의  
- 이외의 다른 모든 반환 코드 `S_OK` 기호 검색 경로 대 한 레지스트리를 쿼리하여 방지 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
+레지스트리 쿼리 기호 검색 경로 찾을 수 하는 경우를 결정 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT RestrictRegistryAccess();
+```
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>주의
+ 이외의 다른 모든 반환 코드 `S_OK` 기호 검색 경로 대 한 레지스트리를 쿼리하여 방지 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

@@ -12,28 +12,28 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 521b7576293be30a1ce4e305ef355ef79e79a4f7
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f960ebddbe5e58371f6a8bc7bd592be2fc2f25fa
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54960466"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56629432"
 ---
 # <a name="customtype"></a>CustomType
-공급 업체에서 정의한 형식 (컴파일러 별 형식)으로 식별 되는 `SymTagCustomType` 기호입니다.  
-  
-## <a name="properties"></a>속성  
- 다음 표에서이 기호 형식에 대 한 추가 올바른 속성을 보여 줍니다.  
-  
-|속성|데이터 형식|설명|  
-|--------------|---------------|-----------------|  
-|[IDiaSymbol::get_oemId](../../debugger/debug-interface-access/idiasymbol-get-oemid.md)|`DWORD`|OEM의 식별자입니다.|  
-|[IDiaSymbol::get_oemSymbolId](../../debugger/debug-interface-access/idiasymbol-get-oemsymbolid.md)|`DWORD`|OEM의 내부 id입니다.|  
-|[IDiaSymbol::get_symIndexId](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md)|`DWORD`|기호 인덱스 ID입니다.|  
-|[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|반환 `SymTagCustomType` (중 하나는 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 값).|  
-|[IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)|`IDiaSymbol*`|기호 사용자 지정 형식에서 참조 하는 첫 번째 형식입니다.|  
-|[IDiaSymbol::get_typeId](../../debugger/debug-interface-access/idiasymbol-get-typeid.md)|`DWORD`|ID 형식 기호입니다.|  
-|[IDiaSymbol::get_types](../../debugger/debug-interface-access/idiasymbol-get-types.md)|`IDiaSymbol**`|사용자 지정 형식 기호에서 참조 하는 모든 형식의 배열입니다.|  
-  
-## <a name="see-also"></a>참고 항목  
- [기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
+공급 업체에서 정의한 형식 (컴파일러 별 형식)으로 식별 되는 `SymTagCustomType` 기호입니다.
+
+## <a name="properties"></a>속성
+ 다음 표에서이 기호 형식에 대 한 추가 올바른 속성을 보여 줍니다.
+
+|속성|데이터 형식|설명|
+|--------------|---------------|-----------------|
+|[IDiaSymbol::get_oemId](../../debugger/debug-interface-access/idiasymbol-get-oemid.md)|`DWORD`|OEM의 식별자입니다.|
+|[IDiaSymbol::get_oemSymbolId](../../debugger/debug-interface-access/idiasymbol-get-oemsymbolid.md)|`DWORD`|OEM의 내부 id입니다.|
+|[IDiaSymbol::get_symIndexId](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md)|`DWORD`|기호 인덱스 ID입니다.|
+|[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|반환 `SymTagCustomType` (중 하나는 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 값).|
+|[IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)|`IDiaSymbol*`|기호 사용자 지정 형식에서 참조 하는 첫 번째 형식입니다.|
+|[IDiaSymbol::get_typeId](../../debugger/debug-interface-access/idiasymbol-get-typeid.md)|`DWORD`|ID 형식 기호입니다.|
+|[IDiaSymbol::get_types](../../debugger/debug-interface-access/idiasymbol-get-types.md)|`IDiaSymbol**`|사용자 지정 형식 기호에서 참조 하는 모든 형식의 배열입니다.|
+
+## <a name="see-also"></a>참고 항목
+- [기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

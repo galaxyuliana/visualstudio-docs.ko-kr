@@ -12,27 +12,27 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f05babd6e7abb83362eef01a59e3ab93bbcb925f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a39186cfc8fb3f83986692ebf7c608b895aae7ef
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55029611"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56595361"
 ---
 # <a name="idialoadcallback2restrictreferencepathaccess"></a>IDiaLoadCallback2::RestrictReferencePathAccess
-.Pdb 파일을 찾는.exe 파일이 위치한 경로에 허용 되는지 여부를 결정 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT RestrictReferencePathAccess();  
-```  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>주의  
- 이외의 다른 모든 반환 코드 `S_OK` .exe 파일이 위치한 경로에서.pdb 파일을 검색 하지 않으려면입니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
+.Pdb 파일을 찾는.exe 파일이 위치한 경로에 허용 되는지 여부를 결정 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT RestrictReferencePathAccess();
+```
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>주의
+ 이외의 다른 모든 반환 코드 `S_OK` .exe 파일이 위치한 경로에서.pdb 파일을 검색 하지 않으려면입니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

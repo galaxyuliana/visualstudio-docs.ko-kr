@@ -12,34 +12,35 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1c97d56b5ff47652ae04d2cb2e37105b08a00612
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 92266de7c372fc6bcf7d0775ebb5ab01ea2e0308
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54996001"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56633293"
 ---
 # <a name="idiasymbolgetudtkind"></a>IDiaSymbol::get_udtKind
-다양 한 사용자 정의 형식 (UDT)을 검색합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_udtKind (   
-   DWORD* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `pRetVal`  
- [out] 값을 반환 합니다 [UdtKind 열거형](../../debugger/debug-interface-access/udtkind.md) UDT의 종류를 지정 하는 열거형: 구조체, 클래스 또는 공용 구조체입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
+다양 한 사용자 정의 형식 (UDT)을 검색합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_udtKind ( 
+   DWORD* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `pRetVal`
+
+[out] 값을 반환 합니다 [UdtKind 열거형](../../debugger/debug-interface-access/udtkind.md) UDT의 종류를 지정 하는 열거형: 구조체, 클래스 또는 공용 구조체입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [UdtKind 열거형](../../debugger/debug-interface-access/udtkind.md)
+>  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [UdtKind 열거형](../../debugger/debug-interface-access/udtkind.md)

@@ -10,12 +10,12 @@ ms.assetid: 5838f02d-001f-49ce-adce-c9ea1afaec2f
 caps.latest.revision: 58
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 71c08c78d67f65ec69a982ce431a64ec1c620d27
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cb765bebba4aaa3fe0cece4b64d33d2e810bdfb7
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54755372"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796714"
 ---
 # <a name="creating-a-data-driven-coded-ui-test"></a>데이터 기반의 코딩된 UI 테스트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -205,7 +205,7 @@ ms.locfileid: "54755372"
   
    **지침**  
   
-   자세한 내용은 참조 하세요. [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188) 고 [Testing for Continuous Delivery with Visual Studio 2012 – 5 장: 시스템 테스트 자동화](http://go.microsoft.com/fwlink/?LinkID=255196)  
+   자세한 내용은 [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)(Visual Studio 2012를 사용한 연속 배달 테스트 - 2장: 단위 테스트: 내부 테스트) 및 [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)(Visual Studio 2012를 사용한 연속 배달 테스트 - 5장: 시스템 테스트 자동화)를 참조하세요.  
   
 ## <a name="q--a"></a>Q & A  
   

@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9d1056e65e769710a1092142104e87eaead37521
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: ca403045a22bb2f2aca6af537660d70c791064e3
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227576"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56720512"
 ---
 # <a name="debug-javascript-using-the-console-in-visual-studio"></a>Visual Studio에서 콘솔을 사용한 JavaScript 디버그
 
@@ -187,7 +187,7 @@ JavaScript 콘솔 창에서는 디버거를 중지 및 다시 시작하지 않�
 
 17. DOM 탐색기에서 업데이트된 DIV 요소가 표시되고, 예상된 IMG 요소를 찾기 위해 하위 트리로 이동할 수 있습니다.
 
-18.  **디버그** > **Stop 디버그ging** 를 선택하거나 Shift+F5를 눌러 디버깅을 중지한 다음 소스 코드를 수정합니다.
+18. **디버그** > **Stop 디버그ging** 를 선택하거나 Shift+F5를 눌러 디버깅을 중지한 다음 소스 코드를 수정합니다.
 
     수정된 샘플 코드가 포함된 전체 default.html 페이지는 [HTML, CSS 및 JavaScript 샘플 코드 디버깅](../debugger/debug-html-css-and-javascript-sample-code.md)을 참조하세요.
 
@@ -202,7 +202,7 @@ JavaScript 콘솔 창과 같은 JavaScript 디버깅 도구를 사용하는 동�
 
 2. 선택 **로컬 컴퓨터** 드롭다운 목록에서 옆에 **디버깅 시작** 단추를 **디버그** 도구 모음입니다.
 
-3.  **디버그** > **Start 디버그ging**을 선택하거나 F5를 선택합니다.
+3. **디버그** > **Start 디버그ging**을 선택하거나 F5를 선택합니다.
 
     실행이 `updateImages()` 함수에 도달하면 응용 프로그램이 중단 모드로 들어가며, 현재 프로그램 실행 줄은 노란색으로 강조 표시됩니다.
 
@@ -246,14 +246,14 @@ JavaScript 콘솔 창을 사용하면 한번에 웹 플랫폼 호스트 (WWAHost
 
 ![JavaScript 콘솔 창에서 선택한 대상](../debugger/media/js_console_target.png "JS_Console_Target")
 
-또한 `cd` 명령을 사용하여 실행 컨텍스트를 전환할 수도 있지만, 다른 실행 컨텍스트의 이름을 알아야 하고 사용하는 참조가 범위 내에 있어야 합니다.  **대상** 목록에서 다른 실행 컨텍스트에 액세스하기가 더 쉽습니다.
+또한 `cd` 명령을 사용하여 실행 컨텍스트를 전환할 수도 있지만, 다른 실행 컨텍스트의 이름을 알아야 하고 사용하는 참조가 범위 내에 있어야 합니다. **대상** 목록에서 다른 실행 컨텍스트에 액세스하기가 더 쉽습니다.
 
 ## <a name="see-also"></a>참고 항목
-[Visual Studio에서 앱 디버그](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)  
-[JavaScript 콘솔 명령](../debugger/javascript-console-commands.md)  
-[앱 새로 고침(JavaScript)](../debugger/refresh-an-app-javascript.md)  
-[바로 가기 키](../debugger/keyboard-shortcuts-html-and-javascript.md)  
-[HTML, CSS 및 JavaScript 샘플 코드 디버그](../debugger/debug-html-css-and-javascript-sample-code.md)  
-[빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)  
-[WebView 컨트롤 디버그](../debugger/debug-a-webview-control.md)  
-[기술 지원 및 접근성](https://visualstudio.microsoft.com/vs/support/)
+- [Visual Studio에서 앱 디버그](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+- [JavaScript 콘솔 명령](../debugger/javascript-console-commands.md)
+- [앱 새로 고침(JavaScript)](../debugger/refresh-an-app-javascript.md)
+- [바로 가기 키](../debugger/keyboard-shortcuts-html-and-javascript.md)
+- [HTML, CSS 및 JavaScript 샘플 코드 디버그](../debugger/debug-html-css-and-javascript-sample-code.md)
+- [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)
+- [WebView 컨트롤 디버그](../debugger/debug-a-webview-control.md)
+- [기술 지원 및 접근성](https://visualstudio.microsoft.com/vs/support/)

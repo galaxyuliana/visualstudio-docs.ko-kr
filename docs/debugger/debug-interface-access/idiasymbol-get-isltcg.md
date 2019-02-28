@@ -12,40 +12,41 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 80f8218d67b16768f4e36c7a9a21839a5217f5ca
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b674e99bcb9bd621808b080fffa6873f96cfb707
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54977881"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56611791"
 ---
 # <a name="idiasymbolgetisltcg"></a>IDiaSymbol::get_isLTCG
-지정 하는 플래그를 검색 하는지 여부를 [Compiland](../../debugger/debug-interface-access/compiland.md) 링커 스위치를 사용 하 여 연결 되었습니다 [/LTCG (링크 타임 코드 생성)](/cpp/build/reference/ltcg-link-time-code-generation), 전체 프로그램 최적화 하는 데는 도움이 합니다. 이 스위치는 관리 되는 코드에만 적용 됩니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_iSLTCG(  
-   BOOL *pFlag  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- pFlag  
- [out] 반환 `TRUE` 경우는 `compiland` /LTCG 링커 스위치를 사용 하 여 연결 된 그렇지 않으면 반환 `FALSE`합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
-  
+지정 하는 플래그를 검색 하는지 여부를 [Compiland](../../debugger/debug-interface-access/compiland.md) 링커 스위치를 사용 하 여 연결 되었습니다 [/LTCG (링크 타임 코드 생성)](/cpp/build/reference/ltcg-link-time-code-generation), 전체 프로그램 최적화 하는 데는 도움이 합니다. 이 스위치는 관리 되는 코드에만 적용 됩니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_iSLTCG(
+   BOOL *pFlag
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ pFlag
+
+[out] 반환 `TRUE` 경우는 `compiland` /LTCG 링커 스위치를 사용 하 여 연결 된 그렇지 않으면 반환 `FALSE`합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
+
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.  
-  
-## <a name="requirements"></a>요구 사항  
-  
-|요구 사항|설명|  
-|-----------------|-----------------|  
-|헤더:|dia2.h|  
-|버전:|DIA SDK v8.0|  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+>  반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
+
+## <a name="requirements"></a>요구 사항
+
+|요구 사항|설명|
+|-----------------|-----------------|
+|헤더:|dia2.h|
+|버전:|DIA SDK v8.0|
+
+## <a name="see-also"></a>참고 항목
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

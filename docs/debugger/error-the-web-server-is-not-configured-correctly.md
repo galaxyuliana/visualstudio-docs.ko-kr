@@ -1,5 +1,5 @@
 ---
-title: '오류: 웹 서버가 올바르게 구성 되지 않았습니다. | Microsoft Docs'
+title: '오류: 웹 서버가 올바르게 구성 되지 않은 | Microsoft Docs'
 ms.date: 09/20/2017
 ms.topic: troubleshooting
 f1_keywords:
@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fd59211da9228f2940c675f889d0536fbea9045d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fc0c61b766b6f93fd1321b15861000d7c628f124
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55019194"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56711607"
 ---
 # <a name="error-the-web-server-is-not-configured-correctly"></a>오류: 웹 서버가 제대로 구성되어 있지 않습니다.
 
@@ -44,9 +44,9 @@ ms.locfileid: "55019194"
 4. (IIS) 서버에서 올바른 버전의 ASP.NET가 설치 되었는지 확인 합니다.
 
     일치 하지 않는 버전의 Visual Studio 프로젝트에 IIS에서 ASP.NET에는이 문제가 발생할 수 있습니다. Web.config에서 프레임 워크 버전을 설정 해야 합니다. IIS에서 ASP.NET을 설치 하려면 사용 합니다 [웹 플랫폼 설치 관리자 (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx)합니다. 도 참조 하세요 [IIS 8.0를 사용 하 여 ASP.NET 3.5 및 ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) 또는 ASP.NET Core [IIS 사용 하 여 Windows에서 호스트](https://docs.asp.net/en/latest/publishing/iis.html)합니다.
-  
+
 4. 경우는 `maxConnection` IIS에서의 제한은 너무 낮기 및 너무 많은 연결이 해야 할 수 있습니다 [연결 제한을 늘리도록](/iis/configuration/system.applicationhost/sites/sitedefaults/limits)합니다.
-  
-## <a name="see-also"></a>참고 항목  
- [원격 IIS 컴퓨터의 원격 디버깅 ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)   
- [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
+
+## <a name="see-also"></a>참고 항목
+- [원격 IIS 컴퓨터의 원격 디버깅 ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
+- [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

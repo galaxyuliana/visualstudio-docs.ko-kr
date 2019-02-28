@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b5fa908692167b49c6bb92c892fb143b882d231
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 90230bd95e1dbcd3e4c186257c6c36faad6ba1f7
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318578"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56605476"
 ---
 # <a name="cvaccesse"></a>CV_access_e
 표시 유형 (액세스 수준) 멤버 함수 및 변수의 범위를 지정합니다.
@@ -33,14 +33,11 @@ typedef enum CV_access_e {
 ```
 
 ## <a name="elements"></a>요소
-CV_private  
-멤버 액세스 가능성은 private입니다.
+CV_private 멤버 개인 액세스할 수 있습니다.
 
-CV_protected  
-멤버 액세스를 보호 했습니다.
+CV_protected 멤버 액세스를 보호 했습니다.
 
-CV_public  
-멤버에 대 한 공용 액세스 합니다.
+CV_public 멤버에 대 한 공용 액세스 합니다.
 
 ## <a name="remarks"></a>주의
 `friend` 액세스 지정 자가 포함 되지 않습니다 여기서 클래스의 전용 및 보호 된 요소에 액세스할 수 있는 비 멤버 함수에 의해 일반적으로 사용 됩니다. 사용 된 [idiasymbol:: Get_symtag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md) 메서드를 사용 하 여 기호 찾기 `SymTagFriend` 액세스 합니다.
@@ -49,6 +46,6 @@ CV_public
 헤더: cvconst.h
 
 ## <a name="see-also"></a>참고 항목
-[열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol::get_access](../../debugger/debug-interface-access/idiasymbol-get-access.md)  
-[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)
+- [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol::get_access](../../debugger/debug-interface-access/idiasymbol-get-access.md)
+- [IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)

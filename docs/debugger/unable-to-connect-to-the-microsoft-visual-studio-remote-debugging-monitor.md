@@ -15,16 +15,16 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e10252a2065e45a1b2dd14e00972415e24738601
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2b74b924d8d3e10192940686fac0ffce88e3f153
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54926932"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56692868"
 ---
 # <a name="unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor"></a>Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 원격 디버깅 모니터는 제대로에 설정 되지 않은 원격 컴퓨터 또는 원격 컴퓨터에 네트워크 문제 또는 방화벽으로 인해 액세스할 수 없는 때문에이 메시지가 나타날 수 있습니다.
-  
+
 > [!IMPORTANT]
 >  제품 버그 때문에이 메시지가 수신 되었다고 생각 되 면 하세요 [이 문제를 보고](../ide/how-to-report-a-problem-with-visual-studio-2017.md) Visual Studio로 합니다. 자세한 도움말이 필요한 경우 [Talk to Us](../ide/talk-to-us.md) 에서 Microsoft에 문의하는 방법을 참조하세요.
 
@@ -106,16 +106,16 @@ Visual Studio 원격 디버거에 연결할 수 없습니다. 이 메시지는 �
 
 ## <a name="security_package"></a> 보안 패키지 특정 오류가 발생 했습니다.
 
-Windows XP 및 Windows 7에 특정 레거시 문제를 수 있습니다. 이 참조 하세요 [정보](https://stackoverflow.com/questions/4786016/unable-to-connect-to-the-microsoft-remote-debugging-monitor-a-security-package)합니다. 
+Windows XP 및 Windows 7에 특정 레거시 문제를 수 있습니다. 이 참조 하세요 [정보](https://stackoverflow.com/questions/4786016/unable-to-connect-to-the-microsoft-remote-debugging-monitor-a-security-package)합니다.
 
 ## <a name="causes-and-recommendations"></a>원인 및 권장 사항
 
-### <a name="dns"></a> 원격 머신에 연결할 수 없음 
+### <a name="dns"></a> 원격 머신에 연결할 수 없음
 
 원격 컴퓨터 이름을 사용 하 여 연결할 수 없는 경우 IP 주소를 대신 사용해 보세요. 사용할 수 있습니다 `ipconfig` IPv4 주소를 가져오려면 원격 컴퓨터의 명령줄에서. 호스트 파일을 사용 하는 경우 올바르게 구성 되어 있는지 확인 합니다.
 
 실패할 경우 원격 컴퓨터에 네트워크에 액세스할 수 있는지 확인 하십시오 ([ping](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee624059(v=ws.10)) 원격 컴퓨터). 인터넷을 통한 원격 디버깅 지원 되지 않는 일부 Microsoft Azure로의 시나리오에서 제외 합니다.
-  
+
 ### <a name="server_incorrect"></a> 서버 이름이 잘못 되었거나 원격 디버거를 사용 하 여 방해 하는 타사 소프트웨어
 
 Visual Studio에서 프로젝트 속성을 확인 하 고 서버 이름이 올바른지 확인 합니다. 항목을 참조 하세요 [ C# 및 Visual Basic](../debugger/remote-debugging-csharp.md#remote_csharp) 하 고 [c + +](../debugger/remote-debugging-cpp.md#remote_cplusplus)합니다. ASP.NET에서 엽니다 **속성 / 웹 / 서버** 또는 **속성 디버그** 프로젝트 형식에 따라 합니다.
@@ -125,11 +125,11 @@ Visual Studio에서 프로젝트 속성을 확인 하 고 서버 이름이 올�
 
 서버 이름이 올바른지, 바이러스 백신 소프트웨어 또는 타사 방화벽 원격 디버거를 차단 될 수 있습니다. 로컬로 디버그할 때는이 Visual Studio는 32 비트 응용 프로그램을 64 비트 응용 프로그램을 디버깅 하려면 64 비트 버전의 원격 디버거를 사용 하기 때문에 발생할 수 있습니다. 32 비트 및 64 비트 프로세스를 로컬 컴퓨터 내의 로컬 네트워크를 사용 하 여 통신 합니다. 컴퓨터에서 나가는 네트워크 트래픽이 없지만 타사 보안 소프트웨어가 통신을 차단할 수 있습니다.
 
-### <a name="user_accounts"></a> 원격 디버거가 다른 사용자 계정으로 실행되고 있음 
+### <a name="user_accounts"></a> 원격 디버거가 다른 사용자 계정으로 실행되고 있음
 
-원격 디버거를 기본적으로 연결을에서 허용할 원격 디버거 및 Administrators 그룹의 멤버를 시작한 사용자입니다. 추가 사용자 권한은 명시적으로 부여 되어야 합니다. 
- 
-다음 방법 중 하나를 사용하여 이 문제를 해결할 수 있습니다.  
+원격 디버거를 기본적으로 연결을에서 허용할 원격 디버거 및 Administrators 그룹의 멤버를 시작한 사용자입니다. 추가 사용자 권한은 명시적으로 부여 되어야 합니다.
+
+다음 방법 중 하나를 사용하여 이 문제를 해결할 수 있습니다.
 
 -   Visual Studio 사용자는 원격 디버거의 사용 권한에 추가 (원격 디버거 창에서 선택 **도구 > 권한을**).
 
@@ -137,33 +137,33 @@ Visual Studio에서 프로젝트 속성을 확인 하 고 서버 이름이 올�
 
     > [!NOTE]
     > 원격 서버에서 원격 디버거를 실행 하는 경우 원격 디버거 응용 프로그램을 마우스 오른쪽 단추로 클릭 하 고 선택 **관리자 권한으로 실행** (또는 원격 디버거를 서비스로 실행할 수 있습니다). 원격 서버에서 실행 하지 않는 경우만 해당 정상적으로 시작 합니다.
-  
--   **/allow \<사용자 이름>** 매개 변수를 사용하여 명령줄에서 원격 디버거를 시작할 수 있습니다`msvsmon /allow <username@computer>`. 
-  
+
+-   **/allow \<사용자 이름>** 매개 변수를 사용하여 명령줄에서 원격 디버거를 시작할 수 있습니다`msvsmon /allow <username@computer>`.
+
 -   또는 사용자가 원격 디버깅을 수행할 수 있습니다. 원격 디버거 창에서 **도구 > 옵션** 대화 상자로 이동합니다. **인증 안 함**을 선택하는 경우 **모든 사용자가 디버깅할 수 있도록 허용**을 선택할 수 있습니다. 그러나 다른 옵션은 실패 하는 경우에 또는 개인 네트워크에 있는 경우이 옵션을 시도해 야.
 
-### <a name="firewall"></a> 원격 머신의 방화벽이 원격 디버거로 들어오는 연결을 허용하지 않음  
+### <a name="firewall"></a> 원격 머신의 방화벽이 원격 디버거로 들어오는 연결을 허용하지 않음
  Visual Studio와 원격 디버거 간의 통신을 허용하도록 Visual Studio 컴퓨터의 방화벽 및 원격 컴퓨터의 방화벽을 구성해야 합니다. 원격 디버거에서 사용 중인 포트에 대한 자세한 내용은 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)을 참조하세요. Windows 방화벽을 구성하는 방법에 대한 자세한 내용은 [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)을 참조하세요.
-  
-### <a name="the-version-of-the-remote-debugger-doesnt-match-the-version-of-visual-studio"></a>원격 디버거 버전이 Visual Studio 버전과 일치하지 않음  
+
+### <a name="the-version-of-the-remote-debugger-doesnt-match-the-version-of-visual-studio"></a>원격 디버거 버전이 Visual Studio 버전과 일치하지 않음
  로컬로 실행하는 Visual Studio 버전이 원격 컴퓨터에서 실행되는 원격 디버깅 모니터 버전과 일치해야 합니다. 이 문제를 해결하려면 일치하는 버전의 원격 디버깅 모니터를 다운로드하여 설치합니다. 올바른 버전의 원격 디버거를 참조 하세요 [원격 디버깅](../debugger/remote-debugging.md)합니다.
-  
-### <a name="the-local-and-remote-machines-have-different-authentication-modes"></a>로컬 및 원격 컴퓨터의 인증 모드가 서로 다름  
+
+### <a name="the-local-and-remote-machines-have-different-authentication-modes"></a>로컬 및 원격 컴퓨터의 인증 모드가 서로 다름
  로컬 및 원격 컴퓨터에서 동일한 인증 모드를 사용해야 합니다. 이 문제를 해결하려면 두 컴퓨터에서 모두 동일한 인증 모드를 사용 중인지 확인합니다. 인증 모드를 변경할 수 있습니다. 원격 디버거 창에서로 이동 합니다 **도구 > 옵션** 대화 상자.
-  
- 인증 모드에 대한 자세한 내용은 [Windows 인증 개요](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831472(v=ws.11))를 참조하세요.   
-  
-### <a name="anti-virus-software-is-blocking-the-connections"></a>바이러스 백신 소프트웨어가 연결을 차단함  
- Windows 바이러스 백신 소프트웨어는 원격 디버거 연결을 허용하지만 일부 타사 바이러스 백신 소프트웨어가 차단할 수도 있습니다. 이러한 연결을 허용하는 방법을 알아보려면 해당 바이러스 백신 소프트웨어에 대한 설명서를 확인합니다.  
-  
-### <a name="network-security-policy-is-blocking-communication-between-the-remote-machine-and-visual-studio"></a>네트워크 보안 정책에서 원격 컴퓨터와 Visual Studio 간의 통신을 차단함  
- 네트워크 보안을 검토하여 통신을 차단하지 않는지 확인합니다. Windows 네트워크 보안 정책에 대 한 자세한 내용은 참조 하세요. [보안 정책 설정을](/windows/device-security/security-policy-settings/security-policy-settings)합니다.  
-  
-### <a name="the-network-is-too-busy-to-support-remote-debugging"></a>네트워크 사용량이 너무 많아 원격 디버깅을 지원할 수 없음  
- 다른 시간에 원격 디버깅을 수행하거나 다른 시간에 네트워크 작업을 다시 예약해야 할 수도 있습니다.  
-  
-## <a name="more-help"></a>자세한 도움말  
+
+ 인증 모드에 대한 자세한 내용은 [Windows 인증 개요](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831472(v=ws.11))를 참조하세요.
+
+### <a name="anti-virus-software-is-blocking-the-connections"></a>바이러스 백신 소프트웨어가 연결을 차단함
+ Windows 바이러스 백신 소프트웨어는 원격 디버거 연결을 허용하지만 일부 타사 바이러스 백신 소프트웨어가 차단할 수도 있습니다. 이러한 연결을 허용하는 방법을 알아보려면 해당 바이러스 백신 소프트웨어에 대한 설명서를 확인합니다.
+
+### <a name="network-security-policy-is-blocking-communication-between-the-remote-machine-and-visual-studio"></a>네트워크 보안 정책에서 원격 컴퓨터와 Visual Studio 간의 통신을 차단함
+ 네트워크 보안을 검토하여 통신을 차단하지 않는지 확인합니다. Windows 네트워크 보안 정책에 대 한 자세한 내용은 참조 하세요. [보안 정책 설정을](/windows/device-security/security-policy-settings/security-policy-settings)합니다.
+
+### <a name="the-network-is-too-busy-to-support-remote-debugging"></a>네트워크 사용량이 너무 많아 원격 디버깅을 지원할 수 없음
+ 다른 시간에 원격 디버깅을 수행하거나 다른 시간에 네트워크 작업을 다시 예약해야 할 수도 있습니다.
+
+## <a name="more-help"></a>자세한 도움말
  더 많은 원격 디버거 도움말을 보려면 원격 디버거의 도움말 페이지를 엽니다 (**도움말 > 사용량** 원격 디버거의).
-  
-## <a name="see-also"></a>참고 항목  
- [Remote Debugging](../debugger/remote-debugging.md)
+
+## <a name="see-also"></a>참고 항목
+- [Remote Debugging](../debugger/remote-debugging.md)

@@ -15,29 +15,29 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0963d1675c3456601aba70bb5291b7cc19d454fb
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 9979f723a342aaefee80f9410c28aa68047b5e57
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54930760"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56683547"
 ---
-# <a name="error-timeout-while-debugging-web-services"></a>오류: 웹 서비스를 디버깅하는 동안 시간 초과
-코드를 호출하여 XML Web services를 한 단계씩 실행할 때 호출 시간이 초과되어 디버깅을 계속할 수 없는 경우가 있습니다. 이때 다음과 같은 오류 메시지가 나타날 수 있습니다.  
-  
+# <a name="error-timeout-while-debugging-web-services"></a>오류: 웹 서비스를 디버깅하는 동안 시간이 초과되었습니다.
+코드를 호출하여 XML Web services를 한 단계씩 실행할 때 호출 시간이 초과되어 디버깅을 계속할 수 없는 경우가 있습니다. 이때 다음과 같은 오류 메시지가 나타날 수 있습니다.
+
 ```cmd
-An unhandled exception of type 'System.Net.WebException' occurred in   
-system.Web.services.dll  
-Additional information: The operation has timed-out.  
-```  
-  
-## <a name="solution"></a>솔루션  
- 이 문제를 방지하려면 다음 예제와 같이 XML Web services 호출에 대한 시간 제한 값을 무한대로 설정합니다.  
-  
+An unhandled exception of type 'System.Net.WebException' occurred in
+system.Web.services.dll
+Additional information: The operation has timed-out.
+```
+
+## <a name="solution"></a>솔루션
+ 이 문제를 방지하려면 다음 예제와 같이 XML Web services 호출에 대한 시간 제한 값을 무한대로 설정합니다.
+
 ```csharp
-Service1 obj = new Service1();  
-obj.TimeOut = -1; // infinite time out.  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
+Service1 obj = new Service1();
+obj.TimeOut = -1; // infinite time out.
+```
+
+## <a name="see-also"></a>참고 항목
+- [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

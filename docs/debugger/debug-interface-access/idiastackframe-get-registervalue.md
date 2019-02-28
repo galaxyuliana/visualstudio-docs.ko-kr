@@ -12,35 +12,37 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 52967a96cccc1d02f6361cccc00b06a391f06427
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: a819293863b658f6e12609b2c1cd83c37532e02d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54935568"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56637635"
 ---
 # <a name="idiastackframegetregistervalue"></a>IDiaStackFrame::get_registerValue
-스택 프레임에 저장 된 지정 된 레지스터의 값을 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_registerValue(  
-   ULONG      registerIndex,  
-   ULONGLONG *pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `registerIndex`  
- [in] 중 하나는 [CV_HREG_e 열거형](../../debugger/debug-interface-access/cv-hreg-e.md) 열거형 값입니다.  
-  
- `pRetVal`  
- [out] 레지스터에 저장 하는 값입니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)   
- [CV_HREG_e 열거형](../../debugger/debug-interface-access/cv-hreg-e.md)
+스택 프레임에 저장 된 지정 된 레지스터의 값을 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_registerValue(
+   ULONG      registerIndex,
+   ULONGLONG *pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `registerIndex`
+
+[in] 중 하나는 [CV_HREG_e 열거형](../../debugger/debug-interface-access/cv-hreg-e.md) 열거형 값입니다.
+
+ `pRetVal`
+
+[out] 레지스터에 저장 하는 값입니다.
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+- [CV_HREG_e 열거형](../../debugger/debug-interface-access/cv-hreg-e.md)

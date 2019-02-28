@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 12c7c2edc71843377c4213764dfb30727a14d4b5
-ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
+ms.openlocfilehash: 8b8618cc3484584430bbe3ae3fde59b6e5d5fc78
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "55987602"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56612363"
 ---
 # <a name="idiadatasource"></a>IDiaDataSource
 디버깅 기호가 소스에 액세스를 시작 합니다.
@@ -46,7 +46,7 @@ load 메서드 중 하나를 호출 하 여 `IDiaDataSource` 인터페이스 사
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 이 인터페이스를 호출 하 여 가져온 합니다 `CoCreateInstance` 클래스 식별자를 사용 하 여 함수 `CLSID_DiaSource` 와의 인터페이스 ID `IID_IDiaDataSource`합니다. 이 인터페이스는 가져오는 방법을 보여 줍니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```C++
 
@@ -70,4 +70,4 @@ if (FAILED(hr))
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)

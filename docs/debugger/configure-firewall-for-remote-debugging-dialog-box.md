@@ -20,30 +20,28 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f4a7346d9398ab9743319661efffdaf3f1f4b89b
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 75342630e347eaabe6854498c43294599afae5a5
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55018607"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56637518"
 ---
 # <a name="configure-firewall-for-remote-debugging-dialog-box"></a>원격 디버깅을 위한 방화벽 구성 대화 상자
-이 대화 상자는 Windows 방화벽에서 디버거가 네트워크를 통해 정보를 받는 것을 차단할 때 나타납니다. 원격 디버깅을 계속하려면 디버거가 정보를 받을 수 있도록 방화벽에서 한 지점을 열어야 합니다.  
-  
+이 대화 상자는 Windows 방화벽에서 디버거가 네트워크를 통해 정보를 받는 것을 차단할 때 나타납니다. 원격 디버깅을 계속하려면 디버거가 정보를 받을 수 있도록 방화벽에서 한 지점을 열어야 합니다.
+
 > [!CAUTION]
->  방화벽에서 한 지점을 열면 방화벽을 통해 차단해야 하는 보안 위협에 컴퓨터가 노출될 수 있습니다. 원격 디버깅을 위해 빈 영역을 열면 Visual Studio 2015에서 4020 및 4021 포트가 차단 해제됩니다. 다른 버전의 Visual Studio에서는 다른 포트 번호가 사용됩니다. 자세한 내용은 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)합니다. 또한 디버거가 포트를 추가로 열 수 있습니다. 자세한 내용은 [원격 디버깅용 Windows 방화벽 구성](../debugger/configure-the-windows-firewall-for-remote-debugging.md)합니다.  
-  
-## <a name="uielement-list"></a>UI 요소 목록  
- **원격 디버깅 취소**  
- 원격 디버깅 시도를 취소합니다. 컴퓨터의 보안 설정은 그대로 유지됩니다.  
-  
- **로컬 네트워크(서브넷)의 컴퓨터에서 원격 디버깅 차단 해제**  
- 로컬 서브넷에 있는 컴퓨터의 원격 디버깅을 활성화합니다. 이 옵션을 설정하면 로컬 서브넷에 있는 컴퓨터의 보안이 취약해질 수 있지만 방화벽은 계속해서 서브넷 외부에서 들어오는 정보를 차단합니다.  
-  
- **모든 컴퓨터에서 원격 디버깅 차단 해제**  
- 네트워크에 있는 모든 컴퓨터의 원격 디버깅을 활성화합니다. 이 설정은 보안이 가장 취약합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [디버거 보안](../debugger/debugger-security.md)   
- [Remote Debugging](../debugger/remote-debugging.md)  
- [사용자 인터페이스 참조 디버그](../debugger/debugging-user-interface-reference.md)
+> 방화벽에서 한 지점을 열면 방화벽을 통해 차단해야 하는 보안 위협에 컴퓨터가 노출될 수 있습니다. 원격 디버깅을 위해 빈 영역을 열면 Visual Studio 2015에서 4020 및 4021 포트가 차단 해제됩니다. 다른 버전의 Visual Studio에서는 다른 포트 번호가 사용됩니다. 자세한 내용은 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)합니다. 또한 디버거가 포트를 추가로 열 수 있습니다. 자세한 내용은 [원격 디버깅용 Windows 방화벽 구성](../debugger/configure-the-windows-firewall-for-remote-debugging.md)합니다.
+
+## <a name="uielement-list"></a>UI 요소 목록
+ **원격 디버깅 취소** 원격 디버깅 시도 취소 합니다. 컴퓨터의 보안 설정은 그대로 유지됩니다.
+
+ **로컬 네트워크 (서브넷)에 있는 컴퓨터에서 원격 디버깅 차단 해제** 로컬 서브넷에서 컴퓨터의 원격 디버깅을 활성화 합니다. 이 옵션을 설정하면 로컬 서브넷에 있는 컴퓨터의 보안이 취약해질 수 있지만 방화벽은 계속해서 서브넷 외부에서 들어오는 정보를 차단합니다.
+
+ **모든 컴퓨터에서 원격 디버깅 차단 해제** 네트워크에 있는 모든 컴퓨터의 원격 디버깅을 활성화 합니다. 이 설정은 보안이 가장 취약합니다.
+
+## <a name="see-also"></a>참고 항목
+
+- [디버거 보안](../debugger/debugger-security.md)
+- [Remote Debugging](../debugger/remote-debugging.md)
+- [사용자 인터페이스 참조 디버그](../debugger/debugging-user-interface-reference.md)

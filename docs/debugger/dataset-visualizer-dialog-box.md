@@ -21,24 +21,24 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 43890273a1343de380f7b9b289f8836725d2016a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 251e6ca5d1d9985defc8dff1dc6be95f3a088bbe
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54967354"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56626325"
 ---
 # <a name="dataset-visualizer-dialog-box"></a>데이터 세트 시각화 도우미 대화 상자
-데이터 집합 시각화 도우미를 사용하면 DataSet, DataTable, DataView 또는 DataViewManager 개체의 내용을 볼 수 있습니다. 디버거 변수 창이나 DataTip에서 이러한 개체 중 하나의 값 옆에 나타나는 돋보기 아이콘을 클릭하면 이 시각화 도우미에 액세스할 수 있습니다.  
-  
- 이 시각화 도우미에서 개체를 변경할 수 있습니다. 변경 내용은 행을 커밋하는 즉시 저장됩니다.  
-  
-## <a name="uielement-list"></a>UI 요소 목록  
- 표  
- 데이터 집합 내에서 시각화할 테이블을 선택하려면 이 드롭다운 목록 상자를 사용합니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [디버거 보안](../debugger/debugger-security.md)   
- [사용자 지정 시각화 도우미 만들기](../debugger/create-custom-visualizers-of-data.md)   
- [디버거 창](../debugger/debugger-windows.md)   
- [데이터 팁에서 데이터 값 보기](../debugger/view-data-values-in-data-tips-in-the-code-editor.md)
+데이터 집합 시각화 도우미를 사용하면 DataSet, DataTable, DataView 또는 DataViewManager 개체의 내용을 볼 수 있습니다. 디버거 변수 창이나 DataTip에서 이러한 개체 중 하나의 값 옆에 나타나는 돋보기 아이콘을 클릭하면 이 시각화 도우미에 액세스할 수 있습니다.
+
+ 이 시각화 도우미에서 개체를 변경할 수 있습니다. 변경 내용은 행을 커밋하는 즉시 저장됩니다.
+
+## <a name="uielement-list"></a>UI 요소 목록
+ 테이블 시각화 하려는 데이터 집합 내에서 테이블을 선택 하려면이 드롭다운 목록 상자를 사용 합니다.
+
+## <a name="see-also"></a>참고 항목
+
+- [디버거 보안](../debugger/debugger-security.md)
+- [Create Custom Visualizers of Data](../debugger/create-custom-visualizers-of-data.md)(데이터의 사용자 지정 시각화 도우미 만들기)
+- [디버거 창](../debugger/debugger-windows.md)
+- [데이터 팁에서 데이터 값 보기](../debugger/view-data-values-in-data-tips-in-the-code-editor.md)

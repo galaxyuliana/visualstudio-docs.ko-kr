@@ -10,24 +10,20 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2c05e19b3bbd5078b29628101e90ca33592cda31
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 2cbfbfb5ee11711b36d20d808cef22b42bcc43b5
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55014044"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56721006"
 ---
 # <a name="view-menu-commands"></a>보기 메뉴 명령
-합니다 **보기** 메뉴 명령 제어 Spy + +에 대 한 사용자 인터페이스를 제공 합니다.  
-  
- **글꼴**  
- 열립니다는 **글꼴** 대화 상자에서 현재 Spy + + 보기에 사용할 글꼴을 선택할 수 있습니다.  
-  
- **도구 모음**  
- 도구 모음을 표시 하거나 숨깁니다.  
-  
- **상태 표시줄**  
- 상태 표시줄을 표시 하거나 숨깁니다.  
-  
- **속성**  
- 열립니다는 **속성** 현재 보기에 대 한 대화 상자.
+합니다 **보기** 메뉴 명령 제어 Spy + +에 대 한 사용자 인터페이스를 제공 합니다.
+
+ **글꼴** 열립니다 합니다 **글꼴** 대화 상자에서 현재 Spy + + 보기에 사용할 글꼴을 선택할 수 있습니다.
+
+ **도구 모음** 도구 모음 표시 / 숨기기.
+
+ **상태 표시줄** 상태 표시줄 표시 / 숨기기.
+
+ **속성** 열립니다 합니다 **속성** 현재 보기에 대 한 대화 상자.

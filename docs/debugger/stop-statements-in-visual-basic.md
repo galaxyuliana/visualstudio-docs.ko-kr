@@ -19,45 +19,45 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3ea8f2b9fc9b6cc2694db94e156f1a182fb98e29
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 329a3aa2805e8a95e14a5d78dc2231ade81ad6e4
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55011600"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56691828"
 ---
 # <a name="stop-statements-in-visual-basic"></a>Visual Basic의 Stop 문
-중단점을 설정하는 대신 Visual Basic의 Stop 문을 사용하는 프로그래밍 방식을 제공합니다. 디버거에서는 Stop 문이 나올 경우 프로그램 실행을 중단하여 중단 모드를 시작합니다. C# 프로그래머는 System.Diagnostics.Debugger.Break에 대한 호출을 사용하여 동일한 결과를 얻을 수 있습니다.  
-  
- Stop 문을 설정하거나 제거하려면 소스 코드를 편집해야 합니다. 중단점을 설정하거나 제거하는 것처럼 디버거 명령을 사용하여 Stop 문을 설정하거나 제거할 수는 없습니다.  
-  
- End 문과 달리, Stop 문은 변수를 다시 설정하거나 사용자를 디자인 모드로 되돌리지 않습니다. 디버그 메뉴에서 계속을 선택하면 계속 응용 프로그램을 실행할 수 있습니다.  
-  
- 디버거 외부에서 Visual Basic 응용 프로그램을 실행할 경우, Just-in-Time 디버깅이 활성화되면 Stop 문이 디버거를 실행합니다. Just-in-Time 디버깅이 활성화되지 않으면, Stop 문이 실행을 종료하는 End 문처럼 동작합니다. QueryUnload 이벤트나 Unload 이벤트가 발생하지 않으므로, Visual Basic 응용 프로그램의 릴리스 버전에서 모든 Stop 문을 제거해야 합니다. 자세한 내용은 [Just-In-Time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md)을 참조하세요.  
-  
- 다음과 같은 조건부 컴파일을 사용하면 이 경우에 Stop 문을 제거하지 않아도 됩니다.  
-  
+중단점을 설정하는 대신 Visual Basic의 Stop 문을 사용하는 프로그래밍 방식을 제공합니다. 디버거에서는 Stop 문이 나올 경우 프로그램 실행을 중단하여 중단 모드를 시작합니다. C# 프로그래머는 System.Diagnostics.Debugger.Break에 대한 호출을 사용하여 동일한 결과를 얻을 수 있습니다.
+
+ Stop 문을 설정하거나 제거하려면 소스 코드를 편집해야 합니다. 중단점을 설정하거나 제거하는 것처럼 디버거 명령을 사용하여 Stop 문을 설정하거나 제거할 수는 없습니다.
+
+ End 문과 달리, Stop 문은 변수를 다시 설정하거나 사용자를 디자인 모드로 되돌리지 않습니다. 디버그 메뉴에서 계속을 선택하면 계속 응용 프로그램을 실행할 수 있습니다.
+
+ 디버거 외부에서 Visual Basic 응용 프로그램을 실행할 경우, Just-in-Time 디버깅이 활성화되면 Stop 문이 디버거를 실행합니다. Just-in-Time 디버깅이 활성화되지 않으면, Stop 문이 실행을 종료하는 End 문처럼 동작합니다. QueryUnload 이벤트나 Unload 이벤트가 발생하지 않으므로, Visual Basic 응용 프로그램의 릴리스 버전에서 모든 Stop 문을 제거해야 합니다. 자세한 내용은 [Just-In-Time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md)을 참조하세요.
+
+ 다음과 같은 조건부 컴파일을 사용하면 이 경우에 Stop 문을 제거하지 않아도 됩니다.
+
 ```cpp
-#If DEBUG Then  
-   Stop  
-#Else  
-   ' Don't stop  
-#End If  
-```  
-  
- 또 다른 방법은 Stop 문 대신 Assert 문을 사용하는 것입니다. Debug.Assert 문은 지정된 조건이 충족되지 않을 경우에만 실행을 중단하고, 릴리스 버전을 빌드하면 자동으로 제거됩니다. 자세한 내용은 [관리 코드에 어설션](../debugger/assertions-in-managed-code.md)합니다. 디버그 버전에서 Assert 문이 항상 실행을 중단하도록 하려면 다음과 같이 지정하십시오.  
-  
+#If DEBUG Then
+   Stop
+#Else
+   ' Don't stop
+#End If
+```
+
+ 또 다른 방법은 Stop 문 대신 Assert 문을 사용하는 것입니다. Debug.Assert 문은 지정된 조건이 충족되지 않을 경우에만 실행을 중단하고, 릴리스 버전을 빌드하면 자동으로 제거됩니다. 자세한 내용은 [관리 코드에 어설션](../debugger/assertions-in-managed-code.md)합니다. 디버그 버전에서 Assert 문이 항상 실행을 중단하도록 하려면 다음과 같이 지정하십시오.
+
 ```csharp
-Debug.Assert(false)  
-```  
-  
- 다음과 같이 Debug.Fail 메서드를 사용할 수도 있습니다.  
-  
+Debug.Assert(false)
+```
+
+ 다음과 같이 Debug.Fail 메서드를 사용할 수도 있습니다.
+
 ```csharp
-Debug.Fail("a clever output string goes here")  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [디버거 보안](../debugger/debugger-security.md)   
- [C#, F# 및 Visual Basic 프로젝트 형식](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
- [관리 코드 디버그](../debugger/debugging-managed-code.md)
+Debug.Fail("a clever output string goes here")
+```
+
+## <a name="see-also"></a>참고 항목
+- [디버거 보안](../debugger/debugger-security.md)
+- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)(C#, F# 및 Visual Basic 프로젝트 형식)
+- [관리 코드 디버그](../debugger/debugging-managed-code.md)

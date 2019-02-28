@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 482c5f7bd0565c3b6ece124c88bd5e225b4cc7dd
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 776ee35e57b62463d47fc6f7fa26133f507f16f9
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318526"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56613273"
 ---
 # <a name="thunkordinal"></a>THUNK_ORDINAL
 썽크 형식을 지정합니다.
@@ -39,26 +39,19 @@ typedef enum THUNK_ORDINAL {
 ```
 
 ## <a name="elements"></a>요소
-THUNK_ORDINAL_NOTYPE  
-표준 썽크 합니다.
+표준 THUNK_ORDINAL_NOTYPE 썽크 합니다.
 
-THUNK_ORDINAL_ADJUSTOR  
-`this` 조정기 썽크 합니다.
+THUNK_ORDINAL_ADJUSTOR는 `this` 조정기 썽크 합니다.
 
-THUNK_ORDINAL_VCALL  
-가상 호출 썽크 합니다.
+THUNK_ORDINAL_VCALL 가상 호출 썽크 합니다.
 
-THUNK_ORDINAL_PCODE  
-P-코드 썽크 합니다.
+THUNK_ORDINAL_PCODE p-code 썽크 합니다.
 
-THUNK_ORDINAL_LOAD  
-지연 로드 썽크 합니다.
+THUNK_ORDINAL_LOAD 지연 로드 썽크 합니다.
 
-THUNK_ORDINAL_TRAMP_INCREMENTAL  
-증분 trampoline 썽크 (trampoline 썽크를 다른 메모리 공간에서 호출 반송에 사용 됨).
+THUNK_ORDINAL_TRAMP_INCREMENTAL 증분 trampoline 썽크 (trampoline 썽크를 다른 메모리 공간에서 호출 반송에 사용 됨).
 
-THUNK_ORDINAL_TRAMP_BRANCHISLAND  
-분기 지점 trampoline 썽크 합니다.
+THUNK_ORDINAL_TRAMP_BRANCHISLAND 분기 지점 trampoline 썽크 합니다.
 
 ## <a name="remarks"></a>주의
 이 열거형의 값에 대 한 호출에서 반환 되는 [idiasymbol:: Get_thunkordinal](../../debugger/debug-interface-access/idiasymbol-get-thunkordinal.md) 메서드.
@@ -67,5 +60,5 @@ THUNK_ORDINAL_TRAMP_BRANCHISLAND
 헤더: cvconst.h
 
 ## <a name="see-also"></a>참고 항목
-[열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol::get_thunkOrdinal](../../debugger/debug-interface-access/idiasymbol-get-thunkordinal.md)
+- [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol::get_thunkOrdinal](../../debugger/debug-interface-access/idiasymbol-get-thunkordinal.md)

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e19945b054903ff5f3eaa272357d1a5e92ef334
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 7c3a6d3eb61f4e4a7504b184477ec1b3f2a8ba83
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227042"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56641925"
 ---
 # <a name="idiaenumsourcefiles"></a>IDiaEnumSourceFiles
 데이터 원본에 포함 된 다양 한 원본 파일을 열거 합니다.
@@ -46,7 +46,7 @@ IDiaEnumSourceFiles : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 호출 하 여이 인터페이스를 가져올는 `QueryInterface` 메서드는 [IDiaTable](../../debugger/debug-interface-access/idiatable.md) 개체입니다. 세부 정보에 대 한 예제를 참조 하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 가져오는 방법을 보여 주는이 예제는 `IDiaEnumSourceFiles` DIA 세션 개체의 테이블 목록에서 인터페이스입니다. 소스 파일 정보에 액세스 하는 예제를 참조 합니다 [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) 인터페이스입니다.
 
 ```C++
@@ -87,7 +87,7 @@ IDiaEnumSourceFiles* GetEnumSourceFiles(IDiaSession *pSession)
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)  
-[IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)  
-[IDiaTable](../../debugger/debug-interface-access/idiatable.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)
+- [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)
+- [IDiaTable](../../debugger/debug-interface-access/idiatable.md)

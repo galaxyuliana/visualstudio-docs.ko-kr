@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 67c19b37fbe6d5867e44a81233c44aceb5138b68
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 5ad74f92765ee449eab1e3089511a063e70d96a0
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227227"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56617069"
 ---
 # <a name="idiastackwalker"></a>IDiaStackWalker
 스택 작업을 수행 하는 방법 설명 정보를 사용 하 여.pdb 파일에 제공 합니다.
@@ -42,7 +42,7 @@ IDiaStackWalker: IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 이 인터페이스를 호출 하 여 가져온 합니다 `CoCreateInstance` 클래스 식별자를 사용 하 여 메서드 `CLSID_DiaStackWalker` 와의 인터페이스 ID `IID_IDiaStackWalker`합니다. 이 인터페이스는 가져오는 방법을 보여 줍니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 가져오는 방법을 보여 주는이 예제는 `IDiaStackWalker` 인터페이스입니다.
 
 ```C++
@@ -67,5 +67,5 @@ if (FAILED(hr))
 DLL: msdia80.dll
 
 ## <a name="see-also"></a>참고 항목
-[인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)
+- [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)

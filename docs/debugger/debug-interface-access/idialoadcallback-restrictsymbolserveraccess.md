@@ -12,27 +12,27 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 016f64f4c25b448bbcada095fe5aa41d7c3427a2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0de567f0417714e1246e11ba074c9b0134e92ce8
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54931299"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56618629"
 ---
 # <a name="idialoadcallbackrestrictsymbolserveraccess"></a>IDiaLoadCallback::RestrictSymbolServerAccess
-기호를 확인 하도록 기호 서버에 대 한 액세스 허용 된 경우를 결정 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT RestrictSymbolServerAccess();  
-```  
-  
-## <a name="return-value"></a>반환 값  
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
-  
-## <a name="remarks"></a>주의  
- 이외의 다른 모든 반환 코드 `S_OK` 기호를 확인 하는 기호 서버를 사용할 수 없습니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
+기호를 확인 하도록 기호 서버에 대 한 액세스 허용 된 경우를 결정 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT RestrictSymbolServerAccess();
+```
+
+## <a name="return-value"></a>반환 값
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
+
+## <a name="remarks"></a>주의
+ 이외의 다른 모든 반환 코드 `S_OK` 기호를 확인 하는 기호 서버를 사용할 수 없습니다.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

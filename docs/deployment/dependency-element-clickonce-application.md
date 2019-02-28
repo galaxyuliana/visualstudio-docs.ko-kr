@@ -26,101 +26,101 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 195e574a3ae98bc43e41d2040e2070cf36b89067
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4bbed7664232f1c508c71534f447b67dc837f55e
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54920658"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56612675"
 ---
 # <a name="ltdependencygt-element-clickonce-application"></a>&lt;종속성&gt; 요소 (ClickOnce 응용 프로그램)
-응용 프로그램에 필요한 플랫폼 또는 어셈블리 종속성을 식별 합니다.  
+응용 프로그램에 필요한 플랫폼 또는 어셈블리 종속성을 식별 합니다.
 
-## <a name="syntax"></a>구문  
+## <a name="syntax"></a>구문
 
-```xml  
+```xml
 
-      <dependency>  
-   <dependentOS  
-      supportURL  
-      description  
-   >  
-      <osVersionInfo>  
-         <os  
-            majorVersion  
-            minorVersion  
-            buildNumber  
-            servicePackMajor  
-            servicePackMinor  
-            productType  
-            suiteType  
-         />   
-      </osVersionInfo>  
-   </dependentOS>  
-   <dependentAssembly  
-      dependencyType  
-      allowDelayedBinding  
-      group  
-      codeBase  
-      size  
-   >  
-      <assemblyIdentity  
-         name  
-         version  
-         processorArchitecture  
-         language  
-      >  
-         <hash>  
-            <dsig:Transforms>  
-               <dsig:Transform  
-                  Algorithm  
-            />  
-            </dsig:Transforms>  
-            <dsig:DigestMethod />  
-            <dsig:DigestValue>  
-            </dsig:DigestValue>  
-    </hash>  
+      <dependency>
+   <dependentOS
+      supportURL
+      description
+   >
+      <osVersionInfo>
+         <os
+            majorVersion
+            minorVersion
+            buildNumber
+            servicePackMajor
+            servicePackMinor
+            productType
+            suiteType
+         />
+      </osVersionInfo>
+   </dependentOS>
+   <dependentAssembly
+      dependencyType
+      allowDelayedBinding
+      group
+      codeBase
+      size
+   >
+      <assemblyIdentity
+         name
+         version
+         processorArchitecture
+         language
+      >
+         <hash>
+            <dsig:Transforms>
+               <dsig:Transform
+                  Algorithm
+            />
+            </dsig:Transforms>
+            <dsig:DigestMethod />
+            <dsig:DigestValue>
+            </dsig:DigestValue>
+    </hash>
 
-      </assemblyIdentity>  
-   </dependentAssembly>  
-</dependency>  
-```  
+      </assemblyIdentity>
+   </dependentAssembly>
+</dependency>
+```
 
-## <a name="elements-and-attributes"></a>요소 및 특성  
- `dependency` 요소는 필수입니다. 여러 인스턴스가 있을 `dependency` 동일한 응용 프로그램 매니페스트에서 합니다.  
+## <a name="elements-and-attributes"></a>요소 및 특성
+ `dependency` 요소는 필수입니다. 여러 인스턴스가 있을 `dependency` 동일한 응용 프로그램 매니페스트에서 합니다.
 
- `dependency` 요소에는 특성이 없습니다 및 다음 자식 요소를 포함 합니다.  
+ `dependency` 요소에는 특성이 없습니다 및 다음 자식 요소를 포함 합니다.
 
-### <a name="dependentos"></a>dependentOS  
- 선택 사항입니다. 포함 된 `osVersionInfo` 요소입니다. `dependentOS` 및 `dependentAssembly` 요소는 함께: 둘 중 하나만 존재 해야 합니다는 `dependency` 요소, 하지만 둘 다.  
+### <a name="dependentos"></a>dependentOS
+ 선택 사항입니다. 포함 된 `osVersionInfo` 요소입니다. `dependentOS` 및 `dependentAssembly` 요소는 함께: 둘 중 하나만 존재 해야 합니다는 `dependency` 요소, 하지만 둘 다.
 
- `dependentOS` 다음 특성을 지원합니다.  
+ `dependentOS` 다음 특성을 지원합니다.
 
-|특성|설명|  
-|---------------|-----------------|  
-|`supportUrl`|선택 사항입니다. 종속 플랫폼에 대 한 지원 URL을 지정합니다. 이 URL은 필요한 플랫폼 없으면 사용자에 게 표시 됩니다.|  
-|`description`|선택 사항입니다. 에 설명 된 운영 체제를 이해 하기 쉬운 형태로 설명 된 `dependentOS` 요소입니다.|  
+|특성|설명|
+|---------------|-----------------|
+|`supportUrl`|선택 사항입니다. 종속 플랫폼에 대 한 지원 URL을 지정합니다. 이 URL은 필요한 플랫폼 없으면 사용자에 게 표시 됩니다.|
+|`description`|선택 사항입니다. 에 설명 된 운영 체제를 이해 하기 쉬운 형태로 설명 된 `dependentOS` 요소입니다.|
 
-### <a name="osversioninfo"></a>osVersionInfo  
- 필수 요소. 이 요소는 `dependentOS` 요소의 자식이며 `os` 요소를 포함합니다. 이 요소에는 특성이 없습니다.  
+### <a name="osversioninfo"></a>osVersionInfo
+ 필수 요소. 이 요소는 `dependentOS` 요소의 자식이며 `os` 요소를 포함합니다. 이 요소에는 특성이 없습니다.
 
-### <a name="os"></a>os  
- 필수 요소. 이 요소는 `osVersionInfo` 요소의 자식입니다. 이 요소에는 다음 특성이 있습니다.  
+### <a name="os"></a>os
+ 필수 요소. 이 요소는 `osVersionInfo` 요소의 자식입니다. 이 요소에는 다음 특성이 있습니다.
 
-|특성|설명|  
-|---------------|-----------------|  
-|`majorVersion`|필수 요소. 운영 체제의 주 버전 번호를 지정합니다.|  
-|`minorVersion`|필수 요소. 운영 체제의 부 버전 번호를 지정합니다.|  
-|`buildNumber`|필수 요소. Os 빌드 번호를 지정합니다.|  
-|`servicePackMajor`|필수 요소. 운영 체제 서비스 팩 주 번호를 지정합니다.|  
-|`servicePackMinor`|선택 사항입니다. 운영 체제 서비스 팩 부 버전 번호를 지정합니다.|  
-|`productType`|선택 사항입니다. 제품 유형 값을 식별합니다. 유효한 값은 `server`, `workstation` 및 `domainController`입니다. 예를 들어, Windows 2000 Professional,이 특성 값은 `workstation`합니다.|  
-|`suiteType`|선택 사항입니다. 시스템 또는 시스템의 구성 유형을 사용할 수 있는 제품군을 식별합니다. 유효한 값은 `backoffice`, `blade`, `datacenter`, `enterprise`, `home`, `professional`, `smallbusiness`, `smallbusinessRestricted` 및 `terminal`입니다. 예를 들어, Windows 2000 Professional,이 특성 값은 `professional`합니다.|  
+|특성|설명|
+|---------------|-----------------|
+|`majorVersion`|필수 요소. 운영 체제의 주 버전 번호를 지정합니다.|
+|`minorVersion`|필수 요소. 운영 체제의 부 버전 번호를 지정합니다.|
+|`buildNumber`|필수 요소. Os 빌드 번호를 지정합니다.|
+|`servicePackMajor`|필수 요소. 운영 체제 서비스 팩 주 번호를 지정합니다.|
+|`servicePackMinor`|선택 사항입니다. 운영 체제 서비스 팩 부 버전 번호를 지정합니다.|
+|`productType`|선택 사항입니다. 제품 유형 값을 식별합니다. 유효한 값은 `server`, `workstation` 및 `domainController`입니다. 예를 들어, Windows 2000 Professional,이 특성 값은 `workstation`합니다.|
+|`suiteType`|선택 사항입니다. 시스템 또는 시스템의 구성 유형을 사용할 수 있는 제품군을 식별합니다. 유효한 값은 `backoffice`, `blade`, `datacenter`, `enterprise`, `home`, `professional`, `smallbusiness`, `smallbusinessRestricted` 및 `terminal`입니다. 예를 들어, Windows 2000 Professional,이 특성 값은 `professional`합니다.|
 
-### <a name="dependentassembly"></a>dependentAssembly  
- 선택 사항입니다. 포함 된 `assemblyIdentity` 요소입니다. `dependentOS` 및 `dependentAssembly` 요소는 함께: 둘 중 하나만 존재 해야 합니다는 `dependency` 요소, 하지만 둘 다.  
+### <a name="dependentassembly"></a>dependentAssembly
+ 선택 사항입니다. 포함 된 `assemblyIdentity` 요소입니다. `dependentOS` 및 `dependentAssembly` 요소는 함께: 둘 중 하나만 존재 해야 합니다는 `dependency` 요소, 하지만 둘 다.
 
- `dependentAssembly` 다음과 같은 특성이 있습니다.  
+ `dependentAssembly` 다음과 같은 특성이 있습니다.
 
 
 | 특성 | 설명 |
@@ -131,94 +131,94 @@ ms.locfileid: "54920658"
 | `codeBase` | 때 필요 합니다 `dependencyType` 특성이로 설정 된 `install`합니다. 종속 어셈블리 경로입니다. 매니페스트의 코드의 상대 경로 또는 절대 경로, 기본 수 있습니다. 이 경로 유효한 어셈블리 매니페스트에 대 한 순서에 유효한 URI 여야 합니다. |
 | `size` | 때 필요 합니다 `dependencyType` 특성이로 설정 된 `install`합니다. 크기 (바이트)에서 종속 어셈블리입니다. |
 
-### <a name="assemblyidentity"></a>assemblyIdentity  
- 필수 요소. 이 요소는 `dependentAssembly` 요소의 자식이며 다음과 같은 특성이 있습니다.  
+### <a name="assemblyidentity"></a>assemblyIdentity
+ 필수 요소. 이 요소는 `dependentAssembly` 요소의 자식이며 다음과 같은 특성이 있습니다.
 
-|특성|설명|  
-|---------------|-----------------|  
-|`name`|필수 요소. 응용 프로그램의 이름을 식별합니다.|  
-|`version`|필수 요소. 다음 형식으로 응용 프로그램의 버전 번호를 지정합니다. `major.minor.build.revision`|  
-|`publicKeyToken`|선택 사항입니다. 마지막 8 바이트를 나타내는 16 자리의 16 진수 문자열을 지정 합니다 `SHA-1` 응용 프로그램이 나 어셈블리 서명에 사용 된 공개 키의 해시 값입니다. 카탈로그에 서명 하는 데 공개 키 2048 비트 이상 이어야 합니다.|  
-|`processorArchitecture`|선택 사항입니다. 프로세서를 지정합니다. 유효한 값은 `x86` 32 비트 Windows에 대 한 및 `I64` 64 비트 Windows에 대 한 합니다.|  
-|`language`|선택 사항입니다. 예: EN-US, 어셈블리의 두 부분 언어 코드를 식별합니다.|  
+|특성|설명|
+|---------------|-----------------|
+|`name`|필수 요소. 응용 프로그램의 이름을 식별합니다.|
+|`version`|필수 요소. 다음 형식으로 응용 프로그램의 버전 번호를 지정합니다. `major.minor.build.revision`|
+|`publicKeyToken`|선택 사항입니다. 마지막 8 바이트를 나타내는 16 자리의 16 진수 문자열을 지정 합니다 `SHA-1` 응용 프로그램이 나 어셈블리 서명에 사용 된 공개 키의 해시 값입니다. 카탈로그에 서명 하는 데 공개 키 2048 비트 이상 이어야 합니다.|
+|`processorArchitecture`|선택 사항입니다. 프로세서를 지정합니다. 유효한 값은 `x86` 32 비트 Windows에 대 한 및 `I64` 64 비트 Windows에 대 한 합니다.|
+|`language`|선택 사항입니다. 예: EN-US, 어셈블리의 두 부분 언어 코드를 식별합니다.|
 
-### <a name="hash"></a>hash  
- 합니다 `hash` 의 선택적 자식 요소입니다는 `assemblyIdentity` 요소입니다. `hash` 요소에는 특성이 없습니다.  
+### <a name="hash"></a>hash
+ 합니다 `hash` 의 선택적 자식 요소입니다는 `assemblyIdentity` 요소입니다. `hash` 요소에는 특성이 없습니다.
 
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 후에 변경 된 파일이 없음을 확인 하기를 보안 검사는 응용 프로그램의 모든 파일의 해시를 알고리즘을 사용 합니다. 경우는 `hash` 요소가 포함 되지 않은,이 검사가 수행 되지 것입니다. 따라서 생략 된 `hash` 요소 권장 되지 않습니다.  
+ [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 후에 변경 된 파일이 없음을 확인 하기를 보안 검사는 응용 프로그램의 모든 파일의 해시를 알고리즘을 사용 합니다. 경우는 `hash` 요소가 포함 되지 않은,이 검사가 수행 되지 것입니다. 따라서 생략 된 `hash` 요소 권장 되지 않습니다.
 
-### <a name="dsigtransforms"></a>dsig:Transforms  
- 합니다 `dsig:Transforms` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:Transforms` 요소에는 특성이 없습니다.  
+### <a name="dsigtransforms"></a>dsig:Transforms
+ 합니다 `dsig:Transforms` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:Transforms` 요소에는 특성이 없습니다.
 
-### <a name="dsigtransform"></a>dsig:Transform  
- 합니다 `dsig:Transform` 의 필수 자식 요소인는 `dsig:Transforms` 요소입니다. `dsig:Transform` 요소에는 다음 특성이 있습니다.  
+### <a name="dsigtransform"></a>dsig:Transform
+ 합니다 `dsig:Transform` 의 필수 자식 요소인는 `dsig:Transforms` 요소입니다. `dsig:Transform` 요소에는 다음 특성이 있습니다.
 
 
 | 특성 | 설명 |
 |-------------| - |
 | `Algorithm` | 이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 `urn:schemas-microsoft-com:HashTransforms.Identity`합니다. |
 
-### <a name="dsigdigestmethod"></a>dsig:DigestMethod  
- 합니다 `dsig:DigestMethod` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestMethod` 요소에는 다음 특성이 있습니다.  
+### <a name="dsigdigestmethod"></a>dsig:DigestMethod
+ 합니다 `dsig:DigestMethod` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestMethod` 요소에는 다음 특성이 있습니다.
 
 
 | 특성 | 설명 |
 |-------------| - |
 | `Algorithm` | 이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 `http://www.w3.org/2000/09/xmldsig#sha1`합니다. |
 
-### <a name="dsigdigestvalue"></a>dsig:DigestValue  
- 합니다 `dsig:DigestValue` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestValue` 요소에는 특성이 없습니다. 요소의 텍스트 값은 지정된 된 파일에 대 한 계산 된 해시입니다.  
+### <a name="dsigdigestvalue"></a>dsig:DigestValue
+ 합니다 `dsig:DigestValue` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestValue` 요소에는 특성이 없습니다. 요소의 텍스트 값은 지정된 된 파일에 대 한 계산 된 해시입니다.
 
-## <a name="remarks"></a>주의  
- 해당 응용 프로그램에서 사용 하는 모든 어셈블리에 있어야 `dependency` 요소입니다. 종속 어셈블리는 플랫폼 어셈블리와 전역 어셈블리 캐시에 미리 설치 해야 하는 어셈블리를 포함 하지 않습니다.  
+## <a name="remarks"></a>주의
+ 해당 응용 프로그램에서 사용 하는 모든 어셈블리에 있어야 `dependency` 요소입니다. 종속 어셈블리는 플랫폼 어셈블리와 전역 어셈블리 캐시에 미리 설치 해야 하는 어셈블리를 포함 하지 않습니다.
 
-## <a name="example"></a>예  
- 다음 코드 예제를 보여 줍니다 `dependency` 의 요소를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 매니페스트 합니다. 이 코드 예제는에 대해 제공 된 큰 예제의 일부 합니다 [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md) 항목입니다.  
+## <a name="example"></a>예제
+ 다음 코드 예제를 보여 줍니다 `dependency` 의 요소를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 매니페스트 합니다. 이 코드 예제는에 대해 제공 된 큰 예제의 일부 합니다 [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md) 항목입니다.
 
-```xml  
-<dependency>  
-  <dependentOS>  
-    <osVersionInfo>  
-      <os   
-        majorVersion="4"   
-        minorVersion="10"   
-        buildNumber="0"   
-        servicePackMajor="0" />  
-    </osVersionInfo>  
-  </dependentOS>  
-</dependency>  
-<dependency>  
-  <dependentAssembly  
-    dependencyType="preRequisite"  
-    allowDelayedBinding="true">  
-    <assemblyIdentity  
-      name="Microsoft.Windows.CommonLanguageRuntime"  
-      version="4.0.20506.0" />  
-  </dependentAssembly>  
-</dependency>  
+```xml
+<dependency>
+  <dependentOS>
+    <osVersionInfo>
+      <os
+        majorVersion="4"
+        minorVersion="10"
+        buildNumber="0"
+        servicePackMajor="0" />
+    </osVersionInfo>
+  </dependentOS>
+</dependency>
+<dependency>
+  <dependentAssembly
+    dependencyType="preRequisite"
+    allowDelayedBinding="true">
+    <assemblyIdentity
+      name="Microsoft.Windows.CommonLanguageRuntime"
+      version="4.0.20506.0" />
+  </dependentAssembly>
+</dependency>
 
-<dependency>  
-  <dependentAssembly  
-    dependencyType="install"  
-    allowDelayedBinding="true"  
-    codebase="MyApplication.exe"  
-    size="4096">  
-    <assemblyIdentity  
-      name="MyApplication"  
-      version="1.0.0.0"  
-      language="neutral"  
-      processorArchitecture="x86" />  
-    <hash>  
-      <dsig:Transforms>  
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />  
-      </dsig:Transforms>  
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />  
-      <dsig:DigestValue>DpTW7RzS9IeT/RBSLj54vfTEzNg=</dsig:DigestValue>  
-    </hash>  
-  </dependentAssembly>  
-</dependency>  
-```  
+<dependency>
+  <dependentAssembly
+    dependencyType="install"
+    allowDelayedBinding="true"
+    codebase="MyApplication.exe"
+    size="4096">
+    <assemblyIdentity
+      name="MyApplication"
+      version="1.0.0.0"
+      language="neutral"
+      processorArchitecture="x86" />
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DpTW7RzS9IeT/RBSLj54vfTEzNg=</dsig:DigestValue>
+    </hash>
+  </dependentAssembly>
+</dependency>
+```
 
-## <a name="see-also"></a>참고 항목  
- [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)   
- [\<종속성 > 요소](../deployment/dependency-element-clickonce-deployment.md)
+## <a name="see-also"></a>참고 항목
+- [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)
+- [\<종속성 > 요소](../deployment/dependency-element-clickonce-deployment.md)

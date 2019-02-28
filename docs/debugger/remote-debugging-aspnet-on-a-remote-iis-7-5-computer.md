@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: b6bb89772cf013b27d7f7cfd512d79144ffe235d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 4cefca3c40b36c24fa5c1c78c7b6bca3d2a599ba
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55023956"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56720033"
 ---
 # <a name="remote-debug-aspnet-on-a-remote-iis-computer"></a>원격 IIS 컴퓨터의 ASP.NET 원격 디버그
 IIS에 배포 된 ASP.NET 응용 프로그램을 디버깅 하려면 설치 하 고 앱을 배포할 컴퓨터에서 원격 도구를 실행 한 다음 Visual Studio에서 실행 중인 앱에 연결 합니다.
@@ -47,8 +47,8 @@ IIS에 배포 된 ASP.NET 응용 프로그램을 디버깅 하려면 설치 하 
 * 앱 설정 되어 있는지를 배포 해야 하는 데 도움이 필요 하 고이 항목의 모든 단계에 따라 디버그할 수 있도록 IIS에서 올바르게 실행 했습니다.
 
 ## <a name="create-the-aspnet-452-application-on-the-visual-studio-computer"></a>ASP.NET 4.5.2를 만들려면 Visual Studio 컴퓨터에서 응용 프로그램
-  
-1. 새 MVC ASP.NET 애플리케이션을 만듭니다. (**파일 > 새로 만들기 > 프로젝트**을 선택한 후 <strong>시각적 C# > 웹 > ASP.NET 웹 응용 프로그램입니다. ASP.NET 4.5.2 템플릿 섹션에서 MVC</strong>를 선택합니다. **** 했는지 **Docker 지원 활성화** 선택 하지 않으면 하 고 **인증** 로 설정 되어 **인증 안 함**합니다. 프로젝트 이름을 **MyASPApp**.)
+
+1. 새 MVC ASP.NET 애플리케이션을 만듭니다. (**파일 > 새로 만들기 > 프로젝트**을 선택한 후 <strong>시각적 C# > 웹 > ASP.NET 웹 응용 프로그램입니다. ASP.NET 4.5.2 템플릿 섹션에서 **MVC**</strong> 를 선택합니다. 했는지 **Docker 지원 활성화** 선택 하지 않으면 하 고 **인증** 로 설정 되어 **인증 안 함**합니다. 프로젝트 이름을 **MyASPApp**.)
 
 2. HomeController.cs 파일을 열고 `About()` 메서드에 중단점을 설정합니다.
 
@@ -147,7 +147,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 게시 하 고 파일 시스템 또는 다른 도구를 사용 하 여 앱을 배포할 수도 있습니다.
 
 1. (ASP.NET 4.5.2) Web.config 파일에 올바른 버전의.NET Framework 표시 되어 있는지 확인 합니다.  예를 들어 ASP.NET 4.5.2를 대상으로 하는 경우이 버전은 web.config에 나열 되어 있는지 확인 합니다.
-  
+
     ```xml
     <system.web>
       <compilation debug="true" targetFramework="4.5.2" />
@@ -156,7 +156,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
         <add name="ApplicationInsightsWebTracking" type="Microsoft.ApplicationInsights.Web.ApplicationInsightsHttpModule, Microsoft.AI.Web" />
       </httpModules>
     </system.web>
-  
+
     ```
 
     예를 들어 버전 4.5.2 대신 ASP.NET 4를 설치 하는 경우에 4.0 있어야 합니다.
@@ -168,7 +168,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 이 자습서에서는 Visual Studio 2017을 사용 하는 것입니다.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-  
+
 ## <a name="BKMK_setup"></a> Windows Server에서 원격 디버거 설정
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
@@ -184,7 +184,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 2. Visual Studio에서 클릭 **디버그 > 프로세스에 연결** (Ctrl + Alt + P).
 
     > [!TIP]
-    > Visual Studio 2017에서 이전에 연결을 사용 하 여 동일한 프로세스에 다시 **디버그 > 프로세스에 다시 연결 하는 중...**  (Shift + Alt + P). 
+    > Visual Studio 2017에서 이전에 연결을 사용 하 여 동일한 프로세스에 다시 **디버그 > 프로세스에 다시 연결 하는 중...** Shift+Alt+P
 
 3. 한정자 필드를 **\<원격 컴퓨터 이름>:4022**로 설정합니다.
 4. **새로 고침**을 클릭합니다.
@@ -200,7 +200,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 7. **연결**을 클릭합니다.
 
 8. 원격 컴퓨터의 웹 사이트를 엽니다. 브라우저에서 **http://\<원격 컴퓨터 이름>** 으로 이동합니다.
-    
+
     ASP.NET 웹 페이지가 표시됩니다.
 9. 실행 중인 ASP.NET 응용 프로그램에 대 한 링크를 클릭 합니다 **에 대 한** 페이지입니다.
 
@@ -211,7 +211,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 대부분의 설치 프로그램에서 ASP.NET와 원격 디버거 설치를 통해 필요한 포트가 열려 있습니다. 그러나 포트가 열려 있는지 확인 해야 합니다.
 
 > [!NOTE]
-> Azure VM에서 포트를 통해 열어야 합니다 [네트워크 보안 그룹](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic)합니다. 
+> Azure VM에서 포트를 통해 열어야 합니다 [네트워크 보안 그룹](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic)합니다.
 
 필요한 포트:
 

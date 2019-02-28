@@ -25,23 +25,24 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 48e0cf526d6fadcb1b91206d6e1958d89d3bdfe5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: d557fc0ec056cac22603338f95920e5c721f67dd
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54949966"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56637284"
 ---
 # <a name="continuing-execution-after-an-exception"></a>예외 후 실행 계속
-디버거 실행 예외로 인해 중단 될 때 표시 됩니다는 **예외 도우미**, 기본적으로 합니다. 사용 하지 않도록 설정한 경우 합니다 **예외 도우미** 에 **옵션** 대화 상자에서 표시 됩니다는 **예외 도우미** (C# 또는 Visual Basic) 또는  **예외** 대화 상자 (c + +).  
-  
+디버거 실행 예외로 인해 중단 될 때 표시 됩니다는 **예외 도우미**, 기본적으로 합니다. 사용 하지 않도록 설정한 경우 합니다 **예외 도우미** 에 **옵션** 대화 상자에서 표시 됩니다는 **예외 도우미** (C# 또는 Visual Basic) 또는  **예외** 대화 상자 (c + +).
+
  경우는 **예외 도우미** 나타나면 예외를 발생 시킨 문제를 해결 하는 데 할 수 있습니다.
-  
-## <a name="managed-and-native-code"></a>관리 및 네이티브 코드  
+
+## <a name="managed-and-native-code"></a>관리 및 네이티브 코드
  관리 및 네이티브 코드에서 처리 되지 않은 예외가 발생 한 후 동일한 스레드에서 실행을 계속할 수 있습니다. 합니다 **예외 도우미** 예외가 throw 된 지점에 대 한 호출 스택을 합니다.
-  
-## <a name="mixed-code"></a>혼합 코드  
- 네이티브 및 관리 코드가 혼합된 코드를 디버깅하는 동안 처리되지 않은 예외가 발생하면 운영 체제 제한에 따라 호출 스택을 해제할 수 없습니다. 바로 가기 메뉴를 사용하여 호출 스택을 해제하려고 하면 혼합 코드 디버깅 중에 처리되지 않은 예외가 발생하면 디버거가 호출 스택을 해제할 수 없다는 내용의 오류 메시지가 나타납니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [디버거를 사용한 예외 관리](../debugger/managing-exceptions-with-the-debugger.md)
+
+## <a name="mixed-code"></a>혼합 코드
+ 네이티브 및 관리 코드가 혼합된 코드를 디버깅하는 동안 처리되지 않은 예외가 발생하면 운영 체제 제한에 따라 호출 스택을 해제할 수 없습니다. 바로 가기 메뉴를 사용하여 호출 스택을 해제하려고 하면 혼합 코드 디버깅 중에 처리되지 않은 예외가 발생하면 디버거가 호출 스택을 해제할 수 없다는 내용의 오류 메시지가 나타납니다.
+
+## <a name="see-also"></a>참고 항목
+
+- [디버거를 사용한 예외 관리](../debugger/managing-exceptions-with-the-debugger.md)

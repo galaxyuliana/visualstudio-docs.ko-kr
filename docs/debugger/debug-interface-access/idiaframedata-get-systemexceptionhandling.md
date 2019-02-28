@@ -12,36 +12,37 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f309b0e3651f3832eba905cd17a5de9bebd5df40
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0365c253626546d824459c580fdf2be1b87ed4ed
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55019712"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56642094"
 ---
 # <a name="idiaframedatagetsystemexceptionhandling"></a>IDiaFrameData::get_systemExceptionHandling
-시스템 예외 처리에 적용 되는지 여부를 나타내는 플래그를 검색 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-HRESULT get_systemExceptionHandling (   
-   BOOL* pRetVal  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- pRetVal  
- [out] 반환 `TRUE` 시스템 예외 처리 되 고, 그렇지 않으면 실제로 반환 하는 경우 `FALSE`합니다.  
-  
-## <a name="return-value"></a>반환 값  
- 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.  
-  
-## <a name="remarks"></a>주의  
- 시스템 예외 처리는 일반적으로 구조적된 예외 처리 이라고 합니다.  
-  
- C + + 예외 처리에 적용 되는 경우를 확인 하려면 호출을 [idiaframedata:: Get_cplusplusexceptionhandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md) 메서드.  
-  
-## <a name="see-also"></a>참고 항목  
- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)   
- [IDiaFrameData::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md)
+시스템 예외 처리에 적용 되는지 여부를 나타내는 플래그를 검색 합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+HRESULT get_systemExceptionHandling ( 
+   BOOL* pRetVal
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ pRetVal
+
+[out] 반환 `TRUE` 시스템 예외 처리 되 고, 그렇지 않으면 실제로 반환 하는 경우 `FALSE`합니다.
+
+## <a name="return-value"></a>반환 값
+ 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.
+
+## <a name="remarks"></a>주의
+ 시스템 예외 처리는 일반적으로 구조적된 예외 처리 이라고 합니다.
+
+ C + + 예외 처리에 적용 되는 경우를 확인 하려면 호출을 [idiaframedata:: Get_cplusplusexceptionhandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md) 메서드.
+
+## <a name="see-also"></a>참고 항목
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
+- [IDiaFrameData::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md)
