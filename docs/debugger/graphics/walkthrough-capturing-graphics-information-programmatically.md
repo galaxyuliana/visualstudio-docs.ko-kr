@@ -7,12 +7,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7652f05bf6028dd7d5b14d207fdd0b83a73ef5ad
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 8fa8d750049d7d74d912e68544c91d5006252068
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227633"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56722917"
 ---
 # <a name="walkthrough-capturing-graphics-information-programmatically"></a>연습: 프로그래밍 방식으로 그래픽 정보 캡처
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 그래픽 진단을 사용하여 Direct3D 앱에서 그래픽 정보를 프로그래밍 방식으로 캡처할 수 있습니다.
@@ -84,7 +84,7 @@ DirectX 11.2에서 그래픽 정보를 캡처하려면 DXGI 디버그 인터페�
   ```
 
   > [!NOTE]
-  >  `DXGIGetDebugInterface1` 이 `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`)를 반환하는 경우 앱이 그래픽 진단에서 실행되고 있는지 확인합니다( [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]의 Alt+F5)로 앱을 실행해야 합니다.
+  > `DXGIGetDebugInterface1` 이 `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`)를 반환하는 경우 앱이 그래픽 진단에서 실행되고 있는지 확인합니다( [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]의 Alt+F5)로 앱을 실행해야 합니다.
 
 ### <a name="capturing-graphics-information"></a>그래픽 정보 캡처
 이제 유효한 `IDXGraphicsAnalysis` 인터페이스가 있으므로 `BeginCapture` 및 `EndCapture` 를 사용하여 그래픽 정보를 캡처할 수 있습니다.
@@ -115,6 +115,6 @@ DirectX 11.2에서 그래픽 정보를 캡처하려면 DXGI 디버그 인터페�
 - 그래픽 진단 도구를 사용하여 캡처한 그래픽 정보를 분석하는 방법에 대해 알아봅니다. 참조 [개요](overview-of-visual-studio-graphics-diagnostics.md)합니다.
 
 ## <a name="see-also"></a>참고 항목
-[연습: 그래픽 정보 캡처](walkthrough-capturing-graphics-information.md)  
-[Capturing Graphics Information](capturing-graphics-information.md)  
-[명령줄 캡처 도구](command-line-capture-tool.md)
+- [연습: 그래픽 정보 캡처](walkthrough-capturing-graphics-information.md)
+- [Capturing Graphics Information](capturing-graphics-information.md)
+- [명령줄 캡처 도구](command-line-capture-tool.md)

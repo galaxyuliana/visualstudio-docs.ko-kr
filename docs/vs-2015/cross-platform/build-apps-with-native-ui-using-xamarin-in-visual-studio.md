@@ -8,12 +8,12 @@ ms.assetid: 30f137e6-595d-4ce7-b8f5-415b07c1caa2
 caps.latest.revision: 33
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 8cbcbb562267f776b04aad8387e853bd1f58b5ed
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: aaae5621f3e371deb34506a9f0bd5cc64602c3f3
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54764580"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841807"
 ---
 # <a name="build-apps-with-native-ui-using-xamarin-in-visual-studio"></a>Visual Studio에서 Xamarin을 사용하여 네이티브 UI로 앱 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -95,7 +95,7 @@ ms.locfileid: "54764580"
 5. 솔루션을 빌드하고 빌드 오류가 없는지 확인합니다.
 
 ##  <a name="dataservice"></a> 공유 데이터 서비스 코드 작성
-  **WeatherApp (Portable)** 프로젝트는 모든 플랫폼에서 공유되는 PCL(이식 가능한 클래스 라이브러리)에 대한 코드를 작성하는 프로젝트입니다. PCL은 iOS, Android, Windows Phone 프로젝트에서 빌드된 앱 패키지에 자동으로 포함됩니다.
+ **WeatherApp (Portable)** 프로젝트는 모든 플랫폼에서 공유되는 PCL(이식 가능한 클래스 라이브러리)에 대한 코드를 작성하는 프로젝트입니다. PCL은 iOS, Android, Windows Phone 프로젝트에서 빌드된 앱 패키지에 자동으로 포함됩니다.
 
  다음 단계에서는 날씨 서비스의 데이터를 액세스하고 저장하기 위한 코드를 PCL에 추가합니다.
 
@@ -519,7 +519,7 @@ ms.locfileid: "54764580"
 
 2.  적절한 디바이스 또는 에뮬레이터 대상을 선택한 다음 F5 키를 눌러 앱을 시작합니다.
 
-3.  장치 또는 에뮬레이터에서 편집 상자에 유효한 미국 우편 번호 입력 (예: 60601)를 누르고 **날씨**합니다. 그러면 해당 지역의 날씨 데이터가 컨트롤에 표시됩니다.
+3.  디바이스 또는 에뮬레이터에서 편집 상자에 유효한 미국 우편 번호(예: 60601)를 입력하고 **Get Weather**를 누릅니다. 그러면 해당 지역의 날씨 데이터가 컨트롤에 표시됩니다.
 
      ![Android 및 Windows Phone용 날씨 앱](../cross-platform/media/xamarin-getstarted-results.png "Xamarin_GetStarted_Results")
 
@@ -625,7 +625,7 @@ ms.locfileid: "54764580"
 
 2.  F5 키를 눌러 앱을 시작합니다.
 
-3.  Windows Phone 에뮬레이터에서 편집 상자에 유효한 미국 우편 번호 입력 (예: 60601)를 누르고 **날씨**합니다. 그러면 해당 지역의 날씨 데이터가 컨트롤에 표시됩니다.
+3.  Windows Phone 에뮬레이터에서 편집 상자에 유효한 미국 우편 번호(예: 60601)를 입력한 다음 **Get Weather**를 누릅니다. 그러면 해당 지역의 날씨 데이터가 컨트롤에 표시됩니다.
 
      ![실행 중인 앱의 Windows 버전](../cross-platform/media/xamarin-getstarted-results-windows.png "Xamarin_GetStarted_Results_Windows")
 
@@ -644,4 +644,4 @@ ms.locfileid: "54764580"
  PCL의 공유 코드는 플랫폼 중립적입니다. PCL은 한 번 컴파일되어 각 플랫폼별 앱 패키지에 포함되기 때문입니다. 플랫폼별 코드를 격리하는 조건부 컴파일을 사용하는 공유 코드를 작성하려면 *공유* 프로젝트를 사용할 수 있습니다. 자세한 내용은 [ode Sharing Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/)(xamarin.com)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [Xamarin 개발자 사이트](http://developer.xamarin.com/) [Windows 개발자 센터](https://dev.windows.com/en-us) [Swift 및 C# 빠른 참조 포스터](http://aka.ms/scposter)
+ [Xamarin 개발자 사이트](http://developer.xamarin.com/) [Windows 개발자 센터](https://dev.windows.com/en-us) [Swift 및 C# 빠른 참조 포스터](https://aka.ms/scposter)
