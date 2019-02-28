@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 27624f4b5336d91b30410303c9fd3823cc00fb88
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 442d78f494381021bd480f5649dbb6957bec5ae1
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620917"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954052"
 ---
 # <a name="author-vsct-files"></a>.Vsct 파일 작성
 이 문서에서는 작성 하는 방법을 보여 줍니다.는 *.vsct* 파일을 Visual Studio 통합된 개발 환경 (IDE)에 메뉴 항목, 도구 모음 및 기타 사용자 인터페이스 (UI) 요소를 추가 합니다. 이미 있지 않은 Visual Studio 패키지 (VSPackage) UI 요소를 추가 하는 경우 다음이 단계를 사용 하 여는 *.vsct* 파일입니다.

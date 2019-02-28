@@ -8,12 +8,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: c023e6200f9e0b0efaf730fdca3a068f73c29262
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 89406cfa114d91cc6e6a33064bf073cc35181cdf
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957941"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954311"
 ---
 # <a name="using-the-c-core-guidelines-checkers"></a>C++ Core Guidelines를 이용한 코드검사 사용
 
@@ -161,27 +161,28 @@ Microsoft Visual C++ 컴파일러는 특성을 표시 하지 않으려면는 GSL
 
 경우에 따라 수행 중심 코드 분석을 계속 활용 하 여 Visual Studio IDE 유용할 수 있습니다. 다음은 빌드 시간을 저장 하 고 필터 결과를 쉽게 대규모 프로젝트에 사용할 수 있는 샘플 시나리오입니다.
 
-1.  명령 셸에서 다음을 설정 합니다 `esp.extension` 및 `esp.annotationbuildlevel` 환경 변수입니다.
-2.  이러한 변수를 상속 하도록 명령 셸에서 Visual Studio를 시작 합니다.
-3.  프로젝트를 로드 하 고 해당 속성을 엽니다.
-4.  코드 분석을 사용 하도록 설정 하 고, 적절 한 규칙 집합을 선택 하지만 코드 분석 확장을 사용 하지 마세요.
-5.  C++ 핵심 지침 검사기를 사용 하 여 분석 하 고 해당 속성을 열고 파일이 있는 위치로 이동 합니다.
-6.  선택할 **C / C + + \Command 선 옵션** 추가 `/analyze:plugin EspXEngine.dll`
-7.  미리 컴파일된 헤더 사용 하지 않도록 설정 (**C / C + + 헤더 \Precompiled**). 왜냐하면 필요한 경우 후자를 사용 하 여 컴파일된 기본 프로젝트 옵션,이 호환 되지 및 확장 엔진이 미리 컴파일된 헤더에서 해당 내부 정보를 읽을 하려고 할 수 있습니다.
-8.  프로젝트를 다시 빌드합니다. 모든 파일에 일반 PREFast 검사를 실행 해야 합니다. 기본적으로 c + + 핵심 지침 검사기를 사용할 수 없으므로 사용 하도록 구성 된 파일에만 실행 해야 합니다.
+1. 명령 셸에서 다음을 설정 합니다 `esp.extension` 및 `esp.annotationbuildlevel` 환경 변수입니다.
+2. 이러한 변수를 상속 하도록 명령 셸에서 Visual Studio를 시작 합니다.
+3. 프로젝트를 로드 하 고 해당 속성을 엽니다.
+4. 코드 분석을 사용 하도록 설정 하 고, 적절 한 규칙 집합을 선택 하지만 코드 분석 확장을 사용 하지 마세요.
+5. C++ 핵심 지침 검사기를 사용 하 여 분석 하 고 해당 속성을 열고 파일이 있는 위치로 이동 합니다.
+6. 선택할 **C / C + + \Command 선 옵션** 추가 `/analyze:plugin EspXEngine.dll`
+7. 미리 컴파일된 헤더 사용 하지 않도록 설정 (**C / C + + 헤더 \Precompiled**). 왜냐하면 필요한 경우 후자를 사용 하 여 컴파일된 기본 프로젝트 옵션,이 호환 되지 및 확장 엔진이 미리 컴파일된 헤더에서 해당 내부 정보를 읽을 하려고 할 수 있습니다.
+8. 프로젝트를 다시 빌드합니다. 모든 파일에 일반 PREFast 검사를 실행 해야 합니다. 기본적으로 c + + 핵심 지침 검사기를 사용할 수 없으므로 사용 하도록 구성 된 파일에만 실행 해야 합니다.
 
 ## <a name="how-to-use-the-c-core-guidelines-checker-outside-of-visual-studio"></a>Visual Studio 외부에서 C++ 핵심 지침 검사기를 사용 하는 방법
 자동화 된 빌드에 C++ Core Guidelines 검사를 사용할 수 있습니다.
 
 ### <a name="msbuild"></a>MSBuild
- 네이티브 코드 분석 검사기 (PREfast)를 사용 하는 사용자 지정 대상 파일에서 MSBuild 환경에 통합 됩니다. 프로젝트 속성을 사용하여 사용 하도록 설정 하 고 (PREfast 기반)는 C++ 핵심 지침 검사기를 추가할 수 있습니다.
 
- ```xml
-  <PropertyGroup>
-    <EnableCppCoreCheck>true</EnableCppCoreCheck>
-    <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>¬¬
-    <RunCodeAnalysis>true</RunCodeAnalysis>
-  </PropertyGroup>
+네이티브 코드 분석 검사기 (PREfast)를 사용 하는 사용자 지정 대상 파일에서 MSBuild 환경에 통합 됩니다. 프로젝트 속성을 사용하여 사용 하도록 설정 하 고 (PREfast 기반)는 C++ 핵심 지침 검사기를 추가할 수 있습니다.
+
+```xml
+<PropertyGroup>
+  <EnableCppCoreCheck>true</EnableCppCoreCheck>
+  <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>¬¬
+  <RunCodeAnalysis>true</RunCodeAnalysis>
+</PropertyGroup>
 ```
 
 Microsoft.Cpp.targets 파일을 가져오기 전에 이러한 속성을 추가 했는지 확인 하십시오. 특정 규칙 집합을 선택 지정 또는 사용자 지정 규칙 집합 만들기 또는 기타 PREfast 검사를 포함 하는 기본 규칙 집합을 사용 합니다.
@@ -221,14 +222,16 @@ MSBuild에 종속 되지 않는 빌드 시스템을 사용 하는 경우 검사�
    - `/analyze:plugin EspXEngine.dll` 이 옵션은 PREfast에 코드 분석 확장 엔진을 로드 합니다. 이 엔진을 C++ 핵심 지침 검사기를 차례로 로드합니다.
 
 ## <a name="use-the-guideline-support-library"></a>지침 지원 라이브러리를 사용 합니다.
- 지침 지원 라이브러리는 핵심 지침을 따를 수 있도록 설계 되었습니다. GSL 오류가 구문 보다 안전한 대체 항목으로 대체할 수 있도록 정의 포함 합니다. 예를 들어 바꿀 수 있습니다는 `T*, length` 쌍을 사용 하 여 매개 변수는 `span<T>` 형식입니다. 제공 되는 GSL [ http://www.nuget.org/packages/Microsoft.Gsl ](http://www.nuget.org/packages/Microsoft.Gsl)합니다. 라이브러리는 오픈 소스는 원본을 보려면, 메모 추가 하거나 기여할 수 있습니다. 프로젝트를 찾을 수 있습니다 [ https://github.com/Microsoft/GSL ](https://github.com/Microsoft/GSL)합니다.
 
- ## <a name="vs2015_corecheck"></a> Visual Studio 2015 프로젝트에서 c + + Core Check 지침을 사용 합니다.
-  Visual Studio 2015를 사용 하는 경우 C++ Core Check 코드 분석 규칙 집합 기본적으로 설치 되지 않습니다. Visual Studio 2015의 C++ Core Check 코드 분석 도구를 사용 하려면 먼저 몇 가지 추가 단계를 수행 해야 합니다. Microsoft는 Nuget 패키지를 사용 하 여 Visual Studio 2015 프로젝트에 대 한 지원을 제공 합니다. 패키지의 이름은 Microsoft.CppCoreCheck, 및에서 사용할 수 있습니다 [ http://www.nuget.org/packages/Microsoft.CppCoreCheck ](http://www.nuget.org/packages/Microsoft.CppCoreCheck)합니다. 이 패키지는 최신 Visual Studio 2015 업데이트 1을 사용 하 여 설치 해야 해야 합니다.
+지침 지원 라이브러리는 핵심 지침을 따를 수 있도록 설계 되었습니다. GSL 오류가 구문 보다 안전한 대체 항목으로 대체할 수 있도록 정의 포함 합니다. 예를 들어 바꿀 수 있습니다는 `T*, length` 쌍을 사용 하 여 매개 변수는 `span<T>` 형식입니다. 제공 되는 GSL [ http://www.nuget.org/packages/Microsoft.Gsl ](http://www.nuget.org/packages/Microsoft.Gsl)합니다. 라이브러리는 오픈 소스는 원본을 보려면, 메모 추가 하거나 기여할 수 있습니다. 프로젝트를 찾을 수 있습니다 [ https://github.com/Microsoft/GSL ](https://github.com/Microsoft/GSL)합니다.
 
- 또한 패키지는 헤더만 지침 지원 라이브러리 (GSL) 종속성으로 다른 패키지를 설치합니다. GSL에서 GitHub에서 사용할 수 있는 이기도 [ https://github.com/Microsoft/GSL ](https://github.com/Microsoft/GSL)합니다.
+## <a name="vs2015_corecheck"></a> Visual Studio 2015 프로젝트에서 c + + Core Check 지침을 사용 합니다.
 
- 코드 분석 규칙 로드 되는 방식으로 인해 Visual Studio 2015 내에서 확인 하려는 각 C++ 프로젝트로 Microsoft.CppCoreCheck NuGet 패키지를 설치 해야 합니다.
+Visual Studio 2015를 사용 하는 경우 C++ Core Check 코드 분석 규칙 집합 기본적으로 설치 되지 않습니다. Visual Studio 2015의 C++ Core Check 코드 분석 도구를 사용 하려면 먼저 몇 가지 추가 단계를 수행 해야 합니다. Microsoft는 Nuget 패키지를 사용 하 여 Visual Studio 2015 프로젝트에 대 한 지원을 제공 합니다. 패키지의 이름은 Microsoft.CppCoreCheck, 및에서 사용할 수 있습니다 [ http://www.nuget.org/packages/Microsoft.CppCoreCheck ](http://www.nuget.org/packages/Microsoft.CppCoreCheck)합니다. 이 패키지는 최신 Visual Studio 2015 업데이트 1을 사용 하 여 설치 해야 해야 합니다.
+
+또한 패키지는 헤더만 지침 지원 라이브러리 (GSL) 종속성으로 다른 패키지를 설치합니다. GSL에서 GitHub에서 사용할 수 있는 이기도 [ https://github.com/Microsoft/GSL ](https://github.com/Microsoft/GSL)합니다.
+
+코드 분석 규칙 로드 되는 방식으로 인해 Visual Studio 2015 내에서 확인 하려는 각 C++ 프로젝트로 Microsoft.CppCoreCheck NuGet 패키지를 설치 해야 합니다.
 
 ### <a name="to-add-the-microsoftcppcorecheck-package-to-your-project-in-visual-studio-2015"></a>Visual Studio 2015에서 프로젝트에 Microsoft.CppCoreCheck 패키지를 추가 하려면
 
