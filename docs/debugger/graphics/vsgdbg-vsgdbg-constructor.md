@@ -8,35 +8,34 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b4c4c987bd0f44f6b8a4bad945d249aaf832fc57
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: db51226c4d980359fd36ee5196e48d7fa4577a37
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55035278"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56723203"
 ---
 # <a name="vsgdbgvsgdbg-constructor"></a>VsgDbg::VsgDbg(생성자)
-그래픽 진단의 사용자 앱 구성 요소를 준비하거나 준비하지 않고 `VsgDbg` 클래스의 인스턴스를 생성하여 지정된 Boolean 매개 변수에 따라 그래픽 정보를 캡처하고 기록합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-VsgDbg(  
-  bDefaultInit  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `bDefaultInit`  
- 그래픽 정보를 캡처하고 기록하기 위해 그래픽 진단의 사용자 앱 구성 요소가 준비되도록 지정하려면 `true`이고, 이번에 그래픽 정보를 캡처하고 기록하기 위해 앱을 준비해서는 안 되도록 지정하려면 `false`입니다.  
-  
-## <a name="remarks"></a>주의  
- 사용 하 여 생성자가 호출 하는 경우 `bDefaultInit` 로 설정 `true`, 그래픽 로그 파일의 파일 이름 방식에 따라 결정 됩니다 `DONT_SAVE_VSGLOG_TO_TEMP` 하 고 `VSG_DEFAULT_RUN_FILENAME` 하기 전에 정의 된 전처리기 기호 `vsgcapture.h` 앱에 포함 됩니다.  
-  
- `bDefaultInit`이 `false`로 설정된 상태로 생성자가 호출되면 `Init` 함수를 호출하여 나중에 그래픽 정보를 캡처하고 기록하도록 그래픽 진단의 사용자 앱 구성 요소를 준비할 수 있습니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [VsgDbg::~VsgDbg(소멸자)](vsgdbg-tilde-vsgdbg-destructor.md)   
- [Init](init.md)   
- [DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)   
- [VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)
+그래픽 진단의 사용자 앱 구성 요소를 준비하거나 준비하지 않고 `VsgDbg` 클래스의 인스턴스를 생성하여 지정된 Boolean 매개 변수에 따라 그래픽 정보를 캡처하고 기록합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+VsgDbg(
+  bDefaultInit
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `bDefaultInit` 그래픽 정보를 캡처하고 기록하기 위해 그래픽 진단의 사용자 앱 구성 요소가 준비되도록 지정하려면 `true`이고, 이번에 그래픽 정보를 캡처하고 기록하기 위해 앱을 준비해서는 안 되도록 지정하려면 `false`입니다.
+
+## <a name="remarks"></a>주의
+ 사용 하 여 생성자가 호출 하는 경우 `bDefaultInit` 로 설정 `true`, 그래픽 로그 파일의 파일 이름 방식에 따라 결정 됩니다 `DONT_SAVE_VSGLOG_TO_TEMP` 하 고 `VSG_DEFAULT_RUN_FILENAME` 하기 전에 정의 된 전처리기 기호 `vsgcapture.h` 앱에 포함 됩니다.
+
+ `bDefaultInit`이 `false`로 설정된 상태로 생성자가 호출되면 `Init` 함수를 호출하여 나중에 그래픽 정보를 캡처하고 기록하도록 그래픽 진단의 사용자 앱 구성 요소를 준비할 수 있습니다.
+
+## <a name="see-also"></a>참고 항목
+- [VsgDbg::~VsgDbg(소멸자)](vsgdbg-tilde-vsgdbg-destructor.md)
+- [Init](init.md)
+- [DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)
+- [VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)

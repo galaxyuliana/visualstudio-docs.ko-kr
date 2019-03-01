@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2d8aa9a1f369b228b7e1c68a12381bf52d692173
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8e43273823c3baca77bfa50206c9b2186118cca8
+ms.sourcegitcommit: 62149c96de0811415e99bb1e0194e76c320e1a1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909208"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "57007360"
 ---
 # <a name="how-to-generate-code-metrics-data"></a>방법: 코드 메트릭 데이터 생성
 
@@ -25,6 +25,8 @@ ms.locfileid: "55909208"
 또한 설치할 수 있습니다는 [NuGet 패키지](https://dotnet.myget.org/feed/roslyn-analyzers/package/nuget/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.2-beta2-63202-01) 포함 하는 네 가지 코드 메트릭 [분석기](roslyn-analyzers-overview.md) 규칙: CA1501, CA1502, CA1505, 및 CA1506 합니다. 이러한 규칙은 기본적으로 비활성화 되어 있지만 설정할 수 있습니다 **솔루션 탐색기** 또는 [규칙 집합](using-rule-sets-to-group-code-analysis-rules.md) 파일입니다.
 
 ## <a name="visual-studio-ide-code-metrics"></a>Visual Studio IDE 코드 메트릭
+
+사용 하 여 IDE에서 열린 프로젝트 중 하나 또는 모두에 대해 코드 메트릭을 생성 합니다 **분석** > **코드 메트릭 계산** 메뉴.
 
 ### <a name="generate-code-metrics-results-for-an-entire-solution"></a>전체 솔루션에 대해 코드 메트릭 결과 생성
 
@@ -46,13 +48,23 @@ ms.locfileid: "55909208"
 
 결과가 생성 되 고 **코드 메트릭 결과** 창이 표시 됩니다. 결과 세부 정보를 보려면에서 트리를 확장 합니다 **계층**합니다.
 
+::: moniker range="vs-2017"
+
+> [!NOTE]
+> 합니다 **코드 메트릭 계산** 명령은.NET Core 및.NET Standard 프로젝트에 대 한 작동 하지 않습니다. .NET Core 또는.NET Standard 프로젝트에 대해 코드 메트릭을 계산 하려면 다음을 수행할 수 있습니다.
+>
+> - 코드 메트릭을 계산 합니다 [명령줄](#command-line-code-metrics) 대신
+> - Visual Studio 2019로 업그레이드
+
+::: moniker-end
+
 ## <a name="command-line-code-metrics"></a>명령줄 코드 메트릭
 
 명령줄에서 코드 메트릭 데이터를 생성할 수 있습니다 C# 및.NET Framework,.NET Core 및.NET Standard 앱에 대 한 Visual Basic 프로젝트입니다. 코드 메트릭 명령줄에서를 실행 하려면 설치 합니다 [Microsoft.CodeAnalysis.Metrics NuGet 패키지](#microsoftcodeanalysismetrics-nuget-package) 빌드하거나 합니다 [Metrics.exe](#metricsexe) 실행 직접.
 
 ### <a name="microsoftcodeanalysismetrics-nuget-package"></a>Microsoft.CodeAnalysis.Metrics NuGet 패키지
 
-설치 하는 가장 쉬운 방법은 명령줄에서 코드 메트릭 데이터를 생성 하는 것은 [Microsoft.CodeAnalysis.Metrics](https://www.nuget.org/packages/Microsoft.CodeAnalysis.Metrics/) NuGet 패키지. 패키지를 설치한 후 실행 `msbuild /t:Metrics` 프로젝트 파일이 포함 된 디렉터리에서. 예를 들어:
+설치 하는 가장 쉬운 방법은 명령줄에서 코드 메트릭 데이터를 생성 하는 것은 [Microsoft.CodeAnalysis.Metrics](https://www.nuget.org/packages/Microsoft.CodeAnalysis.Metrics/) NuGet 패키지. 패키지를 설치한 후 실행 `msbuild /t:Metrics` 프로젝트 파일이 포함 된 디렉터리에서. 예를 들면,
 
 ```shell
 C:\source\repos\ClassLibrary3\ClassLibrary3>msbuild /t:Metrics
@@ -75,7 +87,7 @@ Build succeeded.
     0 Error(s)
 ```
 
-출력 파일 이름을 지정 하 여 재정의할 수 있습니다 `/p:MetricsOutputFile=<filename>`합니다. 가져올 수도 있습니다 [레거시 스타일](#previous-versions) 지정 하 여 메트릭 데이터를 코드 `/p:LEGACY_CODE_METRICS_MODE=true`합니다. 예를 들어:
+출력 파일 이름을 지정 하 여 재정의할 수 있습니다 `/p:MetricsOutputFile=<filename>`합니다. 가져올 수도 있습니다 [레거시 스타일](#previous-versions) 지정 하 여 메트릭 데이터를 코드 `/p:LEGACY_CODE_METRICS_MODE=true`합니다. 예를 들면,
 
 ```shell
 C:\source\repos\ClassLibrary3\ClassLibrary3>msbuild /t:Metrics /p:LEGACY_CODE_METRICS_MODE=true /p:MetricsOutputFile="Legacy.xml"

@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b353954f56cc71922d1ec5e7aef483c7bad2f47f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 1a15a51d392ee6e351fbcf277ef26eb422fe7ecc
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54991530"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56694818"
 ---
 # <a name="graphics-frame-validation"></a>그래픽 프레임 유효성 검사
 <!-- VERSIONLESS --> Visual Studio 2017 및 향상 된 지원을 합니다 **프레임 유효성 검사** 도구입니다.  프레임 유효성 검사 창을 오류 및 이벤트 목록에 연결 된 경고를 표시 합니다.  이 창을 보려면 선택 합니다 **보기 > 프레임 유효성 검사** 메뉴.
@@ -33,6 +33,6 @@ ms.locfileid: "54991530"
 | 메시지 | 이벤트와 관련된 메시지입니다. |
 | 이벤트 | 오류 또는 경고와 관련 된 이벤트입니다. |
 
-## <a name="see-also"></a>참고 항목  
-[그래픽 진단(DirectX 그래픽 디버그)](visual-studio-graphics-diagnostics.md)   
+## <a name="see-also"></a>참고 항목
+[그래픽 진단(DirectX 그래픽 디버그)](visual-studio-graphics-diagnostics.md)
 <!-- /VERSIONLESS -->

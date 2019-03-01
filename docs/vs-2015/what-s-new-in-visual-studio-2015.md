@@ -14,12 +14,12 @@ caps.latest.revision: 364
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6b3554373d4447aa3bd503668328424b25c43348
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 936a664dfeb063f84218c469b160cec761a0e468
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54790735"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56844141"
 ---
 # <a name="what39s-new-in-visual-studio-2015"></a>Visual Studio 2015의 새로운 기능
 [!INCLUDE[vs2017banner](./includes/vs2017banner.md)]
@@ -56,7 +56,7 @@ ms.locfileid: "54790735"
  Visual Studio Tools for Apache Cordova는 Microsoft와 오픈 소스 Apache Cordova 커뮤니티 사이의 긴밀한 공동 작업의 결과입니다. 이 도구는 HTML, CSS 및 JavaScript(또는 Typescript)를 사용한 플랫폼 간 모바일 개발을 지원합니다. 단일한 코드베이스를 사용하여 Android, iOS 및 Windows를 대상으로 하며 JavaScript IntelliSense, DOM 탐색기, JavaScript 콘솔, 중단점, 조사식, 지역, 내 코드만 등을 포함하는 다양한 Visual Studio IDE를 사용할 수 있습니다.  Visual Studio Tools for Apache Cordova를 사용하여 응용 프로그램은 공통 JavaScript API를 제공하는 플러그인을 통해 모든 플랫폼에서 기본 디바이스 기능에 액세스할 수 있습니다. 시작 하려면 참조 [Visual Studio Tools for Apache Cordova 시작](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42)합니다.
 
 ### <a name="cross-platform-mobile-games-in-c-with-unity"></a>Unity를 사용하여 C#으로 작성하는 플랫폼 간 모바일 게임
- Unity는 다중 플랫폼 2D 및 3D 게임 개발용으로 널리 사용되는 플랫폼입니다. C#으로 게임을 작성하고 Android, iOS, Windows Phone 및 다수의 다른 플랫폼 에서 기본적으로 실행할 수 있습니다. Visual Studio Tools for Unity는 Unity와 Visual Studio IDE를 통합하는 확장입니다. 이 확장을 통해 Unity 개발자용으로 설계된 생산성 기능 외에 Visual Studio IDE 및 디버거의 모든 기능을 사용할 수 있습니다. Visual Studio Tools for Unity 2.0 Preview 2는 Visual Studio 2015에 대한 지원을 비롯해 지역 창과 조사식 창의 향상된 개체 시각화 같은 다양한 새로운 기능을 추가합니다. Microsoft는 최근에 Visual Studio Tools for Unity의 제작사인 SyntaxTree를 인수했습니다. Visual Studio Tools for Unity 2.0 Preview 2를 다운로드하고 Visual Studio Tools for Unity에 대한 자세한 내용을 보려면 [Visual Studio Tools for Unity 2.0](http://Aka.ms/vstu)을 참조하세요.
+ Unity는 다중 플랫폼 2D 및 3D 게임 개발용으로 널리 사용되는 플랫폼입니다. C#으로 게임을 작성하고 Android, iOS, Windows Phone 및 다수의 다른 플랫폼 에서 기본적으로 실행할 수 있습니다. Visual Studio Tools for Unity는 Unity와 Visual Studio IDE를 통합하는 확장입니다. 이 확장을 통해 Unity 개발자용으로 설계된 생산성 기능 외에 Visual Studio IDE 및 디버거의 모든 기능을 사용할 수 있습니다. Visual Studio Tools for Unity 2.0 Preview 2는 Visual Studio 2015에 대한 지원을 비롯해 지역 창과 조사식 창의 향상된 개체 시각화 같은 다양한 새로운 기능을 추가합니다. Microsoft는 최근에 Visual Studio Tools for Unity의 제작사인 SyntaxTree를 인수했습니다. Visual Studio Tools for Unity 2.0 Preview 2를 다운로드하고 Visual Studio Tools for Unity에 대한 자세한 내용을 보려면 [Visual Studio Tools for Unity 2.0](https://aka.ms/vstu)을 참조하세요.
 
 ### <a name="cross-platform-apps-and-libraries-for-native-c"></a>네이티브 C++용 플랫폼 간 앱 및 라이브러리
  C++는 대부분의 모바일 디바이스에서 기본적으로 사용할 수 있는 언어입니다. 이 언어를 사용하여 여러 모바일 플랫폼 대상에 대해 빌드할 수 있는 플랫폼 간 공유 코드 라이브러리를 작성할 수 있습니다. C++를 사용하여 전체 모바일 앱을 만들 수도 있습니다. Visual C++를 사용하여 플랫폼 간 코드를 편집, 빌드, 배포 및 디버그할 수 있습니다. Windows 앱용 템플릿 외에도 Android Native-Activity 앱, iOS 앱용 템플릿을 사용하여 프로젝트를 만들거나 Xamarin 하이브리드 앱이 포함된 여러 플랫폼에 대해 공유 코드 라이브러리를 사용하여 프로젝트를 만들 수도 있습니다. 플랫폼별 IntelliSense를 사용하면 API를 탐색하고 Android, iOS 또는 Windows 대상에 대한 올바른 코드를 생성할 수 있습니다. x86 또는 ARM 네이티브 플랫폼에 대한 빌드를 구성하거나, 네트워크에 연결된 Mac의 iOS 시뮬레이터 또는 iOS 디바이스에 코드를 배포하거나 직접 연결된 Android 디바이스에 코드를 배포하거나, 높은 성능의 Android용 Microsoft Visual Studio 에뮬레이터를 사용하여 테스트할 수 있습니다. Visual Studio 디버거에서 중단점을 설정하고 변수를 조사하고 스택을 보고 단계별로 C++ 코드를 실행할 수 있습니다. 플랫폼에 가장 특정한 코드를 제외한 모든 코드를 여러 앱 플랫폼 간에 공유하고, Visual Studio에서 하나의 솔루션을 사용하여 이 코드를 모두 빌드할 수 있습니다.
@@ -157,7 +157,7 @@ ms.locfileid: "54790735"
 ## <a name="enjoy-these-additional-ide-improvements"></a>이러한 추가 IDE 개선 사항 활용
 
 ### <a name="synchronized-settings-roaming-settings"></a>동기화된 설정(로밍 설정)
- Visual Studio 2013은 텍스트 편집기, 키 바인딩, 테마 및 글꼴 및 색상, 시작, 환경 별칭과 같이 가장 일반적으로 구성되는 일부 설정에 대해 동기화된 설정을 도입했습니다.  Visual Studio 2015는 더 많은 설정을 동기화하고 Professional, Enterprise, Express SKU, Blend와 같은 Visual Studio 애플리케이션 제품군 전체에서 설정을 동기화하여 이러한 환경을 향상합니다. Visual Studio 2013에서 사용한 것과 동일한 계정으로 Visual Studio 2015에 처음으로 로그인하면 Visual Studio 2013에서 적용된 동기화된 설정을 볼 수 있습니다. **빠른 실행**에서 "동기화"를 입력하거나 **도구 > 옵션 > 환경 > 동기화된 설정**으로 이동하여 설정에 액세스할 수 있습니다.
+ Visual Studio 2013은 텍스트 편집기, 키 바인딩, 테마 및 글꼴 및 색상, 시작, 환경 별칭과 같이 가장 일반적으로 구성되는 일부 설정에 대해 동기화된 설정을 제공했습니다.  Visual Studio 2015는 더 많은 설정을 동기화하고 Professional, Enterprise, Express SKU, Blend와 같은 Visual Studio 애플리케이션 제품군 전체에서 설정을 동기화하여 이러한 환경을 향상합니다. Visual Studio 2013에서 사용한 것과 동일한 계정으로 Visual Studio 2015에 처음으로 로그인하면 Visual Studio 2013에서 적용된 동기화된 설정을 볼 수 있습니다. **빠른 실행**에서 "동기화"를 입력하거나 **도구 > 옵션 > 환경 > 동기화된 설정**으로 이동하여 설정에 액세스할 수 있습니다.
 
 ### <a name="automatic-extension-updates"></a>자동 확장 업데이트
  이제 Visual Studio 갤러리에서 새 버전을 사용할 수 있는 경우 설치된 Visual Studio 확장이 자동으로 업데이트됩니다. 자동 확장 업데이트를 사용자 지정할 수 있는 방법에 대한 자세한 내용은 [Visual Studio 확장 찾기 및 사용](./ide/finding-and-using-visual-studio-extensions.md) 을 참조하세요.

@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - uwp
 - cordova
-ms.openlocfilehash: f24c8d79f0b300be4e65b9a14e7675ddf2dcf195
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 2c6595b2e76813607a6582434b5c31f4d07d5f4a
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227409"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56701955"
 ---
 # <a name="javascript-console-commands-in-visual-studio"></a>Visual Studio에서 JavaScript 콘솔 명령
 
@@ -37,7 +37,7 @@ JavaScript 콘솔 창이 닫혀 있는 경우 열 수 있습니다 선택 하 �
 > [!TIP]
 > 이전 버전의 Visual Studio는 전체 명령 집합을 지원하지 않습니다. 지원되는 명령에 대한 정보를 신속하게 얻으려면 콘솔 개체에서 IntelliSense를 사용하세요.
 
-|명령|설명|예|
+|명령|설명|예제|
 |-------------|-----------------|-------------|
 |`assert(expression, message)`|`expression` 이 **false**가 되면 메시지를 보냅니다.|`console.assert((x == 1), "assert message: x != 1");`|
 |`clear()`|콘솔 창에서 스크립트 오류 메시지를 비롯한 메시지를 지우고 콘솔 창에 나타나는 스크립트도 지웁니다. 콘솔 입력 프롬프트에 입력한 스크립트는 지우지 않습니다.|`console.clear();`|
@@ -63,7 +63,7 @@ JavaScript 콘솔 창이 닫혀 있는 경우 열 수 있습니다 선택 하 �
 ## <a name="miscellaneous-commands"></a>기타 명령
 다음 명령은 JavaScript 콘솔 창에서도 사용할 수 있습니다(코드에서는 사용할 수 없음).
 
-|명령|설명|예|
+|명령|설명|예제|
 |-------------|-----------------|-------------|
 |`$0`, `$1`, `$2`, `$3`, `$4`|콘솔 창에 지정된 요소를 반환합니다. `$0`은 DOM 탐색기에서 현재 선택한 요소를 반환하고 `$1`은 DOM 탐색기에서 이전에 선택한 요소를 반환하며 이전에 선택한 네 번째 요소까지 이런 식으로 반환됩니다.|$3|
 |`$(id)`|ID별로 요소를 반환합니다. `document.getElementById(id)`에 대한 바로 가기 명령입니다. 여기서 `id` 는 요소 ID를 나타내는 문자열입니다.|`$("contenthost")`|
@@ -103,13 +103,7 @@ console.log(user.first, user.last);
 
  다음과 같은 대체 패턴이 지원됩니다.
 
-- %s-문자열 %i-정수  
-  %d - 정수  
-  %f - float  
-  %o - 개체  
-  %b - 이진  
-  %x - 16진수  
-  %e - 지수  
+- %s - 문자열 %i - 정수 %d - 정수 %f - 부동 %o - 개체 %b - 이진 %x - 16진수 %e - 지수
 
   다음은 `console.log`에 대체 패턴을 사용하는 몇 가지 예제입니다.
 
@@ -129,5 +123,5 @@ console.log("%s is %f years old!", user.first, user.age);
 ```
 
 ## <a name="see-also"></a>참고 항목
-[빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)  
-[빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)
+- [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)
+- [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 83a5304da009aa35eefb91f064929a58444f139f
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 4073ad5f112f0585f01de756f2cde4b352b7446a
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317005"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56680190"
 ---
 # <a name="using-the-debuggerdisplay-attribute-c-visual-basic-f-ccli"></a>DebuggerDisplay 특성 사용 (C#, Visual Basic의 경우 F#, C + + /cli CLI)
 <xref:System.Diagnostics.DebuggerDisplayAttribute>는 개체, 속성 또는 필드가 디버거 변수 창에 표시되는 방식을 제어합니다. 이 특성은 형식, 대리자, 속성, 필드 및 어셈블리에 적용할 수 있습니다.
@@ -91,7 +91,7 @@ public sealed class MyClass
 ```
 ", nq" 접미사 지시 최종 값을 표시 하는 경우 따옴표를 제거 하는 식 계산기 (nq = 따옴표 없음).
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 코드 예제에서는 `DebuggerDisplay`와 `DebuggerBrowseable` 및 `DebuggerTypeProxy`를 함께 사용하는 방법을 보여 줍니다. **조사식** 창과 같은 디버거 변수 창에 이 코드가 표시될 때는 다음과 같은 확장이 생성됩니다.
 
 |**이름**|**값**|**Type**|
@@ -178,7 +178,8 @@ class MyHashtable
 ```
 
 ## <a name="see-also"></a>참고 항목
-[DebuggerTypeProxy 특성 사용](../debugger/using-debuggertypeproxy-attribute.md)  
-[관리 개체의 사용자 지정 뷰 만들기](../debugger/create-custom-views-of-dot-managed-objects.md)  
-[C#의 형식 지정자](../debugger/format-specifiers-in-csharp.md)  
-[디버거 표시 특성을 사용하여 디버깅 향상](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)
+
+- [DebuggerTypeProxy 특성 사용](../debugger/using-debuggertypeproxy-attribute.md)
+- [관리 개체의 사용자 지정 뷰 만들기](../debugger/create-custom-views-of-dot-managed-objects.md)
+- [C#의 형식 지정자](../debugger/format-specifiers-in-csharp.md)
+- [디버거 표시 특성을 사용하여 디버깅 향상](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)
