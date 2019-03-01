@@ -8,27 +8,26 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 35558a9ad6a4e7d31103910f3fe71c0a12374c22
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3a888605cfae6b5430782defd198f83988c31870
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55042256"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56719082"
 ---
 # <a name="copy-programmatic-capture"></a>복사(프로그램 방식 캡처)
-활성 그래픽 로그(.vsglog) 파일 내용을 새 파일에 복사합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```C++  
-void Copy(  
-  wchar_t const * szNewVSGLog  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `szNewVSGLog`  
- 새 그래픽 로그 파일 이름입니다.  
-  
-## <a name="remarks"></a>주의  
+활성 그래픽 로그(.vsglog) 파일 내용을 새 파일에 복사합니다.
+
+## <a name="syntax"></a>구문
+
+```C++
+void Copy(
+  wchar_t const * szNewVSGLog
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `szNewVSGLog` 새 그래픽 로그 파일 이름입니다.
+
+## <a name="remarks"></a>주의
  그래픽 정보를 새 파일에 복사하려면 이미 캡처한 일부 그래픽 정보가 있어야 합니다. 그렇지 않으면 아무 것도 실행되지 않습니다.

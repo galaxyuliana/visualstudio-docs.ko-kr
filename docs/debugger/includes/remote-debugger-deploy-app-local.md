@@ -8,16 +8,16 @@ ms.topic: include
 ms.date: 05/23/2018
 ms.author: mikejo
 ms.custom: include file
-ms.openlocfilehash: bd477fec033eb75f626401586abfd10c798601ef
-ms.sourcegitcommit: c57ae28181ffe14a30731736661bf59c3eff1211
-ms.translationtype: MT
+ms.openlocfilehash: 67ffd17c772221c356e8c25d14437c2a737fda9e
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38809471"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56723879"
 ---
 1. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **게시** (Web Forms에 대 한 **웹 앱 게시**).
 
-    게시 프로필을 이전에 구성한 경우 합니다 **게시** 창이 나타납니다. 클릭 **새 프로필**합니다.
+    게시 프로필을 이전에 구성한 경우 **게시** 창이 나타납니다. 클릭 **새 프로필**합니다.
 
 1. 에 **게시** 대화 상자에서 **폴더**, 클릭 **찾아보기**, 새 폴더를 만들고 **C:\Publish**합니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "38809471"
 1. **게시**를 클릭합니다.
 
     ![RemoteDBG_Publish_Debug_Config](../media/remotedbg_publish_debug_config.png "RemoteDBG_Publish_Debug_Config")
-    
+
     응용 프로그램 게시를 **디버그** 로컬 폴더에 프로젝트의 구성 합니다. 출력 창에 진행률 보여 줍니다.
 
 1. ASP.NET 앱에 대해 구성 된 로컬 디렉터리에 Visual Studio 컴퓨터에서 ASP.NET 프로젝트 디렉터리를 복사 (이 예제의 **C:\Publish**) Windows Server 컴퓨터. 이 자습서에서는 수동으로 복사 하는 PowerShell, Xcopy 또는 Robocopy와 같은 다른 도구를 사용할 수 있지만 가정 합니다.

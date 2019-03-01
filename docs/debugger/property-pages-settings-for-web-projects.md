@@ -21,18 +21,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 809e84981bc491a89f8e031f5ac8caf497c1a6e6
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 7a9ab4300484e81e70abd36dbdba28521f91cd62
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55001971"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56690528"
 ---
 # <a name="property-pages-settings-for-web-projects"></a>웹 프로젝트에 대한 속성 페이지 설정
-[디버그 및 릴리스 구성](../debugger/how-to-set-debug-and-release-configurations.md)에서 설명한 것처럼 **속성 페이지** 대화 상자를 사용하여 웹 사이트 디버그 구성에 대한 속성 설정을 변경할 수 있습니다. 다음 표에서는 **속성 페이지** 대화 상자에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.  
-  
+[디버그 및 릴리스 구성](../debugger/how-to-set-debug-and-release-configurations.md)에서 설명한 것처럼 **속성 페이지** 대화 상자를 사용하여 웹 사이트 디버그 구성에 대한 속성 설정을 변경할 수 있습니다. 다음 표에서는 **속성 페이지** 대화 상자에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.
+
 ### <a name="start-options-category"></a>시작 옵션 범주
-  
+
 | **설정** | **설명** |
 | - | - |
 | **시작 작업** | 응용 프로그램 시작에 관련된 옵션을 그룹화하는 제목입니다. |
@@ -51,6 +51,6 @@ ms.locfileid: "55001971"
 | **네이티브 코드 디버깅** | 관리되는 응용 프로그램에서의 비관리 네이티브 Win32 코드에 대한 호출을 디버깅할 수 있습니다. |
 | **SQL Server 디버깅** | SQL Server 데이터베이스 개체를 디버깅할 수 있습니다. |
 | **Silverlight 디버깅** | Silverlight 구성 요소를 디버깅할 수 있습니다. |
-  
-## <a name="see-also"></a>참고 항목  
- [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)
+
+## <a name="see-also"></a>참고 항목
+- [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)
