@@ -8,19 +8,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9b7caed64a263e5f347558dcea479b2e5ee27c96
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f6c72146f6e76605cc379c4db269982f6eed1c6f
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913904"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57221842"
 ---
 # <a name="debugging-xslt"></a>XSLT 디버깅
 
 Visual Studio 디버거를 사용하여 XSLT를 디버깅할 수 있습니다. 이 디버거에서는 중단점 설정, XSLT 실행 상태 보기 등을 지원합니다.
 
 > [!NOTE]
-> XSLT 디버거만 Visual Studio 2017 Enterprise edition에서 제공 됩니다.
+> XSLT 디버거만 Visual Studio의 Enterprise edition에서 제공 됩니다.
 
 ## <a name="xslt-profiler"></a>XSLT 프로파일러
 

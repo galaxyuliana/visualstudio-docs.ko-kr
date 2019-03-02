@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 30eb3183d261297295d9d6d3715f3683e4b6ee34
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6e060f168ea301b898fe578ac0d5030a2ae7e774
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950229"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223704"
 ---
 # <a name="map-dependencies-with-code-maps"></a>코드 맵 사용 하 여 종속성 매핑
 
@@ -47,7 +47,7 @@ ms.locfileid: "55950229"
 
 ## <a name="install-code-map-and-live-dependency-validation"></a>설치 코드 맵, 실시간 종속성 유효성 검사
 
-Visual Studio 2017에서 코드 맵을 만들려면 먼저 설치 합니다 **코드 맵** 하 고 **실시간 종속성 유효성 검사** 구성 요소:
+Visual Studio에서 코드 맵을 만들려면 먼저 설치 합니다 **코드 맵** 하 고 **실시간 종속성 유효성 검사** 구성 요소:
 
 1. 오픈 **Visual Studio 설치 관리자**합니다. 열 수 있습니다 Windows 시작 메뉴 또는 Visual Studio 내에서 선택 하 여 **도구가** > **도구 및 기능 가져오기**합니다.
 
@@ -98,11 +98,11 @@ Visual Studio 2017에서 코드 맵을 만들려면 먼저 설치 합니다 **�
 
 3. 맵으로 드릴다운하려면 프로젝트 및 어셈블리를 나타내는 그룹을 확장합니다. **CTRL+A** 를 눌러 모드 노드를 선택하고 바로 가기 메뉴에서 **그룹**, **확장** 을 차례로 선택하는 방식으로 모든 항목을 확장할 수 있습니다.
 
-   ![코드 맵에서 모든 그룹 확장명](../modeling/media/codemapsexpandallgroups.png)
+   ![코드 맵에서 모든 그룹 확장](../modeling/media/codemapsexpandallgroups.png)
 
 4. 그러나 이 방법은 큰 솔루션에는 유용하지 않을 수 있습니다. 실제로 복잡한 솔루션의 경우 메모리 제한으로 인해 모든 그룹을 확장하지 못할 수 있습니다. 대신에 개별 노드의 내부를 확인하려면 해당 노드를 확장합니다. 마우스 포인터를 노드 맨 위로 이동하고 펼침 단추(아래쪽 화살표)가 나타나면 단추를 클릭합니다.
 
-   ![코드 맵에서 노드 확장명](../modeling/media/dependencygraph_containment.png)
+   ![코드 맵에서 노드 확장](../modeling/media/dependencygraph_containment.png)
 
    또는 항목을 선택하고 더하기 키(**+**)를 눌러서 키보드를 사용합니다. 코드를 더 자세히 살펴보려면 네임스페이스, 형식 및 멤버에 대해 같은 작업을 수행합니다.
 
@@ -181,11 +181,11 @@ Visual Studio 2017에서 코드 맵을 만들려면 먼저 설치 합니다 **�
 
 5. 계속 필요한 경우 클래스 및 멤버 수준까지, 원하는 항목을 확장 합니다.
 
-   ![클래스 및 멤버 수준으로 그룹 확장명](../modeling/media/codemapsexpandtoclassandmember.png)
+   ![클래스 및 멤버 수준으로 그룹 확장](../modeling/media/codemapsexpandtoclassandmember.png)
 
    맵에서 코드에 있지만 나타나지 멤버를 보려면 클릭 합니다 **페치** 아이콘 ![자식 다시 페치 아이콘](../modeling/media/dependencygraph_deletednodesicon.png) 그룹의 왼쪽된 위 모퉁이에서.
 
-6. 맵의 항목과 관련된 추가 항목을 확인하려면 항목을 선택하고, 코드 맵 도구 모음에서 **관련 항목 표시** 를 선택하고, 맵에 추가할 관련 항목 형식을 선택합니다. 또는 하나 이상의 항목을 선택 하 고, 바로 가기 메뉴를 열고 고, 선택한 합니다 **표시** 맵에 추가할 관련된 항목의 형식에 대 한 옵션입니다. 예를 들어:
+6. 맵의 항목과 관련된 추가 항목을 확인하려면 항목을 선택하고, 코드 맵 도구 모음에서 **관련 항목 표시** 를 선택하고, 맵에 추가할 관련 항목 형식을 선택합니다. 또는 하나 이상의 항목을 선택 하 고, 바로 가기 메뉴를 열고 고, 선택한 합니다 **표시** 맵에 추가할 관련된 항목의 형식에 대 한 옵션입니다. 예를 들면,
 
     **어셈블리**인 경우 다음을 선택합니다.
 

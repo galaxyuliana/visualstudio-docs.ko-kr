@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c8f4a09950de9480604d922b0d3dd5cefda17256
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: cb6908db6b111f2ff67f2e1ca3761b11c302f5d4
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908790"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223821"
 ---
 # <a name="dependency-diagrams-guidelines"></a>종속성 다이어그램: 지침
 
@@ -26,7 +26,7 @@ ms.locfileid: "55908790"
 이 기능을 지 원하는 Visual Studio의 버전을 보려면을 참조 하세요 [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)합니다.
 
 > [!NOTE]
-> Visual Studio 2017에서.NET Core 프로젝트용 종속성 다이어그램을 사용할 수 없습니다.
+> Visual Studio에서.NET Core 프로젝트용 종속성 다이어그램을 사용할 수 없습니다.
 
 ## <a name="what-is-a-dependency-diagram"></a>종속성 다이어그램 이란?
 

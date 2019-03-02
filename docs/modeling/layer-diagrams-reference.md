@@ -20,12 +20,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: baee97f08a4e6015d6c2e1d88f83f5835431578b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 5f0a13f6355b868292d7d2867e54a8e62cb87c0f
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957915"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223015"
 ---
 # <a name="dependency-diagrams-reference"></a>종속성 다이어그램: 참조
 
@@ -34,7 +34,7 @@ Visual Studio에서 사용할 수는 *종속성 다이어그램* 시스템의 �
 이 기능을 지 원하는 Visual Studio의 버전을 보려면을 참조 하세요 [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)합니다.
 
 > [!NOTE]
-> Visual Studio 2017에서.NET Core 프로젝트용 종속성 다이어그램을 사용할 수 없습니다.
+> Visual Studio에서.NET Core 프로젝트용 종속성 다이어그램을 사용할 수 없습니다.
 
 레이어 간에 의도한 종속성이나 기존 종속성을 지정할 수 있습니다. 이와 같이 화살표로 나타내는 종속성은 다른 레이어가 나타내는 기능을 어느 레이어가 사용할 수 있는지 또는 현재 어느 레이어가 사용하고 있는지를 나타냅니다. 시스템으로 고유 역할 및 기능을 설명 하는 레이어로 구성 종속성 다이어그램 수 쉽게 이해, 재사용 및 코드를 유지 관리할 수 있습니다.
 

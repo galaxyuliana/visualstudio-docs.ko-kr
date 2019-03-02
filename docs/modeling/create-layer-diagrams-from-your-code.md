@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 52919bc65366afc3e0fef5d3dbca1e5a9e7e77e1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c9ba42ca1a4fefa337e488f3bb3e2879a0446aea
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913017"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223236"
 ---
 # <a name="create-dependency-diagrams-from-your-code"></a>코드에서 종속성 다이어그램 만들기
 
@@ -41,7 +41,7 @@ ms.locfileid: "55913017"
 ### <a name="add-a-new-dependency-diagram-to-a-modeling-project"></a>모델링 프로젝트에 새 종속성 다이어그램 추가
 
 > [!NOTE]
-> Visual Studio 2017에서.NET Core 프로젝트용 종속성 다이어그램을 사용할 수 없습니다.
+> Visual Studio에서.NET Core 프로젝트용 종속성 다이어그램을 사용할 수 없습니다.
 
 1.  에 **아키텍처** 메뉴 선택 **새 종속성 다이어그램**합니다.
 

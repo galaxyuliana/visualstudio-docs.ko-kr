@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8e43273823c3baca77bfa50206c9b2186118cca8
-ms.sourcegitcommit: 62149c96de0811415e99bb1e0194e76c320e1a1e
+ms.openlocfilehash: eb65f2a1de54cd21ff212443c004dc011d5b3222
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "57007360"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223730"
 ---
 # <a name="how-to-generate-code-metrics-data"></a>방법: 코드 메트릭 데이터 생성
 
@@ -87,7 +87,7 @@ Build succeeded.
     0 Error(s)
 ```
 
-출력 파일 이름을 지정 하 여 재정의할 수 있습니다 `/p:MetricsOutputFile=<filename>`합니다. 가져올 수도 있습니다 [레거시 스타일](#previous-versions) 지정 하 여 메트릭 데이터를 코드 `/p:LEGACY_CODE_METRICS_MODE=true`합니다. 예를 들면,
+출력 파일 이름을 지정 하 여 재정의할 수 있습니다 `/p:MetricsOutputFile=<filename>`합니다. 가져올 수도 있습니다 [레거시 스타일](#previous-versions) 지정 하 여 메트릭 데이터를 코드 `/p:LEGACY_CODE_METRICS_MODE=true`합니다. 예를 들어:
 
 ```shell
 C:\source\repos\ClassLibrary3\ClassLibrary3>msbuild /t:Metrics /p:LEGACY_CODE_METRICS_MODE=true /p:MetricsOutputFile="Legacy.xml"
@@ -184,7 +184,7 @@ NuGet 패키지를 설치 하지 않으려는 경우 생성 하 고 사용 하 �
 
 #### <a name="metricsexe-usage"></a>Metrics.exe 사용
 
-실행할 *Metrics.exe*인수로 솔루션 및 XML 출력 파일, 프로젝트를 제공 합니다. 예를 들어:
+실행할 *Metrics.exe*인수로 솔루션 및 XML 출력 파일, 프로젝트를 제공 합니다. 예를 들면,
 
 ```shell
 C:\>Metrics.exe /project:ConsoleApp20.csproj /out:report.xml
@@ -206,7 +206,7 @@ msbuild /m /v:m /t:rebuild /p:LEGACY_CODE_METRICS_MODE=true Metrics.csproj
 
 ### <a name="previous-versions"></a>이전 버전
 
-이전 버전의 Visual Studio, Visual Studio 2015를 포함 하 여 포함 된 라고도 하는 명령줄 코드 메트릭 도구 *Metrics.exe*합니다. 이 이전 버전의 도구는 어셈블리 기반 분석, 이진 분석을 수행 했습니다. 새로운 도구는 대신 소스 코드를 분석합니다. 결과 이전 버전의 생성 한 내용을 다른 새 명령줄 코드 메트릭 도구 소스 코드 기반 이므로 *Metrics.exe* 및 Visual Studio 2017 ide.
+Visual Studio 2015도 호출 된 명령줄 코드 메트릭 도구 포함 *Metrics.exe*합니다. 이 이전 버전의 도구는 어셈블리 기반 분석, 이진 분석을 수행 했습니다. 새 *Metrics.exe* 도구 대신 소스 코드를 분석 합니다. 때문에 새 *Metrics.exe* 도구는 이전 버전의 Visual Studio IDE에 의해 생성 된 결과 소스 코드 기반, 명령줄 코드 메트릭을 *Metrics.exe*합니다.
 
 새 명령줄 코드 메트릭 도구 솔루션 및 프로젝트를 로드할 수 있다면 소스 코드 오류, 경우에 메트릭을 계산 합니다.
 
@@ -214,7 +214,7 @@ msbuild /m /v:m /t:rebuild /p:LEGACY_CODE_METRICS_MODE=true Metrics.csproj
 
 `LinesOfCode` 더 정확 하 고 새 명령줄 코드 메트릭 도구에서 신뢰할 수 있는 메트릭은입니다. Codegen 차이 무관 하 고 도구 집합을 런타임에 변경 될 때 변경 되지 않습니다. 새 도구 실제 빈 줄 및 주석이 포함 하 여 코드 줄을 계산 합니다.
 
-와 같은 다른 메트릭을 `CyclomaticComplexity` 및 `MaintainabilityIndex` 이전 버전의 동일한 수식을 사용 하 여 *Metrics.exe*, 새로운 도구 수를 계산 하지만 `IOperations` (논리적 원본이 지침) 대신 중간 언어 (IL) 지침입니다. 이전 버전의 숫자 다소 달라 집니다 *Metrics.exe* 및 Visual Studio 2017 IDE 코드 메트릭 결과입니다.
+와 같은 다른 메트릭을 `CyclomaticComplexity` 및 `MaintainabilityIndex` 이전 버전의 동일한 수식을 사용 하 여 *Metrics.exe*, 새로운 도구 수를 계산 하지만 `IOperations` (논리적 원본이 지침) 대신 중간 언어 (IL) 지침입니다. 이전 버전의 Visual Studio IDE에 의해 생성 된 번호를 다소 달라 집니다 *Metrics.exe*합니다.
 
 ## <a name="see-also"></a>참고자료
 

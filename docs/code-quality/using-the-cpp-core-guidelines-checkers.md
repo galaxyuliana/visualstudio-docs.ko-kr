@@ -7,18 +7,20 @@ ms.author: mblome
 manager: wpickett
 dev_langs:
 - CPP
-ms.openlocfilehash: c591ecdb206d14e217fb38c01864aa2691ffe2d4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 15877cbaed093eab2cf436ed5122c80b9e135800
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55914999"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223353"
 ---
 # <a name="using-the-c-core-guidelines-checkers"></a>C++ Core Guidelines를 이용한 코드검사 사용
-C++ Core Guidelines는 이식 가능한 집합 지침, 규칙 및 C++ 전문가가 및 디자이너에서 생성하는 C++에서 코딩 하는 방법에 대 한 모범 사례입니다. Visual Studio는 현재 C++용 코드 분석 도구의 일부로 이러한 규칙의 하위 집합을 지원합니다. 핵심 지침 검사기는 Visual Studio 2017에서는 기본적으로 설치 되며 [Visual Studio 2015 용 NuGet 패키지로 제공](#vs2015_corecheck)합니다.
+
+C++ Core Guidelines는 이식 가능한 집합 지침, 규칙 및 C++ 전문가가 및 디자이너에서 생성하는 C++에서 코딩 하는 방법에 대 한 모범 사례입니다. Visual Studio는 현재 C++용 코드 분석 도구의 일부로 이러한 규칙의 하위 집합을 지원합니다. 핵심 지침 검사기는 Visual Studio 2017 및 Visual Studio 2019에 기본적으로 설치 되며 [Visual Studio 2015 용 NuGet 패키지로 제공](#vs2015_corecheck)합니다.
 
 ## <a name="the-c-core-guidelines-project"></a>C++ Core Guidelines 프로젝트
- C++ Core Guidelines를 안전 하 게 하 고 효과적으로 최신 C++를 사용 하는 데는 Bjarne Stroustrup 등에서 생성 합니다. 지침에는 정적 형식 안전성 및 리소스 보안 강조합니다. 제거 하거나 언어의 가장 오류가 발생 하기 쉬운 부분을 최소화 하는 방법을 식별 하며 신뢰할 수 있는 방식으로 코드를 간단 하 게 하는 방법 및 성능이 향상 하는 것이 좋습니다. 이러한 지침 표준 C++ Foundation에서 유지 됩니다. 자세한 내용은 설명서를 참조 [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines), C++ Core Guidelines 설명서 프로젝트 파일에 액세스 하고 [GitHub](https://github.com/isocpp/CppCoreGuidelines)합니다.
+
+C++ Core Guidelines를 안전 하 게 하 고 효과적으로 최신 C++를 사용 하는 데는 Bjarne Stroustrup 등에서 생성 합니다. 지침에는 정적 형식 안전성 및 리소스 보안 강조합니다. 제거 하거나 언어의 가장 오류가 발생 하기 쉬운 부분을 최소화 하는 방법을 식별 하며 신뢰할 수 있는 방식으로 코드를 간단 하 게 하는 방법 및 성능이 향상 하는 것이 좋습니다. 이러한 지침 표준 C++ Foundation에서 유지 됩니다. 자세한 내용은 설명서를 참조 [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines), C++ Core Guidelines 설명서 프로젝트 파일에 액세스 하고 [GitHub](https://github.com/isocpp/CppCoreGuidelines)합니다.
 
 ## <a name="enable-the-c-core-check-guidelines-in-code-analysis"></a>코드 분석에서 C++ Core Check 지침을 사용 하도록 설정
  선택 하 여 프로젝트에서 코드 분석을 사용할 수 있습니다를 **빌드에 코드 분석 사용** 에서 확인란을 선택 합니다 **코드 분석** 섹션을 **속성 페이지** 대화 상자 프로젝트입니다.

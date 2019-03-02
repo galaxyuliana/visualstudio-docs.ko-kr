@@ -1,5 +1,5 @@
 ---
-title: 워크플로 디자이너로 응용 프로그램 개발
+title: Workflow Designer로 응용 프로그램 개발
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eb1b746e862385395089fe0ccf3bd2d4bfdb8d33
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 45c687be4efc5a83827836cd1ac89bbc38ad4cb1
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909247"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223288"
 ---
 # <a name="develop-apps-with-the-workflow-designer"></a>워크플로 디자이너를 사용하여 앱 개발
 
@@ -29,7 +29,7 @@ ms.locfileid: "55909247"
 
 ## <a name="install-windows-workflow-foundation"></a>Windows Workflow Foundation 설치
 
-Visual Studio 2017에서 워크플로 프로젝트 템플릿을 사용 하려면 먼저 설치 합니다 **Windows Workflow Foundation** 구성 요소입니다.
+Visual Studio에서 워크플로 프로젝트 템플릿을 사용 하려면 먼저 설치 합니다 **Windows Workflow Foundation** 구성 요소입니다.
 
 1. Visual Studio 설치 관리자를 엽니다. 선택 하 여 열을 신속 하 게 됩니다 **도구가** > **도구 및 기능 가져오기** Visual Studio에서.
 
@@ -37,7 +37,7 @@ Visual Studio 2017에서 워크플로 프로젝트 템플릿을 사용 하려면
 
 1. 아래로 스크롤하여를 **개발 활동** 한 다음 선택한 범주를 **Windows Workflow Foundation** 구성 요소.
 
-   ![Windows Workflow Foundation component for Visual Studio 2017](media/windows-workflow-foundation-component.png)
+   ![Visual Studio 용 Windows Workflow Foundation 구성 요소](media/windows-workflow-foundation-component.png)
 
 1. **수정**을 선택합니다.
 

@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e9016ee501c0fc4064e15358c3c8e2e4e0ac11cd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 44d68b83f9364885ea33af2184f2a911bf916325
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939007"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222336"
 ---
 # <a name="how-to-add-a-new-item-to-a-workflow-project"></a>방법: 워크플로 프로젝트에 새 항목을 추가 합니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "55939007"
 1. 왼쪽 창에서 선택 합니다 **워크플로** 범주를 선택한 다음 워크플로 항목 템플릿 선택 합니다.
 
    > [!NOTE]
-   > 표시 되지 않는 경우는 **워크플로** 범주, 첫 번째 설치를 **Windows Workflow Foundation** Visual Studio 2017 구성 요소입니다. 자세한 지침은 [Windows Workflow Foundation 설치](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation)합니다.
+   > 표시 되지 않는 경우는 **워크플로** 범주, 첫 번째 설치를 **Windows Workflow Foundation** Visual Studio의 구성 요소입니다. 자세한 지침은 [Windows Workflow Foundation 설치](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation)합니다.
 
 1. 항목에 대 한 이름을 입력 합니다 **이름을** 대화 상자의 맨 위에 있는 상자입니다.
 

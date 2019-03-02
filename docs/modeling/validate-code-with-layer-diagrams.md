@@ -19,12 +19,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f5248609ed51f82cfbc69c883063a032ab48813f
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: bda2ae00b02d097b8684499c9343b5709dd35c8e
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317369"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223197"
 ---
 # <a name="validate-code-with-dependency-diagrams"></a>종속성 다이어그램을 사용하여 코드 유효성 검사
 
@@ -49,7 +49,7 @@ ms.locfileid: "56317369"
 - 종속성 다이어그램을 사용 하 여 모델링 프로젝트에 포함 된 솔루션입니다. 이 종속성 다이어그램의 유효성을 검사 하려는 C# 또는 Visual Basic 프로젝트에서 아티팩트에 연결 되어야 합니다. 참조 [코드에서 종속성 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)합니다.
 
 > [!NOTE]
-> Visual Studio 2017에서.NET Core 프로젝트용 종속성 다이어그램을 사용할 수 없습니다.
+> Visual Studio에서.NET Core 프로젝트용 종속성 다이어그램을 사용할 수 없습니다.
 
 이 기능을 지 원하는 Visual Studio의 버전을 보려면을 참조 하세요 [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)합니다.
 
@@ -235,6 +235,6 @@ Visual Studio에서 열기 종속성 다이어그램을에서 수동으로 또�
 
 ## <a name="see-also"></a>참고자료
 
-- [Visual Studio 2017의 라이브 종속성 유효성 검사](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
+- [Visual Studio의 라이브 종속성 유효성 검사](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
 - [개발하는 동안 시스템 유효성 검사](../modeling/validate-your-system-during-development.md)
 - [비디오: 실시간에서 아키텍처 종속성 유효성 검사](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
