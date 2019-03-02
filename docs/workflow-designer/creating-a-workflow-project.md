@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0450260d5d889c141607a281740bf06d255d5c17
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: cf4013f1302ff4952fa34c689801978b9116e549
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923423"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222456"
 ---
 # <a name="workflow-project-templates"></a>워크플로 프로젝트 템플릿
 
@@ -34,7 +34,7 @@ Visual Studio는 4 개의 서로 다른 워크플로 프로젝트 템플릿을 �
 
 - 활동 디자이너 라이브러리
 
-이러한 서식 파일에 액세스 하려면 먼저 설치 합니다 **Windows Workflow Foundation** Visual Studio 2017 구성 요소입니다. 자세한 지침은 [Windows Workflow Foundation 설치](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation)합니다.
+이러한 서식 파일에 액세스 하려면 먼저 설치 합니다 **Windows Workflow Foundation** Visual Studio의 구성 요소입니다. 자세한 지침은 [Windows Workflow Foundation 설치](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation)합니다.
 
 1. 설치한 후는 **Windows Workflow Foundation** 구성 요소를 열기를 **새 프로젝트** 선택 하 여 대화 상자 **파일** > **새로만들기**  >  **프로젝트**합니다.
 

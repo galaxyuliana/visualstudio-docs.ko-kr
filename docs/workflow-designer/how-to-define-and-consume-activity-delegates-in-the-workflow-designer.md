@@ -8,12 +8,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 29475ef3b5bf25c2fca67d6aa7f4708787350cb3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9d0176113b444c2d5b7e4c9f304e35974fdb31e5
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55914778"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222885"
 ---
 # <a name="how-to-define-and-consume-activity-delegates-in-the-workflow-designer"></a>방법: 워크플로 디자이너에서 활동 대리자 정의 및 사용
 
@@ -26,7 +26,7 @@ ms.locfileid: "55914778"
 2. 에 **새 프로젝트** 대화 상자에서를 **워크플로** 왼쪽의 범주를 선택한는 **워크플로 콘솔 응용 프로그램** 프로젝트 템플릿. 원하는 경우 프로젝트 이름을 지정 하 고 클릭 **확인**합니다.
 
    > [!NOTE]
-   > 표시 되지 않는 경우는 **워크플로** 범주, 첫 번째 설치를 **Windows Workflow Foundation** Visual Studio 2017 구성 요소입니다. 자세한 지침은 [Windows Workflow Foundation 설치](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation)합니다.
+   > 표시 되지 않는 경우는 **워크플로** 범주, 첫 번째 설치를 **Windows Workflow Foundation** Visual Studio의 구성 요소입니다. 자세한 지침은 [Windows Workflow Foundation 설치](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation)합니다.
 
 3. 프로젝트를 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 선택한 **추가** > **새 항목**합니다. 선택 된 **워크플로** 범주를 선택한 후는 **활동** 항목 템플릿. 새 활동 이름을 **MyForEach.xaml** 선택한 후 **확인**합니다.
 

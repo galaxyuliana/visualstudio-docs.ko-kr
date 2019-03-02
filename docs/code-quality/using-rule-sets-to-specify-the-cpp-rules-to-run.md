@@ -7,18 +7,18 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: f8d4a5b28686b2af356d1247bf9690708739fea8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 82f42ba3c984d53952bed2396ca1218883977204
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907858"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222560"
 ---
 # <a name="use-rule-sets-to-specify-the-c-rules-to-run"></a>규칙 집합을 사용 하 여 실행할 C++ 규칙 지정
 
 Visual Studio에서 만들기 및 사용자 지정을 수정할 수 있습니다 *규칙 집합* 코드 분석을 사용 하 여 연결 된 특정 프로젝트 요구를 충족 하도록 합니다. 기본 규칙 집합에 저장 된 `%VSINSTALLDIR%\Team Tools\Static Analysis Tools\Rule Sets`합니다.
 
-**Visual Studio 2017 버전 15.7** 모든 텍스트를 사용 하 여 사용자 지정 규칙 집합 편집기 만들기 및 사용 중인 시스템에 구축할 기능에 관계 없이 명령줄 빌드에 적용할 수 있습니다. 자세한 내용은 [/analyze: ruleset](/cpp/build/reference/analyze-code-analysis)합니다.
+**Visual Studio 2017 버전 15.7 이상의** 모든 텍스트를 사용 하 여 사용자 지정 규칙 집합 편집기 만들기 및 사용 중인 시스템에 구축할 기능에 관계 없이 명령줄 빌드에 적용할 수 있습니다. 자세한 내용은 [/analyze: ruleset](/cpp/build/reference/analyze-code-analysis)합니다.
 
 C/C++ 프로젝트를 Visual Studio에서 설정 하는 사용자 지정 C++ 규칙을 만들려면 Visual Studio IDE에서 열려 있어야 합니다. 그런 다음 규칙 집합 편집기에서 표준 규칙 집합을 열고, 특정 규칙을 추가 또는 제거하고, 필요에 따라 코드 분석으로 규칙이 위반된 것으로 확인될 때 발생하는 작업을 변경합니다.
 

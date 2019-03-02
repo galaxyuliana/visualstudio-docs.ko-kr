@@ -14,12 +14,12 @@ dev_langs:
 - CPP
 ms.workload:
 - multiple
-ms.openlocfilehash: e85ca90dac30ad348dfeb91357ded153c1764a16
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6cd61304e150da63d2d461ef364e7039789c71fc
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927817"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223093"
 ---
 # <a name="suppress-code-analysis-warnings"></a>코드 분석 경고 표시 안 함
 
@@ -33,7 +33,7 @@ C + + CLI CA 매크로 사용 하 여\_표시 안 함\_메시지나 CA\_GLOBAL\_
 > 소스에서 메타 데이터를 실수로 전달 하지 않으려면-소스 비 표시 오류 릴리스 빌드에 하지 사용 해야 합니다. 또한 소스에서의 처리 비용으로 인해 응용 프로그램의 성능이 저하 될 수 있습니다.
 
 > [!NOTE]
-> Visual Studio 2017로 프로젝트를 마이그레이션하는 경우 많은 수의 코드 분석 경고를 사용 하 여 직면 갑자기 수 있습니다. 이러한 경고에서 들어온 [Roslyn 분석기](roslyn-analyzers-overview.md)합니다. 경고를 해결할 준비가 아닌 경우 억제할 수 있습니다 모두 선택 하 여 **분석** > **코드 분석 실행 및 활성 문제를 표시 하지 않으려면**합니다.
+> Visual Studio 2017 또는 Visual Studio 2019에 프로젝트를 마이그레이션하는 경우 많은 수의 코드 분석 경고를 사용 하 여 직면 갑자기 수 있습니다. 이러한 경고에서 들어온 [Roslyn 분석기](roslyn-analyzers-overview.md)합니다. 경고를 해결할 준비가 아닌 경우 억제할 수 있습니다 모두 선택 하 여 **분석** > **코드 분석 실행 및 활성 문제를 표시 하지 않으려면**합니다.
 >
 > ![코드 분석을 실행 하 고 Visual Studio의 문제를 표시 하지 않으려면](media/suppress-active-issues.png)
 

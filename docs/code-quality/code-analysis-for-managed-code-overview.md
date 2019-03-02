@@ -12,16 +12,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 0da99377a6e0f5405029c0ac194484de3a3a1c90
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 38a2bce9e3343c4439eaf033ccfb8d6e58b01baa
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909143"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222599"
 ---
 # <a name="overview-of-static-code-analysis-for-managed-code-in-visual-studio"></a>Visual Studio에서 관리 되는 코드에 대 한 정적 코드 분석 개요
 
-Visual Studio 2017 두 가지 방법으로 관리 되는 코드의 코드 분석을 수행할 수 있습니다: 사용 하 여 *FxCop* 자세한 최신와 관리 되는 어셈블리의 정적 분석 *Roslyn 분석기*합니다. 이 항목에서는 FxCop 정적 코드 분석을 설명 합니다. 코드 분석기를 사용 하 여 코드를 분석 하는 방법에 대 한 자세한 내용은 참조 하세요 [개요의 Roslyn 분석기](../code-quality/roslyn-analyzers-overview.md)합니다.
+Visual Studio는 두 가지 방법으로 관리 되는 코드의 코드 분석을 수행할 수 있습니다: 사용 하 여 *FxCop* 자세한 최신와 관리 되는 어셈블리의 정적 분석 *Roslyn 분석기*합니다. 이 항목에서는 FxCop 정적 코드 분석을 설명 합니다. 코드 분석기를 사용 하 여 코드를 분석 하는 방법에 대 한 자세한 내용은 참조 하세요 [개요의 Roslyn 분석기](../code-quality/roslyn-analyzers-overview.md)합니다.
 
 관리 코드에 대한 코드 분석에서는 관리되는 어셈블리를 분석하고, Microsoft .NET Framework 디자인 지침에 설정된 프로그래밍 및 디자인 규칙의 위반과 같은 어셈블리 관련 정보를 보고합니다.
 
@@ -59,7 +59,7 @@ Public class MyClass
 자세한 내용은 [경고 표시 안 함](../code-quality/in-source-suppression-overview.md)합니다.
 
 > [!NOTE]
-> Visual Studio 2017로 프로젝트를 마이그레이션하는 경우 많은 수의 코드 분석 경고를 사용 하 여 직면 갑자기 수 있습니다. 경고를 해결 하 고 생산성을 높이려는 바로 준비가 아닌 경우 *기준* 프로젝트의 분석 상태입니다. **분석** 메뉴에서 **코드 분석 실행 및 활성 문제를 표시 하지 않으려면**합니다.
+> Visual Studio 2017 또는 Visual Studio 2019에 프로젝트를 마이그레이션하는 경우 많은 수의 코드 분석 경고를 사용 하 여 직면 갑자기 수 있습니다. 경고를 해결 하 고 생산성을 높이려는 바로 준비가 아닌 경우 *기준* 프로젝트의 분석 상태입니다. **분석** 메뉴에서 **코드 분석 실행 및 활성 문제를 표시 하지 않으려면**합니다.
 
 ## <a name="run-code-analysis-as-part-of-check-in-policy"></a>체크 인 정책의 일부로 코드 분석 실행
 
