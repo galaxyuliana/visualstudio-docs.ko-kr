@@ -1,18 +1,18 @@
 ---
 title: 생산성 팁
-ms.date: 11/04/2016
+ms.date: 2/21/2019
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 860583dffd4076db9c4c4660928b75419bd36218
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6b2b2aca59fccee30f017c7679d16c7b32f23c44
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913030"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56702722"
 ---
 # <a name="productivity-tips-for-visual-studio"></a>Visual Studio 생산성 팁
 
@@ -66,11 +66,13 @@ ms.locfileid: "55913030"
 
 - **해결하려는 오류만 표시** **오류 목록** 도구 모음에서 **필터** 단추를 선택하면 **오류 목록** 창에 나타나는 오류 수를 줄일 수 있습니다. 편집기에서 열려 있는 파일의 오류만, 현재 파일의 오류만 또는 현재 프로젝트의 오류만 표시할 수 있습니다. 특정 오류를 찾기 위해 **오류 목록** 창 내에서 검색할 수도 있습니다.
 
-- **대화 상자, 메뉴 명령 및 옵션 찾기** [빠른 실행](../ide/reference/quick-launch-environment-options-dialog-box.md) 상자에 검색하려는 항목의 키워드나 문구를 입력합니다. 예를 들어 `new project`를 입력하면 다음 옵션이 나타납니다.
+- **대화 상자, 메뉴 명령 및 옵션 찾기** [빠른 실행](../ide/reference/quick-launch-environment-options-dialog-box.md) 검색 상자에 검색하려는 항목의 키워드나 문구를 입력합니다. 예를 들어 `new project`를 입력하면 다음 옵션이 나타납니다.
 
     !['새 프로젝트'의 빠른 실행 결과](../ide/media/productivity_quicklaunch.png)
 
     **빠른 실행**에는 **새 프로젝트** 대화 상자, **새 항목 추가** 대화 상자 및 **옵션** 대화 상자의 **프로젝트 및 솔루션** 페이지에 대한 링크가 표시됩니다. 빠른 실행 결과에 프로젝트 파일 및 도구 창이 포함될 수 있습니다.
+
+  IDE의 오른쪽 위에 **빠른 실행** 검색 상자가 나타납니다. (또는 **Ctrl**+**Q**를 눌러 액세스하세요.)
 
 ## <a name="debug-code"></a>코드 디버그
 

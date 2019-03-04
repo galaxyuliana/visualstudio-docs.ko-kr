@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 DataCamp Training 구독에 대해 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: afda11bd8cbc0a8f0be1c25ab0b23d9f7b3a39b8
-ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
+ms.openlocfilehash: 83cbb3cb0b10faddab860caf71e11ca4a03d4e4a
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54380406"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841431"
 ---
 # <a name="the-datacamp-training-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 DataCamp Training 혜택
 
@@ -33,7 +31,7 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
 3. DataCamp 페이지에서 새 계정을 만들 수 있습니다.  이메일 주소와 암호를 입력하거나, Facebook, LinkedIn, Google 등의 기존 계정을 사용하여 로그인할 수 있습니다.  로그인 정보를 제공한 후 **시작**을 클릭합니다.
    > [!div class="mx-imgBorder"]
    > ![DataCamp 새 계정 만들기](_img/vs-datacamp/vs-datacamp-create-account.png)
-   > 
+   >
    > [!NOTE]
    > 계정을 만들기 시작하면 다음과 같은 오류 메시지가 나타날 수 있습니다. "죄송합니다!  프로모션 코드가 잘못되었거나 만료되었습니다."  이것은 프로모션 코드가 만들어질 때 몇 분 후에 만료되기 때문에 발생합니다.  이런 메시지가 표시되면 [혜택](https://my.visualstudio.com/benefits) 페이지로 돌아가서 DataCamp 혜택 타일에서 **활성화** 링크를 클릭하면 됩니다.
 
@@ -62,7 +60,7 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
 
 언제든 코스를 중지하고 다음 세션에서 학습을 이어갈 수 있습니다.  [http://www.datacamp.com](http://www.datacamp.com)을 방문해 로그인합니다.  대시보드를 확인하고 일시 중지한 부분부터 학습을 다시 시작할 수 있습니다. **트랙 계속**을 클릭하기만 하면 됩니다.
 
-> [!div class="mx-imgBorder"]   
+> [!div class="mx-imgBorder"]
 > ![DataCamp 학습 계속](_img/vs-datacamp/vs-datacamp-continue-training.png)
 
 ## <a name="eligibility"></a>자격
@@ -79,7 +77,7 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
 
 
 
-<sup>1</sup> *포함:* ‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
+<sup>1</sup> 포함:‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
 
 
 > [!NOTE]

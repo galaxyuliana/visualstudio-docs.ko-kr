@@ -16,12 +16,12 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 767b757187e65454fb89c83613646c59d172c7e5
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 5d7150ec407b2ce9c0c4c5bf22a8ae75b3ac3b93
+ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318812"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56450596"
 ---
 # <a name="whats-new-in-visual-studio-2017"></a>Visual Studio 2017의 새로운 기능
 
@@ -364,7 +364,7 @@ Visual Studio 2017의 모든 버전에는 다음이 포함되어 있습니다.
 
 Visual Studio 2017은 개발 환경을 훨씬 더 좋게 만들어 줄 수 있는 새 기능으로 자주 업데이트됩니다. 실험적 미리 보기에 있는 가장 주목할 만한 업데이트 몇 가지를 요약하면 다음과 같습니다.
 
-* **[실시간 공유](https://visualstudio.microsoft.com/services/live-share/)** - Visual Studio 내에서 바로 코드베이스와 컨텍스트를 팀원과 공유하고 즉각적인 양방향 공동 작업을 수행할 수 있는 새로운 도구. 실시간 공유를 사용하면 귀하가 공유한 프로젝트를 팀원이 원활하고 안전하게 읽고, 탐색하고, 편집하고, 디버깅할 수 있습니다.<br><br>자세한 내용은 [실시간 공유 FAQ](/visualstudio/liveshare/faq)를 참조하세요.<br><br>
+* **[실시간 공유](https://visualstudio.microsoft.com/services/live-share/)** - Visual Studio 내에서 바로 코드베이스와 컨텍스트를 팀원과 공유하고 즉각적인 양방향 공동 작업을 수행할 수 있는 새로운 도구입니다. 실시간 공유를 사용하면 귀하가 공유한 프로젝트를 팀원이 원활하고 안전하게 읽고, 탐색하고, 편집하고, 디버깅할 수 있습니다.<br><br>자세한 내용은 [실시간 공유 FAQ](/visualstudio/liveshare/faq)를 참조하세요.<br><br>
 * **[IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)** - AI를 사용하여 더 나은 컨텍스트 인식 코드 완성 기능을 제공하고, 개발자에게 팀의 패턴과 스타일에 맞게 코딩하도록 안내하고, 찾기 어려운 코드 문제를 발견하고, 코드 검토를 정말로 중요한 영역에 집중시켜서 소프트웨어 개발을 개선하는 새로운 기능입니다. <br><br>자세한 내용은 [IntelliCode FAQ](/visualstudio/intellicode/faq)를 참조하세요.
 
 Visual Studio 2017에서 진행 중인 다른 기능에 대해 더 알고 싶은가요? [Visual Studio 로드맵](/visualstudio/productinfo/vs2018-roadmap) 페이지를 참조하세요.

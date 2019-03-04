@@ -6,15 +6,13 @@ manager: lank
 ms.date: 10/31/2018
 ms.topic: conceptual
 description: 구독에 대한 액세스 권한이 중단된 경우 구독자 데이터가 익명화되는 방법을 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 4570ff43f946c25c50d298e22de3b0c8a261f870
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+ms.openlocfilehash: a4249aa2520df6e9c1870fec121de2fdb2135308
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51811253"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56842548"
 ---
 # <a name="anonymization-of-visual-studio-subscriber-information"></a>Visual Studio 구독자 정보의 익명화
 
@@ -36,11 +34,11 @@ ms.locfileid: "51811253"
 
 ## <a name="faq"></a>FAQ
 
-### <a name="q--does-the-anonymization-of-the-subscribers-personal-information-cause-them-to-lose-access-to-the-subscription"></a>Q: 구독자의 개인 정보가 익명화되어 구독에 대한 액세스 권한이 손실되었나요?
-A: 아니요.  익명화는 구독에 대한 액세스 권한의 손실을 유발하지만 액세스 부족이 발생하지 않는 이벤트에 대한 응답입니다.
+### <a name="q--does-the-anonymization-of-the-subscribers-personal-information-cause-them-to-lose-access-to-the-subscription"></a>Q:  구독자의 개인 정보가 익명화되어 구독에 대한 액세스 권한이 손실되었나요?
+A:  아니요.  익명화는 구독에 대한 액세스 권한의 손실을 유발하지만 액세스 부족이 발생하지 않는 이벤트에 대한 응답입니다.
 
-### <a name="q--im-an-administrator-for-my-organizations-subscriptions--if-one-of-my-subscribers-information-is-anonymized-can-that-subscription-be-reassigned-to-another-user"></a>Q: 내 조직의 구독에 대한 관리자입니다.  구독자의 정보 중 하나가 익명으로 되어 있으면 해당 구독을 다른 사용자에게 다시 할당할 수 있나요?
-A: 예 -- 구독이 만료되지 않는 한 다른 구독자에게 다시 할당할 수 있습니다.
+### <a name="q--im-an-administrator-for-my-organizations-subscriptions--if-one-of-my-subscribers-information-is-anonymized-can-that-subscription-be-reassigned-to-another-user"></a>Q:  내 조직의 구독에 대한 관리자입니다.  구독자의 정보 중 하나가 익명으로 되어 있으면 해당 구독을 다른 사용자에게 다시 할당할 수 있나요?
+A:  예 -- 구독이 만료되지 않는 한 다른 구독자에게 다시 할당할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

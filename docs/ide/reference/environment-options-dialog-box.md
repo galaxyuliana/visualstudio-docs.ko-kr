@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c76be48965aa49e0bad61afd0b70a6b8413075ec
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a77fae7d802b0edf5fceaae8409f2e0a91f6687b
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952829"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56703255"
 ---
 # <a name="environment-options-dialog-box"></a>옵션 대화 상자, 환경
 
@@ -35,7 +35,7 @@ ms.locfileid: "55952829"
 |키보드 매핑 옵션을 설정합니다.|[옵션 대화 상자, 환경, 키보드](../../ide/reference/keyboard-environment-options-dialog-box.md)|
 |알림이 사용되는지 여부를 지정합니다.|[옵션 대화 상자, 환경, 알림](../../ide/reference/notifications-environment-options-dialog-box.md)|
 |빠른 실행 창에 대한 옵션을 지정합니다.|[옵션 대화 상자, 환경, 빠른 실행](../../ide/reference/quick-launch-environment-options-dialog-box.md)|
-|시작 페이지 옵션을 지정합니다.|[옵션 대화 상자, 환경, 시작](../../ide/reference/startup-environment-options-dialog-box.md)|
+|시작 옵션을 지정하려면|[옵션 대화 상자, 환경, 시작](../../ide/reference/startup-environment-options-dialog-box.md)|
 |컴퓨터 간에 설정을 로밍할지 여부를 지정합니다.|[옵션 대화 상자, 환경, 동기화된 설정](../../ide/reference/accounts-environment-options-dialog-box.md)|
 |작업 및 작업 목록에 대한 옵션을 설정하는 방법을 알아봅니다.|[옵션 대화 상자, 환경, 작업 목록](../../ide/reference/task-list-environment-options-dialog-box.md)|
 |시스템 소스 편집기를 변경하고 Internet Explorer 옵션을 구성하여 기본 홈 페이지 및 검색 페이지를 변경합니다.|[옵션 대화 상자, 환경, 웹 브라우저](../../ide/reference/web-browser-environment-options-dialog-box.md)|

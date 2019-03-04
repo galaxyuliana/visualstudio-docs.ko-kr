@@ -10,12 +10,12 @@ helpviewer_keywords:
 - editor
 ms.workload:
 - dotnet
-ms.openlocfilehash: dd467adc2ff45e38f193b1b87aea471682d40c0c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 2abf307dd2205b556744c61c974e389179c465b9
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55920602"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56708643"
 ---
 # <a name="visual-studio-2017-c-productivity-guide"></a>Visual Studio 2017 C# 생산성 가이드
 
@@ -92,6 +92,8 @@ Visual Studio 2017에는 많은 리팩터링, 코드 생성 작업 및 코드 �
   - *Add Null-Check*(Null 검사 추가)
   - 매개 변수 추가
   - 불필요한 Using 제거
+  - *LINQ 쿼리 또는 LINQ 메서드에 대한 Foreach 루프*
+  - *대화 상자 옵션을 사용하여 리팩터링하는 멤버 끌어오기*
   - 더 많은 내용은 [설명서](https://aka.ms/refactorings) 참조
 - [Roslyn 분석기](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix)를 사용하여 고유한 리팩터링 또는 코드 수정을 작성하세요.
 - 여러 커뮤니티 회원이 다음과 같은 추가적인 코드 검사를 추가하는 ‘무료’ 확장을 작성했습니다.
@@ -108,7 +110,7 @@ Visual Studio 2017에는 코드베이스를 검색하고 탐색하는 데 도움
 
 | 기능 | 바로 가기 | 세부 정보/개선 사항 |
 |- | - | -|
-| 모든 참조 찾기 | **Shift**+**F12**| 결과에는 색이 지정되며, 프로젝트, 정의 등으로 결과를 그룹화할 수 있습니다. 결과를 ‘잠글’ 수도 있습니다. |
+| 모든 참조 찾기 | **Shift**+**F12**| 결과에는 색이 지정되며, 프로젝트, 정의, 읽기 또는 쓰기 등의 참조 유형별로 그룹화할 수 있습니다. 결과를 ‘잠글’ 수도 있습니다. |
 | 구현으로 이동 | **Ctrl**+**F12** | `override` 키워드에서 [정의로 이동]을 사용하여 재정의된 멤버로 이동할 수 있습니다. |
 | 정의로 이동 | **F12** 또는 **Ctrl**+**클릭**| 정의로 이동하려면 클릭하면서 **Ctrl**을 계속 누르고 있습니다. |
 | 정의 피킹(Peeking) | **Alt**+**F12** | 정의의 인라인 보기 |

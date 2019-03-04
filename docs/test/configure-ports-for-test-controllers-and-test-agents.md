@@ -13,12 +13,12 @@ ms.assetid: 211edbd7-9fe4-4251-ba85-8bec4363261b
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c1efe1266f0d6c8c644aa8115303926f81f74d30
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: bd66bcb3615477abc2fc9a8122f2ec4675f37bbb
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948617"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796688"
 ---
 # <a name="configure-ports-for-test-controllers-and-test-agents"></a>테스트 컨트롤러 및 테스트 에이전트 포트 구성
 
@@ -28,7 +28,7 @@ ms.locfileid: "55948617"
 
 다음 그림에서는 테스트 컨트롤러, 테스트 에이전트 및 클라이언트 간의 연결 지점을 보여 줍니다. 이 그림에서는 들어오는 연결과 나가는 연결에 사용되는 포트와 이러한 포트에 사용되는 보안 제한 사항을 간략하게 보여 줍니다.
 
-![테스트 컨트롤러와 테스트 에이전트의 포트 및 보안](../test/media/test-controller-agent-firewall.png)
+![테스트 컨트롤러와 테스트 에이전트 포트 및 보안](../test/media/test-controller-agent-firewall.png)
 
 ## <a name="incoming-connections"></a>들어오는 연결
 

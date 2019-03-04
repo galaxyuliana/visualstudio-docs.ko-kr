@@ -12,12 +12,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: ebcf76f07eadaee6402facb4fa62a3ac309ebbac
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 496dbfb48b8cc8052d174ba1dd69faa3b4fc9d01
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55933160"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56722501"
 ---
 # <a name="learn-to-use-the-code-editor"></a>코드 편집기를 사용하는 방법 알아보기
 
@@ -109,7 +109,7 @@ Visual Studio의 메뉴 모음에 있는 단추 행인 도구 모음은 코딩�
 
 ## <a name="view-symbol-definitions"></a>기호 정의 보기
 
-Visual Studio 편집기를 사용하면 형식, 메서드 등 정의를 쉽게 검사할 수 있습니다. 예를 들어 기호가 참조되는 **정의로 이동**을 선택하는 것이 정의가 포함되는 파일을 탐색하는 한 가지 방법입니다. [정의 피킹](../../ide/go-to-and-peek-definition.md#peek-definition)을 사용하는 것도 작업 중인 파일에서 포커스를 이동하지 않는 더욱 빠른 방식입니다. `string` 형식의 정의를 피킹하겠습니다.
+Visual Studio 편집기를 사용하면 형식, 메서드 등 정의를 쉽게 검사할 수 있습니다. 예를 들어 **정의로 이동**을 선택하거나 기호가 참조되는 모든 곳에서 **F12**를 누르는 것이 정의가 포함되는 파일을 탐색하는 한 가지 방법입니다. [정의 피킹](../../ide/go-to-and-peek-definition.md#peek-definition)을 사용하는 것도 작업 중인 파일에서 포커스를 이동하지 않는 더욱 빠른 방식입니다. `string` 형식의 정의를 피킹하겠습니다.
 
 1. `string`의 모든 항목을 마우스 오른쪽 단추로 클릭하고 콘텐츠 메뉴에서 **정의 피킹**을 선택합니다. 또는 **Alt**+**F12** 키를 누릅니다.
 

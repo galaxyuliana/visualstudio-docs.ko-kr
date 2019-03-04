@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/13/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: 볼륨 라이선스 서비스 센터 관리자 마이그레이션 FAQ
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: e4bc2902c819f4e677127d4c2c857ed1fb5dc015
-ms.sourcegitcommit: 4667e6ad223642bc4ac525f57281482c9894daf4
+ms.openlocfilehash: 2cf7e53e4739c22499bab6df74fcb55b5d0ad019
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "36297548"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56844102"
 ---
 # <a name="visual-studio-subscriptions-administration-migration"></a>Visual Studio 구독 관리 마이그레이션
 
@@ -60,10 +58,10 @@ ms.locfileid: "36297548"
 
     PCN을 입력한 후에는 슈퍼 관리자와 관리자(이전의 구독 관리자)를 추가할 수 있는 페이지로 이동합니다. 이상적으로는 이 절차는 구독을 관리하는 데 중단이 없도록 조직의 마이그레이션 날짜 전에 완료해야 합니다.
 
-3.  **새 구독 관리 포털에 액세스하기:** 조직이 마이그레이션되면 새 포털에 액세스하고 구독 관리를 시작하도록 초대하는 이메일을 슈퍼 관리자와 관리자에게 보냅니다.
+3.  **새 구독 관리 포털에 액세스:** 조직이 마이그레이션되면 새 포털에 액세스하고 구독 관리를 시작하도록 초대하는 이메일을 슈퍼 관리자와 관리자에게 보냅니다.
 
 > [!NOTE]
-> 기본 또는 알림 연락처 담당자가 1 초과 이메일을 받은 경우 이는 1 초과 PCN이 있음을 의미합니다. 각 이메일에서 참조된 PCN에 대한 고유한 링크를 사용하여 프로세스를 완료해야 합니다.
+> 기본 또는 통지 연락처 담당자가 둘 이상의 이메일을 받은 경우 이는 둘 이상의 PCN이 있음을 의미합니다. 각 이메일에서 참조된 PCN에 대한 고유한 링크를 사용하여 프로세스를 완료해야 합니다.
 
 ### <a name="what-is-the-difference-between-a-super-admin-and-an-administrator"></a>슈퍼 관리자와 관리자의 차이는 무엇입니까?
 기본/알림 연락처 담당자가 처음으로 로그인한 경우 자동으로 슈퍼 관리자로 설정됩니다. 슈퍼 관리자는 다른 슈퍼 관리자 또는 관리자를 추가/삭제하여 구독에 대한 관리자 액세스를 관리할 수 있으며 또한 구독도 관리할 수 있습니다. 슈퍼 관리자는 자신 외에 다른 슈퍼 관리자를 할당하도록 선택할 수 있습니다.
@@ -77,10 +75,10 @@ ms.locfileid: "36297548"
 조직이 마이그레이션되어 새 포털에서 관리할 준비가 됐다는 이메일을 Visual Studio 구독에서 받을 때까지 VLSC를 통해 계속 구독을 관리할 수 있습니다.
 
 ### <a name="where-can-i-locate-my-organizations-public-customer-number-pcn-or-authorization-number"></a>PCN(공용 고객 번호) 또는 권한 부여 번호를 어디서 찾을 수 있습니까?
-[VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)에 로그인하여 **구독** > **Visual Studio 구독** 경로로 이동합니다. PCN은 **계약/공용 고객 번호 결과** 아래에 있습니다. 이 [도움말 문서](find-pcn.md)에서 PCN 찾기에 대한 단계별 지침을 가져옵니다.
+[VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)에 로그인하고 다음 경로를 탐색합니다. **구독** > **Visual Studio 구독**. PCN은 **계약/공용 고객 번호 결과** 아래에 있습니다. 이 [도움말 문서](find-pcn.md)에서 PCN 찾기에 대한 단계별 지침을 가져옵니다.
 
 ### <a name="how-do-i-find-out-who-my-primary-or-notices-contact-is"></a>기본 또는 알림 연락처 담당자는 어떻게 찾습니까?
-[VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)에 로그인하여 **라이선스 > 관계 요약** 경로로 이동해 **라이선스 ID > 연락처**를 선택합니다. 이 [도움말 문서](find-primary-contact.md)에서 기본 또는 알림 연락처 담당자를 찾는 방법에 대한 단계별 지침을 가져옵니다.
+[VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)에 로그인하고 다음 경로를 탐색합니다. **라이선스 > 관계 요약** **라이선스 ID > 연락처**를 선택합니다. 이 [도움말 문서](find-primary-contact.md)에서 기본 또는 알림 연락처 담당자를 찾는 방법에 대한 단계별 지침을 가져옵니다.
 
 ### <a name="what-if-my-primary-or-notices-contact-is-gone-no-longer-with-the-company-or-not-available-to-complete-onboarding"></a>기본 또는 알림 연락처 담당자가 사라져 더 이상 회사에 근무하지 않거나 온보딩을 완료할 수 없을 경우는 어떻게 합니까?
 [지원에 문의](https://visualstudio.microsoft.com/subscriptions/support/#talktous)하고 구독 관리를 위해 VLSC에서 사용한 이메일을 제공해야 합니다. 확인되면 온보딩 프로세스에 도움이 되는 지원이 가능합니다.

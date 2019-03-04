@@ -7,12 +7,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: 8daab493a867d2a62d85ecafc57420dfa195c68d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: ae33644c72288f79d6be9fcc1aec476939980a5c
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55000798"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56646163"
 ---
 # <a name="how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line"></a>방법: 명령줄에서 프로파일러를 사용하여 동적으로 컴파일된 ASP.NET 웹 애플리케이션 계측 및 자세한 타이밍 데이터 수집
 
@@ -115,5 +115,5 @@ ms.locfileid: "55000798"
 
 ## <a name="see-also"></a>참고 항목
 
-[ASP.NET 웹 애플리케이션 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
+[ASP.NET 웹 애플리케이션 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)
 [계측 방법 데이터 뷰](../profiling/instrumentation-method-data-views.md)

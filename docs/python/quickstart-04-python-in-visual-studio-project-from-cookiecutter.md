@@ -1,7 +1,7 @@
 ---
 title: 빠른 시작 - Cookiecutter를 사용하여 Python 프로젝트 만들기
 description: 이 빠른 시작에서 Cookiecutter 템플릿을 사용하여 Python용 Visual Studio 프로젝트를 만듭니다.
-ms.date: 12/06/2018
+ms.date: 02/25/2019
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 76aa53b88bc9c9ecd1fc95915204c070aaa7207b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 5c5a3170a2fa66a68fd010b616afcd24e8661776
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55920160"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843106"
 ---
 # <a name="quickstart-create-a-project-from-a-cookiecutter-template"></a>빠른 시작: Cookiecutter 템플릿으로 프로젝트 만들기
 
@@ -29,13 +29,13 @@ ms.locfileid: "55920160"
 
     ![Cookiecutter 템플릿에서 새 프로젝트](media/projects-from-cookiecutter1.png)
 
-1. **Microsoft/python-sklearn-classifier-cookiecutter** 템플릿을 선택하고 **다음**을 선택합니다. (Cookiecutter를 처음으로 사용할 때 프로세스는 몇 분 정도 걸릴 수 있습니다.)
+1. **Microsoft/python-sklearn-classifier-cookiecutter** 템플릿을 선택하고 **다음**을 선택합니다. (Visual Studio에서 필요한 Python 패키지를 설치하기 때문에 특정 템플릿을 처음 사용할 때 프로세스가 몇 분 정도 걸릴 수 있습니다.)
 
-1. 다음 단계에서는 **Create To** 필드에서 새 프로젝트에 대한 위치를 설정한 다음 **만들기**를 선택합니다.
+1. 다음 단계에서는 **작성 대상** 필드에서 새 프로젝트에 대한 위치를 설정한 다음, **만들기 및 열기**를 선택합니다.
 
     ![Cookiecutter를 사용하는 두 번째 단계, 프로젝트 속성 설정](media/projects-from-cookiecutter2.png)
 
-1. 프로세스가 완료되면 **Files created successfully.**(파일을 만들었습니다.)라는 메시지가 나타납니다. **솔루션 탐색기에서 열기** 명령을 선택하여 프로젝트를 엽니다.
+1. 프로세스가 완료되면 **템플릿을 사용하여 파일을 만들었습니다...** 라는 메시지가 나타납니다. 이 프로젝트는 솔루션 탐색기에서 자동으로 열립니다.
 
 1. **Ctrl**+**F5**를 누르거나 **디버그** > **디버깅하지 않고 시작**을 선택하여 프로그램을 실행합니다.
 

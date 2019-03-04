@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/04/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독 포털에서 사용할 수 있는 이점의 전체 범위에 대해 알아보기
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 6bd5e0ac308a8644f6428deb7468e00007f7c70b
-ms.sourcegitcommit: ad5fb20f18b23eb8bd2568717f61edc6b7eee5e7
+ms.openlocfilehash: 65066db3f5a3ebb21cf390b3c206a1a2cf4d5495
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "47859022"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843816"
 ---
 # <a name="using-the-subscriber-portal---myspanspanvisualstudiospanspancom"></a>구독자 포털 사용 - my.<span></span>visualstudio<span></span>.com
 
@@ -22,10 +20,10 @@ Visual Studio 구독 포털인 [https://my.visualstudio.com](https://my.visualst
 
 포털을 사용하려면 구독에 연결된 ID로 로그인해야 합니다.  이 ID는 Microsoft 계정(MSA) 또는 회사 또는 학교와 같은 조직에서 제공하는 전자 메일 주소일 수 있습니다.  [로그인](signing-in.md)에 대해 알아봅니다.
 
-포털은 6개 페이지로 구성됩니다.  각 페이지에서는 구독에 포함된 여러 제품 또는 서비스에 액세스할 수 있습니다.  6개의 페이지는 혜택, 다운로드, 제품 키, 구독, 지원 및 Marketplace입니다. 
+포털은 6개 페이지로 구성됩니다.  각 페이지에서는 구독에 포함된 여러 제품 또는 서비스에 액세스할 수 있습니다.  6개의 페이지는 혜택, 다운로드, 제품 키, 구독, 지원 및 Marketplace입니다.
 
 ## <a name="benefitshttpsmyvisualstudiocombenefitswtmcidomsftdocs"></a>[혜택](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
-구독에 포함된 도구 및 서비스는 혜택 페이지에 “타일”로 표시됩니다.  모든 혜택이 모든 구독에 포함되는 것은 아닙니다. 타일은 도구, 전문적인 개발 및 지원의 세 가지 범주로 그룹화됩니다.  Visual Studio Dev Essentials를 사용하는 경우 다른 세 개의 범주에서 선택한 혜택을 포함할 수 있는 추천이라는 범주도 표시됩니다.
+구독에 포함된 도구 및 서비스는 혜택 페이지에 “타일”로 표시됩니다.  모든 혜택이 모든 구독에 포함되는 것은 아닙니다. 타일은 다음 세 가지 범주로 그룹화됩니다.  도구, 전문적인 개발 및 지원.  Visual Studio Dev Essentials를 사용하는 경우 다른 세 개의 범주에서 선택한 혜택을 포함할 수 있는 추천이라는 범주도 표시됩니다.
 
 ### <a name="tools"></a>도구
 도구 범주에서는 Visual Studio IDE, Azure DevOps 및 파트너가 제공하는 도구 등의 핵심 개발 도구를 찾을 수 있습니다.  Azure 및 Visual Studio App Center와 같은 서비스도 표시됩니다.

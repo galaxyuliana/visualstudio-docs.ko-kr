@@ -16,19 +16,17 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c872f10b9a0d092cc5dc4c3904fad6c6d5a4ea94
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 36824d78b2a4da68586b4ff3b39046bff936ff7f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55944769"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56643771"
 ---
 # <a name="item-element-msbuild"></a>Item 요소(MSBuild)
 사용자 정의 항목 및 해당 메타데이터를 포함합니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트에서 사용되는 모든 항목은 `ItemGroup` 요소의 자식으로 지정해야 합니다.
 
-\<Project>  
-\<ItemGroup>  
-\<Item>  
+\<Project> \<ItemGroup> \<Item>
 
 ## <a name="syntax"></a>구문
 
@@ -120,7 +118,7 @@ MSBuild 15.1 이상에서는 현재 특성 목록과 충돌하지 않는 이름�
 ```
 
 ## <a name="see-also"></a>참고 항목
-[항목](../msbuild/msbuild-items.md)  
-[일반적인 MSBuild 프로젝트 항목](../msbuild/common-msbuild-project-items.md)  
-[MSBuild 속성](../msbuild/msbuild-properties.md)  
-[프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
+- [항목](../msbuild/msbuild-items.md)
+- [일반적인 MSBuild 프로젝트 항목](../msbuild/common-msbuild-project-items.md)
+- [MSBuild 속성](../msbuild/msbuild-properties.md)
+- [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)

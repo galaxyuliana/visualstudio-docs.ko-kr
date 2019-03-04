@@ -6,19 +6,17 @@ manager: lank
 ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에서 제공하는 CloudPilot 혜택 알아보기
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 90a71ec94e1fbd102cf731fef94394096b1e0ba7
-ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
+ms.openlocfilehash: 5368bc386b7ee4ff1fa709fcc038ddb7a7a0c13d
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54380123"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56842561"
 ---
 # <a name="the-cloudpilot-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 CloudPilot 혜택
 
-간단한 몇 단계로 앱을 Microsoft Azure로 이동할 수 있습니다. 성공적으로 마이그레이션하기 위해 필요한 코드 변경 내용을 몇 분 내에 코드 줄까지 식별합니다. 컨테이너, VM, App Services, SQL Azure 및/또는 SQL MI. 그런 다음, ASR, DMA 및 DMS를 활용하는 마법사로 앱을 Azure로 마이그레이션합니다. 
+간단한 몇 단계로 앱을 Microsoft Azure로 이동할 수 있습니다. 성공적으로 마이그레이션하기 위해 필요한 코드 변경 내용을 몇 분 내에 코드 줄까지 식별합니다. 컨테이너, VM, App Services, SQL Azure 및/또는 SQL MI. 그런 다음, ASR, DMA 및 DMS를 활용하는 마법사로 앱을 Azure로 마이그레이션합니다.
 
 UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케이션을 Azure로 이동할 수 있도록 설계되었습니다.  수동 평가가 수행되는 짧은 시간에 CloudPilot는 Azure PaaS 및 IaaS 마이그레이션 비용을 정확하게 확인하고, 애플리케이션을 클라우드에서 실행하려면 코드를 어떻게 변경해야 하는지 코드 줄까지 자세한 권장 사항을 제공합니다. CloudPilot은 클라우드에 대한 구체적인 코드 수준 변경 내용을 제공하여 클라우드 마이그레이션 작업의 초기 평가 및 개발 계획을 지원하고, 엔터프라이즈 기술 컨트롤 및 정책에 대한 최종 테스트를 도와줍니다.
 
@@ -30,10 +28,10 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
 
    > [!div class="mx-imgBorder"]
    > ![CloudPilot 혜택 타일](_img/vs-cloudpilot/vs-cloudpilot-tile-ent.png)
-   
+
 0. 코드가 성공적으로 검색된 것을 알려주는 메시지가 표시됩니다.  **활성화**를 클릭하면 활성화 프로세스를 계속 진행할 수 있는 CloudPilot 페이지로 리디렉션됩니다.  (지금 활성화하지 않아도 언제든지 구독 포털에서 CloudPilot 타일로 돌아갈 수 있습니다.  "코드 얻기" 링크가 "활성화"로 변경되고, 링크를 클릭하면 활성화 프로세스의 다음 단계가 진행됩니다.)
 
-0. CloudPilot이 개발 작업에 주는 혜택을 확인합니다.  준비가 완료되면 **활성화** 단추를 클릭합니다. 
+0. CloudPilot이 개발 작업에 주는 혜택을 확인합니다.  준비가 완료되면 **활성화** 단추를 클릭합니다.
 
    > [!div class="mx-imgBorder"]
    > ![CloudPilot 방문 페이지](_img/vs-cloudpilot/vs-cloudpilot-landing.png)
@@ -46,14 +44,14 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
    > [!NOTE]
    > CloudPilot 활성화 혜택은 조직당 10회로 제한되며, Visual Studio Enterprise 또는 Visual Studio Professional 구독 조합에서 사용할 수 있습니다.  조직에서 활성화 10회를 모두 사용한 경우 CloudPilot 혜택을 활성화할 수 없으며 UnifyCloud로부터 추가 정보가 담긴 이메일을 받게 됩니다.
 
- 0. 다음으로, CloudPilot을 숙지할 수 있도록 디자인된 제품 페이지가 표시됩니다.  오른쪽 위 모서리에서 **CloudPilot으로 이동**을 클릭하여 CloudPilot 포털로 이동합니다.  
+ 0. 다음으로, CloudPilot을 숙지할 수 있도록 디자인된 제품 페이지가 표시됩니다.  오른쪽 위 모서리에서 **CloudPilot으로 이동**을 클릭하여 CloudPilot 포털로 이동합니다.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot 제품 페이지](_img/vs-cloudpilot/vs-cloudpilot-navigate.png)
 
-0.  정말 간단하죠.  CloudPilot 포털이 보이고, CloudPilot 구독을 사용하여 애플리케이션을 Microsoft Azure로 이동할 준비가 완료됩니다. 
+0.  정말 간단하죠.  CloudPilot 포털이 보이고, CloudPilot 구독을 사용하여 애플리케이션을 Microsoft Azure로 이동할 준비가 완료됩니다.
 
-0.  계정이 만들어지는 즉시, UnifyCloud VSS 고객 지원팀으로부터 계정이 만들어졌다는 확인 이메일을 받게 됩니다. 
+0.  계정이 만들어지는 즉시, UnifyCloud VSS 고객 지원팀으로부터 계정이 만들어졌다는 확인 이메일을 받게 됩니다.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot 확인 이메일](_img/vs-cloudpilot/vs-cloudpilot-email.png)
@@ -73,7 +71,7 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
 
 
 
-<sup>1</sup> *포함:* ‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
+<sup>1</sup> 포함:‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
 
 
 > [!NOTE]
@@ -84,7 +82,7 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
 
 ## <a name="support-resources"></a>지원 리소스
 -  CloudPilot 사용과 관련하여 도움이 필요하세요?  다음 리소스를 확인하세요.
-    - UnifyCloud 제품에 대한 질문은 [UnifyCloud에 문의](https://www.unifycloud.com/contacts/)하세요. 
+    - UnifyCloud 제품에 대한 질문은 [UnifyCloud에 문의](https://www.unifycloud.com/contacts/)하세요.
     - [CloudPilot 사용자 설명서](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
     - [지원 요청 제출](https://support.datacamp.com/hc/requests/new)
 

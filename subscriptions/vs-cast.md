@@ -6,21 +6,19 @@ manager: lank
 ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에서 제공하는 CAST Highlight 혜택 알아보기
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: ac1d960ea16346de6d1ca12a2b0602eedf47f704
-ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
+ms.openlocfilehash: 1858170bb57d4ea46b1aac1d08857dea9609d22d
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54379803"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56840906"
 ---
 # <a name="the-cast-highlight-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 CAST Highlight 혜택
 
-개발자는 클라우드로 마이그레이션할 때 소프트웨어에 대한 인사이트가 필요합니다. CAST Highlight를 사용하면 Visual Studio Enterprise 구독자는 애플리케이션 소스 코드를 신속하게 검사하여 Azure로 마이그레이션할 애플리케이션의 클라우드 준비 상태를 식별하고, 마이그레이션 도중 및 이후에 앱 진행률을 모니터링할 수 있습니다.  
+개발자는 클라우드로 마이그레이션할 때 소프트웨어에 대한 인사이트가 필요합니다. CAST Highlight를 사용하면 Visual Studio Enterprise 구독자는 애플리케이션 소스 코드를 신속하게 검사하여 Azure로 마이그레이션할 애플리케이션의 클라우드 준비 상태를 식별하고, 마이그레이션 도중 및 이후에 앱 진행률을 모니터링할 수 있습니다.
 
-Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlight 평가판 1개월 구독을 구독자당 앱 5개까지 얻을 수 있습니다. 
+Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlight 평가판 1개월 구독을 구독자당 앱 5개까지 얻을 수 있습니다.
 
 
 ## <a name="activation-steps"></a>활성화 단계
@@ -32,7 +30,7 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
    > [!div class="mx-imgBorder"]
    > ![CAST Highlight 혜택 타일](_img/vs-cast-highlight/vs-cast-highlight-tile.png)
 
-   
+
 0. 코드가 성공적으로 검색된 것을 알려주는 메시지가 표시됩니다.  **활성화**를 클릭하면 활성화 프로세스를 계속 진행할 수 있는 CAST Highlight 페이지로 리디렉션됩니다.  (지금 활성화하지 않아도 언제든지 구독 포털에서 CAST Highlight 타일로 돌아갈 수 있습니다.  "코드 얻기" 링크가 "활성화"로 변경되고, 링크를 클릭하면 활성화 프로세스가 다시 시작됩니다.)
 
 0. 구독의 기능을 살펴볼 수 있는 CAST Highlight 페이지로 리디렉션됩니다.  계정을 만들 준비가 완료되면 웹 양식에 연락처 정보를 입력하고 **제출**을 클릭합니다.
@@ -43,16 +41,16 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
    > [!NOTE]
    > CAST Highlight 활성화 혜택은 조직당 10회로 제한됩니다.  조직에서 활성화 10회를 모두 사용한 경우 CAST Highlight 혜택을 활성화할 수 없으며 추가 정보가 담긴 이메일을 받게 됩니다.
 
- 0. 정보를 제출한 후에는 요청을 수신했음을 확인하는 페이지가 표시됩니다.    
+ 0. 정보를 제출한 후에는 요청을 수신했음을 확인하는 페이지가 표시됩니다.
 
     > [!div class="mx-imgBorder"]
     > ![CAST Highlight 감사 페이지](_img/vs-cast-highlight/vs-cast-highlight-thankyou.png)
 
-0.  CAST 팀에서 요청을 평가한 후 계정 만들기를 마무리하기 연락을 드릴 것입니다.  
+0.  CAST 팀에서 요청을 평가한 후 계정 만들기를 마무리하기 연락을 드릴 것입니다.
 
 0.  CAST로부터 요청 수신을 확인하는 다음과 같은 이메일도 받게 됩니다.
 
-   *Microsoft Visual Studio Enterprise 고객에게만 제공되는 CAST Highlight 30일 액세스 활성화를 요청해 주셔서 감사합니다.*  
+   *Microsoft Visual Studio Enterprise 고객에게만 제공되는 CAST Highlight 30일 액세스 활성화를 요청해 주셔서 감사합니다.*
 
    *현재 귀하의 CAST Highlight 활성화 및 액세스 요청을 검토 중입니다. 48시간 내에 결과를 알려드리겠습니다.*
 
@@ -60,7 +58,7 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
    *Greg 드림*
 
 
-요청이 승인되면 계정 만들기가 성공했음을 확인하고 활성화 링크를 클릭하여 활성화 프로세스를 완료하라는 두 번째 이메일을 받게 됩니다. 
+요청이 승인되면 계정 만들기가 성공했음을 확인하고 활성화 링크를 클릭하여 활성화 프로세스를 완료하라는 두 번째 이메일을 받게 됩니다.
 
    *귀하의 CAST Highlight 액세스 요청이 승인되었습니다. 환영합니다!*
 
@@ -76,7 +74,7 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
     -   [시작 가이드(PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
     -   비디오 자습서 - [포트폴리오 구성](https://www.youtube.com/watch?v=MDm8ln4vuGE)
     -   비디오 자습서 - [앱 온보딩](https://www.youtube.com/watch?v=x-7Dsn3Rmw4)
-    
+
    *감사합니다.*
    *Greg 드림*
 
@@ -99,7 +97,7 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
 
 
 
-<sup>1</sup> *포함:* ‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
+<sup>1</sup> 포함:‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
 
 
 > [!NOTE]
@@ -120,4 +118,4 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
 
 구독과 함께 제공되는 Azure 혜택을 아직 활성화하지 않은 경우 [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)를 방문하여 [도구] 범주의 Azure 타일을 클릭하고, Azure 구독을 설정하고, 무료 Azure 크레딧을 사용합니다.
 
-그리고 Greg의 이메일에 언급된 데모, 사용자 가이드 및 자습서 비디오를 확인하세요. 
+그리고 Greg의 이메일에 언급된 데모, 사용자 가이드 및 자습서 비디오를 확인하세요.

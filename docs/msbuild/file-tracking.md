@@ -10,39 +10,30 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 878d4d7e56c51d8a41a0e3cf3e78d6c83ed5d0b5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 7770da734143b2b6185b266137eeb46ba25bd32a
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55027674"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56640612"
 ---
 # <a name="file-tracking"></a>파일 추적
-파일 추적은 프로세스 및 해당 자식 프로세스에 Windows 파일 시스템에 대한 호출을 기록합니다. 프로그램은 아래에 나열된 함수를 호출하여 이 로깅 기능을 켜고 끄는 시점을 제어하고 사용할 로그 파일을 지정합니다.  
-  
- [EndTrackingContext](../msbuild/endtrackingcontext.md)  
- 현재 컨텍스트의 추적을 중지합니다.  
-  
- [ResumeTracking](../msbuild/resumetracking.md)  
- [SuspendTracking](../msbuild/suspendtracking.md)을 호출한 후에 추적을 다시 시작합니다.  
-  
- [SetThreadCount](../msbuild/setthreadcount.md)  
- 추적에 사용할 스레드 수를 설정합니다.  
-  
- [StartTrackingContext](../msbuild/starttrackingcontext.md)  
- 새 추적 컨텍스트를 시작합니다.  
-  
- [StartTrackingContextWithRoot](../msbuild/starttrackingcontextwithroot.md)  
- 지정된 루트를 사용하여 새 추적 컨텍스트를 시작합니다.  
-  
- [StopTrackingAndCleanup](../msbuild/stoptrackingandcleanup.md)  
- 사용되는 추적 및 릴리스 리소스를 종료합니다.  
-  
- [SuspendTracking](../msbuild/suspendtracking.md)  
- 추적을 일시적으로 중단합니다.  
-  
- [WriteAllTLogs](../msbuild/writealltlogs.md)  
- 모든 컨텍스트에 대한 추적 로그를 씁니다.  
-  
- [WriteContextTLogs](../msbuild/writecontexttlogs.md)  
- 현재 컨텍스트에 대한 추적 로그를 씁니다.
+파일 추적은 프로세스 및 해당 자식 프로세스에 Windows 파일 시스템에 대한 호출을 기록합니다. 프로그램은 아래에 나열된 함수를 호출하여 이 로깅 기능을 켜고 끄는 시점을 제어하고 사용할 로그 파일을 지정합니다.
+
+- [EndTrackingContext](../msbuild/endtrackingcontext.md) 현재 컨텍스트의 추적을 중지합니다.
+
+- [ResumeTracking](../msbuild/resumetracking.md) [SuspendTracking](../msbuild/suspendtracking.md)을 호출한 후에 추적을 다시 시작합니다.
+
+- [SetThreadCount](../msbuild/setthreadcount.md) 추적에 사용할 스레드 수를 설정합니다.
+
+- [StartTrackingContext](../msbuild/starttrackingcontext.md) 새 추적 컨텍스트를 시작합니다.
+
+- [StartTrackingContextWithRoot](../msbuild/starttrackingcontextwithroot.md) 지정된 루트를 사용하여 새 추적 컨텍스트를 시작합니다.
+
+- [StopTrackingAndCleanup](../msbuild/stoptrackingandcleanup.md) 사용되는 추적 및 릴리스 리소스를 종료합니다.
+
+- [SuspendTracking](../msbuild/suspendtracking.md) 추적을 일시적으로 중단합니다.
+
+- [WriteAllTLogs](../msbuild/writealltlogs.md) 모든 컨텍스트에 대한 추적 로그를 작성합니다.
+
+- [WriteContextTLogs](../msbuild/writecontexttlogs.md) 현재 컨텍스트에 대한 추적 로그를 작성합니다.

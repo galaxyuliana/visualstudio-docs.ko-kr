@@ -1,19 +1,19 @@
 ---
 title: Visual Studio IDE 둘러보기
 titleSuffix: ''
-ms.date: 07/12/2018
+ms.date: 02/21/2019
 ms.topic: quickstart
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 32e847829877328cff1a244eae4cd5d29616c7a8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 0e70a28dd3bfc9511cdfec3656ff84c77802fa8f
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955832"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56712530"
 ---
 # <a name="quickstart-first-look-at-the-visual-studio-ide"></a>빠른 시작: 먼저 Visual Studio IDE 살펴보기
 
@@ -78,6 +78,8 @@ Visual Studio의 위쪽에 있는 메뉴 모음은 명령을 범주로 그룹화
 ## <a name="quick-launch"></a>빠른 실행
 
 **빠른 실행** 상자는 Visual Studio에서 거의 대부분 작업을 빠르고 손쉽게 수행할 수 있게 해줍니다. 수행하려는 작업과 관련된 일부 텍스트를 입력하면 해당 텍스트와 관련된 옵션 목록이 표시됩니다. 예를 들어 빌드가 정확하게 수행하는 작업에 대한 추가 세부 정보를 표시하기 위해 빌드 출력의 세부 정보 표시를 증가시킨다고 가정해 보겠습니다. 수행할 수 있는 방법은 다음과 같습니다.
+
+1. IDE의 오른쪽 위에 있는 **빠른 실행** 상자를 찾습니다. (또는 **Ctrl**+**Q**를 눌러 액세스하세요.)
 
 1. **세부 정보 표시**를 **빠른 실행** 상자에 입력합니다. 표시된 결과에서 **옵션** 범주에 있는 **프로젝트 및 솔루션 -> 빌드 및 실행**을 선택합니다.
 

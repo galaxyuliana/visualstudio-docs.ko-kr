@@ -11,12 +11,12 @@ dev_langs:
 - CPP
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 102b48131a705b39afb45fb59377d76114a426dd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1d8647c7a5c35a405c2c54f7580b7b5b12c0cf18
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55920485"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796649"
 ---
 # <a name="get-started-with-c-in-visual-studio"></a>Visual Studio에서 C++ 시작
 
@@ -30,11 +30,23 @@ ms.locfileid: "55920485"
 
 ## <a name="create-a-console-app"></a>콘솔 앱 만들기
 
-Visual Studio를 아직 실행하지 않는 경우 시작합니다.
+아직 실행 중이 아니면 Visual Studio를 엽니다.
+
+::: moniker range="vs-2017"
 
 ![Visual C&#43;&#43; 설정이 적용된 IDE](../ide/media/get-started-cpp-ide-layout.png)
 
 Visual Studio를 열면 IDE의 세 가지 기본 부분인 도구 창, 메뉴 및 도구 모음, 주 창 공간을 확인할 수 있습니다. 도구 창은 앱 창의 왼쪽과 오른쪽에 고정됩니다. **빠른 실행** 상자, 메뉴 모음 및 표준 도구 모음은 맨 위에 표시됩니다. 창의 가운데에는 **시작 페이지**가 있습니다. 솔루션 또는 프로젝트를 열면 편집기와 디자이너가 이 공간에 나타납니다. 앱을 개발할 때 이 중앙 영역을 가장 많이 사용합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Visual Studio를 열면 **시작** 창이 먼저 나타납니다. 개발 환경을 열려면 **코드 없이 계속 진행**을 선택합니다.
+
+IDE의 세 가지 기본 부분인 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. 도구 창은 앱 창의 왼쪽과 오른쪽에 고정됩니다. **빠른 실행** 상자, 메뉴 모음 및 표준 도구 모음은 맨 위에 표시됩니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 애플리케이션 창의 중앙 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
+
+::: moniker-end
 
 Visual Studio는 *프로젝트*를 사용하여 앱에 대한 코드를 구성하고 *솔루션*을 사용하여 프로젝트를 구성합니다. 프로젝트에는 앱을 빌드하는 데 사용되는 모든 옵션, 구성 및 규칙이 포함됩니다. 또한 프로젝트의 모든 파일과 외부 파일 간의 관계를 관리합니다. 앱을 만들려면 먼저 새 프로젝트 및 솔루션을 만듭니다.
 

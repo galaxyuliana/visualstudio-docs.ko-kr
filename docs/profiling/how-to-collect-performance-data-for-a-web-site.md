@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8580163b0bc6c56480479794658019a22d0ea02c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f91646575fba2df1f48c08adc7a9233bb63f27df
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54970320"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56630486"
 ---
 # <a name="how-to-collect-performance-data-for-a-web-site"></a>방법: 웹 사이트에 대한 성능 데이터 수집
 
@@ -101,7 +101,7 @@ ms.locfileid: "54970320"
 
 ## <a name="see-also"></a>참고 항목
 
-[개요](../profiling/overviews-performance-tools.md)  
-[성능 세션 구성](../profiling/configuring-performance-sessions.md)  
-[계측 데이터 값 이해](../profiling/understanding-instrumentation-data-values.md)  
+[개요](../profiling/overviews-performance-tools.md)
+[성능 세션 구성](../profiling/configuring-performance-sessions.md)
+[계측 데이터 값 이해](../profiling/understanding-instrumentation-data-values.md)
 [샘플링 데이터 값 이해](../profiling/understanding-sampling-data-values.md)

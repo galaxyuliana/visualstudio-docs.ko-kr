@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/15/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: 고객에 대한 Visual Studio 클라우드 구독 구입 및 관리 방법에 대한 클라우드 솔루션 공급자에 대한 정보입니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 7ca04ab81462c2126068ed5a5710cee663944431
-ms.sourcegitcommit: 38db86369af19e174b0aba59ba1918a5c4fe4a61
+ms.openlocfilehash: b17c5bb663f364cda4a9a93d63f2583e59426bac
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54270010"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56842639"
 ---
 # <a name="buy-and-manage-visual-studio-cloud-subscriptions-for-your-customers"></a>고객에 대한 Visual Studio 클라우드 구독 구입 및 관리
 
@@ -34,7 +32,7 @@ ms.locfileid: "54270010"
 [자세히](/azure/devops/organizations/billing/csp/set-up-csp-customer)
 
 ## <a name="who-can-buy-visual-studio-subscriptions"></a>누가 Visual Studio 구독을 구매할 수 있나요?
-Azure 구독에 대한 [소유자 또는 참가자 액세스 권한](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0)이 있는 누구나 Visual Studio 구독을 구매할 수 있습니다. 
+Azure 구독에 대한 [소유자 또는 참가자 액세스 권한](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0)이 있는 누구나 Visual Studio 구독을 구매할 수 있습니다.
 
 ## <a name="how-to-buy"></a>구매 방법
 
@@ -84,7 +82,7 @@ CSP 파트너에 대한 Visual Studio 가격 책정을 보려면 [파트너 센�
 | 미터 범주    |   name                 |  단위                                |           뭐냐 하면                          |
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
 | Visual Studio     | 엔터프라이즈             |  구독                         | Visual Studio Enterprise 월간 구독   |
-| Visual Studio     | 2차원 형식           |  구독                         | Visual Studio Professional 월간 구독 |
+| Visual Studio     | Professional           |  구독                         | Visual Studio Professional 월간 구독 |
 
 
 매월 각 Visual Studio 구독을 구입하는(지정된 고객에 대해) 6번째 단위에 5% 할인을 제공합니다. 이러한 이유로 각 구독 옵션에 대해 두 개의 행이 표시됩니다. 한 행은 단위 1-5까지 기본 가격으로 해석해야 하는 “최소 값” 0을 표시합니다. 두 번째 행은 단위 6 이상에 적용되는 5% 할인 가격인 "최소 값" 5를 표시합니다.
@@ -126,4 +124,4 @@ A:  아니요, Visual Studio 구독에 대한 가격은 균일합니다. 새 구
 
 ### <a name="q-are-there-azure-devtest-pricing-options-for-csps"></a>Q: CSP에 대한 Azure 개발/테스트 가격 책정 옵션이 있나요?
 
-A: 현재는 없습니다. 고객은 [Azure 개발/테스트 가격 책정](http://aka.ms/azuredevtestpricing)을 이용할 수 있지만 특히 CSP에 대해서는 아무 것도 없습니다.
+A: 현재는 없습니다. 고객은 [Azure 개발/테스트 가격 책정](https://aka.ms/azuredevtestpricing)을 이용할 수 있지만 특히 CSP에 대해서는 아무 것도 없습니다.

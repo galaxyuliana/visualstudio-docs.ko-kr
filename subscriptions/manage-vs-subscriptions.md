@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독을 최대한 활용하는 방법을 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 84e3f62bfb0939bdb30f562629c84a092cd02f4b
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 2739578bb170d32b61246bb01236e621c8b7df8b
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49822165"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56842665"
 ---
 # <a name="managing-subscriptions"></a>구독 관리
 
@@ -92,18 +90,18 @@ Visual Studio 구독 포털은 향상된 단일 포털 환경에서 모든 Visua
 **표준 구독**
 
 - Microsoft Store: [Microsoft Store](http://www.microsoft.com/store)에서 구독을 구입한 경우 해당 구독을 갱신할 수 있습니다.
-- 볼륨 라이선스: 회사에서 볼륨 라이선스를 통해 구독을 구입하는 경우 관리자는 대리점에 연락하여 구독을 갱신해야 합니다.
+- 볼륨 라이선스:  회사에서 볼륨 라이선스를 통해 구독을 구입하는 경우 관리자는 대리점에 연락하여 구독을 갱신해야 합니다.
 
-**클라우드 구독:** 클라우드 구독은 갱신할 필요가 없습니다. 구독료를 지불하는 한 계속 활성 상태로 유지됩니다.
+**클라우드 구독:**  클라우드 구독은 갱신할 필요가 없습니다. 구독료를 지불하는 한 계속 활성 상태로 유지됩니다.
 
-**프로그램을 통해 구입한 구독:** 프로그램을 통해 구독을 얻는 경우 구독은 프로그램 참여와 관련이 있습니다. 추가 정보는 프로그램 담당자에게 문의하세요.
+**프로그램을 통해 구입한 구독:**  프로그램을 통해 구독을 얻는 경우 구독은 프로그램 참여와 관련이 있습니다. 추가 정보는 프로그램 담당자에게 문의하세요.
 
 - [Imagine](https://imagine.microsoft.com/about)
 - [BizSpark](https://bizspark.microsoft.com/About/Offers)
 - [Microsoft 파트너 네트워크](https://partner.microsoft.com/en-us)
 - [Microsoft Certified Trainer](https://www.microsoft.com/en-us/learning/mct-certification.aspx)
 
-**Visual Studio Dev Essentials:** Dev Essentials는 체험 프로그램이며, 멤버 자격은 만료되지 않습니다.
+**Visual Studio Dev Essentials:**  Dev Essentials는 체험 프로그램이며, 멤버 자격은 만료되지 않습니다.
 
 ## <a name="transferring-subscriptions"></a>구독 양도
 
@@ -147,7 +145,7 @@ Microsoft 볼륨 라이선스를 통해 구독을 구입했고 조직 내의 다
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 
-### <a name="q-if-i-do-not-renew-my-subscription-how-long-will-microsoft-keep-my-data"></a>Q: 구독을 갱신하지 않으면 Microsoft에서 내 데이터를 얼마나 보관합니까?
+### <a name="q-if-i-do-not-renew-my-subscription-how-long-will-microsoft-keep-my-data"></a>Q: 구독을 갱신하지 않으면 Microsoft에서 내 데이터를 얼마나 보관하나요?
 
 A: Microsoft가 고객 데이터를 유지하는 기간은 구매 채널에 따라 다릅니다.
 

@@ -9,12 +9,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a7d8843fe7e23293b0e95ce6b076d8548362fb50
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b39689219b113343162aa0e814cfa68e2422f08d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54934840"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56597571"
 ---
 # <a name="how-to-limit-instrumentation-to-specific-dlls"></a>방법: 계측을 특정 DLL로 제한
 
@@ -69,5 +69,5 @@ ms.locfileid: "54934840"
 
 ## <a name="see-also"></a>참고 항목
 
-[데이터 수집 제어](../profiling/controlling-data-collection.md)  
+[데이터 컬렉션 제어](../profiling/controlling-data-collection.md)
 [방법: 특정 함수로 계측 제한](../profiling/how-to-limit-instrumentation-to-specific-functions.md)

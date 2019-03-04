@@ -12,33 +12,32 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5b41cd976ddd637faf00ee50a3ec208d2b3d513f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 635f767f97ea3d237aeff843e99735eccae31efc
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54924943"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56613832"
 ---
 # <a name="markerserieswritealert-method"></a>marker_series::write_alert 메서드
-동시성 시각화 도우미 추적 파일에 경고를 씁니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-void write_alert(  
-   _In_ LPCTSTR _Format,  
-   ...  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `_Format`  
- 인수 목록의 개체에 해당하는 0개 이상의 서식 항목과 결합된 텍스트를 포함하는 합성 서식 문자열입니다.  
-  
-## <a name="requirements"></a>요구 사항  
- **헤더:** *cvmarkersobj.h*  
-  
- **네임스페이스:** Concurrency::diagnostic  
-  
-## <a name="see-also"></a>참고 항목  
- [marker_series 클래스](../profiling/marker-series-class.md)
+동시성 시각화 도우미 추적 파일에 경고를 씁니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+void write_alert(
+   _In_ LPCTSTR _Format,
+   ...
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `_Format` 인수 목록의 개체에 해당하는 0개 이상의 서식 항목과 결합된 텍스트를 포함하는 합성 서식 문자열입니다.
+
+## <a name="requirements"></a>요구 사항
+ **헤더:** *cvmarkersobj.h*
+
+ **네임스페이스:** Concurrency::diagnostic
+
+## <a name="see-also"></a>참고 항목
+- [marker_series 클래스](../profiling/marker-series-class.md)

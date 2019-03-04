@@ -1,7 +1,7 @@
 ---
 title: 네트워크 기반 설치 업데이트
 description: --layout 명령을 사용하여 네트워크 기반 Visual Studio 설치를 업데이트하는 방법 알아보기
-ms.date: 08/14/2017
+ms.date: 2/22/2019
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9159651ea1f7c8890cdf8832a8898743e91bb222
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a59bbac5140e4267a52847a2152862057ce24210
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937541"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796636"
 ---
 # <a name="update-a-network-based-installation-of-visual-studio-2017"></a>Visual Studio 2017의 네트워크 기반 설치 업데이트
 
@@ -26,13 +26,13 @@ ms.locfileid: "55937541"
 
 ## <a name="how-to-update-a-network-layout"></a>네트워크 레이아웃을 업데이트하는 방법
 
-최신 업데이트를 포함하도록 네트워크 설치 공유를 새로 고치려면 --layout 명령을 실행하여 업데이트된 패키지를 점진적으로 다운로드합니다.
+최신 업데이트를 포함하도록 네트워크 설치 공유를 새로 고치려면 `--layout` 명령을 실행하여 업데이트된 패키지를 점진적으로 다운로드합니다.
 
-네트워크 레이아웃을 처음 만들 때 부분 레이아웃을 선택했다면 이러한 설정이 저장됩니다.  이후 모든 레이아웃 명령은 이전 옵션과 함께 지정하는 새 옵션을 사용합니다.  이는 15.3의 새로운 기능입니다.  이전 버전의 레이아웃을 사용 중인 경우에는 네트워크 설치 레이아웃을 처음 만들 때 사용한 것과 같은 명령줄 매개 변수(즉, 같은 워크로드 및 언어)를 사용하여 콘텐츠를 업데이트해야 합니다.
+**15.3의 새로운 기능**: 네트워크 레이아웃을 처음 만들 때 부분 레이아웃을 선택했다면 이러한 설정이 저장됩니다.  이후 모든 레이아웃 명령은 이전 옵션과 함께 지정하는 새 옵션을 사용합니다. 그러나 이전 버전의 레이아웃을 사용 중인 경우에는 네트워크 설치 레이아웃을 처음 만들 때 사용한 것과 같은 명령줄 매개 변수(즉, 같은 워크로드 및 언어)를 사용하여 콘텐츠를 업데이트해야 합니다.
 
 레이아웃을 파일 공유에서 호스트하는 경우 개인 레이아웃 복사본(예: c:\vs2017offline)을 업데이트하고 업데이트된 콘텐츠가 모두 다운로드된 후 해당 복사본을 파일 공유(예: \\server\products\VS2017)로 복사합니다. 이 작업을 하지 않으면 레이아웃이 업데이트되는 동안 설치 프로그램을 실행하는 사용자가 레이아웃에서 일부 콘텐츠를 가져오지 못할 수 있습니다. 이는 레이아웃이 완전히 업데이트되지 않았기 때문입니다.
 
-레이아웃을 만든 다음 업데이트하는 방법을 살펴보겠습니다.
+레이아웃을 만든 다음, 업데이트하는 방법에 대한 몇 가지 예를 살펴보겠습니다.
 
 * 먼저, 다음은 영어용 워크로드 하나만 포함된 레이아웃을 만드는 방법의 예입니다.
 
@@ -58,7 +58,11 @@ ms.locfileid: "55937541"
   vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
   ```
 
-* 마지막으로 버전을 업데이트하지 않고 워크로드와 지역화된 언어를 추가하는 방법은 다음과 같습니다. 여기의 명령은 ASP.NET 및 웹 워크로드를 추가합니다.  이제 관리되는 데스크톱, Azure, ASP.NET 및 웹 워크로드가 이 레이아웃에 포함됩니다.  이러한 모든 워크로드에 대해 영어, 독일어 및 프랑스어용 언어 리소스도 포함됩니다.  그러나 이 명령이 실행될 때 레이아웃이 사용 가능한 최신 버전으로 업데이트되지 않았고,  기존 버전으로 유지됩니다.
+    > [!IMPORTANT]
+    > 업데이트 작업은 [응답 파일](automated-installation-with-response-file.md)의 "추가" 섹션에 이러한 구성 요소를 포함하더라도 새로 추가된 선택적 구성 요소를 설치하지 않습니다. 이는 업데이트하는 동안 추가 작업이 사용되지 않기 때문에 발생합니다.<br>
+    > **해결 방법**: 업그레이드 후 별도의 수정 작업을 실행하여 누락된 구성 요소를 설치합니다.
+
+* 마지막으로 버전을 업데이트하지 않고 워크로드와 지역화된 언어를 추가하는 방법은 다음과 같습니다. 여기의 명령은 ASP.NET 및 웹 워크로드를 추가합니다.  이제 관리되는 데스크톱, Azure, ASP.NET 및 웹 워크로드가 이 레이아웃에 포함됩니다. 이러한 모든 워크로드에 대해 영어, 독일어 및 프랑스어용 언어 리소스도 포함됩니다.  그러나 이 명령이 실행될 때 레이아웃이 사용 가능한 최신 버전으로 업데이트되지 않았고, 기존 버전으로 유지됩니다.
 
   ```cmd
   vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion

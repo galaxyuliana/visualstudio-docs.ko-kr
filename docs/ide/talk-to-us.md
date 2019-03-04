@@ -11,12 +11,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 222d96935418a46038f369c25472ed1a938215e7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 65bfd75dfaeb31ae9864824ff0ab14c874e86d36
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946080"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56609438"
 ---
 # <a name="visual-studio-product-feedback"></a>Visual Studio 제품 피드백
 
@@ -38,12 +38,12 @@ Visual Studio 시험판 버전에는 제품의 릴리스 버전에는 없는 **�
 
 Visual Studio 지원 정보는 [지원 수명 주기 및 서비스](/visualstudio/productinfo/vs-servicing-vs) 페이지를 참조하세요.
 
-다른 Microsoft 제품 및 서비스에 대한 온라인 도움말을 보려면 [Microsoft 지원](http://go.microsoft.com/fwlink/?LinkID=99019)을 참조하세요.
+다른 Microsoft 제품 및 서비스에 대한 온라인 도움말을 보려면 [Microsoft 지원](https://go.microsoft.com/fwlink/?LinkID=99019)을 참조하세요.
 
 > [!NOTE]
-> 미국 및 캐나다 이외의 지역에서는 지원 내용이 다를 수 있습니다. 지역별 연락처 목록은 [Microsoft 국가별 사이트](http://www.microsoft.com/worldwide/)를 참조하세요.
+> 미국 및 캐나다 이외의 지역에서는 지원 내용이 다를 수 있습니다. 지역별 연락처 목록은 [Microsoft 국가별 사이트](https://www.microsoft.com/worldwide/)를 참조하세요.
 
-Microsoft에서 직접 관리와 지원을 받아야 하는 대규모 조직의 경우 다양한 엔터프라이즈 지원 제안을 통해 계약을 체결할 수 있습니다. 자세한 내용은 [Microsoft 엔터프라이즈 지원 솔루션](http://go.microsoft.com/fwlink/?LinkId=258223)을 참조하세요.
+Microsoft에서 직접 관리와 지원을 받아야 하는 대규모 조직의 경우 다양한 엔터프라이즈 지원 제안을 통해 계약을 체결할 수 있습니다. 자세한 내용은 [Microsoft 엔터프라이즈 지원 솔루션](https://go.microsoft.com/fwlink/?LinkId=258223)을 참조하세요.
 
 제품이 새 컴퓨터 또는 디바이스와 함께 설치되어 온 경우 하드웨어 제조업체가 이 소프트웨어에 대한 기술 지원을 제공합니다. 제조업체에 직접 문의하여 지원을 받으세요.
 
@@ -51,7 +51,7 @@ Microsoft 지원 서비스는 현재 가격, 약관 및 조건에 따라 다를 
 
 ## <a name="i-want-to-get-involved-in-the-developer-community"></a>개발자 커뮤니티 참여
 
-다른 개발자와 질문과 대답을 공유하려는 경우 [Visual Studio 개발자 커뮤니티](https://developercommunity.visualstudio.com) 사이트, [MSDN 포럼](https://social.msdn.microsoft.com/Forums/home) 또는 [StackOverflow](http://stackoverflow.com/)를 사용합니다. [개발자 코드 샘플](https://code.msdn.microsoft.com/) 사이트에서 다른 개발자의 코드를 보고 직접 작성한 예제를 공유할 수도 있습니다.
+다른 개발자와 질문과 대답을 공유하려는 경우 [Visual Studio 개발자 커뮤니티](https://developercommunity.visualstudio.com) 사이트, [MSDN 포럼](https://social.msdn.microsoft.com/Forums/home) 또는 [Stack Overflow](https://stackoverflow.com/)를 사용합니다. [개발자 코드 샘플](https://code.msdn.microsoft.com/) 사이트에서 다른 개발자의 코드를 보고 직접 작성한 예제를 공유할 수도 있습니다.
 
 ## <a name="i-want-to-help-improve-the-visual-studio-documentation"></a>Visual Studio 설명서를 개선하려는 경우
 

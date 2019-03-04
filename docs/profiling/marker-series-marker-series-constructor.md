@@ -12,43 +12,41 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fa010c535b984eb6a00bcb8234815f3d489b87b3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 5178b2cebdfa4246256aef6334e026ef091fa553
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54939454"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56639962"
 ---
 # <a name="markerseriesmarkerseries-constructor"></a>marker_series::marker_series 생성자
-`marker_series` 클래스의 새 인스턴스를 초기화합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cpp  
-marker_series();  
-marker_series(  
-   _In_ LPCTSTR _SeriesName  
-);  
-marker_series(  
-   _In_ const GUID* _ProviderGuid  
-);  
-marker_series(  
-   _In_ const GUID* _ProviderGuid,  
-   _In_ LPCTSTR _SeriesName  
-);  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `_SeriesName`  
- 만들려는 계열의 이름입니다.  
-  
- `_ProviderGuid`  
- 계열 공급자의 GUID입니다.  
-  
-## <a name="requirements"></a>요구 사항  
- **헤더:** *cvmarkersobj.h*  
-  
- **네임스페이스:** Concurrency::diagnostic  
-  
-## <a name="see-also"></a>참고 항목  
- [marker_series 클래스](../profiling/marker-series-class.md)
+`marker_series` 클래스의 새 인스턴스를 초기화합니다.
+
+## <a name="syntax"></a>구문
+
+```cpp
+marker_series();
+marker_series(
+   _In_ LPCTSTR _SeriesName
+);
+marker_series(
+   _In_ const GUID* _ProviderGuid
+);
+marker_series(
+   _In_ const GUID* _ProviderGuid,
+   _In_ LPCTSTR _SeriesName
+);
+```
+
+#### <a name="parameters"></a>매개 변수
+ `_SeriesName` 만들려는 계열의 이름입니다.
+
+ `_ProviderGuid` 계열 공급자의 GUID입니다.
+
+## <a name="requirements"></a>요구 사항
+ **헤더:** *cvmarkersobj.h*
+
+ **네임스페이스:** Concurrency::diagnostic
+
+## <a name="see-also"></a>참고 항목
+- [marker_series 클래스](../profiling/marker-series-class.md)

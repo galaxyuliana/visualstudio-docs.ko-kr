@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5d9554740cc576fc90ed232e64dbc4f73b619a8f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 730345edb42ff3d14608bdcce91bc7b97c4bb478
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55022471"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56640937"
 ---
 # <a name="how-to-collect-windows-counter-data"></a>방법: Windows 카운터 데이터 수집
 
@@ -48,6 +48,6 @@ Windows 카운터는 프로파일링 중에 설정된 간격으로 수집할 수
 
 ## <a name="see-also"></a>참고 항목
 
-[성능 세션 구성](../profiling/configuring-performance-sessions.md)  
-[성능 세션 속성](../profiling/performance-session-properties.md)  
+[성능 세션 구성](../profiling/configuring-performance-sessions.md)
+[성능 세션 속성](../profiling/performance-session-properties.md)
 [CPU 및 Windows 카운터](../profiling/cpu-and-windows-counters.md)

@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c082abccc6201bd0e0af2152767dd61ce1e720c5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: ad917a67ab03a4cb6c1e265ec2dafcbe6e2ee421
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55042506"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56601667"
 ---
 # <a name="how-to-set-the-current-session"></a>방법: 현재 세션 설정
 
@@ -36,7 +36,7 @@ ms.locfileid: "55042506"
 
 ## <a name="see-also"></a>참고 항목
 
-[성능 세션 구성](../profiling/configuring-performance-sessions.md)  
-[성능 탐색기 창](../profiling/performance-explorer-window.md)  
-[성능 세션 속성](../profiling/performance-session-properties.md)  
+[성능 세션 구성](../profiling/configuring-performance-sessions.md)
+[성능 탐색기 창](../profiling/performance-explorer-window.md)
+[성능 세션 속성](../profiling/performance-session-properties.md)
 [성능 세션 개요](../profiling/performance-session-overview.md)

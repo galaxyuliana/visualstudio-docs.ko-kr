@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: b6bc2aa2dff6a1d71428041e17bffe39c7d624e9
-ms.sourcegitcommit: 5dc74b4fdff1357df43a19f6e8a51d7bf706abd6
+ms.openlocfilehash: 27e990c300702301fc7c701339254bbe6f385cd0
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55768410"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843805"
 ---
 # <a name="debug-a-javascript-or-typescript-app-in-visual-studio"></a>Visual Studio에서 JavaScript 또는 TypeScript 앱 디버그
 
@@ -168,7 +168,7 @@ Visual Studio는 Chrome 및 Internet Explorer에 대해서만 디버깅 지원�
    Chrome의 경우 **솔루션 탐색기 > 스크립트 문서 > YourPageName**으로 이동합니다.
 
     > [!NOTE]
-    > Chrome을 사용할 때 `no source is available between ` 메시지가 표시될 수 있습니다.<script>` tags.` This is OK, just continue debugging.
+    > Chrome을 사용하는 경우 **\<스크립트> 태그 간에 소스를 사용할 수 없음**이라는 메시지가 표시될 수 있습니다. 괜찮습니다. 디버깅을 계속하세요.
 
    Internet Explorer의 경우 **솔루션 탐색기 > 스크립트 문서 > Windows Internet Explorer > YourPageName**으로 이동합니다.
 

@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/14/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: 구독 관리자가 관리 포털에 액세스하여 VL(볼륨 라이선스)을 통해 획득한 구독을 관리할 수 있는 방법을 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: de5992adc2ada56ad213ef29e879dadf7b7daad8
-ms.sourcegitcommit: 495bba1d8029646653f99ad20df2f80faad8d58b
+ms.openlocfilehash: 846eb6ecf69253086079cf06fe4c53a8860d996d
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39379542"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843142"
 ---
 # <a name="accessing-the-portal-and-managing-administrators---for-subscriptions-acquired-through-volume-licensing-vl"></a>포털에 액세스 및 관리자 관리 - VL(볼륨 라이선스)을 통해 획득한 구독의 경우
 
@@ -22,8 +20,8 @@ ms.locfileid: "39379542"
 
 2017년 3월 1일을 기준으로 포털 온보딩 및 마이그레이션 프로세스를 계속 사용 중인 고객은 해당 구독을 VLSC(볼륨 라이선스 서비스 센터)에서 관리해야 합니다.
 
-VLSC에서 구독을 관리하는 것에 대한 자세한 내용은 [VLSC용 Visual Studio 구독 이해](https://visualstudio.microsoft.com/wp-content/uploads/2016/11/Understanding-Visual-Studio-Subscriptions-Administration-Guide-for-VLSC.pdf)
-[VLSC용 Visual Studio 구독 관리](https://visualstudio.microsoft.com/wp-content/uploads/2016/11/Managing-Visual-Studio-Subscriptions-Administration-Guide-for-VLSC.pdf)를 참조하세요.
+VLSC에서 구독 관리에 대한 자세한 내용은 다음 가이드를 참조하세요. [VLSC용 Visual Studio 구독 이해](https://visualstudio.microsoft.com/wp-content/uploads/2016/11/Understanding-Visual-Studio-Subscriptions-Administration-Guide-for-VLSC.pdf)
+[VLSC용 Visual Studio 구독 관리](https://visualstudio.microsoft.com/wp-content/uploads/2016/11/Managing-Visual-Studio-Subscriptions-Administration-Guide-for-VLSC.pdf)
 
 **Visual Studio 구독 관리 포털** 조직은 마이그레이션했으나 아직 새로운 포털에서 설정하지 않은 경우 조직의 볼륨 라이선스 계약에 대한 기본 또는 통지 연락처 담당자가 조직을 온보딩하고 관리자로 설정하기 위한 몇 가지 단계를 거쳐야 합니다.
 

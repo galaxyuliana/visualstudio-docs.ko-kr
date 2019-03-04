@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: db8230c393ad18d72ff4d4d186d916c0e938996d
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f2668d5b60fba429613975cc24e751dbe07f87b7
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54978583"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56641080"
 ---
 # <a name="understand-sampling-data-values"></a>샘플링 데이터 값 이해
 
@@ -51,5 +51,5 @@ Visual Studio 프로파일링 도구의 ‘샘플링’ 프로파일링 방법�
 
 ## <a name="see-also"></a>참고 항목
 
-[방법: 수집 방법 선택](../profiling/how-to-choose-collection-methods.md)  
+[방법: 수집 방법 선택](../profiling/how-to-choose-collection-methods.md)
 [성능 도구 데이터 분석](../profiling/analyzing-performance-tools-data.md)

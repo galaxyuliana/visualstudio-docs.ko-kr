@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 43759d33c776e7ca4a6bdd8269df4bee0f882a53
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 344af8760dad3c66c32590b7d2d665bef833e583
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54982938"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56638519"
 ---
 # <a name="how-to-choose-collection-methods"></a>방법: 수집 방법 선택
 
@@ -91,6 +91,6 @@ Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 세 가
 
 ## <a name="see-also"></a>참고 항목
 
-[성능 세션 구성](../profiling/configuring-performance-sessions.md)  
-[샘플링 데이터 값 이해](../profiling/understanding-sampling-data-values.md)  
+[성능 세션 구성](../profiling/configuring-performance-sessions.md)
+[샘플링 데이터 값 이해](../profiling/understanding-sampling-data-values.md)
 [성능 세션 속성](../profiling/performance-session-properties.md)

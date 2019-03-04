@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/02/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: 별칭 또는 대화명을 사용하는 경우 로그인에 실패할 수 있습니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 3743cc11d5001d12ba4cd030ddc0cfc914db3131
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+ms.openlocfilehash: 2e552f2f7200235dafe0edf40e13dbc299f0d129
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51817440"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841629"
 ---
 # <a name="signing-in-to-visual-studio-subscriptions-may-fail-when-using-aliases"></a>별칭을 사용하여 Visual Studio 구독에 로그인하지 못할 수 있음
 
@@ -150,7 +148,7 @@ Visual Studio 구독이 할당되었고 시작 이메일을 기반으로 https:/
 
 6. 이제 혜택을 확인해야 합니다.
 
-참고: 나중에 https://my.visualstudio.com 을 방문하면 사용할 계정을 선택하라는 메시지가 표시될 수 있습니다(예: “회사 또는 학교 계정” 또는 “개인 계정”).  위의 단계를 수행한 후 “개인 계정” 옵션을 활용해야 합니다.
+참고:  나중에 https://my.visualstudio.com을 방문하면 사용할 계정을 선택하라는 메시지가 표시될 수 있습니다(예: “회사 또는 학교 계정” 또는 “개인 계정”).  위의 단계를 수행한 후 “개인 계정” 옵션을 활용해야 합니다.
 
 문제가 있는 경우 지원 팀(https://visualstudio.microsoft.com/subscriptions/support/))에 문의하세요.
 

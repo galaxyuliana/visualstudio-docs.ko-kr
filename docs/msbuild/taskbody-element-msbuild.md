@@ -16,64 +16,62 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c95761dd87d9d8d36aaff228d6395547bc07fe41
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8f788df1dd3cad2baddd6d2966b04195af01fe7d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55015708"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56618577"
 ---
 # <a name="taskbody-element-msbuild"></a>TaskBody 요소(MSBuild)
-`UsingTask` `TaskFactory`에 전달되는 데이터가 들어 있습니다. 자세한 내용은 [UsingTask 요소(MSBuild)](../msbuild/usingtask-element-msbuild.md)를 참조하세요.  
+`UsingTask` `TaskFactory`에 전달되는 데이터가 들어 있습니다. 자세한 내용은 [UsingTask 요소(MSBuild)](../msbuild/usingtask-element-msbuild.md)를 참조하세요.
 
- \<Project>  
- \<UsingTask>  
- \<TaskBody>  
+ \<Project> \<UsingTask> \<TaskBody>
 
-## <a name="syntax"></a>구문  
+## <a name="syntax"></a>구문
 
 ```xml
-<TaskBody Evaluate="true/false" />  
-```  
+<TaskBody Evaluate="true/false" />
+```
 
-## <a name="attributes-and-elements"></a>특성 및 요소  
- 다음 단원에서는 특성, 자식 요소 및 부모 요소에 대해 설명합니다.  
+## <a name="attributes-and-elements"></a>특성 및 요소
+ 다음 단원에서는 특성, 자식 요소 및 부모 요소에 대해 설명합니다.
 
-### <a name="attributes"></a>특성  
+### <a name="attributes"></a>특성
 
-|특성|설명|  
-|---------------|-----------------|  
-|`Evaluate`|선택적 부울 특성입니다.<br /><br /> `true`인 경우, MSBuild는 내부 요소를 평가하고, 작업을 인스턴스화할 때 정보를 `TaskFactory`에 전달하기 전에 항목 및 속성을 확장합니다.|  
+|특성|설명|
+|---------------|-----------------|
+|`Evaluate`|선택적 부울 특성입니다.<br /><br /> `true`인 경우, MSBuild는 내부 요소를 평가하고, 작업을 인스턴스화할 때 정보를 `TaskFactory`에 전달하기 전에 항목 및 속성을 확장합니다.|
 
-### <a name="child-elements"></a>자식 요소  
+### <a name="child-elements"></a>자식 요소
 
-|요소|설명|  
-|-------------|-----------------|  
-|데이터|`TaskBody` 태그 간에 텍스트는 그대로 `TaskFactory`로 전송됩니다.|  
+|요소|설명|
+|-------------|-----------------|
+|데이터|`TaskBody` 태그 간에 텍스트는 그대로 `TaskFactory`로 전송됩니다.|
 
-### <a name="parent-elements"></a>부모 요소  
+### <a name="parent-elements"></a>부모 요소
 
 | 요소 | 설명 |
 | - | - |
 | [UsingTask](../msbuild/usingtask-element-msbuild.md) | [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에서 작업을 등록하는 방법을 제공합니다. 프로젝트에는 `UsingTask` 요소가 없을 수도 있고 하나 이상 있을 수 있습니다. |
 
-## <a name="example"></a>예제  
- 다음 예제에서는 `Evaluate` 특성에서 `TaskBody` 요소를 사용하는 방법을 보여 줍니다.  
+## <a name="example"></a>예제
+ 다음 예제에서는 `Evaluate` 특성에서 `TaskBody` 요소를 사용하는 방법을 보여 줍니다.
 
-```xml  
-<UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
-       <ParameterGroup>  
-              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
-              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
-              ...  
-</ParameterGroup>  
-       <TaskBody Evaluate="true">  
-      ... Task factory-specific data ...  
-       </TaskBody>  
-</UsingTask>  
-```  
+```xml
+<UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">
+       <ParameterGroup>
+              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>
+              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>
+              ...
+</ParameterGroup>
+       <TaskBody Evaluate="true">
+      ... Task factory-specific data ...
+       </TaskBody>
+</UsingTask>
+```
 
-## <a name="see-also"></a>참고 항목  
- [작업](../msbuild/msbuild-tasks.md)   
- [작업 참조](../msbuild/msbuild-task-reference.md)   
- [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
+## <a name="see-also"></a>참고 항목
+- [작업](../msbuild/msbuild-tasks.md)
+- [작업 참조](../msbuild/msbuild-task-reference.md)
+- [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
