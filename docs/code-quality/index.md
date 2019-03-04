@@ -1,18 +1,12 @@
 ---
 layout: LandingPage
 title: 코드 분석
-description: Visual Studio 2017을 사용하여 코드 품질을 분석하는 방법에 대해 알아봅니다.
+description: Visual Studio를 사용하여 코드 품질을 분석하는 방법에 대해 알아봅니다.
 ms.date: 12/03/2018
 ms.topic: landing-page
 ms.author: gewarren
 author: gewarren
 manager: jillfra
-ms.openlocfilehash: 99d1ab0dd6eea79380b33fec76a2ba1869559f3c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949017"
 ---
 # <a name="code-analysis-in-visual-studio"></a>Visual Studio의 코드 분석
 

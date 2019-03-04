@@ -15,12 +15,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: de7294040f079bf6ff5961f985f82beea112d1f9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: adfebd52f477328193a97a8fdb91300eef215fd7
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970415"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56710112"
 ---
 # <a name="visual-studio-2017-administrator-guide"></a>Visual Studio 2017 관리자 가이드
 
@@ -54,7 +54,7 @@ ms.locfileid: "55970415"
 클라이언트 컴퓨터에 [설치된 Visual Studio 인스턴스를 검색 및 관리](tools-for-managing-visual-studio-instances.md)하는 데 사용할 수 있는 여러 가지 도구가 있습니다.
 
 > [!TIP]
-> Visual Studio 2017 설치 방법에 대한 자세한 내용은 관리자 가이드의 문서와 [Heath Stewart의 블로그](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/)를 참조하세요.
+> 관리자 가이드의 문서 외에도 Visual Studio 2017 설치 방법에 대한 유용한 정보 소스는 [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)를 참조하세요.
 
 ## <a name="specify-customer-feedback-settings"></a>사용자 의견 설정 지정
 

@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4e93a249572c34d801426b9919a274aa133639a3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c95add435824663e798d226e0be11ddbe06b8aba
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54963725"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56618681"
 ---
 # <a name="how-to-specify-additional-instrumentation-options"></a>방법: 추가 계측 옵션 지정
 
@@ -41,5 +41,5 @@ Visual Studio IDE를 사용하거나 명령줄 도구를 사용하여 이진 파
 
 ## <a name="see-also"></a>참고 항목
 
-[성능 세션 구성](../profiling/configuring-performance-sessions.md)  
+[성능 세션 구성](../profiling/configuring-performance-sessions.md)
 [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ae991730caf5e83e9632d7b9a871a62778463098
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c607263c6b6f6472258aaeab1c3187efaf30a120
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54928570"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56642744"
 ---
 # <a name="how-to-collect-cpu-counter-data"></a>방법: CPU 카운터 데이터 수집
 
@@ -60,7 +60,7 @@ CPU 이벤트 카운터는 하드웨어 관련 성능 데이터를 수집하는 
 
 ## <a name="see-also"></a>참고 항목
 
-[성능 세션 구성](../profiling/configuring-performance-sessions.md)  
-[성능 세션 속성](../profiling/performance-session-properties.md)  
-[CPU 및 Windows 카운터](../profiling/cpu-and-windows-counters.md)  
+[성능 세션 구성](../profiling/configuring-performance-sessions.md)
+[성능 세션 속성](../profiling/performance-session-properties.md)
+[CPU 및 Windows 카운터](../profiling/cpu-and-windows-counters.md)
 [방법: 샘플링 이벤트 선택](../profiling/how-to-choose-sampling-events.md)

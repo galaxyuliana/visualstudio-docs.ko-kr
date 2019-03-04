@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cf8f72f0d9b0c2d847ddb2c5e7e6c3c8d4ae4467
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6daa21f9db7eef9a651577ad829d884dccf353dc
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55932497"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56717522"
 ---
 # <a name="command-devenvexe"></a>/Command (devenv.exe)
 
@@ -31,17 +31,23 @@ devenv /Command CommandName
 
 ## <a name="arguments"></a>인수
 
-- *CommandName*
+*CommandName*
 
-  필수 요소. Visual Studio 명령 또는 해당 별칭의 전체 이름으로, 큰따옴표로 묶습니다. 명령 및 별칭 구문에 대한 자세한 내용은 [Visual Studio 명령](../../ide/reference/visual-studio-commands.md)을 참조하세요.
+필수 요소. Visual Studio 명령 또는 해당 별칭의 전체 이름으로, 큰따옴표로 묶습니다. 명령 및 별칭 구문에 대한 자세한 내용은 [Visual Studio 명령](../../ide/reference/visual-studio-commands.md)을 참조하세요.
 
 ## <a name="remarks"></a>주의
 
-시작이 완료된 후 IDE는 명명된 명령을 실행합니다. 이 스위치를 사용하면 IDE는 시작 시 Visual Studio 시작 페이지를 표시하지 않습니다.
+시작이 완료된 후 IDE는 명명된 명령을 실행합니다.
+
+::: moniker range="vs-2017"
+
+이 스위치를 사용하면 시작 시 IDE가 시작 페이지를 표시하지 않습니다.
+
+::: moniker-end
 
 추가 기능이 명령을 표시할 경우에는 이 스위치를 사용하여 명령줄에서 추가 기능을 시작할 수 있습니다. 자세한 내용은 [방법: 추가 기능 관리자를 사용하여 추가 기능 제어](/previous-versions/xwdatdwh(v=vs.140))를 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 첫 번째 예제에서는 Visual Studio를 시작하고 Open Favorite Files(즐겨찾기 파일 열기) 매크로를 자동으로 실행합니다.
 

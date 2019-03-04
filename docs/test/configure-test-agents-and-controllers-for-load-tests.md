@@ -7,12 +7,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 08cc8426dcc82a178bbcf042c13fa51956697702
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 16686d3900b3db2656492f5049590eeff47eb93a
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948825"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796353"
 ---
 # <a name="configure-test-agents-and-test-controllers-for-running-load-tests"></a>부하 테스트 실행에 대한 테스트 에이전트 및 테스트 컨트롤러 구성
 
@@ -77,7 +77,7 @@ Visual Studio 는 실제 또는 가상 머신을 사용하여 앱에 대해 시�
 
 다음 그림에서는 테스트 컨트롤러, 테스트 에이전트 및 클라이언트 간의 연결 지점을 보여 줍니다. 이 그림에서는 들어오는 연결과 나가는 연결에 사용되는 포트와 이러한 포트에 사용되는 보안 제한 사항을 간략하게 보여 줍니다.
 
- ![테스트 컨트롤러와 테스트 에이전트의 포트 및 보안](./media/test-controller-agent-firewall.png)
+ ![테스트 컨트롤러와 테스트 에이전트 포트 및 보안](./media/test-controller-agent-firewall.png)
 
  자세한 내용은 [테스트 컨트롤러 및 테스트 에이전트용 포트 구성](../test/configure-ports-for-test-controllers-and-test-agents.md)을 참조하세요.
 

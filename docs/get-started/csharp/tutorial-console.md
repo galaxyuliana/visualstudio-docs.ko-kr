@@ -2,7 +2,7 @@
 title: '자습서: 간단한 C# 콘솔 앱 만들기'
 description: Visual Studio에서 C# 콘솔 앱을 만드는 방법을 단계별로 알아봅니다.
 ms.custom: seodec18, get-started
-ms.date: 01/25/2019
+ms.date: 02/26/2019
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -14,12 +14,12 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 79a29fa8b0d512049bf604668d11ea92e2511984
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 427d6e0bc17f977d54db7e313f5f119662df17c8
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56156074"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841183"
 ---
 # <a name="tutorial-create-a-simple-c-console-app-in-visual-studio"></a>자습서: Visual Studio에서 간단한 C# 콘솔 앱 만들기
 
@@ -39,7 +39,7 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 
    ![Visual Studio IDE의 새 프로젝트 대화 상자의 콘솔 앱(.NET Core) 프로젝트 템플릿](./media/new-project-csharp-calculator-console-app.png)
 
-### <a name="add-a-workgroup-optional"></a>(선택 사항) 작업 그룹 추가
+### <a name="add-a-workload-optional"></a>(선택 사항) 워크로드 추가
 
 **콘솔 앱(.NET Core)** 프로젝트 템플릿이 표시되지 않는 경우, **.NET Core 플랫폼 간 개발** 워크로드를 추가하여 얻을 수 있습니다. 방법은 다음과 같습니다.
 
@@ -80,6 +80,7 @@ C#의 몇 가지 정수 수식부터 살펴보겠습니다.
             Console.WriteLine(c);
             Console.ReadKey();
     ```
+
 1. 프로그램을 실행할 **계산기**를 선택하거나 **F5** 키를 누릅니다.
 
    ![계산기 단추를 선택하여 도구 모음에서 앱을 실행합니다.](./media/csharp-console-calculator-button.png)
@@ -151,6 +152,7 @@ C#의 몇 가지 정수 수식부터 살펴보겠습니다.
         }
     }
     ```
+
 1. 프로그램을 실행할 **계산기**를 선택하거나 **F5** 키를 누릅니다.
 
    ![계산기 단추를 선택하여 도구 모음에서 앱을 실행합니다.](./media/csharp-console-calculator-button.png)
@@ -382,6 +384,7 @@ C#의 몇 가지 정수 수식부터 살펴보겠습니다.
         }
     }
     ```
+
 1. 프로그램을 실행할 **계산기**를 선택하거나 **F5** 키를 누릅니다.
 
 1. 프롬프트에 따라 숫자 **42**를 숫자 **119**로 나눕니다. 앱은 다음과 비슷해야 합니다.
@@ -404,7 +407,7 @@ C#의 몇 가지 정수 수식부터 살펴보겠습니다.
 
 ## <a name="code-complete"></a>코드 완료
 
-이 tutortial 중 계산기 앱을 많이 변경했습니다. 이제 앱은 컴퓨팅 리소스를 보다 효율적으로 처리하고 대부분의 사용자 입력 오류를 처리합니다.
+이 자습서에서는 계산기 앱을 많이 변경했습니다. 이제 앱은 컴퓨팅 리소스를 보다 효율적으로 처리하고 대부분의 사용자 입력 오류를 처리합니다.
 
 전체 코드는 다음과 같습니다.
 

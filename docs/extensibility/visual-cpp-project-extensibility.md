@@ -10,12 +10,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d765d9d4299821b0e940311cdb9d73b96b59327b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 9474bd1dc78dd9b2896749d92fa796a3febd1104
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692062"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223561"
 ---
 # <a name="visual-studio-c-project-system-extensibility-and-toolset-integration"></a>Visual Studio c + + 프로젝트 시스템 확장 및 도구 집합 통합
 
@@ -513,7 +513,7 @@ Visual Studio에서 디버그 서비스 디버그 엔진에 대 한 확장성을
 
 디버그 세션에 대 한 디버그 엔진 및 기타 속성 지정을 구현 해야 합니다는 [디버그 시작 관리자](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/extensibility/IDebugLaunchProvider.md) MEF 구성 요소 추가 `debugger` 규칙입니다. 예를 들어 참조 된 `$(VCTargetsPath)` \\1033\\디버거\_로컬\_windows.xml 파일.
 
-### <a name="deploy"></a>배포
+### <a name="deploy"></a>배포:
 
 .vcxproj 프로젝트 사용에 대 한 Visual Studio 프로젝트 시스템 확장성 [배포 공급자](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/extensibility/IDeployProvider.md)합니다.
 
@@ -604,7 +604,7 @@ internal class MyProjectUpgrader: IProjectRetargetHandler
 
 ## <a name="project-cache-and-extensibility"></a>프로젝트 캐시 및 확장성
 
-Visual Studio 2017에서 큰 c + + 솔루션으로 작업할 때 성능을 향상 시키기 위해 합니다 [캐시 프로젝트](https://blogs.msdn.microsoft.com/vcblog/2016/10/05/faster-c-solution-load-with-vs-15/) 도입 되었습니다. 프로젝트 데이터를 사용 하 여 채워지고 메모리로 MSBuild 또는 CPS 프로젝트를 로드 하지 않고 프로젝트를 로드 하는 데 다음 SQLite 데이터베이스로 구현 됩니다.
+Visual Studio 2017에서 큰 c + + 솔루션으로 작업할 때 성능을 향상 시키기 위해 합니다 [캐시 프로젝트](https://devblogs.microsoft.com/cppblog/faster-c-solution-load-with-vs-15/) 도입 되었습니다. 프로젝트 데이터를 사용 하 여 채워지고 메모리로 MSBuild 또는 CPS 프로젝트를 로드 하지 않고 프로젝트를 로드 하는 데 다음 SQLite 데이터베이스로 구현 됩니다.
 
 캐시에서 로드.vcxproj 프로젝트에 없는 CPS 개체 이기 때문에 확장의 MEF 구성 요소는 가져올 `UnconfiguredProject` 또는 `ConfiguredProject` 만들 수 없습니다. 확장성을 지원 하도록 프로젝트 캐시는 Visual Studio에서 프로젝트를 사용 하 여 (또는 사용 하 여 가능성이) MEF 확장을 검색 하는 경우 사용 되지 않습니다.
 

@@ -2,7 +2,7 @@
 title: Azure Virtual Machine에서 Visual Studio 사용
 titleSuffix: ''
 description: Azure 가상 머신에서 Visual Studio를 사용하는 방법에 대한 자세한 정보
-ms.date: 09/12/2018
+ms.date: 02/19/2019
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,12 +15,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a1dbda84c1e8eee48c4a442e922c1852496155ac
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 12d99cf2e15bf1d806035598f9c92b5ed3319d25
+ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952907"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56450401"
 ---
 # <a id="top"> </a> Azure의 Visual Studio 이미지
 
@@ -34,8 +34,8 @@ Azure Marketplace에서 최신 주 버전(Visual Studio 2017 및 Visual Studio 2
 
 | 릴리스 버전                                              | 버전                     |     제품 버전      |
 |:------------------------------------------------------------:|:----------------------------:|:------------------------:|
-|    Visual Studio 2019: 미리 보기(미리 보기 2)                   |           엔터프라이즈         | 버전 16.0.0 미리 보기 2 |
-| Visual Studio 2017: 최신(버전 15.9)                    |    Enterprise, Community     |      버전 15.9.4      |
+|    Visual Studio 2019: 미리 보기(미리 보기 3)                   |           엔터프라이즈         | 버전 16.0.0 미리 보기 3 |
+| Visual Studio 2017: 최신(버전 15.9)                    |    Enterprise, Community     |      버전 15.9.7      |
 |         Visual Studio 2017: RTW                              |    Enterprise, Community     |      버전 15.0.20     |
 |   Visual Studio 2015: 최신(업데이트 3)                      |    Enterprise, Community     |  버전 14.0.25431.01   |
 |         Visual Studio 2015: RTW                              |             없음             | (서비스 만료됨)  |

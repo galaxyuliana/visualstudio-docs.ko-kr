@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: 일부 Visual Studio 구독에 포함된 Office 365 혜택을 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: ded8c37cfcd737e9285b6a1e2a5f9eb51ede2680
-ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
+ms.openlocfilehash: 6d6fdcbe7ae5bb5182f7c123120d632a4221f642
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54380139"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841080"
 ---
 # <a name="office-365-pro-plus-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Office 365 Pro Plus
 
@@ -23,9 +21,9 @@ ms.locfileid: "54380139"
 ## <a name="getting-started-with-office-365-pro-plus"></a>Office 365 Pro Plus 시작
 
 Office 365 Pro Plus를 다운로드하고 활성화하려면 다음 단계를 따르세요.
-1. Visual Studio Enterprise 구독에 로그인합니다.  
+1. Visual Studio Enterprise 구독에 로그인합니다.
 2. **다운로드** 탭을 클릭합니다.
-3. 추천 다운로드 목록이 표시됩니다. Office 목록에서 **Office 365**를 선택합니다. 
+3. 추천 다운로드 목록이 표시됩니다. Office 목록에서 **Office 365**를 선택합니다.
    > [!div class="mx-imgBorder"]
    > ![Office 365 다운로드](_img/vs-office365/vs-office365-downloads.png)
 0. Office 365를 설치하려면 제품 키가 필요합니다.  Office 365 목록 아래의 **키 가져오기** 링크를 클릭합니다.
@@ -36,7 +34,7 @@ Office 365 Pro Plus를 다운로드하고 활성화하려면 다음 단계를 �
    > ![Office 365 제품 키 요청](_img/vs-office365/vs-office365-claim-key.png)
 0. 방금 요청한 키를 기록합니다. 언제든지 이 목록으로 돌아가면 다시 확인할 수 있습니다.
 0. 플라이아웃 창을 닫습니다.
-0. **다운로드** 단추를 클릭합니다. 
+0. **다운로드** 단추를 클릭합니다.
    > [!div class="mx-imgBorder"]
    > ![Office 365 다운로드 시작](_img/vs-office365/vs-office365-download-button.png)
 0. Microsoft 계정으로 로그인합니다. 이미 로그인한 경우 **다음**을 클릭합니다.
@@ -44,7 +42,7 @@ Office 365 Pro Plus를 다운로드하고 활성화하려면 다음 단계를 �
    > [!div class="mx-imgBorder"]
    > ![Office 365 제품 키 입력](_img/vs-office365/vs-office365-enter-key.png)
 0. **다음**을 다시 클릭합니다.
-0. **설치**를 클릭하여 Office 애플리케이션을 설치합니다. 
+0. **설치**를 클릭하여 Office 애플리케이션을 설치합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -63,7 +61,7 @@ Office용 애플리케이션을 개발하려는 경우 [Office 개발자 구독]
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
 | Visual Studio Dev Essentials | N/A  | 사용할 수 없음 |N/A |
 
-<sup>1</sup> 포함:  NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크
+<sup>1</sup> 포함: *NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크
 
 
 > [!NOTE]

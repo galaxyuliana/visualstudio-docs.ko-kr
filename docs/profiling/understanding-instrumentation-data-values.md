@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ed8131f7fecfcb28ad15fa4987767be4fa9955d0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 0f10a3f434def1c96c2f096c4b299b47dd8aad9f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55029728"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56620775"
 ---
 # <a name="understand-instrumentation-data-values"></a>계측 데이터 값 이해
 
@@ -97,5 +97,5 @@ Visual Studio의 ‘계측’ 프로파일링 방법은 함수 호출, 줄 및 �
 
 ## <a name="see-also"></a>참고 항목
 
-[성능 도구 데이터 분석](../profiling/analyzing-performance-tools-data.md)  
+[성능 도구 데이터 분석](../profiling/analyzing-performance-tools-data.md)
 [방법: 수집 방법 선택](../profiling/how-to-choose-collection-methods.md)

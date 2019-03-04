@@ -8,42 +8,40 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 952d5c726090aabbc4fe550f64696bcce7a3f784
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 440401f8c46a3920fce6c8e0d29f630a24103f65
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54940078"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56625129"
 ---
 # <a name="mark"></a>표시
-*VSPerfCmd.exe* **Mark** 옵션은 프로파일링 데이터 파일에 지정된 정보를 삽입합니다. Mark는 별도 VSPerfReport 보고서 또는 프로파일러 UI의 표시 보고서 보기에 나열될 수 있습니다. **Mark**는 보고서 및 보기 필터에서 시작점과 끝점을 지정하는 데 사용될 수 있습니다.  
-  
- **Mark** 옵션은 명령줄에 지정된 유일한 옵션이어야 합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```cmd  
-VSPerfCmd.exe /Mark:MarkID,[MarkName]  
-```  
-  
-#### <a name="parameters"></a>매개 변수  
- `MarkID`  
- 프로파일러 보기 및 보고서에서 표시 ID로 나열되는 사용자 지정 정수입니다. `MarkID`는 고유할 필요가 없습니다.  
-  
- `MarkName`  
- (선택 사항) 프로파일러 보기 및 보고서에서 표시 이름으로 나열되는 사용자 지정 문자열입니다. `MarkName`이 지정되지 않은 경우 나열된 표시의 표시 이름 필드는 비어 있습니다. 따옴표에서 공백 또는 슬래시("/")가 포함된 문자열을 묶습니다.  
-  
-## <a name="example"></a>예제  
- 이 예제에서는 ID 123으로 표시 및 "TestMark"의 표시 이름을 삽입합니다.  
-  
-```cmd  
-VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
-VSPerfCmd.exe /Launch:TestApp.exe  
-VSPerfCmd.exe /Mark:123,TestMark  
-```  
-  
-## <a name="see-also"></a>참고 항목  
- [VSPerfCmd](../profiling/vsperfcmd.md)   
- [독립 실행형 애플리케이션 프로파일링](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [ASP.NET 웹 애플리케이션 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)
+*VSPerfCmd.exe* **Mark** 옵션은 프로파일링 데이터 파일에 지정된 정보를 삽입합니다. Mark는 별도 VSPerfReport 보고서 또는 프로파일러 UI의 표시 보고서 보기에 나열될 수 있습니다. **Mark**는 보고서 및 보기 필터에서 시작점과 끝점을 지정하는 데 사용될 수 있습니다.
+
+ **Mark** 옵션은 명령줄에 지정된 유일한 옵션이어야 합니다.
+
+## <a name="syntax"></a>구문
+
+```cmd
+VSPerfCmd.exe /Mark:MarkID,[MarkName]
+```
+
+#### <a name="parameters"></a>매개 변수
+ `MarkID` 프로파일러 보기 및 보고서에서 표시 ID로 나열되는 사용자 지정 정수입니다. `MarkID`는 고유할 필요가 없습니다.
+
+ `MarkName` (선택 사항) 프로파일러 보기 및 보고서에서 표시 이름으로 나열되는 사용자 지정 문자열입니다. `MarkName`이 지정되지 않은 경우 나열된 표시의 표시 이름 필드는 비어 있습니다. 따옴표에서 공백 또는 슬래시("/")가 포함된 문자열을 묶습니다.
+
+## <a name="example"></a>예제
+ 이 예제에서는 ID 123으로 표시 및 "TestMark"의 표시 이름을 삽입합니다.
+
+```cmd
+VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp
+VSPerfCmd.exe /Launch:TestApp.exe
+VSPerfCmd.exe /Mark:123,TestMark
+```
+
+## <a name="see-also"></a>참고 항목
+- [VSPerfCmd](../profiling/vsperfcmd.md)
+- [독립 실행형 애플리케이션 프로파일링](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [ASP.NET 웹 애플리케이션 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+- [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)

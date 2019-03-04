@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 76e2d85cd1417d7700841b3d035255317f2581a0
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 77da53856e0562d036fade431dd0deba0376fe9f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54959423"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56624973"
 ---
 # <a name="performance-session-properties"></a>성능 세션 속성
 
@@ -38,7 +38,7 @@ ms.locfileid: "54959423"
 
 [.NET 메모리 할당 및 수명 데이터 수집](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)
 
- [방법: 성능 데이터 파일 이름 옵션 설정](../profiling/how-to-set-performance-data-file-name-options.md)
+- [방법: 성능 데이터 파일 이름 옵션 설정](../profiling/how-to-set-performance-data-file-name-options.md)
 
 ## <a name="launch"></a>Launch
 
@@ -111,6 +111,6 @@ ms.locfileid: "54959423"
 
 ## <a name="see-also"></a>참고 항목
 
-[개요](../profiling/overviews-performance-tools.md)  
-[성능 세션 구성](../profiling/configuring-performance-sessions.md)  
-[데이터 수집 제어](../profiling/controlling-data-collection.md)
+[개요](../profiling/overviews-performance-tools.md)
+[성능 세션 구성](../profiling/configuring-performance-sessions.md)
+[데이터 컬렉션 제어](../profiling/controlling-data-collection.md)

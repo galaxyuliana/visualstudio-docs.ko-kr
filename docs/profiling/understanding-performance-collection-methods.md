@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fb64e988f88546efafc26ffe8bcc39441e20cd4f
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 018c71be69efa7b68f08cb0d320633b82be9832d
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54918617"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56635087"
 ---
 # <a name="understand-performance-collection-methods"></a>성능 데이터 수집 방법 이해
 
@@ -131,5 +131,5 @@ Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 데 사
 
 ## <a name="see-also"></a>참고 항목
 
-[방법: 웹 사이트에 대한 성능 데이터 수집](../profiling/how-to-collect-performance-data-for-a-web-site.md)  
-[초보자를 위한 성능 프로파일링 지침](../profiling/beginners-guide-to-performance-profiling.md)
+[방법: 웹 사이트에 대한 성능 데이터 수집](../profiling/how-to-collect-performance-data-for-a-web-site.md)
+[초보자를 위한 프로파일링 지침](../profiling/beginners-guide-to-performance-profiling.md)

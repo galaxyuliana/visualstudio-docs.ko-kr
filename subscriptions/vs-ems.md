@@ -4,24 +4,22 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Enterprise Mobility + Security 혜택에 대해 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: fe6d44b64de314153d7ba00fe4540dbecf1d6ba2
-ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
+ms.openlocfilehash: b1d3aa39f4d3f53d10bcc692da96bfe6c50b981d
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54380050"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841197"
 ---
 # <a name="enterprise-mobility--security-ems-in-visual-studio-subscriptions"></a>Visual Studio의 EMS(Enterprise Mobility + Security)
 
 Visual Studio Enterprise의 연간 클라우드 및 표준 구독에는 EMS(Enterprise Mobility + Security)가 포함되어 있습니다.  EMS(Azure Active Directory, Microsoft Intune, Azure Information Protection, Microsoft Advanced Threat Analytics 및 Microsoft Cloud App Security)를 사용하여 ID, 디바이스, 응용 프로그램 및 데이터를 보호하고 관리합니다.
 
 > [!NOTE]
-> 볼륨 라이선싱 다년 구독을 구매하는 경우 현재 EMS 혜택은 첫 해에만 사용할 수 있습니다.  
+> 볼륨 라이선싱 다년 구독을 구매하는 경우 현재 EMS 혜택은 첫 해에만 사용할 수 있습니다.
 
 ## <a name="activation-steps"></a>활성화 단계
 
@@ -62,9 +60,9 @@ EMS를 사용하려면 기존 계정을 사용하여 계정을 설정하거나 �
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
 | Visual Studio Dev Essentials | N/A  | 사용할 수 없음 |N/A |
 
-<sup>1</sup> 포함:  NFR(전매금지), VSIP(Visual Studio 업계 파트너), MPN(Microsoft 파트너 네트워크), FTE, MCT 소프트웨어 및 서비스 개발자, BizSpark,  제외: MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크(Professional)
+<sup>1</sup> *포함:  NFR(전매금지), VSIP(Visual Studio 업계 파트너), MPN(Microsoft 파트너 네트워크), FTE, MCT 소프트웨어 및 서비스 개발자, BizSpark.  제외: MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크(Professional)
 
-<sup>2</sup> 제외: Microsoft 파트너 네트워크(Professional)
+<sup>2</sup> *제외: Microsoft 파트너 네트워크(Professional)*
 
 
 > [!NOTE]

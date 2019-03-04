@@ -1,21 +1,25 @@
 items:
-- name: Docker용 Visual Studio Tools
-  href: /dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json
+- name: Visual Studio 컨테이너 도구
+  href: index.yml
   items:
-  - name: '빠른 시작: Docker용 Visual Studio Tools'
+  - name: 개요
+    href: /dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/containers/toc.json&bc=/visualstudio/containers/breadcrumb/toc.json
+  - name: '빠른 시작: Visual Studio의 Docker'
     href: docker-tools.md
+  - name: '자습서: Docker Compose를 사용한 다중 컨테이너 앱'
+    href: tutorial-multicontainer.md
   - name: 로컬 Docker 컨테이너에서 앱 디버그
     href: vs-azure-tools-docker-edit-and-refresh.md
   - name: Visual Studio를 사용하여 컨테이너 레지스트리에 ASP.NET 컨테이너 배포
     href: vs-azure-tools-docker-hosting-web-apps-in-docker.md
-  - name: VirtualBox를 사용하여 Docker 호스트 구성
+  - name: VirtualBox 및 Docker 호스트 구성
     href: vs-azure-tools-docker-setup.md
   - name: Docker 관련 Visual Studio 2017 개발 문제 해결
     href: vs-azure-tools-docker-troubleshooting-docker-errors.md
   expanded: true
-ms.openlocfilehash: f0cd49b9bfc857d5cf28ab4b7660074c28b9a5bd
-ms.sourcegitcommit: 0f7411c1a47d996907a028e920b73b53c2098c9f
+ms.openlocfilehash: 6b2ede8520ff6919c5bbd370e320bdb661fa487e
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "55701243"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223340"

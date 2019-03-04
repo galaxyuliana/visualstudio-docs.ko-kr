@@ -1,6 +1,6 @@
 ---
 title: 코드 조각 스키마 참조
-ms.date: 11/04/2016
+ms.date: 02/25/2019
 ms.topic: reference
 helpviewer_keywords:
 - schema reference [Visual Studio]
@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 203236c454b2047872bc9f71242e4992a1c1294f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3a57ff548aeb566605802a0e270534df727a7c0f
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55929637"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841859"
 ---
 # <a name="code-snippets-schema-reference"></a>코드 조각 스키마 참조
 
@@ -117,6 +117,7 @@ $selected$ is a great color. I love $selected$.
    |`CPP`|C++ 코드 조각을 식별합니다.|
    |`XML`|XML 코드 조각을 식별합니다.|
    |`JavaScript`|JavaScript 코드 조각을 식별합니다.|
+   |`TypeScript`|TypeScript 코드 조각을 식별합니다.|
    |`SQL`|SQL 코드 조각을 식별합니다.|
    |`HTML`|HTML 코드 조각을 식별합니다.|
 

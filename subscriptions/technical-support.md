@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.date: 08/01/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독에 포함된 지원 팀 혜택에 대한 자세한 정보
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: efaa89cd33b8a9a9ef0f9e97595ddfbc0ea7d760
-ms.sourcegitcommit: 0cf1e63b6e0e6a0130668278489b21a6e5038084
+ms.openlocfilehash: 50b6245be908bffc0d2abb9db7f74ed14f878224
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39469310"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56841496"
 ---
 # <a name="technical-support-benefits-included-with-visual-studio-subscriptions"></a>Visual Studio 구독에 포함된 지원 팀 혜택
 
@@ -23,15 +21,14 @@ ms.locfileid: "39469310"
 질문이 있거나 기술 문제와 관련된 도움이 필요한 경우 다양한 지원 리소스를 사용할 수 있습니다.
 
 > [!NOTE]
-> 모든 혜택이 모든 구독에 포함되는 것은 아닙니다.  적합성에 대한 자세한 내용은 다음 문서를 참조하세요.  
+> 모든 혜택이 모든 구독에 포함되는 것은 아닙니다.  적합성에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-- [Azure Advisor 채팅](vs-azure-advisory-chat.md): Azure 시작에 대한 도움말을 실시간으로 확인할 수 있습니다.
+- [Azure Advisory Chat](vs-azure-advisory-chat.md): Azure 실시간 시작에 대한 도움말을 봅니다.
 
-- [Azure 커뮤니티](vs-azure-community.md): 이러한 엄선된 포럼을 사용하여 Azure 팀에서 바로 도움을 받을 수 있습니다. 
+- [Azure 커뮤니티](vs-azure-community.md): 이 선정된 포럼을 통해 Azure 팀에서 바로 도움을 받을 수 있습니다.
 
-- [지원 팀](vs-tech-support.md): 전문가 지원을 사용하여 비프로덕션 환경에서 고장 수리 문제를 해결할 수 있습니다.
+- [기술 지원](vs-tech-support.md): 전문가 지원을 사용하여 비프로덕션 환경에서 고장 수리 문제를 해결할 수 있습니다.
 
-- [우선 순위 지원](vs-priority-support.md): 엄선된 포럼 목록에서 질문을 할 수 있습니다. 개발자 커뮤니티가 2일 이내에 응답하지 않으면 Microsoft에서 응답합니다. (Microsoft 계정을 사용하는 경우에만 지원됨)
+- [우선순위 지원](vs-priority-support.md): 선정된 포럼 목록에서 질문을 할 수 있습니다. 개발자 커뮤니티가 2일 이내에 응답하지 않으면 Microsoft에서 응답합니다. (Microsoft 계정을 사용하는 경우에만 지원됨)
 
-- [Concierge Chat](vs-concierge-chat.md): 채팅을 통해 기술 설명서와 제품 정보를 찾거나 구독 혜택 이용과 관련된 지원을 받을 수 있습니다. 
-
+- [Concierge Chat](vs-concierge-chat.md): 기술 설명서와 제품 정보를 찾거나 구독 혜택 이용과 관련된 지원이 필요하면 채팅을 이용하세요.

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e63919a13a948f7e6be2d2789aa778bd39514e51
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 37025177c026d0b6578644ca5765a6878be984ea
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54950834"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56625688"
 ---
 # <a name="cpu-and-windows-counters"></a>CPU 및 Windows 카운터
 
@@ -129,7 +129,7 @@ Visual Studio IDE에서 컴퓨터에 사용 가능한 카운터를 나열하려�
 
 ## <a name="see-also"></a>참고 항목
 
-[개요](../profiling/overviews-performance-tools.md)  
-[방법: 샘플링 이벤트 선택](../profiling/how-to-choose-sampling-events.md)  
-[방법: CPU 카운터 데이터 수집](../profiling/how-to-collect-cpu-counter-data.md)  
+[개요](../profiling/overviews-performance-tools.md)
+[방법: 샘플링 이벤트 선택](../profiling/how-to-choose-sampling-events.md)
+[방법: CPU 카운터 데이터 수집](../profiling/how-to-collect-cpu-counter-data.md)
 [방법: Windows 카운터 데이터 수집](../profiling/how-to-collect-windows-counter-data.md)

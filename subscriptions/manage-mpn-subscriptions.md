@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/11/2017
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독을 MPN 파트너에 대한 최종 사용자에게 할당하는 방법입니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 4a113d88b93b5fe7532a72956ca6129be1773ebe
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 9b9d7aa6095b6d5147482b139fdfe43378ad346c
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49949112"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56842484"
 ---
 # <a name="managing-visual-studio-subscriptions-offered-through-the-microsoft-partner-network-mpn"></a>MPN(Microsoft 파트너 네트워크)을 통해 제공된 Visual Studio 구독 관리
 
@@ -33,7 +31,7 @@ Microsoft Action Pack 구독자 및 Visual Studio 구독
 4. 첫 번째, 두 번째 또는 세 번째 **기술 담당자**를 선택하고 **저장**합니다.
 5. **요구사항 및 자산**을 선택합니다.
 6. **권한**을 선택합니다.
-7. **Visual Studio 구독**을 선택합니다. (참고: Visual Studio 구독 업데이트 보류 중)
+7. **Visual Studio 구독**(참고: Visual Studio 구독 업데이트 보류 중)을 선택합니다.
 8. 원하는 **개인**을 선택합니다.
 9. **제출**을 클릭합니다.
 10. 개인이 전자 메일을 받습니다.

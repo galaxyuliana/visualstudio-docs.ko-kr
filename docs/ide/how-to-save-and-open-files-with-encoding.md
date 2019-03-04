@@ -3,22 +3,22 @@ title: '방법: 인코딩을 사용하여 파일 저장 및 열기'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-- Unicode, bi-directional language support
+- Unicode, bidirectional language support
 - files, encoding
-- bi-directional language support, encoded files
-- file encoding, bi-directional languages
+- bidirectional language support, encoded files
+- file encoding, bidirectional languages
 ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f424b0a2be2c1d7fd5891e791f149a4c426ee3f4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 484a891c83796f58c7ed8d6053c51189b2448bb9
+ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934785"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56449907"
 ---
 # <a name="how-to-save-and-open-files-with-encoding"></a>방법: 인코딩을 사용하여 파일 저장 및 열기
 

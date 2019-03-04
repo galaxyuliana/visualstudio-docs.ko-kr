@@ -10,12 +10,12 @@ dev_langs:
 - C++
 ms.workload:
 - cplusplus
-ms.openlocfilehash: aecc48392a036cb6ef17cc3b3ea58eb82a6e59aa
-ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
+ms.openlocfilehash: 1bb6f906cbfb715d67f6e10ddcecf094bc25821f
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "55089268"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56615548"
 ---
 # <a name="custom-native-etw-heap-events"></a>사용자 지정 네이티브 ETW 힙 이벤트
 
@@ -34,7 +34,7 @@ public:
 
 ...
 
-// MemoryPool is a custom managed heap, which allocates 8192 bytes 
+// MemoryPool is a custom managed heap, which allocates 8192 bytes
 // on the standard Windows Heap named "Windows NT"
 MemoryPool<Foo, 8192> mPool;
 
@@ -66,7 +66,7 @@ Foo* pFoo3 = (Foo*)mPool.allocate();
    ```cpp
    __declspec(allocator) void *MyMalloc(size_t size);
    ```
-   
+
    > [!NOTE]
    > 이 데코레이터는 이 함수가 할당자에 대한 호출임을 컴파일러에 알려줍니다.  함수를 호출할 때마다 호출 사이트의 주소, 호출 명령의 크기, 새 개체의 형식 ID를 새 `S_HEAPALLOCSITE` 기호로 출력합니다.  콜백이 할당되면 Windows에서 이 정보를 사용하여 ETW 이벤트를 발생합니다.  메모리 프로파일러 도구는 `S_HEAPALLOCSITE` 기호와 일치하는 반환 주소를 조사하는 콜백을 안내하고 기호로 된 형식 ID 정보를 사용하여 할당의 런타임 형식을 표시합니다.
    >
@@ -79,7 +79,7 @@ Foo* pFoo3 = (Foo*)mPool.allocate();
    ```
 
    C를 사용 중인 경우 `OpenHeapTracker` 함수를 대신 사용합니다.  이 함수는 다른 추적 함수를 호출할 때 사용할 핸들을 반환합니다.
-  
+
    ```C
    VSHeapTrackerHandle hHeapTracker = OpenHeapTracker("MyHeap");
    ```
@@ -136,7 +136,7 @@ Foo* pFoo3 = (Foo*)mPool.allocate();
    ```
 
 ## <a name="track-memory-usage"></a>메모리 사용량 추적
-이제 이러한 호출을 적절히 배치하여 Visual Studio의 표준 **메모리 사용량** 도구를 통해 사용자 지정 힙 사용량을 추적할 수 있습니다.  이 도구를 사용하는 방법에 대한 자세한 내용은 [메모리 사용량](../profiling/memory-usage.md) 설명서를 참조하세요. 스냅숏을 사용하여 힙 프로파일링을 설정해야 합니다. 그러지 않으면 표시된 사용자 지정 힙 사용량이 나타나지 않습니다. 
+이제 이러한 호출을 적절히 배치하여 Visual Studio의 표준 **메모리 사용량** 도구를 통해 사용자 지정 힙 사용량을 추적할 수 있습니다.  이 도구를 사용하는 방법에 대한 자세한 내용은 [메모리 사용량](../profiling/memory-usage.md) 설명서를 참조하세요. 스냅숏을 사용하여 힙 프로파일링을 설정해야 합니다. 그러지 않으면 표시된 사용자 지정 힙 사용량이 나타나지 않습니다.
 
 ![힙 프로파일링 사용](media/heap-enable-heap.png)
 
@@ -156,5 +156,5 @@ Foo* pFoo3 = (Foo*)mPool.allocate();
 > Visual Studio의 **성능 프로파일링** 도구 집합에도 **메모리 사용량** 도구가 포함되어 있습니다. 이 도구 집합은 **디버그** > **성능 프로파일러** 메뉴 옵션 또는 **Alt**+**F2** 키보드 조합을 통해 활성화됩니다.  이 기능은 힙 추적을 포함하지 않으므로 여기서 설명하는 사용자 지정 힙을 표시하지 않습니다.  **진단 도구** 창(**디버그** > **Windows** > **진단 도구 표시** 메뉴 또는 **Ctrl**+**Alt**+**F2** 키보드 조합을 사용하여 설정 가능)에만 이 기능이 포함되어 있습니다.
 
 ## <a name="see-also"></a>참고 항목
-[프로파일링 도구 살펴보기](../profiling/profiling-feature-tour.md)  
+[프로파일링 도구 살펴보기](../profiling/profiling-feature-tour.md)
 [메모리 사용량](../profiling/memory-usage.md)

@@ -18,18 +18,17 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 99476f19055acf678bd9bc8662605351a1e6dfb9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b4c7df0cf9e837e27e8f572bb50d5e3395b3424a
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55924437"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56629913"
 ---
 # <a name="import-element-msbuild"></a>Import 요소(MSBuild)
 한 프로젝트 파일의 내용을 다른 프로젝트 파일로 가져옵니다.
 
-\<Project>  
-\<Import>  
+\<프로젝트> \<가져오기>
 
 ## <a name="syntax"></a>구문
 
@@ -81,7 +80,7 @@ ms.locfileid: "55924437"
 <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\$(MSBuildThisFile)\ImportBefore\*" Condition="'$(ImportByWildcardBeforeMicrosoftCommonTargets)' == 'true' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\$(MSBuildThisFile)\ImportBefore')"/>
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
  다음 예제에서는 여러 항목과 속성이 있는 프로젝트를 보여주고 일반 프로젝트 파일을 가져옵니다.
 
 ```xml
@@ -108,5 +107,5 @@ ms.locfileid: "55924437"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)  
-[방법: 여러 프로젝트 파일에서 동일한 대상 사용](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)
+- [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
+- [방법: 여러 프로젝트 파일에서 동일한 대상 사용](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)

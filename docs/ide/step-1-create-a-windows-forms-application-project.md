@@ -8,12 +8,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9451dea474f5d3ae460af20561e80f0660e33026
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 2b8552adfd4a7f94c58bcb32a60fbe8cd4c9323b
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55956075"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796532"
 ---
 # <a name="step-1-create-a-windows-forms-application-project"></a>1단계: Windows Forms 애플리케이션 프로젝트 만들기
 
@@ -37,20 +37,21 @@ ms.locfileid: "55956075"
 
      Visual Studio에서 프로그램의 솔루션이 생성됩니다. 솔루션은 프로그램에 필요한 모든 프로젝트 및 파일의 컨테이너 역할을 합니다. 이러한 용어에 대해서는 이 자습서의 뒷부분에서 자세히 설명합니다.
 
-4. 다음 그림에는 지금 Visual Studio 인터페이스에 표시되어야 하는 화면이 나와 있습니다.
-
-    > [!NOTE]
-    > 창 레이아웃은 이 그림과 다를 수 있습니다. 정확한 창 레이아웃은 Visual Studio 버전, 사용 중인 프로그래밍 언어 및 기타 요소에 따라 달라집니다. 그러나 3개 창이 모두 나타나는지 확인해야 합니다.
-
-     ![IDE 창](../ide/media/express_ideoverview_visio.png)<br/>***IDE** 창*
-
-     인터페이스에는 주 창, **솔루션 탐색기** 및 **속성** 창의 세 가지 창이 포함되어 있습니다.
+4. 개발 환경에는 주 창, **솔루션 탐색기** 및 **속성** 창의 세 가지 창이 포함되어 있습니다.
 
      이러한 창 중 하나라도 없는 경우 메뉴 모음에서 **창** > **창 레이아웃 다시 설정**을 선택하여 기본 창 레이아웃을 복원합니다. 메뉴 명령을 사용하여 창을 표시할 수도 있습니다. 메뉴 모음에서 **보기** > **속성 창** 또는 **솔루션 탐색기**를 선택합니다. 다른 창이 열려 있는 경우 오른쪽 위 모서리에서 **닫기**(x) 단추를 선택하여 해당 창을 닫습니다.
 
-5. 그림에 표시된 창은 다음과 같습니다(왼쪽 위 모퉁이부터 시계 방향으로).
+    ::: moniker range="vs-2017"
 
-    - **주 창** 이 창에서는 폼 작업, 코드 편집 등 대부분의 작업을 수행합니다. 그림에서 이 창에는 **폼 편집기**의 폼이 표시되어 있습니다. 창의 맨 위에 **시작 페이지** 탭과 **Form1.cs[디자인]** 탭이 나타납니다. Visual Basic에서는 탭 이름이 *.cs*가 아닌 *.vb*로 끝납니다.
+    - **주 창** 이 창에서는 폼 작업, 코드 편집 등 대부분의 작업을 수행합니다. 창에는 **폼 편집기**의 폼이 표시되어 있습니다. 창의 맨 위에 **시작 페이지** 탭과 **Form1.cs[디자인]** 탭이 나타납니다. Visual Basic에서는 탭 이름이 *.cs*가 아닌 *.vb*로 끝납니다.
+
+    ::: moniker-end
+
+    ::: moniker range=">=vs-2019"
+
+    - **주 창** 이 창에서는 폼 작업, 코드 편집 등 대부분의 작업을 수행합니다. 창에는 **폼 편집기**의 폼이 표시되어 있습니다.
+
+    ::: moniker-end
 
     - **솔루션 탐색기 창** 이 창에서는 솔루션의 모든 항목을 보고 탐색할 수 있습니다. 파일을 선택하면 **속성** 창의 내용이 변경됩니다. Visual C#에서는 *.cs*로 끝나고 Visual Basic에서는 *.vb*로 끝나는 코드 파일을 열면 코드 파일이나 코드 파일의 디자이너가 나타납니다. 디자이너는 단추, 목록 등의 컨트롤을 추가할 수 있는 시각적 화면입니다. Visual Studio 폼의 디자이너를 **Windows Forms 디자이너**라고 합니다.
 

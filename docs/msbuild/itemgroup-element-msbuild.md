@@ -18,18 +18,17 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5ad52674ce6d1c0e0c5d0dea4f1b7238bdf1e41d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 64667ef01d1b21cce8303e2f72be3f252ec4245e
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910001"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56595869"
 ---
 # <a name="itemgroup-element-msbuild"></a>ItemGroup 요소(MSBuild)
 사용자 정의 [Item](../msbuild/item-element-msbuild.md) 요소 집합을 포함합니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트에서 사용되는 모든 항목은 `ItemGroup` 요소의 자식으로 지정해야 합니다.
 
-\<Project>  
-\<ItemGroup>
+\<Project> \<ItemGroup>
 
 ## <a name="syntax"></a>구문
 
@@ -62,7 +61,7 @@ ms.locfileid: "55910001"
 | [프로젝트](../msbuild/project-element-msbuild.md) | [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트 파일의 필수 루트 요소입니다. |
 | [Target](../msbuild/target-element-msbuild.md) | .NET Framework 3.5부터 `ItemGroup` 요소는 `Target` 요소 내에 표시될 수 있습니다. 자세한 내용은 [대상](../msbuild/msbuild-targets.md)을 참조하세요. |
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 다음 코드 예제에서는 사용자 정의 항목 컬렉션 `Res` 및 `ItemGroup` 요소 내에 선언된 `CodeFiles`를 보여 줍니다. `Res` 항목 컬렉션의 각 항목은 사용자 정의 자식 [ItemMetadata](../msbuild/itemmetadata-element-msbuild.md) 요소를 포함합니다.
 
 ```xml
@@ -83,6 +82,6 @@ ms.locfileid: "55910001"
 ```
 
 ## <a name="see-also"></a>참고 항목
-[프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)  
-[항목](../msbuild/msbuild-items.md)  
-[일반적인 MSBuild 프로젝트 항목](../msbuild/common-msbuild-project-items.md)
+- [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)
+- [항목](../msbuild/msbuild-items.md)
+- [일반적인 MSBuild 프로젝트 항목](../msbuild/common-msbuild-project-items.md)

@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 8c779b9f51d9b73d945d10edc2d6f80999f91536
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3ebe0d73aa2cd4a030e99d4501c5d3d726888f64
+ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55004490"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56620293"
 ---
 # <a name="troubleshoot-net-framework-targeting-errors"></a>.NET Framework 대상 지정 오류 문제 해결
 이 항목에서는 참조 문제로 인해 발생할 수 있는 MSBuild 오류와 이러한 문제를 해결하는 방법을 설명합니다.
@@ -54,4 +54,7 @@ ms.locfileid: "55004490"
 >  프로젝트를 닫았다가 다시 연 후에도 다시 빌드해야 모든 참조가 제대로 확인됩니다.
 
 ## <a name="see-also"></a>참고 항목
- [방법: .NET Framework 버전을 대상으로 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md) [.NET Framework 클라이언트 프로필](/dotnet/framework/deployment/client-profile) [특정 .NET Framework 버전 대상 지정](../ide/visual-studio-multi-targeting-overview.md) [멀티 타기팅](../msbuild/msbuild-multitargeting-overview.md)
+- [방법: .NET Framework 버전 대상 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)
+- [.NET Framework 클라이언트 프로필](/dotnet/framework/deployment/client-profile)
+- [특정 .NET Framework 버전 대상 지정](../ide/visual-studio-multi-targeting-overview.md)
+- [멀티 타기팅](../msbuild/msbuild-multitargeting-overview.md)

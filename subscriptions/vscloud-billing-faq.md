@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/02/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: 클라우드 구독에 대한 청구 질문입니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 67222d83ebe6bbc8be0683d0d4828397dbeaab9b
-ms.sourcegitcommit: 159ed9d4f56cdc1dff2fd19d9dffafe77e46cd4e
+ms.openlocfilehash: d85b093b8877430c037fdc528abc8264b6c847b9
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53739237"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843781"
 ---
 # <a name="visual-studio-cloud-subscriptions-billing-faq"></a>Visual Studio 클라우드 구독 청구 FAQ
 
@@ -45,7 +43,7 @@ A: 적절한 권한이 있는지 확인하는 가장 쉬운 방법은 Visual Stu
 현재 사용자의 로그인에 연결된 Azure 구독 목록에서 Azure 구독(청구 계정)을 선택해야 합니다.
 Azure 구독 이름은 청구 계정 유형("종량제", "기업 계약" 등)을 기본값으로 하기 때문에 Azure 구독이 기업 계약의 일부인 경우 명확합니다.
 
-다른 방법은 [Azure Enterprise Portal](http://ea.azure.com)을 방문하려 하는 것입니다.  성공적으로 도달할 수 있으면 이미 엔터프라이즈 관리자 또는 계정 소유자 역할을 하고 있는 것입니다. 계정 소유자만 기업 계약에서 새 Azure 청구 계정을 설정할 수 있습니다. Azure Enterprise Portal에 액세스할 수 없는 경우 조직 내에서 문의하여 엔터프라이즈 관리자가 누구인지 알아내고 그 사람에게 Azure Enterprise Portal 내에서 계정 소유자로서 사용자를 추가하도록 요청합니다.  이 관리자를 찾을 수 없는 경우 [지원 티켓을 제출](http://aka.ms/AzureEntSupport)하여 연락처 정보를 요청할 수 있습니다.  지원 티켓에 대해 조직 이름 및 기업 계약 등록 번호가 필요합니다.
+다른 방법은 [Azure Enterprise Portal](http://ea.azure.com)을 방문하려 하는 것입니다.  성공적으로 도달할 수 있으면 이미 엔터프라이즈 관리자 또는 계정 소유자 역할을 하고 있는 것입니다. 계정 소유자만 기업 계약에서 새 Azure 청구 계정을 설정할 수 있습니다. Azure Enterprise Portal에 액세스할 수 없는 경우 조직 내에서 문의하여 엔터프라이즈 관리자가 누구인지 알아내고 그 사람에게 Azure Enterprise Portal 내에서 계정 소유자로서 사용자를 추가하도록 요청합니다.  이 관리자를 찾을 수 없는 경우 [지원 티켓을 제출](https://aka.ms/AzureEntSupport)하여 연락처 정보를 요청할 수 있습니다.  지원 티켓에 대해 조직 이름 및 기업 계약 등록 번호가 필요합니다.
 
 ### <a name="q-can-i-use-the-azure-monetary-commitment-funds-from-my-enterprise-agreement-to-buy-visual-studio-cloud-subscriptions"></a>Q: Visual Studio 클라우드 구독을 구입하려면 기업계약에서 Azure 현금 약정 금액 자금을 사용할 수 있나요?
 

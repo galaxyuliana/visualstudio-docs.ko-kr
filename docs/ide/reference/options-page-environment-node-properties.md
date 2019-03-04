@@ -11,18 +11,20 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 86f1f8ea2ca9f55610c666ad5fa28fa189bb3be1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 79ddd62df2afd5052d3ef1ecc0753d3f8ba6cf3a
+ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955754"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56708331"
 ---
 # <a name="options-page-environment-node-properties"></a>옵션 페이지, 환경 노드 속성
-이 문서에서는 **옵션** 대화 상자의 **환경** 범주, `DTE.Properties("Environment", <Property Page>)`와 연관된 일부 페이지(또는 속성 컬렉션)에 대해 설명합니다. 각 하위 단원의 제목은 속성 컬렉션에 액세스하는 데 사용되는 호출이며, 각 하위 단원의 표에는 컬렉션의 속성이 나열되어 있습니다.
+
+이 문서에서는 **옵션** 대화 상자의 **환경** 범주 `DTE.Properties("Environment", <Property Page>)`와 연관된 페이지(또는 속성 컬렉션)를 설명합니다. 각 하위 단원의 제목은 속성 컬렉션에 액세스하는 데 사용되는 호출이며, 각 하위 단원의 표에는 컬렉션의 속성이 나열되어 있습니다.
 
 ## <a name="general"></a>일반
- `DTE.Properties("Environment", "General")`
+
+`DTE.Properties("Environment", "General")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -37,7 +39,8 @@ ms.locfileid: "55955754"
 |AutohidePinActiveTabOnly|Get/Set (Boolean)|**자동 숨기기** 단추가 활성 탭에서만 표시되는지 여부를 결정합니다.|
 
 ## <a name="add-inmacros-security"></a>추가 기능/매크로 보안
- `DTE.Properties("Environment", "AddinMacrosSecurity")`
+
+`DTE.Properties("Environment", "AddinMacrosSecurity")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -46,7 +49,8 @@ ms.locfileid: "55955754"
 |LoadAddinsFromTheWeb|Get/Set (Boolean)|추가 기능을 웹의 URL에서 로드할 수 있습니다.|
 
 ## <a name="documents"></a>문서
- `DTE.Properties("Environment", "Documents")`
+
+`DTE.Properties("Environment", "Documents")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -63,7 +67,8 @@ ms.locfileid: "55955754"
 |DocumentDockPreference|Get/Set(Enum)|<xref:EnvDTE100.vsDocumentDockPreferenceOptions>. 열려 있는 문서를 삽입할 탭 저장소 내의 위치입니다.|
 
 ## <a name="extension-manager"></a>확장명 관리자
- `DTE.Properties("Environment", "ExtensionManager")`
+
+`DTE.Properties("Environment", "ExtensionManager")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -72,7 +77,8 @@ ms.locfileid: "55955754"
 |AutomaticallyCheckForUpdates|Get/Set (Boolean)|설치된 확장에 대한 업데이트를 자동으로 확인합니다.|
 
 ## <a name="find-and-replace"></a>찾기 및 바꾸기
- `DTE.Properties("Environment", "FindAndReplace")`
+
+`DTE.Properties("Environment", "FindAndReplace")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -82,7 +88,8 @@ ms.locfileid: "55955754"
 |HideWindowsAfterMatchFromQuickFindReplace|Get/Set (Boolean)|**빠른 찾기** 또는 **빠른 바꾸기**를 사용하여 일치 항목을 찾은 후에는 **찾기 및 바꾸기** 창을 숨깁니다.|
 
 ## <a name="import-and-export-settings"></a>설정 가져오기 및 내보내기
- `DTE.Properties("Environment", "Import and Export Settings")`
+
+`DTE.Properties("Environment", "Import and Export Settings")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -91,21 +98,24 @@ ms.locfileid: "55955754"
 |AutoSaveFile|Get/Set(문자열)|사용자 설정이 자동으로 저장되는 파일의 이름입니다.|
 
 ## <a name="international-settings"></a>국가별 설정
- `DTE.Properties("Environment", "International")`
+
+`DTE.Properties("Environment", "International")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
 |언어|Get/Set(문자열)|Visual Studio에 대한 현재 언어의 LCID 값입니다.|
 
 ## <a name="keyboard"></a>키보드
- `DTE.Properties("Environment", "Keyboard")`
+
+`DTE.Properties("Environment", "Keyboard")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
 |Scheme|Get/Set(문자열)|기본 제공 스키마, 로드된 .vsk 파일의 전체 경로가 포함된 문자열 또는 .vsk 파일이 로드되지 않은 경우 "(기본값)"이 포함된 문자열을 반환합니다.|
 
 ## <a name="projects-and-solution"></a>프로젝트 및 솔루션
- `DTE.Properties("Environment", "ProjectsAndSolution")`
+
+`DTE.Properties("Environment", "ProjectsAndSolution")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -128,7 +138,10 @@ ms.locfileid: "55955754"
 |MSBuildOutputVerbosity|Get/Set(문자열)|빌드 출력의 세부 정보 표시 수준을 지정합니다.|
 
 ## <a name="startup"></a>시작
- `DTE.Properties("Environment", "Startup")`
+
+`DTE.Properties("Environment", "Startup")`
+
+::: moniker range="vs-2017"
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -137,8 +150,19 @@ ms.locfileid: "55955754"
 |StartPageRefreshDownloadedContent|Get/Set (Boolean)|StartPageRefreshInterval에 지정된 간격이 지날 때마다 시작 페이지를 새로 고칩니다.|
 |StartPageRefreshInterval|Get/Set(Short)|시작 페이지를 새로 고치는 시간 간격(분)입니다.|
 
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+|속성 항목 이름|값|설명|
+| - |-----------|-----------------|
+|OnStartUp|Get/Set(Enum)|<xref:EnvDTE.vsStartUp>에서 시작 시 수행할 작업입니다.|
+
+::: moniker-end
+
 ## <a name="tasklist"></a>TaskList
- `DTE.Properties("Environment", "TaskList")`
+
+`DTE.Properties("Environment", "TaskList")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
@@ -148,7 +172,8 @@ ms.locfileid: "55955754"
 |CommentTokens|SafeArray|주석 토큰 값의 SafeArray를 반환합니다. 각 값에 `Name`(문자열) 및 `Priority`(<xref:EnvDTE.vsTaskPriority>, 높음, 중간 또는 낮음)의 필드가 있습니다.|
 
 ## <a name="web-browser"></a>웹 브라우저
- `DTE.Properties("Environment", "WebBrowser")`
+
+`DTE.Properties("Environment", "WebBrowser")`
 
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|

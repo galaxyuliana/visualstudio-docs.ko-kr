@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Office 365 개발자 혜택을 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: 47444b8c234f0f5bb3b67a04b63b233d2c4e73e1
-ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
+ms.openlocfilehash: d14e917f01acae8d5e505d5847425d4b58445797
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54379766"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843583"
 ---
 # <a name="the-office-365-developer-subscription-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Office 365 개발자 구독 혜택
 
@@ -75,7 +73,7 @@ Office 365 개발자 구독에 대해 자세히 알아보려면 [Office 365 개�
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |해당 없음 |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> 포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너), FTE, BizSpark, MCT 소프트웨어 및 서비스 개발자, MCT Software & Services,  제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director)
+<sup>1</sup> *포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너), FTE, BizSpark, MCT 소프트웨어 및 서비스 개발자, MCT Software & Services.  제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director)
 
 
 > [!NOTE]

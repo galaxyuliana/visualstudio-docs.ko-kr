@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 Power BI Pro 구독에 대해 알아봅니다.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
-ms.openlocfilehash: a437dd537caa75865a245a22387a4db53d94927f
-ms.sourcegitcommit: 8c4267540c0ac39664f6902c423516f408f3cbd4
+ms.openlocfilehash: 176ce1d13faad7143da591f4f04f9feee1b5b2a0
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "54380177"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56843872"
 ---
 # <a name="power-bi-pro-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Power BI Pro
 
@@ -83,7 +81,7 @@ Power BI Pro를 사용하려면 기존 계정을 사용하여 계정을 설정�
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |해당 없음|
 | Visual Studio Enterprise(월간 클라우드) | Azure                                       | 사용할 수 없음                                  |해당 없음|
 
-<sup>1</sup> 포함:  NFR(전매금지), VSIP(Visual Studio Industry Partner), BizSpark, MCT Software & Services Developer, MCT Software & Service, MVP(Most Valuable Professional), RD(Regional Director),  제외:  MPN(Microsoft 파트너 네트워크), FTE, Imagine
+<sup>1</sup> 포함: *NFR(전매금지), VSIP(Visual Studio Industry Partner), BizSpark, MCT Software & Services Developer, MCT Software & Service, MVP(Most Valuable Professional), RD(Regional Director),  제외:  MPN(Microsoft 파트너 네트워크), FTE, Imagine.*
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
@@ -94,14 +92,14 @@ Power BI Pro를 사용하려면 기존 계정을 사용하여 계정을 설정�
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 ### <a name="q--if-the-benefit-is-free-why-do-i-have-to-supply-a-credit-card-number"></a>Q:  혜택이 무료인데 왜 신용 카드 번호를 입력해야 하나요?
-A:  혜택은 무료이지만 유료 주문 처리에 사용되는 것과 동일한 시스템을 사용합니다.  두 가지 결제 유형이 있습니다. 
-- 신용 카드.  신용 카드 번호를 입력하면 카드에 요금이 청구되지 않습니다. 
-- 청구서.  지불 유형으로 "청구서"를 선택하면 신용 카드 번호를 입력할 필요가 없습니다.  간격을 “연간”으로 설정할 수도 있습니다.  이렇게 하면 청구서가 준비되었다는 이메일을 하나만 받게 됩니다.  청구 금액은 $0.00일 수 있습니다.  
+A:  혜택은 무료이지만 유료 주문 처리에 사용되는 것과 동일한 시스템을 사용합니다.  두 가지 결제 유형이 있습니다.
+- 신용 카드.  신용 카드 번호를 입력하면 카드에 요금이 청구되지 않습니다.
+- 청구서.  지불 유형으로 "청구서"를 선택하면 신용 카드 번호를 입력할 필요가 없습니다.  간격을 “연간”으로 설정할 수도 있습니다.  이렇게 하면 청구서가 준비되었다는 이메일을 하나만 받게 됩니다.  청구 금액은 $0.00일 수 있습니다.
 
 ### <a name="q--is-the-power-bi-pro-benefit-included-in-my-subscription-licensed-for-use-in-a-production-environment"></a>Q:  프로덕션 환경에서 사용하기 위해 구독 라이선스에 Power BI Pro 혜택이 포함되어 있나요?
 A:  예. 프로덕션 환경에서 혜택을 사용할 수 있고 두 가지 중요 중의 사항은 다음과 같습니다.
-- 이 제품을 사용하려면 자체 테넌트에 설치해야 합니다.  회사 테넌트에서 회사 자격 증명과 연결된 Power BI 라이선스가 있어야 하는 경우에는 회사 관리자에게 라이선스를 구매하고 할당해 주도록 문의하세요. 
-- 이 Power BI Pro 혜택은 정부 테넌트에서 사용할 수 없습니다.  
+- 이 제품을 사용하려면 자체 테넌트에 설치해야 합니다.  회사 테넌트에서 회사 자격 증명과 연결된 Power BI 라이선스가 있어야 하는 경우에는 회사 관리자에게 라이선스를 구매하고 할당해 주도록 문의하세요.
+- 이 Power BI Pro 혜택은 정부 테넌트에서 사용할 수 없습니다.
 
 ### <a name="q--when-i-try-to-activate-power-bi-pro-i-get-a-message-you-already-have-an-account-through-work--can-i-still-use-the-benefit"></a>Q:  Power BI Pro를 활성화하려고 하면 "이미 작업을 통해 계정이 있습니다."라는 메시지가 나타납니다.  혜택을 계속 사용할 수 있나요?
 A:  예.  메시지는 관리자가 아닌 활성 Office 365 테넌트가 이미 있는 도메인에 로그온했음을 나타냅니다.  테넌트에 Power BI Pro를 추가하려면 해당 테넌트의 관리자여야 합니다.  이 문제를 해결하려면 다음 단계에 따라 고유한 테넌트를 만듭니다.
@@ -112,12 +110,12 @@ A:  예.  메시지는 관리자가 아닌 활성 Office 365 테넌트가 이미
 3.  사용자 ID와 암호를 만듭니다.  무료 제공을 이용하려면 **.onmicrosoft.com**을 도메인으로 선택합니다. **내 계정 만들기**를 클릭합니다.
     > [!div class="mx-imgBorder"]
     > ![Power BI Pro 혜택 개인 테넌트 userID 만들기](_img/vs-pbi/vs-pbi-work-userid.png)
-    
+
 4.  프로세스의 나머지 단계는 6단계로 시작하는 문서의 본문에 나열된 단계와 동일합니다.
 
 
-### <a name="q--im-on-a-government-tenant--can-i-use-the-benefit"></a>Q:  저는 정부 테넌트에 있습니다.  혜택을 사용할 수 있나요? 
-A:  아니요.  Power BI Pro 혜택은 정부 테넌트에는 추가할 수 없습니다. 
+### <a name="q--im-on-a-government-tenant--can-i-use-the-benefit"></a>Q:  저는 정부 테넌트에 있습니다.  혜택을 사용할 수 있나요?
+A:  아니요.  Power BI Pro 혜택은 정부 테넌트에는 추가할 수 없습니다.
 
 ## <a name="support-resources"></a>지원 리소스
 -  Power BI Pro와 관련하여 도움이 필요하세요?

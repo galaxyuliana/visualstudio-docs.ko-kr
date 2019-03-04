@@ -13,19 +13,18 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 37061173a7bc0b3d9c3b9b7e011428ec3a297b72
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 30479614158686ee50ba704bcf148760136138f0
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55043715"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796766"
 ---
 # <a name="develop-javascript-and-typescript-code-in-visual-studio-without-solutions-or-projects"></a>솔루션이나 프로젝트 없이 Visual Studio에서 JavaScript 및 TypeScript 코드 개발
 
-Visual Studio 2017에는 [프로젝트 또는 솔루션 없이 코드를 개발](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)할 수 있는 기능이 도입되었습니다. 이 기능을 사용하면 코드의 폴더를 열고 IntelliSense, 검색, 리팩터링, 디버깅 등과 같은 다양한 편집기 지원 작업을 즉시 시작할 수 있습니다.
-이러한 기능 외에도 Visual Studio용 Node.js 도구는 TypeScript 파일 작성, npm 패키지 관리 및 npm 스크립트를 실행하기 위한 지원이 추가되었습니다.
+Visual Studio 2017에는 [프로젝트 또는 솔루션 없이 코드를 개발](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)할 수 있는 기능이 도입되었습니다. 이 기능을 사용하면 코드의 폴더를 열고 IntelliSense, 검색, 리팩터링, 디버깅 등과 같은 다양한 편집기 지원 작업을 즉시 시작할 수 있습니다. 이러한 기능 외에도 Visual Studio용 Node.js 도구는 TypeScript 파일 작성, npm 패키지 관리 및 npm 스크립트를 실행하기 위한 지원이 추가되었습니다.
 
-시작하려면 Visual Studio를 열 때 나타나는 시작 페이지에서 **폴더 열기**를 선택하거나 도구 모듬에서 **파일** > **열기** > **폴더**를 선택할 수 있습니다. 솔루션 탐색기는 폴더에 있는 모든 파일을 표시하며 파일을 열어 편집을 시작할 수 있습니다. 백그라운드에서 Visual Studio는 npm, 빌드 및 디버그 기능을 사용하도록 파일을 인덱싱합니다.
+시작하려면 도구 모음에서 **파일** > **열기** > **폴더**를 선택합니다. 솔루션 탐색기는 폴더에 있는 모든 파일을 표시하며 파일을 열어 편집을 시작할 수 있습니다. 백그라운드에서 Visual Studio는 npm, 빌드 및 디버그 기능을 사용하도록 파일을 인덱싱합니다.
 
 > [!IMPORTANT]
 > npm 통합을 포함하여 이 문서에서 설명하는 많은 기능에는 Visual Studio 2017 버전 15.8이 필요합니다.

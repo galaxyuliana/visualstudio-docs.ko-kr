@@ -9,14 +9,14 @@ ms.author: seiyer
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f955642b0dd3a3784f1779ca65967f4b1e606bd7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 23ed63846eb11fd8eba95219aecaae3210e161fd
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911197"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56800533"
 ---
-# <a name="overview-report-a-problem"></a>Overview: ADO.NET Data Services 문제 보고
+# <a name="overview-report-a-problem"></a>개요: 문제 보고
 
 문제 보고 도구를 사용하면 Visual Studio 개발자 커뮤니티에서 문제를 제출할 수 있습니다. 각 문제 보고서는 핵심 엔지니어링 시스템의 작업 항목이 되며, 중요한 문제를 식별하고 해결하는 데 도움이 되도록 제품 팀과 직접 소통할 수 있는 권한을 부여합니다. 풍부한 진단 정보와 함께 제출된 피드백은 Visual Studio 제품군을 개선하는 데 중요합니다. 시간을 내어 문제를 보고해 주셔서 정말 감사합니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "55911197"
 
 ![개발자 커뮤니티의 문제 보고를 위한 추가 정보 필요 상태](../ide/media/ProblemStates/NeedMoreInfo.jpg)
 
-**추가 정보 필요**는 조사를 계속 진행할 수 있도록 더 많은 진단 정보가 필요함을 나타냅니다.  [추가 정보 필요 요청에 응답하는 방법을 알아봅니다.](./how-to-report-a-problem-with-visual-studio-2017.md#when-further-information-is-needed-need-more-info)
+**추가 정보 필요**는 조사를 계속 진행할 수 있도록 더 많은 진단 정보가 필요함을 나타냅니다.  [추가 정보 필요 요청에 응답하는 방법을 알아봅니다.](./how-to-report-a-problem-with-visual-studio.md#when-further-information-is-needed-need-more-info)
 
 - - -
 
@@ -110,7 +110,7 @@ ms.locfileid: "55911197"
 
 검색을 통해 보고하려는 문제가 아직 보고되지 않았는지 확인하는 것이 좋습니다. 문제와 일치하는 기존 항목을 찾으면 해당 문제 티켓에 따라 투표합니다.
 
- 문제를 팀이 재현하는 데 도움이 되는 모든 정보를 제공합니다.  이 정보에는 필요한 재현 단계, 코드 조각, 스크린샷, 재현 기록, 로그 파일 및 기타 아티팩트가 포함됩니다.  다음은 [Visual Studio에서 문제를 보고하는 방법](./how-to-report-a-problem-with-visual-studio-2017.md)입니다.
+ 문제를 팀이 재현하는 데 도움이 되는 모든 정보를 제공합니다.  이 정보에는 필요한 재현 단계, 코드 조각, 스크린샷, 재현 기록, 로그 파일 및 기타 아티팩트가 포함됩니다.  다음은 [Visual Studio에서 문제를 보고하는 방법](./how-to-report-a-problem-with-visual-studio.md)입니다.
 
 ### <a name="how-is-my-feedback-prioritized"></a>어떻게 내 피드백 우선순위가 지정되나요?
 

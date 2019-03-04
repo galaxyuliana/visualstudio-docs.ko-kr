@@ -13,12 +13,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 8fa5a78fbf1852e49da8a4cda59398c302029430
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8604164a329dbccd7e93a39b97fcdb674eccd83e
+ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909949"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "56796805"
 ---
 # <a name="tutorial-create-a-simple-application-with-c"></a>자습서: C#으로 간단한 애플리케이션 만들기
 
@@ -32,9 +32,19 @@ ms.locfileid: "55909949"
 
 ![설정 선택 대화 상자](../media/exploreide-settings.png)
 
+::: moniker range="vs-2017"
+
 Visual Studio를 시작하면 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 애플리케이션 창의 가운데에 **시작 페이지**가 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 **시작 페이지** 가 있는 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
 
-![일반 설정이 적용된 IDE](../media/exploreide-idewithgeneralsettings.png)
+![일반 설정이 적용된 Visual Studio 2017 IDE](../media/exploreide-idewithgeneralsettings.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Visual Studio를 시작하면 **시작** 창이 먼저 열립니다. 개발 환경을 열려면 **코드 없이 계속 진행**을 선택합니다. 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 애플리케이션 창의 중앙 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
+
+::: moniker-end
 
 ## <a name="create-the-project"></a>프로젝트를 만듭니다.
 
