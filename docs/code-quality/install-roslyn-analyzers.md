@@ -11,16 +11,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: de4818a57dc09825e6f41a635ea777a9e3f06e2a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 738246e3c35ec5019dd0f793d86a5447bd7556fb
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910513"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222937"
 ---
 # <a name="install-net-compiler-platform-analyzers"></a>.NET 컴파일러 플랫폼 분석기 설치
 
-Visual Studio 2017에는.NET 컴파일러 플랫폼의 핵심 집합을 포함 (*Roslyn*) 분석기입니다. 이러한 분석기는 항상 켜져 있습니다. NuGet 패키지 또는에서 Visual Studio 확장으로 추가 분석기를 설치할 수 있습니다 *VSIX* 파일입니다.
+Visual Studio.NET 컴파일러 플랫폼의 핵심 집합을 포함 되어 있습니다 (*Roslyn*) 분석기입니다. 이러한 분석기는 항상 켜져 있습니다. NuGet 패키지 또는에서 Visual Studio 확장으로 추가 분석기를 설치할 수 있습니다 *VSIX* 파일입니다.
 
 ## <a name="to-install-nuget-analyzer-packages"></a>NuGet 분석기 패키지를 설치 하려면
 
@@ -60,7 +60,7 @@ Visual Studio 2017에는.NET 컴파일러 플랫폼의 핵심 집합을 포함 (
 
 6. 선택 **수정** 설치를 시작 합니다.
 
-7. 2 분 정도 후 설치를 완료 합니다. 선택 **닫기**합니다.
+7. 2 분 정도 후 설치를 완료 합니다. **닫기**를 선택합니다.
 
 8. Visual Studio를 다시 엽니다.
 
