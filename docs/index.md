@@ -3,15 +3,9 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio 설명서 | Microsoft Docs
 titleSuffix: ''
-description: Visual Studio 2017을 사용하여 플랫폼 및 장치에 대해 선택한 언어로 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.
+description: 'Visual Studio를 사용하여 선택한 언어로 플랫폼 및 디바이스의 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.'
 ms.topic: hub-page
 ms.custom: seodec18
-ms.openlocfilehash: 9bcd261ce7d6efbd7fac50352c9dfaa17ed6c41f
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316784"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -55,7 +49,7 @@ ms.locfileid: "56316784"
                 </a>
             </li>
             <li>
-                <a href="/visualstudio/ide/whats-new-in-visual-studio">
+                <a href="/visualstudio/ide/whats-new-visual-studio-2017">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -65,7 +59,7 @@ ms.locfileid: "56316784"
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>Visual Studio 2017의 새로운 기능</h3>
+                                    <h3>Visual Studio의 새로운 기능</h3>
                                 </div>
                             </div>
                         </div>
