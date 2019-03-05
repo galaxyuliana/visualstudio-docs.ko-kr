@@ -7,27 +7,53 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1e84ff96381fb29a1728ad43df4ff558abd17243
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d9ae6220ac38de7bf2edc7b5c305ecb377a46f18
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689840"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57324002"
 ---
 # <a name="troubleshooting-template-installation"></a>문제 해결 템플릿 설치
 
 프로젝트 또는 항목 템플릿을 배포 하는 문제에 봉착 한 경우에 진단 로깅을 활성화할 수 있습니다.
 
-1. 다음 내용으로 (예: C:\Program Files (x86) \Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\EnablePkgDefLogging.pkgdef) 설치용 Common7\IDE\CommonExtensions 폴더에 pkgdef 파일을 만듭니다.
+::: moniker range="vs-2017"
+
+1. 에 pkgdef 파일을 만듭니다는 *Common7\IDE\CommonExtensions* 설치에 대 한 폴더입니다. 예를 들어 *C:\Program Files (x86) \Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\EnablePkgDefLogging.pkgdef*합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. 에 pkgdef 파일을 만듭니다는 *Common7\IDE\CommonExtensions* 설치에 대 한 폴더입니다. 예를 들어 *C:\Program Files (x86) \Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\EnablePkgDefLogging.pkgdef*합니다.
+
+::: moniker-end
+
+2. Pkgdef 파일에 다음을 추가 합니다.
 
     ```
     [$RootKey$\VsTemplate]
     "EnableTemplateDiscoveryLog"=dword:00000001
     ```
 
-1. 설치를 위한 Windows search에서 검색 하 여 "개발자 명령 프롬프트"를 열고 실행 `devenv /updateConfiguration`합니다.
+3. 엽니다는 [개발자 명령 프롬프트](/dotnet/framework/tools/developer-command-prompt-for-vs) 설치 및 실행에 대해 `devenv /updateConfiguration`합니다.
 
-1. Visual Studio를 시작 하 고 새 프로젝트를 새 항목 대화 상자 템플릿 양쪽 트리에 모두 초기화를 시작 합니다. 서식 파일 로그에 나타납니다 **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid는 Visual Studio 인스턴스의 설치 ID에 해당). 이 로그에 항목을 추가 하는 각 템플릿 트리 초기화 합니다.
+::: moniker range="vs-2017"
+
+4. Visual Studio를 시작 하 고 새 프로젝트를 새 항목 대화 상자 템플릿 양쪽 트리에 모두 초기화를 시작 합니다.
+
+   서식 파일 로그에 나타납니다 **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid는 Visual Studio 인스턴스의 설치 ID에 해당). 이 로그에 항목을 추가 하는 각 템플릿 트리 초기화 합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+4. Visual Studio를 시작 하 고 새 프로젝트를 새 항목 대화 상자 템플릿 양쪽 트리에 모두 초기화를 시작 합니다.
+
+   서식 파일 로그에 나타납니다 **%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid는 Visual Studio 인스턴스의 설치 ID에 해당). 이 로그에 항목을 추가 하는 각 템플릿 트리 초기화 합니다.
+
+::: moniker-end
 
 로그 파일에는 다음 열을 포함 합니다.
 

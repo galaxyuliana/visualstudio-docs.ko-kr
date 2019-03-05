@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e297493226478c27f3c3eb6d22e45cb5769e42d3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: b9a405b2758b40dda65f614c6231afc4251a30ac
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55023917"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323934"
 ---
 # <a name="microsoft-help-viewer-sdk"></a>Microsoft 도움말 뷰어 SDK
 
@@ -29,7 +29,8 @@ ms.locfileid: "55023917"
 
 -   추가 리소스
 
-### <a name="creating-a-topic-f1-support"></a>(F1 지원) 항목 만들기
+## <a name="create-a-topic-f1-support"></a>(F1 지원) 토픽 만들기
+
 이 섹션에서는 제공 된 항목, 항목에서는 요구 사항, 해당 렌더링 된 결과가 포함 된 항목 (F1 지원 요구 사항 포함) 및 마지막으로 예제 항목을 만드는 방법에 대 한 짧은 설명을의 구성 요소 개요를 제공 합니다.
 
 **도움말 뷰어 항목 개요**
@@ -91,17 +92,17 @@ Visual Studio 브랜딩 패키지 컨트롤을 지원 합니다.
 
 ```
 
-다음으로, 추가 하는 방법 항목 (자체 브랜드 여부), 표시 되는 방식을 정의 하는 데이터 등을 F1, 목차에서 해당 ID (다른 항목으로 링크 참조) 내에 있는이 항목에 대 한이 항목을 참조 합니다.  지원 되는 메타 데이터의 전체 목록은 아래 "콘텐츠 메타 데이터" 표를 참조 하세요.
+다음으로, 추가 하는 방법 항목 (자체 브랜드 여부), 표시 되는 방식을 정의 하는 데이터 등을 F1, 목차에서 해당 ID (다른 항목으로 링크 참조) 내에 있는이 항목에 대 한이 항목을 참조 합니다. 지원 되는 메타 데이터의 전체 목록은 아래 "콘텐츠 메타 데이터" 표를 참조 하세요.
 
 -   이 경우 고유한 브랜드 패키지를 Visual Studio 도움말 뷰어가 브랜드 패키지의 변형을 사용 됩니다.
 
--   F1 메타 이름 및 값을 추가 ("Microsoft.Help.F1" 콘텐츠 "ContosoTopic4" =) IDE의 propertybag에 제공된 된 F1 값을 일치 하는 됩니다.  (자세한 내용은 F1 지원 섹션을 참조 합니다.)   이 F1을 일치 하는 값은 IDE의 F1을 선택 하는 경우이 항목을 표시 하려면 ide에서 호출 합니다.
+-   F1 메타 이름 및 값을 추가 ("Microsoft.Help.F1" 콘텐츠 "ContosoTopic4" =) IDE의 propertybag에 제공된 된 F1 값을 일치 하는 됩니다. (자세한 내용은 F1 지원 섹션을 참조 합니다.) 이 F1을 일치 하는 값은 IDE의 F1을 선택 하는 경우이 항목을 표시 하려면 ide에서 호출 합니다.
 
--   항목 ID를 추가 합니다. 이 항목에 연결할 다른 항목에서 사용 되는 문자열입니다.  이 항목에 대 한 도움말 뷰어 ID입니다.
+-   항목 ID를 추가 합니다. 이 항목에 연결할 다른 항목에서 사용 되는 문자열입니다. 이 항목에 대 한 도움말 뷰어 ID입니다.
 
 -   목차에 대 한이 항목에서는 TOC 노드 표시 되는 위치를 정의 하려면이 항목의 부모 노드를 추가 합니다.
 
--   이 항목에서는 노드 순서 목차에 추가 합니다. 부모 노드의 자식 노드 수가 n에 있는 경우 자식 노드 순서 대로이 항목의이 위치를 정의 합니다. 예를 들어이 항목은 4 개의 하위 항목 수가 4.)
+-   이 항목에서는 노드 순서 목차에 추가 합니다. 부모 노드에 있을 때 `n` 자식 수가 노드의 경우이 항목의이 위치를 자식 노드 순서 대로 정의 합니다. 예를 들어이 항목은 4 4 자식 항목의 수입니다.
 
 예제 메타 데이터 섹션:
 
@@ -124,7 +125,6 @@ Visual Studio 브랜딩 패키지 컨트롤을 지원 합니다.
 
 </body>
 </html>
-
 ```
 
 **항목 본문**
@@ -141,10 +141,10 @@ Visual Studio 브랜딩 패키지 컨트롤을 지원 합니다.
 
 5.  코드 언어 관련 텍스트를 추가 합니다.  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` `devLangnu=` 다른 언어를 입력할 수 있습니다. 예를 들어 `devLangnu="Fortran"` Fortran 표시 때 코드 조각을 DisplayLanguage Fortran =
 
-6.  페이지 링크를 추가 합니다. `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`
+6.  페이지 링크를 추가 합니다. `<a href="ms-xhelp:///?Id=ContosoTopic1">Main Topic</a>`
 
 > [!NOTE]
->  참고:에 대 한 지원 되지 않는 새로운 "표시 언어" (예제에서는 F#, Cobol, Fortran) 코드 조각에서 코드 색 지정 단색 됩니다.
+> 참고:에 대 한 지원 되지 않는 새로운 "표시 언어" (예제에서는 F#, Cobol, Fortran) 코드 조각에서 코드 색 지정 단색 됩니다.
 
 **예제에서는 도움말 뷰어 항목** 코드는 메타 데이터, 코드 조각, 축소 가능한 영역 및 언어 관련 텍스트를 정의 하는 방법을 보여 줍니다.
 
@@ -257,7 +257,7 @@ some F# code
 
     <div id="seeAlsoSection" class="section">
     <div class="seeAlsoStyle">
-        <a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>
+        <a href="ms-xhelp:///?Id=ContosoTopic1">Main Topic</a>
     </div>
  </div>
 </div>
@@ -340,9 +340,21 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudi
 
 다음 레지스트리 키와 값을 추가 합니다.
 
-HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help key: 소매 가격에 디버그 출력을 표시 합니다. 예
+::: moniker range="vs-2017"
 
-IDE에서 도움말 메뉴 항목의 "도움말 컨텍스트 디버그"를 선택 합니다.
+**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help**
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Dynamic Help**
+
+::: moniker-end
+
+값: 소매 데이터에서 디버그 출력을 표시 합니다. 예
+
+IDE에서 도움말 메뉴 항목 선택 **도움말 컨텍스트 디버그**합니다.
 
 **콘텐츠 메타 데이터**
 
@@ -366,7 +378,8 @@ IDE에서 도움말 메뉴 항목의 "도움말 컨텍스트 디버그"를 선�
 | \< meta name="Microsoft.Help.TopicVersion content="[topic version number]"/> | 카탈로그에 여러 버전이 있을 경우 항목의이 버전을 지정 합니다. 항목의 버전이 둘 이상 카탈로그.NET Framework 3.5 및 항목에 대 한.NET Framework 4에 대 한 항목을 포함 하 고 둘 다 동일한 마이크로 경우 예를 들어 카탈로그에 있는 경우이 태그는 필요한 Microsoft.Help.Id 고유 하지 않으므로, 소프트 합니다. Help.Id 합니다. |
 | \< meta 이름 = "SelfBranded" content = "[TRUE 또는 FALSE]" / > | 이 항목에서는 도움말 라이브러리 관리자 시작 브랜드 패키지 또는 항목에 관련 된 브랜드 패키지를 사용 하는지 여부를 지정 합니다. 이 태그는 TRUE 여야 합니다. 또는 FALSE입니다. 있으면 TRUE, 관련된 항목에 대 한 브랜딩 패키지 항목의 다른 콘텐츠 렌더링에서 서로 다른 경우에 의도 한 대로 렌더링 되도록 도움말 라이브러리 관리자를 시작할 때 설정 된 브랜드 패키지를 재정의 합니다. FALSE 인 경우 현재 항목은 도움말 라이브러리 관리자를 시작할 때 설정 된 브랜드 패키지에 따라 렌더링 됩니다. 기본적으로 도움말 라이브러리 관리자 가정 SelfBranded 변수가; TRUE로 선언 된 경우가 아니면 false로 자체 브랜딩 따라서 선언할 필요가 없습니다 \<메타 이름 = "SelfBranded" content = "FALSE" / >입니다. |
 
-### <a name="creating-a-branding-package"></a>브랜드 패키지 만들기
+## <a name="create-a-branding-package"></a>브랜드 패키지 만들기
+
 Visual Studio 릴리스는 Visual Studio 파트너에 대 한 격리 및 통합된 셸을 비롯 한 다양 한 Visual Studio 제품의 수를 포함 합니다.  이러한 제품의 각 항목 기반 도움말 콘텐츠의 지원 제품에 고유 브랜딩 어느 정도 필요 합니다.  예를 들어, Visual Studio 항목 해야 일관 된 브랜드 프레젠테이션을 SQL Studio ISO 셸을 래핑하는 자체 고유 도움말 내용에 대 한 브랜딩 각 항목에서는 사용 해야 합니다.  통합 셸 파트너를 브랜딩 하는 고유한 항목을 유지 하면서 Visual Studio 제품 도움말 콘텐츠 부모 내에서 되도록 해당 도움말 항목 좋습니다.
 
 브랜드 패키지는 도움말 뷰어를 포함 하는 제품으로 설치 됩니다.  Visual Studio 제품:
@@ -432,7 +445,6 @@ Branding.xml 파일에 일관 되 게 항목을 포함 하는 경우 항목에�
 참고: "{n}"에서 설명 하는 변수 코드 종속성이 있는-제거 하거나 이러한 값을 변경 하면 오류 및 응용 프로그램 작동이 중단 됩니다. 지역화 식별자 (예제 _locID="codesnippet.n")는 Visual Studio 브랜드 패키지에 포함 됩니다.
 
 **Branding.xml**
-
 
 | | |
 | - | - |
@@ -603,7 +615,8 @@ Visual Studio 콘텐츠는 다른 그래픽 뿐 아니라 Visual Studio 로고�
 |ccOn.png|선택 캡션 그래픽||
 |ImageSprite.png|축소 가능한 영역을 렌더링 하는 데 사용|확장 또는 축소 그래픽|
 
-### <a name="deploying-a-set-of-topics"></a>항목 집합을 배포합니다.
+## <a name="deploy-a-set-of-topics"></a>항목 집합을 배포 합니다.
+
 이 MSHA 파일 및 cab 또는 MSHCs 항목이 들어 있는 집합을 구성 된 도움말 뷰어 콘텐츠 배포 집합을 만드는 쉽고 빠른 자습서입니다. MSHA는 cab 파일의 집합을 설명 하는 XML 파일 또는 MSHC 파일입니다. 도움말 뷰어 (합니다 콘텐츠 목록을 가져오려면 MSHA를 읽을 수 있습니다. CAB 또는 합니다. MSHC 파일) 로컬 설치에 사용할 수 있습니다.
 
 이 매우 기본적인 XML 스키마를 설명 하는 도움말 뷰어 MSHA에 대 한 입문서만입니다.  이 간략 한 개요 및 샘플 HelpContentSetup.msha 아래 예제에서는 구현 방법이 있습니다.
@@ -677,14 +690,14 @@ Sample HelpContentSetup.msha file: ("콘텐츠 설정 1 이름" 바꾸기 및 "2
 </div>
 </body>
 </html>
-
 ```
 
 **요약**
 
 사용 하 고 위의 단계를 확장 Visual Studio 도움말 뷰어에 대 한 해당 콘텐츠 집합을 배포 하는 Vsp 사용 하도록 설정 됩니다.
 
-### <a name="adding-help-to-the-visual-studio-shell-integrated-and-isolated"></a>Visual Studio Shell (통합 및 격리)에 추가 도움말
+### <a name="add-help-to-the-visual-studio-shell-integrated-and-isolated"></a>Visual Studio Shell (통합 및 격리)에 대 한 도움말 추가
+
 **소개**
 
 이 연습에는 Visual Studio Shell 응용 프로그램에 도움말 콘텐츠를 통합 한 후에 배포 하는 방법을 보여 줍니다.
@@ -786,7 +799,7 @@ Visual Studio 콘텐츠 저장소를 만듭니다. Integrated Shell 시나리오
 
 6. CatalogType.xml 만들고 포함 하는 콘텐츠 저장소 (이전 단계)를 추가 합니다.
 
-   ```
+   ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <catalogType>UserManaged</catalogType>
    ```
@@ -817,7 +830,7 @@ Visual Studio 콘텐츠 저장소를 만듭니다. Integrated Shell 시나리오
 
 12. Contoso IDE 내에서 F1 기능을 테스트 하 고 F1 키를 선택 합니다.
 
-### <a name="additional-resources"></a>추가 자료
+## <a name="additional-resources"></a>추가 자료
 
 런타임 API를 참조 하세요 [Windows API 도움말](/previous-versions/windows/desktop/helpapi/helpapi-portal)합니다.
 

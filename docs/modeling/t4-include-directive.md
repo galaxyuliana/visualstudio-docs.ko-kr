@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3a42a15263b658acbbfc5e7500a776063ef58a51
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1a3ab6aa4cd116c779cac4367d1eeb9a187edaeb
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918458"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323295"
 ---
 # <a name="t4-include-directive"></a>T4 Include 지시문
 
@@ -30,7 +30,7 @@ ms.locfileid: "55918458"
 
    이러한 추가적인 포함 폴더는 포함 파일의 파일 확장명에 따라 달라질 수 있습니다. 예를 들어 DSL 도구의 포함 폴더에서는 파일 확장명이 `.tt`인 파일이 있는 포함 파일에만 액세스할 수 있습니다.
 
-- `filePath`는 "%"로 구분되는 환경 변수를 포함할 수 있습니다. 예를 들어:
+- `filePath`는 "%"로 구분되는 환경 변수를 포함할 수 있습니다. 예를 들면,
 
   ```
   <#@ include file="%HOMEPATH%\MyIncludeFile.t4" #>
@@ -65,7 +65,7 @@ Output message 5 (from top template).
 
 ```
    Output Message 2 (from included file).
-<#@include file="TextFile2.t4" #>
+<#@ include file="TextFile2.t4" #>
    Output Message 4 (from included file).
 <#+ // Start of class feature control block.
 void GenerateMessage(int n)

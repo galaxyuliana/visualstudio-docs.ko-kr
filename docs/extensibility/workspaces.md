@@ -7,12 +7,12 @@ ms.author: svukel
 manager: viveis
 ms.workload:
 - vssdk
-ms.openlocfilehash: da61f3f46d9737bef6c14cf69a52be1951da28fb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 011781b434c4d005e473c5f97c60a9269dc5d034
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55925438"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57324236"
 ---
 # <a name="workspaces"></a>작업 영역
 
@@ -59,7 +59,7 @@ ms.locfileid: "55925438"
 1. 모든 디렉터리 및 작업 영역 루트까지 추가 부모입니다.
 1. "전역 설정"에서 사용자 디렉터리에 있는 합니다.
 
-결과의 인스턴스가 <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>합니다. 이 개체를 특정 형식에 대 한 설정을 보유 하 고 설정 키 이름으로 저장 쿼리할 수 있습니다 `string`합니다. 합니다 <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty%2A> 메서드 및 <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> 확장 메서드는 호출자가 요청 된 설정 값의 형식을 알 수를 예상 합니다. 대부분의 설정 파일으로 유지 됩니다 _.json_ 파일을 여러 호출 사용할지 `string`, `bool`, `int`, 및 해당 형식의 배열입니다. 개체 형식도 지원 됩니다. 이러한 경우에 사용할 수 있습니다 `IWorkspaceSettings` 형식 인수로 자체입니다. 예를 들어:
+결과의 인스턴스가 <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>합니다. 이 개체를 특정 형식에 대 한 설정을 보유 하 고 설정 키 이름으로 저장 쿼리할 수 있습니다 `string`합니다. 합니다 <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty%2A> 메서드 및 <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> 확장 메서드는 호출자가 요청 된 설정 값의 형식을 알 수를 예상 합니다. 대부분의 설정 파일으로 유지 됩니다 _.json_ 파일을 여러 호출 사용할지 `string`, `bool`, `int`, 및 해당 형식의 배열입니다. 개체 형식도 지원 됩니다. 이러한 경우에 사용할 수 있습니다 `IWorkspaceSettings` 형식 인수로 자체입니다. 예를 들면,
 
 ```json
 {
@@ -175,7 +175,19 @@ UI 컨텍스트의 자동 로드 패키지를 사용할 수 있습니다. 값이
 
 ### <a name="the-sourceexplorerpackage-package-did-not-load-correctly"></a>SourceExplorerPackage 패키지가 제대로 로드 되지 않았습니다.
 
-작업 영역 확장성 많이 MEF 기반 이며 컴퍼지션 오류로 인해 패키지를 로드 하지 못하도록 폴더 열기를 호스트 합니다. 예를 들어 확장 형식을 사용 하 여 내보냅니다 `ExportFileContextProviderAttribute`, 형식에서만 구현 되지만 `IWorkspaceProviderFactory<IFileContextActionProvider>`, Visual Studio에서 폴더를 열려고 할 때 오류가 발생 합니다. 오류 세부 정보에서 확인할 수 있습니다 _%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_합니다. 확장에 의해 구현 된 형식에 대 한 오류를 해결 합니다.
+작업 영역 확장성 많이 MEF 기반 이며 컴퍼지션 오류로 인해 패키지를 로드 하지 못하도록 폴더 열기를 호스트 합니다. 예를 들어 확장 형식을 사용 하 여 내보냅니다 `ExportFileContextProviderAttribute`, 형식에서만 구현 되지만 `IWorkspaceProviderFactory<IFileContextActionProvider>`, Visual Studio에서 폴더를 열려고 할 때 오류가 발생 합니다.
+
+::: moniker range="vs-2017"
+
+오류 세부 정보에서 확인할 수 있습니다 _%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_합니다. 확장에 의해 구현 된 형식에 대 한 오류를 해결 합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+오류 세부 정보에서 확인할 수 있습니다 _%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_합니다. 확장에 의해 구현 된 형식에 대 한 오류를 해결 합니다.
+
+::: moniker-end
 
 ## <a name="next-steps"></a>다음 단계
 
