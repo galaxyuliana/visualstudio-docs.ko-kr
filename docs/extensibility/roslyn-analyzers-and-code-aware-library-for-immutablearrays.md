@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 753201d8f09b93186cac279d20dee2c7f3e1534d
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 28ddaafc8ab4ddbaef1d7e42faedc2229664c6e6
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843314"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323642"
 ---
 # <a name="roslyn-analyzers-and-code-aware-library-for-immutablearrays"></a>Roslyn 분석기 및 ImmutableArrays에 대 한 코드 인식 라이브러리
 
@@ -298,7 +298,7 @@ private async Task<Document> ChangeToImmutableArrayEmpty(
 
 이제 눌러도 **F5** Visual Studio의 두 번째 인스턴스에서 분석기를 실행 합니다. 이전에 사용한 콘솔 프로젝트를 엽니다. 새 개체 생성 식에 대 한 위치에 나타날 전구를 표시 하는 이제 `ImmutableArray<int>`합니다. 키를 누르면 **Ctrl**+**합니다.** (기간), 수정, 코드를 다음 표시 되 고 전구 UI에서에서 미리 보기를 자동으로 생성 된 코드 차이 표시 됩니다. Roslyn을이 만듭니다.
 
-**Pro 팁:** Visual Studio의 두 번째 인스턴스를 시작 하 고 코드 수정 사항을 사용 하 여 밝은 전구 표시 되지 않는 경우 Visual Studio 구성 요소 캐시를 지우려면 해야 할 수 있습니다. Visual Studio의 Visual Studio 최신 구성 요소를 선택 해야 하므로 구성 요소 다시 검사를 강제로 캐시 지우기. 먼저 Visual Studio의 두 번째 인스턴스를 종료 합니다. 그런 다음, **Windows 탐색기**, 이동할 *%LOCALAPPDATA%\Microsoft\VisualStudio\15.0Roslyn\\*합니다. ("15.0" 변경 버전 Visual Studio를 사용 하 여). 하위 디렉터리를 삭제 *ComponentModelCache*합니다.
+**Pro 팁:** Visual Studio의 두 번째 인스턴스를 시작 하 고 코드 수정 사항을 사용 하 여 밝은 전구 표시 되지 않는 경우 Visual Studio 구성 요소 캐시를 지우려면 해야 할 수 있습니다. Visual Studio의 Visual Studio 최신 구성 요소를 선택 해야 하므로 구성 요소 다시 검사를 강제로 캐시 지우기. 먼저 Visual Studio의 두 번째 인스턴스를 종료 합니다. 그런 다음, **Windows 탐색기**, 이동할 *%LOCALAPPDATA%\Microsoft\VisualStudio\16.0Roslyn\\*합니다. ("16.0" 변경 버전 Visual Studio를 사용 하 여.) 하위 디렉터리를 삭제 *ComponentModelCache*합니다.
 
 ## <a name="talk-video-and-finish-code-project"></a>비디오 설명 및 코드 프로젝트를 완료 합니다.
 

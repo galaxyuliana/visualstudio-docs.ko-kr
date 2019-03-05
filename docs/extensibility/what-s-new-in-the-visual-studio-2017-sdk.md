@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e3d149a7cec711e59909ff21944ed52e3c074113
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: caa7593c85351512e683f2cf93adeb3211e3e4d8
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56710177"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323921"
 ---
 # <a name="what39s-new-in-the-visual-studio-2017-sdk"></a>새로운&#39;Visual Studio 2017 SDK의 새로운
 
@@ -31,7 +31,7 @@ Visual Studio 2017의 새로운 경량 설치를 지원 하려면 VSIX 확장 �
 
 이러한 변경에 대 한 자세한 내용은 다음 항목을 참조 합니다.
 
-* [확장성 2017에 대 한 변경 내용](breaking-changes-2017.md)
+* [Visual Studio 2017에 대 한 확장성 변경](breaking-changes-2017.md)
 * [VSIX v3의 Ngen 지원](ngen-support.md)
 * [확장 폴더 외부에 설치](set-install-root.md)
 * [Visual Studio 2017 확장성에 대 한 질문과 대답](faq-2017.md)

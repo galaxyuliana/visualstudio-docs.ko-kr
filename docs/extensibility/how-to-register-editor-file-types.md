@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f26b7421676081b32060dd4f342ee05098d90a7c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8f4aad26418c61ea450d697e294203b7f844577f
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54980325"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57324158"
 ---
 # <a name="how-to-register-editor-file-types"></a>방법: 편집기 파일 형식 등록
 일부분으로 제공 하는 등록 특성을 사용 하 여 편집기 파일 형식을 등록 하는 가장 쉬운 방법은는 [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 관리 되는 패키지 프레임 워크 (MPF) 클래스입니다. 네이티브에서 패키지를 구현 하는 경우 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], 편집기 및 연결 된 확장을 등록 하는 레지스트리 스크립트를 작성할 수도 있습니다.
@@ -26,12 +26,12 @@ ms.locfileid: "54980325"
 
 1. 제공 된 <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> VSPackage의 클래스에 편집기에 대 한 적절 한 매개 변수를 사용 하 여 클래스입니다.
 
-   ```
-   [Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute(typeof(EditorFactory), ".Sample", 32,
+    ```
+    [Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute(typeof(EditorFactory), ".Sample", 32,
         ProjectGuid = "{A2FE74E1-B743-11d0-AE1A-00A0C90FFFC3}",
         TemplateDir = "..\\..\\Templates",
         NameResourceID = 106)]
-   ```
+    ```
 
     여기서 *합니다. 샘플* 이 편집기에 대해 등록 된 확장 이며 "32" 우선 순위 수준입니다.
 
@@ -45,17 +45,17 @@ ms.locfileid: "54980325"
 
     구현에서는 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드를 호출 합니다 <xref:Microsoft.VisualStudio.Shell.Package.RegisterEditorFactory%2A> 메서드와으로 편집기 팩터리의 인스턴스 아래에서 설명 하는 전달 합니다.
 
-   ```csharp
-   protected override void Initialize()
-   {
-       Trace.WriteLine (string.Format(CultureInfo.CurrentCulture,
-       "Entering Initialize() of: {0}", this.ToString()));
-       base.Initialize();
-          //Create Editor Factory
-       editorFactory = new EditorFactory(this);
-       base.RegisterEditorFactory(editorFactory);
-   }
-   ```
+    ```csharp
+    protected override void Initialize()
+    {
+        Trace.WriteLine (string.Format(CultureInfo.CurrentCulture,
+        "Entering Initialize() of: {0}", this.ToString()));
+        base.Initialize();
+           //Create Editor Factory
+        editorFactory = new EditorFactory(this);
+        base.RegisterEditorFactory(editorFactory);
+    }
+    ```
 
     이 단계는 편집기 팩터리와 편집기 파일 확장명을 등록합니다.
 
@@ -64,14 +64,21 @@ ms.locfileid: "54980325"
     편집기 팩터리 VSPackage 삭제 될 때 자동으로 등록 된지 않습니다. 편집기 팩터리 개체 구현 하는 경우는 <xref:System.IDisposable> 인터페이스를 해당 `Dispose` 팩터리를 등록을 취소 한 후 메서드는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다.
 
 ## <a name="registration-using-a-registry-script"></a>레지스트리 스크립트를 사용 하 여 등록
- 네이티브에서 파일 형식과 편집기 팩터리를 등록 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 이루어집니다 다음에 설명 된 대로 windows 레지스트리에 쓸 레지스트리 스크립트를 사용 하 합니다.
+네이티브에서 파일 형식과 편집기 팩터리를 등록 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 이루어집니다 다음에 설명 된 대로 windows 레지스트리에 쓸 레지스트리 스크립트를 사용 하 합니다.
 
 ### <a name="to-register-editor-file-types-using-a-registry-script"></a>레지스트리 스크립트를 사용 하 여 편집기 파일 형식 등록
 
-1.  레지스트리 스크립트에서 정의 편집기 팩터리 및 편집기 팩터리의 GUID 문자열에 표시 된 대로 `GUID_BscEditorFactory` 다음 레지스트리 스크립트의 섹션입니다. 또한 확장 및 편집기 확장의 우선 순위를 정의 합니다.
+1. 레지스트리 스크립트에서 정의 편집기 팩터리 및 편집기 팩터리의 GUID 문자열에 표시 된 대로 `GUID_BscEditorFactory` 다음 레지스트리 스크립트의 섹션입니다. 또한 확장 및 편집기 확장의 우선 순위를 정의 합니다.
 
     ```
-          NoRemove Editors     {         %GUID_BscEditorFactory% = s 'RTF Editor'         {             val Package = s '%CLSID_Package%'             val DisplayName = s 'An RTF Editor'             val ExcludeDefTextEditor = d 1             val AcceptBinaryFiles = d 0
+    NoRemove Editors
+    {
+        %GUID_BscEditorFactory% = s 'RTF Editor'
+        {
+            val Package = s '%CLSID_Package%'
+            val DisplayName = s 'An RTF Editor'
+            val ExcludeDefTextEditor = d 1
+            val AcceptBinaryFiles = d 0
 
             LogicalViews
             {
@@ -82,18 +89,21 @@ ms.locfileid: "54980325"
             {
             }
 
-            Extensions            {                val rtf = d 50            }
+            Extensions
+            {
+                val rtf = d 50
+            }
         }
     }
     ```
 
-     이 예에서 편집기 파일 확장명으로 식별 됩니다 *.rtf* 이며 해당 우선 순위 "50"입니다. GUID 문자열에 정의 된 *Resource.h* BscEdit 샘플 프로젝트의 파일입니다.
+    이 예에서 편집기 파일 확장명으로 식별 됩니다 *.rtf* 이며 해당 우선 순위 "50"입니다. GUID 문자열에 정의 된 *Resource.h* BscEdit 샘플 프로젝트의 파일입니다.
 
-2.  VSPackage를 등록 합니다.
+2. VSPackage를 등록 합니다.
 
-3.  편집기 팩터리를 등록 합니다.
+3. 편집기 팩터리를 등록 합니다.
 
-     편집기 팩터리에 등록 되는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterEditors.RegisterEditor%2A> 구현 합니다.
+    편집기 팩터리에 등록 되는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterEditors.RegisterEditor%2A> 구현 합니다.
 
     ```cpp
     // create editor factory.
@@ -101,27 +111,27 @@ ms.locfileid: "54980325"
     {
         CComObject<CBscEditorFactory> *pEdFact = new CComObject<CBscEditorFactory>;
         if (NULL == pEdFact)
-          return E_OUTOFMEMORY;
+            return E_OUTOFMEMORY;
 
         if (!pEdFact->FInit(this))
-          return E_UNEXPECTED;
+            return E_UNEXPECTED;
 
         m_srpEdFact = (IVsEditorFactory *) pEdFact;    // Note: assignment to a smart pointer does an AddRef()
     }
     // Query service for IVsRegisterEditors, register the editor factory
     CComPtr<IVsRegisterEditors> srpRegEd;
     if ((SUCCEEDED(m_srpPkgSiteSP->QueryService(SID_SVsRegisterEditors, IID_IVsRegisterEditors,(void **)&srpRegEd ))) && (srpRegEd != NULL))
-      {
-        ATLTRACE(TEXT(">> CVsPackage, registering editor factory.\n"));
-          if (FAILED(srpRegEd->RegisterEditor(GUID_BscEditorFactory,
-                      m_srpEdFact, &m_dwEditorCookie)))
-          {
-             ATLTRACE(TEXT(">> CVsPackage, RegisterEditor() failed.\n"));
-            return E_FAIL;
-          }
-      }
+        {
+            ATLTRACE(TEXT(">> CVsPackage, registering editor factory.\n"));
+            if (FAILED(srpRegEd->RegisterEditor(GUID_BscEditorFactory,
+                    m_srpEdFact, &m_dwEditorCookie)))
+            {
+                ATLTRACE(TEXT(">> CVsPackage, RegisterEditor() failed.\n"));
+                return E_FAIL;
+            }
+        }
         return S_OK;
     }
     ```
 
-     GUID 문자열에 정의 된 *Resource.h* BscEdit 프로젝트의 파일입니다.
+    GUID 문자열에 정의 된 *Resource.h* BscEdit 프로젝트의 파일입니다.

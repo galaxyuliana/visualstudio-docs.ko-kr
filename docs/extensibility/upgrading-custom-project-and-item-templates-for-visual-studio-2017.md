@@ -8,16 +8,17 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cbb34e93b4faf8df206353d2a06649f652cbcaeb
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+monikerRange: vs-2017
+ms.openlocfilehash: efad4455ab5d3cb0daa16482e303cc82296cc2e4
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689826"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323989"
 ---
-# <a name="upgrading-custom-project-and-item-templates-for-visual-studio-2017"></a>Visual Studio 2017용 사용자 지정 프로젝트 및 항목 템플릿 업그레이드
+# <a name="upgrade-custom-project-and-item-templates-for-visual-studio-2017"></a>사용자 지정 프로젝트 및 항목 템플릿을 Visual Studio 2017에 대 한 업그레이드
 
-Visual Studio 2017부터 Visual Studio는 이전 버전 Visual Studio의 다른 방식으로.vsix 또는.msi 설치 된 프로젝트 및 항목 템플릿을 검색 합니다. 사용자 지정 프로젝트 또는 항목 템플릿을 사용 하는 확장을 소유 하는 경우 확장을 업데이트 해야 합니다. 이 항목에서는 해야 할 사항을 설명 합니다.
+Visual Studio 2017부터 Visual Studio는 이전 버전 Visual Studio의 다른 방식으로.vsix 또는.msi 설치 된 프로젝트 및 항목 템플릿을 검색 합니다. 사용자 지정 프로젝트 또는 항목 템플릿을 사용 하는 확장을 소유 하는 경우 확장을 업데이트 해야 합니다. 이 문서에서는 수행 해야 합니다.
 
 이 변경에는 Visual Studio 2017에만 적용 됩니다. 이전 버전의 Visual Studio에는 영향을 주지 않습니다.
 
@@ -27,7 +28,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 이전 버전의 Visual Studio **devenv /setup** 하거나 **devenv /installvstemplates** 프로젝트 및 항목 템플릿을 찾으려면 로컬 디스크를 검색 합니다. Visual Studio 2017부터 검색 사용자 수준 위치에 대해서만 수행 됩니다. 기본 사용자 수준 위치가 **%USERPROFILE%\Documents\\< Visual Studio 버전\>\Templates\\**합니다. 이 위치를 사용 하 여 생성 된 템플릿에 대 한 합니다 **프로젝트** > **템플릿 내보내기...**  명령 경우 합니다 **자동으로 템플릿을 Visual Studio로 가져오기** 마법사에서 옵션을 선택 합니다.
 
-기타 (비 사용자) 위치에 대 한 서식 파일의 다른 특성과 위치를 지정 하는 manifest(.vstman) 파일을 포함 해야 합니다. .Vstman 파일은 템플릿에 사용.vstemplate 파일과 함께 생성 됩니다. .Vsix를 사용 하 여 확장을 설치 하면 Visual Studio 2017에서 확장을 다시 컴파일하여이 수행할 수 있습니다. 하지만.msi를 사용 하는 경우 수동으로 변경 해야 합니다. 이러한 변경을 수행 하기 위해 필요한 목록은 참조 하세요. **와 함께 설치 된 확장에 대 한 업그레이드를 합니다. MSI** 이 항목의에서 뒷부분에 있습니다.
+기타 (비 사용자) 위치에 대 한 서식 파일의 다른 특성과 위치를 지정 하는 manifest(.vstman) 파일을 포함 해야 합니다. .Vstman 파일은 템플릿에 사용.vstemplate 파일과 함께 생성 됩니다. .Vsix를 사용 하 여 확장을 설치 하면 Visual Studio 2017에서 확장을 다시 컴파일하여이 수행할 수 있습니다. 하지만.msi를 사용 하는 경우 수동으로 변경 해야 합니다. 이러한 변경을 수행 하기 위해 필요한 목록은 참조 하세요. **와 함께 설치 된 확장에 대 한 업그레이드를 합니다. MSI** 나중에이 페이지입니다.
 
 ## <a name="how-to-update-a-vsix-extension-with-project-or-item-templates"></a>프로젝트 또는 항목 템플릿을 VSIX 확장을 업데이트 하는 방법
 
@@ -58,7 +59,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 -   압축 된 템플릿 파일을 사용 하지 마십시오. 템플릿 파일에 리소스와 콘텐츠를 검색 하기 위해 압축 된 필요한 압축 되므로 될 데 비용이 많이 들기 합니다. 대신 자신의 디렉터리 템플릿 초기화 속도를 개별 파일로 프로젝트 및 항목 템플릿을 배포 해야 합니다. VSIX 확장에 대 한 SDK 빌드 작업은 자동으로 압축을 풉니다 압축된 템플릿을 VSIX 파일을 만드는 동안.
 
--   템플릿 검색 하는 동안 불필요 한 리소스 어셈블리 로드를 방지 하기 위해 템플릿 이름, 설명, 아이콘 또는 미리 보기에 대 한 패키지/리소스 ID 항목을 사용 하지 마십시오. 대신, 속성 또는 지역화 된 이름을 사용 하는 각 로캘에 대해 템플릿 항목을 만드는 지역화 된 매니페스트를 사용할 수 있습니다.
+-   템플릿 검색 하는 동안 불필요 한 리소스 어셈블리 로드를 방지 하기 위해 미리 보기 또는 템플릿 이름, 설명, 아이콘, 패키지/리소스 ID 항목을 사용 하지 않습니다. 대신, 속성 또는 지역화 된 이름을 사용 하는 각 로캘에 대해 템플릿 항목을 만드는 지역화 된 매니페스트를 사용할 수 있습니다.
 
 -   템플릿을 있는 그대로 파일 항목을 포함 하는 경우 매니페스트 생성 얻지 못할 수도 있습니다 하면 예상된 된 결과가 있습니다. 이 경우 VSIX 프로젝트를 수동으로 생성 된 매니페스트를 추가 해야 합니다.
 
@@ -168,7 +169,6 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
     </VSTemplateHeader>
   </VSTemplateContainer>
 </VSTemplateManifest>
-
 ```
 
  제공한 정보는  **\<TemplateData >** 요소 동일 하 게 유지 합니다. 합니다  **\<VSTemplateContainer >** 요소 관련 템플릿의.vstemplate 파일을 가리킵니다.
@@ -177,7 +177,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 ## <a name="upgrades-for-extensions-installed-with-an-msi"></a>와 함께 설치 된 확장에 대 한 업그레이드를 합니다. MSI
 
-다음과 같은 일반적인 템플릿 위치에 템플릿을 배포 하는 일부 MSI 기반 확장 합니다.
+다음 디렉터리와 같은 일반적인 템플릿 위치에 템플릿을 배포 하는 일부 MSI 기반 확장:
 
 - **\<Visual Studio 설치 디렉터리 > \Common7\IDE\\< ProjectTemplates/Itemtemplate >**
 
@@ -185,7 +185,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 MSI 기반 배포를 수행 하는 확장 프로그램을 하는 경우 템플릿 매니페스트를 수동으로 생성 및 확장 설치에 포함 되어 있는지 확인 해야 합니다. 위에 나열 된.vstman 예제를 비교 하며 [Visual Studio 템플릿 매니페스트 스키마 참조](../extensibility/visual-studio-template-manifest-schema-reference.md)합니다.
 
-프로젝트 및 항목 템플릿에 대 한 별도 매니페스트를 만들어야 하 고 루트 템플릿 지정 된 대로 위의 디렉터리를 가리키도록 해야 합니다. 확장 및 로캘 당 하나의 매니페스트를 만듭니다.
+프로젝트 및 항목 템플릿에 대 한 별도 매니페스트를 만들고 루트 템플릿 지정 된 대로 위의 디렉터리를 가리키도록 해야 합니다. 확장 및 로캘 당 하나의 매니페스트를 만듭니다.
 
 ## <a name="see-also"></a>참고자료
 

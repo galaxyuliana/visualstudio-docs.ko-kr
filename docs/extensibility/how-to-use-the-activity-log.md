@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ae4b85aa39f2323ed3e4a4353b28239a015ae7f7
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 5cb2453d42517982cc1dd1e2a2f5c51814496392
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56719277"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57324015"
 ---
 # <a name="how-to-use-the-activity-log"></a>방법: 활동 로그 사용
 Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기능은 소매 환경에서 Vspackage를 디버깅 하는 데 특히 유용 합니다.
@@ -46,7 +46,9 @@ Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기�
 
 1. Visual Studio를 실행 합니다 [로그](../ide/reference/log-devenv-exe.md) 세션 중 ActivityLog.xml 디스크에 쓸 수 있는 명령줄 스위치입니다.
 
-2. Visual Studio를 닫은 후 활동 로그의 하위 폴더에서 Visual Studio 데이터에 대 한 찾기:  <em>*% AppData %</em>\Microsoft\VisualStudio\15.0\ActivityLog.xml*합니다.
+2. Visual Studio를 닫으면 Visual Studio 데이터에 대 한 하위 폴더에서 활동 로그를 확인:
+
+   <em>*%AppData%</em>\Microsoft\VisualStudio\\\<version>\ActivityLog.xml*.
 
 3. 임의의 텍스트 편집기를 사용 하 여 활동 로그를 엽니다. 다음은 일반적인 항목:
 
@@ -55,11 +57,13 @@ Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기�
    ```
 
 ## <a name="robust-programming"></a>강력한 프로그래밍
- 활동 로그 서비스 이기 때문에 활동 로그 VSPackage 생성자에서 사용할 수 없는 경우
 
- 쓰기 직전 활동 로그를 가져와야 합니다. 캐시 하거나 나중에 사용에 대 한 활동 로그를 저장 하지 마십시오.
+활동 로그 서비스 이기 때문에 활동 로그 VSPackage 생성자에서 사용할 수 없는 경우
+
+쓰기 직전 활동 로그를 가져와야 합니다. 캐시 하거나 나중에 사용에 대 한 활동 로그를 저장 하지 마십시오.
 
 ## <a name="see-also"></a>참고자료
+
 - [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>
 - <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>
