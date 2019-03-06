@@ -16,14 +16,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 53f50c3a107f9796e4fbb661f303bfcabf284cc6
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 11a310884f9f63264157c96bafc15e8161c0239d
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56710099"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323843"
 ---
-# <a name="debugging-f"></a>F# 디버깅
+# <a name="debugging-f"></a>F\# 디버그
 F# 디버깅은 다음과 같은 몇 가지 예외를 제외하고는 관리되는 언어 디버깅과 비슷합니다.
 
 -   **자동** 창에 F# 변수가 표시되지 않습니다.
