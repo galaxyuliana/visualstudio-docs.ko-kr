@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: Jamie.Young
 manager: jillfra
-ms.openlocfilehash: cb345d756e748703f407b0601a4ac321452af6a6
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: 20fbe41bef16527ee66d0e87de8456ed1c65b865
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954431"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428832"
 ---
 # <a name="color-value-reference-for-visual-studio"></a>Visual Studio에 대 한 색 값 참조
 
@@ -134,7 +134,7 @@ ms.locfileid: "56954431"
 | 전경: 사용 하지 않도록 설정 | ![#FFA2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#FFA2A4A5 swatch")<br />`#FFA2A4A5` | ![#FF656565 견본](../../extensibility/ux-guidelines/media/656565.png "#FF656565 견본")<br />`#FF656565` | ![#FFA2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#FFA2A4A5 swatch")<br />`#FFA2A4A5` | ![GrayText 견본](../../extensibility/ux-guidelines/media/HCGrayText.png "GrayText 견본")<br />`GrayText` |
 | 배경: 사용 하지 않도록 설정 | ![견본 #fff5f5f5](../../extensibility/ux-guidelines/media/F5F5F5.png "#fff5f5f5 견본")<br />`#FFF5F5F5` | ![#FF252526 견본](../../extensibility/ux-guidelines/media/252526.png "#FF252526 견본")<br />`#FF252526` | ![#FFF6F6F6 견본](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 견본")<br />`#FFF6F6F6` | ![컨트롤 견본](../../extensibility/ux-guidelines/media/HCControl.png "컨트롤 견본")<br />`Control` |
 | 테두리 | ![#FFCCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB 견본")<br />`#FFCCCEDB` | ![#FF434346 견본](../../extensibility/ux-guidelines/media/434346.png "#FF434346 견본")<br />`#FF434346` | ![#FFCCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB 견본")<br />`#FFCCCEDB` | ![ControlDark 견본](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark 견본")<br />`ControlDark` |
-| 테두리: 사용 하지 않도록 설정 | ![#FFCCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB 견본")<br />`#FFCCCEDB` | ![#FF434346 견본](../../extensibility/ux-guidelines/media/434346.png "#FF434346 견본")<br />`#FF434346` | ![#FFC6C6C6 견본](../../extensibility/ux-guidelines/media/C6C6C6.png "#FFC6C6C6 견본")<br />`#FFC6C6C6` | ![ControlDark 견본](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark 견본")<br />`ControlDark ` |
+| 테두리: 사용 하지 않도록 설정 | ![#FFCCCEDB 견본](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB 견본")<br />`#FFCCCEDB` | ![#FF434346 견본](../../extensibility/ux-guidelines/media/434346.png "#FF434346 견본")<br />`#FF434346` | ![#FFC6C6C6 견본](../../extensibility/ux-guidelines/media/C6C6C6.png "#FFC6C6C6 견본")<br />`#FFC6C6C6` | ![ControlDark 견본](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark 견본")<br />`ControlDark` |
 
 ### <a name="list-items"></a>목록 항목
 
