@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b73fc70231e9756bf20f90f5873a0241c5f29bdd
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 277401cb8e4e3b90d3543d6f5307452e83d07cc8
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56315565"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222625"
 ---
 # <a name="analyze-memory-usage"></a>메모리 사용량 분석
 디버거 통합 **메모리 사용량** 진단 도구를 사용하여 메모리 누수 및 비효율적인 메모리를 찾습니다. 메모리 사용량 도구를 통해 관리되는 메모리 및 네이티브 메모리 힙의 *스냅숏* 을 하나 이상 만들 수 있습니다. .NET, ASP.NET, 네이티브 또는 혼합 모드(.NET 및 네이티브) 앱의 스냅숏을 수집할 수 있습니다.
@@ -30,7 +30,7 @@ Windows 7 이상에서 디버거 없이 프로파일링 도구를 사용할 수 
 
 [디버그하는 동안 CPU와 메모리 분석](https://devblogs.microsoft.com/visualstudio/analyze-cpu-memory-while-debugging/)
 
-[Visual C++ 블로그: Visual C++ 2015의 메모리 프로파일링](https://blogs.msdn.microsoft.com/vcblog/2015/10/21/memory-profiling-in-visual-c-2015/)
+[Visual C++ 블로그: Visual C++ 2015의 메모리 프로파일링](https://devblogs.microsoft.com/cppblog/memory-profiling-in-visual-c-2015/)
 
 ## <a name="see-also"></a>참고 항목
 

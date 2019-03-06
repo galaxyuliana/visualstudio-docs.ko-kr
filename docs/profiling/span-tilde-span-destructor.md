@@ -12,14 +12,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0b019081e2f81a803b745bda0991c655ef84d11c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 9b7174418267a77cc668ab0a79092fc7daefbf58
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56606359"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953783"
 ---
 # <a name="spanspan-destructor"></a>span::~span 소멸자
+
 `span` 개체를 제거하고 해당 리소스를 해제합니다.
 
 ## <a name="syntax"></a>구문
@@ -29,9 +30,11 @@ ms.locfileid: "56606359"
 ```
 
 ## <a name="requirements"></a>요구 사항
- **헤더:** *cvmarkersobj.h*
 
- **네임스페이스:** Concurrency::diagnostic
+**헤더:** *cvmarkersobj.h*
 
- ## <a name="see-also"></a>참고 항목
+**네임스페이스:** Concurrency::diagnostic
+
+## <a name="see-also"></a>참고 항목
+
 - [span 클래스](../profiling/span-class.md)

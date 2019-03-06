@@ -13,12 +13,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: edb6d9133fdf3a2a7a4109b9f438f86cc0cdec61
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c9f42cb9cc506a47432397bc0135d2bd3123bcf7
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931574"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953971"
 ---
 # <a name="troubleshoot-visual-studio-2017-installation-and-upgrade-issues"></a>Visual Studio 2017 설치 및 업그레이드 문제 해결
 
@@ -84,7 +84,7 @@ Visual Studio 설치 관리자 부트스트래퍼는 나머지 Visual Studio 설
 
 ## <a name="how-to-get-visual-studio-installation-logs"></a>Visual Studio 설치 로그를 가져오는 방법
 
-대부분의 설치 문제 해결에는 설치 로그가 필요합니다. Visual Studio 설치 관리자에서 [문제 보고](../ide/how-to-report-a-problem-with-visual-studio-2017.md)를 사용하여 문제를 제출하는 경우 이러한 로그는 보고서에 자동으로 포함됩니다.
+대부분의 설치 문제 해결에는 설치 로그가 필요합니다. Visual Studio 설치 관리자에서 [문제 보고](../ide/how-to-report-a-problem-with-visual-studio.md)를 사용하여 문제를 제출하는 경우 이러한 로그는 보고서에 자동으로 포함됩니다.
 
 Microsoft 지원에 문의하는 경우 [Microsoft Visual Studio 및 .NET Framework 로그 컬렉션 도구](https://aka.ms/vscollect)를 사용하여 이러한 설치 로그를 제공해야 할 수 있습니다. 로그 컬렉션 도구는 .NET Framework, Windows SDK 및 SQL Server를 포함하여 Visual Studio 2017에 의해 설치된 모든 구성 요소에서 설치 로그를 수집합니다. 또한 컴퓨터 정보, Windows Installer 인벤토리는 물론 Visual Studio 설치 관리자, Windows Installer 및 시스템 복원에 대한 Windows 이벤트 로그 정보도 수집합니다.
 

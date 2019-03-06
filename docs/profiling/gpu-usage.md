@@ -7,12 +7,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 893383d8260a3b7904921e12175f81741a7978b5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f16a518542e8acab636da6e395fdfee8d7a25085
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54948910"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223470"
 ---
 # <a name="gpu-usage"></a>GPU 사용량
 
@@ -155,7 +155,7 @@ GPU 사용량 도구에서 앱을 실행하면 GPU 사용량 도구 창 하단�
 
 - [DirectX 도구를 사용하여 어려운 게임 그래픽 문제 해결(비디오)](https://channel9.msdn.com/Events/GDC/GDC-2015/Solve-the-Tough-Graphics-Problems-with-your-Game-Using-DirectX-Tools)
 - [Visual Studio의 GPU 사용량 도구(비디오)](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/715)
-- [Visual Studio 2013 업데이트 4 CTP1의 GPU 사용량 도구(블로그)](https://blogs.msdn.microsoft.com/vcblog/2014/09/04/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1/)
+- [Visual Studio 2013 업데이트 4 CTP1의 GPU 사용량 도구(블로그)](https://devblogs.microsoft.com/cppblog/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1/)
 - [Visual Studio의 DirectX에 대한 GPU 사용량(블로그)](https://blogs.msdn.microsoft.com/ianhu/2014/12/16/gpu-usage-for-directx-in-visual-studio/)
 - [GPUView](/windows-hardware/drivers/display/using-gpuview)
 - [Windows Performance Analyzer](/windows-hardware/test/wpt/windows-performance-analyzer)

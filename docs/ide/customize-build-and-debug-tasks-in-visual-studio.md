@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c03943f4c50785f0c02be2afc0e874c94c1021b0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 23888809dd4dfd05058ed71ba8a82e8e532d7e61
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919055"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954175"
 ---
 # <a name="customize-build-and-debug-tasks-for-open-folder-development"></a>“폴더 열기” 개발에 대한 빌드 및 디버그 작업 사용자 지정
 
@@ -56,6 +56,7 @@ Visual Studio는 여러 다른 언어 및 코드베이스를 실행하는 방법
 
 *hello.cs*라는 단일 C# 파일로 구성된 코드베이스를 고려하세요. 이러한 코드베이스에 대한 *메이크파일*은 다음과 같이 표시됩니다.
 
+<!-- markdownlint-disable MD010 -->
 ```makefile
 build: directory hello.exe
 
@@ -72,6 +73,7 @@ directory: bin
 bin:
     md bin
 ```
+<!-- markdownlint-enable MD010 -->
 
 빌드, 정리 및 다시 빌드 대상이 포함된 이러한 *메이크파일*의 경우 다음 *tasks.vs.json* 파일을 정의할 수 있습니다. NMAKE를 빌드 도구로 사용하여 코드베이스를 빌드, 다시 빌드 및 정리하기 위한 세 가지 빌드 작업을 포함합니다.
 

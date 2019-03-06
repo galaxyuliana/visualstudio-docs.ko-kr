@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 장기 계약 없이 월간 또는 연간 기준으로 Visual Studio Professional 또는 Visual Studio Enterprise를 임대합니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 5aee20e2c96dd79455968e8aeb87b8f17ec0cf65
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: eb9d7034a18d8be6fd4c20ddde1c3708cc206fa0
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842223"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953423"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Visual Studio Enterprise 및 Visual Studio Professional 클라우드 구독 구입
 
@@ -26,28 +26,28 @@ ms.locfileid: "56842223"
 
 ## <a name="before-you-start"></a>시작하기 전에
 
-*   구매를 청구하려면 [Azure 구독](https://azure.microsoft.com/pricing/purchase-options/)이 필요합니다. Visual Studio Marketplace에서 첫 번째 구매 전에 또는 첫 번째 구매를 진행하면서 [등록](https://portal.azure.com)할 수 있습니다.
+* 구매를 청구하려면 [Azure 구독](https://azure.microsoft.com/pricing/purchase-options/)이 필요합니다. Visual Studio Marketplace에서 첫 번째 구매 전에 또는 첫 번째 구매를 진행하면서 [등록](https://portal.azure.com)할 수 있습니다.
 
 ## <a name="who-can-buy-visual-studio-cloud-subscriptions"></a>누가 Visual Studio 클라우드 구독을 구매할 수 있나요?
 Azure 구독에 대한 [소유자 및 기여자 액세스 권한](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0)이 있는 누구나 클라우드 구독을 구매할 수 있습니다.
 
 ## <a name="how-to-buy-cloud-subscriptions"></a>클라우드 구독 구입 방법
 
-1.  [Visual Studio Marketplace > 구독](https://marketplace.visualstudio.com/subscriptions)에 로그인합니다.
+1. [Visual Studio Marketplace > 구독](https://marketplace.visualstudio.com/subscriptions)에 로그인합니다.
 
-2.  구매할 구독을 선택합니다(예: Visual Studio Professional - 월간 구독).
+2. 구매할 구독을 선택합니다(예: Visual Studio Professional - 월간 구독).
 
-3.  청구에 사용할 Azure 구독을 선택합니다. Azure 구독이 없는 경우 새 Azure 계정을 만들 수 있습니다.
+3. 청구에 사용할 Azure 구독을 선택합니다. Azure 구독이 없는 경우 새 Azure 계정을 만들 수 있습니다.
     > [!div class="mx-imgBorder"]
     > ![청구에 대한 Azure 구독 선택](_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png)
 
-4.  구입할 구독의 수를 선택합니다.
+4. 구입할 구독의 수를 선택합니다.
     > [!div class="mx-imgBorder"]
     > ![구독 수 선택](_img/buy-vs-subscriptions/buy-vs-sub-users.png)
 
     자신에게 할당된 구독을 사용하지 않으려면 **이 구독을 내게 할당**을 지웁니다.
 
-5.  구매를 확인하고 완료합니다. 구독을 자신에게 할당한 경우 [Visual Studio 구독자 포털](https://my.visualstudio.com)을 방문해 소프트웨어를 다운로드하고 다른 구독자 혜택을 사용하기 시작할 수 있습니다.
+5. 구매를 확인하고 완료합니다. 구독을 자신에게 할당한 경우 [Visual Studio 구독자 포털](https://my.visualstudio.com)을 방문해 소프트웨어를 다운로드하고 다른 구독자 혜택을 사용하기 시작할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
 > ![구매를 성공적으로 완료](_img/buy-vs-subscriptions/buy-vs-sub-success.png)

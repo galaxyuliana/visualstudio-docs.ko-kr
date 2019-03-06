@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d3db48578d2b316ddd203316a15536b144cb28cf
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c45f4b374e553115462a010c4a61cc2d4a0a3e9c
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910456"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954337"
 ---
 # <a name="developer-community-data-privacy"></a>개발자 커뮤니티 데이터 개인 정보
 
@@ -85,5 +85,5 @@ Visual Studio에서 **문제 보고**가 시작되면 다음 유형의 데이터
 
 ## <a name="see-also"></a>참고 항목
 
-- [Visual Studio의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio-2017.md)
+- [Visual Studio의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md)
 - [C++ 문제 보고서 데이터 개인 정보](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset#reports-and-privacy)

@@ -7,12 +7,12 @@ ms.date: 10/03/2017
 ms.topic: conceptual
 description: Visual Studio 구독에서 제품 키를 얻고 관리하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: ed204bad85bcc63603aff6585adfdf30ffec4168
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 9a1163aecab9f9330f1464704d0aa97018e51d6b
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843726"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953903"
 ---
 # <a name="using-product-keys-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 제품 키 사용
 
@@ -104,10 +104,10 @@ Visual Studio 구독자는 [구독자 포털](https://my.visualstudio.com?wt.mc_
 각 유형의 5개 키는 Windows Server 2008 R2에 대해 사용할 수 있으며, 각 키는 20개의 연결을 지원합니다. Windows Server 2012 R2의 경우 각 유형에 대한 4개의 키가 제공되며 각각 50개의 연결을 지원합니다.
 
 #### <a name="to-enable-additional-connections-in-windows-server"></a>Windows Server에서 추가 연결을 사용하도록 설정하려면
-1.  서버 관리자를 엽니다.
-2.  왼쪽 탐색 창에서 [서버] 목록을 엽니다.
-3.  라이선스 서버를 마우스 오른쪽 단추로 클릭하고 "라이선스 설치"를 선택합니다.
-4.  마법사의 단계별 지침을 따릅니다.  계약 유형을 선택할 때 "라이선스 팩(일반 정품)"을 선택하고 [내] 포털에서 얻은 제품 키를 입력합니다.
+1. 서버 관리자를 엽니다.
+2. 왼쪽 탐색 창에서 [서버] 목록을 엽니다.
+3. 라이선스 서버를 마우스 오른쪽 단추로 클릭하고 "라이선스 설치"를 선택합니다.
+4. 마법사의 단계별 지침을 따릅니다.  계약 유형을 선택할 때 "라이선스 팩(일반 정품)"을 선택하고 [내] 포털에서 얻은 제품 키를 입력합니다.
 
 다음 조건이 충족되면 최종 사용자가 RDS를 통해 애플리케이션에 액세스할 수 있습니다.
 - 사용자는 익명이어야 합니다(인증되지 않은 상태).

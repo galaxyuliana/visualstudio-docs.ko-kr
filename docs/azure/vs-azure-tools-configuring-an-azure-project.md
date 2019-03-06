@@ -9,12 +9,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/06/2017
 ms.author: ghogen
-ms.openlocfilehash: 8f26d862562f7741b4e76d61d052387871771fd7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 77985de756274793c99673c79dac26e59129a7ea
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55929117"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56952737"
 ---
 # <a name="configure-an-azure-cloud-service-project-with-visual-studio"></a>Visual Studio에서 Azure 클라우드 서비스 프로젝트 구성
 프로젝트 요구 사항에 따라 Azure 클라우드 서비스 프로젝트를 구성할 수 있습니다. 다음 범주에 대해 프로젝트 속성을 설정할 수 있습니다.

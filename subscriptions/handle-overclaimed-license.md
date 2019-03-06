@@ -7,12 +7,12 @@ ms.date: 02/13/2018
 ms.topic: conceptual
 description: 관리자가 과도하게 요청된 구독을 해결하는 방법에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: aa80a065568cbe7b7f7c3cef1a62fd230c54e751
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 6c48bbc077c3d88e1d83f7fa860f4fc6c55fdcd1
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843700"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953932"
 ---
 # <a name="handling-over-claimed-subscriptions"></a>‘과도하게 요청된’ 구독 처리
 
@@ -24,9 +24,8 @@ ms.locfileid: "56843700"
 > [!div class="mx-imgBorder"]
 > ![과도하게 요청된 구독 알림](_img/over-claimed/over-claimed-alert.png)
 
+1. 과도하게 요청된 라이선스를 해결하려면 경고 텍스트를 클릭합니다. 그러면 구독 수준에 할당된 구독자의 필터링된 목록과 과도하게 요청된 만료 날짜가 표시됩니다. 
 
-1.  과도하게 요청된 라이선스를 해결하려면 경고 텍스트를 클릭합니다. 그러면 구독 수준에 할당된 구독자의 필터링된 목록과 과도하게 요청된 만료 날짜가 표시됩니다.
+2. 과도하게 요청된 라이선스를 수정하기 위해 필요한 구독자를 제거합니다. 
 
-2.  과도하게 요청된 라이선스를 수정하기 위해 필요한 구독자를 제거합니다.
-
-3.  페이지의 왼쪽에 있는 개요가 다시 규정은 준수하는 것을 나타내도록 업데이트되고 과도하게 요청됨 알림이 모두 사라집니다.
+3. 페이지의 왼쪽에 있는 개요가 다시 규정은 준수하는 것을 나타내도록 업데이트되고 과도하게 요청됨 알림이 모두 사라집니다. 

@@ -16,12 +16,12 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 5d7150ec407b2ce9c0c4c5bf22a8ae75b3ac3b93
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 2af264ec8cf44f435f640a81a61dbd4cdbd84bd3
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450596"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223314"
 ---
 # <a name="whats-new-in-visual-studio-2017"></a>Visual Studio 2017의 새로운 기능
 
@@ -266,7 +266,7 @@ UWP(Universal Windows Platform)는 Windows 10용 앱 플랫폼입니다. API 집
 
 **15.5의 새로운 기능**: Visual Studio 2017 버전 15.5는 Windows 10 Fall Creators Update SDK(10.0.16299.0)를 가장 잘 지원합니다. Windows 10 Fall Creators Update는 UWP 개발자를 위해 많은 사항이 개선되었습니다. 다음은 큰 변화 중 일부입니다. 
 
-* **.NET Standard 2.0에 대한 지원**<br/>간소화된 앱 배포 외에, Windows 10 Fall Creators Update는 .NET Standard 2.0 지원을 제공하는 첫 번째 Windows 10 릴리스입니다. 사실상, [.NET Standard](https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/)는 모든 .NET 플랫폼에서 구현할 수 있는 기본 클래스 라이브러리의 참조 구현입니다. .NET Standard의 목표는 .NET 개발자가 작업하는 모든 .NET 플랫폼 전반에서 코드를 최대한 쉽게 공유할 수 있도록 하는 것입니다.
+* **.NET Standard 2.0에 대한 지원**<br/>간소화된 앱 배포 외에, Windows 10 Fall Creators Update는 .NET Standard 2.0 지원을 제공하는 첫 번째 Windows 10 릴리스입니다. 사실상, [.NET Standard](https://devblogs.microsoft.com/dotnet/introducing-net-standard/)는 모든 .NET 플랫폼에서 구현할 수 있는 기본 클래스 라이브러리의 참조 구현입니다. .NET Standard의 목표는 .NET 개발자가 작업하는 모든 .NET 플랫폼 전반에서 코드를 최대한 쉽게 공유할 수 있도록 하는 것입니다.
 * **UWP와 Win32의 장점**<br/>Windows 10 플랫폼은 [데스크톱 브리지](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root)를 통해 개발자가 중점을 두는 것이 UWP, WPF, Windows Forms 또는 Xamarin 중 무엇이든 모든 .NET 개발자가 Windows 10을 더 잘 활용할 수 있도록 향상되었습니다. Visual Studio 2017 버전 15.5의 새로운 앱 패키징 프로젝트 형식을 사용하면 UWP 프로젝트에서 하듯이 WPF 또는 Windows Forms 프로젝트용 Windows 앱 패키지를 만들 수 있습니다. 앱을 패키지하면 Windows 10 앱 배포의 모든 이점과 Microsoft Store(소비자 앱) 또는 비즈니스 및 교육용 Microsoft Store를 통해 배포할 수 있는 옵션이 제공됩니다. 패키지된 앱은 데스크톱의 전체 UWP API 표면과 Win32 API 모두에 액세스할 수 있기 때문에 UWP API 및 Windows 10 기능을 사용하여 WPF 및 Windows Forms 애플리케이션을 점진적으로 현대화할 수 있습니다. 또한 모든 Win32 기능을 갖춘 데스크톱에서 실행되는 UWP 애플리케이션에 Win32 구성 요소를 포함할 수 있습니다.
 
 UWP에 대한 자세한 내용은 [UWP(유니버설 Windows 플랫폼)용 앱 개발](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) 페이지를 참조하세요.
@@ -377,7 +377,7 @@ Visual Studio를 개선하는 방법을 제안하거나 제품 지원 옵션에 
 
 ### <a name="report-a-problem"></a>문제 보고
 
- 발생한 문제의 전반적인 영향을 메시지만으로 전달할 수 없는 경우도 있습니다. 시스템 중단, 충돌 또는 기타 성능 문제가 발생하는 경우 **문제 보고** 도구를 사용하여 쉽게 재현 단계 및 지원 파일(예: 스크린샷, 추적 및 힙 덤프 파일)을 공유할 수 있습니다. 이 도구를 사용하는 방법에 대한 자세한 내용은 [문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio-2017.md) 페이지를 참조하세요.
+ 발생한 문제의 전반적인 영향을 메시지만으로 전달할 수 없는 경우도 있습니다. 시스템 중단, 충돌 또는 기타 성능 문제가 발생하는 경우 **문제 보고** 도구를 사용하여 쉽게 재현 단계 및 지원 파일(예: 스크린샷, 추적 및 힙 덤프 파일)을 공유할 수 있습니다. 이 도구를 사용하는 방법에 대한 자세한 내용은 [문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md) 페이지를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

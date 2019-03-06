@@ -7,12 +7,12 @@ ms.date: 03/14/2018
 ms.topic: conceptual
 description: MPSA(Microsoft 제품 및 서비스 계약)에서 Visual Studio 구독
 searchscope: VS Subscription
-ms.openlocfilehash: 59332dcc1d993df414a9c5981778767adaf155e9
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: cf0a6c0c7f09cefa70edd0af1dcedf46afdf81bf
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841674"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953809"
 ---
 # <a name="visual-studio-subscriptions-in-a-microsoft-products-and-services-agreement-mpsa"></a>MPSA(Microsoft 제품 및 서비스 계약)에서 Visual Studio 구독
 
@@ -29,21 +29,22 @@ MPSA 고객으로서 MPSA을 통해 구매한 자산을 관리할 수 있는 포
 테넌트 연결을 완료하기 전에 Visual Studio 구독 관리자가 되는 데 필요한 몇 가지 요구 사항/단계가 있습니다.
 
 ## <a name="pre-tenant-association-managed-tenant"></a>사전 테넌트 연결(관리되는 테넌트)
--   비즈니스 센터에 등록된 사용자여야 합니다.
--   사용자는 자신이 속한 테넌트 내에서 사용자 관리자(최소한) 또는 전역 관리자여야 합니다. (회사가 이미 클라우드 서비스를 사용하는 경우 해당됩니다). Visual Studio 구독 관리자가 되려면 두 역할 중 하나가 필요합니다.
--   사용자는 자신의 테넌트에 구매 계정을 연결할 수 있으려면 자신이 속한 테넌트의 전역 관리자여야 합니다.
--   비즈니스 센터에서 사용자는 계정 관리자여야 합니다.
--   [Azure](https://portal.azure.com/)의 사용자 프로필(및 다른 모든 사용자)에서 "국가 또는 지역" 필드는 해당 지역(예: 미국, 캐나다 등)에 따라 적절하게 채워야 합니다.
+
+- 비즈니스 센터에 등록된 사용자여야 합니다.
+- 사용자는 자신이 속한 테넌트 내에서 사용자 관리자(최소한) 또는 전역 관리자여야 합니다. (회사가 이미 클라우드 서비스를 사용하는 경우 해당됩니다). Visual Studio 구독 관리자가 되려면 두 역할 중 하나가 필요합니다.
+- 사용자는 자신의 테넌트에 구매 계정을 연결할 수 있으려면 자신이 속한 테넌트의 전역 관리자여야 합니다.
+- 비즈니스 센터에서 사용자는 계정 관리자여야 합니다.
+- [Azure](https://portal.azure.com/)의 사용자 프로필(및 다른 모든 사용자)에서 "국가 또는 지역" 필드는 해당 지역(예: 미국, 캐나다 등)에 따라 적절하게 채워야 합니다. 
 
 > [!NOTE]
 > Visual Studio 구독 관리자로 만들려는 사용자 모두는 2단계 및 5단계의 조건을 충족하는 데 필요하므로 비즈니스 센터의 사용자가 될 것을 요구받지 않습니다.
 
 위의 다섯 단계의 조건을 모두 충족하면 아래 단계에 따라 사용자는 자신의 테넌트에 구매 계정을 연결할 수 있습니다.
-1.  [비즈니스 센터](https://businessaccount.microsoft.com/)에 로그인합니다.
-2.  **계정** 탭을 클릭하고 **도메인 연결**을 선택합니다.
-3.  **구매 계정**(1 초과 구매 계정이 있는 경우)을 선택합니다.
-4.  **테넌트**(예: contoso.onmicrosoft.com)를 선택합니다.
-5.  **도메인 연결**을 클릭합니다.
+1. [비즈니스 센터](https://businessaccount.microsoft.com/)에 로그인합니다.
+2. **계정** 탭을 클릭하고 **도메인 연결**을 선택합니다.
+3. **구매 계정**(1 초과 구매 계정이 있는 경우)을 선택합니다.
+4. **테넌트**(예: contoso.onmicrosoft.com)를 선택합니다.
+5. **도메인 연결**을 클릭합니다.
 
 연결 시 필요한 조건을 충족한 모든 사용자는 일반적으로 몇 분 이내에 Visual Studio 구독 관리자로서 프로비젼됩니다. 그러나 때로는 최대 24시간이 걸릴 수도 있습니다. 프로비전되면 Visual Studio 구독 관리 포털에 액세스할 수 있게 됩니다. 24시간 보다 오래 걸릴 경우 MPSA 고객 지원 팀에 문의하세요.
 
