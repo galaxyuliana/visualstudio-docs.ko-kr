@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a063a42cd3597f69d0500012d74c7be700e02138
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c70782190bbfd76f5536a68eb597dbf3d122e773
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634996"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323830"
 ---
 # <a name="walkthrough-download-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer"></a>연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드
 위성 어셈블리를 사용하면 Windows Forms 애플리케이션을 여러 문화권에 맞게 구성할 수 있습니다. *위성 어셈블리* 는 애플리케이션의 기본 문화권 이외의 문화권을 위한 애플리케이션 리소스가 포함된 어셈블리입니다.
@@ -53,7 +53,7 @@ ms.locfileid: "56634996"
 
 6.  **애플리케이션 파일** 대화 상자를 닫습니다.
 
-### <a name="to-download-satellite-assemblies-on-demand-in-c"></a>C#에서 요청 시 위성 어셈블리를 다운로드하려면
+### <a name="to-download-satellite-assemblies-on-demand-in-c"></a>C\#에서 요청 시 위성 어셈블리를 다운로드하려면
 
 1.  *Program.cs* 파일을 엽니다. 솔루션 탐색기에서 이 파일을 표시하지 않으려면 프로젝트를 선택하고 **프로젝트** 메뉴에서 **모든 파일 표시**를 클릭합니다.
 
