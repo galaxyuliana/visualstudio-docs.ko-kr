@@ -7,12 +7,12 @@ ms.date: 03/14/2018
 ms.topic: conceptual
 description: 구독 관리자가 관리 포털에 액세스하여 VL(볼륨 라이선스)을 통해 획득한 구독을 관리할 수 있는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 846eb6ecf69253086079cf06fe4c53a8860d996d
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 6c8a68a1a25e99018e7f41fedbfc9d01b191e2e7
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843142"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953262"
 ---
 # <a name="accessing-the-portal-and-managing-administrators---for-subscriptions-acquired-through-volume-licensing-vl"></a>포털에 액세스 및 관리자 관리 - VL(볼륨 라이선스)을 통해 획득한 구독의 경우
 
@@ -31,7 +31,7 @@ VLSC에서 구독 관리에 대한 자세한 내용은 다음 가이드를 참�
 
 Visual Studio 구독 관리 포털에 조직을 등록할 준비가 되면 온보딩 프로세스를 완료하도록 초대하는 전자 메일을 기본/통지 연락처 담당자에게 보냅니다. 아래의 자세한 내용은 새 포털에 온보딩하기 위해 수행해야 하는 단계입니다. 과정을 안내하려면 이 관리자 온보딩 비디오 또는 문서의 다음 섹션을 확인하세요.
 
-1.  PCN 찾기 및 로그인
+1. PCN 찾기 및 로그인
 
      a. 전자 메일에는 고유한 링크 및 해당 PCN(공용 고객 번호)의 마지막 세 자리와 함께 기본/통지 연락처 담당자가 제공됩니다.  (기본 또는 통지 연락처 담당자가 둘 이상의 이메일을 받는 경우 이는 둘 이상의 PCN이 있음을 의미합니다. 각 이메일에서 참조된 PCN에 대한 고유한 링크를 사용하여 프로세스를 완료해야 합니다.)
 
@@ -41,9 +41,9 @@ Visual Studio 구독 관리 포털에 조직을 등록할 준비가 되면 온�
 
      d. 다음으로 PCN을 입력해야 합니다.
 
-2.  관리자를 설정합니다.  PCN을 입력한 후에는 새 시스템에 슈퍼 관리자로 등록되며 다른 슈퍼 관리자와 관리자(이전의 구독 관리자)를 추가할 수 있습니다. 액세스 권한을 손실하지 않도록 방지하려면 조직의 마이그레이션 날짜 이전에 완료해야 합니다.
+2. 관리자를 설정합니다.  PCN을 입력한 후에는 새 시스템에 슈퍼 관리자로 등록되며 다른 슈퍼 관리자와 관리자(이전의 구독 관리자)를 추가할 수 있습니다. 액세스 권한을 손실하지 않도록 방지하려면 조직의 마이그레이션 날짜 이전에 완료해야 합니다.
 
-3.  새 구독 관리 포털에 액세스합니다. 조직이 마이그레이션되면 새 포털에 액세스하고 구독 관리를 시작하도록 초대하는 전자 메일을 새로 추가된 슈퍼 관리자와 관리자에게 보냅니다.
+3. 새 구독 관리 포털에 액세스합니다. 조직이 마이그레이션되면 새 포털에 액세스하고 구독 관리를 시작하도록 초대하는 전자 메일을 새로 추가된 슈퍼 관리자와 관리자에게 보냅니다.
 
 새 Visual Studio 구독 관리 포털에 사용자를 추가해야 하는 경우 기본/통지 연락처 담당자가 누구인지 확실하지 않으면 [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)에 로그인한 후에 이 정보를 찾을 수 있습니다. VLSC에서 기본/통지 연락처 담당자를 찾는 단계는 [기본 연락처 담당자 찾기](find-primary-contact.md) 토픽을 살펴보세요.
 

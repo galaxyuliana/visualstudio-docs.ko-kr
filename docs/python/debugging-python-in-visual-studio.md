@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: fc6c448a80f9517a3bde0333736f4cb83efb09c6
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 5bc1f41e683b8bf58486646b5beb2ae4de3d4049
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155879"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954363"
 ---
 # <a name="debug-your-python-code"></a>Python 코드 디버그
 
@@ -246,7 +246,7 @@ ptvsd 설치를 관리하려면:
 1. 다음 명령을 입력합니다.
 
     ```ps
-    DebugAdapterHost.Logging /On
+    DebugAdapterHost.Logging /On /OutputWindow
     ```
 
 1. 디버깅을 시작하고 문제를 재현하는 데 필요한 모든 단계를 진행합니다. 이 시간 동안 디버그 로그는 **출력** 창의 **디버그 어댑터 호스트 로그** 아래에 나타납니다. 그런 다음, 해당 창에서 로그를 복사하여 GitHub 문제, 전자 메일 등에 붙여넣을 수 있습니다.
@@ -256,7 +256,7 @@ ptvsd 설치를 관리하려면:
 1. Visual Studio가 중단되거나 달리 **출력** 창에 액세스할 수 없는 경우 Visual Studio를 다시 시작한 다음, 명령 창을 열고 다음 명령을 입력합니다.
 
     ```ps
-    DebugAdapterHost.Logging /On /OutputWindow
+    DebugAdapterHost.Logging /On
     ```
 
 1. 디버깅을 시작하고 문제를 다시 재현합니다. 그러면 `%temp%\DebugAdapterHostLog.txt`에서 디버거 로그를 찾을 수 있습니다.

@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: f287de1e756d20575e1c72775719b2c366534b6d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ba118f9b0b08b5e092fa85ccc3940cd41a7ff9c8
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927557"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222534"
 ---
 # <a name="application-page-project-designer-c"></a>프로젝트 디자이너, 애플리케이션 페이지(C#)
 
@@ -71,7 +71,7 @@ ms.locfileid: "55927557"
 
 **바인딩 리디렉션 자동 생성**
 
-앱 또는 해당 구성 요소가 동일한 어셈블리의 버전을 두 개 이상 참조하는 경우 프로젝트에 바인딩 리디렉션이 추가됩니다. 프로젝트 파일에서 바인딩 리디렉션을 수동으로 정의하려는 경우 **바인딩 리디렉션 자동 생성**의 선택을 취소합니다. 이 확인란은 Visual Studio 2017 버전 15.7에서 도입되었습니다.
+앱 또는 해당 구성 요소가 동일한 어셈블리의 버전을 두 개 이상 참조하는 경우 프로젝트에 바인딩 리디렉션이 추가됩니다. 프로젝트 파일에서 바인딩 리디렉션을 수동으로 정의하려는 경우 **바인딩 리디렉션 자동 생성**의 선택을 취소합니다.
 
 리디렉션에 대한 자세한 내용은 [어셈블리 버전 리디렉션](/dotnet/framework/configure-apps/redirect-assembly-versions)을 참조하세요.
 

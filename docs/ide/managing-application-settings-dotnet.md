@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8e2693d661e7bc442f8de2ba707487e7d35068e4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 91d3004edc39b2fd4f9cc6be72407fd6a46274d1
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954246"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323573"
 ---
 # <a name="manage-application-settings-net"></a>애플리케이션 설정 관리(.NET)
 
@@ -84,7 +84,9 @@ Visual Basic 프로젝트에서는 런타임에 `My.Settings` 개체를 사용�
 
 설정에 액세스할 때는 `My.Settings` 개체와 기본 *.settings* 파일을 사용하는 것이 좋습니다. 이는 **설정 디자이너**를 사용하여 설정에 속성을 할당할 수 있을 뿐 아니라 사용자 속성이 애플리케이션이 종료되기 전에 자동으로 저장되기 때문입니다. 그러나 Visual Basic 애플리케이션에서 설정에 직접 액세스할 수 있습니다. 이 경우 `MySettings` 클래스에 액세스하고 프로젝트 루트의 사용자 지정 *.settings* 파일을 사용해야 합니다. 애플리케이션을 끝내기 전에 사용자 설정을 저장해야 합니다. C# 애플리케이션의 경우도 마찬가지이며 이는 다음 단원에서 설명합니다.
 
-## <a name="access-or-change-application-settings-at-run-time-in-c"></a>C#에서 런타임에 애플리케이션 설정 액세스 또는 변경 #
+<!-- markdownlint-disable MD003 -->
+## <a name="access-or-change-application-settings-at-run-time-in-c"></a>C#에서 런타임에 애플리케이션 설정 액세스 또는 변경
+<!-- markdownlint-enable MD003 -->
 
 Visual Basic을 제외한 C# 등의 언어에서는 다음 [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 예제에서와 같이 `Settings` 클래스에 직접 액세스해야 합니다.
 

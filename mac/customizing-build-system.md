@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
-ms.openlocfilehash: f2b3abf20e75dcf783f03f696ec679a1ce575c56
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
+ms.openlocfilehash: 0c2a4590b15faa2573ccab3ff51ff5cd54e177ca
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55853640"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953845"
 ---
 # <a name="customizing-the-build-system"></a>빌드 시스템 사용자 지정
 
@@ -66,14 +66,14 @@ PropertyGroup을 사용하여 설정되며, 임의 개수의 속성을 포함하
 
 ```xml
 <PropertyGroup>
-        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-        <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-        <ProjectGuid>{E248730E-1393-43CC-9183-FFA42F63BE81}</ProjectGuid>
-        <OutputType>Exe</OutputType>
-        <RootNamespace>refactoring</RootNamespace>
-        <AssemblyName>refactoring</AssemblyName>
-        <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    </PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E248730E-1393-43CC-9183-FFA42F63BE81}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>refactoring</RootNamespace>
+    <AssemblyName>refactoring</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+</PropertyGroup>
 ```
 
 `$()` 구문을 사용하여 식에서 속성을 참조할 수 있습니다. 예를 들어 `$(Foo)`는 `Foo` 속성의 값으로 평가됩니다. 속성을 설정하지 않은 경우 오류 없이 빈 문자열로 평가됩니다.

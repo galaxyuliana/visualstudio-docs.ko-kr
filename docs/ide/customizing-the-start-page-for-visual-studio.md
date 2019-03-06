@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 00002de014e36f53976009f0904c987214f0c28b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: c15824ec28547cbdb18fdfebc4ebcee1bdd1d387
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56685133"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953384"
 ---
 # <a name="customize-startup"></a>시작 사용자 지정
 
@@ -34,17 +34,17 @@ ms.locfileid: "56685133"
 
 1. 메뉴 모음에서 **도구** > **옵션**을 선택합니다.
 
-1. **환경**을 확장한 다음 **시작**을 선택합니다.
+2. **환경**을 확장한 다음 **시작**을 선택합니다.
 
 ::: moniker range="vs-2017"
 
-1. **시작 시** 목록에서 Visual Studio가 시작된 후 표시할 항목을 선택합니다.
+3. **시작 시** 목록에서 Visual Studio가 시작된 후 표시할 항목을 선택합니다.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-1. **시작 시 열기** 목록에서 Visual Studio 시작 후에 수행할 작업을 선택합니다. **시작 창**(새 프로젝트 또는 기존 프로젝트를 열 수 있음), **최근 솔루션** 또는 **빈 환경** 중에서 선택할 수 있습니다.
+3. **시작 시 열기** 목록에서 Visual Studio 시작 후에 수행할 작업을 선택합니다. **시작 창**(새 프로젝트 또는 기존 프로젝트를 열 수 있음), **최근 솔루션** 또는 **빈 환경** 중에서 선택할 수 있습니다.
 
 ::: moniker-end
 

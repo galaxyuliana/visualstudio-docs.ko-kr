@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
-ms.openlocfilehash: b6a79982159c20d1d9634cd04117c859f8c69275
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.openlocfilehash: e34a1a65e168b92f5002fc52586cae8967b46d3a
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51294229"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953877"
 ---
 # <a name="sign-in-to-visual-studio-for-mac"></a>Mac용 Visual Studio에 로그인
 
@@ -34,7 +34,7 @@ Mac용 Visual Studio에 로그인하려면 다음 단계를 따르세요.
 
     Xamarin 자격 증명으로는 Mac용 Visual Studio에 로그인할 수 없습니다.
 
-3.  로그인하면 사용자 라이선스 형식이 표시됩니다. 이 대화 상자에서 사용할 Microsoft 계정을 더 추가할 수 있습니다.
+3. 로그인하면 사용자 라이선스 형식이 표시됩니다. 이 대화 상자에서 사용할 Microsoft 계정을 더 추가할 수 있습니다.
 
     ![로그인 성공](media/signing-in-image14.png)
 

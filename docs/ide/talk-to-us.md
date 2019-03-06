@@ -11,12 +11,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 65bfd75dfaeb31ae9864824ff0ab14c874e86d36
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 8265a134ab870144aa41330dbbc21bb4412ff1ca
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609438"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953524"
 ---
 # <a name="visual-studio-product-feedback"></a>Visual Studio 제품 피드백
 
@@ -24,7 +24,7 @@ ms.locfileid: "56609438"
 
 ## <a name="i-want-to-report-a-problem-with-visual-studio"></a>Visual Studio의 문제를 보고하려는 경우
 
-Visual Studio에서 크래시, 느린 성능 또는 예기치 않은 동작과 같은 문제가 발생하는 경우에는 **문제 보고** 도구를 사용하여 문제를 알려주세요. Visual Studio에서 **빠른 실행** 옆에 있는 피드백 아이콘을 선택하거나, 메뉴 모음에서 **도움말** > **의견 보내기** > **문제 보고**를 선택합니다. 그러면 브라우저에서 [개발자 커뮤니티](https://developercommunity.visualstudio.com) 페이지가 열리며, 여기서 로그인하여 문제를 보고할 수 있습니다. 자세한 내용은 [Visual Studio 2017의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio-2017.md)을 참조하세요.
+Visual Studio에서 크래시, 느린 성능 또는 예기치 않은 동작과 같은 문제가 발생하는 경우에는 **문제 보고** 도구를 사용하여 문제를 알려주세요. Visual Studio에서 **빠른 실행** 옆에 있는 피드백 아이콘을 선택하거나, 메뉴 모음에서 **도움말** > **의견 보내기** > **문제 보고**를 선택합니다. 그러면 브라우저에서 [개발자 커뮤니티](https://developercommunity.visualstudio.com) 페이지가 열리며, 여기서 로그인하여 문제를 보고할 수 있습니다. 자세한 내용은 [Visual Studio의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md)을 참조하세요.
 
 ## <a name="i-want-to-make-a-suggestion-about-visual-studio-features"></a>Visual Studio 기능에 대한 제안 보내기
 
@@ -59,6 +59,6 @@ Microsoft 지원 서비스는 현재 가격, 약관 및 조건에 따라 다를 
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio-2017.md)
+* [Visual Studio의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md)
 * [개발자 커뮤니티](https://developercommunity.visualstudio.com)
 * [개발자 커뮤니티 데이터 개인 정보](developer-community-privacy.md)

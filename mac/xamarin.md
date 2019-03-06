@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 02/12/2019
 ms.assetid: 339F6051-5F90-48DC-8237-EBBC8A03A32B
-ms.openlocfilehash: cae109ef815e837026bc12366a5902d7d151edcb
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 1a7ba3101713c4461f3d3558a97cdbea37eac604
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56319473"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428572"
 ---
 # <a name="xamarin-mobile-app-development"></a>Xamarin 모바일 앱 개발
 
@@ -28,7 +28,7 @@ Android Designer에 대한 자세한 내용은 [Xamarin.Android 디자이너 개
 
 ## <a name="ios"></a>iOS
 
-iOS 디자이너는 Mac용 Visual Studio와 완벽하게 통합되었으며 .xib 파일 및 Storyboard 파일을 시각적으로 편집하여 iOS, tvOS, WatchOS UI 및 전환을 만들 수 있도록 합니다. 도구 상자와 Design Surface 간에 끌어서 놓기 기능을 사용하는 한편 직관적인 이벤트 처리 방식을 사용하여 전체 사용자 인터페이스를 빌드할 수 있습니다. iOS 디자이너는 또한 디자인 타임 렌터링의 추가 이점을 통해 [custom controls/xamarin/ios/user-interface/designer/ios-designable-controls-overview)를 지원합니다.
+iOS 디자이너는 Mac용 Visual Studio와 완벽하게 통합되었으며 .xib 파일 및 Storyboard 파일을 시각적으로 편집하여 iOS, tvOS, WatchOS UI 및 전환을 만들 수 있도록 합니다. 도구 상자와 Design Surface 간에 끌어서 놓기 기능을 사용하는 한편 직관적인 이벤트 처리 방식을 사용하여 전체 사용자 인터페이스를 빌드할 수 있습니다. iOS 디자이너는 디자인 타임 렌더링 기능이 추가된 [사용자 지정 컨트롤](/xamarin/ios/user-interface/designer/ios-designable-controls-overview)도 지원합니다.
 
 ![iOS Storyboard 디자이너](media/intro-image30.png)
 

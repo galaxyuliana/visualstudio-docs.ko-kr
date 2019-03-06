@@ -7,12 +7,12 @@ ms.date: 03/13/2018
 ms.topic: conceptual
 description: 볼륨 라이선스 서비스 센터 관리자 마이그레이션 FAQ
 searchscope: VS Subscription
-ms.openlocfilehash: 2cf7e53e4739c22499bab6df74fcb55b5d0ad019
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 21083f50966472bb7d6d85c8ad594b586b810df9
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56844102"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953951"
 ---
 # <a name="visual-studio-subscriptions-administration-migration"></a>Visual Studio 구독 관리 마이그레이션
 
@@ -44,21 +44,21 @@ ms.locfileid: "56844102"
 ### <a name="what-is-the-onboarding-process"></a>온보딩 프로세스는 무엇입니까?
 온보딩 프로세스를 완료하도록 초대하는 이메일이 기본 및 알림 연락처로 전송됩니다.
 프로세스에 대한 지침은 아래를 참조하십시오.
-1.  **PCN 찾기 및 로그인:**
+1. **PCN 찾기 및 로그인:**
 
-    a.  이메일에서는 고유한 링크 및 해당 PCN(공용 고객 번호)의 마지막 세 자리가 기본/알림 연락처 담당자에게 제공됩니다.*
+    a. 이메일에서는 고유한 링크 및 해당 PCN(공용 고객 번호)의 마지막 세 자리가 기본/알림 연락처 담당자에게 제공됩니다.*
 
-    b.  전체 PCN을 얻으려면 기본 연락처 담당자가 VLSC에 로그인해야 합니다(PCN을 찾기 위한 지침은 아래에 있음).
+    b. 전체 PCN을 얻으려면 기본 연락처 담당자가 VLSC에 로그인해야 합니다(PCN을 찾기 위한 지침은 아래에 있음).
 
-    c.  PCN을 얻은 후에 로그인하도록 요구하는 메시지가 표시될 고유한 링크를 선택해야 합니다. 조직에 Azure AD가 없는 경우 회사/학교 계정(Azure AD에 속한 조직인 경우) 또는 MSA(Microsoft 계정)를 사용하여 로그인할 수 있습니다.
+    c. PCN을 얻은 후에 로그인하도록 요구하는 메시지가 표시될 고유한 링크를 선택해야 합니다. 조직에 Azure AD가 없는 경우 회사/학교 계정(Azure AD에 속한 조직인 경우) 또는 MSA(Microsoft 계정)를 사용하여 로그인할 수 있습니다.
 
-    d.  다음으로 PCN을 입력하라는 메시지가 표시됩니다.
+    d. 다음으로 PCN을 입력하라는 메시지가 표시됩니다.
 
-2.  **관리자를 설정합니다.**
+2. **관리자를 설정합니다.**
 
     PCN을 입력한 후에는 슈퍼 관리자와 관리자(이전의 구독 관리자)를 추가할 수 있는 페이지로 이동합니다. 이상적으로는 이 절차는 구독을 관리하는 데 중단이 없도록 조직의 마이그레이션 날짜 전에 완료해야 합니다.
 
-3.  **새 구독 관리 포털에 액세스:** 조직이 마이그레이션되면 새 포털에 액세스하고 구독 관리를 시작하도록 초대하는 이메일을 슈퍼 관리자와 관리자에게 보냅니다.
+3. **새 구독 관리 포털에 액세스:** 조직이 마이그레이션되면 새 포털에 액세스하고 구독 관리를 시작하도록 초대하는 이메일을 슈퍼 관리자와 관리자에게 보냅니다.
 
 > [!NOTE]
 > 기본 또는 통지 연락처 담당자가 둘 이상의 이메일을 받은 경우 이는 둘 이상의 PCN이 있음을 의미합니다. 각 이메일에서 참조된 PCN에 대한 고유한 링크를 사용하여 프로세스를 완료해야 합니다.

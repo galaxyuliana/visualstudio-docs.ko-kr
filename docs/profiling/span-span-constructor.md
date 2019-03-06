@@ -12,14 +12,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3b04f9edc946b83f8785c6a6fb3e9720db4840f0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f761e87c1658c11bfdfd93a4f4e22299d88575a8
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596200"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953303"
 ---
 # <a name="spanspan-constructor"></a>span::span 생성자
+
 `span` 클래스의 새 인스턴스를 초기화합니다.
 
 ## <a name="syntax"></a>구문
@@ -52,18 +53,21 @@ span(
 ```
 
 #### <a name="parameters"></a>매개 변수
- `_Series` 유효한 표식 계열 컨텍스트입니다.
 
- `_Format` 인수 목록의 개체에 해당하는 0개 이상의 서식 항목과 결합된 텍스트를 포함하는 합성 서식 문자열입니다.
+`_Series` 유효한 표식 계열 컨텍스트입니다.
 
- `_Importance` 중요도 수준.
+`_Format` 인수 목록의 개체에 해당하는 0개 이상의 서식 항목과 결합된 텍스트를 포함하는 합성 서식 문자열입니다.
 
- `_Category` 범주.
+`_Importance` 중요도 수준.
+
+`_Category` 범주.
 
 ## <a name="requirements"></a>요구 사항
- **헤더:** *cvmarkersobj.h*
 
- **네임스페이스:** Concurrency::diagnostic
+**헤더:** *cvmarkersobj.h*
 
- ## <a name="see-also"></a>참고 항목
+**네임스페이스:** Concurrency::diagnostic
+
+## <a name="see-also"></a>참고 항목
+
 - [span 클래스](../profiling/span-class.md)
