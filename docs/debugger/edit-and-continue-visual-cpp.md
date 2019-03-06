@@ -17,17 +17,17 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 35cc3e8336dc2f4b618be10626c014692fdfa650
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 3afb55c41f48c6d5e5a153c12cd364d130129d79
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695000"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222365"
 ---
 # <a name="edit-and-continue-visual-c"></a>Edit and Continue (Visual C++)
 Visual C++ 프로젝트에서 편집하며 계속하기를 사용할 수 있습니다. 참조 [지원 되는 코드 변경 (c + +)](../debugger/supported-code-changes-cpp.md) 편집 하며 계속 하기의 제한 사항에 대 한 정보에 대 한 합니다.
 
-Visual Studio 2015 업데이트 3의 향상 된 기능에 대 한 자세한 내용은 참조 하세요. [c + + 편집 하며 계속 하기가 Visual Studio 2015 업데이트 3에서](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/)합니다.
+Visual Studio 2015 업데이트 3의 향상 된 기능에 대 한 자세한 내용은 참조 하세요. [c + + 편집 하며 계속 하기가 Visual Studio 2015 업데이트 3에서](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/)합니다.
 
  Visual Studio 2013 업데이트 3에 도입된 [/Zo(최적화된 디버깅 향상)](/cpp/build/reference/zo-enhance-optimized-debugging) 컴파일러 옵션은 [/Od((디버그) 비활성화)](https://msdn.microsoft.com/library/aafb762y.aspx) 옵션 없이 컴파일된 이진에 대한 .pdb(기호) 파일에 정보를 더 추가합니다.
 
@@ -37,7 +37,7 @@ Visual Studio 2015 업데이트 3의 향상 된 기능에 대 한 자세한 내�
  현재 디버깅 세션 중에 적용하지 않으려는 코드 편집 내용이 있는 경우 편집하며 계속하기의 자동 호출을 사용하지 않도록 설정할 수 있습니다. 자동 편집하며 계속하기를 다시 사용하도록 설정할 수도 있습니다.
 
 > [!IMPORTANT]
-> 필요한 빌드 설정 및 기능 호환성에 대 한 다른 정보에 대 한 참조 [c + + 편집 하며 계속 하기가 Visual Studio 2015 업데이트 3에서] (https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/합니다.
+> 필요한 빌드 설정과 기능 호환성에 대 한 다른 정보를 참조 하세요 [c + + 편집 하며 계속 하기가 Visual Studio 2015 업데이트 3에서](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/)합니다.
 
 1. 디버깅 세션에 있는 경우 디버깅을 중지 (**shift+f5**).
 

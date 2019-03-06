@@ -12,12 +12,12 @@ manager: jillfra
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 89c66d0ce71a77dcfcaa6364cba6d31cf5707c4a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f5f9b7e700ff21bac570cf8545207bb75fda820e
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613377"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428741"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure 앱 디버그
 
@@ -50,7 +50,7 @@ Snappoint 및 logpoint 중단점, 유사 하지만 중단점과 달리 snappoint
 
     > [!IMPORTANT]
     > 스냅숏 디버그 하려면 엽니다는 *동일한 버전의 소스 코드* Azure App Service에 게시 된 합니다.
-::: moniker range="< vs-2019"
+::: moniker range="vs-2019"
 
 2. 클라우드 탐색기에서 (**보기 > 클라우드 탐색기**), Azure App Service에 배포 된 프로젝트를 마우스 오른쪽 단추로 **스냅숏 디버거 연결**합니다.
 

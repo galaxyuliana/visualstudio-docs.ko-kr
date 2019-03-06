@@ -9,16 +9,16 @@ helpviewer_keywords:
 author: poppastring
 ms.author: madownie
 manager: andster
-monikerRange: vs-2019
+monikerRange: '>= vs-2019'
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: b2baf119259c749e8da99a9326eb22aa1e034b4a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 608745fc2c96836163e1406abda6869d52b1da1b
+ms.sourcegitcommit: 62149c96de0811415e99bb1e0194e76c320e1a1e
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646475"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "57007277"
 ---
 # <a name="debug-live-aspnet-apps-on-azure-virtual-machines-and-azure-virtual-machine-scale-sets-using-the-snapshot-debugger"></a>Azure virtual machines 및 스냅숏 디버거를 사용 하 여 Azure 가상 머신 확장 집합에 라이브 ASP.NET 앱 디버그
 

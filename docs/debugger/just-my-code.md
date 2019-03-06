@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: aaeaa4e27b360e10c368255367892628ed45bd5f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 2dc6aae5530d436e693c667682219e474d7a782d
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722488"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223678"
 ---
 # <a name="debug-only-user-code-with-just-my-code"></a>내 코드만 사용 하 여 사용자 코드만 디버깅
 
@@ -97,7 +97,7 @@ ms.locfileid: "56722488"
 - 함수에 지정 된  *\*.natjmc* 파일을 *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* 폴더입니다.
 
 > [!NOTE]
-> Just My Code에서 코드 단계별 실행 지원에 대 한 c + + 코드 컴파일해야 합니다. Visual Studio 15.8 미리 보기 3 이상에서는 MSVC 컴파일러를 사용 하 여 및 /JMC 컴파일러 스위치를 사용할 수 있어야 합니다 (기본적으로 사용 됩니다). 자세한 내용은 참조 하세요. [사용자 지정 c + + 호출 스택 및 코드 단계별 실행 동작](#BKMK_CPP_Customize_call_stack_behavior))이 [블로그 게시물](https://blogs.msdn.microsoft.com/vcblog/2018/06/29/announcing-jmc-stepping-in-visual-studio/)합니다. 이전 컴파일러를 사용 하 여 컴파일된 코드에 대 한 *.natstepfilter* Just My Code 독립적인 코드를 단계별로 실행 사용자 지정 하는 유일한 방법은 파일이 있습니다. 참조 [단계별 실행 동작 사용자 지정 c + +](#BKMK_CPP_Customize_stepping_behavior)합니다.
+> Just My Code에서 코드 단계별 실행 지원에 대 한 c + + 코드 컴파일해야 합니다. Visual Studio 15.8 미리 보기 3 이상에서는 MSVC 컴파일러를 사용 하 여 및 /JMC 컴파일러 스위치를 사용할 수 있어야 합니다 (기본적으로 사용 됩니다). 자세한 내용은 참조 하세요. [사용자 지정 c + + 호출 스택 및 코드 단계별 실행 동작](#BKMK_CPP_Customize_call_stack_behavior))이 [블로그 게시물](https://devblogs.microsoft.com/cppblog/announcing-jmc-stepping-in-visual-studio/)합니다. 이전 컴파일러를 사용 하 여 컴파일된 코드에 대 한 *.natstepfilter* Just My Code 독립적인 코드를 단계별로 실행 사용자 지정 하는 유일한 방법은 파일이 있습니다. 참조 [단계별 실행 동작 사용자 지정 c + +](#BKMK_CPP_Customize_stepping_behavior)합니다.
 
 <a name="BKMK_CPP_Stepping_behavior"></a> C + + 디버깅 중:
 
@@ -143,7 +143,7 @@ A *.natjmc* 파일은이 구문 사용 하 여 XML 파일:
 
 |특성|설명|
 |---------------|-----------------|
-|`Name`|필수 요소. 모듈의 전체 경로입니다. Windows 와일드 카드 문자를 사용할 수 있습니다 `?` (0 개 이상의 문자) 및 `*` (0 개 이상의 문자). 예를 들어 개체에 적용된<br /><br /> `<Module Name="?:\3rdParty\UtilLibs\*" />`<br /><br /> 모든 모듈에서 처리 하도록 디버거에 지시 *\3rdParty\UtilLibs* 외부 코드로 모든 드라이브에서.|
+|`Name`|필수 요소. 모듈의 전체 경로입니다. Windows 와일드 카드 문자를 사용할 수 있습니다 `?` (0 개 이상의 문자) 및 `*` (0 개 이상의 문자). 예를 들면 다음과 같습니다.<br /><br /> `<Module Name="?:\3rdParty\UtilLibs\*" />`<br /><br /> 모든 모듈에서 처리 하도록 디버거에 지시 *\3rdParty\UtilLibs* 외부 코드로 모든 드라이브에서.|
 |`Company`|선택 사항입니다. 실행 파일에 포함된 모듈을 게시하는 회사의 이름입니다. 이 특성을 사용하여 모듈을 구분할 수 있습니다.|
 
  **파일 요소 특성**

@@ -13,28 +13,31 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 049fd5b30cdb6291436b62f65aefc27321cb9544
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 978270653e3c872be522551a6a515b42d0fb1282
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54784576"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953090"
 ---
 # <a name="spanspan-destructor"></a>span::~span 소멸자
+
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-`span` 개체를 제거하고 해당 리소스를 해제합니다.  
-  
-## <a name="syntax"></a>구문  
-  
-```  
-~span();  
-```  
-  
-## <a name="requirements"></a>요구 사항  
- **헤더:** cvmarkersobj.h  
-  
- **네임스페이스:** Concurrency::diagnostic
- 
- ## <a name="see-also"></a>참고 항목
- [span 클래스](../profiling/span-class.md)
+`span` 개체를 제거하고 해당 리소스를 해제합니다.
+
+## <a name="syntax"></a>구문
+
+```
+~span();
+```
+
+## <a name="requirements"></a>요구 사항
+
+**헤더:** cvmarkersobj.h
+
+**네임스페이스:** Concurrency::diagnostic
+
+## <a name="see-also"></a>참고 항목
+
+[span 클래스](../profiling/span-class.md)

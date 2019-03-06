@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e8c9a2f68427cfa7c5db69dca202a619c86444c2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 05458481a691f74f1746860e537d915dcad90efc
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56706710"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428754"
 ---
 # <a name="navigate-through-code-with-the-visual-studio-debugger"></a>Visual Studio 디버거로 코드 탐색
 
@@ -133,7 +133,7 @@ Visual Studio에서 중단점은 조건부 중단점 및 추적점과 같은 다
 ![실행하려면 클릭](../debugger/media/dbg-run-to-click.png "실행하려면 클릭")
 
 > [!NOTE]
-> **실행 하려면 클릭** 의 새로운 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]합니다.
+> **실행 하려면 클릭** 부터 사용할 수 있습니다는 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]합니다.
 
 ### <a name="manually-break-into-code"></a>수동으로 코드 중단
 

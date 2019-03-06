@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 931200e6f921c26d23fddde4a8420f042240e32f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fa0f457c81b39f05a18250a5c7ece7533ccc1788
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637857"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428806"
 ---
 # <a name="create-custom-views-of-native-objects-in-the-debugger"></a>디버거에서 네이티브 개체의 사용자 지정 뷰 만들기
 
@@ -99,11 +99,21 @@ Visual Studio 디버거를 로드 *.natvis* c + + 프로젝트의 파일에에�
 
 1. 모든 *.natvis* 에 포함 된 파일을 *.pdb* 로드 된 프로젝트에서 동일한 이름의 파일이 존재 하지 않는 경우 디버그 하 합니다.
 
-1. 모든 *.natvis* 로드 된 c + + 프로젝트 또는 최상위 솔루션에 있는 파일입니다. 이 그룹에는 다른 언어로 클래스 라이브러리, 하지만 프로젝트가 아니라를 포함 하 여 로드 된 모든 c + + 프로젝트가 포함 됩니다.
+2. 모든 *.natvis* 로드 된 c + + 프로젝트 또는 최상위 솔루션에 있는 파일입니다. 이 그룹에는 다른 언어로 클래스 라이브러리, 하지만 프로젝트가 아니라를 포함 하 여 로드 된 모든 c + + 프로젝트가 포함 됩니다.
 
-1.  사용자별 Natvis 디렉터리 (예를 들어 *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
+::: moniker range="vs-2017"
 
-1.  시스템 차원 Natvis 디렉터리(*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). 이 디렉터리에는 *.natvis* Visual Studio와 함께 설치 되는 파일입니다. 관리자 권한이 있는 경우에이 디렉터리에 파일을 추가할 수 있습니다.
+3.  사용자별 Natvis 디렉터리 (예를 들어 *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
+
+::: moniker-end
+
+::: moniker range=">= vs-2019"
+
+3.  사용자별 Natvis 디렉터리 (예를 들어 *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
+
+::: moniker-end
+
+4.  시스템 차원 Natvis 디렉터리(*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). 이 디렉터리에는 *.natvis* Visual Studio와 함께 설치 되는 파일입니다. 관리자 권한이 있는 경우에이 디렉터리에 파일을 추가할 수 있습니다.
 
 ## <a name="modify-natvis-files-while-debugging"></a>디버깅 하는 동안.natvis 파일을 수정 합니다.
 
