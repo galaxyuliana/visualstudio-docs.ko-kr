@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ff8403390d2cd9126ce17f97dbc87b901ca544fd
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: cf2aba33089623dc98a90c23166291bb2d6e7123
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56703710"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428650"
 ---
 # <a name="getting-started-with-the-snapshot-debugger"></a>스냅숏 디버거를 시작 하기
 
@@ -69,6 +69,6 @@ DataTips를 보고, 조사식, 지역 변수를 사용 하 여, 호출 하는 �
 
 ## <a name="dont-show-me-this-again"></a>다시 표시 안 함
 
-다시 표시 안 함 스냅숏 디버거 시작 페이지를 스냅숏 디버거를 연결 하는 경우를 변경 합니다 **세션 시작 시 'Getting Started 페이지 표시** 옵션 **도구**  >   **옵션** > **스냅숏 디버거**합니다.
+스냅숏 디버거를 연결 하는 경우 스냅숏 디버거 시작 페이지를 다시 표시 안 함, 변경 된 **세션 시작 시 'Getting Started 페이지 표시** 옵션 **도구**  >   **옵션** > **스냅숏 디버거**합니다.
 
 ![스냅숏 디버거 도구 옵션 페이지](../media/snapshot-startpage-tools-options.png)

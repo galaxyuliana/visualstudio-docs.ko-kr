@@ -28,12 +28,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d114ec9b108dad33e36ba9c9bfd7726501b13c0a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4b8b0d507328022746682142c8d0720ba0de3fe0
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637505"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428767"
 ---
 # <a name="attach-to-running-processes-with-the-visual-studio-debugger"></a>Visual Studio 디버거에서 실행 중인 프로세스에 연결
 로컬 또는 원격 컴퓨터에서 실행 중인 프로세스에 Visual Studio 디버거를 연결할 수 있습니다. 프로세스를 실행 한 후 선택 **디버깅할** > **프로세스에 연결** 누르거나 **Ctrl**+**Alt** + **P** 사용 하 여 Visual Studio에는 **프로세스에 연결** 프로세스에 디버거를 연결 하는 대화 상자.
@@ -95,9 +95,20 @@ IIS에 배포 된 ASP.NET 응용 프로그램 디버깅에 대 한 자세한 내
 
    - 그런 다음 드롭다운 화살표를 선택 **연결 대상**, 드롭 다운 목록에서 컴퓨터 이름을 선택 합니다.
    - 에 컴퓨터 이름을 입력 합니다 **연결 대상** 상자입니다.
+   
+     ::: moniker range="vs-2017"
 
      > [!NOTE]
      > 원격 컴퓨터 이름을 사용 하 여 연결할 수 없는 경우 IP를 사용 하 여 시도 및 포트 주소 (예를 들어 `123.45.678.9:4022`). 4022는 Visual Studio 2017 x64 원격 디버거에 대 한 기본 포트입니다. 다른 원격 디버거 포트 할당을 참조 하세요 [원격 디버거 포트 할당](remote-debugger-port-assignments.md)합니다.
+
+     ::: moniker-end
+     
+     ::: moniker range=">= vs-2019"
+
+     > [!NOTE]
+     > 원격 컴퓨터 이름을 사용 하 여 연결할 수 없는 경우 IP를 사용 하 여 시도 및 포트 주소 (예를 들어 `123.45.678.9:4022`). 4024는 Visual Studio 2019 x64 원격 디버거에 대 한 기본 포트입니다. 다른 원격 디버거 포트 할당을 참조 하세요 [원격 디버거 포트 할당](remote-debugger-port-assignments.md)합니다.
+
+     ::: moniker-end
 
    - 선택 합니다 **찾을** 단추 옆에 **연결 대상** 상자를 엽니다 합니다 **원격 연결** 대화 상자. 합니다 **원격 연결** 대화 상자는 로컬 서브넷에 있거나 컴퓨터에 직접 연결 된 모든 장치를 나열 합니다. 해야 할 수 있습니다 [UDP 포트 3702 엽니다](../debugger/remote-debugger-port-assignments.md) 서버에 원격 장치를 검색 합니다. 컴퓨터 또는 장치를 선택한 다음 선택 **선택**합니다.
 
@@ -142,7 +153,7 @@ IIS에 배포 된 ASP.NET 응용 프로그램 디버깅에 대 한 자세한 내
 선택 하 여에 이전에 연결 된 프로세스를 신속 하 게 연결할 수 있습니다 **디버깅할** > **프로세스에 다시 연결** (**Shift** + **Alt**+**P**). 이 명령은 선택 하면 디버거는 이전 프로세스 ID와 일치 하도록 첫 번째 시도 하 여에 연결 된 프로세스가 마지막으로 연결 하려고 즉시 경우 실패 하는 이전에 비교 하 여 프로세스 및 이름. 일치 하는 경우 또는 여러 프로세스 이름이 같은 경우는 **프로세스에 연결** 대화 상자를 열어 올바른 프로세스를 선택할 수 있습니다.
 
 > [!NOTE]
-> 합니다 **프로세스에 다시 연결** 명령은 Visual Studio 2017의 새로운 기능입니다.
+> 합니다 **프로세스에 다시 연결** 명령은 Visual Studio 2017에서 시작 하 고 있습니다.
 
 ## <a name="BKMK_Scenarios"></a> 일반적인 디버깅 시나리오
 
@@ -162,11 +173,11 @@ IIS에 배포 된 ASP.NET 응용 프로그램 디버깅에 대 한 자세한 내
 |IIS 서버에서 원격 디버그 ASP.NET Core|원격 도구를 사용 하 고 **프로세스에 연결**|*dotnet.exe*|앱 배포에 대해서 [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html)합니다. 디버깅을 참조 하세요. [원격 IIS 컴퓨터에서 원격 디버깅 Asp.net](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)|
 |지원 되는 앱 형식에 대 한 로컬 IIS 서버에서 클라이언트 쪽 스크립트 디버깅 |사용 하 여 **프로세스에 연결**|*chrome.exe*하십시오 *MicrosoftEdgeCP.exe*, 또는 *iexplore.exe*|스크립트 디버깅을 사용할 수 있어야 합니다. Chrome에 대 한 실행 해야 Chrome에서 디버그 모드를 선택 **Webkit 코드** 에 **연결할** 필드입니다.|
 |디버그는 C#, Visual Basic 또는 c + + 로컬 컴퓨터에서 앱을|사용 하 여 [표준 디버깅](../debugger/debugger-feature-tour.md) 또는 **프로세스에 연결**|*\<appname>.exe*|대부분의 시나리오에서 사용 하 여 표준 디버깅 및 not **프로세스에 연결**합니다.|
-|Windows 데스크톱 앱을 원격 디버그|원격 도구|N/A| 참조 [원격 디버그를 C# 또는 Visual Basic 앱](../debugger/remote-debugging-csharp.md) 하거나 [원격 c + + 앱을 디버그](../debugger/remote-debugging-cpp.md)|
+|Windows 데스크톱 앱을 원격 디버그|원격 도구|해당 없음| 참조 [원격 디버그를 C# 또는 Visual Basic 앱](../debugger/remote-debugging-csharp.md) 하거나 [원격 c + + 앱을 디버그](../debugger/remote-debugging-cpp.md)|
 |디버거 없이 앱을 시작한 후 로컬 컴퓨터에 ASP.NET 앱 디버그|사용 하 여 **프로세스에 연결**|*iiexpress.exe*|로드 앱을 확인 하면 도움이 될이 빠르고 같은 (예) 프로 파일링 하는 경우. |
 |서버 프로세스에서 다른 유형의 지원 되는 앱 디버그|서버가 원격 인 경우 원격 도구를 사용 하 고 **프로세스에 연결**|*chrome.exe*하십시오 *iexplore.exe*, 또는 기타 프로세스|필요한 경우 리소스 모니터 프로세스를 식별 하는 데 사용 합니다. [원격 디버깅](../debugger/remote-debugging.md)을 참조하세요.|
-|원격은 Windows 앱 (UWP (유니버설), OneCore, HoloLens, IoT 앱 디버깅|설치된 앱 패키지 디버그|N/A|참조 [설치 된 앱 패키지 디버그](debug-installed-app-package.md) 사용 하는 대신 **프로세스에 연결**|
-|Visual Studio에서 시작 하지 않은 유니버설 Windows (UWP 앱), OneCore, HoloLens, IoT 앱을 디버그|설치된 앱 패키지 디버그|N/A|참조 [설치 된 앱 패키지 디버그](debug-installed-app-package.md) 사용 하는 대신 **프로세스에 연결**|
+|원격은 Windows 앱 (UWP (유니버설), OneCore, HoloLens, IoT 앱 디버깅|설치된 앱 패키지 디버그|해당 없음|참조 [설치 된 앱 패키지 디버그](debug-installed-app-package.md) 사용 하는 대신 **프로세스에 연결**|
+|Visual Studio에서 시작 하지 않은 유니버설 Windows (UWP 앱), OneCore, HoloLens, IoT 앱을 디버그|설치된 앱 패키지 디버그|해당 없음|참조 [설치 된 앱 패키지 디버그](debug-installed-app-package.md) 사용 하는 대신 **프로세스에 연결**|
 
 ## <a name="use-debugger-features"></a>디버거 기능을 사용 하 여
 

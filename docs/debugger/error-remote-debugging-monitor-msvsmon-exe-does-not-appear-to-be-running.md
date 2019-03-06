@@ -16,18 +16,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e9bb827651381409af69ea952660335767c334ca
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: HT
+ms.openlocfilehash: ab82ad49dcd6369f0ef71068ed0238b45914072c
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702995"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954077"
 ---
 # <a name="error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmonexe-does-not-appear-to-be-running-on-the-remote-computer"></a>오류: Microsoft Visual Studio 원격 디버깅 모니터(MSVSMON.EXE)가 원격 컴퓨터에서 실행 중인 것 같지 않습니다.
 이 오류 메시지는 Visual Studio가 원격 컴퓨터에서 Visual Studio 원격 디버깅 모니터의 올바른 인스턴스를 찾을 수 없음을 의미합니다. 원격으로 디버깅을 수행하려면 Visual Studio 원격 디버깅 모니터를 설치해야 합니다. 다운로드 하 고 원격 디버거를 설정 하는 방법에 대 한 내용은 [원격 디버깅](../debugger/remote-debugging.md)합니다.
 
 > [!IMPORTANT]
->  제품 버그 때문에이 메시지가 수신 되었다고 생각 되 면 하세요 [Visual Studio에이 문제를 보고](../ide/how-to-report-a-problem-with-visual-studio-2017.md)합니다. 자세한 도움말이 필요한 경우 [Talk to Us](../ide/talk-to-us.md) 에서 Microsoft에 문의하는 방법을 참조하세요.
+>  제품 버그 때문에이 메시지가 수신 되었다고 생각 되 면 하세요 [Visual Studio에이 문제를 보고](../ide/how-to-report-a-problem-with-visual-studio.md)합니다. 자세한 도움말이 필요한 경우 [Talk to Us](../ide/talk-to-us.md) 에서 Microsoft에 문의하는 방법을 참조하세요.
 
 ## <a name="i-got-this-message-while-i-was-debugging-in-visual-studio-2010-or-earlier"></a>Visual Studio 2010 이전 버전에서 디버그하는 동안 이 메시지가 수신됨
  Visual Studio 2010 이전 버전의 Visual Studio를 사용 중이면 파일 및 프린터 공유를 사용하도록 설정하지 않은 경우에도 이 오류가 발생할 수 있습니다. 이 문제에 대해 자세히 알아보려면 이 설명서의 Visual Studio 2010 버전: [오류: Microsoft Visual Studio 원격 디버깅 모니터(MSVSMON.EXE)가 원격 컴퓨터에서 실행 중인 것 같지 않습니다. - Visual Studio 2010](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ms164726(v=vs.100))을 참조하세요.

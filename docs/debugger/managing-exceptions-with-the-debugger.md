@@ -33,12 +33,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5086a59936a3fe71f9888083772ee09ab3a42d48
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: b83cb026bec6d33490517e5703a042b4a8e2434c
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700915"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428702"
 ---
 # <a name="manage-exceptions-with-the-debugger-in-visual-studio"></a>Visual Studio에서 디버거를 사용한 예외 관리
 
@@ -204,7 +204,7 @@ public class GenericException<T> : Exception
 사용 된 **예외 설정** 예외에 조건을 설정 하는 창입니다. 현재 지원 되는 조건을 포함 하거나 제외할 예외에 대 한 모듈 이름을 포함 합니다. 모듈 이름 조건으로로 설정 하면 특정 코드 모듈에만 예외에 대 한 중단 하도록 선택할 수 있습니다. 특정 모듈에서 분리를 방지할 수도 있습니다.
 
 > [!NOTE]
-> 새로운 예외가에 조건 추가 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]합니다.
+> 부터 지원 되는 예외에 조건 추가 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]합니다.
 
 조건부 예외를 추가 합니다.
 

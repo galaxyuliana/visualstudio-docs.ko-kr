@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 47693c6fbb25fb0a7c2468abbad515f8aaf63159
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 6531311e00d25947a8bb5ca2e691c941a20307ba
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56694987"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222357"
 ---
 # <a name="edit-and-continue-error-message"></a>편집 하며 계속 하기 오류 메시지
 
@@ -46,6 +46,6 @@ ms.locfileid: "56694987"
 -   최신 버전에 빌드 오류가 있으므로 이전 버전의 앱을 디버깅 하기 시작 합니다.
 
 자세한 내용은 다음을 참조하세요.
-- [C + + 편집 하며 계속 하기 블로그 게시물](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/)
+- [C + + 편집 하며 계속 하기 블로그 게시물](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/)
 - [지원되는 코드 변경(C++)](../debugger/supported-code-changes-cpp.md)
 - [편집하며 계속하기](../debugger/edit-and-continue.md)

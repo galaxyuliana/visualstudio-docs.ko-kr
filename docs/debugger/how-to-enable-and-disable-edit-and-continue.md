@@ -26,18 +26,18 @@ manager: jillfra
 ms.workload:
 - dotnet
 - cplusplus
-ms.openlocfilehash: cd3017768bd44891a6db91020e93ffafcedf6bdc
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 49ee21943f63cee3fff35d2bb92817294169c61f
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56694610"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223587"
 ---
 # <a name="how-to-enable-and-disable-edit-and-continue-c-vb-c"></a>방법: 사용 하도록 설정 하 고 편집 하며 계속 하기를 사용 하지 않도록 설정 (C#, VB, c + +)
 
 사용 하지 않도록 설정 하거나 활성화할 수 있습니다 **편집 하며 계속 하기** Visual studio에서 **옵션** 디자인 타임에 대화 상자. **편집하며 계속하기**는 디버그 빌드에서만 작동합니다. 자세한 내용은 [편집하며 계속하기](../debugger/edit-and-continue.md)를 참조하세요.
 
-네이티브 c + + **편집 하며 계속 하기** 를 사용 해야는 `/INCREMENTAL` 옵션입니다. C + +의 기능 요구 사항에 대 한 자세한 내용은 참조 [블로그 게시물](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/) 하 고 [편집 하며 계속 하기 (Visual c + +)](../debugger/edit-and-continue-visual-cpp.md)합니다.
+네이티브 c + + **편집 하며 계속 하기** 를 사용 해야는 `/INCREMENTAL` 옵션입니다. C + +의 기능 요구 사항에 대 한 자세한 내용은 참조 [블로그 게시물](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/) 하 고 [편집 하며 계속 하기 (Visual c + +)](../debugger/edit-and-continue-visual-cpp.md)합니다.
 
 **편집 하며 계속 하기를 사용할지 설정 합니다.**
 

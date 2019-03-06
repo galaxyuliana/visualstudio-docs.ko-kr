@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cb86929a050a61a50a7aa1dd41220f4e087ad767
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3f5b353986cf77c554b277975fabb1cb755faba3
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607046"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428546"
 ---
 # <a name="dia2dump-sample"></a>Dia2dump 샘플
 
@@ -64,7 +64,7 @@ Dia2dump 샘플 Visual Studio와 함께 설치 되 고 솔루션 및 원본 파�
 
 ## <a name="run-the-dia2dump-sample"></a>Dia2Dump 샘플 실행
 
-Dia2Dump.exe는 msdia 의존*버전*.dll COM 서버를 해당 서비스를 제공 합니다. Visual Studio 2015 및 Visual Studio 2017에서는 버전 msdia140.dll을입니다. 경우는 msdia*버전*.dll COM 서버 초기화 되지, dia2dump.exe 사용할 수 있도록 등록 해야 합니다. DIA SDK 디렉터리에는 x86을 포함 하는 bin 하위 디렉터리에 DLL의 버전입니다. 버전 x64 아키텍처 컴퓨터 bin\amd64, 이며 ARM에 대 한 버전 bin\arm에서. Dll을 등록 하려면 상승 된 개발자 명령 프롬프트 창을 열고 컴퓨터 아키텍처에 대 한 버전이 포함 된 디렉터리로 변경 합니다. 명령을 입력 `regsvr32 msdia140.dll` COM 서버를 등록 합니다.
+Dia2Dump.exe는 msdia 의존*버전*.dll COM 서버를 해당 서비스를 제공 합니다. Visual Studio 2015부터 버전이 msdia140.dll을 합니다. 경우는 msdia*버전*.dll COM 서버 초기화 되지, dia2dump.exe 사용할 수 있도록 등록 해야 합니다. DIA SDK 디렉터리에는 x86을 포함 하는 bin 하위 디렉터리에 DLL의 버전입니다. 버전 x64 아키텍처 컴퓨터 bin\amd64, 이며 ARM에 대 한 버전 bin\arm에서. Dll을 등록 하려면 상승 된 개발자 명령 프롬프트 창을 열고 컴퓨터 아키텍처에 대 한 버전이 포함 된 디렉터리로 변경 합니다. 명령을 입력 `regsvr32 msdia140.dll` COM 서버를 등록 합니다.
 
 ### <a name="to-run-the-sample"></a>이 샘플을 실행하려면
 
