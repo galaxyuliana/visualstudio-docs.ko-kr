@@ -13,12 +13,12 @@ caps.latest.revision: 22
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: 8d76e4b1c9a7f7b6882eccab4a250e95c7419ea0
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 89575318a8dd5357e5f786e25d3e3518d35348d6
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54763135"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56954295"
 ---
 # <a name="create-an-offline-installation-of-visual-studio"></a>Visual Studio의 오프라인 설치 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [낮은 대�
 
 3.  이 명령을 실행 하면 상주할 오프 라인 설치 레이아웃을 원하는 폴더를 변경할 수 있는 대화 상자가 나타납니다.   다음을 클릭 합니다 **다운로드** 단추입니다.
 
-     패키지 다운로드 되 면 표시 되어야 한다는 내용의 메시지가 **설치 성공!** 라고 표시된 Visual Studio 화면이 나타납니다.
+     패키지 다운로드 되 면 표시 되어야 한다는 내용의 메시지가 **설치 성공! 라고 표시된 Visual Studio 화면이 나타납니다.**
 
 4.  이전에 지정한 폴더를 찾습니다. (예를 들어 찾습니다 D:\VisualStudio2015를.) 이 폴더 공유 위치에 복사 하거나 미디어를 설치 하는 데 필요한 모든 포함 합니다.
 
@@ -87,4 +87,4 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [낮은 대�
 |        터키어        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x41F |
 
 ## <a name="see-also"></a>참고 항목
- [Visual Studio 설치]()
+ [Visual Studio 설치](../install/install-visual-studio-2015.md)

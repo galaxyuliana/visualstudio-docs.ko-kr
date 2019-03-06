@@ -580,7 +580,7 @@ ASP.NET Core를 사용한 웹앱</a>
                                             <div class="cardText">
                                                 <a href="/visualstudio/rtvs/">
                                                     <h3>R</h3>
-                                                    <p>통계 계산 및 그래픽에 일반적으로 사용되는 확장 가능한 프로그래밍 언어입니다.</p>
+                                                    <p>(Visual Studio 2017만 해당) 통계 컴퓨팅 및 그래픽에 일반적으로 사용되는 확장 가능한 프로그래밍 언어입니다.</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -699,7 +699,7 @@ ASP.NET Core를 사용한 웹앱</a>
                                 </a>
                             </li>
                             <li>
-                                <a href="rtvs/data-science-and-analytical-applications-workload.md">
+                                <a href="python/data-science-and-analytical-applications-workload.md">
                                   <div class="cardSize">
                                     <div class="cardPadding">
                                       <div class="card">
@@ -710,7 +710,7 @@ ASP.NET Core를 사용한 웹앱</a>
                                         </div>
                                           <div class="cardText">
                                             <h3>데이터 과학 및 분석 애플리케이션</h3>
-                                            <p>데이터 과학 애플리케이션을 만들기 위한 언어 및 도구입니다(Python, R 및 F# 지원 포함).</p>
+                                            <p>Python 및 F#을 포함하여(Visual Studio 2017의 경우 R도 포함) 데이터 과학 애플리케이션을 만들기 위한 언어 및 도구입니다.</p>
                                         </div>
                                       </div>
                                     </div>
