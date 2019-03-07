@@ -8,16 +8,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a8a17f5699ffc5bfe33e86370a9c5ef114331e90
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: fd29a8d31d425529db377c812611f1efddc60f11
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907336"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526622"
 ---
 # <a name="how-to-create-xml-snippets"></a>방법: XML 조각 만들기
 
-XML 편집기를 사용하여 새 XML 조각을 만들 수 있습니다. 이 편집기에는 새 XML 조각을 만들기 위한 상용구 조각인 "Snippet"이라는 XML 조각이 들어 있습니다.
+XML 편집기는 새 XML 조각을 만드는 데 사용할 수 있습니다. 이 편집기에는 새 XML 조각을 만들기 위한 상용구 조각인 "Snippet"이라는 XML 조각이 들어 있습니다.
 
 ## <a name="to-create-a-new-xml-snippet"></a>새 XML 조각을 만들려면
 
@@ -80,7 +80,7 @@ XML 편집기를 사용하여 새 XML 조각을 만들 수 있습니다. 이 편
 
 - $name$은 사용자 정의 변수입니다. 이 변수는 `name` 요소를 만듭니다. 이 요소는 기본값이 "name"이며 편집 가능한 값을 가집니다. 사용자 정의 변수는 `Literal` 요소를 사용하여 정의합니다.
 
-- $selected$는 미리 정의된 변수입니다. 이 변수는 조각을 호출하기 전에 XML 편집기에서 선택한 텍스트를 나타냅니다. 이 변수는 선택한 텍스트를 포함하는 코드 조각에서 이 텍스트가 나타나는 위치를 결정합니다.
+- $selected$는 미리 정의된 변수입니다. 코드 조각을 호출 하기 전에 XML 편집기에서 선택 된 텍스트를 나타냅니다. 이 변수는 선택한 텍스트를 포함하는 코드 조각에서 이 텍스트가 나타나는 위치를 결정합니다.
 
 - $end$는 미리 정의된 변수입니다. 사용자가 누르면 **Enter** 이 변수는 코드 조각 필드 편집을 마치려면 캐럿 (^)이 이동 되는 위치를 결정 합니다.
 

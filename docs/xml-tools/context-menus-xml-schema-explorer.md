@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e1bc769b27ee9dcc22cfa822eb488b0f0ea9f15
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 4d6ab950c31bc6444eb0b8ae054d74c9a69ed466
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910549"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526492"
 ---
 # <a name="context-menus-xml-schema-explorer"></a>상황에 맞는 메뉴 (XML 스키마 탐색기)
 
@@ -50,7 +50,7 @@ ms.locfileid: "55910549"
 |**모든 아웃 바운드 참조 표시**|다음 항목을 찾아서 강조 표시합니다.<br /><br /> -모든 네임 스페이스의 모든 네임 스페이스 특성에 지정 되지 않은 문을 가져오기는 `schemaLocation` 특성입니다.<br />-모든 파일에 지정 된 된 `schemaLocation` 특성의 모든 import 문과 include 문의 합니다.|
 |**전역 형식 표시**|이 파일에서 모든 전역 형식을 찾아서 강조 표시합니다.|
 |**전역 요소 표시**|이 파일에서 모든 전역 요소를 찾아서 강조 표시합니다.|
-|**코드 보기**|XML 편집기에서 선택된 노드가 포함된 파일을 엽니다. XML 스키마 탐색기에서 선택된 항목이 XML 편집기에서도 선택됩니다.|
+|**코드 보기**|XML 편집기에서 선택한 노드를 포함 하는 파일을 엽니다. XML 편집기에서 XML 스키마 탐색기에서 선택한 항목을 선택도 됩니다.|
 |**속성 창**|열립니다는 **속성** 창 (이미 열려 있지) 경우입니다. 이 창에서 노드에 대한 정보를 표시합니다.|
 
 ## <a name="all-global-node-types"></a>모든 전역 노드 형식
@@ -60,7 +60,7 @@ ms.locfileid: "55910549"
 |-|-----------------|
 |**그래프 뷰로 표시**|그래프 뷰를 엽니다. 선택된 노드가 작업 영역에 없는 경우 해당 노드를 작업 영역에 추가하고 노드를 선택합니다.|
 |**콘텐츠 모델 뷰로 표시**|콘텐츠 모델 뷰를 엽니다. 선택된 노드가 작업 영역에 없는 경우 해당 노드를 작업 영역에 추가하고 노드를 선택합니다.|
-|**코드 보기**|XML 편집기에서 선택된 노드가 포함된 파일을 엽니다. XML 스키마 탐색기에서 선택된 항목이 XML 편집기에서도 선택됩니다.|
+|**코드 보기**|XML 편집기에서 선택한 노드를 포함 하는 파일을 엽니다. XML 편집기에서 XML 스키마 탐색기에서 선택한 항목을 선택도 됩니다.|
 |**속성 창**|열립니다는 **속성** 창 (이미 열려 있지) 경우입니다. 이 창에서 노드에 대한 정보를 표시합니다.|
 
 ## <a name="node-type-element"></a>노드 형식: 요소

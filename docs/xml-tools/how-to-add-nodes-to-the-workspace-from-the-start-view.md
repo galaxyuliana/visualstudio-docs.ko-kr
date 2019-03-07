@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8f2fac4ce1266dc9df59ada54631306664bd6f42
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 2bcdae3da81fe028fb3ec1c9bd6ba79f348961f3
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913839"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526401"
 ---
 # <a name="how-to-add-nodes-to-the-workspace-from-the-start-view"></a>방법: 시작 뷰에서 작업 영역에 노드 추가
 
@@ -23,7 +23,7 @@ ms.locfileid: "55913839"
 
 1.  단계에 따라 [방법: XSD 스키마 파일 만들기 및 편집](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md)합니다.
 
-2.  XML 편집기에서 마우스 오른쪽 단추로 클릭 **뷰 디자이너**합니다.
+2.  XML 편집기에서 마우스 오른쪽 단추로 누르고 **뷰 디자이너**합니다.
 
      시작 뷰가 나타납니다.
 
