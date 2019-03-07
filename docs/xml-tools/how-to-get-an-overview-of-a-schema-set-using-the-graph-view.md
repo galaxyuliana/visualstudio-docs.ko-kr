@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 603761f2886ffc64170774a2d6c460d39596454b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9e6530f5f2856953041039171b2604236706bfd3
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922032"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525142"
 ---
 # <a name="how-to-get-an-overview-of-a-schema-set-using-the-graph-view"></a>방법: 그래프 뷰를 사용 하 여 설정 하는 스키마 개요
 
@@ -23,11 +23,11 @@ ms.locfileid: "55922032"
 
 1.  새 XML 스키마 파일을 만들고 파일을 *Relationships.xsd*합니다.
 
-2.  클릭 합니다 **보고 기본 XML 스키마 파일을 편집 하려면 XML 편집기를 사용 하 여** 시작 보기의 링크입니다.
+2.  클릭 합니다 **기본 XML 스키마 파일 표시 및 편집을 사용 하 여 XML 편집기** 시작 보기의 링크입니다.
 
 3.  XML 스키마 샘플 코드를 복사 [샘플 XML 스키마: 관계](../xml-tools/sample-xsd-file-relationships.md) 붙여 넣어 기본적으로 새 XSD 파일에 추가 된 코드를 바꿉니다.
 
-4.  XML 편집기에서 아무 곳 이나 마우스 오른쪽 단추로 클릭 **뷰 디자이너**합니다.
+4.  XML 편집기에서 아무 곳 이나 마우스 오른쪽 단추로 누르고 **뷰 디자이너**합니다.
 
 5.  그래프 뷰를 선택 합니다 **XSD 도구 모음**합니다.
 

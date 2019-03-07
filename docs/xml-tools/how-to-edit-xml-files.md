@@ -8,16 +8,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0de1dbc3b98850e7a4cde3f5be60ccfa09a34e11
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e7da94f8fe07620a67e2df8876cf1d3adda443c5
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931756"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525455"
 ---
 # <a name="how-to-edit-xml-files"></a>방법: XML 파일 편집
 
-XML 편집기는 XML 파일을 위한 새 편집기입니다. 이 편집기는 독립 실행형 XML 파일 또는 Visual Studio 프로젝트에 연결된 파일에 사용할 수 있습니다. XML 편집기는 다음 파일 확장명을 사용 하 여 연결: *.config*, *.dtd*합니다 *.xml*를 *.xsd*, *.xdr*, *.xsl*합니다 *.xslt*, 및 *.vssettings*합니다. 또한 특정 편집기가 등록되지 않은 파일 형식과 XML 또는 DTD 내용이 포함된 파일 형식과도 연결되어 있습니다.
+XML 편집기는 XML 파일에 대 한 새 편집기입니다. 이 편집기는 독립 실행형 XML 파일 또는 Visual Studio 프로젝트에 연결된 파일에 사용할 수 있습니다. XML 편집기는 다음 파일 확장명을 사용 하 여 연결: *.config*, *.dtd*합니다 *.xml*를 *.xsd*, *.xdr*, *.xsl*합니다 *.xslt*, 및 *.vssettings*합니다. XML 편집기는 등록 된 특정 편집기 있으며 XML 또는 DTD 내용이 포함 된 다른 파일 형식 연결 이기도 합니다.
 
 > [!NOTE]
 > XHTML 문서는 HTML 편집기에서 처리됩니다.
@@ -34,7 +34,7 @@ XML 편집기는 XML 파일을 위한 새 편집기입니다. 이 편집기는 �
 
 3.  파일 이름을 입력 합니다 **이름을** 필드 및 키를 눌러 **추가**합니다.
 
-     XML 파일이 프로젝트에 추가되고 XML 편집기에서 열립니다. 파일에는 기본 XML 선언, `<?xml version="1.0" encoding="utf-8" ?>`이 포함됩니다.
+     XML 파일을 프로젝트에 추가 되 고 XML 편집기에서 열립니다. 파일에는 기본 XML 선언, `<?xml version="1.0" encoding="utf-8" ?>`이 포함됩니다.
 
 ## <a name="to-add-an-existing-xml-file-to-a-project"></a>기존 XML 파일을 프로젝트에 추가하려면
 
@@ -64,7 +64,7 @@ XML 편집기는 XML 파일을 위한 새 편집기입니다. 이 편집기는 �
 
 3.  프로젝트에 XML 파일을 추가합니다.
 
-     XML 편집기에서는 이 프로젝트에 추가한 스키마를 찾아서 이 프로젝트를 연 상태에서 편집하는 모든 XML, 스키마 또는 XSLT 파일의 유효성 검사 및 IntelliSense에 사용합니다.
+     XML 편집기를이 프로젝트에 추가한 스키마를 찾아서 유효성 검사 및 IntelliSense XML, 스키마 또는이 프로젝트가 열려 있는 동안 편집 하면 XSLT 파일에 사용 합니다.
 
 ## <a name="see-also"></a>참고자료
 

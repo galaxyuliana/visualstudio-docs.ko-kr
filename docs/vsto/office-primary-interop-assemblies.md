@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d9ef409b305901cc36e67eeadfe0000202c935b5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 528a57ddf6dd9b193e767a4942d26e43789043c0
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602288"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525904"
 ---
 # <a name="office-primary-interop-assemblies"></a>Office 주 Interop 어셈블리
 
@@ -57,15 +57,15 @@ Visual Studio를 설치하면 PIA가 전역 어셈블리 캐시 외부의 파일
 
 Visual Studio는 이러한 PIA 복사본을 사용함으로써 전역 어셈블리 캐시에 각기 다른 PIA 버전이 등록되는 경우 발생할 수 있는 여러 개발 문제를 방지할 수 있습니다.
 
-Visual Studio는 이러한 PIA 복사본을 개발 컴퓨터의 다음 위치에 설치합니다.
+Visual Studio 2017부터 이러한 Pia 복사본 다음 개발 컴퓨터의 공유 위치에 설치 됩니다.
 
-- *%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14*
+- Office\PIA 용 *%ProgramFiles%\Microsoft Studio\Shared\Visual visual Studio 도구\*
 
-  (또는 *%ProgramFiles (x86) %\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14* 64 비트 운영 체제에서)
+- (또는 * %ProgramFiles (x86) %\Microsoft Visual Studio\Shared\Visual Studio Tools Office\PIA for\* 64 비트 운영 체제에서)
 
-- *%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15*
-
-  (또는 *%ProgramFiles (x86) %\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15* 64 비트 운영 체제에서)
+> [!NOTE]
+> Visual Studio의 이전 버전에서는 이러한 Pia를 설치할 Office\PIA 폴더에 Visual Studio tools는 * 해당 버전의 Visual Studio에 대 한 % ProgramFiles % 폴더입니다.  
+> 예를 들면 다음과 같습니다. * %ProgramFiles (x86) %\Microsoft Visual Studio 14.0\Visual Studio Tools for Office\PIA\*
 
 ### <a name="primary-interop-assemblies-in-the-global-assembly-cache"></a>전역 어셈블리 캐시의 주 interop 어셈블리
 
@@ -79,7 +79,7 @@ Visual Studio는 이러한 PIA 복사본을 개발 컴퓨터의 다음 위치에
 
 Visual Studio의 각 Office 프로젝트 템플릿은 단일 Microsoft Office 애플리케이션에서 사용하도록 설계되어 있습니다. 여러 Microsoft Office 애플리케이션에서 기능을 사용하거나 Visual Studio에 프로젝트가 없는 애플리케이션 또는 구성 요소에서 기능을 사용하려면 필요한 PIA에 대한 참조를 추가해야 합니다.
 
-대부분의 경우, 아래에서 Visual Studio가 설치 되는 Pia에 대 한 참조를 추가 해야 합니다 `%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\` 디렉터리입니다. 이러한 버전의 어셈블리에 표시 합니다 **프레임 워크** 탭의 **참조 관리자** 대화 상자. 자세한 내용은 [방법: 주 interop 어셈블리를 통해 Office 응용 프로그램을 대상](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)합니다.
+대부분의 경우, 아래에서 Visual Studio가 설치 되는 Pia에 대 한 참조를 추가 해야 합니다 `%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\` 디렉터리입니다. 이러한 버전의 어셈블리에 표시 합니다 **프레임 워크** 탭의 **참조 관리자** 대화 상자. 자세한 내용은 [방법: 주 interop 어셈블리를 통해 Office 응용 프로그램을 대상](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)합니다.
 
 전역 어셈블리 캐시에서 PIA를 설치 및 등록한 경우 이러한 어셈블리 버전은 **참조 관리자** 대화 상자의 **COM** 탭에 표시됩니다. 이러한 어셈블리 버전에 대한 참조는 추가해서는 안 됩니다. 해당 버전을 사용하는 경우 몇 가지 개발 문제가 발생할 수 있습니다. 예를 들어 전역 어셈블리 캐시에 여러 PIA 버전을 등록한 경우에는 **참조 관리자** 대화 상자의 **COM** 탭에서 다른 어셈블리 버전을 지정하더라도 프로젝트는 마지막으로 등록된 어셈블리 버전에 자동으로 바인딩됩니다.
 
@@ -90,7 +90,7 @@ Visual Studio의 각 Office 프로젝트 템플릿은 단일 Microsoft Office �
 
 ## <a name="primary-interop-assemblies-for-microsoft-office-applications"></a>Microsoft Office 응용 프로그램용 주 interop 어셈블리
 
-다음 테이블에는 [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 및 [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)]에 사용 가능한 주 interop 어셈블리가 나와 있습니다.
+다음 표에서 사용할 수 있는 주 interop 어셈블리 [!INCLUDE[Office_16_short](../vsto/includes/office-16-short-md.md)]하십시오 [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 및 [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)]합니다.
 
 <br/>
 

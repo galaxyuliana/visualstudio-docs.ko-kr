@@ -8,16 +8,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e8f9d984cabdb9e29ff1f5eac1734105d2a3e2f4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 311503aed0787fece7985d7df1f6dc2d4ddd03b2
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913956"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526245"
 ---
 # <a name="how-to-generate-an-xml-snippet-from-an-xml-schema"></a>방법: XML 스키마에서 XML 조각 생성
 
-XML 편집기에는 XSD(XML 스키마 정의 언어) 스키마에서 XML 조각을 생성할 수 있는 기능이 있습니다. 예를 들어, 요소 이름 옆에 있는 동안 XML 파일을 만들를 눌러도 **탭** 해당 요소에 대 한 스키마 정보에서 생성 된 XML 데이터를 사용 하 여 요소를 채울 합니다.
+XML 편집기는 XML 스키마 정의 언어 (XSD) 스키마에서 XML 조각을 생성할 수 있습니다. 예를 들어, 요소 이름 옆에 있는 동안 XML 파일을 만들를 눌러도 **탭** 해당 요소에 대 한 스키마 정보에서 생성 된 XML 데이터를 사용 하 여 요소를 채울 합니다.
 
 이 기능은 요소에서만 사용할 수 있으며 다음 규칙이 적용됩니다.
 
@@ -43,7 +43,7 @@ XML 편집기에는 XSD(XML 스키마 정의 언어) 스키마에서 XML 조각�
 
 ## <a name="example"></a>예제
 
- 이 섹션의 단계 스키마에서 생성 된 XML 조각 기능 가지 XML 편집기를 사용 하는 방법을 보여 줍니다.
+ 이 섹션의 단계는 XML 편집기의 스키마에서 생성 된 XML 조각 기능을 사용 하는 방법을 보여 줍니다.
 
 > [!NOTE]
 > 이 프로시저를 시작하기 전에 스키마 파일을 로컬 컴퓨터에 저장합니다.

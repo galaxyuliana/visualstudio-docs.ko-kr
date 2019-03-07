@@ -5,12 +5,12 @@ ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 83081b7fb03a4272622c25f783abbc7134fac12b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e7c7e93fa0ba58f7888212c48e28d21bd564ae7c
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970389"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526310"
 ---
 # <a name="walkthrough-use-xslt-hierarchy"></a>연습: XSLT 계층 구조를 사용 합니다.
 
@@ -111,4 +111,4 @@ XSLT 계층 구조 도구가 유용한 다른 시나리오는 기본 제공 템�
 
 ## <a name="see-also"></a>참고자료
 
-- [연습: XSLT 프로파일러](../xml-tools/walkthrough-xslt-profiler.md)
+- [XSLT 프로파일러](../xml-tools/xslt-profiler.md)

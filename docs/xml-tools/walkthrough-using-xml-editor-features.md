@@ -8,16 +8,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8ae8a554f4ce9e5c9a38f17ee4f491d7a537b3d9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 57f1f8274d121b5370f47dfdb62be3a8e5cdd017
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954688"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525871"
 ---
 # <a name="walkthrough-use-xml-editor-features"></a>연습: XML 편집기 기능 사용
 
-이 연습 단계에서는 새 XML 문서를 만드는 방법을 보여 줍니다. 또한 이 연습에서는 XML 작성에 유용한 몇 가지 XML 편집기 기능을 사용합니다.
+이 연습 단계에서는 새 XML 문서를 만드는 방법을 보여 줍니다. 또한이 연습에서는 XML 작성에 유용한 구성 하는 XML 편집기의 기능 중 일부를 사용 합니다.
 
 > [!NOTE]
 > 연습을 시작 하기 전에 저장 된 *hireDate.xsd* 로컬 컴퓨터에 파일 (이 항목의 아래 포함).
@@ -96,9 +96,11 @@ ms.locfileid: "55954688"
 
 ## <a name="to-format-the-xml-document"></a>XML 문서 서식을 지정하려면
 
-- 선택 된 **문서 서식** XML 편집기 도구 모음에서 단추입니다.
+- 선택 합니다 **문서 서식** 누르거나 XML 편집기 도구 모음에서 단추 **Ctrl**+**E**를**D**합니다.
 
-    XML 문서 서식이 다시 지정됩니다.
+   ![Visual Studio에서 형식 XML 문서 단추](media/format-xml-document.png)
+
+   XML 문서 서식이 다시 지정됩니다.
 
 ## <a name="to-save-the-xml-document"></a>XML 문서를 저장하려면
 
@@ -109,7 +111,8 @@ ms.locfileid: "55954688"
 2.  XML 문서에 대 한 위치와 파일 이름을 입력 하 고 클릭 **저장할**합니다.
 
 ## <a name="hiredatexsd-file"></a>hireDate.xsd file
- 다음 스키마 파일은 연습에 사용됩니다.
+
+다음 스키마 파일은이 연습에서 사용 됩니다.
 
 ```xml
 <?xml version="1.0"?>

@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 26ce96a699abeaf9e5fd205c1e1f53add79ab56d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 5424e813c5f1e3908c02dbc63798f5891edb8131
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952647"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526648"
 ---
 # <a name="graph-view"></a>그래프 보기
 
@@ -27,7 +27,7 @@ ms.locfileid: "55952647"
 
  그래프 뷰의 디자인 화면의 내용을 표시 합니다 [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md)합니다. 작업 영역에 스키마 집합의 전역 노드가 포함되어 있는 경우 해당 노드는 그래프 뷰 디자인 화면에 표시되고 관계가 설정된 노드 사이에 화살표가 그려져 있습니다.
 
- 그래프 뷰에서 노드를 두 번 클릭하면 XML 편집기가 표시됩니다.
+ 그래프 뷰에서 노드를 두 번 클릭 하면 XML 편집기를 표시 합니다.
 
  작업 영역에서 선택한 노드를 삭제 하려면 XSD 디자이너 도구 모음을 사용 또는 **삭제** 키입니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "55952647"
 |**작업 영역에서 선택 항목을 제외한 모든 제거**|작업 영역 및 디자인 화면에서 선택하지 않은 노드를 제거합니다.|
 |**다이어그램을 이미지로 내보내기**|디자인 화면을 XPS 파일에 저장합니다.|
 |**모두 선택**|디자인 화면에서 모든 노드를 선택합니다.|
-|**코드 보기**|XML 편집기에서 선택된 노드가 포함된 파일을 엽니다. 선택한 항목의 **XML 스키마 탐색기** XML 편집기에서 선택 됩니다.|
+|**코드 보기**|XML 편집기에서 선택한 노드를 포함 하는 파일을 엽니다. 선택한 항목의 **XML 스키마 탐색기** XML 편집기 에서도 선택 됩니다.|
 |**속성 창**|열립니다는 **속성** 창 (이미 열려 있지) 경우입니다. 이 창에서 노드에 대한 정보를 표시합니다.|
 
  전역 요소에 대한 상황에 맞는 메뉴에는 위에서 설명한 일반 옵션 이외에도 다음 옵션이 있습니다.
@@ -142,7 +142,7 @@ ms.locfileid: "55952647"
 
  전환할 수 있습니다 앞뒤로 그래프 뷰와 XML 편집기 사이 노드를 클릭 하 고 코드 보기 상황에 맞는 (마우스 오른쪽 단추로 클릭) 메뉴를 사용 하 여.
 
- XML 편집기에서 스키마 집합을 변경하면 해당 변경 내용이 그래프 뷰에서 동기화됩니다. 자세한 내용은 [XML 편집기와의 통합](../xml-tools/integration-with-xml-editor.md)합니다.
+ XML 편집기에 설정 된 스키마를 변경한 경우 변경 내용이 그래프 뷰에서 동기화 됩니다. 자세한 내용은 [XML 편집기와의 통합](../xml-tools/integration-with-xml-editor.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 

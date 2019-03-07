@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c0628b4824ebb33199521b660112622b130a090b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e89b09c3f868a3a1c67a0ca1dd9a42f73639d598
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937918"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525360"
 ---
 # <a name="how-to-create-and-edit-an-xsd-schema-file"></a>방법: XSD 스키마 파일 만들기 및 편집
 
@@ -29,14 +29,10 @@ ms.locfileid: "55937918"
 
 ## <a name="to-edit-a-file"></a>파일을 편집하려면
 
-1. 선택 된 **보고 기본 XML 스키마 파일을 편집 하려면 XML 편집기를 사용 하 여** 시작 보기에서 링크.
+1. 선택 된 **기본 XML 스키마 파일 표시 및 편집을 사용 하 여 XML 편집기** 시작 보기의 링크입니다.
 
    새 파일이 열린 XML 편집기가 나타납니다.
 
 2. XML 스키마 샘플 코드를 복사 [구매 주문 스키마](../xml-tools/sample-xsd-file-simple-schema.md) 붙여 넣어 기본적으로 새 XSD 파일에 추가 된 코드를 바꿉니다.
 
    합니다 **XML 스키마 탐색기** 새 스키마 집합으로 업데이트 됩니다.
-
-## <a name="see-also"></a>참고자료
-
-- [XML 데이터 사용](../xml-tools/working-with-xml-data.md)

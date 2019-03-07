@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3d188ef947c8c789f8de032522d43c09660f2ded
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 63edeb597c3c085df3c9c9eb15f6c051e524a476
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55920914"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526001"
 ---
 # <a name="how-to-examine-the-content-model-of-nodes-using-the-content-model-view"></a>방법: 콘텐츠 모델 뷰를 사용 하 여 노드의 콘텐츠 모델 검사
 
@@ -23,11 +23,11 @@ ms.locfileid: "55920914"
 
 1.  새 XML 스키마 파일을 만듭니다.
 
-2.  클릭 **보고 기본 XML 스키마 파일을 편집 하려면 XML 편집기를 사용 하 여** 시작 뷰.
+2.  클릭 **기본 XML 스키마 파일 표시 및 편집을 사용 하 여 XML 편집기** 시작 뷰.
 
 3.  XML 스키마 샘플 코드를 복사 [샘플 XML 스키마: 구매 주문 스키마](../xml-tools/sample-xsd-file-purchase-order-schema.md) 붙여 넣어 기본적으로 새 XSD 파일에 추가 된 코드를 바꿉니다.
 
-4.  선택 합니다 `purchaseOrder` 마우스 오른쪽 단추로 클릭 하 여 스키마 탐색기에서 요소를 `purchaseOrder` XML 편집기에서 요소를 선택 하 고 **XML 탐색기에 표시**합니다.
+4.  선택 합니다 `purchaseOrder` 마우스 오른쪽 단추로 클릭 하 여 스키마 탐색기에서 요소를 `purchaseOrder` xml에서 요소 편집기 및 선택 **XML 탐색기에 표시**합니다.
 
 5.  마우스 오른쪽 단추로 클릭 합니다 `purchaseOrder` 선택한 XML 탐색기 **콘텐츠 모델 뷰로 표시**합니다.
 
