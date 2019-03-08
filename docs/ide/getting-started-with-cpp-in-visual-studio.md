@@ -11,12 +11,12 @@ dev_langs:
 - CPP
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 1d8647c7a5c35a405c2c54f7580b7b5b12c0cf18
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: fd4d6366f9da97454f3b82c4f683f9e77dd447cf
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796649"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222521"
 ---
 # <a name="get-started-with-c-in-visual-studio"></a>Visual Studio에서 C++ 시작
 
@@ -26,7 +26,17 @@ ms.locfileid: "56796649"
 
 이 빠른 시작을 완료하려면 C++에 익숙하지 않아도 되지만 몇 가지 일반적인 프로그래밍 및 디버깅 개념을 잘 알고 있어야 합니다. Visual Studio 설명서에서는 C++로 프로그래밍하는 방법을 설명하지 않습니다. C++ 학습 리소스에 도움이 되는 가이드는 ISO C++ 웹 사이트의 [시작](https://isocpp.org/get-started) 페이지에 있습니다.
 
-단계를 따르려면 **C++를 사용한 데스크톱 개발** 워크로드가 설치된 Visual Studio 2017 버전 15.3 이상의 복사본이 필요합니다. 빠른 설치 가이드는 [Visual Studio에서 C++ 지원 설치](/cpp/build/vscpp-step-0-installation)를 참조하세요.
+::: moniker range="vs-2017"
+
+단계를 따르려면 **C++를 사용한 데스크톱 개발** 워크로드가 설치된 Visual Studio 2017 복사본이 필요합니다. 빠른 설치 가이드는 [Visual Studio에서 C++ 지원 설치](/cpp/build/vscpp-step-0-installation)를 참조하세요.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+단계를 따르려면 **C++를 사용한 데스크톱 개발** 워크로드가 설치된 Visual Studio 2019 복사본이 필요합니다. 빠른 설치 가이드는 [Visual Studio에서 C++ 지원 설치](/cpp/build/vscpp-step-0-installation)를 참조하세요.
+
+::: moniker-end
 
 ## <a name="create-a-console-app"></a>콘솔 앱 만들기
 

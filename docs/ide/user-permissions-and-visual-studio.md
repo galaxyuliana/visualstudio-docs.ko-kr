@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: af1caf11a871cee04d4baa4b2efc750e0603f626
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 229b1606a8a7de18da7354852e3e5adb9123f5b5
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946068"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222860"
 ---
 # <a name="user-permissions-and-visual-studio"></a>사용자 권한 및 Visual Studio
 
@@ -50,11 +50,25 @@ Visual Studio IDE에서 일반 사용자로 거의 모든 작업을 수행할 �
 > [!NOTE]
 > 이러한 지침은 Windows 10에 대한 것입니다. 다른 버전의 Windows와 유사합니다.
 
+::: moniker range="vs-2017"
+
 1. **시작** 메뉴를 열고 Visual Studio 2017로 스크롤합니다.
 
 1. **Visual Studio 2017**의 마우스 오른쪽 단추 클릭 또는 상황에 맞는 메뉴에서 **추가** > **관리자 권한으로 실행**을 선택합니다.
 
    Visual Studio가 시작되면 제목 표시줄의 제품 이름 뒤에 **(관리자)** 가 나타납니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. **시작** 메뉴를 열고 Visual Studio 2019로 스크롤합니다.
+
+1. **Visual Studio 2019**의 마우스 오른쪽 단추 클릭 또는 상황에 맞는 메뉴에서 **추가** > **관리자 권한으로 실행**을 선택합니다.
+
+   Visual Studio가 시작되면 제목 표시줄의 제품 이름 뒤에 **(관리자)** 가 나타납니다.
+
+::: moniker-end
 
 또한 애플리케이션 바로 가기를 수정하여 항상 관리자 권한으로 실행하도록 할 수 있습니다.
 

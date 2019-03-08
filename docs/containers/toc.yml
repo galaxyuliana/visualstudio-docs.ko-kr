@@ -8,6 +8,8 @@ items:
     href: docker-tools.md
   - name: '자습서: Docker Compose를 사용한 다중 컨테이너 앱'
     href: tutorial-multicontainer.md
+  - name: '자습서: Visual Studio의 Kubernetes'
+    href: tutorial-kubernetes-tools.md
   - name: 로컬 Docker 컨테이너에서 앱 디버그
     href: vs-azure-tools-docker-edit-and-refresh.md
   - name: Visual Studio를 사용하여 컨테이너 레지스트리에 ASP.NET 컨테이너 배포
@@ -17,9 +19,9 @@ items:
   - name: Docker 관련 Visual Studio 2017 개발 문제 해결
     href: vs-azure-tools-docker-troubleshooting-docker-errors.md
   expanded: true
-ms.openlocfilehash: 6b2ede8520ff6919c5bbd370e320bdb661fa487e
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 9269e4b0f090b170f234433ff802f41d0dd8790a
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223340"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525909"

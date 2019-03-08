@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6faaf37c3a1c8e67412898ca631210eb551f3331
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9b5f3eec072988c7ab093f305cf2903ae1079cc2
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926049"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57221881"
 ---
 # <a name="synchronize-visual-studio-settings-across-multiple-computers"></a>여러 컴퓨터에서 Visual Studio 설정 동기화
 
@@ -60,20 +60,30 @@ Visual Studio의 동기화된 설정이 기본적으로 켜져 있습니다. **�
 
 ## <a name="side-by-side-synchronized-settings"></a>Side-by-Side 동기화된 설정
 
-Visual Studio 2017 버전 15.3 이상에서 도구 창 레이아웃 같은 특정 설정이 Visual Studio 2017의 병렬 설치 간에 공유되지 않습니다. *%userprofile%\Documents\Visual Studio 2017\Settings*에서 *currentsettings.vssettings* 파일은 *%localappdata%\ Microsoft\VisualStudio\15.0_xxxxxxxx\Settings*와 비슷한 설치 관련 폴더에 있습니다.
+::: moniker range="vs-2017"
+
+도구 창 레이아웃 같은 특정 설정은 Visual Studio의 side-by-side 설치 간에 공유되지 않습니다. *%userprofile%\Documents\Visual Studio 2017\Settings*에서 *currentsettings.vssettings* 파일은 *%localappdata%\ Microsoft\VisualStudio\15.0_xxxxxxxx\Settings*와 비슷한 설치 관련 폴더에 있습니다.
 
 > [!NOTE]
-> 새로운 설치 관련 설정을 사용하려면 새로 설치합니다. 기존 Visual Studio 2017 설치를 현재 업데이트로 업그레이드하는 경우 기존 공유 위치를 사용합니다.
+> 새로운 설치 관련 설정을 사용하려면 새로 설치합니다. 기존 Visual Studio 설치를 업그레이드할 때 기존 공유 위치를 사용합니다.
 
-현재 Visual Studio 2017의 side-by-Side 설치가 있는 경우 새 설치 관련 설정 파일 위치를 사용하려면 다음 단계를 수행하세요.
+현재 Visual Studio의 side-by-side 설치가 있는 경우 새 설치 관련 설정 파일 위치를 사용하려면 다음 단계를 수행하세요.
 
 1. Visual Studio 2017 버전 15.3 이상으로 업그레이드합니다.
 
-1. **설정 가져오기\내보내기** 마법사를 사용하여 모든 기존 설정을 *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* 폴더 외부의 위치로 내보냅니다.
+2. **설정 가져오기\내보내기** 마법사를 사용하여 모든 기존 설정을 *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* 폴더 외부의 위치로 내보냅니다.
 
-1. 업그레이드된 Visual Studio 설치의 **VS 2017용 개발자 명령 프롬프트**를 열고 `devenv /resetuserdata`를 실행합니다.
+3. **VS 2017용 개발자 명령 프롬프트**를 열고 `devenv /resetuserdata`를 실행합니다.
 
 1. Visual Studio를 시작하고 내보낸 설정 파일에서 저장된 설정을 가져옵니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+도구 창 레이아웃 같은 특정 설정은 Visual Studio의 side-by-side 설치 간에 공유되지 않습니다. *%userprofile%\Documents\Visual Studio 2019\Settings*에서 *CurrentSettings.vssettings* 파일은 *%localappdata%\ Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*와 비슷한 설치 관련 폴더에 있습니다.
+
+::: moniker-end
 
 ## <a name="see-also"></a>참고 항목
 

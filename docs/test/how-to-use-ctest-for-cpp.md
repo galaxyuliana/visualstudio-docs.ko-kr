@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: e51b734d3a8d5ea98848a53929cb78099ba853d2
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6be079a5adfe52a7ac750f6713672dad50c7d2a4
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946927"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222037"
 ---
 # <a name="how-to-use-ctest-for-c-in-visual-studio"></a>Visual Studio에서 CTest for C++를 사용하는 방법 | Microsoft Docs
 
@@ -22,22 +22,40 @@ CMake(CTest 포함)는 **C++를 통한 데스크톱 개발** 워크로드의 구
 
 Visual Studio의 CMake 지원은 Visual Studio 프로젝트 시스템과 관련이 없습니다. 따라서 다른 CMake 환경에서와 마찬가지로 CTest 테스트를 작성 및 구성합니다. Visual Studio에서의 CMake 사용에 관한 자세한 내용은 [Visual C++용 CMake 도구](/cpp/ide/cmake-tools-for-visual-cpp)를 참조하세요.
 
-## <a name="to-run-tests-visual-studio-2017-version-156"></a>테스트를 실행하려면(Visual Studio 2017 버전 15.6)
+## <a name="to-run-tests"></a>테스트를 실행하려면
 
-Visual Studio 2017 버전 15.6에서 CTest는 **테스트 탐색기**에 완전히 통합되어 있고 Google 및 Boost 유닛 테스트 프레임워크를 모두 지원합니다. 이러한 프레임워크는 기본적으로 **C++를 통한 데스크톱 개발** 워크로드의 구성 요소로 포함됩니다. 그러나 이전 버전의 Visual Studio에서 프로젝트를 업그레이드하는 경우 Visual Studio 설치 관리자 프로그램을 사용하여 해당 프레임워크를 설치해야 할 수 있습니다.
+::: moniker range="vs-2017"
+
+### <a name="visual-studio-2017-version-156-and-later"></a>Visual Studio 2017 버전 15.6 이상
+
+Visual Studio 2017 버전 15.6 이상에서 CTest는 **테스트 탐색기**에 완전히 통합되어 있고 Google 및 Boost 유닛 테스트 프레임워크를 모두 지원합니다. 이러한 프레임워크는 기본적으로 **C++를 통한 데스크톱 개발** 워크로드의 구성 요소로 포함됩니다. 그러나 이전 버전의 Visual Studio에서 프로젝트를 업그레이드하는 경우 Visual Studio 설치 관리자 프로그램을 사용하여 해당 프레임워크를 설치해야 할 수 있습니다.
 
 다음 그림은 Google Test 프레임워크를 사용하여 실행되는 CTest의 결과를 보여줍니다.
 
-![VS2017 15.6의 Google Test 프레임워크를 사용한 CTest](media/ctest-test-explorer.png)
+![Visual Studio 2017의 Google Test 프레임워크를 사용한 CTest](media/ctest-test-explorer.png)
 
 CTest를 사용하지만 Google 또는 Boost 어댑터를 사용하지 않는 경우 개별 테스트 메서드 수준 대신 CTest 수준에서 결과가 표시됩니다. CTest 전용 실행 파일을 디버그하고 단계별로 실행할 수 있지만 개별 테스트에 대한 스택 추적은 지원되지 않습니다.
 
-## <a name="to-run-tests-visual-studio-2017-version-155"></a>테스트를 실행하려면(Visual Studio 2017 버전 15.5)
+### <a name="visual-studio-2017-version-155"></a>Visual Studio 2017 15.5 버전
 
-**Visual Studio 2017 버전 15.5**에서 CTest는 **테스트 탐색기**에 통합되어 있지 않습니다. CMake 주 메뉴나, **솔루션 탐색기**에서 *CMakeLists.txt* 파일의 오른쪽 클릭 메뉴에서 테스트를 실행할 수 있습니다. 테스트 결과는 Visual Studio **출력 창**으로 전달됩니다.
+Visual Studio 2017 버전 15.5에서 CTest는 **테스트 탐색기**에 통합되어 있지 않습니다. CMake 주 메뉴나, **솔루션 탐색기**에서 *CMakeLists.txt* 파일의 오른쪽 클릭 메뉴에서 테스트를 실행할 수 있습니다. 테스트 결과는 Visual Studio **출력 창**으로 전달됩니다.
 
-![VS2017 15.5에서 CTest 테스트 실행](media/cpp-cmake-run-tests.png)
+![Visual Studio 2017 버전 15.5에서 CTest 테스트 실행](media/cpp-cmake-run-tests.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+CTest는 **테스트 탐색기**와 완전히 통합되어 있고 Google 및 Boost 단위 테스트 프레임워크를 모두 지원합니다. 이러한 프레임워크는 기본적으로 **C++를 통한 데스크톱 개발** 워크로드의 구성 요소로 포함됩니다. 그러나 이전 버전의 Visual Studio에서 프로젝트를 업그레이드하는 경우 Visual Studio 설치 관리자 프로그램을 사용하여 해당 프레임워크를 설치해야 할 수 있습니다.
+
+다음 그림은 Google Test 프레임워크를 사용하여 실행되는 CTest의 결과를 보여줍니다.
+
+![Visual Studio의 Google Test 프레임워크를 사용한 CTest](media/ctest-test-explorer.png)
+
+CTest를 사용하지만 Google 또는 Boost 어댑터를 사용하지 않는 경우 개별 테스트 메서드 수준 대신 CTest 수준에서 결과가 표시됩니다. CTest 전용 실행 파일을 디버그하고 단계별로 실행할 수 있지만 개별 테스트에 대한 스택 추적은 지원되지 않습니다.
+
+::: moniker-end
 
 ## <a name="see-also"></a>참고 항목
 
-[C/C++에 대한 단위 테스트 작성](writing-unit-tests-for-c-cpp.md)
+- [C/C++에 대한 단위 테스트 작성](writing-unit-tests-for-c-cpp.md)

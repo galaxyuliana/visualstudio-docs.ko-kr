@@ -2,7 +2,7 @@
 title: Visual Studio 2019의 새로운 기능
 titleSuffix: ''
 description: Visual Studio 2019의 새로운 기능을 알아보세요.
-ms.date: 02/14/2019
+ms.date: 02/27/2019
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -14,21 +14,21 @@ ms.prod: visual-studio-dev16
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 41582f9f27b16a41c3ef10196f3cd29323579b4b
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: c4475836a9d4cdd394bff78280c5c075dd960e1d
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450258"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223548"
 ---
-# <a name="whats-new-in-visual-studio-2019-preview"></a>Visual Studio 2019 Preview의 새로운 기능
+# <a name="whats-new-in-visual-studio-2019"></a>Visual Studio 2019의 새로운 기능
 
-**[미리 보기 3 릴리스](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)의 업데이트**
+**[RC(릴리스 후보)](/visualstudio/releases/2019/release-notes/) 업데이트**
 
 >[!div class="button"]
->[미리 보기 다운로드](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview)
+>[RC 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+rc)
 
-Visual Studio 2019 미리 보기에는 개발자 생산성 및 팀 공동 작업을 최적화하는 여러 개선된 기능이 포함되어 있습니다. Visual Studio를 처음 접하는 분이든 수년째 사용 중인 분이든, 간단한 프로젝트 만들기 및 코드 상태 관리부터 팀 및 오픈 소스 공동 작업 워크플로까지 개발 수명 주기의 모든 면에서 기능을 활용할 수 있습니다.<br/><br/>
+Visual Studio 2019에는 개발자 생산성 및 팀 공동 작업을 최적화하는 여러 개선된 기능이 포함되어 있습니다. Visual Studio를 처음 접하는 분이든 수년째 사용 중인 분이든, 간단한 프로젝트 만들기 및 코드 상태 관리부터 팀 및 오픈 소스 공동 작업 워크플로까지 개발 수명 주기의 모든 면에서 기능을 활용할 수 있습니다.<br/><br/>
 
 >[!VIDEO https://channel9.msdn.com/Events/Connect/Microsoft-Connect--2018/D190/player]
 
@@ -39,7 +39,7 @@ Visual Studio가 제공하는 장점은 다음과 같습니다.
 * **[지속적인 혁신](#continuous-innovation)**. 코드에 인텔리전트 클라우드 기반 지원이 제공됩니다.
 
 > [!NOTE]
-> Visual Studio 2019 미리 보기의 새로운 특징 및 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)를 참조하세요.
+> Visual Studio 2019의 새로운 기능에 대한 전체 목록은 [RC 릴리스 정보](/visualstudio/releases/2019/release-notes/) 및 [미리 보기 4 릴리스 정보](/visualstudio/releases/2019/release-notes-preview/)를 참조하세요. 이 두 가지 최신 릴리스에 대한 자세한 내용은 [현재 사용 가능한 Visual Studio 2019 Release Candidate](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-release-candidate-rc-now-available/) 블로그 게시물을 참조하세요.
 
 ## <a name="personal-and-team-productivity"></a>개인 및 팀 생산성
 
@@ -75,7 +75,7 @@ Visual Studio 2019를 열면 가장 먼저 보이는 것이 새로운 시작 창
 
 #### <a name="search-within-a-watch-window-and-format-watch-values"></a>조사식 창 내에서 검색하고 조사식 값 포맷
 
-아마도 다들 이전에 조사식 창을 들여다보며 값 세트 중에서 문자열을 찾아본 경험이 있을 것입니다. Visual Studio 2019 미리 보기에서는 원하는 개체 및 값을 쉽게 찾을 수 있도록 조사식, 로컬 및 자동 창에 검색을 추가했습니다.
+아마도 다들 이전에 조사식 창을 들여다보며 값 세트 중에서 문자열을 찾아본 경험이 있을 것입니다. Visual Studio 2019에서는 원하는 개체 및 값을 쉽게 찾을 수 있도록 조사식, 로컬 및 자동 창에 검색을 추가했습니다.
 
 조사식, 로컬 및 자동 창 내에서 값을 표시하는 방법도 지정할 수 있습니다.  아무 창에서 항목 중 하나를 두 번 클릭하고 쉼표(",")를 추가하면 사용 가능한 포맷 지정자 드롭다운 목록에 액세스할 수 있으며, 각각에는 의도하는 효과에 대한 설명이 포함되어 있습니다.
 
@@ -87,7 +87,7 @@ Visual Studio 2019를 열면 가장 먼저 보이는 것이 새로운 시작 창
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/)는 Visual Studio 내에서 바로 코드베이스와 컨텍스트를 팀원과 공유하고 즉각적인 양방향 공동 작업을 수행할 수 있는 개발자 서비스입니다. 실시간 공유를 사용하면 귀하가 공유한 프로젝트를 팀원이 원활하고 안전하게 읽고, 탐색하고, 편집하고, 디버깅할 수 있습니다.
 
-Visual Studio 2019 미리 보기를 사용하면 이 서비스가 기본적으로 설치됩니다.
+그리고 Visual Studio 2019를 사용하면 이 서비스가 기본적으로 설치됩니다.
 
 ![Visual Studio 2019의 Live Share 공동 작업 기능을 보여 주는 애니메이션 GIF 파일](media/live-share-collaboration.gif)
 
@@ -97,7 +97,7 @@ Visual Studio 2019 미리 보기를 사용하면 이 서비스가 기본적으�
 
 ### <a name="manage-pull-requests-prs-from-the-ide"></a>IDE에서 끌어오기 요청(PR) 관리
 
-다운로드하여 Visual Studio 2019 미리 보기와 함께 사용할 수 있는 새로운 확장이 곧 도입됩니다. 이 새로운 확장을 사용하면 Visual Studio IDE[(통합 개발 환경)](../get-started/visual-studio-ide.md)를 벗어나지 않고도 팀의 끌어오기 요청을 검토, 실행 및 디버그할 수 있습니다. 현재 Azure Repos에서 코드를 지원하고 있지만, GitHub를 지원하고 전반적인 환경을 개선하기 위해 확장할 예정입니다.
+다운로드하여 Visual Studio 2019와 함께 사용할 수 있는 새로운 확장이 곧 도입됩니다. 이 새로운 확장을 사용하면 Visual Studio IDE[(통합 개발 환경)](../get-started/visual-studio-ide.md)를 벗어나지 않고도 팀의 끌어오기 요청을 검토, 실행 및 디버그할 수 있습니다. 현재 Azure Repos에서 코드를 지원하고 있지만, GitHub를 지원하고 전반적인 환경을 개선하기 위해 확장할 예정입니다.
 
 지금 시작하려면 Visual Studio Marketplace에서 [Visual Studio에 대한 끌어오기 요청](https://aka.ms/pr4vs) 확장을 다운로드하세요.
 
@@ -110,7 +110,7 @@ Visual Studio 2019의 미리 보기 릴리스는 모든 플랫폼에서 [.NET Co
 자세한 내용은 다음 페이지를 참조하세요.
 
 * [.NET Core 3 Preview 1](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview1.md) 및 [.NET Core 3 Preview 2](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview2.md) 릴리스 노트
-* [.NET Core 3 Preview 1 발표](https://blogs.msdn.microsoft.com/dotnet/2018/12/04/announcing-net-core-3-preview-1-and-open-sourcing-windows-desktop-frameworks/) 및 [.NET Core 3 Preview 2 발표](https://blogs.msdn.microsoft.com/dotnet/2019/01/29/announcing-net-core-3-preview-2/) 블로그 게시물
+* [.NET Core 3 Preview 1 발표](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-1-and-open-sourcing-windows-desktop-frameworks/) 및 [.NET Core 3 Preview 2 발표](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-2/) 블로그 게시물
 
 ## <a name="continuous-innovation"></a>지속적인 혁신
 
@@ -118,7 +118,7 @@ Visual Studio 2019의 미리 보기 릴리스는 모든 플랫폼에서 [.NET Co
 
 여러 디스플레이 배율 인수를 사용하여 구성된 모니터를 사용하거나, 디스플레이 배율 인수가 주 디바이스와 다른 머신에 원격으로 연결하는 경우 Visual Studio가 흐리게 보이거나 잘못된 배율로 렌더링될 수 있습니다.
 
-Visual Studio 2019 미리 보기 릴리스부터 Visual Studio를 PMA(모니터별 인식) 애플리케이션으로 만들기 위한 첫 번째 단계가 시작됩니다. 사용하는 디스플레이 배율에 관계없이 Visual Studio가 올바르게 렌더링할 수 있도록 기반 작업을 진행 중입니다.
+Visual Studio 2019 릴리스부터 Visual Studio를 PMA(모니터별 인식) 애플리케이션으로 만들기 위한 첫 번째 단계가 시작됩니다. 사용하는 디스플레이 배율에 관계없이 Visual Studio가 올바르게 렌더링할 수 있도록 기반 작업을 진행 중입니다.
 
    ![Visual Studio 2019의 PMA(모니터별 인식) 렌더링](media/per-monitor-aware-dpi-scaling.png)
 
@@ -153,6 +153,7 @@ C#을 사용하는 분들을 위해 사용자 고유의 코드에서 사용자 �
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2019 릴리스 정보](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)
+* [Visual Studio 2019 릴리스 정보](/visualstudio/releases/2019/release-notes/)
+* [Visual Studio 2019 SDK의 새로운 기능](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Microsoft Connect(); 2018 회의](https://www.microsoft.com/connectevent)
 * [Visual Studio 2017의 새로운 기능](whats-new-visual-studio-2017.md)

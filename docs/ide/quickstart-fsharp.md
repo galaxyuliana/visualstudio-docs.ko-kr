@@ -11,14 +11,14 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 166ff1fae5cbc494fe287a47a2983fc52364493b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c7fba20b7b01ab0c55e9bef9b4bcc62813cab895
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934668"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323279"
 ---
-# <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-service-in-f"></a>빠른 시작: Visual Studio를 사용하여 F#에서 첫 번째 ASP.NET Core 웹 서비스 만들기
+# <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-service-in-f"></a>빠른 시작: Visual Studio를 사용하여 F\#에서 첫 번째 ASP.NET Core 웹 서비스 만들기
 
 Visual Studio의 F#에 대한 5~10분 분량의 소개에서 F# ASP.NET Core 웹 애플리케이션을 만듭니다.
 
@@ -28,7 +28,7 @@ Visual Studio의 F#에 대한 5~10분 분량의 소개에서 F# ASP.NET Core 웹
 
 먼저, ASP.NET Core Web API 프로젝트를 만듭니다. 프로젝트 형식에는 무엇인가 추가하기 전에 기능 웹 서비스를 구성하는 템플릿 파일이 포함되어 있습니다.
 
-1. Visual Studio 2017을 엽니다.
+1. Visual Studio를 엽니다.
 
 2. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다.
 

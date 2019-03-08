@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 38039bd98ab1a2d8407945f578e47d325475d4cd
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 0d8b4806a8db576f2aa6c9af198e9b7f2c974556
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318006"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223457"
 ---
 # <a name="use-a-lab-environment-for-your-devops"></a>Devops에 랩 환경 사용
 
@@ -55,7 +55,7 @@ TFS(Team Foundation Server) 및 Azure Test Plans의 [빌드 및 릴리스](/azur
 
 ## <a name="use-the-visual-studio-lab-management-features-of-microsoft-test-manager"></a>Microsoft Test Manager의 Visual Studio Lab Management 기능 사용
 
-Visual Studio 2017 Enterprise 버전을 사용하는 경우 Microsoft Test Manager의 Visual Studio Lab Management 기능을 사용하여 랩 환경을 만들고 관리할 수 있습니다.
+Visual Studio Enterprise 버전을 사용하는 경우 Microsoft Test Manager의 Visual Studio Lab Management 기능을 사용하여 랩 환경을 만들고 관리할 수 있습니다.
 
 Lab Management는 환경의 각 컴퓨터에 테스트 에이전트를 자동으로 설치합니다.
 

@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ba0869dcaccbd5f0b13661738a1d923758513aeb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a76b40e2a9848b0f80e755d15a9bd6e65fcf51da
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935110"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222911"
 ---
 # <a name="use-code-coverage-to-determine-how-much-code-is-being-tested"></a>코드 검사를 사용하여 테스트할 코드 범위 결정
 
@@ -28,7 +28,7 @@ ms.locfileid: "55935110"
 
 테스트 탐색기를 사용하여 테스트 메서드를 실행하는 경우 코드 검사는 선택 사항입니다. 결과 테이블에는 각 어셈블리, 클래스 및 메서드에서 실행되는 코드의 백분율이 표시됩니다. 또한 소스 편집기에는 테스트된 코드가 표시됩니다.
 
-![색 지정이 사용된 코드 검사 결과](../test/media/codecoverage1.png)
+![강조 표시된 코드 검사 결과](../test/media/codecoverage1.png)
 
 ## <a name="requirements"></a>요구 사항
 
@@ -258,7 +258,17 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 
 1. Visual Studio용 개발자 명령 프롬프트를 시작합니다.
 
+   ::: moniker range="vs-2017"
+
    Windows **시작** 메뉴에서 **Visual Studio 2017** > **VS 2017용 개발자 명령 프롬프트**를 선택합니다.
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   Windows **시작** 메뉴에서 **Visual Studio 2019** > **VS 2019용 개발자 명령 프롬프트**를 선택합니다.
+
+   ::: moniker-end
 
 2. 명령 프롬프트에서 다음 명령을 실행합니다.
 

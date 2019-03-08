@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 45d165cd25b6ef17c4603ab5c1c7c783edd85d8b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 792b3ccf09faf9983afcd72de9acc0f23540683d
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927609"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223535"
 ---
 # <a name="navigate-code"></a>코드 탐색
 
@@ -82,7 +82,7 @@ Visual Studio는 편집기에서 코드를 탐색하는 다양한 방법을 제�
 
 - **파일로 이동**(**Ctrl**+**1**, **Ctrl**+**F**): 솔루션에 지정된 파일로 이동합니다.
 
-- **최근에 사용한 파일로 이동**(**Ctrl**+**1**, **Ctrl**+**R**): 솔루션에서 지정되고 최근에 방문한 파일(Visual Studio 2017 버전 15.8의 새로운 기능)로 이동합니다.
+- **최근에 사용한 파일로 이동**(**Ctrl**+**1**, **Ctrl**+**R**): 솔루션에서 지정되고 최근에 방문한 파일로 이동합니다.
 
 - **형식으로 이동**(**Ctrl**+**1**, **Ctrl**+**T**): 솔루션에 지정된 형식으로 이동합니다.
 
@@ -105,7 +105,7 @@ Visual Studio 2017 버전 15.8 이상에서는 다음과 같은 **이동** 탐�
 입력 | 함수
 ------------ | ---
 **키보드** | 형식 이름 내부에 텍스트 커서를 놓고 **F12** 키를 누릅니다.
-**마우스** | 형식 이름을 마우스 오른쪽 단추로 클릭하고, **정의로 이동**을 선택하거나 **Ctrl** 키를 누르고, 형식 이름(Visual Studio 2017 15.4 버전의 경우 새로 만들기)을 클릭합니다.
+**마우스** | 형식 이름을 마우스 오른쪽 단추로 클릭하고, **정의로 이동**을 선택하거나 **Ctrl** 키를 누르고, 형식 이름을 클릭합니다.
 
 ## <a name="peek-definition"></a>정의 피킹(Peeking)
 

@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 98c93f193a17c8581694079ce0c9d7add0341bd1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 55c4514ddcc312a6d3ae72f1fc9b5f573ac562b5
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55925984"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57324223"
 ---
 # <a name="walkthrough-create-a-multiple-computer-build-environment"></a>연습: 여러 컴퓨터 빌드 환경 만들기
 
@@ -43,7 +43,7 @@ ms.locfileid: "55925984"
 
 ## <a name="prerequisites"></a>전제 조건
 
-- **.NET 데스크톱 개발** 워크로드가 설치된 Visual Studio.
+**.NET 데스크톱 개발** 워크로드가 설치된 Visual Studio.
 
 ## <a name="install-software-on-the-computers"></a>컴퓨터에 소프트웨어 설치
 
@@ -59,13 +59,13 @@ ms.locfileid: "55925984"
 
 이 단원에서는 특정 파일, 컴파일러, 빌드 도구, MSBuild 자산 및 레지스트리 설정을 호스트 컴퓨터에서 빌드 컴퓨터로 복사하는 방법에 대해 설명합니다. 다음 단계에서는 Visual Studio가 호스트 컴퓨터의 기본 위치에 설치되어 있다고 가정합니다. 다른 위치에 설치한 경우 단계를 적절하게 조정하십시오.
 
-- x86 컴퓨터에서 기본 위치는 *C:\Program Files\Microsoft Visual Studio 11.0*입니다.
-- x64 컴퓨터에서 기본 위치는 *C:\Program Files (x86)\Microsoft Visual Studio 11.0*입니다.
+- x86 컴퓨터에서 기본 위치는 *C:\Program Files\Microsoft Visual Studio*입니다.
+- x64 컴퓨터에서 기본 위치는 *C:\Program Files (x86)\Microsoft Visual Studio*입니다.
 
 *Program Files* 폴더의 이름은 설치된 운영 체제에 따라 달라집니다. x86 컴퓨터에서는 이름이 *Program Files*이고, x64 컴퓨터에서는 이름이 *Program Files (x86)* 입니다. 시스템 아키텍처에 관계없이 이 연습에서는 *Program Files* 폴더를 *%ProgramFiles%* 로 나타냅니다.
 
 > [!NOTE]
-> 빌드 컴퓨터에서는 모든 관련 파일이 동일한 드라이브에 있어야 하지만 해당 드라이브의 드라이브 문자는 호스트 컴퓨터에서 Visual Studio가 설치된 드라이브의 드라이브 문자와 다를 수 있습니다. 어떤 경우이든 이 문서의 뒷부분에 설명된 것처럼 레지스트리 항목을 만들 때는 파일의 위치를 감안해야 합니다.
+> 빌드 컴퓨터에서는 모든 관련 파일이 동일한 드라이브에 있어야 합니다. 하지만 해당 드라이브의 드라이브 문자는 호스트 컴퓨터에서 Visual Studio가 설치된 드라이브의 드라이브 문자와 다를 수 있습니다. 어떤 경우이든 이 문서의 뒷부분에 설명된 것처럼 레지스트리 항목을 만들 때는 파일의 위치를 감안해야 합니다.
 
 ### <a name="copy-the-windows-sdk-files-to-the-build-computer"></a>Windows SDK 파일을 빌드 컴퓨터로 복사
 
@@ -85,7 +85,7 @@ ms.locfileid: "55925984"
 
    - %ProgramFiles%\Windows Kits\8.0\References\
 
-     다음과 같은 기타 Windows 8 키트도 있을 경우
+   다음과 같은 기타 Windows 8 키트도 있을 경우
 
    - Microsoft Windows 평가 및 배포 키트
 
@@ -93,7 +93,7 @@ ms.locfileid: "55925984"
 
    - Microsoft Windows 하드웨어 인증 키트
 
-     이전 단계에 나열된 *%ProgramFiles%\Windows Kits\8.0* 폴더에 여러 파일이 설치되었을 수 있으며, 해당 사용 약관에 따라 해당 파일에 대한 빌드 서버 권한이 허용되지 않을 수 있습니다. 설치된 모든 Windows 키트에 대한 사용 약관에서 파일을 빌드 컴퓨터로 복사할 수 있는지 여부를 확인합니다. 사용 약관에 따라 빌드 서버 권한이 허용되지 않으면 빌드 컴퓨터에서 파일을 제거합니다.
+   이전 단계에 나열된 *%ProgramFiles%\Windows Kits\8.0* 폴더에 여러 파일이 설치되었을 수 있으며, 해당 사용 약관에 따라 해당 파일에 대한 빌드 서버 권한이 허용되지 않을 수 있습니다. 설치된 모든 Windows 키트에 대한 사용 약관에서 파일을 빌드 컴퓨터로 복사할 수 있는지 여부를 확인합니다. 사용 약관에 따라 빌드 서버 권한이 허용되지 않으면 빌드 컴퓨터에서 파일을 제거합니다.
 
 2. 호스트 컴퓨터에서 빌드 컴퓨터로 다음 폴더를 재귀적으로 복사합니다.
 
@@ -101,11 +101,11 @@ ms.locfileid: "55925984"
 
     - %ProgramFiles%\Common Files\Merge Modules\
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\VC\
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\VC\
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\ProjectComponents\
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\Tools\ProjectComponents\
 
-    - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\V110\
+    - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v110\
 
     - %ProgramFiles%\Reference Assemblies\Microsoft\Framework\\.NETCore\v4.5\
 
@@ -113,23 +113,23 @@ ms.locfileid: "55925984"
 
 3. 호스트 컴퓨터에서 빌드 컴퓨터로 다음 파일을 복사합니다.
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\msobj110.dll
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\msobj110.dll
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdb110.dll
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\mspdb110.dll
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdbcore.dll
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\mspdbcore.dll
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdbsrv.exe
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\mspdbsrv.exe
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\msvcdis110.dll
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\msvcdis110.dll
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\makehm.exe
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\Tools\makehm.exe
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\VCVarsQueryRegistry.bat
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\Tools\VCVarsQueryRegistry.bat
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\vsvars32.bat
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\Tools\vsvars32.bat
 
-4. 다음 Visual C++ 런타임 라이브러리는 빌드 컴퓨터에서 빌드 출력을 자동화된 테스트의 일환 등으로 실행하는 경우에만 필요합니다. 파일은 시스템 아키텍처에 따라 일반적으로 *%ProgramFiles%\Microsoft Visual Studio 11.0\VC\redist\x86* 또는 *%ProgramFiles%\Microsoft Visual Studio 11.0\VC\redist\x64* 폴더의 하위 폴더에 있습니다. x86 시스템에서는 x86 이진 파일을 *Windows\System32* 폴더로 복사합니다. x64 시스템에서는 x86 이진 파일을 *Windows\SysWOW64* 폴더로 복사하고, x64 이진 파일을 *Windows\System32* 폴더로 복사합니다.
+4. 다음 Visual C++ 런타임 라이브러리는 빌드 컴퓨터에서 빌드 출력을 자동화된 테스트의 일환 등으로 실행하는 경우에만 필요합니다. 파일은 시스템 아키텍처에 따라 일반적으로 *%ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\VC\redist\x86* 또는 *%ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\VC\redist\x64* 폴더 아래의 하위 폴더에 있습니다. x86 시스템에서는 x86 이진 파일을 *Windows\System32* 폴더로 복사합니다. x64 시스템에서는 x86 이진 파일을 *Windows\SysWOW64* 폴더로 복사하고, x64 이진 파일을 *Windows\System32* 폴더로 복사합니다.
 
     - \Microsoft.VC110.ATL\atl110.dll
 
@@ -254,7 +254,7 @@ MSBuild에 대한 설정을 구성하려면 레지스트리 항목을 만들어�
 
 ### <a name="use-vcvarsallbat-to-set-environment-variables"></a>vcvarsall.bat를 사용하여 환경 변수 설정
 
-빌드 컴퓨터에서 **명령 프롬프트** 창을 열고 *%Program Files%\Microsoft Visual Studio 11.0\VC\vcvarsall.bat*를 실행합니다. 명령줄 인수를 사용하여 사용할 도구 집합을 지정할 수 있습니다(x86, 네이티브 x64 또는 x64 크로스 컴파일러). 명령줄 인수를 지정하지 않으면 x86 도구 집합이 사용됩니다.
+빌드 컴퓨터에서 **명령 프롬프트** 창을 열고 *%Program Files%\Microsoft Visual Studio\\\<version>\\\<edition>\VC\vcvarsall.bat*를 실행합니다. 명령줄 인수를 사용하여 사용할 도구 집합을 지정할 수 있습니다(x86, 네이티브 x64 또는 x64 크로스 컴파일러). 명령줄 인수를 지정하지 않으면 x86 도구 집합이 사용됩니다.
 
 다음 표에서는 *vcvarsall.bat*에 대해 지원되는 인수를 설명합니다.
 
@@ -270,7 +270,7 @@ MSBuild에 대한 설정을 구성하려면 레지스트리 항목을 만들어�
 
 1. 명령줄 환경을 수동으로 구성하려면 PATH 환경 변수에 다음 경로를 추가합니다.
 
-    - %Program Files%\Microsoft Visual Studio 11.0\Common7\IDE
+    - %Program Files%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE
 
 2. 선택적으로 보다 쉽게 MSBuild를 사용하여 솔루션을 빌드할 수 있도록 PATH 변수에 다음 경로를 추가할 수도 있습니다.
 
@@ -294,9 +294,9 @@ MSBuild를 사용하려면 빌드 컴퓨터의 GAC에 일부 추가 어셈블리
 
     - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.Build.CPPTasks.Common.v110.dll
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\CommonExtensions\Microsoft\VC\Project\Microsoft.VisualStudio.Project.VisualC.VCProjectEngine.dll
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\CommonExtensions\Microsoft\VC\Project\Microsoft.VisualStudio.Project.VisualC.VCProjectEngine.dll
 
-    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.VCProjectEngine.dll
+    - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.VCProjectEngine.dll
 
 2. GAC에 어셈블리를 설치하려면 빌드 컴퓨터에서 *gacutil.exe*를 찾습니다. 일반적으로 이는 %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\에 있습니다. 이 폴더를 찾을 수 없으면 이 연습의 [호스트 컴퓨터에서 빌드 컴퓨터로 파일 복사](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) 섹션에 있는 단계를 반복합니다.
 
@@ -364,7 +364,7 @@ Visual Studio 프로젝트 및 솔루션은 Azure Pipelines를 사용하여 빌�
     <VCTargetsPath11>$(DepotRoot)MSBuild\Microsoft.Cpp\v4.0\v110\</VCTargetsPath11>
     <MSBuildExtensionsPath>$(DepotRoot)MSBuild</MSBuildExtensionsPath>
     <MSBuildExtensionsPath32>$(DepotRoot)MSBuild</MSBuildExtensionsPath32>
-    <VCInstallDir_110>$(DepotRoot)Microsoft Visual Studio 11.0\VC\</VCInstallDir_110>
+    <VCInstallDir_110>$(DepotRoot)Microsoft Visual Studio\2017\Enterprise\VC\</VCInstallDir_110>
     <VCInstallDir>$(VCInstallDir_110)</VCInstallDir>
     <WindowsKitRoot>$(DepotRoot)Windows Kits\</WindowsKitRoot>
     <WindowsSDK80Path>$(WindowsKitRoot)</WindowsSDK80Path>
@@ -381,13 +381,29 @@ Visual Studio 프로젝트 및 솔루션은 Azure Pipelines를 사용하여 빌�
     <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Partner.AutoImports.props))\Partner.AutoImports.props"/>
     ```
 
+::: moniker range="vs-2017"
+
 6. 명령줄 환경을 다음과 같이 변경합니다.
 
     - Depot=*1단계에서 만든 Depot 디렉터리의 위치* 설정
 
     - Set path=%path%;’컴퓨터에서 MSBuild의 위치’;%Depot%\Windows\System32;%Depot%\Windows\SysWOW64;%Depot%\Microsoft Visual Studio 15.0\Common7\IDE\
 
-       네이티브 64비트 빌드의 경우 64비트 MSBuild를 가리킵니다.
+       네이티브 64비트 빌드의 경우 MSBuild의 64비트 버전을 가리킵니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+6. 명령줄 환경을 다음과 같이 변경합니다.
+
+    - Depot=*1단계에서 만든 Depot 디렉터리의 위치* 설정
+
+    - Set path=%path%;*컴퓨터에서 MSBuild의 위치*;%Depot%\Windows\System32;%Depot%\Windows\SysWOW64;%Depot%\Microsoft Visual Studio 16.0\Common7\IDE\
+
+       네이티브 64비트 빌드의 경우 MSBuild의 64비트 버전을 가리킵니다.
+
+::: moniker-end
 
 ## <a name="see-also"></a>참고 항목
 

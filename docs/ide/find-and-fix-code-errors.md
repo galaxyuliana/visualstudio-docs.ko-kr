@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 57650bbe01a9d93b9847fd42075492c158d4db59
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b0f1f55f0e0ae9882154ed62ccbf323441070472
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928311"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223613"
 ---
 # <a name="make-code-work-in-visual-studio"></a>Visual Studio에서 코드를 작동하게 하기
 
@@ -74,7 +74,7 @@ Visual Studio UI 아래쪽의 **출력** 창에서 빌드 프로세스를 관찰
 
 ### <a name="c-and-visual-basic-code-analysis"></a>C# 및 Visual Basic 코드 분석
 
-Visual Studio 2017에는 입력한 C# 및 Visual Basic 코드를 검사하는 기본 제공 [.NET 컴파일러 플랫폼 분석기](../code-quality/roslyn-analyzers-overview.md) 집합이 포함되어 있습니다. Visual Studio 확장이나 NuGet 패키지로 다른 분석기를 설치할 수 있습니다. 규칙 위반이 발생하면 코드 편집기에서 문제의 코드 아래에 물결선이 표시되며 **오류 목록**에도 보고됩니다.
+Visual Studio에는 입력한 C# 및 Visual Basic 코드를 검사하는 기본 제공 [.NET 컴파일러 플랫폼 분석기](../code-quality/roslyn-analyzers-overview.md) 세트가 포함되어 있습니다. Visual Studio 확장이나 NuGet 패키지로 다른 분석기를 설치할 수 있습니다. 규칙 위반이 발생하면 코드 편집기에서 문제의 코드 아래에 물결선이 표시되며 **오류 목록**에도 보고됩니다.
 
 ### <a name="c-code-analysis"></a>C++ 코드 분석
 

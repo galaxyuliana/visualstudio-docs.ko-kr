@@ -8,18 +8,36 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c1bac4ba3e929da9ad6f22666c6a6b3f71b288c0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3db5b22e2248c7ae79ec5300823f6ee7d4f415c7
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55920046"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428663"
 ---
 # <a name="first-look-at-the-visual-studio-ide"></a>먼저 Visual Studio IDE 살펴보기
 
 이 5~10분이 걸리는 Visual Studio IDE(통합 개발 환경) 소개 내용에서는 창, 메뉴 및 기타 UI 기능 일부를 살펴보겠습니다.
 
 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker range=">=vs-2019"
+
+## <a name="start-window"></a>시작 창
+
+Visual Studio를 시작한 후에 처음으로 보게 되는 것은 시작 창입니다. 시작 창은 "코드 가져오기"를 더 빨리 할 수 있도록 설계되었습니다. 코드를 닫거나 체크 아웃하거나 기존 프로젝트 또는 솔루션을 열거나, 새 프로젝트를 만들거나, 일부 코드 파일이 포함된 폴더를 열 수 있는 옵션이 있습니다.
+
+[![](media/vs-2019/start-window.png "Visual Studio 2019의 시작 창")](media/vs-2019/start-window.png)
+
+Visual Studio를 처음 사용하는 경우 최근 프로젝트 목록이 비어 있습니다.
+
+비 MSBuild 기반 코드베이스로 작업하는 경우 **로컬 폴더 열기** 옵션을 사용하여 Visual Studio에서 코드를 엽니다. 자세한 내용은 [프로젝트 또는 솔루션 없이 Visual Studio에서 코드 개발](develop-javascript-code-without-solutions-projects.md)을 참조하세요. 그렇지 않으면 새 프로젝트를 만들거나 GitHub 또는 Azure DevOps와 같은 원본 공급자에서 프로젝트를 복제할 수 있습니다.
+
+**코드 없이 계속** 옵션은 특정 프로젝트나 코드를 로드하지 않고 Visual Studio 개발 환경을 열면 됩니다. 이 옵션을 선택하면 [Live Share](/visualstudio/liveshare/) 세션에 조인하거나 디버깅을 위해 프로세스에 연결할 수 있습니다. **Esc**를 눌러 시작 창을 닫고 IDE를 열 수도 있습니다.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
 
 ## <a name="start-page"></a>시작 페이지
 
@@ -31,9 +49,27 @@ Visual Studio를 시작한 후 처음으로 보게 되는 것은 **시작 페이
 
 ![Visual Studio의 파일 메뉴](media/quickstart-IDE-file-menu-large.png)
 
+::: moniker-end
+
 ## <a name="create-a-project"></a>프로젝트 만들기
 
 Visual Studio의 기능을 계속 탐색하기 위해 새 프로젝트를 만들어 보겠습니다.
+
+::: moniker range=">=vs-2019"
+
+1. **시작 창**에서 **새 프로젝트 만들기**를 선택한 다음, 검색에 **javascript**를 입력하여 해당 이름 또는 언어 형식에 "javascript"가 포함된 프로젝트 형식 목록을 필터링합니다.
+
+   Visual Studio에서는 신속하게 코딩을 시작하는 데 도움이 되는 다양한 종류의 프로젝트 템플릿을 제공합니다. (또는 TypeScript 개발자인 경우 해당 언어로 프로젝트를 자유롭게 만듭니다. 표시되는 UI는 모든 프로그래밍 언어에서 비슷합니다.)
+
+   ![Visual Studio 시작 창에서 프로젝트 템플릿 검색](media/vs-2019/create-new-project.png)
+
+1. **빈 Node.js 웹 애플리케이션** 프로젝트 템플릿을 선택하고 **다음**을 클릭합니다. 
+
+1. 표시되는 **새 프로젝트 구성** 대화 상자에서 기본 프로젝트 이름을 그대로 사용하고 **만들기**를 선택합니다.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
 
 1. **시작 페이지**의 **새 프로젝트** 아래 검색 상자에 **javascript**를 입력하여 해당 이름 또는 언어 형식에 "javascript"가 포함된 항목으로 프로젝트 형식 목록을 필터링합니다.
 
@@ -42,6 +78,7 @@ Visual Studio의 기능을 계속 탐색하기 위해 새 프로젝트를 만들
    Visual Studio에서는 신속하게 코딩을 시작하는 데 도움이 되는 다양한 종류의 프로젝트 템플릿을 제공합니다. **빈 Node.js 웹 애플리케이션** 프로젝트 템플릿을 선택합니다. (또는 TypeScript 개발자인 경우 해당 언어로 프로젝트를 자유롭게 만듭니다. 표시되는 UI는 모든 프로그래밍 언어에서 비슷합니다.)
 
 1. 표시되는 **새 프로젝트** 대화 상자에서 기본 프로젝트 이름을 그대로 사용하고 **확인**을 선택합니다.
+::: moniker-end
 
    프로젝트가 만들어지고 **편집기** 창에 *server.cs*라는 파일이 열립니다. **편집기**에는 파일 내용이 표시되며, 여기서 Visual Studio에서 하는 코딩 작업 대부분을 수행합니다.
 

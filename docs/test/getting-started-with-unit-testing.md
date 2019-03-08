@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 11fb8fe4b30aa986a6c442278d1e8984604a6794
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: df48a659d7718691d86909458a4a1a150d2d64dd
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927986"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223522"
 ---
 # <a name="get-started-with-unit-testing"></a>유닛 테스트 시작
 
@@ -74,7 +74,7 @@ Visual Studio를 사용하여 단위 테스트를 정의하고 실행하여 코�
 Visual Studio 2017 이상에서 MSTest, xUnit 또는 NUnit 테스트 프레임워크를 사용하고 있다면 단위 테스트의 라이브 결과를 볼 수 있습니다.
 
 > [!NOTE]
-> Live Unit Testing은 Visual Studio 2017 Enterprise Edition에서만 사용 가능합니다.
+> Live Unit Testing은 Visual Studio Enterprise 버전에서만 사용 가능합니다.
 
 1. **테스트** 메뉴에서 Live Unit Testing을 설정합니다.
 

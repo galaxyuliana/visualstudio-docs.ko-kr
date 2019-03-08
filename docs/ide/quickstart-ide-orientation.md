@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0e70a28dd3bfc9511cdfec3656ff84c77802fa8f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 622887a3886eb51b148451bfaee561b7d5c7a466
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56712530"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223630"
 ---
 # <a name="quickstart-first-look-at-the-visual-studio-ide"></a>빠른 시작: 먼저 Visual Studio IDE 살펴보기
 
@@ -114,5 +114,5 @@ Visual Studio를 사용하는 동안 문제가 발생하거나 제품을 개선�
 ## <a name="see-also"></a>참고 항목
 
 - [Visual Studio IDE 개요](../get-started/visual-studio-ide.md)
-- [Visual Studio 2017의 추가 기능](../ide/advanced-feature-overview.md)
+- [Visual Studio의 추가 기능](../ide/advanced-feature-overview.md)
 - [테마 및 글꼴 색 변경](../ide/quickstart-personalize-the-ide.md)

@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: df5340d64087068f5da3b48c1057e3a6a8fb700a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: bab3cf50dfc860a857b3e9875ae6c71aff79014e
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919237"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223483"
 ---
 # <a name="use-ui-automation-to-test-your-code"></a>UI 자동화를 사용하여 코드 테스트
 
@@ -48,7 +48,7 @@ Visual Studio에서 UI(사용자 인터페이스)를 통해 애플리케이션�
 
 ## <a name="install-the-coded-ui-test-component"></a>코딩된 UI 테스트 구성 요소 설치
 
-코딩된 UI 테스트 도구 및 템플릿에 액세스하려면 Visual Studio 2017의**코딩된 UI 테스트** 구성 요소를 설치합니다.
+코딩된 UI 테스트 도구 및 템플릿에 액세스하려면 Visual Studio의**코딩된 UI 테스트** 구성 요소를 설치합니다.
 
 1. **도구** > **도구 및 기능 가져오기**를 선택하여 **Visual Studio 설치 관리자**를 시작합니다.
 

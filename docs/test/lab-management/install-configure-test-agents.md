@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 55cff84a4633b3b59d8167c0f460cbd96a98f04c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 04111b7a408b2378e0067ce1e3dd4e5ffd23ee48
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55912744"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223028"
 ---
 # <a name="install-test-agents-and-test-controllers"></a>테스트 에이전트 및 테스트 컨트롤러 설치
 
@@ -24,7 +24,7 @@ Lab Management 대신 [Build 또는 Release Management](use-build-or-rm-instead-
 
 ## <a name="system-requirements"></a>시스템 요구 사항
 
-다음 표에는 Visual Studio 2017에 대한 테스트 에이전트 또는 테스트 컨트롤러를 설치하기 위한 시스템 요구 사항을 보여줍니다.
+다음 표에는 Visual Studio에 대한 테스트 에이전트 또는 테스트 컨트롤러를 설치하기 위한 시스템 요구 사항을 보여줍니다.
 
 | 항목 | 요구 사항 |
 | ---- | ------------ |
@@ -34,7 +34,7 @@ Lab Management 대신 [Build 또는 Release Management](use-build-or-rm-instead-
 
 ## <a name="install-the-test-controller-and-test-agents"></a>테스트 컨트롤러 및 테스트 에이전트 설치
 
-[visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?q=agents)에서Visual Studio 2017용 에이전트를 다운로드할 수 있습니다. *Agents for Visual Studio 2017*을 찾고, ‘에이전트’ 또는 ‘컨트롤러’를 선택한 다음, ‘다운로드’를 선택합니다. 다운로드한 실행 파일을 실행하여 컨트롤러 또는 테스트 에이전트를 설치합니다.
+[visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?q=agents)에서Visual Studio용 에이전트를 다운로드할 수 있습니다. *Agents for Visual Studio 2017*을 찾고, ‘에이전트’ 또는 ‘컨트롤러’를 선택한 다음, ‘다운로드’를 선택합니다. 다운로드한 실행 파일을 실행하여 컨트롤러 또는 테스트 에이전트를 설치합니다.
 
 [이전 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/) 페이지에서 Agents for Visual Studio 2015 및 Agents for Visual Studio 2013을 다운로드할 수 있습니다.
 

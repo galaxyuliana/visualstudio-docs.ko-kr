@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 26ac40b3ae84aad689df9884ad8453860f91d971
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 88e4f63646883c8d48dbd62fbd03deaddff8b8e2
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919718"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223743"
 ---
 # <a name="how-to-add-class-diagrams-to-projects"></a>방법: 프로젝트에 클래스 다이어그램 추가
 
@@ -26,7 +26,7 @@ ms.locfileid: "55919718"
 
 ## <a name="install-the-class-designer-component"></a>클래스 디자이너 구성 요소 설치
 
-Visual Studio 2017을 실행 중이고 **클래스 디자이너** 구성 요소를 설치하지 않은 경우 다음 단계에 따라 설치합니다.
+**클래스 디자이너** 구성 요소를 설치하지 않은 경우 다음 단계에 따라 설치합니다.
 
 1. Windows 시작 메뉴에서 **Visual Studio 설치 관리자**를 열거나 Visual Studio의 메뉴 막대에서 **도구** > **도구 및 기능 가져 오기**를 선택합니다.
 

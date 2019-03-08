@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Feedback Client 2017 워크로드 및 구성 요소 ID
+title: Visual Studio Feedback Client 워크로드 및 구성 요소 ID
 titleSuffix: ''
 description: Visual Studio 워크로드 및 구성 요소 ID를 사용하여 Azure DevOps Services 또는 Team Foundation Server에 대한 풍부한 피드백을 제공할 수 있습니다.
 keywords: ''
@@ -13,16 +13,17 @@ helpviewer_keywords:
 - component ID, Visual Studio
 - install Visual Studio, administrator guide
 ms.assetid: 7392a100-100c-458c-9394-828695109015
-ms.workload:
-- multiple
-ms.openlocfilehash: 2181d080875843c381d7498ac52a3bb0d381459a
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+monikerRange: vs-2017
+ms.openlocfilehash: f23af12a79e1b04c193e85c6fa31ac225af68a6d
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56844407"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57324080"
 ---
-# <a name="visual-studio-feedback-client-2017-component-directory"></a>Visual Studio Feedback Client 2017 구성 요소 디렉터리
+# <a name="visual-studio-feedback-client-component-directory"></a>Visual Studio Feedback Client 구성 요소 디렉터리
 
 이 페이지의 표에는 명령줄을 사용하여 Visual Studio를 설치하는 데 사용할 수 있는 ID 또는 VSIX 매니페스트에서 종속성으로 지정할 수 있는 ID가 나열되어 있습니다. Visual Studio에 대한 업데이트를 릴리스할 때 추가 구성 요소가 추가될 것입니다.
 

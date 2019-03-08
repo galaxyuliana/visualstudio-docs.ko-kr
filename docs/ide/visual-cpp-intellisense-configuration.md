@@ -7,12 +7,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 64b14c27ffce1d2818b1ce38cdea72f63f9a7e28
-ms.sourcegitcommit: 37fb7075b0a65d2add3b137a5230767aa3266c74
+ms.openlocfilehash: 18b62be13af1b057a9bbfaeb73e390abb0bf62ea
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53864876"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222898"
 ---
 # <a name="configure-a-c-project-for-intellisense"></a>IntelliSense에 대한 C++ 프로젝트 구성
 
@@ -74,7 +74,7 @@ Visual Studio에서 이 문제는 다음 두 가지 방식으로 나타납니다
 
 이러한 종류의 문제를 해결하려면 **cpp.hint**라는 파일을 솔루션 디렉터리의 루트에 추가합니다. 자세한 내용은 [힌트 파일](/cpp/ide/hint-files)을 참조하세요.
 
-**Visual Studio 2017 버전 15.7** 태그 구문 분석기 오류가 오류 목록 창에 표시됩니다.
+태그 구문 분석기 오류가 **오류 목록** 창에 표시됩니다.
 
 ## <a name="validate-project-settings-with-diagnostic-logging"></a>진단 로깅을 사용하여 프로젝트 설정의 유효성 검사
 
@@ -107,7 +107,7 @@ Visual Studio에서는 전용 C++ 컴파일러를 사용하여 모든 IntelliSen
 
 ## <a name="troubleshooting-intellisense-build-failures"></a>IntelliSense 빌드 문제 해결
 
-IntelliSense 빌드에서는 이진 파일을 생성하지 않지만 여전히 실패할 수 있습니다. 한 가지 가능한 실패 원인은 사용자 지정 .props 또는 .targets 파일입니다. Visual Studio 2017 버전 15.6에서는 IntelliSense 전용 빌드 오류가 출력 창에 로그됩니다. 오류를 보려면 **출력 보기 선택**을 **솔루션**으로 설정합니다.
+IntelliSense 빌드에서는 이진 파일을 생성하지 않지만 여전히 실패할 수 있습니다. 한 가지 가능한 실패 원인은 사용자 지정 .props 또는 .targets 파일입니다. Visual Studio 2017 버전 15.6 이상에서는 IntelliSense 전용 빌드 오류가 출력 창에 기록됩니다. 오류를 보려면 **출력 보기 선택**을 **솔루션**으로 설정합니다.
 
 ![솔루션 오류 출력 창](media/vcpp-intellisense-output-window.png)
 

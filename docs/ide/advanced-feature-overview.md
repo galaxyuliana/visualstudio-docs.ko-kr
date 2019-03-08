@@ -1,6 +1,5 @@
 ---
-title: Visual Studio 2017의 고급 기능
-titleSuffix: ''
+title: 고급 기능
 ms.date: 06/01/2018
 ms.topic: conceptual
 author: gewarren
@@ -8,14 +7,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: da502b2f527f811f20bbce299107cac20517048a
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: fe209a28f74866cf13b6dbd58b01eac2450557b2
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317837"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57221777"
 ---
-# <a name="features-of-visual-studio-2017"></a>Visual Studio 2017의 기능
+# <a name="features-of-visual-studio"></a>Visual Studio의 기능
 
 [Visual Studio IDE 개요](../get-started/visual-studio-ide.md) 문서에서는 Visual Studio에 대한 기본적인 소개를 제공합니다. 이 문서에서는 숙련된 개발자 또는 이미 Visual Studio에 익숙한 개발자에게 보다 적합한 기능에 대해 설명합니다.
 
@@ -23,9 +22,19 @@ ms.locfileid: "56317837"
 
 Visual Studio의 모듈식 설치 관리자를 사용하면 *워크로드*를 선택하고 설치할 수 있습니다. 워크로드는 선호하는 프로그래밍 언어 또는 플랫폼에 필요한 기능의 그룹입니다. 이 전략을 통해 Visual Studio 설치에 필요한 공간을 더 작게 유지할 수 있습니다. 즉 Visual Studio를 설치하고 업데이트하는 속도도 매우 빨라집니다.
 
-아직 Visual Studio 2017을 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+::: moniker range="vs-2017"
 
-시스템에 Visual Studio를 설치하는 방법에 대한 자세한 내용은 [Visual Studio 2017 설치](../install/install-visual-studio.md)를 참조하세요.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker-end
+
+시스템에 Visual Studio를 설치하는 방법에 대한 자세한 내용은 [Visual Studio 설치](../install/install-visual-studio.md)를 참조하세요.
 
 ## <a name="create-cloud-enabled-apps-for-azure"></a>Azure용 클라우드 사용 앱 만들기
 
@@ -99,7 +108,7 @@ Visual Studio의 **SQL Server 개체 탐색기**는 SQL Server Management Studio
 
 ## <a name="manage-your-source-code-and-collaborate-with-others"></a>소스 코드 관리 및 다른 사용자와 공동 작업
 
-GitHub를 포함한 모든 공급자가 호스팅하는 Git 리포지토리에서 원본 코드를 관리할 수 있습니다. 또는 [Azure DevOps Services](/azure/devops/index)를 사용하여 전체 프로젝트의 버그 및 작업 항목과 함께 코드를 관리하세요. Visual Studio에서 팀 탐색기를 사용하여 Git 리포지토리를 관리하는 방법에 대해 알아보려면 [Git 및 Azure Repos 시작하기](/azure/devops/repos/git/gitquickstart?tabs=visual-studio)를 참조하세요. Visual Studio에는 기본 제공된 다른 소스 제어 기능이 있습니다. 이에 대한 자세한 내용은 [Visual Studio 2017의 새로운 Git 기능(블로그)](https://devblogs.microsoft.com/devops/new-git-features-in-visual-studio-2017/)을 참조하세요.
+GitHub를 포함한 모든 공급자가 호스팅하는 Git 리포지토리에서 원본 코드를 관리할 수 있습니다. 또는 [Azure DevOps Services](/azure/devops/index)를 사용하여 전체 프로젝트의 버그 및 작업 항목과 함께 코드를 관리하세요. Visual Studio에서 팀 탐색기를 사용하여 Git 리포지토리를 관리하는 방법에 대해 알아보려면 [Git 및 Azure Repos 시작하기](/azure/devops/repos/git/gitquickstart?tabs=visual-studio)를 참조하세요. Visual Studio에는 기본 제공된 다른 소스 제어 기능이 있습니다. 이에 대한 자세한 내용은 [Visual Studio의 새로운 Git 기능(블로그)](https://devblogs.microsoft.com/devops/new-git-features-in-visual-studio-2017/)을 참조하세요.
 
 Azure DevOps Services는 소프트웨어를 계획, 호스트, 자동화 및 배포하고 팀의 공동 작업을 지원하기 위한 클라우드 기반 서비스입니다. Azure DevOps Services는 Git 리포지토리(분산형 버전 제어) 및 Team Foundation 버전 제어(중앙 집중식 버전 제어)를 둘 다 지원합니다. 버전 제어 시스템에 저장된 코드의 연속 빌드 및 릴리스(CI/CD)를 위한 파이프라인을 지원합니다. 또한 Azure DevOps Services는 스크럼, CMMI 및 Agile 개발 방법론도 지원합니다.
 
@@ -127,4 +136,4 @@ Visual Studio 확장에 대한 자세한 내용은 [Visual Studio IDE 확장](ht
 
 - [Visual Studio IDE 개요](../get-started/visual-studio-ide.md)
 - [Visual Studio 2017의 새로운 기능](../ide/whats-new-visual-studio-2017.md)
-- [Visual Studio 2019 Preview의 새로운 기능](../ide/whats-new-visual-studio-2019.md)
+- [Visual Studio 2019의 새로운 기능](../ide/whats-new-visual-studio-2019.md)

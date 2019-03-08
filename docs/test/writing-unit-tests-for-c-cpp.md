@@ -7,12 +7,12 @@ manager: wpickett
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 561b55ee961162adb37cd393cac9ecf8b78c5ade
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e78d5b983031a3589c46bbceeaeee87d125eace3
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926790"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223060"
 ---
 # <a name="write-unit-tests-for-cc-in-visual-studio"></a>Visual Studio에서 C/C++에 대한 단위 테스트 작성
 
@@ -30,11 +30,11 @@ Visual Studio에는 다음 C++ 테스트 기능이 포함되어 있으며 추가
 
 설치 된 프레임워크 외에도 Visual Studio 내에서 사용하려는 프레임워크에 대해 자체 테스트 어댑터를 작성할 수 있습니다. 테스트 어댑터는 **테스트 탐색기** 창에 단위 테스트를 통합할 수 있습니다. 몇 가지 타사 어댑터를 [Visual Studio Marketplace](https://marketplace.visualstudio.com)에서 제공하고 있습니다. 자세한 내용은 [타사 단위 테스트 프레임워크 설치](install-third-party-unit-test-frameworks.md)를 참조하세요.
 
-**Visual Studio 2017 버전 15.7(Professional 및 Enterprise)**
+**Visual Studio 2017 버전 15.7 이상(Professional 및 Enterprise)**
 
 C++ 단위 테스트 프로젝트는 [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)를 지원합니다.
 
-**Visual Studio 2017 버전 15.5**
+**Visual Studio 2017 버전 15.5 이상**
 
 - **Google Test 어댑터**는 **C++를 통한 데스크톱 개발** 워크로드의 기본 구성 요소로 포함되어 있습니다. **솔루션 탐색기**의 솔루션 노드에서 **새 프로젝트 추가** 오른쪽 클릭 메뉴를 통해 솔루션에 추가할 수 있는 프로젝트 템플릿 및 **도구** > **옵션**을 통해 구성할 수 있는 옵션이 있습니다. 자세한 내용은 [방법: Visual Studio에서 Google Test 사용](how-to-use-google-test-for-cpp.md)을 참조하세요.
 
@@ -117,7 +117,9 @@ TEST_METHOD(TestClassInit)
 
 ## <a name="use-codelens"></a>CodeLens 사용
 
-**Visual Studio 2017 버전 15.7 Professional 및 Enterprise Editions만 해당**: [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)를 사용하면 코드 편집기를 종료하지 않고도 단위 테스트 상태를 신속하게 확인할 수 있습니다. 다음 방법 중 하나로 C++ 단위 테스트 프로젝트에 대한 CodeLens를 초기화할 수 있습니다.
+**Visual Studio 2017 버전 15.7 이상(Professional 및 Enterprise 버전만 해당)**
+
+[CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)를 사용하면 코드 편집기를 종료하지 않고도 단위 테스트 상태를 신속하게 확인할 수 있습니다. 다음 방법 중 하나로 C++ 단위 테스트 프로젝트에 대한 CodeLens를 초기화할 수 있습니다.
 
 - 테스트 프로젝트 또는 솔루션을 편집하고 빌드합니다.
 - 프로젝트 또는 솔루션을 다시 빌드합니다.
@@ -127,10 +129,10 @@ TEST_METHOD(TestClassInit)
 
 ![C++ CodeLens 아이콘](media/cpp-test-codelens-icons.png)
 
- 자세한 정보를 보거나 단위 테스트를 실행 또는 디버그하려면 아이콘을 클릭합니다.
+자세한 정보를 보거나 단위 테스트를 실행 또는 디버그하려면 아이콘을 클릭합니다.
 
 ![C++ CodeLens 실행 및 디버그](media/cpp-test-codelens-run-debug.png)
 
 ## <a name="see-also"></a>참고 항목
 
-[코드 단위 테스트](unit-test-your-code.md)
+- [코드 단위 테스트](unit-test-your-code.md)

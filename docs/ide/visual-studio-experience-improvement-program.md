@@ -8,12 +8,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cbebdd92941fcc7873e59973303289a60496383f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f64655dd1afca25ca0c216fa93cb9f85fb4a5b41
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927531"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323120"
 ---
 # <a name="visual-studio-customer-experience-improvement-program"></a>Visual Studio 사용자 환경 개선 프로그램
 
@@ -31,8 +31,7 @@ VSCEIP는 기본적으로 켜져 있습니다. 다음 지침을 따라 이 기�
 
    **Visual Studio 환경 개선 프로그램** 대화 상자가 열립니다.
 
-1. 옵트아웃하려면 **아니요, 참여하지 않겠습니다**를 선택한 다음, **확인**을 선택합니다.
-   옵트인하려면 **예, 참여하겠습니다**를 선택한 다음, **확인**을 선택합니다.
+1. 옵트아웃하려면 **아니요, 참여하지 않겠습니다**를 선택한 다음, **확인**을 선택합니다. 옵트인하려면 **예, 참여하겠습니다**를 선택한 다음, **확인**을 선택합니다.
 
    ![Visual Studio 환경 개선 프로그램 대화 상자](media/experience-improvement-program.png)
 
@@ -42,11 +41,26 @@ VSCEIP는 기본적으로 켜져 있습니다. 다음 지침을 따라 이 기�
 
 관련 레지스트리 키와 설정은 다음과 같습니다.
 
-64비트 OS에서 Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\15.0\SQM** 32비트 OS에서 Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\15.0\SQM** 그룹 정책을 사용하는 경우 Key = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
+::: moniker range="vs-2017"
+
+- 64비트 OS의 경우, 키 = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\15.0\SQM**
+- 32비트 OS의 경우, 키 = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\15.0\SQM**
+- 그룹 정책을 사용하는 경우, 키 = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- 64비트 OS의 경우, 키 = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\16.0\SQM**
+- 32비트 OS의 경우, 키 = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\16.0\SQM**
+- 그룹 정책을 사용하는 경우, 키 = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
+
+::: moniker-end
 
 항목 = **OptIn**
 
 값 = (DWORD)
+
 - **0**은 옵트아웃된 것입니다(VSCEIP 끄기).
 - **1**은 옵트인된 것입니다(VSCEIP 켜기).
 
@@ -59,6 +73,6 @@ VSCEIP를 통해 수집, 처리 또는 전송되는 정보에 대한 자세한 �
 
 * [Visual Studio에서 수집한 진단 정보](diagnostic-data-collection.md)
 * [의견 보내기](../ide/talk-to-us.md)
-* [Visual Studio의 문제를 보고하는 방법](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+* [Visual Studio의 문제를 보고하는 방법](../ide/how-to-report-a-problem-with-visual-studio.md)
 * [Visual Studio 개발자 커뮤니티](https://developercommunity.visualstudio.com/)
 * [Microsoft 개인정보처리방침](https://privacy.microsoft.com/privacystatement)

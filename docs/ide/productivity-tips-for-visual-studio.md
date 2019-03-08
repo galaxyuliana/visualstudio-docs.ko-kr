@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6b2b2aca59fccee30f017c7679d16c7b32f23c44
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 362a4c000d8834ee5adc14b0620a77a51a47c0c3
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702722"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223145"
 ---
 # <a name="productivity-tips-for-visual-studio"></a>Visual Studio 생산성 팁
 
@@ -24,7 +24,7 @@ ms.locfileid: "56702722"
 
 다음 기능을 사용하여 더욱 신속하게 코드를 작성합니다.
 
-- **유용한 명령을 사용**합니다. Visual Studio에는 일반적인 편집 작업을 더 빠르게 수행하는 데 도움이 되는 다양한 명령이 있습니다. 예를 들어, **Visual Studio 2017 버전 15.6** 이상에서는 코드 줄을 복사하지 않고도 쉽게 복제하여 커서 위치를 변경한 다음, 붙여넣는 명령을 선택할 수 있습니다. **편집** > **복제**를 선택하거나 **Ctrl**+**E**,**V**를 누릅니다. 또한 **편집** > **고급** > **선택 영역 확장** 또는 **편집** > **고급** > **선택 영역 축소**를 선택하거나 **Shift**+**Alt**+**=** 또는 **Shift**+**Alt**+**-**(**Visual Studio 2017 버전 15.5** 이상에서 사용 가능)를 눌러 텍스트 선택 영역을 빠르게 확장하거나 축소할 수도 있습니다.
+- **유용한 명령을 사용**합니다. Visual Studio에는 일반적인 편집 작업을 더 빠르게 수행하는 데 도움이 되는 다양한 명령이 있습니다. 예를 들어, 코드 줄을 복사하지 않고도 쉽게 복제하여 커서 위치를 변경한 다음, 붙여넣는 명령을 선택할 수 있습니다. **편집** > **복제**를 선택하거나 **Ctrl**+**E**,**V**를 누릅니다. **편집** > **고급** > **선택 영역 확장** 또는 **편집** > **고급** > **선택 영역 축소**를 선택하거나 **Shift**+**Alt**+**=** 또는 **Shift**+**Alt**+**-** 를 눌러 텍스트 선택 영역을 빠르게 확장하거나 축소할 수도 있습니다.
 
 - **IntelliSense 사용** 코드 편집기에 코드를 입력하면 멤버 목록, 매개 변수 정보, 요약 정보, 시그니처 도움말 및 단어 자동 완성과 같은 IntelliSense 정보가 나타납니다. 이러한 기능은 텍스트의 퍼지 일치를 지원합니다. 예를 들어, 멤버 목록의 결과 목록에는 사용자가 입력한 문자로 시작하는 항목 뿐만 아니라 이름에 문자 조합이 들어 있는 항목이 포함됩니다. 자세한 내용은 [IntelliSense 사용](../ide/using-intellisense.md)을 참조하세요.
 
@@ -102,9 +102,19 @@ ms.locfileid: "56702722"
 
 개발자 명령 프롬프트 또는 다른 Visual Studio 도구를 시작 화면이나 작업 표시줄에 고정하여 더욱 신속하게 액세스할 수 있습니다.
 
-1. Windows 탐색기에서 `%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools`로 이동합니다.
+::: moniker range="vs-2017"
 
-1. **개발자 명령 프롬프트**를 마우스 오른쪽 단추로 클릭하거나 상황에 맞는 메뉴를 열고 **시작 화면에 고정** 또는 **작업 표시줄에 고정**을 선택합니다.
+1. Windows 탐색기에서 *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools*로 이동합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Windows 탐색기에서 *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools*로 이동합니다.
+
+::: moniker-end
+
+2. **개발자 명령 프롬프트**를 마우스 오른쪽 단추로 클릭하거나 상황에 맞는 메뉴를 열고 **시작 화면에 고정** 또는 **작업 표시줄에 고정**을 선택합니다.
 
 ## <a name="manage-files-toolbars-and-windows"></a>파일, 도구 모음 및 창 관리
 
