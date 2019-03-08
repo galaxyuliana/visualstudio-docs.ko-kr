@@ -12,16 +12,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 92e82e4570f7df3ab42ed452b0ee8d71ace91901
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 588bc57dc2cda1030e9e1b8d1f989b2cc2d31662
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923540"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222491"
 ---
 # <a name="find-code-using-go-to-commands"></a>이동 명령을 사용하여 코드 찾기
 
-Visual Studio의 **이동** 명령은 지정한 항목을 찾기 쉽도록 포커스가 있는 코드 검색을 수행합니다. 간단한 통합 인터페이스에서 특정 줄, 형식, 기호, 파일 및 멤버로 이동할 수 있습니다. 이 기능은 Visual Studio 2017 이상에 있습니다.
+Visual Studio의 **이동** 명령은 지정한 항목을 찾기 쉽도록 포커스가 있는 코드 검색을 수행합니다. 간단한 통합 인터페이스에서 특정 줄, 형식, 기호, 파일 및 멤버로 이동할 수 있습니다.
 
 ## <a name="how-to-use-it"></a>사용 방법
 

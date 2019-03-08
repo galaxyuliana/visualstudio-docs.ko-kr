@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4d8fcde39c2e64d431848b510b5e046031b6dac2
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 135e1828c72f1824833ea675fa5bd2b01c7c80af
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934070"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223041"
 ---
 # <a name="quickstart-personalize-the-visual-studio-ide-and-editor"></a>빠른 시작: Visual Studio IDE 및 편집기 개인 설정
 
@@ -22,7 +22,7 @@ ms.locfileid: "55934070"
 
 ## <a name="set-the-color-theme"></a>색 테마 설정
 
-Visual Studio 2017의 기본 색 테마는 **파랑**이라고 합니다. **어두운**으로 변경해 보겠습니다.
+Visual Studio의 기본 색 테마는 **파랑**이라고 합니다. **어두운**으로 변경해 보겠습니다.
 
 1. **파일** 및 **편집**과 같은 메뉴의 행인 메뉴 모음에서 **도구** > **옵션**을 선택합니다.
 

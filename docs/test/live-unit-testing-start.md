@@ -9,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 4676727f70b8065aee34578f563f286bc85bcb25
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3082f2a3acaac7b874f98d675ae28d11ea0374ae
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950307"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223782"
 ---
 # <a name="get-started-with-live-unit-testing-in-visual-studio"></a>Visual Studio에서 Live Unit Testing 시작
 
@@ -34,13 +34,13 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
 ## <a name="prerequisites"></a>전제 조건
 
-이 자습서를 사용하려면 .NET Core 2.0 워크로드가 있는 Visual Studio 2017 Enterprise Edition 버전 15.3을 설치해야 합니다.
+이 자습서를 사용하려면 .NET Core 2.0 워크로드가 있는 Visual Studio Enterprise Edition을 설치해야 합니다.
 
 ## <a name="create-the-solution-and-the-class-library-project"></a>솔루션 및 클래스 라이브러리 프로젝트 생성
 
 단일 .NET Standard 클래스 라이브러리 프로젝트 `StringLibrary`로 구성된 `UtilityLibraries`라는 Visual Studio 솔루션을 만들어 시작합니다. C# 또는 Visual Basic으로 `StringLibrary`를 작성할 수 있습니다.
 
-솔루션은 하나 이상의 프로젝트에 대한 컨테이너일 뿐입니다. 솔루션을 만들려면 Visual Studio 2017을 열고 다음을 수행합니다.
+솔루션은 하나 이상의 프로젝트에 대한 컨테이너일 뿐입니다. 솔루션을 만들려면 Visual Studio를 열고 다음을 수행합니다.
 
 1. 최상위 Visual Studio 메뉴에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 

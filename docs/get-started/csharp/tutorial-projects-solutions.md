@@ -11,14 +11,14 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: 515cd501044b1b83f8adbd365e13336322c20f3f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: dc927a9d3f4414d8bdf769ad697e9e209ae8f5c5
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931301"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323198"
 ---
-# <a name="learn-about-projects-and-solutions-using-c"></a>C#을 사용하여 프로젝트 및 솔루션에 대해 알아보기
+# <a name="learn-about-projects-and-solutions-using-c"></a>C\#을 사용하여 프로젝트 및 솔루션에 대해 알아보기
 
 이 소개 아티클에서는 Visual Studio에서 *솔루션* 및 *프로젝트* 만들기를 살펴봅니다. 솔루션은 하나 이상의 관련된 코드 프로젝트를 구성하는 데 사용되는 컨테이너입니다(예: 클래스 라이브러리 프로젝트 및 해당 테스트 프로젝트). 프로젝트의 속성 및 포함될 수 있는 일부 파일을 살펴봅니다. 또한 하나의 프로젝트에서 다른 프로젝트에 대한 참조를 만듭니다.
 

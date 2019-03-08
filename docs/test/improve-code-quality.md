@@ -10,12 +10,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 6cace8f9728f71648300f3dfd9a073453e74ada7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 7bcb75da8a21090450c18080240f76ae17c10281
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957171"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57221582"
 ---
 # <a name="testing-tools-in-visual-studio"></a>Visual Studio의 테스트 도구
 
@@ -36,7 +36,7 @@ Visual Studio 테스트 도구를 사용하면 사용자와 팀이 수준 높은
 - [부하 테스트](../test/quickstart-create-a-load-test-project.md)는 단위 테스트 및 웹 성능 테스트를 실행하여 서버 애플리케이션에서 부하를 시뮬레이트합니다.
 
 > [!NOTE]
-> 단위 테스트는 Visual Studio의 모든 버전에서 사용할 수 있습니다. 라이브 단위 테스트, IntelliTest, Coded UI 테스트 등의 다른 테스트 도구는 Visual Studio Enterprise 버전에서만 사용할 수 있습니다. 버전에 대한 자세한 내용은 [Visual Studio 2017 IDE 비교](https://visualstudio.microsoft.com/vs/compare/)를 참조하세요.
+> 단위 테스트는 Visual Studio의 모든 버전에서 사용할 수 있습니다. 라이브 단위 테스트, IntelliTest, Coded UI 테스트 등의 다른 테스트 도구는 Visual Studio Enterprise 버전에서만 사용할 수 있습니다. 버전에 대한 자세한 내용은 [Visual Studio IDE 비교](https://visualstudio.microsoft.com/vs/compare/)를 참조하세요.
 
 ## <a name="related-scenarios"></a>관련 시나리오
 

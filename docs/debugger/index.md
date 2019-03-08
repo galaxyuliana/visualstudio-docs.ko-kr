@@ -1,18 +1,12 @@
 ---
 layout: LandingPage
 title: 앱 디버깅 | Microsoft Docs
-description: Visual Studio 2017을 사용하여 플랫폼 및 장치에 대해 선택한 언어로 애플리케이션, 서비스 및 도구를 디버그하는 방법에 대해 알아봅니다.
+description: 'Visual Studio를 사용하여 플랫폼 및 디바이스에 대해 선택한 언어로 애플리케이션, 서비스 및 도구를 디버그하는 방법에 대해 알아봅니다.'
 ms.custom: seodec18
 ms.topic: landing-page
 ms.author: mikejo
 author: mikejo5000
 manager: jillfra
-ms.openlocfilehash: 81ecddbfdb3f1b36a28156686e5d07ff4e6ee558
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56156035"
 ---
 # <a name="debugging-in-visual-studio"></a>Visual Studio의 디버깅
 

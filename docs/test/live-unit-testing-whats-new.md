@@ -10,16 +10,16 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: a8101697ad225becb1fcddc5ee737fc4c6195cc7
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: 95cbdeb9a4e8a3f98fefa7650b36cc4dd59ed550
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796584"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57221543"
 ---
 # <a name="whats-new-in-live-unit-testing"></a>Live Unit Testing의 새로운 기능
 
-이 항목에서는 Visual Studio 2017 버전 15.3부터 시작하는 Visual Studio의 각 버전에서 Live Unit Testing에 추가된 새 기능을 나열합니다. Live Unit Testing을 사용하는 방법의 개요는 [Visual Studio 2017을 사용한 Live Unit Testing](live-unit-testing.md)을 참조하세요.
+이 항목에서는 Visual Studio 2017 버전 15.3부터 시작하는 Visual Studio의 각 버전에서 Live Unit Testing에 추가된 새 기능을 나열합니다. Live Unit Testing을 사용하는 방법의 개요는 [Visual Studio를 사용한 Live Unit Testing](live-unit-testing.md)을 참조하세요.
 
 ## <a name="whats-new-in-live-unit-testing-for-visual-studio-2017-version-154"></a>Visual Studio 2017 버전 15.4에서 Live Unit Testing의 새로운 기능
 
@@ -45,7 +45,7 @@ Visual Studio 2017 버전 15.3부터 시작하는 Live Unit Testing은 두 가�
 
 - .NET Core 및 .NET Standard에 대한 지원 C# 또는 Visual Basic으로 작성된 .NET Core 및 .NET Standard 솔루션에서 Live Unit Testing을 사용할 수 있습니다.
 
--  성능 향상 첫 번째 전체 빌드와 Live Unit Testing에서 테스트 실행 후에 성능이 매우 빨라졌음을 알 수 있습니다. 같은 솔루션에서 이후 Live Unit Testing을 시작할 때도 상당한 성능 향상을 확인할 수 있습니다. 이제 Live Unit Testing에서 생성된 데이터를 유지하고 최신 검사에서 최대한 많이 재사용합니다.
+- 성능 향상 첫 번째 전체 빌드와 Live Unit Testing에서 테스트 실행 후에 성능이 매우 빨라졌음을 알 수 있습니다. 같은 솔루션에서 이후 Live Unit Testing을 시작할 때도 상당한 성능 향상을 확인할 수 있습니다. 이제 Live Unit Testing에서 생성된 데이터를 유지하고 최신 검사에서 최대한 많이 재사용합니다.
 
 이러한 주요 추가 사항 외에 Live Unit Testing에서는 다음과 같은 사항도 개선되었습니다.
 
@@ -58,10 +58,12 @@ Visual Studio 2017 버전 15.3부터 시작하는 Live Unit Testing은 두 가�
 - [테스트]/[Live Unit Testing]의 메뉴 모음 아래에 여러 가지 메뉴 항목이 더 추가되었습니다. **Reset Clean(정리 다시 설정)** 은 지속형 데이터를 삭제하고 다시 생성합니다. **옵션**을 선택하면 [도구]/[옵션]/[Live Unit Testing]/[일반]으로 이동합니다.
 
 - 이제 다음 특성을 사용하여 Live Unit Testing에서 제외하려는 대상 테스트 메서드를 소스 코드에 지정할 수 있습니다.
+
    - xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
    - NUnit: `[Category("SkipWhenLiveUnitTesting")]`
    - MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
 ## <a name="see-also"></a>참고 항목
+
 - [Live Unit Testing 소개](live-unit-testing-intro.md)
-- [Visual Studio 2017을 사용한 Live Unit Testing](live-unit-testing.md)
+- [Visual Studio를 사용한 Live Unit Testing](live-unit-testing.md)

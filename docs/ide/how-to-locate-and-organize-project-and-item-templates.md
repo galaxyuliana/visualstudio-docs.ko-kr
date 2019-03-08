@@ -11,12 +11,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 40abd872863231b2631830cd214fc9060da364d3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a228c882ff573b9e319d5fdbeb1ba6472cc5e3d5
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952309"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57221656"
 ---
 # <a name="how-to-locate-and-organize-project-and-item-templates"></a>방법: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성
 
@@ -30,13 +30,29 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
 
 사용자 템플릿 디렉터리에 *.vstemplate* 파일을 포함하는 압축된(*.zip*) 파일을 추가하는 경우 템플릿이 **새 프로젝트** 또는 **새 항목 추가** 대화 상자에 표시됩니다. 기본적으로 사용자 템플릿은 다음 위치에 있습니다.
 
-- *%USERPROFILE%\Documents\Visual Studio \<버전\>\Templates\ProjectTemplates*
+::: moniker range="vs-2017"
 
-- *%USERPROFILE%\Documents\Visual Studio \<버전\>\Templates\ItemTemplates*
+- *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates*
 
 예를 들어 다음 디렉터리에는 C#용 사용자 프로젝트 템플릿이 포함되어 있습니다.
 
 - *C:\Users\UserName\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates*
+
+예를 들어 다음 디렉터리에는 C#용 사용자 프로젝트 템플릿이 포함되어 있습니다.
+
+- *C:\Users\UserName\Documents\Visual Studio 2019\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
 
 > [!TIP]
 > **도구** > **옵션** > **프로젝트 및 솔루션** > **위치**에서 사용자 템플릿의 위치를 설정할 수 있습니다.

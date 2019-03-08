@@ -10,16 +10,16 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 8464ecd96234511017953b6bc0dce7fabdef810b
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: 7cdf118ef901e607d24609e521325e27b90d345b
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796734"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222015"
 ---
 # <a name="introducing-live-unit-testing"></a>Live Unit Testing 소개
 
-Live Unit Testing은 Visual Studio 2017 버전 15.3에서 사용할 수 있는 기술로, 코드 변경 시 실시간으로 단위 테스트를 자동으로 실행합니다. Live Unit Testing:
+Live Unit Testing은 Visual Studio 2017에 도입된 기술입니다. 코드를 변경하면 실시간으로 단위 테스트를 자동으로 실행합니다. Live Unit Testing:
 
 - 자신감 있게 코드를 리팩토링하고 변경할 수 있습니다. Live Unit Testing은 코드를 편집할 때 영향을 받는 모든 테스트를 자동으로 실행하여 변경으로 인해 테스트가 중단되지 않도록 합니다.
 
@@ -31,7 +31,7 @@ Live Unit Testing에 대해 자세히 알아보려면 다음을 수행합니다.
 
 - 소개 자습서인 [Visual Studio에서 Live Unit Testing 시작](live-unit-testing-start.md)을 살펴보세요.
 
-- 자세한 설명서인 [Visual Studio 2017 Enterprise Edition에서 Live Unit Testing 사용](live-unit-testing.md)을 참고하세요.
+- 자세한 설명서인 [Visual Studio Enterprise Edition에서 Live Unit Testing 사용](live-unit-testing.md)을 읽어 보세요.
 
 - [Live Unit Testing FAQ](live-unit-testing-faq.md)에서 Live Unit Testing의 새로운 기능과 Live Unit Testing 사용을 위한 팁과 기술에 대해 알아보세요.
 
@@ -40,5 +40,6 @@ Live Unit Testing에 대해 자세히 알아보려면 다음을 수행합니다.
    > [!VIDEO https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105/player]
 
 ## <a name="related-resources"></a>관련 참고 자료
+
 - [코드 테스트 도구](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [코드 단위 테스트](unit-test-your-code.md)

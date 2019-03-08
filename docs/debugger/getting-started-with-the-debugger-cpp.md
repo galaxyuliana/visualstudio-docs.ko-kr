@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ebfe3efdb567930d931ab43d5cf2ce33713247f8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a9975d0c4a62b4ae4d2695a34eeab0d43ba4a424
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679127"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428780"
 ---
 # <a name="tutorial-learn-to-debug-c-code-using-visual-studio"></a>자습서: Visual Studio를 사용하여 C++ 코드를 디버그하는 방법 알아보기
 
@@ -35,11 +35,20 @@ ms.locfileid: "56679127"
 
 ## <a name="prerequisites"></a>전제 조건
 
+::: moniker range=">=vs-2019"
+
+* Visual Studio 2019가 설치되어 있어야 하고 **C++로 데스크톱 개발** 워크로드가 있어야 합니다.
+
+::: moniker-end
+::: moniker range="vs-2017"
+
 * Visual Studio 2017이 설치되어 있어야 하고 **C++로 데스크톱 개발** 워크로드가 있어야 합니다.
 
-    아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)  페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
 
-    워크로드를 설치해야 하지만 이미 Visual Studio가 있는 경우 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Open Visual Studio 설치 관리자** 링크를 클릭합니다(**파일** > **새로 만들기** > **프로젝트**를 선택합니다). Visual Studio 설치 관리자가 시작됩니다. **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정** 단추를 선택합니다.
+아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)  페이지로 이동하여 체험용으로 설치합니다.
+
+워크로드를 설치해야 하지만 이미 Visual Studio가 있는 경우 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Open Visual Studio 설치 관리자** 링크를 클릭합니다(**파일** > **새로 만들기** > **프로젝트**를 선택합니다). Visual Studio 설치 관리자가 시작됩니다. **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정** 단추를 선택합니다.
 
 ## <a name="create-a-project"></a>프로젝트 만들기
 
@@ -218,7 +227,7 @@ ms.locfileid: "56679127"
      ![실행하려면 클릭 기능 사용](../debugger/media/get-started-run-to-click-cpp.png "실행하려면 클릭")
 
    > [!NOTE]
-   > **실행하려면 클릭** 단추는 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]의 새로운 기능입니다. 녹색 화살표 단추가 표시되지 않으면 이 예에서 **F11** 키를 대신 사용하여 디버거를 올바른 위치로 이동시킵니다.
+   > **실행하려면 클릭** 단추는 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]부터 사용할 수 있습니다. 녹색 화살표 단추가 표시되지 않으면 이 예에서 **F11** 키를 대신 사용하여 디버거를 올바른 위치로 이동시킵니다.
 
 2. **실행하려면 클릭** 단추 ![실행하려면 클릭](../debugger/media/dbg-tour-run-to-click.png "RunToClick")을 클릭합니다.
 

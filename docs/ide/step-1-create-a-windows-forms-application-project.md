@@ -8,12 +8,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b8552adfd4a7f94c58bcb32a60fbe8cd4c9323b
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: 6ccf9ebad32a82f88740e4f7dc0c920d348b6d48
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796532"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223002"
 ---
 # <a name="step-1-create-a-windows-forms-application-project"></a>1단계: Windows Forms 애플리케이션 프로젝트 만들기
 
@@ -33,7 +33,7 @@ ms.locfileid: "56796532"
 3. 템플릿 목록에서 **Windows Forms 앱(.NET Framework)** 을 선택합니다. 새 폼의 이름을 **PictureViewer**로 지정한 후 **확인** 단추를 선택합니다.
 
     >[!NOTE]
-    >**Windows Forms 앱(.NET Framework)** 템플릿이 표시되지 않을 경우 Visual Studio 설치 관리자를 사용하여 **.NET 데스크톱 개발** 워크로드를 설치합니다.<br/><br/>![Visual Studio 설치 관리자의 .NET 데스크톱 개발 워크로드](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> 자세한 내용은 [Visual Studio 2017 설치](../install/install-visual-studio.md) 페이지를 참조하세요.
+    >**Windows Forms 앱(.NET Framework)** 템플릿이 표시되지 않을 경우 Visual Studio 설치 관리자를 사용하여 **.NET 데스크톱 개발** 워크로드를 설치합니다.<br/><br/>![Visual Studio 설치 관리자의 .NET 데스크톱 개발 워크로드](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> 자세한 내용은 [Visual Studio 설치](../install/install-visual-studio.md) 페이지를 참조하세요.
 
      Visual Studio에서 프로그램의 솔루션이 생성됩니다. 솔루션은 프로그램에 필요한 모든 프로젝트 및 파일의 컨테이너 역할을 합니다. 이러한 용어에 대해서는 이 자습서의 뒷부분에서 자세히 설명합니다.
 

@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a54f18e6e69fd71f1d46205903728a909c668383
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1dc65b29bafd67fa8265feb75b533d66504d33c8
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935721"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222063"
 ---
 # <a name="identify-and-customize-keyboard-shortcuts-in-visual-studio"></a>Visual Studio에서 바로 가기 키 식별 및 사용자 지정
 
@@ -106,11 +106,21 @@ Visual Studio 명령에 대한 바로 가기 키를 확인하고, 해당 바로 
 
 4. **키보드** 확인란을 선택하고 **다음** 단추를 선택합니다.
 
-    ![사용자 지정 바로 가기 키만 내보냅니다.](../ide/media/exportshortcuts.png)
+   ![사용자 지정 바로 가기 키만 내보냅니다.](../ide/media/exportshortcuts.png)
 
-5. **설정 파일 이름을 지정하시겠습니까?** 및 **이 디렉터리에 사용자 설정 파일 저장** 상자에서 기본값을 그대로 두거나 다른 값을 지정한 다음 **마침** 단추를 선택합니다.
+5. **설정 파일 이름 지정** 및 **이 디렉터리에 사용자 설정 파일 저장** 상자에서 기본값을 그대로 두거나 다른 값을 지정한 다음, **마침** 단추를 선택합니다.
 
-    기본적으로 바로 가기는 *%USERPROFILE%\Documents\Visual Studio 2017\Settings* 폴더에 파일로 저장됩니다. 파일 이름에는 설정을 내보낸 날짜가 반영되며, 확장명은 *.vssettings*입니다.
+::: moniker range="vs-2017"
+
+기본적으로 바로 가기는 *%USERPROFILE%\Documents\Visual Studio 2017\Settings* 폴더에 파일로 저장됩니다. 파일 이름에는 설정을 내보낸 날짜가 반영되며, 확장명은 *.vssettings*입니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+기본적으로 바로 가기는 *%USERPROFILE%\Documents\Visual Studio 2019\Settings* 폴더에 파일로 저장됩니다. 파일 이름에는 설정을 내보낸 날짜가 반영되며, 확장명은 *.vssettings*입니다.
+
+::: moniker-end
 
 ### <a name="to-import-only-keyboard-shortcuts"></a>바로 가기 키만 가져오려면
 

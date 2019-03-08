@@ -7,19 +7,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fdfc350305400a42565aa55fa5e29cc40286ed0c
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 4a2662f51baa38b2b2cf65af9654ed76ae63698e
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318773"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222989"
 ---
 # <a name="visual-studio-performance-tips-and-tricks"></a>Visual Studio 성능 팁과 요령
 
 Visual Studio 성능 권장 사항은 드물게 발생할 수 있는 메모리 부족 상황에 대처하기 위해 제공됩니다. 이러한 상황에서는 사용하지 않는 특정 Visual Studio 기능을 최적화할 수 있습니다. 아래에서 제시하는 팁은 일반적인 권장 사항이 아닙니다.
 
 > [!NOTE]
-> 메모리 문제로 인해 제품을 사용하는 데 어려움이 있는 경우 [피드백 도구](../ide/how-to-report-a-problem-with-visual-studio-2017.md)를 통해 알려 주세요.
+> 메모리 문제로 인해 제품을 사용하는 데 어려움이 있는 경우 [피드백 도구](../ide/how-to-report-a-problem-with-visual-studio.md)를 통해 알려 주세요.
 
 ## <a name="use-a-64-bit-os"></a>64비트 OS 사용
 
@@ -41,9 +41,9 @@ Visual Studio는 자동 문서 복원이 솔루션을 현저히 느리게 로드
 
 - 일반 **이동** 기능의 경우 **편집** > **이동** > **전체로 이동**을 선택하거나 **Ctrl**+**T**를 누릅니다.
 
-- Visual Studio 2017 버전 15.8 이상에서 **편집** > **이동** > **마지막 편집 위치로 이동**을 사용하거나 **Ctrl**+**Shift**+**백스페이스** 키를 눌러서 솔루션의 마지막 편집 위치로 이동할 수 있습니다.
+- **편집** > **이동** > **마지막 편집 위치로 이동**을 사용하거나 **Ctrl**+**Shift**+**Backspace**를 눌러서 솔루션의 마지막 편집 위치로 이동합니다.
 
-- Visual Studio 2017 버전 15.8 이상에서 **최근에 사용한 파일로 이동**을 사용하여 솔루션에서 최근에 방문한 파일 목록을 확인합니다. **편집** > **이동** > **최근 파일로 이동**을 선택하거나 **Ctrl**+**1**, **Ctrl**+**R**을 누릅니다.
+- **최근에 사용한 파일로 이동**을 사용하여 솔루션에서 최근에 방문한 파일 목록을 확인합니다. **편집** > **이동** > **최근 파일로 이동**을 선택하거나 **Ctrl**+**1**, **Ctrl**+**R**을 누릅니다.
 
 ## <a name="configure-debugging-options"></a>디버깅 옵션 구성
 

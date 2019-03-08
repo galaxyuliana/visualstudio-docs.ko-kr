@@ -11,14 +11,14 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: aaa5443c8fdbe2dd8a39f082ee92e9522c6de7bc
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 69c39404f82f1d0ae56996ff931fa011b5fca308
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317226"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323908"
 ---
-# <a name="welcome-to-the-visual-studio-ide--c"></a>Visual Studio IDE 시작 | C#
+# <a name="welcome-to-the-visual-studio-ide--c"></a>Visual Studio IDE 시작 | C\#
 
 Visual Studio *통합 개발 환경*은 코드를 편집, 디버그 및 빌드한 다음, 앱을 게시하는 데 사용할 수 있는 창의적인 실행 패드입니다. IDE(통합 개발 환경)는 소프트웨어 개발의 다양한 측면에서 사용할 수 있는 다양한 기능을 갖춘 프로그램입니다. Visual Studio는 대부분의 IDE가 제공하는 표준 편집기 및 디버거로서 뿐만 아니라, 컴파일러와 코드 완성 도구, 그래픽 디자이너를 비롯해 소프트웨어 개발 프로세스를 쉽게 만들어 주는 많은 기능을 포함하고 있습니다.
 

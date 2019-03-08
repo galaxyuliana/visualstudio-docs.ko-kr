@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e420ed36168e45e067a78a1118b2199981aff3eb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: cff50cf9b9f95b9ed7af48d20c0510cfad7fda79
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927570"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223366"
 ---
 # <a name="keyboard-shortcuts-for-visual-studio"></a>Visual Studio의 바로 가기 키
 
@@ -72,7 +72,7 @@ ms.locfileid: "55927570"
 
 ##  <a name="BKMK_CodeEditor"></a> 코드 편집기
 
-|명령|바로 가기|버전 가용성|
+|명령|바로 가기|도입하는 경우|
 |-|-|-|
 |전체로 이동|**Ctrl**+**T**|
 |최근에 사용한 파일로 이동|**Ctrl**+**T**,**R**|

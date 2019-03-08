@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 5a74c5992699fa321839c671f527c513ae2b9291
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 38cb805978396c8c1744a953a7b1ef7417f43483
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155489"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323253"
 ---
 # <a name="how-to-install-python-support-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 지원 설치 방법
 
@@ -47,7 +47,17 @@ Visual Studio용 Python 지원(Visual Studio용 Python 도구 또는 PTVS라고�
 
     ![Visual Studio 설치 관리자의 Python 개발 작업](media/installation-python-workload.png)
 
-    선택 사항: 데이터 과학을 사용하는 경우 **데이터 과학 및 분석 애플리케이션** 워크로드도 고려합니다. 이 워크로드는 R 및 F# 언어뿐만 아니라 Python에 대한 지원도 포함합니다. 자세한 내용은 [데이터 과학 및 분석 애플리케이션 워크로드](../rtvs/data-science-and-analytical-applications-workload.md)를 참조하세요.
+   ::: moniker range="vs-2017"
+
+    선택 사항: 데이터 과학을 사용하는 경우 **데이터 과학 및 분석 애플리케이션** 워크로드도 고려합니다. 이 워크로드는 Python, R 및 F# 언어에 대한 지원을 포함합니다. 자세한 내용은 [데이터 과학 및 분석 애플리케이션 워크로드](data-science-and-analytical-applications-workload.md)를 참조하세요.
+    
+    ::: moniker-end
+    
+   ::: moniker range=">=vs-2019"
+
+    선택 사항: 데이터 과학을 사용하는 경우 **데이터 과학 및 분석 애플리케이션** 워크로드도 고려합니다. 이 워크로드는 Python 및 F# 언어에 대한 지원을 포함합니다. 자세한 내용은 [데이터 과학 및 분석 애플리케이션 워크로드](data-science-and-analytical-applications-workload.md)를 참조하세요.
+    
+    ::: moniker-end
 
     > [!Note]
     > Python 및 데이터 과학 워크로드는 Visual Studio 2017 버전 15.2 이상에서만 사용할 수 있습니다.

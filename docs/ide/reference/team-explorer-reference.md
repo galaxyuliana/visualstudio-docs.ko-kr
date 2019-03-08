@@ -5,12 +5,12 @@ ms.topic: reference
 ms.author: kaelli
 author: KathrynEE
 ms.manager: jillfra
-ms.openlocfilehash: 56e6277b589f12563ad6dfa3912815b966db399a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6a7c1e9d0f5e8b8ef48a033d58038818d2d620e5
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946277"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57222976"
 ---
 # <a name="team-explorer-reference"></a>팀 탐색기 참조
 
@@ -33,7 +33,7 @@ ms.locfileid: "55946277"
 
 | Git를 사용한 **홈** 페이지 | TFVC를 사용한 **홈** 페이지 |
 | - | - |
-| ![Visual Studio 2019에서 Git를 포함하는 팀 탐색기 홈 페이지](media/team-explorer-reference/team-explorer-git.png) | ![Visual Studio 2017에서 TFVC를 포함하는 팀 탐색기 홈 페이지](media/team-explorer-reference/team-explorer-tfvc.png) |
+| ![Visual Studio 2019에서 Git를 포함하는 팀 탐색기 홈 페이지](media/team-explorer-reference/team-explorer-git.png) | ![Visual Studio에서 TFVC가 있는 팀 탐색기 홈 페이지](media/team-explorer-reference/team-explorer-tfvc.png) |
 
 ## <a name="changes-page-git"></a>변경 내용 페이지(Git)
 
@@ -82,7 +82,7 @@ ms.locfileid: "55946277"
 ::: moniker range=">= vs-2019"
 
 > [!NOTE]
-> Visual Studio 2019 미리 보기 1에 새 [작업 항목 환경](/azure/devops/boards/work-items/set-work-item-experience-vs)이 있습니다. Visual Studio 2019 미리 보기 1에서 작업 항목을 보는 방법에 대한 자세한 내용은 [작업 항목 보기 및 추가](/azure/devops/boards/work-items/view-add-work-items)를 참조하세요.
+> Visual Studio 2019에는 새로운 [작업 항목 환경](/azure/devops/boards/work-items/set-work-item-experience-vs)이 있습니다. Visual Studio 2019에서 작업 항목을 보는 방법에 대한 자세한 내용은 [작업 항목 보기 및 추가](/azure/devops/boards/work-items/view-add-work-items)를 참조하세요.
 
 ::: moniker-end
 

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9f0248936b41c9103a772cd4b2622f4fddfe5fff
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 14c248bbea783070e3d3bfbc439005bafb9b1fd2
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696742"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428689"
 ---
 # <a name="first-look-at-the-visual-studio-debugger"></a>먼저 Visual Studio 디버거 살펴보기
 
@@ -77,7 +77,7 @@ F10 키는 앱 코드의 함수 또는 메서드를 한 단계씩 실행하지 �
 ![실행하려면 클릭](../debugger/media/dbg-tour-run-to-click-2.png "실행하려면 클릭")
 
 > [!NOTE]
-> **실행하려면 클릭**(여기까지 실행) 단추는 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]의 새로운 기능입니다.
+> **실행하려면 클릭**(여기까지 실행) 단추는 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]부터 사용할 수 있습니다.
 
 **실행하려면 클릭**(여기까지 실행) 단추를 클릭합니다. 디버거는 클릭한 코드 줄로 이동합니다.
 

@@ -14,14 +14,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4e6fefeac5ecdaf03f4e672ea6804b0c20c79136
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b4fba419605dd332346885dbf93460c1a4e53c9d
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934616"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223184"
 ---
-# <a name="how-to-change-fonts-and-colors-for-the-editor-in-visual-studio-2017"></a>방법: Visual Studio 2017에서 편집기의 글꼴 및 색 변경
+# <a name="how-to-change-fonts-and-colors-for-the-editor-in-visual-studio"></a>방법: Visual Studio에서 편집기의 글꼴 및 색 변경
 
 코드 편집기에서 다양한 텍스트 **표시 항목**의 기본 글꼴을 변경하고, 글꼴 크기를 조정하고, 전경색 및 배경색을 변경할 수 있습니다. 글꼴 설정을 변경할 때 다음 정보를 고려하세요.
 

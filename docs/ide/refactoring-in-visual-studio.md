@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d76c5eb725545fd1fd8ab1a1ec2f4eaadcd39d3b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 15a36378efe7b6e3151882d5e6927cd7fbfa4542
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927115"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428611"
 ---
 # <a name="refactor-code"></a>코드 리팩터링
 
@@ -22,7 +22,11 @@ ms.locfileid: "55927115"
 
 ## <a name="programming-languages"></a>프로그래밍 언어
 
-Visual Studio에서 다양한 프로그래밍 언어에 다양한 리팩터링 작업을 사용할 수 있습니다. 이 섹션의 항목은 C# 및 Visual Basic에 사용 가능한 리팩터링을 다룹니다. C++ 코드 리팩터링에 대한 자세한 내용은 [코드(C++) 작성 및 리팩터링](/cpp/ide/writing-and-refactoring-code-cpp)을 참조하세요. F#에 대한 리팩터링 지원은 타사 Visual Studio 확장인 [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools)에서 제공됩니다.
+Visual Studio에서 다양한 프로그래밍 언어에 다양한 리팩터링 작업을 사용할 수 있습니다.
+
+- 목차의 이 섹션에 있는 페이지는 C# 및 Visual Basic에 사용 가능한 리팩터링을 다룹니다. [메서드 추출 리팩터링](reference/extract-method.md) 및 [일치하는 파일 리팩터링으로 형식 이동](reference/move-type-to-matching-file.md)이 일부 예입니다.
+- C++ 코드 리팩터링에 대한 자세한 내용은 [코드(C++) 작성 및 리팩터링](/cpp/ide/writing-and-refactoring-code-cpp)을 참조하세요.
+- F#에 대한 리팩터링 지원은 타사 Visual Studio 확장인 [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools)에서 제공됩니다.
 
 ## <a name="see-also"></a>참고 항목
 

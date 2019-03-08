@@ -1,5 +1,5 @@
 ---
-title: 인쇄 명령
+title: Debug.Print
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -14,46 +14,49 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c9a3de1fba86c78f16703efd858448bc0f25e8d0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: df609011250cebc097d3d356242302dbe41f8007
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952296"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56953559"
 ---
 # <a name="print-command"></a>인쇄 명령
+
 식을 계산하거나 지정된 텍스트를 표시합니다.
 
 ## <a name="syntax"></a>구문
 
 ```cmd
-Debug.Print text
+>Debug.Print text
 ```
 
 ## <a name="arguments"></a>인수
- `text`
 
- 필수 요소. 계산할 식 또는 표시할 텍스트입니다.
+`text`
+
+필수 요소. 계산할 식 또는 표시할 텍스트입니다.
 
 ## <a name="remarks"></a>주의
- 이 명령에 대한 별칭으로 물음표(?)를 사용할 수 있습니다. 따라서 예를 들면
+
+이 명령에 대한 별칭으로 물음표(?)를 사용할 수 있습니다. 따라서 예를 들면
 
 ```cmd
 >Debug.Print expA
 ```
 
- 명령을 작성할 수도 있습니다.
+다음과 같이 작성할 수도 있습니다.
 
 ```cmd
->? expA
+? expA
 ```
 
- 이 명령의 두 버전은 모두 `expA` 식의 현재 값을 반환합니다.
+이 명령의 두 버전은 모두 `expA` 식의 현재 값을 반환합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```cmd
->Debug.Print varA
+>Debug.Print DateTime.Now.Day
 ```
 
 ## <a name="see-also"></a>참고 항목

@@ -11,12 +11,12 @@ ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: f68f12578ea7b5148aa018c21e14c334c33ad9a1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c0f0cdb6c1807aa8ce0a30e7371fe8ad4270ca7b
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918925"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57324184"
 ---
 # <a name="how-to-set-up-a-python-environment-on-azure-app-service-windows"></a>Azure App Service에서 Python 환경을 설정하는 방법(Windows)
 
@@ -76,7 +76,7 @@ Azure Resource Manager 템플릿을 사용하여 App Service를 배포하는 경
 
 ## <a name="set-webconfig-to-point-to-the-python-interpreter"></a>Python 인터프리터를 가리키도록 web.config 설정
 
-포털이나 Azure Resource Manager 템플릿을 통해 사이트 확장을 설치한 후, Python 인터프리터를 가리키도록 앱의 *web.config* 파일을 설정합니다. *web.config* 파일은 App Service에서 실행 중인 IIS(7 이상) 웹 서버에 FastCGI 또는 HttpPlatform을 통해 Python 요청을 처리해야 하는 방법을 지시합니다.
+포털이나 Azure Resource Manager 템플릿을 통해 사이트 확장을 설치한 후, Python 인터프리터를 가리키도록 앱의 *web.config* 파일을 설정합니다. *web.config* 파일은 App Service에서 실행 중인 IIS(7 이상) 웹 서버에 HttpPlatform(권장) 또는 FastCGI를 통해 Python 요청을 처리해야 하는 방법을 지시합니다.
 
 먼저 사이트 확장의 *python.exe*에 대한 전체 경로를 찾은 다음, 적절한 *web.config* 파일을 만들고 수정합니다.
 
@@ -97,6 +97,33 @@ App Service에서 특정 경로를 보려면 App Service 페이지에서 **확�
 1. App Service 페이지에서 **개발 도구** > **콘솔**을 선택합니다.
 1. `ls ../home` 또는 `dir ..\home` 명령을 입력하여 *Python361x64*와 같은 최상위 확장 폴더를 확인합니다.
 1. `ls ../home/python361x64` 또는 `dir ..\home\python361x64`와 같은 명령을 입력하여 *python.exe* 및 기타 인터프리터 파일이 포함되어 있는지 확인합니다.
+
+### <a name="configure-the-httpplatform-handler"></a>HttpPlatform 처리기 구성
+
+HttpPlatform 모듈은 소켓 연결을 독립 실행형 Python 프로세스에 직접 전달합니다. 이 전달을 통해 원하는 모든 웹 서버를 실행할 수 있지만 로컬 웹 서버를 실행하는 시작 스크립트가 필요합니다. *web.config*의 `<httpPlatform>` 요소에 스크립트를 지정합니다. 여기서 `processPath` 특성은 사이트 확장의 Python 인터프리터를 가리키고, `arguments` 특성은 스크립트 및 제공하려는 모든 인수를 가리킵니다.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.webServer>
+    <handlers>
+      <add name="PythonHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified"/>
+    </handlers>
+    <httpPlatform processPath="D:\home\Python361x64\python.exe"
+                  arguments="D:\home\site\wwwroot\runserver.py --port %HTTP_PLATFORM_PORT%"
+                  stdoutLogEnabled="true"
+                  stdoutLogFile="D:\home\LogFiles\python.log"
+                  startupTimeLimit="60"
+                  processesPerApplication="16">
+      <environmentVariables>
+        <environmentVariable name="SERVER_PORT" value="%HTTP_PLATFORM_PORT%" />
+      </environmentVariables>
+    </httpPlatform>
+  </system.webServer>
+</configuration>
+```
+
+여기에 표시된 `HTTP_PLATFORM_PORT` 환경 변수에는 로컬 서버가 localhost의 연결을 수신 대기해야 하는 포트가 포함됩니다. 이 예제에서는 원하는 경우 다른 환경 변수(이 경우 `SERVER_PORT`)를 만드는 방법도 보여 줍니다.
 
 ### <a name="configure-the-fastcgi-handler"></a>FastCGI 처리기 구성
 
@@ -128,33 +155,6 @@ FastCGI는 요청 수준에서 작동하는 인터페이스입니다. IIS는 들
 - `WSGI_LOG`는 선택 사항이지만 앱 디버깅을 위해 권장됩니다.
 
 [Azure에 게시](publishing-python-web-applications-to-azure-from-visual-studio.md)를 참조하여 Bottle, Flask 및 Django 웹앱을 위한 *web.config* 콘텐츠에 대한 추가 정보를 확인하세요.
-
-### <a name="configure-the-httpplatform-handler"></a>HttpPlatform 처리기 구성
-
-HttpPlatform 모듈은 소켓 연결을 독립 실행형 Python 프로세스에 직접 전달합니다. 이 전달을 통해 원하는 모든 웹 서버를 실행할 수 있지만 로컬 웹 서버를 실행하는 시작 스크립트가 필요합니다. *web.config*의 `<httpPlatform>` 요소에 스크립트를 지정합니다. 여기서 `processPath` 특성은 사이트 확장의 Python 인터프리터를 가리키고, `arguments` 특성은 스크립트 및 제공하려는 모든 인수를 가리킵니다.
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <system.webServer>
-    <handlers>
-      <add name="PythonHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified"/>
-    </handlers>
-    <httpPlatform processPath="D:\home\Python361x64\python.exe"
-                  arguments="D:\home\site\wwwroot\runserver.py --port %HTTP_PLATFORM_PORT%"
-                  stdoutLogEnabled="true"
-                  stdoutLogFile="D:\home\LogFiles\python.log"
-                  startupTimeLimit="60"
-                  processesPerApplication="16">
-      <environmentVariables>
-        <environmentVariable name="SERVER_PORT" value="%HTTP_PLATFORM_PORT%" />
-      </environmentVariables>
-    </httpPlatform>
-  </system.webServer>
-</configuration>
-```
-
-여기에 표시된 `HTTP_PLATFORM_PORT` 환경 변수에는 로컬 서버가 localhost의 연결을 수신 대기해야 하는 포트가 포함됩니다. 이 예제에서는 원하는 경우 다른 환경 변수(이 경우 `SERVER_PORT`)를 만드는 방법도 보여 줍니다.
 
 ## <a name="install-packages"></a>패키지 설치
 

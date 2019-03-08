@@ -10,12 +10,12 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
 ms.workload:
 - multiple
-ms.openlocfilehash: a9571456a5c9b277b69e6045e1277f78d586f3e0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1f5ad2f5860c148d4bb9d0ee026eee9b1e83c74c
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923374"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223132"
 ---
 # <a name="code-style-preferences"></a>코드 스타일 기본 설정
 
@@ -38,11 +38,11 @@ ms.locfileid: "55923374"
 
 ## <a name="format-document-command"></a>문서 서식 명령
 
-Visual Studio 2017 버전 15.8 이상에서는 파일에서 usings을 제거하고 정렬하거나 코드 스타일 기본 설정을 적용하는 등 추가 코드 정리를 수행하도록 **문서 서식** 명령(**편집** > **고급** > **문서 서식**)을 구성할 수 있습니다. [서식 지정 옵션 페이지](reference/options-text-editor-csharp-formatting.md#format-document-settings)에 적용하려는 **문서 서식**의 설정을 정의할 수 있습니다.
+파일에서 usings을 제거하고 정렬하거나 코드 스타일 기본 설정을 적용하는 등 추가 코드 정리를 수행하도록 **문서 서식** 명령(**편집** > **고급** > **문서 서식**)을 구성할 수 있습니다. [서식 지정 옵션 페이지](reference/options-text-editor-csharp-formatting.md#format-document-settings)에 적용하려는 **문서 서식**의 설정을 정의할 수 있습니다.
 
 코드 정리는 *.editorconfig* 파일에 구성된 설정 또는 **도구** > **옵션** > **텍스트 편집기** > **C#** > [**코드 스타일** 또는 **서식 지정**]에서 설정된 해당 규칙이나 파일의 결함을 고려합니다.
 
-Visual Studio 2017에서 처음으로 **문서 서식** 명령을 트리거하면 노란색 정보 표시줄에서는 코드 정리 설정을 구성하라는 메시지를 표시합니다.
+Visual Studio에서 처음으로 **문서 서식** 명령을 트리거하면 노란색 정보 표시줄에서는 코드 정리 설정을 구성하라는 메시지를 표시합니다.
 
 > [!TIP]
 > *.editorconfig* 파일에서 **없음**으로 구성된 규칙은 코드 정리에 참여하지 않지만 **빠른 작업 및 리팩터링** 메뉴를 통해 개별적으로 적용될 수 있습니다.

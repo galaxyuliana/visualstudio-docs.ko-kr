@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fe76cc490523325c8334ad7ada3273f101e0bbc9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2be76e5af3dafd3eebb8649fa82db6a14d46bb0d
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56626130"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323538"
 ---
 # <a name="how-to-use-the-concurrency-visualizer-markers-sdk"></a>방법: 동시성 시각화 도우미 표식 SDK 사용
 이 항목에서는 동시성 시각화 SDK를 사용하여 범위를 만들고 플래그, 메시지 및 경고를 쓰는 방법을 보여 줍니다.
@@ -78,7 +78,7 @@ ms.locfileid: "56626130"
 
      ![3개 표식 및 경고가 있는 동시성 시각화](../profiling/media/cvmarkerseriesnative.png "CvMarkerSeriesNative")
 
-### <a name="to-use-visual-basic-or-c"></a>Visual Basic 또는 C#을 사용하려면 #
+### <a name="to-use-visual-basic-or-c"></a>Visual Basic 또는 C\#을 사용하려면
 
 1.  동시성 시각화 SDK 지원을 애플리케이션에 추가합니다. 자세한 내용은 [동시성 시각화 SDK](../profiling/concurrency-visualizer-sdk.md)를 참조하세요.
 

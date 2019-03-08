@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 DataCamp Training 구독에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 83cbb3cb0b10faddab860caf71e11ca4a03d4e4a
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 0751c29833b9fac85107af9992910f8046487a70
+ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841431"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57428637"
 ---
 # <a name="the-datacamp-training-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 DataCamp Training 혜택
 
@@ -69,10 +69,10 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, | 3개월       |  아니요.  새 구독자만 사용할 수 있음          |
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 3개월                                                            |  아니요.  새 구독자만 사용할 수 있음           |
-| Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용 가능                                             |  아니요.  새 구독자만 사용할 수 있음           |
-| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용 가능                                              |  아니요.  새 구독자만 사용할 수 있음           |
-| Visual Studio Dev Essentials | N/A  | 2개월 | 아니요. 새 구독자만 사용할 수 있음 |
-| Visual Studio Enterprise(Standard)  | NFR<sup>1</sup> |사용할 수 없음  | N/A |
+| Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 3개월                                             |  아니요.  새 구독자만 사용할 수 있음           |
+| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 3개월                                              |  아니요.  새 구독자만 사용할 수 있음           |
+| Visual Studio Dev Essentials | 해당 없음  | 2개월 | 아니요. 새 구독자만 사용할 수 있음 |
+| Visual Studio Enterprise(Standard)  | NFR<sup>1</sup> |사용할 수 없음  | 해당 없음 |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
 
 

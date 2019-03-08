@@ -11,16 +11,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: c79f51d1bcc82bda9e7c3f21548eac445f36f925
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: fb70eca0ae2f2998752ccc0f096f594e6825e4e8
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948279"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57221946"
 ---
 # <a name="overview-of-net-compiler-platform-analyzers"></a>.NET Compiler Platform 분석기 개요
 
-Visual Studio 2017에는 입력한 C# 또는 Visual Basic 코드를 분석하는 기본 제공 .NET Compiler Platform 분석기 집합이 포함되어 있습니다. 분석기는 코드 스타일, 코드 품질 및 유지 관리, 코드 디자인 및 기타 문제를 살펴봅니다. Visual Studio 확장이나 NuGet 패키지로 프로젝트별로 추가 분석기를 설치할 수 있습니다.
+Visual Studio에는 입력한 C# 또는 Visual Basic 코드를 분석하는 기본 제공 .NET Compiler Platform 분석기 세트가 포함되어 있습니다. 분석기는 코드 스타일, 코드 품질 및 유지 관리, 코드 디자인 및 기타 문제를 살펴봅니다. Visual Studio 확장이나 NuGet 패키지로 프로젝트별로 추가 분석기를 설치할 수 있습니다.
 
 분석기에서 규칙 위반이 발생하면 코드 편집기에서 문제의 코드 아래에 *물결선*이 표시되며 **오류 목록**에도 보고됩니다.
 

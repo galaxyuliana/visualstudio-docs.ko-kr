@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 684c129ed104ed11b7cd6c88a7b603956acf64cf
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 51d4d81667bed3df6f970cd59c21286b7ef9a6a2
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922214"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223444"
 ---
 # <a name="projects-and-solutions-page-options-dialog-box"></a>프로젝트 및 솔루션 페이지, 옵션 대화 상자
 
@@ -71,7 +71,7 @@ ms.locfileid: "55922214"
 
 ### <a name="reopen-documents-on-solution-load"></a>솔루션 로드 시 문서 다시 열기
 
-**Visual Studio 2017 버전 15.8 미리 보기 2 이상의 새로운 기능**
+**Visual Studio 2017 버전 15.8에 도입됨**
 
 이 옵션을 선택하면 이 솔루션이 닫힐 때 열려 있던 문서가 솔루션이 열릴 때 자동으로 열립니다.
 

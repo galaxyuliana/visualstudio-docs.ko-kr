@@ -25,3 +25,7 @@
 ### <a name="larger-edits"></a>대규모 편집
 
 기여자 지침에서 [끌어오기 요청](https://docs.microsoft.com/contribute/how-to-write-workflows-major#pull-request-processing)에 대한 지침을 검토합니다.
+
+**참고**
+
+Visual Studio 2015(이전 버전의 제품)용이므로 `docs/vs-2015` 폴더에 있는 파일에 대해서는 적극적으로 작업하고 있지 않습니다. 이러한 파일에 변경에 대한 사소한 끌어오기 요청을 허용하지 않습니다.

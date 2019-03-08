@@ -30,16 +30,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 23bda0ccea91089957b9aa6bea97bb5b7b592b20
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f5fc437d1365fe58c8eb7ae725196c4ad3370836
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937450"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323736"
 ---
 # <a name="find-and-replace-text"></a>텍스트 찾기 및 바꾸기
 
-[찾기 및 바꾸기](#find-and-replace-control) 또는 [파일에서 찾기/바꾸기](#find-in-files-and-replace-in-files)를 사용하여 Visual Studio 편집기에서 텍스트를 찾아 바꿀 수 있습니다. Visual Studio 2017 버전 15.8의 새로운 기능에서 *[다중 캐럿 선택 영역](#multi-caret-selection)* 을 사용하여 패턴의 *일부* 인스턴스를 찾고 바꿀 수 있습니다.
+[찾기 및 바꾸기](#find-and-replace-control)(**Ctrl**+**F** 또는 **Ctrl**+**H**) 또는 [파일에서 찾기/바꾸기](#find-in-files-and-replace-in-files)(**Ctrl**+**Shift**+**F** 또는 **Ctrl**+**Shift**+**H**)를 사용하여 Visual Studio 편집기에서 텍스트를 찾아 바꿀 수 있습니다. *[다중 캐럿 선택 영역](#multi-caret-selection)* 을 사용하여 패턴의 *일부* 인스턴스만 찾아 바꿀 수 있습니다.
 
 > [!TIP]
 > 변수 및 메서드 등의 코드 기호의 이름을 바꾸는 경우 찾기 및 바꾸기를 사용하는 것보다 *[리팩터링](../ide/reference/rename.md)* 하는 것이 좋습니다. 리팩터링은 지능형이고 범위를 이해하지만 찾기 및 바꾸기는 모든 항목을 무조건 바꿉니다.
@@ -53,7 +53,10 @@ ms.locfileid: "55937450"
 
 ## <a name="find-and-replace-control"></a>찾기 및 바꾸기 컨트롤
 
-**찾기 및 바꾸기** 컨트롤은 코드 편집기 창의 오른쪽 위 모퉁이에 표시됩니다. **찾기 및 바꾸기** 컨트롤은 현재 문서에서 지정된 검색 문자열이 나타나는 모든 항목을 즉시 강조 표시합니다. 발생 항목 간에 이동하려면 검색 컨트롤에서 **다음 찾기** 단추 또는 **이전 찾기** 단추를 선택합니다.
+- 현재 파일에서 문자열을 *찾으려면* 바로 가기로 **Ctrl**+**F**를 누룹니다.
+- 현재 파일에서 문자열을 *찾아서 바꾸려면* 바로 가기로 **Ctrl**+**H**를 누룹니다.
+
+**찾기 및 바꾸기** 컨트롤은 코드 편집기 창의 오른쪽 위 모퉁이에 표시됩니다. 현재 문서에서 지정된 검색 문자열의 모든 항목을 즉시 강조 표시합니다. 발생 항목 간에 이동하려면 검색 컨트롤에서 **다음 찾기** 단추 또는 **이전 찾기** 단추를 선택합니다.
 
 ![Visual Studio의 찾기 및 바꾸기](media/find-and-replace-box.png)
 
@@ -69,7 +72,10 @@ ms.locfileid: "55937450"
 
 ## <a name="find-in-files-and-replace-in-files"></a>파일에서 찾기 및 파일에서 바꾸기
 
-**파일에서 찾기/바꾸기**는 검색 범위를 정의할 수 있다는 점을 제외하고 **찾기 및 바꾸기** 컨트롤과 비슷하게 작동합니다. 편집기에서 현재 열린 파일을 검색할 수 있을 뿐만 아니라 모든 열린 문서, 전체 솔루션, 현재 프로젝트 및 선택한 폴더 집합을 검색할 수도 있습니다. 파일 이름 확장명을 기준으로 검색할 수도 있습니다. **파일에서 찾기/바꾸기** 대화 상자에 액세스하려면 **편집** 메뉴에서 **찾기 및 바꾸기**를 선택하거나 **Ctrl+Shift+F**를 누릅니다.
+- 여러 파일에서 문자열을 *찾으려면* 바로 가기로 **Ctrl**+**Shift**+**F**를 누릅니다.
+- 여러 파일에서 문자열을 *찾아서 바꾸려면* 바로 가기로 **Ctrl**+**Shift**+**H**를 누룹니다.
+
+**파일에서 찾기/바꾸기**는 검색 범위를 정의할 수 있다는 점을 제외하고 **찾기 및 바꾸기** 컨트롤과 비슷하게 작동합니다. 편집기에서 현재 열린 파일을 검색할 수 있을 뿐만 아니라 모든 열린 문서, 전체 솔루션, 현재 프로젝트 및 선택한 폴더 집합을 검색할 수도 있습니다. 파일 이름 확장명을 기준으로 검색할 수도 있습니다. **파일에서 찾기/바꾸기** 대화 상자에 액세스하려면 **편집** 메뉴에서 **찾기 및 바꾸기**를 선택하거나 **Ctrl**+**Shift**+**F**를 누릅니다.
 
 ![Visual Studio의 파일에서 찾기](media/find-in-files-box.png)
 
@@ -93,7 +99,7 @@ ms.locfileid: "55937450"
 > [!NOTE]
 > 이 섹션은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [블록 선택](/visualstudio/mac/block-selection)을 참조하세요.
 
-**Visual Studio 2017 버전 15.8의 새로운 기능**
+**Visual Studio 2017 버전 15.8에 도입됨**
 
 *다중 캐럿 선택 영역*을 사용하여 동시에 둘 이상의 위치에서 동일하게 편집합니다. 예를 들어 동시에 동일한 텍스트를 삽입하거나 여러 위치에서 기존 텍스트를 수정할 수 있습니다.
 

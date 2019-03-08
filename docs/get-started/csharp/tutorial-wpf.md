@@ -13,14 +13,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 8604164a329dbccd7e93a39b97fcdb674eccd83e
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: d59cb6a94259342b635df6632d54db825a427c63
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796805"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57323856"
 ---
-# <a name="tutorial-create-a-simple-application-with-c"></a>자습서: C#으로 간단한 애플리케이션 만들기
+# <a name="tutorial-create-a-simple-application-with-c"></a>자습서: C\#으로 간단한 애플리케이션 만들기
 
 이 연습을 완료하면 Visual Studio를 사용하여 애플리케이션을 개발할 때 사용할 수 있는 여러 도구, 대화 상자 및 디자이너에 익숙해집니다. [IDE](visual-studio-ide.md)(통합 개발 환경)의 작업에 대해 배우면서 “Hello, World” 애플리케이션을 만들고, UI를 디자인하고, 코드를 추가하고, 오류를 디버그하게 됩니다.
 

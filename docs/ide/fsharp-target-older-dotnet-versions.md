@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: a1b347a5a2ef2ef9e82b65c768b4f8ec331c912d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3572e48328317634f036e8c1301d81c38314a21c
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942078"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57221959"
 ---
 # <a name="target-older-versions-of-net-f"></a>.NET의 이전 버전 대상 지정(F#)
 
@@ -53,7 +53,7 @@ Visual Studio를 설치할 때 설치된 .NET Framework의 버전을 검색합�
 
 ### <a name="to-install-the-f-20-runtime"></a>F# 2.0 런타임을 설치하려면 다음을 수행합니다.
 
-[Visual Studio 2017 복구 단계](../install/repair-visual-studio.md)를 수행합니다.
+[Visual Studio 복구 단계](../install/repair-visual-studio.md)를 수행합니다.
 
 ## <a name="see-also"></a>참고 항목
 

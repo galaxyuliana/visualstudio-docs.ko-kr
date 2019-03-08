@@ -7,16 +7,16 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 259d1c3ca0d86125e0b7c59c39851c2bb2f20b83
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 211e9ca6e5b30d2a2b88f03430090c155ef7627a
+ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55953050"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57223772"
 ---
 # <a name="create-portable-custom-editor-settings-with-editorconfig"></a>EditorConfig를 사용하여 휴대용, 사용자 지정 편집기 설정 만들기
 
-Visual Studio 2017에서는 프로젝트 또는 코드베이스에 [EditorConfig](http://editorconfig.org/) 파일을 추가하여 코드베이스에서 작업하는 모든 사람들의 코딩 스타일을 일관적으로 유지할 수 있습니다. EditorConfig 설정은 전역 Visual Studio 텍스트 편집기 설정에 우선합니다. 따라서 해당 프로젝트와 관련된 텍스트 편집기 설정을 사용하도록 각 코드베이스를 조정할 수 있습니다. Visual Studio **옵션** 대화 상자에서 사용자 고유의 개인 편집기 기본 설정을 지정할 수 있습니다. 사용자가 *.editorconfig* 파일 없이 코드베이스에서 작업을 수행하거나 *.editorconfig* 파일이 특정 설정을 재정의하지 않은 경우 이러한 설정이 적용됩니다. 이러한 기본 설정의 예로 들여쓰기 스타일(탭 또는 공백)을 들 수 있습니다.
+프로젝트 또는 코드베이스에 [EditorConfig](http://editorconfig.org/) 파일을 추가하여 코드베이스에서 작업하는 모든 사람들의 코딩 스타일을 일관적으로 유지할 수 있습니다. EditorConfig 설정은 전역 Visual Studio 텍스트 편집기 설정에 우선합니다. 따라서 해당 프로젝트와 관련된 텍스트 편집기 설정을 사용하도록 각 코드베이스를 조정할 수 있습니다. Visual Studio **옵션** 대화 상자에서 사용자 고유의 개인 편집기 기본 설정을 지정할 수 있습니다. 사용자가 *.editorconfig* 파일 없이 코드베이스에서 작업을 수행하거나 *.editorconfig* 파일이 특정 설정을 재정의하지 않은 경우 이러한 설정이 적용됩니다. 이러한 기본 설정의 예로 들여쓰기 스타일(탭 또는 공백)을 들 수 있습니다.
 
 Visual Studio를 포함하여 다양한 코드 편집기와 IDE에서 EditorConfig 설정이 지원됩니다. 코드를 이용하여 휴대할 수 있는 구성 요소이며 Visual Studio 외부에서도 코딩 스타일을 적용할 수 있습니다.
 
@@ -123,7 +123,7 @@ EditorConfig 파일을 편집한 후 새 설정을 적용하려면 코드 파일
 
 ![EditorConfig 언어 서비스 확장을 사용한 IntelliSense](media/editorconfig-intellisense.png)
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 예제에서는 *.editorconfig* 파일을 프로젝트에 추가하기 전과 후의 C# 코드 조각 들여쓰기 상태를 보여줍니다. Visual Studio 텍스트 편집기에 대한 **옵션** 대화 상자의 **탭** 설정은 **Tab** 키를 누를 때 공백 문자를 생성하도록 설정되어 있습니다.
 
