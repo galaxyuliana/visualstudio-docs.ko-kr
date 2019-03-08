@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 82f464e6c58c8403ffee34957f9bd49b39471114
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 289d21b4828e22877ac139f2f29b6500907cf4e0
+ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940284"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57567317"
 ---
 # <a name="develop-tests-from-a-model"></a>모델에서 테스트 개발
 요구 사항 및 아키텍처 모델을 사용하여 시스템 및 해당 구성 요소의 테스트를 구성하도록 지원할 수 있습니다. 이렇게 하면 사용자 및 기타 이해 관계자에게 중요한 요구 사항을 테스트하는지 확인할 수 있고 요구 사항이 변경될 때 테스트를 빠르게 업데이트할 수 있습니다. [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)]를 사용하는 경우 모델과 테스트 간의 링크를 유지할 수도 있습니다.
@@ -59,7 +59,7 @@ ms.locfileid: "55940284"
 
 1. [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)]에서 요구 사항을 만들고 요구 사항에 따라 테스트 도구 모음을 만듭니다.
 
-    만드는 요구 사항은 [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]에서 작업 항목이 됩니다. 사용자 스토리, 요구 사항 또는 사용 사례 작업 항목을 Team Foundation을 사용 하 여 프로젝트를 사용 하는 프로세스 템플릿에 따라 수 있습니다. 자세한 내용은 [에 대 한 Agile 도구 및 Agile 프로젝트 관리](/azure/devops/boards/backlogs/overview?view=vsts)합니다.
+    만드는 요구 사항은 [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]에서 작업 항목이 됩니다. 사용자 스토리, 요구 사항 또는 사용 사례 작업 항목을 Team Foundation을 사용 하 여 프로젝트를 사용 하는 프로세스 템플릿에 따라 수 있습니다. 자세한 내용은 [에 대 한 Agile 도구 및 Agile 프로젝트 관리](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)합니다.
 
 2. 모델에서 하나 이상의 사용 사례에 요구 사항 작업 항목을 연결합니다.
 
@@ -147,7 +147,7 @@ Assert (countAfter == countBefore = 1);
 
 1. [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)]에서 요구 사항을 만들고 요구 사항에 따라 테스트 도구 모음을 만듭니다.
 
-    만드는 요구 사항은 [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]에서 작업 항목이 됩니다. 사용자 스토리, 요구 사항 또는 사용 사례 작업 항목을 Team Foundation을 사용 하 여 프로젝트를 사용 하는 프로세스 템플릿에 따라 수 있습니다. 자세한 내용은 [에 대 한 Agile 도구 및 Agile 프로젝트 관리](/azure/devops/boards/backlogs/overview?view=vsts)합니다.
+    만드는 요구 사항은 [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]에서 작업 항목이 됩니다. 사용자 스토리, 요구 사항 또는 사용 사례 작업 항목을 Team Foundation을 사용 하 여 프로젝트를 사용 하는 프로세스 템플릿에 따라 수 있습니다. 자세한 내용은 [에 대 한 Agile 도구 및 Agile 프로젝트 관리](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)합니다.
 
 2. 모델에서 하나 이상의 요소에 요구 사항 작업 항목을 연결합니다.
 

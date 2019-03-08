@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f320c992f3bb82ee29829d8d0a8dccc230ee6eb3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 41ca66c796b352113973dcf8d8158f385f49a8ec
+ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951607"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57567372"
 ---
 # <a name="scenario-change-your-design-using-visualization-and-modeling"></a>시나리오: 시각화 및 모델링을 사용하여 디자인 변경
 
@@ -214,7 +214,7 @@ Visual Studio 모델링 다이어그램은 Team Foundation Server와 통합되�
 
 참조
 
-- [Agile 도구 및 Agile 프로젝트 관리 하는 방법에 대 한](/azure/devops/boards/backlogs/overview?view=vsts)
+- [Agile 도구 및 Agile 프로젝트 관리 하는 방법에 대 한](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)
 
 - [차트, 대시보드 및 위젯 (Azure DevOps 서비스)](/azure/devops/report/dashboards/overview?view=vsts)
 

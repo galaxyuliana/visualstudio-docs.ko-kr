@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ea4cd33c67cfbd2d2150fceacaf0399810db0ca4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 0044991b330594d80422f0c6ac1d1d64b1fec237
+ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56638038"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57567185"
 ---
 # <a name="custom-actions-in-outlook-form-regions"></a>Outlook 양식 영역의 사용자 지정 작업
   사용자가 Microsoft Office Outlook 항목에 응답할 수 있도록 단추를 표시 하는 작업입니다. 예를 들어, 메일 항목에 응답 하려면 사용자가 클릭 합니다 **회신**를 **전체 회신**, 또는 **앞으로** 작업 단추입니다. 이러한 각 작업을 새 메일 항목을 만들고 원래 항목의 정보를 사용 하 여 항목의 필드를 채웁니다.
@@ -28,7 +28,7 @@ ms.locfileid: "56638038"
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## <a name="add-custom-actions-to-a-form-region"></a>양식 영역에 사용자 지정 작업 추가
- 양식 영역에 사용자 지정 작업을 추가 하려면 사용 합니다 **사용자 지정 작업** 대화 상자. 열 수 있습니다 합니다 **사용자 지정 작업** 대화 상자 **솔루션 탐색기** 를 확장 하 여는 **매니페스트** 노드를 선택 하는 **Customaction**속성 및 클릭 한 다음 줄임표 단추 (![ASP.NET 모바일 디자이너 줄임표](../sharepoint/media/mwellipsis.gif "ASP.NET 모바일 디자이너 줄임표")).
+ 양식 영역에 사용자 지정 작업을 추가 하려면 사용 합니다 **사용자 지정 작업** 대화 상자. 열 수 있습니다 합니다 **사용자 지정 작업** 대화 상자에서 양식 영역을 선택 하 여 **솔루션 탐색기**확장, 합니다 **매니페스트** 에서 노드를 **속성 창**선택 하 여 **Customaction** 속성 및 줄임표 단추를 클릭 (![ASP.NET 모바일 디자이너 줄임표](../sharepoint/media/mwellipsis.gif "ASP.NET 모바일 디자이너 줄임표")).
 
  사용할 수는 **사용자 지정 작업** 지정 하려면 대화 상자를 *대상 폼*합니다. 대상 형식은 사용자 지정 작업을 실행할 때 표시 되는 형식입니다.
 
