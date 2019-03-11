@@ -153,7 +153,7 @@ items:
   - name: 관리 코드 경고에 대한 코드 분석
     href: code-analysis-for-managed-code-warnings.md
     items:
-    - name: 관리되는 코드에 대한 CheckId별 코드 분석 경고
+    - name: 관리 코드에 대한 CheckId별 코드 분석 경고
       href: code-analysis-warnings-for-managed-code-by-checkid.md
     - name: 암호화 경고
       href: cryptography-warnings.md
@@ -289,7 +289,7 @@ items:
         href: ca1065-do-not-raise-exceptions-in-unexpected-locations.md
       - name: 'CA2210: 어셈블리에는 올바른 강력한 이름을 사용해야 합니다.'
         href: ca2210-assemblies-should-have-valid-strong-names.md
-    - name: 전역화 경고
+    - name: 세계화 경고
       href: globalization-warnings.md
       items:
       - name: 'CA1300: MessageBoxOptions를 지정하세요.'
@@ -479,6 +479,8 @@ items:
         href: ca2004-remove-calls-to-gc-keepalive.md
       - name: 'CA2006: SafeHandle을 사용하여 네이티브 리소스를 캡슐화하세요.'
         href: ca2006-use-safehandle-to-encapsulate-native-resources.md
+      - name: 'CA2007: 작업을 직접 대기하지 마세요.'
+        href: ca2007-do-not-directly-await-task.md
     - name: 보안 경고
       href: security-warnings.md
       items:
@@ -1468,9 +1470,9 @@ items:
       href: ca0505.md
     - name: FxCopCmd 오류
       href: fxcopcmd-errors.md
-ms.openlocfilehash: 4d6e4458e334cc1d51b65ae9ba8eaeb83fc70aa2
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: d922322159ed52441168ab7bfec76c0f92804501
+ms.sourcegitcommit: 1024f336dcd8e8a4c50b9a9ad8ec85b6e70073a8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54835152"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "57699670"

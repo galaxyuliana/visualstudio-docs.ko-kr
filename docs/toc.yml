@@ -1,6 +1,7 @@
 items:
 - name: Visual Studio 설명서
   href: ide/index.yml
+  pdf_name: Visual Studio documentation
 - name: 개요
   items:
   - name: Visual Studio 정보
@@ -131,6 +132,7 @@ items:
 - name: 빠른 시작
   items:
   - name: Visual Studio 오리엔테이션
+    displayName: Feature tour
     href: ide/quickstart-ide-orientation.md
   - name: 'C++: 콘솔 앱 만들기'
     href: ide/getting-started-with-cpp-in-visual-studio.md
@@ -236,12 +238,15 @@ items:
           href: ide/template-parameters.md
       - name: 64비트 지원
         href: ide/visual-studio-ide-64-bit-support.md
-    - name: 프로젝트 또는 솔루션 없이 개발(“폴더 열기”)
+    - name: 프로젝트 또는 솔루션 없이 개발
+      displayName: Open folder
       href: ide/develop-code-in-visual-studio-without-projects-or-solutions.md
       items:
       - name: 빌드 및 디버그 작업 사용자 지정
+        displayName: makefile tasks.vs.json
         href: ide/customize-build-and-debug-tasks-in-visual-studio.md
     - name: 프로젝트 또는 리포지토리에 연결
+      displayName: Azure DevOps VSTS GitHub
       href: ide/connect-team-project.md
     - name: 편집기 사용
       href: ide/writing-code-in-the-code-and-text-editor.md
@@ -251,6 +256,7 @@ items:
         items:
         - name: 정규식 사용
           href: ide/using-regular-expressions-in-visual-studio.md
+          dispayName: RegEx
         - name: 찾기-명령 상자
           href: ide/find-command-box.md
         - name: 파일에서 찾기
@@ -263,6 +269,7 @@ items:
         - name: 인코딩을 사용하여 파일 저장 및 열기
           href: ide/how-to-save-and-open-files-with-encoding.md
       - name: 개요
+        displayName: Expand and collapse
         href: ide/outlining.md
       - name: 코드 생성 및 수정
         href: ide/code-generation-in-visual-studio.md
@@ -389,6 +396,7 @@ items:
           - name: 모든 바로 가기 키
             href: ide/default-keyboard-shortcuts-in-visual-studio.md
         - name: .NET 개발자를 위한 팁
+          displayName: ReSharper
           href: ide/visual-studio-2017-for-dotnet-developers.md
       - name: IntelliSense 사용
         href: ide/using-intellisense.md
@@ -438,6 +446,7 @@ items:
         href: ide/code-styles-and-quick-actions.md
         items:
         - name: 코드 스타일에 EditorConfig 파일 사용
+          displayName: Configure code style analyzers
           href: ide/create-portable-custom-editor-options.md
           items:
           - name: .NET 언어 및 서식 지정 규칙
@@ -535,6 +544,7 @@ items:
     - name: XML 및 XSLT 파일 작업
       href: xml-tools/xml-tools-in-visual-studio.md
     - name: 국가별 앱 개발
+      displayName: Globalization localization world-ready
       href: ide/globalizing-and-localizing-applications.md
       items:
       - name: 양방향 언어
@@ -611,8 +621,10 @@ items:
           - name: '9단계: 기타 기능 사용'
             href: ide/step-9-try-other-features.md
   - name: 데이터에 액세스...
+    displayName: Data connections
     href: data-tools/accessing-data-in-visual-studio.md
   - name: 사용자 인터페이스 디자인...
+    displayName: XAML designer
     href: designers/designing-user-interfaces.md
   - name: 컴파일 및 빌드
     href: ide/compiling-and-building-in-visual-studio.md
@@ -659,6 +671,7 @@ items:
     - name: MSBuild...
       href: msbuild/msbuild.md
     - name: Azure Pipelines 및 TFS...
+      displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
       href: /azure/devops/pipelines/index?view=vsts
     - name: 빌드 이벤트 지정(Visual Basic)
       href: ide/how-to-specify-build-events-visual-basic.md
@@ -671,14 +684,18 @@ items:
   - name: 디버그...
     href: debugger/index.md
   - name: 테스트...
+    displayName: Unit testing
     href: test/improve-code-quality.md
   - name: 성능 측정...
+    displayName: Profiling
     href: profiling/index.md
   - name: 코드 품질 분석...
+    displayName: Code analysis FxCop Analyzers
     href: code-quality/index.md
   - name: 배포...
     href: deployment/index.md
   - name: Visual Studio 확장...
+    displayName: Visual Studio SDK
     href: extensibility/visual-studio-sdk.md
   - name: 분석 및 모델 아키텍처...
     href: modeling/analyze-and-model-your-architecture.md
@@ -700,6 +717,7 @@ items:
     - name: 솔루션 탐색기에서 파일 중첩
       href: ide/file-nesting-solution-explorer.md
     - name: 시작 동작
+      displayName: Start page window
       href: ide/customizing-the-start-page-for-visual-studio.md
     - name: Visual Studio 확장 찾기 및 사용
       href: ide/finding-and-using-visual-studio-extensions.md
@@ -730,6 +748,7 @@ items:
 - name: 참조
   items:
   - name: 일반 사용자 인터페이스 요소
+    displayName: Windows and dialogs
     items:
     - name: 호출 계층 구조
       href: ide/reference/call-hierarchy.md
@@ -1078,6 +1097,7 @@ items:
     href: help-viewer/overview.md
     items:
     - name: 로컬 콘텐츠 설치 및 관리
+      displayName: Offline books docs
       href: help-viewer/install-manage-local-content.md
     - name: 도움말 뷰어에서 항목 찾기
       items:
@@ -1114,28 +1134,40 @@ items:
     href: ide/whats-new-visual-studio-2019.md
   - name: 릴리스 정보 및 시스템 요구 사항
     items:
-    - name: 현재 릴리스 정보
-      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017
-    - name: 미리 보기 릴리스 정보
-      href: /visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default&contextView=vs-2017
-    - name: 릴리스 정보 기록
-      href: /visualstudio/releasenotes/vs2017-relnotes-history?context=visualstudio/default&contextView=vs-2017
     - name: 릴리스 리듬
-      href: /visualstudio/productinfo/vs2017-release-rhythm?context=visualstudio/default&contextView=vs-2017
-    - name: Visual Studio 로드맵
-      href: /visualstudio/productinfo/vs2018-roadmap?context=visualstudio/default&contextView=vs-2017
-    - name: 시스템 요구 사항
-      href: /visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default&contextView=vs-2017
-    - name: 플랫폼 호환성
-      href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default&contextView=vs-2017
-    - name: 라이선싱
+      href: /visualstudio/productinfo/release-rhythm/
+    - name: Visual Studio 2017
+      items:
+      - name: 현재 릴리스 정보
+        href: /visualstudio/releasenotes/vs2017-relnotes/
+      - name: 미리 보기 릴리스 정보
+        href: /visualstudio/releasenotes/vs2017-preview-relnotes/
+      - name: 릴리스 정보 기록
+        href: /visualstudio/releasenotes/vs2017-relnotes-history/
+      - name: 배포 가능 코드
+        href: /visualstudio/productinfo/2017-redistribution-vs/
+      - name: 플랫폼 호환성
+        href: /visualstudio/productinfo/vs2017-compatibility-vs/
+      - name: 시스템 요구 사항
+        href: /visualstudio/productinfo/vs2017-system-requirements-vs/
+    - name: Visual Studio 2019
+      items:
+      - name: 현재 릴리스 정보
+        href: /visualstudio/releases/2019/release-notes/
+      - name: 미리 보기 릴리스 정보
+        href: /visualstudio/releases/2019/release-notes-preview/
+      - name: 릴리스 정보 기록
+        href: /visualstudio/releases/2019/release-notes-history/
+      - name: 배포 가능 코드
+        href: /visualstudio/releases/2019/redistribution/
+      - name: 플랫폼 호환성
+        href: /visualstudio/releases/2019/compatibility/
+      - name: 시스템 요구 사항
+        href: /visualstudio/releases/2019/system-requirements/
+    - name: 사용 조건
       href: https://visualstudio.microsoft.com/license-terms/
-    - name: 배포 가능 코드
-      href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default&contextView=vs-2017
     - name: 지원 수명 주기 및 서비스
-      href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default&contextView=vs-2017
-    - name: 개발자 커뮤니티 데이터 개인 정보
-      href: ide/developer-community-privacy.md
+      href: /visualstudio/productinfo/vs-servicing-vs/
   - name: Visual Studio에서 문제를 보고하는 방법
     href: ide/how-to-report-a-problem-with-visual-studio.md
     items:
@@ -1143,6 +1175,8 @@ items:
       href: ide/report-a-problem.md
   - name: Visual Studio에 대한 기능 제안
     href: ide/suggest-a-feature.md
+  - name: 개발자 커뮤니티 데이터 개인 정보
+    href: ide/developer-community-privacy.md
   - name: 사용자 환경 개선 프로그램
     href: ide/visual-studio-experience-improvement-program.md
     items:
@@ -1151,11 +1185,12 @@ items:
   - name: IDE 오류 문제 해결을 위한 리소스
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
   - name: 의견 보내기
+    displayName: Feedback
     href: ide/talk-to-us.md
   expanded: true
-ms.openlocfilehash: 3ee3f3df16357d6a39090dc64504ef7f7fae6351
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: fb7a40cf8558fb5c3732fba0ec32ebbbb35fb0bb
+ms.sourcegitcommit: e2b1932d3d4d77dfacb5d245c8b2c7490a94a20e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526557"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "57683400"
