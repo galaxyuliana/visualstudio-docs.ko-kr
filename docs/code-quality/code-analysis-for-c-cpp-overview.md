@@ -50,7 +50,7 @@ C:\>cl /analyze Sample.cpp
 
 ## <a name="pragma-support"></a>#pragma 지원
 
-`#pragma` 지시문을 사용해 경고를 오류로 간주하거나 경고의 활성화 및 비활성화, 코드 라인별 경고 표시를 생략할 수 있습니다. 자세한 내용은 [방법: C/c + + 프로젝트에 대 한 코드 분석 속성 설정](how-to-set-code-analysis-properties-for-c-cpp-projects.md)합니다.
+`#pragma` 지시문을 사용해 경고를 오류로 간주하거나 경고의 활성화 및 비활성화, 코드 라인별 경고 표시를 생략할 수 있습니다. 자세한 내용은 [방법: C/C++ 프로젝트에 대 한 코드 분석 속성 설정](how-to-set-code-analysis-properties-for-c-cpp-projects.md)합니다.
 
 ## <a name="annotation-support"></a>주석 지원
 
@@ -66,8 +66,8 @@ C:\>cl /analyze Sample.cpp
 
 ## <a name="see-also"></a>참고자료
 
-- [빠른 시작: C/c + + 용 코드 분석](quick-start-code-analysis-for-c-cpp.md)
-- [연습: 오류에 대 한 C/c + + 코드 분석](walkthrough-analyzing-c-cpp-code-for-defects.md)
+- [빠른 시작: C/C++ 용 코드 분석](quick-start-code-analysis-for-c-cpp.md)
+- [연습: 오류에 대 한 C/C++ 코드 분석](walkthrough-analyzing-c-cpp-code-for-defects.md)
 - [C/C++용 코드 분석 경고](code-analysis-for-c-cpp-warnings.md)
 - [C++ Core 지침 검사기 사용](using-the-cpp-core-guidelines-checkers.md)
 - [C + + 핵심 지침 검사기 참조](code-analysis-for-cpp-corecheck.md)
