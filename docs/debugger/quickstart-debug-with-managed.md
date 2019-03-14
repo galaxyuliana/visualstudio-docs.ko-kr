@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 617783019a8a8b5a1ac2623ed113b78308466501
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 8c8616ffc9adeebe5fd2b224366d05cbf5c66a2e
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696885"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525377"
 ---
 # <a name="quickstart-debug-with-c-or-visual-basic-using-the-visual-studio-debugger"></a>빠른 시작: Visual Studio 디버거를 사용하여 C# 또는 Visual Basic으로 디버그
 
@@ -142,7 +142,7 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
 
 ## <a name="navigate-code"></a>코드 탐색
 
-디버거를 계속하도록 지시하는 다양한 명령이 있습니다. Visual Studio 2017의 새로운 유용한 코드 탐색 명령을 보여줍니다.
+디버거를 계속하도록 지시하는 다양한 명령이 있습니다. Visual Studio 2017부터 사용할 수 있는 유용한 코드 탐색 명령을 보여줍니다.
 
 중단점에서 일시 중지하는 동안 녹색의 **실행하려면 클릭** 단추 ![실행하려면 클릭](../debugger/media/dbg-tour-run-to-click.png "RunToClick")이 나타날 때까지 `c1.AddLast(20)` 명령문을 마우스로 가리킨 다음, **실행하려면 클릭** 단추를 누릅니다.
 

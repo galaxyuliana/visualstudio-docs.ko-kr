@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e1da9b01c32b82948718ef5045005eb0d9beb37
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: f58c51bf1b610375c6204e27d064870ce1f76d04
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54968533"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526726"
 ---
 # <a name="how-to-debug-in-mixed-mode-c-c-visual-basic"></a>방법: 혼합된 모드에서 디버깅 (C#, c + +, Visual Basic)
 
@@ -62,7 +62,7 @@ ms.locfileid: "54968533"
    ![네이티브 코드 디버깅 사용](../debugger/media/dbg-mixed-mode-from-csharp.png "네이티브 코드 디버깅 사용")
 
 > [!NOTE]
-> Visual Studio 2017의 대부분 버전에서 프로젝트 속성 대신 *launchSettings.json* 파일을 사용하여 .NET Core 앱에서 네이티브 코드에 대한 혼합 모드 디버깅을 사용하도록 설정합니다. 자세한 내용은 참조 하세요 [관리 및 네이티브 코드 디버그](../debugger/how-to-debug-managed-and-native-code.md)합니다.
+> 대부분 Visual Studio 2017부터 Visual Studio의 버전에 사용 해야 합니다 *launchSettings.json* .NET Core 앱에서 네이티브 코드에 대 한 혼합 모드 디버깅을 사용 하려면 프로젝트 속성 대신 파일입니다. 자세한 내용은 참조 하세요 [관리 및 네이티브 코드 디버그](../debugger/how-to-debug-managed-and-native-code.md)합니다.
 
 ## <a name="see-also"></a>참고 항목
 

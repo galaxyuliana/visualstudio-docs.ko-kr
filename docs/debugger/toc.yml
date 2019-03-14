@@ -117,7 +117,7 @@ items:
       - name: 편집하며 계속하기를 사용하여 중단 모드에서 편집 적용
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
     - name: XAML 코드 작성 및 실행 중인 XAML 코드 디버그
-      href: xaml-edit-and-continue.md
+      href: xaml-hot-reload.md
     - name: F#에 편집하며 계속하기가 지원되지 않음
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: 디버거 데이터 보기
@@ -843,9 +843,9 @@ items:
   items:
   - name: Visual Studio 디버거의 새로운 기능
     href: what-s-new-for-the-debugger-in-visual-studio.md
-ms.openlocfilehash: 60b141b0f9a7b00dda32a68f5f33e2bc8321dad6
-ms.sourcegitcommit: 1024f336dcd8e8a4c50b9a9ad8ec85b6e70073a8
+ms.openlocfilehash: 3c2439a70b883c6d6380d4ddc55365e296579179
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57699657"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57873635"
