@@ -2,7 +2,7 @@
 title: '자습서: 간단한 C# 콘솔 앱 만들기'
 description: Visual Studio에서 C# 콘솔 앱을 만드는 방법을 단계별로 알아봅니다.
 ms.custom: seodec18, get-started
-ms.date: 02/26/2019
+ms.date: 03/12/2019
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -14,12 +14,12 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 427d6e0bc17f977d54db7e313f5f119662df17c8
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: c73212ad53389b71ee2eb2a2660cd3dcbccaad8b
+ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841183"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "57736919"
 ---
 # <a name="tutorial-create-a-simple-c-console-app-in-visual-studio"></a>자습서: Visual Studio에서 간단한 C# 콘솔 앱 만들기
 
@@ -34,8 +34,9 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 1. Visual Studio 2017을 엽니다.
 
 2. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다.
+   (또는 **Ctrl**+**Shift**+**N**을 누릅니다).
 
-3. **새 프로젝트** 대화 상자의 왼쪽 창에서 **C#** 을 확장한 후 **.NET Core**를 선택합니다. 가운데 창에서 **콘솔 앱(.NET Core)** 을 선택합니다. 그런 다음, 파일 이름을 *Calculator*로 지정합니다.
+3. **새 프로젝트** 대화 상자의 왼쪽 창에서 **C#** 을 확장한 다음, **.NET Core**를 선택합니다. 가운데 창에서 **콘솔 앱(.NET Core)** 을 선택합니다. 그런 다음, 파일 이름을 ***Calculator***로 지정합니다.
 
    ![Visual Studio IDE의 새 프로젝트 대화 상자의 콘솔 앱(.NET Core) 프로젝트 템플릿](./media/new-project-csharp-calculator-console-app.png)
 
@@ -61,9 +62,11 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 
 ## <a name="create-the-app"></a>앱 만들기
 
-먼저 C#의 몇 가지 기본 정수 수식을 살펴보겠습니다. 그런 다음, 기본 계산기를 만드는 코드를 추가하겠습니다. 다음으로, 코드를 수정하여 기능을 추가하겠습니다. 그런 다음, 오류를 찾아 수정하기 위해 앱을 디버그할 것입니다. 마지막으로, 보다 효율적인 코드를 구체화하겠습니다.
+먼저 C#의 몇 가지 기본 정수 수식을 살펴보겠습니다. 그런 다음, 기본 계산기를 만드는 코드를 추가하겠습니다. 다음, . 그런 다음, 오류를 찾아 수정하기 위해 앱을 디버그할 것입니다. 마지막으로, 보다 효율적인 코드를 구체화하겠습니다.
 
-C#의 몇 가지 정수 수식부터 살펴보겠습니다.
+### <a name="explore-integer-math"></a>정수 계산 살펴보기
+
+C#의 몇 가지 기본 정수 수식부터 살펴보겠습니다.
 
 1. 코드 편집기에서 기본 "Hello World" 코드를 삭제합니다.
 
@@ -81,15 +84,23 @@ C#의 몇 가지 정수 수식부터 살펴보겠습니다.
             Console.ReadKey();
     ```
 
+    이렇게 하면 Visual Studio의 IntelliSense 기능은 항목을 자동 완성하는 옵션을 제공합니다.
+
+    ![Visual Studio IDE에서 IntelliSense 자동 완성 기능을 보여주는 정수 수식 코드의 애니메이션](./media/integer-math-intellisense.gif)
+
 1. 프로그램을 실행할 **계산기**를 선택하거나 **F5** 키를 누릅니다.
 
    ![계산기 단추를 선택하여 도구 모음에서 앱을 실행합니다.](./media/csharp-console-calculator-button.png)
 
-   42 + 119의 합계를 표시하는 콘솔 창이 열립니다.
+   **161**인 42 + 119의 합계를 표시하는 콘솔 창이 열립니다.
 
-1. 이제 빼기에 해당하는 `-`, 곱하기에 해당하는 `*` 또는 나누기에 해당하는 */* 와 같은 다른 연산자를 사용하여 `int c = a + b;` 코드 줄을 변경해 보세요.
+    ![정수 수식의 결과를 보여주는 콘솔 창](./media/csharp-console-integer-math.png)
 
-    연산자를 변경하고 프로그램을 실행하면 결과도 변경됩니다.
+1. **(선택 사항)** 연산자를 변경하여 결과를 변경할 수 있습니다. 예를 들어 `int c = a + b;` 코드 줄의 `+` 연산자를 `-` 빼기, `*` 곱하기, `/` 나누기로 변경할 수 있습니다. 그런 다음, 프로그램을 실행하면 결과도 변경됩니다.
+
+1. 콘솔 창을 닫습니다.
+
+### <a name="add-code-to-create-a-calculator"></a>계산기를 만드는 코드 추가
 
 계속해서 프로젝트에 계산기 코드의 더 복잡한 세트를 추가해 보겠습니다.
 
@@ -165,6 +176,10 @@ C#의 몇 가지 정수 수식부터 살펴보겠습니다.
 
     ![계산기 앱을 표시하고 수행할 작업에 대한 프롬프트가 포함된 콘솔 창](./media/csharp-console-calculator.png)
 
+### <a name="add-functionality-to-the-calculator"></a>계산기에 기능 추가
+
+코드를 수정하여 기능을 추가하겠습니다.
+
 ### <a name="add-decimals"></a>10진수 추가
 
 계산기 앱은 현재 정수를 받고 반환합니다. 그러나 10진수를 허용하는 코드를 추가하면 더 정확해질 것입니다.
@@ -178,6 +193,8 @@ C#의 몇 가지 정수 수식부터 살펴보겠습니다.
 1. **Ctrl** + **F**를 눌러 **찾기 및 바꾸기** 컨트롤을 엽니다.
 
 1. `int` 변수의 각 인스턴스를 `float`로 변경합니다.
+
+   **찾기 및 바꾸기** 컨트롤에서 **대/소문자 일치**(**Alt**+**C**) 및 **전체 단어 일치**(**Alt** + **W**)로 토글해야 합니다.
 
     ![int 변수를 float로 변경하는 방법을 보여 주는 찾기 및 바꾸기 컨트롤의 애니메이션](./media/find-replace-control-animation.gif)
 
@@ -536,4 +553,5 @@ namespace Calculator
 
 ## <a name="see-also"></a>참고 항목
 
+* [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
 * [Visual Studio에서 C# 코드를 디버그하는 방법 알아보기](tutorial-debugger.md)

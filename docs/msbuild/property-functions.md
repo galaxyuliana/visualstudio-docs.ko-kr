@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: edc410e02fe43bebd4668dd78280308e38dcc857
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 7d7e8c3bab691eeaf71383aef3315b51173492f7
+ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623062"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "57737038"
 ---
 # <a name="property-functions"></a>속성 함수
 
@@ -166,7 +166,7 @@ $([MSBuild]::Add($(NumberOne), $(NumberTwo)))
 |int BitwiseXor(int first, int second)|first와 second에 대해 비트 `XOR`를 수행합니다(first ^ second).|
 |int BitwiseNot(int first)|비트 `NOT`을 수행합니다(~first).|
 |bool IsOsPlatform(string platformString)|현재 OS 플랫폼이 `platformString`인지 여부를 지정합니다. `platformString`은 <xref:System.Runtime.InteropServices.OSPlatform>의 멤버여야 합니다.|
-|bool IsOSUnixLike|현재 OS가 Unix 시스템인 경우 True입니다.|
+|bool IsOSUnixLike()|현재 OS가 Unix 시스템인 경우 True입니다.|
 |string NormalizePath(params string[] path)|제공된 경로의 정규화된 전체 경로를 가져오고 해당 경로에 현재 운영 체제에 대한 정확한 디렉터리 구분 문자가 있는지 확인합니다.|
 |string NormalizeDirectory(params string[] path)|제공된 디렉터리의 정규화된 전체 경로를 가져오고 해당 경로에 현재 운영 체제에 대한 정확한 디렉터리 구분 문자와 후행 슬래시가 있는지 확인합니다.|
 |string EnsureTrailingSlash(string path)|제공된 경로에 후행 슬래시가 없으면 후행 슬래시를 추가합니다. 경로가 빈 문자열이면 수정하지 않습니다.|

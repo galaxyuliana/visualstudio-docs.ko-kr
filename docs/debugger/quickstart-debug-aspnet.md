@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: 0839fae55c9aeaeb5018ec1b1acba3c62984349a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 7a17431fa2ad85c660164110ab005fa00053ff17
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56683599"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525403"
 ---
 # <a name="quickstart-debug-aspnet-with-the-visual-studio-debugger"></a>빠른 시작: Visual Studio 디버거를 사용하여 ASP.NET 디버그
 
@@ -94,7 +94,7 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
 
 ## <a name="navigate-code"></a>코드 탐색
 
-디버거를 계속하도록 지시하는 다양한 명령이 있습니다. Visual Studio 2017의 새로운 유용한 코드 탐색 명령을 보여줍니다.
+디버거를 계속하도록 지시하는 다양한 명령이 있습니다. Visual Studio 2017부터 사용할 수 있는 유용한 코드 탐색 명령을 보여줍니다.
 
 중단점에서 일시 중지하는 동안 녹색의 **실행하려면 클릭** 단추 ![실행하려면 클릭](../debugger/media/dbg-tour-run-to-click.png)이 나타날 때까지 `return c2` 명령문을 마우스로 가리킨 다음, **실행하려면 클릭** 단추를 누릅니다.
 
