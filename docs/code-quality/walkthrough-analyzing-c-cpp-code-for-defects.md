@@ -12,12 +12,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 26635f9f6680931d02993613f96dcfcbe623af1d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: acfa1e274b7c0744c2d9968682960b1cd50e0044
+ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919679"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "57736934"
 ---
 # <a name="walkthrough-analyzing-cc-code-for-defects"></a>연습: 오류에 대한 C/C++ 코드 분석
 
@@ -67,7 +67,7 @@ ms.locfileid: "55919679"
 
      경고 C6230: 의미 체계가 다른 형식 간의 암시적 캐스트: 부울 컨텍스트에서 HRESULT를 사용 합니다.
 
-     함수에서 경고를 발생 시킨 줄을 표시 하는 코드 편집기 `bool``ProcessDomain()`합니다. 이 경고는 HRESULT를 되는 'if' 문에서 부울 결과가 필요한 경우를 나타냅니다.
+     함수에서 경고를 발생 시킨 줄을 표시 하는 코드 편집기 `bool ProcessDomain()`합니다. 이 경고는 HRESULT를 되는 'if' 문에서 부울 결과가 필요한 경우를 나타냅니다.
 
 3. SUCCEEDED 매크로 사용 하 여이 경고를 해결 합니다. 코드에는 다음 코드와 유사 해야 합니다.
 

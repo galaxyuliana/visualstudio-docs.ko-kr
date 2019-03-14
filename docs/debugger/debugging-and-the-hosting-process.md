@@ -16,21 +16,21 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 109bd4ee3c54e8d468714c2a955e349ec76db2fe
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: af0d57e39fa8d1312032bacbbd9af95d44449ca1
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54952095"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57525832"
 ---
 # <a name="debugging-and-the-hosting-process"></a>디버깅 및 호스팅 프로세스
 Visual Studio 호스팅 프로세스를 사용하면 디버거 성능을 향상시킬 수 있고 부분 신뢰 디버깅 및 디자인 타임 식 계산 등과 같은 새로운 디버거 기능을 사용할 수 있습니다. 필요한 경우 호스팅 프로세스를 비활성화할 수 있습니다. 다음 섹션에서는 호스팅 프로세스를 사용하는 경우와 사용하지 않는 경우의 몇 가지 디버깅 차이점에 대해 설명합니다.
 
 > [!NOTE]
-> Visual Studio 2017에서 호스팅 프로세스를 사용 하 여 디버그 하는 옵션은 더 이상 필요 하 고 제거 되었습니다. 자세한 내용은 [디버깅을 참조하세요. 최소 즐겨 찾는 작업 속도를 visual Studio 2017 목표로](https://vslive.com/Blogs/News-and-Tips/2017/02/Debugging-Visual-Studio-2017-aims-to-speed-up-your-least-favorite-job.aspx)합니다.
+> Visual Studio 2017부터 호스팅 프로세스를 사용 하 여 디버그 하는 옵션은 더 이상 필요 하 고 제거 되었습니다. 자세한 내용은 [디버깅: Visual Studio 2017 목표에 속도를 Your 최소 즐겨 찾는 작업](https://vslive.com/Blogs/News-and-Tips/2017/02/Debugging-Visual-Studio-2017-aims-to-speed-up-your-least-favorite-job.aspx)합니다.
 
 ## <a name="partial-trust-debugging-and-click-once-security"></a>부분 신뢰 디버깅 및 ClickOnce 보안
- 부분 신뢰 디버깅에는 호스팅 프로세스가 필요합니다. 호스팅 프로세스를 비활성화하면 **프로젝트 속성** 의 **보안**페이지에서 부분 신뢰 보안을 활성화한 경우라 해도 부분 신뢰 디버깅이 실행되지 않습니다. 자세한 내용은 [방법: 부분 신뢰 애플리케이션 디버그](/visualstudio/debugger/debugger-security)를 참조하세요.
+ 부분 신뢰 디버깅에는 호스팅 프로세스가 필요합니다. 호스팅 프로세스를 비활성화하면 **프로젝트 속성** 의 **보안**페이지에서 부분 신뢰 보안을 활성화한 경우라 해도 부분 신뢰 디버깅이 실행되지 않습니다. 자세한 내용은 [방법: 부분 신뢰 응용 프로그램을 디버그](/visualstudio/debugger/debugger-security)합니다.
 
 ## <a name="design-time-expression-evaluation"></a>디자인 타임 식 계산
  디자인 타임 식에는 항상 호스팅 프로세스가 사용됩니다. **프로젝트 속성** 에서 호스팅 프로세스를 비활성화하면 클래스 라이브러리 프로젝트에 대한 디자인 타임 식 계산이 비활성화됩니다. 다른 프로젝트 형식에 대해서는 디자인 타임 식 계산이 비활성화되지 않습니다. 대신 Visual Studio가 실제 실행 파일을 시작하고 호스팅 프로세스 없이 디자인 타임 계산에 이 실행 파일을 사용합니다. 이러한 차이로 인해 서로 다른 결과가 발생할 수 있습니다.

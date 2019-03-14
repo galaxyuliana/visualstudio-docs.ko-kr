@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2dc6aae5530d436e693c667682219e474d7a782d
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 607a3d9ac015232e882d20e8514b3143b411df20
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223678"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526778"
 ---
 # <a name="debug-only-user-code-with-just-my-code"></a>내 코드만 사용 하 여 사용자 코드만 디버깅
 
@@ -115,7 +115,7 @@ ms.locfileid: "57223678"
 C + + 프로젝트에 대 한 모듈, 소스 파일 및 함수를 지정할 수는 **호출 스택** 창에 지정 하 여 사용자 코드가 아닌 취급  *\*.natjmc* 파일입니다. 이 사용자 지정 코드 최신 컴파일러를 사용 하는 경우 단계별 실행에 적용 됩니다 (참조 [Just My Code c + +](#BKMK_CPP_User_and_non_user_code)).
 
 - Visual Studio 컴퓨터의 모든 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natjmc* 파일을 합니다 *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* 폴더.
-- 개별 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natjmc* 파일을 합니다 *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* 폴더.
+- 개별 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natjmc* 파일을 합니다 *%USERPROFILE%\My 문서\\<Visual Studio version>\Visualizers* 폴더.
 
 A *.natjmc* 파일은이 구문 사용 하 여 XML 파일:
 
@@ -165,7 +165,7 @@ A *.natjmc* 파일은이 구문 사용 하 여 XML 파일:
 C + + 프로젝트에서 함수에 대 한 비 사용자 코드로 나열 하는 조치 단계를 지정할 수 있습니다  *\*.natstepfilter* 파일입니다. 에 나열 된 함수  *\*.natstepfilter* 파일 내 코드만 설정에 종속 되지 않습니다.
 
 - 모든 로컬 Visual Studio 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natstepfilter* 파일을 합니다 *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* 폴더.
-- 개별 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natstepfilter* 파일을 합니다 *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* 폴더.
+- 개별 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natstepfilter* 파일을 합니다 *%USERPROFILE%\My 문서\\<Visual Studio version>\Visualizers* 폴더.
 
 A *.natstepfilter* 파일은이 구문 사용 하 여 XML 파일:
 

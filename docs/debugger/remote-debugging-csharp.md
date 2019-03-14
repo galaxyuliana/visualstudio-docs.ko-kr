@@ -3,7 +3,7 @@ title: 원격 디버그 C# 또는 VB 프로젝트 | Microsoft Docs
 ms.custom:
 - remotedebugging"=
 - seodec18
-ms.date: 08/14/2017
+ms.date: 08/14/2018
 ms.topic: conceptual
 dev_langs:
 - C++
@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: f88379af3ecfe9466fca72f756fd88e6794e9cb2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 55265b24a60697b7d84940968c192b7e6a38a2f3
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56705452"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526739"
 ---
 # <a name="remote-debugging-a-c-or-visual-basic-project-in-visual-studio"></a>원격 디버깅을 C# 또는 Visual Studio에서 Visual Basic 프로젝트
 다른 컴퓨터에 배포 된 Visual Studio 응용 프로그램을 디버깅 하려면 설치 하 고 앱을 배포한 컴퓨터에서 원격 도구를 실행, Visual Studio에서 원격 컴퓨터에 연결 하도록 프로젝트를 구성 및 응용 프로그램을 실행 합니다.

@@ -8,17 +8,24 @@ ms.topic: include
 ms.date: 05/23/2018
 ms.author: mikejo
 ms.custom: include file
-ms.openlocfilehash: 887d41805063f64c6b96a0375284928efd9321ef
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 01ec01ad642333d9ee46296cbcb4a02526152e94
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56741319"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526875"
 ---
 원격 장치 또는 서버에 디버그 하려는 하지 않고 Visual Studio 컴퓨터에서 다운로드 한 후 다음 표에 있는 링크에서 올바른 버전의 원격 도구를 설치 합니다.
 
 - Visual Studio의 버전에 대 한 가장 최근의 원격 도구를 다운로드 합니다. 최신 원격 도구 버전은 이전 Visual Studio 버전과 호환 되지만 원격 도구 버전 이후 Visual Studio 버전과 호환 되지 않습니다.
 - 설치 하는 컴퓨터와 동일한 아키텍처를 사용 하 여 원격 도구를 다운로드 합니다. 예를 들어, 64 비트 운영 체제를 실행 하는 원격 컴퓨터에서 32 비트 앱을 디버그 하려는 경우 64 비트 원격 도구를 설치 합니다.
+
+::: moniker range=">=vs-2019"
+
+> [!NOTE]
+> Visual Studio 2019에 대 한 독립 실행형 원격 도구를 Visual Studio 2019를 사용 하 여 원격 디버거를 사용 해야 하는 경우 사용할 수 있을 때까지 [원격 디버거를 찾을](https://docs.microsoft.com/visualstudio/debugger/remote-debugging?view=vs-2017#fileshare_msvsmon) Visual Studio 2019와의 직접 설치에 복사 하 고 실행 원격 컴퓨터 또는 파일 공유에서 실행 합니다.
+
+::: moniker-end
 
 |버전|링크|참고 사항|
 |-|-|-|

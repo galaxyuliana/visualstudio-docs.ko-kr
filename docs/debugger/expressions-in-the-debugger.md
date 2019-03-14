@@ -1,6 +1,6 @@
 ---
 title: 디버거의 식 | Microsoft Docs
-ms.date: 02/07/2017
+ms.date: 02/07/2018
 ms.topic: conceptual
 f1_keywords:
 - vs.debug.expressions
@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c2cce521a78c9e7c3c2e9ba9dd6240c5380de64a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 1134ac538487487834b754407a3cc1a90175c56b
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692270"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526027"
 ---
 # <a name="expressions-in-the-visual-studio-debugger"></a>Visual Studio 디버거의 식
 Visual Studio 디버거에는 **간략한 조사식** 대화 상자, **조사식** 창 또는 **직접 실행** 창에 식을 입력할 때 사용되는 식 계산기가 포함되어 있습니다. 식 계산기는 **중단점** 창과 디버거의 여러 가지 다른 부분에서도 사용됩니다.

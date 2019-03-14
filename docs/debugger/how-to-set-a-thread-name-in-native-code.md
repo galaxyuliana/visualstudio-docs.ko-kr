@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 264ac57a0d159b9cdd2627d7a62372fa070e31de
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d37a028fb5af099484d81374e52cfd12af727f94
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56715182"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526232"
 ---
 # <a name="how-to-set-a-thread-name-in-native-code"></a>방법: 네이티브 코드에 스레드 이름 설정
 스레드 명명 기능은 Visual Studio의 모든 버전에서 사용할 수 있습니다. 스레드 명명 하는 것은 관심 있는 스레드를 식별 하는 데 유용 합니다 **스레드** 실행 중인 프로세스를 디버깅 하는 경우 창입니다. 스레드 recognizably 라는 것도 유용할 수 있습니다 사후 다양 한 도구를 사용 하 여 캡처한 성능 분석 및 크래시 덤프 검사를 통해 디버깅을 수행 하는 경우.
@@ -40,7 +40,7 @@ ms.locfileid: "56715182"
 * 스레드 이름을 같은 다른 도구를 사용 하는 경우에 표시 됩니다는 [WinDbg](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-download-tools) 디버거 하며 [Windows Performance Analyzer](https://docs.microsoft.com/windows-hardware/test/wpt/windows-performance-analyzer) 성능 분석기입니다.
 
 주의 사항:
-* 스레드 이름을 표시 되어 Visual Studio 2017 버전 15.6 이상.
+* 스레드 이름을 Visual Studio 2017 버전 15.6 이상 버전에서 표시 됩니다.
 * 사후 크래시를 디버그 덤프 파일, 스레드 이름의 Windows 10 버전 1607 Windows Server 2016 또는 Windows의 이후 버전에서 충돌을 만든 경우에 표시 됩니다.
 
 *예제:*

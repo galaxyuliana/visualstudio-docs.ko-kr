@@ -29,12 +29,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 118b8a6c8d857e626d39cf27d2767f75cd0550ee
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: da49cd81ea309df2d8e2bd0b4c41c28a84564fa8
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704815"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526092"
 ---
 # <a name="create-a-visual-map-of-the-call-stack-while-debugging-c-visual-basic-c-javascript"></a>디버깅 하는 동안 호출 스택의 시각적 맵 만들기 (C#, Visual Basic, c + +, JavaScript)
 
@@ -45,7 +45,7 @@ ms.locfileid: "56704815"
 명령 및 코드 맵을 사용 하 여 사용할 수 있는 작업의 세부 정보를 참조 하세요 [찾아보기 및 다시 정렬 코드 맵](../modeling/browse-and-rearrange-code-maps.md)합니다.
 
 >[!IMPORTANT]
->만들 수 있습니다 코드 에서만 맵을 [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)합니다.
+>만들 수 있습니다 코드 에서만 맵을 [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/)합니다.
 
 코드 맵 개요는 다음과 같습니다.
 

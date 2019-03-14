@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 62a53d29e7d72c10b3b7b9f295cb5b7adebab45e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f8f8bc5a19e3cb91634b5a61e0b3e917fb0a3f9a
+ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949163"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "57736997"
 ---
 # <a name="quick-launch-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 빠른 실행
 
@@ -36,9 +36,9 @@ ms.locfileid: "55949163"
 |범주|바로 가기|바로 가기 설명|
 |--------------|--------------| - |
 |가장 최근에 사용됨|@mru<br /><br /> 예를 들면 `@mru font`과 같습니다.|**가장 최근에 사용됨** 범주의 항목을 최대 5개까지 표시합니다.|
-|메뉴|@menu<br /><br /> 예를 들면 `@menu font`과 같습니다.|검색을 메뉴 항목으로 제한합니다.|
+|메뉴|@menu<br /><br /> 예를 들면 `@menu project`과 같습니다.|검색을 메뉴 항목으로 제한합니다.|
 |옵션|@opt<br /><br /> 예를 들면 `@opt font`과 같습니다.|검색을 **옵션** 대화 상자의 설정으로 제한합니다.|
-|문서|@doc<br /><br /> 예를 들면 `@doc font`과 같습니다.|열린 문서에 대해 검색 조건에 맞는 파일 이름 및 경로로 검색을 제한합니다. 그러나 파일 자체 내부의 텍스트는 검색하지 않습니다.|
+|문서|@doc<br /><br /> 예를 들면 `@doc program.cs`과 같습니다.|열린 문서에 대해 검색 조건에 맞는 파일 이름 및 경로로 검색을 제한합니다. 그러나 파일 자체 내부의 텍스트는 검색하지 않습니다.|
 
 > [!NOTE]
 > **옵션** 대화 상자에 있는 **키보드** 페이지의 **일반**에서 바로 가기 키를 변경할 수 있습니다.

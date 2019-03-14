@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d22e92bc025cc1372be2b765d803c2c658364b7e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d22bf8af86605d414d933d16cd5dd7f8d24a6154
+ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603263"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "57737065"
 ---
 # <a name="how-to-extend-the-visual-studio-build-process"></a>방법: Visual Studio 빌드 프로세스 확장
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 빌드 프로세스는 프로젝트 파일로 가져온 일련의 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] *.targets* 파일로 정의됩니다. 이러한 가져온 파일 중 하나인 *Microsoft.Common.targets*는 빌드 프로세스의 여러 지점에서 사용자 지정 작업을 실행할 수 있도록 확장될 수 있습니다. 이 아티클에서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 빌드 프로세스를 확장하는 데 사용할 수 있는 두 가지 방법을 설명합니다.
@@ -60,7 +60,7 @@ ms.locfileid: "56603263"
 |`BeforeRebuild`, `AfterRebuild`|이러한 대상 중 하나에 삽입된 작업은 핵심 다시 빌드 기능이 호출되기 전 또는 후에 실행됩니다. *Microsoft.Common.targets*에서 대상 실행 순서는 차례로 `BeforeRebuild`, `Clean`, `Build` 및 `AfterRebuild`입니다.|
 |`BeforeClean`, `AfterClean`|이러한 대상 중 하나에 삽입된 작업은 핵심 정리 기능이 호출되기 전 또는 후에 실행됩니다.|
 |`BeforePublish`, `AfterPublish`|이러한 대상 중 하나에 삽입된 작업은 핵심 게시 기능이 호출되기 전 또는 후에 실행됩니다.|
-|`BeforeResolveReference`, `AfterResolveReferences`|이러한 대상 중 하나에 삽입된 작업은 어셈블리 참조가 확인되기 전이나 후에 실행됩니다.|
+|`BeforeResolveReferences`, `AfterResolveReferences`|이러한 대상 중 하나에 삽입된 작업은 어셈블리 참조가 확인되기 전이나 후에 실행됩니다.|
 |`BeforeResGen`, `AfterResGen`|이러한 대상 중 하나에 삽입된 작업은 어셈블리 리소스가 생성되기 전이나 후에 실행됩니다.|
 
 ## <a name="override-dependson-properties"></a>DependsOn 속성 재정의
