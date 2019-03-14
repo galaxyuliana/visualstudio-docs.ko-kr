@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 99df6eddcdd6f02e4cce8410762d3c0b9f00f29a
-ms.sourcegitcommit: 845442e2b515c3ca1e4e47b46cc1cef4df4f08d8
+ms.openlocfilehash: 21851bc26ec69207c95a41e988b20b5df3c70c39
+ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56450323"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57567262"
 ---
 # <a name="create-applications-in-bidirectional-languages"></a>양방향 언어로 애플리케이션 만들기
 
@@ -30,7 +30,7 @@ Visual Studio를 사용하여 아랍어 및 히브리어와 같이 오른쪽에�
 
 -  Windows 앱
 
-   양방향 텍스트, 오른쪽에서 왼쪽 읽기 순서 및 미러링(창 레이아웃, 메뉴, 대화 상자 등 반전)에 대한 지원이 포함된 완전 양방향 애플리케이션을 만들 수 있습니다. 미러링을 제외하고 이러한 기능은 기본적으로 또는 속성 설정으로 사용할 수 있습니다. 미러링은 메시지 상자와 같은 일부 기능에만 기본적으로 지원됩니다. 다른 경우에는 미러링을 코드로 구현해야 합니다. 자세한 내용은 [Windows Forms 애플리케이션에 대한 양방향 지원](/dotnet/framework/winforms/advanced/bidirectional-support-for-windows-forms-applications)을 참조하세요.
+   양방향 텍스트, 오른쪽에서 왼쪽 읽기 순서 및 미러링(창 레이아웃, 메뉴, 대화 상자 등 반전)에 대한 지원이 포함된 완전 양방향 애플리케이션을 만들 수 있습니다. 미러링을 제외하고 이러한 기능은 기본적으로 또는 속성 설정으로 사용할 수 있습니다. 미러링은 메시지 상자와 같은 일부 기능에만 기본적으로 지원됩니다. 다른 경우에는 미러링을 코드로 구현해야 합니다. 자세한 내용은 [Windows Forms 애플리케이션에 대한 양방향 지원](/dotnet/framework/winforms/advanced/bi-directional-support-for-windows-forms-applications)을 참조하세요.
 
 -  웹앱
 

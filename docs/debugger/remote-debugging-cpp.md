@@ -1,7 +1,7 @@
 ---
 title: 원격 Visual c + + 프로젝트를 디버그 | Microsoft Docs
 ms.custom: remotedebugging
-ms.date: 08/14/2017
+ms.date: 08/14/2018
 ms.topic: conceptual
 dev_langs:
 - C++
@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: ca380bae4ae4fcca5f280eb00533ad8ed7763f9e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: fbfdb246769ac55afd7f164d91673e39e293f4c4
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709293"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526064"
 ---
 # <a name="remote-debugging-a-visual-c-project-in-visual-studio"></a>Visual Studio에서 Visual c + + 프로젝트 원격 디버그
 다른 컴퓨터에 Visual Studio 응용 프로그램을 디버깅 설치 하 고 앱을 배포할 컴퓨터의 원격 도구를 실행 하려면 Visual Studio에서 원격 컴퓨터에 연결 및 다음 배포 하 고 앱을 실행 하도록 프로젝트를 구성 합니다.

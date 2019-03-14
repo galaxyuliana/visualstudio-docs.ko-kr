@@ -1,7 +1,7 @@
 ---
 title: 다중 스레드 응용 프로그램을 디버그 하는 방법을 알아봅니다
 description: Visual Studio에서 병렬 스택 및 병렬 조사식 창을 사용 하 여 디버깅
-ms.custom: H1HackMay2017
+ms.custom: ''
 ms.date: 11/16/2018
 ms.topic: conceptual
 dev_langs:
@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 704605ed2d4eb3d69b988da59ba443790ffa138d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 671af69cf31ad1b8b5adafa413e4f20a8761d5ce
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709852"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526040"
 ---
 # <a name="get-started-debugging-multithreaded-applications-c-visual-basic-c"></a>다중 스레드 응용 프로그램 디버깅 시작 (C#, Visual Basic, c + +)
 

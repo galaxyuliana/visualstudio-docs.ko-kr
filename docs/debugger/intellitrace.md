@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a4ad4108e798c493ee17bf37420440acdf607b53
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 24785b4f39265b71c3f1cb18b4331ded53652905
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317057"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526765"
 ---
 # <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic, c + +)
 
@@ -69,7 +69,7 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 다음 소스의 IntelliTrace 데이터를 저장할 수 있습니다.
 
-- Visual Studio 2017 Enterprise, Visual Studio 2015 Enterprise 또는 이전 버전의 Visual Studio Ultimate의 IntelliTrace 세션입니다.
+- Visual Studio 2015 Enterprise 이상 버전 또는 이전 버전의 Visual Studio Ultimate의 IntelliTrace 세션입니다.
 
 - Microsoft Test Manager의 테스트 세션
 
@@ -131,7 +131,7 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 - **SharePoint 2010 및 SharePoint 2013 애플리케이션 이벤트**
 
-     Visual Studio 외부에서 실행되는 SharePoint 2010 및 2013 응용 프로그램에 대해 사용자 프로필 이벤트 및 ULS(Unified Logging System) 이벤트의 하위 집합을 기록할 수 있습니다. 이러한 이벤트를 .iTrace 파일에 저장할 수 있습니다. Visual Studio Enterprise 2017, Visual Studio Enterprise 2015, Visual Studio ultimate 이전 버전에 필요 하거나 [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) 에서 실행 중인 **추적** 모드.
+     Visual Studio 외부에서 실행되는 SharePoint 2010 및 2013 응용 프로그램에 대해 사용자 프로필 이벤트 및 ULS(Unified Logging System) 이벤트의 하위 집합을 기록할 수 있습니다. 이러한 이벤트를 .iTrace 파일에 저장할 수 있습니다. Visual Studio Enterprise 2015 또는 이후 버전에서는 이전 버전의 Visual Studio Ultimate 필요 하거나 [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) 에서 실행 중인 **추적** 모드입니다.
 
      .iTrace 파일을 열면 SharePoint 상관 관계 ID를 입력하여 일치하는 웹 요청을 찾고 기록된 이벤트를 보고 특정 이벤트에서 디버깅을 시작합니다. 파일에 처리되지 않은 예외가 있는 경우 상관 관계 ID를 선택하여 예외 디버깅을 시작할 수 있습니다.
 

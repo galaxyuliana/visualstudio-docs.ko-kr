@@ -9,12 +9,12 @@ ms.author: crdun
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: ca0c3da5048194ce438e815bd1612f6b166bb29b
-ms.sourcegitcommit: f6dd17b0864419083d0a1bf54910023045526437
+ms.openlocfilehash: d52e02947a9148463396260afd3e389fa1d248ee
+ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2018
-ms.locfileid: "53802568"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57567304"
 ---
 # <a name="devops-with-unity-apps"></a>Unity 앱을 사용한 DevOps
 
@@ -26,7 +26,7 @@ Visual Studio는 Azure DevOps Services 및 Team Foundation Server와 함께 다�
 
 ## <a name="agile-tools"></a>Agile 도구
 
-참조 링크: [Agile 도구 및 Agile 프로젝트 관리 정보](/azure/devops/boards/backlogs/overview?view=vsts)(Azure Boards 또는 TFS 사용, Team Explorer Everywhere 포함)
+참조 링크: [Agile 도구 및 Agile 프로젝트 관리 정보](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)(Azure Boards 또는 TFS 사용, Team Explorer Everywhere 포함)
 
 일반 설명: 모든 계획 및 추적 기능은 프로젝트 형식 및 코딩 언어와 독립적입니다.
 

@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0347e2948538b8d4149ce6228656d190c5f972a6
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 2e97f2f844c53a6bf26fecc4559b65ae69970c6b
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689306"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526544"
 ---
 # <a name="general-debugging-options"></a>일반 디버깅 옵션
 
@@ -54,7 +54,7 @@ Visual Studio 디버거 옵션을 설정 하려면 선택 **도구** > **옵션*
 
 **중단점 필터 사용**: 특정 프로세스, 스레드 또는 컴퓨터는 영향을 중단점에 필터를 설정할 수 있습니다.
 
-**새 예외 도우미를 사용 하 여**: 예외 도우미를 대체 하는 예외 도우미 (Visual Studio 2017)를 사용 하도록 설정 합니다.
+**새 예외 도우미를 사용 하 여**: 예외 도우미를 대체 하는 예외 도우미를 사용 하도록 설정 합니다. (예외 도우미는 Visual Studio 2017부터 지원 됩니다.)
 
 > [!NOTE]
 > 이 옵션 관리 코드에 대해 이전에 호출한 **예외 도우미 사용** 합니다.
@@ -158,7 +158,7 @@ dll의 내보내기 테이블에서 사용할 수 있는 기호를 확인하려�
 
 이전 버전의 Visual Studio를 사용 하는 경우 몇 가지 추가 옵션이 있을 수 있습니다.
 
-**예외 도우미 사용**: 관리 코드에 대 한 예외 도우미를 사용 하도록 설정 합니다. Visual Studio 2017, 예외 도우미 예외 도우미를 대체 합니다.
+**예외 도우미 사용**: 관리 코드에 대 한 예외 도우미를 사용 하도록 설정 합니다. Visual Studio 2017부터 예외 도우미 예외 도우미를 대체 합니다.
 
 **처리 되지 않은 예외에 대 한 호출 스택 해제**: 하면 합니다 **호출 스택** 롤백할 수 호출 스택의 지점으로 처리 되지 않은 예외가 발생 하기 전에 창입니다.
 

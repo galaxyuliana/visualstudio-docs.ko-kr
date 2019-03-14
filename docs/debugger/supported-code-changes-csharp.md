@@ -1,6 +1,6 @@
 ---
 title: 코드 변경 내용을 지원 (C# 및 Visual Basic) | Microsoft Docs
-ms.date: 10/11/2017
+ms.date: 10/11/2018
 ms.topic: conceptual
 dev_langs:
 - CSharp
@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 753a3816b6432a58c5f79077c4e438db753297b9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 9e840a8bb19b48c5cd4526ad80526bd62fcf8fa0
+ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692231"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57526181"
 ---
 # <a name="supported-code-changes-c-and-visual-basic"></a>코드 변경 내용을 지원 (C# 및 Visual Basic)
 편집하며 계속하기에서는 메서드 본문 내의 코드 변경 유형을 대부분 처리합니다. 그러나 메서드 본문 외부의 변경 내용 대부분과 메서드 본문 내의 몇 가지 변경 내용은 디버깅 중에 적용할 수 없습니다. 이러한 지원되지 않는 변경 내용을 적용하려면 디버깅을 중지하고 새로운 버전의 코드로 다시 시작해야 합니다.
