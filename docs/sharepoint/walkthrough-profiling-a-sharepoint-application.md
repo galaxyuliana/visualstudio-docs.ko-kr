@@ -15,25 +15,25 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ff02b666f48e959001a800cb37b5820c39a12034
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: f22630a823e592e0cdc2128dfb3ab38e1b177d72
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841741"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867708"
 ---
 # <a name="walkthrough-profile-a-sharepoint-application"></a>연습: SharePoint 응용 프로그램을 프로 파일링
   이 연습에서는 Visual Studio에서 프로파일링 도구를 사용하여 SharePoint 응용 프로그램의 성능을 최적화하는 방법을 보여 줍니다. 예제 응용 프로그램은 기능 이벤트 수신기의 성능을 저하시키는 유휴 루프가 포함된 SharePoint 기능 이벤트 수신기입니다. Visual Studio 프로파일러를 사용 하면 찾을 라고도 프로젝트의 가장 비용이 많이 드는 (성능이 가장 낮은) 부분을 제거 하는 *실행 부하 과다 경로*합니다.
 
  이 연습에서는 다음 작업을 수행합니다.
 
-- [기능 및 기능 이벤트 수신기 추가](#BKMK_AddFtrandFtrEvntReceiver)합니다.
+- [Addg 기능 및 기능 이벤트 수신기](#add-a-feature-and-feature-event-receiver)합니다.
 
-- [구성 및 SharePoint 응용 프로그램 배포](#BKMK_ConfigSharePointApp)합니다.
+- [구성 및 SharePoint 응용 프로그램 배포](#configure-and-deploy-the-sharepoint-application)합니다.
 
-- [SharePoint 응용 프로그램을 실행](#BKMK_RunSPApp)합니다.
+- [SharePoint 응용 프로그램을 실행](#run-the-sharepoint-application)합니다.
 
-- [보기 및 프로 파일링 결과 해석](#BKMK_ViewResults)합니다.
+- [확인 하 고 프로필 결과 해석](#view-and-interpret-the-profile-results)합니다.
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 

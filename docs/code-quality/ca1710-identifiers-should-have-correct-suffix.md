@@ -1,6 +1,6 @@
 ---
 title: 'CA1710: 식별자에는 올바른 접미사를 사용해야 합니다.'
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
 - CA1710
@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4a3c602c249c7507d516e74c32f2d4db8447b645
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 65ac417476752da832e5e9ebe693f6c83a5c1cfe
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55944457"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57868077"
 ---
 # <a name="ca1710-identifiers-should-have-correct-suffix"></a>CA1710: 식별자에는 올바른 접미사를 사용해야 합니다.
 
@@ -33,6 +33,8 @@ ms.locfileid: "55944457"
 ## <a name="cause"></a>원인
 
 식별자는 올바른 접미사는 없습니다.
+
+기본적으로이 규칙만 살펴봅니다 식별자 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -54,7 +56,7 @@ ms.locfileid: "55944457"
 |<xref:System.Collections.Stack?displayProperty=fullName>|컬렉션 또는 스택|
 |<xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>|컬렉션|
 |<xref:System.Collections.Generic.IDictionary%602?displayProperty=fullName>|사전|
-|<xref:System.Data.DataSet?displayProperty=fullName>|DataSet|
+|<xref:System.Data.DataSet?displayProperty=fullName>|데이터 집합|
 |<xref:System.Data.DataTable?displayProperty=fullName>|컬렉션 또는 DataTable|
 |<xref:System.IO.Stream?displayProperty=fullName>|스트림|
 |<xref:System.Security.IPermission?displayProperty=fullName>|사용 권한|
@@ -90,6 +92,16 @@ A <xref:System.Data.DataSet> 개체의 컬렉션으로 구성 됩니다 <xref:Sy
 형식이 확장 될 수 또는 임의 집합 다양 한 항목을 보유 하는 일반화 된 데이터 구조 이면 'Collection' 접미사를 사용할 때는 경고를 표시 하지 않으려면 안전 합니다. 이 경우 구현, 성능 또는 기타 특성의 데이터 구조에 대 한 의미 있는 정보를 제공 하는 이름을 적합할 수 있습니다 (예를 들어 BinaryTree). 여기서 형식 나타냅니다 (예를 들어 StringCollection) 특정 형식의 컬렉션인 경우에 숨기지 않으면,이 규칙에서 경고 유형을 사용 하 여 열거할 수는 나타내므로 접미사는 `foreach` 문입니다.
 
 다른 접미사에 대 한이 규칙에서 경고를 표시 하지 마십시오. 접미사를 사용 하면 형식 이름에서 알 수 되도록 용도입니다.
+
+## <a name="configurability"></a>용이성
+
+이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+
+```
+dotnet_code_quality.ca1710.api_surface = private, internal
+```
+
+이 범주 (이름 지정)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
 
 ## <a name="related-rules"></a>관련된 규칙
 

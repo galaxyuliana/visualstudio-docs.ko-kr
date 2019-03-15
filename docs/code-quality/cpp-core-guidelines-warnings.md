@@ -8,12 +8,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: a10945547170add8757378a11d569177d9b41750
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 39bdcc15bece0fff3547738bbdcaf898496379ad
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223496"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57872436"
 ---
 # <a name="using-the-c-core-guidelines-checkers"></a>C++ Core Guidelines를 이용한 코드검사 사용
 
@@ -187,7 +187,7 @@ Microsoft Visual C++ 컴파일러는 특성을 표시 하지 않으려면는 GSL
 
 Microsoft.Cpp.targets 파일을 가져오기 전에 이러한 속성을 추가 했는지 확인 하십시오. 특정 규칙 집합을 선택 지정 또는 사용자 지정 규칙 집합 만들기 또는 기타 PREfast 검사를 포함 하는 기본 규칙 집합을 사용 합니다.
 
-와 동일한 방식으로 사용하여 C++ Core Checker 지정 된 파일에 대해서만 실행할 수 있습니다 [앞에서 설명한](#coreckeck_per_file), 하지만 MSBuild 파일을 사용 합니다. 환경 변수를 사용 하 여 설정할 수는 `BuildMacro` 항목:
+와 동일한 방식으로 사용하여 C++ Core Checker 지정 된 파일에 대해서만 실행할 수 있습니다 [앞에서 설명한](#corecheck_per_file), 하지만 MSBuild 파일을 사용 합니다. 환경 변수를 사용 하 여 설정할 수는 `BuildMacro` 항목:
 
 ```xml
 <ItemGroup>

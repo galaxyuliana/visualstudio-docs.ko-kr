@@ -1,5 +1,5 @@
 ---
-title: 'CA2007: 직접 작업을 기다리지 않습니다'
+title: 'CA2007: 작업을 직접 대기하지 마세요.'
 ms.date: 03/08/2019
 ms.topic: reference
 f1_keywords:
@@ -12,14 +12,14 @@ ms.author: gewarren
 manager: jillfra
 dev_langs:
 - CSharp
-ms.openlocfilehash: 8e94b67d1924e2144f658cd6bcd5989751efdb85
-ms.sourcegitcommit: 1024f336dcd8e8a4c50b9a9ad8ec85b6e70073a8
+ms.openlocfilehash: bf3e13697f39f7d0f531549d4c018b9f42872596
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57699682"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57869291"
 ---
-# <a name="ca2007-do-not-directly-await-a-task"></a>CA2007: 직접 작업을 기다리지 않습니다
+# <a name="ca2007-do-not-directly-await-a-task"></a>CA2007: 작업을 직접 대기하지 마세요.
 
 |||
 |-|-|
@@ -71,6 +71,26 @@ public async Task Execute()
     await task.ConfigureAwait(false);
 }
 ```
+
+## <a name="configurability"></a>용이성
+
+이 규칙에서 값을 반환 하지 않는 비동기 메서드를 제외 하려는 지 여부를 구성할 수 있습니다. 이러한 종류의 메서드를 제외 하려면 프로젝트에서.editorconfig 파일에 다음 키-값 쌍을 추가:
+
+```
+# Package version 2.9.0 and later
+dotnet_code_quality.CA2007.exclude_async_void_methods = true
+
+# Package version 2.6.3 and earlier
+dotnet_code_quality.CA2007.skip_async_void_methods = true
+```
+
+이 규칙을 적용할 어셈블리 종류 출력을 구성할 수 있습니다. 예를 들어 코드에이 규칙이 적용 되도록 생성 하는 콘솔 응용 프로그램 또는 동적 연결된 라이브러리 (즉, 없습니다 UI 앱), 프로젝트에서.editorconfig 파일에 다음 키-값 쌍을 추가 합니다.
+
+```
+dotnet_code_quality.CA2007.output_kind = ConsoleApplication, DynamicallyLinkedLibrary
+```
+
+자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 

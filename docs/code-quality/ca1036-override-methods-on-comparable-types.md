@@ -1,6 +1,6 @@
 ---
 title: 'CA1036: 비교 가능한 형식에 메서드를 재정의하세요.'
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
 - CA1036
@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9ab36be0233ad83c5f1ec23b3511937eda07940c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 12b00c202373310b04021a46e74af2af7e10d535
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952998"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57868875"
 ---
 # <a name="ca1036-override-methods-on-comparable-types"></a>CA1036: 비교 가능한 형식에 메서드를 재정의하세요.
 
@@ -31,7 +31,10 @@ ms.locfileid: "55952998"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- Public 또는 protected 형식이 구현 하는 <xref:System.IComparable?displayProperty=fullName> 인터페이스를 재정의 하지 않는 <xref:System.Object.Equals%2A?displayProperty=fullName> 오버 로드 하지 않으므로 같음, 같지 않음에 대 한 언어별 연산자 덜 또는-보다 크거나-보다. 인터페이스의 구현을 상속 하는 경우 규칙 위반을 보고 하지 않습니다.
+
+형식이 구현 하는 <xref:System.IComparable?displayProperty=fullName> 인터페이스를 재정의 하지 않습니다 <xref:System.Object.Equals%2A?displayProperty=fullName> 오버 로드 하지 않으므로 같음, 같지 않음에 대 한 언어별 연산자 덜 또는-보다 크거나-보다 합니다. 인터페이스의 구현을 상속 하는 경우 규칙 위반을 보고 하지 않습니다.
+
+기본적으로이 규칙만 살펴봅니다 public 및 protected 형식 이지만 [구성할 수 있는](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -42,11 +45,8 @@ ms.locfileid: "55952998"
 이 규칙 위반 문제를 해결 하려면 재정의 <xref:System.Object.Equals%2A>합니다. 프로그래밍 언어가 연산자 오버 로드를 지 원하는 경우에 다음 연산자를 제공 합니다.
 
 - op_Equality
-
 - op_Inequality
-
 - op_LessThan
-
 - op_GreaterThan
 
 C#에서는 이러한 연산자를 나타내는 데 사용 되는 토큰은 다음과 같습니다.
@@ -59,17 +59,28 @@ C#에서는 이러한 연산자를 나타내는 데 사용 되는 토큰은 다�
 ```
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
- Visual Basic을 사용한 경우 처럼 CA1036 누락 된 연산자와 프로그래밍 언어에서 위반이 발생 하는 경우 연산자 오버 로드를 지원 하지 않습니다 하는 규칙에서 경고를 표시 하지 않으려면 안전 합니다. Op_Equality 연산자를 구현 하는 경우 이해 되지 않는 응용 프로그램 컨텍스트에서 이외의 같음 연산자에서 발생 하면이 규칙에서 경고를 표시 하지 않아도 안전 이기도 합니다. 그러나 해야 항상 op_Equality 통해 및 Object.Equals를 재정의 하는 경우 = = 연산자입니다.
 
-## <a name="example"></a>예제
- 다음 예제에서는 올바르게 구현 하는 형식을 포함 <xref:System.IComparable>합니다. 관련 된 다양 한 규칙을 충족 하는 메서드를 식별 하는 코드 주석을 <xref:System.Object.Equals%2A> 하며 <xref:System.IComparable> 인터페이스입니다.
+Visual Basic을 사용한 경우 처럼 CA1036 누락 된 연산자와 프로그래밍 언어에서 위반이 발생 하는 경우 연산자 오버 로드를 지원 하지 않습니다 하는 규칙에서 경고를 표시 하지 않으려면 안전 합니다. 연산자를 구현 이해 되지 않는 앱 컨텍스트에서 확인 하는 경우 안전 op_Equality 이외의 같음 연산자에서 발생 하면이 규칙에서 경고를 표시 하 게 이기도 합니다. 그러나 op_Equality 항상 재정의 해야 하며 재정의 하는 경우 연산자 = = <xref:System.Object.Equals%2A?displayProperty=nameWithType>합니다.
 
- [!code-csharp[FxCop.Design.IComparable#1](../code-quality/codesnippet/CSharp/ca1036-override-methods-on-comparable-types_1.cs)]
+## <a name="configurability"></a>용이성
 
-## <a name="example"></a>예제
- 다음 응용 프로그램의 동작을 테스트 합니다 <xref:System.IComparable> 앞에 나온를 구현 합니다.
+이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
 
- [!code-csharp[FxCop.Design.TestIComparable#1](../code-quality/codesnippet/CSharp/ca1036-override-methods-on-comparable-types_2.cs)]
+```
+dotnet_code_quality.ca1036.api_surface = private, internal
+```
+
+이 범주 (디자인)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
+
+## <a name="examples"></a>예제
+
+다음 코드를 올바르게 구현 하는 형식을 포함 <xref:System.IComparable>합니다. 관련 된 다양 한 규칙을 충족 하는 메서드를 식별 하는 코드 주석을 <xref:System.Object.Equals%2A> 하며 <xref:System.IComparable> 인터페이스입니다.
+
+[!code-csharp[FxCop.Design.IComparable#1](../code-quality/codesnippet/CSharp/ca1036-override-methods-on-comparable-types_1.cs)]
+
+다음 응용 프로그램 코드의 동작을 테스트 합니다 <xref:System.IComparable> 앞에 나온를 구현 합니다.
+
+[!code-csharp[FxCop.Design.TestIComparable#1](../code-quality/codesnippet/CSharp/ca1036-override-methods-on-comparable-types_2.cs)]
 
 ## <a name="see-also"></a>참고자료
 

@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ec4be7c084bbcd1a73affa3035f1ef116d958c9a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e9f39c45382fc55144f8200c3951fb4a229b7a43
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909625"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867373"
 ---
 # <a name="add-extensions-to-dsl-definitions"></a>DSL 정의에 확장 추가
 
@@ -36,4 +36,4 @@ DSL 확장 같은 기능을 포함할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 
-- [관련된 블로그 게시물](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+- [관련된 블로그 게시물](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)

@@ -1,6 +1,6 @@
 ---
 title: 'CA1819: 속성은 배열을 반환해서는 안 됩니다.'
-ms.date: 09/28/2018
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
 - PropertiesShouldNotReturnArrays
@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: af31c925420602329eb20b803c92879210518ebd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 11209ec181e2c2b61c7767787ee99c2d69eabe8b
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919211"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57872745"
 ---
 # <a name="ca1819-properties-should-not-return-arrays"></a>CA1819: 속성은 배열을 반환해서는 안 됩니다.
 
@@ -35,7 +35,9 @@ ms.locfileid: "55919211"
 
 ## <a name="cause"></a>원인
 
-공용 형식에서 public 또는 protected 속성 배열을 반환합니다.
+속성이 배열을 반환합니다.
+
+기본적으로이 규칙만 외부에서 표시 되는 속성 및 형식 처럼 보이지만 이것이 [구성할 수 있는](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -52,6 +54,16 @@ ms.locfileid: "55919211"
 속성의 일부인 경우 경고를 표시 하지 않을 수는 [데이터 전송 개체 (DTO)](/previous-versions/msp-n-p/ff649585(v=pandp.10)) 클래스입니다.
 
 그렇지 않은 경우이 규칙에서 경고를 표시 하지 마십시오.
+
+## <a name="configurability"></a>용이성
+
+이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+
+```
+dotnet_code_quality.ca1819.api_surface = private, internal
+```
+
+이 범주 (성능)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
 
 ## <a name="example-violation"></a>예제 위반
 

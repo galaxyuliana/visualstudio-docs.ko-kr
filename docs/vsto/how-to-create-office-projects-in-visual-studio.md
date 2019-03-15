@@ -23,12 +23,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 617ca350f318a8617b28d4bface3d09106b3b591
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 27b0a4c93d6b8143b81b960a9b5f4a2158e7b721
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614313"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57868174"
 ---
 # <a name="how-to-create-office-projects-in-visual-studio"></a>방법: Visual Studio에서 Office 프로젝트 만들기
   사용할 수 있습니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 만들려면 vsto 추가 기능과 문서 수준 사용자 지정 Microsoft Office 응용 프로그램에 대 한 합니다. 이러한 형식의 프로젝트에 대 한 자세한 내용은 참조 하세요. [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.
@@ -75,7 +75,7 @@ ms.locfileid: "56614313"
 
    * 큰따옴표(")(공백이 포함된 경로에는 따옴표가 필요하지 않음)
 
-   * 보다 작은 (\<)
+   * 보다 작음(\<)
 
    * 보다 큼(>)
 
@@ -85,17 +85,18 @@ ms.locfileid: "56614313"
 
 7. **확인** 단추를 선택합니다.
 
-    > [!NOTE]
-    >  추가 기능 프로젝트는 생성될 때 항상 저장됩니다. 이 프로젝트를 임시 프로젝트로 만들 수 없습니다. 임시 프로젝트에 대 한 자세한 내용은 참조 하세요. [임시 프로젝트](https://msdn.microsoft.com/9cf1944c-7045-44cc-8701-7b0eb4099f2b)합니다.
+   ::: moniker range="vs-2017"
+
+   > [!NOTE]
+   > 추가 기능 프로젝트는 생성될 때 항상 저장됩니다. 이 프로젝트를 임시 프로젝트로 만들 수 없습니다. 임시 프로젝트에 대 한 자세한 내용은 참조 하세요. [임시 프로젝트](../ide/creating-solutions-and-projects.md#create-a-temporary-project)합니다.
+
+   ::: moniker-end
 
 ### <a name="to-create-a-document-level-customization-project"></a>문서 수준 사용자 지정 프로젝트를 만들려면
 
 1. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 차례로 선택합니다. Visual Basic 개발 설정을 사용 하려면 IDE에 설정 된 경우는 **파일** 메뉴 선택 **새로 만들기** > **프로젝트**합니다.
 
     **새 프로젝트** 대화 상자가 나타납니다.
-
-   > [!NOTE]
-   >  기본적으로 Office 프로젝트는 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]을(를) 대상으로 합니다.  자세한 내용은 [.NET Framework 클라이언트 프로필](/dotnet/framework/deployment/client-profile)합니다.
 
 2. 를 사용 하려는 언어 노드 아래의 템플릿 창에서 확장 **Office/SharePoint**합니다.
 
@@ -104,12 +105,12 @@ ms.locfileid: "56614313"
 4. 프로젝트 템플릿 목록에서 문서 수준 프로젝트 템플릿을 선택합니다. 사용 가능한 문서 수준 프로젝트 템플릿 목록은 참조 하세요. [Office 프로젝트 템플릿 개요](../vsto/office-project-templates-overview.md)합니다.
 
    > [!NOTE]
-   >  프로젝트 템플릿이 표시 되지 않는 경우 선택 하면 합니다 **Office 추가 기능** 노드를 했는지 **.NET Framework 4** 이상이 대화 상자의 맨 위에 있는 콤보 상자에서 선택 합니다. 두 .NET Framework 버전에 대해 모두 Office 프로젝트 템플릿이 표시됩니다.
+   > 프로젝트 템플릿이 표시 되지 않는 경우 선택 하면 합니다 **Office 추가 기능** 노드를 했는지 **.NET Framework 4** 이상이 선택 합니다.
 
 5. 에 **이름을** 상자, 프로젝트의 이름을 입력 합니다. 기본적으로 이 이름은 문서에도 사용됩니다. IDE가 Visual C# 개발 설정이나 일반 개발 설정을 사용하도록 설정되면 위치 및 솔루션 이름도 입력합니다.
 
    > [!NOTE]
-   >  프로젝트 위치 경로 또는 프로젝트 이름에는 서로게이트 문자를 사용할 수 없습니다. 솔루션을 오프라인에서 사용하도록 배포하려면 프로젝트 이름의 문자가 HTTP 프로토콜 사양에 맞아야 합니다.
+   > 프로젝트 위치 경로 또는 프로젝트 이름에는 서로게이트 문자를 사용할 수 없습니다. 솔루션을 오프라인에서 사용하도록 배포하려면 프로젝트 이름의 문자가 HTTP 프로토콜 사양에 맞아야 합니다.
 
 6. **확인** 단추를 선택합니다.
 
@@ -137,7 +138,7 @@ ms.locfileid: "56614313"
 
    - 큰따옴표(")(공백이 포함된 경로에는 따옴표가 필요하지 않음)
 
-   - 보다 작은 (\<)
+   - 보다 작음(\<)
 
    - 보다 큼(>)
 

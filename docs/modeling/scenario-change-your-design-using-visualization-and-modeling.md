@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 41ca66c796b352113973dcf8d8158f385f49a8ec
-ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
+ms.openlocfilehash: 7d0a24301f7571225ed1002ce4e331f29fd4d77c
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57567372"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57873873"
 ---
 # <a name="scenario-change-your-design-using-visualization-and-modeling"></a>시나리오: 시각화 및 모델링을 사용하여 디자인 변경
 
@@ -71,7 +71,7 @@ Lucerne은 매우 크고 복잡한 시스템 모음을 유지 관리하며 시�
 
 Team Foundation Server에 대한 자세한 내용은 다음을 참조하세요.
 
-- [작업 계획 및 추적](#planning-and-tracking-work)
+- [계획 및 추적 작업](#plan-and-track-work)
 
 - [업데이트된 코드 테스트, 유효성 검사 및 체크 인](#TestValidateCheckInCode)
 

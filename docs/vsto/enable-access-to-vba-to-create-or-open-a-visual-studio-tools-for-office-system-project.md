@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ca3810df7751245acc3f7a93372d565b88170b07
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 10dc439946cb209c9a8d8e0c5ff50a7e8cfe5363
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634827"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57869320"
 ---
 # <a name="enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-the-microsoft-office-system-project"></a>만들거나 Visual Studio Tools for the Microsoft Office system 프로젝트를 열고는 VBA에 대 한 액세스를 사용 하도록 설정
 
@@ -40,8 +40,6 @@ ms.locfileid: "56634827"
  Visual Basic for Applications 프로젝트 시스템에 액세스할 수 없도록 설정하는 것 자체만으로는 바이러스로부터 컴퓨터를 보호할 수 없으며, 컴퓨터가 매크로 바이러스에 감염되는 경우 일부 바이러스가 다른 문서로 확산되는 것을 중지할 수 있을 뿐입니다. 이 옵션은 컴퓨터에 대한 추가 보호 계층으로 기본적으로 사용하지 않도록 설정됩니다. 그러나 이 옵션을 사용하도록 설정해도 보안 모범 사례를 따르면 컴퓨터가 바이러스에 더 감염되기 쉬운 상태가 되지는 않습니다.
 
  보안 패치 및 바이러스 스캐너를 사용 하 여 최신 상태로 유지 하 고 Office 매크로 바이러스를 높음 또는 매우 높음 보안 수준에서 매크로만 신뢰 하에서 Office를 실행 하려면 확인 알려진된 원본에 대 한 최상의 보호 합니다.
-
- 바이러스 및 기타 악성 코드 로부터 PC를 보호 하는 방법에 대 한 자세한 내용은 참조 하세요. [ http://www.microsoft.com/protect ](http://www.microsoft.com/protect)합니다.
 
  옵션을 사용 하지 않도록 설정 하거나 설정할 수 있습니다 **Visual Basic 프로젝트에 안전 하 게 액세스할** 수동으로.
 

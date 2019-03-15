@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: be0d7246af3b43d76ee4531a426dab0af63e2aff
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 2fe7bbce4ac214d3b18b27f610094ee31ecc2a97
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56711724"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867354"
 ---
 # <a name="visual-studio-sdk"></a>Visual Studio SDK
 Visual Studio SDK를 사용 하면 Visual Studio 기능을 확장 하거나 Visual Studio에 새 기능을 통합할 수 있습니다. Visual Studio Marketplace 뿐만 아니라 다른 사용자에 게 확장을 배포할 수 있습니다. 다음은 Visual Studio를 확장할 수 있는 몇 가지 방법입니다.
@@ -54,7 +54,7 @@ Visual Studio SDK를 사용 하면 Visual Studio 기능을 확장 하거나 Visu
  활용 합니다 [이미지 서비스 및 카탈로그](../extensibility/image-service-and-catalog.md) 유용한 이미지 관리 및 높은 DPI 및 테마에 대 한 지원.
 
 ## <a name="find-and-install-existing-visual-studio-extensions"></a>기존 Visual Studio 확장명 찾기 및 설치
- Visual Studio 확장을 찾을 수 있습니다 합니다 **확장 및 업데이트** 대화 상자를 **도구** 메뉴. 자세한 내용은 [찾기 및 사용 하 여 Visual Studio 확장](../ide/finding-and-using-visual-studio-extensions.md)합니다. 확장을 찾을 수도 있습니다는 [Visual Studio marketplace](https://marketplace.visualstudio.com/)
+ Visual Studio 확장을 찾을 수 있습니다 합니다 **확장 및 업데이트** 대화 상자를 **도구** 메뉴. 자세한 내용은 [찾기 및 사용 하 여 Visual Studio 확장](../ide/finding-and-using-visual-studio-extensions.md)합니다. 확장을 찾을 수도 있습니다는 [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
 
 ## <a name="visual-studio-sdk-reference"></a>Visual Studio SDK 참조
  Visual Studio SDK API 참조를 찾을 수 있습니다 [Visual Studio SDK 참조](../extensibility/visual-studio-sdk-reference.md)합니다.

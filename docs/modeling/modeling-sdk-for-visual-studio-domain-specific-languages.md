@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: df931cf5cb9034a868f412a344e26a58e6006455
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b028655c0654bc5332264c3bcc0fced01480b69f
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942780"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867450"
 ---
 # <a name="modeling-sdk-for-visual-studio---domain-specific-languages"></a>Visual Studio용 모델링 SDK - 도메인별 언어
 
@@ -40,7 +40,7 @@ MSDK를 사용하여 도메인 관련 언어(DSL) 형태로 모델을 신속하�
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-[관련된 블로그 게시물](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+[관련된 블로그 게시물](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)
 
 고급 기술 및 문제 해결에 대 한 지침을 참조 하세요 [Visual Studio DSL & 모델링 도구 확장성 포럼](http://go.microsoft.com/fwlink/?LinkID=186074)합니다.
 

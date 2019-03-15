@@ -14,25 +14,25 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1c2c73e4c74502c047251bd64a2f6d3550cf7fe6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 297fefddd45b080af236da0b4fe53649e7d630cf
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642835"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867566"
 ---
 # <a name="package-and-deploy-sharepoint-solutions"></a>패키지 및 SharePoint 솔루션 배포
   일반적으로 솔루션 패키지 (.wsp) 파일을 사용 하 여 SharePoint 솔루션을 SharePoint 서버에 배포 됩니다. 기능으로 SharePoint 프로젝트 항목을 구성 하 고 SharePoint 기능을 배포 하는 패키지를 만들려면 Visual Studio를 사용할 수 있습니다.
 
  이 항목에서는 다음 내용에 대해 설명합니다.
 
--   [기능 및 패키지 만들기](#Creating)
+-   [기능 및 패키지 만들기](#create-features-and-packages)
 
--   [기능 및 패키징 도구 지원](#Tools)
+-   [기능 및 패키징 도구 지원](#feature-and-packaging-tool-support)
 
--   [SharePoint 솔루션 배포](#Deploying)
+-   [SharePoint 솔루션 배포](#deploy-sharepoint-solutions)
 
--   [SharePoint 솔루션에서 파일 배포](#DeployingFiles)
+-   [SharePoint 솔루션에서 파일 배포](#deploy-files-in-sharepoint-solutions)
 
 ## <a name="create-features-and-packages"></a>기능 및 패키지 만들기
  Visual Studio를 사용 하 여 관련된 SharePoint 요소를 그룹화 하는 *기능*합니다. 예를 들어 연락처 목록 정의 대 한 기능 목록 정의와 목록 인스턴스를 포함할 수 있습니다. 배포를 위해 단일 기능에 이러한 두 요소를 결합할 수 있습니다. 기능에 대 한 자세한 내용은 참조 하세요. [문서 블록: 기능](http://go.microsoft.com/fwlink/?LinkID=169183)합니다.

@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7cd18443e36a48967b4eb9fdf24f8d5e7869c323
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 94a6f4b69648c94e6530cb28180193e5a74c1265
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700148"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57870582"
 ---
 # <a name="templatedata-element-visual-studio-templates"></a>TemplateData 요소(Visual Studio 템플릿)
 템플릿을 분류하고 **새 프로젝트** 또는 **새 항목 추가** 대화 상자에서 템플릿이 표시되는 방식을 정의합니다.
@@ -58,7 +58,7 @@ ms.locfileid: "56700148"
 | [CreateNewFolder](../extensibility/createnewfolder-element-visual-studio-templates.md) | 선택적 요소입니다.<br /><br /> 포함 된 폴더를 프로젝트의 인스턴스화에 만들어지는지 여부를 지정 합니다. |
 | [DefaultName](../extensibility/defaultname-element-visual-studio-templates.md) | 선택적 요소입니다.<br /><br /> 만들 때 프로젝트 또는 항목에 대 한 Visual Studio 프로젝트 시스템에서 생성 하는 이름을 지정 합니다. |
 | [ProvideDefaultName](../extensibility/providedefaultname-element-visual-studio-templates.md) | 선택적 요소입니다.<br /><br /> 만들어질 때 Visual Studio 프로젝트 시스템에서 프로젝트 또는 항목에 대 한 기본 이름을 생성할 됩니다 있는지 여부를 지정 합니다. |
-| [PromptForSaveOnCreation](../extensibility/promptforsaveoncreation-element-visual-studio-templates.md) | 선택적 요소입니다.<br /><br /> 임시 프로젝트로 프로젝트를 만들 수 있는지 여부를 지정 합니다. |
+| [PromptForSaveOnCreation](../extensibility/promptforsaveoncreation-element-visual-studio-templates.md) | 선택적 요소입니다.<br /><br /> 임시 프로젝트 (Visual Studio 2017만)로 프로젝트를 만들 수 있는지 여부를 지정 합니다. |
 | [EnableLocationBrowseButton](../extensibility/enablelocationbrowsebutton-element-visual-studio-templates.md) | 선택적 요소입니다.<br /><br /> 지정 여부를 합니다 **찾아보기** 단추를 사용할 수는 **새 프로젝트** 대화 상자에서 사용자가 새 프로젝트를 저장 된 기본 디렉터리를 쉽게 수정할 수 있도록 합니다. |
 | [숨김](../extensibility/hidden-element-visual-studio-templates.md) | 선택적 요소입니다.<br /><br /> 템플릿 중 하나에 표시할지 여부를 지정 합니다 **새 프로젝트** 하거나 **새 항목 추가** 대화 상자. |
 | [NumberOfParentCategoriesToRollUp](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md) | 선택적 요소입니다.<br /><br /> 부모 범주에 템플릿 표시 하는 횟수를 지정 합니다 **새 프로젝트** 대화 상자. |

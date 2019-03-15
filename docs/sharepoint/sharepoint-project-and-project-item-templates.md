@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3a535f1b9051835f0a26ae62ca63cc30f289ddea
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 6250577a5a1b6793001b1d4b732c3b3101690aad
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612922"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867876"
 ---
 # <a name="sharepoint-project-and-project-item-templates"></a>SharePoint 프로젝트 및 프로젝트 항목 템플릿
   다음 섹션에서는 사용할 수 있는 SharePoint 프로젝트에 설명 하 고 프로젝트 항목 템플릿 및 사용 방법에 있습니다.
@@ -74,7 +74,7 @@ ms.locfileid: "56612922"
  **응용 프로그램 페이지 (팜 솔루션만 해당)** 항목을 사용 하면 디자인 하는 데는 [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] SharePoint 사이트에 대 한 웹 페이지입니다. 응용 프로그램 페이지 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [방법: 응용 프로그램 페이지 만들기](../sharepoint/how-to-create-an-application-page.md) 하 고 [응용 프로그램 _layouts 페이지 형식](http://go.microsoft.com/fwlink/?LinkId=179434)합니다.
 
 ### <a name="business-data-connectivity-model-farm-solution-only"></a>비즈니스 데이터 연결 모델 (팜 솔루션에만 해당)
- A **비즈니스 데이터 연결 모델 (팜 솔루션만 해당)** 항목이 SharePoint에 통합 비즈니스 데이터를 수 있습니다. 비즈니스 데이터와 같은 백 엔드 서버 응용 프로그램에서 가져올 수 있습니다 [!INCLUDE[ssNoVersion](../sharepoint/includes/ssnoversion-md.md)], Siebel 및 SAP 서비스 알림 프로토콜 (). 비즈니스 데이터 연결 모델은 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [방법: BDC 모델 만들기](../sharepoint/how-to-create-a-bdc-model.md), [방법: 리소스 파일을 사용 하 여 지역화 된 이름, 속성 및 권한을 지정할](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md), 및 [새로운 기능: Business Connectivity Services](http://go.microsoft.com/fwlink/?LinkId=179411)합니다.
+ A **비즈니스 데이터 연결 모델 (팜 솔루션만 해당)** 항목이 SharePoint에 통합 비즈니스 데이터를 수 있습니다. 비즈니스 데이터와 같은 백 엔드 서버 응용 프로그램에서 가져올 수 있습니다 [!INCLUDE[ssNoVersion](../sharepoint/includes/ssnoversion-md.md)], Siebel 및 SAP 서비스 알림 프로토콜 (). 비즈니스 데이터 연결 모델은 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [방법: BDC 모델 만들기](../sharepoint/how-to-create-a-bdc-model.md), [방법: 리소스 파일을 사용 하 여 지역화 된 이름, 속성 및 권한을 지정할](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md), 및 [새로운 기능: Business Connectivity Services](/previous-versions/office/developer/sharepoint-2010/ee534979(v=office.14))합니다.
 
 ### <a name="content-type"></a>콘텐츠 형식
  *콘텐츠 형식* 항목을 사용 하면 문서, 알림 또는 작업 같은 기존 (기본) 콘텐츠 형식을 기반으로 하는 사용자 지정 콘텐츠 형식을 만들 수 있습니다. 사용자 지정 콘텐츠 형식을 정의 하는 모든 사이트 열 (필드)와 함께 기본 콘텐츠 형식으로 동일한 속성 및 필드를 제공 합니다. 예를 들어 SharePoint에서 제공 되는 기본 연락처 콘텐츠 형식을 기반으로 하는 사용자 지정 연락처 콘텐츠 형식을 만들 수 있습니다. 기존 사이트 열을 변경 하거나 기본 콘텐츠 형식에 이미 포함 된 더 많은 사이트 열을 추가 하 여 콘텐츠 형식을 사용자 지정할 수 있습니다.
@@ -109,7 +109,7 @@ ms.locfileid: "56612922"
  *모듈* (사용 하 여 혼동 하면 안 [!include[vbprvb](../sharepoint/includes/vbprvb-md.md)] 모듈) 이미지 또는 메모와 같은 SharePoint 서버에 배포 하려는 모든 파일을 포함 합니다. 모듈 프로젝트 항목에 포함 된 **모듈** 노드. 두 프로젝트 항목 템플릿을 포함 하는 모듈 노드: 매니페스트 모듈에 대 한 역할을 하는 XML 정의 파일 및 *sample.txt* 파일로, 자리 표시자 파일입니다. 자세한 내용은 [솔루션에서 포함 파일을 사용 하 여 모듈](../sharepoint/using-modules-to-include-files-in-the-solution.md) 하 고 [모듈](http://go.microsoft.com/fwlink/?LinkId=179425)합니다.
 
 ### <a name="sequential-workflow-farm-solution-only"></a>순차 워크플로 (팜 솔루션에만 해당)
- A *순차 워크플로* 일련의 비즈니스 논리 단계를 마지막 단계 완료 될 때까지 순서 대로 수행 됩니다. 순차 워크플로 SharePoint 목록, 문서 등을 포함 하는 프로세스를 관리 하는 데 사용 됩니다. 사이트 수준 (전역) 워크플로 또는 목록 수준 (local) 워크플로 만들 수 있으며 자동 또는 수동으로 워크플로 시작 하는지 여부를 선택할 수 있습니다. 이 프로젝트 항목은 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [만들 SharePoint 워크플로 솔루션](../sharepoint/creating-sharepoint-workflow-solutions.md), [SharePoint Server 2010에서 워크플로](http://go.microsoft.com/fwlink/?LinkId=260555), 및 [새로운 기능: 워크플로 기능 향상](http://go.microsoft.com/fwlink/?LinkId=179418)합니다.
+ A *순차 워크플로* 일련의 비즈니스 논리 단계를 마지막 단계 완료 될 때까지 순서 대로 수행 됩니다. 순차 워크플로 SharePoint 목록, 문서 등을 포함 하는 프로세스를 관리 하는 데 사용 됩니다. 사이트 수준 (전역) 워크플로 또는 목록 수준 (local) 워크플로 만들 수 있으며 자동 또는 수동으로 워크플로 시작 하는지 여부를 선택할 수 있습니다. 이 프로젝트 항목은 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [만들 SharePoint 워크플로 솔루션](../sharepoint/creating-sharepoint-workflow-solutions.md), [SharePoint Server 2010에서 워크플로](http://go.microsoft.com/fwlink/?LinkId=260555), 및 [새로운 기능: 워크플로 기능 향상](/previous-versions/office/developer/sharepoint-2010/ee537015(v=office.14))합니다.
 
 ### <a name="silverlight-web-part"></a>Silverlight 웹 파트
  *Silverlight 웹 파트* 프로젝트 항목 수 만들기 웹 파트를 Silverlight 응용 프로그램을 표시 하는 SharePoint에 대 한 합니다. 이 프로젝트 항목을 솔루션에 추가 하면 새 Silverlight 응용 프로그램을 추가 하거나 기존을 나중에 참조할 지 여부를 선택할 수 있습니다. 자세한 내용은 [SharePoint 용 웹 파트를 만들](../sharepoint/creating-web-parts-for-sharepoint.md) 및 [연습: SharePoint 용 OData를 표시 하는 Silverlight 웹 파트를 만든](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md)합니다.
@@ -129,7 +129,7 @@ ms.locfileid: "56612922"
   사이트 정의 추가한 후 코드 및 기능을 소개 하기 위해 파일을 추가 합니다. 이 프로젝트 항목은 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [SharePoint 용 사이트 정의 만들기](../sharepoint/creating-site-definitions-for-sharepoint.md) 하 고 [사이트 정 및 구성](http://go.microsoft.com/fwlink/?LinkId=260554)합니다.
 
 ### <a name="state-machine-workflow-farm-solution-only"></a>상태 시스템 워크플로 (팜 솔루션에만 해당)
- A *상태 시스템 워크플로* 는 비즈니스 논리 상태, 전환 및 동작의 집합입니다. 상태 시스템 워크플로에서 단계 시퀀스에서 수행 되지 않습니다. 대신, 작업 및 상태에 의해 트리거되는 합니다. 순차 워크플로 처럼 상태 시스템 워크플로 목록 및 문서와 같은 SharePoint 항목에 연결 됩니다. 다시 한번, 사이트 수준 (전역) 워크플로 또는 목록 수준 (local) 워크플로 만들 수 있습니다. 자동 또는 수동으로 워크플로 시작 하는지 여부를 선택할 수 있습니다. 이 프로젝트 항목은 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [만들 SharePoint 워크플로 솔루션](../sharepoint/creating-sharepoint-workflow-solutions.md), [SharePoint Server 2010에서 워크플로](http://go.microsoft.com/fwlink/?LinkId=260555), 및 [새로운 기능: 워크플로 기능 향상](http://go.microsoft.com/fwlink/?LinkId=179418)합니다.
+ A *상태 시스템 워크플로* 는 비즈니스 논리 상태, 전환 및 동작의 집합입니다. 상태 시스템 워크플로에서 단계 시퀀스에서 수행 되지 않습니다. 대신, 작업 및 상태에 의해 트리거되는 합니다. 순차 워크플로 처럼 상태 시스템 워크플로 목록 및 문서와 같은 SharePoint 항목에 연결 됩니다. 다시 한번, 사이트 수준 (전역) 워크플로 또는 목록 수준 (local) 워크플로 만들 수 있습니다. 자동 또는 수동으로 워크플로 시작 하는지 여부를 선택할 수 있습니다. 이 프로젝트 항목은 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [만들 SharePoint 워크플로 솔루션](../sharepoint/creating-sharepoint-workflow-solutions.md), [SharePoint Server 2010에서 워크플로](http://go.microsoft.com/fwlink/?LinkId=260555), 및 [새로운 기능: 워크플로 기능 향상](/previous-versions/office/developer/sharepoint-2010/ee537015(v=office.14))합니다.
 
 ### <a name="user-control-farm-solution-only"></a>사용자 정의 컨트롤 (팜 솔루션에만 해당)
  A *사용자 정의 컨트롤* 다른 ASP.NET 컨트롤과 SharePoint 컨트롤을 추가할 수 있는 사용자 지정, 재사용 가능한 컨트롤입니다. 응용 프로그램 페이지 및 SharePoint에서 실행 되는 웹 파트에 사용자 정의 컨트롤을 추가할 수 있습니다. 이 프로젝트 항목은 팜 솔루션 에서만에서 사용할 수 있습니다. 팜 솔루션에만이 프로젝트 항목을 추가할 수 있습니다. 자세한 내용은 [웹 파트 또는 응용 프로그램 페이지에 대 한 재사용 가능한 컨트롤 만들기](http://go.microsoft.com/fwlink/?LinkId=226841)합니다.

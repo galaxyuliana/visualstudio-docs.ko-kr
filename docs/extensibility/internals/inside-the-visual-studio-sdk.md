@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 42ec103cf9ca867582d4762e06ca59eac48da588
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: cb7f2ee59c9b02e7c4ff85c36bc0ea5a67e962a5
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796675"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57870275"
 ---
 # <a name="inside-the-visual-studio-sdk"></a>Visual Studio SDK 기본 사항
 이 섹션에서는 Visual Studio 아키텍처, 구성 요소, 서비스, 스키마, 유틸리티 등을 비롯 한 Visual Studio 확장에 대 한 자세한 정보를 제공 합니다.
@@ -90,7 +90,7 @@ ms.locfileid: "56796675"
  자세한 내용은 [프로젝트](../../extensibility/internals/projects.md) 하 고 [솔루션](../../extensibility/internals/solutions.md)합니다.
 
 ## <a name="project-and-item-templates"></a>프로젝트 및 항목 템플릿
- Visual Studio에는 미리 정의 된 프로젝트 템플릿 및 프로젝트 항목 템플릿을 포함합니다. 사용자 고유의 템플릿을 만들 수도 하 고 또는 커뮤니티에서 템플릿을 가져올 하 고, 다음 Visual Studio에 통합할 수 있습니다. 합니다 [MSDN 코드 갤러리](http://code.msdn.microsoft.com/Project/ProjectDirectory.aspx?ProjectSearchText=visual%20studio) 템플릿 및 확장에 대 한 이동할 위치입니다.
+ Visual Studio에는 미리 정의 된 프로젝트 템플릿 및 프로젝트 항목 템플릿을 포함합니다. 사용자 고유의 템플릿을 만들 수도 하 고 또는 커뮤니티에서 템플릿을 가져올 하 고, 다음 Visual Studio에 통합할 수 있습니다. 합니다 [MSDN 코드 갤러리](https://code.msdn.microsoft.com/site/search?query=visual%20studio) 템플릿 및 확장에 대 한 이동할 위치입니다.
 
  템플릿에 특정 종류의 응용 프로그램, 컨트롤, 라이브러리 또는 클래스를 작성 하는 데 필요한 기본 파일과 프로젝트 구조에 포함 됩니다. 템플릿 중 하 나와 유사한 소프트웨어를 개발 하려는 경우 템플릿을 기반으로 하는 프로젝트를 만들고 해당 프로젝트에서 파일을 수정 합니다.
 
