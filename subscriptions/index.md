@@ -6,7 +6,7 @@ Manager: lank
 layout: LandingPage
 Ms.date: 06/25/2018
 Ms.topic: landing-page
-Description: Welcome to Visual Studio Subscriptions
+Description: Visual Studio 구독에 오신 것을 환영합니다.
 Searchscope: VS Subscription
 ---
 
@@ -150,7 +150,7 @@ Microsoft에서는 사용자가 구독을 훨씬 더 유용하게 사용할 수 
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
-                            <li>Team Foundation Server 및 TFS CAL</li>
+                            <li>Azure DevOps Server 및 CAL</li>
                         </ul>
                     </div>
                 </div>
