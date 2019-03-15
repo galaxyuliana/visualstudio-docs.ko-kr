@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6c595465a9791f00036fb5358c49afae808dce13
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b29735eeb8b35b2d674f3574343b19665c87fa19
+ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55932718"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57983847"
 ---
 # <a name="add-commands-and-gestures-to-dependency-diagrams"></a>종속성 다이어그램에 명령 및 제스처 추가
 
@@ -54,7 +54,17 @@ ms.locfileid: "55932718"
 
     [제스처 처리기 정의](#gesture)
 
+::: moniker range="vs-2017"
+
 6. Visual Studio 또는 다른 컴퓨터의 기본 인스턴스에서 확장을 설치 하려면 합니다 *.vsix* 파일을 *bin* 디렉터리. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거 하려면 선택 **확장 및 업데이트** 에 **도구** 메뉴.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+6. Visual Studio 또는 다른 컴퓨터의 기본 인스턴스에서 확장을 설치 하려면 합니다 *.vsix* 파일을 *bin* 디렉터리. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거 하려면 선택 **Manage Extensions** 에 **확장** 메뉴.
+
+::: moniker-end
 
 ## <a name="adding-a-command-or-gesture-to-a-separate-vsix"></a>별도 VSIX에 명령 또는 제스처 추가
 
@@ -104,11 +114,9 @@ ms.locfileid: "55932718"
 
      참고 항목 [탐색 및 업데이트 프로그램 코드에서 모델 계층](../modeling/navigate-and-update-layer-models-in-program-code.md)합니다.
 
-6.  기능을 테스트하려면 Ctrl+F5 또는 F5 키를 누릅니다. Visual Studio의 실험적 인스턴스가 열립니다. 이 경우 만들기 또는 종속성 다이어그램을 엽니다.
+6.  에 기능을 테스트 하려면 키를 누릅니다 **Ctrl**+**F5** 하거나 **F5**합니다. Visual Studio의 실험적 인스턴스가 열립니다. 이 경우 만들기 또는 종속성 다이어그램을 엽니다.
 
 7.  VSIX의 Visual Studio 또는 다른 컴퓨터에 주 인스턴스를 설치 하려면 합니다 **.vsix** 파일을 **bin** 의 VSIX 프로젝트 디렉터리. VSIX를 설치할 컴퓨터에 파일을 복사합니다. Windows 탐색기에서 VSIX 파일을 두 번 클릭합니다.
-
-     파일을 제거하려면 **도구** 메뉴에서 **확장 및 업데이트** 를 사용합니다.
 
 ##  <a name="command"></a> 메뉴 명령 정의
 

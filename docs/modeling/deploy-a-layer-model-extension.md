@@ -1,5 +1,5 @@
 ---
-title: 레이어 모델 확장명 배포
+title: 레이어 모델 확장 배포
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,14 +10,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 594f4118f8c6876857b862d6423180403f4f96c6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e8fe915f31181af4158bdfe7e292313886ed7d4c
+ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55915623"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57983106"
 ---
-# <a name="deploy-a-layer-model-extension"></a>레이어 모델 확장명 배포
+# <a name="deploy-a-layer-model-extension"></a>레이어 모델 확장 배포
 
 Visual Studio의 다른 사용자는 Visual Studio를 사용하여 만든 레이어 모델링 확장을 설치할 수 있습니다.
 
@@ -37,9 +37,19 @@ Visual Studio의 다른 사용자는 Visual Studio를 사용하여 만든 레이
 
 ### <a name="to-uninstall-the-extension"></a>확장을 제거하려면
 
-1.  Visual Studio에서에 **도구** 메뉴에서 클릭 **확장 및 업데이트**합니다.
+::: moniker range="vs-2017"
 
-2.  확장의 이름을 클릭 한 다음 클릭 **제거**합니다.
+1. Visual Studio에서 선택 **도구가** > **확장 및 업데이트**합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio에서 선택 **Extensions** > **확장 관리**합니다.
+
+::: moniker-end
+
+2. 확장의 이름을 클릭 한 다음 클릭 **제거**합니다.
 
 ## <a name="install-an-extension-on-team-foundation-server"></a>Team Foundation Server에서 확장을 설치 합니다.
 
