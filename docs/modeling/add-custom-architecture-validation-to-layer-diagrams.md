@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7ceb330756ea98961f420be6b148b7a295eee6a6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ba9f4f3a7f6c3ab8d01b50a614fb006305d25eee
+ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970688"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57983366"
 ---
 # <a name="add-custom-architecture-validation-to-dependency-diagrams"></a>종속성 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가
 
@@ -59,7 +59,17 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
    > [!NOTE]
    > 메서드는 특정 상황에서만 호출되고 중단점은 자동으로 작동하지 않습니다. 자세한 내용은 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.
 
+::: moniker range="vs-2017"
+
 5. Visual Studio 또는 다른 컴퓨터의 기본 인스턴스에서 확장을 설치 하려면 합니다 *.vsix* 파일을 *bin* 디렉터리. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거 하려면 선택 **확장 및 업데이트** 에 **도구** 메뉴.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+5. Visual Studio 또는 다른 컴퓨터의 기본 인스턴스에서 확장을 설치 하려면 합니다 *.vsix* 파일을 *bin* 디렉터리. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거 하려면 선택 **Manage Extensions** 에 **확장** 메뉴.
+
+::: moniker-end
 
 ## <a name="adding-a-layer-validator-to-a-separate-vsix"></a>개별 VSIX에 레이어 유효성 검사기 추가
 
@@ -118,8 +128,6 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
     > 메서드는 특정 상황에서만 호출되고 중단점은 자동으로 작동하지 않습니다. 자세한 내용은 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.
 
 8.  VSIX의 Visual Studio 또는 다른 컴퓨터에 주 인스턴스를 설치 하려면 합니다 **.vsix** 파일을 **bin** 의 VSIX 프로젝트 디렉터리. VSIX를 설치할 컴퓨터에 파일을 복사합니다. Windows 탐색기에서 VSIX 파일을 두 번 클릭합니다.
-
-     파일을 제거하려면 **도구** 메뉴에서 **확장 및 업데이트** 를 사용합니다.
 
 ##  <a name="programming"></a> 프로그래밍 유효성 검사
 

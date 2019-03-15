@@ -10,12 +10,12 @@ ms.author: chitray
 manager: Meng
 ms.workload:
 - vssdk
-ms.openlocfilehash: 05d42e5239378886840f8943d26c5e21138907fa
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: fa19618baba46b56337714a633a993b232f78a46
+ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56718368"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57983015"
 ---
 # <a name="walkthrough-create-an-extension-pack"></a>연습: 확장 팩 만들기
 
@@ -85,7 +85,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 
 컴퓨터에서 확장 제거:
 
-1. Visual Studio에서에 **도구** 메뉴에서 클릭 **확장 및 업데이트 하는 중...** .
+1. Visual Studio에서에 **도구** 메뉴에서 클릭 **확장 및 업데이트**합니다.
 
 2. 선택 `Test Extension Pack` 을 클릭 한 다음 **제거**합니다. 그런 다음 확장 및 확장 팩에 포함 된 확장 목록을 제거에 대 한 예약 됩니다.
 

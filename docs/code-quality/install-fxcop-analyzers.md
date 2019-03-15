@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 84d83cba5afb201725354069ff1816dd8985b15c
-ms.sourcegitcommit: b623042906de4f12d68af365e36eb38b7b44aa90
+ms.openlocfilehash: a8b13e9f5ed76b61279212bfdedf33b25f694221
+ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56270578"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57983457"
 ---
 # <a name="install-fxcop-analyzers-in-visual-studio"></a>Visual Studio에서 FxCop 분석기 설치
 
@@ -54,12 +54,27 @@ Visual Studio의 버전에 대 한 설치 FxCop 분석기 패키지의 버전을
 
 Visual Studio 2017 버전 15.5 이상에 설치할 수 있습니다 합니다 [Microsoft 코드 분석 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) 모든 관리 되는 프로젝트에 대 한 FxCop 분석기를 포함 하는 확장 합니다.
 
+::: moniker range="vs-2017"
+
 1. Visual Studio에서 선택 **도구가** > **확장 및 업데이트**합니다.
 
    **확장명 및 업데이트** 대화 상자가 열립니다.
 
    > [!NOTE]
    > 또는에서 직접 확장을 다운로드 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017)합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio에서 선택 **Extensions** > **확장 관리**합니다.
+
+   합니다 **확장 관리** 대화 상자가 열립니다.
+
+   > [!NOTE]
+   > 또는에서 직접 확장을 다운로드 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017)합니다.
+
+::: moniker-end
 
 1. 확장 **Online** 한 다음 선택한 왼쪽된 창의 **Visual Studio Marketplace**합니다.
 
@@ -83,7 +98,17 @@ Visual Studio 2017 버전 15.5 이상에 설치할 수 있습니다 합니다 [M
 
 1. Visual Studio를 다시 엽니다.
 
+::: moniker range="vs-2017"
+
 확장 설치를 선택 하는지 여부를 확인 하려는 경우 **도구가** > **확장 및 업데이트**합니다. 에 **확장 및 업데이트** 대화 상자에서를 **설치 된** 왼쪽의 범주 이름으로 확장 한 다음 검색 합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+확장 설치를 선택 하는지 여부를 확인 하려는 경우 **Extensions** > **확장 관리**합니다. 에 **확장 관리** 대화 상자에서를 **설치 된** 왼쪽의 범주 이름으로 확장 한 다음 검색 합니다.
+
+::: moniker-end
 
 ## <a name="see-also"></a>참고자료
 

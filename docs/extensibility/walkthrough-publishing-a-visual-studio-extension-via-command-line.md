@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: aebd1cbd46eeaf80d165140dc58c5e81a0e02b91
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a2d68554ed982313e631938401f855a47dd9a35a
+ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695377"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57983379"
 ---
 # <a name="walkthrough-publishing-a-visual-studio-extension-via-command-line"></a>연습: 명령줄을 통해 Visual Studio 확장 기능 게시
 
@@ -290,7 +290,7 @@ This is test extension.
 
 ### <a name="to-remove-the-extension-from-your-computer"></a>컴퓨터에서 확장을 제거 하려면
 
-1. Visual Studio에서에 **도구** 메뉴에서 클릭 **확장 및 업데이트 하는 중...** .
+1. Visual Studio에서에 **도구** 메뉴에서 클릭 **확장 및 업데이트**합니다.
 
 2. "MyVsixExtension"를 선택 하 고 클릭 **제거**합니다. 확장 한 다음 제거에 대 한 예약 됩니다.
 
