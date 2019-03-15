@@ -12,12 +12,12 @@ manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: dcc184d6aedb3e15bfddd8396c54b351ef4d3288
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: ed8f06513b240719364539a24295a403b83265f4
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693011"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57873009"
 ---
 # <a name="deploy-custom-start-pages"></a>사용자 지정 시작 페이지를 배포 합니다.
 
@@ -29,7 +29,7 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
 
 -   넣을 수 있습니다 합니다 *.vsix* 공용 웹 사이트 또는 네트워크 공유에 파일입니다. 사용자가 파일을 시작 페이지를 자동으로 설치 됩니다.
 
--   업로드할 수 있습니다 합니다 *.vsix* 파일을 합니다 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트 사용자가 사용 하 여 설치할 수 있도록 **확장 관리자**합니다.
+-   업로드할 수 있습니다 합니다 *.vsix* 파일을 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트 사용자가 사용 하 여 설치할 수 있도록 **확장 관리자**합니다.
 
 시작 페이지 프로젝트 템플릿 복사본을 수정 하 고 원래를 유지할 수 있도록 기본 Visual Studio 시작 페이지의 복사본을 만듭니다.
 

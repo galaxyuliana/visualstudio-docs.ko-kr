@@ -12,20 +12,20 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3cbd581da1e2a081636c4f4cf7885241c15eff97
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 2dd787168d906ce90a50562e5147b45308c54ff5
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54876267"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57868061"
 ---
 # <a name="deploy-extensions-for-the-sharepoint-tools-in-visual-studio"></a>Visual Studio에서 SharePoint 도구에 대 한 확장 배포
 
 SharePoint 도구 확장을 배포 하려면 만들기를 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 확장 프로그램 어셈블리 및 확장을 사용 하 여 배포 하려는 다른 모든 파일을 포함 하는 확장 (VSIX) 패키지 있습니다. VSIX 패키지는 압축 된 다음에 파일을 OPC Open Packaging Conventions () 표준입니다. VSIX 패키지를 *.vsix* 확장 합니다.
 
-VSIX 패키지를 만든 후 다른 사용자에 게 확장을 설치 하려면.vsix 파일을 실행할 수 있습니다. 파일의 모든 사용자에 확장을 설치 하면 %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions 폴더에 설치 됩니다. 확장을 배포 하려면 VSIX 패키지를 업로드할 수 있습니다 합니다 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트 또는 있습니다 수 패키지 고객에 게 배포할 패키지를 호스팅하는 네트워크 공유 나 일부 다른 웹 사이트 등의 다른 방법으로 합니다.
+VSIX 패키지를 만든 후 다른 사용자에 게 확장을 설치 하려면.vsix 파일을 실행할 수 있습니다. 파일의 모든 사용자에 확장을 설치 하면 %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions 폴더에 설치 됩니다. 확장을 배포 하려면 VSIX 패키지를 업로드할 수 있습니다 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트 또는 있습니다 수 패키지 고객에 게 배포할 패키지를 네트워크 공유 또는 다른 일부 웹 호스팅 같은 다른 방법으로 사이트입니다.
 
-VSIX 패키지 만들기 및 배포 하도록 하는 방법에 대 한 자세한 내용은 합니다 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847)를 참조 하세요 [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)합니다.
+VSIX 패키지 만들기 및 배포 하도록 하는 방법에 대 한 자세한 내용은 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/)를 참조 하세요 [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)합니다.
 
  사용 하 여 VSIX 패키지를 만들 수 있습니다 합니다 **VSIX 프로젝트** Visual Studio의 템플릿을 VSIX 패키지를 수동으로 만들 수 있습니다.
 

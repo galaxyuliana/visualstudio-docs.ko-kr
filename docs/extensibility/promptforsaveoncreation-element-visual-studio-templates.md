@@ -13,17 +13,23 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 309c02abb29b599a5753a39c28d9b95314088550
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+monikerRange: vs-2017
+ms.openlocfilehash: 882465acd61f3f76d358f52ae75c9041c311dcd5
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696716"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867284"
 ---
 # <a name="promptforsaveoncreation-element-visual-studio-templates"></a>PromptForSaveOnCreation 요소 (Visual Studio 템플릿)
-저장 위치를 통해 프로젝트에 대해 묻는 여부를 지정 합니다 **새 프로젝트** 프로젝트를 만들 때 대화 상자. 이 요소 설정 된 경우 `true`에 저장 된 사용자가 입력 한 다음 위치 같으면 `false`을 묻는 메시지가 나타나지 않습니다. (즉, 임시 프로젝트가 만들어집니다.)
 
- \<VSTemplate > \<TemplateData > \<PromptForSaveOnCreation >
+저장 위치를 통해 프로젝트에 대해 묻는 여부를 지정 합니다 **새 프로젝트** 프로젝트를 만들 때 대화 상자. 이 요소 설정 된 경우 `true`, 저장 된 사용자가 입력 한 다음 위치입니다. 경우 `false`를 묻지 않습니다 다음 (즉, 임시 프로젝트가 만들어질).
+
+```xml
+\<VSTemplate>
+\<TemplateData>
+\<PromptForSaveOnCreation>
+```
 
 ## <a name="syntax"></a>구문
 
@@ -59,7 +65,7 @@ ms.locfileid: "56696716"
 ## <a name="example"></a>예제
  다음 예제에서는 값을 설정 `PromptForSaveOnCreation` 같음 `false`, 프로젝트를 임시 프로젝트로 만들 수 있도록 지정 합니다.
 
-```
+```xml
 <VSTemplate Type="Project" Version="3.0.0"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
@@ -85,5 +91,6 @@ ms.locfileid: "56696716"
 ```
 
 ## <a name="see-also"></a>참고자료
+
 - [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)
 - [프로젝트 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)

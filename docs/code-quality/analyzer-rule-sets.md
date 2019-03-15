@@ -10,16 +10,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 567d315694ff4f55ae5e1d2df2e7963bc21902a3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: da5eab1424ac6f6fe580ec0f71ec3efd6e120020
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55932016"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57866999"
 ---
 # <a name="rule-sets-for-roslyn-analyzers"></a>Roslyn 분석기에 대 한 규칙 집합
 
-미리 정의 된 규칙 집합은 일부 NuGet 분석기 패키지에 포함 합니다. 규칙 집합에 포함 된 예를 들어 합니다 [Microsoft.CodeAnalysis.FxCopAnalyzers NuGet 분석기 패키지](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) 사용할지 명명, 보안과 같은 해당 범주를 기반으로 하는 규칙을 사용 하지 않도록 설정 (버전 2.6.2부터) 또는 성능을 제공 합니다. 규칙 집합을 사용 하 여 쉽게 신속 하 게만 규칙의 특정 범주에 속하는 해당 규칙 위반을 볼 수 있습니다.
+미리 정의 된 규칙 집합은 일부 NuGet 분석기 패키지에 포함 합니다. 규칙 집합에 포함 된 예를 들어 합니다 [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet 분석기 패키지 (버전 2.6.2부터) 이름 지정, 보안과 같은 해당 범주를 기반으로 하는 규칙을 사용할지 또는 성능을 제공 합니다. 규칙 집합을 사용 하 여 쉽게 신속 하 게만 규칙의 특정 범주에 속하는 해당 규칙 위반을 볼 수 있습니다.
 
 Roslyn 분석기를 레거시 "FxCop" 정적 코드 분석에서 마이그레이션하는, 하는 경우 이러한 규칙 집합을 사용 하면 이전에 사용한 동일한 규칙 구성을 사용 하 여 계속 수 있습니다.
 
@@ -41,7 +41,7 @@ Roslyn 분석기를 레거시 "FxCop" 정적 코드 분석에서 마이그레이
 
 또한 각 범주의 성능 또는 보안과 같은 패키지에 대 한 규칙에 대 한 두 규칙 집합이 있습니다. 하나의 규칙 집합 범주에 대 한 모든 규칙 있으며 하나의 규칙 집합 범주에 각 규칙에 대 한 기본 심각도 및 사용 설정을 따릅니다.
 
- 합니다 [Microsoft.CodeAnalysis.FxCopAnalyzers NuGet 분석기 패키지](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) 레거시 "FxCop" 정적 코드 분석에 사용할 수 있는 규칙 집합에 맞게의 범주에 대 한 규칙 집합을 포함 합니다.
+합니다 [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet 분석기 패키지는 일치 하는 규칙 집합 레거시 "FxCop" 정적 코드 분석에 사용할 수 있는 다음 범주에 대 한 규칙 집합에 포함 합니다.
 
 - 디자인
 - 문서
@@ -54,7 +54,8 @@ Roslyn 분석기를 레거시 "FxCop" 정적 코드 분석에서 마이그레이
 
 ## <a name="see-also"></a>참고자료
 
+- [분석기 FAQ](analyzers-faq.md)
 - [.NET Compiler Platform 분석기 개요](roslyn-analyzers-overview.md)
-- [.NET 컴파일러 플랫폼 분석기 설치](install-roslyn-analyzers.md)
-- [구성 및 Roslyn 분석기 규칙 사용](use-roslyn-analyzers.md)
+- [분석기를 설치 합니다.](install-roslyn-analyzers.md)
+- [분석기를 사용 합니다.](use-roslyn-analyzers.md)
 - [코드 분석 규칙 그룹화를 사용 하 여 규칙 집합](using-rule-sets-to-group-code-analysis-rules.md)

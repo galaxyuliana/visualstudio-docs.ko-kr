@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 946dcfecb43aa5a0390f752b5e40cb5869bb1b68
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1194dba5069913d01a6e4858801ea2890db94224
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635204"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57871606"
 ---
 # <a name="author-a-windows-installer-package"></a>Windows Installer 패키지를 작성 합니다.
 데이터 드라이브는 Windows Installer 모델입니다. 레지스트리 항목을 쓰고 파일을 복사 하는 절차 스크립트를 작성 하는 대신 예를 들어 만든 파일 및 레지스트리 데이터를 포함 하는 데이터베이스 테이블의 행과 열입니다.
@@ -47,7 +47,7 @@ VSPackage를 설치 하려면 Windows Installer 패키지를 다음 작업을 �
 
    Windows Installer XML (WiX) 도구 집합 XML 소스 파일에서 Windows Installer 패키지를 빌드합니다. WiX 도구 집합 Microsoft 오픈 소스 프로젝트입니다. 소스 코드 및 실행 파일을 다운로드할 수 있습니다 [Wix 도구 집합](http://sourceforge.net/projects/wix)합니다.
 
-   에 통합 하는 상용 제품에 대 한 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 를 사용 하 여는 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]를 참조 하십시오 [ http://visualstudiogallery.com ](http://visualstudiogallery.com/)합니다.
+   에 통합 하는 상용 제품에 대 한 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 를 사용 하 여는 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]를 참조 하십시오 [Visual Studio Marketplace](https://marketplace.visualstudio.com/)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Windows Installer를 사용 하 여 Vspackage 설치](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

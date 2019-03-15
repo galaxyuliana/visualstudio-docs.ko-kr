@@ -1,24 +1,26 @@
 ---
-title: 디자인에 대 한 새로운 기능
+title: Visual Studio 2017의 디자인에 대 한 새로운 기능
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-- what's new [VIsual Studio ALM], architecture and modeling
-- architecture [Visual Studio Ultimate], modeling
-- modeling software [Visual Studio ALM], What's New
+- what's new [Visual Studio], architecture and modeling
+- architecture [Visual Studio], modeling
+- modeling software [Visual Studio], What's New
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7f6e43b27695e582e75b27258875f2276a558ca1
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+monikerRange: vs-2017
+ms.openlocfilehash: fb7ef710d117318d475e32f19b5ca2511b94f8bc
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223379"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57869891"
 ---
-# <a name="whats-new-for-design-in-visual-studio"></a>Visual Studio의 디자인에 대한 새로운 기능
+# <a name="whats-new-for-design-in-visual-studio-2017"></a>Visual Studio 2017의 디자인에 대 한 새로운 기능
 
 ## <a name="live-dependency-validation"></a>실시간 종속성 유효성 검사
 

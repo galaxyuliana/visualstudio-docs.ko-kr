@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5495d5aaa3591a5d090b9c0324fb75d2f17d9a4a
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: c97e7a32d0229f5a2adcd90a42490e568344acf6
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316771"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867983"
 ---
 # <a name="create-a-wpf-toolbox-control"></a>WPF 도구 상자 컨트롤 만들기
 WPF (Windows Presentation Framework) 도구 상자 컨트롤 템플릿을 통해 자동으로 추가 되는 WPF 컨트롤을 만들 수는 **도구 상자** 확장이 설치 되는 경우. 이 항목에서는 템플릿을 사용 하 여 만드는 방법을 보여 줍니다.는 **도구 상자** 컨트롤을 다른 사용자에 게 배포할 수 있습니다.
@@ -97,4 +97,4 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 
 3. 업로드 합니다 *.vsix* 네트워크 또는 웹 사이트에 파일입니다.
 
-    파일을 업로드 하는 경우는 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트를 다른 사용자가 사용할 수 있습니다 **도구** > **확장 및 업데이트** 컨트롤을 찾는 데 Visual Studio에서 온라인 설치 합니다.
+    파일을 업로드 하는 경우는 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트를 다른 사용자가 사용할 수 있습니다 **도구** > **확장 및 업데이트** 찾으려면 Visual Studio에는 온라인 제어 하 고 설치 합니다.

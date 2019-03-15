@@ -1,6 +1,6 @@
 ---
 title: 'CA1063: IDisposable을 올바르게 구현하십시오.'
-ms.date: 02/12/2018
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
 - ImplementIDisposableCorrectly
@@ -16,12 +16,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: e4bc426162919f4112ffdfcc0fbeeb0fefd2f09e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 22ecfcdd6dc20f5837622ec2cc3469f11c7efa8c
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55945757"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57868316"
 ---
 # <a name="ca1063-implement-idisposable-correctly"></a>CA1063: IDisposable을 올바르게 구현하십시오.
 
@@ -52,7 +52,9 @@ ms.locfileid: "55945757"
 
 이러한 패턴 중 하나를 위반 CA1063 경고를 트리거합니다.
 
-모든 봉인 되지 않은 형식 선언 및 구현에 <xref:System.IDisposable> 인터페이스 자체 보호 된 가상 void dispose (bool) 메서드를 제공 해야 합니다. Dispose () Dipose(true)를 호출 해야 하 고 종료자에서 dispose (false)를 호출 해야 합니다. 선언 하 고 구현 하는 봉인 되지 않은 형식을 만드는 경우는 <xref:System.IDisposable> 인터페이스 dispose (bool)을 정의 하 고 호출 해야 합니다. 자세한 내용은 [관리 되지 않는 리소스 (.NET 가이드)를 정리](/dotnet/standard/garbage-collection/unmanaged) 하 고 [Dispose 패턴](/dotnet/standard/design-guidelines/dispose-pattern)합니다.
+모든 봉인 되지 않은 형식 선언 및 구현에 <xref:System.IDisposable> 인터페이스를 제공 해야 자체 `protected virtual void Dispose(bool)` 메서드. `Dispose()` 호출 해야 합니다 `Dipose(true)`, 종료자를 호출 해야 하 고 `Dispose(false)`입니다. 선언 하 고 구현 하는 봉인 되지 않은 형식을 만드는 경우 합니다 <xref:System.IDisposable> 정의 해야 인터페이스 `Dispose(bool)` 호출 합니다. 자세한 내용은 [관리 되지 않는 리소스 (.NET 가이드)를 정리](/dotnet/standard/garbage-collection/unmanaged) 하 고 [Dispose 패턴](/dotnet/standard/design-guidelines/dispose-pattern)합니다.
+
+기본적으로이 규칙만 살펴봅니다 형식 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -83,6 +85,16 @@ ms.locfileid: "55945757"
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 
 이 규칙에서는 경고를 표시해야 합니다.
+
+## <a name="configurability"></a>용이성
+
+이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+
+```
+dotnet_code_quality.ca1063.api_surface = private, internal
+```
+
+이 범주 (디자인)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
 
 ## <a name="pseudo-code-example"></a>의사 (pseudo) 코드 예제
 

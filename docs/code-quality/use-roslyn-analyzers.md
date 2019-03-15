@@ -1,5 +1,5 @@
 ---
-title: Roslyn 분석기 구성 및 사용
+title: 분석기 규칙 심각도 및 제거
 ms.date: 03/26/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,14 +11,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 887fb6101773a86d346215f558f10216ca4612b8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a2b874a3bddfbfb7831b286cec0887f24ce6bcb8
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55924606"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57873504"
 ---
-# <a name="configure-and-use-roslyn-analyzer-rules"></a>구성 및 Roslyn 분석기 규칙 사용
+# <a name="use-roslyn-analyzers"></a>Roslyn 분석기를 사용 합니다.
 
 .NET 컴파일러 플랫폼 ("Roslyn") 분석기 규칙 또는 *진단*를 입력할 때 C# 또는 Visual Basic 코드를 분석 합니다. 각 진단의 프로젝트에 대 한 덮어쓸 수 있는 기본 심각도 및 표시 안 함 상태입니다. 이 문서에서는 규칙 집합을 사용 하 고 위반 표시 안 함 설정 규칙 심각도 설명 합니다.
 
@@ -91,7 +91,7 @@ A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.m
 
 ### <a name="to-set-rule-severity-in-the-rule-set-file"></a>규칙을 설정 하려면 규칙의 심각도 설정 파일
 
-1. 열기 규칙 집합 파일에 두 번 클릭 **솔루션 탐색기**을 선택 하면 **활성 규칙 집합 열기** 오른쪽 클릭 메뉴에서를 **분석기** 노드를 선택 하 여 **엽니다** 에 **코드 분석** 프로젝트 속성 페이지.
+1. 열기는 [규칙 집합](analyzer-rule-sets.md) 파일에서 두 번 클릭 하 여 **솔루션 탐색기**을 선택 하면 **활성 규칙 집합 열기** 오른쪽 클릭 메뉴에는 **분석기** 노드를 선택 하 여 **열려** 에 **코드 분석** 프로젝트 속성 페이지.
 
 1. 포함 된 어셈블리를 확장 하 여 규칙을 찾습니다.
 

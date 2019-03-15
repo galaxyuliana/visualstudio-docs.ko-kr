@@ -1,6 +1,6 @@
 ---
 title: 'CA1008: 열거형에는 0 값이 있어야 합니다.'
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
 - CA1008
@@ -18,12 +18,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 4d8d7646ddb294cef27b58b5b5e212c33b11fb46
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 4bb79d2944bdb49c59fd53fb30e1497c57c5c516
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955299"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57868287"
 ---
 # <a name="ca1008-enums-should-have-zero-value"></a>CA1008: 열거형에는 0 값이 있어야 합니다.
 
@@ -36,7 +36,9 @@ ms.locfileid: "55955299"
 
 ## <a name="cause"></a>원인
 
-적용 되지 않은 열거형 <xref:System.FlagsAttribute?displayProperty=fullName> 0 또는 적용 된 열거형의 값이 있는 멤버를 정의 하지 않습니다 <xref:System.FlagsAttribute> 멤버 정의 합니다. 0 값이 있는 있지만 해당 이름이 'None', 또는 열거형 값이 0 인 여러 정의 멤버입니다.
+적용 되지 않은 열거형 <xref:System.FlagsAttribute?displayProperty=fullName> 0 값을 가진 멤버를 정의 하지 않습니다. 또는 적용 된 열거형 <xref:System.FlagsAttribute> 멤버 정의 합니다. 값 0이 아닌 이름 '없음'입니다. 열거형은 여러 정의 또는 0 값을 가진 멤버입니다.
+
+기본적으로이 규칙만 살펴봅니다 열거형 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -51,6 +53,16 @@ ms.locfileid: "55955299"
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 
 에 이전에 제공 된 플래그 특성을 사용 하는 열거형을 제외 하 고이 규칙에서 경고를 표시 하지 마십시오.
+
+## <a name="configurability"></a>용이성
+
+이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+
+```
+dotnet_code_quality.ca1008.api_surface = private, internal
+```
+
+이 범주 (디자인)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
 
 ## <a name="example"></a>예제
 

@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4ff2be60979298de7a4c10e55285f1cdedc01ba9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 43a147db40ef8e604a3ae7fd8a72f9eb6a704e63
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954467"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867750"
 ---
 # <a name="how-to-add-a-drag-and-drop-handler"></a>방법: 끌어서 놓기 처리기 추가
 
@@ -70,7 +70,7 @@ using System.Linq;
 
      자세한 내용은 [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)합니다.
 
-끌어 온 항목이 적절한지 여부를 확인하도록 `IsAcceptableDropItem(e)`을 정의하고 항목을 놓을 때 모델을 업데이트하도록 ProcessDragDropItem(e)을 정의합니다. 이러한 메서드는 먼저 이벤트 인수에서 항목을 추출해야 합니다. 그렇게 하는 방법에 대 한 정보를 참조 하세요 [끌어 온된 항목에 대 한 참조를 가져오는 방법을](#extracting)합니다.
+끌어 온 항목이 적절한지 여부를 확인하도록 `IsAcceptableDropItem(e)`을 정의하고 항목을 놓을 때 모델을 업데이트하도록 ProcessDragDropItem(e)을 정의합니다. 이러한 메서드는 먼저 이벤트 인수에서 항목을 추출해야 합니다. 그렇게 하는 방법에 대 한 정보를 참조 하세요 [끌어 온된 항목에 대 한 참조를 가져오는 방법을](#to-send-an-object-from-a-source-dsl)합니다.
 
 ## <a name="define-gesture-handlers-by-using-mef"></a>MEF를 사용 하 여 제스처 처리기 정의
 
@@ -114,7 +114,7 @@ MEF(Managed Extensibility Framework)를 사용하면 최소한의 구성으로 �
 
      여러 형식의 개체를 끌어 온 등의 경우에는 둘 이상의 제스처 처리기 구성 요소를 만들 수 있습니다.
 
-3.  대상 모양, 연결선 또는 다이어그램 클래스에 대해 partial 클래스 정의를 추가하고 `IsAcceptableDropItem()` 및 `ProcessDragDropItem()` 메서드를 정의합니다. 이러한 메서드는 먼저 이벤트 인수에서 끈 항목을 추출해야 합니다. 자세한 내용은 [끌어 온된 항목에 대 한 참조를 가져오는 방법을](#extracting)합니다.
+3.  대상 모양, 연결선 또는 다이어그램 클래스에 대해 partial 클래스 정의를 추가하고 `IsAcceptableDropItem()` 및 `ProcessDragDropItem()` 메서드를 정의합니다. 이러한 메서드는 먼저 이벤트 인수에서 끈 항목을 추출해야 합니다. 자세한 내용은 [끌어 온된 항목에 대 한 참조를 가져오는 방법을](#to-send-an-object-from-a-source-dsl)합니다.
 
 ## <a name="how-to-decode-the-dragged-item"></a>끌어 온 항목을 디코딩하는 방법
 
@@ -132,7 +132,7 @@ MEF(Managed Extensibility Framework)를 사용하면 최소한의 구성으로 �
 
          `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
 
-         소스의 모델 버스 참조와 같은 개체를 고유한 사용자 지정 형식으로 전송할 수도 있습니다. 자세한 내용은 [끌어서 놓기에서 모델 버스 참조 보내기 방법](#mbr)합니다.
+         소스의 모델 버스 참조와 같은 개체를 고유한 사용자 지정 형식으로 전송할 수도 있습니다. 자세한 내용은 [끌어서 놓기에서 모델 버스 참조 보내기 방법](#to-send-an-object-from-a-source-dsl)합니다.
 
 -   <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> `Prototype` -사용자가 DSL 또는 UML 모델에서 항목을 끌어 하도록 하려는 경우이 속성을 사용 합니다. 요소 그룹 프로토타입은 하나 이상의 개체, 링크 및 해당 속성 값을 포함하며 붙여넣기 작업과 도구 상자에서 요소를 추가할 때도 사용됩니다. 프로토타입에서는 개체와 해당 형식을 GUID로 식별합니다. 예를 들어 다음 코드를 사용하면 UML 다이어그램 또는 UML 모델 탐색기에서 클래스 요소를 끌어 놓을 수 있습니다.
 

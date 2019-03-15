@@ -19,12 +19,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bda2ae00b02d097b8684499c9343b5709dd35c8e
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 6286c787b1f69c0e44541e156b06440c7267f79d
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223197"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57870362"
 ---
 # <a name="validate-code-with-dependency-diagrams"></a>종속성 다이어그램을 사용하여 코드 유효성 검사
 
@@ -102,14 +102,14 @@ Visual Studio에서 열기 종속성 다이어그램을에서 수동으로 또�
     > [!NOTE]
     > 기본적으로 **빌드 작업** 종속성 다이어그램 (.layerdiagram) 파일에 속성이로 설정 된 **유효성 검사** 다이어그램 유효성 검사 프로세스에 포함 되어 있도록 합니다.
 
-     합니다 **오류 목록** 창에 나타나는 모든 오류를 보고 합니다. 유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다.
+     합니다 **오류 목록** 창에 나타나는 모든 오류를 보고 합니다. 유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 문제 해결](#troubleshoot-layer-validation-issues)합니다.
 
 2.  각 오류의 소스를 보려면에서 오류를 두 번 클릭 합니다 **오류 목록** 창입니다.
 
     > [!NOTE]
     > Visual Studio에서는 오류 소스 대신 코드 맵에 표시할 수 있습니다. 이 코드는 종속성 다이어그램에 지정 되지 않은 어셈블리에 대 한 종속성 또는 코드 종속성 다이어그램에 지정 된 종속성이 없는 경우 발생 합니다. 이 경우 코드 맵이나 코드를 검토하여 종속성이 있어야 하는지 여부를 확인합니다. 코드 맵에 대 한 자세한 내용은 참조 하세요. [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)합니다.
 
-3.  오류를 관리 하려면 참조 [유효성 검사 오류 관리](#ManageErrors)합니다.
+3.  오류를 관리 하려면 참조 [레이어 유효성 검사 오류 해결](#resolve-layer-validation-errors)합니다.
 
 ### <a name="validate-code-at-the-command-prompt"></a>명령 프롬프트에서 코드 유효성 검사
 
@@ -147,7 +147,7 @@ Visual Studio에서 열기 종속성 다이어그램을에서 수동으로 또�
 
      발생하는 모든 오류가 나열됩니다. MSBuild에 대 한 자세한 내용은 참조 하세요. [MSBuild](../msbuild/msbuild.md) 하 고 [MSBuild 작업](../msbuild/msbuild-task.md)합니다.
 
-   유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다.
+   유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 문제 해결](#troubleshoot-layer-validation-issues)합니다.
 
 ### <a name="manage-validation-errors"></a>유효성 검사 오류 관리
 
@@ -195,11 +195,11 @@ Visual Studio에서 열기 종속성 다이어그램을에서 수동으로 또�
 
     종속성 다이어그램을 유효성 검사 프로세스에 포함 됩니다.
 
-오류 목록 창에서 오류를 관리 하려면 참조 [유효성 검사 오류 관리](#ManageErrors)합니다.
+오류 목록 창에서 오류를 관리 하려면 참조 [레이어 유효성 검사 오류 해결](#resolve-layer-validation-errors)합니다.
 
 ## <a name="troubleshoot-layer-validation-issues"></a>레이어 유효성 검사 문제 해결
 
-다음 표에서는 레이어 유효성 검사 문제와 해결 방법에 대해 설명합니다. 이 문제는 코드와 디자인 간의 충돌로 인해 발생하는 오류와 다릅니다. 이러한 오류에 대 한 자세한 내용은 참조 하세요. [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다.
+다음 표에서는 레이어 유효성 검사 문제와 해결 방법에 대해 설명합니다. 이 문제는 코드와 디자인 간의 충돌로 인해 발생하는 오류와 다릅니다. 이러한 오류에 대 한 자세한 내용은 참조 하세요. [레이어 유효성 검사 문제 해결](#troubleshoot-layer-validation-issues)합니다.
 
 |**문제**|**가능한 원인**|**해결**|
 |-|-|-|

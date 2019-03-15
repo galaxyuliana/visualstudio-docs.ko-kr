@@ -1,6 +1,6 @@
 ---
 title: 'CA2217: 열거형을 FlagsAttribute로 표시하지 마세요.'
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
 - DoNotMarkEnumsWithFlags
@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ce4036ef3c0c9ea177ea4225ed10ca7cfe128697
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 94666390cc49f365b9f036b076bcd97d68d4edb9
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926816"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57872290"
 ---
 # <a name="ca2217-do-not-mark-enums-with-flagsattribute"></a>CA2217: 열거형을 FlagsAttribute로 표시하지 마세요.
 
@@ -36,7 +36,9 @@ ms.locfileid: "55926816"
 
 ## <a name="cause"></a>원인
 
-외부에 표시 되는 열거형으로 표시 된 <xref:System.FlagsAttribute>, 및 두 개 이상 있어 더 많은 값의 거듭제곱 두 또는 다른 조합 되지 않는 열거형에 값을 정의 합니다.
+열거형으로 표시 된 <xref:System.FlagsAttribute> 및 두 개 이상 있어 더 많은 값의 거듭제곱 두 또는 다른 조합 되지 않는 열거형에 값을 정의 합니다.
+
+기본적으로이 규칙만 살펴봅니다 열거형 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -50,17 +52,25 @@ ms.locfileid: "55926816"
 
 이 규칙에서는 경고를 표시해야 합니다.
 
-## <a name="example-that-should-not-have-the-attribute"></a>특성이 없어야 하는 예제
+## <a name="configurability"></a>용이성
 
-다음 예제에서는 열거형 `Color`, 3 값이 들어 있는입니다. 3 개 정의 된 값의 조합을 활용 아닙니다. 합니다 `Color` 열거형으로 표시 해서는 안 됩니다 <xref:System.FlagsAttribute>합니다.
+이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+
+```
+dotnet_code_quality.ca2217.api_surface = private, internal
+```
+
+이 범주 (사용량)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
+
+## <a name="examples"></a>예제
+
+다음 코드에서는 열거형 `Color`, 3 값이 들어 있는입니다. 3 개 정의 된 값의 조합을 활용 아닙니다. 합니다 `Color` 열거형으로 표시 해서는 안 됩니다 <xref:System.FlagsAttribute>합니다.
 
 [!code-cpp[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CPP/ca2217-do-not-mark-enums-with-flagsattribute_1.cpp)]
 [!code-csharp[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CSharp/ca2217-do-not-mark-enums-with-flagsattribute_1.cs)]
 [!code-vb[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/VisualBasic/ca2217-do-not-mark-enums-with-flagsattribute_1.vb)]
 
-## <a name="example-that-should-have-the-attribute"></a>특성에 있어야 하는 예제
-
-다음 예제에서는 열거형을 보여 줍니다 `Days`를 사용 하 여 표시 하는 것에 대 한 요구 사항을 충족 하는 <xref:System.FlagsAttribute>합니다.
+다음 코드는 열거형을 보여 줍니다 `Days`를 사용 하 여 표시 하는 것에 대 한 요구 사항을 충족 하는 <xref:System.FlagsAttribute>:
 
 [!code-cpp[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CPP/ca2217-do-not-mark-enums-with-flagsattribute_2.cpp)]
 [!code-csharp[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CSharp/ca2217-do-not-mark-enums-with-flagsattribute_2.cs)]

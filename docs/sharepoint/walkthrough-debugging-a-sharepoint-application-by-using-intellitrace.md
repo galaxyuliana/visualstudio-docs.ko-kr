@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ad0d12560b1da99beadf2e519d2e430e8d76a45f
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 6cf4cd222c511d1ae9071d07f0fab517e36eb30e
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54875371"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57868261"
 ---
 # <a name="walkthrough-debug-a-sharepoint-application-by-using-intellitrace"></a>연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램 디버그
 
@@ -33,15 +33,15 @@ IntelliTrace를 사용 하 여 SharePoint 솔루션을 보다 쉽게 디버깅�
 
  이 연습에서는 다음 작업을 수행합니다.
 
-- [기능 수신기 만들기](#BKMK_CreateReceiver)
+- [기능 수신기 만들기](#create-a-feature-receiver)
 
-- [기능 수신기에 코드 추가](#BKMK_AddCode)
+- [기능 수신기에 코드 추가](#add-code-to-the-feature-receiver)
 
-- [프로젝트 테스트](#BKMK_Test1)
+- [프로젝트 테스트](#test-the-project)
 
-- [Microsoft Monitoring Agent를 사용 하 여 IntelliTrace 데이터 수집](#BKMK_CollectDiagnosticData)
+- [Microsoft Monitoring Agent를 사용 하 여 IntelliTrace 데이터 수집](#collect-intellitrace-data-by-using-microsoft-monitoring-agent)
 
-- [디버깅 하 고 SharePoint 솔루션 수정](#BKMK_DebugSolution)
+- [디버깅 하 고 SharePoint 솔루션 수정](#debug-and-fix-the-sharepoint-solution)
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: 'CA1716: 식별자는 키워드와 달라야 합니다.'
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
 - IdentifiersShouldNotMatchKeywords
@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fb483206ba13f89f0a23667039bf5f1a9d740b73
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 279bcf3aecc2a637a7a36c2041ed63a72017a800
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910197"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57867734"
 ---
 # <a name="ca1716-identifiers-should-not-match-keywords"></a>CA1716: 식별자는 키워드와 달라야 합니다.
 
@@ -32,7 +32,9 @@ ms.locfileid: "55910197"
 
 ## <a name="cause"></a>원인
 
-네임 스페이스, 형식 또는 가상 또는 인터페이스 멤버의 이름에는 프로그래밍 언어로 예약된 된 키워드와 일치합니다.
+네임 스페이스, 형식 이름 또는 가상 또는 인터페이스 멤버에는 프로그래밍 언어로 예약 된 키워드와 일치 합니다.
+
+기본적으로이 규칙만 살펴봅니다 외부에 표시 되는 네임 스페이스, 형식 및 멤버 이지만 [구성할 수 있는](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -41,12 +43,10 @@ ms.locfileid: "55910197"
 이 규칙은 다음 언어의 키워드를 확인합니다.
 
 - Visual Basic
-
 - C#
-
 - C++/CLI
 
-대/소문자 구분 비교는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 키워드 및 대/소문자 구분 비교는 다른 언어에 사용 됩니다.
+Visual Basic 키워드 대/소문자 구분 비교를 사용 하 고 다른 언어는 대/소문자 구분 비교를 사용 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
@@ -54,4 +54,14 @@ ms.locfileid: "55910197"
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 
-식별자는 API의 사용자를 혼동 하지는 및 라이브러리를.NET Framework에서 사용 가능한 모든 언어에서 사용할 수 있는지 확신 하는 경우이 규칙에서 경고를 무시할 수 있습니다.
+식별자가 API의 사용자를 혼동 하지 않습니다 하 고 라이브러리를.NET에서 사용 가능한 모든 언어에서 사용할 수 있는지 확신 하는 경우이 규칙에서 경고를 무시할 수 있습니다.
+
+## <a name="configurability"></a>용이성
+
+이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+
+```
+dotnet_code_quality.ca1716.api_surface = private, internal
+```
+
+이 범주 (이름 지정)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.

@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1b726d13d77c56446ff19dbb477d29ec58627341
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 1b7fb3b82d56038695c728d2125658a7f51d31f6
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56690632"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57870480"
 ---
 # <a name="menus-and-commands-for-visual-studio"></a>Visual Studio의 메뉴 및 명령
 ## <a name="command-usage"></a>명령 사용법
@@ -229,7 +229,7 @@ ms.locfileid: "56690632"
 
 #### <a name="when-naming-commands"></a>경우는 명령 이름을 지정 합니다.
 
--   쉽게 지역화할 수 있도록 텍스트를 생성 합니다. 한 텍스트를 지역화 하는 방법에 대 한 자세한 내용은 [Visual Studio에 대 한 세계 대응성](http://msdn.microsoft.com/en-us/1cc35051-8126-441f-bea9-059245a47b1d)합니다.
+-   쉽게 지역화할 수 있도록 텍스트를 생성 합니다. 한 텍스트를 지역화 하는 방법에 대 한 자세한 내용은 [지역화에 대 한 유용한 정보](/dotnet/standard/globalization-localization/best-practices-for-developing-world-ready-apps#localization-best-practices)합니다.
 
 -   간결 하 게 됩니다. 명령은 세 개 이상의 단어를 사용 해야 합니다.
 

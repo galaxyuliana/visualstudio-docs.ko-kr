@@ -11,12 +11,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e0445e66b10ca8bfa0ae4f5d2c35246d71745788
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 79c27ec92d93f9f9cd88cc1155521b04ea7c2908
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604868"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57868106"
 ---
 # <a name="walkthrough-create-a-site-column-project-item-with-a-project-template-part-2"></a>연습: 2 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기
   사용자 지정 형식의 SharePoint 프로젝트 항목을 정의 하 고 Visual Studio에서 프로젝트 템플릿을 사용 하 여 연결 후 템플릿에 대 한 마법사를 제공 하려면 수도 있습니다. 프로젝트 항목을 포함 하는 새 프로젝트를 만드는 템플릿을 사용할 때 사용자 로부터 정보를 수집 하는 마법사를 사용할 수 있습니다. 정보를 수집 하는 프로젝트 항목을 초기화에 사용할 수 있습니다.
@@ -195,7 +195,7 @@ ms.locfileid: "56604868"
 
 - 서명 된 프로젝트 관리자입니다.
 
-  이러한 구성 요소에 대 한 자세한 내용은 참조 하세요. [마법사 구성 요소 이해](#wizardcomponents)합니다.
+  이러한 구성 요소에 대 한 자세한 내용은 참조 하세요. [마법사 구성 요소를 이해](#understand-the-wizard-components)합니다.
 
 #### <a name="to-define-the-sharepoint-command-ids"></a>SharePoint 명령 Id를 정의 하려면
 

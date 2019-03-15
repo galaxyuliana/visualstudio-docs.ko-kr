@@ -30,12 +30,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ddf7e7bf78baede7e964aeeed7484261fdab2ef7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d459f641983960fdd7c4c1ded3b90c0a578c42b3
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55924470"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57873670"
 ---
 # <a name="analyze-and-model-your-architecture"></a>아키텍처 분석 및 모델링
 
@@ -107,7 +107,7 @@ DSL은 특정 용도에 맞게 디자인하는 표기법입니다. Visual Studio
 
 [Visual Studio 시각화 및 모델링 도구 포럼](http://go.microsoft.com/fwlink/?LinkId=184720)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [새로운 기능](../modeling/what-s-new-for-design-in-visual-studio.md)
+- [Visual Studio 2017에서 모델링에 대 한 새로운 기능](../modeling/what-s-new-for-design-in-visual-studio.md)
 - [DevOps 및 응용 프로그램 수명 주기 관리](/azure/devops/user-guide/devops-alm-overview)

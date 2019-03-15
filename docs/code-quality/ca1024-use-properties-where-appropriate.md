@@ -1,6 +1,6 @@
 ---
 title: 'CA1024: 적합한 속성을 사용하세요.'
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
 - UsePropertiesWhereAppropriate
@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 8a3fba3a733381642999d7bccb5666b7db895b87
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e4008872a7cb96386ef702d21ba8a18d96037d83
+ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922305"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57869259"
 ---
 # <a name="ca1024-use-properties-where-appropriate"></a>CA1024: 적합한 속성을 사용하세요.
 
@@ -35,7 +35,9 @@ ms.locfileid: "55922305"
 
 ## <a name="cause"></a>원인
 
-Public 또는 protected 메서드가 시작 하는 이름을 가진 `Get`매개 변수가 없는 걸리고 배열이 아닌 값을 반환 합니다.
+메서드를 시작 하는 이름을 가진 `Get`매개 변수가 없는 걸리고 배열이 아닌 값을 반환 합니다.
+
+기본적으로이 규칙만 공용 및 보호 방법을 살펴보고, 이것이 [구성할 수 있는](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -69,11 +71,21 @@ Public 또는 protected 메서드가 시작 하는 이름을 가진 `Get`매개 
 
 메서드 앞에 나열 된 조건 중 하나 이상 만족 하는 경우이 규칙에서 경고를 표시 합니다.
 
-## <a name="controlling-property-expansion-in-the-debugger"></a>디버거에서 제어 속성 확장
+## <a name="configurability"></a>용이성
 
-프로그래머는 속성을 사용 하지 않도록 하는 이유 중 하나는 디버거를 자동으로 확장 하 고 싶지 않을 때문입니다. 예를 들어 큰 개체를 할당 또는 P/Invoke 호출 속성이 포함 될 수 있습니다 하지만 눈에 띄는 부작용 실제로 없는 경우.
+이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
 
-자동 확장에서 디버거를 방지할 수 있습니다 적용 하 여 속성 <xref:System.Diagnostics.DebuggerBrowsableAttribute?displayProperty=fullName>합니다. 다음 예제에서는 인스턴스 속성에 적용 되 고이 특성을 보여 줍니다.
+```
+dotnet_code_quality.ca1024.api_surface = private, internal
+```
+
+이 범주 (디자인)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
+
+## <a name="control-property-expansion-in-the-debugger"></a>디버거에서 제어 속성 확장
+
+자동 확장 하도록 디버거에 않으려는 프로그래머는 속성을 사용 하지 않도록 하는 이유 중 하나 이므로 해당 합니다. 예를 들어 큰 개체를 할당 또는 P/Invoke 호출 속성이 포함 될 수 있습니다 하지만 눈에 띄는 부작용 실제로 없는 경우.
+
+적용 하 여 autoexpanding 속성에서 디버거를 방지할 수 있습니다 <xref:System.Diagnostics.DebuggerBrowsableAttribute?displayProperty=fullName>합니다. 다음 예제에서는 인스턴스 속성에 적용 되 고이 특성을 보여 줍니다.
 
 ```vb
 Imports System
@@ -123,6 +135,6 @@ namespace Microsoft.Samples
 
 ## <a name="example"></a>예제
 
-다음 예제에서는 속성으로 변환 해야 하는 하며 몇몇 필드 처럼 작동 하지 않기 때문이 아니라 몇 가지 메서드를 포함 합니다.
+다음 예제에서는 속성으로 변환 해야 하는 하며 몇몇은 필드 처럼 동작 하지 때문이 아니라 몇 가지 메서드를 포함 합니다.
 
 [!code-csharp[FxCop.Design.MethodsProperties#1](../code-quality/codesnippet/CSharp/ca1024-use-properties-where-appropriate_1.cs)]
