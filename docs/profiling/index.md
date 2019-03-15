@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
 title: 프로파일링을 사용하여 앱 성능 측정 | Microsoft Docs
-description: 'Visual Studio 2017을 사용하여 원하는 언어로 애플리케이션, 서비스 및 도구의 성능을 프로파일링하는 방법을 알아보세요.'
+description: 'Visual Studio를 사용하여 원하는 언어로 애플리케이션, 서비스 및 도구의 성능을 프로파일링하는 방법을 알아보세요.'
 ms.custom: seodec18
 ms.topic: landing-page
 author: mikejo5000
