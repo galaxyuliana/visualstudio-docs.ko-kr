@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 548a8a4ec05c0ee88e68095a5322a8831e77b9b4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 664d323976692d20a3f9f9bb8a7e66c0aa4f9761
+ms.sourcegitcommit: 4ffb7be5384ad566ce46538032bf8561754c61a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937347"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "58069608"
 ---
 # <a name="msi-and-vsix-deployment-of-a-dsl"></a>DSL의 MSI 및 VSIX 배포
 사용자 고유의 컴퓨터 또는 다른 컴퓨터에 도메인 특정 언어를 설치할 수 있습니다. Visual Studio는 이미 대상 컴퓨터에 설치 되어야 합니다.
@@ -26,13 +26,14 @@ ms.locfileid: "55937347"
 |MSI (설치 관리자 파일)|-Visual Studio DSL 파일을 두 번 클릭 하 여 할 수 있습니다.<br />-대상 컴퓨터에서 DSL 파일 형식을 사용 하 여 아이콘을 연결합니다.<br />-DSL 파일 형식을 사용 하 여 XSD (XML 스키마)에 연결합니다. 이 파일은 Visual Studio에 로드 되 면 경고를 방지 합니다.<br /><br /> MSI를 만들려는 솔루션에는 설치 프로젝트를 추가 해야 합니다.<br /><br /> 자세한 내용은 [MSI 파일을 사용 하 여 DSL을 배포](#msi)합니다.|
 
 ## <a name="Installing"></a> 설치 하 고는 VSX를 사용 하 여 DSL을 제거 합니다.
- DSL이이 메서드에 의해 설치 되 면 사용자는 Visual Studio 내에서 DSL 파일을 열 수 있지만 Windows 탐색기에서 파일을 열 수 없습니다.
 
-#### <a name="to-install-a-dsl-by-using-the-vsx"></a>VSX를 사용 하 여 DSL을 설치 하려면
+DSL이이 메서드에 의해 설치 되 면 사용자는 Visual Studio 내에서 DSL 파일을 열 수 있지만 Windows 탐색기에서 파일을 열 수 없습니다.
 
-1. 컴퓨터에서 찾을 합니다 **.vsix** DSL 패키지 프로젝트에서 만든 파일입니다.
+### <a name="to-install-a-dsl-by-using-the-vsx"></a>VSX를 사용 하 여 DSL을 설치 하려면
 
-   1.  **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 합니다 **DslPackage** 프로젝트를 마우스 클릭 **Windows 탐색기에서 폴더 열기**합니다.
+1. 찾을 합니다 **.vsix** DSL 패키지 프로젝트에서 빌드된 파일:
+
+   1.  **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 합니다 **DslPackage** 프로젝트를 마우스 클릭 **파일 탐색기에서 폴더 열기**합니다.
 
    2.  파일을 찾습니다 **bin\\\*\\**_YourProject_**합니다. DslPackage.vsix**
 
@@ -50,9 +51,9 @@ ms.locfileid: "55937347"
 
 5. DSL을 테스트 하려면 Visual Studio를 사용 하 여 DSL에 정의 된 확장명을 가진 새 파일을 만듭니다.
 
-#### <a name="to-uninstall-a-dsl-that-was-installed-by-using-vsx"></a>VSX를 사용 하 여 설치 된 DSL을 제거 하려면
+### <a name="to-uninstall-a-dsl-that-was-installed-by-using-vsx"></a>VSX를 사용 하 여 설치 된 DSL을 제거 하려면
 
-1. 에 **도구** 메뉴에서 클릭 **확장 관리자**합니다.
+1. **도구** 메뉴 모음에서 **확장 및 업데이트**를 선택합니다.
 
 2. **설치된 확장**을 확장합니다.
 
@@ -69,7 +70,7 @@ ms.locfileid: "55937347"
 
  MSI를 빌드하려면 Visual Studio 솔루션에는 설치 프로젝트를 추가 합니다. 설치 프로젝트를 만드는 가장 쉬운 방법에서 다운로드할 수 있는 CreateMsiSetupProject.tt 템플릿을 사용 하는 것은 [VMSDK 사이트](http://go.microsoft.com/fwlink/?LinkID=186128)합니다.
 
-#### <a name="to-deploy-a-dsl-in-an-msi"></a>DSL의 MSI 배포 하려면
+### <a name="to-deploy-a-dsl-in-an-msi"></a>DSL의 MSI 배포 하려면
 
 1. 설정 `InstalledByMsi` 확장 매니페스트에서 합니다. 이 설치 하 고 제외 하 고 MSI가 제거 되는 VSX 방지 합니다. 이 MSI에 다른 구성 요소를 포함 하는 경우 중요 합니다.
 
@@ -127,7 +128,7 @@ ms.locfileid: "55937347"
 
     원한다 면 텍스트 템플릿을 사용 하는 대신 수동으로 설치 프로젝트를 만들 수 있습니다. 이 절차를 포함 하는 연습은의 5 장 참조를 [Visualization and Modeling SDK 랩](http://go.microsoft.com/fwlink/?LinkId=208878)합니다.
 
-#### <a name="to-uninstall-a-dsl-that-was-installed-from-an-msi"></a>MSI에서 설치 된 DSL을 제거 하려면
+### <a name="to-uninstall-a-dsl-that-was-installed-from-an-msi"></a>MSI에서 설치 된 DSL을 제거 하려면
 
 1.  Windows, 엽니다는 **프로그램 및 기능** 제어판입니다.
 
