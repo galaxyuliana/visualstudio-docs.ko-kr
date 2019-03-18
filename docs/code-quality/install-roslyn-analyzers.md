@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 738246e3c35ec5019dd0f793d86a5447bd7556fb
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 2b1859d422b0f3a76947a64e754521efcda46e65
+ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57222937"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57982937"
 ---
 # <a name="install-net-compiler-platform-analyzers"></a>.NET 컴파일러 플랫폼 분석기 설치
 
@@ -37,12 +37,27 @@ Visual Studio.NET 컴파일러 플랫폼의 핵심 집합을 포함 되어 있�
 
 ## <a name="to-install-vsix-analyzers"></a>VSIX 분석기를 설치 하려면
 
+::: moniker range="vs-2017"
+
 1. Visual Studio에서 선택 **도구가** > **확장 및 업데이트**합니다.
 
    **확장명 및 업데이트** 대화 상자가 열립니다.
 
    > [!NOTE]
    > 또는 찾기 및 다운로드할 수 있습니다 분석기 확장에서 직접 [Visual Studio Marketplace](https://marketplace.visualstudio.com)합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio에서 선택 **Extensions** > **확장 관리**합니다.
+
+   합니다 **확장 관리** 대화 상자가 열립니다.
+
+   > [!NOTE]
+   > 또는 찾기 및 다운로드할 수 있습니다 분석기 확장에서 직접 [Visual Studio Marketplace](https://marketplace.visualstudio.com)합니다.
+
+::: moniker-end
 
 2. 확장 **Online** 한 다음 선택한 왼쪽된 창의 **Visual Studio Marketplace**합니다.
 
@@ -64,7 +79,17 @@ Visual Studio.NET 컴파일러 플랫폼의 핵심 집합을 포함 되어 있�
 
 8. Visual Studio를 다시 엽니다.
 
+::: moniker range="vs-2017"
+
 확장 설치를 선택 하는지 여부를 확인 하려는 경우 **도구가** > **확장 및 업데이트**합니다. 에 **확장 및 업데이트** 대화 상자에서를 **설치 된** 왼쪽의 범주 이름으로 확장 한 다음 검색 합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+확장 설치를 선택 하는지 여부를 확인 하려는 경우 **Extensions** > **확장 관리**합니다. 에 **확장 관리** 대화 상자에서를 **설치 된** 왼쪽의 범주 이름으로 확장 한 다음 검색 합니다.
+
+::: moniker-end
 
 ## <a name="next-steps"></a>다음 단계
 
