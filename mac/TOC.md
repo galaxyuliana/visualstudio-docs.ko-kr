@@ -33,7 +33,7 @@
 ## [블록 선택](block-selection.md)
 ## [편집기 테마](editor-themes.md)
 ## [EditorConfig](editorconfig.md)
-## [일반적인 바로 가기 키](keyboard-shortcuts.md)
+## [기본 바로 가기 키](keyboard-shortcuts.md)
 
 # [디버깅](debugging.md)
 ## [데이터 시각화](data-visualizations.md)
