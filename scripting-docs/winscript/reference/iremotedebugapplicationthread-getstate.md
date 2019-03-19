@@ -2,7 +2,6 @@
 title: IRemoteDebugApplicationThread::GetState | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 481beb69d2c4729bb2a030d257e802598131ea00
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 6534f57c92776dcd3cde9083335becbd66002a32
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54088883"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58152995"
 ---
 # <a name="iremotedebugapplicationthreadgetstate"></a>IRemoteDebugApplicationThread::GetState
 이 스레드의 상태를 가져옵니다.  
@@ -43,8 +42,8 @@ HRESULT GetState(
 |상수|값|설명|  
 |--------------|-----------|-----------------|  
 |THREAD_STATE_RUNNING|0x00000001|스레드 실행 중입니다.|  
-|THREAD_STATE_SUSPENDED|0x00000002|스레드가 일시 중단되었습니다.|  
-|THREAD_BLOCKED|0x00000004|스레드가 차단되었습니다.|  
+|THREAD_STATE_SUSPENDED|0x00000002|스레드가 일시 중단 됩니다.|  
+|THREAD_BLOCKED|0x00000004|스레드가 차단 됩니다.|  
 |THREAD_OUT_OF_CONTEXT|0x00000008|스레드 콘텐츠를 벗어났습니다.|  
   
 ## <a name="return-value"></a>반환 값  
