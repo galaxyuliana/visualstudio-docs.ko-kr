@@ -2,7 +2,6 @@
 title: IActiveScriptProfilerControl 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 7caa09f384ce460a3e73b21b10d6d8022182dde7
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 86f4fb8dea97930f717800a14a27740b76eb6c2e
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349493"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58160760"
 ---
 # <a name="iactivescriptprofilercontrol-interface"></a>IActiveScriptProfilerControl 인터페이스
 프로 파일링을 지 원하는 스크립팅 엔진에 의해 구현 됩니다. 일반적으로 구현 하는 개체를 `IActiveScriptProfilerControl` 도 구현 합니다 [IActiveScript](../../winscript/reference/iactivescript.md) 인터페이스입니다. 이 경우에 대 한 핸들을 가져올 수 있습니다 합니다 `IActiveScriptProfilerControl` 를 호출 하 여 인터페이스를 `IUnknown::QueryInterface` 개체의 메서드를 합니다. 인터페이스를 중지 하 고 스크립팅 엔진에서 프로 파일링을 시작 하 고 필요한 메서드를 제공 합니다.  

@@ -11,14 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f168a896c218f33735c4e67f43a9833a474191ed
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 5ccdd4cd8bafc4bc4a899ea47d62ec10e578569c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624193"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58148206"
 ---
 # <a name="new-project-generation-under-the-hood-part-two"></a>새 프로젝트 생성: 내부적으로 2 부
+
 [새 프로젝트 생성: 내부적으로 1 부](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) 살펴보았습니다 하는 방법을 **새 프로젝트** 대화 상자가 채워집니다. 선택한를 가정해 보겠습니다를 **Visual C# Windows 응용 프로그램**작성, 합니다 **이름** 및 **위치** 텍스트 상자 및 확인을 클릭된 합니다.
 
 ## <a name="generating-the-solution-files"></a>솔루션 파일 생성
@@ -31,7 +32,7 @@ ms.locfileid: "56624193"
 
  일반적인 프로젝트 항목 템플릿을 살펴보겠습니다. 추출 하 고 Program Files\Microsoft Visual Studio 8\Common7\IDE\ProjectTemplates\CSharp\Windows\1033\WindowsApplication.zip 폴더에서 Program.cs를 검사 합니다.
 
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -45,9 +46,9 @@ namespace $safeprojectname$
 }
 ```
 
- 템플릿을 대체 하는 간단한 라는 새 Windows 응용 프로그램 프로젝트를 만드는 경우는 `$safeprojectname$` 매개 변수를 프로젝트의 이름입니다.
+템플릿을 대체 하는 간단한 라는 새 Windows 응용 프로그램 프로젝트를 만드는 경우는 `$safeprojectname$` 매개 변수를 프로젝트의 이름입니다.
 
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -66,7 +67,7 @@ namespace Simple
 ## <a name="a-look-inside-a-vstemplate-file"></a>살펴보기를 합니다. VSTemplate 파일
  이 형식은 기본.vstemplate 파일을
 
-```
+```xml
 <VSTemplate Version="2.0.0"     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"     Type="Project">
     <TemplateData>
     </TemplateData>
@@ -79,7 +80,7 @@ namespace Simple
 
  태그는 \<TemplateContent > 새 프로젝트 및 프로젝트 항목의 생성 제어 섹션입니다. 다음은 \<TemplateContent > \Program Files\Microsoft Visual Studio 8\Common7\IDE\ProjectTemplates\CSharp\Windows\1033\WindowsApplication.zip 폴더 cswindowsapplication.vstemplate 파일에서 섹션입니다.
 
-```
+```xml
 <TemplateContent>
   <Project File="WindowsApplication.csproj" ReplaceParameters="true">
     <ProjectItem ReplaceParameters="true"
@@ -121,7 +122,7 @@ namespace Simple
 
  첫 번째이자 유일한 \<프로젝트 > 템플릿 읽기가 태그:
 
-```
+```xml
 <Project File="WindowsApplication.csproj" ReplaceParameters="true">
 ```
 
@@ -132,7 +133,7 @@ namespace Simple
 
  다음은 \<ItemGroup > 프로젝트 참조를 만드는 Simple.csproj에서:
 
-```
+```xml
 <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -145,7 +146,7 @@ namespace Simple
 
  이 솔루션 탐색기에 표시 되는 6 개의 프로젝트 참조를 확인할 수 있습니다. 다음은 다른 섹션 \<ItemGroup >. 여러 줄 코드의 명확성을 위해 삭제 되었습니다. 이 절에서는 Settings.Designer.cs를 Settings.settings에 따라 달라 집니다.
 
-```
+```xml
 <ItemGroup>
     <Compile Include="Properties\Settings.Designer.cs">
         <DependentUpon>Settings.settings</DependentUpon>
@@ -153,6 +154,7 @@ namespace Simple
 </ItemGroup>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
+
 - [새 프로젝트 생성: 내부적으로 1 부](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
 - [MSBuild](../../msbuild/msbuild.md)

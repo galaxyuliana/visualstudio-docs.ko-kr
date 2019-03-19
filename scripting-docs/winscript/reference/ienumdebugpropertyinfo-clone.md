@@ -2,7 +2,6 @@
 title: IEnumDebugPropertyInfo::Clone | Microsoft 문서
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: cfdd584f607638a5a8e91ff069e0f5a87329533e
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: b78ba4e1fd2a0e735d70109183b08072b03b3a0d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54344735"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58156920"
 ---
 # <a name="ienumdebugpropertyinfoclone"></a>IEnumDebugPropertyInfo::Clone
 현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.  

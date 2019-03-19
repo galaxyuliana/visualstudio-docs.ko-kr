@@ -2,7 +2,6 @@
 title: IActiveScriptProfilerCallback::Shutdown | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -16,12 +15,12 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: bbe5acd75ecf4f004d835490579b1f35c1bf675c
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 091ccc30f16081fdca8f10778efec208ef5ccb16
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54346295"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58154454"
 ---
 # <a name="iactivescriptprofilercallbackshutdown"></a>IActiveScriptProfilerCallback::Shutdown
 스크립팅 엔진에서 프로 파일링이 중지 될 때마다 프로파일러 개체를 알리기 위해 호출 됩니다. 이러한 방식으로 프로파일러 개체 수 루틴을 호출할 해당 정리, 필요한 경우. 이 또한 메서드는 스크립팅 엔진에서 호출 하 여 또는 스크립팅 엔진이 종료 될 때 [IActiveScriptProfilerCallback::Initialize](../../winscript/reference/iactivescriptprofilercallback-initialize.md) 실패 합니다.  

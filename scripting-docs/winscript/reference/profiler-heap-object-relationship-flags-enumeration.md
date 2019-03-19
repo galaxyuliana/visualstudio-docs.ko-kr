@@ -2,7 +2,6 @@
 title: PROFILER_HEAP_OBJECT_RELATIONSHIP_FLAGS 열거형 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 4
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: b78285f332b339533d81228de5877043f699a67c
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 322f6f3352c1b0dfad4572d55e1ebe2388c8cc4a
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349142"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58148167"
 ---
 # <a name="profilerheapobjectrelationshipflags-enumeration"></a>PROFILER_HEAP_OBJECT_RELATIONSHIP_FLAGS 열거형
 개체 관계에서 가리킨 힙 개체가 있는지 여부를 나타내는 플래그는 getter 또는 setter 메서드입니다. 에 사용 합니다 [EnumHeap2](../../winscript/reference/iactivescriptprofilercontrol5-enumheap2-method.md) 변수에 PROFILER_HEAP_OBJECT_RELATIONSHIP_FLAGS 값이 지정 된 경우 메서드는 `enumFlags` 매개 변수입니다.  

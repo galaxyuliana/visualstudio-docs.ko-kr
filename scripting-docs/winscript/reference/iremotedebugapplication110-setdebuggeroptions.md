@@ -2,7 +2,6 @@
 title: IRemoteDebugApplication110::SetDebuggerOptions | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 74662b6cfcfb641a59ac93c862bd38c6fa16a900
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 511d1f8b25aee4637455e3a5b8946f81f7410d65
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54346776"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58150831"
 ---
 # <a name="iremotedebugapplication110setdebuggeroptions"></a>IRemoteDebugApplication110::SetDebuggerOptions
 디버거 옵션을 업데이트 하기 위해 호출 됩니다. 이 메서드가 이후에 호출 되도록 [IRemoteDebugApplication::ConnectDebugger](../../winscript/reference/iremotedebugapplication-connectdebugger.md)합니다. 합니다 [IRemoteDebugApplication::DisconnectDebugger](../../winscript/reference/iremotedebugapplication-disconnectdebugger.md) 메서드 기본 옵션을 자동으로 다시 설정 합니다. 0 (SDO_NONE) 기본 옵션입니다.  

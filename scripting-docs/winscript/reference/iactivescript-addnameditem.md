@@ -2,7 +2,6 @@
 title: 'Iactivescript:: Addnameditem | Microsoft Docs'
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 4ae4a84821d0db226cbecb01e329e4f2941a675d
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: db0a97c01d948a0c26850ebd1c3f47c6e3900614
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54095097"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58151858"
 ---
 # <a name="iactivescriptaddnameditem"></a>IActiveScript::AddNamedItem
 스크립팅 엔진의 네임 스페이스에는 루트 수준 항목의 이름을 추가합니다. 루트 수준 항목은 속성 및 메서드, 이벤트 소스, 또는 세 가지 모두를 사용 하 여 개체.  
@@ -59,7 +58,7 @@ HRESULT AddNamedItem(
 |반환 값|의미|  
 |------------------|-------------|  
 |`S_OK`|명령 실행 성공|  
-|`E_INVALIDARG`|인수가 잘못된 경우.|  
+|`E_INVALIDARG`|인수가 잘못 되었습니다.|  
 |`E_POINTER`|잘못 된 포인터가 지정 되었습니다.|  
 |`E_UNEXPECTED`|호출이 필요 하지 않습니다 (예를 들어, 스크립팅 엔진에 아직 로드 되지 않았거나 초기화).|  
   

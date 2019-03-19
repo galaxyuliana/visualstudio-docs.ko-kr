@@ -2,7 +2,6 @@
 title: IDebugApplicationNode 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: d7bd38a0fbbdd596f6a1f6bb040190dddca78bf9
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 9be864fdb9468668633322066bbbcf11569e4eb3
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54348999"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58147906"
 ---
 # <a name="idebugapplicationnode-interface"></a>IDebugApplicationNode 인터페이스
 합니다 `IDebugApplicationNode` 인터페이스의 기능을 확장 합니다 `IDebugDocumentProvider` 프로젝트 트리 내에서 컨텍스트를 제공 하 여 인터페이스입니다.  

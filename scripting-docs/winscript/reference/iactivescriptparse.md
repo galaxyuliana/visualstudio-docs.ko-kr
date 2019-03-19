@@ -2,7 +2,6 @@
 title: IActiveScriptParse | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 8325ffcb21f1871ca742611e6587df02ef3b89c8
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: a987b4be3430f2ed8b0562f41b51a94797f96dc4
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349012"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58152186"
 ---
 # <a name="iactivescriptparse"></a>IActiveScriptParse
 Windows 스크립트 엔진을 스크립트에 추가 될 원시 텍스트 코드 스크립틀릿을 사용 하면 정보나 실행된 시간에 계산할 식 텍스트를 구현 하는지는 `IActiveScriptParse` 인터페이스입니다. VBScript와 같은 독립 없습니다 제작 환경에 있는 해석 된 스크립팅 언어에 대 한 대체 메커니즘을 제공 (이외의 `IPersist*`) 스크립팅 엔진에 스크립트 코드를 가져오려면 및 스크립트 조각 다양 한 개체에 연결 하려면 이벤트입니다.  

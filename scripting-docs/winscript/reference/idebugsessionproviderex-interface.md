@@ -2,7 +2,6 @@
 title: IDebugSessionProviderEx 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: fae1cf673f47d3be586f83320b2d2c38c817e2cf
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: c9bf341adeaeb17c8986b1b30b12f58113aef562
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349220"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58146775"
 ---
 # <a name="idebugsessionproviderex-interface"></a>IDebugSessionProviderEx 인터페이스
 디버거가 디버깅 호스트 및 언어에서 시작을 사용 하려면 IDE에서 제공 하는 기본 인터페이스입니다. 실행 중인 응용 프로그램에 대 한 디버그 세션을 설정합니다. 이 인터페이스는 컴퓨터 디버그 관리자에 의해 구현 됩니다.  

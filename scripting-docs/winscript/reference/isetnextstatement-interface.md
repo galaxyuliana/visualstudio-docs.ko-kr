@@ -2,7 +2,6 @@
 title: ISetNextStatement 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: ac2d6dd0da14be5a624cff0b55985770b8d70fdf
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: de300a7af8492e6431f6b8513cde84a15895ad96
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54344059"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58148427"
 ---
 # <a name="isetnextstatement-interface"></a>ISetNextStatement 인터페이스
 이 인터페이스는 현재 문을 업데이트 하려면 프로세스 디버그 관리자를 허용 하는 인터프리터에 의해 구현 됩니다. 스택 프레임 개체에서 구현 하 고 PDM QueryInterface 통해이 인터페이스를 가져옵니다.  

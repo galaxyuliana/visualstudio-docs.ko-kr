@@ -11,17 +11,17 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ca9786183f2d814459e650c6018a99d7ee37f6e1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a5c195697a94462ce1239318a309160220117b8e
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601025"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58146528"
 ---
 # <a name="project-persistence"></a>프로젝트 지속성
 지 속성은 프로젝트에 대 한 주요 디자인 고려 사항. 파일을 나타내는 프로젝트 항목을 사용 하는 대부분의 프로젝트 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 도 해당 데이터는 파일 기반 프로젝트를 지원 합니다. 프로젝트 및 프로젝트 파일을 소유한 파일 모두 유지 해야 합니다. IDE 자체 또는 프로젝트 항목을 저장 하려면 프로젝트에 지시 합니다.
 
- 프로젝트 템플릿에서 프로젝트 팩터리에 전달 됩니다. 템플릿은 특정 프로젝트 형식의 요구 사항에 따라 모든 프로젝트 항목의 초기화를 지원 해야 합니다. 이러한 템플릿은 프로젝트 파일로 저장 고 나중에 솔루션을 통해 IDE에 의해 관리 되는 수 있습니다. 자세한 내용은 [만들 프로젝트 인스턴스에서 사용 하 여 프로젝트 팩터리](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) 하 고 [솔루션](../../extensibility/internals/solutions.md)합니다.
+ 프로젝트 템플릿에서 프로젝트 팩터리에 전달 됩니다. 템플릿은 특정 프로젝트 형식의 요구 사항에 따라 모든 프로젝트 항목의 초기화를 지원 해야 합니다. 이러한 템플릿은 프로젝트 파일로 저장 고 나중에 솔루션을 통해 IDE에 의해 관리 되는 수 있습니다. 자세한 내용은 [만들 프로젝트 인스턴스에서 사용 하 여 프로젝트 팩터리](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) 하 고 [솔루션](../../extensibility/internals/solutions-overview.md)합니다.
 
  프로젝트 항목에는 파일 기반 또는 파일 기반이 아닌 수 있습니다.
 

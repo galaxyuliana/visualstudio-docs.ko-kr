@@ -2,7 +2,6 @@
 title: IScriptEntry::SetText | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 1a100b406365590bbba392afd7558e2fb7219ccb
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 17e716a7ad52cc5aeca18d02122edb9c457b14e4
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54096358"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58147646"
 ---
 # <a name="iscriptentrysettext"></a>IScriptEntry::SetText
 에 해당 하는 텍스트를 설정 하는 `IScriptEntry` 스크립트 블록 또는에 포함 된 소스 코드는 `IScriptScriptlet` 이벤트 처리기입니다.  

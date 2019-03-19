@@ -2,7 +2,6 @@
 title: 'Iactivescript:: Setscriptstate | Microsoft Docs'
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 58edef17fec1d94a09b327dff626658c42a273ba
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 16a13b545ddd482f8aa143d289d46447370e23ac
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54095032"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58149512"
 ---
 # <a name="iactivescriptsetscriptstate"></a>IActiveScript::SetScriptState
 지정 된 상태로 스크립팅 엔진을 넣습니다. 호스트 개체 또는 기본이 아닌 설명선 발생 하지 않고 기본이 아닌 스레드에서이 메서드를 호출할 수는 [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md) 인터페이스입니다.  
@@ -55,8 +54,8 @@ HRESULT SetScriptState(
  스크립팅 엔진 상태에 대 한 자세한 내용은 스크립트 엔진 상태 섹션을 참조 하세요 [Windows 스크립트 엔진](../../winscript/windows-script-engines.md) 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Iactivescript:: Clone](../../winscript/reference/iactivescript-clone.md)   
- [Iactivescript:: Getscriptdispatch](../../winscript/reference/iactivescript-getscriptdispatch.md)   
- [Iactivescript:: Interruptscriptthread](../../winscript/reference/iactivescript-interruptscriptthread.md)   
- [Iactivescriptparse:: Parsescripttext](../../winscript/reference/iactivescriptparse-parsescripttext.md)   
+ [IActiveScript::Clone](../../winscript/reference/iactivescript-clone.md)   
+ [IActiveScript::GetScriptDispatch](../../winscript/reference/iactivescript-getscriptdispatch.md)   
+ [IActiveScript::InterruptScriptThread](../../winscript/reference/iactivescript-interruptscriptthread.md)   
+ [IActiveScriptParse::ParseScriptText](../../winscript/reference/iactivescriptparse-parsescripttext.md)   
  [IActiveScriptSite::GetItemInfo](../../winscript/reference/iactivescriptsite-getiteminfo.md)

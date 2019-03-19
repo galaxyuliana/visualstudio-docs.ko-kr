@@ -2,7 +2,6 @@
 title: ISetNextStatement::CanSetNextStatement | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -16,12 +15,12 @@ caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 5288b0cffc3b8bfca0e995e67d4b3e4bf3a6b2e2
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: eb65faaf107c42b44201ea18c1150f8093b1654c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54090131"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58158947"
 ---
 # <a name="isetnextstatementcansetnextstatement"></a>ISetNextStatement::CanSetNextStatement
 이 메서드는 지정된 된 위치에 결정 실행할 코드의 다음 문을 실행 위치를 설정할 수 있는지 여부를 결정 합니다.  

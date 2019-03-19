@@ -2,7 +2,6 @@
 title: 'Iactivescriptsite:: Getiteminfo | Microsoft Docs'
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: f4dc6515d64406870ca10f003d7cea515c49b7d8
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 997245f8e4fd43ac2162587f07e4c8711af7caac
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54095890"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58148687"
 ---
 # <a name="iactivescriptsitegetiteminfo"></a>IActiveScriptSite::GetItemInfo
 스크립팅 엔진이 사용 하 여 추가 된 항목에 대 한 정보를 얻을 수 있게 합니다 [iactivescript:: Addnameditem](../../winscript/reference/iactivescript-addnameditem.md) 메서드.  
@@ -63,7 +62,7 @@ HRESULT GetItemInfo(
 |반환 값|의미|  
 |------------------|-------------|  
 |`S_OK`|명령 실행 성공|  
-|`E_INVALIDARG`|인수가 잘못된 경우.|  
+|`E_INVALIDARG`|인수가 잘못 되었습니다.|  
 |`E_POINTER`|잘못 된 포인터가 지정 되었습니다.|  
 |`TYPE_E_ELEMENTNOTFOUND`|지정 된 이름의 항목을 찾을 수 없습니다.|  
   

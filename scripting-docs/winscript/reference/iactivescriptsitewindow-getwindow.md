@@ -2,7 +2,6 @@
 title: IActiveScriptSiteWindow::GetWindow | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 268a54ccdcbd70ed159758720db0735f16d81492
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 7b6efa066765339375a8315695aa9c1de2f9c46b
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349051"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58154246"
 ---
 # <a name="iactivescriptsitewindowgetwindow"></a>IActiveScriptSiteWindow::GetWindow
 스크립팅 엔진을 표시 해야 하는 팝업 창의 소유자 역할을 수행할 수 있는 창에 핸들을 검색 합니다.  

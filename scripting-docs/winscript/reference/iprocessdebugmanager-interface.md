@@ -2,7 +2,6 @@
 title: IProcessDebugManager 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 5feb67b1a616eeaa855b27cb12ea9b3146545ebd
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: d68c044cdc3d523841cc56814b8ca34bcd8aa037
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54345125"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58157232"
 ---
 # <a name="iprocessdebugmanager-interface"></a>IProcessDebugManager 인터페이스
 프로세스 디버그 관리자에 대한 기본 인터페이스입니다. 이 인터페이스는 프로세스에서 가상 애플리케이션을 작성, 추가 또는 제거할 수 있습니다. 이 스택 프레임 및 응용 프로그램 스레드 열거할 수 있습니다.  

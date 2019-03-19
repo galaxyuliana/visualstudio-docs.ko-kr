@@ -2,7 +2,6 @@
 title: 'Iactivescript:: Getscriptdispatch | Microsoft Docs'
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2a18d6781ca2b7820686b317ad0be5da425ade1f
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: c329a4dbf42461369441b86f6d9ba18992916366
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54097684"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58144747"
 ---
 # <a name="iactivescriptgetscriptdispatch"></a>IActiveScript::GetScriptDispatch
 검색 된 `IDispatch` 메서드 및 현재 실행 중인 스크립트에 연결 된 속성에 대 한 인터페이스입니다.  
@@ -50,7 +49,7 @@ HRESULT GetScriptDispatch(
 |반환 값|의미|  
 |------------------|-------------|  
 |`S_OK`|명령 실행 성공|  
-|`E_INVALIDARG`|인수가 잘못된 경우.|  
+|`E_INVALIDARG`|인수가 잘못 되었습니다.|  
 |`E_POINTER`|잘못 된 포인터가 지정 되었습니다.|  
 |`E_UNEXPECTED`|호출이 필요 하지 않습니다 (예를 들어, 스크립팅 엔진에 아직 로드 되지 않았거나 초기화).|  
 |`S_FALSE`|스크립팅 엔진을 디스패치 개체를 지원 하지 않습니다. `ppdisp` 매개 변수는 NULL로 설정 됩니다.|  

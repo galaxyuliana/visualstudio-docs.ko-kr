@@ -2,7 +2,6 @@
 title: 'Ijsdebugframe:: Evaluate 메서드 | Microsoft Docs'
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -16,12 +15,12 @@ caps.latest.revision: 4
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 574af7823add67a00fc8add922b5e352fa1b369c
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: b328d6071ae9dc96b8e7f62bad6d4417aa1730f4
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54091925"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58157817"
 ---
 # <a name="ijsdebugframeevaluate-method"></a>IJsDebugFrame::Evaluate 메서드
 이 스택 프레임의 컨텍스트에서 식을 계산 합니다.  

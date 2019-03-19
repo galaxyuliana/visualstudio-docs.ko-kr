@@ -1,21 +1,20 @@
 ---
-title: Visual Studio의 시각적 언어 사전 | Microsoft Docs
+title: 시각적 언어 참조
 ms.date: 08/04/2017
 ms.reviewer: Jamie.Young
 ms.topic: conceptual
 ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
-ms.author: v-brickg
+ms.author: brgeorge
 manager: jillfra
-ms.workload:
-- v-brickg
-ms.openlocfilehash: a17361536437e6ba4811a687fdc75a9b47d4c0e6
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: b550f75731874da5581c967034cd91260674f974
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56698484"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58158083"
 ---
-# <a name="visual-language-dictionary-for-visual-studio"></a>Visual Studio의 시각적 언어 사전
+# <a name="visual-language-dictionary"></a>시각적 언어 사전
+
 Visual Studio의 해당도 해 및 다른 이미지의 구성 요소는 개념을 보여 주는 시각적인 공통 언어를 사용 합니다. 새 아이콘을 디자인할 때 사용 하 여이 사전 개념을 전달 하기 위해 사용자 고유의 이미지에서 원하는 식별.
 
 ## <a name="general-guidelines"></a>일반 지침

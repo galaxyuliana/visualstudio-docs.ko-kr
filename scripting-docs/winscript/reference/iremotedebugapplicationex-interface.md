@@ -2,7 +2,6 @@
 title: IRemoteDebugApplicationEx 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2fd51d5bdd076199167e52f685f16572756f9740
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: ab9e25a28ade1ac73b9e4837dae61e2d91f24c45
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54346555"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58144409"
 ---
 # <a name="iremotedebugapplicationex-interface"></a>IRemoteDebugApplicationEx 인터페이스
 실행 중인 애플리케이션을 나타냅니다. 운영 체제 프로세스에 해당 하는 필요 하지 않습니다. 일반적으로 디버거는 디버깅에 대 한 응용 프로그램 대상 으로합니다. 프로세스 디버그 관리자는 일반적으로 응용 프로그램 개체를 구현합니다.  

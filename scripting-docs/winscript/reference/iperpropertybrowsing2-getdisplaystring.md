@@ -2,7 +2,6 @@
 title: IPerPropertyBrowsing2::GetDisplayString | Microsoft 문서
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: e4947ebdeac26ae759fb739dd417607dea885ee5
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: f6f63db8d9c032b8e880f05d4d21e50fd56c74e2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54091575"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58147984"
 ---
 # <a name="iperpropertybrowsing2getdisplaystring"></a>IPerPropertyBrowsing2::GetDisplayString
 가져오기 본질적으로 볼 수 없는 형식을 반환 되는 텍스트를 표시 하는 문자열 속성을 설명 하는 이름 및 호출자의 사용자 인터페이스에 표시할 수 있습니다.  
