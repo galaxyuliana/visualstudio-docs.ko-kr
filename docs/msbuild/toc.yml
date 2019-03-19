@@ -2,6 +2,8 @@ items:
 - name: MsBuild
   href: msbuild.md
   items:
+  - name: MSBuild 16.0의 새로운 기능
+    href: whats-new-msbuild-16-0.md
   - name: MSBuild 15.0의 새로운 기능
     href: what-s-new-in-msbuild-15-0.md
   - name: MSBuild 개념
@@ -85,7 +87,7 @@ items:
         href: item-metadata-in-task-batching.md
       - name: 대상 일괄 처리의 항목 메타데이터
         href: item-metadata-in-target-batching.md
-    - name: MSBuild 변형
+    - name: MSBuild 변환
       href: msbuild-transforms.md
     - name: Visual Studio 통합(MSBuild)
       href: visual-studio-integration-msbuild.md
@@ -219,7 +221,7 @@ items:
     - name: MSBuild 작업 참조
       href: msbuild-task-reference.md
       items:
-      - name: Visaul C++ 관련 MSBuild 작업
+      - name: Visual C++ 관련 MSBuild 작업
         href: msbuild-tasks-specific-to-visual-cpp.md
         items:
         - name: BscMake 작업
@@ -433,9 +435,9 @@ items:
       href: updating-an-existing-application.md
   - name: MSBuild 용어
     href: msbuild-glossary.md
-ms.openlocfilehash: d177a19b3fce1e7ebdd182dd09e9c8bbd05709c5
-ms.sourcegitcommit: e3d96b20381916bf4772f9db52b22275763bb603
+ms.openlocfilehash: f05970702d32b15fb27add1adf8dca28a25c4b13
+ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55483746"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57983038"
