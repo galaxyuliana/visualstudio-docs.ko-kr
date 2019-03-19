@@ -2,7 +2,6 @@
 title: IActiveScriptParseProcedureOld::ParseProcedureText | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: ec100214a43be6e1faf5e229ce6452432065002b
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 8e521bbdcd8d7397c1c2dfb377fd9b41811499f5
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54093394"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58146229"
 ---
 # <a name="iactivescriptparseprocedureoldparseproceduretext"></a>IActiveScriptParseProcedureOld::ParseProcedureText
 지정 된 코드 프로시저를 구문 분석 하 고 프로시저를 익명 네임 스페이스를 추가 합니다.  
@@ -84,7 +83,7 @@ HRESULT ParseProcedureText(
 |값|설명|  
 |-----------|-----------------|  
 |`S_OK`|메서드가 성공했으며|  
-|`E_INVALIDARG`|인수가 잘못된 경우.|  
+|`E_INVALIDARG`|인수가 잘못 되었습니다.|  
 |`E_POINTER`|잘못 된 포인터가 지정 되었습니다.|  
 |`E_NOTIMPL`|이 메서드는 지원되지 않습니다. 스크립팅 엔진에서 프로시저의 네임 스페이스를 런타임에 추가 지원 하지 않습니다.|  
 |`E_UNEXPECTED`|호출이 필요 하지 않습니다 (예를 들어, 스크립팅 엔진은 초기화 되지 않은 또는 닫힘 상태).|  

@@ -2,7 +2,6 @@
 title: IDebugApplicationThread110::GetActiveThreadRequestCount | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 8bd776aedd4df61797419795afb8dcc8afeb9318
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: d9bda0cc59560d90ebc0a382d858c881e7372c15
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54348193"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58145072"
 ---
 # <a name="idebugapplicationthread110getactivethreadrequestcount"></a>IDebugApplicationThread110::GetActiveThreadRequestCount
 현재 처리 되는 메커니즘을 전환 하는 PDM의 스레드에서 스레드 요청의 수를 반환 합니다. 이 번호는 일반적으로 0 또는 1입니다. 그러나 수 경우 클 수 하나의 스레드 호출 처리를 시작 하지만 스레드에서 동기 호출을 트리거합니다 또는 그렇지 않은 경우 스레드를 일시 중단 및 다시 처리할 수 있도록 들어오는 호출을 허용 (예를 들어을 트리거하여는 [ IRemoteDebugApplicationEvents 인터페이스](../../winscript/reference/iremotedebugapplicationevents-interface.md) 디버거 스레드에서 발급 하는 경우).  

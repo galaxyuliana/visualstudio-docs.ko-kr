@@ -2,7 +2,6 @@
 title: IActiveScript::GetScriptSite | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 85b7d94ccb9e2589b10bf705721fc289df9638a9
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: b57c4282b7ec77eb4af2ffa983479ae77388e1c9
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54094161"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58155919"
 ---
 # <a name="iactivescriptgetscriptsite"></a>IActiveScript::GetScriptSite
 Windows 스크립트 엔진을 사용 하 여 연결 된 사이트 개체를 검색 합니다.  
@@ -50,7 +49,7 @@ HRESULT GetScriptSite(
 |반환 값|의미|  
 |------------------|-------------|  
 |`S_OK`|명령 실행 성공|  
-|`E_INVALIDARG`|인수가 잘못된 경우.|  
+|`E_INVALIDARG`|인수가 잘못 되었습니다.|  
 |`E_NOINTERFACE`|지정된 된 인터페이스는 지원 되지 않습니다.|  
 |`E_POINTER`|잘못 된 포인터가 지정 되었습니다.|  
 |`S_FALSE`|사이트 없이 설정한; 합니다 `ppvSiteObject` 매개 변수는 설정 `NULL`합니다.|  

@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f529a3861ed6061b428818140ad90d6ca79991af
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fab823a9057c44eca9928b1b1f97ec446fb251c4
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600869"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58145085"
 ---
 # <a name="solution-user-options-suo-file"></a>솔루션 사용자 옵션(.Suo) 파일
 솔루션 사용자 옵션 (.suo) 파일 사용자별 솔루션 옵션을 포함합니다. 소스 코드 제어에이 파일을 체크 해야 합니다.
@@ -38,4 +38,4 @@ ms.locfileid: "56600869"
 
 ## <a name="see-also"></a>참고 항목
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>
-- [솔루션](../../extensibility/internals/solutions.md)
+- [솔루션](../../extensibility/internals/solutions-overview.md)

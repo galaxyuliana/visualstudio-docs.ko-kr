@@ -2,7 +2,6 @@
 title: 'Ijsdebugframe:: Getreturnaddress 메서드 | Microsoft Docs'
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -16,12 +15,12 @@ caps.latest.revision: 4
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 78384fc4e65dcd5e1f41f3f83b98c3fab5b12cfd
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 18b98c7a5f92f3745baea5d4f82ae90da0989135
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54093901"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58154233"
 ---
 # <a name="ijsdebugframegetreturnaddress-method"></a>IJsDebugFrame::GetReturnAddress 메서드
 '시작'에 푸시된 반송 주소를 가져옵니다 (GetStackRange 참조) 프레임입니다.  

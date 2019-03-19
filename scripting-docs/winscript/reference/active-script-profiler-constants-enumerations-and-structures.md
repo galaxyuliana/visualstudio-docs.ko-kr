@@ -2,7 +2,6 @@
 title: 액티브 스크립트 Profiler 상수, 열거형 및 구조체 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 6d367374e4402da2d30cd8a855a509299363f882
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 1d39e6feb2cddd0c573368db9bf50b1e77f2e48d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349129"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58154727"
 ---
 # <a name="active-script-profiler-constants-enumerations-and-structures"></a>액티브 스크립트 프로파일러 상수, 열거형 및 구조체
 액티브 스크립트 Profiler 인터페이스에서는 다음 열거를 사용 합니다.  

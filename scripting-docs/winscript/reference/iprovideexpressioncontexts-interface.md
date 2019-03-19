@@ -2,7 +2,6 @@
 title: IProvideExpressionContexts 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 91f4251fec57001ba6c7a4ea1804ec72371418bb
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: b40825884b3c63af6be6d8bc852a5da4805f8975
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54345099"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58152053"
 ---
 # <a name="iprovideexpressioncontexts-interface"></a>IProvideExpressionContexts 인터페이스
 특정 구성 요소에서 인식하고 있는 식 컨텍스트를 열거하는 방법을 제공합니다. 스크립트 엔진은 일반적으로이 인터페이스를 구현 합니다.  

@@ -2,7 +2,6 @@
 title: IActiveScriptSiteWindow | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 9a160b17f4a46237ab78b378664a046fe8a0e7d4
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 3691a874121c00dcccc69958eb5746a2c1d78122
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54345723"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58149460"
 ---
 # <a name="iactivescriptsitewindow"></a>IActiveScriptSiteWindow
 이 인터페이스와 같은 개체에는 사용자 인터페이스를 지 원하는 호스트에 의해 구현 됩니다 [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md) 합니다. 서버와 같은 사용자 인터페이스를 지원 하지 않는 호스트를 구현 하지 않습니다는 `IActiveScriptSiteWindow` 인터페이스입니다. 이 인터페이스를 호출 하 여 액세스 하는 스크립팅 엔진 `QueryInterface` 에서 `IActiveScriptSite`합니다.  
