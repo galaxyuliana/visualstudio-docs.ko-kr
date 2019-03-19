@@ -2,7 +2,6 @@
 title: PROFILER_HEAP_OBJECT_RELATIONSHIP 구조체 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 7e5658f70e6a24151af75f4455fc44c2c756b9e9
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 7a905a44f2ef686181c5a859699277d16f6cd374
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54091951"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58153008"
 ---
 # <a name="profilerheapobjectrelationship-structure"></a>PROFILER_HEAP_OBJECT_RELATIONSHIP 구조체
 힙 개체의 관계를 나타냅니다.  
@@ -36,6 +35,6 @@ typedef struct _PROFILER_HEAP_OBJECT_RELATIONSHIP{    PROFILER_HEAP_OBJECT_NAME_
 |relationshipInfo|[PROFILER_RELATIONSHIP_INFO 열거형](../../winscript/reference/profiler-relationship-info-enumeration.md)|관계에 대 한 정보를 제공 합니다.|  
 |numberValue|double|숫자 값입니다. 중 하나만 `numberValue` / `stringValue` / `objectId` / `externalObjectAddress` 설정를 기반으로 합니다 `relationshipInfo` 값입니다.|  
 |stringValue|LPCWSTR|문자열 값입니다.|  
-|ObjectId|[PROFILER_HEAP_OBJECT_ID 형식](../../winscript/reference/profiler-heap-object-id-type.md)|힙 개체의 ID입니다.|  
+|objectId|[PROFILER_HEAP_OBJECT_ID 형식](../../winscript/reference/profiler-heap-object-id-type.md)|힙 개체의 ID입니다.|  
 |externalObjectAddress|[PROFILER_EXTERNAL_OBJECT_ADDRESS 형식](../../winscript/reference/profiler-external-object-address-type.md)|외부 개체 주소입니다.|  
-|부분 문자열|[PROFILER_PROPERTY_TYPE_SUBSTRING_INFO 구조체](../../winscript/reference/profiler-property-type-substring-info-structure.md)|부분 문자열 유형에 대 한 정보입니다.|
+|subString|[PROFILER_PROPERTY_TYPE_SUBSTRING_INFO 구조체](../../winscript/reference/profiler-property-type-substring-info-structure.md)|부분 문자열 유형에 대 한 정보입니다.|

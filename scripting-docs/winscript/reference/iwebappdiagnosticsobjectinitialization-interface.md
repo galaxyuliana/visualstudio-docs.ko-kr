@@ -2,7 +2,6 @@
 title: IWebAppDiagnosticsObjectInitialization 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: c892d3eceea65f16c69bfd2202b1f64181773532
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 67cf59965d47b2a0e29bbe6280d69acf0000a20d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54348050"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58149577"
 ---
 # <a name="iwebappdiagnosticsobjectinitialization-interface"></a>IWebAppDiagnosticsObjectInitialization 인터페이스
 이 인터페이스를 구현 하는 클래스에서 구현할 수 있습니다 [IWebAppDiagnosticsSetup::CreateObjectWithSiteAtWebApp](../../winscript/reference/iwebappdiagnosticssetup-createobjectwithsiteatwebapp.md)합니다. [IWebAppDiagnosticsSetup 인터페이스](../../winscript/reference/iwebappdiagnosticssetup-interface.md) 구현 하는 개체에 의해 구현 됩니다 [IDebugApplication 인터페이스](../../winscript/reference/idebugapplication-interface.md)합니다. 대부분의 경우가이 개체는 PDM입니다.  

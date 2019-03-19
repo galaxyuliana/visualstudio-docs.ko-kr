@@ -2,7 +2,6 @@
 title: PROFILER_HEAP_OBJECT_OPTIONAL_INFO 구조체 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2d0159dd50d57aa77a62dc3b8536b50712b96df5
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 4c7f28499b5d6e1e01caab1e6fd83fc5ab72ccf6
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54087141"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58151039"
 ---
 # <a name="profilerheapobjectoptionalinfo-structure"></a>PROFILER_HEAP_OBJECT_OPTIONAL_INFO 구조체
 힙 개체에 대 한 선택적 정보를 나타냅니다.  
@@ -32,8 +31,8 @@ typedef struct _PROFILER_HEAP_OBJECT_OPTIONAL_INFO{    PROFILER_HEAP_OBJECT_OPTI
   
 |멤버|형식|설명|  
 |------------|----------|-----------------|  
-|정보 항목|[PROFILER_HEAP_OBJECT_OPTIONAL_INFO_TYPE 열거형](../../winscript/reference/profiler-heap-object-optional-info-type-enumeration.md)|선택적 정보 형식입니다.|  
-|프로토타입|[PROFILER_HEAP_OBJECT_ID 형식](../../winscript/reference/profiler-heap-object-id-type.md)|힙 개체의 프로토타입 개체의 ID입니다.|  
+|infoType|[PROFILER_HEAP_OBJECT_OPTIONAL_INFO_TYPE 열거형](../../winscript/reference/profiler-heap-object-optional-info-type-enumeration.md)|선택적 정보 형식입니다.|  
+|prototype|[PROFILER_HEAP_OBJECT_ID 형식](../../winscript/reference/profiler-heap-object-id-type.md)|힙 개체의 프로토타입 개체의 ID입니다.|  
 |functionName|LPCWSTR|힙 개체의 함수 이름입니다.|  
 |elementAttributesSize|UINT|힙 개체의 요소 속성의 크기입니다.|  
 |elementTextChildrenSize|UINT|힙 개체의 텍스트 자식의 크기입니다.|  
@@ -42,4 +41,4 @@ typedef struct _PROFILER_HEAP_OBJECT_OPTIONAL_INFO{    PROFILER_HEAP_OBJECT_OPTI
 |namePropertyList|[PROFILER_HEAP_OBJECT_RELATIONSHIP_LIST 구조체](../../winscript/reference/profiler-heap-object-relationship-list-structure.md)|힙 개체의 이름 속성의 목록입니다.|  
 |indexPropertyList|[PROFILER_HEAP_OBJECT_RELATIONSHIP_LIST 구조체](../../winscript/reference/profiler-heap-object-relationship-list-structure.md)|힙 개체의 인덱스 속성의 목록입니다.|  
 |relationshipList|[PROFILER_HEAP_OBJECT_RELATIONSHIP_LIST 구조체](../../winscript/reference/profiler-heap-object-relationship-list-structure.md)|힙 개체의 관계의 목록입니다.|  
-|이벤트 목록|[PROFILER_HEAP_OBJECT_RELATIONSHIP_LIST 구조체](../../winscript/reference/profiler-heap-object-relationship-list-structure.md)|힙 개체의 이벤트 목록입니다.|
+|eventList|[PROFILER_HEAP_OBJECT_RELATIONSHIP_LIST 구조체](../../winscript/reference/profiler-heap-object-relationship-list-structure.md)|힙 개체의 이벤트 목록입니다.|

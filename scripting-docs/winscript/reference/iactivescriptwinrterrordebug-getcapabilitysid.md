@@ -2,7 +2,6 @@
 title: IActiveScriptWinRTErrorDebug::GetCapabilitySid | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2e0e9f642e780b745f8b66734893345618a43460
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 50e1251c77d08cdaba647abe0a32be5e15c8f477
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54349827"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58146502"
 ---
 # <a name="iactivescriptwinrterrordebuggetcapabilitysid"></a>IActiveScriptWinRTErrorDebug::GetCapabilitySid
 사용 가능한 경우 Windows 런타임 오류에 대 한 기능 SID를 반환 합니다.  

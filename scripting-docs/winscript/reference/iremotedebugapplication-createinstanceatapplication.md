@@ -2,7 +2,6 @@
 title: IRemoteDebugApplication::CreateInstanceAtApplication | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 29cbcebc5bdc51be4223b2592bbe6ac3ae76525d
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 6e17c5abcb21bfaad6de948c3676d29232da66cf
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54086361"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58146294"
 ---
 # <a name="iremotedebugapplicationcreateinstanceatapplication"></a>IRemoteDebugApplication::CreateInstanceAtApplication
 코드에서 응용 프로그램 프로세스에서 개체를 만들 수 있습니다. 즉-out-of-process 응용 프로그램입니다.  

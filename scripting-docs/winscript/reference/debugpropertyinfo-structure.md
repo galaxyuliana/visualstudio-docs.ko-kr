@@ -2,7 +2,6 @@
 title: DebugPropertyInfo 구조체 | Microsoft 문서
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 47c0f6a359341d19b99c1ce8c099ebf1c6d6a1ff
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 99208626b41f2463178bccecf73c21a1d15fa765
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54088987"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58155747"
 ---
 # <a name="debugpropertyinfo-structure"></a>DebugPropertyInfo 구조체
 개체의 이름, 형식 및 값이 있는 계층적 특성을 설명 합니다. 지역 변수, 매개 변수, 조사식 변수 및 식의 디버그 속성을 설명 하는 데 사용 되 고 등록 합니다.  

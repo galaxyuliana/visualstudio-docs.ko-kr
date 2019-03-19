@@ -2,7 +2,6 @@
 title: IActiveScriptProfilerCallback3::SetWebWorkerId 메서드 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 3
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: f4025dbee7b8b5b246163a1919aec335a8863937
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: 0798a23b4c8ad4e5859bec73ebfed47a56b322d6
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54347218"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58151299"
 ---
 # <a name="iactivescriptprofilercallback3setwebworkerid-method"></a>IActiveScriptProfilerCallback3::SetWebWorkerId 메서드
 이 프로 파일링 세션에 사용할 작업자 ID에 대 한 프로파일러를 알립니다. 함수는 페이지의 컨텍스트를 실행 하는 경우이 메서드가 호출 되지 않습니다. 변수의 `webWorkerId` 1부터 시작 하는 모든 작업자에 대해 1 씩 증가 합니다. 세션을 넘어 안정 되 고 작업 자가 만들어진 순서에만 해당 하는 ID 값을 사용 하는 것이 없습니다.  
