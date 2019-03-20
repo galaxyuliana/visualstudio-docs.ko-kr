@@ -16,14 +16,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f523aaa61e1908d0e947de4cf555ec95ad2d4306
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 91a2bda02f62391c84ff5b39a934192eccbd6bb8
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910820"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57984143"
 ---
-# <a name="set-defaults-for-enterprise-deployments-of-visual-studio-2017"></a>Visual Studio 2017의 엔터프라이즈 배포에 대한 기본값 설정
+# <a name="set-defaults-for-enterprise-deployments-of-visual-studio"></a>Visual Studio의 엔터프라이즈 배포에 대한 기본값 설정
 
 Visual Studio의 배포에 영향을 주는 레지스트리 정책을 설정할 수 있습니다. 이러한 정책은 새 설치 관리자에 전체적으로 적용되고 다음에 영향을 줍니다.
 
@@ -62,6 +62,6 @@ Visual Studio의 배포에 영향을 주는 레지스트리 정책을 설정할 
 
 ## <a name="see-also"></a>참고 항목
 
- * [Visual Studio 설치](install-visual-studio.md)
- * [패키지 캐시를 사용하지 않도록 설정 또는 이동](disable-or-move-the-package-cache.md)
- * [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
+- [Visual Studio 설치](install-visual-studio.md)
+- [패키지 캐시를 사용하지 않도록 설정 또는 이동](disable-or-move-the-package-cache.md)
+- [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)

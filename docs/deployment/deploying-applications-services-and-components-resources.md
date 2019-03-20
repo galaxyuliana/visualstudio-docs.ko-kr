@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7c2294ee956595eea051b9b04906c446a82b58cf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2572f66acf20efb322323fa3be28f0cfe790594d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628990"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57870294"
 ---
 # <a name="overview-of-deployment-in-visual-studio"></a>Visual Studio에서 배포 개요
 
@@ -35,7 +35,7 @@ Visual Studio 내에서 애플리케이션을 다음 대상에 직접 게시할 
 - [Azure App Service](#azure-app-service)
 - [Azure Virtual Machines](#azure-virtual-machines)
 - [파일 시스템](#file-system)
-- [사용자 지정 대상(IIS, FTP 등)](#custom-targets)(임의의 모든 웹 서버 포함)
+- [사용자 지정 대상(IIS, FTP 등)](#custom-targets-iis-ftp)(임의의 모든 웹 서버 포함)
 
 **게시** 탭에서 기존 게시 프로필을 선택하거나, 기존 게시 프로필을 가져오거나, 여기에 설명된 옵션을 사용하여 새로 만들 수 있습니다. 다양한 앱 형식에 대한 IDE에서 게시 옵션을 둘러보려면 [배포 소개](../deployment/deploying-applications-services-and-components.md)를 참조하세요.
 

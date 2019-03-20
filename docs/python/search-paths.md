@@ -1,7 +1,7 @@
 ---
 title: Python 검색 경로를 적용하는 방법
 description: Visual Studio는 시스템 전체 변수 사용을 피하기 위해 환경 및 프로젝트에 대한 검색 경로를 지정하는 보다 구체적인 방법을 제공합니다.
-ms.date: 11/12/2018
+ms.date: 03/13/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 4befbce86d05fc9e3c52247ed71abc8c5ca5e6a6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 55995d53f763bcc3f13338e52b255135bbefa15b
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55929910"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58147737"
 ---
 # <a name="how-visual-studio-uses-python-search-paths"></a>Visual Studio에서 Python 검색 경로를 사용하는 방법
 
@@ -31,7 +31,12 @@ ms.locfileid: "55929910"
 
 검색 경로 추가하려면 **솔루션 탐색기**로 이동하여 프로젝트 노드를 확장하고, **검색 경로**를 마우스 오른쪽 단추로 클릭하여 **검색 경로에 폴더 추가**를 선택합니다.
 
+::: moniker range="vs-2017"
 ![솔루션 탐색기의 검색 경로에서 검색 경로 명령에 폴더 추가](media/search-paths-command.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![솔루션 탐색기의 검색 경로에서 검색 경로 명령에 폴더 추가](media/search-paths-command-2019.png)
+::: moniker-end
 
 이 명령은 포함할 폴더를 선택할 수 있는 브라우저를 표시합니다.
 

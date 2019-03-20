@@ -7,12 +7,12 @@ ms.date: 01/02/2018
 ms.topic: conceptual
 description: 별칭 또는 대화명을 사용하는 경우 로그인에 실패할 수 있습니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 2e552f2f7200235dafe0edf40e13dbc299f0d129
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: f0b18aca4c6188c23998c8a87f86359895198b95
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841629"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58195153"
 ---
 # <a name="signing-in-to-visual-studio-subscriptions-may-fail-when-using-aliases"></a>별칭을 사용하여 Visual Studio 구독에 로그인하지 못할 수 있음
 
@@ -28,7 +28,7 @@ ms.locfileid: "56841629"
 
 관리자는 구독자가 [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs)에 성공적으로 로그인했는지 확인하는 두 가지 옵션이 있습니다.
 - 첫 번째 옵션(권장)은 VLSC(볼륨 라이선스 서비스 센터)에서 디렉터리 계정을 할당된 주소로 활용하는 것입니다. 자세한 내용은 이 문서의 [디렉터리 계정에 구독자 할당](#assigning-subscribers-to-a-directory-account) 섹션을 참조하세요.
-- 두 번째 옵션(보안 수준 낮음)은 구독자가 “회사 또는 학교” 전자 메일 주소를 “개인” 계정(즉 Microsoft 계정 또는 MSA)에 연결하도록 허용하는 것입니다. 자세한 내용은 [회사 또는 학교 계정을 개인 계정으로 정의 ](#defining-a-work-or-school-account-as-a-personal-account ) 섹션을 참조하세요.
+- 두 번째 옵션(보안 수준 낮음)은 구독자가 “회사 또는 학교” 전자 메일 주소를 “개인” 계정(즉 Microsoft 계정 또는 MSA)에 연결하도록 허용하는 것입니다. 자세한 내용은 이 문서의 [회사 또는 학교 계정을 개인 계정으로 정의](#defining-a-work-or-school-account-as-a-personal-account) 섹션을 참조하세요.
 
 > [!NOTE]
 > 회사가 새 Visual Studio 구독 [관리 포털](https://manage.visualstudio.com)로 마이그레이션되면 구독자 프로필의 일부로 디렉터리 및 전자 메일 주소를 제공할 수 있는 새 관리 환경을 활용할 수 있습니다. [마이그레이션](https://support.microsoft.com/help/4013930/visual-studio-subscriptions-administrator-migration-details)에 대해 자세히 알아보세요.

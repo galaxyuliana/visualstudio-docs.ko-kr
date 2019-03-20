@@ -13,12 +13,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e670e90f29e0ceb33fb52b4e29bf1bb917df1a8e
-ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
+ms.openlocfilehash: 9e0c9d47968d6e120beb8815a900ff8cc0b82603
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "57737050"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983002"
 ---
 # <a name="install-certificates-required-for-visual-studio-offline-installation"></a>Visual Studio 오프라인 설치에 필요한 인증서 설치
 
@@ -113,6 +113,7 @@ Visual Studio 설치 엔진은 신뢰할 수 있는 콘텐츠만 설치합니다
 ## <a name="checking-if-certificates-are-already-installed"></a>인증서가 설치되어 있는지 확인
 
 설치하는 시스템을 확인할 한 가지 방법은 다음 단계를 수행하는 것입니다.
+
 1. **mmc.exe**를 실행합니다.<br/>
   a. 파일을 클릭한 다음 **스냅인 추가/제거**를 선택합니다.<br/>
   b. **인증서**를 두 번 클릭하고, **컴퓨터 계정**을 선택하고 **다음**을 클릭합니다.<br/>

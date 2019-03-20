@@ -7,12 +7,12 @@ ms.date: 03/13/2018
 ms.topic: conceptual
 description: 볼륨 라이선스 서비스 센터 관리자 마이그레이션 FAQ
 searchscope: VS Subscription
-ms.openlocfilehash: 21083f50966472bb7d6d85c8ad594b586b810df9
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: d9f066fdb17af7e876a1fc7af611fa5cb48edba9
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953951"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58145267"
 ---
 # <a name="visual-studio-subscriptions-administration-migration"></a>Visual Studio 구독 관리 마이그레이션
 
@@ -36,7 +36,7 @@ ms.locfileid: "56953951"
 조직은 Azure AD에 등록하지 않아도 되지만 등록은 언제든 가능합니다. Azure AD에 등록을 선택하면 Azure AD에 대한 무료 계층을 사용하여 비용 없이 등록할 수 있습니다. Azure Active Directory를 사용하면 향상된 보안, 제어 및 장기적인 안전성으로 조직을 보호할 수 있습니다. 그러나 Azure AD에 대해 준비가 되지 않은 경우 현재처럼 MSA(Microsoft 계정)를 계속 사용할 수 있습니다.
 
 ### <a name="how-do-i-know-when-my-organization-will-be-migrated"></a>조직이 언제 마이그레이션되는지 어떻게 알 수 있습니까?
-조직이 마이그레이션되기 1주일 전에 온보딩 프로세스를 완료하도록 초대하는 이메일이 기본/알림 연락처 담당자에게 전송됩니다. 구독 관리자에게는 당사가 기본/알림 연락처 담당자에게 연락해 성공적인 온보딩을 확인하는 방법에 관한 상세 정보를 제공했음을 알리는 이메일이 전송됩니다. [조직의 기본/알림 연락처 찾기](#How-do-I-find-out-who-my-Primary-or-Notices-Contact-is?) 방법을 알아봅니다.
+조직이 마이그레이션되기 1주일 전에 온보딩 프로세스를 완료하도록 초대하는 이메일이 기본/알림 연락처 담당자에게 전송됩니다. 구독 관리자에게는 당사가 기본/알림 연락처 담당자에게 연락해 성공적인 온보딩을 확인하는 방법에 관한 상세 정보를 제공했음을 알리는 이메일이 전송됩니다. [조직의 기본/알림 연락처 찾기](#how-do-i-find-out-who-my-primary-or-notices-contact-is?) 방법을 알아봅니다.
 
 ### <a name="is-onboarding-different-from-migration"></a>온보딩은 마이그레이션과 다릅니까?
 예.  이 프로세스는 두 단계로 구성되어 있습니다. 마이그레이션에 앞서 조직의 설정(또는 온보딩)을 통해 관리자 권한으로 작업에 중단이 없는지 확인합니다. 일단 조직의 정보를 마이그레이션하면 새 포털에서 Visual Studio 구독을 관리할 수 있습니다. 마이그레이션 전에 기본/알림 연락처 담당자가 등록되지 않은 경우 구독 관리자가 차단되고 온보딩 프로세스를 완료할 때까지 구독을 관리할 수 없게 됩니다.

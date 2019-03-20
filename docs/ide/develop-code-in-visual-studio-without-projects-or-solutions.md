@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 12f232de6f758f5f1fcca28bcf1adf473e5e7153
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: ed08d8d94fbf94b8be3d1bf4b11eb116ceb6d4d1
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56718552"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194952"
 ---
 # <a name="develop-code-in-visual-studio-without-projects-or-solutions"></a>프로젝트 또는 솔루션 없이 Visual Studio에서 코드 개발
 
@@ -103,7 +103,7 @@ MSBuild 기반 코드베이스에는 **시작** 단추의 드롭다운 목록에
 
 ### <a name="codebases-that-contain-c-code"></a>C++ 코드를 포함하는 코드베이스
 
-Visual Studio에서 솔루션이나 프로젝트 없이 C++ 코드를 여는 방법에 대한 자세한 내용은 [C++의 폴더 열기 프로젝트](/cpp/ide/non-msbuild-projects)를 참조하세요.
+Visual Studio에서 솔루션이나 프로젝트 없이 C++ 코드를 여는 방법에 대한 자세한 내용은 [C++의 폴더 열기 프로젝트](/cpp/build/open-folder-projects-cpp)를 참조하세요.
 
 ### <a name="codebases-that-contain-a-visual-studio-project"></a>Visual Studio 프로젝트를 포함하는 코드베이스
 
@@ -118,6 +118,6 @@ Visual Studio에서 솔루션이나 프로젝트 없이 C++ 코드를 여는 방
 ## <a name="see-also"></a>참고 항목
 
 - [빌드 및 디버그 작업 사용자 지정](../ide/customize-build-and-debug-tasks-in-visual-studio.md)
-- [C++의 폴더 열기 프로젝트](/cpp/ide/non-msbuild-projects)
-- [C++의 CMake 프로젝트](/cpp/ide/cmake-tools-for-visual-cpp)
+- [C++의 폴더 열기 프로젝트](/cpp/build/open-folder-projects-cpp)
+- [C++의 CMake 프로젝트](/cpp/build/cmake-projects-in-visual-studio)
 - [코드 및 텍스트 편집기에서 코드 작성](../ide/writing-code-in-the-code-and-text-editor.md)

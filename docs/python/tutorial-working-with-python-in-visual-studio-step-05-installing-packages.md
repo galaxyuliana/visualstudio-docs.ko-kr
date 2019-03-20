@@ -11,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: f4d540dad3ead24f9213cbfb5009712372a4af34
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c6fdbe80238bb562fb84d540b23ade349435d91c
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934759"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194900"
 ---
 # <a name="step-5-install-packages-in-your-python-environment"></a>5단계: Python 환경에서 패키지 설치
 
@@ -26,23 +26,23 @@ Python 개발자 커뮤니티에서는 사용자 소유의 프로젝트에 통�
 
 1. **보기** > **다른 창** > **Python 환경** 메뉴 명령을 선택합니다. **Python 환경** 창이 **솔루션 탐색기**에 대한 피어로 열리고 사용할 수 있는 다양한 환경을 표시합니다. 목록에는 Visual Studio 설치 관리자를 사용하여 설치한 환경과 별도로 설치한 환경이 모두 포함됩니다. 굵게 표시된 환경은 새 프로젝트에 사용되는 기본 환경입니다.
 
-   ![Python 환경 창](media/environments-default-view-blue.png)
+   ![Python 환경 창](media/environments/environments-default-view-blue.png)
 
 2. 환경의 **개요** 탭에서는 환경의 설치 폴더 및 인터프리터와 함께 해당 환경에 대한 **대화형** 창에 빠르게 액세스할 수 있습니다. 예를 들어 **대화형 창 열기**를 선택하면 Visual Studio에서 해당 특정 환경에 대한 **대화형** 창이 나타납니다.
 
 3. **패키지** 탭을 선택하면 현재 환경에 설치되어 있는 패키지 목록이 표시됩니다.
 
-   ![환경에 설치된 패키지](media/environments-installed-packages-blue.png)
+   ![환경에 설치된 패키지](media/environments/environments-installed-packages-blue.png)
 
 4. 검색 필드에 해당 이름을 입력하여 `matplotlib`를 설치한 다음, **pip install**을 선택합니다.
 
-   ![환경에 matplotlib 설치](media/environments-add-matplotlib1.png)
+   ![환경에 matplotlib 설치](media/environments/environments-add-matplotlib1.png)
 
 5. 메시지가 표시되면 권한 상승에 동의하여 수행합니다.
 
 6. 패키지가 설치된 후 **Python 환경** 창에 나타납니다. 패키지의 오른쪽에 있는 **X**를 누르면 제거됩니다.
 
-   ![환경에 matplotlib 설치 완료](media/environments-add-matplotlib2.png)
+   ![환경에 matplotlib 설치 완료](media/environments/environments-add-matplotlib2.png)
 
    작은 진행률 표시줄은 환경 아래에 표시되어 Visual Studio에서 새로 설치된 패키지에 대한 IntelliSense 데이터베이스를 빌드 중임을 나타낼 수 있습니다. **IntelliSense** 탭에 더 자세한 정보가 표시됩니다. 해당 데이터베이스가 완료될 때까지 자동 완성 및 구문 검사와 같은 IntelliSense 기능은 해당 패키지에 대한 편집기에서 활성화되지 않습니다.
 
@@ -65,7 +65,7 @@ Python 개발자 커뮤니티에서는 사용자 소유의 프로젝트에 통�
 
 8. 디버거를 사용하거나(**F5**) 디버거를 사용하지 않고(**Ctrl**+**F5**) 프로그램을 실행하여 출력을 확인합니다.
 
-   ![matplotlib의 출력 예제](media/environments-add-matplotlib3.png)
+   ![matplotlib의 출력 예제](media/environments/environments-add-matplotlib3.png)
 
 ## <a name="next-step"></a>다음 단계
 

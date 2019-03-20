@@ -18,14 +18,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e87026ab387d2a3c7d84a7c546034a7a404db5bf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: cf1497e79b6f41104664013efcf63adea5223f11
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607030"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983548"
 ---
-# <a name="install-visual-studio-2017"></a>Visual Studio 2017 설치
+# <a name="install-visual-studio"></a>Visual Studio 설치
 
 Visual Studio를 설치하는 새로운 방법이 있습니다. 이 버전에서는 필요한 기능만 보다 쉽게 선택하여 설치할 수 있도록 만들었습니다. 시스템에 미치는 영향을 이전보다 최소화하여 Visual Studio가 더 빨리 설치되도록 최소 사용 공간도 줄였습니다.
 
@@ -130,9 +130,9 @@ Visual Studio 2017과 함께 이전 버전의 Visual Studio를 나란히 실행�
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017 업데이트](update-visual-studio.md)
-* [Visual Studio 2017 수정](modify-visual-studio.md)
-* [Visual Studio 2017 제거](uninstall-visual-studio.md)
-* [Visual Studio 2017의 오프라인 설치 만들기](create-an-offline-installation-of-visual-studio.md)
-* [명령줄 매개 변수를 사용하여 Visual Studio 2017 설치](use-command-line-parameters-to-install-visual-studio.md)
+* [Visual Studio 업데이트](update-visual-studio.md)
+* [Visual Studio 수정](modify-visual-studio.md)
+* [Visual Studio 제거](uninstall-visual-studio.md)
+* [Visual Studio의 오프라인 설치 만들기](create-an-offline-installation-of-visual-studio.md)
+* [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
 * [Mac용 Visual Studio 설치](/visualstudio/mac/installation)
