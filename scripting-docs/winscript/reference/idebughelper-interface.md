@@ -2,7 +2,6 @@
 title: IDebugHelper 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: ba760dc15cc0a3d3f2f0d80f3a16c5621582bc11
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: d1708b742a484a2e7d6d48cf759f15c08711e13d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54347478"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58148062"
 ---
 # <a name="idebughelper-interface"></a>IDebugHelper 인터페이스
 개체 브라우저 및 간단한 연결 지점에 대 한 팩터리 역할을 합니다. 프로세스 디버그 관리자 (PDM) 스크립트 엔진에서 사용 되는이 인터페이스를 구현 합니다.  

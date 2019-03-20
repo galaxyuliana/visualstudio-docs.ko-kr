@@ -12,7 +12,7 @@ ms.prod: visual-studio-dev14
 ms.technology: vs-azure
 ms.openlocfilehash: 4448825c5d443887833a405aab14d2243a0e5216
 ms.sourcegitcommit: e481d0055c0724d20003509000fd5f72fe9d1340
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/05/2018
 ms.locfileid: "51003073"
@@ -88,7 +88,7 @@ Visual Studio에서 배포 하기 전에 에뮬레이터에서 서비스를 실�
    > "디스크 할당량의 MB"에 대 한 최소 지원 되는 크기는 4GB입니다. 그러나 메모리 덤프를 수집 하는 경우까지 늘릴 10GB와 같은 더 높은 값입니다.
    >
   
-    ![Azure 진단 및 구성 사용](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
+    ![Azure Diagnostics 및 구성 사용](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
 6. 예를 들어 다음을 선택 합니다 **사용자 지정 계획** 옵션, 수집 된 데이터를 사용자 지정할 수 있습니다.
 7. 에 **디스크 할당량 (mb)** 상자에서는 진단 데이터에 대 한 저장소 계정에 할당할 공간을 설정할 수 있습니다. 변경 하거나 기본값을 그대로 적용 수 있습니다.
 8. 수집 하려는 진단 데이터의 각 탭을 선택 합니다 **전송 사용 \<로그 유형\>**  확인란 합니다. 예를 들어, 응용 프로그램 로그에서 수집 하려는 경우는 **응용 프로그램 로그** 탭을 선택 합니다 **응용 프로그램 로그 전송 사용** 확인란 합니다. 또한 각 진단 데이터 형식에 필요한 기타 정보를 지정 합니다. 각 탭에 대 한 구성 정보를 보려면 **진단 데이터 원본 설정** 이 문서의 뒷부분에 나오는. 
@@ -118,7 +118,7 @@ Visual Studio에서 Azure virtual machines에 대 한 진단 데이터를 수집
    
     각 탭 (제외한 **일반적인** 하 고 **로그 디렉터리**) 수집할 수 있는 진단 데이터 원본을 나타냅니다.
    
-    ![Azure 진단 및 구성 사용](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
+    ![Azure Diagnostics 및 구성 사용](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
    
     기본 탭 인 **일반**, 다음과 같은 진단 데이터 컬렉션 옵션 제공: **오류만**를 **모든 정보**, 및 **사용자지정계획**. 기본 옵션인 **오류만**, 경고 또는 추적 메시지를 전송 하지 않으므로 최소한의 저장소를 사용 합니다. 합니다 **정보를 모두** 옵션은 대부분의 정보를 전송 되며, 따라서 저장소를 기준으로 가장 비용이 많이 드는 옵션입니다.
 7. 예를 들어 다음을 선택 합니다 **사용자 지정 계획** 수집 옵션 데이터를 사용자 지정할 수 있습니다.

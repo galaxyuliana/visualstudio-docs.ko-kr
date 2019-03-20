@@ -19,11 +19,11 @@ ms.locfileid: "55946947"
 ## <a name="overview"></a>개요
 다음과 같은 방법으로 클라우드 서비스의 성능을 테스트할 수 있습니다.
 
-* 요청과 연결에 대한 정보를 수집하고 서비스를 고객 관점에서 수행하는 방법을 보여주는 사이트 통계를 검토하려면 Azure 진단을 사용합니다. 시작하려면 [Azure Cloud Services 및 Virtual Machines에서 진단 구성](http://go.microsoft.com/fwlink/p/?LinkId=623009)을 참조하십시오.
+* 요청과 연결에 대한 정보를 수집하고 서비스를 고객 관점에서 수행하는 방법을 보여주는 사이트 통계를 검토하려면 Azure Diagnostics를 사용합니다. 시작하려면 [Azure Cloud Services 및 Virtual Machines에서 진단 구성](http://go.microsoft.com/fwlink/p/?LinkId=623009)을 참조하십시오.
 * Visual Studio 프로파일러를 사용하여 서비스 실행 방식의 계산 측면에 대한 심층 분석을 가져옵니다. 이 항목에서 알 수 있듯이 Azure에서 서비스가 실행될 때 성능을 측정하기 위해 프로파일러를 사용할 수 있습니다. 계산 에뮬레이터에서 서비스가 로컬로 실행될 때 성능을 측정하는 프로파일러를 사용하는 방법에 대한 정보는 [Visual Studio 프로파일러를 사용하여 Compute 에뮬레이터에서 로컬로 Azure Cloud Services의 성능 테스트](http://go.microsoft.com/fwlink/p/?LinkId=262845)를 참조하십시오.
 
 ## <a name="choosing-a-performance-testing-method"></a>성능 테스트 방법 선택
-### <a name="use-azure-diagnostics-to-collect"></a>수집할 Azure 진단 사용:
+### <a name="use-azure-diagnostics-to-collect"></a>수집할 Azure Diagnostics 사용:
 * 웹 페이지 또는 요청 및 연결 등의 서비스에 대한 통계.
 * 역할이 재시작되는 빈도 등의 역할에 대한 통계.
 * 가비지 수집기에 걸리는 시간 백분율 또는 실행 중인 역할의 메모리 집합 등 메모리 사용에 관한 전체 정보.

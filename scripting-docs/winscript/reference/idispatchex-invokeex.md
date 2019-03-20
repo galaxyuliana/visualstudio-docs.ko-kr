@@ -2,7 +2,6 @@
 title: IDispatchEx::InvokeEx | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: e631ecca1181a25fa3cf419f5fc96666f0db3cd6
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 33494836e463c9c2fd74acf7835d7e4630747b0e
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54086530"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58157349"
 ---
 # <a name="idispatchexinvokeex"></a>IDispatchEx::InvokeEx
 노출 하는 메서드와 속성에 액세스할 수는 `IDispatchEx` 개체입니다.  
@@ -52,7 +51,7 @@ HRESULT InvokeEx(
  `wFlags`  
  유효한 값에 대 한 `wFlags` 됩니다.  
   
- DISPATCH_PROPERTYGET &AMP;#124; DISPATCH_METHOD &AMP;#124; DISPATCH_PROPERTYPUT &AMP;#124; DISPATCH_PROPERTYPUTREF &AMP;#124; DISPATCH_CONSTRUCT  
+ DISPATCH_PROPERTYGET &#124; DISPATCH_METHOD &#124; DISPATCH_PROPERTYPUT &#124; DISPATCH_PROPERTYPUTREF &#124; DISPATCH_CONSTRUCT  
   
  컨텍스트를 설명 하는 플래그를 `InvokeEx` 호출 합니다.  
   

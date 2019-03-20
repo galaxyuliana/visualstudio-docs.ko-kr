@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 336c7a98a3c03f63b74cefa3ab3a4586408cfccf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4fdbb093abdf0d99f17c9bd27af3623d529a31ae
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621008"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58146346"
 ---
 # <a name="checklist-create-new-project-types"></a>검사 목록: 새 프로젝트 형식 만들기
 새 프로젝트 형식을 만들려면 몇 가지 작업을 완료 해야 합니다. 이러한 작업에 대 한 지침을 제공 하는 다음 검사 목록:
@@ -37,7 +37,7 @@ ms.locfileid: "56621008"
 
     -   프로젝트 항목 관리, 프로젝트에 추가 하는 등의 **새 프로젝트** 대화 상자. 자세한 내용은 [프로젝트 및 프로젝트 항목 템플릿 추가](../../extensibility/internals/adding-project-and-project-item-templates.md) 하 고 [프로젝트 및 항목 템플릿을 등록](../../extensibility/internals/registering-project-and-item-templates.md)합니다.
 
-    -   프로젝트 상태 및 개별 항목의 지 속성 자세한 내용은 [열린 프로젝트 항목을 저장 하 고](../../extensibility/internals/opening-and-saving-project-items.md)입니다. 솔루션 정보의 지 속성을 참조 하세요 [솔루션](../../extensibility/internals/solutions.md)합니다.
+    -   프로젝트 상태 및 개별 항목의 지 속성 자세한 내용은 [열린 프로젝트 항목을 저장 하 고](../../extensibility/internals/opening-and-saving-project-items.md)입니다. 솔루션 정보의 지 속성을 참조 하세요 [솔루션](../../extensibility/internals/solutions-overview.md)합니다.
 
     -   구성에 관계 없이 속성을 속성 창에서 표시 합니다. 자세한 내용은 [속성을 확장](../../extensibility/internals/extending-properties.md)합니다.
 

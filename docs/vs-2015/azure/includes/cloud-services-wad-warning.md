@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0170c6ed655ce54e2dbadf57341dff56616186ec
+ms.sourcegitcommit: e481d0055c0724d20003509000fd5f72fe9d1340
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/05/2018
+ms.locfileid: "51002358"
+---
 > [!WARNING]
 > 기존 역할에 대 한 진단을 사용 하도록 설정 하면 패키지를 배포할 때 설정한 모든 확장이 비활성화 됩니다. 여기에는 다음이 포함됩니다.
 >
@@ -7,7 +15,7 @@
 > * Microsoft Monitoring Agent
 > * Microsoft Service Profiler 에이전트      
 > * Windows Azure 도메인 확장        
-> * Windows Azure 진단 확장   
+> * Windows Azure Diagnostics 확장   
 > * Windows Azure의 원격 데스크톱 확장
 > * Windows Azure 로그 수집기
 >

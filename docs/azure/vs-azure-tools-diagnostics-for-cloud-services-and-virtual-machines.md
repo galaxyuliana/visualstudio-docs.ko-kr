@@ -16,11 +16,11 @@ ms.lasthandoff: 02/08/2019
 ms.locfileid: "55908728"
 ---
 # <a name="set-up-diagnostics-for-azure-cloud-services-and-virtual-machines"></a>Azure Cloud Services 및 Virtual Machines에 대한 진단 설정
-Azure 클라우드 서비스 또는 가상 머신 문제를 해결해야 하는 경우 Visual Studio를 사용하여 Azure 진단을 보다 쉽게 설정할 수 있습니다. 진단은 클라우드 서비스를 실행하는 가상 머신 및 가상 머신 인스턴스에서 시스템 데이터와 로깅 데이터를 캡처합니다. 진단 데이터는 사용자가 선택한 저장소 계정으로 전송됩니다. Azure의 진단 로깅에 대한 자세한 내용은 [Azure App Service에서 웹앱에 대해 진단 로깅 사용](/azure/app-service/web-sites-enable-diagnostic-log)을 참조하세요.
+Azure 클라우드 서비스 또는 가상 머신 문제를 해결해야 하는 경우 Visual Studio를 사용하여 Azure Diagnostics를 보다 쉽게 설정할 수 있습니다. 진단은 클라우드 서비스를 실행하는 가상 머신 및 가상 머신 인스턴스에서 시스템 데이터와 로깅 데이터를 캡처합니다. 진단 데이터는 사용자가 선택한 저장소 계정으로 전송됩니다. Azure의 진단 로깅에 대한 자세한 내용은 [Azure App Service에서 웹앱에 대해 진단 로깅 사용](/azure/app-service/web-sites-enable-diagnostic-log)을 참조하세요.
 
-이 문서에서는 Visual Studio를 사용하여 배포 전후에 Azure 진단을 켜고 설정하는 방법을 보여 줍니다. Azure Virtual Machines에서 진단을 설정하는 방법, 수집할 진단 정보 유형을 선택하는 방법 및 수집한 후에 정보를 확인하는 방법을 알아봅니다.
+이 문서에서는 Visual Studio를 사용하여 배포 전후에 Azure Diagnostics를 켜고 설정하는 방법을 보여 줍니다. Azure Virtual Machines에서 진단을 설정하는 방법, 수집할 진단 정보 유형을 선택하는 방법 및 수집한 후에 정보를 확인하는 방법을 알아봅니다.
 
-Azure 진단을 설정하려면 다음 옵션 중 하나를 사용할 수 있습니다.
+Azure Diagnostics를 설정하려면 다음 옵션 중 하나를 사용할 수 있습니다.
 
 * Visual Studio의 **진단 구성** 대화 상자에서 진단 설정을 변경합니다. 설정은 diagnostics.wadcfgx(Azure SDK 2.4 이하에서는 diagnostics.wadcfg)라는 파일에 저장됩니다. 구성 파일을 직접 수정할 수도 있습니다. 파일을 수동으로 업데이트하는 경우 다음에 클라우드 서비스를 Azure에 배포하거나 에뮬레이터에서 서비스를 실행할 때 변경 사항이 적용됩니다.
 * Visual Studio에서 클라우드 탐색기 또는 서버 탐색기를 사용하여 실행 중인 클라우드 서비스 또는 가상 머신에 대한 진단 설정을 변경합니다.
@@ -34,7 +34,7 @@ Azure 진단을 설정하려면 다음 옵션 중 하나를 사용할 수 있습
 이 연결 문자열은 Azure SDK 2.6 이상과 Azure SDK 2.4 이하 버전에서 주요 작동 방식이 약간 다릅니다.
 
 * Azure SDK 2.4 이하 버전에서는 진단 로그를 전송하기 위한 저장소 계정 정보를 가져오기 위해 진단 플러그인에 의해 런타임으로 연결 문자열이 사용되었습니다.
-* Azure SDK 2.6 이상 버전에서 Visual Studio는 게시하는 동안 진단 연결 문자열을 사용하여 적절한 저장소 계정 정보로 Azure 진단 확장을 설정합니다. 연결 문자열을 사용하여 Visual Studio에서 게시하는 동안 사용하는 다양한 서비스 구성에 대해 서로 다른 저장소 계정을 정의할 수 있습니다. 그러나 Azure SDK 2.5 이후에는 진단 플러그 인을 사용할 수 없으므로 .cscfg 파일 자체만으로 진단 확장을 설정할 수 없습니다. Visual Studio 또는 PowerShell과 같은 도구를 사용하여 확장을 별도로 설정해야 합니다.
+* Azure SDK 2.6 이상 버전에서 Visual Studio는 게시하는 동안 진단 연결 문자열을 사용하여 적절한 저장소 계정 정보로 Azure Diagnostics 확장을 설정합니다. 연결 문자열을 사용하여 Visual Studio에서 게시하는 동안 사용하는 다양한 서비스 구성에 대해 서로 다른 저장소 계정을 정의할 수 있습니다. 그러나 Azure SDK 2.5 이후에는 진단 플러그 인을 사용할 수 없으므로 .cscfg 파일 자체만으로 진단 확장을 설정할 수 없습니다. Visual Studio 또는 PowerShell과 같은 도구를 사용하여 확장을 별도로 설정해야 합니다.
 * PowerShell을 사용한 진단 확장 설정 프로세스를 단순화하기 위해 Visual Studio의 패키지 출력에 각 역할에 대한 진단 확장의 공용 구성 XML이 포함됩니다. Visual Studio에서는 진단 연결 문자열을 사용하여 공용 구성의 저장소 계정 정보를 채웁니다. 공용 구성 파일은 Extensions 폴더에 만들어집니다. 공용 구성 파일은 명명 패턴 PaaSDiagnostics.&lt;\>.PubConfig.xml을 사용합니다. 모든 PowerShell 기반 배포에서 이 패턴을 사용하여 각 구성을 역할에 매핑합니다.
 * [Azure Portal](http://go.microsoft.com/fwlink/p/?LinkID=525040)은 .cscfg 파일의 연결 문자열을 사용하여 진단 데이터에 액세스합니다. 데이터는 **모니터링** 탭에 표시됩니다. 이 연결 문자열은 포털에서 자세한 모니터링 데이터를 표시하도록 서비스를 설정하는 데 필요합니다.
 
@@ -86,7 +86,7 @@ Visual Studio에서는 배포하기 전에 에뮬레이터에서 서비스를 �
    > "디스크 할당량(MB)"에 지원되는 최소 크기는 4GB입니다. 그러나 메모리 덤프를 수집하는 경우 이 값을 10GB까지 늘릴 수 있습니다.
    >
 
-    ![Azure 진단 및 구성 사용](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
+    ![Azure Diagnostics 및 구성 사용](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
 6. 이 예제에서는 **사용자 지정 계획** 옵션을 선택하여 수집된 데이터를 사용자 지정할 수 있습니다.
 7. **디스크 할당량(MB)** 상자에서는 진단 데이터를 위한 저장소 계정에 할당할 공간을 설정할 수 있습니다. 기본값을 변경하거나 그대로 사용할 수 있습니다.
 8. 수집할 진단 데이터의 각 탭에서 **\<로그 유형\> 전송 사용** 확인란을 선택합니다. 예를 들어 애플리케이션 로그를 수집하려는 경우 **애플리케이션 로그** 탭에서 **애플리케이션 로그 전송 사용** 확인란을 선택합니다. 또한 각 진단 데이터 형식에 필요한 기타 정보를 지정합니다. 각 탭에 대한 구성 정보는 이 문서 뒷부분에 있는 **진단 데이터 원본 설정** 섹션을 참조하세요.
@@ -116,7 +116,7 @@ Visual Studio에서 Azure Virtual Machines에 대한 진단 데이터를 수집�
 
     **일반** 및 **로그 디렉터리**를 제외한 각 탭은 수집할 수 있는 진단 데이터 원본을 나타냅니다.
 
-    ![Azure 진단 및 구성 사용](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
+    ![Azure Diagnostics 및 구성 사용](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
 
     기본 **일반** 탭은 다음과 같은 진단 데이터 컬렉션 옵션을 제공합니다. **오류만**, **모든 정보** 및 **사용자 지정 계획**. 기본 옵션인 **오류만**은 경고 또는 추적 메시지를 전송하지 않으므로 최소한의 저장소를 사용합니다. **모든 정보** 옵션은 대부분의 정보를 전송하므로 저장소를 기준으로 비용이 가장 많이 드는 옵션입니다.
 7. 이 예에서는 **사용자 지정 계획** 옵션을 선택하여 수집된 데이터를 사용자 지정할 수 있습니다.
@@ -166,7 +166,7 @@ Azure SDK 2.5를 사용 중이고 사용자 지정 데이터 원본을 지정하
 
 ![진단 인프라 로그](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758148.png)
 
-자세한 내용은 [Azure 진단을 사용하여 로깅 데이터 수집](https://msdn.microsoft.com/library/azure/gg433048.aspx)을 참조하세요.
+자세한 내용은 [Azure Diagnostics를 사용하여 로깅 데이터 수집](https://msdn.microsoft.com/library/azure/gg433048.aspx)을 참조하세요.
 
 ### <a name="log-directories"></a>로그 디렉터리
 로그 디렉터리는 IIS(인터넷 정보 서비스) 요청, 실패한 요청 또는 사용자가 선택한 폴더에 대한 로그 디렉터리에서 수집한 데이터를 포함합니다. 로그 디렉터리를 캡처하려면 **로그 디렉터리 전송 사용** 확인란을 선택합니다. 저장소 계정으로의 로그 전송 간격을 늘리거나 줄이려면 변경 된 **전송 기간(분)** 값을 변경합니다.
@@ -193,7 +193,7 @@ ETW 프레임워크는 [System.Diagnostics.aspx](https://msdn.microsoft.com/libr
 
 ![크래시 덤프](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766026.png)
 
-자세한 내용은 [Microsoft Azure에서 로깅 및 추적 관리](https://msdn.microsoft.com/magazine/ff714589.aspx) 및 [Microsoft Azure 진단 4부: 사용자 지정 로깅 구성 요소 및 Azure 진단 1.3 변경 내용](http://justazure.com/microsoft-azure-diagnostics-part-4-custom-logging-components-azure-diagnostics-1-3-changes/)을 참조하세요.
+자세한 내용은 [Microsoft Azure에서 로깅 및 추적 관리](https://msdn.microsoft.com/magazine/ff714589.aspx) 및 [Microsoft Azure Diagnostics 4부: 사용자 지정 로깅 구성 요소 및 Azure Diagnostics 1.3 변경 내용](http://justazure.com/microsoft-azure-diagnostics-part-4-custom-logging-components-azure-diagnostics-1-3-changes/)을 참조하세요.
 
 ## <a name="view-the-diagnostics-data"></a>진단 데이터 보기
 클라우드 서비스 또는 가상 머신에 대한 진단 데이터를 수집한 후에 이를 볼 수 있습니다.
@@ -206,7 +206,7 @@ ETW 프레임워크는 [System.Diagnostics.aspx](https://msdn.microsoft.com/libr
 
     사용 가능한 데이터를 표시하는 보고서가 나타납니다.
 
-    ![Visual Studio의 Microsoft Azure 진단 보고서](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796666.png)
+    ![Visual Studio의 Microsoft Azure Diagnostics 보고서](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796666.png)
 
     가장 최근 데이터가 나타나지 않는 경우 전송 기간이 경과할 때까지 기다려야 할 수 있습니다.
 

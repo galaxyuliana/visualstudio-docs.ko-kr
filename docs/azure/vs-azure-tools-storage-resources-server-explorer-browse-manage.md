@@ -124,9 +124,9 @@ BLOB을 업로드하려면 BLOB 컨테이너 보기에서 볼 수 있도록 컨�
 
 ### <a name="to-view-logs-transferred-to-blobs"></a>Blob에 전송된 로그를 보려면
 
-Azure 진단을 사용하여 Azure 애플리케이션에서 데이터를 기록하고 스토리지 계정에 로그를 전송하는 경우 이러한 로그에 대해 Azure에서 만들어진 컨테이너가 표시됩니다. 서버 탐색기에서 이러한 로그를 확인하는 것은 특히 Azure에 배포된 경우 애플리케이션에 대한 문제를 식별하는 쉬운 방법입니다.
+Azure Diagnostics를 사용하여 Azure 애플리케이션에서 데이터를 기록하고 스토리지 계정에 로그를 전송하는 경우 이러한 로그에 대해 Azure에서 만들어진 컨테이너가 표시됩니다. 서버 탐색기에서 이러한 로그를 확인하는 것은 특히 Azure에 배포된 경우 애플리케이션에 대한 문제를 식별하는 쉬운 방법입니다.
 
-Azure 진단에 대한 자세한 내용은 [Azure 진단을 사용하여 로깅 데이터 수집](https://msdn.microsoft.com/library/azure/gg433048.aspx)을 참조하세요.
+Azure Diagnostics에 대한 자세한 내용은 [Azure Diagnostics를 사용하여 로깅 데이터 수집](https://msdn.microsoft.com/library/azure/gg433048.aspx)을 참조하세요.
 
 ### <a name="to-get-the-url-for-a-blob"></a>Blob에 대한 URL을 가져오려면
 
