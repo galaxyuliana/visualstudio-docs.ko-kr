@@ -12,12 +12,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4dff468ff42173e61c2f7006802c96a11120bd30
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d7a7ee6b8dec07284e35ff6807859136a1223fb7
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54769076"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57868045"
 ---
 # <a name="walkthrough-creating-a-multiple-computer-build-environment"></a>연습: 여러 컴퓨터 빌드 환경 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,7 +70,7 @@ ms.locfileid: "54769076"
   
 -   Visual Studio Ultimate, Visual Studio Premium 또는 Visual Studio Professional 정품  
   
--   .NET Framework 4.5.1([Visual Studio](http://www.microsoft.com/visualstudio/eng/downloads#d-additional-software) 웹 사이트에서 다운로드할 수 있음)  
+-   다운로드할 수 있는.NET Framework 4.5.1의 복사본을 [Microsoft](https://www.microsoft.com/download/details.aspx?id=40779) 웹 사이트입니다.  
   
 ##  <a name="InstallingSoftware"></a> 컴퓨터에 소프트웨어 설치  
  먼저 호스트 컴퓨터를 설정한 다음 빌드 컴퓨터를 설정합니다.  

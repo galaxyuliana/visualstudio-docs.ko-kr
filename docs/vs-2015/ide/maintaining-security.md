@@ -16,12 +16,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 72e1351d593059d83efede7676b0182cd60c9f7d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b99db8a9e1f34bc724059ff9cbf2a065df39e78f
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54752884"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57872831"
 ---
 # <a name="maintaining-security"></a>보안 유지 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,14 +33,13 @@ ms.locfileid: "54752884"
  [보안, 개인 정보, 계정](http://go.microsoft.com/fwlink/?LinkId=72881)  
  바이러스, 암호, 자녀 보호, 방화벽 및 드라이브 암호화에 대한 정보를 비롯하여 보안, 개인 정보 및 사용자 계정에 대한 도움을 받아 보십시오.  
   
- [Microsoft 보안 공지 검색](http://go.microsoft.com/fwlink/?LinkId=110396)  
+ [Microsoft 보안 공지 검색](/security-updates/)  
  이 페이지는 이전에 릴리스된 게시판을 쉽게 찾을 수 있도록 구성되어 있으며 IT 전문가를 위한 보안 게시판에는 보안 업데이트와 관련된 자세한 정보가 있습니다.  
   
- [Windows Server 2003 보안 가이드](http://go.microsoft.com/fwlink/?LinkId=65300)  
- 권한 있는 사용자가 필요한 콘텐츠에 올바로 액세스하는 동시에 Windows Server 2003 환경을 안전하게 운영하기 위해 IT 전문가에게 필요한 지침을 제공합니다.  
+ [Windows Server 2003 보안 가이드] (/previous-versions/tn-archive/cc163140(v=technet.10) IT 전문가가 권한 있는 사용자가 콘텐츠에 대 한 권한 액세스를 보장 하는 동안 Windows Server 2003 환경을 안전 하 게 작동 하는 데 필요한 지침을 제공 하는 데 사용 합니다.  
   
- [엔터프라이즈 보안을 위한 최선의 방법](http://go.microsoft.com/fwlink/?LinkId=72879)  
- 엔터프라이즈 네트워크 보안의 다양한 측면에 초점을 둔 백서 컬렉션입니다.  
+ [엔터프라이즈 보안을 위한 최선의 방법](/previous-versions/tn-archive/cc750076%28v%3dtechnet.10%29)  
+ 엔터프라이즈 네트워크 보안의 다양한 측면에 초점을 둔 백서 모음입니다.  
   
- [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?LinkId=9173)  
+ [Microsoft Baseline Security Analyzer](/windows/security/threat-protection/mbsa-removal-and-guidance)  
  MBSA(Microsoft Baseline Security Analyzer)는 가정이나 회사의 개인 사용자 또는 관리자가 한 대 이상의 Windows 기반 컴퓨터에서 일반적인 보안 구성 실수를 검색할 수 있는 도구입니다.

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 447c51193845e4cc558ed70bcd89b68ceef888fb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3adedb95931dfc2f683595fc97bb98821e32fb38
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919172"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983496"
 ---
 # <a name="access-data-in-visual-studio"></a>Visual Studio에서 데이터 액세스
 
@@ -65,10 +65,20 @@ JavaScript, Python, PHP, Ruby 또는 c + +에서 응용 프로그램의 경우 �
 - VelocityDB
 - 기타...
 
-여러 데이터베이스 공급 업체와 타사 NuGet 패키지에서 Visual Studio 통합을 지원합니다. Nuget.org 또는 Visual Studio에서 NuGet 패키지 관리자를 통해 제공 되는 서비스를 탐색할 수 있습니다 (**도구가** > **NuGet 패키지 관리자** > **NuGet 관리 솔루션에 대 한 패키지**). 다른 데이터베이스 제품 확장으로 Visual Studio와 통합 합니다. 로 이동 하 여 Visual Studio Marketplace에서 이러한 제품을 찾아볼 수 있습니다 **도구**를 **확장 및 업데이트** 을 선택한 다음 **Online** 의 왼쪽된 창에는 대화 상자입니다. 자세한 내용은 [Visual Studio에 대 한 호환 되는 데이터베이스 시스템](../data-tools/installing-database-systems-tools-and-samples.md)입니다.
+::: moniker range="vs-2017"
+
+여러 데이터베이스 공급 업체와 타사 NuGet 패키지에서 Visual Studio 통합을 지원합니다. Nuget.org 또는 Visual Studio에서 NuGet 패키지 관리자를 통해 제공 되는 서비스를 탐색할 수 있습니다 (**도구가** > **NuGet 패키지 관리자** > **NuGet 관리 솔루션에 대 한 패키지**). 다른 데이터베이스 제품 확장으로 Visual Studio와 통합 합니다. 이러한 제품을 찾아볼 수 있습니다 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 으로 이동 **도구** > **확장 및 업데이트** 을 선택한 다음  **온라인** 대화 상자의 왼쪽된 창에서. 자세한 내용은 [Visual Studio에 대 한 호환 되는 데이터베이스 시스템](../data-tools/installing-database-systems-tools-and-samples.md)입니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+여러 데이터베이스 공급 업체와 타사 NuGet 패키지에서 Visual Studio 통합을 지원합니다. Nuget.org 또는 Visual Studio에서 NuGet 패키지 관리자를 통해 제공 되는 서비스를 탐색할 수 있습니다 (**도구가** > **NuGet 패키지 관리자** > **NuGet 관리 솔루션에 대 한 패키지**). 다른 데이터베이스 제품 확장으로 Visual Studio와 통합 합니다. 이러한 제품을 찾아볼 수 있습니다 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 으로 이동 **확장** > **확장 관리** 을 선택한 다음  **온라인** 대화 상자의 왼쪽된 창에서. 자세한 내용은 [Visual Studio에 대 한 호환 되는 데이터베이스 시스템](../data-tools/installing-database-systems-tools-and-samples.md)입니다.
+
+::: moniker-end
 
 > [!NOTE]
-> 2016 년 4 월 12 일에 SQL Server 2005 지원 연장이 종료 되었습니다. 이 날짜 이후에 SQL Server 2005를 사용 하려면 Visual Studio 2015 이상에서 데이터 도구를 계속 하지 않을 수도가 있습니다. 자세한 내용은 참조는 [SQL Server 2005 지원 종료 알림](https://www.microsoft.com/sql-server/sql-server-2005)합니다.
+> 2016 년 4 월 12 일에 SQL Server 2005 지원 연장이 종료 되었습니다. SQL Server 2005를 사용 하려면 Visual Studio 2015 이상에서 데이터 도구를 계속 하지 않을 수도가 있습니다. 자세한 내용은 참조는 [SQL Server 2005 지원 종료 알림](https://www.microsoft.com/sql-server/sql-server-2005)합니다.
 
 ## <a name="net-languages"></a>.NET 언어
 

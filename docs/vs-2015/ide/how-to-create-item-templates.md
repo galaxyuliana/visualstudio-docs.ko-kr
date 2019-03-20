@@ -1,5 +1,5 @@
 ---
-title: '방법: 항목 템플릿 만들기 | Microsoft Docs'
+title: '방법: 항목 템플릿 만들기 | Microsoft 문서'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general
@@ -14,21 +14,21 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 09d81f82584e7ab2002d9338999927e1ac3e09bf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c120e94943d9e75c968ecf13fbdb1ec6d883eff2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54788251"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57867929"
 ---
 # <a name="how-to-create-item-templates"></a>방법: 항목 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 항목 [첫 번째 절차](../ide/how-to-create-item-templates.md#export_template)의 단계에서는 **템플릿 내보내기** 마법사를 사용하여 항목 템플릿을 만드는 방법을 보여 줍니다. 템플릿이 여러 파일로 구성되는 경우 [방법: 다중 파일 항목 템플릿 만들기](../ide/how-to-create-multi-file-item-templates.md)를 참조하세요.  
+이 항목 [첫 번째 절차](#to-add-a-custom-project-item-template-to-the-add-new-item-dialog-box)의 단계에서는 **템플릿 내보내기** 마법사를 사용하여 항목 템플릿을 만드는 방법을 보여 줍니다. 템플릿이 여러 파일로 구성되는 경우 [방법: 다중 파일 항목 템플릿 만들기](../ide/how-to-create-multi-file-item-templates.md)를 참조하세요.  
   
- 마법사에서 기본 템플릿 만들기에 대한 많은 작업을 수행하지만 대부분의 경우 템플릿을 내보낸 후 .vstemplate 파일을 수동으로 수정해야 합니다. 예를 들어 항목을 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱 프로젝트의 **새 항목 추가** 대화 상자에 표시하려면 몇 가지 추가 단계를 수행해야 합니다. 이 항목의 [두 번째 절차](../ide/how-to-create-item-templates.md#modify_template)에 따라 해당 작업을 수행할 수 있습니다.  
+ 마법사에서 기본 템플릿 만들기에 대한 많은 작업을 수행하지만 대부분의 경우 템플릿을 내보낸 후 .vstemplate 파일을 수동으로 수정해야 합니다. 예를 들어 항목을 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱 프로젝트의 **새 항목 추가** 대화 상자에 표시하려면 몇 가지 추가 단계를 수행해야 합니다. 이 항목의 [두 번째 절차](#to-enable-the-item-template-to-be-used-in-a-store-project)에 따라 해당 작업을 수행할 수 있습니다.  
  
- 경우에 따라 항목 템플릿을 처음부터 수동으로 만들어야 하거나 만들 수 있습니다. [세 번째 절차](../ide/how-to-create-item-templates.md#create_template)에서는 이 작업 방법을 보여 줍니다.  
+ 경우에 따라 항목 템플릿을 처음부터 수동으로 만들어야 하거나 만들 수 있습니다. [세 번째 절차](#to-enable-templates-for-specific-project-sub-types)에서는 이 작업 방법을 보여 줍니다.  
   
  .vstemplate 파일에 사용할 수 있는 요소에 대한 자세한 내용은 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)를 참조하세요.  
   

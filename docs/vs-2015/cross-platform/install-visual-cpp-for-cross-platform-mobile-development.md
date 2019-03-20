@@ -11,12 +11,12 @@ caps.latest.revision: 17
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: 47285fe9fb57b9c4d5d80c60f9e626f394e11934
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 504f7f002c41832294e61fa968f7cfd2d32b54b0
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54762861"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57869124"
 ---
 # <a name="install-visual-c-for-cross-platform-mobile-development"></a>플랫폼 간 모바일 개발용 Visual C++ 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -116,7 +116,7 @@ ms.locfileid: "54762861"
   
    기본적으로 설치 관리자는 Apache Ant를 C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps에 넣습니다.  
   
-- [Microsoft Visual Studio Emulator for Android](http://go.microsoft.com/fwlink/p/?LinkId=536390)  
+- [Microsoft Visual Studio Emulator for Android](https://visualstudio.microsoft.com/vs/msft-android-emulator/)  
   
    Visual Studio 갤러리에서 Android용 Microsoft Visual Studio 에뮬레이터를 설치 및 업데이트할 수 있습니다.  
   

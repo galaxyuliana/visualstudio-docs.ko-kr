@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 24785b4f39265b71c3f1cb18b4331ded53652905
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: e68e6c7258cb906ac81cb97f7d82bd5c5d9b467a
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526765"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57873125"
 ---
 # <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic, c + +)
 
@@ -52,7 +52,7 @@ Visual Studio Enterprise Edition(Professional 또는 Community Edition 아님)�
 
 | | |
 |---------------------| - |
-| **전체 지원** | - .NET Framework 2.0 이상 버전을 사용하는 Visual Basic 및 Visual C# 애플리케이션.<br/>ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013 및 64비트 앱을 포함한 대부분의 응용 프로그램을 디버깅할 수 있습니다.<br/>IntelliTrace 사용 하 여 SharePoint 응용 프로그램을 디버깅 하려면 참조 [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램을 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)합니다.<br/> IntelliTrace 사용 하 여 Microsoft Azure 앱 디버그를 참조 하세요 [IntelliTrace 및 Visual Studio를 사용 하 여 게시 된 클라우드 서비스 디버깅](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services)합니다. |
+| **전체 지원** | - .NET Framework 2.0 이상 버전을 사용하는 Visual Basic 및 Visual C# 애플리케이션.<br/>ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013 및 64비트 앱을 포함한 대부분의 응용 프로그램을 디버깅할 수 있습니다.<br/>IntelliTrace 사용 하 여 SharePoint 응용 프로그램을 디버깅 하려면 참조 [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램을 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)합니다.<br/> IntelliTrace 사용 하 여 Microsoft Azure 앱 디버그를 참조 하세요 [IntelliTrace 및 Visual Studio를 사용 하 여 게시 된 클라우드 서비스 디버깅](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md)합니다. |
 | **제한적 지원** | -C + + 앱을 Windows 지원 IntelliTrace 뒤로 사용 하 여 스냅숏 보기를 대상으로 합니다. 디버거 및 예외 이벤트만 지원 됩니다.<br />-.NET core 및 ASP.NET Core 앱에 대 한 특정 이벤트만 (MVC 컨트롤러, ADO.NET 및 HTTPClient 이벤트)에서 지원 로컬 디버깅 합니다. 독립 실행형 수집기는.NET Core 또는 ASP.NET Core 앱에 대 한 지원 되지 않습니다.<br />- 시험 차원의 F# 앱<br />-UWP 앱만 이벤트에 대 한 지원 |
 | **지원되지 않음** | -다른 언어 및 스크립트<br />- Windows Services, Silverlight, Xbox 또는 [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] 앱 |
 
@@ -91,7 +91,7 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 - 배포된 응용 프로그램에서 버그 또는 충돌이 발생합니다.
 
-     Microsoft Azure 기반 응용 프로그램의 경우 응용 프로그램을 게시하기 전에 IntelliTrace 데이터 수집을 구성할 수 있습니다. 응용 프로그램을 실행하는 동안 IntelliTrace는 데이터를 .iTrace 파일에 저장합니다. 참조 [IntelliTrace 및 Visual Studio를 사용 하 여 게시 된 클라우드 서비스 디버깅](http://go.microsoft.com/fwlink/?LinkID=262248)합니다.
+     Microsoft Azure 기반 응용 프로그램의 경우 응용 프로그램을 게시하기 전에 IntelliTrace 데이터 수집을 구성할 수 있습니다. 응용 프로그램을 실행하는 동안 IntelliTrace는 데이터를 .iTrace 파일에 저장합니다. 참조 [IntelliTrace 및 Visual Studio를 사용 하 여 게시 된 클라우드 서비스 디버깅](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md)합니다.
 
      IIS 7.0, 7.5 및 8.0에서 호스팅된 ASP.NET 웹 앱과 SharePoint 2010 또는 SharePoint 2013 응용 프로그램에 대해 Microsoft Monitoring Agent 단독으로 또는 System Center 2012와 함께 사용하여 IntelliTrace 데이터를 .iTrace 파일에 저장합니다.
 

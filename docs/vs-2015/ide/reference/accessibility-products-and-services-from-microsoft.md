@@ -19,12 +19,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d07901a14b61ccddf8d4799828c6d42bddf7f94b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 9c780213083068d64a62791fdd858f692533bf40
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54794356"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57867944"
 ---
 # <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft의 내게 필요한 옵션 제품 및 서비스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,9 +61,9 @@ Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽�
   
  또한 RFB&D(Recording for the Blind & Dyslexic, Inc)에서 Microsoft 설명서를 추가로 얻을 수 있습니다. RFB&D에서는 배포 서비스에 등록된 정식 사용자에게 이러한 설명서를 배포합니다. Microsoft 제품 설명서 및 Microsoft Press 책자의 사용 가능 여부에 대한 자세한 내용은 다음 연락처로 문의하세요.  
   
-|Recording for the Blind & Dyslexic, Inc.|  
+|Learning Ally|  
 |----------------------------------------------|  
-|20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> 미국 내 전화 번호: (800) 221-4792<br /><br /> 미국 및 캐나다 이외의 전화 번호: (609) 452-0606<br /><br /> 팩스: (609) 987-8116<br /><br /> Blind & Dyslexic 웹 사이트에 대한 기록: [http://www.rfbd.org](http://go.microsoft.com/fwlink/?LinkId=62504).|  
+|20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Learning Ally 웹 사이트: [http://www.learningally.org](http://www.learningally.org/).|  
   
  웹 주소는 변경될 수 있으므로 여기에 나와 있는 웹 사이트에 연결되지 않을 수도 있습니다.  
   

@@ -21,17 +21,17 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e952f9611b7bdb4d96e8a50b502ae15e1e6ce528
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 8390fcfd5dd89607422b7614d064ec736f98f61b
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54802316"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57867925"
 ---
 # <a name="profiling-on-hpc-high-performance-computing-clusters"></a>HPC(High Performance Computing) 클러스터에서 프로파일링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-[!INCLUDE[vsPreExt](../includes/vspreext-md.md)] 또는 [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] 프로파일링 도구의 샘플링 방법을 사용하여 Microsoft Windows HPC 클러스터의 컴퓨터 노드에서 프로파일링을 수행할 수 있습니다. HPC에 대한 자세한 내용은 Microsoft 웹 사이트에서 [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393)를 참조하세요.  
+[!INCLUDE[vsPreExt](../includes/vspreext-md.md)] 또는 [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] 프로파일링 도구의 샘플링 방법을 사용하여 Microsoft Windows HPC 클러스터의 컴퓨터 노드에서 프로파일링을 수행할 수 있습니다. HPC에 대 한 자세한 내용은 참조 하세요 [큰 계산: HPC 및 일괄 처리](https://azure.microsoft.com/solutions/big-compute/) Microsoft 웹 사이트에서.  
   
 ## <a name="prerequisites"></a>전제 조건  
  HPC 컴퓨터 노드에서 프로파일링하려면 다음을 수행해야 합니다.  
@@ -55,8 +55,8 @@ ms.locfileid: "54802316"
 |||  
 |-|-|  
 |*%HeadNode%*|클러스터의 헤드 노드 이름입니다.|  
-|*%FxPath%*|[!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] 설치 관리자의 경로입니다. 에 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 설치 미디어에서 경로: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe|  
-|*%ProfilerPath%*|프로파일링 도구 설치 관리자의 독립 실행형 버전 경로입니다. 에 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 설치 미디어에서 경로: Standalone Profiler\x64\vs_profiler.exe|  
+|*%FxPath%*|[!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] 설치 관리자의 경로입니다. [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 설치 미디어에서 경로는 WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe입니다.|  
+|*%ProfilerPath%*|프로파일링 도구 설치 관리자의 독립 실행형 버전 경로입니다. [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 설치 미디어에서 경로는 Standalone Profiler\x64\vs_profiler.exe입니다.|  
   
 ## <a name="profiling-on-an-hpc-compute-node"></a>HPC 컴퓨터 노드에서 프로파일링  
  HPC 성능 마법사를 사용하여 HPC 클러스터 및 대상 정보를 지정하는 방식으로 프로파일링 세션을 구성합니다. 성능 세션 속성 페이지에서 추가 옵션을 설정할 수 있습니다. 프로파일링 도구는 필요한 대상 이진 파일을 자동으로 배포하고 프로파일러 및 HPC 애플리케이션을 시작합니다.  

@@ -11,12 +11,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6440dabdc1252440e68e424e94aa6534d63173e8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 454e71026eeee3cbd76c95038ba59fb709b8d88f
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54784208"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58193678"
 ---
 # <a name="security-bibliography"></a>보안 관련 참조 목록
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,11 +24,11 @@ ms.locfileid: "54784208"
 다음은 보안 애플리케이션 개발 및 보안 환경 구성에 대한 일부 온라인 리소스 및 인쇄물입니다.  
   
 ## <a name="microsoft-web-sites"></a>Microsoft 웹 사이트  
- [Microsoft 보안](http://go.microsoft.com/fwlink/?LinkId=55529)  
+ [Microsoft 보안](https://www.microsoft.com/security)  
  IT 전문가, 개발자 및 개인 사용자를 위한 보안 리소스에 대한 링크와 함께, 데스크톱에서 네트워크 수준 시스템에 이르기까지 애플리케이션과 시스템의 보안을 유지하기 위해 Microsoft가 어떤 노력을 하고 있는지 알아보세요.  
   
- [MSDN의 보안 리소스](http://go.microsoft.com/fwlink/?LinkID=25440)  
+ [MSDN의 보안 리소스](https://www.microsoft.com/msrc?rtc=1)  
  개발자 중심 설명서, 코드 샘플, 기술 자료 및 기타 보안 애플리케이션 개발을 위한 리소스를 안내합니다.  
   
- [Microsoft TechNet 보안](http://go.microsoft.com/fwlink/?LinkId=67991)  
+ [Microsoft TechNet 보안](https://www.microsoft.com/securityengineering)  
  정보 기술 전문가 및 "고급 사용자"를 위한 보안에 관한 가장 중요한 기술 정보에 대한 핵심을 포함합니다.

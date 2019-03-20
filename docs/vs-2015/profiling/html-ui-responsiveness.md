@@ -20,12 +20,12 @@ caps.latest.revision: 52
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b3e5a1ce334f0d5cb567eb8c4cefd27f1bca408b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 9b12906c5a1a2f8e2473d2b0088600830a291744
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54752968"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58151182"
 ---
 # <a name="html-ui-responsiveness"></a>HTML UI 응답성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -106,7 +106,7 @@ ms.locfileid: "54752968"
   
     -   [진단 세션 타임라인 보기](#Ruler) 을 사용해 [분석을 위한 코드 표시](#ProfileMark), 앱 수명 주기 이벤트 및 이러한 이벤트에 연결된 타임라인과 다른 그래프의 데이터에 대한 타임라인을 확인합니다.  
   
-    -   [CPU utilization graph](#CPUutilization) 를 사용해 CPU 작업 및 특정 기간에 CPU에서 처리하는 작업 유형에 관한 일반적인 정보를 볼 수 있습니다. CPU 작업이 과도한 기간에는 응답성 문제 및 프레임 저하가 발생할 가능성이 높습니다.  
+    -   [CPU utilization graph](#CPUUtilization) 를 사용해 CPU 작업 및 특정 기간에 CPU에서 처리하는 작업 유형에 관한 일반적인 정보를 볼 수 있습니다. CPU 작업이 과도한 기간에는 응답성 문제 및 프레임 저하가 발생할 가능성이 높습니다.  
   
     -   게임 또는 리치 미디어 앱을 개발하는 경우 [시각적 처리량 보기(FPS)](#VisualThroughput) 를 사용하여 프레임 속도가 떨어지는 기간을 식별합니다.  
   
@@ -351,8 +351,8 @@ if (performance.mark && performance.measure) {
 |그리기|렌더링|DOM에서 시각적 항목이 변경되었고 페이지의 일부를 다시 렌더링하려고 했습니다.|  
 |레이어 렌더링|렌더링|독립적으로 렌더링된 DOM 조각(레이어라고 함)에서 페이지의 일부분을 렌더링해야 하는 시각적 항목이 변경되었습니다.|  
 |이미지 디코딩|이미지 디코딩|DOM에 이미지가 포함되어 해당 이미지를 원본 형식에서 비트맵으로 압축 해제하고 디코딩하려 했습니다.|  
-|프레임|N/A|DOM에서 시각적 항목이 변경되어 페이지에서 영향을 받는 모든 부분이 다시 그려져야 합니다. 그룹화에 사용되는 도구 생성 이벤트입니다.|  
-|사용자 측정|N/A|앱 관련 시나리오는 `performance.measure` 메서드를 사용하여 측정되었습니다. 코드 분석에 사용되는 도구 생성 이벤트입니다.|  
+|프레임|해당 없음|DOM에서 시각적 항목이 변경되어 페이지에서 영향을 받는 모든 부분이 다시 그려져야 합니다. 그룹화에 사용되는 도구 생성 이벤트입니다.|  
+|사용자 측정|해당 없음|앱 관련 시나리오는 `performance.measure` 메서드를 사용하여 측정되었습니다. 코드 분석에 사용되는 도구 생성 이벤트입니다.|  
   
 ##  <a name="Tips"></a> 추가 정보  
   
