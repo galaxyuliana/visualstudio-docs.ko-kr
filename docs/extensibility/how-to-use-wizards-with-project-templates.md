@@ -1,6 +1,6 @@
 ---
 title: '방법: 프로젝트 템플릿에 마법사 사용'
-ms.date: 11/04/2016
+ms.date: 3/16/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - project templates [Visual Studio], wizards
@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0ad50d22641d6b52d688c685fbf0f50fd0c54b31
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 140c72e124143860fee80054ab3fe7e6e921b918
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56723710"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194673"
 ---
 # <a name="how-to-use-wizards-with-project-templates"></a>방법: 프로젝트 템플릿에 마법사 사용
 
@@ -31,14 +31,14 @@ Visual Studio에서는 사용자가 템플릿을 사용하여 프로젝트를 �
 
 ## <a name="create-a-project-template-project-with-a-vsix-project"></a>VSIX 프로젝트를 사용 하 여 프로젝트 템플릿 만들기
 
-Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와 함께 사용자 지정 템플릿 만들기를 시작 하기. 이 절차에서는 사용 하 여는 C# 템플릿 프로젝트를 프로젝트 하지만 Visual Basic 프로젝트 템플릿 이기도 합니다. 그런 다음 프로젝트 서식 파일 프로젝트가 포함 된 솔루션에 VSIX 프로젝트를 추가 합니다.
+Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와 함께 사용자 지정 템플릿 만들기를 시작 하기. 이 절차를 사용 하 여는 C# 템플릿 프로젝트를 프로젝트 하지만 Visual Basic 프로젝트 템플릿 이기도 합니다. 그런 다음 프로젝트 서식 파일 프로젝트가 포함 된 솔루션에 VSIX 프로젝트를 추가 합니다.
 
-1. C# 프로젝트 템플릿 프로젝트 만들기 (Visual Studio에서 **파일** > **새로 만들기** > **프로젝트** > **Visual C#**   >  **확장성** > **C# 프로젝트 템플릿**). 이름을 **MyProjectTemplate**합니다.
+1. 만들기는 C# 프로젝트 템플릿 (Visual Studio에서 선택 **파일** > **새로 만들기** > **프로젝트** "프로젝트 템플릿" 검색 ). 이름을 **MyProjectTemplate**합니다.
 
    > [!NOTE]
    > Visual Studio SDK를 설치 하 라는 메시지가 표시 될 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.
 
-2. 새 VSIX 프로젝트를 추가 (**파일** > **새로 만들기** > **프로젝트** > **시각적 C#**   >  **확장성** > **VSIX 프로젝트**) 프로젝트 템플릿 프로젝트와 동일한 솔루션에서 (에서 **솔루션 탐색기**, 솔루션 노드를 마우스 오른쪽 단추로 선택 **추가** > **새 프로젝트**). 이름을 **MyProjectWizard 합니다.**
+2. 새 VSIX 프로젝트 템플릿 프로젝트와 동일한 솔루션에 추가 (에서 **솔루션 탐색기**에서 솔루션 노드를 마우스 오른쪽 단추로 선택 **추가** > **새 프로젝트**  "vsix" 검색). 이름을 **MyProjectWizard 합니다.**
 
 3. VSIX 프로젝트를 시작 프로젝트로 설정 합니다. **솔루션 탐색기**, 선택는 VSIX 프로젝트 노드를 마우스 오른쪽 단추로 선택 **시작 프로젝트로 설정**합니다.
 
@@ -50,7 +50,7 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
 
 7. 솔루션을 빌드하고 디버깅을 시작합니다. 두 번째 Visual Studio 인스턴스가 표시됩니다. (몇 분 정도 걸릴 수 있습니다.)
 
-8. Visual Studio의 두 번째 인스턴스의 경우에서 새 템플릿을 사용 하 여 새 프로젝트를 만들려고 시도 (**파일** > **새로 만들기** > **프로젝트 > Visual C#**   >  **MyProject 템플릿**). 라는 클래스를 사용 하 여 새 프로젝트가 표시 됩니다 **Class1**합니다. 이제 사용자 지정 프로젝트 템플릿을 만들었습니다! 지금 디버깅을 중지 합니다.
+8. Visual Studio의 두 번째 인스턴스의 경우에서 새 템플릿을 사용 하 여 새 프로젝트를 만들려고 시도 (**파일** > **새로 만들기** > **프로젝트**, 검색 " myproject ")입니다. 라는 클래스를 사용 하 여 새 프로젝트가 표시 됩니다 **Class1**합니다. 이제 사용자 지정 프로젝트 템플릿을 만들었습니다! 지금 디버깅을 중지 합니다.
 
 ## <a name="create-a-custom-template-wizard"></a>사용자 지정 템플릿 만들기 마법사
 
@@ -60,11 +60,11 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
 
 2. **솔루션 탐색기**, VSIX 프로젝트 노드를 선택 합니다. 아래 **솔루션 탐색기**에 표시 되어야 합니다 **속성** 창입니다. 이렇게 하지 않으면 경우 선택 **뷰** > **속성 창**를 누르거나 **F4**합니다. 에 **속성** 창에서 다음 필드를 `true`:
 
-   -   **IncludeAssemblyInVSIXContainer**
+   - **IncludeAssemblyInVSIXContainer**
 
-   -   **IncludeDebugSymbolsInVSIXContainer**
+   - **IncludeDebugSymbolsInVSIXContainer**
 
-   -   **IncludeDebugSymbolsInLocalVSIXDeployment**
+   - **IncludeDebugSymbolsInLocalVSIXDeployment**
 
 3. VSIX 프로젝트에 자산으로 어셈블리를 추가 합니다. 엽니다는 *source.extension.vsixmanifest* 파일을 선택 합니다 **자산** 탭 합니다. 에 **새 자산 추가** 창에 대 한 **유형** 선택 **Microsoft.VisualStudio.Assembly**에 대 한 **원본** 선택 **는 현재 솔루션의 프로젝트**, 및 **프로젝트** 선택 **MyProjectWizard**합니다.
 
@@ -157,7 +157,7 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
 
    - <xref:System.Object> Visual Studio에서 마법사에 전달 된 매개 변수 집합을 포함 하는 배열입니다.
 
-     사용자 입력된 폼에서 매개 변수 값을 추가 하는이 예제는 <xref:System.Collections.Generic.Dictionary%602> 매개 변수입니다. 모든 인스턴스는 `$custommessage$` 프로젝트의 매개 변수를 사용자가 입력 한 텍스트를 사용 하 여 바뀝니다. 프로젝트에 다음 어셈블리를 추가해야 합니다. **시스템** 하 고 **System.Drawing**합니다.
+     사용자 입력된 폼에서 매개 변수 값을 추가 하는이 예제는 <xref:System.Collections.Generic.Dictionary%602> 매개 변수입니다. 모든 인스턴스는 `$custommessage$` 프로젝트의 매개 변수를 사용자가 입력 한 텍스트를 사용 하 여 바뀝니다. 프로젝트에 다음 어셈블리를 추가 합니다. **시스템** 하 고 **System.Drawing**합니다.
 
 7. 이제 만들 합니다 **된 userinputform은**합니다. 에 *WizardImplementation.cs* 파일, 종료 된 후 다음 코드를 추가 합니다 `WizardImplementation` 클래스.
 
@@ -228,7 +228,7 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
 
      *C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools*
 
-     도구를 찾을 수 없는 경우 실행 **여기서 /R 합니다.  sn.exe** 명령 창에 있습니다. 경로 기록해 둡니다.
+     도구를 찾을 수 없는 경우 실행 해 보세요 **여기서 /R. sn.exe** 명령 창에 있습니다. 경로 기록해 둡니다.
 
 10. 공개 키를 추출 합니다 *key.snk* 파일입니다. 명령 창에 입력
 
@@ -297,19 +297,19 @@ namespace $safeprojectname$
 
 이제 템플릿에서 프로젝트를 만들고 사용자 지정 마법사를 사용 하는 방법도 수 있습니다.
 
-1.  솔루션 다시 빌드 및 디버깅을 시작 합니다. Visual Studio의 두 번째 인스턴스가 나타납니다.
+1. 솔루션 다시 빌드 및 디버깅을 시작 합니다. Visual Studio의 두 번째 인스턴스가 나타납니다.
 
-2.  새 MyProjectTemplate 프로젝트를 만듭니다. (**파일** > **새** > **프로젝트** > **Visual C#**  >  **MyProjectTemplate**)
+2. 새 MyProjectTemplate 프로젝트를 만듭니다. (**파일** > **새** > **프로젝트**).
 
-3.  에 **새 프로젝트** 대화 상자에서 템플릿을 찾고에 이름을 입력 하 고 클릭 **확인**합니다.
+3. 에 **새 프로젝트** 대화 상자에서 템플릿을 찾고는 이름을 입력 하 고 클릭을 "myproject"에 대 한 검색 **확인**합니다.
 
      마법사 사용자 입력된 양식이 열립니다.
 
-4.  사용자 지정 매개 변수 값을 입력 하 고 단추를 클릭 합니다.
+4. 사용자 지정 매개 변수 값을 입력 하 고 단추를 클릭 합니다.
 
      마법사 사용자 입력된 양식을 닫고 프로젝트 템플릿에서 만들어집니다.
 
-5.  **솔루션 탐색기**소스 코드 파일을 마우스 오른쪽 단추로 클릭 하 고 클릭 **코드 보기**합니다.
+5. **솔루션 탐색기**소스 코드 파일을 마우스 오른쪽 단추로 클릭 하 고 클릭 **코드 보기**합니다.
 
      `$custommessage$` 마법사 사용자 입력된 폼에 입력 된 텍스트를 사용 하 여 대체 되었습니다.
 

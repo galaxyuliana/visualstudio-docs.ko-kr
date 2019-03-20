@@ -1,6 +1,6 @@
 ---
 title: 'CA3075: DTD 처리가 안전하지 않습니다.'
-ms.date: 11/04/2016
+ms.date: 03/18/2019
 ms.topic: reference
 ms.assetid: 65798d66-7a30-4359-b064-61a8660c1eed
 author: gewarren
@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ec4ea49b9b5563382786b5cf83f577e0b8e96386
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6de817e3aaecbdd1c89cc2174e91126ea39d99d7
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55921408"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194621"
 ---
 # <a name="ca3075-insecure-dtd-processing"></a>CA3075: DTD 처리가 안전하지 않습니다.
 
@@ -30,7 +30,7 @@ ms.locfileid: "55921408"
 
 ## <a name="rule-description"></a>규칙 설명
 
-*DTD(문서 종류 정의)* 는 XML 파서가  [W3C(World Wide Web Consortium) XML(Extensible Markup Language) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/)에 정의된 대로 문서의 유효성을 확인할 수 있는 두 가지 방법 중 하나입니다. 이 규칙은 신뢰할 수 없는 데이터가 허용되는 속성 및 인스턴스를 찾아 [DoS(서비스 거부)](/dotnet/framework/wcf/feature-details/information-disclosure) 공격을 야기할 수 있는 잠재적인 [Information Disclosure](/dotnet/framework/wcf/feature-details/denial-of-service) 위협을 개발자에게 경고합니다. 다음 경우에 이 규칙이 트리거됩니다.
+*DTD(문서 종류 정의)* 는 XML 파서가  [W3C(World Wide Web Consortium) XML(Extensible Markup Language) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/)에 정의된 대로 문서의 유효성을 확인할 수 있는 두 가지 방법 중 하나입니다. 이 규칙은 속성 및 개발자 가능성에 대 한 경고를 신뢰할 수 없는 데이터가 허용 되는 인스턴스에 찾아 [정보 공개](/dotnet/framework/wcf/feature-details/information-disclosure) 위협 또는 [서비스 거부 (DoS)](/dotnet/framework/wcf/feature-details/denial-of-service) 공격입니다. 다음 경우에 이 규칙이 트리거됩니다.
 
 - <xref:System.Xml.XmlReader> 를 사용하여 외부 XML 엔터티를 확인하는 <xref:System.Xml.XmlUrlResolver>인스턴스에서 DtdProcessing이 사용되도록 설정된 경우
 
@@ -38,27 +38,27 @@ ms.locfileid: "55921408"
 
 - <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> 속성이는 Parse로 설정 됩니다.
 
-- 신뢰할 수 없는 입력이 <xref:System.Xml.XmlResolver> 대신 <xref:System.Xml.XmlSecureResolver> 를 사용하여 처리되는 경우
+- 입력 처리를 사용 하 여 신뢰할 수 없는 <xref:System.Xml.XmlResolver> 대신 <xref:System.Xml.XmlSecureResolver>합니다.
 
-- XmlReader입니다.<xref:System.Xml.XmlReader.Create%2A> 메서드가 호출 됩니다는 안전 하지 않은 <xref:System.Xml.XmlReaderSettings> 인스턴스 또는 모든 인스턴스가 없습니다.
+- 합니다 <xref:System.Xml.XmlReader.Create%2A?displayProperty=nameWithType> 메서드가 호출 됩니다는 안전 하지 않은 <xref:System.Xml.XmlReaderSettings> 인스턴스 또는 인스턴스 없이 합니다.
 
 - <xref:System.Xml.XmlReader> 안전 하지 않은 기본 설정이 나 값을 사용 하 여 생성 됩니다.
 
-이러한 경우 모두 결과는 동일합니다. XML이 처리되는 컴퓨터의 파일 시스템 또는 네트워크 공유의 내용이 공격자에게 노출되어 DoS 벡터로 사용될 수 있습니다.
+이러한 경우에는 모든 결과 동일 합니다: 콘텐츠 중 하나는 파일 시스템 또는 네트워크 공유에서 XML 처리 되는 컴퓨터에서 공격자에 게 노출 될 또는 DoS 벡터로 DTD 처리를 사용할 수 있습니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
 - Catch 하 고 적절 하 게 경로 정보가 공개 되지 않도록 모든 XmlTextReader 예외를 처리 합니다.
 
-- <xref:System.Xml.XmlSecureResolver> 를 사용하여  XmlTextReader에서 액세스할 수 있는 리소스를 제한할 수 있습니다.
+- 사용 하 여는 <xref:System.Xml.XmlSecureResolver> XmlTextReader에서 액세스할 수 있는 리소스를 제한 합니다.
 
 - <xref:System.Xml.XmlReader> 속성을 <xref:System.Xml.XmlResolver> null **로 설정하여**가 외부 리소스를 열 수 없도록 합니다.
 
-- <xref:System.Data.DataViewManager.DataViewSettingCollectionString%2A> 의 <xref:System.Data.DataViewManager> 속성이 신뢰할 수 있는 소스에서 할당되었는지 확인합니다.
+- 확인을 <xref:System.Data.DataViewManager.DataViewSettingCollectionString%2A?displayProperty=nameWithType> 속성이 신뢰할 수 있는 소스에서 할당 됩니다.
 
 **.NET 3.5 및 이전 버전**
 
--  <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> 속성을 **true** 로 설정하여 신뢰할 수 없는 소스를 처리하는 경우 DTD 처리를 사용하지 않도록 설정합니다.
+- 신뢰할 수 없는 소스를 설정 하 여 처리 하는 경우 DTD 처리를 사용 하지 않도록 설정 합니다 <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> 속성을 **true**합니다.
 
 - XmlTextReader 클래스에는 완전 신뢰 상속 요청이 있습니다.
 
@@ -204,7 +204,7 @@ public static void TestMethod(string xml)
 {
     XmlDocument doc = new XmlDocument() { XmlResolver = null };
     System.IO.StringReader sreader = new System.IO.StringReader(xml);
-    XmlTextReader reader = new XmlTextReader(sreader) { DtdProcessing = DtdProcessing.Prohibit };
+    XmlReader reader = XmlReader.Create(sreader, new XmlReaderSettings() { XmlResolver = null });
     doc.Load(reader);
 }
 ```
@@ -243,7 +243,7 @@ namespace TestNamespace
         public void TestMethod(Stream stream)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(UseXmlReaderForDeserialize));
-            XmlTextReader reader = new XmlTextReader(stream) { DtdProcessing = DtdProcessing.Prohibit } ;
+            XmlReader reader = XmlReader.Create(stream, new XmlReaderSettings() { XmlResolver = null });
             serializer.Deserialize(reader );
         }
     }
@@ -280,7 +280,7 @@ namespace TestNamespace
     {
         public void TestMethod(string path)
         {
-            XmlTextReader reader = new XmlTextReader(path) { DtdProcessing = DtdProcessing.Prohibit };
+            XmlReader reader = XmlReader.Create(path, new XmlReaderSettings() { XmlResolver = null });
             XPathDocument doc = new XPathDocument(reader);
         }
     }
@@ -316,22 +316,6 @@ namespace TestNamespace
 ```
 
 ### <a name="violations"></a>위반
-
-```csharp
-using System.Xml;
-
-namespace TestNamespace
-{
-    public class TestClass
-    {
-        public void TestMethod(string path)
-        {
-            XmlReaderSettings settings = new XmlReaderSettings(){ DtdProcessing = DtdProcessing.Parse };
-            XmlReader reader = XmlReader.Create(path, settings); // warn
-        }
-    }
-}
-```
 
 ```csharp
 using System.Xml;
@@ -378,7 +362,7 @@ namespace TestNamespace
     {
         public void TestMethod(string path)
         {
-            XmlReaderSettings settings = new XmlReaderSettings(){ DtdProcessing = DtdProcessing.Prohibit };
+            XmlReaderSettings settings = new XmlReaderSettings() { XmlResolver = null };
             XmlReader reader = XmlReader.Create(path, settings);
         }
     }

@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aefe931bf4b53f0637c4bac1216e313b7a6fb092
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: 7d6ef8332a5adc21e25f2a414c5b359e48cf1ba7
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526505"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194592"
 ---
 # <a name="how-to-create-and-modify-custom-document-properties"></a>방법: 사용자 지정 문서 속성 만들기 및 수정
   위에 나열된 Microsoft Office 애플리케이션은 문서와 함께 저장되는 기본 제공 속성을 제공합니다. 문서와 함께 저장하려는 추가 정보가 있는 경우 사용자 지정 문서 속성을 만들고 수정할 수 있습니다.
@@ -30,7 +30,7 @@ ms.locfileid: "57526505"
 
  다음 예제에서는 Excel용 문서 수준 사용자 지정에서 사용자 지정 속성을 추가하고 값을 할당하는 방법을 보여 줍니다.
 
- ## <a name="example"></a>예제
+## <a name="example"></a>예제
  [!code-vb[Trin_VstcoreProgramming#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb#6)]
  [!code-csharp[Trin_VstcoreProgramming#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs#6)]
 
