@@ -52,7 +52,7 @@ HTTPS 엔드포인트를 이미 추가한 경우, HTTPS 엔드포인트 옵션�
 
 ### <a name="diagnostics"></a>진단
 
-기본적으로 웹 역할에 대한 진단이 사용됩니다. Azure 클라우드 서비스 프로젝트 및 저장소 계정은 로컬 저장소 에뮬레이터를 사용하도록 설정됩니다. Azure에 배포할 준비가 되면 대신 Azure Storage를 사용하도록 작성기 단추(**...**)를 선택할 수 있습니다. 요청 시 또는 자동으로 예약된 간격으로 저장소 계정에 진단 데이터를 전송할 수 있습니다. Azure 진단에 대한 자세한 내용은 [Azure Cloud Services 및 Virtual Machines에서 진단 사용](/azure/cloud-services/cloud-services-dotnet-diagnostics)을 참조하세요.
+기본적으로 웹 역할에 대한 진단이 사용됩니다. Azure 클라우드 서비스 프로젝트 및 저장소 계정은 로컬 저장소 에뮬레이터를 사용하도록 설정됩니다. Azure에 배포할 준비가 되면 대신 Azure Storage를 사용하도록 작성기 단추(**...**)를 선택할 수 있습니다. 요청 시 또는 자동으로 예약된 간격으로 저장소 계정에 진단 데이터를 전송할 수 있습니다. Azure Diagnostics에 대한 자세한 내용은 [Azure Cloud Services 및 Virtual Machines에서 진단 사용](/azure/cloud-services/cloud-services-dotnet-diagnostics)을 참조하세요.
 
 ## <a name="settings-page"></a>설정 페이지
 

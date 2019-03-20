@@ -2,7 +2,6 @@
 title: IEnumRemoteDebugApplications::Clone | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 91f9b9a1461fbf1e87094fea3c908b5afd52ab1c
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 06b2eac008b0bccc3d0671e15658b5a189b5dcaa
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54089832"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58158895"
 ---
 # <a name="ienumremotedebugapplicationsclone"></a>IEnumRemoteDebugApplications::Clone
 현재 열거자와 동일한 상태를 포함 하는 열거자를 만듭니다.  

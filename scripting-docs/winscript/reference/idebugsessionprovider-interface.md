@@ -2,7 +2,6 @@
 title: IDebugSessionProvider 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -14,12 +13,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: d6d17546d5461a1ad76b144bf2652672ab4aa675
-ms.sourcegitcommit: 8bf9e51c77a5a602fab9513b9187e59e57dfebad
+ms.openlocfilehash: fe73901d92cb42675ff9ec981bd9b90dcca5d546
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54345151"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58148989"
 ---
 # <a name="idebugsessionprovider-interface"></a>IDebugSessionProvider 인터페이스
 디버거 호스트 및 언어를 사용 하도록 설정 하려면 IDE에서 제공 하는 기본 인터페이스 디버깅을 시작 합니다. 실행 중인 응용 프로그램에 대 한 디버그 세션을 설정합니다. 컴퓨터 디버그 관리자에서이 인터페이스를 구현 됩니다.  

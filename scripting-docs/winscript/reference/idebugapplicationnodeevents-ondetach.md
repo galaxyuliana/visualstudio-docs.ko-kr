@@ -2,7 +2,6 @@
 title: IDebugApplicationNodeEvents::onDetach | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -18,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 86a19a0c8ff2ce64cf524ae9b5f0ad258409f2df
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.openlocfilehash: 9162175727d439a6370071a5f3c9fa4c7ca88ee5
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54094473"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58156881"
 ---
 # <a name="idebugapplicationnodeeventsondetach"></a>IDebugApplicationNodeEvents::onDetach
 부모 노드에서 디버그 응용 프로그램 노드 개체를 분리할를 나타내는 이벤트를 처리 합니다.  
