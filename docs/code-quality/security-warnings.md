@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8abfceedb112bb638dde2ff826182ad044573c74
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e8d2dadbb4bbd17b1ee1856dd896d78b0faef2cd
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955377"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58195088"
 ---
 # <a name="security-warnings"></a>보안 경고
 
@@ -77,5 +77,5 @@ ms.locfileid: "55955377"
 |[CA2153: 손상 된 상태 예외 처리 방지](../code-quality/ca2153-avoid-handling-corrupted-state-exceptions.md)|[CSE(손상된 상태 예외)](https://msdn.microsoft.com/magazine/dd419661.aspx) 는 프로세스에 메모리 손상이 있음을 나타냅니다. 프로세스 충돌을 허용하는 대신 catch하면 공격자가 손상된 메모리 영역에 익스플로잇을 배치할 수 있는 경우 보안 취약점이 발생할 수 있습니다.|
 |[CA3075: 안전 하지 않은 DTD 처리](../code-quality/ca3075-insecure-dtd-processing.md)|안전하지 않은 DTDProcessing 인스턴스를 사용하거나 외부 엔터티 소스를 참조하면 파서는 신뢰할 수 없는 입력을 허용하고 공격자에게 중요 한 정보를 공개할 수 있습니다.|
 |[CA3076: 안전 하지 않은 XSLT 스크립트 실행](../code-quality/ca3076-insecure-xslt-script-execution.md)|.NET 애플리케이션에서 비보안 방식으로 XSLT(Extensible Stylesheets Language Transformations)를 실행하는 경우 프로세서는 공격자에게 중요한 정보를 노출하여 서비스 거부 및 사이트 간 공격을 유발할 수 있는 신뢰할 수 없는 URI 참조를 확인할 수 있습니다.|
-|[CA3077: API 디자인, XML 문서 및 XML 텍스트 판독기의 안전 하지 않은 처리](../code-quality/ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md)|XMLDocument 및 XMLTextReader에서 파생된 API를 디자인할 경우 DtdProcessing에 주의해야 합니다.  외부 엔터티 소스를 참조하거나 확인할 때 안전하지 않은 DTDProcessing 인스턴스를 사용하거나 XML에서 안전하지 않은 값을 설정하면 정보가 공개될 수 있습니다.|
+|[CA3077: API 디자인, XML 문서 및 XML 텍스트 판독기의 안전 하지 않은 처리](../code-quality/ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md)|XMLDocument 및 XMLTextReader에서 파생된 API를 디자인할 경우 DtdProcessing에 주의해야 합니다. 외부 엔터티 소스를 참조하거나 확인할 때 안전하지 않은 DTDProcessing 인스턴스를 사용하거나 XML에서 안전하지 않은 값을 설정하면 정보가 공개될 수 있습니다.|
 |[CA3147: 표시 동사 처리기 ValidateAntiForgeryToken](../code-quality/ca3147-mark-verb-handlers-with-validateantiforgerytoken.md)|ASP.NET MVC 컨트롤러를 디자인할 때 교차 사이트 요청 위조 공격 주의 해야 합니다. 교차 사이트 요청 위조 공격을 ASP.NET MVC 컨트롤러에 인증된 된 사용자를 악성 요청을 보낼 수 있습니다.|

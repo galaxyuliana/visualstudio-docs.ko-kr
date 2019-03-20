@@ -13,12 +13,12 @@ ms.workload:
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: 4b46937e8b30dec1f9e2a78d181cd53692b7d1b4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e5745f917749e29855dd244646ba13a2bbc26942
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910430"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58195127"
 ---
 # <a name="walkthrough-create-a-custom-directive-processor"></a>연습: 사용자 지정 지시문 프로세서 만들기
 
@@ -42,7 +42,7 @@ ms.locfileid: "55910430"
 
 `<#@ CoolDirective Processor="CustomDirectiveProcessor" FileName="<Your Path>DocFile.xml" #>`
 
-사용자 지정 지시문 프로세서는 생성된 변형 클래스에 변수와 속성을 추가합니다. 작성하는 지시문은 <xref:System.CodeDom> 클래스를 사용하여 엔진이 생성된 변형 클래스에 추가하는 코드를 만듭니다. 합니다 <xref:System.CodeDom> 클래스에 지정 된 언어에 따라 Visual C# 또는 Visual Basic에서 코드를 만들기는 `language` 의 매개 변수는 `template` 지시문입니다. 지시문 프로세서의 언어와 지시문 프로세서에 액세스하는 텍스트 템플릿의 언어는 일치하지 않아도 됩니다.
+사용자 지정 지시문 프로세서는 생성된 변환 클래스에 변수와 속성을 추가합니다. 작성하는 지시문은 <xref:System.CodeDom> 클래스를 사용하여 엔진이 생성된 변환 클래스에 추가하는 코드를 만듭니다. 합니다 <xref:System.CodeDom> 클래스에 지정 된 언어에 따라 Visual C# 또는 Visual Basic에서 코드를 만들기는 `language` 의 매개 변수는 `template` 지시문입니다. 지시문 프로세서의 언어와 지시문 프로세서에 액세스하는 텍스트 템플릿의 언어는 일치하지 않아도 됩니다.
 
 지시문이 만드는 코드는 다음과 같습니다.
 
@@ -331,7 +331,7 @@ End Property
             {
                 XmlDocument d = new XmlDocument();
 
-                using (XmlTextReader reader = new XmlTextReader(fileName))
+                using (XmlReader reader = XmlReader.Create(fileName))
                 {
                     try
                     {
@@ -581,7 +581,7 @@ End Property
 
                 Dim d As XmlDocument = New XmlDocument()
 
-                Using reader As XmlTextReader = New XmlTextReader(fileName)
+                Using reader As XmlReader = XmlReader.Create(fileName)
 
                     Try
                         d.Load(reader)

@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4ab66596dd550a74a18e425769a0c7120cf3220a
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 941ba0a890e854f449647977162183cbcac1bab8
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57873443"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58193898"
 ---
 # <a name="support-for-the-visual-studio-sdk"></a>Visual Studio SDK 지원
 몇 가지 지원 옵션은 Visual Studio 통합된 개발 환경 (IDE)를 확장 하는 방법에 대 한 질문이 있는 고객이 사용할 수 있습니다.
@@ -54,9 +54,9 @@ GitHub의에서 VS SDK 확장의 오픈 소스 예제를 찾을 수 있습니다
 
 ### <a name="developer-tools-support"></a>개발자 도구 지원
 
-지원을 구입할 수도 있습니다. 다양 한 지원 제공에서 개발자 도구 범주에 사용할 수 있습니다 [Microsoft 도움말 및 지원 센터](http://go.microsoft.com/fwlink/?LinkID=82383)합니다.
+지원을 구입할 수도 있습니다. 다양 한 지원 제공에서 개발자 도구 범주에 사용할 수 있습니다 [Microsoft 도움말 및 지원 센터](https://support.microsoft.com/supportforbusiness/productselection?fltadd=sps-business-1&sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)합니다.
 
-사용 하려는 고객은 [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 복잡 한 패키지를 개발할 수도 microsoft 프리미어 지원 계약을 구입 합니다. 자세한 내용은 [Microsoft 프리미어 지원](https://support.microsoft.com/premier)합니다. 소규모 기업용 [파트너 장점은 지원](http://www.microsoft.com/services/microsoftservices/srv_mspa.mspx) 기존 프리미어 지원 서비스에 좋은 대안이 될 수 있습니다.
+사용 하려는 고객은 [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 복잡 한 패키지를 개발할 수도 microsoft 프리미어 지원 계약을 구입 합니다. 자세한 내용은 [Microsoft 프리미어 지원](https://support.microsoft.com/premier)합니다. 소규모 기업용 [파트너를 위한 고급 지원](https://partner.microsoft.com/support/advanced-cloud-support) 기존 프리미어 지원 서비스에 좋은 대안이 될 수 있습니다.
 
 > [!NOTE]
 > 표준 지원 컨설팅에 있거나 조언을 사용할 수 없습니다.

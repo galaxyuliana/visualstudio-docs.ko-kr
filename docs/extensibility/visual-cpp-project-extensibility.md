@@ -10,12 +10,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0d4a4c4038c34f2cfa1dc2b4fcc022b24c135aef
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 0ba14e170a07b3ac1378087f1cebd31ab7c7df8a
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57868145"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58195179"
 ---
 # <a name="visual-studio-c-project-system-extensibility-and-toolset-integration"></a>Visual Studio c + + 프로젝트 시스템 확장 및 도구 집합 통합
 
@@ -418,7 +418,7 @@ Visual c + + 프로젝트 시스템은 기반으로 합니다 [VS 프로젝트 �
 
 일반적인 디자인 정보를 참조 하세요 [플랫폼 확장성-1 부](https://blogs.msdn.microsoft.com/vsproject/2009/06/09/platform-extensibility-part-1/) 하 고 [플랫폼 확장성-2 부](https://blogs.msdn.microsoft.com/vsproject/2009/06/18/platform-extensibility-part-2/)합니다.
 
-간단히 말해에서 속성 페이지에 표시 된 **프로젝트 속성** c + + 프로젝트에 대 한 대화가 정의한 *규칙* 파일입니다. 규칙 파일 속성 페이지에 표시 하 고 프로젝트에 저장 되는 방법과 파일 속성의 집합을 지정 합니다. 규칙 파일은 Xaml 형식을 사용 하는.xml 파일입니다. 직렬화에 사용 된 형식에 설명 되어 있습니다 [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes)합니다. 프로젝트에서 규칙 파일의 사용에 대 한 자세한 내용은 참조 [속성 페이지 XML 규칙 파일](/cpp/ide/property-page-xml-files)합니다.
+간단히 말해에서 속성 페이지에 표시 된 **프로젝트 속성** c + + 프로젝트에 대 한 대화가 정의한 *규칙* 파일입니다. 규칙 파일 속성 페이지에 표시 하 고 프로젝트에 저장 되는 방법과 파일 속성의 집합을 지정 합니다. 규칙 파일은 Xaml 형식을 사용 하는.xml 파일입니다. 직렬화에 사용 된 형식에 설명 되어 있습니다 [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes)합니다. 프로젝트에서 규칙 파일의 사용에 대 한 자세한 내용은 참조 [속성 페이지 XML 규칙 파일](/cpp/build/reference/property-page-xml-files)합니다.
 
 규칙 파일에 추가 되어야 합니다는 `PropertyPageSchema` 항목 그룹:
 
@@ -636,8 +636,8 @@ VSIX 파일을 만드는 방법에 대 한 자세한 내용은 [Visual Studio �
 
 ## <a name="additional-resources"></a>추가 자료
 
-Microsoft 빌드 시스템 ([MSBuild](../msbuild/msbuild.md)) 프로젝트 파일에 대 한 빌드 엔진 및 확장 가능한 XML 기반 형식으로 제공 합니다. 에 대해 알고 있어야 basic을 사용 하 여 [MSBuild 개념](../msbuild/msbuild-concepts.md) 고 하는 방법 [Visual c + + 용 MSBuild](/cpp/build/msbuild-visual-cpp-overview) Visual c + +를 확장 하기 위해 작동 프로젝트 시스템.
+Microsoft 빌드 시스템 ([MSBuild](../msbuild/msbuild.md)) 프로젝트 파일에 대 한 빌드 엔진 및 확장 가능한 XML 기반 형식으로 제공 합니다. 에 대해 알고 있어야 basic을 사용 하 여 [MSBuild 개념](../msbuild/msbuild-concepts.md) 고 하는 방법 [Visual c + + 용 MSBuild](/cpp/build/reference/msbuild-visual-cpp-overview) Visual c + +를 확장 하기 위해 작동 프로젝트 시스템.
 
 Managed Extensibility Framework ([MEF](/dotnet/framework/mef/)) CPS 및 Visual c + + 프로젝트 시스템에서 사용 되는 Api 확장을 제공 합니다. CPS MEF를 사용 하는 방법의 개요를 참조 하세요 [CPS 및 MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md#cps-and-mef) 에 [VSProjectSystem MEF 개요](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md)합니다.
 
-빌드 단계 또는 새 파일 형식을 추가 하려면 기존 빌드 시스템을 사용자 지정할 수 있습니다. 자세한 내용은 [MSBuild (Visual c + +) 개요](/cpp/build/msbuild-visual-cpp-overview) 하 고 [프로젝트 속성 작업](/cpp/ide/working-with-project-properties)합니다.
+빌드 단계 또는 새 파일 형식을 추가 하려면 기존 빌드 시스템을 사용자 지정할 수 있습니다. 자세한 내용은 [MSBuild (Visual c + +) 개요](/cpp/build/reference/msbuild-visual-cpp-overview) 하 고 [프로젝트 속성 작업](/cpp/build/working-with-project-properties)합니다.

@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 910e1890fd07c0888c47735451cba29aa08ec916
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 3beedce039d1c093b5dfebce07b09d7d3a5795dc
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2019
-ms.locfileid: "58160708"
+ms.locfileid: "58194738"
 ---
 # <a name="create-your-first-extension-hello-world"></a>첫 번째 확장을 만듭니다. Hello World
 
@@ -44,7 +44,7 @@ ms.locfileid: "58160708"
 
 ::: moniker range="vs-2017"
 
-1단계: **파일** 메뉴에서 **새 프로젝트**합니다.
+1단계: **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택합니다.
 
 2단계. 오른쪽 위에 있는 검색 상자에 "vsix"를 입력 하 고 시각적 개체 선택 C# **VSIX 프로젝트**합니다. 에 대 한 "HelloWorld"를 입력 합니다 **이름을** 대화 상자 및 선택의 맨 아래에서 **확인**합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "58160708"
 
 ::: moniker range=">=vs-2019"
 
-1단계: **파일** 메뉴에서 **새 프로젝트**합니다. "Vsix"에 대 한 검색 하 고 시각적 개체 선택 C# **VSIX 프로젝트** 차례로 **다음**합니다.
+1단계: **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택합니다. "Vsix"에 대 한 검색 하 고 시각적 개체 선택 C# **VSIX 프로젝트** 차례로 **다음**합니다.
 
 2단계. 에 대 한 "HelloWorld"를 입력 합니다 **프로젝트 이름** 선택한 **만들기**합니다.
 
@@ -84,7 +84,7 @@ HelloWorld 프로젝트에 표시 됩니다 **솔루션 탐색기**합니다.
 
 ## <a name="modify-the-source-code"></a>소스 코드를 수정 합니다.
 
-이 지점, 명령 및 단추 텍스트는 자동으로 생성 되 고 매우 흥미로운 주제입니다. 변경 하려는 경우 VSCT 파일 및 CS 파일을 수정할 수 있습니다.
+이 시점에서 명령 및 단추 텍스트는 자동으로 생성 하 고 주목할 만한 매우 합니다. 변경 하려는 경우 VSCT 파일 및 CS 파일을 수정할 수 있습니다.
 
 * VSCT 파일은 여기서 있습니다 수 명령을, 이름 바꾸기 뿐만 어디에서 Visual Studio 명령 시스템을 정의 합니다. VSCT 파일을 살펴보면서 VSCT 코드 컨트롤의 각 섹션을 설명 하는 의견을 확인할 수 있습니다.
 

@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: 4c8c43ceb19aa6b4407fd4639f952ced859390b1
-ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
+ms.openlocfilehash: 0cd54f932a99ea79bf792ebe4175ddc6a031ddcb
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57567330"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194446"
 ---
 # <a name="ca3147-mark-verb-handlers-with-validateantiforgerytoken"></a>CA3147: ValidateAntiForgeryToken을 사용하여 동사 처리기를 표시하세요.
 
@@ -45,7 +45,7 @@ ASP.NET MVC 컨트롤러를 디자인할 때 교차 사이트 요청 위조 공�
 
    ASP.NET MVC 컨트롤러 작업이 HTTP GET을 처리 하는 요청 하 고 중요 한 데이터를 수정 하는 등 잠재적으로 해로운 의도 하지 않은 경우 응용 프로그램은 교차 사이트 요청 위조 공격에 취약 합니다.  HTTP POST, PUT 또는 DELETE 요청에만 중요 한 작업을 수행할 수 있도록 응용 프로그램을 다시 디자인 해야 합니다.
 
-- HTTP POST를 처리 하는 ASP.NET MVC 컨트롤러 작업에 대 한 PUT 또는 DELETE 요청을 추가 [ValidateAntiForgeryTokenAttribute](/previous-versions/aspnet/dd492108(v=vs.118)) 및 허용 되는 HTTP 동사를 지정 하는 속성 ([AcceptVerbsAttribute](/previous-versions/aspnet/dd470553%28v%3dvs.118%29) 를 [HttpPostAttribute](/previous-versions/aspnet/ee264023%28v%3dvs.118%29)하십시오 [HttpPutAttribute](/previous-versions/aspnet/ee470909%28v%3dvs.118%29), 또는 [HttpDeleteAttribute](/previous-versions/aspnet/ee470917%28v%3dvs.118%29)). 또한를 호출 해야 합니다 [HtmlHelper.AntiForgeryToken()](/previous-versions/aspnet/web-frameworks/dd504812%28v%3dvs.118%29) MVC 뷰 또는 Razor 웹 페이지 메서드. 예를 들어 참조 [edit 메서드를 검사 하 고 뷰 편집](/aspnet/mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view)합니다.
+- HTTP POST를 처리 하는 ASP.NET MVC 컨트롤러 작업에 대 한 PUT 또는 DELETE 요청을 추가 [ValidateAntiForgeryTokenAttribute](/previous-versions/aspnet/dd492108(v=vs.118)) 및 허용 되는 HTTP 동사를 지정 하는 속성 ([AcceptVerbsAttribute](/previous-versions/aspnet/dd470553%28v%3dvs.118%29) 를 [HttpPostAttribute](/previous-versions/aspnet/ee264023%28v%3dvs.118%29)하십시오 [HttpPutAttribute](/previous-versions/aspnet/ee470909%28v%3dvs.118%29), 또는 [HttpDeleteAttribute](/previous-versions/aspnet/ee470917%28v%3dvs.118%29)). 또한를 호출 해야 합니다 [HtmlHelper.AntiForgeryToken()](/previous-versions/aspnet/dd504812%28v%3dvs.118%29) MVC 뷰 또는 Razor 웹 페이지 메서드. 예를 들어 참조 [edit 메서드를 검사 하 고 뷰 편집](/aspnet/mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view)합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 
