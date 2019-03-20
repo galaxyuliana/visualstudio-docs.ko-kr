@@ -14,12 +14,12 @@ caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fee905da1fbb973a9cb1a6c954b7d450511b4be1
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: a0964e390455b2225ec35debe79cdc79c38ed931
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54768882"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194563"
 ---
 # <a name="visual-studio-multi-targeting-overview"></a>Visual Studio 다중 대상 지정 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,7 +66,7 @@ ms.locfileid: "54768882"
 >  Visual Studio의 Express 버전에서는 **새 프로젝트** 대화 상자에서 대상 프레임워크를 설정할 수 없습니다.
 
 ## <a name="resolving-system-and-user-assembly-references"></a>시스템 및 사용자 어셈블리 참조 확인
- .NET Framework 버전을 대상으로 지정하려면 먼저 적절한 어셈블리 참조를 설치해야 합니다. .NET Framework 버전 2.0, 3.0 및 3.5에 대한 어셈블리 참조는 [Microsoft Download Center, Microsoft Visual Studio](http://go.microsoft.com/fwlink/?LinkId=227602)(Microsoft 다운로드 센터, Microsoft Visual Studio) 웹 사이트에서 다운로드할 수 있는 .NET Framework 3.5 SP1에 포함됩니다. .NET Framework 3.5 Client Profile, .NET Framework 4, .NET Framework 4 Client Profile 및 Silverlight에 대한 어셈블리 참조는 [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=179687)(Visual Studio 다운로드) 웹 사이트에서도 다운로드할 수 있습니다.
+ .NET Framework 버전을 대상으로 지정하려면 먼저 적절한 어셈블리 참조를 설치해야 합니다. .NET Framework 버전 2.0, 3.0 및 3.5에 대한 어셈블리 참조는 [Microsoft Download Center, Microsoft Visual Studio](https://www.microsoft.com/download/details.aspx?id=25150)(Microsoft 다운로드 센터, Microsoft Visual Studio) 웹 사이트에서 다운로드할 수 있는 .NET Framework 3.5 SP1에 포함됩니다. .NET Framework 3.5 Client Profile, .NET Framework 4, .NET Framework 4 Client Profile 및 Silverlight에 대한 어셈블리 참조는 [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=179687)(Visual Studio 다운로드) 웹 사이트에서도 다운로드할 수 있습니다.
 
 > [!NOTE]
 >  .NET Framework Client Profile은 라이브러리 및 기능의 제한된 집합을 제공하는 .NET Framework의 하위 집합입니다. Client Profile에 대한 자세한 내용은 [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)을 참조하세요.
@@ -79,4 +79,6 @@ ms.locfileid: "54768882"
  .NET Framework 3.5 이상을 대상으로 지정하면 System.Core에 대한 참조 및 System.Linq에 대한 프로젝트 수준 가져오기(Visual Basic에서만)가 자동으로 추가됩니다. LINQ 기능을 사용하려면 Option Infer도 켜야 합니다(Visual Basic에서만). 대상을 이전 .NET Framework 버전으로 변경하면 참조 및 가져오기가 자동으로 제거됩니다. 자세한 내용은 [방법: LINQ 프로젝트 만들기](http://msdn.microsoft.com/library/a929e653-09a3-44be-881f-68ca33f192b2)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [멀티 타기 팅](../msbuild/msbuild-multitargeting-overview.md) [ASP.NET 웹 프로젝트의.NET Framework 멀티 타기 팅](http://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76) [플랫폼 호환성 및 시스템 요구 사항](http://www.microsoft.com/visualstudio/eng/products/compatibility)
+[멀티 타기 팅](../msbuild/msbuild-multitargeting-overview.md)
+[ASP.NET 웹 프로젝트의.NET Framework 멀티 타기 팅](http://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)
+[플랫폼 호환성 및 시스템 요구 사항](/visualstudio/productinfo/vs2015-compatibility-vs)

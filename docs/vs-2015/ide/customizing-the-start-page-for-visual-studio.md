@@ -17,12 +17,12 @@ caps.latest.revision: 48
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 895129fae06dbed8e6c0d53ac423a15adfd42365
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: f043e3cfbc6d81306abfb68276f2e32cce63ed45
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54760336"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57869033"
 ---
 # <a name="customizing-the-start-page-for-visual-studio"></a>Visual Studio 시작 페이지 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Visual Studio의 시작 페이지를 사용자 지정할 수 있는 기본 방�
 
 1.  사용자 지정 시작 페이지를 설치하는 방법은 다음과 같습니다.
 
-    -   [Visual Studio 갤러리](http://visualstudiogallery.msdn.microsoft.com/site/search?f%5B0%5D.Type=SearchText&f%5B0%5D.Value=start%20page), 다른 웹 사이트 또는 로컬 인트라넷의 페이지에서 설치할 수 있습니다.
+    -   설치 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/), 다른 웹 사이트 또는 로컬 인트라넷의 페이지입니다.
 
         > [!NOTE]
         >  이전 버전의 Visual Studio를 대상으로 한 페이지가 필요한 경우 Visual Studio SDK를 사용하여 페이지를 업그레이드할 수 있습니다. [방법: Visual Studio 사용자 지정 시작 페이지 업그레이드](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md)를 참조하세요.

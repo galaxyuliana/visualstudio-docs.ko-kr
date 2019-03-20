@@ -11,12 +11,12 @@ caps.latest.revision: 15
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: deeddf541b2f0878ce2fdc20713b6d9e472b0540
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 9194da6803f04f3bf4cc56696d01a68a3e27d67d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54805568"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57873245"
 ---
 # <a name="analyze-c-code-quality-of-store-apps-using-visual-studio-static-code-analysis"></a>Visual Studio 정적 코드 분석을 사용하여 스토어 앱의 C++ 코드 품질 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,13 +128,12 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 |                       [C6516](../code-quality/c6516.md)                        |                                          특성에 대한 속성 없음                                           |
 |                       [C6517](../code-quality/c6517.md)                        |                                       읽기 불가능 버퍼에 대한 유효 크기                                       |
 |                       [C6518](../code-quality/c6518.md)                        |                                     쓰기 불가능 버퍼에 대한 쓰기 가능 크기                                      |
-| [C6519](http://msdn.microsoft.com/2b6326b0-0539-4d26-8fb1-720114933232)  |                  주석이 잘못되었습니다. 'NeedsRelease' 속성의 값은 Yes 또는 No여야 합니다.                   |
 | [C6521](http://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        잘못된 크기 문자열 역참조                                        |
 |                       [C6522](../code-quality/c6522.md)                        |                                           잘못된 크기 문자열 유형                                            |
 | [C6523](http://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         잘못된 크기 문자열 매개 변수                                         |
 |                       [C6525](../code-quality/c6525.md)                        |                                   잘못된 크기 문자열 접근할 수 없는 위치                                    |
 | [C6526](http://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        잘못된 크기 문자열 버퍼 유형                                        |
-|                       [C6527](../code-quality/c6527.md)                        |              주석이 잘못 되었습니다. 'NeedsRelease' 속성은 void 형식의 값에 사용할 수 없습니다.               |
+|                       [C6527](../code-quality/c6527.md)                        |              주석이 잘못되었습니다. 'NeedsRelease' 속성은 void 형식 값에 사용할 수 없습니다.               |
 |                       [C6530](../code-quality/c6530.md)                        |                                       인식할 수 없는 형식 문자열 스타일                                        |
 |                       [C6540](../code-quality/c6540.md)                        | 이 함수에 특성 주석을 사용하면 기존의 모든 __declspec 주석이 무효화됩니다.  |
 |                       [C6551](../code-quality/c6551.md)                        |                              크기 사양이 잘못되었습니다. 식을 구문 분석할 수 없습니다.                              |
@@ -194,7 +193,6 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 |                      [C28254](../code-quality/c28254.md)                       |                               dynamic_cast<>()는 주석에서 지원되지 않습니다.                                |
 |                      [C28262](../code-quality/c28262.md)                       |                    주석에 대한 주석 구문 오류가 함수에 있습니다.                     |
 |                      [C28263](../code-quality/c28263.md)                       |                 내장 주석에 대한 조건부 주석에 구문 오류가 있습니다.                 |
-| [C28264](http://msdn.microsoft.com/bf6ea983-a06e-4752-a042-747a7dbf338c) |                                    결과 목록 값은 상수여야 합니다.                                     |
 |                      [C28267](../code-quality/c28267.md)                       |                    함수 주석에서 주석 구문 오류가 발견되었습니다.                    |
 |                      [C28272](../code-quality/c28272.md)                       |      함수, 매개 변수에 대한 주석이 검사 시 함수 선언과 일치하지 않습니다.      |
 |                      [C28273](../code-quality/c28273.md)                       |                    함수의 경우 단서가 함수 선언과 일치하지 않습니다.                     |
@@ -206,7 +204,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 |                      [C28286](../code-quality/c28286.md)                       |                                    함수의 경우 끝 부분 근처에 구문 오류가 있습니다.                                    |
 |                      [C28287](../code-quality/c28287.md)                       |                함수의 경우 \_At\_() 주석에 구문 오류(인식할 수 없는 매개 변수 이름)                |
 |                      [C28288](../code-quality/c28288.md)                       |                  함수의 경우 \_At\_() 주석에 구문 오류(잘못된 매개 변수 이름)                   |
-|                      [C28289](../code-quality/c28289.md)                       |                함수의 경우: ReadableTo 또는 WritableTo 없는 위한 제한 사양을 매개 변수로                |
+|                      [C28289](../code-quality/c28289.md)                       |                함수의 경우 ReadableTo 또는 WritableTo에 limit-spec가 매개 변수로 포함되지 않았습니다.                |
 |                      [C28290](../code-quality/c28290.md)                       |           함수의 주석에 실제 매개 변수 개수보다 많은 외부 참조가 있습니다.            |
 |                      [C28291](../code-quality/c28291.md)                       |                        함수의 경우 역참조 수준 0에서 post null/notnull이 의미가 없습니다.                        |
 |                      [C28300](../code-quality/c28300.md)                       |                            연산자에 호환되지 않는 형식의 식 피연산자입니다.                             |

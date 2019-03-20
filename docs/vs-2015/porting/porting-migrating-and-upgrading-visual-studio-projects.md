@@ -19,12 +19,12 @@ caps.latest.revision: 108
 author: kraigb
 ms.author: kraigb
 manager: jillfra
-ms.openlocfilehash: 3b76154db0d85cba745ffe1c694b18a1fb9dde26
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 7fd6319c9c4527988511c423cd2094ffa34d93c3
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54805555"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194926"
 ---
 # <a name="porting-migrating-and-upgrading-visual-studio-projects"></a>Porting, Migrating, and Upgrading Visual Studio Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [포트, 마�
 |Office 2007 VSTO|프로젝트를 업그레이드하여 Office 2013 및 .NET Framework 4를 대상으로 지정할 경우 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 이 프로젝트를 열 수 있습니다.|
 |Office 2010 VSTO|프로젝트 대상이 .NET Framework 4일 경우 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 이 프로젝트를 열 수 있습니다. 다른 모든 프로젝트에는 단방향 업그레이드가 필요합니다.|
 |리치 인터넷 애플리케이션|프로젝트를 업그레이드할 경우 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 이 프로젝트를 열 수 있습니다.|
-|SharePoint 2007|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]에서는 이 프로젝트를 열 수 없습니다. 그러나 프로젝트를 SharePoint 2010으로 수동 업그레이드할 경우 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다. SharePoint 2007을 업그레이드하는 방법은 [SharePoint 2007에서 SharePoint 2010으로 마이그레이션(IT 전문가용)](http://go.microsoft.com/fwlink/?LinkId=238224), [2007 워크플로를 Visual Studio 및 SharePoint 2010으로 마이그레이션](http://go.microsoft.com/fwlink/?LinkId=238225) 및 [SharePoint Server 2010용 SharePoint Enterprise 검색 마이그레이션 도구](http://go.microsoft.com/fwlink/?LinkId=238226)를 참조하세요.|
+|SharePoint 2007|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]에서는 이 프로젝트를 열 수 없습니다. 그러나 프로젝트를 SharePoint 2010으로 수동 업그레이드할 경우 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다. SharePoint 2007을 업그레이드 하는 방법에 대 한 자세한 내용은 참조 하세요. [IT 전문가 위한 SharePoint 2007에서 SharePoint 2010으로 마이그레이션](http://go.microsoft.com/fwlink/?LinkId=238224) 고 [SharePointServer2010용SharePointEnterprise검색마이그레이션도구](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/ee556856(v%3Doffice.14)).|
 |SharePoint 2010|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다.|
 |SketchFlow|Visual Studio에서 WPF 4.5/Silverlight 5로 프로젝트를 업그레이드하도록 허용하면 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 및 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]에서 프로젝트를 열 수 있습니다.|
 |[!INCLUDE[ssKatmai_exp](../includes/sskatmai-exp-md.md)] 데이터베이스|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다. 이전 버전의 SQL Server에서 만든 데이터베이스 파일(.mdf)이 있을 경우 SQL Server Express LocalDB에서 이 데이터베이스 파일을 사용하려면 먼저 [!INCLUDE[sql_Denali_long](../includes/sql-denali-long-md.md)] 로 업그레이드해야 합니다. 하지만 데이터베이스가 더 이상 이전 버전의 SQL Server와 호환되지 않습니다. 업그레이드하지 않으면 같은 컴퓨터에 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 를 설치 및 사용하여 [!INCLUDE[ssKatmai_exp](../includes/sskatmai-exp-md.md)] 의 데이터베이스를 계속 사용할 수 있습니다. 자세한 내용은 [.mdf 파일 업그레이드](../data-tools/upgrade-dot-mdf-files.md)합니다.|
@@ -91,7 +91,7 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [포트, 마�
 
 - [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]에서 데스크톱 응용 프로그램에 대한 프로젝트를 열려고 하면 오류가 발생하고 "이 버전의 Visual Studio에서는 [!INCLUDE[win81](../includes/win81-md.md)] 앱만 지원합니다." 또는 "이 프로젝트는 현재 버전의 Visual Studio와 호환되지 않습니다."와 같은 메시지 중 하나가 표시됩니다. [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]는 Windows 8.1용으로 설계된 Windows 스토어 앱을 개발하고 테스팅하며 배포하는 것으로 제한됩니다. 데스크톱 응용 프로그램 프로젝트를 열려면 해당 프로젝트 형식을 지원하는 Visual Studio의 버전을 사용해야 합니다.
 
-   Visual Studio 버전에 대한 자세한 내용은 [Microsoft Visual Studio 제품](http://go.microsoft.com/fwlink/?LinkId=254332)을 참조하세요.
+   Visual Studio 버전에 대한 자세한 내용은 [Microsoft Visual Studio 제품](https://visualstudio.microsoft.com/products/)을 참조하세요.
 
 - [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] Desktop에서 Windows 스토어 앱 프로젝트를 열려고 시도하면 오류가 발생합니다. [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] Desktop을 사용하여 Windows 스토어 앱을 빌드할 수 없습니다. Windows 스토어 앱을 빌드하려는 경우 [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]도 설치할 수 있습니다. 또는 모든 Microsoft 플랫폼 및 웹 응용 프로그램을 개발하려면 Visual Studio Professional 2013을 사용해 보세요.
 

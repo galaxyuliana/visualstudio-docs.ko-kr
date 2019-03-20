@@ -12,17 +12,17 @@ caps.latest.revision: 14
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: a0f6cd1d963427730ddda62628c3f1d064ed3541
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 189430a1ff22450f887cc8e6903db5537b137f17
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54761487"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57872084"
 ---
 # <a name="install-multiple-language-versions-of-visual-studio"></a>여러 언어 버전의 Visual Studio 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [Visual Studio 2017에서 설치 언어 팩](https://docs.microsoft.com/visualstudio/install/install-visual-studio#install-language-packs)합니다.
+Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [Visual Studio 2017에서 설치 언어 팩](https://docs.microsoft.com/visualstudio/install/install-visual-studio#step-6---install-language-packs-optional)합니다.
 
 하나 이상의 언어 패키지를 설치 하면 동일한 컴퓨터에서 다른 언어로 Visual Studio 2015를 실행할 수 있습니다. 설치하려는 각 언어에 대해 별도의 언어 패키지를 다운로드해야 합니다.
 

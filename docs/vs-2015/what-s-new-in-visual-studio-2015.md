@@ -14,12 +14,12 @@ caps.latest.revision: 364
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 936a664dfeb063f84218c469b160cec761a0e468
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 18e5effdd2398ce3532c73c1d9f9941554b2043b
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56844141"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58195166"
 ---
 # <a name="what39s-new-in-visual-studio-2015"></a>Visual Studio 2015의 새로운 기능
 [!INCLUDE[vs2017banner](./includes/vs2017banner.md)]
@@ -131,14 +131,13 @@ ms.locfileid: "56844141"
 
      [Xamarin 개발자 가이드](http://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/) 의 [디버깅](http://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debugging_with_xamarin_android/) (iOS) 및 [디바이스에서 디버그](http://developer.xamarin.com/guides) 에서는 디버깅 환경에 대해 설명합니다.
 
--   **C++ / Android**. [플랫폼 간 모바일 개발용 Visual C++](http://msdnstage.redmond.corp.microsoft.com/library/dn872463\(v=vs.140\).aspx) 템플릿을 [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html) (영문)와 같은 타사 도구와 함께 사용하여 Windows 및 Android용 네이티브 앱을 만듭니다.
+-   **C++ / Android**. [플랫폼 간 모바일 개발용 Visual C++](cross-platform/visual-cpp-for-cross-platform-mobile-development.md) 템플릿을 [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html) (영문)와 같은 타사 도구와 함께 사용하여 Windows 및 Android용 네이티브 앱을 만듭니다.
 
 ## <a name="debugging-and-diagnostics"></a>디버깅 및 진단
- 디버깅의 새로운 기능에 대한 자세한 내용은 [What’s New for the Debugger in Visual Studio 2015](/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio-2015?view=vs-2015)을 참조하세요.
 
- 진단의 새로운 기능에 대 한 자세한 내용은 [프로 파일링 도구의 새로운](./profiling/what-s-new-in-profiling-tools.md)합니다.
+진단의 새로운 기능에 대 한 자세한 내용은 [프로 파일링 도구의 새로운](./profiling/what-s-new-in-profiling-tools.md)합니다.
 
- 다음은 코드에 대해 다양한 형식의 진단과 분석을 수행하는 새로운 도구 및 향상된 도구입니다.
+다음은 코드에 대해 다양한 형식의 진단과 분석을 수행하는 새로운 도구 및 향상된 도구입니다.
 
 ### <a name="perftips"></a>PerfTips
  성능 팁은 디버깅 동안 메서드의 실행 시간을 표시하여, 프로파일러를 호출할 필요 없이 신속하게 병목 현상을 찾아낼 수 있습니다. 시작하려면 [성능 팁: Visual Studio를 사용하여 디버그하는 동안 성능 정보 요약](http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio.aspx)을 참조하세요.

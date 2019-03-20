@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 59811e522268b7a9cb3993add76d2ace8dc3aada
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 5a7cf0b150c45037941010bf7e611f4bc21252c7
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56685497"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57870417"
 ---
 # <a name="debugging-native-code"></a>네이티브 코드 디버깅
 이 단원에서는 네이티브 응용 프로그램의 몇 가지 일반적인 디버깅 문제와 기술에 대해 설명합니다. 이 단원에서 설명하는 기술은 높은 수준의 기술입니다. Visual Studio 디버거를 사용 하는 방법은 참조 하세요 [디버거 소개](../debugger/debugger-feature-tour.md)).
@@ -59,4 +59,6 @@ ms.locfileid: "56685497"
  [디버거 소개](../debugger/debugger-feature-tour.md) 의 디버깅 설명서 단원에 대 한 링크를 제공 합니다. 이러한 정보에는 디버거의 새로운 기능, 설정 및 준비, 중단점, 예외 처리, 편집하며 계속하기, 관리 코드 디버깅, 네이티브 코드 디버깅, SQL 디버깅, 사용자 인터페이스 참조 등이 있습니다.
 
 ## <a name="see-also"></a>참고 항목
- [디버거 보안](../debugger/debugger-security.md) [Visual Studio에서 디버깅](../debugger/index.md)
+
+- [디버거 보안](../debugger/debugger-security.md)
+- [Visual Studio의 디버깅](../debugger/index.md)

@@ -19,12 +19,12 @@ caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 83f9bf8b0e427fd3e0357a5cf9e69d797dfc4782
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: fedbee06d37ff62b4ccefc812f0c77064ba67025
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54763312"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194511"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Visual Studio는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 호
   
  이 항목에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 호스팅 중 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 로드하고 빌드할 프로젝트와 .targets 파일을 사용자 지정할 때 고려해야 하는 부분을 설명합니다. 이를 통해 IntelliSense 및 디버깅 작업과 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 기능이 사용자 지정 프로젝트에서 작동하는지 확인할 수 있습니다.  
   
- C++ 프로젝트에 대한 자세한 내용은 [프로젝트 파일](http://msdn.microsoft.com/library/5261cf45-3136-40a6-899e-dc1339551401)을 참조하세요.  
+ C++ 프로젝트에 대한 자세한 내용은 [프로젝트 파일](/cpp/build/reference/project-files)을 참조하세요.  
   
 ## <a name="project-file-name-extensions"></a>프로젝트 파일 확장명  
  MSBuild.exe에서는 .*proj 패턴과 일치하는 모든 프로젝트 파일 확장명을 인식합니다. 하지만 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 프로젝트를 로드할 언어별 프로젝트 시스템을 결정하는 이러한 프로젝트 파일 확장명의 일부만 인식합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에는 언어 중립적인 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 기반 프로젝트 시스템이 없습니다.  
