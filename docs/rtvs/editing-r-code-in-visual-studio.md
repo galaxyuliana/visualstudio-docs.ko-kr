@@ -8,12 +8,12 @@ ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 2ec13113d8b7707c404a8af9788dacc98b12bb42
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 7ecfd8f1cf50e94991ce2fd94ad94ac9815c92ca
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55921239"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57868019"
 ---
 # <a name="edit-r-code-in-visual-studio"></a>Visual Studio에서 R 코드 편집
 
@@ -97,7 +97,7 @@ f <- function(a) { return(a + 1) }
 
 ## <a name="inserting-roxygen-comments"></a>Roxygen 주석 삽입
 
-RTVS에서는 함수의 매개 변수 이름을 사용하여 [Roxygen](http://roxygen.org/) 주석을 생성할 수 있는 바로 가기를 제공합니다. 함수 정의 위의 빈 줄에 `###`을 입력하면 됩니다.
+RTVS에서는 함수의 매개 변수 이름을 사용하여 [Roxygen](https://cran.r-project.org/web/packages/roxygen2/index.html) 주석을 생성할 수 있는 바로 가기를 제공합니다. 함수 정의 위의 빈 줄에 `###`을 입력하면 됩니다.
 
 ![Roxygen 주석 삽입 애니메이션](media/editing-roxygen-comments.gif)
 
@@ -113,7 +113,7 @@ RTVS에서는 함수의 매개 변수 이름을 사용하여 [Roxygen](http://ro
 
 **R** > **고급** 탭의 옵션은 RTVS에 관련됩니다.
 
-| 그룹화 | 옵션 | 기본 | 설명 |
+| 그룹화 | 옵션 | 기본값 | 설명 |
 | --- | --- | --- | --- |
 | 서식 | 자동 서식 지정 | 켜기 | 입력할 때 코드 서식을 다시 지정합니다. **선택 영역 서식** 또는 **문서 서식** 명령에 영향을 미치지 않습니다. |
 | | 확장된 중괄호 | 끄기 | 새 줄에 여는 중괄호({)를 배치합니다. |

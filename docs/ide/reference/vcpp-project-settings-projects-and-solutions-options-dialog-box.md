@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 1f35f9dfddeb905277084de9f20d46daf43d69f5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: dd44ef0a239f85078856c785ea4b5e2e6050b46e
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913865"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194887"
 ---
 # <a name="vc-project-settings-projects-and-solutions-options-dialog-box"></a>옵션 대화 상자, 프로젝트 및 솔루션, VC++ 프로젝트 설정
 이 대화 상자를 사용하면 로깅, 성능 및 지원 파일 형식과 관련된 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 빌드 및 프로젝트 설정을 정의할 수 있습니다.
@@ -93,5 +93,5 @@ ms.locfileid: "55913865"
 
 ## <a name="see-also"></a>참고 항목
 
-- [C/C++ 프로그램 빌드](/cpp/build/building-c-cpp-programs)
+- [C/C++ 프로그램 빌드](/cpp/build/projects-and-build-systems-cpp)
 - [C/C++ 빌드 참조](/cpp/build/reference/c-cpp-building-reference)

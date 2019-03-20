@@ -14,12 +14,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 58c8d580ace576f7b2a4512e5bc91f83529fba77
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 7547a6bb4670640733a64e7a60bfc92076df1460
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939582"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57982976"
 ---
 # <a name="how-to-define-settings-in-a-response-file"></a>지시 파일에서 설정을 정의하는 방법
 
@@ -99,4 +99,4 @@ Visual Studio 설치 프로그램을 레이아웃 폴더에서 실행하면 _자
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017 워크로드 및 구성 요소 ID](workload-and-component-ids.md)
+* [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)

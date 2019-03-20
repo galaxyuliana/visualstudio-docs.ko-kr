@@ -1,6 +1,6 @@
 ---
 title: UWP 앱의 HTML UI 응답성 분석 | Microsoft Docs
-ms.custom: H1Hack27Feb2017
+ms.custom: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 310185cec6fec2c72582d59f47f4ae767193d06d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f7ab539c1e5a5e90006629850f4c0e728e2e89f4
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640508"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57868158"
 ---
 # <a name="analyze-html-ui-responsiveness-in-universal-windows-apps"></a>유니버설 Windows 앱의 HTML UI 응답성 분석
 이 항목에서는 유니버설 Windows 앱에 사용할 수 있는 성능 도구인 UI 응답성 프로파일러를 사용하여 앱에서 성능 문제를 격리하는 방법에 대해 설명합니다.
@@ -345,8 +345,8 @@ if (performance.mark && performance.measure) {
 |그리기|렌더링|DOM에서 시각적 항목이 변경되었고 페이지의 일부를 다시 렌더링하려고 했습니다.|
 |레이어 렌더링|렌더링|독립적으로 렌더링된 DOM 조각(레이어라고 함)에서 페이지의 일부분을 렌더링해야 하는 시각적 항목이 변경되었습니다.|
 |이미지 디코딩|이미지 디코딩|DOM에 이미지가 포함되어 해당 이미지를 원본 형식에서 비트맵으로 압축 해제하고 디코딩하려 했습니다.|
-|프레임|N/A|DOM에서 시각적 항목이 변경되어 페이지에서 영향을 받는 모든 부분이 다시 그려져야 합니다. 그룹화에 사용되는 도구 생성 이벤트입니다.|
-|사용자 측정|N/A|앱 관련 시나리오는 `performance.measure` 메서드를 사용하여 측정되었습니다. 코드 분석에 사용되는 도구 생성 이벤트입니다.|
+|프레임|해당 없음|DOM에서 시각적 항목이 변경되어 페이지에서 영향을 받는 모든 부분이 다시 그려져야 합니다. 그룹화에 사용되는 도구 생성 이벤트입니다.|
+|사용자 측정|해당 없음|앱 관련 시나리오는 `performance.measure` 메서드를 사용하여 측정되었습니다. 코드 분석에 사용되는 도구 생성 이벤트입니다.|
 
 ## <a name="additional-information"></a>추가 정보
 

@@ -9,12 +9,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/10/2017
 ms.author: ghogen
-ms.openlocfilehash: bb470e245f41bc83245d8c2234753ad84c0ee8db
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: aa0af441071c90ca42d7aa7169c75803bebeb255
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936306"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57869007"
 ---
 # <a name="how-to-migrate-and-publish-a-web-application-to-an-azure-cloud-service-from-visual-studio"></a>방법: Visual Studio에서 Azure 클라우드 서비스로 웹 애플리케이션 마이그레이션 및 게시
 
@@ -30,7 +30,7 @@ Azure의 호스팅 서비스와 확장 기능을 활용하기 위해 웹 애플�
 1. 또한 Visual Studio는 MVC 2, MVC 3, MVC 4, Silverlight Business Applications에 필요한 어셈블리의 **Copy Local** 속성을 true로 설정합니다. 이 속성은 이러한 어셈블리를 배포에 사용되는 서비스 패키지에 추가합니다.
 
    > [!Important]
-   > 이 웹 애플리케이션에 필요한 다른 어셈블리 또는 파일이 있는 경우 이러한 파일에 대한 속성을 수동으로 설정해야 합니다. 이러한 속성을 설정하는 방법은 [서비스 패키지에 파일 포함](#include-files-in-the-service-package)을 참조하세요.
+   > 이 웹 애플리케이션에 필요한 다른 어셈블리 또는 파일이 있는 경우 이러한 파일에 대한 속성을 수동으로 설정해야 합니다. 이러한 속성을 설정하는 방법은 [서비스 패키지에 파일 포함](vs-azure-tools-publishing-a-cloud-service.md#include-files-in-the-service-package)을 참조하세요.
 
 ### <a name="errors-and-warnings"></a>오류 및 경고
 

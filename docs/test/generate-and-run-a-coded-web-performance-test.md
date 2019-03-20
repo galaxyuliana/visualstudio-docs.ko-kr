@@ -14,12 +14,12 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8905470513f48bb284749a9fa0fb0e0fc73096f5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f5c1a065d30f3925ba5c567d562d0138de8c5953
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55914086"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57869278"
 ---
 # <a name="generate-and-run-a-coded-web-performance-test"></a>코딩된 웹 성능 테스트 생성 및 실행
 
@@ -29,7 +29,7 @@ ms.locfileid: "55914086"
 
 ## <a name="generate-a-coded-web-performance-test"></a>코딩된 웹 성능 테스트 생성
 
-1.  웹 성능 테스트를 만들지 않은 경우 [웹 성능 테스트 기록](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project?view=vsts)을 참조하세요.
+1.  웹 성능 테스트를 만들지 않은 경우 [웹 성능 테스트 기록](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project)을 참조하세요.
 
 2.  코딩된 테스트를 생성합니다.
 

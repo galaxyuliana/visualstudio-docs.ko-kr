@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 03/06/2017
 ms.author: mikejo
-ms.openlocfilehash: e5ca90c5b4cf6922b917a6255ba69395abac724d
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: f2d055cf7bb5294095baeef6591ac88389a2fe2b
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953015"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57869930"
 ---
 # <a name="using-emulator-express-to-run-and-debug-an-azure-cloud-service-on-a-local-machine"></a>Emulator Express를 사용하여 로컬 컴퓨터에서 Azure 클라우드 서비스 실행 및 디버그
 Emulator Express를 사용하여 관리자로 Visual Studio를 실행하지 않고 클라우드 서비스를 테스트 및 디버그할 수 있습니다. 클라우드 서비스의 요구 사항에 따라 Emulator Express 또는 전체 에뮬레이터를 사용하도록 프로젝트를 설정할 수 있습니다. 전체 에뮬레이터에 대한 자세한 내용은 [Compute 에뮬레이터에서 Azure 애플리케이션 실행](/azure/storage/common/storage-use-emulator)을 참조하세요.
@@ -48,4 +48,4 @@ Azure SDK 2.3 이상에서 Azure 프로젝트를 만들 때 Emulator Express가 
 - Azure Compute 에뮬레이터에 적용되는 모든 제한 사항은 Emulator Express에도 적용됩니다. 예를 들어 배포당 50개 이상의 역할 인스턴스를 가질 수 없습니다. Azure Compute 에뮬레이터에 대한 자세한 내용은 [계산 에뮬레이터에서 Azure 애플리케이션 실행](http://go.microsoft.com/fwlink/p/?LinkId=623050)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-[Azure Cloud Services 디버그](https://msdn.microsoft.com/library/azure/ee405479.aspx)
+[Azure Cloud Services 디버그](vs-azure-tools-debugging-cloud-services-overview.md)

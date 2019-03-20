@@ -1,6 +1,6 @@
 ---
 title: 디버깅하지 않고 메모리 사용량 분석 | Microsoft Docs
-ms.custom: H1Hack27Feb2017
+ms.custom: ''
 ms.date: 11/15/2018
 ms.topic: conceptual
 dev_langs:
@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a51f86da8eac527ed7744e345ff811797afcd36d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 915a46a1f201dab55edb0b0b091c003d6b449049
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615921"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57873456"
 ---
 # <a name="analyze-memory-usage-without-the-debugger"></a>디버거 없이 메모리 사용량 분석
 
@@ -72,7 +72,7 @@ ms.locfileid: "56615921"
 
 **스냅숏** 창의 숫자는 각 스냅숏이 생성될 때 메모리의 바이트 및 개체와 스냅숏과 이전 스냅숏 간의 차이를 보여줍니다.
 
-숫자는 새 Visual Studio 창에서 상세 **메모리 사용량** 보고서 보기를 여는 링크입니다. [스냅숏 정보 보고서](#snapshot-details-report)에서는 한 스냅숏의 유형 및 인스턴스를 보여줍니다. [스냅숏 차이 보고서](#snapshot-difference-diff-reports)에서는 두 스냅숏의 유형 및 인스턴스를 비교합니다.
+숫자는 새 Visual Studio 창에서 상세 **메모리 사용량** 보고서 보기를 여는 링크입니다. [스냅숏 정보 보고서](#snapshot-details-reports)에서는 한 스냅숏의 유형 및 인스턴스를 보여줍니다. [스냅숏 차이 보고서](#snapshot-difference-diff-reports)에서는 두 스냅숏의 유형 및 인스턴스를 비교합니다.
 
   ![스냅숏 보기 링크](../profiling/media/memuse__snapshotview_numbered.png "스냅숏 보기 링크")
 

@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 ms.date: 01/15/2019
-ms.technology: vs-nodejs
+ms.technology: vs-javascript
 ms.topic: conceptual
 dev_langs:
 - JavaScript
@@ -12,12 +12,12 @@ caps.latest.revision: 1
 author: bowdenk7
 ms.author: wilkelly
 manager: jillfra
-ms.openlocfilehash: faee8d414f324adce2a3e732ace301d45b13f3df
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: c0eabc286cbeafc3d9b2651e5f6f2ec6c61d7e04
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56844089"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57870307"
 ---
 # <a name="javascript-in-visual-studio-2017"></a>Visual Studio 2017의 JavaScript
 
@@ -32,7 +32,7 @@ Visual Studio에서는 이제 ECMAScript 2015/2016 등의 ECMAScript 언어 업�
 
 ### <a name="what-is-ecmascript-2015"></a>ECMAScript 2015란?
 
-JavaScript는 여전히 프로그래밍 언어로 발전을 거듭하고 있으며 [TC39](http://www.ecma-international.org/memento/TC39.htm)는 업데이트를 담당하는 위원회입니다.
+JavaScript는 여전히 프로그래밍 언어로 발전을 거듭하고 있으며 [TC39](https://www.ecma-international.org/memento/tc39-m.htm)는 업데이트를 담당하는 위원회입니다.
 ECMAScript 2015는 새롭고 유용한 구문과 기능을 제공하는 JavaScript 언어의 업데이트입니다. ES6 기능을 자세히 살펴보려면 [이](http://es6-features.org) 참조 사이트를 확인하세요.
 
 Visual Studio에서는 ECMAScript 2015 지원 외에도 ECMAScript 2016을 지원하며, ECMAScript의 이후 버전이 릴리스되면 해당 버전도 지원합니다. TC39와 ECMAScript의 최신 변경 사항을 계속 받으려면 [github](https://github.com/tc39)이 작업을 따르세요.

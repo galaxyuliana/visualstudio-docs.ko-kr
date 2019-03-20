@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 135e1828c72f1824833ea675fa5bd2b01c7c80af
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 504b33ee897ac59b7fe55625a67a01b8dca8ff32
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223041"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57869333"
 ---
 # <a name="quickstart-personalize-the-visual-studio-ide-and-editor"></a>빠른 시작: Visual Studio IDE 및 편집기 개인 설정
 
@@ -33,7 +33,7 @@ Visual Studio의 기본 색 테마는 **파랑**이라고 합니다. **어두운
    ![어두운 테마의 VS](media/quickstart-personalize-dark-theme.png)
 
 > [!TIP]
-> [Visual Studio 마켓플레이스](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor)에서 **Visual Studio 색 테마 편집기**를 설치하여 미리 정의된 추가 테마를 설치할 수 있습니다. 이 도구를 설치하면 **색 테마** 드롭다운 목록에 추가 색 테마가 나타납니다.
+> [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor)에서 **Visual Studio 색 테마 편집기**를 설치하여 미리 정의된 추가 테마를 설치할 수 있습니다. 이 도구를 설치하면 **색 테마** 드롭다운 목록에 추가 색 테마가 나타납니다.
 
 ## <a name="change-text-color"></a>텍스트 색 변경
 

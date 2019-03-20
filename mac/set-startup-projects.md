@@ -5,19 +5,21 @@ author: sayedihashimi
 ms.author: sayedha
 ms.date: 02/21/2019
 ms.topic: conceptual
-ms.prod: visual-studio-mac-dev16
+ms.prod: visual-studio-mac
 ms.assetid: fd354fff-ce6b-4505-a815-84a2311e39ba
-ms.openlocfilehash: 84581fb3f6e33d22f0895b807998120ea7ca0cb7
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 65b44dddfdadcb7ef38332fa35443dbaeededb5d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56724049"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58152917"
 ---
 # <a name="how-to-set-multiple-startup-projects"></a>방법: 여러 시작 프로젝트 설정
+
 Mac용 visual Studio를 사용하면 솔루션을 디버깅하거나 실행할 때 둘 이상의 프로젝트를 시작하는 방법을 지정할 수 있습니다.
 
 ## <a name="to-set-multiple-startup-projects"></a>여러 시작 프로젝트를 설정하려면
+
 1.  **Solution Pad**에서 솔루션(최상위 노드)을 선택합니다.
 
 2. 솔루션 노드의 컨텍스트(마우스 오른쪽 단추 클릭) 메뉴를 선택한 다음, **시작 프로젝트 설정...** 을 선택합니다.

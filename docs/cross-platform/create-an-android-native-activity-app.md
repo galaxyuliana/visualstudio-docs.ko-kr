@@ -12,12 +12,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: 60e2fccf4b26516e88b05b5fb8fc0f8d0eb20f85
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fbe0942226e44e5ca2908f7c13f34595bef34887
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54983731"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069699"
 ---
 # <a name="create-an-android-native-activity-app"></a>Android Native Activity 앱 만들기
 
@@ -31,9 +31,7 @@ Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항�
 
 이 자습서에서는 먼저 새 Android Native Activity 프로젝트를 만든 후 Visual Studio Emulator for Android에서 기본 앱을 빌드 및 실행합니다.
 
-### <a name="to-create-a-new-project"></a>새 프로젝트를 만들려면
-
-1. Visual Studio를 엽니다. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+1. Visual Studio에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
 2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++** > **플랫폼 간**을 차례로 선택한 후 **Native-Activity 애플리케이션(Android)** 템플릿을 선택합니다.
 

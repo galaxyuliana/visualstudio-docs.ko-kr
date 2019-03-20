@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 26d28825d03c6deeeaa0ee33ccf62620398e1d52
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1f69e73274429a0da032760ab563d5aadf71a655
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612779"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57867258"
 ---
 # <a name="how-to-install-the-stand-alone-profiler"></a>방법: 독립 실행형 프로파일러 설치
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]은(는) [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE를 설치하지 않고 실행할 수 있는 명령줄 기반 독립 실행형 프로파일러를 제공합니다. 이 경우는 컴퓨터에 설치된 개발 환경이 없거나 설치할 수 없는 경우에 발생합니다. 예를 들어 프로덕션 웹 서버에 개발 환경을 설치하면 안 됩니다.
@@ -26,7 +26,7 @@ ms.locfileid: "56612779"
 
 ### <a name="to-install-the-stand-alone-profiler"></a>독립 실행형 프로파일러를 설치하려면
 
-1. [Visual Studio용 성능 도구](https://visualstudio.microsoft.com/downloads/?q=performance+tools#performance-tools-for-visual-studio-2017)를 다운로드합니다.
+1. [Visual Studio용 성능 도구](https://visualstudio.microsoft.com/downloads/?q=performance+tools#performance-tools-for-visual-studio)를 다운로드합니다.
 
 1. 성능 도구를 다운로드하고 실행한 독립 실행형 프로필 설치 관리자(*vs_standaloneprofiler.exe*)를 찾습니다.
 
