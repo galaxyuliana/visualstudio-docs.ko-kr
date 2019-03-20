@@ -219,7 +219,7 @@ public class Program
 만 표시할 합니다 **동적 뷰** 개체에 대 한 추가 **동적** 형식 지정자의 동적 개체 이름 뒤의 **조사식** 창:
 
 - C#의 경우: `ObjectName, dynamic`
-- Visual basic의 경우: `$dynamic, ObjectName`
+- Visual Basic의 경우: `$dynamic, ObjectName`
 
 >[!NOTE]
 >- C# 디버거에서 값을 자동으로 다시 평가 하지 합니다 **동적 뷰** 코드의 다음 줄으로 진행 하는 경우.

@@ -40,7 +40,7 @@ ms.locfileid: "54919306"
 1. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 새 Windows Forms 프로젝트를 만듭니다. **파일** 메뉴에서 **추가**를 가리킨 다음 **새 프로젝트**를 클릭합니다. 대화 상자에서 **클래스 라이브러리** 프로젝트를 선택하고 이름을 `ClickOnceLibrary`로 지정합니다.
 
    > [!NOTE]
-   >  Visual basic에서 이 프로젝트의 루트 네임스페이스를 `Microsoft.Samples.ClickOnceOnDemand` 로 변경하거나 선택한 네임스페이스로 변경하려면 프로젝트 속성을 수정하는 것이 좋습니다. 편의상 이 연습의 두 프로젝트는 네임스페이스가 동일합니다.
+   >  Visual Basic에서 이 프로젝트의 루트 네임스페이스를 `Microsoft.Samples.ClickOnceOnDemand` 로 변경하거나 선택한 네임스페이스로 변경하려면 프로젝트 속성을 수정하는 것이 좋습니다. 편의상 이 연습의 두 프로젝트는 네임스페이스가 동일합니다.
 
 2. `DynamicClass` 라는 이름의 단일 속성으로 `Message`라는 이름의 클래스를 정의합니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "54919306"
 3. **솔루션 탐색기**에서 Windows Forms 프로젝트를 선택합니다. <xref:System.Deployment.Application> 어셈블리에 참조를 추가하고 `ClickOnceLibrary` 프로젝트에 프로젝트 참조를 추가합니다.
 
    > [!NOTE]
-   >  Visual basic에서 이 프로젝트의 루트 네임스페이스를 `Microsoft.Samples.ClickOnceOnDemand` 로 변경하거나 선택한 네임스페이스로 변경하려면 프로젝트 속성을 수정하는 것이 좋습니다. 편의상 이 연습의 두 프로젝트는 동일한 네임스페이스에 있습니다.
+   >  Visual Basic에서 이 프로젝트의 루트 네임스페이스를 `Microsoft.Samples.ClickOnceOnDemand` 로 변경하거나 선택한 네임스페이스로 변경하려면 프로젝트 속성을 수정하는 것이 좋습니다. 편의상 이 연습의 두 프로젝트는 동일한 네임스페이스에 있습니다.
 
 4. 폼을 마우스 오른쪽 단추로 클릭하고 메뉴에서 **코드 보기** 를 클릭한 후 폼에 다음 참조를 추가합니다.
 
