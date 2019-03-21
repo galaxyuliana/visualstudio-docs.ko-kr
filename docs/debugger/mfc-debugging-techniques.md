@@ -25,12 +25,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ff3fbd9332c2d402e2b1f72880595bd649cf01c3
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: be4cd6555e358be763a8837444332affced44a94
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316875"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58154808"
 ---
 # <a name="mfc-debugging-techniques"></a>MFC 디버깅 기술
 다음은 MFC 프로그램을 디버깅하는 데 유용한 디버깅 기술입니다.
@@ -230,7 +230,7 @@ free 블록은 `afxMemDF` 가 `delayFreeMemDF`로 설정되면 할당 취소가 
 MFC 프로그램에서 사용할 수 있습니다 [cmemorystate:: Dumpallobjectssince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince) 할당이 취소 되지 않은 힙에서 모든 개체의 설명을 덤프할 수 있습니다. `DumpAllObjectsSince` 는 마지막 [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint)를 단순히 호출할 뿐입니다. `Checkpoint` 를 호출할 수 없는 경우 `DumpAllObjectsSince` 가 현재 메모리에 있는 모든 개체와 비개체를 덤프합니다.
 
 > [!NOTE]
-> MFC 개체를 덤프하려면 먼저 [진단 추적을 활성화](#BKMK_Enabling_Memory_Diagnostics)해야 합니다.
+> MFC 개체를 덤프하려면 먼저 [진단 추적을 활성화](#BKMK_Enabling_memory_diagnostics)해야 합니다.
 
 > [!NOTE]
 > 프로그램을 종료할 때 MFC가 누수된 개체를 모두 자동으로 덤프하므로 해당 지점에서 개체를 덤프할 코드를 만들 필요가 없습니다.

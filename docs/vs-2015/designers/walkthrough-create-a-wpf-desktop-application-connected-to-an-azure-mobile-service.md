@@ -1,5 +1,5 @@
 ---
-title: '연습: Azure 모바일 서비스에 연결 된 WPF 데스크톱 응용 프로그램 만들기 | Microsoft Docs'
+title: '연습: Azure 모바일 서비스에 연결된 WPF 데스크톱 애플리케이션 만들기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-designers
@@ -9,14 +9,14 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1a1b6b456ead22ce68cd336f7278fa0f81d32d81
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 21e8a2e56da1ab319cbd3f78c70d696a2388d2d3
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54803733"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58195075"
 ---
-# <a name="walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service"></a>연습: Azure 모바일 서비스에 연결 된 WPF 데스크톱 응용 프로그램 만들기
+# <a name="walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service"></a>연습: Azure 모바일 서비스에 연결된 WPF 데스크톱 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스를 통해 데이터를 저장 및 제공하는 최신 데스크톱 애플리케이션을 신속하게 만들 수 있습니다.  
@@ -484,7 +484,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
     > [!NOTE]
     >  URL의 숫자 부분을 변경해야 할 수도 있습니다. Microsoft Azure에서는 각 모바일 서비스에 대한 고유한 URL이 필요합니다.  
   
-     이 서비스를 위한 URL을 설정 *https://wpfquickstart01.azure-mobile.net/* 합니다.  
+     이 서비스를 위한 URL을 설정 `https://wpfquickstart01.azure-mobile.net/`합니다.  
   
 4.  **데이터베이스** 목록에서 데이터베이스 옵션을 선택합니다. 자주 사용되지 않는 애플리케이션이므로 **무료 20MB SQL 데이터베이스 만들기** 옵션을 선택하거나 구독과 이미 연결되어 있는 무료 데이터베이스를 선택할 수도 있습니다.  
   
