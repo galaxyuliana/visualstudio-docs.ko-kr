@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 76da5221d8f5bbdeb40f22559c6fabba727986b4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 57c491c79030eea1a01024235c01aec425d5994c
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645357"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58322914"
 ---
 # <a name="projectitemfile-element"></a>ProjectItemFile 요소
   기능 요소를 포함할 파일을 프로젝트 항목을 사용 하 여 SharePoint에 배포 될 때와 같은 SharePoint 파일을 나타냅니다.
@@ -60,7 +60,7 @@ ms.locfileid: "56645357"
 
 |||
 |-|-|
-|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|
+|**Namespace**|http:\/\/schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|
 |**스키마 이름**|SharePoint 프로젝트 항목 스키마|
 |**유효성 검사 파일**|ProjectItemModelSchema.xsd|
 |**비어 있을 수 있습니다.**|아니요|

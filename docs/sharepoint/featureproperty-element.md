@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4bf3cbb84c32fdb3f5eba7ba8706c1035b1d9019
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 20d24192d8613a4f41d9cdfc04371fb9c9d02076
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56633475"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58322772"
 ---
 # <a name="featureproperty-element"></a>FeatureProperty 요소
   SharePoint에 배포 될 때 기능을 사용 하 여 포함 된 사용자 지정 속성을 나타냅니다. 기능이 배포 된 후에 코드에서 속성을 액세스할 수 있습니다.
@@ -55,7 +55,7 @@ ms.locfileid: "56633475"
 
 |||
 |-|-|
-|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|
+|**Namespace**|http:\/\/schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|
 |**스키마 이름**|SharePoint 프로젝트 항목 스키마|
 |**유효성 검사 파일**|ProjectItemModelSchema.xsd|
 |**비어 있을 수 있습니다.**|아니요|

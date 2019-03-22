@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 18627c629e428e00c719459f7a243b74b7c4f26a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: da9be257587936088ee5f91c5e1723d71be11965
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689683"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325070"
 ---
 # <a name="walkthrough-create-an-sdk-using-c"></a>연습: C + +를 사용 하 여 SDK 만들기
 이 연습에서는 네이티브 c + + 수학 라이브러리 SDK 패키지는 SDK로는 VSIX Visual Studio Extension ()를 만들고 앱을 만드는 데 사용 하는 방법을 보여 줍니다. 이 연습에서는 이러한 단계로 구분 됩니다.
@@ -135,7 +135,7 @@ ms.locfileid: "56689683"
 
 17. **파일 탐색기**로 이동 합니다 *$SolutionRoot$ \NativeMathVSIX\bin\Debug* 폴더 및 다음 실행 *NativeMathVSIX.vsix* 설치를 시작 하 합니다.
 
-18. 선택 된 **설치** 단추, 설치가 완료 되기를 기다린 후 Visual Studio를 시작 합니다.
+18. 선택 된 **설치** 단추, 설치 완료를 위해 기다린 후 다음 Visual Studio를 엽니다.
 
 ##  <a name="createSample"></a> 클래스 라이브러리를 사용 하는 샘플 앱을 만들려면
 

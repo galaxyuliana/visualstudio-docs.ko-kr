@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 18a60e5589671101471bbb5f82877ce5234215d8
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 15fc8d330de6b707d4747b9c297dffcbc78d5fec
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54920191"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323711"
 ---
 # <a name="initialization-sequence-of-project-subtypes"></a>프로젝트 하위 형식의 초기화 시퀀스
 기본 프로젝트 팩터리 구현을 호출 하 여 프로젝트를 생성 하는 환경 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>합니다. 프로젝트 하위 형식의 생성 환경을 프로젝트 파일의 확장에 대 한 프로젝트 형식 GUID 목록이 비어 있지 않은지 확인 하는 경우 시작 합니다. 프로젝트 파일 확장명과 프로젝트 GUID 프로젝트 인지 여부를 지정 된 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 또는 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 프로젝트 형식. 예를 들어,.vbproj 확장명 및 식별 하는 {F184B08F-C81C-45F6-A57F-5ABD9991F28F}는 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 프로젝트입니다.
@@ -31,7 +31,7 @@ ms.locfileid: "54920191"
 
     1.  환경의 구현의 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsCreateAggregateProject.CreateAggregateProject%2A> 메서드 호출을 `HrCreateInnerProj` 다음 함수 선언과 함께 메서드:
 
-         <CodeContentPlaceHolder>0</CodeContentPlaceHolder>
+         \<CodeContentPlaceHolder>0</CodeContentPlaceHolder>
 
          이 함수가 호출 될 때 처음으로 즉, 가장 바깥쪽 프로젝트 하위 형식에 대 한 매개 변수 `pOuter` 하 고 `pOwner` 변수로 전달 됩니다 `null` 함수가 가장 바깥쪽 프로젝트 하위 형식 설정 `IUnknown` 에 `pOuter`합니다.
 

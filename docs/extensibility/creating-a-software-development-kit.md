@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6cbe2e3318d01d7b50767c13d09687526c00b49f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 2e9f75cfd94ccbf4262771f6278b429006eba939
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722267"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324070"
 ---
 # <a name="create-a-software-development-kit"></a>소프트웨어 개발 키트 만들기
 소프트웨어 개발 키트 (SDK)은 Visual Studio에서 단일 항목으로 참조할 수 있는 Api 컬렉션입니다. 합니다 **참조 관리자** 대화 상자는 프로젝트에 관련 된 모든 Sdk를 나열 합니다. 프로젝트에 SDK를 추가 하면 Api는 Visual Studio에서 사용할 수 있습니다.
@@ -65,17 +65,17 @@ ms.locfileid: "56722267"
 ### <a name="installation"></a>설치
  확장 Sdk는 레지스트리 키를 지정 하지 않고 특정 사용자 또는 모든 사용자에 대해 설치할 수 있습니다. 모든 사용자에 대 한 SDK를 설치 하려면 다음 경로 사용 합니다.
 
- *%Program Files%\Microsoft SDKs\<target platform>\v<platform version number>\ExtensionSDKs*
+ *% Program Files%\Microsoft Sdk\<대상 플랫폼\>\v < 플랫폼 버전 번호가\>\ExtensionSDKs*
 
  사용자 고유의 설치의 경우 다음 경로 사용 합니다.
 
- *Sdk %USERPROFILE%\AppData\Local\Microsoft\<대상 플랫폼 > \v<platform version number>\ExtensionSDKs*
+ *Sdk %USERPROFILE%\AppData\Local\Microsoft\<대상 플랫폼\>\v < 플랫폼 버전 번호가\>\ExtensionSDKs*
 
  다른 위치를 사용 하려는 경우 두 가지 중 하나를 수행 해야 합니다.
 
 1.  레지스트리 키에서이 지정 합니다.
 
-     **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number>\ExtensionSDKs\<SDKName>\<SDKVersion>**\
+     **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number\>\ExtensionSDKs\<SDKName>\<SDKVersion>**\
 
      값이 있는 (기본값) 하위 키를 추가 하 고 `<path to SDK><SDKName><SDKVersion>`입니다.
 

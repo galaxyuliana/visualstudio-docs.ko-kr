@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cedadf6cc19794c8e1251aef0b9f24c8a54fa788
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 46e93b07ddf65d50ebf92f04eda14e93fbfeba74
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635191"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323388"
 ---
 # <a name="how-to-install-a-source-control-plug-in"></a>방법: 소스 제어 플러그 인 설치
 소스 제어 플러그 인을 만드는 세 가지 단계가 포함 됩니다.
@@ -78,7 +78,7 @@ ms.locfileid: "56635191"
 
 4. 명명 된 하위 키를 만듭니다 **InstalledSCCProviders** 아래를 **SourceCodeControlProvider** 하위, 키 및 해당 하위 키 아래에 있는 하나의 항목을 배치 합니다.
 
-    이 항목의 이름 (동일 SCCServerName 항목에 대 한 지정 된 값), 공급자의 사용자가 읽을 수 있는 이름을 이며 값, 이번에 1 단계에서 만든 하위 키입니다. 패턴이 **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\<display name>** = *소프트웨어\\< 회사 이름\> \\< 제품 이름\>* 합니다.
+    이 항목의 이름 (동일 SCCServerName 항목에 대 한 지정 된 값), 공급자의 사용자가 읽을 수 있는 이름을 이며 값, 이번에 1 단계에서 만든 하위 키입니다. 패턴이 **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\< 표시 이름\>** = *소프트웨어\\< 회사 이름을\>\\< 제품 이름\>* 합니다.
 
     예를 들어:
 
