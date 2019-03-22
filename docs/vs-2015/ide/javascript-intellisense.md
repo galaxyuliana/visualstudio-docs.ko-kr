@@ -26,12 +26,12 @@ caps.latest.revision: 67
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 64da24c21ef40bd850e7fb91ed530df67bfe66b4
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: b96ceed46b9411e128a34861fbd06fd53817a18a
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54763286"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194459"
 ---
 # <a name="javascript-intellisense"></a>JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,7 +69,7 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
 
 -   활성 문서의 모든 스크립트 블록에서 정의된 기능입니다. 인라인 스크립트 블록은 파일 확장명이 .aspx., .ascx, .master, .html 및 .htm인 파일에서 지원됩니다.
 
--   다른 스크립트 파일을 가리키는 `script` 특성이 있는 `src` 요소입니다. 대상 스크립트 파일의 파일 확장명은 .js여야 합니다.
+-   다른 스크립트 파일을 가리키는 `src` 특성이 있는 `script` 요소입니다. 대상 스크립트 파일의 파일 확장명은 .js여야 합니다.
 
 -   `reference` 지시문을 사용하여 다른 JavaScript 파일을 참조하는 JavaScript 파일입니다.
 
@@ -91,7 +91,7 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
 
 -   목록 전체를 검색하여 각 파일의 형식 정보와 기타 관련 데이터를 수집합니다.
 
--   데이터를 집계하여 형식 정보와 데이터를 IntelliSense에서 사용할 수 있도록 JavaScript 언어 서비스에 전달합니다.
+-   데이터를 집계하여 형식 정보와 데이터를 IntelliSense에서 사용할 수 있도록 JavaScript Language Service에 전달합니다.
 
 -   IntelliSense 목록에 영향을 미칠 수 있는 변경 내용이 있는지 파일을 모니터링하여 필요한 경우 목록을 업데이트합니다. 원격 저장소(예: HTTP를 사용하여 참조된 저장소)의 스크립트는 모니터링되지 않습니다.
 
@@ -122,7 +122,7 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
  JavaScript IntelliSense는 `body`, `form` 및 `div` 같은 DHTML(Dynamic HTML) DOM 요소에 대한 프로그래밍 참조를 제공합니다. IntelliSense는 현재 문서와 마스터 페이지에 포함된 요소만 표시합니다. 또한 JavaScript IntelliSense는 `window` 및 `document` 개체와 그 멤버를 지원합니다.
 
 ###  <a name="IntrinsicObjects"></a> 내장 개체
- JavaScript IntelliSense는 네이티브 `Array`, `String`, `Math`, `Date` 및 `Number` 등의 개체에 대한 프로그래밍 참조를 제공합니다. 내장 개체에 대한 자세한 내용은 [내장 개체](/visualstudio/scripting-docs/javascript/intrinsic-objects-javascript)를 참조하세요.
+ JavaScript IntelliSense는 네이티브 `Array`, `String`, `Math`, `Date` 및 `Number` 등의 개체에 대한 프로그래밍 참조를 제공합니다. 내장 개체에 대 한 자세한 내용은 참조 하세요. [표준 기본 제공 개체](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects)합니다.
 
 ###  <a name="UserDefined"></a> 사용자 정의 변수, 함수 및 개체
  JavaScript 파일을 변경하면 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 열린 문서와 참조된 문서를 검색하여 사용 가능한 모든 코드 리소스를 확인합니다. 여기에는 사용자가 만든 변수, 함수 및 개체가 포함됩니다. 그런 후에는 JavaScript IntelliSense에서 해당 리소스를 사용할 수 있습니다.

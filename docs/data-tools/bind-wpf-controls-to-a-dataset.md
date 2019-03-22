@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: b8f5f701299d08d79147a4d2d1932f3f23c011b6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: c427a16964bbccfc77139c17659a4fd98d490253
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939166"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069868"
 ---
 # <a name="bind-wpf-controls-to-a-dataset"></a>데이터 세트로 WPF 컨트롤 바인딩
 
@@ -56,15 +56,29 @@ ms.locfileid: "55939166"
 
 제품 레코드를 표시 하려면 새 WPF 프로젝트를 만듭니다.
 
-1. Visual Studio를 시작합니다.
+::: moniker range="vs-2017"
+
+1. Visual Studio를 엽니다.
 
 2. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택합니다.
 
 3. **Visual Basic** 또는 **Visual C#** 을 확장한 다음, **Windows**를 선택합니다.
 
-4. **WPF 애플리케이션** 프로젝트 템플릿을 선택합니다.
+4. 선택 된 **WPF 앱** 프로젝트 템플릿.
 
 5. 에 **이름을** 상자에 입력 합니다 **AdventureWorksProductsEditor** 선택한 후 **확인**합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio를 엽니다.
+
+2. 시작 창에서 선택 **새 프로젝트를 만들**합니다.
+
+3. 검색을 C# **WPF 앱** 프로젝트 템플릿을 선택한 프로젝트를 명명 하 고 프로젝트를 만드는 단계에 따라 **AdventureWorksProductsEditor**.
+
+::: moniker-end
 
    Visual Studio에서 AdventureWorksProductsEditor 프로젝트를 만듭니다.
 

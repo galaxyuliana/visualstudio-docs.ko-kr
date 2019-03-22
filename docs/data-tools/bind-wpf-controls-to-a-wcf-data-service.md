@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: eb6b9a9a213932662a548314bcc39c75e9d35bc3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ceaf74ad2673b0dae80c9529ad082c6ae3187352
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909689"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069777"
 ---
 # <a name="bind-wpf-controls-to-a-wcf-data-service"></a>WCF 데이터 서비스에 WPF 컨트롤 바인딩
 
@@ -50,7 +50,7 @@ ms.locfileid: "55909689"
 
 또한 다음 개념에 대한 지식은 연습을 완료하는 데 반드시 필요하지는 않지만 사전에 파악해 두면 유용할 수 있습니다.
 
-- WCF Data Services. 자세한 내용은 [개요](/dotnet/framework/data/wcf/wcf-data-services-overview)합니다.
+- [WCF Data Services](/dotnet/framework/data/wcf/wcf-data-services-overview).
 
 - [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]의 데이터 모델
 
@@ -60,21 +60,9 @@ ms.locfileid: "55909689"
 
 ## <a name="create-the-service-project"></a>서비스 프로젝트를 만들려면
 
-WCF 데이터 서비스에 대 한 프로젝트를 만들어이 연습을 시작 합니다.
+1. 이 연습을 만들어 시작는 C# 또는 Visual Basic **ASP.NET 웹 응용 프로그램** 프로젝트입니다. 프로젝트 이름을 **AdventureWorksService**합니다.
 
-1. Visual Studio를 시작합니다.
-
-2. **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.
-
-3. **Visual C#** 또는 **Visual Basic**을 확장한 다음, **웹**을 선택합니다.
-
-4. **ASP.NET 웹 애플리케이션** 프로젝트 템플릿을 선택합니다.
-
-5. **이름** 상자에 **AdventureWorksService**를 입력하고 **확인**을 클릭합니다.
-
-     Visual Studio가 **AdventureWorksService** 프로젝트를 만듭니다.
-
-6. **솔루션 탐색기**에서 **Default.aspx**를 오른쪽 마우스 단추로 클릭하고 **삭제**를 선택합니다. 이 연습에서는 해당 파일이 필요하지 않습니다.
+2. **솔루션 탐색기**에서 **Default.aspx**를 오른쪽 마우스 단추로 클릭하고 **삭제**를 선택합니다. 이 파일은 연습에 대 한 필요는 없습니다.
 
 ## <a name="create-an-entity-data-model-for-the-service"></a>서비스에 대 한 엔터티 데이터 모델 만들기
 

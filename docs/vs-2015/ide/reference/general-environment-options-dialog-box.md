@@ -27,12 +27,12 @@ caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 836c5be9df565d6171949845e36febc22024b20a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5db2476f16010f61af23c460fdd2bc78066c0e4a
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54752292"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57868129"
 ---
 # <a name="general-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 일반
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "54752292"
  **색 테마**  
  IDE에 대해 **파란** 색 테마, **밝은** 색 테마 또는 **어두운** 색 테마를 선택합니다.  
   
- [Visual Studio 갤러리](https://visualstudiogallery.msdn.microsoft.com/site/search?f%5B0%5D.Type=RootCategory&f%5B0%5D.Value=tools)에서 **Visual Studio 2015 색 테마 편집기**를 다운로드 및 설치하여 미리 정의된 추가 테마를 설치하고 사용자 지정 테마를 만들 수 있습니다. 이 도구를 설치하면 색 테마 목록 상자에 추가적인 색 테마가 나타납니다.  
+ [Visual Studio Marketplace](https://marketplace.visualstudio.com)에서 **Visual Studio 2015 색 테마 편집기**를 다운로드 및 설치하여 미리 정의된 추가 테마를 설치하고 사용자 지정 테마를 만들 수 있습니다. 이 도구를 설치하면 색 테마 목록 상자에 추가적인 색 테마가 나타납니다.  
   
  메뉴 모음에 단어의 첫 글자를 대문자로 표시 적용  
  Visual Studio 2015에서는 기본적으로 메뉴에 **단어의 첫 글자를 대문자로 표시**가 적용됩니다. **모두 대문자로**로 설정하려면 이 옵션의 선택을 취소하세요.  

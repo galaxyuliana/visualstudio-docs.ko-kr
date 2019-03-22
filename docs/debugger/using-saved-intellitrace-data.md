@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7d662ef0e0b838b324250da8dca4255a6237bccb
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 39a31a7eca86daa390ed1bb4ad32ab5e8859b2d7
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54969722"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57873478"
 ---
 # <a name="using-saved-intellitrace-data-c-visual-basic-c"></a>저장 된 IntelliTrace 데이터를 사용 하 여 (C#, Visual Basic, c + +)
 
@@ -38,7 +38,7 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
     |----------------|-------------|
     |Visual Studio Enterprise(Professional 또는 Community Edition 아님)의 IntelliTrace 세션|[IntelliTrace 기능](../debugger/intellitrace-features.md)|
     |Microsoft Test Manager의 테스트 세션. 이는 Team Foundation Server 작업 항목에 .iTrace 파일을 연결합니다.|[수동 테스트에서 추가 진단 데이터 수집](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
-    |배포에서 실행 중인 ASP.NET 웹앱 및 SharePoint 애플리케이션에 대해 Microsoft Monitoring Agent 단독으로 또는 System Center 2012 R2 Operations Manager와 함께 사용|-   [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)<br />-   [System Center 2012 R2 Operations Manager의 새로운 기능](http://technet.microsoft.com/library/dn249700.aspx)|
+    |배포에서 실행 중인 ASP.NET 웹앱 및 SharePoint 애플리케이션에 대해 Microsoft Monitoring Agent 단독으로 또는 System Center 2012 R2 Operations Manager와 함께 사용|-   [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)<br />-   [System Center 2012 R2 Operations Manager의 새로운 기능](/previous-versions/system-center/system-center-2012-R2/dn249700(v=sc.12))|
 
 ##  <a name="GetStarted"></a> 원하는 작업을 선택하세요.
 
@@ -109,7 +109,7 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
 
 3.  해당 호출을 확장하여 특정 시점에 기록된 중첩 호출과 매개 변수 값을 검토합니다.
 
-     (키보드: 키를 눌러을 표시 하거나 숨기려면 중첩된 된 호출을 **오른쪽 화살표** 또는 **왼쪽 화살표** 키를 각각. 중첩된 호출에 대한 매개 변수 값을 표시하거나 숨기려면 **Space** 키를 누릅니다.)
+     (키보드: 중첩된 호출을 표시하거나 숨기려면 **오른쪽 화살표** 또는 **왼쪽 화살표** 키를 각각 누릅니다. 중첩된 호출에 대한 매개 변수 값을 표시하거나 숨기려면 **Space** 키를 누릅니다.)
 
      해당 호출에서 디버깅을 시작합니다.
 
@@ -206,7 +206,7 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
 
     ![IntelliTrace 로그 &#45; SharePoint 처리 되지 않은 예외](../debugger/media/sharepointunhandledexceptions_intellitrace.png "SharePointUnhandledExceptions_IntelliTrace")
 
-   연습을 참조 하세요. [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램을 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)합니다. 에이전트에서 기록에 표시 되는 데이터의 종류에 대 한 [IntelliTrace 기능](../debugger/intellitrace-features.md)합니다.
+   연습을 참조 하세요 [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램을 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)합니다. 에이전트에서 기록에 표시 되는 데이터의 종류에 대 한 [IntelliTrace 기능](../debugger/intellitrace-features.md)합니다.
 
 ###  <a name="ThreadsList"></a> 스레드 목록
  대상 프로세스에서 실행하는 기록된 스레드를 검사합니다. 선택한 스레드에서 첫 번째로 유효한 IntelliTrace 이벤트부터 디버깅을 시작할 수 있습니다.
@@ -272,4 +272,4 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
  [Visual Studio 디버거](http://go.microsoft.com/fwlink/?LinkId=262263)
 
 #### <a name="guidance"></a>지침
- [Visual Studio 2012-6 장을 사용한 연속 배달 테스트: 테스트 도구 상자](http://go.microsoft.com/fwlink/?LinkID=255203)
+ [Visual Studio 2012를 사용한 지속적인 업데이트 테스트 – 챕터 6: 테스트 도구 상자](http://go.microsoft.com/fwlink/?LinkID=255203)

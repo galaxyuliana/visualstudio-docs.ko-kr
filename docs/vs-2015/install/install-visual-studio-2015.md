@@ -19,12 +19,12 @@ caps.latest.revision: 183
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: ecb6e2ef6927638aa06bbb04a09f64f8ca4c4a46
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ddc63faae9a23485badb57f0e50ae8d46dd94b91
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54799179"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57873696"
 ---
 # <a name="install-visual-studio-2015"></a>Visual Studio 2015 설치
 
@@ -38,11 +38,11 @@ ms.locfileid: "54799179"
 
 |||
 |------------------|----------------|
-|![Visual Studio 다운로드](../install/media/downloads.png "다운로드") |**다운로드** Visual Studio 2015를 설치 하려면에서 제품 실행 파일을 다운로드할 수 있습니다 합니다 [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) (구독 필수), 페이지 또는 boxed 제품의 설치 미디어를 사용 합니다. [현재 또는 이전 버전의 Visual Studio를 다운로드 하는 방법에 자세히 알아보려면](https://www.visualstudio.com/vs/older-downloads/)합니다.|
+|![Visual Studio 다운로드](../install/media/downloads.png "다운로드") |**다운로드**: Visual Studio 2015를 설치 하려면에서 제품 실행 파일을 다운로드할 수 있습니다 합니다 [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) (구독 필수), 페이지 또는 boxed 제품의 설치 미디어를 사용 합니다. [현재 또는 이전 버전의 Visual Studio를 다운로드 하는 방법에 자세히 알아보려면](https://www.visualstudio.com/vs/older-downloads/)합니다.|
 |![기능에 자세히 알아보려면](../install/media/features.png "기능") |**기능**: Visual Studio 2015의 기능에 대 한 자세한 내용은 릴리스 정보를 참조 하세요. [RTM](https://www.visualstudio.com/news/vs2015-vs), [업데이트 1](https://www.visualstudio.com/news/vs2015-update1-vs)하십시오 [업데이트 2](https://www.visualstudio.com/news/vs2015-update2-vs), 및 [ 업데이트 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs)합니다.|
 |![각 SKU에 포함 된 내용 알아보십시오](../install/media/sku.png "Sku") |**SKUs**: Visual Studio 2015의 각 버전에서 사용할 수 있는 항목을 확인하려면 [Visual Studio 제품 비교](http://go.microsoft.com/fwlink/?LinkID=242142) 페이지를 참조하세요.|
 |![시스템 요구 사항을 보려면](../install/media/system-requirements.png "시스템 요구 사항") |**시스템 요구 사항**: Visual Studio 2015의 각 버전에 대 한 시스템 요구 사항을 보려면을 참조 합니다 [Visual Studio 2015 호환성](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs) 페이지.|
-|![제품 키를 찾습니다](../install/media/product-keys.png "제품 키") |**제품 키** 제품 키를 찾으려면 참조는 [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) 항목입니다.|
+|![제품 키를 찾습니다](../install/media/product-keys.png "제품 키") |**제품 키**: 제품 키를 찾으려면 다음을 참조 합니다 [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) 항목입니다.|
 |![라이선스에 대해 알아봅니다](../install/media/licensing.png "라이선스") |**라이선스**: 개인 또는 기업 고객 모두에 대 한 옵션을 라이선싱 하는 방법에 대 한 알아보려면 참조 합니다 [Visual Studio and MSDN Licensing](https://www.microsoft.com/download/details.aspx?id=13350) 백서입니다.|
 
 ##  <a name="custom"></a> 기본 설치 및 사용자 지정 설치
@@ -108,7 +108,7 @@ ms.locfileid: "54799179"
 
  Hyper-V를 사용하도록 설정된 Windows Server 2008 R2와 가속 그래픽 어댑터를 실행하는 경우 시스템 성능이 떨어질 수 있습니다.
 
- 자세한 내용은 Microsoft 웹 사이트의 다음 페이지를 참조 합니다. [Windows Server 2008 경우 비디오 성능이 저하 될 수 또는 Windows Server 2008 R2 기반 컴퓨터에는 Hyper-v 역할이 활성화 되어 있고 가속화 디스플레이 어댑터가 설치](http://go.microsoft.com/fwlink/?LinkID=231084)합니다.
+ 자세한 내용은 Microsoft 웹 사이트에서 [Windows Server 2008 또는 Windows Server 2008 R2 기반 컴퓨터에 Hyper-V 역할이 활성화되어 있고 가속화 디스플레이 어댑터가 설치된 경우 비디오 성능이 저하될 수 있음](http://go.microsoft.com/fwlink/?LinkID=231084)페이지를 참조하세요.
 
  **Hyper-V를 사용한 디바이스 에뮬레이션**
 
@@ -143,7 +143,7 @@ ms.locfileid: "54799179"
    설치 또는 오프 라인 도움말을 배포 하는 방법에 대 한 자세한 내용은 참조는 [도움말 뷰어 관리자 가이드](../ide/help-viewer-administrator-guide.md)합니다.
 
 ##  <a name="serviceReleases"></a> 서비스 릴리스 및 제품 업데이트 확인
- 모든 확장이 호환되는 것은 아니므로 이전 버전에서 업그레이드할 때 Visual Studio에서는 확장을 자동으로 업그레이드하지 않습니다. 확장을 다시 설치 해야 합니다 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkId=178891) 또는 소프트웨어 게시자에서입니다.
+ 모든 확장이 호환되는 것은 아니므로 이전 버전에서 업그레이드할 때 Visual Studio에서는 확장을 자동으로 업그레이드하지 않습니다. 확장을 다시 설치 해야 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 또는 소프트웨어 게시자에서입니다.
 
 #### <a name="to-automatically-check-for-service-releases"></a>서비스 릴리스를 자동으로 확인하려면
 
