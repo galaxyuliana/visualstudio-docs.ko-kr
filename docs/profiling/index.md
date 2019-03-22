@@ -12,6 +12,8 @@ manager: jillfra
 
 프로파일링 및 진단 도구는 메모리 및 CPU 사용량 진단 및 애플리케이션 수준 문제 진단을 도와줍니다. 이러한 도구를 사용하면 디버거에서 애플리케이션을 실행하는 동안 데이터(예: 변수 값, 함수 호출, 이벤트)를 누적할 수 있습니다. 코드를 실행하는 동안 다양한 지점에서 애플리케이션 상태를 볼 수 있습니다.
 
+<!-- markdownlint-disable MD033 -->
+
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="https://docs.microsoft.com/visualstudio/profiling/profiling-feature-tour">

@@ -11,24 +11,24 @@ items:
     - name: 프로젝트 및 솔루션 정보
       href: tutorial-projects-solutions.md
     - name: Visual Studio 추가 기능
-      href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
   - name: 앱 만들기
     items:
     - name: 콘솔 앱 만들기
       href: tutorial-console.md
     - name: UWP 앱 만들기
-      href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
     - name: WPF 앱 만들기
       href: tutorial-wpf.md
     - name: 웹앱 만들기
       href: /aspnet/web-pages/overview/getting-started/introducing-razor-syntax-vb
     - name: Windows Forms 앱 만들기
-      href: ../../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: ../../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
     expanded: true
   - name: Visual Studio 학습
     items:
     - name: 리포지토리에서 프로젝트 열기
-      href: ../tutorial-open-project-from-repo.md
+      href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
     - name: 코드 작성 및 편집
       href: tutorial-editor.md
     - name: 컴파일 및 빌드
@@ -36,15 +36,15 @@ items:
     - name: 코드 디버그
       href: ../visual-basic/tutorial-debugger.md
     - name: 단위 테스트
-      href: ../../test/getting-started-with-unit-testing.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: ../../test/getting-started-with-unit-testing.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
     - name: 프로젝트 배포
       href: ../../deployment/index.md
     - name: 데이터 액세스
-      href: ../../data-tools/create-a-sql-database-by-using-a-designer.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      href: ../../data-tools/create-a-sql-database-by-using-a-designer.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
     expanded: true
-ms.openlocfilehash: 8cf8260b863b5626f82eb43299c11ac656824f91
-ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
+ms.openlocfilehash: f8098d467f66ce89c12c38dba54601a29f910494
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "57984107"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58321618"

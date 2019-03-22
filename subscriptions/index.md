@@ -19,6 +19,7 @@ Visual Studio 구독은 Windows, iOS, Android, Linux 등을 비롯한 기본 플
 관리자는 [https://manage.visualstudio.com](https://manage.visualstudio.com)에 로그인하여 팀에게 구독을 할당합니다.<br>
 구독자는 [https://my.visualstudio.com](https://my.visualstudio.com)에 로그인하여 구독 혜택에 액세스합니다.
 
+<!-- markdownlint-disable MD033 -->
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/azure/">

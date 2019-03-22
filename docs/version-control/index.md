@@ -2,7 +2,7 @@
 layout: LandingPage
 title: 버전 제어
 description: Visual Studio에서 버전 제어 시작 가이드
-keywords: VSTS, TFS, 버전 제어
+keywords: 'VSTS, TFS, 버전 제어'
 author: steved0x
 ms.manager: jillfra
 ms.author: sdanie
@@ -11,13 +11,7 @@ ms.topic: landing-page
 ms.prod: .net-core
 ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
 ms.workload:
-- multiple
-ms.openlocfilehash: edcf47601007e3249c58dd8ad215c5ba1fd3bf83
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54998926"
+  - multiple
 ---
 # <a name="version-control-in-visual-studio"></a>Visual Studio의 버전 제어
 
@@ -27,6 +21,7 @@ ms.locfileid: "54998926"
 
 Git은 오늘날 가장 일반적으로 사용되는 버전 제어 시스템으로, 빠른 속도로 버전 제어 표준으로 자리잡고 있습니다. Git은 분산 버전 제어 시스템입니다. 즉, 코드의 로컬 사본은 완전한 버전 제어 리포지토리에 해당합니다. 이러한 모든 기능의 로컬 리포지토리 덕분에 오프라인으로 또는 원격으로 쉽게 작업할 수 있습니다. 작업을 로컬로 커밋한 다음 리포지토리 복사본을 서버의 사본과 동기화합니다. 이 패러다임은 클라이언트가 코드의 새 버전을 만들기 전에 서버와 코드를 동기화해야 하는 중앙 집중식 버전 제어와는 다릅니다.
 
+<!-- markdownlint-disable MD033 -->
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/azure/devops/git/what-is-git">

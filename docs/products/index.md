@@ -6,6 +6,7 @@ description: 'Visual Studio 2017을 사용하여 플랫폼 및 장치에 대해 
 ms.topic: landing-page
 searchScope: []
 ---
+<!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
     <div class="container">
         <h1>Visual Studio 제품 설명서</h1>
