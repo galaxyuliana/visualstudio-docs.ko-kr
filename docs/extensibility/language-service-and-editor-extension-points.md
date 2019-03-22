@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 15ccf8ab1b3f2fa97faaae5b97c47ac3179a672d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 0c80ee3cebe003eff7248626f0d8e27b3c179453
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679387"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323807"
 ---
 # <a name="language-service-and-editor-extension-points"></a>언어 서비스 및 편집기 확장 지점
 편집기에는 대부분의 언어 서비스 기능을 포함 하 여 Framework MEF (Managed Extensibility) 구성 요소 파트로 확장할 수 있는 확장 지점을 제공 합니다. 다음은 이러한 주요 확장 포인트 범주:
@@ -260,7 +260,7 @@ internal IEditorFormatMapService FormatMapService { get; set; }
 
   다음 예제에서는 태거 공급자에서 내보내기 특성을 보여 줍니다.
 
-<CodeContentPlaceHolder>8</CodeContentPlaceHolder> 태그는 다음과 같은 기본 제공 됩니다.
+\<CodeContentPlaceHolder > 8</CodeContentPlaceHolder> 태그는 다음과 같은 기본 제공 됩니다.
 
 - <xref:Microsoft.VisualStudio.Text.Tagging.ClassificationTag>: 연결 된는 <xref:Microsoft.VisualStudio.Text.Classification.IClassificationType>합니다.
 

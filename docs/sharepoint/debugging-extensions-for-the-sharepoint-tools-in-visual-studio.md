@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 528665cc54c78a6d5d053cc80522f53385e85daf
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: d28836e1213e65fa7537937b9b6ce27b87f1c3ba
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54875721"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324502"
 ---
 # <a name="debug-extensions-for-the-sharepoint-tools-in-visual-studio"></a>Visual Studio에서 SharePoint 도구에 대 한 확장명 디버깅
   실험적 인스턴스 또는 일반 인스턴스의 Visual Studio에서 SharePoint 도구 확장을 디버그할 수 있습니다. 확장 동작 문제를 해결 해야 할 경우에 추가 오류 정보를 표시 하 고 Visual Studio SharePoint 명령을 실행 하는 방법을 구성 하려면 레지스트리 값을 수정할 수 있습니다.
@@ -56,7 +56,7 @@ ms.locfileid: "54875721"
 
 #### <a name="to-debug-the-extension"></a>확장을 디버그 하려면
 
-1.  관리자 권한으로 Visual Studio를 시작 하 고 확장 프로젝트를 엽니다. Visual Studio의이 인스턴스를 다음 단계를 참조 합니다 *먼저 인스턴스*합니다.
+1.  관리자 권한으로 Visual Studio를 열고 확장 프로젝트를 엽니다. Visual Studio의이 인스턴스를 다음 단계를 참조 합니다 *먼저 인스턴스*합니다.
 
 2.  관리자 권한으로 Visual Studio의 다른 인스턴스를 시작 합니다. 다음 단계를 참조로 Visual Studio의이 인스턴스는 *두 번째 인스턴스*합니다.
 

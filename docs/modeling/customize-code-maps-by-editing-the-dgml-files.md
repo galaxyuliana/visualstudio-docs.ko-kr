@@ -20,12 +20,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 31f26acadcbeac4aa042f7372fd4c80a9e385c54
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 5394e7918c623fee3c1fed4008a952ca7a9e0f22
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937944"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323151"
 ---
 # <a name="customize-code-maps-by-editing-the-dgml-files"></a>Customize code maps by editing the DGML files
 
@@ -47,7 +47,7 @@ ms.locfileid: "55937944"
 
     새 그룹을 추가하려면 `<Nodes>` 섹션을 찾습니다. 새 `<Node/>` 요소를 추가합니다.
 
-3. `<Node/>` 요소에 `Group` 특성을 추가하여 그룹을 확장된 상태로 표시할지 축소된 상태로 표시할지를 지정합니다. 예:
+3. `<Node/>` 요소에 `Group` 특성을 추가하여 그룹을 확장된 상태로 표시할지 축소된 상태로 표시할지를 지정합니다. 예를 들어:
 
    ```xml
    <Nodes>
@@ -201,7 +201,7 @@ ms.locfileid: "55937944"
     Shape="ShapeFilePathLocation"
     ```
 
-     예:
+     예를 들어:
 
     ```xml
     <Nodes>
@@ -236,7 +236,7 @@ ms.locfileid: "55937944"
     StrokeDashArray="StrokeArrayValues"
     ```
 
-     예:
+     예를 들어:
 
     ```xml
     <Links>
@@ -286,35 +286,35 @@ ms.locfileid: "55937944"
 
     이 식에서는 다음과 같은 BNF(Backus-Naur Form) 구문을 사용합니다.
 
-    <Expression> ::= <BinaryExpression> &#124; <UnaryExpression> &#124; "("<Expression>")" &#124; <MemberBindings> &#124; <Literal> &#124; <Number>
+    \<Expression> ::= \<BinaryExpression> &#124; \<UnaryExpression> &#124; "("\<Expression>")" &#124; \<MemberBindings> &#124; \<Literal> &#124; \<Number>
 
-    <BinaryExpression> ::= <Expression> <Operator> <Expression>
+    \<BinaryExpression> ::= \<Expression> \<Operator> \<Expression>
 
-    <UnaryExpression> ::= "!" <Expression> &#124; "+" <Expression> &#124; "-" <Expression>
+    \<UnaryExpression> ::= "!" \<식 > &#124; "+" \<식 > &#124; "-" \<식 >
 
-    <Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"
+    \<Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"
 
-    <MemberBindings> ::= <MemberBindings> &#124; <MemberBinding> "." <MemberBinding>
+    \<MemberBindings> ::= \<MemberBindings> &#124; \<MemberBinding> "." \<MemberBinding>
 
-    <MemberBinding> ::= <MethodCall> &#124; <PropertyGet>
+    \<MemberBinding> ::= \<MethodCall> &#124; \<PropertyGet>
 
-    <MethodCall> ::= <Identifier> "(" <MethodArgs> ")"
+    \<MethodCall> ::= \<Identifier> "(" \<MethodArgs> ")"
 
-    <PropertyGet> :: = 식별자
+    \<PropertyGet >:: = 식별자
 
-    <MethodArgs> ::= <Expression> &#124; <Expression> "," <MethodArgs> &#124; <empty>
+    \<MethodArgs> ::= \<Expression> &#124; \<Expression> "," \<MethodArgs> &#124; \<empty>
 
-    <Identifier> ::= [^. ]*
+    \<Identifier> ::= [^. ]*
 
-    <Literal> :: = 작은따옴표 또는 큰따옴표로 묶은 문자열 리터럴
+    \<리터럴 >:: = 작은따옴표 또는 큰따옴표로 묶은 문자열 리터럴
 
-    <Number> :: = 선택적 소수점을 사용 하 여 숫자 문자열
+    \<번호 >:: = 선택적 소수점을 사용 하 여 숫자 문자열
 
     여러 개 지정할 수 있습니다 `<Condition/>` 모두 스타일을 적용 하려면 만족 해야 하는 요소입니다.
 
 3. `<Condition/>` 요소의 다음 줄에서 한 개 또는 여러 개의 `<Setter/>` 요소를 추가하여 조건을 만족하는 맵, 코드 요소 또는 링크에 적용할 `Property` 특성과 고정 `Value` 특성 또는 계산된 `Expression` 특성을 지정합니다.
 
-    예:
+    예를 들어:
 
    ```xml
    <Setter Property="BackGround" Value="Green"/>
@@ -373,9 +373,9 @@ ms.locfileid: "55937944"
 
  이 예제에 대한 설명:
 
-1.  `Coverage`가 80보다 크게 설정되었으면 `Background` 속성을 녹색으로 설정합니다.
+1.  하는 경우 `Coverage` > 80 인 설정한는 `Background` 속성을 녹색입니다.
 
-2.  `Coverage`가 50보다 작게 설정되었으면 `Background` 속성 값에 따라 `Coverage` 속성을 주황색 음영으로 설정합니다.
+2.  다른 경우 `Coverage` 은 > 50 설정한 합니다 `Background` 의 값을 기반으로 하는 속성을 주황색 음영으로는 `Coverage` 속성입니다.
 
 3.  또한 `Background` 속성은 `Coverage` 속성 값에 따라 빨간색 음영으로 설정합니다.
 
@@ -442,7 +442,7 @@ ms.locfileid: "55937944"
 
 1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
-2.  해당 코드 요소에 대한 `<Node/>` 요소를 찾습니다. 속성 이름 및 해당 값을 지정합니다. 예:
+2.  해당 코드 요소에 대한 `<Node/>` 요소를 찾습니다. 속성 이름 및 해당 값을 지정합니다. 예를 들어:
 
     ```xml
     <Nodes>
@@ -464,7 +464,7 @@ ms.locfileid: "55937944"
 
 2.  소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.
 
-3.  `<Node/>` 요소에서 속성 이름 및 해당 값을 지정합니다. 예:
+3.  `<Node/>` 요소에서 속성 이름 및 해당 값을 지정합니다. 예를 들어:
 
     ```xml
     <Links>
@@ -489,7 +489,7 @@ ms.locfileid: "55937944"
 
 -   원하는 코드 요소에 대한 `<Node/>` 요소를 찾습니다.
 
--   `<Node/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예:
+-   `<Node/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예를 들어:
 
     ```xml
     <Nodes>
@@ -511,7 +511,7 @@ ms.locfileid: "55937944"
 
 2.  소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.
 
-3.  `<Link/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예:
+3.  `<Link/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예를 들어:
 
     ```xml
     <Links>
@@ -533,7 +533,7 @@ ms.locfileid: "55937944"
 
 2.  부모 범주에 대한 `<Category/>` 요소를 추가한 다음 자식 범주의 `BasedOn` 요소에 `<Category/>` 특성을 추가합니다.
 
-     예:
+     예를 들어:
 
     ```xml
     <Nodes>
@@ -582,7 +582,7 @@ ms.locfileid: "55937944"
      > [!NOTE]
      >  `Reference` 특성은 요소마다 하나씩만 있을 수 있습니다.
 
-     예:
+     예를 들어:
 
    ```xml
    <Nodes>

@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 140c72e124143860fee80054ab3fe7e6e921b918
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: c4ff83c2d4d28b6393f7f6d03b01e35d9cc0aa4f
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194673"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324643"
 ---
 # <a name="how-to-use-wizards-with-project-templates"></a>방법: 프로젝트 템플릿에 마법사 사용
 
@@ -242,7 +242,7 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
 
      다시 따옴표를 잊지 마십시오. 다음과 같은 출력에 줄을 표시 됩니다.
 
-     **공개 키 토큰은 <token>**
+     **공개 키 토큰은 \<토큰 >**
 
      이 값을 기록해 둡니다.
 

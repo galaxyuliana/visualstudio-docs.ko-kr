@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bec1627af7bbef1c3fcd264f2d74aca86d1cfad4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d4cac8341adb61a6644e7e331f00584c5c341471
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639338"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325242"
 ---
 # <a name="overview-of-the-programming-model-of-sharepoint-tools-extensions"></a>SharePoint의 프로그래밍 모델 개요 도구 확장
   Visual Studio에서 SharePoint 도구의 확장을 만드는 경우 SharePoint 도구에서 노출하는 확장성 인터페이스를 하나 이상 구현하여 시작합니다. 대부분의 경우 SharePoint 도구에서 제공하는 다른 형식을 사용하여 확장에서 기능도 구현합니다. 일부 시나리오에서는 Visual Studio 및 SharePoint에서 제공하는 다른 개체 모델의 형식을 사용할 수도 있습니다. 각 개체 모델의 용도 이해 하 고 SharePoint 도구의 확장을 만들려면 서로 사용 하는 방법을 알고 있어야 합니다.
@@ -40,7 +40,7 @@ ms.locfileid: "56639338"
 |<xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule>|사용자 지정 기능 유효성 검사 규칙을 정의하려면 이 인터페이스를 구현합니다. 예는 [방법: SharePoint 솔루션에 대 한 유효성 검사 규칙 사용자 지정 기능 및 패키지를 만들](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md)합니다.|
 |<xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule>|사용자 지정 패키지 유효성 검사 규칙을 정의하려면 이 인터페이스를 구현합니다. 예는 [방법: SharePoint 솔루션에 대 한 유효성 검사 규칙 사용자 지정 기능 및 패키지를 만들](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md)합니다.|
 
- SharePoint 도구의 확장을 구현한 후에는 VSIX(Visual Studio Extension) 패키지의 확장명 어셈블리를 배포하여 Visual Studio에서 확장을 검색하고 로드할 수 있도록 합니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구의 확장을 배포할](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)합니다.
+ SharePoint 도구의 확장을 구현한 후에는 VSIX(Visual Studio Extension) 패키지의 확장 어셈블리를 배포하여 Visual Studio에서 확장을 검색하고 로드할 수 있도록 합니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구의 확장을 배포할](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)합니다.
 
 ## <a name="understand-the-object-models-that-you-use-in-sharepoint-tools-extensions"></a>SharePoint 도구 확장에서 사용 하는 개체 모델 이해
  SharePoint 도구의 확장을 만들 때 사용할 수 있는 몇 가지 개체 모델은 다음과 같습니다.
@@ -83,7 +83,7 @@ ms.locfileid: "56639338"
 ### <a name="visual-studio-automation-object-model"></a>Visual Studio 자동화 개체 모델
  Visual Studio 자동화 개체 모델은 Visual Studio 프로젝트와 IDE를 자동화하는 데 사용할 수 있는 API를 제공합니다. Visual Studio 개체 모델을 사용하면 SharePoint 프로젝트에 한정되지 않는 프로젝트 관련 작업을 수행하거나 Visual Studio에서 기타 일반적인 자동화 작업을 수행할 수 있습니다. 이 개체 모델은 일반적으로 Visual Studio 추가 기능 및 매크로에 많이 사용하지만 Sharepoint 도구 확장에 사용할 수도 있습니다.
 
- Visual Studio 자동화 개체 모델의 주요 부분에 정의 된 *EnvDTE.dll* 어셈블리입니다. 합니다 *EnvDTE\\<version>.dll* 어셈블리는 특정 버전의 Visual Studio에 도입 된 추가 기능을 제공 합니다. Visual Studio에 포함되어 있습니다.
+ Visual Studio 자동화 개체 모델의 주요 부분에 정의 된 *EnvDTE.dll* 어셈블리입니다. 합니다 *EnvDTE\\\<버전 >.dll* 어셈블리는 특정 버전의 Visual Studio에 도입 된 추가 기능을 제공 합니다. Visual Studio에 포함되어 있습니다.
 
  자동화 개체 모델에 대 한 자세한 내용은 참조 하세요. [Visual Studio SDK 참조](../extensibility/visual-studio-sdk-reference.md)합니다.
 

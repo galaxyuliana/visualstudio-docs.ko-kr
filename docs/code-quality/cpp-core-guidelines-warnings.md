@@ -8,12 +8,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 39bdcc15bece0fff3547738bbdcaf898496379ad
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: f57fc0ff69e732e105ce6e9f3202f356633ff176
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57872436"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323453"
 ---
 # <a name="using-the-c-core-guidelines-checkers"></a>C++ Core Guidelines를 이용한 코드검사 사용
 
@@ -84,7 +84,7 @@ C++ Core Guidelines 향상하고 안전한 코드를 작성할 수 있도록 하
 
 새 규칙은 C++ 핵심 지침 검사기에 추가 되 면 기존 코드에 대 한 생성 되는 경고 수가 늘어날 수 있습니다. 사용 하도록 설정 하는 규칙의 종류를 필터링 하려면 미리 정의 된 규칙 집합을 사용할 수 있습니다. Visual Studio 2017 버전 15.3부터 지원 되는 규칙 집합은 됩니다.
 
-  - **소유자 포인터 규칙** 적용 [소유자와 관련 된 리소스 관리 검사<T> C++ Core Guidelines에서](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
+  - **소유자 포인터 규칙** 적용 [소유자와 관련 된 리소스 관리 검사\<T > c + + Core Guidelines에서](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
 
   - **Const 규칙** 적용 [C++ Core Guidelines의 const 관련 검사](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability)합니다.
 
@@ -162,7 +162,7 @@ Microsoft Visual C++ 컴파일러는 특성을 표시 하지 않으려면는 GSL
 경우에 따라 수행 중심 코드 분석을 계속 활용 하 여 Visual Studio IDE 유용할 수 있습니다. 다음은 빌드 시간을 저장 하 고 필터 결과를 쉽게 대규모 프로젝트에 사용할 수 있는 샘플 시나리오입니다.
 
 1. 명령 셸에서 다음을 설정 합니다 `esp.extension` 및 `esp.annotationbuildlevel` 환경 변수입니다.
-2. 이러한 변수를 상속 하도록 명령 셸에서 Visual Studio를 시작 합니다.
+2. 이러한 변수를 상속 하도록 명령 셸에서 Visual Studio를 엽니다.
 3. 프로젝트를 로드 하 고 해당 속성을 엽니다.
 4. 코드 분석을 사용 하도록 설정 하 고, 적절 한 규칙 집합을 선택 하지만 코드 분석 확장을 사용 하지 마세요.
 5. C++ 핵심 지침 검사기를 사용 하 여 분석 하 고 해당 속성을 열고 파일이 있는 위치로 이동 합니다.

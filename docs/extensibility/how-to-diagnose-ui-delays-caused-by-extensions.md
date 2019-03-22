@@ -6,12 +6,12 @@ author: PooyaZv
 ms.author: pozandev
 manager: jillfra
 ms.workload: multiple
-ms.openlocfilehash: ac3d44734c868bdf57f76aec0572e6b7d3ea9f03
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 00266fd8fbc881707652247e08b093ca4b15a88d
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56719485"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324346"
 ---
 # <a name="how-to-diagnose-ui-delays-caused-by-extensions"></a>방법: 확장으로 인해 발생한 진단 UI 지연
 
@@ -43,7 +43,7 @@ UI가 응답 하지 않음, 리프로 시작 하 고 기본 노력 하 고 Visua
 
 ## <a name="restart-vs-with-activity-logging-on"></a>로그온 활동을 사용 하 여 VS를 다시 시작
 
-Visual Studio "활동 로그"를 생성할 수 있습니다 문제를 디버깅 하는 경우 유용한 정보를 제공 합니다. Visual Studio에 로그인 하는 작업을 설정 하려면 사용 하 여 Visual Studio를 시작 합니다 `/log` 명령줄 옵션입니다. Visual Studio가 시작 된 후 활동 로그는 다음 위치에 저장 됩니다.
+Visual Studio "활동 로그"를 생성할 수 있습니다 문제를 디버깅 하는 경우 유용한 정보를 제공 합니다. Visual Studio에 로그인 하는 작업을 설정 하려면 사용 하 여 Visual Studio를 열고는 `/log` 명령줄 옵션입니다. Visual Studio가 시작 된 후 활동 로그는 다음 위치에 저장 됩니다.
 
 ```DOS
 %APPDATA%\Microsoft\VisualStudio\<vs_instance_id>\ActivityLog.xml

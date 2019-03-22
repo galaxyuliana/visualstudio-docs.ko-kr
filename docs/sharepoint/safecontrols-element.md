@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 151d45159c6c5dda42e138899a027adcc60774c2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ce943416bba84c46ce7b709c3d2bdb6ddb3e4447
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619539"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58322495"
 ---
 # <a name="safecontrols-element"></a>SafeControls 요소
   ASPX 컨트롤 및 SharePoint 사이트의 모든 ASPX 페이지에 액세스 하려면 모든 사용자에 대 한 보안 지정 된 웹 파트의 컬렉션입니다.
@@ -55,7 +55,7 @@ ms.locfileid: "56619539"
 
 |||
 |-|-|
-|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|
+|**Namespace**|http:\/\/schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|
 |**스키마 이름**|SharePoint 프로젝트 항목 스키마|
 |**유효성 검사 파일**|ProjectItemModelSchema.xsd|
 |**비어 있을 수 있습니다.**|아니요|

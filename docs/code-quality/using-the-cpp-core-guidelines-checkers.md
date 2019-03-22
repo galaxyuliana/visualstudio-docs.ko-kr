@@ -7,16 +7,16 @@ ms.author: mblome
 manager: wpickett
 dev_langs:
 - CPP
-ms.openlocfilehash: 15877cbaed093eab2cf436ed5122c80b9e135800
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 7d888204de33ba870111be08ae91bb09d09416d4
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223353"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323701"
 ---
-# <a name="using-the-c-core-guidelines-checkers"></a>C++ Core Guidelines를 이용한 코드검사 사용
+# <a name="use-the-c-core-guidelines-checkers"></a>C++ Core Guidelines 검사기 사용
 
-C++ Core Guidelines는 이식 가능한 집합 지침, 규칙 및 C++ 전문가가 및 디자이너에서 생성하는 C++에서 코딩 하는 방법에 대 한 모범 사례입니다. Visual Studio는 현재 C++용 코드 분석 도구의 일부로 이러한 규칙의 하위 집합을 지원합니다. 핵심 지침 검사기는 Visual Studio 2017 및 Visual Studio 2019에 기본적으로 설치 되며 [Visual Studio 2015 용 NuGet 패키지로 제공](#vs2015_corecheck)합니다.
+C++ Core Guidelines는 이식 가능한 집합 지침, 규칙 및 C++ 전문가가 및 디자이너에서 생성 하는 C++에서 코딩 하는 방법에 대 한 모범 사례입니다. Visual Studio는 현재 C++용 코드 분석 도구의 일부로 이러한 규칙의 하위 집합을 지원합니다. 핵심 지침 검사기는 Visual Studio 2017 및 Visual Studio 2019에 기본적으로 설치 되며 [Visual Studio 2015 용 NuGet 패키지로 제공](#vs2015_corecheck)합니다.
 
 ## <a name="the-c-core-guidelines-project"></a>C++ Core Guidelines 프로젝트
 
@@ -80,7 +80,7 @@ C++ Core Guidelines 향상하고 안전한 코드를 작성할 수 있도록 하
 대부분의 규칙에 대 한 참조 항목은 [Visual Studio C++ Core 확인 참조](code-analysis-for-cpp-corecheck.md)합니다.
 
 Visual Studio 2017 버전 15.3부터 지원 되는 규칙 집합은 됩니다.
-- **소유자 포인터 규칙** 적용 [소유자와 관련 된 리소스 관리 검사<T> C++ Core Guidelines에서](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
+- **소유자 포인터 규칙** 적용 [소유자와 관련 된 리소스 관리 검사\<T > c + + Core Guidelines에서](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
 
 - **Const 규칙** 적용 [C++ Core Guidelines의 const 관련 검사](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability)합니다.
 
@@ -153,7 +153,7 @@ Microsoft Visual C++ 컴파일러는 특성을 표시 하지 않으려면는 GSL
 }
 ```
 
-## <a name="suppressing-analysis-by-using-command-line-options"></a>명령줄 옵션을 사용 하 여 분석을 표시 하지 않기
+## <a name="suppress-analysis-by-using-command-line-options"></a>명령줄 옵션을 사용 하 여 분석을 표시 하지 않으려면
 
 대신 #pragmas, 프로젝트 또는 단일 파일에 대 한 경고를 표시 하지 않으려면 파일의 속성 페이지에서 명령줄 옵션을 사용할 수 있습니다. 예를 들어 경고를 사용 하지 않도록 설정 하는 파일에 대 한 26400:
 
@@ -170,7 +170,7 @@ Microsoft Visual C++ 컴파일러는 특성을 표시 하지 않으려면는 GSL
 경우에 따라 수행 중심 코드 분석을 계속 사용 하 여 Visual Studio IDE 유용할 수 있습니다. 빌드 시간을 저장 하 고 필터 결과를 쉽게 대규모 프로젝트에 대 한 다음 예제 시나리오를 사용할 수 있습니다.
 
 1. 명령 셸에서 다음을 설정 합니다 `esp.extension` 및 `esp.annotationbuildlevel` 환경 변수입니다.
-2. 이러한 변수를 상속 하도록 명령 셸에서 Visual Studio를 시작 합니다.
+2. 이러한 변수를 상속 하도록 명령 셸에서 Visual Studio를 엽니다.
 3. 프로젝트를 로드 하 고 해당 속성을 엽니다.
 4. 코드 분석을 사용 하도록 설정 하 고, 적절 한 규칙 집합을 선택 하지만 코드 분석 확장을 사용 하지 마세요.
 5. C++ 핵심 지침 검사기를 사용 하 여 분석 하 고 해당 속성을 열고 파일이 있는 위치로 이동 합니다.

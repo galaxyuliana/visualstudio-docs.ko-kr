@@ -7,12 +7,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d9ae6220ac38de7bf2edc7b5c305ecb377a46f18
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: c98c13528facb08f475614a6cbca9cee3c426ef9
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324002"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323109"
 ---
 # <a name="troubleshooting-template-installation"></a>문제 해결 템플릿 설치
 
@@ -41,7 +41,7 @@ ms.locfileid: "57324002"
 
 ::: moniker range="vs-2017"
 
-4. Visual Studio를 시작 하 고 새 프로젝트를 새 항목 대화 상자 템플릿 양쪽 트리에 모두 초기화를 시작 합니다.
+4. Visual Studio를 열고 새 프로젝트를 새 항목 대화 상자 템플릿 양쪽 트리에 모두 초기화를 시작 합니다.
 
    서식 파일 로그에 나타납니다 **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid는 Visual Studio 인스턴스의 설치 ID에 해당). 이 로그에 항목을 추가 하는 각 템플릿 트리 초기화 합니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "57324002"
 
 ::: moniker range=">=vs-2019"
 
-4. Visual Studio를 시작 하 고 새 프로젝트를 새 항목 대화 상자 템플릿 양쪽 트리에 모두 초기화를 시작 합니다.
+4. Visual Studio를 열고 새 프로젝트를 새 항목 대화 상자 템플릿 양쪽 트리에 모두 초기화를 시작 합니다.
 
    서식 파일 로그에 나타납니다 **%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid는 Visual Studio 인스턴스의 설치 ID에 해당). 이 로그에 항목을 추가 하는 각 템플릿 트리 초기화 합니다.
 
