@@ -8,12 +8,12 @@ ms.assetid: 2000b214-ae92-4334-b549-aa0eb4f45fe1
 caps.latest.revision: 19
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a6002c3636030b67e9dca5e76c7ef57fbd93b6e5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b13b8af221e317461f68a793e9b84420cd5dab48
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54805078"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57867902"
 ---
 # <a name="using-html5-controls-in-coded-ui-tests"></a>코딩된 UI 테스트에서 HTML5 컨트롤 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,18 +33,18 @@ ms.locfileid: "54805078"
 ## <a name="supported-html5-controls"></a>지원되는 HTML5 컨트롤  
  코딩된 UI 테스트에는 다음 HTML5 컨트롤의 기록, 재생 및 유효성 검사에 대한 지원이 포함됩니다.  
   
--   [오디오 컨트롤](#UsingHTML5ControlsCodedUITestsAudio)  
+-   [오디오 컨트롤](#audio-control)  
   
--   [비디오 컨트롤](#UsingHTML5ControlsCodedUITestsVideo)  
+-   [비디오 컨트롤](#video-control)  
   
--   [슬라이더](#UsingHTML5ControlsCodedUITestsSlider)  
+-   [슬라이더](#slider)  
   
--   [ProgressBar](#UsingHTML5ControlsCodedUITestsProgressBar)  
+-   [ProgressBar](#progressbar)  
   
-###  <a name="UsingHTML5ControlsCodedUITestsAudio"></a> 오디오 컨트롤  
+### <a name="audio-control"></a>오디오 컨트롤  
  **오디오 컨트롤:** HTML5 오디오 컨트롤에 대한 작업은 올바르게 기록되고 재생됩니다.  
   
- ![HTML5 오디오 컨트롤](../test/media/codedui-html5-audio.png "CodedUI_HTML5_Audio")  
+ ![HTML5 오디오 컨트롤](../test/media/codedui-html5-audio.png)  
   
 |작업|기록 중|생성된 코드|  
 |------------|---------------|--------------------|  
@@ -74,7 +74,6 @@ string ReadyState
 string Seeking  
 string Src  
 string Volume  
-  
 ```  
   
  **검색 속성:** `HtmlAudio`에 대한 검색 속성은 `Id`, `Name` 및 `Title`입니다.  
@@ -84,10 +83,10 @@ string Volume
 > [!NOTE]
 >  검색 및 일시 중지에 대한 시간은 중요할 수 있습니다. 재생하는 동안 코딩된 UI 테스트는 `(TimeSpan)`에 지정된 시간까지 기다린 후 오디오를 일시 중지합니다. 특수한 경우 일시 중지 명령을 누르기 전에 지정된 시간이 경과하면 예외가 throw됩니다.  
   
-###  <a name="UsingHTML5ControlsCodedUITestsVideo"></a> 비디오 컨트롤  
+### <a name="video-control"></a>비디오 컨트롤  
  **비디오 컨트롤:** HTML5 비디오 컨트롤에 대한 작업은 올바르게 기록되고 재생됩니다.  
   
- ![HTML5 비디오 컨트롤](../test/media/codedui-html5-video.png "CodedUI_HTML5_Video")  
+ ![HTML5 비디오 컨트롤](../test/media/codedui-html5-video.png)  
   
 |작업|기록 중|생성된 코드|  
 |------------|---------------|--------------------|  
@@ -114,10 +113,10 @@ string VideoWidth
 > [!NOTE]
 >  -30s 또는 +30s 레이블을 사용하여 비디오를 되감거나 빨리 감으면 적절한 시간까지 검색하도록 집계됩니다.  
   
-###  <a name="UsingHTML5ControlsCodedUITestsSlider"></a> 슬라이더  
+### <a name="slider"></a>슬라이더  
  **슬라이더 컨트롤:** HTML5 슬라이더 컨트롤에 대한 작업은 올바르게 기록되고 재생됩니다.  
   
- ![HTML5 슬라이더 컨트롤](../test/media/codedui-html5-slider.png "CodedUI_HTML5_Slider")  
+ ![HTML5 슬라이더 컨트롤](../test/media/codedui-html5-slider.png)  
   
 |작업|기록 중|생성된 코드|  
 |------------|---------------|--------------------|  
@@ -134,14 +133,15 @@ string Step
 string ValueAsNumber  
 ```  
   
-###  <a name="UsingHTML5ControlsCodedUITestsProgressbar"></a> ProgressBar  
- **ProgreesBar 컨트롤:** ProgressBar는 상호 작용할 수 없는 컨트롤입니다. 이 컨트롤의 `Value` 및 `Max` 속성에 어설션을 추가할 수 있습니다.  
+### <a name="progressbar"></a>ProgressBar  
+ **ProgressBar 컨트롤:** ProgressBar는 상호 작용할 수 없는 컨트롤입니다. 이 컨트롤의 `Value` 및 `Max` 속성에 어설션을 추가할 수 있습니다.  
   
- ![HTML5 ProgressBar 컨트롤](../test/media/codedui-html5-progressbar.png "CodedUI_HTML5_ProgressBar")  
+ ![HTML5 ProgressBar 컨트롤](../test/media/codedui-html5-progressbar.png)  
   
-## <a name="see-also"></a>참고 항목  
- [HTML 요소](http://go.microsoft.com/fwlink/?LinkID=232441)   
- [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
- [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
- [코딩된 UI 테스트 사용자 지정](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeCUITModify)   
- [코딩된 UI 테스트 및 작업 기록에 지원되는 구성 및 플랫폼](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+## <a name="see-also"></a>참고 항목
+
+- [HTML 요소](https://www.w3schools.com/HTML/html_elements.asp)   
+- [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
+- [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
+- [코딩된 UI 테스트 사용자 지정](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeCUITModify)   
+- [코딩된 UI 테스트 및 작업 기록에 지원되는 구성 및 플랫폼](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
