@@ -12,6 +12,8 @@ manager: jillfra
 
 Visual Studio 디버거를 사용하여 프로그램의 런타임 동작을 관찰하고 문제를 찾아낼 수 있습니다. 디버거는 모든 Visual Studio 프로그래밍 언어 및 관련 라이브러리와 함께 작동합니다. 디버거를 사용하면 프로그램 실행을 중단하여 코드 검사, 변수 검사 및 편집, 레지스터 보기, 소스 코드로부터 만들어진 명령 보기, 애플리케이션에 사용된 메모리 공간 확인 등을 수행할 수 있습니다.
 
+<!-- markdownlint-disable MD033 -->
+
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="https://docs.microsoft.com/visualstudio/debugger/what-is-debugging">

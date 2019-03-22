@@ -8,16 +8,12 @@ ms.technology: vs-ide-nodejs
 ms.author: mikejo
 author: mikejo5000
 manager: jillfra
-ms.openlocfilehash: c6987cfe4934933bc85680d7ae4d3b3cda8fa060
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55920864"
 ---
 # <a name="javascript-in-visual-studio"></a>Visual Studio의 JavaScript
 
 Visual Studio에서는 JavaScript 또는 TypeScript를 사용하여 앱을 만들 수 있도록 다양한 도구를 제공합니다.
+
+<!-- markdownlint-disable MD033 -->
 
 <h2>5분 빠른 시작을 사용하여 Visual Studio에서 JavaScript를 사용하는 방법을 알아봅니다</h2>
 
@@ -225,5 +221,4 @@ Visual Studio에서는 JavaScript 또는 TypeScript를 사용하여 앱을 만�
         </a>
     </li>
 </ul><p>
-
 ---

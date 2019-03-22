@@ -12,6 +12,8 @@ manager: jillfra
 
 Visual Studio는 앱을 배포할 수 있는 다양한 도구를 제공합니다.
 
+<!-- markdownlint-disable MD033 -->
+
 <h2>5분 빠른 시작을 사용하여 Visual Studio 배포 사용</h2>
 
 <ul class="panelContent cardsFTitle">
