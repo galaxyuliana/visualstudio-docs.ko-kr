@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0a6b8a01151e192c4c92f8e8264d45b70d1fba85
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 00796a43326d26fa7f25d6cb925851f411f916e3
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323426"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355791"
 ---
 # <a name="design-time-code-generation-by-using-t4-text-templates"></a>T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성
 디자인 타임 T4 텍스트 템플릿을 Visual Studio 프로젝트에서 프로그램 코드 및 기타 파일을 생성할 수 있습니다. 데이터에 따라 생성 되는 코드를 달라 지도록 템플릿을 작성 일반적으로 *모델*합니다. 모델은 파일 또는 응용 프로그램의 요구 사항에 대 한 키 정보가 포함 된 데이터베이스.
@@ -32,7 +32,7 @@ ms.locfileid: "57323426"
 
  코드를 생성하는 방법에 대해서는 이미 잘 알고 계실 것입니다. 리소스를 정의 하는 경우는 **.resx** 파일 Visual Studio 솔루션에서 클래스 및 메서드 집합을 자동으로 생성 됩니다. 리소스 파일로 리소스를 편집하는 것이 클래스와 메서드를 편집하는 것보다 훨씬 쉽고 안정적입니다. 텍스트 템플릿을 사용하면 직접 디자인한 소스에서 같은 방식으로 코드를 생성할 수 있습니다.
 
- 텍스트 템플릿에는 생성하려는 텍스트와 텍스트의 변수 부분을 생성하는 프로그램 코드가 혼합되어 있습니다. 프로그램 코드를 사용하면 생성된 텍스트의 일부분을 반복하거나 조건부로 생략할 수 있습니다. 생성된 텍스트 자체는 응용 프로그램 부분을 만드는 프로그램 코드일 수 있습니다.
+ 텍스트 템플릿에는 생성하려는 텍스트와 텍스트의 변수 부분을 생성하는 프로그램 코드가 혼합되어 있습니다. 프로그램 코드를 사용 하면 반복 하거나 조건부로 생성 된 텍스트의 부분을 생략할 수 있습니다. 생성된 텍스트 자체는 응용 프로그램 부분을 만드는 프로그램 코드일 수 있습니다.
 
 ## <a name="creating-a-design-time-t4-text-template"></a>디자인 타임 T4 텍스트 템플릿 만들기
 
@@ -57,7 +57,7 @@ ms.locfileid: "57323426"
 
     [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 프로젝트에 템플릿을 추가한 경우 언어 특성은 "`VB`"입니다.
 
-4. 파일 끝에 원하는 텍스트를 추가합니다. 예를 들면 다음과 같습니다.
+4. 파일 끝에 원하는 텍스트를 추가합니다. 예를 들어:
 
    ```
    Hello, world!
@@ -125,7 +125,7 @@ ms.locfileid: "57323426"
 ## <a name="debugging-a-design-time-t4-text-template"></a>디자인 타임 T4 텍스트 템플릿 디버그
  텍스트 템플릿을 디버그하려면
 
-- 먼저 `debug="true"`를 `template` 지시문에 삽입합니다. 예를 들면 다음과 같습니다.
+- 먼저 `debug="true"`를 `template` 지시문에 삽입합니다. 예를 들어:
 
    `<#@ template debug="true" hostspecific="false" language="C#" #>`
 
@@ -141,7 +141,7 @@ ms.locfileid: "57323426"
 >  디버그를 수행하지 않을 때도 템플릿 지시문에 절을 그대로 유지해도 됩니다. 이렇게 해도 성능은 아주 약간 낮아질 뿐입니다.
 
 ## <a name="generating-code-or-resources-for-your-solution"></a>솔루션의 코드 또는 리소스 생성
- 모델에 따라 달라지는 프로그램 파일을 생성할 수 있습니다. 모델은 데이터베이스, 구성 파일, UML 모델, DSL 모델, 기타 소스 등의 입력입니다. 일반적으로는 같은 모델에서 여러 프로그램 파일을 생성합니다. 이렇게 하려면 생성된 각 프로그램 파일에 대해 템플릿 파일을 만들고 모든 템플릿이 같은 모델을 읽도록 합니다.
+ 모델에 따라 달라지는 프로그램 파일을 생성할 수 있습니다. 모델은 데이터베이스, 구성 파일, UML 모델, DSL 모델, 기타 소스 등의 입력입니다. 일반적으로 동일한 모델에서 여러 프로그램 파일을 생성합니다. 이렇게 하려면 생성된 각 프로그램 파일에 대해 템플릿 파일을 만들고 모든 템플릿이 같은 모델을 읽도록 합니다.
 
 #### <a name="to-generate-program-code-or-resources"></a>프로그램 코드 또는 리소스를 생성하려면
 
@@ -268,7 +268,7 @@ ms.locfileid: "57323426"
  여기서 `this.Host`는 VB에서는 `Me.Host`이며, 해당 형식은 `Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost`와 같습니다.
 
 ### <a name="getting-data-from-visual-studio"></a>Visual Studio에서 데이터 가져오기
- Visual Studio에서 제공 하는 서비스를 사용 하려면 설정 합니다 `hostSpecific` 특성과 부하는 `EnvDTE` 어셈블리입니다. 가져오기 `Microsoft.VisualStudio.TextTemplating`를 포함 하는 `GetCOMService()` 확장 메서드.  그런 다음 IServiceProvider.GetCOMService()를 사용하여 DTE 및 기타 서비스에 액세스할 수 있습니다. 예를 들면 다음과 같습니다.
+ Visual Studio에서 제공 하는 서비스를 사용 하려면 설정 합니다 `hostSpecific` 특성과 부하는 `EnvDTE` 어셈블리입니다. 가져오기 `Microsoft.VisualStudio.TextTemplating`를 포함 하는 `GetCOMService()` 확장 메서드.  그런 다음 IServiceProvider.GetCOMService()를 사용하여 DTE 및 기타 서비스에 액세스할 수 있습니다. 예를 들어:
 
 ```src
 <#@ template hostspecific="true" language="C#" #>

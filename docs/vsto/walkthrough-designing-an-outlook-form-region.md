@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e4b7ba2b707ea6a9d79e15891e85b66a82d3a832
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 68ad2e66a4cecff01005f49aa6304a515a010170
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56633865"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355580"
 ---
 # <a name="walkthrough-design-an-outlook-form-region"></a>연습: Outlook 양식 영역 디자인
   사용자 지정 양식 영역은 표준 또는 사용자 지정 Microsoft Office Outlook 양식을 확장합니다. 이 연습에서는 연락처 항목의 검사기 창에 새 페이지로 표시되는 사용자 지정 양식 영역을 디자인합니다. 이 양식 영역은 Windows Live 로컬 검색 웹 사이트에 주소 정보를 전송하여 연락처에 대해 나열된 각 주소의 지도를 표시합니다. 양식 영역에 대 한 자세한 내용은 [만들 Outlook 양식 영역](../vsto/creating-outlook-form-regions.md)합니다.
@@ -44,7 +44,7 @@ ms.locfileid: "56633865"
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] 또는 [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)]
+- [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)] 이상 버전
 
   ![비디오 링크](../vsto/media/playvideo.gif "비디오 링크") 이 항목의 비디오 버전을 참조 하세요. [비디오 방법: Outlook 양식 영역 디자인](http://go.microsoft.com/fwlink/?LinkID=140824)합니다.
 
@@ -160,6 +160,8 @@ ms.locfileid: "56633865"
 4.  연락처 항목을 저장하고 닫습니다.
 
 5.  다시 합니다 **Ann Beebe** 연락처 항목입니다.
+
+    Outlook에서 수행할 수 있습니다 합니다 **찾을** 주소록 연락처에 대 한 열 또는 Ann Beebe에를 입력 하 여 그룹 **사람 검색**합니다.
 
 6.  에 **표시** 항목의 리본 메뉴의 그룹 클릭 **Map It** Map It 양식 영역을 엽니다.
 
