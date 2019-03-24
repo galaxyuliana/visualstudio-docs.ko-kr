@@ -112,7 +112,7 @@
 ### [오류: 프로세스의 ID를 검사할 수 있는 권한이 없습니다.](error-you-do-not-have-permission-to-inspect-the-process-s-identity.md)
 ### [오류: 대상 컴퓨터의 Visual Studio 원격 디버거 서비스가 이 컴퓨터에 다시 연결할 수 없습니다.](error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md)
 ### [오류: IIS에서 웹 사이트 작업자 프로세스를 종료했습니다.](error-web-site-worker-process-has-been-terminated-by-iis.md)
-### [오류: 컴퓨터 <name>에 연결할 수 없습니다. 네트워크에서 컴퓨터를 찾을 수 없습니다.](error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md)
+### [오류: 머신 \<name>에 연결할 수 없습니다. 네트워크에서 컴퓨터를 찾을 수 없습니다.](error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md)
 ### [오류: 혼합 모드 디버깅은 Microsoft .NET Framework 2.0 이상을 사용할 때만 지원됩니다.](error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md)
 ### [오류: IA64 프로세스에 대해서는 혼합 모드 디버깅이 지원되지 않습니다.](error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md)
 ### [오류: x64 프로세스용 혼합 모드 디버깅은 Microsoft .NET Framework 4 이상을 사용할 때만 지원됩니다.](error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md)
