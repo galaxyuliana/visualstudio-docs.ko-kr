@@ -1,8 +1,8 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Visual Studio 설명서 | Microsoft Docs
-description: 'Visual Studio 2017을 사용하여 플랫폼 및 장치에 대해 선택한 언어로 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.'
+title: Visual Studio 제품 | Microsoft Docs
+description: Visual Studio 제품군을 살펴보십시오.
 ms.topic: landing-page
 searchScope: []
 ---
