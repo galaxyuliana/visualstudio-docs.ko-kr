@@ -3,19 +3,19 @@ title: if 문 반전
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: a6dd0a3ebdb41243734850cea4f4b43604ebb94b
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 5a809eee1eb5460e245f64156385f759870adbd3
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324668"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58159103"
 ---
 # <a name="invert-if-statement"></a>if 문 반전
 
@@ -38,7 +38,7 @@ ms.locfileid: "57324668"
 
 2. 줄의 임의 위치에서 **Ctrl**+**.** 를 눌러 **빠른 작업 및 리팩터링** 메뉴를 트리거합니다.
 
-    ![if else codefix 반전](media/invert-if-codefix.png)
+    ![if else 반전 코드 수정](media/invert-if-codefix.png)
 
 3. **if 반전**을 선택합니다.
 

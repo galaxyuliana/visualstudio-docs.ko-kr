@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2ce001f4ec7b036581a99e4feb8693b7220470d6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 487597c160a294c935f3f7670410e82927a86210
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911899"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194647"
 ---
 # <a name="learn-about-projects-and-solutions"></a>프로젝트 및 솔루션에 대한 자세한 정보
 
@@ -35,9 +35,11 @@ ms.locfileid: "55911899"
 
 빈 솔루션을 만들어 탐색을 시작합니다. Visual Studio에 대해 알게 되면 너무 자주 빈 솔루션을 만들지 않게 됩니다. 새 프로젝트를 만들 때 Visual Studio에서는 솔루션이 아직 열려 있지 않은 경우 자동으로 솔루션을 만들어서 프로젝트를 보관합니다.
 
+::: moniker range="vs-2017"
+
 1. Visual Studio를 엽니다.
 
-1. **파일** 및 **편집**과 같은 메뉴의 행인 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
    **새 프로젝트** 대화 상자가 열립니다.
 
@@ -46,6 +48,22 @@ ms.locfileid: "55911899"
    ![Visual Studio의 빈 솔루션 템플릿](media/tutorial-projects-new-solution.png)
 
    **시작 페이지**가 닫히고 솔루션이 Visual Studio 창 오른쪽에 있는 **솔루션 탐색기**에 표시됩니다. 자주 **솔루션 탐색기**를 사용하여 프로젝트의 내용을 탐색할 수 있습니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio를 엽니다.
+
+2. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+3. **새 프로젝트 만들기** 페이지에서 검색 상자에 **빈 솔루션**을 입력하고 **빈 솔루션** 템플릿, **다음**을 차례로 선택합니다.
+
+4. 솔루션 이름을 **QuickSolution**으로 지정하고 **만들기**를 선택합니다.
+
+   솔루션이 Visual Studio 창 오른쪽에 있는 **솔루션 탐색기**에 표시됩니다. 자주 **솔루션 탐색기**를 사용하여 프로젝트의 내용을 탐색할 수 있습니다.
+
+::: moniker-end
 
 ### <a name="add-a-project"></a>프로젝트 추가
 
@@ -146,7 +164,7 @@ ms.locfileid: "55911899"
    End Class
    ```
 
-   일부 코드에서 빨간색 "물결선"이 표시됩니다. 테스트 프로젝트를 [friend 어셈블리](/dotnet/csharp/programming-guide/concepts/assemblies-gac/friend-assemblies)에서 **QuickDate** 프로젝트로 만들어서 이 오류를 수정합니다.
+   일부 코드에서 빨간색 "물결선"이 표시됩니다. 테스트 프로젝트를 [friend 어셈블리](/dotnet/standard/assembly/friend-assemblies)에서 **QuickDate** 프로젝트로 만들어서 이 오류를 수정합니다.
 
 1. **QuickDate** 프로젝트로 돌아와서 *Calendar.cs* 파일이 아직 열려 있지 않으면 열고, 다음 [using 문](/dotnet/csharp/language-reference/keywords/using-statement) 및 <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> 특성을 해당 파일의 위에 추가하여 테스트 프로젝트에서 오류를 해결합니다.
 

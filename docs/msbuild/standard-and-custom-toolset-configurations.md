@@ -11,17 +11,33 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d38d63de6c223d8a77bd2c1fa2e0a13b0e814ef8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: e3a77797cb519294c16329a432cf742746293c13
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620319"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983405"
 ---
 # <a name="standard-and-custom-toolset-configurations"></a>표준 및 사용자 지정 도구 집합 구성
 MSBuild 도구 집합은 애플리케이션 프로젝트를 빌드하는 데 사용할 수 있는 작업, 대상 및 도구에 대한 참조를 포함합니다. MSBuild는 표준 도구 집합을 포함하지만 사용자 지정 도구 집합을 만들 수도 있습니다. 도구 집합을 지정하는 방법에 대한 내용은 [도구 집합(ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)을 참조하세요.
 
 ## <a name="standard-toolset-configurations"></a>표준 도구 집합 구성
+
+::: moniker range=">=vs-2019"
+ MSBuild 16.0에는 다음 표준 도구 세트가 포함되어 있습니다.
+
+|ToolsVersion|도구 집합 경로(MSBuildBinPath 또는 MSBuildToolsPath 빌드 속성에 지정된 대로)|
+|------------------| - |
+|2.0|\<Windows 설치 경로>\Microsoft.Net\Framework\v2.0.50727\\|
+|3.5|\<Windows 설치 경로>\Microsoft.NET\Framework\v3.5\\|
+|4.0|\<Windows 설치 경로>\Microsoft.NET\Framework\v4.0.30319\\|
+|현재|\<Visual Studio 설치 경로>\MSBuild\Current\bin|
+
+ `ToolsVersion` 값은 Visual Studio에서 생성하는 프로젝트에서 사용되는 도구 집합을 결정합니다. Visual Studio 2019에서 기본값은(프로젝트 파일에 지정된 버전과 관계없이) “현재”이지만 명령 프롬프트에서 **/toolsversion** 스위치를 사용하여 해당 특성을 재정의할 수 있습니다. 이 특성 및 `ToolsVersion`을 지정하는 다른 방법에 대한 내용은 [ToolsVersion 설정 재정의](../msbuild/overriding-toolsversion-settings.md)를 참조하세요.
+
+ ::: moniker-end
+
+::: moniker range="vs-2017"
  MSBuild 15.0은 다음 표준 도구 집합을 포함합니다.
 
 |ToolsVersion|도구 집합 경로(MSBuildBinPath 또는 MSBuildToolsPath 빌드 속성에 지정된 대로)|
@@ -32,8 +48,9 @@ MSBuild 도구 집합은 애플리케이션 프로젝트를 빌드하는 데 사
 |15.0|\<Visual Studio 설치 경로>\MSBuild\15.0\bin|
 
  `ToolsVersion` 값은 Visual Studio에서 생성하는 프로젝트에서 사용되는 도구 집합을 결정합니다. Visual Studio 2017에서 기본값은 "15.0"(프로젝트 파일에 지정된 버전과 관계 없이)이지만 명령 프롬프트에서 **/toolsversion** 스위치를 사용하여 해당 특성을 재정의할 수 있습니다. 이 특성 및 `ToolsVersion`을 지정하는 다른 방법에 대한 내용은 [ToolsVersion 설정 재정의](../msbuild/overriding-toolsversion-settings.md)를 참조하세요.
+ ::: moniker-end
 
- Visual Studio 2017은 MSBuild에 대한 경로에 레지스트리 키를 사용하지 않습니다. 2017과 함께 설치된 15.0 이전 버전의 MSBuild의 경우 다음 레지스트리 키가 MSBuild.exe의 설치 경로를 지정합니다.
+Visual Studio 2017 및 이후 버전에서는 MSBuild에 대한 경로에 레지스트리 키를 사용하지 않습니다. 2017과 함께 설치된 15.0 이전 버전의 MSBuild의 경우 다음 레지스트리 키가 MSBuild.exe의 설치 경로를 지정합니다.
 
 |레지스트리 키|키 이름|문자열 키 값|
 |------------------|--------------|----------------------|
@@ -56,11 +73,11 @@ MSBuild 도구 집합은 애플리케이션 프로젝트를 빌드하는 데 사
 ## <a name="custom-toolset-definitions"></a>사용자 지정 도구 집합 정의
  표준 도구 집합이 빌드 요구 사항을 충족하지 않는 경우 사용자 지정 도구 집합을 만들 수 있습니다. 예를 들어 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 프로젝트 빌드를 위해 별도 시스템이 있어야 하는 곳에 빌드 랩 시나리오를 가질 수 있습니다. 사용자 지정 도구 집합을 사용하여 프로젝트를 만들거나 *MSBuild.exe*를 실행할 때 `ToolsVersion` 특성에 사용자 지정 값을 할당할 수 있습니다. 이 작업을 수행하여 해당 도구 집합을 사용하는 모든 프로젝트에 사용할 수 있는 사용자 고유의 사용자 지정 도구 집합 속성을 정의할 뿐만 아니라 `$(MSBuildToolsPath)` 속성을 사용하여 해당 디렉터리에서 *.targets* 파일을 가져올 수도 있습니다.
 
- *MSBuild.exe*(또는 사용 중인 MSBuild 엔진을 호스트하는 사용자 지정 도구)에 대한 구성 파일에 사용자 지정 도구 집합을 지정합니다. 예를 들어 *MSBuild.exe*에 대한 구성 파일은 ToolsVersion 15.0의 기본 동작을 재정의하려는 경우 다음 도구 집합 정의를 포함할 수 있습니다.
+ *MSBuild.exe*(또는 사용 중인 MSBuild 엔진을 호스트하는 사용자 지정 도구)에 대한 구성 파일에 사용자 지정 도구 집합을 지정합니다. 예를 들어 *MyCustomToolset*이라는 도구 세트를 정의하려는 경우 *MSBuild.exe*에 대한 구성 파일은 다음 도구 세트 정의를 포함할 수 있습니다.
 
 ```xml
-<msbuildToolsets default="15.0">
-   <toolset toolsVersion="15.0">
+<msbuildToolsets default="MyCustomToolset">
+   <toolset toolsVersion="MyCustomToolset">
       <property name="MSBuildToolsPath"
         value="C:\SpecialPath" />
    </toolset>

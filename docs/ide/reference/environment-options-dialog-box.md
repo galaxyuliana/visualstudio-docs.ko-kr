@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a77fae7d802b0edf5fceaae8409f2e0a91f6687b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 36b1d371846ad65fd34a7a5cbd4e8bdcdc0ebd9b
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56703255"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983717"
 ---
 # <a name="environment-options-dialog-box"></a>옵션 대화 상자, 환경
 
@@ -27,7 +27,7 @@ ms.locfileid: "56703255"
 |IDE의 창, 메뉴 및 기타 요소의 모양과 동작을 사용자 지정합니다.|[옵션 대화 상자, 환경, 일반](../../ide/reference/general-environment-options-dialog-box.md)|
 |파일의 자동 저장 및 복원에 대한 설정을 변경합니다.|[옵션 대화 상자, 환경, 자동 복구](../../ide/reference/autorecover-environment-options-dialog-box.md)|
 |기타 파일의 동작을 포함하여 문서 표시 및 관리 설정을 지정합니다.|[옵션 대화 상자, 환경, 문서](../../ide/reference/documents-environment-options-dialog-box.md)|
-|업데이트가 발생하는 방법 및 확장이 관리되는 방법을 사용자 지정합니다.|[옵션 대화 상자, 환경, 확장 및 업데이트](../../ide/reference/extensions-and-updates-environment-options-dialog-box.md)|
+|업데이트가 발생하는 방법 및 확장이 관리되는 방법을 사용자 지정합니다.|[옵션 대화 상자, 환경, 확장](../../ide/reference/extensions-and-updates-environment-options-dialog-box.md)|
 |메시지 상자 표시 시기, 빠른 찾기나 빠른 바꾸기를 수행하는 동안 **찾기 및 바꾸기** 창이 작동하는 방식, 찾을 내용 자동 채우기 등을 사용자 지정합니다.|[옵션 대화 상자, 환경, 찾기 및 바꾸기](../../ide/reference/find-and-replace-environment-options-dialog-box.md)|
 |특정 편집기, 대화 상자, 도구 창 및 기타 UI(사용자 인터페이스) 요소의 글꼴 및 색을 설정합니다.|[옵션 대화 상자, 환경, 글꼴 및 색](../../ide/reference/fonts-and-colors-environment-options-dialog-box.md)|
 |사용자 설정 정보를 저장하는 vssettings 파일의 위치를 사용자 지정합니다.|[옵션 대화 상자, 환경, 설정 가져오기 및 내보내기](../../ide/reference/import-and-export-settings-environment-options-dialog-box.md)|

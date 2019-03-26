@@ -4,19 +4,19 @@ author: evanwindom
 ms.author: jaunger
 manager: lank
 ms.date: 2/13/2019
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Visual Studio 구독에 포함된 기술 지원 혜택을 활성화하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 7b0968532a1feffb667bb0cd2f3e04f1deb02bb5
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: ab56754f6ef707eb619d7473cb391d415506a396
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323480"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57867105"
 ---
 # <a name="activate-and-use-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 기술 지원 혜택 활성화 및 사용
 
-Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://support.microsoft.com/lifecycle/search)의 기본 지원 단계에 여전히 있는 제품에 대해 **비-프로덕션 환경**의 중단 수정 문제 해결을 위한 것입니다. Visual Studio Enterprise 표준 및 연간 클라우드 구독은 네 개의 인시던트를 받고, Visual Studio Professional 표준 및 연간 클라우드 구독은 혜택 활성화 후 최대 1년 간 두 개의 인시던트를 받습니다. 혜택 활성화는 구독이 최신 상태인 동안 발생해야 합니다. 
+Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://support.microsoft.com/lifecycle/search)의 기본 지원 단계에 여전히 있는 제품에 대해 **비-프로덕션 환경**의 중단 수정 문제 해결을 위한 것입니다. Visual Studio Enterprise 표준 및 연간 클라우드 구독은 네 개의 인시던트를 받고, Visual Studio Professional 표준 및 연간 클라우드 구독은 혜택 활성화 후 최대 1년 간 두 개의 인시던트를 받습니다. 혜택 활성화는 구독이 최신 상태인 동안 발생해야 합니다.
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 https://visualstudio.microsoft.com/vs/pricing/으로 이동하여 Visual Studio 구독을 구입하기 위한 다양한 옵션을 살펴보세요.
@@ -27,14 +27,15 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 **혜택을 사용하여 지원 요청을 제출하려면 먼저 활성화해야 합니다.  다음 섹션의 단계에 따라 활성화를 완료합니다.**
 
 ## <a name="how-to-activate-the-benefit"></a>혜택을 활성화하는 방법
-1. https://my.visualstudio.com/Benefits로 이동하여 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다. 
+
+1. https://my.visualstudio.com/Benefits로 이동하여 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다.
     > [!div class="mx-imgBorder"]
     > ![기술 지원 혜택 타일](_img/vs-tech-support/vs-tech-support-tile.png)
-2. 이렇게 하면 **계약 ID** 및 **액세스 ID**를 만들고 이메일을 통해 제공하여 기록을 위해 사용할 수 있는 담당자와 채팅 세션이 시작됩니다. 
+2. 이렇게 하면 **계약 ID** 및 **액세스 ID**를 만들고 이메일을 통해 제공하여 기록을 위해 사용할 수 있는 담당자와 채팅 세션이 시작됩니다.
 
 3. 프로세스를 완료하려면 담당자에게 다음을 제공해야 합니다.
    - 사용자의 국가
-   - Company name 
+   - Company name
    - 사용자 전체 이름
    - 구독에 로그인하는 데 사용하는 전자 메일 주소
    - 사용자 전화 번호
@@ -43,19 +44,18 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
    > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 구독 ID 찾기](_img/vs-tech-support/vs-tech-support-subID-cropped.png)
 
-4. 프로세스가 완료된 후 지원 인시던트를 만들 때 사용하는 **계약 ID** 및 **액세스 ID**가 포함된 이메일을 받게 됩니다. 
+4. 프로세스가 완료된 후 지원 인시던트를 만들 때 사용하는 **계약 ID** 및 **액세스 ID**가 포함된 이메일을 받게 됩니다.
 
 > [!NOTE]
 > 지원 계정을 영어가 아닌 다른 언어로 활성화하려면 [이 목록](https://support.microsoft.com/help/14084/activate-support-contract)에서 국가를 선택합니다.
-
 
 ## <a name="how-to-submit-an-incident-using-your-benefit"></a>혜택을 사용하여 인시던트를 제출하는 방법
 
 **계약 ID**와 **액세스 ID**가 설정되었으면 이를 사용하여 기술 지원 인스턴트 [온라인](http://support.microsoft.com/oas/)(로그인 필요)이나 [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)을 통해 또는 국가의 기술 지원 번호로 전화를 걸어 제출할 수 있습니다. 온라인으로 인시던트를 제출하는 경우 Microsoft 지원 전문가를 다시 호출할 수 있는 옵션이 있습니다.
 
-### <a name="already-have-your-contract-id-and-access-id-associated-with-the-account-used-to-sign-in-to-submit-a-tech-support-incident-online"></a>기술 지원 인시던트를 제출하기 위해 로그인하는 데 사용된 계정과 연결된 계약 ID 및 액세스 ID를 이미 가지고 있나요?  
+### <a name="already-have-your-contract-id-and-access-id-associated-with-the-account-used-to-sign-in-to-submit-a-tech-support-incident-online"></a>기술 지원 인시던트를 제출하기 위해 로그인하는 데 사용된 계정과 연결된 계약 ID 및 액세스 ID를 이미 가지고 있나요?
 
-온라인으로 인시던트를 제출할 때 먼저 로그인하라는 메시지가 나타납니다. 알고 있는 계정으로 로그인하면 계약 ID와 액세스 ID가 연결됩니다. 계정에 연결된 기존 지원 플랜 혜택은 지원 워크플로의 3단계에 나타납니다. 해당 계획을 선택하고 사례를 제출하려면 계속하기만 하면 됩니다. 계획에 표시된 한도 또는 계획의 만료일 중 먼저 도래하는 날짜까지 인시던트를 제출할 수 있습니다. 나머지 인시던트가 "0"으로 표시되거나 계획이 만료되면 더 이상 활성화되지 않습니다.  
+온라인으로 인시던트를 제출할 때 먼저 로그인하라는 메시지가 나타납니다. 알고 있는 계정으로 로그인하면 계약 ID와 액세스 ID가 연결됩니다. 계정에 연결된 기존 지원 플랜 혜택은 지원 워크플로의 3단계에 나타납니다. 해당 계획을 선택하고 사례를 제출하려면 계속하기만 하면 됩니다. 계획에 표시된 한도 또는 계획의 만료일 중 먼저 도래하는 날짜까지 인시던트를 제출할 수 있습니다. 나머지 인시던트가 "0"으로 표시되거나 계획이 만료되면 더 이상 활성화되지 않습니다.
 
    > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 인시던트 제출 3단계](_img/vs-tech-support/vs-tech-support-step3.png)
@@ -87,17 +87,16 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
    > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 인시던트 제출 - 계약 ID 추가](_img/vs-tech-support/vs-tech-support-add-contract-id.png)
 
-5. 계약을 추가하면 맨 위에 있는 **지원 플랜 선택** 아래에 나타납니다. 계획에는 제목에 "MSDN"이라는 용어가 포함됩니다. 선택하고 아래로 스크롤하여 **다음**을 클릭합니다. 
+5. 계약을 추가하면 맨 위에 있는 **지원 플랜 선택** 아래에 나타납니다. 계획에는 제목에 "MSDN"이라는 용어가 포함됩니다. 선택하고 아래로 스크롤하여 **다음**을 클릭합니다.
 
    > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 인시던트 제출 - 계획 선택](_img/vs-tech-support/vs-tech-support-choose-plan.png)
 
-6. 나머지 단계(심각도, 연락처 정보, 검토)를 완료합니다.   인시던트를 제출하면 인시던트가 성공적으로 제출되었고 그 사례에 대한 파일을 업로드할 수 있다는 확인 메시지가 나타납니다. 지원 전문가가 해당 인시던트에 할당되고, 선택한 연락 방법을 사용하여 문제를 해결하기 위해 사용자에게 연락합니다. 
+6. 나머지 단계(심각도, 연락처 정보, 검토)를 완료합니다.   인시던트를 제출하면 인시던트가 성공적으로 제출되었고 그 사례에 대한 파일을 업로드할 수 있다는 확인 메시지가 나타납니다. 지원 전문가가 해당 인시던트에 할당되고, 선택한 연락 방법을 사용하여 문제를 해결하기 위해 사용자에게 연락합니다.
 
 #### <a name="submit-an-incident-by-phone"></a>전화로 인시던트 제출
 
 전화로 지원 인시던트를 생성하려면 해당 국가의 [고객 서비스](https://support.microsoft.com/help/13948/global-customer-service-phone-numbers) 전화 번호를 찾으세요. 전화할 때 사용 가능한 계약 ID 및 액세스 ID가 있는지 확인하세요.
-
 
 #### <a name="submit-an-incident-within-the-azure-portal"></a>Azure Portal 내에서 인시던트 제출
 
@@ -118,9 +117,8 @@ Azure와 관련된 문제에 대해 Visual Studio 구독 기술 지원 혜택을
 | Visual Studio Dev Essentials | 해당 없음 | 사용할 수 없음 |해당 없음|
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> *포함: Imagine Premium. 제외: NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services
+<sup>1</sup> *포함: Imagine Premium, BizSpark. 제외: NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, Imagine Standard, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services.*
 
 <sup>2</sup> *포함: Imagine Standard.*
 
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
-

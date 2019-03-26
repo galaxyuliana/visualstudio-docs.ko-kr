@@ -8,12 +8,12 @@ ms.assetid: a0b2d8ff-3e2a-487e-9172-90047174f336
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fbcf0ec7aa9e7d0b22458006da6f18aba4de8162
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ed23869b999f3ced51377dd8d648280fcce7ee7e
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936202"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069894"
 ---
 # <a name="how-to-create-a-custom-http-body-editor-for-the-web-performance-test-editor"></a>방법: 웹 성능 테스트 편집기에 대한 사용자 지정 HTTP 본문 편집기 만들기
 
@@ -31,9 +31,7 @@ SOAP, REST, asmx, wcf, RIA 및 기타 웹 서비스 요청 형식과 같은 웹 
 
 ## <a name="create-a-windows-control-library-project"></a>Windows 컨트롤 라이브러리 프로젝트 만들기
 
-### <a name="create-a-user-control-by-using-a-windows-control-library-project"></a>Windows 컨트롤 라이브러리 프로젝트를 사용하여 사용자 정의 컨트롤 만들기
-
-1. Visual Studio의 **파일** 메뉴에서 **새로 만들기**를 선택한 다음, **프로젝트**를 선택합니다.
+1. Visual Studio의 **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택합니다.
 
     **새 프로젝트** 대화 상자가 표시됩니다.
 
@@ -137,27 +135,27 @@ private MessageEditorControl messageEditorControl
 
  문자열 본문의 편집이 완료된 후 사용자가 플러그 인 대화 상자에서 **확인**을 클릭하면 편집된 텍스트를 문자열로 가져오고 웹 성능 테스트 편집기의 요청에 있는 **문자열 본문**을 업데이트하기 위해 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.GetNewValue*>가 호출됩니다.
 
-### <a name="to-create-a-class-and-implement-the-istringhttpbodyeditorplugin-interface-code"></a>클래스를 만들고 IStringHttpBodyEditorPlugin 인터페이스 코드를 구현하려면
+### <a name="create-a-class-and-implement-the-istringhttpbodyeditorplugin-interface"></a>클래스 만들기 및 IStringHttpBodyEditorPlugin 인터페이스 구현
 
-1.  **솔루션 탐색기**에서 Windows Forms 컨트롤 라이브러리 프로젝트를 마우스 오른쪽 단추로 클릭하고 **새 항목 추가**를 선택합니다.
+1. **솔루션 탐색기**에서 Windows Forms 컨트롤 라이브러리 프로젝트를 마우스 오른쪽 단추로 클릭하고 **새 항목 추가**를 선택합니다.
 
-2.  **새 항목 추가** 대화 상자가 표시됩니다.
+   **새 항목 추가** 대화 상자가 표시됩니다.
 
-3.  **클래스**를 선택합니다.
+2. **클래스**를 선택합니다.
 
-4.  **이름** 텍스트 상자에 클래스의 의미 있는 이름(예: `MessageEditorPlugins`)을 입력합니다.
+3. **이름** 텍스트 상자에 클래스의 의미 있는 이름(예: `MessageEditorPlugins`)을 입력합니다.
 
-5.  **추가**를 선택합니다.
+4. **추가**를 선택합니다.
 
-     Class1이 프로젝트에 추가되고 코드 편집기에 표시됩니다.
+   Class1이 프로젝트에 추가되고 코드 편집기에 표시됩니다.
 
-6.  코드 편집기에서 다음 using 문을 추가합니다.
+5. 코드 편집기에서 다음 `using` 문을 추가합니다.
 
     ```csharp
     using Microsoft.VisualStudio.TestTools.WebTesting;
     ```
 
-7.  다음 코드를 작성하거나 복사하여 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> 인터페이스의 XmlMessageEditor 클래스를 인스턴스화하고 필요한 메서드를 구현합니다.
+6. 다음 코드에 붙여넣어 인터페이스를 구현합니다.
 
     ```csharp
     /// <summary>
@@ -185,7 +183,7 @@ private MessageEditorControl messageEditorControl
         /// plugin dialog which provides OK and Cancel buttons.
         /// </summary>
         /// <param name="contentType">The content type of the BinaryHttpBody.</param>
-        /// <param name="initialValue">The bytes to edit.  The bytes are the payload of a BinaryHttpBody.</param>
+        /// <param name="initialValue">The bytes to edit. The bytes are the payload of a BinaryHttpBody.</param>
         /// <returns>A UserControl capable of displaying and editing the byte array value of the specified content type.</returns>
         public object CreateEditor(string contentType, string initialValue)
         {
@@ -252,11 +250,11 @@ messageEditorControl 인스턴스는 <xref:Microsoft.VisualStudio.TestTools.WebT
             }
 
             /// <summary>
-            /// Create a UserControl to edit the specified bytes.  This control will be hosted in the
+            /// Create a UserControl to edit the specified bytes. This control will be hosted in the
             /// plugin dialog which provides OK and Cancel buttons.
             /// </summary>
             /// <param name="contentType">The content type of the BinaryHttpBody.</param>
-            /// <param name="initialValue">The bytes to edit.  The bytes are the payload of a BinaryHttpBody.</param>
+            /// <param name="initialValue">The bytes to edit. The bytes are the payload of a BinaryHttpBody.</param>
             /// <returns>A UserControl capable of displaying and editing the byte array value of the specified content type.</returns>
             public object CreateEditor(string contentType, byte[] initialValue)
             {
@@ -280,36 +278,32 @@ messageEditorControl 인스턴스는 <xref:Microsoft.VisualStudio.TestTools.WebT
 
 ## <a name="build-and-deploy-the-plug-ins"></a>플러그 인 빌드 및 배포
 
-### <a name="to-build-and-deploy-the-resulting-dll-for-the-istringhttpbodyeditorplugin-and-ibinaryhttpbodyeditorplugin"></a>IStringHttpBodyEditorPlugin 및 IBinaryHttpBodyEditorPlugin의 결과 dll을 빌드하고 배포하려면
+1. **빌드** 메뉴에서 **\<Windows Form 컨트롤 라이브러리 프로젝트 이름> 빌드**를 선택합니다.
 
-1.  **빌드** 메뉴에서 **\<Windows Form 컨트롤 라이브러리 프로젝트 이름> 빌드**를 선택합니다.
+2. Visual Studio의 모든 인스턴스를 닫습니다.
 
-2.  Visual Studio의 모든 인스턴스를 닫습니다.
+   > [!NOTE]
+   > Visual Studio를 닫으면 복사하기 전에 *.dll* 파일이 잠기지 않습니다.
 
-    > [!NOTE]
-    > Visual Studio를 닫으면 복사하기 전에 *.dll* 파일이 잠기지 않습니다.
+3. 프로젝트의 *bin\debug* 폴더에서 결과 *.dll* 파일(예: *MessageEditors.dll*)을 *%ProgramFiles%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins*에 복사합니다.
 
-3.  *bin\debug* 프로젝트 폴더에 있는 결과 *.dll* 파일(예: *MessageEditors.dll*)을 *%ProgramFiles%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins*에 복사합니다.
+4. Visual Studio를 엽니다.
 
-4.  Visual Studio를 엽니다.
-
-     *.dll*이 이제 Visual Studio에 등록됩니다.
+   *.dll*이 이제 Visual Studio에 등록됩니다.
 
 ## <a name="verify-the-plug-ins-using-a-web-performance-test"></a>웹 성능 테스트를 사용하여 플러그 인 확인
 
-### <a name="to-test-your-plug-ins"></a>플러그 인을 테스트하려면
+1. 테스트 프로젝트를 만듭니다.
 
-1.  테스트 프로젝트를 만듭니다.
+2. 웹 성능 테스트를 만들고 브라우저에서 웹 서비스에 대한 URL을 입력합니다.
 
-2.  웹 성능 테스트를 만들고 브라우저에서 웹 서비스에 대한 URL을 입력합니다.
+3. 기록을 마치면 웹 성능 테스트 편집기에서 웹 서비스의 요청을 확장하고 **문자열 본문** 또는 **이진 본문**을 선택합니다.
 
-3.  기록을 마치면 웹 성능 테스트 편집기에서 웹 서비스의 요청을 확장하고 **문자열 본문** 또는 **이진 본문**을 선택합니다.
+4. **속성** 창에서 문자열 본문이나 이진 본문을 선택하고 줄임표 **(…)** 를 선택합니다.
 
-4.  속성 창에서 문자열 본문이나 이진 본문을 선택하고 줄임표 **(…)** 를 선택합니다.
+   **HTTP 본문 데이터 편집** 대화 상자가 표시됩니다.
 
-     **HTTP 본문 데이터 편집** 대화 상자가 표시됩니다.
-
-5.  이제 데이터를 편집하고 **확인**을 선택합니다. 그러면 적절한 GetNewValue 메서드가 호출되어 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>의 콘텐츠가 업데이트됩니다.
+5. 이제 데이터를 편집하고 **확인**을 선택합니다. 그러면 적절한 GetNewValue 메서드가 호출되어 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>의 콘텐츠가 업데이트됩니다.
 
 ## <a name="compile-the-code"></a>코드 컴파일
 

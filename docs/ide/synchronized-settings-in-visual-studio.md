@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9b5f3eec072988c7ab093f305cf2903ae1079cc2
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 1ff663a7d2a22f152b3a0b9081623766535f9a53
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57221881"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57869046"
 ---
 # <a name="synchronize-visual-studio-settings-across-multiple-computers"></a>여러 컴퓨터에서 Visual Studio 설정 동기화
 
@@ -41,7 +41,7 @@ ms.locfileid: "57221881"
 
    - **환경** > **시작** 옵션 페이지의 모든 설정입니다.
 
-   - **텍스트 편집기** 옵션 페이지의 모든 설정입니다.
+   - **텍스트 편집기** 옵션 페이지의 모든 설정입니다(예: [코드 스타일 기본 설정](code-styles-and-quick-actions.md)).
 
    - **XAML 디자이너**의 옵션 페이지의 모든 설정입니다.
 
@@ -75,7 +75,7 @@ Visual Studio의 동기화된 설정이 기본적으로 켜져 있습니다. **�
 
 3. **VS 2017용 개발자 명령 프롬프트**를 열고 `devenv /resetuserdata`를 실행합니다.
 
-1. Visual Studio를 시작하고 내보낸 설정 파일에서 저장된 설정을 가져옵니다.
+1. Visual Studio를 열고 내보낸 설정 파일에서 저장된 설정을 가져옵니다.
 
 ::: moniker-end
 

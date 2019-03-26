@@ -16,18 +16,22 @@ manager: jillfra
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 52848599e05f5b7e5050e408f98d9ff4d670ca72
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 443e181edfb0fc60c73d528063a6e6a2be5ab62a
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911873"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57868380"
 ---
 # <a name="net-coding-convention-settings-for-editorconfig"></a>EditorConfig에 대한 .NET 코딩 규칙 설정
 
-Visual Studio 2017에서는 [EditorConfig](../ide/create-portable-custom-editor-options.md) 파일을 사용하여 코드베이스에서 일관된 코드 스타일을 정의하고 유지 관리할 수 있습니다. EditorConfig에는 `indent_style` 및 `indent_size`와 같은 여러 가지 주요 서식 지정 속성이 포함됩니다. Visual Studio에서 EditorConfig 파일을 사용하여 .NET 코딩 규칙 설정을 구성할 수도 있습니다. EditorConfig 파일을 사용하면 개별 .NET 코딩 규칙을 활성화 또는 비활성화하고 (심각도 수준을 통해) 규칙을 적용하려는 수준을 구성할 수 있습니다. EditorConfig를 사용하여 코드 베이스에 일관성을 적용하는 방법에 대한 자세한 내용을 보려면 [휴대용, 사용자 지정 편집기 옵션 만들기](../ide/create-portable-custom-editor-options.md)를 참고하세요.
+[EditorConfig](../ide/create-portable-custom-editor-options.md) 파일을 사용하여 코드베이스에서 일관된 코드 스타일을 정의하고 유지 관리할 수 있습니다. EditorConfig에는 `indent_style` 및 `indent_size`와 같은 여러 가지 주요 서식 지정 속성이 포함됩니다. Visual Studio에서 EditorConfig 파일을 사용하여 .NET 코딩 규칙 설정을 구성할 수도 있습니다. 개별 .NET 코딩 규칙을 사용하거나 사용하지 않도록 설정하고 심각도 수준을 통해 각 규칙을 적용하려는 수준을 구성할 수 있습니다.
 
-[예제 .editorconfig 파일](#example-editorconfig-file)은 이 문서의 끝부분을 참조하세요.
+> [!TIP]
+> - .editorconfig 파일에서 코딩 규칙을 정의할 때 Visual Studio에 빌드된 [코드 스타일 분석기](../code-quality/roslyn-analyzers-overview.md)의 코드 분석 방법을 구성합니다. .editorconfig 파일은 이러한 분석기에 대한 구성 파일입니다.
+> - Visual Studio의 코드 스타일 기본 설정은 [텍스트 편집기 옵션](code-styles-and-quick-actions.md) 대화 상자에서 설정할 수도 있습니다. 하지만 .editorconfig 설정이 먼저 적용되며 **옵션**에서 지정하는 기본 설정은 특정 프로젝트와 연결되어 있지 않습니다.
+
+이 문서의 끝부분에 [예제 .editorconfig 파일](#example-editorconfig-file)이 있습니다.
 
 ## <a name="convention-categories"></a>규칙 범주
 
@@ -57,8 +61,8 @@ Visual Studio 2017에서는 [EditorConfig](../ide/create-portable-custom-editor-
 
 심각도 | 효과
 :------- | ------
-`none` | 이 규칙을 위반하는 경우 사용자에게 아무 것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `none` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴에 나타나지 않습니다. 대부분의 경우 “사용하지 않도록 설정” 또는 “무시”되는 것으로 간주됩니다.
-`silent`(Visual Studio 2017 버전 15.8의 `refactoring`) | 이 규칙을 위반하는 경우 사용자에게 아무 것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `silent` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴뿐만 아니라 정리에도 참여합니다.
+`none` | 이 규칙을 위반하는 경우 사용자에게 아무것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `none` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴에 나타나지 않습니다. 대부분의 경우 “사용하지 않도록 설정” 또는 “무시”되는 것으로 간주됩니다.
+`silent`(Visual Studio 2017 버전 15.8의 `refactoring`) | 이 규칙을 위반하는 경우 사용자에게 아무것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `silent` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴뿐만 아니라 정리에도 참여합니다.
 `suggestion` | 이 스타일 규칙을 위반하는 경우 이를 사용자에게 제안으로 표시합니다. 제안은 처음 두 개의 문자 아래에 세 개의 회색 점으로 표시됩니다.
 `warning` | 이 스타일 규칙을 위반하는 경우 컴파일러 경고가 표시됩니다.
 `error` | 이 스타일 규칙을 위반하는 경우 컴파일러 오류가 표시됩니다.

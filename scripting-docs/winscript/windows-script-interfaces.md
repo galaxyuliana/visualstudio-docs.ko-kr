@@ -2,7 +2,6 @@
 title: Windows 스크립트 인터페이스 | Microsoft Docs
 ms.custom: ''
 ms.date: 01/18/2017
-ms.prod: windows-script-interfaces
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -12,12 +11,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: f98e60a82735ae561edf404763e0700f71b3a3d4
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: acb62f3dc5774ef8574fded3c0537e97611049c2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49905365"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58154428"
 ---
 # <a name="windows-script-interfaces"></a>Windows 스크립트 인터페이스
 
@@ -37,7 +36,7 @@ Windows 스크립트 설명서는 다음 섹션으로 구분됩니다.
 
 ## <a name="windows-script-background"></a>Windows 스크립트 배경 정보
 
-Windows 스크립트 인터페이스는 Windows 스크립트 호스트와 Windows 스크립트 엔진의 두 범주로 나뉩니다. 호스트는 스크립팅 엔진을 만들고 엔진을 호출하여 스크립트를 실행합니다. Windows 스크립트 호스트의 예는 다음과 같습니다.
+Windows 스크립트 인터페이스는 다음 두 가지 범주로 분류됩니다. 바로, Windows 스크립트 호스트와 Windows 스크립트 엔진입니다. 호스트는 스크립팅 엔진을 만들고 엔진을 호출하여 스크립트를 실행합니다. Windows 스크립트 호스트의 예는 다음과 같습니다.
 
 - Microsoft Internet Explorer
 

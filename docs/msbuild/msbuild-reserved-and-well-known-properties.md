@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 35ef81aba75e42e7d3d713d5f6efb7129b55b2d2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: eefff14fd2277f791b61677fb9a23894c974c353
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56632396"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58070141"
 ---
 # <a name="msbuild-reserved-and-well-known-properties"></a>MSBuild의 예약된 속성 및 잘 알려진 속성
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에서는 프로젝트 파일과 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 이진 파일에 대한 정보를 저장하는 미리 정의된 속성 집합을 제공합니다. 이러한 속성은 다른 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 속성과 동일한 방식으로 평가됩니다. 예를 들어, `MSBuildProjectFile` 속성을 사용하려면 `$(MSBuildProjectFile)`을 입력합니다.
@@ -57,6 +57,7 @@ ms.locfileid: "56632396"
 | `MSBuildThisFileName` | 예약됨 | 파일 확장명을 제외한 `MSBuildThisFileFullPath`의 파일 이름 부분입니다. |
 | `MSBuildToolsPath` | 예약됨 | [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 버전의 설치 경로는 `MSBuildToolsVersion` 값과 연결됩니다.<br /><br /> 경로에 마지막 백슬래시를 포함하지 마세요.<br /><br /> 이 속성은 재정의할 수 없습니다. |
 | `MSBuildToolsVersion` | 예약됨 | 프로젝트 빌드에 사용된 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 도구 집합의 버전입니다.<br /><br /> 참고: [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 도구 집합은 응용 프로그램 빌드에 사용되는 작업, 대상 및 도구로 구성됩니다. 도구에는 *csc.exe* 및 *vbc.exe*와 같은 컴파일러가 포함됩니다. 자세한 내용은 [도구 집합(ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md) 및 [표준 및 사용자 지정 도구 집합 구성](../msbuild/standard-and-custom-toolset-configurations.md)을 참조하세요. |
+| `MSBuildVersion` | 예약됨 | 프로젝트 빌드에 사용된 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]의 버전입니다. <br /><br/> 이 속성은 대체할 수 없습니다. 대체하면 `MSB4004 - The 'MSBuildVersion' property is reserved, and can not be modified.` 오류 메시지가 반환됩니다. |
 
 ## <a name="names-that-conflict-with-msbuild-elements"></a>MSBuild 요소와 충돌하는 이름
 

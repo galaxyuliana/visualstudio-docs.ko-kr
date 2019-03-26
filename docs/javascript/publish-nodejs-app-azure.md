@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: f52e1cb8538204dbf0e29ccdadcc4cb2894255ff
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 20df5476a2ca6cf8fb0ffbf22e8106e51d17128d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55021873"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58070310"
 ---
 # <a name="publish-a-nodejs-application-to-azure-linux-app-service"></a>Azure에 Node.js 애플리케이션 게시(Linux App Service)
 
@@ -36,15 +36,44 @@ Linux App Service는 Linux Docker 컨테이너를 배포하여 Node.js 애플리
 > * Azure에서 Linux App Service 만들기
 > * Linux에 배포
 
+## <a name="prerequisites"></a>전제 조건
+
+* Node.js 개발 워크로드와 Visual Studio가 설치되어 있어야 합니다. 
+
+    ::: moniker range=">=vs-2019"
+    아직 Visual Studio 2019를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/) 페이지로 이동하여 체험용으로 설치합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    아직 Visual Studio 2017을 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/) 페이지로 이동하여 체험용으로 설치합니다.
+    ::: moniker-end
+
+    워크로드는 설치해야 하지만 Visual Studio는 이미 있는 경우 **도구** > **도구 및 기능 가져오기...** 로 이동하면 Visual Studio 설치 관리자가 열립니다. **Node.js 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
+
+    ![VS 설치 관리자에서 Node.js 워크로드](../ide/media/quickstart-nodejs-workload.png)
+
+* Node.js 런타임을 설치해야 합니다.
+
+    아직 설치되지 않은 경우 [Node.js](https://nodejs.org/en/download/) 웹 사이트에서 LTS 버전을 설치합니다. 일반적으로, 설치된 Node.js 런타임은 Visual Studio에서 자동으로 검색됩니다. 설치된 런타임이 검색되지 않으면 속성 페이지에서 설치된 런타임을 참조하도록 프로젝트를 구성할 수 있습니다(프로젝트를 만든 후 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다).
+
 ## <a name="create-a-nodejs-project-to-run-in-azure"></a>Azure에서 실행하도록 Node.js 프로젝트 만들기
 
-1. **파일** > **새 프로젝트** 대화 상자를 사용하여 새로운 TypeScript Express 앱을 만듭니다.
+1. Visual Studio를 엽니다.
 
-1. **TypeScript** 노드 아래에서 **기본 Node.js Express 4 애플리케이션**을 선택합니다.
+1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다.
+
+1. 새 TypeScript Express 앱을 만듭니다.
+
+    ::: moniker range=">=vs-2019"
+    **새 프로젝트 만들기** 대화 상자에서 검색 상자에 **javascript**를 입력하여 결과를 필터링하고 **기본 Azure Node.js Express 4 애플리케이션**, **다음**을 차례로 선택합니다. 그런 다음, **만들기**를 선택합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    **새 프로젝트** 대화 상자의 왼쪽 창에서 **JavaScript**를 확장한 후 **Node.js**를 선택합니다. 가운데 창에서 **기본 Azure Node.js Express 4 애플리케이션**을 선택한 후 **확인**을 선택합니다.
 
     ![새로운 TypeScript Express 앱 만들기](../javascript/media/azure-ts-express-app.png)
+    ::: moniker-end
+    **기본 Azure Node.js Express 4 애플리케이션** 프로젝트 템플릿이 표시되지 않으면 **Node.js 개발** 워크로드를 추가해야 합니다. 자세한 지침은 [필수 조건](#prerequisites)을 참조하세요.
 
-1. **확인**을 클릭하여 Visual Studio에서 프로젝트를 만듭니다.
+    Visual Studio가 프로젝트를 만들어 솔루션 탐색기(오른쪽 창)에서 엽니다.
 
 1. **F5** 키를 눌러 앱을 빌드 및 실행하고, 예상한 대로 잘 실행되는지 확인합니다.
 

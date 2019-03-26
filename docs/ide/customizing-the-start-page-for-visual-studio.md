@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c15824ec28547cbdb18fdfebc4ebcee1bdd1d387
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: c8b31f033b9c04871e57836dd263071d87a24fda
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953384"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58070115"
 ---
 # <a name="customize-startup"></a>시작 사용자 지정
 
@@ -65,7 +65,7 @@ Visual Studio SDK를 사용하여 [사용자 지정 시작 페이지를 만들�
 1. **시작 페이지 사용자 지정** 목록에서 원하는 페이지를 선택합니다.
 
 > [!TIP]
-> 사용자 지정 시작 페이지에 오류가 있어 Visual Studio에 충돌이 발생하면 안전 모드에서 Visual Studio를 시작한 다음 기본 시작 페이지를 사용하도록 설정할 수 있습니다. [/SafeMode(devenv.exe)](../ide/reference/safemode-devenv-exe.md)를 참조하세요.
+> 사용자 지정 시작 페이지에 오류가 있어 Visual Studio에 크래시가 발생하면 안전 모드로 Visual Studio를 열고 기본 시작 페이지를 사용하도록 설정할 수 있습니다. [/SafeMode(devenv.exe)](../ide/reference/safemode-devenv-exe.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

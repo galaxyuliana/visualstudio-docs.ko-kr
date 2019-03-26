@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: df48a659d7718691d86909458a4a1a150d2d64dd
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 52a3d63bb7f632f1eacea603c96787dbb36d90fa
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223522"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57984120"
 ---
 # <a name="get-started-with-unit-testing"></a>유닛 테스트 시작
 
@@ -112,25 +112,39 @@ Boost, Google, NUnit 등의 타사 테스트 프레임워크를 사용하여 Vis
 
 다음은 타사 테스트 프레임워크를 사용할 수 있게 설정하는 단계입니다.
 
+::: moniker range="vs-2017"
+
 1. 메뉴 모음에서 **도구** > **확장 및 업데이트**를 선택합니다.
 
-1. **확장명 및 업데이트** 대화 상자에서 **온라인** 범주 및 **Visual Studio Marketplace**를 차례로 확장합니다. 그런 다음, **도구** > **테스트**를 선택합니다.
+2. **확장명 및 업데이트** 대화 상자에서 **온라인** 범주 및 **Visual Studio Marketplace**를 차례로 확장합니다. 그런 다음, **도구** > **테스트**를 선택합니다.
 
    ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
 
-1. 설치하려는 프레임워크 또는 어댑터를 선택한 다음, **다운로드**를 선택합니다.
+::: moniker-end
 
-1. 클래스 라이브러리 프로젝트를 만들고 솔루션에 추가합니다.
+::: moniker range=">=vs-2019"
+
+1. 메뉴 모음에서 **확장** > **확장 관리**를 선택합니다.
+
+2. **확장 관리** 대화 상자에서 **온라인** 범주, **Visual Studio Marketplace**를 차례로 확장합니다. 그런 다음, **도구** > **테스트**를 선택합니다.
+
+   ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
+
+::: moniker-end
+
+3. 설치하려는 프레임워크 또는 어댑터를 선택한 다음, **다운로드**를 선택합니다.
+
+4. 클래스 라이브러리 프로젝트를 만들고 솔루션에 추가합니다.
 
    ![클래스 라이브러리 프로젝트 이름 지정 및 추가](media/create3rdpartyunittest3.png)
 
-1. 플러그 인을 설치합니다. **솔루션 탐색기**에서 클래스 라이브러리 프로젝트를 선택한 다음, 마우스 오른쪽 단추로 클릭하거나 컨텍스트 메뉴에서 **NuGet 패키지 관리**를 선택합니다.
+5. 플러그 인을 설치합니다. **솔루션 탐색기**에서 클래스 라이브러리 프로젝트를 선택한 다음, 마우스 오른쪽 단추로 클릭하거나 컨텍스트 메뉴에서 **NuGet 패키지 관리**를 선택합니다.
 
    ![NuGet 패키지를 관리하여 플러그 인 설치](media/create3rdpartyunittest3a.png)
 
    [NuGet](https://www.nuget.org/)은 Visual Studio의 확장 프로그램으로, 프로젝트의 라이브러리 및 도구를 추가하고 업데이트하는 데 사용할 수 있습니다.
 
-1. **NuGet 패키지 관리자** 창에서 플러그 인을 검색하고 선택한 다음, **설치**를 선택합니다.
+6. **NuGet 패키지 관리자** 창에서 플러그 인을 검색하고 선택한 다음, **설치**를 선택합니다.
 
    ![타사 프레임워크 설치](media/create3rdpartyunittest4.png)
 
@@ -138,15 +152,15 @@ Boost, Google, NUnit 등의 타사 테스트 프레임워크를 사용하여 Vis
 
    ![타사 단위 테스트 프레임워크에 대한 참조가 솔루션에 추가됨](media/create3rdpartyunittest6.png)
 
-1. 클래스 라이브러리 프로젝트의 **참조** 노드에서 **참조 추가**를 선택합니다.
+7. 클래스 라이브러리 프로젝트의 **참조** 노드에서 **참조 추가**를 선택합니다.
 
    ![프로젝트에 참조 추가](media/createunittest6.png)
 
-1. **참조 관리자** 대화 상자에서 테스트할 코드를 포함하는 프로젝트를 선택합니다.
+8. **참조 관리자** 대화 상자에서 테스트할 코드를 포함하는 프로젝트를 선택합니다.
 
    ![테스트할 코드 프로젝트 선택](media/createunittest7.png)
 
-1. 단위 테스트를 코딩합니다.
+9. 단위 테스트를 코딩합니다.
 
    ![단위 테스트 코드 파일에 코드 추가](media/create3rdpartyunittest7.png)
 

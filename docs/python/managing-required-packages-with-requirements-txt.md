@@ -1,7 +1,7 @@
 ---
 title: Requirements.txt 파일을 사용하여 패키지 종속성 관리
 description: requirements.txt 파일은 프로젝트의 종속성을 설명합니다. requirements.txt 파일이 포함된 프로젝트를 수신하는 경우 해당 종속성을 한 단계로 쉽게 설치할 수 있습니다.
-ms.date: 01/28/2019
+ms.date: 03/18/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 2026c80141c29e14ca1d7c8f1f7e1bc5cecd2e32
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 88cd2ee237a92aff4ca6f641556b8003be550c3d
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55924346"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194842"
 ---
 # <a name="manage-required-packages-with-requirementstxt"></a>requirements.txt를 사용하여 필수 패키지 관리
 
@@ -25,11 +25,13 @@ ms.locfileid: "55924346"
 
 - *requirements.txt*가 포함된 프로젝트를 로드하여 이 파일에 나열된 모든 패키지를 설치하려면 **솔루션 탐색기**에서 **Python 환경** 노드를 확장하고 환경 노드를 마우스 오른쪽 단추로 클릭한 다음, **requirements.txt에서 설치**를 선택합니다.
 
-    ![requirements.txt에서 설치](media/environments-requirements-txt-install.png)
+    ![requirements.txt에서 설치](media/environments/environments-requirements-txt-install.png)
+
+- 가상 환경에 종속성을 설치하려면 먼저 해당 환경을 만들어 활성화한 후 **requirements.txt에서 설치** 명령을 사용합니다. 가상 환경 만들기에 대한 자세한 내용은 [가상 환경 사용](selecting-a-python-environment-for-a-project.md#use-virtual-environments)을 참조하세요.
 
 - 필요한 모든 패키지를 이미 한 환경에 설치한 경우 **솔루션 탐색기**에서 해당 환경을 마우스 오른쪽 단추로 클릭하고 **requirements.txt 생성**을 선택하여 필요한 파일을 만듭니다. 파일이 이미 있는 경우 업데이트 방법을 묻는 메시지가 표시됩니다.
 
-    ![requirements.txt 옵션 업데이트](media/environments-requirements-txt-replace.png)
+    ![requirements.txt 옵션 업데이트](media/environments/environments-requirements-txt-replace.png)
 
   - **전체 파일 바꾸기**는 존재하는 모든 항목, 주석 및 옵션이 제거됩니다.
   - **기존 항목 새로 고침**은 패키지 요구 사항을 검색하고 버전 지정자를 현재 설치된 버전에 맞게 업데이트합니다.

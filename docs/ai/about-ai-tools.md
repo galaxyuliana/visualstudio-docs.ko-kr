@@ -8,15 +8,14 @@ ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
 ms.topic: conceptual
-ms.devlang: multiple
 ms.workload:
 - multiple
-ms.openlocfilehash: 249db51cf178d8f1c266b9421fbfbdfbc95ef4c4
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 39d562509a62874a32e8442e18dece8e3c26fbfc
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842837"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58155591"
 ---
 # <a name="visual-studio-tools-for-ai"></a>Visual Studio Tools for AI
 
@@ -25,7 +24,7 @@ Visual Studio Tools for AI는 딥 러닝/AI 솔루션을 빌드, 테스트 및 �
 [CNTK(Microsoft Cognitive Toolkit)](http://www.microsoft.com/en-us/cognitive-toolkit), [Google TensorFlow](https://www.tensorflow.org) 또는 기타 딥 러닝 프레임워크를 사용하여 딥 러닝을 시작합니다.
 
 ## <a name="develop-debug-and-deploy-deep-learning-models-and-ai-solutions"></a>딥 러닝 모델 및 AI 솔루션 개발, 디버그 및 배포
-Visual Studio의 생산성 기능을 사용하여 현재의 AI 혁신을 가속화합니다. 구문 강조, IntelliSense 및 텍스트 자동 서식과 같은 기본 제공 코드 편집기 기능을 사용합니다. 지역 변수 및 모델에 대한 단계별 디버깅을 사용하여 로컬 환경에서 딥 러닝 애플리케이션을 대화형으로 테스트할 수 있습니다.
+Visual Studio의 생산성 기능을 사용하여 현재의 AI 혁신을 가속화합니다. 구문 강조 표시, IntelliSense 및 텍스트 자동 서식 지정과 같이 기본 제공되는 코드 편집기 기능을 사용하세요. 지역 변수 및 모델에 대한 단계별 디버깅을 사용하여 로컬 환경에서 딥 러닝 애플리케이션을 대화형으로 테스트할 수 있습니다.
 
 ![딥 러닝 IDE](media/about/ide.png)
 
@@ -37,7 +36,7 @@ Visual Studio Tools for AI는 Azure Machine Learning과 통합되어 CNTK, Tenso
 [샘플 갤러리에서 프로젝트를 만드는 방법에 대한 자세한 정보](create-project-gallery.md)
 
 ## <a name="scale-out-deep-learning-model-training-andor-inferencing-to-the-cloud"></a>딥 러닝 모델 학습 및/또는 클라우드로 유추 학습 확장
-이 확장을 사용하면 로컬 컴퓨터에서 모델을 쉽게 학습하거나 Azure Machine Learning과의 통합을 사용하여 클라우드에 작업을 제출할 수 있습니다. Spark 클러스터, Azure GPU 가상 머신 등 다양한 계산 대상에 작업을 제출할 수 있습니다.
+이 확장을 사용하면 로컬 컴퓨터에서 모델을 쉽게 학습하거나 Azure Machine Learning과의 통합을 사용하여 클라우드에 작업을 제출할 수 있습니다. Spark 클러스터, Azure GPU 가상 머신 등 다양한 컴퓨팅 대상에 작업을 제출할 수 있습니다.
 
 ![작업 제출](media/about/submitjobs.png)
 
@@ -46,5 +45,5 @@ Visual Studio Tools for AI는 Azure Machine Learning과 통합되어 CNTK, Tenso
 ## <a name="supported-operating-systems"></a>Supported Operating Systems
 이 확장은 현재 Windows 64비트 운영 체제를 지원합니다.
 
-## <a name="support"></a>Support(지원)
+## <a name="support"></a>고객 지원팀
 이 확장에 대한 지원은 [GitHub 문제 추적](http://github.com/Microsoft/vs-tools-for-ai/issues)에 제공됩니다. 버그 보고서, 기능 제안을 제출하거나 토론에 참여할 수 있습니다.

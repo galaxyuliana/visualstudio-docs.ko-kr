@@ -1,7 +1,22 @@
+---
+ms.openlocfilehash: 447dd56d27c29136b7eb72f30564156ca56f2a74
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58051718"
+---
 ## <a name="prerequisites"></a>전제 조건
 
-* 적절한 워크로드를 사용하여 설치된 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)
+::: moniker range=">=vs-2019"
+
+* 선택한 언어에 적절한 워크로드를 사용하여 설치된 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
   * ASP.NET: **ASP.NET 및 웹 개발**
+::: moniker-end
+::: moniker range="vs-2017"
+* 선택한 언어에 적절한 워크로드를 사용하여 설치된 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
+  * ASP.NET: **ASP.NET 및 웹 개발**
+::: moniker-end
 
 * Azure 구독 아직 구독하지 않은 경우 [무료로 등록합니다](https://azure.microsoft.com/free/dotnet/). 이는 30일 동안 $200의 크레딧 및 12개월의 인기 있는 무료 서비스를 포함합니다.
 

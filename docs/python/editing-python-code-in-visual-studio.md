@@ -1,7 +1,7 @@
 ---
 title: Python 코드 편집
 description: Python의 경우 Visual Studio는 서식, Lint, 리팩터링과 함께 풍부한 IntelliSense, 코드 조각 및 탐색 기능을 제공합니다.
-ms.date: 11/19/2018
+ms.date: 03/13/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 3a18b743b4dd0f239399b7350e1a479acf7ef4c8
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: 0c7091a55487f83c88323d68ae8075630d39d471
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155398"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58155526"
 ---
 # <a name="edit-python-code"></a>Python 코드 편집
 
@@ -109,10 +109,20 @@ commas_to_colons(1)
 
 ![형식 힌트의 유효성을 검사하는 mypy 결과 예](media/code-editing-type-hints-validation-error.png)
 
+::: moniker range="vs-2017"
 > [!Tip]
-> Python 3.5 이전 버전의 경우 Visual Studio는 *스텁 파일*(*.pyi*)을 통해 사용자가 입력한 형식 힌트도 표시합니다. 코드에 형식 힌트를 직접 포함하지 않고자 하거나, 형식 힌트를 직접 사용하지 않는 라이브러리에 대한 형식 힌트를 만들려는 경우 스텁 파일을 사용할 수 있습니다. 자세한 내용은 mypy 프로젝트 wiki에서 [Python 모듈에 대한 스텁 만들기](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules)를 참조하세요.
+> Python 3.5 이전 버전의 경우 Visual Studio는 Typeshed ‘스텁 파일’(*.pyi*)을 통해 사용자가 입력한 형식 힌트도 표시합니다. 코드에 형식 힌트를 직접 포함하지 않고자 하거나, 형식 힌트를 직접 사용하지 않는 라이브러리에 대한 형식 힌트를 만들려는 경우 스텁 파일을 사용할 수 있습니다. 자세한 내용은 mypy 프로젝트 wiki에서 [Python 모듈에 대한 스텁 만들기](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules)를 참조하세요.
 >
 > 현재는 Visual Studio에서 주석의 형식 힌트를 지원하지 않습니다.
+::: moniker-end
+::: moniker range=">=vs-2019"
+> [!Tip]
+> Python 3.5 이전 버전의 경우 Visual Studio는 Typeshed ‘스텁 파일’(*.pyi*)을 통해 사용자가 입력한 형식 힌트도 표시합니다. 코드에 형식 힌트를 직접 포함하지 않고자 하거나, 형식 힌트를 직접 사용하지 않는 라이브러리에 대한 형식 힌트를 만들려는 경우 스텁 파일을 사용할 수 있습니다. 자세한 내용은 mypy 프로젝트 wiki에서 [Python 모듈에 대한 스텁 만들기](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules)를 참조하세요.
+>
+> Visual Studio에는 Python 2 및 3에 대한 Typeshed 파일의 번들 집합이 포함되어 있으므로 추가 다운로드가 필요하지 않습니다. 하지만 다른 파일 집합을 사용하려는 경우 **도구** > **옵션** > **Python** > **언어 서버** 옵션에서 경로를 지정할 수 있습니다. [옵션 - 언어 서버](python-support-options-and-settings-in-visual-studio.md#language-server-options)를 참조하세요.
+>
+> 현재는 Visual Studio에서 주석의 형식 힌트를 지원하지 않습니다.
+::: moniker-end
 
 ### <a name="signature-help"></a>서명 도움말
 

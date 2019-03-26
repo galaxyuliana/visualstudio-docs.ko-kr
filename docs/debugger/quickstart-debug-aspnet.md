@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: 7a17431fa2ad85c660164110ab005fa00053ff17
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: e2df347edfa2ea6672449dfbaa5f3740e94cd11c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57525403"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58153017"
 ---
 # <a name="quickstart-debug-aspnet-with-the-visual-studio-debugger"></a>빠른 시작: Visual Studio 디버거를 사용하여 ASP.NET 디버그
 
@@ -25,17 +25,20 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
 
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기
 
-1. Visual Studio에서 **파일 > 새 프로젝트**를 선택합니다.
+1. Visual Studio에서 **파일 > 새로 만들기 > 프로젝트**를 선택합니다.
 
-1. **Visual C#** 에서 **웹**을 선택한 다음, 가운데 창에서 **ASP.NET Core 웹 애플리케이션**을 선택합니다.
+    ::: moniker range=">=vs-2019"
+    **새 프로젝트 만들기** 대화 상자가 열립니다. 검색 상자에 **asp.net**을 입력하여 결과를 필터링하고, **ASP.NET Core 웹 애플리케이션**을 선택하고, **다음**을 클릭합니다. **MyDbgApp**과 같은 이름을 입력하고 **만들기**를 선택합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    **새 프로젝트** 대화 상자가 열립니다. **Visual C#** 에서 **웹**을 선택한 다음, 가운데 창에서 **ASP.NET Core 웹 애플리케이션**을 선택합니다. **MyDbgApp**과 같은 이름을 입력하고 **확인**을 클릭합니다.
 
-1. **MyDbgApp**과 같은 이름을 입력하고 **확인**을 클릭합니다.
-
-1. 표시되는 대화 상자의 가운데 창에서 **웹 애플리케이션**을 선택한 다음, **확인**을 클릭합니다.
-
-     **웹 애플리케이션** 프로젝트 템플릿이 표시되지 않으면 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기** 링크를 클릭합니다. Visual Studio 설치 관리자가 시작됩니다. **ASP.NET 및 웹 개발** 워크로드를 선택한 후 **수정**을 선택합니다.
+    표시되는 대화 상자의 가운데 창에서 **웹 애플리케이션**을 선택한 다음, **확인**을 클릭합니다.
 
     ![웹 애플리케이션 선택](../debugger/media/dbg-qs-aspnet-choose-web-app.png)
+    ::: moniker-end
+
+    **ASP.NET Core 웹 애플리케이션** 프로젝트 템플릿이 표시되지 않는 경우 **도구** > **도구 및 기능 가져오기...** 로 이동하면 Visual Studio 설치 관리자가 열립니다. **ASP.NET 및 웹 개발** 워크로드를 선택한 후 **수정**을 선택합니다.
 
     Visual Studio가 프로젝트를 만듭니다.
 

@@ -9,19 +9,23 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8d495f4f64e56981637680f8333936647fe70c68
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: af930f983ad328dac16e5eec1fb0cf2650f7681a
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55941051"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57867857"
 ---
 # <a name="find-code-changes-and-other-history-with-codelens"></a>CodeLens에서 코드 변경 내용 및 기타 기록 찾기
 
 CodeLens를 통해 코드에 대한 정보를 찾는 동안 편집기에서 나가지 않고&ndash;계속 작업에 집중할 수 있습니다. 코드 조각 참조, 코드 변경 내용, 연결된 버그, 작업 항목, 코드 검토 및 단위 테스트를 확인할 수 있습니다.
 
+::: moniker range="vs-2017"
+
 > [!NOTE]
 > CodeLens는 Visual Studio Enterprise 및 Visual Studio Professional 버전에서만 사용할 수 있습니다. Visual Studio Community 버전에서는 사용할 수 없습니다.
+
+::: moniker-end
 
 솔루션에서 코드의 개별 부분을 사용하는 위치 및 방법 확인:
 
@@ -62,7 +66,7 @@ C# 또는 Visual Basic 코드에 대한 참조를 찾을 수 있습니다.
 
 다음이 필요합니다.
 
-- Visual Studio Enterprise 또는 Visual Studio Professional
+- Visual Studio 2019(또는 Visual Studio 2017 Enterprise 또는 Professional 버전)
 
 - Team Foundation Server 2013 이상, Azure DevOps Services 또는 Git
 

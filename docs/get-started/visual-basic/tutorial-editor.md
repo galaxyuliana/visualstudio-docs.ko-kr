@@ -12,12 +12,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: baed4947d6e31cb06a64f04b0cb68d17d31c6f2f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3af730ae4d5b358eab223e2a5a8288daaf632071
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939478"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069634"
 ---
 # <a name="learn-to-use-the-code-editor"></a>코드 편집기를 사용하는 방법 알아보기
 
@@ -35,9 +35,21 @@ Visual Studio의 코드편집기에 대한 이 10분 소개에서 코드를 파�
 
 새 파일을 만들고 일부 코드를 추가하여 시작합니다.
 
-1. Visual Studio를 열고, 메뉴 모음의 **파일** 메뉴에서 **새 파일**을 선택합니다.
+::: moniker range="vs-2017"
 
-1. **새 파일** 대화 상자의 **일반** 범주 아래에서 **Visual Basic 클래스**를 선택한 다음, **열기**를 선택합니다.
+1. Visual Studio를 엽니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio를 엽니다. **Esc** 키를 누르거나 시작 창에서 **코드를 사용하지 않고 계속**을 클릭하여 개발 환경을 엽니다.
+
+::: moniker-end
+
+2. 메뉴 모음의 **파일** 메뉴에서 **새 파일**을 선택합니다.
+
+3. **새 파일** 대화 상자의 **일반** 범주 아래에서 **Visual Basic 클래스**를 선택한 다음, **열기**를 선택합니다.
 
    Visual Basic의 구조를 사용하여 편집기에서 새 파일이 열립니다. (구문 강조와 같은 코드 편집기에서 제공하는 일부 혜택을 가져오기 위해 전체 Visual Studio 프로젝트를 만들 필요가 없다는 것을 이미 알 수 있습니다. 코드 파일만 있으면 됩니다.)
 

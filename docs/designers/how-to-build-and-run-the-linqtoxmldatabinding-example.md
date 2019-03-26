@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b88b705a7dc64f46ba750feed1e5259f2b74c555
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 846b71b768d5b1909f29c8135616714d0124193c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951906"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069920"
 ---
 # <a name="how-to-build-and-run-the-linqtoxmldatabinding-example"></a>방법: LinqToXmlDataBinding 예제 빌드 및 실행
 
@@ -20,11 +20,9 @@ ms.locfileid: "55951906"
 
 Visual Studio에 대한 자세한 내용은 [Visual Studio IDE 개요](../get-started/visual-studio-ide.md)를 참조하세요.
 
-## <a name="create-and-populate-the-project"></a>프로젝트 만들기 및 채우기
+## <a name="create-the-project"></a>프로젝트를 만듭니다.
 
-### <a name="to-create-the-starting-project"></a>시작 프로젝트를 만들려면
-
-1. Visual Studio를 시작하고 LinqToXmlDataBinding이라는 C# WPF 응용 프로그램을 만듭니다. 프로젝트에서는 .NET Framework 3.5 이상을 사용해야 합니다.
+1. Visual Studio를 열고 이름이 **LinqToXmlDataBinding**인 C# **WPF 앱**을 만듭니다. 프로젝트는 .NET Framework 3.5 이상을 대상으로 지정해야 합니다.
 
 1. 이미 존재하지 않는 경우 다음 .NET 어셈블리에 대한 프로젝트 참조를 추가합니다.
 
@@ -38,9 +36,9 @@ Visual Studio에 대한 자세한 내용은 [Visual Studio IDE 개요](../get-st
 
 1. **Ctnrl**+**Shift**+**B**를 눌러 솔루션을 빌드한 다음, **F5**를 눌러 솔루션을 실행합니다. 프로젝트가 오류 없이 컴파일되고 일반 WPF 응용 프로그램으로 실행됩니다.
 
-### <a name="to-add-custom-code-to-the-project"></a>사용자 지정 코드를 프로젝트에 추가하려면
+## <a name="add-code-to-the-project"></a>프로젝트에 코드 추가
 
-1. 솔루션 탐색기에서 원본 파일 **Window1.xaml**의 이름을 **L2XDBForm.xaml**로 바꿉니다. 종속 원본 파일 **Window1.xaml.cs**의 이름이 **L2XDBForm.xaml.cs**로 자동으로 바뀝니다.
+1. **솔루션 탐색기**에서 소스 파일 **Window1.xaml**의 이름을 **L2XDBForm.xaml**로 바꿉니다. 종속 원본 파일 **Window1.xaml.cs**의 이름이 **L2XDBForm.xaml.cs**로 자동으로 바뀝니다.
 
 1. **L2XDBForm.xaml** 파일의 소스 코드를 [L2DBForm.xaml 소스 코드](../designers/l2dbform-xaml-source-code.md) 항목의 코드 섹션으로 바꿉니다. 이 파일 작업을 하려면 XAML 소스 뷰를 사용하세요.
 
@@ -56,9 +54,7 @@ LinqToXmlDataBinding 프로그램을 사용하여 포함된 XML 요소로 저장
 
 ### <a name="to-run-the-program-and-view-the-book-list"></a>프로그램을 실행하고 책 목록을 보려면
 
-- **F5**(**디버깅 시작**) 또는 **Ctrl**+**F5**(**디버그하지 않고 시작**)를 눌러 LinqToXmlDataBinding을 실행합니다.
-
-   **LINQ to XML을 사용한 WPF 데이터 바인딩**이라는 제목의 프로그램 창이 나타납니다.
+**F5**(**디버깅 시작**) 또는 **Ctrl**+**F5**(**디버그하지 않고 시작**)를 눌러 LinqToXmlDataBinding을 실행합니다. **LINQ to XML을 사용한 WPF 데이터 바인딩**이라는 제목의 프로그램 창이 나타납니다.
 
 - UI의 맨 위 섹션에 책 목록을 나타내는 원시 **XML**이 표시됩니다. 이 섹션은 마우스나 키보드를 통해 조작할 수 없도록 하는 WPF <xref:System.Windows.Controls.TextBlock> 컨트롤을 사용하여 표시됩니다.
 

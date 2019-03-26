@@ -15,12 +15,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d0808708360db6aa35cb20ce42c75fea04f5131b
-ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
+ms.openlocfilehash: e58927f434b5ad5b8d8fe34c29d034cfc4dd57dc
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "57737004"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983977"
 ---
 # <a name="update-visual-studio-to-the-most-recent-release"></a>Visual Studio를 최신 릴리스 버전으로 업데이트
 
@@ -82,7 +82,7 @@ IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 �
 
 ### <a name="use-the-visual-studio-installer"></a>Visual Studio 설치 관리자 사용
 
-이전 버전의 Visual Studio 2017과 마찬가지로, Visual Studio 설치 관리자를 사용하여 업데이트를 설치할 수 있습니다.
+이전 버전의 Visual Studio와 마찬가지로, Visual Studio 설치 관리자를 사용하여 업데이트를 설치할 수 있습니다.
 
 1. 작업을 저장합니다.
 
@@ -150,14 +150,14 @@ Visual Studio는 Visual Studio 자체나 구성 요소에 사용 가능한 업�
 
    **업데이트** 단추를 선택하여 업데이트를 설치합니다.
 
-     ![Visual Studio 설치 관리자를 사용하여 Visual Studio 2017 업데이트](media/update-visual-studio.png "Visual Studio 설치 관리자를 사용하여 Visual Studio 2017 업데이트")
+     ![Visual Studio 설치 관리자를 사용하여 Visual Studio 2017 업데이트](media/update-visual-studio.png "Visual Studio 설치 관리자를 사용하여 Visual Studio 업데이트")
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017 수정](modify-visual-studio.md)
-* [Visual Studio 2017 제거](uninstall-visual-studio.md)
+* [Visual Studio 수정](modify-visual-studio.md)
+* [Visual Studio 제거](uninstall-visual-studio.md)
 * [Mac용 Visual Studio 업데이트](/visualstudio/mac/update)
 
 ::: moniker-end

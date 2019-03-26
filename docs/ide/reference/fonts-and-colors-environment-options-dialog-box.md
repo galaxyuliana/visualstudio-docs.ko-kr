@@ -25,12 +25,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b3fd18198811f6235c4e5d0627303e4243ad595b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: e33aaded85c7931dfc3a95d653ff35f257c9137b
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700265"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58070258"
 ---
 # <a name="fonts-and-colors-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 글꼴 및 색
 
@@ -218,7 +218,7 @@ ms.locfileid: "56700265"
 
 **기본**
 
-Visual Studio를 처음 시작할 때 항목에 표시되는 색입니다. **기본값 사용** 단추를 클릭하면 이 색으로 다시 설정됩니다.
+Visual Studio를 처음 열 때 항목에 표시되는 색입니다. **기본값 사용** 단추를 클릭하면 이 색으로 다시 설정됩니다.
 
 **사용자 지정**
 
@@ -237,7 +237,7 @@ Visual Studio를 처음 시작할 때 항목에 표시되는 색입니다. **기
 
 **기본**
 
-Visual Studio를 처음 시작할 때 항목에 표시되는 색입니다. **기본값 사용** 단추를 클릭하면 이 색으로 다시 설정됩니다.
+Visual Studio를 처음 열 때 항목에 표시되는 색입니다. **기본값 사용** 단추를 클릭하면 이 색으로 다시 설정됩니다.
 
 **사용자 지정**
 

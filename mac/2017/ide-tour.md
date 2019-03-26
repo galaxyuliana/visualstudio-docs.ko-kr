@@ -6,17 +6,17 @@ ms.author: crdun
 ms.date: 02/07/2019
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video
-ms.openlocfilehash: 4f3c868edb19cc45e25d73a11e7a65ead37c0b11
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 238370c5f8de5efdb37a29fea9d3e91763a0aa18
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316732"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58070037"
 ---
-# <a name="visual-studio-2017-for-mac-preview-tour"></a>Mac용 Visual Studio 2017 미리 보기 둘러보기
+# <a name="visual-studio-2017-for-mac-tour"></a>Mac용 Visual Studio 2017 둘러보기
 
 > [!NOTE]
-> 이제 Mac용 Visual Studio 2019는 테스트용 미리 보기로 [제공됩니다](installation.md).
+> 이제 Mac용 Visual Studio 2019는 테스트용 미리 보기로 [제공됩니다](installation.md?view=vsmac-2019).
 
 Mac용 Visual Studio는 코드를 편집, 디버그 및 빌드한 다음, 앱을 게시하는 데 사용할 수 있는 Mac의 .NET _통합 개발 환경_입니다. Mac용 Visual Studio는 표준 편집기 및 디버거와 같은 예상 기능 외에도 컴파일러, 코드 완성 도구, 그래픽 디자이너 및 소프트웨어 개발 프로세스를 위한 소스 제어를 포함하고 있습니다.
 

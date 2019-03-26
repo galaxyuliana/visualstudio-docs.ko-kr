@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dab79e4cbc9ab9b37a9052ee1337a5e9b94a6947
-ms.sourcegitcommit: 0342f99120fbd603b8f06f7e9166c39f2896827a
+ms.openlocfilehash: 265b30e8a9b3e223b9007c85082113232d76ab09
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "55742458"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983860"
 ---
 # <a name="first-look-at-deployment-in-visual-studio"></a>먼저 Visual Studio의 배포 살펴보기
 
@@ -91,7 +91,7 @@ Visual Studio에서 Microsoft Store에 배포하기 위한 앱 패키지를 만�
 
 - **UWP**: 메뉴 항목을 사용하여 앱을 패키지 및 배포할 수 있습니다. 자세한 내용은 [Visual Studio를 사용하여 UWP 앱 패키지](/windows/uwp/packaging/packaging-uwp-apps)를 참조하세요.
 
-    ![응용 프로그램 패키지 만들기](../deployment/media/feature-tour-create-app-package.jpg)
+    ![앱 패키지 만들기](../deployment/media/feature-tour-create-app-package.jpg)
 
 - **Windows 데스크톱**: Visual Studio 2017 버전 15.4부터 데스크톱 브리지를 사용하여 Microsoft Store에 배포할 수 있습니다. 이 작업을 수행하려면 Windows 애플리케이션 패키징 프로젝트를 만들어 시작합니다. 자세한 내용은 [Microsoft Store의 데스크톱 앱 패키지(데스크톱 브리지)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)를 참조하세요.
 
@@ -107,9 +107,9 @@ Visual Studio에서 Microsoft Store에 배포하기 위한 앱 패키지를 만�
 
 - [WiX Toolset Visual Studio 2017 확장](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension)을 사용하여 MSI 기반 설치 관리자 패키지를 만들 수 있습니다. 이는 명령줄 도구 세트입니다.
 
-- Flexera Software의 [InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/requirements)를 사용하여 MSI 또는 EXE 설치 관리자 패키지를 만들 수 있습니다. InstallShield는 Visual Studio 2017(커뮤니티 버전 지원되지 않음)에서 사용할 수 있습니다. InstallShield Limited Edition은 더 이상 Visual Studio에 포함되지 않으며, Visual Studio 2017에서 지원되지 않습니다. 추후 가용성은 [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio)에 확인하세요.
+- Flexera Software의 [InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/requirements)를 사용하여 MSI 또는 EXE 설치 관리자 패키지를 만들 수 있습니다. InstallShield는 Visual Studio 2017 및 이후 버전에서 사용할 수 있습니다(Community Edition은 지원되지 않음). InstallShield Limited Edition은 더 이상 Visual Studio에 포함되지 않으며, Visual Studio 2017 및 이후 버전에서 지원되지 않습니다. 추후 가용성은 [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio)에 확인하세요.
 
-- 설치 프로젝트(vdproj)를 사용하여 MSI 또는 EXE 설치 관리자 패키지를 만들 수 있습니다. 이 옵션을 사용하려면 [Visual Studio 2017 설치 관리자 프로젝트 확장](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview)을 설치합니다.
+- 설치 프로젝트(vdproj)를 사용하여 MSI 또는 EXE 설치 관리자 패키지를 만들 수 있습니다. 이 옵션을 사용하려면 [Visual Studio 설치 관리자 프로젝트 확장](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview)을 설치합니다.
 
 - 부트스트래퍼로 알려진 일반 설치 관리자를 구성하여 데스크톱 애플리케이션의 필수 구성 요소를 설치할 수도 있습니다. 자세한 내용은 [애플리케이션 배포 필수 구성 요소](../deployment/application-deployment-prerequisites.md)를 참조하세요.
 
@@ -127,7 +127,7 @@ Azure Pipelines를 사용하여 앱의 연속 배포를 사용하도록 설정�
 | --- | --- | --- |
 | **Office 앱** | Visual Studio에서 Office용 추가 기능을 게시할 수 있습니다. | [Office 추가 기능 게시 및 배포](https://dev.office.com/docs/add-ins/publish/publish) |
 | **WCF 또는 OData 서비스** | 웹 서버에 배포한 WCF RIA 서비스를 다른 애플리케이션에서 사용할 수 있습니다. | [WCF Data Services 개발 및 배포](/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |
-| **LightSwitch** | LightSwitch는 더 이상 Visual Studio 2017에서 지원되지 않지만 아직 Visual Studio 2015 및 이전 버전에서 배포할 수 있습니다. | [LightSwitch 애플리케이션 배포](https://msdn.microsoft.com/Library/4818d933-295c-4ecc-9148-7ad9ca28dcdb) |
+| **LightSwitch** | LightSwitch는 Visual Studio 2017부터 더 이상 지원되지 않지만, Visual Studio 2015 및 이전 버전에서는 아직 배포할 수 있습니다. | [LightSwitch 애플리케이션 배포](https://msdn.microsoft.com/Library/4818d933-295c-4ecc-9148-7ad9ca28dcdb) |
 
 ## <a name="next-steps"></a>다음 단계
 

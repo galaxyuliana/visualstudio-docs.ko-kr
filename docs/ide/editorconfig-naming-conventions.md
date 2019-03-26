@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b6844c20a5be1a963b37aa1e24536d4d33565405
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 881cf54df018a383d081112f44f98fd8f5d71efa
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908194"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983276"
 ---
 # <a name="net-naming-conventions-for-editorconfig"></a>EditorConfig에 대한 .NET 명명 규칙
 
@@ -73,18 +73,19 @@ ms.locfileid: "55908194"
 - private
 - protected
 - protected\_internal or protected_friend
+- private\_protected
 - 로컬
 
 > [!NOTE]
 > 대상으로 지정할 기호 종류에 접근성을 적용할 수 없는 경우에는 접근성 수준을 이름 지정 규칙의 일부로 지정하지 마세요. 예를 들어 매개 변수에는 접근성 수준이 없습니다. 매개 변수 이름 지정 규칙의 접근성 수준을 지정하면 이름 지정 규칙이 올바르게 작동하지 않습니다.
 
-### <a name="symbol-modifiers"></a>기호 한정자
+### <a name="symbol-modifiers-optional"></a>기호 한정자(선택 사항)
 
 명명 규칙을 적용하려는 기호의 한정자를 설명하려면 다음과 같은 형식으로 속성 이름을 지정합니다.
 
 `dotnet_naming_symbols.<symbolTitle>.required_modifiers = <values>`
 
-허용 가능한 값은 아래와 같으며, 이러한 값을 쉼표로 구분하여 여러 값을 지정할 수 있습니다. 명명 규칙은 `required_modifiers`에 지정된 모든 한정자가 있는 서명만 일치시킵니다. 이 속성을 생략하면 빈 목록의 기본값이 사용되므로 일치 항목에 특정 한정자가 필요하지 않습니다. 즉, 기호 한정자가 이 규칙의 적용 여부에 영향을 주지 않습니다.
+다음 목록에서는 허용 가능한 값을 보여 줍니다(여러 개의 값은 쉼표로 구분).
 
 - `abstract` 또는 `must_inherit`
 - `async`
@@ -95,7 +96,10 @@ ms.locfileid: "55908194"
    > [!NOTE]
    > `static` 또는 `shared` 기호에 대한 명명 규칙이 있는 경우 암시적으로 static인 `const` 기호에도 적용됩니다. `static` 명명 규칙을 `const` 기호에 적용하지 않으려면 `const` 기호에 대한 별도의 명명 규칙을 만듭니다.
 
-`required_modifiers`는 선택적 속성입니다. 이 속성을 생략하는 경우 명명 규칙이 모든 한정자에 적용됩니다.
+명명 규칙은 `required_modifiers`에 지정된 ‘모든’ 한정자가 있는 시그니처와 일치시킵니다. 이 속성을 생략하면 빈 목록의 기본값이 사용되므로 일치 항목에 특정 한정자가 필요하지 않습니다. 즉, 기호 한정자가 이 규칙의 적용 여부에 영향을 주지 않습니다.
+
+> [!TIP]
+> `required_modifiers`에 대해 `*` 값을 지정하지 마세요. 대신 `required_modifiers` 속성을 모두 생략하며 명명 규칙은 모든 종류의 한정자에 적용됩니다.
 
 ## <a name="style"></a>스타일
 
@@ -150,7 +154,7 @@ ms.locfileid: "55908194"
 
 심각도 | 효과
 ------------ | -------------
-none or silent | 이 스타일을 따르지 않을 경우 사용자에게 아무 것도 표시되지 않지만 자동 생성 코드는 이 스타일을 따릅니다.
+none or silent | 이 스타일을 따르지 않을 경우 사용자에게 아무것도 표시되지 않지만 자동 생성 코드는 이 스타일을 따릅니다.
 suggestion | 이 스타일을 따르지 않을 경우 처음 두 문자에 점선이 밑줄로 표시되어 사용자에게 제안으로 표시됩니다. 컴파일 시간에 영향을 주지 않습니다.
 경고 | 이 스타일을 따르지 않을 경우 **오류 목록**에서 컴파일러 경고가 표시됩니다.
 오류 | 이 스타일을 따르지 않을 경우 **오류 목록**에서 컴파일러 오류가 표시됩니다.
@@ -158,7 +162,7 @@ suggestion | 이 스타일을 따르지 않을 경우 처음 두 문자에 점�
 > [!NOTE]
 > 명명 규칙 위반을 확인하기 위해 프로젝트를 빌드하지 않아도 됩니다. 코드가 편집되면 **오류 목록** 또는 제안 중 하나로 표시됩니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 *.editorconfig* 파일은 공용 속성, 메서드, 필드, 이벤트 및 대리자를 대문자로 시작하도록 지정하는 명명 규칙을 포함하고 있습니다. 이 명명 규칙은 값을 구분하기 위해 쉼표를 사용하여 규칙을 적용하는 여러 종류의 기호를 지정합니다.
 

@@ -7,18 +7,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 39a6316265b6b3747f247890d45a769ef9240387
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 03353225507dca8700daa71b5dd0331c782e78ae
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596027"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57984042"
 ---
 # <a name="update-an-existing-application-for-msbuild-15"></a>MSBuild 15에 대한 기존 애플리케이션 업데이트
 
 15.0 이전 MSBuild 버전에서 MSBuild는 GAC(전역 어셈블리 캐시)에서 로드되었으며 MSBuild 확장은 레지스트리에 설치되었습니다. 이는 모든 애플리케이션이 동일한 버전의 MSBuild를 사용했고 동일한 도구 집합에 액세스했음을 보장했지만 서로 다른 버전의 Visual Studio의 병렬 설치를 방지했습니다.
 
-더 빠르고, 더 작은 병렬 설치를 지원하기 위해 Visual Studio 2017은 GAC에 MSBuild를 더 이상 배치하거나 레지스트리를 수정하지 않습니다. 그러나 이는 MSBuild API를 사용하여 프로젝트를 평가하거나 빌드하려는 애플리케이션이 Visual Studio 설치를 암시적으로 사용할 수 없음을 의미합니다.
+더 빠르고, 더 작은 병렬 설치를 지원하기 위해 Visual Studio 2017 및 이후 버전에서는 더 이상 GAC에 MSBuild를 배치하거나 레지스트리를 수정하지 않습니다. 그러나 이는 MSBuild API를 사용하여 프로젝트를 평가하거나 빌드하려는 애플리케이션이 Visual Studio 설치를 암시적으로 사용할 수 없음을 의미합니다.
 
 ## <a name="use-msbuild-from-visual-studio"></a>Visual Studio에서 MSBuild 사용
 
@@ -42,7 +42,7 @@ MSBuild가 중앙 위치에서 로드되도록 하려면 애플리케이션과 �
 
 해당 NuGet 패키지에서 MSBuild 어셈블리를 참조하도록 프로젝트 파일을 변경합니다. 어셈블리가 빌드 시에만 필요하고 출력 디렉터리에 복사하지 말아야 함을 NuGet에 알리도록 `ExcludeAssets=runtime`을 지정합니다.
 
-MSBuild 패키지의 주 및 부 버전은 지원하려는 Visual Studio의 최소 버전보다 작거나 같아야 합니다. 모든 버전의 Visual Studio 2017을 지원하려는 경우 패키지 버전 `15.1.548`을 참조하세요.
+MSBuild 패키지의 주 및 부 버전은 지원하려는 Visual Studio의 최소 버전보다 작거나 같아야 합니다. 예를 들어 Visual Studio 2017 및 이후 버전을 지원하려면 패키지 버전 `15.1.548`을 참조하세요.
 
 예를 들어 이 XML을 사용할 수 있습니다.
 

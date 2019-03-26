@@ -13,14 +13,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c9f42cb9cc506a47432397bc0135d2bd3123bcf7
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: 73e1616af5665fc7ae89a3aa1019f2600afc24fd
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953971"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57984135"
 ---
-# <a name="troubleshoot-visual-studio-2017-installation-and-upgrade-issues"></a>Visual Studio 2017 설치 및 업그레이드 문제 해결
+# <a name="troubleshoot-visual-studio-installation-and-upgrade-issues"></a>Visual Studio 설치 및 업그레이드 문제 해결
 
 > [!IMPORTANT]
 > 설치하는 데 문제가 있나요? 도와드리겠습니다. [**라이브 채팅**](https://visualstudio.microsoft.com/vs/support/#talktous)(영어로만 제공) 지원 옵션이 제공됩니다.
@@ -86,7 +86,7 @@ Visual Studio 설치 관리자 부트스트래퍼는 나머지 Visual Studio 설
 
 대부분의 설치 문제 해결에는 설치 로그가 필요합니다. Visual Studio 설치 관리자에서 [문제 보고](../ide/how-to-report-a-problem-with-visual-studio.md)를 사용하여 문제를 제출하는 경우 이러한 로그는 보고서에 자동으로 포함됩니다.
 
-Microsoft 지원에 문의하는 경우 [Microsoft Visual Studio 및 .NET Framework 로그 컬렉션 도구](https://aka.ms/vscollect)를 사용하여 이러한 설치 로그를 제공해야 할 수 있습니다. 로그 컬렉션 도구는 .NET Framework, Windows SDK 및 SQL Server를 포함하여 Visual Studio 2017에 의해 설치된 모든 구성 요소에서 설치 로그를 수집합니다. 또한 컴퓨터 정보, Windows Installer 인벤토리는 물론 Visual Studio 설치 관리자, Windows Installer 및 시스템 복원에 대한 Windows 이벤트 로그 정보도 수집합니다.
+Microsoft 지원에 문의하는 경우 [Microsoft Visual Studio 및 .NET Framework 로그 컬렉션 도구](https://aka.ms/vscollect)를 사용하여 이러한 설치 로그를 제공해야 할 수 있습니다. 로그 컬렉션 도구는 .NET Framework, Windows SDK 및 SQL Server를 포함하여 Visual Studio에 의해 설치된 모든 구성 요소에서 설치 로그를 수집합니다. 또한 컴퓨터 정보, Windows Installer 인벤토리는 물론 Visual Studio 설치 관리자, Windows Installer 및 시스템 복원에 대한 Windows 이벤트 로그 정보도 수집합니다.
 
 로그를 수집하려면
 
@@ -104,7 +104,7 @@ Microsoft 지원에 문의하는 경우 [Microsoft Visual Studio 및 .NET Framew
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017 제거](remove-visual-studio.md)
+* [Visual Studio 제거](remove-visual-studio.md)
 * [방화벽 또는 프록시 서버 배후에서 Visual Studio와 Azure 서비스 설치 및 사용](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Visual Studio 인스턴스 검색 및 관리 도구](tools-for-managing-visual-studio-instances.md)
 * [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)

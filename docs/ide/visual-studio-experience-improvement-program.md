@@ -8,12 +8,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f64655dd1afca25ca0c216fa93cb9f85fb4a5b41
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: a1e4f59b672049ee8148c94dbbf51e560e22c31e
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323120"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58070024"
 ---
 # <a name="visual-studio-customer-experience-improvement-program"></a>Visual Studio 사용자 환경 개선 프로그램
 
@@ -25,9 +25,7 @@ VSCEIP(Visual Studio 사용자 환경 개선 프로그램)는 Microsoft가 시�
 
 VSCEIP는 기본적으로 켜져 있습니다. 다음 지침을 따라 이 기능을 끄거나 다시 켤 수 있습니다.
 
-1. Visual Studio를 시작합니다.
-
-1. **도움말** 메뉴에서 **피드백 보내기**를 가리킨 다음, **설정**을 선택합니다.
+1. Visual Studio에서 **도움말** > **사용자 의견 보내기**를 선택한 후 **설정**을 선택합니다.
 
    **Visual Studio 환경 개선 프로그램** 대화 상자가 열립니다.
 

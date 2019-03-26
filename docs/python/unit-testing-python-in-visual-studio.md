@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 3290c091cd406bdf21aa841fc6148c9c2f6cd5b0
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: d4cab82a8fc7d3aec512ead169ff2be4b528eda6
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155983"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983808"
 ---
 # <a name="set-up-unit-testing-for-python-code"></a>Python 코드에 대해 유닛 테스트 설정
 
@@ -86,7 +86,7 @@ Python은 단위 테스트를 광범위하게 사용하여 프로그램을 설�
 
 ![테스트 디버깅](media/unit-test-debugging.png)
 
-Visual Studio 버전에 따라 **선택한 테스트에 대한 코드 검사 분석** 및 **테스트 프로파일링** 명령도 사용할 수 있습니다([기능 매트릭스](overview-of-python-tools-for-visual-studio.md#features-matrix) 참조).
+**선택한 테스트에 대한 코드 검사 분석** 및 **테스트 프로파일링** 명령을 사용할 수도 있습니다.
 
 ### <a name="known-issues"></a>알려진 문제
 
