@@ -12,12 +12,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: 7f2a09d7f3eb0df05ae1ba3c05706746cb9d7eb9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 8929a0b3bec64bbf2fc12bd84f6938463393a32c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55013641"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58070271"
 ---
 # <a name="build-an-opengl-es-application-on-android-and-ios"></a>Android 및 iOS에서 OpenGL ES 애플리케이션 빌드
 
@@ -31,11 +31,9 @@ iOS 및 Android용 OpenGL ES 앱을 개발하려면 먼저 모든 시스템 요�
 
 이 자습서에서는 먼저 새 OpenGL ES 애플리케이션 프로젝트를 만든 후 Android용 Visual Studio 에뮬레이터에서 기본 앱을 빌드 및 실행합니다. 그런 다음 iOS용 앱을 빌드하고 iOS 시뮬레이터에서 앱을 실행합니다.
 
-### <a name="to-create-a-new-project"></a>새 프로젝트를 만들려면
+1. Visual Studio에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
-1. Visual Studio를 엽니다. 메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.
-
-2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++**, **플랫폼 간**을 차례로 선택한 후 **OpenGLES 애플리케이션(Android, iOS)** 템플릿을 선택합니다.
+2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++** > **플랫폼 간**을 선택한 후 **OpenGLES 애플리케이션(Android, iOS)** 템플릿을 선택합니다.
 
 3. 앱의 이름을 `MyOpenGLESApp`과 같이 지정하고 **확인**를 참조하세요.
 

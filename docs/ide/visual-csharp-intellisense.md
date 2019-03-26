@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 5d6bf678e40c999442d35caba53bcaabb8f9ba48
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ef4f8974f448ad9e2e81d4f1ba98aa02ed9da354
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936865"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194606"
 ---
 # <a name="c-intellisense"></a>C# IntelliSense
 
@@ -94,7 +94,7 @@ IntelliSense는 자동 개체 이름 완성을 위해 팝업 [멤버 목록](../
 
 **using 추가** IntelliSense 작업은 필요한 `using` 지시문을 코드 파일에 자동으로 추가합니다. 이 기능을 사용하면 코드의 다른 부분으로 포커스를 이동할 필요 없이 작성 중인 코드에 포커스를 유지할 수 있습니다.
 
-**using 추가** 작업을 시작하려면 확인할 수 없는 형식 참조에 커서를 놓습니다. 예를 들어 콘솔 애플리케이션을 만든 다음 `XmlTextReader`를 `Main` 메서드의 본문에 추가하면 형식 참조를 확인할 수 없으므로 빨간색 물결선이 해당 코드 줄에 나타납니다. 그런 다음, **빠른 작업**을 통해 **using 추가**를 호출할 수 있습니다. **빠른 작업**은 커서가 바인딩되지 않은 형식에 있을 때만 표시됩니다.
+**using 추가** 작업을 시작하려면 확인할 수 없는 형식 참조에 커서를 놓습니다. 예를 들어 콘솔 애플리케이션을 만든 다음 `XmlReader`를 `Main` 메서드의 본문에 추가하면 형식 참조를 확인할 수 없으므로 빨간색 물결선이 해당 코드 줄에 나타납니다. 그런 다음, **빠른 작업**을 통해 **using 추가**를 호출할 수 있습니다. **빠른 작업**은 커서가 바인딩되지 않은 형식에 있을 때만 표시됩니다.
 
 ![using 추가, 빠른 작업 확장된 이미지](../ide/media/addusing-quickaction.png)
 

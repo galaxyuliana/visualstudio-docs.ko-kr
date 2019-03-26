@@ -10,18 +10,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 07666efb673702e20c3c5c4a9b279de729e4c838
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: cad2d1a83ed60cde4f3a410f8183e5ee6074321c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605408"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983912"
 ---
 # <a name="publish-an-application-to-iis-by-importing-publish-settings-in-visual-studio"></a>Visual Studio에서 게시 설정을 가져와서 IIS에 애플리케이션 게시
 
 **게시** 도구를 사용하여 게시 설정을 가져온 다음, 앱을 배포할 수 있습니다. 이 문서에서는 IIS에 대한 게시 설정을 사용하지만 비슷한 단계를 사용하여 [Azure App Service](../deployment/tutorial-import-publish-settings-azure.md)에서 게시 설정을 가져올 수 있습니다. 일부 시나리오에서는 게시 설정 프로필을 사용하는 것이 Visual Studio를 설치할 때마다 IIS에 대한 배포를 수동으로 구성하는 것보다 빠를 수 있습니다.
 
-이러한 단계는 Visual Studio에서 ASP.NET, ASP.NET Core 및 .NET Core 앱에 적용됩니다. 단계는 Visual Studio 2017 버전 15.6에 해당합니다.
+이러한 단계는 Visual Studio에서 ASP.NET, ASP.NET Core 및 .NET Core 앱에 적용됩니다.
 
 이 자습서에서 다음을 수행합니다.
 
@@ -38,9 +38,19 @@ ms.locfileid: "56605408"
 
 ## <a name="prerequisites"></a>전제 조건
 
-* 개발 컴퓨터에 **ASP.NET 및 웹 개발** 워크로드와 Visual Studio 2017이 설치되어 있어야 합니다.
+::: moniker range=">=vs-2019"
 
-    아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)  페이지로 이동하여 체험용으로 설치합니다.
+* **ASP.NET 및 웹 개발** 워크로드와 Visual Studio 2019가 설치되어 있어야 합니다.
+
+    아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/)  페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+* **ASP.NET 및 웹 개발** 워크로드와 Visual Studio 2017이 설치되어 있어야 합니다.
+
+    아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/)  페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
 
 * 서버에서 Windows Server 2012 또는 Windows Server 2016을 실행하고 [IIS Web Server 역할](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)이 올바르게 설치되어 있어야 합니다(게시 설정 파일(*\*.publishsettings*)을 생성하는 데 필요함). ASP.NET 4.5 또는 ASP.NET Core도 서버에 설치해야 합니다. ASP.NET 4.5를 설정하려면 [ASP.NET 3.5 및 ASP.NET 4.5를 사용하는 IIS 8.0](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)을 참조하세요. ASP.NET Core를 설정하려면 [IIS가 있는 Windows에서 ASP.NET Core 호스팅](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration)을 참조하세요.
 

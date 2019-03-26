@@ -9,12 +9,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/25/2017
 ms.author: ghogen
-ms.openlocfilehash: fc72fdc63fefd5b60ecfc8ab001b94b87b69e481
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 922e13e77713e7f4ba5bd18af93507855d292537
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323804"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194695"
 ---
 # <a name="manage-the-resources-associated-with-your-azure-accounts-in-visual-studio-cloud-explorer"></a>Visual Studio 클라우드 탐색기에서 Azure 계정과 연결된 리소스 관리
 
@@ -24,17 +24,17 @@ ms.locfileid: "57323804"
 
 ## <a name="prerequisites"></a>전제 조건
 
-* **Azure 워크로드**가 선택된 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 또는 [Microsoft Azure SDK for .NET 2.9](https://www.microsoft.com/download/details.aspx?id=51657)가 있는 이전 버전의 Visual Studio
+* **Azure 워크로드**가 선택된 Visual Studio 2017 이상([Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 참조). [.NET용 Microsoft Azure SDK 2.9](https://www.microsoft.com/download/details.aspx?id=51657)가 포함된 이전 버전의 Visual Studio를 사용할 수도 있습니다.
 * Microsoft Azure 계정 - 계정이 없는 경우 [평가판을 등록](http://go.microsoft.com/fwlink/?LinkId=623901)하거나 [Visual Studio 구독자 혜택을 활성화](http://go.microsoft.com/fwlink/?LinkId=623901)할 수 있습니다.
 
 > [!NOTE]
-> 클라우드 탐색기를 보려면 메뉴 모음에서 **보기** > **클라우드 탐색기**를 선택합니다.
+> 클라우드 탐색기를 보려면 **Ctrl**+**Q**를 눌러 **빠른 실행**을 호출하고 **클라우드 탐색기**를 입력합니다.
 
 ## <a name="add-an-azure-account-to-cloud-explorer"></a>클라우드 탐색기에 Azure 계정 추가
 
-Azure 계정에 연결된 리소스를 보려면 먼저 클라우드 탐색기에 계정을 추가해야 합니다.
+Azure 계정에 연결된 리소스를 보려면 먼저 **클라우드 탐색기**에 계정을 추가해야 합니다.
 
-1. **클라우드 탐색기**에서 **Azure 계정 설정**을 선택합니다.
+1. **클라우드 탐색기**에서 **계정 관리** 단추를 선택합니다.
 
    ![클라우드 탐색기 Azure 계정 설정 아이콘](./media/vs-azure-tools-resources-managing-with-cloud-explorer/azure-account-settings.png)
 

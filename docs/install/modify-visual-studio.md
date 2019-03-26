@@ -16,14 +16,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cf114093c6ba3e267cab901864c5442df8e33236
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 03dbfd8140249a93dfb649894dabab1c57b203c2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957301"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57984003"
 ---
-# <a name="modify-visual-studio-2017-by-adding-or-removing-workloads-and-components"></a>작업과 구성 요소를 추가하거나 제거하여 Visual Studio 2017 수정
+# <a name="modify-visual-studio-by-adding-or-removing-workloads-and-components"></a>워크로드와 구성 요소를 추가하거나 제거하여 Visual Studio 수정
 
 수행하려는 작업에 맞게 Visual Studio를 쉽게 개인 설정할 수 있을 뿐만 아니라 더 쉽게 사용자 지정할 수도 있습니다. 그러면 새로운 Visual Studio 설치 관리자를 시작하고 원하는 대로 변경하면 됩니다.
 
@@ -69,6 +69,6 @@ Visual Studio 설치를 사용자 지정하기 위해 편리한 작업 기능을
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017 설치](install-visual-studio.md)
-* [Visual Studio 2017 업데이트](update-visual-studio.md)
-* [Visual Studio 2017 제거](uninstall-visual-studio.md)
+* [Visual Studio 설치](install-visual-studio.md)
+* [Visual Studio 업데이트](update-visual-studio.md)
+* [Visual Studio 제거](uninstall-visual-studio.md)

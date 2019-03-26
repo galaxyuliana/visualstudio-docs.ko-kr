@@ -9,12 +9,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016
 ms.author: ghogen
-ms.openlocfilehash: 6d1e485e89c3455c61b1050575398cae17b4aaa1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: dab9cd1600e77a480ca49c131aee2dbdcb8f0521
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55941909"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194764"
 ---
 # <a name="using-windows-powershell-scripts-to-publish-to-dev-and-test-environments"></a>Windows PowerShell 스크립트를 사용하여 개발 및 테스트 환경에 게시
 
@@ -24,7 +24,7 @@ Visual Studio에서 웹 애플리케이션을 만들 경우 Windows PowerShell �
 
 ## <a name="prerequisites"></a>전제 조건
 
-* Azure SDK 2.3 이상 [Visual Studio 다운로드](http://go.microsoft.com/fwlink/?LinkID=624384)를 참조하세요. (웹 프로젝트용 스크립트를 생성하기 위해 Azure SDK는 필요하지 않습니다. 이 기능은 클라우드 서비스의 웹 역할이 아닌 웹 프로젝트용입니다.)
+* **Azure 워크로드**가 설치된 Visual Studio 2015 이상 또는 Visual Studio 2013 및 Azure SDK 2.3 이상. [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc)를 참조하세요. (웹 프로젝트용 스크립트를 생성하기 위해 Azure SDK는 필요하지 않습니다. 이 기능은 클라우드 서비스의 웹 역할이 아닌 웹 프로젝트용입니다.)
 * Azure PowerShell 0.7.4 이상 [Azure PowerShell 설치 및 구성 방법](/powershell/azure/overview)을 참조하세요.
 * [Windows PowerShell 3.0](http://go.microsoft.com/?linkid=9811175) 이상
 
@@ -154,7 +154,7 @@ Azure에 단일 프로덕션 사이트가 아닌 여러 배포 환경(슬롯이�
 
    ![웹 배포 패키지 만들기](./media/vs-azure-tools-publishing-using-powershell-scripts/IC767885.png)
 
-   자세한 내용은 [방법: Visual Studio에서 웹 배포 패키지 만들기](https://msdn.microsoft.com/library/dd465323.aspx)를 참조하세요. 또한 [게시 스크립트 사용자 지정 및 확장](#customizing-and-extending-publish-scripts)에서 설명하는 대로 웹 배포 패키지 생성을 자동화할 수 있습니다.
+   자세한 내용은 [방법: Visual Studio에서 웹 배포 패키지 만들기](https://msdn.microsoft.com/library/dd465323.aspx)를 참조하세요. 또한 [게시 스크립트 사용자 지정 및 확장](#customizing-and-extending-the-publish-scripts)에서 설명하는 대로 웹 배포 패키지 생성을 자동화할 수 있습니다.
 
 1. **솔루션 탐색기**에서 스크립트의 상황에 맞는 메뉴를 연 다음 **PowerShell ISE로 열기**를 선택합니다.
 1. 이 컴퓨터에서 Windows PowerShell 스크립트를 처음으로 실행하는 경우 관리자 권한으로 명령 프롬프트 창을 열고 다음 명령을 입력합니다.
@@ -242,7 +242,7 @@ Azure에 단일 프로덕션 사이트가 아닌 여러 배포 환경(슬롯이�
     }
     ```
 
-1. `New-WebDeployPackage`을(를) 다음 코드로 바꾸고 `$msbuildCmd` 생성 줄에서 자리 표시자를 바꿉니다. 이 코드는 Visual Studio 2017용입니다. Visual Studio 2015를 사용하는 경우 **VisualStudioVersion** 속성을 `14.0`(Visual Studio 2013은 `12.0`)으로 변경해야 합니다.
+1. `New-WebDeployPackage`을(를) 다음 코드로 바꾸고 `$msbuildCmd` 생성 줄에서 자리 표시자를 바꿉니다. 이 코드는 Visual Studio 2019용입니다. Visual Studio 2017을 사용하는 경우 **VisualStudioVersion** 속성을 `15.0`(Visual Studio 2015는 ‘14.0’, Visual Studio 2013은 `12.0`)으로 변경하세요.
 
     ```powershell
     function New-WebDeployPackage
@@ -255,7 +255,7 @@ Azure에 단일 프로덕션 사이트가 아닌 여러 배포 환경(슬롯이�
     ```powershell
     Write-VerboseWithTime 'Build-WebDeployPackage: Start'
 
-    $msbuildCmd = '"{0}" "{1}" /T:Rebuild;Package /P:VisualStudioVersion=15.0 /p:OutputPath="{2}\MSBuildOutputPath" /flp:logfile=msbuild.log,v=d' -f (Get-MSBuildCmd), $ProjectFile, $scriptDirectory
+    $msbuildCmd = '"{0}" "{1}" /T:Rebuild;Package /P:VisualStudioVersion=16.0 /p:OutputPath="{2}\MSBuildOutputPath" /flp:logfile=msbuild.log,v=d' -f (Get-MSBuildCmd), $ProjectFile, $scriptDirectory
 
     Write-VerboseWithTime ('Build-WebDeployPackage: ' + $msbuildCmd)
     ```

@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5e73a20cfd50d859cc050f540fa2d84cae874fc9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3562ed9ebf2d62ab002ac227486218c8c38ad337
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907804"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983795"
 ---
 # <a name="manage-external-tools"></a>외부 도구 관리
 
@@ -26,11 +26,22 @@ ms.locfileid: "55907804"
 
 **도구** 메뉴에는 다음과 같은 몇 가지 기본 제공 명령이 포함되어 있습니다.
 
+::: moniker range="vs-2017"
+
 * [Visual Studio 확장 관리](finding-and-using-visual-studio-extensions.md)를 위한 **확장 및 업데이트**
 * [코드 조각 구성을 위한](code-snippets.md) **코드 조각 관리자**
-* [Dotfuscator CE(Community Edition)](dotfuscator/index.md)이 [설치](dotfuscator/install.md)된 경우 실행하기 위한 **PreEmptive Protection - Dotfuscator**
 * [메뉴 및 도구 모음 사용자 지정](how-to-customize-menus-and-toolbars-in-visual-studio.md)을 위한 **사용자 지정**
 * [Visual Studio IDE 및 기타 도구에 대한 다양한 옵션 설정](reference/options-dialog-box-visual-studio.md)을 위한 **옵션**
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+* [코드 조각 구성을 위한](code-snippets.md) **코드 조각 관리자**
+* [메뉴 및 도구 모음 사용자 지정](how-to-customize-menus-and-toolbars-in-visual-studio.md)을 위한 **사용자 지정**
+* [Visual Studio IDE 및 기타 도구에 대한 다양한 옵션 설정](reference/options-dialog-box-visual-studio.md)을 위한 **옵션**
+
+::: moniker-end
 
 ## <a name="add-new-tools-to-the-tools-menu"></a>도구 메뉴에 새 도구 추가
 

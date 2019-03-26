@@ -1,9 +1,26 @@
+---
+ms.openlocfilehash: 969b9ecb5dca1802acb70405421614b3c860247e
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58052231"
+---
 ## <a name="prerequisites"></a>전제 조건
 
-* 선택한 언어에 적절한 워크로드를 사용하여 설치된 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)
+::: moniker range=">=vs-2019"
+
+* 선택한 언어에 적절한 워크로드를 사용하여 설치된 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
   * ASP.NET: **ASP.NET 및 웹 개발**
   * Python: **Python 개발**
   * Node.js: **Node.js 개발**
+::: moniker-end
+::: moniker range="vs-2017"
+* 선택한 언어에 적절한 워크로드를 사용하여 설치된 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
+  * ASP.NET: **ASP.NET 및 웹 개발**
+  * Python: **Python 개발**
+  * Node.js: **Node.js 개발**
+::: moniker-end
 
 * ASP.NET, ASP.NET Core, Python 또는 Node.js 프로젝트. 프로젝트가 아직 없는 경우 아래 옵션을 선택합니다.
   * ASP.NET Core: [빠른 시작: Visual Studio를 사용하여 첫 번째 ASP.NET Core 웹앱 만들기](../../ide/quickstart-aspnet-core.md)를 따르거나 **파일** > **새 프로젝트**를 사용하고 **Visual C#** > **.NET Core**를 선택한 다음, **ASP.NET Core 웹 애플리케이션**을 선택합니다. 메시지가 표시되면 **웹 애플리케이션(Model-View-Controller)** 템플릿을 선택하고, **인증 안 함**이 선택되었는지 확인한 다음, **확인**을 선택합니다.

@@ -16,12 +16,12 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 2af264ec8cf44f435f640a81a61dbd4cdbd84bd3
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: c87bba495353bec059c6edc7a394f991e81b39bc
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223314"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58195062"
 ---
 # <a name="whats-new-in-visual-studio-2017"></a>Visual Studio 2017의 새로운 기능
 
@@ -131,7 +131,7 @@ Visual Studio Enterprise 2017에서 라이브 단위 테스트는 코딩하는 �
 
 자동화된 테스트에 대한 자세한 내용은 [CI/CD pipeline for automated tests in DevOps(DevOps에서 자동화된 테스트에 대한 CI/CD 파이프라인)](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) 블로그 게시물을 참조하세요.
 
-또한 [Visual Studio의 지속적인 업데이트 도구](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs 확장의 새로운 기능에 대한 자세한 내용은 [정확하게 커밋: 커밋 타임 코드 품질](https://devblogs.microsoft.com/visualstudio/committing-with-confidence-commit-time-code-quality-information-updated/) 블로그 게시물을 참조하세요.
+또한 [Visual Studio의 지속적인 업데이트 도구](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs 확장의 새로운 기능에 대한 자세한 내용은 [정확하게 커밋: 커밋 타임 코드 품질](https://devblogs.microsoft.com/visualstudio/committing-with-confidence-getting-code-quality-information-at-commit-time/) 블로그 게시물을 참조하세요.
 
 ### <a name="visual-studio-ide-enhancements"></a>Visual Studio IDE 향상
 
@@ -188,7 +188,7 @@ A에서 B로 이동하는 데 도움이 되는 탐색 환경을 새로 고쳐 �
 
   ![Visual Studio 2017 구조체 시각화 도우미](media/vsIDE-StructureVisualizer.png)
 
-새로운 생산성 기능에 대한 자세한 내용은 Mark Wilson-Thomas의 [Visual Studio 2017의 생산성](https://devblogs.microsoft.com/visualstudio/productivity-in-visual-studio-2017-rc/)(영문) 블로그 게시물을 참조하세요.
+새로운 생산성 기능에 대한 자세한 내용은 [Visual Studio 2017: Productivity, Performance, and Partners](https://devblogs.microsoft.com/visualstudio/visual-studio-2017-productivity-performance-and-partners/)(Visual Studio 2017: 생산성, 성과 및 파트너) 블로그 게시물을 참조하세요.
 
 ### <a name="visual-c"></a>Visual C++
 
@@ -381,8 +381,8 @@ Visual Studio를 개선하는 방법을 제안하거나 제품 지원 옵션에 
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017 릴리스 정보](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)
-* [Visual Studio 2017 SDK의 새로운 기능](/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk?view=vs-2017)
+* [Visual Studio 2017 릴리스 정보](/visualstudio/releasenotes/vs2017-relnotes)
+* [Visual Studio 2017 SDK의 새로운 기능](/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk)
 * [Visual C++의 새로운 기능](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [C#의 새로운 기능](/dotnet/csharp/whats-new)
 * [Team Foundation Server의 새로운 기능](/tfs/server/whats-new?view=vsts)

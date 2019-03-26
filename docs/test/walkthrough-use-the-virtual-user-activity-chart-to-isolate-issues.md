@@ -9,12 +9,12 @@ ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d64f104cd7d893b48fca5fdbd454fb380dafc6ef
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d8971546c0f51dc759731a90569d3f7dc3f0e142
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947291"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069946"
 ---
 # <a name="walkthrough-using-the-virtual-user-activity-chart-to-isolate-issues"></a>연습: 가상 사용자 작업 차트를 사용하여 문제 격리
 
@@ -36,7 +36,7 @@ ms.locfileid: "55947291"
 
 ## <a name="open-the-colorwebapp-solution-created-in-the-previous-walkthroughs"></a>이전 연습에서 만든 ColorWebApp 솔루션 열기
 
-1.  Visual Studio를 시작합니다.
+1.  Visual Studio를 엽니다.
 
 2.  *LoadTest1.loadtest*가 포함된 **ColorWebApp** 솔루션을 엽니다. 이 부하 테스트는 이 항목의 시작 부분에서 사전 요구 사항 단원에 나열된 세 가지 연습의 단계를 수행하면 나오는 결과입니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "55947291"
 
 7.  다음 정보와 함께 도구 설명이 표시됩니다.
 
-    -   **User Id**
+    -   **사용자 ID**
 
     -   **시나리오**
 

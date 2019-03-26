@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 09aa22660853149472ca4b581e0e3d7d346846f2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d99a6ae3d2b1a2c0acfe4aee160801181c72cbe7
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634723"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58195221"
 ---
 # <a name="overview-of-tools-for-measuring-performance-in-visual-studio"></a>Visual Studio의 성능 측정을 위한 도구
 
@@ -25,4 +25,4 @@ ms.locfileid: "56634723"
 
 * [CPU 사용량 분석](../profiling/cpu-usage.md)은 CPU 사용량 도구에 대한 더 상세한 정보를 제공합니다.
 
-* [메모리 사용 분석](../profiling/memory-usage.md)으로 성능 병목 상태를 확인합니다.
+* [메모리 사용량 분석](../profiling/memory-usage.md)으로 성능 병목 상태를 확인합니다.

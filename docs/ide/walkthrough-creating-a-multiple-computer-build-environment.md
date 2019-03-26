@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 55c4514ddcc312a6d3ae72f1fc9b5f573ac562b5
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: d2ca4e45c83aa3291b922694ebd16df5ab7fc35e
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324223"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57870509"
 ---
 # <a name="walkthrough-create-a-multiple-computer-build-environment"></a>연습: 여러 컴퓨터 빌드 환경 만들기
 
@@ -264,7 +264,7 @@ MSBuild에 대한 설정을 구성하려면 레지스트리 항목을 만들어�
 |x86_amd64|x64 크로스|x86, x64|X64|
 |amd64|x64 네이티브|X64|X64|
 
-*vcvarsall.bat*이 실행되면, 즉 오류 메시지가 표시되지 않으면 다음 단계를 건너뛰고 이 문서의 [빌드 컴퓨터의 GAC(전역 어셈블리 캐시)에 MSBuild 어셈블리 설치](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingMSBuildToGAC) 섹션에서 계속할 수 있습니다.
+*vcvarsall.bat*이 실행되면, 즉 오류 메시지가 표시되지 않으면 다음 단계를 건너뛰고 이 문서의 [빌드 컴퓨터의 GAC(전역 어셈블리 캐시)에 MSBuild 어셈블리 설치](#install-msbuild-to-gac) 섹션에서 계속할 수 있습니다.
 
 ### <a name="manually-set-environment-variables"></a>환경 변수를 수동으로 설정
 
@@ -286,7 +286,7 @@ MSBuild에 대한 설정을 구성하려면 레지스트리 항목을 만들어�
 
    - %windir%\Microsoft.NET\Framework64\v4.0.30319
 
-## <a name="install-msbuild-assemblies-to-the-global-assembly-cache-gac-on-the-build-computer"></a>빌드 컴퓨터의 GAC(전역 어셈블리 캐시)에 MSBuild 어셈블리 설치
+## <a name="a-nameinstall-msbuild-to-gac--install-msbuild-assemblies-to-the-global-assembly-cache-gac-on-the-build-computer"></a><a name="install-msbuild-to-gac" /> 빌드 컴퓨터의 GAC(전역 어셈블리 캐시)에 MSBuild 어셈블리 설치
 
 MSBuild를 사용하려면 빌드 컴퓨터의 GAC에 일부 추가 어셈블리를 설치해야 합니다.
 
@@ -298,7 +298,7 @@ MSBuild를 사용하려면 빌드 컴퓨터의 GAC에 일부 추가 어셈블리
 
     - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.VCProjectEngine.dll
 
-2. GAC에 어셈블리를 설치하려면 빌드 컴퓨터에서 *gacutil.exe*를 찾습니다. 일반적으로 이는 %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\에 있습니다. 이 폴더를 찾을 수 없으면 이 연습의 [호스트 컴퓨터에서 빌드 컴퓨터로 파일 복사](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) 섹션에 있는 단계를 반복합니다.
+2. GAC에 어셈블리를 설치하려면 빌드 컴퓨터에서 *gacutil.exe*를 찾습니다. 일반적으로 이는 %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\에 있습니다. 이 폴더를 찾을 수 없으면 이 연습의 [호스트 컴퓨터에서 빌드 컴퓨터로 파일 복사](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#copy-files-from-the-host-computer-to-the-build-computer) 섹션에 있는 단계를 반복합니다.
 
      관리 권한이 있는 **명령 프롬프트** 창을 열고 각 파일에 대해 다음 명령을 실행합니다.
 
@@ -330,7 +330,7 @@ Visual Studio 프로젝트 및 솔루션은 Azure Pipelines를 사용하여 빌�
 
      이러한 단계에서는 디렉터리를 %Depot%으로 나타냅니다.
 
-2. 이 연습의 [호스트 컴퓨터에서 빌드 컴퓨터로 파일 복사](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) 섹션에 설명된 대로 디렉터리 및 파일을 복사하되 해당 항목을 방금 만든 *%Depot%* 디렉터리에 붙여넣습니다. 예를 들어 *%ProgramFiles%\Windows Kits\8.0\bin*에서 *%Depot%\Windows Kits\8.0\bin*으로 복사합니다.
+2. 이 연습의 [호스트 컴퓨터에서 빌드 컴퓨터로 파일 복사](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#copy-files-from-the-host-computer-to-the-build-computer) 섹션에 설명된 대로 디렉터리 및 파일을 복사하되 해당 항목을 방금 만든 *%Depot%* 디렉터리에 붙여넣습니다. 예를 들어 *%ProgramFiles%\Windows Kits\8.0\bin*에서 *%Depot%\Windows Kits\8.0\bin*으로 복사합니다.
 
 3. *%Depot%* 에 파일을 붙여넣었으면 다음 변경 내용을 적용합니다.
 

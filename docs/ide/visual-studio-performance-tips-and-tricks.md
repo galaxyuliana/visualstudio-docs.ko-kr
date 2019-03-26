@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4a2662f51baa38b2b2cf65af9654ed76ae63698e
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 7fccae7d42d9e8f99c78fd55f74466e2f83e5dfa
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57222989"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57868232"
 ---
 # <a name="visual-studio-performance-tips-and-tricks"></a>Visual Studio 성능 팁과 요령
 
@@ -25,7 +25,7 @@ Visual Studio 성능 권장 사항은 드물게 발생할 수 있는 메모리 �
 
 Windows 32비트 버전에서 64비트 버전으로 시스템을 업그레이드하면 Visual Studio에서 사용 가능한 가상 메모리가 2GB에서 4GB로 확장됩니다. Visual Studio는 32비트 프로세스이지만, 이렇게 하면 훨씬 더 큰 작업 부하에 대응할 수 ​​있습니다.
 
-자세한 내용은 [메모리 한도](/windows/desktop/Memory/memory-limits-for-windows-releases#memory_limits) 및 [64비트 Windows에서 /LARGEADDRESSAWARE 사용](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/)을 참조하세요.
+자세한 내용은 [메모리 한도](/windows/desktop/Memory/memory-limits-for-windows-releases) 및 [64비트 Windows에서 /LARGEADDRESSAWARE 사용](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/)을 참조하세요.
 
 ## <a name="disable-automatic-file-restore"></a>자동 파일 복원 사용 안 함
 
@@ -105,7 +105,17 @@ Visual Studio는 자동 문서 복원이 솔루션을 현저히 느리게 로드
 
     확장 기능은 Visual Studio에 추가된 부가적인 소프트웨어 구성 요소로서 새로운 기능을 제공하거나 기존 기능을 확장합니다. 확장 기능은 메모리 리소스 문제의 원인이 될 수도 있습니다. 메모리 리소스 문제가 발생하는 경우 확장 기능을 하나씩 해제하면서 시나리오나 워크플로에 어떠한 영향이 있는지 확인해 보세요.
 
-    확장 기능을 해제하려면 **도구** > **확장 및 업데이트**로 이동하고 특정 확장 기능을 해제합니다.
+   ::: moniker range="vs-2017"
+
+    확장을 사용하지 않으려면 **도구** > **확장 및 업데이트**로 이동하여 특정 확장을 사용하지 않도록 설정합니다.
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+    확장을 사용하지 않으려면 **확장** > **확장 관리**로 이동하여 특정 확장을 사용하지 않도록 설정합니다.
+
+   ::: moniker-end
 
 - **XAML 디자이너 사용 안 함**
 

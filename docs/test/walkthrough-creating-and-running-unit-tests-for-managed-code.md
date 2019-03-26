@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 author: gewarren
-ms.openlocfilehash: 26988b2fd74ae66bd1ef2724c55248371a81adf1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b1b40fe963b6a48a6fa9848c4d9e205bae5503e9
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922292"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069660"
 ---
 # <a name="walkthrough-create-and-run-unit-tests-for-managed-code"></a>연습: 관리 코드에 대한 단위 테스트 만들기 및 실행
 
@@ -35,28 +35,38 @@ ms.locfileid: "55922292"
 
 ## <a name="create-a-project-to-test"></a>테스트할 프로젝트 만들기
 
+::: moniker range="vs-2017"
+
 1. Visual Studio를 엽니다.
 
 2. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택합니다.
 
    **새 프로젝트** 대화 상자가 나타납니다.
 
-3. **설치된 템플릿**에서 **Visual C#** 을 클릭합니다.
+::: moniker-end
 
-4. 애플리케이션 형식 목록에서 **클래스 라이브러리**를 클릭합니다.
+::: moniker range=">=vs-2019"
 
-5. **이름** 상자에 **Bank**를 입력한 다음, **확인**을 클릭합니다.
+1. Visual Studio를 엽니다.
 
-   새 Bank 프로젝트가 만들어져 **솔루션 탐색기**에 표시되고 코드 편집기에 *Class1.cs* 파일이 열립니다.
+2. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+::: moniker-end
+
+3. C# 클래스 라이브러리 프로젝트 템플릿을 선택합니다.
+
+4. 프로젝트의 이름을 **Bank**로 지정하고 **확인** 또는 **만들기**를 클릭합니다.
+
+   Bank 프로젝트가 만들어져 **솔루션 탐색기**에 표시되고 코드 편집기에 *Class1.cs* 파일이 열립니다.
 
    > [!NOTE]
    > *Class1.cs*가 코드 편집기에서 열리지 않으면 **솔루션 탐색기**에서 *Class1.cs* 파일을 두 번 클릭하여 엽니다.
 
-6. [단위 테스트를 만들기 위한 샘플 프로젝트](../test/sample-project-for-creating-unit-tests.md)에서 소스 코드를 복사하고 *Class1.cs*의 원래 내용을 복사된 코드로 바꿉니다.
+5. [단위 테스트를 만들기 위한 샘플 프로젝트](../test/sample-project-for-creating-unit-tests.md)에서 소스 코드를 복사하고 *Class1.cs*의 원래 내용을 복사된 코드로 바꿉니다.
 
-7. 파일을 *BankAccount.cs*로 저장합니다.
+6. 파일을 *BankAccount.cs*로 저장합니다.
 
-8. **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.
+7. **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.
 
 이제 Bank라는 프로젝트가 준비되었습니다. 이 프로젝트에는 테스트할 소스 코드와 테스트에 사용할 도구가 들어 있습니다. Bank에 대한 네임스페이스 BankAccountNS에는 다음 절차에서 테스트할 메서드가 포함된 공용 클래스인 BankAccount가 있습니다.
 
@@ -346,7 +356,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 
 ### <a name="retest-rewrite-and-reanalyze"></a>재테스트, 재작성 및 재분석
 
-테스트 중인 메서드에 버그가 있다고 가정하고 `Debit` 메서드가 <xref:System.ArgumentOutOfRangeException>을 throw하지 않으며 예외와 함께 올바른 메시지를 출력하지 않는 것에 염려하지 마세요. 현재는 테스트 메서드가 이러한 사례를 처리하지 않습니다. `debitAmount` 값이 유효하면(즉, 잔액보다 작지만 0보다 큼) 예외가 catch되지 않으므로 어설션이 절대로 시작되지 않습니다. 그런데도 테스트 메서드를 통과합니다. 예외가 throw되지 않는 경우에도 테스트 메서드가 실패하지 않아야 하므로 이 방법은 좋지 않습니다.
+테스트 중인 메서드에 버그가 있는데 `Debit` 메서드에서 <xref:System.ArgumentOutOfRangeException>을 throw하지 않는 경우라도 올바른 메시지가 예외와 함께 출력될 수도 있습니다. 현재는 테스트 메서드가 이러한 사례를 처리하지 않습니다. `debitAmount` 값이 유효하면(즉, 잔액보다 작지만 0보다 큼) 예외가 catch되지 않으므로 어설션이 절대로 시작되지 않습니다. 그런데도 테스트 메서드를 통과합니다. 예외가 throw되지 않는 경우에도 테스트 메서드가 실패하지 않아야 하므로 이 방법은 좋지 않습니다.
 
 이것은 테스트 메서드의 버그입니다. 문제를 해결하려면 테스트 메서드 끝에 예외가 throw되지 않은 경우를 처리하도록 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> 어설션을 추가합니다.
 

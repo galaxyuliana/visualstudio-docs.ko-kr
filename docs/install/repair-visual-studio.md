@@ -10,14 +10,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 72a047512b8f6434661193f088f981c52c0ad118
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d358d4f608437ad7ca004d4adef614632a123012
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939439"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983207"
 ---
-# <a name="repair-visual-studio-2017"></a>Visual Studio 2017 복구
+# <a name="repair-visual-studio"></a>Visual Studio 복구
 
 경우에 따라 Visual Studio 설치가 손상되거나 훼손됩니다. 복구는 이 문제를 해결할 수 있습니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "55939439"
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017 설치](install-visual-studio.md)
-* [Visual Studio 2017 업데이트](update-visual-studio.md)
-* [Visual Studio 2017 제거](uninstall-visual-studio.md)
-* [Visual Studio 2017 설치 및 업그레이드 문제 해결](troubleshooting-installation-issues.md)
+* [Visual Studio 설치](install-visual-studio.md)
+* [Visual Studio 업데이트](update-visual-studio.md)
+* [Visual Studio 제거](uninstall-visual-studio.md)
+* [Visual Studio 설치 및 업그레이드 문제 해결](troubleshooting-installation-issues.md)

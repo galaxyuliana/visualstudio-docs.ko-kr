@@ -14,14 +14,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b33e08e8aa639540461216b057ae80d1eb7701f6
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: 78feb97dc2d738636667df21db1327f968ae6f69
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796545"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983054"
 ---
-# <a name="create-an-offline-installation-of-visual-studio-2017"></a>Visual Studio 2017의 오프라인 설치 만들기
+# <a name="create-an-offline-installation-of-visual-studio"></a>Visual Studio의 오프라인 설치 만들기
 
 Visual Studio 2017은 다양한 네트워크 및 컴퓨터 구성에서 제대로 작동하도록 설계되었습니다. 가능한 한 [Visual Studio 웹 설치 관리자](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)를 사용하는 것이 좋습니다. &mdash;이 파일은 작은 파일이며 최신 수정 사항 및 기능을 최신 상태로 유지할 수 있습니다&mdash;.
 
@@ -32,7 +32,7 @@ Visual Studio 2017은 다양한 네트워크 및 컴퓨터 구성에서 제대�
 
 ## <a name="use-the-download-all-then-install-feature"></a>"모두 다운로드한 후 설치" 기능 사용
 
-[**15.8의 새로운 기능**](/visualstudio/releasenotes/vs2017-relnotes-v15.8#install): 웹 설치 관리자를 다운로드한 후 Visual Studio에서 새로운 **모두 다운로드한 다음, 설치** 옵션을 선택합니다. 그런 다음, 설치를 계속합니다.
+[**버전 15.8의 새로운 기능**](/visualstudio/releasenotes/vs2017-relnotes-v15.8#install): 웹 설치 관리자를 다운로드한 후 Visual Studio에서 새로운 **모두 다운로드한 다음, 설치** 옵션을 선택합니다. 그런 다음, 설치를 계속합니다.
 
    !["모두 다운로드한 후 설치" 옵션](media/download-all-then-install.png)
 
@@ -143,7 +143,7 @@ c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDe
 
 ## <a name="see-also"></a>참고 항목
 
-- [Visual Studio 2017의 네트워크 설치 만들기](../install/create-a-network-installation-of-visual-studio.md)
+- [Visual Studio의 네트워크 설치 만들기](../install/create-a-network-installation-of-visual-studio.md)
 - [Visual Studio 오프라인 설치에 필요한 인증서 설치](../install/install-certificates-for-visual-studio-offline.md)
 - [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
-- [Visual Studio 2017 워크로드 및 구성 요소 ID](workload-and-component-ids.md)
+- [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)

@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a5b7538342cad63d820992fe699e65386f4f3c8e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: db9aaeb48095b058abb0deefa342598eefeed1b9
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908467"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57868913"
 ---
 # <a name="devenv-command-line-switches"></a>Devenv 명령줄 스위치
 
@@ -52,7 +52,7 @@ VSPackage 개발과 관련된 스위치에 대한 자세한 내용은 [VSPackage
   > [!NOTE]
   > 이 프로젝트를 참조하는 솔루션 파일 하나만 해당 부모 폴더에 있어야 합니다. 부모 폴더에 이 프로젝트를 참조하는 솔루션 파일이 없거나 두 개 이상 있는 경우 임시 솔루션 파일이 생성됩니다.
 
-- 파일 경로 및 파일 이름에 공백이 포함된 경우 큰따옴표("")로 묶어야 합니다. 예를 들어 `"c:\project a\"`과 같은 형식입니다.
+- 파일 경로 및 파일 이름에 공백이 포함된 경우 큰따옴표("")로 묶어야 합니다. 예를 들어, `"c:\project a\"`을 입력합니다.
 
 - 동일한 줄에 있는 스위치와 인수 사이에 공백 문자를 하나 삽입합니다. 예를 들어 `devenv /log output.txt` 명령은 IDE를 열고 해당 세션에 대한 모든 로그 정보를 output.txt에 출력합니다.
 
@@ -67,6 +67,7 @@ VSPackage 개발과 관련된 스위치에 대한 자세한 내용은 [VSPackage
 |[/Command](command-devenv-exe.md)|IDE를 시작하고 지정한 명령을 실행합니다.<br /><br /> `devenv /command "nav https://docs.microsoft.com/"`|
 |[/DebugExe](debugexe-devenv-exe.md)|디버거의 제어로 C++ 실행 파일을 로드합니다. 이 스위치는 Visual Basic 또는 C# 실행 파일에 제공되지 않습니다. 자세한 내용은 [디버거에서 자동으로 프로세스 시작](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger)을 참조하세요.<br /><br /> `devenv /debugexe mysln.exe`|
 |[/Diff](diff.md)|두 파일을 비교합니다. 네 개의 매개 변수를 사용합니다. *SourceFile*, *TargetFile*, *SourceDisplayName*(선택 사항) 및 *TargetDisplayName*(선택 사항).<br /><br /> `devenv /diff File1 File2 Alias1 Alias2`|
+|[/DoNotLoadProjects](donotloadprojects-devenv-exe.md)|프로젝트를 로드하지 않고 지정된 솔루션을 엽니다.<br /><br /> `devenv /donotloadprojects mysln.sln`|
 |[/Edit](edit-devenv-exe.md)|이 애플리케이션의 실행 중인 인스턴스에서 지정한 파일을 엽니다. 실행 중인 인스턴스가 없으면 간단한 창 레이아웃을 사용하여 새 인스턴스를 시작합니다.<br /><br /> `devenv /edit File1 File2`|
 |[/LCID 또는 /L](lcid-devenv-exe.md)|IDE의 기본 언어를 설정합니다. 지정한 언어가 Visual Studio 설치에 포함되어 있지 않은 경우 이 설정은 무시됩니다.<br /><br /> `devenv /l 1033`|
 |[/Log](log-devenv-exe.md)|Visual Studio를 시작하고 모든 작업을 로그 파일에 기록합니다.<br /><br /> `devenv /log mylogfile.xml`|

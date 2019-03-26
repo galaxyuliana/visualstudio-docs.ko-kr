@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: aa223bc4e63d5672feb6d518bc8df534f3162da0
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: f7d4b36003d097fc4750b80f62fc1267908b8c0b
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155658"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58151143"
 ---
 # <a name="work-with-the-python-interactive-window"></a>Python 대화형 창 작업
 
@@ -56,7 +56,7 @@ Visual Studio에는 선택 가능한 다양한 Python REPL 모드가 있습니�
 
 ## <a name="interactive-window-options"></a>대화형 창 옵션
 
-**도구** > **옵션** > **Python 도구** > **대화형 창**을 통해 **대화형** 창의 다양한 측면을 제어할 수 있습니다([옵션](python-support-options-and-settings-in-visual-studio.md) 참조).
+**도구** > **옵션** > **Python** > **대화형 창**을 통해 **대화형** 창의 다양한 측면을 제어할 수 있습니다([옵션](python-support-options-and-settings-in-visual-studio.md) 참조).
 
 ![Python 대화형 창 옵션](media/options-interactive-windows.png)
 
@@ -121,4 +121,4 @@ Visual Studio에는 선택 가능한 다양한 Python REPL 모드가 있습니�
 
 IntelliSense가 소스 코드 분석만을 기반으로 하는 코드 편집기와 달리 **대화형** 창에는 라이브 개체를 기반으로 한 IntelliSense가 포함되어 있습니다. 동적으로 생성된 코드의 경우 특히 **대화형** 창의 제안이 더 정확합니다. 단점은 부작용(예: 로깅 메시지)이 있는 함수가 개발 환경에 영향을 줄 수 있다는 점입니다.
 
-이 동작이 문제가 될 경우 [옵션 - 대화형 창 옵션](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options)에 설명된 대로 **도구** > **옵션** > **Python 도구** > **대화형** 창 아래의 **완료 모드** 그룹에서 설정을 변경합니다.
+이 동작이 문제가 될 경우 [옵션 - 대화형 창 옵션](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options)에 설명된 대로 **도구** > **옵션** > **Python** > **대화형 창** 아래의 **완료 모드** 그룹에서 설정을 변경합니다.

@@ -10,12 +10,12 @@ author: gewarren
 ms.author: stsu
 manager: jillfra
 monikerRange: '>= vs-2019'
-ms.openlocfilehash: cfa95c68d3b7ebe681e40d23a5424a3356a61ab6
-ms.sourcegitcommit: 62149c96de0811415e99bb1e0194e76c320e1a1e
+ms.openlocfilehash: 67ebbd94298c3325560b64945bed51c09db93833
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "57007178"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983886"
 ---
 # <a name="filtered-solutions-in-visual-studio"></a>Visual Studio의 필터링된 솔루션
 
@@ -37,7 +37,7 @@ ms.locfileid: "57007178"
 
 1. 메뉴 모음에서 **파일** > **열기** > **프로젝트/솔루션**을 선택합니다.
 
-2. **새 프로젝트** 대화 상자에서 솔루션을 선택한 다음, **프로젝트를 로드하지 않음**을 선택합니다.
+2. **프로젝트 열기** 대화 상자에서 솔루션을 선택하고 **프로젝트를 로드하지 않음**을 선택합니다.
 
    ![[프로젝트를 로드하지 않음]이 선택된 Visual Studio 프로젝트 열기 대화 상자](media/filtered-solutions/do-not-load-projects.png)
 

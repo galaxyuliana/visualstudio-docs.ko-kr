@@ -13,25 +13,27 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 8ecd06b2c340640db082c5d0a6bbdb6a30596748
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 9d948234846a3d4f9fe240a6bf30854d3f0c7007
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624414"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57872063"
 ---
 # <a name="analyze-energy-use-in-uwp-apps"></a>UWP 앱의 에너지 사용 분석
+
 Visual Studio **에너지 소비** 프로파일러를 사용하면 자체 배터리로 전부 또는 일부의 시간 동안 실행하는 저전력 태블릿 디바이스에서 UWP 앱의 전력 및 에너지 소비를 분석할 수 있습니다. 배터리로 구동하는 디바이스에서 앱이 너무 많은 에너지를 사용할 경우 고객 불만족을 일으킬 수 있고, 결과적으로 고객이 설치를 제거할 수도 있습니다. 에너지 사용을 최적화하면 고객이 앱을 채택하고 사용하는 사례가 증가할 수 있습니다.
 
 ## <a name="what-the-energy-consumption-profiler-is-how-it-works-and-what-it-measures"></a>에너지 소비 프로파일러 소개, 작동 방법 및 측정 대상
- 에너지 소비 프로파일러는 세션을 프로파일링하는 중 디바이스의 디스플레이, CPU, 네트워크 연결 활동을 캡처합니다. 그런 다음 그러한 활동에 사용된 전력과 세션 프로파일링의 총 에너지량의 추정치를 생성합니다.
+
+에너지 소비 프로파일러는 세션을 프로파일링하는 중 디바이스의 디스플레이, CPU, 네트워크 연결 활동을 캡처합니다. 그런 다음 그러한 활동에 사용된 전력과 세션 프로파일링의 총 에너지량의 추정치를 생성합니다.
 
 > [!NOTE]
 > 에너지 프로파일러는 표준 참조 장치 하드웨어를 사용하여 애플리케이션을 실행하는 저전력 태블릿 장치의 대표적 전력 및 에너지 사용을 추정합니다. 가장 정확한 추정치를 제공하려면 저전력 태블릿 디바이스에서 프로파일 데이터를 수집하는 것이 좋습니다.
 >
 > 이 모델은 다양한 저전력 디바이스에 대해 상당히 정확한 추정치를 제공하지만 프로파일링하는 디바이스의 실제 값은 달라질 가능성이 높습니다. 이러한 값을 사용하여 다른 리소스 사용에 비해 많은 에너지를 사용하고 있어서 최적화해야 할 디스플레이, CPU, 네트워크 활동을 찾습니다.
 
- 에너지 소비 프로파일러는 이러한 *전원* 및 *에너지*에 대한 정의를 사용합니다.
+에너지 소비 프로파일러는 이러한 *전원* 및 *에너지*에 대한 정의를 사용합니다.
 
 - *전원* 은 일정 시간 동안 일을 수행하는 데 사용된 힘의 효율을 측정합니다. 전기 과학에서 전력의 표준 단위는 *와트*입니다. 와트는 1암페어의 전류가 1볼트의 전위 차이를 통해 흐를 때 작업이 수행되는 속도로 정의됩니다. **전원 사용** 그래프에서 단위가 **mW** (밀리와트)로 표시되고 1mW는 1W의 1/1000에 해당합니다.
 
@@ -39,9 +41,9 @@ Visual Studio **에너지 소비** 프로파일러를 사용하면 자체 배터
 
 - *에너지* 는 배터리의 전력 용량과 같이 총 전력량을 용량 또는 전위로 측정하거나 일정 기간 동안 사용된 총 전력량으로 측정합니다. 에너지 단위는 1시간 동안 1와트가 일정하게 적용된 전력량인 와트-시간입니다. **에너지 요약**에서 단위가 **mW-h**(밀리와트시)로 표시됩니다.
 
-  ![에너지 양, 사용한 전원, 사용한 전체 에너지](../profiling/media/energyprof_capcitypowerused.png "ENERGYPROF_CapcityPowerUsed")
+![에너지 양, 사용한 전원, 사용한 전체 에너지](../profiling/media/energyprof_capcitypowerused.png)
 
-  예를 들어, 태블릿의 완전히 충전된 배터리에는 저장된 에너지가 상당히 많습니다. 네트워크 통신, 값 계산, 그래픽 표시 등의 작업을 수행하는 데 에너지를 사용하므로 다른 속도로 배터리 전력이 소실됩니다. 특정 기간 동안 소비된 총 전력도 에너지로 측정합니다.
+예를 들어, 태블릿의 완전히 충전된 배터리에는 저장된 에너지가 상당히 많습니다. 네트워크 통신, 값 계산, 그래픽 표시 등의 작업을 수행하는 데 에너지를 사용하므로 다른 속도로 배터리 전력이 소실됩니다. 특정 기간 동안 소비된 총 전력도 에너지로 측정합니다.
 
 ## <a name="identify-scenarios-with-user-marks"></a>사용자 표시로 시나리오 식별
  프로파일링 데이터에 *사용자 표시* 를 추가하여 타임라인 눈금자의 영역을 식별할 수 있습니다.
@@ -57,14 +59,14 @@ Visual Studio **에너지 소비** 프로파일러를 사용하면 자체 배터
  메서드가 실행되면 프로파일링 데이터에 사용자 표시와 메시지가 추가됩니다.
 
 > [!NOTE]
-> - Windows.Foundation.Diagnostics LoggingChannel은 [Windows.Foundation.IClosable](/uwp/api/windows.foundation.iclosable) 인터페이스를 구현합니다(C# 및 VB에서 [System.IDisposable](/dotnet/api/system.idisposable) 로 프로젝션됨). 운영 체제 리소스 누수를 방지하려면 로깅 채널이 완료될 때 [LoggingChannel.Close](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel)(C# 및 VB에서는 [Windows.Foundation.Diagnostics.LoggingChannel.Dispose](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel))를 호출합니다.
->  - 열린 각 로깅 채널의 이름은 고유해야 합니다. 동일한 이름의 새 로깅 채널을 삭제되지 않은 채널로 만들려고 하면 예외가 발생합니다.
+> - <xref:Windows.Foundation.Diagnostics.LoggingChannel?displayProperty=nameWithType>은 <xref:Windows.Foundation.IClosable?displayProperty=nameWithType> 인터페이스(C# 및 VB에서 <xref:System.IDisposable?displayProperty=nameWithType>로 프로젝션됨)를 구현합니다. 운영 체제 리소스가 누락되지 않도록 하려면 로깅 채널이 완료될 때 <xref:Windows.Foundation.Diagnostics.LoggingChannel.Close%2A?displayProperty=nameWithType>(C# 및 VB에서 <xref:Windows.Foundation.Diagnostics.LoggingChannel.Dispose%2A?displayProperty=nameWithType>)를 호출합니다.
+> - 열린 각 로깅 채널의 이름은 고유해야 합니다. 삭제되지 않은 채널과 이름이 같은 새 로깅 채널을 만들려고 시도하면 예외가 throw됩니다.
 
- 예제는 Windows SDK 샘플 [LoggingSession 샘플](https://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336)을 참조하세요.
+예제 코드는 Windows SDK 샘플 [LoggingSession sample](https://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336)(LoggingSession 샘플)을 참조하세요.
 
- **JavaScript 코드에 표시 추가**
+**JavaScript 코드에 표시 추가**
 
- 사용자 표시를 추가하려면 표시할 코드의 지점에 다음 코드를 추가합니다.
+사용자 표시를 추가하려면 표시할 코드의 지점에 다음 코드를 추가합니다.
 
 ```JavaScript
 if (performance && performance.mark) {
@@ -72,15 +74,15 @@ if (performance && performance.mark) {
 }
 ```
 
- *markDescription* 은 사용자 표시 도구 설명에 표시할 메시지가 포함되는 문자열입니다.
+*markDescription* 은 사용자 표시 도구 설명에 표시할 메시지가 포함되는 문자열입니다.
 
 ## <a name="configure-your-environment-for-profiling"></a>프로파일링을 위한 환경 구성
  더 정확하게 예측하려면 배터리 전원을 사용하는 저전력 디바이스에서 앱의 에너지 사용을 프로파일링합니다. Visual Studio는 이러한 디바이스에서 대부분 실행되지 않으므로 Visual Studio 원격 도구를 사용하여 디바이스에 Visual Studio 컴퓨터를 연결해야 합니다. 원격 디바이스에 연결하려면 Visual Studio 프로젝트와 원격 디바이스를 모두 구성해야 합니다. 자세한 내용은 [원격 컴퓨터에서 UWP 앱 실행](../debugger/run-windows-store-apps-on-a-remote-machine.md)을 참조하세요.
 
 > [!TIP]
 > - UWP 시뮬레이터 또는 Visual Studio 컴퓨터에서 에너지 프로파일링이 권장되지 않습니다. 실제 디바이스에서 프로파일링할 경우 실제에 훨씬 더 가까운 데이터가 제공됩니다.
->   -   대상 디바이스에 배터리 전원을 연결한 상태에서 프로파일링합니다.
->   -   동일한 리소스(네트워크, CPU 또는 디스플레이)를 사용할 수 있는 다른 앱을 닫습니다.
+> - 대상 디바이스에 배터리 전원을 연결한 상태에서 프로파일링합니다.
+> - 동일한 리소스(네트워크, CPU 또는 디스플레이)를 사용할 수 있는 다른 앱을 닫습니다.
 
 ## <a name="collect-energy-profile-data-for-your-app"></a>앱의 에너지 프로파일 데이터 수집
 
@@ -91,7 +93,7 @@ if (performance && performance.mark) {
 2.  **에너지 소비** 를 선택한 다음 **시작**을 선택합니다.
 
     > [!NOTE]
-    >  **에너지 소비** 프로파일러를 시작하면 *VsEtwCollector.exe* 실행 권한을 요청하는 **사용자 계정 제어** 창이 나타날 수 있습니다. **예**를 선택합니다.
+    > **에너지 소비** 프로파일러를 시작하면 *VsEtwCollector.exe* 실행 권한을 요청하는 **사용자 계정 제어** 창이 나타날 수 있습니다. **예**를 선택합니다.
 
 3.  데이터를 수집하려면 앱을 실행합니다.
 
@@ -145,11 +147,11 @@ if (performance && performance.mark) {
 
 ## <a name="other-resources"></a>기타 리소스
 
--   Windows 개발자 센터에 나와 있는 **C#/VB/C++ 및 XAML** 및 [JavaScript 및 HTML](/previous-versions/windows/apps/hh452985\(v\=win.10\)) 의 [연결 상태 및 원가 관리](https://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.
+- [C#/VB/C++ 및 XAML](/previous-versions/windows/apps/hh452985\(v\=win.10\))과 [JavaScript 및 HTML](/previous-versions/windows/apps/hh452983(v=win.10))의 **연결 상태 및 비용 관리** 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.
 
-     UWP 앱에 대한 Visual Studio 시뮬레이터를 사용하여 네트워크 정보 API의 데이터 연결 속성을 시뮬레이션할 수 있습니다. [시뮬레이터에서 UWP 앱 실행](../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하세요.
+   UWP 앱에 대한 Visual Studio 시뮬레이터를 사용하여 네트워크 정보 API의 데이터 연결 속성을 시뮬레이션할 수 있습니다. [시뮬레이터에서 UWP 앱 실행](../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하세요.
 
--   **JavaScript 함수 타이밍** 및 **CPU 사용** 도구를 사용하면 비효율적 함수 때문에 발생하는 CPU 로드를 줄일 수 있습니다. [CPU 사용량 분석](/visualstudio/profiling/beginners-guide-to-performance-profiling)을 참조하세요.
+- **JavaScript 함수 타이밍** 및 **CPU 사용** 도구를 사용하면 비효율적 함수 때문에 발생하는 CPU 로드를 줄일 수 있습니다. [CPU 사용량 분석](../profiling/beginners-guide-to-performance-profiling.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: de2d4832a1c45cbfd2b6f3893dd2b011151d9e48
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 66320e95664b86e56fc3c328c36360e4df4352b9
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951346"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57869365"
 ---
 # <a name="install-debugging-symbols-for-python-interpreters"></a>Python 인터프리터에 대한 디버깅 기호 설치
 
@@ -54,7 +54,7 @@ Visual Studio는 기호가 필요한 경우(일반적으로 혼합 모드 디버
 
     ![혼합 모드 디버거 기호 옵션](media/mixed-mode-debugging-symbols.png)
 
-1. 디버깅 세션 중에 Visual Studio에서 Python 인터프리터의 소스 파일 위치를 묻는 메시지를 표시할 수 있습니다. 소스 파일을 다운로드한 경우(예: [python.org/downloads](https://www.python.org/downloads)에서) 물론 해당 위치도 가리킬 수 있습니다.
+1. 디버깅 세션 중에 Visual Studio에서 Python 인터프리터의 소스 파일 위치를 묻는 메시지를 표시할 수 있습니다. 소스 파일을 다운로드한 경우(예: [python.org/downloads/](https://www.python.org/downloads/)에서) 해당 위치도 가리킬 수 있습니다.
 
 > [!Note]
 > 대화 상자에 표시된 기호 캐싱 기능은 온라인 소스에서 가져온 기호의 로컬 캐시를 만드는 데 사용됩니다. 이미 로컬에 있는 Python 인터프리터 기호에는 이러한 기능이 필요하지 않습니다. 어느 경우이든 자세한 내용은 [Visual Studio 디버거에서 기호 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)을 참조하세요.

@@ -10,18 +10,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: be70da79b1edc6142be1c45464097a027f859979
-ms.sourcegitcommit: 7153e2fc717d32e0e9c8a9b8c406dc4053c9fd53
+ms.openlocfilehash: 38601f8d88b56c3957943b28be298ac24eb12c91
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56413568"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983925"
 ---
 # <a name="publish-an-application-to-azure-app-service-by-importing-publish-settings-in-visual-studio"></a>Visual Studio에서 게시 설정을 가져와서 Azure App Service에 애플리케이션 게시
 
 **게시** 도구를 사용하여 게시 설정을 가져온 다음, 앱을 배포할 수 있습니다. 이 문서에서는 Azure App Service에 대한 게시 설정을 사용하지만 비슷한 단계를 사용하여 [IIS](../deployment/tutorial-import-publish-settings-iis.md)에서 게시 설정을 가져올 수 있습니다. 일부 시나리오에서는 게시 설정 프로필을 사용하는 것이 Visual Studio를 설치할 때마다 서비스에 대한 배포를 수동으로 구성하는 것보다 빠를 수 있습니다.
 
-이러한 단계는 Visual Studio에서 ASP.NET, ASP.NET Core 및 .NET Core 앱에 적용됩니다. [Python](../python/publishing-python-web-applications-to-azure-from-visual-studio.md) 앱에 대한 게시 설정을 가져올 수도 있습니다. 단계는 Visual Studio 2017 버전 15.6에 해당합니다.
+이러한 단계는 Visual Studio에서 ASP.NET, ASP.NET Core 및 .NET Core 앱에 적용됩니다. [Python](../python/publishing-python-web-applications-to-azure-from-visual-studio.md) 앱에 대한 게시 설정을 가져올 수도 있습니다.
 
 이 자습서에서 다음을 수행합니다.
 
@@ -37,9 +37,19 @@ ms.locfileid: "56413568"
 
 ## <a name="prerequisites"></a>전제 조건
 
+::: moniker range=">=vs-2019"
+
+* **ASP.NET 및 웹 개발** 워크로드와 Visual Studio 2019가 설치되어 있어야 합니다.
+
+    아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/)  페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 * **ASP.NET 및 웹 개발** 워크로드와 Visual Studio 2017이 설치되어 있어야 합니다.
 
-    아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)  페이지로 이동하여 체험용으로 설치합니다.
+    아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/)  페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
 
 * Azure App Service를 만듭니다. 자세한 지침은 [Visual Studio를 사용하여 Azure에 ASP.NET Core 웹앱 배포](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)를 참조하세요.
 

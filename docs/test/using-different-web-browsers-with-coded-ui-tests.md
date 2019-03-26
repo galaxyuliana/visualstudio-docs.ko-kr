@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 0a5cf418b04f43be9d10b39b9ffc518255092a8a
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 822ce0a2f0e8632706a4a1551cc53aafb23563ed
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318435"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983035"
 ---
 # <a name="use-different-web-browsers-with-coded-ui-tests"></a>코딩된 UI 테스트에 다른 웹 브라우저 사용
 
@@ -51,11 +51,23 @@ ms.locfileid: "56318435"
 
 ### <a name="install-selenium-components"></a>Selenium 구성 요소 설치
 
-1.  **도구** 메뉴 모음에서 **확장 및 업데이트**를 선택합니다.
+::: moniker range="vs-2017"
 
-2.  **확장 및 업데이트** 대화 상자에서 `Selenium components for Cross Browser Testing`을 검색합니다.
+1. **도구** 메뉴 모음에서 **확장 및 업데이트**를 선택합니다.
 
-3.  확장명을 강조 표시하고 **다운로드**를 선택합니다.
+2. **확장 및 업데이트** 대화 상자에서 `Selenium components for Cross Browser Testing`을 검색합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. **확장** 메뉴에서 **확장 관리**를 선택합니다.
+
+2. **확장 관리** 대화 상자에서 `Selenium components for Cross Browser Testing`을 검색합니다.
+
+::: moniker-end
+
+3. 확장명을 강조 표시하고 **다운로드**를 선택합니다.
 
     > [!TIP]
     > 또한 [여기](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting)에서 코딩된 UI 다중 브라우저 테스트용 Selenium 구성 요소를 다운로드할 수 있습니다.

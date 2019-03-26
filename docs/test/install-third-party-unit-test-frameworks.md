@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: af10b4d83cd39c388c5343501f4d6281c0b7a960
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: bf56749ccf49755fa66d44a3ab535d0b3e7611ce
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316147"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57982924"
 ---
 # <a name="install-unit-test-frameworks"></a>단위 테스트 프레임워크 설치
 
@@ -26,9 +26,19 @@ Visual Studio 확장 관리자 또는 [Visual Studio Marketplace](https://market
 
 ### <a name="install-from-visual-studio"></a>Visual Studio에서 설치
 
-1. 표준 메뉴에서 **도구**를 선택하고 **확장명 및 업데이트**를 선택합니다.
+::: moniker range="vs-2017"
 
-2. **온라인** > **Visual Studio Marketplace** > **도구**를 확장합니다. **테스트**를 선택합니다.
+1. **도구** > **확장 및 업데이트**를 선택합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. **확장** > **확장 관리**를 선택합니다.
+
+::: moniker-end
+
+2. **온라인** > **Visual Studio Marketplace** > **도구**를 확장한 다음, **테스트**를 선택합니다.
 
 3. 목록에서 프레임워크를 찾습니다.
 

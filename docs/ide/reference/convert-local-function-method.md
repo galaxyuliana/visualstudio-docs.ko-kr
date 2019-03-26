@@ -3,19 +3,19 @@ title: 로컬 함수를 메서드로 변환
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 55c82aa896de5c3f3bf18468a1da98253a3def74
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 96064b16e53081e0456ed43275acd5edf7ead468
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324678"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58152956"
 ---
 # <a name="convert-local-function-to-method"></a>로컬 함수를 메서드로 변환
 
@@ -38,7 +38,7 @@ ms.locfileid: "57324678"
 
 2. 줄의 임의 위치에서 **Ctrl**+**.** 를 눌러 **빠른 작업 및 리팩터링** 메뉴를 트리거합니다.
 
-    ![로컬 함수를 메서드 codefix로 변환](media/convert-local-function-to-method-codefix.png)
+    ![로컬 함수를 메서드 코드 수정 사항으로 변환](media/convert-local-function-to-method-codefix.png)
 
 2. **Enter**를 눌러 리팩터링을 수락합니다.
 

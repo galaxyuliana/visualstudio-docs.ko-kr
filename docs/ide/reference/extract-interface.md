@@ -12,12 +12,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: f0036bb9bf8ef6d0c09fddc2b8ac0a4977c3674c
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: cdead60fbde711ac9b219a6bbcb635e329d51a0a
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323437"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983203"
 ---
 # <a name="extract-an-interface-refactoring"></a>인터페이스 추출 리팩터링
 
@@ -29,7 +29,7 @@ ms.locfileid: "57323437"
 
 **내용:** 클래스, 구조체 또는 인터페이스에서 기존 멤버를 사용하여 인터페이스를 만들 수 있습니다.
 
-**시기:** 다른 클래스, 구조체 또는 인터페이스로 상속 될 수 있는 클래스, 구조체 또는 인터페이스의 멤버가 있습니다.
+**시기:** 다른 클래스, 구조체 또는 인터페이스로 상속될 수 있는 클래스, 구조체 또는 인터페이스의 멤버가 있습니다.
 
 **이유:** 인터페이스는 개체 지향 설계에 적합한 구문입니다. Eat, Drink, Sleep과 같은 공통 메서드를 모두 포함할 수 있는 다양한 동물(Dog, Cat, Bird)에 대한 클래스를 상상해 보세요. IAnimal 같은 인터페이스를 사용하면 Dog, Cat 및 Bird가 이러한 메서드에 대해 공통 “시그니처”를 가질 수 있습니다.
 
@@ -72,11 +72,17 @@ ms.locfileid: "57323437"
 
    - C#: 
 
-      ![결과 클래스 - C#](media/extractinterface-class-cs.png) ![결과 인터페이스 - C#](media/extractinterface-interface-cs.png)
+      ![결과 클래스 - C#](media/extractinterface-class-cs.png)
+      
+      
+      ![결과 인터페이스 - C#](media/extractinterface-interface-cs.png)
 
    - Visual Basic:
 
-      ![결과 클래스 - Visual Basic](media/extractinterface-class-vb.png)![결과 인터페이스 - Visual Basic](media/extractinterface-interface-vb.png)
+      ![결과 클래스 - Visual Basic](media/extractinterface-class-vb.png)
+      
+      
+      ![결과 인터페이스 - Visual Basic](media/extractinterface-interface-vb.png)
 
 ## <a name="see-also"></a>참고 항목
 

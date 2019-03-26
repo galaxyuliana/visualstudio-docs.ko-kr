@@ -14,16 +14,16 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c8e69c42cc0d726eba7e2c3c7f9a2decc9dd89e0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b7e026b85a990e0186decc9c67ebecb169c0fa98
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947824"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983899"
 ---
-# <a name="select-the-installation-locations-in-visual-studio-2017"></a>Visual Studio 2017에서 설치 위치 선택
+# <a name="select-the-installation-locations-in-visual-studio"></a>Visual Studio에서 설치 위치 선택
 
-**15.7의 새로운 기능**: 해당 파일의 일부의 위치를 변경하여 시스템 드라이브에서 Visual Studio의 설치 공간을 줄일 수 있습니다. 특히 다운로드 캐시, 공유 구성 요소, SDK 및 도구 파일에 대해 다른 위치를 사용할 수 있습니다.
+**버전 15.7의 새로운 기능**: 해당 파일의 일부의 위치를 변경하여 시스템 드라이브에서 Visual Studio의 설치 공간을 줄일 수 있습니다. 특히 다운로드 캐시, 공유 구성 요소, SDK 및 도구 파일에 대해 다른 위치를 사용할 수 있습니다.
 
    > [!NOTE]
    > 일부 도구와 SDK를 설치할 수 있는 위치에 다른 규칙이 적용되는 도구와 SDK가 있습니다. 이러한 도구 및 SDK는 다른 위치를 선택했다 하더라도 시스템 드라이브에 설치됩니다.
@@ -64,7 +64,7 @@ ms.locfileid: "55947824"
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017 설치](install-visual-studio.md)
-* [Visual Studio 2017 업데이트](update-visual-studio.md)
-* [Visual Studio 2017 수정](update-visual-studio.md)
-* [Visual Studio 2017 제거](uninstall-visual-studio.md)
+* [Visual Studio 설치](install-visual-studio.md)
+* [Visual Studio 업데이트](update-visual-studio.md)
+* [Visual Studio 수정](update-visual-studio.md)
+* [Visual Studio 제거](uninstall-visual-studio.md)

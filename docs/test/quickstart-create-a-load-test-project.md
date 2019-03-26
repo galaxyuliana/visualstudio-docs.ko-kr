@@ -7,12 +7,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c53d458a3ca80492abd83f5081be220835a613b2
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ac5e6b8cdce628fb37aea79d965a4721fe5560e0
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948474"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069972"
 ---
 # <a name="quickstart-create-a-load-test-project"></a>빠른 시작: 부하 테스트 프로젝트 만들기
 
@@ -42,15 +42,33 @@ ms.locfileid: "55948474"
 
 이 섹션에서는 C# 부하 테스트 프로젝트를 만듭니다. 원하는 경우 Visual Basic 부하 테스트 프로젝트를 만들 수도 있습니다.
 
-1. Visual Studio를 열고 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+::: moniker range="vs-2017"
+
+1. Visual Studio를 엽니다.
+
+2. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
    **새 프로젝트** 대화 상자가 열립니다.
 
-1. **새 프로젝트** 대화 상자에서 **설치됨** 및 **Visual C#** 을 확장한 다음, **테스트** 범주를 선택합니다. **웹 성능 및 부하 테스트 프로젝트** 템플릿을 선택합니다.
+3. **새 프로젝트** 대화 상자에서 **설치됨** 및 **Visual C#** 을 확장한 다음, **테스트** 범주를 선택합니다. **웹 성능 및 부하 테스트 프로젝트** 템플릿을 선택합니다.
 
    ![웹 성능 및 부하 테스트 프로젝트 템플릿](media/web-perf-load-test-project-template.png)
 
-1. 기본 이름을 사용하지 않으려면 프로젝트의 이름을 입력한 다음, **확인**을 선택합니다.
+4. 기본 이름을 사용하지 않으려면 프로젝트의 이름을 입력한 다음, **확인**을 선택합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio를 엽니다.
+
+2. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+3. **새 프로젝트 만들기** 대화 상자에서 검색 상자에 **웹 테스트**를 입력하고 C#용 **웹 성능 및 부하 테스트 프로젝트\[사용되지 않음]** 템플릿을 선택합니다. **다음**을 선택합니다.
+
+4. 기본 이름을 사용하지 않으려면 프로젝트의 이름을 입력하고 **만들기**를 선택합니다.
+
+::: moniker-end
 
    Visual Studio에서 프로젝트를 만들고 **솔루션 탐색기**에 파일을 표시합니다. 프로젝트는 초기에 *WebTest1.webtest*라는 웹 테스트 파일을 포함합니다.
 

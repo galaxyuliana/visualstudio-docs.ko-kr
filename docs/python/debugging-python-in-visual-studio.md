@@ -1,7 +1,7 @@
 ---
 title: Python 코드 디버그
 description: Visual Studio는 중단점 설정, 단계별 실행, 값 검사, 예외 확인, 대화형 창에서 디버깅을 포함하여 Python 코드에 대한 풍부한 디버깅 기능을 제공합니다.
-ms.date: 01/07/2019
+ms.date: 03/13/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 5bc1f41e683b8bf58486646b5beb2ae4de3d4049
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: 81e83b85c3f221cbd949067da6279facafb6e3d6
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954363"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58151364"
 ---
 # <a name="debug-your-python-code"></a>Python 코드 디버그
 
@@ -40,7 +40,7 @@ Visual Studio에서는 실행 중인 프로세스에 연결하고, **조사식**
 
 기본적인 디버깅 워크플로에는 다음 섹션에서 설명한 대로 중단점 설정, 단계별 코드 실행, 값 검사 및 예외 처리가 포함됩니다.
 
-디버깅 세션은 **디버그** > **디버깅 시작** 명령, 도구 모음의 **시작** 단추 또는 **F5** 키로 시작됩니다. 이러한 작업은 프로젝트의 활성 환경 및 **프로젝트 속성**([프로젝트 디버깅 옵션](#project-debugging-options) 참조)에 지정된 명령줄 인수 또는 검색 경로가 포함된 프로젝트의 시작 파일(**솔루션 탐색기**에서 굵게 표시됨)을 실행합니다. **Visual Studio 2017 버전 15.6** 이상에서는 시작 파일이 설정되지 않은 경우 경고가 표시되고, 이전 버전에서는 Python 인터프리터를 실행하는 출력 창이 열리거나 출력 창이 잠시 표시되었다가 사라집니다. 어떤 경우든, 해당 파일을 마우스 오른쪽 단추로 클릭하고 **시작 파일로 설정**을 선택합니다.
+디버깅 세션은 **디버그** > **디버깅 시작** 명령, 도구 모음의 **시작** 단추 또는 **F5** 키로 시작됩니다. 이러한 작업은 프로젝트의 활성 환경 및 **프로젝트 속성**([프로젝트 디버깅 옵션](#project-debugging-options) 참조)에 지정된 명령줄 인수 또는 검색 경로가 포함된 프로젝트의 시작 파일(**솔루션 탐색기**에서 굵게 표시됨)을 실행합니다. Visual Studio 2017 버전 15.6 이상에서는 시작 파일이 설정되지 않은 경우 경고가 표시되고, 이전 버전에서는 Python 인터프리터를 실행하는 출력 창이 열리거나 출력 창이 잠시 표시되었다가 사라집니다. 어떤 경우든, 해당 파일을 마우스 오른쪽 단추로 클릭하고 **시작 파일로 설정**을 선택합니다.
 
 > [!Note]
 > 디버거는 프로젝트에 대해 항상 활성 Python 환경으로 시작합니다. 환경을 변경하려면 [프로젝트에 대한 Python 환경 선택](selecting-a-python-environment-for-a-project.md)에 설명된 대로 다른 환경을 활성화합니다.
@@ -181,10 +181,6 @@ HTML, XML 및 JSON 시각화는 구문 강조 표시 및 트리 보기가 있는
 | `$where`, `$w`, `$bt` | 현재 스레드의 프레임을 나열합니다. |
 
 **프로세스**, **스레드** 및 **호출 스택**과 같은 표준 디버거 창은 **대화형 디버그** 창과 동기화되지 않습니다. **대화형 디버그** 창에서 활성 프로세스, 스레드 또는 프레임을 변경하는 경우 다른 디버거 창에는 적용되지 않습니다. 마찬가지로, 다른 디버거 창에서 활성 프로세스, 스레드 또는 프레임을 변경하는 경우 **대화형 디버그** 창에는 적용되지 않습니다.
-
-**대화형 디버그** 창에는 **도구** > **옵션** > **Python 도구** > **대화형 디버그 창**을 통해 액세스할 수 있는 고유한 옵션 집합이 있습니다. 각 Python 환경마다 별도의 인스턴스가 있는 일반 **Python 대화형** 창과 달리, 하나의 **대화형 디버그** 창만 있으며, 디버깅 중인 프로세스에 대해 항상 Python 인터프리터를 사용합니다. [옵션 - 디버깅 옵션](python-support-options-and-settings-in-visual-studio.md#debugging-options)을 참조하세요.
-
-![대화형 디버그 창 옵션](media/debugging-interactive-options.png)
 
 <a name="use-the-experimental-debugger"></a>
 

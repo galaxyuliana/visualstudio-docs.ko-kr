@@ -6,20 +6,22 @@ keywords: ''
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 03/07/2019
+ms.date: 03/13/2019
 ms.topic: reference
 helpviewer_keywords: ''
 ms.custom: seodec18
 ms.workload:
 - multiple
-ms.openlocfilehash: ddba89da33d06b740978fe2972863a2c3177496f
-ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
+ms.openlocfilehash: d5c5a21c83329d8c528421c2336755a5d0621be9
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57567411"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58194983"
 ---
 # <a name="visual-studio-build-numbers-and-release-dates"></a>Visual Studio 빌드 번호 및 릴리스 날짜
+
+::: moniker range="vs-2017"
 
 ## <a name="visual-studio-2017"></a>Visual Studio 2017
 
@@ -27,6 +29,8 @@ ms.locfileid: "57567411"
 
 | **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.9 | Release | 2019년 3월 12일 | 15.9.28307.518 |
+| 15.0.21 | Release | 2019년 3월 12일 | 15.0.26228.76 |
 | 15.9.8 | Release | 2019년 3월 5일 | 15.9.28307.481 |
 | 15.9.7 | Release | 2019년 2월 12일 | 15.9.28307.423 |
 | 15.0.21 | Release | 2019년 2월 12일 | 15.0.26228.73 |
@@ -172,12 +176,21 @@ ms.locfileid: "57567411"
 | 15.1 미리 보기 1 | 미리 보기 | 2017년 3월 7일 | 15.0.26304.0 |
 | 15.0.0 | Release | 2017년 3월 7일 | 15.0.26228.4 |
 
+> [!NOTE]
+> 다음 버전의 Visual Studio 빌드 번호 및 릴리스 날짜에 대한 자세한 내용은 [Visual Studio 2019 빌드 번호 및 릴리스 날짜](/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2019) 페이지를 참조하세요.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 ## <a name="visual-studio-2019"></a>Visual Studio 2019
 
 다음 표에는 현재까지 Visual Studio 2019의 빌드 번호 및 릴리스 날짜가 나와 있습니다.
 
 | **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | 릴리스 후보 2(RC.2) | 2019년 3월 12일 | 16.0.28711.60 |
+| 16.0.0 | 미리 보기 4.2 | 2019년 3월 12일 | 16.0.28711.60 |
 | 16.0.0 | 릴리스 후보 1 Svc1(RC.1 Svc1) | 2019년 3월 6일 | 16.0.28705.295 |
 | 16.0.0 | 미리 보기 4.1 Svc1 | 2019년 3월 6일 | 16.0.28705.295 |
 | 16.0.0 | 릴리스 후보 1(RC.1) | 2019년 3월 5일 | 16.0.28701.123 |
@@ -191,11 +204,13 @@ ms.locfileid: "57567411"
 | 16.0.0 | 미리 보기 1.1 | 2018년 12월 10일 | 16.0.28408.50 |
 | 16.0.0 | 미리 보기 1 | 2018년 12월 4일 | 16.0.28329.73 |
 
+::: moniker-end
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 릴리스 리듬](/visualstudio/productinfo/release-rhythm)
-* [Visual Studio 2017 관리자 가이드](visual-studio-administrator-guide.md)
-* [명령줄 매개 변수를 사용하여 Visual Studio 2017 설치](use-command-line-parameters-to-install-visual-studio.md)
+* [Visual Studio 릴리스 리듬](/visualstudio/productinfo/release-rhythm/)
+* [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)
+* [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
 * [Visual Studio 인스턴스 검색 및 관리 도구](tools-for-managing-visual-studio-instances.md)

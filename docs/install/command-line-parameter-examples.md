@@ -10,14 +10,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 042ec56cd7d94556f1bd3c64e1746e7cd4899c7b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 87b8c1d71b3ed1ee03433fd2720a86cf0ee3e6a2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908597"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57872097"
 ---
-# <a name="command-line-parameter-examples-for-visual-studio-2017-installation"></a>Visual Studio 2017 설치에 대한 명령줄 매개 변수 예
+# <a name="command-line-parameter-examples-for-visual-studio-installation"></a>Visual Studio 설치에 대한 명령줄 매개 변수 예
 
 [명령줄 매개 변수를 사용하여 Visual Studio를 설치](use-command-line-parameters-to-install-visual-studio.md)하는 방법을 보여 주기 위해 사용자의 요구에 맞게 사용자 지정할 수 있는 몇 가지 예를 제공합니다.
 
@@ -60,9 +60,16 @@ ms.locfileid: "55908597"
    --includeRecommended --quiet --wait
   ```
 
-  > [!NOTE]
-  > `--wait` 매개 변수는 배치 파일에서 사용하도록 설계되었습니다. 배치 파일에서 다음 명령의 실행은 설치가 완료될 때까지 계속되지 않습니다. `%ERRORLEVEL%` 환경 변수는 [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md) 페이지에 나오는 대로 명령의 반환 값을 포함합니다.
+## <a name="using---wait"></a>--wait 사용
 
+* 배치 파일 또는 스크립트에서 다음 명령을 실행하기 전에 Visual Studio 설치 관리자가 완료될 때까지 기다리는 데 사용합니다. 배치 파일에서는, [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md) 페이지에 나오는 대로, `%ERRORLEVEL%` 환경 변수가 명령의 반환 값을 포함합니다. 일부 명령 유틸리티는 추가 매개 변수가 있어야 완료될 때까지 기다리고 설치 관리자의 반환 값을 가져올 수 있습니다. 다음은 PowerShell 스크립트 명령 ‘Start-Process’와 함께 사용되는 추가 매개 변수에 대한 예제입니다.
+
+  ```cmd
+  $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "install", "--quiet", "--wait" -Wait -PassThru
+  ```
+  
+* 첫 번째 ‘--wait’는 Visual Studio 설치 관리자에서 사용되며, 두 번째 ‘-Wait’는 ‘Start-Process’에서 완료될 때까지 기다리는 데 사용됩니다. ‘-PassThru’ 매개 변수는 ‘Start-Process’에서 해당 반환 값의 설치 관리자 종료 코드를 사용하는 데 필요합니다.
+  
 ## <a name="using---layout"></a>--layout 사용
 
 * Visual Studio 핵심 편집기를 다운로드합니다(최소한의 Visual Studio 구성). 영어 언어 팩만 포함:
@@ -171,5 +178,5 @@ vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
 
 * [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)
 * [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
-* [Visual Studio 2017의 오프라인 설치 만들기](create-an-offline-installation-of-visual-studio.md)
+* [Visual Studio의 오프라인 설치 만들기](create-an-offline-installation-of-visual-studio.md)
 * [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)

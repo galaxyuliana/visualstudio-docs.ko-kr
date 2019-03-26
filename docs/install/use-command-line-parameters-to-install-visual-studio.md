@@ -15,16 +15,16 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f0c328b8ed549dc4afd90ccc1e02353f292f0dfc
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: 371574ad6c49d4601b571c2378c57fd399e6e715
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796844"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983077"
 ---
-# <a name="use-command-line-parameters-to-install-visual-studio-2017"></a>명령줄 매개 변수를 사용하여 Visual Studio 2017 설치
+# <a name="use-command-line-parameters-to-install-visual-studio"></a>명령줄 매개 변수를 사용하여 Visual Studio 설치
 
-명령 프롬프트에서 Visual Studio 2017를 설치할 때 다양한 명령줄 매개 변수를 사용하여 설치를 제어하거나 사용자 지정할 수 있습니다. 명령줄에서 다음 작업을 수행할 수 있습니다.
+명령 프롬프트에서 Visual Studio를 설치할 때 다양한 명령줄 매개 변수를 사용하여 설치를 제어하거나 사용자 지정할 수 있습니다. 명령줄에서 다음 작업을 수행할 수 있습니다.
 
 - 특정 옵션이 미리 선택된 상태로 설치를 시작합니다.
 - 설치 프로세스를 자동화합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "56796844"
 (설치 중인 제품 버전에 적합하게 `vs_enterprise.exe`를 바꿉니다.)
 
 >[!TIP]
-> 명령줄을 사용하여 Visual Studio 2017을 설치하는 방법에 대한 자세한 예제는 [명령줄 매개 변수 예제](command-line-parameter-examples.md) 페이지를 참조하세요.
+> 명령줄을 사용하여 Visual Studio를 설치하는 방법에 대한 자세한 예제는 [명령줄 매개 변수 예제](command-line-parameter-examples.md) 페이지를 참조하세요.
 
 | **명령** | **설명** |
 | ----------------------- | --------------- |
@@ -54,7 +54,7 @@ ms.locfileid: "56796844"
 | `update` | 설치된 제품을 업데이트합니다. |
 | `repair` | 설치된 제품을 복구합니다. |
 | `uninstall` | 설치된 제품을 제거합니다. |
-| `export` | **15.9의 새로운 기능**: 설치 선택 항목을 설치 구성 파일로 내보냅니다. **참고**: vs_installer.exe와 함께만 사용할 수 있습니다. |
+| `export` | **버전 15.9의 새로운 기능**: 설치 선택 항목을 설치 구성 파일로 내보냅니다. **참고**: vs_installer.exe와 함께만 사용할 수 있습니다. |
 
 ## <a name="install-options"></a>설치 옵션
 
@@ -115,7 +115,7 @@ ms.locfileid: "56796844"
 
 ## <a name="list-of-workload-ids-and-component-ids"></a>작업 ID 및 구성 요소 ID 목록
 
-Visual Studio 제품별로 정렬된 워크로드 및 구성 요소 ID 목록은 [Visual Studio 2017 워크로드 및 구성 요소 ID](workload-and-component-ids.md) 페이지를 참조하세요.
+Visual Studio 제품별로 정렬된 워크로드 및 구성 요소 ID 목록은 [Visual Studio 워크로드 및 구성 요소 ID](workload-and-component-ids.md) 페이지를 참조하세요.
 
 ## <a name="list-of-language-locales"></a>언어 로캘 목록
 
@@ -155,7 +155,7 @@ Visual Studio 제품별로 정렬된 워크로드 및 구성 요소 ID 목록은
 
 ## <a name="see-also"></a>참고 항목
 
-- [Visual Studio 2017 설치에 대한 명령줄 매개 변수 예](command-line-parameter-examples.md)
-- [Visual Studio 2017의 오프라인 설치 만들기](create-an-offline-installation-of-visual-studio.md)
+- [Visual Studio 설치에 대한 명령줄 매개 변수 예](command-line-parameter-examples.md)
+- [Visual Studio의 오프라인 설치 만들기](create-an-offline-installation-of-visual-studio.md)
 - [지시 파일을 사용하여 Visual Studio 설치 자동화](automated-installation-with-response-file.md)
-- [Visual Studio 2017 워크로드 및 구성 요소 ID](workload-and-component-ids.md)
+- [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)

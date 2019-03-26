@@ -1,6 +1,6 @@
 ---
 title: 컨테이너에 대한 알려진 문제
-description: Windows 컨테이너에 Visual Studio Build Tools 2017을 설치할 경우 발생할 수 있는 알려진 문제에 대해 자세히 알아봅니다.
+description: Windows 컨테이너에 Visual Studio Build Tools를 설치할 경우 발생할 수 있는 알려진 문제에 대해 자세히 알아봅니다.
 ms.date: 04/18/2018
 ms.custom: seodec18
 ms.topic: conceptual
@@ -10,16 +10,18 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5f1fdfcc71f2bd17bf8ab4be0796350799af2c35
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 52e3ab107aac36f50307db910c71e03b5a8b439b
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935019"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983704"
 ---
 # <a name="known-issues-for-containers"></a>컨테이너에 대한 알려진 문제
 
 Visual Studio를 Docker 컨테이너에 설치하는 데 몇 가지 문제가 있습니다.
+
+::: moniker range="vs-2017"
 
 ## <a name="windows-container"></a>Windows 컨테이너
 
@@ -36,6 +38,8 @@ Visual Studio를 Docker 컨테이너에 설치하는 데 몇 가지 문제가 �
 
 * mcr<span></span>.microsoft.com/windows/servercore:1809 이상에는 Visual Studio 2017 버전 15.8 또는 이전 버전(모든 제품)을 설치할 수 없습니다. 자세한 내용은 https://aka.ms/setup/containers/servercore1809를 참조하세요.
 
+::: moniker-end
+
 ## <a name="build-tools-container"></a>빌드 도구 컨테이너
 
 빌드 도구 컨테이너를 사용하는 경우 다음과 같은 알려진 문제가 발생할 수 있습니다. 문제가 해결되었는지 또는 다른 알려진 문제가 있는지 확인하려면 [https://developercommunity.visualstudio.com](https://developercommunity.visualstudio.com)에 방문하세요.
@@ -48,4 +52,4 @@ Visual Studio를 Docker 컨테이너에 설치하는 데 몇 가지 문제가 �
 
 * [Build Tools를 컨테이너에 설치](build-tools-container.md)
 * [고급 컨테이너 예제](advanced-build-tools-container.md)
-* [Visual Studio Build Tools 2017 워크로드 및 구성 요소 ID](workload-component-id-vs-build-tools.md)
+* [Visual Studio Build Tools 워크로드 및 구성 요소 ID](workload-component-id-vs-build-tools.md)

@@ -13,14 +13,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 076782f8f6e5d654c66e6a39f3ffe0342a74c560
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: bf78bc26a2eb0c0a217a48b7c663851447aa4f7f
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954023"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57871329"
 ---
-# <a name="create-a-network-installation-of-visual-studio-2017"></a>Visual Studio 2017의 네트워크 설치 만들기
+# <a name="create-a-network-installation-of-visual-studio"></a>Visual Studio의 네트워크 설치 만들기
 
 일반적으로 엔터프라이즈 관리자는 클라이언트 워크스테이션에 배포할 네트워크 설치 지점을 만듭니다. Visual Studio 2017은 초기 설치에 대한 파일과 모든 제품 업데이트를 단일 폴더에 캐시할 수 있도록 구성되어 있으므로(이 프로세스를 _레이아웃 만들기_라고도 함), 
 
@@ -48,7 +48,7 @@ ms.locfileid: "56954023"
 이 단계를 완료하려면 인터넷 연결이 있어야 합니다. 모든 언어와 기능을 포함한 오프라인 설치를 만들려면 다음 예제의 명령 중 하나를 사용합니다.
 
    > [!IMPORTANT]
-   > 전체 Visual Studio 2017 레이아웃에는 35GB 이상의 디스크 공간이 필요하며 다운로드하는 데 다소 시간이 걸릴 수 있습니다.  설치하려는 구성 요소만 포함하는 레이아웃을 만드는 방법은 [네트워크 레이아웃 사용자 지정](#customizing-the-network-layout)을 참조하세요.
+   > 전체 Visual Studio 2017 레이아웃에는 35GB 이상의 디스크 공간이 필요하며 다운로드하는 데 다소 시간이 걸릴 수 있습니다.  설치하려는 구성 요소만 포함하는 레이아웃을 만드는 방법은 [네트워크 레이아웃 사용자 지정](#customize-the-network-layout) 섹션을 참조하세요.
    >
    > [!TIP]
    > 다운로드 디렉터리에서 명령을 실행해야 합니다. 일반적으로 Windows 10을 실행하는 컴퓨터의 경우 `C:\Users\<username>\Downloads`입니다.
@@ -127,7 +127,7 @@ xcopy /e c:\vs2017offline \\server\products\VS2017
     vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional 
     ```
 
-### <a name="new-in-153"></a>15.3의 새로운 기능
+### <a name="new-in-version-153"></a>버전 15.3의 새로운 기능
 
 레이아웃 명령을 실행할 때 지정하는 옵션(예: 워크로드 및 언어)은 저장됩니다. 후속 레이아웃 명령에는 이전 옵션이 모두 포함됩니다.  다음은 영어용 워크로드 하나만 포함된 레이아웃의 예입니다.
 
@@ -209,7 +209,7 @@ vs_enterprise.exe --layout c:\VS2017Layout --all
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2017의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
+* [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
 * [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md)
 * [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)
 * [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)

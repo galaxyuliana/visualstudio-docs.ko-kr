@@ -112,8 +112,6 @@ items:
       href: customizing-code-coverage-analysis.md
     - name: 코드 검사 문제 해결
       href: troubleshooting-code-coverage.md
-  - name: 에뮬레이터를 사용하여 Sharepoint 2010 애플리케이션용 단위 테스트 격리
-    href: using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md
 - name: Live Unit Testing
   href: live-unit-testing-intro.md
   items:
@@ -339,8 +337,6 @@ items:
     href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
   - name: 코딩된 UI 테스트에서 HTML5 컨트롤 사용
     href: using-html5-controls-in-coded-ui-tests.md
-  - name: 코딩된 UI 테스트를 사용하여 SharePoint 2010 애플리케이션 테스트
-    href: testing-sharepoint-2010-applications-with-coded-ui-tests.md
   - name: 데이터 기반의 코딩된 UI 테스트 만들기
     href: creating-a-data-driven-coded-ui-test.md
   - name: 재생 중 특정 이벤트 대기
@@ -370,9 +366,9 @@ items:
     href: lab-management/use-build-or-rm-instead-of-lab-management.md
   - name: 테스트 에이전트 및 테스트 컨트롤러 설치
     href: lab-management/install-configure-test-agents.md
-ms.openlocfilehash: c361abfb14ec9c89054b08d561c11e060d05a6af
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: d63258d61d94ca52208b89267b92743e95d3664c
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223795"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416281"

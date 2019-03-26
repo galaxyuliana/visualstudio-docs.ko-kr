@@ -1,7 +1,7 @@
 ---
 title: Python 개발자용 Visual Studio 개요
 titleSuffix: ''
-ms.date: 12/14/2018
+ms.date: 03/13/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -11,12 +11,12 @@ dev_langs:
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 094a768f0b1b50e03bb445becb956e8e91a862da
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 4868da71193519ceeb236349b8953a14189abaa7
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316615"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57983509"
 ---
 # <a name="welcome-to-the-visual-studio-ide--python"></a>Visual Studio IDE 시작 | Python
 
@@ -28,6 +28,10 @@ Visual Studio *통합 개발 환경*은 코드를 편집, 디버그 및 테스�
 
 - [**솔루션 탐색기**](../ide/solutions-and-projects-in-visual-studio.md)(오른쪽 위) - 코드 파일을 보고, 탐색하고, 관리할 수 있습니다. **솔루션 탐색기**에서 파일을 [솔루션 및 프로젝트](/visualstudio/get-started/tutorial-projects-solutions)로 그룹화하여 코드를 구성할 수 있습니다.
     - **솔루션 탐색기**와 함께 [**Python 환경**](managing-python-environments-in-visual-studio.md)이며, 여기에서 컴퓨터에 설치된 다양한 Python 인터프리터를 관리합니다.
+
+    ::: moniker range=">=vs-2019"
+    - Visual Studio 프로젝트 및 솔루션 파일을 만들지 않고도 폴더에서 Python 코드를 열고 실행할 수 있습니다. 자세한 내용은 [빠른 시작: 폴더에서 Python 코드 열기 및 실행](quickstart-05-python-visual-studio-open-folder.md)을 참조하세요.
+    ::: moniker-end
 
 - [편집기 창](../ide/writing-code-in-the-code-and-text-editor.md)(가운데) - 대부분 작업을 수행하는 곳으로 파일 콘텐츠가 표시됩니다. 이는 [Python 코드를 편집](editing-python-code-in-visual-studio.md)하고 코드 구조 내에서 탐색하며 디버깅 세션 중에 중단점을 설정하는 곳입니다. Python을 사용하면 코드를 선택하고 Ctrl + Enter를 눌러 [대화형 REPL 창](python-interactive-repl-in-visual-studio.md)에서 해당 코드를 실행할 수도 있습니다.
 
@@ -83,6 +87,12 @@ Windows의 세 가지 Visual Studio 2017 버전은 다음과 같습니다. Commu
    ![코드 탐색 명령](media/tour-ide-navigation-commands.png)
 
 ## <a name="powerful-features-for-python"></a>Python을 위한 강력한 기능
+
+::: moniker range=">=vs-2019"
+- [프로젝트 없이 코드 실행](quickstart-05-python-visual-studio-open-folder.md)
+
+    Visual Studio 2019부터 코드의 Visual Studio 프로젝트를 만들지 않고 IntelliSense 및 디버깅 같은 기능을 사용할 수 있도록 Python 코드가 포함된 폴더를 열 수 있습니다.
+::: moniker-end
 
 - [Python 대화형 REPL](python-interactive-repl-in-visual-studio.md)
 

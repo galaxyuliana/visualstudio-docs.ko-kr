@@ -2,7 +2,7 @@
 title: '자습서: Visual Basic에서 WPF(Windows Presentation Foundation)를 사용한 Hello World 앱'
 description: WPF(Windows Presentation Foundation) UI 프레임워크를 사용하는 Visual Studio를 통해 Visual Basic으로 간단한 Windows 데스크톱 .NET 앱을 만듭니다.
 ms.custom: seodec18, get-started
-ms.date: 10/03/2017
+ms.date: 03/14/2019
 ms.technology: vs-ide-general
 ms.topic: conceptual
 dev_langs:
@@ -13,26 +13,31 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: b6dc096eebde5c47bfa74214b24b91a05511894d
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: ecfb6f144b632f2c332d73e90a8deca08e8c03c6
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56800560"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58155539"
 ---
 # <a name="tutorial-create-a-simple-application-with-visual-basic"></a>자습서: Visual Basic으로 간단한 애플리케이션 만들기
 
-이 연습을 완료하면 Visual Studio를 사용하여 애플리케이션을 개발할 때 사용할 수 있는 여러 도구, 대화 상자 및 디자이너에 익숙해집니다. [IDE](visual-studio-ide.md)(통합 개발 환경)의 작업에 대해 배우면서 “Hello, World” 애플리케이션을 만들고, UI를 디자인하고, 코드를 추가하고, 오류를 디버그하게 됩니다.
+이 자습서를 완료하면 Visual Studio를 사용하여 애플리케이션을 개발할 때 사용할 수 있는 여러 도구, 대화 상자 및 디자이너에 익숙해집니다. [IDE](visual-studio-ide.md)(통합 개발 환경)의 작업에 대해 배우면서 “Hello, World” 애플리케이션을 만들고, UI를 디자인하고, 코드를 추가하고, 오류를 디버그하게 됩니다.
 
+::: moniker range="vs-2017"
 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
+::: moniker range=">=vs-2019"
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
 
 ## <a name="configure-the-ide"></a>IDE 구성
 
-처음으로 Visual Studio를 시작하는 경우 로그인하라는 메시지가 표시됩니다. 이 단계는 이 연습에 대한 옵션입니다. 다음으로 개발 설정과 색 테마를 선택하라는 대화 상자가 표시될 수 있습니다. 기본값을 유지하고 **Visual Studio 시작**을 선택합니다.
+::: moniker range="vs-2017"
+
+처음으로 Visual Studio를 시작하는 경우 로그인하라는 메시지가 표시됩니다. 이 단계는 이 자습서에 대한 옵션입니다. 다음으로 개발 설정과 색 테마를 선택하라는 대화 상자가 표시될 수 있습니다. 기본값을 유지하고 **Visual Studio 시작**을 선택합니다.
 
 ![설정 선택 대화 상자](../media/exploreide-settings.png)
-
-::: moniker range="vs-2017"
 
 Visual Studio를 시작하면 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 애플리케이션 창의 가운데에 **시작 페이지**가 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 **시작 페이지** 가 있는 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
 
@@ -42,7 +47,7 @@ Visual Studio를 시작하면 도구 창, 메뉴 및 도구 모음, 주 창 공�
 
 ::: moniker range=">=vs-2019"
 
-Visual Studio를 시작하면 **시작** 창이 먼저 열립니다. 개발 환경을 열려면 **코드 없이 계속 진행**을 선택합니다. 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 애플리케이션 창의 중앙 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
+Visual Studio를 시작하면 **시작** 창이 먼저 열립니다. **코드를 사용하지 않고 계속**을 선택하여 개발 환경을 엽니다. 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 애플리케이션 창의 중앙 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
 
 ::: moniker-end
 
@@ -52,20 +57,37 @@ Visual Studio에서 애플리케이션을 만들 때 먼저 프로젝트와 솔�
 
 1. 새 프로젝트를 만듭니다. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
+     ::: moniker range="vs-2017"
      ![메뉴 모음에서 파일, 새로 만들기, 프로젝트를 선택합니다.](../media/exploreide-filenewproject.png)
+     ::: moniker-end
+     ::: moniker range=">=vs-2019"
+     ![메뉴 모음에서 파일, 새로 만들기, 프로젝트를 선택합니다.](../media/vs-2019/exploreide-filenewproject-vs2019.png)
+     ::: moniker-end
 
-1. **새 프로젝트** 대화 상자에서 **설치** > **Visual Basic** > **Windows 데스크톱** 범주를 선택한 다음, **WPF 앱(.NET Framework)** 템플릿을 선택합니다. 프로젝트의 이름을 **HelloWPFApp**로 지정합니다.
+::: moniker range="vs-2017"
+2. **새 프로젝트** 대화 상자에서 **설치** > **Visual Basic** > **Windows 데스크톱** 범주를 선택한 다음, **WPF 앱(.NET Framework)** 템플릿을 선택합니다. 프로젝트의 이름을 **HelloWPFApp**로 지정하고 **확인**을 선택합니다.
 
      ![Visual Studio 새 프로젝트 대화 상자의 WPF 앱 템플릿](media/exploreide-newproject-vb.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+2. **새 프로젝트 만들기** 화면에서 “WPF”를 검색하고 **WPF 앱(.NET Framework)**, **다음**을 차례로 선택합니다.
 
-1. **확인**을 선택합니다.
+   ![Visual Studio 새 프로젝트 대화 상자의 WPF 앱 템플릿](media/vs-2019/exploreide-newprojectvb-vs2019.png)
 
-   HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. **WPF Designer**는 분할 뷰에 디자인 뷰와 *MainWindow.xaml*의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다. 시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다. 다음 항목이 **솔루션 탐색기**에 나타납니다.
+3. 다음 화면에서 프로젝트의 이름을 **HelloWPFApp**로 지정하고 **만들기**를 선택합니다.
+::: moniker-end
 
-   ![HelloWPFApp 파일이 로드된 솔루션 탐색기](../media/exploreide-hellowpfappfiles.png)
+HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. **WPF Designer**는 분할 뷰에 디자인 뷰와 *MainWindow.xaml*의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다. 시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다. 다음 항목이 **솔루션 탐색기**에 나타납니다.
 
-   > [!NOTE]
-   > XAML(eXtensible Application Markup Language)에 대한 자세한 내용은 [WPF에 대한 XAML 개요](/dotnet/framework/wpf/advanced/xaml-overview-wpf) 페이지를 참조하세요.
+::: moniker range="vs-2017"
+![HelloWPFApp 파일이 로드된 솔루션 탐색기](../media/exploreide-hellowpfappfiles.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![HelloWPFApp 파일이 로드된 솔루션 탐색기](../media/vs-2019/exploreide-hellowpfappfiles.png)
+::: moniker-end
+
+> [!NOTE]
+> XAML(eXtensible Application Markup Language)에 대한 자세한 내용은 [WPF에 대한 XAML 개요](/dotnet/framework/wpf/advanced/xaml-overview-wpf) 페이지를 참조하세요.
 
 프로젝트를 만든 후 사용자 지정할 수 있습니다. **보기** 메뉴에 있는 **속성** 창을 사용하여 프로젝트 항목, 컨트롤 및 애플리케이션의 기타 항목에 대한 옵션을 표시하고 변경할 수 있습니다.
 
@@ -87,7 +109,7 @@ MainWindow에 보다 구체적인 이름을 지정하겠습니다.
 
 ### <a name="add-a-textblock-control"></a>TextBlock 컨트롤 추가
 
-1. **보기** 메뉴 및 **도구 상자** 항목을 선택하여 **도구 상자** 창을 엽니다.
+1.  **Ctrl**+**Q**를 입력하여 **빠른 실행**을 호출하고 **도구 상자**를 입력합니다. 결과 목록에서 **보기 > 도구 상자**를 선택합니다.
 
 2. **도구 상자**에서 **공용 WPF 컨트롤** 노드를 확장하여 TextBlock 컨트롤을 봅니다.
 
@@ -113,7 +135,7 @@ XAML 태그는 다음 예제와 유사합니다.
    Text="Select a message option and then choose the Display button."
    ```
 
-2. 필요한 경우 TextBlock의 가운데를 다시 맞추고 **Ctrl**+**S**를 누르거나 **파일** 메뉴 항목을 사용하여 변경 내용을 저장합니다.
+2. 필요한 경우 TextBlock의 가운데를 다시 맞추고 Ctrl+S를 누르거나 **파일** 메뉴 항목을 사용하여 변경 내용을 저장합니다.
 
 다음에는 [RadioButton](/dotnet/framework/wpf/controls/radiobutton) 컨트롤 두 개를 폼에 추가합니다.
 
@@ -127,7 +149,7 @@ XAML 태그는 다음 예제와 유사합니다.
 
      창이 다음과 같이 나타납니다.
 
-     ![TextBlock과 두 개의 라디오 단추가 있는 Greetings 양식](../media/exploreide-greetingswithradiobuttons.png)
+     ![TextBlock 컨트롤 및 두 개의 라디오 단추가 있는 Greetings 양식](../media/exploreide-greetingswithradiobuttons.png)
 
 3. 왼쪽 RadioButton 컨트롤의 **속성** 창에서 **속성** 창 맨 위에 있는 속성인 **Name** 속성을 `HelloButton`로 변경합니다.
 
@@ -203,17 +225,15 @@ IsChecked="True"
 
 #### <a name="start-debugging-and-find-the-error"></a>디버깅 시작 및 오류 찾기
 
-1. **디버그**를 선택한 다음 **디버깅 시작**을 선택하여 디버거를 시작합니다.
+1. **F5** 키를 누르거나 **디버그**, **디버깅 시작**을 차례로 선택하여 디버거를 시작합니다.
 
-     ![디버그 메뉴의 디버깅 시작 명령](../media/exploreide-startdebugging.png)
+   **중단 모드** 창이 나타나고 **출력** 창이 IOException이 발생했음을 나타냅니다. 'mainwindow.xaml' 리소스를 찾을 수 없습니다.
 
-     **중단 모드** 창이 나타나고 **출력** 창이 IOException이 발생했음을 나타냅니다. 'mainwindow.xaml' 리소스를 찾을 수 없습니다.
+   ![IOException 메시지 스크린샷](../media/exploreide-ioexception.png)
 
 2. **디버그** > **디버깅 중지**를 선택하여 디버거를 중지합니다.
 
-     ![디버그 메뉴의 디버깅 중지 명령](../media/exploreide-stopdebugging.png)
-
-이 연습을 시작할 때 *MainWindow.xaml*의 이름을 *Greetings.xaml*로 바꾸었지만 코드가 여전히 애플리케이션의 시작 URI로 *MainWindow.xaml*을 나타내고 있으므로 프로젝트를 시작할 수 없습니다.
+이 자습서를 시작할 때 *MainWindow.xaml*의 이름을 *Greetings.xaml*로 바꾸었지만 코드가 여전히 애플리케이션의 시작 URI로 *MainWindow.xaml*을 나타내고 있으므로 프로젝트를 시작할 수 없습니다.
 
 #### <a name="specify-greetingsxaml-as-the-startup-uri"></a>Greetings.xaml을 시작 URI로 지정
 
@@ -231,11 +251,9 @@ IsChecked="True"
 
 1. *Greetings.xaml.vb*를 열고 다음 줄을 선택합니다. `MessageBox.Show("Hello.")`
 
-2. 메뉴에서 **디버그**를 선택한 다음 **중단점 설정/해제**를 선택하여 중단점을 추가합니다.
+2. **F9** 키를 누르거나 메뉴에서 **디버그**, **중단점 전환**을 선택하여 중단점을 추가합니다.
 
-     ![디버그 메뉴의 중단점 설정/해제 명령](../media/exploreide-togglebreakpoint.png)
-
-     편집기 창의 맨 왼쪽 여백 코드 줄 옆에 빨간색 원이 나타납니다.
+   편집기 창의 맨 왼쪽 여백 코드 줄 옆에 빨간색 원이 나타납니다.
 
 3. `MessageBox.Show("Goodbye.")`줄을 선택합니다.
 
@@ -243,7 +261,9 @@ IsChecked="True"
 
 5. **Greetings** 창에서 **Hello** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.
 
-     `MessageBox.Show("Hello.")` 줄이 노란색으로 강조 표시됩니다. IDE 하단에 있는 자동, 로컬 및 조사식 창은 모두 왼쪽에 도킹되고 호출 스택, 중단점, 명령, 직접 실행 및 출력 창은 모두 오른쪽에 도킹됩니다.
+   `MessageBox.Show("Hello.")` 줄이 노란색으로 강조 표시됩니다. IDE 하단에 있는 자동, 로컬 및 조사식 창은 모두 왼쪽에 도킹되고 호출 스택, 중단점, 예외 설정, 명령, 직접 실행 및 출력 창은 모두 오른쪽에 도킹됩니다.
+
+   ![디버거의 중단점 스크린샷](media/exploreide-debugbreakpoint.png)
 
 6. 메뉴 모음에서 **디버그** > **프로시저 나가기**를 선택합니다.
 
@@ -267,17 +287,11 @@ IsChecked="True"
 
 1. 기본 메뉴에서 **빌드** > **솔루션 정리**를 선택하여 이전 빌드 과정에서 만들어진 중간 파일과 출력 파일을 삭제합니다. 꼭 필요한 작업은 아니지만 이 과정을 통해 디버그 빌드 출력이 정리됩니다.
 
-     ![빌드 메뉴의 솔루션 정리 명령](../media/exploreide-cleansolution.png)
-
 2. 도구 모음에서 드롭다운 컨트롤(현재 “디버그”로 표시)을 사용하여 HelloWPFApp의 빌드 구성을 **디버그**에서 **릴리스**로 변경합니다.
-
-     ![릴리스가 선택된 표준 도구 모음](../media/exploreide-releaseversion.png)
 
 3. **빌드** > **솔루션 빌드**를 선택하여 솔루션을 빌드합니다.
 
-     ![빌드 메뉴의 솔루션 빌드 명령](../media/exploreide-buildsolution.png)
-
-이 연습을 완료한 것을 축하 드립니다! 솔루션 및 프로젝트 디렉터리(*...\HelloWPFApp\HelloWPFApp\bin\Release*)에서 빌드한 *.exe*를 찾을 수 있습니다.
+축하합니다. 이 자습서를 마쳤습니다. 솔루션 및 프로젝트 디렉터리(*...\HelloWPFApp\HelloWPFApp\bin\Release*)에서 빌드한 *.exe*를 찾을 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

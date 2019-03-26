@@ -1,27 +1,28 @@
 ---
-title: Live Unit Testing의 새로운 기능
+title: Visual Studio 2017 Live Unit Testing의 새로운 기능
+titleSuffix: ''
 ms.date: 10/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
-- Visual Studio ALM
 - Live Unit Testing
 - Live Unit Testing What's New
 author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 95cbdeb9a4e8a3f98fefa7650b36cc4dd59ed550
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+monikerRange: vs-2017
+ms.openlocfilehash: 96ac53900806cc37e215342573f998be995289f8
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57221543"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57872420"
 ---
-# <a name="whats-new-in-live-unit-testing"></a>Live Unit Testing의 새로운 기능
+# <a name="whats-new-in-live-unit-testing-for-visual-studio-2017"></a>Visual Studio 2017 Live Unit Testing의 새로운 기능
 
 이 항목에서는 Visual Studio 2017 버전 15.3부터 시작하는 Visual Studio의 각 버전에서 Live Unit Testing에 추가된 새 기능을 나열합니다. Live Unit Testing을 사용하는 방법의 개요는 [Visual Studio를 사용한 Live Unit Testing](live-unit-testing.md)을 참조하세요.
 
-## <a name="whats-new-in-live-unit-testing-for-visual-studio-2017-version-154"></a>Visual Studio 2017 버전 15.4에서 Live Unit Testing의 새로운 기능
+## <a name="version-154"></a>버전 15.4
 
 Visual Studio 2017 버전 15.4부터 시작하는 Live Unit Testing은 다양한 영역에서 개선 사항 및 향상된 기능을 포함합니다.
 
@@ -39,7 +40,7 @@ Visual Studio 2017 버전 15.4부터 시작하는 Live Unit Testing은 다양한
 
 - **기타 사용자 인터페이스 구체화**:  마우스 오른쪽 단추를 클릭하는 제스처의 혼란스러운 **라이브 테스트 설정 - 포함/제외** 옵션 이름이 **Live Unit Testing 포함/제외**로 변경되었습니다. **테스트** > **Live Unit Testing** 메뉴의 **정리 다시 설정** 옵션이 제거되었습니다. 이제는 **도구** > **옵션** > **Live Unit Testing**을 선택하고 **보관된 데이터 삭제**를 선택하여 액세스할 수 있습니다.
 
-## <a name="whats-new-in-live-unit-testing-for-visual-studio-2017-version-153"></a>Visual Studio 2017 버전 15.3에서 Live Unit Testing의 새로운 기능
+## <a name="version-153"></a>버전 15.3
 
 Visual Studio 2017 버전 15.3부터 시작하는 Live Unit Testing은 두 가지 주요 영역에서 개선 사항 및 향상된 기능을 포함합니다.
 

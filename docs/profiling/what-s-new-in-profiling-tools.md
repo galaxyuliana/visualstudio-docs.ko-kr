@@ -1,5 +1,6 @@
 ---
-title: 프로파일링의 새로운 기능 | Microsoft 문서
+title: Visual Studio 2017에서 프로파일링의 새로운 기능 | Microsoft Docs
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,20 +12,21 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b1822ec74903c8baa75ce437b0115cecdfb911c3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+monikerRange: vs-2017
+ms.openlocfilehash: 0c05595c311367ca94e3327afd28bc5fa05f7ec2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55026947"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57871080"
 ---
 # <a name="whats-new-in-profiling-tools-in-includevsdev15miscincludesvsdev15mdmd"></a>[!include[vs_dev15](../misc/includes/vs_dev15_md.md)]에 포함된 프로파일링 도구의 새로운 기능
 
 진단 도구에는 수정해야 하는 앱의 문제를 식별하는 데 사용할 수 있는 새로운 시각화가 포함되어 있습니다. 이제는 진단 도구에 ASP.NET 앱 지원이 포함됩니다.
 
-자세한 내용은 [[!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 릴리스 정보](/visualstudio/releasenotes/vs2017-relnotes#debuggingdiag)를 참조하세요.
+자세한 내용은 [[!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 릴리스 정보](/visualstudio/releasenotes/vs2017-relnotes)를 참조하세요.
 
-성능 분석을 위한 주요 영역을 중점적으로 확인할 수 있는 **요약** 탭이 도구에 추가되었습니다. 이 탭에서는 발생한 이벤트의 수를 확인하고, 힙의 스냅샷을 생성하고, CPU 사용량 데이터 수집을 빠르게 활성화할 수 있습니다. 이 뷰에는 모든 [Application Insights](/azure/azure-monitor/app/visual-studio) 또는 [UI 분석](/visualstudio/releasenotes/vs2017-relnotes#UIAnalysis) 이벤트가 표시됩니다. 또한 Visual Studio Enterprise의 경우 이 뷰에는 IntelliTrace 이벤트도 표시됩니다.
+성능 분석을 위한 주요 영역을 중점적으로 확인할 수 있는 **요약** 탭이 도구에 추가되었습니다. 이 탭에서는 발생한 이벤트의 수를 확인하고, 힙의 스냅샷을 생성하고, CPU 사용량 데이터 수집을 빠르게 활성화할 수 있습니다. 이 뷰에는 모든 [Application Insights](/azure/azure-monitor/app/visual-studio) 또는 [UI 분석](/visualstudio/releasenotes/vs2017-relnotes) 이벤트가 표시됩니다. 또한 Visual Studio Enterprise의 경우 이 뷰에는 IntelliTrace 이벤트도 표시됩니다.
 
 ![진단 도구 요약 탭](../profiling/media/DiagToolsSummaryTab-2.png "DiagToolsSummaryTab")
 

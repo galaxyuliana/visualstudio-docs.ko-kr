@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7faad2a4d10b304cd273f51559fb67dbd0f876a2
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: e7a4304fbda284a78350b83447753533983e65d1
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223249"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57867889"
 ---
 # <a name="create-solutions-and-projects"></a>솔루션 및 프로젝트 만들기
 
@@ -113,11 +113,17 @@ Visual Studio에서 앱을 개발하는 데 솔루션과 프로젝트는 필요�
 
 앞서 언급했듯이, 프로젝트나 솔루션 없이 코드 파일을 열 수도 있습니다. 이 방식으로 코드를 작성하는 방법에 대한 자세한 내용은 [프로젝트 또는 솔루션 없이 Visual Studio에서 코드 개발](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)을 참조하세요.
 
-## <a name="create-a-temporary-project-c-and-visual-basic"></a>임시 프로젝트 만들기(C# 및 Visual Basic)
+::: moniker range="vs-2017"
+
+## <a name="create-a-temporary-project"></a>임시 프로젝트 만들기
+
+(C# 및 Visual Basic만 해당)
 
 디스크 위치를 지정하지 않고 .NET 기반 프로젝트를 만들 경우 임시 프로젝트입니다. 임시 프로젝트를 통해 .NET 프로젝트로 실험할 수 있습니다. 임시 프로젝트로 작업하는 동안 언제든지 프로젝트를 저장하거나 삭제할 수 있습니다.
 
 임시 프로젝트를 만들려면 먼저 **도구** > **옵션** > **프로젝트 및 솔루션** > **일반**으로 이동하여 **만들어질 때 새 프로젝트 저장** 확인란의 선택을 취소합니다. 그런 다음, 일반적인 방법으로 **새 프로젝트**를 엽니다.
+
+::: moniker-end
 
 ## <a name="delete-a-solution-project-or-item"></a>솔루션, 프로젝트 또는 항목 삭제
 

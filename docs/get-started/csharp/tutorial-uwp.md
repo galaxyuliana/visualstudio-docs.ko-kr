@@ -1,8 +1,9 @@
 ---
+title: Visual Studio 및 C#를 사용하여 UWP(유니버설 Windows 플랫폼) 앱 만들기
 description: Visual Studio에서 XAML 및 C#을 사용하여 UWP 앱 만들기
 titleSuffix: ''
 ms.custom: seodec18, get-started
-ms.date: 04/04/2018
+ms.date: 03/11/2019
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -13,26 +14,33 @@ dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: 63bf52b39023209f54835d9753f4bb7a0df1e413
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a4fa325e57fcac095572c6eb666967f1ae3bf6df
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934551"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57868989"
 ---
 # <a name="tutorial-create-your-first-universal-windows-platform-application-in-visual-studio-with-xaml-and-c35"></a>자습서: XAML 및 C&#35를 사용하여 Visual Studio에서 첫 번째 유니버설 Windows 플랫폼 애플리케이션 만들기
 
-5~10분 분량의 Visual Studio IDE(통합 개발 환경)에 대한 소개에서는 모든 Windows 10 디바이스에서 실행되는 "Hello World" 앱을 만듭니다. 이렇게 하려면 UWP(유니버설 Windows 플랫폼) 프로젝트 템플릿, XAML(Extensible Application Markup Language) 및 C# 프로그래밍 언어를 사용합니다.
+Visual Studio IDE(통합 개발 환경)에 대한 이 소개에서는 모든 Windows 10 디바이스에서 실행되는 “Hello World” 앱을 만듭니다. 이렇게 하려면 UWP(유니버설 Windows 플랫폼) 프로젝트 템플릿, XAML(Extensible Application Markup Language) 및 C# 프로그래밍 언어를 사용합니다.
 
+::: moniker range="vs-2017"
 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
+::: moniker range="vs-2019"
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 페이지로 이동하여 체험용으로 설치합니다.
+::: moniker-end
 
 ## <a name="create-a-project"></a>프로젝트 만들기
 
-먼저, 유니버설 Windows 플랫폼 프로젝트를 만듭니다. 아무 것도 추가하지 않아도 필요한 모든 템플릿 파일과 함께 프로젝트 형식이 제공됩니다.
+먼저, 유니버설 Windows 플랫폼 프로젝트를 만듭니다. 아무것도 추가하지 않아도 필요한 모든 템플릿 파일과 함께 프로젝트 형식이 제공됩니다.
 
-1. Visual Studio 2017을 엽니다.
+1. Visual Studio를 엽니다.
 
-2. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다.
+::: moniker range="vs-2017"
+
+2. 상단 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
 3. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C#** 을 확장하고 **Windows 유니버설**을 선택합니다. 중간 창에서 **빈 앱(유니버설 Windows)** 을 선택합니다. 프로젝트 이름을 *HelloWorld*로 지정하고 **확인**을 선택합니다.
 
@@ -41,10 +49,27 @@ ms.locfileid: "55934551"
    > [!NOTE]
    > **빈 앱(유니버설 Windows)** 프로젝트 템플릿이 표시되지 않으면 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기** 링크를 클릭합니다.<br><br>![새 프로젝트 대화 상자에서 Visual Studio 설치 관리자 열기 링크 클릭](../../ide/media/vb-open-visual-studio-installer-hello-world.png)<br><br>Visual Studio 설치 관리자가 시작됩니다. **유니버설 Windows 플랫폼 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.<br><br>![Visual Studio 설치 관리자에서 유니버설 Windows 플랫폼 개발 워크로드](media/uwp-dev-workload.png)
 
-4. **새 유니버설 Windows 플랫폼 프로젝트** 대화 상자가 나타나면 **확인**을 선택합니다.
+4. **새 유니버설 Windows 플랫폼 프로젝트** 대화 상자에서 기본 **대상 버전** 및 **최소 버전** 설정에 동의합니다.
 
    ![새 유니버설 Windows 플랫폼 프로젝트 대화 상자에서 기본 대상 버전 및 최소 버전 설정에 동의](media/new-uwp-project-target-minver-dialog.png)
+::: moniker-end
 
+::: moniker range=">=vs-2019"
+
+2. Visual Studio를 시작하고 **시작** 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+3. **새 프로젝트 만들기** 화면에서 검색 상자에 ‘유니버설 Windows’를 입력하고, **비어 있는 앱(유니버설 Windows)** 에 사용할 C# 템플릿을 선택하고, **다음**을 선택합니다.
+
+   ![새 프로젝트 만들기 화면 스크린샷](media/vs-2019/uwp-create-new-project.png)
+  
+   > [!NOTE]
+   > **비어 있는 앱(유니버설 Windows)** 프로젝트 템플릿이 표시되지 않으면 **추가 도구 및 기능 설치** 링크를 클릭합니다.<br><br>![추가 도구 및 기능 설치 링크 클릭](media/vs-2019/uwp-not-finding.png)<br><br>Visual Studio 설치 관리자가 시작됩니다. **유니버설 Windows 플랫폼 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.<br><br>![Visual Studio 설치 관리자에서 유니버설 Windows 플랫폼 개발 워크로드](media/uwp-dev-workload.png)
+
+4. **새 유니버설 Windows 플랫폼 프로젝트** 대화 상자에서 기본 **대상 버전** 및 **최소 버전** 설정에 동의합니다.
+
+   ![새 유니버설 Windows 플랫폼 프로젝트 대화 상자에서 기본 대상 버전 및 최소 버전 설정에 동의](media/vs-2019/new-uwp-project-target-minver-dialog.png)
+::: moniker-end
+   
    > [!NOTE]
    > 처음으로 Visual Studio를 사용하여 UWP 앱을 만든 경우 **설정** 대화 상자가 나타날 수 있습니다. **개발자 모드**를 선택한 다음, **예**를 선택합니다.<br><br>
    ![UWP 설정 대화 상자에서 개발자 모드를 사용하도록 설정](media/enable-developer-mode.png)<br><br>Visual Studio는 사용자용 추가 개발자 모드 패키지를 설치합니다. 패키지 설치가 완료되면 **설정** 대화 상자를 닫습니다.
@@ -57,7 +82,12 @@ ms.locfileid: "55934551"
 
 1. **솔루션 탐색기**에서 *MainPage.xaml*을 두 번 클릭하여 분할 보기를 엽니다.
 
+   ::: moniker range="vs-2017"
    ![솔루션 탐색기에서 MainPage.xaml 열기 ](media/uwp-solution-explorer-MainPage-xaml.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   ![솔루션 탐색기에서 MainPage.xaml 열기](media/vs-2019/uwp-solution-explorer-mainpage-xaml.png)
+   ::: moniker-end
 
    두개의 창이 있습니다. 디자인 캔버스를 포함하는 **XAML 디자이너** 및 코드를 추가하거나 변경할 수 있는 **XAML 편집기**가 있습니다.
 
@@ -105,7 +135,7 @@ ms.locfileid: "55934551"
 
    다음과 같이 되도록 바꿔보겠습니다.
 
-    ![새 비동기 Button_Click 이벤트 처리기 ](media/uwp-add-hello-world-async-code.png)
+   ![새 비동기 Button_Click 이벤트 처리기 ](media/uwp-add-hello-world-async-code.png)
 
    복사 및 붙여넣기할 코드는 다음과 같습니다.
 
@@ -128,11 +158,11 @@ ms.locfileid: "55934551"
 
 "Hello World" UWP 앱을 빌드하고 배포하고 시작하여 모양과 음성을 확인할 때입니다. 방법은 다음과 같습니다.
 
-1. **로컬 컴퓨터**를 선택하여 애플리케이션을 시작합니다.
+1. 재생 단추(**로컬 머신**텍스트가 있음)을 사용하여 로컬 머신에서 애플리케이션을 시작합니다.
 
    ![로컬 컴퓨터를 클릭하여 UWP 앱을 시작 및 디버그](media/uwp-start-or-debug.png)
 
-   (또는 앱을 시작하려면 메뉴 모음에서 **디버그** > **디버깅 시작**을 선택하거나 **F5** 키를 누릅니다.)
+   (또는 메뉴 모음에서 **디버그** > **디버깅 시작**을 선택하거나 F5 키를 눌러 앱을 시작할 수도 있습니다.)
 
 2. 시작 화면이 사라진 직후 나타나는 앱을 봅니다. 앱은 다음과 같아야 합니다.
 
@@ -142,11 +172,11 @@ ms.locfileid: "55934551"
 
    Windows 10 디바이스는 말 그대로 "Hello, World!"라고 말합니다.
 
-4. 앱을 닫으려면 도구 모음에서 **디버깅 중지** 단추를 클릭합니다. (또는 메뉴 모음에서 **디버그** > **디버깅 중지**를 선택하거나 **Shift**+**F5** 키를 누릅니다.)
+4. 앱을 닫으려면 도구 모음에서 **디버깅 중지** 단추를 클릭합니다. (또는 메뉴 모음에서 **디버그** > **디버깅 중지**를 선택하거나 Shift+F5를 누릅니다.)
 
 ## <a name="next-steps"></a>다음 단계
 
-이 빠른 시작을 완료한 것을 축하 드립니다! UWP 및 Visual Studio IDE에 대한 몇 가지 기본 사항을 알게 됐기를 바랍니다. 자세히 알아보려면 계속 다음 자습서를 사용하세요.
+축하합니다. 이 자습서를 마쳤습니다. UWP 및 Visual Studio IDE에 대한 몇 가지 기본 사항을 알게 됐기를 바랍니다. 자세히 알아보려면 계속 다음 자습서를 사용하세요.
 
 > [!div class="nextstepaction"]
 > [사용자 인터페이스 만들기](/windows/uwp/design/basics/xaml-basics-ui)

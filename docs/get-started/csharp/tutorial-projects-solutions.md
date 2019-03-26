@@ -11,12 +11,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: dc927a9d3f4414d8bdf769ad697e9e209ae8f5c5
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: b23b67ea2fe48bb3ba1bcf174d28938379fc1ad9
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323198"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58070089"
 ---
 # <a name="learn-about-projects-and-solutions-using-c"></a>C\#을 사용하여 프로젝트 및 솔루션에 대해 알아보기
 
@@ -38,9 +38,11 @@ ms.locfileid: "57323198"
 
 빈 솔루션을 만들어 탐색을 시작합니다. Visual Studio에 대해 알게 되면 너무 자주 빈 솔루션을 만들지 않게 됩니다. 새 프로젝트를 만들 때 Visual Studio에서는 솔루션이 아직 열려 있지 않은 경우 자동으로 솔루션을 만들어서 프로젝트를 보관합니다.
 
+::: moniker range="vs-2017"
+
 1. Visual Studio를 엽니다.
 
-1. **파일** 및 **편집**과 같은 메뉴의 행인 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+1. 상단 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
    **새 프로젝트** 대화 상자가 열립니다.
 
@@ -49,6 +51,22 @@ ms.locfileid: "57323198"
    ![Visual Studio의 빈 솔루션 템플릿](../media/tutorial-projects-new-solution.png)
 
    **시작 페이지**가 닫히고 솔루션이 Visual Studio 창 오른쪽에 있는 **솔루션 탐색기**에 표시됩니다. 자주 **솔루션 탐색기**를 사용하여 프로젝트의 내용을 탐색할 수 있습니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio를 엽니다.
+
+2. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+3. **새 프로젝트 만들기** 페이지에서 검색 상자에 **빈 솔루션**을 입력하고 **빈 솔루션** 템플릿, **다음**을 차례로 선택합니다.
+
+4. 솔루션 이름을 **QuickSolution**으로 지정하고 **만들기**를 선택합니다.
+
+   솔루션이 Visual Studio 창 오른쪽에 있는 **솔루션 탐색기**에 표시됩니다. 자주 **솔루션 탐색기**를 사용하여 프로젝트의 내용을 탐색할 수 있습니다.
+
+::: moniker-end
 
 ### <a name="add-a-project"></a>프로젝트 추가
 

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d4a8a8ae7f3a256665697615c3c239a88f2b0d87
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: e8ddc4e7a44aa0d5d42a64556092874413e3a3b2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56315107"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "57982768"
 ---
 # <a name="create-unit-test-method-stubs-with-the-create-unit-tests-command"></a>단위 테스트 만들기 명령을 사용하여 단위 테스트 메서드 스텁 만들기
 
@@ -38,17 +38,28 @@ Visual Studio **단위 테스트 만들기** 명령은 단위 테스트 메서�
 
 ![단위 테스트 만들기 명령 사용](media/createunittestcommand.png)
 
-## <a name="setting-unit-test-traits"></a>단위 테스트 특성 설정
+## <a name="set-unit-test-traits"></a>단위 테스트 특성 설정
 
 이러한 테스트를 테스트 자동화 프로세스의 일부로 실행하려면 다른 테스트 프로젝트에서 만들어진 테스트를 사용하고(위 대화 상자의 두 번째 옵션) 단위 테스트에 대한 단위 테스트 특성을 설정하는 방법을 고려할 수 있습니다. 이 방법으로 이러한 특정 테스트를 지속적인 통합 또는 지속적인 배포 파이프라인의 일부로 더 쉽게 포함하거나 제외할 수 있습니다. 다음과 같이 단위 테스트에 직접 메타데이터를 추가하여 특성을 설정합니다.
 
 ![단위 테스트 특성 설정](media/createunittest.png)
 
-## <a name="using-third-party-unit-test-frameworks"></a>타사 단위 테스트 프레임워크 사용
+## <a name="use-third-party-unit-test-frameworks"></a>타사 단위 테스트 프레임워크 사용
 
 Visual Studio에서는 모든 테스트 프레임워크를 사용하여 필요에 맞는 단위 테스트를 쉽게 만들 수 있습니다. 기타 프레임워크를 설치하려면.
 
+::: moniker range="vs-2017"
+
 1. **도구** > **확장 및 업데이트**를 선택합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. **확장** > **확장 관리**를 선택합니다.
+
+::: moniker-end
+
 2. **온라인** > **Visual Studio Marketplace** > **도구**를 확장한 다음, **테스트**를 선택합니다.
 
 ![타사 테스트 프레임워크 사용](media/createunittestfx.png)

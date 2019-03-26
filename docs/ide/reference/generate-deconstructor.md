@@ -3,18 +3,18 @@ title: 분해자 생성 빠른 작업
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: a609b16e0d1bc7e30dc26ef047228a6cacdb46b2
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 8887f4cd6b4dcd7f08e808f1271f5d546d6a224c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324738"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58159181"
 ---
 # <a name="generate-a-deconstructor-in-visual-studio"></a>Visual Studio에서 분해자 생성
 
@@ -42,7 +42,7 @@ ms.locfileid: "57324738"
       - 마우스 오른쪽 단추로 클릭하고 **빠른 작업 및 리팩터링** 메뉴를 선택합니다.
       - 텍스트 커서가 이미 구부러진 빨간 곡선이 있는 줄 위에 있으면 왼쪽 여백에 나타나는 ![스크루드라이버](media/screwdriver.png) 아이콘을 클릭합니다.
 
-      ![분해자 codefix 생성](media/deconstruct-codefix.png)
+      ![분해자 생성 코드 수정](media/deconstruct-codefix.png)
 
 3. **'MyInternalClass.Deconstruct' 메서드 생성**을 선택하여 분해자를 생성합니다.
 

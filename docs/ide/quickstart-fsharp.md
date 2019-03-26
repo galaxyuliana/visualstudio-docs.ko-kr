@@ -11,12 +11,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: c7fba20b7b01ab0c55e9bef9b4bcc62813cab895
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: b4b6a9bcc9828d0fdeb76f3f74732d8d5496e59c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323279"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58069764"
 ---
 # <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-service-in-f"></a>빠른 시작: Visual Studio를 사용하여 F\#에서 첫 번째 ASP.NET Core 웹 서비스 만들기
 
@@ -28,9 +28,11 @@ Visual Studio의 F#에 대한 5~10분 분량의 소개에서 F# ASP.NET Core 웹
 
 먼저, ASP.NET Core Web API 프로젝트를 만듭니다. 프로젝트 형식에는 무엇인가 추가하기 전에 기능 웹 서비스를 구성하는 템플릿 파일이 포함되어 있습니다.
 
+::: moniker range="vs-2017"
+
 1. Visual Studio를 엽니다.
 
-2. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다.
+2. 상단 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
 3. **새 프로젝트** 대화 상자의 왼쪽 차에서 **Visual F#** 을 확장한 다음, **Web**를 선택합니다. 가운데 창에서 **ASP.NET Core 웹 애플리케이션**을 선택한 후 **확인**을 선택합니다.
 
@@ -39,6 +41,22 @@ Visual Studio의 F#에 대한 5~10분 분량의 소개에서 F# ASP.NET Core 웹
      ![VS 설치 관리자에서 ASP.NET 워크로드](../ide/media/quickstart-aspnet-workload.png)
 
 4. **새 ASP.NET Core 웹 애플리케이션** 대화 상자의 상단 드롭다운 메뉴에서 **ASP.NET Core 2.1**을 선택합니다. (목록에 **ASP.NET Core 2.1**이 표시되지 않으면 대화 상자 맨 위에 있는 노란색 표시줄에 나타나는 **다운로드** 링크에 따라 설치합니다.) **확인**을 선택합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Visual Studio를 엽니다.
+
+2. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+3. **새 프로젝트 만들기** 페이지에서 검색 상자에 **f# web**을 입력하고 **ASP.NET Core 웹 애플리케이션** 프로젝트 템플릿을 선택합니다. **다음**을 선택합니다.
+
+4. **새 프로젝트 구성** 페이지에서 이름을 입력하고 **만들기**를 선택합니다.
+
+5. **새 ASP.NET Core 웹 애플리케이션 만들기** 페이지에서 상단 드롭다운 메뉴의 **ASP.NET Core 2.1**을 선택한 후 **만들기**를 선택합니다.
+
+::: moniker-end
 
 ## <a name="explore-the-ide"></a>IDE 탐색
 
