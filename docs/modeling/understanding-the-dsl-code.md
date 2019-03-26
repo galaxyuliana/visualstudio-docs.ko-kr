@@ -9,25 +9,27 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 29424efe9b6d170033853e1959073406626b7be0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ab82a563d5b5dce373394f9f83e883e2d2ee1129
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928285"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416021"
 ---
 # <a name="understanding-the-dsl-code"></a>DSL 코드 이해
+
 도메인 특정 언어 (DSL) 솔루션을 읽고 Visual Studio에서 dsl 인스턴스를 업데이트 하는 데 사용할 수 있는 API를 생성 합니다. 이 API는 DSL 정의에서 생성되는 코드에서 정의됩니다. 이 항목에서는 생성되는 API에 대해 설명합니다.
 
 ## <a name="the-example-solution-component-diagrams"></a>예제 솔루션: 구성 요소 다이어그램
- 이 항목의 예제는 대부분의 소스인 솔루션을 만들려면에서 DSL을 만들 수는 **구성 요소 모델** 솔루션 템플릿. 이 템플릿은 새 DSL 솔루션을 만들 때 표시되는 표준 템플릿 중 하나입니다.
+
+이 항목의 예제는 대부분의 소스인 솔루션을 만들려면에서 DSL을 만들 수는 **구성 요소 모델** 솔루션 템플릿. 이 템플릿은 새 DSL 솔루션을 만들 때 표시되는 표준 템플릿 중 하나입니다.
 
 > [!NOTE]
->  구성 요소 다이어그램 DSL 템플릿은 Visual Studio에서 아키텍처 메뉴를 사용 하 여 만들 수 있는 UML 구성 요소 다이어그램에 관련 되지 않았습니다. 에 **새 프로젝트** 대화 상자에서 **기타 프로젝트 Types\Extensibility** 클릭 하 고 **도메인별 언어 디자이너**합니다.
+> 구성 요소 다이어그램 DSL 템플릿은 이라고 **도메인별 언어 디자이너**합니다.
 
- 이 솔루션 템플릿을 사용해 본 적이 없다면 F5 키를 누르고 해당 기능을 사용해 봅니다. 특히 구성 요소로 포트 도구를 끌어 포트를 만들고 포트를 연결할 수 있는지 확인합니다.
+키를 눌러 **F5** 및이 솔루션 템플릿을 사용 하 여 모르는 경우 실험 합니다. 특히 구성 요소로 포트 도구를 끌어 포트를 만들고 포트를 연결할 수 있는지 확인합니다.
 
- ![구성 요소 및 상호 연결된 포트](../modeling/media/componentsample.png)
+![구성 요소 및 상호 연결된 포트](../modeling/media/componentsample.png)
 
 ## <a name="the-structure-of-the-dsl-solution"></a>DSL 솔루션의 구조
  합니다 **Dsl** 프로젝트는 DSL에 대 한 API를 정의 합니다. 합니다 **DslPackage** 프로젝트가 Visual Studio를 사용 하 여 통합 하는 방법을 정의 합니다. 모델에서 생성되는 코드를 포함할 수도 있는 프로젝트를 직접 추가할 수도 있습니다.
@@ -347,4 +349,4 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
 - [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)
 - [모델, 클래스 및 관계 이해](../modeling/understanding-models-classes-and-relationships.md)
 - [도메인별 언어 사용자 지정 및 확장](../modeling/customizing-and-extending-a-domain-specific-language.md)
-- [도메인별 언어를 사용자 지정하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [도메인별 언어 사용자 지정 하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)

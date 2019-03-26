@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: be803d02ab2040537b06a81327355abf80f56aab
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8f61c9623cd2006f0df82c93dc420a25f23d3d2a
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919874"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416211"
 ---
 # <a name="rules-propagate-changes-within-the-model"></a>규칙으로 모델 내부의 변경 내용 전파
 Visualization and Modeling SDK (VMSDK)에서 다른 요소에서 변경 전파 하는 저장소 규칙을 만들 수 있습니다. 저장소의 모든 요소에는 변경이 발생 하는 경우 규칙은 가장 바깥쪽 트랜잭션이 커밋될 때 일반적으로 실행할 예약 됩니다. 다른 유형의 여러 가지 요소를 추가 또는 삭제와 같은 이벤트에 대 한 규칙이 있습니다. 요소, 모양 또는 다이어그램의 특정 형식에 규칙을 연결할 수 있습니다. 많은 기본 제공 기능 규칙에 의해 정의 됩니다: 다이어그램 모델 변경 될 때 업데이트 되는 규칙을 확인 하는 예를 들어, 합니다. 사용자 고유의 규칙을 추가 하 여 도메인 특정 언어를 사용자 지정할 수 있습니다.
@@ -212,4 +212,3 @@ namespace Company.TaskRuleExample
 ## <a name="see-also"></a>참고 항목
 
 - [이벤트 처리기로 모델 외부의 변경 내용 전파](../modeling/event-handlers-propagate-changes-outside-the-model.md)
-- [BoundsRules로 모양 위치 및 크기 제한](../modeling/boundsrules-constrain-shape-location-and-size.md)

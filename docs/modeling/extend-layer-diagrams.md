@@ -10,14 +10,15 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8888dfeef0a519aed66fc3c66be8c5bf6d215b02
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 150621514f9153b1e9d67f8e9c85a00275c27b15
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955221"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416112"
 ---
 # <a name="extend-dependency-diagrams"></a>종속성 다이어그램 확장
+
 만들고 종속성 다이어그램을 업데이트 하 고 Visual Studio에서 종속성 다이어그램에 대해 프로그램 코드의 구조를 확인 하는 코드를 작성할 수 있습니다. 다이어그램의 바로 가기(상황에 맞는) 메뉴에 표시되는 명령을 추가하고, 끌어서 놓기 제스처를 사용자 지정하고, 텍스트 템플릿에서 레이어 모델에 액세스할 수 있습니다. 이러한 확장을 VSIX(Visual Studio Integration Extension)로 패키징하고 다른 Visual Studio 사용자에게 배포할 수 있습니다.
 
  종속성 다이어그램에 대 한 자세한 내용은 다음을 참조 하세요.
@@ -31,7 +32,8 @@ ms.locfileid: "55955221"
 -   [종속성 다이어그램을 사용하여 코드 유효성 검사](../modeling/validate-code-with-layer-diagrams.md)
 
 ##  <a name="prereqs"></a> 요구 사항
- 레이어 확장을 개발하려는 컴퓨터에 다음이 설치되어 있어야 합니다.
+
+레이어 확장을 개발하려는 컴퓨터에 다음이 설치되어 있어야 합니다.
 
 -   Visual Studio
 
@@ -39,13 +41,11 @@ ms.locfileid: "55955221"
 
 -   Visual Studio 용 모델링 SDK
 
-
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
+레이어 확장을 실행하려는 컴퓨터에 적합한 버전의 Visual Studio가 설치되어 있어야 합니다.
 
- 레이어 확장을 실행하려는 컴퓨터에 적합한 버전의 Visual Studio가 설치되어 있어야 합니다. 자세한 내용은 [레이어 모델 확장 배포](../modeling/deploy-a-layer-model-extension.md)합니다.
-
- 종속성 다이어그램을 지 원하는 Visual Studio 버전을 참조 하세요 [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)합니다.
+종속성 다이어그램을 지 원하는 Visual Studio 버전을 참조 하세요 [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)합니다.
 
 ## <a name="in-this-section"></a>섹션 내용
  [종속성 다이어그램에 명령 및 제스처 추가](../modeling/add-commands-and-gestures-to-layer-diagrams.md)
@@ -53,12 +53,6 @@ ms.locfileid: "55955221"
  [종속성 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)
 
  [종속성 다이어그램에 사용자 지정 속성 추가](../modeling/add-custom-properties-to-layer-diagrams.md)
-
- [프로그램 코드에서 레이어 모델 탐색 및 업데이트](../modeling/navigate-and-update-layer-models-in-program-code.md)
-
- [레이어 모델 확장 배포](../modeling/deploy-a-layer-model-extension.md)
-
- [종속성 다이어그램의 확장 문제 해결](../modeling/troubleshoot-extensions-for-layer-diagrams.md)
 
 ## <a name="see-also"></a>참고 항목
 

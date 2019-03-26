@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b727f1e4de34a0bde6b4caba570840cea6e1a201
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: af0bd2c315114444057ca05e9bb85691fe72e966
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950151"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416240"
 ---
 # <a name="navigate-and-update-a-model-in-program-code"></a>프로그램 코드에서 모델 탐색 및 업데이트
 
@@ -226,27 +226,28 @@ using (Transaction t =
   이러한 방식으로 요소를 만들 때 다이어그램에 커넥터를 자동으로 만들어진 했으나 기본 셰이프, 색 및 기타 기능입니다. 관련된 된 커넥터를 만드는 방법은 컨트롤을 참조 하세요 [요소를 만들고 모양을](#merge)합니다.
 
 ##  <a name="deleteelements"></a> 요소 삭제
- 호출 하 여 요소를 삭제할 `Delete()`:
 
- `henry.Delete();`
+호출 하 여 요소를 삭제할 `Delete()`:
 
- 이 작업은 또한 삭제 됩니다.
+`henry.Delete();`
+
+이 작업은 또한 삭제 됩니다.
 
 - 요소 간의 관계 링크 합니다. 예를 들어 `edward.Parents` 더 이상 사용 될 `henry`합니다.
 
 - 요소는 역할을 `PropagatesDelete` 플래그는 true입니다. 예를 들어 모양은 요소를 표시 하는 삭제 됩니다.
 
-  기본적으로 모든 포함 관계에 `PropagatesDelete` 대상 역할에 true입니다. 삭제 `henry` 삭제 되지 않습니다는 `familyTree`, 되지만 `familyTree.Delete()` 모두 삭제 됩니다는 `Persons`합니다. 자세한 내용은 [삭제 동작 사용자 지정](../modeling/customizing-deletion-behavior.md)합니다.
+기본적으로 모든 포함 관계에 `PropagatesDelete` 대상 역할에 true입니다. 삭제 `henry` 삭제 되지 않습니다는 `familyTree`, 되지만 `familyTree.Delete()` 모두 삭제 됩니다는 `Persons`합니다.
 
-  기본적으로 `PropagatesDelete` 참조 관계의 역할에는 그렇지 않습니다.
+기본적으로 `PropagatesDelete` 참조 관계의 역할에는 그렇지 않습니다.
 
-  개체를 삭제할 때 특정 전파를 생략 하려면 삭제 규칙이 발생할 수 있습니다. 다른 하나의 요소를 대체 하는 경우에 유용 합니다. 수 없는 삭제 전파 되지 않아야 하는 하나 이상의 역할의 GUID를 제공 합니다. 관계 클래스에서 GUID는 가져올 수 있습니다.
+개체를 삭제할 때 특정 전파를 생략 하려면 삭제 규칙이 발생할 수 있습니다. 다른 하나의 요소를 대체 하는 경우에 유용 합니다. 수 없는 삭제 전파 되지 않아야 하는 하나 이상의 역할의 GUID를 제공 합니다. 관계 클래스에서 GUID는 가져올 수 있습니다.
 
-  `henry.Delete(ParentsHaveChildren.SourceDomainRoleId);`
+`henry.Delete(ParentsHaveChildren.SourceDomainRoleId);`
 
-  (이 특정 예제는 아무런 영향이 없습니다 때문 `PropagatesDelete` 됩니다 `false` 의 역할에 대해는 `ParentsHaveChildren` 관계.)
+(이 특정 예제는 아무런 영향이 없습니다 때문 `PropagatesDelete` 됩니다 `false` 의 역할에 대해는 `ParentsHaveChildren` 관계.)
 
-  경우에 따라 삭제 전파 하 여 삭제 되는 요소 또는 요소에서 잠금의 존재 여부에 따라 방지 됩니다. 사용할 수 있습니다 `element.CanDelete()` 요소를 삭제할 수 있는지 여부를 확인 합니다.
+경우에 따라 삭제 전파 하 여 삭제 되는 요소 또는 요소에서 잠금의 존재 여부에 따라 방지 됩니다. 사용할 수 있습니다 `element.CanDelete()` 요소를 삭제할 수 있는지 여부를 확인 합니다.
 
 ##  <a name="deletelinks"></a> 관계 링크를 삭제합니다.
  역할 속성에서 요소를 제거 하 여 링크 관계를 삭제할 수 있습니다.
@@ -486,6 +487,6 @@ partial class MyDiagram
 - <xref:Microsoft.VisualStudio.Modeling.ModelElement>
 - [도메인별 언어에서 유효성 검사](../modeling/validation-in-a-domain-specific-language.md)
 - [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md)
-- [방법: 트랜잭션을 사용 하 여 모델 업데이트](../modeling/how-to-use-transactions-to-update-the-model.md)
+- [방법: 트랜잭션을 사용하여 모델 업데이트](../modeling/how-to-use-transactions-to-update-the-model.md)
 - [Visual Studio Modelbus를 사용하여 모델 통합](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
 - [변경 내용에 대한 대응 및 전파](../modeling/responding-to-and-propagating-changes.md)

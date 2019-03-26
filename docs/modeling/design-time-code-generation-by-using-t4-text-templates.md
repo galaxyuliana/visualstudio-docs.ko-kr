@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 00796a43326d26fa7f25d6cb925851f411f916e3
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: 524d50a946091325be5c27bd7ae55dd5dc720a1d
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355791"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415698"
 ---
 # <a name="design-time-code-generation-by-using-t4-text-templates"></a>T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성
 디자인 타임 T4 텍스트 템플릿을 Visual Studio 프로젝트에서 프로그램 코드 및 기타 파일을 생성할 수 있습니다. 데이터에 따라 생성 되는 코드를 달라 지도록 템플릿을 작성 일반적으로 *모델*합니다. 모델은 파일 또는 응용 프로그램의 요구 사항에 대 한 키 정보가 포함 된 데이터베이스.
@@ -34,13 +34,9 @@ ms.locfileid: "58355791"
 
  텍스트 템플릿에는 생성하려는 텍스트와 텍스트의 변수 부분을 생성하는 프로그램 코드가 혼합되어 있습니다. 프로그램 코드를 사용 하면 반복 하거나 조건부로 생성 된 텍스트의 부분을 생략할 수 있습니다. 생성된 텍스트 자체는 응용 프로그램 부분을 만드는 프로그램 코드일 수 있습니다.
 
-## <a name="creating-a-design-time-t4-text-template"></a>디자인 타임 T4 텍스트 템플릿 만들기
+## <a name="create-a-design-time-t4-text-template"></a>디자인 타임 T4 텍스트 템플릿 만들기
 
-#### <a name="to-create-a-design-time-t4-template-in-visual-studio"></a>Visual Studio에서 디자인 타임 T4 텍스트 템플릿을 만들려면
-
-1. Visual Studio 프로젝트를 만들거나 기존 항목을 엽니다.
-
-    예를 들어 합니다 **파일** 메뉴에서 선택 **새로 만들기** > **프로젝트**합니다.
+1. 새 Visual Studio 프로젝트를 만들거나 기존 항목을 엽니다.
 
 2. 텍스트 템플릿 파일을 프로젝트에 추가 하 고 이름을 확장명을 가진 **.tt**합니다.
 
@@ -70,10 +66,11 @@ ms.locfileid: "58355791"
 6. **솔루션 탐색기**, 템플릿 파일 노드를 확장 하 고 확장명을 가진 파일을 보면 **.txt**합니다. 이 파일에 템플릿에서 생성된 텍스트가 포함되어 있습니다.
 
    > [!NOTE]
-   >  프로젝트는 Visual Basic 프로젝트를 클릭 해야 **모든 파일 표시** 하려면 출력 파일을 참조 하세요.
+   > 프로젝트는 Visual Basic 프로젝트를 클릭 해야 **모든 파일 표시** 하려면 출력 파일을 참조 하세요.
 
-### <a name="regenerating-the-code"></a>코드 다시 생성
- 다음과 같은 경우에는 템플릿이 실행되어 보조 파일이 생성됩니다.
+### <a name="regenerate-the-code"></a>코드를 다시 생성
+
+다음과 같은 경우에는 템플릿이 실행되어 보조 파일이 생성됩니다.
 
 - 템플릿을 편집 하 고 다른 Visual Studio 창으로 포커스를 변경 합니다.
 
@@ -83,12 +80,11 @@ ms.locfileid: "58355791"
 
 - **솔루션 탐색기**의 바로 가기 메뉴에서 파일, 선택 **사용자 지정 도구 실행**합니다. 선택한 일부 템플릿을 변형하려면 이 방법을 사용합니다.
 
-  템플릿이 읽는 데이터 파일이 변경 된 경우 실행 되도록 Visual Studio 프로젝트를 설정할 수 있습니다. 자세한 내용은 [코드를 자동으로 다시 생성](#Regenerating)합니다.
+템플릿이 읽는 데이터 파일이 변경 된 경우 실행 되도록 Visual Studio 프로젝트를 설정할 수 있습니다. 자세한 내용은 [코드를 자동으로 다시 생성](#Regenerating)합니다.
 
-## <a name="generating-variable-text"></a>변수 텍스트 생성
- 텍스트 템플릿에서는 프로그램 코드를 사용하여 생성된 파일 내용이 바뀌도록 할 수 있습니다.
+## <a name="generate-variable-text"></a>변수 텍스트 생성
 
-#### <a name="to-generate-text-by-using-program-code"></a>프로그램 코드를 사용하여 텍스트를 생성하려면
+텍스트 템플릿에서는 프로그램 코드를 사용하여 생성된 파일 내용이 바뀌도록 할 수 있습니다.
 
 1. `.tt` 파일의 내용을 다음과 같이 변경합니다.
 

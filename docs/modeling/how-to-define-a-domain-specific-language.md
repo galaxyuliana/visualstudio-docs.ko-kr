@@ -16,40 +16,41 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a46dc8def91a15b8534d597f8cc0d14eb99f9002
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b5ed2b15c59ca4b9955a2f28985325a2d5e244ee
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927882"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416424"
 ---
 # <a name="how-to-define-a-domain-specific-language"></a>도메인별 언어 정의 방법
 도메인 특정 언어 (DSL)를 정의 하려면 템플릿에서 Visual Studio 솔루션을 만듭니다. 이 솔루션의 중요한 요소는 DslDefinition.dsl에 저장되는 DSL 정의 다이어그램입니다. DSL 정의는 DSL의 클래스와 모양을 정의합니다. 이러한 요소를 수정하고 필요한 내용을 추가한 후에 프로그램 코드를 추가하여 DSL을 보다 자세하게 사용자 지정할 수 있습니다.
 
-Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있습니다. [Visualizaton 및 모델링 SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
+Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있습니다. [시각화 및 모델링 SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
 ## <a name="templates"></a> 템플릿 솔루션 선택
- DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.
 
+DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.
 
-| | |
-|-|-|
-| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |
-| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580) |
-| Visual Studio Visualization and Modeling SDK | |
+- Visual Studio
+- Visual Studio 확장 개발 워크 로드 (Visual Studio SDK 포함)
+- Modeling SDK (Visual Studio에서 개별 구성 요소로 설치)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
+새 도메인 특정 언어를 만들려면 도메인 특정 언어 프로젝트 템플릿을 사용 하 여 새 Visual Studio 솔루션을 만들 수 있습니다.
 
- 새 도메인 특정 언어를 만들려면 도메인 특정 언어 프로젝트 템플릿을 사용 하 여 새 Visual Studio 솔루션을 만들 수 있습니다.
+### <a name="to-create-a-dsl-solution"></a>DSL 솔루션을 만들려면
 
-#### <a name="to-create-a-dsl-solution"></a>DSL 솔루션을 만들려면
+1. 새 **도메인별 언어** 프로젝트입니다.
 
-1. 사용 하 여 솔루션을 만듭니다는 **도메인별 언어** 템플릿을 찾을 수 있습니다 **기타 프로젝트 형식/확장성** 에 **새 프로젝트** 대화 상자.
+   ::: moniker range="vs-2017"
 
     ![DSL 만들기 대화 상자](../modeling/media/create_dsldialog.png)
 
-    클릭 하면 **확인**서 **도메인별 언어 마법사** 열리고 템플릿 DSL 솔루션 목록이 표시 됩니다.
+   ::: moniker-end
+
+    합니다 **도메인별 언어 마법사** 열리고 템플릿 DSL 솔루션 목록이 표시 됩니다.
 
 2. 각 템플릿을 클릭하여 설명을 확인합니다. 만들려는 DSL과 가장 비슷한 솔루션을 선택합니다.
 
@@ -85,7 +86,7 @@ Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL
 
    이제 사용자 인터페이스는 다음 그림과 같이 표시됩니다.
 
-   ![DSL 디자이너](../modeling/media/dsl_designer.png)
+   ![dsl 디자이너](../modeling/media/dsl_designer.png)
 
    이 솔루션은 DSL을 정의합니다. 자세한 내용은 [도메인별 언어 도구 사용자 인터페이스 개요](../modeling/overview-of-the-domain-specific-language-tools-user-interface.md)합니다.
 
@@ -594,7 +595,7 @@ Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL
 
      자세한 내용은 [사용자 지정 및 도메인 특정 언어 확장](../modeling/customizing-and-extending-a-domain-specific-language.md)합니다.
 
-2.  보다 고급 효과를 적용하려면 프로그램 코드를 사용하여 모델링 도구를 확장합니다. 예를 들어 모델을 변경할 수 있는 메뉴 명령을 만들고, 둘 이상의 DSL을 통합하는 도구를 만들 수 있습니다. VMSDK는 DSL 정의에서 생성된 코드를 사용하여 확장을 쉽게 통합할 수 있도록 설계되었습니다.  자세한 내용은 [도메인별 도메인별 언어 사용자 지정 하려면 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.
+2.  보다 고급 효과를 적용하려면 프로그램 코드를 사용하여 모델링 도구를 확장합니다. 예를 들어 모델을 변경할 수 있는 메뉴 명령을 만들고, 둘 이상의 DSL을 통합하는 도구를 만들 수 있습니다. VMSDK는 DSL 정의에서 생성된 코드를 사용하여 확장을 쉽게 통합할 수 있도록 설계되었습니다.  자세한 내용은 [도메인 특정 언어에 맞게 코드를 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.
 
 ### <a name="changing-the-dsl-definition"></a>DSL 정의 변경
  DSL 정의에서 항목을 만들면 대부분의 기본값은 자동으로 설정됩니다. 설정된 기본값은 변경할 수 있습니다. 따라서 DSL 개발은 간소화하는 동시에 유용한 사용자 지정 기능을 추가할 수 있습니다.
@@ -606,7 +607,7 @@ Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL
  참고 항목 [방법: 도메인 특정 언어의 Namespace 변경](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md)합니다.
 
 ## <a name="trouble"></a> 문제 해결
- 아래 테이블에는 DSL을 디자인할 때 가장 흔히 발생하는 몇 가지 문제와 제안 해결 방법이 나와 있습니다. 자세한 도움말에서 사용할 수는 [시각화 도구 문제 포럼](http://go.microsoft.com/fwlink/?LinkId=186074)합니다.
+ 아래 테이블에는 DSL을 디자인할 때 가장 흔히 발생하는 몇 가지 문제와 제안 해결 방법이 나와 있습니다. 자세한 도움말에서 사용할 수는 [시각화 도구 확장성 포럼](http://go.microsoft.com/fwlink/?LinkId=186074)합니다.
 
 
 | 문제점 | 제안 해결 방법 |

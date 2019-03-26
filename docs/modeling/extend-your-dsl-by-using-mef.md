@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0b08dab6be6a959b6a7ac37b243ff1bb94fbb4b1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 40442d9cf740bd4122aaf48f82fdba425aff261e
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939621"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415579"
 ---
 # <a name="extend-your-dsl-by-using-mef"></a>MEF를 사용하여 DSL 확장
 
@@ -117,15 +117,15 @@ MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Ext
 
 DSL은 MEF 사용 되었습니다. 메뉴 명령, 제스처 처리기 및 유효성 검사 제약 조건 MEF 확장으로 작성할 수 있습니다. 다른 사용자 지정 코드와 함께 DSL 솔루션에서 이러한 확장을 작성할 수 있습니다. 또한 사용자 또는 다른 개발자 DSL을 확장 하는 별도 Visual Studio extensions를 작성할 수 있습니다.
 
-## <a name="creating-an-extension-for-a-mef-enabled-dsl"></a>MEF 지원 DSL에 대 한 확장 만들기
+## <a name="create-an-extension-for-a-mef-enabled-dsl"></a>MEF 지원 DSL에 대 한 확장 프로그램을 만들려면
 
 직접 또는 다른 사람이 만든 MEF 지원 DSL에 대 한 액세스를 사용 하는 경우에 대 한 확장을 작성할 수 있습니다. 메뉴 명령, 제스처 처리기 또는 유효성 검사 제약 조건을 추가 하려면 확장을 사용할 수 있습니다. 이러한 확장을 작성, Visual Studio 확장 (VSIX) 솔루션을 사용 합니다. 솔루션에는 두 부분이 있습니다: 코드 어셈블리를 작성 하는 클래스 라이브러리 프로젝트 및 어셈블리를 패키지 하는 VSIX 프로젝트.
 
-#### <a name="to-create-a-dsl-extension-vsix"></a>DSL 확장을 VSIX를 만들려면
+### <a name="to-create-a-dsl-extension-vsix"></a>DSL 확장을 VSIX를 만들려면
 
-1. 새 클래스 라이브러리 프로젝트를 만듭니다. 이 수행 하는 **새 프로젝트** 대화 상자에서 **Visual Basic** 하거나 **Visual C#** 선택한 후 **클래스 라이브러리**.
+1. 새 **클래스 라이브러리** 프로젝트입니다.
 
-2. 새 클래스 라이브러리 프로젝트에서 DSL의 어셈블리에 대 한 참조를 추가 합니다.
+2. 새 프로젝트에서 DSL의 어셈블리에 대 한 참조를 추가 합니다.
 
    - 이 어셈블리는 일반적으로 끝나는 이름에 ". Dsl.dll "로 설정 합니다.
 
@@ -145,9 +145,9 @@ DSL은 MEF 사용 되었습니다. 메뉴 명령, 제스처 처리기 및 유효
 
    -   System.Windows.Forms.dll
 
-4. 동일한 솔루션에서 VSIX 프로젝트를 만듭니다. 이 수행 하는 **새 프로젝트** 대화 상자에서 **Visual Basic** 하거나 **Visual C#**, 클릭 **확장성**를 선택한 다음  **VSIX 프로젝트**합니다.
+4. 새 **VSIX 프로젝트** 프로젝트입니다.
 
-5. 솔루션 탐색기에서 VSIX 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 클릭 **시작 프로젝트로 설정**합니다.
+5. **솔루션 탐색기**VSIX 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **시작 프로젝트로 설정**합니다.
 
 6. 새 프로젝트에서 엽니다 **source.extension.vsixmanifest**합니다.
 
