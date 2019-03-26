@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ba9f4f3a7f6c3ab8d01b50a614fb006305d25eee
-ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
+ms.openlocfilehash: 7e1d0a0cd2b82c16871e157e6f78c766895c34b3
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "57983366"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415046"
 ---
 # <a name="add-custom-architecture-validation-to-dependency-diagrams"></a>종속성 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가
 
@@ -40,9 +40,7 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 ### <a name="to-define-an-extension-by-using-a-project-template"></a>프로젝트 템플릿을 사용하여 확장을 정의하려면
 
-1. **파일** 메뉴에서 **새 프로젝트** 명령을 사용하여 새 솔루션에서 프로젝트를 만듭니다.
-
-2. **새 프로젝트** 대화 상자의 **모델링 프로젝트**아래에서 **레이어 디자이너 유효성 검사 확장**을 선택합니다.
+1. 새 **레이어 디자이너 유효성 검사 확장** 프로젝트입니다.
 
     템플릿에서 작은 예제가 포함된 프로젝트를 만듭니다.
 
@@ -52,22 +50,22 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
    > - `LogValidationError` 에 대한 호출을 편집하여 선택적 인수 `errorSourceNodes` 및 `errorTargetNodes`를 제거합니다.
    > - 사용자 지정 속성을 사용 하는 경우에 언급 된 업데이트를 적용 [종속성 다이어그램에 사용자 지정 속성 추가](../modeling/add-custom-properties-to-layer-diagrams.md)합니다.
 
-3. 코드를 편집하여 유효성 검사를 정의합니다. 자세한 내용은 [프로그래밍 유효성 검사](#programming)를 참조하세요.
+2. 코드를 편집하여 유효성 검사를 정의합니다. 자세한 내용은 [프로그래밍 유효성 검사](#programming)를 참조하세요.
 
-4. 확장을 테스트하려면 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.
+3. 확장을 테스트하려면 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.
 
    > [!NOTE]
    > 메서드는 특정 상황에서만 호출되고 중단점은 자동으로 작동하지 않습니다. 자세한 내용은 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.
 
 ::: moniker range="vs-2017"
 
-5. Visual Studio 또는 다른 컴퓨터의 기본 인스턴스에서 확장을 설치 하려면 합니다 *.vsix* 파일을 *bin* 디렉터리. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거 하려면 선택 **확장 및 업데이트** 에 **도구** 메뉴.
+4. Visual Studio 또는 다른 컴퓨터의 기본 인스턴스에서 확장을 설치 하려면 합니다 *.vsix* 파일을 *bin* 디렉터리. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거 하려면 선택 **확장 및 업데이트** 에 **도구** 메뉴.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-5. Visual Studio 또는 다른 컴퓨터의 기본 인스턴스에서 확장을 설치 하려면 합니다 *.vsix* 파일을 *bin* 디렉터리. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거 하려면 선택 **Manage Extensions** 에 **확장** 메뉴.
+4. Visual Studio 또는 다른 컴퓨터의 기본 인스턴스에서 확장을 설치 하려면 합니다 *.vsix* 파일을 *bin* 디렉터리. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거 하려면 선택 **Manage Extensions** 에 **확장** 메뉴.
 
 ::: moniker-end
 
@@ -77,15 +75,13 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 ### <a name="to-add-layer-validation-to-a-separate-vsix"></a>개별 VSIX에 레이어 유효성 검사를 추가하려면
 
-1.  새 Visual Studio 솔루션이나 기존 솔루션에서 클래스 라이브러리 프로젝트를 만듭니다. **새 프로젝트** 대화 상자에서 **Visual C#** , **클래스 라이브러리**를 차례로 클릭합니다. 이 프로젝트에는 레이어 유효성 검사 클래스가 포함됩니다.
+1. 새 **클래스 라이브러리** 프로젝트입니다. 이 프로젝트에는 레이어 유효성 검사 클래스가 포함됩니다.
 
-2.  솔루션에서 VSIX 프로젝트를 식별하거나 만듭니다. VSIX 프로젝트에는 이름이 **source.extension.vsixmanifest**인 파일이 포함됩니다. VSIX 프로젝트에 추가하려면 다음 단계를 따릅니다.
+2. 찾거나 만들지를 **VSIX 프로젝트** 솔루션에. VSIX 프로젝트에는 이름이 **source.extension.vsixmanifest**인 파일이 포함됩니다.
 
-    1.  **새 프로젝트** 대화 상자에서 **Visual C#**, **확장성**, **VSIX 프로젝트**를 선택합니다.
+3. **솔루션 탐색기**의 VSIX 프로젝트를 마우스 오른쪽 단추 클릭 메뉴에서 **시작 프로젝트로 설정**합니다.
 
-    2.  **솔루션 탐색기**의 VSIX 프로젝트 바로 가기 메뉴에서 **시작 프로젝트로 설정**을 선택합니다.
-
-3.  **source.extension.vsixmanifest**의 **자산**에서 레이어 유효성 검사 프로젝트를 MEF 구성 요소로 추가합니다.
+4. **source.extension.vsixmanifest**의 **자산**에서 레이어 유효성 검사 프로젝트를 MEF 구성 요소로 추가합니다.
 
     1.  **새로 만들기**를 선택합니다.
 
@@ -97,7 +93,7 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
          **프로젝트** = *유효성 검사기 프로젝트*
 
-4.  또한 레이어 유효성 검사로 추가해야 합니다.
+5. 또한 레이어 유효성 검사로 추가해야 합니다.
 
     1.  **새로 만들기**를 선택합니다.
 
@@ -109,7 +105,7 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
          **프로젝트** = *유효성 검사기 프로젝트*
 
-5.  레이어 유효성 검사 프로젝트로 돌아가서 다음 프로젝트 참조를 추가합니다.
+6. 레이어 유효성 검사 프로젝트로 돌아가서 다음 프로젝트 참조를 추가합니다.
 
     |**참조**|**수행할 수 있는 기능**|
     |-|-|
@@ -120,14 +116,14 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
     |System.ComponentModel.Composition|MEF(Managed Extensibility Framework)를 사용하여 유효성 검사 구성 요소를 정의합니다.|
     |Microsoft.VisualStudio.Modeling.Sdk.[version]|모델링 확장 정의|
 
-6.  이 항목의 끝에 있는 예제 코드를 유효성 검사기 라이브러리 프로젝트의 클래스 파일에 복사하여 유효성 검사에 대한 코드를 포함합니다. 자세한 내용은 [프로그래밍 유효성 검사](#programming)를 참조하세요.
+7. 이 항목의 끝에 있는 예제 코드를 유효성 검사기 라이브러리 프로젝트의 클래스 파일에 복사하여 유효성 검사에 대한 코드를 포함합니다. 자세한 내용은 [프로그래밍 유효성 검사](#programming)를 참조하세요.
 
-7.  확장을 테스트하려면 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.
+8. 확장을 테스트하려면 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.
 
     > [!NOTE]
     > 메서드는 특정 상황에서만 호출되고 중단점은 자동으로 작동하지 않습니다. 자세한 내용은 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.
 
-8.  VSIX의 Visual Studio 또는 다른 컴퓨터에 주 인스턴스를 설치 하려면 합니다 **.vsix** 파일을 **bin** 의 VSIX 프로젝트 디렉터리. VSIX를 설치할 컴퓨터에 파일을 복사합니다. Windows 탐색기에서 VSIX 파일을 두 번 클릭합니다.
+9. VSIX의 Visual Studio 또는 다른 컴퓨터에 주 인스턴스를 설치 하려면 합니다 **.vsix** 파일을 **bin** 의 VSIX 프로젝트 디렉터리. VSIX를 설치할 컴퓨터에 파일을 복사합니다. Windows 탐색기에서 VSIX 파일을 두 번 클릭합니다.
 
 ##  <a name="programming"></a> 프로그래밍 유효성 검사
 

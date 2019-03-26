@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 50b151358df90be3db423bbf3db8b5123d1069f3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 00e7241e6f74d3ac034d52636b1bba1ee73b92c6
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949423"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415684"
 ---
 # <a name="writing-user-commands-and-actions"></a>사용자 명령 및 작업 작성
 다이어그램에 명령을 추가하고 끌어서 놓기, 클릭, 두 번 클릭 이벤트와 같은 제스처에 응답하여 DSL을 사용자 지정할 수 있습니다.
@@ -27,9 +27,7 @@ ms.locfileid: "55949423"
 
 -   [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) -클릭 하 여 항목에서을 참조 하는 다른 항목에 사용자를 허용 합니다.
 
--   [방법: 액세스 및 현재 선택 영역 제약](../modeling/how-to-access-and-constrain-the-current-selection.md)
-
--   [요소 도구 사용자 지정](../modeling/customizing-element-tools.md)
+-   [방법: 현재 선택 항목 액세스 및 제약](../modeling/how-to-access-and-constrain-the-current-selection.md)
 
 ## <a name="see-also"></a>참고 항목
 

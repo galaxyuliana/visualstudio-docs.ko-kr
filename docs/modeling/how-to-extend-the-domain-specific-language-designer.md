@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9fad34e853aee65f32d87145d1d0300495e07b9c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 0a5343fc177afce6baa6d9f4727d118606cc1b57
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55953999"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415969"
 ---
 # <a name="how-to-extend-the-domain-specific-language-designer"></a>방법: 도메인 특정 언어 디자이너 확장
 
@@ -26,15 +26,13 @@ DSL 정의 편집 하는 데 사용 하는 디자이너에 확장을 만들 수 
 
 ### <a name="to-create-a-dsl-designer-extension-solution"></a>DSL 디자이너 확장 솔루션을 만들려면
 
-1.  클래스 라이브러리 프로젝트 템플릿을 사용 하 여 새 프로젝트를 만듭니다. 에 **새 프로젝트** 대화 상자, 클릭 **Visual C#** 하 고 클릭 한 다음 가운데 창에서 **클래스 라이브러리**합니다.
+1.  사용 하 여 새 프로젝트를 **클래스 라이브러리** 프로젝트 템플릿. 이 프로젝트에는 확장 코드가 포함 됩니다.
 
-     이 프로젝트에는 확장 코드가 포함 됩니다.
-
-2.  VSIX 프로젝트 템플릿을 사용 하 여 새 프로젝트를 만듭니다. 에 **새 프로젝트** 대화 상자에서 **Visual C#**, 클릭 **확장성**를 선택한 다음 가운데 창의 선택 **VSIX 프로젝트**합니다.
+2.  새 **VSIX 프로젝트** 프로젝트입니다.
 
      선택 **솔루션을 추가할**합니다.
 
-     Source.extension.vsixmanifest은 VSIX 매니페스트 편집기에서 열립니다.
+     *Source.extension.vsixmanifest* VSIX 매니페스트 편집기에서 열립니다.
 
 3.  콘텐츠 필드 위에 클릭 **콘텐츠 추가**합니다.
 

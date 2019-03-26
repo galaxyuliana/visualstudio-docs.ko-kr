@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cad29fbc042e9f6397dc1f09fe3fce81f20403aa
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1c139e2a9675bdbe204b54220709ac8cdc794e5b
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55932055"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416060"
 ---
 # <a name="deploying-a-custom-directive-processor"></a>사용자 지정 지시문 처리기 배포
 
@@ -46,9 +46,7 @@ Visual Studio 또는 MSBuild에서 텍스트 템플릿을 변형 하려는 경�
 
 #### <a name="to-develop-a-custom-directive-processor-in-a-vsix-project"></a>VSIX 프로젝트에서 사용자 지정 지시문 프로세서를 개발하려면
 
-1.  Visual Studio에서 VSIX 프로젝트를 만듭니다.
-
-    -   에 **새 프로젝트** 대화 상자에서 **Visual Basic** 또는 **Visual C#** 를 확장 한 다음 **확장성**합니다. 클릭 **VSIX 프로젝트**합니다.
+1.  새 **VSIX 프로젝트** 프로젝트입니다.
 
 2.  **source.extension.vsixmanifest**콘텐츠 형식을 설정 하 고 지원 되는 버전입니다.
 

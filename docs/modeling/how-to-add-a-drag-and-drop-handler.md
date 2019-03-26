@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 43a147db40ef8e604a3ae7fd8a72f9eb6a704e63
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 49eed907e38c79a98e5604a96380efa5d7281c1d
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57867750"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415670"
 ---
 # <a name="how-to-add-a-drag-and-drop-handler"></a>방법: 끌어서 놓기 처리기 추가
 
@@ -128,7 +128,7 @@ MEF(Managed Extensibility Framework)를 사용하면 최소한의 구성으로 �
 
     -   diagrameventargs.data.getdataformats ()-끌어 온된 개체를 디코딩할 수 있는 형식을 나열 합니다. 예를 들어 사용자가 바탕 화면에서 파일을 끄는 경우 사용 가능한 형식에는 파일 이름("`FileNameW`")이 포함됩니다.
 
-    -   `diagramEventArgs.Data.GetData(format)` -지정 된 형식으로 끌어 온된 개체를 디코딩합니다. 적절한 형식으로 개체를 캐스팅합니다. 예를 들면 다음과 같습니다.
+    -   `diagramEventArgs.Data.GetData(format)` -지정 된 형식으로 끌어 온된 개체를 디코딩합니다. 적절한 형식으로 개체를 캐스팅합니다. 예를 들어:
 
          `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
 
@@ -158,13 +158,13 @@ MEF(Managed Extensibility Framework)를 사용하면 최소한의 구성으로 �
 
 ### <a name="to-prepare-a-dsl-project-for-model-bus"></a>ModelBus용 DSL 프로젝트를 준비하려면
 
-1.  소스 DSL는 Visual Studio Modelbus에서 액세스할 수 있도록 합니다.
+소스 DSL는 Visual Studio Modelbus에서 액세스할 수 있도록 합니다.
 
-    1.  Visual Studio ModelBus 확장을 이미 설치하지 않은 경우 다운로드하여 설치합니다. 자세한 내용은 [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579)합니다.
+1. Visual Studio ModelBus 확장을 이미 설치하지 않은 경우 다운로드하여 설치합니다. 자세한 내용은 [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579)합니다.
 
-    2.  DSL Designer에서 소스 DSL의 DSL 정의 파일을 엽니다. 디자인 화면을 마우스 오른쪽 단추로 누른 **Modelbus**합니다. 대화 상자에서 옵션 중 하나 또는 둘 다를 선택합니다.  **확인**을 클릭합니다. "ModelBus"라는 새 프로젝트가 DSL 솔루션에 추가됩니다.
+2. DSL Designer에서 소스 DSL의 DSL 정의 파일을 엽니다. 디자인 화면을 마우스 오른쪽 단추로 누른 **Modelbus**합니다. 대화 상자에서 옵션 중 하나 또는 둘 다를 선택합니다.  **확인**을 클릭합니다. "ModelBus"라는 새 프로젝트가 DSL 솔루션에 추가됩니다.
 
-    3.  클릭 **모든 템플릿 변환** 는 솔루션을 다시 빌드합니다.
+3. 클릭 **모든 템플릿 변환** 는 솔루션을 다시 빌드합니다.
 
 ### <a name="to-send-an-object-from-a-source-dsl"></a>소스 DSL에서 개체를 보내려면
 

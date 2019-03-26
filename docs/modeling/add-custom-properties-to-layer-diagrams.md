@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3ba8f58d13d3e0c9e360796092a8d522f54d0384
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 76bfa81f1285dce000f79c356a604bab1d53cc55
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939543"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415826"
 ---
 # <a name="add-custom-properties-to-dependency-diagrams"></a>종속성 다이어그램에 사용자 지정 속성 추가
 
@@ -22,7 +22,7 @@ ms.locfileid: "55939543"
 
 ## <a name="non-visible-properties"></a>볼 수 없는 속성
 
-종속성 다이어그램에 있는 모든 요소에 값을 연결 하는 코드를 원하는 경우 MEF 구성 요소를 정의할 필요가 없습니다. `Properties`에는 <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement>라는 사전이 있습니다. 레이어 요소의 사전에 마샬링할 수 값을 추가하기만 하면 됩니다. 종속성 다이어그램의 일부로 저장 됩니다. 자세한 내용은 [탐색 및 업데이트 프로그램 코드에서 모델 계층](../modeling/navigate-and-update-layer-models-in-program-code.md)합니다.
+종속성 다이어그램에 있는 모든 요소에 값을 연결 하는 코드를 원하는 경우 MEF 구성 요소를 정의할 필요가 없습니다. `Properties`에는 <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement>라는 사전이 있습니다. 레이어 요소의 사전에 마샬링할 수 값을 추가하기만 하면 됩니다. 종속성 다이어그램의 일부로 저장 됩니다.
 
 ## <a name="editable-properties"></a>편집 가능한 속성
 
