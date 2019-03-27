@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: f59dceabb076ebce36755c41caa6de00258be883
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: afd4b758332d9357dc20dd84e726d72da4d2db74
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58160643"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355187"
 ---
 # <a name="generate-usings-in-visual-studio"></a>Visual Studio에서 usings 생성
 
@@ -22,7 +22,7 @@ ms.locfileid: "58160643"
 
 - C#
 
-**내용:** **내용:** 필요한 가져오기 또는 복사하여 붙여넣은 코드의 [using 문](/dotnet/csharp/language-reference/keywords/using-statement)을 즉시 추가할 수 있습니다.
+**내용:** 필요한 가져오기 또는 복사하여 붙여넣은 코드의 [using 문](/dotnet/csharp/language-reference/keywords/using-statement)을 즉시 추가할 수 있습니다.
 
 **시기:** 프로젝트 또는 다른 코드 소스의 서로 다른 위치에서 코드를 복사하여 붙여넣는 것이 일반적입니다. 이 빠른 작업은 복사하여 붙여넣은 코드의 누락된 가져오기를 분석한 다음, 추가하라는 메시지를 표시합니다.
 

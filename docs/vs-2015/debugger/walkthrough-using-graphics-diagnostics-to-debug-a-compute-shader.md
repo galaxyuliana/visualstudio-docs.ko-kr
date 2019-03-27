@@ -16,15 +16,15 @@ ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 55f0b9de879011110d8df46c0e4d738265b0fa34
 ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/16/2018
 ms.locfileid: "51730649"
 ---
-# <a name="walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader"></a>연습: 그래픽 진단을 사용하여 계산 셰이더 디버깅
+# <a name="walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader"></a>연습: 그래픽 진단을 사용하여 컴퓨팅 셰이더 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 잘못된 결과를 생성하는 계산 셰이더를 Visual Studio 그래픽 진단 도구를 사용하여 조사하는 방법을 보여 줍니다.  
+이 연습에서는 Visual Studio 그래픽 진단 도구를 사용하여 잘못된 결과를 생성하는 컴퓨팅 셰이더를 조사하는 방법을 보여 줍니다.  
   
  이 연습에서는 다음 작업을 설명합니다.  
   
@@ -74,7 +74,7 @@ ms.locfileid: "51730649"
   
    여러 개의 가능한 `Dispatch` 이벤트 중 문제에 해당하는 일부 이벤트를 알게 되었으므로 이제 이들 일부 이벤트에 대해 자세히 살펴볼 수 있습니다.  
   
-#### <a name="to-determine-which-compute-shader-a-dispatch-call-executes"></a>디스패치 호출이 실행하는 계산 셰이더를 확인하려면  
+#### <a name="to-determine-which-compute-shader-a-dispatch-call-executes"></a>디스패치 호출이 어떤 셰이더 컴퓨팅을 실행 여부를 확인하려면  
   
 1. 에 **그래픽 진단** 도구 모음 선택 **이벤트 호출 스택** 열려는 합니다 **그래픽 이벤트 호출 스택** 창.  
   
@@ -82,7 +82,7 @@ ms.locfileid: "51730649"
   
    이 시나리오에는 각 프레임에 `CSSetShader` 및 `Dispatch` 이벤트가 세 쌍 있습니다. 역방향으로 살펴보면, 세 번째 쌍은 통합 단계를 나타내고(유체 입자가 실제로 이동함), 두 번째 쌍은 힘 계산 단계를 나타내고(각 입자에 영향을 주는 힘이 계산됨), 첫 번째 쌍은 밀도 계산 단계를 나타냅니다.  
   
-#### <a name="to-debug-the-compute-shader"></a>계산 셰이더를 디버그하려면  
+#### <a name="to-debug-the-compute-shader"></a>컴퓨팅 셰이더를 디버깅하려면  
   
 1. 에 **그래픽 진단** 도구 모음 선택 **파이프라인 단계** 열려는 합니다 **그래픽 파이프라인 단계** 창.  
   
@@ -92,19 +92,19 @@ ms.locfileid: "51730649"
   
     HLSL 디버거는 통합 단계를 수행하는 셰이더에서 시작됩니다.  
   
-3. 계산 셰이더 소스 코드에서 통합 단계를 검토하여 오류의 원인을 찾습니다. 그래픽 진단을 HLSL 계산 셰이더 코드를 디버그할 때는 코드를 단계별로 실행하고 조사식 창과 같은 다른 익숙한 디버깅 도구를 사용할 수 있습니다. 이 시나리오에서는 통합 단계를 수행하는 계산 셰이더에서 오류가 없는 것으로 확인됩니다.  
+3. 계산 셰이더 소스 코드에서 통합 단계를 검토하여 오류의 원인을 찾습니다. 그래픽 진단을 HLSL 계산 셰이더 코드를 디버그할 때는 코드를 단계별로 실행하고 조사식 창과 같은 다른 익숙한 디버깅 도구를 사용할 수 있습니다. 이 시나리오에서는 통합 단계를 수행하는 컴퓨팅 셰이더에 오류가 나타나지 않는지 확인합니다.  
   
     ![IntegrateCS 계산 셰이더를 디버깅 합니다. ](../debugger/media/gfx-diag-demo-compute-shader-fluid-step-7.png "gfx_diag_demo_compute_shader_fluid_step_7")  
   
 4. 계산 셰이더 디버깅을 중지 하는 **디버그** 도구 모음 선택 **디버깅 중지** (키보드: shift+f5).  
   
-5. 다음으로, 두 번째 `Dispatch` 이벤트를 선택하고 이전 단계에서 했던 것과 마찬가지로 계산 셰이더 디버깅을 시작합니다.  
+5. 그 다음, 두 번째 `Dispatch` 이벤트를 선택하고 이전 단계에서와 마찬가지로 컴퓨팅 셰이더 디버깅을 시작합니다.  
   
     ![EL.에서 두 번째 디스패치 이벤트를 선택](../debugger/media/gfx-diag-demo-compute-shader-fluid-step-8.png "gfx_diag_demo_compute_shader_fluid_step_8")  
   
     HLSL 디버거는 각 유체 입자에 작용하는 힘을 계산하는 셰이더에서 시작됩니다.  
   
-6. 계산 셰이더 소스 코드를 검토하여 힘 계산 단계가 있는지 확인합니다. 이 시나리오에서는 여기가 오류의 원인이라는 것이 확인됩니다.  
+6. 힘 컴퓨팅 단계의 컴퓨팅 셰이더 소스 코드를 검사합니다. 이 시나리오에서는 여기가 오류의 원인이라는 것이 확인됩니다.  
   
     ![ForceCS 디버깅&#95;간단한 셰이더를 계산 합니다. ](../debugger/media/gfx-diag-demo-compute-shader-fluid-step-9.png "gfx_diag_demo_compute_shader_fluid_step_9")  
   
@@ -112,7 +112,7 @@ ms.locfileid: "51730649"
   
    ![수정 된 계산&#45;셰이더 코드입니다. ](../debugger/media/gfx-diag-demo-compute-shader-fluid-step-10.png "gfx_diag_demo_compute_shader_fluid_step_10")  
   
-   이 시나리오에서는 런타임에 계산 셰이더가 컴파일되기 때문에 변경한 후에 앱을 다시 시작하기만 하면 시뮬레이션에 미치는 영향을 확인할 수 있습니다. 앱을 다시 빌드할 필요가 없습니다. 앱을 실행하면 이제 시뮬레이션이 올바르게 동작하는 것이 확인됩니다.  
+   이 시나리오에서는 컴퓨팅 셰이더가 런타임에 컴파일되므로 시뮬레이션에 미치는 영향을 관찰하기 위해 변경을 적용한 후 애플리케이션을 다시 시작하면 됩니다. 앱을 다시 빌드할 필요가 없습니다. 앱을 실행하면 이제 시뮬레이션이 올바르게 동작하는 것이 확인됩니다.  
   
    ![시뮬레이트된 fluid가 올바르게 작동 합니다. ](../debugger/media/gfx-diag-demo-compute-shader-fluid-resolution.png "gfx_diag_demo_compute_shader_fluid_resolution")
 

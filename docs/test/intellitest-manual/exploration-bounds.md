@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: e5ee5d3e05af407f3011111e1dcad84487dd81fe
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ffa6908fe759f33ad1e82f2fd44975d6731cdf16
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952361"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325281"
 ---
 # <a name="exploration-bounds"></a>탐색 경계
 
@@ -29,17 +29,17 @@ public partial class FooTest {...}
 
 * **제약 조건 해결 경계**
   * [MaxConstraintSolverTime](#maxconstraintsolvertime) - [제약 조건 해결기](input-generation.md#constraint-solver)가 새롭거나 다른 실행 경로를 따르게 만드는 입력을 검색해야 하는 시간(초)입니다.
-  * [MaxConstraintSolverMemory](#maxconstraintsolvermemory) - [제약 조건 해결기](input-generation.md#constraint-solver)가 입력을 검색하는 데 사용할 수 있는 크기(MB)입니다.<p />
+  * [MaxConstraintSolverMemory](#maxconstraintsolvermemory) - [제약 조건 해결기](input-generation.md#constraint-solver)가 입력을 검색하는 데 사용할 수 있는 크기(MB)입니다.
 * **탐색 경로 경계**
   * [MaxBranches](#maxbranches) - 단일 실행 경로를 따라 사용할 수 있는 최대 분기 수입니다.
   * [MaxCalls](#maxcalls) - 단일 실행 경로 중에 생성될 수 있는 최대 호출 수입니다.
   * [MaxStack](#maxstack) - 단일 실행 경로 중 임의 시점에 활성 호출 프레임 수로 측정된 최대 스택 크기입니다.
-  * [MaxConditions](#maxconditions) - 단일 실행 경로 중에 확인될 수 있는 입력에 대한 최대 조건 수입니다.<p />
+  * [MaxConditions](#maxconditions) - 단일 실행 경로 중에 확인될 수 있는 입력에 대한 최대 조건 수입니다.
 * **탐색 경계**
   * [MaxRuns](#maxruns) - 탐색 중에 시도될 최대 실행 수입니다.
   * [MaxRunsWithoutNewTests](#maxrunswithoutnewtests) - 새 테스트를 내보내지 않는 최대 연속 실행 수입니다.
   * [MaxRunsWithUniquePaths](#maxrunswithuniquepaths) - 탐색 중에 시도될 고유한 실행 경로를 사용한 최대 실행 수입니다.
-  * [MaxExceptions](#maxexceptions) - 모든 검색된 실행 경로 조합에 대해 검색될 수 있는 최대 예외 수입니다.<p />
+  * [MaxExceptions](#maxexceptions) - 모든 검색된 실행 경로 조합에 대해 검색될 수 있는 최대 예외 수입니다.
 * **테스트 도구 모음 코드 생성 설정**
   * [TestExcludePathBoundsExceeded](#testexcludepathboundsexceeded) - True인 경우 경로 경계([MaxCalls](#maxcalls), [MaxBranches](#maxbranches), [MaxStack](#maxstack), [MaxConditions](#maxconditions))를 초과하는 실행 경로는 무시됩니다.
   * [TestEmissionFilter](#testemissionfilter) - IntelliTest가 테스트를 내보내는 환경을 나타냅니다.

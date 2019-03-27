@@ -255,13 +255,13 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
 
 이전 섹션의 코드로 만든 파일을 보려면 다음 단계를 수행합니다.
 
-1.  Windows 알림 영역에서 Azure 아이콘을 마우스 오른쪽 단추로 클릭하고, 상황에 맞는 메뉴에서 **Compute 에뮬레이터 UI 표시**를 선택합니다.
+1.  Windows 알림 영역에서 Azure 아이콘을 마우스 오른쪽 단추로 클릭하고, 상황에 맞는 메뉴에서  **에뮬레이터 UI 표시**를 선택합니다.
 
-    ![Azure 계산 에뮬레이터 표시](./media/vs-azure-tools-configure-roles-for-cloud-service/show-compute-emulator.png)
+    ![Azure 컴퓨팅 에뮬레이터 표시](./media/vs-azure-tools-configure-roles-for-cloud-service/show-compute-emulator.png)
 
 1. 웹 역할을 선택합니다.
 
-    ![Azure 계산 에뮬레이터](./media/vs-azure-tools-configure-roles-for-cloud-service/compute-emulator.png)
+    ![Azure 컴퓨팅 에뮬레이터](./media/vs-azure-tools-configure-roles-for-cloud-service/compute-emulator.png)
 
 1. **Microsoft Azure Compute 에뮬레이터** 메뉴에서 **도구** > **로컬 저장소 열기**를 선택합니다.
 

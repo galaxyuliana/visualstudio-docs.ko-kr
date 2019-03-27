@@ -14,12 +14,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7547a6bb4670640733a64e7a60bfc92076df1460
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+ms.openlocfilehash: 0fdd1560f4b32f6c0b555e1786a766d034184f91
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57982976"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415640"
 ---
 # <a name="how-to-define-settings-in-a-response-file"></a>지시 파일에서 설정을 정의하는 방법
 
@@ -48,6 +50,8 @@ Visual Studio 설치 프로그램을 레이아웃 폴더에서 실행하면 _자
 
 레이아웃의 기본 `response.json` 파일은 다음 예제와 유사하며, 여기에 설치할 제품 및 채널에 대한 값이 더 포함됩니다.
 
+::: moniker range="vs-2017"
+
 ```json
 {
   "installChannelUri": ".\\ChannelManifest.json",
@@ -58,11 +62,29 @@ Visual Studio 설치 프로그램을 레이아웃 폴더에서 실행하면 _자
 }
 ```
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+```json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "https://aka.ms/vs/16/release/channel",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.16.Release",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise"
+}
+```
+
+::: moniker-end
+
 레이아웃을 만들거나 업데이트하면 response.template.json 파일도 만들어집니다.  이 파일에는 사용할 수 있는 모든 워크로드, 구성 요소 및 언어 ID가 포함됩니다.  이 파일은 사용자 지정 설치에 포함할 수 있는 모든 항목에 대한 템플릿으로 제공됩니다.  관리자는 이 파일을 사용자 지정 지시 파일을 만들기 위한 기준으로 삼을 수 있습니다.  설치하지 않을 항목에 대한 ID를 제거하고 고유한 지시 파일로 저장하면 됩니다.  response.template.json 파일의 경우 레이아웃이 업데이트되면 변경 내용이 손실되므로 사용자 지정하지 마세요.
 
 ## <a name="example-layout-response-file-content"></a>레이아웃 지시 파일 콘텐츠의 예
 
 다음 예제에서는 6개의 일반 워크로드 및 구성 요소가 포함되고 영어 및 프랑스어 UI 언어가 모두 포함된 Visual Studio Enterprise를 설치합니다. 이 예제를 템플릿으로 사용할 수 있고, 이 경우 워크로드 및 구성 요소를 설치할 항목으로 변경하면 됩니다.
+
+::: moniker range="vs-2017"
 
 ```json
 {
@@ -94,6 +116,43 @@ Visual Studio 설치 프로그램을 레이아웃 폴더에서 실행하면 _자
     ]
 }
 ```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+```json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "https://aka.ms/vs/16/release/channel",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.16.Release",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise",
+
+  "installPath": "C:\\VS2019",
+  "quiet": false,
+  "passive": false,
+  "includeRecommended": true,
+  "norestart": false,
+
+  "addProductLang": [
+    "en-US",
+    "fr-FR"
+    ],
+
+    "add": [
+        "Microsoft.VisualStudio.Workload.ManagedDesktop",
+        "Microsoft.VisualStudio.Workload.Data",
+        "Microsoft.VisualStudio.Workload.NativeDesktop",
+        "Microsoft.VisualStudio.Workload.NetWeb",
+        "Microsoft.VisualStudio.Workload.Office",
+        "Microsoft.VisualStudio.Workload.Universal",
+        "Component.GitHub.VisualStudio"
+    ]
+}
+```
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

@@ -13,7 +13,7 @@ ms.date: 03/21/2017
 ms.author: ghogen
 ms.openlocfilehash: ce2259debb55c4792c2998f0e67df69dbc8cb7f9
 ms.sourcegitcommit: e481d0055c0724d20003509000fd5f72fe9d1340
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/05/2018
 ms.locfileid: "51003078"
@@ -261,11 +261,11 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
     
 1.  Windows 알림 영역에서 Azure 아이콘을 마우스 오른쪽 단추로 클릭 하 고, 상황에 맞는 메뉴에서 선택 **Compute 에뮬레이터 UI 표시**합니다. 
 
-    ![Azure 계산 에뮬레이터 표시](./media/vs-azure-tools-configure-roles-for-cloud-service/show-compute-emulator.png)
+    ![Azure 컴퓨팅 에뮬레이터 표시](./media/vs-azure-tools-configure-roles-for-cloud-service/show-compute-emulator.png)
 
 1. 웹 역할을 선택 합니다.
 
-    ![Azure 계산 에뮬레이터](./media/vs-azure-tools-configure-roles-for-cloud-service/compute-emulator.png)
+    ![Azure 컴퓨팅 에뮬레이터](./media/vs-azure-tools-configure-roles-for-cloud-service/compute-emulator.png)
 
 1. 에 **Microsoft Azure Compute 에뮬레이터** 메뉴에서 **도구** > **로컬 저장소 열기**합니다.
 

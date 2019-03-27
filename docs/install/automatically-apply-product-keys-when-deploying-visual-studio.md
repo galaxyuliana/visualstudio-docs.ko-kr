@@ -10,12 +10,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0dab3f8f862b27a8124aecf0e19f7649d8b934b7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+ms.openlocfilehash: c6df0e09f48460fa88caf9f5657f73d9446bf133
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947239"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324174"
 ---
 # <a name="automatically-apply-product-keys-when-deploying-visual-studio"></a>Visual Studio를 배포할 때 제품 키를 자동으로 적용
 
@@ -50,7 +52,7 @@ Visual Studio의 배포를 자동화하는 데 사용되는 스크립트의 일�
 
 `StorePID.exe`는 제품 키를 성공적으로 적용한 경우 0의 `%ERRORLEVEL%`을 반환합니다. 오류가 발생하는 경우 오류 조건에 따라 다음 코드 중 하나를 반환합니다.
 
-| Error                     | 코드 |
+| 오류                     | 코드 |
 |---------------------------|------|
 | `PID_ACTION_SUCCESS`      | 0    |
 | `PID_ACTION_NOTINSTALLED` | 1    |

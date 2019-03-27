@@ -14,16 +14,28 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b7e026b85a990e0186decc9c67ebecb169c0fa98
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+ms.openlocfilehash: 842fed287a6035684534c3d735d146e1b9a0fbfb
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983899"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324976"
 ---
 # <a name="select-the-installation-locations-in-visual-studio"></a>Visual Studio에서 설치 위치 선택
 
+::: moniker range="vs-2017"
+
 **버전 15.7의 새로운 기능**: 해당 파일의 일부의 위치를 변경하여 시스템 드라이브에서 Visual Studio의 설치 공간을 줄일 수 있습니다. 특히 다운로드 캐시, 공유 구성 요소, SDK 및 도구 파일에 대해 다른 위치를 사용할 수 있습니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+해당 파일의 일부의 위치를 변경하여 시스템 드라이브에서 Visual Studio의 설치 공간을 줄일 수 있습니다. 특히 다운로드 캐시, 공유 구성 요소, SDK 및 도구 파일에 대해 다른 위치를 사용할 수 있습니다.
+
+::: moniker-end
 
    > [!NOTE]
    > 일부 도구와 SDK를 설치할 수 있는 위치에 다른 규칙이 적용되는 도구와 SDK가 있습니다. 이러한 도구 및 SDK는 다른 위치를 선택했다 하더라도 시스템 드라이브에 설치됩니다.

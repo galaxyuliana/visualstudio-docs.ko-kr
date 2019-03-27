@@ -11,16 +11,16 @@ ms.workload:
 - aspnet
 - dotnetcore
 - azure
-ms.openlocfilehash: caf4a90b55e53cb9e4887f32c0388d7b313486dd
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 694a9f7ba6bd5870a54b6b10e028c463d47ababf
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194939"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355804"
 ---
-# <a name="remote-debug-aspnet-core-on-iis-in-azure-in-visual-studio-2017"></a>Visual Studio 2017에서 Azure에는 IIS에서 ASP.NET Core 원격 디버그
+# <a name="remote-debug-aspnet-core-on-iis-in-azure-in-visual-studio"></a>Visual Studio에서 Azure에는 IIS에서 ASP.NET Core 원격 디버그
 
-이 가이드에는 설정 및 Visual Studio 2017의 ASP.NET Core 앱을 구성 하 고, Azure를 사용 하 여 IIS에 배포 하 고 Visual Studio에서 원격 디버거를 연결 하는 방법을 설명 합니다.
+이 가이드에는 설정 및 Visual Studio ASP.NET Core 앱을 구성 하 고, Azure를 사용 하 여 IIS에 배포 하 고 Visual Studio에서 원격 디버거를 연결 하는 방법을 설명 합니다.
 
 Azure의 원격 디버그 하는 권장된 방법은 시나리오에 따라 달라 집니다.
 
@@ -42,22 +42,31 @@ Azure의 원격 디버그 하는 권장된 방법은 시나리오에 따라 달�
 > [!WARNING]
 > 이 자습서의 단계를 완료 하는 경우 만든 Azure 리소스를 삭제 해야 합니다. 이렇게 불필요 한 요금이 발생을 방지할 수 있습니다.
 
+## <a name="prerequisites"></a>전제 조건
 
-### <a name="requirements"></a>요구 사항
+::: moniker range=">=vs-2019"
+Visual Studio 2019은이 문서에 나와 있는 단계를 수행 해야 합니다.
+::: moniker-end
+::: moniker range="vs-2017"
+Visual Studio 2017은이 문서에 나와 있는 단계를 수행 해야 합니다.
+::: moniker-end
+
+### <a name="network-requirements"></a>네트워크 요구 사항
 
 프록시를 통해 연결 하는 두 컴퓨터 간에 디버깅이 지원 되지 않습니다. 국가 간 높은 대기 시간 또는 낮은 대역폭 연결에서는 인터넷에 접속 등을 통해 또는 인터넷을 통해 디버깅 권장 되지 않습니다 및 실패 하거나 느리고 수 있습니다. 요구 사항의 전체 목록은 참조 하세요 [요구 사항](../debugger/remote-debugging.md#requirements_msvsmon)합니다.
 
-## <a name="create-the-aspnet-core-application-on-the-visual-studio-2017-computer"></a>Visual Studio 2017 컴퓨터의 ASP.NET Core 응용 프로그램 만들기
+## <a name="create-the-aspnet-core-application-on-the-visual-studio-computer"></a>Visual Studio 컴퓨터에서 ASP.NET Core 응용 프로그램 만들기
 
-1. 새 ASP.NET Core 응용 프로그램을 만듭니다. (선택 **파일 > 새로 만들기 > 프로젝트**을 선택한 후 **시각적 C# > 웹 > ASP.NET Core 웹 응용 프로그램**).
+1. 새 ASP.NET Core 응용 프로그램을 만듭니다.
 
-    에 **ASP.NET Core** 템플릿 섹션 **웹 응용 프로그램**합니다.
+    ::: moniker range=">=vs-2019"
+    Visual Studio 2019 입력 **Ctrl + Q** 입력 검색 상자를 열려면 **asp.net**, 선택 **템플릿**를 선택한 **새 ASP.NET Core 웹 응용 프로그램 만들기** . 나타나는 대화 상자에서 프로젝트 이름을 **MyASPApp**를 선택한 후 **만들기**합니다. 그런 다음 선택 **웹 응용 프로그램 (모델-뷰-컨트롤러)** 를 선택한 후 **만들기**합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    Visual Studio 2017에서 선택 **파일 > 새로 만들기 > 프로젝트**을 선택한 후 **시각적 C# > 웹 > ASP.NET Core 웹 응용 프로그램**합니다. ASP.NET Core 템플릿 섹션에서 선택 **웹 응용 프로그램 (모델-뷰-컨트롤러)** 합니다. ASP.NET Core 2.1 선택 되어 있는지 확인 하는 **Docker 지원 활성화** 선택 하지 않으면 하 고 **인증** 로 설정 되어 **인증 안 함**합니다. 프로젝트 이름을 **MyASPApp**합니다.
+    ::: moniker-end
 
-2. 했는지 **ASP.NET Core 2.0** 을 선택 하는 **Docker 지원을 사용 하도록 설정** 은 **하지** 선택한 하 고 **인증** 로 설정 되어 **인증 없음**합니다.
-
-3. 프로젝트 이름을 **MyASPApp** 누릅니다 **확인** 새 솔루션을 만듭니다.
-
-4. About.cshtml.cs 파일을 열고 중단점을 설정 합니다 `OnGet` 메서드 (이전 템플릿에서 HomeController.cs 대신 열고에서 중단점을 설정 합니다 `About()` 메서드).
+1. About.cshtml.cs 파일을 열고 중단점을 설정 합니다 `OnGet` 메서드 (이전 템플릿에서 HomeController.cs 대신 열고에서 중단점을 설정 합니다 `About()` 메서드).
 
 ## <a name="remote_debug_azure_app_service"></a> Azure App Service에 ASP.NET Core 원격 디버그
 
@@ -87,9 +96,9 @@ Visual Studio에서 게시 하 고 IIS의 인스턴스를 완전히 프로 비�
 
 Windows 서버에 대 한 Azure VM 만들기 지정 하 고 설치 및 IIS 및 기타 필수 소프트웨어 구성 요소를 구성 합니다. 이 Azure App Service에 배포 하는 보다 많은 시간이 걸리는 및이 자습서의 나머지 단계를 따라야 합니다.
 
-먼저에 설명 된 모든 단계를 따릅니다 [설치 및 실행된 IIS](/azure/virtual-machines/windows/quick-create-portal)합니다.
-
-네트워크 보안 그룹에 포트 80을 여는 경우 원격 디버거에 대 한 포트 4022를 열 수도 있습니다. 이런 방식으로 나중에 열 필요가 없습니다.
+이러한 절차 이러한 서버 구성에서 테스트 되었습니다.
+* Windows Server 2012 R2 및 IIS 8
+* Windows Server 2016 및 IIS 10
 
 ### <a name="app-already-running-in-iis-on-the-azure-vm"></a>Azure VM에서 IIS에서 이미 실행 되는 앱?
 
@@ -98,6 +107,10 @@ Windows 서버에 대 한 Azure VM 만들기 지정 하 고 설치 및 IIS 및 �
 * 앱은 IIS에서 실행 되 고 원격 디버거를 다운로드 하 고 디버깅을 시작으로 이동 하세요만 하려는 경우 [다운로드 하 여 Windows Server에서 원격 도구 설치](#BKMK_msvsmon)합니다.
 
 * 앱 설정 되어 있는지를 배포 해야 하는 데 도움이 필요 하 고이 항목의 모든 단계에 따라 디버그할 수 있도록 IIS에서 올바르게 실행 했습니다.
+
+    * 시작 하기 전에에 설명 된 모든 단계를 따릅니다 [설치 및 실행된 IIS](/azure/virtual-machines/windows/quick-create-portal)합니다.
+
+    * 네트워크 보안 그룹에 포트 80을 여는 경우 열 수도 합니다 [포트를 수정](#bkmk_openports) 원격 디버거 (4024 또는 4022)에 대 한 합니다. 이런 방식으로 나중에 열 필요가 없습니다.
 
 ### <a name="update-browser-security-settings-on-windows-server"></a>Windows Server에서 브라우저 보안 설정 업데이트
 
@@ -181,7 +194,7 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
 
 ### <a name="BKMK_msvsmon"></a> 다운로드 하 여 Windows Server에서 원격 도구 설치
 
-이 자습서에서는 Visual Studio 2017을 사용 하는 것입니다.
+Visual Studio의 버전과 일치 하는 원격 도구의 버전을 다운로드 합니다.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
 
@@ -200,7 +213,15 @@ RoboCopy, Powershell을 사용 하 여 IIS에 응용 프로그램을 복사 하�
     > [!TIP]
     > Visual Studio 2017 이상 버전에서 다시 연결할 수는 동일한 프로세스 이전에 사용 하 여 연결할 **디버그 > 프로세스에 다시 연결 하는 중...** Shift+Alt+P
 
-3. 한정자 필드를 **\<원격 컴퓨터 이름>:4022**로 설정합니다.
+3. 한정자 필드에 설정할  **\<원격 컴퓨터 이름 >: 포트**합니다.
+
+    ::: moniker range=">=vs-2019"
+    **\<원격 컴퓨터 이름 >: 4024** Visual Studio 2019에
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    **\<원격 컴퓨터 이름 >: 4022** Visual Studio 2017에서
+    ::: moniker-end
+
 4. **새로 고침**을 클릭합니다.
     일부 프로세스가 **사용 가능한 프로세스** 창에 표시됩니다.
 
@@ -233,9 +254,14 @@ Azure VM에서 포트를 통해 열어야 합니다 [네트워크 보안 그룹]
 
 필요한 포트:
 
-- 80-IIS에 대 한 필요합니다.
-- 4022-Visual Studio 2017에서 원격 디버깅을 위해 필요 합니다. (참조 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) 자세한).
-- UDP 3702-(선택 사항) 검색 포트 사용 하도록 설정 하는 **찾을** 단추 Visual Studio에서 원격 디버거를 연결 하는 경우.
+* 80-IIS에 대 한 필요합니다.
+::: moniker range=">=vs-2019"
+* 4024-Visual Studio 2019 원격 디버깅을 위해 필요 합니다. (참조 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) 자세한).
+::: moniker-end
+::: moniker range="vs-2017"
+* 4022-Visual Studio 2017에서 원격 디버깅을 위해 필요 합니다. (참조 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) 자세한).
+::: moniker-end
+* UDP 3702-(선택 사항) 검색 포트 사용 하도록 설정 하는 **찾을** 단추 Visual Studio에서 원격 디버거를 연결 하는 경우.
 
 또한 이러한 포트가 이미 열어야 ASP.NET 설치:
 - 8172-(Visual Studio에서 앱을 배포 하려면 웹 배포 하는 데 필요한 선택 사항)

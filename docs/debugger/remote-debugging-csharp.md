@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 55265b24a60697b7d84940968c192b7e6a38a2f3
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: c2e388154e0efa129a916fd0461a01317edbb870
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526739"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355165"
 ---
 # <a name="remote-debugging-a-c-or-visual-basic-project-in-visual-studio"></a>원격 디버깅을 C# 또는 Visual Studio에서 Visual Basic 프로젝트
 다른 컴퓨터에 배포 된 Visual Studio 응용 프로그램을 디버깅 하려면 설치 하 고 앱을 배포한 컴퓨터에서 원격 도구를 실행, Visual Studio에서 원격 컴퓨터에 연결 하도록 프로젝트를 구성 및 응용 프로그램을 실행 합니다.
@@ -71,7 +71,15 @@ ms.locfileid: "57526739"
 
 5. **작업 디렉터리** 텍스트 상자가 비어 있는지 확인합니다.
 
-6. 선택 **사용 하 여 원격 컴퓨터**, 유형과 **MJO-DL:4022** 텍스트 상자에 있습니다. (4022는 원격 디버거 창에 표시 된 포트 번호입니다. 포트 번호를 증가 시킵니다 Visual Studio의 각 버전에는 2를).
+6. 선택 **사용 하 여 원격 컴퓨터**, 유형과 **yourmachinename:port** 텍스트 상자에 있습니다. (포트 번호는 원격 디버거 창에 표시 됩니다. 포트 번호를 증가 시킵니다 Visual Studio의 각 버전에는 2를).
+
+    이 예제에서는 다음을 사용 합니다.
+    ::: moniker range=">=vs-2019"
+    **MJO-DL:4024** Visual Studio 2019에
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    **MJO-DL:4022** Visual Studio 2017에서
+    ::: moniker-end
 
 7. **네이티브 코드 디버깅 사용**이 선택되지 않았는지 확인합니다.
 

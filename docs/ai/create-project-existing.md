@@ -31,7 +31,7 @@ ms.locfileid: "56840820"
 
    ![기존 코드의 새 프로젝트, 2단계](media/create-project-existing/azurebatch-newproject.png)
 
-   기존 코드가 Azure Machine Learning 프로젝트의 일부인 경우 중요한 Azure Machine Learning 구성 정보(예: 실험 계정, 작업 영역, 사용할 계산 컨텍스트 등)를 성공적으로 전환하도록 **Azure Machine Learning 폴더임**을 선택합니다.
+   기존 코드가 Azure Machine Learning 프로젝트의 일부인 경우 중요한 Azure Machine Learning 구성 정보(예: 실험 계정, 작업 영역, 사용할 컴퓨팅 컨텍스트 등)를 성공적으로 전환하도록 **Azure Machine Learning 폴더임**을 선택합니다.
 
 4. 시작 파일을 설정하려면 **솔루션 탐색기**에서 파일을 찾고 마우스 오른쪽 단추로 클릭한 다음, **시작 파일로 설정**을 선택합니다.
 

@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: c427a16964bbccfc77139c17659a4fd98d490253
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: HT
+ms.openlocfilehash: b85999a22bf49923630a0abe2f9ef33950edd8fe
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58069868"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325083"
 ---
 # <a name="bind-wpf-controls-to-a-dataset"></a>데이터 세트로 WPF 컨트롤 바인딩
 
@@ -74,7 +74,7 @@ ms.locfileid: "58069868"
 
 1. Visual Studio를 엽니다.
 
-2. 시작 창에서 선택 **새 프로젝트를 만들**합니다.
+2. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
 
 3. 검색을 C# **WPF 앱** 프로젝트 템플릿을 선택한 프로젝트를 명명 하 고 프로젝트를 만드는 단계에 따라 **AdventureWorksProductsEditor**.
 

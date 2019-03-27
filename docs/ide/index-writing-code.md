@@ -8,16 +8,18 @@ author: gewarren
 ms.author: gewarren
 ms.workload:
 - multiple
-ms.openlocfilehash: fb052312f83ff0542d2e659646b281e27e649ac0
-ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
+ms.openlocfilehash: d18ca688c1eac02fc2b24c3f8cb0f9551e4939ae
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57567201"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323125"
 ---
 # <a name="write-and-manage-code-using-visual-studio"></a>Visual Studio를 사용하여 코드 작성 및 관리
 
 Visual Studio의 코드 편집기 및 다른 도구를 사용하여 코드를 작성, 탐색, 관리 및 개선하는 방법에 대해 알아봅니다.
+
+<!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsFTitle">
     <li>

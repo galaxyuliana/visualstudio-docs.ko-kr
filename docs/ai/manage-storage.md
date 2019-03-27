@@ -21,7 +21,7 @@ ms.locfileid: "56843301"
 ## <a name="to-access-all-data-on-the-remote-machine-or-file-share"></a>원격 컴퓨터 또는 파일 공유에서 모든 데이터에 액세스하려면
 
 1. **서버 탐색기**를 엽니다.
-2. 원격 머신 또는 Batch AI 계산 컨텍스트를 확장합니다.
+2. 원격 머신 또는 Batch AI 컴퓨팅 컨텍스트를 확장합니다.
 3. **스토리지**를 마우스 오른쪽 단추로 클릭한 다음, **찾아보기**를 클릭합니다.
 
     ![storage](media/manage-storage/browse-storage.png)

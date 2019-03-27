@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fe209a28f74866cf13b6dbd58b01eac2450557b2
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 7d3630dd316ec137b63ec11fc8a87634d0f24bf7
+ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57221777"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58268611"
 ---
 # <a name="features-of-visual-studio"></a>Visual Studio의 기능
 
@@ -42,9 +42,13 @@ Visual Studio는 Microsoft Azure에서 구동하는 클라우드 지원 애플�
 
 ![Azure 개발 워크로드](../data-tools/media/azure-development-workload.png)
 
+::: moniker range="vs-2017"
+
 **Azure 개발** 워크로드를 설치한 후, **새 프로젝트** 대화 상자에서 다음과 같은 C#용 **클라우드** 템플릿을 사용할 수 있습니다.
 
 ![Visual Studio용 클라우드 프로젝트 템플릿](media/cloud-project-templates.png)
+
+::: moniker-end
 
 Visual Studio의 [클라우드 탐색기](/azure/vs-azure-tools-resources-managing-with-cloud-explorer)를 사용하여 Visual Studio 내에서 Azure 기반 클라우드 리소스를 보고 관리할 수 있습니다. 이러한 리소스에는 가상 머신, 테이블, SQL 데이터베이스 등이 포함될 수 있습니다. **클라우드 탐색기**에서는 로그인한 Azure 구독으로 관리되는 모든 계정의 Azure 리소스를 보여 줍니다. 그리고 특정 작업에 Azure Portal이 필요한 경우 **클라우드 탐색기**에 이동해야 하는 포털 내 위치로 이동하는 링크가 제공됩니다.
 

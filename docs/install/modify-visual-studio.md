@@ -16,12 +16,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 03dbfd8140249a93dfb649894dabab1c57b203c2
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+ms.openlocfilehash: 14b80de86c39f9c6ca253434fa90b9f1a4839df2
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57984003"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324898"
 ---
 # <a name="modify-visual-studio-by-adding-or-removing-workloads-and-components"></a>워크로드와 구성 요소를 추가하거나 제거하여 Visual Studio 수정
 
