@@ -229,7 +229,7 @@ items:
           href: ide/how-to-manually-create-web-templates.md
         - name: 템플릿 문제 해결
           href: ide/how-to-troubleshoot-templates.md
-      - name: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성
+      - name: 프로젝트 및 항목 템플릿 찾기
         href: ide/how-to-locate-and-organize-project-and-item-templates.md
       - name: 프로젝트 및 항목 템플릿 사용자 지정
         href: ide/customizing-project-and-item-templates.md
@@ -382,7 +382,7 @@ items:
             href: ide/reference/convert-var-to-explicit-type.md
           - name: 람다 식 또는 블록 본문 사용
             href: ide/reference/use-block-body-lambda.md
-          - name: 사용되지 않는 값 및 매개 변수
+          - name: 사용되지 않은 값 할당, 변수 및 매개 변수
             href: ide/reference/unused-values-parameters.md
           - name: 래핑, 들여쓰기 및 매개 변수 정렬
             href: ide/reference/wrap-align-indent-parameters.md
@@ -1195,9 +1195,9 @@ items:
     displayName: Feedback
     href: ide/talk-to-us.md
   expanded: true
-ms.openlocfilehash: 9df9ac7c4440ae6d968f0925a086921bf49a309d
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 8fc8123e3c9b2a77ba4bd05dc3a7efa8bcfa652c
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324041"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416394"

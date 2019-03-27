@@ -64,15 +64,15 @@ ms.locfileid: "58070141"
 위의 내용 외에 MSBuild 언어 요소에 해당하는 이름은 사용자 정의 속성, 항목 또는 항목 메타 데이터에 대해 사용할 수 없습니다.
 
 * VisualStudioProject
-* 대상
+* Target
 * PropertyGroup
-* 출력
+* Output
 * ItemGroup
 * UsingTask
 * ProjectExtensions
 * OnError
 * ImportGroup
-* 선택
+* Choose
 * When
 * Otherwise
 
