@@ -14,16 +14,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: e9e36363743ac1509fb37c9070085656c34b91f9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9e9f80f55aa3059cbe5c9af3b5510915f768ea20
+ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936665"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58268771"
 ---
 # <a name="create-a-windows-forms-user-control-that-supports-complex-data-binding"></a>복합 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기
 
-Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 상자**에서 기존 컨트롤을 선택할 수도 있고, 표준 컨트롤에서는 제공되지 않는 기능이 애플리케이션에 필요한 경우에는 사용자 지정 컨트롤을 작성할 수도 있습니다. 이 연습에서는 <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>를 구현하는 컨트롤을 만드는 방법을 보여줍니다. <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>를 구현하는 컨트롤은 데이터에 바인딩할 수 있는 `DataSource` 및 `DataMember` 속성을 포함합니다. 이러한 컨트롤은 <xref:System.Windows.Forms.DataGridView> 또는 <xref:System.Windows.Forms.ListBox>와 비슷합니다.
+Windows 응용 프로그램에서 폼에 데이터를 표시할 때 기존 컨트롤에서 선택할 수 있습니다 합니다 **도구 상자**합니다. 또는 응용 프로그램에 표준 컨트롤에서 사용할 수 없는 기능이 필요한 경우 사용자 지정 컨트롤을 작성할 수 있습니다. 이 연습에서는 <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>를 구현하는 컨트롤을 만드는 방법을 보여줍니다. <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>를 구현하는 컨트롤은 데이터에 바인딩할 수 있는 `DataSource` 및 `DataMember` 속성을 포함합니다. 이러한 컨트롤은 <xref:System.Windows.Forms.DataGridView> 또는 <xref:System.Windows.Forms.ListBox>와 비슷합니다.
 
 컨트롤 작성에 대 한 자세한 내용은 참조 하세요. [디자인 타임에 Windows Forms 개발 컨트롤](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time)합니다.
 
@@ -37,9 +37,7 @@ Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 �
 
 이 연습에서는 테이블의 데이터 행을 표시하는 복합 컨트롤을 만듭니다. 이 예에서는 Northwind 샘플 데이터베이스의 `Customers` 테이블을 사용합니다. 복합 사용자 컨트롤은 사용자 지정 컨트롤의 <xref:System.Windows.Forms.DataGridView>에 Customers 테이블을 표시합니다.
 
-이 연습에서는 다음 작업을 수행하는 방법을 배웁니다.
-
-- 새 **Windows Forms 애플리케이션**을 만듭니다.
+이 연습에서는 알아봅니다 방법:
 
 - 프로젝트에 새 **사용자 정의 컨트롤**을 추가합니다.
 
@@ -71,19 +69,9 @@ Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 �
 
        짧은 시간 후 쿼리 실행이 완료 하 고 Northwind 데이터베이스 생성 됩니다.
 
-## <a name="create-a-windows-forms-application"></a>Windows Forms 애플리케이션 만들기
+## <a name="create-a-windows-forms-app-project"></a>Windows Forms 앱 프로젝트 만들기
 
-첫 번째 단계를 만드는 것을 **Windows Forms 응용 프로그램**:
-
-1. Visual Studio에서에 **파일** 메뉴에서 **새로 만들기** > **프로젝트**합니다.
-
-1. 확장 **시각적 C#**  하거나 **Visual Basic** 왼쪽 창에서 선택한 **Windows Desktop**.
-
-1. 가운데 창에서 선택 합니다 **Windows Forms 앱** 형식 프로젝션 합니다.
-
-1. 프로젝트 이름을 **ComplexControlWalkthrough**를 선택한 후 **확인**합니다.
-
-    **ComplexControlWalkthrough** 프로젝트가 만들어져 **솔루션 탐색기**에 추가됩니다.
+첫 번째 단계를 만드는 것을 **Windows Forms 앱** 프로젝트에 대 한 C# 또는 Visual Basic입니다. 프로젝트 이름을 **ComplexControlWalkthrough**로 지정합니다.
 
 ## <a name="add-a-user-control-to-the-project"></a>프로젝트에 사용자 정의 컨트롤 추가
 
@@ -116,27 +104,27 @@ Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 �
 
 사용 합니다 **데이터 소스 구성** 기반으로 하는 데이터 원본을 만들려면 마법사를 `Customers` Northwind 샘플 데이터베이스의 테이블:
 
-1.  열려는 **데이터 원본** 창에는 **데이터** 메뉴에서 클릭 **데이터 소스 표시**.
+1. 열려는 **데이터 원본** 창에는 **데이터** 메뉴에서 클릭 **데이터 소스 표시**.
 
-2.  **데이터 원본** 창에서 **새 데이터 원본 추가**를 선택하여 **데이터 원본 구성** 마법사를 시작합니다.
+2. **데이터 원본** 창에서 **새 데이터 원본 추가**를 선택하여 **데이터 원본 구성** 마법사를 시작합니다.
 
-3.  **데이터 소스 형식 선택** 페이지에서 **데이터베이스** 를 선택하고 **다음**을 클릭합니다.
+3. **데이터 소스 형식 선택** 페이지에서 **데이터베이스** 를 선택하고 **다음**을 클릭합니다.
 
-4.  **데이터 연결 선택** 페이지에서 다음 중 한 가지를 수행합니다.
+4. **데이터 연결 선택** 페이지에서 다음 중 한 가지를 수행합니다.
 
-    - Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.
+   - Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.
 
-    - **새 연결**을 선택하여 **연결 추가/수정** 대화 상자를 시작합니다.
+   - **새 연결**을 선택하여 **연결 추가/수정** 대화 상자를 시작합니다.
 
-5.  데이터베이스에 암호가 필요하면 중요한 데이터를 포함하는 옵션을 선택한 후, **다음**을 클릭합니다.
+5. 데이터베이스에 암호가 필요하면 중요한 데이터를 포함하는 옵션을 선택한 후, **다음**을 클릭합니다.
 
-6.  에 **응용 프로그램 구성 파일에 연결 문자열을 저장** 페이지에서 클릭 **다음**합니다.
+6. 에 **응용 프로그램 구성 파일에 연결 문자열을 저장** 페이지에서 클릭 **다음**합니다.
 
-7.  **데이터베이스 개체 선택** 페이지에서 **테이블** 노드를 확장합니다.
+7. **데이터베이스 개체 선택** 페이지에서 **테이블** 노드를 확장합니다.
 
-8.  `Customers` 테이블을 선택한 다음, **마침**을 클릭합니다.
+8. `Customers` 테이블을 선택한 다음, **마침**을 클릭합니다.
 
-    **NorthwindDataSet**가 프로젝트에 추가되고 `Customers` 테이블이 **데이터 원본** 창에 나타납니다.
+   **NorthwindDataSet**가 프로젝트에 추가되고 `Customers` 테이블이 **데이터 원본** 창에 나타납니다.
 
 ## <a name="set-the-customers-table-to-use-the-complexdatagridview-control"></a>ComplexDataGridView 컨트롤을 사용 하도록 Customers 테이블 설정
 

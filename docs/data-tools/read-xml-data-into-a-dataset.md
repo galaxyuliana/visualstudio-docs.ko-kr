@@ -20,12 +20,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: b603979424c3593a673cf11db81ca2fc1c6a03bd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 58058bf189cf65214ed7d3fe6083ef418107db4f
+ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934148"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58268526"
 ---
 # <a name="read-xml-data-into-a-dataset"></a>XML 데이터를 데이터 세트에 읽어오기
 
@@ -33,17 +33,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기
 
-Visual Basic 또는 시각적 개체를 만들이 단계에서는 C# 프로젝트입니다.
-
-1. Visual Studio에서에 **파일** 메뉴에서 **새로 만들기** > **프로젝트**합니다.
-
-2. 확장 **시각적 C#**  하거나 **Visual Basic** 왼쪽 창에서 선택한 **Windows Desktop**.
-
-3. 가운데 창에서 선택 합니다 **Windows Forms 앱** 형식 프로젝션 합니다.
-
-4. 프로젝트 이름을 **ReadingXML**를 선택한 후 **확인**합니다.
-
-   합니다 **ReadingXML** 프로젝트에 추가한 생성 **솔루션 탐색기**합니다.
+새 **Windows Forms 앱** 프로젝트에 대 한 C# 또는 Visual Basic입니다. 프로젝트 이름을 **ReadingXML**합니다.
 
 ## <a name="generate-the-xml-file-to-be-read-into-the-dataset"></a>데이터 집합으로 읽어 올 XML 파일을 생성
 
@@ -123,15 +113,15 @@ Visual Basic 또는 시각적 개체를 만들이 단계에서는 C# 프로젝�
 
 이 응용 프로그램에 대 한 사용자 인터페이스는 다음과 같이 구성 됩니다.
 
--   <xref:System.Windows.Forms.DataGridView> 데이터로 XML 파일의 내용을 표시 하는 컨트롤입니다.
+- <xref:System.Windows.Forms.DataGridView> 데이터로 XML 파일의 내용을 표시 하는 컨트롤입니다.
 
--   <xref:System.Windows.Forms.TextBox> XML 파일에 대 한 XML 스키마를 표시 하는 컨트롤입니다.
+- <xref:System.Windows.Forms.TextBox> XML 파일에 대 한 XML 스키마를 표시 하는 컨트롤입니다.
 
--   두 <xref:System.Windows.Forms.Button> 컨트롤입니다.
+- 두 <xref:System.Windows.Forms.Button> 컨트롤.
 
-    -   단추 하나는 데이터 집합에 XML 파일을 읽고에 표시 된 <xref:System.Windows.Forms.DataGridView> 컨트롤입니다.
+    - 단추 하나는 데이터 집합에 XML 파일을 읽고에 표시 된 <xref:System.Windows.Forms.DataGridView> 컨트롤입니다.
 
-    -   두 번째 단추를 통해 데이터 집합에서 스키마를 추출를 <xref:System.IO.StringWriter> 에 표시 된 <xref:System.Windows.Forms.TextBox> 컨트롤입니다.
+    - 두 번째 단추를 통해 데이터 집합에서 스키마를 추출를 <xref:System.IO.StringWriter> 에 표시 된 <xref:System.Windows.Forms.TextBox> 컨트롤입니다.
 
 ### <a name="to-add-controls-to-the-form"></a>컨트롤을 폼에 추가하려면
 
@@ -139,15 +129,15 @@ Visual Basic 또는 시각적 개체를 만들이 단계에서는 C# 프로젝�
 
 2.  **도구 상자**, 다음과 같은 컨트롤을 폼으로 끌어 옵니다.
 
-    -   하나의 <xref:System.Windows.Forms.DataGridView> 컨트롤
+    - 하나의 <xref:System.Windows.Forms.DataGridView> 컨트롤
 
-    -   하나의 <xref:System.Windows.Forms.TextBox> 컨트롤
+    - 하나의 <xref:System.Windows.Forms.TextBox> 컨트롤
 
-    -   두 <xref:System.Windows.Forms.Button> 컨트롤
+    - 두 <xref:System.Windows.Forms.Button> 컨트롤
 
 3.  다음 속성을 설정합니다.
 
-    |Control|속성|설정|
+    |컨트롤|속성|설정|
     |-------------|--------------|-------------|
     |`TextBox1`|**Multiline**|`true`|
     ||**ScrollBars**|**세로**|
@@ -220,9 +210,9 @@ Visual Basic 또는 시각적 개체를 만들이 단계에서는 C# 프로젝�
 
 이 연습에서는 데이터 집합에 XML 파일을 읽을 수 있을 뿐만 아니라 XML 파일의 내용을 기반으로 하는 스키마 만들기의 기본 사항을 설명 합니다. 그런 다음 수행할 수 있는 일부 태스크는 다음과 같습니다.
 
--   데이터 집합 및 XML로 다시 작성할에서 데이터를 편집 합니다. 자세한 내용은 <xref:System.Data.DataSet.WriteXml%2A>을 참조하세요.
+- 데이터 집합 및 XML로 다시 작성할에서 데이터를 편집 합니다. 자세한 내용은 <xref:System.Data.DataSet.WriteXml%2A>을 참조하세요.
 
--   데이터 집합에서 데이터를 편집 하 고 데이터베이스에 작성 합니다.
+- 데이터 집합에서 데이터를 편집 하 고 데이터베이스에 작성 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

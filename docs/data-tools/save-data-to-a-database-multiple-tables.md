@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 945a04213ab902c17459eba6e418aeebea78f6d9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b5f2296e7dbd6c40327ed516f4da2bf51b8dd4cd
+ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936618"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58268556"
 ---
 # <a name="save-data-to-a-database-multiple-tables"></a>데이터베이스에 데이터 저장(여러 테이블)
 
@@ -31,17 +31,15 @@ TableAdapter의 `Update` 메서드를 호출하여 응용 프로그램의 데이
 
 이 연습에서 설명하는 작업은 다음과 같습니다.
 
--   새로 만들 **Windows Forms 응용 프로그램** 프로젝트입니다.
+-  만들기 및 사용 하 여 응용 프로그램에서 데이터 원본을 구성 합니다 [데이터 소스 구성 마법사](../data-tools/media/data-source-configuration-wizard.png)합니다.
 
--   만들기 및 사용 하 여 응용 프로그램에서 데이터 원본을 구성 합니다 [데이터 소스 구성 마법사](../data-tools/media/data-source-configuration-wizard.png)합니다.
+-  에 있는 항목의 컨트롤을 설정 합니다 [데이터 소스 창](add-new-data-sources.md#data-sources-window)합니다. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.
 
--   에 있는 항목의 컨트롤을 설정 합니다 [데이터 소스 창](add-new-data-sources.md#data-sources-window)합니다. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.
+-  **데이터 원본** 창에서 폼으로 항목을 끌어 데이터 바인딩된 컨트롤을 만듭니다.
 
--   **데이터 원본** 창에서 폼으로 항목을 끌어 데이터 바인딩된 컨트롤을 만듭니다.
+-  데이터 집합의 각 테이블에서 몇 가지 레코드를 수정 합니다.
 
--   데이터 집합의 각 테이블에서 몇 가지 레코드를 수정 합니다.
-
--   데이터 집합의 업데이트된 데이터를 데이터베이스로 다시 보내도록 코드를 수정합니다.
+-  데이터 집합의 업데이트된 데이터를 데이터베이스로 다시 보내도록 코드를 수정합니다.
 
 ## <a name="prerequisites"></a>전제 조건
 
@@ -63,17 +61,7 @@ TableAdapter의 `Update` 메서드를 호출하여 응용 프로그램의 데이
 
 ## <a name="create-the-windows-forms-application"></a>Windows Forms 응용 프로그램 만들기
 
-첫 번째 단계를 만드는 것을 **Windows Forms 응용 프로그램**합니다. 이 단계 중에 선택 사항 이므로 프로젝트에 이름을 할당 하지만 제공 이라는 프로젝트 나중에 저장할 수 있으므로.
-
-1. Visual Studio에서에 **파일** 메뉴에서 **새로 만들기** > **프로젝트**합니다.
-
-2. 확장 **시각적 C#**  하거나 **Visual Basic** 왼쪽 창에서 선택한 **Windows Desktop**.
-
-3. 가운데 창에서 선택 합니다 **Windows Forms 앱** 형식 프로젝션 합니다.
-
-4. 프로젝트 이름을 **UpdateMultipleTablesWalkthrough**를 선택한 후 **확인**합니다.
-
-     **UpdateMultipleTablesWalkthrough** 프로젝트가 만들어져 **솔루션 탐색기**에 추가됩니다.
+새 **Windows Forms 앱** 프로젝트에 대 한 C# 또는 Visual Basic입니다. 프로젝트 이름을 **UpdateMultipleTablesWalkthrough**로 지정합니다.
 
 ## <a name="create-the-data-source"></a>데이터 원본 만들기
 
@@ -89,11 +77,11 @@ TableAdapter의 `Update` 메서드를 호출하여 응용 프로그램의 데이
 
 4. 에 **데이터 연결 선택** 화면에서 다음 중 하나를 수행 합니다.
 
-    -   Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.
+    - Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.
 
          또는
 
-    -   **새 연결**을 선택하여 **연결 추가 또는 수정** 대화 상자를 엽니다.
+    - **새 연결**을 선택하여 **연결 추가 또는 수정** 대화 상자를 엽니다.
 
 5. 데이터베이스에서 암호를 요구 하는 경우 중요 한 데이터를 포함 하 여 선택한 옵션을 선택 **다음**합니다.
 

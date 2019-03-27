@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 671af69cf31ad1b8b5adafa413e4f20a8761d5ce
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: e6d72edaf889aaf682f40a36278ea1fdf05ff989
+ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526040"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58475996"
 ---
 # <a name="get-started-debugging-multithreaded-applications-c-visual-basic-c"></a>다중 스레드 응용 프로그램 디버깅 시작 (C#, Visual Basic, c + +)
 
@@ -38,21 +38,33 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
 
 ## <a name="create-a-multithreaded-app-project"></a>다중 스레드 앱 프로젝트 만들기
 
-1.  **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택합니다.
+1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
-     **새 프로젝트** 대화 상자가 나타납니다.
+    ::: moniker range=">=vs-2019"
+    형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
+    
+    - 에 대 한 C# 또는 Visual Basic의 경우 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C# 또는 Visual Basic입니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
+    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기** c + +에 대 한 합니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
 
-2.  언어 선택: **시각적 C#** 를 **Visual c + +**, 또는 **Visual Basic**.
+    그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 클릭 **만들기**합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. 왼쪽된 창에는 **새 프로젝트** 대화 상자에서 다음을 선택 합니다.
 
-3.  아래 **Windows 바탕 화면**, 선택 **콘솔 앱**합니다.
+    - 에 대 한는 C# 앱 아래에 있는 **Visual C#** 를 선택 **Windows 데스크톱**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)**.
+    - Visual Basic 앱의 경우 아래 **Visual Basic**, 선택 **Windows Desktop**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)** 합니다.
+    - C + + 앱의 경우 아래 **Visual c + +**, 선택 **Windows Desktop**,를 선택한 후 **Windows 콘솔 응용 프로그램**합니다.
 
-4.  에 **이름을** 필드 MyThreadWalkthroughApp를 입력 합니다.
+    그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 누릅니다 **확인**합니다.
+    ::: moniker-end
 
-5.  **확인**을 선택합니다.
+    표시 되지 않는 경우는 **콘솔 앱** 프로젝트 템플릿로 이동 **도구** > **도구 및 기능 가져오기...** , Visual Studio 설치 관리자를 엽니다. **.NET 데스크톱 개발*** 또는 **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.
 
-     새 콘솔 프로젝트가 나타납니다. 프로젝트가 만들어지면 소스 파일이 나타납니다. 선택한 언어에 따라 소스 파일을 호출할 수 있습니다 *Program.cs*하십시오 *MyThreadWalkthroughApp.cpp*, 또는 *Module1.vb*합니다.
+1. **확인**을 선택합니다.
 
-6.  소스 파일에 표시 되는 코드를 삭제 하 고 아래 나열 된 적절 한 예제 코드로 바꿉니다.
+    새 콘솔 프로젝트가 나타납니다. 프로젝트가 만들어지면 소스 파일이 나타납니다. 선택한 언어에 따라 소스 파일을 호출할 수 있습니다 *Program.cs*하십시오 *MyThreadWalkthroughApp.cpp*, 또는 *Module1.vb*합니다.
+
+1. 소스 파일에 표시 되는 코드를 삭제 하 고 아래 나열 된 적절 한 예제 코드로 바꿉니다.
 
     ```csharp
     using System;
@@ -187,9 +199,9 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     End Class
     ```
 
-7.  **파일** 메뉴에서 **모두 저장**을 선택합니다.
+1. **파일** 메뉴에서 **모두 저장**을 선택합니다.
 
-8. (Visual Basic만 해당) 솔루션 탐색기 (오른쪽 창)에서 프로젝트 노드를 마우스 오른쪽 단추로 차례로 **속성**합니다. 아래는 **응용 프로그램** 탭으로 변경 합니다 **시작 개체** 에 **간단한**.
+1. (Visual Basic만 해당) 솔루션 탐색기 (오른쪽 창)에서 프로젝트 노드를 마우스 오른쪽 단추로 차례로 **속성**합니다. 아래는 **응용 프로그램** 탭으로 변경 합니다 **시작 개체** 에 **간단한**.
 
 ## <a name="debug-the-multithreaded-app"></a>다중 스레드 앱 디버깅
 
