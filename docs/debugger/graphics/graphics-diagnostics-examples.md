@@ -49,7 +49,7 @@ ms.locfileid: "56699264"
 
 -   [연습: 음영으로 인한 렌더링 오류 디버그](walkthrough-debugging-rendering-errors-due-to-shading.md)
 
-## <a name="debugging-compute-shaders"></a>컴퓨터 셰이더 디버깅
+## <a name="debugging-compute-shaders"></a>컴퓨팅 셰이더 디버깅
  그래픽 진단을 사용하여 잘못된 결과를 생성한 DirectCompute 계산 셰이더 커널을 디버깅할 수 있습니다. DirectCompute를 사용하면 GPU의 계산 능력을 사용하여 많은 수의 데이터 요소를 함께 계산할 수 있습니다. 일부 문제의 경우 GPU를 활용하면 잘 최적화된 CPU 코드보다 몇 배나 더 빠르게 수행할 수 있습니다. 그러나 기존 디버거는 GPU에서 실행되는 코드를 감지할 수 없습니다. 이런 종류의 코드 디버깅에는 일반적으로 공급업체별 특수 도구가 필요하지만 이러한 도구는 Visual Studio와 잘 통합되지 못할 수 있습니다. GPU 범위 전체에서 보다 일관성 있는 계산 셰이더 디버깅을 수행하기 위해 그래픽 진단에서는 Direct3D 렌더링 이벤트 이외에 DirectCompute Dispatch 이벤트를 캡처합니다. 따라서 친숙한 도구를 사용하여 계산 셰이더 코드의 문제를 디버깅할 수 있습니다.
 
- 계산 셰이더의 버그로 인해 발생 하는 시뮬레이션 문제를 디버깅 하는 방법에 설명 하는 시나리오를 참조 하세요. [연습: 그래픽 진단 계산 셰이더 디버깅을 사용 하 여](walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)입니다.
+ 컴퓨팅 셰이더의 버그로 인해 발생 하는 시뮬레이션 문제를 디버깅 하는 방법에 설명 하는 시나리오를 참조 하세요. [연습: 그래픽 진단 컴퓨팅 셰이더 디버깅을 사용 하 여](walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)입니다.

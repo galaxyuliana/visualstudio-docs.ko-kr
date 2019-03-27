@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 18848503f80000bf81c2020797a466aa43a29c9d
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 8634f1852d10a1935b3ee55b6e80ad9503923fe9
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316901"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323544"
 ---
 # <a name="input-generation-using-dynamic-symbolic-execution"></a>동적 기호 실행을 사용하여 입력 생성
 
@@ -96,11 +96,11 @@ IntelliTest는 테스트를 생성할 때 생성된 테스트의 컨텍스트 �
 
 * **internal 멤버 표시 유형**
   * IntelliTest는 생성된 테스트가 바깥쪽 [PexClass](attribute-glossary.md#pexclass)에 표시 가능한 internal 멤버에 액세스할 수 있다고 가정합니다.
-  .NET에는 internal 멤버의 표시 유형을 다른 어셈블리로 확장하는 **InternalsVisibleToAttribute**가 있습니다.<p />
+  .NET에는 internal 멤버의 표시 유형을 다른 어셈블리로 확장하는 **InternalsVisibleToAttribute**가 있습니다.
 
 * **[PexClass](attribute-glossary.md#pexclass)의 private 및 family(C#의 protected) 멤버 표시 유형**
   * IntelliTest는 항상 생성된 테스트를 [PexClass](attribute-glossary.md#pexclass)에 직접 배치하거나 서브클래스에 배치합니다. 따라서 IntelliTest는 모든 표시 가능한 family 멤버(C#의 **protected**)를 사용할 수 있다고 가정합니다.
-  * 생성된 테스트가 [PexClass](attribute-glossary.md#pexclass)에 직접 배치되면(대기 partial 클래스 사용) IntelliTest는 [PexClass](attribute-glossary.md#pexclass)의 모든 private 멤버를 사용할 수 있다고 가정합니다.<p />
+  * 생성된 테스트가 [PexClass](attribute-glossary.md#pexclass)에 직접 배치되면(대기 partial 클래스 사용) IntelliTest는 [PexClass](attribute-glossary.md#pexclass)의 모든 private 멤버를 사용할 수 있다고 가정합니다.
 
 * **public 멤버 표시 유형**
   * IntelliTest는 [PexClass](attribute-glossary.md#pexclass)의 컨텍스트에서 표시 가능한 모든 내보낸 멤버를 사용할 수 있다고 가정합니다.

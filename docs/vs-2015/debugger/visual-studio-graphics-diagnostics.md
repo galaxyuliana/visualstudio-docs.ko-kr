@@ -18,7 +18,7 @@ ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 95abc36df249667aa6bbcaaeca86e814d31b47d5
 ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/16/2018
 ms.locfileid: "51800174"
@@ -76,7 +76,7 @@ Visual Studio*그래픽 진단* 기록 하 고 다음 Direct3D 앱의 렌더링 
  사용할 합니다 **그래픽 개체 테이블** 속성과 특정 Direct3D 개체 및 현재 선택한 이벤트에 대 한 적용 되는 리소스의 내용을 검사 합니다. 개체 테이블을 사용하면 이벤트 중 활성 상태인 그래픽 장치 컨텍스트를 확인하고 상수 버퍼, 꼭짓점 버퍼 및 질감과 같은 그래픽 리소스의 콘텐츠를 검사할 수 있습니다.  
   
  [HLSL 디버거](../debugger/hlsl-shader-debugger.md)  
- 셰이더 코드는 현재 선택한 이벤트와 그래픽 파이프라인 단계에 대 한 동작 방식을 검사 하려면 사용 합니다 **HLSL 디버거** 코드를 단계별로 실행 하려면 변수의 내용을 검사할 및 기타 일반적인 디버깅 작업을 수행 합니다. 그래픽 파이프라인이 결과를 추가로 처리하는지 또는 앱에서 결과를 다시 읽는지와 상관없이 HLSL 디버거를 사용하여 계산 셰이더 코드를 검사할 수 있습니다.  
+ 셰이더 코드는 현재 선택한 이벤트와 그래픽 파이프라인 단계에 대 한 동작 방식을 검사 하려면 사용 합니다 **HLSL 디버거** 코드를 단계별로 실행 하려면 변수의 내용을 검사할 및 기타 일반적인 디버깅 작업을 수행 합니다. 그래픽 파이프라인이 결과를 추가로 처리하는지 또는 앱에서 결과를 다시 읽는지와 상관없이 HLSL 디버거를 사용하여 컴퓨팅 셰이더 코드를 검사할 수 있습니다.  
   
  [명령줄 캡처 도구](../debugger/command-line-capture-tool.md)  
  명령줄 캡처 도구를 통해 Visual Studio 또는 프로그래밍 방식 캡처 기능을 사용하지 않고도 그래픽 정보를 빠르게 캡처하고 재생할 수 있습니다. 특히 자동화 수행 시 또는 테스트 환경에서 명령줄 캡처 도구를 사용할 수 있습니다.  

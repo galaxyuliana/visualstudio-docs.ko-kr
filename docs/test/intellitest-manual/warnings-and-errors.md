@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 27a35850b97a73252562ebb7dbb959bdaabf3abd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 85957c18abff9d49e62570375177aa262b08739b
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55925409"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324736"
 ---
 # <a name="warnings-and-errors"></a>경고 및 오류
 
@@ -27,26 +27,26 @@ ms.locfileid: "55925409"
   * [MaxCalls 초과](#maxcalls-exceeded)
   * [MaxStack 초과](#maxstack-exceeded)
   * [MaxRuns 초과](#maxruns-exceeded)
-  * [MaxRunsWithoutNewTests 초과](#maxrunswithoutnewtests-exceeded)<p />
+  * [MaxRunsWithoutNewTests 초과](#maxrunswithoutnewtests-exceeded)
 
 * **제약 조건 해결**
-  * [솔루션을 구체화할 수 없음](#cannot-concretize-solution)<p />
+  * [솔루션을 구체화할 수 없음](#cannot-concretize-solution)
 
 * **도메인**
   * [개체를 생성하는 데 도움이 필요](#help-construct)
   * [형식을 찾는 데 도움이 필요](#help-types)
-  * [사용 가능한 형식 추측](#usable-type-guessed)<p />
+  * [사용 가능한 형식 추측](#usable-type-guessed)
 
 * **실행**
   * [탐색 중 발생한 예기치 않은 오류](#unexpected-exploration)
-  * [TargetInvocationException](#targetinvocationexception)<p />
+  * [TargetInvocationException](#targetinvocationexception)
 
 * **계측**
   * [계측되지 않은 메서드 호출](#uninstrumented-method-called)
   * [외부 메서드 호출](#external-method-called)
   * [계측할 수 없는 메서드 호출](#uninstrumentable-method-called)
   * [테스트 가능성 문제](#testability-issue)
-  * [제한](#limitation)<p />
+  * [제한](#limitation)
 
 * **인터프리터**
   * [관찰된 호출 불일치](#observed-call-mismatch)
@@ -88,7 +88,7 @@ for (int i=0;
 <a name="maxconstraintsolvertime-exceeded"></a>
 ## <a name="maxconstraintsolvertime-exceeded"></a>MaxConstraintSolverTime 초과
 
-IntelliTest는 [제약 조건 해결기](input-generation.md#constraint-solver)를 사용하여 새 테스트 입력을 계산합니다. 제약 조건 해결은 시간이 오래 걸리는 프로세스일 수 있으므로 IntelliTest를 사용하여 경계를 구성할 수 있습니다(특히 **MaxConstraintSolverTime**).
+IntelliTest는 [제약 조건 해결기](input-generation.md#constraint-solver)를 사용하여 새 테스트 입력을 컴퓨팅합니다. 제약 조건 해결은 시간이 오래 걸리는 프로세스일 수 있으므로 IntelliTest를 사용하여 경계를 구성할 수 있습니다(특히 **MaxConstraintSolverTime**).
 
 대부분의 애플리케이션에서는 시간 제한을 크게 늘려도 검사 성능은 향상되지 않습니다. 그 이유는 대부분의 시간 제한은 솔루션이 없는 제약 조건 시스템에서 발생하기 때문입니다. 그러나 IntelliTest는 시간 제한을 초래하는 모든 가능한 솔루션을 시도해야 일관성이 없는지 확인할 수 있습니다.
 

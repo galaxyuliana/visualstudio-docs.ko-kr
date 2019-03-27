@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 216cee6181122997ef8cc5937b9b1af76ba71b06
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: a1cc43bfeb66792d2d8ff5a736d957740f62c5ff
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316355"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416212"
 ---
 # <a name="developer-testing-tools-scenarios-and-capabilities"></a>개발자 테스트 도구, 시나리오 및 호환성
 
@@ -45,7 +45,6 @@ IntelliTest를 사용하여 검사를 개선하고 재발을 방지합니다. In
 * [UI 자동화를 사용하여 코드 테스트](use-ui-automation-to-test-your-code.md)
 * [코딩된 UI 테스트 만들기, 편집 및 유지 관리 시작](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 * [코딩된 UI 테스트를 사용하여 UWP 앱 테스트](test-uwp-app-with-coded-ui-test.md)
-* [코딩된 UI 테스트를 사용하여 SharePoint 애플리케이션 테스트](testing-sharepoint-2010-applications-with-coded-ui-tests.md)
 * [Visual Studio Enterprise의 코딩된 UI 테스트 소개(랩)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
 
 ## <a name="effective-unit-testing-with-visual-studio-code-coverage"></a>Visual Studio 코드 검사를 사용한 효과적인 유닛 테스트

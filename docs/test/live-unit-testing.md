@@ -9,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 4e73e6939dd5b2cad382d56616e7cf1f2d64934e
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 1a51b056e4a3a4f2f434e6fd57ec270029d9155b
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223717"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325135"
 ---
 # <a name="live-unit-testing-with-visual-studio"></a>Visual Studio를 사용한 Live Unit Testing
 
@@ -28,28 +28,12 @@ ms.locfileid: "57223717"
 ## <a name="supported-test-frameworks"></a>지원되는 테스트 프레임워크
 Live Unit Testing은 다음 테이블에 나열된 세 가지 인기 있는 단위 테스트 프레임워크를 사용합니다. 해당 어댑터와 프레임워크를 지원하는 최소 버전은 테이블에 나열됩니다. 단위 테스트 프레임워크는 NuGet.org에서 모두 사용할 수 있습니다.
 
-<table>
-<tr>
-   <th>테스트 프레임워크</th>
-   <th>Visual Studio 어댑터 최소 버전</th>
-   <th>프레임워크 최소 버전</th>
-</tr>
-<tr>
-   <td>xUnit.net</td>
-   <td> xunit.runner.visualstudio 버전 2.2.0-beta3-build1187</td>
-   <td>xunit 1.9.2</td>
-</tr>
-<tr>
-   <td>NUnit</td>
-   <td>NUnit3TestAdapter 버전 3.5.1</td>
-   <td>NUnit 버전 3.5.0</td>
-</tr>
-<tr>
-   <td>MSTest</td>
-   <td>MSTest.TestAdapter 1.1.4-미리 보기</td>
-   <td>MSTest.TestFramework 1.0.5-미리 보기</td>
-</tr>
-</table>
+
+|테스트 프레임워크  |Visual Studio 어댑터 최소 버전  |프레임워크 최소 버전  |
+|---------|---------|---------|
+|xUnit.net |xunit.runner.visualstudio 버전 2.2.0-beta3-build1187 |xunit 1.9.2 |
+|NUnit |NUnit3TestAdapter 버전 3.5.1 |NUnit 버전 3.5.0 |
+|MSTest |MSTest.TestAdapter 1.1.4-미리 보기 |MSTest.TestFramework 1.0.5-미리 보기 |
 
 `Microsoft.VisualStudio.QualityTools.UnitTestFramework`를 참조하는 이전 MSTest 기반 테스트 프로젝트가 있고 최신 MSTest NuGet 패키지로 이동하지 않으려면 Visual Studio 2017 버전 15.4 이상으로 업그레이드하세요.
 

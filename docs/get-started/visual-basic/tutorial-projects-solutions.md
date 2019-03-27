@@ -11,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 124d27b5dc139e57f9041694afe42d42eef03fb5
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 568742f1ef59eeb282cdf167096310c658c01c50
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58069621"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323268"
 ---
 # <a name="learn-about-projects-and-solutions-using-visual-basic"></a>Visual Basic을 사용하여 프로젝트 및 솔루션에 대해 알아보기
 

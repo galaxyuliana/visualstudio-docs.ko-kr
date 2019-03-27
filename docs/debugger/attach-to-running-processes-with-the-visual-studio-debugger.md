@@ -28,12 +28,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4b8b0d507328022746682142c8d0720ba0de3fe0
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
+ms.openlocfilehash: 439562a7882fb1acc89e11f53f1586493046aad6
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428767"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323096"
 ---
 # <a name="attach-to-running-processes-with-the-visual-studio-debugger"></a>Visual Studio 디버거에서 실행 중인 프로세스에 연결
 로컬 또는 원격 컴퓨터에서 실행 중인 프로세스에 Visual Studio 디버거를 연결할 수 있습니다. 프로세스를 실행 한 후 선택 **디버깅할** > **프로세스에 연결** 누르거나 **Ctrl**+**Alt** + **P** 사용 하 여 Visual Studio에는 **프로세스에 연결** 프로세스에 디버거를 연결 하는 대화 상자.
@@ -102,7 +102,7 @@ IIS에 배포 된 ASP.NET 응용 프로그램 디버깅에 대 한 자세한 내
      > 원격 컴퓨터 이름을 사용 하 여 연결할 수 없는 경우 IP를 사용 하 여 시도 및 포트 주소 (예를 들어 `123.45.678.9:4022`). 4022는 Visual Studio 2017 x64 원격 디버거에 대 한 기본 포트입니다. 다른 원격 디버거 포트 할당을 참조 하세요 [원격 디버거 포트 할당](remote-debugger-port-assignments.md)합니다.
 
      ::: moniker-end
-     
+
      ::: moniker range=">= vs-2019"
 
      > [!NOTE]

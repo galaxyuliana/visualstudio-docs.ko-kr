@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9a42396236c88bdc574a10a7557963dfc39922a1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fed1fff9e776521581455a89db48897f22de7bf5
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631135"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355619"
 ---
 # <a name="msbuild-properties"></a>MSBuild 속성
 빌드를 구성하는 데 사용될 수 있는 이름/값 쌍인 속성은 작업에 값을 전달하고, 조건을 평가하고, 프로젝트 파일 전체에서 참조할 값을 저장하는 데 유용합니다.
@@ -118,7 +118,6 @@ msbuild.exe MyProj.proj -p:Configuration=DEBUG
  속성은 작업에 값을 전달하거나 로깅 정보를 표시하는 데 사용할 수 있는 임의의 XML을 포함할 수 있습니다. 다음 예제에서는 XML 및 기타 속성 참조를 포함하는 값이 있는 `ConfigTemplate` 속성을 보여 줍니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 개별 속성값을 사용하여 속성 참조를 바꿉니다. 속성값은 나타나는 순서대로 할당됩니다. 따라서 이 예제의 경우 `$(MySupportedVersion)`, `$(MyRequiredVersion)`, `$(MySafeMode)`가 이미 정의되어 있어야 합니다.
 
 ```xml
-
 <PropertyGroup>
     <ConfigTemplate>
         <Configuration>

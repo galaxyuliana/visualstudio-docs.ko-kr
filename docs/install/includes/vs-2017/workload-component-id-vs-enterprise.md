@@ -57,7 +57,7 @@ Microsoft.NetCore.ComponentGroup.DevelopmentTools.2.1 | .NET Core 2.1 개발 도
 Microsoft.NetCore.ComponentGroup.Web.2.1 | .NET Core 2.1 개발 도구 | 15.8.27924.0 | 필수
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 작성 도구 | 15.9.28307.421 | 필수
 Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러리 | 15.0.26208.0 | 필수
-Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 계산 에뮬레이터 | 15.9.28307.421 | 필수
+Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 15.9.28307.421 | 필수
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 15.9.28125.51 | 필수
 Microsoft.VisualStudio.Component.CloudExplorer | 클라우드 탐색기 | 15.9.28230.55 | 필수
 Microsoft.VisualStudio.Component.Common.Azure.Tools | 연결 및 게시 도구 | 15.9.28107.0 | 필수
@@ -157,7 +157,7 @@ Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 �
 Microsoft.Net.Core.Component.SDK.2.1 | .NET Core 2.1 개발 도구 | 15.8.27924.0 | 권장
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 작성 도구 | 15.9.28307.421 | 권장
 Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러리 | 15.0.26208.0 | 권장
-Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 계산 에뮬레이터 | 15.9.28307.421 | 권장
+Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 15.9.28307.421 | 권장
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 15.9.28125.51 | 권장
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services 핵심 도구 | 15.9.28107.0 | 권장
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services 빌드 도구 | 15.7.27617.1 | 권장
@@ -563,7 +563,7 @@ Component.Microsoft.VisualStudio.Web.AzureFunctions | Microsoft Azure WebJobs �
 Microsoft.VisualStudio.Component.AppInsights.Tools | 개발자 분석 도구 | 15.8.27825.0 | 권장
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 작성 도구 | 15.9.28307.421 | 권장
 Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러리 | 15.0.26208.0 | 권장
-Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 계산 에뮬레이터 | 15.9.28307.421 | 권장
+Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 15.9.28307.421 | 권장
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 15.9.28125.51 | 권장
 Microsoft.VisualStudio.Component.CloudExplorer | 클라우드 탐색기 | 15.9.28230.55 | 권장
 Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅숏 디버거 | 15.8.28010.0 | 권장
@@ -690,7 +690,7 @@ Microsoft.VisualStudio.Component.AppInsights.Tools | 개발자 분석 도구 | 1
 Microsoft.VisualStudio.Component.AspNet45 | 고급 ASP.NET 기능 | 15.7.27625.0 | 권장
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 작성 도구 | 15.9.28307.421 | 권장
 Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러리 | 15.0.26208.0 | 권장
-Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 계산 에뮬레이터 | 15.9.28307.421 | 권장
+Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 15.9.28307.421 | 권장
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 15.9.28125.51 | 권장
 Microsoft.VisualStudio.Component.CloudExplorer | 클라우드 탐색기 | 15.9.28230.55 | 권장
 Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅숏 디버거 | 15.8.28010.0 | 권장
@@ -868,7 +868,7 @@ Microsoft.Net.Core.Component.SDK.2.1 | .NET Core 2.1 개발 도구 | 15.8.27924.
 Microsoft.VisualStudio.Component.AppInsights.Tools | 개발자 분석 도구 | 15.8.27825.0 | Optional
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 작성 도구 | 15.9.28307.421 | Optional
 Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러리 | 15.0.26208.0 | Optional
-Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 계산 에뮬레이터 | 15.9.28307.421 | Optional
+Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 15.9.28307.421 | Optional
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 15.9.28125.51 | Optional
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services 핵심 도구 | 15.9.28107.0 | Optional
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services 빌드 도구 | 15.7.27617.1 | Optional

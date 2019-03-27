@@ -11,12 +11,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0ceed13cc320e2c98d413e6694acb2b473ad72eb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 98d54f1e43090e8e1cacf8aecac9eebd18ffcbd7
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54780277"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355372"
 ---
 # <a name="optimize-visual-studio-startup-time"></a>Visual Studio 시작 시간 최적화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "54780277"
 
 ## <a name="control-startup-behavior"></a>시작 동작 제어
 
-Visual Studio 2017에서는 시작 시간이 늘어나지 않도록 요청 시 로드 방법을 사용하여 시작 시 확장이 로드되지 않도록 합니다. 즉, Visual Studio가 시작된 후 즉시 확장이 열리지 않고 시작 후 필요에 따라 비동기적으로 열립니다. 또한 이전 Visual Studio 세션에서 열려 있는 도구 창으로 인해 시작 시간이 느려질 수 있으므로 Visual Studio는 시작 시간에 영향을 주지 않도록 보다 지능적인 방식으로 도구 창을 엽니다.
+시작 시간, Visual Studio 2017 확장 되지 않도록 하 고 나중에 시 요청 시 로드 방법을 사용 하면 시작 시 확장이 로드를 방지 하기 위해 키를 누릅니다. 즉, Visual Studio가 시작된 후 즉시 확장이 열리지 않고 시작 후 필요에 따라 비동기적으로 열립니다. 또한 이전 Visual Studio 세션에서 열려 있는 도구 창으로 인해 시작 시간이 느려질 수 있으므로 Visual Studio는 시작 시간에 영향을 주지 않도록 보다 지능적인 방식으로 도구 창을 엽니다.
 
 Visual Studio에서 시작 속도가 느린 것을 감지하면 속도 저하를 초래하는 확장이나 도구 창을 알려주는 팝업 메시지가 나타납니다. 메시지에는 시작 성능에 영향을 주는 확장 및 도구 창을 보여 주는 **Visual Studio 성능 관리** 대화 상자에 대한 링크도 제공됩니다. 이 대화 상자에서 확장 및 도구 창 설정을 변경하여 시작 성능을 향상할 수 있습니다.
 

@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c120e94943d9e75c968ecf13fbdb1ec6d883eff2
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: f7ec6628c6cfd12a35de151689196dadd4868f83
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57867929"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324762"
 ---
 # <a name="how-to-create-item-templates"></a>방법: 항목 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,7 +67,7 @@ ms.locfileid: "57867929"
   
     C++ Windows 8.1 스토어 프로젝트에서는 `WinRT-Native-6.3` 값을 사용합니다. Windows 10 및 기타 프로젝트 유형의 경우 [TemplateGroupID 요소(Visual Studio 템플릿)](../extensibility/templategroupid-element-visual-studio-templates.md)를 참조하세요.  
   
-    다음 예제에서는 XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` 행이 추가된 이후 .vstemplate 파일의 전체 내용을 보여 줍니다. 이 예제는 C# 프로젝트에만 적용됩니다. <ProjectTpe> 및 \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> 요소를 수정하여 다른 언어 및 프로젝트 유형을 지정할 수 있습니다.  
+    다음 예제에서는 XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` 행이 추가된 이후 .vstemplate 파일의 전체 내용을 보여 줍니다. 이 예제는 C# 프로젝트에만 적용됩니다. 수정할 수는 \<ProjectType > 및 \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> 요소가 다른 언어 및 프로젝트 유형을 지정할 수 있습니다.  
   
    ```xml  
    <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  

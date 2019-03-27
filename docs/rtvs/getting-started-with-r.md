@@ -8,12 +8,12 @@ ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: d3ef293b4e25f85cd901c42382158bdd75742e26
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: df46a2731f9923d85a16082f96c44947099db592
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936423"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324205"
 ---
 # <a name="get-started-with-r-tools-for-visual-studio"></a>Visual Studio용 R 도구 시작
 
@@ -21,7 +21,7 @@ RTVS(Visual Studio용 R 도구)를 설치한 후([설치](installing-r-tools-for
 
 ## <a name="create-an-r-project"></a>R 프로젝트 만들기
 
-1. Visual Studio를 시작합니다.
+1. Visual Studio를 엽니다.
 1. **파일** > **새로 만들기** > **프로젝트**(**Ctrl**+**Shift**+**N**) 선택
 1. **템플릿** > **R** 아래에서 “R 프로젝트”를 선택하고, 프로젝트의 이름과 위치를 입력한 후 **확인**을 선택합니다.
 

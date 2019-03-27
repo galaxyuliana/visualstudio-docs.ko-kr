@@ -11,12 +11,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: ee70d3cf580caaea4207f1d830ef1500f18942ff
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 94f8b26536a657698dfcb0c0fa3de3876e1452b1
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57221397"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325216"
 ---
 # <a name="options-text-editor-cc-experimental"></a>옵션, 텍스트 편집기, C/C++, 실험적
 
@@ -37,7 +37,7 @@ ms.locfileid: "57221397"
 
 ## <a name="enable-predictive-intellisense"></a>예측 IntelliSense 사용
 
-예측 IntelliSense는 컨텍스트와 관련이 있는 결과만 표시되도록 IntelliSense 드롭다운 목록에 표시되는 결과의 수를 제한합니다. 예를 들어 <code>int x =</code>를 입력하고 IntelliSense 드롭다운을 호출하면 정수 또는 정수를 반환하는 함수만 표시됩니다. 예측 IntelliSense는 기본적으로 꺼져 있습니다.
+예측 IntelliSense는 컨텍스트와 관련이 있는 결과만 표시되도록 IntelliSense 드롭다운 목록에 표시되는 결과의 수를 제한합니다. 예를 들어 `int x =`를 입력하고 IntelliSense 드롭다운을 호출하면 정수 또는 정수를 반환하는 함수만 표시됩니다. 예측 IntelliSense는 기본적으로 꺼져 있습니다.
 
 ::: moniker range="vs-2017"
 
