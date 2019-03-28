@@ -1,6 +1,6 @@
 ---
 title: 분석기 규칙 심각도 및 제거
-ms.date: 03/26/2018
+ms.date: 03/26/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, managed code
@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: a2b874a3bddfbfb7831b286cec0887f24ce6bcb8
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 30d8423481705a26f1275db8fb37c497b889dc84
+ms.sourcegitcommit: d78821f8c353e0102b1554719f549f32dffac71b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57873504"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "58515339"
 ---
 # <a name="use-roslyn-analyzers"></a>Roslyn 분석기를 사용 합니다.
 
@@ -46,12 +46,17 @@ ms.locfileid: "57873504"
 
 ## <a name="rule-sets"></a>규칙 집합
 
-A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) 은 개별 진단에 대 한 심각도 및 표시 안 함 상태를 저장 하는 XML 파일입니다. 규칙 집합을 단일 프로젝트에 적용 하 고 프로젝트를 여러 규칙 집합을 가질 수 있습니다. 활성 규칙 집합 편집기에서를 보려면 마우스 오른쪽 단추로 클릭 합니다 **분석기** 노드에서 **솔루션 탐색기** 선택한 **활성 규칙 집합 열기**합니다. 이 경우 처음으로 규칙을 액세스 하는 설정, 라는 파일  *\<projectname >.ruleset* 프로젝트에 추가 되 고 나타나는 **솔루션 탐색기**합니다.
+A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) 은 개별 진단에 대 한 심각도 및 표시 안 함 상태를 저장 하는 XML 파일입니다.
 
 > [!NOTE]
-> (이진) 정적 코드 분석 및 Roslyn 분석기 규칙 규칙 집합에 포함 됩니다.
+> 규칙 집합 (이진) 정적 코드 분석 및 Roslyn 분석기에서 규칙을 포함할 수 있습니다.
 
-활성 규칙에는 프로젝트에 대 한 집합을 변경할 수 있습니다 합니다 **코드 분석** 프로젝트의 속성 탭 합니다. 규칙 집합을 선택 합니다 **이 규칙 집합 실행** 드롭 다운 목록. 규칙 집합에서 열 수도 있습니다는 **코드 분석** 를 선택 하 여 속성 페이지 **엽니다**합니다.
+활성 규칙 규칙 집합 편집기에서 집합을 편집 하려면 마우스 오른쪽 단추로 클릭 합니다 **참조** > **분석기** 노드에서 **솔루션 탐색기** 를선택하고**활성 규칙 집합 열기**합니다. Visual Studio 파일 설정 기본 규칙의 복사본을 만들고, 이름을 처음 규칙 집합을 편집 하는 경우  *\<projectname >.ruleset*, 프로젝트에 추가 합니다. 이 사용자 지정 규칙 집합 active 규칙 프로젝트에 대 한 설정 됩니다.
+
+활성 규칙 집합 프로젝트를 변경 하려면로 이동 합니다 **코드 분석** 프로젝트의 속성 탭 합니다. 규칙 집합 목록에서 선택 **이 규칙 집합 실행**합니다. 규칙 집합을 열려면 **엽니다**합니다.
+
+> [!NOTE]
+> .NET core 및.NET Standard 프로젝트 규칙 집합에 대 한 메뉴 명령을 지원 하지 않습니다 **솔루션 탐색기**, 예를 들어 **활성 규칙 집합 열기**합니다. .NET Core 또는.NET Standard 프로젝트에 대해 수동으로 설정 하는 기본이 아닌 규칙 지정 [추가 된 **CodeAnalysisRuleSet** 프로젝트 파일에 속성](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project)합니다. Visual Studio에서 설정 하는 규칙 규칙 집합 편집기 UI 내에서 규칙을 구성할 수 있습니다.
 
 ## <a name="rule-severity"></a>규칙 심각도
 
@@ -79,7 +84,7 @@ A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.m
 
 ![솔루션 탐색기에서 규칙 집합 파일](media/ruleset-in-solution-explorer.png)
 
-### <a name="to-set-rule-severity-from-solution-explorer"></a>솔루션 탐색기에서 규칙 심각도 설정 하려면
+### <a name="set-rule-severity-from-solution-explorer"></a>솔루션 탐색기에서 규칙 심각도 설정
 
 1. **솔루션 탐색기**를 확장 하 고 **참조가** > **분석기** (**종속성**  >  **분석기** .NET Core 프로젝트에 대 한).
 
@@ -89,7 +94,7 @@ A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.m
 
    규칙 심각도 활성 규칙 집합 파일에 저장 됩니다.
 
-### <a name="to-set-rule-severity-in-the-rule-set-file"></a>규칙을 설정 하려면 규칙의 심각도 설정 파일
+### <a name="set-rule-severity-in-the-rule-set-file"></a>규칙 집합 파일의 규칙 심각도 설정
 
 1. 열기는 [규칙 집합](analyzer-rule-sets.md) 파일에서 두 번 클릭 하 여 **솔루션 탐색기**을 선택 하면 **활성 규칙 집합 열기** 오른쪽 클릭 메뉴에는 **분석기** 노드를 선택 하 여 **열려** 에 **코드 분석** 프로젝트 속성 페이지.
 
