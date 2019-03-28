@@ -864,7 +864,7 @@ ASP.NET Core를 사용한 웹앱</a>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>JavaScript를 사용한 모바일 개발</h3>
-                                                    <p>Apache Cordova 프레임워크를 사용하여 iOS, Android 또는 Windows용 플랫폼 간 애플리케이션을 빌드합니다.</p>
+                                                    <p>(Visual Studio 2017 및 Visual Studio 2015에만 해당) Apache Cordova 프레임워크를 사용하여 iOS, Android 또는 Windows용 플랫폼 간 애플리케이션을 빌드합니다.</p>
                                                 </div>
                                             </div>
                                         </div>
