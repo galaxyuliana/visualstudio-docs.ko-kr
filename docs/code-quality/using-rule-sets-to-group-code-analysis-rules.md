@@ -11,16 +11,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 701b178ea161884ef748008b1f933a53fc35a1cb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c95b442835289265d197b6806c6d87fa051f2c1b
+ms.sourcegitcommit: d78821f8c353e0102b1554719f549f32dffac71b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55914476"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "58515235"
 ---
 # <a name="use-rule-sets-to-group-code-analysis-rules"></a>코드 분석 규칙 그룹화를 사용 하 여 규칙 집합
 
-Visual Studio에서 코드 분석을 구성할 때 기본 제공 목록에서 선택할 수 있습니다 *규칙 집합*합니다. 규칙 집합을 프로젝트에 적용 되며 코드의 그룹에는 해당 프로젝트에 대 한 특정 조건과 대상된 문제를 식별 하는 분석 규칙. 예를 들어 공개적으로 사용 가능한 Api에 대 한 코드를 스캔 하도록 설계 된 규칙 집합을 적용 하거나 방금 최소 권장 규칙. 모든 규칙을 포함 하는 규칙 집합을 적용할 수도 있습니다.
+Visual Studio에서 코드 분석을 구성할 때 기본 제공 목록에서 선택할 수 있습니다 *규칙 집합*합니다. 규칙 집합은 대상된 문제 및 해당 프로젝트에 대 한 특정 조건을 식별 하는 코드 분석 규칙 그룹화 합니다. 예를 들어 공개적으로 사용 가능한 Api에 대 한 코드를 스캔 하도록 설계 된 규칙 집합을 적용할 수 있습니다. 또한 사용 가능한 모든 규칙을 포함 하는 규칙 집합을 적용할 수 있습니다.
 
 규칙 경고 또는 오류를 표시할 추가 또는 삭제 규칙 또는 규칙 심각도 변경 하 여 집합을 사용자 지정할 수 있습니다 합니다 **오류 목록**합니다. 사용자 지정된 규칙 집합에는 특정 개발 환경의 요구 사항을 충족할 수 있습니다. 규칙 집합을 사용자 지정 규칙 집합 편집기 검색 및 필터링 프로세스에서 도움이 도구를 제공 합니다.
 
