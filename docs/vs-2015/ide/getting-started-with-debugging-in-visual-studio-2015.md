@@ -10,12 +10,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7fecc637a62e96381362d79f66eb5a3cd4d8fa1d
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: dfa68202d7f73d45b8422bb34c90954528d6af7b
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54764850"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324775"
 ---
 # <a name="getting-started-with-debugging-in-visual-studio-2015"></a>Visual Studio 2015에서 디버그 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ Visual Studio 2015에서는 프로젝트 빌드 및 디버깅 도구의 강력�
 
  처음에는 빌드 구성 및 플랫폼으로 각각 **디버그** 및 **x86**을 사용합니다. 코딩과 디버깅을 완료했으면 구성을 **릴리스**로 변경하고 특정 플랫폼을 대상으로 지정합니다. 이전 버전의 Visual Studio에서는 .NET 코드 프로젝트에 대해 **AnyCPU** 기본 플랫폼을 제공했습니다.
 
- 참고: 프로젝트를 빌드할 때 구성 및 플랫폼 값을 사용하여 실행 파일을 저장하기 위해 만들 프로젝트 디렉터리 경로도 결정합니다. 일반적으로 **\<프로젝트 경로>\\<프로젝트 이름>\\<구성\>\\<플랫폼\>** 입니다. 예를 들어 구성이 `Debug`이고 플랫폼이 `x86`인 프로젝트는 `Projects\MyProjectNameHere\MyProjectNameHere\bin\Debug\x86` 아래에 있습니다. 이 기능은 빌드된 실행 파일을 관리하는 고유한 도구나 스크립트가 있는 경우에 유용할 수 있습니다.
+ 참고: 프로젝트를 빌드할 때 구성 및 플랫폼 값을 사용하여 실행 파일을 저장하기 위해 만들 프로젝트 디렉터리 경로도 결정합니다. 일반적으로 **\<프로젝트 경로>\\<프로젝트 이름\>\\<구성\>\\<플랫폼\>** 입니다. 예를 들어 구성이 `Debug`이고 플랫폼이 `x86`인 프로젝트는 `Projects\MyProjectNameHere\MyProjectNameHere\bin\Debug\x86` 아래에 있습니다. 이 기능은 빌드된 실행 파일을 관리하는 고유한 도구나 스크립트가 있는 경우에 유용할 수 있습니다.
 
 ### <a name="building-your-code"></a>코드 빌드
  빌드를 구성했으면 이제 실제로 프로젝트를 빌드해야 합니다. 가장 쉬운 방법은 F7 키를 누르는 것이지만 주 메뉴에서 **빌드->솔루션 빌드**를 선택하여 빌드를 시작할 수도 있습니다.
@@ -184,7 +184,7 @@ Visual Studio 2015에서는 프로젝트 빌드 및 디버깅 도구의 강력�
  ![Visual Studio 2015 진단 도구 창](../ide/media/vs-ide-gs-debug-diagnostic-tools.PNG "Vs_ide_gs_debug_diagnostic_tools")
 
 ### <a name="running-unit-tests"></a>단위 테스트 실행
- 유닛 테스트는 앱이나 서비스에서 코드 경로를 실행하는 프로그램입니다. Visual Studio 2015에서는 관리 코드 및 네이티브 코드에 대한 Microsoft 단위 테스트 프레임워크를 설치합니다. 유닛 테스트 프레임워크를 사용하여 유닛 테스트를 만들고, 실행하고, 이러한 테스트 결과를 보고합니다. 변경 시 단위 테스트를 다시 실행하여 코드가 여전히 제대로 작동하는지 테스트합니다. Visual Studio 2015 Enterprise를 사용하는 경우 빌드할 때마다 테스트를 자동으로 실행할 수 있습니다.
+ 유닛 테스트는 앱이나 서비스에서 코드 경로를 실행하는 프로그램입니다. Visual Studio 2015에서는 관리 코드 및 네이티브 코드에 대한 Microsoft 유닛 테스트 프레임워크를 설치합니다. 유닛 테스트 프레임워크를 사용하여 유닛 테스트를 만들고, 실행하고, 이러한 테스트 결과를 보고합니다. 변경 시 단위 테스트를 다시 실행하여 코드가 여전히 제대로 작동하는지 테스트합니다. Visual Studio 2015 Enterprise를 사용하는 경우 빌드할 때마다 테스트를 자동으로 실행할 수 있습니다.
 
  시작하려면 [IntelliTest를 사용하여 코드에 대한 단위 테스트 생성](../test/generate-unit-tests-for-your-code-with-intellitest.md)을 참조하세요.
 

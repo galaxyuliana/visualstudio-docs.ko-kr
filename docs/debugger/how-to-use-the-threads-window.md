@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b205a92607d55b9999a846c860235c7deb5b13ae
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 80ef787bb9293bb26ba9ab706abf805005153752
+ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680219"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58476035"
 ---
 # <a name="walkthrough-debug-a-multithreaded-app-using-the-threads-window-c-visual-basic-c"></a>연습: 스레드 창을 사용 하 여 다중 스레드 앱 디버깅 (C#, Visual Basic, c + +)
 
@@ -34,15 +34,27 @@ ms.locfileid: "56680219"
 
 이 자습서에서는 다음 다중 스레드 응용 프로그램 프로젝트를 만듭니다.
 
-1. Visual Studio에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
-1. **새 프로젝트** 대화 상자에서 다음을 수행합니다.
-   - 에 대 한는 C# 앱을 선택 **시각적 C#**    >  **콘솔 앱 (.NET Framework)**.
-   - C + + 앱의 경우 선택 **Visual c + +** > **Windows 콘솔 응용 프로그램**합니다.
+    ::: moniker range=">=vs-2019"
+    형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
+    
+    - 에 대 한 C#을 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C#합니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
+    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기**합니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
 
-1. MyThreadWalkthroughApp, 앱의 이름을 선택한 후 **확인**합니다.
+    그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 클릭 **만들기**합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. 왼쪽된 창에는 **새 프로젝트** 대화 상자에서 다음을 선택 합니다.
+    - 에 대 한는 C# 앱 아래에 있는 **Visual C#** 를 선택 **Windows 데스크톱**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)**.
+    - C + + 앱의 경우 아래 **Visual c + +**, 선택 **Windows Desktop**,를 선택한 후 **Windows 콘솔 응용 프로그램**합니다.
 
-   새 프로젝트에 나타납니다 **솔루션 탐색기**, 소스 파일을 호출 하 고 *Program.cs* 또는 *MyThreadWalkthroughApp.cpp* 소스 코드 창에서 열립니다.
+    그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 누릅니다 **확인**합니다.
+    ::: moniker-end
+
+    표시 되지 않는 경우는 **콘솔 앱** 프로젝트 템플릿로 이동 **도구** > **도구 및 기능 가져오기...** , Visual Studio 설치 관리자를 엽니다. **.NET 데스크톱 개발*** 또는 **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.
+
+    새 프로젝트에 나타납니다 **솔루션 탐색기**, 소스 파일을 호출 하 고 *Program.cs* 또는 *MyThreadWalkthroughApp.cpp* 소스 코드 창에서 열립니다.
 
 1. 인 소스 파일의 코드는 C# 또는 c + + 예제에서는 코드 [다중 스레드 응용된 프로그램 디버깅 시작](../debugger/get-started-debugging-multithreaded-apps.md)합니다.
 

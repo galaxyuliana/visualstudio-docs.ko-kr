@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e3d698732e1f2362fbb9a536dc4e5a8e4cc412db
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 0ffbe0b8365948dc5a69edca390f308cb55ba5a3
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227579"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323440"
 ---
 # <a name="view-events-with-intellitrace-in-visual-studio-enterprise-c-visual-basic"></a>Visual Studio Enterprise에서 IntelliTrace 사용 하 여 이벤트를 확인 (C#, Visual Basic)
 
@@ -53,7 +53,7 @@ IntelliTrace 이벤트로만 디버그를 시도할 수 있습니다. IntelliTra
 
 ## <a name="start-debugging-and-view-intellitrace-events"></a>디버깅을 시작 하 고 IntelliTrace 이벤트 보기
 
-1. 일반적인 방법으로 디버깅을 시작합니다. ( **F5** 키를 누르거나 **디버그 / 디버깅 시작**을 클릭합니다.)
+1. 일반적인 방법으로 디버깅을 시작합니다. (**F5** 키를 누르거나 **디버그 > 디버깅 시작**을 클릭합니다.)
 
     > [!TIP]
     > **로컬** 및 **자동** 창에서 값을 보고 기록하기 위해 디버그하는 동안 해당 창은 열어 두세요.

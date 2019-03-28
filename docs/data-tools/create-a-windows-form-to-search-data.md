@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 3c73ab24cd2b50efd26f9a5b3ac1105325345033
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: aa8b91ccdf4aaa5b46f167673007723938fc62ef
+ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55945070"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58268778"
 ---
 # <a name="create-a-windows-form-to-search-data"></a>데이터 검색을 위한 Windows Form 만들기
 
@@ -31,27 +31,25 @@ ms.locfileid: "55945070"
 
 이 연습에서 설명하는 작업은 다음과 같습니다.
 
--   새로 만들 **Windows Forms 응용 프로그램** 프로젝트입니다.
+- 만들기 및 사용 하 여 응용 프로그램에서 데이터 소스를 구성 합니다 **데이터 원본 구성** 마법사.
 
--   만들기 및 사용 하 여 응용 프로그램에서 데이터 소스를 구성 합니다 **데이터 원본 구성** 마법사.
+- 에 있는 항목의 삭제 유형을 설정 합니다 **데이터 원본** 창입니다.
 
--   에 있는 항목의 삭제 유형을 설정 합니다 **데이터 원본** 창입니다.
+- **데이터 원본** 창에서 양식으로 항목을 끌어 데이터를 표시하는 컨트롤을 만듭니다.
 
--   **데이터 원본** 창에서 양식으로 항목을 끌어 데이터를 표시하는 컨트롤을 만듭니다.
+- 폼에 데이터를 표시하기 위한 컨트롤을 추가합니다.
 
--   폼에 데이터를 표시하기 위한 컨트롤을 추가합니다.
+- 완료 합니다 **검색 조건 작성기** 대화 상자.
 
--   완료 합니다 **검색 조건 작성기** 대화 상자.
-
--   폼에 매개 변수를 입력 하 고 매개 변수가 있는 쿼리를 실행 합니다.
+- 폼에 매개 변수를 입력 하 고 매개 변수가 있는 쿼리를 실행 합니다.
 
 ## <a name="prerequisites"></a>전제 조건
 
 이 연습에서는 Northwind 샘플 데이터베이스 및 SQL Server Express LocalDB를 사용 합니다.
 
-1.  SQL Server Express LocalDB가 없는 경우 설치에서 [SQL Server Express 다운로드 페이지](https://www.microsoft.com/sql-server/sql-server-editions-express), 또는 합니다 **Visual Studio 설치 관리자**합니다. 에 **Visual Studio 설치 관리자**의 일부로 SQL Server Express LocalDB를 설치할 수 있습니다는 **데이터 저장 및 처리** 워크 로드 또는 개별 구성 요소로 합니다.
+1. SQL Server Express LocalDB가 없는 경우 설치에서 [SQL Server Express 다운로드 페이지](https://www.microsoft.com/sql-server/sql-server-editions-express), 또는 합니다 **Visual Studio 설치 관리자**합니다. 에 **Visual Studio 설치 관리자**의 일부로 SQL Server Express LocalDB를 설치할 수 있습니다는 **데이터 저장 및 처리** 워크 로드 또는 개별 구성 요소로 합니다.
 
-2.  다음이 단계를 수행 하 여 Northwind 샘플 데이터베이스를 설치 합니다.
+2. 다음이 단계를 수행 하 여 Northwind 샘플 데이터베이스를 설치 합니다.
 
     1. Visual Studio에서 엽니다는 **SQL Server 개체 탐색기** 창입니다. (SQL Server 개체 탐색기의 일부로 설치 됩니다 합니다 **데이터 저장소 및 처리** 워크 로드에는 **Visual Studio 설치 관리자**.) 확장 된 **SQL Server** 노드. LocalDB 인스턴스를 마우스 오른쪽 단추로 클릭 하 고 선택 **새 쿼리**합니다.
 
@@ -65,17 +63,7 @@ ms.locfileid: "55945070"
 
 ## <a name="create-the-windows-forms-application"></a>Windows Forms 응용 프로그램 만들기
 
-첫 번째 단계는 Windows Forms 앱을 만드는 것입니다. 프로젝트에 이름을 할당 하는 것은이 단계에서 선택 사항 이지만 이름을 지정 하겠습니다 것를 여기서 나중에 프로젝트를 저장할 수 있으므로:
-
-1. Visual Studio에서에 **파일** 메뉴에서 **새로 만들기** > **프로젝트**합니다.
-
-2. 확장 **시각적 C#**  하거나 **Visual Basic** 왼쪽 창에서 선택한 **Windows Desktop**.
-
-3. 가운데 창에서 선택 합니다 **Windows Forms 앱** 형식 프로젝션 합니다.
-
-4. 프로젝트 이름을 **WindowsSearchForm**를 선택한 후 **확인**합니다.
-
-     **WindowsSearchForm** 프로젝트가 만들어져 **솔루션 탐색기**에 추가됩니다.
+새 **Windows Forms 앱** 프로젝트에 대 한 C# 또는 Visual Basic입니다. 프로젝트 이름을 **WindowsSearchForm**로 지정합니다.
 
 ## <a name="create-the-data-source"></a>데이터 원본 만들기
 
@@ -89,9 +77,9 @@ ms.locfileid: "55945070"
 
 4.  **데이터 연결 선택** 페이지에서 다음 중 한 가지를 수행합니다.
 
-    -   Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.
+    - Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.
 
-    -   **새 연결**을 선택하여 **연결 추가/수정** 대화 상자를 시작합니다.
+    - **새 연결**을 선택하여 **연결 추가/수정** 대화 상자를 시작합니다.
 
 5.  데이터베이스에 암호가 필요하면 중요한 데이터를 포함하는 옵션을 선택한 후, **다음**을 클릭합니다.
 
@@ -153,9 +141,9 @@ ms.locfileid: "55945070"
 
 응용 프로그램 요구 사항에 따라 매개 변수가 있는 폼을 만든 후 몇 단계를 더 수행해야 할 수도 있습니다. 이 연습에서 보완할 수 있는 사항은 다음과 같습니다.
 
--   관련 데이터를 표시하는 컨트롤을 추가합니다. 자세한 내용은 [데이터 집합의 관계](relationships-in-datasets.md)합니다.
+- 관련 데이터를 표시하는 컨트롤을 추가합니다. 자세한 내용은 [데이터 집합의 관계](relationships-in-datasets.md)합니다.
 
--   데이터 집합을 편집하여 데이터베이스 개체를 추가하거나 편집합니다. 자세한 내용은 [데이터 세트 만들기 및 구성](../data-tools/create-and-configure-datasets-in-visual-studio.md)을 참조하세요.
+- 데이터 집합을 편집하여 데이터베이스 개체를 추가하거나 편집합니다. 자세한 내용은 [데이터 세트 만들기 및 구성](../data-tools/create-and-configure-datasets-in-visual-studio.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

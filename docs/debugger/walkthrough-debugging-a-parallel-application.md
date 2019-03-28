@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 07ecb3d7658cc89207551af7df875eba0b2c1e4f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 0c6a8c564e6786c2919bcf61ae8f23c990e9abc1
+ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709410"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58476061"
 ---
 # <a name="walkthrough-debugging-a-parallel-application-in-visual-studio-c-visual-basic-c"></a>연습: Visual Studio에서 병렬 응용 프로그램 디버깅 (C#, Visual Basic, c + +)
 
@@ -62,23 +62,39 @@ ms.locfileid: "56709410"
 
 #### <a name="to-create-the-sample-project"></a>샘플 프로젝트를 만들려면
 
-1. Visual Studio의 **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.
+1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
-2. 중 하나를 선택 **시각적 C#** 합니다 **Visual Basic**, 또는 **Visual c + +**. 관리되는 언어의 경우 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)]이 프레임워크 상자에 표시되는지 확인합니다.
+    ::: moniker range=">=vs-2019"
+    형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
+    
+    - 에 대 한 C# 또는 Visual Basic의 경우 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C# 또는 Visual Basic입니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
+    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기** c + +에 대 한 합니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
 
-3. 아래 **Windows 데스크톱**, 선택 **콘솔 응용 프로그램** 을 클릭 한 다음 **확인**합니다. 기본값인 Debug 구성을 유지합니다.
+    그런 다음 이름을 입력 하 고 또는 기본 이름을 사용 하 고, 클릭 **만들기**합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. 왼쪽된 창에는 **새 프로젝트** 대화 상자에서 다음을 선택 합니다.
 
-4. 프로젝트에서 .cpp, .cs 또는 .vb 코드 파일을 엽니다. 내용을 삭제하여 빈 코드 파일을 만듭니다.
+    - 에 대 한는 C# 앱 아래에 있는 **Visual C#** 를 선택 **Windows 데스크톱**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)**.
+    - Visual Basic 앱의 경우 아래 **Visual Basic**, 선택 **Windows Desktop**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)** 합니다.
+    - C + + 앱의 경우 아래 **Visual c + +**, 선택 **Windows Desktop**,를 선택한 후 **Windows 콘솔 응용 프로그램**합니다.
 
-5. 선택한 언어의 다음 코드를 빈 코드 파일에 붙여 넣습니다.
+    그런 다음 이름을 입력 하 고 또는 기본 이름을 사용 하 고, 클릭 **확인**합니다.
+    ::: moniker-end
+
+    표시 되지 않는 경우는 **콘솔 앱** 프로젝트 템플릿로 이동 **도구** > **도구 및 기능 가져오기...** , Visual Studio 설치 관리자를 엽니다. **.NET 데스크톱 개발*** 또는 **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.
+
+1. 프로젝트에서 .cpp, .cs 또는 .vb 코드 파일을 엽니다. 내용을 삭제하여 빈 코드 파일을 만듭니다.
+
+1. 선택한 언어의 다음 코드를 빈 코드 파일에 붙여 넣습니다.
 
    [!code-csharp[Debugger#1](../debugger/codesnippet/CSharp/walkthrough-debugging-a-parallel-application_1.cs)]
    [!code-cpp[Debugger#1](../debugger/codesnippet/CPP/walkthrough-debugging-a-parallel-application_1.cpp)]
    [!code-vb[Debugger#1](../debugger/codesnippet/VisualBasic/walkthrough-debugging-a-parallel-application_1.vb)]
 
-6. **파일** 메뉴에서 **모두 저장**을 클릭합니다.
+1. **파일** 메뉴에서 **모두 저장**을 클릭합니다.
 
-7. **빌드** 메뉴에서 **솔루션 다시 빌드**를 클릭합니다.
+1. **빌드** 메뉴에서 **솔루션 다시 빌드**를 클릭합니다.
 
     `Debugger.Break`(C++ 샘플의 경우 `DebugBreak`)가 4번 호출됩니다. 따라서 중단점을 삽입할 필요가 없으며 응용 프로그램을 실행하기만 하면 디버거에서 응용 프로그램이 최대 4번 중단됩니다.
 

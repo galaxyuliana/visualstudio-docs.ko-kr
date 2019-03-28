@@ -30,12 +30,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 51e9f831941fff79c42c8e7fc529db3df0d46b0d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5c036680d540854eb3143875663aeac35a466884
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54795305"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323609"
 ---
 # <a name="creating-and-configuring-type-members-class-designer"></a>형식 멤버 만들기 및 구성(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -209,7 +209,7 @@ ms.locfileid: "54795305"
   
 - **\<매개 변수 추가>**  
   
-   멤버의 마지막 매개 변수 행에는 **이름** 셀에 **<add parameter>** 라는 텍스트가 나타납니다. 이 셀을 클릭하여 새 매개 변수를 만들 수 있습니다. 자세한 내용은 [메서드에 매개 변수를 추가하려면](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod)을 참조하세요.  
+   멤버의 마지막 매개 변수 행에는 **이름** 셀에 **<매개 변수 추가\>** 라는 텍스트가 나타납니다. 이 셀을 클릭하여 새 매개 변수를 만들 수 있습니다. 자세한 내용은 [메서드에 매개 변수를 추가하려면](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod)을 참조하세요.  
   
   **속성 창의 매개 변수 속성**  
   
