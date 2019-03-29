@@ -1,14 +1,14 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: 6b16d58a760b92d71eabcad95ffacc2aed9db94d
+ms.openlocfilehash: 7629349f0d9adec6bc0843c2844295e48010c609
 ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/28/2019
-ms.locfileid: "58568064"
+ms.locfileid: "58568955"
 documentType: LandingData
-title: Mac용 Visual Studio 2019 설명서
+title: Mac용 Visual Studio 설명서
 metadata:
-  description: 이 문서에서는 Mac용 Visual Studio의 기능을 소개합니다.
+  description: 이 문서에서는 Mac용 Visual Studio 2017의 기능을 소개합니다.
   author: conceptdev
   ms.author: crdun
   ms.date: 02/06/2019
@@ -35,6 +35,11 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_vs-mac.svg
       title: Mac용 Visual Studio 둘러보기
+    - href: ~/installation.md?view=vsmac-2019
+      html: <p></p>
+      image:
+        src: media/index-2019-preview.png
+      title: 2019 미리 보기를 시도해보세요!
 - title: 어떤 앱을 빌드할 수 있나요?
   items:
   - type: paragraph

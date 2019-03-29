@@ -68,6 +68,7 @@
 #### [구독 검색](search-license.md)
 #### [구독 내보내기](exporting-subscriptions.md)
 #### [초과 할당](handle-overclaimed-license.md)
+#### [최대 사용량](maximum-usage.md)
 #### [만료된 구독](handle-expired-license.md)
 #### [개인 전자 메일 로그인이 있는 구독자](personal-email-sign-ins.md)
 ## Visual Studio 구독 취득
