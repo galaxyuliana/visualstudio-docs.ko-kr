@@ -11,12 +11,12 @@ dev_langs:
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 4868da71193519ceeb236349b8953a14189abaa7
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: f5ae66de706d29f7efb63f2c5b975a268c5f50ab
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983509"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58354780"
 ---
 # <a name="welcome-to-the-visual-studio-ide--python"></a>Visual Studio IDE 시작 | Python
 
@@ -44,7 +44,7 @@ Visual Studio *통합 개발 환경*은 코드를 편집, 디버그 및 테스�
 
 Visual Studio는 Windows 및 Mac에서 사용할 수 있지만 Python 지원은 Windows용 Visual Studio에서만 사용할 수 있습니다.
 
-Windows의 세 가지 Visual Studio 2017 버전은 다음과 같습니다. Community, Professional 및 Enterprise. 각 버전에서 지원되는 기능에 대해 알아보려면 [Visual Studio 2017 IDE 비교](https://visualstudio.microsoft.com/vs/compare/)를 참조하세요.
+Windows의 세 가지 Visual Studio 버전은 다음과 같습니다. Community, Professional 및 Enterprise. 각 버전에서 지원되는 기능에 대해 알아보려면 [Visual Studio IDE 비교](https://visualstudio.microsoft.com/vs/compare/)를 참조하세요.
 
 ## <a name="popular-productivity-features"></a>주요 생산성 향상 기능
 

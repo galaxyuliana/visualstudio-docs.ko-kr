@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8815e4cf58703efa0ab092f6030f6eeb22a813cd
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: a46b4187b4f4fb2c0523a7dcf3ac5c5fa391afe5
+ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983392"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58268539"
 ---
 # <a name="find-and-use-visual-studio-extensions"></a>Visual Studio 확장 찾기 및 사용
 
@@ -63,7 +63,7 @@ MSI 기반 확장도 다운로드하고 설치할 수 있지만 **확장 관리*
 
 **확장 및 업데이트**에서 설치하려는 확장을 찾습니다. (확장의 이름이나 이름 일부를 알고 있는 경우 **검색** 창에서 검색할 수 있습니다.) **다운로드**를 클릭합니다. 확장이 설치를 위해 예약됩니다. Visual Studio의 모든 인스턴스를 닫으면 확장이 설치됩니다.
 
-종속성이 포함된 확장을 설치하려고 하면 설치 관리자에서 이미 설치가 되었는지 여부를 확인합니다. 종속성이 설치되지 않은 경우 **확장 및 업데이트** 대화 상자에 확장을 설치하기 전에 설치해야 하는 종속성이 나열됩니다.
+종속성이 포함된 확장을 설치하려고 하면 설치 관리자에서 이미 설치가 되었는지 여부를 확인합니다. 설치가 되어 있지 않으면, **확장 및 업데이트** 대화 상자 목록은 확장을 설치하기 전에 설치해야 하는 종속성을 나열합니다.
 
 ::: moniker-end
 
@@ -141,7 +141,7 @@ Visual Studio는 확장으로 인해 UI가 응답하지 않는다고 의심되�
 
 온라인 샘플을 설치하면 솔루션은 다음 두 위치에 저장됩니다.
 
-- 작업 복사본은 **새 프로젝트** 대화 상자에 지정된 위치에 저장됩니다.
+- 작업 복사본은 프로젝트를 만들 때 지정한 위치에 저장됩니다.
 
 - 별도의 마스터 복사본은 컴퓨터에 저장됩니다.
 
@@ -163,7 +163,7 @@ Visual Studio는 확장으로 인해 UI가 응답하지 않는다고 의심되�
 
 - 기술이나 기능과 관련된 샘플의 모음인 샘플 팩을 설치합니다.
 
-- 개별 온라인 샘플을 설치합니다. ( **새 프로젝트** 대화 상자에서도 할 수 있습니다.)
+- 개별 온라인 샘플을 설치합니다.
 
 - 설치된 샘플에 대해 소스 코드 변경 내용이 게시되면 업데이트 알림을 봅니다.
 

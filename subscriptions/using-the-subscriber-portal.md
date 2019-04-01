@@ -7,14 +7,14 @@ ms.date: 01/04/2018
 ms.topic: conceptual
 description: Visual Studio 구독 포털에서 사용할 수 있는 이점의 전체 범위에 대해 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: ba353c6c13d0a538e0030b10c95d054805d0ec39
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: fcf8d9c9ddd88fd6f00c0b59c92c5e51af7a6ca1
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57867593"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323401"
 ---
-# <a name="using-the-subscriber-portal---myspanspanvisualstudiospanspancom"></a>구독자 포털 사용 - my.<span></span>visualstudio<span></span>.com
+# <a name="using-the-subscriber-portal---myvisualstudiocom"></a>구독자 포털 사용 - my.visualstudio.com
 
 Visual Studio 구독 포털인 [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs)은 Visual Studio 구독을 통해 제공되는 전체 혜택을 활용할 수 있는 일체형 리소스입니다.
 

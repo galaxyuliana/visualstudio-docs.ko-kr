@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: be4d194ab0b308f436692be5dd0e7d1bc3315725
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 8cb1b18488eaf9ddf3308e74d583fd1b92fc2563
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57867828"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58354733"
 ---
 # <a name="quickstart-first-look-at-the-visual-studio-ide"></a>빠른 시작: 먼저 Visual Studio IDE 살펴보기
 
@@ -39,7 +39,7 @@ Visual Studio를 열면 맨 처음 표시되는 것은 대부분 **시작 페이
 
 ## <a name="start-window"></a>시작 창
 
-Visual Studio를 열면 맨 처음 표시되는 것은 시작 창입니다. 시작 창은 더욱 빠르게 “코딩을 시작”하는 데 도움이 되도록 설계되었습니다. 코드를 복제 또는 체크 아웃하거나, 기존 프로젝트 또는 솔루션을 열거나, 새 프로젝트를 만들거나, 일부 코드 파일이 포함된 폴더를 열 수 있는 옵션이 있습니다.
+Visual Studio를 열면 맨 처음 표시되는 것은 시작 창입니다. 시작 창은 "코드 가져오기"를 더 빨리 할 수 있도록 설계되었습니다. 코드를 복제 또는 체크 아웃하거나, 기존 프로젝트 또는 솔루션을 열거나, 새 프로젝트를 만들거나, 일부 코드 파일이 포함된 폴더를 열 수 있는 옵션이 있습니다.
 
 [![](media/vs-2019/start-window-labeled.png "Visual Studio 2019의 시작 창")](media/vs-2019/start-window-labeled.png#lightbox)
 
@@ -71,7 +71,7 @@ Visual Studio의 기능을 계속 탐색하기 위해 새 프로젝트를 만들
 
 1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
 
-   **새 프로젝트 만들기**라고 표시된 창이 열립니다. 이 창을 **새 프로젝트** 대화 상자라고도 합니다. 이 창에서 프로젝트 템플릿을 찾아보고 선택할 수 있습니다. 이 창에는 최근에 사용한 프로젝트 템플릿 목록도 있습니다.
+   **새 프로젝트 만들기**라고 표시된 대화 상자가 열립니다. 여기서 프로젝트 템플릿을 검색, 필터링 및 선택할 수 있습니다. 최근에 사용한 프로젝트 템플릿 목록도 보여줍니다.
 
 1. 맨 위에 있는 검색 상자에 **console**을 입력하여 프로젝트 유형 목록을 이름에 “console”이 포함된 프로젝트 유형으로 필터링합니다. **언어** 선택기에서 **C#**(또는 선택한 다른 언어)를 선택하여 검색 결과를 더 구체화합니다.
 

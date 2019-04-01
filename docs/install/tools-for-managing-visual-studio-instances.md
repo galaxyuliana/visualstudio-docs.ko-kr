@@ -14,12 +14,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e8278448c1b10062c3e030d763d1cf4e37f9cc7e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+ms.openlocfilehash: 0a5344c2c816224151b6498bb5512bd0fec35356
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681753"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415216"
 ---
 # <a name="tools-for-detecting-and-managing-visual-studio-instances"></a>Visual Studio 인스턴스 검색 및 관리 도구
 
@@ -37,25 +39,31 @@ ms.locfileid: "56681753"
 
 ## <a name="using-vswhereexe"></a>vswhere.exe 사용
 
-`vswhere.exe`는 Visual Studio 2017 버전 15.2 이상에 자동으로 포함되거나 [릴리스 페이지](https://github.com/Microsoft/vswhere/releases)에서 다운로드할 수 있습니다. `vswhere -?`를 사용하여 도구에 대한 도움말 정보를 가져올 수 있습니다. 예를 들어, 이 명령은 이전 버전의 제품 및 시험판을 비롯한 Visual Studio의 모든 릴리스를 표시하고 결과를 JSON 형식으로 출력합니다.
+`vswhere.exe`는 Visual Studio 2017 버전 15.2 이상부터 Visual Studio에 자동으로 포함되거나 [VSWhere 릴리스 페이지](https://github.com/Microsoft/vswhere/releases)에서 다운로드할 수 있습니다. `vswhere -?`를 사용하여 도구에 대한 도움말 정보를 가져올 수 있습니다. 예를 들어, 이 명령은 이전 버전의 제품 및 시험판을 비롯한 Visual Studio의 모든 릴리스를 표시하고 결과를 JSON 형식으로 출력합니다.
 
 ```cmd
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
 ```
+::: moniker range="vs-2017"
 
->[!TIP]
->Visual Studio 2017 설치에 대한 자세한 내용은 [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)를 참조하세요.
+> [!TIP]
+> Visual Studio 2017 설치에 대한 자세한 내용은 [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)를 참조하세요.
+
+::: moniker-end
 
 ## <a name="editing-the-registry-for-a-visual-studio-instance"></a>Visual Studio 인스턴스의 레지스트리 편집
 
-Visual Studio 2017에서 레지스트리 설정은 전용 위치에 저장되므로 같은 컴퓨터에서 같은 버전의 Visual Studio에 대한 여러 side-by-side 인스턴스를 사용할 수 있습니다.
+Visual Studio에서 레지스트리 설정은 전용 위치에 저장되므로 같은 머신에서 같은 버전의 Visual Studio에 대한 여러 side-by-side 인스턴스를 사용할 수 있습니다.
 
 이러한 항목은 전역 레지스트리에 저장되지 않으므로 레지스트리 편집기를 사용하여 레지스트리 설정을 변경하기 위한 특별한 지침이 있습니다.
 
-1. Visual Studio 2017의 열린 인스턴스가 있으면 인스턴스를 닫으세요.
-2. `regedit.exe`를 시작합니다.
-3. `HKEY_LOCAL_MACHINE` 노드를 선택합니다.
-4. Regedit 주 메뉴에서 **파일 -> 하이브 로드...** 를 선택하고 **AppData\Local** 폴더에 저장된 전용 레지스트리 파일을 선택합니다. 예:
+1. Visual Studio의 열린 인스턴스가 있으면 인스턴스를 닫으세요.
+
+1. `regedit.exe`를 시작합니다.
+
+1. `HKEY_LOCAL_MACHINE` 노드를 선택합니다.
+
+1. Regedit 주 메뉴에서 **파일** > **하이브 로드...** 를 선택한 다음, **AppData\Local** 폴더에 저장된 전용 레지스트리 파일을 선택합니다. 예:
    ```
    %localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin
    ```
@@ -66,7 +74,7 @@ Visual Studio 2017에서 레지스트리 설정은 전용 위치에 저장되므
 하이브 이름을 입력하라는 메시지가 표시됩니다. 이 이름은 격리된 하이브의 이름이 됩니다. 이 작업을 한 후에는 직접 만든 격리된 하이브에서 레지스트리를 찾을 수 있습니다.
 
 > [!IMPORTANT]
-> Visual Studio를 다시 시작하기 전에 직접 만든 격리된 하이브를 언로드해야 합니다. 이 작업을 하려면 Regedit 주 메뉴에서 [파일] -> [하이브 언로드]를 선택합니다. 이렇게 하지 않으면 파일이 계속 잠겨 있고 Visual Studio가 시작되지 않습니다.
+> Visual Studio를 다시 시작하기 전에 직접 만든 격리된 하이브를 언로드해야 합니다. 이 작업을 수행하려면 Regedit 주 메뉴에서 **파일** > **하이브 언로드**를 선택합니다. 이렇게 하지 않으면 파일이 계속 잠겨 있고 Visual Studio가 시작되지 않습니다.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

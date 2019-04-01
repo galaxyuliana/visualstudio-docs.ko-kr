@@ -8,12 +8,12 @@ ms.assetid: bd7ad36c-54cb-4d2a-9aea-9d10ad98d7ba
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3f00ff0f794bec43a6d81bf4303488885d901bcb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 487af3eb2a2cce1c68a94b996f371ab1c491e4c5
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55914021"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416329"
 ---
 # <a name="how-to-create-a-diagnostic-data-adapter"></a>방법: 진단 데이터 어댑터 만들기
 
@@ -48,21 +48,9 @@ Microsoft Test Manager 또는 Visual Studio를 사용하여 테스트 설정을 
 
 사용자 지정 구성 편집기를 비롯한 전체 예제 진단 데이터 어댑터 프로젝트는 [진단 데이터 어댑터를 만들기 위한 샘플 프로젝트](../test/quickstart-create-a-load-test-project.md)를 참조하세요.
 
-##  <a name="create-and-install-a-diagnostic-data-adapter"></a>진단 데이터 어댑터 만들기 및 설치
+## <a name="create-and-install-a-diagnostic-data-adapter"></a>진단 데이터 어댑터 만들기 및 설치
 
-### <a name="to-create-and-install-a-diagnostic-data-adapter"></a>진단 데이터 어댑터를 만들고 설치하려면
-
-1. 새 클래스 라이브러리를 만듭니다.
-
-   1.  **파일** 메뉴에서 **새로 만들기**를 선택한 다음, **새 프로젝트**를 가리킵니다.
-
-   2.  **프로젝트 형식**에서 사용할 언어를 선택합니다.
-
-   3.  **Visual Studio에 설치되어 있는 템플릿**에서 **클래스 라이브러리**를 선택합니다.
-
-   4.  진단 데이터 어댑터의 이름을 입력합니다.
-
-   5.  **확인**을 선택합니다.
+1. 새 **클래스 라이브러리** 프로젝트를 만듭니다.
 
 2. 어셈블리 **Microsoft.VisualStudio.QualityTools.ExecutionCommon**을 추가합니다.
 

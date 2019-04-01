@@ -9,12 +9,12 @@ ms.assetid: 1118c604-4b1b-4b21-a04e-45995b676fa8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d9434ac138f848442a32986d85ae816bb8d78e71
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c5ca8c45d48776405b5c0602c44de368cd2899ca
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946950"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416359"
 ---
 # <a name="how-to-create-a-visual-studio-add-in-for-the-web-performance-test-results-viewer"></a>방법: 웹 성능 테스트 결과 뷰어에 대한 Visual Studio 추가 기능 만들기
 
@@ -24,7 +24,7 @@ ms.locfileid: "55946950"
 
 -   <xref:Microsoft.VisualStudio.TestTools.WebTesting>
 
-또한 *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* 폴더에 있는 LoadTestPackage DLL에 대한 참조를 추가해야 합니다.
+또한 *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\Enterprise\Common7\IDE\PrivateAssemblies* 폴더에 있는 LoadTestPackage DLL에 대한 참조를 추가해야 합니다.
 
 **웹 성능 테스트 결과 뷰어**의 UI를 확장하려면 Visual Studio 추가 기능과 사용자 정의 컨트롤을 만들어야 합니다. 다음 절차에서는 추가 기능 및 사용자 정의 컨트롤을 만드는 방법과 **웹 성능 테스트 결과 뷰어**의 UI를 확장하는 데 필요한 클래스를 구현하는 방법에 대해 설명합니다.
 
@@ -51,46 +51,38 @@ ms.locfileid: "55946950"
 
 1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고, **추가**를 선택한 다음, **새 프로젝트**를 선택합니다.
 
-    **새 프로젝트** 대화 상자가 표시됩니다.
-
-2. **설치된 템플릿**에서 **기타 프로젝트 형식**을 확장하고 **확장성**을 선택합니다.
-
-3. 템플릿 목록에서 **Visual Studio 추가 기능**을 선택합니다.
-
-4. **이름**에 추가 기능의 이름을 입력합니다. 예를 들어 **WebPerfTestResultsViewerAddin**을 입력합니다.
-
-5. **확인**을 선택합니다.
+2. 새 **Visual Studio Console 추가 기능** 프로젝트를 만듭니다.
 
     Visual Studio **추가 기능 마법사**가 시작됩니다.
 
-6. **다음**을 선택합니다.
+3. **다음**을 선택합니다.
 
-7. **프로그래밍 언어 선택** 페이지에서 추가 기능을 작성하는 데 사용할 프로그래밍 언어를 선택합니다.
+4. **프로그래밍 언어 선택** 페이지에서 추가 기능을 작성하는 데 사용할 프로그래밍 언어를 선택합니다.
 
    > [!NOTE]
    > 이 항목의 샘플 코드에서는 Visual C#을 사용합니다.
 
-8. **애플리케이션 호스트 선택** 페이지에서 **Visual Studio**를 선택하고 **Visual Studio 매크로**의 선택을 취소합니다.
+5. **애플리케이션 호스트 선택** 페이지에서 **Visual Studio**를 선택하고 **Visual Studio 매크로**의 선택을 취소합니다.
 
-9. **다음**을 선택합니다.
+6. **다음**을 선택합니다.
 
-10. **이름 및 설명 입력** 페이지에 추가 기능의 이름과 설명을 입력합니다.
+7. **이름 및 설명 입력** 페이지에 추가 기능의 이름과 설명을 입력합니다.
 
      추가 기능을 만든 후 추가 기능 이름과 설명은 **추가 기능 관리자**의 **사용 가능한 추가 기능** 목록에 표시됩니다. 사용자가 추가 기능의 역할과 작동 방식 등을 쉽게 알 수 있도록 추가 기능에 대한 자세한 설명을 추가합니다.
 
-11. **다음**을 선택합니다.
+8. **다음**을 선택합니다.
 
-12. **추가 기능 옵션 선택** 페이지에서 **호스트 애플리케이션이 시작될 때 추가 기능을 로드합니다.** 를 선택합니다.
+9. **추가 기능 옵션 선택** 페이지에서 **호스트 애플리케이션이 시작될 때 추가 기능을 로드합니다.** 를 선택합니다.
 
-13. 나머지 확인란의 선택을 취소합니다.
+10. 나머지 확인란의 선택을 취소합니다.
 
-14. **'도움말' 정보 선택** 페이지에서 추가 기능에 대한 정보를 **정보** 대화 상자에 표시할지 여부를 지정할 수 있습니다. 정보를 표시하려면 **예, 추가 기능에 '정보' 상자를 제공합니다.** 확인란을 선택합니다.
+11. **'도움말' 정보 선택** 페이지에서 추가 기능에 대한 정보를 **정보** 대화 상자에 표시할지 여부를 지정할 수 있습니다. 정보를 표시하려면 **예, 추가 기능에 '정보' 상자를 제공합니다.** 확인란을 선택합니다.
 
      Visual Studio **정보** 대화 상자에 추가할 수 있는 정보에는 버전 번호, 지원 세부 사항, 라이선스 데이터 등이 있습니다.
 
-15. **다음**을 선택합니다.
+12. **다음**을 선택합니다.
 
-16. 선택한 옵션은 검토를 위해 **요약** 페이지에 표시됩니다. 옵션이 올바르면 **마침**을 선택하여 추가 기능을 만듭니다. 옵션을 변경하려면 **다시** 단추를 선택합니다.
+13. 선택한 옵션은 검토를 위해 **요약** 페이지에 표시됩니다. 옵션이 올바르면 **마침**을 선택하여 추가 기능을 만듭니다. 옵션을 변경하려면 **다시** 단추를 선택합니다.
 
      새 솔루션과 프로젝트가 만들어지고 새 추가 기능에 대한 *Connect.cs* 파일이 **코드 편집기**에 표시됩니다.
 
@@ -119,24 +111,11 @@ ms.locfileid: "55946950"
 
 1.  **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고, **추가**를 선택한 다음, **새 프로젝트**를 선택합니다.
 
-     **새 프로젝트** 대화 상자가 표시됩니다.
+2. 새 **Windows Forms 컨트롤 라이브러리** 프로젝트를 만듭니다.
 
-2.  **설치된 템플릿**에서 **Visual Basic** 또는 **Visual C#** 을 확장하고 **Windows**를 선택합니다.
+3.  **도구 상자**에서 <xref:System.Windows.Forms.DataGridView>를 userControl1의 화면으로 끌어옵니다.
 
-    > [!NOTE]
-    > 이 항목의 샘플 코드에서는 Visual C#을 사용합니다.
-
-3.  템플릿 목록에서 **Windows Forms 컨트롤 라이브러리**를 선택합니다.
-
-4.  **이름**에 추가 기능의 이름을 입력합니다. 예를 들어 **WebPerfTestResultsViewerControl**을 입력합니다.
-
-5.  **확인**을 선택합니다.
-
-     Windows Forms 컨트롤 라이브러리 프로젝트 WebPerfTestResultsViewerControl이 **솔루션 탐색기**에 추가되고 *UserControl1.cs*가 디자인 모드로 표시됩니다.
-
-6.  **도구 상자**에서 <xref:System.Windows.Forms.DataGridView>를 userControl1의 화면으로 끌어옵니다.
-
-7.  <xref:System.Windows.Forms.DataGridView>의 오른쪽 위 모퉁이에서 작업 태그 문자 모양(![스마트 태그 문자 모양](../test/media/vs_winformsmttagglyph.gif))을 클릭합니다.
+4. <xref:System.Windows.Forms.DataGridView>의 오른쪽 위 모퉁이에서 작업 태그 문자 모양(![스마트 태그 문자 모양](../test/media/vs_winformsmttagglyph.gif))을 클릭합니다.
 
     1.  **부모 컨테이너에서 도킹**을 선택합니다.
 
@@ -154,13 +133,13 @@ ms.locfileid: "55946950"
 
     7.  **닫기**를 선택합니다.
 
-8.  **속성** 창에서 <xref:System.Windows.Forms.DataGridView>의 **(이름)** 속성을 **resultControlDataGridView**로 변경합니다.
+5.  **속성** 창에서 <xref:System.Windows.Forms.DataGridView>의 **(이름)** 속성을 **resultControlDataGridView**로 변경합니다.
 
-9. 디자인 화면을 마우스 오른쪽 단추로 클릭하고 **코드 보기**를 선택합니다.
+6. 디자인 화면을 마우스 오른쪽 단추로 클릭하고 **코드 보기**를 선택합니다.
 
      *UserControl1.cs* 파일이 **코드 편집기**에 표시됩니다.
 
-10. 인스턴스화된 <xref:System.Windows.Forms.UserControl> 클래스의 이름을 UserContro1에서 resultControl로 바꿉니다.
+7. 인스턴스화된 <xref:System.Windows.Forms.UserControl> 클래스의 이름을 UserContro1에서 resultControl로 바꿉니다.
 
     ```csharp
     namespace WebPerfTestResultsViewerControl
@@ -178,8 +157,6 @@ ms.locfileid: "55946950"
      나중에 *Connect.cs* 파일에 코드를 좀 더 추가할 것입니다.
 
 ## <a name="add-code-to-the-webperftestresultsvieweraddin"></a>WebPerfTestResultsViewerAddin에 코드 추가
-
-### <a name="to-add-code-to-the-visual-studio-add-in-to-extend-the-web-test-results-viewer"></a>Visual Studio 추가 기능에 코드를 추가하여 웹 테스트 결과 뷰어를 확장하려면
 
 1.  **솔루션 탐색기**에서 WebPerfTestResultsViewerAddin 프로젝트의 **참조** 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
 
@@ -276,8 +253,6 @@ ms.locfileid: "55946950"
      이제 Visual Studio 추가 기능에 대한 코드를 모두 작성했으므로 WebPerfTestResultsViewerControl 프로젝트의 resultControl에 Update 메서드를 추가해야 합니다.
 
 ## <a name="add-code-to-the-webperftestresultsviewercontrol"></a>WebPerfTestResultsViewerControl에 코드 추가
-
-### <a name="to-add-code-to-the-user-control"></a>사용자 정의 컨트롤에 코드를 추가하려면
 
 1.  **솔루션 탐색기**에서 WebPerfTestResultsViewerControl 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 

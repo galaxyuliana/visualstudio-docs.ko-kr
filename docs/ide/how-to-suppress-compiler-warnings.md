@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b228bbacb69449803847847932163a05f3cf5310
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 2d3f207190fed7c01dd851d809e12e6032549ff3
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323976"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323466"
 ---
 # <a name="how-to-suppress-compiler-warnings"></a>방법: 컴파일러 경고 표시 안 함
 
@@ -63,7 +63,7 @@ ms.locfileid: "57323976"
 
 1. 메뉴 모음에서 **프로젝트** > **프로젝트 언로드**를 선택합니다.
 
-1. **솔루션 탐색기**에서 프로젝트의 오른쪽 클릭 메뉴 또는 바로 가기 메뉴를 열고 **편집 <ProjectName>.vbproj**를 선택합니다.
+1. **솔루션 탐색기**에서 프로젝트의 오른쪽 클릭 메뉴 또는 바로 가기 메뉴를 열고 **편집 \< ProjectName>.vbproj**를 선택합니다.
 
     XML 프로젝트 파일이 코드 편집기에서 열립니다.
 

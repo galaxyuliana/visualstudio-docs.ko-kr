@@ -2,7 +2,7 @@
 title: Visual Studio 업데이트
 titleSuffix: ''
 description: 가장 최신 릴리스로 Visual Studio를 업데이트하는 방법을 단계별로 알아봅니다.
-ms.date: 03/09/2019
+ms.date: 03/21/2019
 ms.custom: seodec18
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -15,12 +15,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e58927f434b5ad5b8d8fe34c29d034cfc4dd57dc
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 945250660e80353ea536986e5149f8814d1fe563
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983977"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323596"
 ---
 # <a name="update-visual-studio-to-the-most-recent-release"></a>Visual Studio를 최신 릴리스 버전으로 업데이트
 
@@ -172,9 +172,9 @@ Visual Studio는 Visual Studio 자체나 구성 요소에 사용 가능한 업�
 > [!NOTE]
 > 이 토픽은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [Mac용 Visual Studio 업데이트](/visualstudio/mac/update)를 참조하세요.
 
-## <a name="update-visual-studio-2019"></a>Visual Studio 2019 업데이트
+Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nbsp;RC를 업데이트하는 방법은 다음과 같습니다.
 
-Visual Studio 설치 관리자를 사용하여 Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nbsp;RC를 업데이트하는 방법은 다음과 같습니다.
+## <a name="use-the-visual-studio-installer"></a>Visual Studio 설치 관리자 사용
 
 1. 설치 관리자를 엽니다.
 
@@ -188,13 +188,37 @@ Visual Studio 설치 관리자를 사용하여 Visual&nbsp;Studio&nbsp;2019&nbsp
 
      ![업데이트하려는 Visual Studio 2019 버전 선택](media/vs2019-update-visual-studio-community-rc.png "업데이트하려는 Visual Studio 2019 버전 선택")
 
-1. **업데이트** 단추를 선택하여 업데이트를 설치합니다.
+1. **업데이트**를 선택하여 업데이트를 설치합니다.
 
     ![업데이트를 설치하려면 [업데이트] 단추 선택](media/vs2019-choose-update-visual-studio-community-rc.png "업데이트를 설치하려면 [업데이트] 단추 선택")
 
-1. 업데이트를 완료되면 **시작**을 선택하여 Visual Studio를 시작합니다.
+1. 업데이트가 완료되면 **시작**을 선택하여 Visual Studio를 시작합니다.
 
     ![Visual Studio를 시작하려면 [시작] 단추 선택](media/vs2019-choose-launch-visual-studio-community-rc.png "Visual Studio를 시작하려면 [시작] 단추 선택")
+
+## <a name="use-the-ide"></a>IDE 사용
+
+1. Visual Studio를 엽니다. 
+ 
+    ![Visual Studio 2019 RC 열기](media/vs2019-visual-studio-rc.png "Windows에서 Visual Studio 2019 열기")
+
+1. **시작**에서 IDE를 여는 옵션을 선택합니다.
+
+    ![Visual Studio 설치 관리자 열기](media/vs2019-choose-option-from-get-started.png "Visual Studio 설치 관리자 열기")
+
+    Visual Studio가 열립니다. IDE에 **Visual Studio 2019 업데이트** 메시지가 표시됩니다.
+
+    ![IDE의 'Visual Studio 2019 업데이트' 메시지](media/vs2019-update-visual-studio-ide-message.png "IDE의 'Visual Studio 2019 업데이트' 메시지")
+ 
+1. **Visual Studio 2019 업데이트** 메시지에서 **세부 정보 보기**를 선택합니다.
+
+   ![Visual Studio 2019 IDE 업데이트 메시지에서 세부 정보 보기 단추 선택](media/vs2019-update-visual-studio-ide-view-details.png "Visual Studio 2019 업데이트 메시지에서 세부 정보 보기 단추 선택")
+
+1. **업데이트 다운로드 및 설치 준비** 대화 상자에서 **업데이트**를 선택합니다.
+
+     !['업데이트 다운로드 및 설치 준비' 대화 상자에서 [업데이트] 단추 선택](media/vs2019-update-visual-studio-community-rc-from-ide.png "'업데이트 다운로드 및 설치 준비' 대화 상자에서 [업데이트] 단추 선택")
+
+   Visual Studio가 닫힌 다음, 다시 열립니다.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

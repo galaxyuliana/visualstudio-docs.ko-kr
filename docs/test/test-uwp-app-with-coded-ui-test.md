@@ -10,12 +10,12 @@ dev_langs:
 - VB
 ms.workload:
 - uwp
-ms.openlocfilehash: 1b07aa8559f331dd9416448f4a6b55aa8bdddb49
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 11fc95978690e98d496f539d4e98acf58104be3b
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942260"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416125"
 ---
 # <a name="create-a-coded-ui-test-to-test-a-uwp-app"></a>UWP 앱을 테스트하기 위한 코딩된 UI 테스트 만들기
 
@@ -29,7 +29,11 @@ ms.locfileid: "55942260"
 
 1. Visual Studio에서 Visual C# 또는 Visual Basic을 위한 **비어 있는 앱(유니버설 Windows)** 템플릿을 사용하여 새 프로젝트를 만듭니다.
 
-     ![비어 있는 앱 유니버설 Windows 템플릿](../test/media/blank-uwp-app-template.png)
+   ::: moniker range="vs-2017"
+
+   ![비어 있는 앱 유니버설 Windows 템플릿](../test/media/blank-uwp-app-template.png)
+
+   ::: moniker-end
 
 1. **새 유니버설 Windows 플랫폼 프로젝트** 대화 상자에서 **확인**을 선택하여 기본 플랫폼 버전을 승인합니다.
 
@@ -61,16 +65,20 @@ ms.locfileid: "55942260"
 
 1. 솔루션에 테스트 프로젝트를 추가하려면 **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
-1. **새 프로젝트** 대화 상자에서 **코딩된 UI 테스트 프로젝트(유니버설 Windows)** 템플릿을 선택합니다. **Windows 유니버설** 범주의 **Visual C#** 또는 **Visual Basic** 아래에서 템플릿을 찾을 수 있습니다.
+1. **코딩된 UI 테스트 프로젝트(유니버설 Windows)** 템플릿을 검색하여 선택합니다.
 
-     ![새로운 코딩된 UI 테스트 프로젝트](../test/media/coded-ui-test-project-uwp-template.png)
+   ::: moniker range="vs-2017"
+
+   ![새로운 코딩된 UI 테스트 프로젝트](../test/media/coded-ui-test-project-uwp-template.png)
+
+   ::: moniker-end
 
    > [!NOTE]
    > **코딩된 UI 테스트 프로젝트(유니버설 Windows)** 템플릿이 표시되지 않으면 [코딩된 UI 테스트 구성 요소를 설치](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component)해야 합니다.
 
 1. **코딩된 UI 테스트에 대한 코드 생성** 대화 상자에서 **수동으로 테스트 편집**을 선택합니다.
 
-     ![코딩된 UI 테스트에 대한 코드 생성 대화 상자](../test/media/manually-edit-the-test.png)
+   ![코딩된 UI 테스트에 대한 코드 생성 대화 상자](../test/media/manually-edit-the-test.png)
 
 1. UWP 앱이 아직 실행되고 있지 않다면 **Ctrl**+**F5**를 눌러 앱을 시작합니다.
 

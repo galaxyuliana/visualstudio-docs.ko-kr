@@ -10,16 +10,16 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 9e6488d21538d49a6bb33648725fb164cdd8acaf
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 56660aaa920fc5813f73bfcc9c191ee0baafb113
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55929949"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58354926"
 ---
 # <a name="quickstart-create-a-python-project-from-existing-code"></a>빠른 시작: 기존 코드에서 Python 프로젝트를 만들기
 
-[Visual Studio 2017에 Python 지원을 설치](installing-python-support-in-visual-studio.md)하면 Visual Studio 프로젝트에 기존 Python 코드를 쉽게 가져올 수 있습니다.
+[Visual Studio에 Python 지원을 설치](installing-python-support-in-visual-studio.md)하면 Visual Studio 프로젝트에 기존 Python 코드를 쉽게 가져올 수 있습니다.
 
 > [!Important]
 > 여기에 설명된 프로세스는 원래 원본 파일을 이동하거나 복사하지 않습니다. 복사본으로 작업하려면 먼저 폴더를 복제합니다.

@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 20df5476a2ca6cf8fb0ffbf22e8106e51d17128d
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: d4fbe922512194c6dd87ffc72e27cfcf9c7631f0
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58070310"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355752"
 ---
 # <a name="publish-a-nodejs-application-to-azure-linux-app-service"></a>Azure에 Node.js 애플리케이션 게시(Linux App Service)
 
@@ -59,15 +59,13 @@ Linux App Service는 Linux Docker 컨테이너를 배포하여 Node.js 애플리
 
 1. Visual Studio를 엽니다.
 
-1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다.
-
 1. 새 TypeScript Express 앱을 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    **새 프로젝트 만들기** 대화 상자에서 검색 상자에 **javascript**를 입력하여 결과를 필터링하고 **기본 Azure Node.js Express 4 애플리케이션**, **다음**을 차례로 선택합니다. 그런 다음, **만들기**를 선택합니다.
+    **Ctrl + Q**를 입력하여 검색 상자를 열고 **Node.js**를 입력한 다음, **새 기본 Azure Node.js Express 4 애플리케이션 만들기**(TypeScript)를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    **새 프로젝트** 대화 상자의 왼쪽 창에서 **JavaScript**를 확장한 후 **Node.js**를 선택합니다. 가운데 창에서 **기본 Azure Node.js Express 4 애플리케이션**을 선택한 후 **확인**을 선택합니다.
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **TypeScript**를 확장한 다음, **Node.js**를 선택합니다. 가운데 창에서 **기본 Azure Node.js Express 4 애플리케이션**을 선택한 후 **확인**을 선택합니다.
 
     ![새로운 TypeScript Express 앱 만들기](../javascript/media/azure-ts-express-app.png)
     ::: moniker-end

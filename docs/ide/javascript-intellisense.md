@@ -25,12 +25,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6cb8540fd53a66d67907de47f6332a05c6240f09
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 6ee40d877af75469dcc1abc176d67f43c8bdcfb3
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57868900"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324398"
 ---
 # <a name="javascript-intellisense"></a>JavaScript IntelliSense
 
@@ -53,6 +53,7 @@ TypeScript는 여러 소스를 사용하여 이 정보를 구성합니다.
 - [형식 정의의 자동 획득](#Auto)
 
 <a name="TypeInference"></a>
+
 ### <a name="intellisense-based-on-type-inference"></a>형식 유추 기반 IntelliSense
 
 JavaScript에서는 일반적으로 명시적 형식 정보를 사용할 수 없습니다. 다행히도 주변 코드 컨텍스트가 있는 경우 일반적으로 형식을 쉽게 알아낼 수 있습니다.
@@ -90,6 +91,7 @@ exports.Foo = Foo;
 ```
 
 <a name="JsDoc"></a>
+
 ### <a name="intellisense-based-on-jsdoc"></a>JSDoc 기반 IntelliSense
 
 형식 유추에서 원하는 형식 정보(또는 지원 문서 정보)가 제공되지 않으면 JSDoc 주석을 통해 명시적으로 형식 정보를 제공할 수 있습니다.  예를 들어 부분적으로 선언된 개체에 특정 형식을 제공하려면 다음과 같이 `@type` 태그를 사용할 수 있습니다.
@@ -123,7 +125,7 @@ JavaScript 및 TypeScript는 이제 같은 언어 서비스에 기반을 두므�
 
 다음 내용은 `JsDoc` 태그를 사용하는 같은 프로젝트에서 인터페이스를 통해 이 형식 정보를 JavaScript 파일에 제공하는 TypeScript 정의 파일의 간단한 예제입니다.
 
-<img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png" height="400" width="640" alt="TypeScript definition file" />
+![TypeScript 정의 파일](https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png)
 
 <a name="Auto"></a>
 ### <a name="automatic-acquisition-of-type-definitions"></a>형식 정의의 자동 획득

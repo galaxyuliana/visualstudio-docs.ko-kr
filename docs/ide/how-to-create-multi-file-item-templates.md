@@ -9,12 +9,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1871b7270c462ea599450e48f0a86a4887ebc5ac
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 745f371fa0461c2dc0dcedac0e06d160bbf7e209
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970519"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416346"
 ---
 # <a name="how-to-create-multi-file-item-templates"></a>방법: 다중 파일 항목 템플릿 만들기
 
@@ -28,11 +28,11 @@ ms.locfileid: "55970519"
 
 다중 파일 항목 템플릿에는 항목을 만들 때 올바른 파일 확장명을 사용하도록 매개 변수가 필요합니다. **템플릿 내보내기 마법사**를 사용하여 다중 파일 항목 템플릿을 만드는 경우 이러한 매개 변수가 자동으로 생성되므로 더 이상 편집할 필요가 없습니다.
 
-## <a name="to-create-a-multi-file-item-template-by-using-the-export-template-wizard"></a>템플릿 내보내기 마법사를 사용하여 다중 파일 항목 템플릿을 만들려면
+## <a name="use-the-export-template-wizard"></a>템플릿 내보내기 마법사 사용
 
 단일 파일 항목 템플릿과 동일한 방식으로 다중 파일 항목 템플릿을 만들 수 있습니다. [방법: 항목 템플릿 만들기](../ide/how-to-create-item-templates.md)를 참조하세요. 마법사의 **내보낼 항목 선택** 페이지에서 종속 파일(예: Windows Forms 양식 파일)을 가진 파일을 선택합니다. 마법사에서 디자이너 및 리소스 파일과 같은 종속 파일을 템플릿에 자동으로 포함합니다.
 
-## <a name="to-manually-create-a-multi-file-item-template"></a>다중 파일 항목 템플릿을 수동으로 만들려면
+## <a name="manually-create-a-multi-file-item-template"></a>수동으로 다중 파일 항목 템플릿 만들기
 
 1. 단일 파일 항목 템플릿을 수동으로 만들 때처럼 항목 템플릿을 만들되, 다중 파일 항목을 구성 하는 각 파일을 포함합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "55970519"
 
    **새 항목 추가** 대화 상자에 다중 파일 항목 템플릿이 나타납니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 예제에서는 Windows Forms 템플릿을 보여 줍니다. 이 템플릿을 기반으로 항목이 생성되면 생성된 3개 파일의 이름은 **새 항목 추가** 대화 상자에 입력된 이름과 일치합니다.
 

@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fa0b5a95a4191a977144808bfb8888e282f7fce9
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 84874328c2f7a20a79370ff210eb51d966ec4648
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223275"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355204"
 ---
 # <a name="application-page-project-designer-visual-basic"></a>Application Page, Project Designer (Visual Basic)
 
@@ -59,7 +59,7 @@ ms.locfileid: "57223275"
 
 애플리케이션의 대상 .NET Framework 버전을 지정합니다. 이 옵션은 컴퓨터에 설치된 .NET Framework 버전에 따라 다른 값을 가질 수 있습니다.
 
-기본값은 **새 프로젝트** 대화 상자에서 지정한 대상 프레임워크와 일치합니다.
+기본값은 프로젝트를 만들 때 지정한 대상 프레임워크와 일치합니다.
 
 > [!NOTE]
 > 대화 상자를 처음 열면 [필수 조건 대화 상자](../../ide/reference/prerequisites-dialog-box.md)에 나열된 필수 조건 패키지가 자동으로 설정됩니다. 이후에 프로젝트의 대상 프레임워크를 변경하는 경우 새 대상 프레임워크에 맞도록 필수 조건을 수동으로 지정해야 합니다.

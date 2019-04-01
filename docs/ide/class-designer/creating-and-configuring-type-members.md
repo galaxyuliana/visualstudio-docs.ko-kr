@@ -29,12 +29,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 97a7886ba57c9e4076121ec8071e52f29af784f5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 962b3ef149730772c01c8cfe3a3bf026d59fd3b0
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55956859"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324242"
 ---
 # <a name="create-and-configure-type-members-in-class-designer"></a>클래스 디자이너에서 형식 멤버 만들기 및 구성
 
@@ -205,7 +205,7 @@ ms.locfileid: "55956859"
 
 - **\<매개 변수 추가>**
 
-     멤버의 마지막 매개 변수 행에는 **이름** 셀에 **<add parameter>** 라는 텍스트가 나타납니다. 이 셀을 클릭하여 새 매개 변수를 만들 수 있습니다. 자세한 내용은 [메서드에 매개 변수를 추가하려면](creating-and-configuring-type-members.md#add-parameters-to-methods)을 참조하세요.
+     멤버의 마지막 매개 변수 행에는 **이름** 셀의 **<매개 변수 추가\>** 라는 텍스트가 포함되어 있습니다. 이 셀을 클릭하여 새 매개 변수를 만들 수 있습니다. 자세한 내용은 [메서드에 매개 변수를 추가하려면](creating-and-configuring-type-members.md#add-parameters-to-methods)을 참조하세요.
 
 **속성** 창에는 **클래스 세부 정보** 창에 표시된 것과 동일한 매개 변수 속성이 표시됩니다. **이름**, **형식**, **한정자**, **요약** 및 **선택적 기본값** 속성. 특정 위치에서 속성을 변경하면 해당 속성의 값이 전역으로 업데이트되어 다른 위치에 있는 해당 값에도 반영됩니다.
 

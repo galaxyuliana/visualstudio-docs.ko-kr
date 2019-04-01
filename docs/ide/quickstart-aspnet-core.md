@@ -1,8 +1,10 @@
 ---
 title: C#에서 ASP.NET Core 웹앱 만들기
 description: C# 및 ASP.NET Core를 사용하여 단계별로 Visual Studio에서 간단한 Hello World 웹앱을 만드는 방법을 알아봅니다.
-ms.date: 02/01/2019
 ms.custom: mvc,seodec18
+ms.date: 03/23/2019
+ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: quickstart
 author: TerryGLee
 ms.author: tglee
@@ -12,12 +14,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 60f7c7bd7d0a3073f75d4ece7012601ded8eb059
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 247906426dcf57463a36ea85ce781b39aae2ffba
+ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957779"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58475853"
 ---
 # <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-app"></a>빠른 시작: Visual Studio를 사용하여 첫 번째 ASP.NET Core 웹앱 만들기
 
@@ -27,7 +29,17 @@ ms.locfileid: "55957779"
 
 ### <a name="install-visual-studio"></a>Visual Studio 설치
 
+::: moniker range="vs-2017"
+
 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker-end
 
 ### <a name="choose-your-theme-optional"></a>테마 선택(선택 사항)
 
@@ -37,9 +49,11 @@ ms.locfileid: "55957779"
 
 시작하려면 ASP.NET Core 웹 애플리케이션 프로젝트를 만듭니다. 또한 프로젝트 형식에는 어떤 것을 추가하기도 전에 웹앱을 만들 수 있는 모든 템플릿 파일이 함께 제공됩니다!
 
+::: moniker range="vs-2017"
+
 1. Visual Studio 2017을 엽니다.
 
-1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다.
+1. 상단 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
 1. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C#** 을 확장하고 **.NET Core**를 선택합니다. 가운데 창에서 **ASP.NET Core 웹 애플리케이션**을 선택합니다. <br/><br/>그런 다음, 파일 이름을 `HelloWorld`로 지정하고 **확인**을 선택합니다.
 
@@ -61,9 +75,46 @@ ms.locfileid: "55957779"
    ![새 ASP.NET Core 웹 애플리케이션 대화 상자](../ide/media/aspnet-core-2dot1.png)
 
    > [!NOTE]
-   > **ASP.NET Core 2.1** 이상을 볼 수 없는 경우 Visual Studio의 최신 릴리스를 실행하고 있는지 확인합니다. 설치를 업데이트하는 방법에 대한 자세한 내용은 [Visual Studio 2017을 최신 릴리스로 업데이트](../install/update-visual-studio.md) 페이지를 참조하세요.
+   > **ASP.NET Core 2.1** 이상을 볼 수 없는 경우 Visual Studio의 최신 릴리스를 실행하고 있는지 확인합니다. 설치를 업데이트하는 방법에 대한 자세한 내용은 [Visual Studio를 최신 릴리스로 업데이트](../install/update-visual-studio.md) 페이지를 참조하세요.
 
 곧 Visual Studio에서 프로젝트 파일이 열립니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+   !['새 프로젝트 만들기' 창 보기](../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. **새 프로젝트 만들기** 창에서 검색 상자에 *ASP.NET*을 입력합니다. 그런 다음, 언어 목록에서 **C#** 을 선택한 다음, 플랫폼 목록에서 **Windows**를 선택합니다. 
+
+   언어 및 플랫폼 필터를 적용한 후 **ASP.NET Core 웹 애플리케이션** 템플릿을 선택한 후, **다음**을 선택합니다.
+
+   ![ASP.NET Core 웹 애플리케이션에 대한 C# 템플릿을 선택합니다.](../get-started/csharp/media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+
+   > [!NOTE]
+   > **ASP.NET Core 웹 애플리케이션** 템플릿이 표시되지 않으면 **새 프로젝트를 만들기** 창에서 설치할 수 있습니다. **원하는 항목을 찾을 수 없나요?** 메시지에서 **추가 도구 및 기능 설치** 링크를 선택합니다.
+   >
+   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > 그런 다음, Visual Studio 설치 관리자에서 **ASP.NET 및 웹 개발** 워크로드를 선택합니다.
+   >
+   > ![Visual Studio 설치 관리자의 ASP.NET Core 웹 애플리케이션 워크로드](../get-started/media/aspnet-core-web-dev-workload.png)
+   >
+   > 그런 다음, Visual Studio 설치 관리자에서 **수정** 단추를 선택합니다. 작업 내용을 저장하라는 메시지가 나타날 수 있습니다. 그럴 경우 그렇게 하세요. 다음으로, **계속**을 선택하여 워크로드를 설치합니다. 그런 다음, 이 "[프로젝트 만들기](#create-a-project)" 프로시저의 2단계로 돌아갑니다.
+
+1. **새 프로젝트 구성** 창에서 **프로젝트 이름** 상자에 *HelloWorld*를 입력합니다. 그런 다음, **만들기**를 선택합니다.
+
+   !['새 프로젝트 구성' 창에서 프로젝트의 이름을 'HelloWorld'로 지정합니다.](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
+
+1. **새 ASP.NET Core 웹 애플리케이션 만들기** 창의 위쪽 드롭다운 메뉴에 **ASP.NET Core 2.1** 이상이 표시되는지 확인합니다. 그런 다음, 예제 Razor Pages가 포함된 **웹 애플리케이션**을 선택합니다. 다음으로, **만들기**를 선택합니다.
+
+   !['새 ASP.NET Core 웹 애플리케이션 만들기' 창](../get-started/csharp/media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+
+   Visual Studio에서 새 프로젝트를 엽니다.
+
+::: moniker-end
 
 ## <a name="create-and-run-the-app"></a>앱 만들기 및 실행
 

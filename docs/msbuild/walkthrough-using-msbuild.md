@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ac73f7c7915c3142cd496ebf8a76bb22995028b4
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: c0abf64442c6a31758f3a3c24c4268b6aee5720a
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54947064"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324924"
 ---
 # <a name="walkthrough-use-msbuild"></a>연습: MSBuild 사용
 MSBuild는 Microsoft 및 Visual Studio용 빌드 플랫폼입니다. 이 연습에서는 MSBuild의 구성 요소를 소개하고 MSBuild 프로젝트를 작성, 조작 및 디버깅하는 방법을 보여 줍니다. 학습 내용은 다음과 같습니다.
@@ -125,7 +125,7 @@ MSBuild는 빌드의 대상을 추적하며 각 대상이 여러 번 빌드되�
 
    (Windows 10) 작업 표시줄의 검색 상자에 `dev` 또는 `developer command prompt`와 같은 도구 이름을 입력합니다. 그러면 검색 패턴과 일치하는 설치된 앱의 목록이 표시됩니다.
 
-   수동으로 찾아야 하는 경우 파일은 *<visualstudio installation folder>\<version>\Common7\Tools* 폴더의 *LaunchDevCmd.bat*입니다.
+   수동으로 찾아야 하는 경우 파일은 *<visualstudio 설치 폴더\>\<version>\Common7\Tools* 폴더의 *LaunchDevCmd.bat*입니다.
 
 2. 명령 창에서 프로젝트 파일을 포함하는 폴더(이 연습의 경우 *D:\BuildApp\BuildApp*)로 이동합니다.
 
@@ -161,7 +161,7 @@ MSBuild는 빌드의 대상을 추적하며 각 대상이 여러 번 빌드되�
 </PropertyGroup>
 ```
 
- 모든 속성은 PropertyGroup 요소의 자식 요소입니다. 속성의 이름은 자식 요소의 이름이며 속성값은 자식 요소의 텍스트 요소입니다. 예를 들어 개체에 적용된
+ 모든 속성은 PropertyGroup 요소의 자식 요소입니다. 속성의 이름은 자식 요소의 이름이며 속성값은 자식 요소의 텍스트 요소입니다. 예를 들면 다음과 같습니다.
 
 ```xml
 <TargetFrameworkVersion>v15.0</TargetFrameworkVersion>
@@ -216,7 +216,7 @@ $(PropertyName)
 >  이 두 줄이 표시되지 않는 경우에는 코드 편집기에서 프로젝트 파일을 저장하지 않은 것일 수 있습니다. 파일을 저장하고 다시 시도합니다.
 
 ### <a name="conditional-properties"></a>조건부 속성
- Configuration 등의 대다수 속성은 조건부로 정의됩니다. 즉, 속성 요소에 Condition 특성이 나타납니다. 조건부 속성은 조건이 "true"로 확인되는 경우에만 정의되거나 다시 정의됩니다. 정의되지 않은 속성에는 기본값(빈 문자열)이 제공됩니다. 예를 들어 개체에 적용된
+ Configuration 등의 대다수 속성은 조건부로 정의됩니다. 즉, 속성 요소에 Condition 특성이 나타납니다. 조건부 속성은 조건이 "true"로 확인되는 경우에만 정의되거나 다시 정의됩니다. 정의되지 않은 속성에는 기본값(빈 문자열)이 제공됩니다. 예를 들면 다음과 같습니다.
 
 ```xml
 <Configuration   Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -283,7 +283,7 @@ MSBuild는 Configuration 속성을 생성하고 "Release" 값을 지정합니다
 ## <a name="build-items"></a>항목 빌드
  항목은 빌드 시스템에 대한 입력으로 사용되는 정보 부분(일반적으로는 파일 이름)입니다. 예를 들어 소스 파일을 나타내는 항목 컬렉션을 Compile이라는 작업으로 전달하여 해당 항목을 어셈블리로 컴파일할 수 있습니다.
 
- 모든 항목은 ItemGroup 요소의 자식 요소입니다. 항목 이름은 자식 요소의 이름이고 항목 값은 자식 요소의 Include 특성 값입니다. 이름이 같은 항목의 값은 해당 이름의 항목 종류로 수집됩니다.  예를 들어 개체에 적용된
+ 모든 항목은 ItemGroup 요소의 자식 요소입니다. 항목 이름은 자식 요소의 이름이고 항목 값은 자식 요소의 Include 특성 값입니다. 이름이 같은 항목의 값은 해당 이름의 항목 종류로 수집됩니다.  예를 들면 다음과 같습니다.
 
 ```xml
 <ItemGroup>
@@ -378,7 +378,7 @@ MSBuild는 Configuration 속성을 생성하고 "Release" 값을 지정합니다
     ```
 
 ### <a name="include-exclude-and-wildcards"></a>포함, 제외 및 와일드카드
- Include 특성에서 와일드카드 "*", "\*\*" 및 "?"를 사용하여 항목 종류에 항목을 추가할 수 있습니다. 예를 들어 개체에 적용된
+ Include 특성에서 와일드카드 "*", "\*\*" 및 "?"를 사용하여 항목 종류에 항목을 추가할 수 있습니다. 예를 들면 다음과 같습니다.
 
 ```xml
 <Photos Include="images\*.jpeg" />
@@ -392,7 +392,7 @@ MSBuild는 Configuration 속성을 생성하고 "Release" 값을 지정합니다
 
  위의 코드는 *images* 폴더 및 모든 하위 폴더에 있는 파일 확장명이 *.jpeg*인 모든 파일을 Photos 항목 종류에 추가합니다. 추가 예제는 [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)을 참조하세요.
 
- 선언하는 항목은 항목 종류에 추가됩니다. 예를 들어 개체에 적용된
+ 선언하는 항목은 항목 종류에 추가됩니다. 예를 들면 다음과 같습니다.
 
 ```xml
 <Photos Include="images\*.jpeg" />
@@ -405,7 +405,7 @@ MSBuild는 Configuration 속성을 생성하고 "Release" 값을 지정합니다
 <Photos Include="images\*.jpeg;images\*.gif" />
 ```
 
- Exclude 특성을 사용하면 항목 종류에서 특정 항목을 제외할 수 있습니다. 예를 들어 개체에 적용된
+ Exclude 특성을 사용하면 항목 종류에서 특정 항목을 제외할 수 있습니다. 예를 들면 다음과 같습니다.
 
 ```xml
 <Compile Include="*.cs" Exclude="*Designer*">
@@ -413,7 +413,7 @@ MSBuild는 Configuration 속성을 생성하고 "Release" 값을 지정합니다
 
  위의 코드는 이름에 *Designer*라는 문자열이 포함된 파일을 제외하고 파일 확장명이 *.cs*인 모든 파일을 Compile 항목 종류에 추가합니다. 추가 예제는 [방법: 빌드에서 파일 제외](../msbuild/how-to-exclude-files-from-the-build.md)를 참조하세요.
 
-Exclude 특성은 Include 특성과 Exclude 특성을 모두 포함하는 항목 요소에서 Include 특성에 의해 추가된 항목에만 영향을 줍니다. 예를 들어 개체에 적용된
+Exclude 특성은 Include 특성과 Exclude 특성을 모두 포함하는 항목 요소에서 Include 특성에 의해 추가된 항목에만 영향을 줍니다. 예를 들면 다음과 같습니다.
 
 ```xml
 <Compile Include="*.cs" />

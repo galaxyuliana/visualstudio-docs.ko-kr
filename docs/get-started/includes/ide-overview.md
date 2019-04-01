@@ -6,12 +6,12 @@ ms.author: gewarren
 author: gewarren
 manager: jillfra
 ms.topic: include
-ms.openlocfilehash: c411df964d0f0ffb6a96484f6ad4d245d561410c
-ms.sourcegitcommit: 4ffb7be5384ad566ce46538032bf8561754c61a4
+ms.openlocfilehash: 63e39c3879d51a34bc61f703eaae1e75dc2fd742
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "58070336"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58342716"
 ---
 Visual Studio *통합 개발 환경*은 코드를 편집, 디버그 및 빌드한 다음, 앱을 게시하는 데 사용할 수 있는 창의적인 실행 패드입니다. IDE(통합 개발 환경)는 소프트웨어 개발의 다양한 측면에서 사용할 수 있는 다양한 기능을 갖춘 프로그램입니다. Visual Studio는 대부분의 IDE가 제공하는 표준 편집기 및 디버거로서 뿐만 아니라, 컴파일러와 코드 완성 도구, 그래픽 디자이너를 비롯해 소프트웨어 개발 프로세스를 쉽게 만들어 주는 많은 기능을 포함하고 있습니다.
 
@@ -236,7 +236,7 @@ Visual Studio를 처음 열면 필요에 따라 Microsoft 계정이나 회사 �
 
 1. **새 프로젝트 만들기**를 선택합니다.
 
-   ![Visual Studio 시작 창 새 프로젝트 만들기](../media/vs-2019/start-window-create-new-project.png)
+   ![Visual Studio 시작 창에서 새 프로젝트 만들기](../media/vs-2019/start-window-create-new-project.png)
 
    **새 프로젝트 만들기** 창이 열리고 여러 프로젝트 *템플릿*이 표시됩니다. 템플릿에는 지정된 프로젝트 형식에 필요한 기본 파일과 설정이 포함되어 있습니다.
 

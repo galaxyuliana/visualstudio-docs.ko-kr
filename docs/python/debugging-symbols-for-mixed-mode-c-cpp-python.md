@@ -9,18 +9,18 @@ manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 66320e95664b86e56fc3c328c36360e4df4352b9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 472cd590627a84ea0a11b9de8b533bba3a88a253
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869365"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355437"
 ---
 # <a name="install-debugging-symbols-for-python-interpreters"></a>Python 인터프리터에 대한 디버깅 기호 설치
 
 완전한 디버깅 환경을 제공하기 위해, Visual Studio의 [혼합 모드 Python 디버거](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)는 수많은 내부 데이터 구조를 구문 분석하는 데 사용되는 Python 인터프리터의 디버그 기호가 필요합니다. 예를 들어 *python27.dll*의 경우 해당 기호 파일은 *python27.pdb*이고, *python36.dll*의 경우 기호 파일은 *python36.pdb*입니다. 인터프리터의 각 버전은 다양한 모듈에 대한 기호 파일도 제공합니다.
 
-Visual Studio 2017에서 Python 3 및 Anaconda 3 인터프리터는 자동으로 각 기호를 설치하고 Visual Studio는 자동으로 해당 기호를 찾습니다. Visual Studio 2015 이전 버전의 경우 또는 다른 인터프리터를 사용하는 경우 별도로 기호를 다운로드한 다음, **디버깅** > **기호** 탭의 **도구** > **옵션** 대화 상자를 통해 Visual Studio가 해당 기호를 가리키도록 해야 합니다. 이러한 단계는 다음 섹션에 자세히 설명되어 있습니다.
+Visual Studio 2017 이상에서 Python 3 및 Anaconda 3 인터프리터는 자동으로 각 기호를 설치하고 Visual Studio는 자동으로 해당 기호를 찾습니다. Visual Studio 2015 이전 버전의 경우 또는 다른 인터프리터를 사용하는 경우 별도로 기호를 다운로드한 다음, **디버깅** > **기호** 탭의 **도구** > **옵션** 대화 상자를 통해 Visual Studio가 해당 기호를 가리키도록 해야 합니다. 이러한 단계는 다음 섹션에 자세히 설명되어 있습니다.
 
 Visual Studio는 기호가 필요한 경우(일반적으로 혼합 모드 디버깅 세션을 시작하는 경우) 메시지를 표시할 수 있습니다. 이 경우 다음과 같은 두 가지 선택 사항이 포함된 대화 상자를 표시합니다.
 

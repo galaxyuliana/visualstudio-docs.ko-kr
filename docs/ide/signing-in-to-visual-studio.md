@@ -10,12 +10,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 008d0d8d464f3f1a24d15f1cb6f299edb30776fd
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: c7568f27d9be2ff38c2d5c87cf8a950e06846db5
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56840833"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325109"
 ---
 # <a name="sign-in-to-visual-studio"></a>Visual Studio에 로그인
 
@@ -44,7 +44,7 @@ IDE에 로그인하여 개인 설정 계정을 설정하면 Visual Studio의 개
 
 ## <a name="how-to-sign-in-to-visual-studio"></a>Visual Studio에 로그인하는 방법
 
-Visual Studio를 처음 시작할 때 로그인할지 묻는 메시지가 나타나고 기본적인 등록 정보를 제공합니다. 자신을 가장 잘 나타내는 Microsoft 계정이나 회사 또는 학교 계정을 선택해야 합니다. 이러한 계정이 없으면 무료로 Microsoft 계정을 만들 수 있습니다. [Microsoft 계정을 등록하려면 어떻게 하나요?](http://windows.microsoft.com/windows-live/sign-up-create-account-how)를 참조하세요.
+Visual Studio를 처음 열 때 로그인하고 기본적인 등록 정보를 입력하라는 메시지가 나타납니다. 자신을 가장 잘 나타내는 Microsoft 계정이나 회사 또는 학교 계정을 선택해야 합니다. 이러한 계정이 없으면 무료로 Microsoft 계정을 만들 수 있습니다. [Microsoft 계정을 등록하려면 어떻게 하나요?](http://windows.microsoft.com/windows-live/sign-up-create-account-how)를 참조하세요.
 
 그런 다음 Visual Studio에서 사용할 UI 설정과 색 테마를 선택합니다. Visual Studio가 이러한 설정을 기억하고 로그인한 모든 Visual Studio 환경에서 이 설정을 동기화합니다. 동기화된 설정 목록은 [동기화된 설정](../ide/synchronized-settings-in-visual-studio.md)을 참조하세요. 나중에 Visual Studio에서 **도구** > **옵션** 메뉴를 열어 설정을 변경할 수 있습니다.
 

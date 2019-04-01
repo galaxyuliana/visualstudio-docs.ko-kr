@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c910ab867be379264464650cef6bec00fc9d82f9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 371cdc85648b8b058267540b305162adf371c4f6
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55933394"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355330"
 ---
 # <a name="work-with-multiple-user-accounts"></a>Work with multiple user accounts
 
@@ -55,7 +55,7 @@ Microsoft 계정 또는 조직 계정으로 Visual Studio에 로그인합니다.
 
 AAD(Azure Active Directory)는 ASP.NET MVC 웹앱에서의 최종 사용자 Single Sign-In 또는 웹 API 서비스에서의 AD 인증을 지원합니다. 도메인 인증은 개별 사용자 계정 인증과 다릅니다. Active Directory 도메인에 액세스할 수 있는 사용자는 기존 AAD 계정을 사용하여 웹 애플리케이션에 연결할 수 있습니다. Office 365 앱은 도메인 인증도 사용할 수 있습니다.
 
-이 작업의 실행 과정을 보려면 웹 애플리케이션을 만듭니다(**파일** > **새 프로젝트** > **C#** > **클라우드** > **ASP.NET 웹 애플리케이션**). **새 ASP.NET 프로젝트** 대화 상자에서 **인증 변경**을 선택합니다. 인증 마법사가 나타나고 애플리케이션에서 사용할 인증 종류를 선택할 수 있습니다.
+이 작업을 보려면 새 **ASP.NET 웹 애플리케이션** 프로젝트를 만듭니다. **새 ASP.NET 프로젝트** 대화 상자에서 **인증 변경**을 선택합니다. 인증 마법사가 나타나고 애플리케이션에서 사용할 인증 종류를 선택할 수 있습니다.
 
 ![ASP.NET에 대한 인증 대화 상자 변경](../ide/media/vs2015_change_authentication.png)
 

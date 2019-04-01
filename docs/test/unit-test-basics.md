@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bc001765beb01c7767ec9143cecf8462793dcaa8
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: 080674094ede1a1d0f38327fc47e238d5f958362
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796831"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416372"
 ---
 # <a name="unit-test-basics"></a>단위 테스트 기본 사항
 
@@ -38,7 +38,7 @@ ms.locfileid: "56796831"
 
 ## <a name="the-mybank-solution-example"></a>MyBank 솔루션 예제
 
-이 항목에서는 `MyBank` 라는 가상의 애플리케이션 개발이 예제로 사용됩니다. 이 항목의 설명을 이해하는 데에는 실제 코드가 필요하지 않습니다. 테스트 메서드는 C#으로 작성되었으며, 관리 코드에 대한 Microsoft 유닛 테스트 프레임워크를 사용하여 표시됩니다. 그러나 개념은 다른 언어와 프레임워크로 쉽게 전송됩니다.
+이 문서에서는 `MyBank`라는 가상의 애플리케이션 개발이 예제로 사용됩니다. 이 항목의 설명을 이해하는 데에는 실제 코드가 필요하지 않습니다. 테스트 메서드는 C#으로 작성되었으며, 관리 코드에 대한 Microsoft 유닛 테스트 프레임워크를 사용하여 표시됩니다. 그러나 개념은 다른 언어와 프레임워크로 쉽게 전송됩니다.
 
 ![MyBank 솔루션](../test/media/ute_mybanksolution.png)
 
@@ -102,14 +102,26 @@ public void Withdraw(double amount)
 
 **솔루션에 단위 테스트 프로젝트를 추가하려면**
 
-1. **파일** 메뉴에서 **새로 만들기**를 선택한 다음, **프로젝트**를 선택합니다(키보드 **Ctrl**+**Shift**+**N**).
+1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새로 만들기** **프로젝트**를 차례로 선택합니다.
 
-2. **새 프로젝트** 대화 상자에서 **설치됨** 노드를 확장하고 테스트 프로젝트에 사용하려는 언어를 선택한 다음, **테스트**를 선택합니다.
+::: moniker range="vs-2017"
+
+2. **새 프로젝트** 대화 상자에서 **설치됨** 노드를 확장하고 테스트 프로젝트에 사용하려는 언어를 선택한 후 **테스트**를 선택합니다.
 
 3. Microsoft 단위 테스트 프레임워크 중 하나를 사용하려면 프로젝트 템플릿 목록에서 **단위 테스트 프로젝트** 를 선택합니다. 그렇지 않으면 사용하려는 단위 테스트 프레임워크의 프로젝트 템플릿을 선택합니다. 예제에 사용된 `Accounts` 프로젝트를 테스트하려면 프로젝트 이름을 `AccountsTests`로 지정해야 합니다.
 
-   > [!WARNING]
+   > [!NOTE]
    > 모든 타사 및 오픈 소스 단위 테스트 프레임워크에서 Visual Studio 프로젝트 템플릿이 제공되지는 않습니다. 프로젝트 만들기에 대한 정보는 해당 프레임워크 설명서를 참조하세요.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. 프로젝트 템플릿 검색 상자를 통해 사용할 테스트 프레임워크에 대한 단위 테스트 프로젝트 템플릿을 찾습니다.
+
+3. 다음 페이지에서 프로젝트의 이름을 지정합니다. 예제에 사용된 `Accounts` 프로젝트를 테스트하기 위해 프로젝트 이름을 `AccountsTests`로 지정할 수 있습니다.
+
+::: moniker-end
 
 4. 단위 테스트 프로젝트에서 이 예제에서 테스트하려는 코드 프로젝트에 대한 참조를 Accounts 프로젝트에 추가합니다.
 

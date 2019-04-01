@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: a48fe46b8f46c9ea3f6c14ebe44315eafa1c56d6
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 154ae0a55b3d85136209131e644cda9f696ef59a
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58070323"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355567"
 ---
 # <a name="tutorial-create-a-nodejs-and-express-app-in-visual-studio"></a>자습서: Visual Studio에서 Node.js 및 Express 앱 만들기
 
@@ -75,15 +75,13 @@ Visual Studio는 *프로젝트*에서 단일 애플리케이션에 대한 파일
 
 1. Visual Studio를 엽니다.
 
-1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다.
-
 1. 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    **새 프로젝트 만들기** 대화 상자에서 검색 상자에 **javascript**를 입력하여 결과를 필터링하고 **기본 Azure Node.js Express 4 애플리케이션**, **다음**을 차례로 선택합니다. 그런 다음, **만들기**를 선택합니다.
+    **Ctrl + Q**를 입력하여 검색 상자를 열고 **Node.js**를 입력한 다음, **새 기본 Azure Node.js Express 4 애플리케이션 만들기**(JavaScript)를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    **새 프로젝트** 대화 상자의 왼쪽 창에서 **JavaScript**를 확장한 후 **Node.js**를 선택합니다. 가운데 창에서 **기본 Azure Node.js Express 4 애플리케이션**을 선택한 후 **확인**을 선택합니다.
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **JavaScript**를 확장한 다음, **Node.js**를 선택합니다. 가운데 창에서 **기본 Azure Node.js Express 4 애플리케이션**을 선택한 후 **확인**을 선택합니다.
     ::: moniker-end
     **기본 Azure Node.js Express 4 애플리케이션** 프로젝트 템플릿이 표시되지 않으면 **Node.js 개발** 워크로드를 추가해야 합니다. 자세한 지침은 [필수 조건](#prerequisites)을 참조하세요.
 

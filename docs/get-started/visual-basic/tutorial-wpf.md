@@ -13,12 +13,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: ecfb6f144b632f2c332d73e90a8deca08e8c03c6
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: c80c5ec1af0129486c465075209cfb39dbe2476a
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155539"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324255"
 ---
 # <a name="tutorial-create-a-simple-application-with-visual-basic"></a>자습서: Visual Basic으로 간단한 애플리케이션 만들기
 
@@ -35,7 +35,7 @@ ms.locfileid: "58155539"
 
 ::: moniker range="vs-2017"
 
-처음으로 Visual Studio를 시작하는 경우 로그인하라는 메시지가 표시됩니다. 이 단계는 이 자습서에 대한 옵션입니다. 다음으로 개발 설정과 색 테마를 선택하라는 대화 상자가 표시될 수 있습니다. 기본값을 유지하고 **Visual Studio 시작**을 선택합니다.
+Visual Studio를 처음 열면 로그인하라는 메시지가 표시됩니다. 이 단계는 이 자습서에 대한 옵션입니다. 다음으로 개발 설정과 색 테마를 선택하라는 대화 상자가 표시될 수 있습니다. 기본값을 유지하고 **Visual Studio 시작**을 선택합니다.
 
 ![설정 선택 대화 상자](../media/exploreide-settings.png)
 
@@ -47,7 +47,7 @@ Visual Studio를 시작하면 도구 창, 메뉴 및 도구 모음, 주 창 공�
 
 ::: moniker range=">=vs-2019"
 
-Visual Studio를 시작하면 **시작** 창이 먼저 열립니다. **코드를 사용하지 않고 계속**을 선택하여 개발 환경을 엽니다. 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 애플리케이션 창의 중앙 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
+Visual Studio를 시작하면 시작 창이 먼저 열립니다. **코드를 사용하지 않고 계속**을 선택하여 개발 환경을 엽니다. 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 애플리케이션 창의 중앙 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
 
 ::: moniker-end
 

@@ -10,16 +10,16 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 14482019ceb3e7d717592923b4e6b59eacc0eba2
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a5b090c1e833a791593e5332b632d64b832b5cb1
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957980"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58354768"
 ---
 # <a name="use-the-cookiecutter-extension"></a>Cookiecutter 확장 사용
 
-[Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)는 템플릿을 검색하고, 템플릿 옵션을 입력하며, 프로젝트와 파일을 만들 수 있는 그래픽 사용자 인터페이스를 제공합니다. Visual Studio 2017에 포함되어 있으며, 이전 버전의 Visual Studio에서는 개별적으로 설치할 수 있습니다.
+[Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)는 템플릿을 검색하고, 템플릿 옵션을 입력하며, 프로젝트와 파일을 만들 수 있는 그래픽 사용자 인터페이스를 제공합니다. Visual Studio 2017 이상에 포함되어 있으며, 이전 버전의 Visual Studio에서는 개별적으로 설치할 수 있습니다.
 
 Cookiecutter에는 Python 3.3 이상(32비트 또는 64비트) 또는 Anaconda 3 4.2 이상(32비트 또는 64비트)이 필요합니다. 적합한 Python 인터프리터를 사용할 수 없는 경우 Visual Studio에서 경고가 표시됩니다. Visual Studio를 실행하는 중에 Python 인터프리터를 설치하는 경우 Cookiecutter 도구 모음에서 **홈** 단추를 클릭하여 새로 설치된 인터프리터를 검색합니다. (일반적으로 환경에 대한 자세한 내용은 [Python 환경](managing-python-environments-in-visual-studio.md)을 참조하세요.)
 

@@ -1,6 +1,6 @@
 ---
 title: .NET Framework 버전 대상
-ms.date: 02/06/2018
+ms.date: 03/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
@@ -10,41 +10,49 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: bc8a808ba3a5da46b4dbe3be3aa00921ea869cb6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ba8bdcade321c3660e89ab6b7cf6e0b79471b393
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954090"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355398"
 ---
 # <a name="how-to-target-a-version-of-the-net-framework"></a>방법: 한 버전의 .NET Framework를 대상으로 지정
 
-이 문서에서는 프로젝트를 만들 때 특정 버전의 .NET Framework를 대상으로 지정하는 방법 및 기존 Visual Basic, C# 또는 Visual F# 프로젝트에서 대상 버전을 변경하는 방법에 대해 설명합니다.
+이 문서에서는 프로젝트를 만들 때 .NET Framework 버전을 대상으로 하는 방법을 설명합니다. 기존 Visual Basic, C# 또는 F# 프로젝트에서 대상 버전을 변경하는 방법도 설명합니다.
 
 > [!IMPORTANT]
 > C++ 프로젝트용 대상 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)을 참조하세요.
 
-## <a name="to-target-a-version-when-you-create-a-project"></a>프로젝트를 만들 때 버전을 대상으로 지정하려면
+## <a name="target-a-version-when-you-create-a-project"></a>프로젝트를 만들 때 버전 대상 지정
 
-프로젝트를 만들 때 사용 가능한 .NET Framework 버전은 설치된 버전과 **새 프로젝트** 대화 상자에서 선택한 템플릿에 따라 달라집니다.
+프로젝트를 만들 때 사용 가능한 .NET Framework 버전은 설치된 버전과 선택한 프로젝트 템플릿에 따라 달라집니다.
 
 1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
-1. 설치된 템플릿 목록에서 만들려는 프로젝트 형식을 선택하고 프로젝트 이름을 입력합니다.
+1. 만들려는 프로젝트의 형식에 대한 템플릿을 선택합니다. 프로젝트의 이름을 입력합니다.
 
-1. **새 프로젝트** 대화 상자의 맨 아래에 있는 **Framework** 드롭다운 목록에서 프로젝트의 대상으로 지정할 .NET Framework 버전을 선택합니다.
+1. 대화 상자의 맨 아래에 있는 **Framework** 드롭다운 목록에서 프로젝트를 대상으로 지정할 .NET Framework 버전을 선택합니다.
 
-    프레임워크 목록에는 사용자가 선택한 템플릿에 적용 가능한 버전만 표시됩니다. .NET Core와 같은 일부 프로젝트 형식에는 .NET Framework가 필요하지 않습니다. 이러한 경우 **Framework** 드롭다운 목록이 숨겨집니다.
+   프레임워크 목록에는 사용자가 선택한 템플릿에 적용 가능한 버전만 표시됩니다. .NET Core와 같은 일부 프로젝트 형식에는 .NET Framework가 필요하지 않습니다. 이러한 경우 **Framework** 드롭다운 목록이 숨겨집니다.
 
-    ![새 프로젝트 대화 상자의 Framework 드롭다운](media/vside-newproject-framework.png)
+   ::: moniker range="vs-2017"
 
-1. **확인** 단추를 선택합니다.
+   ![새 프로젝트 대화 상자의 Framework 드롭다운](media/vside-newproject-framework.png)
 
-## <a name="to-change-the-targeted-version"></a>대상 버전을 변경하려면
+   ::: moniker-end
 
-이 절차를 수행하여 Visual Basic, C# 또는 Visual F# 프로젝트에서 .NET Framework의 대상 버전을 변경할 수 있습니다.
+   ::: moniker range=">=vs-2019"
 
-C++ 프로젝트용 대상 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)을 참조하세요.
+   ![VS 2019의 Framework 선택기](media/vs-2019/configure-new-project-framework.png)
+
+   ::: moniker-end
+
+1. [프로젝트 만들기](create-new-project.md)를 계속 진행합니다.
+
+## <a name="change-the-targeted-version"></a>대상 버전 변경
+
+이 절차를 수행하여 Visual Basic, C# 또는 F# 프로젝트에서 .NET Framework의 대상 버전을 변경할 수 있습니다.
 
 1. **솔루션 탐색기**에서 변경하려는 프로젝트의 바로 가기 메뉴를 연 후 **속성**을 선택합니다.
 

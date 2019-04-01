@@ -16,12 +16,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8472394c06d3388b480abdaf262610811a7a72f4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+ms.openlocfilehash: 47793cff733d84634c79355fb7639dbdad1cd82f
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970259"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58414864"
 ---
 # <a name="disable-or-move-the-package-cache"></a>패키지 캐시를 사용하지 않도록 설정 또는 이동
 
@@ -48,7 +50,7 @@ Visual Studio를 설치, 수정 또는 복구하기 전에 캐시가 사용되�
 
 ## <a name="move-the-package-cache"></a>패키지 캐시 이동
 
-일반적인 시스템 구성은 소스 코드, 프로그램 이진 파일 등의 개발 요구 사항에 맞게 더 큰 하드 디스크가 포함된 SSD에 Windows를 설치하는 것입니다. 오프라인에서 작업하려는 경우 패키지 캐시를 이동할 수 있습니다.
+일반적인 시스템 구성은 소스 코드, 프로그램 이진 파일 등의 개발 요구 사항에 맞게 더 큰 하드 디스크가 포함된 SSD에 Windows를 설치하는 것입니다. 오프라인에서 작업하려는 경우 패키지 캐시를 대신 이동할 수 있습니다.
 
 현재는 Visual Studio를 설치, 수정 또는 복구하기 전에 `CachePath` [레지스트리 정책](set-defaults-for-enterprise-deployments.md)을 설정하는 경우에만 이 작업을 할 수 있습니다.
 

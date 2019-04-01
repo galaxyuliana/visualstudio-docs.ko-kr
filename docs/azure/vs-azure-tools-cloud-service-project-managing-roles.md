@@ -9,12 +9,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
 ms.author: ghogen
-ms.openlocfilehash: 2ddc50ba84a4fbe66cbcbaaff2e2eb847a8a8ced
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: c982d999f3fa974db6ea409ee85e3bb7bbc57414
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953248"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323765"
 ---
 # <a name="managing-roles-in-azure-cloud-services-with-visual-studio"></a>Visual Studio에서 Azure Cloud Services의 역할 관리
 Azure 클라우드 서비스를 만든 후 새 역할을 추가하거나 기존 역할에서 제거할 수 있습니다. 또한 기존 프로젝트를 가져오고 역할로 변환할 수 있습니다. 예를 들어, ASP.NET 웹 애플리케이션을 가져오고 웹 역할로 지정할 수 있습니다.
@@ -46,7 +46,7 @@ Azure 클라우드 서비스를 만든 후 새 역할을 추가하거나 기존 
 ## <a name="readding-a-role-to-an-azure-cloud-service-project"></a>Azure 클라우드 서비스 프로젝트에 역할 다시 추가
 클라우드 서비스 프로젝트에서 역할을 제거하지만 나중에 프로젝트에 역할을 추가하려면 기본 엔드포인트 및 진단 정보 등의 역할 선언과 기본 특성이 추가됩니다. `ServiceDefinition.csdef` 파일 또는 `ServiceConfiguration.cscfg` 파일에 추가되는 리소스 또는 참조는 없습니다. 이 정보를 추가하려면 이러한 파일에 수동으로 다시 추가해야 합니다.
 
-예를 들어, 웹 서비스 역할을 제거하고 이 솔루션에 다시 이 역할을 추가하도록 나중에 결정할 수 있습니다. 이 작업을 수행하는 경우 오류가 발생합니다. 이 오류를 방지하려면 다음 XML에 표시된 `<LocalResources>` 요소를 `ServiceDefinition.csdef` 파일에 다시 추가해야 합니다. 프로젝트에 다시 추가한 웹 서비스 역할의 이름을 **<LocalStorage>** 요소에 대한 이름 특성의 일부로 사용합니다. 이 예제에서 웹 서비스 역할의 이름은 **WCFServiceWebRole1**입니다.
+예를 들어, 웹 서비스 역할을 제거하고 이 솔루션에 다시 이 역할을 추가하도록 나중에 결정할 수 있습니다. 이 작업을 수행하는 경우 오류가 발생합니다. 이 오류를 방지하려면 다음 XML에 표시된 `<LocalResources>` 요소를 `ServiceDefinition.csdef` 파일에 다시 추가해야 합니다. **\<LocalStorage>** 요소에 대한 이름 특성의 일부로 프로젝트에 다시 추가한 웹 서비스 역할의 이름을 사용합니다. 이 예제에서 웹 서비스 역할의 이름은 **WCFServiceWebRole1**입니다.
 
     <WebRole name="WCFServiceWebRole1">
         <Sites>

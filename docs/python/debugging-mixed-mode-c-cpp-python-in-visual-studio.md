@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: b8bba4541f27a64f553c985f50dbe535b82440cf
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: fc7148e9ba2ad9882f42d3c2acdb067329ec4ee5
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55916832"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355236"
 ---
 # <a name="debug-python-and-c-together"></a>Python과 C++ 함께 디버그
 
@@ -57,13 +57,13 @@ Visual Studio에서는 Python 및 네이티브 C/C++에 대한 통합된 동시 
 
     **네이티브**에 추가하거나 대신하여 다른 코드 형식을 선택할 수 있습니다. 예를 들어 관리되는 애플리케이션에서 CPython을 호스트하고, 그 결과로 네이티브 확장 모듈을 사용하며, 이 세 가지를 모두 디버그하려는 경우 결합된 호출 스택 및 세 가지 모두의 런타임 간 단계별 실행을 포함한 통합된 디버깅 환경을 위해 **Python**, **네이티브** 및 **관리되는 애플리케이션**을 모두 검사할 수 있습니다.
 
-1. 처음으로 혼합 모드에서 디버깅을 시작하면 **Python 기호 필요** 대화 상자가 표시될 수 있습니다([혼합 모드 디버깅 기호](debugging-symbols-for-mixed-mode-c-cpp-python.md) 참조). 기호는 지정된 Python 환경에 한 번만 설치해야 합니다. Visual Studio 2017 설치 관리자를 통해 Python 지원을 설치하면 기호가 자동으로 포함됩니다.
+1. 처음으로 혼합 모드에서 디버깅을 시작하면 **Python 기호 필요** 대화 상자가 표시될 수 있습니다([혼합 모드 디버깅 기호](debugging-symbols-for-mixed-mode-c-cpp-python.md) 참조). 기호는 지정된 Python 환경에 한 번만 설치해야 합니다. Visual Studio 설치 관리자(Visual Studio 2017 이상)를 통해 Python 지원을 설치하면 기호가 자동으로 포함됩니다.
 
 1. 디버깅할 때 사용 가능한 표준 Python 자체의 소스 코드를 만들려면 [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/)를 방문하여 버전에 적합한 보관 파일을 다운로드하여 폴더로 추출합니다. 그런 다음 메시지가 표시되는 시점과 관계없이 Visual Studio가 해당 폴더에 있는 특정 파일을 가리키도록 합니다.
 
 ## <a name="enable-mixed-mode-debugging-in-a-cc-project"></a>C/C++ 프로젝트에서 혼합 모드 디버깅 사용
 
-Visual Studio 2017(15.5 이상 버전)은 C/C++ 프로젝트에서 혼합 모드 디버깅을 지원합니다(예: [python.org에 설명된 대로 다른 애플리케이션에 Python이 포함](https://docs.python.org/3/extending/embedding.html)되는 경우). 혼합 모드 디버깅을 사용하려면 **Python/네이티브 디버깅**을 실행하도록 C/C++ 프로젝트를 구성합니다.
+Visual Studio(2017 15.5 이상 버전)는 C/C++ 프로젝트에서 혼합 모드 디버깅을 지원합니다(예: [python.org에 설명된 대로 다른 애플리케이션에 Python이 포함](https://docs.python.org/3/extending/embedding.html)되는 경우). 혼합 모드 디버깅을 사용하려면 **Python/네이티브 디버깅**을 실행하도록 C/C++ 프로젝트를 구성합니다.
 
 1. **솔루션 탐색기**에서 C/C++ 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 1. **디버깅** 탭을 선택하고, **실행할 디버거**에서 **Python/네이티브 디버깅**을 선택하고, **확인**을 선택합니다.

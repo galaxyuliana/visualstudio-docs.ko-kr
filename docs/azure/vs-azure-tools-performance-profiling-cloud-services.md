@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo
-ms.openlocfilehash: 12fcc2813b36968270e0eeba968a5572f904fc1f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: fd436a6b7e38c8f76de5d113c326e194e4011155
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946947"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323203"
 ---
 # <a name="testing-the-performance-of-a-cloud-service"></a>클라우드 서비스의 성능 테스트
 ## <a name="overview"></a>개요
@@ -101,7 +101,7 @@ Visual Studio에서 성능을 프로파일링하는 방법을 알아보려면 [�
 2. Azure Compute 노드를 선택한 다음 Visual Studio에서 게시할 때 프로파일링 하도록 선택한 클라우드 서비스에 대한 Azure 배포 노드를 선택합니다.
 3. 인스턴스에 대한 프로파일링 보고서를 보려면 서비스에서 역할을 선택하고 특정 인스턴스에 대한 바로 가기 메뉴를 연 다음 **프로파일링 보고서 보기**를 선택합니다.
 
-    .vsp 파일인 보고서가 이제 Azure에서 다운로드되며 Azure 활동 로그에 다운로드 상태가 표시됩니다. 다운로드가 완료되면 프로파일링 보고서가 <Role name>*<Instance Number>*<identifier>.vsp라는 Visual Studio에 대한 편집기의 탭에 나타납니다. 보고서에 대한 요약 데이터가 표시됩니다.
+    .vsp 파일인 보고서가 이제 Azure에서 다운로드되며 Azure 활동 로그에 다운로드 상태가 표시됩니다. 다운로드가 완료되면 프로파일링 보고서가 <Role name\>*<Instance Number\>*<identifier\>.vsp라는 Visual Studio에 대한 편집기의 탭에 나타납니다. 보고서에 대한 요약 데이터가 표시됩니다.
 4. 현재 보기 목록에서 보고서의 다른 보기를 표시하려면 원하는 보기의 유형을 선택합니다. 자세한 내용은 [프로파일링 도구 보고서 보기](https://msdn.microsoft.com/library/azure/bb385755.aspx)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계

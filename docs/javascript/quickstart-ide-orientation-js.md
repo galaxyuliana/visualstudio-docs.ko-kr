@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3db5b22e2248c7ae79ec5300823f6ee7d4f415c7
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
+ms.openlocfilehash: c6d67dd56ad26d3dff3912ae5bdca979c2eaf9d9
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428663"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325294"
 ---
 # <a name="first-look-at-the-visual-studio-ide"></a>먼저 Visual Studio IDE 살펴보기
 
@@ -57,13 +57,13 @@ Visual Studio의 기능을 계속 탐색하기 위해 새 프로젝트를 만들
 
 ::: moniker range=">=vs-2019"
 
-1. **시작 창**에서 **새 프로젝트 만들기**를 선택한 다음, 검색에 **javascript**를 입력하여 해당 이름 또는 언어 형식에 "javascript"가 포함된 프로젝트 형식 목록을 필터링합니다.
+1. 시작 창에서 **새 프로젝트 만들기**를 선택한 다음, 검색에 **javascript**를 입력하여 해당 이름 또는 언어 형식에 "javascript"가 포함된 프로젝트 형식 목록을 필터링합니다.
 
    Visual Studio에서는 신속하게 코딩을 시작하는 데 도움이 되는 다양한 종류의 프로젝트 템플릿을 제공합니다. (또는 TypeScript 개발자인 경우 해당 언어로 프로젝트를 자유롭게 만듭니다. 표시되는 UI는 모든 프로그래밍 언어에서 비슷합니다.)
 
    ![Visual Studio 시작 창에서 프로젝트 템플릿 검색](media/vs-2019/create-new-project.png)
 
-1. **빈 Node.js 웹 애플리케이션** 프로젝트 템플릿을 선택하고 **다음**을 클릭합니다. 
+1. **빈 Node.js 웹 애플리케이션** 프로젝트 템플릿을 선택하고 **다음**을 클릭합니다.
 
 1. 표시되는 **새 프로젝트 구성** 대화 상자에서 기본 프로젝트 이름을 그대로 사용하고 **만들기**를 선택합니다.
 

@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: fb9682f46913aec0bfd7d91d5cd8d535410470bb
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 61d37adfdc74a5b2a9c22ba9f3e5a92622cbbab6
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194343"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355528"
 ---
 # <a name="python-projects-in-visual-studio"></a>Visual Studio의 Python 프로젝트
 
@@ -75,7 +75,7 @@ Visual Studio는 처음부터 작성하거나 기존 코드에서 작성하는 �
 
 ![Python 템플릿이 있는 새 프로젝트 대화 상자](media/projects-new-project-dialog.png)
 
-다음 표에서는 Visual Studio 2017에서 사용 가능한 템플릿을 요약하여 보여 줍니다(일부 템플릿만 이전 모든 버전에서 사용 가능).
+다음 표에서는 Visual Studio 2017 이상에서 사용 가능한 템플릿을 요약하여 보여줍니다(일부 템플릿만 이전 모든 버전에서 사용 가능).
 
 | 템플릿 | 설명 |
 | --- | --- |
@@ -88,7 +88,7 @@ Visual Studio는 처음부터 작성하거나 기존 코드에서 작성하는 �
 | **IronPython Silverlight 웹 페이지** | Silverlight를 사용하여 브라우저에서 실행되는 IronPython 프로젝트입니다. 애플리케이션의 Python 코드는 웹 페이지에 스크립트로 포함됩니다. 상용구 스크립트 태그는 Silverlight 내부에서 실행되는 IronPython을 초기화하는 일부 JavaScript 코드를 가져오며, 여기서 Python 코드가 DOM과 상호 작용할 수 있습니다. |
 | **IronPython Windows Forms 애플리케이션** | Windows Forms에서 코드를 사용하여 만든 UI와 IronPython을 사용하는 프로젝트 구조입니다. 콘솔을 표시하지 않고 애플리케이션을 실행합니다. |
 | **백그라운드 애플리케이션(IoT)** | 디바이스에서 백그라운드 서비스로 실행되도록 Python 프로젝트 배포를 지원합니다. 자세한 내용은 [Windows IoT 개발자 센터](https://dev.windows.com/en-us/iot)를 참조하세요. |
-| **Python 확장 모듈** | 이 템플릿은 Python 워크로드와 함께 **Python 네이티브 개발 도구**를 Visual Studio 2017에 설치한 경우([설치](installing-python-support-in-visual-studio.md) 참조) Visual C++ 아래에 나타납니다. 여기서는 [Python용 C++ 확장 만들기](working-with-c-cpp-python-in-visual-studio.md)에 설명된 대로 C++ 확장 DLL의 핵심 구조를 제공합니다. |
+| **Python 확장 모듈** | 이 템플릿은 Python 워크로드와 함께 **Python 네이티브 개발 도구**를 Visual Studio 2017 이상에 설치한 경우([설치](installing-python-support-in-visual-studio.md) 참조) Visual C++ 아래에 나타납니다. 여기서는 [Python용 C++ 확장 만들기](working-with-c-cpp-python-in-visual-studio.md)에 설명된 대로 C++ 확장 DLL의 핵심 구조를 제공합니다. |
 
 > [!Note]
 > Python은 해석된 언어이므로 Visual Studio의 Python 프로젝트는 다른 컴파일된 언어 프로젝트(예: C#)와 같은 독립 실행형 실행 파일을 생성하지 않습니다. 자세한 내용은 [질문 및 답변](overview-of-python-tools-for-visual-studio.md#questions-and-answers)을 참조하세요.

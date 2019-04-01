@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 author: gewarren
-ms.openlocfilehash: b1b40fe963b6a48a6fa9848c4d9e205bae5503e9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: d951c6171abd0e8cad42554c49a40cb42542fb62
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58069660"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415540"
 ---
 # <a name="walkthrough-create-and-run-unit-tests-for-managed-code"></a>연습: 관리 코드에 대한 단위 테스트 만들기 및 실행
 
@@ -43,6 +43,15 @@ ms.locfileid: "58069660"
 
    **새 프로젝트** 대화 상자가 나타납니다.
 
+3. C# **클래스 라이브러리** 프로젝트 템플릿을 선택합니다.
+
+4. 프로젝트의 이름을 **Bank**로 지정한 다음, **확인**을 클릭합니다.
+
+   Bank 프로젝트가 만들어져 **솔루션 탐색기**에 표시되고 코드 편집기에 *Class1.cs* 파일이 열립니다.
+
+   > [!NOTE]
+   > *Class1.cs*가 코드 편집기에서 열리지 않으면 **솔루션 탐색기**에서 *Class1.cs* 파일을 두 번 클릭하여 엽니다.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -51,16 +60,16 @@ ms.locfileid: "58069660"
 
 2. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
 
-::: moniker-end
+3. C# **클래스 라이브러리** 프로젝트 템플릿을 검색하여 선택한 후, **다음**을 클릭합니다.
 
-3. C# 클래스 라이브러리 프로젝트 템플릿을 선택합니다.
-
-4. 프로젝트의 이름을 **Bank**로 지정하고 **확인** 또는 **만들기**를 클릭합니다.
+4. 프로젝트의 이름을 **Bank**로 지정한 다음, **만들기**를 클릭합니다.
 
    Bank 프로젝트가 만들어져 **솔루션 탐색기**에 표시되고 코드 편집기에 *Class1.cs* 파일이 열립니다.
 
    > [!NOTE]
    > *Class1.cs*가 코드 편집기에서 열리지 않으면 **솔루션 탐색기**에서 *Class1.cs* 파일을 두 번 클릭하여 엽니다.
+
+::: moniker-end
 
 5. [단위 테스트를 만들기 위한 샘플 프로젝트](../test/sample-project-for-creating-unit-tests.md)에서 소스 코드를 복사하고 *Class1.cs*의 원래 내용을 복사된 코드로 바꿉니다.
 
@@ -93,9 +102,9 @@ public void Debit(double amount)
 1. **파일** 메뉴에서 **추가** > **새 프로젝트**를 선택합니다.
 
    > [!TIP]
-   > 기존 솔루션에 추가 프로젝트를 추가하는 몇 가지 다른 방법이 있습니다. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택할 수 있습니다. 또는 **파일** > **새로 만들기** > **프로젝트**를 선택한 다음, **새 프로젝트** 대화 상자에서 **솔루션에 추가** 옵션을 선택할 수 있습니다.
-   >
-   > ![새 프로젝트 대화 상자의 솔루션 옵션에 추가](media/add-to-solution.png)
+   > **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택할 수도 있습니다.
+
+::: moniker range="vs-2017"
 
 2. **새 프로젝트** 대화 상자에서 **설치됨** 및 **Visual C#** 을 확장한 다음, **테스트**를 선택합니다.
 
@@ -104,6 +113,20 @@ public void Debit(double amount)
 4. **이름** 상자에 `BankTests`를 입력한 다음, **확인**을 선택합니다.
 
    **BankTests** 프로젝트가 **Bank** 솔루션에 추가됩니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. C# **Unit Test Project** 프로젝트 템플릿을 검색하여 선택한 후, **다음**을 클릭합니다.
+
+3. 프로젝트 이름을 `BankTests`로 지정합니다.
+
+4. **만들기**를 클릭합니다.
+
+   **BankTests** 프로젝트가 **Bank** 솔루션에 추가됩니다.
+
+::: moniker-end
 
 5. **BankTests** 프로젝트에서 **Bank** 프로젝트에 대한 참조를 추가합니다.
 

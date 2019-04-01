@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 79ddd62df2afd5052d3ef1ecc0753d3f8ba6cf3a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: ee14cddc6a3eb4b0348b88be1d7c2b0a48b44c01
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56708331"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355606"
 ---
 # <a name="options-page-environment-node-properties"></a>옵션 페이지, 환경 노드 속성
 
@@ -120,7 +120,7 @@ ms.locfileid: "56708331"
 |속성 항목 이름|값|설명|
 | - |-----------|-----------------|
 |OnRunOrPreview|Get/Set(문자열)|빌드된 프로젝트를 미리 보거나 실행하기 전에 IDE에서 모든 항목을 저장하는지 여부를 결정합니다.|
-|ProjectsLocation|Get/Set(문자열)|**프로젝트 추가** 대화 상자가 새 프로젝트를 저장하는 기본 디렉터리를 결정합니다.|
+|ProjectsLocation|Get/Set(문자열)|새 프로젝트가 저장되는 기본 디렉터리를 결정합니다.|
 |ShowOutputWindowBeforeBuild|Get/Set (Boolean)|빌드를 시작하면 **출력** 창이 표시되는지 여부를 결정합니다.|
 |ShowTaskListAfterBuild|Get/Set (Boolean)|빌드가 완료되면 실패한 빌드 작업이 **작업 목록**을 표시하는지 여부를 결정합니다.|
 |TrackFileSelectionInExplorer|Get/Set (Boolean)|현재 항목이 **솔루션 탐색기**에서 추적되는지 여부를 결정합니다.|

@@ -8,12 +8,12 @@ ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 3fbe819a13466c3b67f34b0de9d7e60e10aaa57b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 157617ae085a5d298b1e552d0280b98f63e1fc0b
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936189"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324788"
 ---
 # <a name="create-r-projects-in-visual-studio"></a>Visual Studio에서 R 프로젝트 만들기
 
@@ -23,9 +23,9 @@ R 프로젝트(*.rxproj* 파일)는 프로젝트와 관련된 모든 소스 및 
 
 ## <a name="creating-a-new-r-project"></a>새 R 프로젝트 만들기
 
-1. Visual Studio를 시작합니다.
-1. **파일 > 새로 만들기 > 프로젝트...** 를 선택합니다. (**Ctrl**+**Shift**+**N**)
-1. **템플릿 > R** 아래에서 “R 프로젝트”를 선택하고, 프로젝트의 이름과 위치를 입력한 후 **확인**을 선택합니다.
+1. Visual Studio를 엽니다.
+1. **파일 > 새로 만들기 > 프로젝트** 선택(**Ctrl**+**Shift**+**N**)
+1. **템플릿** > **R** 아래에서 “R 프로젝트”를 선택하고, 프로젝트의 이름과 위치를 입력한 후 **확인**을 선택합니다.
 
     ![Visual Studio의 R(VS2017의 RTVS)에 대한 새 프로젝트 대화 상자](media/getting-started-01-new-project.png)
 
@@ -37,14 +37,14 @@ R 프로젝트(*.rxproj* 파일)는 프로젝트와 관련된 모든 소스 및 
 
 *rproject.rproj* 파일에서는 Visual Studio에서 관리되지 않는 R 관련 프로젝트 설정이 유지 관리됩니다.
 
-| 속성 | 기본 | 설명 |
+| 속성 | 기본값 | 설명 |
 | --- | --- | --- |
 | 버전 | 1.0 | 프로젝트를 만드는 데 사용되는 Visual Studio용 R 도구 버전. |
-| RestoreWorkspace | 기본 | `.RData` 파일에서 이전 작업 영역 변수를 프로젝트 디렉터리에 자동으로 로드합니다. |
-| SaveWorkspace | 기본 | 프로젝트를 닫을 때 현재 작업 영역 변수를 직접 프로젝트 디렉터리의 `.RData` 파일에 저장합니다. |
-| AlwaysSaveHistory | 기본 | 프로젝트를 닫을 때 현재 대화형 창 기록을 직접 프로젝트 디렉터리의 `.RHistory` 파일에 저장합니다. |
-| EnableCodeIndexing | 적용 | 코드 검색 속도를 높이기 위해 백그라운드 인덱싱 작업을 실행할지 결정합니다. |
-| UseSpacesForTab | 적용 | 편집기에서 **Tab** 키를 누를 때 공백(Yes) 또는 Tab 문자(No)를 삽입할지 결정합니다. |
+| RestoreWorkspace | 기본값 | `.RData` 파일에서 이전 작업 영역 변수를 프로젝트 디렉터리에 자동으로 로드합니다. |
+| SaveWorkspace | 기본값 | 프로젝트를 닫을 때 현재 작업 영역 변수를 직접 프로젝트 디렉터리의 `.RData` 파일에 저장합니다. |
+| AlwaysSaveHistory | 기본값 | 프로젝트를 닫을 때 현재 대화형 창 기록을 직접 프로젝트 디렉터리의 `.RHistory` 파일에 저장합니다. |
+| EnableCodeIndexing | 예 | 코드 검색 속도를 높이기 위해 백그라운드 인덱싱 작업을 실행할지 결정합니다. |
+| UseSpacesForTab | 예 | 편집기에서 **Tab** 키를 누를 때 공백(Yes) 또는 Tab 문자(No)를 삽입할지 결정합니다. |
 | NumSpacesForTab | 2 | UseSpacesForTab이 Yes인 경우 삽입할 공백 수. |
 | 인코딩 | UTF-8 | `.R` 파일의 기본 인코딩. |
 | RnwWeave | Sweave | Rnw 파일을 평직 처리할 때 사용할 패키지. |

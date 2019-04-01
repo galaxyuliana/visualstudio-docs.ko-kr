@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 790d6d866619b19a81bd0e92ecb043385736eaac
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: e7cc22e4fbba012d0774a3a1e84adc0cf02e8dcb
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983311"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355541"
 ---
 # <a name="how-to-install-python-support-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 지원 설치 방법
 
@@ -50,14 +50,14 @@ Visual Studio용 Python 지원(Visual Studio용 Python 도구 또는 PTVS라고�
 
     ::: moniker range="vs-2017"
     선택 사항: 데이터 과학을 사용하는 경우 **데이터 과학 및 분석 애플리케이션** 워크로드도 고려합니다. 이 워크로드는 Python, R 및 F# 언어에 대한 지원을 포함합니다. 자세한 내용은 [데이터 과학 및 분석 애플리케이션 워크로드](data-science-and-analytical-applications-workload.md)를 참조하세요.
+
+    > [!Note]
+    > Python 및 데이터 과학 워크로드는 Visual Studio 2017 버전 15.2 이상에서만 사용할 수 있습니다.
     ::: moniker-end
 
     ::: moniker range=">=vs-2019"
     선택 사항: 데이터 과학을 사용하는 경우 **데이터 과학 및 분석 애플리케이션** 워크로드도 고려합니다. 이 워크로드는 Python 및 F# 언어에 대한 지원을 포함합니다. 자세한 내용은 [데이터 과학 및 분석 애플리케이션 워크로드](data-science-and-analytical-applications-workload.md)를 참조하세요.
     ::: moniker-end
-
-    > [!Note]
-    > Python 및 데이터 과학 워크로드는 Visual Studio 2017 버전 15.2 이상에서만 사용할 수 있습니다.
 
 1. 설치 관리자의 오른쪽에서 필요한 경우 추가 옵션을 선택합니다. 기본 옵션을 적용하려면 이 단계를 건너뜁니다.
 

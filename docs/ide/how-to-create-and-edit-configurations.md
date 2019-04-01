@@ -19,12 +19,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a6a54909ad928cd923d7ab0d9df4cfcfdb400029
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f8dffcc3bd007f27ba9912f909990a206ec6458a
+ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928428"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58268641"
 ---
 # <a name="how-to-create-and-edit-configurations"></a>방법: 구성 만들기 및 편집
 
@@ -46,17 +46,13 @@ ms.locfileid: "55928428"
 
  원하는 구성을 설정한 후 해당 구성에 해당하는 프로젝트 속성을 설정할 수 있습니다.
 
-### <a name="to-set-properties-based-on-configurations"></a>구성에 따라 속성을 설정하려면
+### <a name="set-properties-based-on-configurations"></a>구성에 따라 속성 설정
 
--   **솔루션 탐색기**에서 프로젝트의 바로 가기 메뉴를 열고 **속성**을 선택합니다.
+구성에 따라 속성을 설정하려면 **솔루션 탐색기**에서 프로젝트의 바로 가기 메뉴를 연 다음, **속성**을 선택합니다. 구성에 대한 속성을 설정할 수 있습니다. 예를 들어 릴리스 구성의 경우 솔루션 빌드 시 코드가 최적화되도록 지정할 수 있고, 디버그 구성의 경우 `DEBUG` 조건부 컴파일 기호가 포함되도록 지정할 수 있습니다.
 
-     **속성 페이지** 창이 열립니다.
+속성 페이지 설정에 대한 자세한 내용은 [프로젝트 및 솔루션 속성 관리](../ide/managing-project-and-solution-properties.md)를 참조하세요.
 
-     구성에 대한 속성을 설정할 수 있습니다. 예를 들어 릴리스 구성의 경우 솔루션 빌드 시 코드가 최적화되도록 지정할 수 있고, 디버그 구성의 경우 `DEBUG` 조건부 컴파일 기호가 포함되도록 지정할 수 있습니다. 속성 페이지 설정에 대한 자세한 내용은 [프로젝트 및 솔루션 속성 관리](../ide/managing-project-and-solution-properties.md)를 참조하세요.
-
-## <a name="create-and-modify-project-configurations"></a>프로젝트 구성 만들기 및 수정
-
-### <a name="to-create-a-project-configuration"></a>프로젝트 구성을 만들려면
+## <a name="create-a-project-configuration"></a>프로젝트 구성 만들기
 
 1.  **구성 관리자** 대화 상자를 엽니다.
 
@@ -72,7 +68,7 @@ ms.locfileid: "55928428"
 
 6.  동시에 솔루션 수준 구성을 만들려면 **새 솔루션 구성 만들기** 확인란을 선택합니다.
 
-### <a name="to-rename-a-project-configuration"></a>프로젝트 구성의 이름을 바꾸려면
+## <a name="rename-a-project-configuration"></a>프로젝트 구성 이름 바꾸기
 
 1.  **구성 관리자** 대화 상자를 엽니다.
 

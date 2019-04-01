@@ -11,12 +11,12 @@ ms.workload:
 - python
 - data-science
 monikerRange: '>= vs-2019'
-ms.openlocfilehash: 6cf4e15ec464b1d438245cd7bfe254d9464ad2a6
-ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
+ms.openlocfilehash: 07865a05b9aa8788b27fe1ddc067b0bb858bb9d3
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "57987151"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58354910"
 ---
 # <a name="quickstart-open-and-run-python-code-in-a-folder"></a>빠른 시작: 폴더에서 Python 코드 열기 및 실행
 
@@ -27,7 +27,7 @@ ms.locfileid: "57987151"
 
 1. 이 연습에서는 원하는 Python 코드가 있는 폴더를 사용할 수 있습니다. 여기에 나와 있는 예제를 계속 진행하려면 적합한 폴더에서 `git clone https://github.com/gregmalcolm/python_koans` 명령을 사용하여 gregmalcolm/python_koans GitHub 리포지토리를 컴퓨터에 복제하세요.
 
-1. Visual Studio 2019를 시작하고 시작 화면에서 **시작하기** 열 아래에 있는 **열기**를 선택합니다. 또는 이미 Visual Studio를 실행하고 있는 경우 **파일** > **열기** > **폴더** 명령을 선택합니다.
+1. Visual Studio 2019를 시작하고 시작 창에서 **시작** 열 아래에 있는 **열기**를 선택합니다. 또는 이미 Visual Studio를 실행하고 있는 경우 **파일** > **열기** > **폴더** 명령을 선택합니다.
 
     ![Visual Studio 시작 화면](media/quickstart-open-folder/01-open-local-folder.png)
 

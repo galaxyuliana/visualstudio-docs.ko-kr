@@ -11,25 +11,25 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 559323ff3204c70f8068eef782ab5b0d90f9ff3a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8a67b471a798a1a7aaf35b713f22d60d98f54dc5
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55920069"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355096"
 ---
 # <a name="install-python-support-in-visual-studio"></a>Visual Studio에서 Python 지원 설치
 
 > [!Note]
 > Python 지원은 현재 Windows용 Visual Studio에서만 사용할 수 있으며, [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)를 통해 Mac 및 Linux에서 사용할 수 있습니다.
 
-1. Windows용 최신 Visual Studio 2017 설치 관리자를 다운로드하고 실행합니다(Python 지원은 릴리스 15.2 이상에 있음). Visual Studio가 이미 설치되어 있는 경우 Visual Studio 설치 관리자를 실행하고 2단계로 이동합니다.
+1. Windows용 최신 Visual Studio 설치 관리자를 다운로드하고 실행합니다(Python 지원은 릴리스 15.2 이상에 있음). Visual Studio가 이미 설치되어 있는 경우 Visual Studio 설치 관리자를 실행하고 2단계로 이동합니다.
 
     > [!div class="nextstepaction"]
-    > [Visual Studio 2017 Community 설치](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
+    > [Visual Studio Community 설치](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
 
     >[!Tip]
-    > 커뮤니티 에디션은 개인 개발자, 교실 학습, 학술 연구 및 오픈 소스 개발용입니다. 다른 용도의 경우 [Visual Studio 2017 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) 또는 [Visual Studio 2017 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)를 설치합니다.
+    > 커뮤니티 에디션은 개인 개발자, 교실 학습, 학술 연구 및 오픈 소스 개발용입니다. 다른 용도의 경우 [Visual Studio Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) 또는 [Visual Studio Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)를 설치합니다.
 
 1. 설치 관리자는 특정 개발 영역에 대한 관련 옵션의 그룹인 워크로드 목록을 제공합니다. Python의 경우 **Python 개발** 워크로드를 선택하고 **설치**를 선택합니다.
 

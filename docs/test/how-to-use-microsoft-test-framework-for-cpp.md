@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: ac55d7513fd6670e30c9fa2097a5d38a96a92e26
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f5ab27f8f10cb7221ce85bd29df13e446253b8a8
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955078"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324911"
 ---
 # <a name="use-the-microsoft-unit-testing-framework-for-c-in-visual-studio"></a>Visual Studio에서 Microsoft Unit Testing Framework for C++ 사용
 
@@ -30,7 +30,7 @@ DLL에서 내보내지 않은 함수 테스트 등, 일부 경우에는 테스�
 
    1. **솔루션 탐색기**에서 테스트하는 프로그램에 대한 프로젝트 노드를 마우스 오른쪽 단추로 클릭한 다음, **속성** > **구성 속성** > **VC++ 디렉터리**를 선택합니다.
 
-   2. 다음 행에서 아래쪽 화살표를 클릭하고 **<Edit>** 를 선택합니다.
+   2. 다음 행에서 아래쪽 화살표를 클릭하고 **\<Edit>** 를 선택합니다.
 
 
       | 디렉터리 | 속성 |
