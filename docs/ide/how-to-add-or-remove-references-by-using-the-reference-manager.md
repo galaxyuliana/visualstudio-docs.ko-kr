@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8f7a4810cd6b45df7b305ebc4c086d60d500ed83
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1b26c700e90189882f850d4bda1d47fb6f54c025
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55943469"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58322326"
 ---
 # <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>방법: 참조 관리자를 사용하여 참조 추가 또는 제거
 
@@ -46,9 +46,7 @@ ms.locfileid: "55943469"
 
 - **찾아보기**에는 **최근 항목** 하위 그룹이 포함됩니다.
 
-## <a name="add-and-remove-a-reference"></a>참조 추가 및 제거
-
-### <a name="to-add-a-reference"></a>참조를 추가하려면
+## <a name="add-a-reference"></a>참조 추가
 
 1. **솔루션 탐색기**에서 **참조** 또는 **종속성** 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다. 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **추가** > **참조**를 선택합니다.
 
@@ -147,44 +145,27 @@ EnvDTE 네임스페이스(<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref
 
 [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)]을 대상으로 하는 프로젝트는 .NET Framework를 대상으로 하는 프로젝트에 프로젝트 참조를 추가할 수 없으며 그 반대의 경우도 마찬가지입니다.
 
-## <a name="windows-tab"></a>Windows 탭
+## <a name="universal-windows-tab"></a>유니버설 Windows 탭
 
-**Windows** 탭은 Windows 운영 체제를 실행하는 플랫폼에 관련된 모든 SDK를 나열합니다.
-
-다음 두 가지 방법으로 Visual Studio의 WinMD 파일을 생성할 수 있습니다.
-
-- **Windows 8.x Store 앱 관리 프로젝트**: Windows 8.x Store 앱 프로젝트는 **프로젝트 속성** > **출력 형식 = WinMD 파일**로 설정하여 WinMD 이진 파일을 출력할 수 있습니다. WinMD 파일 이름은 안에 있는 모든 네임스페이스의 상위 네임스페이스여야 합니다. 예를 들어, 프로젝트가 네임스페이스 `A.B` 및 `A.B.C`로 구성된 경우 해당 출력 WinMD의 가능한 이름은 *A.winmd* 및 *A.B.winmd*입니다. 사용자가 프로젝트의 네임스페이스 집합과 연결되지 않은 **프로젝트 속성** > **어셈블리 이름** 또는 **프로젝트 속성** > **네임스페이스** 값을 입력하거나, 프로젝트 내에 상위 네임스페이스가 없는 경우, 다음과 같은 빌드 경고가 발생합니다. "'A.winmd'은(는) 이 어셈블리에 올바른 .winmd 파일 이름이 아닙니다." Windows 메타데이터 파일 내의 모든 형식은 파일 이름의 하위 네임스페이스에 있어야 합니다. 파일 이름의 하위 네임스페이스에 없는 형식은 런타임에 찾을 수 없습니다. 이 어셈블리에서 가장 작은 공통 네임스페이스는 `CSWSClassLibrary1`입니다. Visual Basic 또는 C# 데스크톱 프로젝트는 자사 WinMD로 알려진 Windows 8 SDK를 사용하여 생성된 WinMD만 사용할 수 있으며, WinMD를 생성할 수 없습니다.
-
-- **Windows 8.x Store 앱 네이티브 프로젝트**: 네이티브 WinMD 파일은 메타데이터만으로 구성됩니다. 해당 구현은 별도 DLL 파일에 있습니다. **새 프로젝트** 대화 상자의 Windows 런타임 구성 요소 프로젝트 템플릿을 선택하거나, 빈 프로젝트에서 시작해 프로젝트 속성을 수정하여 WinMD 파일을 생성함으로써 네이티브 이진 파일을 만들 수 있습니다. 프로젝트가 연결되지 않은 네임스페이스로 구성된 경우, 빌드 오류로부터 그러한 네임스페이스를 결합하거나 MSMerge 도구를 실행하는 사용자를 확인할 수 있습니다.
-
-**Windows** 탭은 다음 두 개의 하위 그룹으로 구성됩니다.
+**유니버설 Windows** 탭은 Windows 운영 체제를 실행하는 플랫폼에 관련된 모든 SDK를 나열합니다.
+이 탭에는 두 개의 하위 그룹이 있습니다. **핵심** 및  **확장 프로그램**.
 
 ### <a name="core-subgroup"></a>핵심 하위 그룹
 
-**핵심** 하위 그룹은 대상 버전의 Windows용 SDK에 있는 WinMD(Windows 런타임 요소용)를 모두 나열합니다.
-
-Windows 8.x Store 앱 프로젝트에는 프로젝트 생성 시 기본적으로 Windows 8 SDK의 모든 WinMD에 대한 참조가 포함됩니다. 관리 프로젝트에서 **솔루션 탐색기**의 **참조** 폴더 아래에 있는 읽기 전용 노드는 전체 Windows 8 SDK에 대한 참조를 나타냅니다. 따라서 **참조 관리자**의 **핵심** 하위 그룹은 Windows 8 SDK의 어떠한 어셈블리도 열거하지 않고 대신 다음과 같은 메시지를 표시합니다. "Windows SDK가 이미 참조되었습니다. 개체 브라우저를 사용하여 Windows SDK에서 참조를 탐색하세요.”
-
-데스크톱 프로젝트에서 **핵심** 하위 그룹은 기본적으로 표시되지 않습니다. 프로젝트 노드에 대한 바로 가기 메뉴를 열고, **프로젝트 언로드**를 선택하고, 다음 코드 조각을 추가하고, 프로젝트를 다시 열어(프로젝트 노드에서 **프로젝트 다시 로드** 선택) Windows 런타임을 추가할 수 있습니다. **참조 관리자** 대화 상자를 호출하면 **핵심** 하위 그룹이 나타납니다.
-
-```xml
-<PropertyGroup>
-  <TargetPlatformVersion>8.0</TargetPlatformVersion>
-</PropertyGroup>
-```
-
-이 하위 그룹의 **Windows** 확인란이 선택되어 있는지 확인합니다. 이 경우 Windows 런타임 요소를 사용할 수 있어야 합니다. 그러나, Windows 런타임 라이브러리에서 사용되는 <xref:System.Collections.IEnumerable>과 같은 일부 표준 클래스 및 인터페이스를 Windows 런타임에서 정의하는 경우, <xref:System.Runtime>도 추가하려 할 수 있습니다. <xref:System.Runtime>을 추가하는 방법은 [관리되는 데스크톱 앱 및 Windows 런타임](/previous-versions/windows/apps/jj856306(v=win.10)#consuming-standard-windows-runtime-types)을 참조하세요.
+유니버설 Windows 앱 프로젝트에는 기본적으로 유니버설 Windows SDK에 대한 참조가 있습니다. 따라서 **참조 관리자**의 **핵심** 하위 그룹은 유니버설 Windows SDK의 어셈블리를 열거하지 않습니다.
 
 ### <a name="extensions-subgroup"></a>확장 하위 그룹
 
-**확장**은 대상 Windows 플랫폼을 확장하는 사용자 SDK를 나열합니다. 이 탭은 Windows 8.x Store 앱 프로젝트의 경우에만 나타납니다. 데스크톱 프로젝트의 경우 자사 *.winmd* 파일만 사용할 수 있으므로 이 탭이 표시되지 않습니다.
+**확장**은 대상 Windows 플랫폼을 확장하는 사용자 SDK를 나열합니다.
 
-SDK는 Visual Studio에서 단일 구성 요소로 처리하는 파일의 컬렉션입니다. **확장** 탭에서, **참조 관리자** 대화 상자가 호출된 프로젝트에 적용되는 SDK는 단일 항목으로 나열됩니다. SDK 콘텐츠는 프로젝트에 추가되면 모두 Visual Studio에서 사용되므로 IntelliSense, 도구 상자, 디자이너, 개체 브라우저, 빌드, 배포, 디버깅, 패키지의 SDK 콘텐츠를 활용하기 위해 사용자가 어떠한 추가 작업도 수행할 필요가 없습니다. **확장** 탭에서 SDK를 표시하는 방법은 [방법: 소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)를 참조하세요.
+SDK는 Visual Studio에서 단일 구성 요소로 처리하는 파일의 컬렉션입니다. **확장** 탭에서, **참조 관리자** 대화 상자가 호출된 프로젝트에 적용되는 SDK는 단일 항목으로 나열됩니다. SDK 콘텐츠는 프로젝트에 추가되면 모두 Visual Studio에서 사용되므로 IntelliSense, 도구 상자, 디자이너, 개체 브라우저, 빌드, 배포, 디버깅, 패키지의 SDK 콘텐츠를 활용하기 위해 사용자가 어떠한 추가 작업도 수행할 필요가 없습니다.
+
+**확장** 탭에서 SDK를 표시하는 방법은 [방법: 소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)를 참조하세요.
 
 > [!NOTE]
-> 프로젝트가 다른 SDK에 종속적인 SDK를 참조하는 경우, Visual Studio에서는 사용자가 수동으로 두 번째 SDK에 대한 참조를 추가하지 않는 한 두 번째 SDK가 사용되지 않습니다. 사용자가 **확장명** 탭에서 SDK를 선택하면, **참조 관리자** 대화 상자를 통해 사용자는 SDK의 이름 및 버전뿐만 아니라 세부 정보 창에서 SDK 종속성의 이름을 나열하여 SDK 종속성을 식별할 수 있습니다. 사용자가 종속성을 알리지 않고 해당 SDK를 추가하는 경우, MSBuild에서는 사용자에게 종속성을 추가하라는 메시지를 표시합니다.
+> 프로젝트가 다른 SDK에 종속된 SDK를 참조하는 경우, Visual Studio는 수동으로 두 번째 SDK에 대한 참조를 추가하지 않는 한 두 번째 SDK를 사용하지 않습니다. 사용자가 **확장** 탭에서 SDK를 선택하면, **참조 관리자** 대화 상자를 통해 세부 정보 창에 SDK 종속성을 나열하여 SDK 종속성을 식별할 수 있습니다.
 
-프로젝트 형식이 확장을 지원하지 않으면 **참조 관리자** 대화 상자에 이 탭이 나타나지 않습니다.
+프로젝트 형식이 확장을 지원하지 않으면 이 탭은 **참조 관리자** 대화 상자에 나타나지 않습니다.
 
 ## <a name="com-tab"></a>COM 탭
 
@@ -202,11 +183,11 @@ SDK는 Visual Studio에서 단일 구성 요소로 처리하는 파일의 컬렉
 
 SDK를 찾아 프로젝트에 추가할 수는 없습니다. 파일(예: 어셈블리 또는 *.winmd*)만 찾아 프로젝트에 추가할 수 있습니다.
 
-WinMD에 대한 파일 참조를 수행하는 경우, 예상되는 레이아웃은 *<FileName>.winmd*, *<FileName>.dll* 및 *<FileName>.pri* 파일이 모두 나란히 배치되는 것입니다. 다음과 같은 시나리오에서 WinMD를 참조하는 경우, 불완전한 파일 집합이 프로젝트 출력 디렉터리에 복사되고, 그에 따라 빌드 및 런타임 오류가 발생합니다.
+WinMD에 대한 파일 참조를 수행하는 경우, 예상되는 레이아웃은 *\<FileName>.winmd*, *\<FileName>.dll* 및 *\<FileName>.pri* 파일이 모두 나란히 배치되는 것입니다. 다음과 같은 시나리오에서 WinMD를 참조하는 경우, 불완전한 파일 집합이 프로젝트 출력 디렉터리에 복사되고, 그에 따라 빌드 및 런타임 오류가 발생합니다.
 
-- **기본 구성 요소**: 네이티브 프로젝트에서는 연결되지 않은 네임스페이스 집합 각각에 대한 하나의 WinMD 및 그 구현으로 구성된 하나의 DLL을 만듭니다. WinMD는 서로 다른 이름을 갖게 됩니다. 이 기본 구성 요소 파일을 참조하는 경우, MSBuild에서는 서로 다른 이름을 가진 WinMD에서 하나의 구성 요소를 만드는 것을 인식하지 못합니다. 따라서 동일한 이름의 *<FileName>.dll* 및 *<FileName>.winmd*만 복사되어 런타임 오류가 발생합니다. 이 문제를 해결하기 위해서는 확장명 SDK를 만듭니다. 자세한 내용은 [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)를 참조하세요.
+- **기본 구성 요소**: 네이티브 프로젝트에서는 연결되지 않은 네임스페이스 집합 각각에 대한 하나의 WinMD 및 그 구현으로 구성된 하나의 DLL을 만듭니다. WinMD는 서로 다른 이름을 갖게 됩니다. 이 기본 구성 요소 파일을 참조하는 경우, MSBuild에서는 서로 다른 이름을 가진 WinMD에서 하나의 구성 요소를 만드는 것을 인식하지 못합니다. 따라서 동일한 이름의 *\<FileName>.dll* 및 *\<FileName>.winmd*만 복사되어 런타임 오류가 발생합니다. 이 문제를 해결하기 위해서는 확장명 SDK를 만듭니다. 자세한 내용은 [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)를 참조하세요.
 
-- **컨트롤 사용**: XAML 컨트롤은 최소 하나씩의 *<FileName>.winmd*, *<FileName>.dll*, *<FileName>.pri*, *<XamlName>.xaml* 및 *<ImageName>.jpg*로 구성됩니다. 프로젝트를 빌드할 때 파일 참조와 연관된 리소스 파일은 프로젝트의 출력 디렉터리에 복사되지 않고 *<FileName>.winmd*, *<FileName>.dll* 및 *<FileName>.pri*만 복사됩니다. 빌드 오류가 기록되어 사용자에게 리소스 *<XamlName>.xaml* 및 *<ImageName>.jpg*가 누락되었음을 알려줍니다. 성공적으로 빌드하려면 사용자는 이러한 리소스 파일을 수동으로 빌드 및 디버깅/런타임용 프로젝트 출력 디렉터리에 복사해야 합니다. 이 문제를 해결하려면 [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)의 단계에 따라 확장명 SDK를 만들거나, 프로젝트 파일을 편집하여 다음 속성을 추가합니다.
+- **컨트롤 사용**: XAML 컨트롤은 최소한 *\<FileName>.winmd*, *\<FileName>.dll*, *\<FileName>.pri*, *\<XamlName>.xaml* 및 *\<ImageName>.jpg*로 구성됩니다. 프로젝트를 빌드할 때 파일 참조와 연관된 리소스 파일은 프로젝트의 출력 디렉터리에 복사되지 않고 *\<FileName>.winmd*, *\<FileName>.dll* 및 *\<FileName>.pri*만 복사됩니다. 빌드 오류가 기록되어 사용자에게 리소스 *\<XamlName>.xaml* 및 *\<ImageName>.jpg*가 누락되었음을 알려줍니다. 성공적으로 빌드하려면 사용자는 이러한 리소스 파일을 수동으로 빌드 및 디버깅/런타임용 프로젝트 출력 디렉터리에 복사해야 합니다. 이 문제를 해결하려면 [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)의 단계에 따라 확장명 SDK를 만들거나, 프로젝트 파일을 편집하여 다음 속성을 추가합니다.
 
     ```xml
     <PropertyGroup>

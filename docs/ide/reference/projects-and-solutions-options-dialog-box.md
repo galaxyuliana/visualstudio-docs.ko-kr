@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ad43a125074240cb6dfb3c8f2c40750b803ac322
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 21d101ff4cd8503935fceb72b5350a6ce0e1ce2e
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57867815"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355476"
 ---
 # <a name="projects-and-solutions-page-options-dialog-box"></a>프로젝트 및 솔루션 페이지, 옵션 대화 상자
 
@@ -91,11 +91,11 @@ Visual Studio에서 새 프로젝트 및 솔루션 폴더를 만드는 기본 �
 
 ### <a name="user-project-templates-location"></a>사용자 프로젝트 템플릿 위치
 
-**새 프로젝트** 대화 상자에서 **내 템플릿** 목록을 만드는 데 사용하는 기본 위치를 지정합니다. 자세한 내용은 [방법: 템플릿 찾기 및 구성](../../ide/how-to-locate-and-organize-project-and-item-templates.md)을 참조하세요.
+사용자가 만든 프로젝트 템플릿을 검색하는 데 사용되는 기본 위치를 지정합니다. 자세한 내용은 [방법: 템플릿 찾기 및 구성](../../ide/how-to-locate-and-organize-project-and-item-templates.md)을 참조하세요.
 
 ### <a name="user-item-templates-location"></a>사용자 항목 템플릿 위치
 
-**새 항목 추가** 대화 상자에서 **내 템플릿** 목록을 만드는 데 사용하는 기본 위치를 지정합니다. 자세한 내용은 [방법: 템플릿 찾기 및 구성](../../ide/how-to-locate-and-organize-project-and-item-templates.md)을 참조하세요.
+사용자가 만든 항목 템플릿을 검색하는 데 사용되는 기본 위치를 지정합니다. 자세한 내용은 [방법: 템플릿 찾기 및 구성](../../ide/how-to-locate-and-organize-project-and-item-templates.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

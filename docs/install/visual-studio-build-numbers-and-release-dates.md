@@ -1,23 +1,25 @@
 ---
 title: Visual Studio 빌드 번호 및 릴리스 날짜
 titleSuffix: ''
-description: 날짜별로 정렬된 Visual Studio 2017 이상의 릴리스 버전 및 빌드 번호 목록입니다.
+description: 날짜별로 정렬된 Visual Studio의 릴리스 버전 및 빌드 번호 목록입니다.
 keywords: ''
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 03/13/2019
+ms.date: 03/26/2019
 ms.topic: reference
 helpviewer_keywords: ''
 ms.custom: seodec18
 ms.workload:
 - multiple
-ms.openlocfilehash: d5c5a21c83329d8c528421c2336755a5d0621be9
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+ms.openlocfilehash: 3e88054d497bda068585b7bc58787ee3058bcb71
+ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194983"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58476087"
 ---
 # <a name="visual-studio-build-numbers-and-release-dates"></a>Visual Studio 빌드 번호 및 릴리스 날짜
 
@@ -29,6 +31,7 @@ ms.locfileid: "58194983"
 
 | **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.10 | Release | 2019년 3월 25일 | 15.9.28307.557 |
 | 15.9.9 | Release | 2019년 3월 12일 | 15.9.28307.518 |
 | 15.0.21 | Release | 2019년 3월 12일 | 15.0.26228.76 |
 | 15.9.8 | Release | 2019년 3월 5일 | 15.9.28307.481 |
@@ -189,6 +192,8 @@ ms.locfileid: "58194983"
 
 | **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | 릴리스 후보 3(RC.3) | 2019년 3월 19일 | 16.0.28714.193 |
+| 16.0.0 | 미리 보기 4.3 | 2019년 3월 19일 | 16.0.28714.193 |
 | 16.0.0 | 릴리스 후보 2(RC.2) | 2019년 3월 12일 | 16.0.28711.60 |
 | 16.0.0 | 미리 보기 4.2 | 2019년 3월 12일 | 16.0.28711.60 |
 | 16.0.0 | 릴리스 후보 1 Svc1(RC.1 Svc1) | 2019년 3월 6일 | 16.0.28705.295 |

@@ -14,12 +14,12 @@ ms.workload:
 - multiple
 author: kendrahavens
 manager: jillfra
-ms.openlocfilehash: a19a243d6bd54c62d680ff348be016c011653db7
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 2efecd936dea0d764058b795457e89cdc700d902
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57221894"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323570"
 ---
 # <a name="visual-studio-test-explorer-faq"></a>Visual Studio 테스트 탐색기 FAQ
 
@@ -120,7 +120,7 @@ Visual Studio 2019에서는 이전에 공개로 표시되었지만 공식적으�
 
 최근의 UWP 테스트 프로젝트는 테스트 앱을 식별하는 더 나은 성능을 제공할 수 있는 테스트 플랫폼 빌드 속성을 지정합니다. Visual Studio 버전 15.7 이전에 초기화된 UWP 테스트 프로젝트가 있는 경우 이 오류가 **출력** > **테스트**에 표시될 수 있습니다.
 
-**System.AggregateException: 하나 이상의 오류가 발생했습니다. ---> System.InvalidOperationException: Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider <GetTestContainerAsync>d__61.MoveNext()** 에서 다음 TestContainer를 찾을 수 없습니다.{}
+**System.AggregateException: 하나 이상의 오류가 발생했습니다. ---> System.InvalidOperationException: Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider \<GetTestContainerAsync>d__61.MoveNext()** 에서 다음 TestContainer를 찾을 수 없습니다.{}
 
 이 오류를 해결하려면
 

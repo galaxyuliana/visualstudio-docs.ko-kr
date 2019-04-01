@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 0c7091a55487f83c88323d68ae8075630d39d471
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: aec55c4eb6bfd5aacd8368db7d7fcfdb6574b982
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155526"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355554"
 ---
 # <a name="edit-python-code"></a>Python 코드 편집
 
@@ -31,9 +31,9 @@ Visual Studio **개체 브라우저**(**보기** > **다른 창** > **개체 브
 
 IntelliSense는 [완성](#completions), [서명 도움말](#signature-help), [요약 정보](#quick-info) 및 [코드 색 지정](#code-coloring)을 제공합니다. Visual Studio 2017 버전 15.7 이상은 [형식 힌트](#type-hints)도 지원합니다.
 
-**Visual Studio 2017 버전 15.5** 및 이전 버전의 IntelliSense는 프로젝트의 각 Python 환경에 대해 생성된 완성 데이터베이스를 통해 성능을 향상합니다. 패키지를 추가, 제거 또는 업데이트할 경우 데이터베이스를 새로 고쳐야 할 수 있습니다. 데이터베이스 상태는 **Python 환경** 창(**솔루션 탐색기**의 형제)의 **IntelliSense** 탭에 표시됩니다([환경 창 참조](python-environments-window-tab-reference.md#intellisense-tab) 확인).
+성능을 향상시키기 위해 Visual Studio 2017 버전 15.5 이하의 IntelliSense는 프로젝트의 각 Python 환경에 대해 생성된 완성 데이터베이스를 사용합니다. 패키지를 추가, 제거 또는 업데이트할 경우 데이터베이스를 새로 고쳐야 할 수 있습니다. 데이터베이스 상태는 **Python 환경** 창(**솔루션 탐색기**의 형제)의 **IntelliSense** 탭에 표시됩니다([환경 창 참조](python-environments-window-tab-reference.md#intellisense-tab) 확인).
 
-**Visual Studio 2017 버전 15.6** 이상에서는 데이터베이스에 종속되지 않는 IntelliSense 완성을 제공하는 다른 방법을 사용합니다.
+Visual Studio 2017 버전 15.6 이상에서는 데이터베이스에 종속되지 않는 IntelliSense 완성을 제공하는 다른 방법을 사용합니다.
 
 ### <a name="completions"></a>완성
 

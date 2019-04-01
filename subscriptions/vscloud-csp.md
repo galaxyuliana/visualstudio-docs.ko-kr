@@ -7,12 +7,12 @@ ms.date: 03/15/2018
 ms.topic: conceptual
 description: 고객에 대한 Visual Studio 클라우드 구독 구입 및 관리 방법에 대한 클라우드 솔루션 공급자에 대한 정보입니다.
 searchscope: VS Subscription
-ms.openlocfilehash: b17c5bb663f364cda4a9a93d63f2583e59426bac
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 59d61e687c061fffd2cc0a2b537364ca8b966271
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842639"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323583"
 ---
 # <a name="buy-and-manage-visual-studio-cloud-subscriptions-for-your-customers"></a>고객에 대한 Visual Studio 클라우드 구독 구입 및 관리
 
@@ -32,11 +32,12 @@ ms.locfileid: "56842639"
 [자세히](/azure/devops/organizations/billing/csp/set-up-csp-customer)
 
 ## <a name="who-can-buy-visual-studio-subscriptions"></a>누가 Visual Studio 구독을 구매할 수 있나요?
+
 Azure 구독에 대한 [소유자 또는 참가자 액세스 권한](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0)이 있는 누구나 Visual Studio 구독을 구매할 수 있습니다.
 
 ## <a name="how-to-buy"></a>구매 방법
 
-<iframe src="//channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-buy-Visual-Studio-Subscriptions/player" width="600" height="315" allowFullScreen="true" frameBorder="0"></iframe>
+> [!VIDEO https://channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-buy-Visual-Studio-Subscriptions/player]
 
 1. [Microsoft 파트너 센터](https://partnercenter.microsoft.com)에 로그인합니다.
 0. **고객**을 선택하고 구입할 고객을 선택합니다.
@@ -57,7 +58,7 @@ Azure 구독에 대한 [소유자 또는 참가자 액세스 권한](https://na0
 
 ## <a name="how-to-manage-visual-studio-cloud-subscriptions-for-your-customer"></a>고객에 대한 Visual Studio 클라우드 구독 관리 방법
 
-<iframe src="//channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-manage-Visual-Studio-Subscriptions/player" width="600" height="315" allowFullScreen="true" frameBorder="0"></iframe>
+> [!VIDEO https://channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-manage-Visual-Studio-Subscriptions/player]
 
 1. [Microsoft 파트너 센터](https://partnercenter.microsoft.com)에 로그인합니다.
 0. **고객** 및 고객의 이름을 선택합니다.
@@ -81,7 +82,7 @@ CSP 파트너에 대한 Visual Studio 가격 책정을 보려면 [파트너 센�
 
 | 미터 범주    |   name                 |  단위                                |           뭐냐 하면                          |
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
-| Visual Studio     | 엔터프라이즈             |  구독                         | Visual Studio Enterprise 월간 구독   |
+| Visual Studio     | Enterprise             |  구독                         | Visual Studio Enterprise 월간 구독   |
 | Visual Studio     | Professional           |  구독                         | Visual Studio Professional 월간 구독 |
 
 

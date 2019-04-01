@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 8dc08ce4ef3f4afd8cd7630848ef1ee67e1f2970
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 8762d13e1a5981f634b1b13fe08968a6b01c2b94
+ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152930"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58475970"
 ---
 # <a name="quickstart-debug-with-c-or-visual-basic-using-the-visual-studio-debugger"></a>빠른 시작: Visual Studio 디버거를 사용하여 C# 또는 Visual Basic으로 디버그
 
@@ -25,13 +25,13 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
 
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기
 
-1. Visual Studio에서 **파일 > 새로 만들기 > 프로젝트**를 선택합니다.
+1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    **새 프로젝트 만들기** 대화 상자가 열립니다. 검색 상자에 **.net**을 입력하여 결과를 필터링하고, **콘솔 앱(.NET Core)** 을 선택하고, **다음**을 클릭합니다. **MyDbgApp**과 같은 이름을 입력하고 **만들기**를 선택합니다.
+    **Ctrl + Q**를 입력하여 검색 상자를 열고 **콘솔**을 입력하고 **템플릿**을 선택한 다음, **새 콘솔 앱(.NET Core) 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    **새 프로젝트** 대화 상자가 열립니다. **Visual C#** 에서 **.NET Core**를 선택하고 가운데 창에서 **콘솔 앱(.NET Core)** 을 선택합니다. **MyDbgApp**과 같은 이름을 입력하고 **확인**을 클릭합니다.
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C#** 아래에 **.NET Core**를 선택한 다음, 가운데 창에서 **콘솔 앱(.NET Core)** 을 선택합니다. **MyDbgApp**과 같은 이름을 입력하고 **확인**을 클릭합니다.
     ::: moniker-end
 
      **콘솔 앱(.NET Core)** 프로젝트 템플릿이 표시되지 않는 경우 **도구** > **도구 및 기능 가져오기...** 로 이동하면 Visual Studio 설치 관리자가 열립니다. **.NET 데스크톱 개발** 및 **.NET Core** 워크로드를 선택한 다음, **수정**을 선택합니다.

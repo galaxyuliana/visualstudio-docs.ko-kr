@@ -7,12 +7,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2b3a94ab9a44776b0c6716b99f594ec0fd840938
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 70782646a52a5bca5741a864eee1f965941bb34b
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55943417"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415566"
 ---
 # <a name="how-to-troubleshoot-templates"></a>방법: 템플릿 문제 해결
 
@@ -20,7 +20,17 @@ ms.locfileid: "55943417"
 
 ## <a name="validate-the-vstemplate-file"></a>vstemplate 파일의 유효성 검사
 
+::: moniker range="vs-2017"
+
 템플릿에서 *vstemplate* 파일이 Visual Studio 템플릿 스키마를 따르지 않으면 해당 템플릿은 **새 프로젝트** 대화 상자에 표시되지 않을 수 있습니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+템플릿의 *vstemplate* 파일이 Visual Studio 템플릿 스키마를 따르지 않으면 새 프로젝트를 만드는 대화 상자에 템플릿이 표시되지 않을 수 있습니다.
+
+::: moniker-end
 
 ### <a name="to-validate-the-vstemplate-file"></a>vstemplate 파일의 유효성을 검사하려면
 

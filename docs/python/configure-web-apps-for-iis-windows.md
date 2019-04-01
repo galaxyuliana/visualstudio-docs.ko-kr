@@ -11,12 +11,12 @@ ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: 88717998e22ffad028ce3fd7e0a2304de3e779d6
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 547c92cdb892c3a087301fb527d069dacfaccd8e
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323566"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355459"
 ---
 # <a name="configure-python-web-apps-for-iis"></a>IIS용 Python 웹앱 구성
 
@@ -37,7 +37,7 @@ Windows 컴퓨터([Azure의 Windows 가상 머신](/azure/architecture/reference
 
 ## <a name="set-webconfig-to-point-to-the-python-interpreter"></a>Python 인터프리터를 가리키도록 web.config 설정
 
-앱의 *web.config* 파일은 Windows에서 실행 중인 IIS(7 이상) 웹 서버에 HttpPlatform(권장) 또는 FastCGI를 통해 Python 요청을 처리하는 방법을 지시합니다. Visual Studio 버전 2015 및 이전 버전에서는 이러한 수정 작업을 자동으로 확인합니다. Visual Studio 2017을 사용하는 경우 *web.config*를 수동으로 수정해야 합니다.
+앱의 *web.config* 파일은 Windows에서 실행 중인 IIS(7 이상) 웹 서버에 HttpPlatform(권장) 또는 FastCGI를 통해 Python 요청을 처리하는 방법을 지시합니다. Visual Studio 버전 2015 및 이전 버전에서는 이러한 수정 작업을 자동으로 확인합니다. Visual Studio 2017 이상을 사용하는 경우 *web.config*를 수동으로 수정해야 합니다.
 
 ### <a name="configure-the-httpplatform-handler"></a>HttpPlatform 처리기 구성
 

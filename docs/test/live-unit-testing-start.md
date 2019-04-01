@@ -9,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 3082f2a3acaac7b874f98d675ae28d11ea0374ae
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 59e8206bd1110a06c8b94b71ac9da8253a3a4b25
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223782"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416303"
 ---
 # <a name="get-started-with-live-unit-testing-in-visual-studio"></a>Visual Studio에서 Live Unit Testing 시작
 
@@ -40,15 +40,19 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
 단일 .NET Standard 클래스 라이브러리 프로젝트 `StringLibrary`로 구성된 `UtilityLibraries`라는 Visual Studio 솔루션을 만들어 시작합니다. C# 또는 Visual Basic으로 `StringLibrary`를 작성할 수 있습니다.
 
-솔루션은 하나 이상의 프로젝트에 대한 컨테이너일 뿐입니다. 솔루션을 만들려면 Visual Studio를 열고 다음을 수행합니다.
+솔루션은 하나 이상의 프로젝트에 대한 컨테이너일 뿐입니다. 빈 솔루션을 만들려면 Visual Studio를 열고 다음을 수행합니다.
 
 1. 최상위 Visual Studio 메뉴에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
-1. **새 프로젝트** 대화 상자에서 **기타 프로젝트 형식** 노드를 확장하고 **Visual Studio 솔루션**을 선택합니다. 오른쪽 창의 **빈 솔루션** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `UtilityLibraries`를 입력합니다.
+1. **솔루션**을 템플릿 검색 상자에 입력한 다음, **빈 솔루션** 템플릿을 선택합니다.
+
+   ::: moniker range="vs-2017"
 
    ![**새 프로젝트** 대화 상자](./media/lut-start/new-solution.png)
 
-1. **확인**을 선택하여 솔루션을 만듭니다.
+   ::: moniker-end
+
+1. 솔루션 만들기를 완료합니다.
 
 이제 솔루션을 만들었으므로 문자열 작업을 위한 여러 가지 확장 메서드가 포함된 `StringLibrary`라는 클래스 라이브러리를 만듭니다.
 
@@ -56,18 +60,35 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
 1. **솔루션 탐색기**에서 `UtilityLibraries` 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
-1. **새 프로젝트 추가** 대화 상자에서 C# 노드를 선택한 후 **.NET Standard**를 선택합니다.
+::: moniker range="vs-2017"
+
+2. **새 프로젝트 추가** 대화 상자에서 C# 노드를 선택한 후 **.NET Standard**를 선택합니다.
 
    > [!NOTE]
    > 라이브러리는 특정 .NET 구현보다는 .NET Standard를 대상으로 하므로 해당 버전의 .NET Standard를 지원하는 모든 .NET 구현에서 호출할 수 있습니다. 자세한 내용은 [.NET 표준](/dotnet/standard/net-standard)을 참조하세요.
 
-1. 오른쪽 창의 **클래스 라이브러리(.NET Standard)** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `StringLibrary`를 입력합니다.
+3. 오른쪽 창의 **클래스 라이브러리(.NET Standard)** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `StringLibrary`를 입력합니다.
 
    ![**새 프로젝트 추가** 대화 상자](./media/lut-start/add-project-cs.png)
 
-1. **확인**을 선택하여 프로젝트를 만듭니다.
+4. **확인**을 선택하여 프로젝트를 만듭니다.
 
-1. 코드 창에서 모든 기존 코드를 다음 코드로 바꿉니다.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. **클래스 라이브러리**를 템플릿 검색 상자에 입력하고 **클래스 라이브러리(.NET Standard)** 템플릿을 선택합니다. **다음**을 클릭합니다.
+
+   > [!NOTE]
+   > 라이브러리는 특정 .NET 구현보다는 .NET Standard를 대상으로 하므로 해당 버전의 .NET Standard를 지원하는 모든 .NET 구현에서 호출할 수 있습니다. 자세한 내용은 [.NET 표준](/dotnet/standard/net-standard)을 참조하세요.
+
+3. 프로젝트 이름을 `StringLibrary`로 지정합니다.
+
+4. **만들기**를 클릭하여 프로젝트를 만듭니다.
+
+::: moniker-end
+
+5. 코드 창에서 모든 기존 코드를 다음 코드로 바꿉니다.
 
    [!code-csharp[StringLibrary source code](samples/csharp/utilitylibraries/stringlibrary/class1.cs)]
 
@@ -79,24 +100,41 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
       - `HasEmbeddedSpaces`는 문자열에 포함된 공백 문자가 있는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
 
-1. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 빌드**를 선택합니다. Visual Studio에서 라이브러리가 성공적으로 빌드됩니다.
+6. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 빌드**를 선택합니다. Visual Studio에서 라이브러리가 성공적으로 빌드됩니다.
 
 # <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 
 1. **솔루션 탐색기**에서 `UtilityLibraries` 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
-1. **새 프로젝트 추가** 대화 상자에서 Visual Basic 노드를 선택한 후 **.NET Standard**를 선택합니다.
+::: moniker range="vs-2017"
+
+2. **새 프로젝트 추가** 대화 상자에서 Visual Basic 노드를 선택한 후 **.NET Standard**를 선택합니다.
 
    > [!NOTE]
    > 라이브러리는 특정 .NET 구현보다는 .NET Standard를 대상으로 하므로 해당 버전의 .NET Standard를 지원하는 모든 .NET 구현에서 호출할 수 있습니다. 자세한 내용은 [.NET 표준](/dotnet/standard/net-standard)을 참조하세요.
 
-1. 오른쪽 창의 **클래스 라이브러리(.NET Standard)** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `StringLibrary`를 입력합니다.
+3. 오른쪽 창의 **클래스 라이브러리(.NET Standard)** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `StringLibrary`를 입력합니다.
 
    ![**새 프로젝트 추가** 대화 상자](./media/lut-start/add-project-vb.png)
 
-1. **확인**을 선택하여 프로젝트를 만듭니다.
+4. **확인**을 선택하여 프로젝트를 만듭니다.
 
-1. 코드 창에서 모든 기존 코드를 다음 코드로 바꿉니다.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. **클래스 라이브러리**를 템플릿 검색 상자에 입력하고 **클래스 라이브러리(.NET Standard)** 템플릿을 선택합니다. **다음**을 클릭합니다.
+
+   > [!NOTE]
+   > 라이브러리는 특정 .NET 구현보다는 .NET Standard를 대상으로 하므로 해당 버전의 .NET Standard를 지원하는 모든 .NET 구현에서 호출할 수 있습니다. 자세한 내용은 [.NET 표준](/dotnet/standard/net-standard)을 참조하세요.
+
+3. 프로젝트 이름을 `StringLibrary`로 지정합니다.
+
+4. **만들기**를 클릭하여 프로젝트를 만듭니다.
+
+::: moniker-end
+
+5. 코드 창에서 모든 기존 코드를 다음 코드로 바꿉니다.
 
    [!code-vb[StringLibrary source code](samples/visual-basic/utilitylibraries/stringlibrary/class1.vb)]
 
@@ -108,11 +146,11 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
       - `HasEmbeddedSpaces`는 문자열에 포함된 공백 문자가 있는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
 
-1. **솔루션 탐색기**에서 StringLibrary 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다. **애플리케이션** 탭에서 다음 그림과 같이 **루트 네임 스페이스** 텍스트 상자에 있는 텍스트를 삭제합니다. 루트 네임 스페이스는 소스 코드의 [Namespace 문](/dotnet/visual-basic/language-reference/statements/namespace-statement)으로 정의됩니다.
+6. **솔루션 탐색기**에서 StringLibrary 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다. **애플리케이션** 탭에서 다음 그림과 같이 **루트 네임 스페이스** 텍스트 상자에 있는 텍스트를 삭제합니다. 루트 네임 스페이스는 소스 코드의 [Namespace 문](/dotnet/visual-basic/language-reference/statements/namespace-statement)으로 정의됩니다.
 
    ![Visual Basic 프로젝트에 대한 [프로젝트 속성] 대화 상자](./media/lut-start/vb-properties.png)
 
-1. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 빌드**를 선택합니다. Visual Studio에서 라이브러리가 성공적으로 빌드됩니다.
+7. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 빌드**를 선택합니다. Visual Studio에서 라이브러리가 성공적으로 빌드됩니다.
 
 ---
 
@@ -124,77 +162,105 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
 1. **솔루션 탐색기**에서 `UtilityLibraries` 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
-1. **새 프로젝트 추가** 대화 상자에서 C# 노드를 선택한 후 **.NET Core**를 선택합니다.
+::: moniker range="vs-2017"
+
+2. **새 프로젝트 추가** 대화 상자에서 C# 노드를 선택한 후 **.NET Core**를 선택합니다.
 
    > [!NOTE]
    > 클래스 라이브러리와 동일한 언어로 단위 테스트를 작성할 필요가 없습니다.
 
-1. 오른쪽 창의 **단위 테스트 프로젝트(.NET Core)** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `StringLibraryTests`를 입력합니다.
+3. 오른쪽 창의 **단위 테스트 프로젝트(.NET Core)** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `StringLibraryTests`를 입력합니다.
 
    ![단위 테스트 프로젝트에 대한 **새 프로젝트 추가** 대화 상자](./media/lut-start/add-unit-test-cs.png)
 
-1. **확인**을 선택하여 프로젝트를 만듭니다.
+4. **확인**을 선택하여 프로젝트를 만듭니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. **단위 테스트**를 템플릿 검색 상자에 입력하고 **Unit Test Project(.NET Core)** 템플릿을 선택합니다. **다음**을 클릭합니다.
+
+3. 프로젝트 이름을 `StringLibraryTests`로 지정합니다.
+
+4. **만들기**를 클릭하여 프로젝트를 만듭니다.
+
+::: moniker-end
 
    > [!NOTE]
    > 이 시작 자습서는 MSTest 테스트 프레임워크와 함께 Live Unit Testing을 사용합니다. 또한 xUnit 및 NUnit 테스트 프레임워크도 사용할 수 있습니다.
 
-1. 단위 테스트 프로젝트는 테스트 중인 클래스 라이브러리에 자동으로 액세스할 수 없습니다. 클래스 라이브러리 프로젝트에 대한 참조를 추가하여 테스트 라이브러리 액세스를 제공합니다. 이렇게 하려면 `StringLibraryTests` 프로젝트를 마우스 오른쪽 단추로 클릭하고 **추가** > **참조**를 선택합니다. **참조 관리자** 대화 상자에서 **솔루션** 탭이 선택되어 있는지 확인하고 다음 그림에 표시된 것처럼 `StringLibrary` 프로젝트를 선택합니다.
+5. 단위 테스트 프로젝트는 테스트 중인 클래스 라이브러리에 자동으로 액세스할 수 없습니다. 클래스 라이브러리 프로젝트에 대한 참조를 추가하여 테스트 라이브러리 액세스를 제공합니다. 이렇게 하려면 `StringLibraryTests` 프로젝트를 마우스 오른쪽 단추로 클릭하고 **추가** > **참조**를 선택합니다. **참조 관리자** 대화 상자에서 **솔루션** 탭이 선택되어 있는지 확인하고 다음 그림에 표시된 것처럼 `StringLibrary` 프로젝트를 선택합니다.
 
    ![**참조 관리자** 대화 상자](./media/lut-start/add-reference.png)
 
-1. 템플릿에서 제공하는 상용구 단위 테스트 코드를 다음 코드로 바꿉니다.
+6. 템플릿에서 제공하는 상용구 단위 테스트 코드를 다음 코드로 바꿉니다.
 
    [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest1.cs)]
 
-1. 도구 모음에서 **저장** 아이콘을 선택하여 프로젝트를 저장합니다.
+7. 도구 모음에서 **저장** 아이콘을 선택하여 프로젝트를 저장합니다.
 
-1. 단위 테스트 코드는 비ASCII 문자를 포함하므로 Visual Studio는 기본 ASCII 형식으로 파일을 저장한 경우 일부 문자가 손실될 수 있다는 경고를 제공합니다. **다른 인코딩으로 저장** 단추를 선택합니다.
+8. 단위 테스트 코드는 비ASCII 문자를 포함하므로 Visual Studio는 기본 ASCII 형식으로 파일을 저장한 경우 일부 문자가 손실될 수 있다는 경고를 제공합니다. **다른 인코딩으로 저장** 단추를 선택합니다.
 
    ![파일 인코딩 선택](media/lut-start/ascii-encoding.png)
 
-1. **고급 저장 옵션** 대화 상자의 **인코딩** 드롭다운 목록에서 다음 그림과 같이 **유니코드(서명 없는 UTF-8) - 코드 페이지 65001**을 선택합니다.
+9. **고급 저장 옵션** 대화 상자의 **인코딩** 드롭다운 목록에서 다음 그림과 같이 **유니코드(서명 없는 UTF-8) - 코드 페이지 65001**을 선택합니다.
 
    ![UTF-8 인코딩 선택](media/lut-start/utf8-encoding.png)
 
-1. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 다시 빌드**를 선택하여 단위 테스트 프로젝트를 컴파일합니다.
+10. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 다시 빌드**를 선택하여 단위 테스트 프로젝트를 컴파일합니다.
 
 # <a name="visual-basictabvb"></a>[Visual Basic](#tab/vb)
 
 1. **솔루션 탐색기**에서 `UtilityLibraries` 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
-1. **새 프로젝트 추가** 대화 상자에서 Visual Basic 노드를 선택한 후 **.NET Core**를 선택합니다.
+::: moniker range="vs-2017"
+
+2. **새 프로젝트 추가** 대화 상자에서 Visual Basic 노드를 선택한 후 **.NET Core**를 선택합니다.
 
    > [!NOTE]
    > 클래스 라이브러리와 동일한 언어로 단위 테스트를 작성할 필요가 없습니다.
 
-1. 오른쪽 창의 **단위 테스트 프로젝트(.NET Core)** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `StringLibraryTests`를 입력합니다.
+3. 오른쪽 창의 **단위 테스트 프로젝트(.NET Core)** 템플릿을 선택하고 다음 그림과 같이 **이름** 텍스트 상자에 `StringLibraryTests`를 입력합니다.
 
    ![단위 테스트를 위한 **새 프로젝트 추가** 대화 상자](./media/lut-start/add-unit-test-vb.png)
 
-1. **확인**을 선택하여 프로젝트를 만듭니다.
+4. **확인**을 선택하여 프로젝트를 만듭니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. **단위 테스트**를 템플릿 검색 상자에 입력하고 **Unit Test Project(.NET Core)** 템플릿을 선택합니다. **다음**을 클릭합니다.
+
+3. 프로젝트 이름을 `StringLibraryTests`로 지정합니다.
+
+4. **만들기**를 클릭하여 프로젝트를 만듭니다.
+
+::: moniker-end
 
    > [!NOTE]
    > 이 시작 자습서는 MSTest 테스트 프레임워크와 함께 Live Unit Testing을 사용합니다. 또한 xUnit 및 NUnit 테스트 프레임워크도 사용할 수 있습니다.
 
-1. 단위 테스트 프로젝트는 테스트 중인 클래스 라이브러리에 자동으로 액세스할 수 없습니다. 클래스 라이브러리 프로젝트에 대한 참조를 추가하여 테스트 라이브러리 액세스를 제공합니다. 이렇게 하려면 `StringLibraryTests` 프로젝트를 마우스 오른쪽 단추로 클릭하고 **추가** > **참조**를 선택합니다. **참조 관리자** 대화 상자에서 **솔루션** 탭이 선택되어 있는지 확인하고 다음 그림에 표시된 것처럼 `StringLibrary` 프로젝트를 선택합니다.
+5. 단위 테스트 프로젝트는 테스트 중인 클래스 라이브러리에 자동으로 액세스할 수 없습니다. 클래스 라이브러리 프로젝트에 대한 참조를 추가하여 테스트 라이브러리 액세스를 제공합니다. 이렇게 하려면 `StringLibraryTests` 프로젝트를 마우스 오른쪽 단추로 클릭하고 **추가** > **참조**를 선택합니다. **참조 관리자** 대화 상자에서 **솔루션** 탭이 선택되어 있는지 확인하고 다음 그림에 표시된 것처럼 `StringLibrary` 프로젝트를 선택합니다.
 
    ![**참조 관리자** 대화 상자](./media/lut-start/add-reference.png)
 
-1. 템플릿에서 제공하는 상용구 단위 테스트 코드를 다음 코드로 바꿉니다.
+6. 템플릿에서 제공하는 상용구 단위 테스트 코드를 다음 코드로 바꿉니다.
 
    [!code-vb[StringLibraryTest source code](samples/snippets/visual-basic/lut-start/unittest1.vb)]
 
-1. 도구 모음에서 **저장** 아이콘을 선택하여 프로젝트를 저장합니다.
+7. 도구 모음에서 **저장** 아이콘을 선택하여 프로젝트를 저장합니다.
 
-1. 단위 테스트 코드는 비ASCII 문자를 포함하므로 Visual Studio는 기본 ASCII 형식으로 파일을 저장한 경우 일부 문자가 손실될 수 있다는 경고를 제공합니다. **다른 인코딩으로 저장** 단추를 선택합니다.
+8. 단위 테스트 코드는 비ASCII 문자를 포함하므로 Visual Studio는 기본 ASCII 형식으로 파일을 저장한 경우 일부 문자가 손실될 수 있다는 경고를 제공합니다. **다른 인코딩으로 저장** 단추를 선택합니다.
 
    ![파일 인코딩 선택](media/lut-start/ascii-encoding.png)
 
-1. **고급 저장 옵션** 대화 상자의 **인코딩** 드롭다운 목록에서 다음 그림과 같이 **유니코드(서명 없는 UTF-8) - 코드 페이지 65001**을 선택합니다.
+9. **고급 저장 옵션** 대화 상자의 **인코딩** 드롭다운 목록에서 다음 그림과 같이 **유니코드(서명 없는 UTF-8) - 코드 페이지 65001**을 선택합니다.
 
    ![UTF-8 인코딩 선택](media/lut-start/utf8-encoding.png)
 
-1. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 다시 빌드**별로 단위 테스트 프로젝트를 컴파일합니다.
+10. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 다시 빌드**별로 단위 테스트 프로젝트를 컴파일합니다.
 
 ---
 

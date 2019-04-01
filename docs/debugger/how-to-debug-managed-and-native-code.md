@@ -15,12 +15,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - cplusplus
-ms.openlocfilehash: 055e7d106611d23254f317bdbe29a1ac1e3d9ec9
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: 9079479ee66b741780eab4907325b1c43a3b5ee4
+ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953864"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58476009"
 ---
 # <a name="tutorial-debug-c-and-c-in-the-same-debugging-session"></a>자습서: 동일한 디버깅 세션에서 C# 및 C++ 디버그
 
@@ -52,7 +52,18 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
 **DLL 프로젝트용 파일을 만들려면:**
 
-1. Visual Studio에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+1. Visual Studio를 열고 프로젝트를 만듭니다.
+
+    ::: moniker range=">=vs-2019"
+    **Ctrl + Q**를 입력하여 검색 상자를 열고 **빈 프로젝트**를 입력하고 **템플릿**을 선택한 다음, C++용 **새 빈 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다. 그런 다음, **Mixed_Mode_Debugging**과 같은 이름을 입력하고 **만들기**를 클릭합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C++** 아래에 **기타**를 선택한 다음, 가운데 창에서 **빈 프로젝트**를 선택합니다. 그런 다음, **Mixed_Mode_Debugging**과 같은 이름을 입력하고 **확인**을 클릭합니다.
+    ::: moniker-end
+
+    **빈 프로젝트** 프로젝트 템플릿이 표시되지 않는 경우 **도구** > **도구 및 기능 가져오기...** 로 이동하면 Visual Studio 설치 관리자가 열립니다. Visual Studio 설치 관리자가 시작됩니다. **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정** 단추를 선택합니다.
+
+    Visual Studio가 프로젝트를 만듭니다.
 
 1. **Visual C++** 아래의 **새 프로젝트** 대화 상자에서 **기타**를 선택한 후, 가운데 창에서 **빈 프로젝트**를 선택합니다.
 
@@ -71,6 +82,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
     ```cpp
     #include "Mixed_Mode.h"
     ```
+
 1. **솔루션 탐색기**에서 **헤더 파일**을 선택한 다음, **프로젝트** > **새 항목 추가**를 선택합니다. 또는 **헤더 파일**을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목**을 선택합니다.
 
 1. **새 항목** 대화 상자에서 **헤더 파일(.h)** 을 선택합니다. **이름** 필드에 **Mixed_Mode.h**를 입력한 다음, **추가**를 선택합니다.
@@ -117,18 +129,23 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
 ## <a name="create-a-simple-managed-app-to-call-the-dll"></a>DLL을 호출하는 간단한 관리 앱 만들기
 
-1. Visual Studio에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
-   > [!NOTE]
-   > 기존 C++ 솔루션에 새 관리 프로젝트를 추가할 수 있지만 새 솔루션 만들기는 더 많은 디버깅 시나리오를 지원합니다.
+    ::: moniker range=">=vs-2019"
+    **Ctrl + Q**를 입력하여 검색 상자를 열고 **콘솔**을 입력하고 **템플릿**을 선택한 다음, C#용 **새 콘솔 앱(.NET Framework) 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
 
-1. **새 프로젝트** 대화 상자에서 **Visual C#** 을 선택하고 가운데 창에서는 다음을 수행합니다.
+    그런 다음, **Mixed_Mode_Calling_App**과 같은 이름을 입력하고 **만들기**를 클릭합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C#** 아래에 **Windows 데스크톱**을 선택한 다음, 가운데 창에서 **콘솔 앱(.NET Framework)** 또는 **콘솔 앱(.NET Core)** 을 선택합니다.
 
-   - .NET Framework 앱의 경우 **콘솔 앱(.NET Framework)** 을 선택합니다.
+    그런 다음, **Mixed_Mode_Calling_App**과 같은 이름을 입력하고 **확인**을 클릭합니다.
+    ::: moniker-end
 
-   - .NET Core 앱의 경우 **콘솔 앱(.NET Core)** 을 선택합니다.
+    **콘솔 앱** 프로젝트 템플릿이 표시되지 않는 경우 **도구** > **도구 및 기능 가져오기...** 로 이동하면 Visual Studio 설치 관리자가 열립니다. **.NET 데스크톱 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
 
-1. **이름** 필드에 **Mixed_Mode_Calling_App**을 입력한 다음, **확인**을 선택합니다.
+    > [!NOTE]
+    > 기존 C++ 솔루션에 새 관리 프로젝트를 추가할 수 있지만 새 솔루션 만들기는 더 많은 디버깅 시나리오를 지원합니다.
 
    Visual Studio에서는 빈 프로젝트를 만들고 **솔루션 탐색기**에 해당 프로젝트를 표시합니다.
 

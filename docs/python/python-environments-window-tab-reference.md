@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: b55b2e1a34afa78ac1e122081eca261f3dcdabc8
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: d8e60b92b7c76c22c35edbe42d60644583f37123
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58195208"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355778"
 ---
 # <a name="python-environments-window-tabs-reference"></a>Python 환경 창 탭 참조
 
@@ -60,7 +60,7 @@ ms.locfileid: "58195208"
 
 시작 스크립트에는 가져오기, 함수 정의 등을 포함하여 **대화형** 창에서 자동으로 로드하고 실행하는 코드가 포함됩니다. 이러한 스크립트는 다음 두 가지 방법으로 참조됩니다.
 
-1. 환경을 설치할 때 Visual Studio에서 *Documents\Visual Studio 2017\Python Scripts\\\<environment>* 폴더를 만듭니다. 여기서 &lt;environment&gt;는 환경 이름과 일치합니다. **대화형 스크립트 탐색** 명령을 사용하여 환경 관련 폴더를 쉽게 탐색할 수 있습니다. 해당 환경에 대한 **대화형** 창을 시작하면 여기서 발견된 *.py* 파일이 사전순으로 로드 및 실행됩니다.
+1. 환경을 설치할 때 Visual Studio는 *Documents\Visual Studio <version>\Python Scripts\\\<environment>* 폴더를 만듭니다. 여기서 &lt;버전&gt;은 Visual Studio 버전(예: 2017 또는 2019)이고 &lt;environment&gt;는 환경 이름과 일치합니다. **대화형 스크립트 탐색** 명령을 사용하여 환경 관련 폴더를 쉽게 탐색할 수 있습니다. 해당 환경에 대한 **대화형** 창을 시작하면 여기서 발견된 *.py* 파일이 사전순으로 로드 및 실행됩니다.
 
 1. **도구** > **옵션** > **Python** > **대화형 창** 탭([대화형 창 옵션](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options) 참조)의 **스크립트** 컨트롤은 모든 환경에서 로드 및 실행되는 시작 스크립트에 대한 추가 폴더를 지정하기 위한 것입니다. 그러나 이 기능은 현재 작동하지 않습니다.
 
@@ -156,8 +156,8 @@ IntelliSense 완성 데이터베이스의 현재 상태를 보여 줍니다.
 
 ![Python 환경 IntelliSense 탭](media/environments/environments-intellisense-tab.png)
 
-- **Visual Studio 2017 버전 15.5** 및 이전 버전에서 IntelliSense 완성은 해당 라이브러리에 대해 컴파일된 데이터베이스에 따라 달라집니다. 데이터베이스 빌드는 라이브러리를 설치할 때 백그라운드에서 수행되지만 시간이 걸릴 수 있으며, 코드 작성을 시작할 때 완료되지 않았을 수도 있습니다.
-- **Visual Studio 2017 버전 15.6** 이상에서는 기본적으로 데이터베이스에 종속되지 않는 완료를 제공합니다. 이 때문에 탭 레이블이 **IntelliSense [데이터베이스 사용 안 함]** 입니다. **도구** > **옵션** > **Python** > **실험** > **환경에 새 스타일 IntelliSense 사용** 옵션을 취소하여 데이터베이스를 사용하도록 설정할 수 있습니다.
+- Visual Studio 2017 버전 15.5 및 이전 버전에서 IntelliSense 완성은 해당 라이브러리에 대해 컴파일된 데이터베이스에 따라 달라집니다. 데이터베이스 빌드는 라이브러리를 설치할 때 백그라운드에서 수행되지만 시간이 걸릴 수 있으며, 코드 작성을 시작할 때 완료되지 않았을 수도 있습니다.
+- Visual Studio 2017 버전 15.6 이상에서는 기본적으로 데이터베이스에 종속되지 않는 완료를 제공합니다. 이 때문에 탭 레이블이 **IntelliSense [데이터베이스 사용 안 함]** 입니다. **도구** > **옵션** > **Python** > **실험** > **환경에 새 스타일 IntelliSense 사용** 옵션을 취소하여 데이터베이스를 사용하도록 설정할 수 있습니다.
 
 Visual Studio에서 새 환경을 검색하거나 사용자가 환경을 추가하면 라이브러리 소스 파일을 분석하여 데이터베이스 컴파일을 자동으로 시작합니다. 이 프로세스는 설치된 항목에 따라 1분에서 1시간 또는 그 이상이 소요될 수 있습니다. (예를 들어 Anaconda에는 많은 라이브러리가 함께 제공되며 데이터베이스를 컴파일하는 데 다소 시간이 소요됩니다.) 완료되면 자세한 IntelliSense를 얻게 되며 더 많은 라이브러리를 설치할 때까지 데이터베이스를 다시 새로 고치지 않아도 됩니다(**DB 새로 고침** 단추 사용).
 

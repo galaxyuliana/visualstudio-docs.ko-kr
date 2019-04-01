@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 362a4c000d8834ee5adc14b0620a77a51a47c0c3
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 02c1629b11e33de0ce8a24ffc7f5b939a7841705
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223145"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355765"
 ---
 # <a name="productivity-tips-for-visual-studio"></a>Visual Studio 생산성 팁
 
@@ -66,13 +66,23 @@ ms.locfileid: "57223145"
 
 - **해결하려는 오류만 표시** **오류 목록** 도구 모음에서 **필터** 단추를 선택하면 **오류 목록** 창에 나타나는 오류 수를 줄일 수 있습니다. 편집기에서 열려 있는 파일의 오류만, 현재 파일의 오류만 또는 현재 프로젝트의 오류만 표시할 수 있습니다. 특정 오류를 찾기 위해 **오류 목록** 창 내에서 검색할 수도 있습니다.
 
-- **대화 상자, 메뉴 명령 및 옵션 찾기** [빠른 실행](../ide/reference/quick-launch-environment-options-dialog-box.md) 검색 상자에 검색하려는 항목의 키워드나 문구를 입력합니다. 예를 들어 `new project`를 입력하면 다음 옵션이 나타납니다.
+- **대화 상자, 메뉴 명령, 옵션 등을 찾습니다**. [빠른 실행](../ide/reference/quick-launch-environment-options-dialog-box.md) 검색 상자에 검색하려는 항목의 키워드나 문구를 입력합니다. 예를 들어 **새 프로젝트**를 입력하면 다음 옵션이 나타납니다.
 
-    !['새 프로젝트'의 빠른 실행 결과](../ide/media/productivity_quicklaunch.png)
+   ::: moniker range="vs-2017"
 
-    **빠른 실행**에는 **새 프로젝트** 대화 상자, **새 항목 추가** 대화 상자 및 **옵션** 대화 상자의 **프로젝트 및 솔루션** 페이지에 대한 링크가 표시됩니다. 빠른 실행 결과에 프로젝트 파일 및 도구 창이 포함될 수 있습니다.
+   !['새 프로젝트'의 빠른 실행 결과](../ide/media/productivity_quicklaunch.png)
 
-  IDE의 오른쪽 위에 **빠른 실행** 검색 상자가 나타납니다. (또는 **Ctrl**+**Q**를 눌러 액세스하세요.)
+   **빠른 실행**에는 새 프로젝트 만들기, 프로젝트에 새 항목 추가, 특히 **옵션** 대화 상자의 **프로젝트 및 솔루션** 페이지에 대한 링크가 표시됩니다. 검색 결과에는 프로젝트 파일 및 도구 창이 포함될 수도 있습니다.
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   !['새 프로젝트'의 빠른 실행 검색 결과](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
+
+   ::: moniker-end
+
+   **Ctrl**+**Q**를 눌러 **빠른 실행** 검색 상자로 바로 이동할 수 있습니다.
 
 ## <a name="debug-code"></a>코드 디버그
 

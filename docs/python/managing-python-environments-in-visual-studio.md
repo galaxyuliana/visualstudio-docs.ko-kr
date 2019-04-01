@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 80507633538e28650ed53e74794ddda173382878
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 496ca9b5a0c7501cd9493e06233b1473e8526ed6
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58195140"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355687"
 ---
 # <a name="how-to-create-and-manage-python-environments-in-visual-studio"></a>Visual Studio에서 Python 환경을 만들고 관리하는 방법
 
@@ -123,7 +123,7 @@ Visual Studio에서는 쉽게 다른 컴퓨터에서 환경을 다시 만들 수
 
 #### <a name="conda-environments"></a>Conda 환경
 
-Conda 환경은 `conda` 도구를 사용하거나 Visual Studio 버전 2017 15.7 이상에서 통합 Conda 관리를 사용하여 만듭니다. Anaconda 또는 Miniconda가 필요합니다. Anaconda는 Visual Studio 설치 관리자를 통해 지원됩니다. [설치](installing-python-support-in-visual-studio.md#visual-studio-2019-and-visual-studio-2017)를 참조하세요.
+Conda 환경은 `conda` 도구를 사용하거나 Visual Studio 버전 2017 15.7 이상에서 통합 Conda 관리를 사용하여 만듭니다. (Visual Studio 설치 관리자를 통해 제공되는 Anaconda 또는 Miniconda가 필요합니다. [설치](installing-python-support-in-visual-studio.md#visual-studio-2019-and-visual-studio-2017)를 참조하세요.)
 
 ::: moniker range="vs-2017"
 

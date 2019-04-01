@@ -10,18 +10,18 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 3878c3817ef7df66f4e8d31562598389fd07bc29
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b1a26f3bc5e47f0aac7385bb9b1197da0a72396d
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927025"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355411"
 ---
 # <a name="quickstart-create-a-python-project-from-a-template-in-visual-studio"></a>빠른 시작: Visual Studio의 템플릿에서 Python 프로젝트 만들기
 
-[Visual Studio 2017에 Python 지원을 설치](installing-python-support-in-visual-studio.md)하면 다양한 템플릿을 사용하여 새 Python 프로젝트를 쉽게 만들 수 있습니다. 이 빠른 시작에서는 템플릿을 사용하여 간단한 Flask 앱을 만듭니다. 결과 프로젝트는 [빠른 시작 - Flask를 사용하여 웹앱 만들기](../ide/quickstart-python.md)를 통해 수동으로 만든 프로젝트와 비슷합니다.
+[Visual Studio에 Python 지원을 설치](installing-python-support-in-visual-studio.md)하면 다양한 템플릿을 사용하여 새 Python 프로젝트를 쉽게 만들 수 있습니다. 이 빠른 시작에서는 템플릿을 사용하여 간단한 Flask 앱을 만듭니다. 결과 프로젝트는 [빠른 시작 - Flask를 사용하여 웹앱 만들기](../ide/quickstart-python.md)를 통해 수동으로 만든 프로젝트와 비슷합니다.
 
-1. Visual Studio 2017을 시작합니다.
+1. Visual Studio를 시작합니다.
 
 1. 맨 위 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택하고 **새 프로젝트** 대화 상자에서 “비어 있는 Flask”를 검색한 다음, 중간 목록에서 **비어 있는 Flask 웹 프로젝트** 템플릿을 선택하고 프로젝트의 이름을 지정한 후 **확인**을 선택합니다.
 

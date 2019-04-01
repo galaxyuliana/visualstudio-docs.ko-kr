@@ -7,22 +7,24 @@ assetId: ec580df7-3dcc-45a9-a1d9-8c110678dfb5
 ms.custom: seodec18
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 03/21/2017
+ms.date: 03/19/2019
 ms.author: ghogen
-ms.openlocfilehash: 2ef17bab90ae1f2c9df66a85a6a78b1494bd5c3d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 900e677ce670c49036ea6d76596ff509129ce979
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926970"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323820"
 ---
-# <a name="creating-an-azure-cloud-service-project-with-visual-studio"></a>Visual Studio에서 Azure 클라우드 서비스 프로젝트 만들기
+# <a name="create-an-azure-cloud-service-project-with-visual-studio"></a>Visual Studio를 사용하여 Azure 클라우드 서비스 프로젝트 만들기
+
 Azure Tools for Visual Studio는 [Azure 클라우드 서비스](/azure/cloud-services/cloud-services-choose-me)를 만들 수 있는 프로젝트 템플릿을 제공합니다. 이 서비스는 간단한 범용 Azure 서비스입니다. 프로젝트를 만든 후 Visual Studio에서 클라우드 서비스를 구성 및 디버그하고 Azure에 배포할 수 있습니다.
 
 ## <a name="steps-to-create-an-azure-cloud-service-project-in-visual-studio"></a>Visual Studio에서 Azure 클라우드 서비스 프로젝트를 만드는 단계
 이 섹션에서는 하나 이상의 웹 역할을 사용하여 Visual Studio에서 Azure 클라우드 서비스 프로젝트를 만드는 과정을 안내합니다.
 
-1. 관리자 권한으로 Visual Studio를 시작합니다.
+::: moniker range="vs-2017"
+1. 관리자 권한으로 Visual Studio를 엽니다.
 
 1. 주 메뉴에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
@@ -35,6 +37,18 @@ Azure Tools for Visual Studio는 [Azure 클라우드 서비스](/azure/cloud-ser
 1. 프로젝트에 대한 이름과 위치 및 솔루션에 대한 이름을 입력합니다.
 
 1. **확인**을 선택합니다.
+::: moniker-end
+::: moniker range=">=vs-2019"
+1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+1. 검색 상자에 *클라우드*를 입력한 다음, **Azure 클라우드 서비스**를 선택합니다.
+
+   ![새 Azure 클라우드 서비스](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service.png)
+
+1. 프로젝트 이름을 지정하고 **만들기**를 선택합니다.
+
+   ![프로젝트 이름 지정](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service-2.png)
+::: moniker-end
 
 1. **새 Microsoft Azure 클라우드 서비스** 대화 상자에서 추가하려는 역할을 선택하고 오른쪽 화살표 단추를 선택하여 솔루션에 역할을 추가합니다.
 

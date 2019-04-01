@@ -2,8 +2,9 @@
 title: '자습서: 간단한 C# 콘솔 앱 만들기'
 description: Visual Studio에서 C# 콘솔 앱을 만드는 방법을 단계별로 알아봅니다.
 ms.custom: seodec18, get-started
-ms.date: 03/12/2019
+ms.date: 03/23/2019
 ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
@@ -14,22 +15,34 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: c73212ad53389b71ee2eb2a2660cd3dcbccaad8b
-ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
+ms.openlocfilehash: ccd5ff0f0e77a2f59135b2bf7950c4c6ddf58e02
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "57736919"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416175"
 ---
 # <a name="tutorial-create-a-simple-c-console-app-in-visual-studio"></a>자습서: Visual Studio에서 간단한 C# 콘솔 앱 만들기
 
 C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 만들어 실행하고, 그 과정에서 Visual Studio IDE(통합 개발 환경)의 일부 기능을 살펴봅니다.
 
+::: moniker range="vs-2017"
+
 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker-end
 
 ## <a name="create-a-project"></a>프로젝트 만들기
 
 시작하려면 C# 애플리케이션 프로젝트를 만듭니다. 아무 것도 추가하지 않아도 필요한 모든 템플릿 파일과 함께 프로젝트 형식이 제공됩니다.
+
+::: moniker range="vs-2017"
 
 1. Visual Studio 2017을 엽니다.
 
@@ -56,13 +69,48 @@ C#에 대한 이 자습서에서는 Visual Studio를 사용해서 콘솔 앱을 
 
 #### <a name="option-2-use-the-tools-menu-bar"></a>옵션 2: 도구 메뉴 모음 사용
 
-1. **새 프로젝트** 대화 상자를 취소하고 나가 상단 메뉴 모음에서 **도구** > **도구 및 기능 가져오기**를 선택합니다.
+1. **새 프로젝트** 대화 상자를 취소하고 상단 메뉴 모음에서 **도구** > **도구 및 기능 가져오기**를 선택합니다.
 
 1. Visual Studio 설치 관리자가 시작됩니다. **.NET Core 플랫폼 간 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Visual Studio 2019를 엽니다.
+
+1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+   !['새 프로젝트 만들기' 창 보기](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. **새 프로젝트 만들기** 창에서 검색 상자에 *콘솔*을 입력합니다. 그런 다음, 언어 목록에서 **C#** 을 선택한 다음, 플랫폼 목록에서 **Windows**를 선택합니다. 
+
+   언어 및 플랫폼 필터를 적용한 후 **콘솔 앱(.NET Core)** 템플릿을 선택한 후, **다음**을 선택합니다.
+
+   ![콘솔 앱(.NET Framework)에 대한 C# 템플릿을 선택합니다.](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
+
+   > [!NOTE]
+   > **콘솔 앱(.NET Core)** 템플릿이 표시되지 않으면 **새 프로젝트를 만들기** 창에서 설치할 수 있습니다. **원하는 항목을 찾을 수 없나요?** 메시지에서 **추가 도구 및 기능 설치** 링크를 선택합니다.
+   >
+   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > 그런 다음, Visual Studio 설치 관리자에서 **.NET Core 플랫폼 간 개발** 워크로드를 선택합니다.
+   >
+   > ![Visual Studio Installer에서 .NET Core 플랫폼 간 개발 워크로드](./media/dot-net-core-xplat-dev-workload.png)
+   >
+   > 그런 다음, Visual Studio 설치 관리자에서 **수정** 단추를 선택합니다. 작업 내용을 저장하라는 메시지가 나타날 수 있습니다. 그럴 경우 그렇게 하세요. 다음으로, **계속**을 선택하여 워크로드를 설치합니다. 그런 다음, 이 "[프로젝트 만들기](#create-a-project)" 프로시저의 2단계로 돌아갑니다.
+
+1. **새 프로젝트 구성** 창에서 **프로젝트 이름** 상자에 *계산기*를 입력합니다. 그런 다음, **만들기**를 선택합니다.
+
+   !['새 프로젝트 구성' 창에서 프로젝트의 이름을 '계산기'로 지정합니다.](./media/vs-2019/csharp-name-your-calculator-project.png)
+
+   Visual Studio는 기본 "Hello World" 코드를 포함하는 새 프로젝트를 엽니다.
+   
+::: moniker-end
+
 ## <a name="create-the-app"></a>앱 만들기
 
-먼저 C#의 몇 가지 기본 정수 수식을 살펴보겠습니다. 그런 다음, 기본 계산기를 만드는 코드를 추가하겠습니다. 다음, . 그런 다음, 오류를 찾아 수정하기 위해 앱을 디버그할 것입니다. 마지막으로, 보다 효율적인 코드를 구체화하겠습니다.
+먼저 C#의 몇 가지 기본 정수 수식을 살펴보겠습니다. 그런 다음, 기본 계산기를 만드는 코드를 추가하겠습니다. 그런 다음, 오류를 찾아 수정하기 위해 앱을 디버그할 것입니다. 마지막으로, 보다 효율적인 코드를 구체화하겠습니다.
 
 ### <a name="explore-integer-math"></a>정수 계산 살펴보기
 
@@ -218,7 +266,7 @@ C#의 몇 가지 기본 정수 수식부터 살펴보겠습니다.
 
 ## <a name="debug-the-app"></a>앱 디버그
 
-기본 계산기 앱을 개선했지만 아직 사용자 입력 오류와 같은 예외를 처리할 수 있는 failsafes가 없습니다.
+기본 계산기 앱을 개선했지만 사용자 입력 오류와 같은 예외를 처리할 수 있는 오류 방지 기능을 아직 갖추고 있지 않습니다.
 
 예를 들어 숫자를 0으로 나누거나 앱이 숫자 문자가 필요할 때 알파 문자를 입력하면(또는 그 반대로) 앱이 작동을 중지하고 오류를 반환합니다.
 
@@ -404,7 +452,7 @@ C#의 몇 가지 기본 정수 수식부터 살펴보겠습니다.
 
 1. 프로그램을 실행할 **계산기**를 선택하거나 **F5** 키를 누릅니다.
 
-1. 프롬프트에 따라 숫자 **42**를 숫자 **119**로 나눕니다. 앱은 다음과 비슷해야 합니다.
+1. 프롬프트에 따라 숫자 **42**를 숫자 **119**로 나눕니다. 앱이 다음 스크린샷과 유사하게 표시될 것입니다.
 
     ![잘못된 입력에 대해 수행할 작업과 오류 처리에 대한 프롬프트를 포함하는 리팩터링된 계산기 앱을 보여주는 콘솔 창](./media/csharp-console-calculator-refactored.png)
 

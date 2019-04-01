@@ -11,12 +11,12 @@ ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: b5d2d878cb7f9597c0341f26fa41df8e4834a886
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 758f7549eeb1726b13da31a96b4c006194da6ee6
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713544"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355317"
 ---
 # <a name="publishing-to-azure-app-service-on-windows"></a>Windows의 Azure App Service에 게시
 
@@ -25,10 +25,10 @@ ms.locfileid: "56713544"
 
 Visual Studio는 Python 웹앱을 Windows의 Azure App Service에 직접 게시하는 기능을 제공합니다. Windows의 Azure App Service에 게시하는 작업은 서버에 필요한 파일을 복사하고, 웹 서버에 앱을 시작하는 방법을 지시하는 적절한 `web.config` 파일을 설정하는 과정을 의미합니다.
 
-게시 프로세스는 Visual Studio 2017과 Visual Studio 2015가 다릅니다. 특히 Visual Studio 2015는 `web.config` 만들기를 비롯한 단계 중 일부를 자동화합니다. 단, 이 자동화로 인해 장기 유연성 및 제어에 제한이 있습니다. Visual Studio 2017은 더 많은 수동 단계가 필요하지만 Python 환경에서의 보다 정확한 제어를 제공합니다. 두 옵션 모두 여기에 설명되어 있습니다.
+게시 프로세스는 Visual Studio 2017 이상과 Visual Studio 2015 사이가 다릅니다. 특히 Visual Studio 2015는 `web.config` 만들기를 비롯한 단계 중 일부를 자동화합니다. 단, 이 자동화로 인해 장기 유연성 및 제어에 제한이 있습니다. Visual Studio 2017 이상은 더 많은 수동 단계가 필요하지만 Python 환경에서 보다 정확한 제어를 제공합니다. 두 옵션 모두 여기에 설명되어 있습니다.
 
 > [!Note]
-> Visual Studio 2015와 Visual Studio 2017 간 변경 사항에서 배경의 경우, 블로그 게시물을 [Visual Studio 2017에서 Azure에 게시](https://devblogs.microsoft.com/python/publish-to-azure-in-vs-2017/)를 참조하세요.
+> Visual Studio 2015와 Visual Studio 2017 이상 간 변경 사항에 대한 배경 정보는 블로그 게시물 [Visual Studio 2017에서 Azure에 게시](https://devblogs.microsoft.com/python/publish-to-azure-in-vs-2017/)를 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
 
@@ -71,13 +71,13 @@ Azure에 게시하려면 대상 App Service가 필요합니다. 이 목적의 �
 
 ## <a name="configure-python-on-azure-app-service"></a>Azure App Service에서 Python 구성
 
-(구독에서 또는 무료 사이트에서) 실행 중인 빈 웹앱을 사용하는 App Service가 있으면, [Azure App Service에서 Python 관리](managing-python-on-azure-app-service.md)에 설명된 대로 선택한 Python 버전을 설치합니다. Visual Studio 2017에서 게시하려면 해당 문서에 설명된 대로 사이트 확장과 함께 설치된 Python 인터프리터에 대한 정확한 경로를 기록합니다.
+(구독에서 또는 무료 사이트에서) 실행 중인 빈 웹앱을 사용하는 App Service가 있으면, [Azure App Service에서 Python 관리](managing-python-on-azure-app-service.md)에 설명된 대로 선택한 Python 버전을 설치합니다. Visual Studio 2017 이상에서 게시하려면 해당 문서에 설명된 대로 사이트 확장과 함께 설치된 Python 인터프리터에 대한 정확한 경로를 기록합니다.
 
 또한 원하는 경우 이 지침의 프로세스를 사용하여 `bottle` 패키지를 설치할 수 있습니다. 해당 패키지는 이 연습 중 다른 단계의 일부로 설치됩니다.
 
-## <a name="publish-to-app-service---visual-studio-2017"></a>App Service에 게시 - Visual Studio 2017
+## <a name="publish-to-app-service---visual-studio-2017-and-later"></a>App Service에 게시 - Visual Studio 2017 이상
 
-Visual Studio 2017에서 Azure App Service에 게시하려면 프로젝트의 복사본 파일만 서버에 복사합니다. 따라서 서버 환경을 구성하는 데 필요한 파일을 만들어야 합니다.
+Visual Studio 2017 이상에서 Azure App Service에 게시하려면 프로젝트의 복사본 파일만 서버에 복사합니다. 따라서 서버 환경을 구성하는 데 필요한 파일을 만들어야 합니다.
 
 1. Visual Studio **솔루션 탐색기**에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **추가 > 새 항목...** 을 선택합니다. 나타나는 대화 상자에서 “Azure web.config(빠른 CGI)” 템플릿을 선택하고 확인을 선택합니다. 그러면 프로젝트 루트에 `web.config` 파일이 만들어집니다.
 
@@ -143,11 +143,11 @@ Visual Studio 2017에서 Azure App Service에 게시하려면 프로젝트의 �
 
     a. 사용자의 Azure 구독: **Microsoft Azure App Service**를 선택한 다음, **기존 선택**에 이어 **게시**를 선택합니다. 적절한 구독 및 App Service를 선택할 수 있는 대화 상자가 나타납니다. App Service가 나타나지 않으면 임시 App Service에 대해 아래 설명된 대로 다운로드한 게시 프로필을 사용합니다.
 
-    ![Azure 1단계, Visual Studio 2017, 기존 구독에 게시](media/tutorials-common-publish-1a-2017.png)
+    ![Azure 1단계, Visual Studio 2017 이상, 기존 구독에 게시](media/tutorials-common-publish-1a-2017.png)
 
     b. try.azurewebsites.net에서 임시 App Service를 사용하거나 게시 프로필을 사용해야 하는 경우 **>** 컨트롤을 선택하여 **프로필 가져오기**를 찾아, 해당 옵션을 선택한 다음, **게시**를 선택합니다. 그러면 이전에 다운로드한 `.publishsettings` 파일의 위치에 대한 메시지가 표시됩니다.
 
-    ![Azure 1단계, Visual Studio 2017, 임시 App Service에 게시](media/tutorials-common-publish-1b-2017.png)
+    ![Azure 1단계, Visual Studio 2017 이상, 임시 앱 서비스에 게시](media/tutorials-common-publish-1b-2017.png)
 
 1. Visual Studio는 “웹 게시 활동” 창 및 게시 창에 게시 상태를 표시합니다. 게시가 완료되면 사이트 URL에 기본 브라우저가 열립니다. 또한 URL은 게시 창에 표시됩니다.
 

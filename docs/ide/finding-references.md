@@ -10,18 +10,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 74fb79db00a3e7366e91d3fb53a83f9deeb9a8a0
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: df3eb6577c72aa421f2a22d93b3109f63548cc96
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335274"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58324749"
 ---
 # <a name="find-references-in-your-code"></a>코드에서 참조 찾기
 
 코드베이스 전체에서 특정 코드 요소가 참조되는 위치를 찾으려면 **모든 참조 찾기** 명령을 사용할 수 있습니다. **모든 참조 찾기** 명령은 참조를 찾으려는 요소의 상황에 맞는 메뉴(마우스 오른쪽 단추 클릭)에서 사용할 수 있습니다. 또는 키보드 사용자인 경우 **Shift + F12** 키를 누릅니다.
 
-결과가 **<element> 참조**라는 도구 창에 나타납니다. 여기서 *요소*는 검색하는 항목의 이름입니다. **참조 창** 도구 모음을 사용하면 다음을 수행할 수 있습니다.
+결과가 **\<요소> 참조**라는 도구 창에 나타납니다. 여기서 *요소*는 검색하는 항목의 이름입니다. **참조 창** 도구 모음을 사용하면 다음을 수행할 수 있습니다.
 - 드롭다운 목록 상자에서 검색 범위를 변경합니다. 변경된 문서에서만 전체 솔루션까지 찾을 수 있습니다.
 - 선택한 참조된 항목을 **복사** 단추를 선택하여 복사합니다.
 - 목록에서 다음 위치 또는 이전 위치로 이동하는 단추를 선택하거나 **F8** 키 및 **Shift + F8** 키를 선택합니다.

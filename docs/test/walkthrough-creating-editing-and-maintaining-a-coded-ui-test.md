@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: d2cb1e2a05499c01cc1441db0a289cfc95b8e243
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: cae9138c881115651ebd9e862e912ff10da20d2f
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955065"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416408"
 ---
 # <a name="walkthrough-create-edit-and-maintain-a-coded-ui-test"></a>연습: 코딩된 UI 테스트 만들기, 편집 및 유지 관리
 
@@ -22,41 +22,27 @@ ms.locfileid: "55955065"
 
 ## <a name="create-a-wpf-app"></a>WPF 앱 만들기
 
-1.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음, **프로젝트**를 선택합니다.
+1. 새 **WPF 앱(.NET Framework)** 프로젝트를 만들고 이름을 **SimpleWPFApp**으로 지정합니다.
 
-     **새 프로젝트** 대화 상자가 나타납니다.
+     **WPF Designer**가 열리고 프로젝트의 MainWindow가 표시됩니다.
 
-2.  **설치됨** 창에서 **Visual C#** 을 확장한 다음 **Windows 데스크톱**을 선택합니다.
+2. 현재 도구 상자가 열려 있지 않으면 엽니다. **보기** 메뉴를 선택한 다음, **도구 상자**를 선택합니다.
 
-3.  가운데 창 위에서 대상 프레임워크 드롭다운 목록이 **.NET Framework 4.5**로 설정되어 있는지 확인합니다.
+3. **모든 WPF 컨트롤** 섹션에서 **Button**, **CheckBox** 및 **ProgressBar** 컨트롤을 디자인 화면의 MainWindow로 끌어옵니다.
 
-4.  가운데 창에서 **WPF 애플리케이션** 템플릿을 선택합니다.
+4. **Button** 컨트롤을 선택합니다. **속성** 창에 **Name** 속성의 값을 \<이름 없음>에서 button1으로 변경합니다. 그런 다음 **Content** 속성 값을 Button에서 Start로 변경합니다.
 
-5.  **이름** 텍스트 상자에 **SimpleWPFApp**을 입력합니다.
+5. **ProgressBar** 컨트롤을 선택합니다. **속성** 창에 **Name** 속성의 값을 \<이름 없음>에서 progressBar1로 변경합니다. 그런 다음 **Maximum** 속성 값을 **100**에서 **10000**으로 변경합니다.
 
-6.  프로젝트를 저장할 폴더를 선택합니다. **위치** 텍스트 상자에 폴더 이름을 입력합니다.
-
-7.  **확인**을 선택합니다.
-
-     **Visual Studio용 WPF Designer**가 열리고 프로젝트의 MainWindow가 표시됩니다.
-
-8.  현재 도구 상자가 열려 있지 않으면 엽니다. **보기** 메뉴를 선택한 다음, **도구 상자**를 선택합니다.
-
-9. **모든 WPF 컨트롤** 섹션에서 **Button**, **CheckBox** 및 **ProgressBar** 컨트롤을 디자인 화면의 MainWindow로 끌어옵니다.
-
-10. **Button** 컨트롤을 선택합니다. **속성** 창에 **Name** 속성의 값을 \<이름 없음>에서 button1으로 변경합니다. 그런 다음 **Content** 속성 값을 Button에서 Start로 변경합니다.
-
-11. **ProgressBar** 컨트롤을 선택합니다. **속성** 창에 **Name** 속성의 값을 \<이름 없음>에서 progressBar1로 변경합니다. 그런 다음 **Maximum** 속성 값을 **100**에서 **10000**으로 변경합니다.
-
-12. **Checkbox** 컨트롤을 선택합니다. **속성** 창에서 **Name** 속성을 \<이름 없음>에서 checkBox1로 변경하고 **IsEnabled** 속성의 선택을 취소합니다.
+6. **Checkbox** 컨트롤을 선택합니다. **속성** 창에서 **Name** 속성을 \<이름 없음>에서 checkBox1로 변경하고 **IsEnabled** 속성의 선택을 취소합니다.
 
      ![간단한 WPF 응용 프로그램](../test/media/codedui_wpfapp.png)
 
-13. 단추 컨트롤을 두 번 클릭하여 Click 이벤트 처리기를 추가합니다.
+7. 단추 컨트롤을 두 번 클릭하여 Click 이벤트 처리기를 추가합니다.
 
      *MainWindow.xmal.cs*가 새 button1_Click 메서드의 커서와 함께 코드 편집기에 표시됩니다.
 
-14. MainWindow 클래스의 맨 위에 대리자를 추가합니다. 대리자는 진행률 표시줄에 사용됩니다. 대리자를 추가하려면 다음 코드 추가합니다.
+8. MainWindow 클래스의 맨 위에 대리자를 추가합니다. 대리자는 진행률 표시줄에 사용됩니다. 대리자를 추가하려면 다음 코드 추가합니다.
 
     ```csharp
     public partial class MainWindow : Window
@@ -70,7 +56,7 @@ ms.locfileid: "55955065"
         }
     ```
 
-15. button1_Click 메서드에 다음 코드를 추가합니다.
+9. button1_Click 메서드에 다음 코드를 추가합니다.
 
     ```csharp
     private void button1_Click(object sender, RoutedEventArgs e)
@@ -95,7 +81,7 @@ ms.locfileid: "55955065"
     }
     ```
 
-16. 파일을 저장합니다.
+10. 파일을 저장합니다.
 
 ### <a name="run-the-wpf-app"></a>WPF 앱 실행
 
@@ -120,22 +106,14 @@ ms.locfileid: "55955065"
 
 ## <a name="create-a-coded-ui-test-for-simplewpfapp"></a>SimpleWPFApp에 대해 코딩된 UI 테스트 만들기
 
-1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가**를 선택한 다음, **새 프로젝트**를 선택합니다.
+1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 차례로 선택합니다.
 
-     **새 프로젝트 추가** 대화 상자가 나타납니다.
-
-1. **설치됨** 창에서 **Visual C#** 을 확장한 다음 **테스트**를 선택합니다.
-
-1. 가운데 창에서 **코딩된 UI 테스트 프로젝트** 템플릿을 선택합니다.
+2. **코딩된 UI 테스트 프로젝트** 템플릿을 검색하여 선택하고 프로젝트가 생성될 때까지 단계를 계속 진행합니다.
 
    > [!NOTE]
    > **코딩된 UI 테스트 프로젝트** 템플릿이 표시되지 않으면, [코딩된 UI 테스트 구성 요소를 설치](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component)해야 합니다.
 
-1. **확인**을 선택합니다.
-
-     **CodedUITestProject1**이라는 새로 코딩된 UI 테스트 프로젝트가 솔루션에 추가됩니다.
-
-     **코딩된 UI 테스트에 대한 코드 생성** 대화 상자가 나타납니다.
+     **CodedUITestProject1**이라는 새로 코딩된 UI 프로젝트가 솔루션에 추가되고 **코딩된 UI 테스트용 코드 생성** 대화 상자가 나타납니다.
 
 1. **작업 기록, UI 맵 편집 또는 어설션 추가** 옵션을 선택하고 **확인**을 선택합니다.
 

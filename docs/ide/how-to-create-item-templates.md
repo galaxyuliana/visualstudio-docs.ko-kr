@@ -7,18 +7,18 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 88f6061d959167163c8502899813dc4c6db88f10
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: a861843da139701c23e38df11c7ad380c047a846
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57222089"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416395"
 ---
 # <a name="how-to-create-item-templates"></a>방법: 항목 템플릿 만들기
 
 이 문서에서는 **템플릿 내보내기 마법사**를 사용하여 항목 템플릿을 만드는 방법을 보여줍니다. 템플릿이 여러 파일로 구성되는 경우 [방법: 다중 파일 항목 템플릿 만들기](../ide/how-to-create-multi-file-item-templates.md)를 참조하세요.
 
-## <a name="to-add-a-user-item-template-to-the-add-new-item-dialog-box"></a>사용자 항목 템플릿을 새 항목 추가 대화 상자에 추가하려면
+## <a name="add-an-item-template-to-the-add-new-item-dialog-box"></a>새 항목 추가 대화 상자에 항목 템플릿 추가
 
 1. Visual Studio에서 프로젝트를 만들거나 엽니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "57222089"
 
    **새 항목 추가** 대화 상자에 항목 템플릿이 나타납니다. **템플릿 내보내기 마법사**에서 설명을 추가한 경우 대화 상자의 오른쪽에 설명이 나타납니다.
 
-## <a name="to-enable-the-item-template-to-be-used-in-a-universal-windows-app-project"></a>항목 템플릿을 유니버설 Windows 앱 프로젝트에서 사용할 수 있도록 하려면
+## <a name="enable-the-item-template-to-be-used-in-a-universal-windows-app-project"></a>유니버설 Windows 앱 프로젝트에서 사용할 항목 템플릿 활성화
 
 마법사에서 기본 템플릿 만들기에 대한 많은 작업을 수행하지만 대부분의 경우 템플릿을 내보낸 후 *.vstemplate* 파일을 수동으로 수정해야 합니다. 예를 들어 항목을 유니버설 Windows 앱 프로젝트의 **새 항목 추가** 대화 상자에 표시하려면 몇 가지 추가 단계를 수행해야 합니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "57222089"
 
 이제 **새 항목 추가** 대화 상자에서 이 템플릿을 기반으로 한 항목을 유니버설 Windows 프로젝트에 추가할 수 있습니다.
 
-## <a name="to-enable-templates-for-specific-project-subtypes"></a>특정 프로젝트 하위 형식에 템플릿을 사용하도록 설정하려면
+## <a name="enable-templates-for-specific-project-subtypes"></a>특정 프로젝트 하위 형식에 템플릿 사용
 
 Windows, Office, 대시보드 또는 웹과 같은 특정 프로젝트 하위 유형에만 템플릿이 표시되도록 지정할 수 있습니다.
 
@@ -103,7 +103,7 @@ Windows, Office, 대시보드 또는 웹과 같은 특정 프로젝트 하위 �
 </VSTemplate>
 ```
 
-## <a name="to-manually-create-an-item-template-without-using-the-export-template-wizard"></a>템플릿 내보내기 마법사를 사용하지 않고 항목 템플릿을 수동으로 만들려면
+## <a name="manually-create-an-item-template"></a>수동으로 항목 템플릿 만들기
 
 경우에 따라 항목 템플릿을 처음부터 수동으로 만들 수 있습니다.
 

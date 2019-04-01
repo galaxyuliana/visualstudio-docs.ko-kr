@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c92ae058caa140f036ac8828899620bcc8d426ac
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8d4862bc9d4dc43549a1b0d5050035dbb8dd407b
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55943040"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58355632"
 ---
 # <a name="walkthrough-test-first-development-with-the-generate-from-usage-feature"></a>연습: 관례에서 생성 기능을 통한 테스트 우선 개발
 
@@ -34,15 +34,19 @@ ms.locfileid: "55943040"
 
 ### <a name="create-a-windows-class-library-project-and-a-test-project"></a>Windows 클래스 라이브러리 프로젝트 및 테스트 프로젝트 만들기
 
-1. [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 또는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]에서 새 **Windows 클래스 라이브러리** 프로젝트를 만듭니다. 사용하는 언어에 따라 이름을 `GFUDemo_VB` 또는 `GFUDemo_CS`로 지정합니다.
+1. C# 또는 Visual Basic에서 새 **Windows 클래스 라이브러리** 프로젝트를 만듭니다. 사용하는 언어에 따라 이름을 `GFUDemo_VB` 또는 `GFUDemo_CS`로 지정합니다.
 
-2. **솔루션 탐색기**에서 맨 위의 솔루션 아이콘을 마우스 오른쪽 단추로 클릭하고 **추가**를 선택한 다음 **새 프로젝트**를 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **테스트**를 선택합니다.
+2. **솔루션 탐색기**에서 맨 위의 솔루션 아이콘을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
-3. 가운데 창에서 **단위 테스트 프로젝트**를 선택하고 기본 이름인 `UnitTestProject1`을 적용합니다. 다음 그림에서는 [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]에 표시되는 경우의 대화 상자를 보여 줍니다. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]에서도 대화 상자가 유사하게 표시됩니다.
+3. 새 **Unit Test Project(.NET Framework)** 프로젝트를 만듭니다.
 
-    ![새 테스트 프로젝트 대화 상자](../ide/media/newproject_test.png)
+   ::: moniker range="vs-2017"
 
-4. **확인** 을 선택하여 **새 프로젝트** 대화 상자를 닫습니다.
+   다음 그림은 C# 템플릿에 대한 **새 프로젝트** 대화 상자를 보여줍니다.
+
+   ![Unit Test Project 템플릿](../ide/media/newproject_test.png)
+
+   ::: moniker-end
 
 ### <a name="add-a-reference-to-the-class-library-project"></a>클래스 라이브러리 프로젝트에 참조 추가
 

@@ -7,41 +7,36 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 8c7a92820d52dbade817ead287541470cc2b2b1a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 2ba4b896a5cea964a4df6392a7c1963f8df00d31
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55925243"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58415605"
 ---
 # <a name="quickstart-test-driven-development-with-test-explorer"></a>빠른 시작: 테스트 탐색기를 사용한 테스트 기반 개발
 
 여러 개발 증분 단계를 통해 코드 작업을 올바른 상태로 유지하는 데 도움을 줄 단위 테스트를 작성하는 것이 좋습니다. 타사에서 개발된 것을 비롯하여 단위 테스트를 작성하는 데 사용할 수 있는 프레임워크에는 여러 가지가 있습니다. 일부 테스트 프레임워크는 다른 언어 또는 플랫폼의 테스트로 전문화되어 있습니다. 테스트 탐색기는 이러한 프레임워크 중 하나에서 단위 테스트를 위한 단일 인터페이스를 제공합니다. 어댑터는 일반적으로 사용되는 프레임워크에 사용할 수 있으며, 다른 프레임워크용 고유 어댑터를 작성할 수 있습니다.
 
- 테스트 탐색기는 이전 Visual Studio 버전의 단위 테스트 창을 대체합니다. 테스트 탐색기의 이점은 다음과 같습니다.
+테스트 탐색기는 이전 Visual Studio 버전의 단위 테스트 창을 대체합니다. 테스트 탐색기의 이점은 다음과 같습니다.
 
--   .NET, 관리되지 않은 데이터베이스 및 단일 인터페이스를 사용하는 다양한 종류의 테스트를 실행합니다.
+- .NET, 관리되지 않은 데이터베이스 및 단일 인터페이스를 사용하는 다양한 종류의 테스트를 실행합니다.
 
--   NUnit 또는 MSTest 프레임워크 등의 선택한 단위 테스트 프레임워크를 사용합니다.
+- NUnit 또는 MSTest 프레임워크 등의 선택한 단위 테스트 프레임워크를 사용합니다.
 
--   필요한 모든 정보를 하나의 창에서 확인합니다.
+- 필요한 모든 정보를 하나의 창에서 확인합니다.
 
 ## <a name="use-test-explorer"></a>테스트 탐색기 사용
- ![모두 실행 단추를 표시하는 단위 테스트 탐색기](../test/media/unittestexplorer-beta-.png)
+
+![모두 실행 단추를 표시하는 테스트 탐색기](../test/media/unittestexplorer-beta-.png)
 
 ### <a name="to-run-unit-tests-by-using-test-explorer"></a>테스트 탐색기를 사용하여 단위 테스트를 실행하려면
 
-1. 선택한 테스트 프레임워크를 사용하는 단위 테스트를 만듭니다.
+1. 선택한 테스트 프레임워크를 사용하는 단위 테스트를 만듭니다. 예를 들어, MSTest Framework를 사용하는 테스트를 만듭니다.
 
-    예를 들어, MSTest Framework를 사용하는 테스트를 만듭니다.
+   1. C#, Visual Basic 또는 C++용 **Unit Test Project** 프로젝트를 만듭니다.
 
-   1.  테스트 프로젝트를 만듭니다.
-
-        **새 프로젝트** 대화 상자에서 **Visual Basic**, **Visual C#** 또는 **Visual C++** 를 확장하고 **테스트**를 선택합니다.
-
-        **단위 테스트 프로젝트**를 선택합니다.
-
-   2.  각 단위 테스트를 메서드로 작성합니다. 각 테스트 메서드 앞에 `[TestMethod]` 특성을 접두사로 지정합니다.
+   2. 각 단위 테스트를 메서드로 작성합니다. 각 테스트 메서드 앞에 `[TestMethod]` 특성을 접두사로 지정합니다.
 
 2. 개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
 
@@ -66,19 +61,17 @@ ms.locfileid: "55925243"
 > [!NOTE]
 > 테스트가 표시되지 않으면 어댑터를 설치하여 테스트 탐색기를 사용 중인 테스트 프레임워크에 연결했는지 확인하십시오. 자세한 내용은 [타사 단위 테스트 프레임워크 설치](install-third-party-unit-test-frameworks.md)를 참조하세요.
 
+## <a name="walkthrough-using-unit-tests-to-develop-a-method"></a>연습: 단위 테스트를 사용하여 메서드 개발
 
-##  <a name="walkthrough-using-unit-tests-to-develop-a-method"></a>연습: 단위 테스트를 사용하여 메서드 개발
- 이 연습에서는 Microsoft 단위 테스트 프레임워크를 사용하여 C#에서 테스트 메서드를 개발하는 방법을 보여 줍니다. 다른 언어에 맞게 쉽게 조정할 수 있으며 NUnit과 같은 다른 테스트 프레임워크에도 사용할 수 있습니다. 자세한 내용은 [타사 단위 테스트 프레임워크 설치](install-third-party-unit-test-frameworks.md)를 참조하세요.
+이 연습에서는 Microsoft 단위 테스트 프레임워크를 사용하여 C#에서 테스트 메서드를 개발하는 방법을 보여 줍니다. 다른 언어에 맞게 쉽게 조정할 수 있으며 NUnit과 같은 다른 테스트 프레임워크에도 사용할 수 있습니다. 자세한 내용은 [타사 단위 테스트 프레임워크 설치](install-third-party-unit-test-frameworks.md)를 참조하세요.
 
 ### <a name="create-the-test-and-method"></a>테스트 및 메서드 만들기
 
-1. Visual C# 클래스 라이브러리 프로젝트를 만듭니다. 이 프로젝트에는 전달할 코드가 포함됩니다. 이 예제에서는 `MyMath`이라는 이름으로 지정됩니다.
+1. C# **클래스 라이브러리** 프로젝트를 만듭니다. 이 프로젝트에는 전달할 코드가 포함됩니다. 이 예제에서는 `MyMath`라는 이름으로 지정됩니다.
 
-2. 테스트 프로젝트를 만듭니다.
+2. 새 **Unit Test Project** 프로젝트를 만듭니다.
 
-   -   **새 프로젝트** 대화 상자에서 **Visual C#** > **테스트**를 선택한 다음, **단위 테스트 프로젝트**를 선택합니다.
-
-        ![새 코드 및 테스트 프로젝트](../test/media/unittestexplorerwalk1.png)
+   ![새 코드 및 테스트 프로젝트](../test/media/unittestexplorerwalk1.png)
 
 3. 기본 테스트 메서드를 작성합니다. 특정 입력에 대해 얻은 결과를 확인합니다.
 

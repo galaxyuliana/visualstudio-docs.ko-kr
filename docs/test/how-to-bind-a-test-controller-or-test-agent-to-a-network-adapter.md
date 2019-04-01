@@ -11,12 +11,12 @@ ms.assetid: 7eb9290a-f9f6-4e41-9caa-796fcfaf0610
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 29f6cfe21537cd74ffa135edc3f93b9d8548aab7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c72eb3db36310efd69d18078ca43c1907697453b
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946667"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58414972"
 ---
 # <a name="how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter"></a>방법: 네트워크 어댑터에 테스트 컨트롤러 또는 테스트 에이전트 바인딩
 
@@ -55,7 +55,7 @@ ms.locfileid: "55946667"
 
      `net stop vsttcontroller`
 
-3.  *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*에 있는 *QTCcontroller.exe.config* XML 구성 파일을 엽니다.
+3.  *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*에 있는 *QTCcontroller.exe.config* XML 구성 파일을 엽니다.
 
 4.  `<appSettings>` 태그를 찾습니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "55946667"
 
      **net stop vsttagent**
 
-3.  *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*에 있는 *QTAgentService.exe.config* XML 구성 파일을 엽니다.
+3.  *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*에 있는 *QTAgentService.exe.config* XML 구성 파일을 엽니다.
 
 4.  `<appSettings>` 태그를 찾습니다.
 
@@ -133,5 +133,4 @@ ms.locfileid: "55946667"
 - [테스트 에이전트 설치 및 구성](../test/lab-management/install-configure-test-agents.md)
 - [부하 테스트 로깅 설정 수정](../test/modify-load-test-logging-settings.md)
 - [테스트 컨트롤러 및 테스트 에이전트 포트 구성](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [방법: 로그 파일의 최대 크기 지정](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
 - [방법: 테스트 컨트롤러 및 테스트 에이전트의 시간 제한 기간 지정](../test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md)

@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 381f04b78e5cfc9ed61187e62e310a2d927eb0ce
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ca83689628f02a8c7a2e0166b390d5b277086c1d
+ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949436"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58416138"
 ---
 # <a name="create-a-unit-test-project"></a>단위 테스트 프로젝트 만들기
 
@@ -23,11 +23,23 @@ ms.locfileid: "55949436"
 
 ## <a name="to-create-a-unit-test-project"></a>단위 테스트 프로젝트를 만들려면
 
-1. **파일** 메뉴에서 **새로 만들기**, **프로젝트**를 차례로 선택합니다. 또는 **Ctrl**+**Shift**+**N**을 누릅니다.
+1. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 선택하거나 **Ctrl**+**Shift**+**N**을 누릅니다.
+
+::: moniker range="vs-2017"
 
 2. **새 프로젝트** 대화 상자에서 **설치됨** 노드를 확장하고 테스트 프로젝트에 사용하려는 언어를 선택한 후 **테스트**를 선택합니다.
 
 3. Microsoft 단위 테스트 프레임워크 중 하나를 사용하려면 프로젝트 템플릿 목록에서 **단위 테스트 프로젝트** 를 선택합니다. 그렇지 않으면 사용하려는 단위 테스트 프레임워크의 프로젝트 템플릿을 선택합니다. 프로젝트 이름을 지정한 다음, **확인**을 선택합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. **새 프로젝트 만들기** 페이지에서 **단위 테스트**를 검색 상자에 입력합니다. **Unit Test Project(.NET Framework)** 프로젝트 템플릿을 선택한 후, **다음**을 클릭합니다.
+
+3. **새 프로젝트 구성** 페이지에서 프로젝트의 이름을 입력한 다음, **만들기**를 클릭합니다.
+
+::: moniker-end
 
 4. 단위 테스트 프로젝트에서 테스트 중인 코드에 대한 참조를 추가합니다. 동일한 솔루션의 코드 프로젝트에 대한 참조를 추가하려면:
 
