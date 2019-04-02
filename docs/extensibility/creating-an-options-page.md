@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d9830178d936e912caf6ab21761f7a072c29a4d4
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 7b04977a15dfa082674b7661588b496d1a3c494d
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194420"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790162"
 ---
 # <a name="create-an-options-page"></a>옵션 페이지 만들기
 
@@ -101,7 +101,7 @@ ms.locfileid: "58194420"
 
      왼쪽된 창에 나타납니다 **My Category**합니다. (옵션 범주는 사전순으로 나열을 목록 아래쪽 중간에 대 한 표시 되어야 하므로.) 오픈 **My Category** 을 클릭 한 다음 **그리드 페이지 내**합니다. 옵션 표의 오른쪽 창에 나타납니다. 속성 범주가 **My Options**, 속성 이름은 **내 정수 옵션**합니다. 속성 설명 **내 정수 옵션**, 창의 아래쪽에 나타납니다. 256의 초기 값에서 다른 값을 변경 합니다. 클릭 **확인**를 닫은 다음 **그리드 페이지 내**합니다. 지속 되 면 새 값을 볼 수 있습니다.
 
-     옵션 페이지에도 Visual Studio의 빠른 시작을 통해 제공 됩니다. IDE의 오른쪽 위 모서리에서 빠른 실행 창에서 입력 **My Category** 나타납니다 **-> 내 그리드 페이지 내 범주** 드롭다운에 나열 합니다.
+     옵션 페이지에도 Visual Studio의 검색 상자를 통해 제공 됩니다. IDE 위쪽 검색 상자에 입력 **My Category** 를 확인할 수 있습니다 **-> 내 그리드 페이지 내 범주** 결과에 나열 합니다.
 
 ## <a name="create-a-tools-options-custom-page"></a>사용자 지정 도구 옵션 페이지 만들기
 
