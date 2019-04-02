@@ -42,10 +42,10 @@ items:
     href: application-timeline.md
   - name: PerfTips 사용
     href: perftips.md
-  - name: JavaScript 메모리 분석
-    href: javascript-memory.md
   - name: 네트워크 사용량 분석
     href: network-usage.md
+  - name: JavaScript 메모리 분석
+    href: javascript-memory.md
   - name: HTML UI 응답성 분석
     href: html-ui-responsiveness.md
   - name: 성능 탐색기 사용
@@ -533,7 +533,7 @@ items:
             href: start.md
           - name: CrossSession
             href: crosssession.md
-          - name: 출력
+          - name: Output
             href: output.md
           - name: WinCounter
             href: wincounter.md
@@ -807,9 +807,9 @@ items:
   items:
   - name: 프로파일링 도구의 새로운 기능
     href: what-s-new-in-profiling-tools.md
-ms.openlocfilehash: bb8084e155ff87a596fdb5374cb3e67f86243f3d
-ms.sourcegitcommit: 62149c96de0811415e99bb1e0194e76c320e1a1e
+ms.openlocfilehash: 8369f284b302be0240f85c26aa7c89d13566af5f
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "57007373"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790786"
