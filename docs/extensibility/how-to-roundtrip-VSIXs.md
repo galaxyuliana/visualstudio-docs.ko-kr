@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: justinclareburt
 ms.workload:
 - willbrown
-ms.openlocfilehash: 0b70d8f1692eed8dcd1ba339dc9bcbb361e60db0
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 1014d76473511df9b73cae371e5e5dea2364f8b2
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323817"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790422"
 ---
 # <a name="how-to-make-extensions-compatible-with-visual-studio-2017-and-visual-studio-2015"></a>방법: 확장을 Visual Studio 2017 및 Visual Studio 2015와 호환 되도록
 
@@ -95,7 +95,7 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 
 ### <a name="2-adding-prerequisites-to-the-extensionvsixmanifest-file"></a>2. 필수 구성 요소를 추가 합니다 *extension.vsixmanifest* 파일
 
-필수 구성 요소는 Visual Studio 2017을 사용 하 여 새로운 기능입니다. 이 경우에 필수 구성 요소로 Visual Studio 핵심 편집기 필요합니다. Visual Studio 2015 VSIX 디자이너 새 처리 하지 않는 있으므로 `Prerequisites` XML 코드에서 수동으로이 부분을 편집 해야 섹션입니다. 또는 Visual Studio 2017를 열고 업데이트 된 매니페스트 디자이너를 사용 하 여 필수 구성 요소를 삽입할 수 있습니다.
+필수 구성 요소로 Visual Studio 핵심 편집기 필요합니다. Visual Studio를 열고 업데이트 된 매니페스트 디자이너를 사용 하 여 필수 구성 요소를 삽입 합니다.
 
 이렇게 하려면 수동으로.
 
@@ -109,10 +109,10 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 </Prerequisites>
 ```
 
-* 파일을 저장한 후 닫습니다.
+* 파일을 저장하고 닫습니다.
 
 > [!NOTE]
-> Visual Studio 2017에서 VSIX 디자이너를 사용 하 여이 작업을 수행 하려는 경우 Visual Studio 2017의 모든 버전과 호환 되는지 확인 하는 필수 구성 요소 버전을 수동으로 편집 해야 합니다. 디자이너는 최소 버전 (예를 들어 15.0.26208.0) Visual Studio의 현재 버전으로 삽입 때문입니다. 그러나 다른 사용자가 이전 버전 수 없으므로 수동으로 편집 하려면이를 15.0입니다.
+> Visual Studio 2017의 모든 버전과 호환 되는지 확인 하는 필수 구성 요소 버전을 수동으로 편집 해야 합니다. 디자이너는 최소 버전 (예를 들어 15.0.26208.0) Visual Studio의 현재 버전으로 삽입 때문입니다. 그러나 다른 사용자가 이전 버전 수 없으므로 수동으로 편집 하려면이를 15.0입니다.
 
 이 시점에서 매니페스트 파일은 다음과 같이 표시 됩니다.
 
@@ -189,7 +189,7 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 
 * 추가 조건부 명령문을 추가 합니다 `<Error>` 는 Microsoft.VisualStudio.Sdk.BuildTasks.14.0 있는 태그입니다. 삽입 `'$(VisualStudioVersion)' == '14.0' And` 조건문 맨 앞에 있습니다. 이러한 문은 csproj 파일의 바닥글에 표시 됩니다.
 
-예를 들면,
+예를 들어:
 
 ```xml
 <Error Condition="'$(VisualStudioVersion)' == '14.0' And Exists('packages\Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…" />

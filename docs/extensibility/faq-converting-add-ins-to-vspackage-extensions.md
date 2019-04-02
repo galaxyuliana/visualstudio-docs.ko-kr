@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7e43c50dd006190935f8ce1eb3a17e3f268e14cd
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d1abb79bc8d982ba36091bfcbc6ec4c84c5df4a2
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692829"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789532"
 ---
 # <a name="faq-converting-add-ins-to-vspackage-extensions"></a>FAQ: 추가 기능을 VSPackage 확장으로 변환
 추가 기능은 이제 사용되지 않습니다. 새 Visual Studio 확장을 하려면 VSIX 확장 프로그램을 만드는 해야 합니다. 다음은 Visual Studio 추가 기능에서 VSIX 확장을 변환 하는 방법에 대 한 일부 자주 묻는 질문에 대 한 답변입니다.
@@ -40,26 +40,27 @@ ms.locfileid: "56692829"
 ##  <a name="BKMK_StartDeveloping"></a> VSIX 확장 개발 시작 하려면 어떻게 해야 하나요?
  메뉴 명령이 포함 된 VSIX를 확인 하는 방법을 다음과 같습니다.
 
-#### <a name="to-make-a-vsix-extension-that-has-a-menu-command"></a>메뉴 명령이 포함 된 VSIX 확장을 확인 하려면
+### <a name="to-make-a-vsix-extension-that-has-a-menu-command"></a>메뉴 명령이 포함 된 VSIX 확장을 확인 하려면
 
-1.  VSIX 프로젝트를 만듭니다. (**파일** > **새로 만들기** > **프로젝트**, 또는 형식 **프로젝트** 에 **빠른실행** 창). 에 **새 프로젝트** 대화 상자에서 **Visual C#** > **확장성** 하거나 **Visual Basic**  >   **확장성** 선택한 **VSIX 프로젝트**.) 프로젝트 이름을 **TestExtension** 에 대 한 위치를 지정 합니다.
+1. VSIX 프로젝트를 만듭니다. (**파일** > **새로 만들기** > **프로젝트**, 또는 형식 **프로젝트** 검색 상자에). 에 **새 프로젝트** 대화 상자에서 **시각적 C#**   >  **확장성** 또는 **Visual Basic**  >  **확장성** 선택한 **VSIX 프로젝트**합니다. 프로젝트 이름을 **TestExtension** 에 대 한 위치를 지정 합니다.
 
-2.  추가 된 **사용자 지정 명령** 프로젝트 항목 템플릿. (에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭 합니다 **솔루션 탐색기** 선택한 **추가** > **새 항목**합니다. 에 **새 프로젝트** Visual C# 또는 Visual Basic의 경우 선택 대화 상자를 **확장성** 노드와 선택 **사용자 지정 명령**.)
+2. 추가 된 **사용자 지정 명령** 항목 템플릿. (에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭 합니다 **솔루션 탐색기** 선택한 **추가** > **새 항목**합니다. 에 **새 항목 추가** 하거나 시각적 개체에 대해 대화 C# 또는 Visual Basic을 선택 합니다 **확장성** 노드를 선택 **사용자 지정 명령**.)
 
-3.  키를 눌러 **F5** 을 빌드 및 디버그 모드에서 프로젝트를 실행 합니다.
+3. 키를 눌러 **F5** 을 빌드 및 디버그 모드에서 프로젝트를 실행 합니다.
 
-     두 번째 Visual Studio 인스턴스가 표시됩니다. 이 두 번째 인스턴스는 실험적 인스턴스이며, 코드를 작성하는 데 사용하는 Visual Studio 인스턴스와 설정이 다를 수도 있습니다. 실험적 인스턴스를 처음 실행할 때는 VS Online에 로그인하고 테마와 프로필을 지정하라는 메시지가 표시됩니다.
+   두 번째 Visual Studio 인스턴스가 표시됩니다. 이 두 번째 인스턴스는 실험적 인스턴스이며, 코드를 작성하는 데 사용하는 Visual Studio 인스턴스와 설정이 다를 수도 있습니다. 실험적 인스턴스를 처음 실행할 때는 VS Online에 로그인하고 테마와 프로필을 지정하라는 메시지가 표시됩니다.
 
-     에 **도구** (실험적 인스턴스)에서 메뉴 단추가 표시 됩니다 **내 명령 이름**합니다. 이 단추를 선택 하면 메시지가 표시 됩니다. **TestVSPackagePackage.MenuItemCallback() 내**합니다.
+   에 **도구** (실험적 인스턴스)에서 메뉴 단추가 표시 됩니다 **내 명령 이름**합니다. 이 단추를 선택 하면 메시지가 표시 됩니다. **TestVSPackagePackage.MenuItemCallback() 내**합니다.
 
 ##  <a name="BKMK_RunAddin"></a> VSPackage에서 추가 기능에서 코드를 실행할 수는 방법
- 추가 기능 코드는 보통 두 가지 방법 중 하나로 실행됩니다.
+
+추가 기능 코드는 보통 두 가지 방법 중 하나로 실행됩니다.
 
 - 메뉴 명령에 의해 트리거된 (코드는 `IDTCommandTarget.Exec` 메서드.)
 
 - 시작 시 자동으로 실행. 코드는 `OnConnection` 이벤트 처리기에 포함되어 있습니다.
 
-  VSPackage에서도 같은 방식을 사용할 수 있습니다. 콜백 메서드에 일부 추가 기능 코드를 추가하는 방법은 다음과 같습니다.
+VSPackage에서도 같은 방식을 사용할 수 있습니다. 콜백 메서드에 일부 추가 기능 코드를 추가하는 방법은 다음과 같습니다.
 
 ### <a name="to-implement-a-menu-command-in-a-vspackage"></a>VSPackage에서 메뉴 명령을 구현하려면
 
