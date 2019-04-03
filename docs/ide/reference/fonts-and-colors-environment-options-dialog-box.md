@@ -25,16 +25,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e33aaded85c7931dfc3a95d653ff35f257c9137b
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: b48c86c74b724dc6df5d5935f1340f6de0fc9185
+ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58070258"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58647468"
 ---
 # <a name="fonts-and-colors-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 글꼴 및 색
 
-**옵션** 대화 상자의 **글꼴 및 색** 페이지를 사용하면 IDE(통합 개발 환경)에서 여러 사용자 인터페이스 요소의 사용자 지정 글꼴 및 색 구성표를 설정할 수 있습니다. **도구** > **옵션**을 클릭한 다음, **환경** > **글꼴 및 색**을 선택하여 이 대화 상자에 액세스할 수 있습니다. 이 페이지가 목록에 나타나지 않으면 **옵션** 대화 상자에서 **모든 설정 표시**를 선택합니다.
+**옵션** 대화 상자의 **글꼴 및 색** 페이지를 사용하면 IDE(통합 개발 환경)에서 여러 사용자 인터페이스 요소의 사용자 지정 글꼴 및 색 구성표를 설정할 수 있습니다. **도구** > **옵션**을 클릭한 다음, **환경** > **글꼴 및 색**을 선택하여 이 대화 상자에 액세스할 수 있습니다.
 
 색 구성표의 변경 내용은 변경을 수행하는 세션 중에는 적용되지 않습니다. Visual Studio의 또 다른 인스턴스를 열고 이 변경 내용이 적용되는 조건을 만들어 색 변경 내용을 평가할 수 있습니다.
 

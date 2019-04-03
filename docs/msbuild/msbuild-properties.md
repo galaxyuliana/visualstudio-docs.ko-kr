@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fed1fff9e776521581455a89db48897f22de7bf5
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: c194531c5436549efa06ca93e987e55739276926
+ms.sourcegitcommit: d78821f8c353e0102b1554719f549f32dffac71b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355619"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "58515209"
 ---
 # <a name="msbuild-properties"></a>MSBuild 속성
 빌드를 구성하는 데 사용될 수 있는 이름/값 쌍인 속성은 작업에 값을 전달하고, 조건을 평가하고, 프로젝트 파일 전체에서 참조할 값을 저장하는 데 유용합니다.
@@ -59,7 +59,7 @@ ms.locfileid: "58355619"
  자세한 내용은 [방법: 빌드 시 환경 변수 사용](../msbuild/how-to-use-environment-variables-in-a-build.md)을 참조하세요.
 
 ## <a name="registry-properties"></a>레지스트리 속성
- 다음 구문을 사용하여 시스템 레지스트리 값을 읽을 수 있습니다. 여기서 `Hive`는 **HKEY_LOCAL_MACHINE**과 같은 레지스트리 하이브, `Key`는 키 이름, `SubKey`는 하위 키 이름, `Value`는 하위 키의 값입니다.
+ 다음 구문을 사용하여 시스템 레지스트리 값을 읽을 수 있습니다. 여기서 `Hive`는 **HKEY_LOCAL_MACHINE**과 같은 레지스트리 하이브, `MyKey`는 키 이름, `MySubKey`는 하위 키 이름, `Value`는 하위 키의 값입니다.
 
 ```xml
 $(registry:Hive\MyKey\MySubKey@Value)
