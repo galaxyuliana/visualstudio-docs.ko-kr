@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: cd7ea5df54d1ef740feddaeb5fbedbc9b9a42fd4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: afb73b316dd54284073c3d878fb35b4bb6090e08
+ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55943118"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58647247"
 ---
 # <a name="create-a-database-and-add-tables-in-visual-studio"></a>데이터베이스를 만들고 Visual Studio에서 테이블을 추가 합니다.
 
@@ -26,11 +26,11 @@ ms.locfileid: "55943118"
 
 ## <a name="prerequisites"></a>전제 조건
 
-이 연습을 완료 하려면 선택적 있어야 **데이터 저장소 및 처리** 워크 로드가 Visual Studio에서 설치 합니다. 을 설치 하려면 엽니다 **Visual Studio 설치 관리자** 선택 합니다 **워크 로드** 탭 합니다. 아래 **웹 및 클라우드**, 선택 **데이터 저장 및 처리**합니다. 선택 된 **수정** Visual Studio에 작업을 추가 하려면 단추입니다.
+이 연습을 완료 하려면 선택적 있어야 **데이터 저장소 및 처리** 워크 로드가 Visual Studio에서 설치 합니다. 을 설치 하려면 엽니다 **Visual Studio 설치 관리자** 선택한 **자세한** > **수정** 수정 하려는 Visual Studio 버전 옆에 있는 (있는 경우 두 개 하나의 설치 된 버전)입니다. 에 **워크 로드** 탭의 **웹 및 클라우드**, 선택 **데이터 저장 및 처리**를 클릭 하 고 **수정** 워크 로드를 추가 하려면 Visual Studio입니다.
 
 ## <a name="create-a-project-and-a-local-database-file"></a>프로젝트 및 로컬 데이터베이스 파일 만들기
 
-1. **SampleDatabaseWalkthrough**로 명명된 Windows Form 프로젝트를 만듭니다.
+1. 새 **Windows Forms 앱** 프로젝트 하 고 이름을 **SampleDatabaseWalkthrough**합니다.
 
 2. 메뉴 모음에서 선택 **프로젝트** > **새 항목 추가**합니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "55943118"
 
      ![항목 템플릿 대화 상자](../data-tools/media/raddata-vsitemtemplates.png)
 
-4. 데이터베이스 이름을 **SampleDatabase**를 선택한 후 합니다 **추가** 단추입니다.
+4. 데이터베이스 이름을 **SampleDatabase**를 클릭 하 고 **추가**합니다.
 
 ### <a name="add-a-data-source"></a>데이터 원본 추가
 
@@ -62,9 +62,9 @@ ms.locfileid: "55943118"
 
 에 대 한 연결 문자열을 볼 수 있습니다 합니다 *SampleDatabase.mdf* 데이터 연결의 속성 창을 열어 파일:
 
-- Visual Studio에서 선택 **뷰** > **SQL Server 개체 탐색기** 창이 열려 있지 않은 경우. 확장 하 여 속성 창을 엽니다는 **데이터 연결** 에 대 한 바로 가기 메뉴를 열고 노드를 *SampleDatabase.mdf*를 선택한 다음 **속성**.
+- 선택 **뷰** > **SQL Server 개체 탐색기** 열려고 합니다 **SQL Server 개체 탐색기** 창. 확장 **(localdb) \MSSQLLocalDB** > **데이터베이스**를 마우스 오른쪽 단추로 클릭 하 고 *SampleDatabase.mdf* 선택한 **속성**.
 
-- 선택할 수 있습니다 **뷰** > **서버 탐색기**창이 아직 열려 있지 않은 경우. 확장 하 여 속성 창을 엽니다는 **데이터 연결** 노드. 바로 가기 메뉴를 열고 *SampleDatabase.mdf*를 선택한 후 **속성**합니다.
+- 선택할 수 있습니다 **뷰** > **서버 탐색기**창이 아직 열려 있지 않은 경우. 확장 하 여 속성 창을 엽니다는 **데이터 연결** 에 대 한 바로 가기 메뉴를 열고 노드를 *SampleDatabase.mdf*를 선택한 다음 **속성**.
 
 ## <a name="create-tables-and-keys-by-using-table-designer"></a>테이블 디자이너를 사용 하 여 테이블 및 키 만들기
 
@@ -72,7 +72,7 @@ ms.locfileid: "55943118"
 
 ### <a name="create-the-customers-table"></a>Customers 테이블을 만들려면
 
-1. **서버 탐색기** 또는 **SQL Server 개체 탐색기**를 확장 합니다 **데이터 연결** 노드를 펼친 다음는 **SampleDatabase.mdf**노드.
+1. **서버 탐색기**를 확장 합니다 **데이터 연결** 노드를 펼친 다음 합니다 **SampleDatabase.mdf** 노드.
 
 2. 바로 가기 메뉴를 열고 **테이블**를 선택한 후 **새 테이블 추가**합니다.
 
@@ -101,9 +101,9 @@ ms.locfileid: "55943118"
 
     ![테이블 디자이너](../data-tools/media/raddata-table-designer.png)
 
-7. 왼쪽 위 모서리에는 **테이블 디자이너**를 선택 합니다 **업데이트** 단추입니다.
+7. 왼쪽 위 구석에 **테이블 디자이너**를 선택 **업데이트**합니다.
 
-8. 에 **데이터베이스 업데이트 미리 보기** 대화 상자를 선택 합니다 **데이터베이스 업데이트** 단추입니다.
+8. 에 **데이터베이스 업데이트 미리 보기** 대화 상자에서 **데이터베이스 업데이트**합니다.
 
     변경 내용이 로컬 데이터베이스 파일에 저장됩니다.
 

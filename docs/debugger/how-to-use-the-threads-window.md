@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 80ef787bb9293bb26ba9ab706abf805005153752
-ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
+ms.openlocfilehash: e3a87fd0480727a524b36ab209f5126b0f996c30
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58476035"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790799"
 ---
 # <a name="walkthrough-debug-a-multithreaded-app-using-the-threads-window-c-visual-basic-c"></a>연습: 스레드 창을 사용 하 여 다중 스레드 앱 디버깅 (C#, Visual Basic, c + +)
 
@@ -37,10 +37,10 @@ ms.locfileid: "58476035"
 1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
-    
-    - 에 대 한 C#을 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C#합니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
-    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기**합니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
+    키를 눌러 **Esc** 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
+
+    - 에 대 한 C#을 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C#합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기**합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
 
     그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 클릭 **만들기**합니다.
     ::: moniker-end
@@ -52,7 +52,7 @@ ms.locfileid: "58476035"
     그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 누릅니다 **확인**합니다.
     ::: moniker-end
 
-    표시 되지 않는 경우는 **콘솔 앱** 프로젝트 템플릿로 이동 **도구** > **도구 및 기능 가져오기...** , Visual Studio 설치 관리자를 엽니다. **.NET 데스크톱 개발*** 또는 **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.
+    **콘솔 앱** 프로젝트 템플릿이 표시되지 않는 경우 **도구** > **도구 및 기능 가져오기...** 로 이동하면 Visual Studio 설치 관리자가 열립니다. **.NET 데스크톱 개발*** 또는 **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.
 
     새 프로젝트에 나타납니다 **솔루션 탐색기**, 소스 파일을 호출 하 고 *Program.cs* 또는 *MyThreadWalkthroughApp.cpp* 소스 코드 창에서 열립니다.
 

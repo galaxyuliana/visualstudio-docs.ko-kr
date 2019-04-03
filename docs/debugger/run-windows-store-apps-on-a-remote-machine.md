@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 0fa9749a06c568f7fab55cd6c7a862fa616ecf6d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 1d0ff9d8f3113b1df1e10891a3bd2197dd92482d
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56708705"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789902"
 ---
 # <a name="debug-uwp-apps-on-remote-machines-from-visual-studio"></a>Visual Studio에서 원격 컴퓨터에서 UWP 앱 디버그
 
@@ -55,9 +55,9 @@ Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
 
     ![원격 디버깅에 대 한 프로젝트 속성 관리](../debugger/media/vsrun_managed_projprop_remote.png "디버그 관리 되는 프로젝트 속성")
 
-###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> 원격 디버깅에 대 한 JavaScript 또는 c + + 프로젝트 구성
+###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> 원격 디버깅을 위해 c + + 프로젝트 구성
 
-1.  Visual Studio에서 c + + 또는 JavaScript 프로젝트를 선택 **솔루션 탐색기** 선택 합니다 **속성** 아이콘을 눌러 **Alt**+**Enter** 를 마우스 오른쪽 단추로 클릭 하 고 선택 하거나 **속성**합니다.
+1.  Visual Studio에서 c + + 프로젝트를 선택 **솔루션 탐색기** 선택 합니다 **속성** 아이콘을 눌러 **Alt**+**Enter**를 마우스 오른쪽 단추로 클릭 하 고 선택 하거나 **속성**합니다.
 
 1.  선택 된 **디버깅** 탭 합니다.
 

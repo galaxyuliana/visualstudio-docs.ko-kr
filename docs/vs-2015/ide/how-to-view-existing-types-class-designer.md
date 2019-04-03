@@ -33,7 +33,7 @@ ms.locfileid: "54758145"
   
 ### <a name="to-see-types-in-a-project-on-a-class-diagram"></a>클래스 다이어그램에서 프로젝트의 형식을 보려면  
   
-1. 솔루션 탐색기의 프로젝트에서 기존 클래스 다이어그램(.cd) 파일을 엽니다. 또는 클래스 다이어그램이 없으면 프로젝트에 새 클래스 다이어그램을 추가합니다. [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)을 참조하세요.  
+1. 솔루션 탐색기의 프로젝트에서 기존 클래스 다이어그램(.cd) 파일을 엽니다. 또는 클래스 다이어그램이 없으면 프로젝트에 새 클래스 다이어그램을 추가합니다. [방법: 프로젝트에 클래스 다이어그램 추가(클래스 디자이너)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)을 참조하세요.  
   
 2. 솔루션 탐색기의 프로젝트에서 소스 코드 파일을 클래스 다이어그램으로 끌어 놓습니다.  
   

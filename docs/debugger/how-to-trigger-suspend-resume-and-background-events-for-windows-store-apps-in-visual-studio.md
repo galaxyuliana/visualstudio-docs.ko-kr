@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: ea8b7f378562d31cfcfde786664e227a3fec6b0c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: f5ef78f64ecea712083a25ab999f1554672d3381
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56708864"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790357"
 ---
 # <a name="how-to-trigger-suspend-resume-and-background-events-while-debugging-uwp-apps-in-visual-studio"></a>트리거하는 방법 일시 중단, 다시 시작 및 백그라운드 이벤트를 Visual Studio에서 UWP 앱을 디버깅 하는 동안
 디버깅하고 있지 않을 때는 Windows PLM( **프로세스 수명 관리** )에서 응용 프로그램의 실행 상태(디바이스 상태 및 사용자 작업에 응답하여 응용 프로그램 시작, 일시 중단, 다시 시작 및 종료)를 제어합니다. 디버깅하는 중에는 Windows가 이러한 활성화 이벤트를 사용하지 않도록 설정합니다. 이 항목에서는 디버거에서 이러한 이벤트를 발생시키는 방법에 대해 설명합니다.
@@ -72,7 +72,7 @@ ms.locfileid: "56708864"
 
 2.  시작 프로젝트에 대한 디버그 속성 페이지를 엽니다. 솔루션 탐색기에서 프로젝트를 선택합니다. **디버그** 메뉴에서 **속성**을 선택합니다.
 
-     C + + 및 JavaScript 프로젝트에 대 한 확장 **구성 속성** 를 선택한 후 **디버깅**합니다.
+     C + + 프로젝트에 대 한 확장 **구성 속성** 를 선택한 후 **디버깅**합니다.
 
 3.  다음 작업 중 하나를 수행합니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "56708864"
 
          ![C&#35;&#47;VB 디버그 시작 응용 프로그램 속성](../debugger/media/dbg_csvb_dontlaunchapp.png "DBG_CsVb_DontLaunchApp")
 
-    -   JavaScript 및 Visual C++ 프로젝트의 경우 **애플리케이션 시작** 목록에서 **아니요** 를 선택합니다.
+    -   Visual c + + 프로젝트의 경우 선택 **No** 에서 합니다 **응용 프로그램 시작** 목록.
 
          ![C&#43;&#43;&#47;응용 프로그램 디버그 속성 VB 시작](../debugger/media/dbg_cppjs_dontlaunchapp.png "DBG_CppJs_DontLaunchApp")
 

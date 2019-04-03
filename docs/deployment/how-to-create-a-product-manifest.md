@@ -18,17 +18,17 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 622bf6f34b2644c028886184cf42e8f994a43f71
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 48bed4a357809a672b1fc80063ca6743670cbb42
+ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596923"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58568103"
 ---
 # <a name="how-to-create-a-product-manifest"></a>방법: 제품 매니페스트 만들기
 응용 프로그램에 대 한 필수 구성 요소를 배포 하려면 부트스트래퍼 패키지를 만들 수 있습니다. 부트스트래퍼 패키지는 각 로캘에 대해 없지만 패키지 매니페스트를 단일 제품 매니페스트 파일을 포함합니다. 패키지 매니페스트 지역화 관련 부분은 패키지를 포함합니다. 문자열, 최종 사용자 사용권 계약 및 언어 팩이 포함 됩니다.
 
- 제품 매니페스트 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 패키지 매니페스트 만들기](../deployment/how-to-create-a-package-manifest.md)합니다.
+ 패키지 매니페스트에 대 한 자세한 내용은 참조 하세요. [방법: 패키지 매니페스트 만들기](../deployment/how-to-create-a-package-manifest.md)합니다.
 
 ## <a name="create-the-product-manifest"></a>제품 매니페스트 만들기
 

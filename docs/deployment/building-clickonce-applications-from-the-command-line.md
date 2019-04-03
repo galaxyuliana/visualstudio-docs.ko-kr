@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5576a6d219a27ad51c096ee3ddb177b656b0552e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fcab7ac3bb2a7983d8500b6f27f910fa33fc1efe
+ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56636959"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58567843"
 ---
 # <a name="build-clickonce-applications-from-the-command-line"></a>명령줄에서 ClickOnce 애플리케이션 빌드
 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], 통합된 개발 환경 (IDE)에서 만들어진 경우에 명령줄에서 프로젝트를 빌드할 수 있습니다. 사용 하 여 만든 프로젝트를 다시 작성할 수는 사실 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] 만 있는 다른 컴퓨터에는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 설치 합니다. 이 자동화 된 프로세스를 사용 하 여 빌드를 재현할 수 있습니다, 그리고 예를 들어, 중앙 빌드에서 랩 또는 사용 하 여 고급 스크립팅 기술 자체는 프로젝트 빌드 범위를 벗어납니다.
@@ -41,21 +41,21 @@ ms.locfileid: "56636959"
 
 #### <a name="to-create-and-publish-a-clickonce-project"></a>만들기 및 ClickOnce 프로젝트를 게시 하려면
 
-1. 클릭 **새 프로젝트** 에서 합니다 **파일** 메뉴. **새 프로젝트** 대화 상자가 나타납니다.
+1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
-2. 선택 **Windows 응용 프로그램** 하 고 이름을 `CmdLineDemo`입니다.
+    선택 된 **Windows 데스크톱 응용 프로그램** 프로젝트 템플릿 및 프로젝트 이름을 `CmdLineDemo`입니다.
 
-3. **빌드** 메뉴를 클릭 합니다 **게시** 명령입니다.
+1. **빌드** 메뉴를 클릭 합니다 **게시** 명령입니다.
 
     이 단계를 수행 하면 프로젝트 생성을 제대로 구성 되어 있는지를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 배포.
 
     게시 마법사가 나타납니다.
 
-4. 게시 마법사에서 클릭 **완료**합니다.
+1. 게시 마법사에서 클릭 **완료**합니다.
 
     생성 하 고 호출 기본 웹 페이지를 표시 하는 visual Studio *Publish.htm*합니다.
 
-5. 프로젝트를 저장 하 고 이전에 저장 된 폴더 위치를 기록 합니다.
+1. 프로젝트를 저장 하 고 이전에 저장 된 폴더 위치를 기록 합니다.
 
    위의 단계 만들기는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 처음으로 게시 된 프로젝트입니다. 이제 IDE 외부에서 빌드를 재현할 수 있습니다.
 

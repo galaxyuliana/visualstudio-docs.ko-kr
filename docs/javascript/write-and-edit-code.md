@@ -10,19 +10,19 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 10557e8ce959be2d1170044e20fd0ad99c76fa86
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 111100038817d16d4655271f648aeb076bf1e9af
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957832"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856634"
 ---
 # <a name="learn-to-use-the-code-editor"></a>코드 편집기를 사용하는 방법 알아보기
 
 Visual Studio의 코드 편집기에 대한 간략한 소개에서는 Visual Studio에서 코드를 보다 쉽게 작성, 탐색 및 이해하는 몇 가지 방법을 보여줍니다.
 
 > [!TIP]
-> 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다. 수행 중인 앱 개발 형식에 따라 Visual Studio와 함께 **Node.js 개발 워크로드**를 설치해야 할 수 있습니다.
+> 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/) 페이지로 이동하여 체험용으로 설치합니다. 수행 중인 앱 개발 형식에 따라 Visual Studio와 함께 **Node.js 개발 워크로드**를 설치해야 할 수 있습니다.
 
 이 문서에서는 이미 JavaScript 개발에 친숙하다고 가정합니다. 그렇지 않은 경우 먼저 [Node.js 및 Express 앱 만들기](../javascript/tutorial-nodejs.md)와 같은 자습서를 살펴보는 것이 좋습니다.
 
