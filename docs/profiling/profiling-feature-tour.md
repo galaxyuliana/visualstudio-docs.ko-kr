@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7c05d598d0eee46ec2d84b7d2bbf859dd455473a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: af87464f8fb49ca68ecf8c442a099c71b9df5b69
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57873180"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790812"
 ---
 # <a name="quickstart-first-look-at-profiling-tools"></a>빠른 시작: 프로파일링 도구 살펴보기
 
@@ -119,6 +119,7 @@ Direct3D 앱(Direct3D 구성 요소가 C++에 있어야 함)에서 GPU에 대한
 
 또한 그래프를 사용하여 CPU 바인딩 또는 GPU 바인딩 성능 병목 현상이 있는지 여부를 확인할 수 있습니다.
 
+::: moniker range="vs-2017"
 ## <a name="analyze-performance-javascript-uwp"></a>성능 분석(JavaScript UWP)
 
 UWP 앱의 경우 JavaScript 메모리 도구 및 HTML UI 응답성 도구를 사용할 수 있습니다.
@@ -130,6 +131,7 @@ JavaScript 메모리 도구는 다른 앱 유형에 사용할 수 있는 메모�
 UWP 앱에서 UI 응답성, 느린 로드 시간 및 느린 시각적 업데이트를 진단하려면 HTML UI 응답성 도구를 사용합니다. 사용량은 다른 앱 유형의 애플리케이션 타임라인 도구와 비슷합니다. 자세한 내용은 [HTML UI 응답성](../profiling/html-ui-responsiveness.md)을 참조하세요.
 
 ![HTML UI 응답성 프로파일링 도구](../profiling/media/diaghtmlresp.png "DiagHTMLResp")
+::: moniker-end
 
 ## <a name="analyze-network-usage-uwp"></a>네트워크 사용량 분석(UWP)
 

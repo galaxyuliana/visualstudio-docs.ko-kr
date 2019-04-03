@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Visual Studio IDE를 다운로드하고 설치하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: cb959ebdfcdce74ebcd024529fd5fcf012a51ca8
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: f94927b3a9841987bf09dec853306064783727a5
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56844076"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789889"
 ---
 # <a name="using-the-visual-studio-2017-benefit"></a>Visual Studio 2017 혜택 사용
 
@@ -53,9 +53,12 @@ IDE를 다운로드하려면
 
 13. 기본 설정된 테마를 선택하고 **Visual Studio 시작**을 클릭합니다.
 
-14. [시작] 페이지가 표시됩니다.  Visual Studio를 사용할 준비가 되었습니다!
+14. Visual Studio가 열립니다. Visual Studio를 사용할 준비가 되었습니다!
+
+    ::: moniker range="vs-2017"
     > [!div class="mx-imgBorder"]
     > ![Visual Studio Enterprise 사용 시작](_img/vs-ide-experience/vs-ide-start-cropped.png)
+    ::: moniker-end
 
 ## <a name="eligibility"></a>자격
 
@@ -64,8 +67,8 @@ IDE를 다운로드하려면
 | Visual Studio Enterprise(표준, 월간 클라우드)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup> | 사용 가능       |  예          |
 | Visual Studio Professional(표준, 월간 클라우드) | VL, Azure, 일반 정품                                       | 사용 가능                                                            |  예          |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용 가능                                             |  예         |
-| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  N/A          |
-| Visual Studio Dev Essentials | N/A  | Visual Studio 커뮤니티 |예 |
+| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  해당 없음          |
+| Visual Studio Dev Essentials | 해당 없음  | Visual Studio 커뮤니티 |예 |
 
 <sup>1</sup> 포함: *NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, Imagine, MVP(Most Valuable Professional), RD(Regional Director),  제외: MCT 소프트웨어 및 서비스.*
 

@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 505a05c13add7c9e4d2ee27790ef6b971ee281f9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c69d010f9a4e834f9435616747c2776786706445
+ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635139"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58567895"
 ---
 # <a name="project-element-msbuild"></a>Project 요소(MSBuild)
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트 파일의 필수 루트 요소입니다.
@@ -61,7 +61,7 @@ ms.locfileid: "56635139"
 | `Sdk` | 선택적 특성입니다. <br /><br /> .proj 파일에 추가되는 암시적 Import 문을 만드는 데 사용할 SDK 이름 및 선택적 버전입니다. 버전을 지정하지 않으면 MSBuild에서 기본 버전을 확인하려고 합니다.  예를 들어 `<Project Sdk="Microsoft.NET.Sdk" />` 또는 `<Project Sdk="My.Custom.Sdk/1.0.0" />`로 이름을 지정할 수 있습니다. |
 | `ToolsVersion` | 선택적 특성입니다.<br /><br /> $(MSBuildBinPath) 및 $(MSBuildToolsPath)의 값을 확인하기 위해 MSBuild가 사용하는 도구 집합의 버전입니다. |
 | `TreatAsLocalProperty` | 선택적 특성입니다.<br /><br /> 전역으로 간주하지 않을 속성 이름입니다. 이 특성을 사용하는 경우 특정 명령줄 속성이 프로젝트 또는 대상 파일과 모든 후속 가져오기에서 설정되는 속성값을 재정의할 수 없습니다. 속성이 여러 개인 경우 세미콜론(;)으로 구분합니다.<br /><br /> 일반적으로 전역 속성은 프로젝트 또는 대상 파일에서 설정되는 속성값을 재정의합니다. `TreatAsLocalProperty` 값에 속성이 나열되어 있는 경우에는 전역 속성값이 해당 파일 및 모든 후속 가져오기에서 설정되는 속성값을 재정의하지 않습니다. 자세한 내용은 [방법: 동일한 소스 파일을 다른 옵션을 사용하여 빌드](../msbuild/how-to-build-the-same-source-files-with-different-options.md)를 참조하세요. **참고:**  **-property**(또는 **-p**) 스위치를 사용하여 명령 프롬프트에서 글로벌 속성을 설정합니다. MSBuild 작업의 `Properties` 특성을 사용하여 다중 프로젝트 빌드의 자식 프로젝트에 대해 전역 속성을 설정하거나 수정할 수도 있습니다. 자세한 내용은 [MSBuild 작업](../msbuild/msbuild-task.md)을 참조하세요. |
-| `Xmlns` | 선택적 특성입니다.<br /><br /> 지정하는 경우 `xmlns` 특성은 `http://schemas.microsoft.com/developer/msbuild/2003`의 값이 있어야 합니다. |
+| `xmlns` | 선택적 특성입니다.<br /><br /> 지정하는 경우 `xmlns` 특성은 `http://schemas.microsoft.com/developer/msbuild/2003`의 값이 있어야 합니다. |
 
 ### <a name="child-elements"></a>자식 요소
 

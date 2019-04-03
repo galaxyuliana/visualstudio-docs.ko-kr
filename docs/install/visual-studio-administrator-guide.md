@@ -2,7 +2,7 @@
 title: Visual Studio 관리자 가이드
 titleSuffix: ''
 description: 엔터프라이즈 환경에 Visual Studio를 배포하는 방법을 자세히 알아봅니다.
-ms.date: 05/29/2018
+ms.date: 03/30/2019
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: c9dbd7c3687596df0ccb0397cc5d52ff7888f9ff
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 0c12ae3e101f2f59f0f7f6560ea86f1e6161c6ff
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324937"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790097"
 ---
 # <a name="visual-studio-administrator-guide"></a>Visual Studio 관리자 가이드
 
@@ -30,7 +30,17 @@ ms.locfileid: "58324937"
 
 ## <a name="deploy-visual-studio-in-an-enterprise-environment"></a>엔터프라이즈 환경에 Visual Studio 배포
 
-각 대상 컴퓨터가 [최소 설치 요구 사항](/visualstudio/productinfo/vs2017-system-requirements-vs)을 충족하면 클라이언트 워크스테이션에 Visual Studio를 배포할 수 있습니다. System Center 같은 소프트웨어를 통해 배포하든 아니면 배치 파일을 통해 배포하든 대개 다음 단계를 수행하게 됩니다.
+::: moniker range="vs-2017"
+
+각 대상 컴퓨터가 [최소 설치 요구 사항](/visualstudio/productinfo/vs2017-system-requirements-vs/)을 충족하면 클라이언트 워크스테이션에 Visual Studio를 배포할 수 있습니다. System Center 같은 소프트웨어를 통해 배포하든 아니면 배치 파일을 통해 배포하든 대개 다음 단계를 수행하게 됩니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+각 대상 컴퓨터가 [최소 설치 요구 사항](/visualstudio/releases/2019/system-requirements/)을 충족하면 클라이언트 워크스테이션에 Visual Studio를 배포할 수 있습니다. System Center 같은 소프트웨어를 통해 배포하든 아니면 배치 파일을 통해 배포하든 대개 다음 단계를 수행하게 됩니다.
+
+::: moniker-end
 
 1. 네트워크 위치에 [Visual Studio 제품 파일이 포함된 네트워크 공유를 만듭니다](create-a-network-installation-of-visual-studio.md).
 
