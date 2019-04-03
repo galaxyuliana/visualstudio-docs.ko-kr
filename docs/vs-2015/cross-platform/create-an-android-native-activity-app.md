@@ -29,7 +29,7 @@ ms.locfileid: "54773873"
  [기본 Android Native Activity 앱 빌드 및 실행](#BuildHello)  
   
 ##  <a name="req"></a> 요구 사항  
- Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항을 충족하고 Visual Studio 2015의 Visual C++ 모바일 개발 옵션을 설치했는지 확인해야 합니다. 자세한 내용은 [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Microsoft Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다.  
+ Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항을 충족하고 Visual Studio 2015의 Visual C++ 모바일 개발 옵션을 설치했는지 확인해야 합니다. 자세한 내용은 [플랫폼 간 모바일 개발용 Visual C++ 설치](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Microsoft Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다.  
   
 ##  <a name="Create"></a> 새 Native Activity 프로젝트 만들기  
  이 자습서에서는 먼저 새 Android Native Activity 프로젝트를 만든 후 Android용 Visual Studio 에뮬레이터에서 기본 앱을 빌드 및 실행합니다.  

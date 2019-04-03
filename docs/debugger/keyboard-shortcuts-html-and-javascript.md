@@ -1,6 +1,6 @@
 ---
 title: 바로 가기 키 (HTML 및 JavaScript) | Microsoft Docs
-ms.date: 11/04/2016
+ms.date: 03/28/2019
 ms.topic: conceptual
 dev_langs:
 - CSharp
@@ -13,18 +13,25 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bbe25da9dd687eba011bd8e3cc2701cf154e0358
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 7f85eee14ef026787c9b929a64e14b462397338d
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56697271"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789810"
 ---
 # <a name="keyboard-shortcuts-html-and-javascript"></a>바로 가기 키(HTML 및 JavaScript)
 
+::: moniker range=">=vs-2019"
+ Visual Studio에서 바로 가기를 사용 하 여 Visual Studio에서 Node.js 앱 디버깅에 대 한 키보드를 **Node.js 개발** 워크 로드가 설치 되어 있습니다.
+::: moniker-end
+::: moniker range="vs-2017"
  HTML 및 JavaScript를 사용 하 여 UWP 앱을 디버깅 하는 것에 대 한 Visual Studio에서 바로 가기 키입니다.
+::: moniker-end
+
 
 ## <a name="general-shortcuts"></a>일반 바로 가기
+
  이러한 바로 가기는 HTML 및 JavaScript를 사용 하 여 UWP 앱에 대 한 모든 도구에서 작동 합니다.
 
 |작업|바로 가기|
@@ -35,6 +42,7 @@ ms.locfileid: "56697271"
 |성능 및 진단 허브 열기|Alt+F2|
 
 ## <a name="javascript-console-shortcuts"></a>JavaScript 콘솔 바로 가기
+
  JavaScript 콘솔 창에서는 다음의 바로 가기를 사용합니다.
 
 |작업|바로 가기|
@@ -44,6 +52,7 @@ ms.locfileid: "56697271"
 |한 줄 모드와 여러 줄 모드 간의 전환|Ctrl+Alt+M|
 
 ## <a name="dom-explorer-shortcuts"></a>DOM 탐색기 바로 가기
+
  DOM 탐색기에서는 다음의 바로 가기를 사용합니다.
 
 |작업|바로 가기|
@@ -56,5 +65,6 @@ ms.locfileid: "56697271"
 |선택한 CSS 값 1씩 감소|아래쪽 화살표|
 
 ## <a name="see-also"></a>참고 항목
-- [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)
-- [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)
+- [JavaScript 콘솔 명령](../debugger/javascript-console-commands.md)
+- [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md?view=vs-2017)
+- [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)

@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0c6a8c564e6786c2919bcf61ae8f23c990e9abc1
-ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
+ms.openlocfilehash: e9a214234d2382fe9cb950ed294bf8aa807b69da
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58476061"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790708"
 ---
 # <a name="walkthrough-debugging-a-parallel-application-in-visual-studio-c-visual-basic-c"></a>연습: Visual Studio에서 병렬 응용 프로그램 디버깅 (C#, Visual Basic, c + +)
 
@@ -65,10 +65,10 @@ ms.locfileid: "58476061"
 1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
-    
-    - 에 대 한 C# 또는 Visual Basic의 경우 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C# 또는 Visual Basic입니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
-    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기** c + +에 대 한 합니다. 나타나는 대화 상자에서 선택 **만들기**합니다.
+    키를 눌러 **Esc** 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
+
+    - 에 대 한 C# 또는 Visual Basic의 경우 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C# 또는 Visual Basic입니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기** c + +에 대 한 합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
 
     그런 다음 이름을 입력 하 고 또는 기본 이름을 사용 하 고, 클릭 **만들기**합니다.
     ::: moniker-end
@@ -82,7 +82,7 @@ ms.locfileid: "58476061"
     그런 다음 이름을 입력 하 고 또는 기본 이름을 사용 하 고, 클릭 **확인**합니다.
     ::: moniker-end
 
-    표시 되지 않는 경우는 **콘솔 앱** 프로젝트 템플릿로 이동 **도구** > **도구 및 기능 가져오기...** , Visual Studio 설치 관리자를 엽니다. **.NET 데스크톱 개발*** 또는 **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.
+    **콘솔 앱** 프로젝트 템플릿이 표시되지 않는 경우 **도구** > **도구 및 기능 가져오기...** 로 이동하면 Visual Studio 설치 관리자가 열립니다. **.NET 데스크톱 개발*** 또는 **C++를 사용한 데스크톱 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.
 
 1. 프로젝트에서 .cpp, .cs 또는 .vb 코드 파일을 엽니다. 내용을 삭제하여 빈 코드 파일을 만듭니다.
 

@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: cba7cf4a402b92f05f12faa39b88ab03cd5bd03b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b71d4b8ea58cbbe36e3fe48228789d4aee02af53
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55943014"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790864"
 ---
 # <a name="create-and-configure-datasets-in-visual-studio"></a>Visual Studio에서 데이터 세트 만들기 및 구성
 
@@ -70,7 +70,7 @@ ms.locfileid: "55943014"
 
 1. 데이터 집합 노드를 클릭 **솔루션 탐색기** 상태로 전환 하는 **데이터 집합 디자이너** 에 포커스입니다.
 
-2. 클릭 합니다 **데이터 원본** 탭의 형식 또는 Visual Studio의 왼쪽된 여백 **데이터 원본** 에 **빠른 실행** 상자.
+2. 클릭 합니다 **데이터 원본** 탭의 형식 또는 Visual Studio의 왼쪽된 여백 **데이터 원본** 검색 상자에 합니다.
 
 3. 데이터 집합 노드를 마우스 오른쪽 단추로 누르고 **마법사를 사용 하 여 데이터 소스 구성**합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: JavaScript 콘솔 명령 | Microsoft Docs
-ms.custom: seodec18
-ms.date: 07/17/2017
+ms.custom: ''
+ms.date: 03/28/2019
 ms.topic: reference
 helpviewer_keywords:
 - JavaScript Console commands [UWP apps]
@@ -13,21 +13,28 @@ manager: jillfra
 ms.workload:
 - uwp
 - cordova
-ms.openlocfilehash: 2c6595b2e76813607a6582434b5c31f4d07d5f4a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 40e32250378d92ac63e4a057a59ee847de6af810
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56701955"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790773"
 ---
 # <a name="javascript-console-commands-in-visual-studio"></a>Visual Studio에서 JavaScript 콘솔 명령
 
-명령을 사용하여 Visual Studio의 JavaScript 콘솔 창에서 메시지를 보내고 다른 작업을 수행할 수 있습니다. 해당 창을 사용 하는 방법을 보여 주는 예제를 보려면 [퀵 스타트: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)합니다. 이 항목의 정보는 UWP 앱 및 Apache Cordova 대 한 Visual Studio Tools를 사용 하 여 만든 앱에 적용 됩니다. Cordova 앱에서 지원되는 콘솔 명령에 대한 자세한 내용은 [Debug Your App](https://taco.visualstudio.com/en-us/docs/debug-using-visual-studio/)를 참조하세요. Internet Explorer F12 도구에서 콘솔을 사용하는 방법에 대한 자세한 내용은 [이 항목](/previous-versions/windows/internet-explorer/ie-developer/samples/dn255006(v=vs.85))을 참조하세요.
+::: moniker range=">=vs-2019"
+명령을 사용하여 Visual Studio의 JavaScript 콘솔 창에서 메시지를 보내고 다른 작업을 수행할 수 있습니다. 이 항목의 정보를 사용 하 여 Visual Studio를 사용 하 여 생성 하는 Node.js 앱에 적용 됩니다는 **Node.js 개발** 워크 로드가 설치 되어 있습니다.
+::: moniker-end
+::: moniker range="vs-2017"
+명령을 사용하여 Visual Studio의 JavaScript 콘솔 창에서 메시지를 보내고 다른 작업을 수행할 수 있습니다. 이 창을 사용 하는 방법을 보여 주는 예제를 보려면 [퀵 스타트: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)합니다. 이 항목의 정보는 Node.js 앱을 UWP에 적용 됩니다. 앱 및 Apache Cordova 대 한 Visual Studio Tools를 사용 하 여 만든 앱입니다. Cordova 앱에서 지원되는 콘솔 명령에 대한 자세한 내용은 [Debug Your App](https://taco.visualstudio.com/en-us/docs/debug-using-visual-studio/)를 참조하세요.
+::: moniker-end
 
 JavaScript 콘솔 창이 닫혀 있는 경우 열 수 있습니다 선택 하 여 Visual Studio에서 디버그 하는 동안 **디버깅할** > **Windows** > **JavaScript 콘솔**합니다.
 
 > [!NOTE]
 > 디버깅 세션 중에 창을 사용할 수 없는 경우 프로젝트의 디버그 속성에서 디버거 형식이 **Script** 로 설정되었는지 확인하세요.
+
+Microsoft Edge 개발자 도구에서 콘솔을 사용 하 여에 대 한 정보를 참조 하세요 [이 항목에서는](/microsoft-edge/devtools-guide)합니다.
 
 ## <a name="console-object-commands"></a>콘솔 개체 명령
 다음 표는 JavaScript 콘솔 창에서 사용할 수 있거나 코드에서 콘솔로 메시지를 보내는 데 사용할 수 있는 `console` 개체 명령에 대한 구문을 보여줍니다. 이 개체는 여러 폼을 제공하므로 원하는 경우 정보 메시지와 오류 메시지를 구분할 수 있습니다.
@@ -123,5 +130,5 @@ console.log("%s is %f years old!", user.first, user.age);
 ```
 
 ## <a name="see-also"></a>참고 항목
-- [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)
-- [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)
+- [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)
+- [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md?view=vs-2017)

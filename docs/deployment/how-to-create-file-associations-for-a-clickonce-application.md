@@ -41,7 +41,7 @@ ms.locfileid: "56633046"
 
    - `progid`: 레지스트리에서 표시할 파일 형식을 고유 하 게 식별 문자열입니다.
 
-   - `defaultIcon`이 파일 형식에 대해 사용할: 아이콘입니다. 아이콘은 응용 프로그램 매니페스트에서 파일 리소스로 추가 되어야 합니다. 자세한 내용은 [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.
+   - `defaultIcon`이 파일 형식에 대해 사용할: 아이콘입니다. 아이콘은 응용 프로그램 매니페스트에서 파일 리소스로 추가 되어야 합니다. 자세한 내용은 [방법: ClickOnce 애플리케이션에 데이터 파일 포함](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.
 
      예는 `file` 하 고 `fileAssociation` 요소를 참조 하세요 [ \<fileAssociation > 요소](../deployment/fileassociation-element-clickonce-application.md)합니다.
 

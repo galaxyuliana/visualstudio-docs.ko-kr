@@ -25,7 +25,7 @@ ms.locfileid: "54780846"
   
  프로젝트 형식에(예: 데스크톱, UWP, ASP.NET) 사용할 수 있는 도구를 보려면 아래쪽의 요약을 확인합니다.  
   
- 디버그 세션 중에 도구를 사용하려면 **디버그/Windows/진단 도구 표시** 를 사용하거나 포커스가 있는 성능 분석을 수행하려면 **디버그/성능 프로파일러...** 를 사용하여 프로파일링 도구에 액세스할 수 있습니다.  다른 방법에 대한 자세한 내용을 보려면 [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md) 을(를) 참조하세요.  
+ 디버그 세션 중에 도구를 사용하려면 **디버그/Windows/진단 도구 표시** 를 사용하거나 포커스가 있는 성능 분석을 수행하려면 **디버그/성능 프로파일러...** 를 사용하여 프로파일링 도구에 액세스할 수 있습니다.  다른 방법에 대한 자세한 내용을 보려면 [디버거를 사용하거나 사용하지 않고 프로파일링 도구 실행](../profiling/running-profiling-tools-with-or-without-the-debugger.md)을 참조하세요.  
   
  ![DebugDiagnosticsToolsMenu](../profiling/media/debugdiagnosticstoolsmenu.png "DebugDiagnosticsToolsMenu")  
   
@@ -41,7 +41,7 @@ ms.locfileid: "54780846"
 ## <a name="cpu-usage"></a>CPU 사용량  
  ![DiagCPUSmall](../profiling/media/diagcpusmall.png "DiagCPUSmall")  
   
-  **CPU 사용량** 도구는 CPU에서 C++, C#/VB 및 JavaScript 코드 실행에 시간을 소모하는 상황을 보여 줍니다.  이 도구는 데스크톱 및 Windows 유니버설 앱은 물론 Azure 앱 서비스 앱에서 사용할 수 있습니다. **CPU 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/Windows/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다. 다른 방법에 대한 자세한 내용을 보려면 [CPU 사용량](../profiling/cpu-usage.md) 을(를) 참조하세요.  
+ **CPU 사용량** 도구는 CPU에서 C++, C#/VB 및 JavaScript 코드 실행에 시간을 소모하는 상황을 보여 줍니다.  이 도구는 데스크톱 및 Windows 유니버설 앱은 물론 Azure 앱 서비스 앱에서 사용할 수 있습니다. **CPU 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/Windows/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다. 다른 방법에 대한 자세한 내용을 보려면 [CPU 사용량](../profiling/cpu-usage.md) 을(를) 참조하세요.  
   
 ## <a name="performance-explorer"></a>성능 탐색기  
  ![PerfTools](../profiling/media/perftools.png "PerfTools")  

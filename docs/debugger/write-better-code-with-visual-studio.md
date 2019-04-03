@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a355930734bfb122a088fb20817b3318a365cc63
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 6bfbcf9a63a01d391cbbc65067793d75d42899c1
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54961717"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790331"
 ---
 # <a name="debugging-techniques-and-tools-to-help-you-write-better-code"></a>디버깅 기술 및 더 나은 코드를 작성할 수 있도록 도구
 
@@ -42,7 +42,7 @@ ms.locfileid: "54961717"
 
 앱을 만들려면:
 
-1. Visual Studio를 열고 **파일 > 새 프로젝트**합니다. 아래 **Visual C#** , 선택 **Windows Desktop** 또는 **.NET Core**를 선택한 다음 가운데 창에서을 **콘솔 앱**.
+1. Visual Studio를 열고 **파일** > **새로 만들기** > **프로젝트**합니다. 아래 **Visual C#** , 선택 **Windows Desktop** 또는 **.NET Core**를 선택한 다음 가운데 창에서을 **콘솔 앱**.
 
     > [!NOTE]
     > **콘솔 애플리케이션** 프로젝트 템플릿이 표시되지 않으면 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기** 링크를 클릭합니다. Visual Studio 설치 관리자가 시작됩니다. .**NET 데스크톱 개발** 또는 **.NET Core 플랫폼 간 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.
