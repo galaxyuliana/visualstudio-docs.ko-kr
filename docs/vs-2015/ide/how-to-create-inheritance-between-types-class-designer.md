@@ -30,7 +30,7 @@ ms.locfileid: "54760239"
   
 1.  솔루션 탐색기의 프로젝트에서 클래스 다이어그램 파일(.cd)을 엽니다.  
   
-     클래스 다이어그램이 없으면 새로 만듭니다. [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)을 참조하세요.  
+     클래스 다이어그램이 없으면 새로 만듭니다. [방법: 프로젝트에 클래스 다이어그램 추가(클래스 디자이너)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)을 참조하세요.  
   
 2.  **도구 상자**의 **클래스 디자이너**에서 **상속**을 클릭합니다.  
   
