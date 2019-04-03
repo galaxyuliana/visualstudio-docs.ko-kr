@@ -117,8 +117,7 @@ ms.locfileid: "58324684"
 
 - Ribbon 클래스의 팩터리 속성을 사용 합니다. Ribbon 클래스의 코드에서 이 방법을 사용합니다.
 
-- 
-  `Globals.Factory.GetRibbonFactory` 메서드 사용. Ribbon 클래스 외부 코드에서 이 방법을 사용합니다. Globals 클래스에 대 한 자세한 내용은 참조 하세요. [Office 프로젝트의에서 개체에 대 한 전역 액세스](../vsto/global-access-to-objects-in-office-projects.md)합니다.
+- `Globals.Factory.GetRibbonFactory` 메서드 사용. Ribbon 클래스 외부 코드에서 이 방법을 사용합니다. Globals 클래스에 대 한 자세한 내용은 참조 하세요. [Office 프로젝트의에서 개체에 대 한 전역 액세스](../vsto/global-access-to-objects-in-office-projects.md)합니다.
 
   다음 코드 예제에서는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 Ribbon 클래스에 <xref:Microsoft.Office.Tools.Ribbon.RibbonButton>을 만드는 방법을 보여 줍니다.
 
@@ -163,8 +162,7 @@ ms.locfileid: "58324684"
 
 - Ribbon 클래스의 `Factory` 속성 사용. Ribbon 클래스의 코드에서 이 방법을 사용합니다.
 
-- 
-  `Globals.Factory.GetRibbonFactory` 메서드 사용. Ribbon 클래스 외부 코드에서 이 방법을 사용합니다. Globals 클래스에 대 한 자세한 내용은 참조 하세요. [Office 프로젝트의에서 개체에 대 한 전역 액세스](../vsto/global-access-to-objects-in-office-projects.md)합니다.
+- `Globals.Factory.GetRibbonFactory` 메서드 사용. Ribbon 클래스 외부 코드에서 이 방법을 사용합니다. Globals 클래스에 대 한 자세한 내용은 참조 하세요. [Office 프로젝트의에서 개체에 대 한 전역 액세스](../vsto/global-access-to-objects-in-office-projects.md)합니다.
 
   다음 코드 예제에서는 .NET Framework 3.5를 대상으로 하는 프로젝트의 Ribbon 클래스에서 탭의 `Position` 속성을 설정하는 방법을 보여 줍니다.
 
