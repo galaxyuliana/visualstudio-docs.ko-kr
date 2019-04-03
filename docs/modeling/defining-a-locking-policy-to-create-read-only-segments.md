@@ -95,8 +95,7 @@ partition.SetLocks(Locks.Delete);
 
  잠금 정책을 정의 하려면를 지정 해야 합니다.
 
--   
-  <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>를 구현하는 클래스를 만듭니다.
+-   <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>를 구현하는 클래스를 만듭니다.
 
 -   DSL의 DocData를 통해 사용할 수 있는 서비스에이 클래스를 추가 합니다.
 

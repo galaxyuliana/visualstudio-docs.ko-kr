@@ -126,8 +126,7 @@ ms.locfileid: "56721796"
 
     이 단계에서 구현 해야 하는 4 개의 메서드를 추가 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> 인터페이스입니다.
 
-9. 
-  `IVsEditorFactory.Close` 메서드의 내용을 다음 코드로 대체합니다.
+9. `IVsEditorFactory.Close` 메서드의 내용을 다음 코드로 대체합니다.
 
     ```vb
     Return VSConstants.S_OK
@@ -149,8 +148,7 @@ ms.locfileid: "56721796"
     return VSConstants.S_OK;
     ```
 
-11. 
-  `IVsEditorFactory.MapLogicalView` 메서드의 내용을 다음 코드로 대체합니다.
+11. `IVsEditorFactory.MapLogicalView` 메서드의 내용을 다음 코드로 대체합니다.
 
     ```vb
     Dim retval As Integer = VSConstants.E_NOTIMPL
@@ -173,8 +171,7 @@ ms.locfileid: "56721796"
     return retval;
     ```
 
-12. 
-  `IVsEditorFactory.CreateEditorInstance` 메서드의 내용을 다음 코드로 대체합니다.
+12. `IVsEditorFactory.CreateEditorInstance` 메서드의 내용을 다음 코드로 대체합니다.
 
     ```vb
     Dim retval As Integer = VSConstants.E_FAIL

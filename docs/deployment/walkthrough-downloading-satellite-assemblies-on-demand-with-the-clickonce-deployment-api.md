@@ -50,7 +50,7 @@ ms.locfileid: "56637544"
 
 2. 사용 하 여 응용 프로그램에 대 한 위성 어셈블리를 생성할 [Resgen.exe (리소스 파일 생성기)](/dotnet/framework/tools/resgen-exe-resource-file-generator) 또는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다.
 
-3. 애플리케이션 매니페스트를 생성하거나 *MageUI.exe*를 사용하여 기존 애플리케이션 매니페스트를 엽니다. 이 도구에 대 한 자세한 내용은 참조 하세요. [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)합니다.
+3. 애플리케이션 매니페스트를 생성하거나 *MageUI.exe*를 사용하여 기존 애플리케이션 매니페스트를 엽니다. 이 도구에 대 한 자세한 내용은 참조 하세요. [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)합니다.
 
 4. **파일** 탭을 클릭합니다.
 

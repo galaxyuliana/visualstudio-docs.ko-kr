@@ -30,7 +30,7 @@ ms.locfileid: "56702111"
 # <a name="remote-debugging-errors-and-troubleshooting"></a>원격 디버깅 오류 및 문제 해결
 원격으로 디버깅할 때 다음과 같은 오류가 발생할 수 있습니다.
 
--   [Error: Unable to Automatically Step Into the Server](../debugger/error-unable-to-automatically-step-into-the-server.md)
+-   [오류: 서버에 대해 자동으로 한 단계씩 코드를 실행할 수 없습니다.](../debugger/error-unable-to-automatically-step-into-the-server.md)
 
 -   [오류: Microsoft Visual Studio 원격 디버깅 모니터(MSVSMON.EXE)가 원격 컴퓨터에서 실행 중인 것 같지 않습니다.](/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running)
 

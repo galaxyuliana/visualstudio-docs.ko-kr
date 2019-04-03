@@ -56,7 +56,7 @@ ms.locfileid: "56603917"
  [!code-csharp[ClickOnce.OpenDataFile#1](../deployment/codesnippet/CSharp/accessing-local-and-remote-data-in-clickonce-applications_1.cs)]
  [!code-vb[ClickOnce.OpenDataFile#1](../deployment/codesnippet/VisualBasic/accessing-local-and-remote-data-in-clickonce-applications_1.vb)]
 
- 배포의 파일을 데이터 파일로 표시하는 방법에 대한 자세한 내용은 [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.
+ 배포의 파일을 데이터 파일로 표시하는 방법에 대한 자세한 내용은 [방법: ClickOnce 애플리케이션에 데이터 파일 포함](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.
 
  <xref:System.Windows.Forms.Application> 클래스에서 관련 변수(예: <xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A>)를 사용하여 데이터 디렉터리 경로를 가져올 수도 있습니다.
 

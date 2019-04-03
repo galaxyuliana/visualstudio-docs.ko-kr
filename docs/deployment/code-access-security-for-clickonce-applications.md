@@ -67,7 +67,7 @@ ClickOnce 애플리케이션은 .NET Framework를 기반으로 하며 코드 액
 
  또한 코드를 작성할 때 코드 편집기의 IntelliSense 기능은 구성한 보안 권한에 포함되지 않은 모든 멤버를 사용하지 않도록 설정합니다.
 
- 자세한 내용은 [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)을 참조하세요.
+ 자세한 내용은 [방법: 제한된 사용 권한으로 ClickOnce 애플리케이션 디버그](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)을 참조하세요.
 
 ## <a name="security-permissions-for-browser-hosted-applications"></a>브라우저에서 호스트되는 애플리케이션의 보안 권한
  Visual Studio에서는 WPF(Windows Presentation Foundation) 애플리케이션에 대해 다음 프로젝트 형식을 제공합니다.

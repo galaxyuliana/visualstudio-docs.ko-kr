@@ -39,8 +39,7 @@ Windows Forms에 데이터를 바인딩하여 응용 프로그램의 사용자�
 
 ## <a name="bindingsource-and-bindingnavigator-controls"></a>BindingSource 및 BindingNavigator 컨트롤
 
-
-  <xref:System.Windows.Forms.BindingSource> 구성 요소는 두가지 용도로 사용됩니다. 먼저 데이터를 컨트롤에 바인딩할 때 추상화 계층을 제공 합니다. 폼의 컨트롤에 바인딩된는 <xref:System.Windows.Forms.BindingSource> 데이터 원본에 직접 대신 구성 요소입니다. 둘째,이 개체의 컬렉션을 관리할 수 있습니다. 에 형식을 추가 합니다 <xref:System.Windows.Forms.BindingSource> 해당 형식의 목록을 만듭니다.
+<xref:System.Windows.Forms.BindingSource> 구성 요소는 두가지 용도로 사용됩니다. 먼저 데이터를 컨트롤에 바인딩할 때 추상화 계층을 제공 합니다. 폼의 컨트롤에 바인딩된는 <xref:System.Windows.Forms.BindingSource> 데이터 원본에 직접 대신 구성 요소입니다. 둘째,이 개체의 컬렉션을 관리할 수 있습니다. 에 형식을 추가 합니다 <xref:System.Windows.Forms.BindingSource> 해당 형식의 목록을 만듭니다.
 
 에 대 한 자세한 내용은 <xref:System.Windows.Forms.BindingSource> 구성 요소를 참조 하세요.
 
