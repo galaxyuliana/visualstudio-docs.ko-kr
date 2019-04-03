@@ -29,7 +29,7 @@ ms.locfileid: "54999979"
 
 이 방법은 웹 서버에서 사용자 컴퓨터에 설치된 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램에 대해서만 사용할 수 있습니다. URL을 사용하여 시작할 수 있는 온라인 전용 응용 프로그램에는 사용할 수 없습니다. 온라인 전용 애플리케이션 및 설치된 애플리케이션 간 차이점에 대한 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)을 참조하세요.
 
-이 절차는 Windows 소프트웨어 개발 키트 (SDK) 도구 MageUI.exe를 사용합니다. 이 도구에 대 한 자세한 내용은 참조 하세요. [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)합니다. 또한 Visual Studio를 사용 하 여이 절차를 수행할 수 있습니다.
+이 절차는 Windows 소프트웨어 개발 키트 (SDK) 도구 MageUI.exe를 사용합니다. 이 도구에 대 한 자세한 내용은 참조 하세요. [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)합니다. 또한 Visual Studio를 사용 하 여이 절차를 수행할 수 있습니다.
 
 ## <a name="procedure"></a>프로시저
 

@@ -31,7 +31,7 @@ ms.locfileid: "54758098"
  [앱 사용자 지정](#Customize)  
   
 ##  <a name="req"></a> 요구 사항  
- iOS 및 Android용 OpenGL ES 앱을 개발하려면 먼저 모든 시스템 요구 사항을 충족했는지 확인해야 합니다. Visual Studio 2015의 플랫폼 간 모바일 개발용 Visual C++ 옵션을 설치해야 합니다. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다. 자세한 내용 및 자세한 지침은 [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. iOS 앱을 빌드 및 테스트하려면 Mac 컴퓨터가 필요하며 설치 지침에 따라 설치해야 합니다. iOS 개발을 위해 설치하는 방법에 대한 자세한 내용은 [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
+ iOS 및 Android용 OpenGL ES 앱을 개발하려면 먼저 모든 시스템 요구 사항을 충족했는지 확인해야 합니다. Visual Studio 2015의 플랫폼 간 모바일 개발용 Visual C++ 옵션을 설치해야 합니다. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다. 자세한 내용 및 자세한 지침은 [플랫폼 간 모바일 개발용 Visual C++ 설치](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. iOS 앱을 빌드 및 테스트하려면 Mac 컴퓨터가 필요하며 설치 지침에 따라 설치해야 합니다. iOS 개발을 위해 설치하는 방법에 대한 자세한 내용은 [iOS를 사용하여 빌드할 도구 설치 및 구성](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
   
 ##  <a name="Create"></a> 새 OpenGLES 애플리케이션 프로젝트 만들기  
  이 자습서에서는 먼저 새 OpenGL ES 애플리케이션 프로젝트를 만든 후 Android용 Visual Studio 에뮬레이터에서 기본 앱을 빌드 및 실행합니다. 그런 다음 iOS용 앱을 빌드하고 iOS 시뮬레이터에서 앱을 실행합니다.  
@@ -106,7 +106,7 @@ ms.locfileid: "54758098"
    Visual Studio는 Clang을 플랫폼 도구 집합으로 사용하는 Android NDK를 사용하여 Android Native Activity 프로젝트를 빌드합니다. Visual Studio는 NativeActivity 프로젝트의 속성을 대상 플랫폼에서 컴파일, 연결 및 디버그하는 데 사용되는 명령줄 스위치 및 옵션에 매핑합니다. 자세한 내용을 보려면 MyOpenGLESApp.Android.NativeActivity 프로젝트에 대한 **속성 페이지** 대화 상자를 엽니다. 명령줄 스위치에 대한 자세한 내용은 [Clang 컴파일러 사용자 설명서](http://clang.llvm.org/docs/UsersManual.html)를 참조하세요.  
   
 ##  <a name="BuildIOS"></a> iOS 앱 빌드 및 실행  
- iOS 앱 프로젝트는 Visual Studio에서 개발되고 편집되지만 라이선싱 제한 사항 때문에 Mac에서 빌드하고 배포해야 합니다. Visual Studio는 Mac에서 실행되는 원격 에이전트와 통신하여 프로젝트 파일을 전송하고 빌드, 배포 및 디버깅 명령을 실행합니다. iOS 앱을 빌드하려면 먼저 Mac 및 Visual Studio를 통신하도록 설정 및 구성해야 합니다. 자세한 내용은 [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)을 참조하세요. 원격 에이전트가 실행되고 Visual Studio가 Mac과 쌍으로 연결되면 iOS 앱을 빌드 및 실행하여 설치 및 설정을 확인할 수 있습니다.  
+ iOS 앱 프로젝트는 Visual Studio에서 개발되고 편집되지만 라이선싱 제한 사항 때문에 Mac에서 빌드하고 배포해야 합니다. Visual Studio는 Mac에서 실행되는 원격 에이전트와 통신하여 프로젝트 파일을 전송하고 빌드, 배포 및 디버깅 명령을 실행합니다. iOS 앱을 빌드하려면 먼저 Mac 및 Visual Studio를 통신하도록 설정 및 구성해야 합니다. 자세한 내용은 [iOS를 사용하여 빌드할 도구 설치 및 구성](../cross-platform/install-and-configure-tools-to-build-using-ios.md)을 참조하세요. 원격 에이전트가 실행되고 Visual Studio가 Mac과 쌍으로 연결되면 iOS 앱을 빌드 및 실행하여 설치 및 설정을 확인할 수 있습니다.  
   
 #### <a name="to-build-and-run-the-ios-app"></a>iOS 앱을 빌드하고 실행하려면  
   
