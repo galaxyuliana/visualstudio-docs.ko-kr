@@ -1,27 +1,22 @@
 ---
 title: 그래픽 프레임 분석 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.graphics.frameanalysis
 ms.assetid: 336c48ba-a1c4-4db9-b2a4-3de4a129cdd6
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 59cd0006f375335d9cf3e714689bead6615b395d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b02f1035a8b149ba8cfc1152bb83d1410bd86350
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51770362"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983235"
 ---
 # <a name="graphics-frame-analysis"></a>그래픽 프레임 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,14 +42,14 @@ Visual Studio Graphics Analyzer의 그래픽 프레임 분석을 사용하여 Di
   앱에 대 한 프레임 분석이 수행할 수 있는 작업의 데모를 보려면 볼 수 있습니다 합니다 [Visual Studio 그래픽 프레임 분석](http://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-25-Offline-Analysis-Graphics-Tool) Channel 9의 비디오.  
   
 ## <a name="using-frame-analysis"></a>프레임 분석 사용  
- 프레임 분석을 사용하려면 다른 Graphics Analyzer 도구를 사용할 때처럼 앱 실행 시 앱에서 그래픽 정보를 캡처해야 합니다. 그런 다음 그래픽 로그 문서 (.vsglog) 창에서 선택 합니다 **프레임 분석** 탭 합니다.  
+ 프레임 분석을 사용하려면 다른 Graphics Analyzer 도구를 사용할 때처럼 앱 실행 시 앱에서 그래픽 정보를 캡처해야 합니다. 그런 다음, 그래픽 로그 문서(.vsglog) 창에서 **프레임 분석** 탭을 선택합니다.  
   
  ![프레임 분석 탭을 선택](../debugger/media/pix-frame-analysis-select-tab.png "pix_frame_analysis_select_tab")  
   
  분석이 완료되면 결과가 표시됩니다. 프레임 분석 탭 상단에는 타임라인 및 요약 테이블이 표시됩니다. 하단에는 정보 테이블이 표시됩니다. 재생 중 오류 또는 경고가 생성되면 타임라인 위에서 요약됩니다. 여기서 링크를 클릭하여 오류 및 경고에 대해 자세히 알 수 있습니다.  
   
 ### <a name="interpreting-results"></a>결과 해석  
- 각 변형의 결과를 해석하여 앱의 렌더링 성능과 동작에 대한 유용한 정보를 추정할 수 있습니다. 렌더링 변형에 대 한 자세한 내용은 참조 하세요. [변형](#Variants) 이 문서의 뒷부분에 나오는.  
+ 각 변형의 결과를 해석하여 앱의 렌더링 성능과 동작에 대한 유용한 정보를 추정할 수 있습니다. 렌더링 변형에 대한 자세한 내용은 이 문서의 뒷부분에 있는 [변형](#Variants)을 참조하세요.  
   
  다음과 같은 일부 결과는 변형이 렌더링 성능에 미친 영향을 직접적으로 나타냅니다.  
   
@@ -74,7 +69,7 @@ Visual Studio Graphics Analyzer의 그래픽 프레임 분석을 사용하여 Di
   
 - 질감 크기를 1/2 또는 1/4로 줄이기 변형이 상당한 성능 향상을 보이면 아마도 질감이 너무 많은 메모리를 차지하거나 너무 많은 대역폭을 사용하거나 질감 캐시를 비효율적으로 사용하고 있는 것입니다  이 변형이 아무런 성능 향상을 보이지 않으면 성능을 저하시키지 않고 더 크고 자세한 질감을 사용할 수 있습니다.  
   
-  하드웨어 카운터를 사용할 수 있는 경우 이러한 카운터를 사용하여 앱의 렌더링 성능을 떨어뜨린 이유에 대해 매우 자세한 정보를 수집할 수 있습니다. 모든 기능 수준 9.2 이상을 장치 지원 깊이 폐색 쿼리 (**픽셀 폐색** 카운터) 및 타임 스탬프입니다. GPU 제조업체에서 하드웨어 카운터를 구현하여 자사 드라이버에 노출했는지 여부에 따라 다른 하드웨어 카운터를 사용할 수 있습니다. 이러한 카운터를 사용하여 요약 테이블에 표시된 결과의 정확한 원인을 확인할 수 있습니다. 예를 들어 깊이 테스트에서 폐색된 픽셀 비율을 검사하여 overdraw가 요인인지 확인할 수 있습니다.  
+  하드웨어 카운터를 사용할 수 있는 경우 이러한 카운터를 사용하여 앱의 렌더링 성능을 떨어뜨린 이유에 대해 매우 자세한 정보를 수집할 수 있습니다. 기능 수준이 9.2 이상인 모든 디바이스는 깊이 폐색 쿼리(**픽셀 폐색** 카운터) 및 타임스탬프를 지원합니다. GPU 제조업체에서 하드웨어 카운터를 구현하여 자사 드라이버에 노출했는지 여부에 따라 다른 하드웨어 카운터를 사용할 수 있습니다. 이러한 카운터를 사용하여 요약 테이블에 표시된 결과의 정확한 원인을 확인할 수 있습니다. 예를 들어 깊이 테스트에서 폐색된 픽셀 비율을 검사하여 overdraw가 요인인지 확인할 수 있습니다.  
   
 ### <a name="timeline-and-summary-table"></a>타임라인 및 요약 테이블  
  기본적으로 타임라인 및 요약 테이블은 표시되어 있고 다른 섹션은 축소되어 있습니다.  
@@ -108,7 +103,7 @@ Visual Studio Graphics Analyzer의 그래픽 프레임 분석을 사용하여 Di
  프레임 분석은 통계적 관련성을 확인 하려면 다음을 사용 합니다.는 [스튜던트 t-테스트](http://www.wikipedia.org/wiki/Student%27s_t-test)합니다.  
   
 ### <a name="details-table"></a>정보 테이블  
- 요약 테이블 아래에는 정보 테이블이 표시됩니다. 정보 테이블은 기본적으로 축소되어 있습니다. 정보 테이블의 내용은 재생 컴퓨터의 하드웨어 플랫폼에 따라 달라집니다. 지원 되는 하드웨어 플랫폼에 대 한 자세한 내용은 [하드웨어 지원](#HardwareSupport)합니다.  
+ 요약 테이블 아래에는 정보 테이블이 표시됩니다. 정보 테이블은 기본적으로 축소되어 있습니다. 정보 테이블의 내용은 재생 컴퓨터의 하드웨어 플랫폼에 따라 달라집니다. 지원되는 하드웨어 플랫폼에 대한 자세한 내용은 [하드웨어 지원](#HardwareSupport)을 참조하세요.  
   
 #### <a name="platforms-that-do-not-support-hardware-counters"></a>하드웨어 카운터를 지원하지 않는 플랫폼  
  대부분의 플랫폼에서는 하드웨어 GPU 카운터를 완벽하게 지원하지 않습니다. 여기에는 Intel, AMD 및 nVidia에서 현재 제공하는 모든 GPU가 포함됩니다. 수집할 하드웨어 카운터가 없는 경우에는 정보 테이블이 하나만 표시되며 이 테이블에는 모든 변형의 평균 절대 타이밍이 포함됩니다.  
@@ -188,25 +183,22 @@ Visual Studio Graphics Analyzer의 그래픽 프레임 분석을 사용하여 Di
 >  이는 기능 수준이 아니라 사용 중인 Direct3D API 호출에만 적용됩니다. Direct3D 11, Direct3D 11.1 또는 Direct3D 11.2 API를 사용하는 한 좋아하는 기능 수준은 무엇이든 사용할 수 있고 프레임 분석이 작동합니다.  
   
 ##  <a name="Variants"></a> 변형  
- 프레임 분석이 재생 중 프레임이 렌더링 되는 방식을 게는 각 변경 이라고는 *변형*합니다. 프레임 분석에서 검사한 변형은 앱의 렌더링 성능 또는 시각적 품질을 향상시키기 위해 수행한 일반적이고 상대적으로 쉬운 변경에 해당합니다(예: 질감 크기 줄이기, 질감 압축 사용 또는 다른 종류의 앤티앨리어싱 사용). 변형은 앱의 일반적인 렌더링 컨텍스트와 매개 변수를 재정의합니다. 다음은 요약입니다.  
+ 프레임 분석이 재생 중 프레임이 렌더링되는 방식에 대해 변경한 각 내용을 *변형*이라고 합니다. 프레임 분석에서 검사한 변형은 앱의 렌더링 성능 또는 시각적 품질을 향상시키기 위해 수행한 일반적이고 상대적으로 쉬운 변경에 해당합니다(예: 질감 크기 줄이기, 질감 압축 사용 또는 다른 종류의 앤티앨리어싱 사용). 변형은 앱의 일반적인 렌더링 컨텍스트와 매개 변수를 재정의합니다. 다음은 요약입니다.  
   
 |변형|설명|  
 |-------------|-----------------|  
-|**1x1 뷰포트 크기**|모든 렌더링 대상의 뷰포트 크기를 1x1 픽셀로 줄입니다.<br /><br /> 자세한 내용은 참조 하세요. [1x1 뷰포트 크기 변형](../debugger/1x1-viewport-size-variant.md)|  
-|**0x MSAA**|모든 렌더링 대상에서 MSAA(MultiSample Anti-Aliasing)를 사용하지 않습니다.<br /><br /> 자세한 내용은 참조 하세요. [0x / 2 x / 4 msaa 변형](../debugger/0x-2x-4x-msaa-variants.md)|  
-|**2x MSAA**|모든 렌더링 대상에서 2x MSAA(MultiSample Anti-Aliasing)를 사용합니다.<br /><br /> 자세한 내용은 참조 하세요. [0x / 2 x / 4 msaa 변형](../debugger/0x-2x-4x-msaa-variants.md)|  
-|**4x MSAA**|모든 렌더링 대상에서 4x MSAA(MultiSample Anti-Aliasing)를 사용합니다.<br /><br /> 자세한 내용은 참조 하세요. [0x / 2 x / 4 msaa 변형](../debugger/0x-2x-4x-msaa-variants.md)|  
+|**1x1 뷰포트 크기**|모든 렌더링 대상의 뷰포트 크기를 1x1 픽셀로 줄입니다.<br /><br /> 자세한 내용은 [1x1 뷰포트 크기 변형](../debugger/1x1-viewport-size-variant.md) 참조|  
+|**0x MSAA**|모든 렌더링 대상에서 MSAA(MultiSample Anti-Aliasing)를 사용하지 않습니다.<br /><br /> 자세한 내용은 [0x/2x/4x MSAA 변형](../debugger/0x-2x-4x-msaa-variants.md) 참조|  
+|**2x MSAA**|모든 렌더링 대상에서 2x MSAA(MultiSample Anti-Aliasing)를 사용합니다.<br /><br /> 자세한 내용은 [0x/2x/4x MSAA 변형](../debugger/0x-2x-4x-msaa-variants.md) 참조|  
+|**4x MSAA**|모든 렌더링 대상에서 4x MSAA(MultiSample Anti-Aliasing)를 사용합니다.<br /><br /> 자세한 내용은 [0x/2x/4x MSAA 변형](../debugger/0x-2x-4x-msaa-variants.md) 참조|  
 |**점 질감 필터링**|적절한 모든 질감 샘플의 필터링 모드를 `DXD11_FILTER_MIN_MAG_MIP_POINT`(점 질감 필터링)로 설정합니다.<br /><br /> 자세한 내용은 [점, 쌍선형, 3 중 선형 및 이방성 질감 필터링 변형이](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md)합니다.|  
 |**쌍선형 질감 필터링**|적절한 모든 질감 샘플의 필터링 모드를 `DXD11_FILTER_MIN_MAG_LINEAR_MIP_POINT`(쌍선형 질감 필터링)로 설정합니다.<br /><br /> 자세한 내용은 [점, 쌍선형, 3 중 선형 및 이방성 질감 필터링 변형이](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md)합니다.|  
-|**3 중 선형 질감 필터링**|적절한 모든 질감 샘플의 필터링 모드를 `DXD11_FILTER_MIN_MAG_MIP_LINEAR`(3중 선형 질감 필터링)로 설정합니다.<br /><br /> 자세한 내용은 [점, 쌍선형, 3 중 선형 및 이방성 질감 필터링 변형이](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md)합니다.|  
-|**이방성 질감 필터링**|필터링 모드를 설정 합니다 `DXD11_FILTER_ANISOTROPIC` 하 고 `MaxAnisotropy` 에 `16` (16 배 이방성 질감 필터링) 적절 한 모든 질감 샘플입니다.<br /><br /> 자세한 내용은 [점, 쌍선형, 3 중 선형 및 이방성 질감 필터링 변형이](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md)합니다.|  
-|**16bpp 렌더링 대상 형식**|모든 렌더링 대상과 백 버퍼의 픽셀 형식을 `DXGI_FORMAT_B5G6R5_UNORM`(16bpp, 565 형식)으로 설정합니다.<br /><br /> 자세한 내용은 참조 하세요. [16bpp 렌더링 대상 형식 변형](../debugger/16bpp-render-target-format-variant.md)|  
-|**Mip 맵 생성**|렌더링 대상이 아닌 모든 질감에 대해 Mip 맵을 사용합니다.<br /><br /> 자세한 내용은 [Mip 맵 생성 변형](../debugger/mip-map-generation-variant.md)합니다.|  
-|**1/2 질감 크기**|렌더링 대상이 아닌 모든 질감에서 질감 크기를 원래 크기의 절반으로 줄입니다. 예를 들어 256x128 질감이 128x64텍셀로 축소됩니다.<br /><br /> 자세한 내용은 [1/2/1/4 질감 크기 변형](../debugger/half-quarter-texture-dimensions-variant.md)합니다.|  
-|**1/4 질감 크기**|렌더링 대상이 아닌 모든 질감의 질감 크기를 원래 크기의 4분의 1로 줄입니다. 예를 들어 256x128 질감이 64x32텍셀로 축소됩니다.<br /><br /> 자세한 내용은 [1/2/1/4 질감 크기 변형](../debugger/half-quarter-texture-dimensions-variant.md)합니다.|  
-|**BC 질감 압축**|B8G8R8X8, B8G8R8A8 또는 R8G8B8A8 픽셀 형식 변형이 있는 모든 질감에서 블록 압축을 사용합니다. B8G8R8X8 형식 변형은 BC1을 사용하여 압축되고, B8G8R8A8 및 R8G8B8A8 형식 변형은 BC3를 사용하여 압축됩니다.<br /><br /> 자세한 내용은 [BC 질감 압축 변형](../debugger/bc-texture-compression-variant.md)합니다.|  
+|**3중 선형 질감 필터링**|적절한 모든 질감 샘플의 필터링 모드를 `DXD11_FILTER_MIN_MAG_MIP_LINEAR`(3중 선형 질감 필터링)로 설정합니다.<br /><br /> 자세한 내용은 [점, 쌍선형, 3 중 선형 및 이방성 질감 필터링 변형이](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md)합니다.|  
+|**이방성 질감 필터링**|적절한 모든 질감 샘플의 경우 `DXD11_FILTER_ANISOTROPIC` 및 `MaxAnisotropy`에 대한 필터링 모드를 `16`(16x 3중 이방성 질감 필터링)으로 설정합니다.<br /><br /> 자세한 내용은 [점, 쌍선형, 3 중 선형 및 이방성 질감 필터링 변형이](../debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md)합니다.|  
+|**16bpp 렌더링 대상 형식**|모든 렌더링 대상과 백 버퍼의 픽셀 형식을 `DXGI_FORMAT_B5G6R5_UNORM`(16bpp, 565 형식)으로 설정합니다.<br /><br /> 자세한 내용은 [16bpp 렌더링 대상 형식 변형](../debugger/16bpp-render-target-format-variant.md) 참조|  
+|**Mip 맵 생성**|렌더링 대상이 아닌 모든 질감에 대해 Mip 맵을 사용합니다.<br /><br /> 자세한 내용은 [MIP 맵 생성 변형](../debugger/mip-map-generation-variant.md)을 참조하세요.|  
+|**1/2 질감 크기**|렌더링 대상이 아닌 모든 질감에서 질감 크기를 원래 크기의 절반으로 줄입니다. 예를 들어 256x128 질감이 128x64텍셀로 축소됩니다.<br /><br /> 자세한 내용은 [반기/분기 텍스처 차원 변형](../debugger/half-quarter-texture-dimensions-variant.md)을 참조하세요.|  
+|**1/4 질감 크기**|렌더링 대상이 아닌 모든 질감의 질감 크기를 원래 크기의 4분의 1로 줄입니다. 예를 들어 256x128 질감이 64x32텍셀로 축소됩니다.<br /><br /> 자세한 내용은 [반기/분기 텍스처 차원 변형](../debugger/half-quarter-texture-dimensions-variant.md)을 참조하세요.|  
+|**BC 질감 압축**|B8G8R8X8, B8G8R8A8 또는 R8G8B8A8 픽셀 형식 변형이 있는 모든 질감에서 블록 압축을 사용합니다. B8G8R8X8 형식 변형은 BC1을 사용하여 압축되고, B8G8R8A8 및 R8G8B8A8 형식 변형은 BC3를 사용하여 압축됩니다.<br /><br /> 자세한 내용은 [BC 질감 압축 변형](../debugger/bc-texture-compression-variant.md)을 참조하세요.|  
   
- 대부분 변형의 결과는 "질감 크기를 절반으로 줄이면 25% 빨라짐" 또는 "2x MSAA를 사용하면 2%만 느려짐"과 같이 규범적입니다. 다른 변형에는 더욱 자세한 해석이 필요할 수 있습니다. 예를 들어 뷰포트 크기를 1x1로 변경하는 변형이 성능을 크게 저하시키면 느린 채우기 속도로 인해 렌더링에 병목 현상이 나타났음을 나타내거나 성능에 커다란 변화가 없는 경우에는 꼭짓점 처리로 인해 병목 현상이 나타났음을 나타낼 수 있습니다.
-
-
-
+ 대부분 변형의 결과 규범적인: "질감 크기를 절반으로 감소 25% 더 빠르게" 인지, "2 배를 사용 하도록 설정 하면 MSAA 2%만 느려짐"입니다. 다른 변형에는 더욱 자세한 해석이 필요할 수 있습니다. 예를 들어 뷰포트 크기를 1x1로 변경하는 변형이 성능을 크게 저하시키면 느린 채우기 속도로 인해 렌더링에 병목 현상이 나타났음을 나타내거나 성능에 커다란 변화가 없는 경우에는 꼭짓점 처리로 인해 병목 현상이 나타났음을 나타낼 수 있습니다.

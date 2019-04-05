@@ -1,14 +1,9 @@
 ---
 title: 편집 하며 계속 하기 (Visual Basic) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -25,13 +20,13 @@ ms.assetid: 7e90f34f-e699-45ab-a4c9-a4b527c498c8
 caps.latest.revision: 43
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 383e3418135857b0bded3bbefaace0e8d5832ce6
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 24782fee98cff09513ff2b4d1606f2be0bd9fbd2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51750625"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985347"
 ---
 # <a name="edit-and-continue-visual-basic"></a>편집하며 계속하기(Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,12 +39,12 @@ ms.locfileid: "51750625"
   
  편집하며 계속하기는 .NET Framework 4.5.1을 대상으로 하는 64비트 프로젝트에 대해 지원됩니다.  
   
- 편집 하며 계속 하기를 사용 하 여 디버깅을 시작할 때 지원 되지 않습니다 **프로세스에 연결**합니다. 최적화된 코드, 혼합된 관리 및 네이티브 코드 또는 Compact Framework(스마트 장치) 프로젝트에는 편집하며 계속하기가 지원되지 않습니다.  
+ **프로세스에 연결**을 사용하여 디버깅을 시작하는 경우에는 [편집하며 계속하기]가 지원되지 않습니다. 최적화된 코드, 혼합된 관리 및 네이티브 코드 또는 Compact Framework(스마트 장치) 프로젝트에는 편집하며 계속하기가 지원되지 않습니다.  
   
  이 단원의 항목에서는 이 기능을 사용하는 방법과 허용되지 않는 종류의 변경에 대한 자세한 내용을 제공합니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
- [방법: 편집하며 계속하기를 사용하여 중단 모드에서 편집 적용](../debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue.md)  
+ [방법: [편집하며 계속하기]를 사용하여 중단 모드에서 편집 적용](../debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue.md)  
  중단 모드에서 코드 편집 내용을 적용하는 방법에 대해 설명합니다.  
   
  [Visual Basic 편집하며 계속하기에서 지원되지 않는 편집](../debugger/unsupported-edits-in-visual-basic-edit-and-continue.md)  
@@ -58,6 +53,3 @@ ms.locfileid: "51750625"
 ## <a name="related-sections"></a>관련 단원  
  [편집하며 계속하기](../debugger/edit-and-continue.md)  
  편집하며 계속하기에 대한 항목 목록을 제공합니다.
-
-
-

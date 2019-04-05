@@ -1,12 +1,9 @@
 ---
 title: T4 텍스트 템플릿 디버그 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, troubleshooting
 - text templates, debugging
@@ -14,13 +11,13 @@ ms.assetid: 0877fdf2-20bf-42da-b3cc-4c5856b80821
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: f299b89f7f59cbfc043bb77e6e56c3e5fac22d16
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 08e74dbb5fefcdaa0959690c7eb1633bca2a8bc6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49298911"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981657"
 ---
 # <a name="debugging-a-t4-text-template"></a>T4 텍스트 템플릿 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +81,3 @@ ms.locfileid: "49298911"
 |지시문을 처리 하는 동안 예외가 발생 했습니다 '{0}'.|지시문 프로세서 지시문을 처리 하는 경우 예외를 throw 하면 발생 합니다.|지시문 프로세서에 매개 변수가 올바른지 확인 해야 합니다.|  
 |호스트에서 어셈블리 참조를 확인 하는 동안 예외가 발생 했습니다. '{0}'.|호스트 어셈블리 참조를 확인 하려고 할 때 예외를 throw 하면 발생 합니다. 어셈블리를 제공 하는 메시지 문자열을 참조 합니다.|어셈블리 참조에서 가져올 \<@# assembly #> 지시문 또는 지시문 프로세서. 어셈블리 매개 변수에 제공 된 'name' 매개 변수가 정확한 지 확인 해야 합니다.|  
 |지정 하려고 지원 되지 않는 {1} 값 '{0}' 지시문에 대 한 {2}|(모두에서는 생성 된 지시문 프로세서에서 파생) RequiresProvidesDirectiveProcessor로 발생 제공 하는 경우 지원 되지 않는 필요 하거나 인수를 제공 합니다.|이름을 name = 'value' 쌍에 제공 해야 합니다 필요 하 고 매개 변수가 올바른지를 제공 합니다.|
-
-
-

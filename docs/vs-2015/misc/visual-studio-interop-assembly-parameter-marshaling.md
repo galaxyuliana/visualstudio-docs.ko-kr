@@ -1,27 +1,22 @@
 ---
 title: Visual Studio Interop 어셈블리 매개 변수 마샬링 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - troubleshooting Visual Studio SDK interop assemblies
 - interop assemblies, parameter marshaling
 - interop assemblies, troubleshooting
 ms.assetid: 89123eae-0fef-46d5-bd36-3d2a166b14e3
 caps.latest.revision: 24
-manager: douge
-ms.openlocfilehash: e18667adb48f565f73acc14f5012f9c96283efe9
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 6bde8ba3acd88936e482124f189fd35f7a1d6421
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49195021"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970923"
 ---
 # <a name="visual-studio-interop-assembly-parameter-marshaling"></a>Visual Studio Interop 어셈블리 매개 변수 마샬링
 관리 코드에서 기록 되는 Vspackage를 호출 하거나 관리 되지 않는 COM 코드에서 호출 해야 합니다. 일반적으로 메서드 인수를 변환 또는 자동으로 interop 마샬러가 마샬링됩니다. 그러나 경우에 따라 인수 변환할 수 없는 간단한 방식입니다. 이러한 경우 interop 어셈블리 메서드 프로토타입 매개 변수는 COM 함수 매개 변수를 최대한 가깝게 일치 하도록 사용 됩니다. 자세한 내용은 [Interop 마샬링](http://msdn.microsoft.com/library/115f7a2f-d422-4605-ab36-13a8dd28142a)합니다.  
@@ -128,7 +123,7 @@ else
  이 형식의 인터페이스를 호출 하는 관리 되는 메서드는 [out] 배열에서 첫 번째 요소를 끌어옵니다. 이 요소는 것 처럼 처리할 수 있습니다는 `retval` 해당 COM 인터페이스에서 값을 반환 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Interop 마샬링](http://msdn.microsoft.com/en-us/a95fdb76-7c0d-409e-a77e-0349b1ea1490)   
+ [Interop 마샬링](http://msdn.microsoft.com/a95fdb76-7c0d-409e-a77e-0349b1ea1490)   
  [Interop 마샬링](http://msdn.microsoft.com/library/115f7a2f-d422-4605-ab36-13a8dd28142a)   
  [상호 운용성 문제 해결](http://msdn.microsoft.com/library/b324cc1e-b03c-4f39-aea6-6a6d5bfd0e37)   
  [관리되는 VSPackage](../misc/managed-vspackages.md)

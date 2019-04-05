@@ -1,25 +1,20 @@
 ---
 title: '방법: 콘텐츠 모델 뷰를 사용 하 여 노드의 콘텐츠 모델 검사 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: c42ddac8-b0e3-48d6-9832-112a19d6c104
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ca6c86772cc3ad27b537052961afea50fad7b876
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 283378be55db059983d92f3581f6186f59102cb1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49245949"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986049"
 ---
 # <a name="how-to-examine-the-content-model-of-nodes-using-the-content-model-view"></a>방법: 콘텐츠 모델 뷰를 사용하여 노드의 콘텐츠 모델 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ ms.locfileid: "49245949"
 8.  클릭 합니다 **설명서 표시** 설명서를 전환 하려면 XSD 도구 모음 단추입니다. 또한 디자인 화면을 마우스 오른쪽 단추로 클릭하여 설명서를 표시하거나 숨길 수 있습니다.  
   
 9. Rick 클릭 합니다 `purchaseOrder` 노드를 선택 **샘플 XML 생성** 에 XML 인스턴스 문서를 참조 하세요.
-
-
-

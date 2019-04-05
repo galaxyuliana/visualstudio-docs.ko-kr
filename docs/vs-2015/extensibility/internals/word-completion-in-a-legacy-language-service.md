@@ -1,14 +1,9 @@
 ---
 title: 레거시 언어 서비스의 완료를 word | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - language services [managed package framework], IntelliSense Complete Word
 - IntelliSense, Complete Word
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 0ace5ac3-f9e1-4e6d-add4-42967b1f96a6
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 40a7e387ceb5fe88f059539634ae654ba076454f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 0541e033727f7bf46fe60d3b82b0b3d493f95563
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51801721"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984480"
 ---
 # <a name="word-completion-in-a-legacy-language-service"></a>레거시 언어 서비스의 단어 완성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ ms.locfileid: "51801721"
  목록에 한 단어를 포함 하는 경우 해당 <xref:Microsoft.VisualStudio.Package.Source> 클래스 부분 단어 대신 해당 단어를 자동으로 삽입 합니다. 목록에 둘 이상의 단어를 <xref:Microsoft.VisualStudio.Package.Source> 클래스에는 사용자에 맞게 선택할 수 있는 도구 팁 목록을 보여 줍니다.  
   
  예를 살펴볼 수도 <xref:Microsoft.VisualStudio.Package.Declarations> 에서 클래스 구현을 [레거시 언어 서비스의 멤버 완성](../../extensibility/internals/member-completion-in-a-legacy-language-service.md).
-

@@ -1,14 +1,9 @@
 ---
 title: 메모리 Windows | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.memory
 dev_langs:
@@ -31,13 +26,13 @@ ms.assetid: 7f7a0439-10e4-4966-bb2d-51f04cda4fe2
 caps.latest.revision: 37
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 704c0ff20dbd11b4640b2d81670a4cdeaf3f1ea0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 5a9c68709c1a06a84fe624bee726da5a12920dbd
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51724248"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58985743"
 ---
 # <a name="memory-windows"></a>메모리 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,7 +76,7 @@ ms.locfileid: "51724248"
 2.  입력 하거나 보고 누릅니다 하려는 주소를 붙여 넣습니다 **ENTER**합니다.  
   
 ## <a name="changing-the-way-the-memory-window-displays-information"></a>메모리 창의 정보 표시 방식 변경  
- 방식을 사용자 지정할 수는 **메모리** 창에는 메모리 내용을 보여 줍니다. 기본적으로 메모리 내용은 16진수 형식의 1바이트 정수로 표시되고 열 수는 창의 현재 너비에 따라 자동으로 지정됩니다.  
+ **메모리** 창에 메모리 내용이 표시되는 방식을 사용자 지정할 수 있습니다. 기본적으로 메모리 내용은 16진수 형식의 1바이트 정수로 표시되고 열 수는 창의 현재 너비에 따라 자동으로 지정됩니다.  
   
 #### <a name="to-change-the-format-of-the-memory-contents"></a>메모리 내용의 형식을 변경하려면  
   
@@ -105,7 +100,7 @@ ms.locfileid: "51724248"
   
     라이브 계산이 설정되어 있는 경우 옵션이 선택된 상태이므로 옵션을 클릭하면 라이브 계산이 해제됩니다. 라이브 계산이 해제되어 있는 경우 옵션이 선택되지 않은 상태이므로 옵션을 클릭하면 라이브 계산이 설정됩니다.  
   
-   맨 위에 있는 도구 모음을 표시 하거나 숨기려면 합니다 **메모리** 창입니다. 도구 모음이 숨겨진 동안에는 주소 상자나 기타 도구에 액세스할 수 없습니다.  
+   **메모리** 창 맨 위에 있는 도구 모음을 숨기거나 표시할 수 있습니다. 도구 모음이 숨겨진 동안에는 주소 상자나 기타 도구에 액세스할 수 없습니다.  
   
 #### <a name="to-toggle-the-toolbar"></a>도구 모음을 설정/해제하려면  
   
@@ -128,8 +123,3 @@ ms.locfileid: "51724248"
   
 ## <a name="see-also"></a>참고 항목  
  [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)
-
-
-
-
-

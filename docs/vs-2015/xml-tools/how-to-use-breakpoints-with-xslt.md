@@ -1,32 +1,27 @@
 ---
 title: '방법: XSLT에 중단점 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: bf7bbc2c-71dc-4cac-a6fc-add6b27d92ed
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: b01553075115ce953b499f722a254b5a2b9f20ee
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 5590d9f33d2c34b7d3d86aaf00307419685ca8da
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49233456"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982089"
 ---
 # <a name="how-to-use-breakpoints-with-xslt"></a>방법: XSLT에 중단점 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 XSLT 스타일시트 또는 XML 소스 문서에서 중단점을 설정할 수 있습니다. 태그에 중단점을 설정한 경우 실행을 시작하면 소스 줄 정보가 있는 다음 문으로 중단점이 이동합니다.  
   
- 자세한 내용은 [디버깅 기본 사항: 중단점](http://msdn.microsoft.com/en-us/752a02c2-0ac7-4c8b-aa1b-4b2b3b21152e)합니다.  
+ 자세한 내용은 참조 하세요. [디버깅 기본 사항: 중단점](http://msdn.microsoft.com/752a02c2-0ac7-4c8b-aa1b-4b2b3b21152e)합니다.  
   
 ## <a name="set-a-breakpoint-in-a-style-sheet"></a>스타일시트에서 중단점 설정  
  중단점은 XSLT 스타일시트의 모든 시작 태그, 끝 태그 및 텍스트 노드에 설정할 수 있으며 스크립트 블록의 코드에 대해서도 설정할 수 있습니다.  
@@ -64,4 +59,3 @@ XSLT 스타일시트 또는 XML 소스 문서에서 중단점을 설정할 수 �
   
 ## <a name="see-also"></a>참고 항목  
  [연습: XSLT 스타일시트 디버그](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
-

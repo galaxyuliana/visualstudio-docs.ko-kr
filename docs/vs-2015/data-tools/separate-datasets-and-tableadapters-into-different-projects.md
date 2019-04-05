@@ -1,12 +1,9 @@
 ---
 title: 데이터 집합 및 Tableadapter를 다른 프로젝트로 분리 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -19,13 +16,13 @@ ms.assetid: f66a3940-6227-46af-a930-9177f425f4fd
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 1e94c76254b14bdf82e4e7a219cbb0f35cb532f1
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 2f4b470bab1bc3a017edeb1c686a53baf2293495
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49824330"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970943"
 ---
 # <a name="separate-datasets-and-tableadapters-into-different-projects"></a>데이터 세트 및 TableAdapter를 다른 프로젝트로 분리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +30,7 @@ ms.locfileid: "49824330"
   
 형식화 된 데이터 집합 향상 된 있도록 합니다 [Tableadapter](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) dataset 클래스는 별도 프로젝트로 생성 될 수 있습니다. 이 통해 빠르게 응용 프로그램 계층을 분리 하 고 n 계층 데이터 응용 프로그램을 생성할 수 있습니다.  
   
- 다음 절차를 사용 하 여 프로세스를 설명 합니다[만들기 및 편집 형식화 된 데이터 집합](../data-tools/creating-and-editing-typed-datasets.md) 데이터 집합 코드는 생성 된 포함 된 프로젝트를 별개의 프로젝트로 생성 하 `TableAdapter` 코드입니다.  
+ 다음 절차에서는 데이터 집합 디자이너를 사용 하 여 생성 된 포함 된 프로젝트에서 분리 되는 프로젝트에 데이터 집합 코드를 생성 하는 프로세스 `TableAdapter` 코드입니다.  
   
 ## <a name="separatedatasets-and-tableadapters"></a>Separatedatasets 및 Tableadapter  
  데이터 집합 코드를 분리할 때는 `TableAdapter` 코드, 데이터 집합 코드를 포함 하는 프로젝트를 현재 솔루션에 있어야 합니다. 이 프로젝트는 현재 솔루션에 있지 않으면, 경우에 사용할 수 없습니다는 **데이터 집합 프로젝트** 목록에 **속성** 창입니다.  
@@ -75,4 +72,3 @@ ms.locfileid: "49824330"
  [계층적 업데이트](../data-tools/hierarchical-update.md)   
  [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)   
  [ADO.NET](http://msdn.microsoft.com/library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)
-

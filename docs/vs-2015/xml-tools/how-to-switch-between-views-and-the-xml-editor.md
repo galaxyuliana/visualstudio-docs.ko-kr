@@ -1,25 +1,20 @@
 ---
 title: '방법: 뷰와 XML 편집기 간 전환 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: cb69fbbd-d99c-439e-9498-5df9050f8df0
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 03edf2ba9d2e9c5042328a62606d9bbae47bb0f2
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 55481b5f91e0bb83241a04d61d1bfa91657b5c0d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49218454"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970450"
 ---
 # <a name="how-to-switch-between-views-and-the-xml-editor"></a>방법: 뷰와 XML 편집기 간 전환
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ ms.locfileid: "49218454"
   
 ### <a name="to-switch-between-the-views-and-the-xml-editor"></a>뷰와 XML 편집기 사이를 전환하려면  
   
-1.  를 만들고 새 XML 스키마 파일을 편집 하려면의 단계를 따릅니다 [방법:는 XSD 스키마 파일 만들기 및 편집](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md)합니다.  
+1.  를 만들고 새 XML 스키마 파일을 편집 하려면의 단계에 따라 [방법: XSD 스키마 파일 만들기 및 편집](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md)합니다.  
   
 2.  으로 전환 하려면 XML 스키마 디자이너는 XML 편집기에서 마우스 오른쪽 단추로 XML 편집기에서 아무 곳 이나 클릭 하 고 선택 **뷰 디자이너**합니다.  
   
@@ -44,6 +39,3 @@ ms.locfileid: "49218454"
 6.  바로 가기 키를 사용하여 뷰 간을 전환하려면 시작 뷰의 경우 Ctrl+1, 그래프 뷰의 경우 Ctrl+2, 콘텐츠 모델 뷰의 경우 Ctrl+3을 누릅니다.  
   
 7.  콘텐츠 모델 뷰에서 XML 편집기로 이동할 노드를 마우스 오른쪽 단추로 클릭 하 고 선택 **코드 보기** 상황에 맞는 메뉴입니다.
-
-
-

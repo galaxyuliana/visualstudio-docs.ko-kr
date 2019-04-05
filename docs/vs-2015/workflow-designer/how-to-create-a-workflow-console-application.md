@@ -1,25 +1,22 @@
 ---
 title: '방법: 워크플로 콘솔 응용 프로그램 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 ms.assetid: 51a2eea7-921c-49f1-b358-68afc27f1ee9
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: ad509e0e57f2c8996c13ffbe1d8f8890d2954dec
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 285c19e7814c369866fe70fa6f13e48efb6da359
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49251669"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982177"
 ---
-# <a name="how-to-create-a-workflow-console-application"></a>방법: 워크플로 콘솔 응용 프로그램 만들기
+# <a name="how-to-create-a-workflow-console-application"></a>방법: 워크플로 콘솔 애플리케이션 만들기
 [!INCLUDE[wf](../includes/wf-md.md)]에서는 시스템 또는 사용자 프로세스를 실행하는 워크플로를 만들 수 있습니다. [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 이러한 워크플로를 만들 수 있는 디자인 화면이 있습니다. [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내에서 워크플로를 만드는 데 사용되거나 디자이너를 다시 호스트하는 다른 응용 프로그램에 통합될 수 있습니다.  
   
  이 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)]의 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 콘솔 응용 프로그램에 워크플로를 만드는 방법에 대해 설명합니다.  

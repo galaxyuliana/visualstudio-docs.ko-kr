@@ -1,25 +1,22 @@
 ---
 title: 프로그램 코드 탐색 및 모델 업데이트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 ms.assetid: 1427ae91-be8a-4ce7-85df-00038faa2cbb
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6707f585e8f432a96c2a8cdeef06acb9e903c58e
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 1b9f53f1c2e28ce84cc59afa1d1db205da61e735
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49863167"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971151"
 ---
 # <a name="navigating-and-updating-a-model-in-program-code"></a>프로그램 코드에서 모델 탐색 및 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -302,7 +299,7 @@ using (Transaction t =
   
  역할에 복합성 0..1 또는 1.. 1 인 경우 설정할 수 있습니다 `null`, 또는 다른 값:  
   
- `edward.FamilyTreeModel = null;` 또는:  
+ `edward.FamilyTreeModel = null;` // or:  
   
  `edward.FamilyTreeModel = anotherFamilyTree;`  
   
@@ -513,7 +510,7 @@ partial class MyDiagram
  또한이 메서드를 사용 하 여 커넥터의 노출 된 다른 속성과 색을 설정할 수 있습니다.  
   
 ### <a name="use-transactions"></a>트랜잭션을 사용 하 여  
- 모양, 연결선 및 다이어그램의 하위 폼은 <xref:Microsoft.VisualStudio.Modeling.ModelElement> 및 저장소에 라이브입니다. 따라서 변경 해야 하는 트랜잭션에서 합니다. 자세한 내용은 [방법: 트랜잭션을 사용 하 여 모델 업데이트](../modeling/how-to-use-transactions-to-update-the-model.md)합니다.  
+ 모양, 연결선 및 다이어그램의 하위 폼은 <xref:Microsoft.VisualStudio.Modeling.ModelElement> 및 저장소에 라이브입니다. 따라서 변경 해야 하는 트랜잭션에서 합니다. 자세한 내용은 [방법: 트랜잭션을 사용 모델을 업데이트 하 여](../modeling/how-to-use-transactions-to-update-the-model.md)입니다.  
   
 ##  <a name="docdata"></a> 문서 보기 및 문서 데이터  
  ![표준 다이어그램 형식의 클래스 다이어그램](../modeling/media/dsldiagramsanddocs.png "DSLDiagramsandDocs")  
@@ -525,9 +522,6 @@ partial class MyDiagram
  <xref:Microsoft.VisualStudio.Modeling.ModelElement>   
  [도메인 특정 언어에서 유효성 검사](../modeling/validation-in-a-domain-specific-language.md)   
  [도메인 특정 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md)   
- [방법: 트랜잭션을 사용 모델을 업데이트 하 여](../modeling/how-to-use-transactions-to-update-the-model.md)   
+ [방법: 트랜잭션을 사용 하 여 모델 업데이트](../modeling/how-to-use-transactions-to-update-the-model.md)   
  [Visual Studio Modelbus를 사용 하 여 모델 통합](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
  [변경 내용에 대한 대응 및 전파](../modeling/responding-to-and-propagating-changes.md)
-
-
-

@@ -1,27 +1,22 @@
 ---
 title: 원본 제어 플러그 인 용어집 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - glossary [Visual Studio SDK]
 - source control plug-ins, glossary
 ms.assetid: f224bbc9-38fc-4c80-ab09-51dcc8969f8e
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 9535987cc729c78c7d72ee9f51529aeb91b59450
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f5120a5c6678cac32ef65e08ef7dc34649364cf9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51732281"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982645"
 ---
 # <a name="source-control-plug-in-glossary"></a>소스 제어 플러그 인 용어집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,9 +63,8 @@ ms.locfileid: "51732281"
  리포지토리  
  원본 시스템을 제어 하는 경우 마스터 복사본을 프로젝트의 전체 수정 기록을 저장 합니다. 각 프로젝트에는 정확히 하나의 저장소를 있습니다.  
   
- 수정 버전  
+ Revision  
  파일의 기록 또는 파일 집합에는 커밋된 변경 내용. 수정 버전 하나인 지속적으로 변화는 프로젝트의 스냅숏.  
   
 ## <a name="see-also"></a>참고 항목  
  [소스 제어 플러그 인](../extensibility/source-control-plug-ins.md)
-

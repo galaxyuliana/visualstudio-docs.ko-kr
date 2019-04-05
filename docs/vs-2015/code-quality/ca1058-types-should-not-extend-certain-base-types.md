@@ -1,14 +1,9 @@
 ---
-title: 'CA1058: 형식은 특정 기본 형식을 확장 하지 해야 | Microsoft Docs'
-ms.custom: ''
+title: 'CA1058: 형식은 특정 기본 형식을 확장 하면 안 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - TypesShouldNotExtendCertainBaseTypes
 - CA1058
@@ -20,12 +15,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 0a4ffbe3b359f2c58f8e301b9176981a2037c17f
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 4c5bb40bdf552e78ecae49bfa0b78c6aa403160d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49912437"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981616"
 ---
 # <a name="ca1058-types-should-not-extend-certain-base-types"></a>CA1058: 형식은 특정 기본 형식을 확장하면 안 됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,6 +88,3 @@ public class MyReadOnlyCollection : ReadOnlyCollection<T>
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  에 대 한 위반에 대 한이 규칙에서 경고를 표시 하지 마십시오 <xref:System.ApplicationException>합니다. 에 대 한 위반에 대 한이 규칙에서 경고를 표시 하지 않아도 안전 합니다 <xref:System.Xml.XmlDocument>합니다. 코드를 이전에 릴리스된 경우 제네릭이 아닌 컬렉션에 대 한 경고를 표시 하지 않으려면 안전 합니다.
-
-
-

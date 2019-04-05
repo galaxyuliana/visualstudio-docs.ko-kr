@@ -1,27 +1,22 @@
 ---
 title: 프로그램 시작 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, launching
 - programs, launching
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: c3af2c1f571287a4a33c1dd57340e2a66197bd59
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: cd23fdc3baf4afd6dde50a4310abf1b5c1841fd7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51753956"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984373"
 ---
 # <a name="launching-a-program"></a>프로그램 시작
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,4 +61,3 @@ ms.locfileid: "51753956"
 ## <a name="related-sections"></a>관련 단원  
  [디버깅 작업](../../extensibility/debugger/debugging-tasks.md)  
  프로그램을 시작 하 고 식을 계산 하는 등의 다양 한 디버깅 작업에 대 한 링크를 포함 합니다.
-

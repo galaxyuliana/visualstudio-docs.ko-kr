@@ -1,27 +1,22 @@
 ---
 title: 레거시 언어 서비스 파서 및 검사기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - parsers, language services [managed package framework]
 - language services [managed package framework], Parsers
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: fd419c569a298afd37548fd7b85a23cad733e371
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 4d5110c0289a630640fdb2c2383234173d931c72
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51786407"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982622"
 ---
 # <a name="legacy-language-service-parser-and-scanner"></a>레거시 언어 서비스 파서 및 검사기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,9 +45,9 @@ namespace MyNamespace
 |----------------|----------------|  
 |네임 스페이스, 클래스, public void int|keyword|  
 |=|연산자|  
-|{ } ( ) ;|구분 기호|  
+|{ } ( ) ;|구분 기호(delimiter)|  
 |MyNamespace "," MyClass "," MyFunction "," arg1 "," var1|식별자|  
-|MyNamespace|네임스페이스(namespace)|  
+|MyNamespace|namespace|  
 |MyClass|클래스|  
 |MyFunction|메서드|  
 |arg1|매개 변수|  
@@ -63,7 +58,7 @@ namespace MyNamespace
 ## <a name="types-of-parsers"></a>파서 형식  
  언어 서비스 파서 컴파일러의 일부로 사용 하는 파서 같지는 않습니다. 그러나이 유형의 파서 컴파일러 파서 같은 동일한 방식으로 스캐너와 파서를 사용 해야 합니다.  
   
-- 스캐너 토큰 유형을 식별 하는 데 사용 됩니다. 이 정보는 구문 강조 표시 한 토큰 형식 예를 들어, 다른 작업을 트리거할 수 있는 중괄호 일치를 신속 하 게 식별 하는 데 사용 됩니다. 이 스캐너는 표현 된 <xref:Microsoft.VisualStudio.Package.IScanner> 인터페이스입니다.  
+- 스캐너 토큰 유형을 식별 하는 데 사용 됩니다. 이 정보는 구문 강조에 사용되며 중괄호 일치 등의 다른 작업을 트리거할 수 있는 토큰 유형을 신속하게 식별하는 데 사용됩니다. 이 스캐너는 표현 된 <xref:Microsoft.VisualStudio.Package.IScanner> 인터페이스입니다.  
   
 - 파서 토큰의 범위와 함수를 설명 하는 데 사용 됩니다. 이 정보는 메서드, 변수, 매개 변수, 선언 등의 언어 요소를 식별 하 고 멤버와 메서드 서명이 컨텍스트를 기반으로 목록을 제공 IntelliSense 작업에 사용 됩니다. 중괄호 및 괄호와 같은 일치 하는 언어 요소 쌍을 찾으려고이 파서도 사용 됩니다. 이 파서를 통해 액세스 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 의 메서드는 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스.  
   
@@ -120,7 +115,7 @@ namespace MyNamespace
 12. 이 작업을 수행 합니다.  
   
 ### <a name="summary"></a>요약  
- 일치 하는 중괄호 작업 하는 간단한 쌍 언어 요소에 일반적으로 제한 됩니다. 삼중 쌍 일치와 같은 더 복잡 한 요소 ("`if(…)`","`{`"및"`}`", 또는 "`else`","`{`"및"`}`"), 단어 완성 작업의 일환으로 강조 표시할 수 있습니다. 예를 들어, "else" 라는 단어가 완료 되 면, 일치 하는 "`if`" 문을 강조 표시할 수 있습니다. 일련의 있다면 `if` / `else if` 중괄호 일치로 동일한 메커니즘을 사용 하 여 강조 표시 된 모든 문을 수 없습니다. 합니다 <xref:Microsoft.VisualStudio.Package.Source> 기본 클래스가 이미 지 원하는이 다음과 같이: 스캐너 토큰 트리거 값을 반환 해야 합니다 <xref:Microsoft.VisualStudio.Package.TokenTriggers> 트리거 값과 함께 <xref:Microsoft.VisualStudio.Package.TokenTriggers> 커서 위치 앞에 있는 토큰에 대 한 합니다.  
+ 일치 하는 중괄호 작업 하는 간단한 쌍 언어 요소에 일반적으로 제한 됩니다. 삼중 쌍 일치와 같은 더 복잡 한 요소 ("`if(…)`","`{`"및"`}`", 또는 "`else`","`{`"및"`}`"), 단어 완성 작업의 일환으로 강조 표시할 수 있습니다. 예를 들어, "else" 라는 단어가 완료 되 면, 일치 하는 "`if`" 문을 강조 표시할 수 있습니다. 일련의 있다면 `if` / `else if` 중괄호 일치로 동일한 메커니즘을 사용 하 여 강조 표시 된 모든 문을 수 없습니다. <xref:Microsoft.VisualStudio.Package.Source> 기본 클래스 이미이 다음과 같이 지원 합니다. 스캐너 토큰 트리거 값을 반환 해야 합니다 <xref:Microsoft.VisualStudio.Package.TokenTriggers> 트리거 값과 함께 <xref:Microsoft.VisualStudio.Package.TokenTriggers> 커서 위치 앞에 있는 토큰입니다.  
   
  자세한 내용은 [레거시 언어 서비스의 중괄호 일치](../../extensibility/internals/brace-matching-in-a-legacy-language-service.md)합니다.  
   
@@ -143,4 +138,3 @@ namespace MyNamespace
  [레거시 언어 서비스 개요](../../extensibility/internals/legacy-language-service-overview.md)   
  [레거시 언어 서비스의 구문 색 지정](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)   
  [레거시 언어 서비스의 중괄호 일치](../../extensibility/internals/brace-matching-in-a-legacy-language-service.md)
-

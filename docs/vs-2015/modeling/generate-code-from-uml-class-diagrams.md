@@ -1,12 +1,9 @@
 ---
 title: UML 클래스 다이어그램에서 코드 생성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.teamarch.logicalclassdiagram.shapes.properties.Templates
 - vs.teamarch.logicalclassdiagram.shapes.properties.Templates.TextTransformationDataCollectionEditor
@@ -18,13 +15,13 @@ ms.assetid: 2790e64d-7728-4c2e-a4dd-4131e795f730
 caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: a8108a552f21504714fea84bcb29194db4d947cf
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: ffe24127fc0b02b2abb8b4c91ff57345cf88ff7f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51764784"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986232"
 ---
 # <a name="generate-code-from-uml-class-diagrams"></a>UML 클래스 다이어그램에서 코드 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -121,7 +118,7 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
 
 - Is Partial  
 
-- Is Static  
+- 정적  
 
 - Is Unsafe  
 
@@ -136,7 +133,7 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
 
  처음 실행할 때 합니다 **코드 생성** 명령은 특정 모델의 템플릿 바인딩의 기본 집합이 모델의 루트에 연결 합니다. 이러한 바인딩은 모델의 모든 요소에 적용됩니다.  
 
- 그러나 사용자 고유의 바인딩을 패키지, 클래스 또는 다른 요소에 연결하여 이러한 기본 바인딩을 재정의하거나 기본 바인딩에 추가할 수 있습니다. 바인딩은 바인딩이 연결된 요소에 포함된 모든 요소에 적용됩니다. 예를 들어 특정 패키지 내의 모든 형식이 다른 템플릿 집합에 의해 변환되거나 다른 폴더에 출력되도록 하려는 경우 템플릿 바인딩을 패키지에 연결할 수 있습니다.  
+ 그러나 사용자 고유의 바인딩을 패키지, 클래스 또는 다른 요소에 연결하여 이러한 기본 바인딩을 재정의하거나 기본 바인딩에 추가할 수 있습니다. 바인딩은 바인딩이 연결된 요소에 포함된 모든 요소에 적용됩니다. 예를 들어 특정 패키지 내의 모든 형식이 다른 템플릿 집합에 의해 변형되거나 다른 폴더에 출력되도록 하려는 경우 템플릿 바인딩을 패키지에 연결할 수 있습니다.  
 
  모델 요소에 연결 된 템플릿 바인딩을 검사를 하려면 줄임표를 선택 **[...]**  에 **텍스트 템플릿 바인딩** 속성 창에서 속성입니다.  
 
@@ -175,7 +172,7 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
    |    대상 이름     | 생성된 파일의 이름입니다.<br /><br /> 식을이 문자열에 같은 삽입할 `{Name}` 또는 `{Owner.Name}`합니다. 예를 들어, 작성할 수 있습니다: `{Owner.Name}_{Name}`합니다. 식은 모델 요소에 대해 평가됩니다. 식에서는 요소의 속성을 사용할 수 있지만 메서드의 속성은 사용할 수 없습니다. 속성을 사용할 수를 찾으려면 형식의 속성을 보고 **Microsoft.VisualStudio.Uml.\\ ***. \*\*중요:* \* `{Name}` 하거나 `{Owner.Name}` 에서만 사용할 수는 **대상 이름** 속성입니다. 생성된 클래스의 이름을 변경하려면 템플릿을 수정해야 합니다. 자세한 내용은 [텍스트 템플릿 작성](#writing)합니다. |
    |    프로젝트 경로    |                                                                      변환의 출력 파일을 포함할 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트의 경로를 지정합니다. 새 프로젝트를 만들려면 형식화된 값을 사용하고, 줄임표 단추를 선택 (**[...]** ) 기존 프로젝트를 선택 합니다.<br /><br /> 새 프로젝트가 없는 경우 만들어지며, C# 클래스 라이브러리 프로젝트가 됩니다.<br /><br /> 이렇게 하려면 프로젝트를 직접 입력해야 합니다. %ProgramFiles% 또는 %LocalAppData%와 같은 환경 변수 매크로를 포함할 수 있습니다.                                                                       |
    |  대상 디렉터리  |                                                                                          대상 파일이 생성된 폴더입니다. 경로는 프로젝트 폴더에 상대적입니다.<br /><br /> `{PackageStructure}` 식을 사용하여, 포함하는 패키지의 이름에 해당하는 경로를 삽입할 수 있습니다. 기본값은 `\GeneratedCode\{PackageStructure}`입니다. %TEMP% 또는 %HomePath%와 같은 환경 변수도 포함할 수 있습니다. **중요:** `{PackageStructure}` 에서만 사용할 수는 **대상 디렉터리** 속성입니다.                                                                                          |
-   | 템플릿 파일 경로 |                                                                                                                                                           변환을 수행할 템플릿입니다.<br /><br /> 제공된 템플릿을 사용하거나 사용자 고유의 템플릿을 만들 수 있습니다. 다음 위치에서 제공된 템플릿을 찾을 수 있습니다.<br /><br /> …\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Architecture Tools\Extensibility\Templates\Text\                                                                                                                                                           |
+   | 템플릿 파일 경로 |                                                                                                                                                           변형을 수행할 템플릿입니다.<br /><br /> 제공된 템플릿을 사용하거나 사용자 고유의 템플릿을 만들 수 있습니다. 다음 위치에서 제공된 템플릿을 찾을 수 있습니다.<br /><br /> …\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Architecture Tools\Extensibility\Templates\Text\                                                                                                                                                           |
 
 
 5. 바인딩을 원하는 만큼 요소에 연결할 수 있습니다.  
@@ -187,7 +184,7 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
 
  …\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Architecture Tools\Extensibility\Templates\Text\  
 
- 텍스트 템플릿을 이해하려면 다음 항목을 참조하세요.  
+ 텍스트 템플릿을 이해하려면 다음 항목을 참조하십시오.  
 
 - 텍스트 템플릿은 결과 파일의 프로토타입이며 결과 텍스트와 모델을 읽는 프로그램 코드를 둘 다 포함합니다. 자세한 내용은 [코드 생성 및 T4 텍스트 템플릿](../modeling/code-generation-and-t4-text-templates.md)합니다.  
 
@@ -223,11 +220,11 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
 
 - 일부 어셈블리는 템플릿에서 자동으로 참조됩니다. 이러한 어셈블리에는 System.dll, Microsoft.VisualStudio.Uml.Interfaces.dll 등이 있습니다.  
 
-   생성하는 프로그램 코드에서 다른 어셈블리를 사용하려면 `Assembly` 지시문을 사용해야 합니다. 예를 들면 다음과 같습니다.  
+   생성하는 프로그램 코드에서 다른 어셈블리를 사용하려면 `Assembly` 지시문을 사용해야 합니다. 예를 들어:  
 
    `<#@ Assembly Name="%ProgramFiles%\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll" #>`  
 
-- `System`과 같은 일부 네임스페이스를 프로그램 코드에 자동으로 가져올 수 있습니다. 다른 네임스페이스의 경우 `Import` 문을 사용할 때와 같은 방식으로 `using` 지시문을 사용할 수 있습니다. 예를 들면 다음과 같습니다.  
+- `System`과 같은 일부 네임스페이스를 프로그램 코드에 자동으로 가져올 수 있습니다. 다른 네임스페이스의 경우 `Import` 문을 사용할 때와 같은 방식으로 `using` 지시문을 사용할 수 있습니다. 예를 들어:  
 
    `<#@ Import Namespace="Microsoft.VisualStudio.Uml.Classes" #>`  
 
@@ -243,6 +240,3 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
  [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)   
  [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)   
  [UML 모델에서 파일 생성](../modeling/generate-files-from-a-uml-model.md)
-
-
-

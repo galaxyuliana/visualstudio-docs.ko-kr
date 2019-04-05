@@ -1,12 +1,9 @@
 ---
 title: 모델 및 다이어그램 내보내기 공유 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML model, sharing
 - UML diagrams, saving
@@ -14,13 +11,13 @@ ms.assetid: 22e47b4d-c185-478c-9535-56d292b45984
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: f59ac9d96a9f001b54c86bbf51819ecf2efb40c9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 4d2fd2af8a68ee72ec26b52a4c26a829d94376ef
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51798458"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984888"
 ---
 # <a name="share-models-and-exporting-diagrams"></a>모델 공유 및 다이어그램 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,6 +63,3 @@ Visual Studio에서 여러 가지 방법으로 모델 및 다이어그램을 동
 ## <a name="see-also"></a>참고 항목  
  [앱 용 모델 만들기](../modeling/create-models-for-your-app.md)   
  [개발 프로세스에서 모델 사용](../modeling/use-models-in-your-development-process.md)
-
-
-

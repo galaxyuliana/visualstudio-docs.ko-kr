@@ -1,27 +1,22 @@
 ---
 title: '방법: 기본 제공 색 항목 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - colorable items
 - language services, built-in colorable items
 ms.assetid: 5e5f3436-6bad-4fd2-8823-6a30353ba648
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 9b168eee5f5f8a8a9775d9326cb9a7dda6287792
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 2546d9e9c864772bf1a2d3063e8ce4adc1cd7605
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51806089"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983428"
 ---
 # <a name="how-to-use-built-in-colorable-items"></a>방법: 기본 제공 색 항목 사용
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,4 +40,3 @@ ms.locfileid: "51806089"
  [구문 색 지정 구현](../../extensibility/internals/implementing-syntax-coloring.md)   
  [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)   
  [레거시 언어 서비스 등록](../../extensibility/internals/registering-a-legacy-language-service2.md)
-

@@ -1,26 +1,21 @@
 ---
 title: 프로젝트 형식을 만들어야 하는 경우 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - project types, conditions for creating
 ms.assetid: 26adc860-ee4a-4f5c-95e1-e41b207dd7e6
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 021a4d5e527ca7a22ecd984805b9fbec547531ee
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 682fc88fb616fbe2617fe6d336a35bf6fbc30e9f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51801669"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971000"
 ---
 # <a name="when-to-create-project-types"></a>프로젝트 형식을 만들어야 하는 경우
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -57,7 +52,7 @@ ms.locfileid: "51801669"
 |작업|설명|  
 |----------|-----------------|  
 |명령 처리|모든 VSPackage 명령을 처리할 수 있습니다.|  
-|편집기를 작성합니다.|사용자 지정 편집기를 등록할 수 있습니다. 자세한 내용은 [문서 Windows 및 편집기](http://msdn.microsoft.com/en-us/603625e1-62b6-413a-bc44-089346e166bc)합니다.|  
+|편집기를 작성합니다.|사용자 지정 편집기를 등록할 수 있습니다. 자세한 내용은 [문서 Windows 및 편집기](http://msdn.microsoft.com/603625e1-62b6-413a-bc44-089346e166bc)합니다.|  
 |Windows를 소유합니다.|새 프로젝트 형식을 추가 하지 않고 windows 도구 및 문서를 만들 수 있습니다.|  
 |속성 창에서 속성을 노출|모든 개체 속성을 노출할 수 있습니다.|  
   
@@ -65,7 +60,6 @@ ms.locfileid: "51801669"
  새 프로젝트 형식을 만들 필요 없이 관리 되는 프로젝트 형식을 확장 하려면 프로젝트 하위 형식에 사용할 수 있습니다. 프로젝트 하위 형식 COM 집계를 사용 하 여 Microsoft에서 작성 된 관리 되는 프로젝트를 확장 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 또는 [!INCLUDE[csprcs](../../includes/csprcs-md.md)]합니다. COM 집계를 사용 하 여 관리 되는 프로젝트 시스템 구현의 대부분 다시 사용할 수 있으며 인터페이스를 지 원하는 사용 하 여 집계를 통해 특정 시나리오에도 사용자 지정할 수 있습니다. 프로젝트 하위 형식에 대 한 자세한 내용은 참조 하세요. [프로젝트 하위 형식](../../extensibility/internals/project-subtypes.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [문서 Windows 및 편집기](http://msdn.microsoft.com/en-us/603625e1-62b6-413a-bc44-089346e166bc)   
+ [문서 Windows 및 편집기](http://msdn.microsoft.com/603625e1-62b6-413a-bc44-089346e166bc)   
  [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Visual Studio의 계층 구조](../../extensibility/internals/hierarchies-in-visual-studio.md)
-

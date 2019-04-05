@@ -1,26 +1,21 @@
 ---
 title: '방법: 사용자 지정 텍스트 표식 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - custom text markers
 ms.assetid: 6e32ed81-c604-4a32-9012-8db3bec7c846
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 3b0a280b44ad468ba44baf81efcc4e4569638e8b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: bd79d91dbf9705bf0faf743e66b4da40008307ed
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51783092"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985948"
 ---
 # <a name="how-to-create-custom-text-markers"></a>방법: 사용자 지정 텍스트 표식 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,13 +28,13 @@ ms.locfileid: "51783092"
   
 - 확인 하려면 다른 프로세스에서 사용할 수 있는 서비스 만들기 텍스트 마커에 사용  
   
-  텍스트 마커 코드 영역에 적용 하는 방법에 대 한 세부 정보를 참조 하세요 [방법: 사용 하 여 텍스트 마커](../extensibility/how-to-use-text-markers.md)합니다.  
+  텍스트 마커 코드 영역에 적용 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 텍스트 마커를 사용 하 여](../extensibility/how-to-use-text-markers.md)입니다.  
   
 ### <a name="to-register-a-custom-marker"></a>사용자 지정 마커를 등록 하려면  
   
 1. 다음과 같이 레지스트리 항목을 만듭니다.  
   
-    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* \Text Editor\External 표식\\*\<MarkerGUID >*  
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* \Text Editor\External Markers\\*\<MarkerGUID>*  
   
     <em>\<MarkerGUID ></em>되는 `GUID` 추가할 마커를 식별 하는 데 사용  
   
@@ -58,7 +53,7 @@ ms.locfileid: "51783092"
   
    -   DisplayName  
   
-   -   패키지  
+   -   Package  
   
    -   `Default` REG_SZ 형식의 선택적 항목이입니다. 항목의 값에 몇 가지 유용한 식별 정보, 예를 들어 "사용자 지정 텍스트 표식"를 포함 하는 문자열은 설정 된 경우.  
   
@@ -98,5 +93,4 @@ ms.locfileid: "51783092"
  [텍스트 마커를 사용 하 여 레거시 API를 사용 하 여](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)   
  [방법: 오류 마커를 구현 합니다.](../extensibility/how-to-implement-error-markers.md)   
- [방법: 텍스트 표식 사용](../extensibility/how-to-use-text-markers.md)
-
+ [방법: 텍스트 마커를 사용 합니다.](../extensibility/how-to-use-text-markers.md)

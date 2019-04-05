@@ -1,25 +1,22 @@
 ---
 title: UML 모델에서 파일을 생성 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML model, generating files
 ms.assetid: 4e28b0e6-ce8f-45ee-9e3a-e4d600a0ad81
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: afbb81a67d8d5f8f587979ab8adca4251562072a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 03b2cf5b03ea7f2cfc2d8fa90346ac47c1e4ae84
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51804549"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970929"
 ---
 # <a name="generate-files-from-a-uml-model"></a>UML 모델에서 파일 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -336,6 +333,3 @@ namespace Test{
 -   **별도 어셈블리로 코드 이동**합니다. 템플릿에서 큰 코드 본문을 작성하지 않는 것이 좋습니다. 생성된 콘텐츠를 계산과 별도로 유지하는 것이 좋으며, 텍스트 템플릿은 코드 편집 작업에 대해 완전히 지원되지 않습니다.  
   
      대신, 텍스트를 생성하기 위해 상당히 많은 계산을 수행해야 하는 경우 별도 어셈블리에 해당 함수를 빌드하고 템플릿에서 해당 메서드를 호출합니다.
-
-
-

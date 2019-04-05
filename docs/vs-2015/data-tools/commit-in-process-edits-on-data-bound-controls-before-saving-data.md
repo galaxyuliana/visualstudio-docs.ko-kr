@@ -1,35 +1,32 @@
 ---
 title: 데이터를 저장 하기 전에 데이터 바인딩된 컨트롤에서 in-process 편집 커밋 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
 - C++
 - aspx
 helpviewer_keywords:
-- commiting edited records
+- committing edited records
 - data-bound controls, in-process edits
-- DataBinding class, commiting edited records
-- hierarchical update, commiting edited records
-- BindingSource class, commiting edited records
+- DataBinding class, committing edited records
+- hierarchical update, committing edited records
+- BindingSource class, committing edited records
 - EndEdit method
 ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 3af1534e6436eec2eac1f294be8c2428c949ce9d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: d703ef271dfec09b277db2c2702679b8087b4b88
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49296038"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982414"
 ---
 # <a name="commit-in-process-edits-on-data-bound-controls-before-saving-data"></a>데이터 바인딩된 컨트롤에서 데이터를 저장하기 전에 In-Process 편집 커밋
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +34,7 @@ ms.locfileid: "49296038"
   
 데이터 바인딩된 컨트롤에서 값을 편집할 때 사용자가 컨트롤에 바인딩되는 데이터 원본에 값이 업데이트를 적용 하려면 현재 레코드 탐색 해야 합니다. 항목을 끌면 합니다 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) 폼으로 끌어 놓으면 첫 번째 항목에는 코드를 생성 합니다 **저장** 단추 클릭 이벤트에는 <xref:System.Windows.Forms.BindingNavigator>합니다. 이 코드는 호출을 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 메서드는 <xref:System.Windows.Forms.BindingSource>합니다. 따라서 호출을 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 메서드가 첫 번째에 대해서만 생성 됩니다 <xref:System.Windows.Forms.BindingSource> 폼에 추가 된 합니다.  
   
- <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 호출은 현재 편집 중인 데이터 바인딩된 컨트롤에서 진행 중인 모든 변경 내용을 커밋합니다. 따라서 데이터 바인딩된 컨트롤에 있는 경우 여전히 포커스 클릭 하면 합니다 **저장** 단추를 보류 중인 모든 편집 컨트롤 실제 저장 전에 커밋된에 (의 `TableAdapterManager.UpdateAll` 메서드).  
+ <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 호출에서는 현재 편집 중인 데이터 바인딩된 컨트롤의 프로세스에 포함된 모든 변경 내용을 커밋합니다. 따라서 데이터 바인딩된 컨트롤에 계속 포커스가 있는 상태에서 **저장** 단추를 클릭하면 실제 저장 전에 해당 컨트롤에서 보류 중인 모든 편집 내용이 커밋됩니다(`TableAdapterManager.UpdateAll` 메서드).  
   
  사용자가 저장의 일부로 변경 내용을 커밋하지 않고 데이터를 저장 하려고 하는 경우에 자동으로 변경 내용을 커밋 하도록 응용 프로그램을 구성할 수 있습니다 프로세스입니다.  
   
@@ -61,4 +58,3 @@ ms.locfileid: "49296038"
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터에 Windows Forms 컨트롤 바인딩](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [계층적 업데이트](../data-tools/hierarchical-update.md)
-

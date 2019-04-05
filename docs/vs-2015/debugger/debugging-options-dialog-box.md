@@ -1,14 +1,9 @@
 ---
 title: 옵션 대화 상자, 디버깅 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -29,18 +24,18 @@ ms.assetid: 9450589a-42ea-45bf-b128-89447225cca6
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 4c535769e333cd1301a85ac05752d22d92f6ad55
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f1f3b6f6ee2c5a815bfa4f3a9744b3ad2c8cc690
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51753516"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972688"
 ---
 # <a name="debugging-options-dialog-box"></a>옵션 대화 상자, 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-**디버깅** 폴더에서를 **옵션** 대화 상자에는 **도구** 메뉴, 도구 옵션 디버거를 지정할 수 있도록 하는 다음 페이지를 제공 합니다.  
+**도구** 메뉴의 **옵션** 대화 상자에 있는 **디버깅** 폴더에는 디버거 도구 옵션을 지정할 수 있는 다음과 같은 페이지가 있습니다.  
   
 -   [옵션 대화 상자, 디버깅, 일반](../debugger/general-debugging-options-dialog-box.md)  
   
@@ -54,6 +49,3 @@ ms.locfileid: "51753516"
  [디버거 보안](../debugger/debugger-security.md)   
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)   
  [사용자 인터페이스 참조 디버그](../debugger/debugging-user-interface-reference.md)
-
-
-

@@ -1,12 +1,9 @@
 ---
 title: 도메인 특정 언어를 정의 하는 방법 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.dsltools.dsldesigner.domainrelationship
 - vs.dsltools.dsldesigner.domainclass
@@ -20,20 +17,20 @@ ms.assetid: d1772463-0eb1-40a5-b7c0-9a008bc76760
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: b3c83ded60359bff2f84d35aec41eb387227022a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 4a03c8901eba94c7c96e200a38a6619ae7df3e70
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49880743"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985301"
 ---
 # <a name="how-to-define-a-domain-specific-language"></a>도메인별 언어 정의 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션을 만듭니다. 이 솔루션의 중요한 요소는 DslDefinition.dsl에 저장되는 DSL 정의 다이어그램입니다. DSL 정의는 DSL의 클래스와 모양을 정의합니다. 이러한 요소를 수정하고 필요한 내용을 추가한 후에 프로그램 코드를 추가하여 DSL을 보다 자세하게 사용자 지정할 수 있습니다.  
   
- Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있는: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
+ Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있습니다. [Visualizaton 및 모델링 SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
   
 ##  <a name="templates"></a> 템플릿 솔루션 선택  
  DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.  
@@ -173,9 +170,9 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
   
 |요소 표시 방식|부모(포함) 클래스|DSL 솔루션 템플릿의 예|  
 |------------------------------|--------------------------------|--------------------------------------|  
-|다이어그램에 표시된 모양<br /><br /> 스윔 레인|DSL의 루트 클래스|최소 언어<br /><br /> 작업 흐름: 행위자 클래스|  
-|스윔 레인의 모양|스윔 레인으로 표시되는 요소의 도메인 클래스|작업 흐름: 작업 클래스|  
-|컨테이너를 삭제하면 항목도 삭제되는 모양 내 목록의 항목<br /><br /> 모양 모서리의 포트|컨테이너 모양에 매핑되는 도메인 클래스|클래스 다이어그램: 특성 클래스<br /><br /> 구성 요소 다이어그램: 포트 클래스|  
+|다이어그램에 표시된 모양<br /><br /> 스윔 레인|DSL의 루트 클래스|최소 언어<br /><br /> 작업 흐름: 행위자 클래스입니다.|  
+|스윔 레인의 모양|스윔 레인으로 표시되는 요소의 도메인 클래스|작업 흐름: 작업 클래스입니다.|  
+|컨테이너를 삭제하면 항목도 삭제되는 모양 내 목록의 항목<br /><br /> 모양 모서리의 포트|컨테이너 모양에 매핑되는 도메인 클래스|클래스 다이어그램: 클래스는 특성입니다.<br /><br /> 구성 요소 다이어그램: 포트 클래스입니다.|  
 |컨테이너를 삭제해도 삭제되지 않는 목록의 항목|DSL의 루트 클래스<br /><br /> 목록에 참조 링크가 표시됩니다.||  
 |직접 표시되지 않음|부분을 구성하는 클래스||  
   
@@ -191,7 +188,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
 >  포함은 상속과는 다릅니다. 포함 관계에 있는 자식은 부모로부터 기능을 상속하지 않습니다.  
   
 ### <a name="add-domain-properties-to-each-domain-class"></a>각 도메인 클래스에 도메인 속성 추가  
- 도메인 속성에는 값이 저장됩니다. 예를 들어 이름, 제목, 게시 날짜 등이 저장될 수 있습니다.  
+ 도메인 속성에는 값이 저장됩니다. 예는 다음과 같습니다. 이름, 제목, 게시 날짜입니다.  
   
  클릭 **도메인 속성** 클래스에서 ENTER 키를 누른 다음 속성의 이름을 입력 합니다. 도메인 속성의 기본 형식은 문자열입니다. 형식을 변경 하려는 경우 도메인 속성을 선택 하 고 설정 합니다 **형식** 에 **속성** 창. 드롭다운 목록에서 원하는 유형이 없으면 참조 [속성 형식 추가](#addTypes)합니다.  
   
@@ -217,7 +214,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
   
 ##### <a name="to-test-the-new-domain-classes"></a>새 도메인 클래스를 테스트하려면  
   
-1.  **모든 템플릿 변환을 클릭** DSL 디자이너 코드를 생성 하려면 솔루션 탐색기의 도구 모음에서입니다. 이 단계는 자동화할 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
+1.  **모든 템플릿 변환을 클릭** DSL 디자이너 코드를 생성 하려면 솔루션 탐색기의 도구 모음에서입니다. 이 단계는 자동화할 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
   
 2.  **빌드하고 DSL을 실행 합니다.** 새 인스턴스를 실행 하려면 F5 키나 ctrl+f5를 눌러 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실험적 모드에서. 실험적 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 인스턴스에서 DSL의 파일 이름 확장명이 지정된 파일을 열거나 만듭니다.  
   
@@ -413,7 +410,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
   
    연결선을 처음으로 테스트한 후에 일부 속성을 조정하고 몇 가지 고급 기능을 더 추가할 수 있습니다. 자세한 내용은 [사용자 지정 및 도메인 특정 언어 확장](../modeling/customizing-and-extending-a-domain-specific-language.md)합니다.  
   
-##  <a name="compartments"></a> 목록이 포함 된 모양 정의: 구획 모양  
+##  <a name="compartments"></a> 목록이 포함 된 셰이프를 정의 합니다. 구획 도형  
  구획 모양은 항목 목록을 하나 이상 포함합니다. 예를 들어 MusicLibrary DSL에서는 구획 모양을 사용하여 음악 Album을 표시할 수 있습니다. 각 Album에는 노래 목록이 있습니다.  
   
  ![구획 모양](../modeling/media/compartmentshape.png "CompartmentShape")  
@@ -609,7 +606,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
   
  그러므로 DSL 정의에서 일부 관계를 변경하는 경우 주의해야 합니다. 정의를 저장하거나 모든 템플릿 변환을 실행할 때 오류가 보고되는 경우가 있기 때문입니다. 이러한 오류는 대부분 쉽게 해결할 수 있습니다. 오류 보고서를 두 번 클릭하면 오류의 위치를 확인할 수 있습니다.  
   
- 참고 항목 [방법: 도메인별 언어의 Namespace 변경](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md)합니다.  
+ 참고 항목 [방법: 도메인 특정 언어의 Namespace 변경](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md)합니다.  
   
 ##  <a name="trouble"></a> 문제 해결  
  아래 테이블에는 DSL을 디자인할 때 가장 흔히 발생하는 몇 가지 문제와 제안 해결 방법이 나와 있습니다. 자세한 도움말에서 사용할 수는 [시각화 도구 문제 포럼](http://go.microsoft.com/fwlink/?LinkId=186074)합니다.  
@@ -622,13 +619,10 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
 |도메인 클래스를 만들었는데 언어 탐색기에서 인스턴스를 만들 수 없습니다.|루트를 제외한 모든 도메인 클래스는 포함 관계의 대상이어야 합니다.|  
 |DSL 탐색기에는 요소와 형식 이름만 표시됩니다.|DSL 정의에서 클래스의 도메인 속성을 선택 하 고 속성 창의 설정 **Is Element Name** true로 합니다.|  
 |DSL이 항상 XML 편집기에서 열립니다.|파일을 읽는 동안 오류가 발생하면 이러한 현상이 발생할 수 있습니다. 그러나 해당 오류를 해결한 후에도 명시적으로 편집기를 DSL 디자이너로 다시 설정해야 합니다.<br /><br /> 프로젝트 항목을 마우스 오른쪽 단추로 클릭, 클릭 **연결 프로그램** 선택한 _YourLanguage_**Designer (기본값)** 합니다.|  
-|어셈블리 이름을 변경한 후 DSL의 도구 상자가 표시되지 않습니다.|검사 및 업데이트 **DslPackage\GeneratedCode\Package.tt** 자세한 내용은 참조 하십시오 [방법: 도메인 특정 언어의 Namespace 변경](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md)합니다.|  
+|어셈블리 이름을 변경한 후 DSL의 도구 상자가 표시되지 않습니다.|검사 및 업데이트 **DslPackage\GeneratedCode\Package.tt** 자세한 내용은 참조 하세요. [방법: 도메인 특정 언어의 Namespace 변경](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md)합니다.|  
 |어셈블리 이름을 변경하지 않았는데 DSL의 도구 상자가 표시되지 않습니다.<br /><br /> 또는 확장을 로드하지 못했음을 보고하는 메시지 상자가 표시됩니다.|실험적 인스턴스를 다시 설정하고 솔루션을 다시 빌드합니다.<br /><br /> 1.  Windows 시작 메뉴에서 **모든 프로그램**, 확장 [!INCLUDE[vssdk_current_long](../includes/vssdk-current-long-md.md)], 한 다음 **도구**, 클릭 하 고 **Microsoft Visual Studio 실험적 인스턴스 재설정**.<br />2.  에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **빌드** 메뉴에서 클릭 **솔루션 다시 빌드**합니다.|  
   
 ## <a name="see-also"></a>참고 항목  
  [도메인별 언어 시작](../modeling/getting-started-with-domain-specific-languages.md)   
  [Windows Forms 기반 도메인별 언어 만들기](../modeling/creating-a-windows-forms-based-domain-specific-language.md)   
  [WPF 기반 도메인별 언어 만들기](../modeling/creating-a-wpf-based-domain-specific-language.md)
-
-
-

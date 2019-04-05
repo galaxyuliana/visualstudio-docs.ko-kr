@@ -1,12 +1,9 @@
 ---
 title: WPF 응용 프로그램에서 관련된 데이터 표시 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -24,15 +21,15 @@ ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: f6c939ee1a64834bd305d0ae744d9ac02e3b4410
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: e1b80fe54fa17c0d7109f6a4ddb4ac5ada98ae2a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49174150"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971990"
 ---
-# <a name="display-related-data-in-wpf-applications"></a>WPF 응용 프로그램에서 관련된 데이터 표시
+# <a name="display-related-data-in-wpf-applications"></a>WPF 애플리케이션에서 관련 데이터 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -42,9 +39,9 @@ ms.locfileid: "49174150"
   
 ## <a name="to-create-controls-that-display-related-records"></a>관련된 레코드를 표시 하는 컨트롤을 만들려면  
   
-1.  에 **데이터** 메뉴에서 클릭 **데이터 소스 표시** 열려는 합니다 **데이터 원본** 창.  
+1.  **데이터** 메뉴에서 **데이터 원본 표시**를 클릭하여 **데이터 원본** 창을 엽니다.  
   
-2.  클릭 **새 데이터 원본 추가**를 완료 합니다 **데이터 소스 구성** 마법사.  
+2.  **새 데이터 원본 추가**를 클릭하고 **데이터 원본 구성 마법사** 완료합니다.  
   
 3.  WPF 디자이너를 열고 디자이너의 항목에 대 한 유효한 놓기 대상 컨테이너가 포함 되어 있는지 확인 합니다 **데이터 원본** 창입니다.  
   
@@ -70,5 +67,4 @@ ms.locfileid: "49174150"
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [WPF 응용 프로그램에서 조회 테이블 만들기](../data-tools/create-lookup-tables-in-wpf-applications.md)   
- [연습: WPF 응용 프로그램에서 관련 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)
-
+ [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)

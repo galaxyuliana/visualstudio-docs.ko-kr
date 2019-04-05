@@ -1,12 +1,9 @@
 ---
 title: 새 데이터 소스 추가 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 f1_keywords:
 - vs.datasource.datasourcefieldspicker
 dev_langs:
@@ -21,15 +18,15 @@ ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
 caps.latest.revision: 60
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 50a18de0fa3006e1cf95e48d50f24411347fd135
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 5bbfeafdf60e58031813c2dcd64b2adfcfb9b5b9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49279151"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971954"
 ---
-# <a name="add-new-data-sources"></a>새 데이터 소스 추가
+# <a name="add-new-data-sources"></a>새 데이터 원본 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -88,7 +85,7 @@ Visual Studio의.NET data tools의 컨텍스트에서 용어 *데이터 원본* 
 -   웹 서비스 비교입니다.  
   
     > [!NOTE]
-    >  에 표시 되는 항목의 **데이터 원본** 창 서비스를 반환 하는 데이터에 따라 달라 집니다. 일부 서비스에 대 한 충분 한 정보를 제공 하지 않을 수 있습니다 합니다 **데이터 소스 구성 마법사** 바인딩할 수 있는 개체를 만들 수 있습니다. 예를 들어 서비스가 형식화 되지 않은 데이터 집합을 반환 하는 경우 항목이에 나타납니다 합니다 **데이터 원본** 창 마법사를 완료 합니다. 형식화 되지 않은 데이터 집합 스키마를 제공 하지 않으며 마법사가 데이터 원본을 만들려면 충분 한 정보를 갖고 있지 않으므로 때문입니다.  
+    >  에 표시 되는 항목의 **데이터 원본** 창 서비스를 반환 하는 데이터에 따라 달라 집니다. **데이터 원본 구성 마법사**에서 바인딩 가능한 개체를 만들기에 충분한 정보를 제공하지 않는 서비스도 있습니다. 예를 들어 서비스가 형식화 되지 않은 데이터 집합을 반환 하는 경우 항목이에 나타납니다 합니다 **데이터 원본** 창 마법사를 완료 합니다. 형식화 되지 않은 데이터 집합 스키마를 제공 하지 않으며 마법사가 데이터 원본을 만들려면 충분 한 정보를 갖고 있지 않으므로 때문입니다.  
   
 ## <a name="data-source-for-an-object"></a>개체에 대 한 데이터 원본  
  실행 하 여 하나 이상의 공용 속성을 노출 하는 개체 로부터 데이터 소스를 만들 수 있습니다 합니다 **데이터 소스 구성 마법사** 을 선택한 다음는 **개체** 데이터 소스 형식입니다. 개체의 모든 public 속성에 표시 되는 **데이터 원본** 창입니다.   Entity Framework를 사용 하는 모델을 생성 하는 경우 응용 프로그램에 대 한 데이터 원본 수 있는 엔터티 클래스를 찾을 위치입니다.  
@@ -108,4 +105,3 @@ Visual Studio의.NET data tools의 컨텍스트에서 용어 *데이터 원본* 
   
 ## <a name="see-also"></a>참고 항목  
  [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)
-

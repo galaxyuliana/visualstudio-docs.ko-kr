@@ -1,11 +1,8 @@
 ---
 title: '방법: 상태 시스템 워크플로 라이브러리 (레거시) 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 helpviewer_keywords:
 - projects, state machine workflow library
@@ -15,13 +12,13 @@ ms.assetid: 5bd68c6e-6a98-47d9-826d-9bb7a4fd72f8
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 9f813df11fdc787455c1c435a53cff2e074612a1
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: f1f972903cadf6a918b34b1d0fbed560bd26606f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49189945"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982079"
 ---
 # <a name="how-to-create-a-state-machine-workflow-library-legacy"></a>방법: 상태 시스템 워크플로 라이브러리 만들기(레거시)
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 제공하는 레거시 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 상태 시스템 워크플로 라이브러리 프로젝트를 만들려면 다음 단계를 따릅니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  

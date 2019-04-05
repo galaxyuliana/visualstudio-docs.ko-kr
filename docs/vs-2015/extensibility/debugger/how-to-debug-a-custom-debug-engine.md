@@ -1,27 +1,22 @@
 ---
 title: '방법: 사용자 지정 디버그 엔진 디버그 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, debugging
 - debugging [Debugging SDK], custom debug engines
 ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: d293011a3865b4fb9c31349240c520e56f5a9e39
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5292d2cde8a75a239f7a905d8cf5d80b09a8f61e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51756768"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970725"
 ---
 # <a name="how-to-debug-a-custom-debug-engine"></a>방법: 사용자 지정 디버그 엔진 디버그
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ ms.locfileid: "51756768"
 프로젝트 형식에서 디버그 엔진 (DE)를 시작 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> 메서드. 즉, 인스턴스의 제어 하는 DE 시작 되는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 프로젝트 형식을 제어 합니다. 그러나 해당 인스턴스의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 는 DE를 디버깅할 수 없습니다. 다음에 사용자 지정 DE을 디버그할 수 있도록 단계는 같습니다.  
   
 > [!NOTE]
->  : "디버깅을 사용자 지정 디버그 엔진" 절차에서에 연결 하기 전에 시작 하는 de 기다려야 합니다. 메시지 상자는 DE 시작 될 때 나타나는 독일의 시작 부분에 배치 하면 해당 지점에 연결할 수 있으며 계속 하려면 메시지 상자의 선택을 취소 한 다음 수 있습니다. 이런 방식으로 catch 할 수 있습니다 모든 DE 이벤트입니다.  
+>  :     "디버깅을 사용자 지정 디버그 엔진" 절차를 연결 하기 전에 시작 하는 de 기다려야 합니다. 메시지 상자는 DE 시작 될 때 나타나는 독일의 시작 부분에 배치 하면 해당 지점에 연결할 수 있으며 계속 하려면 메시지 상자의 선택을 취소 한 다음 수 있습니다. 이런 방식으로 catch 할 수 있습니다 모든 DE 이벤트입니다.  
   
 > [!WARNING]
 >  원격 디버깅 절차를 시도 하기 전에 설치 해야 합니다. 참조 [원격 디버깅](../../debugger/remote-debugging.md) 세부 정보에 대 한 합니다.  
@@ -82,4 +77,3 @@ ms.locfileid: "51756768"
   
 ## <a name="see-also"></a>참고 항목  
  [사용자 지정 디버그 엔진 만들기](../../extensibility/debugger/creating-a-custom-debug-engine.md)
-
