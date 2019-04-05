@@ -1,26 +1,21 @@
 ---
-title: '연습: 텍스트를 강조 표시. | Microsoft Docs'
-ms.custom: ''
+title: '연습: 텍스트를 강조 표시 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - highlight text
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 caps.latest.revision: 43
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: d4fad243b109cb8522f15e30d628d5eb27c09c07
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5600f30df21e73fb4474839aee3bc6ab1eced761
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51790723"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970490"
 ---
 # <a name="walkthrough-highlighting-text"></a>연습: 텍스트 강조 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -414,4 +409,3 @@ Managed Extensibility Framework (MEF) 구성 요소 파트를 만들어 편집�
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 파일 이름 확장명에 콘텐츠 형식 연결](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
-
