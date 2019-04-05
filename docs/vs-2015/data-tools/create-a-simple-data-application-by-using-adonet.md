@@ -1,12 +1,9 @@
 ---
 title: ADO.NET을 사용 하 여 간단한 데이터 응용 프로그램 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -16,15 +13,15 @@ ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4754cad05858ed48fd421301b4b0f1d2c569a926
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 9f3c5dd921ab9c86d197d22aea63bad86264bb5b
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49824284"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58981981"
 ---
-# <a name="create-a-simple-data-application-by-using-adonet"></a>ADO.NET을 사용 하 여 간단한 데이터 응용 프로그램 만들기
+# <a name="create-a-simple-data-application-by-using-adonet"></a>ADO.NET을 사용하여 간단한 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -52,9 +49,9 @@ ms.locfileid: "49824284"
 ## <a name="prerequisites"></a>전제 조건  
  응용 프로그램을 만들려면 다음이 필요 합니다.  
   
-- Visual Studio Community Edition입니다.  
+- Visual Studio Community Edition.  
   
-- SQL Server Express LocalDB입니다.  
+- SQL Server Express LocalDB.  
   
 - 단계를 수행 하 여 만든 작은 예제 데이터베이스 [스크립트를 사용 하 여 SQL 데이터베이스를 만들](../data-tools/create-a-sql-database-by-using-a-script.md)합니다.  
   
@@ -71,7 +68,7 @@ ms.locfileid: "49824284"
   
     Visual Studio에서 프로젝트와 Form1이라는 빈 Windows 폼을 포함한 여러 파일을 만듭니다.  
   
-2. 세 개의 폼을 갖도록 두 개의 Windows forms 프로젝트에 추가 하 고 다음과 같은 이름 지정:  
+2. 프로젝트에 두 개의 Windows 양식을 추가하여 총 세 개의 양식을 만든 다음, 다음 이름을 지정합니다.  
   
    -   탐색  
   
@@ -84,7 +81,7 @@ ms.locfileid: "49824284"
    > [!NOTE]
    >  그룹 상자 및 레이블 컨트롤도 선명성을 더해 주지만 코드에서는 사용하지 않습니다.  
   
-   **Navigation 폼**  
+   **탐색 양식**  
   
    ![탐색 대화 상자](../data-tools/media/simpleappnav.png "SimpleAppNav")  
   
@@ -94,7 +91,7 @@ ms.locfileid: "49824284"
 |단추|Name = btnGoToFillOrCancel|  
 |단추|Name = btnExit|  
   
- **NewCustomer 폼**  
+ **NewCustomer 양식**  
   
  ![새 고객을 추가 하 고 주문 하기](../data-tools/media/simpleappnewcust.png "SimpleAppNewCust")  
   
@@ -109,7 +106,7 @@ ms.locfileid: "49824284"
 |단추|Name = btnAddAnotherAccount|  
 |단추|Name = btnAddFinish|  
   
- **FillOrCancel 폼**  
+ **FillOrCancel 양식**  
   
  ![주문 입력 또는 취소](../data-tools/media/simpleappcancelfill.png "SimpleAppCancelFill")  
   
@@ -227,7 +224,7 @@ ms.locfileid: "49824284"
  이 섹션에서는 각 폼에서 수행되는 작업에 대한 간단한 개요를 포함하며, 폼을 만드는 코드를 보여 줍니다. 번호가 매겨진 주석은 해당 코드 섹션을 식별합니다.  
   
 ### <a name="navigation-form"></a>Navigation 폼  
- 응용 프로그램을 실행하면 Navigation 폼이 열립니다. 합니다 **계정 추가** 단추는 NewCustomer 폼이 열립니다. 합니다 **채우기 또는 취소 주문** 단추 FillOrCancel 폼이 열립니다. 합니다 **종료** 단추는 응용 프로그램을 닫습니다.  
+ 응용 프로그램을 실행하면 Navigation 폼이 열립니다. **계정 추가** 단추는 NewCustomer 양식을 엽니다. **주문 이행 또는 취소** 단추를 누르면 FillOrCancel 양식이 열립니다. **끝내기** 단추를 클릭하면 애플리케이션이 닫힙니다.  
   
 #### <a name="make-the-navigation-form-the-startup-form"></a>Navigation 폼을 시작 폼으로 만들기  
  사용 하는 C#의 경우 **솔루션 탐색기**Program.cs를 열고 변경 하는 `Application.Run` 이 줄: `Application.Run(new Navigation());`  
@@ -734,7 +731,7 @@ End Namespace
 |NC-16|고객 이름이 있는지 확인하는 메서드를 정의합니다.<br /><br /> -텍스트 상자가 비어 있는 경우 메시지를 표시 하 고 반환 `false`이므로 계정을 만들려면 이름이 필요 합니다.<br />-텍스트 상자가 비어 있지 않은 경우 반환 `true`합니다.|  
 |NC-17|`btnPlaceOrder` 단추에 대한 클릭 이벤트 처리기에 코드를 추가합니다.|  
 |NC-18|필수 입력이 없는 경우 `uspPlaceNewOrder`가 실행되지 않도록 `btnPlaceOrder_Click` 이벤트 코드 주변의 `isPlaceOrderReady`에 대한 호출을 래핑합니다.|  
-|NC-19~NC-25|이러한 코드 섹션은 `btnCreateAccount_Click` 이벤트 처리기에 추가한 코드와 유사합니다.<br /><br /> -NC-19입니다. `SqlCommand` 개체인 `cmdNewOrder`를 만들고 `Sales.uspPlaceOrder`를 저장 프로시저로 지정합니다.<br />-NC-20-23 NC는 저장된 프로시저에 대 한 입력된 매개 변수입니다.<br />-NC-24입니다. `@RC`에는 데이터베이스에서 생성된 주문 ID인 반환 값이 포함됩니다. 이 매개 변수의 방향은 `ReturnValue`로 지정됩니다.<br />-NC-25입니다. NC-2에서 선언한 `orderID` 변수에 주문 ID 값을 저장하고 값을 메시지 상자에 표시합니다.|  
+|NC-19~NC-25|이러한 코드 섹션은 `btnCreateAccount_Click` 이벤트 처리기에 추가한 코드와 유사합니다.<br /><br /> -   NC-19. `SqlCommand` 개체인 `cmdNewOrder`를 만들고 `Sales.uspPlaceOrder`를 저장 프로시저로 지정합니다.<br />-NC-20-23 NC는 저장된 프로시저에 대 한 입력된 매개 변수입니다.<br />-   NC-24. `@RC`에는 데이터베이스에서 생성된 주문 ID인 반환 값이 포함됩니다. 이 매개 변수의 방향은 `ReturnValue`로 지정됩니다.<br />-   NC-25. NC-2에서 선언한 `orderID` 변수에 주문 ID 값을 저장하고 값을 메시지 상자에 표시합니다.|  
 |NC-26|고객 ID가 있는지와 금액이 `numOrderAmount`에 지정되었는지 확인할 수 있는 메서드를 정의합니다.|  
 |NC-27|`btnAddAnotherAccount` 클릭 이벤트 처리기에서 `ClearForm` 메서드를 호출합니다.|  
 |NC-28|다른 고객을 추가하려면 폼에서 값을 지우는 `ClearForm` 메서드를 만듭니다.|  
@@ -1145,4 +1142,3 @@ End Namespace
   
 ##  <a name="BKMK_testyourapplication"></a> 응용 프로그램 테스트  
  빌드 및 각 Click 이벤트 처리기를 코딩 한 후 응용 프로그램을 테스트 하려면 F5 키를 선택 하 고 코딩을 마친 후 다음입니다.
-

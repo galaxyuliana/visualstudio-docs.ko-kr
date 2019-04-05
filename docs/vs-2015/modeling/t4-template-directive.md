@@ -1,23 +1,20 @@
 ---
 title: T4 템플릿 지시문 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 2b0a8e04-6fee-4c6c-b086-e49fc728a3ed
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: dcd11416bc067acaab8855b51969c7e1068e2c97
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 608ba29c9f2068ce053fd6b92ba053eb45869ddd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49248226"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982785"
 ---
 # <a name="t4-template-directive"></a>T4 템플릿 지시문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +29,7 @@ ms.locfileid: "49248226"
 <#@ template [language="VB"] [compilerOptions="options"] [culture="code"] [debug="true"] [hostspecific="true"] [inherits="templateBaseClass"] [visibility="internal"] [linePragmas="false"] #>  
 ```  
   
- `template` 지시문에는 변형의 다양한 측면을 지정할 수 있도록 하는 몇 가지 특성이 있습니다. 모든 특성은 선택적입니다.  
+ `template` 지시문에는 변환의 다양한 측면을 지정할 수 있도록 하는 몇 가지 특성이 있습니다. 모든 특성은 선택적입니다.  
   
 ## <a name="compileroptions-attribute"></a>compilerOptions 특성  
  예제:  
@@ -62,7 +59,7 @@ ms.locfileid: "49248226"
 debug="true"  
 ```  
   
- 유효한 값:  
+ 유효한 값은  
  `true, false`. 기본값은 False입니다.  
   
  `debug` 특성이 `true`인 경우 중간 코드 파일에 디버거가 중단 또는 예외가 발생한 템플릿의 위치를 정확하게 식별할 수 있도록 하는 정보가 포함됩니다.  
@@ -77,7 +74,7 @@ debug="true"
 hostspecific="true"  
 ```  
   
- 유효한 값:  
+ 유효한 값은  
  `true, false, trueFromBase`. 기본값은 False입니다.  
   
  이 특성의 값을 `true`로 설정하면 `Host`라는 속성이 텍스트 템플릿에서 생성된 클래스에 추가됩니다. 이 속성은 변환 엔진의 호스트에 대한 참조이며 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>로 선언됩니다. 사용자 지정 호스트를 정의한 경우에는 해당 호스트를 사용자 지정 호스트 형식으로 캐스팅할 수 있습니다.  
@@ -241,6 +238,3 @@ This is the common footer.
  `internal`  
   
  런타임 텍스트 템플릿에서 생성된 클래스의 표시 유형 특성을 설정합니다. 기본적으로 클래스는 사용자 코드의 공용 API에 속하지만 `visibility="internal"`을 설정하여 사용자의 코드만 텍스트 생성 클래스를 사용할 수 있도록 지정할 수 있습니다.
-
-
-

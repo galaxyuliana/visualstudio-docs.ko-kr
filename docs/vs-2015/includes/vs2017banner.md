@@ -1,18 +1,18 @@
 ---
-title: 파일 포함
+title: 포함 파일
 description: 파일 포함
 ms.custom: include file
 author: ghogen
 ms.author: ghogen
 ms.date: 11/15/2016
 ms.topic: include
-manager: douge
-ms.openlocfilehash: 425b07127fdd65d7caaa1fd4f2c82b1087f5e299
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: d16cdc30788ad8b05f5e794241be2f4b3fc5dba6
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49307023"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58986585"
 ---
 > [!Note]
-> 이 문서에서는 Visual Studio 2015에 적용 됩니다. Visual Studio 2017 설명서를 찾고 있는 경우 왼쪽 맨 위에 있는 버전 선택기를 사용 합니다. Visual Studio 2017로 업그레이드 하는 것이 좋습니다. [다운로드할](https://www.visualstudio.com/downloads?utm_source=web&utm_medium=documentation&utm_campaign=vs2017upgrade&utm_term=vs2017)합니다.
+> 이 문서에서는 Visual Studio 2015에 적용 됩니다. 최신 Visual Studio 설명서를 찾고 있는 경우 왼쪽 맨 위에 있는 버전 선택기를 사용 합니다. Visual Studio 2019로 업그레이드 하는 것이 좋습니다. [여기서 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)

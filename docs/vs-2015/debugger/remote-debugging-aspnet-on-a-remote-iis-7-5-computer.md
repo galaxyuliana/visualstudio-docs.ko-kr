@@ -1,25 +1,20 @@
 ---
 title: 원격 IIS 7.5의 원격 디버깅 ASP.NET 컴퓨터 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-debug
 ms.topic: conceptual
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 71d249571830ac608bef12c4a47d0243de1859a5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 79fe01ada43b1ac8fe408a1427fd9e65f9cd37cb
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51764067"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58980931"
 ---
 # <a name="remote-debugging-aspnet-on-a-remote-iis-computer"></a>원격 IIS 컴퓨터의 원격 디버깅 ASP.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,9 +37,9 @@ ASP.NET 응용 프로그램의 원격 디버깅을 위해 관리자 권한으로
 
 ![RemoteDebuggerWindow](../debugger/media/remotedebuggerwindow.png "RemoteDebuggerWindow")
   
-## <a name="create-the-application-on-the-visual-studio-computer"></a>Visual Studio 컴퓨터에서 응용 프로그램 만들기  
+## <a name="create-the-application-on-the-visual-studio-computer"></a>Visual Studio 컴퓨터에서 애플리케이션 만들기  
   
-1. 새 MVC ASP.NET 응용 프로그램을 만듭니다. **파일 / 새로 만들기 / 프로젝트**, **Visual C# / 웹 / ASP.NET 웹 응용 프로그램** 을 차례로 선택합니다. **ASP.NET 4.5.2** 템플릿 섹션에서 **MVC**를 선택합니다. 했는지 **클라우드에서 호스트** Azure 섹션 아래에서 선택 하지 않으면. 프로젝트 이름을 **MyMVC**.)
+1. 새 MVC ASP.NET 애플리케이션을 만듭니다. **파일 / 새로 만들기 / 프로젝트**, **Visual C# / 웹 / ASP.NET 웹 응용 프로그램** 을 차례로 선택합니다. **ASP.NET 4.5.2** 템플릿 섹션에서 **MVC**를 선택합니다. 했는지 **클라우드에서 호스트** Azure 섹션 아래에서 선택 하지 않으면. 프로젝트 이름을 **MyMVC**.)
 1. HomeController.cs 파일을 열고 `About()` 메서드에 중단점을 설정합니다.
 1. **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **게시**를 선택합니다.
 1. **게시 대상 선택**에 대해 **사용자 지정** 을 선택하고 프로필 이름을 **MyMVC**로 지정합니다. **다음**을 클릭합니다.
@@ -55,7 +50,7 @@ ASP.NET 응용 프로그램의 원격 디버깅을 위해 관리자 권한으로
 
     ![RemoteDBG_Publish_Debug_Config](../debugger/media/remotedbg-publish-debug-config.png "RemoteDBG_Publish_Debug_Config")
     
-    로컬 디렉터리에 응용 프로그램을 게시해야 합니다.
+    로컬 디렉터리에 애플리케이션을 게시해야 합니다.
 
 ## <a name="BKMK_deploy_asp_net"></a> 원격 컴퓨터의 Windows Server ASP.NET 응용 프로그램 배포
 
@@ -64,7 +59,7 @@ ASP.NET 응용 프로그램의 원격 디버깅을 위해 관리자 권한으로
 
     ![RemoteDBG_IIS_AspNet_45](../debugger/media/remotedbg-iis-aspnet-45.png "RemoteDBG_IIS_AspNet_45")
 
-    Windows Server 2008 R2에서이 명령을 사용 하는 ASP.NET 4를 설치 합니다. **C:\Windows\Microsoft.NET\Framework (64) \v4.0.30319\aspnet_regiis.exe-ir**
+    Windows Server 2008 R2에이 명령을 사용 하는 ASP.NET 4를 설치 합니다.   **C:\Windows\Microsoft.NET\Framework(64)\v4.0.30319\aspnet_regiis.exe -ir**
 1. Visual Studio 컴퓨터의 ASP.NET 프로젝트 디렉터리를 Windows Server 컴퓨터의 로컬 디렉터리( **C:\Publish**라고 함)에 복사합니다. 프로젝트를 수동으로 복사, Xcopy, 웹 배포, Robocopy, Powershell 또는 다른 옵션을 사용할 수 있습니다.
 
     > [!CAUTION]
@@ -88,12 +83,12 @@ ASP.NET 응용 프로그램의 원격 디버깅을 위해 관리자 권한으로
 1. 마우스 오른쪽 단추로 클릭 하 여 배포를 테스트할 **기본 웹 사이트** 선택한 **찾아보기**합니다.
     앱을 성공적으로 배포한 경우 웹 페이지가 표시 됩니다.
 
-## <a name="attach-to-the-aspnet-application-from-the-visual-studio-computer"></a>Visual Studio 컴퓨터에서 ASP.NET 응용 프로그램에 연결
+## <a name="attach-to-the-aspnet-application-from-the-visual-studio-computer"></a>Visual Studio 컴퓨터에서 ASP.NET 애플리케이션에 연결
 
 1. Visual Studio 컴퓨터에서 **MyMVC** 솔루션을 엽니다.
 1. Visual Studio에서 클릭 **디버그 / 프로세스에 연결** (**Ctrl + Alt + P**).
 1. 한정자 필드에 설정할  **\<원격 컴퓨터 이름 >: 4020**합니다.
-1. 클릭 **새로 고침**합니다.
+1. **새로 고침**을 클릭합니다.
     일부 프로세스가 **사용 가능한 프로세스** 창에 표시됩니다.
 
     모든 프로세스가 표시 되지 않는 경우 (포트는 필수) 원격 컴퓨터 이름 대신 IP 주소를 사용해 보세요. 사용 하 여 `ipconfig` IPv4 주소를 가져오려면 명령줄에서.
@@ -107,12 +102,9 @@ ASP.NET 응용 프로그램의 원격 디버깅을 위해 관리자 권한으로
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
 
-1. 원격 컴퓨터의 웹 사이트를 엽니다. 브라우저에서로 이동 **http://\<원격 컴퓨터 이름 >** 합니다.
+1. 원격 컴퓨터의 웹 사이트를 엽니다. 브라우저에서 **http://\<원격 컴퓨터 이름>** 으로 이동합니다.
     
     ASP.NET 웹 페이지가 표시됩니다.
 1. ASP.NET 웹 페이지에서 링크를 클릭 합니다 **에 대 한** 페이지입니다.
 
     Visual Studio에서 중단점이 적중됩니다.
-
-
-

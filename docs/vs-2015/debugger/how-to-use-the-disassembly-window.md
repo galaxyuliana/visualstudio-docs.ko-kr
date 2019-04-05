@@ -1,14 +1,9 @@
 ---
 title: '방법: 디스어셈블리 창 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.disassembly
 dev_langs:
@@ -29,22 +24,22 @@ ms.assetid: eaf84dd0-c82d-481b-af51-690b74e7794c
 caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 67f9307f2f5fece64ee2ee11dd48863b9a951180
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 2bd0fe7ca8b2a1f21ebcb6c3434348df9d2e66e5
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51760911"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986310"
 ---
 # <a name="how-to-use-the-disassembly-window"></a>방법: 디스어셈블리 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 기능은 주소 수준 디버깅을 설정한 경우에 사용할 수는 **옵션** 대화 상자에서 **디버깅** 노드. 스크립트 또는 SQL 디버깅에는 사용할 수 없습니다.  
   
- 합니다 **디스어셈블리** 창 컴파일러에서 만든 명령에 해당 하는 어셈블리 코드가 표시 됩니다. 관리 코드를 디버깅하는 경우 이러한 어셈블리 명령은 Visual Studio 컴파일러에서 생성한 MSIL(Microsoft Intermediate Language)이 아닌 JIT(Just-in-Time) 컴파일러에서 만든 네이티브 코드에 대응합니다.  
+ **디스어셈블리** 창에는 컴파일러에서 만든 명령에 따라 어셈블리 코드가 표시됩니다. 관리 코드를 디버깅하는 경우 이러한 어셈블리 명령은 Visual Studio 컴파일러에서 생성한 MSIL(Microsoft Intermediate Language)이 아닌 JIT(Just-in-Time) 컴파일러에서 만든 네이티브 코드에 대응합니다.  
   
- 어셈블리 지침 뿐 아니라 합니다 **디스어셈블리** 창에는 다음과 같은 선택적 정보도 표시할 수 있습니다.  
+ **디스어셈블리** 창에는 어셈블리 지침뿐 아니라 다음과 같은 선택적 정보도 표시할 수 있습니다.  
   
 - 각 명령이 있는 메모리 주소, 네이티브 응용 프로그램의 경우 실제 메모리 주소, Visual Basic, C# 또는 관리 코드의 경우 함수 시작 부분으로부터의 오프셋  
   
@@ -65,7 +60,7 @@ ms.locfileid: "51760911"
   아마 컴퓨터 코드 명령을 어셈블리 언어가 아닌 원시 숫자 형식으로 보려는 사람은 없을 것입니다. 그러나 그렇게 하려면 용도에 따라 메모리 창을 사용하거나 디스어셈블리 창의 바로 가기 메뉴에서 코드 바이트를 선택할 수 있습니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ### <a name="to-display-the-disassembly-window"></a>디스어셈블리 창을 표시하려면  
   
@@ -84,8 +79,3 @@ ms.locfileid: "51760911"
 ## <a name="see-also"></a>참고 항목  
  [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)   
  [방법: 레지스터 창 사용](../debugger/how-to-use-the-registers-window.md)
-
-
-
-
-

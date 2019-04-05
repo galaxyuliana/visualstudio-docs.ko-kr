@@ -1,14 +1,9 @@
 ---
 title: 잠금 동작에 주석 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords:
 - _Releases_nonreentrant_lock_
 - _Lock_kind_mutex_
@@ -37,13 +32,13 @@ ms.assetid: 07769c25-9b97-4ab7-b175-d1c450308d7a
 caps.latest.revision: 11
 author: mikeblome
 ms.author: mblome
-manager: ghogen
-ms.openlocfilehash: f09b38ceb4a6824ec38f0d9206cf37e0f056ce28
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8d855fb41624e357a62d9eb773cc5e42606572f7
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51790762"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58986563"
 ---
 # <a name="annotating-locking-behavior"></a>잠금 동작에 주석 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,18 +75,18 @@ ms.locfileid: "51790762"
 |`_Acquires_shared_lock_(expr)`|함수에 주석을 달고 사후 상태에서 함수가 `expr`로 명명된 잠금 개체의 공유 잠금 수를 하나 증가시킴을 나타냅니다.|  
 |`_Create_lock_level_(name)`|기호 `name`을 잠금 수준으로 선언하여 `_Has_Lock_level_` 및 `_Lock_level_order_` 주석에서 사용될 수 있도록 하는 문입니다.|  
 |`_Has_lock_kind_(kind)`|개체에 주석을 달아 리소스 개체의 형식 정보를 구체화합니다. 공용 형식이 여러 종류의 리소스에 사용되고 오버로드된 형식이 다양한 리소스 간의 의미적 요구 사항을 구분하는 데 충분하지 않은 경우가 있습니다. 미리 정의된 `kind` 매개 변수의 목록은 다음과 같습니다.<br /><br /> `_Lock_kind_mutex_`<br /> 뮤텍스에 대한 잠금 종류 ID<br /><br /> `_Lock_kind_event_`<br /> 이벤트에 대한 잠금 종류 ID<br /><br /> `_Lock_kind_semaphore_`<br /> 세마포에 대한 잠금 종류 ID<br /><br /> `_Lock_kind_spin_lock_`<br /> 스핀 잠금에 대한 잠금 종류 ID<br /><br /> `_Lock_kind_critical_section_`<br /> 임계 영역에 대한 잠금 종류 ID|  
-|`_Has_lock_level_(name)`|잠금 개체에 주석을 달고 `name` 잠금 수준을 부여합니다.|  
+|`_Has_lock_level_(name)`|잠금 개체에 주석을 추가하고 `name` 잠금 수준을 부여합니다.|  
 |`_Lock_level_order_(name1, name2)`|`name1`과 `name2` 간의 잠금 순서를 제공하는 문입니다.|  
-|`_Post_same_lock_(expr1, expr2)`|함수에 주석을 달고 사후 상태에서 `expr1` 및 `expr2`라는 두 잠금이 동일한 잠금 개체인 것처럼 처리됨을 나타냅니다.|  
+|`_Post_same_lock_(expr1, expr2)`|함수에 주석을 추가하고 사후 상태에서 `expr1` 및 `expr2`라는 두 잠금이 동일한 잠금 개체인 것처럼 처리됨을 나타냅니다.|  
 |`_Releases_exclusive_lock_(expr)`|함수에 주석을 달고 사후 상태에서 함수가 `expr`로 명명된 잠금 개체의 단독 잠금 수를 하나 감소시킴을 나타냅니다.|  
-|`_Releases_lock_(expr)`|함수에 주석을 달고 사후 상태에서 함수가 `expr`로 명명된 잠금 개체의 잠금 수를 하나 감소시킴을 나타냅니다.|  
+|`_Releases_lock_(expr)`|함수에 주석을 추가하고 사후 상태에서 함수가 `expr`로 명명된 잠금 개체의 잠금 수를 하나 감소시킴을 나타냅니다.|  
 |`_Releases_nonreentrant_lock_(expr)`|`expr`로 명명된 잠금이 해제됩니다. 잠금이 현재 유지되고 있지 않으면 오류가 보고됩니다.|  
-|`_Releases_shared_lock_(expr)`|함수에 주석을 달고 사후 상태에서 함수가 `expr`로 명명된 잠금 개체의 공유 잠금 수를 하나 감소시킴을 나타냅니다.|  
+|`_Releases_shared_lock_(expr)`|함수에 주석을 추가하고 사후 상태에서 함수가 `expr`로 명명된 잠금 개체의 공유 잠금 수를 하나 감소시킴을 나타냅니다.|  
 |`_Requires_lock_held_(expr)`|함수에 주석을 달고 사전 상태에서 `expr`로 명명된 개체의 잠금 수가 1개 이상임을 나타냅니다.|  
 |`_Requires_lock_not_held_(expr)`|함수에 주석을 달고 사전 상태에서 `expr`로 명명된 개체의 잠금 수가 0개임을 나타냅니다.|  
-|`_Requires_no_locks_held_`|함수에 주석을 달고 검사기에 알려진 모든 잠금의 잠금 수가 0개임을 나타냅니다.|  
-|`_Requires_shared_lock_held_(expr)`|함수에 주석을 달고 사전 상태에서 `expr`로 명명된 개체의 공유 잠금 수가 1개 이상임을 나타냅니다.|  
-|`_Requires_exclusive_lock_held_(expr)`|함수에 주석을 달고 사전 상태에서 `expr`로 명명된 개체의 단독 잠금 수가 1개 이상임을 나타냅니다.|  
+|`_Requires_no_locks_held_`|함수에 주석을 추가하고 검사기에 알려진 모든 잠금의 잠금 수가 0개임을 나타냅니다.|  
+|`_Requires_shared_lock_held_(expr)`|함수에 주석을 추가하고 사전 상태에서 `expr`로 명명된 개체의 공유 잠금 수가 1개 이상임을 나타냅니다.|  
+|`_Requires_exclusive_lock_held_(expr)`|함수에 주석을 추가하고 사전 상태에서 `expr`로 명명된 개체의 단독 잠금 수가 1개 이상임을 나타냅니다.|  
   
 ## <a name="sal-intrinsics-for-unexposed-locking-objects"></a>노출되지 않은 잠금 개체에 대한 SAL 내장 함수  
  특정 잠금 개체는 연결된 잠금 함수의 구현에 의해 노출되지 않습니다.  다음 표에서는 이러한 노출되지 않는 잠금 개체에서 작동하는 함수에 주석을 사용하도록 설정하는 SAL 내장 변수를 보여 줍니다.  
@@ -108,10 +103,10 @@ ms.locfileid: "51790762"
   
 |주석|설명|  
 |----------------|-----------------|  
-|`_Guarded_by_(expr)`|변수에 주석을 달고 변수가 엑세스될 때마다 `expr`로 명명된 잠금 개체의 잠금 수가 1개 이상임을 나타냅니다.|  
-|`_Interlocked_`|변수에 주석을 달며 `_Guarded_by_(_Global_interlock_)`와 동일합니다.|  
-|`_Interlocked_operand_`|주석이 달린 함수 매개 변수는 다양한 연동 함수 중 하나의 대상 피연산자입니다.  해당 피연산자에는 특정 추가 속성이 있어야 합니다.|  
-|`_Write_guarded_by_(expr)`|변수에 주석을 달고 변수가 수정될 때마다 `expr`로 명명된 잠금 개체의 잠금 수가 1개 이상임을 나타냅니다.|  
+|`_Guarded_by_(expr)`|변수에 주석을 추가하고 변수가 엑세스될 때마다 `expr`로 명명된 잠금 개체의 잠금 수가 1개 이상임을 나타냅니다.|  
+|`_Interlocked_`|변수에 주석을 추가하며 `_Guarded_by_(_Global_interlock_)`와 동일합니다.|  
+|`_Interlocked_operand_`|주석이 추가된 함수 매개 변수는 다양한 연동 함수 중 하나의 대상 피연산자입니다.  해당 피연산자에는 특정 추가 속성이 있어야 합니다.|  
+|`_Write_guarded_by_(expr)`|변수에 주석을 추가하고 변수가 수정될 때마다 `expr`로 명명된 잠금 개체의 잠금 수가 1개 이상임을 나타냅니다.|  
   
 ## <a name="see-also"></a>참고 항목  
  [C/c + + 코드 오류를 줄이기 위한 SAL 주석 사용](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
@@ -123,6 +118,3 @@ ms.locfileid: "51790762"
  [내장 함수](../code-quality/intrinsic-functions.md)   
  [모범 사례 및 예제](../code-quality/best-practices-and-examples-sal.md)   
  [코드 분석 팀 블로그](http://go.microsoft.com/fwlink/p/?LinkId=251197)
-
-
-

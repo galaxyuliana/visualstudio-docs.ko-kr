@@ -1,31 +1,26 @@
 ---
 title: 출력 창 확장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Output window, about Output window
 ms.assetid: b02fa88c-f92a-4ff6-ba5f-2eb4d48a643a
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e4afd91c42eeb60d005b1eb186c30d3896e3101f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 0e4fe3b07a2a076218fd004328ad87e4d5e3bab7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51731395"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982196"
 ---
 # <a name="extending-the-output-window"></a>출력 창 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-합니다 **출력** 창 집합이 읽기/쓰기 텍스트 창이 있습니다. Visual Studio에는 이러한 기본 제공 창이: **빌드**에 프로젝트에서 빌드에 대 한 메시지를 통신 및 **일반**는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE에 대 한 메시지를 통신 합니다. 프로젝트에 대 한 참조를 가져올는 **빌드** 창을 통해 자동으로 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> 인터페이스 메서드 및 Visual Studio에 대 한 직접 액세스를 제공 합니다 **일반** 통해 창을 <xref:Microsoft.VisualStudio.Shell.Interop.SVsGeneralOutputWindowPane> 서비스입니다. 기본 제공 창 외에도 있습니다 만들고 관리할 수 있습니다 사용자 고유의 사용자 지정 창입니다.  
+합니다 **출력** 창 집합이 읽기/쓰기 텍스트 창이 있습니다. Visual Studio에 기본 제공 이러한 창이 있습니다. **빌드**는 프로젝트에서 빌드에 대 한 메시지를 통신 하 고 **일반**는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE에 대 한 메시지를 통신 합니다. 프로젝트에 대 한 참조를 가져올는 **빌드** 창을 통해 자동으로 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> 인터페이스 메서드 및 Visual Studio에 대 한 직접 액세스를 제공 합니다 **일반** 통해 창을 <xref:Microsoft.VisualStudio.Shell.Interop.SVsGeneralOutputWindowPane> 서비스입니다. 기본 제공 창 외에도 있습니다 만들고 관리할 수 있습니다 사용자 고유의 사용자 지정 창입니다.  
   
  제어할 수 있습니다.는 **출력** 창을 통해 직접 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane> 인터페이스입니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow> 에서 제공 하는 인터페이스를 <xref:Microsoft.VisualStudio.Shell.Interop.SVsOutputWindow> 서비스를 만들기, 검색 및 제거에 대 한 메서드를 정의 **출력** 창입니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow> 인터페이스 창이 표시, 숨기기 창 및 해당 텍스트를 조작 하기 위한 메서드를 정의 합니다. 제어 하는 또 다른 방법은 합니다 **출력** 창을 사용 하는 것을 <xref:EnvDTE.OutputWindow> 및 <xref:EnvDTE.OutputWindowPane> Visual Studio 자동화 개체 모델에서 개체입니다. 거의 모든 기능을 캡슐화 하는 이러한 개체는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow> 고 <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane> 인터페이스입니다. 또한 합니다 <xref:EnvDTE.OutputWindow> 및 <xref:EnvDTE.OutputWindowPane> 열거를 쉽게 수행할 수 있도록 일부 높은 수준의 기능을 추가 하는 개체를 **출력** 창 창에서 텍스트를 검색 하 합니다.  
   
@@ -102,7 +97,7 @@ void CreatePane(Guid paneGuid, string title,
 }  
 ```  
   
- 클릭 하면 이전 섹션에 지정 된 확장 프로그램에이 메서드를 추가 하는 경우는 **TestOutput 호출** 명령을 표시 합니다 **출력** 라는 헤더로 창 **출력 표시 : CreatedPane** 와 단어 **생성 창 이것이** 자체 창에서.  
+ 클릭 하면 이전 섹션에 지정 된 확장 프로그램에이 메서드를 추가 하는 경우는 **TestOutput 호출** 명령을 표시 합니다 **출력** 라는 헤더로 창 **출력 표시 보낸 사람: CreatedPane** 와 단어 **생성 창 이것이** 자체 창에서.  
   
 ## <a name="creating-an-output-window-with-outputwindow"></a>OutputWindow를 사용 하 여 출력 창 만들기  
  만드는 방법을 보여 주는이 예제는 **출력** 창을 사용 하 여는 <xref:EnvDTE.OutputWindow> 개체입니다.  
@@ -129,7 +124,7 @@ void CreatePane(string title)
   
  하지만 합니다 <xref:EnvDTE.OutputWindowPanes> 검색할 컬렉션 수는 **출력** 가 제목으로 창, 창 제목은 고유 하 게 보장 되지 않습니다. 제목의 고유성을 의구심 있습니다 사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow.GetPane%2A> 해당 GUID가 올바른 창을 검색 하는 방법입니다.  
   
- 클릭 하면 이전 섹션에 지정 된 확장 프로그램에이 메서드를 추가 하는 경우는 **호출할 TestOutput** 명령 라는 헤더로 출력 창이 표시 됩니다 **에서 출력 보기: DTEPane** 및 단어 **DTE 창 추가** 자체 창에서.  
+ 클릭 하면 이전 섹션에 지정 된 확장 프로그램에이 메서드를 추가 하는 경우는 **호출할 TestOutput** 라는 헤더로 출력 창 표시 되어야 하는 명령 **에서 출력 보기: DTEPane** 와 단어 **DTE 창 추가** 자체 창에서.  
   
 ## <a name="deleting-an-output-window"></a>삭제 출력 창  
  삭제 하는 방법을 보여 주는이 예제는 **출력** 창 선택 합니다.  
@@ -154,7 +149,7 @@ void DeletePane(Guid paneGuid)
 }  
 ```  
   
- 클릭 하면 이전 섹션에 지정 된 확장 프로그램에이 메서드를 추가 하는 경우는 **호출할 TestOutput** 명령 라는 헤더로 출력 창이 표시 됩니다 **에서 출력 보기: 새 창** 및 단어 **만든 창 추가** 자체 창에서. 클릭할 경우 합니다 **TestOutput 호출** 명령을 다시, 창에 삭제 됩니다.  
+ 클릭 하면 이전 섹션에 지정 된 확장 프로그램에이 메서드를 추가 하는 경우는 **호출할 TestOutput** 라는 헤더로 출력 창 표시 되어야 하는 명령 **에서 출력 보기: 새 창을** 와 단어 **생성 창 추가** 자체 창에서. 클릭할 경우 합니다 **TestOutput 호출** 명령을 다시, 창에 삭제 됩니다.  
   
 ## <a name="getting-the-general-pane-of-the-output-window"></a>출력 창의 일반 창 시작  
  이 예제에는 기본 제공을 가져오는 방법을 보여 줍니다 **일반** 창에는 **출력** 창입니다.  
@@ -190,4 +185,3 @@ void OutputTaskItemStringExExample(string buildMessage)
         }  
 }  
 ```
-

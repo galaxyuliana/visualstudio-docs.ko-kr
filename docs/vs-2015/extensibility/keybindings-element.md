@@ -1,14 +1,9 @@
 ---
 title: KeyBindings 요소 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: reference
 f1_keywords:
 - KeyBindings
 helpviewer_keywords:
@@ -17,13 +12,13 @@ helpviewer_keywords:
 ms.assetid: 26a15d5c-ddea-4977-af7f-d795ff09c7ad
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 1c9eb2b42afa627a8bbee3529d059592763bad81
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 2649dee6bbf87b43caee260ddb2b6bbd217c7ae7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51792491"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981327"
 ---
 # <a name="keybindings-element"></a>KeyBindings 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +48,7 @@ KeyBindings 요소 그룹 KeyBinding 요소 및 다른 KeyBindings 그룹화 합
 |요소|설명|  
 |-------------|-----------------|  
 |[KeyBinding 요소](../extensibility/keybinding-element.md)|명령에 대 한 바로 가기 키를 지정합니다.|  
-|[키 바인딩](../extensibility/keybindings-element.md)|KeyBinding 요소 그룹 및 다른 KeyBindings 그룹화 합니다.|  
+|[KeyBindings](../extensibility/keybindings-element.md)|KeyBinding 요소 그룹 및 다른 KeyBindings 그룹화 합니다.|  
   
 ### <a name="parent-elements"></a>부모 요소  
   
@@ -75,4 +70,3 @@ KeyBindings 요소 그룹 KeyBinding 요소 및 다른 KeyBindings 그룹화 합
 ## <a name="see-also"></a>참고 항목  
  [KeyBinding 요소](../extensibility/keybinding-element.md)   
  [Visual Studio 명령 테이블(.Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-
