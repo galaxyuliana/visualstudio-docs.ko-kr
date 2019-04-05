@@ -1,14 +1,9 @@
 ---
 title: 포인터가 메모리 주소를 손상시키는지 어떻게 알 수 있습니까? | Microsoft 문서
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -26,13 +21,13 @@ ms.assetid: a147c939-4fb1-415c-8410-cf303781e9e8
 caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 013b88bcaa0d0cf9dc8ff308f43f3191ed2d0334
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8da16e806b8c4bb9bb29251184a5a45c566e9f25
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51734238"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986495"
 ---
 # <a name="how-can-i-find-out-if-my-pointers-corrupt-a-memory-address"></a>포인터가 메모리 주소를 손상시키는지 어떻게 알 수 있습니까?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,13 +43,10 @@ ms.locfileid: "51734238"
   
 #### <a name="to-find-where-the-memory-address-is-modified"></a>메모리 주소가 수정된 위치를 찾으려면  
   
-1.  0x00408000에 데이터 중단점을 설정합니다. 참조 [(네이티브 c + + 전용) 데이터 변경 중단점 설정](../debugger/using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus_only)합니다.  
+1.  0x00408000에 데이터 중단점을 설정합니다. [데이터 변경 중단점 설정(네이티브 C++만 해당)](../debugger/using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus_only)을 참조하세요.  
   
-2.  중단점에 도달 하면 사용 된 **메모리** 메모리를 보려면 창 콘텐츠 0x00408000에서 시작 합니다. 자세한 내용은 [메모리 Windows](../debugger/memory-windows.md)합니다.  
+2.  중단점이 적중되면 **메모리** 창을 사용하여 0x00408000에서 시작하는 메모리 내용을 검토합니다. 자세한 내용은 [메모리 Windows](../debugger/memory-windows.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [네이티브 코드 디버그 Faq](../debugger/debugging-native-code-faqs.md)   
+ [네이티브 코드 디버깅 FAQ](../debugger/debugging-native-code-faqs.md)   
  [네이티브 코드 디버그](../debugger/debugging-native-code.md)
-
-
-

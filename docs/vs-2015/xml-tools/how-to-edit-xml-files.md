@@ -1,25 +1,20 @@
 ---
 title: '방법: XML 파일 편집 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 07fa3ecf-6345-4d30-9d85-d5ef5b083319
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ac3864b3d3a3074f9b6be2529e8f674df90532c8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: c836b9b8b33ce39b4e5de72d8f62659c6f607074
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49245299"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983058"
 ---
 # <a name="how-to-edit-xml-files"></a>방법: XML 파일 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,7 +55,7 @@ XML 편집기는 XML 파일을 위한 새 편집기입니다. 이 편집기는 �
   
 2.  선택 **XML 파일** 새 XML 파일을 만들거나 선택 **XSLT 파일** 새 XSLT 스타일 시트를 만들려고 합니다.  
   
-3.  클릭 **열려**합니다.  
+3.  **열기**를 클릭합니다.  
   
 ### <a name="to-create-a-project-for-xml-files"></a>XML 파일에 대한 프로젝트를 만들려면  
   
@@ -78,6 +73,3 @@ XML 편집기는 XML 파일을 위한 새 편집기입니다. 이 편집기는 �
  [XML 편집기](../xml-tools/xml-editor.md)   
  [XML 문서 속성, 속성 창](../xml-tools/xml-document-properties-properties-window.md)   
  [방법: XML 문서에서 XML 스키마 만들기](../xml-tools/how-to-create-an-xml-schema-from-an-xml-document.md)
-
-
-

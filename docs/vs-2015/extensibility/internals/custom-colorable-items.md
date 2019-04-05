@@ -1,27 +1,22 @@
 ---
 title: 사용자 지정 색 항목 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - colorable items
 - language services, custom colorable items
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
 caps.latest.revision: 25
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 272d16b9f5f8fb33b68c911c5e7bd27923f4c2db
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: e210d8c03d3e99cf1e37608f5b65d5a4ab0656f4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51796950"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981872"
 ---
 # <a name="custom-colorable-items"></a>사용자 지정 색 항목
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "51796950"
 > [!CAUTION]
 >  기존 색 항목 이름과 충돌 하지 않도록 하려면 색 항목 이름에 언어 이름을 포함 해야 합니다. 개발 중 색 항목 중 하나의 이름을 변경한 경우에 색 항목 액세스 된 처음 만들어진 캐시를 다시 설정 해야 합니다. 디렉터리에 일반적으로 Visual Studio SDK와 함께 설치 되는 CreateExpInstance 도구를 사용 하 여 실험적 캐시를 다시 설정할 수 있습니다.  
 >   
->  **C:\Program 파일 (x86) \Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin**  
+>  **C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin**  
 >   
 >  캐시를 다시 설정 하려면 호출 `CreateExpInstance /Reset`합니다. CreateExpInstance에 대 한 자세한 내용은 참조 하세요. [CreateExpInstance 유틸리티](../../extensibility/internals/createexpinstance-utility.md)합니다.  
   
@@ -77,4 +72,3 @@ ms.locfileid: "51796950"
  [레거시 언어 서비스의 구문 색 지정](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   
  [구문 색 지정 구현](../../extensibility/internals/implementing-syntax-coloring.md)   
  [방법: 기본 제공 색 항목 사용](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
-

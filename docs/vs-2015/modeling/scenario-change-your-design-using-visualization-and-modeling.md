@@ -1,13 +1,8 @@
 ---
 title: '시나리오: 모델링 및 시각화를 사용 하 여 디자인 변경 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-techdebt
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
 - code visualization [Visual Studio ALM]
@@ -21,13 +16,13 @@ ms.assetid: ccc80825-a4a0-44fa-a0bb-f95254785a3b
 caps.latest.revision: 63
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 4dface8e157e44aa09b271446dba68b2779d0a6b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 9adab2cbf429860840e60b88065cf445c882fd2c
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51745764"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "59002256"
 ---
 # <a name="scenario-change-your-design-using-visualization-and-modeling"></a>시나리오: 시각화 및 모델링을 사용하여 디자인 변경
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +56,7 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
 - [앱용 모델 만들기](../modeling/create-models-for-your-app.md)  
   
 ##  <a name="ScenarioOverview"></a> 시나리오 개요  
- 이 시나리오에서는 Dinner Now 및 Lucerne Publishing이라는 가상 회사 두 개의 소프트웨어 개발 수명 주기에 따른 에피소드를 설명합니다. Dinner Now는 시애틀에서 웹 기반 음식 배달 서비스를 제공합니다. 고객은 Dinner Now 웹 사이트에서 음식을 주문하고 결제할 수 있습니다. 주문은 배달을 위해 해당 현지 음식점에 전송됩니다. 뉴욕에 있는 회사인 Lucerne Publishing은 오프라인과 온라인으로 여러 가지 비즈니스를 운영합니다. 예를 들어 고객이 음식점 리뷰를 게시할 수 있는 웹 사이트를 운영합니다.  
+ 이 시나리오에서는 가상 회사 두 개의 소프트웨어 개발 수명 주기에서 에피소드를 설명합니다. Dinner Now 및 lucerne은 게시 합니다. Dinner Now는 시애틀에서 웹 기반 음식 배달 서비스를 제공합니다. 고객은 Dinner Now 웹 사이트에서 음식을 주문하고 결제할 수 있습니다. 주문은 배달을 위해 해당 현지 음식점에 전송됩니다. 뉴욕에 있는 회사인 Lucerne Publishing은 오프라인과 온라인으로 여러 가지 비즈니스를 운영합니다. 예를 들어 고객이 음식점 리뷰를 게시할 수 있는 웹 사이트를 운영합니다.  
   
  Lucerne은 최근에 Dinner Now를 인수했고, 다음과 같이 변경하고자 합니다.  
   
@@ -120,7 +115,7 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
   
 - [코드와 디자인의 일관성 유지](#ValidatingCode)  
   
-- [논리적 아키텍처를 설명: 레이어 다이어그램](#DescribeLayers)  
+- [논리적 아키텍처에 설명 합니다. 레이어 다이어그램](#DescribeLayers)  
   
 - [레이어 다이어그램에 대해 코드 유효성 검사](../modeling/validate-code-with-layer-diagrams.md)  
   
@@ -247,7 +242,7 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
 |**맵 또는 다이어그램**|**보여 주는 것**|  
 |------------------------|---------------|  
 |*코드 맵*<br /><br /> 참조<br /><br /> -   [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)<br />-   [찾아보기 및 코드 맵을 다시 정렬](../modeling/browse-and-rearrange-code-maps.md)<br />-   [DGML 파일을 편집 하 여 코드 맵 사용자 지정](../modeling/customize-code-maps-by-editing-the-dgml-files.md)|코드의 종속성 및 기타 관계.<br /><br /> 예를 들어 Dinner Now는 어셈블리 및 해당 종속성을 살펴보기 위해 먼저 어셈블리 코드 맵을 검토할 수 있습니다. 맵을 분석하여 해당 어셈블리의 네임스페이스 및 클래스를 살펴볼 수 있습니다.<br /><br /> Dinner Now에서 맵을 만들어서 코드의 특정 영역 및 다른 관계 종류를 살펴볼 수도 있습니다. 솔루션 탐색기를 사용하여 관심 있는 영역 및 관계를 찾고 선택합니다.|  
-|*코드 기반 클래스 다이어그램*<br /><br /> [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)을 참조하세요.|코드의 기존 클래스|  
+|*코드 기반 클래스 다이어그램*<br /><br /> [방법: (클래스 디자이너) 프로젝트에 클래스 다이어그램 추가](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)합니다.|코드의 기존 클래스|  
   
  예를 들어 개발자는 코드 맵을 만듭니다. 범위를 조정하여 새 시나리오가 영향을 미치는 영역에 초점을 맞춥니다. 맵에서 다음 영역이 선택되고 강조 표시됩니다.  
   
@@ -269,7 +264,7 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
 |------------------|-------------------|  
 |*동작 다이어그램 (UML)*<br /><br /> 참조<br /><br /> -   [UML 동작 다이어그램: 참조](../modeling/uml-activity-diagrams-reference.md)<br />-   [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)|고객이 음식점에서 다시 주문했다는 것을 시스템에서 인식하여 고객에게 리뷰를 쓰도록 요청하는 메시지를 표시할 때 발생하는 단계 흐름.|  
 |*클래스 다이어그램 (UML)*<br /><br /> 참조<br /><br /> -   [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)<br />-   [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)|논리 클래스 및 해당 관계. 예를 들어 **리뷰** 및 해당 리뷰와 **음식점**, **메뉴**, **고객**등 다른 엔터티와의 관계를 설명하는 새 클래스가 추가됩니다.<br /><br /> 리뷰를 고객과 연결하려면 시스템에서 고객 세부 정보를 저장해야 합니다. UML 클래스 다이어그램을 통해 해당 세부 정보를 명확하게 설명할 수 있습니다.|  
-|*코드 기반 클래스 다이어그램*<br /><br /> [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)을 참조하세요.|코드의 기존 클래스.|  
+|*코드 기반 클래스 다이어그램*<br /><br /> [방법: (클래스 디자이너) 프로젝트에 클래스 다이어그램 추가](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)합니다.|코드의 기존 클래스.|  
 |*구성 요소 다이어그램 (UML)*<br /><br /> 참조<br /><br /> -   [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)<br />-   [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)|Dinner Now 웹 사이트 및 해당 인터페이스와 같은 시스템의 상위 파트. 이들 인터페이스는 인터페이스에서 제공 및 사용되는 메서드 또는 서비스를 통해 구성 요소가 서로 상호 작용하는 방식을 정의합니다.|  
 |*시퀀스 다이어그램 (UML)*<br /><br /> 참조<br /><br /> -   [UML 시퀀스 다이어그램: 참조](../modeling/uml-sequence-diagrams-reference.md)<br />-   [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)|인스턴스 간 상호 작용의 시퀀스.|  
   
@@ -370,24 +365,24 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
   
 - [버전 제어 사용](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
-- [응용 프로그램 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+- [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
 ##  <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne과 Dinner Now는 결제 시스템을 통합해야 합니다. 다음 섹션에서는 이 작업을 하는 데 도움이 되는 Visual Studio의 모델링 다이어그램을 보여 줍니다.  
   
-- [사용자 요구 사항을 이해: 사용 사례 다이어그램](#UnderstandUseCases)  
+- [사용자 요구 사항을 이해 합니다. 사용 사례 다이어그램](#UnderstandUseCases)  
   
-- [비즈니스 프로세스 이해: 동작 다이어그램](#UnderstandActivities)  
+- [비즈니스 프로세스를 이해 합니다. 동작 다이어그램](#UnderstandActivities)  
   
-- [시스템 구조 설명: 구성 요소 다이어그램](#DescribeComponents)  
+- [시스템 구조를 설명 합니다. 구성 요소 다이어그램](#DescribeComponents)  
   
-- [상호 작용 설명: 시퀀스 다이어그램](#DescribeSequence)  
+- [상호 작용에 설명 합니다. 시퀀스 다이어그램](#DescribeSequence)  
   
 - [기존 코드 시각화: 코드 맵](#VisualizeCode)  
   
 - [형식 용어집 정의: 클래스 다이어그램](#DefineClasses)  
   
-- [논리적 아키텍처를 설명: 레이어 다이어그램](#DescribeLayers)  
+- [논리적 아키텍처에 설명 합니다. 레이어 다이어그램](#DescribeLayers)  
   
   참조  
   
@@ -401,7 +396,7 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
   
 - [앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)  
   
-###  <a name="UnderstandUseCases"></a> 사용자 요구 사항을 이해: 사용 사례 다이어그램  
+###  <a name="UnderstandUseCases"></a> 사용자 요구 사항을 이해 합니다. 사용 사례 다이어그램  
  사용 사례 다이어그램에서는 시스템에서 지원하는 동작 및 해당 동작을 수행하는 사람을 간략히 설명합니다. Lucerne은 사용 사례 다이어그램을 사용하여 Dinner Now 시스템에 대한 다음 정보를 알아봅니다.  
   
 - 고객이 주문을 작성합니다.  
@@ -468,7 +463,7 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
 |시퀀스 다이어그램|사용 사례의 참가자 간 상호 작용 시퀀스.<br /><br /> 참조<br /><br /> -   [UML 시퀀스 다이어그램: 참조](../modeling/uml-sequence-diagrams-reference.md)<br />-   [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)|  
 |클래스 다이어그램(UML)|사용 사례에 참가하는 엔터티 또는 형식.<br /><br /> 참조<br /><br /> -   [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)<br />-   [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)|  
   
-###  <a name="UnderstandActivities"></a> 비즈니스 프로세스 이해: 동작 다이어그램  
+###  <a name="UnderstandActivities"></a> 비즈니스 프로세스를 이해 합니다. 동작 다이어그램  
  동작 다이어그램에서는 비즈니스 프로세스의 단계 흐름을 설명하고 워크플로를 전달하는 간단한 방법을 제공합니다. 개발 프로젝트에는 여러 동작 다이어그램이 포함될 수 있습니다. 일반적으로 동작은 음식 주문, 메뉴 업데이트 또는 비즈니스에 새 음식점 추가 등의 외부 작업 하나에서 발생하는 모든 작업을 포함합니다. 동작은 복잡한 작업의 세부 정보도 설명합니다.  
   
  Lucerne은 다음 동작 다이어그램을 업데이트하여 Lucerne이 결제를 처리하고 음식점에 대금을 지급한다는 것을 보여 줍니다. 강조 표시된 대로 Dinner Now 결제 시스템을 Lucerne 결제 시스템으로 바꿉니다.  
@@ -524,7 +519,7 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
 |사용 사례 다이어그램|각 행위자가 수행하는 동작을 요약합니다.<br /><br /> 참조<br /><br /> -   [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)<br />-   [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)|  
 |구성 요소 다이어그램|잘 정의된 인터페이스 집합을 통해 동작을 제공하거나 사용하는 재사용 가능한 파트 컬렉션으로 시스템을 시각화합니다.<br /><br /> 참조<br /><br /> -   [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)<br />-   [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)|  
   
-###  <a name="DescribeComponents"></a> 시스템 구조 설명: 구성 요소 다이어그램  
+###  <a name="DescribeComponents"></a> 시스템 구조를 설명 합니다. 구성 요소 다이어그램  
  구성 요소 다이어그램에서는 시스템을 잘 정의된 인터페이스 집합을 통해 동작을 제공하거나 사용하는 분리 가능한 파트 컬렉션으로 설명합니다. 파트는 크기에 제한이 없고 모든 방식으로 연결될 수 있습니다.  
   
  Lucerne과 Dinner Now는 시스템 구성 요소 및 해당 인터페이스를 시각화하고 이에 대해 논의하는 데 도움이 되는 다음 구성 요소 다이어그램을 만듭니다.  
@@ -670,9 +665,9 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
 |레이어 다이어그램|시스템의 논리적 아키텍처. 레이어 유효성 검사를 사용하여 코드와 디자인의 일관성이 유지되는지 확인합니다.<br /><br /> 기존 레이어 또는 의도한 레이어를 식별하는 데 도움이 되도록 코드 맵을 만들고 관련 항목을 그룹화합니다. 레이어 다이어그램을 만들려면 다음을 참조하세요.<br /><br /> -   [코드에서 레이어 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [레이어 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)|  
 |구성 요소 다이어그램|구성 요소, 해당 인터페이스 및 해당 관계.<br /><br /> 구성 요소를 식별하는 데 도움이 되도록 코드 맵을 만들고 시스템에서 기능별로 항목을 그룹화합니다.<br /><br /> 참조<br /><br /> -   [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)<br />-   [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)|  
 |클래스 다이어그램(UML)|클래스, 해당 특성 및 작업, 해당 관계.<br /><br /> 이들 요소를 식별하는 데 도움이 되도록 해당 요소를 표시하는 UML 클래스 다이어그램을 만듭니다.<br /><br /> 참조<br /><br /> -   [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)<br />-   [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)|  
-|클래스 다이어그램(코드 기반)|특정 프로젝트에 대한 코드의 기존 클래스.<br /><br /> 코드에서 기존 클래스를 시각화 및 수정하려면 클래스 디자이너를 사용합니다.<br /><br /> [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)을 참조하세요.|  
+|클래스 다이어그램(코드 기반)|특정 프로젝트에 대한 코드의 기존 클래스.<br /><br /> 코드에서 기존 클래스를 시각화 및 수정하려면 클래스 디자이너를 사용합니다.<br /><br /> [방법: (클래스 디자이너) 프로젝트에 클래스 다이어그램 추가](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)합니다.|  
   
-###  <a name="DescribeSequence"></a> 상호 작용 설명: 시퀀스 다이어그램  
+###  <a name="DescribeSequence"></a> 상호 작용에 설명 합니다. 시퀀스 다이어그램  
  시퀀스 다이어그램에서는 시스템 파트 간에 발생하는 일련의 상호 작용을 설명합니다. 파트는 크기에 제한이 없습니다. 예를 들어 파트의 범위는 프로그램의 개별 개체부터 대형 하위 시스템 또는 외부 행위자까지 해당할 수 있습니다. 상호 작용은 크기 및 형식의 제한이 없습니다. 예를 들어 상호 작용의 범위는 개별 메시지부터 확장된 트랜잭션까지 해당할 수 있고 함수 호출 또는 웹 서비스 메시지가 될 수도 있습니다.  
   
  Lucerne과 Dinner Now는 Process Payment 사용 사례의 단계를 설명하고 논의하는 과정에 도움이 되도록 구성 요소 다이어그램에서 다음 시퀀스 다이어그램을 만듭니다. 수명선은 Dinner Now 웹 사이트 구성 요소 및 해당 파트를 미러링합니다. 수명선 사이에 나타나는 메시지는 구성 요소 다이어그램의 연결을 따릅니다.  
@@ -811,7 +806,7 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
 |시퀀스 다이어그램|수명선 형식과 수명선이 수신할 수 있는 모든 메시지에 대한 작업, 매개 변수 및 반환 값을 정의합니다.<br /><br /> 클래스 다이어그램의 형식에서 수명선을 만들려면 형식을 마우스 오른쪽 단추로 클릭하고 **수명선 만들기**를 클릭합니다.<br /><br /> 참조<br /><br /> -   [UML 시퀀스 다이어그램: 참조](../modeling/uml-sequence-diagrams-reference.md)<br />-   [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)|  
 |코드 맵|기존 코드에서 구성 및 관계를 시각화합니다.<br /><br /> 클래스, 해당 관계 및 해당 메서드를 식별하려면 해당 요소를 표시하는 코드 맵을 만듭니다.<br /><br /> 참조<br /><br /> -   [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)|  
   
-###  <a name="DescribeLayers"></a> 논리적 아키텍처를 설명: 레이어 다이어그램  
+###  <a name="DescribeLayers"></a> 논리적 아키텍처에 설명 합니다. 레이어 다이어그램  
  레이어 다이어그램에서는 솔루션의 아티팩트를 추상 그룹 또는 *레이어*로 구성하여 시스템의 논리적 아키텍처를 설명합니다. 아티팩트는 네임스페이스, 프로젝트, 클래스, 메서드 등 다양한 항목에 해당할 수 있습니다. 레이어는 아티팩트가 시스템에서 수행하는 역할 또는 작업을 표시하고 설명합니다. 빌드 및 체크 인 작업에 레이어 유효성 검사를 포함하여 코드와 디자인의 일관성이 유지되는지 확인할 수도 있습니다.  
   
  코드와 디자인의 일관성을 유지하기 위해 Dinner Now와 Lucerne은 다음 레이어 다이어그램을 사용하여 코드가 발전함에 따라 코드의 유효성을 검사합니다.  
@@ -893,9 +888,6 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
  [코드 시각화](../modeling/visualize-code.md)   
  [앱 용 모델 만들기](../modeling/create-models-for-your-app.md)   
  [개발 프로세스에서 모델 사용](../modeling/use-models-in-your-development-process.md)   
- [Agile 개발에서 모델 사용](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Agile 개발에서 모델 사용](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [개발 하는 동안 시스템 유효성 검사](../modeling/validate-your-system-during-development.md)   
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

@@ -3,9 +3,15 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio 설명서 | Microsoft Docs
 titleSuffix: ''
-description: 'Visual Studio를 사용하여 선택한 언어로 플랫폼 및 디바이스의 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.'
+description: Visual Studio를 사용하여 선택한 언어로 플랫폼 및 디바이스의 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.
 ms.topic: hub-page
 ms.custom: seodec18
+ms.openlocfilehash: f63b848481a43a9684424b31fe36c3436faff021
+ms.sourcegitcommit: d78821f8c353e0102b1554719f549f32dffac71b
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "58515326"
 ---
 <!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">

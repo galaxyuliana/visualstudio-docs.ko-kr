@@ -1,14 +1,9 @@
 ---
 title: 응용 프로그램 디버그 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,13 +13,13 @@ ms.assetid: f7f08402-610e-47f0-ba10-575dd395a0f0
 caps.latest.revision: 5
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 53df72fcdc5df0022be337aa01a0eab003ba3949
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b689a3be22c9fec775cf42b9d26393a886174daf
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810015"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "59001905"
 ---
 # <a name="debugging-applications"></a>응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,8 +35,5 @@ ms.locfileid: "51810015"
 |[네이티브 코드 디버그](../debugger/debugging-native-code.md)|다른 종류의 기본 C++ 응용 프로그램을 디버그하는 방법을 설명합니다.|  
 |[GPU 코드 디버그](../debugger/debugging-gpu-code.md)|GPU(그래픽 처리 장치)에서 실행되는 C++ 코드를 디버그하는 방법을 설명합니다.|  
 |[그래픽 진단(DirectX 그래픽 디버그)](../debugger/visual-studio-graphics-diagnostics.md)|DirectX 그래픽을 디버그하는 방법을 설명합니다.|  
-|[웹 응용 프로그램 및 스크립트 디버그](../debugger/debugging-web-applications-and-script.md)|웹, ASP.NET 및 AJAX 응용 프로그램을 디버그하는 방법을 설명합니다.|  
+|[웹 애플리케이션 및 스크립트 디버그](../debugger/debugging-web-applications-and-script.md)|웹, ASP.NET 및 AJAX 응용 프로그램을 디버그하는 방법을 설명합니다.|  
 |[WCF 서비스 디버그](../debugger/debugging-wcf-services.md)|Windows Communication Foundation 서비스를 디버그하는 방법을 설명합니다.|
-
-
-

@@ -1,26 +1,21 @@
 ---
 title: 운영 모드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, modes
 ms.assetid: f69972d0-809d-40df-9da3-04738791391c
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 2ac99d6022344089c40abb9ae36e94d825db4e3c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 863a47731f93fb7935a27cb0b93af21365af1cf7
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51768479"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "59001934"
 ---
 # <a name="operational-modes"></a>작업 모드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ ms.locfileid: "51768479"
   
 ## <a name="see-also"></a>참고 항목  
  [실행 제어](../../extensibility/debugger/control-of-execution.md)
-

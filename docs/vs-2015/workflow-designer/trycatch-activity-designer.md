@@ -1,11 +1,8 @@
 ---
 title: TryCatch 활동 디자이너 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.TryCatch.UI
@@ -14,13 +11,13 @@ ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 74b54ef6b82e4f98ab94972b5d9b0155c16060a9
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: e9d8c539d91c95b03f4946e256de7a825a6df7ba
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49240996"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986338"
 ---
 # <a name="trycatch-activity-designer"></a>TryCatch 활동 디자이너
 합니다 **TryCatch** 활동 디자이너는 만들기 및 구성 하는 데 사용 되는 <xref:System.Activities.Statements.TryCatch> 활동입니다.  
@@ -33,14 +30,14 @@ ms.locfileid: "49240996"
   
  **TryCatch** 활동 디자이너에서 끌 수 있습니다 합니다 **도구 상자** 삭제에 및를 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 화면 아무 곳에 나 작업은 일반적으로, 등 배치를 <xref:System.Activities.Statements.Sequence>. 이렇게 하면 기본 <xref:System.Activities.Statements.TryCatch>인 TryCatch라는 이름의 <xref:System.Activities.Activity.DisplayName%2A> 활동이 만들어집니다. <xref:System.Activities.Activity.DisplayName%2A> 헤더의 값을 편집할 수 있습니다 합니다 **TryCatch** 활동 디자이너 또는 합니다 **DisplayName** 속성 그리드의 상자. 화면에서 다른 속성을 편집 해야 합니다 **TryCatch** 활동 디자이너입니다.  
   
- 오른쪽 위 모서리에 있는 확장명 단추를 클릭 **TryCatch** 디자이너를 **시도**합니다 **Catch**, 및 **마지막** 상자에 확장 된 보기입니다. Catch를 추가 하려면 클릭 합니다 **새 catch 추가** 단추를 **TryCatch** 디자이너입니다. 단추가 형식 콤보 상자로 바뀝니다. 예외 형식을 선택하고 <ENTER> 키를 눌러 Catch를 추가합니다. 추가한 후에 **Catch**하면 catch 영역이 확장 되 고 활동 catch에 대 한 실행 논리를 정의 하는 catch를 삭제할 수 있습니다. 확장된 Catch 영역 오른쪽에는 텍스트 상자가 있습니다. 이 텍스트 상자를 사용하여 예외 변수의 이름을 지정할 수 있습니다. 동일한 활동에 대 한 예외 변수의 사용할 수 있습니다 **Catch**합니다.  
+ 오른쪽 위 모서리에 있는 확장명 단추를 클릭 **TryCatch** 디자이너를 **시도**합니다 **Catch**, 및 **마지막** 상자에 확장 된 보기입니다. Catch를 추가 하려면 클릭 합니다 **새 catch 추가** 단추를 **TryCatch** 디자이너입니다. 단추가 형식 콤보 상자로 바뀝니다. 예외 형식을 선택하고 &lt;ENTER&gt; 키를 눌러 Catch를 추가합니다. 추가한 후에 **Catch**하면 catch 영역이 확장 되 고 활동 catch에 대 한 실행 논리를 정의 하는 catch를 삭제할 수 있습니다. 확장된 Catch 영역 오른쪽에는 텍스트 상자가 있습니다. 이 텍스트 상자를 사용하여 예외 변수의 이름을 지정할 수 있습니다. 동일한 활동에 대 한 예외 변수의 사용할 수 있습니다 **Catch**합니다.  
   
  합니다 **TryCatch** 디자이너 편집을 지원 하지 않습니다 **Catch**합니다. 삭제 해야 하는 예외 형식을 변경 하려는 경우는 **Catch** 하 고 새 계정을 추가 합니다. A **Catch** 선택 하 고 삭제 하거나 사용 하 여 삭제할 수는 **삭제** 마우스 오른쪽 단추로 클릭 하면 상황에 맞는 메뉴에서 메뉴.  
   
 ### <a name="the-trycatch-properties"></a>TryCatch 속성  
  다음 표는 <xref:System.Activities.Statements.TryCatch>속성 디자이너에서 사용 되는 방법을 설명 합니다.  
   
-|속성 이름|필수|용도|  
+|속성 이름|필수|사용법|  
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName%2A>|False|<xref:System.Activities.Statements.TryCatch> 활동의 선택적 이름을 지정합니다. 기본 TryCatch입니다.|  
 |<xref:System.Activities.Statements.TryCatch.Try%2A>|False|<xref:System.Activities.Statements.TryCatch>를 실행할 때 먼저 실행된 활동입니다.|  

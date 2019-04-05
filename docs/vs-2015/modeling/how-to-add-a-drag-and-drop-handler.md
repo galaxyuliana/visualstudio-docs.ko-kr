@@ -1,23 +1,20 @@
 ---
 title: '방법: 끌어서 놓기 처리기 추가 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 39ee88a0-85c3-485e-8c0a-d9644c6b25d9
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: f89ea35c9113ddff67a9d1322b1c83c41e05709a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 47a5cab022da3d6cfc048191de116af3165401cd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49848984"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982535"
 ---
 # <a name="how-to-add-a-drag-and-drop-handler"></a>방법: 끌어서 놓기 처리기 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,7 +140,7 @@ using System.Linq;
   
   -   diagramEventArgs.Data.GetDataFormats() - 끌어 온 개체를 디코딩할 수 있는 형식을 나열합니다. 예를 들어 사용자가 바탕 화면에서 파일을 끄는 경우 사용 가능한 형식에는 파일 이름("`FileNameW`")이 포함됩니다.  
   
-  -   `diagramEventArgs.Data.GetData(format)` - 끌어 온 개체를 지정된 형식으로 디코딩하고 적절한 형식으로 개체를 캐스팅합니다. 예를 들면 다음과 같습니다.  
+  -   `diagramEventArgs.Data.GetData(format)` - 끌어 온 개체를 지정된 형식으로 디코딩하고 적절한 형식으로 개체를 캐스팅합니다. 예를 들어:  
   
        `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`  
   
@@ -593,6 +590,3 @@ namespace Company.CompartmentDrag  // EDIT.
 ## <a name="see-also"></a>참고 항목  
  [복사 동작 사용자 지정](../modeling/customizing-copy-behavior.md)   
  [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)
-
-
-

@@ -1,26 +1,21 @@
 ---
 title: 항목에 추가 된 새 항목 추가 대화 상자 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Add New Item dialog box, adding items
 ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: ca9ae7d9e4f0ffc031d2dc8db3e940c9b844c57e
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f7bc8ca8e9b38283c647cfde2d593e292d44ce43
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51778555"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "59002048"
 ---
 # <a name="adding-items-to-the-add-new-item-dialog-boxes"></a>새 항목 추가 대화 상자에 항목 추가
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,17 +29,17 @@ ms.locfileid: "51778555"
   
  첫 번째 GUID는이 형식의 프로젝트에 대 한 CLSID가 두 번째 GUID에는 추가 항목 템플릿에 대 한 등록된 프로젝트 유형을 나타냅니다.  
   
- \\{C061DB26-5833-11D2-96F5-000000000000} {ACEF4EB2-57CF-11D2-96F4-000000000000} \AddItemTemplates\TemplateDirs\ \1  
+ \\{C061DB26-5833-11D2-96F5-000000000000}\AddItemTemplates\TemplateDirs\ {ACEF4EB2-57CF-11D2-96F4-000000000000}\1  
   
  @="#6"  
   
  "TemplatesDir"="\<Visual Studio SDK 설치 경로\\\VSIntegration\\\SomeFolder\\\SomePackage\\\SomeProject\\\SomeProjectItems"  
   
- "SortPriority" dword:00000064 =  
+ "SortPriority"=dword:00000064  
   
 |이름|형식|데이터로 (.rgs 파일)|설명|  
 |----------|----------|-----------------------------|-----------------|  
-|@ (기본값)|REG_SZ|#% IDS_ADDITEM_TEMPLATES_ENTRY %|에 대 한 리소스 ID **항목 추가** 템플릿.|  
+|@ (기본값)|REG_SZ|#%IDS_ADDITEM_TEMPLATES_ENTRY%|에 대 한 리소스 ID **항목 추가** 템플릿.|  
 |Val TemplatesDir|REG_SZ|%TEMPLATE_PATH%\ SomeProjectItems|에 대 한 대화 상자에서 표시 된 프로젝트 항목의 경로 **새 항목 추가** 마법사.|  
 |Val SortPriority|REG_DWORD|100 ([!INCLUDE[vcprx64](../../includes/vcprx64-md.md)])|에 표시 된 파일의 트리 노드가 정렬 순서를 결정 합니다 **새 항목 추가** 대화 상자.|  
   
@@ -89,4 +84,3 @@ ms.locfileid: "51778555"
  [프로젝트 및 프로젝트 항목 템플릿 추가](../../extensibility/internals/adding-project-and-project-item-templates.md)   
  [템플릿 디렉터리 설명 (합니다. Vsdir) 파일](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)   
  [마법사(.Vsz) 파일](../../extensibility/internals/wizard-dot-vsz-file.md)
-
