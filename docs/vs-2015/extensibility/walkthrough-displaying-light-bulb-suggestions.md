@@ -1,24 +1,19 @@
 ---
 title: '연습: Displaying Light Bulb Suggestions | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: a7e5bf7ad795615e70e990dd29c05f5efe3a1c78
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 1e13ce65888ace73ca58bfbc5690330fd8265ad8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51781103"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971467"
 ---
 # <a name="walkthrough-displaying-light-bulb-suggestions"></a>연습: 밝은 전구 추천 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,9 +22,9 @@ ms.locfileid: "51781103"
   
  Visual C# 및 Visual Basic 편집기에서 작성 하 고 자동으로 전구를 표시 하는 작업을 사용 하 여 사용자 고유의 코드 분석기 패키지는.NET 컴파일러 플랫폼 ("Roslyn")을 사용할 수 있습니다. 자세한 내용은 다음을 참조하세요.  
   
-- [방법: C# 진단 및 코드 수정을 작성합니다](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)  
+- [방법: 작성 된 C# 진단 및 코드 수정](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)  
   
-- [방법: Visual Basic 진단 및 코드 수정을 작성합니다](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-Visual-Basic-Analyzer-and-Code-Fix)  
+- [방법: Visual Basic 진단 및 코드 수정 사항을 작성 합니다.](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-Visual-Basic-Analyzer-and-Code-Fix)  
   
   C + +와 같은 다른 언어 밖에 light bulbs 함수의 스텁 구현을 만들 하려면 같은 일부 빠른 작업에도 제공 합니다.  
   
@@ -41,7 +36,7 @@ ms.locfileid: "51781103"
   
   ![전구 미리 보기](../extensibility/media/lightbulbpreview.png "LightBulbPreview")  
   
-  사용자 고유의 제안 된 작업을 제공 하도록 전구를 사용할 수 있습니다. 예를 들어, 새 줄에 중괄호를 열고 이동 하거나 이전 줄의 끝에 이동 하는 작업을 제공할 수 있습니다. 다음 연습에는 현재 단어에 표시 되는 밝은 전구를 만드는 방법을 보여 줍니다 및 두 개의 제안 동작: **대문자로 변환할** 하 고 **소문자로 변환할**합니다.  
+  사용자 고유의 제안 된 작업을 제공 하도록 전구를 사용할 수 있습니다. 예를 들어, 새 줄에 중괄호를 열고 이동 하거나 이전 줄의 끝에 이동 하는 작업을 제공할 수 있습니다. 두 개의 제안 동작 및 다음 연습에서는 현재 단어에 표시 되는 밝은 전구를 만드는 방법을 보여줍니다. **대문자로 변환할** 하 고 **소문자로 변환할**합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
@@ -370,4 +365,3 @@ ms.locfileid: "51781103"
      ![확장 된 전구 테스트](../extensibility/media/testlightbulbexpanded.gif "TestLIghtBulbExpanded")  
   
 6.  첫 번째 동작을 클릭하면 현재 단어의 모든 텍스트가 대문자로 변환됩니다. 두 번째 동작을 클릭하면 모든 텍스트가 소문자로 변환됩니다.
-

@@ -1,14 +1,9 @@
 ---
 title: IDebugProgram2 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: reference
 f1_keywords:
 - IDebugProgram2
 helpviewer_keywords:
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 8d73df73-cfff-4b8b-b426-d6051edb1939
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e0f89f024f0542b8cb20cfbf531fe9f7cf3da561
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 372c119b6a841d7d4b349e85548914f7641b53d1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51741086"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970657"
 ---
 # <a name="idebugprogram2"></a>IDebugProgram2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -71,9 +66,9 @@ IDebugProgram2 : IUnknown
 ## <a name="requirements"></a>요구 사항  
  헤더: msdbg.h  
   
- Namespace: Microsoft.VisualStudio.Debugger.Interop  
+ 네임스페이스: Microsoft.VisualStudio.Debugger.Interop  
   
- Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
+ 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## <a name="remarks"></a>설명  
  프로그램은 하나 이상의 응용 프로그램의 프로세스 이루어집니다 하는 동안 특정 런타임 아키텍처에서 실행 되는 스레드 컨테이너입니다.  
@@ -83,8 +78,7 @@ IDebugProgram2 : IUnknown
  [GetProgram](../../../extensibility/debugger/reference/idebugthread2-getprogram.md)   
  [다음](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md)   
  [이벤트](../../../extensibility/debugger/reference/idebugportevents2-event.md)   
- [연결](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
+ [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
  [DestroyProgram](../../../extensibility/debugger/reference/idebugengine2-destroyprogram.md)   
  [이벤트](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)   
  [Attach_V7](../../../extensibility/debugger/reference/idebugprogramnode2-attach-v7.md)
-
