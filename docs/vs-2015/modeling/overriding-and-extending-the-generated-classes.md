@@ -1,25 +1,22 @@
 ---
 title: 생성 된 클래스 재정의 및 확장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, providing overridable classes
 ms.assetid: 30baa60d-a8ea-4611-96c1-8fcc3317cf21
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: a5aef90403babfd7a30812cac59b8c0c5acff79f
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 34e40863883643955c4517337de5410f0745703d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49933432"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972009"
 ---
 # <a name="overriding-and-extending-the-generated-classes"></a>생성된 클래스 재정의 및 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,9 +88,6 @@ DSL 정의 플랫폼은 강력한 도메인 특정 언어를 기반으로 하는
 ### <a name="net-events"></a>.NET 이벤트  
  도형 일부 이벤트를 구독할 수 있습니다. 예를 들어 마우스 클릭에 수신 대기할 수 있습니다. 각 개체에 대 한 이벤트를 구독 하는 코드를 작성 해야 합니다. InitializeInstanceResources() 재정의에서이 코드를 작성할 수 있습니다.  
   
- 일부 이벤트에 데코레이터를 그리는 데 사용 되는 ShapeFields에 생성 됩니다. 예를 들어 참조 [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)합니다.  
+ 일부 이벤트에 데코레이터를 그리는 데 사용 되는 ShapeFields에 생성 됩니다. 예는 [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)합니다.  
   
  이러한 이벤트 일반적으로 발생 하지 않습니다는 트랜잭션 내에서. 저장소에서 변경 하려는 경우 트랜잭션을 만들어야 합니다.
-
-
-
