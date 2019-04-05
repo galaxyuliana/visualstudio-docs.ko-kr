@@ -1,25 +1,22 @@
 ---
 title: DslDefinition.dsl 파일 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, definition file
 ms.assetid: f3fc3ed7-2438-4e5a-b3d7-fe7e0e8a134c
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 7f61ceef7248c143fd904751da58d32f75dfc0c2
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 1c62483ad8edac88fe3d14c6590dfb7e6d17285f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49937654"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986095"
 ---
 # <a name="the-dsldefinitiondsl-file"></a>DslDefinition.dsl 파일
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,16 +35,16 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
  클래스  
  이 섹션은 생성된 코드에서 클래스를 생성하는 각 도메인 클래스를 정의합니다.  
   
- Relationships  
+ 관계  
  이 섹션은 모델의 각 관계를 정의합니다. 소스와 대상이 관계의 양쪽을 나타냅니다.  
   
- 형식  
+ 유형  
  이 섹션은 각 형식과 해당 네임스페이스를 정의합니다. 도메인 속성에는 두 가지 형식이 있습니다. `DomainEnumerations`는 모델에서 정의되며 형식을 DomainModel.cs에 생성합니다. `ExternalTypes`는 `String`, `Int32` 등 다른 위치에서 정의되며 아무 항목도 생성하지 않는 형식을 지칭합니다.  
   
- Shapes  
+ 도형  
  이 섹션은 디자이너에서 모델이 표시되는 방식을 설명하는 모양을 정의합니다. 이러한 기하학적 모양은 다이어그램 섹션에서 모델의 클래스에 매핑됩니다.  
   
- Connectors  
+ 연결선  
  이 섹션은 디자이너에 표시되는 연결선의 모양을 정의합니다. 이러한 기하학적 스타일 설명은 다이어그램 섹션에서 모델의 특정 관계에 매핑됩니다.  
   
  XmlSerializationBehavior  
@@ -59,13 +56,13 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
  ConnectionBuilders  
  이 섹션은 각 연결선 도구(연결할 수 있는 두 클래스 간에 링크를 만드는 도구)용 연결 작성기를 정의합니다. 이 섹션에서 소스 및 대상 클래스에 연결할 수 있는지 여부가 결정됩니다.  
   
- Diagram  
+ 다이어그램  
  이 섹션은 다이어그램을 정의합니다. 배경색, 루트 클래스 등의 속성을 지정하는 데 해당 다이어그램을 사용합니다. 루트 클래스는 전체 다이어그램으로 표시되는 도메인 클래스입니다. Diagram 섹션에는 각 도메인 클래스 또는 관계를 나타내는 모양이나 연결선을 지정하는 ShapeMap 및 ConnectorMap 요소도 포함됩니다.  
   
  Designer  
  이 섹션에서는 모아 놓은 디자이너 (편집기)를 정의 **도구 상자**, 유효성 검사 설정, 다이어그램 및 serialization 체계입니다. Designer 섹션에서는 모델의 루트 클래스(대개 다이어그램의 루트 클래스이기도 함)도 정의합니다.  
   
- 탐색기  
+ Explorer  
  이 섹션에서는 합니다 **DSL 탐색기** 동작 (XmlSerializationBehavior 섹션에 정의 됨).  
   
 ## <a name="monikers-in-the-dsldefinitiondsl-file"></a>DslDefinition.dsl 파일의 모니커  
@@ -90,9 +87,9 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
   
  모니커 시스템을 사용하려면 XML 트리의 형제에 고유한 이름이 지정되어 있어야 합니다. 그러므로 예를 들어 이름이 같은 클래스가 두 개 포함된 DSL 정의를 저장하려고 하면 유효성 검사 오류가 발생합니다. 나중에 정상적으로 다시 로드할 수 있도록 항상 DslDefinition.dsl 파일을 저장하기 전에 이러한 중복 이름 오류를 해결해야 합니다.  
   
- 각 형식에는 자체 모니커 형식인 DomainClassMoniker, DomainRelationshipMoniker 등이 있습니다.  
+ 각 형식에는 자체 모니커 형식인에 있습니다. DomainClassMoniker, DomainRelationshipMoniker 및 등입니다.  
   
-## <a name="types"></a>형식  
+## <a name="types"></a>유형  
  Types 섹션은 DslDefinition.dsl 파일이 속성 형식으로 포함하는 모든 형식을 지정합니다. 이러한 형식에는 System.String과 같은 외부 형식과 열거 형식의 두 가지 종류가 있습니다.  
   
 ### <a name="external-types"></a>외부 형식  
@@ -167,7 +164,7 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
   
 -   **GeneratesDoubleDerived.** 이 특성이로 설정 된 경우 true 이면 두 클래스가 생성 되며, 않으며 하나가 다른 서브 클래스입니다. 생성된 모든 메서드는 기본 클래스에 있으며 생성자는 서브클래스에 있습니다. 이 특성을 설정하면 사용자 지정 코드에서 생성된 메서드를 재정의할 수 있습니다.  
   
--   **HasCustomConstructor**합니다. 이 특성을 true로 설정하면 생성된 코드에서 생성자가 생략되어 원하는 버전을 직접 작성할 수 있습니다.  
+-   **HasCustomConstructor**. 이 특성을 true로 설정하면 생성된 코드에서 생성자가 생략되어 원하는 버전을 직접 작성할 수 있습니다.  
   
 -   **특성**합니다. 이 특성은 생성된 클래스의 CLR 특성을 포함합니다.  
   
@@ -175,7 +172,7 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
   
 -   **속성**합니다. 이 특성은 트랜잭션 제어 하에 유지 관리되며 모델 저장 시 영구 저장되는 속성을 포함합니다.  
   
--   **ElementMergeDirectives**합니다. 각 요소 병합 지시문은 타 클래스의 다른 인스턴스가 부모 클래스 인스턴스에 추가되는 방법을 제어합니다. 요소 병합 지시문에 대한 자세한 내용은 이 항목 뒷부분에서 확인할 수 있습니다.  
+-   **ElementMergeDirectives**. 각 요소 병합 지시문은 타 클래스의 다른 인스턴스가 부모 클래스 인스턴스에 추가되는 방법을 제어합니다. 요소 병합 지시문에 대한 자세한 내용은 이 항목 뒷부분에서 확인할 수 있습니다.  
   
 -   `Classes` 섹션에 나열된 각 도메인 클래스에 대해 C# 클래스가 생성됩니다. C# 클래스는 Dsl\GeneratedCode\DomainClasses.cs에 생성됩니다.  
   
@@ -214,7 +211,7 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
 ### <a name="source-and-target-roles"></a>소스 및 대상 역할  
  각 역할은 다음 특성이 들어 있는 소스 및 대상 역할을 포함합니다.  
   
--   `RolePlayer` 특성은 연결된 인스턴스(소스의 경우 OutPort, 대상의 경우 InPort)의 도메인 클래스를 참조합니다.  
+-   `RolePlayer` 특성은 연결 된 인스턴스의 도메인 클래스를 참조 합니다. OutPort InPort 대상에 대 한 원본에 대 한 합니다.  
   
 -   `Multiplicity` 특성에 사용 가능한 값은 네 가지로 ZeroMany, ZeroOne, One 및 OneMany가 있습니다. 이 특성은 역할 수행자 하나에 연결할 수 있는 이 관계의 링크 수를 나타냅니다.  
   
@@ -248,9 +245,9 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
 ### <a name="relationship-attributes"></a>관계 특성  
  모든 클래스에서 사용 가능한 특성 및 자식 노드 외에 각 관계에는 다음 클래스도 포함됩니다.  
   
--   **IsEmbedding**합니다. 이 부울 특성은 관계가 포함 트리의 일부분인지를 지정합니다. 모든 모델은 포함 관계로 트리를 형성해야 합니다. 따라서 모든 도메인 컨트롤러는 모델의 루트가 아니면 포함 관계 하나 이상의 대상이어야 합니다.  
+-   **IsEmbedding**. 이 부울 특성은 관계가 포함 트리의 일부분인지를 지정합니다. 모든 모델은 포함 관계로 트리를 형성해야 합니다. 따라서 모든 도메인 컨트롤러는 모델의 루트가 아니면 포함 관계 하나 이상의 대상이어야 합니다.  
   
--   **AllowsDuplicates**합니다. 기본적으로 false로 설정되는 이 부울 특성은 소스 및 대상 둘 다에서 다중성이 "다"인 관계에만 적용됩니다. 이 특성은 언어 사용자가 같은 관계의 링크 둘 이상을 사용하여 단일 소스 및 대상 요소 쌍을 연결할 수 있는지 여부를 결정합니다.  
+-   **AllowsDuplicates**. 기본적으로 false로 설정되는 이 부울 특성은 소스 및 대상 둘 다에서 다중성이 "다"인 관계에만 적용됩니다. 이 특성은 언어 사용자가 같은 관계의 링크 둘 이상을 사용하여 단일 소스 및 대상 요소 쌍을 연결할 수 있는지 여부를 결정합니다.  
   
 ## <a name="designer-and-toolbox-tabs"></a>Designer 및 ToolboxTab  
  주요 부분을 **디자이너** DslDefinition.dsl 파일의 섹션을 **ToolboxTab** 요소입니다. 이러한 요소를 각각 생성된 된 디자이너에서 제목이 지정 된 섹션을 나타내는 다양 한 디자이너 있을 수 있습니다 **도구 상자**합니다. 각 **ToolboxTab** 요소에는 하나 이상 포함 될 수 있습니다 **ElementTool** 요소인 **ConnectionTool** 요소 중 하나 또는 둘 다.  
@@ -281,7 +278,7 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
  를 작성할 때 C#이 모델에 대 한 각각의 관련 된 클래스의 관계를 생성 하는 속성을 사용 하 여 한 단계로 링크를 이동할 수 있습니다.  
   
 ```  
-     InPort port; ...  Component c = port.Component;  
+     InPort port; ...  Component c = port.Component;  
 ```  
   
  그러나 경로 구문에서 두 홉을 모두 명시적으로 지정해야 합니다. 이 요구 사항으로 인해 중간 링크에 보다 쉽게 액세스할 수 있습니다. 다음 코드는 링크에서 Component로의 홉을 완료합니다.  
@@ -497,7 +494,7 @@ Dsl 프로젝트의 DslDefinition.dsl 파일의 구조에 설명를 [!INCLUDE[ds
   
 -   **ExposesFillColorAsProperty** 및 여러 유사한 특성. 이러한 부울 특성은 사용자가 해당 속성을 변경할 수 있도록 합니다. 일반적으로 언어 사용자가 다이어그램의 셰이프를 클릭 하면 속성에 표시 되는 **속성** 은 모양이 매핑된 도메인 클래스 인스턴스는 창입니다. `ExposesFillColorAsProperty`를 true로 설정하면 모양 자체의 속성도 표시됩니다.  
   
--   **ShapeHasDecorators**합니다. 각 텍스트, 아이콘 또는 확장/축소 Decorator에 대해 이 특성의 인스턴스가 표시됩니다. DslDefinition.dsl 파일에서 `ShapeHasDecorators`는 `UseFullForm`이 true로 설정된 관계입니다.  
+-   **ShapeHasDecorators**. 각 텍스트, 아이콘 또는 확장/축소 Decorator에 대해 이 특성의 인스턴스가 표시됩니다. DslDefinition.dsl 파일에서 `ShapeHasDecorators`는 `UseFullForm`이 true로 설정된 관계입니다.  
   
 ## <a name="shape-maps"></a>모양 맵  
  모양 맵은 지정한 도메인 클래스 인스턴스가 화면에 나타나는 방식(모양으로 표시됨)을 결정합니다. 모양 및 연결선 맵은 모두 DslDefinition.dsl 파일의 `Diagram` 섹션에 표시됩니다.  
@@ -552,9 +549,6 @@ ComponentHasPorts . Component / ! Component /    ComponentModelHasComponents . C
  연결선 맵은 Decorator 맵을 포함할 수도 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)   
+ [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
  [도메인 특정 언어를 정의 하는 방법](../modeling/how-to-define-a-domain-specific-language.md)   
  [모델, 클래스 및 관계 이해](../modeling/understanding-models-classes-and-relationships.md)
-
-
-

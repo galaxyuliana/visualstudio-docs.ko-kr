@@ -1,25 +1,20 @@
 ---
 title: '방법: XML 조각 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 3a27375b-81cc-48f6-a884-e1cb8c4f78f5
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 774a0f5639057ea5b1dc190ce475278477a7f373
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
+manager: jillfra
+ms.openlocfilehash: ec1b206bffa5ea49a17bd76487cdc398395c1f48
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50219616"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985825"
 ---
 # <a name="how-to-use-xml-snippets"></a>방법: XML 조각 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,12 +108,9 @@ XML 편집기 바로 가기 메뉴에서 다음 두 명령을 사용하여 XML �
   
  Enter 키 또는 Esc 키를 누르면 필드 편집이 취소되고 편집기가 일반 상태로 돌아갑니다.  
   
- 코드 조각 필드 설정을 수정 하 여 편집할 수 있는 코드 조각 필드에 대 한 기본 색을 변경할 수 있습니다는 **글꼴 및 색** 창의 합니다 **옵션** 대화 상자. 자세한 내용은 [방법: 글꼴 및 색 편집기에서 변경](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)합니다.  
+ 코드 조각 필드 설정을 수정 하 여 편집할 수 있는 코드 조각 필드에 대 한 기본 색을 변경할 수 있습니다는 **글꼴 및 색** 창의 합니다 **옵션** 대화 상자. 자세한 내용은 [방법: 편집기의 글꼴 및 색 변경](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [XML 조각](../xml-tools/xml-snippets.md)   
  [방법: XML 스키마에서 XML 조각 생성](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)   
  [방법: XML 조각 만들기](../xml-tools/how-to-create-xml-snippets.md)
-
-
-

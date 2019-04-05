@@ -1,14 +1,9 @@
 ---
 title: 기본 프로젝트 시스템 만들기, 1 부 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - writing a project system
 - project system
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
 caps.latest.revision: 48
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 9bc0be22f0a5f975f616bfcce942d59399a36ad6
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: ed2f8975f24404c00f81d86d0d1d6a6933b3d8ed
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51792556"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984824"
 ---
 # <a name="creating-a-basic-project-system-part-1"></a>기본 프로젝트 시스템 만들기, 1부
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +70,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
   
 #### <a name="to-create-a-basic-project-template"></a>기본 프로젝트 템플릿을 만들려면  
   
-1. 다른 하나는 프로젝트에 세 개의 폴더를 추가 합니다. **Templates\Projects\SimpleProject**합니다. (에서 **솔루션 탐색기**, 마우스 오른쪽 단추로 클릭 합니다 **SimpleProject** 프로젝트 노드를 가리키도록 **추가**를 클릭 하 고 **새 폴더**. 폴더 이름을 `Templates`서 무료 평가판 계정을 등록할 수 있습니다. 에 **템플릿을** 폴더를 라는 폴더를 추가 `Projects`합니다. 에 **프로젝트** 폴더를 라는 폴더를 추가 `SimpleProject`.)  
+1. 다른 하나는 프로젝트에 세 개의 폴더를 추가 합니다. **Templates\Projects\SimpleProject**. (에서 **솔루션 탐색기**, 마우스 오른쪽 단추로 클릭 합니다 **SimpleProject** 프로젝트 노드를 가리키도록 **추가**를 클릭 하 고 **새 폴더**. 폴더 이름을 `Templates`서 무료 평가판 계정을 등록할 수 있습니다. 에 **템플릿을** 폴더를 라는 폴더를 추가 `Projects`합니다. 에 **프로젝트** 폴더를 라는 폴더를 추가 `SimpleProject`.)  
   
 2. 에 **Projects\SimpleProject** 폴더는 명명 된 아이콘 파일을 추가할 `SimpleProject.ico`합니다. 클릭 하면 **추가**, 아이콘 편집기가 열립니다.  
   
@@ -577,7 +572,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
      템플릿 매개 변수 $nameSpace$ 및 $ $className$ 수행할 새 값이 없는지 확인 합니다. 다음 섹션에서 템플릿 매개 변수 대체를 구현 하는 방법을 배웁니다.  
   
 ## <a name="substituting-template-parameters"></a>템플릿 매개 변수를 대체합니다.  
- 이전 단원에서 등록할 프로젝트 템플릿을 Visual Studio를 사용 하 여 사용 하 여는 `ProvideProjectFactory` 특성입니다. 재정의 하 고 확장 하 여 기본 템플릿 매개 변수 대체를 사용 하면 이러한 방식으로 템플릿 폴더의 경로 등록 합니다 `ProjectNode.AddFileFromTemplate` 클래스입니다. 자세한 내용은 [새 프로젝트 생성: 내부 살펴보기, 2 부](../extensibility/internals/new-project-generation-under-the-hood-part-two.md)합니다.  
+ 이전 단원에서 등록할 프로젝트 템플릿을 Visual Studio를 사용 하 여 사용 하 여는 `ProvideProjectFactory` 특성입니다. 재정의 하 고 확장 하 여 기본 템플릿 매개 변수 대체를 사용 하면 이러한 방식으로 템플릿 폴더의 경로 등록 합니다 `ProjectNode.AddFileFromTemplate` 클래스입니다. 자세한 내용은 참조 하세요. [새 프로젝트 생성: 내부적으로 2 부](../extensibility/internals/new-project-generation-under-the-hood-part-two.md)합니다.  
   
  대체 코드를 추가 합니다 `AddFileFromTemplate` 클래스입니다.  
   
@@ -658,4 +653,3 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
     ![간단한 프로젝트 명령](../extensibility/media/simpleprojcommand.png "SimpleProjCommand")  
   
    지금까지 관리 되는 기본 프로젝트 시스템을 구현 했습니다.
-

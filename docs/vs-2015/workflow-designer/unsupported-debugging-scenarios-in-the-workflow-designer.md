@@ -1,26 +1,23 @@
 ---
 title: 워크플로 디자이너에서 시나리오를 디버깅 하는 지원 되지 않는 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 ms.assetid: 6adbe379-41d0-4681-9cd0-b91f187c3c2c
 caps.latest.revision: 4
 author: steved0x
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: aece5a71965a1935218027dd97b1b8363a646388
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 2f9799aa821c2281c8d7889009871e28a72dd5f6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49184485"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984332"
 ---
-# <a name="unsupported-debugging-scenarios-in-the-workflow-designer"></a>워크플로 디자이너에서 지원되지 않는 디버깅 시나리오
-[!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]의 Workflow Designer에는 새로운 여러 기능이 추가되었지만 여전히 지원되지 않는 몇 가지 디버깅 시나리오가 있습니다. 이 문서에서는 Workflow Designer에서 지원되지 않는 디버깅 시나리오에 대해 자세히 설명합니다.  
+# <a name="unsupported-debugging-scenarios-in-the-workflow-designer"></a>Workflow Designer에서 지원되지 않는 디버깅 시나리오
+[!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]의 워크플로 디자이너에는 새로운 여러 기능이 추가되었지만 여전히 지원되지 않는 몇 가지 디버깅 시나리오가 있습니다. 이 문서에서는 워크플로 디자이너에서 지원되지 않는 디버깅 시나리오에 대해 자세히 설명합니다.  
   
 -   코드를 편집한 후에는 실행을 계속할 수 없습니다.  
   

@@ -1,25 +1,20 @@
 ---
 title: XML 편집기 IntelliSense 기능 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4dbb96ffcca47303a90b1ff4c71643a63f6b4aa5
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: b8299e96f6ec074ce82dcd1fd872e56886c2d19b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49830747"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986297"
 ---
 # <a name="xml-editor-intellisense-features"></a>XML 편집기 IntelliSense 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,6 +123,3 @@ XML 편집기에서는 Visual Studio에서 제공하는 다른 언어 편집기�
  [XML 편집기](../xml-tools/xml-editor.md)   
  [IntelliSense 사용](../ide/using-intellisense.md)   
  [연습: XSLT IntelliSense 사용](../xml-tools/walkthrough-using-xslt-intellisense.md)
-
-
-

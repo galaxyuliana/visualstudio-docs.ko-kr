@@ -1,12 +1,9 @@
 ---
 title: N 계층 응용 프로그램에서 데이터 집합 사용 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -27,15 +24,15 @@ ms.assetid: f6ae2ee0-ea5f-4a79-8f4b-e21c115afb20
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: d05204edfd7c3cd5daecad3a1cb21ba5ba7e60d8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 6af9bb10066a6e5178d4f6864214fae5ec6796d6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49205974"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982081"
 ---
-# <a name="work-with-datasets-in-n-tier-applications"></a>n 계층 응용 프로그램에서 데이터 집합 작업
+# <a name="work-with-datasets-in-n-tier-applications"></a>n 계층 애플리케이션에서 데이터 집합 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -43,7 +40,7 @@ N 계층 데이터 응용 프로그램 *는 여러 논리 계층으로 분리 �
   
  TableAdapter 및 데이터 클래스를 개별 프로젝트로 생성할 수 있도록 형식화된 데이터 집합이 향상되었습니다. 따라서 응용 프로그램 계층을 빠르게 분리하고 N 계층 데이터 응용 프로그램을 생성하는 기능이 제공됩니다.  
   
- 형식화 된 데이터 집합에서 지원 되는 N 계층 응용 프로그램 아키텍처는 n 계층 디자인에 반복적인 개발을 수 있습니다. 또한 둘 이상의 프로젝트로 코드를 수동 분리할 필요가 제거 합니다. 사용 하 여 데이터 계층 디자인을 시작 합니다 [만들기 및 형식화 된 데이터 집합 편집](../data-tools/creating-and-editing-typed-datasets.md)합니다. 응용 프로그램 아키텍처를 n 계층 디자인 하는 데 준비 되 면을 설정 합니다 **데이터 집합 프로젝트** 별도 프로젝트로 dataset 클래스를 생성 하는 데이터 집합의 속성입니다.  
+ 형식화 된 데이터 집합에서 지원 되는 N 계층 응용 프로그램 아키텍처는 n 계층 디자인에 반복적인 개발을 수 있습니다. 또한 둘 이상의 프로젝트로 코드를 수동 분리할 필요가 제거 합니다. 데이터 집합 디자이너를 사용 하 여 데이터 계층 디자인을 시작 합니다. 애플리케이션 아키텍처에 N 계층 디자인을 적용할 준비가 되면 데이터 세트 클래스를 별도의 프로젝트로 생성하도록 데이터 세트의 **데이터 세트 프로젝트** 속성을 설정합니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [데이터 집합 및 TableAdapter를 다른 프로젝트로 분리](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)  
@@ -58,7 +55,7 @@ N 계층 데이터 응용 프로그램 *는 여러 논리 계층으로 분리 �
  [n 계층 데이터 집합에 유효성 검사 추가](../data-tools/add-validation-to-an-n-tier-dataset.md)  
  변경되는 데이터에 대해 유효성 검사를 수행할 코드의 추가 위치에 대해 설명합니다.  
   
- [연습: N 계층 데이터 응용 프로그램 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
+ [연습: N 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
  형식화된 데이터 집합을 만들고 TableAdapter 및 데이터 집합 코드를 여러 프로젝트로 분리하는 단계별 지침을 제공합니다.  
   
  [연습: N 계층 데이터 응용 프로그램에 유효성 검사 추가](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)  
@@ -69,16 +66,10 @@ N 계층 데이터 응용 프로그램 *는 여러 논리 계층으로 분리 �
   
  <xref:System.Data.TypedTableBase%601>  
   
-## <a name="related-sections"></a>관련 단원  
- [N 계층 데이터 응용 프로그램 개요](../data-tools/n-tier-data-applications-overview.md)  
-  
- [계층적 업데이트](../data-tools/hierarchical-update.md)  
-  
- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)  
-  
- [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)  
-  
- [TableAdapter 개요](../data-tools/tableadapter-overview.md)  
-  
- [LINQ to SQL을 사용한 N 계층 및 원격 응용 프로그램](http://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)
+## <a name="related-sections"></a>관련 단원
 
+- [N 계층 데이터 응용 프로그램 개요](../data-tools/n-tier-data-applications-overview.md)   
+- [계층적 업데이트](../data-tools/hierarchical-update.md)   
+- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)   
+- [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)   
+- [LINQ to SQL을 사용한 N 계층 및 원격 응용 프로그램](http://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)

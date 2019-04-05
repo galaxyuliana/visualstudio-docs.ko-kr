@@ -1,25 +1,20 @@
 ---
 title: XML 편집기 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: d069ba3a-266c-45ac-8f9f-7833a72c5a27
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: b01bd342dd41d88b891a8d36cba066340f2330c8
-ms.sourcegitcommit: 401be39a42ffe007593528b5bba62583ca9fcafd
+manager: jillfra
+ms.openlocfilehash: 276667993fa1c3448af3168403d18c2e55a118af
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50244439"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983270"
 ---
 # <a name="xml-editor-tasks"></a>XML 편집기 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ ms.locfileid: "50244439"
  XML 스키마를 만드는 방법을 설명합니다.  
   
  [방법: XML 편집기에서 XSLT 변환 실행](../xml-tools/how-to-execute-an-xslt-transformation-from-the-xml-editor.md)  
- XSLT 변형을 실행하는 방법을 설명합니다.  
+ XSLT 변환을 실행하는 방법을 설명합니다.  
   
  [방법: XML 파일 편집](../xml-tools/how-to-edit-xml-files.md)  
  XML 파일 편집을 시작하는 방법을 설명합니다.  
@@ -60,6 +55,3 @@ ms.locfileid: "50244439"
   
  [연습: XSLT 프로파일러](../xml-tools/walkthrough-xslt-profiler.md)  
  XSLT 코드에 대한 성능 보고서를 만드는 방법을 보여 줍니다.
-
-
-

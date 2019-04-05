@@ -1,14 +1,9 @@
 ---
 title: Shell (격리 또는 통합) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio shell
 - Visual Studio, Shell
@@ -18,13 +13,13 @@ helpviewer_keywords:
 ms.assetid: c64a9bf0-9bf8-45c3-8fa2-306fa6cab66a
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 856e32d4569e5dcb73e783d0a6b66e186fbb1848
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 9d8b08dfe812245a21160fa2f16b4c94728785ae
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51755878"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984985"
 ---
 # <a name="shell-isolated-or-integrated"></a>Shell (격리 또는 통합)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +47,7 @@ ms.locfileid: "51755878"
  통합 또는 격리 셸 응용 프로그램에 배포 하기 위해 응용 프로그램은 특별 한 통합 또는 격리 된 셸 재배포 가능 패키지 및 설치 프로그램을 포함 해야 합니다. 배포 및 설치 하는 방법에 대 한 자세한 내용은 참조 하세요. [격리 셸 응용 프로그램 배포](../extensibility/distributing-isolated-shell-applications.md)합니다.  
   
 > [!IMPORTANT]
->  합니다 [최종 사용자 사용권 계약 (EULA)](https://www.visualstudio.com/en-us/support/legal/mt171552) 셸 데이터 수집에 대 한 섹션이 포함 Visual Studio 통합 및 격리에 대 한 (**섹션 3입니다. 데이터**).  사용자의 통합 또는 isolated shell 소프트웨어 응용 프로그램을 작성 하는 Microsoft에서 수집 될 수 있습니다는 고객 사용 데이터를 설명 합니다. 자세한 내용은 [Microsoft Visual Studio 제품 제품군 개인정보취급방침](https://www.visualstudio.com/en-us/dn948229)합니다.  
+>  합니다 [최종 사용자 사용권 계약 (EULA)](https://www.visualstudio.com/support/legal/mt171552) 셸 데이터 수집에 대 한 섹션이 포함 Visual Studio 통합 및 격리에 대 한 (**섹션 3입니다. 데이터**).  사용자의 통합 또는 isolated shell 소프트웨어 응용 프로그램을 작성 하는 Microsoft에서 수집 될 수 있습니다는 고객 사용 데이터를 설명 합니다. 자세한 내용은 [Microsoft Visual Studio 제품 제품군 개인정보취급방침](https://www.visualstudio.com/dn948229)합니다.  
 > 
 >  응용 프로그램을 통해 고객의 별도 사용 현황 데이터를 수집 하는 경우에 수집 하 여 응용 프로그램의 사용자에 게 적절 한 통지를 제공 해야 합니다.  Visual Studio 소프트웨어 개발 키트 라이선스에 따라 응용 프로그램의 일부로 통합 또는 격리 된 셸 소프트웨어를 배포 하는 경우 다음 중 하나를 포함 해야 합니다.  
 > 
@@ -64,4 +59,3 @@ ms.locfileid: "51755878"
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)
-

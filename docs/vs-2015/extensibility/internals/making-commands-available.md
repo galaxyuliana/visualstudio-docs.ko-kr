@@ -1,14 +1,9 @@
 ---
 title: 명령을 사용할 수 있도록 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - menus [Visual Studio SDK], commands
 - best practices, menu and toolbar commands
@@ -17,13 +12,13 @@ helpviewer_keywords:
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
 caps.latest.revision: 36
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 00ed8231641718b6d0dce8d535b0c43e40b83dd8
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f709786d908d5bfe4ef4db04916801a5cd6a7366
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51783040"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985303"
 ---
 # <a name="making-commands-available"></a>명령을 사용 가능하게 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,7 +59,7 @@ Visual Studio에 여러 Vspackage를 추가 하는 경우 사용자 인터페이
 |---------------------|-----------------|  
 |현재 프로젝트 형식|대부분의 프로젝트 형식에 대 한이 `GUID` 값은 프로젝트를 구현 하는 VSPackage의 GUID와 동일 합니다. 그러나 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트에 프로젝트 형식을 사용 하 여 `GUID` 값으로.|  
 |활성 창|일반적으로 이것이 키 바인딩에 대 한 현재 UI 컨텍스트를 설정 하는 마지막 활성 문서 창입니다. 그러나 내부 웹 브라우저를 유사한 키 바인딩을 두 테이블에 있는 도구 창 수도 있습니다. HTML 편집기와 같은 다중 탭 문서 창에 대 한 모든 탭에는 다른 명령을 컨텍스트가 `GUID`합니다.|  
-|현재 언어 서비스|텍스트 편집기에 현재 표시 되는 파일과 연관 된 언어 서비스입니다.|  
+|Active Language Service|텍스트 편집기에 현재 표시 되는 파일과 연관 된 언어 서비스입니다.|  
 |활성 도구 창|가 열려 있고 포커스가 있는 도구 창입니다.|  
   
  다섯 번째 주요 상황에 맞는 영역을 IDE의 UI 상태를입니다. 활성 명령 컨텍스트에서 UI 컨텍스트 식별 됩니다 `GUID`같이 s:  
@@ -156,4 +151,3 @@ Visual Studio에 여러 Vspackage를 추가 하는 경우 사용자 인터페이
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Vspackage의 명령 라우팅](../../extensibility/internals/command-routing-in-vspackages.md)   
  [메뉴 항목 동적 추가](../../extensibility/dynamically-adding-menu-items.md)
-

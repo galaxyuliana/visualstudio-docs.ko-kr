@@ -1,14 +1,9 @@
 ---
 title: DOM 탐색기를 사용 하 여 CSS 스타일 디버그 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -24,13 +19,13 @@ ms.assetid: 2dfef7c6-7db2-4550-b694-783b0e535cea
 caps.latest.revision: 47
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 1f5a2c8ef6792403628430cb9881b24e6e279f02
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 2467bce94a9f9de3df87ab1c05fd4b84a7e68ee4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51750145"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983164"
 ---
 # <a name="debug-css-styles-using-dom-explorer"></a>DOM 탐색기를 사용하여 CSS 스타일 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -100,7 +95,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
 5.  F5 키를 눌러 디버그 모드에서 응용 프로그램을 실행합니다.  
   
-     앱 로드가 완료되면 **그룹 제목: 1**과 같은 목록 항목의 머리글을 살펴봅니다. 색이 변경되지 않으므로 주황색을 제목에 적용하려고 해도 적용되지 않습니다. DOM 탐색기에서 CSS 탭을 사용하여 무엇이 잘못되었는지 알아보고 수정해보도록 하겠습니다.  
+     앱 로드가 완료 되 면, 확인 목록 항목의 머리글 같은 **그룹 제목: 1**. 색이 변경되지 않으므로 주황색을 제목에 적용하려고 해도 적용되지 않습니다. DOM 탐색기에서 CSS 탭을 사용하여 무엇이 잘못되었는지 알아보고 수정해보도록 하겠습니다.  
   
     > [!TIP]
     >  시뮬레이터에 앱이 나타나면 선택한 사항과 변경한 CSS 스타일의 결과를 즉시 확인할 수 있도록 시뮬레이터를 Visual Studio 창 바로 오른쪽으로 이동합니다.  
@@ -108,9 +103,9 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 6.  Visual Studio로 전환하고 DOM 탐색기에서 **요소 선택** 을 클릭하거나 Ctrl + B를 누릅니다. 그러면 항목을 클릭하여 선택할 수 있도록 선택 모드가 변경되며, 앱이 전경에 옵니다. 한 번 클릭 후 모드는 되돌려집니다. **요소 선택** 단추는 다음과 같습니다. ![DOM 탐색기의 요소 선택 단추](../debugger/media/js-dom-select-element-button.png "JS_DOM_Select_Element_Button")  
   
     > [!TIP]
-    >  DOM 탐색기에서 HTML 요소를 직접 선택할 수도 있습니다. 요소 선택에 대 한 자세한 내용은 참조 하세요. [빠른 시작: HTML 및 CSS 디버깅](../debugger/quickstart-debug-html-and-css.md)합니다.  
+    >  DOM 탐색기에서 HTML 요소를 직접 선택할 수도 있습니다. 요소 선택에 대 한 자세한 내용은 참조 하세요. [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)합니다.  
   
-7.  시뮬레이터에서 홈 페이지의 왼쪽 창에 있는 **Group Title: 1**목록의 첫 번째 항목 제목을 마우스로 가리킵니다. 다음과 같이 제목이 강조 표시됩니다.  
+7.  목록에서 첫 번째 항목 제목 마우스로 시뮬레이터에서 **그룹 제목: 1**, 홈 페이지의 왼쪽된 패널에서. 다음과 같이 제목이 강조 표시됩니다.  
   
      ![요소 선택 단추를 사용 하 여](../debugger/media/js-css-select-element.png "JS_CSS_Select_Element")  
   
@@ -166,6 +161,3 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  [DOM 탐색기를 사용 하 여 레이아웃 디버그](../debugger/debug-layout-using-dom-explorer.md)   
  [DOM 이벤트 수신기 보기](../debugger/view-dom-event-listeners.md)   
  [기술 지원 및 접근성](http://go.microsoft.com/fwlink/?LinkId=253502)
-
-
-

@@ -1,21 +1,17 @@
 ---
 title: 코드로 매니페스트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 17ecacea-397d-4a97-b003-01bd5d56e936
 caps.latest.revision: 5
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e07700b73c4f419e5dd0fa31c5e2aad9f3d6693d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 1eca19210be8001c56d14213d5efcde358f58b50
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51758220"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984340"
 ---
 # <a name="manifest-to-code"></a>Manifest to Code
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,22 +29,22 @@ ms.locfileid: "51758220"
 |-|-|-|  
 |**스위치 이름**|**참고**|**필수 또는 선택**|  
 |/manifest|만들기 또는 코드 래퍼를 업데이트 하는 데 이미지 매니페스트에 대 한 경로입니다.|필수|  
-|/language|코드 래퍼를 생성 하는 언어입니다.<br /><br /> 유효한 값: 값은 대/소문자 CPP, c + +, CS, CSharp, C#, VB, 또는 VSCT 합니다.<br /><br /> VSCT 언어에 대 한 옵션, /monikerClass, /classAccess, 및 /namespace 옵션이 무시 됩니다.|필수|  
-|/imageIdClass|imageIdClass 및 도구에서 만든 연결 된 파일의 이름입니다. C + + 언어 옵션의 경우.h 파일에만 생성 됩니다.<br /><br /> 기본값: \<매니페스트 경로 > \MyImageIds.\< Ext l a n g >|Optional|  
-|/monikerClass|monikerClass 및 도구에서 만든 연결 된 파일의 이름입니다. C + + 언어 옵션의 경우.h 파일에만 생성 됩니다. VSCT 언어에 대해 무시 됩니다.<br /><br /> 기본값: \<매니페스트 경로 > \MyMonikers.\< Ext l a n g >|Optional|  
-|/classAccess|파일의 액세스 한정자는 imageIdClass 및는 monikerClass입니다. 액세스 한정자는 해당된 언어에 사용할 수 있는지 확인 합니다. VSCT 언어 옵션에 대해 무시 됩니다.<br /><br /> 기본값: 공용|Optional|  
-|/namespace|코드 래퍼에 정의 된 네임 스페이스입니다. VSCT 언어 옵션에 대해 무시 됩니다. 하거나 '.' 또는 ': '가 선택한 언어 옵션에 관계 없이 올바른 네임 스페이스 기호입니다.<br /><br /> 기본값: MyImages|Optional|  
+|/language|코드 래퍼를 생성 하는 언어입니다.<br /><br /> 유효한 값은 C + +, CPP, CS, CSharp, C#, VB, 또는 VSCT 값은 대/소문자 구분 합니다.<br /><br /> VSCT 언어에 대 한 옵션, /monikerClass, /classAccess, 및 /namespace 옵션이 무시 됩니다.|필수|  
+|/imageIdClass|imageIdClass 및 도구에서 만든 연결 된 파일의 이름입니다. C + + 언어 옵션의 경우.h 파일에만 생성 됩니다.<br /><br /> 기본값: \<매니페스트 경로 > \MyImageIds 합니다. \<Ext l a n g >|Optional|  
+|/monikerClass|monikerClass 및 도구에서 만든 연결 된 파일의 이름입니다. C + + 언어 옵션의 경우.h 파일에만 생성 됩니다. VSCT 언어에 대해 무시 됩니다.<br /><br /> 기본값: \<매니페스트 경로 > \MyMonikers 합니다. \<Ext l a n g >|Optional|  
+|/classAccess|파일의 액세스 한정자는 imageIdClass 및는 monikerClass입니다. 액세스 한정자는 해당된 언어에 사용할 수 있는지 확인 합니다. VSCT 언어 옵션에 대해 무시 됩니다.<br /><br /> 기본값: Public|Optional|  
+|/namespace|코드 래퍼에 정의 된 네임 스페이스입니다. VSCT 언어 옵션에 대해 무시 됩니다. Either ‘.’ 또는 ': '가 선택한 언어 옵션에 관계 없이 올바른 네임 스페이스 기호입니다.<br /><br /> 기본값: MyImages|Optional|  
 |/noLogo|인쇄에서 제품 및 저작권 정보를 중지이 플래그를 설정 합니다.|Optional|  
 |/?|도움말 정보를 인쇄 합니다.|Optional|  
 |/help|도움말 정보를 인쇄 합니다.|Optional|  
   
  **예제**  
   
--   ManifestToCode /manifest:D:\MyManifest.imagemanifest c:\  
+-   ManifestToCode /manifest:D:\MyManifest.imagemanifest                /language:CSharp  
   
 -   ManifestToCode /manifest:D:\MyManifest.imagemanifest /language:C++ /namespace: 내:: Namespace /imageIdClass:MyImageIds /monikerClass:MyMonikers /classAccess:friend  
   
--   ManifestToCode /manifest:D:\MyManifest.imagemanifest /language:VSCT /imageIdClass:MyImageIds  
+-   ManifestToCode /manifest:D:\MyManifest.imagemanifest                /language:VSCT                /imageIdClass:MyImageIds  
   
 ## <a name="notes"></a>노트  
   
@@ -236,4 +232,3 @@ End Namespace
   </Symbols>  
 </CommandTable>  
 ```
-

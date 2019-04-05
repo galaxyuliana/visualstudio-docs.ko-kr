@@ -1,29 +1,24 @@
 ---
 title: '방법: 중첩 된 프로젝트를 구현 합니다. | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - nested projects, implementing
 - projects [Visual Studio SDK], nesting
 ms.assetid: d20b8d6a-f0e0-4115-b3a3-edda893ae678
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 8a392b8b336c57c47055357147075f29ba173d8f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5100fb42cba7c993861ef5b9fa0682400b0cfa4a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810132"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984940"
 ---
-# <a name="how-to-implement-nested-projects"></a>방법: 중첩 된 프로젝트를 구현 합니다.
+# <a name="how-to-implement-nested-projects"></a>방법: 중첩된 프로젝트 구현
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 만들 때 중첩 된 프로젝트 형식이 있습니다 구현 해야 하는 몇 가지 추가 단계는 합니다. 부모 프로젝트를 솔루션의 중첩 된 (자식) 프로젝트에 동일한 작업을 수행 중 일부에 적용 됩니다. 부모 프로젝트는 유사한 솔루션에 프로젝트의 컨테이너입니다. 특히, 중첩 된 프로젝트의 계층 구조를 빌드할 부모 프로젝트 및 솔루션에서 발생 해야 하는 여러 이벤트 있습니다. 이러한 이벤트는 중첩 된 프로젝트를 만들기 위한 다음 프로세스에 설명 되어 있습니다.  
@@ -99,4 +94,3 @@ ms.locfileid: "51810132"
  [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [컨텍스트 매개 변수](../../extensibility/internals/context-parameters.md)   
  [마법사(.Vsz) 파일](../../extensibility/internals/wizard-dot-vsz-file.md)
-

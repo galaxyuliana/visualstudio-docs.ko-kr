@@ -1,25 +1,20 @@
 ---
 title: XML 데이터 사용 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 465cd132-2e36-435d-920b-50b767c2217c
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 6a67caa1b7c2246671d4e5a8e456a246b3662acd
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 3467b33a7dd152de439d7859c89b5b3707fea7ab
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49233476"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984303"
 ---
 # <a name="working-with-xml-data"></a>XML 데이터 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,17 +59,11 @@ XML 및 관련 기술은 [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual
  [XSLT 디버그](../xml-tools/debugging-xslt.md)  
  Visual Studio 디버거를 사용하여 스타일시트를 디버깅하는 방법을 설명합니다.  
   
- [XML 표준 참조](http://msdn.microsoft.com/en-us/79c78508-c9d0-423a-a00f-672e855de401)  
- XML, DTD(문서 종류 정의), XSD(XML 스키마 정의 언어), XSLT 등의 XML 기술에 대한 정보를 제공합니다.  
+ [XML 표준 참조](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
+ XML, DTD(문서 종류 정의), XSD(XML 스키마 정의 언어), XSLT 등의 XML 기술에 대한 정보를 제공합니다.
   
- [형식화된 데이터 집합 만들기 및 편집](../data-tools/creating-and-editing-typed-datasets.md)  
- 데이터 집합을 만들 수 있는 디자인 타임 도구에 대해 설명합니다.  
-  
- [관리 코드에서 XML 웹 서비스](http://msdn.microsoft.com/en-us/c9a7dc25-3e68-4723-bfb7-de4320830196)  
+ [관리 코드에서 XML 웹 서비스](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)  
  XML Web services를 만들고 배포하는 방법 및 XML Web services에 액세스하는 방법에 대해 설명합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 XML 도구](../xml-tools/xml-tools-in-visual-studio.md)
-
-
-

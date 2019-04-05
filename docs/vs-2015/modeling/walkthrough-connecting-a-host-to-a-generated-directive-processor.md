@@ -1,12 +1,9 @@
 ---
 title: '연습: 생성된 된 지시문 프로세서에 호스트 연결 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - walkthroughs [text templates], connecting host to processor
 - text templates, custom directive hosts
@@ -14,18 +11,18 @@ ms.assetid: 254540d9-90d6-42de-8c1c-068affd56e83
 caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 329cb0a6008824b23d7188c0ea6c4cf5e524476d
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 00baf3697347f208c5bd6cd2aa1abfe02b6fa2cb
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49817875"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58986560"
 ---
-# <a name="walkthrough-connecting-a-host-to-a-generated-directive-processor"></a>연습: 생성된 지시문 프로세서에 호스트 연결
+# <a name="walkthrough-connecting-a-host-to-a-generated-directive-processor"></a>연습: 생성된 된 지시문 프로세서에 호스트 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-텍스트 템플릿을 처리 하는 고유한 호스트를 작성할 수 있습니다. 기본 사용자 지정 호스트를 보여 줍니다 [연습: 사용자 지정 텍스트 템플릿 호스트 만들기](../modeling/walkthrough-creating-a-custom-text-template-host.md)합니다. 여러 출력 파일을 생성 하는 등의 기능을 추가 하려면 해당 호스트를 확장할 수 있습니다.  
+텍스트 템플릿을 처리 하는 고유한 호스트를 작성할 수 있습니다. 기본 사용자 지정 호스트에 설명 된 [연습: 사용자 지정 텍스트 템플릿 호스트 만들기](../modeling/walkthrough-creating-a-custom-text-template-host.md)합니다. 여러 출력 파일을 생성 하는 등의 기능을 추가 하려면 해당 호스트를 확장할 수 있습니다.  
   
  이 연습에서는 텍스트 템플릿 지시문 프로세서를 호출 하는 지원 하도록 해당 사용자 지정 호스트를 확장 합니다. 도메인 특정 언어를 정의 하는 경우 생성 된 *지시문 프로세서* 도메인 모델에 대 한 합니다. 지시문 프로세서를 사용 하면 쉽게 어셈블리를 작성 하 고 import 지시문 템플릿에 필요성이 줄어듭니다 모델에 액세스 하는 템플릿을 작성할 수 있습니다.  
   
@@ -49,7 +46,7 @@ ms.locfileid: "49817875"
 |[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
 |Visual Studio Visualization and Modeling SDK|[http://go.microsoft.com/fwlink/?LinkID=186128](http://go.microsoft.com/fwlink/?LinkID=186128)|  
   
- 만든 사용자 지정 텍스트 템플릿 변환 해야 뿐만 [연습: 사용자 지정 텍스트 템플릿 호스트 만들기](../modeling/walkthrough-creating-a-custom-text-template-host.md)합니다.  
+ 만든 사용자 지정 텍스트 템플릿 변환 해야 또한 [연습: 사용자 지정 텍스트 템플릿 호스트 만들기](../modeling/walkthrough-creating-a-custom-text-template-host.md)합니다.  
   
 ## <a name="using-domain-specific-language-tools-to-generate-a-directive-processor"></a>도메인 특정 언어 도구를 사용 하 여 지시문 프로세서를 생성 합니다.  
  이 연습에서는 도메인 특정 언어 디자이너 마법사를 사용 하 여 DSLMinimalTest 솔루션에 대 한 도메인별 언어 만들기.  
@@ -66,7 +63,7 @@ ms.locfileid: "49817875"
   
    - 회사 이름: Fabrikam  
   
-     도메인별 언어 솔루션을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 도메인별 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)합니다.  
+     도메인별 언어 솔루션을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 도메인 특정 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)를 참조하세요.  
   
 2. **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.  
   
@@ -230,7 +227,7 @@ ms.locfileid: "49817875"
             }  
     ```  
   
-7.  에 **파일** 메뉴에서 클릭 **모두 저장**합니다.  
+7.  **파일** 메뉴에서 **모두 저장**을 클릭합니다.  
   
 8.  **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.  
   
@@ -347,7 +344,7 @@ ms.locfileid: "49817875"
   
      폴더는 또한 TestTemplateWithDP1.txt 파일을 포함합니다.  
   
-6.  이 파일을 열어 텍스트 템플릿 변형의 결과를 확인합니다.  
+6.  이 파일을 열어 텍스트 템플릿 변환의 결과를 확인합니다.  
   
      생성된 된 텍스트 출력 결과 나타나고는 다음과 같습니다.  
   
@@ -363,6 +360,3 @@ ms.locfileid: "49817875"
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 사용자 지정 텍스트 템플릿 호스트 만들기](../modeling/walkthrough-creating-a-custom-text-template-host.md)
-
-
-

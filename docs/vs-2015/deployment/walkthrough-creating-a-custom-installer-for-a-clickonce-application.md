@@ -1,14 +1,9 @@
 ---
 title: '연습: ClickOnce 응용 프로그램에 대 한 사용자 지정 설치 관리자 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -23,15 +18,15 @@ ms.assetid: fb222cc5-8aeb-4b94-8c49-b93e342f5f69
 caps.latest.revision: 36
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 16686b0bf53f9e1358d96a7abcfe95f8ed6aac82
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 11ce31ce0a128114e3751dd412d7c3a0ea36df25
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49222770"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985359"
 ---
-# <a name="walkthrough-creating-a-custom-installer-for-a-clickonce-application"></a>연습: ClickOnce 응용 프로그램용 사용자 지정 설치 관리자 만들기
+# <a name="walkthrough-creating-a-custom-installer-for-a-clickonce-application"></a>연습: ClickOnce 응용 프로그램에 대 한 사용자 지정 설치 관리자 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 .Exe 파일을 기반으로 ClickOnce 응용 프로그램 자동으로 설치 하 고 사용자 지정 설치 관리자에 의해 업데이트 될 수 있습니다. 사용자 지정 설치 관리자는 보안 및 유지 관리 작업에 대 한 사용자 지정 대화 상자를 포함 하 여 설치 하는 동안 사용자 지정 사용자 경험을 구현할 수 있습니다. 설치 작업을 수행 하려면 사용자 지정 설치 관리자를 사용 하 여 <xref:System.Deployment.Application.InPlaceHostingManager> 클래스입니다. 이 연습에는 자동으로 ClickOnce 응용 프로그램을 설치 하는 사용자 지정 설치 관리자를 만드는 방법을 보여 줍니다.  
@@ -42,7 +37,7 @@ ms.locfileid: "49222770"
   
 1.  ClickOnce 응용 프로그램에서 System.Deployment 및 System.Windows.Forms에 대 한 참조를 추가 합니다.  
   
-2.  응용 프로그램에 새 클래스를 추가 하 고 모든 이름을 지정 합니다. 이 연습에서는 이름을 `MyInstaller`입니다.  
+2.  응용 프로그램에 새 클래스를 추가 하 고 모든 이름을 지정 합니다. 이 연습에서는 `MyInstaller`라는 이름을 사용합니다.  
   
 3.  다음을 추가 합니다 `Imports` 또는 `using` 문을 새 클래스의 맨 위로 이동 합니다.  
   
@@ -85,7 +80,4 @@ ms.locfileid: "49222770"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)   
- [\<entryPoint > 요소](../deployment/entrypoint-element-clickonce-application.md)
-
-
-
+ [\<entryPoint> 요소](../deployment/entrypoint-element-clickonce-application.md)

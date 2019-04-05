@@ -1,25 +1,20 @@
 ---
 title: XML 스키마 탐색기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 32116de7bb88fe937980b02e1789830a27ca36b1
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 59f2c4ba05b0e802f1daa303db0646a94f36fd31
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49845877"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986303"
 ---
 # <a name="xml-schema-explorer"></a>XML 스키마 탐색기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -98,10 +93,3 @@ XML 스키마 탐색기는 XSD(XML 스키마 정의 언어) 스키마 작업을 
   
 ## <a name="see-also"></a>참고 항목  
  [방법: XML 스키마 탐색기에서 작업 영역에 노드 추가](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)
-
-
-
-
-
-
-

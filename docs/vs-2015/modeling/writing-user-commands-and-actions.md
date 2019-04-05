@@ -1,23 +1,20 @@
 ---
 title: 사용자 명령 및 작업 작성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: ba5ff03f-d2e3-4188-a706-3eb68ffb5f9e
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: eb1b38dada5b36bf6d02fd7d7dc175761d2147ef
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: b07a311123299c0df76834a4b07d3a39f79f0ce2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49230414"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986483"
 ---
 # <a name="writing-user-commands-and-actions"></a>사용자 명령 및 작업 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +39,3 @@ ms.locfileid: "49230414"
   
 ## <a name="see-also"></a>참고 항목  
  [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)
-
-
-

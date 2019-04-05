@@ -1,28 +1,23 @@
 ---
-title: '방법: 만들기를 합니다. Vsct 파일 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 만들기는 합니다. Vsct 파일 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, creating
 ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: bbfdcf605a1c4346874ec222937a458225788151
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 2d3def90d568b77ccfd781d573b49551313d733f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51802638"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985199"
 ---
-# <a name="how-to-create-a-vsct-file"></a>방법: 만들기를 합니다. Vsct 파일
+# <a name="how-to-create-a-vsct-file"></a>방법: .Vsct 파일 만들기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 XML 기반 Visual Studio 명령 테이블 (.vsct) 구성 파일을 만드는 방법은 여러 가지가 있습니다.  
@@ -102,7 +97,6 @@ XML 기반 Visual Studio 명령 테이블 (.vsct) 구성 파일을 만드는 방
 ## <a name="see-also"></a>참고 항목  
  [작성 합니다. Vsct 파일](../../extensibility/internals/authoring-dot-vsct-files.md)   
  [Visual Studio 명령 테이블 (합니다. Vsct) 파일](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
- [방법: 만들기를 합니다. 기존 Vsct 파일입니다. Ctc 파일](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-ctc-file.md)   
- [방법: 만들기를 합니다. 기존 Vsct 파일입니다. Cto 인 파일](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md)   
+ [방법: 만들기는 합니다. 기존 Vsct 파일입니다. Ctc 파일](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-ctc-file.md)   
+ [방법: 만들기는 합니다. 기존 Vsct 파일입니다. Cto 인 파일](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md)   
  [VSCT XML 스키마 참조](../../extensibility/vsct-xml-schema-reference.md)
-

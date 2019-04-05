@@ -1,27 +1,22 @@
 ---
 title: Interop 어셈블리 명령 처리기를 등록 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - interop assemblies, command handlers
 - command handling with interop assemblies, registering
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: a087b5952b930145cd9f620a0eebeeee5d947149
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 5d768a8024755fcee10413495c48da9e20456751
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51778594"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985538"
 ---
 # <a name="registering-interop-assembly-command-handlers"></a>Interop 어셈블리 명령 처리기를 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ VSPackage를 등록 해야 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 는 �
   
  관리 패키지 프레임 워크 (MPF)를 통해이 기능을 제공 합니다 <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> 클래스입니다.  
   
- [명령 테이블 형식을 참조](http://msdn.microsoft.com/en-us/09e9c6ef-9863-48de-9483-d45b7b7c798f) 리소스가 관리 되지 않는 위성 dll UI에에서 있습니다.  
+ [명령 테이블 형식을 참조](http://msdn.microsoft.com/09e9c6ef-9863-48de-9483-d45b7b7c798f) 리소스가 관리 되지 않는 위성 dll UI에에서 있습니다.  
   
 ## <a name="command-handler-registration-of-a-vspackage"></a>VSPackage의 명령 처리기 등록  
  사용자 인터페이스 (UI)에 대 한 처리기 역할을 하는 VSPackage-기반된 명령을 VSPackage의 이름을 딴 하는 레지스트리 항목이 있어야 `GUID`합니다. 이 레지스트리 항목 VSPackage의 UI 리소스 파일과 해당 파일 내에서 메뉴 리소스의 위치를 지정 합니다. HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio 아래에 있는 레지스트리 항목 자체\\*\<버전 >* \Menus, 여기서  *\<버전 >* 버전이 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]예를 들어 9.0, 합니다.  
@@ -76,4 +71,3 @@ HKEY_LOCAL_MACHINE\Software\VisualStudio\9.0Exp\
 ## <a name="see-also"></a>참고 항목  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Interop 어셈블리를 사용하는 명령 및 메뉴](../../extensibility/internals/commands-and-menus-that-use-interop-assemblies.md)
-

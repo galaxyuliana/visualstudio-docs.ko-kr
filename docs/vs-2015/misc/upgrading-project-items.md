@@ -1,27 +1,22 @@
 ---
 title: 프로젝트 항목 업그레이드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - upgrading project items
 - projects [Visual Studio SDK], upgrading items
 - project items [Visual Studio], upgrading
 ms.assetid: 8af29dd4-eaf1-4b3c-b602-198e1a3dff23
 caps.latest.revision: 14
-manager: douge
-ms.openlocfilehash: a9bf5307e2eabc2ba15c8e2dc8e1b1e0fadb11a0
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 04cfbdc9da180dc35278e723da8ce203bdf26ac6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49224096"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986257"
 ---
 # <a name="upgrading-project-items"></a>프로젝트 항목 업그레이드
 를 추가 하거나 구현 하지 않는 프로젝트 시스템 내에서 항목을 관리 하는 경우 프로젝트 업그레이드 프로세스에 참여 해야 합니다. Crystal Reports은 프로젝트 시스템에 추가할 수 있는 항목의 예입니다.  
@@ -43,5 +38,5 @@ ms.locfileid: "49224096"
 2.  프로젝트 항목의 프로젝트 업그레이드에 대 한 알림을 가져옵니다 시점에는 **Visual Studio 변환 마법사** 계속 표시 됩니다. 메서드를 사용 해야 하므로 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUpgradeLogger> 마법사 UI 업그레이드 메시지를 제공 하는 인터페이스입니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Visual Studio 변환 마법사](http://msdn.microsoft.com/en-us/4acfd30e-c192-4184-a86f-2da5e4c3d83c)   
+ [Visual Studio 변환 마법사](http://msdn.microsoft.com/4acfd30e-c192-4184-a86f-2da5e4c3d83c)   
  [사용자 지정 프로젝트 업그레이드](../misc/upgrading-custom-projects.md)

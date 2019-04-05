@@ -1,14 +1,9 @@
 ---
-title: '방법: ClickOnce 오프 라인 지정 또는 온라인 설치 모드 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 지정 ClickOnce 오프 라인 또는 온라인 설치 모드 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -23,13 +18,13 @@ ms.assetid: 0aee5fc1-e966-4bda-9b8f-d9997aeaa779
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: b243811f2c6c36266443cd34e0e37ddd01390f87
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 0e16c3b921c8ecd2c4c944b60cb5541eac49463e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49266073"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983903"
 ---
 # <a name="how-to-specify-the-clickonce-offline-or-online-install-mode"></a>방법: ClickOnce 오프라인 또는 온라인 설치 모드 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,13 +33,13 @@ ms.locfileid: "49266073"
   
  `Install Mode` 에서 설정할 수 있습니다 합니다 **게시** 페이지를 **프로젝트 디자이너**합니다.  
   
- **참고** 는 `Install Mode` 게시 마법사를 사용 하 여 설정할 수도 있습니다. 자세한 내용은 [방법: ClickOnce 응용 프로그램 게시 마법사를 사용 하 여 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)합니다.  
+ **참고** 는 `Install Mode` 게시 마법사를 사용 하 여 설정할 수도 있습니다. 자세한 내용은 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.  
   
 ### <a name="to-make-a-clickonce-application-available-online-only"></a>ClickOnce 응용 프로그램을 사용할 수 있도록 온라인만  
   
 1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  클릭 합니다 **게시** 탭 합니다.  
+2.  **게시** 탭을 클릭합니다.  
   
 3.  에 **설치 모드 및 설정** 영역에서 클릭 합니다 **응용 프로그램은 온라인** 옵션 단추.  
   
@@ -52,7 +47,7 @@ ms.locfileid: "49266073"
   
 1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  클릭 합니다 **게시** 탭 합니다.  
+2.  **게시** 탭을 클릭합니다.  
   
 3.  에 **설치 모드 및 설정** 영역에서 클릭 합니다 **응용 프로그램을 오프 라인으로** 옵션 단추.  
   
@@ -60,8 +55,5 @@ ms.locfileid: "49266073"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   
- [방법: 게시 마법사를 사용하여 ClickOnce 응용 프로그램 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
+ [방법: 게시 마법사를 사용 하 여 ClickOnce 응용 프로그램 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
  [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)
-
-
-

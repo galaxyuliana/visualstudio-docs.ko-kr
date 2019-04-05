@@ -1,11 +1,8 @@
 ---
 title: 솔루션 전체의 종속성 매핑 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 f1_keywords:
 - vs.progression.codemap
@@ -31,13 +28,13 @@ ms.assetid: e04850a2-17c5-459b-93ec-6c74143b3292
 caps.latest.revision: 245
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 20122a1b254eee15efb557b5899e59fc914fda3a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: c9ff6901db602a812c06c6d8cc08ce55ef6d1d7e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51740044"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984953"
 ---
 # <a name="map-dependencies-across-your-solutions"></a>솔루션 전체의 종속성 매핑
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,9 +54,9 @@ ms.locfileid: "51740044"
 ##  <a name="GetStarted"></a> 코드 맵 시작  
  **코드 맵을 사용하려면 다음이 필요합니다**.  
   
--   Visual Studio Enterprise: 코드 편집기, 솔루션 탐색기, 클래스 뷰 또는 개체 브라우저에서 코드 맵을 만듭니다.  
+-   Visual Studio Enterprise: 코드 편집기, 솔루션 탐색기, 클래스 뷰 또는 개체 브라우저에서에서 코드 맵을 만듭니다.  
   
--   Visual Studio Professional: 코드 맵을 열고, 제한된 편집을 수행하고, 코드를 탐색합니다.  
+-   Visual Studio Professional: 코드 맵을 열고, 제한 된 편집을 확인 하 고 코드를 탐색 합니다.  
   
 > [!WARNING]
 >  Visual Studio Enterprise에서 만든 맵을 Visual Studio Professional 사용자와 공유하기 전에 숨겨진 항목, 확장된 그룹 및 그룹 간 링크 등의 모든 항목이 맵에 표시되어 있어야 합니다.  
@@ -72,7 +69,7 @@ ms.locfileid: "51740044"
   
 - Microsoft Dynamics AX용 .NET 모듈의 X++ 프로젝트 및 어셈블리  
   
-  **참고:** C# 또는 Visual Basic .NET이 아닌 다른 프로젝트의 경우 코드 맵을 시작하거나 기존 코드 맵에 항목을 추가하는 옵션이 더 적습니다. 예를 들어 C++ 프로젝트의 텍스트 편집기에서는 개체를 마우스 오른쪽 단추로 클릭하여 코드 맵에 추가할 수 없습니다. 그러나 솔루션 탐색기, 클래스 뷰 및 개체 브라우저에서 개별 코드 요소 또는 파일을 끌어서 놓을 수 있습니다.  
+  **참고:** 다른 프로젝트에 대 한 C# 또는 Visual Basic.NET에서는 옵션이 더 적습니다 경우 코드 맵을 시작 하거나 기존 코드 맵에 항목을 추가 합니다. 예를 들어 C++ 프로젝트의 텍스트 편집기에서는 개체를 마우스 오른쪽 단추로 클릭하여 코드 맵에 추가할 수 없습니다. 그러나 솔루션 탐색기, 클래스 뷰 및 개체 브라우저에서 개별 코드 요소 또는 파일을 끌어서 놓을 수 있습니다.  
   
 #### <a name="to-see-the-overall-dependencies-across-your-solution"></a>솔루션 전체의 종속성을 확인하려면  
   
@@ -364,11 +361,11 @@ ms.locfileid: "51740044"
 >   
 >  Visual Studio에서 오류가 표시되지만 저장된 버전이 만들어집니다. 이 오류가 발생하지 않게 하려면 모델링 프로젝트 외부에 맵을 만듭니다. 그런 다음 원하는 위치에 그래프를 저장할 수 있습니다. 파일을 솔루션의 다른 위치에 복사하고 저장해 보는 것으로는 문제가 해결되지 않습니다.  
   
-### <a name="export-the-map-as-an-image-so-you-can-copy-it-into-other-applications-such-as-microsoft-word-or-powerpoint"></a>맵을 이미지로 내보내면 Microsoft Word나 PowerPoint 같이 다른 응용 프로그램으로 그래프를 복사할 수 있습니다.  
+### <a name="export-the-map-as-an-image-so-you-can-copy-it-into-other-applications-such-as-microsoft-word-or-powerpoint"></a>맵을 이미지로 내보내면 Microsoft Word나 PowerPoint 같이 다른 애플리케이션으로 그래프를 복사할 수 있습니다.  
   
 1.  코드 맵 도구 모음에서 **공유**, **이미지로 메일 보내기** 또는 **이미지 복사**를 선택합니다.  
   
-2.  이미지를 다른 응용 프로그램에 붙여넣습니다.  
+2.  이미지를 다른 애플리케이션에 붙여넣습니다.  
   
 ### <a name="export-the-map-as-an-xps-file-so-you-can-see-it-in-xml-or-xaml-viewers-like-internet-explorer"></a>맵을 XPS 파일로 내보내면 Internet Explorer 같이 XML 또는 XAML 뷰어에서 맵을 확인할 수 있습니다.  
   
@@ -389,6 +386,3 @@ ms.locfileid: "51740044"
 -   [코드 맵 찾아보기 및 다시 정렬](../modeling/browse-and-rearrange-code-maps.md)  
   
 -   [DGML 파일을 편집하여 코드 맵 사용자 지정](../modeling/customize-code-maps-by-editing-the-dgml-files.md)
-
-
-

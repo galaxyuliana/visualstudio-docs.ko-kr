@@ -1,26 +1,21 @@
 ---
 title: 등록 사용자 지정 디버그 엔진 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, registering
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
 caps.latest.revision: 7
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 8ce7faf0ad538478d3291b48ac7306a39558663b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b840d262849fc59f3868451f201316094f2e5346
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51732654"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985480"
 ---
 # <a name="registering-a-custom-debug-engine"></a>사용자 지정 디버그 엔진 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ ms.locfileid: "51732654"
 디버그 엔진 해야 COM 규칙을 따르는 클래스 팩터리로 자체 등록할 뿐만 아니라 Visual Studio 레지스트리 하위 키를 통해 Visual Studio를 사용 하 여 등록 합니다.  
   
 > [!NOTE]
->  일부분으로 빌드되는 TextInterpreter 샘플에서 디버그 엔진을 등록 하는 방법의 예제를 찾을 수 있습니다 합니다 [자습서: 빌드는 디버그 엔진 사용 하 여 ATL COM](http://msdn.microsoft.com/en-us/9097b71e-1fe7-48f7-bc00-009e25940c24)합니다.  
+>  일부분으로 빌드되는 TextInterpreter 샘플에서 디버그 엔진을 등록 하는 방법의 예제를 찾을 수 있습니다는 [자습서: ATL COM을 사용 하 여 디버그 엔진 구축](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24)합니다.  
   
 ## <a name="dll-server-process"></a>DLL 서버 프로세스  
  일반적으로 디버그 엔진 자체 DLL에서 COM 서버로 구현 됩니다. 이 Visual Studio에서 액세스 하기 전에 디버그 엔진 해야 COM을 사용 하 여 해당 클래스 팩터리의 CLSID를 등록 하는 것을 의미 합니다. 디버그 엔진 등록 해야 자체 자체는 Visual Studio를 사용 하 여 모든 속성 (라고도 메트릭)을 설정 하기 위해 디버그를 지 원하는 엔진입니다. 디버그 엔진에 대 한 Visual Studio 레지스트리 하위 키에 기록 되는 메트릭의 선택한 디버그 엔진을 지 원하는 기능에 따라 달라 집니다.  
@@ -58,5 +53,4 @@ HRESULT CTextInterpreterModule::RegisterServer(BOOL bRegTypeLib, const CLSID * p
 ## <a name="see-also"></a>참고 항목  
  [사용자 지정 디버그 엔진 만들기](../../extensibility/debugger/creating-a-custom-debug-engine.md)   
  [디버깅을 위한 SDK 도우미](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)   
- [자습서: ATL COM을 사용 하 여 디버그 엔진 구축](http://msdn.microsoft.com/en-us/9097b71e-1fe7-48f7-bc00-009e25940c24)
-
+ [자습서: ATL COM을 사용 하 여 디버그 엔진 구축](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24)

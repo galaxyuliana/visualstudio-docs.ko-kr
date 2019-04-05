@@ -1,14 +1,9 @@
 ---
 title: CV_HREG_e | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: reference
 dev_langs:
 - C++
 helpviewer_keywords:
@@ -17,13 +12,13 @@ ms.assetid: 3f0622f7-6790-41d8-8778-227cbbf8a212
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 5387a697b025757388864289cbbd3fdcebc7a5ea
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: e05b93d363b8157cae5ac66a4fe8fdd14634aa11
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51724312"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58980619"
 ---
 # <a name="cvhrege"></a>CV_HREG_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -417,37 +412,37 @@ enum CV_HREG_e { 
 ```  
   
 ## <a name="elements"></a>요소  
- CV_REG_ *  
+ CV_REG_*  
  Intel 80x86 ix86 프로세서 및 p-코드를 사용한 등록 합니다.  
   
- CV_R68_ *  
+ CV_R68_*  
  등록은 68 K 프로세서에 사용 합니다.  
   
- CV_M4_ *  
+ CV_M4_*  
  MIPS 4000 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
- CV_ALPHA_ *  
+ CV_ALPHA_*  
  Digital Equipment Corporation Alpha AXP 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
- CV_PPC_ *  
+ CV_PPC_*  
  Motorola/IBM PowerPC 프로세서에서 사용 하는 등록 합니다.  
   
- CV_SH3_ * 및 CV_SH_\*  
+ CV_SH3_* 및 CV_SH_\*  
  Hitachi SH3 및 Hitachi SH 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
- CV_ARM_ *  
+ CV_ARM_*  
  Advanced RISC Machine (ARM) 프로세서에서 사용 하는 등록 합니다.  
   
- CV_IA64_ *  
+ CV_IA64_*  
  Intel IA64 시리즈 프로세서에서 사용 하는 등록 합니다.  
   
- CV_TRI_ *  
+ CV_TRI_*  
  Infineon 기술 TriCore 프로세서에서 사용 하는 등록 합니다.  
   
- CV_AM33_ *  
+ CV_AM33_*  
  레지스터는 Matsushita/Panasonic AM33 사용과 프로세서.  
   
- CV_M32R_ *  
+ CV_M32R_*  
  Mitsubishi M32R 프로세서에서 사용 하는 등록 합니다.  
   
 ## <a name="remarks"></a>설명  
@@ -470,11 +465,8 @@ enum CV_HREG_e { 
   
 ## <a name="see-also"></a>참고 항목  
  [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [Idiastackwalkframe:: Get_registervalue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)   
- [Idiastackwalkframe:: Put_registervalue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)   
+ [IDiaStackWalkFrame::get_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)   
+ [IDiaStackWalkFrame::put_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)   
  [IDiaStackWalkHelper::get_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)   
  [IDiaStackWalkHelper::put_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)   
  [IDiaStackFrame::get_registerValue](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)
-
-
-

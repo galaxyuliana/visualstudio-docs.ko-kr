@@ -1,14 +1,9 @@
 ---
 title: 명령을 사용 하 여 열기를 사용 하 여 파일을 표시 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - project types, supporting Open With command
 - Open With command
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 716e9f1551681b9e194bd300522f55ab5e927dab
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 0f8e5e368199a3c554499a0ca01cbb66e51fab84
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51816459"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986205"
 ---
 # <a name="displaying-files-by-using-the-open-with-command"></a>연결 프로그램 명령을 사용하여 파일 표시
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,4 +37,3 @@ ms.locfileid: "51816459"
  [열기 및 프로젝트 항목 저장](../../extensibility/internals/opening-and-saving-project-items.md)   
  [파일 열기 명령을 사용 하 여 파일을 표시 합니다.](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)   
  [방법: 표준 편집기 열기](../../extensibility/how-to-open-standard-editors.md)
-

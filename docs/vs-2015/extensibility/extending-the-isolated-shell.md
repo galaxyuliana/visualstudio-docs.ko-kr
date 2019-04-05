@@ -1,26 +1,21 @@
 ---
 title: 격리 셸 확장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio shell, isolated mode
 ms.assetid: 9a641d8f-211e-4486-a1b1-4a89fafe7ee8
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: dc700e0a1b8753a26067eff90df9ff58765de8d1
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: af64fa948754350eb1beb0f70dbac33981b595f8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51792023"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984725"
 ---
 # <a name="extending-the-isolated-shell"></a>격리 셸 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ ms.locfileid: "51792023"
 격리 셸 응용 프로그램에 VSPackage, 프레임 워크 MEF (Managed Extensibility) 구성 요소 파트 또는 제네릭 VSIX 프로젝트를 추가 하 여 Visual Studio 격리 셸을 확장할 수 있습니다.  
   
 > [!NOTE]
->  다음 단계는 Visual Studio Shell 격리 프로젝트 템플릿을 사용 하 여 기본 격리 셸 응용 프로그램을 만든 presuppose 합니다. 이 프로젝트 템플릿에 대 한 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램을 만드는](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)합니다.  
+>  다음 단계는 Visual Studio Shell 격리 프로젝트 템플릿을 사용 하 여 기본 격리 셸 응용 프로그램을 만든 presuppose 합니다. 이 프로젝트 템플릿에 대 한 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
   
 ## <a name="locations-for-the-visual-studio-package-project-template"></a>Visual Studio 패키지 프로젝트 템플릿의 위치  
  Visual Studio 패키지 프로젝트 템플릿은 **새 프로젝트** 대화 상자의 세 가지 서로 다른 위치에 있습니다.  
@@ -127,4 +122,3 @@ ms.locfileid: "51792023"
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
-

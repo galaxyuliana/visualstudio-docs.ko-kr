@@ -1,23 +1,20 @@
 ---
 title: '방법: 활동 디자이너 라이브러리 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 ms.assetid: 5b62e092-63b3-462d-9d77-fb112482f45d
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 6802f92f349d15d48935f4e7c3db85abf7c12535
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 69d68fdc0a34ffa680ec2306a087cd29002eb185
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49258273"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985403"
 ---
 # <a name="how-to-create-an-activity-designer-library"></a>방법: 활동 디자이너 라이브러리 만들기
 사용자 지정 활동 디자이너를 사용하여 표준 또는 사용자 지정 활동을 위한 사용자 인터페이스를 만들 수 있습니다. 사용자 인터페이스의 복잡성을 조절하고 한 가지 활동에 대해 두 개 이상의 활동 디자이너를 만들 수 있습니다. 이 시나리오에서는 여러 대상에 맞게 조정한 디자이너를 만들 수 있습니다.  
@@ -43,7 +40,7 @@ ms.locfileid: "49258273"
   
 8.  프로젝트 템플릿이 XAML로 활동 디자이너 정의를 만들고 코드 숨김 구현 파일을 소스 코드로 만듭니다. [!INCLUDE[wfd1](../includes/wfd1-md.md)]가 열리고 활동 디자이너의 캔버스가 표시됩니다.  
   
-9. 끌기 [!INCLUDE[avalon1](../includes/avalon1-md.md)] 에서 제어 합니다 **도구 상자** 디자인 화면에 사용자 지정 활동 디자이너에서 사용 하 합니다.  사용자 지정 활동 디자이너를 구현 하는 방법의 예제를 참조 하세요 [방법: 사용자 지정 활동 디자이너를 만드는](http://msdn.microsoft.com/library/2f3aade6-facc-44ef-9657-a407ef8b9b31)합니다.  
+9. 끌기 [!INCLUDE[avalon1](../includes/avalon1-md.md)] 에서 제어 합니다 **도구 상자** 디자인 화면에 사용자 지정 활동 디자이너에서 사용 하 합니다.  사용자 지정 활동 디자이너를 구현 하는 방법의 예제를 참조 하세요. [방법: 사용자 지정 활동 디자이너를 만드는](http://msdn.microsoft.com/library/2f3aade6-facc-44ef-9657-a407ef8b9b31)합니다.  
   
     > [!WARNING]
     >  기본도 사용자 지정 활동에 대 한 사용자 지정 활동 디자이너를 사용할 수 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]활동입니다.  
