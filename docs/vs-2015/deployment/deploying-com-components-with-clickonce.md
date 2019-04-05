@@ -1,14 +1,9 @@
 ---
 title: ClickOnce 사용 하 여 COM 구성 요소 배포 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -23,13 +18,13 @@ ms.assetid: 1a4c7f4c-7a41-45f2-9af4-8b1666469b89
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 8f4412c067ffd43a14a62cc722cf60ca1a883d9f
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 870255afe466709f8e9a5fc48e5135943443900d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49820293"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002760"
 ---
 # <a name="deploying-com-components-with-clickonce"></a>ClickOnce를 사용하여 COM 구성 요소 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ ms.locfileid: "49820293"
   
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] .NET 응용 프로그램을 배포 하는 쉽고 안전한 메커니즘을 제공 합니다. 그러나 레거시 COM 구성 요소를 사용 하는 응용 프로그램을 배포 하는 것에 대 한 추가 단계를 수행 해야 합니다. 이 항목에서는 격리 된 COM 구성 요소를 배포 하 고 (예를 들어, Visual Basic 6.0 또는 Visual c + +)에서 네이티브 구성 요소를 참조 하는 방법을 설명 합니다.  
   
- 격리 된 COM 구성 요소를 배포 하는 방법에 대 한 자세한 내용은 참조 하세요. "를 사용한 앱 배포 단순화 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 및 등록이 필요 없는 COM" 언제 [ http://msdn.microsoft.com/msdnmag/issues/05/04/RegFreeCOM/default.aspx ](http://msdn.microsoft.com/msdnmag/issues/05/04/RegFreeCOM/default.aspx)합니다.  
+ 격리 된 COM 구성 요소를 배포 하는 방법에 대 한 자세한 내용은 참조 하세요. "를 사용한 앱 배포 단순화 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 및 등록이 필요 없는 COM" 언제 [ https://msdn.microsoft.com/magazine/msdn-magazine-issues.aspx ](https://msdn.microsoft.com/magazine/msdn-magazine-issues.aspx)합니다.  
   
 ## <a name="registration-free-com"></a>등록이 필요 없는 COM  
  등록이 필요 없는 COM 배포 및 격리 된 COM 구성 요소를 활성화를 위한 새로운 기술 됩니다. 일반적으로 매니페스트 라는 XML 파일로 시스템 레지스트리에 설치 되어 있는 등록 정보와 모든 구성 요소의 형식 라이브러리에 넣어 작동 하는지는 응용 프로그램과 동일한 폴더에 저장 합니다.  
@@ -116,7 +111,7 @@ ms.locfileid: "49820293"
    End Sub  
    ```  
   
-9. 응용 프로그램을 실행합니다. **디버그** 메뉴에서 클릭 **디버깅 시작**합니다.  
+9. 애플리케이션을 실행합니다. **디버그** 메뉴에서 클릭 **디버깅 시작**합니다.  
   
    다음 컨트롤을 격리 해야 합니다. 응용 프로그램에서 사용 하는 각 COM 구성 요소는 프로젝트에서 COM 참조로 표시 됩니다. 이러한 참조는 아래에 표시 된 **참조** 에서 노드를 **솔루션 탐색기** 창. (직접 사용 하거나 추가할 수 있는 알림을 참조를 **참조 추가** 명령을 합니다 **프로젝트** 메뉴 또는 ActiveX 컨트롤을 폼으로 끌어서에서 직접.)  
   
@@ -145,7 +140,7 @@ ms.locfileid: "49820293"
   
 2. 게시 마법사에서 로컬 컴퓨터의 디스크에 액세스 하 고 게시 된 파일을 검사할 수 있는 위치를 지정 합니다.  
   
-3. 클릭 **완료** 응용 프로그램을 게시 합니다.  
+3. **마침**을 클릭하여 애플리케이션을 게시합니다.  
   
    게시 된 파일을 검사 하면 sysmon.ocx 파일이 포함 된 기록해둔 메시지가 표시 됩니다. 컨트롤이 최종 사용자의 컴퓨터를 다른 버전의 컨트롤을 사용 하 여 다른 응용 프로그램에 있으면이 응용 프로그램을 사용 하 여 방해 없습니다 것 이므로이 응용 프로그램에 완전히 격리 됩니다.  
   
@@ -181,6 +176,3 @@ ms.locfileid: "49820293"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)
-
-
-

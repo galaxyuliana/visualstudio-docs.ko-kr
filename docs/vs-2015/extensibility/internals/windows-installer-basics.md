@@ -1,34 +1,29 @@
 ---
 title: Windows Installer 기본 사항 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Windows Installer, VSPackages
 - VSPackages, Windows Installer basics
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: b3756f8e9c8b22b9e6a7da52e076364024fe49d1
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: e0d80320b47f0d5968b4aa0e795743e394db2c19
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51747656"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002592"
 ---
 # <a name="windows-installer-basics"></a>Windows Installer 기본 사항
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요소 (WICs 또는 구성 요소 라고도 함) 라는 단위로 이러한 작업을 수행 합니다. 응용 프로그램 또는 사용자의 컴퓨터에서 소프트웨어 제품 제거. 설치 및 Windows Installer를 사용 하 여 설정에 대 한 계산 참조의 기본 단위는 각 WIC를 식별 하는 GUID입니다.  
   
- Windows Installer의 포괄적인 설명서 Platform SDK 항목을 참조 하세요 [Windows Installer](http://msdn.microsoft.com/library/aa372866.aspx)합니다.  
+ Windows Installer의 포괄적인 설명서 Platform SDK 항목을 참조 하세요 [Windows Installer](/previous-versions/2kt85ked(v=vs.120))합니다.  
   
 ## <a name="authoring-a-vspackage"></a>VSPackage를 작성합니다.  
  Windows 설치 관리자는 Windows Installer 설치, 제거 또는 제품을 복구 하는 데 설치 사용자 인터페이스 (UI)를 실행 해야 하는 정보가 포함 된 설치 패키지를 사용 합니다. 각 설치 패키지에는 데이터베이스를 설치, 요약 정보 스트림 및 다양 한 부분 설치에 대 한 데이터 스트림을 포함 하는.msi 파일을 포함 합니다. 설치 관리자를 사용 하려면 설치를 작성 해야 합니다. 설치 관리자 구성 요소 개념의 설치를 구성 하 고 관계형 데이터베이스의 설치에 대 한 정보를 저장, 때문에 광범위 하 게 설치 패키지를 작성 하려면 해야 다음 단계:  
@@ -80,4 +75,3 @@ Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요�
   
 ## <a name="see-also"></a>참고 항목  
  [구성 요소 규칙을 위반 하는 경우 어떻게 되나요?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)
-

@@ -1,26 +1,21 @@
 ---
 title: '방법: 서비스 가져오기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - services, consuming
 ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: ea5f3be4f5792213c5625e4c287195161eb1dd62
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 4310dadc1e4e1d601b5e1e7401749d44b132174e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51785068"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983090"
 ---
 # <a name="how-to-get-a-service"></a>방법: 서비스 가져오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ ms.locfileid: "51785068"
   
     ```  
   
-     이 코드는 SVsActivityLog 서비스를 가져오고 캐스팅을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> 인터페이스를 활동 로그에 쓰는 데 사용할 수 있습니다. 예를 들어 참조 [방법: 활동 로그를 사용 하 여](../extensibility/how-to-use-the-activity-log.md)입니다.  
+     이 코드는 SVsActivityLog 서비스를 가져오고 캐스팅을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> 인터페이스를 활동 로그에 쓰는 데 사용할 수 있습니다. 예는 [방법: 활동 로그를 사용 하 여](../extensibility/how-to-use-the-activity-log.md)입니다.  
   
 4.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다.  
   
@@ -57,7 +52,7 @@ ms.locfileid: "51785068"
   
  정적 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 메서드는 모든 VSPackage에서 파생 된 처음으로 초기화 되는 캐시 된 서비스 공급자 사용 <xref:Microsoft.VisualStudio.Shell.Package> 배치 됩니다.  
   
- VSPackage는 배치 하기 전에 VSPackage 생성자가 호출 되므로 전역 서비스를 VSPackage 생성자 내에서 일반적으로 사용할 수 없습니다. 참조 [방법: 서비스 문제 해결](../extensibility/how-to-troubleshoot-services.md) 해결 방법에 대 한 합니다.  
+ VSPackage는 배치 하기 전에 VSPackage 생성자가 호출 되므로 전역 서비스를 VSPackage 생성자 내에서 일반적으로 사용할 수 없습니다. [방법: 서비스 문제 해결](../extensibility/how-to-troubleshoot-services.md) 해결 방법에 대 한 합니다.  
   
  도구 창이 나 다른 비 VSPackage 요소에서 서비스 가져오기 방법의 예는 다음과 같습니다.  
   
@@ -90,7 +85,6 @@ if (sp != null)
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 서비스 제공](../extensibility/how-to-provide-a-service.md)   
+ [방법: 서비스를 제공 합니다.](../extensibility/how-to-provide-a-service.md)   
  [사용 하 고 서비스를 제공 합니다.](../extensibility/using-and-providing-services.md)   
  [서비스 필수 항목](../extensibility/internals/service-essentials.md)
-

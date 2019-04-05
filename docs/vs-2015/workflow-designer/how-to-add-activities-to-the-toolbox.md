@@ -1,23 +1,20 @@
 ---
 title: '방법: 도구 상자에 활동 추가 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 7fc523cd032863498cdefac1e12f0653a57ab7cc
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 52f9fabec46fb04f2cc936c7bf76d67bd2dabcd3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49299860"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986051"
 ---
 # <a name="how-to-add-activities-to-the-toolbox"></a>방법: 도구 상자에 활동 추가
 활동을 추가할 수는 **도구 상자** 여러 가지 방법으로 솔루션에. 현재 프로젝트에서 활동을 추가하거나, 다른 프로젝트의 활동을 참조하거나, 다른 어셈블리의 활동을 참조할 수 있습니다.  

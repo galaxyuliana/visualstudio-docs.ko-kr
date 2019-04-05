@@ -1,14 +1,9 @@
 ---
 title: UML 모델 및 다이어그램 확장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-techdebt
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML - extending
 - UML model, extending
@@ -16,13 +11,13 @@ ms.assetid: b5bfa61e-ea59-4c3b-b5af-53475d7d13cd
 caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 74f3c518682997dca57a630c6f084437f7175d80
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 2c13d30b1657917d55e5d3218c70aa8f2a69ec67
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51794766"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "59002264"
 ---
 # <a name="extend-uml-models-and-diagrams"></a>UML 모델 및 다이어그램 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -118,7 +113,7 @@ ms.locfileid: "51794766"
   
 |**범주**|**링크**|  
 |------------------|---------------|  
-|**비디오**|![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [MSDN 어떻게 할까요? 시리즈: UML 도구 및 확장성](http://go.microsoft.com/fwlink/?LinkId=214467)<br /><br /> ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: Visual Studio를 사용한 UML](http://go.microsoft.com/fwlink/?LinkId=199957)|  
+|**비디오**|![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [MSDN 어떻게 할까요? 시리즈: UML 도구 및 확장성](http://go.microsoft.com/fwlink/?LinkId=214467)<br /><br /> ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: Visual Studio 사용한 UML](http://go.microsoft.com/fwlink/?LinkId=199957)|  
 |**포럼**|-   [Visual Studio 시각화 및 모델링 도구](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio 시각화 및 모델링 SDK(DSL 도구)](http://go.microsoft.com/fwlink/?LinkId=184721)|  
 |**Blogs**|[Visual Studio ALM + Team Foundation Server 블로그](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**기술 문서 및 저널**|[MSDN 아키텍처 센터](http://go.microsoft.com/fwlink/?LinkId=201343)|  
@@ -126,6 +121,3 @@ ms.locfileid: "51794766"
 ## <a name="see-also"></a>참고 항목  
  [앱 용 모델 만들기](../modeling/create-models-for-your-app.md)   
  [UML 모델링 확장성을 위한 API 참조](../modeling/api-reference-for-uml-modeling-extensibility.md)
-
-
-

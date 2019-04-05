@@ -1,14 +1,9 @@
 ---
 title: WPF 도구 상자 컨트롤 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - toolbox control
 - toolbox
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 9cc34db9-b0d1-4951-a02f-7537fbbb51ad
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 2ad3edfa84ee64425a7a9fbc6b0dfc5098396907
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 84ab9dd82f6867135c136f903c6c0050132b1b05
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51786030"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002609"
 ---
 # <a name="creating-a-wpf-toolbox-control"></a>WPF 도구 상자 컨트롤 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,7 +83,7 @@ WPF (Windows Presentation Framework) 도구 상자 컨트롤 템플릿을 통해
   
 1.  프로젝트를 다시 작성 하 고 디버깅을 시작 합니다.  
   
-2.  Visual Studio의 새 인스턴스에서 WPF 응용 프로그램 프로젝트를 만듭니다. XAML 디자이너가 열려 있는지 확인 합니다.  
+2.  Visual Studio의 새 인스턴스에서 WPF 애플리케이션 프로젝트를 만듭니다. XAML 디자이너가 열려 있는지 확인 합니다.  
   
 3.  **도구 상자** 에서 컨트롤을 찾아 디자인 화면으로 끕니다.  
   
@@ -104,5 +99,4 @@ WPF (Windows Presentation Framework) 도구 상자 컨트롤 템플릿을 통해
   
 3.  네트워크 또는 웹 사이트에 .vsix 파일을 업로드합니다.  
   
-     파일을 업로드 하는 경우는 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트를 다른 사용자가 사용할 수 있습니다 **도구 / 확장 및 업데이트** 온라인 컨트롤을 찾아 설치할 Visual Studio에서 합니다.
-
+     파일을 업로드 하는 경우는 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트를 다른 사용자가 사용할 수 있습니다 **도구 / 확장 및 업데이트** 온라인 컨트롤을 찾아 설치할 Visual Studio에서 합니다.

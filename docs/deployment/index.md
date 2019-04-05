@@ -1,12 +1,18 @@
 ---
 layout: LandingPage
 title: 앱 배포 | Microsoft Docs
-description: 'Visual Studio를 사용하여 애플리케이션, 서비스 및 구성 요소를 배포하는 방법을 알아봅니다.'
+description: Visual Studio를 사용하여 애플리케이션, 서비스 및 구성 요소를 배포하는 방법을 알아봅니다.
 ms.custom: seodec18
 ms.topic: landing-page
 ms.author: mikejo
 author: mikejo5000
 manager: jillfra
+ms.openlocfilehash: b1ffebc17d7915c7845a27cc2864623fa2f2d263
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58325018"
 ---
 # <a name="deployment-in-visual-studio"></a>Visual Studio에서 배포
 

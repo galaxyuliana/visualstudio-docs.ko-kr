@@ -1,14 +1,9 @@
 ---
 title: 실험적 인스턴스에서 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - experimental builds
 - VSPackages, experimental builds
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: ead0df4e-6f88-4b42-9297-581b7902f050
 caps.latest.revision: 37
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: b529ba3a0ea8b38a27d06e03ce15106cbd7512a5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 907b90f60ad2167b64e5a4ca8ff160190c625313
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51787993"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971735"
 ---
 # <a name="the-experimental-instance"></a>실험적 인스턴스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ Visual Studio 개발 환경에서 변경할 수는 테스트 되지 않은 응�
   
  특정 솔루션 외부 Visual Studio의 실험적 인스턴스를 시작 하려면 명령 창에서 다음 명령을 실행 합니다.  
   
- "*\<Visual studio 설치 경로 >* \Common7\IDE\devenv.exe" RootSuffix Exp  
+ "*\<Visual studio installation path>* \Common7\IDE\devenv.exe" /RootSuffix Exp  
   
 > [!NOTE]
 >  실험적 인스턴스를 레지스트리에 쓸 합니다 `<version number>Exp` 고 `<version number>Exp_Config` 노드. 예를 들어 Visual Studio 2015 실험적 레지스트리 영역에는  
@@ -41,4 +36,3 @@ Visual Studio 개발 환경에서 변경할 수는 테스트 되지 않은 응�
 >  `HKCU\Software\Microsoft\VisualStudio\14.0Exp` 및 `HKCU\Software\Microsoft\VisualStudio\14.0Exp_Config`  
   
  이 개발 하는 동안 실험적 인스턴스에서 확장을 실행 하는 것이 좋습니다. 확장을 배포 하는 경우 개발 인스턴스에서 실행 됩니다. 응용 프로그램을 등록 하는 방법에 대 한 자세한 내용은 참조 하세요. [Vspackage 등록](../extensibility/internals/registering-vspackages.md)합니다.
-

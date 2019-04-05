@@ -1,14 +1,9 @@
 ---
 title: 도구 상자 컨트롤을 Forms는 Windows 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - winforms
 - toolbox
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 371fd4269cee5918bd0d0b623eb49e1f709a311d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 4cdb411abc52cd6a23b9401166fde1de98231ece
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51781714"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002465"
 ---
 # <a name="creating-a-windows-forms-toolbox-control"></a>Windows Forms 도구 상자 컨트롤 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +53,7 @@ Visual Studio 확장성 도구 (VS SDK)에 포함 된 Windows Forms 도구 상�
   
 5.  에 **속성** 창 디자인 화면에서 컨트롤에 대해 다음 값을 설정 합니다.  
   
-    |Control|속성|값|  
+    |컨트롤|속성|값|  
     |-------------|--------------|-----------|  
     |`Label1`|**텍스트**|""|  
     |`Button1`|**이름**|btnReset|  
@@ -213,11 +208,10 @@ Visual Studio 확장성 도구 (VS SDK)에 포함 된 Windows Forms 도구 상�
      카운터를 다시 설정 **0**합니다.  
   
 ## <a name="next-steps"></a>다음 단계  
- **도구 상자** 컨트롤을 작성할 때 Visual Studio는 프로젝트의 \bin\debug\ 폴더에 *ProjectName*.vsix라는 파일을 만듭니다. 네트워크 또는 웹 사이트에.vsix 파일을 업로드하여 컨트롤을 배포할 수 있습니다. 컨트롤 설치 되어 있으며 Visual Studio에 추가 사용자가.vsix 파일을 열면 **도구 상자** 사용자의 컴퓨터. 또는.vsix 파일을 업로드할 수 있습니다 합니다 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트 사용자에 이동 하 여 찾을 수 있도록 합니다 **도구 / 확장 및 업데이트** 대화 합니다.  
+ **도구 상자** 컨트롤을 작성할 때 Visual Studio는 프로젝트의 \bin\debug\ 폴더에 *ProjectName*.vsix라는 파일을 만듭니다. 네트워크 또는 웹 사이트에.vsix 파일을 업로드하여 컨트롤을 배포할 수 있습니다. 컨트롤 설치 되어 있으며 Visual Studio에 추가 사용자가.vsix 파일을 열면 **도구 상자** 사용자의 컴퓨터. 또는.vsix 파일을 업로드할 수 있습니다 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트 사용자에 이동 하 여 찾을 수 있도록 합니다 **도구 / 확장 및 업데이트** 대화 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [도구 상자 확장](../misc/extending-the-toolbox.md)   
  [WPF 도구 상자 컨트롤 만들기](../extensibility/creating-a-wpf-toolbox-control.md)   
  [Visual Studio의 다른 부분 확장](../extensibility/extending-other-parts-of-visual-studio.md)   
  [Windows Forms 컨트롤 개발 기본 사항](http://msdn.microsoft.com/library/6277bb81-90f7-4c5b-9f4b-b02bb42dd316)
-

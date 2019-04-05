@@ -1,12 +1,9 @@
 ---
 title: T4 텍스트 템플릿 지시문 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, import directive
 - text templates, include directive
@@ -18,18 +15,18 @@ ms.assetid: 6898ee02-ebb2-4635-a4e9-350774c13cf2
 caps.latest.revision: 83
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 00853b21ec077825337c2c360cac33775189dfdb
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: ce0acf7c1c63f0d1c05d1e1d3b59dc7a5d28862a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49302174"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981650"
 ---
 # <a name="t4-text-template-directives"></a>T4 텍스트 템플릿 지시문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-지시문은 텍스트 템플릿 변형 엔진에 명령을 제공합니다.  
+지시문은 텍스트 템플릿 변환 엔진에 명령을 제공합니다.  
   
  지시문의 구문은 다음과 같습니다.  
   
@@ -77,6 +74,3 @@ ms.locfileid: "49302174"
 ```  
   
  또한 고유한 지시문을 만들 수 있습니다. 자세한 내용은 [사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기](../modeling/creating-custom-t4-text-template-directive-processors.md)합니다. Visualization and Modeling SDK를 사용하여 DSL(Domain-Specific Language)을 만드는 경우 지시문 프로세서가 DSL의 일부로 생성됩니다.
-
-
-

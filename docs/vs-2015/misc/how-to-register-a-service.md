@@ -1,25 +1,20 @@
 ---
 title: '방법: 서비스 등록 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - services, registering
 ms.assetid: d086be78-ec3c-43cc-b799-5180a71e19f1
 caps.latest.revision: 16
-manager: douge
-ms.openlocfilehash: a1f8026a648b2a0809af17664d4399f815c329be
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 0ec69fa123775cb477195d4022fb439fb990f415
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49206260"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002817"
 ---
 # <a name="how-to-register-a-service"></a>방법: 서비스 등록
 MPF(관리 패키지 프레임워크)는 관리되는 서비스의 등록을 제어하는 특성을 제공합니다. RegPkg 유틸리티는 이러한 특성을 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 서비스를 등록합니다.  
@@ -46,5 +41,5 @@ MPF(관리 패키지 프레임워크)는 관리되는 서비스의 등록을 제
 >  서비스와 인터페이스 둘 다에 동일한 형식 또는 GUID를 사용할 수 있지만 서비스에서 다른 인터페이스를 노출할 수 있으므로 두 가지를 구분하는 것이 좋습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Vspackage 등록](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd)   
+ [Vspackage 등록](../extensibility/internals/registering-vspackages.md)   
  [서비스 필수 항목](../extensibility/internals/service-essentials.md)

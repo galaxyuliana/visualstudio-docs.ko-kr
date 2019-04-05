@@ -1,34 +1,29 @@
 ---
 title: 프로젝트 지 속성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - persistence, projects
 - projects [Visual Studio SDK], persistance
 ms.assetid: 42907bcf-4e27-46bd-a8cb-01c2ccd2bde5
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: ff836f56601adeba7b3df675207701f6e2d6e7fa
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 9627170ad65906af1bc7930897c374504cae4552
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51729553"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002929"
 ---
 # <a name="project-persistence"></a>프로젝트 지속성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 지 속성은 프로젝트에 대 한 주요 디자인 고려 사항. 파일을 나타내는 프로젝트 항목을 사용 하는 대부분의 프로젝트 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 도 해당 데이터는 파일 기반 프로젝트를 지원 합니다. 프로젝트 및 프로젝트 파일을 소유한 파일 모두 유지 해야 합니다. IDE 자체 또는 프로젝트 항목을 저장 하려면 프로젝트에 지시 합니다.  
   
- 프로젝트 템플릿에서 프로젝트 팩터리에 전달 됩니다. 템플릿은 특정 프로젝트 형식의 요구 사항에 따라 모든 프로젝트 항목의 초기화를 지원 해야 합니다. 이러한 템플릿은 프로젝트 파일로 저장 고 나중에 솔루션을 통해 IDE에 의해 관리 되는 수 있습니다. 자세한 내용은 [만들 프로젝트 인스턴스에서 사용 하 여 프로젝트 팩터리](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) 하 고 [솔루션](../../extensibility/internals/solutions.md)합니다.  
+ 프로젝트 템플릿에서 프로젝트 팩터리에 전달 됩니다. 템플릿은 특정 프로젝트 형식의 요구 사항에 따라 모든 프로젝트 항목의 초기화를 지원 해야 합니다. 이러한 템플릿은 프로젝트 파일로 저장 고 나중에 솔루션을 통해 IDE에 의해 관리 되는 수 있습니다. 자세한 내용은 [만들 프로젝트 인스턴스에서 사용 하 여 프로젝트 팩터리](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) 하 고 [솔루션](../../extensibility/internals/solutions-overview.md)합니다.  
   
  프로젝트 항목에는 파일 기반 또는 파일 기반이 아닌 수 있습니다.  
   
@@ -52,4 +47,3 @@ ms.locfileid: "51729553"
 ## <a name="see-also"></a>참고 항목  
  [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [프로젝트 팩터리를 사용하여 프로젝트 인스턴스 만들기](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
-

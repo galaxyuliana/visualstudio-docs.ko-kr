@@ -1,21 +1,17 @@
 ---
 title: 이미지 서비스 및 카탈로그 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 caps.latest.revision: 38
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: c0e01d60bd7fab0b435f1b10ae744c3454aa0e44
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 95d3de67dce269696bdd3fbea7ec562511bd0347
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51774369"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "59002273"
 ---
 # <a name="image-service-and-catalog"></a>이미지 서비스 및 카탈로그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,7 +89,7 @@ ms.locfileid: "51774369"
 </ImageManifest>  
 ```  
 
- **기호**  
+ **Symbols**  
 
  가독성 및 유지 관리를 지 원하는 대로 이미지 매니페스트 특성 값에 대 한 기호를 사용할 수 있습니다. 기호는 다음과 같이 정의 됩니다.  
 
@@ -110,7 +106,7 @@ ms.locfileid: "51774369"
 |-|-|  
 |**하위 요소**|**정의**|  
 |가져오기|현재 매니페스트에서 사용 하기 위해 지정된 된 매니페스트 파일의 기호를 가져옵니다.|  
-|GUID|GUID를 나타내는 기호와 GUID 서식 지정과 일치 해야 합니다.|  
+|Guid|GUID를 나타내는 기호와 GUID 서식 지정과 일치 해야 합니다.|  
 |ID|기호 ID를 나타내며 음수가 아닌 정수 여야 합니다.|  
 |문자열|기호를 나타내는 임의의 문자열 값|  
 
@@ -126,11 +122,11 @@ ms.locfileid: "51774369"
 
 |||  
 |-|-|  
-|**기호**|**설명**|  
+|**Symbol**|**설명**|  
 |CommonProgramFiles|% CommonProgramFiles % 환경 변수 값|  
 |LocalAppData|% LocalAppData % 환경 변수 값|  
 |ManifestFolder|매니페스트 파일을 포함 하는 폴더|  
-|내 문서|현재 사용자의 내 문서 폴더의 전체 경로|  
+|MyDocuments|현재 사용자의 내 문서 폴더의 전체 경로|  
 |ProgramFiles|% ProgramFiles % 환경 변수 값|  
 |시스템|Windows\System32 폴더|  
 |WinDir|% WinDir % 환경 변수 값|  
@@ -151,7 +147,7 @@ ms.locfileid: "51774369"
 |||  
 |-|-|  
 |**특성**|**정의**|  
-|GUID|[필수] 이미지 모니커의 GUID 부분|  
+|Guid|[필수] 이미지 모니커의 GUID 부분|  
 |ID|[필수] 이미지 모니커 ID 부분|  
 |AllowColorInversion|[선택 사항, 기본값은 true] 이미지를 프로그래밍 방식으로 어두운 배경을 사용 하는 경우 반전 된 색을 가질 수 있는지 여부를 나타냅니다.|  
 
@@ -170,7 +166,7 @@ ms.locfileid: "51774369"
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **특성** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            **정의**                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |      URI      |                                                                                                                                                                                                                                                                                                               [필수] 이미지를 로드할 수 있는 정의 하는 URI입니다. 다음 중 하나일 수 있습니다.<br /><br /> -A [Pack URI](http://msdn.microsoft.com/library/aa970069\(v=vs.100\).aspx) 응용 프로그램을 사용 하 여: / / / 기관<br />-절대 구성 요소 리소스 참조<br />-네이티브 리소스를 포함 하는 파일 경로                                                                                                                                                                                                                                                                                                               |
-|  배경   | [선택 사항] 어떤 종류의 원본으로 사용할 목적이 백그라운드에서 나타냅니다.<br /><br /> 다음 중 하나일 수 있습니다.<br /><br /> *조명:* 는 밝은 배경의에서 소스를 사용할 수 있습니다.<br /><br /> <em>진한:</em>어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> *고 대비:* 고대비 모드에서 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> *HighContrastLight:* 소스는 밝은 배경의 고대비 모드에서 사용할 수 있습니다.<br /><br /> *HighContrastDark:* 원본 어두운 배경을 고대비 모드에서 사용할 수 있습니다.<br /><br /> 배경 특성을 생략 하는 경우 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> 배경이 *Light*를 *어두운*를 *HighContrastLight*, 또는 *HighContrastDark*, 소스의 색 반전 되지 않습니다. 백그라운드 생략 되거나로 설정 하는 경우 *고 대비*, 소스의 색 반전을 이미지의 의해 제어 됩니다 **AllowColorInversion** 특성입니다. |
+|  배경   | [선택 사항] 어떤 종류의 원본으로 사용할 목적이 백그라운드에서 나타냅니다.<br /><br /> 다음 중 하나일 수 있습니다.<br /><br /> *조명:* 밝은 배경에 소스를 사용할 수 있습니다.<br /><br /> <em>진한:</em>어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> *HighContrast:* 고대비 모드에서 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> *HighContrastLight:* 고대비 모드에서 밝은 배경에 소스를 사용할 수 있습니다.<br /><br /> *HighContrastDark:* 고대비 모드에서 어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> 배경 특성을 생략 하는 경우 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> 배경이 *Light*를 *어두운*를 *HighContrastLight*, 또는 *HighContrastDark*, 소스의 색 반전 되지 않습니다. 백그라운드 생략 되거나로 설정 하는 경우 *고 대비*, 소스의 색 반전을 이미지의 의해 제어 됩니다 **AllowColorInversion** 특성입니다. |
 |               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
  \<소스 > 요소는 다음 선택적 하위 요소 중 하나만 포함할 수 있습니다.  
@@ -179,9 +175,9 @@ ms.locfileid: "51774369"
 |-|-|-|  
 |**요소**|**특성 (모두 필요)**|**정의**|  
 |\<크기 >|값|원본 장치 단위로 지정된 된 크기의 이미지에 대 한 사용 됩니다. 이미지는 사각형 됩니다.|  
-|\<SizeRange >|MinSize, MaxSize|원본 장치 단위로 최대 크기로 MinSize에서 이미지에 대 한 포괄적 사용 됩니다. 이미지는 사각형 됩니다.|  
+|\<SizeRange>|MinSize, MaxSize|원본 장치 단위로 최대 크기로 MinSize에서 이미지에 대 한 포괄적 사용 됩니다. 이미지는 사각형 됩니다.|  
 |\<크기 >|너비, 높이|원본은 이미지의 지정 된 너비와 높이 (장치 단위)에 대 한 사용 됩니다.|  
-|\<DimensionRange >|MinWidth, MinHeight<br /><br /> MaxWidth, 최대 높이|원본 장치 단위로 최대 너비/높이에 최소 너비/높이의 이미지에 대 한 포괄적 사용 됩니다.|  
+|\<DimensionRange>|MinWidth, MinHeight,<br /><br /> MaxWidth, MaxHeight|원본 장치 단위로 최대 너비/높이에 최소 너비/높이의 이미지에 대 한 포괄적 사용 됩니다.|  
 
  A \<소스 > 요소는 선택적 수도 있습니다 \<NativeResource > 하위 요소를 정의 하는 \<원본 > 관리 되는 어셈블리 대신 네이티브 어셈블리에서 로드 되는 합니다.  
 
@@ -209,7 +205,7 @@ ms.locfileid: "51774369"
 |||  
 |-|-|  
 |**특성**|**정의**|  
-|GUID|[필수] 이미지 모니커의 GUID 부분|  
+|Guid|[필수] 이미지 모니커의 GUID 부분|  
 |ID|[필수] 이미지 모니커 ID 부분|  
 |외부|[선택 사항, 기본값: false] 이미지 모니커를 사용 하 여 현재 매니페스트에서 이미지를 참조 하는지 여부를 나타냅니다.|  
 
@@ -244,7 +240,7 @@ ms.locfileid: "51774369"
 
     -   사용 하는 경우 필요 합니다 **BrushToColorConverter** 는 ImageThemingUtilities에 대 한. **ImageBackgroundColor** WPF UI에서  
 
--   **Microsoft.VisualStudio.Shell 합니다. \<VSVersion >.0**  
+-   **Microsoft.VisualStudio.Shell.\<VSVersion>.0**  
 
     -   사용 하는 경우 필요 합니다 **IVsUIObject** 형식  
 
@@ -404,7 +400,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 ```  
 
 ## <a name="how-do-i-use-image-monikers-in-a-new-tool-window"></a>새 도구 창에서 이미지 모니커를 사용 하는 방법  
- VSIX 패키지 프로젝트 템플릿은 Visual Studio 2015에 대 한 업데이트 되었습니다. 새 도구 창을 만들려면 VSIX 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 "새 항목... 추가" 선택 (Ctrl + Shift + A)입니다. 프로젝트 언어에 대 한 확장성 노드 아래의 "사용자 지정 도구 창," 선택 "추가" 단추를 누르고 도구 창에 이름을 지정 합니다.  
+ VSIX 패키지 프로젝트 템플릿은 Visual Studio 2015에 대 한 업데이트 되었습니다. 새 도구 창을 만들려면 VSIX 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 "새 항목... 추가" 선택 (Ctrl+Shift+A). 프로젝트 언어에 대 한 확장성 노드 아래의 "사용자 지정 도구 창," 선택 "추가" 단추를 누르고 도구 창에 이름을 지정 합니다.  
 
  이들은 도구 창에서 모니커를 사용 하는 키 위치입니다. 각각에 대 한 지침을 따르세요.  
 
@@ -655,7 +651,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 3.  이미지 서비스 요청을 통해 업데이트 되는 매핑의 모니커를 사용 하도록 코드를 업데이트 합니다. (업데이트를 의미할 수 있습니다 **CrispImages** 관리 코드 또는 이러한 방식으로 또는 HICONs 이미지 서비스에서 요청 및 네이티브 코드에 대 한 관련 전달 합니다.)  
 
 ## <a name="testing-your-images"></a>이미지를 테스트합니다.  
- 이미지 라이브러리 뷰어 도구를 사용 하 여 모든 것이 제대로 작성 되었는지 확인 하 여 이미지 매니페스트를 테스트할 수 있습니다. 도구를 [Visual Studio 2015 SDK](http://msdn.microsoft.com/library/bb166441.aspx)합니다. 이 도구 및 기타 도구에 대 한 설명서를 찾을 수 있습니다 [여기](http://aka.ms/VSImageThemeTools)합니다.  
+ 이미지 라이브러리 뷰어 도구를 사용 하 여 모든 것이 제대로 작성 되었는지 확인 하 여 이미지 매니페스트를 테스트할 수 있습니다. 도구를 [Visual Studio 2015 SDK](http://msdn.microsoft.com/library/bb166441.aspx)합니다. 이 도구 및 기타 도구에 대 한 설명서를 찾을 수 있습니다 [여기](https://aka.ms/VSImageThemeTools)합니다.  
 
 ## <a name="additional-resources"></a>추가 자료  
 
@@ -995,4 +991,3 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |GlyphXmlDescendantQuestion||XmlDescendantLowConfidence|  
         |GlyphXmlDescendantCheck||XmlDescendantHighConfidence|  
         |GlyphCompletionWarning||IntellisenseWarning|
-

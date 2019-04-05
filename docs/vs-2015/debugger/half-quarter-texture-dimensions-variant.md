@@ -1,25 +1,20 @@
 ---
 title: 절반 / 분기 텍스처 크기 변형 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: 282e9bbb-51aa-4cd0-8e5c-0901268c29e5
 caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 6ef44ff579fbd96026fcd7c285b173ad19317275
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 03485a3b9df9c06b1ef4755a5758cf2c8c997d1e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51805985"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971772"
 ---
 # <a name="halfquarter-texture-dimensions-variant"></a>절반/분기 텍스처 크기 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,8 +47,5 @@ ms.locfileid: "51805985"
  이러한 변형은 `CreateTexture2D` 호출 전 런타임에 질감의 크기를 조정합니다. 전체 크기 질감은 더 많은 디스크 공간을 사용하고 인코딩에 상당한 계산 리소스가 필요한 압축된 질감의 경우, 특히 추가 단계에서 앱에서의 로드 시간이 길어질 수 있기 때문에 프로덕션 코드에는 이러한 접근 방식을 사용하는 것이 좋습니다. 대신 빌드 파이프라인의 일부인 이미지 편집기 또는 이미지 프로세서를 사용하여 질감의 크기를 오프라인으로 조정하는 것이 좋습니다. 이러한 접근 방식은 디스크 공간 요구 사항을 줄이고 앱에서 런타임 오버헤드를 없애며 더 긴 처리 시간을 허용하므로 최상의 이미지 품질을 유지하면서 동시에 질감을 축소 또는 압축할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Mip 맵 생성 변형](../debugger/mip-map-generation-variant.md)   
+ [MIP 맵 생성 변형](../debugger/mip-map-generation-variant.md)   
  [BC 텍스처 압축 변형](../debugger/bc-texture-compression-variant.md)
-
-
-

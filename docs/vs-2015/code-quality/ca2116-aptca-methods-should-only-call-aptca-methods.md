@@ -1,14 +1,9 @@
 ---
-title: 'CA2116: APTCA 메서드는 APTCA 메서드만 호출 | Microsoft Docs'
-ms.custom: ''
+title: 'CA2116: APTCA 메서드는 APTCA 메서드만 호출 해야 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - AptcaMethodsShouldOnlyCallAptcaMethods
 - CA2116
@@ -20,12 +15,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 766de62f4781dc7ce164155a2090ffabac913a22
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 916b30cf4cff357ba468faae524d6b0ca7806959
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49819552"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971801"
 ---
 # <a name="ca2116-aptca-methods-should-only-call-aptca-methods"></a>CA2116: APTCA 메서드는 APTCA 메서드만 호출해야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +49,7 @@ ms.locfileid: "49819552"
   부분적으로 신뢰할 수 있는 호출자 `X` 메서드를 호출할 수 있습니다 `M1`발생 `M1` 호출할 `M2`합니다. 때문에 `M2` APTCA 특성을 직접 호출자 없는 (`M1`) 완전 신뢰에 대 한 링크 요청을 충족 해야 합니다 `M1` 완전 신뢰가 있고 따라서이 검사를 충족 합니다. 보안 위험을 이므로 `X` 만족 보호 하는 링크 요청에 참여 하지 않는 `M2` 신뢰할 수 없는 호출자에서. 따라서 메서드는 APTCA 특성으로 메서드를 호출 해서는 특성이 없는 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
- APCTA 특성이 필요한 경우 완전 신뢰 어셈블리를 호출 하는 메서드를 보호 하기 위해 요청을 사용 합니다. 정확한 권한을 요구에 메서드로 노출 하는 기능에 따라 달라 집니다. 가능한 경우 기본 기능을 부분적으로 신뢰할 수 있는 호출자에 게 노출 되지 않도록 하려면 완전 신뢰에 대 한 요청을 사용 하 여 메서드를 보호 합니다. 없는 경우에 노출 된 기능을 효과적으로 보호 하는 사용 권한 집합을 선택 합니다. 요청에 대 한 자세한 내용은 참조 하세요. [수요](http://msdn.microsoft.com/en-us/e5283e28-2366-4519-b27d-ef5c1ddc1f48)합니다.
+ APCTA 특성이 필요한 경우 완전 신뢰 어셈블리를 호출 하는 메서드를 보호 하기 위해 요청을 사용 합니다. 정확한 권한을 요구에 메서드로 노출 하는 기능에 따라 달라 집니다. 가능한 경우 기본 기능을 부분적으로 신뢰할 수 있는 호출자에 게 노출 되지 않도록 하려면 완전 신뢰에 대 한 요청을 사용 하 여 메서드를 보호 합니다. 없는 경우에 노출 된 기능을 효과적으로 보호 하는 사용 권한 집합을 선택 합니다. 요청에 대 한 자세한 내용은 참조 하세요. [수요](http://msdn.microsoft.com/e5283e28-2366-4519-b27d-ef5c1ddc1f48)합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  이 규칙에서 경고를 안전 하 게 표시 하지 않으려면 메서드에서 노출 하는 기능을 허용 하지 않도록 직접 또는 간접적으로 호출자가 중요 한 정보, 작업 또는 안전 하지 않은 방식으로 사용할 수 있는 리소스에 액세스 하도록 해야 합니다.
@@ -79,10 +74,7 @@ ms.locfileid: "49819552"
  **전체 신뢰: 요청에 대 한 요청에 실패 했습니다. ** 
  **ClassRequiringFullTrust.DoWork 호출 되었습니다.**
 ## <a name="related-rules"></a>관련된 규칙
- [CA2117: APTCA 형식은 APTCA 기본 형식만 확장해야 합니다.](../code-quality/ca2117-aptca-types-should-only-extend-aptca-base-types.md)
+ [CA2117: APTCA 형식은 APTCA 기본 형식만 확장 해야](../code-quality/ca2117-aptca-types-should-only-extend-aptca-base-types.md)
 
 ## <a name="see-also"></a>참고 항목
- [보안 코딩 지침](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177) [코드에 부분적으로 신뢰할 수 있는.NET Framework 어셈블리에서 호출할](http://msdn.microsoft.com/en-us/a417fcd4-d3ca-4884-a308-3a1a080eac8d) [신뢰할 수 있는 코드에서 라이브러리를 사용 하 여 부분적으로](http://msdn.microsoft.com/library/dd66cd4c-b087-415f-9c3e-94e3a1835f74) [요구](http://msdn.microsoft.com/en-us/e5283e28-2366-4519-b27d-ef5c1ddc1f48) [링크 요청](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) [데이터 및 모델링](http://msdn.microsoft.com/library/8c37635d-e2c1-4b64-a258-61d9e87405e6)
-
-
-
+ [보안 코딩 지침](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177) [코드에 부분적으로 신뢰할 수 있는.NET Framework 어셈블리에서 호출할](http://msdn.microsoft.com/a417fcd4-d3ca-4884-a308-3a1a080eac8d) [신뢰할 수 있는 코드에서 라이브러리를 사용 하 여 부분적으로](http://msdn.microsoft.com/library/dd66cd4c-b087-415f-9c3e-94e3a1835f74) [요구](http://msdn.microsoft.com/e5283e28-2366-4519-b27d-ef5c1ddc1f48) [링크 요청](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) [데이터 및 모델링](http://msdn.microsoft.com/library/8c37635d-e2c1-4b64-a258-61d9e87405e6)

@@ -1,23 +1,20 @@
 ---
 title: 순서도 활동 디자이너 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 ms.assetid: 8b7b4aa6-d27d-45c8-87c2-641440d38afc
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: fb74c7db38cc57d337cec649ad683ab4761552f9
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: d26c60dab3ab09d2fc9f42609568ab21ecd19104
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49189217"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970421"
 ---
 # <a name="flowchart-activity-designers"></a>순서도 활동 디자이너
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 워크플로를 생성할 때 사용할 수 있는 여러 가지 시스템 제공 활동이 포함되어 있습니다. 이 단원에서는 워크플로의 순서도를 관리하는 데 사용되는 시스템 제공 활동에 대해 다룹니다. 다음 항목을 통해 이러한 활동에 대해 설명하고 사용 방법에 대한 지침을 제공합니다.  

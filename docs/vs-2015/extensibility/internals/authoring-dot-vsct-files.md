@@ -1,26 +1,21 @@
 ---
 title: 작성 합니다. Vsct 파일 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, manual authoring
 ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 50dc50aee377a4685527e57dc2af5d9946639946
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: bf3d9acd493cd10a8d014b4479684a0107cb8740
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51772172"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "59002320"
 ---
 # <a name="authoring-vsct-files"></a>작성 합니다. Vsct 파일
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,14 +25,14 @@ ms.locfileid: "51772172"
  새 프로젝트의 경우 선택 사항에 따라 이미 사용자 지정 편집기, 도구 창이 나 메뉴 명령에 대 한 필수 요소는.vsct 파일을 생성 하기 때문에 Visual Studio 패키지 템플릿을 사용 하는 것이 좋습니다. VSPackage의 요구 사항에 맞게이.vsct 파일을 수정할 수 있습니다. .Vsct 파일을 수정 하는 방법에 대 한 자세한 내용은에 나와 있는 예제를 참조 하세요 [확장 메뉴 및 명령을](../../extensibility/extending-menus-and-commands.md)합니다.  
   
 ## <a name="authoring-the-file"></a>파일 작성  
- 이러한 단계에서.vsct 파일 작성: 파일 및 리소스에 대 한 구조를 만듭니다, UI 요소를 선언 하 고, IDE에서 UI 요소를 배치 하 고 모든 특수 동작을 추가 합니다.  
+ 이러한 단계에서.vsct 파일을 작성 합니다. 파일 및 리소스에 대 한 구조 만들기, UI 요소를 선언, IDE에서 UI 요소를 배치 및 모든 특수 동작을 추가 합니다.  
   
 ### <a name="file-structure"></a>파일 구조  
  .Vsct 파일의 기본 구조를 [CommandTable](../../extensibility/commandtable-element.md) 포함 하는 루트 요소를 [명령](../../extensibility/commands-element.md) 요소 및 [기호](../../extensibility/symbols-element.md) 요소입니다.  
   
 ##### <a name="to-create-the-file-structure"></a>파일 구조를 만들려면  
   
-1.  단계를 수행 하 여.vsct 파일을 프로젝트에 추가할 [방법: 만들기를 합니다. Vsct 파일](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)합니다.  
+1.  단계를 수행 하 여.vsct 파일을 프로젝트에 추가할 [방법: 만들기는 합니다. Vsct 파일](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)합니다.  
   
 2.  필요한 네임 스페이스를 추가 합니다 `CommandTable` 요소를 다음 예제에서와 같이 합니다.  
   
@@ -208,7 +203,7 @@ ms.locfileid: "51772172"
   
    - CommandWellOnly  
   
-   - 필터 키  
+   - FilterKeys  
   
    - NoAutoComplete  
   
@@ -244,4 +239,3 @@ ms.locfileid: "51772172"
  [메뉴 및 명령 확장](../../extensibility/extending-menus-and-commands.md)   
  [Visual Studio 명령 테이블 (합니다. Vsct) 파일](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [VSCT XML 스키마 참조](../../extensibility/vsct-xml-schema-reference.md)
-

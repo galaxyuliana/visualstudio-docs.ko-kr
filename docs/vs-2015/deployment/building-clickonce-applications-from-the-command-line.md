@@ -1,14 +1,9 @@
 ---
 title: 명령줄에서 ClickOnce 응용 프로그램 빌드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -21,13 +16,13 @@ ms.assetid: d9bc6212-c584-4f72-88c9-9a4b998c555e
 caps.latest.revision: 25
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: c9a9b2e248e4f10e9b5d3f045c67a9622edd2c2b
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
+manager: jillfra
+ms.openlocfilehash: 2625a8d4caa7dd53e9ce86395a98622f91d686b3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50220019"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982856"
 ---
 # <a name="building-clickonce-applications-from-the-command-line"></a>명령줄에서 ClickOnce 응용 프로그램 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "50220019"
   
  `/target:publish` 명령 게시 대상을 호출 하는 MSBuild 지시 합니다. 게시 대상 빌드 대상에 따라 달라 집니다. 이 게시 작업 빌드 작업의 상위 집합 임을 의미 합니다. 예를 들어, Visual Basic 또는 C# 소스 파일 중 하나를 변경한 경우 게시 작업에서 해당 어셈블리를 자동으로 다시 빌드됩니다.  
   
- 전체를 생성 하는 방법은 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 만들려면 Mage.exe 명령줄 도구를 사용 하 여 배포 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 매니페스트를 참조 하십시오 [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
+ 전체를 생성 하는 방법은 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 만들려면 Mage.exe 명령줄 도구를 사용 하 여 배포 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 내용은 매니페스트 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)  
   
 ## <a name="creating-and-building-a-basic-clickonce-application-using-msbuild"></a>만들기 및 MSBuild를 사용 하 여 기본 ClickOnce 응용 프로그램 빌드  
   
@@ -79,14 +74,14 @@ ms.locfileid: "50220019"
   
     이 단계는 선택 사항이 있지만 새 파일 모두에 의해 생성 된 명령줄 빌드를 보장 합니다.  
   
-5. `msbuild /target:publish`를 입력합니다.  
+5. `msbuild /target:publish`을 입력합니다.  
   
    위의 단계는 전체를 생성 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 라는 프로젝트의 하위 폴더에 응용 프로그램 배포 **게시**합니다. CmdLineDemo.application 되는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 매니페스트 합니다. 폴더 CmdLineDemo_1.0.0.0 CmdLineDemo.exe 및 CmdLineDemo.exe.manifest, 파일이 포함 된 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 매니페스트 합니다. Setup.exe가 기본적으로 설치 하도록 구성 된 부트스트래퍼를 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]입니다. DotNetFX 폴더에 대 한 재배포 가능 패키지를 포함 합니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]합니다. 웹을 통해 또는 UNC 또는 CD/DVD를 통해 응용 프로그램을 배포 하는 데 필요한 파일의 전체 집합입니다.  
   
 ## <a name="publishing-properties"></a>게시 속성  
  위 절차의 응용 프로그램을 게시할 때 다음 속성을 게시 마법사가 프로젝트 파일에 삽입 됩니다. 이러한 속성에 직접 영향을 하는 방법을 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 생성 됩니다.  
   
- CmdLineDemo.vbproj에서 / CmdLineDemo.csproj:  
+ In CmdLineDemo.vbproj / CmdLineDemo.csproj:  
   
 ```  
 <AssemblyOriginatorKeyFile>WindowsApplication3.snk</AssemblyOriginatorKeyFile>  
@@ -177,7 +172,4 @@ msbuild /target:publish /property:BootstrapperEnabled=false
  <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>   
  <xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>   
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)   
- [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
-
-
-
+ [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)

@@ -1,14 +1,9 @@
 ---
-title: '방법: C# 프로젝트에 응용 프로그램 구성 파일 추가 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 추가 응용 프로그램 구성 파일을 C# 프로젝트 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 dev_langs:
 - CSharp
 helpviewer_keywords:
@@ -17,18 +12,18 @@ ms.assetid: 9caf6bb0-c2fc-4ab6-ba69-bed3b880fbf8
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: wpickett
-ms.openlocfilehash: 43245704a2393b298f0f1d948d8a8829a4ef9bc4
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 481c1a66f3e025d3a29b2d5a1e39cd29bbb22490
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49204791"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982427"
 ---
-# <a name="how-to-add-an-application-configuration-file-to-a-c-project"></a>방법: C# 프로젝트에 응용 프로그램 구성 파일 추가
+# <a name="how-to-add-an-application-configuration-file-to-a-c-project"></a>방법: 추가 응용 프로그램 구성 파일을 C# 프로젝트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-C# 프로젝트에 응용 프로그램 구성 파일(app.config 파일)을 추가하면 공용 언어 런타임에서 어셈블리 파일을 찾고 로드하는 방법을 사용자 지정할 수 있습니다. 응용 프로그램 구성 파일에 대 한 자세한 내용은 참조 하세요. [런타임 어셈블리를 찾는 방법](http://msdn.microsoft.com/library/772ac6f4-64d2-4cfb-92fd-58096dcd6c34)합니다.  
+C# 프로젝트에 애플리케이션 구성 파일(app.config 파일)을 추가하면 공용 언어 런타임에서 어셈블리 파일을 찾고 로드하는 방법을 사용자 지정할 수 있습니다. 응용 프로그램 구성 파일에 대 한 자세한 내용은 참조 하세요. [런타임 어셈블리를 찾는 방법](http://msdn.microsoft.com/library/772ac6f4-64d2-4cfb-92fd-58096dcd6c34)합니다.  
   
 > [!NOTE]
 >  Windows 스토어 지원 하지 않습니다 <xref:System.Configuration>합니다. 결과적으로, 스토어 앱을 app.config 템플릿은 없습니다.  
@@ -51,5 +46,5 @@ C# 프로젝트에 응용 프로그램 구성 파일(app.config 파일)을 추�
  [응용 프로그램 설정 관리(.NET)](../ide/managing-application-settings-dotnet.md)   
  [구성 파일 스키마](http://msdn.microsoft.com/library/69003d39-dc8a-460c-a6be-e6d93e690b38)   
  [앱 구성](http://msdn.microsoft.com/library/86bd26d3-737e-4484-9782-19b17f34cd1f)   
- [방법:.NET Framework 버전을 대상으로 앱 구성](http://msdn.microsoft.com/en-us/5247b307-89ca-417b-8dd0-e8f9bd2f4717)   
+ [방법: .NET Framework 버전을 대상으로 앱 구성](http://msdn.microsoft.com/5247b307-89ca-417b-8dd0-e8f9bd2f4717)   
  [C#용 Visual Studio 개발 환경 사용](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)

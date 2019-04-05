@@ -1,14 +1,9 @@
 ---
 title: 구문 색 지정 구현 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - syntax coloring, implementing
 - editors [Visual Studio SDK], colorizing text
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 96e762ca-efd0-41e7-8958-fda4897c8c7a
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 30a53b1fc04bd08835ccf0ff0b0edb2e5d117fcb
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f068b0b442f6f358d71948ecc2a4d0d21870a6a4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51775032"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972667"
 ---
 # <a name="implementing-syntax-coloring"></a>구문 색 지정 구현
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +26,7 @@ ms.locfileid: "51775032"
   
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 파서 인터페이스를 지정 하지 않는 파서가 구현은 전적으로 사용자 및 합니다. 그러나 Visual Studio 언어 패키지 프로젝트의 기본 파서 구현이 제공 됩니다. 관리 코드에 대해 관리 패키지 프레임 워크 (MPF) 텍스트 색을 지정 하는 것에 대 한 전체 지원의 제공 합니다.  
   
- 레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 구문 색 지정을 구현 하는 새로운 방법에 대 한 자세한 내용을 참조 하세요 [연습: 텍스트 강조 표시](../../extensibility/walkthrough-highlighting-text.md)합니다.  
+ 레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 구문 색 지정을 구현 하는 새로운 방법에 대 한 자세한 참조 [연습: 텍스트를 강조 표시](../../extensibility/walkthrough-highlighting-text.md)합니다.  
   
 > [!NOTE]
 >  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.  
@@ -74,4 +69,3 @@ ms.locfileid: "51775032"
  [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)   
  [레거시 언어 서비스 개발](../../extensibility/internals/developing-a-legacy-language-service.md)   
  [레거시 언어 서비스의 구문 색 지정](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)
-

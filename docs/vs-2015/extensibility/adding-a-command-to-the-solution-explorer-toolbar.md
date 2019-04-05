@@ -1,14 +1,9 @@
 ---
 title: 솔루션 탐색기 도구 모음에 명령 추가 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - toolbars [Visual Studio], adding buttons
 - buttons [Visual Studio], adding to Solution Explorer
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: f6411557-2f4b-4e9f-b02e-fce12a6ac7e9
 caps.latest.revision: 40
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 52e963a202d75c29c65521729e70e062a579d479
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f0a9faa2d9dd09156c2e1a37e776381270f480af
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51753640"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972247"
 ---
 # <a name="adding-a-command-to-the-solution-explorer-toolbar"></a>솔루션 탐색기 도구 모음에 명령 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -119,10 +114,9 @@ ms.locfileid: "51753640"
   
     취소선 단추 기존 단추의 오른쪽 도구 모음에 표시 됩니다.  
   
-5. 에 **파일** 메뉴에서 클릭 **솔루션 닫기**합니다. 단추가 도구 모음에서 사라집니다.  
+5. **파일** 메뉴에서 **솔루션 닫기**를 클릭합니다. 단추가 도구 모음에서 사라집니다.  
   
    단추의 표시 여부에 의해 제어 됩니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] VSPackage가 로드 될 때까지 합니다. VSPackage를 로드 한 다음 단추의 표시 여부는 VSPackage에서 제어 됩니다.  자세한 내용은 참조 하세요. [Menucommand 합니다. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)
-

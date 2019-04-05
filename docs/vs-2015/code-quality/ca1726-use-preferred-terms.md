@@ -1,14 +1,9 @@
 ---
-title: 'CA1726: 기본 설정된 용어를 사용 합니다. | Microsoft Docs'
-ms.custom: ''
+title: 'CA1726: 기본 설정된 용어를 사용 하 여 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - UsePreferredTerms
 - CA1726
@@ -19,17 +14,17 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: c17514d00be7b0a3303b1c5bf703702fe564e0d1
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: e31c459d2d5ce8dc114605716c09f8360eca23d3
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49220521"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "59003080"
 ---
-# <a name="ca1726-use-preferred-terms"></a>CA1726: 기본 설정 용어를 사용하십시오.
+# <a name="ca1726-use-preferred-terms"></a>CA1726: 기본 설정 용어를 사용하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1726: 기본 설정된 용어를 사용 하 여](https://docs.microsoft.com/visualstudio/code-quality/ca1726-use-preferred-terms) docs.microsoft.com에서 제공 합니다.  
+Visual Studio에서 최신 설명서를 참조 하세요. [CA1726: 기본 설정된 용어를 사용 하 여](https://docs.microsoft.com/visualstudio/code-quality/ca1726-use-preferred-terms) docs.microsoft.com에서 제공 합니다.  
   
 |||  
 |-|-|  
@@ -46,25 +41,25 @@ Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1726: 기본 �
   
 |사용 되지 않는 용어|기본 용어|  
 |-------------------|--------------------|  
-|되지 않습니다.|오지|  
+|되지 않습니다.|AreNot|  
 |취소됨|Canceled|  
 |수 없음|수 없습니다.|  
 |ComPlus|EnterpriseServices|  
 |수 없음|CouldNot|  
 |Didnt|DidNot|  
-|Doesnt|하지 않습니다|  
-|Dont|안 함|  
+|Doesnt|DoesNot|  
+|Dont|DoNot|  
 |플래그 또는 플래그|대체 용어가 없는 경우 사용하지 마십시오.|  
 |하지|HadNot|  
 |되지 않았습니다.|HasNot|  
 |아직|HaveNot|  
-|인덱스|Indexes|  
+|인덱스|인덱스|  
 |되지 않습니다.|IsNot|  
-|로그인|로그온|  
-|로그 아웃|로그 오프|  
+|로그인|LogOn|  
+|LogOut|LogOff|  
 |Shouldnt|ShouldNot|  
-|Sign On|로그인|  
-|사인 오프|로그 아웃|  
+|SignOn|SignIn|  
+|SignOff|SignOut|  
 |Wasnt|WasNot|  
 |되지 않았습니다.|WereNot|  
 |안 됨|WillNot|  
@@ -79,4 +74,3 @@ Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1726: 기본 �
   
 ## <a name="related-rules"></a>관련된 규칙  
  [이름 지정 경고](../code-quality/naming-warnings.md)
-

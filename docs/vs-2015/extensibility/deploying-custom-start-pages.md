@@ -1,27 +1,22 @@
 ---
 title: 사용자 지정 시작 페이지를 배포 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - package start page
 - deploy start page
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 5e788f9bb1ca0333fd20237103cf6bce136af2e0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: dcf653654005b75a889bcafd668fbb9313572ff2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51795117"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002433"
 ---
 # <a name="deploying-custom-start-pages"></a>사용자 지정 시작 페이지 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
   
 - 공용 웹 사이트 또는 네트워크 공유에서.vsix 파일을 넣을 수 있습니다. 사용자가 파일을 시작 페이지를 자동으로 설치 됩니다.  
   
-- .Vsix 파일을 업로드할 수 있습니다 합니다 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트 사용자가 사용 하 여 설치할 수 있도록 **확장 관리자**합니다.  
+- .Vsix 파일을 업로드할 수 있습니다 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트 사용자가 사용 하 여 설치할 수 있도록 **확장 관리자**합니다.  
   
   시작 페이지 프로젝트 템플릿 복사본을 수정 하 고 원래를 유지할 수 있도록 기본 Visual Studio 시작 페이지의 복사본을 만듭니다.  
   
@@ -76,7 +71,7 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
   
 4.  다음을 추가 하 여 hklm 기본 시작 페이지를 설정 하려면.pkgdef를 수정 합니다. 여기서 *MyStartPage.xaml* 시작 페이지를 포함 하는.xaml 파일의 이름입니다.  
   
-     [$RootKey$ \StartPage\Default]  
+     [$RootKey$\StartPage\Default]  
   
      "Uri"="$PackageFolder$\\*MyStartPage.xaml*"  
   
@@ -98,4 +93,3 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
 ## <a name="see-also"></a>참고 항목  
  [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)   
  [시작 페이지에 사용자 컨트롤 추가](../extensibility/adding-user-control-to-the-start-page.md)
-

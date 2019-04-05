@@ -1,12 +1,9 @@
 ---
 title: Tableadapter 만들기 및 구성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -22,13 +19,13 @@ ms.assetid: 08630d69-0d6c-4e8f-b42d-2922f45f8415
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 03cb6c67b4887762885a0cb920eb928359b4708b
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 24f53af16bcab0e3ff631a7c264f139f94d92232
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49917650"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970911"
 ---
 # <a name="create-and-configure-tableadapters"></a>TableAdapter 만들기 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +52,7 @@ Tableadapter 응용 프로그램과 데이터베이스 간에 통신을 제공�
   
  도구 상자에서 새 TableAdapter를 끌면 때 합니다 **데이터 집합 디자이너** 에 포커스를 마법사의 메시지에 TableAdapter에 연결 해야 하는 데이터 원본을 지정할 수 있습니다 하 고 새로운 종류의 명령을 통신할 사용 해야 합니다 데이터베이스, SQL 문 또는 저장된 프로시저입니다. 이미 데이터 원본에 연결 되어 있는 TableAdapter를 구성 하는 경우이 표시 되지 않습니다.  
   
--   사용 하 여는 **업데이트를 데이터베이스로 직접 보내는 메서드 만들기** 옵션은 설정에 해당 하는 `GenerateDBDirectMethods` 속성을 true로 합니다. 옵션을 사용할 수 없는 경우 원래 SQL 문에서 충분 한 정보를 제공 하지 않습니다 때나 쿼리가 업데이트할 수 있는 쿼리를 하지 않습니다. 이에 해당할 수 있습니다, 예를 들어 **조인** 쿼리 및 단일 (스칼라) 값을 반환 하는 쿼리.  
+-   사용 하 여는 **업데이트를 데이터베이스로 직접 보내는 메서드 만들기** 옵션은 설정에 해당 하는 `GenerateDBDirectMethods` 속성을 true로 합니다. 원래 SQL 문에서 충분한 정보를 제공하지 않거나 쿼리가 업데이트할 수 없는 쿼리인 경우에는 이 옵션을 사용할 수 없습니다. 이에 해당할 수 있습니다, 예를 들어 **조인** 쿼리 및 단일 (스칼라) 값을 반환 하는 쿼리.  
   
 -   데이터베이스에 대 한 올바른 권한이 있는 경우 기본 데이터베이스에 새 저장된 프로시저를 만드는 옵션이 있습니다. 이러한 권한이 없으면이 옵션이 없습니다.  
   
@@ -79,7 +76,7 @@ Tableadapter 응용 프로그램과 데이터베이스 간에 통신을 제공�
   
 #### <a name="to-start-the-tableadapter-query-configuration-wizard-with-a-new-query"></a>새 쿼리를 사용 하 여 TableAdapter 쿼리 구성 마법사를 시작 하려면  
   
-1.  데이터 집합을 엽니다는 **데이터 집합 디자이너**합니다.  
+1.  **데이터 세트 디자이너**에서 데이터 세트를 엽니다.  
   
 2.  끌어 새 쿼리를 만드는 경우는 **쿼리** 에서 개체를 **데이터 집합** 탭을 **도구 상자** 에 <xref:System.Data.DataTable>를 선택 또는 **추가 쿼리**TableAdapter의 바로 가기 메뉴에서. 끌 수도 있습니다는 **쿼리** 개체의 빈 영역에는 **데이터 집합 디자이너**, 없이 연결 된 TableAdapter를 만듭니다 <xref:System.Data.DataTable>합니다. 이러한 쿼리를 실행된 하는 UPDATE, INSERT 또는 단일 (스칼라) 값을 반환 하거나 DELETE 명령을 데이터베이스에 대해만 수 있습니다.  
   
@@ -116,4 +113,3 @@ Tableadapter 응용 프로그램과 데이터베이스 간에 통신을 제공�
   
 ## <a name="see-also"></a>참고 항목  
  [TableAdapter를 사용하여 데이터 집합 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
-

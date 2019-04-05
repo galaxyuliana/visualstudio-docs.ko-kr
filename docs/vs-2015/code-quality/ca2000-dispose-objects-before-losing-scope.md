@@ -1,14 +1,9 @@
 ---
 title: 'CA2000: 범위를 벗어나기 전에 개체를 삭제 합니다. | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - CA2000
 - Dispose objects before losing scope
@@ -21,14 +16,14 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: ce258af87dc9a7732200b410113ee778e0bfbccb
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: f3456ec773b233da3ef2be1dfa7731460bdf6b44
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49857863"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972027"
 ---
-# <a name="ca2000-dispose-objects-before-losing-scope"></a>CA2000: 범위를 벗어나기 전에 개체를 삭제하십시오.
+# <a name="ca2000-dispose-objects-before-losing-scope"></a>CA2000: 범위를 벗어나기 전에 개체를 삭제하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 |||  
@@ -72,7 +67,7 @@ ms.locfileid: "49857863"
 ## <a name="related-rules"></a>관련된 규칙  
  [CA2213: 삭제 가능한 필드는 삭제해야 합니다.](../code-quality/ca2213-disposable-fields-should-be-disposed.md)  
   
- [CA2202: 개체를 여러 번 삭제하지 마십시오.](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)  
+ [CA2202: 개체가 여러 번 삭제 하지 마십시오](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)  
   
 ## <a name="example"></a>예제  
  삭제 가능한 개체를 반환 하는 메서드를 구현 하는 catch 블록 없이 try/finally 블록 사용 하 여 개체가 삭제 되 고 있는지 확인 합니다. Try/finally 블록을 사용 하 여 오류 지점에서 발생 하 여 해당 개체가 삭제 되는지 확인 하는 예외를 허용 합니다.  

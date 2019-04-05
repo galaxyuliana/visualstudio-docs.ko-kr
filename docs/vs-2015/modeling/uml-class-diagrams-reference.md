@@ -1,12 +1,9 @@
 ---
 title: 'UML 클래스 다이어그램: 참조 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords:
 - vs.teamarch.common.generalization.properties
 - vs.teamarch.logicalclassdiagram.toolbox
@@ -26,13 +23,13 @@ ms.assetid: b7c88be0-0d86-4d65-af74-f37e8812d20f
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 4f3a4fe9949236045238688a9edcd5eef911efb8
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 07930dc31651d11aedccc6c597070bbba62ff0b9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51741057"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985560"
 ---
 # <a name="uml-class-diagrams-reference"></a>UML 클래스 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,7 +62,7 @@ UML 클래스 다이어그램에서는 응용 프로그램에서 내부적으로
 |     1     |        분류자        |                                                                                                             클래스, 인터페이스 또는 열거형의 일반 이름입니다. 구성 요소, 사용 사례 및 행위자도 분류자입니다.                                                                                                             |
 |     2     | 축소/확장 컨트롤 |                                                                                         분류자 세부 정보가 보이지 않으면 분류자의 왼쪽 위에 있는 확장기를 클릭합니다. 각 세그먼트에서 [+]를 클릭해야 할 수도 있습니다.                                                                                         |
 |     3     |      **특성**       |   각 분류자 인스턴스에 연결된 형식화된 값입니다.<br /><br /> 특성을 추가 하려면 클릭 합니다 **특성** 섹션 및 키를 누릅니다 **ENTER**합니다. 특성의 서명을 입력합니다. 자세한 내용은 [속성의 특성을 UML 클래스 다이어그램](../modeling/properties-of-attributes-on-uml-class-diagrams.md)합니다.   |
-|     4     |      **작업**       | 분류자 인스턴스가 실행할 수 있는 메서드 또는 함수입니다. 작업을 추가 하려면 클릭 합니다 **Operations** 섹션 및 키를 누릅니다 **ENTER**합니다. 작업의 서명을 입력합니다. 자세한 내용은 [클래스 다이어그램에 UML 작업의 속성](../modeling/properties-of-operations-on-uml-class-diagrams.md)합니다. |
+|     4     |      **연산**       | 분류자 인스턴스가 실행할 수 있는 메서드 또는 함수입니다. 작업을 추가 하려면 클릭 합니다 **Operations** 섹션 및 키를 누릅니다 **ENTER**합니다. 작업의 서명을 입력합니다. 자세한 내용은 [클래스 다이어그램에 UML 작업의 속성](../modeling/properties-of-operations-on-uml-class-diagrams.md)합니다. |
 |     5     |     **연결**      |                                                                  두 분류자의 멤버 간 관계입니다. 자세한 내용은 [UML 연결의 속성 클래스 다이어그램](../modeling/properties-of-associations-on-uml-class-diagrams.md)합니다.                                                                   |
 |    5a     |     **집계**      |                                                                                                    공유된 소유권 관계를 나타내는 연결입니다. 합니다 **집계** 소유자 역할의 속성 **공유**합니다.                                                                                                     |
 |    5b     |     **컴퍼지션**      |                                                                                                      전체-부분 관계를 나타내는 연결입니다. 합니다 **집계** 소유자 역할의 속성 **복합**합니다.                                                                                                      |
@@ -82,7 +79,7 @@ UML 클래스 다이어그램에서는 응용 프로그램에서 내부적으로
 |11|**열거형**|일련의 리터럴 값으로 구성되는 분류자입니다.|  
 |12|**패키지**|분류자, 연결, 작업, 수명선, 구성 요소 및 패키지의 그룹입니다. 논리 클래스 다이어그램에서 보면 멤버 분류자 및 패키지는 패키지 내에 포함됩니다.<br /><br /> 이름은 패키지 내에서 범위가 지정 됩니다 있도록 **Class1** 내 **Package1** 별개인 **Class1** 패키지 외부의 합니다. 일부분으로 패키지의 이름을 표시 합니다 **정규화 된 이름** 콘텐츠의 속성입니다.<br /><br /> 설정할 수 있습니다 합니다 **연결 된 패키지** 패키지를 가리키는 모든 UML 다이어그램의 속성입니다. 해당 다이어그램에서 만든 모든 요소가 패키지 파트가 됩니다. 패키지 아래 나타납니다 **UML 모델 탐색기**합니다.|  
 |13|**Import**|한 패키지에 또 다른 패키지의 모든 정의가 포함됨을 나타내는 패키지 간의 관계입니다.|  
-|14|**종속성**|화살촉 끝의 분류자가 변경되면 종속 분류자의 정의 또는 구현이 변경될 수 있습니다.|  
+|14|**Dependency**|화살촉 끝의 분류자가 변경되면 종속 분류자의 정의 또는 구현이 변경될 수 있습니다.|  
   
  ![연결선과 롤리팝으로 표시 된 구현](../modeling/media/uml-classovrealize.png "UML_ClassOvRealize")  
   
@@ -98,6 +95,3 @@ UML 클래스 다이어그램에서는 응용 프로그램에서 내부적으로
  [UML 클래스 다이어그램 특성의 속성](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
  [UML 클래스 다이어그램 작업의 속성](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
  [UML 클래스 다이어그램 연결의 속성](../modeling/properties-of-associations-on-uml-class-diagrams.md)
-
-
-

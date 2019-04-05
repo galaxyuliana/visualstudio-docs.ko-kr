@@ -1,14 +1,9 @@
 ---
 title: Microsoft Visual Studio 원격 디버깅 모니터에 연결할 수 없습니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.error.remote_debug
 dev_langs:
@@ -20,13 +15,13 @@ ms.assetid: a1d959fc-3817-491c-831b-e6b768a3877a
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 139c650ac61b9312b069cc2e19fa66d3673ca30f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: e5e011ccd047551e7ea6cf1426b4118c3ad879f4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51733010"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982660"
 ---
 # <a name="unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor"></a>Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "51733010"
 >  제품 버그 때문에 이 메시지가 수신되었다고 생각하는 경우 이 문제를 Visual Studio [웃는 얼굴 보내기](http://msdn.microsoft.com/library/5cc9b67a-54d0-41b0-aa8f-80dff4475a6b)로 알려주세요. 자세한 도움말이 필요한 경우 [Talk to Us](../ide/talk-to-us.md) 에서 Microsoft에 문의하는 방법을 참조하세요.  
   
 ## <a name="i-got-this-message-while-i-was-debugging-locally"></a>로컬로 디버그하는 동안 이 메시지가 수신됨  
- 로컬로 디버그하는 동안 이 메시지가 수신된 경우 바이러스 백신 소프트웨어 또는 타사 방화벽 때문일 수 있습니다. Visual Studio는 32비트 응용 프로그램이므로 64비트 버전의 원격 디버거를 사용하여 64비트 응용 프로그램을 디버그합니다. 두 프로세스는 로컬 컴퓨터 내의 로컬 네트워크를 사용하여 통신합니다. 컴퓨터에서 나가는 네트워크 트래픽이 없지만 타사 보안 소프트웨어가 통신을 차단할 수 있습니다.  
+ 로컬로 디버그하는 동안 이 메시지가 수신된 경우 바이러스 백신 소프트웨어 또는 타사 방화벽 때문일 수 있습니다. Visual Studio는 32비트 애플리케이션이므로 64비트 버전의 원격 디버거를 사용하여 64비트 애플리케이션을 디버그합니다. 두 프로세스는 로컬 컴퓨터 내의 로컬 네트워크를 사용하여 통신합니다. 컴퓨터에서 나가는 네트워크 트래픽이 없지만 타사 보안 소프트웨어가 통신을 차단할 수 있습니다.  
   
  다음 섹션에서는 이 메시지가 수신되는 몇 가지 다른 이유 및 문제를 해결하기 위해 수행할 수 있는 작업을 보여 줍니다.  
   
@@ -65,7 +60,7 @@ ms.locfileid: "51733010"
   
 -   원격 디버거를 중지하고 로컬 컴퓨터에서 사용 중인 계정으로 다시 시작할 수 있습니다.  
   
--   사용 하 여 명령줄에서 원격 디버거를 시작할 수 있습니다 합니다 **/allow \<사용자 이름 >** 매개 변수: `msvsmon /allow <username@computer>`  
+-   **/allow \<사용자 이름>** 매개 변수를 사용하여 명령줄에서 원격 디버거를 시작할 수 있습니다. `msvsmon /allow <username@computer>`  
   
 -   원격 디버거의 사용 권한에 사용자를 추가할 수 있습니다(원격 디버거 창, **도구 / 사용 권한**).  
   
@@ -90,6 +85,3 @@ ms.locfileid: "51733010"
   
 ## <a name="see-also"></a>참고 항목  
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

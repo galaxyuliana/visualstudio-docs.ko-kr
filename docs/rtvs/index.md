@@ -1,15 +1,20 @@
 ---
 title: R Tools for Visual Studio
-description: 'Visual Studio 2017용 R 도구(RTVS)는 IntelliSense, 디버깅 및 원격 작업 영역을 비롯한 여러 언어 기능을 제공하는 무료 오픈 소스 확장입니다.'
+description: Visual Studio 2017용 R 도구(RTVS)는 IntelliSense, 디버깅 및 원격 작업 영역을 비롯한 여러 언어 기능을 제공하는 무료 오픈 소스 확장입니다.
 ms.date: 11/13/2017
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.workload:
-  - data-science
+- data-science
+ms.openlocfilehash: 385d58834aa96a3ad9e2002020dd1ce4fda3c87f
+ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57324171"
 ---
-
 # <a name="work-with-r-in-visual-studio"></a>Visual Studio에서 R 작업
 
 R은 통계 계산 및 그래픽을 위한 고도로 확장 가능한 언어 및 환경입니다. 이 프로그램은 GNU General Public License에 따라 무료로 배포되며, 강력한 커뮤니티 지원을 활용할 수 있고, 수학 기호 및 수식을 포함하는 게시 품질 도표를 생성하는 기능으로 잘 알려져 있습니다. [r project.org](https://www.r-project.org/about.html) 및 [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)(R 소개)에서 R에 대해 자세히 알아볼 수 있습니다.

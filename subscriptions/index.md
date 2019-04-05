@@ -8,8 +8,13 @@ Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description: Visual Studio 구독에 오신 것을 환영합니다.
 Searchscope: VS Subscription
+ms.openlocfilehash: bac5cbd1ae0da5d4607b566af898c28efc0876ad
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58322600"
 ---
-
 # <a name="visual-studio-subscriptions"></a>Visual Studio 구독
 
 Visual Studio 구독은 Windows, iOS, Android, Linux 등을 비롯한 기본 플랫폼 및 장치에서 유용한 애플리케이션을 만들고 배포하고 관리하는 데 필요한 포괄적인 리소스 집합입니다.  구독 혜택으로는 개발자 도구, 클라우드 서비스 및 소프트웨어, 교육에 대한 액세스와 개발 및 테스트 요구 사항에 대한 지원이 있습니다.

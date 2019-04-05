@@ -1,27 +1,22 @@
 ---
 title: '검사 목록: 새 프로젝트 형식 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], creating new types
 - project types, checklist for creating
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 90b48f5969a422ab9d211bb56900cf1b3b41a78b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5f3a6a091e5574721b93cbff23f873fe1a845ef6
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51737352"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002937"
 ---
 # <a name="checklist-creating-new-project-types"></a>검사 목록: 새 프로젝트 형식 만들기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,7 +25,7 @@ ms.locfileid: "51737352"
   
 1.  새 프로젝트 형식에 대 한 기능을 디자인 합니다. 자세한 내용은 [프로젝트 형식 디자인 결정](../../extensibility/internals/project-type-design-decisions.md)합니다.  
   
-2.  코드 및 기타 프로젝트 요소는 편집기가 사용을 확인 합니다. 핵심 또는 표준 편집기를 사용 하거나 만들고 프로젝트별 편집기를 사용할 수 있습니다. 자세한 내용은 참조 하세요. [만들기 사용자 지정 편집기 및 디자이너](../../extensibility/creating-custom-editors-and-designers.md) 하 고 [방법: 프로젝트별 편집기 열기](../../extensibility/how-to-open-project-specific-editors.md)합니다.  
+2.  코드 및 기타 프로젝트 요소는 편집기가 사용을 확인 합니다. 핵심 또는 표준 편집기를 사용 하거나 만들고 프로젝트별 편집기를 사용할 수 있습니다. 자세한 내용은 [만들기 사용자 지정 편집기 및 디자이너](../../extensibility/creating-custom-editors-and-designers.md) 및 [방법: 프로젝트별 편집기 열기](../../extensibility/how-to-open-project-specific-editors.md)합니다.  
   
 3.  프로젝트 항목에는 참여 수준을 확인 합니다 **클래스 뷰** 하며 **개체 브라우저**합니다. 자세한 내용은 [기호를 지 원하는 검색 도구](../../extensibility/internals/supporting-symbol-browsing-tools.md)합니다.  
   
@@ -40,11 +35,11 @@ ms.locfileid: "51737352"
   
     -   새 프로젝트를 만들고 기존 프로젝트를 열고 관리 하려면 프로젝트 팩터리입니다. 자세한 내용은 [만들 프로젝트 인스턴스에서 사용 하 여 프로젝트 팩터리](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)합니다.  
   
-    -   프로젝트 계층 구조 및 명령 처리 합니다. 자세한 내용은 [빌드에 없음: 프로젝트 형식 (c + +)를 구현 하려면 HierUtil7 프로젝트 클래스를 사용 하 여](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346)를 [프로젝트 모델의 요소](../../extensibility/internals/elements-of-a-project-model.md), [프로젝트 모델 핵심 구성 요소](../../extensibility/internals/project-model-core-components.md)고 [Menucommand 합니다. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md)합니다.  
+    -   프로젝트 계층 구조 및 명령 처리 합니다. 자세한 내용은 참조 하세요. [빌드에 없음: HierUtil7 프로젝트 클래스를 사용 하 여 프로젝트 형식 (c + +)를 구현](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346), [프로젝트 모델의 요소](../../extensibility/internals/elements-of-a-project-model.md)합니다 [프로젝트 모델 핵심 구성 요소](../../extensibility/internals/project-model-core-components.md) 및 [Menucommand 합니다. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md)합니다.  
   
     -   프로젝트 항목 관리, 프로젝트에 추가 하는 등의 **새 프로젝트** 대화 상자. 자세한 내용은 [추가 프로젝트 및 프로젝트 항목 템플릿](../../extensibility/internals/adding-project-and-project-item-templates.md) 하 고 [등록 프로젝트 및 항목 템플릿](../../extensibility/internals/registering-project-and-item-templates.md)합니다.  
   
-    -   프로젝트 상태 및 개별 항목의 지 속성 자세한 내용은 [열기 및 프로젝트 항목 저장](../../extensibility/internals/opening-and-saving-project-items.md)합니다. 솔루션 정보의 지 속성을 참조 하세요 [솔루션](../../extensibility/internals/solutions.md)합니다.  
+    -   프로젝트 상태 및 개별 항목의 지 속성 자세한 내용은 [열기 및 프로젝트 항목 저장](../../extensibility/internals/opening-and-saving-project-items.md)합니다. 솔루션 정보의 지 속성을 참조 하세요 [솔루션](../../extensibility/internals/solutions-overview.md)합니다.  
   
     -   속성 창에 표시 하려면 구성 독립적인 속성입니다. 자세한 내용은 [확장 속성](../../extensibility/internals/extending-properties.md)합니다.  
   
@@ -68,4 +63,3 @@ ms.locfileid: "51737352"
  [Visual Studio에서 계층 구조](../../extensibility/internals/hierarchies-in-visual-studio.md)   
  [프로젝트 형식을 만들어야 하는 경우](../../extensibility/internals/when-to-create-project-types.md)   
  [프로젝트 형식 만들기](../../extensibility/internals/creating-project-types.md)
-

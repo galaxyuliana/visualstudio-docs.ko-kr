@@ -1,12 +1,9 @@
 ---
 title: DGML 파일을 편집 하 여 코드 맵 사용자 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - dependency graphs, creating path aliases
 - dependency graphs, linking items to nodes
@@ -24,13 +21,13 @@ ms.assetid: a2e141f4-4fd8-4611-b236-6b9e7bc54fc1
 caps.latest.revision: 93
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: e370e805df8e3a6ee253e3560738e882a247d2de
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 98d754bfc5f68acf693f37f98347c8c60075beaa
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51817461"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "59003025"
 ---
 # <a name="customize-code-maps-by-editing-the-dgml-files"></a>Customize code maps by editing the DGML files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +50,7 @@ ms.locfileid: "51817461"
   
     새 그룹을 추가하려면 `<Nodes>` 섹션을 찾습니다. 새 `<Node/>` 요소를 추가합니다.  
   
-3. `<Node/>` 요소에 `Group` 특성을 추가하여 그룹을 확장된 상태로 표시할지 축소된 상태로 표시할지를 지정합니다. 예:  
+3. `<Node/>` 요소에 `Group` 특성을 추가하여 그룹을 확장된 상태로 표시할지 축소된 상태로 표시할지를 지정합니다. 예를 들어:  
   
    ```xml  
    <Nodes>  
@@ -207,7 +204,7 @@ ms.locfileid: "51817461"
     Shape="ShapeFilePathLocation"  
     ```  
   
-     예:  
+     예를 들어:  
   
     ```xml  
     <Nodes>  
@@ -242,7 +239,7 @@ ms.locfileid: "51817461"
     StrokeDashArray="StrokeArrayValues"  
     ```  
   
-     예:  
+     예를 들어:  
   
     ```xml  
     <Links>  
@@ -292,35 +289,35 @@ ms.locfileid: "51817461"
   
     이 식에서는 다음과 같은 BNF(Backus-Naur Form) 구문을 사용합니다.  
   
-    <Expression> ::= <BinaryExpression> &#124; <UnaryExpression> &#124; "("<Expression>")" &#124; <MemberBindings> &#124; <Literal> &#124; <Number>  
+    \<Expression> ::= \<BinaryExpression> &#124; \<UnaryExpression> &#124; "("\<Expression>")" &#124; \<MemberBindings> &#124; \<Literal> &#124; \<Number>  
   
-    <BinaryExpression> ::= <Expression> <Operator> <Expression>  
+    \<BinaryExpression> ::= \<Expression> \<Operator> \<Expression>  
   
-    <UnaryExpression> ::= "!" <Expression> &#124; "+" <Expression> &#124; "-" <Expression>  
+    \<UnaryExpression> ::= "!" \<식 > &#124; "+" \<식 > &#124; "-" \<식 >  
   
-    <Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"  
+    \<Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"  
   
-    <MemberBindings> ::= <MemberBindings> &#124; <MemberBinding> "." <MemberBinding>  
+    \<MemberBindings> ::= \<MemberBindings> &#124; \<MemberBinding> "." \<MemberBinding>  
   
-    <MemberBinding> ::= <MethodCall> &#124; <PropertyGet>  
+    \<MemberBinding> ::= \<MethodCall> &#124; \<PropertyGet>  
   
-    <MethodCall> ::= <Identifier> "(" <MethodArgs> ")"  
+    \<MethodCall> ::= \<Identifier> "(" \<MethodArgs> ")"  
   
-    <PropertyGet> :: = 식별자  
+    \<PropertyGet >:: = 식별자  
   
-    <MethodArgs> ::= <Expression> &#124; <Expression> "," <MethodArgs> &#124; <empty>  
+    \<MethodArgs> ::= \<Expression> &#124; \<Expression> "," \<MethodArgs> &#124; \<empty>  
   
-    <Identifier> ::= [^. ]*  
+    \<Identifier> ::= [^. ]*  
   
-    <Literal> :: = 작은따옴표 또는 큰따옴표로 묶은 문자열 리터럴  
+    \<리터럴 >:: = 작은따옴표 또는 큰따옴표로 묶은 문자열 리터럴  
   
-    <Number> :: = 선택적 소수점을 사용 하 여 숫자 문자열  
+    \<번호 >:: = 선택적 소수점을 사용 하 여 숫자 문자열  
   
     여러 개 지정할 수 있습니다 `<Condition/>` 모두 스타일을 적용 하려면 만족 해야 하는 요소입니다.  
   
 3. `<Condition/>` 요소의 다음 줄에서 한 개 또는 여러 개의 `<Setter/>` 요소를 추가하여 조건을 만족하는 맵, 코드 요소 또는 링크에 적용할 `Property` 특성과 고정 `Value` 특성 또는 계산된 `Expression` 특성을 지정합니다.  
   
-    예:  
+    예를 들어:  
   
    ```xml  
    <Setter Property="BackGround" Value="Green"/>  
@@ -379,9 +376,9 @@ ms.locfileid: "51817461"
   
  이 예제에 대한 설명:  
   
-1.  `Coverage`가 80보다 크게 설정되었으면 `Background` 속성을 녹색으로 설정합니다.  
+1.  하는 경우 `Coverage` > 80 인 설정한는 `Background` 속성을 녹색입니다.  
   
-2.  `Coverage`가 50보다 작게 설정되었으면 `Background` 속성 값에 따라 `Coverage` 속성을 주황색 음영으로 설정합니다.  
+2.  다른 경우 `Coverage` 은 > 50 설정한 합니다 `Background` 의 값을 기반으로 하는 속성을 주황색 음영으로는 `Coverage` 속성입니다.  
   
 3.  또한 `Background` 속성은 `Coverage` 속성 값에 따라 빨간색 음영으로 설정합니다.  
   
@@ -448,7 +445,7 @@ ms.locfileid: "51817461"
   
 1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.  
   
-2.  해당 코드 요소에 대한 `<Node/>` 요소를 찾습니다. 속성 이름 및 해당 값을 지정합니다. 예:  
+2.  해당 코드 요소에 대한 `<Node/>` 요소를 찾습니다. 속성 이름 및 해당 값을 지정합니다. 예를 들어:  
   
     ```xml  
     <Nodes>  
@@ -470,7 +467,7 @@ ms.locfileid: "51817461"
   
 2.  소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.  
   
-3.  `<Node/>` 요소에서 속성 이름 및 해당 값을 지정합니다. 예:  
+3.  `<Node/>` 요소에서 속성 이름 및 해당 값을 지정합니다. 예를 들어:  
   
     ```xml  
     <Links>  
@@ -495,7 +492,7 @@ ms.locfileid: "51817461"
   
 -   원하는 코드 요소에 대한 `<Node/>` 요소를 찾습니다.  
   
--   `<Node/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예:  
+-   `<Node/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예를 들어:  
   
     ```xml  
     <Nodes>  
@@ -517,7 +514,7 @@ ms.locfileid: "51817461"
   
 2.  소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.  
   
-3.  `<Link/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예:  
+3.  `<Link/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예를 들어:  
   
     ```xml  
     <Links>  
@@ -539,7 +536,7 @@ ms.locfileid: "51817461"
   
 2.  부모 범주에 대한 `<Category/>` 요소를 추가한 다음 자식 범주의 `BasedOn` 요소에 `<Category/>` 특성을 추가합니다.  
   
-     예:  
+     예를 들어:  
   
     ```xml  
     <Nodes>  
@@ -588,7 +585,7 @@ ms.locfileid: "51817461"
      > [!NOTE]
      >  `Reference` 특성은 요소마다 하나씩만 있을 수 있습니다.  
   
-     예:  
+     예를 들어:  
   
    ```xml  
    <Nodes>  

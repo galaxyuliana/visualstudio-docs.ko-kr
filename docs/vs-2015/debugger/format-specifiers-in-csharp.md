@@ -1,14 +1,9 @@
 ---
 title: Format Specifiers in C# | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -31,13 +26,13 @@ ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 330a32b20eeab172ebf36e49f16e79aa936a1bdc
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 3521f39227b5abcb51a4db6b61e6bf0d853e5afe
+ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51754164"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "59002304"
 ---
 # <a name="format-specifiers-in-c"></a>C#의 형식 지정자 #
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,9 +46,9 @@ ms.locfileid: "51754164"
   
 ```  
 {  
-        int my_var1 = 0x0065;  
-        int my_var2 = 0x0066;  
-        int my_var3 = 0x0067;  
+    int my_var1 = 0x0065;  
+    int my_var2 = 0x0066;  
+    int my_var3 = 0x0067;  
 }  
 ```  
   
@@ -67,7 +62,7 @@ ms.locfileid: "51754164"
 |지정자|형식|원래 조사식 값|표시|  
 |---------------|------------|--------------------------|--------------|  
 |ac|식을 계산합니다. 암시적 속성 확인과 암시적 함수 호출이 해제된 경우에 유용할 수 있습니다. [Side Effects and Expressions](http://msdn.microsoft.com/library/e1f8a6ea-9e19-481d-b6bd-df120ad3bf4e)을 참조하세요.|“사용자가 암시적 함수 실행을 해제했습니다.” 메시지|\<value>|  
-|d|10진수 정수|0x0065|101|  
+|일|10진수 정수|0x0065|101|  
 |dynamic|동적 뷰를 사용하여 지정된 개체를 표시합니다.|동적 뷰를 포함하여 개체의 모든 멤버를 표시합니다.|동적 뷰만 표시합니다.|  
 |h|16진수 정수|61541|0x0000F065|  
 |nq|따옴표 없는 문자열|"My String"|My String|  
@@ -76,10 +71,5 @@ ms.locfileid: "51754164"
 |results|IEnumerable 또는 IEnumerable을 구현 하는 형식의 변수와 함께 사용할\<T >를 일반적으로 쿼리 식의 결과입니다. 쿼리 결과가 포함된 멤버만 표시합니다.|모든 멤버를 표시합니다.|쿼리 조건에 맞는 멤버를 표시합니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [조사식 및 간략 한 조사식 Windows](../debugger/watch-and-quickwatch-windows.md)   
- [변수 Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
-
-
-
-
-
+ [조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)   
+ [변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)

@@ -1,25 +1,22 @@
 ---
 title: UML 모델 탐색 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML API
 ms.assetid: 6d789b6d-2aa9-4ceb-92c4-84a300065a76
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6f77e72c55c0984f66a6884b0582716e5529abd0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 678c09cca8f7b90c9be6dc2b7101ca04d9f94812
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51727764"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982333"
 ---
 # <a name="navigate-the-uml-model"></a>UML 모델 탐색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +45,7 @@ ms.locfileid: "51727764"
   
  모델에서 요소를 삭제하면 참여하는 관계도 자동으로 삭제되고 반대쪽 속성이 업데이트됩니다.  
   
- UML 사양에서 속성에 복합성 0..1을 할당하는 경우 `null` 값을 가질 수 있습니다. 1 =.NET 속성 형식에 보다 큰 최대 복합성이: `IEnumerable<` *형식을*`>`합니다.  
+ UML 사양에서 속성에 복합성 0..1을 할당하는 경우 `null` 값을 가질 수 있습니다. 1 =.NET 속성 형식에 보다 큰 최대 복합성이: `IEnumerable<`*형식*`>`합니다.  
   
  관계를 탐색 하는 방법에 대 한 자세한 내용은 참조 하세요. [UML API를 사용 하 여 관계 탐색](../modeling/navigate-relationships-with-the-uml-api.md)합니다.  
   
@@ -134,6 +131,3 @@ foreach (IShape<IInterface> in
 ## <a name="see-also"></a>참고 항목  
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)   
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: Visual Studio SDK | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 f1_keywords:
 - VSSDK.v90.StartPage
 helpviewer_keywords:
@@ -18,13 +13,13 @@ helpviewer_keywords:
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
 caps.latest.revision: 57
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e64506ca544dd3811864358f9c928f6893dc8448
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8184ae3085c6366256f37b3e5a034b70fcc3cd7a
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51758981"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002640"
 ---
 # <a name="visual-studio-sdk"></a>Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ Visual Studio SDK를 사용 하면 Visual Studio 기능을 확장 하거나 Visu
   
 - 사용자 지정 프로젝트 형식을 추가합니다  
   
-- 수백만 명의 개발자가 Visual Studio 갤러리를 통해 도달  
+- 수백만 명의 개발자가 Visual Studio Marketplace를 통해 도달  
   
   및 이러한 기능에 대 한 자세한 내용은 하기 전에 Visual Studio 확장을 써 본 적, 경우 찾아야 [Visual Studio 확장 개발 시작](../extensibility/starting-to-develop-visual-studio-extensions.md)합니다.  
   
@@ -61,7 +56,7 @@ Visual Studio SDK를 사용 하면 Visual Studio 기능을 확장 하거나 Visu
  활용 합니다 [이미지 서비스 및 카탈로그](../extensibility/image-service-and-catalog.md) 유용한 이미지 관리 및 높은 DPI 및 테마에 대 한 지원.  
   
 ## <a name="finding-and-installing-existing-visual-studio-extensions"></a>기존 Visual Studio 확장 찾기 및 설치  
- Visual Studio 확장을 찾을 수 있습니다 합니다 **확장 및 업데이트** 대화 상자를 **도구** 메뉴. 자세한 내용은 [Visual Studio 확장명 찾기 및 사용](../ide/finding-and-using-visual-studio-extensions.md)을 참조하세요. 확장을 찾을 수도 있습니다는 [Visual Studio 갤러리](https://visualstudiogallery.msdn.microsoft.com/)  
+ Visual Studio 확장을 찾을 수 있습니다 합니다 **확장 및 업데이트** 대화 상자를 **도구** 메뉴. 자세한 내용은 [Visual Studio 확장명 찾기 및 사용](../ide/finding-and-using-visual-studio-extensions.md)을 참조하세요. 확장을 찾을 수도 있습니다는 [Visual Studio Marketplace](https://marketplace.visualstudio.com/)  
   
 ## <a name="visual-studio-sdk-reference"></a>Visual Studio SDK 참조  
  Visual Studio SDK API 참조를 찾을 수 있습니다 [Visual Studio SDK 참조](../extensibility/visual-studio-sdk-reference.md)합니다.  
@@ -83,7 +78,7 @@ Visual Studio SDK를 사용 하면 Visual Studio 기능을 확장 하거나 Visu
 ## <a name="see-also"></a>참고 항목  
  [메뉴 명령을 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-a-menu-command.md)   
  [방법: Visual Studio 2015로 확장성 프로젝트 마이그레이션](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md)   
- [FAQ: VSPackage 확장으로 추가 기능 변환](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)   
+ [자주 묻는 질문(FAQ): 추가 기능을 VSPackage 확장으로 변환](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)   
  [관리 코드에서 다중 스레드 관리](../extensibility/managing-multiple-threads-in-managed-code.md)   
  [메뉴 및 명령 확장](../extensibility/extending-menus-and-commands.md)   
  [도구 모음에 명령 추가](../extensibility/adding-commands-to-toolbars.md)   
@@ -103,4 +98,3 @@ Visual Studio SDK를 사용 하면 Visual Studio 기능을 확장 하거나 Visu
  [Visual Studio SDK에 대 한 지원](../extensibility/support-for-the-visual-studio-sdk.md)   
  [보관 파일](../extensibility/archive.md)   
  [Visual Studio SDK 참조](../extensibility/visual-studio-sdk-reference.md)
-

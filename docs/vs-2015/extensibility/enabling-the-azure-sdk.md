@@ -1,27 +1,22 @@
 ---
 title: Azure SDK를 사용 하도록 설정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- tgt-pltfrm-azure
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: tgt-pltfrm-azure
+ms.topic: conceptual
 helpviewer_keywords:
 - azure
 - cloud
 ms.assetid: 1c323afd-fb4e-449a-adaa-bb7a5d3b1468
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: b5831bfe9ef722e2253b35255ec23304068bab9d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: e47fa574d607f0fe56950b232991ad6e5ff2b351
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51725816"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002520"
 ---
 # <a name="enabling-the-azure-sdk"></a>Azure SDK를 사용 하도록 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +41,6 @@ Azure SDK for.NET 통해 있습니다 만들기, 구성, 빌드, 디버그, 실�
     >  Azure Tools를 설치 하려면 인터넷 정보 서비스 7.0 및 ASP.NET 응용 프로그램 개발 구성 요소가 설치 되어 있어야 합니다. 이러한 구성 요소가 설치 되지 않은 경우 Azure Tools 설치 프로그램이 설치 메시지가 나타납니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Azure](http://go.microsoft.com/fwlink?LinkID=164788)   
- [Azure 시작](http://go.microsoft.com/fwlink?LinkID=159361)   
- [Azure 커뮤니티](http://go.microsoft.com/fwlink?LinkID=159370)
-
+ [Azure](https://azure.microsoft.com/)   
+ [Azure 시작](https://azure.microsoft.com/get-started/)   
+ [Azure 커뮤니티](https://azure.microsoft.com/support/community/)

@@ -1,12 +1,18 @@
 ---
 layout: LandingPage
 title: 프로파일링을 사용하여 앱 성능 측정 | Microsoft Docs
-description: 'Visual Studio를 사용하여 원하는 언어로 애플리케이션, 서비스 및 도구의 성능을 프로파일링하는 방법을 알아보세요.'
+description: Visual Studio를 사용하여 원하는 언어로 애플리케이션, 서비스 및 도구의 성능을 프로파일링하는 방법을 알아보세요.
 ms.custom: seodec18
 ms.topic: landing-page
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
+ms.openlocfilehash: e47f44a78fbd8632b834c46c451f5f3106c85fcd
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58323010"
 ---
 # <a name="measure-app-performance-in-visual-studio"></a>Visual Studio에서 앱 성능 측정
 
