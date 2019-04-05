@@ -1,14 +1,9 @@
 ---
 title: 신뢰할 수 있는 응용 프로그램 배포 개요 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -21,13 +16,13 @@ ms.assetid: b24a1702-8fbe-45b1-87a0-9618a0708f1d
 caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 733eb98544d48716ec073605d68628ddeab7b794
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 34d643d3a5966ac287773b2d01d88596d51239f9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49827588"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986450"
 ---
 # <a name="trusted-application-deployment-overview"></a>Trusted Application Deployment Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,17 +83,17 @@ ms.locfileid: "49827588"
 -   CertMgr.exe - Internet Explorer의 구성 요소이므로 Windows 98 및 모든 이후 버전에 있습니다. 자세한 내용은 [Certmgr.exe (인증서 관리자 도구)](http://msdn.microsoft.com/library/7e953b43-1374-4bbc-814f-53ca1b6b52bb)합니다.  
   
 ### <a name="create-a-clickonce-application"></a>ClickOnce 애플리케이션 만들기  
- [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램은 응용 프로그램을 설명하고 설치 매개 변수를 제공하는 매니페스트 파일과 결합된 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 클라이언트 응용 프로그램입니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 에서 **게시** 명령을 사용하여 프로그램을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]응용 프로그램으로 전환할 수 있습니다. 또는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 에 포함된 도구를 사용하여 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]배포에 필요한 모든 파일을 생성할 수 있습니다. 자세한 단계 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 참조 [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다.  
+ [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램은 응용 프로그램을 설명하고 설치 매개 변수를 제공하는 매니페스트 파일과 결합된 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 클라이언트 응용 프로그램입니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 에서 **게시** 명령을 사용하여 프로그램을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]응용 프로그램으로 전환할 수 있습니다. 또는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 에 포함된 도구를 사용하여 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]배포에 필요한 모든 파일을 생성할 수 있습니다. 자세한 단계 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 참조 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)  
   
  신뢰할 수 있는 애플리케이션 배포는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]에 관련되고 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션에서만 사용할 수 있습니다.  
   
 ### <a name="sign-the-deployment"></a>배포에 서명  
- 인증서를 가져오고 나서 이 인증서를 사용하여 배포에 서명해야 합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 마법사를 사용하여 응용 프로그램을 배포할 경우 인증서를 직접 지정하지 않았다면 마법사가 자동으로 테스트 인증서를 생성합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 디자이너 창을 사용하여 CA가 제공한 인증서를 제공할 수도 있습니다.  [방법: 게시 마법사를 사용하여 ClickOnce 응용 프로그램 게시](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)) 또는 [방법: 게시 마법사를 사용하여 ClickOnce 응용 프로그램 게시](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\))를 참조하세요.  
+ 인증서를 가져오고 나서 이 인증서를 사용하여 배포에 서명해야 합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 마법사를 사용하여 응용 프로그램을 배포할 경우 인증서를 직접 지정하지 않았다면 마법사가 자동으로 테스트 인증서를 생성합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 디자이너 창을 사용하여 CA가 제공한 인증서를 제공할 수도 있습니다.  또한 참조 [방법: 게시 마법사를 사용 하 여 ClickOnce 응용 프로그램 게시](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)) 또는 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\))를 참조하세요.  
   
 > [!CAUTION]
 >  테스트 인증서를 사용하여 애플리케이션을 배포하는 것은 권장하지 않습니다.  
   
- Mage.exe 또는 MageUI.exe SDK 도구를 사용하여 애플리케이션에 서명할 수도 있습니다. 자세한 내용은 [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다. 배포 서명과 관련 된 명령줄 옵션의 전체 목록을 참조 하세요 [Mage.exe (매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)합니다.  
+ Mage.exe 또는 MageUI.exe SDK 도구를 사용하여 애플리케이션에 서명할 수도 있습니다. 자세한 내용은 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md) 배포 서명과 관련 된 명령줄 옵션의 전체 목록을 참조 하세요 [Mage.exe (매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)합니다.  
   
 ### <a name="publish-the-application"></a>애플리케이션 게시  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 매니페스트에 서명하면 바로 응용 프로그램을 설치 위치에 게시할 준비가 됩니다. 설치 위치는 웹 서버, 파일 공유 또는 로컬 디스크일 수 있습니다. 클라이언트가 배포 매니페스트에 처음 액세스하면 신뢰 관리자는 설치된 신뢰할 수 있는 게시자가 더 높은 수준의 신뢰로 실행하도록 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션에 권한이 부여되었는지 여부를 선택해야 합니다. 이를 선택하려면 신뢰 관리자가 배포에 서명하는 데 사용된 인증서를 클라이언트의 신뢰할 수 있는 게시자 저장소에 저장된 인증서와 비교해야 합니다. 신뢰 관리자가 일치 항목을 찾으면 애플리케이션이 높은 신뢰로 실행됩니다.  
@@ -111,7 +106,4 @@ ms.locfileid: "49827588"
   
 ## <a name="see-also"></a>참고 항목  
  [Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
- [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
-
-
-
+ [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
