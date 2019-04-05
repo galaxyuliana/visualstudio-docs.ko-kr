@@ -1,14 +1,9 @@
 ---
 title: 편집 하며 계속 (Visual c + +) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -22,13 +17,13 @@ ms.assetid: 1815251e-a877-433e-9e5e-69bd9ba254c7
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 6e1dc97af70f575632629a13ea67e905f2ad0815
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b1f82c9e79957b12dba36eaa70a94cb6fff84ff7
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51748360"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58971898"
 ---
 # <a name="edit-and-continue-visual-c"></a>Edit and Continue (Visual C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,9 +34,9 @@ Visual C++ 프로젝트에서 편집하며 계속하기를 사용할 수 있습�
   
  다른 업데이트 1 개선 사항으로는 취소할 수 있는 새로운 대기 대화 상자와, 파일에서 편집하며 계속하기를 지원하지 않는 경우 알리는 기능이 있습니다. 업데이트 1 개선 사항에 대 한 자세한 내용은 참조 하세요. [c + + 편집 하며 계속 하기가 Visual Studio 2015 업데이트 1에서에 대 한 향상 된 기능](http://blogs.msdn.com/b/vcblog/archive/2015/11/30/improvements-for-c-edit-and-continue-in-visual-studio-2015-update-1.aspx)합니다.  
   
- 합니다 [/Zo (최적화 된 디버깅 향상)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f) Visual Studio 2013 업데이트 3에 도입 된 컴파일러 옵션 없이 컴파일된 이진에 대 한.pdb (기호) 파일에 추가 정보를 추가 합니다 [/Od (비활성화 (디버그)) ](http://msdn.microsoft.com/library/aafb762y.aspx) 옵션입니다.  
+ Visual Studio 2013 업데이트 3에 도입된 [/Zo(최적화된 디버깅 향상)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f) 컴파일러 옵션은 [/Od((디버그) 비활성화)](http://msdn.microsoft.com/library/aafb762y.aspx) 옵션 없이 컴파일된 이진에 대한 .pdb(기호) 파일에 정보를 더 추가합니다.  
   
- **/Zo** 편집 하며 계속 하기가 비활성화 됩니다. 참조 [방법: 최적화 된 코드 디버그](../debugger/how-to-debug-optimized-code.md)합니다.  
+ **/Zo** 편집 하며 계속 하기가 비활성화 됩니다. [방법: 최적화된 코드 디버그](../debugger/how-to-debug-optimized-code.md)를 참조하세요.  
   
 ##  <a name="BKMK_Enable_or_disable_automatic_invocation_of_Edit_and_Continue"></a> 편집하며 계속하기 사용 또는 사용 안 함  
  현재 디버깅 세션 중에 적용하지 않으려는 코드 편집 내용이 있는 경우 편집하며 계속하기의 자동 호출을 사용하지 않도록 설정할 수 있습니다. 자동 편집하며 계속하기를 다시 사용하도록 설정할 수도 있습니다.  
@@ -52,7 +47,7 @@ Visual C++ 프로젝트에서 편집하며 계속하기를 사용할 수 있습�
   
 3. **편집하며 계속하기** 그룹에서 **네이티브 편집하며 계속하기 사용** 확인란을 선택하거나 선택 취소합니다.  
   
-   이 설정을 변경하면 작업 중인 모든 프로젝트에 영향을 줍니다. 이 설정을 변경한 후 응용 프로그램을 다시 빌드할 필요는 없습니다. 이 설정은 디버깅 중에도 변경할 수 있습니다. 응용 프로그램을 명령줄이나 메이크파일에서 빌드하고 Visual Studio 환경에서 디버깅하는 경우에도 **/ZI** 옵션을 설정하면 편집하며 계속하기를 사용할 수 있습니다.  
+   이 설정을 변경하면 작업 중인 모든 프로젝트에 영향을 줍니다. 이 설정을 변경한 후 애플리케이션을 다시 빌드할 필요는 없습니다. 이 설정은 디버깅 중에도 변경할 수 있습니다. 애플리케이션을 명령줄이나 메이크파일에서 빌드하고 Visual Studio 환경에서 디버깅하는 경우에도 **/ZI** 옵션을 설정하면 편집하며 계속하기를 사용할 수 있습니다.  
   
 ##  <a name="BKMK_How_to_apply_code_changes_explicitly"></a> 코드 변경 내용을 명시적으로 적용하는 방법  
  Visual C++에서 편집하며 계속하기는 두 가지 방식으로 코드 변경 내용을 적용할 수 있습니다. 코드 변경 내용은 실행 명령을 선택할 때 암시적으로 적용하거나 **코드 변경 내용 적용** 명령을 사용하여 명시적으로 적용할 수 있습니다.  
@@ -84,6 +79,3 @@ Visual C++ 프로젝트에서 편집하며 계속하기를 사용할 수 있습�
   
 ## <a name="see-also"></a>참고 항목  
  [지원되는 코드 변경(C++)](../debugger/supported-code-changes-cpp.md)
-
-
-

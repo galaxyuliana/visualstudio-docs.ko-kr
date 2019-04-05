@@ -1,12 +1,9 @@
 ---
 title: 데이터베이스 개체에서 데이터를 저장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -20,19 +17,19 @@ ms.assetid: efd6135a-40cf-4b0d-8f8b-41a5aaea7057
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: acbbf9f309573f110da3b7dd0a53ede36150a319
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 4ddb6ad55a8d90a3e9d4f5b2568885cbe49fb66c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49207456"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972407"
 ---
 # <a name="save-data-from-an-object-to-a-database"></a>개체에서 데이터베이스로 데이터 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-TableAdapter의 DBDirect 메서드 중 하나에 개체에서 값을 전달 하 여 데이터베이스 개체에서 데이터를 저장할 수 있습니다 (예를 들어 `TableAdapter.Insert`). 자세한 내용은 [TableAdapter Overview](../data-tools/tableadapter-overview.md)을 참조하세요.  
+TableAdapter의 DBDirect 메서드 중 하나에 개체에서 값을 전달 하 여 데이터베이스 개체에서 데이터를 저장할 수 있습니다 (예를 들어 `TableAdapter.Insert`).
   
  개체의 컬렉션에서 데이터를 저장 하려면 개체 (예를 들어, 다음에 대 한 루프의 경우)의 컬렉션을 반복 하 고 TableAdapter의 DBDirect 메서드 중 하나를 사용 하 여 데이터베이스에 각 개체에 대 한 값을 보냅니다.  
   
@@ -85,4 +82,3 @@ TableAdapter의 DBDirect 메서드 중 하나에 개체에서 값을 전달 하 
   
 ## <a name="see-also"></a>참고 항목  
  [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)
-

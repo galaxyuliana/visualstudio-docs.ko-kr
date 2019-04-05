@@ -1,26 +1,21 @@
 ---
 title: 편집기 내부에서 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - architecture
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
 caps.latest.revision: 32
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: ddca5ab4b0d7dc6aa43f3db8c641ad5fc9e583b2
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 034afff7b907a8f9079242e26105a46a68e8da6d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51735181"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982628"
 ---
 # <a name="inside-the-editor"></a>편집기 기본 사항
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -242,7 +237,7 @@ abXefYj
   
  팝업 장식을 위의 예를 들어 도구 설명 텍스트 뷰를 다른 작은 창에 표시 되는 그래픽입니다.  
   
-###  <a name="projection"></a> 프로젝션  
+###  <a name="projection"></a> Projection  
  프로젝션은 서로 다른 종류의 텍스트를 실제로 저장 되지 않습니다 하지만 대신 다른 텍스트 버퍼에서 텍스트를 결합 하는 텍스트 버퍼를 생성 하기 위한 기술입니다. 예를 들어 다른 두 버퍼에서 텍스트를 연결 하 고 하나의 버퍼에 있는 것 처럼 결과 표시 또는 숨기기 하나의 버퍼에서 텍스트의 부분에 프로젝션 버퍼를 사용할 수 있습니다. 프로젝션 버퍼는 다른 프로젝션 버퍼로 소스 버퍼로 작동할 수 있습니다. 다양 한 방법으로 텍스트를 다시 정렬 하려면 프로젝션을 통해 연관 된 버퍼 집합을 생성할 수 있습니다. (이러한 집합은 라고도 *버퍼 그래프*.) Visual Studio 텍스트 개요 기능을 축소 된 텍스트를 숨기려면 프로젝션 버퍼를 사용 하 여 구현 됩니다 하 고 ASP.NET 페이지에 대 한 Visual Studio 편집기 프로젝션을 사용 하 여 Visual Basic 및 C#과 같은 포함 된 언어를 지원 합니다.  
   
  <xref:Microsoft.VisualStudio.Text.Projection.IProjectionBuffer> 사용 하 여 만들어지는 <xref:Microsoft.VisualStudio.Text.Projection.IProjectionBufferFactoryService>합니다. 프로젝션 버퍼는 정렬된 된 시퀀스를 나타내는 <xref:Microsoft.VisualStudio.Text.ITrackingSpan> 이라고 하는 개체 *소스 범위*합니다. 이러한 범위 콘텐츠의 문자 시퀀스로 표시 됩니다. 소스 범위 그려지는 텍스트 버퍼 라고 *버퍼를 원본*합니다. 일반 텍스트 버퍼에서 다른는 알아야 할 클라이언트 프로젝션 버퍼에 없습니다.  
@@ -295,4 +290,3 @@ P: ABCDEvwxyz
 ## <a name="see-also"></a>참고 항목  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)   
  [편집기 가져오기](../extensibility/editor-imports.md)
-

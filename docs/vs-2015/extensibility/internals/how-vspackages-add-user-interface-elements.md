@@ -1,14 +1,9 @@
 ---
 title: Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - user interfaces, adding elements
 - UI element design [Visual Studio SDK], VSPackages
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: abc5d9d9-b267-48a1-92ad-75fbf2f4c1b9
 caps.latest.revision: 61
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 88b1a71964ddae67241025dd32c1a1384c79765f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: d020dd0e1d20facd431a31f5aabffb4ec9e2631a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51753366"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985813"
 ---
 # <a name="how-vspackages-add-user-interface-elements"></a>VSPackage에서 사용자 인터페이스 요소를 추가하는 방법
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -199,7 +194,7 @@ priority="0x0100" type="Menu">
 |-------------|--------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------|  
 |그룹화|[Groups 요소](../../extensibility/groups-element.md), IDE, 다른 Vspackage|메뉴, 그룹 자체 항목|메뉴, 그룹 및 명령|  
 |메뉴|[Menus 요소](../../extensibility/menus-element.md), IDE, 다른 Vspackage|1 ~ *n* 그룹|0 *n* 그룹|  
-|Toolbar|[Menus 요소](../../extensibility/menus-element.md), IDE, 다른 Vspackage|항목과|0 *n* 그룹|  
+|ToolBar|[Menus 요소](../../extensibility/menus-element.md), IDE, 다른 Vspackage|항목과|0 *n* 그룹|  
 |메뉴 항목|[요소 단추](../../extensibility/buttons-element.md), IDE, 다른 Vspackage|1 ~ *n* 항목과 그룹|-0 *n* 그룹|  
 |단추|[요소 단추](../../extensibility/buttons-element.md), IDE, 다른 Vspackage|1 ~ *n* 항목과 그룹||  
 |콤보|[Combos 요소](../../extensibility/combos-element.md), IDE, 다른 Vspackage|1 ~ *n* 항목과 그룹||  
@@ -308,4 +303,3 @@ priority="0x0100" type="Menu">
   
 ## <a name="see-also"></a>참고 항목  
  [메뉴 및 명령 확장](../../extensibility/extending-menus-and-commands.md)
-

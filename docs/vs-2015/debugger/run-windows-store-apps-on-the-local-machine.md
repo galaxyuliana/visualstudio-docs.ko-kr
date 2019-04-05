@@ -1,14 +1,9 @@
 ---
 title: Windows 스토어 앱 실행 로컬 컴퓨터의 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,13 +13,13 @@ ms.assetid: e42a21a8-6423-4caf-b4dc-72b263e76019
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 40fafcbdacac8a63a4aba70526a473d091b35de8
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 021cad5a1da76dec7f1bbe169a7b3677170798f1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51766836"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970701"
 ---
 # <a name="run-windows-store-apps-on-the-local-machine"></a>로컬 컴퓨터에서 Windows 스토어 앱 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
  **Windows 스토어 앱의 실행 중인 인스턴스에서 Visual Studio로 전환 하려면**  
   
  로컬 컴퓨터에서 Windows 스토어 앱을 실행하고 단일 모니터만 사용하는 경우 앱을 실행 중인 상태로 두고 Visual Studio로 다시 전환하려고 할 수 있습니다. 예를 들어 이벤트를 대기 중이거나 긴 루프 또는 무한 루프에 갇힌 경우처럼 앱이 중단점에 도달할 수 없는 상태가 될 수 있습니다. Visual Studio로 되돌아가려면 Alt+Tab을 누릅니다.
-
-
-

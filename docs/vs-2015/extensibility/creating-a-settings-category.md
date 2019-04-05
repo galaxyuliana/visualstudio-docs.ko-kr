@@ -1,31 +1,26 @@
 ---
 title: Creating a Settings Category | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - profile settings, creating categories
 ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7
 caps.latest.revision: 40
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 30d7b4c95a02d841723a4ddf1dcf51dd0ef011b4
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: d73acf8f46966cd0de9eb779acb5a5c53ad4e329
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51730356"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985088"
 ---
 # <a name="creating-a-settings-category"></a>설정 범주 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 Visual Studio 설정 범주를 만들고 값을 저장 하 고 설정 파일에서 값을 복원 하려면 사용 합니다. 설정 범주는 "사용자 지정 설정 지점;"으로 표시 되는 관련된 속성의 그룹 즉,에서 확인란으로는 **가져오기 및 내보내기 설정을** 마법사. (에서 찾을 수 있습니다 합니다 **도구** 메뉴.) 설정 저장 되거나, 범주로 서 복원 되 고 개별 설정 마법사에 표시 되지 않습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+이 연습에서는 Visual Studio 설정 범주를 만들고 값을 저장 하 고 설정 파일에서 값을 복원 하려면 사용 합니다. 설정 범주는 "사용자 지정 설정 지점;"으로 표시 되는 관련된 속성의 그룹 즉,에서 확인란으로는 **가져오기 및 내보내기 설정을** 마법사. (에서 찾을 수 있습니다 합니다 **도구** 메뉴.) 설정 저장 되거나, 범주로 서 복원 되 고 개별 설정 마법사에 표시 되지 않습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  파생 시켜 설정 범주를 만들면는 <xref:Microsoft.VisualStudio.Shell.DialogPage> 클래스입니다.  
   
@@ -104,7 +99,7 @@ ms.locfileid: "51730356"
   
 4.  값을 변경 **OptionFloat** 3.1416입니다 하 고 **OptionInteger** 12입니다. **확인**을 클릭합니다.  
   
-5.  에 **도구** 메뉴에서 클릭 **설정 가져오기 및 내보내기**합니다.  
+5.  **도구** 메뉴에서 **설정 가져오기 및 내보내기**를 선택합니다.  
   
      합니다 **설정 가져오기 및 내보내기** 마법사가 나타납니다.  
   
@@ -160,4 +155,3 @@ ms.locfileid: "51730356"
 16. 했는지 **내 설정** 를 선택한 다음 클릭 **마침**합니다. 경우는 **전체 가져오기** 페이지에 표시 되 면 클릭 **닫기**합니다.  
   
 17. 에 **도구** 메뉴에서 클릭 **옵션**를 확장 **My Category**, 클릭 **그리드 페이지 내** 속성 범주 값이 있는지 확인 복원 되었습니다.
-

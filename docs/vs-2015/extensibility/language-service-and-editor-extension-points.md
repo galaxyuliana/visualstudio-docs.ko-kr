@@ -1,39 +1,34 @@
 ---
 title: 언어 서비스 및 편집기 확장 지점 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extension points
 ms.assetid: 91a6417e-a6fe-4bc2-9d9f-5173c634a99b
 caps.latest.revision: 34
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 0bcbef5094bd12392b7ea79865e1d28e2934a11e
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 80aed463b2d8ef9d083940a8966574e778623ddd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51743580"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983228"
 ---
 # <a name="language-service-and-editor-extension-points"></a>언어 서비스 및 편집기 확장 지점
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 편집기에는 대부분의 언어 서비스 기능을 포함 하 여 Framework MEF (Managed Extensibility) 구성 요소 파트로 확장할 수 있는 확장 지점을 제공 합니다. 다음은 이러한 주요 확장 포인트 범주:  
   
--   콘텐츠 형식  
+-   내용 유형  
   
 -   분류 유형 및 분류 형식  
   
 -   여백 및 스크롤 막대  
   
--   Tags  
+-   태그  
   
 -   선의 도구 영역  
   
@@ -98,7 +93,7 @@ internal static ContentTypeDefinition TestContentTypeDefinition;
   
 - ENC  
   
-- 내용은 찾기 결과  
+- FindResults  
   
 - F#  
   
@@ -283,7 +278,7 @@ internal class TestTaggerProvider : ITaggerProvider
 - <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>: adornment와 사용 하 여 연결 합니다.  
   
   > [!NOTE]
-  >  예는 <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>에서 HighlightWordTag 정의 참조 하십시오 [연습: 텍스트 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.  
+  >  예는 <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>에서 HighlightWordTag 정의 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.  
   
 - <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>: 확장 하거나 개요에서 축소할 수 있는 영역을 사용 하 여 연결 합니다.  
   
@@ -329,7 +324,7 @@ internal class HighlightWordFormatDefinition : MarkerFormatDefinition
  이 형식 정의 태그를 적용 하려면 클래스 (표시 이름 아님)의 이름 특성에 설정 이름을 참조 합니다.  
   
 > [!NOTE]
->  예는 <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>에서 HighlightWordFormatDefinition 클래스를 참조 하십시오 [연습: 텍스트 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.  
+>  예는 <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>에서 HighlightWordFormatDefinition 클래스 참조 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.  
   
 ## <a name="extending-adornments"></a>선의 도구 영역 확장  
  장식은 텍스트 보기에 표시 되는 텍스트에 추가할 수 있습니다 또는 텍스트 자체를 볼 수 있는 시각 효과 정의 합니다. 모든 형식으로 사용자 고유의 adornment를 정의할 수 있습니다 <xref:System.Windows.UIElement>합니다.  
@@ -338,7 +333,7 @@ internal class HighlightWordFormatDefinition : MarkerFormatDefinition
   
 - <xref:Microsoft.VisualStudio.Utilities.NameAttribute>: 이름 장식입니다.  
   
-- <xref:Microsoft.VisualStudio.Utilities.OrderAttribute>: adornment 레이어가 관련 하 여 장식의 순서입니다. 클래스 <xref:Microsoft.VisualStudio.Text.Editor.PredefinedAdornmentLayers> 네 가지 기본 계층을 정의 합니다: 선택, 개요, 캐럿을 및 텍스트입니다.  
+- <xref:Microsoft.VisualStudio.Utilities.OrderAttribute>: adornment 레이어가 관련 하 여 장식의 순서입니다. 클래스 <xref:Microsoft.VisualStudio.Text.Editor.PredefinedAdornmentLayers> 네 가지 기본 계층을 정의 합니다. 선택 영역, 개요, 캐럿을 및 텍스트입니다.  
   
   다음 예제에서는 adornment 계층 정의 내보내기 특성을 보여 줍니다.  
   
@@ -584,4 +579,3 @@ internal class TestIntellisenseControllerProvider : IIntellisenseControllerProvi
  IntelliSense 컨트롤러를 사용 하는 방법에 대 한 자세한 내용은 다음 연습을 참조 하세요.  
   
  [연습: QuickInfo 도구 설명 표시](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
-

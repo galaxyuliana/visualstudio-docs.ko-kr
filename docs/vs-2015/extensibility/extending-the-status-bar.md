@@ -1,27 +1,22 @@
 ---
 title: 상태 표시줄 확장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - status bars, about status bars
 - status bars, overview
 ms.assetid: f955115c-4c5f-45ec-b41b-365868c5ec0c
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: ea1ed437a58069039be144bbc5153f7596a6ac95
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f1ac7289489e1b7f3f2a047a10b6ace42fc15d94
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51733888"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970482"
 ---
 # <a name="extending-the-status-bar"></a>상태 표시줄 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -149,4 +144,3 @@ ms.locfileid: "51733888"
 4.  엽니다는 **도구** 하 고 Visual Studio의 실험적 인스턴스에서 메뉴 **TestStatusBarCommand 호출**합니다.  
   
      메시지 상자에 표시 되 면 맨 오른쪽에 있는 상태 표시줄의 애니메이션도 표시 됩니다. 메시지 상자를 닫고, 애니메이션이 사라집니다.
-

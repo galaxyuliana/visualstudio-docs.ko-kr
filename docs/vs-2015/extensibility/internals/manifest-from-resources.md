@@ -1,21 +1,17 @@
 ---
 title: 리소스에서 매니페스트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 0234109b-5dcb-4d9d-acb9-a63f8bd5699c
 caps.latest.revision: 5
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: d442686ab588932cac077a0b5fdc09a1a746c3d3
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: d67b80feb38e6f1c00c6cf4d1fc1d7915a33dbd9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51771869"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985798"
 ---
 # <a name="manifest-from-resources"></a>Manifest from Resources
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,7 +28,7 @@ ms.locfileid: "51771869"
 ||||  
 |-|-|-|  
 |**스위치 이름**|**참고**|**필수 또는 선택**|  
-|/resources|이미지 또는 디렉터리의 세미콜론으로 구분 된 목록입니다. 항상이 목록에는 매니페스트가 포함 될 이미지의 전체 목록을 포함 되어 있어야 합니다. 하나만 부분 목록을 지정 된 경우 제외 항목이 손실 됩니다.<br /><br /> 이미지 스트립 지정 된 리소스 파일을 사용 하는 경우 도구는 분할 별도 이미지로 각 subimage 매니페스트를 추가 하기 전에 합니다.<br /><br /> 이미지.png 파일로 이면 도구는 이미지에 대 한 올바른 특성을 채울 수 있도록 이름을 다음과 같이 형식는 것이 좋습니다: \<이름 >.\< 너비 >. \<높이 >.png입니다.|필수|  
+|/resources|이미지 또는 디렉터리의 세미콜론으로 구분 된 목록입니다. 항상이 목록에는 매니페스트가 포함 될 이미지의 전체 목록을 포함 되어 있어야 합니다. 하나만 부분 목록을 지정 된 경우 제외 항목이 손실 됩니다.<br /><br /> 이미지 스트립 지정 된 리소스 파일을 사용 하는 경우 도구는 분할 별도 이미지로 각 subimage 매니페스트를 추가 하기 전에 합니다.<br /><br /> 이미지.png 파일로 이면 도구는 이미지에 대 한 올바른 특성을 채울 수 있도록 다음과 같은 이름에 서식을 지정 하는 것이 좋습니다. \<Name>.\<Width>.\<Height>.png.|필수|  
 |/assembly|이름 (확장명 포함 안), 관리 되는 어셈블리 또는 리소스 (간의 상대적 매니페스트의 런타임 위치)를 호스트 하는 네이티브 어셈블리의 런타임 경로입니다.|필수|  
 |/manifest|생성 된.imagemanifest 파일에 부여할 이름입니다. 이 다른 위치에 파일을 만들려면 절대 또는 상대 경로 포함할 수도 있습니다. 기본 이름은 어셈블리 이름에 일치 합니다.<br /><br /> 기본값: \<현재 디렉터리 >\\< 어셈블리\>.imagemanifest|Optional|  
 |/guidName|모든 생성 된 매니페스트에서 이미지에 대 한 GUID 기호에 부여할 이름입니다.<br /><br /> 기본값: AssetsGuid|Optional|  
@@ -47,9 +43,9 @@ ms.locfileid: "51771869"
   
  **예제**  
   
--   ManifestFromResources /resources:D:\Images /assembly:My.Assembly.Name /isNative  
+-   ManifestFromResources /resources:D:\Images                       /assembly:My.Assembly.Name                       /isNative  
   
--   ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml /assembly:My.Assembly.Name /manifest:MyImageManifest.imagemanifest  
+-   ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /manifest:MyImageManifest.imagemanifest  
   
 -   ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml /assembly:My.Assembly.Name /guidName:MyImages /newGuids /newIds  
   
@@ -163,4 +159,3 @@ ms.locfileid: "51771869"
   <ImageLists />  
 </ImageManifest>  
 ```
-

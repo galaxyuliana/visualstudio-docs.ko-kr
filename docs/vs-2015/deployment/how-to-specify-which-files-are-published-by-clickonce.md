@@ -1,14 +1,9 @@
 ---
 title: '방법: ClickOnce를 통해 게시할 파일 지정 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 f1_keywords:
 - Microsoft.VisualStudio.Publish.BaseProvider.Dialog.File
 dev_langs:
@@ -22,13 +17,13 @@ ms.assetid: 579c134a-d50f-4e0c-8e05-2a4ff654896a
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 2a8d408aa7d7ae04d5ed83c2687ca34ce79e404e
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: f80dc31d2b572d54d0973d98f85f8538b1a805ae
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49268322"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982593"
 ---
 # <a name="how-to-specify-which-files-are-published-by-clickonce"></a>방법: ClickOnce를 통해 게시할 파일 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +40,7 @@ ms.locfileid: "49268322"
   
 -   기본적으로 데이터 파일 (.mdf 및.mdb) SQL Database 파일 및 XML 파일과 같은 데이터 파일로 표시 됩니다.  
   
--   어셈블리 (.dll 파일)에 대 한 참조는 참조를 추가할 때 다음과 같이 지정 됩니다: 경우 **로컬 복사** 됩니다 **False**, 필수 구성 요소 어셈블리는 기본적으로 표시 됩니다 (**필수 구성 요소 ( 자동)**) 응용 프로그램을 설치 하기 전에 GAC에 존재 해야 하는 합니다. 하는 경우 **로컬 복사** 됩니다 **True**, 어셈블리가 응용 프로그램 어셈블리로 기본적으로 표시 됩니다 (**포함 (자동)**) 설치 시 응용 프로그램 폴더로 복사 됩니다. COM 참조에 표시 됩니다는 **응용 프로그램 파일** 대화 상자 (써.ocx 파일) 경우에만 해당 **격리** 속성이로 설정 되어 **True**합니다. 기본적으로 포함 됩니다.  
+-   어셈블리 (.dll 파일)에 대 한 참조는 참조를 추가할 때 다음과 같이 표시 됩니다. 하는 경우 **로컬 복사** 됩니다 **False**, 필수 구성 요소 어셈블리는 기본적으로 표시 됩니다 (**필수 구성 요소 (자동)**) 응용 프로그램을 설치 하기 전에 GAC에 존재 해야 하는 합니다. 하는 경우 **로컬 복사** 됩니다 **True**, 어셈블리가 응용 프로그램 어셈블리로 기본적으로 표시 됩니다 (**포함 (자동)**) 설치 시 응용 프로그램 폴더로 복사 됩니다. COM 참조에 표시 됩니다는 **응용 프로그램 파일** 대화 상자 (써.ocx 파일) 경우에만 해당 **격리** 속성이로 설정 되어 **True**합니다. 기본적으로 포함 됩니다.  
   
 ### <a name="to-add-files-to-the-application-files-dialog-box"></a>Application Files Dialog Box에 파일을 추가 하려면  
   
@@ -57,7 +52,7 @@ ms.locfileid: "49268322"
   
 1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  클릭 합니다 **게시** 탭 합니다.  
+2.  **게시** 탭을 클릭합니다.  
   
 3.  클릭 합니다 **응용 프로그램 파일** 버튼을 클릭 합니다 **응용 프로그램 파일** 대화 상자.  
   
@@ -69,7 +64,7 @@ ms.locfileid: "49268322"
   
 1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  클릭 합니다 **게시** 탭 합니다.  
+2.  **게시** 탭을 클릭합니다.  
   
 3.  클릭 합니다 **응용 프로그램 파일** 버튼을 클릭 합니다 **응용 프로그램 파일** 대화 상자.  
   
@@ -81,7 +76,7 @@ ms.locfileid: "49268322"
   
 1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  클릭 합니다 **게시** 탭 합니다.  
+2.  **게시** 탭을 클릭합니다.  
   
 3.  클릭 합니다 **응용 프로그램 파일** 버튼을 클릭 합니다 **응용 프로그램 파일** 대화 상자.  
   
@@ -93,7 +88,7 @@ ms.locfileid: "49268322"
   
 1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  클릭 합니다 **게시** 탭 합니다.  
+2.  **게시** 탭을 클릭합니다.  
   
 3.  클릭 합니다 **응용 프로그램 파일** 버튼을 클릭 합니다 **응용 프로그램 파일** 대화 상자.  
   
@@ -110,7 +105,7 @@ ms.locfileid: "49268322"
   
 1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  클릭 합니다 **게시** 탭 합니다.  
+2.  **게시** 탭을 클릭합니다.  
   
 3.  클릭 합니다 **응용 프로그램 파일** 버튼을 클릭 합니다 **응용 프로그램 파일** 대화 상자.  
   
@@ -123,7 +118,4 @@ ms.locfileid: "49268322"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   
- [방법: 게시 마법사를 사용하여 ClickOnce 응용 프로그램 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
-
-
-
+ [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
