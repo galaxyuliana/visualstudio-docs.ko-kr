@@ -1,27 +1,22 @@
 ---
 title: Windows Installer 패키지를 authoring | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - .msi files, VSPackages
 - msi files, VSPackages
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: c51696cd41083e81fb1561eb8707c4f4844b32d5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 30c941fd4f3c281dfe363d284a559bafe055451c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51742650"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002809"
 ---
 # <a name="authoring-a-windows-installer-package"></a>Windows Installer 패키지 작성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,8 +49,7 @@ ms.locfileid: "51742650"
   
    도구 집합 XML 소스 파일에서 Windows Installer 패키지를 빌드합니다. 도구 집합 Microsoft 오픈 소스 프로젝트입니다. 소스 코드 및 실행 파일을 다운로드할 수 있습니다 [ http://sourceforge.net/projects/wix ](http://sourceforge.net/projects/wix)합니다.  
   
-  에 통합 하는 상용 제품에 대 한 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 를 사용 하 여는 [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)]를 참조 하십시오 [ http://visualstudiogallery.com ](http://visualstudiogallery.com/)합니다.  
+  에 통합 하는 상용 제품에 대 한 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 를 사용 하 여는 [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)]를 참조 하십시오 [ https://marketplace.visualstudio.com/ ](https://marketplace.visualstudio.com/)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Windows Installer를 사용하여 VSPackage 설치](../../extensibility/internals/installing-vspackages-with-windows-installer.md)
-

@@ -1,12 +1,9 @@
 ---
 title: 트랜잭션을 사용 하 여 데이터 저장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -21,13 +18,13 @@ ms.assetid: 8b835e8f-34a3-413d-9bb5-ebaeb87f1198
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4c73dd654a2d48be963e592d94685c74d3a16057
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
+manager: jillfra
+ms.openlocfilehash: 243170acd838b96efac6521a548596a021893e41
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50219577"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984434"
 ---
 # <a name="save-data-by-using-a-transaction"></a>트랜잭션을 사용하여 데이터 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +47,7 @@ ms.locfileid: "50219577"
   
 ### <a name="to-add-a-reference-to-the-systemtransactions-dll"></a>System.Transactions dll에 대 한 참조를 추가 하려면  
   
-1.  에 **프로젝트** 메뉴에서 **참조 추가**합니다.  
+1.  **프로젝트** 메뉴에서 **참조 추가**를 선택합니다.  
   
 2.  에 **.NET** 탭 (**SQL Server** SQL Server 프로젝트에 대 한 탭)을 선택 **System.Transactions**를 선택한 후 **확인**합니다.  
   
@@ -65,4 +62,3 @@ ms.locfileid: "50219577"
   
 ## <a name="see-also"></a>참고 항목  
  [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)
-

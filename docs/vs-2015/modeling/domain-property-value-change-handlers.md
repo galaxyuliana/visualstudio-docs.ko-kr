@@ -1,25 +1,22 @@
 ---
 title: 도메인 속성 값 변경 처리기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, overriding event handlers
 ms.assetid: 96d8f392-045e-4bc5-b165-fbaa470a3e16
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 7b79220a82ce2afc3cbafebedfbfea0c9caa649f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: ad8cc11947bdaa99fa7d3ee1d48576896859e598
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49232728"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "59002043"
 ---
 # <a name="domain-property-value-change-handlers"></a>도메인 속성 값 변경 처리기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -97,7 +94,7 @@ if (newValue > 10)
   
 ```  
   
-### <a name="alternative-technique-calculated-properties"></a>대체 기술: 계산된 속성  
+### <a name="alternative-technique-calculated-properties"></a>대체 기술: 계산 된 속성  
  위의 예에서는 OnValueChanged()를 사용하여 도메인 속성 간에 값을 전파하는 방법을 보여줍니다. 이 속성에는 자체 저장 값이 있습니다.  
   
  대신 파생 속성을 계산된 속성으로 정의할 수 있습니다. 이 경우 속성은 자체 저장소를 포함하지 않으며 속성의 값이 필요할 때마다 정의 기능을 평가합니다. 자세한 내용은 [사용자 지정 저장소 속성 및 계산](../modeling/calculated-and-custom-storage-properties.md)합니다.  
@@ -177,6 +174,3 @@ namespace msft.FieldChangeSample
   }  
 }  
 ```  
-  
-
-

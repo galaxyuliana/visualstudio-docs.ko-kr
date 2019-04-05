@@ -1,27 +1,22 @@
 ---
 title: 격리 셸 진입점 매개 변수 (c + +) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Shell [Visual Studio], isolated mode%2C Start entry point
 - Visual Studio shell, isolated mode%2C Start entry point
 ms.assetid: 18f4b18b-2173-4afa-ba0a-42fe33e61118
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 270a5c932429a518447d0029b05d3c9522db7387
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 313632661c3f73fdbd0f23616a068913c77508f8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51749163"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986423"
 ---
 # <a name="isolated-shell-entry-point-parameters-c"></a>격리 셸 진입점 매개 변수 (c + +)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ Visual Studio 셸 기반 응용 프로그램을 시작 하는 경우 Visual Stud
   
 - AllowsDroppedFilesOnMainWindow  
   
-- 응용 프로그램 이름  
+- AppName  
   
 - CommandLineLogo  
   
@@ -90,7 +85,7 @@ typedef int (__cdecl *STARTFCN)(LPSTR, LPWSTR, int, GUID *, WCHAR *pszSettings);
   
 -   -1  
   
--   위치  
+-   On  
   
 -   true  
   
@@ -102,4 +97,3 @@ typedef int (__cdecl *STARTFCN)(LPSTR, LPWSTR, int, GUID *, WCHAR *pszSettings);
 ## <a name="see-also"></a>참고 항목  
  [격리 셸 사용자 지정](../extensibility/customizing-the-isolated-shell.md)   
  [.pkgdef 파일](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)
-

@@ -1,27 +1,22 @@
 ---
 title: IntelliTrace 확장성을 위한 API 참조 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: reference
 helpviewer_keywords:
 - IntelliTrace, API reference
 ms.assetid: 46e6c648-293b-45c2-a29e-cca9c36cd865
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: b7194dfa00ba48cc24989f9b9eefdfca30856739
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: fd1387e02b96c9a5a4781e014641a49bbb5280ba
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51760280"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002440"
 ---
 # <a name="api-reference-for-intellitrace-extensibility"></a>IntelliTrace 확장성을 위한 API 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,10 +32,5 @@ ms.locfileid: "51760280"
  [IntelliTrace](../debugger/intellitrace.md)  
  IntelliTrace를 사용한 디버깅 방법에 대한 정보를 제공합니다.  
   
- [MSDN 코드 갤러리](http://go.microsoft.com/fwlink/?LinkId=166091)  
+ [MSDN 코드 갤러리](https://code.msdn.microsoft.com/)  
  IntelliTrace 확장성의 사용 방법을 보여 주는 샘플 응용 프로그램을 호스팅합니다.
-
-
-
-
-

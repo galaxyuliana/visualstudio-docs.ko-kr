@@ -1,25 +1,20 @@
 ---
 title: 명령줄 캡처 도구 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: db75b3a7-80b2-4a74-91d2-fd6e0f73b45d
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: d4cafc8c066025f87d233d8b6db8a97be1aa16f5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: be0b661c85165ff348eccf7d55507ce228100091
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51770683"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984942"
 ---
 # <a name="command-line-capture-tool"></a>명령줄 캡처 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,7 +105,7 @@ DXCap.exe –info
  재생 모드(-p)  
  기존 그래픽 로그 파일에서 이전에 캡처한 그래픽 이벤트를 재생합니다. 기본적으로는 전체 화면 앱에서 그래픽 로그 파일을 캡처했더라도 재생은 창에서 수행됩니다. 전체 화면 앱에서 파일을 캡처할 때 그래픽 로그만 전체 화면에서 재생이 수행 및 `–rawmode` 지정 됩니다.  
   
- 유효성 검사 모드 (`-v`)  
+ 유효성 검사 모드(`-v`)  
  하드웨어와 WARP 둘 다에서 캡처된 프레임을 재생한 다음 이미지 비교 기능을 사용하여 해당 결과를 비교하는 방법으로 렌더링 동작의 유효성을 검사합니다. 이 기능을 사용하여 렌더링에 영향을 주는 드라이버 문제를 신속하게 파악할 수 있습니다.  
   
  이러한 모드 이외에 dxcap.exe는 그래픽 정보 캡처 또는 재생을 수행하지 않는 두 가지 기타 기능을 수행합니다.  
@@ -142,10 +137,10 @@ DXCap.exe –file regression_test_12.vsglog –c BasicHLSL11.exe
 DXCap.exe –c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"  
 ```  
   
- 위 예제의 명령은 WebGL API를 사용 하 여 3 차원 콘텐츠를 렌더링 하는 www.fishgl.com에 있는 웹 페이지를 보는 동안 데스크톱 버전의 Internet Explorer에서 그래픽 정보를 캡처합니다.  
+ 위 예제의 명령은 WebGL API를 사용하여 3D 콘텐츠를 렌더링하는 www.fishgl.com의 웹 페이지를 보는 동안 데스크톱 버전 Internet Explorer에서 그래픽 정보를 캡처합니다.  
   
 > [!NOTE]
->  앱 다음에 표시 되는 명령줄 인수에 전달 하는 것을 사용 하기 전에 DXCap.exe 용 인수를 지정 해야 합니다는 `–c` 옵션입니다.  
+>  앱 다음에 표시되는 명령줄 인수는 앱에 전달되므로 `–c` 옵션을 사용하기 전에 DXCap.exe용 인수를 지정해야 합니다.  
   
 ### <a name="capture-graphics-information-from-a-windows-store-app"></a>Windows 스토어 앱에서 그래픽 정보 캡처  
  Windows 스토어 앱에서 그래픽 정보를 캡처할 수 있습니다.  
@@ -169,15 +164,15 @@ DXCap.exe –e map
  위의 명령은 "map"과 일치하는 Windows 스토어 앱을 열거합니다. 해당 출력은 다음과 같습니다.  
   
  **Package "Microsoft.BingMaps":**  
- **InstallDirectory : C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe**  
- **FullName: Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe**  
- **UserSID          : S-1-5-21-2127521184-1604012920-1887927527-5603533**  
- **이름: Microsoft.BingMaps**  
- **게시자: CN = Microsoft Corporation, O = Microsoft Corporation, L = Redmond, S = Washington, C = US**  
- **버전: 2.1.2914.1734**  
- **시작 가능한 응용 프로그램:**  
+ **InstallDirectory: C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe**  
+ **FullName         : Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe**  
+ **UserSID: S-1-5-21-2127521184-1604012920-1887927527-5603533**  
+ **Name             : Microsoft.BingMaps**  
+ **Publisher        : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US**  
+ **버전          : 2.1.2914.1734**  
+ **시작 가능한 애플리케이션:**  
  **Id: AppexMaps**  
- **Exe  : C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe\Map.exe**  
+ **Exe: C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe\Map.exe**  
  **IsWWA: No**  
  **(시작)를 AppSpec: DXCap.exe-c Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe,AppexMaps** 열거 된 각 앱에 대 한 출력의 마지막 줄에서 그래픽 정보 캡처를 사용할 수 있습니다 명령이 표시 됩니다.  
   
@@ -302,6 +297,3 @@ DXCap.exe –p regression_test_12.vsglog –toXML temp.xml
 ```  
   
 ## <a name="requirements"></a>요구 사항
-
-
-

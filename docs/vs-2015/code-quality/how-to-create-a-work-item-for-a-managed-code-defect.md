@@ -1,14 +1,9 @@
 ---
 title: '방법: 관리 코드 오류에 대 한 작업 항목 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords:
 - managed code, creating work items for code defects
 - code analysis, creating work items
@@ -17,12 +12,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: d0ed4ad9693ffbca44154f328a74b45810705457
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: 26dbe873d1552136c36748e638085bf39e5e530c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49235090"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983881"
 ---
 # <a name="how-to-create-a-work-item-for-a-managed-code-defect"></a>방법: 관리 코드 오류에 대한 작업 항목 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ ms.locfileid: "49235090"
 2.  가리킨 **작업 항목 만들기** 만들려는 작업 항목의 유형을 클릭 합니다.  
   
      버그 정보를 지정할 수 있도록 선택한 모든 경고에 대 한 단일 작업 항목 생성 됩니다.
-
-
-

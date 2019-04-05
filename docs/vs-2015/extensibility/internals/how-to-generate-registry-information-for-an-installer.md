@@ -1,14 +1,9 @@
 ---
 title: '방법: 설치 관리자에 대 한 레지스트리 정보를 생성 합니다. | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - registration, VSPackages
 - VSPackages, registering
@@ -16,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: b1b41012-a777-4ccf-81a6-3b41f0e96583
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 612b8eda676b7e27b226a99e04e7298df8c8fab7
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: b9a1d8e18802c91d1669d709d6236d69a4a7444c
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51782637"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002657"
 ---
-# <a name="how-to-generate-registry-information-for-an-installer"></a>방법: 설치 관리자에 대 한 레지스트리 정보를 생성 합니다.
+# <a name="how-to-generate-registry-information-for-an-installer"></a>방법: 설치 관리자에 대한 레지스트리 정보 생성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 관리 되는 VSPackage에 대 한 등록 매니페스트를 생성 하는 RegPkg.exe 유틸리티를 사용할 수 있습니다. 매니페스트는 Windows Installer 설치 패키지를 통합할 수 있습니다. RegPkg도 파일을 생성할 수에 따라 설치 원본 파일에 포함 될 수 있는 합니다 [Windows Installer XML 도구 집합](http://go.microsoft.com/fwlink/?LinkId=62238)합니다.  
@@ -188,6 +183,5 @@ ms.locfileid: "51782637"
     ```  
   
 ## <a name="see-also"></a>참고 항목  
- [Vspackage 등록](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd)   
+ [Vspackage 등록](registering-vspackages.md)   
  [VSPackage](../../extensibility/internals/vspackages.md)
-

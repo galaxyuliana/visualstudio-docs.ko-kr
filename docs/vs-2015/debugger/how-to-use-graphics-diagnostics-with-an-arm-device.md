@@ -1,25 +1,20 @@
 ---
 title: '방법: ARM 장치의 그래픽 진단 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: 346fd3c0-9e92-4ab8-bb3b-1aa9000a2483
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 4c5122cb009b3624388ff8825b34cae8ca44a546
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f2a606d6b22dabc8bab0477a240499021a4312c3
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51728662"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002456"
 ---
 # <a name="how-to-use-graphics-diagnostics-with-an-arm-device"></a>방법: ARM 장치의 그래픽 진단 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ ms.locfileid: "51728662"
   
 1.  설치 합니다 [ARM 키트 정책](http://msdn.microsoft.com/windows/desktop/dn469188) ARM 기반 장치에서.  
   
-2.  설치 합니다 [원격 디버깅 도구](http://go.microsoft.com/fwlink/?LinkId=393086) ARM 기반 장치에서.  
+2.  설치 합니다 [원격 디버깅 도구](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015) ARM 기반 장치에서.  
   
 > [!IMPORTANT]
 >  Windows Phone 8.1 장치의 경우 개발용으로 사용자의 휴대폰을 등록해야 할 수 있습니다. 그렇게 하려면 등록된 개발자여야 합니다. 자세한 내용은 [배포 및 Windows Phone 8 용 앱을 실행 하는 방법을](http://msdn.microsoft.com/library/windowsphone/develop/ff402565.aspx)합니다.  
@@ -52,7 +47,4 @@ ms.locfileid: "51728662"
   
 ## <a name="see-also"></a>참고 항목  
  [원격 컴퓨터에서 Windows 스토어 앱 실행](../debugger/run-windows-store-apps-on-a-remote-machine.md)   
- [방법: 그래픽 진단 재생 컴퓨터 변경](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md)
-
-
-
+ [방법: 그래픽 진단 재생 머신 변경](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md)

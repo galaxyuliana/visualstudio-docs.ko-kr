@@ -1,13 +1,8 @@
 ---
 title: 원격 디버깅 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-debug
 ms.topic: conceptual
 f1_keywords:
 - vs.debug.remote.overview
@@ -23,18 +18,18 @@ ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
 caps.latest.revision: 81
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 0ac1bbe2cc1832d0b34706f88b4df583d117149c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: a22442e390929e4b378d3e2e39d32656ff59e951
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51799277"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002768"
 ---
 # <a name="remote-debugging"></a>Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-다른 컴퓨터에 배포된 Visual Studio 응용 프로그램을 디버그할 수 있습니다.  이렇게 하려면 Visual Studio 원격 디버거를 사용합니다.  
+다른 컴퓨터에 배포된 Visual Studio 애플리케이션을 디버그할 수 있습니다.  이렇게 하려면 Visual Studio 원격 디버거를 사용합니다.  
   
  여기에 제공된 정보는 Windows 데스크톱 응용 프로그램 및 ASP.NET 응용 프로그램에 적용됩니다.  원격 디버깅 Windows 스토어 앱 및 Azure 앱에 대 한 정보를 참조 하세요 [Windows 스토어 및 Azure 앱에서 원격 디버깅](#bkmk_winstoreAzure)합니다.  
   
@@ -67,7 +62,7 @@ ms.locfileid: "51799277"
 
 원격 디버거를 찾을 수 있습니다 (**msvsmon.exe**) Visual Studio 2015 Community, Professional 또는 Enterprise를 이미 설치 된 컴퓨터에 있습니다. 대부분의 시나리오에 대 한 원격 디버깅을 설정 하는 가장 쉬운 방법은 파일 공유에서 원격 디버거 (msvsmon.exe)를 실행 하는 것입니다. 사용 제한 사항에 대 한 원격 디버거의 도움말 페이지를 참조 하세요. (**도움말 / 사용법** 원격 디버거의).
 
-1. 찾을 **msvsmon.exe** Visual Studio 버전과 일치 하는 디렉터리에 있습니다. Visual Studio 2015:
+1. 찾을 **msvsmon.exe** Visual Studio 버전과 일치 하는 디렉터리에 있습니다. For Visual Studio 2015:
 
       **Program Files\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger\x86\msvsmon.exe**
       
@@ -186,13 +181,13 @@ ms.locfileid: "51799277"
 ## <a name="remote-debug-a-visual-c-project"></a>Visual C++ 프로젝트 원격 디버그  
  다음 절차에서는 이름 및 프로젝트의 경로 C:\remotetemp\MyMfc이 고 원격 컴퓨터의 이름이 **MJO DL**합니다.  
   
-1. 명명 된 MFC 응용 프로그램 만들기 **mymfc 합니다.**  
+1. **mymfc**라는 MFC 애플리케이션을 만듭니다.  
   
-2. 쉽게 도달할 수 있는, 예를 응용 프로그램의 어딘가에 중단점을 설정 **MainFrm.cpp**를 시작할 때 `CMainFrame::OnCreate`합니다.  
+2. `CMainFrame::OnCreate`의 시작 부분에서 쉽게 도달할 수 있는 애플리케이션의 임의 위치(예: **MainFrm.cpp**)에 중단점을 설정합니다.  
   
-3. 솔루션 탐색기에서 마우스 오른쪽 단추로 클릭 프로젝트를 마우스 **속성**합니다. 엽니다는 **디버깅** 탭 합니다.  
+3. 솔루션 탐색기에서 마우스 오른쪽 단추로 클릭 프로젝트를 마우스 **속성**합니다. **디버깅** 탭을 엽니다.  
   
-4. 설정 된 **실행할 디버거** 하 **원격 Windows 디버거**합니다.  
+4. **실행할 디버거**를 **원격 Windows 디버거**로 설정합니다.  
   
     ![RemoteDebuggingCPlus](../debugger/media/remotedebuggingcplus.png "RemoteDebuggingCPlus")  
   
@@ -202,7 +197,7 @@ ms.locfileid: "51799277"
    |-|-|  
    |원격 명령|C:\remotetemp\mymfc.exe|  
    |작업 디렉터리|C:\remotetemp|  
-   |원격 서버 이름|MJO DL:*portnumber*|  
+   |원격 서버 이름|MJO-DL:*portnumber*|  
    |연결|Windows 인증을 사용한 원격|  
    |디버거 형식|네이티브 전용|  
    |배포 디렉터리|C:\remotetemp.|  
@@ -212,7 +207,7 @@ ms.locfileid: "51799277"
   
 6. 솔루션 탐색기에서 솔루션을 마우스 오른쪽 단추로 클릭 하 고 선택 **Configuration Manager**합니다.  
   
-7. 에 대 한 합니다 **디버그** 구성을 선택 합니다 **배포** 확인란 합니다.  
+7. **디버그** 구성의 경우 **배포** 확인란을 선택합니다.  
   
     ![RemoteDebugCplusDeploy](../debugger/media/remotedebugcplusdeploy.png "RemoteDebugCplusDeploy")  
   
@@ -227,14 +222,14 @@ ms.locfileid: "51799277"
 11. Visual Studio 컴퓨터에서 실행이 중단점에서 중지된 것이 표시됩니다.  
   
     > [!TIP]
-    >  또는 별도의 단계로 파일을 배포할 수 있습니다. 에 **솔루션 탐색기** 마우스 오른쪽 단추로 클릭 합니다 **mymfc** 노드를 선택한 후 **배포**.  
+    >  또는 별도의 단계로 파일을 배포할 수 있습니다. **솔루션 탐색기**에서 **mymfc** 노드를 마우스 오른쪽 단추로 클릭하고 **배포**를 선택합니다.  
   
-    응용 프로그램에서 사용해야 하는 비코드 파일이 있는 경우 Visual Studio 프로젝트에 포함해야 합니다. 추가 파일을 프로젝트 폴더를 만듭니다 (에 **솔루션 탐색기**, 클릭 **추가 / 새 폴더**.) 다음 폴더에 파일을 추가 (에 **솔루션 탐색기**, 클릭 **추가 하거나 기존 항목**, 파일을 선택 합니다.). 에 **속성** 각 파일에 대 한 페이지에서 설정 **출력 디렉터리로 복사** 하 **항상 복사**합니다.  
+    응용 프로그램에서 사용해야 하는 비코드 파일이 있는 경우 Visual Studio 프로젝트에 포함해야 합니다. 추가 파일을 프로젝트 폴더를 만듭니다 (에 **솔루션 탐색기**, 클릭 **추가 / 새 폴더**.) 다음 폴더에 파일을 추가 (에 **솔루션 탐색기**, 클릭 **추가 하거나 기존 항목**, 파일을 선택 합니다.). 각 파일에 대한 **속성** 페이지에서 **출력 디렉터리에 복사**를 **항상 복사**로 설정합니다.  
   
 ## <a name="remote-debug-a-visual-c-or-visual-basic-project"></a>Visual C# 또는 Visual Basic 프로젝트 원격 디버그  
  디버거는 원격 컴퓨터에 Visual C# 또는 Visual Basic 데스크톱 응용 프로그램을 배포할 수 없지만 다음과 같이 원격으로 계속 디버그할 수 있습니다. 다음 절차 라는 컴퓨터에서 디버깅 하 려 한다고 가정 **MJO DL**이전 그림에 나와 있는 것 처럼 합니다.
   
-1. 이라는 WPF 프로젝트를 만듭니다 **MyWpf**합니다.  
+1. **MyWpf**라는 WPF 프로젝트를 만듭니다.  
   
 2. 쉽게 도달할 수 있는 코드의 임의 위치에 중단점을 설정합니다.  
   
@@ -242,19 +237,19 @@ ms.locfileid: "51799277"
   
 3. 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다.  
   
-4. 에 **속성** 페이지를 선택 합니다 **디버그** 탭 합니다.  
+4. **속성** 페이지에서 **디버그** 탭을 선택합니다.  
   
     ![RemoteDebuggerCSharp](../debugger/media/remotedebuggercsharp.png "RemoteDebuggerCSharp")  
   
-5. 있는지 확인 합니다 **작업 디렉터리** 텍스트 상자가 비어 있습니다.  
+5. **작업 디렉터리** 텍스트 상자가 비어 있는지 확인합니다.  
   
 6. 선택 **사용 하 여 원격 컴퓨터**, 유형과 **MJO-DL:4020** 텍스트 상자에 있습니다. (4020는 원격 디버거 창에 표시 된 포트 번호)입니다.  
   
-7. 했는지 **네이티브 코드 디버깅 사용** 선택 하지 않으면.  
+7. **네이티브 코드 디버깅 사용**이 선택되지 않았는지 확인합니다.  
   
 8. 프로젝트를 빌드합니다.  
   
-9. 동일한 경로 원격 컴퓨터에서 폴더를 만듭니다는 **디버그** Visual Studio 컴퓨터의 폴더에:  **\<소스 경로 > \MyWPF\MyWPF\bin\Debug**합니다.  
+9. Visual Studio 컴퓨터의 **Debug** 폴더와 동일한 경로인 폴더를 원격 컴퓨터에 만듭니다(**\<source path>\MyWPF\MyWPF\bin\Debug**).  
   
 10. Visual Studio 컴퓨터에서 방금 빌드한 실행 파일을 원격 컴퓨터에서 새로 만든 폴더에 복사합니다.
   
@@ -279,21 +274,21 @@ ms.locfileid: "51799277"
   
 15. Visual Studio 컴퓨터에서 실행이 중단점에서 중지된 것이 표시됩니다.
   
-    응용 프로그램에서 사용해야 하는 비코드 파일이 있는 경우 Visual Studio 프로젝트에 포함해야 합니다. 추가 파일을 프로젝트 폴더를 만듭니다 (에 **솔루션 탐색기**, 클릭 **추가 / 새 폴더**.) 다음 폴더에 파일을 추가 (에 **솔루션 탐색기**, 클릭 **추가 하거나 기존 항목**, 파일을 선택 합니다.). 에 **속성** 각 파일에 대 한 페이지에서 설정 **출력 디렉터리로 복사** 하 **항상 복사**합니다.
+    응용 프로그램에서 사용해야 하는 비코드 파일이 있는 경우 Visual Studio 프로젝트에 포함해야 합니다. 추가 파일을 프로젝트 폴더를 만듭니다 (에 **솔루션 탐색기**, 클릭 **추가 / 새 폴더**.) 다음 폴더에 파일을 추가 (에 **솔루션 탐색기**, 클릭 **추가 하거나 기존 항목**, 파일을 선택 합니다.). 각 파일에 대한 **속성** 페이지에서 **출력 디렉터리에 복사**를 **항상 복사**로 설정합니다.
   
 ## <a name="set-up-debugging-with-remote-symbols"></a>원격 기호를 사용한 디버깅 설정  
  Visual Studio 컴퓨터에서 생성하는 기호를 사용하여 코드를 디버그할 수 있습니다. 로컬 기호를 사용하는 경우 원격 디버거의 성능이 훨씬 더 빠릅니다.  원격 기호를 사용해야 경우 원격 컴퓨터에서 기호를 찾도록 원격 디버깅 모니터에 지시해야 합니다.  
   
  Visual Studio 2013 Update 2부터 다음 msvsmon 명령줄 스위치를 통해 관리 코드에 원격 기호를 사용할 수 있습니다. `Msvsmon / /FallbackLoadRemoteManagedPdbs`  
   
- 자세한 내용은 원격 디버깅 도움말을 참조 하십시오 (키를 누릅니다 **F1** 원격 디버거 창이 나 클릭 **도움말 / 사용법**). 자세한 정보를 찾을 수 있습니다 [.NET 원격 기호 로드 변경 내용에서 Visual Studio 2012 및 2013](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)  
+ 자세한 내용은 원격 디버깅 도움말을 참조 하십시오 (키를 누릅니다 **F1** 원격 디버거 창이 나 클릭 **도움말 / 사용법**). [Visual Studio 2012 및 2013의 .NET 원격 기호 로드 변경 내용](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)에서 자세한 내용을 확인할 수 있습니다.  
   
 ##  <a name="bkmk_winstoreAzure"></a> Windows 스토어 및 Azure 앱에서 원격 디버깅  
  Windows 스토어 앱을 사용 하 여 원격 디버깅에 대 한 자세한 내용은 [Visual Studio에서 원격 장치의 Windows 스토어 앱 디버깅 및 테스트](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx)합니다.  
   
  Azure의 디버깅에 대한 자세한 내용은 다음 항목 중 하나를 참조하세요.  
   
--   [클라우드 서비스 또는 가상 컴퓨터에서 Visual Studio 디버깅](http://msdn.microsoft.com/library/azure/ff683670.aspx)  
+-   [클라우드 서비스 또는 가상 컴퓨터에서 Visual Studio 디버깅](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md)  
   
 -   [Visual Studio에서.NET 백 엔드 디버깅](http://blogs.msdn.com/b/azuremobile/archive/2014/03/14/debugging-net-backend-in-visual-studio.aspx)  
   
@@ -301,10 +296,7 @@ ms.locfileid: "51799277"
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)   
- [원격 디버깅용 Windows 방화벽 구성](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
+ [원격 디버깅을 위해 Windows 방화벽 구성](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
  [원격 IIS 컴퓨터의 원격 디버깅 ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)  
  [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)
-
-
-

@@ -1,25 +1,20 @@
 ---
 title: XML 코드 조각 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 348dbf64-3f09-4fff-b47a-a7ecdf3221cc
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: bf1ebeb70931e2e12f056ecfbaa45a6833e031df
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: c6c3155ee65031b57ec70cc7f22ed53cdef67ebf
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49183965"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984055"
 ---
 # <a name="xml-snippets"></a>XML 조각
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,12 +41,12 @@ XML 편집기 기능 이라는 기능을 제공 *XML 조각*, XML 파일을 보�
   
  두 가지 방법으로 조각을 삽입할 수 있습니다. 합니다 **코드 조각 삽입** 명령은 커서 위치에서 XML 조각을 삽입 합니다. 합니다 **감싸기** 명령을 선택한 텍스트 주위의 XML 조각을 래핑합니다. 두 명령을 사용할 수 있습니다에서 합니다 **IntelliSense** 아래에 하위 메뉴가 합니다 **편집** 메뉴에서 또는 편집기 바로 가기 메뉴에서.  
   
- 자세한 내용은 [방법: 사용 하 여 XML 조각](../xml-tools/how-to-use-xml-snippets.md)합니다.  
+ 자세한 내용은 [방법: XML 조각 사용](../xml-tools/how-to-use-xml-snippets.md)합니다.  
   
 ## <a name="schema-generated-xml-snippets"></a>스키마에 의해 생성된 XML 조각  
  XML 편집기에서는 XML 스키마에서 XML 조각을 생성할 수 있는 기능을 제공합니다. 이 기능을 사용하면 요소의 스키마 정보에서 생성된 XML 요소로 해당 요소를 채울 수 있습니다.  
   
- 자세한 내용은 [방법: XML 조각에서 an XML 스키마를 생성할](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)합니다.  
+ 자세한 내용은 [방법: XML 스키마에서 XML 조각 생성](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)합니다.  
   
 ## <a name="create-new-xml-snippets"></a>새 XML 조각 만들기  
  기본적으로 [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio에 포함된 조각 외에도 사용자가 직접 XML 조각을 만들어 사용할 수 있습니다.  
@@ -60,6 +55,3 @@ XML 편집기 기능 이라는 기능을 제공 *XML 조각*, XML 파일을 보�
   
 ## <a name="see-also"></a>참고 항목  
  [XML 편집기](../xml-tools/xml-editor.md)
-
-
-

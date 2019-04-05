@@ -1,14 +1,9 @@
 ---
 title: '방법: 사용자 계정으로 작업자 프로세스 실행 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -24,13 +19,13 @@ ms.assetid: b58e97b1-e62a-4318-aea4-52276ea20735
 caps.latest.revision: 35
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: d5d9e9cbadd2b7154eeb84bad99239e0b026eecd
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: da7f0374c8185ef091b89dde99f3c6e053458480
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51734449"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58971914"
 ---
 # <a name="how-to-run-the-worker-process-under-a-user-account"></a>방법: 사용자 계정으로 작업자 프로세스 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "51734449"
   
 1.  컴퓨터에서 런타임을 설치한 경로에 있는 CONFIG 폴더의 machine.config 파일을 엽니다.  
   
-2.  찾을 합니다 &lt;processModel&gt; 섹션 하 고 사용자 이름 및 암호 특성 이름 및 원하는 aspnet_wp.exe를 실행할 사용자 계정의 암호를 변경 합니다.  
+2.  &lt;processModel&gt; 섹션을 찾아 사용자 및 암호 특성을 aspnet_wp.exe를 실행할 사용자 계정의 이름과 암호로 변경합니다.  
   
 3.  machine.config 파일을 저장합니다.  
   
@@ -81,7 +76,7 @@ ms.locfileid: "51734449"
   
     **사용자, 컴퓨터 또는 그룹 선택** 대화 상자가 나타납니다.  
   
-10. **선택할 개체 이름 입력** 상자에 사용자 이름을 입력하고 **확인**을 클릭합니다. 사용자 이름은 DomainName\UserName 형식이어야 합니다.  
+10. **선택할 개체 이름 입력** 상자에 사용자 이름을 입력하고 **확인**을 클릭합니다. 사용자 이름에는 다음이 형식을 따라야 합니다. DomainName\UserName.  
   
 11. **Temporary ASP.NET Files 권한 항목** 대화 상자에서 사용자에게 **모든 권한**을 부여한 다음 **확인** 을 클릭하여 **Temporary ASP.NET Files 권한 항목** 대화 상자를 닫습니다.  
   
@@ -91,8 +86,3 @@ ms.locfileid: "51734449"
   
 ## <a name="see-also"></a>참고 항목  
 [ASP.NET 디버깅: 시스템 요구 사항](../debugger/aspnet-debugging-system-requirements.md)  
-  
-
-
-
-

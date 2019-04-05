@@ -1,14 +1,9 @@
 ---
 title: '방법: 프로젝트 템플릿에 마법사 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
 - project templates [Visual Studio], wizards
 - Visual Studio templates, wizards
@@ -18,13 +13,13 @@ helpviewer_keywords:
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 650b9c360013d06216e607269f77afd24f3cc22c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 801f6f02c94b60b95949d41cb1c762516d2c58b5
+ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51783762"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "59003041"
 ---
 # <a name="how-to-use-wizards-with-project-templates"></a>방법: 프로젝트 템플릿에 마법사 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -228,7 +223,7 @@ Visual Studio에서는 사용자가 템플릿을 사용하여 프로젝트를 �
   
 9. 찾을 합니다 **sn.exe** 도구를 서명 합니다. 예를 들어, Windows 10 64 비트 운영 체제에서 일반적인 경로 다음과 같습니다.  
   
-     **C:\Program Files (x86) \Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools**  
+     **C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools**  
   
      도구를 찾을 수 없는 경우 실행 **여기서 /R 합니다.  sn.exe** 명령 창에 있습니다. 경로 기록해 둡니다.  
   
@@ -244,7 +239,7 @@ Visual Studio에서는 사용자가 템플릿을 사용하여 프로젝트를 �
   
      다시 따옴표를 잊지 마십시오. 다음과 같은 출력에 줄을 표시 됩니다.  
   
-     **공개 키 토큰은 <token>**  
+     **공개 키 토큰은 \<토큰 >**  
   
      이 값을 기록해 둡니다.  
   

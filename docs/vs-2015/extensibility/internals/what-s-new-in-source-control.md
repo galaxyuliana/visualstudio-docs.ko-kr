@@ -1,29 +1,25 @@
 ---
-title: 새로운&#39;소스 제어의 새로운 | Microsoft Docs
-ms.custom: ''
+title: 소스 제어의 새로운 기능
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - what's new [Visual Studio SDK], source control
 - source control [Visual Studio SDK], what's new
 ms.assetid: bcf85418-18fb-4824-9dae-d14bf3d56a77
 caps.latest.revision: 28
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 9a108acb2ae32b64292cd819c75de4726f067a00
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 27623c22664e9d3c6b651615465e6abe812ea408
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51752461"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002608"
 ---
-# <a name="what39s-new-in-source-control"></a>새로운&#39;소스 제어 기능
+# <a name="what39s-new-in-source-control-in-visual-studio-2015"></a>새로운&#39;Visual Studio 2015에서 소스 제어 기능
+
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] 소스 제어 VSPackage를 구현 하 여 긴밀히 통합된 원본 제어 솔루션을 제공할 수 있습니다. 이 섹션에서는 소스 제어 Vspackage의 기능을 설명 하 고 구현 하는 단계 개요를 제공 합니다.  
@@ -56,4 +52,3 @@ ms.locfileid: "51752461"
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>   
  [개요](../../extensibility/internals/source-control-integration-overview.md)   
  [소스 제어 VSPackage 만들기](../../extensibility/internals/creating-a-source-control-vspackage.md)
-

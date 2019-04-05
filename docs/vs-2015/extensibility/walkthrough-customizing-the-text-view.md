@@ -1,28 +1,23 @@
 ---
 title: '연습: 텍스트 뷰 사용자 지정 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - customizing the view
 ms.assetid: 32d32ac8-22ff-4de7-af69-bd46ec4ad9bf
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 38cbd0117f5f49666ee5da42d0f60dadf451ffda
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f141fb6a29a012dbd185c258610c3e4b1d362629
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51781818"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985109"
 ---
-# <a name="walkthrough-customizing-the-text-view"></a>연습: 텍스트 뷰 사용자 지정
+# <a name="walkthrough-customizing-the-text-view"></a>연습: 텍스트 보기 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 편집기 서식 맵에에서 다음 속성 중 하나를 수정 하 여 텍스트 뷰를 사용자 지정할 수 있습니다.  
@@ -100,4 +95,3 @@ ms.locfileid: "51781818"
   
 ## <a name="see-also"></a>참고 항목  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)
-

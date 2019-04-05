@@ -1,14 +1,9 @@
 ---
 title: 확장 속성, 작업 목록, 출력 및 옵션 Windows | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - properties pane
 - task list
@@ -19,13 +14,13 @@ helpviewer_keywords:
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
 caps.latest.revision: 38
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 327d218f22b4629ec919a20ef2800d445e2d652f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: d0b6f09edf8f22f3a1e841ee4624c76dcb547a37
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51737830"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "59002049"
 ---
 # <a name="extending-the-properties-task-list-output-and-options-windows"></a>속성, 작업 목록, 출력 및 옵션 창 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -512,4 +507,3 @@ Visual Studio의 모든 도구 창에 액세스할 수 있습니다. 이 연습�
 8.  속성 중 하나를 변경 하 고 enter 키를 누릅니다.  
   
      항목 목록 상자에서 업데이트 됩니다.
-

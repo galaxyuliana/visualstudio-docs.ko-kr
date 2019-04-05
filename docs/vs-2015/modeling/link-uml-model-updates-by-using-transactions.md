@@ -1,25 +1,22 @@
 ---
 title: 트랜잭션을 사용 하 여 UML 모델 업데이트 연결 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML API, transactions
 ms.assetid: a1df6c38-a3d1-4a3f-82bc-c8f363ab916e
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: fb8bb5dfd5238871324b786f120d618d70f14b43
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 640217b9ee9a8cb51ed11931d0d66b2c98e0a165
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51800408"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986323"
 ---
 # <a name="link-uml-model-updates-by-using-transactions"></a>트랜잭션을 사용하여 UML 모델 업데이트 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +32,7 @@ Visual Studio에서 UML 디자이너 확장을 정의할 때 몇 가지 변경 �
 ## <a name="to-group-changes-into-a-single-transaction"></a>변경 내용을 단일 트랜잭션으로 그룹화하려면  
  프로젝트 참조에 이 .NET 어셈블리가 포함되어 있는지 확인합니다.  
   
- **Microsoft.VisualStudio.Modeling.Sdk 합니다. [version].dll**  
+ **Microsoft.VisualStudio.Modeling.Sdk.[version].dll**  
   
  클래스 내에서 <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ILinkedUndoContext> 형식의 가져온 속성을 선언합니다.  
   
@@ -115,6 +112,3 @@ Visual Studio에서 UML 디자이너 확장을 정의할 때 몇 가지 변경 �
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)   
  [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

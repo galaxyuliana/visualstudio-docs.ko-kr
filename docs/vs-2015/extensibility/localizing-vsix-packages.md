@@ -1,14 +1,9 @@
 ---
 title: VSIX 패키지 지역화 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - localize package
 - localize extension
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 2f6bc666e244fed2bc2922ce4878434730a643e5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 2392f77ef3b78176dd33defd012b828d7a918b5b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51750596"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971589"
 ---
 # <a name="localizing-vsix-packages"></a>VSIX 패키지 지역화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ ms.locfileid: "51750596"
   
  MyExtension.dll  
   
- extension.vsixmanifest  
+ Extension.vsixmanifest  
   
  [Content_Types].xml  
   
@@ -52,7 +47,7 @@ ms.locfileid: "51750596"
 >  VSIX에서 지 원하는 프로젝트 템플릿을 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] VSIX 매니페스트를 생성 하 고 source.extension.vsixmanifest 라는 이름을 지정 합니다. Visual Studio에서 프로젝트를 빌드하고, 하는 경우 해당 파일의 콘텐츠를 복사 Extension.VsixManifest VSIX 패키지에 합니다.  
   
 ## <a name="the-extensionvsixlangpack-file"></a>Extension.vsixlangpack 파일  
- Extension.vsixlangpack 파일은 다음과 같습니다 합니다 [VSIX 언어 팩 스키마](../extensibility/vsx-language-pack-schema-reference.md)합니다. 이 스키마에는 [VSIXLanguagePack](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md) 루트 요소가 있고 이러한 4 명의 자식 요소: [LocalizedName](../extensibility/localizedname-element-vsix-language-pack-schema.md)합니다 [LocalizedDescription](../extensibility/localizeddescription-element-vsix-language-pack-schema.md), [MoreInfoURL](../extensibility/moreinfourl-element-vsix-language-pack-schema.md), 및 [라이선스](../extensibility/license-element-vsix-language-pack-schema.md)합니다. 이러한 자식 요소에 해당 합니다 `Name`, `Description`, `MoreInfoURL`, 및 `License` 의 자식 요소는 `Identifier` Extension.vsixmanifest 파일의 요소입니다.  
+ Extension.vsixlangpack 파일은 다음과 같습니다 합니다 [VSIX 언어 팩 스키마](../extensibility/vsx-language-pack-schema-reference.md)합니다. 이 스키마에는 [VSIXLanguagePack](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md) 루트 요소가 있고 이러한 4 명의 자식 요소: [LocalizedName](../extensibility/localizedname-element-vsix-language-pack-schema.md), [LocalizedDescription](../extensibility/localizeddescription-element-vsix-language-pack-schema.md)합니다 [MoreInfoURL](../extensibility/moreinfourl-element-vsix-language-pack-schema.md), 및 [라이선스](../extensibility/license-element-vsix-language-pack-schema.md)합니다. 이러한 자식 요소에 해당 합니다 `Name`, `Description`, `MoreInfoURL`, 및 `License` 의 자식 요소는 `Identifier` Extension.vsixmanifest 파일의 요소입니다.  
   
  Vsixlangpack 파일을 만들 때 설정 해야 합니다 `Include in Vsix` 속성을 `true`입니다. 그렇지 않으면 지역화 된 설치 텍스트는 무시 됩니다.  
   
@@ -101,4 +96,3 @@ ms.locfileid: "51750596"
  [VSIX LanguagePack 요소](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)   
  [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)   
  [VSIX 프로젝트 템플릿](../extensibility/vsix-project-template.md)
-

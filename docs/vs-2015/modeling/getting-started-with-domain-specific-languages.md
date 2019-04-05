@@ -1,30 +1,27 @@
 ---
 title: 도메인별 언어 시작 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 024392a2-2c04-404f-a27b-7273553c3b60
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 29699609ee095c7e95434492afc531869453da4a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 3ac51765fd89324c3d4098a4aa92afc9e5bbc1bf
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49877772"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002472"
 ---
 # <a name="getting-started-with-domain-specific-languages"></a>도메인별 언어 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목에서는 정의 하 고 Visual Studio 용 모델링 SDK를 사용 하 여 만든 도메인 특정 언어 (DSL)를 사용 하 여 기본적인 개념을 설명 합니다.  
   
- Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있는: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
+ Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있습니다. [Visualizaton 및 모델링 SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
   
 ## <a name="what-can-you-do-with-a-domain-specific-language"></a>도메인 특정 언어를 사용 하 여 수행할 수 있습니까?  
  도메인 특정 언어는 노테이션 일반적으로 그래픽 특정 용도로 사용 하도록 디자인 된 경우 반면, UML 같은 언어는 범용입니다. DSL의 모델 요소 및 해당 관계 및 화면에 표시 되는 방식을 유형을 정의할 수 있습니다.  
@@ -46,7 +43,7 @@ ms.locfileid: "49877772"
 |-|-|  
 |[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
 |[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
-|Visual Studio 용 모델링 SDK|[MSDK를 다운로드 합니다.](http://www.microsoft.com/download/details.aspx?id=40754)|  
+|Visual Studio 용 모델링 SDK|[MSDK를 다운로드 합니다.](https://www.microsoft.com/download/details.aspx?id=48148)|  
   
 ## <a name="creating-a-dsl-solution"></a>DSL 솔루션 만들기  
  새 도메인 특정 언어를 만들려면 새로 만든 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 도메인 특정 언어 프로젝트 템플릿을 사용 하 여 솔루션입니다.  
@@ -107,7 +104,7 @@ ms.locfileid: "49877772"
 1. 클릭 **모든 템플릿 변환** 솔루션 탐색기 도구 모음에서입니다. 이 대부분의 DslDefinition.dsl에서 소스 코드를 다시 생성합니다.  
   
    > [!NOTE]
-   >  DslDefinition.dsl을 변경할 때마다 눌러야 **모든 템플릿 변환** 솔루션을 다시 작성 하기 전에 합니다. 이 단계는 자동화할 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
+   >  DslDefinition.dsl을 변경할 때마다 눌러야 **모든 템플릿 변환** 솔루션을 다시 작성 하기 전에 합니다. 이 단계는 자동화할 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
   
 2. F5 키를 또는 **디버깅할** 메뉴에서 클릭 **디버깅 시작**합니다.  
   
@@ -386,7 +383,7 @@ ms.locfileid: "49877772"
   
  동일한 절차를 사용 하 여 DSL을 설치할 컴퓨터에 자체의 실험적 인스턴스를 사용할 필요가 없도록 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
   
- 자세한 내용은 [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)합니다.  
+ 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.  
   
 ##  <a name="Reset"></a> 오래 된 실험적 Dsl 제거  
  실험적 Dsl을 만들지 않은 경우 원하지 않는 다시 설정 하 여 컴퓨터에서 제거할 수는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실험적 인스턴스.  
@@ -405,6 +402,3 @@ ms.locfileid: "49877772"
  [모델, 클래스 및 관계 이해](../modeling/understanding-models-classes-and-relationships.md)   
  [도메인 특정 언어를 정의 하는 방법](../modeling/how-to-define-a-domain-specific-language.md)   
  [Visualizaton 및 모델링 SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
-
-
-

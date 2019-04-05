@@ -12,14 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cb7f2ee59c9b02e7c4ff85c36bc0ea5a67e962a5
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 078bf457c798c0be9ac56aad1859c6750881922a
+ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 04/04/2019
 ms.locfileid: "57870275"
 ---
 # <a name="inside-the-visual-studio-sdk"></a>Visual Studio SDK 기본 사항
+
 이 섹션에서는 Visual Studio 아키텍처, 구성 요소, 서비스, 스키마, 유틸리티 등을 비롯 한 Visual Studio 확장에 대 한 자세한 정보를 제공 합니다.
 
 ## <a name="extensibility-architecture"></a>확장성 아키텍처
@@ -83,11 +84,12 @@ ms.locfileid: "57870275"
  언어 서비스의 핵심은 파서 및 스캐너를입니다. 스캐너 (또는 렉서) 소스 파일 토큰 이라고 하는 요소로 나누고 파서 토큰 간의 관계를 설정 합니다. 언어 서비스를 만들면 Visual Studio는 토큰 및 언어의 문법 이해할 수 있도록 파서와 스캐너 구현 해야 합니다. 관리 되거나 관리 되지 않는 언어 서비스를 만들 수 있습니다. 자세한 내용은 [레거시 언어 서비스 확장성](../../extensibility/internals/legacy-language-service-extensibility.md)합니다.
 
 ## <a name="projects"></a>프로젝트
- Visual Studio에서 프로젝트는 개발자가 구성 하 고 소스 코드 및 기타 리소스를 작성 하는 데 사용할 컨테이너를 사용 합니다. 구성, 빌드, 디버그 및 소스 코드를 배포할 수 있습니다. 프로젝트, 웹 서비스 및 데이터베이스 및 기타 리소스에 대 한 참조입니다. Vspackage는 프로젝트 형식, 프로젝트 하위 형식 및 사용자 지정 도구를 제공 하 여 Visual Studio 프로젝트 시스템을 확장할 수 있습니다.
 
- 프로젝트는 응용 프로그램을 만들기 위해 함께 작동 하는 하나 이상의 프로젝트를 그룹화 하 여 솔루션에도 수집할 수 수 있습니다. 솔루션에 관련 된 프로젝트 및 상태 정보는 두 솔루션 파일, 텍스트 기반 솔루션 (.sln) 파일 및 이진 솔루션 사용자 옵션 (.suo) 파일에 저장 됩니다. 이러한 파일은 이전 버전의 사용 된 그룹 (.vbg) 파일과 유사한 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], 작업 영역 (.dsw) 및 사용자 옵션 (.opt) 파일의 이전 버전에 사용 된 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)]합니다.
+Visual Studio에서 프로젝트는 개발자가 구성 하 고 소스 코드 및 기타 리소스를 작성 하는 데 사용할 컨테이너를 사용 합니다. 구성, 빌드, 디버그 및 소스 코드를 배포할 수 있습니다. 프로젝트, 웹 서비스 및 데이터베이스 및 기타 리소스에 대 한 참조입니다. Vspackage는 프로젝트 형식, 프로젝트 하위 형식 및 사용자 지정 도구를 제공 하 여 Visual Studio 프로젝트 시스템을 확장할 수 있습니다.
 
- 자세한 내용은 [프로젝트](../../extensibility/internals/projects.md) 하 고 [솔루션](../../extensibility/internals/solutions.md)합니다.
+프로젝트 함께 수집할 수도 있습니다는 *솔루션*, 응용 프로그램을 만들기 위해 함께 작동 하는 하나 이상의 프로젝트의 그룹화 합니다. 솔루션에 관련 된 프로젝트 및 상태 정보는 텍스트를 기반으로 두 솔루션 파일에 저장 됩니다 [솔루션 (.sln) 파일](solution-dot-sln-file.md) 및 이진 [솔루션 사용자 옵션 (.suo) 파일](solution-user-options-dot-suo-file.md)합니다. 이러한 파일은 이전 버전의 Visual Basic 및 작업 영역 (.dsw)에 사용 된 그룹 (.vbg) 파일 및 사용자 옵션 (.opt) 파일의 c + + 이전 버전에서 사용 되었던 비슷합니다.
+
+자세한 내용은 [프로젝트](../../extensibility/internals/projects.md) 하 고 [솔루션](../../extensibility/internals/solutions-overview.md)합니다.
 
 ## <a name="project-and-item-templates"></a>프로젝트 및 항목 템플릿
  Visual Studio에는 미리 정의 된 프로젝트 템플릿 및 프로젝트 항목 템플릿을 포함합니다. 사용자 고유의 템플릿을 만들 수도 하 고 또는 커뮤니티에서 템플릿을 가져올 하 고, 다음 Visual Studio에 통합할 수 있습니다. 합니다 [MSDN 코드 갤러리](https://code.msdn.microsoft.com/site/search?query=visual%20studio) 템플릿 및 확장에 대 한 이동할 위치입니다.

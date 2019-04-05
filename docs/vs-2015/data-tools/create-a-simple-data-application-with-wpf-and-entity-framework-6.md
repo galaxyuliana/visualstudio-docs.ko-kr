@@ -1,25 +1,22 @@
 ---
 title: WPF 및 Entity Framework 6을 사용 하 여 간단한 데이터 응용 프로그램 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 65929fab-5d78-4e04-af1e-cf4957f230f6
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ac3db033b9e8055c28f29d54027df5fadf156742
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 56c211597e99689e1ad263cfe12d7dafdf3cf5cc
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49922200"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002697"
 ---
-# <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>WPF 및 Entity Framework 6을 사용 하 여 간단한 데이터 응용 프로그램 만들기
+# <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>WPF 및 Entity Framework 6을 사용하여 간단한 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -30,9 +27,9 @@ ms.locfileid: "49922200"
 ## <a name="install-and-connect-to-northwind"></a>설치 하 고 Northwind로 연결  
  이 예제에서는 Northwind 샘플 데이터베이스 및 SQL Server Express LocalDB를 사용 합니다. 에뮬레이터가 작동 됩니다 다른 SQL 데이터베이스 제품과 마찬가지로 해당 제품에 ADO.NET 데이터 공급자는 Entity Framework를 지 원하는 경우.  
   
-1.  아직 SQL Server 2014 LocalDB Express 32 비트에서 설치 합니다 [SQL Server 버전 다운로드 페이지](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx)합니다.  
+1.  아직 SQL Server 2014 LocalDB Express 32 비트에서 설치 합니다 [SQL Server 버전 다운로드 페이지](https://www.microsoft.com/sql-server/sql-server-editions-express)합니다.  
   
-2.  여기의 지침에 따라 Northwind 샘플 데이터베이스를 설치 합니다. [Install SQL Server 예제 데이터베이스](../data-tools/install-sql-server-sample-databases.md)합니다.  
+2.  다음 지침에 따라 Northwind 샘플 데이터베이스를 설치 합니다. [SQL Server 예제 데이터베이스 설치](../data-tools/install-sql-server-sample-databases.md)합니다.  
   
 3.  [새 연결 추가](../data-tools/add-new-connections.md) Northwind에 대 한 합니다.  
   
@@ -393,7 +390,7 @@ ms.locfileid: "49922200"
 ## <a name="add-buttons-to-navigate-add-update-and-delete"></a>이동, 추가, 업데이트 및 삭제 하는 단추 추가  
  Windows Forms 응용 프로그램에서 데이터베이스의 행을 이동 하 고 기본적인 CRUD 작업 수행에 대 한 단추를 사용 하 여을 BindingNavigator 개체를 가져옵니다. WPF는 BindingNavigator 제공 하지는 않지만 간편 하 게 만들는 합니다. 페이지 그리드의 아래쪽 행에 가로 StackPanel 내에서 단추를 사용 하 여 로그인 할 수 있습니다 및 코드 숨김의 메서드에 바인딩되는 명령을 사용 하 여 단추를 연결 합니다.  
   
- 에서는 명령 논리 부분이 있습니다. (1) 명령, (2) 바인딩, (3) 단추 및 코드 숨김에서 명령 처리기 (4).  
+ 명령 논리에서는 부분이 있습니다. (1) 명령, (2) 바인딩, (3) 단추 및 코드 숨김에서 명령 처리기 (4).  
   
 #### <a name="add-commands-bindings-and-buttons-in-xaml"></a>XAML에서 명령, 바인딩 및 단추 추가  
   
@@ -709,4 +706,3 @@ ms.locfileid: "49922200"
   
 ## <a name="see-also"></a>참고 항목  
  [.NET 용 visual Studio data tools](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework 설명서](https://msdn.microsoft.com/data/ee712907.aspx)
-

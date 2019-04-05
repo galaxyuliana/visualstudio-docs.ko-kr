@@ -1,29 +1,24 @@
 ---
 title: '방법: Windows Forms를 사용 하는 도구 상자 컨트롤 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - Toolbox control
 - winforms
 - toolbox
 ms.assetid: abbd3c3c-3a6e-4539-bd6c-a5891dead234
 caps.latest.revision: 12
-manager: douge
-ms.openlocfilehash: 2860f3fca32b3a87967a404fb47626416d9f5dce
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 7bb327ff7cd3909e4d860203322a9b72aa71fbf3
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49263720"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002536"
 ---
-# <a name="how-to-create-a-toolbox-control-that-uses-windows-forms"></a>방법: Windows Forms를 사용하는 도구 상자 컨트롤 만들기
+# <a name="how-to-create-a-toolbox-control-that-uses-windows-forms"></a>방법: Windows Forms를 사용 하는 도구 상자 컨트롤 만들기
 확장이 설치될 때 [!INCLUDE[vssdk_dev11_long](../includes/vssdk-dev11-long-md.md)] 에 들어 있는 Windows Forms 도구 상자 컨트롤 템플릿을 통해 자동으로 **도구 상자** 에 추가된 Windows Forms 컨트롤을 만들 수 있습니다. 이 항목에서는 템플릿을 사용하여 다른 사용자에게 배포할 수 있는 **도구 상자** 컨트롤을 만드는 방법을 보여 줍니다.  
   
 > [!NOTE]
@@ -74,7 +69,7 @@ ms.locfileid: "49263720"
   
 1.  F5 키를 누릅니다.  
   
-2.  Visual Studio의 새 인스턴스에서 Windows Forms 응용 프로그램 프로젝트를 만듭니다.  
+2.  Visual Studio의 새 인스턴스에서 Windows Forms 애플리케이션 프로젝트를 만듭니다.  
   
 3.  **도구 상자** 에서 컨트롤을 찾아 디자인 화면으로 끕니다.  
   
@@ -82,7 +77,7 @@ ms.locfileid: "49263720"
   
 5.  메서드 및 이벤트를 테스트하는 데 필요한 코드 또는 추가 컨트롤을 추가합니다.  
   
-6.  F5 키를 눌러 Windows Forms 응용 프로그램을 엽니다.  
+6.  F5 키를 눌러 Windows Forms 애플리케이션을 엽니다.  
   
 7.  컨트롤의 속성, 메서드 및 이벤트가 예상대로 동작하는지 확인합니다.  
   
@@ -92,7 +87,7 @@ ms.locfileid: "49263720"
   
 2.  네트워크 또는 웹 사이트에 .vsix 파일을 업로드합니다.  
   
-     파일을 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트에 업로드하면 다른 사용자가 Visual Studio의 **확장 관리자** 를 사용하여 컨트롤을 찾아 설치할 수 있습니다.  
+     파일을 업로드 하는 경우는 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트를 다른 사용자가 사용할 수 있습니다 **확장 관리자** 컨트롤을 찾아 설치할 Visual Studio에서 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [WPF 도구 상자 컨트롤 만들기](../extensibility/creating-a-wpf-toolbox-control.md)

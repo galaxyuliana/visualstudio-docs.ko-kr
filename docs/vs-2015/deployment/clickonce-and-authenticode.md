@@ -1,14 +1,9 @@
 ---
 title: ClickOnce 및 Authenticode | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -23,13 +18,13 @@ ms.assetid: ab5b6712-f32a-4e33-842f-e88ab4818ccf
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: df3d87e240476aa02f5129f2238a1df55eb3be79
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 6057aa437aa4fc0d14bd21f20e3fa657f5c5c15d
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49289487"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "59001958"
 ---
 # <a name="clickonce-and-authenticode"></a>ClickOnce 및 Authenticode
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +56,7 @@ Authenticode *는 업계 표준 암호화를 사용 하 여 응용 프로그램�
 ### <a name="timestamps"></a>타임스탬프  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 서명에 사용된 인증서는 특정 기간(대개 12개월) 이후 만료됩니다. 계속해서 새 인증서로 응용 프로그램에 다시 서명해야 하는 불편을 없애기 위해 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]는 타임스탬프를 지원합니다. 애플리케이션을 타임스탬프로 서명하면, 타임스탬프가 유효한 경우 해당 인증서는 심지어 만료 이후에도 계속 허용됩니다. 따라서 인증서는 만료되었지만 타임스탬프는 유효한 경우 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션을 다운로드하여 실행할 수 있습니다. 또한 만료된 인증서가 있는 설치된 애플리케이션이 계속해서 업데이트를 다운로드하고 설치할 수 있습니다.  
   
- 애플리케이션 서버에 타임스탬프를 포함하려면 타임스탬프 서버를 사용할 수 있어야 합니다. 타임스탬프 서버를 선택하는 방법에 대한 자세한 내용은 [How to: Sign Application and Deployment Manifests](../ide/how-to-sign-application-and-deployment-manifests.md)를 참조하세요.  
+ 애플리케이션 서버에 타임스탬프를 포함하려면 타임스탬프 서버를 사용할 수 있어야 합니다. 타임 스탬프 서버를 선택 하는 방법에 대 한 정보를 참조 하세요. [방법: 애플리케이션 및 배포 매니페스트 서명](../ide/how-to-sign-application-and-deployment-manifests.md)을 참조하세요.  
   
 ### <a name="updating-expired-certificates"></a>만료된 인증서 업데이트  
  .NET Framework의 이전 버전에서 인증서가 만료된 애플리케이션을 업데이트하면 해당 애플리케이션의 작동이 중지될 수 있습니다. 이 문제를 해결하려면 다음 방법 중 하나를 사용합니다.  
@@ -81,6 +76,3 @@ Authenticode *는 업계 표준 암호화를 사용 하 여 응용 프로그램�
  [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)   
  [신뢰할 수 있는 응용 프로그램 배포 개요](../deployment/trusted-application-deployment-overview.md)   
  [Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)
-
-
-

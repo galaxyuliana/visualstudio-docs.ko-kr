@@ -1,26 +1,21 @@
 ---
 title: 설정 저장소를 사용 하 여 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Settings Store, using
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
 caps.latest.revision: 29
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 421ae479d2c25fc6b01ae63083f18c2b1c55c69d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8de2772f4281616837ca96b5911409f6316d5bb0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51749919"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972540"
 ---
 # <a name="using-the-settings-store"></a>설정 저장소 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,10 +81,9 @@ ms.locfileid: "51749919"
   
 1.  Regedit.exe를 엽니다.  
   
-2.  HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp_Config\InstalledProducts 이동할\\합니다.  
+2.  Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp_Config\InstalledProducts\\.  
   
     > [!NOTE]
     >  \14.0Exp_Config\ 및 없습니다 \14.0_Config 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 구성 설정은 레지스트리 하이브 "14.0Exp_Config"에 있습니다.  
   
 3.  \Installed Products\ 노드를 확장 합니다. 이전 단계에서 메시지 이면 **Microsoft Windows Phone 개발자 도구 설치: True**, \Installed Products\ Microsoft Windows Phone 개발자 도구 노드를 포함 해야 합니다. 메시지 이면 **Microsoft Windows Phone 개발자 도구 설치: False**, \Installed Products\ Microsoft Windows Phone 개발자 도구 노드를 포함 하지 않아야 합니다.
-

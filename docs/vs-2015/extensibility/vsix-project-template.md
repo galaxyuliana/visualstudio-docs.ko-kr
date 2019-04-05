@@ -1,32 +1,27 @@
 ---
 title: VSIX 프로젝트 템플릿 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - deploy packages
 - publish extension
 ms.assetid: b6c82167-e2a5-4cff-8c8b-2d72e2a9092c
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: c2b06582e1de7939e34f8fa49aa1cc9435010789
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 3ef6037220337f0dc5005952849c9700703709f2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51733853"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002816"
 ---
 # <a name="vsix-project-template"></a>VSIX 프로젝트 템플릿
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-VSIX 프로젝트에서 하나 이상의 Visual Studio 확장을 래핑할 VSIX 프로젝트 템플릿을 사용 하 고 다음에서 패키지를 게시할 수 있습니다 합니다 [Visual Studio 갤러리](http://go.microsoft.com/fwlink/?LinkID=123847) 웹 사이트입니다.  
+VSIX 프로젝트에서 하나 이상의 Visual Studio 확장을 래핑할 VSIX 프로젝트 템플릿을 사용 하 고 다음에서 패키지를 게시할 수 있습니다 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트입니다.  
   
  VSIX 배포에는 Vspackage, 어셈블리, MEF 구성 요소, 프로젝트 템플릿, 항목 템플릿, 도구 상자 컨트롤 및 사용자 지정 확장 형식을 지원합니다.  
   
@@ -90,4 +85,3 @@ VSIX 프로젝트에서 하나 이상의 Visual Studio 확장을 래핑할 VSIX 
 ## <a name="see-also"></a>참고 항목  
  [VSIX 확장 스키마 2.0 참조](../extensibility/vsix-extension-schema-2-0-reference.md)   
  [Visual Studio 확장 찾기 및 사용](../ide/finding-and-using-visual-studio-extensions.md)
-

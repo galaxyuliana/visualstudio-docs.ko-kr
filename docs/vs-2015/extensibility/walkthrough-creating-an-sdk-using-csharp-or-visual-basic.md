@@ -1,24 +1,19 @@
 ---
-title: '연습: C# 또는 Visual Basic을 사용 하 여 SDK 만들기 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 3e0bc88c8581b29f43e7efc55ee86019e1f1c3fb
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 5989e0d72aaa7dda8e3daae16a6f384f8815357f
+ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51736752"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002977"
 ---
 # <a name="walkthrough-creating-an-sdk-using-c-or-visual-basic"></a>연습: C# 또는 Visual Basic을 사용하여 SDK 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -120,7 +115,7 @@ ms.locfileid: "51736752"
   
 22. **솔루션 탐색기**, 선택 **SimpleMath.winmd**합니다.  
   
-23. 메뉴 모음에서 **보기**하십시오 **속성** (키보드: F4 키를 선택).  
+23. 메뉴 모음에서 선택 **뷰**하십시오 **속성** (키보드: F4 키 선택).  
   
 24. 에 **속성** 창에서를 **빌드 작업** 속성을 **콘텐츠**, 변경한 후를 **VSIX에 포함** 속성 **True**합니다.  
   
@@ -179,7 +174,6 @@ ms.locfileid: "51736752"
     성공적으로 만들고 확장명 SDK를 사용 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [연습: c + +를 사용 하 여 SDK 만들기](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
- [연습: JavaScript를 사용 하 여 SDK 만들기](http://msdn.microsoft.com/en-us/6195ff56-4a27-45fc-bd29-4b0451225f4b)   
+ [연습: C + +를 사용 하 여 SDK 만들기](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
+ [연습: JavaScript를 사용 하 여 SDK 만들기](walkthrough-creating-an-sdk-using-javascript.md)   
  [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)
-

@@ -1,28 +1,23 @@
 ---
 title: '방법: 열린 문서에 대 한 편집기 열기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], opening for open documents
 ms.assetid: 1a0fa49c-efa4-4dcc-bdc0-299b7052acdc
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 4bb21def7e9d283c287c375bd9b8b4cc6bd30c3c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 1a8238ce632f8552b36ccb259af683636732b469
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51750975"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984435"
 ---
-# <a name="how-to-open-editors-for-open-documents"></a>방법: 열린 문서에 대 한 편집기 열기
+# <a name="how-to-open-editors-for-open-documents"></a>방법: 열린 문서에 대한 편집기 열기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 프로젝트 문서 창이 열리기 전에 프로젝트 먼저 결정 해야 합니다 있는지 여부를 파일이 이미 열려 다른 편집기에 대 한 문서 창에서. 파일은 프로젝트 관련 편집기에 열거나 수 또는 표준 편집기 중 하나에 등록 된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
@@ -63,4 +58,3 @@ ms.locfileid: "51750975"
  [열기 및 프로젝트 항목 저장](../extensibility/internals/opening-and-saving-project-items.md)   
  [방법: 프로젝트별 편집기 열기](../extensibility/how-to-open-project-specific-editors.md)   
  [방법: 표준 편집기 열기](../extensibility/how-to-open-standard-editors.md)
-

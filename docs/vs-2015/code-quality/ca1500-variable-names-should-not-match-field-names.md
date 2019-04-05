@@ -1,14 +1,9 @@
 ---
-title: ': 변수 이름은 ca1500 필드 이름 | Microsoft Docs'
-ms.custom: ''
+title: 'CA1500: 변수 이름은 필드 이름과 일치 하지는 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - VariableNamesShouldNotMatchFieldNames
 - CA1500
@@ -20,17 +15,17 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: fdac60aa7b3fb37f45cff7c1c9e5f17920efed18
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: b1c80f1e6c7c11e61fcdd651ac924d8243298e82
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49173942"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "59003064"
 ---
 # <a name="ca1500-variable-names-should-not-match-field-names"></a>CA1500: 변수 이름은 필드 이름과 달라야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1500: 변수 이름은 필드 이름과 일치 하지는](https://docs.microsoft.com/visualstudio/code-quality/ca1500-variable-names-should-not-match-field-names) docs.microsoft.com에서 제공 합니다.  
+Visual Studio에서 최신 설명서를 참조 하세요. [CA1500: 변수 이름은 필드 이름과 일치 하지는](https://docs.microsoft.com/visualstudio/code-quality/ca1500-variable-names-should-not-match-field-names) docs.microsoft.com에서 제공 합니다.  
   
 |||  
 |-|-|  
@@ -56,4 +51,3 @@ Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1500: 변수 �
   
  [!code-csharp[FxCop.Maintainability.VarMatchesField#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Maintainability.VarMatchesField/cs/FxCop.Maintainability.VarMatchesField.cs#1)]
  [!code-vb[FxCop.Maintainability.VarMatchesField#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Maintainability.VarMatchesField/vb/FxCop.Maintainability.VarMatchesField.vb#1)]
-

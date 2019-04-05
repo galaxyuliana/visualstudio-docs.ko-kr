@@ -1,14 +1,9 @@
 ---
-title: 'CA1903: 대상된 프레임 워크에서 API만 사용 하십시오. | Microsoft Docs'
-ms.custom: ''
+title: 'CA1903: 대상된 프레임 워크에서 API만 사용 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - UseOnlyAPIFromTargetedFramework
 - CA1903
@@ -20,17 +15,17 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 1c23b25029775cd3abca84e695c50b5a0fdf68cf
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: e0382ab59745fccde53d09f88222b64d36a9bd6d
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49191579"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "59003049"
 ---
-# <a name="ca1903-use-only-api-from-targeted-framework"></a>CA1903: 대상 프레임워크에서 API만 사용하십시오.
+# <a name="ca1903-use-only-api-from-targeted-framework"></a>CA1903: 대상 프레임워크의 API만 사용하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1903: 대상된 프레임 워크에서 API만 사용 하 여](https://docs.microsoft.com/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework) docs.microsoft.com에서 제공 합니다.  
+Visual Studio에서 최신 설명서를 참조 하세요. [CA1903: 대상된 프레임 워크에서 API만 사용 하 여](https://docs.microsoft.com/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework) docs.microsoft.com에서 제공 합니다.  
   
 |||  
 |-|-|  
@@ -50,8 +45,8 @@ Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1903: 대상된
 |||  
 |-|-|  
 |대상 프레임 워크|에 도입 된 멤버를 사용할 경우 발생|  
-|.NET Framework 2.0|.NET framework 2.0 SP1을.NET Framework 2.0 SP2|  
-|.NET Framework 3.0|.NET framework 2.0 SP1,.NET Framework 2.0 SP2,.NET Framework 3.0 SP1,.NET Framework 3.0 SP2|  
+|.NET Framework 2.0|.NET Framework 2.0 SP1, .NET Framework 2.0 SP2|  
+|.NET Framework 3.0|.NET Framework 2.0 SP1, .NET Framework 2.0 SP2, .NET Framework 3.0 SP1, .NET Framework 3.0 SP2|  
 |.NET Framework 3.5|.NET Framework 3.5 SP1|  
 |.NET Framework 4|N/A|  
   
@@ -76,4 +71,3 @@ Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1903: 대상된
 ## <a name="see-also"></a>참고 항목  
  [이식성 경고](../code-quality/portability-warnings.md)   
  [특정 대상 .NET Framework 버전 지정](../ide/targeting-a-specific-dotnet-framework-version.md)
-

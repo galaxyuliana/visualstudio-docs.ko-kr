@@ -1,14 +1,9 @@
 ---
-title: ': Ca1715 식별자에는 올바른 접두사 사용 해야 합니다. | Microsoft Docs'
-ms.custom: ''
+title: 'CA1715: 식별자에는 올바른 접두사를 사용 해야 합니다. | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - CA1715
 - IdentifiersShouldHaveCorrectPrefix
@@ -20,17 +15,17 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: e0e3d1290f95872c176447fb834c09bef036e784
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: cece70c942b62390e0ba3e96c57c1c46c4dd46fa
+ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49205909"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "59003065"
 ---
 # <a name="ca1715-identifiers-should-have-correct-prefix"></a>CA1715: 식별자에는 올바른 접두사를 사용해야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1715: 식별자에는 올바른 접두사를 사용 해야 합니다.](https://docs.microsoft.com/visualstudio/code-quality/ca1715-identifiers-should-have-correct-prefix) docs.microsoft.com에서 제공 합니다.  
+Visual Studio에서 최신 설명서를 참조 하세요. [CA1715: 식별자에는 올바른 접두사를 사용 해야 합니다.](https://docs.microsoft.com/visualstudio/code-quality/ca1715-identifiers-should-have-correct-prefix) docs.microsoft.com에서 제공 합니다.  
   
 |||  
 |-|-|  
@@ -90,5 +85,4 @@ Visual Studio 2017에서 최신 설명서를 참조 하세요 [CA1715: 식별자
  [!code-vb[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4/vb/FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4.vb#1)]  
   
 ## <a name="related-rules"></a>관련된 규칙  
- [CA1722: 식별자에는 올바른 접두사를 사용해야 합니다.](../code-quality/ca1722-identifiers-should-not-have-incorrect-prefix.md)
-
+ [CA1722: 식별자에는 잘못 된 접두사를 사용 해야 합니다.](../code-quality/ca1722-identifiers-should-not-have-incorrect-prefix.md)

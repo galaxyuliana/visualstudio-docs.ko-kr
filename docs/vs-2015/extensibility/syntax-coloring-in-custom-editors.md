@@ -1,26 +1,21 @@
 ---
 title: 사용자 지정 편집기의 구문 색 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - syntax coloring
 ms.assetid: 74900b9a-baef-432a-8231-4568fb5e19ad
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: cc4d7f01a813332665a753a8a2aad54bea8a6980
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: d690afae8d546b4597159bfd094a7a21d2528780
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51778672"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985708"
 ---
 # <a name="syntax-coloring-in-custom-editors"></a>사용자 지정 편집기의 구문 색 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,4 +61,3 @@ ms.locfileid: "51778672"
  [구문 색 지정 구현](../extensibility/internals/implementing-syntax-coloring.md)   
  [방법: 기본 제공 색 항목 사용](../extensibility/internals/how-to-use-built-in-colorable-items.md)   
  [사용자 지정 색 항목](../extensibility/internals/custom-colorable-items.md)
-

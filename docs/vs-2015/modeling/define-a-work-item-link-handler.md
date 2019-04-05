@@ -1,25 +1,22 @@
 ---
 title: 작업 항목 링크 처리기 정의 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML API
 ms.assetid: d52e0bbf-0166-4bb4-a2e3-cefed6188875
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 7ce74627d1d2d48ab02e0b124fbc38949f1f76f9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 7bc151e69206e37f88eac04ac8bbb2f4d9dbf1ad
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51733061"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981286"
 ---
 # <a name="define-a-work-item-link-handler"></a>작업 항목 링크 처리기 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -183,7 +180,7 @@ namespace WorkItems
   
 7.  현재 작업 항목이 빨간색으로 표시되는지 확인합니다. 이는 샘플 코드의 `OnWorkItemLinked()`를 보여 줍니다.  
   
-     **문제 해결**: 처리기 메서드를 실행 하지 않은 경우에 있는지 확인 합니다.  
+     **문제 해결**: 처리기 메서드를 실행 하지 않은 경우 다음을 확인 합니다.  
   
     -   클래스 라이브러리 프로젝트를 MEF 구성 요소로 나열 됩니다는 **콘텐츠** 목록의 **source.extensions.manifest** VSIX 프로젝트에서.  
   
@@ -304,6 +301,3 @@ element.AddReference(ReferenceConstants.WorkItem, linkString, true);
  [UML 모델 요소에 참조 문자열 연결](../modeling/attach-reference-strings-to-uml-model-elements.md)   
  [모델링 확장 정의 및 설치](../modeling/define-and-install-a-modeling-extension.md)   
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)
-
-
-

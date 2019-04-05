@@ -1,25 +1,20 @@
 ---
 title: 서식 지정, XML, 텍스트 편집기, 옵션 대화 상자 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: bb539b3a-027c-4b2f-906e-403e0e22ba8d
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 5c8379393dd5327359789f8621cf67ed55e89209
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: d4f759b947344298eca36c3fd99d024f7fcde2c9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49256674"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984302"
 ---
 # <a name="formatting-xml-text-editor-options-dialog-box"></a>서식 지정, XML, 텍스트 편집기, 옵션 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +26,7 @@ ms.locfileid: "49256674"
 >  선택 하면 이러한 설정을 사용할 수 있습니다는 **텍스트 편집기** 폴더를 **XML** 폴더를 차례로 **서식** 에서 옵션을 **옵션** 대화 상자.  
   
 ## <a name="attributes"></a>특성  
- **특성 수동 서식 유지**  
+ **수동으로 지정한 특성 서식 유지**  
  특성의 서식은 다시 지정되지 않습니다. 이 값이 기본값입니다.  
   
 > [!NOTE]
@@ -70,6 +65,3 @@ ms.locfileid: "49256674"
 ## <a name="see-also"></a>참고 항목  
  [XML 문서 속성, 속성 창](../xml-tools/xml-document-properties-properties-window.md)   
  [XML 편집기 구성 요소](../xml-tools/xml-editor-components.md)
-
-
-

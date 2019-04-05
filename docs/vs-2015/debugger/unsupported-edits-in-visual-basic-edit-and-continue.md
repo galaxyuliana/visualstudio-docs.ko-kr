@@ -1,14 +1,9 @@
 ---
 title: Visual Basic에서 지원 되지 않는 편집 편집 하며 계속 하기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -21,13 +16,13 @@ ms.assetid: 9b8fdc41-a193-49ad-ad72-dfcadd46f4b3
 caps.latest.revision: 31
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: bc6e7a5d1d72464849bff20be066ea70e8264623
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5b22f4cdc9fa4bf3816b1b5644eee34279e20da1
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51787902"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58986559"
 ---
 # <a name="unsupported-edits-in-visual-basic-edit-and-continue"></a>Visual Basic 편집하며 계속하기에서 지원되지 않는 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,9 +32,9 @@ ms.locfileid: "51787902"
  지원되지 않는 변경을 수행해야 하는 경우에는 디버깅을 중지하고 변경한 다음 디버깅 세션을 새로 시작해야 합니다.  
   
 ###  <a name="BKMK_MethodandPropertyBodyEdits"></a> 메서드 및 속성 본문 편집  
- **지원 되지 않는 정적 지역 변수에 대 한 변경**: 추가 또는 로컬 변수를 업데이트 하거나 컴파일 오류를 발생 시킬 수 있는 경우 정적 지역 변수를 제거 합니다.  
+ **지원 되지 않는 정적 지역 변수에 대 한 변경**: 추가 또는 로컬 변수를 업데이트 하는 경우 정적 지역 변수를 제거는 컴파일 오류가 발생 합니다.  
   
- **지원 되지 않는 제네릭 변경**: 제네릭 메서드 자체 나 제네릭 메서드 본문 변경은 지원 되지 않습니다. 기존 제네릭 메서드에 대한 호출이나 제네릭 형식의 인스턴스화는 추가, 삭제 또는 변경할 수 있습니다.  
+ **지원 되지 않는 제네릭 변경**: 제네릭 메서드 자체나 제네릭 메서드 본문은 변경할 수 없습니다. 기존 제네릭 메서드에 대한 호출이나 제네릭 형식의 인스턴스화는 추가, 삭제 또는 변경할 수 있습니다.  
   
  **다른 지원 되지 않는 변경**  
   
@@ -225,6 +220,3 @@ ms.locfileid: "51787902"
 ## <a name="see-also"></a>참고 항목  
  [방법: 편집을 사용 하 여 중단 모드에서 편집을 적용 하 고 계속](../debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue.md)   
  [편집하며 계속하기(Visual Basic)](../debugger/edit-and-continue-visual-basic.md)
-
-
-

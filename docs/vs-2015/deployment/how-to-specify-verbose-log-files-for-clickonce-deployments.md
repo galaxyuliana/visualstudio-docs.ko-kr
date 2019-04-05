@@ -1,14 +1,9 @@
 ---
 title: '방법: ClickOnce 배포에 대 한 자세한 정보 표시 로그 파일을 지정 합니다. | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -20,13 +15,13 @@ ms.assetid: 0807a28d-2e40-4a51-ab10-308d808ded6b
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 27efe283c8484412cc5d3c697560a393b3eddbc6
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 0efd71b38d3fcd8ae8241e31e721bd48e857d3bd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49171811"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970790"
 ---
 # <a name="how-to-specify-verbose-log-files-for-clickonce-deployments"></a>방법: ClickOnce 배포에 대한 자세한 로그 파일 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ ms.locfileid: "49171811"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)
-
-
-

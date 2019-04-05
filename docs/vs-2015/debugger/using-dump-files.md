@@ -1,14 +1,9 @@
 ---
 title: 덤프 파일을 사용 하 여 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.crashdump
 dev_langs:
@@ -29,13 +24,13 @@ ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
 caps.latest.revision: 56
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 0c117e0aa7922c70f919a7b16fa6d40a447f2ce2
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 756b2791e5cc41ef934037ba3a680792db658591
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51761128"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002561"
 ---
 # <a name="using-dump-files"></a>덤프 파일 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,7 +78,7 @@ ms.locfileid: "51761128"
   
 - 디버깅할 [커널 모드](http://msdn.microsoft.com/library/windows/hardware/ff551880.aspx) 덤프 Visual Studio 2013의 파일을 다운로드 합니다 [Windows 8.1 버전의 디버깅 도구에 대 한 Windows](http://msdn.microsoft.com/windows/hardware/gg463009)합니다. 참조 [Visual Studio에서 커널 디버깅](http://msdn.microsoft.com/library/windows/hardware/jj149675.aspx)합니다.  
   
-- Visual Studio로 알려진 이전 덤프 형식으로 저장 된 덤프 파일을 디버깅할 수 없습니다는 [전체 사용자 모드 덤프](http://msdn.microsoft.com/library/windows/hardware/ff545506.aspx)합니다. 전체 사용자 모드 덤프는 힙을 포함하는 덤프와 동일하지 않습니다.  
+- Visual Studio로 알려진 이전 덤프 형식으로 저장 된 덤프 파일을 디버깅할 수 없습니다는 [전체 사용자 모드 덤프](/windows-hardware/drivers/debugger/user-mode-dump-files#full)합니다. 전체 사용자 모드 덤프는 힙을 포함하는 덤프와 동일하지 않습니다.  
   
 - 사용 하 여 디버그 하는 [SOS.dll (SOS 디버깅 확장명)](http://msdn.microsoft.com/library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498) Visual Studio는 디버깅 도구에 대 한 Windows Windows Driver Kit (WDK)의 포함 된 설치 해야 합니다. 참조 [Windows 8.1 미리 보기: 키트, 비트 및 도구 다운로드](http://msdn.microsoft.com/library/windows/hardware/bg127147.aspx)합니다.  
   
@@ -104,7 +99,7 @@ ms.locfileid: "51761128"
   
 1.  Visual Studio에서 선택 **파일**를 **열려**를 **파일**합니다.  
   
-2.  에 **열려 있는 파일** 대화 상자에서 찾아 덤프 파일을 선택 합니다. 덤프 파일의 확장명은 일반적으로 .dmp입니다. 선택한 **확인**합니다.  
+2.  **파일 열기** 대화 상자에서 덤프 파일을 찾아 선택합니다. 덤프 파일의 확장명은 일반적으로 .dmp입니다. 선택한 **확인**합니다.  
   
 3.  합니다 **덤프 파일 요약** 창이 나타납니다. 이 창에서는 덤프 파일의 디버깅 요약 정보를 보고 기호 경로를 설정하고 디버깅을 시작하고 요약 정보를 클립보드로 복사할 수 있습니다.  
   
@@ -145,6 +140,5 @@ ms.locfileid: "51761128"
   
 ## <a name="see-also"></a>참고 항목  
  [Just-in-time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md)   
- [기호 (.pdb)을 지정 하 고 소스 파일](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
+ [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [IntelliTrace](../debugger/intellitrace.md)
-

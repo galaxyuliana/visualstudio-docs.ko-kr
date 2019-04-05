@@ -1,11 +1,8 @@
 ---
 title: 코드 맵 분석기를 사용 하 여 잠재적 문제 찾기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 f1_keywords:
 - vs.progression.codemapanalyzers
@@ -17,13 +14,13 @@ ms.assetid: 9dd799a7-f7eb-42ff-8612-b19dde7ff4eb
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6656ae4e5dc4acc0cb95b40fbb3eaa10b473d9e1
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: db54fef40914dc234f507935a646292eb8d4914e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51802397"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986360"
 ---
 # <a name="find-potential-problems-using-code-map-analyzers"></a>코드 맵 분석기를 사용하여 잠재적 문제 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,9 +39,9 @@ ms.locfileid: "51802397"
   
    |**분석기**|**다음과 같은 노드 식별**|  
    |------------------|--------------------------------|  
-   |**순환 참조 분석기**|서로 순환 종속성이 있습니다. **참고:** 에 있는 순환 종속성을 **제네릭을** 그룹의 그룹을 확장 하면 지도에 표시 되지 않습니다.|  
+   |**순환 참조 분석기**|서로 순환 종속성이 있습니다. **참고:**  에 있는 순환 종속성을 **제네릭** 그룹의 그룹을 확장 하면 지도에 표시 되지 않습니다.|  
    |**허브 분석기 찾기**|많이 연결된 상위 25% 노드에 속합니다.<br /><br /> **맵에서 다른 모든 노드를 숨기려면**<br /><br /> -맵에 대 한 바로 가기 메뉴를 열고 **고급**, **선택**합니다 **선택 되지 않은 숨기기**합니다.<br />     맵에서 선택되지 않은 노드가 숨겨지고 분석기가 새 노드를 허브로 식별합니다.|  
-   |**참조되지 않은 노드 분석기**|다른 노드의 참조가 없습니다. **주의:** 가정 하는 코드가 사용 되지 않는 각 하기 전에 이러한 경우를 확인 합니다. XAML 종속성 및 런타임 종속성과 같은 특정 종속성은 코드에서 정적으로 찾을 수 없습니다.|  
+   |**참조되지 않은 노드 분석기**|다른 노드의 참조가 없습니다. **주의:**  코드가 사용되지 않는다고 가정하기 전에 이러한 각 경우를 확인합니다. XAML 종속성 및 런타임 종속성과 같은 특정 종속성은 코드에서 정적으로 찾을 수 없습니다.|  
   
    코드 맵 분석기는 적용한 후 계속 실행됩니다. 맵을 변경하는 경우 적용된 모든 분석기가 업데이트된 맵 자동으로 다시 처리합니다. 분석기 실행을 중지하려면 맵 도구 모음에서 **레이아웃**, **분석기**를 차례로 선택합니다. 선택한 분석기를 끕니다.  
   
@@ -55,6 +52,3 @@ ms.locfileid: "51802397"
  [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)   
  [코드 맵을 사용 하 여 응용 프로그램 디버그](../modeling/use-code-maps-to-debug-your-applications.md)   
  [디버그하는 동안 호출 스택의 메서드 매핑](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
-
-
-

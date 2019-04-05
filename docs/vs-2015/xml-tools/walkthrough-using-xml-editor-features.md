@@ -1,25 +1,20 @@
 ---
-title: '연습: XML 편집기 기능 사용 | Microsoft Docs'
-ms.custom: ''
+title: '연습: XML 편집기 기능을 사용 하 여 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: b054f7bfc4a70ee19e60315e3e7bc2a790db3cba
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: f965bf147454d2076445170ea6fb6748782052d8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49252292"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982834"
 ---
 # <a name="walkthrough-using-xml-editor-features"></a>연습: XML 편집기 기능 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +72,7 @@ ms.locfileid: "49252292"
   
 5.  `>`를 입력하여 태그를 닫습니다.  
   
-6.  끝 태그가 추가됩니다. 끝 태그는 유효성 검사 오류를 나타내는 물결 무늬 밑줄과 함께 추가됩니다. 도구 설명에 다음 메시지가 표시됩니다. "'employee' 요소의 콘텐츠가 완전하지 않습니다. 'ID'가 있어야 합니다."  
+6.  끝 태그가 추가됩니다. 끝 태그는 유효성 검사 오류를 나타내는 물결 무늬 밑줄과 함께 추가됩니다. 도구 설명에 다음 메시지가 표시됩니다. ‘직원’ 요소의 내용이 완전하지 않습니다. 'ID'가 있어야 합니다."  
   
 7.  형식 `<` 선택한 **ID** 멤버 목록에서. 그런 다음 `>`를 입력합니다.  
   
@@ -85,7 +80,7 @@ ms.locfileid: "49252292"
   
 8.  형식 **abc**합니다.  
   
-     합니다 **abc** 텍스트에는 아래에 물결선이 표시 합니다. 도구 설명에 다음 메시지가 표시됩니다. "'ID' 요소 값의 데이터 형식이 잘못되었습니다."  
+     합니다 **abc** 텍스트에는 아래에 물결선이 표시 합니다. 도구 설명에 다음 메시지가 표시됩니다. 데이터 형식에 따라 'ID' 요소의 값이 유효하지 않습니다.  
   
 9. ID 요소를 마우스 오른쪽 단추로 클릭 하 고 선택 **정의로 이동**합니다.  
   
@@ -93,7 +88,7 @@ ms.locfileid: "49252292"
   
 10. XML 파일로 돌아가서 대체 합니다 **abc** 사용 하 여 텍스트 **123**합니다.  
   
-     ID 요소 값에서 물결 무늬 밑줄과 도구 설명이 지워집니다. 직원 끝 태그에 대한 도구 설명에 다음 메시지가 표시됩니다. "'employee' 요소의 콘텐츠가 완전하지 않습니다. 'hire-date'가 있어야 합니다."  
+     ID 요소 값에서 물결 무늬 밑줄과 도구 설명이 지워집니다. 직원 끝 태그에 대한 도구 설명에 다음 메시지가 표시됩니다. ‘직원’ 요소의 내용이 완전하지 않습니다. 'hire-date'가 있어야 합니다."  
   
 11. ID 끝 태그 뒤에 커서를 놓고 `<`를 입력한 다음 멤버 목록에서 hire-date를 선택하고 `>`를 입력합니다.  
   
@@ -136,4 +131,3 @@ ms.locfileid: "49252292"
   
 ## <a name="see-also"></a>참고 항목  
  [XML 편집기](../xml-tools/xml-editor.md)
-

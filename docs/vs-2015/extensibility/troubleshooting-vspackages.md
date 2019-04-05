@@ -1,27 +1,22 @@
 ---
 title: Vspackage 문제 해결 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: troubleshooting
 helpviewer_keywords:
 - VSPackages, troubleshooting
 - debugging, VSPackages
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: b2c9a7b57a8b15683cb202b71e33e908a1bfd1b5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 16988915c9e8353cfc26f32e7d83c556c7f4957d
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51764002"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002616"
 ---
 # <a name="troubleshooting-vspackages"></a>VSPackage 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +43,7 @@ ms.locfileid: "51764002"
   
 3.  VSPackage 레지스트리 항목을 확인 합니다.  
   
-     자세한 내용은 [Vspackage 등록](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd) 하 고 [관리 Vspackage](../extensibility/managing-vspackages.md)합니다.  
+     자세한 내용은 [Vspackage 등록](internals/registering-vspackages.md) 하 고 [관리 Vspackage](../extensibility/managing-vspackages.md)합니다.  
   
 4.  열기는 **출력** 인스턴스의 창 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] VSPackage를 로드 하는 실패 합니다. VSPackage 로드에 실패 한 이유에 대 한 정보는 해당 창에 표시 될 수 있습니다.  
   
@@ -73,7 +68,7 @@ ms.locfileid: "51764002"
   
     1.  레지스트리의 패키지 섹션에서 VSPackage의 CLSID를 찾습니다.  
   
-         Studio HKLM\Software\Microsoft\Visual\\*\<버전 >* \Packages  
+         HKLM\Software\Microsoft\Visual Studio\\*\<version>* \Packages  
   
     2.  SatelliteDll 하위 키를 제공한 경로가 올바른지 확인 합니다.  
   
@@ -126,10 +121,9 @@ ms.locfileid: "51764002"
   
 2. 비관리 코드에서 VSPackage의 CLSID를 찾기는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CLSID 레지스트리 노드:  
   
-    Studio HKLM\Software\Microsoft\Visual\\*\<버전 >* \CLSID  
+    HKLM\Software\Microsoft\Visual Studio\\*\<version>* \CLSID  
   
    InprocServer32 항목 VSPackage dll의 올바른 경로가 있는지 확인 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [VSPackage](../extensibility/internals/vspackages.md)
-
