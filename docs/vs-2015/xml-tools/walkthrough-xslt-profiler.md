@@ -1,25 +1,20 @@
 ---
 title: '연습: XSLT Profiler | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 87387c9a-2e89-4801-ad51-83740cd6ea25
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4f401d253c81385dc197e912a7f9cc7d6156e393
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 1fd5f581308a677f1de7cd9311d4a8649b3ea4fc
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49229452"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971245"
 ---
 # <a name="walkthrough-xslt-profiler"></a>연습: XSLT 프로파일러
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -116,6 +111,3 @@ XSLT 프로파일러는 XSLT 코드의 성능 관련 문제를 측정 및 평가
   
 ## <a name="see-also"></a>참고 항목  
  [연습: XSLT 계층 구조 사용](../xml-tools/walkthrough-using-xslt-hierarchy.md)
-
-
-

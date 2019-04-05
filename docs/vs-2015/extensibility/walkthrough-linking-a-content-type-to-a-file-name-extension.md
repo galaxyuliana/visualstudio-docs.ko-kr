@@ -1,28 +1,23 @@
 ---
 title: '연습: 파일 이름 확장명에 콘텐츠 형식 연결 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - link content type to file name extension
 ms.assetid: 21ee64ce-9afe-4b08-94a0-8389cc4dc67c
 caps.latest.revision: 25
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: f543992ba23e08be25d5c8206d2b5b0565d33948
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 182fc9a8ca55dfe4fc54d7e40c8c88f5b1c6c77d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51739884"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984481"
 ---
-# <a name="walkthrough-linking-a-content-type-to-a-file-name-extension"></a>연습: 파일 이름 확장명에 콘텐츠 형식 연결
+# <a name="walkthrough-linking-a-content-type-to-a-file-name-extension"></a>연습: 파일 이름 확장명에 콘텐츠 형식 링크
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 고유의 콘텐츠 형식을 정의 하 고 편집기 프레임 워크 MEF (Managed Extensibility) 확장을 사용 하 여 파일 이름 확장명을 링크 수 있습니다. 경우에 따라 파일 확장명을 이미 정의 되어 언어 서비스로; 그럼에도 불구 하 고 MEF와 함께 사용 하려면 여전히 연결 해야이 콘텐츠 형식.  
@@ -97,7 +92,7 @@ ms.locfileid: "51739884"
   
 ## <a name="adding-the-content-type-to-an-editor-export"></a>편집기 내보내기에 콘텐츠 형식 추가  
   
-1.  편집기 확장을 만듭니다. 예를 들어에 설명 된 여백 문자 모양 확장을 사용할 수 있습니다 [연습: 여백 모양 만들기](../extensibility/walkthrough-creating-a-margin-glyph.md)합니다.  
+1.  편집기 확장을 만듭니다. 에 설명 된 여백 문자 모양 확장을 사용할 수는 예를 들어 [연습: 여백 모양 만들기](../extensibility/walkthrough-creating-a-margin-glyph.md)합니다.  
   
 2.  이 절차에서 정의한 클래스를 추가 합니다.  
   
@@ -110,4 +105,3 @@ ms.locfileid: "51739884"
   
 ## <a name="see-also"></a>참고 항목  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)
-

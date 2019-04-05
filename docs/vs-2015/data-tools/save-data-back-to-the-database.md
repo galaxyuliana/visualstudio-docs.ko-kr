@@ -1,12 +1,9 @@
 ---
 title: 데이터베이스에 데이터를 저장 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -28,13 +25,13 @@ ms.assetid: afe6cb8a-dc6a-428b-b07b-903ac02c890b
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 6b6fd99b2b1a41d6baa3a110b2a595afb1dd7e3f
-ms.sourcegitcommit: c9a01c599ce19a5845605b3b28c0229fd0abb93f
+manager: jillfra
+ms.openlocfilehash: 413a92f2e42b6bacfeb62deb3bae0e50d5ef908b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52281851"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986114"
 ---
 # <a name="save-data-back-to-the-database"></a>데이터를 다시 데이터베이스에 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +60,7 @@ ms.locfileid: "52281851"
 |[데이터베이스에 데이터 저장(여러 테이블)](../data-tools/save-data-to-a-database-multiple-tables.md)|레코드를 편집 하 고 다시 데이터베이스에 여러 테이블에 변경 내용을 저장 하는 방법|  
 |[개체에서 데이터베이스로 데이터 저장](../data-tools/save-data-from-an-object-to-a-database.md)|TableAdapter DbDirect 메서드를 사용 하 여 데이터베이스에 데이터 집합에 없는 개체에서 데이터를 전달 하는 방법|  
 |[TableAdapter DBDirect 메서드를 사용하여 데이터 저장](../data-tools/save-data-with-the-tableadapter-dbdirect-methods.md)|TableAdapter를 사용 하 여 SQL 쿼리를 데이터베이스로 직접 보내는 방법|  
-|[데이터 집합을 XML로 저장](../data-tools/save-a-dataset-as-xml.md)|XML 문서에 데이터 집합을 저장 하는 방법|  
+|[데이터 세트를 XML로 저장](../data-tools/save-a-dataset-as-xml.md)|XML 문서에 데이터 집합을 저장 하는 방법|  
   
 ## <a name="two-stage-updates"></a>2 단계 업데이트  
  데이터 소스를 업데이트 하는 것은 2 단계 프로세스입니다. 첫 번째 단계는 삭제 된 레코드 또는 변경 된 레코드를 사용 하는, 새 레코드를 사용 하 여 데이터 집합을 업데이트 하는 것입니다. 응용 프로그램 되지을 보내는 경우 해당 변경 내용을 다시 데이터 소스에 다음 완료 했으면 업데이트 합니다.  
@@ -80,21 +77,21 @@ ms.locfileid: "52281851"
   
  데이터 집합을 병합 하는 경우 부울 인수를 전달할 수 있습니다 (`preserveChanges`)을 설명 하는 <xref:System.Data.DataSet.Merge%2A> 메서드 기존 수정 대상 데이터 집합에 유지할지 여부를 합니다. 레코드의 여러 버전을 유지 하는 데이터 집합 이므로 레코드의 버전이 둘 이상 병합 되는 점을 염두 해야 합니다. 다음 표에서 두 개의 데이터 집합에서 레코드를 병합 하는 방법을 보여 줍니다.  
   
-|DataRowVersion|대상 데이터 집합|원본 데이터 집합|  
+|DataRowVersion|대상 데이터 세트|원본 데이터 집합|  
 |--------------------|--------------------|--------------------|  
 |원래 색|James Wilson|James C. Wilson|  
 |현재|Jim Wilson|James C. Wilson|  
   
  호출 된 <xref:System.Data.DataSet.Merge%2A> 메서드를 사용 하 여 이전 테이블 `preserveChanges=false targetDataset.Merge(sourceDataset)` 다음에서 결과:  
   
-|DataRowVersion|대상 데이터 집합|원본 데이터 집합|  
+|DataRowVersion|대상 데이터 세트|원본 데이터 집합|  
 |--------------------|--------------------|--------------------|  
 |원래 색|James C. Wilson|James C. Wilson|  
 |현재|James C. Wilson|James C. Wilson|  
   
  호출 된 <xref:System.Data.DataSet.Merge%2A> 메서드를 사용 하 여 `preserveChanges = true targetDataset.Merge(sourceDataset, true)` 다음에서 결과:  
   
-|DataRowVersion|대상 데이터 집합|원본 데이터 집합|  
+|DataRowVersion|대상 데이터 세트|원본 데이터 집합|  
 |--------------------|--------------------|--------------------|  
 |원래 색|James C. Wilson|James C. Wilson|  
 |현재|Jim Wilson|James C. Wilson|  
@@ -170,7 +167,7 @@ ms.locfileid: "52281851"
   
  `GetChanges` 자체적으로 변경 된 모든 레코드를 반환합니다. 이와 대조적으로 전달한 후 원하는 <xref:System.Data.DataRowState> 매개 변수로 `GetChanges` 메서드를 원하는 변경된 레코드의 하위 집합을 지정할 수 있습니다: 새로 분리 된 레코드를 삭제 표시 된 레코드를 추가 또는 수정 된 레코드입니다.  
   
- 변경 된 레코드의 하위 집합 가져오기 처리를 위해 다른 구성 요소에 레코드를 보내려고 할 때 유용 합니다. 전체 데이터 집합을 전송 하는 대신 구성 요소에서 필요로 하는 레코드만 가져와서 다른 구성 요소와 통신 하는 오버 헤드를 줄일 수 있습니다. 자세한 내용은 [방법: 변경 행 검색](http://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9)합니다.  
+ 변경 된 레코드의 하위 집합 가져오기 처리를 위해 다른 구성 요소에 레코드를 보내려고 할 때 유용 합니다. 전체 데이터 집합을 전송 하는 대신 구성 요소에서 필요로 하는 레코드만 가져와서 다른 구성 요소와 통신 하는 오버 헤드를 줄일 수 있습니다. 자세한 내용은 [방법: 변경 된 행을 검색](http://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9)합니다.  
   
 ## <a name="committing-changes-in-the-dataset"></a>데이터 집합의 변경 내용 커밋  
  데이터 집합에서 변경 되는 <xref:System.Data.DataRow.RowState%2A> 변경 된 행의 속성을 설정 합니다. 레코드의 원래 버전과 현재 버전은 설정, 유지 관리 하 고에서 사용자에 게 제공 된 <xref:System.Data.DataRowView.RowVersion%2A> 속성입니다. 이러한 변경 된 행의 속성에 저장 된 메타 데이터는 데이터 원본에 올바른 업데이트를 전송 하는 데 필요한 합니다.  
@@ -221,14 +218,14 @@ ms.locfileid: "52281851"
   
  여러 가지 방법으로 데이터를 확인할 수 있습니다.  
   
-- 비즈니스 계층에서 데이터의 유효성을 검사 하도록 응용 프로그램 코드를 추가 하 여 합니다. 데이터 집합을 한 곳이 수행할 수 있습니다. 데이터 집합을 백 엔드 유효성 검사의 장점 중 일부를 제공 합니다.-열 및 행 값을 변경 하는 변경의 유효성을 검사 하는 기능과 같은 합니다. 자세한 내용은 [데이터 집합의 데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)합니다.  
+- 비즈니스 계층에서 데이터의 유효성을 검사 하도록 응용 프로그램 코드를 추가 하 여 합니다. 데이터 집합을 한 곳이 수행할 수 있습니다. 데이터 집합 디자이너를 사용 하는 백 엔드 유효성 검사의 장점 중 일부를 제공 합니다.-열 및 행 값을 변경 하는 변경의 유효성을 검사 하는 기능과 같은 합니다. 자세한 내용은 [데이터 집합의 데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)합니다.  
   
 - 프레젠테이션 레이어의 양식에 유효성 검사를 추가 하 여 합니다. 자세한 내용은 [Windows Forms에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1)합니다.  
   
 - 데이터 원본에 데이터를 전송 하 여 백 엔드에서 데이터에서-예를 들어 데이터베이스-수락 하거나 데이터를 거부할 수 있도록 지원 합니다. 복잡 한 데이터 유효성 검사 및 오류 정보를 제공 하는 기능에는 데이터베이스를 사용 하 여 작업 하는 경우에서 제공 되는 위치에 관계 없이 데이터의 유효성을 검사 하기 때문에 실질적인 방법이 될 수 있습니다. 그러나이 방법은 응용 프로그램별 유효성 검사 요구 사항을 허용 하지 않을 수 있습니다. 또한 데이터 소스 데이터의 유효성을 검사 수 발생할 다양 한 왕복에 응용 프로그램 백 엔드에 의해 발생 하는 유효성 검사 오류 확인을 용이 하 게 하는 방법에 따라 데이터 원본에 합니다.  
   
   > [!IMPORTANT]
-  >  데이터 명령을 사용 하는 경우는 <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> 로 설정 된 속성 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 송신 하려고 할 수 있습니다 (삽입) 하기 위해 무단으로 액세스 하거나 데이터베이스를 손상 시키는 SQL 문을 수정 또는 추가 합니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다. 자세한 내용은 [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07)를 참조하세요.  
+  >  데이터 명령을 사용 하는 경우는 <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> 로 설정 된 속성 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 인증되지 않은 액세스 권한을 얻거나 데이터베이스를 손상시키기 위해 수정되었거나 추가된 SQL 문을 전송(주입)할 수도 있습니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다. 자세한 내용은 [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07)를 참조하세요.  
   
   데이터 집합을 변경한 후에 데이터 원본에 변경 내용을 전송할 수 있습니다. 가장 일반적으로이 호출 하 여 수행 된 `Update` TableAdapter (또는 데이터 어댑터) 메서드. 데이터 테이블의 각 레코드 메서드 반복 어떤 유형의 업데이트가 필요한 확인 (업데이트, 삽입 또는 삭제), 한 다음 적절 한 명령을 실행 합니다.  
   
@@ -275,14 +272,7 @@ ms.locfileid: "52281851"
 >  값을 설정할 수도 있습니다는 `Parameters` 컬렉션 데이터 어댑터의 이벤트 처리기에서 일반적으로 수행 하는 코드에서 직접 <xref:System.Data.DataTable.RowChanging> 이벤트입니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [TableAdapter 개요](../data-tools/tableadapter-overview.md)   
  [TableAdapter를 사용 하 여 데이터를 업데이트 합니다.](../data-tools/update-data-by-using-a-tableadapter.md)   
- [Visual Studio에서 데이터 응용 프로그램 개요](../data-tools/overview-of-data-applications-in-visual-studio.md)   
- [Visual Studio에서 데이터에 연결](../data-tools/connecting-to-data-in-visual-studio.md)   
- [데이터를 받기 위해 응용 프로그램 준비](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
- [응용 프로그램에 데이터를 가져오는 중](../data-tools/fetching-data-into-your-application.md)   
+ [데이터를 받기 위해 애플리케이션 준비](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [응용 프로그램에서 데이터 편집](../data-tools/editing-data-in-your-application.md)   
  [데이터 유효성 검사](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
- [데이터 저장](../data-tools/saving-data.md)
-

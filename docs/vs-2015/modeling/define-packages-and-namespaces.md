@@ -1,12 +1,9 @@
 ---
 title: 패키지 및 네임 스페이스를 정의 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML model, namespaces
 - UML, namespaces
@@ -16,13 +13,13 @@ ms.assetid: 79147068-02d5-4b70-933d-f647c1da3829
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: b9295b5af83270069df11e6460ee85dfe0fd9c73
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: a949d72783f3d8ac1c2f0338e4ad7057f74653aa
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51741904"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58980911"
 ---
 # <a name="define-packages-and-namespaces"></a>패키지 및 네임스페이스 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -218,7 +215,7 @@ Visual Studio에는 *패키지* 클래스, 사용 사례 및 구성 요소와 �
 |**작업 항목**|(비어 있음)|연결된 작업 항목의 목록입니다. 자세한 내용은 [모델 요소에 연결 하 고 작업 항목](../modeling/link-model-elements-and-work-items.md)합니다.|  
 |**정의 위치**|(이름)|패키지의 세부 정보가 저장되는 파일 이름입니다. 파일은는 **ModelDefinition** 프로젝트 폴더입니다. 이 정보는 소스 제어 용도에 유용할 수 있습니다.|  
 |**설명**|(비어 있음)|패키지에 대한 설명입니다.|  
-|**스테레오 타입**|(비어 있음)|이 패키지에 적용되는 스테레오타입입니다. 사용 가능한 스테레오타입 목록은 이 패키지와 이 패키지를 포함하는 패키지에 대해 선택한 프로필에 의해 결정됩니다. 자세한 내용은 [프로필 및 스테레오 타입을 사용 하 여 모델 사용자 지정](../modeling/customize-your-model-with-profiles-and-stereotypes.md)합니다.|  
+|**Stereotypes**|(비어 있음)|이 패키지에 적용되는 스테레오타입입니다. 사용 가능한 스테레오타입 목록은 이 패키지와 이 패키지를 포함하는 패키지에 대해 선택한 프로필에 의해 결정됩니다. 자세한 내용은 [프로필 및 스테레오 타입을 사용 하 여 모델 사용자 지정](../modeling/customize-your-model-with-profiles-and-stereotypes.md)합니다.|  
   
 ## <a name="how-packages-are-stored"></a>패키지 저장 방식  
  새 패키지를 만들 때 새 **.uml** 에서 파일을 만들 합니다 **ModelDefinition** 프로젝트 폴더입니다. 패키지도가 루트 모델에 저장 됩니다는 **.uml** 파일입니다.  
@@ -230,6 +227,3 @@ Visual Studio에는 *패키지* 클래스, 사용 사례 및 구성 요소와 �
  [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)   
  [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)   
  [버전 제어에서 모델 및 다이어그램 관리](../modeling/manage-models-and-diagrams-under-version-control.md)
-
-
-

@@ -1,24 +1,19 @@
 ---
-title: '연습: c + +를 사용 하 여 SDK 만들기 | Microsoft Docs'
-ms.custom: ''
+title: '연습: C + +를 사용 하 여 SDK 만들기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
 caps.latest.revision: 33
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 0932759213d064c3df717b7b6735c1201e62ce14
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 85af1b15fe6f2b87fbe1f7668fd1610c8595b90c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51773472"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985188"
 ---
 # <a name="walkthrough-creating-an-sdk-using-c"></a>연습: C++를 사용하여 SDK 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -120,7 +115,7 @@ ms.locfileid: "51773472"
   
     [!code-xml[CreatingAnSDKUsingCpp#7](../../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_7.xml)]  
   
-13. 메뉴 모음에서 선택 **뷰**, **기타 Windows**를 **속성 창** (키보드: F4 키를 선택).  
+13. 메뉴 모음에서 **보기**, **다른 Windows**하십시오 **속성 창** (키보드: F4 키 선택).  
   
 14. **솔루션 탐색기**를 선택 합니다 **NativeMathWRT.winmd** 파일입니다. 에 **속성** 창에서를 **빌드 작업** 속성을 **콘텐츠**, 변경한 후를 **VSIX에 포함** 속성 **True**합니다.  
   
@@ -185,6 +180,5 @@ ms.locfileid: "51773472"
 ## <a name="next-steps"></a>다음 단계  
   
 ## <a name="see-also"></a>참고 항목  
- [연습: C# 또는 Visual Basic을 사용 하 여 SDK 만들기](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)   
+ [연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)   
  [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)
-

@@ -1,14 +1,9 @@
 ---
 title: '방법: WPF 트리 시각화 도우미를 사용 하 여 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -21,13 +16,13 @@ ms.assetid: 2a1bf1cd-90f9-4d06-9fb4-1bfc925afef3
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 69ce98efe7429b011915f14b267cf5346528a93d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 6d2fc99235c9001cd465236c82588e33a842c168
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51752111"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985268"
 ---
 # <a name="how-to-use-the-wpf-tree-visualizer"></a>방법: WPF 트리 시각화 도우미 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,23 +33,23 @@ WPF 트리 시각화 도우미를 사용하여 WPF 개체의 표시 트리를 �
   
 ### <a name="to-open-the-wpf-tree-visualizer"></a>WPF 트리 시각화 도우미를 열려면  
   
-1.  DataTip에서 **Watch** 창 **자동** 창 또는 **지역** WPF 개체 이름 옆에 있는 창에서 돋보기 아이콘 옆의 화살표를 클릭 합니다.  
+1.  DataTip, **조사식** 창, **자동** 창 또는 **로컬** 창에서 WPF 개체 이름 옆에 나타나는 돋보기 모양 아이콘 옆의 화살표를 클릭합니다.  
   
      시각화 도우미의 목록이 나타납니다.  
   
-2.  클릭 **WPF 트리 시각화 도우미**합니다.  
+2.  **WPF 트리 시각화 도우미**를 클릭합니다.  
   
 ### <a name="to-search-the-visual-tree"></a>표시 트리를 검색하려면  
   
--   에 **시각적 트리** 창에서 검색 하려는 문자열을 입력 합니다 **검색** 상자입니다.  
+-   **표시 트리** 창의 **검색** 상자에 검색할 문자열을 입력합니다.  
   
      WPF 트리 시각화 도우미가 입력한 문자열과 일치하는 표시 트리의 첫 번째 개체를 즉시 찾습니다. 문자를 추가로 입력하여 좀 더 정확하게 일치하는 항목을 찾을 수 있습니다.  
   
-    -   시각적 트리 내에서 다음 일치 항목으로 이동 하려면 클릭 **다음**합니다.  
+    -   표시 트리 내에서 다음 일치 항목으로 이동하려면 **다음**을 클릭합니다.  
   
-    -   이전 일치 항목으로 돌아가려면 클릭 **Prev**합니다.  
+    -   이전 일치 항목으로 이동하려면 **이전**을 클릭합니다.  
   
-    -   검색 조건을 지우려면 클릭 **의 선택을 취소**합니다.  
+    -   검색 조건을 지우려면 **지우기**를 클릭합니다.  
   
 ### <a name="to-search-the-properties-list"></a>속성 목록을 검색하려면  
   
@@ -62,17 +57,14 @@ WPF 트리 시각화 도우미를 사용하여 WPF 개체의 표시 트리를 �
   
      WPF 트리 시각화 도우미가 입력한 문자열과 일치하는 속성을 즉시 찾습니다. 이제 목록에는 입력한 문자열과 일치하는 속성만 표시됩니다. 문자를 추가로 입력하여 좀 더 정확하게 일치하는 항목을 찾을 수 있습니다.  
   
-    -   검색 조건을 지우려면 클릭 **의 선택을 취소**합니다.  
+    -   검색 조건을 지우려면 **지우기**를 클릭합니다.  
   
 ### <a name="to-close-the-visualizer"></a>시각화 도우미를 닫으려면  
   
--   클릭 합니다 **닫기** 대화 상자의 오른쪽 위 모서리에 있는 아이콘입니다.  
+-   대화 상자의 오른쪽 위 모퉁이에서 **닫기** 아이콘을 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 시각화 도우미 사용](../misc/how-to-use-a-visualizer.md)   
  [사용자 지정 시각화 도우미 만들기](../debugger/create-custom-visualizers-of-data.md)   
  [WPF의 트리](http://msdn.microsoft.com/library/e83f25e5-d66b-4fc7-92d2-50130c9a6649)   
  [종속성 속성 개요](http://msdn.microsoft.com/library/d119d00c-3afb-48d6-87a0-c4da4f83dee5)
-
-
-

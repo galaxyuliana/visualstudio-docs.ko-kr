@@ -1,25 +1,22 @@
 ---
 title: 모델, 클래스 및 관계 이해 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, models
 ms.assetid: 2ecd569c-b369-41ea-b78e-a61b62e2e4e9
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: b86e9bd2aa11f098b26edf90f3ed415c66b874a1
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 678e7a9c32f8c69e9f0bac5ebc3a077e7e625771
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49271793"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986504"
 ---
 # <a name="understanding-models-classes-and-relationships"></a>모델, 클래스 및 관계 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,9 +56,9 @@ ms.locfileid: "49271793"
   
  ![포함 및 참조 관계](../modeling/media/music-classes.png "Music_Classes")  
   
- 그림 4 개 도메인 클래스를 보여 줍니다: 음악, 앨범에서 아티스트 및 Song 합니다. 도메인 클래스 이름, 제목 등의 도메인 속성을 정의합니다. 인스턴스 모델에 이러한 속성 중 일부의 값은 다이어그램에 표시 됩니다.  
+ 그림 4 개 도메인 클래스를 나타냅니다. 음악, Album, 음악가 및 Song 합니다. 도메인 클래스 이름, 제목 등의 도메인 속성을 정의합니다. 인스턴스 모델에 이러한 속성 중 일부의 값은 다이어그램에 표시 됩니다.  
   
- 클래스에 도메인 관계: MusicHasAlbums, MusicHasArtists, AlbumbHasSongs, 및 ArtistAppearedOnAlbums입니다. 관계 대 한 1..1을 등 복합성이 0.. *입니다. 예를 들어, 모든 노래 AlbumHasSongs 관계를 통해 하나만 앨범에 연결 되어야 합니다. 모든 앨범이 임의 개수의 노래를 가질 수 있습니다.  
+ 클래스 간에 도메인 관계 됩니다. MusicHasAlbums, MusicHasArtists, AlbumbHasSongs, 및 ArtistAppearedOnAlbums입니다. 관계 대 한 1..1을 등 복합성이 0.. *입니다. 예를 들어, 모든 노래 AlbumHasSongs 관계를 통해 하나만 앨범에 연결 되어야 합니다. 모든 앨범이 임의 개수의 노래를 가질 수 있습니다.  
   
 ### <a name="rearranging-the-dsl-definition-diagram"></a>DSL 정의 다이어그램을 다시 정렬  
  이 그림에서와 마찬가지로 앨범 도메인 클래스는 DSL 정의 다이어그램에서 여러 번 나타날 수 있는 고 지입니다. 항상 하나의 주 보기 및 일부 있을 수 있습니다 *참조* 뷰.  
@@ -157,7 +154,4 @@ ms.locfileid: "49271793"
   
 ## <a name="see-also"></a>참고 항목  
  [생성된 된 API의 도메인 관계](../misc/domain-relationships-in-the-generated-api.md)   
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

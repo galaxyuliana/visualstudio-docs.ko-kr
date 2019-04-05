@@ -1,25 +1,22 @@
 ---
 title: 텍스트 템플릿에서 모델에 액세스 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, accessing models
 ms.assetid: cf65395a-0ca3-4826-89c7-b1869562685c
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: f311018197040c0c908964a49f63ab130121c8c2
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: a1a2ddeb3ab46bba30a505782fdd18d7df49574d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49919860"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985575"
 ---
 # <a name="accessing-models-from-text-templates"></a>텍스트 템플릿에서 모델에 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -150,7 +147,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
   
  사용 하는 가장 효과적인 방법이 파일을 로드 하려면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus 합니다. 일반적인 시나리오에서는 텍스트 템플릿에 일반적인 방법으로 첫 번째 모델을 로드 하려면 DSL 별 지시문을 사용 합니다. 해당 모델에는 다른 모델에 대 한 ModelBus 참조 포함 됩니다. ModelBus 참조 되는 모델을 열고 특정 요소에 액세스를 사용할 수 있습니다. 자세한 내용은 [텍스트 템플릿에서 Visual Studio ModelBus를 사용 하 여](../modeling/using-visual-studio-modelbus-in-a-text-template.md)입니다.  
   
- 덜 일반적인 시나리오를 파일 이름에만 권한이 있는 모델 파일을 열려면 현재에서 되지 않을 수도 있는 및 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트입니다. 에 설명 된 기술을 사용 하 여 파일을 열 수는 예에서 [방법: 프로그램 코드로 파일에서 모델 열기](../modeling/how-to-open-a-model-from-file-in-program-code.md)합니다.  
+ 덜 일반적인 시나리오를 파일 이름에만 권한이 있는 모델 파일을 열려면 현재에서 되지 않을 수도 있는 및 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트입니다. 에 설명 된 기술을 사용 하 여 파일을 열 수는 예제의 경우 [방법: 프로그램 코드로 파일에서 모델 열기](../modeling/how-to-open-a-model-from-file-in-program-code.md)합니다.  
   
 ## <a name="generating-multiple-files-from-a-template"></a>템플릿에서 여러 파일을 생성합니다.  
  – 여러 파일을 생성 하려는 경우 예를 들어 모델에서 각 요소에 대 한 별도 파일을 생성 하려면 몇 가지가 있습니다 가능 합니다. 기본적으로 각 템플릿 파일에서 파일을 하나만 생성 됩니다.  
@@ -222,6 +219,3 @@ For Each element As ExampleElement In Me.WorkModel.Elements
 #>  
   
 ```
-
-
-

@@ -1,25 +1,22 @@
 ---
 title: UML 모델 요소에 참조 문자열 연결 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 helpviewer_keywords:
 - UML - extending, reference strings
 ms.assetid: 15dbed99-efce-42fe-a768-714a5804e7d1
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: cf8a9e7e023e9c75f61fdf9a6bfb608edc3a7123
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: bd5a1ae4abc2e0b5c508b7b77160bbf8da3bb45e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51804588"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972544"
 ---
 # <a name="attach-reference-strings-to-uml-model-elements"></a>UML 모델 요소에 참조 문자열 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +46,3 @@ ms.locfileid: "51804588"
  [작업 항목 링크 처리기 정의](../modeling/define-a-work-item-link-handler.md)   
  [모델링 확장 정의 및 설치](../modeling/define-and-install-a-modeling-extension.md)   
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
-title: '오류: 웹 서버가 잠겨 있기 차단 하 고 DEBUG 동사 | Microsoft Docs'
-ms.custom: ''
+title: '오류: 웹 서버가 잠겨 있기 DEBUG 동사를 차단 하 고 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: reference
 f1_keywords:
 - vs.debug.error.webdbg_debug_verb_blocked
 dev_langs:
@@ -22,15 +17,15 @@ ms.assetid: 9c8c4812-17db-484d-9c1b-ffd9e3bfef5a
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 60fffd146516bca57497bfdaaabe0f51407063b0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 64527c784cf61c02ad3031e9ba922ebf707e7e6f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51770244"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981828"
 ---
-# <a name="error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb"></a>오류: 웹 서버가 잠겨 있기 때문에 디버깅을 사용하기 위해 필요한 DEBUG 동사를 사용할 수 없습니다.
+# <a name="error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb"></a>오류: 웹 서버가 잠겨 있어 DEBUG 동사를 차단함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 IIS 잠금 도구가 실행되었고 URLScan이 설치되어 활성화되어 있기 때문에 웹 응용 프로그램 또는 XML Web services를 한 단계씩 실행하지 못했습니다. 이 상태가 되면 IIS에서 DEBUG 동사를 받을 수 없습니다.  
@@ -45,7 +40,7 @@ IIS 잠금 도구가 실행되었고 URLScan이 설치되어 활성화되어 있
   
      C:\WINNT\System32\Inetsrv\urlscan  
   
-2.  파일의 복사본을 만들고 이름을 **urlscan.old로 지정**합니다.  
+2.  이 파일의 복사본을 만들어 이름을 **Urlscan.old**로 지정합니다.  
   
 3.  메모장이나 원하는 텍스트 편집기를 사용하여 원본 Urlscan.ini 파일을 엽니다.  
   
@@ -58,8 +53,5 @@ IIS 잠금 도구가 실행되었고 URLScan이 설치되어 활성화되어 있
 7.  서버를 다시 시작하거나 IIS를 다시 시작합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [웹 응용 프로그램 디버깅: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)   
+ [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)   
  [오류: 요청한 리소스를 웹 서버에서 찾지 못했습니다.](../debugger/error-the-web-server-could-not-find-the-requested-resource.md)
-
-
-

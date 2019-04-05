@@ -1,23 +1,20 @@
 ---
 title: 모양 및 연결선은 모델을 반영 하도록 업데이트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 51eb2af9-00e7-4725-a87d-62fb4f39f444
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 93c079a5dc80b0a26e133258328fb7b5b9fb8d41
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: e5c03fa6a04abd06af9e24b83977d491e9809265
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49192454"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985900"
 ---
 # <a name="updating-shapes-and-connectors-to-reflect-the-model"></a>모양 및 연결선을 업데이트하여 모델 반영
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +32,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## <a name="set-shape-map-properties-to-control-the-visibility-of-a-decorator"></a>도형 맵에 데코레이터의 가시성을 제어 하는 속성 설정  
  DSL 정의에서 모양과 도메인 클래스 간의 매핑을 구성 하 여 프로그램 코드를 작성 하지 않고도 데코레이터의 가시성을 제어할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.  
   
--   [방법: 데코레이터의 가시성 제어 - 리디렉션](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
+-   [방법: 데코레이터의 가시성 제어-리디렉션](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
   
 -   [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)  
   
@@ -165,6 +162,3 @@ public partial class ArrowConnector // My connector class.
  `AssociateValueWith()` 등록 하려는 각 도메인 속성에 한 번씩을 호출 되어야 합니다. 지정된 된 속성에 변경 내용을 호출 호출 된 후 `OnAssociatedPropertyChanged()` 속성의 모델 요소를 제공 하는 모든 셰이프에 있습니다.  
   
  호출 하는 데 필요한 아닙니다 `AssociateValueWith()` 각 인스턴스에 대 한 합니다. InitializeResources 인스턴스 메서드인 경우에 각 모양 클래스에 대 한 번만 호출 됩니다.
-
-
-

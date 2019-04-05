@@ -1,14 +1,9 @@
 ---
 title: 코드 편집기에서 데이터 팁의 데이터 값 보기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -25,13 +20,13 @@ ms.assetid: ffa7bd18-439b-4685-a9b3-c7884b5de41f
 caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 37fc58a68f8cf482ac6a2bbab3ecb47c28d60904
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: bb42950acf958dbb71877671da57f5ea6fcd6898
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51799446"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970705"
 ---
 # <a name="view-data-values-in-data-tips--in-the-code-editor"></a>코드 편집기에서 데이터 팁의 데이터 값 보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,7 +74,7 @@ DataTips를 통해 디버깅하는 동안 프로그램의 변수에 대한 정�
   
 -   에 **디버그** 메뉴에서 클릭 **지우기 모든에 고정 된 DataTips** *파일*합니다.  
   
-## <a name="expanding-and-editing-information"></a>정보 확장명 및 편집  
+## <a name="expanding-and-editing-information"></a>정보 확장 및 편집  
  DataTips를 사용하면 배열, 구조체 또는 개체를 확장하여 해당 멤버를 볼 수 있습니다. DataTips에서 변수 값을 편집할 수도 있습니다.  
   
 #### <a name="to-expand-a-variable-to-see-its-elements"></a>변수를 확장하여 해당 요소를 보려면  
@@ -151,6 +146,3 @@ DataTips를 통해 디버깅하는 동안 프로그램의 변수에 대한 정�
  [방법: 간략 한 조사식 대화 상자를 사용 합니다.](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [사용자 지정 시각화 도우미 만들기](../debugger/create-custom-visualizers-of-data.md)   
  [방법: 디버거 Windows의 숫자 형식 변경](http://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)
-
-
-

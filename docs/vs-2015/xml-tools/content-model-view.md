@@ -1,25 +1,20 @@
 ---
 title: 콘텐츠 모델 뷰 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: e8db7c7d-31cf-479e-9dcc-299759891795
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: a535a97835491f4a109ed0893d20a4330b218801
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: c0a25766327f2e074c4b7f8adf1ccde5a46895d9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49860307"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984688"
 ---
 # <a name="content-model-view"></a>콘텐츠 모델 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +36,7 @@ ms.locfileid: "49860307"
   
  노드의 콘텐츠 모델은 트리 노드로 나타나는 요소 및 특성이 있는 확장 가능한 그래픽 트리로 표현됩니다. 기본적으로 하나의 수준만 확장됩니다. 작성자, 형식 이름, 그룹 및 기타 컨테이너와 같은 기타 정보는 이러한 정보를 포함하는 요소 및 특성과 함께 확장 가능한 세로 막대에 배치됩니다. 세로 막대를 두 번 클릭하면 가로 막대로 바뀌고 트리가 축소됩니다. 가로 막대를 두 번 클릭하면 세로 막대로 바뀌고 트리가 확장됩니다. 세로 막대를 선택하면 컨테이너의 모든 노드가 선택됩니다. 요소를 확장하거나 축소할 수 있는 경우 노드의 오른쪽에 확장기가 나타납니다.  
   
- 빈 디자인 화면인 경우 XML 편집기, XML 스키마 탐색기 및 워터마크가 표시됩니다. 합니다 *워터 마크* 모든 XSD 디자이너 뷰에 대 한 링크 목록이 됩니다. 스키마 집합에 오류가 있는 경우 목록 끝에 "오류 목록을 사용하여 스키마 집합의 오류 표시 및 수정"이라는 텍스트가 표시됩니다.  
+ 빈 디자인 화면인 경우 XML 편집기, XML 스키마 탐색기 및 워터마크가 표시됩니다. 합니다 *워터 마크* 모든 XSD 디자이너 뷰에 대 한 링크 목록이 됩니다. 스키마 집합에 오류가 있을 경우 목록 끝에 다음 텍스트가 표시 됩니다. 사용 하 여 오류 목록 보기 및 집합에서 오류를 수정 합니다. "  
   
 ## <a name="breadcrumb-bar"></a>이동 경로 탐색 막대  
  콘텐츠 모델 뷰의 하단에 있는 이동 경로 탐색 막대에서는 스키마 집합에서 선택한 노드가 위치한 곳을 보여 줍니다.  
@@ -83,9 +78,9 @@ ms.locfileid: "49860307"
   
 |옵션|설명|  
 |------------|-----------------|  
-|**시작 뷰 표시**|전환 합니다 [보기 시작](../xml-tools/start-view.md)합니다. 바로 가기 키를 사용 하 여이 뷰에 액세스할 수 있습니다: **CTRL + 1**합니다.|  
-|**콘텐츠 모델 뷰 표시**|전환 합니다 [콘텐츠 모델 뷰](../xml-tools/content-model-view.md)합니다. 바로 가기 키를 사용 하 여이 뷰에 액세스할 수 있습니다: **CTRL + 2**합니다.|  
-|**그래프 뷰 표시**|전환 합니다 [그래프 보기](../xml-tools/graph-view.md)합니다. 바로 가기 키를 사용 하 여이 뷰에 액세스할 수 있습니다: **CTRL + 3**합니다.|  
+|**시작 뷰 표시**|전환 합니다 [보기 시작](../xml-tools/start-view.md)합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **CTRL + 1**합니다.|  
+|**콘텐츠 모델 뷰 표시**|전환 합니다 [콘텐츠 모델 뷰](../xml-tools/content-model-view.md)합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **CTRL + 2**합니다.|  
+|**그래프 뷰 표시**|전환 합니다 [그래프 보기](../xml-tools/graph-view.md)합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **CTRL + 3**합니다.|  
 |**작업 영역 지우기**|작업 영역 및 디자인 화면을 지웁니다.|  
 |**작업 영역에서 제거**|작업 영역 및 디자인 화면에서 선택한 노드를 제거합니다.|  
 |**작업 영역에서 선택 항목을 제외한 모든 제거**|작업 영역 및 디자인 화면에서 선택하지 않은 노드를 제거합니다.|  
@@ -123,6 +118,3 @@ ms.locfileid: "49860307"
   
 ## <a name="see-also"></a>참고 항목  
  [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md)
-
-
-

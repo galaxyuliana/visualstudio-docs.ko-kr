@@ -1,12 +1,9 @@
 ---
 title: 도메인별 언어 정의에 추적 속성 추가 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - tracking properties [Domain-Specific Language Tools], walkthrough
 - Domain-Specific Language Tools, walkthroughs
@@ -15,13 +12,13 @@ ms.assetid: 4aa47777-de75-4897-a423-a3c4426b4125
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6103f9601c55b9b29b83866d261d889c5555c86f
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 164586555c9027481b157f1232ce3d41e0fe40b0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49894380"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985051"
 ---
 # <a name="adding-a-tracking-property-to-a-domain-specific-language-definition"></a>도메인별 언어 정의에 추적 속성 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +29,7 @@ ms.locfileid: "49894380"
   
  예를 들어, 도메인 특정 언어 도구 (DSL 도구), 도메인 클래스의 속성에는 도메인 클래스가 아니라 사용자의 이름을 사용 하 여 계산 되는 기본값이 표시 이름을 디자인 타임에 값을 변경 하거나 수 계산된 된 값으로 다시 설정 합니다.  
   
- 이 연습에서는 모델의 기본 Namespace 속성을 기반으로 기본 값이 있는 속성을 추적 하는 Namespace가 있는 도메인 특정 언어 (DSL)를 만듭니다. 속성을 추적 하는 방법에 대 한 자세한 내용은 참조 하세요. [추적 속성 정의](http://msdn.microsoft.com/en-us/0538b0e4-6221-4e7d-911a-b92cd622f0be)합니다.  
+ 이 연습에서는 모델의 기본 Namespace 속성을 기반으로 기본 값이 있는 속성을 추적 하는 Namespace가 있는 도메인 특정 언어 (DSL)를 만듭니다. 속성을 추적 하는 방법에 대 한 자세한 내용은 참조 하세요. [추적 속성 정의](http://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be)합니다.  
   
 - 추적 속성 설명자 DSL 도구 지원입니다. 그러나 추적 속성을 추가 하려면 DSL 디자이너를 사용할 수 없습니다. 따라서 정의 및 추적 속성을 구현 하는 사용자 지정 코드를 추가 해야 합니다.  
   
@@ -725,7 +722,7 @@ ms.locfileid: "49894380"
   
 #### <a name="to-exercise-the-language"></a>언어를 실행 하려면  
   
-1.  에 **빌드할** 메뉴에서 클릭 **솔루션 다시 빌드**합니다.  
+1.  **빌드** 메뉴에서 **솔루션 다시 빌드**를 클릭합니다.  
   
 2.  **디버그** 메뉴에서 **디버깅 시작**을 클릭합니다.  
   
@@ -767,7 +764,4 @@ ms.locfileid: "49894380"
  <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
  [도메인 특정 언어를 정의 하는 방법](../modeling/how-to-define-a-domain-specific-language.md)   
  [방법: 도메인별 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)   
- [연습: 도메인 특정 언어 정의 사용자 지정](../misc/walkthrough-customizing-the-domain-specific-language-definition.md)
-
-
-
+ [연습: 도메인별 언어 정의 사용자 지정](../misc/walkthrough-customizing-the-domain-specific-language-definition.md)

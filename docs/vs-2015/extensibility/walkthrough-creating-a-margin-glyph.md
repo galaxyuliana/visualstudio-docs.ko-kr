@@ -1,26 +1,21 @@
 ---
 title: '연습: 여백 모양 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - margin glyph
 ms.assetid: 814185db-24f9-417f-b3b1-7c5aabb42b45
 caps.latest.revision: 30
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 172ac543f8777219bb7c5adc94d19e1baeea24e7
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8d22607dd4e32ac29a773b6217056c2484121cd9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51783209"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985221"
 ---
 # <a name="walkthrough-creating-a-margin-glyph"></a>연습: 여백 문자 모양 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -146,4 +141,3 @@ ms.locfileid: "51783209"
 4.  주석이 있는 코드 파일을 엽니다. 주석 섹션 중 하나에 "todo" 라는 단어를 추가 합니다.  
   
 5.  표시기 여백 코드 창의 왼쪽에 진한 파란색 윤곽선으로 밝은 파란색 원을 표시 됩니다.
-

@@ -1,33 +1,28 @@
 ---
 title: 레거시 API에서 텍스트 버퍼 이벤트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - text buffer events
 ms.assetid: 9be49e9f-1864-41c2-8a3c-f66895881341
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 677824142f2e7e497888627041cfe7a82487d342
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: e82fa31ca435d0c850a4d9e75e927cff9613b046
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51735508"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984765"
 ---
 # <a name="text-buffer-events-in-the-legacy-api"></a>레거시 API에서 텍스트 버퍼 이벤트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 텍스트 버퍼 개체는 다양 한 상황에 응답할 수 있도록 여러 가지 이벤트를 내보냅니다.  
   
- 기존 API를 사용 하는 경우에 텍스트 버퍼 변경 알림을 수신 하려면 다음 인터페이스를 구현 해야 합니다. 사용 하 여 텍스트 버퍼에 대 한 인터페이스를 노출 합니다 `IConnectionPointContainer` 버퍼에서 텍스트 버퍼 줄에 대 한 알림을 받으려면 인터페이스 변경 합니다. 자세한 내용은 [방법: 레거시 API를 사용 하 여 텍스트 버퍼 이벤트에 대 한 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)합니다. 경우 `IVsTextStreamEvents` 또는 `IVsTextLinesEvents` 인터페이스 변경 내용이 반환 됩니다 중 하나 또는 two 차원 좌표에서 각각.  
+ 기존 API를 사용 하는 경우에 텍스트 버퍼 변경 알림을 수신 하려면 다음 인터페이스를 구현 해야 합니다. 사용 하 여 텍스트 버퍼에 대 한 인터페이스를 노출 합니다 `IConnectionPointContainer` 버퍼에서 텍스트 버퍼 줄에 대 한 알림을 받으려면 인터페이스 변경 합니다. 자세한 내용은 [방법: 레거시 API 사용 하 여 텍스트 버퍼 이벤트에 대 한 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)합니다. 경우 `IVsTextStreamEvents` 또는 `IVsTextLinesEvents` 인터페이스 변경 내용이 반환 됩니다 중 하나 또는 two 차원 좌표에서 각각.  
   
 ## <a name="text-buffer-interfaces"></a>텍스트 버퍼 인터페이스  
  다음은 텍스트 버퍼 개체에서 구현한 인터페이스입니다.  
@@ -58,5 +53,4 @@ ms.locfileid: "51735508"
   
 ## <a name="see-also"></a>참고 항목  
  [레거시 API를 사용 하 여 텍스트 버퍼에 액세스](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)   
- [방법: 레거시 API를 사용하여 텍스트 버퍼 이벤트에 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)
-
+ [방법: 레거시 API 사용 하 여 텍스트 버퍼 이벤트에 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)

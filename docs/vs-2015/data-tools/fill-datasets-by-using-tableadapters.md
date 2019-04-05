@@ -1,12 +1,9 @@
 ---
 title: Tableadapter를 사용 하 여 데이터 집합 채우기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -24,15 +21,15 @@ ms.assetid: 55f3bfbe-db78-4486-add3-c62f49e6b9a0
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 118b8165b4c5ad972aacf9a3d91cff78c1b776e1
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 242596220b12756b6b5243b008b52db207c22cb0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49251853"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984658"
 ---
-# <a name="fill-datasets-by-using-tableadapters"></a>Tableadapter를 사용 하 여 데이터 집합 채우기
+# <a name="fill-datasets-by-using-tableadapters"></a>TableAdapters를 사용하여 데이터 세트 채우기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -48,9 +45,9 @@ TableAdapter 구성 요소를 기반으로 쿼리 또는 저장된 프로시저 
 |[TableAdapter 만들기 및 구성](../data-tools/create-and-configure-tableadapters.md)|Tableadapter 만들기 및 구성 하는 디자이너를 사용 하는 방법|  
 |[매개 변수가 있는 TableAdapter 쿼리 만들기](../data-tools/create-parameterized-tableadapter-queries.md)|사용자가 인수 TableAdapter 프로시저 또는 쿼리를 제공할 수 있게 하는 방법|  
 |[TableAdapter를 사용하여 데이터베이스에 직접 액세스](../data-tools/directly-access-the-database-with-a-tableadapter.md)|Tableadapter의 Dbdirect 메서드를 사용 하는 방법|  
-|[데이터 집합을 채우는 동안 제약 조건 해제](../data-tools/turn-off-constraints-while-filling-a-dataset.md)|데이터를 업데이트할 때 foreign key 제약 조건을 사용 하는 방법|  
-|[TableAdapter의 기능을 확장 하는 방법](../data-tools/fill-datasets-by-using-tableadapters.md)|Tableadapter를 사용자 지정 코드를 추가 하는 방법|  
-|[XML 데이터를 Dataset에 읽어오기](../data-tools/read-xml-data-into-a-dataset.md)|XML을 사용 하는 방법|  
+|[데이터 세트를 채우는 동안 제약 조건 해제](../data-tools/turn-off-constraints-while-filling-a-dataset.md)|데이터를 업데이트할 때 foreign key 제약 조건을 사용 하는 방법|  
+|[TableAdapter의 기능 확장 방법](../data-tools/fill-datasets-by-using-tableadapters.md)|Tableadapter를 사용자 지정 코드를 추가 하는 방법|  
+|[XML 데이터를 데이터 세트에 읽어오기](../data-tools/read-xml-data-into-a-dataset.md)|XML을 사용 하는 방법|  
   
 ## <a name="tableadapters-overview"></a>TableAdapters 개요  
  Tableadapter는 데이터베이스, 쿼리 실행된 또는 저장된 프로시저를 연결 하 고 반환된 된 데이터를 사용 하 여 해당 DataTable을 채울는 디자이너에서 생성 된 구성 요소입니다. Tableadapter 다시 데이터베이스에 응용 프로그램에서 업데이트 된 데이터를 보낼 수도 있습니다. TableAdapter와 연결 된 테이블의 스키마를 따르는 데이터를 반환 하기만 TableAdapter에 원하는 만큼 많은 쿼리를 실행할 수 있습니다. 다음 다이어그램에서는 Tableadapter 데이터베이스와 메모리 내에서 기타 개체와 상호 작용 하는 방법을 보여 줍니다.  
@@ -113,8 +110,7 @@ TableAdapter 구성 요소를 기반으로 쿼리 또는 저장된 프로시저 
  Tableadapter에 nullable 형식 지원 `Nullable(Of T)` 고 `T?`입니다. Visual Basic의 nullable 형식에 대한 자세한 내용은 [Nullable 값 형식](http://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)을 참조하세요. C#의 nullable 형식에 대 한 자세한 내용은 참조 하세요. [Nullable 형식 사용](http://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28)합니다.  
   
 ## <a name="security"></a>보안  
- 데이터 명령을 사용 하는 경우는 `CommandType` 속성이 설정 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 송신 하려고 할 수 있습니다 (삽입) 하기 위해 무단으로 액세스 하거나 데이터베이스를 손상 시키는 SQL 문을 수정 또는 추가 합니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다.  
+ 데이터 명령을 사용 하는 경우는 `CommandType` 속성이 설정 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 인증되지 않은 액세스 권한을 얻거나 데이터베이스를 손상시키기 위해 수정되었거나 추가된 SQL 문을 전송(주입)할 수도 있습니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)
-

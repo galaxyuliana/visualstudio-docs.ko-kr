@@ -1,25 +1,22 @@
 ---
 title: 사용자 지정 지시문 프로세서 배포 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, custom directive processors
 ms.assetid: 80c28722-a630-47b5-923b-024dc3f2c940
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6986811b522f6ed3621335227231bb69ab6cf1c0
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 93165a1534ed01dca057fc13059858c4c3e7a81c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49836400"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985384"
 ---
 # <a name="deploying-a-custom-directive-processor"></a>사용자 지정 지시문 처리기 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,16 +25,16 @@ ms.locfileid: "49836400"
   
  이러한 방법은 다음과 같습니다.  
   
-- [Visual Studio 확장 (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다. 자신이 사용하는 컴퓨터와 다른 컴퓨터 둘 다에 지시문 프로세서를 설치하고 제거하는 방법을 제공합니다. 일반적으로 동일한 VSIX에 다른 기능을 패키지할 수도 있습니다.  
+- [Visual Studio 확장 (VSIX)](http://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다. 자신이 사용하는 컴퓨터와 다른 컴퓨터 둘 다에 지시문 프로세서를 설치하고 제거하는 방법을 제공합니다. 일반적으로 동일한 VSIX에 다른 기능을 패키지할 수도 있습니다.  
   
-- [VSPackage](../extensibility/internals/vspackages.md)합니다. 지시문 프로세서 외에 다른 기능이 포함된 VSPackage를 정의하는 경우 지시문 프로세서를 등록하는 간편한 방법이 있습니다.  
+- [VSPackage](../extensibility/internals/vspackages.md). 지시문 프로세서 외에 다른 기능이 포함된 VSPackage를 정의하는 경우 지시문 프로세서를 등록하는 간편한 방법이 있습니다.  
   
 - 레지스트리 키 설정. 이 방법에서는 지시문 프로세서에 대한 레지스트리 항목을 추가합니다.  
   
-  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 또는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 텍스트 템플릿을 변환하려는 경우에만 이러한 방법 중 하나를 사용해야 합니다. 응용 프로그램에서 사용자 지정 호스트를 사용하는 경우 사용자 지정 호스트는 각 지시문의 지시문 프로세서를 찾는 작업을 담당합니다.  
+  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 또는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 텍스트 템플릿을 변형하려는 경우에만 이러한 방법 중 하나를 사용해야 합니다. 응용 프로그램에서 사용자 지정 호스트를 사용하는 경우 사용자 지정 호스트는 각 지시문의 지시문 프로세서를 찾는 작업을 담당합니다.  
   
 ## <a name="deploying-a-directive-processor-in-a-vsix"></a>VSIX로 지시문 프로세서 배포  
- 사용자 지정 지시문 프로세서를 추가할 수 있습니다는 [Visual Studio 확장 (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다.  
+ 사용자 지정 지시문 프로세서를 추가할 수 있습니다는 [Visual Studio 확장 (VSIX)](http://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다.  
   
  다음 두 항목이 .vsix 파일에 포함되어 있는지 확인해야 합니다.  
   
@@ -163,7 +160,7 @@ ms.locfileid: "49836400"
  사용자 지정 지시문 프로세서를 설치하는 이 방법은 가장 선호되지 않는 방법입니다. 이 방법으로는 간편하게 지시문 프로세서를 사용하거나 사용하지 않도록 설정할 수 없으며 지시문 프로세서를 다른 사용자에게 배포할 수 없습니다.  
   
 > [!CAUTION]
->  레지스트리를 올바르게 편집하지 않으면 시스템을 심각하게 손상시킬 수 있습니다. 따라서 레지스트리를 변경하기 전에 컴퓨터에 있는 중요한 데이터를 백업해야 합니다.  
+>  레지스트리를 잘못 편집하면 시스템에 심각한 손상이 발생할 수 있습니다. 따라서 레지스트리를 변경하기 전에 컴퓨터에 있는 중요한 데이터를 백업해야 합니다.  
   
 #### <a name="to-register-a-directive-processor-by-setting-a-registry-key"></a>레지스트리 키를 설정하여 지시문 프로세서를 등록하려면  
   
@@ -205,6 +202,3 @@ ms.locfileid: "49836400"
   
 ## <a name="see-also"></a>참고 항목  
  [사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기](../modeling/creating-custom-t4-text-template-directive-processors.md)
-
-
-

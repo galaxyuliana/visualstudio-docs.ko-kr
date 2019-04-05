@@ -1,27 +1,22 @@
 ---
 title: '테스트 영역 1: 소스 제어에서 열기에 추가 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], adding and opening solutions
 - source control plug-ins, adding and opening solutions
 ms.assetid: 5b3b5b08-5e9b-41be-ac72-c63957faed22
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 1ab1a267984f1a50cfd8e95cc8217572c0dacbcf
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 14bf97822957088f704ffbfefe24ea20b55f14ac
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51746657"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984603"
 ---
 # <a name="test-area-1-add-toopen-from-source-control"></a>테스트 영역 1: 소스 제어에서 열기 / 추가
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,15 +26,15 @@ ms.locfileid: "51746657"
 ## <a name="command-menu-access"></a>명령 메뉴 액세스  
  다음 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 통합된 개발 환경 메뉴 경로 테스트 사례에서 사용 됩니다.  
   
--   에 대 한 [!INCLUDE[vsvss](../../includes/vsvss-md.md)]소스 제어에서 열기,: **파일**, **엽니다**를 **프로젝트**/**솔루션**; 확인 합니다 에서[!INCLUDE[vsvss](../../includes/vsvss-md.md)] 위치입니다.  
+-   에 대 한 [!INCLUDE[vsvss](../../includes/vsvss-md.md)], 소스 제어에서 열기: **파일**, **오픈**, **프로젝트**/**솔루션**; 조회에 [!INCLUDE[vsvss](../../includes/vsvss-md.md)] 위치 합니다.  
   
--   다른 원본 제어 플러그 인에 대 한 소스 제어에서 열기: **파일**를 **소스 제어**합니다 **소스 제어에서 열기**합니다.  
+-   다른 원본 제어 플러그 인에 대 한 소스 제어에서 열기: **파일**하십시오 **소스 제어**를 **소스 제어에서 열기**합니다.  
   
--   소스 제어에 추가 합니다. **파일**, **소스 제어**, **소스 제어 파일에 솔루션 추가**, **소스 제어**, **추가 소스 제어에 프로젝트를 선택한**합니다.  
+-   소스 제어에 추가 합니다. **파일**, **소스 제어**, **솔루션을 소스 제어 파일에 추가할**, **소스 제어**, **소스제어에선택한프로젝트추가**.  
   
 -   바로 가기 메뉴 (프로젝트/솔루션) **소스 제어에 솔루션 추가**합니다.  
   
--   소스 제어에서 추가: **파일**를 **소스 제어**합니다 **소스 제어에서 프로젝트 추가**합니다.  
+-   소스 제어에서 추가 합니다. **파일**하십시오 **소스 제어**, **소스 제어에서 프로젝트를 추가**합니다.  
   
 -   에 대 한 [!INCLUDE[vsvss](../../includes/vsvss-md.md)], 추가 원본의 제어도 제공 됩니다 **파일**, **추가**를 **기존 프로젝트**; 조회에 [!INCLUDE[vsvss](../../includes/vsvss-md.md)] 위치 합니다.  
   
@@ -61,7 +56,7 @@ ms.locfileid: "51746657"
 ## <a name="test-cases"></a>테스트 사례  
  다음은 추가 대 한 특정 테스트 사례 간 테스트 영역 소스 제어에서에서 열기.  
   
-### <a name="case-1a-add-solution-to-source-control"></a>1a 사례: 소스 제어에 솔루션 추가  
+### <a name="case-1a-add-solution-to-source-control"></a>사례 1a: 소스 제어에 솔루션 추가  
  이 테스트 사례는 소스 제어에 솔루션 추가에 중점을 둡니다.  
   
 |작업|테스트 단계|확인 하려면 예상된 결과|  
@@ -92,4 +87,3 @@ ms.locfileid: "51746657"
   
 ## <a name="see-also"></a>참고 항목  
  [소스 제어 플러그 인에 대한 테스트 가이드](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
-

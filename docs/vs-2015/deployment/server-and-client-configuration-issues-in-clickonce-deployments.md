@@ -1,14 +1,9 @@
 ---
 title: 서버 및 ClickOnce 배포에서 클라이언트 구성 문제 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -22,13 +17,13 @@ ms.assetid: 929e5fcc-dd56-409c-bb57-00bd9549b20b
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 8cf7a6db209bb6bbed1d8044bbdc3ed106e64836
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 008e7991c8f88fb1c5a8b2eb99659ebe9134df26
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49948943"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982602"
 ---
 # <a name="server-and-client-configuration-issues-in-clickonce-deployments"></a>ClickOnce 배포 시 서버 및 클라이언트 구성 문제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +42,7 @@ ms.locfileid: "49948943"
   
 - .deploy  
   
-  선택을 취소 하 여이 옵션을 해제할 수는 있지만 합니다 **".deploy" 파일 확장명을 사용 하 여** 옵션을 합니다 [Publish Options Dialog Box](http://msdn.microsoft.com/en-us/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), 모든 파일 확장명을 차단 해제 하려면 웹 서버를 구성 해야 하는 경우 응용 프로그램에서 사용 합니다.  
+  선택을 취소 하 여이 옵션을 해제할 수는 있지만 합니다 **".deploy" 파일 확장명을 사용 하 여** 옵션을 합니다 [Publish Options Dialog Box](http://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), 모든 파일 확장명을 차단 해제 하려면 웹 서버를 구성 해야 하는 경우 응용 프로그램에서 사용 합니다.  
   
   IIS를 설치 하지 않은 위치를 사용 하는 경우.manifest,.application, 및.deploy, 예를 들어 구성 해야 합니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], 또는 다른 웹 서버 (예: Apache)를 사용 하는 경우.  
   
@@ -104,7 +99,7 @@ ms.locfileid: "49948943"
   
 |URL 형식|설명|  
 |--------------|-----------------|  
-|ftp: / /|게시할 수는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 이 프로토콜을 사용 하 여 응용 프로그램입니다.|  
+|ftp://|게시할 수는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 이 프로토콜을 사용 하 여 응용 프로그램입니다.|  
 |http://|설치할 수는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 이 프로토콜을 사용 하 여 응용 프로그램입니다.|  
 |https://|설치할 수는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 이 프로토콜을 사용 하 여 응용 프로그램입니다.|  
 |file://|설치할 수는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 이 프로토콜을 사용 하 여 응용 프로그램입니다.|  
@@ -112,12 +107,12 @@ ms.locfileid: "49948943"
 ## <a name="windows-xp-sp2-windows-firewall"></a>Windows XP SP2: Windows 방화벽  
  기본적으로 Windows XP SP2에는 Windows 방화벽을 사용 합니다. 게시 및 실행 수는 Windows XP가 설치 된 컴퓨터에서 응용 프로그램을 개발 하는 경우 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] IIS를 실행 하는 로컬 서버에서 응용 프로그램입니다. 그러나 Windows 방화벽을 열지 않으면 다른 컴퓨터에서 IIS를 실행 중인 해당 서버를 액세스할 수 없습니다. Windows 방화벽을 관리 하는 방법은 Windows 도움말을 참조 하세요.  
   
-## <a name="windows-server-enable-frontpage-server-extensions"></a>Windows Server: FrontPage server extensions를 사용 하도록 설정  
+## <a name="windows-server-enable-frontpage-server-extensions"></a>Windows Server FrontPage server extensions를 사용 하도록 설정  
  Microsoft의 FrontPage Server Extensions가 HTTP를 사용 하는 Windows 웹 서버에 대 한 응용 프로그램 게시 필요 합니다.  
   
  기본적으로 Windows 서버 없는 FrontPage Server Extensions를 설치 합니다. 사용 하려는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] FrontPage Server Extensions를 사용 하 여 HTTP를 사용 하는 Windows Server 웹 서버에 게시 하려면 FrontPage Server Extensions를 먼저 설치 해야 합니다. Windows Server에서 사용자 서버 관리 관리 도구를 사용 하 여 설치를 수행할 수 있습니다.  
   
-## <a name="windows-server-locked-down-content-types"></a>Windows Server: 잠긴 콘텐츠 형식  
+## <a name="windows-server-locked-down-content-types"></a>Windows Server 잠긴 콘텐츠 형식  
  IIS에서 [!INCLUDE[WinXPSvr](../includes/winxpsvr-md.md)] 알려진된 특정 콘텐츠 형식 (예를 들어,.htm,.html,.txt 및 등)를 제외 하 고 모든 파일 형식의 잠급니다. 배포를 사용 하도록 설정 하려면 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 형식.application,.manifest 및 응용 프로그램에서 사용 하는 다른 사용자 지정 파일 형식 파일을 다운로드할 수 있도록 IIS 설정을 변경 해야 하는이 서버를 사용 하 여 응용 프로그램입니다.  
   
  IIS 서버를 사용 하 여 배포 하는 경우 inetmgr.exe를 실행 하 고 기본 웹 페이지에 대 한 새 파일 형식을 추가 합니다.  
@@ -144,6 +139,3 @@ ms.locfileid: "49948943"
  [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)   
  [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)   
  [응용 프로그램 배포 필수 조건](../deployment/application-deployment-prerequisites.md)
-
-
-

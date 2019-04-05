@@ -1,14 +1,9 @@
 ---
 title: 프로젝트 및 항목 템플릿 등록 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], adding items
 - registry, Add New Item dialog box
@@ -18,13 +13,13 @@ helpviewer_keywords:
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
 caps.latest.revision: 28
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 06a9840680c76103373cde00ac37310bb6138095
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: a06e7a292d960e675ad4b0de97499557542fef1c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51764292"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981749"
 ---
 # <a name="registering-project-and-item-templates"></a>프로젝트 템플릿 및 항목 템플릿 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,7 +43,7 @@ ms.locfileid: "51764292"
 |----------|----------|-----------------|  
 |@|REG_SZ|이러한 종류의 프로젝트의 기본 이름입니다.|  
 |DisplayName|REG_SZ|패키지에서 등록 하는 위성 DLL에서에서 검색할 이름의 리소스 ID입니다.|  
-|패키지|REG_SZ|패키지에서 등록 된 패키지의 클래스 ID입니다.|  
+|Package|REG_SZ|패키지에서 등록 된 패키지의 클래스 ID입니다.|  
 |ProjectTemplatesDir|REG_SZ|프로젝트 템플릿 파일의 기본 경로입니다. 프로젝트 템플릿 파일에서 표시 되는 **새 프로젝트** 템플릿.|  
   
 ### <a name="registering-item-templates"></a>등록 항목 템플릿  
@@ -117,7 +112,7 @@ ms.locfileid: "51764292"
   
  \Form  
   
- \Web 페이지  
+ \Web Page  
   
  \HelperFiles (다중 파일 프로젝트 항목에 사용 되는 파일 포함)  
   
@@ -128,4 +123,3 @@ ms.locfileid: "51764292"
  [마법사](../../extensibility/internals/wizards.md)   
  [응용 프로그램 지역화](../../ide/localizing-applications.md)   
  [일반적으로 프로젝트를 확장하는 데 사용되는 개체에 대한 CATID](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)
-

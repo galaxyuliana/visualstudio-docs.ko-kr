@@ -1,12 +1,9 @@
 ---
 title: WPF 응용 프로그램에서 조회 테이블 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -24,15 +21,15 @@ ms.assetid: 56a1fbff-c7e8-4187-a1c1-ffd17024bc1b
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 6ce3b1cb07256c35949591b4d6ea012f56e432c6
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: dbeaf44d767779281a3af4fe41f97a827a38c097
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49303344"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58985735"
 ---
-# <a name="create-lookup-tables-in-wpf-applications"></a>WPF 응용 프로그램에서 조회 테이블 만들기
+# <a name="create-lookup-tables-in-wpf-applications"></a>WPF 애플리케이션에서 조회 테이블 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -44,11 +41,11 @@ ms.locfileid: "49303344"
   
 1.  프로젝트에 관련 된 데이터를 사용 하 여 데이터 원본의 다음 유형 중 하나를 추가 합니다.  
   
-    -   데이터 집합 또는 엔터티 데이터 모델입니다. 자세한 내용은 [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)을 참조하십시오.  
+    -   데이터 집합 또는 엔터티 데이터 모델입니다.
+
+    -   WCF 데이터 서비스에서 WCF 서비스 또는 웹 서비스입니다. 자세한 내용은 [방법: 서비스의 데이터에 연결](../data-tools/how-to-connect-to-data-in-a-service.md)을 참조하세요.  
   
-    -   WCF 데이터 서비스에서 WCF 서비스 또는 웹 서비스입니다. 자세한 내용은 [방법: 데이터 서비스에 연결할](../data-tools/how-to-connect-to-data-in-a-service.md)합니다.  
-  
-    -   개체입니다. 자세한 내용은 [방법: 데이터 개체에 연결할](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b)합니다.  
+    -   개체. 자세한 내용은 [방법: 데이터 개체에 연결할](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b)합니다.  
   
     > [!NOTE]
     >  조회 테이블을 만들려면 먼저 프로젝트에 대 한 데이터 원본으로 두 개의 관련된 테이블이 나 개체가 존재 해야 합니다.  
@@ -57,7 +54,7 @@ ms.locfileid: "49303344"
   
      유효한 놓기 대상에 대 한 자세한 내용은 참조 하세요. [Visual Studio에서 데이터를 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)합니다.  
   
-3.  에 **데이터** 메뉴에서 클릭 **데이터 소스 표시** 열려는 합니다 **데이터 원본** 창.  
+3.  **데이터** 메뉴에서 **데이터 원본 표시**를 클릭하여 **데이터 원본** 창을 엽니다.  
   
 4.  노드를 확장 합니다 **데이터 원본** 창에서 부모 테이블 또는 개체와 관련 된 자식 테이블 또는 개체 표시 될 때까지 합니다.  
   
@@ -103,5 +100,4 @@ ms.locfileid: "49303344"
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/display-related-data-in-wpf-applications.md)   
- [연습: WPF 응용 프로그램에서 관련 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)
-
+ [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)

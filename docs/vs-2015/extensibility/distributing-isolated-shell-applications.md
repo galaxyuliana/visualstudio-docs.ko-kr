@@ -1,24 +1,19 @@
 ---
 title: 격리 셸 응용 프로그램 배포 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: c503a985-d67a-4ef8-9123-7744a78f2f17
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 27228131c1e955a394e666ac05f0ddd68c879be0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: bf0d8a4cab8d30a56e84d1a6869c2c842b982aea
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51758786"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985534"
 ---
 # <a name="distributing-isolated-shell-applications"></a>격리 셸 응용 프로그램 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ ms.locfileid: "51758786"
   
 ## <a name="allowing-for-updates-to-your-application"></a>응용 프로그램에 대 한 업데이트 허용  
  설치 프로그램에는 응용 프로그램을 업데이트할 Microsoft 업데이트 또는 회사 업데이트 가능성에 대 한 허용 해야 합니다. 업데이트에 대 한 자세한 내용은 참조 하세요. [격리 셸 응용 프로그램에 대 한 서비스 지침](../extensibility/servicing-guidelines-for-isolated-shell-applications.md)합니다.
-

@@ -1,12 +1,9 @@
 ---
 title: 'UML 구성 요소 다이어그램: 지침 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML diagrams, component
 - diagrams - modeling, component
@@ -17,13 +14,13 @@ ms.assetid: 6c1bdd60-369e-477e-83ed-7f6fe75c9f0b
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 7400bac1fa6dcbf086718e54d18288b8ab80f1b0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 13dc2eda358e86cd324bc154b856028b3db8979b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51801477"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984275"
 ---
 # <a name="uml-component-diagrams-guidelines"></a>UML 구성 요소 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,13 +46,13 @@ Visual Studio에서 그릴 수 있습니다는 *구성 요소 다이어그램* �
   
 |다른 다이어그램|디자인과 관련하여 논의하고 의견을 교환할 요소|  
 |-------------------|--------------------------------------------------------------------|  
-|UML 시퀀스 다이어그램|-시스템의 구성 요소 간의 상호 작용<br />-상호 작용 및 구성 요소 내에 있는 파트 간의 합니다.<br /><br /> 자세한 내용은 [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.|  
+|UML 시퀀스 다이어그램|-시스템의 구성 요소 간의 상호 작용<br />-상호 작용 및 구성 요소 내에 있는 파트 간의 합니다.<br /><br /> 자세한 내용은 참조 하세요. [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.|  
 |UML 클래스 다이어그램|-구성 요소의 인터페이스입니다. 클래스 다이어그램을 사용하여 인터페이스의 메서드를 자세히 설명할 수 있습니다.<br />-구성 요소의 인터페이스를 통해 매개 변수로 보낸 데이터입니다.<br /><br /> 자세한 내용은 [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)합니다.|  
-|동작 다이어그램|-내부 처리에서 들어오는 메시지에 응답 하는 구성 요소에서 수행 합니다.<br /><br /> 자세한 내용은 [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.|  
-|레이어 다이어그램|구성 요소에 대 한 논리 아키텍처 계층입니다.<br /><br /> 자세한 내용은 [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)합니다.|  
+|동작 다이어그램|-내부 처리에서 들어오는 메시지에 응답 하는 구성 요소에서 수행 합니다.<br /><br /> 자세한 내용은 참조 하세요. [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.|  
+|레이어 다이어그램|구성 요소에 대 한 논리 아키텍처 계층입니다.<br /><br /> 자세한 내용은 참조 하세요. [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)를 참조하세요.|  
   
 ##  <a name="Basics"></a> 구성 요소 다이어그램을 그리는 기본 단계  
- 구성 요소 다이어그램의 요소에 대 한 참조 정보를 참조 하세요 [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)합니다.  
+ 구성 요소 다이어그램의 요소에 대 한 참조 정보를 참조 하세요. [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)를 참조하세요.  
   
  디자인 프로세스에서 구성 요소 다이어그램을 사용 하는 방법에 대 한 자세한 내용은 참조 하세요. [앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)합니다.  
   
@@ -132,7 +129,7 @@ Visual Studio에서 그릴 수 있습니다는 *구성 요소 다이어그램* �
   
 5. 레이블을 변경하려면 클릭합니다. 레이블에는 인터페이스 이름이 표시됩니다. 즉, 레이블을 변경하면 인터페이스의 이름이 변경됩니다.  
   
-   인터페이스의 특성과 작업을 나열하려면 UML 모델 탐색기에 추가하세요. 또는 UML 모델 탐색기의 인터페이스를 클래스 다이어그램으로 끌어 놓은 다음, 여기에 작업과 특성을 추가할 수 있습니다.  
+   인터페이스의 특성과 작업을 나열하려면 UML 모델 탐색기에 추가하십시오. 또는 UML 모델 탐색기의 인터페이스를 클래스 다이어그램으로 끌어 놓은 다음, 여기에 작업과 특성을 추가할 수 있습니다.  
   
 ### <a name="linking-between-components"></a>구성 요소 간 연결  
  종속성(4)을 사용하면 다른 구성 요소에서 제공하는 작업 또는 서비스로 구성 요소의 요구 사항이 충족될 수 있음을 나타낼 수 있습니다.  
@@ -279,7 +276,7 @@ Visual Studio에서 그릴 수 있습니다는 *구성 요소 다이어그램* �
   
 1.  새 시퀀스 다이어그램을 만듭니다.  
   
-     자세한 내용은 [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.  
+     자세한 내용은 참조 하세요. [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.  
   
 2.  이 구성 요소에 메시지를 보내는 외부 구성 요소, 사용자, 장치 또는 다른 행위자(1)에 대한 수명선을 만듭니다.  
   
@@ -291,7 +288,7 @@ Visual Studio에서 그릴 수 있습니다는 *구성 요소 다이어그램* �
   
 5.  구성 요소의 각 필요한 인터페이스(4)에 대한 수명선을 만듭니다.  
   
-6.  외부 행위자(5)에서 메시지를 가져옵니다. 메시지가 파트에 전달되는 방식 및 파트가 공동으로 이 메시지에 응답하는 방식을 나타내세요.  
+6.  외부 행위자(5)에서 메시지를 가져옵니다. 메시지가 파트에 전달되는 방식 및 파트가 공동으로 이 메시지에 응답하는 방식을 나타내십시오.  
   
 7.  필요한 경우 필요한 인터페이스(6)에 전송되는 메시지를 표시합니다. 메시지 실행 내부의 세부 정보는 나타내지 마세요.  
   
@@ -301,7 +298,7 @@ Visual Studio에서 그릴 수 있습니다는 *구성 요소 다이어그램* �
  설정 하 여 모델이을 지정할 수 있습니다 합니다 **간접 인스턴스화 됨** 구성 요소의 속성입니다. 이 경우에는 구성 요소의 모든 인터페이스가 내부 파트에 위임된 상태로 포트에 있어야 합니다.  
   
 ### <a name="describing-the-process-inside-each-part"></a>각 파트 내에 프로세스 기술  
- 동작 다이어그램을 사용하면 구성 요소가 들어오는 각 메시지를 처리하는 방식을 나타낼 수 있습니다. 자세한 내용은 [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
+ 동작 다이어그램을 사용하면 구성 요소가 들어오는 각 메시지를 처리하는 방식을 나타낼 수 있습니다. 자세한 내용은 참조 하세요. [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
   
  ![데이터 버퍼를 사용 하 여 작업 다이어그램](../modeling/media/uml-compdescribingproc.png "UML_CompDescribingProc")  
   
@@ -343,6 +340,3 @@ Visual Studio에서 그릴 수 있습니다는 *구성 요소 다이어그램* �
  [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)   
  [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)   
  [비디오: 구성 요소 다이어그램을 사용 하 여 물리적 구조 디자인](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-6-Designing-a-Projects-Physical-Structure/)
-
-
-

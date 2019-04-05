@@ -1,14 +1,9 @@
 ---
 title: '방법: ClickOnce 응용 프로그램의 게시 페이지 지정 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -22,15 +17,15 @@ ms.assetid: 9d70eebb-bdee-4b42-8e7e-7a07e199bdf7
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: c10033f7e3f3a4336177c8c66721bd6b79ba4c71
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: e739edf3d32b011f915ca0aad69e5148104afc05
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49196692"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984076"
 ---
-# <a name="how-to-specify-a-publish-page-for-a-clickonce-application"></a>방법: ClickOnce 응용 프로그램의 게시 페이지 지정
+# <a name="how-to-specify-a-publish-page-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 게시 페이지 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 게시 하는 경우는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 기본 웹 페이지 (publish.htm)를 생성 되 고 응용 프로그램과 함께 게시 합니다. 이 페이지에 설명 하는 도움말 항목에 대 한 링크 및 응용 프로그램 및/또는 필수 구성 요소를 설치 하기 위한 링크를 사용 하는, 응용 프로그램의 이름을 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]입니다. 합니다 **게시 페이지** 프로젝트에 대 한 속성을 사용 하면 웹 페이지의 이름을 지정할 수 있습니다 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램입니다.  
@@ -67,8 +62,5 @@ ms.locfileid: "49196692"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   
- [방법: 게시 마법사를 사용하여 ClickOnce 응용 프로그램 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
+ [방법: 게시 마법사를 사용 하 여 ClickOnce 응용 프로그램 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
  [방법: ClickOnce 기본 웹 페이지 사용자 지정](../deployment/how-to-customize-the-default-web-page-for-a-clickonce-application.md)
-
-
-

@@ -1,12 +1,9 @@
 ---
 title: '연습: 사용자 지정 지시문 프로세서 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, custom directive processors
 - walkthroughs [text templates], directive processor
@@ -14,13 +11,13 @@ ms.assetid: b8f35a36-14e1-4467-8f5f-e01402af14d5
 caps.latest.revision: 76
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 321dd514e0690997cd0aab4ba2b05a7fe0898b6c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: e10c489ee8bd14599220429c9d74821986f8b915
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49833423"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985903"
 ---
 # <a name="walkthrough-creating-a-custom-directive-processor"></a>연습: 사용자 지정 지시문 프로세서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +48,7 @@ ms.locfileid: "49833423"
 
  `<#@ CoolDirective Processor="CustomDirectiveProcessor" FileName="<Your Path>DocFile.xml" #>`  
 
- 사용자 지정 지시문 프로세서는 생성된 변형 클래스에 변수와 속성을 추가합니다. 작성하는 지시문은 <xref:System.CodeDom> 클래스를 사용하여 엔진이 생성된 변환 클래스에 추가하는 코드를 만듭니다. <xref:System.CodeDom> 클래스는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 지시문의 `language` 매개 변수에 지정된 언어에 따라 Visual C# 또는 `template`으로 코드를 만듭니다. 지시문 프로세서의 언어와 지시문 프로세서에 액세스하는 텍스트 템플릿의 언어는 일치하지 않아도 됩니다.  
+ 사용자 지정 지시문 프로세서는 생성된 변환 클래스에 변수와 속성을 추가합니다. 작성하는 지시문은 <xref:System.CodeDom> 클래스를 사용하여 엔진이 생성된 변환 클래스에 추가하는 코드를 만듭니다. <xref:System.CodeDom> 클래스는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 지시문의 `language` 매개 변수에 지정된 언어에 따라 Visual C# 또는 `template`으로 코드를 만듭니다. 지시문 프로세서의 언어와 지시문 프로세서에 액세스하는 텍스트 템플릿의 언어는 일치하지 않아도 됩니다.  
 
  지시문이 만드는 코드는 다음과 같습니다.  
 
@@ -611,7 +608,7 @@ End Property
 
 4.  에 대 한 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 열만 합니다 **프로젝트** 메뉴 **CustomDP 속성**합니다. 에 **응용 프로그램** 탭의 **루트 네임 스페이스**, 기본 값을 삭제 `CustomDP`합니다.  
 
-5.  에 **파일** 메뉴에서 클릭 **모두 저장**합니다.  
+5.  **파일** 메뉴에서 **모두 저장**을 클릭합니다.  
 
 6.  **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.  
 
@@ -838,7 +835,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     > [!NOTE]
     >  이 예제에서 `Processor` 매개 변수의 값은 `CustomDirectiveProcessor`입니다. `Processor` 매개 변수의 값은 프로세서의 레지스트리 키 이름과 일치해야 합니다.  
 
-5.  에 **파일** 메뉴에서 클릭 **모두 저장**합니다.  
+5.  **파일** 메뉴에서 **모두 저장**을 클릭합니다.  
 
 #### <a name="to-test-the-directive-processor"></a>지시문 프로세서를 테스트하려면  
 
@@ -975,6 +972,3 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 3.  브라우저에서 출력에서 보려는 **솔루션 탐색기**TestDP.htm을 마우스 오른쪽 단추로 클릭 하 고 클릭 **브라우저에서 보기**.  
 
      출력은 HTML 형식이 적용된 것을 제외하고 원래 텍스트와 동일합니다. 각 항목 이름이 굵게 표시됩니다.
-
-
-

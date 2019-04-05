@@ -1,11 +1,8 @@
 ---
 title: 워크플로 디자이너 셸 기능 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 f1_keywords:
 - WFDShellFeatures.UI
@@ -13,15 +10,15 @@ ms.assetid: 14bfe312-9592-408e-92ce-e98585ad16e7
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 0f75d545055a4657ed4cefdbafe211ea2f34680f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 6b432dd6dd0a19f6509ad1ff133424fcbc387fb6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49275303"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984684"
 ---
-# <a name="workflow-designer-shell-features"></a>워크플로 디자이너 셸 기능
+# <a name="workflow-designer-shell-features"></a>Workflow Designer 셸 기능
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]는 디자이너 화면, 화면 위쪽의 이동 경로 탐색 막대, 화면 아래쪽의 셸 등 세 가지 주요 UI 영역으로 구성됩니다. 화면 위쪽에 있는 이동 경로 탐색 막대는 현재 루트 활동의 상위 목록을 표시하는 데 사용됩니다. [!INCLUDE[crdefault](../includes/crdefault-md.md)][방법: 이동 경로 탐색 사용](../workflow-designer/how-to-use-breadcrumb-navigation.md)합니다. 화면 중앙의 디자이너 화면은 워크플로를 작성하는 데 사용됩니다. 화면 아래쪽의 셸에는 현재 뷰를 관리하는 데 사용되는 단추가 포함되어 있습니다.  
   
 ## <a name="shell-features"></a>셸 기능  
