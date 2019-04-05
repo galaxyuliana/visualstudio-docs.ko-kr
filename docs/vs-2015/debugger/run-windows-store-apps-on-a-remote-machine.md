@@ -1,14 +1,9 @@
 ---
 title: Windows 스토어 앱 실행을 원격 컴퓨터 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,13 +13,13 @@ ms.assetid: 0f6814d6-cd0d-49f3-b501-dea8c094b8ef
 caps.latest.revision: 47
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 3a3be715f58d3ed80122dfdd3aaf879c7db8aebd
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 262391145b5cfc3889b2eea32df4e0955ed71b1a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51784548"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971197"
 ---
 # <a name="run-windows-store-apps-on-a-remote-machine"></a>원격 컴퓨터에서 Windows 스토어 앱 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -173,11 +168,8 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 ##  <a name="BKMK_RunRemoteDebug"></a> 원격 디버깅 세션 실행  
  로컬 세션의 경우와 같은 방법으로 원격 디버그 세션을 시작, 중지, 탐색할 수 있습니다. 디버깅을 시작하기 전에 원격 디바이스에서 원격 디버깅 모니터가 실행되고 있는지 확인합니다.  
   
- 그런 다음 **디버그** 메뉴에서 **디버깅 시작** 을 선택합니다(키보드: F5). 프로젝트가 다시 컴파일된 다음 원격 디바이스에 배포되어 시작됩니다. 디버거는 중단점에서 실행을 일시 중단하며 사용자는 한 단계씩 코드를 실행하거나, 프로시저 단위로 실행하거나 코드를 종료하여 한 번에 한 줄씩 실행할 수 있습니다. **디버깅 중지** 를 선택하여 디버그 세션을 끝내고 원격 응용 프로그램을 종료할 수 있습니다. 자세한 내용은 [Visual Studio에서 앱을 디버그](../debugger/debug-store-apps-in-visual-studio.md)합니다.  
+ 선택한 **디버깅 시작** 에 **디버그** 메뉴 (키보드: F5)을 선택합니다. 프로젝트가 다시 컴파일된 다음 원격 디바이스에 배포되어 시작됩니다. 디버거는 중단점에서 실행을 일시 중단하며 사용자는 한 단계씩 코드를 실행하거나, 프로시저 단위로 실행하거나 코드를 종료하여 한 번에 한 줄씩 실행할 수 있습니다. **디버깅 중지** 를 선택하여 디버그 세션을 끝내고 원격 응용 프로그램을 종료할 수 있습니다. 자세한 내용은 [Visual Studio에서 앱을 디버그](../debugger/debug-store-apps-in-visual-studio.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio로 스토어 앱 테스트](../test/testing-store-apps-with-visual-studio.md)   
  [Visual Studio에서 앱 디버그](../debugger/debug-store-apps-in-visual-studio.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: 웹 응용 프로그램 및 스크립트 디버깅 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -26,13 +21,13 @@ ms.assetid: 6968625d-9783-4ad6-8bf5-eb85b548844c
 caps.latest.revision: 35
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 0f44dc85d6378f4a8303fac846ad32528081b54b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 4ca10653fd177826e2b236d432c685535993fbba
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51797769"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971764"
 ---
 # <a name="debugging-web-applications-and-script"></a>웹 응용 프로그램 및 스크립트 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,11 +40,11 @@ ms.locfileid: "51797769"
  [ASP.NET 및 AJAX 응용 프로그램 디버그](../debugger/debugging-aspnet-and-ajax-applications.md)  
  개발 중이나 개발 후에 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 응용 프로그램을 디버깅하는 방법에 대한 지침과 이를 수행하는 데 필요한 필수 구성 요소를 제공합니다.  
   
- [웹 응용 프로그램 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)  
+ [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)  
  웹 응용 프로그램을 디버깅하는 동안 발생할 수 있는 오류를 열거하고 수정 방법을 소개합니다.  
   
- [연습: 병렬 응용 프로그램 디버그](../debugger/walkthrough-debugging-a-parallel-application.md)  
- 사용 하는 방법에 설명 합니다 **병렬 작업** 및 **병렬 스택** 병렬 응용 프로그램을 디버깅 하는 windows 도구입니다.  
+ [연습: 병렬 애플리케이션 디버깅](../debugger/walkthrough-debugging-a-parallel-application.md)  
+ **병렬 작업** 및 **병렬 스택** 도구 창을 사용하여 병렬 애플리케이션을 디버깅하는 방법을 설명합니다.  
   
 ## <a name="related-sections"></a>관련 단원  
  [ASP.NET 웹 응용 프로그램](../debugger/debugging-preparation-aspnet-web-applications.md)  
@@ -58,7 +53,7 @@ ms.locfileid: "51797769"
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)  
  자세한 디버깅 설명서 단원으로 연결되는 링크를 제공합니다. 이러한 정보에는 디버거의 새로운 기능, 설정 및 준비, 중단점, 예외 처리, 편집하며 계속하기, 관리 코드 디버깅, [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] 프로젝트 디버깅, COM 및 ActiveX 디버깅, DLL 디버깅, SQL 디버깅, 사용자 인터페이스 참조 등이 있습니다.  
   
- [웹 응용 프로그램 원격 디버깅의 필수 조건](../debugger/prerequistes-for-remote-debugging-web-applications.md)  
+ [웹 애플리케이션 원격 디버깅의 필수 조건](../debugger/prerequistes-for-remote-debugging-web-applications.md)  
  ASP.NET 웹 응용 프로그램의 원격 디버깅의 설치 요구 사항에 대해 설명합니다.  
   
  [IntelliTrace](../debugger/intellitrace.md)  
@@ -67,6 +62,3 @@ ms.locfileid: "51797769"
 ## <a name="see-also"></a>참고 항목  
  [디버거 보안](../debugger/debugger-security.md)   
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)
-
-
-

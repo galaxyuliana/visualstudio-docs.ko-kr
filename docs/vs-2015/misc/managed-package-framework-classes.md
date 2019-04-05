@@ -1,14 +1,9 @@
 ---
 title: 관리 되는 패키지 프레임 워크 클래스 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - managed package framework, helper classes
 - managed package helper classes
@@ -16,13 +11,13 @@ helpviewer_keywords:
 - classes [Visual Studio SDK], managed package framework
 ms.assetid: 15aedcc3-c79a-460b-b620-43223f1ae81e
 caps.latest.revision: 24
-manager: douge
-ms.openlocfilehash: 931e73af72d2239ec04ac248b9fa426fe24f249a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: d8e2bbf51aa6266411558e91f3c17905d0c8605c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49188996"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983998"
 ---
 # <a name="managed-package-framework-classes"></a>관리되는 패키지 프레임워크 클래스
 MPF(관리되는 패키지 프레임워크) 클래스를 사용하여 관리 코드를 사용하는 Vspackage를 만들 수 있습니다. 이 클래스는 많은 VSPackage 인터페이스에 대한 기본 구현을 제공합니다. MPF는 구현 세부 정보 및 복잡성을 숨겨 최소한의 코드로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 통합 제품을 만들 수 있습니다.  

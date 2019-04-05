@@ -1,14 +1,9 @@
 ---
 title: Vspackage의 리소스 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - managed VSPackages, resources in
 - resources, managed VSPackages
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: cc8c17a6-b190-4856-b001-0c1104f104b2
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 9f6330055eb3e7b410cc71dc7bab9bc55769c4fd
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 39a05e7d0538cd332bbeaf2cddc48d6b141f0452
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51725325"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986112"
 ---
 # <a name="resources-in-vspackages"></a>VSPackage의 리소스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -95,6 +90,5 @@ type="System.Resources.ResXFileRef,System.Windows.Forms">
 ## <a name="see-also"></a>참고 항목  
  [관리 되는 Vspackage](../../misc/managed-vspackages.md)   
  [Vspackage 관리](../../extensibility/managing-vspackages.md)   
- [MFC 응용 프로그램의 지역화 된 리소스: 위성 Dll](http://msdn.microsoft.com/library/3a1100ae-a9c8-47b5-adbd-cbedef5992ef)   
+ [MFC 애플리케이션의 지역화된 리소스: 위성 Dll](http://msdn.microsoft.com/library/3a1100ae-a9c8-47b5-adbd-cbedef5992ef)   
  [관리되는 VSPackage](../../misc/managed-vspackages.md)
-

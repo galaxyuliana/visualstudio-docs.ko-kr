@@ -1,26 +1,21 @@
 ---
 title: 간단한 포함 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - simple view embedding
 ms.assetid: f1292478-a57d-48ec-8c9e-88a23f04ffe5
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e59e09f475697ac0539384514837554e3ce85afc
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 6575181a7cd56db7148ebe2d6c11c98949f1b753
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51736224"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982339"
 ---
 # <a name="simplified-embedding"></a>간단한 포함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,4 +40,3 @@ ms.locfileid: "51736224"
 |<xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat>|데이터|파일 형식으로 저장 기능을 사용 하도록 설정 합니다.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2>|데이터|문서에 대해 지속성을 사용하도록 설정합니다.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl>|데이터|다시 로드 트리거 같은 파일 변경 이벤트의 제거를 허용합니다.|
-

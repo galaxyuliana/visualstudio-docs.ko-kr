@@ -1,13 +1,8 @@
 ---
 title: 디버거를 시작 하기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-debug
 ms.topic: conceptual
 dev_langs:
 - FSharp
@@ -18,13 +13,13 @@ ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 755c4a0b66c91aa37f96d3d6f06972878ee856b8
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: d30c45c0601b6e291604275fdc9cfc4f3b5def6d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51771617"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972171"
 ---
 # <a name="getting-started-with-the-debugger"></a>디버거 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ ms.locfileid: "51771617"
 Visual Studio 디버거는 모든 언어에서 쉽게 사용할 수 있습니다. 여기서는 간단한 C# 프로그램을 디버그하는 방법을 보여 주겠지만 C++ 및 JavaScript와 같은 다른 언어의 코드에 동일한 단계를 적용할 수 있습니다.  
   
 ##  <a name="BKMK_Start_debugging_a_VS_project"></a> 기본 C# 프로젝트 디버그  
- 간단한 C# 콘솔 응용 프로그램부터 시작 하겠습니다 (**파일 / 새로 만들기 / 프로젝트**을 선택한 후 **Visual C#** 선택한 후 **콘솔 응용 프로그램**). Visual Studio를 사용 하 여 적 하는 경우 참조 [연습: 간단한 응용 프로그램](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)합니다. 합니다 **Main** 메서드 방금 10 번을 정수 변수에 1을 추가 하 고 결과를 콘솔에 출력 합니다.  
+ 간단한 C# 콘솔 응용 프로그램부터 시작 하겠습니다 (**파일 / 새로 만들기 / 프로젝트**을 선택한 후 **Visual C#** 선택한 후 **콘솔 응용 프로그램**). Visual Studio를 사용 하 여 적 경우 [연습: 간단한 응용 프로그램](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)합니다. 합니다 **Main** 메서드 방금 10 번을 정수 변수에 1을 추가 하 고 결과를 콘솔에 출력 합니다.  
   
 ```csharp  
 static void Main(string[] args)  
@@ -98,8 +93,3 @@ private static void Method1()
  디버깅을 중지 및 다시 시작 및 실행이 중단점에서 중단 하는 경우 클릭 **디버그 / 단계 Over** (또는 **단계씩** 도구 모음에서 또는 **F10**). 실행이 `Console.WriteLine("end");`에서 다시 중단됩니다.  
   
  디버거로 코드 탐색에 대 한 자세한 내용은 않으려면 [디버거로 코드 탐색](../debugger/navigating-through-code-with-the-debugger.md)합니다.
-
-
-
-
-

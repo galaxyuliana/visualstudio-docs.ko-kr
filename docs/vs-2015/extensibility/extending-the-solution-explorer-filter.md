@@ -1,27 +1,22 @@
 ---
 title: 솔루션 탐색기 필터 확장 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Solution Explorer, extending
 - extensibility [Visual Studio], projects and solutions
 ms.assetid: df976c76-27ec-4f00-ab6d-a26a745dc6c7
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 0d218744a4fcfcb498054105e48019bf2b0ce66b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 27812d10c720d0507309513bd908498d9abcf92a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51750182"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985102"
 ---
 # <a name="extending-the-solution-explorer-filter"></a>솔루션 탐색기 필터 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -200,4 +195,3 @@ ms.locfileid: "51750182"
 3.  솔루션 탐색기 도구 모음에서 추가 단추를 찾습니다. 왼쪽에서 네 번째 단추를 해야 합니다.  
   
 4.  단추를 클릭 하면, 모든 파일을 필터링 해야 하 고 "모든 항목이 필터링 되었습니다 뷰에서." 하는 것이 표시 솔루션 탐색기.
-

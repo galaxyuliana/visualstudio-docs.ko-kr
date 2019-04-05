@@ -1,12 +1,9 @@
 ---
 title: 프로필 및 스테레오 타입을 사용 하 여 모델 사용자 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML model, profiles
 - UML model, stereotypes
@@ -15,13 +12,13 @@ ms.assetid: fd607157-0d3a-4583-a84e-427a4b2a5acb
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 33e887764c535083c2449a7d333868b2ccd9c4c5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 85bdd48f37d8b8d60df6821934980bf46ebf29cd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51727702"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971998"
 ---
 # <a name="customize-your-model-with-profiles-and-stereotypes"></a>프로필 및 스테레오타입을 사용하여 모델 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +46,3 @@ Visual Studio에서 클래스 및 구성 요소와 같은 표준 UML 모델 요�
 |[UML 프로필 설치](../modeling/install-a-uml-profile.md)|누군가 UML 프로필을 제공하면 컴퓨터에 이 프로필을 설치할 수 있습니다.|  
 |[사용자 지정 모델링 도구 상자 항목 정의](../modeling/define-a-custom-modeling-toolbox-item.md)|사용자 지정 도구 상자 항목을 사용하면 새 요소에서 스테레오타입을 반복해서 설정할 필요가 없습니다.|  
 |[스테레오 타입으로 UML 클래스에 색](http://code.msdn.microsoft.com/UML-Color-Classes-by-07de2b70)|이 샘플 코드에서는 UML 다이어그램을 확장합니다. 요소의 스테레오타입에 따라 UML 모양의 색을 자동으로 설정합니다.|
-
-
-

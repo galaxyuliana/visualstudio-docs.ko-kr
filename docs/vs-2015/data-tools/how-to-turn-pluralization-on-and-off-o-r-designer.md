@@ -1,25 +1,22 @@
 ---
 title: '방법: 복수형 설정 및 해제 (O-r 디자이너) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 9b693bc3-303a-40a9-97ee-9cef5ca3ae81
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 1f4491f25a861b8556ae5018e526349d6a17187a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 9ff3f206f57a544053498def16318e0ed65b64ab
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49279112"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971090"
 ---
-# <a name="how-to-turn-pluralization-on-and-off-or-designer"></a>방법: 복수형 설정 및 해제 (O/R 디자이너)
+# <a name="how-to-turn-pluralization-on-and-off-or-designer"></a>방법: 복수 적용 설정 및 해제(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -34,12 +31,12 @@ ms.locfileid: "49279112"
   
 1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
-2.  에 **옵션** 대화 상자에서 **Database**합니다.  
+2.  **옵션** 대화 상자에서 **데이터베이스 도구**를 확장합니다.  
   
 > [!NOTE]
->  선택 **모든 설정 표시** 경우는 **Database** 노드가 표시 되지 않습니다.  
+>  **데이터베이스 도구** 노드가 표시되지 않은 경우에는 **모든 설정 표시**를 선택합니다.  
   
-1.  클릭 **O/R 디자이너**합니다.  
+1.  **O/R 디자이너**를 클릭합니다.  
   
 2.  설정 **복수 이름 적용** 하 **사용** = **False** 설정 하는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 클래스 이름은 변경 되지 않습니다 있도록 합니다.  
   
@@ -49,4 +46,3 @@ ms.locfileid: "49279112"
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)
-

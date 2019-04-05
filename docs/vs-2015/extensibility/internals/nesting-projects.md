@@ -1,14 +1,9 @@
 ---
 title: 중첩 프로젝트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - project nesting
 - nested projects
@@ -17,13 +12,13 @@ helpviewer_keywords:
 ms.assetid: 12cce037-9840-4761-845e-5abd5fb317b0
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: b4ccf51dd492a32990718ffe84bfe78cd736a42c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 0e3a0fae42dc7bf1497e3d0d4a9d23f9cab50675
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51805212"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971233"
 ---
 # <a name="nesting-projects"></a>프로젝트 중첩
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ VS 패키지를 사용 하는 엔터프라이즈 응용 프로그램 개발자�
  [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [컨텍스트 매개 변수](../../extensibility/internals/context-parameters.md)   
  [마법사(.Vsz) 파일](../../extensibility/internals/wizard-dot-vsz-file.md)
-
