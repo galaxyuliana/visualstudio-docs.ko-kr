@@ -1,14 +1,9 @@
 ---
 title: 이름 바꾸기 리팩터링 (C#) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - vs.csharp.refactoring.rename
 dev_langs:
@@ -20,13 +15,13 @@ ms.assetid: 268942fc-b142-4dfa-8d90-bedd548c2e4f
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: wpickett
-ms.openlocfilehash: d88cf6d88f23a3a079d5f9a556c316a204c9ef27
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 40e13682b6ff22a0052adc7db9f9db9f18d36cc9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49274965"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983537"
 ---
 # <a name="rename-refactoring-c"></a>이름 바꾸기 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +39,7 @@ ms.locfileid: "49274965"
 |클래스 뷰|이름 바꾸기 리팩터링 하는 바로 가기 메뉴에서 사용할 수 있는 클래스 뷰에서 식별자를 선택 하는 경우 및 **리팩터링** 메뉴.|  
 |개체 브라우저|개체 브라우저에서 식별자를 선택 하면 이름 바꾸기 리팩터링은 에서만 사용할 수는 **리팩터링** 메뉴.|  
 |Windows Forms 디자이너의 속성 표|에 **속성 표에서** Windows Forms 디자이너의 컨트롤의 이름을 변경 작업이 시작 됩니다 이름 바꾸기는 컨트롤에 대 한 합니다. 합니다 **이름 바꾸기** 대화 상자가 나타나지 것입니다.|  
-|솔루션 탐색기|**솔루션 탐색기**, **이름 바꾸기** 바로 가기 메뉴에서 사용할 수 있는 명령입니다. 선택한 소스 파일 클래스 이름이 파일 이름을 동일 클래스에 있으면 동시에 소스 파일 이름 바꾸기 및 이름 바꾸기 리팩터링 실행이 명령을 사용할 수 있습니다.<br /><br /> 예를 들어, 기본 Windows 기반 응용 프로그램을 만들고 Form1.cs TestForm.cs의 이름을 소스 파일 이름을 Form1.cs TestForm.cs를 Form1 클래스 바뀝니다 및 대 한 모든 참조 클래스 TestForm로 변경 됩니다. **참고:** 는 **취소** 명령 (CTRL + Z)만 코드에서 이름 바꾸기 리팩터링을 취소 되며 파일 이름을 원래 이름으로 다시 변경 하지는 것입니다. <br /><br /> 선택한 소스 파일에 클래스 파일 이름으로 동일한 이름이 없는 경우는 **이름 바꾸기** 명령을 **솔루션 탐색기** 소스 파일의 이름만 바꿀 됩니다 및 이름 바꾸기는 실행 되지 것입니다 리팩터링 합니다.|  
+|솔루션 탐색기|**솔루션 탐색기**, **이름 바꾸기** 바로 가기 메뉴에서 사용할 수 있는 명령입니다. 선택한 소스 파일 클래스 이름이 파일 이름을 동일 클래스에 있으면 동시에 소스 파일 이름 바꾸기 및 이름 바꾸기 리팩터링 실행이 명령을 사용할 수 있습니다.<br /><br /> 예를 들어, 기본 Windows 기반 응용 프로그램을 만들고 Form1.cs TestForm.cs의 이름을 소스 파일 이름을 Form1.cs TestForm.cs를 Form1 클래스 바뀝니다 및 대 한 모든 참조 클래스 TestForm로 변경 됩니다. **참고:**  합니다 **실행 취소** 명령 (CTRL + Z)만 코드에서 이름 바꾸기 리팩터링을 취소 되며 파일 이름을 원래 이름으로 다시 변경 하지는 것입니다. <br /><br /> 선택한 소스 파일에 클래스 파일 이름으로 동일한 이름이 없는 경우는 **이름 바꾸기** 명령을 **솔루션 탐색기** 소스 파일의 이름만 바꿀 됩니다 및 이름 바꾸기는 실행 되지 것입니다 리팩터링 합니다.|  
   
 ## <a name="rename-operations"></a>이름 바꾸기 작업  
  실행할 때 **이름 바꾸기**, 리팩터링 엔진은 다음 표에 설명 된 대로 각 코드 기호에 관련 된 이름 바꾸기 작업을 수행 합니다.  
@@ -53,8 +48,8 @@ ms.locfileid: "49274965"
 |-----------------|----------------------|  
 |필드|새 이름으로 선언 및 필드의 용도 변경합니다.|  
 |지역 변수|선언과 변수 사용을 새 이름으로 변경합니다.|  
-|메서드|메서드 및 해당 메서드에 대 한 모든 참조의 이름을 새 이름으로 변경합니다. **참고:** 확장 메서드가 정적 메서드 또는 인스턴스 메서드로 되 여부에 관계 없이 범위에 있는 메서드의 모든 인스턴스 이름 바꾸기 작업 전파 확장 메서드 이름을 바꾸면 됩니다. 자세한 내용은 [확장 메서드](http://msdn.microsoft.com/library/175ce3ff-9bbf-4e64-8421-faeb81a0bb51)를 참조하세요.|  
-|네임스페이스|선언에서 새 이름으로 네임 스페이스의 이름을 변경 모든 `using` 문 및 정규화 된 이름입니다. **참고:** 네임 스페이스의 이름을 바꾸면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 도 업데이트는 **Default Namespace** 속성에는 **응용 프로그램** 페이지는 **프로젝트 디자이너**. 이 속성을 선택 하 여 다시 설정할 수 없습니다 **실행 취소** 에서 합니다 **편집** 메뉴. 다시 설정 하는 **Default Namespace** 속성 값에서 속성을 수정 해야 합니다 **프로젝트 디자이너**합니다. 자세한 내용은 [응용 프로그램 페이지](../ide/reference/application-page-project-designer-csharp.md)합니다.|  
+|메서드|메서드 및 해당 메서드에 대 한 모든 참조의 이름을 새 이름으로 변경합니다. **참고:**  확장 메서드를 바꾸면 메서드의 확장 메서드가 정적 메서드 또는 인스턴스 메서드로 되 여부에 관계 없이 범위에 있는 모든 인스턴스 이름 바꾸기 작업 전파 됩니다. 자세한 내용은 [확장 메서드](http://msdn.microsoft.com/library/175ce3ff-9bbf-4e64-8421-faeb81a0bb51)를 참조하세요.|  
+|네임스페이스|선언에서 새 이름으로 네임 스페이스의 이름을 변경 모든 `using` 문 및 정규화 된 이름입니다. **참고:**  네임 스페이스의 이름을 바꾸면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 도 업데이트를 **Default Namespace** 속성에는 **응용 프로그램** 페이지를 **프로젝트 디자이너**. 이 속성을 선택 하 여 다시 설정할 수 없습니다 **실행 취소** 에서 합니다 **편집** 메뉴. 다시 설정 하는 **Default Namespace** 속성 값에서 속성을 수정 해야 합니다 **프로젝트 디자이너**합니다. 자세한 내용은 [응용 프로그램 페이지](../ide/reference/application-page-project-designer-csharp.md)합니다.|  
 |속성|선언 및 사용 된 속성의 새 이름으로 변경합니다.|  
 |형식|생성자 및 소멸자를 포함 하 여 새 이름에 모든 선언 및 형식의 모든 용도 변경 합니다. 부분 형식에 대 한 이름 바꾸기 작업은 모든 부분에 전파 됩니다.|  
   

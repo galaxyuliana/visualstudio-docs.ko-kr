@@ -1,12 +1,9 @@
 ---
 title: 'UML 클래스 다이어그램: 지침 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.teamarch.logicalclassdiagram.overrideoperationsdialog
 helpviewer_keywords:
@@ -19,13 +16,13 @@ ms.assetid: 94dbfd55-b300-4b49-9049-0831ed849486
 caps.latest.revision: 56
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: bfd0b13942f5faee82e284c435b7f937d3ae5094
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 608b5c37975c49e4e90cdf9edd923121350735e5
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51726520"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982095"
 ---
 # <a name="uml-class-diagrams-guidelines"></a>UML 클래스 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,7 +79,7 @@ Visual Studio에서 사용할 수는 *UML 클래스 다이어그램* 데이터 �
  참조 [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
   
 ##  <a name="BasicSteps"></a> 클래스 다이어그램을 그리는 기본 단계  
- UML 클래스 다이어그램의 요소에 대 한 참조 정보를 참조 하세요 [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)합니다.  
+ UML 클래스 다이어그램의 요소에 대 한 참조 정보를 참조 하세요. [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)를 참조하세요.  
   
 > [!NOTE]
 >  모델링 다이어그램을 만드는 자세한 단계에 나와 [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
@@ -179,7 +176,7 @@ Visual Studio에서 사용할 수는 *UML 클래스 다이어그램* 데이터 �
   
 - **(없음)**  -앞에 나오는 콜론을 생략 하 여 시그니처에서 지정 되지 않은 형식 그대로 둘 수 있습니다 (`:`).  
   
-- 표준 기본 형식 중 하나: **부울**를 **정수**하십시오 **문자열**합니다.  
+- 표준 기본 형식 중 하나입니다. **부울**하십시오 **정수**를 **문자열**합니다.  
   
 - 모델에 정의된 형식  
   
@@ -292,7 +289,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
  그러나만 설정할 수 있습니다는 **정적** 하 고 **추상** 속성에는 **속성** 창.  
   
 #### <a name="full-signature"></a>전체 시그니처  
- 특성 또는 작업의 시그니처를 편집하는 경우 줄의 끝과 각 매개 변수 뒤에 몇 가지 추가 속성이 나타날 수 있습니다. 이러한 속성은 중괄호 {…} 안에 포함되어 있으며 편집하거나 추가할 수 있습니다. 예를 들면 다음과 같습니다.  
+ 특성 또는 작업의 시그니처를 편집하는 경우 줄의 끝과 각 매개 변수 뒤에 몇 가지 추가 속성이 나타날 수 있습니다. 이러한 속성은 중괄호 {…} 안에 포함되어 있으며 편집하거나 추가할 수 있습니다. 예를 들어:  
   
 ```  
 + AddItems (items: MenuItem [1..*] {unique, ordered})  
@@ -303,7 +300,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  `unique`  
   
- **고유한**  
+ **고유**  
   
  컬렉션에 중복 값이 없습니다. 복합성이 1보다 큰 형식에 적용됩니다.  
   
@@ -325,7 +322,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  특성이 다른 특성의 값 또는 연결에서 계산됩니다.  
   
- 특성 이름 앞에 "/"가 나타납니다. 예를 들면 다음과 같습니다.  
+ 특성 이름 앞에 "/"가 나타납니다. 예를 들어:  
   
 ```  
 /TotalPrice: Integer  
@@ -341,7 +338,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  전체 연결 외에도 각 *역할*, 즉, 연결의 각 끝에는 자체의 일부 속성입니다. 보려면 확장 합니다 **첫 번째 역할** 하 고 **두 번째 역할** 속성입니다.  
   
- 각 역할의 일부 속성은 다이어그램에서 직접 볼 수 있습니다. 이러한 속성은 다음과 같습니다.  
+ 각 역할의 일부 속성은 다이어그램에서 직접 볼 수 있습니다. 그 차이점은 다음과 같습니다.  
   
 - 역할 이름. 다이어그램에서 연결의 끝에 나타납니다. 다이어그램에서 또는 설정할 수 있습니다 합니다 **속성** 창입니다.  
   
@@ -359,7 +356,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
 ### <a name="attributes-and-associations"></a>특성 및 연결  
  연결은 그림으로 특성을 나타내는 방법입니다. 예를 들어 Menu 형식의 특성이 있는 Restaurant 클래스를 만드는 대신 Restaurant에서 Menu로 이어지는 연결을 그릴 수 있습니다.  
   
- 각 특성 이름은 역할 이름이 되고, 소유하는 형식에서 연결의 반대쪽 끝에 나타납니다. 예를 들어 다음 그림에서 `myMenu`를 보세요.  
+ 각 특성 이름은 역할 이름이 되고, 소유하는 형식에서 연결의 반대쪽 끝에 나타납니다. 예를 들어 다음 그림에서 `myMenu`를 보십시오.  
   
  일반적으로 기본 형식과 같이 다이어그램에 그리지 않는 형식에 대해서만 특성을 사용하는 것이 좋습니다.  
   
@@ -464,7 +461,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
 ##  <a name="Packages"></a> 패키지  
  UML 클래스 다이어그램에서 패키지를 볼 수 있습니다. 패키지는 다른 모델 요소를 포함하기 위한 컨테이너입니다. 패키지 내에 어떤 요소라도 만들 수 있습니다. 다이어그램에서 패키지를 움직이면 해당 패키지에 포함된 요소도 움직이게 됩니다.  
   
- 확장명/축소 컨트롤을 사용하여 패키지 내용을 표시하거나 숨길 수 있습니다.  
+ 확장/축소 컨트롤을 사용하여 패키지 내용을 표시하거나 숨길 수 있습니다.  
   
  참조 [패키지 및 네임 스페이스 정의](../modeling/define-packages-and-namespaces.md)합니다.  
   
@@ -483,6 +480,3 @@ visibility operation-name (parameter1 : Type1, ...) : Type
  [UML 시퀀스 다이어그램: 참조](../modeling/uml-sequence-diagrams-reference.md)   
  [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)   
  [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)
-
-
-

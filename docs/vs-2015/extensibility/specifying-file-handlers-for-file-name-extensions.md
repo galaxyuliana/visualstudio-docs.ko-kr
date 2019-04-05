@@ -1,26 +1,21 @@
 ---
 title: 파일 이름 확장명에 대 한 파일 처리기 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - file extensions, specifying file handlers
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: d0a4f0547da10a4d519d315000a0f35a19a56287
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: dd999fe10da48f91482976ade56681ee53346802
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51726239"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982338"
 ---
 # <a name="specifying-file-handlers-for-file-name-extensions"></a>파일 이름 확장명에 대한 파일 처리기 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,14 +40,14 @@ HKEY_CLASSES_ROOT\
   
  OpenWithList 키에 추가 하 여 다른 응용 프로그램 확장의 소유권을 갖습니다 하는 경우에 응용 프로그램 파일 확장명을 지원함을 선언 합니다. 응용 프로그램 또는 다른 응용 프로그램의 이후 버전 수 있습니다.  
   
-## <a name="openwithprogids"></a>Openwithprogid  
+## <a name="openwithprogids"></a>OpenWithProgIDs  
  프로그래밍 방식 식별자 (Progid)는 응용 프로그램 또는 COM 개체의 버전을 식별 하는 Classid의 친숙 한 버전입니다. 모든 공동 creatable 개체는 고유한 progid가 있어야 합니다. VisualStudio.DTE.10.0 시작 되는 동안 Visual Studio.NET 2003 VisualStudio.DTE.7.1 시작 하는 예를 들어 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 프로젝트 형식 또는 프로젝트 항목 형식의 소유자에 파일 확장명에 대 한 버전별 ProgID를 만들어야 합니다. 이 Progid 둘 이상의 ProgID는 동일한 응용 프로그램을 시작할 수 있다는 점에서 중복 될 수 있습니다. 자세한 내용은 [파일 이름 확장명에 대 한 동사 등록](../extensibility/registering-verbs-for-file-name-extensions.md)합니다.  
   
  버전 관리 파일 Progid에 대 한 다른 공급 업체의 등록을 사용 하 여 중복을 방지 하려면 다음 명명 규칙을 사용 합니다.  
   
 |파일 확장명|버전이 지정 된 ProgID|  
 |--------------------|----------------------|  
-|.extension|제품 이름입니다. extension.versionMajor.versionMinor|  
+|.extension|ProductName. extension.versionMajor.versionMinor|  
   
  특정 파일 확장명을 HKEY_CLASSES_ROOT를 값으로 버전이 지정 된 Progid를 추가 하 여 열 수 있는 다른 응용 프로그램을 등록할 수 있습니다\\*\<확장 >* \OpenWithProgids 키입니다. 이 레지스트리 키에는 파일 확장명과 연결 된 대체 Progid의 목록을 포함 합니다. 나열 된 Progid와 관련 된 응용 프로그램에 표시 합니다 **열기**_Product Name_ 하위 메뉴. 동일한 응용 프로그램 모두에 지정 된 경우는 `OpenWithList` 및 `OpenWithProgids` 운영 체제 키 중복 항목을 병합 합니다.  
   
@@ -87,4 +82,3 @@ HKEY_CLASSES_ROOT\
 ## <a name="see-also"></a>참고 항목  
  [파일 이름 확장명에 대 한](../extensibility/about-file-name-extensions.md)   
  [파일 이름 확장명에 대한 동사 등록](../extensibility/registering-verbs-for-file-name-extensions.md)
-

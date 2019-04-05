@@ -1,25 +1,20 @@
 ---
 title: 유니버설 Windows 플랫폼 (UWP)로 앱 마이그레이션 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 ms.assetid: 5279ab9b-71d9-4be5-81f6-a1f24b06f5fb
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: wpickett
-ms.openlocfilehash: 8d4bc5d8e8a24483c30ac813d3253626e58dd353
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 0b093a8474d9dd7971b6a5f311deea9a522730c1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51791750"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58980912"
 ---
 # <a name="migrate-apps-to-the-universal-windows-platform-uwp"></a>UWP(유니버설 Windows 플랫폼)로 앱 마이그레이션
 필요한 경우 Windows 스토어 8.1 앱, Windows Phone 8.1 앱 또는 Visual Studio 2015 RC로 만든 유니버설 Windows 앱에 대한 기존 프로젝트 파일을 수동으로 변경하면 Visual Studio 2015 RTM과 함께 사용할 수 있습니다. Windows 앱 프로젝트 및 Windows Phone 프로젝트를 둘 다 포함하는 Windows 8.1 유니버설 앱이 있는 경우 각 프로젝트를 마이그레이션하는 단계를 따라야 합니다.  
@@ -93,11 +88,11 @@ ms.locfileid: "51791750"
   
     1.  값을 설정 합니다 \<플랫폼 > 요소를: **x86**합니다.  
   
-    2.  추가 된 \<TargetPlatformIdentifier > 요소 및 해당 값을 설정: **UAP**.  
+    2.  추가 \<TargetPlatformIdentifier > 요소 및 해당 값을 설정 합니다. **UAP**.  
   
     3.  기존 값을 변경 합니다 \<TargetPlatformVersion > 요소를 설치한 유니버설 Windows 플랫폼 버전 값입니다. 추가할 수도 \<TargetPlatformMinVersion > 요소 동일한 값을 지정 합니다.  
   
-    4.  값을 변경 합니다 \<MinimumVisualStudioVersion > 요소를: **14**합니다.  
+    4.  값을 변경 합니다 \<MinimumVisualStudioVersion > 요소입니다. **14**.  
   
     5.  대체는 \<ProjectTypeGuids > 아래와 같이 요소:  
   
@@ -273,7 +268,7 @@ ms.locfileid: "51791750"
   
     2.  ApplicationTypeRevision 요소의 값을 8.1에서 10.0으로 업데이트합니다.  
   
-    3.  값을 변경 합니다 \<MinimumVisualStudioVersion > 요소를: 14입니다.  
+    3.  값을 변경 합니다 \<MinimumVisualStudioVersion > 요소입니다. 14.  
   
     4.  추가 \<EnableDotNetNativeCompatibleProfile > 요소 및 해당 값을 설정: true.  
   
@@ -337,7 +332,7 @@ ms.locfileid: "51791750"
   
 2. 업데이트 해야 합니다 \<패키지 > 기존 프로젝트 형식에 따라 새 스키마를 사용 하 여 요소입니다. 먼저 Windows 스토어 또는 Windows Phone 프로젝트가 있는지 여부에 따라 아래 스키마를 제거합니다.  
   
-    **Windows 스토어 프로젝트의 경우 OLD:** 여 \<패키지 > 요소는이 다음과 비슷하게 표시 됩니다.  
+    **Windows 스토어 프로젝트에 대 한 이전:** 프로그램 \<패키지 > 요소가이 다음과 비슷하게 표시 됩니다.  
   
    ```xml  
    <Package  
@@ -346,7 +341,7 @@ ms.locfileid: "51791750"
   
    ```  
   
-    **Windows Phone 프로젝트의 경우 OLD:** 여 \<패키지 > 요소는이 다음과 비슷하게 표시 됩니다.  
+    **Windows Phone 프로젝트에 대 한 이전:** 프로그램 \<패키지 > 요소가이 다음과 비슷하게 표시 됩니다.  
   
    ```xml  
    <Package  
@@ -356,7 +351,7 @@ ms.locfileid: "51791750"
    xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">  
    ```  
   
-    **유니버설 Windows 플랫폼의 새로운 기능:** 아래 스키마를 추가 하면 \<패키지 > 요소입니다. 방금 제거한 스키마에 대한 요소에서 연결된 네임스페이스 식별자 접두사를 모두 제거합니다. IgnorableNamespaces 속성을 uap mp로 업데이트합니다. 새 \<패키지 > 요소는이 다음과 비슷하게 표시 됩니다.  
+    **유니버설 Windows 플랫폼에 대 한 새:** 아래 스키마를 추가 하면 \<패키지 > 요소입니다. 방금 제거한 스키마에 대한 요소에서 연결된 네임스페이스 식별자 접두사를 모두 제거합니다. IgnorableNamespaces 속성을 uap mp로 업데이트합니다. 새 \<패키지 > 요소는이 다음과 비슷하게 표시 됩니다.  
   
    ```xml  
    <Package  
@@ -367,7 +362,7 @@ ms.locfileid: "51791750"
   
    ```  
   
-3. 추가 된 \<종속성 > 자식 요소를는 \<패키지 > 요소입니다. 다음 추가 \<TargetDeviceFamily > 자식 요소를이 \<종속성 > Name, MinVersion 및 MaxVersionTested 특성을 가진 요소입니다. Name 특성에 Windows.Universal 값을 지정합니다. MinVersion 및 MaxVersionTested에 설치한 유니버설 Windows 플랫폼 버전 값을 지정합니다. 이 요소는 다음과 유사하게 표시됩니다.  
+3. 추가 된 \<종속성 > 자식 요소를는 \<패키지 > 요소입니다. 다음 추가 \<TargetDeviceFamily > 자식 요소를이 \<종속성 > Name, MinVersion 및 MaxVersionTested 특성을 가진 요소입니다. Name 특성 값을 제공 합니다. Windows.Universal. MinVersion 및 MaxVersionTested에 설치한 유니버설 Windows 플랫폼 버전 값을 지정합니다. 이 요소는 다음과 유사하게 표시됩니다.  
   
    ```xml  
    <Dependencies>  
@@ -375,7 +370,7 @@ ms.locfileid: "51791750"
    </Dependencies>  
    ```  
   
-4. **Windows 저장소만:** 에 추가 해야를 \<mp:PhoneIdentity > 자식 요소를는 \<패키지 > 요소입니다. PhoneProductId 특성 및 PhonePublisherId 특성을 추가합니다. PhoneProductId를 같은 이름 특성 값을 설정 합니다 \<Identity > 요소입니다. PhonePublishedId 값을 00000000-0000-0000-0000-000000000000으로 설정합니다. 다음과 같습니다.  
+4. **Windows 저장소에 해당:** 추가 해야는 \<mp:PhoneIdentity > 자식 요소는 \<패키지 > 요소입니다. PhoneProductId 특성 및 PhonePublisherId 특성을 추가합니다. PhoneProductId를 같은 이름 특성 값을 설정 합니다 \<Identity > 요소입니다. PhonePublishedId 값을 설정 합니다. 00000000-0000-0000-0000-000000000000. 다음과 같습니다.  
   
    ```xml  
    <Identity Name="aa3815a1-2d97-4c71-8c99-578135b28cd8" Publisher="CN=xxxxxxxx" Version="1.0.0.0" />   
@@ -384,7 +379,7 @@ ms.locfileid: "51791750"
   
 5. 찾기는 \<필수 구성 요소 > 요소가이 요소와 해당 자식 요소를 삭제 합니다.  
   
-6. 추가 된 **uap** 다음 네임 스페이스 \<리소스 > 요소: Scale, DXFeatureLevel. 예를 들어:  
+6. 추가 된 **uap** 네임 스페이스 다음과 \<리소스 > 요소: Scale, DXFeatureLevel입니다. 예를 들어:  
   
    ```xml  
    <Resources>  
@@ -419,7 +414,7 @@ ms.locfileid: "51791750"
   
    ```  
   
-    **Windows 스토어만 해당:** 타일 크기 이름이 변경되었습니다. 특성을 변경 합니다 \<VisualElements > 새 맞게 요소 타일 크기를 수렴 합니다. 70x70은 71x71이 되고, 30x30은 44x44가 됩니다.  
+    **Windows 스토어만 해당:** 타일 크기 이름이 변경 되었습니다. 특성을 변경 합니다 \<VisualElements > 새 맞게 요소 타일 크기를 수렴 합니다. 70x70은 71x71이 되고, 30x30은 44x44가 됩니다.  
   
     **OLD:** 타일 크기 이름  
   
@@ -487,7 +482,7 @@ ms.locfileid: "51791750"
   
 12. 프레임워크 종속성을 변경합니다. 모든 게시자 이름을 추가할 \<PackageDependency > 요소에 지정 되어 있지 않은 경우 MinVersion을 지정 합니다.  
   
-     **이전:** \<PackageDependency > 요소  
+     **OLD:** \<PackageDependency > 요소  
   
     ```xml  
     <Dependencies>  
@@ -496,7 +491,7 @@ ms.locfileid: "51791750"
   
     ```  
   
-     **신규:** \<PackageDependency > 요소  
+     **새로운:** \<PackageDependency > 요소  
   
     ```xml  
     <Dependencies>  
@@ -512,7 +507,7 @@ ms.locfileid: "51791750"
   
 13. gattCharacteristicNotification 및 rfcommConnection 백그라운드 형식 작업을 Bluetooth 형식 작업으로 바꿉니다. 예를 들어:  
   
-     **이전:**  
+     **OLD:**  
   
     ```xml  
     <Extension Category="windows.backgroundTasks" EntryPoint="Fabrikam.BackgroundTask" Executable="MyBackground.exe">  
@@ -523,7 +518,7 @@ ms.locfileid: "51791750"
     </Extension>  
     ```  
   
-     **NEW:** Bluetooth 형식 작업을 포함합니다.  
+     **새로운:** Bluetooth 형식 작업입니다.  
   
     ```xml  
     <Extension Category="windows.backgroundTasks" EntryPoint="Fabrikam.BackgroundTask" Executable="MyBackground.exe">  
@@ -535,7 +530,7 @@ ms.locfileid: "51791750"
   
 14. Bluetooth 디바이스 기능 bluetooth.rfcomm 및 bluetooth.genericAttributeProfile을 제네릭 Bluetooth 기능으로 바꿉니다. 예를 들어:  
   
-     **이전:**  
+     **OLD:**  
   
     ```xml  
     <Capabilities>  
@@ -552,7 +547,7 @@ ms.locfileid: "51791750"
     </Capabilities>  
     ```  
   
-     **NEW:** 제네릭 Bluetooth 기능으로 대체되었습니다.  
+     **새로운:** 제네릭 Bluetooth 기능으로 대체 합니다.  
   
     ```xml  
     <Capabilities>  
@@ -676,7 +671,7 @@ ms.locfileid: "51791750"
   
    ```  
   
-6. 찾기는 \<대상 > 요소 값이 있는 이름 특성을 가진: EnsureNuGetPackageBuildImports 합니다. 이 요소와 이 요소의 모든 자식을 삭제합니다.  
+6. 찾기는 \<대상 > 요소 값이 있는 이름 특성을 가진: EnsureNuGetPackageBuildImports. 이 요소와 이 요소의 모든 자식을 삭제합니다.  
   
    ```xml  
    <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">  
@@ -826,7 +821,7 @@ ms.locfileid: "51791750"
   
 ###  <a name="UnitTestRCUpdate10CSharp"></a> C# /VB 단위 테스트 프로젝트를 업데이트 합니다.  
   
-1. Visual Studio에서 C#/VB 단위 테스트 프로젝트를 포함하는 솔루션을 엽니다. 값을 변경 합니다 \<OuttputType > 요소를: AppContainerExe 합니다.  
+1. Visual Studio에서 C#/VB 단위 테스트 프로젝트를 포함하는 솔루션을 엽니다. 값을 변경 합니다 \<OuttputType > 요소입니다. AppContainerExe.  
   
    ```xml  
   

@@ -1,14 +1,9 @@
 ---
 title: 함수 매개 변수 및 반환 값에 주석 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords:
 - _Outptr_opt_result_bytebuffer_to_
 - _Inout_updates_all_opt_
@@ -130,13 +125,13 @@ ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 caps.latest.revision: 17
 author: mikeblome
 ms.author: mblome
-manager: ghogen
-ms.openlocfilehash: 7886b7a49999890520aaeaf216159647cd9fdf27
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 7cd46ee8fd7d9f8a404d930d25257c38f2c1b68f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51788396"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983305"
 ---
 # <a name="annotating-function-parameters-and-return-values"></a>함수 매개 변수 및 반환 값에 주석 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -509,6 +504,3 @@ ms.locfileid: "51788396"
  [주석 적용 시기 및 위치 지정](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [내장 함수](../code-quality/intrinsic-functions.md)   
  [모범 사례 및 예제](../code-quality/best-practices-and-examples-sal.md)
-
-
-

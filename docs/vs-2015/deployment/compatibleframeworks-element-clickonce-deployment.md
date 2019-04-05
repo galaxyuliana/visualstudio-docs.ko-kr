@@ -1,14 +1,9 @@
 ---
 title: '&lt;compatibleFrameworks&gt; 요소 (ClickOnce 배포) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -19,13 +14,13 @@ ms.assetid: f6c3ee55-9e65-403d-8664-3ebde872c7d4
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 051fd3eea0ffab2a7c5f088538d7208c8286d1d6
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: af927086261f5472e0a71182b8c03b7d750827ab
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49176595"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982245"
 ---
 # <a name="ltcompatibleframeworksgt-element-clickonce-deployment"></a>&lt;compatibleFrameworks&gt; 요소 (ClickOnce 배포)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,12 +34,12 @@ ms.locfileid: "49176595"
   
 ```  
 <compatibleFrameworks  
-      SupportUrl>   
+      SupportUrl>   
    <framework  
       targetVersion  
       profile  
       supportedRuntime  
-   />   
+   />   
 </ compatibleFrameworks>  
 ```  
   
@@ -58,13 +53,13 @@ ms.locfileid: "49176595"
 |`S` `upportUrl`|선택 사항입니다. 호환 되는 기본.NET Framework 버전을 다운로드할 수 있는 URL을 지정 합니다.|  
   
 ## <a name="framework"></a>프레임워크  
- 필수. 다음 표에서 특성을 나열 하는 `framework` 요소를 지원 합니다.  
+ 필수 요소. 다음 표에서 특성을 나열 하는 `framework` 요소를 지원 합니다.  
   
 |특성|설명|  
 |---------------|-----------------|  
-|`targetVersion`|필수. 대상.NET Framework의 버전 번호를 지정합니다.|  
-|`profile`|필수. 대상.NET Framework의 프로필을 지정합니다.|  
-|`supportedRuntime`|필수. 대상.NET Framework와 관련 된 런타임 버전 번호를 지정 합니다.|  
+|`targetVersion`|필수 요소. 대상.NET Framework의 버전 번호를 지정합니다.|  
+|`profile`|필수 요소. 대상.NET Framework의 프로필을 지정합니다.|  
+|`supportedRuntime`|필수 요소. 대상.NET Framework와 관련 된 런타임 버전 번호를 지정 합니다.|  
   
 ## <a name="remarks"></a>설명  
   
@@ -82,6 +77,3 @@ ms.locfileid: "49176595"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
-title: ': P / Invoke 진입점 ca1400 | Microsoft Docs'
-ms.custom: ''
+title: 'CA1400: P / Invoke 진입점이 있어야 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - CA1400
 - PInvokeEntryPointsShouldExist
@@ -20,12 +15,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: f564f130c4f225d62b71778bc141170ea528d4ab
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 0e5696689d0aa40f4af2e11970c81b47737a3d80
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49810635"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982297"
 ---
 # <a name="ca1400-pinvoke-entry-points-should-exist"></a>CA1400: P/Invoke 진입점이 있어야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ ms.locfileid: "49810635"
 
 ## <a name="see-also"></a>참고 항목
  <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName>
-
-
-

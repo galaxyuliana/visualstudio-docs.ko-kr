@@ -1,11 +1,8 @@
 ---
 title: 워크플로 디자이너를 사용 하 여 응용 프로그램 개발 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 f1_keywords:
 - DefaultWorkflowDesigner
@@ -19,15 +16,15 @@ ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 71cde900802543a21a20bc02e95bcfedc50d5541
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: ffefb9f6542bbbb44d732116a348045660cf78b3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49259157"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983220"
 ---
-# <a name="developing-applications-with-the-workflow-designer"></a>워크플로 디자이너로 응용 프로그램 개발
+# <a name="developing-applications-with-the-workflow-designer"></a>Workflow Designer로 응용 프로그램 개발
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]는 [!INCLUDE[wf](../includes/wf-md.md)] 개발 환경에 호스트되는 [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]에서 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 응용 프로그램을 디버깅하고 그래픽을 생성하는 비주얼 디자이너 겸 디버거입니다. 여기서 템플릿 및 활동 디자이너를 사용하여 복합 워크플로 응용 프로그램, 활동 라이브러리 또는 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 서비스를 생성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 워크플로 참조 합니다 [Windows Workflow Foundation &#91;.NET Framework 4&#93;](http://msdn.microsoft.com/library/9a23ea6b-d600-483e-89cd-8889cfec5f66)합니다.  
   
  새 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 버전에서 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 이전 버전과 달라진 몇 가지 디자인 기능은 다음과 같습니다.  
@@ -65,7 +62,7 @@ ms.locfileid: "49259157"
  [워크플로 디자이너 UI 도움말](../workflow-designer/workflow-designer-ui-help.md)  
  [!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 제공되는 대화 상자에 대한 상황에 맞는 도움말 항목과 디자이너 셸 기능, 바로 가기 키 및 오류 메시지에 대한 지침이 들어 있습니다.  
   
- [.NET 3.0 또는 .NET 3.5 Framework를 대상으로 하는 워크플로 응용 프로그램 개발](../workflow-designer/developing-workflow-applications-targeting-the-dotnet-3-0-or-dotnet-3-5-framework.md)  
+ [.NET 3.0 또는 .NET 3.5 Framework를 대상으로 하는 워크플로 애플리케이션 개발](../workflow-designer/developing-workflow-applications-targeting-the-dotnet-3-0-or-dotnet-3-5-framework.md)  
  [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 하는 레거시 디자이너의 사용 지침이 들어 있습니다.  
   
  [디자이너 재호스팅 &#91;WF 샘플&#93;](http://msdn.microsoft.com/library/b676ad31-5f64-4d84-9a36-b4d7113a2f4d)  

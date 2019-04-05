@@ -1,12 +1,9 @@
 ---
 title: 'UML 사용 사례 다이어그램: 지침 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - diagrams - modeling, use case
 - UML, use case diagrams
@@ -17,13 +14,13 @@ ms.assetid: b1ae8ed0-d00b-4f9b-8e23-733e09e81e9b
 caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: b4a4bc02202f8ec1f41052dcdea63d97bbcb9671
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b69a06f0dff7347e5f24899552f25721e71ee818
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51793089"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983210"
 ---
 # <a name="uml-use-case-diagrams-guidelines"></a>UML 사용 사례 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,13 +88,13 @@ Visual Studio에서 그릴 수 있습니다는 *사용 사례 다이어그램* �
   
     -   행위자는 시스템과 상호 작용하는 사용자, 조직 및 외부 시스템의 클래스를 나타냅니다.  
   
-    -   이름을 바꿉니다. 예를 들어: **고객, 식당, 신용 카드 에이전시.**  
+    -   이름을 바꿉니다. 예를 들어: **고객, 식당, 신용 카드 에이전시입니다.**  
   
 3.  끌기 **사용 사례** 적절 한 시스템 도구 상자에서.  
   
     -   사용 사례는 행위자가 시스템을 사용하여 수행하는 동작을 나타냅니다.  
   
-    -   행위자 자신이 이해하는 제목을 사용하여 이름을 바꿉니다. 코드와 관련된 제목을 사용하지 마세요. 예를 들어: **음식 주문, 음식 대금 지불, 음식 배달**합니다.  
+    -   행위자 자신이 이해하는 제목을 사용하여 이름을 바꿉니다. 코드와 관련된 제목을 사용하지 마세요. 예를 들어: **음식 대금 지불, 음식 배달 음식 주문**합니다.  
   
     -   와 같은 주요 트랜잭션으로 시작 **음식 주문**와 같은 작은 상호 작용은 이후까지 그대로 유지 되어 **메뉴 항목 선택**합니다.  
   
@@ -145,7 +142,7 @@ Visual Studio에서 그릴 수 있습니다는 *사용 사례 다이어그램* �
   
 1.  행위자를 마우스 오른쪽 단추로 누른 **속성**합니다.  
   
-     합니다 **속성** 창이 나타납니다.  
+     **속성** 창이 열립니다.  
   
 2.  설정 된 **이미지 경로** 이미지 파일의 위치는 속성입니다.  
   
@@ -203,7 +200,7 @@ Visual Studio에서 그릴 수 있습니다는 *사용 사례 다이어그램* �
 >  대부분의 팀은 사용 사례 다이어그램에 복합성 정보를 배치하지 않고 복합성을 기본값 1로 그대로 둡니다. 대신, 사용 사례에 대한 별도 설명에서 정보를 제공합니다. 이 경우 사용 사례 다이어그램의 복합성이 모두 숨겨집니다.  
   
 ### <a name="using-an-actor-or-use-case-on-multiple-diagrams"></a>여러 다이어그램에서 행위자 또는 사용 사례 사용  
- 여러 다이어그램에 동일한 행위자 및 사용 사례를 표시할 수 있습니다. 예:  
+ 여러 다이어그램에 동일한 행위자 및 사용 사례를 표시할 수 있습니다. 예를 들어:  
   
 -   한 행위자와 관련된 여러 사용 사례를 서로 다른 다이어그램에서 설명할 수 있습니다.  
   
@@ -233,9 +230,9 @@ Visual Studio에서 그릴 수 있습니다는 *사용 사례 다이어그램* �
   
 - 프로젝트에 있는 하나 이상의 다른 다이어그램에 사용 사례를 연결합니다.  
   
-  -   동작 다이어그램은 루프, 분기 및 병렬 스레드가 있는 더 복잡한 프로세스를 설명하는 데 도움이 됩니다. 프로세스의 파트 간 데이터 흐름을 표시할 수도 있습니다. 자세한 내용은 [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
+  -   동작 다이어그램은 루프, 분기 및 병렬 스레드가 있는 더 복잡한 프로세스를 설명하는 데 도움이 됩니다. 프로세스의 파트 간 데이터 흐름을 표시할 수도 있습니다. 자세한 내용은 참조 하세요. [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
   
-  -   시퀀스 다이어그램은 여러 행위자 간의 복잡한 일련의 상호 작용을 설명하는 데 도움이 됩니다. 시퀀스 다이어그램을 사용하여 각 사용 사례에 대한 응답으로 시스템 내에서 수행되는 작업을 표시할 수도 있습니다. 자세한 내용은 [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.  
+  -   시퀀스 다이어그램은 여러 행위자 간의 복잡한 일련의 상호 작용을 설명하는 데 도움이 됩니다. 시퀀스 다이어그램을 사용하여 각 사용 사례에 대한 응답으로 시스템 내에서 수행되는 작업을 표시할 수도 있습니다. 자세한 내용은 참조 하세요. [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.  
   
 - 사용 사례를 자세히 설명하는 OneNote 페이지, 섹션 또는 단락에 사용 사례를 연결합니다.  
   
@@ -337,7 +334,7 @@ Visual Studio에서 그릴 수 있습니다는 *사용 사례 다이어그램* �
   
 - 동작 다이어그램의 작업 이름은 포함된 사용 사례와 같습니다.  
   
-  자세한 내용은 [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
+  자세한 내용은 참조 하세요. [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
   
   ![연결 된 동작 다이어그램에 표시 된 경우 단계를 사용 하 여](../modeling/media/uml-ucguidesteps.png "UML_UCGuideSteps")  
   
@@ -451,7 +448,4 @@ Visual Studio에서 그릴 수 있습니다는 *사용 사례 다이어그램* �
  [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)   
  [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)   
  [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)   
- [비디오:를 사용 사례로 기능 구성](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-2-Organizing-Features-Into-Use-Cases/)
-
-
-
+ [비디오: 사용 사례로 기능 구성](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-2-Organizing-Features-Into-Use-Cases/)
