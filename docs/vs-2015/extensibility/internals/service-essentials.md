@@ -1,26 +1,21 @@
 ---
 title: Essentials 서비스 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - services, essentials
 ms.assetid: fbe84ad9-efe1-48b1-aba3-b50b90424d47
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 90cec13c403194c70b9d44cff349b53495a0e160
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 90b16c9d7e7a762b6c1dac322ae9467b835476fd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51776462"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972199"
 ---
 # <a name="service-essentials"></a>서비스 필수 항목
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,11 +57,10 @@ ms.locfileid: "51776462"
   
 -   Vspackage는 자신이 만든 개체에 대 한 서비스 공급자 수 있습니다. 예를 들어 폼 색 서비스에 대 한 요청을 요청을 전달할 수는 해당 프레임에 보낼 수 있습니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다.  
   
--   깊게 중첩 되거나 전혀 배치 하지 되는 관리 되는 개체를 호출할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 글로벌 서비스에 대 한 직접 액세스에 대 한 합니다. 자세한 내용은 [방법: GetGlobalService 사용](../../misc/how-to-use-getglobalservice.md)합니다.  
+-   깊게 중첩 되거나 전혀 배치 하지 되는 관리 되는 개체를 호출할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 글로벌 서비스에 대 한 직접 액세스에 대 한 합니다. 자세한 내용은 [방법: Getglobalservice](../../misc/how-to-use-getglobalservice.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [사용 가능한 서비스 목록](../../extensibility/internals/list-of-available-services.md)   
  [사용 하 고 서비스를 제공 합니다.](../../extensibility/using-and-providing-services.md)   
  [캐스팅 및 형식 변환](http://msdn.microsoft.com/library/568df58a-d292-4b55-93ba-601578722878)   
  [캐스팅](http://msdn.microsoft.com/library/3dbeb06e-2f4b-4693-832d-624bc8ec95de)
-

@@ -1,14 +1,9 @@
 ---
-title: 'CA1020: 형식이 사용 하 여 네임 스페이스 방지 | Microsoft Docs'
-ms.custom: ''
+title: 'CA1020: 몇 가지 형식과 네임 스페이스를 방지 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - CA1020
 - AvoidNamespacesWithFewTypes
@@ -20,14 +15,14 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 6663660319791f1e81d0ed89f171c929c3e50725
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 338bc8ff9d7bc273898e57650971607f944b4feb
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49906184"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984219"
 ---
-# <a name="ca1020-avoid-namespaces-with-few-types"></a>CA1020: 형식이 부족한 네임스페이스를 사용하지 마십시오.
+# <a name="ca1020-avoid-namespaces-with-few-types"></a>CA1020: 형식이 부족한 네임스페이스를 사용하지 마세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 |||
@@ -51,6 +46,3 @@ ms.locfileid: "49906184"
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  네임 스페이스는 다른 네임 스페이스의 형식과 함께 사용 되는 형식이 포함 되지 않은 경우이 규칙에서 경고를 표시 하지 않아도 안전 합니다.
-
-
-

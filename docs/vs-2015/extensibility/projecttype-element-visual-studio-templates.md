@@ -1,14 +1,9 @@
 ---
 title: ProjectType 요소 (Visual Studio 템플릿) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#ProjectType
 helpviewer_keywords:
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: ccf9d83f-c7f3-49c7-a31f-e1f22bec004c
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: d76962d5a8b90b5cc947721608aa1758193fe6c7
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8d9836702b00b51d1e2dbe1cd64687c892feaba4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51721719"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972567"
 ---
 # <a name="projecttype-element-visual-studio-templates"></a>ProjectType 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +29,7 @@ ms.locfileid: "51721719"
   
  \<VSTemplate>  
  \<TemplateData>  
- \<ProjectType >  
+ \<ProjectType>  
   
 ## <a name="syntax"></a>구문  
   
@@ -62,9 +57,9 @@ ms.locfileid: "51721719"
   
  이 값에는 프로젝트 템플릿 만들고, 유형과 다음 값 중 하나를 포함 해야 합니다 지정 합니다.  
   
--   `CSharp`: 템플릿이 만들도록 지정을 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트 또는 항목입니다.  
+-   `CSharp`: 서식 파일을 만들도록 지정을 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트 또는 항목입니다.  
   
--   `VisualBasic`: 템플릿이 만들도록 지정을 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트 또는 항목입니다.  
+-   `VisualBasic`: 서식 파일을 만들도록 지정을 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트 또는 항목입니다.  
   
 -   `Web`: 템플릿이 웹 프로젝트 또는 항목을 만들도록 지정 합니다. 경우는 `ProjectType` 이 값을 포함 하는 요소, 프로젝트 또는 항목의 언어에 정의 된 합니다 [ProjectSubType 요소 (Visual Studio 템플릿)](../extensibility/projectsubtype-element-visual-studio-templates.md)합니다.  
   
@@ -106,4 +101,3 @@ ms.locfileid: "51721719"
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [ProjectSubType 요소(Visual Studio 템플릿)](../extensibility/projectsubtype-element-visual-studio-templates.md)
-

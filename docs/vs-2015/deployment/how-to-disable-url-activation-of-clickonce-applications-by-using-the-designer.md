@@ -1,14 +1,9 @@
 ---
 title: '방법: 디자이너를 사용 하 여 ClickOnce 응용 프로그램의 URL 활성화 해제 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -21,22 +16,22 @@ ms.assetid: a337a582-e67c-409a-b52e-607cd1a8fc57
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 37049ab5c3d696c992cb1d7deca857706f98df92
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 3d797b0881ef06d8934df52473ae8178e520f96f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49307619"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970704"
 ---
-# <a name="how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer"></a>방법: 디자이너를 사용하여 ClickOnce 응용 프로그램의 URL 활성화 해제
+# <a name="how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer"></a>방법: 디자이너를 사용하여 ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 일반적으로 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램은 웹 서버에서 설치 된 후에 즉시 자동으로 시작 됩니다. 보안상의 이유로이 동작을 사용 하지 않도록 설정 하 여 사용자가 응용 프로그램을 시작 하도록 설정할 수 있습니다 합니다 **시작** 메뉴 대신 합니다. 다음 절차에서는 URL 활성화를 사용하지 않도록 설정하는 방법에 대해 설명합니다.  
   
  이 방법은 웹 서버에서 사용자 컴퓨터에 설치된 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램에 대해서만 사용할 수 있습니다. 해당 URL을 사용해 서만 시작할 수 있는 온라인 전용 응용 프로그램에 사용할 수 없습니다. 참조 및 설치 된 온라인 전용 응용 프로그램 간의 차이점에 대 한 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)합니다.  
   
- 이 절차에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 사용 하 여이 작업을 수행할 수도 있습니다는 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]합니다. 자세한 내용은 [방법: ClickOnce 응용의 URL 활성화 해제](../deployment/how-to-disable-url-activation-of-clickonce-applications.md)합니다.  
+ 이 절차에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 사용 하 여이 작업을 수행할 수도 있습니다는 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]합니다. 자세한 내용은 [방법: ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정](../deployment/how-to-disable-url-activation-of-clickonce-applications.md)을 참조하세요.  
   
 ## <a name="procedure"></a>프로시저  
   
@@ -56,6 +51,3 @@ ms.locfileid: "49307619"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)
-
-
-

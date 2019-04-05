@@ -1,26 +1,21 @@
 ---
 title: .NET Framework 메모리 문제 분석 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 f1_keywords:
 - vs.diagnostics.managedmemoryanalysis
 ms.assetid: 43341928-9930-48cf-a57f-ddcc3984b787
 caps.latest.revision: 9
 ms.author: mikejo
-manager: douge
-ms.openlocfilehash: 5b5b79e351f828f443e133f40c322ffba3f1a8b6
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 6f2a0680c117aa5982fb0e44144e74c5fef76faa
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810483"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981420"
 ---
 # <a name="analyze-net-framework-memory-issues"></a>.NET Framework 메모리 문제 분석
 관리되는 Visual Studio 메모리 분석기를 사용하여 .NET Framework 코드에서 메모리 누수 및 비효율적인 메모리 사용을 찾습니다. 대상 코드의 최소 .NET Framework 버전은 .NET Framework 4.5입니다.  
@@ -169,12 +164,12 @@ ms.locfileid: "51810483"
 |**비동기입니다. 고정 된 핸들**|개체 핸들 테이블의 비동기 고정된 개체입니다.|  
 |**종속 핸들**|개체 핸들 테이블의 종속 개체입니다.|  
 |**고정 된 핸들**|개체 핸들 테이블의 고정된 강력한 참조입니다.|  
-|**RefCount 핸들**|개체 핸들 테이블의 참조 횟수가 계산되는 개체입니다.|  
-|**SizedRef 핸들**|가비지 컬렉션 시 모든 개체 및 개체 루트의 집합 클로저의 대략적인 크기를 유지하는 강력한 핸들입니다. |  
+|**RefCount Handle**|개체 핸들 테이블의 참조 횟수가 계산되는 개체입니다.|  
+|**SizedRef Handle**|가비지 컬렉션 시 모든 개체 및 개체 루트의 집합 클로저의 대략적인 크기를 유지하는 강력한 핸들입니다. |  
 |**고정 된 지역 변수**|고정된 지역 변수입니다.|  
   
 ###  <a name="BKMK_Compare_two_memory_snapshots"></a> 두 메모리 스냅숏 비교  
- 프로세서의 덤프 파일 두 개를 비교하여 메모리 누수의 원인이 될 수 있는 개체를 찾을 수 있습니다. 첫 번째(이전) 및 두 번째(이후) 파일 간의 간격은 누수된 개체 수 증가를 명백하게 확인하기에 충분할 정도로 커야 합니다.  두 파일을 비교하려면 다음 단계를 수행하세요.  
+ 프로세서의 덤프 파일 두 개를 비교하여 메모리 누수의 원인이 될 수 있는 개체를 찾을 수 있습니다. 첫 번째(이전) 및 두 번째(이후) 파일 컬렉션 간의 간격은 누수된 개체 수 증가를 명백하게 확인하기에 충분할 정도로 커야 합니다.  두 파일을 비교하려면 다음 단계를 수행하세요.  
   
 1. 두 번째 덤프 파일을 열고 선택한 **관리 되는 메모리 디버깅** 에 **미니 덤프 파일 요약** 페이지입니다.  
   

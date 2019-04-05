@@ -1,12 +1,9 @@
 ---
 title: .Mdf 파일 업그레이드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -23,14 +20,14 @@ ms.assetid: 14ca6f76-f80e-4926-8020-3fee2d802b75
 caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: d71b38fe0d4aef412860a9dc65002c9b8d98c79c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: dc67a44586d221830825b94dd1c0eb160e307d21
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49812636"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972372"
 ---
 # <a name="upgrade-mdf-files"></a>.mdf 파일 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -123,8 +120,3 @@ ms.locfileid: "49812636"
 4. **확인** 단추를 선택합니다.  
   
    SQL Server Express 응용 프로그램에 대 한 기본 데이터베이스 엔진 됩니다.  
-  
-## <a name="see-also"></a>참고 항목  
- [로컬 데이터 개요](../data-tools/local-data-overview.md)   
- [연습: 로컬 데이터베이스 파일의 데이터에 연결(Windows Forms)](../data-tools/walkthrough-connecting-to-data-in-a-local-database-file-windows-forms.md)
-

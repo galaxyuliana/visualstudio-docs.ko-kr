@@ -1,26 +1,21 @@
 ---
 title: XML 명령 테이블 디자인 (합니다. Vsct) 파일 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, designing
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
 caps.latest.revision: 28
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 6c7a4e07c45c5d651af057e1eb33c23d37601cb3
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: f83b5e85d02e4427e433a517bbac84dcccaab243
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51762814"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972203"
 ---
 # <a name="designing-xml-command-table-vsct-files"></a>XML 명령 테이블 디자인 (합니다. Vsct) 파일
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ XML 명령 테이블 (.vsct) 파일에는 레이아웃 및 VSPackage에 대 한 
   
  실행 하 여 새 VSPackage를 만들 때의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 패키지 템플릿은 템플릿 메뉴 명령, 도구 창 또는 선택 항목에 따라 사용자 지정 편집기에 대 한 필요한 요소를 사용 하 여.vsct 파일을 생성 합니다. 그런 다음 특정 VSPackage의 요구 사항에 맞게이.vsct 파일을 수정할 수 있습니다. .Vsct 파일을 수정 하는 방법의 예제에 나와 있는 예제를 참조 하세요 [확장 메뉴 및 명령을](../../extensibility/extending-menus-and-commands.md)합니다.  
   
- 새, 빈.vsct 파일을 만들려면 참조 [방법: 만들기를 합니다. Vsct 파일](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)합니다. 만들어지면 명령 항목 레이아웃을 설명 하는 파일에 XML 요소, 특성 및 값 추가 합니다. XML 스키마를 자세한 참조를 [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)합니다.  
+ 새, 빈.vsct 파일을 만들려면 참조 [방법: 만들기는 합니다. Vsct 파일](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)합니다. 만들어지면 명령 항목 레이아웃을 설명 하는 파일에 XML 요소, 특성 및 값 추가 합니다. XML 스키마를 자세한 참조를 [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)합니다.  
   
 ## <a name="differences-between-ctc-and-vsct-files"></a>.Ctc 및.vsct 파일 간의 차이점  
  .Vsct 파일에서 XML 태그의 의미를.ctc 파일 형식이 더 이상 사용 되지 이제의가 동일, 구현과 약간 다릅니다.  
@@ -71,7 +66,7 @@ XML 명령 테이블 (.vsct) 파일에는 레이아웃 및 VSPackage에 대 한 
   
   새 컴파일러, vsct.exe,.ctc와.vsct 파일을 컴파일합니다. 그러나 이전 ctc.exe 컴파일러는 인식 아니고.vsct 파일을 컴파일합니다.  
   
-  기존.cto 파일.vsct 파일을 변환할 vsct.exe 컴파일러를 사용할 수 있습니다. 이 대 한 자세한 내용은 참조 하세요. [방법: 만들기를 합니다. 기존 Vsct 파일입니다. Cto 파일](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md)합니다.  
+  기존.cto 파일.vsct 파일을 변환할 vsct.exe 컴파일러를 사용할 수 있습니다. 이 대 한 자세한 내용은 참조 하세요. [방법: 만들기는 합니다. 기존 Vsct 파일입니다. Cto 파일](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md)합니다.  
   
 ## <a name="the-vsct-file-elements"></a>.Vsct 파일 요소  
  명령 테이블에는 다음 계층 구조 및 요소에 있습니다.  
@@ -130,4 +125,3 @@ XML 명령 테이블 (.vsct) 파일에는 레이아웃 및 VSPackage에 대 한 
   
 ## <a name="see-also"></a>참고 항목  
  [메뉴 및 명령 확장](../../extensibility/extending-menus-and-commands.md)
-

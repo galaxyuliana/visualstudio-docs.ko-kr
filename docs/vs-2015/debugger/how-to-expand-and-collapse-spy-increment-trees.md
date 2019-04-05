@@ -1,29 +1,24 @@
 ---
 title: '방법: Spy + + 트리 확장 및 축소 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - Expanding and Collapsing Spy++ Trees
 ms.assetid: 22993182-7026-4155-8046-b84fd99f803c
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ab7b31dcfbaaf7ba101d7dea426fd95bb6f397de
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 037d6100c7137784de3896771dd62c766b4505e3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51754837"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972098"
 ---
-# <a name="how-to-expand-and-collapse-spy-trees"></a>방법: Spy++ 트리 확장명 및 축소
+# <a name="how-to-expand-and-collapse-spy-trees"></a>방법: Spy++ 트리 확장 및 축소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 확장 및 두 개의 메서드를 사용 하 여 Windows, 프로세스 및 스레드 뷰를 축소할 수 있습니다: 창에서 또는 사용 하 여 아이콘을 클릭 하 여 합니다 **트리** 메뉴. + 및-트리에서 아이콘은 Visual c + + 프로젝트 창 에서도 작동 합니다.  
@@ -47,9 +42,6 @@ ms.locfileid: "51754837"
 2.  **트리** 메뉴 확장 중 하나를 선택 하거나 축소 명령입니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Spy + + 사용](../debugger/using-spy-increment.md)   
- [Spy + + 뷰](../debugger/spy-increment-views.md)   
+ [Spy++ 사용](../debugger/using-spy-increment.md)   
+ [Spy++ 뷰](../debugger/spy-increment-views.md)   
  [Spy++ 참조](../debugger/spy-increment-reference.md)
-
-
-

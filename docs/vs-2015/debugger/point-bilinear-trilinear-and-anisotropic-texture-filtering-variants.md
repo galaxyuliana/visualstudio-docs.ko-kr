@@ -1,25 +1,20 @@
 ---
 title: Point, Bilinear, Trilinear 및 Anisotropic 텍스처 필터링 변형 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: 57d14fc9-b5f7-45ee-9717-48086886742d
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ef054b1773b1f0d07e21ec25cb326594a4d3b2d9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5c53f3b0633ec8938de210cb518d9fae1937eb2c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51791240"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970695"
 ---
 # <a name="point-bilinear-trilinear-and-anisotropic-texture-filtering-variants"></a>Point, Bilinear, Trilinear 및 Anisotropic 텍스처 필터링 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,15 +57,15 @@ ms.locfileid: "51791240"
   
 - `D3D11_FILTER_ANISOTROPIC`  
   
-  에 **점 질감 필터링** 변형의 경우 응용 프로그램 제공 하는 필터 모드를 사용 하 여 대체 됩니다 `D3D11_FILTER_MIN_MAG_MIP_POINT`; 합니다 **쌍선형 질감 필터링** 변형의 경우 바뀝니다 `D3D11_FILTER_MIN_MAG_LINEAR_MIP_POINT`; 및 합니다 **3 중 선형 질감 필터링** 변형의 경우 바뀝니다 `D3D11_FILTER_MIN_MAG_MIP_LINEAR`합니다.  
+  **점 질감 필터링** 변형의 경우 애플리케이션에서 제공하는 필터 모드는 `D3D11_FILTER_MIN_MAG_MIP_POINT`로 대체되었고 **쌍선형 질감 필터링** 변형의 경우 `D3D11_FILTER_MIN_MAG_LINEAR_MIP_POINT`로 대체되었으며 **3중 선형 질감 필터링** 변형의 경우 `D3D11_FILTER_MIN_MAG_MIP_LINEAR`로 대체되었습니다.  
   
-  에 **이방성 질감 필터링** 변형의 경우 응용 프로그램 제공 하는 필터 모드를 사용 하 여 대체 됩니다 `D3D11_FILTER_ANISOTROPIC`, 및 최대 이방성이 16으로 설정 됩니다.  
+  **이방성 질감 필터링** 변형의 경우 애플리케이션에서 제공하는 필터 모드는 `D3D11_FILTER_ANISOTROPIC`으로 대체되었고 최대 이방성이 16으로 설정됩니다.  
   
 ## <a name="restrictions-and-limitations"></a>제한 사항  
- Direct3D에서 기능 수준 9.1은 최대 2배의 이방성을 지정합니다. 때문에 합니다 **이방성 질감 필터링** 변형은 16 배 이방성 사용만 하려고, 프레임 분석이 기능 수준 9.1 장치에서 실행 되 면 재생에 실패 합니다. 이러한 제한에 영향을 받는 현대식 장치에는 ARM 기반 Surface RT 및 Surface 2 Windows 태블릿이 포함됩니다. 일부 컴퓨터에서 아직도 찾아볼 수 있는 이전 GPU에도 적용될 수 있지만 이러한 GPU는 사용되지 않으며 점점 사라져 간다고 널리 간주되고 있습니다.  
+ Direct3D에서 기능 수준 9.1은 최대 2배의 이방성을 지정합니다. **이방성 질감 필터링** 변형은 16배 이방성 사용만을 시도하므로 프레임 분석이 기능 수준 9.1 디바이스에서 실행되면 재생에 실패합니다. 이러한 제한에 영향을 받는 현대식 장치에는 ARM 기반 Surface RT 및 Surface 2 Windows 태블릿이 포함됩니다. 일부 컴퓨터에서 아직도 찾아볼 수 있는 이전 GPU에도 적용될 수 있지만 이러한 GPU는 사용되지 않으며 점점 사라져 간다고 널리 간주되고 있습니다.  
   
 ## <a name="example"></a>예제  
- 합니다 **점 질감 필터링** 변형은 다음과 같은 코드를 사용 하 여 재현할 수 있습니다.  
+ **점 질감 필터링** 변형은 다음과 같은 코드를 사용하여 재현할 수 있습니다.  
   
 ```  
 D3D11_SAMPLER_DESC sampler_description;  
@@ -84,7 +79,7 @@ d3d_context->PSSetSamplers(0, 1, &sampler
 ```  
   
 ## <a name="example"></a>예제  
- 합니다 **쌍선형 질감 필터링** 변형은 다음과 같은 코드를 사용 하 여 재현할 수 있습니다.  
+ **쌍선형 질감 필터링** 변형은 다음과 같은 코드를 사용하여 재현할 수 있습니다.  
   
 ```  
 D3D11_SAMPLER_DESC sampler_description;   
@@ -98,7 +93,7 @@ d3d_context->PSSetSamplers(0, 1, &sampler
 ```  
   
 ## <a name="example"></a>예제  
- 합니다 **3 중 선형 질감 필터링** 변형은 다음과 같은 코드를 사용 하 여 재현할 수 있습니다.  
+ **3중 선형 질감 필터링** 변형은 다음과 같은 코드를 사용하여 재현할 수 있습니다.  
   
 ```  
 D3D11_SAMPLER_DESC sampler_description;   
@@ -112,7 +107,7 @@ d3d_context->PSSetSamplers(0, 1, &sampler
 ```  
   
 ## <a name="example"></a>예제  
- 합니다 **이방성 질감 필터링** 변형은 다음과 같은 코드를 사용 하 여 재현할 수 있습니다.  
+ **이방성 질감 필터링** 변수는 다음과 같은 코드를 사용하여 재현할 수 있습니다.  
   
 ```  
 D3D11_SAMPLER_DESC sampler_description;   
@@ -125,6 +120,3 @@ sampler_description.MaxAnisotropy = 16;
 d3d_device->CreateSamplerState(&sampler_desc, &sampler);  
 d3d_context->PSSetSamplers(0, 1, &sampler  
 ```
-
-
-
