@@ -1,12 +1,9 @@
 ---
 title: 동시성 예외 처리 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -23,13 +20,13 @@ ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: a3141f2480aabc2ce6aa7b10f99991fc5cba0d05
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: ba0695656ce2377456f4150be0fe4f5231f7cb76
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50220419"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971341"
 ---
 # <a name="handle-a-concurrency-exception"></a>동시성 예외 처리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +44,7 @@ ms.locfileid: "50220419"
   
 4.  데이터 집합의 데이터로 채우는 `Customers` Northwind 데이터베이스의 테이블입니다.  
   
-5.  사용 된 [Visual Database Tools](http://msdn.microsoft.com/en-us/6b145922-2f00-47db-befc-bf351b4809a1) 에 직접 액세스 하려면 Visual Studio에서를 `Customers` 데이터 테이블 및 레코드를 변경 합니다.  
+5.  사용 된 [Visual Database Tools](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) 에 직접 액세스 하려면 Visual Studio에서를 `Customers` 데이터 테이블 및 레코드를 변경 합니다.  
   
 6.  다른 값으로 동일한 레코드를 변경, 데이터 집합을 업데이트 하 고 동시성 오류가 발생 하는 데이터베이스에 변경 내용 쓰기 시도 합니다.  
   
@@ -56,10 +53,10 @@ ms.locfileid: "50220419"
 ## <a name="prerequisites"></a>전제 조건  
  이 연습을 완료하려면 다음 사항이 필요합니다.  
   
--   업데이트를 수행할 수 있는 권한 가진 Northwind 샘플 데이터베이스에 액세스 합니다. 자세한 내용은 [방법: 샘플 데이터베이스 설치](../data-tools/how-to-install-sample-databases.md)합니다.  
+-   업데이트를 수행할 수 있는 권한 가진 Northwind 샘플 데이터베이스에 액세스 합니다.
   
 > [!NOTE]
->  대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에서 설명 하는 것에서 다 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에서 설명 하는 것에서 다 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기  
  새 Windows 응용 프로그램을 만들어 연습을 시작 합니다.  
@@ -70,7 +67,7 @@ ms.locfileid: "50220419"
   
 2.  에 **프로젝트 형식** 창, 프로그래밍 언어를 선택 합니다.  
   
-3.  에 **템플릿을** 창 **Windows 응용 프로그램**합니다.  
+3.  **템플릿** 창에서 **Windows 응용 프로그램**을 선택합니다.  
   
 4.  프로젝트 이름을 `ConcurrencyWalkthrough`를 선택한 후 **확인**합니다.  
   
@@ -83,7 +80,7 @@ ms.locfileid: "50220419"
   
 1.  에 **데이터** 메뉴 선택 **새 데이터 소스 추가**합니다.  
   
-     합니다 [데이터 소스 구성 마법사](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 열립니다.  
+     [데이터 원본 구성](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 마법사가 열립니다.  
   
 2.  에 **데이터 소스 형식 선택**화면에서 **데이터베이스**합니다.  
   
@@ -211,7 +208,7 @@ ms.locfileid: "50220419"
   
 8.  폼의 첫 번째 레코드에서 (`ALFKI`)을 변경`ContactName` 에 `Maria Anders1`입니다.  
   
-9. 선택 된 **저장할** 단추입니다.  
+9. **저장** 단추를 선택합니다.  
   
      동시성 오류가 발생 하 고 메시지 상자가 나타납니다.  
   

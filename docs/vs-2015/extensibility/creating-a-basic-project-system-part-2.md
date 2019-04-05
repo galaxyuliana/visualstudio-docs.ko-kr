@@ -1,14 +1,9 @@
 ---
 title: 기본 프로젝트 시스템 만들기, 2 부 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - writing a project system
 - project system
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 98cdcf426f2aeeb794e9e33754108c792f9725e5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: f1d02b8701f5740de8a747406fc18da3e9f8e6cc
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51753975"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970955"
 ---
 # <a name="creating-a-basic-project-system-part-2"></a>기본 프로젝트 시스템 만들기, 2부
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -191,9 +186,9 @@ ZipProjects:
   
 1. Visual Studio SDK 실험적 인스턴스 다시 설정 합니다.  
   
-    [!INCLUDE[win7](../includes/win7-md.md)]: 시작 메뉴에서 찾을 합니다 **Microsoft Visual Studio/Microsoft Visual Studio SDK/Tools** 폴더를 선택한 후 **Microsoft Visual Studio 실험적 인스턴스 다시 설정**합니다.  
+    [!INCLUDE[win7](../includes/win7-md.md)]: 시작 메뉴에서 찾을 합니다 **Microsoft Visual Studio/Microsoft Visual Studio SDK/Tools** 폴더를 선택한 후 **Microsoft Visual Studio 실험적 인스턴스 재설정**합니다.  
   
-    Windows의 이후 버전: 시작 화면에서를 입력 **Microsoft Visual Studio를 다시 설정 \<버전 > 실험적 인스턴스**합니다.  
+    Windows의 이후 버전: 시작 화면에서 입력 **Microsoft Visual Studio를 다시 설정 \<버전 > 실험적 인스턴스**합니다.  
   
 2. 명령 프롬프트 창이 나타납니다. 단어가 표시 되 면 `Press any key to continue`, enter 키를 클릭 합니다. 창을 닫은 후에 Visual Studio를 엽니다.  
   
@@ -286,7 +281,7 @@ ZipProjects:
   
 - $safeprojectname $는 사용자가 제공한 이름 합니다 **새 프로젝트** 대화 상자에서 모든 안전 하지 않은 문자 및 공백을 제거 하도록 수정 합니다.  
   
-  템플릿 매개 변수의 전체 목록은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.  사용자 고유의 사용자 지정 템플릿 매개 변수를 만들려는 경우 참조 [NIB: 방법: 사용자 지정 매개 변수를 템플릿에 전달](http://msdn.microsoft.com/en-us/5bc2ad11-84c7-4683-a276-e5e00d85d8fb)합니다.  
+  템플릿 매개 변수의 전체 목록은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.  사용자 고유의 사용자 지정 템플릿 매개 변수를 만들려는 경우 참조 [NIB: 방법: 템플릿 사용자 지정 매개 변수를 전달할](http://msdn.microsoft.com/5bc2ad11-84c7-4683-a276-e5e00d85d8fb)합니다.  
   
 #### <a name="to-substitute-project-template-parameters"></a>프로젝트 템플릿 매개 변수를 대체 합니다.  
   
@@ -357,7 +352,7 @@ ZipProjects:
   
 -   OutputType  
   
--   RootNamespace 합니다.  
+-   RootNamespace.  
   
 1. 추가 SimpleProjectPackage.cs 파일인 `ProvideObject` 특성을 `SimpleProjectPackage` 클래스:  
   
@@ -500,4 +495,3 @@ ZipProjects:
 8. Visual Studio의 실험적 인스턴스를 닫습니다.  
   
    ![](../extensibility/media/simpproj2-proppage2.png "SimpProj2_PropPage2")
-

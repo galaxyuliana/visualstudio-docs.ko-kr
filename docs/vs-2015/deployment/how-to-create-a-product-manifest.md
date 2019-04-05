@@ -1,14 +1,9 @@
 ---
 title: '방법: 제품 매니페스트 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -23,20 +18,20 @@ ms.assetid: 2d316aaa-8bc0-4ce5-90ab-23b3eac0b5dd
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: fc5662763e7932cc024169969801c9c321343e32
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 948cbe88f39b0a39fc23ff8307c3e3484fb9438c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49270090"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984418"
 ---
 # <a name="how-to-create-a-product-manifest"></a>방법: 제품 매니페스트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 응용 프로그램에 대 한 필수 구성 요소를 배포 하려면 부트스트래퍼 패키지를 만들 수 있습니다. 부트스트래퍼 패키지는 각 로캘에 대해 없지만 패키지 매니페스트를 단일 제품 매니페스트 파일을 포함합니다. 패키지 매니페스트 지역화 관련 부분은 패키지를 포함합니다. 문자열, 최종 사용자 사용권 계약 및 언어 팩이 포함 됩니다.  
   
- 제품 매니페스트 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: Create a Package Manifest](../deployment/how-to-create-a-package-manifest.md)합니다.  
+ 제품 매니페스트 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 패키지 매니페스트 만들기](../deployment/how-to-create-a-package-manifest.md)합니다.  
   
 ## <a name="creating-the-product-manifest"></a>제품 매니페스트 만들기  
   
@@ -168,6 +163,3 @@ ms.locfileid: "49270090"
   
 ## <a name="see-also"></a>참고 항목  
  [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)
-
-
-

@@ -1,25 +1,20 @@
 ---
 title: XML 스키마 디자이너 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: f413f208-696f-446a-bb78-7fc55cf96d6c
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: e69fdb617fc5ce6fd91bd89422561ab6a1c65d61
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 87ac827dff2920924bee3a2730fee0ae44f411fa
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49233274"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981268"
 ---
 # <a name="xml-schema-designer-tasks"></a>XML 스키마 디자이너 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "49233274"
  [방법: 작업 영역에 스키마 집합 검색 결과 노드 추가](../xml-tools/how-to-add-schema-set-search-result-nodes-to-the-workspace.md)  
  작업 영역에서 키워드 검색을 수행한 결과로 XML 스키마 탐색기에서 강조 표시되는 노드를 추가하는 방법에 대해 설명합니다.  
   
- [방법: 뷰와 XML 편집기 간 전환](../xml-tools/how-to-switch-between-views-and-the-xml-editor.md)  
+ [방법: 보기와 XML 편집기 간 전환](../xml-tools/how-to-switch-between-views-and-the-xml-editor.md)  
  XML 스키마 디자이너 뷰와 XML 편집기 간에 전환하는 방법을 보여 줍니다.  
   
  [방법: XML 스키마 탐색기에서 작업 영역에 노드 추가](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)  
@@ -63,6 +58,3 @@ ms.locfileid: "49233274"
   
 ## <a name="see-also"></a>참고 항목  
  [XML 스키마 디자이너](../xml-tools/xml-schema-designer.md)
-
-
-

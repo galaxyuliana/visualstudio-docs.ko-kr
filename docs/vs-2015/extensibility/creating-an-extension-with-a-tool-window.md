@@ -1,24 +1,19 @@
 ---
 title: Creating an Extension with 도구 창 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: 585b0a3a-f85b-4f92-81bb-9ca499bb8a89
 caps.latest.revision: 6
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 79ba397bf2dee5ae18b727830af87ae57415d885
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f07cb45d6b77fc554475558fddba34792c0d8a55
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51738342"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982262"
 ---
 # <a name="creating-an-extension-with-a-tool-window"></a>도구 창으로 확장 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ ms.locfileid: "51738342"
      에 대 한 메뉴 항목 표시 **FirstWindow**합니다. 클릭 합니다.  
   
      제목의 도구 창 표시 **FirstWindow** 한 단추 **Click Me!.**
-

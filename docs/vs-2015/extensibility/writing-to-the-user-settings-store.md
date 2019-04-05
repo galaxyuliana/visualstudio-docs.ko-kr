@@ -1,24 +1,19 @@
 ---
 title: 사용자 설정 저장소에 쓰기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
 caps.latest.revision: 4
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 70522d8a291cad559a042dab7f4eeb3c3c4684ac
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 14438e23e73e6c69ecfe94ee7ada379b0d2fad15
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51779725"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983582"
 ---
 # <a name="writing-to-the-user-settings-store"></a>사용자 설정 저장소에 쓰기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +26,7 @@ ms.locfileid: "51779725"
   
 2.  Regedit.exe를 엽니다.  
   
-3.  HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External 도구 이동할\\합니다.  
+3.  Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\\.  
   
     > [!NOTE]
     >  \14.0Exp\ 및 없습니다 \14.0 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 사용자 설정과 레지스트리 하이브에 "14.0Exp" 됩니다.  
@@ -135,4 +130,3 @@ ms.locfileid: "51779725"
 8.  에 **도구** 메뉴에서 클릭 **UserSettingsStoreCommand 호출**합니다. 메모장을 추가 합니다 **도구** 메뉴.  
   
 9. 도구에서 메모장을 표시 해야 하는 이제 / 옵션 메뉴를 클릭 하 **메모장** 메모장의 인스턴스를 준비 해야 합니다.
-

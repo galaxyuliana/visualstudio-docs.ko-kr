@@ -1,34 +1,29 @@
 ---
 title: 전용 갤러리 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - VSIX galleries, private
 - private galleries, VSIX
 ms.assetid: b6b3dee7-91c5-4556-9f69-0d56b675e83b
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 910764df2f6a6e3069136bce64b77f267e473b9d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 677047dbe66577548b10fc2b5c6a7eaeedbfaa67
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51749953"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972088"
 ---
 # <a name="private-galleries"></a>Private Galleries
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 컨트롤, 템플릿 및 게시 하도록 하 여 개발 하는 도구를 공유할 수 있습니다는 *전용 갤러리* 다음과 같은 조직에 대 한 인트라넷에서:  
   
--   Atom (RSS) 피드를 인트라넷에 적절 하 게 구성 된 중앙 위치 (리포지토리)를 만듭니다. 자세한 내용은 [방법: 전용 갤러리에 대 한 Atom 피드 만들기](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md)합니다.  
+-   Atom (RSS) 피드를 인트라넷에 적절 하 게 구성 된 중앙 위치 (리포지토리)를 만듭니다. 자세한 내용은 [방법: Atom를 만드는 개인 갤러리에 대 한 피드](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md)합니다.  
   
 -   전용 갤러리를 설명 하는.pkgdef 파일을 배포 합니다. 전용 갤러리를 동시에 여러 컴퓨터에 연결 하려는 관리자에 대 한이 구성을 사용 하는 것이 좋습니다.  
   
@@ -68,7 +63,7 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
 ```  
   
- 자세한 내용은 [방법:는 개인 갤러리에서 사용 하 여 레지스트리 설정을 관리](../extensibility/how-to-manage-a-private-gallery-by-using-registry-settings.md)합니다.  
+ 자세한 내용은 [방법: 레지스트리 설정을 사용 하 여 개인 갤러리 관리](../extensibility/how-to-manage-a-private-gallery-by-using-registry-settings.md)합니다.  
   
 ## <a name="installing-extensions-from-a-private-gallery"></a>전용 갤러리에서 확장 설치  
  검색 하 고 개인 갤러리에서 Visual Studio 확장을 설치할 수 있습니다 **확장 및 업데이트**합니다. 명명 된 전용 갤러리를 사용 하 여 다음 단계를 `My Gallery`입니다.  
@@ -99,4 +94,3 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 확장명 찾기 및 사용](../ide/finding-and-using-visual-studio-extensions.md)   
  [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)
-

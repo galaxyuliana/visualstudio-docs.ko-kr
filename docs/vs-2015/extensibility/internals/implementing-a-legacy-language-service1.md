@@ -1,26 +1,21 @@
 ---
 title: 레거시 언어 Service1 구현 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - language services, managed
 ms.assetid: df638f24-166d-4b80-be82-c9c39ca7a556
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e5c2a258eb573f0f7d685cdb5a1159df29761944
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b28db87dafc5ce6f247e49c8a0b765a29faa938c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51765020"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983425"
 ---
 # <a name="implementing-a-legacy-language-service"></a>레거시 언어 서비스 구현
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,9 +43,8 @@ ms.locfileid: "51765020"
  [연습: 레거시 언어 서비스 만들기](../../extensibility/internals/walkthrough-creating-a-legacy-language-service.md)  
  Vspackage에서는 MPF 언어 서비스를 구현 하는 데 필요한 기본 단계를 제공 합니다.  
   
- [연습: 설치된 코드 조각 목록 가져오기(레거시 구현)](../../extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md)  
+ [연습: 설치 된 코드 조각 (레거시 구현) 목록 가져오기](../../extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md)  
  설치 된 코드 조각의 목록을 검색 하는 기술을 보여 줍니다.  
   
  [레거시 언어 서비스 기능](../../extensibility/internals/legacy-language-service-features1.md)  
  MPF를 사용 하 여 언어 서비스의 모든 기능을 구현 하려면 수행 해야 하는 정보 항목에 대 한 링크를 제공 합니다.
-

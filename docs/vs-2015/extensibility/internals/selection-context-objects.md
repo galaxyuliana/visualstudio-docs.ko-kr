@@ -1,27 +1,22 @@
 ---
 title: 선택 컨텍스트 개체 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - selection, tracking
 - selection, context objects
 ms.assetid: 7308ea8f-a42c-47e5-954e-7dee933dce7a
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: beaf1b9c67cdad3237d1ac48b4a8e464b0a203a7
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 3824edb97306dd7730c8d57b955afeab6df816a1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51769407"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985189"
 ---
 # <a name="selection-context-objects"></a>선택 컨텍스트 개체
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ ms.locfileid: "51769407"
  [Visual Studio에서 계층 구조](../../extensibility/internals/hierarchies-in-visual-studio.md)   
  [IDE의 선택 및 통화](../../extensibility/internals/selection-and-currency-in-the-ide.md)   
  [프로젝트 형식](../../extensibility/internals/project-types.md)
-

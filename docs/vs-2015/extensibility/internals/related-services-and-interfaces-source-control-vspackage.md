@@ -1,27 +1,22 @@
 ---
 title: 관련된 서비스 및 인터페이스 (소스 제어 VSPackage) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, interfaces
 - interfaces, source control packages
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
 caps.latest.revision: 27
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 8f308c0d8669bc8950578ffc615ebe64b91a4ea7
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5497c74c75c9c5a97672152ab521e1ccf141b540
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51764324"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981289"
 ---
 # <a name="related-services-and-interfaces-source-control-vspackage"></a>관련 서비스 및 인터페이스(소스 제어 VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,7 +34,7 @@ ms.locfileid: "51764324"
   
 -   필수: 적절 한 엔터티 (소스 제어 VSPackage를 원본 제어 스텁 프로젝트) 인터페이스를 구현 해야 합니다.  
   
--   권장: 엔터티이 인터페이스를 구현 해야이; 그렇지 않으면 소스 제어 기능 제한 될 수 있습니다.  
+-   권장: 엔터티는이 인터페이스를 구현 해야 합니다. 그렇지 않으면 소스 제어 기능 제한 될 수 있습니다.  
   
 -   선택 사항: 엔터티가이 인터페이스를 다양 한 기능 집합을 구현할 수 있습니다.  
   
@@ -70,4 +65,3 @@ ms.locfileid: "51764324"
   
 ## <a name="see-also"></a>참고 항목  
  [디자인 요소](../../extensibility/internals/source-control-vspackage-design-elements.md)
-

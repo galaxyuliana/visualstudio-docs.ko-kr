@@ -1,25 +1,22 @@
 ---
 title: 프로그램 코드에서 UML 모델 읽기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML API, reading models
 ms.assetid: 0f63105e-6079-498a-94f1-318c0f5f9621
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 62355c8b934b152aae8d3a4102432d2eb0553473
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8e90b66288d15abdaf85c519bd89deb6262e4363
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51721247"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971366"
 ---
 # <a name="read-a-uml-model-in-program-code"></a>프로그램 코드에서 UML 모델 읽기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +26,7 @@ UML API를 사용하여 UML 모델 및 해당 다이어그램을 로드할 수 �
 ##  <a name="Reading"></a> 프로그램 코드에서 모델 읽기  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창에 표시하지 않고 모델의 콘텐츠에 액세스하려면 `ModelingProject.LoadReadOnly()`를 사용합니다.  
   
- 예:  
+ 예를 들어:  
   
 ```  
 using Microsoft.VisualStudio.Uml.Classes;   
@@ -53,7 +50,7 @@ using (IModelingProjectReader projectReader =
   
  다이어그램에서 모양을 읽으려는 경우 프로젝트를 읽은 후 다이어그램을 읽어야 합니다.  
   
- 예:  
+ 예를 들어:  
   
 ```  
 using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation;   
@@ -110,6 +107,3 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
 ## <a name="see-also"></a>참고 항목  
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)   
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: ClickOnce 및 응용 프로그램 설정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -19,13 +14,13 @@ ms.assetid: 891caba6-faef-4a3c-8f71-60e6fadb60eb
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 29f51960ad953318c8d9de749f28f684128e52ef
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 07be583099627bbff4f67a4c040f4c44ddbc6224
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49176990"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58971932"
 ---
 # <a name="clickonce-and-application-settings"></a>ClickOnce 및 응용 프로그램 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,9 +57,6 @@ Windows Forms에 대 한 응용 프로그램 설정을 쉽게 만들고, 저장 
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)   
- [응용 프로그램 설정 개요](http://msdn.microsoft.com/library/0dd8bca5-a6bf-4ac4-8eec-5725d08b38dc)   
+ [애플리케이션 설정 개요](http://msdn.microsoft.com/library/0dd8bca5-a6bf-4ac4-8eec-5725d08b38dc)   
  [ClickOnce 캐시 개요](../deployment/clickonce-cache-overview.md)   
  [ClickOnce 응용 프로그램의 로컬 및 원격 데이터 액세스](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)
-
-
-

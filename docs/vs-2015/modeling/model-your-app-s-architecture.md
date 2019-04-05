@@ -1,25 +1,22 @@
 ---
 title: 앱 모델&#39;s 아키텍처 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML, modeling architecture
 ms.assetid: aedce746-9df5-49e1-9662-67eb1b83d313
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 770f93c0ede93201ee873820d6701356837f4ea9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 043d6e743df1069e268e63e8ef8acb52555ce659
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51803853"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986091"
 ---
 # <a name="model-your-app39s-architecture"></a>앱 모델&#39;s 아키텍처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -108,7 +105,7 @@ ms.locfileid: "51803853"
   이러한 사항은 이 섹션의 나머지 부분에서 자세히 설명합니다.  
   
 ### <a name="components"></a>구성 요소  
- 아키텍처 모델의 중심이 되는 뷰는 시스템의 주요 파트와 서로 종속되는 방식을 표시하는 구성 요소 다이어그램입니다. 구성 요소 다이어그램에 대 한 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)합니다.  
+ 아키텍처 모델의 중심이 되는 뷰는 시스템의 주요 파트와 서로 종속되는 방식을 표시하는 구성 요소 다이어그램입니다. 구성 요소 다이어그램에 대 한 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)를 참조하세요.  
   
  ![파트를 보여 주는 UML 구성 요소 다이어그램](../modeling/media/uml-barecomponent.png "UML_BareComponent")  
   
@@ -137,7 +134,7 @@ ms.locfileid: "51803853"
   
   구성 요소 간의 종속성을 직접 표시하거나, 구성 요소에 연결된 필요한 인터페이스와 제공된 인터페이스 간의 종속성을 표시할 수 있습니다. 인터페이스를 사용하여 각 종속성에 사용되는 작업을 정의할 수 있습니다. 일반적으로 다이어그램을 처음 그릴 때는 구성 요소 간의 종속성을 표시한 다음 정보가 추가됨에 따라 인터페이스 간의 종속성으로 대체합니다. 두 버전 모두 소프트웨어를 정확하게 설명하지만 인터페이스를 사용한 버전이 이전 버전보다 자세한 정보를 제공합니다.  
   
-  종속성 관리는 유지 관리가 가능한 소프트웨어 생성에서 가장 중요합니다. 구성 요소 다이어그램에 코드의 모든 종속성이 반영되어야 합니다. 코드가 이미 있는 경우 모든 종속성이 다이어그램에 표시되는지 확인합니다. 코드를 개발 중인 경우 구성 요소 다이어그램에서 계획되지 않은 종속성을 포함하지 않는지 확인합니다. 코드의 종속성 검색에 도움이 되도록 레이어 다이어그램을 생성할 수 있습니다. 계획된 종속성 제약 조건이 충족되는지 확인하기 위해 레이어 다이어그램에 대해 코드 유효성을 검사할 수 있습니다. 자세한 내용은 [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)합니다.  
+  종속성 관리는 유지 관리가 가능한 소프트웨어 생성에서 가장 중요합니다. 구성 요소 다이어그램에 코드의 모든 종속성이 반영되어야 합니다. 코드가 이미 있는 경우 모든 종속성이 다이어그램에 표시되는지 확인합니다. 코드를 개발 중인 경우 구성 요소 다이어그램에서 계획되지 않은 종속성을 포함하지 않는지 확인합니다. 코드의 종속성 검색에 도움이 되도록 레이어 다이어그램을 생성할 수 있습니다. 계획된 종속성 제약 조건이 충족되는지 확인하기 위해 레이어 다이어그램에 대해 코드 유효성을 검사할 수 있습니다. 자세한 내용은 참조 하세요. [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)를 참조하세요.  
   
 ### <a name="interfaces"></a>인터페이스  
  구성 요소에 인터페이스를 배치하여 각 구성 요소가 제공하는 주요 작업 그룹을 구분하고 이름을 지정할 수 있습니다. 예를 들어 웹 기반 판매 시스템의 구성 요소에는 고객이 상품을 구매하는 인터페이스, 공급자가 해당 카탈로그를 업데이트하는 인터페이스 및 시스템을 관리하는 세 번째 인터페이스가 있을 수 있습니다.  
@@ -161,7 +158,7 @@ ms.locfileid: "51803853"
 ### <a name="decomposing-a-component-into-parts"></a>구성 요소를 파트로 분해  
  이전 섹션에서 설명한 절차를 각 구성 요소에 적용할 수 있습니다.  
   
- 각 구성 요소 내에서 하위 구성 요소를 파트로 표시할 수 있습니다. 파트는 실제로 부모 구성 요소의 특성이며, 클래스의 한 종류입니다. 각 파트에 자체 형식이 있으며, 구성 요소일 수 있습니다. 다이어그램에 이 구성 요소를 배치하고 해당 파트를 표시할 수 있습니다. 자세한 내용은 [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다.  
+ 각 구성 요소 내에서 하위 구성 요소를 파트로 표시할 수 있습니다. 파트는 실제로 부모 구성 요소의 특성이며, 클래스의 한 종류입니다. 각 파트에 자체 형식이 있으며, 구성 요소일 수 있습니다. 다이어그램에 이 구성 요소를 배치하고 해당 파트를 표시할 수 있습니다. 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다.  
   
  전체 시스템에 이 기술을 적용하는 것이 유용합니다. 단일 구성 요소로 그린 후 주요 구성 요소를 파트로 표시합니다. 이렇게 하면 외부 세계와 시스템의 인터페이스를 명확하게 식별할 수 있습니다.  
   
@@ -199,7 +196,7 @@ ms.locfileid: "51803853"
 ### <a name="identifying-the-initiating-events"></a>시작 이벤트 식별  
  대부분의 소프트웨어 시스템이 수행하는 작업을 다양한 입력 또는 이벤트에 제공하는 응답으로 편리하게 나눌 수 있습니다. 시작 이벤트에는 다음 이벤트 중 하나일 수 있습니다.  
   
--   사용 사례의 첫 번째 작업. 요구 사항 모델에서 사용 사례의 단계 또는 동작 다이어그램의 작업으로 나타날 수 있습니다. 자세한 내용은 [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md) 하 고 [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
+-   사용 사례의 첫 번째 작업. 요구 사항 모델에서 사용 사례의 단계 또는 동작 다이어그램의 작업으로 나타날 수 있습니다. 자세한 내용은 [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md) 고 [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
   
 -   프로그래밍 방식 인터페이스의 메시지. 개발 중인 시스템이 레이어 시스템의 구성 요소인 경우 구성 요소 인터페이스 중 하나의 작업으로 설명해야 합니다. 참조 [구성 요소 및 해당 인터페이스](#Components)합니다.  
   
@@ -210,9 +207,9 @@ ms.locfileid: "51803853"
   
  일반적인 시퀀스에 참여하는 각 구성 요소 인스턴스에 대한 수명선을 그립니다. 경우에 따라 각 형식의 인스턴스가 두 개 이상 있을 수도 있습니다. 단일 구성 요소로 전체 시스템을 설명한 경우 포함하는 각 파트에 대해 하나의 수명선이 있어야 합니다.  
   
- 자세한 내용은 [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.  
+ 자세한 내용은 참조 하세요. [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.  
   
- 동작 다이어그램이 유용한 경우도 있습니다. 예를 들어 구성 요소에 연속 데이터 흐름이 있는 경우 개체 흐름으로 설명할 수 있습니다. 구성 요소에 복잡한 알고리즘이 있는 경우 제어 흐름으로 설명할 수 있습니다. 주석 등을 사용하여 각 작업을 수행하는 구성 요소를 명확히 해야 합니다. 자세한 내용은 [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
+ 동작 다이어그램이 유용한 경우도 있습니다. 예를 들어 구성 요소에 연속 데이터 흐름이 있는 경우 개체 흐름으로 설명할 수 있습니다. 구성 요소에 복잡한 알고리즘이 있는 경우 제어 흐름으로 설명할 수 있습니다. 주석 등을 사용하여 각 작업을 수행하는 구성 요소를 명확히 해야 합니다. 자세한 내용은 참조 하세요. [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
   
 ### <a name="specify-the-operations"></a>작업 지정  
  다이어그램은 각 구성 요소가 수행하는 작업을 표시합니다. 작업은 시퀀스 다이어그램에서 메시지로 표현되거나 동작 다이어그램에서 작업으로 표현됩니다.  
@@ -247,7 +244,7 @@ ms.locfileid: "51803853"
   
 -   주요 파트 및 해당 관계의 모델. 둘 간에 연결 및 종속성이 있는 클래스 또는 구성 요소와 인터페이스가 있을 수 있습니다. 요소는 일반적으로 다음 두 가지 범주로 나뉩니다.  
   
-    -   개발자가 패턴이 사용되는 코드의 모든 부분에 복제해야 하는 요소. 템플릿 형식을 사용하여 이러한 요소를 설명할 수 있습니다. 자세한 내용은 [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)합니다.  
+    -   개발자가 패턴이 사용되는 코드의 모든 부분에 복제해야 하는 요소. 템플릿 형식을 사용하여 이러한 요소를 설명할 수 있습니다. 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)를 참조하세요.  
   
     -   개발자가 사용해야 하는 프레임워크 클래스를 설명하는 요소  
   
@@ -265,6 +262,3 @@ ms.locfileid: "51803853"
  [사용자 요구 사항 모델링](../modeling/model-user-requirements.md)   
  [모델에서 테스트 개발](../modeling/develop-tests-from-a-model.md)   
  [개발 프로세스에서 모델 사용](../modeling/use-models-in-your-development-process.md)
-
-
-
