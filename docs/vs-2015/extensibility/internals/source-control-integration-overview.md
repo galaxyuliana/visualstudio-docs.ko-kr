@@ -1,26 +1,21 @@
 ---
 title: 원본 제어 통합 개요 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], about source control
 ms.assetid: 3a46e4eb-e677-49c3-8647-d927d035a19a
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 2c4961f7c67fe8d135b97cbcb137d32b2de44214
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 808d7538e8b30e346464cdbeff3b80ae4d387612
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51761524"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985204"
 ---
 # <a name="source-control-integration-overview"></a>소스 제어 통합 개요
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,7 +34,7 @@ ms.locfileid: "51761524"
   
 1. 에 지정 된 함수를 구현 하는 DLL을 만드는 [소스 제어 플러그 인](../../extensibility/source-control-plug-ins.md)합니다.  
   
-2. 적절 한 레지스트리 항목을 만들어 DLL을 등록 (에 설명 된 [방법: 소스 제어 플러그 인을 설치](../../extensibility/internals/how-to-install-a-source-control-plug-in.md)).  
+2. 적절 한 레지스트리 항목을 만들어 DLL을 등록 (에 설명 된 [방법: 소스 제어 플러그 인 설치](../../extensibility/internals/how-to-install-a-source-control-plug-in.md)).  
   
 3. UI 및 표시 (Visual Studio 구성 요소 소스 제어 플러그 인을 통해 소스 제어 기능을 처리 하는) 소스 제어 어댑터 패키지에서 메시지가 표시 되 면 도우미 만들기  
   
@@ -85,4 +80,3 @@ ms.locfileid: "51761524"
  [소스 제어 플러그 인 만들기](../../extensibility/internals/creating-a-source-control-plug-in.md)   
  [소스 제어 VSPackage 만들기](../../extensibility/internals/creating-a-source-control-vspackage.md)   
  [소스 제어의 새로운 기능](../../extensibility/internals/what-s-new-in-source-control.md)
-

@@ -1,23 +1,20 @@
 ---
 title: T4 매개 변수 지시문 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 1d590387-1d9d-40a5-a72c-65fae7a8bdf3
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 87e493667af1626cd97e575ddb614e7fd12c21d3
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: c7971dc3402a344a5318fd8415404e7a45ae8485
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49294556"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986326"
 ---
 # <a name="t4-parameter-directive"></a>T4 매개 변수 지시문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,6 +107,3 @@ string resultText = t.TransformText();
   
 > [!IMPORTANT]
 >  합니다 `parameter` 지시문에 설정 된 값을 검색 하지 않습니다는 `–a` 의 매개 변수는 `TextTransform.exe` 유틸리티입니다. 이러한 값을 얻으려면 설정 `hostSpecific="true"` 에 `template` 지시문을 사용 하 여 `this.Host.ResolveParameterValue("","","argName")`입니다.
-
-
-

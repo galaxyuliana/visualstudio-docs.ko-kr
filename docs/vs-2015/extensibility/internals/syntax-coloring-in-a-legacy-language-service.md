@@ -1,27 +1,22 @@
 ---
 title: 레거시 언어 서비스의 구문 색 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - syntax coloring
 - language services, syntax coloring
 ms.assetid: f65ff67e-8c20-497a-bebf-5e2a5b5b012f
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 99082388534e39d02731e065bf586d6d221c67aa
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b80659e1a61cca27adcc92b4b47c7ff0b4e02e0a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51784067"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984941"
 ---
 # <a name="syntax-coloring-in-a-legacy-language-service"></a>레거시 언어 서비스의 구문 색 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -81,4 +76,3 @@ ms.locfileid: "51784067"
   
 ## <a name="see-also"></a>참고 항목  
  [글꼴 및 색 사용](../../extensibility/using-fonts-and-colors.md)
-

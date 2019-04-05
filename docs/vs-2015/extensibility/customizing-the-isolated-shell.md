@@ -1,26 +1,21 @@
 ---
 title: 격리 셸 사용자 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio shell, isolated mode
 ms.assetid: e0b7c3ae-210f-4f48-ac49-6a59e6034f5f
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 097186ba43202c537bf8acbe0b47893151055c19
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 724d4d0c4b392a362e702f33ea996df3a6fc0ad6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51733779"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984175"
 ---
 # <a name="customizing-the-isolated-shell"></a>격리 셸 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,12 +26,12 @@ Visual Studio 사용자 인터페이스의 다양 한 측면을 변경 하 고 �
  격리 셸 템플릿 솔루션에 포함 된 *SolutionName*합니다. 다음과 같은 기능을 수정할 수 있는 Application.pkgdef 파일:  
   
 ##### <a name="the-application-title"></a>응용 프로그램 제목  
- 이름에 "AppName" 행의 값을 변경 하 여 응용 프로그램의 제목 표시줄에 표시 되는 응용 프로그램 제목 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램을 만드는](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)합니다.  
+ 이름에 "AppName" 행의 값을 변경 하 여 응용 프로그램의 제목 표시줄에 표시 되는 응용 프로그램 제목 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
   
  응용 프로그램 제목을 현재 로드 된 프로젝트를 표시 하지 않으려면 "ShowHierarchyRootInTitle" 행의 값을 변경 합니다 *SolutionName*합니다. dword:00000001 파일 dword:00000000은 Application.pkgdef입니다.  
   
 ##### <a name="the-application-icon"></a>응용 프로그램 아이콘  
- 응용 프로그램 제목 표시줄에 응용 프로그램 이름으로 표시 되는 아이콘으로 표시 하는 응용 프로그램 아이콘을 사용자 지정할 수 있습니다. 다른 아이콘 아이콘 디렉터리로 복사 합니다. **솔루션 탐색기**, 리소스 파일 폴더 아이콘을 추가 합니다. VSShellStub.rc 파일을 열고 IDI_STUBPROGRAM 변수의 새 아이콘의 이름으로 바꿉니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램을 만드는](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)합니다.  
+ 응용 프로그램 제목 표시줄에 응용 프로그램 이름으로 표시 되는 아이콘으로 표시 하는 응용 프로그램 아이콘을 사용자 지정할 수 있습니다. 다른 아이콘 아이콘 디렉터리로 복사 합니다. **솔루션 탐색기**, 리소스 파일 폴더 아이콘을 추가 합니다. VSShellStub.rc 파일을 열고 IDI_STUBPROGRAM 변수의 새 아이콘의 이름으로 바꿉니다. 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
   
 ##### <a name="the-command-line-logo"></a>명령줄 로고  
  응용 프로그램에서 "CommandLineLogo" 행의 값을 변경 하 여 명령줄에서 시작 될 때 나타나는 텍스트는 명령줄 로고를 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)  
@@ -123,14 +118,13 @@ DisableStartPage=dword:00000000
 [$RootKey$\Projects\{A2FE74E1-B743-11d0-AE1A-00A0C90FFFC3}\AddItemTemplates\TemplateDirs\{39c9c826-8ef8-4079-8c95-428f5b1c323f}]  
 ```  
   
- 기타 파일 프로젝트에 표시 되는 프로젝트 템플릿 집합에서 제거 합니다 **새 프로젝트** 대화 합니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램을 만드는](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)합니다.  
+ 기타 파일 프로젝트에 표시 되는 프로젝트 템플릿 집합에서 제거 합니다 **새 프로젝트** 대화 합니다. 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
   
 ##### <a name="enabledisable-menu-commands"></a>설정/해제 메뉴 명령  
- 합니다 *SolutionName*UI.vsct 파일에 isolated shell을 사용할 수 있는 모든 메뉴 명령의 주석 목록이 포함 됩니다. 지정된 된 명령을 사용 하지 않으려면 해당 행을 주석 처리 제거 합니다. 예를 들어 창/분할 주석을 사용 하지 않도록 설정, 주석 처리를 제거 합니다 `<Define name="No_SplitCommand"/>` 행입니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램을 만드는](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)합니다.  
+ 합니다 *SolutionName*UI.vsct 파일에 isolated shell을 사용할 수 있는 모든 메뉴 명령의 주석 목록이 포함 됩니다. 지정된 된 명령을 사용 하지 않으려면 해당 행을 주석 처리 제거 합니다. 예를 들어 창/분할 주석을 사용 하지 않도록 설정, 주석 처리를 제거 합니다 `<Define name="No_SplitCommand"/>` 행입니다. 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
   
 ##### <a name="the-bitmap-used-on-the-splash-screen"></a>시작 화면에 사용 되는 비트맵  
- 시작 화면에는 "SplashScreenBitmap" 행의 값을 변경 하 여 응용 프로그램이 시작 될 때 표시 되는 창에서 사용 되는 비트맵을 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램을 만드는](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)합니다.  
+ 시작 화면에는 "SplashScreenBitmap" 행의 값을 변경 하 여 응용 프로그램이 시작 될 때 표시 되는 창에서 사용 되는 비트맵을 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
   
 ##### <a name="the-helpabout-window"></a>도움말/창 정보  
- 격리 셸 템플릿에서 도움말을 사용자 지정 하 여 별도 프로젝트/응용 프로그램에 대 한 상자에 대 한 합니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램을 만드는](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)합니다.
-
+ 격리 셸 템플릿에서 도움말을 사용자 지정 하 여 별도 프로젝트/응용 프로그램에 대 한 상자에 대 한 합니다. 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.

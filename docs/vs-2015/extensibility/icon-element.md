@@ -1,27 +1,22 @@
 ---
 title: Icon 요소 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Icon
 - Icon element (VSCT XML schema)
 ms.assetid: 73c58fe3-d53c-4f4e-b025-29567c6cbb7c
 caps.latest.revision: 6
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: d7c82d55425ccc732ddc5255642d889816810352
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: ca5ced87596b5e40ae70e3faa06e58493da3d8ab
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51731515"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985836"
 ---
 # <a name="icon-element"></a>Icon 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,8 +36,8 @@ ms.locfileid: "51731515"
   
 |특성|설명|  
 |---------------|-----------------|  
-|guid|필수. 정의 된 비트맵의 guid입니다.|  
-|ID|필수. 비트맵 스트립에 슬롯을 선택합니다.|  
+|guid|필수 요소. 정의 된 비트맵의 guid입니다.|  
+|ID|필수 요소. 비트맵 스트립에 슬롯을 선택합니다.|  
   
 ### <a name="child-elements"></a>자식 요소  
   
@@ -58,4 +53,3 @@ ms.locfileid: "51731515"
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 명령 테이블(.Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

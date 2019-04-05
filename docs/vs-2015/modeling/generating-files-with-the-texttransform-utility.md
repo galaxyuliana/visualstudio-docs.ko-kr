@@ -1,12 +1,9 @@
 ---
 title: TextTransform 유틸리티를 사용 하 여 파일 생성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, TextTransform utility
 - TextTransform.exe
@@ -14,13 +11,13 @@ ms.assetid: 06a48235-fe02-403e-a1cf-2ae70b4db62f
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: e7dbe189c9b46c10dc7bac5da4b87457d7c6ecbf
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 75438b5a2ffa5917f667ab3fdc3a9bd3528f0e55
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49227450"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986228"
 ---
 # <a name="generating-files-with-the-texttransform-utility"></a>TextTransform 유틸리티 사용하여 파일 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +51,7 @@ TextTransform [<options>] <templateName>
 |**-I** \<includedirectory>|지정 된 텍스트 템플릿에 포함 된 텍스트 템플릿을 포함 하는 디렉터리입니다.|  
 |**-P** \<referencepath>|또는 사용 하 여 텍스트 템플릿 내에서 지정 된 어셈블리에 대 한 검색할 디렉터리를 **-r** 옵션입니다.<br /><br /> 예를 들어, Visual Studio API를 사용 하는 어셈블리를 포함 하려면 사용<br /><br /> `-P "%VSSHELLFOLDER%\Common7\IDE\PublicAssemblies"`|  
 |**-dp** \<processorName>!\<className>!\<assemblyName&#124;codeBase>|이름, 전체 형식 이름 및 텍스트 템플릿 내에서 사용자 지정 지시문을 처리 하는 데 사용할 수 있는 지시문 프로세서의 어셈블리입니다.|  
-|**-a** [processorName]![directiveName]!\<parameterName>!\<parameterValue>|지시문 프로세서에 대 한 매개 변수 값을 지정 합니다. 매개 변수 이름 및 값을 지정 하면 매개 변수가 모든 지시문 프로세서에 제공 됩니다. 지시문 프로세서를 지정 하는 매개 변수는 지정 된 프로세서 에서만 사용할 수 있습니다. 지시문 이름을 지정 하는 경우 지정된 된 지시문을 처리 되는 경우에 매개 변수는 사용할 수 있습니다.<br /><br />  텍스트 템플릿을 포함 `hostspecific` 템플릿 지시문에서에서 메시지를 호출 하 고 `this.Host`입니다. 예를 들어:<br /><br /> `<#@template language="c#" hostspecific="true"#> [<#= this.Host.ResolveParameterValue("", "", "parameterName") #>]`.<br /><br /> 항상 입력의 '!' 옵션 프로세서와 지시문 이름이 생략 한 경우에 표시 합니다. 예를 들어:<br /><br /> `-a !!param!value`|  
+|**-a** [processorName]![directiveName]!\<parameterName>!\<parameterValue>|지시문 프로세서에 대 한 매개 변수 값을 지정 합니다. 매개 변수 이름 및 값을 지정 하면 매개 변수가 모든 지시문 프로세서에 제공 됩니다. 지시문 프로세서를 지정 하는 매개 변수는 지정 된 프로세서 에서만 사용할 수 있습니다. 지시문 이름을 지정 하는 경우 지정된 된 지시문을 처리 되는 경우에 매개 변수는 사용할 수 있습니다.<br /><br />  텍스트 템플릿을 포함 `hostspecific` 템플릿 지시문에서에서 메시지를 호출 하 고 `this.Host`입니다. 예를 들어 다음과 같습니다.<br /><br /> `<#@template language="c#" hostspecific="true"#> [<#= this.Host.ResolveParameterValue("", "", "parameterName") #>]`.<br /><br /> 항상 입력의 '!' 옵션 프로세서와 지시문 이름이 생략 한 경우에 표시 합니다. 예를 들어 다음과 같습니다.<br /><br /> `-a !!param!value`|  
 |**-h**|도움말을 제공 합니다.|  
   
 ## <a name="related-topics"></a>관련 항목  
@@ -64,6 +61,3 @@ TextTransform [<options>] <templateName>
 |[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션에서 파일을 생성합니다.|[T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|  
 |고유한 데이터 소스를 변형하는 지시문 프로세서를 작성합니다.|[T4 텍스트 변환 사용자 지정](../modeling/customizing-t4-text-transformation.md)|  
 |텍스트 템플릿을 사용자 고유의 응용 프로그램에서 호출할 수 있는 텍스트 템플릿 호스트를 작성 합니다.|[사용자 지정 호스트를 사용하여 텍스트 템플릿 처리](../modeling/processing-text-templates-by-using-a-custom-host.md)|
-
-
-

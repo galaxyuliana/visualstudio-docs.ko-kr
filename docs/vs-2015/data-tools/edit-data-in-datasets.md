@@ -1,12 +1,9 @@
 ---
 title: 데이터 집합의 데이터 편집 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -19,13 +16,13 @@ ms.assetid: 50d5c580-fbf7-408f-be70-e63ac4f4d0eb
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 5a983b671b5c6b43009ad3cc32c2cb287977f05c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 41467515e172b34fe96200020189a02a6a4fc8a2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49949294"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985031"
 ---
 # <a name="edit-data-in-datasets"></a>데이터 세트의 데이터 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,9 +78,9 @@ ms.locfileid: "49949294"
   
 - 그와 관련 된 정보를 포함 하는 각 데이터 행 <xref:System.Data.DataRow.RowState%2A> (예를 들어 <xref:System.Data.DataRowState>를 <xref:System.Data.DataRowState>를 <xref:System.Data.DataRowState>, 또는 <xref:System.Data.DataRowState>).  
   
-- 해당 행의 여러 버전을 포함 하는 각 변경 된 데이터 행 (<xref:System.Data.DataRowVersion>), (변경 내용 배포 전), 원래 버전과 (변경) 후 현재 버전입니다. 변경 보류 중인 경우 기간 (에 응답 하는 경우에 <xref:System.Data.DataTable.RowChanging> 이벤트), 세 번째 버전-제안 된 버전-도 사용할 수 있습니다. 자세한 내용은 [방법: DataRow의 특정 버전 가져오기](../data-tools/how-to-get-specific-versions-of-a-datarow.md)합니다.  
+- 해당 행의 여러 버전을 포함 하는 각 변경 된 데이터 행 (<xref:System.Data.DataRowVersion>), (변경 내용 배포 전), 원래 버전과 (변경) 후 현재 버전입니다. 변경 보류 중인 경우 기간 (에 응답 하는 경우에 <xref:System.Data.DataTable.RowChanging> 이벤트), 세 번째 버전-제안 된 버전-도 사용할 수 있습니다.
   
-  합니다 <xref:System.Data.DataSet.HasChanges%2A> 데이터 집합의 반환 `true` 데이터 집합의 변경 된 경우. 에 변경 된 행이 있는지 확인 한 후 호출할 수 있습니다는 `GetChanges` 메서드를 <xref:System.Data.DataSet> 또는 <xref:System.Data.DataTable> 변경 된 행 집합을 반환 합니다. 자세한 내용은 [방법: 변경 행 검색](http://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9)합니다.  
+  합니다 <xref:System.Data.DataSet.HasChanges%2A> 데이터 집합의 반환 `true` 데이터 집합의 변경 된 경우. 에 변경 된 행이 있는지 확인 한 후 호출할 수 있습니다는 `GetChanges` 메서드를 <xref:System.Data.DataSet> 또는 <xref:System.Data.DataTable> 변경 된 행 집합을 반환 합니다. 자세한 내용은 [방법: 변경 된 행을 검색](http://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9)합니다.  
   
 #### <a name="to-determine-if-changes-have-been-made-to-any-rows"></a>모든 행에 변경 사항이 생겼는지 확인 하려면  
   
@@ -115,4 +112,3 @@ ms.locfileid: "49949294"
   
      [!code-csharp[VbRaddataEditing#23](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#23)]
      [!code-vb[VbRaddataEditing#23](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#23)]
-

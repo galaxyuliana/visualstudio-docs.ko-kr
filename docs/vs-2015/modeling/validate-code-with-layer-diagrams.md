@@ -1,12 +1,9 @@
 ---
 title: 레이어 다이어그램을 사용 하 여 코드 유효성 검사 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - layer diagrams, validating
 - validation, layer diagrams
@@ -23,13 +20,13 @@ ms.assetid: 70cbe55d-4b33-4355-b0a7-88c770a6f75c
 caps.latest.revision: 84
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 4d010345c551572bb6458110d2de9ca33fc73155
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 74c61beeae78fbf76ffee76ff930171ddbe8089a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51792166"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985041"
 ---
 # <a name="validate-code-with-layer-diagrams"></a>레이어 다이어그램에 대해 코드 유효성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,7 +78,7 @@ ms.locfileid: "51792166"
 2.  **레이어 탐색기**를 확인 합니다 **유효성 검사 지원** 열입니다. 값이 false일 경우 해당 항목은 유효성 검사를 지원하지 않습니다.  
   
 ##  <a name="IncludeReferences"></a> 다른.NET 어셈블리 및 유효성 검사에 대 한 프로젝트를 포함 합니다.  
- 해당.NET 어셈블리나 프로젝트에 대 한 참조를 자동으로 추가 됩니다 레이어 다이어그램으로 항목을 끌면 합니다 **레이어 참조** 모델링 프로젝트의 폴더입니다. 이 폴더에는 유효성 검사 중 분석되는 프로젝트와 어셈블리에 대한 참조가 포함되어 있습니다. 유효성 검사를 할 다른 .NET 어셈블리와 프로젝트는 수동으로 레이어 다이어그램으로 끌어 놓지 않고도 포함할 수 있습니다.  
+ 해당.NET 어셈블리나 프로젝트에 대 한 참조를 자동으로 추가 됩니다 레이어 다이어그램으로 항목을 끌면 합니다 **레이어 참조** 모델링 프로젝트의 폴더입니다. 이 폴더에는 유효성 검사 중 분석되는 프로젝트와 어셈블리에 대한 참조가 포함되어 있습니다. 유효성을 검사할 다른 .NET 어셈블리와 프로젝트는 수동으로 레이어 다이어그램으로 끌어 놓지 않고도 포함할 수 있습니다.  
   
 1.  **솔루션 탐색기**, 모델링 프로젝트를 마우스 오른쪽 단추로 클릭 또는 **레이어 참조** 폴더를 마우스 클릭 **참조 추가**합니다.  
   
@@ -200,7 +197,7 @@ ms.locfileid: "51792166"
   
    유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다. [!INCLUDE[esprbuild](../includes/esprbuild-md.md)]에 대한 자세한 내용은 다음을 참조하십시오.  
   
--   [응용 프로그램 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+-   [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
 -   [빌드 프로세스에 대 한 기본 템플릿 사용](http://msdn.microsoft.com/library/43930b12-c21b-4599-a980-2995e3d16e31)  
   
@@ -237,17 +234,14 @@ ms.locfileid: "51792166"
   
 |**오류 구문**|**오류 설명**|  
 |----------------------|---------------------------|  
-|AV0001: 잘못 된 종속성: *Artifact1*(*ArtifactType1*)--> *Artifact2*(*ArtifactType2*)<br /><br /> 레이어: *LayerName1*하십시오 *LayerName2* &#124; 종속성: *DependencyType*|*Artifact1* 에 *LayerName1* 대 한 종속성이 없어야 *Artifact2* 에서 *LayerName2* 때문에 *LayerName1* 에 직접적인 종속성이 없는 *LayerName2*합니다.|  
-|AV1001: 잘못 된 Namespace: *아티팩트*<br /><br /> 레이어: *LayerName* &#124; Namespace 필요한: *NamespaceName1* &#124; 현재 Namespace: *NamespaceName2*|*LayerName* 에서는 연결 된 아티팩트가에 속해야 합니다 *NamespaceName1*합니다. *아티팩트* 상태인 *NamespaceName2*가 아닌 *NamespaceName1*합니다.|  
-|AV1002: 사용할 수 없는 Namespace에 따라 달라 집니다. *Artifact1*(*ArtifactType1*) &#124; *Artifact2*(*ArtifactType2*)<br /><br /> 레이어: *LayerName* &#124; Namespace를 사용할 수 없음: *NamespaceName* &#124; 종속성: *DependencyType*|*LayerName* 에 연결 된 아티팩트가 종속 되지 않아야 필요 *NamespaceName*합니다. *Artifact1* 종속 될 수 없습니다 *Artifact2* 때문에 *Artifact2* 상태인 *NamespaceName*합니다.|  
-|AV1003: 사용할 수 없는 Namespace에서에서: *아티팩트*(*ArtifactType*)<br /><br /> 레이어: *LayerName* &#124; Namespace를 사용할 수 없음: *NamespaceName*|*LayerName* 에서는 연결 된 아티팩트가 없습니다에 속해야 *NamespaceName*합니다. *아티팩트* 속한 *NamespaceName*합니다.|  
+|AV0001: 잘못 된 종속성: *Artifact1*(*ArtifactType1*) --> *Artifact2*(*ArtifactType2*)<br /><br /> 계층: *LayerName1*하십시오 *LayerName2* &#124; 종속성: *DependencyType*|*Artifact1* 에 *LayerName1* 대 한 종속성이 없어야 *Artifact2* 에서 *LayerName2* 때문에 *LayerName1* 에 직접적인 종속성이 없는 *LayerName2*합니다.|  
+|AV1001: 잘못 된 Namespace: *아티팩트*<br /><br /> 계층: *LayerName* &#124; Namespace 필요 합니다. *NamespaceName1* &#124; 현재 Namespace: *NamespaceName2*|*LayerName* 에서는 연결 된 아티팩트가에 속해야 합니다 *NamespaceName1*합니다. *아티팩트* 상태인 *NamespaceName2*가 아닌 *NamespaceName1*합니다.|  
+|AV1002: 금지 된 Namespace에 따라 달라 집니다. *Artifact1*(*ArtifactType1*) &#124; *Artifact2*(*ArtifactType2*)<br /><br /> 계층: *LayerName* &#124; Namespace를 사용할 수 없습니다. *NamespaceName* &#124; 종속성: *DependencyType*|*LayerName* 에 연결 된 아티팩트가 종속 되지 않아야 필요 *NamespaceName*합니다. *Artifact1* 종속 될 수 없습니다 *Artifact2* 때문에 *Artifact2* 상태인 *NamespaceName*합니다.|  
+|AV1003: 금지 된 Namespace에: *Artifact*(*ArtifactType*)<br /><br /> 계층: *LayerName* &#124; Namespace를 사용할 수 없습니다. *NamespaceName*|*LayerName* 에서는 연결 된 아티팩트가 없습니다에 속해야 *NamespaceName*합니다. *아티팩트* 속한 *NamespaceName*합니다.|  
 |AV3001: 링크 누락: 계층 '*LayerName*'연결'*아티팩트*' 찾을 수 없습니다. 어셈블리 참조가 있는지 확인하세요.|*LayerName* 찾을 수 없는 아티팩트에 대 한 링크입니다. 예를 들어 모델링 프로젝트에 클래스가 포함된 어셈블리에 대한 참조가 없어서 해당 클래스에 대한 링크가 없을 수 있습니다.|  
-|AV9001: 아키텍처 유효성 검사에서 내부 오류가 발생했습니다. 결과가 불완전할 수 있습니다. 자세한 내용은 상세 빌드 이벤트 로그를 참조하세요.|자세한 내용은 빌드 이벤트 로그 또는 출력 창을 참조하세요.|  
+|AV9001: 아키텍처 분석에 내부 오류가 발생 했습니다. 결과가 불완전할 수 있습니다. 자세한 내용은 상세 빌드 이벤트 로그를 참조하세요.|자세한 내용은 빌드 이벤트 로그 또는 출력 창을 참조하세요.|  
   
 ## <a name="security"></a>보안  
   
 ## <a name="see-also"></a>참고 항목  
  [개발하는 동안 시스템 유효성 검사](../modeling/validate-your-system-during-development.md)
-
-
-

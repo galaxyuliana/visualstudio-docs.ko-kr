@@ -1,22 +1,20 @@
 ---
 title: 형식화 되지 않은 데이터 집합 및 형식화 된 | Microsoft Docs
-ms.custom: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: c83ba0bb-5425-4d47-8891-6b4dbf937701
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 71761826611c490a3fb43413acaa29eb6520138f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 219ba8c35cf67e3675f565b89607e6d518599dfd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49283792"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984755"
 ---
 # <a name="typed-vs-untyped-datasets"></a>형식화된 데이터 세트 및 형식화되지 않은 데이터 세트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,4 +40,3 @@ ms.locfileid: "49283792"
  형식화 된 데이터 집합의 장점은 하는 경우에 형식화 되지 않은 데이터 집합을 다양 한 상황에서에서 유용 합니다. 가장 확실 한 경우 스키마가 없는 경우 데이터 집합을 사용할 수 있습니다. 이 경우 발생할 수 있습니다, 예를 들어, 응용 프로그램은 데이터 집합을 반환 하는 구성 요소와 상호 작용 하지만 알 수 없는 사전에 구조를 합니다. 마찬가지로, 정적, 예측 가능한 구조 없는 데이터로 작업할 때는 경우가 있습니다. 이 경우 하기가 어려운 형식화 된 dataset을 사용 하도록 변경할 때마다 데이터 구조를 사용 하 여 형식화 된 dataset 클래스를 다시 생성 해야 하기 때문에 합니다.  
   
  보다 일반적으로 사용 가능한 스키마 필요 없이 동적으로 데이터 집합을 만들 수 있습니다 하는 경우 많은 경우가 있습니다. 이 경우 데이터 집합 구조가 단순히 편리 하 게 정보를 유지할 수 있습니다으로 관계형 방식으로 데이터를 나타낼 수 있습니다. 이와 동시에 다른 프로세스에 전달할 또는 XML 파일을 작성 하는 정보를 serialize 하는 기능과 같은 데이터 집합의 기능을 활용을 걸릴 수 있습니다.
-

@@ -1,25 +1,20 @@
 ---
 title: '방법: XML 리터럴과 함께 XML 스키마 디자이너 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: d11803e7-f81a-41a2-a145-ba494a45cc93
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 592886a1cfe9d0ffc9c7165729cede3340bc65c8
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 630505b317d5d8671a8214701cd2af13bfa40482
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49218376"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985265"
 ---
 # <a name="how-to-use-the-xml-schema-designer-with-xml-literals"></a>방법: XML 리터럴과 함께 XML 스키마 디자이너 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "49218376"
   
 3.  솔루션 탐색기에서 프로젝트의 이름을 마우스 오른쪽 단추로 선택 **추가**를 선택한 후 **기존 항목...** . 합니다 **기존 항목 추가** 대화 상자가 나타납니다. PurchaseOrderSchema.xsd 파일을 찾아, 선택 및 클릭 **추가**합니다.  
   
-     XMLLiterals 프로젝트에는 이제 두 파일인 Module1.vb와 PurchaseOrderSchema.xsd가 들어 있습니다.  
+     XMLLiterals 프로젝트에는 이제 두 개의 파일이 들어 있습니다. Module1.vb와 PurchaseOrderSchema.xsd 합니다.  
   
 ### <a name="to-add-visual-basic-code-with-an-xml-literal-based-on-the-xsd-file-included-in-the-project"></a>프로젝트에 포함된 XSD 파일을 기반으로 XML 리터럴이 있는 Visual Basic 코드를 추가하려면  
   
@@ -79,6 +74,3 @@ ms.locfileid: "49218376"
 2.  XML 리터럴 또는 XML 네임 스페이스 가져오기에서 XML 노드를 마우스 오른쪽 단추로 누르고 **스키마 탐색기에 표시**합니다.  
   
      XML 스키마 탐색기는 XML 스키마 집합과 연결된 XML 리터럴이 있는 Visual Basic 파일과 나란히 표시됩니다.
-
-
-

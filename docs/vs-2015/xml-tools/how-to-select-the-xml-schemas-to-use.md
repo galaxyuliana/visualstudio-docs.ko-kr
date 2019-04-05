@@ -1,25 +1,20 @@
 ---
-title: '방법: 사용할 XML 스키마 선택 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 사용 하 여 XML 스키마 선택 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 93f573412524619292b1966e87abeda11cc0813a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 385eee679c3a65db360d9ec6c0ab7735ff40128a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49863726"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981677"
 ---
 # <a name="how-to-select-the-xml-schemas-to-use"></a>방법: 사용할 XML 스키마 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +59,7 @@ XML 편집기에서는 %InstallDir%\Xml\Schemas 디렉터리에 있는 스키마
   
 3.  스키마 캐시에 추가할 스키마를 찾아 선택합니다.  
   
-4.  클릭 **열려**합니다.  
+4.  **열기**를 클릭합니다.  
   
      스키마에 추가 하는 스키마를 캐시 하 고는 합니다 **사용 하 여** 열 값으로 설정 됩니다 **이 스키마를 사용 하 여**입니다.  
   
@@ -80,9 +75,6 @@ XML 편집기에서는 %InstallDir%\Xml\Schemas 디렉터리에 있는 스키마
     >  아직 남아 있으면 통해 스키마에 대 한 참조를 `schemaLocation` 특성 또는 일치 하는 `targetNamespace` 한 다음 **제거** 자동 연결으로 인해이 상황에서 작동 하지 것입니다. 이 경우 것이 좋습니다 스키마를 표시 하는 **선택한 스키마를 사용 하지 마십시오** 에 **사용 하 여** 열입니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [스키마 캐시](../xml-tools/schema-cache.md)   
+ [Schema Cache](../xml-tools/schema-cache.md)   
  [XML 스키마 대화 상자](../xml-tools/xml-schemas-dialog-box.md)   
  [XML 편집기](../xml-tools/xml-editor.md)
-
-
-

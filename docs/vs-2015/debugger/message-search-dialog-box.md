@@ -1,27 +1,22 @@
 ---
 title: 메시지 검색 대화 상자 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - message options, Search
 ms.assetid: 44fb43b7-b006-46cc-a70c-036aac3cceec
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: f01a95c87f5be7f628ea06d7100751eab907765c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 6a2950ead23d2f1c6a5d1b4cb4d348a2937db4d2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51740913"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984511"
 ---
 # <a name="message-search-dialog-box"></a>메시지 검색 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,7 +64,3 @@ ms.locfileid: "51740913"
   
  [Spy++ 참조](../debugger/spy-increment-reference.md)  
  각 Spy + + 메뉴 및 대화 상자를 설명 하는 섹션을 포함 합니다.
-
-
-
-

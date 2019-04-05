@@ -1,25 +1,20 @@
 ---
 title: 스키마 캐시 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 071ae9f75ab48a2fbabba7c272ad542f59e9e8be
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 5827debb4f79ef34bbdd059c6beb0003988a721c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49833150"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985400"
 ---
 # <a name="schema-cache"></a>스키마 캐시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ XML 편집기에서는 %InstallRoot%\Xml\Schemas 디렉터리에 있는 스키�
 | DotNetConfig.xsd  |                 Web.Config 파일에 대 한 스키마 "<http://schemas.microsoft.com/.NETConfiguration/v2.0>"입니다.                 |
 |    msbuild.xsd    |              MSBuild 확인 파일에 대 한 스키마 "<http://schemas.microsoft.com/developer/msbuild/2003>"입니다.              |
 |    msdata.xsd     | <xref:System.Data.DataSet> 클래스 "urn:schemas-microsoft-com:xml-msdata"에 의해 추가된 XSD 주석의 스키마입니다. |
-|     msxsl.xsd     |                  Microsoft XSLT 스크립트 블록 확장 urn:schemas-microsoft-com:xslt에 대한 스키마입니다.                   |
+|     msxsl.xsd     |                  Microsoft XSLT 스크립트 블록 확장명 urn:schemas-microsoft-com:xslt에 대한 스키마입니다.                   |
 | SnippetFormat.xsd |                 코드 조각 XML 파일에 대한 스키마입니다. 예를 들어, %InstallDir%\VC#\Expansions를 참조하세요.                 |
 |    Soap1.1.xsd    |            Simple Object Access Protocol (SOAP) 1.1에 대 한 스키마 http://schemas.xmlsoap.org/soap/envelope/합니다.            |
 |    Soap1.2.xsd    |                                     SOAP(Simple Object Access Protocol) 1.2에 대한 스키마입니다.                                     |
@@ -84,7 +79,7 @@ XML 편집기에서는 %InstallRoot%\Xml\Schemas 디렉터리에 있는 스키�
 
 - CommonApplicationData  
 
-- LCID  
+- 인 DWORD 값의 레지스트리에서 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\  
 
   카탈로그 문서에 다른 카탈로그를 가리키는 `Catalog` 요소를 포함할 수 있습니다. `Catalog` 요소를 사용하여 팀이나 회사에서 공유하는 중앙 카탈로그 또는 비즈니스 파트너와 공유하는 온라인 카탈로그를 가리킬 수 있습니다. `href` 특성은 파일 경로이거나 다른 카탈로그에 대한 http URL입니다. 다음은 `Catalog` 요소의 예제입니다.  
 
@@ -136,6 +131,3 @@ XML 편집기에서는 %InstallRoot%\Xml\Schemas 디렉터리에 있는 스키�
 
 ## <a name="see-also"></a>참고 항목  
  [XML 편집기](../xml-tools/xml-editor.md)
-
-
-

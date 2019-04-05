@@ -1,25 +1,22 @@
 ---
 title: 모델에서 테스트 개발 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - tests and requirements
 ms.assetid: 40f87192-ba85-4552-8804-314a678261ae
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: c0613e43816e7ef7036c5e13b7abafe90b451b81
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f5aa84c4f7a39a5e5b7a1ee3458c09397bc81f37
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51787187"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985950"
 ---
 # <a name="develop-tests-from-a-model"></a>모델에서 테스트 개발
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +56,7 @@ ms.locfileid: "51787187"
   
     -   개발 계획에서 사용 사례의 한 측면을 다른 측면보다 먼저 구현하는 경우 개발이 진행됨에 따라 테스트를 별도로 사용하도록 설정할 수 있습니다.  
   
--   테스트를 디자인할 때 사후 조건이 달성되었는지 여부를 확인하는 테스트 데이터 선택 항목을 코드 또는 스크립트에서 구분합니다. 예를 들어 단순한 산술 함수 테스트는 입력 4, 출력이 2인지 확인이 될 수 있습니다. 대신, 스크립트를 입력 선택, 출력에 자신을 곱하고 결과가 원래 입력인지 확인으로 디자인합니다. 이 스타일을 사용하면 테스트의 본문을 변경하지 않고 테스트 입력을 확인할 수 있습니다.  
+-   테스트를 디자인할 때 사후 조건이 달성되었는지 여부를 확인하는 테스트 데이터 선택 항목을 코드 또는 스크립트에서 구분합니다. 예를 들어 단순한 산술 함수 테스트 수 있습니다. 입력 4; 출력이 2 인지 확인 합니다. 대신 스크립트를 디자인 합니다. 입력;를 선택 합니다. 자체적으로 출력을 곱하는 하 고 결과가 원래 입력 인지 확인 합니다. 이 스타일을 사용하면 테스트의 본문을 변경하지 않고 테스트 입력을 확인할 수 있습니다.  
   
 #### <a name="linking-tests-to-use-cases"></a>사용 사례에 테스트 연결  
  사용 중인 경우 [!INCLUDE[TCMlong](../includes/tcmlong-md.md)] 를 디자인 및 테스트를 실행 하려면 요구 사항, 사용 사례 또는 사용자 스토리 작업 항목 아래에 테스트를 구성할 수 있습니다. 모델의 사용 사례에 이러한 작업 항목을 연결할 수 있습니다. 이렇게 하면 테스트에 대한 요구 사항 변경을 신속하게 추적할 수 있으며 각 사용 사례의 진행률을 추적하는 데 도움이 됩니다.  
@@ -130,7 +127,7 @@ Assert (countAfter == countBefore = 1);
  각 메시지 또는 작업 후에 시스템의 상태를 확인합니다. 이를 위해 추가 계측이 필요할 수도 있습니다.  
   
 ## <a name="deriving-subsystem-tests-from-models"></a>모델에서 하위 시스템 테스트 파생  
- 대규모 시스템의 전반적인 디자인에서 구성 요소 또는 하위 시스템을 식별할 수 있습니다. 이러한 구성 요소 또는 하위 시스템은 별도로 디자인될 수 있거나, 서로 다른 컴퓨터에 있거나, 다양한 방식으로 다시 결합할 수 있는 재사용 가능한 모듈인 파트를 나타냅니다. 자세한 내용은 [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다.  
+ 대규모 시스템의 전반적인 디자인에서 구성 요소 또는 하위 시스템을 식별할 수 있습니다. 이러한 구성 요소 또는 하위 시스템은 별도로 디자인될 수 있거나, 서로 다른 컴퓨터에 있거나, 다양한 방식으로 다시 결합할 수 있는 재사용 가능한 모듈인 파트를 나타냅니다. 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다.  
   
  전체 시스템에 사용하는 것과 동일한 원칙을 각 주요 구성 요소에 적용할 수 있습니다. 대규모 프로젝트에서는 각 구성 요소에 자체 요구 사항 모델이 있을 수 있습니다. 작은 프로젝트에서는 아키텍처 모델 또는 전반적인 디자인을 만들어 주요 구성 요소 및 상호 작용을 표시할 수 있습니다. 자세한 내용은 [앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)합니다.  
   
@@ -182,6 +179,3 @@ Assert (countAfter == countBefore = 1);
  [사용자 요구 사항 모델링](../modeling/model-user-requirements.md)   
  [앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)   
  [아키텍처 분석 및 모델링](../modeling/analyze-and-model-your-architecture.md)
-
-
-

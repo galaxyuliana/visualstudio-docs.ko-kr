@@ -1,25 +1,20 @@
 ---
 title: 코드 분석 문제 해결 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: troubleshooting
 ms.assetid: 61c7e44d-2780-4df5-9bcb-49e40c1152fc
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: a044b0682b5ac70fc38df3080ef435c5ab6aad3b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 54e478fe9b932b2b50271e52f0bcaab78ca02eab
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51768222"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984842"
 ---
 # <a name="troubleshooting-code-analysis-issues"></a>코드 분석 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,9 +33,6 @@ ms.locfileid: "51768222"
 3.  규칙 집합을 다시 열고, 변경을 취소한 후 다시 저장합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [응용 프로그램 품질 분석](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)   
+ [애플리케이션 품질 분석](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)   
  [관리 코드 품질 분석](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)   
  [규칙 집합을 사용하여 코드 분석 규칙 그룹화](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
-
-
-

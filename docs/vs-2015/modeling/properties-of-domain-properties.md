@@ -1,25 +1,22 @@
 ---
 title: 도메인 속성의 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 helpviewer_keywords:
 - Domain-Specific Language, domain properties
 ms.assetid: a9471562-d6f2-46bf-9872-e0d66ba03150
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 977594493279d52154de3cb5ef7bce56d4d8f985
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: ca7f4e44f1d40256e821091609752b48d8f204d0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49836842"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971658"
 ---
 # <a name="properties-of-domain-properties"></a>도메인 속성의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,7 +53,4 @@ A *도메인 속성* 값을 보유할 수 있는 모델 요소의 기능입니�
 |**Type**|속성의 형식입니다. 사용 가능한 형식 목록에 추가 하려면 DSL 탐색기에서 dsl 루트를 마우스 오른쪽 단추로 클릭 하 고 클릭 **외부 형식 추가**합니다.|`String`|  
   
 ## <a name="see-also"></a>참고 항목  
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

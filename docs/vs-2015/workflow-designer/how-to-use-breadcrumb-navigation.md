@@ -1,23 +1,20 @@
 ---
 title: '방법: 이동 경로 탐색 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 ms.assetid: 4a688056-37dc-406a-9071-be2141e192fe
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 19f9add69f8746962e6ed0ef9e4beea0f7ba37ec
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 8327565d9705c8522442acc77899fe171a5bf12d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49259037"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984406"
 ---
 # <a name="how-to-use-breadcrumb-navigation"></a>방법: 이동 경로 탐색 사용
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에 표시되는 활동 집합을 변경하는 방법은 크게 세 가지입니다.  
@@ -45,7 +42,7 @@ ms.locfileid: "49259037"
   
 ### <a name="expanding-all-or-collapsing-all-activities"></a>모든 활동 확장명 또는 축소  
   
-1.  사용 합니다 **모두 확장** 및 **모두 축소** 사용자 인터페이스를 확장 하거나 축소 하는 모든 현재 이동 경로 탐색 루트 아래에 있는 작업 단추입니다. 모두 확장명 및 모두 축소는 전역 상태입니다. 즉, 이동 경로 탐색에서 모든 확장을 사용 하 여 루트 활동을 변경 하거나 모든 상태를 축소 하면 클릭할 때까지 유지 되도록 **복원**합니다.  
+1.  사용 합니다 **모두 확장** 및 **모두 축소** 사용자 인터페이스를 확장 하거나 축소 하는 모든 현재 이동 경로 탐색 루트 아래에 있는 작업 단추입니다. 모두 확장 및 모두 축소는 전역 상태입니다. 즉, 이동 경로 탐색에서 모든 확장을 사용 하 여 루트 활동을 변경 하거나 모든 상태를 축소 하면 클릭할 때까지 유지 되도록 **복원**합니다.  
   
 2.  를 모든 확장을 적용 하거나 모든 상태를 축소 한 후을 클릭 합니다 **복원** 돌아가서 각 활동에 적용 되었던 상태를 보면에 나타나는 단추입니다.  
   

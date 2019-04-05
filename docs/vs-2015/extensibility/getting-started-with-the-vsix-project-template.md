@@ -1,26 +1,21 @@
 ---
 title: VSIX 프로젝트 템플릿 시작 하기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio SDK, VSIX project template
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 1f7230bce49342ad8e31baeb3f46c72f1c45d776
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 9f5db7f20cf77df72a8c103eea68b3e64cc148b4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51787733"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985699"
 ---
 # <a name="getting-started-with-the-vsix-project-template"></a>VSIX 프로젝트 템플릿 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,4 +86,3 @@ VSIX 프로젝트 템플릿 확장을 만들거나 기존 확장 프로그램 �
 6.  VSIX 매니페스트를 엽니다.  
   
 7.  VSIX 매니페스트를 업데이트 합니다 **자산** 한다는 템플릿 파일이 포함 된 디렉터리 트리의 루트를 가리키는 있도록 템플릿의 경로입니다. 예를 들어 템플릿을 \CSharp\Windows에 대 한 참조 \CSharp를 가리켜야 합니다.
-

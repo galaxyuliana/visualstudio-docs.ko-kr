@@ -1,36 +1,33 @@
 ---
 title: 하나의 솔루션에 여러 dsl 포함 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 7e668620-6217-4e87-aea7-e9036776c8e4
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 8bf5e3d69b67cf51c1e70ec8ffe9e91d87a1dcbe
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 76f34194381df92097e8dc2c42f1bf57a83f484b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49820176"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971661"
 ---
 # <a name="multiple-dsls-in-one-solution"></a>하나의 솔루션에 여러 DSL 포함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 여러 DSL이 함께 설치되도록 단일 솔루션의 일부분으로 패키지할 수 있습니다.  
   
- 다양한 기술을 통해 여러 DSL을 통합할 수 있습니다. 자세한 내용은 참조 하세요. [Visual Studio Modelbus를 사용 하 여 모델 통합](../modeling/integrating-models-by-using-visual-studio-modelbus.md) 하 고 [방법: 끌어서 놓기 처리기 추가](../modeling/how-to-add-a-drag-and-drop-handler.md) 및 [복사 동작 사용자 지정](../modeling/customizing-copy-behavior.md)합니다.  
+ 다양한 기술을 통해 여러 DSL을 통합할 수 있습니다. 자세한 내용은 [Visual Studio Modelbus를 사용 하 여 모델 통합](../modeling/integrating-models-by-using-visual-studio-modelbus.md) 고 [방법: 끌어서 놓기 처리기 추가](../modeling/how-to-add-a-drag-and-drop-handler.md) 하 고 [복사 동작 사용자 지정](../modeling/customizing-copy-behavior.md)합니다.  
   
 ### <a name="to-build-more-than-one-dsl-in-the-same-solution"></a>같은 솔루션에서 둘 이상의 DSL을 작성하려면  
   
 1. 둘 이상의 DSL 솔루션과 VSIX 프로젝트를 만든 다음 모든 프로젝트를 단일 솔루션에 추가합니다.  
   
-   -   새 VSIX 프로젝트를 만들려면:에 **새 프로젝트** 대화 상자에서 **Visual C#** 를 **확장성**를 **VSIX 프로젝트**합니다.  
+   -   새 VSIX 프로젝트를 만들려면: **새 프로젝트** 대화 상자에서 **시각적 C#** , **확장성**, **VSIX 프로젝트**.  
   
    -   VSIX 솔루션 디렉터리에 둘 이상의 DSL 솔루션을 만듭니다.  
   
@@ -50,7 +47,7 @@ ms.locfileid: "49820176"
   
 2. DSL의 VSIX 매니페스트를 결합합니다.  
   
-   1.  오픈 _YourVsixProject_**\source.extension.manifest**합니다.  
+   1.  Open _YourVsixProject_**\source.extension.manifest**.  
   
    2.  각 DSL에 대해 선택할 **콘텐츠 추가** 추가:  
   
@@ -68,6 +65,3 @@ ms.locfileid: "49820176"
  [Visual Studio Modelbus를 사용 하 여 모델 통합](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
  [방법: 끌어서 놓기 처리기 추가](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [복사 동작 사용자 지정](../modeling/customizing-copy-behavior.md)
-
-
-

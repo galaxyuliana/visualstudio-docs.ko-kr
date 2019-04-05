@@ -1,26 +1,21 @@
 ---
 title: 언어 서비스 및 편집기 확장 시작 하기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
 ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: f09056d184256e2d62387af08c61186c6ff57c02
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: e247192b19e8ae2e2037281f4f89631d2ea78605
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51735209"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985439"
 ---
 # <a name="getting-started-with-language-service-and-editor-extensions"></a>언어 서비스 및 편집기 확장 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +45,7 @@ ms.locfileid: "51735209"
   
 - 여백 및 스크롤 막대  
   
-- Tags  
+- 태그  
   
 - 선의 도구 영역  
   
@@ -71,7 +66,7 @@ ms.locfileid: "51735209"
 ## <a name="running-extensions-in-the-experimental-instance"></a>실험적 인스턴스에서 확장을 실행합니다.  
  실험적 폴더 (Windows Vista 및 Windows 7)에 배포 하 여 확장을 개발 하는 동안 작업 버전의 Visual Studio를 분리 수 있습니다.  
   
- *% LOCALAPPDATA %* \VisualStudio\10.0Exp\Extensions\\*회사*\\*ExtensionID*  
+ *%LOCALAPPDATA%* \VisualStudio\10.0Exp\Extensions\\*Company*\\*ExtensionID*  
   
  여기서 *% LOCALAPPDATA %* 로그온 한 사용자의 이름입니다 *회사* 확장을 소유 하는 회사의 이름 및 *ExtensionID* 확장의 ID입니다.  
   
@@ -95,4 +90,3 @@ ms.locfileid: "51735209"
   
 ## <a name="see-also"></a>참고 항목  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)
-

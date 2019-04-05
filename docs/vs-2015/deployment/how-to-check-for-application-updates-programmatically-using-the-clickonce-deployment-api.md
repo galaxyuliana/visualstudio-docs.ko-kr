@@ -1,14 +1,9 @@
 ---
 title: '방법: ClickOnce 배포 API를 사용 하 여 프로그래밍 방식으로 응용 프로그램 업데이트 확인 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -20,15 +15,15 @@ ms.assetid: 1a886310-67c8-44e5-a382-c2f0454f887d
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 1a380d549fa10c3229601a1a9541679c7e3ac1e7
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: ac7a5665b287f51e59d99d21802acc252a55a99a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49282193"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985046"
 ---
-# <a name="how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api"></a>방법: ClickOnce 배포 API를 사용하여 프로그래밍 방식으로 응용 프로그램 업데이트 확인
+# <a name="how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api"></a>방법: ClickOnce 배포 API를 사용 하 여 프로그래밍 방식으로 응용 프로그램 업데이트 확인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 제공 합니다. 첫 번째 방법은 특정 간격에 따라 업데이트에 대 한 자동으로 확인 하도록 ClickOnce 배포를 구성할 수 있습니다. 두 번째 메서드를 사용 하는 코드를 작성할 수 있습니다는 <xref:System.Deployment.Application.ApplicationDeployment> 클래스 업데이트를 확인 하려면 사용자 요청과 같은 이벤트를 기반으로 합니다.  
@@ -54,7 +49,7 @@ ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 �
   
 ### <a name="using-mageexe-to-deploy-an-application-that-checks-for-updates-programmatically"></a>Mage.exe를 사용 하 여 프로그래밍 방식으로 업데이트를 확인 하는 응용 프로그램을 배포 하려면  
   
--   에 설명 된 대로 Mage.exe를 사용 하 여 응용 프로그램을 배포 하기 위한 지침을 따릅니다 [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다. 배포 매니페스트를 생성 하는 Mage.exe를 호출할 때 명령줄 스위치를 사용 하도록 확인 `providerUrl`, ClickOnce 업데이트를 확인 하는 URL을 지정 하 고 있습니다. 응용 프로그램에서 업데이트 됩니다 [ http://www.adatum.com/MyApp ](http://www.adatum.com/MyApp), 예를 들어, 배포 매니페스트를 생성 하는를 호출 하 여 다음과 같이 표시 될 수 있습니다.  
+-   에 설명 된 대로 Mage.exe를 사용 하 여 응용 프로그램을 배포 하기 위한 지침에 따라 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md) 배포 매니페스트를 생성 하는 Mage.exe를 호출할 때 명령줄 스위치를 사용 하도록 확인 `providerUrl`, ClickOnce 업데이트를 확인 하는 URL을 지정 하 고 있습니다. 응용 프로그램에서 업데이트 됩니다 [ http://www.adatum.com/MyApp ](http://www.adatum.com/MyApp), 예를 들어, 배포 매니페스트를 생성 하는를 호출 하 여 다음과 같이 표시 될 수 있습니다.  
   
     ```  
     mage -New Deployment -ToFile WindowsFormsApp1.application -Name "My App 1.0" -Version 1.0.0.0 -AppManifest 1.0.0.0\MyApp.manifest -providerUrl http://www.adatum.com/MyApp/MyApp.application  
@@ -62,7 +57,7 @@ ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 �
   
 ### <a name="using-mageuiexe-to-deploy-an-application-that-checks-for-updates-programmatically"></a>MageUI.exe를 사용 하 여 프로그래밍 방식으로 업데이트를 확인 하는 응용 프로그램을 배포 하려면  
   
--   에 설명 된 대로 Mage.exe를 사용 하 여 응용 프로그램을 배포 하기 위한 지침을 따릅니다 [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다. 에 **배포 옵션** 탭, 설정 합니다 **시작 위치** 필드 ClickOnce 업데이트를 확인 하는 응용 프로그램 매니페스트를 합니다. 에 **업데이트 옵션** 탭을 선택 취소 합니다 **이 응용 프로그램의 업데이트 확인** 확인란 합니다.  
+-   에 설명 된 대로 Mage.exe를 사용 하 여 응용 프로그램을 배포 하기 위한 지침에 따라 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md) 에 **배포 옵션** 탭, 설정 합니다 **시작 위치** 필드 ClickOnce 업데이트를 확인 하는 응용 프로그램 매니페스트를 합니다. 에 **업데이트 옵션** 탭을 선택 취소 합니다 **이 응용 프로그램의 업데이트 확인** 확인란 합니다.  
   
 ## <a name="net-framework-security"></a>.NET Framework 보안  
  프로그래밍 방식으로 업데이트를 사용 하도록 응용 프로그램에 완전 신뢰 권한이 있어야 합니다.  
@@ -71,6 +66,3 @@ ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 �
  [방법: 배포 업데이트를 위한 대체 위치를 지정 합니다.](../deployment/how-to-specify-an-alternate-location-for-deployment-updates.md)   
  [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)   
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)
-
-
-

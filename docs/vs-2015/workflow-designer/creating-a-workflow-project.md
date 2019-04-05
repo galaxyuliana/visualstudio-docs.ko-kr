@@ -1,11 +1,8 @@
 ---
 title: 워크플로 프로젝트 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 helpviewer_keywords:
 - Workflow Designer, creating a workflow project
@@ -15,13 +12,13 @@ ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 4ba558e77aae5ae40d5b754c30b648f4ba2ea2af
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: cdf4d9657832c2dc1e7691eed5c334e770de5700
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49236719"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58985763"
 ---
 # <a name="creating-a-workflow-project"></a>워크플로 프로젝트 만들기
 워크플로, [!INCLUDE[indigo1](../includes/indigo1-md.md)] 워크플로 서비스, 사용자 지정 활동 및 사용자 지정 활동 디자이너는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 템플릿을 사용하여 만들 수 있습니다. 이 단원에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 제공되는 프로젝트 템플릿을 사용하여 라이브러리 및 응용 프로그램을 만드는 방법에 대해 설명합니다.  
@@ -31,10 +28,10 @@ ms.locfileid: "49236719"
  마지막 항목에서는 워크플로 활동, 디자이너, 서비스 또는 그 밖의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 항목을 기존 워크플로 프로젝트 또는 다른 프로젝트에 추가하는 방법에 대해 설명합니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
- [방법: 워크플로 콘솔 응용 프로그램 만들기](../workflow-designer/how-to-create-a-workflow-console-application.md)  
+ [방법: 워크플로 콘솔 애플리케이션 만들기](../workflow-designer/how-to-create-a-workflow-console-application.md)  
  워크플로 콘솔 응용 프로그램을 만드는 방법에 대해 설명합니다.  
   
- [방법: WCF 워크플로 서비스 응용 프로그램 만들기](../workflow-designer/how-to-create-a-wcf-workflow-service-application.md)  
+ [방법: WCF 워크플로 서비스 애플리케이션 만들기](../workflow-designer/how-to-create-a-wcf-workflow-service-application.md)  
  [!INCLUDE[indigo2](../includes/indigo2-md.md)] 워크플로 서비스 응용 프로그램을 만드는 데 필요한 단계를 설명합니다.  
   
  [방법: 활동 라이브러리 만들기](../workflow-designer/how-to-create-an-activity-library.md)  

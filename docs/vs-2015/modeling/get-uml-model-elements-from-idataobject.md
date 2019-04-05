@@ -1,25 +1,22 @@
 ---
 title: IDataObject에서 UML 모델 요소 가져오기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML API, copy and paste
 ms.assetid: e0b9cec8-3b93-4a24-8bd3-3e086501d387
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: a560ce5116c52b8c2e83ce9b28252f060e2485f1
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: ded3910e74120433038132eb0135a869ea92d58d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51782078"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970927"
 ---
 # <a name="get-uml-model-elements-from-idataobject"></a>IDataObject에서 UML 모델 요소 가져오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,9 +29,9 @@ ms.locfileid: "51782078"
 ## <a name="code-sample"></a>코드 샘플  
  프로젝트는 다음을 참조 해야 [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] 어셈블리:  
   
- **Microsoft.VisualStudio.Modeling.Sdk 합니다. [version]**  
+ **Microsoft.VisualStudio.Modeling.Sdk.[version]**  
   
- **Microsoft.VisualStudio.Modeling.Sdk.Diagrams 합니다. [version]**  
+ **Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]**  
   
  **System.Windows.Forms**  
   
@@ -86,6 +83,3 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## <a name="see-also"></a>참고 항목  
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)   
  [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)
-
-
-

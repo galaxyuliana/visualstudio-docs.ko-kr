@@ -1,14 +1,9 @@
 ---
-title: '방법: 편집을 사용 하 고 계속 하기 (C#) | Microsoft Docs'
-ms.custom: ''
+title: '방법: 사용 하 여 편집 하며 계속 하기 (C#) | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -20,13 +15,13 @@ ms.assetid: 40e136d8-a08c-43bd-b313-fb821c55eb3c
 caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 4106a8bcaec8890192fdc33b9db0d66c12d8b07d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c52540c8e639adcd8ceec6b4da79fb87cff18386
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51789170"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982367"
 ---
 # <a name="how-to-use-edit-and-continue-c"></a>방법: 편집하며 계속하기 사용(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,9 +52,6 @@ C#에서 편집하며 계속하기를 사용하면 디버깅하는 동안 중단
      이 설정은 디버깅 세션을 다시 시작 하면 적용이 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [편집 하며 계속 하기 (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
+ [편집하며 계속하기(Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
  [지원 되는 코드 변경 (C#)](../debugger/supported-code-changes-csharp.md)   
  [편집하며 계속하기의 오류 및 경고(C#)](../misc/edit-and-continue-errors-and-warnings-csharp.md)
-
-
-

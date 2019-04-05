@@ -1,25 +1,22 @@
 ---
 title: UML API를 사용 하 여 UML 시퀀스 다이어그램 편집 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML activity diagrams, programming
 ms.assetid: 8cdd0203-85ef-4c62-9abc-da4cb26fa504
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: f68cf87a7f45b906c6de43e0a837d49132b7a3e0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 1c71becfb04115faefe88d5018c238ead38e4c88
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51725555"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985573"
 ---
 # <a name="edit-uml-sequence-diagrams-by-using-the-uml-api"></a>UML API를 사용하여 UML 시퀀스 다이어그램 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +55,7 @@ using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation;
  자세한 내용은 [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)합니다.  
   
 ### <a name="getting-the-context"></a>컨텍스트 가져오기  
- 시퀀스 다이어그램에서 명령 또는 제스처 처리기의 일부로 상호 작용을 편집하는 경우 컨텍스트에 대한 참조를 가져올 수 있습니다. 예:  
+ 시퀀스 다이어그램에서 명령 또는 제스처 처리기의 일부로 상호 작용을 편집하는 경우 컨텍스트에 대한 참조를 가져올 수 있습니다. 예를 들어:  
   
 ```  
 [SequenceDesignerExtension]  
@@ -127,7 +124,7 @@ public void Execute (IMenuCommand command)
   
   이 기능은 특히 새 요소를 삽입하거나 기존 요소를 이동할 때 중요합니다. 다음 작업 중 하나를 수행할 때까지 다이어그램에서 올바른 위치에 배치되지 않습니다. 일련의 변경을 마쳤을 때 다음 작업 중 하나를 한 번만 호출하면 됩니다.  
   
-  명령 후에 실행 취소를 수행하는 사용자가 당황하지 않도록 `ILinkedUndoTransaction`을 사용하여 변경 내용과 최종 `Layout()` 또는 `UpdateShapePositions()` 작업을 묶습니다. 예:  
+  명령 후에 실행 취소를 수행하는 사용자가 당황하지 않도록 `ILinkedUndoTransaction`을 사용하여 변경 내용과 최종 `Layout()` 또는 `UpdateShapePositions()` 작업을 묶습니다. 예를 들어:  
   
 ```  
 using (ILinkedUndoTransaction transaction = LinkedUndoContext.BeginTransaction("create loop"))  
@@ -187,7 +184,7 @@ System.Diagnostics.Debug.Assert(
 ```  
   
 ### <a name="to-create-messages"></a>메시지를 만들려면  
- 메시지를 만들려면 소스 및 대상 수명선에서 삽입 지점을 식별해야 합니다. 예:  
+ 메시지를 만들려면 소스 및 대상 수명선에서 삽입 지점을 식별해야 합니다. 예를 들어:  
   
 ```  
 interaction.CreateMessage( sourceInsertionPoint,   
@@ -256,6 +253,3 @@ cf.CreateInteractionOperand(cf.Operands.Last(), true);
  [사용자 지정 정의 모델링 도구 상자 항목](../modeling/define-a-custom-modeling-toolbox-item.md)   
  [UML 모델에 대 한 유효성 검사 제약 조건 정의](../modeling/define-validation-constraints-for-uml-models.md)   
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)
-
-
-

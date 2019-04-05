@@ -1,25 +1,22 @@
 ---
 title: VS 확장에서 텍스트 변환 호출 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 64674976-841f-43cb-8e61-0645c8a89eec
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 0751229e778e13375698f591d789edfd318b3ffc
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 6d2a2311d0a8c1e9470b5053ac4f5f309a1a4d0c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49298626"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984260"
 ---
-# <a name="invoking-text-transformation-in-a-vs-extension"></a>VS 확장에서 텍스트 변환 호출
+# <a name="invoking-text-transformation-in-a-vs-extension"></a>VS 확장명에서 텍스트 변형 호출
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 작성 하는 경우는 [Visual Studio 확장](http://msdn.microsoft.com/library/5b1b5db3-6005-44cf-83b0-e608d7764d14) 메뉴 명령 등 또는 [도메인별 언어](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md), 텍스트 템플릿 변환에 텍스트 템플릿 서비스를 사용할 수 있습니다. <xref:Microsoft.VisualStudio.TextTemplating.VSHost.STextTemplating> 서비스를 가져와서 <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>으로 캐스팅합니다.  
@@ -48,7 +45,7 @@ string result = t4.ProcessTemplate(filePath, System.IO.File.ReadAllText(filePath
   
  매개 변수 값을 전달하기 위해 호출 코드에서 값을 `Session` 사전이나 <xref:System.Runtime.Remoting.Messaging.CallContext>에 둘 수 있습니다.  
   
- 다음 예제에서는 두 가지 방법을 사용하여 짧은 테스트 템플릿을 변환합니다.  
+ 다음 예제에서는 두 가지 방법을 사용하여 짧은 테스트 템플릿을 변형합니다.  
   
 ```  
 using Microsoft.VisualStudio.TextTemplating;  
@@ -150,7 +147,4 @@ Sample text.
  사용자 지정 호스트를 정의합니다. 자세한 내용은 [사용자 지정 호스트를 사용 하 여 텍스트 템플릿 처리](../modeling/processing-text-templates-by-using-a-custom-host.md)합니다.  
   
  나중에 컴파일하고 실행할 수 있는 소스 코드를 생성하려면  
- `t4.PreprocessTemplate()`의 <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating> 메서드를 호출합니다.
-
-
-
+ `t4.PreprocessTemplate()` 의 <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>메서드를 호출합니다.

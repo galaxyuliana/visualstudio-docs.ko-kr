@@ -1,12 +1,9 @@
 ---
 title: 사용자 지정 호스트를 사용 하 여 텍스트 템플릿 처리 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, in application or VS extension
 - text templates, custom directive hosts
@@ -14,13 +11,13 @@ ms.assetid: affa3296-854d-47d6-9685-285f6d9ba5dc
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 5fa54f6b7ea57b6374e8fef291c64f0e5369ffea
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: f2f10b239b4307b94c1f3b62b8e0a29767b22aaf
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49303461"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985559"
 ---
 # <a name="processing-text-templates-by-using-a-custom-host"></a>사용자 지정 호스트를 사용하여 텍스트 템플릿 처리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +28,7 @@ ms.locfileid: "49303461"
 >  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 실행될 패키지나 확장을 작성하는 경우 고유 호스트를 작성하는 대신 텍스트 템플릿 서비스를 사용하십시오. 자세한 내용은 [VS 확장에서 텍스트 변환 호출](../modeling/invoking-text-transformation-in-a-vs-extension.md)합니다.  
   
 > [!NOTE]
->  서버 응용 프로그램에서는 텍스트 템플릿 변형을 사용하지 않는 것이 좋으며, 단일 스레드에서만 텍스트 템플릿 변형을 사용하는 것이 좋습니다. 텍스트 템플릿 엔진에서는 단일 AppDomain을 사용하여 템플릿을 변환하고 컴파일하고 실행하기 때문입니다. 변환된 코드는 스레드로부터 안전하도록 설계되지 않았습니다. 텍스트 템플릿 엔진은 디자인 타임에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트에 있는 파일을 연속으로 처리하도록 설계되었습니다.  
+>  서버 응용 프로그램에서는 텍스트 템플릿 변환을 사용하지 않는 것이 좋으며, 단일 스레드에서만 텍스트 템플릿 변형을 사용하는 것이 좋습니다. 텍스트 템플릿 엔진에서는 단일 AppDomain을 사용하여 템플릿을 변환하고 컴파일하고 실행하기 때문입니다. 변환된 코드는 스레드로부터 안전하도록 설계되지 않았습니다. 텍스트 템플릿 엔진은 디자인 타임에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트에 있는 파일을 연속으로 처리하도록 설계되었습니다.  
 >   
 >  런타임에 응용 프로그램에 전처리 된 텍스트 템플릿을 사용 하 여는 것이 좋습니다: 참조 [T4 텍스트 템플릿을 사용 하 여 런타임 텍스트 생성](../modeling/run-time-text-generation-with-t4-text-templates.md)합니다.  
   
@@ -68,6 +65,3 @@ string output = engine.ProcessTemplate(templateString, host);
   
  [사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기](../modeling/creating-custom-t4-text-template-directive-processors.md)  
  텍스트 템플릿 지시문 프로세서에 대해 간략하게 설명합니다.
-
-
-

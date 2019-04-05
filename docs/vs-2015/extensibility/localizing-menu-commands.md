@@ -1,14 +1,9 @@
 ---
 title: 메뉴 명령 지역화 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - localize
 - localization
@@ -19,13 +14,13 @@ helpviewer_keywords:
 ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 6b16771e4d47416f09774ce2f4765de9d6023e94
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 27be664fb035af2c97f0536026b590c468b68b9e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51753890"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981751"
 ---
 # <a name="localizing-menu-commands"></a>메뉴 명령 지역화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +48,7 @@ ms.locfileid: "51753890"
   
       다음 예제에서는 패밀리 트리 탐색기 도구 창을 열려면 명령에 대 한 영어와 스페인어 단추 텍스트를 보여 줍니다.  
   
-      [FamilyTree.en US.vsct]  
+      [FamilyTree.en-US.vsct]  
   
    ```xml  
    <Button guid="guidLocalizedPackageCmdSet" id="cmdidFamilyTree" priority="0x0100" type="Button">  
@@ -66,7 +61,7 @@ ms.locfileid: "51753890"
    </Button>  
    ```  
   
-    [FamilyTree.es ES.vsct]  
+    [FamilyTree.es-ES.vsct]  
   
    ```xml  
    <Button guid="guidLocalizedPackageCmdSet" id="cmdidFamilyTree" priority="0x0100" type="Button">  
@@ -97,7 +92,7 @@ ms.locfileid: "51753890"
   
 5.  특정 언어와 문화권에 대 한 적절 한 문자열 값을 수정 하려면 각.resx 파일을 엽니다. 다음 예제에서는 도구 창의 제목 표시줄에 대 한 지역화 된 리소스 정을 보여 줍니다.  
   
-     [저장할 US.resx]  
+     [Resources.en-US.resx]  
   
     ```xml  
     <data name="ToolWindowTitle" xml:space="preserve">  
@@ -164,4 +159,3 @@ ms.locfileid: "51753890"
  [메뉴 및 명령 확장](../extensibility/extending-menus-and-commands.md)   
  [MenuCommand 및 OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
  [전역화 및 지역화](http://msdn.microsoft.com/library/9a59696b-d89b-45bd-946d-c75da4732d02)
-

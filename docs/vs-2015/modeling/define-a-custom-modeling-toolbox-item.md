@@ -1,25 +1,22 @@
 ---
 title: 사용자 지정 정의 모델링 도구 상자 항목 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML - extending, customizing the toolbox
 ms.assetid: a2463606-1100-40ac-97f3-5ba22ca47b7c
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: dcb562eb76e13b5dcb16532ed808b2447de0d6c8
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 42137beead40c0e032942116bc92a3b9a456fbc6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51778412"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981662"
 ---
 # <a name="define-a-custom-modeling-toolbox-item"></a>사용자 지정 모델링 도구 상자 항목 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -200,7 +197,7 @@ ms.locfileid: "51778412"
   
      실험적 인스턴스에서 관련 형식의 UML 다이어그램을 만들거나 엽니다. 도구 상자에 새 도구가 나타나고 요소를 제대로 만드는지 확인합니다.  
   
-10. **배포용 VSIX 파일을 가져오려면:** Windows 탐색기에서 폴더를 엽니다 **.\bin\Debug** 또는 **.\bin\Release** 찾으려고 합니다 **.vsix** 파일입니다. 이 파일은 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 확장 파일입니다. 사용자 컴퓨터에 설치할 수 있으며 다른 Visual Studio 사용자에게 전송할 수도 있습니다.  
+10. **배포용 VSIX 파일을 가져오려면** Windows 탐색기에서 폴더를 엽니다 **.\bin\Debug** 하거나 **.\bin\Release** 찾으려고 합니다 **.vsix** 파일. 이 파일은 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 확장 파일입니다. 사용자 컴퓨터에 설치할 수 있으며 다른 Visual Studio 사용자에게 전송할 수도 있습니다.  
   
 #### <a name="to-install-custom-tools-from-a-visual-studio-extension"></a>Visual Studio 확장에서 사용자 지정 도구를 설치하려면  
   
@@ -241,6 +238,3 @@ ms.locfileid: "51778412"
  [UML을 확장 하는 프로필 정의](../modeling/define-a-profile-to-extend-uml.md)   
  [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [UML 모델에 대한 유효성 검사 제약 조건 정의](../modeling/define-validation-constraints-for-uml-models.md)
-
-
-
