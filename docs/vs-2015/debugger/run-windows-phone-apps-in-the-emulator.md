@@ -1,14 +1,9 @@
 ---
 title: 에뮬레이터에서 Windows Phone 앱 실행 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,20 +13,20 @@ ms.assetid: c7590788-beb3-403c-a7dd-18472a9e585e
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: e7035e4a77b67fb5207f878c8e0650236afda7c6
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 7bc85d1a38143e626fc659979eea727a0b41ef00
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51739980"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971931"
 ---
 # <a name="run-windows-phone-apps-in-the-emulator"></a>에뮬레이터에서 Windows Phone 앱 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows Phone 에뮬레이터는 실제 장치 없이 컴퓨터에서 Windows Phone 앱을 디버그하고 테스트할 수 있는 가상화된 환경을 제공합니다. 일반적인 터치 및 회전 이벤트를 시뮬레이트하고 에뮬레이트하려는 실제 화면 크기와 해상도를 선택할 수 있습니다. 일반적으로 사용되는 여러 기능(예: 위치, 네트워킹, 알림, 센서, 가속도계 및 선택적 SD 카드)을 테스트할 수도 있습니다.  
   
- 에뮬레이터에서 테스트할 수 있는 기능에 대 한 자세한 내용은 참조 하세요. [Windows Phone 에뮬레이터에서 앱 기능 테스트](http://msdn.microsoft.com/en-us/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1)합니다.  
+ 에뮬레이터에서 테스트할 수 있는 기능에 대 한 자세한 내용은 참조 하세요. [Windows Phone 에뮬레이터에서 앱 기능 테스트](http://msdn.microsoft.com/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1)합니다.  
   
  에뮬레이터는 Visual Studio와 함께 Windows Phone 앱을 디자인하고 개발, 디버깅 및 테스트할 수 있는 완벽한 환경을 제공합니다.  
   
@@ -165,7 +160,7 @@ Windows Phone 에뮬레이터는 실제 장치 없이 컴퓨터에서 Windows Ph
 |F10|볼륨 작게||  
 |F11|해당 사항 없음.||  
 |F12|전원|잠금 화면을 사용하려면 F12 키를 두 번 누릅니다.<br /><br /> 길게 누르면 예상대로 작동합니다.|  
-|Esc 키|뒤로|길게 누르면 예상대로 작동합니다.|  
+|Esc|뒤로|길게 누르면 예상대로 작동합니다.|  
 |Pause/Break|키보드 전환(Windows 8/8.1 에뮬레이터만 해당)|Windows 10 에뮬레이터에는 해당하지 않습니다.|  
 |Page Up|하드웨어 키보드를 사용하도록 설정합니다(Windows 8/8.1 에뮬레이터만 해당).|Windows 10 에뮬레이터에는 해당하지 않습니다.|  
 |Page Down|하드웨어 키보드를 사용하지 않도록 설정합니다(Windows 8/8.1 에뮬레이터만 해당).|Windows 10 에뮬레이터에는 해당하지 않습니다.|  
@@ -225,6 +220,3 @@ Windows Phone 에뮬레이터는 실제 장치 없이 컴퓨터에서 Windows Ph
 -   Visual Studio에서 릴리스 빌드를 지정합니다. 릴리스 빌드를 지정한 후 선택 하 여 앱을 시작 합니다 **배포 _[앱 이름]_**  링크를 합니다 **빌드** 메뉴.  
   
 -   또는 app.xaml.cs 또는 app.xaml.vb 파일에서 `EnableFrameRateCounter`의 값을 `true`로 설정하는 코드 줄을 주석으로 처리할 수 있습니다.
-
-
-

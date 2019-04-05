@@ -1,14 +1,9 @@
 ---
 title: '방법: ASP.NET 프로세스의 이름 찾기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -21,13 +16,13 @@ ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
 caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 2ad3bea47bcde0da87bd185fac132c95f26ce4b0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c403cefee3aa7d45c11cd80cf5fc2dd53a06c1fc
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51793245"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58971928"
 ---
 # <a name="how-to-find-the-name-of-the-aspnet-process"></a>방법: ASP.NET 프로세스의 이름 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "51793245"
   이전 버전의 ASP 응용 프로그램은 in-process로 실행되는 경우 IIS 프로세스 inetinfo.exe 내에서 실행됩니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ### <a name="to-determine-whether-project-code-resides-on-the-file-system-or-iis"></a>프로젝트 코드가 파일 시스템에 상주하는지 아니면 IIS에 상주하는지 확인하려면  
   
@@ -71,7 +66,4 @@ ms.locfileid: "51793245"
  [웹 응용 프로그램 원격 디버깅의 필수 구성 요소](../debugger/prerequistes-for-remote-debugging-web-applications.md)   
  [시스템 요구 사항](../debugger/aspnet-debugging-system-requirements.md)   
  [ASP.NET 디버그 준비](../debugger/preparing-to-debug-aspnet.md)   
- [웹 응용 프로그램 및 스크립트 디버그](../debugger/debugging-web-applications-and-script.md)
-
-
-
+ [웹 애플리케이션 및 스크립트 디버그](../debugger/debugging-web-applications-and-script.md)

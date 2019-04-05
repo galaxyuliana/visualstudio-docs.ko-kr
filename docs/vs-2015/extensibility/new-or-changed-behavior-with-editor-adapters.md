@@ -1,26 +1,21 @@
 ---
 title: 편집기 어댑터를 사용 하 여 새롭거나 변경 된 동작 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - adapter behavior
 ms.assetid: 5555b116-cfdb-4773-ba62-af80fda64abd
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: cac26a6aeca6985546bcd21aec6cf45d72164e8a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 79f0a700b64abffe93d79d284ce2f45a76b3e6a3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51817401"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971415"
 ---
 # <a name="new-or-changed-behavior-with-editor-adapters"></a>편집기 어댑터를 사용 하 여 새롭거나 변경 된 동작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ ms.locfileid: "51817401"
   
 ## <a name="features"></a>기능  
   
-#### <a name="using-setsite"></a>SetSite()를 사용 하 여  
+#### <a name="using-setsite"></a>Using SetSite()  
  호출 해야 <xref:Microsoft.VisualStudio.OLE.Interop.IObjectWithSite.SetSite%2A> 텍스트 버퍼에 텍스트 뷰를 cocreate 하지 못했습니다. 하 고 다른 작업을 수행 하기 전에 windows 코드입니다. 그러나 사용 하는 경우에 필요 없는 합니다 <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService> 자체는이 서비스의 create () 메서드를 호출 하므로, 만들려는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.SetSite%2A>합니다.  
   
 #### <a name="hosting-ivscodewindow-and-ivstextview-in-your-own-content"></a>고유한 콘텐츠에 IVsCodeWindow 및 IVsTextView 호스팅  
@@ -48,7 +43,7 @@ ms.locfileid: "51817401"
  WPF 모드는 두 가지 방법으로 Win32 모드에서 서로 다릅니다. 먼저 WPF 컨텍스트에서 텍스트 뷰를 호스트할 수 있습니다. WPF 창 캐스팅 하 여 액세스할 수 있습니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 하 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIElementPane> 호출 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIElement.GetUIObject%2A>합니다. 두 번째 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetWindowHandle%2A> 여전히 반환 HWND, 하지만이 HWND의 위치를 확인 하 고 포커스를 설정에 사용할 수 있습니다. 이 편집기 창을 그리는 방법에 영향을 주지 WM_PAINT 메시지에 응답할이 HWND를 사용 하지 해야 합니다. 이 HWND 어댑터를 사용 하 여 새 코드 편집기로의 전환을 용이 하 게에 표시 됩니다. 사용 하지는 않는 것이 좋습니다 `VIF_NO_HWND_SUPPORT` 구성 요소는 HWND에서 반환 된 HWND의 제한으로 인해 작업에 필요한 경우 `GetWindowHandle` 이 모드에서.  
   
 #### <a name="passing-arrays-as-parameters-in-native-code"></a>네이티브 코드의 배열을 매개 변수로 전달  
- 가지 배열 및 개수를 포함 하는 매개 변수가 있는 레거시 편집기 API에서에서 많은 방법이 있습니다. 예제입니다.  
+ 가지 배열 및 개수를 포함 하는 매개 변수가 있는 레거시 편집기 API에서에서 많은 방법이 있습니다. 예는 다음과 같습니다.  
   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEx.AppendViewOnlyMarkerTypes%2A>  
   
@@ -62,7 +57,7 @@ ms.locfileid: "51817401"
  버퍼 어댑터 UI 스레드에서 호출 해야 합니다. 버퍼 어댑터는 COM 마샬링 관리 코드에서 해당 호출을 바이패스 하 고 호출은 자동으로 마샬링할 수 없는 UI 스레드는 관리 되는 개체입니다.  백그라운드 스레드에서 버퍼 어댑터를 호출 하는 경우 사용 해야 <xref:System.Windows.Threading.Dispatcher.Invoke%2A> 또는 비슷한 메서드.  
   
 #### <a name="lockbuffer-methods"></a>LockBuffer 메서드  
- 모든 LockBuffer() 메서드 사용 되지 않습니다. 예제입니다.  
+ 모든 LockBuffer() 메서드 사용 되지 않습니다. 예는 다음과 같습니다.  
   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer.LockBuffer%2A>  
   
@@ -127,7 +122,7 @@ ms.locfileid: "51817401"
   
 -   합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.UpdateTipWindow%2A> 메서드 중 하나를 구현 하지 않는 클래스에서 전달 하는 경우 실패 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextTipWindow2> 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodTipWindow3>합니다. 사용자 지정 Win32 소유자가 그린 팝업은 더 이상 지원 합니다.  
   
-#### <a name="smarttags"></a>스마트 태그  
+#### <a name="smarttags"></a>SmartTags  
  스마트 태그를 사용 하 여 만든 어댑터 지원 되지 않습니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagData>하십시오 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagTipWindow>, 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagTipWindow2> 인터페이스.  
   
 #### <a name="dte"></a>DTE  
@@ -150,4 +145,3 @@ ms.locfileid: "51817401"
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost>|<xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.AfterCompletorCommit%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.BeforeCompletorCommit%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.Exec%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetContextLocation%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetServiceProvider%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetSmartTagRect%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetSubjectCaretPos%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetSubjectSelection%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetSubjectText%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.QueryStatus%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.ReplaceSubjectTextSpan%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.SetSubjectCaretPos%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.SetSubjectSelection%2A><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.UpdateSmartTagWindow%2A>|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewIntellisenseHost>|<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewIntellisenseHost.SetSubjectFromPrimaryBuffer%2A> 개요 UI에 의해 무시 하지만 어댑터에서 구현 됩니다.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenRegionEx>|<xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenRegionEx.GetBannerAttr%2A> 개요 UI에 의해 무시 하지만 어댑터에서 구현 됩니다.|
-

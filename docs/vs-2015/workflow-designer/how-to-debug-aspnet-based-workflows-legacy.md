@@ -1,11 +1,8 @@
 ---
 title: '방법: ASP.NET 기반 워크플로 디버깅 (레거시) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 helpviewer_keywords:
 - ASP.NET, debugging workflows
@@ -16,13 +13,13 @@ ms.assetid: 79b21edc-9e7d-410d-af68-09c1598b9c30
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: b9da40b0b40216fc36ea45b199ecde9c6dc4a89d
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 25503430fd8924100a193ef5d8517231578800e0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49236888"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58980879"
 ---
 # <a name="how-to-debug-aspnet-based-workflows-legacy"></a>방법: ASP.NET 기반 워크플로 디버깅(레거시)
 이 항목에서는 레거시 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]에서 [!INCLUDE[wf](../includes/wf-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] 기반의 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 응용 프로그램을 디버깅하는 방법에 대해 설명합니다.  
@@ -57,5 +54,5 @@ ms.locfileid: "49236888"
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio Debugger for Windows Workflow Foundation (레거시)를 호출합니다.](../workflow-designer/invoking-the-visual-studio-debugger-for-windows-workflow-foundation-legacy.md)   
- [방법: 워크플로 (레거시)에서 중단점을 설정 합니다.](../workflow-designer/how-to-set-breakpoints-in-workflows-legacy.md)   
+ [방법: (레거시) 워크플로에 중단점 설정](../workflow-designer/how-to-set-breakpoints-in-workflows-legacy.md)   
  [레거시 워크플로 디버깅](../workflow-designer/debugging-legacy-workflows.md)

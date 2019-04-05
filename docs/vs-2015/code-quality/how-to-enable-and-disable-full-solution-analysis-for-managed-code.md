@@ -1,12 +1,9 @@
 ---
 title: '방법: 사용 하도록 설정 하 고 관리 되는 코드에 대 한 전체 솔루션 분석 사용 안 함 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords:
 - full solution analysis
 ms.assetid: 04315147-5792-47f0-8b5f-9ac8413c6a57
@@ -14,12 +11,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: af0aae4020182f6414d44a2004f98a6fc0df23ca
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: 6b9efdb5ea3e7ccbee9aefb724e847db6a37c2a0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49221873"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971027"
 ---
 # <a name="how-to-enable-and-disable-full-solution-analysis-for-managed-code"></a>방법: 사용 하도록 설정 하 고 관리 되는 코드에 대 한 전체 솔루션 분석 사용 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +56,3 @@ ms.locfileid: "49221873"
  기본적으로 전체 솔루션 분석 Visual basic의 경우 사용 하도록 설정 되어 Visual C#을 사용할 수 없습니다.  
   
  Visual Studio 업데이트 3 RC는 크게 메모리 사용량을 줄이고 전체 솔루션 분석 사용 하도록 설정 하는 경우에 유휴, CPU 시간을 감소 하는 향상 된 코드 분석기 진단 v2 엔진을 포함 합니다.
-
-
-

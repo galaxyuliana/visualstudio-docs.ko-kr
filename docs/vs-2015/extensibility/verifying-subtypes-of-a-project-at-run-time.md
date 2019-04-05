@@ -1,27 +1,22 @@
 ---
 title: 런타임에 프로젝트의 하위 형식 확인 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - project subtypes
 - check subtypes
 ms.assetid: b87780ec-36a3-4e9a-9ee2-7abdc26db739
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 892ba25ff70f62f77016bea1b88436c4f5a6a5b0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 4cf81e62b25f765c070699179e57e2603734f4a3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51779894"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972664"
 ---
 # <a name="verifying-subtypes-of-a-project-at-run-time"></a>런타임에 프로젝트의 하위 형식 확인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,4 +72,3 @@ ms.locfileid: "51779894"
  [프로젝트 하위 형식](../extensibility/internals/project-subtypes.md)   
  [프로젝트 하위 형식 디자인](../extensibility/internals/project-subtypes-design.md)   
  [프로젝트 하위 형식에 의해 확장된 속성 및 메서드](../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md)
-

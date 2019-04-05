@@ -1,14 +1,9 @@
 ---
 title: 보안, 버전 관리 및 ClickOnce 배포에서 매니페스트 문제 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -28,13 +23,13 @@ ms.assetid: d5d0c90b-ac1a-44e2-88dc-0d0ffd881624
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 77685b2eb6397d1edf9a342c25838fcefac2e619
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 1227dea199ebff465fc2dde3ec30568bb50e9ec6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49289226"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984019"
 ---
 # <a name="security-versioning-and-manifest-issues-in-clickonce-deployments"></a>ClickOnce 배포의 보안, 버전 관리 및 매니페스트 문제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,6 +94,3 @@ ms.locfileid: "49289226"
  [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)   
  [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)   
  [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)
-
-
-

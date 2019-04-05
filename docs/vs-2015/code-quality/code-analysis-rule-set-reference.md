@@ -1,14 +1,9 @@
 ---
 title: 코드 분석 규칙 집합 참조 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 helpviewer_keywords:
 - code analysis, rule sets
 ms.assetid: 5874e854-e298-4d2e-bbe4-95e899d22587
@@ -16,12 +11,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 928b838a4172537ec12937b02c3deab2cf666ddd
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: a1f91b352da5a41ec2ef81fb6067976073c787ef
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49279164"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984158"
 ---
 # <a name="code-analysis-rule-set-reference"></a>코드 분석 규칙 집합 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ ms.locfileid: "49279164"
 |[네이티브 최소 규칙 규칙 집합](../code-quality/native-minimum-rules-rule-set.md)|이러한 규칙은 잠재적 보안 허점 및 응용 프로그램 충돌을 비롯 하 여 네이티브 코드의 가장 중요 한 문제에 집중 합니다. 네이티브 프로젝트에 대해 만드는 모든 사용자 지정 규칙 집합에 이 규칙 집합을 포함해야 합니다.|  
 |[네이티브 권장 규칙 규칙 집합](../code-quality/native-recommended-rules-rule-set.md)|이러한 규칙은 잠재적 보안 허점 및 응용 프로그램 충돌을 비롯 하 여 네이티브 코드의 가장 중요 하 고 일반적인 문제에 집중 합니다.  네이티브 프로젝트에 대해 만드는 모든 사용자 지정 규칙 집합에 이 규칙 집합을 포함해야 합니다.  이 규칙 집합은 Visual Studio Professional edition 이상 작동 하도록 설계 되었습니다.|  
 |[관리 코드에 대한 보안 규칙 규칙 집합](../code-quality/security-rules-rule-set-for-managed-code.md)|이 규칙 집합에는 모든 Microsoft 보안 규칙이 포함 되어 있습니다. 보고 되는 잠재적인 보안 문제 수를 최대화 하려면이 규칙 집합을 포함 합니다.|
-
-
-

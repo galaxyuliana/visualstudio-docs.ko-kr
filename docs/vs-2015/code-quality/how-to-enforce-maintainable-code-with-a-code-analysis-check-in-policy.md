@@ -1,14 +1,9 @@
 ---
 title: '방법: 코드 분석 체크 인 정책 사용 하 여 유지 관리 가능한 코드 적용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, check-in policies
 ms.assetid: d1b3b04f-4dd9-40e6-b2d4-b414d33fb647
@@ -16,12 +11,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 3ef282bf1b19cb2d72075619539921cdb88d08f2
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: 5676bfaabb20ebf6dabea7bae66527d17891b362
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49174853"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970567"
 ---
 # <a name="how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy"></a>방법: 코드 분석 체크 인 정책을 통해 유지 관리할 수 있는 코드 적용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,11 +49,11 @@ ms.locfileid: "49174853"
   
     -   상속 수준: **CA1501 AvoidExcessiveInheritance** -임계값: 5 개 수준 깊이에서 경고 발생  
   
-    -   복잡성: **CA1502 AvoidExcessiveComplexity** -임계값: 25 개가 넘는에서 경고 발생  
+    -   복잡성: **CA1502 AvoidExcessiveComplexity** -임계값: 경고에서 25 개가 넘는  
   
-    -   유지 관리 인덱스: **CA1505 AvoidUnmaintainableCode** -임계값: 20 개 미만의에서 경고 발생  
+    -   유지 관리 인덱스: **CA1505 AvoidUnmaintainableCode** - Threshold: 20 개 미만의에서 경고 발생  
   
-    -   : 클래스 결합 **CA1506 AvoidExcessiveClassCoupling** -임계값: 클래스에 대해 80 개 및 30 개 이상의 메서드에 대 한 경고  
+    -   클래스 결합 합니다. **CA1506 AvoidExcessiveClassCoupling** -임계값: 클래스에 대해 80 개 및 30 개 이상의 메서드에 대 한 경고  
   
     -   또한 빌드를 방지 하기 위해 규칙 위반을을 선택 합니다 **경고를 오류로** 규칙 설명 옆의 확인란 합니다.  
   
@@ -67,6 +62,3 @@ ms.locfileid: "49174853"
 ## <a name="see-also"></a>참고 항목  
  [코드 메트릭 값](../code-quality/code-metrics-values.md)   
  [코드 분석 체크 인 정책 만들기 및 사용](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
-
-
-
