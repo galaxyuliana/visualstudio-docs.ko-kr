@@ -1,14 +1,9 @@
 ---
 title: 프로젝트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - solutions [Visual Studio]
 - custom tools [Visual Studio SDK]
@@ -18,13 +13,13 @@ helpviewer_keywords:
 ms.assetid: 237742e4-a638-4d5b-a9b3-6a69d627763c
 caps.latest.revision: 44
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: c3d31f1ce7d063969aad113b95a6684272a28fe9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: a251af12ccf4be5f0f48f789ac59fedaed3299b0
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51761218"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983442"
 ---
 # <a name="projects"></a>프로젝트
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +36,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및에 표
  [웹 프로젝트](../../extensibility/internals/web-projects.md)  
  웹 응용 프로그램 만들고 웹 프로젝트에 설명 합니다.  
   
- [새 프로젝트 생성: 내부 살펴보기, 1 부](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) 고 [새 프로젝트 생성: 내부 살펴보기, 2 부](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)  
+ [새 프로젝트 생성: 내부적으로 1 부](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) 고 [새 프로젝트 생성: 내부적으로 2 부](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)  
  새 프로젝트를 만들 때 실제로 발생에 대해 설명 합니다.  
   
  [VSSDK 샘플](../../misc/vssdk-samples.md)  
@@ -50,4 +45,3 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및에 표
 ## <a name="related-sections"></a>관련 단원  
  [Visual Studio SDK 기본 사항](../../extensibility/internals/inside-the-visual-studio-sdk.md)  
  Visual Studio 확장성의 다양 한 측면을 설명 합니다.
-

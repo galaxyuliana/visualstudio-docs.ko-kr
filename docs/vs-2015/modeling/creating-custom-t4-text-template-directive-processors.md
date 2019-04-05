@@ -1,25 +1,22 @@
 ---
 title: 사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, custom directive processors
 ms.assetid: 422b47af-5441-4b02-b5ad-1b8b328457e3
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 0defae5127b3443eb30f02558fd1acf545651e3e
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: ab39de049b1ab3ff8054070b863380b66fd35018
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49852747"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982571"
 ---
 # <a name="creating-custom-t4-text-template-directive-processors"></a>사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,6 +71,3 @@ ms.locfileid: "49852747"
   
  [연습: 사용자 지정 지시문 프로세서 만들기](../modeling/walkthrough-creating-a-custom-directive-processor.md)  
  사용자 지정 지시문 프로세서를 만드는 방법, 등록 하 고 지시문 프로세서를 테스트 하는 방법 및 HTML로 출력 파일의 형식을 지정 하는 방법을 설명 합니다.
-
-
-

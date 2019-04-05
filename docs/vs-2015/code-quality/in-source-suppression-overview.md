@@ -1,14 +1,9 @@
 ---
 title: 소스 비 표시 개요에서 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords:
 - source suppression, code analysis
 - code analysis, source suppression
@@ -17,12 +12,12 @@ caps.latest.revision: 42
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 844681d079e5565aab9eceadb73f7d8a61cbb2c6
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: b7f0b3ef2b680dbe4675ef6e8875ef30a1f210bc
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49209042"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985126"
 ---
 # <a name="in-source-suppression-overview"></a>ISS 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,7 +99,7 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 ## <a name="generated-code"></a>생성된 코드  
  관리 코드 컴파일러 및 일부 타사 도구는 신속한 코드 개발을 용이 하 게 코드를 생성 합니다. 소스 파일에 표시 되는 컴파일러에서 생성 된 코드는 일반적으로 표시 합니다 **GeneratedCodeAttribute** 특성입니다.  
   
- 코드 분석 경고 및 생성 된 코드에 대 한 오류를 표시 하지 않을 것인지를 선택할 수 있습니다. 이러한 경고 및 오류를 표시 하지 않는 방법에 대 한 정보를 참조 하세요 [방법: 생성 된 코드에 대 한 경고 표시 안 함](../code-quality/how-to-suppress-code-analysis-warnings-for-generated-code.md)합니다.  
+ 코드 분석 경고 및 생성 된 코드에 대 한 오류를 표시 하지 않을 것인지를 선택할 수 있습니다. 이러한 경고 및 오류를 표시 하지 않는 방법에 대 한 정보를 참조 하세요. [방법: 생성 된 코드에 대 한 경고를 표시 하지 않으려면](../code-quality/how-to-suppress-code-analysis-warnings-for-generated-code.md)합니다.  
   
  코드 분석에서 무시 하는 참고 **GeneratedCodeAttribute** 전체 어셈블리 또는 단일 매개 변수 중 하나에 적용 됩니다. 이러한 상황은 거의 발생 하지 않습니다.  
   
@@ -130,6 +125,3 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
   
 ## <a name="see-also"></a>참고 항목  
  <xref:System.Diagnostics.CodeAnalysis>
-
-
-

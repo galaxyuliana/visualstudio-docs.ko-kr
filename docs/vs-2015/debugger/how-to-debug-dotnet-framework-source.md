@@ -1,14 +1,9 @@
 ---
-title: 방법:.NET Framework 소스 디버그 | Microsoft Docs
-ms.custom: ''
+title: '방법: .NET Framework 소스 디버그 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -20,15 +15,15 @@ ms.assetid: fc12e472-ac6a-4e77-8e22-a769e13a03b8
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ce5e20524040d131a655da1567606ffbb0934a80
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: cbc6ed2ff77a971962fa73b15d5b7aafb9ef02b8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51725428"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982909"
 ---
-# <a name="how-to-debug-net-framework-source"></a>방법: .NET Framework 소스 디버깅
+# <a name="how-to-debug-net-framework-source"></a>방법: .NET Framework 소스 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 최신 버전의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에 대 한 새로운 기능을 제공 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 디버깅 합니다. 디버그 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 소스 코드에 대 한 기호 디버깅에 대 한 액세스 있어야 합니다. 한 단계씩 실행할 수 있도록 해야 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 원본입니다.  
@@ -80,6 +75,3 @@ ms.locfileid: "51725428"
 ## <a name="see-also"></a>참고 항목  
  [Debugging Managed Code](../debugger/debugging-managed-code.md) (관리 코드 디버그)  
  [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
-
-
-
