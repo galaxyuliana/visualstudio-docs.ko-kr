@@ -14,14 +14,14 @@ ms.assetid: 82ff8b74-1710-4358-9a26-dc92ab29c53b
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 05842c274c27165a7065cb90fda60dd75da2a659
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: da8eb2f21cbe7ef611aaba863e853a2fe7a71753
+ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56840340"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "59018313"
 ---
-# <a name="expected-"></a>'@'가 필요합니다.
+# <a name="expected-"></a>예상 '\@'
 사용 하 여 조건부 컴파일 문에서 사용할 변수를 만들려고 합니다 `@set` 문을 배치 하지 않고 있지만 at 기호 "**@**" 변수 이름 앞입니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
@@ -33,6 +33,6 @@ ms.locfileid: "56840340"
     ```  
   
 ## <a name="see-also"></a>참고 항목  
- [@set Statement](../../javascript/reference/at-set-statement-javascript.md)   
+ [@set 문](../../javascript/reference/at-set-statement-javascript.md)   
  [조건부 컴파일](../../javascript/advanced/conditional-compilation-javascript.md)   
  [조건부 컴파일 변수](../../javascript/advanced/conditional-compilation-variables-javascript.md)

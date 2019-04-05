@@ -18,7 +18,7 @@ ms.workload:
 - multiple
 ms.openlocfilehash: fcab7ac3bb2a7983d8500b6f27f910fa33fc1efe
 ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
-ms.translationtype: MTE95
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/28/2019
 ms.locfileid: "58567843"
@@ -154,7 +154,7 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 
 - `IsWebBootstrapper` 확인 여부를 합니다 *setup.exe* 부트스트래퍼는 웹을 통해 또는 디스크 기반 모드에서 작동 합니다.
 
-## <a name="installurl-supporturl-publishurl-and-updateurl"></a>InstallURL "," SupportUrl "," PublishURL, "및" UpdateURL
+## <a name="installurl-supporturl-publishurl-and-updateurl"></a>InstallURL, SupportUrl, PublishURL, 및 UpdateURL
  다음 표에서 ClickOnce 배포를 위한 네 가지 URL 옵션을 보여 줍니다.
 
 |URL 옵션|설명|
