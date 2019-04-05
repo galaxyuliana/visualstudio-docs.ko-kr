@@ -1,14 +1,9 @@
 ---
 title: 병렬을 사용 하 여 스택 창 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.parallelstacks
 dev_langs:
@@ -22,13 +17,13 @@ ms.assetid: f50efb78-5206-4803-bb42-426ef8133f2f
 caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 602fdd683ecb1b3244289c305e4fc850d337b03e
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: df364440f544df663eff294dfd53dcd671dea049
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51792036"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985417"
 ---
 # <a name="using-the-parallel-stacks-window"></a>병렬 스택 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +63,7 @@ ms.locfileid: "51792036"
   
  ![병렬 스택 창의 도구 모음](../debugger/media/parallel-stackstoolbar.png "Parallel_StacksToolbar")  
   
-|설명선 문자|Control|설명|  
+|설명선 문자|컨트롤|설명|  
 |--------------------|-------------|-----------------|  
 |A|스레드/작업 콤보 상자|스레드의 호출 스택과 작업의 호출 스택 간에 뷰를 전환합니다. 자세한 내용은 작업 뷰와 스레드 뷰를 참조하십시오.|  
 |B|플래그가 지정된 항목만 표시|와 같은 다른 디버그 창에서 플래그가 지정 된 스레드에 대해서만 호출 스택이 표시 합니다 **GPU 스레드** 창 및 **병렬 조사식** 창입니다.|  
@@ -130,6 +125,3 @@ ms.locfileid: "51792036"
  [작업 창 사용](../debugger/using-the-tasks-window.md)   
  [연습: 병렬 응용 프로그램 디버깅](../debugger/walkthrough-debugging-a-parallel-application.md)   
  [Task 클래스](../extensibility/debugger/task-class-internal-members.md)
-
-
-

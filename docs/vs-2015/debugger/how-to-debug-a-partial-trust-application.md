@@ -1,14 +1,9 @@
 ---
 title: '방법: 부분 신뢰 응용 프로그램 디버그 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -22,15 +17,15 @@ ms.assetid: 9d30ad92-28ce-4b21-91d8-698474cddf64
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 76cce8cfcf57f956b5de16b72f7a275e1d629630
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 7864728237e1fc84958d3edea6806508f1339902
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51782052"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971781"
 ---
-# <a name="how-to-debug-a-partial-trust-application"></a>How to: Debug a Partial Trust Application
+# <a name="how-to-debug-a-partial-trust-application"></a>방법: 부분 신뢰 응용 프로그램 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows 및 콘솔 응용 프로그램에 적용됩니다.  
@@ -66,7 +61,7 @@ Windows 및 콘솔 응용 프로그램에 적용됩니다.
   
 ### <a name="to-add-an-extra-permission-when-a-security-exception-occurs"></a>보안 예외가 발생한 경우 필요한 권한을 추가하려면  
   
-1.  **예외 도우미** 메시지와 함께 대화 상자가 나타납니다: **SecurityException 처리 되지 않았습니다.**  
+1.  합니다 **예외 도우미** 메시지와 함께 대화 상자가 나타납니다. **SecurityException 처리 되지 않았습니다.**  
   
 2.  에 **예외 도우미** 대화 상자의 **동작**, 클릭 **프로젝트에 추가 권한**합니다.  
   
@@ -89,6 +84,3 @@ Windows 및 콘솔 응용 프로그램에 적용됩니다.
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)   
  [디버거 보안](../debugger/debugger-security.md)
-
-
-
