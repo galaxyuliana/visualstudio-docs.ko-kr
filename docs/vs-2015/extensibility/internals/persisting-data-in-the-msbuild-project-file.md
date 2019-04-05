@@ -1,33 +1,28 @@
 ---
 title: MSBuild 프로젝트 파일에 데이터를 유지 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - project files, persisting data in
 ms.assetid: 6a920cb7-453d-4ffd-af1c-6f3084bd03f7
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 059ddc7b9b8fe0de06530af704bb5f7e271f6744
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: d6c4318ff23fecdaf312533c7b92712db291fee8
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51749646"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "59002072"
 ---
 # <a name="persisting-data-in-the-msbuild-project-file"></a>MSBuild 프로젝트 파일의 데이터 유지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 프로젝트 하위 형식이 면 나중에 사용할 프로젝트 파일에 하위 형식의 특정 데이터를 유지 해야 합니다. 프로젝트 하위 형식이 면 다음 요구 사항을 충족 하기 위해 프로젝트 파일 지 속성을 사용 합니다.  
   
-1.  프로젝트 빌드의 일부로 사용 되는 데이터를 유지 합니다. (Microsoft Build Engine에 대 한 자세한 내용은 참조 하세요. [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) 빌드 관련 정보를 수행할 수 있습니다.  
+1.  프로젝트 빌드의 일부로 사용 되는 데이터를 유지 합니다. (Microsoft Build Engine에 대 한 자세한 내용은 참조 하세요. [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) 빌드 관련 정보를 수행할 수 있습니다.  
   
     1.  구성에 관계 없이 데이터입니다. 즉, 비어 있거나 누락 된 조건 사용 하 여 MSBuild 요소에 저장 된 데이터입니다.  
   
@@ -85,4 +80,3 @@ ms.locfileid: "51749646"
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 하위 형식](../../extensibility/internals/project-subtypes.md)
-

@@ -1,25 +1,23 @@
 ---
 title: C + + 용 visual Studio 데이터 도구 | Microsoft Docs
-ms.custom: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 3a3849d9-1bc7-47d1-805e-1755223ccba2
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 030e142911078aec36b01335c8fb3aaa4d82ac78
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 0fba11063e7be570dc8ad2ce9a1b07b3ea88ffa2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49849647"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986241"
 ---
-# <a name="visual-studio-data-tools-for-c"></a>C + + 용 visual Studio 데이터 도구
+# <a name="visual-studio-data-tools-for-c"></a>C++용 Visual Studio 데이터 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -27,11 +25,11 @@ ms.locfileid: "49849647"
   
  SQL database에 연결 하려면 ODBC 및 OLE DB 드라이버 및 Windows와 함께 제공 되는 ADO 공급자 네이티브 c + + 응용 프로그램 사용할 수 있습니다.     이러한 인터페이스를 지 원하는 모든 데이터베이스에 연결할 수 있습니다. ODBC 드라이버에는 표준입니다. OLE DB는 이전 버전과 호환성을 위해 제공 됩니다. 이러한 데이터 기술에 대 한 자세한 내용은 참조 하세요. [Windows Data Access Components](https://msdn.microsoft.com/library/windows/desktop/aa968814\(v=vs.85\).aspx)  
   
- SQL Server 2005에 포함 된 사용자 지정 기능을 활용 하 여 나중에 사용 하 여 [SQL Server Native Client](https://msdn.microsoft.com/sqlserver/aa937733)합니다. 네이티브 클라이언트는 SQL Server ODBC 드라이버와 단일 네이티브 동적 연결 라이브러리 (DLL)의 SQL Server OLE DB 공급자도 포함 됩니다. Microsoft SQL Server에 네이티브 코드 Api (ODBC, OLE DB 및 ADO)를 사용 하 여 응용 프로그램 지원 합니다.  SQL Server Data Tools를 사용 하 여 SQL Server Native Client를 설치합니다. 프로그래밍 가이드는 여기: [SQL Server Native Client 프로그래밍](https://msdn.microsoft.com/library/ms130892.aspx)합니다.  
+ SQL Server 2005에 포함 된 사용자 지정 기능을 활용 하 여 나중에 사용 하 여 [SQL Server Native Client](https://msdn.microsoft.com/sqlserver/aa937733)합니다. 네이티브 클라이언트는 SQL Server ODBC 드라이버와 단일 네이티브 동적 연결 라이브러리 (DLL)의 SQL Server OLE DB 공급자도 포함 됩니다. Microsoft SQL Server에 네이티브 코드 Api (ODBC, OLE DB 및 ADO)를 사용 하 여 응용 프로그램 지원 합니다.  SQL Server Data Tools를 사용 하 여 SQL Server Native Client를 설치합니다. 프로그래밍 가이드는 여기서: [SQL Server Native Client 프로그래밍](https://msdn.microsoft.com/library/ms130892.aspx)합니다.  
   
 ## <a name="to-connect-to-localdb-through-odbc-and-sql-native-client-from-a-c-application"></a>C + + 응용 프로그램에서 ODBC 및 SQL Native Client를 통해 localDB에 연결  
   
-1. SQL Server Data Tools를 설치 합니다.  
+1. SQL Server 데이터 도구를 설치합니다.  
   
 2. 샘플 SQL database에 연결 하는 경우, Northwind 데이터베이스를 다운로드 하 고 새 위치에 압축을 풉니다.  
   
@@ -58,7 +56,7 @@ ms.locfileid: "49849647"
    #include <sqlncli.h>  
    ```  
   
-    Note는 샘플 사용 하지 않으므로 실제로 네이티브 클라이언트 기능을 이전 단계를 컴파일하고 실행 하려면 필요 하지 않습니다. 하지만 프로젝트는 이제이 기능을 사용 하 여에 대 한 구성 합니다. 자세한 내용은 [SQL Server Native Client 프로그래밍](https://msdn.microsoft.com/library/ms130892\(v=sql.130\).aspx)합니다.  
+    Note는 샘플 사용 하지 않으므로 실제로 네이티브 클라이언트 기능을 이전 단계를 컴파일하고 실행 하려면 필요 하지 않습니다. 하지만 프로젝트는 이제이 기능을 사용 하 여에 대 한 구성 합니다. 자세한 내용은 [SQL Server Native Client 프로그래밍](https://msdn.microsoft.com/library/ms130892\(v=sql.130\).aspx)을 참조하세요.  
   
 7. ODBC 하위 시스템에 사용할 드라이버를 지정 합니다. 샘플은 명령줄 인수로 드라이버 연결 문자열 특성에 전달합니다. **프로젝트** > **속성** > **디버깅**를이 명령 인수를 추가 합니다.  
   
@@ -66,11 +64,9 @@ ms.locfileid: "49849647"
    DRIVER="SQL Server Native Client 11.0"  
    ```  
   
-8. F5 키를 눌러 응용 프로그램을 빌드하고 실행합니다. 데이터베이스를 입력 하 라는 메시지가 표시 되는 드라이버에서 대화 상자가 표시 됩니다. 입력 `(localdb)\MSSQLLocalDB`를 확인 하 고 **트러스트 된 연결 사용**합니다. 키를 눌러 **확인**합니다. 성공적으로 연결을 나타내는 메시지를 사용 하 여 콘솔에 표시 됩니다. 또한 나타납니다 명령 프롬프트에서 SQL 문을 입력할 수 있습니다. 다음 화면에는 예제 쿼리 및 결과 보여 줍니다.  
+8. F5 키를 눌러 애플리케이션을 빌드하고 실행합니다. 데이터베이스를 입력 하 라는 메시지가 표시 되는 드라이버에서 대화 상자가 표시 됩니다. 입력 `(localdb)\MSSQLLocalDB`를 확인 하 고 **트러스트 된 연결 사용**합니다. **확인**을 누릅니다. 성공적으로 연결을 나타내는 메시지를 사용 하 여 콘솔에 표시 됩니다. 또한 나타납니다 명령 프롬프트에서 SQL 문을 입력할 수 있습니다. 다음 화면에는 예제 쿼리 및 결과 보여 줍니다.  
   
     ![ODBC 샘플 쿼리 출력](../data-tools/media/raddata-odbc-sample-query-output.png "raddata ODBC 샘플 쿼리 출력")  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)
-
-
