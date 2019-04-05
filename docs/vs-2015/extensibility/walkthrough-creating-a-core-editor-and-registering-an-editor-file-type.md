@@ -1,28 +1,23 @@
 ---
-title: '연습: 코어 편집기 만들기 및 등록 하는 편집기 파일 형식 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 핵심 편집기 만들기 및 등록 하는 편집기 파일 형식 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - walkthrough
 ms.assetid: 24d2bffd-a35c-46db-8515-fd60b884b7fb
 caps.latest.revision: 30
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 1573709c7ef42e51454ca65103a6faeda78dcc1b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 9e900fa7d7bb65d5f55faab00c779247114278eb
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51778711"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983007"
 ---
-# <a name="walkthrough-creating-a-core-editor-and-registering-an-editor-file-type"></a>연습: 코어 편집기 만들기 및 등록 하는 편집기 파일 형식
+# <a name="walkthrough-creating-a-core-editor-and-registering-an-editor-file-type"></a>연습: 핵심 편집기 만들기 및 등록 하는 편집기 파일 형식
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 연습에는 시작 하는 VSPackage를 만드는 방법을 보여 줍니다는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] .myext 파일 이름 확장명을 가진 파일의 핵심 편집기가 로드 됩니다.  
@@ -41,7 +36,7 @@ ms.locfileid: "51778711"
   
 ### <a name="to-create-the-vspackage"></a>VSPackage를 만들려면  
   
--   시작 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 만들고는 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 라는 VSPackage `MyPackage`에 설명 된 대로 [연습: 메뉴 명령을 VSPackage를 만드는](http://msdn.microsoft.com/en-us/d699c149-5d1e-47ff-94c7-e1222af02c32)합니다.  
+-   시작 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 만들고는 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 라는 VSPackage `MyPackage`에 설명 된 대로, [연습: 메뉴 명령 VSPackage를 만드는](http://msdn.microsoft.com/d699c149-5d1e-47ff-94c7-e1222af02c32)합니다.  
   
 ### <a name="to-add-the-editor-factory"></a>편집기 팩터리를 추가 하려면  
   
@@ -403,4 +398,3 @@ ms.locfileid: "51778711"
 ## <a name="see-also"></a>참고 항목  
  [핵심 편집기 내에서](../extensibility/inside-the-core-editor.md)   
  [레거시 API를 사용하여 핵심 편집기 인스턴스화](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)
-

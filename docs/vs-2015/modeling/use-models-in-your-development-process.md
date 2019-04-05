@@ -1,13 +1,8 @@
 ---
 title: 개발 프로세스에서 모델을 사용 하 여 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-techdebt
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
 - UML, using models
@@ -15,13 +10,13 @@ ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 56534483f8b9cda99b756524d87408efbedfe275
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c75b2aa7d4796a97370f414f0b7286c271b4c977
+ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51757699"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "59002225"
 ---
 # <a name="use-models-in-your-development-process"></a>개발 프로세스에서 모델 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,7 +99,7 @@ Visual Studio에서 모델을 사용하여 시스템, 응용 프로그램 또는
   
 -   사용 사례. 구현하는 개발 작업에 사용 사례를 연결할 수 있습니다.  
   
--   사용 사례 확장. 사용 사례의 한 측면이 반복에서 구현되는 경우에만 기본 사용 사례 및 하나 이상의 확장으로 구분할 수 있습니다. 확장은 «extend» 관계로 기본 사례에 연결된 사용 사례입니다. 사용 사례 확장에 대 한 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)합니다.  
+-   사용 사례 확장. 사용 사례의 한 측면이 반복에서 구현되는 경우에만 기본 사용 사례 및 하나 이상의 확장으로 구분할 수 있습니다. 확장은 «extend» 관계로 기본 사례에 연결된 사용 사례입니다. 사용 사례 확장에 대 한 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)를 참조하세요.  
   
 -   비즈니스 규칙 또는 서비스 품질 요구 사항을 설명하는 주석. 자세한 내용은 [사용자 요구 사항 모델](../modeling/model-user-requirements.md)합니다.  
   
@@ -137,18 +132,15 @@ Visual Studio에서 모델을 사용하여 시스템, 응용 프로그램 또는
   
 |**범주**|**링크**|  
 |------------------|---------------|  
-|**비디오**|![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Video: 만들기 및 사용 하 여 UML 모델 및 다이어그램 (Visual Studio 2010 Ultimate) 하는 방법](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: Visual Studio 2010을 사용한 UML](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [MSDN 어떻게 할까요? 시리즈: UML 도구 및 확장성 (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|  
+|**비디오**|![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Video: UML 모델 및 다이어그램 (Visual Studio 2010 Ultimate) 만들기 및 사용 하는 방법](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: Visual Studio 2010을 사용한 UML](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo") [MSDN 어떻게 할까요? 시리즈: UML 도구 및 확장성 (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|  
 |**포럼**|-   [Visual Studio 시각화 및 모델링 도구](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio 시각화 및 모델링 SDK(DSL 도구)](http://go.microsoft.com/fwlink/?LinkId=184721)|  
 |**Blogs**|[Visual Studio ALM + Team Foundation Server 블로그](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**기술 문서 및 저널**|[MSDN 아키텍처 센터](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio 아키텍처 도구 사용 지침](../modeling/visual-studio-architecture-tooling-guidance.md)|  
   
 ## <a name="see-also"></a>참고 항목  
- [Agile 개발에서 모델 사용](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Agile 개발에서 모델 사용](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [앱 용 모델 만들기](../modeling/create-models-for-your-app.md)   
  [사용자 요구 사항 모델링](../modeling/model-user-requirements.md)   
  [앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)   
  [모델에서 테스트 개발](../modeling/develop-tests-from-a-model.md)   
  [모델링 솔루션 구성](../modeling/structure-your-modeling-solution.md)
-
-
-

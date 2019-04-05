@@ -1,14 +1,9 @@
 ---
 title: '방법: ClickOnce 배포 시에서 개별 필수 구성 요소에 대 한 지원 URL 지정 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -20,15 +15,15 @@ ms.assetid: 590742c3-a286-4160-aa75-7a441bb2207b
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: bdd366cb8ac86f20e7457178f63aa553a0814158
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 12d85a05e8210e292369f4c3a97fbb85dc48d821
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49831577"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982016"
 ---
-# <a name="how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment"></a>방법: ClickOnce 배포 시 개별 필수 구성 요소에 대한 지원 URL 지정
+# <a name="how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment"></a>방법: ClickOnce 배포 시에서 개별 필수 구성 요소에 대 한 지원 URL 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 요소에 대 한 클라이언트 컴퓨터에서 사용할 수 있어야 하는 다양 한 테스트 수를 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 실행 합니다. 여기에 필요한 최소 버전의는 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], 운영 체제와 전역 어셈블리 캐시 (GAC)에 미리 설치 해야 하는 모든 어셈블리의 버전입니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]그러나 없습니다 스스로 설치 필수 구성이 요소 중 하나; 필수 구성 요소가 없는 경우 단순히 설치를 중지 하 고 설치에 실패 한 이유를 설명 하는 대화 상자를 표시 합니다.  
@@ -67,7 +62,7 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 �
   
     ```  
       <dependency>  
-        <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/missingSampleGACAssembly.htm">  
+        <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/missingSampleGACAssembly.htm">  
           <assemblyIdentity name="SampleGACAssembly" version="5.0.0.0" publicKeyToken="04529dfb5da245c5" processorArchitecture="msil" language="neutral" />  
         </dependentAssembly>  
       </dependency>  
@@ -84,7 +79,7 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 �
     </compatibleFrameworks>  
     ```  
   
-7.  응용 프로그램 매니페스트를 수동으로 변경한 후 디지털 인증서를 사용 하 여 응용 프로그램 매니페스트에 다시 서명 후 업데이트 하 고도 배포 매니페스트에 다시 서명 합니다. Mage.exe를 사용 해야 합니다 또는 MageUI.exe SDK 도구를 사용 하 여 이러한 파일을 다시 생성으로이 작업을 위해 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 수동 변경 내용을 지웁니다. Mage.exe를 사용 하 여 매니페스트에 다시 서명할 수에 대 한 자세한 내용은 참조 하세요. [방법: re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)합니다.  
+7.  응용 프로그램 매니페스트를 수동으로 변경한 후 디지털 인증서를 사용 하 여 응용 프로그램 매니페스트에 다시 서명 후 업데이트 하 고도 배포 매니페스트에 다시 서명 합니다. Mage.exe를 사용 해야 합니다 또는 MageUI.exe SDK 도구를 사용 하 여 이러한 파일을 다시 생성으로이 작업을 위해 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 수동 변경 내용을 지웁니다. Mage.exe를 사용 하 여 매니페스트에 다시 서명할 수에 대 한 자세한 내용은 참조 하세요. [방법: 응용 프로그램 및 배포 매니페스트에 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)합니다.  
   
 ## <a name="net-framework-security"></a>.NET Framework 보안  
  지원 URL은 응용 프로그램은 부분 신뢰에서 실행 하도록 표시 되어 있으면 대화 상자에서 표시 되지 않습니다.  
@@ -95,6 +90,3 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 �
  [\<compatibleFrameworks > 요소](../deployment/compatibleframeworks-element-clickonce-deployment.md)   
  [ClickOnce 및 Authenticode](../deployment/clickonce-and-authenticode.md)   
  [응용 프로그램 배포 필수 조건](../deployment/application-deployment-prerequisites.md)
-
-
-

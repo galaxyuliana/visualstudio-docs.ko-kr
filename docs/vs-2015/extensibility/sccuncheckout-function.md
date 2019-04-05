@@ -1,14 +1,9 @@
 ---
 title: SccUncheckout 함수 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: reference
 f1_keywords:
 - SccUncheckout
 helpviewer_keywords:
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 6d498b70-29c7-44b7-ae1c-7e99e488bb09
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 5769f68055985fc79cc821387f6bd75613d70777
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 3ae5ecd7568a10936479f72f92e9914132f2dcdf
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51752727"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984898"
 ---
 # <a name="sccuncheckout-function"></a>SccUncheckout 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +50,7 @@ SCCRTN SccUncheckout (
  lpFileNames  
  [in] 체크 아웃을 취소 하려는 파일의 정규화 된 로컬 경로 이름 배열입니다.  
   
- 옵션이  
+ fOptions  
  [in] 명령 플래그 (사용 되지 않음)입니다.  
   
  pvOptions  
@@ -80,4 +75,3 @@ SCCRTN SccUncheckout (
   
 ## <a name="see-also"></a>참고 항목  
  [소스 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)
-

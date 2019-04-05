@@ -1,14 +1,9 @@
 ---
 title: '방법: 자체 호스팅된 WCF 서비스 디버그 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -22,18 +17,18 @@ ms.assetid: 288922be-ba3f-411e-af50-bba39c9529cc
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: cb9e7d965470a85d41b856d42c6e2c0b291723b4
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: fb50b9ed0c3debbde0ef41cd474df1f8fd9f4517
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51787473"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984294"
 ---
-# <a name="how-to-debug-a-self-hosted-wcf-service"></a>방법: 자체 호스팅 WCF 서비스 디버깅
+# <a name="how-to-debug-a-self-hosted-wcf-service"></a>방법: 자체 호스팅 WCF 서비스 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-A *호스 티 드 서비스를 자체* 는 IIS, WCF 서비스 호스트 내에서 실행 하지 않는 WCF 서비스 또는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 개발 서버입니다. 자체 호스팅된 WCF를 디버그 하는 가장 쉬운 방법은 구성 하는 것 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 선택 하면 클라이언트와 서버를 시작 하려면 **디버깅 시작** 에 **디버그** 메뉴.  
+*자체 호스팅 서비스*는 IIS, WCF 서비스 호스트 또는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server 내에서 실행되지 않는 WCF 서비스입니다. 자체 호스팅된 WCF를 디버그 하는 가장 쉬운 방법은 구성 하는 것 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 선택 하면 클라이언트와 서버를 시작 하려면 **디버깅 시작** 에 **디버그** 메뉴.  
   
  WCF 서비스가 자체 호스트 하는 내부 또는 NT 서비스와 같은 이러한 방식으로 시작할 수 없는 프로세스 하는 경우이 메서드를 사용할 수 없습니다. 대신, 다음 중 하나를 수행할 수 있습니다.  
   
@@ -53,7 +48,7 @@ A *호스 티 드 서비스를 자체* 는 IIS, WCF 서비스 호스트 내에�
   
     2.  클릭 **시작 프로젝트 설정**합니다.  
   
-    3.  에 **솔루션 \<이름 > 속성** 대화 상자에서 **여러 개의 시작 프로젝트**합니다.  
+    3.  **솔루션 \<이름> 속성** 대화 상자에서 **여러 시작 프로젝트**를 선택합니다.  
   
     4.  에 **여러 개의 시작 프로젝트** 서버 프로젝트에 해당 하는 줄 눈금 클릭 **작업** 선택한 **시작**합니다.  
   
@@ -64,7 +59,4 @@ A *호스 티 드 서비스를 자체* 는 IIS, WCF 서비스 호스트 내에�
 ## <a name="see-also"></a>참고 항목  
  [WCF 서비스 디버그](../debugger/debugging-wcf-services.md)   
  [WCF 디버깅의 제한 사항](../debugger/limitations-on-wcf-debugging.md)   
- [방법: WCF 서비스 한 단계씩 실행](../debugger/how-to-step-into-wcf-services.md)
-
-
-
+ [방법: WCF 서비스 한 단계씩 코드 실행](../debugger/how-to-step-into-wcf-services.md)

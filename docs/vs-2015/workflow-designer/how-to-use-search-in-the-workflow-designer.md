@@ -1,23 +1,20 @@
 ---
-title: '방법: 워크플로 디자이너에서 검색을 사용 하 여 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 검색을 사용 하 여 워크플로 디자이너에서 | Microsoft Docs'
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
 caps.latest.revision: 3
 author: steved0x
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 6ff90f9e7916b598a1bf921f6de1e752afdb8b4f
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 427e854c19e65463abcd8780cfe95d38f3ea66f4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49272545"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984409"
 ---
 # <a name="how-to-use-search-in-the-workflow-designer"></a>방법: 워크플로 디자이너에서 검색 사용
 더 크고 복잡한 워크플로를 쉽게 만들려면 워크플로 디자이너에서 검색 기능을 사용하여 키워드로 항목을 찾을 수 있습니다. 디자이너는 바꾸기를 지원하지 않습니다. 검색은 디자이너에서 다음을 찾습니다.  
@@ -52,4 +49,4 @@ ms.locfileid: "49272545"
   
 2.  에 검색 조건을 입력 합니다 **찾을 내용** 텍스트 상자를 클릭 하 고 **모두 찾기**  
   
-3.  찾기 결과에 표시 됩니다는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **찾기 결과** 보기. 결과 항목을 두 번 클릭하면 워크플로 디자이너의 일치 항목이 포함된 활동으로 이동됩니다.
+3.  찾기 결과에 표시 됩니다는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **찾기 결과** 보기. 결과 항목을 두 번 클릭하면 Workflow Designer의 일치 항목이 포함된 활동으로 이동됩니다.

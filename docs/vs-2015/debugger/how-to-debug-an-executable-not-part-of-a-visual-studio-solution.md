@@ -1,14 +1,9 @@
 ---
 title: '방법: Visual Studio 솔루션의 일부가 아닌 실행 파일를 사용 하는 디버그 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -26,15 +21,15 @@ ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: a7fb9b0a31f078ce197851bccb1f4c85f24408a0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 099f284838a74ce5e302d9ba6ba0974b85260e73
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51798666"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982654"
 ---
-# <a name="how-to-debug-an-executable-not-part-of-a-visual-studio-solution"></a>방법: Visual Studio 솔루션의 일부가 아닌 실행 파일 디버깅
+# <a name="how-to-debug-an-executable-not-part-of-a-visual-studio-solution"></a>방법: Visual Studio 솔루션의 일부가 아닌 실행 파일를 사용 하는 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 때로는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트에 포함되지 않은 실행 파일을 디버깅해야 하는 경우가 있습니다. 예를 들어 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 외부에서 만든 실행 파일이나 다른 사용자로부터 받은 실행 파일이 이러한 경우입니다.  
@@ -73,7 +68,4 @@ ms.locfileid: "51798666"
 ## <a name="see-also"></a>참고 항목  
  [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)   
  [디버거 보안](../debugger/debugger-security.md)   
- [DBG 파일](http://msdn.microsoft.com/en-us/91e449e9-8b65-4123-960f-2107cd1f1cfd)
-
-
-
+ [DBG 파일](http://msdn.microsoft.com/91e449e9-8b65-4123-960f-2107cd1f1cfd)

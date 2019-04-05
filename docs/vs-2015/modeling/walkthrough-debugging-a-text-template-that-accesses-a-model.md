@@ -1,25 +1,22 @@
 ---
 title: '연습: 모델에 액세스 하는 텍스트 템플릿 디버그 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: af46a7fe-6b98-4d3d-b816-0bbf8e81e220
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: ca80111415c869543297ed24707ae27f0490f07b
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 4d6b759f62c4faa7e2f75f53f85cb04ba4484a7f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49924891"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984935"
 ---
-# <a name="walkthrough-debugging-a-text-template-that-accesses-a-model"></a>연습: 모델에 액세스하는 텍스트 템플릿 디버깅
+# <a name="walkthrough-debugging-a-text-template-that-accesses-a-model"></a>연습: 모델에 액세스 하는 텍스트 템플릿 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 수정 하거나 도메인별 언어 솔루션에서 텍스트 템플릿을 추가 하는 경우 엔진은 소스 코드 또는 생성 된 코드를 컴파일할 때 템플릿을 변환 하는 경우 오류가 발생할 수 있습니다. 다음 연습에서는 텍스트 템플릿 디버그를 수행할 수 있는 작업의 일부를 보여 줍니다.  
@@ -38,7 +35,7 @@ ms.locfileid: "49924891"
   
 - 회사 이름: Fabrikam  
   
-  도메인별 언어 솔루션을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 도메인별 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)합니다.  
+  도메인별 언어 솔루션을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 도메인 특정 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)를 참조하세요.  
   
 ## <a name="creating-a-text-template"></a>텍스트 템플릿 만들기  
  텍스트 템플릿은 솔루션에 추가 합니다.  
@@ -164,7 +161,7 @@ ms.locfileid: "49924891"
   
      (C#)  
   
-     **변환을 컴파일하는 중: Microsoft.VisualStudio.TextTemplating\<GUID >. GeneratedTextTransformation' 'ExampleModel'에 대 한 정의 없습니다**  
+     **변환을 컴파일하는 중: Microsoft.VisualStudio.TextTemplating\<GUID>. GeneratedTextTransformation' 'ExampleModel'에 대 한 정의 없습니다**  
   
      (Visual Basic)  
   
@@ -216,6 +213,3 @@ ms.locfileid: "49924891"
 5.  **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
   
      이제 시스템 텍스트 템플릿을 변환 하 고 해당 출력 파일을 생성 합니다. 에 오류가 표시 되지 것입니다 합니다 **오류 목록** 창입니다.
-
-
-

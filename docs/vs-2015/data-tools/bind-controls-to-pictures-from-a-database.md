@@ -1,12 +1,9 @@
 ---
 title: 데이터베이스의 그림에 컨트롤 바인딩 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -25,13 +22,13 @@ ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: fbaca836cb5b620c596b72bc991e91c1cfc2312c
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: cb1bdb99db405962f487bc9ec13de961f352ec48
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49189503"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982230"
 ---
 # <a name="bind-controls-to-pictures-from-a-database"></a>데이터베이스의 그림에 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,9 +38,9 @@ ms.locfileid: "49189503"
   
  데이터베이스의 그림은 일반적으로 바이트 배열로 저장 됩니다. 항목의 **데이터 원본** 바이트 배열이 있으면 입력 제어 저장 되는 창으로 설정 **None** 기본적으로 바이트 배열을 간단한 실행 파일에는 바이트 배열에서 아무 것도 포함 될 수 있으므로 대규모 응용 프로그램입니다. 바이트 배열 항목에 대 한 데이터 바인딩된 컨트롤을 만드는 합니다 **데이터 원본** 이미지를 나타내는 창을 만드는 컨트롤을 선택 해야 합니다.  
   
- 다음 절차에 있다고 가정 합니다 **데이터 원본** 창 이미지에 바인딩되는 항목으로 채워집니다. 자세한 내용은 [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)을 참조하십시오.  
+ 다음 절차에 있다고 가정 합니다 **데이터 원본** 창 이미지에 바인딩되는 항목으로 채워집니다.
   
-### <a name="to-bind-a-picture-in-a-database-to-a-control"></a>데이터베이스의 그림 컨트롤에 바인딩할  
+## <a name="bind-a-picture-in-a-database-to-a-control"></a>데이터베이스의 그림에 컨트롤을 바인딩합니다  
   
 1.  디자인 화면에 컨트롤을 추가 하려면 WPF 디자이너 또는 Windows Forms 디자이너에서 열려 있는지 확인 합니다.  
   
@@ -59,4 +56,3 @@ ms.locfileid: "49189503"
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)
-

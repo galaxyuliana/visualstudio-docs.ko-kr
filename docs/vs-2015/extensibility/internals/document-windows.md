@@ -1,26 +1,21 @@
 ---
 title: Windows 문서 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio SDK, document windows
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: d669485eb13c8d9f089a54dcbfcf92fac710f474
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: fb8ce0938ae79b0fc6108f6f3cdbe80a116f5531
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51784587"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985539"
 ---
 # <a name="document-windows"></a>문서 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ Visual Studio에서를 *문서 창* (MDI) 다중 문서 인터페이스 창과 �
   
 ## <a name="see-also"></a>참고 항목  
  [지연된 문서 로드](../../extensibility/internals/delayed-document-loading.md)
-

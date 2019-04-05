@@ -1,25 +1,20 @@
 ---
 title: Windows 디버거 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-debug
 ms.topic: conceptual
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 9a49df0f355672a3e49a61c0cfe51c02ba96e4be
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: fc52b883388640ef0e24478a08202bd2991375fc
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51727138"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985351"
 ---
 # <a name="debugger-windows"></a>디버거 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,10 +33,10 @@ ms.locfileid: "51727138"
 |병렬 조사식|Ctrl+Shift+D, (1, 2, 3, 4)|[병렬 스택 창 사용](../debugger/using-the-parallel-stacks-window.md)|  
 |조사식|Ctrl+Alt+W, (1, 2, 3, 4)|[조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)|  
 |간략한 조사식|Shift+F9|[조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)|  
-|자동|Ctrl+Alt+V, A|[변수 Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
-|로컬|Ctrl+Alt+V, L|[변수 Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
+|자동|Ctrl+Alt+V, A|[변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
+|로컬|Ctrl+Alt+V, L|[변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
 |직접 실행|Ctrl+Alt+I|[직접 실행 창](../ide/reference/immediate-window.md)|  
-|Python 대화형 디버그|Shift+Alt+I|[PTVS 시작: 대화형 Python](../python/getting-started-with-ptvs-interactive-python.md)|  
+|Python 대화형 디버그|Shift+Alt+I|[Ptvs 시작: 대화형 Python](../python/getting-started-with-ptvs-interactive-python.md)|  
 |JavaScript 콘솔|Ctrl+Alt+V, C|[빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)|  
 |DOM 탐색기|Ctrl+Alt+V, D|[DOM 탐색기를 사용하여 레이아웃 디버그](../debugger/debug-layout-using-dom-explorer.md)|  
 |라이브 시각적 트리|-|[디버그하는 동안 XAML 속성 검사](../debugger/inspect-xaml-properties-while-debugging.md)|  
@@ -56,8 +51,3 @@ ms.locfileid: "51727138"
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 기본 사항](../debugger/debugger-basics.md)
-
-
-
-
-

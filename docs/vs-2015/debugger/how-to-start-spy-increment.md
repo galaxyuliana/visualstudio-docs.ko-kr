@@ -1,27 +1,22 @@
 ---
 title: '방법: Spy + + 시작 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - Spy++, starting
 ms.assetid: 1d36813a-dc2a-4fda-9b3d-a38928a62ced
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 2b5cd20a51d251e23cceb4ee86b3ce0a555f3d34
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 60231333a084ef62e069f3e3aba9bee8bd25daed
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51797483"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985647"
 ---
 # <a name="how-to-start-spy"></a>방법: Spy++ 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,9 +44,6 @@ ms.locfileid: "51797483"
 2.  형식 **spyxx.exe** 한 다음 ENTER를 누릅니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Spy + + 사용](../debugger/using-spy-increment.md)   
- [Spy + + 뷰](../debugger/spy-increment-views.md)   
+ [Spy++ 사용](../debugger/using-spy-increment.md)   
+ [Spy++ 뷰](../debugger/spy-increment-views.md)   
  [Spy++ 참조](../debugger/spy-increment-reference.md)
-
-
-
