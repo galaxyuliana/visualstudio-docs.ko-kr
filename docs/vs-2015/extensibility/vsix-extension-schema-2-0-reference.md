@@ -1,27 +1,22 @@
 ---
 title: VSIX 확장 스키마 2.0 참조 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: reference
 helpviewer_keywords:
 - vsix
 - extension schema
 ms.assetid: 0da81b98-f5e3-40d3-ba9a-94551378d0b4
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: c0121f2d9d4a29942449b180c63c450d4a49b31f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 9cb9672696e0e1294fdd396b59fadd1c50fd697f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51785939"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970646"
 ---
 # <a name="vsix-extension-schema-20-reference"></a>VSIX 확장 스키마 2.0 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,9 +47,9 @@ VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합�
   
 -   `<Identity>` -이 패키지에 대 한 식별 정보를 정의 하 고 다음 특성을 포함 합니다.  
   
-    -   `Id` -이 특성은 작성자가 선택한 패키지에 대 한 고유 ID 여야 합니다. 이름을 CLR 형식 지정은 동일한 방식으로 정규화 되어야 합니다: Company.Product.Feature.Name 합니다. `Id` 특성 100 자로 제한 됩니다.  
+    -   `Id` -이 특성은 작성자가 선택한 패키지에 대 한 고유 ID 여야 합니다. 이름을은 CLR 형식 지정은 동일한 방식으로 정규화 되어야 합니다. Company.Product.Feature.Name 합니다. `Id` 특성 100 자로 제한 됩니다.  
   
-    -   `Version` -이 패키지 및 해당 내용을의 버전을 정의 합니다. 이 특성에는 CLR 어셈블리 버전 관리 형식을 따릅니다: Major.Minor.Build.Revision (1.2.40308.00). 더 높은 버전 번호를 사용 하 여 패키지를 패키지에 업데이트를 간주 됩니다 및 설치 된 기존 버전을 통해 설치할 수 있습니다.  
+    -   `Version` -이 패키지 및 해당 내용을의 버전을 정의 합니다. 이 특성에는 CLR 어셈블리 버전 관리 형식은 다음과 같습니다. Major.Minor.Build.Revision (1.2.40308.00)입니다. 더 높은 버전 번호를 사용 하 여 패키지를 패키지에 업데이트를 간주 됩니다 및 설치 된 기존 버전을 통해 설치할 수 있습니다.  
   
     -   `Language` -이 특성은 패키지에 대 한 기본 언어 및이 매니페스트에 텍스트 데이터에 해당 합니다. 이 특성 리소스 어셈블리에 대 한 예를 들어 CLR 로캘 코드 규칙을 따릅니다: en-우리, en, fr 합니다. 지정할 수 있습니다 `neutral` 를 모든 버전의 Visual Studio에서 실행 되는 중립 언어 확장을 선언 합니다. 기본값은 `neutral`입니다.  
   
@@ -101,7 +96,7 @@ VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합�
   
 -   `<InstallationTarget>` –이 요소는 VSIX 설치 관리자 패키지를 설치 하는 있는 위치를 제어 합니다. 경우 값은 `Scope` 특성은 "ProductExtension" 패키지 매니페스트 파일을 확장 하려면 해당 가용성을 알리는 내용의 일부로 설치 된 SKU를 대상으로 해야 합니다. 합니다 `<InstallationTarget>` 요소는 다음과 같은 경우 특성은 `Scope` 특성이 명시적 또는 기본값 "ProductExtension":  
   
-    -   `Id` -이 특성은 패키지를 식별합니다.  특성 네임 스페이스 규칙을 따르므로: Company.Product.Feature.Name 합니다. `Id` 특성 영숫자 문자만 포함 될 수 있으며 100 자로 제한 됩니다. 예상 값:  
+    -   `Id` -이 특성은 패키지를 식별합니다.  특성 네임 스페이스 규칙을 따릅니다. Company.Product.Feature.Name 합니다. `Id` 특성 영숫자 문자만 포함 될 수 있으며 100 자로 제한 됩니다. 예상 값:  
   
         -   Microsoft.VisualStudio.IntegratedShell  
   
@@ -143,7 +138,7 @@ VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합�
   
 -   `<Dependency>` 요소 –이 자식 요소에 다음 특성:  
   
-    -   `Id` -이 특성에는 종속 패키지에 대 한 고유 ID 여야 합니다. Id 값이 일치 해야 합니다는 `<Metadata><Identity>Id` 이 패키지에 종속 된 패키지의 특성입니다. `Id` 특성 네임 스페이스 규칙을 따르므로: Company.Product.Feature.Name 합니다. 특성에는 영숫자 문자만 포함할 수 있습니다 및 100 자로 제한 됩니다.  
+    -   `Id` -이 특성에는 종속 패키지에 대 한 고유 ID 여야 합니다. Id 값이 일치 해야 합니다는 `<Metadata><Identity>Id` 이 패키지에 종속 된 패키지의 특성입니다. `Id` 특성 네임 스페이스 규칙을 따릅니다. Company.Product.Feature.Name 합니다. 특성에는 영숫자 문자만 포함할 수 있습니다 및 100 자로 제한 됩니다.  
   
     -   `Version` -이 특성이이 SKU의 최소 및 최대 지원 되는 버전을 사용 하 여 버전 범위를 지정합니다. 패키지 있습니다 지원 되는 Sku의 버전을 자세히 설명 합니다. 버전 범위 표기법은 [12.0, 13.0], 위치:  
   
@@ -222,4 +217,3 @@ VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합�
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)
-
