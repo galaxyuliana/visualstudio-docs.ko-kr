@@ -1,26 +1,21 @@
 ---
 title: 솔루션 구성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - solution configurations
 ms.assetid: f22cfc75-3e31-4e0d-88a9-3ca99539203b
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 53d8e3d33a81e20d553e6a5c97eb6e6f33339079
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: eb14a2031b89f2a7deeb7d98cc483e90125b1905
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51801611"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983259"
 ---
 # <a name="solution-configuration"></a>솔루션 구성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,7 +51,7 @@ ms.locfileid: "51801611"
   
    현재 솔루션 구성에서 프로젝트를 빌드할 여부를 지정 합니다. 선택 되지 않은 프로젝트는 솔루션 수준 빌드 명령을 포함 하는 모든 프로젝트 종속성에도 불구 하 고 호출 하는 경우에 빌드되지 않습니다. 만들려는 선택 되지 않은 프로젝트 디버깅, 실행, 패키징 및 솔루션의 배포에 포함 됩니다.  
   
-- 배포  
+- 배포:  
   
    선택한 솔루션 빌드 구성을 사용 하 여 시작 또는 배포 명령을 사용 하는 경우 프로젝트를 배포할 수 있는지 여부를 지정 합니다. 이 필드에 대 한 확인란을 구현 하 여 배포 지 원하는 경우 사용할 수 있는 수를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> 인터페이스를 해당 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2> 개체입니다.  
   
@@ -66,4 +61,3 @@ ms.locfileid: "51801611"
  [관리 구성 옵션](../../extensibility/internals/managing-configuration-options.md)   
  [빌드에 대 한 프로젝트 구성](../../extensibility/internals/project-configuration-for-building.md)   
  [프로젝트 구성 개체](../../extensibility/internals/project-configuration-object.md)
-

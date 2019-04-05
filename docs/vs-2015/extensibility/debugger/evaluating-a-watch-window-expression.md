@@ -1,14 +1,9 @@
 ---
 title: 조사식 창 식 평가 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Watch window expressions
 - Watch window, expressions
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: b07e72c7-60d3-4b30-8e3f-6db83454c348
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 4dc9a56927ebe1e7b962ab815eb34028ba75350c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: fb60ec9d471c99b24e07eef11014ce82a18d50b4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51801476"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983680"
 ---
 # <a name="evaluating-a-watch-window-expression"></a>조사식 창 식 계산
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ ms.locfileid: "51801476"
 7.  Visual Studio 호출 [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) 다음 조사 목록에 표시 되는 식의 값을 가져옵니다.  
   
 ## <a name="parse-then-evaluate"></a>구문 분석 한 다음 평가  
- 식을 평가 하 여 프로세스를 두 단계로 세분화 됩니다 복잡 한 식을 구문 분석 하는 것은 평가 하는 것 보다 훨씬 더 오래 걸릴 수 있습니다, 되므로: 1) 식을 구문 분석 하 고 2) 구문 분석된 된 식을 평가 합니다. 이러한 방식으로 평가는 여러 번 나타날 수 있지만 식을 한 번만 구문 분석 해야 합니다. 중간 구문 분석 된 식에는 EE에서 반환 되는 [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) 에 캡슐화 되며으로 DE에서 반환 하는 개체를 [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) 개체입니다. 합니다 `IDebugExpression` 개체를 모두 평가 지연 합니다 `IDebugParsedExpression` 개체입니다.  
+ 복잡 한 식을 구문 분석 하는 것은 평가 하는 것 보다 훨씬 더 오래 걸릴 수 있습니다, 되므로 식을 평가 하 여 프로세스 두 단계로 세분화 됩니다. 1) 구문 분석 된 식 및 2) 구문 분석된 된 식을 평가합니다. 이러한 방식으로 평가는 여러 번 나타날 수 있지만 식을 한 번만 구문 분석 해야 합니다. 중간 구문 분석 된 식에는 EE에서 반환 되는 [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) 에 캡슐화 되며으로 DE에서 반환 하는 개체를 [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) 개체입니다. 합니다 `IDebugExpression` 개체를 모두 평가 지연 합니다 `IDebugParsedExpression` 개체입니다.  
   
 > [!NOTE]
 >  Visual Studio에서는이 가정 하는 경우에이 2 단계 프로세스를 준수 하는 EE 필요 없는 EE 구문 분석 하 고 동일한 단계에서 평가할 수 있습니다 때 [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) 호출 됩니다 (이것이 MyCEE 샘플의 작동 방법, 예를 들어). 언어 복잡 한 식을 형성 되는 경우에 평가 단계에서 구문 분석 단계를 구분 하는 것이 좋습니다. 여러 식을 조사할 때 Visual Studio 디버거 성능을 향상할 수 있습니다이 표시 됩니다.  
@@ -67,4 +62,3 @@ ms.locfileid: "51801476"
   
 ## <a name="see-also"></a>참고 항목  
  [CLR 식 계산기 작성](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
-

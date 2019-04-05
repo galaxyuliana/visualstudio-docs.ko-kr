@@ -1,12 +1,9 @@
 ---
 title: 'UML 동작 다이어그램: 지침 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML diagrams, activity
 - diagrams - modeling, activity
@@ -17,13 +14,13 @@ ms.assetid: fe5dbe96-79ab-483a-b9bc-44d0d1d3efc2
 caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: a13db375305e96c4657e007f9cd8bfffbf34f990
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 66ca625d0c9c6f2442576e997928b7b42760936a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51722688"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983773"
 ---
 # <a name="uml-activity-diagrams-guidelines"></a>UML 동작 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,13 +35,13 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
   
 - 사용자와 시스템 간의 비즈니스 프로세스 또는 워크플로를 설명합니다. 자세한 내용은 [사용자 요구 사항 모델](../modeling/model-user-requirements.md)합니다.  
   
-- 사용 사례에서 수행된 단계를 설명합니다. 자세한 내용은 [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
+- 사용 사례에서 수행된 단계를 설명합니다. 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
   
 - 소프트웨어의 메서드, 함수 또는 작업을 설명합니다. 자세한 내용은 [앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)합니다.  
   
   동작 다이어그램 그리기를 통해 프로세스를 향상할 수 있습니다. 기존 프로세스의 다이어그램이 매우 복잡한 것으로 확인되면 프로세스를 단순화하는 방법을 고려할 수 있습니다.  
   
-  동작 다이어그램에서 요소에 대 한 참조 정보를 참조 하세요 [UML 동작 다이어그램: 참조](../modeling/uml-activity-diagrams-reference.md)합니다.  
+  동작 다이어그램에서 요소에 대 한 참조 정보를 참조 하세요. [UML 동작 다이어그램: 참조](../modeling/uml-activity-diagrams-reference.md)를 참조하세요.  
   
 ##  <a name="Relationships"></a> 다른 다이어그램과 관계  
  동작 다이어그램을 그려서 비즈니스 프로세스 또는 사용자가 시스템을 사용하는 방법을 설명할 경우 사용 사례 다이어그램을 그려서 같은 정보를 다른 뷰로 표시할 수 있습니다. 사용 사례 다이어그램에서는 동작을 사용 사례로 그립니다. 사용 사례에 해당 동작과 같은 이름을 지정합니다. 사용 사례 뷰의 장점은 다음을 수행할 수 있다는 점입니다.  
@@ -57,7 +54,7 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
   
   동작 다이어그램을 그려서 소프트웨어 작업의 세부 디자인을 설명할 수도 있습니다.  
   
-  동작 다이어그램에서 작업 간에 전달된 데이터 흐름을 표시할 수 있습니다. 섹션을 참조 하세요 [데이터 흐름 설명](#DataFlows)합니다. 그러나 동작 다이어그램에서는 데이터 구조를 설명하지 않습니다. 데이터 구조를 설명하려면 UML 클래스 다이어그램을 그립니다. 에 대해서 [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)합니다.  
+  동작 다이어그램에서 작업 간에 전달된 데이터 흐름을 표시할 수 있습니다. 섹션을 참조 하세요 [데이터 흐름 설명](#DataFlows)합니다. 그러나 동작 다이어그램에서는 데이터 구조를 설명하지 않습니다. 데이터 구조를 설명하려면 UML 클래스 다이어그램을 그립니다. 정보를 참조 하세요. [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)합니다.  
   
 ##  <a name="BasicSteps"></a> 동작 다이어그램을 그리는 기본 단계  
  모델링 다이어그램을 만드는 자세한 단계에 나와 [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
@@ -185,7 +182,7 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
 -   사용 하 여는 **출력 핀** 와 **입력 핀**합니다. 이 방법을 통해 한 작업에서 나가는 출력 및 다른 작업으로 들어오는 입력을 개별적으로 설명할 수 있습니다. 핀은 프로그램의 매개 변수와 같습니다. 핀은 개체가 작업에 들어오고 나가는 포트를 나타냅니다.  
   
     > [!NOTE]
-    >  이 섹션에 사용 되는 요소의 개요를 참조 항목에 데이터 흐름 섹션을 참조 하세요 [UML 동작 다이어그램: 참조](../modeling/uml-activity-diagrams-reference.md)합니다.  
+    >  이 섹션에 사용 되는 요소의 개요를 참조 항목에 데이터 흐름 섹션을 참조 하세요. [UML 동작 다이어그램: 참조](../modeling/uml-activity-diagrams-reference.md)를 참조하세요.  
   
 ### <a name="describing-data-flow-with-object-nodes"></a>개체 노드를 사용하여 데이터 흐름 설명  
  대부분 제어 흐름은 데이터를 전달합니다. 예를 들어 “고객이 세부 정보 제공” 작업의 출력 흐름은 배송 주소에 대한 참조를 전달합니다.  
@@ -298,7 +295,7 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
   
  고객이 신용 카드를 처리하는 데 필요한 완전하고 올바른 세부 정보를 제공했습니다.  
   
- 사후 조건은 작업 발생 전후 상태 간의 관계를 표현합니다. 예:  
+ 사후 조건은 작업 발생 전후 상태 간의 관계를 표현합니다. 예를 들어:  
   
  이자율이 이전보다 2배가 되었습니다.  
   
@@ -363,7 +360,7 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
   
  ![병렬 개체 흐름](../modeling/media/uml-actguidemulti.png "UML_ActGuideMulti")  
   
- “고객이 세부 정보 제공” 작업이 완료되면 "Shipment address" 및 "Credit card details" 개체가 생성됩니다. 두 개체는 다른 작업에서 처리하기 위해 전달됩니다.  
+ "고객이 세부 정보를 제공 하는 데 사용" 작업 완료 되 면 두 개체가 생성 됩니다. "Shipment address" 및 "Credit card details"입니다. 두 개체는 다른 작업에서 처리하기 위해 전달됩니다.  
   
  작업에서는 시작하기 전에 모든 입력을 사용할 수 있어야 하므로 마지막 작업은 선행 작업이 모두 완료될 때까지 시작되지 않습니다.  
   
@@ -437,6 +434,3 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
  [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)   
  [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)   
  [비디오: 동작 다이어그램을 사용 하 여 비즈니스 워크플로 캡처](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-4-Capture-Business-Workflows/)
-
-
-

@@ -1,14 +1,9 @@
 ---
-title: 'CA1030: 적절 한 경우 이벤트를 사용 | Microsoft Docs'
-ms.custom: ''
+title: 'CA1030: 적절 한 이벤트를 사용 하 여 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - UseEventsWhereAppropriate
 - CA1030
@@ -20,14 +15,14 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: b1b4989b5b8ca47bc41328c75610cf984926aae2
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 90605152607f403a089d59727d155cd154f7032e
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49870135"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58983532"
 ---
-# <a name="ca1030-use-events-where-appropriate"></a>CA1030: 적절한 경우 이벤트를 사용하십시오.
+# <a name="ca1030-use-events-where-appropriate"></a>CA1030: 적절한 경우 이벤트를 사용하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 |||
@@ -40,7 +35,7 @@ ms.locfileid: "49870135"
 ## <a name="cause"></a>원인
  Public, protected 또는 private 메서드 이름이 다음 중 하나를 사용 하 여 시작합니다.
 
--   추가 기능
+-   AddOn
 
 -   RemoveOn
 
@@ -58,6 +53,3 @@ ms.locfileid: "49870135"
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  메서드를 사용 하 여 작동 하지 않는 경우이 규칙에서 경고를 표시 합니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 이벤트 모델.
-
-
-
