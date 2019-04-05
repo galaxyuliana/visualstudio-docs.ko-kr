@@ -1,14 +1,9 @@
 ---
 title: SccRemove 함수 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: reference
 f1_keywords:
 - SccRemove
 helpviewer_keywords:
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 20830fdc-c0e9-4a5f-bf60-33f28874442f
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: a9197295017b8cc9ec732d98ce67598bb3b789e7
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 62974f585fe164c7ccf7ea21a19d22939d806d73
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51806076"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985883"
 ---
 # <a name="sccremove-function"></a>SccRemove 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +54,7 @@ SCCRTN SccRemove(
  lpComment  
  [in] 제거할 각 파일에 적용할 주석입니다.  
   
- 옵션이  
+ fOptions  
  [in] 명령 플래그 (사용 되지 않는)입니다.  
   
  pvOptions  
@@ -84,4 +79,3 @@ SCCRTN SccRemove(
   
 ## <a name="see-also"></a>참고 항목  
  [소스 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)
-

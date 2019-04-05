@@ -1,14 +1,9 @@
 ---
 title: '방법: 레거시 언어 서비스의 개요 표시 지원 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], collapse to definitions command
 - language services, supporting Collapse to Definitions command
@@ -16,20 +11,20 @@ helpviewer_keywords:
 ms.assetid: bb6e74c3-93e4-4ef7-afc7-1c9b342f083b
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: fb596c8fbc7ab3c354b5b8d3e2a116ee752f06a4
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 2177ad8080f549f8f1de2736c34103979d8828f4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51724126"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982087"
 ---
 # <a name="how-to-support-outlining-in-a-legacy-language-service"></a>방법: 레거시 언어 서비스의 개요 표시 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 개요 확장 또는 축소 텍스트의 서로 다른 지역에 사용 됩니다. 사용 되는 방식으로 개요 다른 언어에서 다르게 정의할 수 있습니다. 자세한 내용은 [개요](../../ide/outlining.md)를 참조하세요.  
   
- 레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 개요를 구현 하는 새로운 방법에 대 한 자세한 내용을 참조 하세요 [연습: 개요](../../extensibility/walkthrough-outlining.md)합니다.  
+ 레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 개요를 구현 하는 새로운 방법에 대 한 자세한 참조 [연습: 개요](../../extensibility/walkthrough-outlining.md)를 참조하세요.  
   
 > [!NOTE]
 >  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.  
@@ -54,5 +49,4 @@ ms.locfileid: "51724126"
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 레거시 언어 서비스의 숨겨진된 텍스트 지원 제공](../../extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md)   
- [방법: 레거시 언어 서비스에서 확장 개요 표시 지원 제공](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)
-
+ [방법: 레거시 언어 서비스의 확장된 개요 표시 지원 제공](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)

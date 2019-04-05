@@ -1,23 +1,20 @@
 ---
 title: 잠금 정책을 정의 하 여 읽기 전용 세그먼트 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: fa549c71-2bf6-4b08-b7b2-7756dd6f1dc8
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 298e649704731157164db363dfa198ff6f2cdc41
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: f3e882818471014df66ef160521a6e9111a47a27
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49893831"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982070"
 ---
 # <a name="defining-a-locking-policy-to-create-read-only-segments"></a>잠금 정책을 정의하여 읽기 전용 세그먼트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,7 +81,7 @@ partition.SetLocks(Locks.Delete);
 |-----------|------------------------------------------|  
 |없음|제한이 없습니다.|  
 |속성|요소의 도메인 속성을 변경할 수 없습니다. 이 관계의 도메인 클래스의 역할에서 생성 되는 속성에 적용 되지 않습니다.|  
-|추가|파티션의 새 요소 및 링크를 만들 수 없습니다 하거나 저장 합니다.<br /><br /> 적용할 수 없는 `ModelElement`합니다.|  
+|Add|파티션의 새 요소 및 링크를 만들 수 없습니다 하거나 저장 합니다.<br /><br /> 적용할 수 없는 `ModelElement`합니다.|  
 |이동|요소의 경우 파티션 간에 이동할 수 없습니다 `element.IsLocked(Move)` 가 true 이면 이거나 `targetPartition.IsLocked(Move)` 그렇습니다.|  
 |삭제|이 잠금이 요소 자체에 설정 하거나는 요소 중 하나에서 삭제 전파, 포함 된 요소와 모양 같은 요소를 삭제할 수 없습니다.<br /><br /> 사용할 수 있습니다 `element.CanDelete()` 요소를 삭제할 수 있는지 여부를 검색 합니다.|  
 |다시 정렬|한 roleplayer에 있는 링크의 순서를 변경할 수 없습니다.|  
@@ -193,6 +190,3 @@ namespace Company.YourDsl.DslPackage // Change
     }  
 }  
 ```
-
-
-

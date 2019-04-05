@@ -1,14 +1,9 @@
 ---
-title: '연습: 만들기 기본 격리 셸 응용 프로그램 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 격리 셸 응용 프로그램을 만드는 기본 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio shell, walkthroughs
 - Shell [Visual Studio], walkthroughs
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 8b12e223-aae3-4c23-813d-ede1125f5f69
 caps.latest.revision: 55
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 901bbf12c9c1d153b84b3ed74f6ae8e97ebb2c9b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8eec2db11d97cec957e16f29838564a729370eeb
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51777320"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982557"
 ---
 # <a name="walkthrough-creating-a-basic-isolated-shell-application"></a>연습: 기본 격리 셸 응용 프로그램 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -120,7 +115,7 @@ ms.locfileid: "51777320"
   
 2.  다음 줄을 주석 처리 제거 합니다.  
   
-     [$RootKey$ \Packages\\{87569308-4813-40a0-9cd0-d7a30838ca3f}]  
+     [$RootKey$\Packages\\{87569308-4813-40a0-9cd0-d7a30838ca3f}]  
   
 3.  솔루션 다시 빌드 및 격리 셸 디버깅을 시작 합니다. 예를 들어 \MyVSShellStub\MyVSShellStub\MyVSShellStubUI\MyVSShellStubUI.vsct XML 파일을 엽니다. 파일에서 XML 키워드 색으로 표시 되지 않습니다 됩니다 확인 하 고 해당 입력 "<" 줄에 않습니다 하지 XML 도구 설명이 표시 합니다.  
   
@@ -265,4 +260,3 @@ ms.locfileid: "51777320"
   
 ## <a name="testing-the-installation-program"></a>설치 프로그램을 테스트  
  설치를 테스트 하려면 setup.exe 파일을 다른 컴퓨터로 복사 하 고 설치 프로그램 실행 파일을 실행 합니다. 격리 셸 응용 프로그램을 실행할 수 있어야 합니다.
-

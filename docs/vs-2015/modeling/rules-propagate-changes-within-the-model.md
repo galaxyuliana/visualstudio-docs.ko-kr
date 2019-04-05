@@ -1,12 +1,9 @@
 ---
 title: 규칙에는 모델 내부의 변경 내용 전파 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 - Domain-Specific Language, rules
@@ -14,13 +11,13 @@ ms.assetid: 1690a38a-c8f5-4bc6-aab9-015771ec6647
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 265d04306b4747a4e5bc04b879b9635e81ed8102
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: e7c7d3eec918895632d07be8c4a015e228743945
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49831200"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986090"
 ---
 # <a name="rules-propagate-changes-within-the-model"></a>규칙으로 모델 내부의 변경 내용 전파
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -140,7 +137,7 @@ namespace ExampleNamespace
   |                             기본 클래스                              |                                                                                                                                                                                                                                                                                                                                                                              트리거                                                                                                                                                                                                                                                                                                                                                                              |
   |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
   |           <xref:Microsoft.VisualStudio.Modeling.AddRule>            |                                                                                                                                                                                                                                                                                                                        요소, 링크 또는 셰이프 추가 됩니다.<br /><br /> 이 사용 하 여 새 요소 외에도 새 관계를 검색 합니다.                                                                                                                                                                                                                                                                                                                        |
-  |          <xref:Microsoft.VisualStudio.Modeling.ChangeRule>          | 도메인 속성 값을 변경 됩니다. 메서드 인수는 이전 및 새 값을 제공합니다.<br /><br /> 모양의 경우이 규칙이 트리거된 경우 기본 제공 `AbsoluteBounds` 모양을 이동 되 면 속성 변경 합니다.<br /><br /> 대부분의 경우에서 재정의 하는 편리한 것 `OnValueChanged` 또는 `OnValueChanging` 속성 처리기에서 합니다. 이러한 메서드는 직전 및 변경 된 후 호출 됩니다. 반면 규칙은 일반적으로 트랜잭션이 끝날 때 실행 됩니다. 자세한 내용은 [도메인 속성 값 변경 처리기](../modeling/domain-property-value-change-handlers.md)합니다. **참고:** 링크를 만들거나 삭제 하는 경우이 규칙이 트리거됩니다. 대신 작성 한 `AddRule` 및 `DeleteRule` 도메인 관계에 대 한 합니다. |
+  |          <xref:Microsoft.VisualStudio.Modeling.ChangeRule>          | 도메인 속성 값을 변경 됩니다. 메서드 인수는 이전 및 새 값을 제공합니다.<br /><br /> 모양의 경우이 규칙이 트리거된 경우 기본 제공 `AbsoluteBounds` 모양을 이동 되 면 속성 변경 합니다.<br /><br /> 대부분의 경우에서 재정의 하는 편리한 것 `OnValueChanged` 또는 `OnValueChanging` 속성 처리기에서 합니다. 이러한 메서드는 직전 및 변경 된 후 호출 됩니다. 반면 규칙은 일반적으로 트랜잭션이 끝날 때 실행 됩니다. 자세한 내용은 [도메인 속성 값 변경 처리기](../modeling/domain-property-value-change-handlers.md)합니다. **참고:**  이 규칙은 링크를 만들거나 삭제 하는 경우에 트리거되지 않습니다. 대신 작성 한 `AddRule` 및 `DeleteRule` 도메인 관계에 대 한 합니다. |
   |         <xref:Microsoft.VisualStudio.Modeling.DeletingRule>         |                                                                                                                                                                                                                                                                                                             요소 또는 링크를 삭제할 경우에 트리거됩니다. ModelElement.IsDeleting 속성은 트랜잭션이 끝날 때까지 true.                                                                                                                                                                                                                                                                                                              |
   |          <xref:Microsoft.VisualStudio.Modeling.DeleteRule>          |                                                                                                                                                                                                       요소 또는 링크 삭제 되었을 때 수행 됩니다. 다른 모든 규칙 실행 한 후, DeletingRules를 포함 하 여 규칙이 실행 됩니다. ModelElement.IsDeleting false 이며 ModelElement.IsDeleted 그렇습니다. 이후 실행 취소를 허용 하려면 요소가 제거 되지 않습니다 실제로 메모리에서 있지만 Store.ElementDirectory에서 제거 됩니다.                                                                                                                                                                                                       |
   |           <xref:Microsoft.VisualStudio.Modeling.MoveRule>           |                                                                                                                                                                                                                                                                                                           요소는 다른 하나의 저장소 파티션에서 이동 됩니다.<br /><br /> (고 지는이 관련이 없는 모양의 그래픽 위치)입니다.                                                                                                                                                                                                                                                                                                            |
@@ -221,6 +218,3 @@ namespace Company.TaskRuleExample
 ## <a name="see-also"></a>참고 항목  
  [이벤트 처리기로 모델 외부의 변경 내용 전파](../modeling/event-handlers-propagate-changes-outside-the-model.md)   
  [BoundsRules로 모양 위치 및 크기 제한](../modeling/boundsrules-constrain-shape-location-and-size.md)
-
-
-

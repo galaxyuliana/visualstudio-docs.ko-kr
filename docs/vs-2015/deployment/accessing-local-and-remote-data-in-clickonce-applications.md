@@ -1,14 +1,9 @@
 ---
 title: ClickOnce 응용 프로그램의 로컬 및 원격 데이터 액세스 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -20,13 +15,13 @@ ms.assetid: be5cbe12-6cb6-49c9-aa59-a1624e1eef3d
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 4fe0c0b1cd7659a5887f267181ffd6fa7bb5e8d4
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 21e16823d664b927008e43f8bfc6972ac284eac7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49218845"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971930"
 ---
 # <a name="accessing-local-and-remote-data-in-clickonce-applications"></a>ClickOnce 애플리케이션의 로컬 및 원격 데이터 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +46,7 @@ ms.locfileid: "49218845"
 >  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램이 제거되면 데이터 디렉터리도 제거됩니다. 문서와 같이 최종 사용자가 관리하는 데이터를 저장하는 데는 데이터 디렉터리를 사용하지 마세요.  
   
 #### <a name="marking-data-files-in-a-clickonce-distribution"></a>ClickOnce 배포에서 데이터 파일 표시  
- 데이터 디렉터리에 기존 파일을 넣으려면 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션의 애플리케이션 매니페스트 파일에서 기존 파일을 데이터로 표시해야 합니다. 자세한 내용은 [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.  
+ 데이터 디렉터리에 기존 파일을 넣으려면 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션의 애플리케이션 매니페스트 파일에서 기존 파일을 데이터로 표시해야 합니다. 자세한 내용은 [방법: ClickOnce 애플리케이션에 데이터 파일 포함](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.  
   
 #### <a name="reading-from-and-writing-to-the-data-directory"></a>데이터 디렉터리에서 데이터 읽기 및 쓰기  
  데이터 디렉터리에서 데이터를 읽으려면 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션이 읽기 권한을 요청해야 합니다. 마찬가지로 디렉터리에 쓰려면 쓰기 권한이 필요합니다. 애플리케이션이 완전 신뢰로 실행되도록 구성되면 이 권한이 애플리케이션에 자동으로 포함됩니다. 권한 상승 또는 신뢰할 수 있는 응용 프로그램 배포를 사용 하 여 응용 프로그램에 대 한 권한 높이기에 대 한 자세한 내용은 참조 하세요. [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)합니다.  
@@ -64,7 +59,7 @@ ms.locfileid: "49218845"
  [!code-csharp[ClickOnce.OpenDataFile#1](../snippets/csharp/VS_Snippets_Winforms/ClickOnce.OpenDataFile/CS/Form1.cs#1)]
  [!code-vb[ClickOnce.OpenDataFile#1](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnce.OpenDataFile/VB/Form1.vb#1)]  
   
- 배포의 파일을 데이터 파일로 표시하는 방법에 대한 자세한 내용은 [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.  
+ 데이터 파일로 배포의 파일을 표시 하는 방법은 참조 하세요. [방법: ClickOnce 애플리케이션에 데이터 파일 포함](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.  
   
  <xref:System.Windows.Forms.Application> 클래스에서 관련 변수(예: <xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A>)를 사용하여 데이터 디렉터리 경로를 가져올 수도 있습니다.  
   
@@ -116,7 +111,4 @@ ms.locfileid: "49218845"
  대부분은 데이터베이스에 직접 액세스할 필요가 없고 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 또는 XML Web service에서 작성된 웹 서버 애플리케이션을 통해 액세스합니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램이 웹 서버에서 배포될 경우 이 방식으로 데이터베이스에 액세스하는 것이 대부분 가장 적합한 방법입니다. 애플리케이션의 권한을 높이지 않고 서버를 부분 신뢰로 액세스할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)
-
-
-
+ [방법: ClickOnce 애플리케이션에 데이터 파일 포함](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)

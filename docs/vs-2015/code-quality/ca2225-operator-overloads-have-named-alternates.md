@@ -1,14 +1,9 @@
 ---
 title: 'CA2225: 연산자 오버 로드는 명명 된 대체 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - OperatorOverloadsHaveNamedAlternates
 - CA2225
@@ -20,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 427bd7756e1bf7a9e1b7056a84dd90c29bf504fe
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: aa90a1e97b563ef549cb3f628fcf9130a364c50a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49860255"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984141"
 ---
 # <a name="ca2225-operator-overloads-have-named-alternates"></a>CA2225: 연산자 오버로드에는 명명된 대체 항목이 있습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,24 +42,24 @@ ms.locfileid: "49860255"
 
 |C#|Visual Basic|C++|대체 이름|
 |---------|------------------|-----------|--------------------|
-|+ (이진)|+|+ (이진)|추가|
-|+=|+=|+=|추가|
-|&|그리고|&|BitwiseAnd|
+|+ (이진)|+|+ (이진)|Add|
+|+=|+=|+=|Add|
+|&|And|&|BitwiseAnd|
 |&=|=|&=|BitwiseAnd|
-|&#124;|또는|&#124;|BitwiseOr|
+|&#124;|Or|&#124;|BitwiseOr|
 |&#124;=|또는 =|&#124;=|BitwiseOr|
 |--|N/A|--|감소|
 |/|/|/|나누기|
 |/=|/=|/=|나누기|
 |==|=|==|같음|
 |^|Xor|^|Xor|
-|^=|Xor =|^=|Xor|
+|^=|Xor=|^=|Xor|
 |>|>|>|비교|
 |>=|>=|>=|비교|
 |++|N/A|++|증가|
 |<>|!=|같음|
-|<<|<<|<<|왼쪽 Shift|
-|<<=|<<=|<<=|왼쪽 Shift|
+|<<|<<|<<|LeftShift|
+|<<=|<<=|<<=|LeftShift|
 |<|<|<|비교|
 |<=|<=|\<=|비교|
 |&&|N/A|&&|LogicalAnd|
@@ -75,14 +70,14 @@ ms.locfileid: "49860255"
 |* (이진)|*|*|곱하기|
 |*=|N/A|*=|곱하기|
 |~|not|~|OnesComplement|
-|>>|>>|>>|오른쪽 Shift|
-=|N/A|>>=|오른쪽 Shift|
+|>>|>>|>>|RightShift|
+=|N/A|>>=|RightShift|
 |-(이진)|-(이진)|-(이진)|빼기|
 |-=|N/A|-=|빼기|
 |true|IsTrue|N/A|IsTrue (속성)|
 |-(단항)|N/A|-|negate|
 |+ (단항)|N/A|+|더하기|
-|false|IsFalse|False|IsTrue (속성)|
+|False|IsFalse|False|IsTrue (속성)|
 
  해당 사항 없음 = = 선택한 언어로 오버 로드할 수 없습니다.
 
@@ -102,15 +97,12 @@ ms.locfileid: "49860255"
  [!code-csharp[FxCop.Usage.OperatorOverloadsHaveNamedAlternates#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Usage.OperatorOverloadsHaveNamedAlternates/cs/FxCop.Usage.OperatorOverloadsHaveNamedAlternates.cs#1)]
 
 ## <a name="related-rules"></a>관련된 규칙
- [CA1046: 참조 형식에 같음 연산자를 오버로드하지 마십시오.](../code-quality/ca1046-do-not-overload-operator-equals-on-reference-types.md)
+ [CA1046: 참조 형식에 같음 연산자 오버 로드 하지 마십시오.](../code-quality/ca1046-do-not-overload-operator-equals-on-reference-types.md)
 
- [CA2226: 연산자에는 대칭 오버로드가 있어야 합니다.](../code-quality/ca2226-operators-should-have-symmetrical-overloads.md)
+ [CA2226: 연산자에는 대칭 오버 로드가 있어야 합니다.](../code-quality/ca2226-operators-should-have-symmetrical-overloads.md)
 
- [CA2224: 같음 연산자를 오버로드할 때 Equals를 재정의하십시오.](../code-quality/ca2224-override-equals-on-overloading-operator-equals.md)
+ [CA2224: 같음 연산자를 오버 로드할 때 equals 재정의](../code-quality/ca2224-override-equals-on-overloading-operator-equals.md)
 
- [CA2218: Equals를 재정의할 때 GetHashCode를 재정의하십시오.](../code-quality/ca2218-override-gethashcode-on-overriding-equals.md)
+ [CA2218: Equals GetHashCode를 재정의 합니다.](../code-quality/ca2218-override-gethashcode-on-overriding-equals.md)
 
  [CA2231: ValueType.Equals를 재정의할 때 같음 연산자를 오버로드하십시오.](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)
-
-
-

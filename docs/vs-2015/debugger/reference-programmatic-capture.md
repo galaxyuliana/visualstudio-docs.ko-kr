@@ -1,25 +1,20 @@
 ---
 title: 참조 (프로그래밍 방식 캡처) | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: reference
 ms.assetid: ef60eb8d-1ac2-4e3a-9b4b-f6da0bdd9da8
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 66e80d02ac41d78f2c79e7b2accb11388d456ad8
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8cebeb7eb651c11b5f560b981df30213fc726c66
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51744268"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981693"
 ---
 # <a name="reference-programmatic-capture"></a>참조(프로그램 방식 캡처)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ ms.locfileid: "51744268"
 |-----------|-----------------|  
 |[Capturing Graphics Information](../debugger/capturing-graphics-information.md)|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 그래픽 진단 도구를 사용하여 렌더링 문제를 진단할 수 있도록 DirectX 기반 앱에서 그래픽 정보를 캡처하는 방법을 보여 줍니다.|  
 |[개요](../debugger/overview-of-visual-studio-graphics-diagnostics.md)|그래픽 진단을 사용하여 DirectX 게임 및 앱의 렌더링 오류를 디버그하는 방법을 보여 줍니다.|
-
-
-

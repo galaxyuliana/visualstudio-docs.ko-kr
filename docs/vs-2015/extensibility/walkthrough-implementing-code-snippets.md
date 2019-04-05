@@ -1,24 +1,19 @@
 ---
 title: '연습: 코드 조각 구현 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 6fe91fd4e80c14e9b4cf59136fa6d3e0e003f554
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 84ac1787e4905859eb3539c04dee3125a14e0617
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51752058"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972061"
 ---
 # <a name="walkthrough-implementing-code-snippets"></a>연습: 코드 조각 구현
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "51752058"
   
 3. 코드 조각 확장을 구현 합니다.  
   
-   이 연습에 더해서 [연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)합니다.  
+   이 연습은 기반으로 [연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
@@ -254,4 +249,3 @@ ms.locfileid: "51752058"
 7.  텍스트의 다른 부분에 "test"를 입력 하 고 tab를 누릅니다. "Test" 코드 조각 바로 가기를 이기 때문에 코드 조각은 다시 삽입 해야 합니다.  
   
 ## <a name="next-steps"></a>다음 단계
-

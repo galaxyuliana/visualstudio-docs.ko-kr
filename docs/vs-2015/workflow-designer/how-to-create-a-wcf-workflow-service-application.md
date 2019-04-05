@@ -1,25 +1,22 @@
 ---
 title: '방법: WCF 워크플로 서비스 응용 프로그램 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: .net-framework-4.6
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: reference
 ms.assetid: 12d675ac-27d8-4d86-ba16-6f7688f8c841
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: erikre
-ms.openlocfilehash: 8632d8cf942fe4a06f12d324fea1f6f567080981
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 0e7bf54f527a82bb59a8dc9248d3d9294a07aa59
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49228438"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971181"
 ---
-# <a name="how-to-create-a-wcf-workflow-service-application"></a>방법: WCF 워크플로 서비스 응용 프로그램 만들기
+# <a name="how-to-create-a-wcf-workflow-service-application"></a>방법: WCF 워크플로 서비스 애플리케이션 만들기
 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 워크플로 서비스 응용 프로그램은 프로세스 경계를 넘어 클라이언트와 메시지를 주고 받는 분산 통신 서비스입니다. 서비스 측의 서비스 계약 구현은 .NET Framework 3.5의 레거시 워크플로 서비스와 비슷한 방식으로 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]에서 워크플로 활동을 통해 선언적으로 이루어집니다.  
   
 ### <a name="to-create-a-wcf-workflow-service-application"></a>WCF 워크플로 서비스 응용 프로그램을 만들려면  

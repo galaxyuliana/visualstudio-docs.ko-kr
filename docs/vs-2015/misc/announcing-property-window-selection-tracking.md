@@ -1,14 +1,9 @@
 ---
 title: 속성 창 선택 영역 추적 발표 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], property pages support
 - property pages, tracking selection
@@ -17,13 +12,13 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], Properties window support
 ms.assetid: a7536f82-afd7-4894-9a60-84307fb92b7e
 caps.latest.revision: 13
-manager: douge
-ms.openlocfilehash: 9639e0347689fc99e0b43c4b69394b522af984da
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 1ef6984a21099bfad013ef97534d9984fa81d10d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49246742"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981221"
 ---
 # <a name="announcing-property-window-selection-tracking"></a>속성 창 선택 영역 추적 발표
 사용 하려는 경우는 **속성** 창 또는 **속성** 페이지, 예를 들어, 폼, 텍스트 또는 구하려는 속성을 보려는 방법 잘 알고 있어야 합니다. 그런 다음 선택 하면 선택 영역을 조정 합니다. 예를 들어 단일 선택 또는 여러 선택 영역에 있는지 알아야 합니다. 그런 다음 해당 선택 영역 형식 (단일 또는 여러) 사용 하 여 IDE에 발표 해야는 <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> 인터페이스입니다. 이 인터페이스에 필요한 정보를 제공 합니다 **속성** 창입니다.  
@@ -46,4 +41,4 @@ ms.locfileid: "49246742"
   
 ## <a name="see-also"></a>참고 항목  
  [확장 속성](../extensibility/internals/extending-properties.md)   
- [속성 페이지](../extensibility/internals/property-pages.md)
+ [속성 페이지(Visual C++)](../extensibility/internals/property-pages.md)

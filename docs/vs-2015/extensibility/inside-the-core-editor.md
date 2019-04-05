@@ -1,26 +1,21 @@
 ---
 title: 핵심 편집기 내에서 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - core editor
 ms.assetid: 8265f31c-c45b-4858-882c-6d9f1e3b9083
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 9aca4bb8ad55dbd4cac0a6f899731711ccb6db8f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 61484c9d01022b9f3b860f0c7b78dd3aedc045f4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51798549"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985292"
 ---
 # <a name="inside-the-core-editor"></a>핵심 편집기 내에서
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +46,7 @@ ms.locfileid: "51798549"
  [레거시 API의 텍스트 버퍼 이벤트](../extensibility/text-buffer-events-in-the-legacy-api.md)  
  텍스트 버퍼 이벤트 알림에 사용 되는 인터페이스의 목록을 제공 합니다.  
   
- [방법: 레거시 API를 사용하여 텍스트 버퍼 이벤트에 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)  
+ [방법: 레거시 API 사용 하 여 텍스트 버퍼 이벤트에 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)  
  텍스트 버퍼 이벤트를 알리기 위해 하는 방법을 설명 합니다.  
   
  [텍스트 관리자를 사용하여 글로벌 설정 모니터링](../extensibility/using-the-text-manager-to-monitor-global-settings.md)  
@@ -70,7 +65,7 @@ ms.locfileid: "51798549"
  컨트롤 코드 장식 하도록 언어 서비스의 인스턴스화를 설명합니다.  
   
 ## <a name="related-sections"></a>관련 단원  
- [연습: 코어 편집기 만들기 및 편집기 파일 형식 등록](../extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type.md)  
+ [연습: 핵심 편집기 만들기 및 등록 하는 편집기 파일 형식](../extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type.md)  
  관리 코드에서 핵심 편집기를 시작 하는 방법에 대 한 단계별 지침을 제공 합니다.  
   
  [드롭다운 표시줄](../extensibility/drop-down-bar.md)  
@@ -79,9 +74,8 @@ ms.locfileid: "51798549"
  [레거시 API에서 텍스트 표식 사용](../extensibility/using-text-markers-with-the-legacy-api.md)  
  텍스트 마커 및 코어 편집기에서 사용 되는 방법의 개념을 설명 하 고 액세스 하 고 텍스트 마커를 관리 하는 데 사용 되는 인터페이스를 나열 합니다.  
   
- [방법: 표준 텍스트 표식 추가](../extensibility/how-to-add-standard-text-markers.md)  
+ [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)  
  텍스트 마커를 만드는 방법 및 바로 가기 메뉴를 사용자 지정 명령을 추가 하는 방법에 대 한 단계별 지침을 제공 합니다.  
   
  [방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md)  
  사용자 지정 텍스트 마커를 만드는 방법 및 표식 유형 서비스로 제공 하는 방법에 대 한 단계별 지침을 제공 합니다.
-

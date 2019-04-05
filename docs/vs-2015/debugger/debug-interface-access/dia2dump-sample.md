@@ -1,14 +1,9 @@
 ---
 title: Dia2dump 샘플 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: reference
 dev_langs:
 - C++
 helpviewer_keywords:
@@ -18,13 +13,13 @@ ms.assetid: 492c0893-7043-452f-a020-890a47230d20
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 727d7a4a97bc0aa55d370a45549941ab286930f9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: bd52c635d5ade1bef73176601d6957ba5859723b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51805400"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984841"
 ---
 # <a name="dia2dump-sample"></a>Dia2dump 샘플
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ Dia2dump 샘플 Visual Studio와 함께 설치 되 고 Dia2dump.cpp 소스 파�
   
 2.  프로젝트 속성 페이지에서에 **C/c + +** &#124; **일반** &#124; **Additional Include Directories** 속성을 지정 합니다 `..\DIA SDK\include` 디렉터리. 이 컴파일러 dia2.h 파일을 찾을 수 있도록 보장 합니다.  
   
-3.  에 **빌드할** 메뉴에서 클릭 **솔루션 다시 빌드**합니다.  
+3.  **빌드** 메뉴에서 **솔루션 다시 빌드**를 클릭합니다.  
   
 4.  Visual Studio를 닫습니다.  
   
@@ -57,7 +52,4 @@ Dia2dump 샘플 Visual Studio와 함께 설치 되 고 Dia2dump.cpp 소스 파�
   
 ## <a name="see-also"></a>참고 항목  
  [Dia2dump.cpp 소스 파일](../../debugger/debug-interface-access/dia2dump-cpp-source-file.md)   
- [방법: 실패한 Visual Studio 프로젝트 업그레이드 문제 해결](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)
-
-
-
+ [방법: 실패 한 Visual Studio 프로젝트 업그레이드 문제 해결](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)

@@ -1,24 +1,19 @@
 ---
 title: 유니버설 Windows 프로젝트 관리 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: b2c10232b917e8343ace8d1a31fcd3609ecdfb95
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: e905ca4a34399c1ec590d5ff16441bd5afe9ce23
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51783781"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981695"
 ---
 # <a name="managing-universal-windows-projects"></a>유니버설 Windows 프로젝트 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -578,4 +573,3 @@ ms.locfileid: "51783781"
     ```  
   
 13. 프로젝트를 빌드하고 실행합니다. 실험적 인스턴스에서 C# 유니버설 프로젝트를 만들고로 이동 합니다 **도구** 메뉴를 클릭 **TestUniversalProject 호출**, 일반 출력 창에 텍스트를 확인 합니다. 모두 표시 해야 플랫폼 프로젝트에서 파일의 이름이 바뀐 후는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemAdded%2A> 이벤트 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemDeleted%2A> 이벤트입니다. 변경 이후 파일 인해 다른 모든 파일을 변경할 수 없기 때문에 아무 곳 이나 플랫폼 프로젝트의 항목에 대 한 변경 내용을 전파 하지 않습니다만 각 이러한 이벤트 중 하나를
-

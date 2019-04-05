@@ -1,25 +1,22 @@
 ---
 title: '방법: 액세스 및 현재 선택 영역 제약 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, accessing the current selection
 ms.assetid: 2990981e-dfae-416f-b0d0-7197f1242dfa
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: ec8ff7ae0b0e006528b11604f54dc74170857cf7
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 731968f79565742595b4f574e986d69a311d5f90
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49187579"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981451"
 ---
 # <a name="how-to-access-and-constrain-the-current-selection"></a>방법: 현재 선택 항목 액세스 및 제약
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -219,6 +216,3 @@ namespace CompanyName.ProductName.GroupingDsl
  <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService>   
  <xref:Microsoft.VisualStudio.Modeling.Diagrams.DiagramSelectionRules>   
  <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>
-
-
-

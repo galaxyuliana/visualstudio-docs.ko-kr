@@ -1,27 +1,22 @@
 ---
 title: 격리 셸 응용 프로그램 설치 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - Shell [Visual Studio], deploying shell-based applications
 - Visual Studio shell, deploying shell-based applications
 ms.assetid: 33416226-9083-41b5-b153-10d2bf35c012
 caps.latest.revision: 41
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 1ecec7963b66c20ef08d1e5f3f0917a66f885aa0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c288da9345435969f7843f753625ce5471bb1878
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51796313"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982618"
 ---
 # <a name="installing-an-isolated-shell-application"></a>격리 셸 응용 프로그램 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +34,7 @@ ms.locfileid: "51796313"
 ## <a name="prerequisites"></a>전제 조건  
  이 항목에 설명 된 절차를 수행 하려면 다음 도구는 컴퓨터에 설치 되어야 합니다.  
   
-- Visual Studio SDK  
+- The Visual Studio SDK  
   
 - 합니다 [Windows Installer XML 도구 집합](http://go.microsoft.com/fwlink/?LinkId=82720) 버전 3.6  
   
@@ -164,7 +159,7 @@ ms.locfileid: "51796313"
         ```  
   
     > [!NOTE]
-    >  Shell (격리) 응용 프로그램에 대 한 종속성이 필요한: DebuggerProxy, MasterPkgDef, 리소스 (특히:.winprf 파일) 응용 프로그램 및 PkgDefs 합니다.  
+    >  Shell (격리) 응용 프로그램에 대 한 필수 종속성 다음과 같습니다. DebuggerProxy, MasterPkgDef, 리소스 (특히:.winprf 파일) 응용 프로그램 및 PkgDefs 합니다.  
   
 ### <a name="registry-entries"></a>레지스트리 항목  
  Shell (격리) 프로젝트 템플릿을 포함 한 *ProjectName*.reg 파일 설치에 병합 하기 위해 레지스트리 키에 대 한 합니다. 이러한 레지스트리 항목에는 설치 및 정리 목적 모두에 대 한 MSI의 일부 여야 합니다. 또한 ApplicationRegistry.wxs에서 일치 하는 레지스트리 요소를 만들어야 합니다.  
@@ -183,8 +178,8 @@ ms.locfileid: "51796313"
   
     |*ProjectName*.reg|ApplicationRegisty.wxs|  
     |-----------------------|----------------------------|  
-    |[HKEY_CLASSES_ROOT\CLSID\\{bb431796-a179-4df7-b65d-c0df6bda7cc6}]<br /><br /> @ "PhotoStudio DTE 개체" =|\<RegistryKey Id = 'DteClsidRegKey' 루트 'HKCR' 키 = =' $(차이 DteClsidRegKey)' 작업 'createAndRemoveOnUninstall' = ><br /><br /> \<RegistryValue 형식 = 'string' 이름 =' @' 값 =' $(차이 ShortProductName) DTE 개체 ' / ><br /><br /> \</ RegistryKey >|  
-    |[HKEY_CLASSES_ROOT\CLSID\\{bb431796-a179-4df7-b65d-c0df6bda7cc6} \LocalServer32]<br /><br /> @= "$RootFolder$\PhotoStudio.exe"|\<RegistryKey Id = 'DteLocSrv32RegKey' 루트 'HKCR' 키 = =' $(차이 DteClsidRegKey) \LocalServer32' 작업 'createAndRemoveOnUninstall' = ><br /><br /> \<RegistryValue 형식 = 'string' 이름 =' @' 값 ='[INSTALLDIR] $(차이 ShortProductName).exe ' / ><br /><br /> \</ RegistryKey >|  
+    |[HKEY_CLASSES_ROOT\CLSID\\{bb431796-a179-4df7-b65d-c0df6bda7cc6}]<br /><br /> @="PhotoStudio DTE Object"|\<RegistryKey Id = 'DteClsidRegKey' 루트 'HKCR' 키 = =' $(차이 DteClsidRegKey)' 작업 'createAndRemoveOnUninstall' = ><br /><br /> \<RegistryValue Type='string' Name='@' Value='$(var.ShortProductName) DTE Object' /><br /><br /> \</RegistryKey>|  
+    |[HKEY_CLASSES_ROOT\CLSID\\{bb431796-a179-4df7-b65d-c0df6bda7cc6}\LocalServer32]<br /><br /> @="$RootFolder$\PhotoStudio.exe"|\<RegistryKey Id='DteLocSrv32RegKey' Root='HKCR' Key='$(var.DteClsidRegKey)\LocalServer32' Action='createAndRemoveOnUninstall'><br /><br /> \<RegistryValue 형식 = 'string' 이름 =' @' 값 ='[INSTALLDIR] $(차이 ShortProductName).exe ' / ><br /><br /> \</RegistryKey>|  
   
      이 예제에서는 Var.DteClsidRegKey 맨 위 행에 있는 레지스트리 키를 확인합니다. Var.ShortProductName 확인 `PhotoStudio`합니다.  
   
@@ -375,4 +370,3 @@ dwResult = ExecCmd(boutiqueInstallCmd, FALSE);
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
-

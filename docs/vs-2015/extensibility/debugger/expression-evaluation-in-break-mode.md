@@ -1,14 +1,9 @@
 ---
 title: 중단 모드에서 식 평가 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - break mode, expression evaluation
 - debugging [Debugging SDK], expression evaluation
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 34fe5b58-15d5-4387-a266-72120f90a4b6
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: b5b307dead1d2fb193f7d34b28ef4eaec11c6dad
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: b23b93a5c7f278c01d06c5cda5cfcab418580361
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51728987"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983248"
 ---
 # <a name="expression-evaluation-in-break-mode"></a>중단 모드에서 식 계산
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ ms.locfileid: "51728987"
   
 3.  ParseText S_OK를 반환 하지 않으면 오류 이유로 반환 됩니다.  
   
-     -그렇지 않은 경우-  
+     -otherwise-  
   
      ParseText에서 S_OK를 반환 하는 경우 SDM 호출할 수 있습니다 하나 [IDebugExpression2::EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) 또는 [IDebugExpression2::EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) 구문 분석 된 식에서 최종 값을 가져오려고 합니다.  
   
@@ -48,4 +43,3 @@ ms.locfileid: "51728987"
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)
-

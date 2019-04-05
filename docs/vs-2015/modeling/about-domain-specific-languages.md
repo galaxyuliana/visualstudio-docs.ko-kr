@@ -1,25 +1,22 @@
 ---
 title: 도메인 특정 언어에 대 한 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language
 ms.assetid: 29e5b6f2-ece4-4f3b-ab08-5f957418702f
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6cddf51705758d046ab66319d6ac6295f3a4b057
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: afa0cc3144840d547ea41cab21551fdcaae69980
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49894523"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985576"
 ---
 # <a name="about-domain-specific-languages"></a>도메인별 언어 정보
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -119,6 +116,3 @@ C# 등 UML 범용 언어에서 달리 도메인 특정 언어 (DSL)는 문 특�
 -   수석 소프트웨어 개발자 또는 설계자 도메인 특정 언어 팀을 생성 하는 다양 한 응용 프로그램 개발자에 게 배포 합니다.  
   
 -   모든 개발자는 특정 응용 프로그램에 적용 되는 모델을 만듭니다.
-
-
-

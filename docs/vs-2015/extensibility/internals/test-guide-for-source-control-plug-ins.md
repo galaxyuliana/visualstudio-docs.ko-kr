@@ -1,14 +1,9 @@
 ---
 title: 테스트 소스 제어 플러그 인에 대 한 가이드 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - plug-ins, source control
 - source control [Visual Studio SDK], testing plug-ins
@@ -18,13 +13,13 @@ helpviewer_keywords:
 ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
 caps.latest.revision: 27
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: eea089da8c8e0b7e626f58660a57cd499a93fb7c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 194c1e926ead79d5db05e530e2345aa4c722aa21
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51778913"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982631"
 ---
 # <a name="test-guide-for-source-control-plug-ins"></a>소스 제어 플러그 인에 대한 테스트 가이드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,8 +38,8 @@ ms.locfileid: "51778913"
  클라이언트 프로젝트  
  모든 프로젝트에서 사용 가능한 형식과 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 소스 제어 통합을 지 (예를 들어 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)], [!INCLUDE[csprcs](../../includes/csprcs-md.md)], 또는 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)]).  
   
- 웹 프로젝트  
- 웹 프로젝트의 네 가지가: 파일 시스템, 로컬 IIS, 원격 사이트 및 FTP.  
+ 웹 프로젝트(Web project)  
+ 웹 프로젝트는 방법은 네 가지가 있습니다. 파일 시스템, 로컬 IIS, 원격 사이트 및 FTP.  
   
 - 파일 시스템 프로젝트는 로컬 경로에서 만들어지지만 정보 서비스 (IIS (인터넷) UNC 경로 통해 내부적으로 액세스 하 고 클라이언트 프로젝트와 마찬가지로 IDE 내에서 소스 제어에 배치할 수 설치할 필요가 없습니다.  
   
@@ -62,47 +57,47 @@ ms.locfileid: "51778913"
   
 ## <a name="test-areas-covered-in-this-section"></a>이 섹션에서 다루는 영역 테스트  
   
--   [테스트 영역 1: 소스 제어에 추가/소스 제어에서 열기](../../extensibility/internals/test-area-1-add-to-open-from-source-control.md)  
+-   [테스트 영역 1: 소스 제어에서 열기 / 추가](../../extensibility/internals/test-area-1-add-to-open-from-source-control.md)  
   
-    -   1a 사례: 소스 제어에 솔루션 추가  
+    -   사례 1a: 소스 제어에 솔루션 추가  
   
-    -   1b 사례: 소스 제어에서 솔루션 열기  
+    -   사례 1b: 소스 제어에서 솔루션 열기  
   
     -   사례 1 c: 소스 제어에서 솔루션을 추가 합니다.  
   
 -   [테스트 영역 2: 소스 제어에서 가져오기](../../extensibility/internals/test-area-2-get-from-source-control.md)  
   
--   [테스트 영역 3: 체크 아웃/체크 아웃 실행 취소](../../extensibility/internals/test-area-3-check-out-undo-checkout.md)  
+-   [테스트 영역 3: 체크 아웃/체크 아웃 취소](../../extensibility/internals/test-area-3-check-out-undo-checkout.md)  
   
     -   사례 3: 체크 아웃/체크 아웃 취소  
   
-    -   3a 사례: 체크 아웃  
+    -   사례 3a: 체크 아웃  
   
-    -   3b 사례: 체크 아웃 연결 끊김  
+    -   사례 3b: 오프 라인된 체크 아웃  
   
-    -   3c 사례: 쿼리 편집/쿼리 저장 (QEQS)  
+    -   사례 3 c: 쿼리 편집/쿼리 저장 (QEQS)  
   
-    -   자동 체크 아웃 3d 경우:  
+    -   3d 경우: 자동 체크 아웃  
   
     -   사례 3e: 체크 아웃 취소  
   
--   [테스트 영역 4: 체크 인](../../extensibility/internals/test-area-4-check-in.md)  
+-   [테스트 영역 4: 체크인](../../extensibility/internals/test-area-4-check-in.md)  
   
-    -   4a 사례: 항목 수정  
+    -   사례 4a: 수정 된 항목  
   
-    -   4b 경우: 파일 추가  
+    -   사례 4b: 파일 추가  
   
-    -   4c 사례: 프로젝트를 추가 합니다.  
+    -   사례 4 c: 프로젝트를 추가합니다.  
   
 -   [테스트 영역 5: 소스 제어 변경](../../extensibility/internals/test-area-5-change-source-control.md)  
   
-    -   5a 사례: 바인딩  
+    -   사례 5a: 바인딩  
   
-    -   5b 사례: 바인딩 해제  
+    -   사례 5b: 바인딩 해제  
   
-    -   5c 사례: 다시 바인딩  
+    -   사례 5 c: 다시 바인딩  
   
--   [테스트 영역 6: 삭제](../../extensibility/internals/test-area-6-delete.md)  
+-   [테스트 영역 6: Delete](../../extensibility/internals/test-area-6-delete.md)  
   
 -   [테스트 영역 7: 공유](../../extensibility/internals/test-area-7-share.md)  
   
@@ -114,4 +109,3 @@ ms.locfileid: "51778913"
   
 ## <a name="see-also"></a>참고 항목  
  [소스 제어 플러그 인](../../extensibility/source-control-plug-ins.md)
-

@@ -1,14 +1,9 @@
 ---
 title: CompilandDetails | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: reference
 dev_langs:
 - C++
 helpviewer_keywords:
@@ -17,13 +12,13 @@ ms.assetid: ddc7d794-c622-4c63-b2a6-72f8b2d0022a
 caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: e94993440a8fba4b215cb7a7b32f55f98475fb51
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c91fbd8a4fc3775272e578df43025bd7052c72ae
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51769073"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983538"
 ---
 # <a name="compilanddetails"></a>CompilandDetails
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,8 +57,5 @@ ms.locfileid: "51769073"
  컴파일러는 종종 2 패스 컴파일러; 라는 형태로 제공 일부 컴파일러 버전에서는 각 패스는 별도 프로그램에서 처리 됩니다. 이러한 라고 프런트 엔드 및 백 엔드 컴파일러 각각 따라서 백 엔드 및 프런트 엔드 버전 번호에 대 한 기호 속성을 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [컴파일 대상](../../debugger/debug-interface-access/compiland.md)   
+ [Compiland](../../debugger/debug-interface-access/compiland.md)   
  [기호 형식의 어휘 계층 구조](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
-
-
-

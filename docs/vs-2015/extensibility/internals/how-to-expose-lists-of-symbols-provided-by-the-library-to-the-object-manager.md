@@ -1,14 +1,9 @@
 ---
 title: '방법: 개체 관리자에 라이브러리에서 제공 하는 기호 목록을 노출 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - IVsSimpleLibrary2 interface, lists of symbols
 - IVsLibrary2 interface, lists of symbols
@@ -18,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 19757068-bdaa-4e7e-85d6-f8ce5026a859
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 32adc26be31ebb090916f5f0f4b038bd20ab2ea2
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 269c26d1b2caa56ba3306d151cff1a7607ac837c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51722169"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986115"
 ---
-# <a name="how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager"></a>방법: 개체 관리자에 라이브러리에서 제공 하는 기호 목록을 표시 합니다.
+# <a name="how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager"></a>방법: 라이브러리에서 제공하는 기호 목록을 개체 관리자에 노출
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 기호 검색 도구 **클래스 뷰**를 **개체 브라우저**를 **호출 브라우저** 및 **기호 찾기 결과**, 새 데이터에 대 한 요청을 전달 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 개체 관리자입니다. 개체 관리자를 적절 한 라이브러리를 찾아서 새 기호 목록을 요청 합니다. 라이브러리 요청한 데이터를 제공 하 여 응답 합니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 를 통해 개체 관리자는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> 인터페이스. 합니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 의 메서드를 호출 하는 개체 관리자 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> 채우거 나 기호 검색 도구 보기 업데이트를 사용 하 여 데이터를 가져오기 위해 인터페이스입니다.  
@@ -478,4 +473,3 @@ ms.locfileid: "51722169"
  [방법: 개체 관리자에 라이브러리 등록](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)   
  [방법: 라이브러리의 기호 식별](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)   
  [레거시 언어 서비스 확장성](../../extensibility/internals/legacy-language-service-extensibility.md)
-

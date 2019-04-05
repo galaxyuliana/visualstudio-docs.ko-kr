@@ -1,14 +1,9 @@
 ---
 title: '연습: 다중 스레드 응용 프로그램 디버그 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -21,13 +16,13 @@ ms.assetid: 590ffd57-0556-43d8-8962-ee27e5b2b7d7
 caps.latest.revision: 42
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: d5dd742411710698cb2dd626e211cb0e73b8379e
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8fead0386d1ba820be21e65009c78791c7368bcd
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51798640"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986154"
 ---
 # <a name="walkthrough-debugging-a-multithreaded-application"></a>연습: 다중 스레드 응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ ms.locfileid: "51798640"
   
      **새 프로젝트** 대화 상자가 나타납니다.  
   
-2.  에 **프로젝트 형식**s 상자 사용자가 선택한 언어를 클릭 합니다: **Visual Basic**를 **Visual C#**, 또는 **Visual c + +** 합니다.  
+2.  에 **프로젝트 형식**s 상자에서 원하는 언어를 클릭 합니다. **Visual Basic**하십시오 **Visual C#** , 또는 **Visual c + +**.  
   
 3.  에 **템플릿을** 상자에서 **콘솔 응용 프로그램** 또는 **CLR 콘솔 응용 프로그램**합니다.  
   
@@ -54,7 +49,7 @@ ms.locfileid: "51798640"
   
 6.  소스 파일에 표시 되는 코드를 삭제 하 고 항목의 "스레드 만들기" 섹션에 나타나는 예제 코드로 바꿉니다 [스레드 만들기 및 시작 시 데이터 전달](http://msdn.microsoft.com/library/52b32222-e185-4f42-91a7-eaca65c0ab6d)합니다.  
   
-7.  에 **파일** 메뉴에서 클릭 **모두 저장**합니다.  
+7.  **파일** 메뉴에서 **모두 저장**을 클릭합니다.  
   
 #### <a name="to-begin-the-walkthrough"></a>연습을 시작하려면  
   
@@ -115,7 +110,7 @@ Thread::Sleep(3000);
   
    이 아이콘은는 *스레드 마커*:  
   
-   ![스레드 마커](../debugger/media/threadmarker.gif "ThreadMarker")  
+   ![Thread Marker](../debugger/media/threadmarker.gif "ThreadMarker")  
   
 ## <a name="flagging-and-unflagging-threads"></a>스레드에 플래그 지정 및 해제  
  [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)]에서는 특히 주의할 스레드에 플래그를 지정할 수 있습니다. 스레드에 플래그를 지정하면 중요한 스레드를 추적하고 중요하지 않은 스레드는 무시할 수 있습니다.  
@@ -129,7 +124,7 @@ Thread::Sleep(3000);
 2.  로 이동 합니다 **디버그 위치** 도구 모음을 클릭 합니다 **스레드** 목록입니다.  
   
     > [!NOTE]
-    >  세 가지 중요 한 목록을 통해이 도구 모음을 인식할 수 있습니다: **프로세스**를 **스레드**, 및 **스택 프레임**합니다.  
+    >  세 가지 중요 한 목록을 통해이 도구 모음을 인식할 수 있습니다. **프로세스**, **스레드**, 및 **스택 프레임이**합니다.  
   
 3.  목록에 나타나는 스레드 수를 확인합니다.  
   
@@ -143,7 +138,7 @@ Thread::Sleep(3000);
   
 7.  플래그 아이콘에 포인터를 올려 놓습니다.  
   
-     팝업이 나타납니다. 이 팝업 모드를 **스레드** 목록의: **플래그가 지정 된 스레드만 표시**합니다.  
+     팝업이 나타납니다. 이 팝업 모드를 **스레드** 목록의: **만 플래그가 지정 된 스레드만 표시**합니다.  
   
 8.  다시 전환 하려면 플래그 단추를 클릭 **모든 스레드 표시** 모드입니다.  
   
@@ -151,7 +146,7 @@ Thread::Sleep(3000);
   
 10. 다시 전환 하려면 플래그 단추를 클릭 **플래그가 지정 된 스레드만 표시**합니다.  
   
-11. 에 **디버그** 메뉴에서 **Windows** 을 클릭 한 다음 **스레드**합니다.  
+11. **디버그** 메뉴에서 **창**을 가리킨 다음, **스레드**를 클릭합니다.  
   
      합니다 **스레드** 창이 나타납니다. 스레드 한 개에 중요한 플래그 아이콘이 연결되어 있습니다.  
   
@@ -245,7 +240,7 @@ Thread::Sleep(3000);
   
      활성 스레드를 변경 하는 방법을 살펴 보았습니다:를 사용 하 여는 **스레드** 창 합니다 **스레드** 상자에 **디버그 위치** 도구 모음 및 스레드 표시기를 소스 창입니다.  
   
-     스레드 표시기를 사용하면 특정 위치에서 중지된 스레드로만 전환할 수 있습니다. 사용 하 여 합니다 **스레드** 창 및 **디버그 위치** 도구 모음에서 모든 스레드로 전환할 수 있습니다.  
+     스레드 표시기를 사용하면 특정 위치에서 중지된 스레드로만 전환할 수 있습니다. **스레드** 창 및 **디버그 위치** 도구 모음을 사용하면 임의의 스레드로 전환할 수 있습니다.  
   
 ## <a name="freezing-and-thawing-thread-execution"></a>스레드 실행 중지 및 재개  
   
@@ -262,8 +257,5 @@ Thread::Sleep(3000);
      활성 스레드 열 및 **Suspend** 열 변경 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [다중 스레드 응용 프로그램 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
+ [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [방법: 디버그 중 다른 스레드로 전환](../debugger/how-to-switch-to-another-thread-while-debugging.md)
-
-
-
