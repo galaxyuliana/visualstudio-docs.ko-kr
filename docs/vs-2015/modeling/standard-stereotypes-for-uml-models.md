@@ -1,12 +1,9 @@
 ---
 title: UML 모델에 대 한 표준 스테레오 타입 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML, stereotypes
 - UML diagrams, stereotypes
@@ -14,13 +11,13 @@ ms.assetid: 8a8c2321-1cae-4ba8-bb9e-23495c3404d8
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 1fcc876a847429c0de9600a5a727b19334819119
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 3ebf931773577add65a7479c7dcd90da9c58c556
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51763233"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981659"
 ---
 # <a name="standard-stereotypes-for-uml-models"></a>UML 모델의 표준 스테레오타입
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +32,7 @@ UML 모델 요소에 스테레오타입을 추가하여 독자나 컴퓨터 처�
 |프로필|용도|  
 |-------------|-------------|  
 |[UML 표준 프로필 L2](#L2)|요소 또는 관계에 대한 기타 정보를 추가하는 데 사용할 수 있는 스테레오타입의 표준 집합입니다.|  
-|[UML 표준 프로필 L3](#L3)|요소 또는 관계에 대한 기타 정보를 추가하는 데 사용할 수 있는 스테레오타입의 표준 집합입니다.|  
+|[UML Standard Profile L3](#L3)|요소 또는 관계에 대한 기타 정보를 추가하는 데 사용할 수 있는 스테레오타입의 표준 집합입니다.|  
 |[C# 프로필](#NetProfile)|UML 모델의 클래스 또는 기타 요소로 프로그램 코드를 나타내려는 경우 C# 프로필에서 스테레오타입 중 하나를 적용하여 이를 나타낼 수 있습니다.<br /><br /> 또한 이러한 스테레오타입은 모델 요소에 속성을 추가합니다.|  
   
  새 UML 모델을 만들면 링크를 제거하지 않는 한 UML 표준 프로필 L2 및 L3이 모델에 연결됩니다.  
@@ -93,25 +90,25 @@ UML 모델 요소에 스테레오타입을 추가하여 독자나 컴퓨터 처�
 |executable|아티팩트|실행 가능한 «file»입니다.|  
 |파일|아티팩트|실제 파일입니다.|  
 |focus|클래스|여러 «auxiliary» 클래스에서 지원하는 핵심 비즈니스 논리를 정의하는 클래스입니다.|  
-|framework|Package|이 패키지는 다시 사용할 수 있는 디자인 패턴을 정의합니다.|  
+|프레임워크|Package|이 패키지는 다시 사용할 수 있는 디자인 패턴을 정의합니다.|  
 |implement|구성 요소|«specification»의 구현입니다.|  
 |implementationClass|클래스|클래스는 구현을 설명하며, 각 런타임 인스턴스에 하나의 고정된 구현 클래스가 있습니다. «type»과 대조됩니다.|  
 |instantiate|종속성|클라이언트가 공급자 인스턴스를 만듭니다.|  
-|library|아티팩트|라이브러리 «file»입니다.|  
+|라이브러리|아티팩트|라이브러리 «file»입니다.|  
 |metaclass|클래스|이 클래스의 인스턴스도 클래스입니다.|  
 |modelLibrary|Package|패키지를 가져와 다시 사용하기 위한 모델 요소를 포함합니다. 일반적으로 프로필의 일부로 정의되며, 프로필을 적용하여 자동으로 가져옵니다.|  
-|process|구성 요소|트랜잭션 기반 구성 요소 또는 스레드를 전달하는 구성 요소입니다.|  
+|프로세스|구성 요소|트랜잭션 기반 구성 요소 또는 스레드를 전달하는 구성 요소입니다.|  
 |realization|클래스, 인터페이스, 구성 요소|구현에 대해 설명합니다.|  
 |refine|종속성|클라이언트 클래스, 구성 요소 또는 패키지는 공급자보다 사양 또는 디자인에 대한 자세한 정보를 제공합니다.|  
 |responsibility|종속성|종속성의 공급자 쪽 주석에서 클라이언트 클래스 또는 구성 요소의 책임을 정의합니다.|  
-|script|아티팩트|해석 가능한 «file»입니다.|  
+|스크립트|아티팩트|해석 가능한 «file»입니다.|  
 |send|종속성|소스 작업이 대상 신호를 보냅니다.|  
-|service|구성 요소|상태 비저장 구성 요소입니다.|  
-|소스|아티팩트|컴파일 가능한 «file»입니다.|  
+|서비스|구성 요소|상태 비저장 구성 요소입니다.|  
+|원본|아티팩트|컴파일 가능한 «file»입니다.|  
 |specification|클래스, 인터페이스, 구성 요소|내부적으로 작동 방식을 정의하지 않고 구성 요소 또는 개체의 동작을 정의합니다.|  
 |subsystem|구성 요소|큰 시스템의 일부입니다. 사용 사례 다이어그램의 하위 시스템은 하위 시스템 스테레오타입을 가진 구성 요소입니다.|  
 |trace|종속성|클라이언트 요소는 공급자를 인식하는 디자인의 일부입니다. 이 종속성의 양쪽 끝은 일반적으로 서로 다른 모델에 있습니다. 이러한 모델 중 하나는 다른 모델의 인식입니다.|  
-|형식|클래스|구현 방법을 지정하지 않고 개체의 동작을 지정합니다. 개체는 사양을 준수하는 경우 형식의 멤버입니다.|  
+|type|클래스|구현 방법을 지정하지 않고 개체의 동작을 지정합니다. 개체는 사양을 준수하는 경우 형식의 멤버입니다.|  
 |utility|클래스|정적 함수의 컬렉션입니다. 클래스에 인스턴스가 없습니다.|  
   
 ###  <a name="L3"></a> UML 표준 프로필 L3  
@@ -145,6 +142,3 @@ UML 모델 요소에 스테레오타입을 추가하여 독자나 컴퓨터 처�
  [UML 모델 요소에 스테레오 타입 추가](../modeling/add-stereotypes-to-uml-model-elements.md)   
  [프로필 및 스테레오 타입을 사용 하 여 모델 사용자 지정](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [프로필을 정의하여 UML 확장](../modeling/define-a-profile-to-extend-uml.md)
-
-
-

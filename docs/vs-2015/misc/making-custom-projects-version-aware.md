@@ -1,23 +1,18 @@
 ---
 title: 사용자 지정 프로젝트를 버전 인식 하도록 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 ms.assetid: 5233d3ff-6e89-4401-b449-51b4686becca
 caps.latest.revision: 33
-manager: douge
-ms.openlocfilehash: 038f478d6a8dbdd3dc050b6db85af82be377c325
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 5b2cfb51ad13ed28e1f021b19b52153bf4c09f62
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49833007"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981291"
 ---
 # <a name="making-custom-projects-version-aware"></a>사용자 지정 프로젝트의 버전 인식 설정
 사용자 지정 프로젝트 시스템에서 해당 형식의 프로젝트가 여러 버전의 Visual Studio에서 로드되도록 할 수 있습니다. 또한 이전 버전의 Visual Studio에서 해당 형식의 프로젝트를 로드할 수 없도록 방지할 수도 있습니다. 프로젝트를 복구, 변환 또는 사용 중단해야 하는 경우 자신을 이후 버전으로 식별하도록 해당 프로젝트를 설정할 수 있습니다.  
@@ -25,21 +20,21 @@ ms.locfileid: "49833007"
 ## <a name="allowing-projects-to-load-in-multiple-versions"></a>프로젝트가 여러 버전에서 로드되도록 허용  
  [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 이상 버전에서 만들어진 프로젝트는 대부분 여러 버전에서 작동하도록 수정할 수 있습니다.  
   
- Visual Studio는 프로젝트를 로드하기 전에 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly%2A> 메서드를 호출하여 프로젝트를 업그레이드할 수 있는지 여부를 확인합니다. 프로젝트를 업그레이드할 수 있는 경우 `UpgradeProject_CheckOnly` 메서드는 나중에 프로젝트를 업그레이드하기 위해 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> 메서드를 호출하도록 플래그를 설정합니다. 호환되지 않는 프로젝트는 업그레이드할 수 없기 때문에 `UpgradeProject_CheckOnly`는 제일 먼저 이전 섹션에서 설명한 대로 프로젝트 호환성을 확인해야 합니다.  
+ Visual Studio는 프로젝트를 로드하기 전에 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly%2A> 메서드를 호출하여 프로젝트를 업그레이드할 수 있는지 여부를 확인합니다. 프로젝트를 업그레이드할 수 있는 경우 `UpgradeProject_CheckOnly` 메서드는 나중에 프로젝트를 업그레이드하기 위해 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> 메서드를 호출하도록 플래그를 설정합니다. 호환되지 않는 프로젝트는 업그레이드할 수 없기 때문에 `UpgradeProject_CheckOnly` 는 제일 먼저 이전 섹션에서 설명한 대로 프로젝트 호환성을 확인해야 합니다.  
   
  프로젝트 시스템 작성자는 `UpgradeProject_CheckOnly` 인터페이스에서 `IVsProjectUpgradeViaFactory4` 를 구현하여 프로젝트 시스템 사용자에게 업그레이드 검사를 제공합니다. 사용자가 프로젝트를 열면 이 메서드가 호출되어 로드하기 전에 프로젝트를 복구해야 하는지 여부를 확인합니다. 가능한 업그레이드 요구 사항은 `VSPUVF_REPAIRFLAGS`에 열거되며 여기에는 다음과 같은 요구 사항이 포함됩니다.  
   
-1.  `SPUVF_PROJECT_NOREPAIR`: 복구할 필요가 없습니다.  
+1.  `SPUVF_PROJECT_NOREPAIR`: 복구할이 필요가 없습니다.  
   
-2.  `VSPUVF_PROJECT_SAFEREPAIR`: 이전 버전의 제품에서 발생했던 문제 없이 프로젝트가 이전 버전과 호환됩니다.  
+2.  `VSPUVF_PROJECT_SAFEREPAIR`: 이전 버전과 호환 없이 프로젝트가 이전 버전의 제품에서 발생 했던 문제입니다.  
   
-3.  `VSPUVF_PROJECT_UNSAFEREPAIR`: 프로젝트가 이전 버전과 호환되지만 이전 버전의 제품에서 발생했던 일부 문제가 발생합니다. 예를 들어 프로젝트가 다른 SDK 버전에 의존하는 경우에는 호환되지 않습니다.  
+3.  `VSPUVF_PROJECT_UNSAFEREPAIR`: 이전 버전과 호환 되지만 이전 버전의 제품을 사용 하 여 발생 한 문제 중 일부 위험을 사용 하 여 프로젝트를 만듭니다. 예를 들어 프로젝트가 다른 SDK 버전에 의존하는 경우에는 호환되지 않습니다.  
   
-4.  `VSPUVF_PROJECT_ONEWAYUPGRADE`: 프로젝트가 이전 버전과 호환되지 않습니다.  
+4.  `VSPUVF_PROJECT_ONEWAYUPGRADE`: 프로젝트가 이전 버전과 호환 됩니다.  
   
-5.  `VSPUVF_PROJECT_INCOMPATIBLE`: 현재 버전이 이 프로젝트를 지원하지 않습니다.  
+5.  `VSPUVF_PROJECT_INCOMPATIBLE`: 최신 버전은이 프로젝트는 지원 하지 않습니다 나타냅니다.  
   
-6.  `VSPUVF_PROJECT_DEPRECATED`: 이 프로젝트가 더 이상 지원되지 않습니다.  
+6.  `VSPUVF_PROJECT_DEPRECATED`: 이 프로젝트는 지원 되지 않습니다 나타냅니다.  
   
 > [!NOTE]
 >  혼동을 줄 수 있으니 업그레이드 플래그를 설정할 때는 서로 결합하지 마세요. 예를 들어 `VSPUVF_PROJECT_SAFEREPAIR | VSPUVF_PROJECT_DEPRECATED`처럼 모호한 업그레이드 상태를 만들지 마세요.  
@@ -123,7 +118,7 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
 )  
 ```  
   
- 이 메서드가 `pUpgradeRequired` 를 TRUE로 설정하고 `S_OK`를 반환한 경우 메서드가 업그레이드 플래그를 `VSPUVF_PROJECT_ONEWAYUPGRADE`값으로 설정한 것처럼 결과가 "업그레이드"로 간주됩니다. 자세한 내용은 이 항목 뒷부분에서 설명합니다. 다음 반환 값은 이 이전 메서드를 사용하여 지원되지만 `pUpgradeRequired`가 TRUE로 설정된 경우에만 가능합니다.  
+ 이 메서드가 `pUpgradeRequired` 를 TRUE로 설정하고 `S_OK`를 반환한 경우 메서드가 업그레이드 플래그를 `VSPUVF_PROJECT_ONEWAYUPGRADE`값으로 설정한 것처럼 결과가 "업그레이드"로 간주됩니다. 자세한 내용은 이 항목 뒷부분에서 설명합니다. 다음 반환 값은 이 이전 메서드를 사용하여 지원되지만 `pUpgradeRequired` 가 TRUE로 설정된 경우에만 가능합니다.  
   
 1. `VS_S_PROJECT_SAFEREPAIRREQUIRED`. 이 반환 값은 `pUpgradeRequired` 값을 `VSPUVF_PROJECT_SAFEREPAIR`와 동일한 TRUE로 변환합니다. 자세한 내용은 이 항목의 뒷부분에서 설명합니다.  
   
