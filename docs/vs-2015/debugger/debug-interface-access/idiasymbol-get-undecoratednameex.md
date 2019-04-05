@@ -1,14 +1,9 @@
 ---
-title: 'Idiasymbol:: Get_undecoratednameex | Microsoft Docs'
-ms.custom: ''
+title: IDiaSymbol::get_undecoratedNameEx | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: reference
 dev_langs:
 - C++
 helpviewer_keywords:
@@ -17,13 +12,13 @@ ms.assetid: 579aed0b-c57d-41a1-a94a-3bf665fd4a9d
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: e1902c6300a35924e7fcd626d9b63f69bc5bbc2c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 889412b3fb060250a0ff8392bf959c2759cf81d8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51745403"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981461"
 ---
 # <a name="idiasymbolgetundecoratednameex"></a>IDiaSymbol::get_undecoratedNameEx
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,8 +61,8 @@ HRESULT get_undecoratedNameEx( 
 |UNDNAME_NO_FUNCTION_RETURNS|0x0004|기본 선언에 대 한 반환 형식의 확장을 사용 하지 않도록 설정 합니다.|  
 |UNDNAME_NO_ALLOCATION_MODEL|0x0008|선언 모델의 확장을 사용 하지 않도록 설정 합니다.|  
 |UNDNAME_NO_ALLOCATION_LANGUAGE|0x0010|선언 언어 지정자의 확장을 사용 하지 않도록 설정 합니다.|  
-|UNDNAME_RESERVED1|0x0020|예약 되어 있습니다.|  
-|UNDNAME_RESERVED2|0x0040|예약 되어 있습니다.|  
+|UNDNAME_RESERVED1|0x0020|예약됨.|  
+|UNDNAME_RESERVED2|0x0040|예약됨.|  
 |UNDNAME_NO_THISTYPE|0x0060|모든 한정자를 사용 하지 않도록 설정 된 `this` 형식입니다.|  
 |UNDNAME_NO_ACCESS_SPECIFIERS|0x0080|확장 멤버에 대 한 액세스 지정자를 사용 하지 않도록 설정 합니다.|  
 |UNDNAME_NO_THROW_SIGNATURES|0x0100|"Throw 서명" 함수 및 함수에 대 한 포인터에 대 한 확장을 사용 하지 않도록 설정 합니다.|  
@@ -83,6 +78,3 @@ HRESULT get_undecoratedNameEx( 
   
 ## <a name="see-also"></a>참고 항목  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

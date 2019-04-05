@@ -1,26 +1,21 @@
 ---
 title: 레거시 API를 사용 하 여 코드 Windows를 사용자 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - code windows
 ms.assetid: 5328ab2f-55cb-4680-9744-ec79f55acd1b
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 45788e3fdfff2898a0d2d2ed36c81425c225b54c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f15c649b8d857d2e920bb957e5975d296749cb86
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51809768"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982793"
 ---
 # <a name="customizing-code-windows-by-using-the-legacy-api"></a>레거시 API를 사용 하 여 사용자 지정 코드 Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ ms.locfileid: "51809768"
  `Customizing Code Windows by Using the Legacy API`  
  기존 API를 사용 하 여 코드 창을 사용자 지정 하는 방법에 설명 합니다.  
   
- [방법: 다른 편집기에서 편집기 호스트](../extensibility/how-to-host-an-editor-in-another-editor.md)  
+ [방법: 다른 편집기에서 편집기를 호스트 합니다.](../extensibility/how-to-host-an-editor-in-another-editor.md)  
  편집기 창 내에서 두 번째 편집기를 호스트 하는 방법에 설명 합니다.  
   
  [방법: 편집기에서 포커스를 잃을 때 이벤트 발생](../extensibility/how-to-fire-events-when-the-editor-loses-focus.md)  
@@ -53,4 +48,3 @@ ms.locfileid: "51809768"
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   
  [레거시 API를 사용 하 여 핵심 편집기 인스턴스화](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)   
  [레거시 API를 사용하여 텍스트 보기에 액세스](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)
-

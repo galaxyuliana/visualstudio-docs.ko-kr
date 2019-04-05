@@ -1,25 +1,22 @@
 ---
 title: '방법: O-r 디자이너를 사용 하 여 상속 구성 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: e594af12-e777-434a-bc08-7dd2dac84cdc
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 7a6c8e4b2da87185c41157b8d03bd59b37188a43
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: d4dfa0f5eb59b055b2dd16e9f8ac1554247c85a2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49222693"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982359"
 ---
-# <a name="how-to-configure-inheritance-by-using-the-or-designer"></a>방법: O/R 디자이너를 사용 하 여 상속 구성
+# <a name="how-to-configure-inheritance-by-using-the-or-designer"></a>방법: O/R 디자이너를 사용하여 상속 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -27,7 +24,7 @@ ms.locfileid: "49222693"
   
  예를 들어 회사에 고용되어 있는 모든 사람들이 포함되어 있는 Persons 테이블을 생각해 봅시다. 어떤 사람들은 사원이고 어떤 사람들은 관리자입니다. Persons 테이블에는 관리자의 경우 1 값이 들어 있고 사원의 경우 2 값이 들어 있는 `EmployeeType`이라는 열이 있으며 이 열이 판별자 열입니다. 이 시나리오에서는 직원 서브클래스를 만든 후 `EmployeeType` 값이 2인 레코드로만 클래스를 채울 수 있습니다. 각 클래스에서 적용되지 않는 열은 제거할 수도 있습니다.  
   
- 상속을 사용하고 관계형 데이터에 대응하는 개체 모델을 만드는 것은 조금 복잡할 수 있습니다. 다음 절차에서는 O/R 디자이너를 사용하여 상속을 구성하는 데 필요한 단계를 요약한 것입니다. 기존 테이블과 열을 참조하지 않고 일반 단계를 따르는 것이 어려울 수 있으므로 데이터를 사용하는 연습이 제공되었습니다. 상속을 사용 하 여 구성에 대 한 자세한 단계별 지침에 대 한는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]를 참조 하세요 [연습: 만들기 LINQ to SQL 클래스를 사용 하 여 단일 테이블 상속 (O/R 디자이너)에 의해](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md).  
+ 상속을 사용하고 관계형 데이터에 대응하는 개체 모델을 만드는 것은 조금 복잡할 수 있습니다. 다음 절차에서는 O/R 디자이너를 사용하여 상속을 구성하는 데 필요한 단계를 요약한 것입니다. 기존 테이블과 열을 참조하지 않고 일반 단계를 따르는 것이 어려울 수 있으므로 데이터를 사용하는 연습이 제공되었습니다. 사용 하 여 상속을 구성 하는 것에 대 한 자세한 단계별 지침에 대해서는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]를 참조 [연습: 단일 테이블 상속 (O/R 디자이너)를 사용 하 여 LINQ to SQL 클래스 만들기](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)합니다.  
   
 ### <a name="to-create-inherited-data-classes"></a>상속된 데이터 클래스를 만들려면  
   
@@ -37,33 +34,32 @@ ms.locfileid: "49222693"
   
 3.  두 번째 테이블 복사본을 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 끌어 와서 이름을 바꿉니다. 이것을 파생 클래스 또는 서브클래스라고 합니다.  
   
-4.  클릭 **상속** 에 **Object Relational Designer** 탭을 **도구 상자**, 서브 클래스 (이름을 바꾼 테이블)를 클릭 한 다음 및 기본 클래스에 연결 합니다.  
+4.  **도구 상자**의 **개체 관계형 디자이너** 탭에서 **상속**을 클릭한 다음, 서브클래스(이름을 바꾼 테이블)를 클릭하고 이를 기본 클래스에 연결합니다.  
   
     > [!NOTE]
-    >  클릭 합니다 **상속** 항목에 **도구 상자** 및 마우스 단추를 놓으면, 3 단계에서 생성 된 클래스의 두 번째 복사를 클릭 한 다음 2 단계에서 만든 첫 번째 클래스를 클릭 합니다. 상속 선의 화살표가 첫 번째 클래스를 가리킵니다.  
+    >  **도구 상자**에서 **상속** 항목을 클릭한 다음, 마우스 단추를 놓고 3단계에서 만든 클래스의 두 번째 복사본을 클릭한 다음, 2단계에서 만든 첫 번째 클래스를 클릭합니다. 상속 선의 화살표가 첫 번째 클래스를 가리킵니다.  
   
-5.  각 클래스에서 연결에 사용되지 않으므로 표시하지 않을 개체 속성을 모두 삭제합니다. 연결에 사용 되는 개체 속성을 삭제 하려고 하면 오류가 발생 합니다. [속성을 \<속성 이름 > 연결에 참여 하 고 있으므로 삭제할 수 없습니다 \<연결 이름 >](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md).  
+5.  각 클래스에서 연결에 사용되지 않으므로 표시하지 않을 개체 속성을 모두 삭제합니다. 연결에 사용 되는 개체 속성을 삭제 하려고 하면 오류가 나타납니다. [속성 \<속성 이름 > 연결에 참여 하 고 있으므로 삭제할 수 없습니다 \<연결 이름 >](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md)합니다.  
   
     > [!NOTE]
-    >  파생 클래스는 기본 클래스에 정의된 속성을 상속하므로 각 클래스에 동일한 열은 정의할 수 없습니다. 열은 속성으로 구현됩니다. 기본 클래스의 속성에서 상속 한정자를 설정함으로써 파생 클래스에서 열을 만들 수 있습니다. 자세한 내용은 [빌드에 없음: 속성 및 메서드 재정의](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213)합니다.  
+    >  파생 클래스는 기본 클래스에 정의된 속성을 상속하므로 각 클래스에 동일한 열은 정의할 수 없습니다. 열은 속성으로 구현됩니다. 기본 클래스의 속성에서 상속 한정자를 설정함으로써 파생 클래스에서 열을 만들 수 있습니다. 자세한 내용은 참조 하세요. [빌드에 없음: 속성 및 메서드 재정의](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)합니다.  
   
 6.  [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서 상속 선을 선택합니다.  
   
 7.  에 **속성** 창에서 **Discriminator Property** 수업에서 레코드를 구분 하는 데 사용 되는 열 이름으로 합니다.  
   
-8.  설정 된 **Derived Class Discriminator Value** 속성을 상속 된 형식으로 레코드를 지정 하는 데이터베이스의 값입니다. 이는 판별자 열에 저장된 값이며 상속된 클래스를 지정하는 데 사용되는 값입니다.  
+8.  **Derived Class Discriminator Value** 속성을 해당 레코드를 상속된 형식으로 지정한 데이터베이스의 값으로 설정합니다. 이는 판별자 열에 저장된 값이며 상속된 클래스를 지정하는 데 사용되는 값입니다.  
   
-9. 설정 된 **기본 클래스 판별자 값** 속성을 기본 형식으로 레코드를 지정 하는 값입니다. 이는 판별자 열에 저장된 값이며 기본 클래스를 지정하는 데 사용되는 값입니다.  
+9. **Base Class Discriminator Value** 속성을 해당 레코드를 기본 형식으로 지정한 값으로 설정합니다. 이는 판별자 열에 저장된 값이며 기본 클래스를 지정하는 데 사용되는 값입니다.  
   
-10. 선택적으로 설정할 수도 있습니다는 **Inheritance Default** 속성 정의 된 상속 코드와 일치 하지 않는 행을 로드할 때 사용 되는 상속 계층 구조의 형식을 지정 합니다. 즉, 레코드의 판별자 열의 값이 일치 하지 않는의 값을 **Derived Class Discriminator Value** 하거나 **Base Class Discriminator Value** 속성, 레코드 로 지정 된 형식으로 로드 합니다 **Inheritance Default**합니다.  
+10. 선택적으로 **Inheritance Default** 속성을 사용하여 정의된 상속 코드와 일치하지 않는 행을 로드할 때 사용되는 상속 계층 구조에서 형식을 지정할 수 있습니다. 즉, 레코드의 판별자 열의 값이 일치 하지 않는의 값을 **Derived Class Discriminator Value** 하거나 **Base Class Discriminator Value** 속성, 레코드 로 지정 된 형식으로 로드 합니다 **Inheritance Default**합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [연습: LINQ to SQL 클래스 (O-r 디자이너) 만들기](http://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)   
- [PAVE Visual Studio 2012의 데이터 응용 프로그램 개발의 새로운 기능](http://msdn.microsoft.com/en-us/3d50d68f-5f44-4915-842f-6d42fce793f1)   
+ [PAVE Visual Studio 2012의 데이터 응용 프로그램 개발의 새로운 기능](http://msdn.microsoft.com/3d50d68f-5f44-4915-842f-6d42fce793f1)   
  [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [연습: 단일 테이블 상속 (O/R 디자이너)를 사용 하 여 LINQ to SQL 클래스 만들기](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)   
- [빌드에 없음: Visual Basic의 상속](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)   
+ [빌드에 없음: Visual Basic의 상속](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)   
  [상속](http://msdn.microsoft.com/library/81d64ee4-50f9-4d6c-a8dc-257c348d2eea)
-

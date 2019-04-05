@@ -1,12 +1,9 @@
 ---
-title: '방법: 도메인별 언어에서 표준 메뉴 명령 수정 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 도메인 특정 언어에서 표준 메뉴 명령 수정 | Microsoft Docs'
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - .vsct files, adding commands to a domain-specific language
 - Domain-Specific Language, adding custom commands
@@ -14,15 +11,15 @@ ms.assetid: 9b9d8314-d0d8-421a-acb9-d7e91e69825c
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 3d29a501ef6f55c835efd68e474bc39a847f745d
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: a781fc290a9be795cf48cf08c062711376bd6acc
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49837569"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982541"
 ---
-# <a name="how-to-modify-a-standard-menu-command-in-a-domain-specific-language"></a>방법: 도메인별 언어에서 표준 메뉴 명령 수정
+# <a name="how-to-modify-a-standard-menu-command-in-a-domain-specific-language"></a>방법: 도메인 특정 언어에서 표준 메뉴 명령 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 DSL에서 자동으로 정의되는 일부 표준 명령의 동작을 수정할 수 있습니다. 예를 들어, 수정할 수 있습니다 **잘라내기** 중요 한 정보가 제외 되도록 합니다. 이렇게 하려면 명령 집합 클래스에서 메서드를 재정의합니다. 이러한 클래스는 DslPackage 프로젝트의 CommandSet.cs 파일에서 정의되며 <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>에서 파생됩니다.  
@@ -83,7 +80,7 @@ DSL에서 자동으로 정의되는 일부 표준 명령의 동작을 수정할 
      **참고** 클래스 파일 템플릿을 사용 하는 새 파일을 만드는 경우 네임 스페이스 및 클래스 이름을 모두 수정 해야 합니다.  
   
 ##  <a name="override"></a> 명령 메서드 재정의  
- 대부분의 명령에 연결 된 메서드가 두: 같은 이름 사용 하 여 메서드 `ProcessOnStatus`... 명령이 표시 되 고 사용할 수 있어야 하는지 여부를 결정 합니다. 이 메서드는 사용자가 다이어그램을 마우스 오른쪽 단추로 클릭할 때마다 호출되고 빠르게 실행되며 아무것도 변경하지 않아야 합니다. `ProcessOnMenu`... 사용자 명령을 클릭 하 고 명령의 기능을 수행 해야 하는 경우 호출 됩니다. 이 두 메서드 중 하나 또는 둘 다를 재정의할 수 있습니다.  
+ 대부분의 명령에는 두 연결된 방법이 있습니다. 이름 사용 하 여 메서드 같은 `ProcessOnStatus`... 명령이 표시 되 고 사용할 수 있어야 하는지 여부를 결정 합니다. 이 메서드는 사용자가 다이어그램을 마우스 오른쪽 단추로 클릭할 때마다 호출되고 빠르게 실행되며 아무것도 변경하지 않아야 합니다. `ProcessOnMenu`... 사용자 명령을 클릭 하 고 명령의 기능을 수행 해야 하는 경우 호출 됩니다. 이 두 메서드 중 하나 또는 둘 다를 재정의할 수 있습니다.  
   
 ### <a name="to-change-when-the-command-appears-on-a-menu"></a>메뉴에 명령이 표시되는 경우를 변경하려면  
  ... Processonstatus 메서드. 이 메서드는 해당 MenuCommand 매개 변수의 Visible 및 Enabled 속성을 설정합니다. 일반적으로 명령은 this.CurrentSelection을 확인하여 명령이 선택한 요소에 적용되는지 여부를 결정하며, 이러한 요소의 속성을 확인하여 현재 상태에 명령을 적용할 수 있는지 여부도 결정할 수 있습니다.  
@@ -163,6 +160,3 @@ protected override void ProcessOnMenuDeleteCommand()
  [VSCT XML 스키마 참조](../extensibility/vsct-xml-schema-reference.md)   
  [VMSDK – 회로 다이어그램 샘플입니다. 광범위 한 DSL 사용자 지정](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)   
  [샘플 코드: 회로 다이어그램](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-
-
-

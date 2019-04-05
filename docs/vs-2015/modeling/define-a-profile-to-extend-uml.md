@@ -1,12 +1,9 @@
 ---
 title: UML을 확장 하는 프로필 정의 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - profiles, UML
 - stereotypes, UML
@@ -18,13 +15,13 @@ ms.assetid: 776589cb-f89d-48d5-aafa-04a4c074b0d6
 caps.latest.revision: 44
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 37c4560b767828be0ec43419ff92ec5b6f9863ea
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 832b7b148e73e8d21d56dea6b676910019294e13
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51730338"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981661"
 ---
 # <a name="define-a-profile-to-extend-uml"></a>프로필을 정의하여 UML 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +30,7 @@ ms.locfileid: "51730338"
   
  지원되는 버전의 Visual Studio와 함께 여러 프로필이 설치됩니다. 이 기능을 지원하는 Visual Studio 버전을 확인하려면 [아키텍처 및 모델링 도구에 대한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요. 이러한 프로필 및 스테레오 타입을 적용 하는 방법에 대 한 자세한 내용은 참조 하세요. [프로필 및 스테레오 타입을 사용 하 여 모델 사용자 지정](../modeling/customize-your-model-with-profiles-and-stereotypes.md)합니다.  
   
- 사용자 고유의 프로필을 정의하여 비즈니스 영역 또는 아키텍처에 맞게 UML을 조정 및 확장할 수 있습니다. 예:  
+ 사용자 고유의 프로필을 정의하여 비즈니스 영역 또는 아키텍처에 맞게 UML을 조정 및 확장할 수 있습니다. 예를 들어:  
   
 - 웹 사이트를 자주 정의하는 경우 클래스 다이어그램의 클래스에 적용할 수 있는 «WebPage» 스테레오타입을 제공하는 고유한 프로필을 정의할 수 있습니다. 그런 다음 클래스 다이어그램을 사용하여 웹 사이트를 계획할 수 있습니다. 모든 «WebPage» 클래스에 페이지 콘텐츠, 스타일 등에 대한 추가 속성이 있습니다.  
   
@@ -223,9 +220,9 @@ ms.locfileid: "51730338"
 7.  이전 섹션에서 설명한 대로 확장 프로젝트를 빌드하거나 모든 파일을 압축하여 Visual Studio 확장을 빌드합니다.  
   
 ##  <a name="Schema"></a> 프로필의 구조  
- 다음 샘플에서 UML 프로필의 XSD 파일을 찾을 수 있습니다: [설정을 스테레오 타입 및 프로필 XSD](http://go.microsoft.com/fwlink/?LinkID=213811)합니다. 프로필 파일 편집에 도움이 되도록 `.xsd` 파일을 다음 위치에 설치합니다.  
+ 다음 샘플에서 UML 프로필의 XSD 파일을 찾을 수 있습니다. [스테레오 타입 및 프로필 XSD 설정](http://go.microsoft.com/fwlink/?LinkID=213811)합니다. 프로필 파일 편집에 도움이 되도록 `.xsd` 파일을 다음 위치에 설치합니다.  
   
- **%ProgramFiles%\Microsoft visual Studio [version] \Xml\Schemas**  
+ **%ProgramFiles%\Microsoft Visual Studio [version]\Xml\Schemas**  
   
  이 섹션에서는 C# 프로필을 예로 사용합니다. 전체 프로필 정의는 다음 위치에서 확인할 수 있습니다.  
   
@@ -345,7 +342,7 @@ ms.locfileid: "51730338"
  내 스테레오타입이 UML 모델에 나타나지 않습니다.  
  패키지 또는 모델에서 프로필을 선택해야 합니다. 그러면 패키지 또는 모델 내 요소에 스테레오타입이 나타납니다. 자세한 내용은 [uml 스테레오 타입 추가 모델 요소](../modeling/add-stereotypes-to-uml-model-elements.md)합니다.  
   
- UML 모델을 열면 다음 오류가 표시 됩니다: **VS1707: serialization 오류가 발생 했기 때문에 다음 프로필을 로드할 수 없습니다: MyProfile.profile**  
+ UML 모델을 열면 다음 오류가 나타납니다. **VS1707: Serialization 오류가 발생 했기 때문에 다음 프로필을 로드할 수 없습니다. MyProfile.profile**  
  1.  .profile의 기본 XML 구문이 올바른지 확인합니다.  
   
 2. 각 모니커 이름이 /profileName/nodeName 형식인지 확인합니다. profileName은 루트 프로필 노드의 name 특성 값입니다. nodeName은 메타클래스, externalType 또는 enumerationType의 name 특성 값입니다.  
@@ -358,7 +355,7 @@ ms.locfileid: "51730338"
   
 5. VSIX 파일을 다시 빌드하고 Windows 탐색기에서 열어 다시 설치합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 다시 시작합니다.  
   
-   확장 확장 관리자에 표시 되지 않지만 다시 설치 하려고 할 때 다음 메시지가 나타납니다: **확장 적용 가능한 모든 제품에 이미 설치 되어 있습니다.**  
+   확장 확장 관리자에 표시 되지 않지만 다시 설치 하려고 할 때 다음 메시지가 나타납니다. **확장을 적용 하는 모든 제품에 이미 설치 되었습니다.**  
    1.  하위 폴더에서 확장 파일을 제거 *LocalAppData*\Microsoft\VisualStudio\\[version] \Extensions\  
   
    -   보려는 *LocalAppData*, Windows 탐색기 폴더 옵션의 보기 탭에서 숨김 파일 및 폴더 표시를 설정 해야 합니다.  
@@ -373,6 +370,3 @@ ms.locfileid: "51730338"
  [UML 모델에 대 한 표준 스테레오 타입](../modeling/standard-stereotypes-for-uml-models.md)   
  [샘플: 스테레오 타입 별로 UML 요소 색상](http://go.microsoft.com/fwlink/?LinkID=213841)   
  [샘플: 스테레오 타입을 설정, 프로필 XSD](http://go.microsoft.com/fwlink/?LinkID=213811)
-
-
-

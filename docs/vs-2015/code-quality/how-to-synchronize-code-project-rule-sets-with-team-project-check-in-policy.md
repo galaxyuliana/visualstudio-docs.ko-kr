@@ -1,14 +1,9 @@
 ---
 title: '방법: 코드 프로젝트 규칙 집합을 팀 프로젝트 체크 인 정책과 동기화 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords:
 - vs.codeanalysis.selecttfsruleset
 ms.assetid: 9b02f934-2db6-41ec-aaff-9c31ceec2f04
@@ -16,14 +11,14 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 482f3107aeb7545951632f6841c43968067b1b2a
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: 2f79b8baf3740fdbd57828552a192746e839578c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49263122"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981874"
 ---
-# <a name="how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy"></a>방법: 코드 프로젝트 규칙 집합을 팀 프로젝트 체크 인 정책과 동기화
+# <a name="how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy"></a>방법: 코드 프로젝트 규칙 세트를 팀 프로젝트 체크 인 정책과 동기화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 체크 인 정책에 대 한 설정 규칙에 지정 된 규칙을 하나 이상 포함 된 규칙 집합을 지정 하 여 동기화 할 팀 프로젝트 체크 인 정책 코드 프로젝트에 대 한 코드 분석 설정이 있습니다. 수석 개발자 이름의 하 고 체크 인 정책에 대해 설정할 규칙의 위치를 알릴 수 있습니다. 프로젝트에 대 한 코드 분석 규칙 집합이 올바르게 사용 하도록 다음 옵션 중 하나를 사용할 수 있습니다.  
@@ -60,7 +55,7 @@ ms.locfileid: "49263122"
   
 1.  코드 분석 프로젝트 설정 대화 상자 페이지에서 팀 프로젝트 체크 인 정책을 선택 하려면이 항목 앞부분의 절차 중 하나를 수행 합니다.  
   
-2.  클릭 **열려**합니다.  
+2.  **열기**를 클릭합니다.  
   
 3.  추가 하거나 규칙 집합 편집기를 사용 하 여 규칙을 제거 합니다.  
   
@@ -73,6 +68,3 @@ ms.locfileid: "49263122"
 6.  에 **이 규칙 집합 실행** 목록에서 클릭  **\<찾아보기... >** 합니다.  
   
 7.  에 **열고** 대화 상자에서 규칙 집합 파일을 지정 합니다.
-
-
-

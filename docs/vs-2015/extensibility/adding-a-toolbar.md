@@ -1,27 +1,22 @@
 ---
 title: 도구 모음 추가 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - toolbars [Visual Studio], adding to IDE
 - IDE, adding toolbars
 ms.assetid: 17302c25-6f59-4e97-8c85-54f95336a07f
 caps.latest.revision: 39
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 038b8e8503a89dd0ec565d3d1b5acf20e6437600
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 12c57f83e992750ddc12c50fafb2065345022f80
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51787954"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981701"
 ---
 # <a name="adding-a-toolbar"></a>도구 모음 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -94,8 +89,7 @@ ms.locfileid: "51787954"
   
 6.  도구 모음 목록을 가져오려면 Visual Studio 메뉴 모음을 마우스 오른쪽 단추로 클릭 합니다. 선택 **테스트 도구 모음**합니다.  
   
-7.  이제 도구 모음에서 찾기 파일 아이콘의 오른쪽에 아이콘으로 표시 됩니다. 했다는 메시지 상자가 표시 아이콘을 클릭 하면 **ToolbarTestCommandPackage 합니다. IDEToolbar.ToolbarTestCommand.MenuItemCallback() 내**합니다.  
+7.  이제 도구 모음에서 찾기 파일 아이콘의 오른쪽에 아이콘으로 표시 됩니다. 했다는 메시지 상자가 표시 아이콘을 클릭 하면 **ToolbarTestCommandPackage 합니다. Inside IDEToolbar.ToolbarTestCommand.MenuItemCallback()**.  
   
 ## <a name="see-also"></a>참고 항목  
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)
-

@@ -1,27 +1,22 @@
 ---
 title: 사용자 지정 편집기 및 디자이너 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - designers [Visual Studio SDK]
 - editors [Visual Studio SDK], custom
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
 caps.latest.revision: 32
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 324284a6cac44c995d652cce2f2e82a4c13702c1
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8dd9b637571bfd7d2480992c7a2fef74a0d5b393
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51753259"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982800"
 ---
 # <a name="creating-custom-editors-and-designers"></a>사용자 지정 편집기 및 디자이너 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,7 +75,7 @@ Visual Studio 통합된 개발 환경 (IDE)는 다양 한 유형의 편집기를
  [연습: 사용자 지정 편집기 만들기](../extensibility/walkthrough-creating-a-custom-editor.md)  
  사용자 지정 편집기를 만드는 방법을 설명 합니다.  
   
- [연습: 사용자 지정 편집기에 기능 추가](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)  
+ [연습: 추가 기능을 사용자 지정 편집기에](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)  
  사용자 지정 편집기 기능을 추가 하는 방법에 설명 합니다.  
   
  [디자이너 초기화 및 메타데이터 구성](../extensibility/designer-initialization-and-metadata-configuration.md)  
@@ -107,4 +102,3 @@ Visual Studio 통합된 개발 환경 (IDE)는 다양 한 유형의 편집기를
   
 ## <a name="see-also"></a>참고 항목  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>
-

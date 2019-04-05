@@ -1,26 +1,21 @@
 ---
 title: 특정 명령에 사용 되는 비트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, bitflags used by specific commands
 ms.assetid: 37969977-6f7d-45c9-ba03-1306ae71f5d1
 caps.latest.revision: 25
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e8ea658e62ca2bcd3ca4d423f00a94f83f2a2086
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 43dc083812bc172fe4a9f80335742b3faab2e1f4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51798185"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983237"
 ---
 # <a name="bitflags-used-by-specific-commands"></a>특정 명령에 사용되는 Bitflag
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +45,7 @@ ms.locfileid: "51798185"
 |플래그|값|설명|  
 |----------|-----------|-----------------|  
 |`SCC_DIFF_IGNORECASE`|0x0002|대/소문자 차이 무시 합니다.|  
-|`SCC_DIFF_IGNORESPACE`|0x0004|공백 차이 무시 합니다. **참고:** 는 `SCC_DIFF_IGNORECASE` 고 `SCC_DIFF_IGNORESPACE` 플래그는 선택 사항 비트입니다.|  
+|`SCC_DIFF_IGNORESPACE`|0x0004|공백 차이 무시 합니다. **참고:**  합니다 `SCC_DIFF_IGNORECASE` 고 `SCC_DIFF_IGNORESPACE` 플래그는 선택 사항 비트입니다.|  
 |`SCC_DIFF_QD_CONTENTS`|0x0010|전체 파일 콘텐츠를 비교 하 여 QD입니다.|  
 |`SCC_DIFF_QD_CHECKSUM`|0x0020|체크섬에서 QD 합니다.|  
 |`SCC_DIFF_QD_TIME`|0x0040|파일 날짜/시간 스탬프에 의해 QD 합니다.|  
@@ -85,8 +80,8 @@ ms.locfileid: "51798185"
   
 |플래그|값|설명|  
 |----------|-----------|-----------------|  
-|`SCC_GET_ALL`|0x00000001L|IDE 디렉터리를 전달 하는, 파일 수는 없습니다: 이러한 디렉터리의 모든 파일입니다.|  
-|`SCC_GET_RECURSIVE`|0x00000002L|디렉터리를 전달 하는 IDE:이 디렉터리 및 모든 해당 하위 디렉터리를 가져옵니다.|  
+|`SCC_GET_ALL`|0x00000001L|IDE는 파일이 아닌 디렉터리를 전달: 이러한 디렉터리의 모든 파일을 가져옵니다.|  
+|`SCC_GET_RECURSIVE`|0x00000002L|IDE는 디렉터리를 전달 합니다. 이러한 디렉터리와 모든 해당 하위 디렉터리를 가져옵니다.|  
   
 ## <a name="noption-values"></a>nOption 값  
  사용 하는 이러한 플래그를 [SccSetOption](../extensibility/sccsetoption-function.md) 에 `nOption` 매개 변수입니다.  
@@ -108,10 +103,9 @@ ms.locfileid: "51798185"
 |`SCC_OPT_EQ_DISABLE`|0x00L|이벤트 큐 작업을 일시 중단합니다.|`SCC_OPT_EVENTQUEUE`|  
 |`SCC_OPT_EQ_ENABLE`|0x01L|이벤트 큐 로깅을 사용합니다.|`SCC_OPT_EVENTQUEUE`|  
 |`SCC_OPT_HCM_NO`|0L|(기본값) 어떠한 취소 모드입니다. 필요한 경우 플러그 인이 제공 해야 합니다.|`SCC_OPT_HASCANCELMODE`|  
-|`SCC_OPT_HCM_YES`|1 L|IDE는 취소를 처리합니다.|`SCC_OPT_HASCANCELMODE`|  
+|`SCC_OPT_HCM_YES`|1L|IDE는 취소를 처리합니다.|`SCC_OPT_HASCANCELMODE`|  
 |`SCC_OPT_SCO_NO`|0L|(기본값) 플러그 인 UI에서 체크 아웃 확인 작업 디렉터리 설정 됩니다.|`SCC_OPT_SCCCHECKOUTONLY`|  
-|`SCC_OPT_SCO_YES`|1 L|없는 플러그 인 UI 체크 아웃, 작업 디렉터리가 없습니다.|`SCC_OPT_SCCCHECKOUTONLY`|  
+|`SCC_OPT_SCO_YES`|1L|없는 플러그 인 UI 체크 아웃, 작업 디렉터리가 없습니다.|`SCC_OPT_SCCCHECKOUTONLY`|  
   
 ## <a name="see-also"></a>참고 항목  
  [소스 제어 플러그 인](../extensibility/source-control-plug-ins.md)
-

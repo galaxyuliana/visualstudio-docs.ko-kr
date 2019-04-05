@@ -1,25 +1,22 @@
 ---
-title: '방법: 도메인별 언어 새 버전으로 마이그레이션 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 도메인 특정 언어를 새 버전으로 마이그레이션 | Microsoft Docs'
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 6a1ae073-443e-45ca-8bc9-9b944362b449
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 52d8cb794b205631e7cc455241f48bcc78b879b9
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 22addb1c98f72f265665ca5737180c24744b0f32
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49844473"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983765"
 ---
-# <a name="how-to-migrate-a-domain-specific-language-to-a-new-version"></a>방법: 도메인별 언어를 새 버전으로 마이그레이션
+# <a name="how-to-migrate-a-domain-specific-language-to-a-new-version"></a>방법: 도메인 특정 언어를 새 버전으로 마이그레이션
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 정의 및 도메인 특정 언어를 사용 하는 프로젝트를 마이그레이션할 수 있습니다 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 버전의 [!INCLUDE[dsl](../includes/dsl-md.md)] 와 함께 배포 된는 [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)]합니다.  
@@ -81,7 +78,7 @@ ms.locfileid: "49844473"
    2.  클릭 합니다 **모든 템플릿 변환** 솔루션 탐색기의 헤더에는 단추입니다.  
   
        > [!NOTE]
-       >  이 단계는 불필요 한으로 만들 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
+       >  이 단계는 불필요 한으로 만들 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
   
 6. 변환 된 프로젝트에서 사용자 지정 코드를 업데이트 합니다.  
   
@@ -91,6 +88,3 @@ ms.locfileid: "49844473"
   
 ## <a name="see-also"></a>참고 항목  
  [시각화 및 모델링 SDK의 새로운 기능](../misc/what-s-new-in-visualization-and-modeling-sdk.md)
-
-
-

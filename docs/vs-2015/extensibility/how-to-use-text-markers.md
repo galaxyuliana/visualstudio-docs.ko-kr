@@ -1,26 +1,21 @@
 ---
-title: '방법: 텍스트 표식을 사용 하 여 | Microsoft Docs'
-ms.custom: ''
+title: '방법: 텍스트 마커를 사용 하 여 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - using text markers
 ms.assetid: 76eed51c-eecb-4579-823e-13df2f0526b9
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 4fea8e6d5774e8991cf70cbc84e6b713d59f199f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 3f0c6109f965f78a3c03b0de8fecf63f702ddb3c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810206"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981939"
 ---
 # <a name="how-to-use-text-markers"></a>방법: 텍스트 마커를 사용 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,5 +58,4 @@ ms.locfileid: "51810206"
  [텍스트 마커를 사용 하 여 레거시 API를 사용 하 여](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)   
  [방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md)   
- [방법: 오류 표식 구현](../extensibility/how-to-implement-error-markers.md)
-
+ [방법: 오류 마커를 구현 합니다.](../extensibility/how-to-implement-error-markers.md)

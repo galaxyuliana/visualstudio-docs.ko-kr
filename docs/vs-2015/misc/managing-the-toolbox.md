@@ -1,31 +1,26 @@
 ---
 title: 관리 도구 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - Toolbox [Visual Studio SDK], automatic tab selection
 - Toolbox [Visual Studio SDK], managing
 ms.assetid: 3b052047-f6db-46dd-b3bf-da1c348ee410
 caps.latest.revision: 33
-manager: douge
-ms.openlocfilehash: 227001e827057ffab4c851a985f7e36afaf0f351
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: e0e4c47ebeece4720a80b50a4f95921e204dbca6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49873424"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981920"
 ---
 # <a name="managing-the-toolbox"></a>Managing the Toolbox
 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 에서는 편집기 또는 디자이너와 같은 VSPackage로 **도구 상자**의 멤버 자격과 모양을 관리할 수 있습니다.  
   
- 또한 **도구 상자** 자체는 자동화를 사용하여 관리할 수 있습니다. 자동화를 통해 도구 상자를 관리하는 방법에 대한 자세한 내용은 [How to: Control the Toolbox](http://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)를 참조하세요.  
+ 또한 **도구 상자** 자체는 자동화를 사용하여 관리할 수 있습니다. 관리 자동화를 통해 도구 상자에 대 한 자세한 내용은 참조 하세요. [방법: Control the Toolbox](http://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)합니다.  
   
 ## <a name="automatic-toolbox-tab-selection"></a>자동 도구 상자 탭 선택  
  현재 활성화된 편집기 또는 디자이너에 따라 특정 **도구 상자** 탭 또는 범주를 자동으로 활성화할 수 있습니다. 예를 들어 폼 디자이너가 활성화된 경우 **모든 Windows Forms** 탭이 선택되도록 할 수 있습니다.  
@@ -42,7 +37,7 @@ ms.locfileid: "49873424"
 |인터페이스|설명|  
 |---------------|-----------------|  
 |<xref:System.Drawing.Design.IToolboxService>|응용 프로그램 관리, 추가 및 제거 하는 데 <xref:System.Drawing.Design.ToolboxItem> 에서 개체를 **도구 상자**합니다. 또한 모양과 **도구 상자** 범주를 구성할 수 있도록 합니다.|  
-|<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>|응용 프로그램이 활성 기반 **도구 상자** 컨트롤을 관리, 추가 및 제거하고 **도구 상자** 범주와 모양을 구성할 수 있도록 합니다.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>|애플리케이션이 활성 기반 **도구 상자** 컨트롤을 관리, 추가 및 제거하고 **도구 상자** 범주와 모양을 구성할 수 있도록 합니다.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>|지속성 및 지역화를 완벽하게 지원하여 <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>에 있는 기능을 확장합니다.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox4>||  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox5>||  

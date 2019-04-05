@@ -1,25 +1,22 @@
 ---
 title: 텍스트 템플릿 제어 블록 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, template code
 ms.assetid: bad198b9-57a4-4777-bd5b-ab6336c825f3
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 7531e0ace7a6e2b40d8d17555a9b34cfa0e174fa
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 6fb532c122bec0ff56c00a261ca464daba0a464f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49221210"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983772"
 ---
 # <a name="text-template-control-blocks"></a>텍스트 템플릿 제어 블록
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -176,6 +173,3 @@ Some text.
     ```  
   
 -   **리팩터링 합니다.** 텍스트 템플릿을 간단하고 이해하기 쉽게 유지하려면 다시 사용할 수 있는 코드를 클래스 기능 블록에서 도우미 함수로 구분하거나 Microsoft.VisualStudio.TextTemplating.TextTransformation 클래스에서 상속하는 텍스트 템플릿 클래스를 만들어 반복되는 코드를 방지하는 것이 좋습니다.
-
-
-

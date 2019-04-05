@@ -1,14 +1,9 @@
 ---
 title: 다른 디버깅 기능 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,13 +13,13 @@ ms.assetid: a41166d7-e03e-42ef-862e-dd025ef600b6
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 9b3375e97aa356b9c22f29bcf7bf696607cd30de
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f2e6140b10b9f0c9a540144ca70bb081ac2d3e7a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51729312"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982666"
 ---
 # <a name="more-debugging-features"></a>추가 디버그 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,8 +41,8 @@ ms.locfileid: "51729312"
  [Just-In-Time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md)  
  Visual Studio의 외부에서 실행하는 동안 프로그램이 충돌할 때 자동으로 디버거를 시작할 수 있는 Just-In-Time 디버깅에 대해 설명합니다.  
   
- [연습: 디자인 타임에 디버그](../debugger/walkthrough-debugging-at-design-time.md)  
- 응용 프로그램이 실행되지 않을 때 Visual Studio 직접 실행 창을 사용하여 함수나 서브루틴을 실행하는 방법을 보여 줍니다. 
+ [연습: 디자인 타임에 디버깅](../debugger/walkthrough-debugging-at-design-time.md)  
+ 애플리케이션이 실행되지 않을 때 Visual Studio 직접 실행 창을 사용하여 함수나 서브루틴을 실행하는 방법을 보여 줍니다. 
   
  [편집하며 계속하기](../debugger/edit-and-continue.md)  
  프로그램이 중단 모드에 있는 동안 소스 코드를 변경할 수 있으며, 디버그 세션을 종료하고 프로그램을 다시 빌드하지 않고도 변경 내용을 적용할 수 있도록 해 주는 도구인 편집하며 계속하기에 대해 설명하고, 이 기능을 활성화/비활성화하는 방법을 소개합니다.  
@@ -56,6 +51,3 @@ ms.locfileid: "51729312"
   
  [방법: 숨겨진 디버거 명령 복원](../debugger/how-to-restore-hidden-debugger-commands.md)  
  IDE 기본 설정에 따라 숨겨진 디버거 명령을 표시하는 방법에 대해 설명합니다.
-
-
-

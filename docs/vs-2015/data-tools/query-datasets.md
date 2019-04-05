@@ -1,22 +1,20 @@
 ---
 title: 데이터 집합 쿼리 | Microsoft Docs
-ms.custom: ''
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 7b1a91cf-8b5a-4fc0-ac36-0dc2d336fa1b
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: a6e1ff0cd6f77d2155ff4982ca02657a741c02d7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 2a5fd14f4cbc07fbd1ebac0eeefaa039dece188d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49890571"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981811"
 ---
 # <a name="query-datasets"></a>데이터 세트 쿼리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +61,7 @@ ms.locfileid: "49890571"
      [!code-csharp[VbRaddataEditing#20](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#20)]
      [!code-vb[VbRaddataEditing#20](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#20)]  
   
-## <a name="accessrelated-records"></a>Accessrelated 레코드  
+## <a name="access-related-records"></a>액세스 관련 레코드  
  데이터 집합의 테이블 관련 되어 있는 경우는 <xref:System.Data.DataRelation> 개체 가능 관련된 레코드를 다른 테이블에서 사용할 수 있습니다. 예를 들어 데이터 집합 포함 하는 `Customers` 고 `Orders` 테이블 사용할 수 있습니다.  
   
  사용할 수는 <xref:System.Data.DataRelation> 호출 하 여 관련된 레코드를 찾을 개체입니다 합니다 <xref:System.Data.DataRow.GetChildRows%2A> 메서드의 <xref:System.Data.DataRow> 부모 테이블에서. 이 메서드는 관련 된 자식 레코드의 배열을 반환합니다. 하거나 호출할 수 있습니다 합니다 <xref:System.Data.DataRow.GetParentRow%2A> 메서드는 <xref:System.Data.DataRow> 자식 테이블의 합니다. 이 메서드는 단일 <xref:System.Data.DataRow> 부모 테이블에서.  
@@ -71,7 +69,7 @@ ms.locfileid: "49890571"
  이 페이지는 형식화 된 데이터 집합을 사용 하는 예제를 제공 합니다. 형식화 되지 않은 데이터 집합에서 관계를 탐색 하는 방법에 대 한 내용은 [Datarelation 탐색](http://msdn.microsoft.com/library/e5e673f4-9b44-45ae-aaea-c504d1cc5d3e)합니다.  
   
 > [!NOTE]
->  Windows Forms 응용 프로그램에서 작업 하 고 데이터 바인딩 기능을 사용 하 여 데이터를 표시 하는 경우 디자이너에서 생성 된 양식 응용 프로그램에 대 한 충분 한 기능을 제공할 수 있습니다. 자세한 내용은 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다. 특히 참조[방법: Windows Forms 응용 프로그램에서 관련 데이터 표시](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md) 하 고 [연습: Windows Form에 관련 데이터 표시](../data-tools/walkthrough-displaying-related-data-on-a-windows-form.md)합니다.  
+> Windows Forms 응용 프로그램에서 작업 하 고 데이터 바인딩 기능을 사용 하 여 데이터를 표시 하는 경우 디자이너에서 생성 된 양식 응용 프로그램에 대 한 충분 한 기능을 제공할 수 있습니다. 자세한 내용은 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다.  
   
  다음 코드 예제에서는 형식화 된 데이터 집합의 관계 위/아래로 이동 하는 방법을 보여 줍니다. 형식화 된 코드 예 사용 <xref:System.Data.DataRow>s (`NorthwindDataSet.OrdersRow`) 및 생성 된 `FindBy` *PrimaryKey* (`FindByCustomerID`) 메서드를 원하는 행을 찾아 관련된 레코드를 반환 합니다. 예제를 컴파일하고 있는 경우에 올바르게 실행:  
   
@@ -81,7 +79,7 @@ ms.locfileid: "49890571"
   
 - 명명 된 관계 `FK_Orders_Customers`코드의 범위에 사용할 수 있는 두 테이블 관련  
   
-  또한 두 테이블 반환할 모든 레코드에 대 한 데이터를 사용 하 여 입력 해야 합니다.  
+또한 두 테이블 반환할 모든 레코드에 대 한 데이터를 사용 하 여 입력 해야 합니다.  
   
 #### <a name="to-return-the-child-records-of-a-selected-parent-record"></a>자식 선택한 부모 레코드의 레코드를 반환 하려면  
   
@@ -96,4 +94,3 @@ ms.locfileid: "49890571"
   
      [!code-csharp[VbRaddataDatasets#7](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDatasets/CS/Form1.cs#7)]
      [!code-vb[VbRaddataDatasets#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb#7)]
-

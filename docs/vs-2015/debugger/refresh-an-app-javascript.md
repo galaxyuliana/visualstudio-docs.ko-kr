@@ -1,14 +1,9 @@
 ---
 title: 앱 (JavaScript) 새로 고침 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -23,13 +18,13 @@ ms.assetid: fd99ee60-fa94-46df-8b17-369f60bfd908
 caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 1905d48e79567684da6215b419c348b32721e0e3
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5d85db8ff2b9b93d99ad44377a1935552c951e32
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51722889"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982127"
 ---
 # <a name="refresh-an-app-javascript"></a>앱 새로 고침(JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,12 +78,9 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     Hello!  
     ```  
   
-7.  클릭 합니다 **새로 고침 Windows 앱** 단추를 같이: ![새로 고침 Windows 앱 단추](../debugger/media/js-refresh.png "JS_Refresh")합니다. 또는 F4 키를 누릅니다.  
+7.  클릭 합니다 **새로 고침 Windows 앱** 같이 단추: ![Windows 응용 프로그램 단추를 새로 고칠](../debugger/media/js-refresh.png "JS_Refresh")합니다. 또는 F4 키를 누릅니다.  
   
 8.  응용 프로그램으로 전환합니다. 디버거를 다시 시작하지 않아도 응용 프로그램이 다시 로드되고 새 페이지 제목이 표시됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)
-
-
-

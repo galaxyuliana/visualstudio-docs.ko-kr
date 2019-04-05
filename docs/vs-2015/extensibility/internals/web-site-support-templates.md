@@ -1,26 +1,21 @@
 ---
 title: 웹 사이트 지원 템플릿 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - we site projects, templates
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: eebacb3006826a90320cbc61edf7d56467e688ce
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: fce793b077460f2c141de0a75d612bb9254f7b3b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51760229"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986217"
 ---
 # <a name="web-site-support-templates"></a>웹 사이트 지원 템플릿
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -83,7 +78,7 @@ ms.locfileid: "51760229"
 ### <a name="web-service-projects"></a>웹 서비스 프로젝트  
  이러한 파일에 대 한 응답에서 새 웹 사이트 만들기를 **ASP.NET 웹 서비스** 가리키는 후 사용할 수 있는 명령 **새 웹 사이트** 에 **파일** 메뉴:  
   
--   다음, service.asmx의  
+-   Service.asmx  
   
      새 웹 서비스에 대 한 HTML 페이지입니다. Language 특성 코드 숨김 언어를 지정 하 고 코드 숨김 특성은이 서비스와 연결 된 코드 숨김 코드를 포함 하는 종속 파일을 지정 합니다.  
   
@@ -193,4 +188,3 @@ ms.locfileid: "51760229"
   
 ## <a name="see-also"></a>참고 항목  
  [웹 사이트 지원](../../extensibility/internals/web-site-support.md)
-
