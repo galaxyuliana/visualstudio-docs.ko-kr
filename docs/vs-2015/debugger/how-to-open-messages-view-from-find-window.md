@@ -1,14 +1,9 @@
 ---
 title: '방법: 창 찾기에서 메시지 뷰 열기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 helpviewer_keywords:
 - Messages View in Spy++, opening
 - opening Messages View in Spy++
@@ -16,13 +11,13 @@ ms.assetid: 601a193e-432a-417b-9406-6fec9e401264
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 64d32064ef20b1f7e188624a5a91ffd231b82b66
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 53ee0dce825609c13622911d5836f16954fa7a06
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51801253"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981434"
 ---
 # <a name="how-to-open-messages-view-from-find-window"></a>방법: 창 찾기에서 메시지 뷰 열기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +40,7 @@ ms.locfileid: "51801253"
   
 4.  아래 **표시**를 선택 **메시지**합니다.  
   
-5.  키를 눌러 **확인**합니다.  
+5.  **확인**을 누릅니다.  
   
      Blank [메시지 뷰](../debugger/messages-view.md) 창이 열리고 및 **메시지** 메뉴가 Spy + + 도구 모음에 추가 됩니다.  
   
@@ -60,6 +55,3 @@ ms.locfileid: "51801253"
      선택한 옵션에 따라 활성 메시지 보기 창으로 스트리밍되 기 시작 합니다.  
   
 9. 충분 한 메시지에 있는 경우 선택할 **로깅 중지** 에서 합니다 **메시지** 메뉴.
-
-
-

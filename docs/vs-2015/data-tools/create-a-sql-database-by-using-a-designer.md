@@ -1,12 +1,9 @@
 ---
 title: 디자이너를 사용 하 여 SQL database 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -26,14 +23,14 @@ ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
 caps.latest.revision: 54
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 0ef261ec4ea803dcfc42b6151a5c828d5b03811a
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 24aae7066d3fb14a298c780e5cd9f7e91901821e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49860333"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58980628"
 ---
 # <a name="create-a-sql-database-by-using-a-designer"></a>디자이너를 사용 하 여 SQL database 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,7 +86,7 @@ ms.locfileid: "49860333"
   
 2.  바로 가기 메뉴를 열고 **테이블**를 선택한 후 **새 테이블 추가**합니다.  
   
-     합니다 **테이블 디자이너** 열리고 사용자가 만드는 테이블의 단일 열을 나타내는 한 개의 기본 행이 있는 그리드를 보여 줍니다. 표에 행을 추가하여 테이블에 열을 추가합니다.  
+     **테이블 디자이너**가 열리고 사용자가 만드는 테이블의 단일 열을 나타내는 한 개의 기본 행이 포함된 표가 표시됩니다. 표에 행을 추가하여 테이블에 열을 추가합니다.  
   
 3.  표에서 다음 각 항목에 대한 행을 추가합니다.  
   
@@ -195,4 +192,3 @@ ms.locfileid: "49860333"
   
 ## <a name="next-steps"></a>다음 단계  
  몇 가지 샘플 데이터를 사용 하 여 로컬 데이터베이스 파일을 설정 했으므로 데이터베이스 작업을 보여 주는 연습을 완료할 수 있습니다.
-
