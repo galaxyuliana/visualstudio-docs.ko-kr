@@ -1,26 +1,21 @@
 ---
 title: 속성 창에서 속성 값 업데이트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, updating property values
 - property values, updating in Properties window
 ms.assetid: 9358e8c3-b9d2-4fd4-aaab-cf48d1526db4
 caps.latest.revision: 9
-manager: douge
-ms.openlocfilehash: 8db48e1f746afa8f8f219935555815587ce5823c
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 2dd12247c7f2af6a7db297defe835e352848b378
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49290487"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971592"
 ---
 # <a name="updating-property-values-in-the-properties-window"></a>속성 창에서 속성 값을 업데이트합니다.
 **속성** 창이 속성 값 변경과 동기화 상태를 유지하도록 하는 방법에는 두 가지가 있습니다. 첫 번째는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> 인터페이스를 호출하는 방법입니다. 이 인터페이스는 환경에서 제공하는 도구 및 문서 창의 생성 및 액세스를 포함한 기본적인 창 관리 기능에 대한 액세스를 제공합니다. 다음 단계에서 이 동기화 프로세스를 설명합니다.  

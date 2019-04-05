@@ -1,25 +1,20 @@
 ---
 title: '방법: 그래프 뷰 및 콘텐츠 모델 뷰에서 다이어그램 인쇄 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 7e1785e4-4aaf-4c66-8735-51e7ca035565
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 53774a410a05244f4b005fac1b14fe5776794a68
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 50b38a5ca5c37fe2b372f863f695a968055895ff
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49305476"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970463"
 ---
 # <a name="how-to-print-diagrams-from-the-graph-view-and-the-content-model-view"></a>방법: 그래프 뷰 및 콘텐츠 모델 뷰에서 다이어그램 인쇄
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ ms.locfileid: "49305476"
  [그래프 뷰](../xml-tools/graph-view.md)   
  [콘텐츠 모델 뷰](../xml-tools/content-model-view.md)   
  [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md)
-
-
-

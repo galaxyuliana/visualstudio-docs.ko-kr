@@ -1,26 +1,21 @@
 ---
 title: '방법: 파일 변경 알림 표시 안 함 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - suppress file change notification
 ms.assetid: 891c1eb4-f6d0-4073-8df0-2859dbd417ca
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e4f82fd90d95a595d39403d2ee131285034b95d0
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 108910c52033af3574a004cf314be2628fd54122
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51808260"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971644"
 ---
 # <a name="how-to-suppress-file-change-notifications"></a>방법: 파일 변경 알림 표시 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -121,4 +116,3 @@ void CSuspendFileChanges::Resume()
   
 ## <a name="robust-programming"></a>강력한 프로그래밍  
  사용자의 경우 소스 코드 제어, 대/소문자와 같이 파일에 여러 변경 내용을 포함 하는 경우 다음 반드시 전역 파일 변경 알림 경고 문서 데이터 파일 변경 내용에 대 한 모니터링을 재개 하기 전에 다시 시작 합니다.
-

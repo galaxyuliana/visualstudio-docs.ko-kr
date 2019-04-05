@@ -1,14 +1,9 @@
 ---
 title: 테스트에 대 한 ClickOnce 응용 프로그램을 배포 하 고 다시 서명 하지 않고 프로덕션 서버 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -24,13 +19,13 @@ ms.assetid: 1218a98d-1ad5-4eef-95dd-0e0b3c44168c
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 2b2a26e847a23e8a4037958532889626a931341c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 2354f65e1b042682a0e58a0dbb4bc12712bb47e3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49840040"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971679"
 ---
 # <a name="deploying-clickonce-applications-for-testing-and-production-servers-without-resigning"></a>다시 서명하지 않고 테스트 및 프로덕션 서버용 ClickOnce 응용 프로그램 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,11 +62,8 @@ ms.locfileid: "49840040"
   두 번째 예제에서는 지정 하는 ClickOnce 응용 프로그램을 게시할 `deploymentProvider`, 후 제거 하려는 경우. 사용 하지 않는 새 버전에 한 번 `deploymentProvider` 다운로드 한 클라이언트에 됩니다 응용 프로그램의 버전을 해제할 때까지 업데이트를 사용 하는 경로 리디렉션할 수 `deploymentProvider` 복원 합니다. 첫 번째 예제에서와 마찬가지로 `deploymentProvider` 현재 업데이트 위치를 새 위치가 아니라 처음 가리켜야 합니다. 삽입 하려고 하면이 경우는 `deploymentProvider` 을 참조 하는 http://subdomain.adatum.com/MyApplication/, 다음 업데이트에 실패 합니다.  
   
 ## <a name="creating-a-deployment"></a>배포 만들기  
- 다른 네트워크 위치에서 배포할 수 있는 배포를 만드는 단계별 지침을 참조 하세요. [연습: ClickOnce 응용 프로그램 해당 않습니다 하지 필요한 항목을 수동으로 배포 하 고 해당 보존 브랜딩 정보](../deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md).  
+ 다른 네트워크 위치에서 배포할 수 있는 배포를 만드는 단계별 지침을 참조 하세요. [연습: 다시 서명 하는 필요가 없고 브랜드 정보가 유지 되는 ClickOnce 응용 프로그램 수동 배포](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
  [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)
-
-
-

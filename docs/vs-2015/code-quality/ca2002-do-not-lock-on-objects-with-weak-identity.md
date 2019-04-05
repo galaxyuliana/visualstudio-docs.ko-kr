@@ -1,14 +1,9 @@
 ---
 title: 'CA2002: 약한 id 가진 개체를 잠그지 마십시오 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - DoNotLockOnObjectsWithWeakIdentity
 - CA2002
@@ -20,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: c8ddcd20275dc84cc1c575e00f539c2a436139c6
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 9c525aa18e94e7951e6355c959a105aa5841e10d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49907874"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971561"
 ---
 # <a name="ca2002-do-not-lock-on-objects-with-weak-identity"></a>CA2002: 약한 ID를 가진 개체를 잠그지 마십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,6 +72,3 @@ ms.locfileid: "49907874"
 ## <a name="see-also"></a>참고 항목
  <xref:System.Threading.Monitor> <xref:System.AppDomain>
  [lock 문](http://msdn.microsoft.com/library/656da1a4-707e-4ef6-9c6e-6d13b646af42) [SyncLock 문](http://msdn.microsoft.com/library/14501703-298f-4d43-b139-c4b6366af176)
-
-
-

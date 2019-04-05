@@ -1,12 +1,9 @@
 ---
 title: 읽기 XML 데이터를 dataset | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -25,13 +22,13 @@ ms.assetid: fae72958-0893-47d6-b3dd-9d42418418e4
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 6eb85fcef78b4b856c47ccb4436d1314ae440136
-ms.sourcegitcommit: d462dd10746624ad139f1db04edd501e7737d51e
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 18f3c5c1e3b3c19f3cbf490aa3dd71c854abe7df
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50219733"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970906"
 ---
 # <a name="read-xml-data-into-a-dataset"></a>XML 데이터를 데이터 세트에 읽어오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +49,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 5.  XML 파일에 따라 XML 스키마를 표시 하는 코드 추가 <xref:System.Windows.Forms.TextBox> 컨트롤  
   
 > [!NOTE]
->  대화 상자와 메뉴 명령은 활성 설정 또는 버전에 따라 도움말에서 설명 된 것과 다를 수 표시를 사용 합니다. 설정을 변경 하는 **도구** 메뉴에서**설정 가져오기 및 내보내기**합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+>  대화 상자와 메뉴 명령은 활성 설정 또는 버전에 따라 도움말에서 설명 된 것과 다를 수 표시를 사용 합니다. 설정을 변경 하는 **도구** 메뉴에서**설정 가져오기 및 내보내기**합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기  
  이 단계에서는이 연습을 포함 하는 Visual Basic 또는 Visual C# 프로젝트를 만듭니다.  
@@ -149,7 +146,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
   
 -   <xref:System.Windows.Forms.TextBox> XML 파일에 대 한 XML 스키마를 표시 하는 컨트롤입니다.  
   
--   두 <xref:System.Windows.Forms.Button> 컨트롤입니다.  
+-   두 <xref:System.Windows.Forms.Button> 컨트롤.  
   
     -   단추 하나는 데이터 집합에 XML 파일을 읽고에 표시 된 <xref:System.Windows.Forms.DataGridView> 컨트롤입니다.  
   
@@ -172,7 +169,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
     |Control|속성|설정|  
     |-------------|--------------|-------------|  
     |`TextBox1`|**Multiline**|`true`|  
-    ||**스크롤 막대**|**세로**|  
+    ||**ScrollBars**|**세로**|  
     |`Button1`|**이름**|`ReadXmlButton`|  
     ||**텍스트**|`Read XML`|  
     |`Button2`|**이름**|`ShowSchemaButton`|  
@@ -228,9 +225,8 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
      [!code-vb[VbRaddataFillingAndExecuting#3](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/VB/Form1.vb#3)]  
   
 ## <a name="test-the-form"></a>형식 테스트  
- 이제 예상 대로 작동 되도록 폼을 테스트할 수 있습니다.  
-  
-#### <a name="to-test-the-form"></a>폼을 테스트 하려면  
+
+이제 예상 대로 작동 되도록 폼을 테스트할 수 있습니다.
   
 1.  선택 **F5** 응용 프로그램을 실행 합니다.  
   
@@ -243,15 +239,15 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
      텍스트 상자는 XML 파일에 대 한 XML 스키마를 표시합니다.  
   
 ## <a name="next-steps"></a>다음 단계  
- 이 연습에서는 데이터 집합에 XML 파일을 읽을 수 있을 뿐만 아니라 XML 파일의 내용을 기반으로 하는 스키마 만들기의 기본 사항을 설명 합니다. 그런 다음 수행할 수 있는 일부 태스크는 다음과 같습니다.  
+
+이 연습에서는 데이터 집합에 XML 파일을 읽을 수 있을 뿐만 아니라 XML 파일의 내용을 기반으로 하는 스키마 만들기의 기본 사항을 설명 합니다. 그런 다음 수행할 수 있는 일부 태스크는 다음과 같습니다.  
   
 -   데이터 집합 및 XML로 다시 작성할에서 데이터를 편집 합니다. 자세한 내용은 <xref:System.Data.DataSet.WriteXml%2A>을 참조하세요.  
   
--   데이터 집합에서 데이터를 편집 하 고 데이터베이스에 작성 합니다. 자세한 내용은 [데이터 저장](../data-tools/saving-data.md)합니다.  
+-   데이터 집합에서 데이터를 편집 하 고 데이터베이스에 작성 합니다.
   
 ## <a name="see-also"></a>참고 항목  
  [데이터 연습](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)   
- [데이터를 받기 위해 응용 프로그램 준비](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
+ [데이터를 받기 위해 애플리케이션 준비](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Visual Studio의 XML 도구](../xml-tools/xml-tools-in-visual-studio.md)
-

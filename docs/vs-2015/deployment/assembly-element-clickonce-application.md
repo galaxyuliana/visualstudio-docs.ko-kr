@@ -1,14 +1,9 @@
 ---
 title: '&lt;어셈블리&gt; 요소 (ClickOnce 응용 프로그램) | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 f1_keywords:
 - urn:schemas-microsoft-com:asm.v2#assembly
 dev_langs:
@@ -21,13 +16,13 @@ ms.assetid: 51410569-10f9-4c0a-96b5-d39185edbefc
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 44437c0ff78c5f957a0d774530e8911513ba0fd6
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: d619b8b3cd81e5b00fc689077a95ade08f4d7eed
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49191778"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971380"
 ---
 # <a name="ltassemblygt-element-clickonce-application"></a>&lt;어셈블리&gt; 요소 (ClickOnce 응용 프로그램)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +53,7 @@ ms.locfileid: "49191778"
   
 |특성|설명|  
 |---------------|-----------------|  
-|`manifestVersion`|필수. 합니다 `manifestVersion` 특성으로 설정 되어 있어야 `1.0`합니다.|  
+|`manifestVersion`|필수 요소. 합니다 `manifestVersion` 특성으로 설정 되어 있어야 `1.0`합니다.|  
   
 ## <a name="example"></a>예제  
  다음 코드 예제는 `assembly` 요소에 대 한 응용 프로그램 매니페스트에서 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램입니다. 이 코드 예제는에서 제공 하는 더 큰 예제의 일부입니다 [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)합니다.  
@@ -79,7 +74,4 @@ ms.locfileid: "49191778"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)   
- [\<어셈블리 > 요소](../deployment/assembly-element-clickonce-deployment.md)
-
-
-
+ [\<assembly> 요소](../deployment/assembly-element-clickonce-deployment.md)
