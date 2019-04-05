@@ -1,26 +1,21 @@
 ---
 title: 마법사 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], providing wizard support
 ms.assetid: 59d9a77f-ee80-474b-a14f-90f477ab717b
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: cbf2eceeb3ae8a3870954d53f8d85c46f3322d24
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 7afb8956ab3c5f4fb202adadbeea32d90e159074
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51747600"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972084"
 ---
 # <a name="wizards"></a>마법사
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ ms.locfileid: "51747600"
   
  [프로젝트 확장](../../extensibility/extending-projects.md)  
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 프로젝트 및 솔루션을 사용하여 코드 파일 및 리소스 파일을 구성하는 방법 및 소스 제어를 구현하는 방법을 설명합니다.
-

@@ -1,12 +1,9 @@
 ---
 title: 'UML 동작 다이어그램: 참조 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords:
 - vs.teamarch.activitydiagram.diagram
 - vs.teamarch.activitydiagram.toolbox
@@ -22,13 +19,13 @@ ms.assetid: 07efcd17-2a96-4052-9957-6dcccbb725ee
 caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 2dcfa13a7ac97a5afd3e315fcef13a706c5f4bce
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 5c698b84ec3af759a4c276e0129e628abba9212f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810470"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986321"
 ---
 # <a name="uml-activity-diagrams-reference"></a>UML 동작 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +36,7 @@ ms.locfileid: "51810470"
   
 - 사용자와 시스템 간의 비즈니스 프로세스 또는 워크플로. 자세한 내용은 [사용자 요구 사항 모델](../modeling/model-user-requirements.md)합니다.  
   
-- 사용 사례에서 수행된 단계. 자세한 내용은 [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
+- 사용 사례에서 수행된 단계. 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
   
 - 소프트웨어 프로토콜, 즉 구성 요소 간에 허용되는 상호 작용 시퀀스  
   
@@ -55,7 +52,7 @@ ms.locfileid: "51810470"
  다이어그램을 읽으려면 토큰 또는 컨트롤의 스레드가 한 작업에서 다음 작업으로 연결선을 따라 전달된다고 가정합니다.  
   
 ### <a name="simple-control-flows"></a>간단한 제어 흐름  
- 분기와 루프를 사용하여 작업 시퀀스를 표시할 수 있습니다. 여기에 설명 된 요소를 사용 하는 방법에 대 한 자세한 내용은 항목의 제어 흐름 설명 섹션을 참조 하세요 [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
+ 분기와 루프를 사용하여 작업 시퀀스를 표시할 수 있습니다. 여기에 설명 된 요소를 사용 하는 방법에 대 한 자세한 내용은 항목의 제어 흐름 설명 섹션을 참조 하세요. [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)합니다.  
   
  ![간단한 제어 흐름](../modeling/media/uml-actovsimple.png "UML_ActOvSimple")  
   
@@ -73,7 +70,7 @@ ms.locfileid: "51810470"
 |10|**동작 호출 작업**|다른 동작 다이어그램에서 자세히 정의된 작업입니다.<br /><br /> -   **동기** -활동 종료 될 때까지 작업이 대기 하는 true 인 경우.<br />-   **동작** -호출 되는 동작입니다.|  
 |(표시되지 않음)|**작업 호출 작업**|클래스 인스턴스에서 작업을 호출하는 동작입니다.|  
 ||**작업**|동작 다이어그램에 표시되는 작업 흐름입니다. 활동의 속성을 보려면에서 선택 해야 하면 **UML 모델 탐색기**합니다.<br /><br /> -   **이 읽기 전용임** -활동 개체의 상태를 변경 하지 해야 true 인 경우.<br />-   **단일 실행** -true는 최대 한 번에 하나의 실행이이 다이어그램의 경우.|  
-||**UML 동작 다이어그램**|동작을 표시하는 다이어그램입니다. 해당 속성을 보려면 다이어그램의 빈 부분을 클릭합니다. **참고:** 동작 다이어그램의 이름, 다이어그램 및 다이어그램에 표시 되는 활동을 포함 하는 파일 모두 다를 수 있습니다.|  
+||**UML 동작 다이어그램**|동작을 표시하는 다이어그램입니다. 해당 속성을 보려면 다이어그램의 빈 부분을 클릭합니다. **참고:**  동작 다이어그램, 다이어그램을 포함하는 파일 및 다이어그램에 표시되는 동작의 이름이 모두 다를 수 있습니다.|  
   
 ### <a name="concurrent-flows"></a>동시 흐름  
  동시에 실행되는 동작 시퀀스를 설명할 수 있습니다. 자세한 내용은 동시 흐름 그리기를 참조하세요.  
@@ -105,6 +102,3 @@ ms.locfileid: "51810470"
 ## <a name="see-also"></a>참고 항목  
  [UML 모델 및 다이어그램 편집](../modeling/edit-uml-models-and-diagrams.md)   
  [UML 동작 다이어그램: 지침](../modeling/uml-activity-diagrams-guidelines.md)
-
-
-

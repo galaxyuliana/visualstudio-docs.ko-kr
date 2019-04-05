@@ -1,26 +1,21 @@
 ---
 title: 웹 사이트 지원 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - web site projects
 ms.assetid: ce9f4266-bb64-4c09-be88-4bd6413f60d0
 caps.latest.revision: 18
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 7215079dbfc8a8c9934f16700c0a7f466f9bc9a6
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 91deb6d2e3ec58533ac9339c8c94634db23ec996
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51786082"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986471"
 ---
 # <a name="web-site-support"></a>웹 사이트 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,4 +40,3 @@ ms.locfileid: "51786082"
 ## <a name="related-sections"></a>관련 단원  
  [웹 프로젝트](../../extensibility/internals/web-projects.md)  
  두 종류의 웹 프로젝트, 웹 사이트 프로젝트와 웹 응용 프로그램 프로젝트의 개요를 제공 합니다.
-

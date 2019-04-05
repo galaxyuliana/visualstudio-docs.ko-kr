@@ -1,25 +1,20 @@
 ---
 title: '방법: XPath 식 계산 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 159ba4ef-75e4-4ac8-80dc-e064e0bec345
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 05758034c0228f0efd7fb3ae63bd3b7e0d5e3095
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 77c9acae710baeb885bcf901257367251d86c3a2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49210433"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986381"
 ---
 # <a name="how-to-evaluate-an-xpath-expression"></a>방법: XPath 식 계산
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ ms.locfileid: "49210433"
 -   사용자 정의 함수는 지원되지 않습니다.  
   
 > [!NOTE]
->  다음 절차에서 belowAvg.xsl 및 books.xml 파일을 사용 합니다 [연습: XSLT 스타일 시트 디버깅](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) 항목입니다.  
+>  다음 절차에서 belowAvg.xsl 및 books.xml 파일을 사용 하 여 [연습: XSLT 스타일 시트 디버깅](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) 항목입니다.  
   
 ### <a name="to-evaluate-an-xpath-expression"></a>XPath 식을 계산하려면  
   
@@ -59,4 +54,3 @@ ms.locfileid: "49210433"
   
 ## <a name="see-also"></a>참고 항목  
  [XSLT 디버그](../xml-tools/debugging-xslt.md)
-

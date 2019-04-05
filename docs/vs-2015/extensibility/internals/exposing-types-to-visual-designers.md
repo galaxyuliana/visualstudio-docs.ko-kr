@@ -1,14 +1,9 @@
 ---
 title: 비주얼 디자이너에 형식 노출 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - types [Visual Studio SDK], exposing to visual designers
 - designers [Visual Studio SDK], exposing types
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: c19fe00713bd328574e5a05cc6f6f3a60f18ddf9
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c87f44dd12724c694fc27bae985f5f7fb617e45c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51791555"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981083"
 ---
 # <a name="exposing-types-to-visual-designers"></a>비주얼 디자이너에 형식 노출
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,8 +46,7 @@ ms.locfileid: "51791555"
      임시 PE 컴파일시 컴파일러에 제공 된 유일한 소스 파일은 사용자 지정 도구 출력. 따라서 임시 PE를 사용 하는 사용자 지정 도구는 프로젝트의 다른 파일로 독립적으로 컴파일할 수 있는 출력 파일을 생성 해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [BuildManager 개체 소개](http://msdn.microsoft.com/en-us/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
+ [BuildManager 개체 소개](http://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
  [단일 파일 생성기 구현](../../extensibility/internals/implementing-single-file-generators.md)   
  [프로젝트의 기본 Namespace를 결정합니다.](../../misc/determining-the-default-namespace-of-a-project.md)   
  [단일 파일 생성기 등록](../../extensibility/internals/registering-single-file-generators.md)
-

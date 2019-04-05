@@ -1,12 +1,9 @@
 ---
 title: '레이어 다이어그램: 지침 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - architecture, layer diagrams
 - layer diagrams
@@ -16,13 +13,13 @@ ms.assetid: 2903bec7-a93b-46a6-aac6-994ac4f3f1a7
 caps.latest.revision: 57
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: fa7483a000b5abd59b846edceead3af93f41dbc4
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: ad85ccb9e58b45b1e6354c7abf0cb5651aa6d92e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51734440"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986332"
 ---
 # <a name="layer-diagrams-guidelines"></a>레이어 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +29,7 @@ ms.locfileid: "51734440"
  이 기능을 지원하는 Visual Studio 버전을 확인하려면 [아키텍처 및 모델링 도구에 대한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요.  
   
 ## <a name="what-is-a-layer-diagram"></a>레이어 다이어그램의 정의  
- 전형적인 아키텍처 다이어그램처럼 레이어 다이어그램은 디자인의 주요 구성 요소나 기능 단위와 해당 상호 종속성을 식별합니다. 다이어그램에서 각 노드를 *레이어*, 네임 스페이스, 프로젝트 또는 다른 아티팩트의 논리 그룹을 나타냅니다. 디자인에 존재해야 하는 종속성을 그릴 수 있습니다. 전형적인 아키텍처 다이어그램과 달리 소스 코드의 실제 종속성이 사용자가 지정한 의도한 종속성에 부합되는지 확인할 수 있습니다. 유효성 검사를 [!INCLUDE[esprtfs](../includes/esprtfs-md.md)]에 대한 정기 빌드의 일부로 포함하여 프로그램 코드가 향후 변경되더라도 시스템의 아키텍처와 계속 일치하도록 할 수 있습니다. 참조 [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)합니다.  
+ 전형적인 아키텍처 다이어그램처럼 레이어 다이어그램은 디자인의 주요 구성 요소나 기능 단위와 해당 상호 종속성을 식별합니다. 다이어그램에서 각 노드를 *레이어*, 네임 스페이스, 프로젝트 또는 다른 아티팩트의 논리 그룹을 나타냅니다. 디자인에 존재해야 하는 종속성을 그릴 수 있습니다. 전형적인 아키텍처 다이어그램과 달리 소스 코드의 실제 종속성이 사용자가 지정한 의도한 종속성에 부합되는지 확인할 수 있습니다. 유효성 검사를 [!INCLUDE[esprtfs](../includes/esprtfs-md.md)]에 대한 정기 빌드의 일부로 포함하여 프로그램 코드가 향후 변경되더라도 시스템의 아키텍처와 계속 일치하도록 할 수 있습니다. 참조 [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)를 참조하세요.  
   
 ##  <a name="Update"></a> 디자인 또는 레이어 다이어그램을 사용 하 여 앱을 업데이트 하는 방법  
  다음 단계는 개발 프로세스 내에서 레이어 다이어그램의 사용 방법을 간단히 설명합니다. 이 항목의 뒷부분에 나오는 섹션에서는 각 단계에 대해 좀 더 자세히 설명합니다. 새 디자인을 개발하는 경우 기존 코드를 참조하는 단계는 생략하도록 합니다.  
@@ -168,6 +165,3 @@ ms.locfileid: "51734440"
 ## <a name="see-also"></a>참고 항목  
  [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)   
  [코드에서 레이어 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)
-
-
-

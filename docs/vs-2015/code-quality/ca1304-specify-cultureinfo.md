@@ -1,14 +1,9 @@
 ---
 title: 'CA1304: CultureInfo를 지정 합니다. | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - SpecifyCultureInfo
 - CA1304
@@ -20,14 +15,14 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 0078309f1c87e4bd1feb9a8c82d7c654185c13df
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 173ab11e85853324089f1dee66cd047e0afb7f13
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49948806"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981186"
 ---
-# <a name="ca1304-specify-cultureinfo"></a>CA1304: CultureInfo를 지정하십시오.
+# <a name="ca1304-specify-cultureinfo"></a>CA1304: CultureInfo를 지정하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 |||
@@ -80,10 +75,7 @@ ms.locfileid: "49948806"
  **1900 년 6 월 4 일 오후 12시 15분: 12**
 **06/04/1900 12시 15분: 12**
 ## <a name="related-rules"></a>관련된 규칙
- [CA1305: IFormatProvider를 지정하십시오.](../code-quality/ca1305-specify-iformatprovider.md)
+ [CA1305: IFormatProvider를 지정 합니다.](../code-quality/ca1305-specify-iformatprovider.md)
 
 ## <a name="see-also"></a>참고 항목
- [NIB: CultureInfo 클래스 사용](http://msdn.microsoft.com/en-us/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)
-
-
-
+ [NIB: CultureInfo 클래스를 사용 하 여](http://msdn.microsoft.com/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)
