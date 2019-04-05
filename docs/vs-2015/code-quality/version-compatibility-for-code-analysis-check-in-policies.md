@@ -1,14 +1,9 @@
 ---
 title: 코드 분석 체크 인 정책에 대 한 버전 호환성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords:
 - version compatibility, code analysis check-in policy
 - check-in policies, version compatibility for code analysis
@@ -17,12 +12,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 840a12e7f4c0e3853e885a803dea5a92e05a5a27
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: 1cd449446c66b2f37df9993786477734a78e10a6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49261484"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971066"
 ---
 # <a name="version-compatibility-for-code-analysis-check-in-policies"></a>코드 분석 체크 인 정책에 대한 버전 호환성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ ms.locfileid: "49261484"
 -   둘 다에 적용 되는 규칙 설정을 사용 하 여 코드 분석 체크 인 정책을 만들려면 [!INCLUDE[vstsTfsRosarioShort](../includes/vststfsrosarioshort-md.md)] 하 고 [!INCLUDE[vstsTfsOrcasShort](../includes/vststfsorcasshort-md.md)]에서 정책을 만들어야 합니다 [!INCLUDE[vstsTfsRosarioShort](../includes/vststfsrosarioshort-md.md)]필요한 모든 변경 내용을 확인 하 고 정책을 저장 합니다. 규칙 변경에만 존재 하는 경우 [!INCLUDE[vstsTfsOrcasShort](../includes/vststfsorcasshort-md.md)]를 수정 하 고 정책에 저장 [!INCLUDE[vstsTfsOrcasShort](../includes/vststfsorcasshort-md.md)]합니다.  
   
      정책을 저장 한 후 [!INCLUDE[vstsTfsOrcasShort](../includes/vststfsorcasshort-md.md)], 더 이상에 존재 하는 규칙에 대 한 설정을 변경할 [!INCLUDE[vstsTfsRosarioShort](../includes/vststfsrosarioshort-md.md)] 만 합니다.
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: '방법: 모듈 창 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.modules
 dev_langs:
@@ -31,13 +26,13 @@ ms.assetid: d840fdca-b035-4452-b652-72580c831896
 caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: fea513b7593e260b5f5fb71e40ced98a1f8cc279
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 105325341d8f93f9531c2c85deb8ef21266e872c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51764412"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981459"
 ---
 # <a name="how-to-use-the-modules-window"></a>방법: 모듈 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +46,7 @@ ms.locfileid: "51764412"
   
 -   에 **디버그** 메뉴 선택 **Windows**를 클릭 하 고 **모듈**합니다.  
   
-     기본적으로 **모듈** 창에서는 모듈이 로드 순서 대로 정렬 합니다. 그러나 열을 기준으로 정렬할 수도 있습니다.  
+     기본적으로 **모듈** 창에서는 모듈이 로드 순서대로 정렬됩니다. 그러나 열을 기준으로 정렬할 수도 있습니다.  
   
 ### <a name="to-sort-by-any-column"></a>열별로 정렬하려면  
   
@@ -70,7 +65,7 @@ ms.locfileid: "51764412"
   
 #### <a name="to-change-symbol-load-settings"></a>기호 로드 설정을 변경하려면  
   
-1.  에 **모듈** 창에서 모든 모듈을 마우스 오른쪽 단추로 클릭 합니다.  
+1.  **모듈** 창에서 모듈을 마우스 오른쪽 단추로 클릭합니다.  
   
 2.  클릭 **기호 설정**합니다.  
   
@@ -78,16 +73,11 @@ ms.locfileid: "51764412"
   
 #### <a name="to-change-symbol-load-behavior-for-a-specific-module"></a>특정 모듈에 대한 기호 로드 동작을 변경하려면  
   
-1.  에 **모듈** 창 모듈을 마우스 오른쪽 단추로 클릭 합니다.  
+1.  **모듈** 창에서 모듈을 마우스 오른쪽 단추로 클릭합니다.  
   
 2.  가리킨 **자동 기호 로드 설정을** 클릭 하 고 **항상 수동으로 로드** 하거나 **기본**입니다. 디버깅 세션을 다시 시작할 때까지 변경 내용이 적용되지 않습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [실행 중단](http://msdn.microsoft.com/en-us/30fc4643-f337-4651-b1ff-f2de2c098d40)   
+ [실행 중단](http://msdn.microsoft.com/30fc4643-f337-4651-b1ff-f2de2c098d40)   
  [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)   
  [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
-
-
-
-
-

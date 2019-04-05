@@ -1,14 +1,9 @@
 ---
 title: '방법: 페이지 위쪽에서에서 위 또는 아래로 메모리 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -27,18 +22,18 @@ ms.assetid: 50b30a68-66f6-43f8-a48b-59ce12c95471
 caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: d20c22e366736711f16fc17f56b2e81eea558948
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8859bac6f2cfe992c3c0d8005830985598934b88
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51769154"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970442"
 ---
-# <a name="how-to-page-up-or-down-in-memory"></a>방법: 메모리에서 위 또는 아래로 한 페이지 이동
+# <a name="how-to-page-up-or-down-in-memory"></a>방법: 메모리에서 페이지 위 또는 아래로 이동
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-메모리 내용을 볼 때를 **메모리** 창 또는 **디스어셈블리** 창 메모리 공간에서 위로 또는 아래로 이동 하려면 세로 스크롤 막대를 사용할 수 있습니다.  
+**메모리** 창이나 **디스어셈블리** 창에서 메모리 내용을 볼 때 세로 스크롤 막대를 사용하여 메모리 공간에서 위나 아래로 이동할 수 있습니다.  
   
 ### <a name="to-page-up-or-down-in-memory"></a>메모리에서 페이지 위나 아래로 이동하려면  
   
@@ -57,11 +52,6 @@ ms.locfileid: "51769154"
 -   세로 스크롤 막대 맨 위나 맨 아래에 있는 화살표를 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Windows 메모리](../debugger/memory-windows.md)   
+ [메모리 창](../debugger/memory-windows.md)   
  [방법: 디스어셈블리 창 사용](../debugger/how-to-use-the-disassembly-window.md)   
  [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)
-
-
-
-
-

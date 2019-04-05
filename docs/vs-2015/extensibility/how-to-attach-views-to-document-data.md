@@ -1,26 +1,21 @@
 ---
 title: '방법: 문서 데이터에 보기 연결 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - attach views to document data
 ms.assetid: f92c0838-45be-42b8-9c55-713e9bb8df07
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: a872cf3ebfebf68c01256a0a8c42ebfcfeb02dd5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 671a243f65c68660c98c3730ca90568882a824d6
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51781545"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970966"
 ---
 # <a name="how-to-attach-views-to-document-data"></a>방법: 문서 데이터에 보기 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ ms.locfileid: "51781545"
 ## <a name="see-also"></a>참고 항목  
  [여러 문서 보기 지원](../extensibility/supporting-multiple-document-views.md)   
  [사용자 지정 편집기의 문서 데이터 및 문서 보기](../extensibility/document-data-and-document-view-in-custom-editors.md)
-

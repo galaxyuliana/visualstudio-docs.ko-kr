@@ -1,14 +1,9 @@
 ---
 title: 네이티브 개체의 사용자 지정 뷰 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - natvis
 dev_langs:
@@ -20,13 +15,13 @@ ms.assetid: 2d9a177a-e14b-404f-a6af-49498eff0bd7
 caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ff03e5e07c07b4516009c7606f8a8ea183c57298
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 6a863c0b393da0934c0f3ceb3b36084b953a81f3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51732489"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971139"
 ---
 # <a name="create-custom-views-of-native-objects"></a>네이티브 개체의 사용자 지정 뷰 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,8 +34,8 @@ Visual Studio Natvis 프레임워크를 사용하면 Visual Studio에서 **조�
 >  다음과 같은 경우에는 Natvis 프레임워크를 시각화에 사용할 수 없습니다.  
 > 
 > - 디버거 형식이 **혼합**으로 설정된 C++ Windows 데스크톱 프로젝트를 디버그하고 있습니다.  
->   -   관리되는 호환성 모드(**도구 / 옵션 / 디버깅 / 일반 / 관리되는 호환성 모드**)로 Windows 데스크톱 응용 프로그램에서 혼합 모드 디버깅을 수행하고 있습니다.  
->   -   기본 호환성 모드(**도구 / 옵션 / 디버깅 / 일반 / 기본 호환성 모드**)로 Windows 데스크톱 응용 프로그램에서 디버그하고 있습니다.  
+>   -   관리되는 호환성 모드(**도구 / 옵션 / 디버깅 / 일반 / 관리되는 호환성 모드**)로 Windows 데스크톱 애플리케이션에서 혼합 모드 디버깅을 수행하고 있습니다.  
+>   -   기본 호환성 모드(**도구 / 옵션 / 디버깅 / 일반 / 기본 호환성 모드**)로 Windows 데스크톱 애플리케이션에서 디버그하고 있습니다.  
 
 ##  <a name="BKMK_Why_create_visualizations_"></a> Natvis 시각화를 만드는 이유는 무엇인가요?  
  만든 형식에 대한 시각화 규칙을 Natvis 프레임워크를 사용하여 만들면 개발자가 디버그 중 형식을 쉽게 확인할 수 있습니다.  
@@ -632,12 +627,9 @@ Visual Studio Natvis 프레임워크를 사용하면 Visual Studio에서 **조�
 </Type>  
 ```  
 
- 메모리 내 비트맵을 확인하는 데 사용되는 이미지 조사식 확장에서 UIVisualizer의 예제를 볼 수 있습니다( [ImageWatch](https://visualstudiogallery.msdn.microsoft.com/e682d542-7ef3-402c-b857-bbfba714f78d)).  
+ 메모리 내 비트맵을 확인 하는 데는 이미지 조사식 확장에서 UIVisualizer의 예제를 확인할 수 있습니다. [ImageWatch](https://visualstudiogallery.msdn.microsoft.com/e682d542-7ef3-402c-b857-bbfba714f78d)  
 
 ### <a name="customvisualizer-element"></a>CustomVisualizer 요소  
  `CustomVisualizer` 는 Visual Studio에서 실행되는 코드에서 시각화를 제어하기 위해 작성할 수 있는 VSIX 확장을 지정하는 확장성 지점입니다. VSIX 확장 작성 방법에 대한 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)를 참조하세요. 사용자 지정 시각화 도우미를 작성하는 작업은 XML natvis 정의를 작성하는 것보다 훨씬 더 많은 작업을 수행해야 하지만 어떤 natvis가 지원되고 지원되지 않는지에 대한 제약 조건이 없습니다. 사용자 지정 시각화 도우미는 디버기 프로세스를 쿼리하고 수정하거나 Visual Studio의 다른 부분과 통신하는 데 사용할 수 있는 전체 디버거 확장성 API에 액세스할 수 있습니다.  
 
  `Condition`, `IncludeView`및 `ExcludeView` 특성을 CustomVisualizer 요소에 사용할 수 있습니다.
-
-
-

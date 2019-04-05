@@ -1,14 +1,9 @@
 ---
 title: 여러 프로세스 디버깅 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.programs
 - vs.debug.processes.attaching
@@ -24,13 +19,13 @@ ms.assetid: bde37134-66af-4273-b02e-05b3370c31ab
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 56982a3b5c0a0d8a5cb0b682ab67b6f5eb133dd1
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 1d0986e1780cb9fea061132b5985972cf9635c8b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51793050"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970495"
 ---
 # <a name="debug-multiple-processes"></a>여러 프로세스 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,10 +52,10 @@ ms.locfileid: "51793050"
   
    ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   
-##  <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> 소스 및 기호 (.pdb) 파일 찾기  
+##  <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> 소스 및 기호(.pdb) 파일 찾기  
  프로세스의 소스 코드를 탐색하려면 디버거가 프로세스의 소스 파일과 기호 파일에 액세스할 수 있어야 합니다. [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)을 참조하세요.  
   
- 프로세스의 파일에 액세스할 수 없는 경우 디스어셈블리 창을 사용하여 탐색할 수 있습니다. 참조 [방법: 디스어셈블리 창 사용](../debugger/how-to-use-the-disassembly-window.md)  
+ 프로세스의 파일에 액세스할 수 없는 경우 디스어셈블리 창을 사용하여 탐색할 수 있습니다. [방법: 디스어셈블리 창 사용](../debugger/how-to-use-the-disassembly-window.md)  
   
  ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   
@@ -168,7 +163,7 @@ ms.locfileid: "51793050"
   
   ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   
-###  <a name="BKMK_Break__step__and_continue_commands"></a> 중단, 단계 및 계속 명령을  
+###  <a name="BKMK_Break__step__and_continue_commands"></a> 명령 중단, 단계별 실행 및 계속 실행  
   
 > [!NOTE]
 >  기본적으로 디버거 명령을 중단하고 계속 실행하고 단계별로 실행하면 디버그 중인 모든 프로세스가 영향을 받습니다. 이 동작을 변경 하려면 참조 [여러 프로세스의 실행 동작 구성](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
@@ -180,7 +175,7 @@ ms.locfileid: "51793050"
 |**디버그** 메뉴:<br /><br /> -   **계속**|모든 프로세스가 다시 시작됩니다.|일시 중단된 모든 프로세스가 다시 시작됩니다.|  
 |**디버그** 메뉴:<br /><br /> -   **한 단계씩 코드 실행**<br />-   **프로시저 단위 실행**<br />-   **프로시저 나가기**|현재 프로세스가 단계별로 실행되는 동안 모든 프로세스가 실행됩니다.<br /><br /> 그런 다음 모든 프로세스가 중단됩니다.|현재 프로세스가 단계별로 실행됩니다.<br /><br /> 일시 중단된 프로세스가 다시 시작됩니다.<br /><br /> 실행 중인 프로세스가 계속 실행됩니다.|  
 |**디버그** 메뉴:<br /><br /> -   **현재 프로세스 한 단계씩 실행**<br />-   **현재 프로세스 단계**<br />-   **현재 프로세스 프로시저 나가기**|N/A|현재 프로세스가 단계별로 실행됩니다.<br /><br /> 다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|  
-|소스 창<br /><br /> -   **중단점**|모든 프로세스가 중단됩니다.|소스 창 프로세스만 중단됩니다.|  
+|소스 창<br /><br /> -   **Breakpoint**|모든 프로세스가 중단됩니다.|소스 창 프로세스만 중단됩니다.|  
 |소스 창 상황에 맞는 메뉴:<br /><br /> -   **커서까지 실행**<br /><br /> 소스 창이 현재 프로세스에 있어야 합니다.|모든 프로세스가 소스 창 프로세스가 커서까지 실행되는 동안 실행되었다가 중단됩니다.<br /><br /> 그런 다음 다른 모든 프로세스가 중단됩니다.|소스 창 프로세스가 커서까지 실행됩니다.<br /><br /> 다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|  
 |**프로세스** 창 상황에 맞는 메뉴:<br /><br /> -   **프로세스 중단**|N/A|선택한 프로세스가 중단됩니다.<br /><br /> 다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|  
 |**프로세스** 창 상황에 맞는 메뉴:<br /><br /> -   **프로세스를 계속 합니다.**|N/A|선택한 프로세스가 다시 시작됩니다.<br /><br /> 다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|  
@@ -218,18 +213,15 @@ ms.locfileid: "51793050"
 |**디버그** 메뉴:<br /><br /> -   **모두 분리**|디버거가 모든 프로세스에서 분리됩니다.|  
 |**프로세스** 창 상황에 맞는 메뉴:<br /><br /> -   **프로세스 분리**|디버거가 선택된 프로세스에서 분리됩니다.<br /><br /> 다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|  
 |**프로세스** 창 상황에 맞는 메뉴:<br /><br /> -   **프로세스 종료**|선택한 프로세스가 종료됩니다.<br /><br /> 다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|  
-|**프로세스** 창 상황에 맞는 메뉴:<br /><br /> -   **디버깅 중지 시 분리**|동작을 설정/해제 **디버그**하십시오 **디버깅 중지** 선택한 프로세스:<br /><br /> -Checked: 디버거를 프로세스에서 분리 합니다.<br />-선택 취소 됨: 프로세스가 종료 됩니다.|  
+|**프로세스** 창 상황에 맞는 메뉴:<br /><br /> -   **디버깅 중지 시 분리**|동작을 설정/해제 **디버그**하십시오 **디버깅 중지** 선택한 프로세스:<br /><br /> -확인합니다. 디버거는 프로세스에서 분리 됩니다.<br />-선택을 취소 합니다. 프로세스가 종료됩니다.|  
   
  ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [디버깅 중지, 종료 또는 프로세스에서 분리](../debugger/debug-multiple-processes.md#BKMK_Stop_debugging__terminate_or_detach_from_processes)  
   
  ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   
 ## <a name="see-also"></a>참고 항목  
- [기호 (.pdb)을 지정 하 고 소스 파일](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
+ [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md) (디버거로 코드 탐색)  
  [Just-in-time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md)   
- [다중 스레드 응용 프로그램 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)
-
-
-
+ [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)
