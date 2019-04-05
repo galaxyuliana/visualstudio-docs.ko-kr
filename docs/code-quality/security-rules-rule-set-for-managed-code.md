@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 52a7944de897d48322f78e4842756e4389e0026f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c43e1edc2e2aae13fef6df4b4fe414b933067798
+ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911246"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "59018391"
 ---
 # <a name="security-rules-rule-set-for-managed-code"></a>관리 코드에 대한 보안 규칙 규칙 집합
 Microsoft 보안 규칙 규칙 집합 보고 되는 잠재적인 보안 문제 수를 최대화 하기 위해 포함 해야 합니다.
@@ -63,3 +63,15 @@ Microsoft 보안 규칙 규칙 집합 보고 되는 잠재적인 보안 문제 �
 |[CA2147](../code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md)|투명 메서드는 보안 어설션을 사용할 수 없습니다.|
 |[CA2149](../code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md)|투명 메서드는 네이티브 코드를 호출해서는 안 됩니다.|
 |[CA2210](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md)|어셈블리에는 올바른 강력한 이름을 사용해야 합니다.|
+|[CA3001](../code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md)|SQL 주입 취약성에 대 한 코드를 검토 합니다.|
+|[CA3002](../code-quality/ca3002-review-code-for-xss-vulnerabilities.md)|XSS 취약성에 대 한 코드를 검토 합니다.|
+|[CA3003](../code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md)|코드 파일 경로 삽입 취약성이 있는지 검토|
+|[CA3004](../code-quality/ca3004-review-code-for-information-disclosure-vulnerabilities.md)|정보 공개 취약성에 대 한 코드를 검토 합니다.|
+|[CA3005](../code-quality/ca3005-review-code-for-ldap-injection-vulnerabilities.md)|LDAP 삽입 취약성이 있는지 검토 코드|
+|[CA3006](../code-quality/ca3006-review-code-for-process-command-injection-vulnerabilities.md)|처리 명령 삽입 취약성이 있는지 검토 코드|
+|[CA3007](../code-quality/ca3007-review-code-for-open-redirect-vulnerabilities.md)|오픈 리디렉션 취약성에 대 한 코드를 검토 합니다.|
+|[CA3008](../code-quality/ca3008-review-code-for-xpath-injection-vulnerabilities.md)|XPath 주입 취약점에 대 한 코드를 검토 합니다.|
+|[CA3009](../code-quality/ca3009-review-code-for-xml-injection-vulnerabilities.md)|XML 삽입 취약성이 있는지 검토 코드|
+|[CA3010](../code-quality/ca3010-review-code-for-xaml-injection-vulnerabilities.md)|XAML 주입 취약점에 대 한 코드를 검토 합니다.|
+|[CA3011](../code-quality/ca3011-review-code-for-dll-injection-vulnerabilities.md)|코드 DLL 삽입 취약성이 있는지 검토|
+|[CA3012](../code-quality/ca3012-review-code-for-regex-injection-vulnerabilities.md)|정규식 주입 취약점에 대 한 코드를 검토 합니다.|
