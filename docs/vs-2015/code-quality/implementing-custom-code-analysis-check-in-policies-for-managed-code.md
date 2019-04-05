@@ -1,14 +1,9 @@
 ---
 title: 관리 코드에 대 한 사용자 지정 코드 분석 체크 인 정책 구현 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords:
 - vs.code.analysis.selecttfsrulesets
 - vs.code.analysis.browsefortfsruleset
@@ -18,12 +13,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 82f360bb9dc256fd78a8b06aca66d9e49c57ab22
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+ms.openlocfilehash: 20bfe541204d302699c37129f95476fb43541797
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49268972"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970491"
 ---
 # <a name="implementing-custom-code-analysis-check-in-policies-for-managed-code"></a>관리 코드에 대한 사용자 지정 코드 분석 체크 인 정책 구현
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ ms.locfileid: "49268972"
  팀 프로젝트에 대 한 설정 사용자 지정 규칙을 만들려면 먼저 만들어야 체크 인 정책 규칙 집합에 대 한 특수 폴더 **소스 제어 탐색기**합니다. 규칙 집합 파일을 만들고 파일을 버전 제어에 추가 합니다. 마지막으로 코드 분석 체크 인 정책에 따라 팀 프로젝트에 대 한로 규칙을 지정 합니다.  
   
 > [!NOTE]
->  팀 프로젝트의 폴더를 만들려면 먼저 매핑해야 팀 프로젝트 루트 로컬 컴퓨터의 위치에 있습니다. 자세한 내용은 [만들기 및 작업 영역 (이전)](http://msdn.microsoft.com/en-us/db4d5692-179a-44fe-ad31-0c1c900c9cb2)합니다.  
+>  팀 프로젝트의 폴더를 만들려면 먼저 매핑해야 팀 프로젝트 루트 로컬 컴퓨터의 위치에 있습니다. 자세한 내용은 [만들기 및 작업 영역 (이전)](http://msdn.microsoft.com/db4d5692-179a-44fe-ad31-0c1c900c9cb2)합니다.  
   
 #### <a name="to-create-the-version-control-folder-for-the-check-in-policy-rule-set"></a>체크 인 정책에 규칙 집합에 대 한 버전 제어 폴더를 만들려면  
   
@@ -124,6 +119,3 @@ ms.locfileid: "49268972"
 7.  에 **이 규칙 집합 실행** 목록에서 클릭  **\<찾아보기... >** 합니다.  
   
 8.  체크 인 정책에 규칙 집합 파일의 로컬 버전을 지정 합니다.
-
-
-

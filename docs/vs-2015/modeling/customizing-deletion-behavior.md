@@ -1,12 +1,9 @@
 ---
 title: 삭제 동작 사용자 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.dsltools.dsldesigner.deletebehavior
 helpviewer_keywords:
@@ -15,20 +12,20 @@ ms.assetid: c6bf088d-52c6-4817-af45-ddae745bb5a9
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 401458a33c67d0c8d0302fddcdfd988113101e28
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 252892286cf181c9d91e3bec842aa1e90d483b22
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49837565"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981290"
 ---
 # <a name="customizing-deletion-behavior"></a>삭제 동작 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 일반적으로 요소를 삭제하면 관련 요소도 삭제됩니다. 해당 요소에 연결된 모든 관계와 모든 자식 요소도 삭제됩니다. 이 동작은 라고 *삭제 전파*합니다. 예를 들어 삭제 전파를 사용자 지정하여 추가 관련 요소도 삭제되도록 지정할 수 있습니다. 프로그램 코드를 작성하면 모델 상태에 따라 삭제 전파가 수행되도록 지정할 수 있습니다. 또한 삭제에 응답하여 다른 변경도 수행되도록 할 수 있습니다.  
   
- 이 항목은 다음 섹션으로 구성되어 있습니다.  
+ 이 항목에는 다음 단원이 포함되어 있습니다.  
   
 -   [기본 삭제 동작](#default)  
   
@@ -146,7 +143,7 @@ partial class MusicLibDeleteClosure
   
 2. 요소가 삭제되면 <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleted%2A>가 호출됩니다. 삭제된 요소는 필요 시 Undo를 수행할 수 있도록 CLR 힙에 남아 있지만 다른 요소에서 연결이 해제되며 `store.ElementDirectory`에서 제거됩니다. 관계에 대 한 역할은 이전 역할 수행자를 계속 참조 합니다.`IsDeleted` 그렇습니다.  
   
-3. 사용자가 요소를 만든 후 Undo를 호출할 때와 Redo에서 이전 삭제를 반복할 때 OnDeleting 및 OnDeleted가 호출됩니다. 이러한 경우 store 요소를 업데이트하지 않으려면 `this.Store.InUndoRedoOrRollback`을 사용합니다. 자세한 내용은 [방법: 트랜잭션을 사용 하 여 모델 업데이트](../modeling/how-to-use-transactions-to-update-the-model.md)합니다.  
+3. 사용자가 요소를 만든 후 Undo를 호출할 때와 Redo에서 이전 삭제를 반복할 때 OnDeleting 및 OnDeleted가 호출됩니다. 이러한 경우 store 요소를 업데이트하지 않으려면 `this.Store.InUndoRedoOrRollback`을 사용합니다. 자세한 내용은 [방법: 트랜잭션을 사용 모델을 업데이트 하 여](../modeling/how-to-use-transactions-to-update-the-model.md)입니다.  
   
    예를 들어 다음 코드는 마지막 자식 Song을 삭제하면 Album을 삭제합니다.  
   
@@ -303,6 +300,3 @@ partial class NestedShapesSampleDocData
  [복사 동작 사용자 지정](../modeling/customizing-copy-behavior.md)   
  [사용자 지정 요소 만들기 및 이동](../modeling/customizing-element-creation-and-movement.md)   
  [도메인별 언어를 사용자 지정하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
-
-
