@@ -1,26 +1,21 @@
 ---
 title: '연습: 추가 기능을 사용자 지정 편집기에 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - add features
 ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 caps.latest.revision: 39
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 2379a488d042ab8905844c9c536f79ecb4b03268
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8e6395f279af8b48d9f74981f61cceb431a1d00a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51737048"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986488"
 ---
 # <a name="walkthrough-adding-features-to-a-custom-editor"></a>연습: 사용자 지정 편집기에 기능 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -161,5 +156,4 @@ ms.locfileid: "51737048"
   
 ## <a name="see-also"></a>참고 항목  
  [자동화 모델에 영향을 주는](../extensibility/internals/contributing-to-the-automation-model.md)   
- [방법: 편집기에 대한 컨텍스트 제공](../extensibility/how-to-provide-context-for-editors.md)
-
+ [방법: 편집기에 대 한 컨텍스트를 제공 합니다.](../extensibility/how-to-provide-context-for-editors.md)

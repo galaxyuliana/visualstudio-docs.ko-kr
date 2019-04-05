@@ -1,14 +1,9 @@
 ---
 title: 프로젝트 형식 등록 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], new project registry entries
 - registry, new project types
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 38848e54f95cc3d78cf3bae2f32bd9827e98c5ac
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 9f56de9b3ce3f1faf5a63fa6b8fd8574a57b82f3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51785328"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982285"
 ---
 # <a name="registering-a-project-type"></a>프로젝트 형식 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -229,7 +224,7 @@ ms.locfileid: "51785328"
   
 |이름|형식|데이터|설명|  
 |----------|----------|----------|-----------------|  
-|% CLSID_Package|REG_SZ|`,1000,1`|메뉴 정보를 검색할 리소스입니다.|  
+|%CLSID_Package%|REG_SZ|`,1000,1`|메뉴 정보를 검색할 리소스입니다.|  
   
  다음 예제에서는 모든 레지스트리 키 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0Exp\NewProjectTemplates] 아래에 있습니다.  
   
@@ -267,7 +262,7 @@ ms.locfileid: "51785328"
   
  예를 들어, 엔터프라이즈 프레임 워크 프로젝트 템플릿은 다음 레지스트리 항목을 추가합니다.  
   
- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\7.0Exp\Setup\EF\ProductDir C:\Program Files\Microsoft Visual Studio\EnterpriseFrameworks\ =  
+ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\7.0Exp\Setup\EF\ProductDir = C:\Program Files\Microsoft Visual Studio\EnterpriseFrameworks\  
   
  즉, 한 PROJECT_TYPE를 포함 하는 경우 = 이전에 지정한 ProductDir 디렉터리에 사용자.vsz 파일 환경 찾습니다.vsz 파일에서 EF 항목입니다.  
   
@@ -275,4 +270,3 @@ ms.locfileid: "51785328"
  [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [프로젝트 모델의 요소](../../extensibility/internals/elements-of-a-project-model.md)   
  [프로젝트 팩터리를 사용하여 프로젝트 인스턴스 만들기](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
-

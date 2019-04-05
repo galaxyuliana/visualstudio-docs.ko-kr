@@ -1,12 +1,9 @@
 ---
 title: N 계층 데이터 응용 프로그램 개요 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -21,13 +18,13 @@ ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 8a5f6c89f6b71ecd2902877757f7d852c0e51088
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 9c3d635750a01838cc40c9af8ec17465b25fc438
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49852923"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986175"
 ---
 # <a name="n-tier-data-applications-overview"></a>N 계층 데이터 응용 프로그램 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,11 +32,11 @@ ms.locfileid: "49852923"
   
 N-계층 * 데이터 응용 프로그램은 여러 구분 되는 데이터 응용 프로그램 *계층*합니다. "분산된 응용 프로그램" 및 "다중 계층 응용 프로그램" 라고도 함, n 계층 응용 프로그램 클라이언트와 서버 간에 배포 된 개별 계층으로 처리를 구분 합니다. 데이터에 액세스 하는 응용 프로그램을 개발 하는 경우에 응용 프로그램을 구성 하는 다양 한 계층을 명확히 구분을 해야 합니다.  
   
- 일반적인 n 계층 응용 프로그램에는 프레젠테이션 계층, 중간 계층 및 데이터 계층이 포함 됩니다. N 계층 응용 프로그램에서 다양 한 계층을 분리 하는 가장 쉬운 방법은 응용 프로그램에 포함 하려는 각 계층에 대 한 개별 프로젝트를 만드는 경우 예를 들어, 프레젠테이션 계층에서 데이터 액세스 논리 중간 계층에 있는 클래스 라이브러리를 수 있습니다 하지만 Windows Forms 응용 프로그램을 수 있습니다. 또한 프레젠테이션 계층 서비스와 같은 서비스를 통해 중간 계층에서 데이터 액세스 논리를 사용 하 여 통신할 수 있습니다. 응용 프로그램 구성 요소를 별도의 계층으로 분리하면 응용 프로그램의 유지 관리성과 확장성이 높아집니다. 이를 위해 전체 솔루션을 다시 설계 하지 않고도 단일 계층에 적용할 수 있는 새로운 기술 더 쉽게 도입할 수 있게 합니다. 또한 n 계층 응용 프로그램에서 중간 계층에서 프레젠테이션 계층에서 격리를 유지 관리 하는 중요 한 정보를 일반적으로 저장 합니다.  
+ 일반적인 N 계층 애플리케이션에는 프레젠테이션 계층, 중간 계층 및 데이터 계층이 포함됩니다. N 계층 응용 프로그램에서 다양 한 계층을 분리 하는 가장 쉬운 방법은 응용 프로그램에 포함 하려는 각 계층에 대 한 개별 프로젝트를 만드는 경우 예를 들어, 프레젠테이션 계층에서 데이터 액세스 논리 중간 계층에 있는 클래스 라이브러리를 수 있습니다 하지만 Windows Forms 응용 프로그램을 수 있습니다. 또한 프레젠테이션 계층 서비스와 같은 서비스를 통해 중간 계층에서 데이터 액세스 논리를 사용 하 여 통신할 수 있습니다. 응용 프로그램 구성 요소를 별도의 계층으로 분리하면 응용 프로그램의 유지 관리성과 확장성이 높아집니다. 이를 위해 전체 솔루션을 다시 설계 하지 않고도 단일 계층에 적용할 수 있는 새로운 기술 더 쉽게 도입할 수 있게 합니다. 또한 n 계층 응용 프로그램에서 중간 계층에서 프레젠테이션 계층에서 격리를 유지 관리 하는 중요 한 정보를 일반적으로 저장 합니다.  
   
  Visual Studio는 개발자가 n 계층 응용 프로그램을 만들 수 있도록 몇 가지 기능이 포함 되어 있습니다.  
   
--   합니다 [만들기 및 편집 형식화 된 데이터 집합](../data-tools/creating-and-editing-typed-datasets.md) 제공을 **데이터 집합 프로젝트** 데이터 집합 (데이터 엔터티 계층) 할 수 있는 속성 및 `TableAdapter`s (데이터 액세스 계층)에 불연속 프로젝트입니다.  
+-   데이터 집합 디자이너를 제공 된 **데이터 집합 프로젝트** 데이터 집합 (데이터 엔터티 계층) 할 수 있는 속성 및 `TableAdapter`s (데이터 액세스 계층)를 별도 프로젝트로 합니다.  
   
 -   합니다 [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md) DataContext 및 데이터 클래스를 별도 네임 스페이스를 생성 하는 데 필요한 설정을 제공 합니다. 이 통해 데이터 액세스 및 데이터 엔터티 계층의 논리적 분리.  
   
@@ -89,7 +86,7 @@ N-계층 * 데이터 응용 프로그램은 여러 구분 되는 데이터 응�
   
  [데이터 집합 및 TableAdapter를 다른 프로젝트로 분리](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)  
   
- [연습: N 계층 데이터 응용 프로그램 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
+ [연습: N 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
   
  [연습: N 계층 데이터 응용 프로그램에 유효성 검사 추가](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)  
   
@@ -101,4 +98,3 @@ N-계층 * 데이터 응용 프로그램은 여러 구분 되는 데이터 응�
  [계층적 업데이트](../data-tools/hierarchical-update.md)   
  [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)   
  [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)
-

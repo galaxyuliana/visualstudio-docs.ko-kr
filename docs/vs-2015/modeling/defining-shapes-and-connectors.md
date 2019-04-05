@@ -1,23 +1,20 @@
 ---
 title: 모양 및 연결선 정의 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 1fae548d-9288-4dd5-a24f-ff0d69c73628
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 61cd27b307b4761e3f7773f91583965466892285
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 02b470926001c08695bc6c18712cbd0db41503cf
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49812948"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982540"
 ---
 # <a name="defining-shapes-and-connectors"></a>모양 및 연결선 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +47,3 @@ DSL(Domain-Specific Language)에서 다이어그램에 정보를 표시하는 �
   
 ##  <a name="shapeInheritance"></a> 모양 상속  
  모양은 다른 모양에서 상속될 수 있습니다. 그러나 이 경우 모양의 종류가 같아야 합니다. 예를 들어 기하 도형만이 기하 도형을 상속할 수 있습니다. 상속된 도형은 기본 도형의 구획과 Decorator를 포함합니다. 연결선은 연결선에서 상속될 수 있습니다.
-
-
-

@@ -1,27 +1,22 @@
 ---
 title: Vspackage 및 관리 패키지 프레임 워크 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - managed package framework
 - VSPackages, managed package framework
 - managed VSPackages, managed package framework
 ms.assetid: e8d80e0f-6b5b-4baf-a7df-59fd808c60cd
 caps.latest.revision: 16
-manager: douge
-ms.openlocfilehash: 2e265a342ec32abea40ab9b352b5735079462a46
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 7f8d5da0d246cb6b0faa8b424f8039697686cd2a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49227983"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982549"
 ---
 # <a name="vspackages-and-the-managed-package-framework"></a>VSPackage 및 관리 패키지 프레임워크
 클래스를 만들어 VSPackage 관리 패키지 프레임 워크 (MPF) 대신 COM interop 클래스를 사용 하 여 개발 시간을 줄일 수 있습니다.  
@@ -30,7 +25,7 @@ ms.locfileid: "49227983"
   
 -   사용 된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 패키지 프로젝트 템플릿  
   
-     자세한 내용은 [연습: Visual Studio 패키지 템플릿을 메뉴 명령을 사용 하 여 만드는](http://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de)합니다.  
+     자세한 내용은 [연습: Visual Studio 패키지 템플릿을 사용 하 여 메뉴 명령 만들기](http://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de)합니다.  
   
 -   없이 VSPackage를 빌드는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 패키지 프로젝트 템플릿  
   

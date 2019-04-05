@@ -1,28 +1,23 @@
 ---
 title: '연습: 스마트 태그 표시 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - smart tags
 ms.assetid: 10bb4f69-b259-41f0-b91a-69b04385d9a5
 caps.latest.revision: 31
-manager: douge
-ms.openlocfilehash: 459530726628819587a3c228910baa3b902ae865
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: e918c8e83909bb5a04d27f72cb07c7135b00daa9
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49939100"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983580"
 ---
 # <a name="walkthrough-displaying-smarttags"></a>연습: 스마트 태그 표시
-스마트 태그는 전구로 대체되었습니다. [Walkthrough: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)을 참조하세요.  
+스마트 태그는 전구로 대체되었습니다. [연습: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)합니다.  
   
  스마트 태그는 일련의 동작을 표시하도록 확장되는 텍스트 태그입니다. 예를 들어 Visual Basic 또는 Visual C# 프로젝트에서 변수 이름과 같은 식별자의 이름을 바꾸면 단어 아래에 빨간색 선이 나타납니다. 밑줄 위로 포인터를 이동하면 포인터 근처에 단추가 표시됩니다. 단추를 클릭하면 제안 동작이 표시됩니다(예: **IsRead의 이름을 IsReady로 바꾸기**). 동작을 클릭하면 프로젝트에서 **IsRead** 에 대한 모든 참조의 이름이 **IsReady**로 바뀝니다.  
   
@@ -31,7 +26,7 @@ ms.locfileid: "49939100"
 > [!NOTE]
 >  비슷한 방식으로 다른 종류의 태그를 구현할 수 있습니다.  
   
- 다음 연습에서는 현재 단어에 표시되고 두 개의 제안 동작( **대문자로 변환** 및 **를 소문자로 변환**)이 있는 스마트 태그를 만드는 방법을 보여 줍니다.  
+ 다음 연습에서는 현재 단어에 표시 되는 두 가지 제안 된 작업에 스마트 태그를 만드는 방법을 보여 줍니다. **대문자로 변환할** 하 고 **소문자로 변환할**합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  
  이 연습을 수행하려면 Visual Studio SDK를 설치해야 합니다. 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.  
@@ -90,7 +85,7 @@ ms.locfileid: "49939100"
      [!code-csharp[VSSDKSmartTagTest#6](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#6)]
      [!code-vb[VSSDKSmartTagTest#6](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#6)]  
   
-8.  현재 단어에 대한 태그가 만들어지도록 <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A>를 구현합니다. 이 메서드는 나중에 설명하는 private 메서드 `GetSmartTagActions`도 호출합니다.  
+8.  현재 단어에 대한 태그가 만들어지도록 <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A>를 구현합니다. 이 메서드는 나중에 설명하는 private 메서드 `GetSmartTagActions` 도 호출합니다.  
   
      [!code-csharp[VSSDKSmartTagTest#7](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#7)]
      [!code-vb[VSSDKSmartTagTest#7](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#7)]  
@@ -138,7 +133,7 @@ ms.locfileid: "49939100"
   
 #### <a name="to-implement-smart-tag-actions"></a>스마트 태그 동작을 구현하려면  
   
-1. 두 개의 클래스를 만듭니다. 첫 번째 클래스의 이름은 `UpperCaseSmartTagAction`이고 두 번째 클래스의 이름은 `LowerCaseSmartTagAction`입니다. 두 클래스 모두 <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagAction>를 구현합니다.  
+1. 두 개의 클래스를 만듭니다. 첫 번째 클래스의 이름은 `UpperCaseSmartTagAction` 이고 두 번째 클래스의 이름은 `LowerCaseSmartTagAction`입니다. 두 클래스 모두 <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagAction>를 구현합니다.  
   
     [!code-csharp[VSSDKSmartTagTest#15](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#15)]
     [!code-vb[VSSDKSmartTagTest#15](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#15)]  
@@ -185,7 +180,7 @@ ms.locfileid: "49939100"
   
      포인터 근처에 단추가 표시됩니다.  
   
-5.  단추를 클릭하면 두 가지 제안 동작( **대문자로 변환** 및 **소문자로 변환**)이 표시됩니다. 첫 번째 동작을 클릭하면 현재 단어의 모든 텍스트가 대문자로 변환됩니다. 두 번째 동작을 클릭하면 모든 텍스트가 소문자로 변환됩니다.  
+5.  단추를 클릭 하면 두 가지 제안 된 작업 표시 됩니다. **대문자로 변환할** 하 고 **소문자로 변환할**합니다. 첫 번째 동작을 클릭하면 현재 단어의 모든 텍스트가 대문자로 변환됩니다. 두 번째 동작을 클릭하면 모든 텍스트가 소문자로 변환됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 파일 이름 확장명에 콘텐츠 형식 연결](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

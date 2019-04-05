@@ -1,12 +1,9 @@
 ---
 title: UML 모델링 프로젝트 및 다이어그램 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.teamarch.addnewdiagramdialog
 - vs.teamarch.createnewmodelingprojectdialog
@@ -27,13 +24,13 @@ ms.assetid: c178b04b-4fd2-4bed-97e3-d793dae8649c
 caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 5d841c9fde677eb4a8fb17e952a817364dab277e
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 9b36c038194f20cecf1be59775c2261497a0fda8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51738390"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972524"
 ---
 # <a name="create-uml-modeling-projects-and-diagrams"></a>UML 모델링 프로젝트 및 다이어그램 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -132,7 +129,7 @@ UML 모델링은 소프트웨어 시스템을 이해하고 토론하며 디자�
     > [!NOTE]
     >  모델링 프로젝트에 모델 정의 폴더가 **ModelDefinition**합니다.  
   
-2.  에 **프로젝트** 메뉴에서 클릭 **기존 항목 추가**합니다.  
+2.  **프로젝트** 메뉴에서 **기존 항목 추가**를 클릭합니다.  
   
 3.  에 **기존 항목 추가** 대화 상자에서 다이어그램 파일을 찾습니다 파일을 선택 하 고 클릭 **추가**합니다.  
   
@@ -155,12 +152,9 @@ UML 모델링은 소프트웨어 시스템을 이해하고 토론하며 디자�
   
 |**문제**|**원인**|**해결**|  
 |---------------|----------------|--------------------|  
-|모델링 프로젝트를 열거나 솔루션으로 로드할 수 없습니다.<br /><br /> 다음 메시지가 표시됩니다.<br /><br /> "솔루션의 프로젝트 중 하나 이상이 제대로 로드되지 않았습니다. 자세한 내용은 출력 창을 참조하세요."<br /><br /> 출력 창에는 다음과 같은 메시지가 표시됩니다.<br /><br /> "*ModelingProjectFilenameAndPath*.modelproj: 오류: 인식할 수 없는 Guid 형식입니다."|모델링 프로젝트에 이름과 위치가 같은 프로젝트에 대한 참조가 있습니다.<br /><br /> 예를 들어 레이어가 이름과 위치가 같은 프로젝트에 연결되어 있습니다.|텍스트 편집기를 사용하여 모델링 프로젝트 파일을 열고 참조를 제거한 다음 모델링 프로젝트를 다시 열어 봅니다.<br /><br /> 이 문제를 방지하려면 동일한 이름을 가진 프로젝트에 대한 참조를 추가하지 않도록 합니다. 프로젝트 이름이 고유한지 확인합니다.|  
+|모델링 프로젝트를 열거나 솔루션으로 로드할 수 없습니다.<br /><br /> 다음 메시지가 표시됩니다.<br /><br /> "솔루션의 프로젝트 중 하나 이상이 제대로 로드되지 않았습니다. 자세한 내용은 출력 창을 참조하세요."<br /><br /> 출력 창에는 다음과 같은 메시지가 표시됩니다.<br /><br /> "*ModelingProjectFilenameAndPath*.modelproj: error: 인식할 수 없는 Guid 형식입니다. "|모델링 프로젝트에 이름과 위치가 같은 프로젝트에 대한 참조가 있습니다.<br /><br /> 예를 들어 레이어가 이름과 위치가 같은 프로젝트에 연결되어 있습니다.|텍스트 편집기를 사용하여 모델링 프로젝트 파일을 열고 참조를 제거한 다음 모델링 프로젝트를 다시 열어 봅니다.<br /><br /> 이 문제를 방지하려면 동일한 이름을 가진 프로젝트에 대한 참조를 추가하지 않도록 합니다. 프로젝트 이름이 고유한지 확인합니다.|  
 |다른 모델링 프로젝트 또는 솔루션의 다른 위치로 추가 또는 복사하거나 끌어온 요소가 다이어그램에 없습니다.<br /><br /> 또는<br /><br /> 다이어그램을 열려고 할 때 다음 메시지가 표시됩니다.<br /><br /> -"일부 모양이 나 다이어그램에 연결선 되므로 누락이 프로젝트에 해당 정의가 존재 하지 않습니다. 다이어그램을 닫는 동안 모델에서 정의가 삭제되었거나 다이어그램이 해당 정의가 포함되지 않은 프로젝트로 복사되었습니다."<br /><br /> 또는<br /><br /> -"이이 문서는 다른 프로젝트에서 열려 있습니다."|다이어그램 파일을 모델링 프로젝트에서 다른 모델링 프로젝트로 또는 솔루션의 다른 위치로 추가하거나 복사하거나 끌어왔습니다.|다이어그램 파일을 복사하려면 새 다이어그램을 만들고 소스 다이어그램에서 새 다이어그램으로 요소를 복사합니다.|  
   
 ## <a name="see-also"></a>참고 항목  
  [UML 모델 및 다이어그램 편집](../modeling/edit-uml-models-and-diagrams.md)   
  [모델링 솔루션 구성](../modeling/structure-your-modeling-solution.md)
-
-
-
