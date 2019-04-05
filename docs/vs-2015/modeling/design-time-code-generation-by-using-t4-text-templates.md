@@ -1,12 +1,9 @@
 ---
 title: T4 텍스트 템플릿을 사용 하 여 디자인 타임 코드 생성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - text templates, guidelines for code generation
 - text templates, data source model
@@ -19,13 +16,13 @@ ms.assetid: 2774b83d-1adb-4c66-a607-746e019b80c0
 caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: a302f2d4f96f7f110780feae3f76e08b440d037f
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: ff3be8231ede73649ed09569b18fd255882a5221
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49859280"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982790"
 ---
 # <a name="design-time-code-generation-by-using-t4-text-templates"></a>T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +61,7 @@ ms.locfileid: "49859280"
   
      [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트에 템플릿을 추가한 경우 언어 특성은 "`VB`"입니다.  
   
-4.  파일 끝에 원하는 텍스트를 추가합니다. 예를 들면 다음과 같습니다.  
+4.  파일 끝에 원하는 텍스트를 추가합니다. 예를 들어:  
   
     ```  
     Hello, world!  
@@ -133,7 +130,7 @@ ms.locfileid: "49859280"
 ## <a name="debugging-a-design-time-t4-text-template"></a>디자인 타임 T4 텍스트 템플릿 디버그  
  텍스트 템플릿을 디버그하려면  
   
-- 먼저 `debug="true"`를 `template` 지시문에 삽입합니다. 예를 들면 다음과 같습니다.  
+- 먼저 `debug="true"`를 `template` 지시문에 삽입합니다. 예를 들어:  
   
    `<#@ template debug="true" hostspecific="false" language="C#" #>`  
   
@@ -280,7 +277,7 @@ ms.locfileid: "49859280"
  여기서 `this.Host`는 VB에서는 `Me.Host`이며, 해당 형식은 `Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost`와 같습니다.  
   
 ### <a name="getting-data-from-includevsprvsincludesvsprvs-mdmd"></a>[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 데이터 가져오기  
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 제공되는 서비스를 사용하려면 `hostSpecific` 특성을 설정하고 `EnvDTE` 어셈블리를 로드합니다. 그런 다음 IServiceProvider.GetCOMService()를 사용하여 DTE 및 기타 서비스에 액세스할 수 있습니다. 예를 들면 다음과 같습니다.  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 제공되는 서비스를 사용하려면 `hostSpecific` 특성을 설정하고 `EnvDTE` 어셈블리를 로드합니다. 그런 다음 IServiceProvider.GetCOMService()를 사용하여 DTE 및 기타 서비스에 액세스할 수 있습니다. 예를 들어:  
   
 ```scr  
 <#@ template hostspecific="true" language="C#" #>  
@@ -303,7 +300,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
   
  소스 모델이 변경되면 솔루션에서 모든 템플릿을 다시 실행해야 합니다. 이렇게 하려면 수동으로 선택 **모든 템플릿 변형** 에 **빌드** 메뉴.  
   
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK를 설치한 경우 빌드를 수행할 때마다 모든 템플릿이 자동으로 변환되도록 지정할 수 있습니다. 이렇게 하려면 프로젝트 파일(.csproj 또는 .vbproj)을 텍스트 편집기에서 편집하여 파일 끝부분의 다른 `<import>` 문 뒤에 다음 줄을 추가합니다.  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK를 설치한 경우 빌드를 수행할 때마다 모든 템플릿이 자동으로 변형되도록 지정할 수 있습니다. 이렇게 하려면 프로젝트 파일(.csproj 또는 .vbproj)을 텍스트 편집기에서 편집하여 파일 끝부분의 다른 `<import>` 문 뒤에 다음 줄을 추가합니다.  
   
 ```  
 <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v11.0\TextTemplating\Microsoft.TextTemplating.targets" />  
@@ -375,6 +372,3 @@ Warning("A warning message");
   
 ## <a name="see-also"></a>참고 항목  
  [T4 텍스트 템플릿 작성 지침](../modeling/guidelines-for-writing-t4-text-templates.md)
-
-
-

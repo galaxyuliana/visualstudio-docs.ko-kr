@@ -1,23 +1,20 @@
 ---
 title: 아이콘 또는 데코레이터의 가시성 제어 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 2697fd5d-b936-4b6b-b87b-be64825dc7a4
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 4befc49fab1d1b53d70f1b79ee1a2bbe96be11f1
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: cbfffc3983c8270058591edcca6d6188c9791102
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49913412"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58980900"
 ---
 # <a name="controlling-the-visibility-of-an-icon-or-decorator"></a>아이콘 또는 데코레이터의 가시성 제어
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,7 +68,7 @@ A *데코레이터* 아이콘 또는 셰이프를 도메인 특정 언어 (DSL)�
   
      **이름을** 예를 들어 **DecoratorControl**  
   
-     **형식** = `Boolean`  
+     **Type** = `Boolean`  
   
      자세한 내용은 [사용자 지정 저장소 속성 및 계산](../modeling/calculated-and-custom-storage-properties.md)합니다.  
   
@@ -115,6 +112,3 @@ A *데코레이터* 아이콘 또는 셰이프를 도메인 특정 언어 (DSL)�
  [다이어그램에 배경 이미지 설정](../modeling/setting-a-background-image-on-a-diagram.md)   
  [탐색 및 프로그램 코드에서 모델 업데이트](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [도메인별 언어를 사용자 지정하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
-
-

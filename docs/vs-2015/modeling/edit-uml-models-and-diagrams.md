@@ -1,12 +1,9 @@
 ---
 title: UML 모델 및 다이어그램 편집 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.teamarch.modelingproject
 - vs.teamarch.UMLModelExplorer
@@ -23,13 +20,13 @@ ms.assetid: 87affd40-8127-4ee9-9d3a-ad977abe2ed6
 caps.latest.revision: 86
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 92d2be3abfb849b0b5cf5c1c820040b658e2240c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 3cc16133911cf4b49af983aabb4b7b60405c956c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51803437"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982788"
 ---
 # <a name="edit-uml-models-and-diagrams"></a>UML 모델 및 다이어그램 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -193,7 +190,7 @@ ms.locfileid: "51803437"
   
  **각 모델링 프로젝트에 변경 내용의 단일 스택이 있습니다.** 모델 및 다이어그램에 수행한 모든 변경 내용이 이 스택에 유지됩니다. 스택에는 다이어그램 간의 포커스 변경도 포함됩니다. 실행 취소 명령은 이 스택의 변경 내용을 취소합니다.  
   
- 예를 들어 Diagram1 변경, 포커스를 Diagram2로 변경, Diagram2 변경 작업을 수행한다고 가정합니다. 변경 내용을 취소하는 경우 첫 번째 실행 취소는 마지막 변경을 취소하고, 다음 실행 취소는 포커스를 다시 Diagram1로 전환하고, 세 번째 실행 취소는 Diagram1 변경 내용을 취소합니다.  
+ 예를 들어,이 작업을 수행 한다고 가정해 보겠습니다. Diagram1 변경 포커스를 Diagram2; Diagram2 변경 합니다. 변경 내용을 취소하는 경우 첫 번째 실행 취소는 마지막 변경을 취소하고, 다음 실행 취소는 포커스를 다시 Diagram1로 전환하고, 세 번째 실행 취소는 Diagram1 변경 내용을 취소합니다.  
   
  **다이어그램을 닫으면 변경 내용 스택이 잘립니다.** 다이어그램을 닫으면 해당 다이어그램에서 수행한 변경 내용을 취소할 수 없으며, 모델 또는 해당 다이어그램에 대한 이전 변경 내용을 취소할 수 없습니다.  
   
@@ -219,7 +216,7 @@ ms.locfileid: "51803437"
      다른 다이어그램이나 동일한 다이어그램의 뷰에 추가로, 모델 요소의 뷰를 제공하는 모양이 나타납니다.  
   
     > [!NOTE]
-    >  클래스 또는 구성 요소를 시퀀스 다이어그램으로 끌어올 경우 다른 결과가 나타납니다. 이 경우 형식이 해당 클래스 또는 구성 요소인 새 수명선이 생성됩니다. 자세한 내용은 [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.  
+    >  클래스 또는 구성 요소를 시퀀스 다이어그램으로 끌어올 경우 다른 결과가 나타납니다. 이 경우 형식이 해당 클래스 또는 구성 요소인 새 수명선이 생성됩니다. 자세한 내용은 참조 하세요. [UML 시퀀스 다이어그램: 지침](../modeling/uml-sequence-diagrams-guidelines.md)합니다.  
   
 #### <a name="to-add-a-new-view-of-a-model-element-by-using-paste-reference"></a>참조 붙여넣기를 사용하여 모델 요소의 새 뷰를 추가하려면  
   
@@ -274,7 +271,7 @@ ms.locfileid: "51803437"
    솔루션 탐색기에서 복사 및 붙여넣어 다이어그램을 복제할 수는 없습니다.  
   
 ##  <a name="Deleting"></a> 모델 요소 또는 해당 뷰를 삭제합니다.  
- 일부 종류의 요소, 특히 분류자는 모델에서 삭제하지 않고 다이어그램에서 제거할 수 있습니다. 분류자는 클래스 다이어그램, 구성 요소 다이어그램 및 사용 사례 다이어그램에 표시되는 주요 요소입니다. 두 개 이상의 다이어그램에 표시될 수 있습니다. 이러한 유형의 요소에 대 한 두 가지 별도 명령을: **다이어그램에서 제거할** 하 고 **모델에서 삭제**합니다.  
+ 일부 종류의 요소, 특히 분류자는 모델에서 삭제하지 않고 다이어그램에서 제거할 수 있습니다. 분류자는 클래스 다이어그램, 구성 요소 다이어그램 및 사용 사례 다이어그램에 표시되는 주요 요소입니다. 두 개 이상의 다이어그램에 표시될 수 있습니다. 이러한 유형의 요소에 대 한 두 개의 별도 명령입니다. **다이어그램에서 제거할** 하 고 **모델에서 삭제**합니다.  
   
  반면, 다이어그램에서 관계를 삭제하는 경우 항상 모델에서 삭제됩니다.  
   
@@ -323,7 +320,7 @@ ms.locfileid: "51803437"
   
 -   모델 요소에 메모 및 설명을 추가하려면 주석을 만들고 요소에 연결할 수 있습니다.  
   
--   다이어그램에서 열 또는 행 모양을 깔끔하게 맞추려면 셰이프 맞춤 명령을 설치할 수 있습니다. 샘플 UML 확장으로 사용할 수 있습니다: [UML: 모양 맞춤 명령](http://code.msdn.microsoft.com/UML-command-to-Align-4139c0d7)  
+-   다이어그램에서 열 또는 행 모양을 깔끔하게 맞추려면 셰이프 맞춤 명령을 설치할 수 있습니다. 이 샘플 UML 확장으로 제공 됩니다.  [UML: 셰이프를 정렬 하는 명령](http://code.msdn.microsoft.com/UML-command-to-Align-4139c0d7)  
   
 ### <a name="to-export-a-diagram-as-an-image"></a>다이어그램을 이미지로 내보내려면  
  자세한 내용은 [다이어그램을 이미지로 내보내기](../modeling/export-diagrams-as-images.md)합니다.  
@@ -345,6 +342,3 @@ ms.locfileid: "51803437"
  [UML 모델링 프로젝트 및 다이어그램 만들기](../modeling/create-uml-modeling-projects-and-diagrams.md)   
  [아키텍처 분석 및 모델링](../modeling/analyze-and-model-your-architecture.md)   
  [앱용 모델 만들기](../modeling/create-models-for-your-app.md)
-
-
-

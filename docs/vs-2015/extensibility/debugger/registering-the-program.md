@@ -1,27 +1,22 @@
 ---
 title: 프로그램 등록 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - programs, registration
 - debugging [Debugging SDK], program registration
 ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: e26e15e17e69e8bf182d23161cb17ddbd5de0035
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: bc4a8de9f93a04fb062954703a1c14b4c4447308
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51797106"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982404"
 ---
 # <a name="registering-the-program"></a>프로그램 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -114,4 +109,3 @@ ms.locfileid: "51797106"
 ## <a name="see-also"></a>참고 항목  
  [포트 가져오기](../../extensibility/debugger/getting-a-port.md)   
  [디버그할 프로그램을 사용하도록 설정](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
-

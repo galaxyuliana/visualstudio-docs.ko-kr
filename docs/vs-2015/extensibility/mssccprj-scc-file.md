@@ -1,27 +1,22 @@
 ---
-title: MSSCCPRJ 합니다. SCC 파일 | Microsoft Docs
-ms.custom: ''
+title: MSSCCPRJ.SCC File | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, MSSCCPRJ.SCC file
 - MSSCCPRJ.SCC file
 ms.assetid: 6f2e39d6-b79d-407e-976f-b62a3cedd378
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: a04429bafb7da0b3d4922905bd712e82ba16a4ba
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 8bff060ed373c4158afe8848ac248e8d28da38b1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51736129"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983140"
 ---
 # <a name="mssccprjscc-file"></a>MSSCCPRJ.SCC 파일
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,21 +46,21 @@ Visual Studio 솔루션 또는 프로젝트를 IDE를 사용 하 여 소스 제�
   
  [Line 1] `SCC = This is a Source Code Control file`  
   
- [줄 2]  
+ [Line 2]  
   
- [줄 3] `[TestApp.sln]`  
+ [Line 3] `[TestApp.sln]`  
   
- [줄 4] `SCC_Aux_Path = "\\server\vss\"`  
+ [Line 4] `SCC_Aux_Path = "\\server\vss\"`  
   
- [줄 5] `SCC_Project_Name = "$/TestApp"`  
+ [Line 5] `SCC_Project_Name = "$/TestApp"`  
   
- [줄 6]  
+ [Line 6]  
   
- [줄 7] `[TestApp.csproj]`  
+ [Line 7] `[TestApp.csproj]`  
   
- [줄 8] `SCC_Aux_Path = "\\server\vss\"`  
+ [Line 8] `SCC_Aux_Path = "\\server\vss\"`  
   
- [줄 9] `SCC_Project_Name = "$/TestApp"`  
+ [Line 9] `SCC_Project_Name = "$/TestApp"`  
   
  첫 번째 줄은 파일의 용도 설명 하 고이 형식의 모든 파일에 대 한 서명으로 제공 합니다. 이 줄이 모든 MSSCCPRJ 똑같이 표시 됩니다. SCC 파일:  
   
@@ -82,4 +77,3 @@ Visual Studio 솔루션 또는 프로젝트를 IDE를 사용 하 여 소스 제�
 ## <a name="see-also"></a>참고 항목  
  [원본 제어 플러그 인](../extensibility/source-control-plug-ins.md)   
  [소스 제어 플러그 인을 찾기 위한 키로 사용되는 문자열](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)
-

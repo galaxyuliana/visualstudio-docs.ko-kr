@@ -1,14 +1,9 @@
 ---
-title: '방법: __analysis_assume를 사용 하 여 추가 코드 정보 지정 | Microsoft Docs'
-ms.custom: ''
+title: '방법: __Analysis_assume를 사용 하 여 추가 코드 정보 지정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords:
 - __analysis_assume
 helpviewer_keywords:
@@ -17,15 +12,15 @@ ms.assetid: 51205d97-4084-4cf4-a5ed-3eeaf67deb1b
 caps.latest.revision: 12
 author: mikeblome
 ms.author: mblome
-manager: ghogen
-ms.openlocfilehash: de4d70dc615c14e9f9355608fa6b352b799c2c1a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 96f4d628d32aec9a0f7eb2d091a017edfba3d8ac
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51776904"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982078"
 ---
-# <a name="how-to-specify-additional-code-information-by-using-analysisassume"></a>How to: Using __analysis_assume 사용하여 추가 코드 정보 지정
+# <a name="how-to-specify-additional-code-information-by-using-analysisassume"></a>방법: _analysis_assume을 사용하여 추가 코드 정보 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 분석 프로세스는 데 도움이 되 고 경고를 줄이는 C/c + + 코드에 대 한 코드 분석 도구에 대 한 힌트를 제공할 수 있습니다. 추가 정보를 제공 하려면 다음 함수를 사용 합니다.  
@@ -65,6 +60,3 @@ void test( )
   
 ## <a name="see-also"></a>참고 항목  
  [__assume](http://msdn.microsoft.com/library/d8565123-b132-44b1-8235-5a8c8bff85a7)
-
-
-

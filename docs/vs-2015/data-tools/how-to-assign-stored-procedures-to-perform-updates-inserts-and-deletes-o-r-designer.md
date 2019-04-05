@@ -1,25 +1,22 @@
 ---
 title: '방법: 업데이트, 삽입 및 삭제 (O-r 디자이너)를 수행 하는 저장된 프로시저를 할당 합니다. | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 4f65af06a275dc50afafc70fd95c9b93d9bba458
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 957c1fe49d222a691160eadc4b2cf08f8a20a65a
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49232716"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983388"
 ---
-# <a name="how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-or-designer"></a>방법: 업데이트, 삽입 및 삭제 (O/R 디자이너)를 수행 하는 저장된 프로시저를 할당 합니다.
+# <a name="how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-or-designer"></a>방법: 저장 프로시저를 할당하여 업데이트, 삽입 및 삭제 수행(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -38,7 +35,7 @@ ms.locfileid: "49232716"
   
 #### <a name="to-assign-stored-procedures-to-override-the-default-behavior-of-an-entity-class"></a>저장 프로시저를 지정하여 엔터티 클래스의 기본 동작을 재정의하려면  
   
-1.  엽니다는 **LINQ to SQL** 디자이너에서 파일입니다. (에서.dbml 파일을 두 번 클릭 **솔루션 탐색기**.)  
+1.  디자이너에서 **LINQ to SQL** 파일을 엽니다. (에서.dbml 파일을 두 번 클릭 **솔루션 탐색기**.)  
   
 2.  **서버 탐색기**/**데이터베이스 탐색기**을 확장 하 고 **Stored Procedures** 저장된 프로시저 Insert, Update에 대 한 사용 하려는 찾아서 및/또는 엔터티 클래스의 명령을 삭제 합니다.  
   
@@ -48,23 +45,23 @@ ms.locfileid: "49232716"
   
 4.  업데이트 수행을 위해 저장 프로시저를 사용하려는 엔터티 클래스를 선택합니다.  
   
-5.  에 **속성** 창 재정의할 선택 (**삽입**를 **업데이트**, 또는 **삭제**).  
+5.  **속성** 창에서 재정의할 **삽입**, **업데이트** 또는 **삭제** 명령을 선택합니다.  
   
-6.  옆의 줄임표 (...)를 클릭 **사용 하 여 런타임** 열려는 합니다 **동작 구성** 대화 상자.  
+6.  **런타임 사용** 옆의 줄임표(...)를 클릭하여 **동작 구성** 대화 상자를 엽니다.  
   
-7.  선택 **사용자 지정**합니다.  
+7.  **사용자 지정**을 선택합니다.  
   
-8.  원하는 저장된 프로시저를 선택 합니다 **사용자 지정** 목록입니다.  
+8.  **사용자 지정** 목록에서 원하는 저장 프로시저를 선택합니다.  
   
-9. 검사 목록 **메서드 인수** 및 **클래스 속성** 되었는지 확인 하는 **메서드 인수** 매핑할 적절 한 **클래스속성**. 원래 메서드 인수 (Original_*ArgumentName*)를 원래 속성 (*PropertyName* (Original)) Update 및 Delete 명령에 대 한 합니다.  
+9. **메서드 인수** 및 **클래스 속성** 목록을 살펴보고 **메서드 인수**가 적절한 **클래스 속성**에 매핑되어 있는지 확인합니다. 원래 메서드 인수 (Original_*ArgumentName*)를 원래 속성 (*PropertyName* (Original)) Update 및 Delete 명령에 대 한 합니다.  
   
     > [!NOTE]
     >  기본적으로 메서드 인수는 이름이 일치하는 경우 클래스 속성에 매핑됩니다. 속성 이름이 변경되어서 더 이상 테이블과 엔터티 클래스 간에 일치하지 않으면 디자이너에서 올바른 매핑을 결정할 수 없는 경우 매핑할 해당 클래스 속성을 선택해야 합니다.  
   
-10. 클릭 **확인** 하거나 **적용**합니다.  
+10. **확인** 또는 **적용**을 클릭합니다.  
   
     > [!NOTE]
-    >  계속을 클릭 하면으로 각 클래스/동작 조합에 대 한 동작을 구성할 수 있습니다 **적용** 각 변경 합니다. 클릭 하기 전에 클래스 또는 동작을 변경 하는 경우 **적용**, 모든 변경 내용을 적용할 수 있는 기회 나타납니다 제공 하는 경고 대화 상자.  
+    >  계속해서 클래스/동작 조합을 변경한 후 **적용**을 클릭하여 해당하는 각 조합에 대한 동작을 구성할 수 있습니다. 클릭 하기 전에 클래스 또는 동작을 변경 하는 경우 **적용**, 모든 변경 내용을 적용할 수 있는 기회 나타납니다 제공 하는 경고 대화 상자.  
   
      되돌리려면 기본 런타임 논리를 사용 하 여 업데이트, 삽입, 업데이트, 옆의 줄임표를 클릭 또는 삭제 명령 합니다 **속성** 창과 선택 **런타임을 사용 하 여** 에  **동작 구성** 대화 상자.  
   
@@ -72,7 +69,5 @@ ms.locfileid: "49232716"
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [DataContext 메서드 (O/R 디자이너)](../data-tools/datacontext-methods-o-r-designer.md)   
  [연습: LINQ to SQL 클래스 (O-r 디자이너) 만들기](http://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)   
- [연습: 저장 프로시저는 Northwind Customers 테이블에 대 한 업데이트 만들기](../data-tools/walkthrough-creating-update-stored-procedures-for-the-northwind-customers-table.md)   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [삽입, 업데이트 및 삭제 작업](http://msdn.microsoft.com/library/26a43a4f-83c9-4732-806d-bb23aad0ff6b)
-

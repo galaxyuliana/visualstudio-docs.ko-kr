@@ -1,14 +1,9 @@
 ---
 title: 배포를 다른 사용자에 대 한 ClickOnce 응용 프로그램 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -29,13 +24,13 @@ ms.assetid: d20766c7-4ef3-45ab-8aa0-3f15b61eccaa
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: f2b7bb6c990567a483ab28d215019fe1b259d166
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 049d557959a53c00be461a2b0e44338216c7e3a3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49862088"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982789"
 ---
 # <a name="creating-clickonce-applications-for-others-to-deploy"></a>다른 사용자가 배포할 수 있는 ClickOnce 응용 프로그램 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +59,7 @@ ClickOnce 배포를 만든 모든 개발자가 응용 프로그램 자체를 배
   
  자체 서명 된 인증서를 사용 하 여 배포 매니페스트에 대 한 여러 가지 이점을 제공 합니다. 자신의 Authenticode 인증서를 만들거나 가져와야 고객에 대 한 필요를 없애 `<useManifestForTrust>` 개발자가 응용 프로그램의 고유한 브랜드 id를 유지 하면서 고객에 대 한 배포를 간소화 합니다. 결과 더 안전 하 고 고유한 응용 프로그램 id는 서명 된 배포의 집합. 여러 고객에 게 동일한 응용 프로그램 배포에서 발생할 수 있는 잠재적인 충돌을 제거 합니다.  
   
- ClickOnce 배포를 만드는 방법에 대 한 단계별 정보에 대 한 `<useManifestForTrust>` 참조 설정 [연습: ClickOnce 응용 프로그램 해당 않습니다 하지 필요한 항목을 수동으로 배포 하 고 해당 보존 브랜딩 정보](../deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md).  
+ ClickOnce 배포를 만드는 방법에 대 한 단계별 정보에 대 한 `<useManifestForTrust>` 참조 설정 [연습: 다시 서명 하는 필요가 없고 브랜드 정보가 유지 되는 ClickOnce 응용 프로그램 수동 배포](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015)합니다.  
   
 ### <a name="how-application-manifest-for-trust-works-at-runtime"></a>런타임 시 트러스트 작동에 대 한 응용 프로그램 매니페스트  
  런타임 시 응용 프로그램 매니페스트를 사용 하 여 신뢰의 작동 방식을 더 잘 이해를 가져오려면 다음 예제를 살펴보겠습니다. .NET Framework 3.5를 대상으로 하는 ClickOnce 응용 프로그램은 Microsoft에서 생성 됩니다. 사용 하 여 응용 프로그램 매니페스트는 `<useManifestForTrust>` 요소 Microsoft에서 서명 됩니다. Adventure Works는 자체 서명 된 인증서를 사용 하 여 배포 매니페스트를 서명 합니다. Adventure Works 클라이언트는 Microsoft에서 서명 하는 모든 응용 프로그램을 신뢰 하도록 구성 됩니다.  
@@ -108,7 +103,4 @@ ClickOnce 배포를 만든 모든 개발자가 응용 프로그램 자체를 배
 ## <a name="see-also"></a>참고 항목  
  [테스트에 대 한 ClickOnce 응용 프로그램을 배포 하 고 다시 서명 하지 않고 프로덕션 서버](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md)   
  [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
- [연습: 다시 서명할 필요가 없고 브랜드 정보가 유지되는 ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md)
-
-
-
+ [연습: 다시 서명할 필요가 없고 브랜드 정보가 유지되는 ClickOnce 애플리케이션 수동 배포](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015)
