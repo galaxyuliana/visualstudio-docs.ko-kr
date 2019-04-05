@@ -1,12 +1,9 @@
 ---
 title: '연습: 사용자 지정 텍스트 템플릿 호스트 만들기 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - walkthroughs [text templates], custom host
 - text templates, custom host walkthrough
@@ -14,13 +11,13 @@ ms.assetid: d00bc366-65ed-4229-885a-196ef9625f05
 caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: ee1a6ebfdcad2f9ec50c5a76d5c14cd44028eeb7
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 3120cee504de8565f5caf80034678e9788da70ed
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49817277"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983569"
 ---
 # <a name="walkthrough-creating-a-custom-text-template-host"></a>연습: 사용자 지정 텍스트 템플릿 호스트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -719,12 +716,12 @@ ms.locfileid: "49817277"
   
 4.  에 대 한 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 열만 합니다 **프로젝트** 메뉴 **CustomHost 속성**합니다. 에 **시작 개체** 목록에서 클릭 **CustomHost.Program**합니다.  
   
-5.  에 **파일** 메뉴에서 클릭 **모두 저장**합니다.  
+5.  **파일** 메뉴에서 **모두 저장**을 클릭합니다.  
   
 6.  **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.  
   
 ## <a name="testing-the-custom-host"></a>사용자 지정 호스트 테스트  
- 사용자 지정 호스트를 테스트하려면 텍스트 템플릿을 작성한 다음 사용자 지정 호스트를 실행하여 이 호스트에 텍스트 템플릿의 이름을 전달하고 템플릿이 변형되었는지 확인합니다.  
+ 사용자 지정 호스트를 테스트하려면 텍스트 템플릿을 작성한 다음 사용자 지정 호스트를 실행하여 이 호스트에 텍스트 템플릿의 이름을 전달하고 템플릿이 변환되었는지 확인합니다.  
   
 #### <a name="to-create-a-text-template-to-test-the-custom-host"></a>텍스트 템플릿을 만들어 사용자 지정 호스트를 테스트하려면  
   
@@ -820,10 +817,7 @@ ms.locfileid: "49817277"
     ```  
   
 ## <a name="next-steps"></a>다음 단계  
- 이 연습에서는 기본 변형 기능을 지원하는 텍스트 템플릿 변형 호스트를 만들었습니다. 사용자 지정 또는 생성된 지시문 프로세서를 호출하는 텍스트 템플릿을 지원하도록 호스트를 확장할 수 있습니다. 자세한 내용은 [연습: 생성 된 지시문 프로세서에 호스트 연결](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md)합니다.  
+ 이 연습에서는 기본 변형 기능을 지원하는 텍스트 템플릿 변형 호스트를 만들었습니다. 사용자 지정 또는 생성된 지시문 프로세서를 호출하는 텍스트 템플릿을 지원하도록 호스트를 확장할 수 있습니다. 자세한 내용은 [연습: 생성된 된 지시문 프로세서에 호스트 연결](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>
-
-
-

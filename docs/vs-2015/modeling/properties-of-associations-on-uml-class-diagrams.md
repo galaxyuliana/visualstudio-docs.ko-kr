@@ -1,12 +1,9 @@
 ---
 title: 클래스 다이어그램의 uml 연결 속성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords:
 - vs.teamarch.common.association.properties
 helpviewer_keywords:
@@ -15,13 +12,13 @@ ms.assetid: f82bcd34-7903-4c00-8da1-613efa07d223
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: b132ee2aa0f67662fcfcad92b8ae945c2d66c680
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 4a322ea68053012a2e8f53993f06768b966cb61d
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810303"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982329"
 ---
 # <a name="properties-of-associations-on-uml-class-diagrams"></a>UML 클래스 다이어그램 연결의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,7 +62,7 @@ UML 클래스 다이어그램에서 그릴 수 있습니다 *연결* 형식 쌍 
 |   **읽기 전용**   |             False             |                                                                                                                                                                                                                                                                                   True이면 연결 인스턴스가 만들어진 후에는 연결 인스턴스를 변경할 수 없습니다. 링크는 항상 같은 개체에 연결됩니다.                                                                                                                                                                                                                                                                                    |
 | **복합성 (3)** |               1               | **1** -이 연결의 한이 end 항상 하나의 개체에 연결 합니다. 그림에서 모든 메뉴 항목에는 하나의 메뉴가 있습니다.<br /><br /> **0..1** -중 연결의이 끝이 한 개체에 연결 되거나 링크가 없습니다.<br /><br /> **\\**\* -연결의 반대쪽 끝에 있는 모든 개체가이 끝에 있는 개체의 컬렉션에 연결 되어 있고 컬렉션은 비어 있을 수 있습니다.<br /><br /> **1..\\**  \* -연결의 반대쪽 끝에 있는 모든 개체가이 끝에 있는 하나 이상의 개체에 연결 됩니다. 그림에서 모든 메뉴에는 하나 이상의 메뉴 항목이 있습니다.<br /><br /> *n* **..** *m* -다른 끝에 있는 각 개체의 컬렉션을 포함 *n* 하 고 *m* 이 끝에 있는 개체에 대 한 링크입니다. |
 |    **정렬**    |             False             |                                                                                                                                                                                                                                                                                                  True이면 반환된 컬렉션이 순차적 목록을 구성합니다. 복합성이 1보다 큰 경우입니다.                                                                                                                                                                                                                                                                                                   |
-|    **고유한**     |             False             |                                                                                                                                                                                                                                                                                              True이면 반환된 컬렉션에 중복 값이 없습니다. 복합성이 1보다 큰 경우입니다.                                                                                                                                                                                                                                                                                              |
+|    **고유**     |             False             |                                                                                                                                                                                                                                                                                              True이면 반환된 컬렉션에 중복 값이 없습니다. 복합성이 1보다 큰 경우입니다.                                                                                                                                                                                                                                                                                              |
 |    **표시 유형**    |            Public             |                                                                                                                                                                                                                                 Public - 전체적으로 표시됩니다.<br /><br /> Private - 소유하는 형식 외부에 표시되지 않습니다.<br /><br /> Protected - 소유자로부터 파생된 형식에 표시됩니다.<br /><br /> Package - 같은 패키지 내의 다른 형식에 표시됩니다.                                                                                                                                                                                                                                  |
 
 ## <a name="see-also"></a>참고 항목  
@@ -74,6 +71,3 @@ UML 클래스 다이어그램에서 그릴 수 있습니다 *연결* 형식 쌍 
  [UML 클래스 다이어그램 특성의 속성](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
  [UML 클래스 다이어그램 작업의 속성](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
  [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)
-
-
-

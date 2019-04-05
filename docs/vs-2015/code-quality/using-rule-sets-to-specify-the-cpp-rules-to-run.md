@@ -1,25 +1,20 @@
 ---
 title: 실행 하는 c + + 규칙 지정을 설정 하는 규칙을 사용 하 여 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: ac3877e6-5349-4c03-9541-3d5be259f1e8
 caps.latest.revision: 7
 author: mikeblome
 ms.author: mblome
-manager: ghogen
-ms.openlocfilehash: 42c8926403825032f295c31e2ce113bef4ff1bbd
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 55ce3ac93f280d5b5cd29fdc533035dc32cbaa8c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51810288"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982229"
 ---
 # <a name="using-rule-sets-to-specify-the-c-rules-to-run"></a>규칙 집합을 사용하여 실행할 C++ 규칙 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,6 +76,3 @@ ms.locfileid: "51810288"
 -   할당 된 규칙 표시 / 숨김을 전환 하는 **None** 작업을 선택 **활성화 되지 않은 규칙 표시**합니다.  
   
 -   를 추가 하거나 Microsoft 기본 규칙 집합을 현재 규칙 집합을 제거 하려면 **자식 규칙 집합을 추가 또는 제거**합니다.
-
-
-

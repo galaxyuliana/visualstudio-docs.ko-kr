@@ -1,25 +1,22 @@
 ---
 title: 다이어그램에 UML 모델 표시 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML API
 ms.assetid: adf1f1f2-2ad9-4ade-82de-c6a5194ab471
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: fd30d626d6500f7bf904350133ea33f2b2a25ac5
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 2c68089615fd38276e428df6ffaa906d0b3f6742
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51757311"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981655"
 ---
 # <a name="display-a-uml-model-on-diagrams"></a>다이어그램에 UML 모델 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,18 +34,18 @@ Visual Studio 확장에 대한 프로그램 코드에서 모델 요소가 다이
   
 -   [다이어그램 열기 및 만들기](#Opening)  
   
--   [예: 모양 맞춤 명령](#AlignCommand)  
+-   [예제: 모양 맞춤 명령](#AlignCommand)  
   
 ##  <a name="Display"></a> 다이어그램에서 요소를 표시 하려면  
  사용 사례 또는 작업과 같은 요소를 만들면 사용자가 UML 모델 탐색기에서 볼 수 있지만 다이어그램에 항상 자동으로 표시되지는 않습니다. 표시하는 코드를 작성해야 하는 경우도 있습니다. 다음 표에서는 대체 방법을 요약해서 보여 줍니다.  
   
 |요소의 형식|예|표시를 위해 코드에서 수행해야 하는 작업|  
 |---------------------|-----------------|-------------------------------------|  
-|분류자|`Class`<br /><br /> `Component`<br /><br /> `Actor`<br /><br /> `Use Case`|지정한 다이어그램에서 연결된 모양을 만듭니다. 각 분류자에 대한 모양을 원하는 개수만큼 만들 수 있습니다.<br /><br /> `diagram.Display<modelElementType>`<br /><br /> `(modelElement, parentShape,`<br /><br /> `xPosition , yPosition);`<br /><br /> 다이어그램의 최상위 모양에 대해 `parentShape`를 `null`로 설정합니다.<br /><br /> 다른 모양 안에 모양을 표시하려면<br /><br /> `IShape<IUseCase> usecaseShape =`<br /><br /> `useCaseDiagram.Display`<br /><br /> `(useCase,`<br /><br /> `subsystemShape,`<br /><br /> `subsystemShape.XPosition + 5,`<br /><br /> `subsystemShape.YPosition + 5);` **참고:** 내에서 표시를 수행 하는 경우는 **ILinkedUndo** 트랜잭션을 반환 하지 않습니다 때로는 메서드 `IShape`합니다. 그러나 모양은 올바르게 생성되며 `IElement.Shapes().`를 사용하여 액세스할 수 있습니다.|  
+|분류자|`Class`<br /><br /> `Component`<br /><br /> `Actor`<br /><br /> `Use Case`|지정한 다이어그램에서 연결된 모양을 만듭니다. 각 분류자에 대한 모양을 원하는 개수만큼 만들 수 있습니다.<br /><br /> `diagram.Display<modelElementType>`<br /><br /> `(modelElement, parentShape,`<br /><br /> `xPosition , yPosition);`<br /><br /> 다이어그램의 최상위 모양에 대해 `parentShape`를 `null`로 설정합니다.<br /><br /> 다른 모양 안에 모양을 표시하려면<br /><br /> `IShape<IUseCase> usecaseShape =`<br /><br /> `useCaseDiagram.Display`<br /><br /> `(useCase,`<br /><br /> `subsystemShape,`<br /><br /> `subsystemShape.XPosition + 5,`<br /><br /> `subsystemShape.YPosition + 5);` **참고:**  내에서 표시를 수행 하는 경우는 **ILinkedUndo** 트랜잭션을 반환 하지 않습니다 때로는 메서드 `IShape`합니다. 그러나 모양은 올바르게 생성되며 `IElement.Shapes().`를 사용하여 액세스할 수 있습니다.|  
 |분류자의 자식|특성, 작업,<br /><br /> 파트, 포트|자동 - 코드가 필요하지 않습니다.<br /><br /> 부모의 일부로 표시됩니다.|  
 |동작|상호 작용(시퀀스),<br /><br /> 활동|해당 다이어그램에 동작을 바인딩합니다.<br /><br /> 한 번에 최대 하나의 다이어그램에 각 동작을 바인딩할 수 있습니다.<br /><br /> 예를 들어:<br /><br /> `sequenceDiagram.Bind(interaction);`<br /><br /> `activityDiagram.Bind(activity);`|  
 |동작의 자식|수명선, 메시지, 작업, 개체 노드|자동 - 코드가 필요하지 않습니다.<br /><br /> 부모가 다이어그램에 바인딩된 경우 표시됩니다.|  
-|관계|연결, 일반화, 흐름, 종속성|자동 - 코드가 필요하지 않습니다.<br /><br /> 양쪽 끝이 표시되는 모든 다이어그램에 표시됩니다.|  
+|Relationship|연결, 일반화, 흐름, 종속성|자동 - 코드가 필요하지 않습니다.<br /><br /> 양쪽 끝이 표시되는 모든 다이어그램에 표시됩니다.|  
   
 ##  <a name="GetShapes"></a> 요소를 나타내는 모양 액세스  
  요소를 나타내는 모양은 다음 형식에 속합니다.  
@@ -386,6 +383,3 @@ namespace AlignCommand
  [UML 모델 탐색](../modeling/navigate-the-uml-model.md)   
  [샘플: 다이어그램 메뉴 명령에 셰이프 정렬](http://go.microsoft.com/fwlink/?LinkId=213809)   
  [샘플: 요소, 모양 및 스테레오 타입 만들기](http://go.microsoft.com/fwlink/?LinkId=213811)
-
-
-

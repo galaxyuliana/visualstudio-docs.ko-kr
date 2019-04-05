@@ -1,12 +1,9 @@
 ---
 title: 스크립트를 사용 하 여 SQL database 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -16,13 +13,13 @@ ms.assetid: 36f913c0-f5a7-4831-83a0-baba721ac95c
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 13816c499002f8eaf81067aba8d1854d06a41445
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: dc35def483b80610b9480dfd57320712d75fe0eb
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49266593"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982238"
 ---
 # <a name="create-a-sql-database-by-using-a-script"></a>스크립트를 사용 하 여 SQL database 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -276,4 +273,3 @@ ms.locfileid: "49266593"
   
 ##  <a name="DeployDatabase"></a> 데이터베이스 배포  
  누를 때 합니다 **F5** 키 배포 (또는 게시) 기본적으로 LocalDB 데이터베이스에 데이터베이스입니다. 프로젝트 속성 페이지를 열어 데이터베이스를 다른 위치에 배포할 수 있습니다 선택 하는 **디버그** 탭을 클릭 한 다음 연결 문자열을 변경 합니다.
-

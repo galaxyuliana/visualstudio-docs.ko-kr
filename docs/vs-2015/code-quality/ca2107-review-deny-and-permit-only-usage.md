@@ -1,14 +1,9 @@
 ---
-title: 'CA2107: deny 및 검토 permitonly | Microsoft Docs'
-ms.custom: ''
+title: 'CA2107: Deny 및 permitonly 검토 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - CA2107
 - ReviewDenyAndPermitOnlyUsage
@@ -20,14 +15,14 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: f7a82e6b1acdb8eee1d97dcf6f264ebf66343b58
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 425a7363e03dcc8a967853bbe574f29678df11a4
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49851115"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981990"
 ---
-# <a name="ca2107-review-deny-and-permit-only-usage"></a>CA2107: Deny 및 PermitOnly 사용을 검토하십시오.
+# <a name="ca2107-review-deny-and-permit-only-usage"></a>CA2107: deny 및 permit only 사용을 검토하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 |||
@@ -41,7 +36,7 @@ ms.locfileid: "49851115"
  메서드는 PermitOnly 또는 Deny 보안 동작을 지정 하는 보안 검사를 포함 합니다.
 
 ## <a name="rule-description"></a>규칙 설명
- [PermitOnly 메서드를 사용 하 여](http://msdn.microsoft.com/en-us/8c7bdb7f-882f-45b7-908c-6cbaa1767649) 하 고 <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName> 보안 작업을 잘된 알고 있는 사용자에 의해서만 사용할지의 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 보안. 이러한 보안 동작을 사용하는 코드는 보안 검토를 거쳐야 합니다.
+ [PermitOnly 메서드를 사용 하 여](http://msdn.microsoft.com/8c7bdb7f-882f-45b7-908c-6cbaa1767649) 하 고 <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName> 보안 작업을 잘된 알고 있는 사용자에 의해서만 사용할지의 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 보안. 이러한 보안 동작을 사용하는 코드는 보안 검토를 거쳐야 합니다.
 
  거부 하는 보안 요청에 대 한 응답에서 발생 하는 스택 워크의 기본 동작을 변경 합니다. 거부 메서드를 호출 스택에 있는 호출자의 실제 권한과 관계 없이 기간에 대 한 부여 되지 않아야 하는 권한을 지정할 수 있습니다. 스택 워크 Deny로 보호 되는 메서드를 검색 하 고 요청 된 권한이 거부 된 권한에 포함 되어, 경우 스택 워크가 실패 합니다. 또한 PermitOnly 스택 워크의 기본 동작을 변경합니다. 코드를에서 호출자의 권한과 관계 없이 부여할 수 있는 권한만 지정할 수 있습니다. 스택 워크 PermitOnly에서 보호 되는 메서드를 검색 하 고는 PermitOnly 하 여 지정 된 사용 권한에서 요청 된 권한이 포함 되지 않으면, 스택 워크가 실패 합니다.
 
@@ -77,15 +72,12 @@ ms.locfileid: "49851115"
 
  이 예제의 결과는 다음과 같습니다.
 
- **요청: 호출자의 거부에 어설션된 권한 요청에 영향을 주지 있습니다. ** 
- **LinkDemand: 호출자의 거부 된 어설션된 권한 LinkDemand에 영향을 주지.** 
- **LinkDemand: 호출자의 거부 LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다.** 
- **LinkDemand: 아무 효과가 없습니다 LinkDemand로 보호 된 코드를 사용 하 여이 거부 됩니다.**
+ **요청: 호출자의 Deny가 어설션된 권한을 사용 하 여 요청 시 적용 되지 않습니다. ** 
+ **LinkDemand: 호출자의 거부 된 어설션된 권한 LinkDemand에 영향을 주지 합니다. ** 
+ **LinkDemand: 호출자의 거부 LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다. ** 
+ **LinkDemand: 이 Deny LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다.**
 ## <a name="see-also"></a>참고 항목
  <xref:System.Security.CodeAccessPermission.PermitOnly%2A?displayProperty=fullName> <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>
  <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName>
  <xref:System.Security.IStackWalk.PermitOnly%2A?displayProperty=fullName>
- [보안 코딩 지침](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177) [보안 검사 재정의](http://msdn.microsoft.com/en-us/4acdeff5-fc05-41bf-8505-7387cdbfca28) [PermitOnly 메서드 사용](http://msdn.microsoft.com/en-us/8c7bdb7f-882f-45b7-908c-6cbaa1767649)
-
-
-
+ [보안 코딩 지침](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177) [보안 검사 재정의](http://msdn.microsoft.com/4acdeff5-fc05-41bf-8505-7387cdbfca28) [PermitOnly 메서드 사용](http://msdn.microsoft.com/8c7bdb7f-882f-45b7-908c-6cbaa1767649)

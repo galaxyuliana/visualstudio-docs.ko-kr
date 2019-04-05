@@ -1,12 +1,9 @@
 ---
 title: 'UML 시퀀스 다이어그램: 지침 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.teamarch.sequencediagram.linktosequencediagram
 - vs.teamarch.logicalclassdiagram.createlifeline
@@ -25,15 +22,15 @@ ms.assetid: 5990ef7c-ba60-4e20-a36d-e29c1fa6c8bb
 caps.latest.revision: 55
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 56ecc5c54611f94cdbfb0f08ec54a4e0722f0cbd
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: efdb6b30785820ae7bef852988628efde5b517b3
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51803632"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982336"
 ---
-# <a name="uml-sequence-diagrams-guidelines"></a>UML Sequence Diagrams: Guidelines
+# <a name="uml-sequence-diagrams-guidelines"></a>UML 시퀀스 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio에서 그릴 수 있습니다는 *시퀀스 다이어그램* 상호 작용을 표시 합니다. 상호 작용은 클래스, 구성 요소, 하위 시스템 또는 행위자의 일반적인 인스턴스 간 메시지 시퀀스입니다.  
@@ -60,9 +57,9 @@ Visual Studio에서 그릴 수 있습니다는 *시퀀스 다이어그램* 상�
 ##  <a name="Using"></a> UML 시퀀스 다이어그램을 사용 하 여  
  각기 다른 프로그램 세부 수준에서 다양한 용도로 시퀀스 다이어그램을 사용할 수 있습니다. 시퀀스 다이어그램을 그리는 일반적인 경우는 다음과 같습니다.  
   
-- 시스템 사용자 및 사용자 목표를 요약하는 사용 사례 다이어그램이 있는 경우 시스템의 주요 구성 요소가 각 사용 사례의 목표를 달성하기 위해 상호 작용하는 방식을 설명하는 시퀀스 다이어그램을 그릴 수 있습니다. 자세한 내용은 [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
+- 시스템 사용자 및 사용자 목표를 요약하는 사용 사례 다이어그램이 있는 경우 시스템의 주요 구성 요소가 각 사용 사례의 목표를 달성하기 위해 상호 작용하는 방식을 설명하는 시퀀스 다이어그램을 그릴 수 있습니다. 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
   
-- 구성 요소의 인터페이스에 도착하는 메시지를 식별한 경우 구성 요소의 내부 파트가 들어오는 각 메시지에 필요한 결과를 달성하기 위해 상호 작용하는 방식을 설명하는 시퀀스 다이어그램을 그릴 수 있습니다. 자세한 내용은 [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다.  
+- 구성 요소의 인터페이스에 도착하는 메시지를 식별한 경우 구성 요소의 내부 파트가 들어오는 각 메시지에 필요한 결과를 달성하기 위해 상호 작용하는 방식을 설명하는 시퀀스 다이어그램을 그릴 수 있습니다. 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다.  
   
   시퀀스 다이어그램을 그리면 다음과 같은 몇 가지 이점을 얻을 수 있습니다.  
   
@@ -80,10 +77,10 @@ Visual Studio에서 그릴 수 있습니다는 *시퀀스 다이어그램* 상�
  UML 클래스 다이어그램에서 수명선 간에 전송된 메시지에 사용된 매개 변수 형식과 반환 값을 설명할 수도 있습니다.  
   
 #### <a name="use-case-details"></a>사용 사례 정보  
- 사용 사례는 목표를 달성하기 위한 단계 시퀀스와 함께 사용자 목표를 나타냅니다. 여러 가지 방법으로 단계 시퀀스를 설명할 수 있습니다. 한 가지 옵션은 사용자와 시스템의 주요 구성 요소 간 상호 작용을 보여 주는 시퀀스 다이어그램을 그리는 것입니다. 자세한 내용은 [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
+ 사용 사례는 목표를 달성하기 위한 단계 시퀀스와 함께 사용자 목표를 나타냅니다. 여러 가지 방법으로 단계 시퀀스를 설명할 수 있습니다. 한 가지 옵션은 사용자와 시스템의 주요 구성 요소 간 상호 작용을 보여 주는 시퀀스 다이어그램을 그리는 것입니다. 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다.  
   
 ##  <a name="BasicSteps"></a> 시퀀스 다이어그램을 그리는 기본 단계  
- 시퀀스 다이어그램의 요소 전체 목록은 참조 하세요 [UML 시퀀스 다이어그램: 참조](../modeling/uml-sequence-diagrams-reference.md)합니다.  
+ 시퀀스 다이어그램의 요소 전체 목록은 참조 하세요. [UML 시퀀스 다이어그램: 참조](../modeling/uml-sequence-diagrams-reference.md)를 참조하세요.  
   
 > [!NOTE]
 >  모델링 다이어그램을 만드는 방법에 대 한 자세한 단계 [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
@@ -118,7 +115,7 @@ Visual Studio에서 그릴 수 있습니다는 *시퀀스 다이어그램* 상�
 3.  알 수 없는 이벤트 소스에서 들어오거나(9) 알 수 없는 받는 사람에게 브로드캐스트(10)되는 메시지를 표시하려면 다이어그램의 빈 공간에서 보내거나 받는 비동기 메시지를 그립니다. 이러한 메시지 라고 *메시지를 찾은* (9) 및 *메시지가 손실* (10).  
   
     > [!NOTE]
-    >  손실 또는 찾기 메시지가 있는 수명선 그룹을 이동 하려면 수명선을 선택으로 이동 하기 전에 다음이 단계를 수행: 이러한 수명선을 또는 키를 누른 주위에 사각형을 그리는 합니다 **CTRL** 키를 누른 채 각 수명선을 클릭 합니다. 사용 하는 경우 **모두 선택** 하거나 **CTRL**+**는** 모든 수명선을 선택한 후 이동, 손실 또는 찾기 메시지가 이러한 수명선에 연결 하면 이동 되지 않습니다. 이 경우에는 해당 메시지를 개별적으로 이동할 수 있습니다.  
+    >  손실 또는 찾기 메시지가 있는 수명선 그룹을 이동하려면 먼저 수명선을 선택해야 합니다. 이러한 수명선을 또는 키를 누른 주위에 사각형을 그리는 합니다 **CTRL** 키를 누른 채 각 수명선을 클릭 합니다. 사용 하는 경우 **모두 선택** 하거나 **CTRL**+**는** 모든 수명선을 선택한 후 이동, 손실 또는 찾기 메시지가 이러한 수명선에 연결 하면 이동 되지 않습니다. 이 경우에는 해당 메시지를 개별적으로 이동할 수 있습니다.  
   
 4.  동일한 구성 요소 또는 시스템으로 보내는 각 주요 메시지에 대해 시퀀스 다이어그램을 그립니다.  
   
@@ -452,7 +449,4 @@ Visual Studio에서 그릴 수 있습니다는 *시퀀스 다이어그램* 상�
  [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)   
  [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)   
  [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)   
- [동영상: 시퀀스 다이어그램을 사용 하 여 상호 작용 스케치](http://go.microsoft.com/fwlink/?LinkId=201113)
-
-
-
+ [비디오: 시퀀스 다이어그램을 사용 하 여 상호 작용 스케치](http://go.microsoft.com/fwlink/?LinkId=201113)
