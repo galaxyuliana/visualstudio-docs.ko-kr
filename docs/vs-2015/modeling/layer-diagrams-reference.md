@@ -1,12 +1,9 @@
 ---
 title: '레이어 다이어그램: 참조 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords:
 - vs.teamarch.layerdiagram.layerexplorer.artifactlink
 - vs.teamarch.layerdiagram.layerexplorer.artifactlink.properties
@@ -24,13 +21,13 @@ ms.assetid: f26c986c-1e79-420e-b29a-a283e6d8a71d
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 904b92a058b8fb50f3f2e53f093f4add3730dfbf
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 40a8901b60c25e29f038aee634ed54519501a925
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51783222"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986368"
 ---
 # <a name="layer-diagrams-reference"></a>레이어 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,8 +57,8 @@ Visual Studio에서 사용할 수는 *레이어 다이어그램* 시스템의 �
   
 |**셰이프**|**요소**|**설명**|  
 |---------------|-----------------|---------------------|  
-|1|**계층**|시스템에 있는 물리적 아티팩트의 논리적 그룹입니다. 이들 아티팩트는 네임스페이스, 프로젝트, 클래스, 메서드 등에 해당할 수 있습니다.<br /><br /> 계층에 연결 된 아티팩트를 확인 하려면 계층에 대 한 바로 가기 메뉴를 열고 선택한 후 **보기 링크** 열려는 **레이어 탐색기**합니다.<br /><br /> 자세한 내용은 [레이어 탐색기](#Explorer)합니다.<br /><br /> -   **Namespace 종속성을 사용할 수 없는** -이 레이어와 연결 된 아티팩트 수 없습니다. 지정한 네임 스페이스에 따라 결정 되도록 지정 합니다.<br />-   **네임 스페이스를 사용할 수 없는** -이 레이어와 연결 된 아티팩트가 지정 된 네임 스페이스에 속하지 않아야 지정 합니다.<br />-   **필요한 네임 스페이스** -이 레이어와 연결 된 아티팩트가 지정 된 네임 스페이스 중 하나에 속해야 합니다를 지정 합니다.|  
-|2|**종속성**|한 레이어에서 다른 레이어의 기능을 사용할 수 있지만 반대의 경우는 불가능함을 나타냅니다.<br /><br /> -   **방향** -종속성의 방향을 지정 합니다.|  
+|1|**Layer**|시스템에 있는 물리적 아티팩트의 논리적 그룹입니다. 이들 아티팩트는 네임스페이스, 프로젝트, 클래스, 메서드 등에 해당할 수 있습니다.<br /><br /> 계층에 연결 된 아티팩트를 확인 하려면 계층에 대 한 바로 가기 메뉴를 열고 선택한 후 **보기 링크** 열려는 **레이어 탐색기**합니다.<br /><br /> 자세한 내용은 [레이어 탐색기](#Explorer)합니다.<br /><br /> -   **Namespace 종속성을 사용할 수 없는** -이 레이어와 연결 된 아티팩트 수 없습니다. 지정한 네임 스페이스에 따라 결정 되도록 지정 합니다.<br />-   **네임 스페이스를 사용할 수 없는** -이 레이어와 연결 된 아티팩트가 지정 된 네임 스페이스에 속하지 않아야 지정 합니다.<br />-   **필요한 네임 스페이스** -이 레이어와 연결 된 아티팩트가 지정 된 네임 스페이스 중 하나에 속해야 합니다를 지정 합니다.|  
+|2|**Dependency**|한 레이어에서 다른 레이어의 기능을 사용할 수 있지만 반대의 경우는 불가능함을 나타냅니다.<br /><br /> -   **방향** -종속성의 방향을 지정 합니다.|  
 |3|**양방향 종속성**|한 레이어에서 다른 레이어의 기능을 사용할 수 있고 반대의 경우도 가능함을 나타냅니다.<br /><br /> -   **방향** -종속성의 방향을 지정 합니다.|  
 |4|**설명**|다이어그램 또는 다이어그램의 요소에 일반적인 메모를 추가하려면 사용합니다.|  
 |5|**주석 링크**|다이어그램의 요소에 주석을 연결하려면 사용합니다.|  
@@ -93,12 +90,9 @@ Visual Studio에서 사용할 수는 *레이어 다이어그램* 시스템의 �
     |**레이어 탐색기의 열**|**설명**|  
     |----------------------------------|---------------------|  
     |**범주**|클래스, 네임스페이스, 소스 파일 등의 아티팩트 종류|  
-    |**계층**|아티팩트에 연결되는 레이어|  
-    |**유효성 검사 지원**|하는 경우 **True**, 레이어 유효성 검사 프로세스는 프로젝트와이 요소에서 종속성을 따르는지 확인 수 있습니다.<br /><br /> 하는 경우 **False**, 다음 링크를 레이어 유효성 검사 프로세스에 참여 하지 않습니다.<br /><br /> 자세한 내용은 [레이어 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)합니다.|  
+    |**Layer**|아티팩트에 연결되는 레이어|  
+    |**유효성 검사 지원**|하는 경우 **True**, 레이어 유효성 검사 프로세스는 프로젝트와이 요소에서 종속성을 따르는지 확인 수 있습니다.<br /><br /> 하는 경우 **False**, 다음 링크를 레이어 유효성 검사 프로세스에 참여 하지 않습니다.<br /><br /> 자세한 내용은 참조 하세요. [레이어 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)합니다.|  
     |**식별자**|연결된 아티팩트에 대한 참조|  
   
 ## <a name="see-also"></a>참고 항목  
  [앱용 모델 만들기](../modeling/create-models-for-your-app.md)
-
-
-

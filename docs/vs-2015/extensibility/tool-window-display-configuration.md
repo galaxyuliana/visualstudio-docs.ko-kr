@@ -1,27 +1,22 @@
 ---
 title: 도구 창 표시 구성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - tool windows, configuring
 - tool windows, appearance
 ms.assetid: 502a4926-bb83-473e-94e2-8e833c5f8b53
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: c563888424ae4825f3e5b10fc0592029a29cb84b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 1af78bd58c42cf1312e36621011802e908c9e919
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51736950"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986421"
 ---
 # <a name="tool-window-display-configuration"></a>도구 창 표시 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,9 +40,9 @@ HKEY_LOCAL_MACHINE\
 |이름|형식|데이터|설명|  
 |----------|----------|----------|-----------------|  
 |이름|REG_SZ|"짧은 이름"|도구 창을 설명 하는 짧은 이름입니다. 레지스트리에서 참조용 으로만 사용 합니다.|  
-|Float|REG_SZ|"X1, Y1, X2, Y2"|4 개의 쉼표로 구분 된 값입니다. X1, Y1는 도구 창의 왼쪽 위 모퉁이의 좌표입니다. X2 Y2은 오른쪽 아래 모퉁이의 좌표입니다. 모든 값은 화면 좌표입니다.|  
-|스타일|REG_SZ|"MDI"<br /><br /> "Float"<br /><br /> "연결"<br /><br /> "탭"<br /><br /> "AlwaysFloat"|도구 창의 상태를 표시 하는 초기를 지정 하는 키워드입니다.<br /><br /> "MDI" = MDI 창을 사용 하 여 도킹 합니다.<br /><br /> "부동" 부동 =.<br /><br /> "연결" = 다른 창 (창 항목에 지정 됨)를 사용 하 여 연결 합니다.<br /><br /> "탭" = 다른 도구 창을 사용 하 여 결합 합니다.<br /><br /> "AlwaysFloat" = 도킹 될 수 없습니다.<br /><br /> 자세한 내용은 아래 의견 섹션을 참조 하세요.|  
-|창|REG_SZ|*\<GUID &GT;*|GUID는 도구 창 수 연결 되거나 탭 창입니다. GUID는 고유한 창 중 하나 또는 창 중 하나에 속할 수는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE.|  
+|Float|REG_SZ|"X1,Y1,X2,Y2"|4 개의 쉼표로 구분 된 값입니다. X1, Y1는 도구 창의 왼쪽 위 모퉁이의 좌표입니다. X2 Y2은 오른쪽 아래 모퉁이의 좌표입니다. 모든 값은 화면 좌표입니다.|  
+|스타일|REG_SZ|"MDI"<br /><br /> "Float"<br /><br /> "연결"<br /><br /> "Tabbed"<br /><br /> "AlwaysFloat"|도구 창의 상태를 표시 하는 초기를 지정 하는 키워드입니다.<br /><br /> "MDI" = MDI 창을 사용 하 여 도킹 합니다.<br /><br /> "부동" 부동 =.<br /><br /> "연결" = 다른 창 (창 항목에 지정 됨)를 사용 하 여 연결 합니다.<br /><br /> "탭" = 다른 도구 창을 사용 하 여 결합 합니다.<br /><br /> "AlwaysFloat" = 도킹 될 수 없습니다.<br /><br /> 자세한 내용은 아래 의견 섹션을 참조 하세요.|  
+|창|REG_SZ|*\<GUID>*|GUID는 도구 창 수 연결 되거나 탭 창입니다. GUID는 고유한 창 중 하나 또는 창 중 하나에 속할 수는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE.|  
 |방향|REG_SZ|"왼쪽"<br /><br /> "오른쪽"<br /><br /> "Top"<br /><br /> "아래쪽"|아래 설명 섹션을 참조 하세요.|  
 |DontForceCreate|REG_DWORD|0 또는 1|이 항목은 있는 0이 아닌 값을 창 로드 되었지만 즉시 표시 됩니다.|  
   
@@ -94,7 +89,7 @@ HKEY_LOCAL_MACHINE\
 |이름|형식|데이터|설명|  
 |----------|----------|----------|-----------------|  
 |(기본값)|REG_SZ|없음|비워 둡니다.|  
-|*\<GUID &GT;*|REG_DWORD 또는 REG_SZ|0 또는 설명 문자열입니다.|선택 사항입니다. 항목의 이름에는 가시성 요구 명령의 GUID 여야 합니다. 방금 값 정보를 제공 하는 문자열을 포함합니다. 값은 일반적으로 `reg_dword` 0으로 설정 합니다.|  
+|*\<GUID>*|REG_DWORD 또는 REG_SZ|0 또는 설명 문자열입니다.|선택 사항입니다. 항목의 이름에는 가시성 요구 명령의 GUID 여야 합니다. 방금 값 정보를 제공 하는 문자열을 포함합니다. 값은 일반적으로 `reg_dword` 0으로 설정 합니다.|  
   
 ### <a name="example"></a>예제  
   
@@ -115,4 +110,3 @@ HKEY_LOCAL_MACHINE\
   
 ## <a name="see-also"></a>참고 항목  
  [VSPackage Essentials](../misc/vspackage-essentials.md)
-

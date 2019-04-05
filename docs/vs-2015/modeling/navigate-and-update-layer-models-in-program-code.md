@@ -1,12 +1,9 @@
 ---
 title: 프로그램 코드에서 레이어 모델 탐색 및 업데이트 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - layer models, navigating in program code
 - layer models, updating in program code
@@ -14,18 +11,18 @@ ms.assetid: c60edc87-33ee-4964-a954-40069f9febf3
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: ec36aa78ce5ed90098587092207806444681146a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 9f5211075a1f8e58cf738b994872e7588897b2ba
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51734725"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58986481"
 ---
 # <a name="navigate-and-update-layer-models-in-program-code"></a>프로그램 코드에서 레이어 모델 탐색 및 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 항목에서는 프로그램 코드를 사용하여 탐색하고 업데이트할 수 있는 레이어 모델의 요소와 관계에 대해 설명합니다. 사용자의 관점에서 본 레이어 다이어그램에 대 한 자세한 내용은 참조 하세요. [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md) 하 고 [레이어 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)합니다.  
+이 항목에서는 프로그램 코드를 사용하여 탐색하고 업데이트할 수 있는 레이어 모델의 요소와 관계에 대해 설명합니다. 사용자의 관점에서 본 레이어 다이어그램에 대 한 자세한 내용은 참조 하세요. [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md) 고 [레이어 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)합니다.  
   
  이 항목에서 설명하는 <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer> 모델은 보다 일반적인 <xref:Microsoft.VisualStudio.GraphModel> 모델의 단순한 버전입니다. 작성 하는 경우는 [메뉴 명령 또는 제스처 확장이](../modeling/add-commands-and-gestures-to-layer-diagrams.md)를 사용 하 여는 `Layer` 모델. 작성 하는 경우는 [레이어 유효성 검사 확장](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)를 사용 하는 것이 쉽습니다는 `GraphModel`합니다.  
   
@@ -100,7 +97,7 @@ IEnumerable<ILayerComment> comments =
   
  <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerArtifactReference>. Categories 속성은 클래스, 실행 파일, 어셈블리 등 참조되는 아티팩트의 종류를 나타내며 식별자가 대상 아티팩트를 식별하는 방법을 결정합니다.  
   
- <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ArtifactReferenceExtensions.CreateArtifactReferenceAsync%2A>는 <xref:EnvDTE.Project>또는 <xref:EnvDTE.ProjectItem>에서 아티팩트 참조를 만듭니다. 이 작업은 비동기 작업입니다. 그러므로 만들기가 완료되면 일반적으로 호출될 호출을 제공합니다.  
+ <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ArtifactReferenceExtensions.CreateArtifactReferenceAsync%2A>는 <xref:EnvDTE.Project>또는 <xref:EnvDTE.ProjectItem>에서 아티팩트 참조를 만듭니다. 이 작업은 비동기 작업입니다. 그러므로 만들기가 완료되면 일반적으로 호출될 콜백을 제공합니다.  
   
  레이어 아티팩트 참조를 사용 사례 다이어그램의 아티팩트와 혼동해서는 안 됩니다.  
   
@@ -137,6 +134,3 @@ public void ... (...)
  [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)   
  [레이어 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)   
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)
-
-
-
