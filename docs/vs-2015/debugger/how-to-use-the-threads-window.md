@@ -1,14 +1,9 @@
 ---
 title: '방법: 스레드 창 사용 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.threads
 dev_langs:
@@ -28,13 +23,13 @@ ms.assetid: adfbe002-3d7b-42a9-b42a-5ac0903dfc25
 caps.latest.revision: 48
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 925e5ec609c07fa1ca6d703943cf3437f0f9bf84
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: cc137465e89dd283cb4536965faf54aee44b2e00
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51791700"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971251"
 ---
 # <a name="how-to-use-the-threads-window"></a>방법: 스레드 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "51791700"
   
  합니다 **스레드** 창에 각 행이 응용 프로그램에서 스레드를 나타내는 테이블이 있습니다. 기본적으로 이 테이블에는 응용 프로그램의 모든 스레드가 나열되지만 목록을 필터링하여 관심 있는 스레드만 표시할 수 있습니다. 열마다 다른 유형의 정보가 있습니다. 일부 열을 숨길 수도 있습니다. 모든 열을 표시하면 왼쪽부터 다음 정보가 나타납니다.  
   
--   플래그 열 - 주의해야 할 스레드에 표시할 수 있습니다. 스레드에 플래그를 설정 하는 방법에 대 한 정보를 참조 하세요 [방법: 플래그 및 스레드의 플래그 해제](../debugger/how-to-flag-and-unflag-threads.md)합니다.  
+-   플래그 열 - 주의해야 할 스레드에 표시할 수 있습니다. 스레드에 플래그를 설정 하는 방법에 대 한 정보를 참조 하세요. [방법: 플래그 지정 및 스레드의](../debugger/how-to-flag-and-unflag-threads.md)합니다.  
   
 -   활성 스레드 열 - 노란색 화살표는 활성 스레드를 나타냅니다. 화살표의 윤곽선은 실행이 중단되고 디버거가 실행된 스레드를 나타냅니다.  
   
@@ -119,7 +114,7 @@ ms.locfileid: "51791700"
   
 #### <a name="to-search-for-specific-threads"></a>특정 스레드를 검색하려면  
   
--   맨 위에 있는 도구 모음에서의 **스레드** 창으로 돌아가서 합니다 **검색** 상자:  
+-   **스레드** 창의 맨 위에 있는 도구 모음에서 **검색** 상자로 이동하고 다음을 수행합니다.  
   
     -   검색 문자열을 입력하고 Enter 키를 누릅니다.  
   
@@ -127,7 +122,7 @@ ms.locfileid: "51791700"
   
     -   옆에 드롭다운 목록을 클릭 합니다 **검색** 상자 하 고 이전 검색에서 검색 문자열을 선택 합니다.  
   
--   (선택 사항) 전체 호출 스택을 검색에 포함 하려면 선택 **호출 스택 검색**합니다.  
+-   (선택 사항) 검색에 전체 호출 스택을 포함하려면 **호출 스택 검색**을 선택합니다.  
   
 ## <a name="freezing-and-thawing-threads"></a>스레드 중지 및 재개  
  스레드를 중지하면 리소스를 사용할 수 있어도 스레드 실행이 시작되지 않습니다.  
@@ -143,17 +138,17 @@ ms.locfileid: "51791700"
   
 -   맨 위에 있는 도구 모음에서의 **스레드** 창에서 클릭 **스레드 중지** 또는 **스레드 재개**합니다.  
   
-     이 작업에서 선택한 스레드에만 적용 된 **스레드** 창입니다.  
+     이 동작은 **스레드** 창에서 선택되는 스레드에만 적용됩니다.  
   
 ## <a name="displaying-flagged-threads"></a>플래그가 지정된 스레드 표시  
- 아이콘 표시 하 여 특별 한 주의가 하려는 스레드에 플래그를 수는 **스레드** 창입니다. 자세한 내용은 [방법: 플래그 및 스레드의 플래그 해제](../debugger/how-to-flag-and-unflag-threads.md)합니다. 스레드 창에서 모든 스레드를 표시하거나 플래그가 지정된 스레드만 표시하도록 선택할 수 있습니다.  
+ **스레드** 창에서 아이콘으로 스레드를 표시하여 특별한 주의가 필요한 스레드에 플래그를 설정할 수 있습니다. 자세한 내용은 [방법: 플래그 지정 및 스레드의](../debugger/how-to-flag-and-unflag-threads.md)합니다. 스레드 창에서 모든 스레드를 표시하거나 플래그가 지정된 스레드만 표시하도록 선택할 수 있습니다.  
   
 #### <a name="to-display-only-flagged-threads"></a>플래그가 지정된 스레드만 표시하려면  
   
 -   왼쪽 위 모퉁이에서 플래그 단추를 선택 합니다 **스레드** 창입니다.  
   
 ## <a name="displaying-thread-call-stacks-and-switching-between-frames"></a>스레드 호출 스택 표시 및 프레임 간 전환  
- 다중 스레드 프로그램에서 각 스레드에는 자신의 고유한 호출 스택이 있습니다. 합니다 **스레드** 창에는 이러한 스택을 볼 수는 편리한 방법을 제공 합니다.  
+ 다중 스레드 프로그램에서 각 스레드에는 자신의 고유한 호출 스택이 있습니다. **스레드** 창을 사용하여 편리하게 이러한 스택을 볼 수 있습니다.  
   
 #### <a name="to-view-the-call-stack-of-a-thread"></a>스레드의 호출 스택을 보려면  
   
@@ -166,8 +161,5 @@ ms.locfileid: "51791700"
 -   맨 위에 있는 도구 모음에서의 **스레드** 창에서 클릭 **호출 스택 확장명** 또는 **호출 스택 축소**합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [다중 스레드 응용 프로그램 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
- [연습: 다중 스레드 응용 프로그램 디버그](../debugger/walkthrough-debugging-a-multithreaded-application.md)
-
-
-
+ [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
+ [연습: 다중 스레드 애플리케이션 디버그](../debugger/walkthrough-debugging-a-multithreaded-application.md)

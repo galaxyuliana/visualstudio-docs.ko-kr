@@ -1,27 +1,22 @@
 ---
 title: 요소 문자열 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: reference
 helpviewer_keywords:
 - Strings element (VSCT XML schema)
 - VSCT XML schema elements, Strings
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 5cc9adc4d13718fc9b0379c73b1892ba14e61d47
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 0eae2fd7490269d713beb9950163071dd3ba32f5
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51789800"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971166"
 ---
 # <a name="strings-element"></a>Strings 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ Strings 요소 있어야 적어도 **ButtonText** 자식 요소입니다. 다른
   
 |특성|설명|  
 |---------------|-----------------|  
-|language|선택 사항입니다. Language = "."입니다.|  
+|language|선택 사항입니다. Language=".".|  
   
 ### <a name="child-elements"></a>자식 요소  
   
@@ -69,4 +64,3 @@ Strings 요소 있어야 적어도 **ButtonText** 자식 요소입니다. 다른
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 명령 테이블(.Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

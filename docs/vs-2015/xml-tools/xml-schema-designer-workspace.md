@@ -1,25 +1,20 @@
 ---
 title: XML 스키마 디자이너 작업 영역 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 588fa495-fe7f-4b16-8a9f-6b6b8d2d502a
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: ae20cd6a2eb8a4e3d8c1869cc4a0c707ccdf6de2
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: f65312776f56fc2c96f2da7b528cc8cc9d339fb2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49240957"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970634"
 ---
 # <a name="xml-schema-designer-workspace"></a>XML 스키마 디자이너 작업 영역
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ XML 스키마 디자이너(XSD 디자이너)는 XML 스키마를 탐색하는 �
   
 -   시작 뷰 페이지의 워터마크, 빈 콘텐츠 모델 뷰 또는 그래프 뷰의 워터마크  
   
--   바로 가기 키: 시작 뷰의 경우 Ctrl+1, 그래프 뷰의 경우 Ctrl+2, 콘텐츠 모델 뷰의 경우 Ctrl+3  
+-   바로 가기 키: CTRL + 1 시작 뷰, CTRL + 2 그래프 뷰 및 CTRL + 콘텐츠 모델 뷰의 3입니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
   
@@ -58,6 +53,3 @@ XML 스키마 디자이너(XSD 디자이너)는 XML 스키마를 탐색하는 �
 -   [그래프 뷰](../xml-tools/graph-view.md)  
   
 -   [콘텐츠 모델 뷰](../xml-tools/content-model-view.md)
-
-
-

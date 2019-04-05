@@ -1,14 +1,9 @@
 ---
 title: 코드 메트릭 데이터 작업 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords:
 - vs.codemetrics.output
 helpviewer_keywords:
@@ -19,13 +14,13 @@ ms.assetid: 988193ec-b4a3-4e11-b5a1-7334979807d5
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: ca9d384b8c7b6d49e44826c65a156d715baa0786
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: fd746ca463808ddc3ab70d795af88f6dff53f860
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51775890"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970578"
 ---
 # <a name="working-with-code-metrics-data"></a>코드 메트릭 데이터 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ ms.locfileid: "51775890"
 ##  <a name="BKMK_CodeMetricsResultsWindow"></a> Code Metrics Results Window  
  합니다 **코드 메트릭 결과** 창에는 맨 위 및 열 계산된 결과 표시 하려면 도구 모음입니다.  
   
-|열|설명|  
+|Column|설명|  
 |------------|-----------------|  
 |**계층 구조**|합니다 **계층** 열에는 코드 계층 세무 정보가 있는 트리 뷰를 포함 합니다. 나머지 열은 계산된 된 결과 보여 줍니다. 숨기 거 나 원하는 만큼 결과 열을 정렬할 수 있습니다.|  
 |**유지 관리**|합니다 **유지 관리** 열 숫자 결과 함께 아이콘을 포함 합니다. 녹색 아이콘은 상대적으로 높은 유지 관리를 나타냅니다. 노란색 아이콘의 편의성이 보통임을 나타냅니다. 빨간색 아이콘 낮은 유지 관리 하 고는 잠재적인 문제 지점을 나타냅니다. 이러한 색 표시기 AvoidUnmaintainableCode FxCop 규칙에 의해 사용 되는 심각도 범주에 해당 합니다. 이 규칙은 유지 관리 인덱스 사이 있으면 인덱스 10 및 20 및 오류가 아니고 경고 인덱스 20 개 이상 있으면 경고가 10 보다 작으면 오류가 발생 합니다. 유지 관리 인덱스가 3 개 메트릭은의 합성: 순환 복잡성, 줄의 코드와 복잡 한 계산 합니다. 해당 값은 단위로 표시 되지 않습니다.|  
@@ -129,7 +124,7 @@ ms.locfileid: "51775890"
 ##  <a name="BKMK_Creating_a_Work_Item_Based_on_Code_Metric_Results"></a> 코드 메트릭 결과에 따라 작업 항목 만들기  
  만들 수 있습니다는 [!INCLUDE[esprfound](../includes/esprfound-md.md)] 기반으로 하는 작업 항목 결과 **코드 메트릭 결과** 창입니다. 작업 항목이 만들어지면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 제목에 자동으로 입력 합니다 **제목** 필드 및 코드 메트릭 데이터를 **기록** 탭 합니다.  
   
- 작업 항목을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [작업 항목 만들기 &#91;리디렉션&#93;](http://msdn.microsoft.com/en-us/24b2e064-16ac-4bf0-8de4-98a1f48b8c4b)합니다.  
+ 작업 항목을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [작업 항목 만들기 &#91;리디렉션&#93;](http://msdn.microsoft.com/24b2e064-16ac-4bf0-8de4-98a1f48b8c4b)합니다.  
   
 #### <a name="to-create-a-work-item-based-on-a-result"></a>결과에 따라 작업 항목을 만들려면  
   
@@ -154,6 +149,3 @@ ms.locfileid: "51775890"
 ## <a name="see-also"></a>참고 항목  
  [복잡성 및 관리 되는 코드 관리 용이성 측정](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)   
  [방법: 코드 메트릭 데이터 생성](../code-quality/how-to-generate-code-metrics-data.md)
-
-
-

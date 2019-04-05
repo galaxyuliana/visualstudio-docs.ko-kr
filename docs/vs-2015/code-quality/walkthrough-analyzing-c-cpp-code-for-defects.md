@@ -1,14 +1,9 @@
 ---
-title: '연습: C / c + + 코드의 오류 분석 | Microsoft Docs'
-ms.custom: ''
+title: '연습: C-c + + 코드의 오류 분석 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords:
 - C/C++, code analysis
 - code analysis, walkthroughs
@@ -18,18 +13,18 @@ ms.assetid: eaee55b8-85fe-47c7-a489-9be0c46ae8af
 caps.latest.revision: 37
 author: mikeblome
 ms.author: mblome
-manager: ghogen
-ms.openlocfilehash: 6a5e98ee673d232065dd522b0b81a21760306979
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 3e82444513c4e8e766cb7c3201f54089aee3c817
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51782312"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970896"
 ---
-# <a name="walkthrough-analyzing-cc-code-for-defects"></a>연습: C/C++ 코드 오류 분석
+# <a name="walkthrough-analyzing-cc-code-for-defects"></a>연습: 오류에 대한 C/C++ 코드 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 C/c + + 코드에 대 한 코드 분석 도구를 사용 하 여 잠재적인 코드 오류에 대 한 C/c + + 코드를 분석 하는 방법에 설명 합니다.  
+이 연습에서는 C/C++ 코드에 대 한 코드 분석 도구를 사용 하 여 C/C++ 코드에 잠재적 코드 오류를 분석 하는 방법을 보여 줍니다.  
   
  이 연습에서는 잠재적인 코드 오류에 대 한 C/c + + 코드를 분석 하려면 코드 분석을 사용 하는 프로세스를 통해 단계입니다.  
   
@@ -49,7 +44,7 @@ ms.locfileid: "51782312"
   
 -   복사본을 [데모 샘플](../code-quality/demo-sample.md)합니다.  
   
--   C/c + +의 기본적인 이해입니다.  
+-   C/C++의 기본적인 이해 해야 합니다.  
   
 ### <a name="to-run-code-defect-analysis-on-native-code"></a>네이티브 코드에 코드 결함 분석을 실행 하려면  
   
@@ -57,7 +52,7 @@ ms.locfileid: "51782312"
   
      Demo 솔루션이 열립니다 **솔루션 탐색기**합니다.  
   
-2.  에 **빌드할** 메뉴에서 클릭 **솔루션 다시 빌드**합니다.  
+2.  **빌드** 메뉴에서 **솔루션 다시 빌드**를 클릭합니다.  
   
      솔루션이 오류 또는 경고 없이 빌드됩니다.  
   
@@ -69,7 +64,7 @@ ms.locfileid: "51782312"
   
 5.  클릭 **코드 분석**합니다.  
   
-6.  클릭 합니다 **C/c + + 빌드에 대 한 코드 분석 사용** 확인란 합니다.  
+6.  클릭는 **C/C++ 빌드에 코드 분석 사용** 확인란 합니다.  
   
 7.  CodeDefects 프로젝트를 다시 작성 합니다.  
   
@@ -113,7 +108,7 @@ ms.locfileid: "51782312"
   
 2.  CodeDefects 프로젝트를 다시 작성 합니다.  
   
-     에 **오류 목록**, C6001 오류로 나타납니다.  
+     에 **오류 목록**, C6001이 초기화를 오류로 표시 합니다.  
   
 3.  나머지 두 C6001 오류를 해결 합니다 **오류 목록** 초기화 하 여 `i` 및 `j` 0으로.  
   
@@ -131,13 +126,13 @@ ms.locfileid: "51782312"
   
 3.  클릭 **코드 분석**합니다.  
   
-4.  선택 된 **C/c + + 빌드에 대 한 코드 분석 사용** 확인란 합니다.  
+4.  선택 된 **C/C++ 빌드에 코드 분석 사용** 확인란 합니다.  
   
 5.  주석 프로젝트를 다시 작성 합니다.  
   
 6.  에 **오류 목록**, 다음 경고를 두 번 클릭 합니다.  
   
-     경고 C6011: NULL 포인터 'newNode'를 역참조 합니다.  
+     warning C6011: NULL 포인터 'newNode'를 역참조 합니다.  
   
      이 경고는 반환 값을 확인 하려면 호출자가 오류를 나타냅니다. 이 경우 호출에서 **AllocateNode** NULL 값을 반환할 수 있습니다 (AllocateNode에 대 한 함수 선언에 대 한 annotations.h 헤더 파일 참조).  
   
@@ -163,7 +158,7 @@ ms.locfileid: "51782312"
   
 ### <a name="to-use-source-code-annotation"></a>소스 코드 주석을 사용 하려면  
   
-1.  정식 매개 변수를 주석 달기 및 함수의 값 반환 `AddTail` 이 예와 같이 사전 및 사후 조건을 사용 하 여:  
+1.  형식 매개 변수를 주석 달기 및는 함수의 반환 값 `AddTail` 이 예제에 표시 된 대로 Pre 및 Post 조건을 사용하여:  
   
      `[returnvalue:SA_Post (Null=SA_Maybe)] LinkedList* AddTail`  
   
@@ -179,7 +174,7 @@ ms.locfileid: "51782312"
   
 3.  에 **오류 목록**, 다음 경고를 두 번 클릭 합니다.  
   
-     경고 C6011: NULL 포인터 역참조 'node'.  
+     warning C6011: 'Node' NULL 포인터를 역참조 합니다.  
   
      이 경고는 함수에 전달 하는 노드는 null 일 수를 나타냅니다와 경고를 발생 하는 줄 번호를 나타냅니다.  
   
@@ -200,7 +195,4 @@ ms.locfileid: "51782312"
      프로젝트 경고 또는 오류 없이 빌드됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [연습: 관리 코드의 코드 오류 분석](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
-
-
-
+ [연습: 코드 오류에 대한 관리 코드 분석](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
