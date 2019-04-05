@@ -1,29 +1,24 @@
 ---
 title: 설정 범주에 대 한 지원 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- devlang-csharp
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: devlang-csharp
+ms.topic: conceptual
 helpviewer_keywords:
 - settings, supporting with Visual Studio SDK
 - Visual Studio SDK, supporting settings
 ms.assetid: 3bac375d-8bd5-41be-a8de-32eb33c5cfac
 caps.latest.revision: 20
-manager: douge
-ms.openlocfilehash: 53abd3c9f35f16c2f2ae62e2c4f339a86477a8b3
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: b37fe476c7654cc21a3b81f4a68aa4abc0348bb1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49244935"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58980891"
 ---
 # <a name="support-for-settings-categories"></a>설정 범주에 대한 지원
-설정 범주는 IDE(통합 개발 환경)를 사용자 지정하는 옵션 그룹으로 구성됩니다. 예를 들어 설정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창의 레이아웃과 메뉴의 내용을 제어할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+설정 범주는 IDE(통합 개발 환경)를 사용자 지정하는 옵션 그룹으로 구성됩니다. 예를 들어 설정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창의 레이아웃과 메뉴의 내용을 제어할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 클릭하여 **설정 가져오기 및 내보내기 마법사**를 시작합니다. 마법사는 설정 내보내기, 가져오기 또는 다시 설정의 세 가지 옵션을 제공합니다. 예를 들어 내보내기를 선택하면 마법사의 **내보낼 설정 선택** 페이지가 열립니다.  
   
@@ -61,12 +56,12 @@ ms.locfileid: "49244935"
  [!code-csharp[VSSDKSupportForSettingsCategories#1](../snippets/csharp/VS_Snippets_VSSDK/vssdksupportforsettingscategories/cs/vssdksupportforsettingscategoriespackage.cs#1)]
  [!code-vb[VSSDKSupportForSettingsCategories#1](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksupportforsettingscategories/vb/vssdksupportforsettingscategoriespackage.vb#1)]  
   
- 리소스 ID 106은 "My Category", 107은 "My Settings", 108은 "Various Options"에 매핑됩니다. 이는 `MyPackage`가 범주 Category_My Settings를 제공함을 선언합니다. 범주는 <xref:Microsoft.VisualStudio.Shell.IProfileManager>를 구현해야 하는 `OptionsPageGeneral` 클래스에 의해 제공됩니다. 해당 범주의 설정은 `OptionsPageGeneral` 클래스의 public 속성입니다.  
+ 리소스 ID 106은 "My Category", 107은 "My Settings", 108은 "Various Options"에 매핑됩니다. 이는 `MyPackage` 가 범주 Category_My Settings를 제공함을 선언합니다. 범주는 <xref:Microsoft.VisualStudio.Shell.IProfileManager>를 구현해야 하는 `OptionsPageGeneral` 클래스에 의해 제공됩니다. 해당 범주의 설정은 `OptionsPageGeneral` 클래스의 public 속성입니다.  
   
  **설정 가져오기 및 내보내기 마법사**에서 설정 지점의 이름은 My Settings입니다. 설정 지점을 선택하면 **Various Options**설명이 나타납니다. 설정 지점 이름 및 설명은 지역화된 문자열 리소스에서 가져옵니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [옵션 페이지 만들기](../extensibility/creating-an-options-page.md)   
  [VSSDK 샘플](../misc/vssdk-samples.md)   
- [VSPackage 상태](../misc/vspackage-state.md)   
- [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [VSPackage State](../misc/vspackage-state.md)   
+ [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
