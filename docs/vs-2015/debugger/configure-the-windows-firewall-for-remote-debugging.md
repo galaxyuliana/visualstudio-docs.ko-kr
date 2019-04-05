@@ -1,25 +1,20 @@
 ---
 title: 원격 디버깅용 Windows 방화벽 구성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: 66e3230a-d195-4473-bbce-8ca198516014
 caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 39854b47bd31660fdc523bfd122363d5958df8e2
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: a4f123c6dfbe7d3f194c3f07c5ed685cf5cc862c
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51734591"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970574"
 ---
 # <a name="configure-the-windows-firewall-for-remote-debugging"></a>원격 디버깅을 위해 Windows 방화벽 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +50,7 @@ ms.locfileid: "51734591"
   
 3.  **허용된 앱 및 기능** 목록에서 **Visual Studio 원격 디버거 검색**을 찾습니다. 표시되는 경우 선택되었으며 하나 이상의 네트워크 종류도 선택되었는지 확인합니다.  
   
-4.  **Visual Studio 원격 디버거 검색** 이 표시되지 않는 경우 **다른 앱 허용**을 클릭합니다. 여전히 표시 되지 않는 경우에 **앱 추가** 창에서 클릭 **찾아보기** 이동한  **\<Visual Studio 설치 디렉터리 > \Common7\IDE\Remote디버거**. 응용 프로그램에 대한 적절한 폴더(x86, x64, Appx)를 찾은 다음 **msvsmon.exe**를 선택합니다. **추가**를 클릭합니다.  
+4.  **Visual Studio 원격 디버거 검색** 이 표시되지 않는 경우 **다른 앱 허용**을 클릭합니다. 여전히 표시 되지 않는 경우에 **앱 추가** 창에서 클릭 **찾아보기** 이동한  **\<Visual Studio 설치 디렉터리 > \Common7\IDE\Remote디버거**. 애플리케이션에 대한 적절한 폴더(x86, x64, Appx)를 찾은 다음 **msvsmon.exe**를 선택합니다. **추가**를 클릭합니다.  
   
 5.  **허용된 앱 및 기능** 목록에서 **Visual Studio 원격 디버깅 모니터**를 선택합니다. 원격 디버깅 모니터에서 통신하려는 네트워크 종류(**도메인, 홈/회사(개인), 공용**)를 하나 이상 선택합니다. 종류는 Visual Studio 컴퓨터가 연결된 네트워크를 포함해야 합니다.  
   
@@ -75,7 +70,7 @@ ms.locfileid: "51734591"
   
 3.  **허용된 앱 및 기능** 목록에서 **Visual Studio 원격 디버깅 모니터**를 찾습니다. 표시되는 경우 선택되었으며 하나 이상의 네트워크 종류도 선택되었는지 확인합니다.  
   
-4.  **Visual Studio 원격 디버깅 모니터** 가 표시되지 않는 경우 **다른 앱 허용**을 클릭합니다. 여전히 표시 되지 않는 경우에 **추가 된 앱 창의**, 클릭 **찾아보기** 이동한  **\<Visual Studio 설치 디렉터리 > \Common7\IDE\Remote디버거**. 응용 프로그램에 대한 적절한 폴더(x86, x64, Appx)를 찾은 다음 **msvsmon.exe**를 선택합니다. **추가**를 클릭합니다.  
+4.  **Visual Studio 원격 디버깅 모니터** 가 표시되지 않는 경우 **다른 앱 허용**을 클릭합니다. 여전히 표시 되지 않는 경우에 **추가 된 앱 창의**, 클릭 **찾아보기** 이동한  **\<Visual Studio 설치 디렉터리 > \Common7\IDE\Remote디버거**. 애플리케이션에 대한 적절한 폴더(x86, x64, Appx)를 찾은 다음 **msvsmon.exe**를 선택합니다. **추가**를 클릭합니다.  
   
 5.  **허용된 앱** 목록에서 **Visual Studio 원격 디버깅 모니터**를 선택합니다. 원격 디버깅 모니터에서 통신하려는 네트워크 종류(**도메인, 홈/회사(개인), 공용**)를 하나 이상 선택합니다. 종류는 Visual Studio 컴퓨터가 연결된 네트워크를 포함해야 합니다.  
   
@@ -118,6 +113,3 @@ ms.locfileid: "51734591"
   
 ## <a name="see-also"></a>참고 항목  
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: SccGetProjPath 함수 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: reference
 f1_keywords:
 - SccGetProjPath
 helpviewer_keywords:
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 978316cd9c953217a3e59a7ecd1b047cab12734b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 053d8ff8f7e75224b05b1a722ba1bce03cd53a59
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51752586"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972672"
 ---
 # <a name="sccgetprojpath-function"></a>SccGetProjPath 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,15 +70,15 @@ SCCRTN SccGetProjPath (
  pbNew  
  [out에서] 들어오는 값 새 프로젝트를 만들지 여부를 나타냅니다. 반환 된 값에는 프로젝트를 만들기의 성공을 나타냅니다.  
   
-|들어오|해석|  
+|들어오는|해석|  
 |--------------|--------------------|  
-|true|사용자는 새 프로젝트를 만들 수 있습니다.|  
-|false|사용자는 새 프로젝트를 만들 수 없습니다.|  
+|TRUE|사용자는 새 프로젝트를 만들 수 있습니다.|  
+|FALSE|사용자는 새 프로젝트를 만들 수 없습니다.|  
   
 |나가는 포트|해석|  
 |--------------|--------------------|  
-|true|새 프로젝트를 만들었습니다.|  
-|false|기존 프로젝트를 선택 했습니다.|  
+|TRUE|새 프로젝트를 만들었습니다.|  
+|FALSE|기존 프로젝트를 선택 했습니다.|  
   
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
@@ -115,4 +110,3 @@ SCCRTN SccGetProjPath (
 ## <a name="see-also"></a>참고 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [SccOpenProject](../extensibility/sccopenproject-function.md)
-

@@ -1,12 +1,9 @@
 ---
 title: Windows Forms 응용 프로그램에서 조회 테이블 만들기 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -19,15 +16,15 @@ ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.openlocfilehash: 334acba1e70545f1f8be758e34c8fc4843878406
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 7f0abb70297436e75bbe4d9b6b24b4aeb3a7a341
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49223896"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982227"
 ---
-# <a name="create-lookup-tables-in-windows-forms-applications"></a>Windows Forms 응용 프로그램에서 조회 테이블 만들기
+# <a name="create-lookup-tables-in-windows-forms-applications"></a>Windows Forms 애플리케이션에서 조회 테이블 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
@@ -39,10 +36,10 @@ ms.locfileid: "49223896"
   
 ## <a name="to-databind-a-lookup-control"></a>데이터 바인딩에 조회 컨트롤  
   
-1.  엽니다는 **데이터 원본** 창입니다.  
+1.  **데이터 원본** 창을 엽니다.  
   
     > [!NOTE]
-    >  조회 테이블 두 관련된 테이블 또는 개체에서 사용할 수 있어야 합니다 **데이터 원본** 창입니다. 자세한 내용은 [방법: Windows Forms 응용 프로그램에서 관련 데이터 표시](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md)를 참조하세요.  
+    > 조회 테이블 두 관련된 테이블 또는 개체에서 사용할 수 있어야 합니다 **데이터 원본** 창입니다.
   
 2.  노드를 확장 합니다 **데이터 원본** 부모 테이블 및 모든 해당 열 및 관련된 자식 테이블의 모든 열 표시 될 때까지 창입니다.  
   
@@ -55,7 +52,7 @@ ms.locfileid: "49223896"
   
 5.  기본 자식 테이블 노드를 끌어 합니다 **데이터 원본** 창에서 폼으로 합니다.  
   
-     데이터 바인딩된 컨트롤 (설명이 포함 된 레이블로) 도구 스트립 (<xref:System.Windows.Forms.BindingNavigator>) 폼에 나타납니다. A [데이터 집합](../data-tools/dataset-tools-in-visual-studio.md)를 [TableAdapter](../data-tools/tableadapter-overview.md)를 <xref:System.Windows.Forms.BindingSource>, 및 <xref:System.Windows.Forms.BindingNavigator> 구성 요소 트레이에 나타납니다.  
+     데이터 바인딩된 컨트롤 (설명이 포함 된 레이블로) 도구 스트립 (<xref:System.Windows.Forms.BindingNavigator>) 폼에 나타납니다. A [데이터 집합](../data-tools/dataset-tools-in-visual-studio.md)에서 TableAdapter를 <xref:System.Windows.Forms.BindingSource>, 및 <xref:System.Windows.Forms.BindingNavigator> 구성 요소 트레이에 나타납니다.  
   
 6.  이제에서 기본 부모 테이블 노드를 끕니다 합니다 **데이터 원본** 조회 컨트롤에 직접 창 (합니다 <xref:System.Windows.Forms.ComboBox>).  
   
@@ -70,4 +67,3 @@ ms.locfileid: "49223896"
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터에 Windows Forms 컨트롤 바인딩](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
-

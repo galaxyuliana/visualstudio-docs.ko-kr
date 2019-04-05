@@ -1,14 +1,9 @@
 ---
 title: 메뉴 명령을 사용 하 여 확장을 만드는 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - write a vspackage
 - vspackage
@@ -17,13 +12,13 @@ helpviewer_keywords:
 ms.assetid: f97104c8-2bcb-45c7-a3c9-85abeda8df98
 caps.latest.revision: 57
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: fb99149a7b617d8e48e036d9e706e5e1c0a6169b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 644f763c64897eda4896c1431c815519dcc9b65f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51779309"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982265"
 ---
 # <a name="creating-an-extension-with-a-menu-command"></a>메뉴 명령을 사용하여 확장 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -124,19 +119,18 @@ ms.locfileid: "51779309"
   
 1. 간단한 메뉴 명령 사용 하 여 더 많은 작업을 수행할 수 있습니다.  
   
-   1.  사용자 고유의 아이콘 추가: [메뉴 명령에 아이콘 추가](../extensibility/adding-icons-to-menu-commands.md)  
+   1.  사용자 고유의 아이콘을 추가 합니다. [메뉴 명령에 아이콘 추가](../extensibility/adding-icons-to-menu-commands.md)  
   
-   2.  메뉴 명령의 텍스트를 변경 합니다. [메뉴 명령의 텍스트를 변경 합니다.](../extensibility/changing-the-text-of-a-menu-command.md)  
+   2.  메뉴 명령의 텍스트를 변경 합니다. [메뉴 명령 텍스트 변경](../extensibility/changing-the-text-of-a-menu-command.md)  
   
-   3.  메뉴 바로 가기 명령에 추가: [메뉴 항목에 바로 가기 키 바인딩](../extensibility/binding-keyboard-shortcuts-to-menu-items.md)  
+   3.  메뉴 바로 가기 명령에 추가 합니다. [메뉴 항목에 바로 가기 키 바인딩](../extensibility/binding-keyboard-shortcuts-to-menu-items.md)  
   
-2. 다른 종류의 명령, 메뉴 및 도구 모음 추가: [확장 메뉴 및 명령](../extensibility/extending-menus-and-commands.md)  
+2. 다른 종류의 명령, 메뉴 및 도구 모음을 추가 합니다. [메뉴 및 명령 확장](../extensibility/extending-menus-and-commands.md)  
   
-3. 도구 창을 추가 하 고 기본 제공 Visual Studio 도구 창 확장: [확장 및 도구 Windows 사용자 지정](../extensibility/extending-and-customizing-tool-windows.md)  
+3. 도구 창을 추가 하 고 기본 제공 Visual Studio 도구 창 확장: [도구 창 확장 및 사용자 지정](../extensibility/extending-and-customizing-tool-windows.md)  
   
-4. IntelliSense, 코드 제안을 추가 및 기타 기능을 기존 코드 편집기: [편집기 및 언어 서비스 확장](../extensibility/extending-the-editor-and-language-services.md)  
+4. 기존 코드 편집기에 IntelliSense, 코드 제안 및 기타 기능을 추가 합니다. [편집기 및 언어 서비스 확장](../extensibility/extending-the-editor-and-language-services.md)  
   
-5. 옵션 및 속성 페이지 및 사용자 설정 확장 프로그램을 추가 합니다. [확장 속성 및 속성 창](../extensibility/extending-properties-and-the-property-window.md) 및 [Extending User Settings and 옵션](../extensibility/extending-user-settings-and-options.md)  
+5. 옵션 및 속성 페이지 및 사용자 설정 확장 프로그램을 추가 합니다. [확장 속성 및 속성 창](../extensibility/extending-properties-and-the-property-window.md) 고 [사용자 설정 및 옵션 확장](../extensibility/extending-user-settings-and-options.md)  
   
-   다른 종류의 확장 프로젝트의 새 형식 만들기와 같은 좀 더 많은 작업이 필요 ([확장 프로젝트](../extensibility/extending-projects.md)), 편집기의 새 형식 만들기 ([만들기 사용자 지정 편집기 및 디자이너](../extensibility/creating-custom-editors-and-designers.md)), 또는 격리 된 셸에서 확장 프로그램 구현: [Visual Studio 격리 셸](../extensibility/visual-studio-isolated-shell.md)
-
+   다른 종류의 확장 프로젝트의 새 형식 만들기와 같은 좀 더 많은 작업이 필요 ([확장 프로젝트](../extensibility/extending-projects.md)), 편집기의 새 형식 만들기 ([만들기 사용자 지정 편집기 및 디자이너](../extensibility/creating-custom-editors-and-designers.md)), 또는 격리 된 셸에서 확장 프로그램 구현: [Visual Studio Shell(격리)](../extensibility/visual-studio-isolated-shell.md)

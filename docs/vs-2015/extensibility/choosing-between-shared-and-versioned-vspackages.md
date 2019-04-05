@@ -1,14 +1,9 @@
 ---
 title: 공유 및 버전 관리 Vspackage 중에서 선택 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - SxS
 - side-by-side installation
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 9fcae5b736310424f220d08aefa4e061e1f6c860
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 49b5e5b7c36b09e08932fcb414478849a12a7c7b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51756836"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58970716"
 ---
 # <a name="choosing-between-shared-and-versioned-vspackages"></a>공유 및 버전 관리 VSPackage 중에서 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ ms.locfileid: "51756836"
   
     -   VSPackage의 버전에 맞게 프로그램 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실행 됩니다. 그런 다음 새 서비스에 대 한 쿼리가 실패 하는 경우 VSPackage 제공할 수 있습니다의 이전 버전에서 지원 되는 다른 서비스 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
   
--   적절 하 게 VSPackage를 등록 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md) 하 고 [관리 되는 VSPackage 등록](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)합니다.  
+-   적절 하 게 VSPackage를 등록 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md) 하 고 [관리 되는 VSPackage 등록](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)합니다.  
   
 -   파일 확장명을 적절 하 게 등록 합니다. 자세한 내용은 [Side-by-side-배포에 대 한 파일 이름 확장명 등록](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)합니다.  
   
@@ -71,4 +66,3 @@ ms.locfileid: "51756836"
 ## <a name="see-also"></a>참고 항목  
  [Windows Installer를 사용 하 여 Vspackage 설치](../extensibility/internals/installing-vspackages-with-windows-installer.md)   
  [구성 요소 관리](../extensibility/internals/component-management.md)
-

@@ -1,14 +1,9 @@
 ---
 title: 시작 페이지에 사용자 컨트롤 추가 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - start page dll
 - custom start page
@@ -16,13 +11,13 @@ helpviewer_keywords:
 ms.assetid: 5b7997db-af6f-4fa9-a128-bceb42bddaf1
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 01510eabcb4d2d3605f38b8bb574ed3e21efebac
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 4ccef9678cbdec3ea048c556434d80ef9b0196e2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51736717"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971692"
 ---
 # <a name="adding-user-control-to-the-start-page"></a>시작 페이지에 사용자 컨트롤 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -192,6 +187,5 @@ ms.locfileid: "51736717"
      사용자 지정 시작 페이지에 표시 되어야 합니다. 파일을 변경 하려는 경우 실험적 인스턴스, 변경, 복사 및 변경 된 파일을 붙여넣을 닫은 다음 변경 내용을 보려면 실험적 인스턴스를 다시 엽니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [WPF 컨테이너 컨트롤](http://msdn.microsoft.com/en-us/a0177167-d7db-4205-9607-8ae316952566)   
- [연습: 시작 페이지에 사용자 지정 XAML 추가](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
-
+ [WPF 컨테이너 컨트롤](http://msdn.microsoft.com/a0177167-d7db-4205-9607-8ae316952566)   
+ [연습: 시작 페이지 사용자 지정 XAML 추가](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

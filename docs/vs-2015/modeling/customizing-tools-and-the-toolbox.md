@@ -1,12 +1,9 @@
 ---
 title: 도구 및 도구 상자 사용자 지정 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.dsltools.dsldesigner.selectiondialog
 - vs.dsltools.dsldesigner.selecticondialog
@@ -17,13 +14,13 @@ ms.assetid: 2a0d03d7-ebc6-4458-b9f4-d2cb8418a62d
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 18c727a228b51c484905c381dd98b7db66c9d7ad
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 93cc5fdef5c3d91281f01db8d4946dee17394170
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49847814"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984682"
 ---
 # <a name="customizing-tools-and-the-toolbox"></a>도구 및 도구 상자 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,11 +84,11 @@ Editor
   
 3.  설정 된 **도구 상자 아이콘** 16 x 16 비트맵을 참조 하는 속성입니다.  
   
-     새 아이콘을 정의 하려는 경우 솔루션 탐색기에서 비트맵 파일을 만듭니다는 **Dsl\Resources** 폴더입니다. 파일은 다음 속성 값을 가져야 합니다. **빌드 작업** = **콘텐츠**; **출력 디렉터리로 복사** = **복사 하지 않으려면**합니다.  
+     새 아이콘을 정의 하려는 경우 솔루션 탐색기에서 비트맵 파일을 만듭니다는 **Dsl\Resources** 폴더입니다. 파일에는 다음 속성 값을 있어야 합니다. **빌드 작업** = **콘텐츠**; **출력 디렉터리로 복사** = **복사 하지 않으려면**합니다.  
   
-4.  **요소 도구에 대 한:** 설정 합니다 **클래스** 속성 도구의 모양에 매핑되는 구체적인 도메인 클래스를 참조 하세요.  
+4.  **요소 도구의:** 설정 된 **클래스** 속성 도구의 모양에 매핑되는 구체적인 도메인 클래스를 참조 하세요.  
   
-     **연결선 도구의:** 설정 합니다 **연결 작성기** 속성의 드롭다운 목록에서 제공 되는 항목 중 하나를 도구입니다. 연결 작성기는 연결선을 도메인 관계에 매핑하면 자동으로 만들어집니다. 최근에 연결선을 만든 경우에는 보통 연결된 연결 작성기를 선택합니다.  
+     **커넥터 도구:** 설정 된 **연결 작성기** 도구의 드롭 다운 목록에서 제공 되는 항목 중 하나는 속성입니다. 연결 작성기는 연결선을 도메인 관계에 매핑하면 자동으로 만들어집니다. 최근에 연결선을 만든 경우에는 보통 연결된 연결 작성기를 선택합니다.  
   
 5.  DSL을 테스트하려면 F5 키나 Ctrl+F5를 누르고 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 실험 인스턴스에서 샘플 모델 파일을 엽니다. 도구 상자에 새 도구가 표시되어야 합니다. 해당 도구를 다이어그램으로 끌어 새 요소가 만들어지는지 확인합니다.  
   
@@ -205,7 +202,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
  **중첩된 된 구성 요소에서 OutPort로 들어오는 연결**  
   
- ![연결 작성기](../modeling/media/connectionbuilder-3.png "ConnectionBuilder_3")  
+ ![Connection Builder](../modeling/media/connectionbuilder-3.png "ConnectionBuilder_3")  
   
  따라서 중첩된 구성 요소에서 OutPort로의 연결이 가능하도록 지정할 수 있습니다. 설정한 연결을 지정 하려면 **Uses Custom Accept** 에 **InPort** 원본 역할 유형 및 **OutPort** 형식을 대상 역할로 **DSL 세부 정보**  다음 그림과에서 같이 창:  
   
@@ -233,7 +230,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
     /// <summary>  
     /// Only if source is on parent of target.  
     /// </summary>  
-    private static bool CanAcceptInPortAndInPortAsSourceAndTarget                (InPort sourceInPort, InPort targetInPort)  
+    private static bool CanAcceptInPortAndInPortAsSourceAndTarget                (InPort sourceInPort, InPort targetInPort)  
     {  
       return sourceInPort.Component == targetInPort.Component.Parent;  
     }  
@@ -257,6 +254,3 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
  [방법: 끌어서 놓기 처리기 추가](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [탐색 및 프로그램 코드에서 모델 업데이트](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [회로 다이어그램 샘플 DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-
-
-

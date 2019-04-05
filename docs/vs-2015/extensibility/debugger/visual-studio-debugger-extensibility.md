@@ -1,27 +1,22 @@
 ---
 title: Visual Studio 디버거 확장성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Visual Studio], Debugging SDK
 - Debugging SDK
 ms.assetid: c088b6a2-c3ad-446b-830d-9c6f41b2934b
 caps.latest.revision: 33
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 8b5e9e7a3db38b5138f6392ff89f3a3bb4a13303
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 528716c4ea354ab63dc7fcab2b3f90fe2860b655
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51743490"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981868"
 ---
 # <a name="visual-studio-debugger-extensibility"></a>Visual Studio 디버거 확장성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ Visual Studio에는 프로그램에서 버그를 추적 하기 위한 강력 하
   
  합니다 [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] 모두에 대 한 전체 참조를 포함 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 새 장치를 만드는 데 필요한 요소입니다. 또한, 샘플 및 자습서를 시작 하는 데 도움이 되는 됩니다.  
   
- 디버깅 지원을 사용 하 여 언어 프로젝트 시스템의 종단 간 샘플을 참조 합니다 [IronPython 샘플](http://msdn.microsoft.com/en-us/4c41695c-12c1-4670-b43b-d8d84c9e4089)합니다.  
+ 디버깅 지원을 사용 하 여 언어 프로젝트 시스템의 종단 간 샘플을 참조 합니다 [IronPython 샘플](http://msdn.microsoft.com/4c41695c-12c1-4670-b43b-d8d84c9e4089)합니다.  
   
  다음 섹션에서는 디버거를 사용 하 여 확장 하는 방법에 설명 합니다 [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)]합니다.  
   
@@ -54,4 +49,3 @@ Visual Studio에는 프로그램에서 버그를 추적 하기 위한 강력 하
   
  [샘플](../../extensibility/debugger/visual-studio-debugging-samples.md)  
  공용 언어 런타임 식 계산기 샘플 및 디버그 엔진 샘플에 대 한 링크가 포함 되어 있습니다.
-

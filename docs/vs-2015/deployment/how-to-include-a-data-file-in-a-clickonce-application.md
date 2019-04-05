@@ -1,14 +1,9 @@
 ---
 title: '방법: Include a Data File in a ClickOnce Application | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-deployment
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
@@ -21,15 +16,15 @@ ms.assetid: 89ee46ef-bc8c-4ab0-a2ac-1220f9da06fc
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: wpickett
-ms.openlocfilehash: 6e4d5be3628cd9653bfc713caea426c91a205419
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+manager: jillfra
+ms.openlocfilehash: 8868ef00c9d7ffee7687970c5a09b6a044c85455
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49884916"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971675"
 ---
-# <a name="how-to-include-a-data-file-in-a-clickonce-application"></a>How to: Include a Data File in a ClickOnce Application
+# <a name="how-to-include-a-data-file-in-a-clickonce-application"></a>방법: ClickOnce 애플리케이션에 데이터 파일 포함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 각 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치한 응용 프로그램 데이터 디렉터리는 응용 프로그램의 고유한 데이터를 관리할 수 있는 대상 컴퓨터의 로컬 디스크에 할당 됩니다. 데이터 파일의 파일 형식 포함할 수 있습니다: 텍스트 파일, XML 파일 또는 심지어 Microsoft Access 데이터베이스 (.mdb) 파일입니다. 다음 절차에서는 임의의 형식으로의 데이터 파일을 추가 하는 방법에 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램입니다.  
@@ -42,7 +37,7 @@ ms.locfileid: "49884916"
   
 2. 데이터 파일을 나열 하 여 응용 프로그램 매니페스트를 업데이트 합니다.  
   
-    **mage-u v1.0.0.0\Application.manifest-FromDirectory v1.0.0.0**  
+    **mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0**  
   
     이 태스크를 수행할 다시 응용 프로그램 매니페스트에 파일 목록을 만들고 해시 서명을 자동으로 생성 합니다.  
   
@@ -94,6 +89,3 @@ ms.locfileid: "49884916"
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램의 로컬 및 원격 데이터 액세스](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)
-
-
-

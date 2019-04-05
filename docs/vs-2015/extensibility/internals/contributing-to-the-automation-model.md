@@ -1,26 +1,21 @@
 ---
 title: 자동화 모델에 영향을 주는 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - automation [Visual Studio SDK]
 ms.assetid: 44de482d-93c8-41a4-843c-cefda995a03e
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 53a669ed6f1ddaa9c2274371439828da24b92789
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: c84ea078f9b7c1268b765111cc400f6e51b783f1
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51726971"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984921"
 ---
 # <a name="contributing-to-the-automation-model"></a>Contributing to the Automation Model
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,7 +48,7 @@ Visual Studio 환경 사용자 지정에 대 한 일련의 자동화 인터페�
  [코드에 대한 자동화 제공](../../extensibility/internals/providing-automation-for-code.md)  
  코드에 대 한 자동화 모델을 만드는 필요 하지 않음을 설명 합니다. 그러나 코드 모델에 대 한 통찰력 있는 정보를 제공 하는이 항목의 링크가 제공 됩니다.  
   
- [방법: Windows에 대한 자동화 제공](../../extensibility/internals/how-to-provide-automation-for-windows.md)  
+ [방법: Windows에 대 한 자동화 제공](../../extensibility/internals/how-to-provide-automation-for-windows.md)  
  창에서 자동화 개체를 사용할 수 있도록 하 고 환경에서 바로 사용할 수 있는 자동화 개체를 이미 제공 하지 않습니다 때마다 자동화를 제공 하는 것이 좋습니다는 있는지 설명 합니다. 도구 창과 문서 창에 대 한 자동화를 설명합니다.  
   
  [자동화 모델 사용](../../extensibility/internals/using-the-automation-model.md)  
@@ -67,4 +62,3 @@ Visual Studio 환경 사용자 지정에 대 한 일련의 자동화 인터페�
  VSPackage에서 DTE 자동화 개체 모델 참여 하는 방법을 보여 주는 코드 샘플을 제공 합니다. 매개 변수, 반환 값 및 선택한 설명을 나열합니다.  
   
 ## <a name="related-sections"></a>관련 단원
-

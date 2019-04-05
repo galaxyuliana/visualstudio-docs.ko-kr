@@ -1,12 +1,9 @@
 ---
 title: 클래스 다이어그램에 UML 특성의 속성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords:
 - vs.teamarch.logicalclassdiagram.attribute.properties
 helpviewer_keywords:
@@ -15,13 +12,13 @@ ms.assetid: ba01e064-7424-4e72-98fa-42fa1c30e153
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 0129242593596ea7e3875db2a748045c50863c4c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 27affdb42f6f5ad1dd4c880b87e3cbf737d52921
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51817362"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972054"
 ---
 # <a name="properties-of-attributes-on-uml-class-diagrams"></a>UML 클래스 다이어그램 특성의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,7 +66,7 @@ UML 클래스 다이어그램에서 클래스 및 인터페이스에 *특성* �
 |  **설명**  |   (비어 있음)    |                                                                                                                                                                        일반 참고 사항에 사용되거나 특성 값에 대한 제약 조건을 정의하는 데 사용됩니다.                                                                                                                                                                        |
 | **다중성**  |      1       | **1** - 이 특성에는 지정된 형식의 단일 값이 포함됩니다.<br /><br /> **0..1** - 이 특성에는 `null`값이 포함될 수 있습니다.<br /><br /> **\\**\* -이 특성의이 값은 값의 컬렉션입니다.<br /><br /> **1..\\**  \* -이 특성의이 값은 하나 이상의 값이 포함 된 컬렉션입니다.<br /><br /> *n* **..** *m* - 이 특성 값은 *n* ~ *m* 개 값이 포함된 컬렉션입니다. |
 |  **정렬**   |    False     |                                                                                                                                                                    true이면 컬렉션이 순차적 목록을 구성합니다. 두 개 이상의 **복합성** 에 사용됩니다.                                                                                                                                                                     |
-|   **고유한**   |    False     |                                                                                                                                                                true이면 컬렉션에 중복 값이 없습니다. 두 개 이상의 **복합성** 에 사용됩니다.                                                                                                                                                                |
+|   **고유**   |    False     |                                                                                                                                                                true이면 컬렉션에 중복 값이 없습니다. 두 개 이상의 **복합성** 에 사용됩니다.                                                                                                                                                                |
 
 ## <a name="see-also"></a>참고 항목  
  [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)   
@@ -77,6 +74,3 @@ UML 클래스 다이어그램에서 클래스 및 인터페이스에 *특성* �
  [UML 클래스 다이어그램 작업의 속성](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
  [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)   
  [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)
-
-
-

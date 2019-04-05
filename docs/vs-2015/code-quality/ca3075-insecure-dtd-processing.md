@@ -1,26 +1,21 @@
 ---
 title: 'CA3075: 안전 하지 않은 DTD 처리 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 ms.assetid: 65798d66-7a30-4359-b064-61a8660c1eed
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 8284f065a829ac7ecc29330fb8a9dad74e92690e
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: 3664061cf8c1233f3aa25341b5c77c21de51d2c7
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49850184"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983875"
 ---
-# <a name="ca3075-insecure-dtd-processing"></a>CA3075: 안전하지 않은 DTD 처리
+# <a name="ca3075-insecure-dtd-processing"></a>CA3075: DTD 처리가 안전하지 않습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 |||
@@ -64,7 +59,7 @@ ms.locfileid: "49850184"
 
 - 신뢰할 수 없는 소스를 설정 하 여 처리 하는 경우 DTD 처리를 사용 하지 않도록 설정 합니다 <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> 속성을 **true** 합니다.
 
-- XmlTextReader 클래스에는 완전 신뢰 상속 요청이 있습니다. 참조 [상속 요청](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9) 자세한 내용은 합니다.
+- XmlTextReader 클래스에는 완전 신뢰 상속 요청이 있습니다. 참조 [상속 요청](http://msdn.microsoft.com/28b9adbb-8f08-4f10-b856-dbf59eb932d9) 자세한 내용은 합니다.
 
   .NET 4 이상
 
@@ -387,6 +382,3 @@ namespace TestNamespace
     }
 }
 ```
-
-
-

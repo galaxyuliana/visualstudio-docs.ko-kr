@@ -1,13 +1,8 @@
 ---
 title: 디버거의 식 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-debug
 ms.topic: conceptual
 f1_keywords:
 - vs.debug.expressions
@@ -31,13 +26,13 @@ ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
 caps.latest.revision: 30
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: cf75965a9be7c8e2a9a09cc43fa6eec632d6bf90
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 0a284fc35a5a792171e5102518bcfa553337dd15
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51722227"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58971779"
 ---
 # <a name="expressions-in-the-debugger"></a>디버거에서 사용하는 식
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -100,7 +95,7 @@ int main()
 ```  
   
 ###  <a name="BKMK_Using_debugger_intrinisic_functions_to_maintain_state"></a> 디버거 내장 함수를 사용하여 상태 유지  
- 디버거 내장 함수는 응용 프로그램의 상태를 변경하지 않고 식에서 특정 C/C++ 함수를 호출하는 방법을 제공합니다.  
+ 디버거 내장 함수는 애플리케이션의 상태를 변경하지 않고 식에서 특정 C/C++ 함수를 호출하는 방법을 제공합니다.  
   
  디버거 내장 함수의 특징은 다음과 같습니다.  
   
@@ -220,12 +215,7 @@ int main()
 -   `End Sub` 또는 `Module`과 같은 네임스페이스 또는 모듈 수준 키워드  
   
 ## <a name="see-also"></a>참고 항목  
- [C + +의 형식 지정자](../debugger/format-specifiers-in-cpp.md)   
+ [C++의 형식 지정자](../debugger/format-specifiers-in-cpp.md)   
  [Context Operator (C++)](../debugger/context-operator-cpp.md)   
  [C#의 형식 지정자](../debugger/format-specifiers-in-csharp.md)   
  [의사 변수](../debugger/pseudovariables.md)
-
-
-
-
-

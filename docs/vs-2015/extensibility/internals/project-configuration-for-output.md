@@ -1,26 +1,21 @@
 ---
 title: 프로젝트 출력에 대 한 구성 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-sdk
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-sdk
+ms.topic: conceptual
 helpviewer_keywords:
 - project configurations, output
 ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: ghogen
-ms.openlocfilehash: 1c23f9210175b848bfdf3ddab56776092e39212c
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: a2b3a4e904fa6ca45dc207c4b713577b1e29f840
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51740898"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985305"
 ---
 # <a name="project-configuration-for-output"></a>출력에 대한 프로젝트 구성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ ms.locfileid: "51740898"
  [빌드에 대 한 프로젝트 구성](../../extensibility/internals/project-configuration-for-building.md)   
  [프로젝트 구성 개체](../../extensibility/internals/project-configuration-object.md)   
  [솔루션 구성](../../extensibility/internals/solution-configuration.md)
-

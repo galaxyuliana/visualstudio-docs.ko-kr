@@ -1,28 +1,25 @@
 ---
 title: T4 출력 지시문 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 03a14993-47ad-4f2e-8032-57db28d5842a
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 2e2d30c5d1dee578da14608a4e272fea09184a76
-ms.sourcegitcommit: 9ceaf69568d61023868ced59108ae4dd46f720ab
+manager: jillfra
+ms.openlocfilehash: 9262ec994ec847c38ec8d5c1ad95010a929cc4ba
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "49198525"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58985752"
 ---
 # <a name="t4-output-directive"></a>T4 Output 지시문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 텍스트 템플릿에서 `output` 지시문은 변환된 파일의 인코딩과 파일 이름 확장명을 정의하는 데 사용됩니다.  
+[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 텍스트 템플릿에서 `output` 지시문은 변형된 파일의 인코딩과 파일 이름 확장명을 정의하는 데 사용됩니다.  
   
  예를 들어, 경우에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 라는 템플릿 파일을 포함 하는 프로젝트 **MyTemplate.tt** 다음 지시문을 포함 하는:  
   
@@ -58,7 +55,7 @@ ms.locfileid: "49198525"
  유효한 모든 파일 이름 확장명  
   
 ## <a name="encoding-attribute"></a>인코딩 특성  
- 출력 파일을 생성할 때 사용할 인코딩을 지정합니다. 예를 들면 다음과 같습니다.  
+ 출력 파일을 생성할 때 사용할 인코딩을 지정합니다. 예를 들어:  
   
  `<#@ output encoding="utf-8"#>`  
   
@@ -80,6 +77,3 @@ ms.locfileid: "49198525"
  `0`(시스템 기본값)  
   
  일반적으로는 <xref:System.Text.Encoding.GetEncodings%2A?displayProperty=fullName>가 반환하는 모든 인코딩으로 된 WebName 문자열 또는 CodePage 번호를 사용할 수 있습니다.
-
-
-

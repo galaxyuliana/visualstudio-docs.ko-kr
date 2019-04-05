@@ -1,14 +1,9 @@
 ---
-title: 'CA2112: 보안된 형식은 필드를 노출 하지 해야 | Microsoft Docs'
-ms.custom: ''
+title: 'CA2112: 보안된 형식은 필드를 노출 해야 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
 - CA2112
 - SecuredTypesShouldNotExposeFields
@@ -20,12 +15,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: a09093d05758d58828b9d7ca73223243252cb23c
-ms.sourcegitcommit: 240c8b34e80952d00e90c52dcb1a077b9aff47f6
+ms.openlocfilehash: d0ac554ebee7188e0826de9e5c1852cf3bcc33cb
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49871461"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984114"
 ---
 # <a name="ca2112-secured-types-should-not-expose-fields"></a>CA2112: 보안 형식은 필드를 노출하면 안 됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,10 +68,7 @@ ms.locfileid: "49871461"
 **보안 된 형식의 필드를 변경 하는 중... ** 
  **캐시 개체 필드: 99, 33**
 ## <a name="related-rules"></a>관련된 규칙
- [CA1051: 표시되는 인스턴스 필드를 선언하지 마십시오.](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
+ [CA1051: 표시 되는 인스턴스 필드 선언 하지 마십시오.](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
 
 ## <a name="see-also"></a>참고 항목
  [링크 요청만](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) [데이터 및 모델링](http://msdn.microsoft.com/library/8c37635d-e2c1-4b64-a258-61d9e87405e6)
-
-
-
