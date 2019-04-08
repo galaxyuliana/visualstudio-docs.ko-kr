@@ -1,14 +1,9 @@
 ---
 title: DOM 탐색기를 사용 하 여 레이아웃 디버그 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -22,13 +17,13 @@ ms.assetid: ded6566d-fc29-49a7-8029-dee8e50fe733
 caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: ba06e6a8ba95887c0cc6b6acfd14cef10ff03798
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: cb6de5edcd94b0391c090b0f68658258134375aa
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51787758"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58972163"
 ---
 # <a name="debug-layout-using-dom-explorer"></a>DOM 탐색기를 사용하여 레이아웃 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 > [!TIP]
 >  **레이아웃** 탭에서 변경한 내용은 영구적이지 않습니다. 소스 코드를 영구적으로 변경한 다음 디버그 도구 모음에서 **Windows 앱 새로 고침** 단추(Windows 스토어 및 Windows Phone 스토어 앱만 해당)를 사용하여 앱을 새로 고칠 수 있습니다. 이렇게 하면 디버거를 다시 시작하지 않아도 됩니다.  
   
- DOM 탐색기를 사용 하 여 상자 모델에 표시 되지 않은 레이아웃의 측면을 수정 하려면를 참조 하세요 [빠른 시작: HTML 및 CSS 디버깅](../debugger/quickstart-debug-html-and-css.md) 하 고 [DOM 탐색기를 사용 하 여 디버그 하는 CSS 스타일](../debugger/debug-css-styles-using-dom-explorer.md)합니다.  
+ DOM 탐색기를 사용 하 여 상자 모델에 표시 되지 않은 레이아웃의 측면을 수정 하려면, 참조 [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md) 하 고 [DOM 탐색기를 사용 하 여 디버그 하는 CSS 스타일](../debugger/debug-css-styles-using-dom-explorer.md)합니다.  
   
 ## <a name="example-of-fixing-a-layout-issue"></a>레이아웃 문제 해결 예제  
  이 예에서는 허브/피벗 템플릿에서 목록 요소를 선택하고, **레이아웃** 탭에 있는 상자 모델 값을 해석한 다음 속성 값 중 하나를 변경하여 레이아웃 문제를 해결하는 방법을 보여 줍니다.  
@@ -88,7 +83,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 8.  Visual Studio로 전환하고 DOM 탐색기에서 **요소 선택** 을 선택하거나 Ctrl+B를 누릅니다. 그러면 항목을 클릭하여 선택할 수 있도록 선택 모드가 변경되며, 앱이 전경에 옵니다. 한 번 클릭 후 모드는 되돌려집니다.  
   
     > [!TIP]
-    >  화살표 키 또는 다른 방법을 사용하여 DOM 탐색기에서 직접 HTML 요소를 선택할 수도 있습니다. 요소 선택에 대 한 자세한 내용은 참조 하세요. [빠른 시작: HTML 및 CSS 디버깅](../debugger/quickstart-debug-html-and-css.md)합니다.  
+    >  화살표 키 또는 다른 방법을 사용하여 DOM 탐색기에서 직접 HTML 요소를 선택할 수도 있습니다. 요소 선택에 대 한 자세한 내용은 참조 하세요. [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)합니다.  
   
 9. Phone 에뮬레이터 또는 시뮬레이터에서 절반이 잘린 이미지 중 하나의 오른쪽 회색 절반을 선택합니다. 다음과 같이 Windows Phone 에뮬레이터에 표시된 대로 선택한 요소 주위가 강조 표시됩니다.  
   
@@ -135,6 +130,3 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)   
  [DOM 탐색기를 사용 하 여 CSS 스타일 디버그](../debugger/debug-css-styles-using-dom-explorer.md)   
  [DOM 이벤트 수신기 보기](../debugger/view-dom-event-listeners.md)
-
-
-

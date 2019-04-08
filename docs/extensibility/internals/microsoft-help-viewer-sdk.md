@@ -63,7 +63,7 @@ Visual Studio 브랜딩 패키지 컨트롤을 지원 합니다.
 
 -   javascript
 
--   csharp 또는 c#
+-   csharp 또는 C#
 
 -   cplusplus visualc + + 또는 c + +
 

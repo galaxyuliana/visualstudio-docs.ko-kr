@@ -1,14 +1,9 @@
 ---
 title: 디버거를 사용한 예외 관리 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.exceptions
 - vs.debug.exceptions.find
@@ -37,13 +32,13 @@ ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
 caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: bdb648e7a29b3ed5d9a444e203ddbdcd6b0e73dc
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: da57824eb467bf1691175a80d74cc61b8f181617
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51770004"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58984792"
 ---
 # <a name="managing-exceptions-with-the-debugger"></a>디버거를 사용한 예외 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,7 +57,7 @@ ms.locfileid: "51770004"
 >  ASP.NET에는 브라우저에 오류 페이지를 표시하는 최상위 예외 처리기가 있습니다. **내 코드만** 이 설정되지 않은 경우에는 실행이 중단되지 않습니다. 예제를 보려면 아래의 [Setting the debugger to continue on user-unhandled exceptions](../debugger/managing-exceptions-with-the-debugger.md#BKMK_UserUnhandled) 를 참조하세요.  
   
 > [!NOTE]
->  Visual Basic 응용 프로그램에서 디버거는 모든 오류를 예외로 관리합니다. 이는 On Error 스타일의 오류 처리기를 사용하는 경우에도 마찬가지입니다.  
+>  Visual Basic 애플리케이션에서 디버거는 모든 오류를 예외로 관리합니다. 이는 On Error 스타일의 오류 처리기를 사용하는 경우에도 마찬가지입니다.  
   
 ## <a name="managing-exceptions-with-the-exception-settings-window"></a>예외 설정 창을 사용한 예외 관리  
  **예외 설정** 창을 사용하여 디버거가 중단되도록 할 예외(또는 예외 집합) 및 실행 중단시킬 지점을 설정할 수 있습니다. 예외를 추가 또는 삭제하거나 실행 중단을 일으킬 예외를 지정할 수 있습니다. 솔루션이 열려 있을 때 **디버그 / Windows / 예외 설정**을 클릭하여 이 창을 엽니다.  
@@ -74,11 +69,11 @@ ms.locfileid: "51770004"
   
  **예외 설정** 창에서 예외 범주(예: .NET 예외를 의미하는 **공용 언어 런타임 예외**)에 대한 노드를 확장하고 해당 범주 내의 특정 예외(예: **System.AccessViolationException**)에 대한 확인란을 선택합니다. 전체 예외 범주를 선택할 수도 있습니다.  
   
- ![AccessViolationException 체크](../debugger/media/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")  
+ ![Checked AccessViolationException](../debugger/media/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")  
   
  주어진 예외를 선택하는 경우, 이 예외가 발생할 때마다 예외가 처리되었는지 여부에 관계없이 디버거 실행이 중단됩니다. 여기서 이 예외를 첫째 예외라고 합니다. 예를 들어 다음은 몇 가지 시나리오입니다.  
   
-1. 다음 C# 콘솔 응용 프로그램에서 Main 메서드는 **try/catch** 블록 내부에서 `try/catch` 예외를 발생시킵니다.  
+1. 다음 C# 콘솔 애플리케이션에서 Main 메서드는 **try/catch** 블록 내부에서 `try/catch` 예외를 발생시킵니다.  
   
    ```csharp  
    static void Main(string[] args)  
@@ -105,7 +100,7 @@ ms.locfileid: "51770004"
   
     그러나 `here` 줄은 표시되지 않습니다.  
   
-2. C# 콘솔 응용 프로그램은 예외를 발생시키고 처리하는 메서드, 동일한 예외를 발생시키고 처리하지 않는 메서드 등 두 개의 메서드를 가진 클래스를 사용하여 클래스 라이브러리를 참조합니다.  
+2. C# 콘솔 애플리케이션은 예외를 발생시키고 처리하는 메서드, 동일한 예외를 발생시키고 처리하지 않는 메서드 등 두 개의 메서드를 가진 클래스를 사용하여 클래스 라이브러리를 참조합니다.  
   
    ```vb  
    public class Class1  
@@ -129,7 +124,7 @@ ms.locfileid: "51770004"
    }  
    ```  
   
-    다음은 콘솔 응용 프로그램의 Main() 메서드입니다.  
+    다음은 콘솔 애플리케이션의 Main() 메서드입니다.  
   
    ```csharp  
    static void Main(string[] args)  
@@ -155,7 +150,7 @@ ms.locfileid: "51770004"
   
 3. 특정 예외에 대해서나(예외를 선택하고 마우스 오른쪽 단추를 클릭한 후 **사용자 코드에서 처리되지 않은 경우 계속**선택/선택 취소) 전체 예외 범주(예: 모든 공용 언어 런타임 예외)에 대해 이 설정을 변경할 수 있습니다.  
   
-   예를 들어 ASP.NET 웹 응용 프로그램은 예외를 HTTP 500 상태 코드([ASP.NET API의 예외 처리](http://www.asp.net/web-api/overview/error-handling/exception-handling))로 변환하여 예외를 처리하며, 이에 따라 예외의 소스를 확인하는 데 도움이 되지 않을 수도 있습니다. 아래 예제에서는 사용자 코드가 `String.Format()` 을 발생시키는 <xref:System.FormatException>을 호출합니다. 다음과 같이 실행이 중단됩니다.  
+   예를 들어 ASP.NET 웹 애플리케이션은 예외를 HTTP 500 상태 코드([ASP.NET API의 예외 처리](http://www.asp.net/web-api/overview/error-handling/exception-handling))로 변환하여 예외를 처리하며, 이에 따라 예외의 소스를 확인하는 데 도움이 되지 않을 수도 있습니다. 아래 예제에서는 사용자 코드가 `String.Format()` 을 발생시키는 <xref:System.FormatException>을 호출합니다. 다음과 같이 실행이 중단됩니다.  
   
    ![사용자에서 중단&#45;처리 하지 않은 예외](../debugger/media/exceptionunhandledbyuser.png "ExceptionUnhandledByUser")  
   
@@ -193,8 +188,3 @@ public class GenericException<T> : Exception
  [C 런타임 라이브러리 없이 런타임을 사용 하 여 확인](../debugger/using-run-time-checks-without-the-c-run-time-library.md)   
  [예외 도우미](http://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb)   
  [디버거 기본 사항](../debugger/debugger-basics.md)
-
-
-
-
-

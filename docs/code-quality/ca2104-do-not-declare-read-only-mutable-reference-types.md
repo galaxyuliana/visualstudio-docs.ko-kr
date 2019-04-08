@@ -45,7 +45,7 @@ ms.locfileid: "55945016"
 
 변경 가능한 형식은 해당 인스턴스 데이터를 수정할 수 있는 형식을 말합니다. <xref:System.Text.StringBuilder?displayProperty=fullName> 클래스는 변경 가능한 참조 형식의 예입니다. 클래스의 인스턴스 값을 변경할 수 있는 멤버가 포함 됩니다. 변경할 수 없는 참조 형식의 예로 <xref:System.String?displayProperty=fullName> 클래스입니다. 시작 된 후 해당 값 변경할 수 없습니다.
 
-읽기 전용 한정자 ([읽기 전용](/dotnet/csharp/language-reference/keywords/readonly) 에서 C#를 [ReadOnly](/dotnet/visual-basic/language-reference/modifiers/readonly) Visual basic의 경우 및 [const](/cpp/cpp/const-cpp) c + +에서) 참조 형식에 필드 (또는 c + +에 대 한 포인터) 필드에서 차단 됩니다. 참조 형식의 다른 인스턴스에 의해 대체 됩니다. 그러나 한정자는 참조 형식을 통해 수정 되지 않도록 필드의 인스턴스 데이터를 방지 하지 않습니다.
+읽기 전용 한정자 ([읽기 전용](/dotnet/csharp/language-reference/keywords/readonly) 에서 C#를 [ReadOnly](/dotnet/visual-basic/language-reference/modifiers/readonly) Visual Basic의 경우 및 [const](/cpp/cpp/const-cpp) c + +에서) 참조 형식에 필드 (또는 c + +에 대 한 포인터) 필드에서 차단 됩니다. 참조 형식의 다른 인스턴스에 의해 대체 됩니다. 그러나 한정자는 참조 형식을 통해 수정 되지 않도록 필드의 인스턴스 데이터를 방지 하지 않습니다.
 
 이 규칙 표시 될 수 있습니다 실수로 형식에 대 한 위반 하는, 실제로 변경할 수 없습니다. 이 경우 경고를 억제 하려면 안전 합니다.
 

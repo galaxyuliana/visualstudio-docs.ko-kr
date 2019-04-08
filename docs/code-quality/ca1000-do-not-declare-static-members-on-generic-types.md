@@ -35,7 +35,7 @@ ms.locfileid: "57872449"
 
 ## <a name="cause"></a>원인
 
-제네릭 형식에 포함 되어는 `static` (`Shared` Visual basic에서) 멤버입니다.
+제네릭 형식에 포함 되어는 `static` (`Shared` Visual Basic에서) 멤버입니다.
 
 기본적으로이 규칙만 살펴봅니다 형식 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
 

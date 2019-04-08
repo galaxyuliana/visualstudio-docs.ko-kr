@@ -33,7 +33,7 @@ ms.locfileid: "58971110"
 |변경 수준|주요 변경|
 
 ## <a name="cause"></a>원인
- 공용 형식에서 상속 <xref:System.Attribute?displayProperty=fullName>추상 클래스가 아니며 봉인 (`NotInheritable` Visual basic에서).
+ 공용 형식에서 상속 <xref:System.Attribute?displayProperty=fullName>추상 클래스가 아니며 봉인 (`NotInheritable` Visual Basic에서).
 
 ## <a name="rule-description"></a>규칙 설명
  [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 클래스 라이브러리는 사용자 지정 특성을 검색하는 메서드를 제공합니다. 기본적으로 이러한 메서드는 특성 상속 계층 구조를 검색 예를 들어 <xref:System.Attribute.GetCustomAttribute%2A?displayProperty=fullName> 지정 된 특성 유형 또는 지정된 된 특성 형식이 확장 하는 모든 특성 형식 검색 합니다. 특성을 봉인 상속 계층을 통해 검색을 제거 하 고 성능을 향상 시킬 수 있습니다.

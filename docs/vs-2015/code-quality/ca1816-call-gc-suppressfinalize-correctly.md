@@ -52,7 +52,7 @@ ms.locfileid: "58985323"
 
  메서드 구현의 없으면 <xref:System.IDisposable.Dispose%2A>에 대 한 호출을 제거 하거나 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 형식으로 이동 하거나 <xref:System.IDisposable.Dispose%2A> 구현 합니다.
 
- 변경에 대 한 모든 호출 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 이 Me (Visual basic에서)를 전달 합니다.
+ 변경에 대 한 모든 호출 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 이 Me (Visual Basic에서)를 전달 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  사용 하 여 의도적는 경우에이 규칙에서 경고를 표시 하지 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 다른 개체의 수명을 제어 합니다. 구현의 경우이 규칙에서 경고를 표시 하지 마십시오 <xref:System.IDisposable.Dispose%2A> 호출 하지 않습니다 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName>합니다. 이런 경우 종료 되지 않도록 하는 데 실패 하 고 성능이 저하 됩니다 및 이점도 없습니다.

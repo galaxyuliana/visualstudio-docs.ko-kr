@@ -18,7 +18,7 @@ ms.locfileid: "55931002"
 ---
 # <a name="how-to-enable-and-disable-full-solution-analysis-for-managed-code"></a>방법: 관리 코드에 대 한 전체 솔루션 분석 활성화 및 비활성화
 
-*전체 솔루션 분석* 열고 시각적 개체에만 코드 분석 문제를 볼 수 있도록 Visual Studio 기능은 C# 또는 Visual Basic 파일용 솔루션 또는 접근할 수 있는 코드 파일. 기본적으로 전체 솔루션 분석은 *사용 하도록 설정* Visual basic의 경우 및 *비활성화* 시각적 개체에 C#.
+*전체 솔루션 분석* 열고 시각적 개체에만 코드 분석 문제를 볼 수 있도록 Visual Studio 기능은 C# 또는 Visual Basic 파일용 솔루션 또는 접근할 수 있는 코드 파일. 기본적으로 전체 솔루션 분석은 *사용 하도록 설정* Visual Basic의 경우 및 *비활성화* 시각적 개체에 C#.
 
 모든 파일에서 모든 문제를 확인 하려면 유용할 수 있지만 산만 수도 있습니다. 느려집니다 Visual Studio 솔루션이 매우 크거나 파일이 많은 경우. 표시 된 문제 수를 제한 하 고 Visual Studio 성능을 개선 하려면 전체 솔루션 분석을 비활성화할 수 있습니다. 필요한 경우이 기능을 쉽게 다시 활성화할 수 있습니다.
 

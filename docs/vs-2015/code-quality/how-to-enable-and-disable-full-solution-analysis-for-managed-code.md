@@ -53,6 +53,6 @@ ms.locfileid: "58971027"
  ![경고 텍스트에서 전체 솔루션 분석을 일시 중단](../code-quality/media/fsa-alert.png "FSA_Alert")  
   
 ## <a name="additional-details"></a>추가 세부 정보  
- 기본적으로 전체 솔루션 분석 Visual basic의 경우 사용 하도록 설정 되어 Visual C#을 사용할 수 없습니다.  
+ 기본적으로 전체 솔루션 분석 Visual Basic의 경우 사용 하도록 설정 되어 Visual C#을 사용할 수 없습니다.  
   
  Visual Studio 업데이트 3 RC는 크게 메모리 사용량을 줄이고 전체 솔루션 분석 사용 하도록 설정 하는 경우에 유휴, CPU 시간을 감소 하는 향상 된 코드 분석기 진단 v2 엔진을 포함 합니다.

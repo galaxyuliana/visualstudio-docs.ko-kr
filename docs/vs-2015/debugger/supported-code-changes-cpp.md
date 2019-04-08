@@ -1,14 +1,9 @@
 ---
 title: 코드 변경 (c + +)를 지원 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 dev_langs:
 - FSharp
 - VB
@@ -18,23 +13,23 @@ helpviewer_keywords:
 - Edit and Continue, limitations
 - supported code changes
 - object files, limitations of Edit and Continue
-- C# language, supported code changes
+- C++ language, supported code changes
 - coding, supported code changes
 - resource files, limitations of Edit and Continue
 - code changes, handling in Edit and Continue
-- what's new [C#], supported code changes
+- what's new [C++], supported code changes
 - code changes
 ms.assetid: f5754363-8a56-417b-b904-b05d9dd26d03
 caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: a68ad4add5f8c08e00067c903d5ba3946ca14538
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 7dce0cd8d527f165c91c9133c6cb8025b8f4fd44
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51797977"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002793"
 ---
 # <a name="supported-code-changes-c"></a>지원되는 코드 변경(C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +39,8 @@ Visual C++용 편집하며 계속하기에서는 대부분의 코드 변경 유�
  Visual Studio에서 C++용 편집하며 계속하기를 사용하는 방법에 대한 자세한 내용은 [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md) 를 참조하세요.  
   
 ##  <a name="BKMK_Unsupported_changes"></a> 지원되지 않는 변경 사항  
- 디버깅 세션 중에 적용할 수 없는 C/C++ 변경 내용은 다음과 같습니다.  
+
+디버깅 세션 중에 적용할 수 없는 C/C++ 변경 내용은 다음과 같습니다.  
   
 - 대부분의 전역 또는 정적 데이터 변경  
   
@@ -68,16 +64,16 @@ Visual C++용 편집하며 계속하기에서는 대부분의 코드 변경 유�
   
 - 개체 파일이 없는 코드의 변경  
   
-  이러한 변경 중 하나를 수행하고 코드 변경 내용을 적용하려고 하면 **출력** 창에 오류 또는 경고 메시지가 나타납니다.  
+이러한 변경 중 하나를 수행하고 코드 변경 내용을 적용하려고 하면 **출력** 창에 오류 또는 경고 메시지가 나타납니다.  
   
 - 편집하며 계속하기는 정적 라이브러리를 업데이트하지 않습니다. 정적 라이브러리에서 변경하면 이전 버전을 사용하여 실행이 계속되고 경고가 발생하지 않습니다.  
   
 ##  <a name="BKMK_Unsupported_scenarios"></a> 지원되지 않는 시나리오  
  다음과 같은 디버깅 시나리오에서는 C/C++의 편집하며 계속하기를 사용할 수 없습니다.  
   
--   [/Zo(최적화된 디버깅 향상)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)로 컴파일한 네이티브 앱 디버그  
+-    [/Zo(최적화된 디버깅 향상)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)로 컴파일한 네이티브 앱 디버그  
   
--   Visual Studio 2015 업데이트 1 이전의 Visual Studio 버전에서 Windows 스토어 앱 또는 구성 요소를 디버그합니다. Visual Studio 2015 업데이트 1부터는 `/ZI` 스위치로  `/bigobj` 컴파일러 스위치를 지원하기 때문에 Windows 스토어 C++ 앱 및 DirectX 앱에서 편집하며 계속하기를 사용할 수 있습니다. `/FASTLINK` 컴파일러 스위치를 지원하기 때문에 Windows 스토어 C++ 앱 및 DirectX 앱에서 편집하며 계속하기를 사용할 수 있습니다.  
+-   Visual Studio 2015 업데이트 1 이전의 Visual Studio 버전에서 Windows 스토어 앱 또는 구성 요소를 디버그합니다. Visual Studio 2015 업데이트 1부터는 `/ZI` 스위치로  `/bigobj` 컴파일러 스위치를 지원하기 때문에 Windows 스토어 C++ 앱 및 DirectX 앱에서 편집하며 계속하기를 사용할 수 있습니다.  `/FASTLINK` 컴파일러 스위치를 지원하기 때문에 Windows 스토어 C++ 앱 및 DirectX 앱에서 편집하며 계속하기를 사용할 수 있습니다.  
   
 -   Windows 98에서 디버깅  
   
@@ -149,6 +145,3 @@ Visual C++용 편집하며 계속하기에서는 대부분의 코드 변경 유�
   
 ## <a name="see-also"></a>참고 항목  
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)
-
-
-

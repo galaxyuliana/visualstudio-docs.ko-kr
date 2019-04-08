@@ -1,13 +1,8 @@
 ---
 title: 중단점을 사용 하 여 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-debug
 ms.topic: conceptual
 f1_keywords:
 - vs.debug.breakpointswin
@@ -45,13 +40,13 @@ ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
 caps.latest.revision: 63
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: d980fd2367545eb5c824bacc507d9ced9aa2d723
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: ff5858482f64e8e73844c433febe8033b7ab1d70
+ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51765954"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "58971904"
 ---
 # <a name="using-breakpoints"></a>중단점 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +63,7 @@ ms.locfileid: "51765954"
   
  이때 `testInt` 의 값은 여전히 1입니다.  
   
- 변수 값 및 호출 스택을 포함하여 응용 프로그램의 현재 상태를 확인할 수 있습니다. 호출 스택에 대한 자세한 내용은 [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md)을 참조하세요.  
+ 변수 값 및 호출 스택을 포함하여 애플리케이션의 현재 상태를 확인할 수 있습니다. 호출 스택에 대 한 자세한 내용은 참조 하세요. [방법: 호출 스택 창 사용](../debugger/how-to-use-the-call-stack-window.md)을 참조하세요.  
   
  실행 코드의 임의의 줄에서 중단점을 설정할 수 있습니다. 예를 들어 위의 C# 코드에서 변수 선언이나 `for` 루프 또는 `for` 루프 내의 모든 코드에서 중단점을 설정할 수 있지만 네임스페이스, 클래스 선언 또는 메서드 서명에서는 중단점을 설정할 수 없습니다.  
   
@@ -76,9 +71,9 @@ ms.locfileid: "51765954"
  호출 스택, 디스어셈블리 창 및 네이티브 C++ 코드에서 데이터 조건 또는 메모리 주소에 중단점을 설정할 수도 있습니다.  
   
 ## <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> 호출 스택 창에서 중단점 설정  
- **호출 스택** 창에서 중단점을 설정하여 호출 함수가 반환되는 명령이나 줄에서 실행을 중단할 수 있습니다. 호출 스택에 대한 자세한 내용은 [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md)을 참조하세요. 디버거의 실행을 중지해야 합니다.  
+ **호출 스택** 창에서 중단점을 설정하여 호출 함수가 반환되는 명령이나 줄에서 실행을 중단할 수 있습니다. 호출 스택에 대 한 자세한 내용은 참조 하세요. [방법: 호출 스택 창 사용](../debugger/how-to-use-the-call-stack-window.md)을 참조하세요. 디버거의 실행을 중지해야 합니다.  
   
-1. 응용 프로그램 디버그를 시작하고 실행이 중지(예: 중단점에서)되도록 대기합니다. **호출 스택** 창을 엽니다(**디버그 / Windows / 호출 스택**또는 **CTRL + ALT + C**).  
+1. 애플리케이션 디버그를 시작하고 실행이 중지(예: 중단점에서)되도록 대기합니다. **호출 스택** 창을 엽니다(**디버그 / Windows / 호출 스택**또는 **CTRL + ALT + C**).  
   
 2. 호출 함수를 마우스 오른쪽 단추로 클릭한 다음 **중단점 / 중단점 삽입**을 선택하거나 간단히 바로 가기 키 **F9**키를 사용합니다.  
   
@@ -91,14 +86,14 @@ ms.locfileid: "51765954"
 ## <a name="setting-a-breakpoint-in-the-disassembly-window"></a>디스어셈블리 창에서 중단점 설정  
  어셈블리 명령에 중단점을 설정하려면 디버거가 중단 모드여야 합니다.  
   
-1.  응용 프로그램 디버그를 시작하고 실행이 중지(예: 중단점에서)되도록 대기합니다. **디스어셈블리** 창을 엽니다(**디버그 / Windows / 디스어셈블리**또는 **Ctrl + Alt + D**).  
+1.  애플리케이션 디버그를 시작하고 실행이 중지(예: 중단점에서)되도록 대기합니다. **디스어셈블리** 창을 엽니다(**디버그 / Windows / 디스어셈블리**또는 **Ctrl + Alt + D**).  
   
 2.  실행을 중단할 명령에서 왼쪽 여백을 클릭하거나 명령에 커서를 설정하고 **F9**키를 누릅니다.  
   
 ## <a name="BKMK_set_a_data_breakpoint_native_cplusplus_only"></a> 데이터 중단점 (네이티브 c + + 전용) 설정  
  데이터 중단점은 지정된 메모리 주소에 저장된 값이 변경되면 실행을 중단합니다. 값을 읽기만 하고 변경하지는 않을 때는 실행이 중단되지 않습니다. 데이터 중단점을 설정하려면 디버거가 중단 모드여야 합니다.  
   
-1. 응용 프로그램 디버그를 시작하고 중단점에 도달할 때까지 대기합니다. **디버그** 메뉴에서 **새 중단점 / 데이터 중단점** 을 선택합니다(또는 **중단점** 창을 열고 **새로 만들기 / 데이터 중단점**선택).  
+1. 애플리케이션 디버그를 시작하고 중단점에 도달할 때까지 대기합니다. **디버그** 메뉴에서 **새 중단점 / 데이터 중단점** 을 선택합니다(또는 **중단점** 창을 열고 **새로 만들기 / 데이터 중단점**선택).  
   
 2. **주소** 상자에 메모리 주소를 입력하거나 메모리 주소로 계산되는 식을 입력합니다. 예를 들어, 변수 `&avar` 의 내용이 변경되면 중단하려면 `avar` 을 입력합니다.  
   
@@ -155,7 +150,7 @@ ms.locfileid: "51765954"
   
    **조건** 상자를 선택하면 창이 확장되어 다른 종류의 조건이 표시됩니다.  
   
-   **조건식:** 조건식을 선택하고 나면 **참인 경우** 및 **변경된 경우**등의 두 조건을 선택할 수 있습니다. 식을 만족할 때 중단하려면 **참인 경우** 를 선택하고, 식의 값이 변경되었을 때 중단하려면 **변경된 경우** 를 선택합니다.  
+   **조건식:** 조건식을 선택 하면 두 조건을 선택할 수 있습니다. **참인** 하 고 **변경 될 때**합니다. 식을 만족할 때 중단하려면 **참인 경우** 를 선택하고, 식의 값이 변경되었을 때 중단하려면 **변경된 경우** 를 선택합니다.  
   
    다음 예제에서는 `testInt` 의 값이 **4**일 때만 중단점이 적중되도록 설정합니다.  
   
@@ -259,6 +254,3 @@ ms.locfileid: "51765954"
   
 ## <a name="see-also"></a>참고 항목  
  [디버거로 코드 탐색](../debugger/navigating-through-code-with-the-debugger.md)
-
-
-

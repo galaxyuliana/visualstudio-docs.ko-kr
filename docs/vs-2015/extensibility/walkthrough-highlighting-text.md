@@ -308,7 +308,7 @@ Managed Extensibility Framework (MEF) 구성 요소 파트를 만들어 편집�
   
 8.  구현 해야 합니다 <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A> 메서드. 이 메서드는 컬렉션 <xref:Microsoft.VisualStudio.Text.SnapshotSpan> 개체 및 태그 범위의 열거형을 반환 합니다.  
   
-     C#에서 태그의 지연 계산 (즉, 개별 항목을 액세스 하는 경우에 집합이 평가)을 사용 하도록 설정 하는 yield 반복기로이 메서드를 구현 합니다. Visual basic의 경우 목록에 태그를 추가 하 고 목록을 반환 합니다.  
+     C#에서 태그의 지연 계산 (즉, 개별 항목을 액세스 하는 경우에 집합이 평가)을 사용 하도록 설정 하는 yield 반복기로이 메서드를 구현 합니다. Visual Basic의 경우 목록에 태그를 추가 하 고 목록을 반환 합니다.  
   
      메서드가 반환 되는 여기를 <xref:Microsoft.VisualStudio.Text.Tagging.TagSpan%601> "blue"를 가진 개체를 <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>, 파란색 배경을 제공 하는 합니다.  
   

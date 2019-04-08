@@ -1,12 +1,9 @@
 ---
 title: 모델링 다이어그램의 제스처 처리기를 정의 합니다. | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML - extending, double-click
 - UML - extending, drag and drop
@@ -14,13 +11,13 @@ ms.assetid: e5e1d70a-3539-4321-a3b1-89e86e4d6430
 caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 3e448b14a2a24994b9f03a569b0bb568d538bc69
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 3ecd6f6210fdc219f7d1ca493f15beed74e9b5e2
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51722180"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983014"
 ---
 # <a name="define-a-gesture-handler-on-a-modeling-diagram"></a>모델링 다이어그램의 제스처 처리기 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -242,7 +239,7 @@ Visual Studio에서 사용자가 항목을 두 번 클릭하거나 UML 다이어
   
     [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 의 실험적 인스턴스가 시작됩니다.  
   
-    **문제 해결**: 새 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 가 시작되지 않는 경우:  
+    **문제 해결**: 새 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 시작 되지 않습니다.  
   
    -   프로젝트가 두 개 이상 있으면 VSIX 프로젝트가 솔루션의 시작 프로젝트로 설정되었는지 확인합니다.  
   
@@ -256,7 +253,7 @@ Visual Studio에서 사용자가 항목을 두 번 클릭하거나 UML 다이어
   
 4. 요소를 UML 탐색기에서 다이어그램으로 끌어 놓습니다. 끌기 처리기가 호출되어야 합니다.  
   
-   **문제 해결**: 제스처 처리기가 작동하지 않으면 다음을 확인합니다.  
+   **문제 해결**: 제스처 처리기가 작동 하지 않는 경우 다음 사항을 확인 합니다  
   
 -   제스처 처리기 프로젝트는 VSIX 프로젝트에서 **source.extensions.manifest** 의 **자산** 탭에 MEF 구성 요소로 나열됩니다.  
   
@@ -320,7 +317,7 @@ Visual Studio에서 사용자가 항목을 두 번 클릭하거나 UML 다이어
     System.Windows.Forms.IDataObject data = eventArgs.Data;    
     ```  
   
-     다양한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 파트 또는 Windows 바탕 화면에서 다양한 종류의 요소를 다이어그램으로 끌 수 있습니다. `IDataObject`에서 다양한 형식의 요소가 다양한 방법으로 인코드됩니다. 요소를 추출하려면 해당 개체 형식에 대한 설명서를 참조하세요.  
+     다양한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]파트 또는 Windows 바탕 화면에서 다양한 종류의 요소를 다이어그램으로 끌 수 있습니다. `IDataObject`에서 다양한 형식의 요소가 다양한 방법으로 인코드됩니다. 요소를 추출하려면 해당 개체 형식에 대한 설명서를 참조하세요.  
   
      소스 개체가 UML 모델 탐색기 또는 다른 UML 다이어그램에서 끌어온 UML 요소 이면 가리킵니다 [가져올 모델 IDataObject에서에서 UML 요소](../modeling/get-uml-model-elements-from-idataobject.md)합니다.  
   
@@ -382,7 +379,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
   
    드물게 결함이 있는 확장은 로드되지 않고 오류 창에 보고서를 생성하지만 확장 관리자에 나타나지 않습니다. 이 경우 다음 위치에서 파일을 삭제하여 확장을 제거할 수 있습니다.  
   
-   *% LocalAppData %* **\Local\Microsoft\VisualStudio\\[version] \Extensions**  
+   *%LocalAppData%* **\Local\Microsoft\VisualStudio\\[version]\Extensions**  
   
 ##  <a name="DragExample"></a> 예제  
  다음 샘플에서는 구성 요소 다이어그램에서 끌어온 구성 요소의 파트 및 포트를 기반으로 시퀀스 다이어그램에서 수명선을 만드는 방법을 보여 줍니다.  
@@ -528,6 +525,3 @@ public class CreateLifelinesFromComponentParts : IGestureExtension
  [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [UML 모델에 대 한 유효성 검사 제약 조건 정의](../modeling/define-validation-constraints-for-uml-models.md)   
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)
-
-
-

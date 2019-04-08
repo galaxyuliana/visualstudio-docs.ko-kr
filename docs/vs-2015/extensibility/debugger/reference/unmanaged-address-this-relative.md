@@ -22,7 +22,7 @@ ms.locfileid: "58984754"
 # <a name="unmanagedaddressthisrelative"></a>UNMANAGED_ADDRESS_THIS_RELATIVE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-이 구조는 기준으로 하는 주소를 나타내는 `this` 포인터 (`Me` Visual basic에서).  
+이 구조는 기준으로 하는 주소를 나타내는 `this` 포인터 (`Me` Visual Basic에서).  
   
 ## <a name="syntax"></a>구문  
   

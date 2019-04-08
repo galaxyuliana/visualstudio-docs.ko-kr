@@ -188,7 +188,7 @@ ms.locfileid: "58971407"
  실제 주소를 설명합니다.  
   
  [UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md)  
- 기준으로 하는 주소에 설명 합니다는 `this` 포인터 (`Me` Visual basic에서).  
+ 기준으로 하는 주소에 설명 합니다는 `this` 포인터 (`Me` Visual Basic에서).  
   
 ## <a name="requirements"></a>요구 사항  
  헤더: msdbg.h, sh.h, 또는 ee.h  

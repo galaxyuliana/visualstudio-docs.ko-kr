@@ -62,7 +62,7 @@ ms.locfileid: "55950749"
 
 - .NET Framework 버전 1.0 및 1.1을 대상으로 하는 형식에 대 한 개인 생성자입니다.
 
-- 합니다 `static` (`Shared` Visual basic에서) 한정자를 대상으로 하는 형식 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]합니다.
+- 합니다 `static` (`Shared` Visual Basic에서) 한정자를 대상으로 하는 형식 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 

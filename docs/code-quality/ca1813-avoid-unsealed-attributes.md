@@ -35,7 +35,7 @@ ms.locfileid: "55931821"
 
 ## <a name="cause"></a>원인
 
-공용 형식에서 상속 <xref:System.Attribute?displayProperty=fullName>추상 클래스가 아니며 봉인 (`NotInheritable` Visual basic에서).
+공용 형식에서 상속 <xref:System.Attribute?displayProperty=fullName>추상 클래스가 아니며 봉인 (`NotInheritable` Visual Basic에서).
 
 ## <a name="rule-description"></a>규칙 설명
 

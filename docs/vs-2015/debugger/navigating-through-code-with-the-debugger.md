@@ -1,13 +1,8 @@
 ---
 title: 디버거로 코드 탐색 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-debug
 ms.topic: conceptual
 f1_keywords:
 - vs.debug.execution
@@ -25,13 +20,13 @@ ms.assetid: 759072ba-4aaa-447e-8e51-0dd1456fe896
 caps.latest.revision: 47
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 43155bbd4236ea34d67058443e8814f7ccf00b1f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: a38d078356acf4e78aeeb97687126616d027351f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51750571"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981772"
 ---
 # <a name="navigating-through-code-with-the-debugger"></a>디버거로 코드 탐색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ ms.locfileid: "51750571"
   
  녹색 화살표 또한 디버거를 시작 합니다 (동일 **F5**).  
   
- ![DBG&#95;기본 사항&#95;시작&#95;디버깅](../debugger/media/dbg-basics-start-debugging.png "DBG_Basics_Start_Debugging")  
+ ![DBG&#95;Basics&#95;Start&#95;Debugging](../debugger/media/dbg-basics-start-debugging.png "DBG_Basics_Start_Debugging")  
   
  디버거가 연결 된 앱을 시작할 수는 몇 가지 다른 방법 포함 **F11** ([코드로 단계](#BKMK_Step_into__over__or_out_of_the_code)), **F10** ([코드 건너뛰기](#BKMK_Step_over_Step_out)), 또는 사용 하 여 **커서까지 실행**합니다.  이러한 옵션에 수행할 작업에 정보에 대 한이 항목의 다른 섹션을 참조 하세요.  
   
@@ -111,7 +106,7 @@ ms.locfileid: "51750571"
   
 -   **수동으로 코드 중단**  
   
-     실행 중인 응용 프로그램의 사용 가능한 다음 코드 줄에서 중단하려면 **디버그**, **모두 중단** 을 선택합니다(키보드: **Ctrl+Alt+Break**).  
+     를 실행 중인 앱에서 코드의 사용 가능한 다음 줄에서 중단 하려면 선택 **디버그**하십시오 **모두 중단** (키보드: **Ctrl + Alt + Break**).  
   
      해당 소스 또는 기호(.pdb) 파일 없이 코드를 실행하는 동안 중단하는 경우 디버거에서 적절한 파일을 찾는 데 도움이 될 수 있는 **소스 파일을 찾을 수 없음** 또는 **기호를 찾을 수 없음** 페이지가 표시됩니다. [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)을 참조하세요. 지원 파일에 액세스할 수 없는 경우에도 디스어셈블리 창에서 어셈블리 명령을 디버깅할 수 있습니다.  
   
@@ -161,7 +156,7 @@ ms.locfileid: "51750571"
 >   -   호출 스택 해제를 진행 중인 경우  
 >   -   System.StackOverflowException 또는 System.Threading.ThreadAbortException 예외가 throw된 경우  
   
- 응용 프로그램을 실행하는 동안에는 다음 문을 설정할 수 없습니다. 다음에 실행할 문을 설정하려면 디버거가 중단 모드에 있어야 합니다.  
+ 애플리케이션을 실행하는 동안에는 다음 문을 설정할 수 없습니다. 다음에 실행할 문을 설정하려면 디버거가 중단 모드에 있어야 합니다.  
   
 ## <a name="step-into-non-user-code"></a>한 단계씩 사용자 코드가 아닌 코드 실행  
  기본적으로 디버거만 앱 코드를 디버깅 하는 동안 이라는 디버거에 의해 결정 되는 수를 표시 하려고 *Just My Code*합니다. (참조 [Just My Code](../debugger/just-my-code.md) 를 다른 프로젝트 형식 및 언어에 대 한 작동 방식 및 동작을 사용자 지정 하는 방법을 참조 하세요.) 그러나를 디버깅 하는 동안에 따라 수 확인 하려는 프레임 워크 코드, 타사 라이브러리 코드 또는 호출의 운영 체제 (시스템 호출).  
@@ -181,7 +176,7 @@ ms.locfileid: "51750571"
   
  디버깅하는 동안 특정 시스템 구성 요소에 대한 기호를 로드하려면  
   
-1.  모듈 창을 엽니다(키보드: **Ctrl+Alt+U**).  
+1.  모듈 창을 엽니다 (키보드: **Ctrl+Alt+U**).  
   
 2.  기호를 로드하려는 모듈을 선택합니다.  
   
@@ -191,8 +186,3 @@ ms.locfileid: "51750571"
   
 ##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> 한 단계씩 관리 코드의 속성 및 연산자 실행  
  기본적으로 디버거는 관리 코드의 속성과 연산자를 건너뜁니다. 대부분의 경우 이렇게 하면 더 나은 디버깅 환경이 제공됩니다. 속성 또는 연산자를 한 단계씩 실행을 사용 하도록 설정 하려면 **디버깅할** / **옵션**합니다.  **디버깅** / **일반** 페이지에서 **속성 및 연산자 건너뛰기(관리 전용)** 확인란의 선택을 취소합니다.
-
-
-
-
-

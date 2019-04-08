@@ -1,12 +1,9 @@
 ---
 title: 모델링 확장 정의 및 설치 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML - extending
 - UML model, extending
@@ -14,13 +11,13 @@ ms.assetid: 82a58dc5-c7cf-4521-a6da-7ff09cd0de9d
 caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6f7895916cc4ee877c53b056f703d8e46b64b409
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 415d63717e5702b0faa1b49d1d0d18ebbf773b8f
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51805569"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58981658"
 ---
 # <a name="define-and-install-a-modeling-extension"></a>모델링 확장 정의 및 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +32,7 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
 ## <a name="creating-a-modeling-extension-solution"></a>모델링 확장 솔루션 만들기  
  모델링 확장을 정의하려면 다음 프로젝트를 포함하는 솔루션을 만들어야 합니다.  
   
-- VSIX([!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Integration Extension) 프로젝트. 확장 구성 요소의 설치 관리자 역할을 하는 파일이 생성됩니다.  
+- VSIX( [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Integration Extension) 프로젝트. 확장 구성 요소의 설치 관리자 역할을 하는 파일이 생성됩니다.  
   
 - 프로그램 코드를 포함하는 구성 요소에 필요한 클래스 라이브러리 프로젝트.  
   
@@ -77,10 +74,10 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
   
         |||  
         |-|-|  
-        |**형식** =|**Microsoft.VisualStudio.MefComponent**|  
+        |**Type** =|**Microsoft.VisualStudio.MefComponent**|  
         |**Source** =|**현재 솔루션의 프로젝트**|  
-        |**프로젝트** =|*클래스 라이브러리 프로젝트*|  
-        |**이 폴더에 포함** =|*(비어 있음)*|  
+        |**Project** =|*클래스 라이브러리 프로젝트*|  
+        |**이 폴더에 포함** =|*(empty)*|  
   
          다른 구성 요소 형식의 경우 다음 섹션의 링크를 참조하세요.  
   
@@ -100,7 +97,7 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
   
 #### <a name="to-run-an-extension-during-its-development"></a>개발 중에 확장을 실행하려면  
   
-1.  [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **디버그** 메뉴에서 **Start 디버그ging**을 선택합니다.  
+1.   [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **디버그** 메뉴에서 **Start 디버그ging**을 선택합니다.  
   
      프로젝트가 빌드되고, [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 의 새 인스턴스가 실험적 모드에서 시작됩니다.  
   
@@ -141,13 +138,10 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
   
    드물게 결함이 있는 확장은 로드되지 않고 오류 창에 보고서를 생성하지만 확장 관리자에 나타나지 않습니다. 다음 위치에서 파일을 삭제 하 여 확장을 제거할 수는 경우 여기서 *% LocalAppData %* 일반적으로 *DriveName*: \Users\\*사용자이름*\AppData\Local:  
   
-   *% LocalAppData %* **\Microsoft\VisualStudio\\[version] \Extensions**  
+   *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
   
 ## <a name="see-also"></a>참고 항목  
  [UML을 확장 하는 프로필 정의](../modeling/define-a-profile-to-extend-uml.md)   
  [사용자 지정 정의 모델링 도구 상자 항목](../modeling/define-a-custom-modeling-toolbox-item.md)   
  [UML 모델에 대 한 유효성 검사 제약 조건 정의](../modeling/define-validation-constraints-for-uml-models.md)   
  [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)
-
-
-

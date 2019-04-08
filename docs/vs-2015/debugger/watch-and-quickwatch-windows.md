@@ -1,14 +1,9 @@
 ---
 title: 조사식 및 간략 한 조사식 Windows | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - vs.debug.watch
 dev_langs:
@@ -28,13 +23,13 @@ ms.assetid: d5c18377-2a0e-4819-a645-407e24ccc58c
 caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: b171352475b6c0b3bc916d27ab4ba351e84be42b
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 6fa22e93a767df599815c87e5809faddb674854b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51791680"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985762"
 ---
 # <a name="watch-and-quickwatch-windows"></a>조사식 및 간략한 조사식 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -146,7 +141,7 @@ static void Main(string[] args)
   
   값을 새로 고치려면 새로 고침 아이콘을 클릭하거나 스페이스바를 누릅니다. 디버거가 식을 다시 계산합니다. 속성 자동 확인 및 암시적 부작용이 해제되었기 때문에 새로 고침 아이콘이 나타난 경우 식을 계산할 수 있습니다.  
   
-  실과 유사한 두 개의 물결선이 있는 원 아이콘이 나타나면 잠재적 크로스 스레드 종속성으로 인해 식이 계산되지 않은 것입니다. 즉, 코드를 확인할 때 응용 프로그램의 다른 스레드를 임시로 실행해야 함을 의미합니다. 중단 모드에서는 일반적으로 응용 프로그램의 모든 스레드가 중지됩니다. 다른 스레드를 임시로 실행할 수 있게 하면 프로그램 상태에 예기치 않은 영향이 있을 수 있으며 디버거가 중단점 및 해당 스레드에서 발생한 예외와 같은 이벤트를 무시하게 됩니다.  
+  실과 유사한 두 개의 물결선이 있는 원 아이콘이 나타나면 잠재적 크로스 스레드 종속성으로 인해 식이 계산되지 않은 것입니다. 즉, 코드를 확인할 때 애플리케이션의 다른 스레드를 임시로 실행해야 함을 의미합니다. 중단 모드에서는 일반적으로 애플리케이션의 모든 스레드가 중지됩니다. 다른 스레드를 임시로 실행할 수 있게 하면 프로그램 상태에 예기치 않은 영향이 있을 수 있으며 디버거가 중단점 및 해당 스레드에서 발생한 예외와 같은 이벤트를 무시하게 됩니다.  
   
 ##  <a name="bkmk_sideEffects"></a> Side Effects and Expressions  
  일부 경우에는 식을 계산하면 변수 값이 바뀌거나 프로그램 상태에 영향이 미칠 수 있습니다. 예를 들어 다음 식을 계산하면 `var1`의 값이 변경됩니다.  
@@ -211,7 +206,7 @@ public class Program
   
 2.  디버깅을 시작하고, 실행이 중단점에서 중지되면 **지역** 창에서 변수를 찾아 마우스 오른쪽 단추로 클릭한 다음 **개체 ID 만들기**를 선택합니다.  
   
-3.  **$** 창에 **지역** 창을 닫습니다. 이는 개체 ID입니다.  
+3.   **$** 창에 **지역** 창을 닫습니다. 이는 개체 ID입니다.  
   
 4.  조사식 창에 개체 ID를 추가합니다.  
   
@@ -238,7 +233,7 @@ public class Program
   
  개체에 대한 **동적 뷰** 만 표시하려는 경우 **동적** 형식 지정자를 사용할 수 있습니다.  
   
-- C#: **ObjectName, dynamic**  
+- C#:  **ObjectName, dynamic**  
   
 - Visual Basic: **$dynamic, ObjectName**  
   
@@ -246,8 +241,3 @@ public class Program
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 창](../debugger/debugger-windows.md)
-
-
-
-
-

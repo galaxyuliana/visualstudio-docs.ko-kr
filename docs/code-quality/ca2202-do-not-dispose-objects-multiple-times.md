@@ -52,7 +52,7 @@ ms.locfileid: "55926946"
 
 ## <a name="example"></a>예제
 
-중첩 `using` 문 (`Using` Visual basic에서) 위반 CA2202 경고를 발생할 수 있습니다. 경우 중첩 내부 IDisposable 리소스 `using` 문 외부의 리소스를 포함 `using` 문에서 `Dispose` 중첩 된 리소스의 메서드가 포함 된 리소스를 해제 합니다. 이러한 상황이 발생 하는 경우는 `Dispose` 외부 메서드의 `using` 문을 두 번째로 해당 리소스를 삭제 하려고 합니다.
+중첩 `using` 문 (`Using` Visual Basic에서) 위반 CA2202 경고를 발생할 수 있습니다. 경우 중첩 내부 IDisposable 리소스 `using` 문 외부의 리소스를 포함 `using` 문에서 `Dispose` 중첩 된 리소스의 메서드가 포함 된 리소스를 해제 합니다. 이러한 상황이 발생 하는 경우는 `Dispose` 외부 메서드의 `using` 문을 두 번째로 해당 리소스를 삭제 하려고 합니다.
 
 다음 예에서 <xref:System.IO.Stream> 외부에서 만든 개체의 Dispose 메서드에서 문을 사용 하 여 내부 끝날 때 해제 됩니다 문을 사용 하는 <xref:System.IO.StreamWriter> 포함 된 개체는 `stream` 개체. 외부의 끝 `using` 문에서 `stream` 개체가 해제 되는 두 번째 시간입니다. 두 번째 릴리스 CA2202에 위반 됩니다.
 
