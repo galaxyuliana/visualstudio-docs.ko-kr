@@ -217,7 +217,7 @@ System.IO.File.WriteAllText("outputPage.html", pageContent);
 
 #### <a name="constructor-parameters-in-visual-basic"></a>Visual Basic의 생성자 매개 변수
 
-Visual basic의 경우 별도 파일 **MyWebPageCode.vb** 포함 되어 있습니다.
+Visual Basic의 경우 별도 파일 **MyWebPageCode.vb** 포함 되어 있습니다.
 
 ```vb
 Namespace My.Templates

@@ -87,7 +87,7 @@ dotnet_code_quality.ca1010.api_surface = private, internal
 
 ## <a name="fix-by-interface-implementation"></a>인터페이스 구현에 의해 수정
 
-다음 예제에서는 이러한 제네릭 인터페이스를 구현 하 여 위반을 수정: `IEnumerable<T>`, `ICollection<T>`, 및 `IList<T>` (`IEnumerable(Of T)`를 `ICollection(Of T)`, 및 `IList(Of T)` Visual basic에서).
+다음 예제에서는 이러한 제네릭 인터페이스를 구현 하 여 위반을 수정: `IEnumerable<T>`, `ICollection<T>`, 및 `IList<T>` (`IEnumerable(Of T)`를 `ICollection(Of T)`, 및 `IList(Of T)` Visual Basic에서).
 
 [!code-csharp[FxCop.Design.CollectionsGenericInterface#1](../code-quality/codesnippet/CSharp/ca1010-collections-should-implement-generic-interface_3.cs)]
 

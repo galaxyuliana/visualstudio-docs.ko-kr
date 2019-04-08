@@ -34,7 +34,7 @@ ms.locfileid: "55921551"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- 공용 형식이 `sealed` (`NotInheritable` Visual basic에서) 하 고 보호 된 멤버 또는 중첩된 된 보호 형식을 선언 합니다. 이 규칙에 대 한 위반을 보고 하지 않습니다 <xref:System.Object.Finalize%2A> 메서드가이 패턴을 따라야 합니다.
+ 공용 형식이 `sealed` (`NotInheritable` Visual Basic에서) 하 고 보호 된 멤버 또는 중첩된 된 보호 형식을 선언 합니다. 이 규칙에 대 한 위반을 보고 하지 않습니다 <xref:System.Object.Finalize%2A> 메서드가이 패턴을 따라야 합니다.
 
 ## <a name="rule-description"></a>규칙 설명
  형식에서는 상속하는 형식에서 멤버에 액세스하거나 멤버를 재정의할 수 있도록 하기 위해 protected 멤버를 선언합니다. 정의상, 봉인 된 형식에 메서드를 보호 하는 의미를 호출할 수 없습니다. 봉인 된 형식에서 상속할 수 없습니다.

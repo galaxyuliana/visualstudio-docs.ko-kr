@@ -24,7 +24,7 @@ ms.workload:
 - multiple
 ms.openlocfilehash: 43214ee122b3aa5c3907b9176631f2dc22c9178e
 ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "54987767"
@@ -40,7 +40,7 @@ ms.locfileid: "54987767"
 
 **디스어셈블리** 창에는 어셈블리 지침뿐 아니라 다음과 같은 선택적 정보도 표시할 수 있습니다.
 
-- 각 명령이 있는 메모리 주소, 네이티브 응용 프로그램에 대 한 실제 메모리 주소입니다. Visual basic 또는 C#를 함수 시작 부분 으로부터의 오프셋입니다.
+- 각 명령이 있는 메모리 주소, 네이티브 응용 프로그램에 대 한 실제 메모리 주소입니다. Visual Basic 또는 C#를 함수 시작 부분 으로부터의 오프셋입니다.
 
 - 어셈블리 코드가 파생된 소스 코드
 

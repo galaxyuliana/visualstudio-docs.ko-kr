@@ -10,7 +10,7 @@ ms.workload:
 - data-storage
 ms.openlocfilehash: 6430cd3092f6edbc514c7958e07961ccd234c161
 ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/08/2019
 ms.locfileid: "55931262"
@@ -24,7 +24,7 @@ ms.locfileid: "55931262"
 
 ## <a name="to-create-inherited-data-classes"></a>상속된 데이터 클래스를 만들려면
 
-1.  엽니다는 **O/R 디자이너** 추가 하 여를 **LINQ to SQL 클래스** 항목을 기존 Visual basic 또는 C# 프로젝트.
+1.  엽니다는 **O/R 디자이너** 추가 하 여를 **LINQ to SQL 클래스** 항목을 기존 Visual Basic 또는 C# 프로젝트.
 
 2.  기본 클래스로 사용 하려는 테이블을 끌어 옵니다 합니다 **O/R 디자이너**합니다.
 

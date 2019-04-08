@@ -57,12 +57,12 @@ caps.latest.revision: 41
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 34508502d28df379e05623116b9659848a84b6bc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 1a59432d6b630606ac5c133e8a5811186fcf7c34
+ms.sourcegitcommit: 40393347a36779230d128f2355a911632a8d458e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54763325"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58866768"
 ---
 # <a name="managing-external-tools"></a>외부 도구 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,11 +78,11 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
   
 3.  ATL/MFC 추적 도구: ATL 및 MFC 소스에서 디버그 추적 메시지를 보여 줍니다.  
   
-4.  PreEmptive Dotfuscator and Analytics: 리버스 엔지니어링에 대해.NET 프로그램을 보호합니다.  
+4.  PreEmptive Protection - Dotfuscator: .NET 프로그램을 리버스 엔지니어링에 대해 보호합니다.  
   
-5.  SPY++ 프로세스, 스레드, 창 및 창 메시지를 그래픽으로 표시합니다.  
+5.  SPY++: 프로세스, 스레드, 창 및 창 메시지를 그래픽으로 표시합니다.  
   
-6.  WCF 서비스 구성 편집기(&W) WCF 서비스에 대 한 구성 설정을 만들고 수정할 수 있습니다.  
+6.  WCF 서비스 구성 편집기: WCF 서비스에 대한 구성 설정을 만들고 수정할 수 있습니다.  
   
 > [!WARNING]
 >  설치한 Visual Studio 버전과 적용한 설정 프로필에 따라 다른 외부 도구 목록이 나타날 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
@@ -122,4 +122,4 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
 |솔루션 파일 이름|$(SolutionFileName)|현재 솔루션의 파일 이름(드라이브 + 경로 + 파일 이름)입니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [ 빌드 도구](http://msdn.microsoft.com/library/48d9daf4-6bbf-473a-8ce2-bf2923b69f80)
+ [C/C++ 빌드 도구](http://msdn.microsoft.com/library/48d9daf4-6bbf-473a-8ce2-bf2923b69f80)

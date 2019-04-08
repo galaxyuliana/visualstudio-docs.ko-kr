@@ -1,14 +1,9 @@
 ---
 title: '빠른 시작: 콘솔을 사용한 JavaScript 디버그 | Microsoft Docs'
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - VS.WebClient.JavaScriptConsole
 dev_langs:
@@ -24,15 +19,15 @@ ms.assetid: ea7adb71-52b6-4a5a-9346-98ca94b06bd7
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 61f36594b4158c95621ec240fd7a883accd259a8
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: bce2eae7c9df527c9b40e8d7f68bda68033449f8
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51802604"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985826"
 ---
-# <a name="quickstart-debug-javascript-using-the-console"></a>퀵 스타트: 콘솔을 사용하여 Debug JavaScript 디버그
+# <a name="quickstart-debug-javascript-using-the-console"></a>빠른 시작: 콘솔을 사용하여 JavaScript 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content.png "windows_and_phone_content")  
@@ -66,7 +61,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 > [!TIP]
 >  JavaScript 콘솔 창이 닫힌 경우 **디버그**>**창** > **JavaScript 콘솔** 을 사용하여 다시 엽니다. 창은 스크립트 디버깅 세션 중에만 표시됩니다.  
   
- JavaScript 콘솔 창에서는 디버거를 중지 및 다시 시작하지 않고 앱과 상호 작용할 수 있습니다. 자세한 내용은 참조 하세요. [앱 (JavaScript) 새로 고침](../debugger/refresh-an-app-javascript.md)합니다. 기타 JavaScript 디버깅 DOM 탐색기 사용 및 중단점 설정과 같은 기능에 대 한 정보를 참조 하세요. [빠른 시작: HTML 및 CSS 디버깅](../debugger/quickstart-debug-html-and-css.md) 하 고 [Visual Studio에서 앱을 디버그](../debugger/debug-store-apps-in-visual-studio.md)합니다.  
+ JavaScript 콘솔 창에서는 디버거를 중지 및 다시 시작하지 않고 앱과 상호 작용할 수 있습니다. 자세한 내용은 참조 하세요. [앱 (JavaScript) 새로 고침](../debugger/refresh-an-app-javascript.md)합니다. 기타 JavaScript 디버깅 DOM 탐색기 사용 및 중단점 설정과 같은 기능에 대 한 정보를 참조 하세요. [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md) 하 고 [Visual Studio에서 앱을 디버그](../debugger/debug-store-apps-in-visual-studio.md)합니다.  
   
 ##  <a name="InteractiveConsole"></a> JavaScript 콘솔 창을 사용하여 디버깅  
  다음 단계를 수행하면 `FlipView` 앱이 생성되고, 대화식으로 JavaScript 코딩 오류를 디버그하는 방법이 표시됩니다.  
@@ -212,7 +207,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
 18.  **디버그** > **Stop 디버그ging** 를 선택하거나 Shift+F5를 눌러 디버깅을 중지한 다음 소스 코드를 수정합니다.  
   
-     수정 된 샘플 코드가 포함 된 전체 default.html 페이지를 참조 하세요 [디버그 HTML, CSS 및 JavaScript 샘플 코드](../debugger/debug-html-css-and-javascript-sample-code.md)합니다.  
+     수정된 샘플 코드가 포함된 전체 default.html 페이지는 [HTML, CSS 및 JavaScript 샘플 코드 디버깅](../debugger/debug-html-css-and-javascript-sample-code.md)을 참조하세요.  
   
 ##  <a name="InteractiveDebuggingBreakMode"></a> 대화형 디버깅 및 중단 모드  
  JavaScript 콘솔 창과 같은 JavaScript 디버깅 도구를 사용하는 동안 중단점을 사용하여 코드를 한 단계씩 실행할 수 있습니다. 디버거에서 실행 중인 프로그램이 중단점에 도달하면 디버거에서 프로그램의 실행을 일시적으로 중단합니다. 실행이 중단되는 경우 프로그램이 실행 모드에서 중단 모드로 전환합니다. 언제든지 실행을 재개할 수 있습니다.  
@@ -283,12 +278,9 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 ## <a name="see-also"></a>참고 항목  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
  [JavaScript Console commands](../debugger/javascript-console-commands.md)   
- [앱 (JavaScript) 새로 고침](../debugger/refresh-an-app-javascript.md)   
+ [앱 새로 고침(JavaScript)](../debugger/refresh-an-app-javascript.md)   
  [바로 가기 키](../debugger/keyboard-shortcuts-html-and-javascript.md)   
  [HTML, CSS 및 JavaScript 샘플 코드 디버그](../debugger/debug-html-css-and-javascript-sample-code.md)   
  [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)   
  [WebView 컨트롤 디버그](../debugger/debug-a-webview-control.md)   
  [기술 지원 및 접근성](http://msdn.microsoft.com/library/tzbxw1af\(VS.120\).aspx)
-
-
-

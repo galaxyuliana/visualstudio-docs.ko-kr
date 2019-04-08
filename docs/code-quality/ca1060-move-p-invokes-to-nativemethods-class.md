@@ -47,7 +47,7 @@ ms.locfileid: "55957002"
 
 - **UnsafeNativeMethods** -이 클래스를 비관리 코드 권한에 대 한 스택 워크를 표시 하지 않습니다. (<xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName> 이 클래스에 적용 됩니다.) 이 클래스는 잠재적으로 위험한 메서드. 이러한 메서드의 호출자는 사용이 안전한 지 스택 워크도 없으므로 수행할지 되도록 전체 보안 검토를 수행 해야 합니다.
 
-이러한 클래스를 선언 `internal` (`Friend`, Visual Basic의) 하 고 새 인스턴스가 생성 되지 않도록 하는 private 생성자를 선언 합니다. 이러한 클래스의 메서드 수 있어야 합니다 `static` 하 고 `internal` (`Shared` 및 `Friend` Visual basic에서).
+이러한 클래스를 선언 `internal` (`Friend`, Visual Basic의) 하 고 새 인스턴스가 생성 되지 않도록 하는 private 생성자를 선언 합니다. 이러한 클래스의 메서드 수 있어야 합니다 `static` 하 고 `internal` (`Shared` 및 `Friend` Visual Basic에서).
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면 적절 한 메서드를 이동 **NativeMethods** 클래스입니다. 대부분의 응용 프로그램에 대 한 P/Invoke 라는 새 클래스를 이동 **NativeMethods** 충분 합니다.

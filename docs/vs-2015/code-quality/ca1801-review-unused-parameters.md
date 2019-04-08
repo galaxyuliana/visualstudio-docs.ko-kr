@@ -42,11 +42,11 @@ Visual Studio에서 최신 설명서를 참조 하세요. [CA1801: 사용 되지
   
 -   메서드를 이벤트 처리기로 사용 합니다.  
   
--   사용 하 여 선언 된 메서드를 `abstract` (`MustOverride` Visual basic에서) 한정자.  
+-   사용 하 여 선언 된 메서드를 `abstract` (`MustOverride` Visual Basic에서) 한정자.  
   
--   사용 하 여 선언 된 메서드를 `virtual` (`Overridable` Visual basic에서) 한정자.  
+-   사용 하 여 선언 된 메서드를 `virtual` (`Overridable` Visual Basic에서) 한정자.  
   
--   사용 하 여 선언 된 메서드를 `override` (`Overrides` Visual basic에서) 한정자.  
+-   사용 하 여 선언 된 메서드를 `override` (`Overrides` Visual Basic에서) 한정자.  
   
 -   메서드를 사용 하 여 선언 된 `extern` (`Declare` Visual Basic의 문) 한정자.  
   

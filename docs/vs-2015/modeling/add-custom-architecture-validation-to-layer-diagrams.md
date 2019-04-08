@@ -1,25 +1,22 @@
 ---
 title: 레이어 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - layer diagrams, adding custom validation
 ms.assetid: fed7bc08-295a-46d6-9fd8-fb537f1f75f1
 caps.latest.revision: 44
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 9748f2f7b43426f7f981d027400f097b260bf23d
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 6cf1dad590a8d7632e9077764e85f432373cc54b
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51817518"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58985577"
 ---
 # <a name="add-custom-architecture-validation-to-layer-diagrams"></a>레이어 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -194,7 +191,7 @@ Visual Studio에서 사용자는 레이어 모델에 대해 프로젝트 소스 
   코드에서 레이어에서 요소로 연결된 링크에는 “Represents” 범주가 있습니다.  
   
 ##  <a name="debugging"></a> 유효성 검사 디버그  
- 레이어 유효성 검사 확장을 디버그하려면 Ctrl+F5를 누릅니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 실험적 인스턴스가 열립니다. 이 인스턴스에서 레이어 모델을 열거나 만듭니다. 이 모델은 코드와 연결되어야 하고 종속성을 하나 이상 포함해야 합니다.  
+ 레이어 유효성 검사 확장을 디버그하려면 Ctrl+F5를 누릅니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 의 실험적 인스턴스가 열립니다. 이 인스턴스에서 레이어 모델을 열거나 만듭니다. 이 모델은 코드와 연결되어야 하고 종속성을 하나 이상 포함해야 합니다.  
   
 ### <a name="test-with-a-solution-that-contains-dependencies"></a>종속성이 포함된 솔루션으로 테스트  
  다음 특징이 있어야 유효성 검사가 실행됩니다.  
@@ -203,7 +200,7 @@ Visual Studio에서 사용자는 레이어 모델에 대해 프로젝트 소스 
   
 - 모델에 코드 요소와 연결된 레이어가 있습니다.  
   
-  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 실험적 인스턴스를 처음으로 시작하여 유효성 검사 확장을 테스트할 경우 이러한 특징이 포함된 솔루션을 열거나 만듭니다.  
+  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 의 실험적 인스턴스를 처음으로 시작하여 유효성 검사 확장을 테스트할 경우 이러한 특징이 포함된 솔루션을 열거나 만듭니다.  
   
 ### <a name="run-clean-solution-before-validate-architecture"></a>아키텍처 유효성 검사 전에 솔루션 정리 실행  
  유효성 검사 코드를 업데이트할 때마다 유효성 검사 명령을 테스트하기 전에 실험적 솔루션에서 **빌드** 메뉴의 **솔루션 정리** 를 사용합니다. 유효성 검사의 결과가 캐시되므로 이 작업이 필요합니다. 테스트 레이어 다이어그램 또는 해당 코드를 업데이트하지 않았으면 유효성 검사 메서드가 실행되지 않습니다.  
@@ -283,6 +280,3 @@ namespace Validator3
   
 ## <a name="see-also"></a>참고 항목  
  [레이어 다이어그램 확장](../modeling/extend-layer-diagrams.md)
-
-
-

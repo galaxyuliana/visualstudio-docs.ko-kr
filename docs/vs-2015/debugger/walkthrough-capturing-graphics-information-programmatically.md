@@ -1,25 +1,20 @@
 ---
-title: '연습: 그래픽 정보를 프로그래밍 방식으로 캡처 | Microsoft Docs'
-ms.custom: ''
+title: '연습: 프로그래밍 방식으로 그래픽 정보 캡처 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: a5adeff9-afaf-4047-b5ce-ef0aefe710eb
 caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: feff1af744bd9f42d2fe8af67a72ec4856a09acc
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: bb12e0691d4e867a73b9c8999d0ad57cebd7ec44
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51747682"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983127"
 ---
 # <a name="walkthrough-capturing-graphics-information-programmatically"></a>연습: 프로그래밍 방식으로 그래픽 정보 캡처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ ms.locfileid: "51747682"
 -   그래픽 정보 캡처  
   
 > [!NOTE]
->  프로그래밍 방식 캡처의 이전 구현에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]용 원격 도구를 사용하여 캡처 기능을 제공했으나 Windows 8.1에서는 Direct3D 11.2를 통해 캡처 기능을 직접 지원합니다. 따라서 Windows 8.1에서는 더 이상 프로그래밍 캡처를 위해 원격 도구를 설치할 필요가 없습니다.  
+>  프로그래밍 방식 캡처의 이전 구현에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 용 원격 도구를 사용하여 캡처 기능을 제공했으나 Windows 8.1에서는 Direct3D 11.2를 통해 캡처 기능을 직접 지원합니다. 따라서 Windows 8.1에서는 더 이상 프로그래밍 캡처를 위해 원격 도구를 설치할 필요가 없습니다.  
   
 ### <a name="preparing-your-app-to-use-programmatic-capture"></a>프로그래밍 캡처를 사용하도록 앱 준비  
  앱에서 프로그래밍 방식 캡처를 사용하려면 필요한 헤더를 포함해야 합니다. 이러한 헤더는 Windows 8.1 SDK의 일부입니다.  
@@ -111,7 +106,7 @@ ms.locfileid: "51747682"
     ```  
   
     > [!NOTE]
-    >  `DXGIGetDebugInterface1` 이 `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`)를 반환하는 경우 앱이 그래픽 진단에서 실행되고 있는지 확인합니다( [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 Alt+F5)로 앱을 실행해야 합니다.  
+    >   `DXGIGetDebugInterface1` 이 `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`)를 반환하는 경우 앱이 그래픽 진단에서 실행되고 있는지 확인합니다( [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 Alt+F5)로 앱을 실행해야 합니다.  
   
 ### <a name="capturing-graphics-information"></a>그래픽 정보 캡처  
  이제 유효한 `IDXGraphicsAnalysis` 인터페이스가 있으므로 `BeginCapture` 및 `EndCapture` 를 사용하여 그래픽 정보를 캡처할 수 있습니다.  
@@ -148,14 +143,14 @@ ms.locfileid: "51747682"
 -   `CaptureCurrentFrame` API 사용  
   
 ### <a name="preparing-your-computer-to-use-programmatic-capture"></a>프로그래밍 캡처를 사용하도록 컴퓨터 준비  
- 프로그래밍 캡처 API는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]용 원격 도구를 사용하여 캡처 기능을 제공합니다. 로컬 컴퓨터에서 프로그래밍 캡처를 사용하더라도 앱을 실행할 컴퓨터에는 원격 도구가 설치되어 있어야 합니다. 로컬 컴퓨터에서 프로그래밍 캡처를 수행하는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 실행 중일 필요는 없습니다.  
+ 프로그래밍 캡처 API는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 용 원격 도구를 사용하여 캡처 기능을 제공합니다. 로컬 컴퓨터에서 프로그래밍 캡처를 사용하더라도 앱을 실행할 컴퓨터에는 원격 도구가 설치되어 있어야 합니다. 로컬 컴퓨터에서 프로그래밍 캡처를 수행하는 경우[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 를 실행 중일 필요는 없습니다.  
   
- 컴퓨터에서 실행 중인 앱에서 원격 캡처 API를 사용하려면 먼저 해당 컴퓨터에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]용 원격 도구를 설치해야 합니다. 원격 도구 버전마다 지원하는 하드웨어 플랫폼이 다릅니다. 원격 도구 설치 방법에 대한 자세한 내용은 Microsoft 다운로드 웹 사이트에서 [원격 도구 다운로드 페이지](http://go.microsoft.com/fwlink/p/?LinkId=246691) 를 참조하세요.  
+ 컴퓨터에서 실행 중인 앱에서 원격 캡처 API를 사용하려면 먼저 해당 컴퓨터에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 용 원격 도구를 설치해야 합니다. 원격 도구 버전마다 지원하는 하드웨어 플랫폼이 다릅니다. 원격 도구 설치 방법에 대한 자세한 내용은 Microsoft 다운로드 웹 사이트에서 [원격 도구 다운로드 페이지](http://go.microsoft.com/fwlink/p/?LinkId=246691) 를 참조하세요.  
   
  그렇지 않으면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서는 32비트 앱용 원격 캡처를 수행하기 위한 필수 구성 요소를 설치합니다.  
   
 > [!NOTE]
->  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 비롯한 대부분의 Windows 데스크톱 앱이 ARM 장치용 [!INCLUDE[win8](../includes/win8-md.md)]에서 지원되지 않으므로 ARM 장치에서 그래픽 진단을 캡처하는 유일한 방법은 프로그래밍 캡처 API와 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]용 원격 도구를 함께 사용하는 것입니다.  
+>  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 비롯한 대부분의 Windows 데스크톱 앱이 ARM 디바이스용 [!INCLUDE[win8](../includes/win8-md.md)] 에서 지원되지 않으므로 ARM 디바이스에서 그래픽 진단을 캡처하는 유일한 방법은 프로그래밍 캡처 API와 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 용 원격 도구를 함께 사용하는 것입니다.  
   
 ### <a name="preparing-your-app-to-use-programmatic-capture"></a>프로그래밍 캡처를 사용하도록 앱 준비  
  그래픽 진단 도구를 사용하려면 먼저, 이 도구에서 사용하는 그래픽 정보를 캡처해야 합니다. `CaptureCurrentFrame` API를 사용하여 정보를 프로그래밍 방식으로 캡처할 수 있습니다.  
@@ -193,7 +188,7 @@ ms.locfileid: "51747682"
 >  특정 위치에 기록하려면 해당 위치에 대한 쓰기 권한이 있어야 합니다. 그렇지 않으면 오류가 발생합니다. [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱은 데이터를 쓸 수 있는 위치에 대해 데스크톱 앱보다 더욱 제한적입니다. 그러므로 특정 위치에 쓰려면 추가 구성이 필요할 수 있습니다.  
   
 ### <a name="capturing-the-graphics-information"></a>그래픽 정보 캡처  
- 프로그래밍 캡처를 위해 앱을 준비하고 그래픽 로그 파일의 위치 및 이름을 선택적으로 구성한 후 앱을 빌드한 다음 실행하거나 디버그하여 데이터를 캡처합니다. 그러나 프로그래밍 캡처 API를 사용하는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 그래픽 진단을 시작하지 마세요. 그래픽 로그는 지정한 위치에 기록됩니다. 이 로그 버전을 보관하려면 다른 위치로 이동합니다. 그렇지 않으면 앱을 다시 시작할 때 덮어씁니다.  
+ 프로그래밍 캡처를 위해 앱을 준비하고 그래픽 로그 파일의 위치 및 이름을 선택적으로 구성한 후 앱을 빌드한 다음 실행하거나 디버그하여 데이터를 캡처합니다. 그러나 프로그래밍 캡처 API를 사용하는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 그래픽 진단을 시작하지 마세요. 그래픽 로그는 지정한 위치에 기록됩니다. 이 로그 버전을 보관하려면 다른 위치로 이동합니다. 그렇지 않으면 앱을 다시 시작할 때 덮어씁니다.  
   
 > [!TIP]
 >  프로그래밍 캡처를 사용 중에도 그래픽 정보를 수동으로 캡처할 수 있습니다. 앱에 포커스를 둔 상태에서 **Print Screen**키를 누르기만 하면 됩니다. 이 기술을 사용하여 프로그래밍 캡처 API로 캡처되지 않는 추가 그래픽 정보를 캡처할 수 있습니다.  
@@ -207,6 +202,3 @@ ms.locfileid: "51747682"
  [연습: 그래픽 정보 캡처](../debugger/walkthrough-capturing-graphics-information.md)   
  [Capturing Graphics Information](../debugger/capturing-graphics-information.md)   
  [명령줄 캡처 도구](../debugger/command-line-capture-tool.md)
-
-
-

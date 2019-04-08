@@ -5,6 +5,12 @@ title: Visual Studio 제품 | Microsoft Docs
 description: Visual Studio 제품군을 살펴보십시오.
 ms.topic: landing-page
 searchScope: []
+ms.openlocfilehash: 77d03ae304886be2e6c588ccea1c6e8be97efb15
+ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "59017994"
 ---
 <!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
@@ -24,7 +30,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-ide-2019.svg" src="./images/vs-ide-2019.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -37,18 +43,18 @@ searchScope: []
                                 </a>
                             </li>
                             <li>
-                                <a href="/visualstudio/mac" title="Mac용 Visual Studio">
+                                <a href="/visualstudio/mac" title="Visual Studio for Mac">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-mac-2019.svg" src="./images/vs-mac-2019.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Visual Studio for Mac</h3>
-                                                    <p>Mac을 사용하여 클라우드, iOS, Android, macOS 및 착용식 장치용 앱과 게임을 빌드하세요.</p>
+                                                    <p>.NET을 사용하여 iOS, Android, 데스크톱 및 웹용 앱 및 게임을 개발합니다.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -94,7 +100,7 @@ searchScope: []
                                 </a>
                             </li>
                             <li>
-                                <a href="/visualstudio/subscriptions/" title="Visual Studio Subscription">
+                                <a href="/visualstudio/subscriptions/" title="Visual Studio 구독">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

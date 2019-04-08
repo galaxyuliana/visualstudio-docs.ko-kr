@@ -1,14 +1,9 @@
 ---
 title: MFC 디버깅 기술 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.technology: vs-ide-debug
+ms.topic: conceptual
 f1_keywords:
 - AfxEnableMemoryTracking
 - CMemoryState
@@ -31,13 +26,13 @@ ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
 caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: f1e7a1ea69da1cafa38ae2a7bfa4551d3d40a8d4
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
-ms.translationtype: HT
+manager: jillfra
+ms.openlocfilehash: 4ed7d3a9db7a6bc486ad70236d9e39834c851dd2
+ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51745117"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "59002945"
 ---
 # <a name="mfc-debugging-techniques"></a>MFC 디버깅 기술
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,7 +102,7 @@ TRACE( "x = %d and y = %d\n", x, y );
 TRACE( "x = %d and y = %x and z = %f\n", x, y, z );  
 ```  
   
- TRACE 매크로 char * 및 wchar_t에 적절 하 게 처리\* 매개 변수입니다. 다음 예제에서는 TRACE 매크로와 다른 형식의 문자열 매개 변수를 함께 사용하는 방법을 보여 줍니다.  
+ TRACE 매크로는 char* 및 wchar_t\* 매개 변수를 적절히 처리합니다. 다음 예제에서는 TRACE 매크로와 다른 형식의 문자열 매개 변수를 함께 사용하는 방법을 보여 줍니다.  
   
 ```  
 TRACE( "This is a test of the TRACE macro that uses an ANSI string: %s %d\n", "The number is:", 2);  
@@ -167,7 +162,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ###  <a name="BKMK_Taking_memory_snapshots"></a> 메모리 스냅숏 만들기  
   
-1.  [CMemoryState](http://msdn.microsoft.com/en-us/8fade6e9-c6fb-4b2a-8565-184a912d26d2) 개체를 만들고 [CMemoryState::Checkpoint](http://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a) 멤버 함수를 호출합니다. 그러면 첫 번째 메모리 스냅숏이 만들어집니다.  
+1.  [CMemoryState](http://msdn.microsoft.com/8fade6e9-c6fb-4b2a-8565-184a912d26d2) 개체를 만들고 [CMemoryState::Checkpoint](http://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a) 멤버 함수를 호출합니다. 그러면 첫 번째 메모리 스냅숏이 만들어집니다.  
   
 2. 프로그램이 메모리 할당 작업과 할당 취소 작업을 수행하면 다른 `CMemoryState` 개체를 만들고 해당 개체에 대해 `Checkpoint` 를 호출합니다. 그러면 메모리 사용에 대한 두 번째 스냅숏이 만들어집니다.  
   
@@ -241,7 +236,7 @@ Total allocations: 67 bytes
  MFC 프로그램에서 사용할 수 있습니다 [cmemorystate:: Dumpallobjectssince](http://msdn.microsoft.com/library/a7f89034-bca4-4786-88d5-1571a5425ab2) 할당이 취소 되지 않은 힙에서 모든 개체의 설명을 덤프할 수 있습니다. `DumpAllObjectsSince` 는 마지막 [CMemoryState::Checkpoint](http://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a)를 단순히 호출할 뿐입니다. `Checkpoint` 를 호출할 수 없는 경우 `DumpAllObjectsSince` 가 현재 메모리에 있는 모든 개체와 비개체를 덤프합니다.  
   
 > [!NOTE]
->  MFC 개체를 덤프하려면 먼저 [진단 추적을 활성화](../debugger/mfc-debugging-techniques.md#BKMK_Enabling_Memory_Diagnostics)해야 합니다.  
+>  MFC 개체를 덤프하려면 먼저 [진단 추적을 활성화](../debugger/mfc-debugging-techniques.md#BKMK_Enabling_memory_diagnostics)해야 합니다.  
   
 > [!NOTE]
 >  프로그램을 종료할 때 MFC가 누수된 개체를 모두 자동으로 덤프하므로 해당 지점에서 개체를 덤프할 코드를 만들 필요가 없습니다.  
@@ -422,13 +417,13 @@ pMyPerson->Dump( afxDump );
  [항목 내용](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Reducing_the_size_of_an_MFC_Debug_build"></a> MFC 디버그 빌드 크기 줄이기  
- 대형 MFC 응용 프로그램의 디버그 정보는 디스크 공간을 많이 차지할 수 있습니다. 다음 절차 중 하나를 사용하여 크기를 줄일 수 있습니다.  
+ 대형 MFC 애플리케이션의 디버그 정보는 디스크 공간을 많이 차지할 수 있습니다. 다음 절차 중 하나를 사용하여 크기를 줄일 수 있습니다.  
   
 1. 사용 하 여 MFC 라이브러리를 다시 작성 합니다 [/z7, /Zi, /ZI (디버그 정보 형식)](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8) 옵션을 대신 **/z7**합니다. 이 옵션은 전체 라이브러리의 디버그 정보가 있는 프로그램 데이터베이스(PDB) 파일 하나를 빌드하여 중복을 없애고 공간을 절약합니다.  
   
 2. 디버그 정보 없이 MFC 라이브러리를 다시 작성 (없습니다 [/z7, /Zi, /ZI (디버그 정보 형식)](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8) 옵션). 이 경우 디버그 정보가 부족하여 MFC 라이브러리 코드의 디버거 기능을 대부분 사용할 수 없지만 MFC 라이브러리는 이미 모두 디버깅된 상태이므로 문제가 되지 않습니다.  
   
-3. 아래에 설명된 대로 선택한 모듈의 디버그 정보로 사용자 고유의 응용 프로그램을 빌드합니다.  
+3. 아래에 설명된 대로 선택한 모듈의 디버그 정보로 사용자 고유의 애플리케이션을 빌드합니다.  
   
    [항목 내용](#BKMK_In_this_topic)  
   
@@ -441,11 +436,11 @@ pMyPerson->Dump( afxDump );
   
 3. 먼저 새 프로젝트 구성을 만듭니다.  
   
-   1.  에  **\<프로젝트 > 속성 페이지** 대화 상자에서 클릭 합니다 **Configuration Manager** 단추입니다.  
+   1.  **\<프로젝트> 속성 페이지** 대화 상자에서 **구성 관리자** 단추를 클릭합니다.  
   
-   2.  [구성 관리자 대화 상자](http://msdn.microsoft.com/en-us/fa182dca-282e-4ae5-bf37-e155344ca18b)의 표에서 원하는 프로젝트를 찾습니다. 에 **Configuration** 열에서 선택  **\<새로 만들기... >** 합니다.  
+   2.  [구성 관리자 대화 상자](http://msdn.microsoft.com/fa182dca-282e-4ae5-bf37-e155344ca18b)의 표에서 원하는 프로젝트를 찾습니다. **구성** 열에서 **\<새로 만들기...>** 를 선택합니다.  
   
-   3.  [새 프로젝트 구성 대화 상자](http://msdn.microsoft.com/en-us/cca616dc-05a6-4fe3-bdc1-40c72a66f2be)의 **새 프로젝트 구성** 상자에 새 구성의 이름을 ?부분 디버그?등과 같이 입력합니다.  
+   3.  [새 프로젝트 구성 대화 상자](http://msdn.microsoft.com/cca616dc-05a6-4fe3-bdc1-40c72a66f2be)의 **새 프로젝트 구성** 상자에 새 구성의 이름을 ?부분 디버그?등과 같이 입력합니다.  
   
    4.  **다음에서 설정 복사** 목록에서 **릴리스**를 선택합니다.  
   
@@ -469,7 +464,7 @@ pMyPerson->Dump( afxDump );
   
 5. **빌드** 메뉴에서 **다시 빌드**를 선택합니다. 그러면 모듈에서 모든 디버그 정보가 제거되지만 MFC 라이브러리에 영향을 주지는 않습니다.  
   
-6. 이제 응용 프로그램의 선택한 모듈에 디버그 정보를 다시 추가해야 합니다. 디버그 정보로 컴파일한 모듈에서만 중단점을 설정하고 다른 디버거 기능을 사용할 수 있다는 점을 기억하십시오. 디버그 정보를 추가할 각 프로젝트 파일에 대해 다음 작업을 수행하십시오.  
+6. 이제 애플리케이션의 선택한 모듈에 디버그 정보를 다시 추가해야 합니다. 디버그 정보로 컴파일한 모듈에서만 중단점을 설정하고 다른 디버거 기능을 사용할 수 있다는 점을 기억하십시오. 디버그 정보를 추가할 각 프로젝트 파일에 대해 다음 작업을 수행하십시오.  
   
    1.  솔루션 탐색기 창에서 해당 프로젝트 아래의 **소스 파일** 폴더를 엽니다.  
   
@@ -479,11 +474,11 @@ pMyPerson->Dump( afxDump );
   
    4.  **속성 페이지** 대화 상자의 **구성 속성** 폴더에서 **C/C++** 폴더를 연 다음 **일반** 범주를 선택합니다.  
   
-   5.  속성 표에서 찾을 **디버그 정보 형식입니다.**  
+   5.  속성 그리드에서 **디버그 정보 형식**을 찾습니다.  
   
    6.  **디버깅 정보 형식** 설정을 클릭하고 디버그 정보에 대해 원하는 옵션(대개 **/ZI**)을 선택합니다.  
   
-   7.  응용 프로그램 마법사로 만든 응용 프로그램을 사용하거나 헤더를 미리 컴파일한 경우, 다른 모듈을 컴파일하기 전에 미리 컴파일한 헤더를 사용하지 않도록 하거나 다시 컴파일해야 합니다. 그렇지 않으면 경고 C4650과 오류 메시지 C2855를 받게 됩니다. 변경 하 여 미리 컴파일된 헤더를 해제할 수 있습니다 합니다 **미리 컴파일된 헤더 만들기/사용** 에서 설정 된  **\<프로젝트 > 속성** 대화 상자 (**구성 속성**  폴더를 **C/c + +** 하위 폴더를 **미리 컴파일된 헤더** 범주).  
+   7.  애플리케이션 마법사로 만든 애플리케이션을 사용하거나 헤더를 미리 컴파일한 경우, 다른 모듈을 컴파일하기 전에 미리 컴파일한 헤더를 사용하지 않도록 하거나 다시 컴파일해야 합니다. 그렇지 않으면 경고 C4650과 오류 메시지 C2855를 받게 됩니다. **\<프로젝트> 속성** 대화 상자(**구성 속성** 폴더, **C/C++** 하위 폴더, **미리 컴파일된 헤더** 범주)에서 **미리 컴파일된 헤더 만들기/사용** 설정을 변경하여 미리 컴파일된 헤더를 해제할 수 있습니다.  
   
 7. **빌드** 메뉴에서 **빌드** 를 선택하여 날짜가 지난 프로젝트 파일을 다시 빌드합니다.  
   
@@ -493,6 +488,3 @@ pMyPerson->Dump( afxDump );
   
 ## <a name="see-also"></a>참고 항목  
  [Visual C++ 디버깅](../debugger/debugging-native-code.md)
-
-
-

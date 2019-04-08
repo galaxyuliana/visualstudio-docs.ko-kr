@@ -1,12 +1,9 @@
 ---
 title: 모델 요소에 연결 하 고 작업 항목 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords:
 - vs.teamarch.common.removeworkitemsdialog
 - vs.teamarch.common.linkworkitemsdialog
@@ -21,13 +18,13 @@ ms.assetid: e687a490-0f93-412c-a1ff-eea83cf7ba07
 caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 55dfd83f3c9324b08bbb88c8404350c2aebf129f
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 2ca7b4254ac359158b9cf42600b28ef533372813
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51752076"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982787"
 ---
 # <a name="link-model-elements-and-work-items"></a>모델 요소 및 작업 항목 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -95,7 +92,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
   
 2.  모델링 다이어그램 또는 **UML 모델 탐색기**에서 모델 요소에 대한 바로 가기 메뉴를 엽니다.  
   
-3.  **작업 항목 만들기** 와 만들려는 작업 항목의 종류를 선택합니다.  
+3.   **작업 항목 만들기** 와 만들려는 작업 항목의 종류를 선택합니다.  
   
 4.  작업 항목의 필드를 입력합니다. **작업 항목 저장**을 선택합니다.  
   
@@ -179,6 +176,3 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
 ## <a name="see-also"></a>참고 항목  
  [UML 모델 및 다이어그램 편집](../modeling/edit-uml-models-and-diagrams.md)   
  [앱용 모델 만들기](../modeling/create-models-for-your-app.md)
-
-
-

@@ -61,7 +61,7 @@ ms.locfileid: "58972076"
 
 -   에 대 한 private 생성자를 대상으로 하는 형식 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전 1.0 및 1.1입니다.
 
--   합니다 `static` (`Shared` Visual basic에서) 한정자를 대상으로 하는 형식 [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)]합니다.
+-   합니다 `static` (`Shared` Visual Basic에서) 한정자를 대상으로 하는 형식 [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)]합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  이 규칙에서 경고를 표시 하지 않아도 안전 합니다. 다음과 같은 상황에서이 경고를 표시 하는 것이 좋습니다.

@@ -1,13 +1,8 @@
 ---
 title: 자동 및 지역 Windows | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: ''
+ms.technology: vs-ide-debug
 ms.topic: conceptual
 f1_keywords:
 - vs.debug.autos
@@ -25,18 +20,18 @@ ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
 caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
-manager: ghogen
-ms.openlocfilehash: 51e62df0fb98a9c7b04b09b3e58fb52828e1bd5a
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: 612ed741e373b27c3564c185cc3e9bacffcb7739
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51782481"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58982520"
 ---
 # <a name="autos-and-locals-windows"></a>자동 및 지역 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-**자동** 창(디버깅하는 동안 **Ctrl+Alt+V, A**또는 **디버그/Windows/자동**) 및 **지역** 창(디버깅하는 동안 **Ctrl+Alt+V, L**또는 **디버그/Windows/지역**)은 디버깅하는 동안 변수 값을 확인하려는 경우에 매우 유용합니다. **지역** 창에는 로컬 범위에 정의되는 변수가 표시되며, 일반적으로 현재 실행되고 있는 함수 또는 메서드입니다. **자동** 창에는 현재 줄(디버거가 중지되어 있는 위치)에 사용된 변수가 표시됩니다. 정확히 표시되는 변수는 언어에 따라 달라집니다. 자동 창에 변수가 표시를 참조 하세요. 아래.  
+ **자동** 창(디버깅하는 동안 **Ctrl+Alt+V, A**또는 **디버그/Windows/자동**) 및 **지역** 창(디버깅하는 동안 **Ctrl+Alt+V, L**또는 **디버그/Windows/지역**)은 디버깅하는 동안 변수 값을 확인하려는 경우에 매우 유용합니다. **지역** 창에는 로컬 범위에 정의되는 변수가 표시되며, 일반적으로 현재 실행되고 있는 함수 또는 메서드입니다. **자동** 창에는 현재 줄(디버거가 중지되어 있는 위치)에 사용된 변수가 표시됩니다. 정확히 표시되는 변수는 언어에 따라 달라집니다. 자동 창에 변수가 표시를 참조 하세요. 아래.  
   
  기본 디버깅에 대한 자세한 내용은 [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md)을 참조하세요.  
   
@@ -46,7 +41,7 @@ ms.locfileid: "51782481"
  ![Locals&#45;FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")  
   
 ## <a name="what-variables-appear-in-the-autos-window"></a>자동 창에 나타나는 변수  
- **자동** 창은 C#, Visual Basic 및 C++ 코드에서 사용할 수 있습니다. **자동** 창은 JavaScript 또는 F#을 지원하지 않습니다.  
+ **자동** 창은 C#, Visual Basic 및 C++ 코드에서 사용할 수 있습니다.  **자동** 창은 JavaScript 또는 F#을 지원하지 않습니다.  
   
  C# 및 Visual Basic의 **자동** 창에는 현재 줄이나 이전 줄에 사용된 모든 변수가 표시됩니다. 예를 들어 다음은 네 개의 변수를 선언하고 설정하는 경우입니다.  
   
@@ -153,8 +148,3 @@ private static int subtractVars(int i, int j)
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 창](../debugger/debugger-windows.md)
-
-
-
-
-

@@ -41,7 +41,7 @@ Visual Studio에서 메모리 부족 상태를 감지 하면 자동으로 안정
 
 ## <a name="full-solution-analysis-suspended"></a>일시 중단 하는 전체 솔루션 분석
 
-기본적으로 전체 솔루션 분석 Visual basic의 경우 사용 하도록 설정 되어 Visual C#을 사용할 수 없습니다. 그러나 메모리 부족 상태에서 전체 솔루션 분석 자동으로 비활성화 됩니다 Visual Basic 및 Visual C#, 옵션 대화 상자에서 해당 설정에 관계 없이 합니다. 선택 하 여 전체 솔루션 분석 다시 활성화할 수 있지만 합니다 **다시 사용 하도록 설정** 표시 되 면을 선택 하 여 표시줄 정보 단추를 **전체 솔루션 분석 사용** 옵션 대화 상자에서 확인란 Visual Studio를 다시 시작 합니다. 옵션 대화 상자는 항상 현재 전체 솔루션 분석 설정을 표시합니다. 자세한 내용은 [방법: 전체 솔루션 분석 활성화 및 비활성화](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)합니다.
+기본적으로 전체 솔루션 분석 Visual Basic의 경우 사용 하도록 설정 되어 Visual C#을 사용할 수 없습니다. 그러나 메모리 부족 상태에서 전체 솔루션 분석 자동으로 비활성화 됩니다 Visual Basic 및 Visual C#, 옵션 대화 상자에서 해당 설정에 관계 없이 합니다. 선택 하 여 전체 솔루션 분석 다시 활성화할 수 있지만 합니다 **다시 사용 하도록 설정** 표시 되 면을 선택 하 여 표시줄 정보 단추를 **전체 솔루션 분석 사용** 옵션 대화 상자에서 확인란 Visual Studio를 다시 시작 합니다. 옵션 대화 상자는 항상 현재 전체 솔루션 분석 설정을 표시합니다. 자세한 내용은 [방법: 전체 솔루션 분석 활성화 및 비활성화](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)합니다.
 
 ## <a name="gc-low-latency-disabled"></a>GC 지연율이 낮은 사용 하지 않도록 설정
 

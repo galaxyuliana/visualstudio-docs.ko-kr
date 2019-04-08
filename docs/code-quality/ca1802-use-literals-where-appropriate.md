@@ -35,7 +35,7 @@ ms.locfileid: "57872968"
 
 ## <a name="cause"></a>원인
 
-필드가 선언 되었습니다 `static` 하 고 `readonly` (`Shared` 및 `ReadOnly` Visual basic에서), 컴파일 시간에 계산할 수 있는 값으로 초기화 됩니다.
+필드가 선언 되었습니다 `static` 하 고 `readonly` (`Shared` 및 `ReadOnly` Visual Basic에서), 컴파일 시간에 계산할 수 있는 값으로 초기화 됩니다.
 
 기본적으로이 규칙만 살펴봅니다 외부적으로 표시 되는 필드, 이것이 [구성할 수 있는](#configurability)합니다.
 

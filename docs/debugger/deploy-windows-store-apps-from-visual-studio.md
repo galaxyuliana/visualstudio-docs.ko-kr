@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 13dc1f44e329f35ad9871fe5969a65d4ad46e770
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: 63726f9f38cdede6c8a0525b74244baac9455aad
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55043767"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790383"
 ---
 # <a name="deploy-uwp-apps-from-visual-studio"></a>Visual Studio에서 UWP 앱 배포
 
@@ -28,7 +28,7 @@ Visual Studio 배포 기능을 작성 하 고 대상 장치에서 Visual Studio�
 
 - 대상이 원격 디바이스인 경우 Visual Studio에서는 원격 컴퓨터로 필수 파일을 복사한 다음 해당 디바이스에서 앱을 등록합니다.
 
-사용 하 여 Visual Studio에서 앱을 디버그할 때 배포는 자동 합니다 **디버깅 시작** 옵션 (키보드: F5) 또는 **디버깅 하지 않고 시작** 옵션 (키보드: CTRL + F5). 또한 앱을 수동으로 배포할 수도 있습니다. 수동 배포는 다음 시나리오에서 유용합니다.
+**디버깅 시작** 옵션(키보드: F5) 또는 **디버깅 없이 시작** 옵션(키보드: CTRL+F5)을 사용하면 Visual Studio에서 앱을 디버그할 때 자동 배포가 수행됩니다. 또한 앱을 수동으로 배포할 수도 있습니다. 수동 배포는 다음 시나리오에서 유용합니다.
 
 - 로컬 또는 원격 컴퓨터에서 애드혹 테스트
 
@@ -76,7 +76,7 @@ Windows 10 원격 장치에서 활성화 해야 합니다 [개발자 모드](/wi
 
     합니다 **원격 연결** 대화 상자에서 로컬 네트워크 서브넷의 모든 장치와 이더넷 케이블을 통해 Visual Studio 컴퓨터에 직접 연결 되어 장치가 표시 됩니다.
 
-   **JavaScript 또는 Visual C++ 프로젝트 페이지에서 원격 디바이스 지정**
+   **Visual c + + 프로젝트 페이지에서 원격 장치 지정**
 
    ![C&#43; &#43; 프로젝트 속성 원격 디버깅용](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN_CPP_ProjProp_Remote")
 
@@ -104,15 +104,15 @@ Windows 10 원격 장치에서 활성화 해야 합니다 [개발자 모드](/wi
 
 - 에 C# 및 Visual Basic 디버그 속성 페이지의 선택을 취소 합니다 **네트워크 루프백 허용** 확인란 합니다.
 
-- JavaScript 및 디버그 속성 페이지에서 **네트워크 루프백 허용** 값을 **아니요**로 설정합니다.
+- C + + 디버그 속성 페이지를 설정 합니다 **네트워크 루프백 허용** 값을 **No**합니다.
 
-**시작 하지 않음 시작 시 코드를 디버그 (C# 및 Visual Basic) / 응용 프로그램 시작 (JavaScript 및 c + +)**
+**시작 하지 않음 시작 시 코드를 디버그 (C# 및 Visual Basic) / 시작 응용 프로그램 (c + +)**
 
 앱 시작 시 디버깅 세션을 자동으로 시작하도록 배포를 구성하려면
 
 - 에 C# 및 Visual Basic 디버그 속성 페이지를 확인 합니다 **시작 하지 않음 시작 시 코드를 디버그** 확인란 합니다.
 
-- JavaScript 및 디버그 속성 페이지에서 **애플리케이션 시작** 값을 **예**로 설정합니다.
+- C + + 디버그 속성 페이지를 설정 합니다 **응용 프로그램 시작** 값을 **예**합니다.
 
 ## <a name="see-also"></a>참고 항목
 

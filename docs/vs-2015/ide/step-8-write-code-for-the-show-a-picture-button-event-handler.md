@@ -11,7 +11,7 @@ ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 301147bffb67aed337a416fd0be19c5b407ca085
 ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "54771152"
@@ -33,7 +33,7 @@ ms.locfileid: "54771152"
   
 1.  Windows Forms 디자이너로 이동하여 **사진 표시** 단추를 두 번 클릭합니다. IDE는 즉시 코드 디자이너로 이동하여 사용자가 이전에 추가한 `showButton_Click()` 메서드 내부로 커서를 이동합니다.  
   
-2.  두 중괄호 { } 사이의 빈 줄에 `i`를 입력합니다. (Visual basic의 경우 Private Sub 사이의 빈 줄에 입력 합니다.... 와 End Sub입니다.) 다음 그림과 같이 **IntelliSense** 창이 열립니다.  
+2.  두 중괄호 { } 사이의 빈 줄에 `i`를 입력합니다. (Visual Basic의 경우 Private Sub 사이의 빈 줄에 입력 합니다.... 와 End Sub입니다.) 다음 그림과 같이 **IntelliSense** 창이 열립니다.  
   
      ![Visual C&#35; 코드가 사용된 IntelliSense](../ide/media/express-ifintellisense.png "Express_IfIntellisense")  
 Visual C# 코드가 사용된 IntelliSense  
