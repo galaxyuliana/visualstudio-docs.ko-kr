@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 48dbd24ba98ad3f1b4f24a68c9775b1022ea08f6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1681484500c382b296a03e78661b808825768a5b
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970311"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789149"
 ---
 # <a name="manage-application-resources-net"></a>애플리케이션 리소스 관리(.NET)
 
@@ -38,7 +38,7 @@ ms.locfileid: "55970311"
 관리 코드 프로젝트에서 프로젝트 속성 창을 엽니다. 다음 방법 중 하나로 속성 창을 열 수 있습니다.
 
 - **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성** 선택
-- **빠른 실행** 창에 "프로젝트 속성" 입력
+- **Ctrl**+**Q** 검색 상자에 **프로젝트 속성** 입력
 - **솔루션 탐색기**에서 **Alt**+**Enter** 키 선택
 
 **리소스** 탭을 선택합니다. 프로젝트에 *.resx* 파일이 포함되지 않은 경우 하나를 추가하고, 다른 종류의 리소스를 추가 및 삭제하고, 기존 리소스를 수정할 수 있습니다.

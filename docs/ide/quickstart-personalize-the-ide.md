@@ -7,16 +7,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 504b33ee897ac59b7fe55625a67a01b8dca8ff32
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 96234797efde518741182d93420914168e59ab2a
+ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869333"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58646701"
 ---
-# <a name="quickstart-personalize-the-visual-studio-ide-and-editor"></a>빠른 시작: Visual Studio IDE 및 편집기 개인 설정
+# <a name="personalize-the-visual-studio-ide-and-editor"></a>Visual Studio IDE 및 편집기 개인 설정
 
-이 5~10분이 걸리는 빠른 시작에서는 어두운 테마를 선택하여 Visual Studio 색 테마를 사용자 지정합니다. 또한 텍스트 편집기에서 두 가지 형식의 텍스트에 대한 색을 사용자 지정합니다.
+5~10분이 걸리는 이 자습서에서는 어두운 테마를 선택하여 Visual Studio 색 테마를 사용자 지정하겠습니다. 또한 텍스트 편집기에서 두 가지 형식의 텍스트에 대한 색을 사용자 지정합니다.
 
 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
 
@@ -28,9 +28,19 @@ Visual Studio의 기본 색 테마는 **파랑**이라고 합니다. **어두운
 
 1. **환경** > **일반** 옵션 페이지에서 **색 테마** 선택을 **어두운**으로 변경한 다음, **확인**을 선택합니다.
 
-   전체 Visual Studio 개발 환경(IDE)에 대한 색 테마가 **어두운**으로 변경됩니다.
+   전체 Visual Studio 개발 환경(IDE)에 대한 색 테마가 **어둡게**로 변경됩니다.
 
-   ![어두운 테마의 VS](media/quickstart-personalize-dark-theme.png)
+   ::: moniker range="vs-2017"
+
+   ![어두운 테마의 Visual Studio 2017](media/quickstart-personalize-dark-theme.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
+
+   ![어두운 테마의 Visual Studio 2019](media/vs-2019/dark-theme.png)
+
+   ::: moniker-end
 
 > [!TIP]
 > [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor)에서 **Visual Studio 색 테마 편집기**를 설치하여 미리 정의된 추가 테마를 설치할 수 있습니다. 이 도구를 설치하면 **색 테마** 드롭다운 목록에 추가 색 테마가 나타납니다.

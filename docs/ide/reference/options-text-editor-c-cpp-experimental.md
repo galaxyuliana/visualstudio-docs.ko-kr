@@ -11,12 +11,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 94f8b26536a657698dfcb0c0fa3de3876e1452b1
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 088359aeabc45966aed927693ecbab75751eca2a
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58325216"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789993"
 ---
 # <a name="options-text-editor-cc-experimental"></a>옵션, 텍스트 편집기, C/C++, 실험적
 
@@ -28,7 +28,7 @@ ms.locfileid: "58325216"
 
 ::: moniker-end
 
-이 속성 페이지에 액세스하려면 **제어** + **Q**를 눌러 `Quick Launch`를 활성화한 다음, "실험적"을 입력합니다. 빠른 실행에서 처음 몇 글자 다음의 페이지를 찾습니다. **도구** > **옵션**을 선택하고 **텍스트 편집기**, **C/C++** 를 차례로 확장한 다음, **실험적**을 선택하여 액세스할 수도 있습니다.
+이 속성 페이지에 액세스하려면 **Ctrl**+**Q**를 눌러 검색 상자를 활성화한 다음, **실험적**을 입력합니다. 검색에서 처음 몇 글자 후에 페이지를 찾습니다. **도구** > **옵션**을 선택하고 **텍스트 편집기**, **C/C++** 를 차례로 확장한 다음, **실험적**을 선택하여 액세스할 수도 있습니다.
 
 이러한 기능은 Visual Studio 설치에서 사용할 수 있습니다.
 

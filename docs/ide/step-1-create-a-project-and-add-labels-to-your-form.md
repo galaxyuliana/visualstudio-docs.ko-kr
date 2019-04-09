@@ -2,18 +2,20 @@
 title: '1단계: 프로젝트 만들기 및 양식에 레이블 추가'
 ms.date: 11/04/2016
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c1878d8a57ce8eddc599e14b5961179c7cdc48e3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d077cd549b5bef703229b2c43f4ce36d9735d512
+ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55917755"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58647403"
 ---
 # <a name="step-1-create-a-project-and-add-labels-to-your-form"></a>1단계: 프로젝트 만들기 및 양식에 레이블 추가
 
@@ -24,23 +26,39 @@ ms.locfileid: "55917755"
 
 ## <a name="to-create-a-project-and-set-properties-for-a-form"></a>프로젝트를 만들고 폼의 속성을 설정하려면
 
+::: moniker range="vs-2017"
+
 1.  메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
-2.  **설치된 템플릿** 목록에서 **C#** 또는 **Visual Basic**을 선택합니다.
+1.  **설치된 템플릿** 목록에서 **C#** 또는 **Visual Basic**을 선택합니다.
 
-3.  템플릿 목록에서 **Windows Forms 애플리케이션** 템플릿을 선택하고 이름으로 **수학 퀴즈**를 지정한 다음 **확인** 단추를 선택합니다.
+1.  템플릿 목록에서 **Windows Forms 애플리케이션** 템플릿을 선택하고 이름을 **MathQuiz**로 지정한 다음, **확인** 단추를 선택합니다.
 
      선택한 프로그래밍 언어에 따라 *Form1.cs* 또는 *Form1.vb*라는 폼이 표시됩니다.
 
-4.  폼을 선택한 다음 **Text** 속성을 **수학 퀴즈**로 변경합니다.
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+1. 검색 상자에 “WPF”를 입력하고 **WPF 앱(.NET Framework)** 을 선택한 후 **다음**을 선택합니다.
+
+   **WPF 앱(.NET Framework)** 템플릿이 표시되지 않는 경우 Visual Studio 설치 관리자를 사용하여 **.NET 데스크톱 개발** 워크로드를 설치합니다.
+
+1. 프로젝트 이름을 **MathQuiz**로 지정하고 **만들기**를 선택합니다.
+
+::: moniker-end
+
+1.  폼을 선택한 다음 **Text** 속성을 **수학 퀴즈**로 변경합니다.
 
      **속성** 창에는 폼 속성이 포함되어 있습니다.
 
-5.  이 폼의 크기를 500*400픽셀로 변경합니다.
+1.  이 폼의 크기를 500*400픽셀로 변경합니다.
 
      IDE(통합 개발 환경)의 왼쪽 아래 모퉁이에 올바른 크기가 표시될 때까지 폼의 가장자리를 끌어서 크기를 조정할 수 있습니다. 또는 **Size** 속성의 값을 변경해도 됩니다.
 
-6.  **FormBorderStyle** 속성의 값을 **Fixed3D**로 변경하고 **MaximizeBox** 속성을 **False**로 설정합니다.
+1.  **FormBorderStyle** 속성의 값을 **Fixed3D**로 변경하고 **MaximizeBox** 속성을 **False**로 설정합니다.
 
      값을 이렇게 설정하면 퀴즈를 푸는 사람이 폼 크기를 변경할 수 없습니다.
 

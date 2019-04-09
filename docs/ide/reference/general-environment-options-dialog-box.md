@@ -1,6 +1,6 @@
 ---
 title: 옵션 대화 상자, 환경, 일반
-ms.date: 11/04/2016
+ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
 - VS.Message.0x800a002e
@@ -24,14 +24,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4faae6f061da675efdecdea5f8c4a0e606d486b8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 4fdbd8c64514854aa77c358145badbf6583996f1
+ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56710840"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58647273"
 ---
-# <a name="general-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 일반
+# <a name="options-dialog-box-environment--general"></a>옵션 대화 상자: 환경 \> 일반
 
 이 페이지에서는 IDE(통합 개발 환경)에 대한 다른 옵션 중에서도 색 테마, 상태 표시줄 설정 및 파일 확장명 연결을 변경할 수 있습니다. **도구** 메뉴를 열고 **옵션**을 선택한 다음 **환경** 폴더를 열고 **일반** 페이지를 선택하여 **옵션** 대화 상자에 액세스할 수 있습니다. 이 페이지가 목록에 나타나지 않으면 **옵션** 대화 상자에서 **모든 설정 표시** 확인란을 선택합니다.
 
@@ -39,13 +39,21 @@ ms.locfileid: "56710840"
 
 **색 테마**
 
-IDE에 대해 **파란** 색 테마, **밝은** 색 테마 또는 **어두운** 색 테마를 선택합니다.
+IDE의 **파랑**, **밝게**, **어둡게** 또는 **파랑(추가 대비)** 색 테마를 선택합니다.
 
-[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor)에서 **Visual Studio 색 테마 편집기**를 다운로드 및 설치하여 미리 정의된 추가 테마를 설치하고 사용자 지정 테마를 만들 수 있습니다. 이 도구를 설치하면 색 테마 목록 상자에 추가적인 색 테마가 나타납니다.
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor)에서 **Visual Studio 색 테마 편집기**를 다운로드 및 설치하여 미리 정의된 추가 테마를 설치하고 사용자 지정 테마를 만들 수 있습니다. 이 도구를 설치하면 **색 테마** 목록 상자에 다른 색 테마가 추가로 나타납니다.
 
-**메뉴 모음에 단어의 첫 글자를 대문자로 표시 적용**
+**메뉴 모음에 제목 대/소문자 스타일 적용**
 
-메뉴는 기본적으로 **단어의 첫 글자를 대문자로 표시**가 적용된 상태입니다. **모두 대문자로**로 설정하려면 이 옵션의 선택을 취소하세요.
+메뉴에서 기본적으로 제목 대/소문자 스타일을 사용합니다. 모두 대문자 스타일을 대신 사용하려면 이 옵션을 선택 취소합니다.
+
+::: moniker range=">=vs-2019"
+
+**픽셀 밀도가 다른 화면의 렌더링 최적화(다시 시작해야 함)**
+
+이 옵션은 모니터별 DPI(인치당 도트 수) 인식(또는 *PMA*)을 사용하거나 사용하지 않도록 설정합니다. PMA를 사용하도록 설정하면 여러 모니터를 포함하여 모든 모니터 디스플레이 배율 및 DPI 구성에서 Visual Studio 사용자 인터페이스가 선명하게 표시됩니다. PMA를 사용하려면 Windows 10 2018년 4월 업데이트 이상 및 .NET Framework 4.8 이상이 필요합니다. 이러한 두 필수 조건이 충족되지 않으면 이 옵션은 회색으로 표시됩니다.
+
+::: moniker-end
 
 **클라이언트 성능에 따른 시각적 효과 자동 조정**
 
@@ -61,13 +69,13 @@ Visual Studio에서 시각적 효과 조정을 자동으로 설정하는지 또�
 
 ## <a name="other"></a>기타
 
-**창 메뉴에 표시되는 항목**
+**창 메뉴에 표시할 항목**
 
-**창** 메뉴의 Windows 목록에 표시되는 창 수를 사용자 지정합니다. 1에서 24 사이의 숫자를 입력합니다. 기본적으로 개수는 10개입니다.
+**창** 메뉴의 Windows 목록에 표시되는 창 수를 사용자 지정합니다. 1과 24 사이의 숫자를 입력합니다. 기본값은 10입니다.
 
 **최근 사용한 목록에 표시되는 항목**
 
-**파일** 메뉴에 표시되는 가장 최근에 사용한 프로젝트 및 파일 수를 사용자 지정합니다. 1에서 24 사이의 숫자를 입력합니다. 기본적으로 개수는 10개입니다. 이 방법으로 최근에 사용한 프로젝트 및 파일을 쉽게 검색할 수 있습니다.
+**파일** 메뉴에 표시되는 가장 최근에 사용한 프로젝트 및 파일 수를 사용자 지정합니다. 1과 24 사이의 숫자를 입력합니다. 기본값은 10입니다. 이 방법으로 최근에 사용한 프로젝트 및 파일을 쉽게 검색할 수 있습니다.
 
 **상태 표시줄 표시**
 

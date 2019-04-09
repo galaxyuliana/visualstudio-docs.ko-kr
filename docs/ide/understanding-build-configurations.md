@@ -26,16 +26,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 15de24a35e410bec38e5b70813285440aaa05de4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3aa277cca1d4c655f2a2894ff9c8ffce83474016
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55914973"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789863"
 ---
 # <a name="understand-build-configurations"></a>빌드 구성 이해
 
-다양한 종류의 빌드에서 사용할 솔루션 및 프로젝트 속성에 대한 여러 구성을 저장할 수 있습니다. 구성을 만들거나, 선택하거나, 수정하거나, 삭제하려면 **구성 관리자**를 사용합니다. 구성 관리자를 열려면 메뉴 모음에서 **빌드** > **구성 관리자**를 선택하거나 **빠른 실행** 상자에 **구성**을 입력합니다. **표준** 도구 모음에서 **솔루션 구성** 목록을 사용하여 구성을 선택하거나 **구성 관리자**를 열 수도 있습니다.
+다양한 종류의 빌드에서 사용할 솔루션 및 프로젝트 속성에 대한 여러 구성을 저장할 수 있습니다. 구성을 만들거나, 선택하거나, 수정하거나, 삭제하려면 **구성 관리자**를 사용합니다. 구성 관리자를 열려면 메뉴 모음에서 **빌드** > **구성 관리자**를 선택하거나 검색 상자에 **구성**을 입력합니다. **표준** 도구 모음에서 **솔루션 구성** 목록을 사용하여 구성을 선택하거나 **구성 관리자**를 열 수도 있습니다.
 
 > [!NOTE]
 > 이 토픽은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [Mac용 Visual Studio에서 구성 빌드](/visualstudio/mac/configurations)를 참조하세요.

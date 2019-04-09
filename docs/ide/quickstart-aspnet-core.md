@@ -14,12 +14,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 247906426dcf57463a36ea85ce781b39aae2ffba
-ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
+ms.openlocfilehash: 2c9bbe0b6a1f7722fb2da685b29f5d244441edc2
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58475853"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856720"
 ---
 # <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-app"></a>빠른 시작: Visual Studio를 사용하여 첫 번째 ASP.NET Core 웹앱 만들기
 
@@ -37,7 +37,7 @@ ms.locfileid: "58475853"
 
 ::: moniker range="vs-2019"
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다.
 
 ::: moniker-end
 
@@ -83,11 +83,13 @@ ms.locfileid: "58475853"
 
 ::: moniker range="vs-2019"
 
+1. Visual Studio를 엽니다.
+
 1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
 
    !['새 프로젝트 만들기' 창 보기](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. **새 프로젝트 만들기** 창에서 검색 상자에 *ASP.NET*을 입력합니다. 그런 다음, 언어 목록에서 **C#** 을 선택한 다음, 플랫폼 목록에서 **Windows**를 선택합니다. 
+1. **새 프로젝트 만들기** 창에서 검색 상자에 *ASP.NET*을 입력합니다. 그런 다음, 언어 목록에서 **C#** 을 선택한 다음, 플랫폼 목록에서 **Windows**를 선택합니다.
 
    언어 및 플랫폼 필터를 적용한 후 **ASP.NET Core 웹 애플리케이션** 템플릿을 선택한 후, **다음**을 선택합니다.
 
@@ -96,8 +98,8 @@ ms.locfileid: "58475853"
    > [!NOTE]
    > **ASP.NET Core 웹 애플리케이션** 템플릿이 표시되지 않으면 **새 프로젝트를 만들기** 창에서 설치할 수 있습니다. **원하는 항목을 찾을 수 없나요?** 메시지에서 **추가 도구 및 기능 설치** 링크를 선택합니다.
    >
-   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
-   > 
+   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
    > 그런 다음, Visual Studio 설치 관리자에서 **ASP.NET 및 웹 개발** 워크로드를 선택합니다.
    >
    > ![Visual Studio 설치 관리자의 ASP.NET Core 웹 애플리케이션 워크로드](../get-started/media/aspnet-core-web-dev-workload.png)

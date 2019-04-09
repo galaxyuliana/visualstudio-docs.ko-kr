@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 41acd93dc89d84fa3fa96bc1228c57271f1fc21d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 17cda43c2fab2944e5027f5292b405f8a9e2e084
+ms.sourcegitcommit: 40393347a36779230d128f2355a911632a8d458e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957470"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58866694"
 ---
 # <a name="manage-assembly-and-manifest-signing"></a>어셈블리 및 매니페스트 서명 관리
 
@@ -31,7 +31,7 @@ Visual Basic 및 C# 프로젝트의 어셈블리 서명에 대한 자세한 내�
 Visual C++ 프로젝트의 어셈블리 서명에 대한 자세한 내용은 [강력한 이름 어셈블리(C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)를 참조하세요.
 
 > [!NOTE]
-> 강력한 이름 서명은 어셈블리의 리버스 엔지니어링으로부터 보호하지 않습니다. 리버스 엔지니어링으로부터 보호하려면 [Dotfuscator CE(Community Edition)](dotfuscator/index.md)를 참조하세요.
+> 강력한 이름 서명은 어셈블리의 리버스 엔지니어링으로부터 보호하지 않습니다. 리버스 엔지니어링으로부터 보호하려면 [Dotfuscator Community](dotfuscator/index.md)를 참조하세요.
 
 ## <a name="asset-types-and-signing"></a>자산 형식 및 서명
 
@@ -57,7 +57,7 @@ Visual C++ 프로젝트의 어셈블리 서명에 대한 자세한 내용은 [�
 
 ## <a name="how-to-sign-an-assembly-in-visual-studio"></a>Visual Studio에서 어셈블리에 서명하는 방법
 
-프로젝트 속성 창의 **서명** 탭을 사용하여 애플리케이션 또는 구성 요소에 서명합니다(**솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택하거나, **빠른 실행** 창에 **프로젝트 속성**을 입력하거나, **솔루션 탐색기** 내에서 **Alt**+**Enter** 키를 누름). **서명** 탭을 선택하고 나서 **어셈블리 서명** 확인란을 선택합니다.
+프로젝트 속성 창의 **서명** 탭을 사용하여 애플리케이션 또는 구성 요소에 서명합니다(**솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성** 선택). **서명** 탭을 선택하고 나서 **어셈블리 서명** 확인란을 선택합니다.
 
 키 파일을 지정합니다. 새 키 파일을 만들도록 선택하면 새 키 파일은 항상 *.pfx* 형식으로 만들어집니다. 새 파일의 이름 및 암호가 필요합니다.
 

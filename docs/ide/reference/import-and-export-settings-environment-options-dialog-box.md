@@ -1,6 +1,6 @@
 ---
 title: 옵션 대화 상자, 환경, 설정 가져오기 및 내보내기
-ms.date: 11/04/2016
+ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Profiles
@@ -10,16 +10,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6f8cd7766bf51190a0b925c66d49ffc04a23cff1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 312038f14da876fae91b8d65e47235adeb1d14ce
+ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55921044"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58647195"
 ---
-# <a name="import-and-export-settings-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 설정 가져오기 및 내보내기
+# <a name="options-dialog-box-environment--import-and-export-settings"></a>옵션 대화 상자: 환경 \> 설정 가져오기 및 내보내기
 
-이 페이지를 사용하면 사용자 설정 파일이 저장되는 위치 및 팀 설정 파일 사용 여부를 지정할 수 있습니다. 설정에 대한 자세한 내용은 [Visual Studio IDE 개인 설정](../../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+이 페이지를 사용하면 사용자 설정 파일이 저장되는 위치를 지정할 수 있습니다. 설정에 대한 자세한 내용은 [Visual Studio IDE 개인 설정](../../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ### <a name="see-also"></a>참고 항목
 

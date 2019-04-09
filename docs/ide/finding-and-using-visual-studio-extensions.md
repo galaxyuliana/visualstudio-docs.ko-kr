@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a46b4187b4f4fb2c0523a7dcf3ac5c5fa391afe5
-ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
+ms.openlocfilehash: 3e282cdfda27579fd83871153a19897652d55865
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58268539"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790760"
 ---
 # <a name="find-and-use-visual-studio-extensions"></a>Visual Studio 확장 찾기 및 사용
 
@@ -33,7 +33,7 @@ Visual Studio 확장은 Visual Studio 내에서 실행되고 새로운 기능 �
 
 ::: moniker range=">=vs-2019"
 
-**확장 관리** 대화 상자를 사용하여 Visual Studio 확장을 설치하고 관리합니다. **확장 관리** 대화 상자를 열려면 **확장** > **확장 관리**를 선택합니다. 또는 **빠른 실행** 검색 상자에 **확장**을 입력하고 **확장 관리**를 선택합니다.
+**확장 관리** 대화 상자를 사용하여 Visual Studio 확장을 설치하고 관리합니다. **확장 관리** 대화 상자를 열려면 **확장** > **확장 관리**를 선택합니다. 또는 검색 상자에 **확장명**을 입력하고 **확장명 관리**를 선택합니다.
 
 ::: moniker-end
 

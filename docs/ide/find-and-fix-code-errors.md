@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b0f1f55f0e0ae9882154ed62ccbf323441070472
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: d130208d022db07fe21b0c9879aa0964dffce3f2
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223613"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790526"
 ---
 # <a name="make-code-work-in-visual-studio"></a>Visual Studio에서 코드를 작동하게 하기
 
@@ -44,7 +44,7 @@ Visual Studio UI 아래쪽의 **출력** 창에서 빌드 프로세스를 관찰
 
 ![Visual Studio 출력 및 오류 목록](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
 
-**오류 목록** 창에서 오류 코드 줄을 클릭하여 오류가 발생한 줄로 이동합니다. 또는 오른쪽 위에서 **빠른 실행** 표시줄을 클릭하고 “줄 번호”를 입력한 다음, **Enter** 키를 눌러 줄 번호를 설정합니다. 이는 줄 번호를 설정할 수 있는 **옵션** 대화 상자에 액세스하는 가장 빠른 방법입니다. **빠른 실행** 표시줄을 사용하여 UI 클릭 수를 상당히 줄이는 방법을 알아봅니다.
+**오류 목록** 창에서 오류 코드 줄을 클릭하여 오류가 발생한 줄로 이동합니다. (또는 **Ctrl**+**Q**를 누르고 **줄 번호**를 입력한 다음, 결과에서 **줄 번호 설정/해제**를 선택하여 줄 번호를 켭니다. 줄 번호를 켤 수 있는 **옵션** 대화 상자에 액세스하는 가장 빠른 방법입니다.)
 
 ![줄 번호가 있는 Visual Studio 편집기](../ide/media/vs_ide_gs_debug_line_numbers.png)
 
