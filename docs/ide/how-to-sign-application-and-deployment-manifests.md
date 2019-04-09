@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 33afb83fdf680ef2eb1dd51e7b0e4dca8b77c3cb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 00534f5ff415ba836d8c2d581e599669941fda6f
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55916885"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790851"
 ---
 # <a name="how-to-sign-application-and-deployment-manifests"></a>방법: 애플리케이션 및 배포 매니페스트 서명
 
@@ -35,11 +35,11 @@ ClickOnce 배포를 사용하여 애플리케이션을 게시하려면 애플리
  키 파일을 만드는 방법은 [방법: 공개/개인 키 쌍 만들기](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair)를 참조하세요.
 
 > [!NOTE]
-> [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서는 *.pfx* 확장명을 가진 PFX(개인 정보 교환) 키 파일만 지원합니다. 그러나 프로젝트 속성의 **서명** 페이지에서 **저장소에서 선택**을 클릭하여 현재 사용자의 Windows 인증서 저장소에서 다른 형식의 인증서를 선택할 수 있습니다.
+> Visual Studio에서는 확장명이 *.pfx*인 PFX(개인 정보 교환) 키 파일만 지원합니다. 그러나 프로젝트 속성의 **서명** 페이지에서 **저장소에서 선택**을 클릭하여 현재 사용자의 Windows 인증서 저장소에서 다른 형식의 인증서를 선택할 수 있습니다.
 
-## <a name="to-sign-application-and-deployment-manifests-using-a-certificate"></a>인증서를 사용하여 애플리케이션 및 배포 매니페스트에 서명하려면
+## <a name="sign-using-a-certificate"></a>인증서를 사용하여 서명
 
-1.  프로젝트 속성 창으로 이동합니다.(**솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고, **속성**을 선택하거나, **빠른 실행** 창에 **프로젝트 속성**을 입력하거나, **솔루션 탐색기** 내에서 **Alt**+**Enter** 키를 누릅니다.) **서명** 탭에서 **ClickOnce 매니페스트 서명** 확인란을 선택합니다.
+1.  프로젝트 속성 창으로 이동합니다(**솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성** 선택). **서명** 탭에서 **ClickOnce 매니페스트 서명** 확인란을 선택합니다.
 
 2.  **저장소에서 선택** 단추를 클릭합니다.
 
@@ -52,7 +52,7 @@ ClickOnce 배포를 사용하여 애플리케이션을 게시하려면 애플리
 
 4.  또한 **타임스탬프 서버 URL** 입력란에 타임스탬프 서버의 주소를 지정할 수 있습니다. 이 서버는 매니페스트가 서명되었을 때 지정한 타임스탬프를 제공합니다.
 
-## <a name="to-sign-application-and-deployment-manifests-using-an-existing-key-file"></a>기존 키 파일을 사용하여 애플리케이션 및 배포 매니페스트에 서명하려면
+## <a name="sign-using-an-existing-key-file"></a>기존 키 파일을 사용하여 서명
 
 1.  **서명** 페이지에서 **ClickOnce 매니페스트 서명** 확인란을 선택합니다.
 
@@ -69,7 +69,7 @@ ClickOnce 배포를 사용하여 애플리케이션을 게시하려면 애플리
 
 4.  암호를 입력하여 키 파일에 액세스하고 **Enter** 키를 누릅니다.
 
-## <a name="to-sign-application-and-deployment-manifests-using-a-test-certificate"></a>테스트 인증서를 사용하여 애플리케이션 및 배포 매니페스트에 서명하려면
+## <a name="sign-using-a-test-certificate"></a>테스트 인증서를 사용하여 서명
 
 1.  **서명** 페이지에서 **ClickOnce 매니페스트 서명** 확인란을 선택합니다.
 

@@ -2,18 +2,20 @@
 title: '1단계: 프로젝트 만들기 및 양식에 테이블 추가'
 ms.date: 11/04/2016
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 08c5178323c2ee5e92164ca1fd71c5fe88d51d6f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 0f1c651c27fac6036aa2abcbd3e86b5f46cc9f02
+ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940661"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58647494"
 ---
 # <a name="step-1-create-a-project-and-add-a-table-to-your-form"></a>1단계: 프로젝트 만들기 및 양식에 테이블 추가
 
@@ -21,7 +23,23 @@ ms.locfileid: "55940661"
 
 ## <a name="to-create-a-project-and-add-a-table-to-your-form"></a>프로젝트를 만들고 폼에 테이블을 추가하려면
 
+::: moniker range="vs-2017"
+
 1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
+
+1. 검색 상자에 “WPF”를 입력하고 **WPF 앱(.NET Framework)** 을 선택한 후 **다음**을 선택합니다.
+
+   **WPF 앱(.NET Framework)** 템플릿이 표시되지 않는 경우 Visual Studio 설치 관리자를 사용하여 **.NET 데스크톱 개발** 워크로드를 설치합니다.
+
+1. 프로젝트 이름을 **MatchingGame**으로 지정하고 **만들기**를 선택합니다.
+
+::: moniker-end
 
 2. Visual Studio Express를 사용하고 있지 않으면 먼저 프로그래밍 언어를 선택해야 합니다. **설치된 템플릿** 목록에서 **Visual C#** 또는 **Visual Basic**을 선택합니다.
 

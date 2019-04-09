@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8cb1b18488eaf9ddf3308e74d583fd1b92fc2563
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: e7c78ac8b3f6d25d601ae11bdcbb1aed4214cb8c
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58354733"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790903"
 ---
 # <a name="quickstart-first-look-at-the-visual-studio-ide"></a>빠른 시작: 먼저 Visual Studio IDE 살펴보기
 
@@ -125,15 +125,15 @@ Visual Studio의 위쪽에 있는 메뉴 모음은 명령을 범주로 그룹화
 
 ![Visual Studio의 출력 창](media/build-output-minimal.png)
 
-## <a name="quick-launch"></a>빠른 실행
+## <a name="search-box"></a>검색 상자
 
-**빠른 실행** 검색 상자를 사용하면 Visual Studio의 거의 모든 항목으로 빠르고 쉽게 이동할 수 있습니다. 수행하려는 작업과 관련된 일부 텍스트를 입력하면 해당 텍스트와 관련된 옵션 목록이 표시됩니다. 예를 들어 빌드가 정확하게 수행하는 작업에 대한 추가 세부 정보를 표시하기 위해 빌드 출력의 세부 정보 표시를 증가시킨다고 가정해 보겠습니다. 수행할 수 있는 방법은 다음과 같습니다.
+검색 상자를 사용하면 Visual Studio의 거의 모든 항목으로 빠르고 쉽게 이동할 수 있습니다. 수행하려는 작업과 관련된 일부 텍스트를 입력하면 해당 텍스트와 관련된 옵션 목록이 표시됩니다. 예를 들어 빌드가 정확하게 수행하는 작업에 대한 추가 세부 정보를 표시하기 위해 빌드 출력의 세부 정보 표시를 증가시킨다고 가정해 보겠습니다. 수행할 수 있는 방법은 다음과 같습니다.
 
 ::: moniker range="vs-2017"
 
 1. IDE의 오른쪽 위에 있는 **빠른 실행** 검색 상자를 찾습니다. (또는 **Ctrl**+**Q**를 눌러 액세스하세요.)
 
-2. **빠른 실행** 검색 상자에 **자세한 정도**를 입력합니다. 표시된 결과에서 **옵션** 범주에 있는 **프로젝트 및 솔루션 -> 빌드 및 실행**을 선택합니다.
+2. 검색 상자에 **자세한 정도**를 입력합니다. 표시된 결과에서 **옵션** 범주에 있는 **프로젝트 및 솔루션 -> 빌드 및 실행**을 선택합니다.
 
    ![Visual Studio 2017의 빠른 실행 검색 상자](media/quickstart-IDE-quick-launch.png)
 
@@ -143,11 +143,11 @@ Visual Studio의 위쪽에 있는 메뉴 모음은 명령을 범주로 그룹화
 
 ::: moniker range=">=vs-2019"
 
-1. IDE 위쪽의 메뉴 오른쪽에 있는 **빠른 실행** 검색 상자를 찾습니다. (또는 **Ctrl**+**Q**를 눌러 액세스하세요.)
+1. **Ctrl**+**Q**를 눌러 IDE의 위쪽 부분에 있는 검색 상자를 활성화합니다.
 
-2. **빠른 실행** 검색 상자에 **자세한 정도**를 입력합니다. 표시된 결과에서 **MSBuild의 자세한 정도 변경**을 선택합니다.
+2. 검색 상자에 **자세한 정도**를 입력합니다. 표시된 결과에서 **MSBuild의 자세한 정도 변경**을 선택합니다.
 
-   ![Visual Studio 2019의 빠른 실행 검색 상자](media/vs-2019/quick-launch-verbosity.png)
+   ![Visual Studio 2019의 검색 상자](media/vs-2019/quick-launch-verbosity.png)
 
    **옵션** 대화 상자가 열려 **빌드 및 실행** 옵션 페이지가 표시됩니다.
 
@@ -163,7 +163,7 @@ Visual Studio의 위쪽에 있는 메뉴 모음은 명령을 범주로 그룹화
 
 ## <a name="send-feedback-menu"></a>사용자 의견 보내기 메뉴
 
-Visual Studio를 사용하는 동안 문제가 발생하거나 제품을 개선하는 방법에 대한 제안이 있는 경우 Visual Studio 창의 위쪽에서 **빠른 실행** 상자 옆에 있는 **사용자 의견 보내기** 메뉴를 사용할 수 있습니다.
+Visual Studio를 사용하는 동안 문제가 발생하거나 제품을 개선하는 방법에 대한 제안이 있는 경우 Visual Studio 창의 위쪽에 있는 **사용자 의견 보내기** 메뉴를 사용할 수 있습니다.
 
 ::: moniker range="vs-2017"
 

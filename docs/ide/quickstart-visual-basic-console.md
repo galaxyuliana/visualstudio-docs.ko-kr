@@ -2,6 +2,7 @@
 title: Visual Basic을 사용하여 첫 번째 콘솔 앱 만들기
 description: Visual Studio에서 Visual Basic을 사용하여 간단한 Hello World 콘솔 앱을 만드는 방법을 단계별로 알아봅니다.
 ms.custom: seodec18
+ms.date: 03/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: quickstart
@@ -13,12 +14,12 @@ dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: 00fd1f346bb644ea1b17f429b91fba854bf9eeb4
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: d0ccaf648d4109679b7d1343df462ae4e8da3822
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415839"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856245"
 ---
 # <a name="quickstart-create-your-first-console-app-in-visual-studio-with-visual-basic"></a>빠른 시작: Visual Studio에서 Visual Basic을 사용하여 첫 번째 콘솔 앱 만들기
 
@@ -32,7 +33,7 @@ Visual Studio IDE(통합 개발 환경)에 대한 소개는 이 5~10분 분량�
 
 ::: moniker range="vs-2019"
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다.
 
 ::: moniker-end
 
@@ -90,7 +91,7 @@ Visual Studio IDE(통합 개발 환경)에 대한 소개는 이 5~10분 분량�
 
 1. **새 프로젝트 구성** 창에서 **프로젝트 이름** 상자에 *WhatIsYourName*을 입력합니다. 그런 다음, **만들기**를 선택합니다.
 
-   !['새 프로젝트 구성' 창에서 프로젝트의 이름을 'WhatIsYourName'으로 지정합니다.](../get-started/visual-basic/media/vs-2019/vb-name-your-project.-whatname.png)
+   !['새 프로젝트 구성' 창에서 프로젝트의 이름을 'WhatIsYourName'으로 지정합니다.](../get-started/visual-basic/media/vs-2019/vb-name-your-project-whatname.png)
 
    Visual Studio에서 새 프로젝트를 엽니다.
 
@@ -140,4 +141,4 @@ IDE에서 **HelloWorld** 단추를 클릭하면 디버그 모드에서 프로그
 이 빠른 시작을 완료한 것을 축하 드립니다! Visual Basic 및 Visual Studio IDE를 이해하는 데 도움이 되었기를 바랍니다. 자세히 알아보려면 계속 다음 자습서를 사용하세요.
 
 > [!div class="nextstepaction"]
-> [Visual Studio에서 Visual Basic 시작하기](../get-started/visual-basic/tutorial-console.md)
+> [Visual Studio에서 Visual Basic 시작](../get-started/visual-basic/tutorial-console.md)

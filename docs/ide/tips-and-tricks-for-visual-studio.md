@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cff50cf9b9f95b9ed7af48d20c0510cfad7fda79
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: c96842dde4219bcdab3d7ccfd1616f8b44e733bf
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223366"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790370"
 ---
 # <a name="keyboard-shortcuts-for-visual-studio"></a>Visual Studio의 바로 가기 키
 
@@ -50,9 +50,9 @@ ms.locfileid: "57223366"
 |||
 |-|-|
 |솔루션 탐색기 검색|**Ctrl**+**;**|
-|모든 도구 창의 검색 상자에 포커스 배치|도구 창에 포커스가 있을 경우 **Alt**+**`**|
-|빠른 실행|**Ctrl**+**Q**|
-|빠른 실행 범위 결과|-   @opt 옵션<br />-   @cmd 명령<br />-   @mru 가장 최근에 사용됨<br />-   @doc 문서 열기|
+|모든 도구 창에서 검색 상자에 포커스 배치|도구 창에 포커스가 있을 경우 **Alt**+**`**|
+|검색 상자|**Ctrl**+**Q**|
+|검색 상자 범위 결과|-   @opt 옵션<br />-   @cmd 명령<br />-   @mru 가장 최근에 사용됨<br />-   @doc 문서 열기|
 |도구 옵션에서 검색|**Ctrl**+**E**|
 
 ## <a name="editor-find"></a>편집기 찾기

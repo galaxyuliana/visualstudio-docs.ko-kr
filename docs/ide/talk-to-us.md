@@ -1,6 +1,6 @@
 ---
 title: 의견 보내기
-ms.date: 10/09/2018
+ms.date: 03/30/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - product support [Visual Studio]
@@ -11,12 +11,14 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8265a134ab870144aa41330dbbc21bb4412ff1ca
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.openlocfilehash: 038b094949a66fef0bb07fc605e069a441913ff5
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953524"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58857140"
 ---
 # <a name="visual-studio-product-feedback"></a>Visual Studio 제품 피드백
 
@@ -24,11 +26,11 @@ ms.locfileid: "56953524"
 
 ## <a name="i-want-to-report-a-problem-with-visual-studio"></a>Visual Studio의 문제를 보고하려는 경우
 
-Visual Studio에서 크래시, 느린 성능 또는 예기치 않은 동작과 같은 문제가 발생하는 경우에는 **문제 보고** 도구를 사용하여 문제를 알려주세요. Visual Studio에서 **빠른 실행** 옆에 있는 피드백 아이콘을 선택하거나, 메뉴 모음에서 **도움말** > **의견 보내기** > **문제 보고**를 선택합니다. 그러면 브라우저에서 [개발자 커뮤니티](https://developercommunity.visualstudio.com) 페이지가 열리며, 여기서 로그인하여 문제를 보고할 수 있습니다. 자세한 내용은 [Visual Studio의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md)을 참조하세요.
+Visual Studio에서 크래시, 느린 성능 또는 예기치 않은 동작과 같은 문제가 발생하는 경우에는 **문제 보고** 도구를 사용하여 문제를 알려주세요. Visual Studio에서 검색 상자 옆에 있는 피드백 아이콘을 선택하거나, 메뉴 모음에서 **도움말** > **사용자 의견 보내기** > **문제 보고**를 선택합니다. 그러면 브라우저에서 [개발자 커뮤니티](https://developercommunity.visualstudio.com) 페이지가 열리며, 여기서 로그인하여 문제를 보고할 수 있습니다. 자세한 내용은 [Visual Studio의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md)을 참조하세요.
 
 ## <a name="i-want-to-make-a-suggestion-about-visual-studio-features"></a>Visual Studio 기능에 대한 제안 보내기
 
-더 개선할 사항이 있으면 알려주세요. Visual Studio의 메뉴 모음에서 **도움말** > **피드백 보내기** > **제안하기**를 선택합니다. 그러면 브라우저에서 [개발자 커뮤니티](https://developercommunity.visualstudio.com) 페이지가 열리며, 여기서 로그인하여 아이디어를 공유할 수 있습니다. 자세한 내용은 [Visual Studio 2017에 대한 기능 제안](suggest-a-feature.md)을 참조하세요.
+더 개선할 사항이 있으면 알려주세요. Visual Studio의 메뉴 모음에서 **도움말** > **피드백 보내기** > **제안하기**를 선택합니다. 그러면 브라우저에서 [개발자 커뮤니티](https://developercommunity.visualstudio.com) 페이지가 열리며, 여기서 로그인하여 아이디어를 공유할 수 있습니다. 자세한 내용은 [Visual Studio에 대한 기능 제안](suggest-a-feature.md)을 참조하세요.
 
 ### <a name="rate-this-product"></a>이 제품 평가
 
@@ -36,7 +38,7 @@ Visual Studio 시험판 버전에는 제품의 릴리스 버전에는 없는 **�
 
 ## <a name="i-want-to-contact-microsoft-support"></a>Microsoft 지원에 문의하려는 경우
 
-Visual Studio 지원 정보는 [지원 수명 주기 및 서비스](/visualstudio/productinfo/vs-servicing-vs) 페이지를 참조하세요.
+Visual Studio 지원 정보는 [제품 수명 주기 및 서비스](/visualstudio/productinfo/vs-servicing-vs) 페이지를 참조하세요.
 
 다른 Microsoft 제품 및 서비스에 대한 온라인 도움말을 보려면 [Microsoft 지원](https://go.microsoft.com/fwlink/?LinkID=99019)을 참조하세요.
 
@@ -55,10 +57,10 @@ Microsoft 지원 서비스는 현재 가격, 약관 및 조건에 따라 다를 
 
 ## <a name="i-want-to-help-improve-the-visual-studio-documentation"></a>Visual Studio 설명서를 개선하려는 경우
 
-페이지 아래쪽의 **이 페이지가 도움이 되었나요?** 피드백 단추를 사용하세요. 이 단추는 모든 설명서 페이지에 있습니다. 또는 페이지 아래쪽에 있는 **설명서 피드백을 제공하려면 로그인하세요.** 단추를 사용하여 [docs.microsoft.com](https://docs.microsoft.com/visualstudio/)의 Visual Studio 페이지에 피드백을 추가할 수 있습니다.
+페이지 아래쪽의 **이 페이지가 도움이 되었나요?** 피드백 단추를 사용하세요. 이 단추는 모든 설명서 페이지에 있습니다. 또는 GitHub 계정을 사용하여 [docs.microsoft.com](https://docs.microsoft.com/visualstudio/)의 모든 Visual Studio 페이지에 피드백을 추가할 수 있습니다. 역시 페이지 맨 아래에 있는 **설명서 피드백을 제공하려면 로그인하세요.** 단추를 선택합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio의 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md)
+* [Visual Studio에서 문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md)
 * [개발자 커뮤니티](https://developercommunity.visualstudio.com)
 * [개발자 커뮤니티 데이터 개인 정보](developer-community-privacy.md)

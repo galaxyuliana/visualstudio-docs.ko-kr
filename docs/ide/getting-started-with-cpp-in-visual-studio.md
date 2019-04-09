@@ -11,12 +11,12 @@ dev_langs:
 - CPP
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 485516a92f2b669aa24d6da69653621e07a6c9cd
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 375879e6a6aba93b702c65412328458a9a5568ab
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58325096"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790344"
 ---
 # <a name="get-started-with-c-in-visual-studio"></a>Visual Studio에서 C++ 시작
 
@@ -54,7 +54,7 @@ Visual Studio를 열면 IDE의 세 가지 기본 부분인 도구 창, 메뉴 �
 
 Visual Studio를 열면 시작 창이 먼저 나타납니다. **코드를 사용하지 않고 계속**을 선택하여 개발 환경을 엽니다.
 
-IDE의 세 가지 기본 부분인 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. 도구 창은 앱 창의 왼쪽과 오른쪽에 고정됩니다. **빠른 실행** 상자, 메뉴 모음 및 표준 도구 모음은 맨 위에 표시됩니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 애플리케이션 창의 중앙 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
+IDE의 세 가지 기본 부분인 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. 도구 창은 앱 창의 왼쪽과 오른쪽에 고정됩니다. 검색 상자, 메뉴 모음 및 표준 도구 모음은 맨 위에 표시됩니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 애플리케이션 창의 중앙 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
 
 ::: moniker-end
 

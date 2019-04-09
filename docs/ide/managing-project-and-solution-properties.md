@@ -7,16 +7,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cb32a3b71a6868e763b9ad77c49f5cb06a4039fc
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9279257f238adf92ad560d2f2e1aa7f769905305
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928038"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789707"
 ---
 # <a name="manage-project-and-solution-properties"></a>프로젝트 및 솔루션 속성 관리
 
-프로젝트에는 컴파일, 디버깅, 테스트 및 배포의 다양한 측면을 제어하는 속성이 있습니다. 일부 속성은 모든 프로젝트 형식 간에 공통적으로 적용되고 일부 속성은 특정 언어 또는 플랫폼에 고유합니다. **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택하거나 메뉴 모음의 **빠른 실행** 검색 상자에 "속성"을 입력하여 프로젝트 속성에 액세스합니다.
+프로젝트에는 컴파일, 디버깅, 테스트 및 배포의 다양한 측면을 제어하는 속성이 있습니다. 일부 속성은 모든 프로젝트 형식 간에 공통적으로 적용되고 일부 속성은 특정 언어 또는 플랫폼에 고유합니다. **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택하거나 메뉴 모음의 검색 상자에 **속성**을 입력하고 결과에서 **속성 창**을 선택하여 프로젝트 속성에 액세스합니다.
 
 ![프로젝트 상황에 맞는 메뉴](../ide/media/vs2015_proj_prop_menu.gif)
 
@@ -33,7 +33,7 @@ ms.locfileid: "55928038"
 
 ### <a name="c-visual-basic-and-f-projects"></a>C#, Visual Basic 및 F# 프로젝트
 
-C#, Visual Basic 및 F# 프로젝트에서는 속성이 **프로젝트 디자이너**에 노출됩니다. 다음 그림에서는 C# WPF 프로젝트에 대한 **빌드** 속성 페이지를 보여 줍니다.
+C#, Visual Basic 및 F# 프로젝트에서는 속성이 **프로젝트 디자이너**에 공개됩니다. 다음 그림에서는 C# WPF 프로젝트에 대한 **빌드** 속성 페이지를 보여 줍니다.
 
 ![Visual Studio 프로젝트 디자이너](../ide/media/vs2015_proppage_build.png)
 
