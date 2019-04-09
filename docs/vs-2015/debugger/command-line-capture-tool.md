@@ -137,7 +137,7 @@ DXCap.exe –file regression_test_12.vsglog –c BasicHLSL11.exe
 DXCap.exe –c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"  
 ```  
   
- 위 예제의 명령은 WebGL API를 사용하여 3D 콘텐츠를 렌더링하는 www.fishgl.com 의 웹 페이지를 보는 동안 데스크톱 버전 Internet Explorer에서 그래픽 정보를 캡처합니다.  
+ 위 예제의 명령은 WebGL API를 사용하여 3D 콘텐츠를 렌더링하는 [www.fishgl.com](www.fishgl.com) 의 웹 페이지를 보는 동안 데스크톱 버전 Internet Explorer에서 그래픽 정보를 캡처합니다.  
   
 > [!NOTE]
 >  앱 다음에 표시되는 명령줄 인수는 앱에 전달되므로 `–c` 옵션을 사용하기 전에 DXCap.exe용 인수를 지정해야 합니다.  
