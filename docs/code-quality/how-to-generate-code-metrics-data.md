@@ -11,20 +11,66 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eb65f2a1de54cd21ff212443c004dc011d5b3222
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 4275e92b21289c5cf1e3243b2bc782a9e0821fde
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223730"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232751"
 ---
 # <a name="how-to-generate-code-metrics-data"></a>방법: 코드 메트릭 데이터 생성
 
-하나 이상의 프로젝트 또는 전체 솔루션에 대해 코드 메트릭 결과 생성할 수 있습니다. 코드 메트릭 및 사용할 수 있는 Visual Studio 대화형 개발 환경 (IDE) 내에 C# 및 Visual Basic 프로젝트의 경우 명령줄에서.
+세 가지 방법으로 코드 메트릭 데이터를 생성할 수 있습니다.
 
-또한 설치할 수 있습니다는 [NuGet 패키지](https://dotnet.myget.org/feed/roslyn-analyzers/package/nuget/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.2-beta2-63202-01) 포함 하는 네 가지 코드 메트릭 [분석기](roslyn-analyzers-overview.md) 규칙: CA1501, CA1502, CA1505, 및 CA1506 합니다. 이러한 규칙은 기본적으로 비활성화 되어 있지만 설정할 수 있습니다 **솔루션 탐색기** 또는 [규칙 집합](using-rule-sets-to-group-code-analysis-rules.md) 파일입니다.
+- 설치 하 여 [FxCop 분석기](#fxcop-analyzers-code-metrics-rules) 고 포함 된 4 개의 코드 (유지 관리) 메트릭 규칙을 사용 하도록 설정 합니다.
 
-## <a name="visual-studio-ide-code-metrics"></a>Visual Studio IDE 코드 메트릭
+- 선택 하 여 합니다 [ **분석** > **코드 메트릭 계산** ](#calculate-code-metrics-menu-command) Visual Studio 내에서 메뉴 명령입니다.
+
+- [명령줄](#command-line-code-metrics) 에 대 한 C# 및 Visual Basic 프로젝트입니다.
+
+## <a name="fxcop-analyzers-code-metrics-rules"></a>FxCop 분석기 코드 메트릭 규칙
+
+합니다 [FxCopAnalyzers NuGet 패키지](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) 코드는 몇 가지 메트릭을 포함 [분석기](roslyn-analyzers-overview.md) 규칙:
+
+- [CA1501](ca1501-avoid-excessive-inheritance.md)
+- [CA1502](ca1502-avoid-excessive-complexity.md)
+- [CA1505](ca1505-avoid-unmaintainable-code.md)
+- [CA1506](ca1506-avoid-excessive-class-coupling.md)
+
+이러한 규칙은 기본적으로 비활성화 되어 있지만 설정할 수 있습니다 [ **솔루션 탐색기** ](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) 또는 [규칙 집합](using-rule-sets-to-group-code-analysis-rules.md) 파일입니다. 예를 들어.ruleset 파일 경고로 CA1502 규칙을 사용 하려면 다음 항목이 포함 됩니다.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Rules" Description="Rules" ToolsVersion="16.0">
+  <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
+    <Rule Id="CA1502" Action="Warning" />
+  </Rules>
+</RuleSet>
+```
+
+### <a name="configuration"></a>구성
+
+코드 메트릭을 규칙 FxCop 분석기에서 패키지 실행 임계값을 구성할 수 있습니다.
+
+1. 텍스트 파일을 만듭니다. 예를 들어 이름을 지정할 수 있습니다 *CodeMetricsConfig.txt*합니다.
+
+2. 다음 형식으로 텍스트 파일에 원하는 임계값을 추가 합니다.
+
+   ```txt
+   CA1502: 10
+   ```
+
+   이 예제에서는 규칙 [CA1502](ca1502-avoid-excessive-complexity.md) 메서드의 순환 복잡성이 10 보다 큰 경우에 발생 하도록 구성 됩니다.
+
+3. 에 **속성** 프로젝트 파일 또는 Visual Studio의 창 표시 된 구성 파일의 빌드 동작 [ **AdditionalFiles**](../ide/build-actions.md#build-action-values)합니다. 예를 들어:
+
+   ```xml
+   <ItemGroup>
+     <AdditionalFiles Include="CodeMetricsConfig.txt" />
+   </ItemGroup>
+   ```
+
+## <a name="calculate-code-metrics-menu-command"></a>메뉴 명령 코드 메트릭 계산
 
 사용 하 여 IDE에서 열린 프로젝트 중 하나 또는 모두에 대해 코드 메트릭을 생성 합니다 **분석** > **코드 메트릭 계산** 메뉴.
 
@@ -54,7 +100,8 @@ ms.locfileid: "57223730"
 > 합니다 **코드 메트릭 계산** 명령은.NET Core 및.NET Standard 프로젝트에 대 한 작동 하지 않습니다. .NET Core 또는.NET Standard 프로젝트에 대해 코드 메트릭을 계산 하려면 다음을 수행할 수 있습니다.
 >
 > - 코드 메트릭을 계산 합니다 [명령줄](#command-line-code-metrics) 대신
-> - Visual Studio 2019로 업그레이드
+>
+> - 로 업그레이드 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
 
 ::: moniker-end
 
@@ -64,7 +111,7 @@ ms.locfileid: "57223730"
 
 ### <a name="microsoftcodeanalysismetrics-nuget-package"></a>Microsoft.CodeAnalysis.Metrics NuGet 패키지
 
-설치 하는 가장 쉬운 방법은 명령줄에서 코드 메트릭 데이터를 생성 하는 것은 [Microsoft.CodeAnalysis.Metrics](https://www.nuget.org/packages/Microsoft.CodeAnalysis.Metrics/) NuGet 패키지. 패키지를 설치한 후 실행 `msbuild /t:Metrics` 프로젝트 파일이 포함 된 디렉터리에서. 예를 들면,
+설치 하는 가장 쉬운 방법은 명령줄에서 코드 메트릭 데이터를 생성 하는 것은 [Microsoft.CodeAnalysis.Metrics](https://www.nuget.org/packages/Microsoft.CodeAnalysis.Metrics/) NuGet 패키지. 패키지를 설치한 후 실행 `msbuild /t:Metrics` 프로젝트 파일이 포함 된 디렉터리에서. 예를 들어:
 
 ```shell
 C:\source\repos\ClassLibrary3\ClassLibrary3>msbuild /t:Metrics
@@ -184,7 +231,7 @@ NuGet 패키지를 설치 하지 않으려는 경우 생성 하 고 사용 하 �
 
 #### <a name="metricsexe-usage"></a>Metrics.exe 사용
 
-실행할 *Metrics.exe*인수로 솔루션 및 XML 출력 파일, 프로젝트를 제공 합니다. 예를 들면,
+실행할 *Metrics.exe*인수로 솔루션 및 XML 출력 파일, 프로젝트를 제공 합니다. 예를 들어:
 
 ```shell
 C:\>Metrics.exe /project:ConsoleApp20.csproj /out:report.xml

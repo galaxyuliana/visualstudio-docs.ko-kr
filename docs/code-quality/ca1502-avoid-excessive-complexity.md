@@ -18,12 +18,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: aa10945e87022546240d05304f59478b33bb5596
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e968cef6491e1c24d98e5f64248b5104db8c5b65
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55916767"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232318"
 ---
 # <a name="ca1502-avoid-excessive-complexity"></a>CA1502: 지나치게 복잡하게 만들지 마세요.
 
@@ -44,11 +44,11 @@ ms.locfileid: "55916767"
 
 순환 복잡성 = 노드의 수 + 1-에 지 수
 
-논리 분기 지점을 나타내고는 지 노드는 노드 사이 선을 나타냅니다.
+A *노드* 논리 분기 지점을 나타내는 *edge* 노드 사이 선을 나타냅니다.
 
 순환 복잡성 25 개가 넘는 경우 규칙 위반을 보고 합니다.
 
-코드 메트릭에 대 한 자세히 알아볼 수 있습니다 [측정 복잡성과 관리 되는 코드 관리 용이성](../code-quality/code-metrics-values.md),
+코드 메트릭에 대 한 자세히 알아볼 수 있습니다 [관리 되는 코드의 복잡성을 측정](../code-quality/code-metrics-values.md)합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
@@ -102,7 +102,7 @@ ms.locfileid: "55916767"
 
 ## <a name="related-rules"></a>관련된 규칙
 
-[CA1501: 과도 한 상속을 방지](../code-quality/ca1501-avoid-excessive-inheritance.md)
+[CA1501: 상속성을 너무 많이 사용하지 마세요.](../code-quality/ca1501-avoid-excessive-inheritance.md)
 
 ## <a name="see-also"></a>참고자료
 
