@@ -8,14 +8,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a31058893e09de2c945cc253374a55c53f277110
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: dcef749068dfb1f13e5b08160a70dda168b771ee
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620007"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232855"
 ---
-# <a name="how-to-include-prerequisites-with-a-clickonce-application"></a>방법: ClickOnce 애플리케이션을 사용하여 필수 구성 요소 포함
+# <a name="how-to-include-prerequisites-with-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 필수 구성 요소 포함
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램에 필요한 구성 요소 소프트웨어를 배포하기 전에 먼저 이러한 필수 구성 요소용 설치 관리자 패키지를 개발 컴퓨터로 다운로드해야 합니다. 애플리케이션을 게시하고 **내 애플리케이션과 동일한 위치에서 필수 구성 요소 다운로드**를 선택할 경우, 설치 관리자 패키지가 **패키지** 폴더에 있지 않으면 오류가 발생합니다.
 
 > [!NOTE]
@@ -25,7 +25,7 @@ ms.locfileid: "56620007"
 
 1. 파일 탐색기에서 **패키지** 폴더를 엽니다.
 
-    기본적으로, 경로는 32비트 시스템의 경우 *C:\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages*이고 64비트 시스템의 경우 *C:\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages*입니다.
+    기본적으로 경로 `%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper\Packages\`합니다.
 
 2. 추가하려는 필수 구성 요소에 대한 폴더를 연 다음, 설치된 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 버전의 언어 폴더를 엽니다(예: 영어는 **en**).
 
@@ -49,5 +49,5 @@ ms.locfileid: "56620007"
 
     이제 응용 프로그램으로 설치 관리자 패키지를 배포할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [방법: ClickOnce 응용 프로그램을 사용 하 여 필수 조건 설치](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

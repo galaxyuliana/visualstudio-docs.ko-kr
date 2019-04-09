@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 05/23/2018
 ms.author: mikejo
 ms.custom: include file
-ms.openlocfilehash: 9e6071d7bc8bbc73356a02d968f6f643aba5c854
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
-ms.translationtype: MTE95
+ms.openlocfilehash: 600f34377e5901148149bb6e94c2277b37a435af
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58214523"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59291687"
 ---
 원격 장치 또는 서버에 디버그 하려는 하지 않고 Visual Studio 컴퓨터에서 다운로드 한 후 다음 표에 있는 링크에서 올바른 버전의 원격 도구를 설치 합니다.
 
@@ -22,10 +22,10 @@ ms.locfileid: "58214523"
 
 ::: moniker range=">=vs-2019"
 
-|버전|링크|참고 사항|
+|버전|링크|노트|
 |-|-|-|
 |Visual Studio 2019 RC|[원격 도구](https://visualstudio.microsoft.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2019)|모든 Visual Studio 2019 버전과 호환 됩니다. (X 86, x64 또는 ARM64) 장치 운영 체제와 일치 하는 버전을 다운로드 합니다. Windows Server에서 참조 하세요 [파일 다운로드를 차단 해제](../../debugger/remote-debugging-unblock-file-download.md) 도움말 원격 도구를 다운로드 합니다.|
-|Visual Studio 2017(최신 버전)|[원격 도구](https://visualstudio.microsoft.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2017)|모든 Visual Studio 2017 버전 호환 됩니다. (X 86, x64 또는 ARM64) 장치 운영 체제와 일치 하는 버전을 다운로드 합니다. Windows Server에서 참조 하세요 [파일 다운로드를 차단 해제](../../debugger/remote-debugging-unblock-file-download.md) 도움말 원격 도구를 다운로드 합니다.|
+|Visual Studio 2017(최신 버전)|[원격 도구](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017)|모든 Visual Studio 2017 버전 호환 됩니다. (X 86, x64 또는 ARM64) 장치 운영 체제와 일치 하는 버전을 다운로드 합니다. Windows Server에서 참조 하세요 [파일 다운로드를 차단 해제](../../debugger/remote-debugging-unblock-file-download.md) 도움말 원격 도구를 다운로드 합니다.|
 |Visual Studio 2015|[원격 도구](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|Visual Studio 2015 용 원격 도구 My.VisualStudio.com에서 사용할 수 있습니다. 메시지가 표시 되 면 무료 가입 [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) 프로그램 또는 Visual Studio 구독 ID로 로그인 합니다. Windows Server에서 참조 하세요 [파일 다운로드를 차단 해제](../../debugger/remote-debugging-unblock-file-download.md) 도움말 원격 도구를 다운로드 합니다.|
 |Visual Studio 2013|[원격 도구](/previous-versions/visualstudio/visual-studio-2013/bt727f1t(v=vs.120)#installing-the-remote-tools)|Visual Studio 2013 설명서에서 페이지를 다운로드 합니다.|
 |Visual Studio 2012|[원격 도구](/previous-versions/visualstudio/visual-studio-2012/bt727f1t(v=vs.110)#installing-the-remote-tools)|Visual Studio 2012 설명서에서 페이지를 다운로드 합니다.|
@@ -34,9 +34,9 @@ ms.locfileid: "58214523"
 
 ::: moniker range="vs-2017"
 
-|버전|링크|참고 사항|
+|버전|링크|노트|
 |-|-|-|
-|Visual Studio 2017(최신 버전)|[원격 도구](https://visualstudio.microsoft.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2017)|모든 Visual Studio 2017 버전 호환 됩니다. (X 86, x64 또는 ARM64) 장치 운영 체제와 일치 하는 버전을 다운로드 합니다. Windows Server에서 참조 하세요 [파일 다운로드를 차단 해제](../../debugger/remote-debugging-unblock-file-download.md) 도움말 원격 도구를 다운로드 합니다.|
+|Visual Studio 2017(최신 버전)|[원격 도구](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017)|모든 Visual Studio 2017 버전 호환 됩니다. (X 86, x64 또는 ARM64) 장치 운영 체제와 일치 하는 버전을 다운로드 합니다. Windows Server에서 참조 하세요 [파일 다운로드를 차단 해제](../../debugger/remote-debugging-unblock-file-download.md) 도움말 원격 도구를 다운로드 합니다.|
 |Visual Studio 2015|[원격 도구](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|Visual Studio 2015 용 원격 도구 My.VisualStudio.com에서 사용할 수 있습니다. 메시지가 표시 되 면 무료 가입 [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) 프로그램 또는 Visual Studio 구독 ID로 로그인 합니다. Windows Server에서 참조 하세요 [파일 다운로드를 차단 해제](../../debugger/remote-debugging-unblock-file-download.md) 도움말 원격 도구를 다운로드 합니다.|
 |Visual Studio 2013|[원격 도구](/previous-versions/visualstudio/visual-studio-2013/bt727f1t(v=vs.120)#installing-the-remote-tools)|Visual Studio 2013 설명서에서 페이지를 다운로드 합니다.|
 |Visual Studio 2012|[원격 도구](/previous-versions/visualstudio/visual-studio-2012/bt727f1t(v=vs.110)#installing-the-remote-tools)|Visual Studio 2012 설명서에서 페이지를 다운로드 합니다.|

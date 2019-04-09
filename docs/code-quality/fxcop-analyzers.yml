@@ -1,10 +1,4 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: 3ded7e5593f40f469ad93dd64e27c24be37b3ed4
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57868968"
 documentType: LandingData
 title: FxCop 코드 분석에서.NET 컴파일러 플랫폼 분석기로 마이그레이션
 metadata:
@@ -24,80 +18,80 @@ abstract:
       alt: 일반적인 관리 작업 로고
       height: 133
       width: 48
-      src: https://docs.microsoft.com/media/illustrations/bcs-partner-advanced-management-settings-8.svg
-    title: 
+      src: 'https://docs.microsoft.com/media/illustrations/bcs-partner-advanced-management-settings-8.svg'
+    title: null
 sections:
-- title: 질문과 대답
-  items:
-  - html: 에 대 한 답변을 받을 <a href="fxcop-analyzers-faq.md">질문과 대답</a> FxCop 분석기 사이의 차이점에 대 한 합니다.
-- title: 코드 분석을 처음 접하는 경우...
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 2
+  - title: 질문과 대답
     items:
-    - href: roslyn-analyzers-overview.md
-      html: <p>분석기는 무엇입니까에 대해 알아봅니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_learn-about.svg
-      title: 분석기 개요
-    - href: install-roslyn-analyzers.md
-      html: <p>NuGet 패키지 또는 Visual Studio 확장으로 분석기를 설치 하는 방법에 알아봅니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_setup.svg
-      title: 분석기를 설치 합니다.
-    - href: use-roslyn-analyzers.md
-      html: <p>분석기 사용에 대 한 위반을 억제 하는 방법을 알아봅니다 C# 또는 Visual Basic 코드입니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_config-tools.svg
-      title: 규칙 심각도 설정 하 고 오류 표시 안 함 및
-    - href: use-roslyn-analyzers.md#command-line-usage
-      html: <p>명령줄에서 분석기를 사용 하는 방법에 알아봅니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_cligeneric.svg
-      title: 명령줄 사용법
-- title: FxCop 사용자 인 경우...
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 2
+      - html: 에 대 한 답변을 받을 <a href="fxcop-analyzers-faq.md">질문과 대답</a> FxCop 분석기 사이의 차이점에 대 한 합니다.
+  - title: 코드 분석을 처음 접하는 경우...
     items:
-    - href: roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis
-      html: <p>정적 (FxCop) 및 분석기 패키지 코드 분석의 차이점에 알아봅니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_learn-about.svg
-      title: 어떻게 다릅니까?
-    - href: install-fxcop-analyzers.md
-      html: <p>FxCop 분석기 패키지를 설치 하는 방법에 알아봅니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_setup.svg
-      title: FxCop 분석기 설치
-    - href: use-roslyn-analyzers.md#command-line-usage
-      html: <p>일반적으로 명령줄에서 코드 분석을 실행 하는 경우 명령줄에서 분석기를 사용 하는 방법에 알아봅니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_cligeneric.svg
-      title: 명령줄 사용법
-    - href: analyzer-rule-sets.md
-      html: <p>분석기 패키지 규칙 집합에 알아봅니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_code-samples.svg
-      title: 규칙 집합
-- title: 관련 문서
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 2
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 2
+        items:
+          - href: roslyn-analyzers-overview.md
+            html: <p>분석기는 무엇입니까에 대해 알아봅니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_learn-about.svg'
+            title: 분석기 개요
+          - href: install-roslyn-analyzers.md
+            html: <p>NuGet 패키지 또는 Visual Studio 확장으로 분석기를 설치 하는 방법에 알아봅니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_setup.svg'
+            title: 분석기를 설치 합니다.
+          - href: use-roslyn-analyzers.md
+            html: '<p>분석기 사용에 대 한 위반을 억제 하는 방법을 알아봅니다 C# 또는 Visual Basic 코드입니다.</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_config-tools.svg'
+            title: 규칙 심각도 설정 하 고 오류 표시 안 함
+          - href: 'use-roslyn-analyzers.md#command-line-usage'
+            html: <p>명령줄에서 분석기를 사용 하는 방법에 알아봅니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_cligeneric.svg'
+            title: 명령줄 사용법
+  - title: FxCop 사용자 인 경우...
     items:
-    - href: code-analysis-for-c-cpp-overview.md
-      html: <p>네이티브 c + + 코드에서 코드 분석을 실행 하는 방법에 알아봅니다. 관리 되는 c + + 코드 분석을 사용 하는 사용 되지 않습니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_Cplusplus.svg
-      title: C++ 코드 분석
-    - href: code-metrics-values.md
-      html: <p>코드 메트릭을 가져오는 방법을 알아봅니다. 코드 메트릭에 대 한 사용자 환경을 그대로 유지 됩니다.</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_data-collection.svg
-      title: 코드 메트릭
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 2
+        items:
+          - href: 'roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis'
+            html: <p>정적 (FxCop) 및 분석기 패키지 코드 분석의 차이점에 알아봅니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_learn-about.svg'
+            title: 어떻게 다릅니까?
+          - href: install-fxcop-analyzers.md
+            html: <p>FxCop 분석기 패키지를 설치 하는 방법에 알아봅니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_setup.svg'
+            title: FxCop 분석기 설치
+          - href: 'use-roslyn-analyzers.md#command-line-usage'
+            html: <p>일반적으로 명령줄에서 코드 분석을 실행 하는 경우 명령줄에서 분석기를 사용 하는 방법에 알아봅니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_cligeneric.svg'
+            title: 명령줄 사용법
+          - href: analyzer-rule-sets.md
+            html: <p>분석기 패키지 규칙 집합에 알아봅니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_code-samples.svg'
+            title: 규칙 집합
+  - title: 관련 문서
+    items:
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 2
+        items:
+          - href: code-analysis-for-c-cpp-overview.md
+            html: <p>네이티브 코드 분석을 실행 하는 방법을 알아봅니다 C++ 코드입니다. 분석의 관리 되는 C++ 코드는 사용 되지 않습니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/logos/logo_Cplusplus.svg'
+            title: C++ 코드 분석
+          - href: code-metrics-values.md
+            html: <p>코드 메트릭을 가져오는 방법을 알아봅니다. 코드 메트릭에 대 한 사용자 환경을 그대로 유지 됩니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_data-collection.svg'
+            title: 코드 메트릭

@@ -20,20 +20,20 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e68e6c7258cb906ac81cb97f7d82bd5c5d9b467a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 91462511f5de22c51dd1d6fd07c192a72e69e541
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57873125"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232699"
 ---
-# <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic, c + +)
+# <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic의 경우 C++)
 
 IntelliTrace를 사용하여 코드의 실행 내역을 기록하고 추적하면 응용 프로그램 디버깅에 사용되는 시간을 줄일 수 있습니다. IntelliTrace를 사용하면 다음이 가능하므로 손쉽게 버그를 찾을 수 있습니다.
 
 - 특정 이벤트 기록
 
-   디버거 이벤트 중 **지역** 창에 표시되는 관련 코드와 데이터 및 함수 호출 정보 검사
+- 디버거 이벤트 중 **지역** 창에 표시되는 관련 코드와 데이터 및 함수 호출 정보 검사
 
 - 재현하기 어렵거나 배포에서 발생하는 오류 디버그
 
@@ -43,9 +43,9 @@ Visual Studio Enterprise Edition(Professional 또는 Community Edition 아님)�
 
 |||
 |-|-|
-|**IntelliTrace를 사용하여 애플리케이션 디버그:**<br /><br /> - 이전 이벤트를 보여 줍니다.<br />- 이전 이벤트의 호출 정보를 보여 줍니다.<br />- 내 IntelliTrace 세션을 저장합니다.<br />- IntelliTrace에서 수집하는 데이터를 제어합니다.|- [IntelliTrace를 사용 하 여 이전 앱 상태를 검사 합니다.](../debugger/view-historical-application-state.md)<br />- [연습: IntelliTrace 사용](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace 기능](../debugger/intellitrace-features.md)<br />- [기록 디버깅](../debugger/historical-debugging.md)|
-|**Test Manager에서 테스트 세션 동안 IntelliTrace 데이터 수집**|- [수동 테스트에서 추가 진단 데이터 수집](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
-|**배포된 애플리케이션에서 IntelliTrace 데이터 수집**|- [IntelliTrace 독립 실행형 수집기 사용](../debugger/using-the-intellitrace-stand-alone-collector.md)|
+|**IntelliTrace를 사용하여 응용 프로그램 디버그:**<br /><br /> - 이전 이벤트를 보여 줍니다.<br />- 이전 이벤트의 호출 정보를 보여 줍니다.<br />- 내 IntelliTrace 세션을 저장합니다.<br />- IntelliTrace에서 수집하는 데이터를 제어합니다.|- [IntelliTrace를 사용 하 여 이전 앱 상태를 검사 합니다.](../debugger/view-historical-application-state.md)<br />- [연습: IntelliTrace 사용](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace 기능](../debugger/intellitrace-features.md)<br />- [기록 디버깅](../debugger/historical-debugging.md)|
+|**테스트 관리자에서 테스트 세션 동안 IntelliTrace 데이터 수집**|- [수동 테스트에서 추가 진단 데이터 수집](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
+|**배포된 응용 프로그램에서 IntelliTrace 데이터 수집**|- [IntelliTrace 독립 실행형 수집기 사용](../debugger/using-the-intellitrace-stand-alone-collector.md)|
 |**IntelliTrace 로그 파일(.iTrace 파일)에서 디버깅 시작**|- [저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)|
 
 ## <a name="IntelliTraceSupport"></a> IntelliTrace를 사용하여 어떤 앱을 디버깅할 수 있나요?
@@ -53,8 +53,8 @@ Visual Studio Enterprise Edition(Professional 또는 Community Edition 아님)�
 | | |
 |---------------------| - |
 | **전체 지원** | - .NET Framework 2.0 이상 버전을 사용하는 Visual Basic 및 Visual C# 애플리케이션.<br/>ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013 및 64비트 앱을 포함한 대부분의 응용 프로그램을 디버깅할 수 있습니다.<br/>IntelliTrace 사용 하 여 SharePoint 응용 프로그램을 디버깅 하려면 참조 [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램을 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)합니다.<br/> IntelliTrace 사용 하 여 Microsoft Azure 앱 디버그를 참조 하세요 [IntelliTrace 및 Visual Studio를 사용 하 여 게시 된 클라우드 서비스 디버깅](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md)합니다. |
-| **제한적 지원** | -C + + 앱을 Windows 지원 IntelliTrace 뒤로 사용 하 여 스냅숏 보기를 대상으로 합니다. 디버거 및 예외 이벤트만 지원 됩니다.<br />-.NET core 및 ASP.NET Core 앱에 대 한 특정 이벤트만 (MVC 컨트롤러, ADO.NET 및 HTTPClient 이벤트)에서 지원 로컬 디버깅 합니다. 독립 실행형 수집기는.NET Core 또는 ASP.NET Core 앱에 대 한 지원 되지 않습니다.<br />- 시험 차원의 F# 앱<br />-UWP 앱만 이벤트에 대 한 지원 |
-| **지원되지 않음** | -다른 언어 및 스크립트<br />- Windows Services, Silverlight, Xbox 또는 [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] 앱 |
+| **제한적 지원** | - C++ Windows 8.1 용 앱 IntelliTrace 뒤로 사용 하 여 보기 스냅숏을 지원 합니다. 디버거 및 예외 이벤트만 지원 됩니다.<br />-.NET core 및 ASP.NET Core 앱에 대 한 특정 이벤트만 (MVC 컨트롤러, ADO.NET 및 HTTPClient 이벤트)에서 지원 로컬 디버깅 합니다. 독립 실행형 수집기는.NET Core 또는 ASP.NET Core 앱에 대 한 지원 되지 않습니다.<br />- 시험 차원의 F# 앱<br />-UWP 앱만 이벤트에 대 한 지원 |
+| **지원 안 함** | -다른 언어 및 스크립트<br />-Windows 서비스, Silverlight, Xbox 또는 Windows 모바일 앱 |
 
 > [!NOTE]
 > 이미 실행 중인 프로세스를 디버깅 하려는 경우에 IntelliTrace 이벤트에만 사용 (호출 정보 없음)를 수집할 수 있습니다. 로컬 컴퓨터 에서만 32 비트 또는 64 비트 프로세스에 연결할 수 있습니다. 프로세스에 연결 하기 전에 발생 하는 이벤트 수집 되지 않습니다.
@@ -75,7 +75,7 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 - Microsoft Monitoring Agent 단독으로 또는 System Center 2012와 함께 사용할 때 IIS에서 호스팅된 ASP.NET 웹 앱 또는 배포에서 실행 중인 SharePoint 2010 및 SharePoint 2013 응용 프로그램. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md) 하 고 [Microsoft Monitoring Agent를 사용 하 여 모니터링](http://technet.microsoft.com/library/dn465153.aspx)합니다.
 
-  다음은 IntelliTrace를 이용하여 디버깅하는 몇 가지 예입니다.
+다음은 IntelliTrace를 이용하여 디버깅하는 몇 가지 예입니다.
 
 - 응용 프로그램의 데이터 파일이 손상되었지만 이 이벤트가 어디에서 발생했는지 모릅니다.
 
@@ -127,9 +127,9 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 - **.NET Framework 이벤트**
 
-   기본적으로 IntelliTrace는 가장 일반적인 .NET Framework 이벤트를 기록합니다. 예를 들어 ror 확인란 확인 이벤트를 IntelliTrace는 확인란 상태와 텍스트를 수집합니다.
+   기본적으로 IntelliTrace는 가장 일반적인 .NET Framework 이벤트를 기록합니다. 예를 들어, 한 <xref:System.Windows.Forms.CheckBox.CheckedChanged?displayProperty=nameWithType> 확인란 상태와 텍스트 이벤트를 IntelliTrace 수집 합니다.
 
-- **SharePoint 2010 및 SharePoint 2013 애플리케이션 이벤트**
+- **SharePoint 2010 및 SharePoint 2013 응용 프로그램 이벤트**
 
      Visual Studio 외부에서 실행되는 SharePoint 2010 및 2013 응용 프로그램에 대해 사용자 프로필 이벤트 및 ULS(Unified Logging System) 이벤트의 하위 집합을 기록할 수 있습니다. 이러한 이벤트를 .iTrace 파일에 저장할 수 있습니다. Visual Studio Enterprise 2015 또는 이후 버전에서는 이전 버전의 Visual Studio Ultimate 필요 하거나 [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) 에서 실행 중인 **추적** 모드입니다.
 
@@ -139,9 +139,9 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
     - [IntelliTrace 독립 실행형 수집기 사용](../debugger/using-the-intellitrace-stand-alone-collector.md)
 
-    - [저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)
+    - [저장 된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)
 
-    - [연습: IntelliTrace를 사용하여 SharePoint 애플리케이션 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)
+    - [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)
 
 **스냅숏 캡처**
 
@@ -175,14 +175,6 @@ IntelliTrace가 호출 정보를 어느 정도 수집할지 제어하려면 관�
 기본적으로 IntelliTrace에서는 선택한 IntelliTrace 이벤트에 대해서만 데이터를 수집합니다. 코드의 구조와 구성에 따라 응용 프로그램이 느려지거나 느려지지 않을 수 있습니다. 예를 들어 IntelliTrace가 자주 이벤트를 기록한다면 이로 인해 응용 프로그램 속도가 느려질 수 있습니다. 또한 이에 따라 응용 프로그램 리팩터링을 고려해 볼 수도 있습니다.
 
 호출 정보를 수집하면 응용 프로그램 성능이 크게 느려질 수 있습니다. 또한 IntelliTrace 로그 파일(.iTrace 파일)을 디스크에 저장하는 경우 로그 파일의 크기도 커질 수 있습니다. 이러한 효과를 최소화하려면 관심 있는 모듈에 대한 호출 정보만 수집합니다.  .iTrace 파일의 최대 크기를 변경하려면 **도구**, **옵션**, **IntelliTrace**, **고급**으로 이동합니다.
-
-## <a name="in-this-section"></a>단원 내용
-
-[IntelliTrace 기능](../debugger/intellitrace-features.md)
-
-[배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)
-
-[저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)
 
 ### <a name="blogs"></a>블로그
 
