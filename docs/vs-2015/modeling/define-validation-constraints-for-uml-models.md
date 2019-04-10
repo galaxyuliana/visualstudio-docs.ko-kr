@@ -1,25 +1,22 @@
 ---
 title: UML 모델에 대 한 유효성 검사 제약 조건 정의 | Microsoft Docs
-ms.custom: ''
 ms.date: 11/15/2016
-ms.prod: visual-studio-tfs-dev14
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
 - UML model, validation constraints
 ms.assetid: 87b3b0da-122d-4121-9318-200c38ff49d0
 caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.openlocfilehash: 6647d37636ed0e79d817113e388ae5df23a88a29
-ms.sourcegitcommit: af428c7ccd007e668ec0dd8697c88fc5d8bca1e2
+manager: jillfra
+ms.openlocfilehash: f7144f435c61bcf6cab03b55482962e55b02407e
+ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51782416"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "58983209"
 ---
 # <a name="define-validation-constraints-for-uml-models"></a>UML 모델에 대한 유효성 검사 제약 조건 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +55,7 @@ ms.locfileid: "51782416"
     자세한 내용은 [유효성 검사 제약 조건 평가](#Implementing)를 참조하세요.  
   
    > [!IMPORTANT]
-   >  **.cs** 파일에 다음 `using` 문이 포함되어 있는지 확인합니다.  
+   >   **.cs** 파일에 다음 `using` 문이 포함되어 있는지 확인합니다.  
    >   
    >  `using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;`  
   
@@ -190,7 +187,7 @@ using Microsoft.VisualStudio.Uml.Classes;
   
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 의 실험적 인스턴스가 시작됩니다.  
   
-     **문제 해결**: 새 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 가 시작되지 않는 경우:  
+     **문제 해결**: 새 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 시작 되지 않습니다.  
   
     -   프로젝트가 두 개 이상 있으면 VSIX 프로젝트가 솔루션의 시작 프로젝트로 설정되었는지 확인합니다.  
   
@@ -212,7 +209,7 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 6.  오류 보고서를 두 번 클릭합니다. 보고서에 언급된 요소가 화면에 표시되는 경우 강조 표시됩니다.  
   
-     **문제 해결**: **유효성 검사** 명령이 메뉴에 표시되지 않는 경우 다음을 확인합니다.  
+     **문제 해결**: 경우는 **유효성 검사** 명령이 나타나지 않으면 메뉴에 있는지 확인 합니다.  
   
     -   유효성 검사 프로젝트가 VSIX 프로젝트에서 **source.extensions.manifest** 의 **자산** 탭에 MEF 구성 요소로 나열됩니다.  
   
@@ -278,7 +275,7 @@ public void ValidateSomething
   
 - `elementsWithError`는 모델의 요소를 식별합니다. 사용자가 오류 보고서를 두 번 클릭하면 이 요소를 나타내는 모양이 선택됩니다.  
   
-  `LogError(),` `LogWarning()` 및 `LogMessage()`는 오류 목록의 서로 다른 섹션에 메시지를 배치합니다.  
+  `LogError(),` `LogWarning()` 및 `LogMessage()` 오류 목록의 서로 다른 섹션에 메시지를 배치 합니다.  
   
 ## <a name="how-validation-methods-are-applied"></a>유효성 검사 메서드가 적용되는 방법  
  유효성 검사는 클래스의 특성 및 작업의 매개 변수와 같은 더 큰 요소의 부분과 관계를 포함하여 모델의 모든 요소에 적용됩니다.  
@@ -397,7 +394,7 @@ context.LogError(... , usecase);
   
    드물게 결함이 있는 확장은 로드되지 않고 오류 창에 보고서를 생성하지만 확장 관리자에 나타나지 않습니다. 다음 위치에서 파일을 삭제 하 여 확장을 제거할 수는 경우 여기서 *% LocalAppData %* 일반적으로 *DriveName*: \Users\\*사용자이름*\AppData\Local:  
   
-   *% LocalAppData %* **\Microsoft\VisualStudio\\[version] \Extensions**  
+   *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
   
 ##  <a name="Example"></a> 예제  
  이 예제에서는 요소 간 종속성 관계에서 루프를 찾습니다.  
@@ -479,6 +476,3 @@ private bool NoDependencyLoops(ValidationContext context,
 ## <a name="see-also"></a>참고 항목  
  [모델링 확장 정의 및 설치](../modeling/define-and-install-a-modeling-extension.md)   
  [UML API를 사용한 프로그래밍](../modeling/programming-with-the-uml-api.md)
-
-
-

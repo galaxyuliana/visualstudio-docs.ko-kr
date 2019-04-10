@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d8045b5f52dc57838731c24d41534c05b7cd1094
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: d8cd119ab39939de6562adcb962679874d528283
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56723255"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366814"
 ---
 # <a name="watch-variables-with-watch-windows-and-quickwatch"></a>조사식 창 및 간략 한 조사식을 사용 하 여 변수를 시청 하세요.
 
@@ -73,8 +73,8 @@ int main()
 1. 선택 하 여 디버깅을 계속할 **디버그** > **단계씩** 키를 누르거나 **F11** 시키려는 필요에 따라. 변수 값을 **조사식** 창 변경 하면서를 `for` 루프입니다.
 
 >[!NOTE]
->C + +만
->- 변수 이름 또는 변수 이름을 사용 하는 식의 컨텍스트를 한 정해야 해야 합니다. 컨텍스트 함수, 소스 파일 또는 변수 위치한 모듈입니다. 사용 하 여 컨텍스트를 한 정해야 해야 할 경우는 [컨텍스트 연산자 (c + +)](../debugger/context-operator-cpp.md) 구문을 **이름** 에 **조사식** 창입니다.
+>에 대 한 C++ 만
+>- 변수 이름 또는 변수 이름을 사용 하는 식의 컨텍스트를 한 정해야 해야 합니다. 컨텍스트 함수, 소스 파일 또는 변수 위치한 모듈입니다. 사용 하 여 컨텍스트를 한 정해야 해야 할 경우는 [컨텍스트 연산자 (C++)](../debugger/context-operator-cpp.md) 구문을 **이름** 에 **조사식** 창입니다.
 >
 >- 등록 이름 및 변수 이름을 사용 하 여 추가할 수 있습니다  **$ \<등록&nbsp;이름 >** 하거나  **@ \<등록&nbsp;이름 >** 에 **이름** 에 **조사식** 창입니다. 자세한 내용은 [Pseudovariables](../debugger/pseudovariables.md)를 참조하세요.
 
@@ -91,6 +91,19 @@ int main()
 ![식 오류를 시청](../debugger/media/watchexpressionerror.png "식 오류 보기")
 
 아이콘 두 물결선이 있는 원에 나타날 수 있습니다 합니다 **조사식** 창입니다. 이 아이콘은 디버거 잠재적 크로스 스레드 종속성으로 인해 식이 계산 되지 않고 의미 합니다. 코드를 확인할 때 일시적으로 실행 하려면 앱의 다른 스레드에 하는데 앱의 모든 스레드가 중지 일반적으로 중단 모드에 있는 때문입니다. 다른 스레드를 임시로 실행할 수 있습니다. 앱 및 디버거 상태에 예기치 않은 효과가 중단점 및 해당 스레드에서 예외와 같은 이벤트를 무시 될 수 있습니다.
+
+::: moniker range=">= vs-2019" 
+## <a name="search-in-the-watch-window"></a>조사식 창에서 검색
+
+이름, 값 및 형식 열에는 키워드를 검색할 수 있습니다 합니다 **조사식** 검색 표시줄을 사용 하 여 각 창 위에 창입니다. ENTER 키를 눌러 또는 검색을 실행 하려면 화살표 중 하나를 선택 합니다. 진행 중인 검색을 취소 하려면 검색 표시줄에서 "x" 아이콘을 선택 합니다.
+
+왼쪽 및 오른쪽 화살표를 사용 하 여 (Shift + F3 및 F3를 각각)를 탐색할 수 있도록 검색 결과가 없습니다.
+
+![조사식 창에서 검색](../debugger/media/ee-search-watch.png "조사식 창에서 검색")
+
+검색 보다 완벽 하 게 사용할 수 있도록 합니다 **심층 검색** 맨 위에 있는 드롭다운을 **조사식** 에 검색 하려는 수준 깊이 선택 하려는 창 개체를 중첩 합니다. 
+
+::: moniker-end
 
 ### <a name="bkmk_refreshWatch"></a> 조사식 값 새로 고침
 
@@ -219,7 +232,7 @@ public class Program
 만 표시할 합니다 **동적 뷰** 개체에 대 한 추가 **동적** 형식 지정자의 동적 개체 이름 뒤의 **조사식** 창:
 
 - C#의 경우: `ObjectName, dynamic`
-- Visual Basic의 경우: `$dynamic, ObjectName`
+- Visual Basic: `$dynamic, ObjectName`
 
 >[!NOTE]
 >- C# 디버거에서 값을 자동으로 다시 평가 하지 합니다 **동적 뷰** 코드의 다음 줄으로 진행 하는 경우.
@@ -278,8 +291,8 @@ static void Main(string[] args)
 
 1. 디버깅을 계속합니다. 변수를 확인할 수 있습니다 합니다 **조사식** 창입니다.
 
-## <a name="see-also"></a>참고 항목
-- [디버깅이란?](../debugger/what-is-debugging.md)
+## <a name="see-also"></a>참고자료
+- [디버깅이란 무엇인가요?](../debugger/what-is-debugging.md)
 - [디버깅 기술 및 도구](../debugger/write-better-code-with-visual-studio.md)
 - [디버깅 소개](../debugger/debugger-feature-tour.md)
 - [디버거 창](../debugger/debugger-windows.md)
