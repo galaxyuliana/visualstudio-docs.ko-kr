@@ -3,19 +3,19 @@ title: Python 코드에 PyLint 사용
 description: Visual Studio에서 PyLint를 실행하여 linting을 사용자 지정하는 명령줄 옵션을 포함하여 Python 코드의 문제를 확인합니다.
 ms.date: 03/13/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 0d18c7cb5f27695478e296d308347aaaf1b20f94
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: bf503cff7d8de2c00a93385113de05de00059390
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58153736"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59365317"
 ---
 # <a name="use-pylint-to-check-python-code"></a>PyLint를 사용하여 Python 코드 검사
 

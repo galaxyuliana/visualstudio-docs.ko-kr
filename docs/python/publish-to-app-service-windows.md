@@ -3,20 +3,20 @@ title: Windows의 Azure App Service에 Python 앱 게시
 description: web.config 파일에 필요한 콘텐츠를 포함하여 Visual Studio에서 Windows의 Azure App Service에 직접 Python 웹 애플리케이션을 게시하는 방법입니다.
 ms.date: 01/07/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: 758f7549eeb1726b13da31a96b4c006194da6ee6
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: cf9125476a4fdc369cc22034e081f2151020f064
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355317"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366343"
 ---
 # <a name="publishing-to-azure-app-service-on-windows"></a>Windows의 Azure App Service에 게시
 

@@ -3,19 +3,19 @@ title: Python 코드 서식 지정
 description: Visual Studio는 간격, 명령문, 래핑 및 주석을 포함하여 Python 코드를 자동으로 다시 포맷할 수 있습니다.
 ms.date: 03/13/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 4049576d18befb71cc71fdb85a19bcc3b0234401
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 6e95d05c3fbc0dd46d235c7480bd4a9caa48947e
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58160669"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59365481"
 ---
 # <a name="format-python-code"></a>Python 코드 서식 지정
 
@@ -44,9 +44,9 @@ Visual Studio에서는 미리 구성된 서식 옵션과 일치하도록 빠르�
 
 | 클래스 정의 옵션 | 선택한 상태 | 선택 취소됨 |
 | --- | --- | --- |
-| **클래스 선언의 이름과 기본 목록 사이에 공백 삽입** | `class X (object): pass` | `class X(object): pass` |
-| **기본 목록 괄호 내에 공백 삽입** | `class X( object ): pass` | `class X(object): pass` |
-| **빈 기본 목록 괄호 내에 공백 삽입** | `class X( ): pass` | `class X(): pass` |
+| **클래스 선언의 이름과 베이스 목록 사이에 공백 삽입** | `class X (object): pass` | `class X(object): pass` |
+| **베이스 목록 괄호 내에 공백 삽입** | `class X( object ): pass` | `class X(object): pass` |
+| **빈 베이스 목록 괄호 내에 공백 삽입** | `class X( ): pass` | `class X(): pass` |
 
 <br/>
 
@@ -62,8 +62,8 @@ Visual Studio에서는 미리 구성된 서식 옵션과 일치하도록 빠르�
 
 | 연산자 옵션 | 선택한 상태 | 선택 취소됨 |
 | --- | --- | --- |
-| **이진 연산자 주위에 공백 삽입** | `a + b` | `a+b` |
-| **할당 주위에 공백 삽입** | `a = b` | `a=b` |
+| **이항 연산자 주위에 공백 삽입** | `a + b` | `a+b` |
+| **할당 연산자 주위에 공백 삽입** | `a = b` | `a=b` |
 
 <br/>
 
@@ -75,10 +75,10 @@ Visual Studio에서는 미리 구성된 서식 옵션과 일치하도록 빠르�
 | **식 괄호 내에 공백 삽입** | `( a )` | `(a)` |
 | **빈 튜플 괄호 내에 공백 삽입** | `( )` | `()` |
 | **튜플 괄호 내에 공백 삽입** | `( a, b )` | `(a, b)` |
-| **빈 대괄호 내에 공백 삽입** | `[ ]` | `[]` |
+| **빈 대괄호의 내부에 공백 삽입** | `[ ]` | `[]` |
 | **목록 대괄호 내에 공백 삽입** | `[ a, b ]` | `[a, b]` |
 | **여는 대괄호 앞에 공백 삽입** | `x [i]` | `x[i]` |
-| **대괄호 내에 공백 삽입** | `x[ i ]` | `x[i]` |
+| **대괄호 내부에 공백을 삽입합니다.** | `x[ i ]` | `x[i]` |
 
 <br/>
 
@@ -90,7 +90,7 @@ Visual Studio에서는 미리 구성된 서식 옵션과 일치하도록 빠르�
 | --- | --- | --- |
 | **새 줄에 가져온 모듈 배치** | `import sys, pickle` | `import sys`<br/>`import pickle` |
 | **불필요한 세미콜론 제거** | `x = 42;` | `x = 42` |
-| **새 줄에 여러 명령문 배치** | `x = 42; y = 100` | `x = 42`<br/>`y = 100` |
+| **새 줄에 여러 문 배치** | `x = 42; y = 100` | `x = 42`<br/>`y = 100` |
 
 ## <a name="wrapping"></a>줄 바꿈
 
