@@ -15,18 +15,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 16139daaadfa687abf296505d94f350600fbfa9f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 7d270b14a0dda18a037eb74181c2eec69cf26dc8
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56636907"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366551"
 ---
 # <a name="inspect-variables-in-the-autos-and-locals-windows"></a>자동 및 지역 창에서 변수 검사
 
 합니다 **자동** 하 고 **지역** windows 디버깅 하는 동안 변수 값을 표시 합니다. Windows는 디버깅 세션 중만 사용할 수 있습니다. 합니다 **자동** 창에 현재 중단점 사용 된 변수가 표시 됩니다. 합니다 **지역** 창 현재 함수나 메서드는 일반적으로 로컬 범위에 정의 된 변수를 표시 합니다. 읽을 하려는 처음 코드를 디버그 하려는 경우 [초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md) 하 고 [기술 및 도구 디버깅](../debugger/write-better-code-with-visual-studio.md) 이 문서를 진행 하기 전에 합니다.
 
- 합니다 **자동** 창은 사용할 수 있습니다 C#, Visual Basic, c + + 및 Python 코드를 JavaScript에 대 한 또는 F#합니다.
+ 합니다 **자동** 창은 사용할 수 있습니다 C#, Visual Basic의 경우 C++, 및 Python 코드를 JavaScript에 대 한 또는 F#.
 
 열려는 합니다 **자동** 창에서 디버그 하는 동안 **디버그** > **Windows** > **자동**를 누르거나 **Ctrl**+**Alt**+**V** > **A**합니다.
 
@@ -60,6 +60,19 @@ ms.locfileid: "56636907"
 >
 >-   부동 소수점 값을 편집하면 소수 부분이 10진수에서 이진수로 변환되면서 약간의 오차가 발생할 수 있습니다. 무해 한 것 처럼 보이는 편집도 부동 소수점 변수의 비트 중 일부에 대 한 변경 될 수 있습니다.
 
+::: moniker range=">= vs-2019" 
+## <a name="search-in-the-autos-or-locals-window"></a>자동 또는 지역 창에서 검색
+
+이름, 값 및 형식 열에는 키워드를 검색할 수 있습니다는 **자동** 하거나 **지역** 검색 표시줄을 사용 하 여 각 창 위에 창. ENTER 키를 눌러 또는 검색을 실행 하려면 화살표 중 하나를 선택 합니다. 진행 중인 검색을 취소 하려면 검색 표시줄에서 "x" 아이콘을 선택 합니다.
+
+왼쪽 및 오른쪽 화살표를 사용 하 여 (Shift + F3 및 F3를 각각)를 탐색할 수 있도록 검색 결과가 없습니다.
+
+![지역 창에서 검색](../debugger/media/ee-search-locals.png "지역 창에서 검색")
+
+검색 보다 완벽 하 게 사용할 수 있도록 합니다 **심층 검색** 맨 위에 있는 드롭다운 합니다 **자동** 또는 **지역** 창에 검색 하려는 수준 깊이 선택 중첩 된 개체입니다. 
+
+::: moniker-end
+
 ## <a name="change-the-context-for-the-autos-or-locals-window"></a>자동 또는 지역 창에 대 한 컨텍스트를 변경 합니다.
 
 사용할 수는 **디버그 위치** 도구 모음을 원하는 함수, 스레드 또는 프로세스에 대 한 컨텍스트를 변경 하는 선택 합니다 **자동** 및 **지역** windows.
@@ -70,7 +83,7 @@ ms.locfileid: "56636907"
 
 ![디버그 위치 도구 모음](../debugger/media/debuglocationtoolbar.png "디버그 위치 도구 모음")
 
-## <a name="bkmk_whatvariables"></a> 자동 창에서 변수 (C#, Visual Basic, c + +, Python)
+## <a name="bkmk_whatvariables"></a> 자동 창에서 변수 (C#, C++, Visual Basic, Python)
 
  다른 코드 언어에 다른 변수를 표시 합니다 **자동** 창입니다.
 
@@ -93,7 +106,7 @@ ms.locfileid: "56636907"
 
    변수의 `c` 때문에 0 이면 줄 `c = 3` 아직 실행 되지 않았습니다.
 
- - C + +에서는 합니다 **자동** 실행이 일시 중지 적어도 세 줄은 현재 줄 앞에 사용 된 변수 창에 표시 됩니다. 예를 들어, c + + 코드에서 6 개의 변수를 선언 합니다.
+ - C++의 **자동** 실행이 일시 중지 적어도 세 줄은 현재 줄 앞에 사용 된 변수 창에 표시 됩니다. 예를 들어, C++ 코드에서 6 개의 변수를 선언 합니다.
 
    ```C++
        void main() {
@@ -114,7 +127,7 @@ ms.locfileid: "56636907"
     변수의 `e` 아니므로 초기화 줄 `e = 5` 아직 실행 되지 않았습니다.
 
 ##  <a name="bkmk_returnValue"></a> View return values of method calls
- .NET 및 c + + 코드의 반환 값을 검사할 수 있습니다 합니다 **자동** 창 프로시저 단위로 실행 하거나 메서드 호출 합니다. 보기 메서드 호출에서 반환 값 로컬 변수에 저장 되지 않습니다 하는 경우 유용할 수 있습니다. 메서드가 다른 메서드의 반환 값 또는 매개 변수로 사용할 수 있습니다.
+ .NET에서 및 C++ 코드의 반환 값을 검사할 수 있습니다는 **자동** 건너뛰거나 나간 메서드 호출을 단계별로 실행할 때 창입니다. 보기 메서드 호출에서 반환 값 로컬 변수에 저장 되지 않습니다 하는 경우 유용할 수 있습니다. 메서드가 다른 메서드의 반환 값 또는 매개 변수로 사용할 수 있습니다.
 
  예를 들어, 다음 C# 코드는 두 함수의 반환 값을 추가 합니다.
 
@@ -148,9 +161,9 @@ private static int subtractVars(int i, int j)
 
   ![값을 반환 하는 자동 C# ](../debugger/media/autosreturnvaluecsharp2.png "자동 값 반환C#")
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [디버깅이란?](../debugger/what-is-debugging.md)
+- [디버깅이란 무엇인가요?](../debugger/what-is-debugging.md)
 - [디버깅 기술 및 도구](../debugger/write-better-code-with-visual-studio.md)
 - [디버깅 소개](../debugger/debugger-feature-tour.md)
 - [디버거 창](../debugger/debugger-windows.md)

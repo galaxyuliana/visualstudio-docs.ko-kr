@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fe676731170b0e643e00b1ab5e10aa768f256434
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MTE95
+ms.openlocfilehash: a4656ae21c51d105c2d523275af63e84c2326d4d
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526362"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366304"
 ---
 # <a name="learn-productivity-tips-and-tricks-for-the-debugger-in-visual-studio"></a>For the Debugger in Visual Studio 생산성 팁과 트릭 배우기
 
@@ -31,7 +31,7 @@ Visual Studio 디버거에 대 한 몇 가지 생산성 팁과 요령에 알아�
 
 ![고정 데이터 팁](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
 
-## <a name="edit-your-code-and-continue-debugging-c-vb-c"></a>코드를 편집 하 고 계속 디버깅 (C#, VB, c + +)
+## <a name="edit-your-code-and-continue-debugging-c-vb-c"></a>코드를 편집 하 고 계속 디버깅 (C#, VB, C++)
 
 Visual Studio에서 지 원하는 대부분의 언어에서 디버깅 세션 중에 코드를 편집할 수 있으며 디버깅을 계속할 수 있습니다. 디버거, 확인 편집 및 키를 눌러 일시 중지 된 동안 커서를 사용 하 여 코드에이 기능을 사용 하려면를 클릭 **F5**, **F10**, 또는 **F11** 디버깅을 계속 합니다.
 
@@ -64,7 +64,7 @@ Visual Studio에서 지 원하는 대부분의 언어에서 디버깅 세션 중
 > [!WARNING]
 > 이 기능을 주의 깊게 사용해야 하는 경우가 많으며 도구 설명에 경고가 표시됩니다. 다른 경고도 표시될 수 있습니다. 포인터를 이동 하면 앱을 이전 응용 프로그램 상태를 되돌릴 수 없습니다.
 
-## <a name="track-an-out-of-scope-object-c-visual-basic"></a>범위를 벗어나는 개체를 추적 (C#, Visual Basic)
+## <a name="track-an-out-of-scope-object-c-visual-basic"></a>추적 범위를 벗어나는 개체 (C#, Visual Basic)
 
 같은 디버거 창을 사용 하 여 변수를 표시 하는 것이 간단 합니다 **조사식** 창입니다. 그러나 경우 변수 범위를 벗어날에 **조사식** 창 표시 될 수도 있습니다는 회색으로 표시 합니다. 일부 앱 시나리오에서 변수의 값도 변수가 범위를 벗어날 시점과 밀접 하 게 시청 하려는 경우 변경할 수 있습니다 (예를 들어 변수로 발생할 수 가비지 수집). 개체 ID를 만들어 변수를 추적할 수 있습니다 합니다 **조사식** 창입니다.
 
@@ -106,7 +106,7 @@ Visual Studio에서 지 원하는 대부분의 언어에서 디버깅 세션 중
 
 ![JSON 문자열 시각화 도우미](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
 
-디버거 창에 표시 된 WPF 개체와 같은 몇 가지 다른 형식에 대 한 시각화 도우미를 열 수도 있습니다.
+디버거 창에 표시 된 DataSet 및 DataTable 개체와 같은 몇 가지 다른 형식에 대 한 기본 제공 시각화 도우미를 열 수도 있습니다.
 
 ## <a name="break-into-code-on-handled-exceptions"></a>처리 된 예외에서 코드 중단
 
@@ -144,7 +144,7 @@ UWP 앱에서 사용 하 여 수행 된 네트워크 작업을 분석할 수 있
 
 자세한 내용은 [네트워크 사용량](../profiling/network-usage.md)을 참조하세요.
 
-## <a name="modules_window"></a> 디버거가 앱에 연결 하는 방법에 대해 get (C#, c + +, Visual Basic의 경우 F#)
+## <a name="modules_window"></a> 디버거가 앱에 연결 하는 방법에 대해 get (C#, C++, Visual Basic의 경우 F#)
 
 를 실행 중인 앱에 연결 하려면 디버거에서 디버그 하려는 앱의 정확히 동일한 빌드에 대해 생성 되는 기호 (.pdb) 파일을 로드 합니다. 일부 시나리오에서는 기호 파일의 간단한 기술 유용할 수 있습니다. Visual Studio를 사용 하 여 기호 파일을 로드 하는 방법을 검사할 수 있습니다 합니다 **모듈** 창입니다.
 
