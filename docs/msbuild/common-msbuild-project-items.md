@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 394a986963ad1d1690535aecbb3355bdbe382516
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 43844fc1e8ffed9853f287f82e79d9859b774755
+ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610348"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58897688"
 ---
 # <a name="common-msbuild-project-items"></a>일반적인 MSBuild 프로젝트 항목
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에서 항목은 하나 이상의 파일에 대한 명명된 참조입니다. 항목에는 파일 이름, 경로 및 버전 번호와 같은 메타데이터가 포함됩니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]의 모든 프로젝트 형식에는 공통된 여러 항목이 있습니다. 이러한 항목은 *Microsoft.Build.CommonTypes.xsd* 파일에 정의되어 있습니다.
@@ -46,9 +46,9 @@ ms.locfileid: "56610348"
 |항목 메타데이터 이름|설명|
 |---------------|-----------------|
 |name|선택적 문자열입니다. 구성 요소의 표시 이름입니다.|
-|GUID|선택적 문자열입니다. 구성 요소의 GUID로, {12345678-1234-1234-1234-1234567891234} 형식을 갖습니다.|
-|VersionMajor|선택적 문자열입니다. 구성 요소 버전 번호의 주 버전 부분입니다. 예를들어 전체 버전 번호가 "5.46"이면 "5"입니다.|
-|VersionMinor|선택적 문자열입니다. 구성 요소 버전 번호의 부 버전 부분입니다. 예를들어 전체 버전 번호가 "5.46"이면 "46"입니다.|
+|GUID|필수 문자열입니다. 구성 요소의 GUID로, {12345678-1234-1234-1234-1234567891234} 형식을 갖습니다.|
+|VersionMajor|필수 문자열입니다. 구성 요소 버전 번호의 주 버전 부분입니다. 예를들어 전체 버전 번호가 "5.46"이면 "5"입니다.|
+|VersionMinor|필수 문자열입니다. 구성 요소 버전 번호의 부 버전 부분입니다. 예를들어 전체 버전 번호가 "5.46"이면 "46"입니다.|
 |인 DWORD 값의 레지스트리에서 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\|선택적 문자열입니다. 구성 요소의 LocaleID입니다.|
 |WrapperTool|선택적 문자열입니다. 구성 요소에 사용되는 래퍼 도구의 이름(예: "tlbimp")입니다.|
 |Isolated|선택적 부울입니다. 등록이 필요 없는 구성 요소인지 여부를 지정합니다.|
@@ -76,7 +76,7 @@ ms.locfileid: "56610348"
 |name|선택적 문자열입니다. 참조의 표시 이름입니다.|
 |프로젝트|선택적 문자열입니다. 참조의 GUID로, {12345678-1234-1234-1234-1234567891234} 형식을 갖습니다.|
 |패키지|선택적 문자열입니다. 참조되는 프로젝트 파일의 경로입니다.|
-|ReferenceOutputAssembly|선택적 부울입니다. `false`로 설정하면 참조된 프로젝트의 출력이 이 프로젝트의 [참조](#Reference)로 포함되지 않지만, 이 프로젝트 앞에 다른 프로젝트가 빌드되도록 합니다. 기본값은 `true`입니다.|
+|ReferenceOutputAssembly|선택적 부울입니다. `false`로 설정하면 참조된 프로젝트의 출력이 이 프로젝트의 [참조](#reference)로 포함되지 않지만, 이 프로젝트 앞에 다른 프로젝트가 빌드되도록 합니다. 기본값은 `true`입니다.|
 
 ### <a name="compile"></a>Compile
  컴파일러에 대한 소스 파일을 나타냅니다.
@@ -88,7 +88,7 @@ ms.locfileid: "56610348"
 | AutoGen | 선택적 부울입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE(통합 개발 환경)에서 프로젝트를 위해 해당 파일이 생성되었는지 여부를 나타냅니다. |
 | 링크 | 선택적 문자열입니다. 파일이 물리적으로 프로젝트 파일의 영향 범위 밖에 있을 때 표시할 표기 경로입니다. |
 | 표시 | 선택적 부울입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]의 **솔루션 탐색기**에 파일을 표시할지 여부를 나타냅니다. |
-| CopyToOutputDirectory | 선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
+| CopyToOutputDirectory | 선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest |
 
 ### <a name="embeddedresource"></a>EmbeddedResource
  생성된 어셈블리에 포함될 리소스를 나타냅니다.
@@ -102,7 +102,7 @@ ms.locfileid: "56610348"
 | CustomToolNamespace | 필수 문자열입니다. 이 항목에서 실행되는 모든 파일 생성기가 코드를 만들어야 하는 네임스페이스입니다. |
 | 링크 | 선택적 문자열입니다. 파일이 물리적으로 프로젝트의 영향 범위 밖에 있을 때 이 표기 경로가 표시됩니다. |
 | 표시 | 선택적 부울입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]의 **솔루션 탐색기**에 파일을 표시할지 여부를 나타냅니다. |
-| CopyToOutputDirectory | 선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
+| CopyToOutputDirectory | 선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest |
 | LogicalName | 필수 문자열입니다. 포함된 리소스의 논리적 이름입니다. |
 
 ### <a name="content"></a>콘텐츠
@@ -119,7 +119,7 @@ ms.locfileid: "56610348"
 | PublishState | 필수 문자열입니다. 콘텐츠의 게시 상태로 다음 중 하나입니다.<br /><br /> -   기본값<br />-   포함됨<br />-   제외됨<br />-   DataFile<br />-   필수 조건 |
 | IsAssembly | 선택적 부울입니다. 파일이 어셈블리인지 여부를 지정합니다. |
 | 표시 | 선택적 부울입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]의 **솔루션 탐색기**에 파일을 표시할지 여부를 나타냅니다. |
-| CopyToOutputDirectory | 선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
+| CopyToOutputDirectory | 선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest |
 
 ### <a name="none"></a>없음
  빌드 프로세스에서 역할이 없는 파일을 나타냅니다.
@@ -133,7 +133,7 @@ ms.locfileid: "56610348"
 | CustomToolNamespace | 필수 문자열입니다. 이 항목에서 실행되는 모든 파일 생성기가 코드를 만들어야 하는 네임스페이스입니다. |
 | 링크 | 선택적 문자열입니다. 파일이 물리적으로 프로젝트의 영향 범위 밖에 있을 때 표시될 표기 경로입니다. |
 | 표시 | 선택적 부울입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]의 **솔루션 탐색기**에 파일을 표시할지 여부를 나타냅니다. |
-| CopyToOutputDirectory | 선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
+| CopyToOutputDirectory | 선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest |
 
 ### <a name="baseapplicationmanifest"></a>BaseApplicationManifest
  빌드에 대한 기본 응용 프로그램 매니페스트를 나타내며 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 보안 정보를 포함합니다.

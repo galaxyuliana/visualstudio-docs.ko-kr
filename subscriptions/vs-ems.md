@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Enterprise Mobility + Security 혜택에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: b1d3aa39f4d3f53d10bcc692da96bfe6c50b981d
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 917f4e6c2b80c2cb0b154d58effd8016f54740c3
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841197"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232660"
 ---
 # <a name="enterprise-mobility--security-ems-in-visual-studio-subscriptions"></a>Visual Studio의 EMS(Enterprise Mobility + Security)
 
@@ -37,7 +37,7 @@ EMS를 사용하려면 기존 계정을 사용하여 계정을 설정하거나 �
 
 4. 사용자 ID와 암호를 만듭니다.  **내 계정 만들기**를 클릭하여 계속합니다.
    > [!div class="mx-imgBorder"]
-   > ![EMS 혜택 UserID 만들기](_img/vs-ems/vs-ems-userID-cropped.png)
+   > ![EMS 혜택 사용자 ID 만들기](_img/vs-ems/vs-ems-userID-cropped.png)
 
 5. 그런 다음 전화 또는 문자 메시지로 인증 코드를 받을 전화 번호를 입력합니다.  코드를 입력하고 **다음**을 클릭합니다.
    > [!div class="mx-imgBorder"]
@@ -55,12 +55,12 @@ EMS를 사용하려면 기존 계정을 사용하여 계정을 설정하거나 �
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup> | 사용 가능       |  예          |
 | Visual Studio Professional(표준<sup>2</sup>) | VL, Azure, 일반 정품                                       | 사용 가능                                                            |  예          |
-| Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용할 수 없음                                             |  N/A          |
-| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  N/A          |
-| Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
-| Visual Studio Dev Essentials | N/A  | 사용할 수 없음 |N/A |
+| Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용할 수 없음                                             |  해당 없음          |
+| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  해당 없음          |
+| Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | 해당 없음 |
+| Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |N/A |
 
-<sup>1</sup> *포함:  NFR(전매금지), VSIP(Visual Studio 업계 파트너), MPN(Microsoft 파트너 네트워크), FTE, MCT 소프트웨어 및 서비스 개발자, BizSpark.  제외: MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크(Professional)
+<sup>1</sup> *포함:  NFR(전매금지), VSIP(Visual Studio 업계 파트너), MPN(Microsoft 파트너 네트워크), FTE, MCT 소프트웨어 및 서비스 개발자, BizSpark.  제외: MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크(Professional)*
 
 <sup>2</sup> *제외: Microsoft 파트너 네트워크(Professional)*
 
@@ -73,6 +73,6 @@ EMS를 사용하려면 기존 계정을 사용하여 계정을 설정하거나 �
 
 ## <a name="support-resources"></a>지원 리소스
 -  EMS와 관련하여 도움이 필요하세요?  온라인 [EMS 설명서](/enterprise-mobility-security/)를 확인하세요.
--  EMS의 구성 요소를 사용하는 기술 지원은 [EMS 지원 FAQ](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/ems-support-faq)를 방문하여 질문에 대한 적합한 지원을 찾습니다.
+-  EMS의 구성 요소를 사용하는 기술 지원은 [EMS 지원 FAQ](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-support-faq)를 방문하여 질문에 대한 적합한 지원을 찾습니다.
 -  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 -  Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
