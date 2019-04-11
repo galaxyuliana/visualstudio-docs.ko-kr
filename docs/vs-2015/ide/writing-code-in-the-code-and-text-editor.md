@@ -60,12 +60,12 @@ caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 62efe11b7c640e228a3b4120259facec3b6f9d4a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: dbfb22a5854d8d966548e113f10c6fdb0ddc070a
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54794243"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366616"
 ---
 # <a name="writing-code-in-the-code-and-text-editor"></a>코드 및 텍스트 편집기에서 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -122,19 +122,19 @@ Visual Studio 편집기에서는 코드를 더 쉽게 작성 및 관리할 수 �
 
  ![앞으로 및 뒤로 탐색 단추](../ide/media/vs2015-nav-buttons.png "VS2015_Nav_buttons")  
 
- 코드 창에서 향상된 스크롤 막대를 사용하여 코드의 조감도를 볼 수도 있습니다. 맵 모드에서는 있습니다 수 코드 미리 보기 커서를 이동 및 아래로 스크롤 막대에 대 한 자세한 내용은 참조 하십시오 [방법: 스크롤 막대를 사용자 지정하여 코드 추적](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
+ 코드 창에서 향상된 스크롤 막대를 사용하여 코드의 조감도를 볼 수도 있습니다. 맵 모드에서는 있습니다 수 코드 미리 보기 커서를 이동 및 아래로 스크롤 막대에 대 한 자세한 내용은 참조 하십시오 [방법: 스크롤 막대를 사용자 지정 하 여 코드 추적](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)합니다.  
 
  다음 명령은 코드 관련 탐색 방법입니다.  
 
 |||  
 |-|-|  
 |\<줄 번호>로 이동|(**편집/이동** 또는 CTRL + G): 활성 문서의 특정 줄 번호로 이동 합니다.|  
-|다음 탐색|(**를 편집/이동** 또는 CTRL +,): 활성 솔루션에서 기호나 파일을 찾습니다. 이를 통해 쿼리에서 적합한 일치 결과 집합을 선택할 수 있습니다. 카멜 표기법 및 밑줄 문자를 사용하여 기호를 키워드로 구분하는 방식으로 기호에 포함된 키워드를 검색할 수 있습니다.|  
+|탐색|(**를 편집/이동** 또는 CTRL +,): 활성 솔루션에서 기호나 파일을 찾습니다. 이를 통해 쿼리에서 적합한 일치 결과 집합을 선택할 수 있습니다. 카멜 표기법 및 밑줄 문자를 사용하여 기호를 키워드로 구분하는 방식으로 기호에 포함된 키워드를 검색할 수 있습니다.|  
 |모든 참조 찾기|(상황에 맞는 메뉴): 솔루션에서 선택한 요소에 대한 참조를 모두 찾습니다.|  
 |정의로 이동|(상황에 맞는 메뉴 또는 f12 키): 선택한 요소의 정의 찾습니다.|  
-|정의 피킹|(상황에 맞는 메뉴 또는 alt+f12): 선택한 요소의 정의 찾아서 팝업 창에 표시 합니다. 자세한 내용은 [방법: 정의 피킹(Peeking)을 사용하여 코드 보기 및 편집(Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)을 참조하세요.|  
+|정의 피킹|(상황에 맞는 메뉴 또는 alt+f12): 선택한 요소의 정의 찾아서 팝업 창에 표시 합니다. 자세한 내용은 [방법: 코드 보기 및 편집 피킹 (Alt + f12 키)를 사용 하 여](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)입니다.|  
 |다음 메서드, 이전 메서드|(**편집/다음 메서드, 이전 메서드**) Visual Basic 코드 파일에서 이들 명령을 사용하여 삽입 지점을 다른 메서드로 이동합니다.|  
-|참조 강조 표시|소스 코드에서 기호를 클릭하면 해당 기호의 모든 인스턴스가 문서에서 강조 표시됩니다. 강조 표시된 기호에는 선언 및 참조와 **모든 참조 찾기** 에서 반환하는 다양한 기타 기호가 포함될 수 있습니다. 여기에는 클래스, 개체, 변수, 메서드 및 속성의 이름이 포함됩니다. Visual Basic 코드에서 많은 컨트롤 구조체에 대한 키워드도 강조 표시됩니다. 다음 또는 이전 강조 표시된 기호로 이동하려면 CTRL+SHIFT+아래쪽 화살표 또는 CTRL+SHIFT+위쪽 화살표를 누릅니다. **도구/옵션/환경/글꼴 및 색/강조 표시된 참조**에서 강조 표시 색을 변경할 수 있습니다.|  
+|참조 강조 표시|소스 코드에서 기호를 클릭하면 해당 기호의 모든 인스턴스가 문서에서 강조 표시됩니다. 강조 표시된 기호에는 선언 및 참조와 **모든 참조 찾기** 에서 반환하는 다양한 기타 기호가 포함될 수 있습니다. 여기에는 클래스, 개체, 변수, 메서드 및 속성의 이름이 포함됩니다. Visual Basic 코드에서 많은 컨트롤 구조체에 대한 키워드도 강조 표시됩니다. 다음 또는 이전 강조 표시된 기호로 이동하려면 CTRL+SHIFT+아래쪽 화살표 또는 CTRL+SHIFT+위쪽 화살표를 누릅니다.  **도구/옵션/환경/글꼴 및 색/강조 표시된 참조**에서 강조 표시 색을 변경할 수 있습니다.|  
 |코드 관련 정보 찾기|코드 편집기에서 CodeLens를 사용하면 변경 내용 및 변경한 사용자, 참조, 버그, 작업 항목, 코드 검토, 단위 테스트 상태 같은 특정 코드에 대한 정보를 찾을 수 있습니다. Visual Studio Enterprise를 Team Foundation Server에서 사용할 경우 CodeLens는 화면 표시처럼 작동합니다. [코드 변경 내용 및 기타 기록 찾기](../ide/find-code-changes-and-other-history-with-codelens.md)를 참조하세요.|  
 
  코드 창 위쪽에 표시되는 두 드롭다운 상자인 **탐색 모음**을 사용하여 코드 파일을 탐색할 수도 있습니다. 이 탐색 모음을 통해 특정 형식 또는 형식 내 멤버 중 하나로 직접 이동할 수 있습니다. 탐색 모음은 Visual Basic, C# 및 C++ 코드 파일에서 표시됩니다.  
@@ -174,7 +174,7 @@ Visual Studio의 "탐색" 명령은 코드 파일, 파일 경로 및 코드 기�
 
 ### <a name="filter-your-search"></a>검색 필터링
 
-검색을 코드 기호로만 제한하려면 탐색 쿼리 앞에 "@" 문자를 추가합니다. 예를 들어 `@application`을 검색하는 경우 탐색 시 "application" 단어가 포함된 클래스만 표시됩니다.
+검색을 코드 기호로 제한, 앞으로 탐색 쿼리는 "\@" 문자입니다. 예를 들어 `@application`을 검색하는 경우 탐색 시 "application" 단어가 포함된 클래스만 표시됩니다.
 
 코드에서 캐멀(camel) 대/소문자를 사용하는 경우 코드 요소 이름의 대문자만 입력하여 코드 요소를 더 빠르게 찾을 수 있습니다. 예를 들어 코드에 `ViewSwitcher`라는 구성 요소가 있는 경우 탐색 창에서 이름의 대문자(`"VS"`)만 입력하면 찾을 수 있습니다.
 
@@ -191,13 +191,13 @@ Visual Studio의 "탐색" 명령은 코드 파일, 파일 경로 및 코드 기�
 
 -   [Visual Basic 설정](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
 
--   [C#용 Visual Studio 개발 환경 사용](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
+-   [C# 용 Visual Studio 개발 환경 사용](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 
 -   [옵션, 텍스트 편집기, JavaScript, 서식](../ide/reference/options-text-editor-javascript-formatting.md)  
 
 ## <a name="in-this-section"></a>단원 내용  
 
--   [텍스트 찾기 및 바꾸기](../ide/finding-and-replacing-text.md)  
+-   [Finding and Replacing Text](../ide/finding-and-replacing-text.md)  
 
 -   [인코딩 및 줄 바꿈](../ide/encodings-and-line-breaks.md)  
 
@@ -211,9 +211,9 @@ Visual Studio의 "탐색" 명령은 코드 파일, 파일 경로 및 코드 기�
 
 -   [편집기 사용자 지정](../ide/customizing-the-editor.md)  
 
--   [방법: 스크롤 막대를 사용자 지정하여 코드 추적](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
+-   [방법: 스크롤 막대를 사용자 지정 하 여 코드 추적](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
 
--   [방법: 정의 피킹(Peeking)을 사용하여 코드 보기 및 편집(Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
+-   [방법: 코드 보기 및 편집 피킹 (Alt + f12 키)를 사용 하 여](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
 
 -   [전구를 사용하여 빠른 작업 수행](../ide/perform-quick-actions-with-light-bulbs.md)  
 
