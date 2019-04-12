@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 10e10b512dc8deb63db7ade2075347d9e6405b6b
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
-ms.translationtype: MTE95
+ms.openlocfilehash: 4bf9306ea1604d032ce9f4436759b11c4d17c343
+ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428715"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59504343"
 ---
 # <a name="debug-an-installed-uwp-app-package-in-visual-studio"></a>Visual Studio에서 설치 된 UWP 앱 패키지 디버그
 
@@ -94,10 +94,10 @@ UWP 앱을 디버깅 하는 방법에 대 한 자세한 내용은 블로그 게�
 
 UWP 앱의 원격 배포에 대 한 자세한 내용은 참조 하세요. [UWP 앱을 배포 및 디버그](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options) 하 고 [원격 컴퓨터에서 디버그 하는 UWP 앱](run-windows-store-apps-on-a-remote-machine.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio의 디버깅](../debugger/index.md)
-- [디버거 기능 둘러보기](../debugger/debugger-feature-tour.md)
+- [디버거 소개](../debugger/debugger-feature-tour.md)
 - [원격 디버깅](../debugger/remote-debugging.md)
 - [원격 디버깅을 위해 Windows 방화벽 구성](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
 - [원격 디버거 포트 할당](../debugger/remote-debugger-port-assignments.md)

@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1f2272323d13121865ace371b2dc1a921106e34e
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: c45635da013f360ccbb1fe2343bca23a58f142c4
+ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57869020"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59504109"
 ---
 # <a name="get-started-sharepoint-development-in-visual-studio"></a>시작 (SharePoint 개발에 Visual Studio)
   이 섹션은 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 를 사용하여 [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] 및 [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)]을 활용하는 SharePoint 솔루션 개발을 시작하는 데 도움이 됩니다.
@@ -39,14 +39,15 @@ ms.locfileid: "57869020"
 |항목|설명|
 |-----------|-----------------|
 |[SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)|[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 SharePoint 개발을 설명합니다.|
+|[SharePoint에 대 한 일반 개발 환경 설정](/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint)|SharePoint 솔루션을 만들기 위한 필수 설치를 설명 합니다.|
 |[SharePoint 용 사이트 열, 콘텐츠 형식 및 목록 만들기](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)|SharePoint 개발에 Visual Studio 도구를 사용하여 SharePoint의 사용자 지정 사이트 열, 콘텐츠 형식 및 목록을 만드는 방법을 설명합니다.|
 |[SharePoint 워크플로 솔루션 만들기](../sharepoint/creating-sharepoint-workflow-solutions.md)|워크플로 디자인 및 개발을 설명합니다.|
 |[SharePoint 비즈니스 데이터 통합](../sharepoint/integrating-business-data-into-sharepoint.md)|BDC(비즈니스 데이터 연결) 모델에 연결하여 비즈니스 데이터를 통합하는 방법을 설명합니다.|
-|[SharePoint 용 Creatie 웹 파트](../sharepoint/creating-web-parts-for-sharepoint.md)|SharePoint 사이트의 페이지 구성 요소인 웹 파트와 웹 파트 페이지를 설명합니다.|
+|[SharePoint 용 웹 파트 만들기](../sharepoint/creating-web-parts-for-sharepoint.md)|SharePoint 사이트의 페이지 구성 요소인 웹 파트와 웹 파트 페이지를 설명합니다.|
 |[SharePoint 용 응용 프로그램 페이지 만들기](../sharepoint/creating-application-pages-for-sharepoint.md)|디자이너를 사용하여 애플리케이션 페이지를 디자인하는 방법을 설명합니다.|
 |[웹 파트 또는 응용 프로그램 페이지에 대 한 재사용 가능한 컨트롤 만들기](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)|SharePoint에서 애플리케이션 페이지 및 웹 파트를 위해 재사용 가능한 사용자 지정 컨트롤을 만드는 방법을 설명합니다.|
 |[서버 탐색기를 사용 하 여 SharePoint 연결 찾아보기](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)|Visual Studio 도구 창에서 SharePoint 사이트의 구성 요소를 통해 탐색하는 방법을 설명합니다.|
-|[SharePoint 솔루션 빌드 및 디버그](../sharepoint/building-and-debugging-sharepoint-solutions.md)|디버그 SharePoint 솔루션 및 빌드하는 방법에 설명 합니다.|
+|[빌드 및 SharePoint 솔루션 디버깅](../sharepoint/building-and-debugging-sharepoint-solutions.md)|디버그 SharePoint 솔루션 및 빌드하는 방법에 설명 합니다.|
 |[패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)|설명 패키지 하는 방법 및 SharePoint 솔루션을 배포 합니다.|
 |[Visual Studio에서 SharePoint 도구 확장](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)|SharePoint 도구를 확장하여 필요한 기능을 만드는 방법을 설명합니다.|
 
@@ -54,5 +55,5 @@ ms.locfileid: "57869020"
 
 - [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)
 - [서버 탐색기를 사용 하 여 SharePoint 연결 찾아보기](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)
-- [SharePoint 솔루션 빌드 및 디버그](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [빌드 및 SharePoint 솔루션 디버깅](../sharepoint/building-and-debugging-sharepoint-solutions.md)
 - [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

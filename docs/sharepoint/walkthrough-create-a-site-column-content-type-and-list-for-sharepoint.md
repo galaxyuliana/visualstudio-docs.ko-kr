@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 244841b5b9416709eda0913d53535d29c83df647
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: dee5d1ec207f2b7bec030076797720fe9e8216ed
+ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57870401"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59504265"
 ---
 # <a name="walkthrough-create-a-site-column-content-type-and-list-for-sharepoint"></a>연습: SharePoint 용 사이트 열, 콘텐츠 형식 및 목록 만들기
   다음 절차에는 사용자 지정 SharePoint 사이트 열을 만드는 방법을 보여 줍니다-또는 *필드*-사이트 열을 사용 하는 콘텐츠 형식 및 합니다. 또한 새 콘텐츠 형식을 사용 하는 목록을 만드는 방법을 보여 줍니다.
@@ -46,7 +46,7 @@ ms.locfileid: "57870401"
 
 -   Windows 및 SharePoint 버전을 지원 합니다.
 
--   Visual Studio.
+-   [!INCLUDE[vsprvs-current](../sharepoint/includes/vsprvs-current-md.md)]
 
 ## <a name="create-custom-site-columns"></a>사용자 지정 사이트 열 만들기
  이 예제에는 병원에서 환자를 관리 하는 것에 대 한 목록을 만듭니다. SharePoint 프로젝트를 먼저 만들어야 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 같이, 사이트 열을 추가 합니다.
@@ -67,7 +67,7 @@ ms.locfileid: "57870401"
 
      샌드박스가 적용 된에 대 한 자세한 내용은 및 팜 솔루션, 참조 [샌드박스 솔루션 고려 사항](../sharepoint/sandboxed-solution-considerations.md)합니다.
 
-6.  선택 된 **완료** 단추입니다. 이제 프로젝트에 나열 됩니다 **솔루션 탐색기**합니다.
+6.  선택 된 **완료** 단추입니다. 프로젝트에 나열 된 **솔루션 탐색기**합니다.
 
 #### <a name="to-add-site-columns"></a>사이트 열을 추가 하려면
 
@@ -224,4 +224,4 @@ ms.locfileid: "57870401"
 - [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)
 - [방법: 사용자 지정 필드 유형 만들기](http://go.microsoft.com/fwlink/?LinkId=192079)
 - [콘텐츠 형식](http://go.microsoft.com/fwlink/?LinkId=192080)
-- [열](http://go.microsoft.com/fwlink/?LinkId=192081)
+- [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)
