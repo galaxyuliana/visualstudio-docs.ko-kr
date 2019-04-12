@@ -34,12 +34,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6edffaa0b45cc045428161dc04bf52d1c607c51c
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.openlocfilehash: 59b654472b9173d5cb5559a57f644113b382fdb8
+ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366707"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59504330"
 ---
 # <a name="use-breakpoints-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 중단점을 사용 합니다.
 중단점은 개발자의 도구 상자에서 가장 중요 한 디버깅 기술 중 하나입니다. 디버거가 실행을 일시 중지 하려는 위치에 중단점을 설정 합니다. 예를 들어, 다음 코드 변수의 상태를 보거나 특정 중단점에서 호출 스택을 확인 하는 것이 좋습니다. 코드를 처음으로 디버그하려고 하는 경우 이 문서를 계속 진행하기 전에 먼저 [완전 초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md)을 참조하는 것이 좋습니다.
@@ -147,6 +147,28 @@ C# 코드, 중단점 및 현재 실행 줄은 자동으로 강조 합니다. 에
     ```C++
     ((my_class *) 0xcccccccc)->my_method
     ```
+::: moniker range=">= vs-2019"
+
+## <a name="BKMK_set_a_data_breakpoint_managed"></a>데이터 중단점 설정 (.NET Core 3.0 이상)
+
+데이터 중단점 특정 개체의 속성이 변경 될 때 실행을 중단 합니다.
+
+**데이터 중단점을 설정 하려면**
+
+1. .NET Core 프로젝트에서 디버깅을 시작 하 고 중단점에 도달할 때까지 대기 합니다.
+
+2. 에를 **자동**를 **조사식**, 또는 **지역** 창에서 속성을 마우스 오른쪽 단추로 클릭 하 고 선택 **값이 변경 될 때 중단** 상황에 맞는 메뉴입니다.
+
+    ![데이터 중단점을 관리 되는](../debugger/media/managed-data-breakpoint.png "데이터 중단점 관리")
+
+.NET Core에서 데이터 중단점에 대해 작동 하지 않습니다.
+
+- 도구 설명에, 지역, 자동 확장 가능 하지 않거나 조사식 창 속성
+- 정적 변수
+- DebuggerTypeProxy 특성을 사용 하 여 클래스
+- 구조체 내에서 필드 
+
+::: moniker-end
 
 ## <a name="BKMK_set_a_data_breakpoint_native_cplusplus"></a>데이터 중단점 설정 (네이티브 C++ 만)
 
@@ -156,7 +178,7 @@ C# 코드, 중단점 및 현재 실행 줄은 자동으로 강조 합니다. 에
 
 1.  에 C++ 프로젝트에서 디버깅을 시작 하 고 중단점에 도달할 때까지 대기 합니다. 에 **디버깅할** 메뉴 선택 **새 중단점** > **데이터 중단점**
 
-    선택할 수도 있습니다 **새로 만들기** > **데이터 중단점** 에 **중단점** 창입니다.
+    선택할 수도 있습니다 **새로 만들기** > **데이터 중단점** 에 **중단점** 창에서 항목을 마우스 오른쪽 단추로 클릭 합니다 **자동**, **Watch**, 또는 **지역** 창과 선택 **값이 변경 될 때 중단**상황에 맞는 메뉴입니다.
 
 2.  **주소** 상자에 메모리 주소를 입력하거나 메모리 주소로 계산되는 식을 입력합니다. 예를 들어, 변수 `&avar` 의 내용이 변경되면 중단하려면 `avar` 을 입력합니다.
 
