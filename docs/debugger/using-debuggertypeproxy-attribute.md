@@ -1,5 +1,5 @@
 ---
-title: DebuggerTypeProxy 특성 사용 | Microsoft Docs
+title: DebuggerTypeProxy를 사용 하 여 사용자 지정 형식을 표시 합니다. | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -17,14 +17,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 011f5dc9525a8a5f88f3cc923eb56dde58313d85
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: c379fbeb9d17f92dcc7067424ea06bb1a2805ed1
+ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56717496"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "59537545"
 ---
-# <a name="using-debuggertypeproxy-attribute-c-visual-basic-ccli"></a>DebuggerTypeProxy 특성 사용 (C#, Visual Basic, C + + /cli CLI)
+# <a name="tell-the-debugger-what-type-to-show-using-debuggertypeproxy-attribute-c-visual-basic-ccli"></a>DebuggerTypeProxy 특성을 사용 하 여 표시 유형을 디버거에 (C#, Visual Basic의 경우 C++/CLI)
 
 <xref:System.Diagnostics.DebuggerTypeProxyAttribute>는 형식에 대한 프록시 또는 대리 항목을 지정하고 형식이 디버거 창에 표시되는 방식을 변경합니다. 프록시가 있는 변수를 볼 때 원래 형식 대신 프록시가 **표시**에 나타납니다. 디버거 변수 창에는 프록시 형식의 공용 멤버만 표시됩니다. 개인 멤버는 표시되지 않습니다.
 
@@ -35,7 +35,7 @@ ms.locfileid: "56717496"
 - 어셈블리
 
 > [!NOTE]
-> 네이티브 코드에 대해이 특성 에서만 지원 됩니다 C + + /cli 코드입니다.
+> 네이티브 코드에 대해이 특성 에서만 지원 됩니다 C++/CLI 코드입니다.
 
 형식 프록시 클래스에는 프록시가 대체할 형식의 인수를 사용하는 생성자가 있어야 합니다. 디버거에서는 대상 형식의 변수를 표시해야 할 때마다 형식 프록시 클래스의 새 인스턴스를 만듭니다. 이 경우 성능에 영향을 미칠 수 있으므로 생성자에서는 반드시 필요한 작업만 수행해야 합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "56717496"
 
 `DebuggerTypeProxy`에서 제네릭 형식을 대상으로 사용하는 경우 이 구문을 사용해야 합니다. `DebuggerTypeProxy` 메커니즘은 형식 매개 변수를 자동으로 유추합니다.
 
-개방형 형식과 닫힌 형식에 대 한 자세한 내용은 C# 참조를 [ C# 언어 사양](/dotnet/csharp/language-reference/language-specification), 섹션 20.5.2 개방형 형식 및 닫힌 형식을 합니다.
+C#의 개방형 형식과 닫힌 형식에 대 한 자세한 내용은 참조는 [C# 언어 사양](/dotnet/csharp/language-reference/language-specification), 섹션 20.5.2 개방형 형식 및 닫힌 형식을 합니다.
 
 Visual Basic에는 개방형 형식 구문이 없으므로 Visual Basic의 경우 이와 같은 작업을 수행할 수 없습니다. 대신 개방형 형식 이름의 문자열 표현을 사용해야 합니다.
 

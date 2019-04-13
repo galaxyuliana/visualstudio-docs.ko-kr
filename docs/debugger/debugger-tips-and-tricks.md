@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a4656ae21c51d105c2d523275af63e84c2326d4d
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.openlocfilehash: bb47aa94dbf444e27fd149e2e16c723677f973eb
+ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366304"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "59537561"
 ---
 # <a name="learn-productivity-tips-and-tricks-for-the-debugger-in-visual-studio"></a>For the Debugger in Visual Studio 생산성 팁과 트릭 배우기
 
@@ -52,6 +52,10 @@ Visual Studio에서 지 원하는 대부분의 언어에서 디버깅 세션 중
     ![조건부 중단점](../debugger/media/dbg-multithreaded-conditional-breakpoint.png "ConditionalBreakpoint")
 
 3. 다른 유형의 조건에 관심이 선택 **필터** 대신 **조건식** 에 **중단점 설정** 대화 상자를 닫은 후 다음을 필터 팁입니다.
+
+## <a name="configure-the-data-to-show-in-the-debugger"></a>디버거에서 표시할 데이터를 구성 합니다.
+
+에 대 한 C#, Visual Basic 및 C++ (C++/CLI 코드에만 해당), 디버거를 사용 하 여 표시할 정보를 알 수 있습니다 합니다 [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) 특성. 에 대 한 C++ 코드에서 동일한 사용 하 여 수행할 수 있습니다 [Natvis 시각화](create-custom-views-of-native-objects.md)합니다.
 
 ## <a name="change-the-execution-flow"></a>실행 흐름 변경
 
