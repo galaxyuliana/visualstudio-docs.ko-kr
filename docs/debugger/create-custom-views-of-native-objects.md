@@ -1,5 +1,5 @@
 ---
-title: 네이티브 개체의 사용자 지정 뷰 만들기
+title: 사용자 지정 뷰 만들기 C++ 개체
 description: Natvis 프레임 워크를 사용 하 여 Visual Studio 디버거에서 네이티브 형식을 표시 하는 방식을 사용자 지정 하려면
 ms.date: 10/31/2018
 ms.topic: conceptual
@@ -13,14 +13,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: fa0f457c81b39f05a18250a5c7ece7533ccc1788
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
-ms.translationtype: MTE95
+ms.openlocfilehash: 1f56dda1f64a0bd50a6bb81b981ad4add7d9c095
+ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428806"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "59537579"
 ---
-# <a name="create-custom-views-of-native-objects-in-the-debugger"></a>디버거에서 네이티브 개체의 사용자 지정 뷰 만들기
+# <a name="create-custom-views-of-c-objects-in-the-debugger"></a>사용자 지정 뷰 만들기 C++ 디버거에서 개체
 
 Visual Studio *Natvis* 프레임 워크와 같은 디버거 변수 창에 네이티브 형식을 표시 하는 방법을 사용자 지정 합니다 **지역** 하 고 **조사식** windows에 **DataTips**합니다. Natvis 시각화를 디버깅 하는 동안 더 잘 보이도록 만들 형식을 도움이 됩니다.
 
@@ -40,7 +40,7 @@ Natvis 프레임 워크를 사용 하 여 개발자가 디버깅 하는 동안 �
 
 ![시각화 도우미를 사용 하 여 텍스트 데이터](../debugger/media/dbg_natvis_textbox_visualizer.png "시각화 도우미를 사용 하 여 텍스트 데이터")
 
-##  <a name="BKMK_Using_Natvis_files"></a>C + + 프로젝트에서.natvis 파일을 사용
+##  <a name="BKMK_Using_Natvis_files"></a>.natvis 파일을 사용 하 여 C++ 프로젝트
 
 다음을 사용 하 여 Natvis *.natvis* 시각화 규칙을 지정 하는 파일입니다. A *.natvis* 파일이 사용 하 여 XML 파일을 *.natvis* 확장 합니다. Natvis 스키마에 정의 되어 *%VSINSTALLDIR%\Xml\Schemas\natvis.xsd*합니다.
 
@@ -63,21 +63,21 @@ Natvis 프레임 워크를 사용 하 여 개발자가 디버깅 하는 동안 �
 
 Visual Studio에는 일부 *.natvis* 파일을 *%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers* 폴더입니다. 이러한 파일은 많은 공통 형식에 대 한 시각화 규칙이 새 형식에 대 한 시각화를 작성 하기 위한 예제로 사용할 수 있습니다.
 
-### <a name="add-a-natvis-file-to-a-c-project"></a>C + + 프로젝트에.natvis 파일 추가
+### <a name="add-a-natvis-file-to-a-c-project"></a>.Natvis 파일을 추가할는 C++ 프로젝트
 
-추가할 수는 *.natvis* c + + 프로젝트 파일입니다.
+추가할 수는 *.natvis* 파일에 C++ 프로젝트입니다.
 
 **새 추가할 *.natvis* 파일:**
 
-1. c + + 프로젝트 노드를 선택 **솔루션 탐색기**, 선택한 **프로젝트** > **새 항목 추가**, 또는 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **추가**   >  **새 항목**합니다.
+1. 선택 된 C++ 에서 프로젝트 노드 **솔루션 탐색기**를 선택한 **프로젝트** > **새 항목 추가**, 또는 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **추가** > **새 항목**합니다.
 
-1. 에 **새 항목 추가** 대화 상자에서 **Visual c + +** > **유틸리티** > **디버거 시각화 파일 (.natvis)**.
+1. 에 **새 항목 추가** 대화 상자에서 **시각적 C++**   >  **유틸리티** > **디버거 시각화 파일 (.natvis)** .
 
 1. 선택한 파일 이름을 **추가**합니다.
 
    새 파일에 추가 됩니다 **솔루션 탐색기**, Visual Studio 문서 창에서 열립니다.
 
-Visual Studio 디버거를 로드 *.natvis* c + + 프로젝트의 파일에에서 자동으로 및 기본적으로 또한에 *.pdb* 프로젝트가 빌드될 때 파일입니다. 디버거를 로드 하는 기본 제공된 앱을 디버그 하는 경우는 *.natvis* 에서 파일을 *.pdb* 파일을 프로젝트를 열고 없는 경우에 합니다. 하지 못하도록 하려는 경우는 *.natvis* 에 포함 된 파일을 *.pdb*, 기본 제공에서 제외할 수 있습니다 *.pdb* 파일입니다.
+Visual Studio 디버거를 로드 *.natvis* 파일 C++ 프로젝트를 자동으로 하 고 기본적으로 또한에 *.pdb* 프로젝트가 빌드될 때 파일입니다. 디버거를 로드 하는 기본 제공된 앱을 디버그 하는 경우는 *.natvis* 에서 파일을 *.pdb* 파일을 프로젝트를 열고 없는 경우에 합니다. 하지 못하도록 하려는 경우는 *.natvis* 에 포함 된 파일을 *.pdb*, 기본 제공에서 제외할 수 있습니다 *.pdb* 파일입니다.
 
 **제외에 *.natvis* 에서 파일을 *.pdb*:**
 
@@ -86,7 +86,7 @@ Visual Studio 디버거를 로드 *.natvis* c + + 프로젝트의 파일에에�
 1. 화살표 옆에 드롭다운 **빌드에서 제외** 선택한 **예**를 선택한 후 **확인**합니다.
 
 >[!NOTE]
->실행 파일 프로젝트의 디버깅을 위해 추가할 솔루션 항목을 사용 *.natvis* 에 없는 파일을 *.pdb*가 사용할 수 있는 c + + 프로젝트가 없습니다.
+>실행 파일 프로젝트의 디버깅을 위해 추가할 솔루션 항목을 사용 *.natvis* 에 없는 파일을 *.pdb*되므로, 없습니다 C++ 프로젝트를 사용할 수 있습니다.
 
 >[!NOTE]
 >Natvis 규칙에서 로드를 *.pdb* 모듈의 형식에만 적용 하는 *.pdb* 가리킵니다. 예를 들어, 경우 *Module1.pdb* 명명 된 형식에 대해 Natvis 항목이 `Test`에 적용 됩니다는 `Test` 클래스 *Module1.dll*. 다른 모듈은 또한 라는 클래스를 정의 하는 경우 `Test`서 *module1.pdb가* Natvis 항목에 적용 되지 않습니다.
@@ -99,7 +99,7 @@ Visual Studio 디버거를 로드 *.natvis* c + + 프로젝트의 파일에에�
 
 1. 모든 *.natvis* 에 포함 된 파일을 *.pdb* 로드 된 프로젝트에서 동일한 이름의 파일이 존재 하지 않는 경우 디버그 하 합니다.
 
-2. 모든 *.natvis* 로드 된 c + + 프로젝트 또는 최상위 솔루션에 있는 파일입니다. 이 그룹에는 다른 언어로 클래스 라이브러리, 하지만 프로젝트가 아니라를 포함 하 여 로드 된 모든 c + + 프로젝트가 포함 됩니다.
+2. 모든 *.natvis* 로드에 있는 파일을 C++ 프로젝트 또는 최상위 솔루션입니다. 이 그룹에 로드 된 모든 C++ 프로젝트에 클래스 라이브러리를 포함 하 여 하지만 다른 언어의 프로젝트 없습니다.
 
 ::: moniker range="vs-2017"
 
@@ -128,13 +128,13 @@ Visual Studio 디버거를 로드 *.natvis* c + + 프로젝트의 파일에에�
 또한 사용 하 여는 **.natvisreload** 업그레이드 하는 명령 합니다 *.natvis* 최신 버전으로 파일. 예를 들어를 *.natvis* 파일 소스 제어에 체크 인할 수 있습니다 및 다른 사용자가 최근 변경 내용을 선택 하려고 합니다.
 
 ##  <a name="BKMK_Expressions_and_formatting"></a> 식 및 형식 지정
-Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 지정합니다. 에 설명 된 디버거의 c + + 식의 제한 사항 고 향상 된 기능을 하는 것 외에도 [컨텍스트 연산자 (c + +)](../debugger/context-operator-cpp.md), 다음에 유의 합니다.
+Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 지정합니다. 향상 된 기능 및 제한 사항 외에도 C++ 에 설명 된 디버거에서 식을 [컨텍스트 연산자 (C++)](../debugger/context-operator-cpp.md), 다음에 유의 합니다.
 
 - Natvis 식은 현재 스택 프레임이 아닌 시각화되는 개체의 컨텍스트에서 평가됩니다. 예를 들어 `x` 라는 필드 참조 식에는 Natvis **x** 라는 지역 변수 필요가 시각화 되는 개체에 **x** 현재 함수에서. Natvis 식 내의 지역 변수는 액세스할 수 없지만 전역 변수에 액세스할 수 있습니다.
 
 - Natvis 식 함수 평가 또는 부작용을 허용 하지 않습니다. 함수 호출 및 할당 연산자는 무시 됩니다. [디버거 내장 함수](../debugger/expressions-in-the-debugger.md#BKMK_Using_debugger_intrinisic_functions_to_maintain_state) 는 부작용이 발생하지 않기 때문에 다른 함수 호출이 금지되어 있더라도 어떤 Natvis 식에서든 자유롭게 호출할 수 있습니다.
 
-- 식을 표시 하는 방법을 제어 하에 설명 된 형식 지정자를 사용할 수 있습니다 [Format specifiers c + +에서](format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers)합니다. 항목에서를 사용할 때 내부적으로 Natvis 같은 서식 지정자는 무시 합니다 `Size` 식에는 [ArrayItems 확장](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).
+- 식을 표시 하는 방법을 제어 하에 설명 된 형식 지정자를 사용할 수 있습니다 [형식 지정자에서 C++ ](format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers)합니다. 항목에서를 사용할 때 내부적으로 Natvis 같은 서식 지정자는 무시 합니다 `Size` 식에는 [ArrayItems 확장](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).
 
 ## <a name="natvis-views"></a>Natvis 뷰
 
@@ -165,7 +165,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 **Natvis 진단을 켜려면:**
 
-- 아래 **도구가** > **옵션** (또는 **디버그** > **옵션**) > **디버깅**  >  **출력 창**설정 **Natvis 진단 메시지 (c + + 전용)** 하 **오류**를 **경고**, 또는  **자세한 정보 표시**를 선택한 후 **확인**합니다.
+- 아래 **도구가** > **옵션** (또는 **디버그** > **옵션**) > **디버깅**  >  **출력 창**설정 **Natvis 진단 메시지 (C++ 만)** 하 **오류**합니다 **경고** 또는 **Verbose**를 선택한 후 **확인**합니다.
 
 에 오류가 표시 되는 **출력** 창입니다.
 
@@ -366,7 +366,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
  ![StringView 시각화 도우미가 있는 CStringT 데이터](../debugger/media/dbg_natvis_stringview_cstringt.png "StringView 시각화 도우미가 있는 CStringT 데이터")
 
-식을 `{m_pszData,su}` c + + 형식 지정자를 포함 **su**을 유니코드 문자열로 값을 표시 합니다. 자세한 내용은 [Format specifiers c + +에서](../debugger/format-specifiers-in-cpp.md)합니다.
+식 `{m_pszData,su}` 포함 됩니다는 C++ 형식 지정자 **su**을 유니코드 문자열로 값을 표시 합니다. 자세한 내용은 [형식 지정자에서 C++ ](../debugger/format-specifiers-in-cpp.md)합니다.
 
 ###  <a name="BKMK_Expand"></a> 요소 확장
 
@@ -505,7 +505,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 `ValueNode` 비어 있을 수 있습니다, 또는 사용 하 여 `this` 를 참조 하는 `LinkedListItems` 노드 자체입니다.
 
 #### <a name="customlistitems-expansion"></a>CustomListItems 확장
-`CustomListItems` 확장을 사용하여 해시 테이블 같은 데이터 구조 전송에 대한 사용자 지정 논리를 작성할 수 있습니다. 사용 하 여 `CustomListItems` 매우 싶지만 평가 하는 데 필요한 모든 것에 대 한 c + + 식에 사용할 수 있는 데이터 구조를 시각화의 유형에 맞는 `ArrayItems`를 `IndexListItems`, 또는 `LinkedListItems`합니다.
+`CustomListItems` 확장을 사용하여 해시 테이블 같은 데이터 구조 전송에 대한 사용자 지정 논리를 작성할 수 있습니다. 사용 하 여 `CustomListItems` 사용할 수 있는 데이터 구조를 시각화 하 C++ 를 평가 하는 데 필요한 모든 것에 대 한 식의 유형에 적합 하지 않은 하지만 `ArrayItems`, `IndexListItems`, 또는 `LinkedListItems`합니다.
 
 다음 시각화 도우미 `CAtlMap` 는 가장 좋은 예는 `CustomListItems` 적합 합니다.
 
@@ -664,7 +664,7 @@ UIVisualizer 요소의 예는 다음과 같습니다.
 
 - A `ServiceId`  -  `Id` 식별 하는 특성 쌍을 `UIVisualizer`입니다. `ServiceId` 시각화 도우미 서비스의 GUID 패키지 노출 됩니다. `Id` 둘 이상의 서비스를 제공 하는 경우 시각화 도우미를 구분할 수 있는 고유 식별자가입니다. 앞의 예에서 동일한 시각화 도우미 서비스는 두 명의 시각화 도우미를 제공합니다.
 
-- `MenuName` 특성은 디버거에 돋보기 아이콘 옆의 드롭다운 목록에 표시 하는 시각화 도우미 이름을 정의 합니다. 예:
+- `MenuName` 특성은 디버거에 돋보기 아이콘 옆의 드롭다운 목록에 표시 하는 시각화 도우미 이름을 정의 합니다. 예를 들어:
 
   ![UIVisualizer 메뉴 바로 가기 메뉴](../debugger/media/dbg_natvis_vectorvisualizer.png "UIVisualizer 메뉴 바로 가기 메뉴")
 

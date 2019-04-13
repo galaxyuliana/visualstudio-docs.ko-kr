@@ -1,5 +1,5 @@
 ---
-title: DebuggerDisplay 특성 사용 | Microsoft Docs
+title: DebuggerDisplay를 사용 하 여 사용자 지정 정보를 표시 합니다. | Microsoft Docs
 ms.date: 01/09/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,14 +12,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4073ad5f112f0585f01de756f2cde4b352b7446a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 5b9c98411e378601280d36dbe4720864177d4019
+ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680190"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "59537639"
 ---
-# <a name="using-the-debuggerdisplay-attribute-c-visual-basic-f-ccli"></a>DebuggerDisplay 특성 사용 (C#, Visual Basic의 경우 F#, C + + /cli CLI)
+# <a name="tell-the-debugger-what-to-show-using-the-debuggerdisplay-attribute-c-visual-basic-f-ccli"></a>DebuggerDisplay 특성을 사용 하 여 표시 하도록 디버거에 지시 (C#, Visual Basic의 경우 F#, C++/CLI)
 <xref:System.Diagnostics.DebuggerDisplayAttribute>는 개체, 속성 또는 필드가 디버거 변수 창에 표시되는 방식을 제어합니다. 이 특성은 형식, 대리자, 속성, 필드 및 어셈블리에 적용할 수 있습니다.
 
 `DebuggerDisplay` 특성에는 형식 인스턴스에 대한 값 열에 표시되는 문자열인 단일 인수가 있습니다. 이 문자열에는 중괄호(`{` 및 `}`)가 포함될 수 있습니다. 중괄호 쌍 안의 텍스트는 필드, 속성 또는 메서드로 확인됩니다.
@@ -32,7 +32,7 @@ ms.locfileid: "56680190"
 > **변수 창에서 개체의 원시 구조체 표시** 확인란이 **도구/옵션/디버깅** 대화 상자에서 선택되어 있는 경우 `DebuggerDisplay` 특성이 무시됩니다.
 
 > [!NOTE]
-> 네이티브 코드에 대해이 특성 에서만 지원 됩니다 C + + /cli 코드입니다.
+> 네이티브 코드에 대해이 특성 에서만 지원 됩니다 C++/CLI 코드입니다.
 
 다음 표에서는 `DebuggerDisplay` 특성의 사용 예와 예제 출력을 보여 줍니다.
 
