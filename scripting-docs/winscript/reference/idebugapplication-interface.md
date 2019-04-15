@@ -46,6 +46,6 @@ ms.locfileid: "58152472"
 |[IDebugApplication::FireDebuggerEvent](../../winscript/reference/idebugapplication-firedebuggerevent.md)|디버거의 일반 이벤트가 발생 `IApplicationDebugger` 인터페이스입니다.|  
 |[IDebugApplication::HandleRuntimeError](../../winscript/reference/idebugapplication-handleruntimeerror.md)|현재 스레드를 차단 하 고 디버거 IDE 오류에 대 한 알림을 보냅니다.|  
 |[IDebugApplication::FCanJitDebug](../../winscript/reference/idebugapplication-fcanjitdebug.md)|(JIT)-just-in-time 디버거에 등록 되어 있는지 확인 합니다.|  
-|[IDebugApplication::FIsAutoJitDebugEnabled](../../winscript/reference/idebugapplication-fisautojitdebugenabled.md)|JIT 디버거 자동 디버그 바보 같은 호스트에 등록 되어 있는지 확인 합니다.|  
+|[IDebugApplication::FIsAutoJitDebugEnabled](../../winscript/reference/idebugapplication-fisautojitdebugenabled.md)|JIT 디버거 자동 디버그 호스트에 등록 되어 있는지 확인 합니다.|  
 |[IDebugApplication::AddGlobalExpressionContextProvider](../../winscript/reference/idebugapplication-addglobalexpressioncontextprovider.md)|이 응용 프로그램 전역 식 컨텍스트 공급자를 추가합니다.|  
 |[IDebugApplication::RemoveGlobalExpressionContextProvider](../../winscript/reference/idebugapplication-removeglobalexpressioncontextprovider.md)|이 응용 프로그램에서 전역 식 컨텍스트 공급자를 제거합니다.|

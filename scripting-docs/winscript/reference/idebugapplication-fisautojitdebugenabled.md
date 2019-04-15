@@ -25,7 +25,7 @@ ms.lasthandoff: 03/19/2019
 ms.locfileid: "58152079"
 ---
 # <a name="idebugapplicationfisautojitdebugenabled"></a>IDebugApplication::FIsAutoJitDebugEnabled
-Just-in-time (JIT) 디버거가 자동 디버그 바보 같은 호스트에 등록 되어 있는지 확인 합니다.  
+Just-in-time (JIT) 디버거가 자동 디버그 호스트에 등록 되어 있는지 확인 합니다.  
   
 ## <a name="syntax"></a>구문  
   
@@ -37,10 +37,10 @@ BOOL FIsAutoJitDebugEnabled();
  이 메서드는 매개 변수 없이 합니다.  
   
 ## <a name="return-value"></a>반환 값  
- 메서드가 반환 하는 경우 메서드가 성공 하 고 JIT 디버거가 자동 디버그 바보 같은 호스트에 등록 되어 있고, `TRUE`합니다. 그 외의 경우 `FALSE`를 반환합니다.  
+ 메서드가 반환 하는 경우 메서드가 성공 하 고 JIT 디버거가 자동 디버그 호스트에 등록 되어 있고, `TRUE`합니다. 그 외의 경우 `FALSE`를 반환합니다.  
   
 ## <a name="remarks"></a>설명  
- 이 메서드는 JIT 디버거가 자동 디버그 바보 같은 호스트에 등록 된 경우를 결정 합니다.  
+ 이 메서드는 JIT 디버거가 자동 디버그 호스트에 등록 된 경우를 결정 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDebugApplication 인터페이스](../../winscript/reference/idebugapplication-interface.md)
