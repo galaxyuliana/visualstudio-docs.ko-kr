@@ -34,12 +34,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 59b654472b9173d5cb5559a57f644113b382fdb8
-ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
+ms.openlocfilehash: 9cfb3e68f1f967c3c74c93107b622c618a8af728
+ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "59504330"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "59537600"
 ---
 # <a name="use-breakpoints-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 중단점을 사용 합니다.
 중단점은 개발자의 도구 상자에서 가장 중요 한 디버깅 기술 중 하나입니다. 디버거가 실행을 일시 중지 하려는 위치에 중단점을 설정 합니다. 예를 들어, 다음 코드 변수의 상태를 보거나 특정 중단점에서 호출 스택을 확인 하는 것이 좋습니다. 코드를 처음으로 디버그하려고 하는 경우 이 문서를 계속 진행하기 전에 먼저 [완전 초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md)을 참조하는 것이 좋습니다.
@@ -113,21 +113,21 @@ C# 코드, 중단점 및 현재 실행 줄은 자동으로 강조 합니다. 에
 
    - 정규화 된 함수 이름을 사용 합니다.
 
-     예제:  `Namespace1.ClassX.MethodA()`
+     예제: `Namespace1.ClassX.MethodA()`
 
    - 오버 로드 된 함수의 매개 변수 형식을 추가 합니다.
 
-     예제:  `MethodA(int, string)`
+     예제: `MethodA(int, string)`
 
    - 사용 된 '!' 기호 모듈을 지정 합니다.
 
-     예제: `App1.dll!MethodA`
+     예: `App1.dll!MethodA`
 
    - 컨텍스트 연산자를 사용 하 여 네이티브에서 C++입니다.
 
      `{function, , [module]} [+<line offset from start of method>]`
 
-     예제: `{MethodA, , App1.dll}+2`
+     예: `{MethodA, , App1.dll}+2`
 
 1. 에 **언어** 드롭다운에서 함수 언어를 선택 합니다.
 
@@ -176,13 +176,13 @@ C# 코드, 중단점 및 현재 실행 줄은 자동으로 강조 합니다. 에
 
 **데이터 중단점을 설정 합니다.**
 
-1.  에 C++ 프로젝트에서 디버깅을 시작 하 고 중단점에 도달할 때까지 대기 합니다. 에 **디버깅할** 메뉴 선택 **새 중단점** > **데이터 중단점**
+1. 에 C++ 프로젝트에서 디버깅을 시작 하 고 중단점에 도달할 때까지 대기 합니다. 에 **디버깅할** 메뉴 선택 **새 중단점** > **데이터 중단점**
 
     선택할 수도 있습니다 **새로 만들기** > **데이터 중단점** 에 **중단점** 창에서 항목을 마우스 오른쪽 단추로 클릭 합니다 **자동**, **Watch**, 또는 **지역** 창과 선택 **값이 변경 될 때 중단**상황에 맞는 메뉴입니다.
 
-2.  **주소** 상자에 메모리 주소를 입력하거나 메모리 주소로 계산되는 식을 입력합니다. 예를 들어, 변수 `&avar` 의 내용이 변경되면 중단하려면 `avar` 을 입력합니다.
+2. **주소** 상자에 메모리 주소를 입력하거나 메모리 주소로 계산되는 식을 입력합니다. 예를 들어, 변수 `&avar` 의 내용이 변경되면 중단하려면 `avar` 을 입력합니다.
 
-3.  디버거에서 조사할 바이트 수를 **바이트 계산** 드롭다운에서 선택합니다. 예를 들어, **4**를 선택하면 디버거가 `&avar` 에서 시작되는 4바이트를 조사하여 해당 바이트의 값이 변경되면 중단됩니다.
+3. 디버거에서 조사할 바이트 수를 **바이트 계산** 드롭다운에서 선택합니다. 예를 들어, **4**를 선택하면 디버거가 `&avar` 에서 시작되는 4바이트를 조사하여 해당 바이트의 값이 변경되면 중단됩니다.
 
 데이터 중단점은 다음 조건에서 작동 하지 않습니다.
 -   디버깅되지 않는 프로세스는 메모리 위치에 기록합니다.
@@ -328,7 +328,7 @@ C# 코드, 중단점 및 현재 실행 줄은 자동으로 강조 합니다. 에
 
 ## <a name="see-also"></a>참고자료
 
-- [디버깅이란 무엇인가요?](../debugger/what-is-debugging.md)
+- [디버깅이란?](../debugger/what-is-debugging.md)
 - [보다 효과적으로 작성할 C# Visual Studio를 사용 하는 코드](../debugger/write-better-code-with-visual-studio.md)
 - [디버깅 소개](../debugger/debugger-feature-tour.md)
 - [Visual Studio 디버거에서 중단점 문제 해결](../debugger/troubleshooting-breakpoints.md)
