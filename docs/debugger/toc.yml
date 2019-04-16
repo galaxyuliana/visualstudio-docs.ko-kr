@@ -202,7 +202,7 @@ items:
     - name: 데이터의 사용자 지정 뷰 만들기
       href: viewing-data-in-the-debugger.md
       items:
-      - name: 네이티브 개체의 사용자 지정 뷰 만들기
+      - name: C++ 개체의 사용자 지정 뷰 만들기
         href: create-custom-views-of-native-objects.md
         items:
         - name: Visual C++ 사용자 지정 시각화 도우미 호환성
@@ -210,10 +210,10 @@ items:
       - name: 관리 개체의 사용자 지정 뷰 만들기
         href: create-custom-views-of-dot-managed-objects.md
         items:
-        - name: DebuggerTypeProxy 특성 사용
-          href: using-debuggertypeproxy-attribute.md
-        - name: DebuggerDisplay 특성 사용
+        - name: 디버거에 표시할 내용 지시
           href: using-the-debuggerdisplay-attribute.md
+        - name: 디버거에 표시할 유형 지시
+          href: using-debuggertypeproxy-attribute.md
       - name: 데이터의 사용자 지정 시각화 도우미 만들기
         href: create-custom-visualizers-of-data.md
         items:
@@ -844,9 +844,9 @@ items:
   items:
   - name: Visual Studio 디버거의 새로운 기능
     href: what-s-new-for-the-debugger-in-visual-studio.md
-ms.openlocfilehash: 6e0d832e0adace66495a1edfd19fd7b5a9f9c866
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.openlocfilehash: ae2dc7baa536b03c6507cb4f7064e74126d1d93e
+ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366071"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "59537717"
