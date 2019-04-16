@@ -1,8 +1,8 @@
 ---
-title: Visual Studio를 사용하여 앱 디버그
+title: 디버거 소개
 description: Visual Studio 디버거를 사용하여 애플리케이션 디버깅 시작
-ms.custom: mvc
-ms.date: 01/09/2019
+ms.custom: seoapril2019
+ms.date: 04/08/2019
 ms.topic: quickstart
 helpviewer_keywords:
 - debugger
@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 14c248bbea783070e3d3bfbc439005bafb9b1fd2
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
+ms.openlocfilehash: 78b27626c457b857f6f0ce195852922f2d5c89de
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428689"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366772"
 ---
 # <a name="first-look-at-the-visual-studio-debugger"></a>먼저 Visual Studio 디버거 살펴보기
 
@@ -188,7 +188,7 @@ F10 키는 앱 코드의 함수 또는 메서드를 한 단계씩 실행하지 �
 예외 도우미는 오류를 디버깅할 수 있는 좋은 기능입니다. 오류 세부 정보 보기와 같은 작업을 수행하고 예외 도우미에서 조사식을 추가할 수도 있습니다. 또는 필요한 경우 특정 예외를 throw하는 것에 대한 조건을 변경할 수 있습니다. 코드의 예외를 처리하는 방법에 대한 자세한 내용은 [디버깅 기법 및 도구](../debugger/write-better-code-with-visual-studio.md)를 참조하세요.
 
 > [!NOTE]
-> 예외 도우미는 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]의 예외 도우미를 대체합니다.
+> 예외 도우미(Exception Helper)는 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]부터 예외 도우미(Exception Assistant)를 대체했습니다.
 
 **예외 설정** 노드를 확장하여 이 예외 형식을 처리하는 방법에 대한 더 많은 옵션을 확인합니다. 그러나 이 작업을 위해 아무 것도 변경할 필요가 없습니다!
 

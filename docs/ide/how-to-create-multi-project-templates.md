@@ -9,12 +9,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4ef0dc772422322d8cfa2f8c7ca88a7cf30eab31
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 01bd8101aa1e62e65c83d4da40af4eb624338a89
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416255"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232634"
 ---
 # <a name="how-to-create-multi-project-templates"></a>방법: 다중 프로젝트 템플릿 만들기
 
@@ -75,7 +75,11 @@ ms.locfileid: "58416255"
 2. 서식 파일에 내보낼 준비가 될 때까지 프로젝트를 사용자 지정합니다.
 
    > [!TIP]
-   > [템플릿 매개 변수](template-parameters.md)를 사용하고 부모 템플릿에서 변수를 참조하려면 매개 변수 이름 접두사를 `ext_`로 지정합니다. 예를 들어, `$ext_safeprojectname$`을 입력합니다.
+   > [템플릿 매개 변수](template-parameters.md)를 사용하고 부모 템플릿에서 변수를 참조하려면 매개 변수 이름 접두사를 `ext_`로 지정합니다. 예를 들어, `$ext_safeprojectname$`을 입력합니다. 또한 **ProjectTemplateLink** 요소의 **CopyParameters** 특성을 **true**로 설정합니다.
+   >
+   > ```xml
+   > <ProjectTemplateLink ProjectName="MyProject" CopyParameters="true">...</ProjectTemplateLink>
+   > ```
 
 3. **프로젝트** 메뉴에서 **템플릿 내보내기**를 선택합니다.
 

@@ -9,12 +9,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cbbad30fca5dd3ffbaa09c270f6a0b0400d9ea22
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4843f1e49e705e42a58afa8a882018463ce46f7b
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640794"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366759"
 ---
 # <a name="analyze-cpu-usage"></a>CPU 사용량 분석
 
@@ -56,13 +56,17 @@ ms.locfileid: "56640794"
 
 진단 보고서는 **총 CPU**를 기준으로 가장 높은 CPU에서 가장 낮은 CPU로 정렬됩니다. 열 머리글을 선택하여 정렬 순서 또는 정렬 열을 변경합니다. **필터** 드롭다운을 사용하여 표시할 스레드를 선택하거나 선택 취소하고, **검색** 상자를 사용하여 특정 스레드 또는 노드를 검색합니다.
 
+::: moniker range=">=vs-2019"
+Visual Studio 2019부터 **실행 부하 과다 경로 확장** 및 **실행 부하 과다 경로 표시** 단추를 클릭하여 호출 트리 뷰에서 CPU 사용률이 가장 높은 함수 호출을 볼 수 있습니다.
+::: moniker-end
+
 ###  <a name="BKMK_Call_tree_data_columns"></a> CPU 사용량 데이터 열
 
 |||
 |-|-|
 |**총 CPU [단위, %]**|![총 % 데이터 수식](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> 선택한 시간 범위에서 함수 호출 및 함수가 호출한 함수에 의해 사용되는 밀리초 및 CPU 백분율입니다. 이 값은 시간 범위의 총 CPU 활동을 사용 가능한 총 CPU와 비교하는 **CPU 사용률** 타임라인 그래프와 다릅니다.|
 |**셀프 CPU [단위, %]**|![자체 % 수식](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> 함수에 의해 호출되는 함수를 제외하고 선택한 시간 범위에서 함수를 호출하는 데 사용되는 밀리초 및 CPU 백분율입니다.|
-|**모듈**|함수를 포함하는 모듈의 이름입니다.
+|**Module**|함수를 포함하는 모듈의 이름입니다.
 
 ###  <a name="BKMK_The_CPU_Usage_call_tree"></a> CPU 사용량 호출 트리
 
@@ -70,7 +74,12 @@ ms.locfileid: "56640794"
 
 ####  <a name="BKMK_Call_tree_structure"></a> 호출 트리 구조
 
- ![호출 트리 구조](../profiling/media/cpu_use_wt_getmaxnumbercalltree_annotated.png "호출 트리 구조")
+::: moniker range=">=vs-2019"
+![호출 트리 구조](../profiling/media/vs-2019/cpu-use-wt-getmaxnumbercalltree-annotated.png "호출 트리 구조")
+::: moniker-end
+::: moniker range="vs-2017"
+![호출 트리 구조](../profiling/media/cpu_use_wt_getmaxnumbercalltree_annotated.png "호출 트리 구조")
+::: moniker-end
 
 |||
 |-|-|
@@ -81,19 +90,24 @@ ms.locfileid: "56640794"
 
 ####  <a name="BKMK_External_Code"></a> 외부 코드
 
- 코드로 실행되는 시스템과 프레임워크 함수를 *외부 코드*라고 합니다. 외부 코드 함수는 앱 시작 및 중지, UI 그리기, 스레딩 제어, 기타 낮은 수준 서비스를 앱에 제공합니다. 대부분의 경우 외부 코드에 관심이 없으므로 CPU 사용량 호출 트리에서 사용자 메서드의 외부 함수를 하나의 **[External Code]** 노드로 수집합니다.
+코드로 실행되는 시스템과 프레임워크 함수를 *외부 코드*라고 합니다. 외부 코드 함수는 앱 시작 및 중지, UI 그리기, 스레딩 제어, 기타 낮은 수준 서비스를 앱에 제공합니다. 대부분의 경우 외부 코드에 관심이 없으므로 CPU 사용량 호출 트리에서 사용자 메서드의 외부 함수를 하나의 **[External Code]** 노드로 수집합니다.
 
- 외부 코드의 호출 경로를 보려면 기본 진단 보고서 페이지(오른쪽 창)의 **필터** 드롭다운에서 **외부 코드 표시**를 선택한 다음, **적용**을 선택합니다. **CPU 사용량** 페이지의 **호출 트리** 보기와 외부 코드 호출을 확장합니다. (**필터** 드롭다운은 자세한 보기가 아닌 기본 진단 페이지에서 사용할 수 있습니다.)
+외부 코드의 호출 경로를 보려면 기본 진단 보고서 페이지(오른쪽 창)의 **필터** 드롭다운에서 **외부 코드 표시**를 선택한 다음, **적용**을 선택합니다. **CPU 사용량** 페이지의 **호출 트리** 보기와 외부 코드 호출을 확장합니다. (**필터** 드롭다운은 자세한 보기가 아닌 기본 진단 페이지에서 사용할 수 있습니다.)
 
- ![외부 코드 표시](../profiling/media/cpu_use_wt_filterview.png "외부 코드 표시")
+![외부 코드 표시](../profiling/media/cpu_use_wt_filterview.png "외부 코드 표시")
 
- 여러 외부 코드 호출 체인은 깊이 중첩되어 있으므로 체인 너비가 **함수 이름** 열의 표시 너비를 초과할 수 있습니다. 그러면 함수 이름이 **...** 로 나타납니다.
+여러 외부 코드 호출 체인은 깊이 중첩되어 있으므로 체인 너비가 **함수 이름** 열의 표시 너비를 초과할 수 있습니다. 그러면 함수 이름이 **...** 로 나타납니다.
 
- ![호출 트리에 중첩된 외부 코드](../profiling/media/cpu_use_wt_showexternalcodetoowide.png "호출 트리에 중첩된 외부 코드")
+![호출 트리에 중첩된 외부 코드](../profiling/media/cpu_use_wt_showexternalcodetoowide.png "호출 트리에 중첩된 외부 코드")
 
- 찾고자 하는 함수 이름을 찾으려면 검색 상자를 사용합니다. 선택한 줄 위로 마우스를 가져가거나 가로 스크롤 막대를 사용하여 데이터를 봅니다.
+찾고자 하는 함수 이름을 찾으려면 검색 상자를 사용합니다. 선택한 줄 위로 마우스를 가져가거나 가로 스크롤 막대를 사용하여 데이터를 봅니다.
 
- ![중첩된 외부 코드 검색](../profiling/media/cpu_use_wt_showexternalcodetoowide_found.png "중첩된 외부 코드 검색")
+::: moniker range=">=vs-2019"
+![중첩된 외부 코드 검색](../profiling/media/vs-2019/cpu-use-wt-showexternalcodetoowide-found.png "중첩된 외부 코드 검색")
+::: moniker-end
+::: moniker range="vs-2017"
+![중첩된 외부 코드 검색](../profiling/media/cpu_use_wt_showexternalcodetoowide_found.png "중첩된 외부 코드 검색")
+::: moniker-end
 
 ###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> CPU 사용량 호출 트리의 비동기 함수
 
@@ -107,8 +121,8 @@ ms.locfileid: "56640794"
 
 ![확장된 비동기 노드](media/cpu_use_wt_getmaxnumberasync_expandedcalltree.png "확장된 비동기 노드")
 
-- `MainPage::GetMaxNumberAsyncButton_Click`은 작업 값 목록을 관리하고, 결과의 최댓값을 계산하고, 출력을 표시합니다.
+- `MainPage::GetMaxNumberAsyncButton_Click` 작업 값 목록을 관리하고, 결과의 최댓값을 계산하고, 출력을 표시합니다.
 
 - `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` 는 `GetNumberAsync`에 대한 호출을 래핑하는 48개 작업을 예약 및 시작하는 데 필요한 활동을 보여 줍니다.
 
-- `MainPage::<GetNumberAsync>b__b`는 `GetNumber`를 호출하는 작업의 활동을 보여줍니다.
+- `MainPage::<GetNumberAsync>b__b` `GetNumber`를 호출하는 작업의 활동을 보여 줍니다.

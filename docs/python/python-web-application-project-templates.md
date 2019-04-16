@@ -3,19 +3,19 @@ title: Python용 웹 애플리케이션 템플릿
 description: Visual Studio는 Bottle, Flask 및 Django 프레임워크를 사용하는 Python 웹 애플리케이션용 템플릿을 제공합니다. 지원에는 디버깅 구성 및 Azure App Service에 게시하는 것이 포함됩니다.
 ms.date: 01/28/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 81684f8069189f6ee3deed48d9f2a6718b01d7b4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 952c4d9ab82275ff7b1550a3704e89b93c6260a3
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957902"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366590"
 ---
 # <a name="python-web-application-project-templates"></a>Python 웹 애플리케이션 프로젝트 템플릿
 
@@ -98,7 +98,7 @@ Microsoft Azure Cloud Services는 *requirements.txt* 파일을 *지원합니다*
 - **환경**: 환경 변수를 지정하는 줄 바꿈 문자로 구분된 \<NAME>=\<VALUE> 쌍 목록입니다. 이러한 변수는 포트 번호 및 검색 경로 등 환경을 수정할 수 있는 모든 속성 뒤에 설정되므로 이러한 값을 덮어쓸 수 있습니다.
 
 MSBuild 구문으로 모든 프로젝트 속성 또는 환경 변수를 지정할 수 있습니다. 예를 들면 `$(StartupFile) --port $(SERVER_PORT)`입니다.
-`$(StartupFile)`은 시작 파일에 대한 상대 경로이며 `{StartupModule}`은 시작 파일의 가져올 수 있는 이름입니다. `$(SERVER_HOST)` 및 `$(SERVER_PORT)`는 **시작 URL** 및 **포트 번호** 속성으로 자동으로 설정되거나 **환경** 속성으로 설정되는 일반 환경 변수입니다.
+`$(StartupFile)` 시작 파일에 대한 상대 경로이며 `{StartupModule}`은 시작 파일의 가져올 수 있는 이름입니다. `$(SERVER_HOST)` 및 `$(SERVER_PORT)`는 **시작 URL** 및 **포트 번호** 속성으로 자동으로 설정되거나 **환경** 속성으로 설정되는 일반 환경 변수입니다.
 
 > [!Note]
 > **서버 실행 명령**의 값은 **디버그** > **서버 시작** 명령이나 **Ctrl**+**F5**에 사용되며 **서버 디버그 명령** 그룹의 값은 **디버그** > **서버 디버그 시작** 명령이나 **F5**에 사용됩니다.

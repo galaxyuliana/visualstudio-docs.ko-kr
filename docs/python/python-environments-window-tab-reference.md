@@ -3,19 +3,19 @@ title: Python 환경 창 참조
 description: Visual Studio의 [Python 환경] 창에 나타나는 각 탭에 대한 세부 정보입니다.
 ms.date: 03/18/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: d8e60b92b7c76c22c35edbe42d60644583f37123
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: 578f73aabfb8b5a4c8336c8611f634b8947c8885
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355778"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366525"
 ---
 # <a name="python-environments-window-tabs-reference"></a>Python 환경 창 탭 참조
 
@@ -60,7 +60,7 @@ ms.locfileid: "58355778"
 
 시작 스크립트에는 가져오기, 함수 정의 등을 포함하여 **대화형** 창에서 자동으로 로드하고 실행하는 코드가 포함됩니다. 이러한 스크립트는 다음 두 가지 방법으로 참조됩니다.
 
-1. 환경을 설치할 때 Visual Studio는 *Documents\Visual Studio <version>\Python Scripts\\\<environment>* 폴더를 만듭니다. 여기서 &lt;버전&gt;은 Visual Studio 버전(예: 2017 또는 2019)이고 &lt;environment&gt;는 환경 이름과 일치합니다. **대화형 스크립트 탐색** 명령을 사용하여 환경 관련 폴더를 쉽게 탐색할 수 있습니다. 해당 환경에 대한 **대화형** 창을 시작하면 여기서 발견된 *.py* 파일이 사전순으로 로드 및 실행됩니다.
+1. 환경을 설치할 때 Visual Studio는 *Documents\Visual Studio \<version>\Python Scripts\\\<environment>* 폴더를 만듭니다. 여기서 &lt;version&gt;은 Visual Studio 버전(예: 2017 또는 2019)이고 &lt;environment&gt;는 환경 이름과 일치합니다. **대화형 스크립트 탐색** 명령을 사용하여 환경 관련 폴더를 쉽게 탐색할 수 있습니다. 해당 환경에 대한 **대화형** 창을 시작하면 여기서 발견된 *.py* 파일이 사전순으로 로드 및 실행됩니다.
 
 1. **도구** > **옵션** > **Python** > **대화형 창** 탭([대화형 창 옵션](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options) 참조)의 **스크립트** 컨트롤은 모든 환경에서 로드 및 실행되는 시작 스크립트에 대한 추가 폴더를 지정하기 위한 것입니다. 그러나 이 기능은 현재 작동하지 않습니다.
 
@@ -88,7 +88,7 @@ ms.locfileid: "58355778"
 
 ## <a name="packages-tab"></a>패키지 탭
 
-또한 이전 버전에서 “pip”로 레이블이 지정됩니다.
+*또한 이전 버전에서 “pip”로 레이블이 지정됩니다.*
 
 환경에 설치된 패키지는 PIP(**패키지(PyPI)** 탭) 또는 Conda(**패키지(Conda)** 탭, Visual Studio 2017 버전 15.7 이상의 Conda 환경인 경우)를 사용하여 관리합니다. 이러한 탭에서는 종속성을 포함하여 새 패키지를 검색하고 설치할 수도 있습니다.
 

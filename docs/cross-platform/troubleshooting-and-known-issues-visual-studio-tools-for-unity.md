@@ -10,12 +10,12 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: 1c69c78e9a081680c6ee5279ddce1816bf500672
-ms.sourcegitcommit: 5c049194fa256b876ad303f491af11edd505756c
+ms.openlocfilehash: 57249507373199d217079a9b18c483fee9a51098
+ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53027291"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58897701"
 ---
 # <a name="troubleshooting-and-known-issues-visual-studio-tools-for-unity"></a>문제 해결 및 알려진 문제(Visual Studio Tools for Unity)
 
@@ -62,7 +62,7 @@ FMOD의 경우 일시적인 해결 방법이 있습니다. 즉, `FMOD_STUDIO_INI
 
 ## <a name="extra-reloads-or-visual-studio-losing-all-open-windows"></a>추가 다시 로드 또는 열린 모든 창이 손실되는 Visual Studio
 
-자산 처리기나 다른 도구에서 프로젝트 파일을 직접 터치하지 마십시오. 프로젝트 파일을 정말로 조작해야 하는 경우 API를 사용하는 것이 좋습니다. [어셈블리 참조 문제 섹션](#Assembly-reference-issues)을 참조하세요.
+자산 처리기나 다른 도구에서 프로젝트 파일을 직접 터치하지 마십시오. 프로젝트 파일을 정말로 조작해야 하는 경우 API를 사용하는 것이 좋습니다. [어셈블리 참조 문제 섹션](#assembly-reference-issues)을 참조하세요.
 
 다시 로드가 추가로 발생하거나 Visual Studio에서 다시 로드 시 열려 있는 창이 모두 손실되면 적절한 .NET 타기팅 팩이 설치되어 있는지 확인해야 합니다. 자세한 내용은 프레임워크에 대한 다음 섹션을 참조하세요.
 

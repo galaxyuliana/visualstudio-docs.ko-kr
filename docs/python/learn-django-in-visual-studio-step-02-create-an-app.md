@@ -4,19 +4,19 @@ titleSuffix: ''
 description: Visual Studio 프로젝트 컨텍스트에서 Django 기본 사항을 검토하는 연습 과정으로, 앱을 만들고 보기 및 템플릿을 사용하는 단계를 구체적으로 설명합니다.
 ms.date: 11/19/2018
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 696bb664cb7dd63e6b6964fca5d999652723d240
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: de486593c21813746c6c13fa835506d7b1703279
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955663"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366915"
 ---
 # <a name="step-2-create-a-django-app-with-views-and-page-templates"></a>2단계: 보기 및 페이지 템플릿을 사용하여 Django 앱 만들기
 
@@ -51,8 +51,8 @@ Django 앱은 일반적으로 표준 파일 집합으로 시작합니다. Visual
 | 항목 | 설명 |
 | --- | --- |
 | **\_\_init\_\_.py** | 앱을 패키지로 식별하는 파일입니다. |
-| **migrations** | Django가 모델의 변경 내용에 맞게 데이터베이스를 업데이트하는 스크립트를 저장하는 폴더입니다. Django의 마이그레이션 도구는 현재 모델과 일치하도록 이전 버전의 데이터베이스에 필요한 변경 내용을 적용합니다. 마이그레이션을 사용하여 모델에 초점을 맞추고 Django에서 기본 데이터베이스 스키마를 처리하도록 합니다. 마이그레이션은 6단계에서 설명합니다. 지금 폴더에는 폴더가 고유한 Python 패키지를 정의한다고 나타내는 *\_\_init\_\_.py* 파일만 포함됩니다. |
-| **templates** | 앱 이름과 일치하는 폴더 내에서 단일 파일 *index.html*을 포함하는 Django 페이지 템플릿의 폴더입니다. (Visual Studio 2017 15.7 이전 버전에서 파일은 *템플릿* 바로 아래에 포함되고 2-4단계에서는 사용자가 하위 폴더를 만들도록 지시합니다.) 템플릿은 보기에서 페이지를 동적으로 렌더링하기 위해 정보를 추가할 수 있는 HTML의 블록입니다. *index.html*의 `{{ content }}`와 같은 페이지 템플릿 "변수"는 이 아티클의 뒷부분(2단계)에서 설명하는 동적 값의 자리 표시자입니다. 일반적으로 Django 앱은 앱 이름과 일치하는 하위 폴더에 템플릿을 저장하여 해당 템플릿에 대한 네임스페이스를 만듭니다. |
+| **마이그레이션** | Django가 모델의 변경 내용에 맞게 데이터베이스를 업데이트하는 스크립트를 저장하는 폴더입니다. Django의 마이그레이션 도구는 현재 모델과 일치하도록 이전 버전의 데이터베이스에 필요한 변경 내용을 적용합니다. 마이그레이션을 사용하여 모델에 초점을 맞추고 Django에서 기본 데이터베이스 스키마를 처리하도록 합니다. 마이그레이션은 6단계에서 설명합니다. 지금 폴더에는 폴더가 고유한 Python 패키지를 정의한다고 나타내는 *\_\_init\_\_.py* 파일만 포함됩니다. |
+| **템플릿** | 앱 이름과 일치하는 폴더 내에서 단일 파일 *index.html*을 포함하는 Django 페이지 템플릿의 폴더입니다. (Visual Studio 2017 15.7 이전 버전에서 파일은 *템플릿* 바로 아래에 포함되고 2-4단계에서는 사용자가 하위 폴더를 만들도록 지시합니다.) 템플릿은 보기에서 페이지를 동적으로 렌더링하기 위해 정보를 추가할 수 있는 HTML의 블록입니다. *index.html*의 `{{ content }}`와 같은 페이지 템플릿 "변수"는 이 아티클의 뒷부분(2단계)에서 설명하는 동적 값의 자리 표시자입니다. 일반적으로 Django 앱은 앱 이름과 일치하는 하위 폴더에 템플릿을 저장하여 해당 템플릿에 대한 네임스페이스를 만듭니다. |
 | **admin.py** | 데이터베이스의 데이터를 시드하고 편집하는 데 사용되는 앱의 관리 인터페이스(6단계 참조)를 확장하는 Python 파일입니다. 처음에는 이 파일에 `from django.contrib import admin` 문만 포함되어 있습니다. 기본적으로 Django에는 Django 프로젝트의 *settings.py* 파일에 있는 항목을 통해 표준 관리 인터페이스가 포함됩니다. 이 인터페이스는 *urls.py*에 있는 기존 항목의 주석 처리를 제거하여 설정할 수 있습니다. |
 | **apps.py** | 앱에 대한 구성 클래스를 정의하는 Python 파일입니다(이 표 다음의 아래 참조). |
 | **models.py** | 모델은 보기가 앱의 기본 데이터베이스와 상호 작용하는 데 사용되는 데이터 개체로, 함수로 식별됩니다(6단계 참조). Django는 앱이 세부 정보에 주의를 기울일 필요가 없도록 데이터베이스 연결 계층을 제공합니다. *models.py* 파일은 모델을 만들 기본 위치이며, 처음에는 `from django.db import models` 문만 포함되어 있습니다. |

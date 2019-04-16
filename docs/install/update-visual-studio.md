@@ -2,7 +2,7 @@
 title: Visual Studio 업데이트
 titleSuffix: ''
 description: 가장 최신 릴리스로 Visual Studio를 업데이트하는 방법을 단계별로 알아봅니다.
-ms.date: 03/21/2019
+ms.date: 03/30/2019
 ms.custom: seodec18
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -15,12 +15,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 945250660e80353ea536986e5149f8814d1fe563
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: a64256f44e9de5bbfd9e65dd6410b9911aaf5075
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323596"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232686"
 ---
 # <a name="update-visual-studio-to-the-most-recent-release"></a>Visual Studio를 최신 릴리스 버전으로 업데이트
 
@@ -40,7 +40,7 @@ ms.locfileid: "58323596"
 
 IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 간소화되었습니다. 버전 15.6 이상에서 최신 버전의 Visual Studio로 업데이트하는 방법은 다음과 같습니다.
 
-### <a name="use-the-notifications-hub"></a>알림 허브 사용
+### <a name="using-the-notifications-hub"></a>알림 허브 사용
 
 업데이트가 있으면 Visual Studio에 해당 알림 플래그가 있습니다.
 
@@ -49,6 +49,9 @@ IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 �
 1. 알림 플래그를 선택하여 **알림** 허브를 열고 설치할 업데이트를 선택합니다.
 
    ![알림 허브를 사용하여 Visual Studio 2017 업데이트](media/vs-install-notifications-hub-15dot6.png "Visual Studio 2017의 알림 허브")
+
+      > [!TIP]
+      > Visual Studio 2017 버전의 업데이트는 누적되므로 항상 최신 버전 번호를 사용하여 설치하세요.
 
 1. **업데이트** 대화 상자가 열리면 **지금 업데이트**를 선택합니다.
 
@@ -63,7 +66,7 @@ IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 �
      > [!NOTE]
      > Visual Studio를 관리자 모드로 실행하는 경우에는 업데이트 후 Visual Studio를 수동으로 다시 시작해야 합니다.
 
-### <a name="use-the-ide"></a>IDE 사용
+### <a name="using-the-ide"></a>IDE 사용
 
 업데이트를 확인한 다음, Visual Studio의 메뉴 표시줄에서 업데이트를 설치할 수 있습니다.
 
@@ -80,7 +83,7 @@ IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 �
    > [!NOTE]
    > Visual Studio를 관리자 모드로 실행하는 경우에는 업데이트 후 Visual Studio를 수동으로 다시 시작해야 합니다.
 
-### <a name="use-the-visual-studio-installer"></a>Visual Studio 설치 관리자 사용
+### <a name="using-the-visual-studio-installer"></a>Visual Studio 설치 관리자 사용
 
 이전 버전의 Visual Studio와 마찬가지로, Visual Studio 설치 관리자를 사용하여 업데이트를 설치할 수 있습니다.
 
@@ -112,6 +115,9 @@ IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 �
    알림 플래그를 선택하여 **알림** 허브를 엽니다.
 
    ![알림 허브를 사용하여 Visual Studio 2017 업데이트](media/notifications-hub.png "Visual Studio의 알림 허브")
+
+      > [!TIP]
+      > Visual Studio 2017 버전의 업데이트는 누적되므로 항상 최신 버전 번호를 사용하여 설치하세요.
 
 1. **“Visual Studio 업데이트” 사용 가능**을 선택하여 **확장 및 업데이트** 대화 상자를 엽니다.
 
@@ -152,14 +158,6 @@ Visual Studio는 Visual Studio 자체나 구성 요소에 사용 가능한 업�
 
      ![Visual Studio 설치 관리자를 사용하여 Visual Studio 2017 업데이트](media/update-visual-studio.png "Visual Studio 설치 관리자를 사용하여 Visual Studio 업데이트")
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
-
-## <a name="see-also"></a>참고 항목
-
-* [Visual Studio 수정](modify-visual-studio.md)
-* [Visual Studio 제거](uninstall-visual-studio.md)
-* [Mac용 Visual Studio 업데이트](/visualstudio/mac/update)
-
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -198,8 +196,12 @@ Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nb
 
 ## <a name="use-the-ide"></a>IDE 사용
 
-1. Visual Studio를 엽니다. 
- 
+업데이트를 확인한 다음, Visual Studio 2019의 메뉴 표시줄 또는 검색 상자를 사용하여 설치할 수 있습니다.
+
+### <a name="open-visual-studio"></a>Visual Studio를 엽니다.
+
+1. Windows **시작** 메뉴에서 **Visual Studio 2019**를 선택합니다.
+
     ![Visual Studio 2019 RC 열기](media/vs2019-visual-studio-rc.png "Windows에서 Visual Studio 2019 열기")
 
 1. **시작**에서 IDE를 여는 옵션을 선택합니다.
@@ -209,7 +211,7 @@ Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nb
     Visual Studio가 열립니다. IDE에 **Visual Studio 2019 업데이트** 메시지가 표시됩니다.
 
     ![IDE의 'Visual Studio 2019 업데이트' 메시지](media/vs2019-update-visual-studio-ide-message.png "IDE의 'Visual Studio 2019 업데이트' 메시지")
- 
+
 1. **Visual Studio 2019 업데이트** 메시지에서 **세부 정보 보기**를 선택합니다.
 
    ![Visual Studio 2019 IDE 업데이트 메시지에서 세부 정보 보기 단추 선택](media/vs2019-update-visual-studio-ide-view-details.png "Visual Studio 2019 업데이트 메시지에서 세부 정보 보기 단추 선택")
@@ -218,12 +220,49 @@ Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nb
 
      !['업데이트 다운로드 및 설치 준비' 대화 상자에서 [업데이트] 단추 선택](media/vs2019-update-visual-studio-community-rc-from-ide.png "'업데이트 다운로드 및 설치 준비' 대화 상자에서 [업데이트] 단추 선택")
 
-   Visual Studio가 닫힌 다음, 다시 열립니다.
+   Visual Studio가 업데이트되고, 닫힌 다음, 다시 열립니다.
+
+### <a name="in-visual-studio"></a>Visual Studio
+
+1. 메뉴 모음에서 **도움말**을 선택한 다음, **업데이트 확인**을 선택합니다.
+
+     ![도움말 메뉴에서 ‘업데이트 확인’ 선택](media/vs-2019/vs-ide-check-updates-help-menu.png "도움말 메뉴에서 ‘업데이트 확인’ 선택")
+
+    > [!NOTE]
+    > IDE의 검색 상자를 사용하여 업데이트를 확인할 수도 있습니다. **Ctrl**+**Q**를 누르고, “업데이트 확인”을 입력한 다음, 일치하는 검색 결과를 선택합니다.
+
+1. **업데이트 다운로드 및 설치 준비** 대화 상자에서 **업데이트**를 선택합니다.
+
+     !['업데이트 다운로드 및 설치 준비' 대화 상자에서 [업데이트] 단추 선택](media/vs2019-update-visual-studio-community-rc-from-ide.png "'업데이트 다운로드 및 설치 준비' 대화 상자에서 [업데이트] 단추 선택")
+
+   Visual Studio가 업데이트되고, 닫힌 다음, 다시 열립니다.
+
+## <a name="use-the-notifications-hub"></a>알림 허브 사용
+
+1. Visual Studio에서 작업을 저장합니다.
+
+1. Visual Studio IDE의 오른쪽 아래 모퉁이에서 알림 아이콘을 선택하여 **알림** 허브를 엽니다.
+
+   ![Visual Studio IDE의 알림 아이콘](media/vs-2019/notification-bar.png "Visual Studio IDE의 알림 아이콘")
+
+1. **알림 허브**에서 설치할 업데이트를 선택한 다음, **세부 정보 보기**를 선택합니다.
+
+     ![Visual Studio 2019의 알림 허브](media/vs-2019/notification-hub-update.png "Visual Studio 2019의 알림 허브")
+
+      > [!TIP]
+      > Visual Studio 2019 버전의 업데이트는 누적되므로 항상 최신 버전 번호를 사용하여 설치하세요.
+
+1. **업데이트 다운로드 및 설치 준비** 대화 상자에서 **업데이트**를 선택합니다.
+
+   Visual Studio가 업데이트되고, 닫힌 다음, 다시 열립니다.
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## <a name="see-also"></a>참고 항목
 
+* [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
 * [Mac용 Visual Studio 업데이트](/visualstudio/mac/update)
-
-::: moniker-end
+* [Visual Studio 수정](modify-visual-studio.md)
+* [Visual Studio 제거](uninstall-visual-studio.md)

@@ -4,19 +4,19 @@ titleSuffix: ''
 description: Windows에서 최상의 Python IDE(PTVS(Visual Studio용 Python 도구)로도 알려짐)로 만드는 Visual Studio의 Python 기능에 대한 요약입니다.
 ms.date: 03/12/2019
 ms.topic: overview
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 411b2e918658fa786885ccebf3f6c5703ddd9eb0
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 2c6e17b0556b324e0dde6fe188b9d21efb542778
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58195010"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366877"
 ---
 # <a name="work-with-python-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 작업
 
@@ -98,7 +98,7 @@ Visual Studio에서는 시간이 지남에 따라 커지는 프로젝트의 복�
 
 프로젝트 및 항목 템플릿은 다양한 유형의 프로젝트와 파일의 설정 프로세스를 자동화하여 소중한 시간을 절약해주고 복잡하고 오류가 발생하기 쉬운 세부 정보를 관리할 필요가 없습니다. Visual Studio는 웹, Azure, 데이터 과학, 콘솔 및 기타 유형의 프로젝트에 대한 템플릿뿐 아니라 Python 클래스, 단위 테스트, Azure 웹 구성, HTML 및 Django 앱 같은 파일에 대한 템플릿도 제공합니다.
 
-[![Visual Studio에서 Python 프로젝트 및 항목 템플릿](media/project-and-item-templates.png)](media/project-and-item-templates.png#lightbox)
+[![PVisual Studio에서 Python 프로젝트 및 항목 템플릿](media/project-and-item-templates.png)](media/project-and-item-templates.png#lightbox)
 
 추가 정보
 
@@ -130,7 +130,7 @@ Visual Studio 2019에서 Visual Studio 프로젝트 파일 없이 코드를 실�
 
 프로파일링은애플리케이션 내에서 시간이 어떻게 쓰이는지를 탐색합니다. Visual Studio는 CPython 기반 인터프리터를 사용한 프로 파일링을 지원하고 다른 프로파일링 실행 간 성능을 비교하는 기능을 포함합니다.
 
-[![Python 프로젝트에 대한 Visual Studio 프로파일러 결과](media/profiling-results.png)](media/profiling-results.png#lightbox)
+[![VPython 프로젝트에 대한 Visual Studio 프로파일러 결과](media/profiling-results.png)](media/profiling-results.png#lightbox)
 
 추가 정보
 
@@ -156,15 +156,15 @@ Python 워크로드는 Windows, Mac OS X, Linux 앱에서 Azure 서비스를 간
 
 ## <a name="questions-and-answers"></a>질문과 대답
 
-**질문: Mac용 Visual Studio에서 Python 지원을 사용할 수 있나요?**
+**질문. Mac용 Visual Studio에서 Python 지원을 사용할 수 있나요?**
 
 대답: 이번에는 아니지만 [개발자 커뮤니티](https://developercommunity.visualstudio.com/content/idea/351820/python-tools-for-visual-studio-mac.html)에 대한 요청을 긍정적으로 평가할 수 있습니다. [Mac용 Visual Studio](/visualstudio/mac/) 설명서에서는 지원되는 현재 개발 유형을 식별합니다. 한편, Windows, Mac 및 Linux의 Visual Studio Code는 [사용 가능한 확장을 통해 Python에서 잘 작동](https://code.visualstudio.com/docs/languages/python)합니다.
 
-**질문: UI를 빌드하는 데 Python과 함께 무엇을 사용할 수 있나요?**
+**질문. UI를 빌드하는 데 Python과 함께 무엇을 사용할 수 있나요?**
 
 대답: 이 영역의 기본 제품은 [Qt Project](https://www.qt.io/qt-for-application-development/), [PySide(공식 바인딩)](https://wiki.qt.io/PySide)([PySide 다운로드](https://download.qt.io/official_releases/pyside/.)도 참조)로 알려진 Python용 바인딩 및 [PyQt](https://wiki.python.org/moin/PyQt)입니다. 현재는 Visual Studio의 Python 지원에 UI 개발용 특정 도구가 포함되지 않습니다.
 
-**질문: Python 프로젝트에서 독립 실행형 실행 파일을 생성할 수 있나요?**
+**질문. Python 프로젝트에서 독립 실행형 실행 파일을 생성할 수 있나요?**
 
 대답: Python은 일반적으로 Visual Studio, 웹 서버와 같은 적합한 Python 지원 환경에서 요청 시 코드를 실행하는 데 사용되는 해석된 언어입니다. 현재는 Visual Studio 자체에서 독립 실행형 실행 파일을 만드는 방법을 제공하지 않습니다. 즉, 기본적으로 포함된 Python 인터프리터가 있는 프로그램입니다. 그러나 [StackOverflow](https://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency)에 설명된 것처럼 Python 커뮤니티에서는 실행 파일을 만드는 다양한 방법을 제공합니다. 또한 CPython은 블로그 게시물 [Using CPython's embeddable zip file](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/)(CPython의 포함 가능한 zip 파일 사용)에 설명된 것처럼 네이티브 애플리케이션 내에 포함되는 기능을 지원합니다.
 

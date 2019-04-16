@@ -9,12 +9,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dd36bf3381c2b3bdd604dad9bc1aaf3ad37b36d4
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: bcb24742a4387a84bba0b52763cdb559280c24c4
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57868990"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232777"
 ---
 # <a name="measure-memory-usage-in-visual-studio"></a>Visual Studio에서 메모리 사용량 측정
 
@@ -54,13 +54,13 @@ ms.locfileid: "57868990"
 
 4.  도구 모음의 **도구 선택** 설정에서 **메모리 사용량**을 선택합니다.
 
-     ![진단 도구 표시](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
+     ![진단 도구 표시](../profiling/media/diag-tools-select-tool-2.png "DiagToolsSelectTool")
 
 5.  **디버그/디버깅 시작**을 클릭합니다(또는 도구 모음에서 **시작** 또는 **F5** 누름).
 
      앱 로드가 완료되면 진단 도구의 요약 보기가 나타납니다.
 
-     ![진단 도구 요약 탭](../profiling/media/DiagToolsSummaryTab.png "DiagToolsSummaryTab")
+     ![진단 도구 요약 탭](../profiling/media/diag-tools-summary-tab-2.png "DiagToolsSummaryTab")
 
      > [!NOTE]
      >  메모리 데이터를 수집할 경우 네이티브 또는 혼합 모드 앱의 디버깅 성능에 영향을 줄 수 있으므로 메모리 스냅숏은 기본적으로 사용되지 않습니다. 네이티브 또는 혼합 모드 앱에서 스냅숏을 사용하도록 설정하려면 디버깅 세션을 시작합니다(바로 가기 키: **F5**). **진단 도구** 창이 나타나면 **메모리 사용량** 탭을 선택한 다음, **힙 프로파일링**을 선택합니다.
@@ -121,7 +121,7 @@ ms.locfileid: "57868990"
 
  **참조 된 형식** 트리에는 위쪽 창에서 선택한 형식이 보유하고 있는 참조가 표시됩니다.
 
- ![관리되는 참조 형식 보고서 뷰](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
+ ![관리형 참조 형식 보고서 보기](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
 
  위쪽 창에서 선택한 형식의 인스턴스를 표시하려면 ![인스턴스 아이콘](../profiling/media/dbgdiag_mem_instanceicon.png "DBGDIAG_MEM_InstanceIcon") 아이콘을 선택합니다.
 
@@ -150,7 +150,7 @@ ms.locfileid: "57868990"
 
 - **진단 도구** 창의 **메모리 사용량** 탭에서 요약 테이블 셀의 변경 링크를 선택합니다.
 
-   ![변경&#40;차이&#41; 보고서 선택](../profiling/media/dbgdiag_mem_choosediffreport.png "DBGDIAG_MEM_ChooseDiffReport")
+   ![변경 &#40;Diff&#41; 보고서 선택](../profiling/media/dbgdiag_mem_choosediffreport.png "DBGDIAG_MEM_ChooseDiffReport")
 
 - 관리되는 보고서 또는 네이티브 보고서의 **비교 대상** 목록에서 스냅숏을 선택합니다.
 
@@ -158,11 +158,11 @@ ms.locfileid: "57868990"
 
 변경 보고서는 기본 스냅숏 값과 비교 스냅숏 간의 차이를 표시하는 열( **(차이)** 로 표시됨)을 기본 보고서에 추가합니다. 네이티브 형식 뷰 차이 보고서가 표시되는 모양은 다음과 같습니다.
 
-![네이티브 형식 Diff 뷰](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")
+![네이티브 형식 Diff 보기](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")
 
 ## <a name="blogs-and-videos"></a>블로그 및 동영상
 
-[디버깅하는 동안 CPU와 메모리 분석](https://devblogs.microsoft.com/visualstudio/analyze-cpu-memory-while-debugging/)
+[디버그하는 동안 CPU와 메모리 분석](https://devblogs.microsoft.com/visualstudio/analyze-cpu-memory-while-debugging/)
 
 [Visual C++ 블로그: Visual C++ 2015의 메모리 프로파일링](https://devblogs.microsoft.com/cppblog/memory-profiling-in-visual-c-2015/)
 
@@ -171,4 +171,4 @@ ms.locfileid: "57868990"
 이 자습서에서는 메모리 사용량 데이터를 수집하고 분석하는 방법을 배웠습니다. 이미 [프로파일러 둘러보기](../profiling/profiling-feature-tour.md)를 완료한 경우 앱에서 CPU 사용량을 분석하는 방법을 빠르게 확인하는 것이 좋습니다.
 
 > [!div class="nextstepaction"]
-> [CPU 사용 분석](../profiling/beginners-guide-to-performance-profiling.md)
+> [CPU 사용량 분석](../profiling/beginners-guide-to-performance-profiling.md)

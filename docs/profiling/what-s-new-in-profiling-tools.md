@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - multiple
 monikerRange: vs-2017
-ms.openlocfilehash: 0c05595c311367ca94e3327afd28bc5fa05f7ec2
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 8fcd01198877ef06eb398ce99fe467deb923546c
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57871080"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232472"
 ---
 # <a name="whats-new-in-profiling-tools-in-includevsdev15miscincludesvsdev15mdmd"></a>[!include[vs_dev15](../misc/includes/vs_dev15_md.md)]에 포함된 프로파일링 도구의 새로운 기능
 
@@ -28,11 +28,11 @@ ms.locfileid: "57871080"
 
 성능 분석을 위한 주요 영역을 중점적으로 확인할 수 있는 **요약** 탭이 도구에 추가되었습니다. 이 탭에서는 발생한 이벤트의 수를 확인하고, 힙의 스냅샷을 생성하고, CPU 사용량 데이터 수집을 빠르게 활성화할 수 있습니다. 이 뷰에는 모든 [Application Insights](/azure/azure-monitor/app/visual-studio) 또는 [UI 분석](/visualstudio/releasenotes/vs2017-relnotes) 이벤트가 표시됩니다. 또한 Visual Studio Enterprise의 경우 이 뷰에는 IntelliTrace 이벤트도 표시됩니다.
 
-![진단 도구 요약 탭](../profiling/media/DiagToolsSummaryTab-2.png "DiagToolsSummaryTab")
+![진단 도구 요약 탭](../profiling/media/diag-tools-summary-tab-2.png "DiagToolsSummaryTab")
 
 CPU 사용량 도구에는 성능 문제를 발생시킬 가능성이 가장 높은 기능을 식별하는 데 사용할 수 있는 [새로운 시각화](../profiling/Beginners-Guide-to-Performance-Profiling.md)가 포함되어 있습니다. 새로운 **호출자/호출 수신자** 뷰에서는 선택한 함수와의 함수 호출 비용을 조사할 수 있습니다.
 
-![진단 도구 호출자 호출 수신자 뷰](../profiling/media/DiagToolsCallerCallee.png "DiagToolsCallerCallee")
+![진단 도구 호출자 호출 수신자 뷰](../profiling/media/diag-tools-caller-callee-2.png "DiagToolsCallerCallee")
 
 ## <a name="see-also"></a>참고 항목
 

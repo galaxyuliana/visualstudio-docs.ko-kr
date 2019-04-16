@@ -3,20 +3,20 @@ title: Python용 Azure 클라우드 서비스 프로젝트 템플릿
 description: Visual Studio는 역할 배포, 종속성 및 문제 해결을 포함하여 Python으로 작성된 Azure 클라우드 서비스용 템플릿을 제공합니다.
 ms.date: 11/12/2018
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: 77da3ee8af0b14171e8cc525c2e6d95c6a38a205
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: a47ef2bc1b75985639d0c5eb43bba516ff9b8088
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355713"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366538"
 ---
 # <a name="azure-cloud-service-projects-for-python"></a>Python용 Azure Cloud Service 프로젝트
 

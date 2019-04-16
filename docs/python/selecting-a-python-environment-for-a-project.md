@@ -3,19 +3,19 @@ title: 프로젝트에 대한 Python 인터프리터 및 환경 선택
 description: 특정 프로젝트에 적용할 Python 환경(Anaconda 및 가상 환경 포함)을 구체적으로 선택할 수 있습니다.
 ms.date: 03/18/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 1bf1937c92f5da234ab72934c5acd52bc9cd0a6b
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 9d7736365e8e2bb371a71580492401bb2660fcc3
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194965"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366187"
 ---
 # <a name="how-to-select-a-python-environment-for-a-project"></a>프로젝트에 대한 Python 인터프리터 선택하는 방법
 
@@ -169,7 +169,7 @@ Conda 패키지 관리자는 일반적으로 `https://repo.continuum.io/pkgs/`�
 또한 Visual Studio에서는 현재 conda 환경에 패키지를 설치하기 위한 `conda` 사용을 지원하지 않음에 유의하세요. 대신 명령줄에서 `conda`를 사용합니다.
 
 > [!Tip]
-> pip에서 패키지 설치에 실패하는 일반적인 상황은 패키지가 *\*.pyd* 파일에 기본 구성 요소에 대한 소스 코드를 포함하는 경우입니다. 필요한 Visual Studio 버전이 설치되어 있지 않으면 pip에서 해당 구성 요소를 컴파일할 수 없습니다. 이 경우 표시되는 오류 메시지는 **오류: vcvarsall.bat를 찾을 수 없음**입니다. 대체로 `easy_install`은 미리 컴파일된 이진 파일을 다운로드할 수 있으며, [https://aka.ms/VCPython27](https://aka.ms/VCPython27)에서 이전 버전의 Python에 적합한 컴파일러를 다운로드할 수 있습니다. 자세한 내용은 Python 도구 팀 블로그에서 ["vcvarsallbat을 찾을 수 없는" 어려움을 해결하는 방법](https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/)(영문)을 참조하세요.
+> pip에서 패키지 설치에 실패하는 일반적인 상황은 패키지가 *\*.pyd* 파일에 기본 구성 요소에 대한 소스 코드를 포함하는 경우입니다. 필요한 Visual Studio 버전이 설치되어 있지 않으면 pip에서 해당 구성 요소를 컴파일할 수 없습니다. 이 경우 표시되는 오류 메시지는 **오류: vcvarsall.bat를 찾을 수 없음**입니다. `easy_install` 대체로 미리 컴파일된 이진 파일을 다운로드할 수 있으며, [https://aka.ms/VCPython27](https://aka.ms/VCPython27)에서 이전 버전의 Python에 적합한 컴파일러를 다운로드할 수 있습니다. 자세한 내용은 Python 도구 팀 블로그에서 ["vcvarsallbat을 찾을 수 없는" 어려움을 해결하는 방법](https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/)(영문)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

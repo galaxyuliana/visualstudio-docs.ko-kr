@@ -6,7 +6,7 @@ keywords: ''
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 03/26/2019
+ms.date: 04/03/2019
 ms.topic: reference
 helpviewer_keywords: ''
 ms.custom: seodec18
@@ -14,12 +14,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 3e88054d497bda068585b7bc58787ee3058bcb71
-ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
+ms.openlocfilehash: 3b1be29663bacee5719749746f6275aba4381f99
+ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58476087"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "59018248"
 ---
 # <a name="visual-studio-build-numbers-and-release-dates"></a>Visual Studio 빌드 번호 및 릴리스 날짜
 
@@ -29,8 +29,9 @@ ms.locfileid: "58476087"
 
 다음 표에는 현재까지 Visual Studio 2017의 빌드 번호 및 릴리스 날짜가 나와 있습니다.
 
-| **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
+| **버전**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.11 | Release | 2019년 4월 2일 | 15.9.28307.586 |
 | 15.9.10 | Release | 2019년 3월 25일 | 15.9.28307.557 |
 | 15.9.9 | Release | 2019년 3월 12일 | 15.9.28307.518 |
 | 15.0.21 | Release | 2019년 3월 12일 | 15.0.26228.76 |
@@ -190,8 +191,12 @@ ms.locfileid: "58476087"
 
 다음 표에는 현재까지 Visual Studio 2019의 빌드 번호 및 릴리스 날짜가 나와 있습니다.
 
-| **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
+| **버전**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | Release | 2019년 4월 2일 | 16.0.28729.10 |
+| 16.0.0 | 미리 보기 5 | 2019년 4월 2일 | 16.0.28729.10 |
+| 16.0.0 | 릴리스 후보 4(RC.4) | 2019년 3월 26일 | 16.0.28721.148 |
+| 16.0.0 | 미리 보기 4.4 | 2019년 3월 26일 | 16.0.28721.148 |
 | 16.0.0 | 릴리스 후보 3(RC.3) | 2019년 3월 19일 | 16.0.28714.193 |
 | 16.0.0 | 미리 보기 4.3 | 2019년 3월 19일 | 16.0.28714.193 |
 | 16.0.0 | 릴리스 후보 2(RC.2) | 2019년 3월 12일 | 16.0.28711.60 |
@@ -208,6 +213,9 @@ ms.locfileid: "58476087"
 | 16.0.0 | Preview 2 | 2019년 1월 23일 | 16.0.28522.59 |
 | 16.0.0 | 미리 보기 1.1 | 2018년 12월 10일 | 16.0.28408.50 |
 | 16.0.0 | 미리 보기 1 | 2018년 12월 4일 | 16.0.28329.73 |
+
+> [!NOTE]
+> 이전 버전의 빌드 번호 및 릴리스 날짜 목록은 [Visual Studio 2017 빌드 번호 및 릴리스 날짜](visual-studio-build-numbers-and-release-dates.md?view=vs-2017)를 참조하세요.
 
 ::: moniker-end
 

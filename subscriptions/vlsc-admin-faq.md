@@ -7,12 +7,12 @@ ms.date: 03/13/2018
 ms.topic: conceptual
 description: 볼륨 라이선스 서비스 센터 관리자 마이그레이션 FAQ
 searchscope: VS Subscription
-ms.openlocfilehash: d9f066fdb17af7e876a1fc7af611fa5cb48edba9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 43b5ff7aeddf5ba1d938709e9f395f50395d0f3d
+ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58145267"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58897662"
 ---
 # <a name="visual-studio-subscriptions-administration-migration"></a>Visual Studio 구독 관리 마이그레이션
 
@@ -21,7 +21,7 @@ ms.locfileid: "58145267"
 > [!Note]
 > 이 마이그레이션은 MPSA 고객에게 영향을 주지 않습니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="why-is-it-changing"></a>이렇게 변경되는 이유는 무엇인가요?
 새 포털에서는 Visual Studio 구독 관리의 환경을 최적화하고 구매 방법에 관계없이 Visual Studio 구독을 관리하는 단일 환경을 만듭니다. 새 포털에는 미래를 위해 우리를 배치하고 Azure AD를 사용할 수 있는 새 플랫폼이 있습니다. 또한 보다 쉽게 이동하고 사용할 수 있는 업데이트된 사용자 인터페이스가 있어 관리자 효율성을 향상시킵니다.
@@ -36,7 +36,7 @@ ms.locfileid: "58145267"
 조직은 Azure AD에 등록하지 않아도 되지만 등록은 언제든 가능합니다. Azure AD에 등록을 선택하면 Azure AD에 대한 무료 계층을 사용하여 비용 없이 등록할 수 있습니다. Azure Active Directory를 사용하면 향상된 보안, 제어 및 장기적인 안전성으로 조직을 보호할 수 있습니다. 그러나 Azure AD에 대해 준비가 되지 않은 경우 현재처럼 MSA(Microsoft 계정)를 계속 사용할 수 있습니다.
 
 ### <a name="how-do-i-know-when-my-organization-will-be-migrated"></a>조직이 언제 마이그레이션되는지 어떻게 알 수 있습니까?
-조직이 마이그레이션되기 1주일 전에 온보딩 프로세스를 완료하도록 초대하는 이메일이 기본/알림 연락처 담당자에게 전송됩니다. 구독 관리자에게는 당사가 기본/알림 연락처 담당자에게 연락해 성공적인 온보딩을 확인하는 방법에 관한 상세 정보를 제공했음을 알리는 이메일이 전송됩니다. [조직의 기본/알림 연락처 찾기](#how-do-i-find-out-who-my-primary-or-notices-contact-is?) 방법을 알아봅니다.
+조직이 마이그레이션되기 1주일 전에 온보딩 프로세스를 완료하도록 초대하는 이메일이 기본/알림 연락처 담당자에게 전송됩니다. 구독 관리자에게는 당사가 기본/알림 연락처 담당자에게 연락해 성공적인 온보딩을 확인하는 방법에 관한 상세 정보를 제공했음을 알리는 이메일이 전송됩니다. [조직의 기본/알림 연락처 찾기](#how-do-i-find-out-who-my-primary-or-notices-contact-is) 방법을 알아봅니다.
 
 ### <a name="is-onboarding-different-from-migration"></a>온보딩은 마이그레이션과 다릅니까?
 예.  이 프로세스는 두 단계로 구성되어 있습니다. 마이그레이션에 앞서 조직의 설정(또는 온보딩)을 통해 관리자 권한으로 작업에 중단이 없는지 확인합니다. 일단 조직의 정보를 마이그레이션하면 새 포털에서 Visual Studio 구독을 관리할 수 있습니다. 마이그레이션 전에 기본/알림 연락처 담당자가 등록되지 않은 경우 구독 관리자가 차단되고 온보딩 프로세스를 완료할 때까지 구독을 관리할 수 없게 됩니다.
@@ -106,8 +106,8 @@ ms.locfileid: "58145267"
 
 - Visual Studio 구독 및 관리 [지원](https://visualstudio.microsoft.com/subscriptions/support/)
 
-- [PCN 찾는 방법](find-pcn.md)
+- [PCN을 찾는 방법](find-pcn.md)
 
-- [기본 또는 알림 연락처 찾는 방법](find-primary-contact.md)
+- [기본 또는 알림 연락처를 찾는 방법](find-primary-contact.md)
 
-- 관리자 관리 및 조직 온보딩을 위한 [비디오](https://www.youtube.com/watch?v=ZmnywYGSFMg&list=PLReL099Y5nRfDyvvwzNDBaZe7qTxmuM2T&index=1&t=0s)
+- 관리자 관리 및 조직 온보딩을 위한 [동영상](https://www.youtube.com/watch?v=ZmnywYGSFMg&list=PLReL099Y5nRfDyvvwzNDBaZe7qTxmuM2T&index=1&t=0s)
