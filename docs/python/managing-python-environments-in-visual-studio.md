@@ -3,18 +3,18 @@ title: Python 환경 및 인터프리터 관리
 description: Python 환경 창을 사용하여 전역, 가상 및 conda 환경을 관리하고 Python 인터프리터 및 패키지를 설치하며 Visual Studio 프로젝트에 환경을 할당합니다.
 ms.date: 03/18/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 496ca9b5a0c7501cd9493e06233b1473e8526ed6
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: 7cdce20fd1640d4bfa43b442b1ed5cad40dc452f
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355687"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366568"
 ---
 # <a name="how-to-create-and-manage-python-environments-in-visual-studio"></a>Visual Studio에서 Python 환경을 만들고 관리하는 방법
 

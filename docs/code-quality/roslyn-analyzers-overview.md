@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 36985ab7a0ee94cb735b1954a9e5ea9c2e0d2bbf
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: ba1529840a38a23929b9926cc4bed5cc22a058cb
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869098"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232569"
 ---
 # <a name="overview-of-net-compiler-platform-analyzers"></a>.NET Compiler Platform 분석기 개요
 
@@ -38,17 +38,27 @@ ms.locfileid: "57869098"
 
 Roslyn 분석기는 사용하도록 설정된 경우 정적 코드 분석과 같이 빌드할 때 코드를 분석하지만 입력할 때도 실시간으로 코드를 분석합니다. [전체 솔루션 분석](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis)을 사용하도록 설정한 경우 Roslyn 분석기는 편집기에 열려 있지 않은 코드 파일에 대한 디자인 타임 분석도 제공합니다.
 
-> [!NOTE]
+> [!TIP]
 > Roslyn 분석기의 빌드 시간 오류 및 경고는 분석기가 NuGet 패키지로 설치된 경우에만 표시됩니다.
 
 Roslyn 분석기는 정적 코드 분석에서 수행하는 동일한 유형의 문제를 보고할 뿐만 아니라 파일 또는 프로젝트에서 위반 횟수의 하나 또는 모두를 쉽게 수정할 수 있도록 합니다. 이러한 작업을 *코드 수정*이라고 합니다. 코드 수정은 IDE별로 다르며 Visual Studio에서 [빠른 작업](../ide/quick-actions.md)으로 구현됩니다. 모든 분석기 진단에는 관련된 코드 수정이 있지 않습니다.
 
 > [!NOTE]
-> 메뉴 옵션 **분석** > **코드 분석 실행**만 정적 코드 분석에 적용됩니다. 또한 프로젝트의 **코드 분석** 속성 페이지에서 **빌드에 코드 분석 사용** 및 **생성된 코드 결과 표시 안 함** 확인란만 정적 코드 분석에 적용됩니다. Roslyn 분석기에서 효과가 없습니다.
+> 다음 UI 옵션은 정적 코드 분석에만 적용됩니다.
+>
+> - **분석** > **실행 코드 분석** 메뉴 옵션.
+> - 프로젝트 속성 페이지의 **코드 분석** 탭에 있는 **빌드 시 코드 분석 사용** 및 **생성된 코드 결과 표시 안 함** 확인란(이 옵션은 Roslyn 분석기에 영향을 주지 않음).
 
 **오류 목록**에서 Roslyn 분석기와 정적 코드 분석의 위반을 구분하려면 **도구** 열을 확인합니다. 도구 값이 **솔루션 탐색기**의 분석기 어셈블리 중 하나와 일치하는 경우(예: **Microsoft.CodeQuality.Analyzers**) 위반은 Roslyn 분석기에서 발생한 것입니다. 그렇지 않으면 위반은 정적 코드 분석기에서 시작됩니다.
 
 ![오류 목록의 도구 열](media/code-analysis-tool-in-error-list.png)
+
+> [!TIP]
+> 프로젝트 파일의 **RunCodeAnalysis** msbuild 속성은 정적 코드 분석에만 적용됩니다. 분석기를 설치하는 경우 프로젝트 파일에서 **RunCodeAnalysis**를 **false**로 설정하면 빌드 후에 정적 코드 분석이 실행되지 않습니다.
+>
+> ```xml
+> <RunCodeAnalysis>false</RunCodeAnalysis>
+> ```
 
 ## <a name="nuget-package-versus-vsix-extension"></a>NuGet 패키지와 VSIX 확장 비교
 

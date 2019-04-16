@@ -1,20 +1,20 @@
 ---
 title: Visual Studio 구독의 Visual Studio IDE 혜택 | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 04/03/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Visual Studio IDE를 다운로드하고 설치하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: f94927b3a9841987bf09dec853306064783727a5
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.openlocfilehash: e2ac206e85d43cff897ff97b42b4b8fccaeec906
+ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58789889"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "59018144"
 ---
-# <a name="using-the-visual-studio-2017-benefit"></a>Visual Studio 2017 혜택 사용
+# <a name="using-the-visual-studio-2019-benefit"></a>Visual Studio 2019 혜택 사용
 
 Visual Studio 구독자는 Visual Studio IDE에 액세스할 수 있습니다.  특정 버전은 구독 수준에 따라 다릅니다.  혜택은 구독자 포털의 [혜택](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) 페이지에 있는 도구 범주에서 타일로 표시됩니다.
 
@@ -29,7 +29,7 @@ IDE를 다운로드하려면
    > [!div class="mx-imgBorder"]
    > ![Visual Studio Enterprise 타일](_img/vs-ide-experience/vs-ide-tile.png)
 
-3. [Visual Studio Enterprise의 다운로드 결과 페이지로 리디렉션됩니다.]를 클릭합니다. 여기서 IDE를 다운로드하고 활성화하기 위한 제품 키를 얻을 수 있습니다. 또한 파란색 **키 가져오기** 링크를 클릭하여 제품 키를 요청하거나 나중에 [제품 키](https://my.visualstudio.com/productkeys) 페이지에서 키를 요청할 수 있습니다.
+3. Visual Studio의 다운로드 결과 페이지로 리디렉션됩니다. 여기서 IDE를 다운로드하고 정품 인증을 받기 위한 제품 키를 얻을 수 있습니다. 또한 파란색 **키 가져오기** 링크를 클릭하여 제품 키를 요청하거나 나중에 [제품 키](https://my.visualstudio.com/productkeys) 페이지에서 키를 요청할 수 있습니다.
 4. [다운로드 결과] 페이지의 [세부 정보] 탭에서
    - 원하는 아키텍처(x86, x64)를 선택합니다.
    - 언어 기본 설정을 선택합니다.
@@ -82,5 +82,5 @@ IDE를 다운로드하려면
 ## <a name="support-resources"></a>지원 리소스
 -  Visual Studio IDE와 관련하여 도움이 필요하면 다음 리소스를 확인하세요.
     - 기술 지원: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
-    - [문서](/visualstudio/)
+    - [설명서](/visualstudio/)
 -  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.

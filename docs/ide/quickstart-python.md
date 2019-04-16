@@ -4,18 +4,18 @@ description: 이 빠른 시작에서 Visual Studio 및 Flask 프레임워크를 
 ms.date: 03/07/2019
 ms.technology: vs-python
 ms.topic: quickstart
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 8c8be894bf80749260f44cf36255d78f3899bf35
-ms.sourcegitcommit: e2b1932d3d4d77dfacb5d245c8b2c7490a94a20e
+ms.openlocfilehash: 05551799a0f97178c5a52d7468f6c6abb505e4c3
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "57683387"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366698"
 ---
 # <a name="quickstart-create-your-first-python-web-app-using-visual-studio"></a>빠른 시작: Visual Studio를 사용하여 첫 번째 Python 웹앱 만들기
 
@@ -69,7 +69,7 @@ Python IDE인 Visual Studio에 대한 5~10분 분량의 소개에서는 Flask �
 
 **대답**: 일반적으로 Python 애플리케이션은 폴더 및 파일만 사용하여 정의되지만 애플리케이션이 커질수록 이 간단한 구조는 복잡해질 수 있으며 자동 생성된 파일, 웹 애플리케이션용 JavaScript 등을 포함할 수 있습니다. Visual Studio 프로젝트는 이러한 복잡성을 관리하는 데 도움이 됩니다. 프로젝트(*.pyproj* 파일)는 프로젝트와 관련된 모든 소스 및 콘텐츠 파일을 식별하며 각 파일에 대한 빌드 정보를 포함하고 소스 제어 시스템과 통합할 정보를 유지 관리하며 애플리케이션을 논리 구성 요소로 구성하는 데 도움을 줍니다.
 
-**질문: 솔루션 탐색기에 표시된 "솔루션"이란?**
+**질문: 솔루션 탐색기에 표시된 “솔루션”이란?**
 
 **대답**: Visual Studio 솔루션은 하나 이상의 관련 프로젝트를 그룹으로 관리할 수 있는 컨테이너이고, 프로젝트에 특정되지 않는 구성 설정을 저장합니다. 솔루션의 프로젝트는 어떤 프로젝트(Python 앱)를 실행하면 두 번째 프로젝트(예: Python 앱에서 사용하는 C++ 확장)를 자동으로 빌드하는 방식으로 서로 참조할 수도 있습니다.
 

@@ -9,21 +9,28 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: af930f983ad328dac16e5eec1fb0cf2650f7681a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 62ea3402a053ed57280ddbc946d79d27ab35f944
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57867857"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232712"
 ---
 # <a name="find-code-changes-and-other-history-with-codelens"></a>CodeLens에서 코드 변경 내용 및 기타 기록 찾기
 
 CodeLens를 통해 코드에 대한 정보를 찾는 동안 편집기에서 나가지 않고&ndash;계속 작업에 집중할 수 있습니다. 코드 조각 참조, 코드 변경 내용, 연결된 버그, 작업 항목, 코드 검토 및 단위 테스트를 확인할 수 있습니다.
 
+::: moniker range=">=vs-2019"
+
+> [!NOTE]
+> 소스 제어 CodeLens 표시기는 Visual Studio Community Edition에서 사용할 수 없습니다.
+
+::: moniker-end
+
 ::: moniker range="vs-2017"
 
 > [!NOTE]
-> CodeLens는 Visual Studio Enterprise 및 Visual Studio Professional 버전에서만 사용할 수 있습니다. Visual Studio Community 버전에서는 사용할 수 없습니다.
+> CodeLens는 Visual Studio Enterprise 및 Professional 버전에서만 사용할 수 있습니다. Visual Studio Community 버전에서는 사용할 수 없습니다.
 
 ::: moniker-end
 
@@ -60,15 +67,15 @@ C# 또는 Visual Basic 코드에 대한 참조를 찾을 수 있습니다.
 
 ![CodeLens - 코드 맵의 참조](../ide/media/codelensmappedreferences.png)
 
-## <a name="a-namefind-code-historyfind-changes-in-your-code"></a><a name="find-code-history"/>코드에서 변경 내용 찾기
+## <a name="find-changes-in-your-code"></a>코드에서 변경 내용 찾기
 
 코드 기록을 검사하여 코드에 수행된 작업을 확인합니다. 또는 다른 분기의 변경 내용이 코드에 어떤 영향을 미칠 수 있는지 잘 파악할 수 있도록 변경 내용을 코드에 병합하기 전에 검토합니다.
 
 다음이 필요합니다.
 
-- Visual Studio 2019(또는 Visual Studio 2017 Enterprise 또는 Professional 버전)
+- Visual Studio Enterprise 또는 Professional Edition
 
-- Team Foundation Server 2013 이상, Azure DevOps Services 또는 Git
+- Azure DevOps Services, Team Foundation Server 2013 이상 또는 Git
 
 - 코드 편집기에서 팀에 연락하려는 경우 [비즈니스용 Skype](/skypeforbusiness/)
 
@@ -228,7 +235,7 @@ Team Foundation Server 또는 Azure DevOps Services에서 TFVC(Team Foundation �
 
      ![CodeLens - 단위 테스트 결과 표시](../ide/media/codelens-unit-test-result.png)
 
-7. 이 테스트를 변경한 사용자와 그 수 또는 이 테스트에 대해 수행된 변경 작업 수를 확인하려면 [코드 기록 및 연결된 항목을 찾아보세요](#find-code-history).
+7. 이 테스트를 변경한 사용자와 그 수 또는 이 테스트에 대해 수행된 변경 작업 수를 확인하려면 [코드 기록 및 연결된 항목을 찾아보세요](#find-changes-in-your-code).
 
 ## <a name="keyboard-shortcuts"></a>바로 가기 키
 
@@ -241,7 +248,7 @@ Team Foundation Server 또는 Azure DevOps Services에서 TFVC(Team Foundation �
 
 ## <a name="q--a"></a>Q&A
 
-### <a name="q-how-do-i-turn-codelens-off-or-on-or-choose-which-indicators-to-see"></a>Q: CodeLens를 설정 또는 해제하거나 확인할 표시기를 선택하려면 어떻게 할까요?
+### <a name="q-how-do-i-turn-codelens-off-or-on-or-choose-which-indicators-to-see"></a>Q: CodeLens를 끄거나 켜고 확인할 표시기를 선택하려면 어떻게 할까요?
 
 **A:**  참조 지표를 제외하고 지표를 설정하거나 해제할 수 있습니다. **도구** > **옵션** > **텍스트 편집기** > **모든 언어**  >  **CodeLens**로 이동합니다.
 
@@ -264,6 +271,20 @@ Team Foundation Server 또는 Azure DevOps Services에서 TFVC(Team Foundation �
 - DevOps 관련 지표는 작업 항목이 코드와 링크되어 있는 경우 및 링크된 작업 항목을 열 권한이 있는 경우에만 나타납니다. [팀 멤버 권한](/azure/devops/organizations/security/view-permissions?view=vsts)이 있는지 확인합니다.
 
 - 단위 테스트 지표는 애플리케이션 코드에서 단위 테스트를 하지 않은 경우 나타나지 않습니다. 테스트 상태 지표는 테스트 프로젝트에 자동으로 나타납니다. 애플리케이션 코드에 단위 테스트가 있지만 테스트 표시기가 나타나지 않는 경우 솔루션 빌드를 시도해 보세요(**Ctrl**+**Shift**+**B**).
+
+::: moniker range=">=vs-2019"
+
+> [!TIP]
+> 소스 제어 표시기는 Visual Studio Community Edition에서 사용할 수 없습니다.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+> [!TIP]
+> CodeLens는 Visual Studio Community Edition에서 사용할 수 없습니다.
+
+::: moniker-end
 
 ### <a name="q-why-dont-i-see-the-work-item-details-for-a-commit"></a>Q: 커밋에 대한 작업 항목 정보가 나타나지 않습니다.
 
@@ -313,11 +334,11 @@ CodeLens는 다른 버전의 Lync 또는 Skype가 설치되는 것을 지원하�
 
 - **참조**: 이 지표는 코드가 변경될 때 자동으로 업데이트됩니다. **참조** 표시기가 별도의 창으로 도킹된 경우 **새로 고침**을 선택하여 표시기를 새로 고칩니다.
 
-     ![CodeLens 참조의 [새로 고침] 단추](../ide/media/codelensviewreferencesdocked.png)
+   ![CodeLens 참조의 [새로 고침] 단추](../ide/media/codelensviewreferencesdocked.png)
 
 - **팀**: 오른쪽 클릭 메뉴에서 **CodeLens 팀 지표 새로 고침**을 선택하여 이러한 지표를 새로 고칩니다.
 
-     ![CodeLens 팀 지표 새로 고침 메뉴 항목](../ide/media/codelensrefreshindicatorsfromcode.png)
+   ![CodeLens 팀 지표 새로 고침 메뉴 항목](../ide/media/codelensrefreshindicatorsfromcode.png)
 
 - **테스트**: [코드에 대한 단위 테스트를 찾아](#associated-unit-tests) **테스트** 지표를 새로 고칩니다.
 

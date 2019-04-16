@@ -3,18 +3,18 @@ title: 데이터 과학 및 분석 애플리케이션 워크로드
 description: 이 Visual Studio 워크로드는 Python, F# 및 Anaconda를 비롯한 해당 런타임 배포를 함께 제공합니다. (R도 Visual Studio 2017에만 포함되어 있습니다.)
 ms.date: 02/28/2019
 ms.topic: overview
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 44dfa13059e16338111bbeb2eb2f0bc6d6b44408
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: dbebf486680375622e6dc313a71e82f541107fc8
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324928"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366330"
 ---
 # <a name="install-data-science-support-in-visual-studio"></a>Visual Studio에서 데이터 과학 지원 설치
 
@@ -22,13 +22,13 @@ Visual Studio 설치 관리자를 통해 선택하고 설치한 데이터 과학
 
 ::: moniker range="vs-2017"
 - [Python 및 Anaconda](../python/overview-of-python-tools-for-visual-studio.md)
-- [.NET 프레임워크로 F#](/dotnet/fsharp/)
+- [F# 및 .NET Framework](/dotnet/fsharp/)
 - [R 및 Microsoft R Client](../rtvs/index.md)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 - [Python](../python/overview-of-python-tools-for-visual-studio.md)
-- [.NET 프레임워크로 F#](/dotnet/fsharp/)
+- [F# 및 .NET Framework](/dotnet/fsharp/)
 ::: moniker-end
 
 ![Visual Studio 설치 관리자의 데이터 과학 및 분석 애플리케이션 워크로드](media/workload/data-science-workload.png)

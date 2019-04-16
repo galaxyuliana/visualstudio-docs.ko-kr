@@ -4,19 +4,19 @@ titleSuffix: ''
 description: Visual Studio의 Python 기능에 대한 핵심 연습의 4단계로, 디버거에서 Python 코드를 실행하는 방법을 설명합니다.
 ms.date: 01/28/2019
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: f0496e9319db9351c6315f77886a1a22451a1d14
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 3f6464986cb94ffa3ab3cc9264ab818112046ea9
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56716508"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366798"
 ---
 # <a name="step-4-run-code-in-the-debugger"></a>4단계: 디버거에서 코드 실행
 

@@ -1,7 +1,7 @@
 ---
 title: 변경 로그(Visual Studio Tools for Unity, Windows) | Microsoft Docs
 ms.custom: ''
-ms.date: 11/28/2018
+ms.date: 04/02/2019
 ms.technology: vs-unity-tools
 ms.topic: conceptual
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -10,15 +10,139 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: a7cd8da81fef0d3b4af8e61be979c8bea904072f
-ms.sourcegitcommit: f6dd17b0864419083d0a1bf54910023045526437
+ms.openlocfilehash: 8a8fd54b15381298542f710cbffa81cd9e0295fe
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2018
-ms.locfileid: "53803742"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232764"
 ---
 # <a name="change-log-visual-studio-tools-for-unity-windows"></a>변경 로그(Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity에 대한 변경 로그입니다.
+
+## <a name="4005"></a>4.0.0.5
+ 릴리스 날짜: 2019년 2월 27일
+
+### <a name="bug-fixes"></a>버그 수정
+
+-   **통합:**
+
+    -   설치 패키지가 포함된 Visual Studio 버전 검색이 수정되었습니다.
+
+    -   설치 패키지에서 사용되지 않는 어셈블리가 제거되었습니다.
+
+## <a name="4004"></a>4.0.0.4
+ 릴리스 날짜: 2019년 2월 13일
+
+### <a name="new-features"></a>새 기능
+
+-   **통합:**
+
+    -   설치 중에 Unity 프로세스를 제대로 검색하고 설치 엔진에서 파일 잠금을 더 효과적으로 처리할 수 있는 지원이 추가되었습니다.
+    
+    -   ScriptableObject API가 업데이트되었습니다.
+
+## <a name="4003"></a>4.0.0.3
+ 릴리스 날짜: 2019년 1월 31일
+
+### <a name="new-features"></a>새 기능
+
+-   **프로젝트 생성:**
+
+    -   공용 및 직렬화된 필드에서 더 이상 경고가 발생하지 않습니다. 이 메시지를 생성한 Unity 프로젝트에서 CS0649 및 IDE0051 컴파일러 경고를 자동으로 표시하지 않도록 설정했습니다.
+
+-   **통합:**
+
+    -   Unity 편집기 및 플레이어 인스턴스를 표시하는 사용자 환경이 개선되었습니다(이제 창 크기를 조정할 수 있고, 창에서 균일한 여백을 사용하고, 크기 조정 그립을 표시함). Unity 편집기의 프로세스 ID 정보가 추가되었습니다.
+    
+    -   MonoBehaviour API가 업데이트되었습니다.
+    
+-   **평가:**
+
+    -   로컬 함수 지원이 추가되었습니다.
+    
+    -   의사 변수(예외 및 개체 식별자)에 대한 지원이 추가되었습니다.
+
+### <a name="bug-fixes"></a>버그 수정
+
+-   **통합:**
+
+    -   모니커 이미지 및 테마 관련 문제가 수정되었습니다.
+
+    -   자산 데이터베이스를 자동으로 새로 고칠 경우 디버그하는 동안 출력 창에만 씁니다.
+
+    -   MonoBehaviour 마법사 필터링에 관련된 UI 지연이 수정되었습니다.
+    
+-   **디버거:**
+
+    -   이전 프로토콜 버전을 사용하는 경우 명명된 인수의 사용자 지정 특성이 수정되었습니다.
+
+## <a name="4002"></a>4.0.0.2
+ 릴리스 날짜: 2019년 1월 23일
+
+### <a name="bug-fixes"></a>버그 수정
+
+-   **통합:**
+
+    -   실험적 빌드 생성이 수정되었습니다.
+
+    -   UI 스레드 압력을 최소화하도록 프로젝트 파일 이벤트 처리가 수정되었습니다.
+
+    -   일괄 처리된 텍스트가 변경이 포함된 완성 공급자가 수정되었습니다.
+    
+-   **디버거:**
+
+    -   연결된 디버거의 사용자 디버그 메시지 표시가 수정되었습니다.
+
+## <a name="4001"></a>4.0.0.1
+ 릴리스 날짜: 2018년 12월 10일
+
+### <a name="new-features"></a>새 기능
+
+-   **평가:**
+
+    -   식 계산을 위해 NRefactory가 Roslyn으로 바뀌었습니다.
+
+    -   포인터에 대한 지원인 역참조, 캐스팅 및 포인터 산술이 추가되었습니다(이 경우 Unity 2018.2+ 및 새 런타임이 둘 다 필요함).
+
+    -   배열 포인터 보기에 대한 지원이 추가되었습니다(C++와 유사). 포인터 식을 사용한 다음, 쉼표와 보려는 요소 수를 추가합니다.
+
+    -   비동기 구문 지원이 추가되었습니다.
+
+-   **통합:**
+    
+    -   저장 시 Unity의 자산 데이터베이스를 자동으로 새로 고치는 지원이 추가되었습니다. 이 기능은 기본적으로 사용하도록 설정되고 Visual Studio에서 스크립트를 저장할 때 Unity 쪽에서 다시 컴파일을 트리거합니다. [도구]\[옵션]\[Unity용 도구]\[저장 시 Unity의 AssetDatabase 새로 고침]에서 이 기능을 사용하지 않도록 설정할 수 있습니다.
+
+### <a name="bug-fixes"></a>버그 수정
+
+-   **통합:**
+
+    -   Visual Studio가 기본 설정 외부 편집기로 선택되지 않은 경우 브리지 활성화가 수정되었습니다.
+
+    -   잘못된 형식 또는 지원되지 않는 식이 포함된 식 계산이 수정되었습니다.
+
+## <a name="4000"></a>4.0.0.0
+ 릴리스 날짜: 2018년 12월 4일
+
+### <a name="new-features"></a>새 기능
+
+-   **통합:**
+
+    -   Visual Studio 2019 지원이 추가되었습니다.
+
+    -   HDPI 크기 조정, 픽셀 단위로 완벽한 이미지 및 테마 지정의 전체 지원과 함께 Visual Studio 이미지 서비스 및 카탈로그가 채택되었습니다.
+
+### <a name="deprecated-features"></a>사용되지 않는 기능
+
+-   **통합:**
+
+    -   앞으로 Visual Studio Tools for Unity에서는 Unity 5.2+(Unity의 기본 제공 Visual Studio 통합 포함)만 지원합니다.
+
+    -   앞으로 Visual Studio Tools for Unity에서는 Visual Studio 2015+만 지원합니다.
+
+    -   레거시 언어 서비스, 오류 목록 및 상태 표시줄이 제거되었습니다.
+    
+    -   빠른 Monobehaviour 마법사가 제거되었습니다(대신 전용 IntelliSense 지원이 제공됨).
 
 ## <a name="3903"></a>3.9.0.3
  릴리스 날짜: 2018년 11월 28일
@@ -52,7 +176,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   Unity에서 수정된 Unity 성능 버그에 대한 해결 방법이 롤백되었습니다.
 
@@ -105,7 +229,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   (3.9.0.0에서 백포팅) Unity에서 수정된 Unity 성능 버그에 대한 해결 방법이 롤백되었습니다.
 
@@ -114,7 +238,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   Unity 성능 버그에 대한 일시적인 해결 방법: 프로젝트를 생성할 때 MonoIslands를 캐시합니다.
 
@@ -152,7 +276,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   새 Unity 런타임에서 사용하는 경우 더 이상 이식 가능한 pdb를 mdb로 변환하지 않습니다.
 
@@ -190,7 +314,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   예외 설정 사용이 수정되었습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   패키지 관리자 컴파일 단위를 생성에서 제외합니다.
 
@@ -199,7 +323,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="new-features"></a>새 기능
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   Unity 2018.1에서 새 프로젝트 생성기에 대한 지원이 추가되었습니다.
 
@@ -218,7 +342,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   Mono 버전 검색이 수정되었습니다.
 
@@ -231,13 +355,13 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="new-features"></a>새 기능
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   .NET Standard에 대한 지원이 추가되었습니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   Unity 대상 프레임워크 검색이 수정 되었습니다.
 
@@ -276,7 +400,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="new-features"></a>새 기능
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   2018.1 MonoIsland 참조 모델에 대한 지원이 추가되었습니다.
 
@@ -294,7 +418,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   플레이어 프로젝트에 대한 프로젝트 guid 계산이 수정되었습니다.
 
@@ -338,7 +462,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   Unity API 도움말 메뉴를 표시하지 않도록 수정했습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   IL2CPP/.NET 4.6 백 엔드에서 UWP 게임을 사용할 때 Player 프로젝트 생성을 수정했습니다.
 
@@ -353,7 +477,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="new-features"></a>새 기능
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   assembly.json 컴파일 단위 지원이 추가되었습니다.
 
@@ -375,7 +499,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   로컬로 컴파일러가 생성한 항목을 수정했습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   4.6 API 수준의 Microsoft.CSharp에 대한 참조가 수정되었습니다.
 
@@ -384,7 +508,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 ### <a name="bug-fixes"></a>버그 수정
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   Unity 5.5 및 이전 버전에서 Visual Studio 솔루션 생성을 수정합니다.
 
@@ -411,7 +535,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   Visual Studio 조사식에 항목을 추가할 때의 문제를 해결했습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   mcs.rsp 파일을 사용한 어셈블리 이름 참조를 수정했습니다.
 
@@ -443,7 +567,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   새로운 Unity 런타임에 대한 지원(.NET 4.6/C# 6 호환성 포함)이 추가되었습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   .NET 4.6 프로필에 대한 지원이 추가되었습니다.
 
@@ -459,7 +583,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   자동 완성을 사용하여 메서드를 편집한 후 캐럿 위치가 수정되었습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   어셈블리 버전 후 처리가 제거되었습니다.
 
@@ -492,7 +616,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   바인딩할 수 없는 중단점의 경우(해당 소스 위치를 찾을 수 없는 경우) 경고가 추가되었습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   특수/지역화된 문자가 포함된 csproj 생성이 수정되었습니다.
 
@@ -537,7 +661,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   형식이 예상되거나 형식을 찾을 수 없는 경우 더 나은 오류 메시지가 추가되었습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   프로젝트 이름에서 CSharp 접미사가 제거되었습니다.
 
@@ -565,7 +689,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
     -   새 C# 컴파일러에서 반복기 프레임을 디버그하기 위한 지원이 수정되었습니다.
 
--   **Project Generation:**
+-   **프로젝트 생성:**
 
     -   Unity 웹 플레이어를 대상으로 할 때 컴파일을 막는 버그가 수정되었습니다.
 

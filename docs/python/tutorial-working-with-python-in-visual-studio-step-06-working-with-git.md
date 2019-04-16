@@ -4,19 +4,19 @@ titleSuffix: ''
 description: Visual Studio의 Python에 대한 핵심 연습의 6단계로, Visual Studio의 Git 관련 기능을 설명합니다.
 ms.date: 01/28/2019
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 386821867b1f7290fd195322a699eb161536a06b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8d71f9e145d78d1d1bf7f6e9bb132e9fc084afd0
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919861"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366000"
 ---
 # <a name="step-6-work-with-git"></a>6단계: Git 작업
 
@@ -74,4 +74,4 @@ Visual Studio의 Python에 대한 이 자습서 완료를 축하합니다. 이 �
 - [Python용 C++ 확장 만들기](working-with-c-cpp-python-in-visual-studio.md)
 - [Azure App Service에 게시](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - [프로파일링](profiling-python-code-in-visual-studio.md)
-- [유닛 테스트](unit-testing-python-in-visual-studio.md)
+- [단위 테스트](unit-testing-python-in-visual-studio.md)

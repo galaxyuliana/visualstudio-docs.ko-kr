@@ -9,14 +9,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 1634731e68c395dea5a14876cf67944714cb4c3a
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 6d8e3f3288c6a64b35a1de59fe0f317b6283b805
+ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57222490"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59232556"
 ---
-# <a name="frequently-asked-questions-about-fxcop-and-fxcop-analyzers"></a>FxCop 및 FxCop 분석기에 대한 질문과 대답
+# <a name="frequently-asked-questions-about-fxcop-and-fxcop-analyzers"></a>FxCop 및 FxCop 분석기에 대해 자주 묻는 질문
 
 레거시 FxCop와 FxCop 분석기 간의 차이점을 이해이해하는 것은 다소 혼동을 일으킬 수 있습니다. 이 문서에서는 사용자가 가질 수 있는 일부 질문을 해결하려고 합니다.
 
@@ -40,6 +40,14 @@ FxCop 분석기는 .NET Compiler Platform("Roslyn")을 기반으로 합니다. �
 ## <a name="so-how-do-i-run-fxcop-analyzers-then"></a>그러면 FxCop 분석기를 어떻게 실행하나요?
 
 FxCop 분석기를 실행하려면 먼저 [NuGet 패키지를 설치합니다](install-fxcop-analyzers.md). 그런 다음, Visual Studio에서 또는 msbuild를 사용하여 프로젝트 또는 솔루션을 빌드합니다. FxCop 분석기가 생성하는 경고 및 오류는 **오류 목록** 또는 명령 창에 표시됩니다.
+
+## <a name="i-get-warning-ca0507-even-after-ive-installed-the-fxcop-analyzers-nuget-package"></a>FxCop 분석기 NuGet 패키지를 설치한 후에도 경고 CA0507이 표시됨
+
+FxCop 분석기를 설치했지만 경고 CA0507 **“코드 분석 실행”이 더 이상 사용되지 않고 대신 FxCop 분석기가 빌드 중 실행됩니다.** 가 계속 표시되는 경우에는 프로젝트 파일에서 **RunCodeAnalysis** msbuild 속성을 **false**로 설정해야 할 수 있습니다. 이렇게 설정하지 않으면 각 빌드 후에 정적 코드 분석이 실행됩니다.
+
+```xml
+<RunCodeAnalysis>false</RunCodeAnalysis>
+```
 
 ## <a name="see-also"></a>참고 항목
 

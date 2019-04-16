@@ -3,20 +3,20 @@ title: IIS용 Python 웹앱 구성
 description: Windows 가상 머신에서 인터넷 정보 서비스를 사용하여 실행할 Python 웹앱을 구성하는 방법입니다.
 ms.date: 12/06/2018
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: 547c92cdb892c3a087301fb527d069dacfaccd8e
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: 551cff18849f0e8ad9fcd6f2c1e08561291b177f
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355459"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366395"
 ---
 # <a name="configure-python-web-apps-for-iis"></a>IIS용 Python 웹앱 구성
 
@@ -100,8 +100,8 @@ FastCGI는 요청 수준에서 작동하는 인터페이스입니다. IIS는 들
     이러한 `<appSettings>` 값은 앱에서 환경 변수로 사용할 수 있습니다.
 
     - `PYTHONPATH`의 값은 자유롭게 확장될 수 있지만 해당 앱의 루트를 포함해야 합니다.
-    - `WSGI_HANDLER`는 해당 앱에서 가져올 수 있는 WSGI 앱을 가리켜야 합니다.
-    - `WSGI_LOG`는 선택 사항이지만 앱 디버깅을 위해 권장됩니다.
+    - `WSGI_HANDLER` 해당 앱에서 가져올 수 있는 WSGI 앱을 가리켜야 합니다.
+    - `WSGI_LOG` 선택 사항이지만 앱 디버깅을 위해 권장됩니다.
 
 1. *web.config*의 `WSGI_HANDLER` 항목을 사용 중인 프레임워크에 적합하게 설정합니다.
 

@@ -3,19 +3,19 @@ title: Python 애플리케이션 프로젝트 관리
 description: Visual Studio의 프로젝트는 파일 간의 종속성과 애플리케이션의 관계 복잡성을 관리합니다.
 ms.date: 03/18/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 61d37adfdc74a5b2a9c22ba9f3e5a92622cbbab6
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: 2ee3b0d82251d01e8ede22be238dc1bca5a4e092
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355528"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366226"
 ---
 # <a name="python-projects-in-visual-studio"></a>Visual Studio의 Python 프로젝트
 
@@ -41,7 +41,7 @@ Visual Studio는 기존 폴더 트리에서 프로젝트를 만드는 템플릿�
 
 |   |   |
 |---|---|
-| ![비디오에 대한 비디오 카메라 아이콘](../install/media/video-icon.png "비디오 보기") | [심층 분석: Python 프로젝트에서 소스 제어 사용](https://youtu.be/Aq8eqApnugM)(youtube.com, 8분 55초)도 시청하세요. |
+| ![동영상을 위한 영화 카메라 아이콘](../install/media/video-icon.png "동영상 보기") | [심층 분석: Python 프로젝트에서 소스 제어 사용](https://youtu.be/Aq8eqApnugM)(youtube.com, 8분 55초)도 시청하세요. |
 
 ## <a name="add-files-assign-a-startup-file-and-set-environments"></a>파일 추가. 시작 파일 할당. 환경 설정
 
@@ -81,7 +81,7 @@ Visual Studio는 처음부터 작성하거나 기존 코드에서 작성하는 �
 | --- | --- |
 | [**기존 Python 코드에서**](#create-project-from-existing-files) | 폴더 구조의 기존 Python 코드에서 Visual Studio 프로젝트를 만듭니다.  |
 | **Python 애플리케이션** | 하나의 비어있는 소스 파일을 포함하는 새로운 Python 애플리케이션에 대한 기본 프로젝트 구조입니다. 기본적으로 프로젝트는 기본 글로벌 환경의 콘솔 인터프리터에서 실행되며 [서로 다른 환경을 할당](selecting-a-python-environment-for-a-project.md)하여 변경할 수 있습니다. |
-| [**Azure Cloud Service**](python-azure-cloud-service-project-template.md) | Python으로 작성된 Azure Cloud Service에 대한 프로젝트입니다. |
+| [**Azure 클라우드 서비스**](python-azure-cloud-service-project-template.md) | Python으로 작성된 Azure 클라우드 서비스에 대한 프로젝트입니다. |
 | [**웹 프로젝트**](python-web-application-project-templates.md) | Bottle, Django 및 Flask를 비롯한 다양한 프레임워크를 기반으로 하는 웹앱에 대한 프로젝트입니다. |
 | **IronPython 애플리케이션** | Python 애플리케이션 템플릿과 유사하지만 .NET interop 및 .NET 언어로 혼합 모드 디버깅을 기본적으로 사용하는 IronPython을 사용합니다. |
 | **IronPython WPF 애플리케이션** | 애플리케이션의 사용자 인터페이스에 대한 Windows Presentation Foundation XAML 파일에 IronPython을 사용하는 프로젝트 구조입니다. Visual Studio는 XAML UI 디자이너를 제공하고 코드 숨김은 Python으로 작성할 수 있으며 애플리케이션은 콘솔을 표시하지 않고 실행됩니다. |

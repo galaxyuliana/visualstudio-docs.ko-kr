@@ -7,12 +7,12 @@ ms.date: 07/12/2018
 ms.topic: conceptual
 description: 관리 포털로 마이그레이션한 후 Visual Studio 구독에 대한 조직에 성공적으로 등록하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 188842272f7e4ee102829f961b29b4d5ffbf70dc
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 3b12f5ad2d4f83759c6247f3498eb3da9d376991
+ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58154181"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58897610"
 ---
 # <a name="onboard-to-the-visual-studio-subscriptions-administration-portal-after-your-organization-is-migrated"></a>조직이 마이그레이션된 후 Visual Studio 구독 관리 포털에 등록
 
@@ -26,7 +26,7 @@ Microsoft VLSC(볼륨 라이선스 서비스 센터)에서 Visual Studio 구독�
 
 1. [주 연락처가 온보딩 프로세스를 완료하지 않은 경우](#onboarding-not-completed-by-primary-contact)
 2. [주 연락처가 온보딩을 완료했지만 사용자를 관리자로 추가하지 않았고 자격 증명이 VLSC에 나열되어 있는 경우](#primary-contact-did-not-provide-you-administrator-access)
-3. [주 연락처가 온보딩을 완료했지만 사용자를 관리자로 추가하지 않았고 자격 증명이 VLSC에 나열되지 않은 경우](#Your-credentials-were-not-listed-in-VLSC-prior-to-migration)
+3. [주 연락처가 온보딩을 완료했지만 사용자를 관리자로 추가하지 않았고 자격 증명이 VLSC에 나열되지 않은 경우](#your-credentials-were-not-listed-in-vlsc-prior-to-migration)
 
 <sup>1</sup> 사용자가 주 또는 통지 연락처이고 온보딩 프로세스를 완료하지 않은 경우에는 조직을 설정하기 위해 시나리오 1의 단계를 수행해야 합니다.
 

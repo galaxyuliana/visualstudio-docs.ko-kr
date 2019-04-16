@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 154ae0a55b3d85136209131e644cda9f696ef59a
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: ebc255e41e8e73739f83e69ab120f397cc46f49c
+ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355567"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58897714"
 ---
 # <a name="tutorial-create-a-nodejs-and-express-app-in-visual-studio"></a>자습서: Visual Studio에서 Node.js 및 Express 앱 만들기
 
@@ -78,7 +78,7 @@ Visual Studio는 *프로젝트*에서 단일 애플리케이션에 대한 파일
 1. 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    **Ctrl + Q**를 입력하여 검색 상자를 열고 **Node.js**를 입력한 다음, **새 기본 Azure Node.js Express 4 애플리케이션 만들기**(JavaScript)를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    **Esc** 키를 눌러 시작 창을 닫습니다. **Ctrl + Q**를 입력하여 검색 상자를 열고 **Node.js**를 입력한 다음, **새 기본 Azure Node.js Express 4 애플리케이션 만들기**(JavaScript)를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
     ::: moniker-end
     ::: moniker range="vs-2017"
     메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **JavaScript**를 확장한 다음, **Node.js**를 선택합니다. 가운데 창에서 **기본 Azure Node.js Express 4 애플리케이션**을 선택한 후 **확인**을 선택합니다.
@@ -204,7 +204,12 @@ IntelliSense는 코드를 작성할 때 지원하는 Visual Studio 도구입니�
 
 1. 디버그 도구 모음(예: Microsoft Edge 또는 Chrome)에서 디버그 대상을 선택합니다.
 
+    ::: moniker range=">=vs-2019"
+    ![디버그 대상 선택](../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png)
+    ::: moniker-end
+    ::: moniker range="vs-2017"
     ![디버그 대상 선택](../javascript/media/tutorial-nodejs-deploy-target.png)
+    ::: moniker-end
 
     머신에서 Chrome을 사용할 수 있지만 옵션으로 표시되지 않는 경우 디버그 대상 드롭다운 목록에서 **브라우저 선택**을 선택하고 기본 브라우저 대상으로 Chrome을 선택합니다(**기본값으로 설정** 선택).
 

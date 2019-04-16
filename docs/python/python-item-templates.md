@@ -3,19 +3,19 @@ title: Python 프로젝트용 항목 템플릿
 description: Visual Studio의 추가 > 새 항목 대화 상자를 통해 사용할 수 있는 Python 프로젝트용 항목 템플릿의 참조 목록입니다.
 ms.date: 12/06/2018
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 119ce4b4221995bdbe3225c895defd5d471377d9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c093dad1364fd5209f51c8e87e3fb99b3c1d3c4a
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55924697"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366460"
 ---
 # <a name="python-item-templates"></a>Python 항목 템플릿
 

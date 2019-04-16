@@ -3,19 +3,19 @@ title: Python 코드 편집
 description: Python의 경우 Visual Studio는 서식, Lint, 리팩터링과 함께 풍부한 IntelliSense, 코드 조각 및 탐색 기능을 제공합니다.
 ms.date: 03/13/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: aec55c4eb6bfd5aacd8368db7d7fcfdb6574b982
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: b111d3b0fe2f4af9098186aff3ef661045215473
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355554"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59366278"
 ---
 # <a name="edit-python-code"></a>Python 코드 편집
 
@@ -76,7 +76,7 @@ Visual Studio 2017 버전 15.6 이상에서는 데이터베이스에 종속되�
 
 ### <a name="type-hints"></a>형식 힌트
 
-*Visual Studio 2017 버전 15.7 이상*
+*Visual Studio 2017 버전 15.7 이상.*
 
 Python 3.5+([PEP 484](https://www.python.org/dev/peps/pep-0484/) (python.org)의 "형식 힌트”는 인수 형식, 반환 값, 클래스 속성을 표시하는 함수와 클래스에 대한 주석 구문입니다. IntelliSense는 함수 호출, 인수 및 해당 주석이 있는 변수 위에 마우스를 가져가면 형식 힌트를 표시합니다.
 

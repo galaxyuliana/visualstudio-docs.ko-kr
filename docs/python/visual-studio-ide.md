@@ -3,26 +3,26 @@ title: Python 개발자용 Visual Studio 개요
 titleSuffix: ''
 ms.date: 03/13/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 dev_langs:
 - Python
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: f5ae66de706d29f7efb63f2c5b975a268c5f50ab
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: d9c84e72551911135550c43da2b99ecb1357f9b6
+ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58354780"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "59365732"
 ---
 # <a name="welcome-to-the-visual-studio-ide--python"></a>Visual Studio IDE 시작 | Python
 
 Visual Studio *통합 개발 환경*은 코드를 편집, 디버그 및 테스트한 다음, 앱을 게시하는 데 사용할 수 있는 Python(및 기타 언어)용 창의적인 실행 패드입니다. IDE(통합 개발 환경)는 소프트웨어 개발의 다양한 측면에서 사용할 수 있는 다양한 기능을 갖춘 프로그램입니다. 대부분의 IDE가 제공하는 표준 편집기 및 디버거 이상의 Visual Studio에는 코드 완성 도구, 대화형 REPL 환경 및 소프트웨어 개발 프로세스를 쉽게 만들어 주는 많은 기능이 포함되어 있습니다.
 
-[![Python 프로젝트가 포함된 Visual Studio](media/tour-ide-overview.png)](media/tour-ide-overview.png#lightbox)
+[![VPython 프로젝트가 포함된 Visual Studio(media/tour-ide-overview.png)](media/tour-ide-overview.png#lightbox)
 
 이 이미지는 Python 프로젝트와 사용할 만한 몇 가지 주요 도구 창이 열려 있는 Visual Studio를 보여줍니다.
 
@@ -62,17 +62,17 @@ Windows의 세 가지 Visual Studio 버전은 다음과 같습니다. Community,
 
    ![Visual Studio에서 리팩터링](media/tour-ide-refactor-extract-method.png)
 
-- [Linting](refactoring-python-code.md)
+- [Lint](refactoring-python-code.md)
 
    Linting은 Python 코드의 오류 및 일반적인 문제를 검사하여 적절한 Python 코딩 패턴을 장려합니다.
 
    ![Python 프로젝트의 상황에 맞는 메뉴에 있는 PyLint 명령](media/code-pylint-command.png)
 
-- [빠른 실행](../ide/reference/quick-launch-environment-options-dialog-box.md)
+- 검색 상자
 
-   Visual Studio는 메뉴, 옵션 및 속성이 매우 다양하여 때때로 버거울 수도 있습니다. **빠른 실행** 검색 상자는 Visual Studio에서 필요한 항목을 빠르게 찾을 수 있는 좋은 방법입니다. 찾으려는 이름을 입력하기만 하면 Visual Studio는 원하는 곳으로 정확하게 안내하는 결과를 나열합니다. 예를 들어 다른 프로그래밍 언어를 위한 지원을 추가하도록 Visual Studio에 기능을 추가하는 경우 **빠른 실행**을 사용하면 워크로드 또는 개별 구성 요소를 설치하도록 Visual Studio 설치 관리자가 열립니다.
+   Visual Studio는 메뉴, 옵션 및 속성이 매우 다양하여 때때로 버거울 수도 있습니다. 검색 상자는 Visual Studio에서 필요한 항목을 빠르게 찾을 수 있는 좋은 방법입니다. 찾으려는 이름을 입력하기만 하면 Visual Studio는 원하는 곳으로 정확하게 안내하는 결과를 나열합니다. 예를 들어 다른 프로그래밍 언어를 위한 지원을 추가하도록 Visual Studio에 기능을 추가하는 경우 검색 상자를 사용하면 워크로드 또는 개별 구성 요소를 설치하도록 Visual Studio 설치 관리자가 열립니다.
 
-   ![Visual Studio의 빠른 실행 검색 상자](media/tour-ide-quick-launch.png)
+   ![Visual Studio의 검색 상자](media/tour-ide-quick-launch.png)
 
 - 오류 표시선 및 [빠른 작업](../ide/quick-actions.md)
 
@@ -106,7 +106,7 @@ Windows의 세 가지 Visual Studio 버전은 다음과 같습니다. Community,
 
     ![Visual Studio의 Python 디버깅](media/remote-debugging-breakpoint-hit.png)
 
-- [C++와 상호 작용](working-with-c-cpp-python-in-visual-studio.md)
+- [C++ 조작](working-with-c-cpp-python-in-visual-studio.md)
 
     Python용으로 만들어진 많은 라이브러리는 최적의 성능을 위해 C++로 작성됩니다. Visual Studio는 [혼합 모드 디버깅](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)을 포함하여 C++ 확장 개발에 필요한 다양한 기능을 제공합니다.
 
