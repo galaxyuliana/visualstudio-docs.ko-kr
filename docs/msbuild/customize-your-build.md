@@ -11,14 +11,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fc4515ad8f61d749c9fb7552911bfb15dcc3471a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: da7b755c5b0ec72a9e1b906bdc1cd27a6dca7c0a
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610335"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584313"
 ---
-# <a name="customize-your-build-c-visual-basic"></a>빌드 사용자 지정(C#, Visual Basic)
+# <a name="customize-your-build"></a>빌드 사용자 지정
 
 표준 빌드 프로세스(*Microsoft.Common.props* 및 *Microsoft.Common.targets* 가져오기)를 사용하는 MSBuild 프로젝트에는 빌드 프로세스를 사용자 지정하는 데 사용할 수 있는 몇 가지 확장성 후크가 있습니다.
 

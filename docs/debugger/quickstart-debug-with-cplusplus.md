@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: ee57fe4d2df3a9d1fa9f4f8a624e7b63caa1f7fd
-ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
+ms.openlocfilehash: ac95fc54b410700f3ce28f3ace6192787400d64b
+ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58475957"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59504213"
 ---
 # <a name="quickstart-debug-with-c-using-the-visual-studio-debugger"></a>빠른 시작: Visual Studio 디버거를 사용하여 C++ 디버그
 
@@ -28,7 +28,7 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
 1. Visual Studio를 열고 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    **Ctrl + Q**를 입력하여 검색 상자를 열고 **c++** 를 입력하고 **템플릿**을 선택한 다음, **새 콘솔 앱 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    **Esc** 키를 눌러 시작 창을 닫습니다. **Ctrl + Q**를 입력하여 검색 상자를 열고 **c++** 를 입력하고 **템플릿**을 선택한 다음, **새 콘솔 앱 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
     ::: moniker-end
     ::: moniker range="vs-2017"
     메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C++** 아래에 **Windows 데스크톱**을 선택한 다음, 가운데 창에서 **Windows 콘솔 애플리케이션**을 선택합니다. **MyDbgApp**과 같은 이름을 입력하고 **확인**을 클릭합니다.
@@ -138,4 +138,4 @@ Visual Studio 디버거는 앱을 디버그하도록 돕는 여러 가지 강력
 이 자습서에서는 디버거를 시작하고, 코드를 단계별로 실행하며, 변수를 검사하는 방법을 알아보았습니다. 더 많은 정보에 대한 링크와 함께 디버거 기능에 대해 개략적으로 살펴보는 것이 좋습니다.
 
 > [!div class="nextstepaction"]
-> [디버거 기능 둘러보기](../debugger/debugger-feature-tour.md)
+> [디버거 소개](../debugger/debugger-feature-tour.md)

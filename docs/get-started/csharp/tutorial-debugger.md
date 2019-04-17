@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8ba9ff86db64c59d8be581dc778db5ffa6d56f4a
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: cdd82bffcbdbbf4ee176c7ffd643cd920d1c5268
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355661"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790149"
 ---
 # <a name="tutorial-learn-to-debug-c-code-using-visual-studio"></a>자습서: Visual Studio를 사용하여 C# 코드를 디버그하는 방법 알아보기
 
@@ -58,7 +58,7 @@ Visual Studio 2017이 설치되어 있어야 하고 **.NET 데스크톱 개발**
 1. Visual Studio를 엽니다.
 
     ::: moniker range=">=vs-2019"
-    **Ctrl + Q**를 입력하여 검색 상자를 열고 **콘솔**을 입력하고 **템플릿**을 선택한 다음, **새 콘솔 앱(.NET Framework) 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에 **get-started-debugging**과 같은 이름을 입력한 다음, **만들기**를 선택합니다.
+    **Esc** 키를 눌러 시작 창을 닫습니다. **Ctrl + Q**를 입력하여 검색 상자를 열고 **콘솔**을 입력하고 **템플릿**을 선택한 다음, **새 콘솔 앱(.NET Framework) 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에 **get-started-debugging**과 같은 이름을 입력한 다음, **만들기**를 선택합니다.
     ::: moniker-end
     ::: moniker range="vs-2017"
     메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C#** 아래에 **Windows 데스크톱**을 선택한 다음, 가운데 창에서 **콘솔 앱(.NET Framework)** 을 선택합니다. 그런 다음, **get-started-debugging**과 같은 이름을 입력하고 **확인**을 클릭합니다.

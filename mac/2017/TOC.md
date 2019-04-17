@@ -77,3 +77,4 @@
 # [문제 해결](/visualstudio/mac/troubleshooting)
 ## [Visual Studio 사용자 환경 개선 프로그램](/visualstudio/mac/visual-studio-experience-improvement-program)
 ## [문제 보고](/visualstudio/mac/report-a-problem)
+## [문제 해결: Updater에서 정보 검색 중에 오류가 발생했습니다.](updater-troubleshooting.md)

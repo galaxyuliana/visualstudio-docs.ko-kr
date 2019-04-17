@@ -1,7 +1,7 @@
 ---
 title: Visual Basic에서 시각화 도우미 작성 | Microsoft Docs
 ms.custom: seodec18
-ms.date: 11/04/2016
+ms.date: 04/12/2019
 ms.topic: conceptual
 dev_langs:
 - CSharp
@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 24138337ab5adbbcabb9b0ab03cc411392565622
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: d30e789d0ae3fa3e717be9739b94439a7d6a31a2
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54988365"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584547"
 ---
 # <a name="walkthrough-writing-a-visualizer-in-visual-basic"></a>연습: Visual Basic에서 시각화 도우미 작성
 이 연습에서는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]을 사용하여 간단한 시각화 도우미를 작성하는 방법을 보여 줍니다. 이 연습에서 만들 시각화 도우미는 Windows Forms 메시지 상자를 사용하여 문자열의 내용을 표시합니다. 이 간단한 문자열 시각화 도우미는 프로젝트에 더 유용하게 사용할 수 있는 다른 형식에 대한 시각화 도우미를 만드는 방법을 보여 주는 기본 예제입니다.
@@ -36,15 +36,16 @@ ms.locfileid: "54988365"
 
 ### <a name="to-create-a-class-library-project"></a>클래스 라이브러리 프로젝트를 만들려면
 
-1. **파일** 메뉴에서 **새로 만들기**를 선택하고 **새 프로젝트**를 클릭합니다.
+1. 새 클래스 라이브러리 프로젝트를 만듭니다.
 
-2. 에 **새 프로젝트** 대화 상자에서 **Visual Basic**합니다.
+    ::: moniker range=">=vs-2019"
+    **Esc** 키를 눌러 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **visual basic**, 선택 **템플릿**, 선택한 **새 클래스 라이브러리 (.NET Standard)만들기**. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. 왼쪽된 창에서 합니다 **새 프로젝트** 대화 상자의 **Visual Basic**, 선택 **.NET Standard**를 선택한 다음 가운데 창에서 **클래스 라이브러리 (.NET 표준)** 합니다.
+    ::: moniker-end
 
-3. 아래 **.NET Standard**, 클릭 **클래스 라이브러리**합니다.
-
-4. **이름** 상자에 **MyFirstVisualizer** 같이 적절한 클래스 라이브러리 이름을 입력합니다.
-
-5. **확인**을 클릭합니다.
+2. 같은 클래스 라이브러리에 대 한 적절 한 이름을 입력 `MyFirstVisualizer`를 클릭 하 고 **만들기** 하거나 **확인**합니다.
 
    클래스 라이브러리를 만든 후에는 Microsoft.VisualStudio.DebuggerVisualizers.DLL에 대한 참조를 추가하여 여기에서 정의한 클래스를 사용할 수 있도록 해야 합니다. 그 전에 프로젝트에 의미 있는 이름을 부여해야 합니다.
 
@@ -59,7 +60,9 @@ ms.locfileid: "54988365"
 
 3. **솔루션 탐색기**에서 **내 첫 번째 시각화 도우미**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.
 
-4. **참조 추가** 대화 상자의 **.NET** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers.DLL을 클릭합니다.
+4. 에 **참조 추가** 대화 상자의 **찾아보기** 탭을 선택 **찾아보기** 는 Microsoft.VisualStudio.DebuggerVisualizers.DLL을 찾습니다.
+
+    DLL을 찾을 수 있습니다  *\<Visual Studio 설치 디렉터리 > \Common7\IDE\PublicAssemblies* Visual Studio의 설치 디렉터리의 하위 디렉터리입니다.
 
 5. **확인**을 클릭합니다.
 
@@ -105,7 +108,9 @@ ms.locfileid: "54988365"
 
 1.  **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.
 
-2.  **참조 추가** 대화 상자의 **.NET** 탭에서 **System.Windows.Forms**을 클릭합니다.
+2. 에 **참조 추가** 대화 상자의 합니다 **찾아보기** 탭을 선택 **찾아보기**는 System.Windows.Forms.DLL 찾고.
+
+    DLL을 찾을 수 있습니다 *C:\Windows\Microsoft.NET\Framework\v4.0.30319*합니다.
 
 3.  **확인**을 클릭합니다.
 
@@ -163,13 +168,16 @@ ms.locfileid: "54988365"
 
 ### <a name="to-add-a-console-application-project-to-the-solution"></a>솔루션에 콘솔 응용 프로그램 프로젝트를 추가하려면
 
-1. **파일** 메뉴에서 **추가**를 클릭한 다음, **새 프로젝트**를 클릭합니다.
+1. 솔루션 탐색기에서 솔루션을 마우스 오른쪽 단추로 차례로 **추가**를 클릭 하 고 **새 프로젝트**합니다.
 
-2. 에 **새 프로젝트 추가** 대화 상자에서 **Visual Basic**를 클릭 하 고 **콘솔 응용 프로그램**합니다.
+    ::: moniker range=">=vs-2019"
+    검색 상자에 입력 **visual basic**, 선택 **템플릿**를 선택한 **새 콘솔 앱 (.NET Framework) 만들기**합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Basic** 아래에 **Windows 데스크톱**을 선택한 다음, 가운데 창에서 **콘솔 앱(.NET Framework)** 을 선택합니다.
+    ::: moniker-end
 
-3. **이름** 상자에서 **MyTestConsole** 같은 의미 있는 이름을 콘솔 애플리케이션에 부여합니다.
-
-4. **확인**을 클릭합니다.
+2. 같은 클래스 라이브러리에 대 한 적절 한 이름을 입력 `MyTestConsole`를 클릭 하 고 **만들기** 하거나 **확인**합니다.
 
    이제 MyTestConsole에서 MyFirstVisualizer를 호출하는 데 필요한 참조를 추가해야 합니다.
 
@@ -177,7 +185,7 @@ ms.locfileid: "54988365"
 
 1.  **솔루션 탐색기**에서 **MyTestConsole**을 마우스 오른쪽 단추로 클릭하고, 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.
 
-2.  **참조 추가** 대화 상자의 **.NET** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers를 클릭합니다.
+2.  에 **참조 추가** 대화 상자의 합니다 **찾아보기** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers를 클릭 합니다.
 
 3.  **확인**을 클릭합니다.
 
@@ -225,7 +233,7 @@ ms.locfileid: "54988365"
 
    시각화 도우미를 테스트 환경에서 호출하는 대신 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에 사용하려면 이를 설치해야 합니다. 자세한 내용은 [방법: 시각화 도우미 설치](../debugger/how-to-install-a-visualizer.md)를 참조하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [시각화 도우미 아키텍처](../debugger/visualizer-architecture.md)
 - [방법: 시각화 도우미 설치](../debugger/how-to-install-a-visualizer.md)
