@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8ad150a2eb9e27a9b2ce1e2e293d84ed956d8a7d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a87013ff3a1911caa667f7ba431e408fc87a98f4
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603315"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584482"
 ---
 # <a name="msbuild-special-characters"></a>MSBuild 특수 문자
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 특정 컨텍스트에서 특별한 용도로 사용할 일부 문자를 예약합니다. 예약된 컨텍스트에서 문자 그대로 사용하려는 경우 이러한 문자를 이스케이프 처리해야 합니다. 예를 들어 별표는 항목 정의의 `Include` 및 `Exclude` 특성 및 `CreateItem`에 대한 호출에서만 특별한 의미를 가집니다. 별표를 해당 컨텍스트 중 하나에서 별표로 표시하려면 이스케이프 처리해야 합니다. 모든 다른 컨텍스트에서 별표를 표시하려는 곳에 입력합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "56603315"
 |%|%25|메타데이터 참조|
 |$|%24|속성 참조|
 |@|%40|항목 목록 참조|
-|'|%27|조건 및 기타 식|
+|\'|%27|조건 및 기타 식|
 |;|%3B|목록 구분 기호|
 |?|%3F|`Include` 및 `Exclude` 특성의 파일 이름에 대한 와일드 카드 문자|
 |*|%2A|`Include` 및 `Exclude` 특성의 파일 이름에서 사용할 와일드 카드 문자|

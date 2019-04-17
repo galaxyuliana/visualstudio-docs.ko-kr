@@ -17,14 +17,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 21fafd202fd89666cedb1132d9647f2f1d95f4b9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: df01776b5a7f2437c704c2b389c7d0929be5901c
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56685055"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584521"
 ---
-# <a name="about-the-registers-window-in-visual-studio-c-c-visual-basic-f"></a>Visual Studio에서 레지스터 창 정보 (C#, c + +, Visual Basic의 경우 F#)
+# <a name="about-the-registers-window-in-visual-studio-c-c-visual-basic-f"></a>Visual Studio에서 레지스터 창 정보 (C#, C++, Visual Basic의 경우 F#)
 
 **레지스터** 창은 **옵션** 대화 상자의 **디버깅** 노드에서 주소 수준 디버깅을 활성화한 경우에만 사용할 수 있습니다.
 
@@ -47,7 +47,23 @@ ms.locfileid: "56685055"
  **레지스터** 창을 사용하면 단순히 레지스터의 내용을 보는 것 이상을 수행할 수 있습니다. 네이티브 코드의 중단 모드에 있으면 레지스터의 내용을 클릭하여 값을 편집할 수 있습니다. 이것은 임의로 수행하는 작업이 아닙니다. 편집하는 레지스터와 그 안에 들어 있는 데이터에 대해 모르면 부주의한 편집으로 인해 프로그램이 손상되거나 기타 원치 않는 결과가 발생할 수 있습니다. 그러나 여기서는 범위를 벗어나는 내용이므로 다양한 Intel 및 Intel 호환 프로세서의 레지스터 세트에 대해서는 설명하지 않습니다.
 
 ## <a name="register-groups"></a>레지스터 그룹
- **레지스터** 창에서는 레지스터를 그룹으로 구성하여 간단하게 표시합니다. **레지스터** 창을 마우스 오른쪽 단추로 클릭하면 그룹 목록이 들어 있는 바로 가기 메뉴가 나타나며, 이 메뉴는 필요에 따라 표시하거나 숨길 수 있습니다.
+
+**레지스터** 창에서는 레지스터를 그룹으로 구성하여 간단하게 표시합니다. **레지스터** 창을 마우스 오른쪽 단추로 클릭하면 그룹 목록이 들어 있는 바로 가기 메뉴가 나타나며, 이 메뉴는 필요에 따라 표시하거나 숨길 수 있습니다.
+
+## <a name="register-flags"></a>플래그를 등록 합니다.
+
+Intel x86 프로세서의 경우에 다음 플래그를 표시 될 수 있습니다 합니다 **등록** 창입니다. 디버깅 세션 중에 이러한 플래그를 편집할 수 있습니다.
+
+|플래그|값 설정|
+|-|-|
+|오버플로|OV = 1|
+|방향|UP = 1|
+|인터럽트|EI = 1|
+|Sign|PL = 1|
+|0|ZR = 1|
+|보조 전달|AC = 1|
+|패리티|PE = 1|
+|전달|CY = 1|
 
 ## <a name="see-also"></a>참고 항목
 - [방법: 레지스터 창 사용](../debugger/how-to-use-the-registers-window.md)
