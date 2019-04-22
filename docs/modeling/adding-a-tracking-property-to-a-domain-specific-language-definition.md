@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 98e3c4aabd973a755f2289abfa809df556680070
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MT
+ms.openlocfilehash: cd4bf8b1b6f43e8ed12b133a621e21157fb87118
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55944535"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59657391"
 ---
 # <a name="add-a-tracking-property-to-a-domain-specific-language-definition"></a>도메인 특정 언어 정의에 추적 속성 추가
 
@@ -45,7 +45,6 @@ A *도메인 추적* 속성은 사용자가 업데이트할 수는 있지만 다
 ## <a name="prerequisites"></a>전제 조건
 
 이 연습을 시작 하기 전에 이러한 구성 요소를 먼저 설치 해야 합니다.
-
 
 | | |
 |-|-|
@@ -760,4 +759,4 @@ XML serialization에 대 한 사용자 지정 후 로드 동작을 지 원하는
 - <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>
 - <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>
 - [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)
-- [방법: 도메인별 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)
+- [방법: 도메인 특정 언어 솔루션 만들기](../modeling/how-to-create-a-domain-specific-language-solution.md)

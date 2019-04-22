@@ -9,17 +9,16 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f3024f9a8b33f27797c186b06b7ce89a7c18d844
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 350b97385ab03daca80cc86d4f672dfec07222aa
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986259"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654024"
 ---
 # <a name="integration-with-xml-editor"></a>XML 편집기와의 통합
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XML 스키마 디자이너는 XML 편집기와 통합되었습니다. XML 편집기에서 XSD 파일을 수정 하면 변경에 반영 됩니다 합니다 [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)합니다. 있는 경우는 [그래프 뷰](../xml-tools/graph-view.md) 또는 [콘텐츠 모델 뷰](../xml-tools/content-model-view.md) 열려 변경도 반영 됩니다 있습니다. 다음 방법을 사용하여 XML 스키마 디자이너와 XML 편집기 간을 탐색할 수 있습니다.  
   
 - XML 편집기에서 노드를 마우스 오른쪽 단추로 클릭 하 고 선택 **XML 스키마 탐색기에 표시**합니다.  

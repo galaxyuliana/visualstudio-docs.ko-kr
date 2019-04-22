@@ -19,17 +19,16 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 49fb600b2c27725eb6fe888aa2a41a6b19c123b0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 3e155b33c501326be3d3dcc89fb6b73d501556be
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983885"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59657849"
 ---
 # <a name="save-a-dataset-as-xml"></a>데이터 세트를 XML로 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 데이터 집합의 XML 데이터를 데이터 집합에서 제공 되는 XML 메서드를 호출 하 여 액세스할 수 있습니다. XML 형식으로 데이터를 저장 하려면 하거나 호출할 수 있습니다 합니다 <xref:System.Data.DataSet.GetXml%2A> 메서드 또는 <xref:System.Data.DataSet.WriteXml%2A> 메서드를 <xref:System.Data.DataSet>입니다.  
   
  호출 된 <xref:System.Data.DataSet.GetXml%2A> 메서드 XML으로 형식이 지정 된 데이터 집합에서 모든 데이터 테이블의에서 데이터를 포함 하는 문자열을 반환 합니다.  

@@ -9,14 +9,14 @@ caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7931341080fbb2d2a98b695e5a864365c7bf6784
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: e1940bb3825fd610d4177b92c7147bfcd55b6174
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54766434"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659360"
 ---
-# <a name="how-to-instrument-a-net-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line"></a>방법: 프로파일러 명령줄을 사용하여 .NET 서비스 계측 및 자세한 타이밍 데이터 수집
+# <a name="how-to-instrument-a-net-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line"></a>방법: .NET 서비스 계측 및 수집 자세한 타이밍 데이터 Profiler 명령줄을 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목에서는 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 프로파일링 도구 명령줄 도구를 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 서비스를 계측하고 자세한 타이밍 데이터를 수집하는 방법을 설명합니다.  
@@ -75,7 +75,6 @@ ms.locfileid: "54766434"
    |    [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`     |                                                                                                             프로파일링 중에 수집할 Windows 성능 카운터를 지정합니다.                                                                                                              |
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                           **/wincounter**와 함께 사용해야 합니다. Windows 성능 카운터 수집 이벤트 사이에 경과하는 시간(밀리초)을 지정합니다. 기본값은 500ms입니다.                                                                            |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                              프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.etl)로 수집됩니다.                                                                              |
-
 
 8. Windows 서비스 제어 관리자에서 서비스를 시작합니다.  
 

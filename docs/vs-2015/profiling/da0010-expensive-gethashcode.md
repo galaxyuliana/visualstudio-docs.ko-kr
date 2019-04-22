@@ -14,19 +14,17 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 111e3204224f1124476ab2a324df7be2b6ef2525
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
-ms.translationtype: MTE95
+ms.openlocfilehash: 1055136562d59412a6187524dc6023c55ef2dc3c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58354832"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659035"
 ---
 # <a name="da0010-expensive-gethashcode"></a>DA0010: GetHashCode의 부담이 큽니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio에서 최신 설명서를 참조 하세요 [DA0010: GetHashCode의 부담이 큽니다](https://docs.microsoft.com/visualstudio/profiling/da0010-expensive-gethashcode) docs.microsoft.com에서 제공 합니다.  
-
-  
+Visual Studio에서 최신 설명서를 참조 하세요. [DA0010: GetHashCode의 부담이 큽니다](https://docs.microsoft.com/visualstudio/profiling/da0010-expensive-gethashcode)합니다.  
 
 |||  
 |-|-|  
@@ -40,7 +38,7 @@ Visual Studio에서 최신 설명서를 참조 하세요 [DA0010: GetHashCode의
  해당 형식의 GetHashCode 메서드 호출이 프로파일링 데이터의 상당한 부분을 차지하거나 메서드가 메모리를 할당합니다.  
   
 ## <a name="rule-description"></a>규칙 설명  
- 해싱은 큰 컬렉션에서 특정 항목을 신속하게 찾기 위한 기술입니다. 해시 테이블은 매우 클 수 있으며 속도가 빠른 액세스를 지원해야 하므로 해시 테이블 매우 효율적이어야 합니다. 이 요구 사항의 시사점은 .NET Framework의 GetHashCode 메서드는 메모리를 할당하지 않아야 한다는 것입니다. 메모리 할당은 가비지 수집기의 부하를 증가시키고 할당 요청으로 인해 가비지 수집을 실행하는 것이 필요할 경우 잠재적 지연에 메서드를 노출합니다.  
+ 해싱은 큰 컬렉션에서 특정 항목을 신속하게 찾기 위한 기술입니다. 해시 테이블 매우 클 수 있으며 속도가 빠른 액세스를 지원할 필요가, 점에서 해시 테이블 매우 효율적 이어야 합니다. 이 요구 사항의 시사점은 .NET Framework의 GetHashCode 메서드는 메모리를 할당하지 않아야 한다는 것입니다. 메모리 할당은 가비지 수집기의 부하를 증가시키고 할당 요청으로 인해 가비지 수집을 실행하는 것이 필요할 경우 잠재적 지연에 메서드를 노출합니다.  
   
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법  
  메서드의 복잡성을 줄이세요.

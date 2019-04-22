@@ -1,5 +1,5 @@
 ---
-title: C + + 정적 코드 분석 스토어 앱
+title: C++정적 코드 분석 스토어 앱
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-test
@@ -11,12 +11,12 @@ caps.latest.revision: 15
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9194da6803f04f3bf4cc56696d01a68a3e27d67d
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 867c42d4afb35abcc1e37c86f85a01a7dd3fdf24
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57873245"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659828"
 ---
 # <a name="analyze-c-code-quality-of-store-apps-using-visual-studio-static-code-analysis"></a>Visual Studio 정적 코드 분석을 사용하여 스토어 앱의 C++ 코드 품질 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,7 +78,6 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 ##  <a name="Warnings"></a> C++ 코드 분석 경고
  코드 분석 시 C++ 코드에 대해 다음과 같은 경고가 발생합니다.
 
-
 |                                      규칙                                      |                                                  설명                                                  |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 |                       [C6001](../code-quality/c6001.md)                        |                                          초기화되지 않은 메모리 사용                                           |
@@ -133,7 +132,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 | [C6523](http://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         잘못된 크기 문자열 매개 변수                                         |
 |                       [C6525](../code-quality/c6525.md)                        |                                   잘못된 크기 문자열 접근할 수 없는 위치                                    |
 | [C6526](http://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        잘못된 크기 문자열 버퍼 유형                                        |
-|                       [C6527](../code-quality/c6527.md)                        |              주석이 잘못되었습니다. 'NeedsRelease' 속성은 void 형식 값에 사용할 수 없습니다.               |
+|                       [C6527](../code-quality/c6527.md)                        |              주석이 잘못 되었습니다. 'NeedsRelease ' 속성은 void 형식의 값에 사용할 수 없습니다.               |
 |                       [C6530](../code-quality/c6530.md)                        |                                       인식할 수 없는 형식 문자열 스타일                                        |
 |                       [C6540](../code-quality/c6540.md)                        | 이 함수에 특성 주석을 사용하면 기존의 모든 __declspec 주석이 무효화됩니다.  |
 |                       [C6551](../code-quality/c6551.md)                        |                              크기 사양이 잘못되었습니다. 식을 구문 분석할 수 없습니다.                              |
@@ -204,7 +203,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 |                      [C28286](../code-quality/c28286.md)                       |                                    함수의 경우 끝 부분 근처에 구문 오류가 있습니다.                                    |
 |                      [C28287](../code-quality/c28287.md)                       |                함수의 경우 \_At\_() 주석에 구문 오류(인식할 수 없는 매개 변수 이름)                |
 |                      [C28288](../code-quality/c28288.md)                       |                  함수의 경우 \_At\_() 주석에 구문 오류(잘못된 매개 변수 이름)                   |
-|                      [C28289](../code-quality/c28289.md)                       |                함수의 경우 ReadableTo 또는 WritableTo에 limit-spec가 매개 변수로 포함되지 않았습니다.                |
+|                      [C28289](../code-quality/c28289.md)                       |                함수의 경우: ReadableTo 또는 WritableTo 없는 위한 제한 사양을 매개 변수로                |
 |                      [C28290](../code-quality/c28290.md)                       |           함수의 주석에 실제 매개 변수 개수보다 많은 외부 참조가 있습니다.            |
 |                      [C28291](../code-quality/c28291.md)                       |                        함수의 경우 역참조 수준 0에서 post null/notnull이 의미가 없습니다.                        |
 |                      [C28300](../code-quality/c28300.md)                       |                            연산자에 호환되지 않는 형식의 식 피연산자입니다.                             |

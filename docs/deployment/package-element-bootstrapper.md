@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5da71825596117bed4f5cd9042255a8fa83a0c64
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: f20e706dcc94e823446ea0e185881f034fcd7dd8
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631863"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654583"
 ---
 # <a name="ltpackagegt-element-bootstrapper"></a>&lt;패키지&gt; 요소 (부트스트래퍼)
 `Package` 요소는 패키지 파일 내에서 최상위 XML 요소입니다.
@@ -143,7 +143,6 @@ ms.locfileid: "56631863"
 ## <a name="elements-and-attributes"></a>요소 및 특성
  `Package` 요소는 필수입니다. 다음 특성을 가집니다.
 
-
 | 특성 | 설명 |
 |--------------------| - |
 | `Culture` | 필수 요소. 사용할 언어를 결정 하는이 패키지에 대 한 문화권을 정의 합니다. 이 특성은 키로는 `Strings` 요소를 설치 하는 동안 제품 이름 및 오류 메시지에 대 한 문화권 관련 문자열을 나열 합니다. |
@@ -188,5 +187,5 @@ ms.locfileid: "56631863"
 </Package>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)

@@ -11,17 +11,16 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 946c9b42d247df010863074786b41e6c52d7d585
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: c54bea7e5d80db2b6aecf9fac06070bf012d3d2e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54785928"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659711"
 ---
 # <a name="startup-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 시작
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 페이지를 사용하여 Visual Studio가 시작될 때의 Visual Studio 시작 페이지를 사용자 지정하거나 다른 기본 동작을 설정합니다. 자세한 내용은 [시작 페이지 사용자 지정](../../ide/customizing-the-start-page-for-visual-studio.md)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  

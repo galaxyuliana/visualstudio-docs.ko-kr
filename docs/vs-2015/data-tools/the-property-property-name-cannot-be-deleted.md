@@ -9,17 +9,16 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f9d3533f2eb6cfb5bc2e3a68370f48daa4acfc1e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: a212250791ececddbf2227d67d1f4652dc7de466
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970430"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661209"
 ---
 # <a name="the-property-ltproperty-namegt-cannot-be-deleted"></a>속성 &lt;속성 이름이&gt; 삭제할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 속성 \<속성 이름 > 간 상속의 판별자 속성으로 설정 되어 있으므로 삭제할 수 없습니다 \<클래스 이름 > 및 \<클래스 이름 >  
   
  선택한 속성이 오류 메시지에 표시된 클래스 간 상속의 **판별자 속성**으로 설정되었습니다. 속성이 데이터 클래스 간 상속 구성에 참여 중인 경우에는 해당 속성을 삭제할 수 없습니다.  

@@ -12,17 +12,16 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9e0f787426846137038adf16b9373012f3deeb25
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 66a916203f008aee84010bcc910f1a35dc39e5d9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54769335"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654869"
 ---
 # <a name="how-to-use-the-same-target-in-multiple-project-files"></a>방법: 여러 프로젝트 파일에서 동일한 대상 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 여러 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일을 만들었으면 다른 프로젝트 파일에서 동일한 작업 및 대상을 사용해야 할 수 있다는 사실을 알게 되었을 것입니다. 모든 프로젝트 파일에 이러한 작업이나 대상에 대한 완전한 설명을 포함하는 대신, 대상을 별도 프로젝트 파일에 저장한 다음, 해당 대상을 사용해야 하나ㅡㄴ 다른 프로젝트로 해당 프로젝트를 가져올 수 있습니다.  
   
 ## <a name="using-the-import-element"></a>Import 요소 사용  
@@ -84,7 +83,7 @@ ms.locfileid: "54769335"
   
 3.  가져온 프로젝트의 속성 및 항목의 기본 정의를 재정의해야 하는 모든 속성 및 항목을 프로젝트 파일에 정의합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드 예제에서는 두 번째 코드 예제에서 가져오는 MyCommon.targets 파일을 보여 줍니다. .targets 파일은 가져오기 프로젝트의 속성을 평가하여 빌드를 구성합니다.  
   
 ```  
@@ -102,7 +101,7 @@ ms.locfileid: "54769335"
 </Project>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드 예제에서는 MyCommon.targets 파일을 가져옵니다.  
   
 ```  

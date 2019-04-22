@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b4152482f404596e1d97a94a12890b4c5b298794
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 9345f3f094e1c48204892cd40cca71a7e28eba7c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604225"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59657210"
 ---
 # <a name="ltfilegt-element-clickonce-application"></a>&lt;파일&gt; 요소 (ClickOnce 응용 프로그램)
 다운로드 하 고 응용 프로그램에서 사용 하는 어셈블리 이외의 모든 파일을 식별 합니다.
@@ -166,14 +166,12 @@ ms.locfileid: "56604225"
 ## <a name="dsigtransform"></a>dsig:Transform
  합니다 `dsig:Transform` 의 필수 자식 요소인는 `dsig:Transforms` 요소입니다. `dsig:Transform` 요소에는 다음 특성이 있습니다.
 
-
 | 특성 | 설명 |
 |-------------| - |
 | `Algorithm` | 이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 `urn:schemas-microsoft-com:HashTransforms.Identity`합니다. |
 
 ## <a name="dsigdigestmethod"></a>dsig:DigestMethod
  합니다 `dsig:DigestMethod` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestMethod` 요소에는 다음 특성이 있습니다.
-
 
 | 특성 | 설명 |
 |-------------| - |
@@ -182,7 +180,7 @@ ms.locfileid: "56604225"
 ## <a name="dsigdigestvalue"></a>dsig:DigestValue
  합니다 `dsig:DigestValue` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestValue` 요소에는 특성이 없습니다. 요소의 텍스트 값은 지정된 된 파일에 대 한 계산 된 해시입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  이 요소는 응용 프로그램을 구성 하는 모든 어셈블리 이외의 파일을 식별 하 고 특히 파일 확인에 대 한 해시 값입니다. 이 요소는 파일에 연결 된 구성 요소 개체 모델 (COM) 격리 데이터를 포함할 수도 있습니다. 사용자가 파일을 변경 하는 경우 응용 프로그램 매니페스트 파일은 또한 변경 내용을 반영 하도록 업데이트 되어야 합니다.
 
 ## <a name="example"></a>예제
@@ -200,5 +198,5 @@ ms.locfileid: "56604225"
 </file>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)

@@ -11,17 +11,16 @@ caps.latest.revision: 17
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: 504f7f002c41832294e61fa968f7cfd2d32b54b0
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 7236c0cde965a52ea6ea19f4244e90ec53851405
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869124"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659165"
 ---
 # <a name="install-visual-c-for-cross-platform-mobile-development"></a>플랫폼 간 모바일 개발용 Visual C++ 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 플랫폼 간 모바일 개발용 Visual C++](http://go.microsoft.com/fwlink/p/?LinkId=536383)는 Visual Studio 2015의 설치 가능한 구성 요소입니다. 플랫폼 간 Visual Studio 템플릿을 포함하며, 직접 찾아서 다운로드 및 구성하지 않고도 신속하게 시작할 수 있도록 플랫폼 간 도구 및 SDK를 설치합니다. Visual Studio에서 이러한 도구를 사용하여 플랫폼 간 프로젝트를 쉽게 만들고, 편집, 디버그 및 테스트할 수 있습니다. 이 항목에서는 Visual Studio를 사용하여 플랫폼 간 앱을 개발하는 데 필요한 도구 및 타사 소프트웨어를 설치하는 방법을 설명합니다. 구성 요소의 개요는 [Visual C++ 플랫폼 간 모바일](http://go.microsoft.com/fwlink/p/?LinkId=536387)을 참조하세요.  
   
  [요구 사항](#Requirements)   

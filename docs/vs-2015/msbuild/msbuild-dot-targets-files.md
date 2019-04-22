@@ -17,17 +17,16 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4292509e9177c64a0018e0f1c7e95eebf442ffcf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 74ac0a2c1ab50cf4c707f4fc9414fe4aa4f403b8
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54772288"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655064"
 ---
 # <a name="msbuild-targets-files"></a>MSBuild .Targets 파일
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 일반 시나리오용 항목, 속성, 대상 및 작업이 들어 있는 여러 .targets 파일을 포함합니다. 이러한 파일은 대부분의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 파일로 자동 가져오기되므로 쉽게 유지 관리하고 읽을 수 있습니다.  
   
  일반적으로 프로젝트에서는 하나 이상의 .targets 파일을 가져와서 빌드 프로세스를 정의합니다. 예를 들어 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]로 만든 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트에서 가져오는 Microsoft.CSharp.targets는 Microsoft.Common.targets를 가져옵니다. [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트 자체에서 해당 프로젝트와 관련된 항목과 속성을 정의하지만, [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트에 대한 표준 빌드 규칙은 가져오는 .targets 파일에 정의되어 있습니다.  
@@ -35,7 +34,7 @@ ms.locfileid: "54772288"
  `$(MSBuildToolsPath)` 값은 일반 .targets 파일의 경로를 지정합니다. `ToolsVersion`이 4.0인 경우 파일의 위치는 `WindowsInstallationPath\Microsoft.NET\Framework\v4.0.30319\`입니다.  
   
 > [!NOTE]
->  대상을 직접 만드는 방법에 대한 자세한 내용은 [대상](../msbuild/msbuild-targets.md)을 참조하세요. `Import` 요소를 사용하여 프로젝트 파일을 다른 프로젝트 파일에 삽입하는 방법에 대한 자세한 내용은 [Import 요소(MSBuild)](../msbuild/import-element-msbuild.md) 및 [방법: 여러 프로젝트 파일에서 동일한 대상 사용](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)을 참조하세요.  
+>  대상을 직접 만드는 방법에 대한 자세한 내용은 [대상](../msbuild/msbuild-targets.md)을 참조하세요. 사용 하는 방법에 대 한 자세한 합니다 `Import` 프로젝트 파일을 다른 프로젝트 파일에 삽입할 요소를 참조 하세요 [Import 요소 (MSBuild)](../msbuild/import-element-msbuild.md) 및 [방법: 여러 프로젝트 파일에서 동일한 대상 사용](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)합니다.  
   
 ## <a name="common-targets-files"></a>일반 .Targets 파일  
   

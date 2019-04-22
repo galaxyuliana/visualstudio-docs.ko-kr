@@ -9,17 +9,16 @@ caps.latest.revision: 6
 author: conceptdev
 ms.author: crdun
 manager: jillfra
-ms.openlocfilehash: e91bfef287a16db45ada783a4e109781d247ecf2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 9d2bfa0a3ca4a751637204ef156a609f4ee0c3e5
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54775274"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59657482"
 ---
 # <a name="visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 섹션에서는 Visual Studio를 Unity를 사용하여 게임을 빌드하기 위한 강력한 도구로 만드는 무료 Visual Studio 확장인 Visual Studio Tools for Unity에 대해 알아봅니다.  
   
 ## <a name="visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity  

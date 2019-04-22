@@ -9,17 +9,16 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2a5fd14f4cbc07fbd1ebac0eeefaa039dece188d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 1626c9c027b12d6a8df8d3169e7d79cefba66006
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981811"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659623"
 ---
 # <a name="query-datasets"></a>데이터 세트 쿼리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 데이터 집합의 특정 레코드를 검색 하려면 FindBy 메서드를 사용 하 여 DataTable에서, 테이블의 행 컬렉션을 통해 사용자 고유의 foreach 루프를 작성 또는 사용 하 여 [LINQ to DataSet](http://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17)합니다. LINQ to DataSet입니다.  
   
 ## <a name="dataset-case-sensitivity"></a>데이터 집합의 대/소문자 구분  

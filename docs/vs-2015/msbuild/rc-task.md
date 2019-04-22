@@ -23,17 +23,16 @@ caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 075b3d9201cc17537d62bbe467cc8fa6d3558c35
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 9bc8b770e654442f14e693fda35d7cf6f5edbd12
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54773103"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654831"
 ---
 # <a name="rc-task"></a>RC 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Microsoft Windows 리소스 컴파일러 도구, rc.exe를 래핑합니다. **RC** 작업은 커서, 아이콘, 비트맵, 대화 상자 및 글꼴과 같은 리소스를 리소스(.res) 파일로 컴파일합니다. 자세한 내용은 [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) 웹 사이트에서 "리소스 컴파일러"를 참조하세요.  
   
 ## <a name="parameters"></a>매개 변수  

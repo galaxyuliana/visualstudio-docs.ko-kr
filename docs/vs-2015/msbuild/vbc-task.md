@@ -19,17 +19,16 @@ caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1a4610f5603ad0197487c198074ad72d1381fda1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: a3d829a439ec7fb61247e28146e80d4988f04623
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54802191"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659698"
 ---
 # <a name="vbc-task"></a>Vbc 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 실행 파일(.exe), 동적 링크 라이브러리(.dll) 또는 코드 모듈(.netmodule)을 생성하는 vbc.exe를 래핑합니다. vbc.exe에 대한 자세한 내용은 [Visual Basic 명령줄 컴파일러](http://msdn.microsoft.com/library/6b57c444-50c7-4b88-8f59-ed65cff5e05c)를 참조하세요.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -53,7 +52,7 @@ ms.locfileid: "54802191"
 |`Imports`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 지정된 항목 컬렉션에서 네임스페이스를 가져옵니다. 이 매개 변수는 vbc.exe 컴파일러의 [/imports](http://msdn.microsoft.com/library/9a93fb53-c080-497b-bf9b-441022dbbc39) 스위치에 해당합니다.|  
 |`KeyContainer`|선택적 `String` 매개 변수입니다.<br /><br /> 암호화 키 컨테이너의 이름을 지정합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/keycontainer](http://msdn.microsoft.com/library/6a9bc861-1752-4db1-9f64-b5252f0482cc) 스위치에 해당합니다.|  
 |`KeyFile`|선택적 `String` 매개 변수입니다.<br /><br /> 암호화 키를 포함하는 파일 이름을 지정합니다. 자세한 내용은 [/keyfile](http://msdn.microsoft.com/library/ffa82a4b-517a-4c6c-9889-5bae7b534bb8)을 참조하세요.|  
-|`LangVersion`|선택적 [문자열](<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> 언어 버전으로 “9” 또는 “10”을 지정합니다.|  
+|`LangVersion`|선택적 [String] (<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> 언어 버전으로 “9” 또는 “10”을 지정합니다.|  
 |`LinkResources`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 출력 파일에 .NET Framework 리소스에 대한 링크를 만듭니다. 리소스 파일은 출력 파일에 저장되지 않습니다. 이 매개 변수는 vbc.exe 컴파일러의 [/linkresource](http://msdn.microsoft.com/library/cf4dcad8-17b7-404c-9184-29358aa05b15) 스위치에 해당합니다.|  
 |`MainEntryPoint`|선택적 `String` 매개 변수입니다.<br /><br /> `Sub Main` 프로시저가 포함된 클래스 또는 모듈을 지정합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/main](http://msdn.microsoft.com/library/83fc339d-6652-415d-b205-b5133319b5b0) 스위치에 해당합니다.|  
 |`ModuleAssemblyName`|선택적 `String` 매개 변수입니다.<br /><br /> 이 모듈이 속한 어셈블리를 지정합니다.|  
@@ -90,10 +89,10 @@ ms.locfileid: "54802191"
 |`Win32Icon`|선택적 `String` 매개 변수입니다.<br /><br /> 파일 탐색기에서 출력 파일을 원하는 모양으로 표시하는 .ico 파일을 어셈블리에 삽입합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/win32icon](http://msdn.microsoft.com/library/aecaab01-9353-46c5-941c-6edabd4eff92) 스위치에 해당합니다.|  
 |`Win32Resources`|선택적 `String` 매개 변수입니다.<br /><br /> Win32 리소스(.res) 파일을 출력 파일에 삽입합니다. 이 매개 변수는 vbc.exe 컴파일러의 [/win32resource](http://msdn.microsoft.com/library/e226946d-19ce-4cc9-91f5-aed24f77aa2b) 스위치에 해당합니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트를 컴파일합니다.  
   
 ```  

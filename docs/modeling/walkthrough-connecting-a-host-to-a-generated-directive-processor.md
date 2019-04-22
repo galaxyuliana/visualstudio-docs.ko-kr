@@ -13,14 +13,14 @@ ms.workload:
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: a84b24dff387e0a93058c07e9f6d7b6cfe503d49
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MT
+ms.openlocfilehash: b255f521d45d1e827a3bfb9bc9bc5129f090bcaa
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935591"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655714"
 ---
-# <a name="walkthrough-connect-a-host-to-a-generated-directive-processor"></a>연습: 생성된 된 지시문 프로세서에 호스트 연결
+# <a name="walkthrough-connect-a-host-to-a-generated-directive-processor"></a>연습: 생성된 지시문 프로세서에 호스트 연결
 
 텍스트 템플릿을 처리 하는 고유한 호스트를 작성할 수 있습니다. 기본 사용자 지정 호스트에 설명 된 [연습: 사용자 지정 텍스트 템플릿 호스트 만들기](../modeling/walkthrough-creating-a-custom-text-template-host.md)합니다. 여러 출력 파일을 생성 하는 등의 기능을 추가 하려면 해당 호스트를 확장할 수 있습니다.
 
@@ -40,7 +40,6 @@ ms.locfileid: "55935591"
 ## <a name="prerequisites"></a>전제 조건
 
 DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.
-
 
 | | |
 |-|-|
@@ -347,7 +346,7 @@ DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.
 
      폴더는 또한 TestTemplateWithDP1.txt 파일을 포함합니다.
 
-6.  이 파일을 열어 텍스트 템플릿 변형의 결과를 확인합니다.
+6.  이 파일을 열어 텍스트 템플릿 변환의 결과를 확인합니다.
 
      생성된 된 텍스트 출력 결과 나타나고는 다음과 같습니다.
 

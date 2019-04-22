@@ -17,17 +17,16 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: def8ce2a40e068c602b0182b4580f5e3b524d222
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 0b1d83cca1da917a08b8765dae66fb240ca1dc75
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54782225"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661011"
 ---
 # <a name="lcid-devenvexe"></a>/LCID (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 IDE(통합 개발 환경) 내의 텍스트, 통화 및 다른 값에 사용된 기본 언어를 설정합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -59,7 +58,7 @@ devenv {/LCID|/l} LocaleID
 |한국어|1042|  
 |스페인어|3082|  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예에서는 영어 리소스 문자열을 사용하는 IDE를 로드합니다.  
   
 ```  

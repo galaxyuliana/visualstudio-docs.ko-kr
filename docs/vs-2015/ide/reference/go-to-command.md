@@ -14,17 +14,16 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 50f91c4bdb17612d56534290a7b83b7df1d771c9
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 010d2c395d77be590b3d8d3bc26fc83aaa63adfa
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54790022"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660608"
 ---
 # <a name="go-to-command"></a>이동 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 지정된 줄로 커서를 이동합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -44,7 +43,7 @@ Edit.GoTo [linenumber]
   
  이 명령에 대한 별칭은 GoToLn입니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ```  
 >Edit.GoTo 125  

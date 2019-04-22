@@ -9,17 +9,16 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bf9f92e56d9405a5945fe160860175d575e57cc4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 74ae0319bcf9c155bce693f9cf0924c8be449043
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972539"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658606"
 ---
 # <a name="graph-view"></a>그래프 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 그래프 뷰에서는 전역 스키마 노드 및 노드 간 관계를 그래픽으로 표현합니다. 그래프 뷰에서는 디자인 화면에서 스키마 집합의 레이아웃을 변경할 수 없습니다. 그래프 뷰에는 XML 스키마 디자이너 도구 모음과 이동 경로 탐색 막대도 들어 있습니다.  
   
  다음 이미지에서는 디자인 화면에서 전역 노드가 6개인 그래프 뷰를 보여 줍니다.  

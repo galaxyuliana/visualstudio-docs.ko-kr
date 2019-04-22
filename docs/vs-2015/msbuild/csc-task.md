@@ -19,17 +19,16 @@ caps.latest.revision: 30
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f3cab96aece51252c5a847e07fc3863e6b6f0bf5
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 2d69d19e43ae2e94382e32ba6579f55cecb2efca
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54766191"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659490"
 ---
 # <a name="csc-task"></a>Csc 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 CSC.exe를 래핑하고 실행(.exe) 파일, 동적 연결 라이브러리(.dll) 파일 또는 코드 모듈(.netmodule) 파일을 생성합니다. CSC.exe에 대한 자세한 내용은 [C# 컴파일러 옵션](http://msdn.microsoft.com/library/d3403556-1816-4546-a782-e8223a772e44)을 참조하세요.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -85,7 +84,7 @@ CSC.exe를 래핑하고 실행(.exe) 파일, 동적 연결 라이브러리(.dll)
 ## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스에서 상속하는 `Microsoft.Build.Tasks.ManagedCompiler` 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `Csc` 작업을 사용하여 `Compile` 항목 컬렉션의 소스 파일에서 실행 파일을 컴파일합니다.  
   
 ```  

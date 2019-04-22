@@ -15,17 +15,16 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2fba7e236dee275048d27c8377c819873f2fbad0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 91b62fa8384bd2e0e9e90e9c9057a89e61869a2a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54782283"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658619"
 ---
 # <a name="quick-launch-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 빠른 실행
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **빠른 실행**을 사용하면 옵션, 템플릿, 메뉴 등의 IDE 자산에 대해 신속하게 검색하고 동작을 실행할 수 있습니다. 코드 및 기호를 검색하는 데는 **빠른 실행**을 사용할 수 없습니다. **빠른 실행** 검색 상자는 메뉴 모음의 오른쪽 위 모서리에 있으며 Ctrl+Q 키를 선택하여 액세스할 수 있습니다. 간단히 상자에 검색 문자열을 입력합니다. @ 이 포함된 문자열을 검색하려면 ”@@” 을 사용합니다.   
   
  **빠른 실행**은 Visual Studio를 설치하면 기본적으로 활성화됩니다. 메뉴 모음에서 **도구**, **옵션**을 선택하여 **빠른 실행**을 표시하거나 숨길 수 있습니다. **환경** 노드를 확장한 다음 **빠른 실행**을 선택합니다. **빠른 실행 사용** 확인란을 선택하거나 선택 취소합니다. 이 페이지에서 검색 범주를 사용하거나 사용하지 않도록 설정할 수도 있습니다.  

@@ -18,17 +18,16 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 87c31551541bc949a98ec2dd7a15da5a86b36d21
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 7d7656d3b0ac887ec33cae5dad7c391fa0639fc3
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54777094"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660686"
 ---
 # <a name="markupcompilepass2-task"></a>MarkupCompilePass2 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass2> 작업은 같은 프로젝트의 형식을 참조하는 [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] 파일에 대해 두 번째 패스 태그 컴파일을 수행합니다.  
   
 ## <a name="task-parameters"></a>작업 매개 변수  
@@ -53,7 +52,7 @@ ms.locfileid: "54777094"
   
  생성된 임시 어셈블리에 대한 참조가 <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass2> 작업이 실행될 때 제공되어 첫 번째 태그 컴파일 패스에서 컴파일이 지연되었던 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일이 이진 형식으로 컴파일되도록 합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass2> 작업을 사용하여 두 번째 패스 컴파일을 수행하는 방법을 보여 줍니다.  
   
 ```  

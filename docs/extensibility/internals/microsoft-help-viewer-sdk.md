@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e119a632210a8677f50a6c0d0bd2306b7c810f08
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
-ms.translationtype: MT
+ms.openlocfilehash: 5bee805581f23e4654a8fce318a39b4ff3da4184
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57868303"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660715"
 ---
 # <a name="microsoft-help-viewer-sdk"></a>Microsoft 도움말 뷰어 SDK
 
@@ -63,7 +63,7 @@ Visual Studio 브랜딩 패키지 컨트롤을 지원 합니다.
 
 -   javascript
 
--   csharp 또는 C#
+-   csharp 또는 c#
 
 -   cplusplus visualc + + 또는 c + +
 
@@ -359,7 +359,6 @@ IDE에서 도움말 메뉴 항목 선택 **도움말 컨텍스트 디버그**합
 **콘텐츠 메타 데이터**
 
 다음 표에 대괄호 사이 나타나는 모든 문자열을 인식할 수 있는 값으로 대체 되어야 하는 자리 표시자입니다. 예를 들어, \<메타 name="Microsoft.Help.Locale" 콘텐츠 = "[언어 코드]" / >를 같은 "[언어 코드]" 값으로 대체 해야 합니다 "en-우리"입니다.
-
 
 | 속성 (HTML 표시) | 설명 |
 | - | - |

@@ -15,17 +15,16 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6fadd5429b351eb2393aa0823dec133749b32c83
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 6f9eaa1299ec49cf20713723e822f8fc641401d8
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54763041"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658541"
 ---
 # <a name="list-registers-command"></a>레지스터 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 선택된 레지스터의 값을 등록하고 표시할 레지스터의 목록을 수정합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -38,7 +37,7 @@ Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
   
 ## <a name="switches"></a>스위치  
  /Display [{`register`&#124;`registerGroup`}...]  
- 지정된 `register` 또는 `registerGroup`의 값을 표시합니다. `register` 또는 `registerGroup`를 지정하지 않은 경우 레지스터의 기본 목록이 표시됩니다. 스위치를 지정하지 않은 경우 동작은 동일합니다. 예:  
+ 지정된 `register` 또는 `registerGroup`의 값을 표시합니다. `register` 또는 `registerGroup`를 지정하지 않은 경우 레지스터의 기본 목록이 표시됩니다. 스위치를 지정하지 않은 경우 동작은 동일합니다. 예를 들어:  
   
  `Debug.ListRegisters /Display eax`  
   
@@ -55,10 +54,10 @@ Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
  /Unwatch [{`register`&#124;`registerGroup`}...]  
  하나 이상의 `register` 또는 `registerGroup` 값을 목록에서 제거합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  별칭 `r`을 `Debug.ListRegisters` 대신 사용할 수 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 `Debug.ListRegisters` 별칭 `r`을 사용하여 `Flags` 레지스터 그룹의 값을 표시합니다.  
   
 ```  

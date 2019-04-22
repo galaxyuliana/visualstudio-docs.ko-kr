@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ada8a5b08d1a5ca7caed142c1bba9de103a3f954
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MT
+ms.openlocfilehash: 9e952cda19664a9d73ebe6b77daba3ecfd78777c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951516"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658711"
 ---
 # <a name="creating-a-windows-forms-based-domain-specific-language"></a>Windows Forms 기반 도메인별 언어 만들기
 DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모델의 상태를 표시 하려면 Windows Forms를 사용할 수 있습니다. 이 항목에서는 Visual Studio Visualization and Modeling SDK를 사용 하 여 DSL을 Windows Form 바인딩을 통해 안내 합니다.
@@ -28,12 +28,10 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
     이 연습에서는 다음 이름은 것으로 간주 됩니다.
 
-
    | | |
    |-|-|
    | 솔루션 이름과 DSL | FarmApp |
    | 네임스페이스 | Company.FarmApp |
-
 
 2. 템플릿을 제공 하는 초기 예제를 사용 하 여 실험 합니다.
 

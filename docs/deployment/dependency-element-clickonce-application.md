@@ -26,12 +26,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4bbed7664232f1c508c71534f447b67dc837f55e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 7c9172749dc00acf0fd43725f6754373a0ade16e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612675"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658060"
 ---
 # <a name="ltdependencygt-element-clickonce-application"></a>&lt;종속성&gt; 요소 (ClickOnce 응용 프로그램)
 응용 프로그램에 필요한 플랫폼 또는 어셈블리 종속성을 식별 합니다.
@@ -122,7 +122,6 @@ ms.locfileid: "56612675"
 
  `dependentAssembly` 다음과 같은 특성이 있습니다.
 
-
 | 특성 | 설명 |
 |-----------------------| - |
 | `dependencyType` | 필수 요소. 종속성 유형을 지정합니다. 유효한 값은 `preprequisite` 및 `install`입니다. `install` 어셈블리의 일부로 설치 되는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다. A `prerequisite` 어셈블리는 앞의 전역 어셈블리 캐시 (GAC)에 있어야 합니다 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 설치할 수 있습니다. |
@@ -153,14 +152,12 @@ ms.locfileid: "56612675"
 ### <a name="dsigtransform"></a>dsig:Transform
  합니다 `dsig:Transform` 의 필수 자식 요소인는 `dsig:Transforms` 요소입니다. `dsig:Transform` 요소에는 다음 특성이 있습니다.
 
-
 | 특성 | 설명 |
 |-------------| - |
 | `Algorithm` | 이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 `urn:schemas-microsoft-com:HashTransforms.Identity`합니다. |
 
 ### <a name="dsigdigestmethod"></a>dsig:DigestMethod
  합니다 `dsig:DigestMethod` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestMethod` 요소에는 다음 특성이 있습니다.
-
 
 | 특성 | 설명 |
 |-------------| - |
@@ -169,7 +166,7 @@ ms.locfileid: "56612675"
 ### <a name="dsigdigestvalue"></a>dsig:DigestValue
  합니다 `dsig:DigestValue` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestValue` 요소에는 특성이 없습니다. 요소의 텍스트 값은 지정된 된 파일에 대 한 계산 된 해시입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  해당 응용 프로그램에서 사용 하는 모든 어셈블리에 있어야 `dependency` 요소입니다. 종속 어셈블리는 플랫폼 어셈블리와 전역 어셈블리 캐시에 미리 설치 해야 하는 어셈블리를 포함 하지 않습니다.
 
 ## <a name="example"></a>예제
@@ -219,6 +216,6 @@ ms.locfileid: "56612675"
 </dependency>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)
 - [\<종속성 > 요소](../deployment/dependency-element-clickonce-deployment.md)

@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ec6f2a8b25438d7909f47087b8f6a80e595e7cba
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: bd61d4bf97ce25d291268856a3e85729c98c1312
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630524"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658400"
 ---
 # <a name="registering-project-and-item-templates"></a>프로젝트 템플릿 및 항목 템플릿 등록
 프로젝트 형식에는 해당 프로젝트 및 프로젝트 항목 템플릿을 위치한 디렉터리를 등록 해야 합니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 에 표시할 작업을 결정 하 여 프로젝트 형식과 연결 된 등록 정보를 사용 하는 **새 프로젝트 추가** 하 고 **새 항목 추가** 대화 상자.
@@ -54,7 +54,6 @@ ms.locfileid: "56630524"
 "TemplatesLocalizedSubDir"="#10"
 "SortPriority"=dword:00000064
 ```
-
 
 | 이름 | 형식 | 설명 |
 |--------------------------|-----------| - |

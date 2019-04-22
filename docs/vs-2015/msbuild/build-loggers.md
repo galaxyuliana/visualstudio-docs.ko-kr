@@ -13,17 +13,16 @@ caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 306762ff2f9316043782f64532b278f54fddc1d3
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 2908c8217070196de1b2d3cd4f1c5f8d8f2868a5
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54801442"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658892"
 ---
 # <a name="build-loggers"></a>빌드 로거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 로거는 빌드 출력을 사용자 지정하고 특정 빌드 이벤트에 대한 응답에 메시지, 오류 또는 경고를 표시하는 방법을 제공합니다. 각 로거는 <xref:Microsoft.Build.Framework.ILogger> 인터페이스를 구현하는 .NET 클래스로 구현됩니다. 이 인터페이스는 Microsoft.Build.Framework.dll 어셈블리에서 정의됩니다.  
   
  로거를 구현할 때 다음 두 가지 방법을 사용할 수 있습니다.  
@@ -64,7 +63,7 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll
 MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 로거에 대한 전체 코드를 보여 줍니다.  
@@ -74,7 +73,7 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed
   
 ### <a name="comments"></a>설명  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 로그를 콘솔 창에 표시하지 않고 파일에 쓰는 로거를 구현하는 방법을 보여 줍니다.  

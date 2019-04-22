@@ -16,12 +16,12 @@ ms.technology: vs-ide-general
 ms.topic: reference
 ms.workload:
 - multiple
-ms.openlocfilehash: 0d4d9afdfcc221e8f07bae7d4bbf7dee57dda31f
-ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
-ms.translationtype: MT
+ms.openlocfilehash: db30c3d74a7742daa3c9cf7225bc2a38062dc6e4
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "59504252"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660699"
 ---
 # <a name="per-monitor-awareness-support-for-visual-studio-extenders"></a>Visual Studio extender에 대 한 모니터별 인식을 지원
 Visual Studio 2019 이전 버전의 DPI 인식 컨텍스트를 인식 모니터별 DPI 인식 (PMA) 보다는 시스템으로 설정 했습니다. 성능이 저하 된 시각적 개체에서 생성 한 인식 시스템에서에서 실행 중인 Visual Studio를 렌더링 해야 했던 다른 배율 인수 또는 원격을 사용 하 여 모니터 디스플레이 구성을 사용 하 여 컴퓨터에 예를 들어 (다른 때마다 (예: 흐리게 글꼴 또는 아이콘) 환경 Windows 확장)입니다.
@@ -40,10 +40,13 @@ Visual Studio 2019 이전 버전의 DPI 인식 컨텍스트를 인식 모니터�
 ## <a name="enabling-pma"></a>PMA를 사용 하도록 설정
 PMA Visual studio에서를 사용 하려면 다음 요구 사항을 충족 해야 합니다.
 1)  Windows 10 2018 년 4 월 업데이트 (v1803 RS4) 이상
-2)  .NET framework 4.8 RTM 이상 (현재 독립 실행형 미리 보기 또는 최근와 함께 번들으로 제공 Windows Insider 빌드)
+2)  .NET framework 4.8 RTM 이상
 3)  사용 하 여 visual Studio 2019 합니다 ["다른 픽셀 밀도 사용 하 여 화면에 대 한 최적화 렌더링"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) 옵션이 사용 하도록 설정
 
 이러한 요구 사항이 충족 되 면 Visual Studio 프로세스 전체에서 PMA 모드를 자동으로 사용 됩니다.
+
+> [!NOTE]
+> VS (예: 속성 브라우저)에서 Windows Forms 콘텐츠는 Visual Studio 2019 업데이트 # 1을 해야 하는 경우에 PMA를 지원 합니다.
 
 ## <a name="testing-your-extensions-for-pma-issues"></a>PMA 문제에 대 한 확장을 테스트
 
@@ -106,12 +109,18 @@ Visual Studio 용 PMA 모드가 설정 된 경우 UI 몇 가지 일반적인 방
 #### <a name="out-of-process-ui"></a>Out-of-process-UI
 일부 UI out-of-process-만들어지고 이전 렌더링 문제가 발생할 수 있습니다 만드는 외부 프로세스가 Visual Studio 보다 다른 DPI 인식 모드인 경우.
 
-#### <a name="windows-forms-controls-images-or-windows-not-displaying"></a>Windows Forms 컨트롤, 이미지 또는 표시 되지 않는 windows
+#### <a name="windows-forms-controls-images-or-layouts-rendered-incorrectly"></a>Windows Forms 컨트롤, 이미지 또는 레이아웃 잘못 렌더링
+Windows Forms 콘텐츠의 일부만 PMA 모드를 지원 합니다. 결과적으로, 잘못 된 레이아웃 문제가 렌더링 또는 확장을 볼 수 있습니다. 가능한 솔루션을 명시적으로 콘텐츠를 렌더링 Windows Forms에서 "시스템 인식" DpiAwarenessContext이 예제의 경우 (가리킵니다 [특정 DpiAwarenessContext에 컨트롤을 강제로](#forcing-a-control-into-a-specific-dpiawarenesscontext)).
+
+#### <a name="windows-forms-controls-or-windows-not-displaying"></a>Windows Forms 컨트롤 또는 windows 표시 되지 않음
 이 문제에 대 한 주요 원인 중 하나는 컨트롤 또는 다른 DpiAwarenessContext 사용 하 여 창에 하나의 DpiAwarenessContext 사용 하 여 창의 부모 재지정 하려는 개발자에 게입니다.
 
-다음 그림에는 창을 부모로 지정에서 현재 Windows 운영 체제 제한 사항 보여 줍니다.
+다음 그림에는 현재 표시 **기본** 창을 부모로 지정에서 Windows 운영 체제 제한 사항:
 
 ![올바른 부모/자식 관리 동작의 스크린샷](../../extensibility/ux-guidelines/media/PMA-parenting-behavior.PNG)
+
+> [!Note]
+> 스레드 호스트 동작을 설정 하 여이 동작을 변경할 수 있습니다 (가리킵니다 [DpiHostinBehaviour](https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior)).
 
 결과적으로, 지원 되지 않는 모드 간의 부모-자식 관계를 설정 하는 경우, 실패 및 예상 대로 컨트롤이 나 창 렌더링 되지 않을 수 있습니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 스토어 앱에 대 한 디버깅 세션 시작 (VB, C#, c + + 및 XAML) | Microsoft Docs
+title: 스토어 앱에 대 한 디버깅 세션 시작 (VB, C#, C++ 및 XAML) | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -34,12 +34,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 129b94087b19ebed9f95ec29dd093f3c18e42e87
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 1f5dced1acba79b0559db49f079e04f605263e0f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971902"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653478"
 ---
 # <a name="start-a-debugging-session-for-a-store-app-in-visual-studio-vb-c-c-and-xaml"></a>Visual Studio에서 스토어 앱의 디버깅 세션 시작(VB, C#, C++ 및 XAML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -147,7 +147,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
   - C# 및 Visual Basic 응용 프로그램의 경우 **찾기**를 선택합니다.
 
-  - C + + 앱에서 아래쪽 화살표를 선택 합니다 **컴퓨터 이름** 확인란을 선택한  **\<찾기... >** 합니다.
+  - 에 대 한 C++ 앱에서 아래쪽 화살표를 선택 합니다 **컴퓨터 이름** 확인란을 선택한  **\<찾기... >** 합니다.
 
     ![원격 디버거 연결 대화 상자를 선택](../debugger/media/vsrun-selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")
 
@@ -256,13 +256,11 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
 2. 목록에서 다음 옵션 중 하나를 선택합니다.
 
-
    |                    |                                                                                                                                                                                                                                                                                                                                                                                                           |
    |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | **로컬 컴퓨터**  |                                                                                                                로컬 컴퓨터의 현재 세션에서 응용 프로그램을 디버깅합니다. 참조 [로컬 컴퓨터에서 실행 Windows 스토어 앱](../debugger/run-windows-store-apps-on-the-local-machine.md)합니다.                                                                                                                 |
    |   **시뮬레이터**    | [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱에 대한 Visual Studio 시뮬레이터에서 응용 프로그램을 디버깅합니다. 시뮬레이터는 로컬 컴퓨터에서 사용할 수 없는 터치 제스처 및 디바이스 회전과 같은 디바이스 기능을 디버깅할 수 있도록 하는 데스크톱 창입니다. 참조 [Windows 스토어 앱 실행 시뮬레이터에서](../debugger/run-windows-store-apps-in-the-simulator.md)합니다. |
    | **원격 컴퓨터** |                          인트라넷을 통해 로컬 컴퓨터에 연결되거나 이더넷 케이블을 사용하여 직접 연결된 디바이스에서 응용 프로그램을 디버깅합니다. 원격으로 디버깅하려면 Visual Studio 원격 도구가 원격 디바이스에 설치되어 실행되고 있어야 합니다. 참조 [Windows 스토어 앱 실행을 원격 컴퓨터에서](../debugger/run-windows-store-apps-on-a-remote-machine.md)합니다.                           |
-
 
 3. **설치된 응용 프로그램 패키지** 목록에서 응용 프로그램을 선택합니다.
 

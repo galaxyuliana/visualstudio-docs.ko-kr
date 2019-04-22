@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 002aa5cf9e1324eb81996a5a14f7a1933a26ba9d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 2093db67a97bcd913773feebe0a4f10bf6ac9180
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605174"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659503"
 ---
 # <a name="test-area-8-plug-in-switching"></a>테스트 영역 8: 플러그 인 전환
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 사용자 인터페이스 (UI) 현재 소스 제어 플러그 인을 변경 해야 합니다. 이 테스트 영역은 소스 제어 솔루션에 사용할 플러그 인 선택 프로세스에 대 한 테스트 사례를 제공 합니다.
@@ -39,7 +39,6 @@ ms.locfileid: "56605174"
 #### <a name="expected-behavior"></a>예상된 된 동작
  사용자가 소스 제어에서 솔루션을 로드 하는 경우 솔루션은 자동으로 로드 하 고 적절 한 원본 제어 플러그 인는 최신 선택 됩니다.
 
-
 | 작업 | 테스트 단계 | 확인 하려면 예상된 결과 |
 | - | - | - |
 | 자동 소스 제어 플러그 인 변경 | 1.  최신 테스트에서 플러그 인 선택 (**도구가** -> **옵션** -> **소스 제어** -> **플러그 인 선택**.)<br />2.  새 프로젝트를 만듭니다.<br />3.  소스 제어에 솔루션을 추가 합니다.<br />4.  다른 플러그 인 선택 (예를 들어 [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)]).<br />5.  언로드 솔루션 프롬프트를 수락 합니다.<br />6.  디스크에서 솔루션을 다시 엽니다. | 솔루션이 열려 있습니다.<br /><br /> 테스트 중인 플러그 인은 현재 원본 제어 플러그 인입니다. |
@@ -48,7 +47,6 @@ ms.locfileid: "56605174"
 
 #### <a name="expected-behavior"></a>예상된 된 동작
  솔루션에는 해당 연결 된 소스 제어 플러그 인 변경 있을 수 있습니다.
-
 
 | 작업 | 테스트 단계 | 확인 하려면 예상된 결과 |
 |----------------------------------| - | - |

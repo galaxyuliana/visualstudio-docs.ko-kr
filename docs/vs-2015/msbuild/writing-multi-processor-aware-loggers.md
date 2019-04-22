@@ -13,17 +13,16 @@ caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8efc470db346e4de9036a5869c0118b68ea76f81
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ec8cefeaf005c17ecb09d109c161b5cbae3dc03a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54802291"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655350"
 ---
 # <a name="writing-multi-processor-aware-loggers"></a>다중 프로세서 인식 로거 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 다중 프로세서를 사용할 수 있기 때문에 프로젝트 빌드 시간을 줄일 수 있는 반면 이벤트 로깅 빌드 과정이 복잡해집니다. 단일 프로세서 환경에서 이벤트, 메시지, 경고 및 오류는 예측 가능하고 순차적인 방식으로 로거에 도착합니다. 그러나 다중 프로세서 환경에서 여러 원본의 이벤트는 동시에 또는 순서 없이 도착할 수 있습니다. 이러한 문제를 방지하기 위해 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 다중 프로세서 인식 로거와 새 로깅 모델이 제공되며, 사용자 지정 "전달 로거"를 만들 수 있습니다.  
   
 ## <a name="multi-processor-logging-challenges"></a>다중 프로세서 로깅 문제  

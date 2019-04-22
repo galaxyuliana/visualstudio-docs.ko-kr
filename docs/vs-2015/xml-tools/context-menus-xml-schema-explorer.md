@@ -9,17 +9,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5398cea07863e17a8e430e7f827aac0b4e217355
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d6c14a268ef58dec31f65fe73e176eac8f690d9c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971186"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653960"
 ---
 # <a name="context-menus-xml-schema-explorer"></a>상황에 맞는 메뉴(XML 스키마 탐색기)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 다음의 상황에 맞는 메뉴 항목을 사용하여 스키마 관련 검색 및 기타 작업을 수행할 수 있습니다.  
   
 ## <a name="node-type-schema-set"></a>노드 형식: 스키마 집합  

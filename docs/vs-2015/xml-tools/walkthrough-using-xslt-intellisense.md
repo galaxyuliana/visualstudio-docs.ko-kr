@@ -9,17 +9,16 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4e6d1aa5cbcc4d996f2caf0e42f372dd3de9eee6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: c7f6f2fb35e4f0500e97cf762152955a3f4e5c10
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982088"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655038"
 ---
 # <a name="walkthrough-using-xslt-intellisense"></a>연습: XSLT IntelliSense 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 연습에서는 XSLT IntelliSense를 사용하여 일부 특성 값을 자동 완성하는 방법을 보여 줍니다.  
   
 ### <a name="to-use-intellisense-in-the-name-attribute-of-xslwith-param-and-xslcall-template-elements"></a>xsl:with-param 및 xsl:call-template 요소의 이름 특성에 IntelliSense를 사용하려면  

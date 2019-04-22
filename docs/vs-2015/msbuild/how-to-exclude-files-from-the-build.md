@@ -1,5 +1,5 @@
 ---
-title: '방법: 빌드에서 파일 제외 | Microsoft 문서'
+title: '방법: 빌드에서 파일 제외 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: msbuild
@@ -13,21 +13,20 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: eb390e98b8650764dfc9f4237f150a5b903f1618
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 9fa577b5e68ac93847589e67b2e2110b1a0c9a37
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54796726"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59656456"
 ---
 # <a name="how-to-exclude-files-from-the-build"></a>방법: 빌드에서 파일 제외
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 프로젝트 파일에서 와일드카드를 사용하여 모든 파일을 하나의 디렉터리 또는 중첩된 디렉터리 집합에 빌드의 입력으로 포함할 수 있습니다. 그러나 해당 디렉터리 또는 중첩된 디렉터리 집합 중 하나의 디렉터리에 빌드의 입력으로 포함하지 않으려는 하나의 파일이 있을 수 있습니다. 입력 목록에서 해당 파일 또는 디렉터리를 명시적으로 제외할 수 있습니다. 특정 조건에서만 포함하려는 파일이 프로젝트에 있을 수도 있습니다. 파일을 빌드에 포함할 조건을 명시적으로 선언할 수 있습니다.  
   
 ## <a name="excluding-a-file-or-directory-from-the-inputs-for-a-build"></a>빌드의 입력에서 파일 또는 디렉터리 제외  
- 항목 목록은 빌드에 사용할 입력 파일입니다. 포함할 항목은 `Include` 특성을 사용하여 그룹으로 또는 개별적으로 선언됩니다. 예:  
+ 항목 목록은 빌드에 사용할 입력 파일입니다. 포함할 항목은 `Include` 특성을 사용하여 그룹으로 또는 개별적으로 선언됩니다. 예를 들어:  
   
 ```  
 <CSFile Include="Form1.cs"/>  
@@ -92,7 +91,7 @@ ms.locfileid: "54796726"
         Condition=" '$(Configuration)' == 'Release' " />  
     ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드 예제에서는 Form2.cs를 제외한 모든 .cs 파일이 디렉터리에 포함된 프로젝트를 빌드합니다.  
   
 ```  

@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a51deb24a2ba0088db8ed9a7acc1f8324f1fa92b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 0bcd3855b5dd2fc701b78c5745a9053d19dc7fcf
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605694"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658255"
 ---
 # <a name="template-directory-description-vsdir-files"></a>템플릿 디렉터리 설명(.Vsdir) 파일
 템플릿 디렉터리 설명 (.vsdir) 파일은 통합된 개발 환경 (IDE) 폴더, 마법사.vsz 파일 및 대화 상자에서 프로젝트와 연결 된 템플릿 파일을 표시할 수 있도록 하는 텍스트 파일입니다. 콘텐츠 파일 또는 폴더당 하나의 레코드를 포함합니다. 참조 된 위치에 모든.vsdir 파일 하나만.vsdir 파일 여러 폴더, 마법사 또는 템플릿 파일을 설명 하기 위해 일반적으로 제공 되지만 병합 됩니다.
@@ -35,7 +35,6 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 
 ## <a name="fields"></a>필드
  다음 표에서 각 레코드에 대해 지정 된 필드를 나열 합니다.
-
 
 | 필드 | 설명 |
 | - | - |

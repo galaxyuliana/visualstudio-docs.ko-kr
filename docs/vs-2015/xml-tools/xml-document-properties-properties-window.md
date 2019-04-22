@@ -9,17 +9,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 957abb04b6da602b711bef55b8ff8e62edaecaac
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d4b1441ef6547fe955734fd7556b27a08781461c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986173"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660660"
 ---
 # <a name="xml-document-properties-properties-window"></a>XML 문서 속성, 속성 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 합니다 **속성** 창 XML 편집기에서 활성화 되어 있는 문서에 대 한 기본 정보를 제공 합니다. 현재 활성화되어 있는 XML 문서의 형식에 따라 사용할 수 있는 속성이 달라집니다.  
   
 > [!NOTE]

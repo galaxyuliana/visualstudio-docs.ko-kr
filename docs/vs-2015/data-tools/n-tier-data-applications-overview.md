@@ -19,17 +19,16 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9c3d635750a01838cc40c9af8ec17465b25fc438
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 532781a2e816120dabfe2bec61059955cd0c82a6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986175"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658125"
 ---
 # <a name="n-tier-data-applications-overview"></a>N 계층 데이터 응용 프로그램 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 N-계층 * 데이터 응용 프로그램은 여러 구분 되는 데이터 응용 프로그램 *계층*합니다. "분산된 응용 프로그램" 및 "다중 계층 응용 프로그램" 라고도 함, n 계층 응용 프로그램 클라이언트와 서버 간에 배포 된 개별 계층으로 처리를 구분 합니다. 데이터에 액세스 하는 응용 프로그램을 개발 하는 경우에 응용 프로그램을 구성 하는 다양 한 계층을 명확히 구분을 해야 합니다.  
   
  일반적인 N 계층 애플리케이션에는 프레젠테이션 계층, 중간 계층 및 데이터 계층이 포함됩니다. N 계층 응용 프로그램에서 다양 한 계층을 분리 하는 가장 쉬운 방법은 응용 프로그램에 포함 하려는 각 계층에 대 한 개별 프로젝트를 만드는 경우 예를 들어, 프레젠테이션 계층에서 데이터 액세스 논리 중간 계층에 있는 클래스 라이브러리를 수 있습니다 하지만 Windows Forms 응용 프로그램을 수 있습니다. 또한 프레젠테이션 계층 서비스와 같은 서비스를 통해 중간 계층에서 데이터 액세스 논리를 사용 하 여 통신할 수 있습니다. 응용 프로그램 구성 요소를 별도의 계층으로 분리하면 응용 프로그램의 유지 관리성과 확장성이 높아집니다. 이를 위해 전체 솔루션을 다시 설계 하지 않고도 단일 계층에 적용할 수 있는 새로운 기술 더 쉽게 도입할 수 있게 합니다. 또한 n 계층 응용 프로그램에서 중간 계층에서 프레젠테이션 계층에서 격리를 유지 관리 하는 중요 한 정보를 일반적으로 저장 합니다.  

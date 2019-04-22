@@ -12,17 +12,16 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a42cee0574d5cf5f0de50fb1e9923c9e54504a91
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: aaebcb9bf5edb5fda6938d364b3f96dc8823576f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54773087"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653491"
 ---
-# <a name="msbuild-transforms"></a>MSBuild 변형
+# <a name="msbuild-transforms"></a>MSBuild 변환
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 변환은 항목 목록 간의 일대일 변환입니다. 변환을 수행하면 프로젝트가 항목 목록을 변환할 수 있을 뿐만 아니라, 대상이 입력과 출력 간의 직접 매핑을 식별할 수 있습니다. 이 항목에서는 변환 및 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 변환을 사용하여 보다 효율적으로 프로젝트를 빌드하는 방법을 설명합니다.  
   
 ## <a name="transform-modifiers"></a>변환 한정자  
@@ -55,7 +54,7 @@ ms.locfileid: "54773087"
 ## <a name="dependency-analysis"></a>종속성 분석  
  변환은 변환 항목 목록과 원래 항목 목록 간에 일대일 매핑을 보장합니다. 따라서 대상이 입력의 변환인 출력을 만드는 경우 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 입력 및 출력의 타임 스탬프를 분석하고, 대상을 건너뛰거나, 빌드하거나, 부분적으로 다시 빌드할지를 결정할 수 있습니다.  
   
- 다음 예제의 [복사 작업](../msbuild/copy-task.md)에서 `BuiltAssemblies` 항목 목록의 모든 파일은 `Outputs` 특성에서 변환을 사용하여 지정된 작업의 대상 폴더에 있는 파일에 매핑됩니다. `BuiltAssemblies` 항목 목록의 파일이 변경되면 `Copy` 작업은 변경된 파일에 대해서만 실행되고 다른 모든 파일을 건너뜁니다. 종속성 분석 및 변환을 사용하는 방법에 대한 자세한 내용은 [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md)를 참조하세요.  
+ 다음 예제의 [복사 작업](../msbuild/copy-task.md)에서 `BuiltAssemblies` 항목 목록의 모든 파일은 `Outputs` 특성에서 변환을 사용하여 지정된 작업의 대상 폴더에 있는 파일에 매핑됩니다. `BuiltAssemblies` 항목 목록의 파일이 변경되면 `Copy` 작업은 변경된 파일에 대해서만 실행되고 다른 모든 파일을 건너뜁니다. 종속성 분석 및 변환을 사용하는 방법에 대한 자세한 내용은 [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md)합니다.  
   
 ```  
 <Target Name="CopyOutputs"  
@@ -69,7 +68,7 @@ ms.locfileid: "54773087"
 </Target>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 변환을 사용하는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일을 보여줍니다. 이 예제에서는 c:\sub0\sub1\sub2\sub3 디렉터리에 .xsd 파일 하나만 있고 작업 디렉터리가 c:\sub0이라고 가정합니다.  

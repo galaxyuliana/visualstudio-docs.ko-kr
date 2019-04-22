@@ -11,17 +11,16 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 104fe082f9e18a7be97f2ab95a022288316cc638
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 662cd662e8fe18c5a2a8c05a7f5da21c064743b3
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54773237"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660751"
 ---
 # <a name="msbuild-properties1"></a>MSBuild Properties1
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 빌드를 구성하는 데 사용될 수 있는 이름/값 쌍인 속성은 작업에 값을 전달하고, 조건을 평가하고, 프로젝트 파일 전체에서 참조할 값을 저장하는 데 유용합니다.  
   
 ## <a name="defining-and-referencing-properties-in-a-project-file"></a>프로젝트 파일에서 속성 정의 및 참조  
@@ -48,7 +47,7 @@ ms.locfileid: "54773237"
 ## <a name="reserved-properties"></a>예약된 속성  
  MSBuild는 몇 개의 속성 이름을 예약하여 프로젝트 파일과 MSBuild 이진 파일에 대한 정보를 저장합니다. 이러한 속성은 다른 속성과 마찬가지로 $ 표기법을 사용하여 참조됩니다. 예를 들어 $(MSBuildProjectFile)은 파일 확장명을 포함한 프로젝트 파일의 전체 파일 이름을 반환합니다.  
   
- 자세한 내용은 [방법: 프로젝트 파일의 이름 또는 위치 참조](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md)과 [MSBuild의 예약된 속성 및 잘 알려진 속성](../msbuild/msbuild-reserved-and-well-known-properties.md)을 참조하세요.  
+ 자세한 내용은 [방법: 이름 또는 프로젝트 파일의 위치 참조](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md) 하 고 [MSBuild 예약 된 속성 및 잘 알려진 속성](../msbuild/msbuild-reserved-and-well-known-properties.md)합니다.  
   
 ## <a name="environment-properties"></a>환경 속성  
  예약된 속성을 참조하는 것과 같이 프로젝트 파일에서 환경 변수를 참조할 수 있습니다. 예를 들어 프로젝트 파일에서 `PATH` 환경 변수를 사용하려면 $(Path)를 사용합니다. 프로젝트에 환경 속성과 이름이 같은 속성 정의가 포함되어 있으면 프로젝트의 속성이 환경 변수의 값을 재정의합니다.  
@@ -60,7 +59,7 @@ ms.locfileid: "54773237"
 > [!TIP]
 >  모든 환경 변수가 읽어들여져 초기 속성이 되는 것은 아닙니다. "386" 같은 유효한 MSBuild 속성 이름이 아닌 모든 환경 변수는 무시됩니다.  
   
- 자세한 내용은 [방법: 빌드 시 환경 변수 사용](../msbuild/how-to-use-environment-variables-in-a-build.md)을 참조하세요.  
+ 자세한 내용은 [방법: 환경 변수를 사용 하 여 빌드에서](../msbuild/how-to-use-environment-variables-in-a-build.md)합니다.  
   
 ## <a name="registry-properties"></a>레지스트리 속성  
  다음 구문을 사용하여 시스템 레지스트리 값을 읽을 수 있습니다. 여기서 `Hive`는 HKEY_LOCAL_MACHINE과 같은 레지스트리 하이브, `Key`는 키 이름, `SubKey`는 하위 키 이름, `Value`는 하위 키의 값입니다.  
@@ -96,7 +95,7 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
   
  MSBuild 작업의 `Properties` 특성을 사용하여 다중 프로젝트 빌드의 자식 프로젝트에 대해 전역 속성을 설정하거나 수정할 수도 있습니다. 자세한 내용은 [MSBuild 작업](../msbuild/msbuild-task.md)을 참조하세요.  
   
- 프로젝트 태그에 `TreatAsLocalProperty` 특성을 사용하여 속성을 지정할 경우, 해당 전역 속성 값은 프로젝트 파일에 설정된 속성 값을 재정의하지 않습니다. 자세한 내용은 [Project 요소(MSBuild)](../msbuild/project-element-msbuild.md) 및 [방법: 동일한 소스 파일을 다른 옵션을 사용하여 빌드](../msbuild/how-to-build-the-same-source-files-with-different-options.md)를 참조하세요.  
+ 프로젝트 태그에 `TreatAsLocalProperty` 특성을 사용하여 속성을 지정할 경우, 해당 전역 속성 값은 프로젝트 파일에 설정된 속성 값을 재정의하지 않습니다. 자세한 내용은 [프로젝트 요소 (MSBuild)](../msbuild/project-element-msbuild.md) 고 [방법: 다양 한 옵션을 사용 하 여 동일한 원본 파일 빌드](../msbuild/how-to-build-the-same-source-files-with-different-options.md)합니다.  
   
 ## <a name="property-functions"></a>속성 함수  
  .NET Framework 버전 4부터는 속성 함수를 사용하여 MSBuild 스크립트를 평가할 수 있습니다. MSBuild 작업을 사용하지 않고도 시스템 시간을 읽고 문자열을 비교하며 정규식을 일치시키고 빌드 스크립트 내에서 여러 가지 다른 작업을 수행할 수 있습니다.  
@@ -143,8 +142,8 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
 ## <a name="see-also"></a>참고 항목  
  [MSBuild 개념](../msbuild/msbuild-concepts.md)  
  [MSBuild](msbuild.md)  
- [방법: 빌드 시 환경 변수 사용](../msbuild/how-to-use-environment-variables-in-a-build.md)   
- [방법: 프로젝트 파일의 이름 또는 위치 참조](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md)   
- [방법: 동일한 소스 파일을 다른 옵션을 사용하여 빌드](../msbuild/how-to-build-the-same-source-files-with-different-options.md)   
+ [방법: 빌드 시에서 환경 변수 사용](../msbuild/how-to-use-environment-variables-in-a-build.md)   
+ [방법: 이름 또는 프로젝트 파일의 위치 참조](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md)   
+ [방법: 다양 한 옵션을 사용 하 여 동일한 원본 파일 빌드](../msbuild/how-to-build-the-same-source-files-with-different-options.md)   
  [MSBuild의 예약된 속성 및 잘 알려진 속성](../msbuild/msbuild-reserved-and-well-known-properties.md)   
  [Property 요소(MSBuild)](../msbuild/property-element-msbuild.md)

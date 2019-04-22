@@ -1,5 +1,5 @@
 ---
-title: Visual c + + 프로젝트 확장성
+title: Visual C++ 확장성 프로젝트
 ms.date: 01/25/2019
 ms.technology: vs-ide-mobile
 ms.topic: conceptual
@@ -10,18 +10,18 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a524d242f5c3fb146f3446cd0c020b01e130277c
-ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
+ms.openlocfilehash: 94f61902090c2ada0770a41375d5cb501b92580f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58268721"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660741"
 ---
-# <a name="visual-studio-c-project-system-extensibility-and-toolset-integration"></a>Visual Studio c + + 프로젝트 시스템 확장 및 도구 집합 통합
+# <a name="visual-studio-c-project-system-extensibility-and-toolset-integration"></a>Visual Studio C++ Project 시스템 확장성 및 도구 통합
 
-.Vcxproj 파일에 대 한 Visual c + + 프로젝트 시스템에서 사용 됩니다. 기반이 되는 [Visual Studio 공통 프로젝트 시스템 (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) 추가, 새 도구, 빌드 아키텍처 및 대상 플랫폼의 손쉬운 통합에 대 한 c + + 관련 확장성 지점을 제공 합니다.
+시각적 개체 C++ .vcxproj 파일에 대 한 프로젝트 시스템을 사용 합니다. 기반이 되는 [Visual Studio 공통 프로젝트 시스템 (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) 추가 정보와 C++ 새 도구를 쉽게 통합에 대 한 특정 확장 지점 아키텍처를 빌드하고 플랫폼을 대상으로 합니다.
 
-## <a name="c-msbuild-targets-structure"></a>C + + MSBuild 대상 구조
+## <a name="c-msbuild-targets-structure"></a>C++MSBuild 대상 구조
 
 모든.vcxproj 파일을 이러한 파일을 가져옵니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "58268721"
 
 ## <a name="the-vcxproj-import-tree"></a>.Vcxproj 가져오기 트리
 
-Microsoft c + + props 및 targets 파일에 대 한 가져오기의 간소화 된 트리가 다음과 같습니다.
+Microsoft는 가져오기 트리의 간소화 된 C++ props 및 targets 파일 다음과 같습니다.
 
 `$(VCTargetsPath)`\\*Microsoft.Cpp.Default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(MSBuildExtensionsPath)` \\ `$(MSBuildToolsVersion)` \\ *Microsoft.Common.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *ImportBefore*\\*기본값* \\ \*. *props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *응용 프로그램 유형* \\ `$(ApplicationType)` \\ *Default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *응용 프로그램 유형을* \\ `$(ApplicationType)` \\ `$(ApplicationTypeRevision)` \\ *Default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *응용 프로그램 종류*\\`$(ApplicationType)`\\`$(ApplicationTypeRevision)`\\*플랫폼* \\ `$(Platform)` \\ *Platform.default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *ImportAfter*\\*기본값*\\\*. *속성*
 
@@ -135,11 +135,11 @@ Props 파일은이 순서 대로 가져옵니다.
 
    이 파일 Windows SDK 위치를 결정 하 고 Windows를 대상으로 하는 앱에 대 한 몇 가지 중요 한 속성을 정의 합니다.
 
-### <a name="integrate-toolset-specific-targets-with-the-default-c-build-process"></a>기본 c + + 빌드 프로세스와 도구 집합 관련 대상 통합
+### <a name="integrate-toolset-specific-targets-with-the-default-c-build-process"></a>기본값을 사용 하 여 도구 집합 관련 대상 통합 C++ 빌드 프로세스
 
-기본 c + + 빌드 프로세스에 정의 된 *Microsoft.CppCommon.targets*합니다. 대상에 있는 모든 특정 빌드 도구를 호출 하지 마세요 기본 빌드 단계, 순서 및 종속성 지정 합니다.
+기본 C++ 빌드 프로세스에 정의 되어 *Microsoft.CppCommon.targets*합니다. 대상에 있는 모든 특정 빌드 도구를 호출 하지 마세요 기본 빌드 단계, 순서 및 종속성 지정 합니다.
 
-C + + 빌드에는 다음 대상으로 표현 되는 세 가지 주요 단계에 있습니다.
+C++ 빌드에 다음 대상으로 표현 되는 세 가지 주요 단계:
 
 - `BuildGenerateSources`
 
@@ -263,7 +263,7 @@ Microsoft.Cpp.Common.Tasks.dll 이러한 작업을 구현합니다.
 
 기본 MSBuild 증분 빌드를 사용 하 여 대상 `Inputs` 고 `Outputs` 특성입니다. 이러한 값을 지정 하는 경우 모든 출력 보다 최신 타임 스탬프가 입력 중 하나가 있으면만 MSBuild 대상을 호출 합니다. 소스 파일 종종 포함 또는 다른 파일을 가져오고 빌드 도구 생성 도구 옵션에 따라 다른 출력이, 때문에 가능한 모든 입력을 지정 하기가 어렵습니다 및 MSBuild 대상에 출력 합니다.
 
-이 문제를 관리 하려면 c + + 빌드는 증분 빌드를 지원 하기 위해 다른 기술을 사용 합니다. 대부분의 대상 입력 및 출력을 지정 하 고 결과적으로 빌드하는 동안 항상 실행 하지 않습니다. 대상에서 호출 하는 작업 모두에 대 한 정보 입력 및 출력을 쓸 *tlog* .tlog 확장명을 가진 파일입니다. 새로운 최신 기능 및.tlog 파일 변경 내용과 다시 작성 해야 하는 경우를 확인 하는 이후 빌드에서 사용 됩니다. 또한.tlog 파일은 IDE에서 기본 빌드 최신 검사에 대 한 유일한 원본입니다.
+이 문제를 관리 하는 C++ 빌드 다른 기술을 사용 하 여 증분 빌드를 지원 합니다. 대부분의 대상 입력 및 출력을 지정 하 고 결과적으로 빌드하는 동안 항상 실행 하지 않습니다. 대상에서 호출 하는 작업 모두에 대 한 정보 입력 및 출력을 쓸 *tlog* .tlog 확장명을 가진 파일입니다. 새로운 최신 기능 및.tlog 파일 변경 내용과 다시 작성 해야 하는 경우를 확인 하는 이후 빌드에서 사용 됩니다. 또한.tlog 파일은 IDE에서 기본 빌드 최신 검사에 대 한 유일한 원본입니다.
 
 모든 입력 및 출력을 확인 하려면 기본 도구 작업 tracker.exe를 사용 하며 [FileTracker](/dotnet/api/microsoft.build.utilities.filetracker) MSBuild에서 제공 하는 클래스입니다.
 
@@ -285,7 +285,6 @@ MSBuild는 이러한 도우미 클래스를.tlog 파일 읽기 및 쓰기를 제
 합니다 [FlatTrackingData](/dotnet/api/microsoft.build.utilities.flattrackingdata) 읽기 액세스 및.tlog 파일을 작성 하 고, 입력 또는 출력이 없는 경우 출력을 보다 최신인을 식별 하는 클래스를 사용할 수 있습니다. 최신 검사에 사용 됩니다.
 
 명령줄 빌드에 사용 하는 방법에 대 한 정보를 포함 하는 명령줄.tlog 파일입니다. 내부 형식을 생성 하는 MSBuild 태스크에 의해 결정 됩니다 있도록만 증분 빌드를 최신 상태가 아닌 검사에 사용 됩니다.
-
 
 ### <a name="read-tlog-format"></a>읽기.tlog 형식
 
@@ -333,9 +332,9 @@ F:\TEST\CONSOLEAPPLICATION1\DEBUG\CONSOLEAPPLICATION1.PDB
 
 IDE에서.vcxproj 프로젝트 프로젝트에서 추가 정보를 가져오도록 하는 출력 파일을 다시 생성 MSBuild 대상 집합을 사용 합니다. 이러한 대상 중 일부는 디자인 타임 빌드에 사용만 됩니다 있지만 정기적으로 빌드 및 디자인 타임 빌드를 둘 다에 사용 되는 많은 합니다.
 
-디자인 타임 빌드에 대 한 일반 정보는 CPS 설명서를 참조 하십시오. [디자인 타임 빌드](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md)합니다. 이 설명서만 부분적으로 Visual c + + 프로젝트에 적용 됩니다.
+디자인 타임 빌드에 대 한 일반 정보는 CPS 설명서를 참조 하십시오. [디자인 타임 빌드](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md)합니다. 이 설명서는만 visual 부분적으로 적용 됩니다 C++ 프로젝트입니다.
 
-합니다 `CompileDesignTime` 및 `Compile` 디자인 타임에 언급 된 대상.vcxproj 프로젝트에 대 한 실행 안 함 설명서를 작성 합니다. Visual c + +.vcxproj 프로젝트 IntelliSense 정보를 가져오는 다양 한 디자인 타임 대상을 사용 합니다.
+합니다 `CompileDesignTime` 및 `Compile` 디자인 타임에 언급 된 대상.vcxproj 프로젝트에 대 한 실행 안 함 설명서를 작성 합니다. Visual C++ .vcxproj 프로젝트 디자인 타임 대상 마다를 사용 하 여 IntelliSense 정보를 얻을 수 있습니다.
 
 ### <a name="design-time-targets-for-intellisense-information"></a>IntelliSense 정보에 대 한 디자인 타임 대상
 
@@ -410,15 +409,15 @@ msbuild /p:SolutionDir=*solution-directory-with-trailing-backslash*;Configuratio
 @="{83046B3F-8984-444B-A5D2-8029DEE2DB70}"
 ```
 
-## <a name="visual-c-project-extensibility-in-the-visual-studio-ide"></a>Visual Studio IDE에서 visual c + + 프로젝트 확장성
+## <a name="visual-c-project-extensibility-in-the-visual-studio-ide"></a>Visual C++ Visual Studio IDE의 확장성 프로젝트
 
-Visual c + + 프로젝트 시스템은 기반으로 합니다 [VS 프로젝트 시스템](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md), 및 해당 확장성 지점을 사용 합니다. 그러나 Visual c + + 프로젝트 계층 구현 관련이 이므로 CPS에 기반 하지 계층 확장성 프로젝트 항목으로 제한 합니다.
+시각적 개체 C++ 프로젝트 시스템은 기반으로 합니다 [VS 프로젝트 시스템](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md), 및 해당 확장성 지점을 사용 합니다. 프로젝트 계층 구조 구현은 Visual 관련이 있지만 C++ 기반으로 하지 인 하므로 계층 확장성 프로젝트 항목으로 제한 됩니다.
 
 ### <a name="project-property-pages"></a>프로젝트 속성 페이지
 
 일반적인 디자인 정보를 참조 하세요 [VC + + 프로젝트의 Framework 멀티 타기 팅](https://devblogs.microsoft.com/visualstudio/framework-multi-targeting-for-vc-projects/)합니다.
 
-간단히 말해에서 속성 페이지에 표시 된 **프로젝트 속성** c + + 프로젝트에 대 한 대화가 정의한 *규칙* 파일입니다. 규칙 파일 속성 페이지에 표시 하 고 프로젝트에 저장 되는 방법과 파일 속성의 집합을 지정 합니다. 규칙 파일은 Xaml 형식을 사용 하는.xml 파일입니다. 직렬화에 사용 된 형식에 설명 되어 있습니다 [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes)합니다. 프로젝트에서 규칙 파일의 사용에 대 한 자세한 내용은 참조 [속성 페이지 XML 규칙 파일](/cpp/build/reference/property-page-xml-files)합니다.
+간단히 말해에서 속성 페이지에 표시 합니다 **프로젝트 속성** 대화 상자를 C++ 프로젝트에 의해 정의 됩니다 *규칙* 파일입니다. 규칙 파일 속성 페이지에 표시 하 고 프로젝트에 저장 되는 방법과 파일 속성의 집합을 지정 합니다. 규칙 파일은 Xaml 형식을 사용 하는.xml 파일입니다. 직렬화에 사용 된 형식에 설명 되어 있습니다 [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes)합니다. 프로젝트에서 규칙 파일의 사용에 대 한 자세한 내용은 참조 [속성 페이지 XML 규칙 파일](/cpp/build/reference/property-page-xml-files)합니다.
 
 규칙 파일에 추가 되어야 합니다는 `PropertyPageSchema` 항목 그룹:
 
@@ -435,7 +434,7 @@ Visual c + + 프로젝트 시스템은 기반으로 합니다 [VS 프로젝트 �
 
 `Project` | `File` | `PropertySheet`
 
-CPS 컨텍스트 형식에 대해 다른 값을 지원 되지만 Visual c + + 프로젝트에서 사용 되지 않습니다.
+CPS는 컨텍스트 형식에 대해 다른 값을 지원 하지만 시각적 개체에 사용 되지 않을 C++ 프로젝트입니다.
 
 세미콜론으로 사용 하 여 규칙에 둘 이상의 컨텍스트에 표시 해야 합니다 (**;**) 다음과 같이 상황에 맞는 값을 구분 합니다.
 
@@ -479,7 +478,7 @@ CPS 컨텍스트 형식에 대해 다른 값을 지원 되지만 Visual c + + �
 
 #### <a name="override-a-rule"></a>규칙을 재정의
 
-아마도 설정 해야 할 프로그램 도구 집합 대부분의 프로젝트 기본 규칙을 사용 하려면 하나 또는 그 중 일부를 바꿉니다. 예를 들어, 다른 컴파일러 스위치를 표시 하도록 C/c + + 규칙을 변경 하려고 합니다. 이름이 같은 새 규칙을 제공 하 고 기존 규칙과 표시 이름 및에 포함 된 `PropertyPageSchema` 가져오기 작업의 기본 cpp 대상 항목 그룹입니다. 프로젝트에서 지정 된 이름의 하나의 규칙만 사용 되 고 마지막에 포함 된 `PropertyPageSchema` 그룹 wins 항목.
+아마도 설정 해야 할 프로그램 도구 집합 대부분의 프로젝트 기본 규칙을 사용 하려면 하나 또는 그 중 일부를 바꿉니다. 예를 들어, C를 변경 하려는 /C++ 다른 컴파일러 스위치를 표시 하는 규칙입니다. 이름이 같은 새 규칙을 제공 하 고 기존 규칙과 표시 이름 및에 포함 된 `PropertyPageSchema` 가져오기 작업의 기본 cpp 대상 항목 그룹입니다. 프로젝트에서 지정 된 이름의 하나의 규칙만 사용 되 고 마지막에 포함 된 `PropertyPageSchema` 그룹 wins 항목.
 
 #### <a name="project-items"></a>프로젝트 항목
 
@@ -614,7 +613,7 @@ internal class MyProjectUpgrader: IProjectRetargetHandler
 
 ## <a name="project-cache-and-extensibility"></a>프로젝트 캐시 및 확장성
 
-Visual Studio 2017에서 큰 c + + 솔루션으로 작업할 때 성능을 향상 시키기 위해 합니다 [캐시 프로젝트](https://devblogs.microsoft.com/cppblog/faster-c-solution-load-with-vs-15/) 도입 되었습니다. 프로젝트 데이터를 사용 하 여 채워지고 메모리로 MSBuild 또는 CPS 프로젝트를 로드 하지 않고 프로젝트를 로드 하는 데 다음 SQLite 데이터베이스로 구현 됩니다.
+큰 작업할 때 성능을 향상 시키기 위해 C++ Visual Studio 2017에서는 솔루션을 [캐시 프로젝트](https://devblogs.microsoft.com/cppblog/faster-c-solution-load-with-vs-15/) 도입 되었습니다. 프로젝트 데이터를 사용 하 여 채워지고 메모리로 MSBuild 또는 CPS 프로젝트를 로드 하지 않고 프로젝트를 로드 하는 데 다음 SQLite 데이터베이스로 구현 됩니다.
 
 캐시에서 로드.vcxproj 프로젝트에 없는 CPS 개체 이기 때문에 확장의 MEF 구성 요소는 가져올 `UnconfiguredProject` 또는 `ConfiguredProject` 만들 수 없습니다. 확장성을 지원 하도록 프로젝트 캐시는 Visual Studio에서 프로젝트를 사용 하 여 (또는 사용 하 여 가능성이) MEF 확장을 검색 하는 경우 사용 되지 않습니다.
 
@@ -636,8 +635,8 @@ VSIX 파일을 만드는 방법에 대 한 자세한 내용은 [Visual Studio �
 
 ## <a name="additional-resources"></a>추가 자료
 
-Microsoft 빌드 시스템 ([MSBuild](../msbuild/msbuild.md)) 프로젝트 파일에 대 한 빌드 엔진 및 확장 가능한 XML 기반 형식으로 제공 합니다. 에 대해 알고 있어야 basic을 사용 하 여 [MSBuild 개념](../msbuild/msbuild-concepts.md) 고 하는 방법 [Visual c + + 용 MSBuild](/cpp/build/reference/msbuild-visual-cpp-overview) Visual c + +를 확장 하기 위해 작동 프로젝트 시스템.
+Microsoft 빌드 시스템 ([MSBuild](../msbuild/msbuild.md)) 프로젝트 파일에 대 한 빌드 엔진 및 확장 가능한 XML 기반 형식으로 제공 합니다. 에 대해 알고 있어야 basic을 사용한 [MSBuild 개념](../msbuild/msbuild-concepts.md) 고 하는 방법 [시각적 개체에 대해 MSBuild C++ ](/cpp/build/reference/msbuild-visual-cpp-overview) 시각적 개체를 확장 하기 위해 작동 C++ 프로젝트 시스템.
 
-Managed Extensibility Framework ([MEF](/dotnet/framework/mef/)) CPS 및 Visual c + + 프로젝트 시스템에서 사용 되는 Api 확장을 제공 합니다. CPS MEF를 사용 하는 방법의 개요를 참조 하세요 [CPS 및 MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md#cps-and-mef) 에 [VSProjectSystem MEF 개요](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md)합니다.
+Managed Extensibility Framework ([MEF](/dotnet/framework/mef/)) CPS 및 시각적 개체에서 사용 되는 Api 확장을 제공 C++ 프로젝트 시스템. CPS MEF를 사용 하는 방법의 개요를 참조 하세요 [CPS 및 MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md#cps-and-mef) 에 [VSProjectSystem MEF 개요](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md)합니다.
 
-빌드 단계 또는 새 파일 형식을 추가 하려면 기존 빌드 시스템을 사용자 지정할 수 있습니다. 자세한 내용은 [MSBuild (Visual c + +) 개요](/cpp/build/reference/msbuild-visual-cpp-overview) 하 고 [프로젝트 속성 작업](/cpp/build/working-with-project-properties)합니다.
+빌드 단계 또는 새 파일 형식을 추가 하려면 기존 빌드 시스템을 사용자 지정할 수 있습니다. 자세한 내용은 [MSBuild (Visual C++) 개요](/cpp/build/reference/msbuild-visual-cpp-overview) 하 고 [프로젝트 속성 작업](/cpp/build/working-with-project-properties)합니다.

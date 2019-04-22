@@ -11,17 +11,16 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 91e2992a5c1a79f838e035b5993bf21dbfeca1bf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: f59a6007ca272c2bd0df0278605ff5d01807ce91
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54797110"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660144"
 ---
 # <a name="options-dialog-box-projects-and-solutions-web-projects"></a>옵션 대화 상자, 프로젝트 및 솔루션, 웹 프로젝트
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 웹 프로젝트가 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 내에서 개발에 사용할 웹 서버를 설정합니다. 이 대화 상자에 액세스하려면 **도구 옵션**을 클릭합니다. **프로젝트 및 솔루션**을 확장하고 **웹 프로젝트**를 클릭합니다.  
   
  기본적으로 Visual Studio에서 웹 프로젝트를 실행하면(예: F5 또는 Ctrl+F5 사용) Visual Studio에서 Visual Studio 개발 서버를 사용합니다. 자세한 내용은 [Visual Studio의 ASP.NET 웹 프로젝트에 대한 웹 서버](http://msdn.microsoft.com/31d4f588-df59-4b7e-b9ea-e1f2dd204328)를 참조하세요.  
@@ -33,5 +32,5 @@ ms.locfileid: "54797110"
  **웹 사이트 및 프로젝트에 64비트 버전의 IIS Express 사용**  
  Visual Studio 개발 서버 대신 IIS Express를 사용하려면 이 옵션을 선택합니다. 자세한 내용은 [Introducing IIS Express](http://go.microsoft.com/?linkid=9747914)(IIS Express 소개) 및 [IIS Express Overview](http://go.microsoft.com/?linkid=9747915)(IIS Express 개요)를 참조하세요. 이 옵션은 기본적으로 비활성화됩니다.  
   
- **오류 목록에 오류가 있을 때 웹 애플리케이션을 실행하기 전 경고**  
+ **오류 목록에 오류가 있을 때 웹 응용 프로그램을 실행하기 전 경고**  
  이 상자를 선택하면 오류 없이 컴파일되지 않을 때 웹 애플리케이션을 실행하려는 경우 경고가 표시됩니다.
