@@ -9,17 +9,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: da0c73655c5c08da993fdf72bffdfeca0eb4b304
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 82247c2510d64f712cc4b703154ea16a4bb7e7e1
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981452"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59647448"
 ---
 # <a name="xml-schemas-dialog-box"></a>XML 스키마 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 합니다 **XML 스키마** XML 문서를 사용 하 여 연결 하는 XML 스키마 정의 언어 (XSD) 스키마 선택 대화 상자를 사용 합니다. 스키마 캐시에서 스키마를 선택하거나 캐시에 없는 스키마를 지정할 수 있습니다. 선택한 스키마는 스키마 집합의 일부분으로 간주됩니다. 스키마 집합은 IntelliSense 및 XML 문서 유효성 검사에 사용됩니다.  
   
  액세스할 수 있습니다 합니다 **XML 스키마** 중 하나를 클릭 하 여 대화 상자를 **스키마** 단추를 선택 하 여 문서 속성 창의 켜거나 **스키마** 합니다 에서**XML** 메뉴.  

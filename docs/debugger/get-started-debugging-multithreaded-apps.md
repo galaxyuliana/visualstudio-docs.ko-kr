@@ -18,21 +18,21 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5535228f8e070128cfa2479d8017d3a88dc0915c
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790253"
 ---
-# <a name="get-started-debugging-multithreaded-applications-c-visual-basic-c"></a>다중 스레드 응용 프로그램 디버깅 시작 (C#, Visual Basic, c + +)
+# <a name="get-started-debugging-multithreaded-applications-c-visual-basic-c"></a>다중 스레드 응용 프로그램 디버깅 시작 (C#, Visual Basic의 경우 C++)
 
 Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버깅할 수 있도록 사용자 인터페이스 요소를 제공 합니다. 이 자습서에서는 스레드 마커를 사용 하는 방법을 보여 줍니다.는 **병렬 스택** 창에는 **병렬 조사식** 창과 조건부 중단점, 중단점 필터. 이 자습서를 완료 다중 스레드 응용 프로그램 디버깅에 Visual Studio 기능을 숙지 합니다.
 
 이러한 두 항목 다른 다중 스레드 디버깅 도구를 사용 하 여 추가 정보를 제공 합니다.
 
-- 사용 하는 **디버그 위치** 도구 모음 및 **스레드** 창 참조 [연습: 다중 스레드 응용 프로그램을 디버그](../debugger/how-to-use-the-threads-window.md)합니다.
+- 사용 하 여 **디버그 위치** 도구 모음 및 **스레드** 창 참조 [연습: 다중 스레드 응용 프로그램을 디버그](../debugger/how-to-use-the-threads-window.md)합니다.
 
-- 사용 하는 샘플에 대 한 <xref:System.Threading.Tasks.Task> (관리 코드) (c + +), 동시성 런타임에서 참조 및 [연습: 병렬 애플리케이션 디버그](../debugger/walkthrough-debugging-a-parallel-application.md). 대부분의 다중 스레드 응용 프로그램 형식에 적용 되는 일반적인 디버깅 팁, 해당 항목 및이 참조 하세요.
+- 사용 하는 샘플에 대 한 <xref:System.Threading.Tasks.Task> (관리 코드) 및 동시성 런타임 (C++)를 참조 하십시오 [연습: 병렬 응용 프로그램을 디버그](../debugger/walkthrough-debugging-a-parallel-application.md)합니다. 대부분의 다중 스레드 응용 프로그램 형식에 적용 되는 일반적인 디버깅 팁, 해당 항목 및이 참조 하세요.
 
 다중 스레드 응용 프로그램 프로젝트를 먼저 해야 합니다. 예를 들면 다음과 같습니다.
 
@@ -41,10 +41,10 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
 1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    키를 눌러 **Esc** 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
+    **Esc** 키를 눌러 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
 
     - 에 대 한 C# 또는 Visual Basic의 경우 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C# 또는 Visual Basic입니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
-    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기** c + +에 대 한 합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    - 에 대 한 C++을 선택 **새 콘솔 앱 프로젝트 만들기** 에 대 한 C++합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
 
     그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 클릭 **만들기**합니다.
     ::: moniker-end
@@ -53,7 +53,7 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
 
     - 에 대 한는 C# 앱 아래에 있는 **Visual C#** 를 선택 **Windows 데스크톱**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)**.
     - Visual Basic 앱의 경우 아래 **Visual Basic**, 선택 **Windows Desktop**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)** 합니다.
-    - C + + 앱의 경우 아래 **Visual c + +**, 선택 **Windows Desktop**,를 선택한 후 **Windows 콘솔 응용 프로그램**합니다.
+    - 에 대 한는 C++ 앱 아래에 있는 **Visual C++** 를 선택 **Windows 데스크톱**,를 선택한 후 **Windows 콘솔 응용 프로그램**.
 
     그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 누릅니다 **확인**합니다.
     ::: moniker-end
@@ -265,7 +265,7 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     이러한 오른쪽 클릭 메뉴에서 다양 한 조치를 취할 수 있지만이 자습서에서 이러한 세부 사항을 자세히 표시 됩니다 것를 **병렬 조사식** 창 (다음 섹션).
 
     > [!NOTE]
-    > 목록 보기 각 스레드에 대 한 정보를 보려면 사용 합니다 **스레드** 창 대신 합니다. 참조 [연습: 다중 스레드 응용 프로그램을 디버그](../debugger/how-to-use-the-threads-window.md)합니다.
+    > 목록 보기 각 스레드에 대 한 정보를 보려면 사용 합니다 **스레드** 창 대신 합니다. [연습: 다중 스레드 응용 프로그램을 디버그](../debugger/how-to-use-the-threads-window.md)합니다.
 
 ### <a name="set-a-watch-on-a-variable"></a>변수에 조사식 설정
 
@@ -350,7 +350,7 @@ Visual Studio는 여러 도구와 다중 스레드 응용 프로그램을 디버
     > [!NOTE]
     > 디버거를 진행 하면 모든 스레드가 실행 됩니다. 그러나 다른 스레드 중 하나는 중단점에 도달 하지 않는 한 다른 스레드에서 코드에 디버거를 중단 하지 않습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [방법: 디버그 중 다른 스레드로 전환](../debugger/how-to-switch-to-another-thread-while-debugging.md)

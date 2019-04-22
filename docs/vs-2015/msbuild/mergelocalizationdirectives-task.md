@@ -19,17 +19,16 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5f9b269bd68bf40358645b6bd6fd88b701da385b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 2001a3278037eb1c2dc1866c9508bb8623af3370
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54791486"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652480"
 ---
 # <a name="mergelocalizationdirectives-task"></a>MergeLocalizationDirectives 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 <xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> 작업은 하나 이상의 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 이진 형식 파일에 대한 지역화 특성과 주석을 전체 어셈블리에 대한 단일 파일로 병합합니다.  
   
 ## <a name="task-parameters"></a>작업 매개 변수  
@@ -42,7 +41,7 @@ ms.locfileid: "54791486"
 ## <a name="remarks"></a>주의  
  지역화 특성 및 주석을 [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] 내용에 추가할 수 있습니다. [!INCLUDE[TLA#tla_wpf](../includes/tlasharptla-wpf-md.md)] 지역화 지원을 사용하면 지역화 특성 및 주석을 제거하고 생성된 어셈블리와는 별개인 .loc 파일에 추가할 수 있습니다. 이 작업은 **LocalizationPropertyStorage** 특성을 사용하여 수행할 수 있습니다. 지역화 특성 및 주석과 **LocalizationPropertyStorage**에 대한 자세한 내용은 [지역화 특성 및 주석](http://msdn.microsoft.com/library/ead2d9ac-b709-4ec1-a924-39927a29d02f)을 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 이진 형식 파일에 해당하는 지역화 주석을 단일 .loc 파일에 병합합니다.  
   
 ```  

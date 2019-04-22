@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8cdfa140614117e00e0ad3cc813c7f33d7a47b75
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: e305ba59eaf5a0f60ec84d40ee9888ac17982c42
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55027713"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650632"
 ---
 # <a name="colors-and-styling-for-visual-studio"></a>색 및 Visual Studio에 대 한 스타일 지정
 
@@ -112,7 +112,6 @@ IVsUIShell2::GetVSSysColorEx(VSSYSCOLOR dwSysColIndex, DWORD *pdwRGBval)
 파일 VSShell80.idl, 열거형의에서 `__VSSYSCOLOREX` 셸 색 상수에 있습니다. 를 사용 하려면에서 값으로 전달 인덱스의 값 중 하나는 `enum __VSSYSCOLOREX` 에 문서화 된 MSDN 또는 Windows 시스템 API를 숫자는 일반 인덱스가 `GetSysColor`를 허용 합니다. 이 작업을 수행할 두 번째 매개 변수에서 사용 해야 하는 색의 RGB 값을 다시 가져옵니다.
 
 펜 또는 새 색을 사용 하 여 브러시를 저장 하는 경우 수행 해야 합니다 `AdviseBroadcastMessages` (Visual Studio 셸)에서 수신 대기 `WM_SYSCOLORCHANGE` 및 `WM_THEMECHANGED` 메시지입니다.
-
 
 네이티브 코드에서 색 서비스에 액세스 하려면이 유사한 호출을 해야 합니다.
 
@@ -312,7 +311,7 @@ UI, 색 집합을 제한이 적용 될 때 *"일반" 테마에서 표시 된 미
 | --- | --- |
 | ActiveCaption | -현재 IDE 및 rafted 창 단추 가리키기 및 키를 눌러 문자 모양<br />IDE 및 rafted windows에 대 한 제목 표시줄 배경<br />기본 상태 표시줄 배경 |
 | ActiveCaptionText | -현재 IDE 및 rafted 창의 제목 표시줄 전경 (텍스트 및 문자 모양)<br />-배경 및 테두리 hover에 키를 눌러 활성 창 단추 |
-| Control | -기본 컨트롤 및 드롭다운 단추를 포함 하 여 백그라운드를 사용 하지 않도록 설정 콤보 상자, 드롭 다운 목록 및 검색<br />--대상 단추 배경을 도킹 하는 중<br />명령 모음 배경<br />도구 창 배경 |
+| 컨트롤 | -기본 컨트롤 및 드롭다운 단추를 포함 하 여 백그라운드를 사용 하지 않도록 설정 콤보 상자, 드롭 다운 목록 및 검색<br />--대상 단추 배경을 도킹 하는 중<br />명령 모음 배경<br />도구 창 배경 |
 | ControlDark | -IDE 배경<br />메뉴 및 명령 모음 구분 기호<br />명령 모음 테두리<br />메뉴 그림자<br />-도구 창 탭 기본 및 가리킨 항목 테두리 및 구분 기호<br />-문서 오버플로 단추 배경을<br />-도킹 대상 문자 모양 테두리 |
 | ControlDarkDark |-포커스가 없는 선택한 문서 탭 창 |
 | ControlLight |-자동 숨기기 탭 테두리<br />-콤보 상자 및 드롭다운 목록 테두리<br />-대상 배경 및 테두리 도킹 |

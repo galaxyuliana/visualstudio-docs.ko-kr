@@ -13,17 +13,16 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4846d00172c3d71be1f8a8dbdf68cf4e7fd1f065
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 751b894e46fa6c76f866ddd3209d25c169ff6660
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54774776"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649409"
 ---
 # <a name="call-hierarchy"></a>호출 계층 구조
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 호출 계층 구조를 사용하면 선택된 메서드, 속성 또는 생성자에서 모든 호출을 표시하여 코드를 탐색할 수 있습니다. 이렇게 하면 코드가 흐르는 방식을 더 잘 이해하고 코드에 대한 변경 사항의 영향을 평가할 수 있습니다. 메서드 호출의 복합 체인과 코드에 대한 추가적인 진입점을 보기 위해 여러 수주의 코드를 검토하여 모든 가능한 실행 경로를 탐색할 수 있습니다.  
   
  호출 계층 구조는 디버거를 통해 표시되는 호출 스택 달리 디자인 타임에서 사용 가능합니다.  

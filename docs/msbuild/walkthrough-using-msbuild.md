@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2248c5e8c974d4445db37e265725bcee60d3a9a4
-ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
+ms.openlocfilehash: ae318a4fbfe7e452ab995ad53d961d288c0cbcf5
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58897740"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584404"
 ---
 # <a name="walkthrough-use-msbuild"></a>연습: MSBuild 사용
 
@@ -200,7 +200,7 @@ $(PropertyName)
 
  이 구문을 사용하여 프로젝트 파일의 일부 속성을 검사합니다.
 
-**속성값을 검사하려면**
+**속성 값을 검사하려면**
 
 1. 코드 편집기에서 HelloWorld 대상을 다음 코드로 바꿉니다.
 
@@ -261,7 +261,7 @@ $(PropertyName)
 
  -property 또는 -p 명령줄 스위치를 사용하여 명령줄에서 속성을 정의할 수 있습니다. 명령줄에서 수신된 속성값은 프로젝트 파일 및 환경 변수에 설정되어 있는 속성값을 재정의합니다.
 
-**명령줄에서 속성값을 설정하려면**
+**명령줄에서 속성 값을 설정하려면**
 
 1.  **명령 창**에서 다음 줄을 입력하고 실행합니다.
 
@@ -416,7 +416,7 @@ MSBuild는 Configuration 속성을 생성하고 "Release" 값을 지정합니다
  위의 코드는 *images* 폴더에 있는 파일 확장명이 *.jpeg*인 모든 파일을 Photos 항목 종류에 추가합니다. 반면
 
 ```xml
-<Photos Include="images\**.jpeg" />
+<Photos Include="images\**\*.jpeg" />
 ```
 
  위의 코드는 *images* 폴더 및 모든 하위 폴더에 있는 파일 확장명이 *.jpeg*인 모든 파일을 Photos 항목 종류에 추가합니다. 추가 예제는 [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)을 참조하세요.
@@ -428,7 +428,7 @@ MSBuild는 Configuration 속성을 생성하고 "Release" 값을 지정합니다
 <Photos Include="images\*.gif" />
 ```
 
- 위의 코드는 파일 확장명이 *.jpeg* 또는 *.gif*인 *image* 폴더의 모든 파일을 포함하는 Photo라는 항목 종류를 만듭니다. 이 코드는 다음 줄과 동일합니다.
+ 위의 코드는 파일 확장명이 ‘.jpeg’ 또는 ‘.gif’인 ‘images’ 폴더의 모든 파일을 포함하는 Photo라는 항목 종류를 만듭니다. 이 코드는 다음 줄과 동일합니다.
 
 ```xml
 <Photos Include="images\*.jpeg;images\*.gif" />

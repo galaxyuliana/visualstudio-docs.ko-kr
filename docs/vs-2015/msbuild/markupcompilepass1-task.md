@@ -19,17 +19,16 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: bf6f6b9dbd227dbdf28781fc9ac206ca1d8a91b8
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 5ce5ad99abb356c1b047fb2507be9a08f688b993
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54790486"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651437"
 ---
 # <a name="markupcompilepass1-task"></a>MarkupCompilePass1 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 작업은 지역화할 수 없는 [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] 프로젝트 파일을 컴파일된 이진 형식 파일로 변환합니다.  
   
 ## <a name="task-parameters"></a>작업 매개 변수  
@@ -99,7 +98,7 @@ ms.locfileid: "54790486"
   
  지역화가 가능하거나 로컬로 정의된 형식을 참조하는 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일이 있는 경우 두 번째 태그 컴파일 패스가 필요합니다. 이를 위해 [GenerateTemporaryTargetAssembly](../msbuild/generatetemporarytargetassembly-task.md)와 [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md)가 차례로 실행되어야 합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 3개의 `Page`[!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일을 이진 형식 파일로 변환하는 방법을 보여 줍니다. `Page1`에는 형식 `Class1`에 대한 참조가 포함됩니다. 이 형식은 프로젝트의 루트 네임스페이스에 있으므로 이 태그 컴파일 패스에서 이진 형식 파일로 변환되지 않습니다. 대신 [GenerateTemporaryTargetAssembly](../msbuild/generatetemporarytargetassembly-task.md)가 실행된 다음 [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md)가 실행됩니다.  
   
 ```  

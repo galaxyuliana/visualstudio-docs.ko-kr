@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: afd4b758332d9357dc20dd84e726d72da4d2db74
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: 0ce1b620a6d8aba7e4aea767745891dff6d9f869
+ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355187"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "59537506"
 ---
 # <a name="generate-usings-in-visual-studio"></a>Visual Studio에서 usings 생성
 
@@ -24,18 +24,18 @@ ms.locfileid: "58355187"
 
 **내용:** 필요한 가져오기 또는 복사하여 붙여넣은 코드의 [using 문](/dotnet/csharp/language-reference/keywords/using-statement)을 즉시 추가할 수 있습니다.
 
-**시기:** 프로젝트 또는 다른 코드 소스의 서로 다른 위치에서 코드를 복사하여 붙여넣는 것이 일반적입니다. 이 빠른 작업은 복사하여 붙여넣은 코드의 누락된 가져오기를 분석한 다음, 추가하라는 메시지를 표시합니다.
+**시기:** 프로젝트 또는 다른 소스의 서로 다른 위치에서 코드를 복사하여 새 코드에 붙여넣는 것이 일반적입니다. 이 빠른 작업은 복사하여 붙여넣은 코드의 누락된 imports 문을 찾은 다음, 추가하라는 메시지를 표시합니다.
 
-**이유:** 필요한 가져오기를 자동으로 추가함으로써 사용자는 필요한 `using` 문을 수동으로 복사할 필요가 없습니다.
+**이유:** 빠른 작업은 필요한 imports를 자동으로 추가하므로, 코드에 필요한 `using` 문을 수동으로 복사할 필요가 없습니다.
 
 ## <a name="generate-usings-refactoring"></a>using 리팩터링 생성
 
-1. 필요한 `using` 문을 포함하지 않고 다른 파일에서 코드를 복사하여 붙여넣습니다. 오류는 현재 누락된 `using` 문을 추가하는 코드 수정이 수반됩니다.
+1. 필요한 `using` 문을 포함하지 않고 한 파일의 코드를 복사해 새 파일에 붙여넣습니다. 결과로 나타나는 오류는 누락된 `using` 문을 추가하는 코드 수정이 수반됩니다.
 
     > [!NOTE] 
-    > 이 제안은 **도구 > 옵션 > 텍스트 편집기 > C# > 고급 > Using 지시문**에서 켜야 합니다.
+    > 이 제안은 **도구 > 옵션 > 텍스트 편집기 > C# > 고급 > Using 지시문**에서 사용 설정해야 합니다.
 
-2. 줄의 임의 위치에서 **Ctrl**+**.** 를 눌러 **빠른 작업 및 리팩터링** 메뉴를 엽니다. 
+2. Ctrl+.를 선택하여 **빠른 작업 및 리팩터링** 메뉴를 엽니다.
 
     ![usings 생성](media/generate-using-codefix.png)
 

@@ -16,20 +16,20 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8eedc9c469e4ceb4ac4b5be018f2ebdd227ffcf2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: f50d72990ec0fb47ec880e3c267ef4e52225837d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681792"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649422"
 ---
-# <a name="how-to-debug-on-a-high-performance-cluster-c-visual-basic-c"></a>방법: 고성능 클러스터에서 디버깅 (C#, Visual Basic, c + +)
+# <a name="how-to-debug-on-a-high-performance-cluster-c-visual-basic-c"></a>방법: 고성능 클러스터에서 디버깅 (C#, Visual Basic의 경우 C++)
 
 고성능 클러스터에서 다중 처리 프로그램을 디버깅하는 방법은 원격 컴퓨터에서 일반적인 프로그램을 디버깅하는 방법과 비슷합니다. 그러나 여기에는 몇 가지 추가로 고려해야 할 사항이 있습니다. 일반적인 원격 설치 요구 사항에 대 한 참조 [원격 디버깅](../debugger/remote-debugging.md)합니다.
 
  고성능 클러스터에서 디버깅하는 경우 원격 디버깅에 제공되는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 디버깅 창과 기술을 모두 사용할 수 있습니다. 그러나 디버깅을 원격으로 수행하므로 외부 콘솔 창은 사용할 수 없습니다.
 
- **스레드** 창과 **프로세스** 창은 병렬 애플리케이션을 디버깅하는 데 특히 유용합니다. 이러한 창을 사용 하는 방법에 대 한 팁을 참조 하세요. [방법: 프로세스 창 사용](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100)) 고 [연습: 스레드 창을 사용하여 디버그](../debugger/how-to-use-the-threads-window.md).
+ **스레드** 창과 **프로세스** 창은 병렬 애플리케이션을 디버깅하는 데 특히 유용합니다. 이러한 창을 사용 하는 방법에 대 한 팁을 참조 하세요. [방법: 프로세스 창 사용](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100)) 고 [연습: 스레드 창을 사용 하 여 디버그](../debugger/how-to-use-the-threads-window.md)합니다.
 
  다음 절차에서는 고성능 클러스터에서 디버깅을 수행할 때 특히 유용한 몇 가지 방법을 보여 줍니다.
 
@@ -95,7 +95,6 @@ ms.locfileid: "56681792"
  다음 예제에서는 `marvin`이라는 컴퓨터와 `fourier1`이라는 스레드에 중단점 필터를 만드는 방법을 보여 줍니다.
 
 `(MachineName = marvin) & (ThreadName = fourier1)`
-
 
 ## <a name="see-also"></a>참고 항목
 - [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)

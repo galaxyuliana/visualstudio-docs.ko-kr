@@ -19,17 +19,16 @@ caps.latest.revision: 65
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 928d3c4fe3e90c731f56eba4e7275772fdcd76c2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 3dd58013cb26e8533a5b898a0e5cd1df3be1b262
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54778914"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649058"
 ---
 # <a name="compile-page-project-designer-visual-basic"></a>프로젝트 디자이너, 컴파일 페이지(Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 프로젝트 디자이너의 **컴파일** 페이지를 사용하여 컴파일 지침을 지정합니다. 또한 이 페이지에서 고급 컴파일러 옵션 및 빌드 전 또는 빌드 후 이벤트를 지정할 수 있습니다.  
   
  **컴파일** 페이지에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드(**솔루션** 노드 아님)를 선택합니다. 그런 다음 메뉴 모음에서 **프로젝트**, **속성**을 선택합니다. 프로젝트 디자이너가 나타나면 **컴파일** 탭을 클릭합니다.  
@@ -119,12 +118,12 @@ ms.locfileid: "54778914"
   프로젝트를 만들 때 **컴파일 페이지**의 **Option Infer** 설정이 **옵션** 대화 상자의 **Option Infer** 설정 값으로 지정됩니다. 이 대화 상자의 설정을 보거나 변경하려면 **도구** 메뉴에서 **옵션**을 클릭합니다. **옵션** 대화 상자에서 **프로젝트 및 솔루션**을 확장하고 **VB 기본값**을 클릭합니다. **VB 기본값**에서 **Option Infer**의 초기 기본 설정은 **On**입니다.  
   
   **대상 CPU**  
-  출력 파일의 대상으로 프로세서를 지정합니다. 32비트 Intel 호환 프로세서의 경우 **x86**, 64비트 Intel 호환 프로세서의 경우 **x64**, ARM 프로세서의 경우 **ARM**, 임의 프로세스를 허용하도록 지정하려면 **임의 CPU**를 선택합니다. **임의 CPU**는 새 프로젝트의 기본값입니다. 하드웨어 형식 중 가장 광범위한 범위에서 애플리케이션을 실행할 수 있기 때문입니다.  
+  출력 파일의 대상으로 프로세서를 지정합니다. 32비트 Intel 호환 프로세서의 경우 **x86**, 64비트 Intel 호환 프로세서의 경우 **x64**, ARM 프로세서의 경우 **ARM**, 임의 프로세스를 허용하도록 지정하려면 **임의 CPU**를 선택합니다. **임의 CPU**는 새 프로젝트의 기본값입니다. 하드웨어 형식 중 가장 광범위한 범위에서 응용 프로그램을 실행할 수 있기 때문입니다.  
   
   자세한 내용은 [/platform(Visual Basic)](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1)을 참조하세요.  
   
   **32비트 선호**  
-  **32비트 선호** 확인란을 선택하면 애플리케이션은 Windows 32비트 및 64비트 버전에서 모두 32비트 애플리케이션으로 실행됩니다. 그렇지 않은 경우 애플리케이션은 32비트 버전 Windows에서는 32비트 애플리케이션으로, 64비트 버전 Windows에서는 64비트 애플리케이션으로 실행됩니다.  
+  **32비트 선호** 확인란을 선택하면 응용 프로그램은 Windows 32비트 및 64비트 버전에서 모두 32비트 응용 프로그램으로 실행됩니다. 그렇지 않은 경우 애플리케이션은 32비트 버전 Windows에서는 32비트 애플리케이션으로, 64비트 버전 Windows에서는 64비트 애플리케이션으로 실행됩니다.  
   
   64비트 애플리케이션으로 실행하면 포인터 크기가 두 배가 되어 단독으로 32비트인 라이브러리에서 호환성 문제가 발생할 수 있습니다. 매우 빠르게 실행하거나 4GB 이상의 메모리가 필요한 경우에만 애플리케이션을 64비트로 실행해야 합니다.  
   
@@ -132,9 +131,9 @@ ms.locfileid: "54778914"
   
 - **컴파일 페이지**에서 **대상 CPU** 목록이 **임의 CPU**로 설정됩니다.  
   
-- **애플리케이션 페이지**에서 **애플리케이션 형식** 목록이 프로젝트가 애플리케이션임을 지정합니다.  
+- **응용 프로그램 페이지**에서 **응용 프로그램 형식** 목록이 프로젝트가 응용 프로그램임을 지정합니다.  
   
-- **애플리케이션 페이지**에서 **대상 프레임워크** 목록이 .NET Framework 4.5로 지정됩니다.  
+- **응용 프로그램 페이지**에서 **대상 프레임워크** 목록이 .NET Framework 4.5로 지정됩니다.  
   
   **경고 구성**  
   이 표에는 빌드 조건과 각각의 **None**, **Warning** 또는 **Error**의 해당 알림 수준이 나열되어 있습니다.  
@@ -172,6 +171,6 @@ ms.locfileid: "54778914"
 ## <a name="see-also"></a>참고 항목  
  [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)   
  [컴파일 속성 관리](http://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
- [방법: 빌드 이벤트 지정(Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
+ [방법: 빌드 이벤트 지정 (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
  [Visual Basic 명령줄 컴파일러](http://msdn.microsoft.com/library/6b57c444-50c7-4b88-8f59-ed65cff5e05c)   
  [방법: 구성 만들기 및 편집](../../ide/how-to-create-and-edit-configurations.md)

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ae47135b573ec32cb08b8f36f85555e6062dcbe6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 21761ece78967c7c644deecf947c8aac0027d0c7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641171"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648578"
 ---
 # <a name="automation-model-overview"></a>자동화 모델 개요
 자동화 모델 개체는 Visual Studio 추가 기능에서 이나 확장을 작성할 수 있습니다 집합이 이루어져 있습니다. 추가 기능에 Visual Studio 환경을 조작 하 고 일반적인 작업을 자동화할 수 있는 응용 프로그램. Visual Studio 확장 Visual Studio 구성 요소를 사용자 지정 만들거나 텍스트 편집기와 같은 표준 구성 요소의 기능을 추가할 수 있습니다.
@@ -39,7 +39,6 @@ ms.locfileid: "56641171"
 -   코드
 
 -   빌드
-
 
 Automation에 대 한 자세한 내용은 참조 하세요. [Visual Studio의 자동화 및 확장성](../extensibility-in-visual-studio.md)합니다. 이 문서 및 문서 링크, VSPackage에 대 한 자동화를 제공 해야 하는 방법에 대 한 결정을 내릴 수 있도록 제공 합니다.
 

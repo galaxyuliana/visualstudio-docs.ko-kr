@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 38601f8d88b56c3957943b28be298ac24eb12c91
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: febf742ca7a54a14d8de59c251bb8783cf76370a
+ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983925"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58567882"
 ---
 # <a name="publish-an-application-to-azure-app-service-by-importing-publish-settings-in-visual-studio"></a>Visual Studio에서 게시 설정을 가져와서 Azure App Service에 애플리케이션 게시
 
@@ -55,9 +55,9 @@ ms.locfileid: "57983925"
 
 ## <a name="create-a-new-aspnet-project-in-visual-studio"></a>Visual Studio에서 새로운 ASP.NET 프로젝트 만들기
 
-1. Visual Studio를 실행하는 컴퓨터에서 **파일** > **새 프로젝트**를 선택합니다.
+1. Visual Studio를 실행하는 컴퓨터에서 새 프로젝트를 선택합니다.
 
-1. **Visual C#**  또는 **Visual Basic** 아래에서 **웹**을 선택한 다음, 가운데 창에서 **ASP.NET 웹 애플리케이션(.NET Framework)** 또는 (C# 전용인 경우) **ASP.NET Core 웹 애플리케이션**을 선택한 다음, **확인**을 클릭합니다.
+    올바른 템플릿을 선택합니다. 이 예제에서 **ASP.NET 웹 애플리케이션(.NET Framework)** 또는 (C# 전용인 경우) **ASP.NET Core 웹 애플리케이션**을 선택한 다음, **확인**을 클릭합니다.
 
     지정된 프로젝트 템플릿이 표시되지 않으면 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Open Visual Studio 설치 관리자** 링크를 클릭합니다. Visual Studio 설치 관리자가 시작됩니다. **ASP.NET 및 웹 개발** 워크로드를 설치합니다.
 

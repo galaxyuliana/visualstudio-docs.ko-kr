@@ -19,12 +19,12 @@ caps.latest.revision: 81
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a22442e390929e4b378d3e2e39d32656ff59e951
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: c964eaa8e8c130516b29c88a3ccae78aa902c66a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002768"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649448"
 ---
 # <a name="remote-debugging"></a>Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +75,6 @@ ms.locfileid: "59002768"
 > [!TIP] 
 > 명령줄 설치와 명령줄 참조에 대 한 도움말 페이지를 참조 하세요 **msvsmon.exe** 입력 하 여 ``msvsmon.exe /?`` Visual Studio가 설치 된 컴퓨터의 명령줄에서 (또는 이동 **도움말 / 사용량**원격 디버거의).
 
-  
 ## <a name="supported-operating-systems"></a>Supported Operating Systems  
  원격 컴퓨터에서 다음 운영 체제 중 하나를 실행해야 합니다.  
   

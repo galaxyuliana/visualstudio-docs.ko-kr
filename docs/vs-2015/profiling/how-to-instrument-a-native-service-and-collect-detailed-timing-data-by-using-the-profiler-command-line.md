@@ -9,14 +9,14 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f0e1007ce9119d12282b4ee7f6b85f22257af659
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 2663049a818782e8af11f9c85454152e5e5d83db
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54781405"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649006"
 ---
-# <a name="how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line"></a>방법: 프로파일러 명령줄을 사용하여 네이티브 서비스 계측 및 자세한 타이밍 데이터 수집
+# <a name="how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line"></a>방법: Profiler 명령줄을 사용 하 여는 기본 서비스 및 자세한 타이밍 데이터 수집을 계측합니다
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 명령줄 도구를 사용하여 네이티브(C/C++) 서비스를 계측하고 자세한 타이밍 데이터를 수집하는 방법을 설명합니다.  
@@ -53,7 +53,7 @@ ms.locfileid: "54781405"
      **/start:trace** 옵션과 다음 옵션을 함께 사용할 수 있습니다.  
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 애플리케이션에 필요합니다.  
+   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 응용 프로그램에 필요합니다.  
 
    |                                 옵션                                  |                                                                                                                                                   설명                                                                                                                                                    |
    |-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,6 @@ ms.locfileid: "54781405"
    |    [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`     |                                                                                                                    프로파일링 중에 수집할 Windows 성능 카운터를 지정합니다.                                                                                                                     |
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                                  **/wincounter**와 함께 사용해야 합니다. Windows 성능 카운터 수집 이벤트 사이에 경과하는 시간(밀리초)을 지정합니다. 기본값은 500ms입니다.                                                                                   |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                                     프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.etl)로 수집됩니다.                                                                                     |
-
 
 5. 서비스 제어 관리자에서 서비스를 시작합니다.  
 

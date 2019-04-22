@@ -20,18 +20,17 @@ caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 59f8cb15db6f93c76275fd1d8318ae04df998cf7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 01bfaf5ee9143a3122f779ab8292210b90da771f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54788728"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650398"
 ---
 # <a name="signing-page-project-designer"></a>프로젝트 디자이너, 서명 페이지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
-**프로젝트 디자이너**의 **서명** 페이지를 사용하여 애플리케이션 및 배포 매니페스트에 서명하고 어셈블리에도 서명합니다(강력한 이름 서명).  
+**프로젝트 디자이너**의 **서명** 페이지를 사용하여 응용 프로그램 및 배포 매니페스트에 서명하고 어셈블리에도 서명합니다(강력한 이름 서명).  
   
  애플리케이션 및 배포 매니페스트 서명 및 어셈블리 서명은 둘 다 **서명** 페이지에서 수행되는 작업이지만 서로 다른 프로세스입니다.  
   
@@ -92,8 +91,8 @@ ms.locfileid: "54788728"
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 속성 참조](../../ide/reference/project-properties-reference.md)   
  [어셈블리 및 매니페스트 서명 관리](../../ide/managing-assembly-and-manifest-signing.md)   
- [관리되는 애플리케이션의 강력한 이름 서명](http://msdn.microsoft.com/5fef3490-c519-4363-94fd-8b1ad260dab5)   
- [방법: 애플리케이션 및 배포 매니페스트 서명](../../ide/how-to-sign-application-and-deployment-manifests.md)   
- [방법: 어셈블리 서명(Visual Studio)](http://msdn.microsoft.com/f468a7d3-234c-4353-924d-8e0ae5896564)   
- [방법: 강력한 이름으로 어셈블리 서명](http://msdn.microsoft.com/library/2c30799a-a826-46b4-a25d-c584027a6c67)   
+ [관리되는 응용 프로그램의 강력한 이름 서명](http://msdn.microsoft.com/5fef3490-c519-4363-94fd-8b1ad260dab5)   
+ [방법: 로그인 응용 프로그램 및 배포 매니페스트](../../ide/how-to-sign-application-and-deployment-manifests.md)   
+ [방법: 어셈블리 서명 (Visual Studio)](http://msdn.microsoft.com/f468a7d3-234c-4353-924d-8e0ae5896564)   
+ [방법: 강력한 이름의 어셈블리에 서명](http://msdn.microsoft.com/library/2c30799a-a826-46b4-a25d-c584027a6c67)   
  [강력한 이름의 어셈블리](http://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)

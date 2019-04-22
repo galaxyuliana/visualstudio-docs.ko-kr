@@ -22,17 +22,16 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5592a488788c61af7ad6875de239fca62746857c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4b20120ae4fc5de23c4457002b57ca186e8fe400
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970908"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651190"
 ---
 # <a name="filter-and-sort-data-in-a-windows-forms-application"></a>Windows Forms 애플리케이션에서 데이터 필터링 및 정렬
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 설정 하 여 데이터를 필터링 합니다 <xref:System.Windows.Forms.BindingSource.Filter%2A> 속성을 원하는 레코드를 반환 하는 문자열 식입니다.  
   
  설정 하 여 데이터를 정렬 합니다 <xref:System.Windows.Forms.BindingSource.Sort%2A> 속성을 열 이름 기준으로 정렬 하려면; 추가 `DESC` 를 내림차순으로 정렬 하거나 추가 `ASC` 오름차순 정렬 합니다.  

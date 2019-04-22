@@ -11,17 +11,16 @@ caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e5f25f100a1d6eb31dbd03a26d927f81c4e564d3
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 388b0ebbeea9cd9adb15629f34952ef0307a842b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54769434"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648820"
 ---
 # <a name="walkthrough-creating-an-msbuild-project-file-from-scratch"></a>연습: 처음부터 새로 MSBuild 프로젝트 파일 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 .NET Framework를 대상으로 하는 프로그래밍 언어는 MSBuild 프로젝트 파일을 사용하여 애플리케이션 빌드 프로세스를 설명하고 제어합니다. Visual Studio를 사용하여 MSBuild 프로젝트 파일을 만들 때 적절한 XML이 파일에 자동으로 추가됩니다. 그러나 XML이 구성되는 방식과 이러한 방식을 변경하여 빌드를 제어할 수 있는 방법을 이해하는 것이 좋습니다.  
   
  C++ 프로젝트용 프로젝트 파일을 만드는 방법에 대한 자세한 내용은 [MSBuild(Visual C++)](http://msdn.microsoft.com/library/7a1be7ff-0312-4669-adf2-5f5bf507d560)를 참조하세요.  
@@ -400,7 +399,7 @@ ms.locfileid: "54769434"
   
      MSBuild는 애플리케이션이 마지막으로 빌드된 이후로 변경된 소스 파일이 없으므로 Build 대상을 건너뜁니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 애플리케이션을 컴파일하고 출력 파일 이름이 포함된 메시지를 기록하는 프로젝트 파일을 보여 줍니다.  
@@ -440,7 +439,7 @@ ms.locfileid: "54769434"
   
 ### <a name="comments"></a>설명  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 애플리케이션을 컴파일하고 출력 파일 이름이 포함된 메시지를 기록하는 프로젝트 파일을 보여 줍니다.  

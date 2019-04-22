@@ -16,17 +16,16 @@ caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0ab47b0058b80b49b5892a92ea6eeda1afe5296c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 19fa9c35011e42905c1f26ed34da405be61d0aba
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54804178"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649563"
 ---
 # <a name="msbuild-reserved-and-well-known-properties"></a>MSBuild의 예약된 속성 및 잘 알려진 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 프로젝트 파일과 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 이진 파일에 대한 정보를 저장하는 미리 정의된 속성 집합을 제공합니다. 이러한 속성은 다른 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 속성과 동일한 방식으로 평가됩니다. 예를 들어, `MSBuildProjectFile` 속성을 사용하려면 `$(MSBuildProjectFile)`을 입력합니다.  
   
  MSBuild에서는 다음 표에 있는 값을 사용하여 예약된 속성 및 잘 알려진 속성을 미리 정의할 수 있습니다. 예약된 속성은 재정의할 수 없지만 잘 알려진 속성은 동일하게 이름이 지정된 환경 속성, 전역 속성 또는 프로젝트 파일에 선언된 속성을 사용하여 재정의할 수 있습니다.  

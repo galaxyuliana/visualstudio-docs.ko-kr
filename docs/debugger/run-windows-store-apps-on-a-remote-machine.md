@@ -14,17 +14,17 @@ manager: jillfra
 ms.workload:
 - uwp
 ms.openlocfilehash: 1d0ff9d8f3113b1df1e10891a3bd2197dd92482d
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58789902"
 ---
 # <a name="debug-uwp-apps-on-remote-machines-from-visual-studio"></a>Visual Studio에서 원격 컴퓨터에서 UWP 앱 디버그
 
 실행, 디버그, 프로필 및 다른 컴퓨터 또는 장치에서 유니버설 Windows 플랫폼 (UWP) 앱을 테스트 하려면 Visual Studio를 사용할 수 있습니다. 원격 컴퓨터에서 UWP 앱을 실행 중인 Visual Studio 컴퓨터는 터치, 지리적 위치, 실제 방향 등의 UWP 특정 기능을 지원 하지 않는 경우 특히 유용 합니다.
 
-##  <a name="BKMK_Prerequisites"></a> 필수 구성 요소
+##  <a name="BKMK_Prerequisites"></a> 필수 조건
 
 Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
 
@@ -55,9 +55,9 @@ Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
 
     ![원격 디버깅에 대 한 프로젝트 속성 관리](../debugger/media/vsrun_managed_projprop_remote.png "디버그 관리 되는 프로젝트 속성")
 
-###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> 원격 디버깅을 위해 c + + 프로젝트 구성
+###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> 구성 된 C++ 원격 디버깅을 위해 프로젝트
 
-1.  Visual Studio에서 c + + 프로젝트를 선택 **솔루션 탐색기** 선택 합니다 **속성** 아이콘을 눌러 **Alt**+**Enter**를 마우스 오른쪽 단추로 클릭 하 고 선택 하거나 **속성**합니다.
+1.  선택 된 C++ Visual Studio에서 프로젝트 **솔루션 탐색기** 선택한는 **속성** 아이콘을 눌러 **Alt**+**Enter**를 마우스 오른쪽 단추로 클릭 하 고 선택 하거나 **속성**합니다.
 
 1.  선택 된 **디버깅** 탭 합니다.
 
@@ -65,7 +65,7 @@ Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
 
 1.  원격 컴퓨터에 대 한 입력 또는 네트워크 이름 또는 IP 주소를 선택 합니다 **컴퓨터 이름** 필드 또는 드롭 다운 하 고 선택할 **찾기** 장치에 대 한 검색 하는 [원격 연결 대화 상자 ](#remote-connections).
 
-    ![원격 디버깅을 위해 c + + 프로젝트 속성](../debugger/media/vsrun_cpp_projprop_remote.png "c + + 디버깅 프로젝트 속성")
+    ![C++원격 디버깅에 대 한 속성을 프로젝트](../debugger/media/vsrun_cpp_projprop_remote.png " C++ 디버깅 프로젝트 속성")
 
 ### <a name="remote-connections"></a> 원격 연결 대화 상자를 사용 합니다.
 
@@ -106,7 +106,7 @@ Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
 
 1. 필요한 경우 선택 **디버그** > **디버깅 중지** 누르거나 **Shift**+**F5** 디버깅을 중지 하 고 원격 응용 프로그램을 닫습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [고급 원격 배포 옵션](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
 - [Visual Studio로 UWP 앱 테스트](/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio/)
 - [Visual Studio에서 UWP 앱 디버그](debugging-windows-store-and-windows-universal-apps.md)

@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 182b10919a92f27f8ad9563570ee6ae3ef330710
-ms.sourcegitcommit: 34940a18f5b03a59567f54c7024a0b16d4272f1e
+ms.openlocfilehash: d61b101b4abf3829eed824ddf434af976cd4b276
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56155671"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58789681"
 ---
 # <a name="microsoft-help-viewer-installation"></a>Microsoft 도움말 뷰어 설치
 
@@ -31,11 +31,11 @@ ms.locfileid: "56155671"
 
 1. **수정** 단추를 선택하여 Microsoft 도움말 뷰어의 설치를 시작합니다.
 
-Microsoft 도움말 뷰어를 쉽게 설치하는 다른 방법은 **빠른 실행** 상자를 사용하는 것입니다.
+Microsoft 도움말 뷰어를 쉽게 설치하는 다른 방법은 검색 상자를 사용하는 것입니다.
 
-1. Visual Studio 제목 표시줄의 **빠른 실행** 상자에 **도움말 뷰어**를 입력합니다.
+1. **Ctrl**+**Q**를 누른 다음, 검색 상자에 **도움말 뷰어**를 입력합니다.
 
-   ![빠른 실행 상자](media/installation/quick-launch.png)
+   ![검색 상자](media/installation/quick-launch.png)
 
 1. **도움말 뷰어(개별 구성 요소)** 라는 결과를 선택합니다.
 

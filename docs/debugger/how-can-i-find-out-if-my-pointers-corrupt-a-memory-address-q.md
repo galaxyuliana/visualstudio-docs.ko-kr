@@ -22,10 +22,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ebe87ef6c391f0beae7183c7baa396f5bd95cf02
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59366013"
 ---
 # <a name="how-can-i-find-out-if-my-pointers-corrupt-a-memory-address"></a>포인터가 메모리 주소를 손상시키는지 어떻게 알 수 있습니까?
@@ -45,5 +45,5 @@ ms.locfileid: "59366013"
 2.  중단점이 적중되면 **메모리** 창을 사용하여 0x00408000에서 시작하는 메모리 내용을 검토합니다. 자세한 내용은 [메모리 Windows](../debugger/memory-windows.md)합니다.
 
 ## <a name="see-also"></a>참고 항목
-- [네이티브 코드 디버깅 FAQ](../debugger/debugging-native-code-faqs.md)
-- [네이티브 코드 디버깅](../debugger/debugging-native-code.md)
+- [네이티브 코드 디버그 FAQ](../debugger/debugging-native-code-faqs.md)
+- [네이티브 코드 디버그](../debugger/debugging-native-code.md)

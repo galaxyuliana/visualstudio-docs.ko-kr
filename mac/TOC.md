@@ -14,7 +14,6 @@
 # [IDE 사용자 지정](customizing-the-ide.md)
 ## [Mac용 Visual Studio 확장](extending-visual-studio-mac.md)
 
-
 # [프로젝트 및 솔루션](projects-and-solutions.md)
 ## [새 프로젝트 만들기](create-new-projects.md)
 ## [프로젝트 항목 추가 및 제거](add-and-remove-project-items.md)

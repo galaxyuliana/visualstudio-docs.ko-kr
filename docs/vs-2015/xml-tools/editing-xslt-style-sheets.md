@@ -9,17 +9,16 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a442612d3eb4845def1a82712ac01c6b90d4047c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2279a193b173924b45f42172281e106370131023
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986487"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648176"
 ---
 # <a name="editing-xslt-style-sheets"></a>XSLT 스타일시트 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XML 편집기를 사용하여 XSLT 스타일시트를 편집할 수 있습니다. 이 편집기에서는 IntelliSense, 개요, XML 조각 등의 기본 편집기 기능을 사용할 수 있습니다. 또한 XSLT에서 쉽게 개발할 수 있게 하는 새 기능도 있습니다.  
   
 ## <a name="xslt-features"></a>XSLT 기능  

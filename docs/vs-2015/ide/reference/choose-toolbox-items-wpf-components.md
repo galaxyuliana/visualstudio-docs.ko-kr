@@ -14,17 +14,16 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 773ecc04569850546f03fd0cdb68bfe1a81a79f9
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 4cbfaea72633f6f4bbeb7da3bf6e7c02069889f9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54835028"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59647704"
 ---
 # <a name="choose-toolbox-items-wpf-components"></a>도구 상자 항목 선택, WPF 구성 요소
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **도구 상자 항목 선택** 대화 상자의 이 탭에는 로컬 컴퓨터에서 사용할 수 있는 WPF(Windows Presentation Foundation) 컨트롤 목록이 표시됩니다. 이 목록을 표시하려면 **도구** 메뉴에서 **도구 상자 항목 선택**을 선택하여 **도구 상자 항목 선택** 대화 상자를 표시하고 **WPF 구성 요소** 탭을 선택합니다. 나열된 구성 요소를 정렬하려면 열 머리글을 선택합니다.  
   
 - 구성 요소 옆의 확인란이 선택되면 해당 구성 요소의 아이콘이 **도구 상자**에 표시됩니다.  

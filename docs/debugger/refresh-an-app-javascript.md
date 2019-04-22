@@ -20,10 +20,10 @@ monikerRange: vs-2017
 ms.workload:
 - uwp
 ms.openlocfilehash: 751deec205eabb8bc6e4a492c7242095b2d67475
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790292"
 ---
 # <a name="refresh-a-uwp-app-in-visual-studio"></a>Visual Studio에서 UWP 앱을 새로 고침
@@ -57,7 +57,7 @@ ms.locfileid: "58790292"
 
 5.  UWP 앱의 홈 페이지에서 HTML의 일부를 편집 합니다.
 
-7.  클릭 합니다 **새로 고침 Windows 앱** 단추를 같이: ![새로 고침 Windows 앱 단추](../debugger/media/js_refresh.png "JS_Refresh")합니다. 또는 F4 키를 누릅니다.
+7.  클릭 합니다 **새로 고침 Windows 앱** 같이 단추: ![Windows 응용 프로그램 단추를 새로 고칠](../debugger/media/js_refresh.png "JS_Refresh")합니다. 또는 F4 키를 누릅니다.
 
 8.  응용 프로그램으로 전환합니다. 앱은 다시 로드 및 업데이트 된 HTML 앱을 렌더링에 사용 됩니다.
 

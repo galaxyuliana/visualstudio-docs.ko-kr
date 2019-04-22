@@ -15,10 +15,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: da8eb2f21cbe7ef611aaba863e853a2fe7a71753
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59018313"
 ---
 # <a name="expected-"></a>예상 '\@'
@@ -33,6 +33,6 @@ ms.locfileid: "59018313"
     ```  
   
 ## <a name="see-also"></a>참고 항목  
- [@set 문](../../javascript/reference/at-set-statement-javascript.md)   
+ [@set Statement](../../javascript/reference/at-set-statement-javascript.md)   
  [조건부 컴파일](../../javascript/advanced/conditional-compilation-javascript.md)   
  [조건부 컴파일 변수](../../javascript/advanced/conditional-compilation-variables-javascript.md)

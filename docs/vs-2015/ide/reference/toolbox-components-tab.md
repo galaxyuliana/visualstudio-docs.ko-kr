@@ -11,17 +11,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 121474dcc7abcfb01ff992558f3ce0a245444e9f
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 0ebbf8a0492537ee40062fb17bb338d46c228a9a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54775890"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652867"
 ---
 # <a name="toolbox-components-tab"></a>도구 상자, 구성 요소 탭
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 및 [!INCLUDE[csprcs](../../includes/csprcs-md.md)] 디자이너에 추가할 수 있는 구성 요소를 표시합니다. <xref:System.Messaging.MessageQueue> 및 <xref:System.Diagnostics.EventLog>와 같이 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에 함께 제공되는 [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] 구성 요소 이외에 사용자 지정 또는 타사 구성 요소를 이 탭에 추가할 수 있습니다. 자세한 내용은 [방법: 도구 상자 탭 조작](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)을 참조하세요.  
   
  이 탭을 표시하려면 **보기** 메뉴에서 **도구 상자**를 선택합니다. **도구 상자**에서 **구성 요소** 탭을 선택합니다.  

@@ -12,17 +12,17 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7b7916cbd3a7faa633baf53a18686779dc2b386c
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58857764"
 ---
 # <a name="troubleshooting-and-known-issues-for-snapshot-debugging-in-visual-studio"></a>Visual Studio의 스냅숏 디버깅에 대한 문제 해결 및 알려진 문제
 
 이 문서에 설명된 단계를 수행해도 문제가 해결되지 않으면 snaphelp@microsoft.com에 문의하세요.
 
-## <a name="issue-snappoint-does-not-turn-on"></a>문제: snappoint가 켜지지 않음
+## <a name="issue-snappoint-does-not-turn-on"></a>문제: Snappoint 본체가 켜지 지 않는다
 
 snappoint와 함께 일반 snappoint 아이콘이 아닌 경고 아이콘(![snappoint 경고 아이콘](../debugger/media/snapshot-troubleshooting-snappoint-warning-icon.png "snappoint 경고 아이콘"))이 표시되면 snappoint가 켜지지 않은 것입니다.
 
@@ -32,7 +32,7 @@ snappoint와 함께 일반 snappoint 아이콘이 아닌 경고 아이콘(![snap
 
 1. app.isua1을 빌드하고 배포하는 데 사용된 것과 동일한 버전의 소스 코드가 있는지 확인합니다. 사용자의 배포에 맞게 올바른 기호를 로드하는지 확인합니다. 이렇게 하려면 스냅숏 디버그 중에 **모듈** 창을 보고 디버그하는 모듈에 대해 로드된 .pdb 파일이 기호 파일 열에 표시되는지 확인합니다. 스냅숏 디버거는 자동으로 사용자의 배포에 맞게 기호를 다운로드하여 사용하려고 합니다.
 
-## <a name="issue-symbols-do-not-load-when-i-open-a-snapshot"></a>문제: 스냅숏을 열 때 기호가 로드되지 않음
+## <a name="issue-symbols-do-not-load-when-i-open-a-snapshot"></a>문제: 스냅숏을 열면 기호를 로드 하지 않습니다.
 
 다음 창이 표시되면 기호가 로드되지 않은 것입니다.
 
@@ -48,7 +48,7 @@ snappoint와 함께 일반 snappoint 아이콘이 아닌 경고 아이콘(![snap
 
 - 조직이 기호 서버를 사용하거나 다른 경로에 기호를 드롭하는 경우 기호 설정을 사용하여 배포에 맞게 올바른 기호를 로드하세요.
 
-## <a name="issue-i-cannot-see-the-attach-snapshot-debugger-option-in-the-cloud-explorer"></a>문제: 클라우드 탐색기에 “스냅숏 디버거 연결” 옵션이 표시되지 않음
+## <a name="issue-i-cannot-see-the-attach-snapshot-debugger-option-in-the-cloud-explorer"></a>문제: 클라우드 탐색기에서 "스냅숏 디버거 연결" 옵션을 볼 수 없는
 
 다음 단계를 수행하세요.
 
@@ -67,7 +67,7 @@ snappoint와 함께 일반 snappoint 아이콘이 아닌 경고 아이콘(![snap
   - Azure Kubernetes Service - Ubuntu 18.04의 .NET Core 2.2 이상에서 실행되는 ASP.NET Core 애플리케이션
 ::: moniker-end
 
-## <a name="issue-i-only-see-throttled-snapshots-in-the-diagnostic-tools"></a>문제: 진단 도구에 제한된 스냅숏만 표시됨
+## <a name="issue-i-only-see-throttled-snapshots-in-the-diagnostic-tools"></a>문제: 표시 되는 진단 도구에서 스냅숏 제한
 
 ![제한된 snappoint](../debugger/media/snapshot-troubleshooting-throttled-snapshots.png "제한된 snappoint")
 
@@ -75,7 +75,7 @@ snappoint와 함께 일반 snappoint 아이콘이 아닌 경고 아이콘(![snap
 
 - 스냅숏은 메모리를 거의 차지하지 않지만 할당된 메모리를 차지합니다. 스냅숏 디버거는 서버의 메모리가 과도하게 사용되는 것을 감지하면 스냅숏을 생성하지 않습니다. 스냅숏 디버거 세션을 중지하고 다시 시도하여 이미 캡처된 스냅숏을 삭제할 수 있습니다.
 
-## <a name="issue-snapshot-debugging-with-multiple-versions-of-the-visual-studio-gives-me-errors"></a>문제: 여러 버전의 Visual Studio를 사용한 스냅숏 디버깅에서 오류가 발생함
+## <a name="issue-snapshot-debugging-with-multiple-versions-of-the-visual-studio-gives-me-errors"></a>문제: 오류에서는 여러 버전의 Visual Studio를 사용 하 여 스냅숏 디버깅
 
 VS 2019를 사용하려면 Azure App Service에 최신 버전의 스냅숏 디버거 사이트 확장이 있어야 합니다.  이 버전은 VS 2017에서 사용하는 이전 버전의 스냅숏 디버거 사이트 확장과 호환되지 않습니다.  이전에 VS 2017의 스냅숏 디버거가 디버그했던 Azure App Service에 VS 2019의 스냅숏 디버거를 연결하려고 하면 다음 오류가 발생합니다.
 
@@ -90,7 +90,7 @@ VS 2019를 사용하려면 Azure App Service에 최신 버전의 스냅숏 디�
 - INSTRUMENTATIONENGINE_EXTENSION_VERSION
 - SNAPSHOTDEBUGGER_EXTENSION_VERSION
 
-## <a name="issue-i-am-having-problems-snapshot-debugging-and-i-need-to-enable-more-logging"></a>문제: 스냅숏 디버깅에 문제가 있으며 더 많은 로깅을 사용하도록 설정해야 함
+## <a name="issue-i-am-having-problems-snapshot-debugging-and-i-need-to-enable-more-logging"></a>문제: 스냅숏 디버깅 때 문제가 및 자세한 로깅을 사용 하도록 설정 해야 하는 경우
 
 ### <a name="enable-agent-logs"></a>에이전트 로그 사용
 
@@ -100,9 +100,9 @@ VS 2019를 사용하려면 Azure App Service에 최신 버전의 스냅숏 디�
 
 - App Services:
   - App Service의 Kudu 사이트(yourappservice.**scm**.azurewebsites.net)로 이동한 후 디버그 콘솔로 이동합니다.
-  - 에이전트 로그는 D:\home\LogFiles\SiteExtensions\DiagnosticsAgentLogs\ 디렉터리에 저장되어 있습니다.
+  - 에이전트 로그는 다음 디렉터리에 저장 됩니다.  D:\home\LogFiles\SiteExtensions\DiagnosticsAgentLogs\
 - VM/VMSS:
-  - VM에 로그인합니다. 에이전트 로그는 C:\WindowsAzure\Logs\Plugins\Microsoft.Azure.Diagnostics.IaaSDiagnostics\<Version>\SnapshotDebuggerAgent_*.txt로 저장되어 있습니다.
+  - 로그는 다음과 같이 저장 됩니다 하는 에이전트 VM에 로그인 합니다.  C:\WindowsAzure\Logs\Plugins\Microsoft.Azure.Diagnostics.IaaSDiagnostics\<Version>\SnapshotDebuggerAgent_*.txt
 - AKS
   - /tmp/diag/AgentLogs/* 디렉터리로 이동합니다.
 
@@ -114,7 +114,7 @@ VS 2019를 사용하려면 Azure App Service에 최신 버전의 스냅숏 디�
   - 오류 로깅은 자동으로 D:\Home\LogFiles\eventlog.xml로 전송되며, 이벤트는 <<공급자 이름=“계측 엔진” //>> 또는 “프로덕션 중단점”으로 표시됩니다.
 - VM/VMSS:
   - VM에 로그인하고 이벤트 뷰어를 엽니다.
-  - ‘Windows 로그>애플리케이션’ 보기를 엽니다.
+  - 다음 보기를 엽니다. *Windows 로그 > 응용 프로그램*합니다.
   - ‘프로덕션 중단점’ 또는 ‘계측 엔진’을 사용하여 ‘이벤트 원본’별로 ‘현재 로그를 필터링’합니다.
 - AKS
   - 계측 엔진 로깅은 /tmp/diag/log.txt(DockerFile의 MicrosoftInstrumentationEngine_FileLogPath 설정)에서 수행됩니다.
@@ -139,10 +139,10 @@ VS 2019를 사용하려면 Azure App Service에 최신 버전의 스냅숏 디�
 - 슬롯 사이트를 시작합니다. 사이트를 방문하여 다시 사이트를 준비하는 것이 좋습니다.
 - 슬롯을 프로덕션과 교환합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio의 디버깅](../debugger/index.md)
-- [스냅숏 디버거를 사용하여 라이브 ASP.NET 앱 디버그](../debugger/debug-live-azure-applications.md)
-- [스냅숏 디버거를 사용하여 라이브 ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets 디버그](../debugger/debug-live-azure-virtual-machines.md)
-- [스냅숏 디버거를 사용하여 라이브 ASP.NET Azure Kubernetes 디버그](../debugger/debug-live-azure-kubernetes.md)
+- [스냅숏 디버거를 사용 하 여 라이브 ASP.NET 앱 디버그](../debugger/debug-live-azure-applications.md)
+- [라이브 ASP.NET Azure 가상 Machines\Virtual Machines Scale Sets 스냅숏 디버거를 사용 하 여 디버그](../debugger/debug-live-azure-virtual-machines.md)
+- [스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure Kubernetes 디버깅](../debugger/debug-live-azure-kubernetes.md)
 - [스냅숏 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md)

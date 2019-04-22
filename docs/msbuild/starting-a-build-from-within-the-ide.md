@@ -10,18 +10,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 641dd7485e97a7833c2483d73271a8169dbc2054
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ae3478aef733d106fa075a51edce4af91b404149
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617745"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584339"
 ---
 # <a name="start-a-build-from-within-the-ide"></a>IDE에서 빌드 시작
 사용자 지정 프로젝트 시스템은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor>를 사용하여 빌드를 시작해야 합니다. 이 문서에서는 이 요구 사항에 대한 이유를 설명하고 프로시저를 간략하게 설명합니다.
 
 ## <a name="parallel-builds-and-threads"></a>병렬 빌드 및 스레드
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]는 공통 리소스에 액세스하기 위한 중재를 필요로 하는 병렬 빌드를 허용합니다. 프로젝트 시스템은 빌드를 비동기적으로 실행할 수 있지만 이러한 시스템은 빌드 관리자에게 다시 제공되는 호출 내에서 빌드 함수를 호출하지 않아야 합니다.
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]는 공통 리소스에 액세스하기 위한 중재를 필요로 하는 병렬 빌드를 허용합니다. 프로젝트 시스템은 빌드를 비동기적으로 실행할 수 있지만 이러한 시스템은 호출 내에서 빌드 함수를 호출하지 않아야 합니다.
 
  프로젝트 시스템이 환경 변수를 수정할 경우 빌드의 NodeAffinity를 OutOfProc로 설정해야 합니다. 이 요구 사항을 적용하면 in-proc 노드가 필요하므로 호스트 개체를 사용할 수 없습니다.
 

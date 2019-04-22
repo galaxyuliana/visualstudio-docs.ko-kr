@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 9d948234846a3d4f9fe240a6bf30854d3f0c7007
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: dd28e0f2455e1a6ed866d879ec347082e9302c3a
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57872063"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790435"
 ---
 # <a name="analyze-energy-use-in-uwp-apps"></a>UWP 앱의 에너지 사용 분석
 
@@ -64,6 +64,7 @@ Visual Studio **에너지 소비** 프로파일러를 사용하면 자체 배터
 
 예제 코드는 Windows SDK 샘플 [LoggingSession sample](https://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336)(LoggingSession 샘플)을 참조하세요.
 
+::: moniker range="vs-2017"
 **JavaScript 코드에 표시 추가**
 
 사용자 표시를 추가하려면 표시할 코드의 지점에 다음 코드를 추가합니다.
@@ -75,6 +76,7 @@ if (performance && performance.mark) {
 ```
 
 *markDescription* 은 사용자 표시 도구 설명에 표시할 메시지가 포함되는 문자열입니다.
+::: moniker-end
 
 ## <a name="configure-your-environment-for-profiling"></a>프로파일링을 위한 환경 구성
  더 정확하게 예측하려면 배터리 전원을 사용하는 저전력 디바이스에서 앱의 에너지 사용을 프로파일링합니다. Visual Studio는 이러한 디바이스에서 대부분 실행되지 않으므로 Visual Studio 원격 도구를 사용하여 디바이스에 Visual Studio 컴퓨터를 연결해야 합니다. 원격 디바이스에 연결하려면 Visual Studio 프로젝트와 원격 디바이스를 모두 구성해야 합니다. 자세한 내용은 [원격 컴퓨터에서 UWP 앱 실행](../debugger/run-windows-store-apps-on-a-remote-machine.md)을 참조하세요.
@@ -147,11 +149,11 @@ if (performance && performance.mark) {
 
 ## <a name="other-resources"></a>기타 리소스
 
-- [C#/VB/C++ 및 XAML](/previous-versions/windows/apps/hh452985\(v\=win.10\))과 [JavaScript 및 HTML](/previous-versions/windows/apps/hh452983(v=win.10))의 **연결 상태 및 비용 관리** 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.
+- [C#/VB/C++ 및 XAML](/previous-versions/windows/apps/hh452985\(v\=win.10\))의 **연결 상태 및 비용 관리** 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.
 
    UWP 앱에 대한 Visual Studio 시뮬레이터를 사용하여 네트워크 정보 API의 데이터 연결 속성을 시뮬레이션할 수 있습니다. [시뮬레이터에서 UWP 앱 실행](../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하세요.
 
-- **JavaScript 함수 타이밍** 및 **CPU 사용** 도구를 사용하면 비효율적 함수 때문에 발생하는 CPU 로드를 줄일 수 있습니다. [CPU 사용량 분석](../profiling/beginners-guide-to-performance-profiling.md)을 참조하세요.
+- **CPU 사용** 도구를 사용하면 비효율적 함수 때문에 발생하는 CPU 로드를 줄일 수 있습니다. [CPU 사용량 분석](../profiling/beginners-guide-to-performance-profiling.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

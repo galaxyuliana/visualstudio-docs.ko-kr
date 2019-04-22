@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 183a0774bf507fcf8bdf9abeea688bb1ea75b1bd
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: b74eaab3edb205b5218cad5a61556f4803614d94
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628717"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651969"
 ---
 # <a name="how-to-identify-symbols-in-a-library"></a>방법: 라이브러리의 기호 식별
 기호 검색 도구는 기호의 계층적 뷰를 표시합니다. 기호는 네임 스페이스, 개체, 클래스, 클래스 멤버 및 다른 언어 요소를 나타냅니다.
@@ -49,7 +49,6 @@ N1
  이 예제에서는 C2 클래스의 정식 경로 N1 + C2입니다. C2의 프레젠테이션 경로 C1과 "자료 및 인터페이스" 노드를 포함 합니다. N1 + C1 + 기본 "및" 인터페이스 + C2입니다.
 
  개체 관리자 호출 프레젠테이션 폼 정보를 얻는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo.EnumPresentationNodes%2A> 메서드.
-
 
 ## <a name="to-obtain-canonical-and-presentation-forms-information"></a>정식 가져오려고 프레젠테이션 정보 이며
 

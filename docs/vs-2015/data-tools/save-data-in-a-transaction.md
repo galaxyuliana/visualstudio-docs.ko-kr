@@ -20,17 +20,16 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 48c8732f75f23a0d0b0929eeef8865044f19d27b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 07bd9e469d090ffb97e166ce943397b51aedd497
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970564"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59647677"
 ---
 # <a name="save-data-in-a-transaction"></a>트랜잭션에 데이터 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 연습에서는 사용 하 여 트랜잭션에서 데이터를 저장 하는 방법에 설명 합니다 <xref:System.Transactions> 네임 스페이스입니다. 이 예에서는 Northwind 샘플 데이터베이스의 `Customers` 및 `Orders` 테이블을 사용합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  

@@ -14,12 +14,12 @@ dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: ee6866e2f40f70e2f804dc9b61b0db21c213232f
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: f394ea2775eede3424e4d6995a8e2065c5d986ef
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416166"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58857595"
 ---
 # <a name="tutorial-get-started-with-visual-basic-in-visual-studio"></a>자습서: Visual Studio에서 Visual Basic 시작
 
@@ -33,7 +33,7 @@ VB(Visual Basic)에 대한 이 자습서에서는 Visual Studio를 사용하여 
 
 ::: moniker range="vs-2019"
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다.
 
 ::: moniker-end
 
@@ -103,7 +103,7 @@ VB(Visual Basic)에 대한 이 자습서에서는 Visual Studio를 사용하여 
 
 1. **새 프로젝트 구성** 창에서 **프로젝트 이름** 상자에 *WhatIsYourName*을 입력합니다. 그런 다음, **만들기**를 선택합니다.
 
-   !['새 프로젝트 구성' 창에서 프로젝트의 이름을 'WhatIsYourName'으로 지정합니다.](./media/vs-2019/vb-name-your-project.-whatname.png)
+   !['새 프로젝트 구성' 창에서 프로젝트의 이름을 'WhatIsYourName'으로 지정합니다.](./media/vs-2019/vb-name-your-project-whatname.png)
 
    Visual Studio에서 새 프로젝트를 엽니다.
 

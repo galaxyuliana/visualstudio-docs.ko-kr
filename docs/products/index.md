@@ -6,10 +6,10 @@ description: Visual Studio 제품군을 살펴보십시오.
 ms.topic: landing-page
 searchScope: []
 ms.openlocfilehash: 77d03ae304886be2e6c588ccea1c6e8be97efb15
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59017994"
 ---
 <!-- markdownlint-disable MD033 -->
@@ -43,7 +43,7 @@ ms.locfileid: "59017994"
                                 </a>
                             </li>
                             <li>
-                                <a href="/visualstudio/mac" title="Visual Studio for Mac">
+                                <a href="/visualstudio/mac" title="Mac용 Visual Studio">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -100,7 +100,7 @@ ms.locfileid: "59017994"
                                 </a>
                             </li>
                             <li>
-                                <a href="/visualstudio/subscriptions/" title="Visual Studio 구독">
+                                <a href="/visualstudio/subscriptions/" title="Visual Studio Subscription">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

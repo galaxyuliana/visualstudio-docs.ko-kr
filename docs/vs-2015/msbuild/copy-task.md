@@ -22,17 +22,16 @@ caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8f6e1bf48d80362a4f51e10583c5827eff8fe932
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 805a8d6616b4f6c198173ad2a9c9d733ad50de32
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758321"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648709"
 ---
 # <a name="copy-task"></a>Copy 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 파일 시스템의 새 위치에 파일을 복사합니다.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -74,7 +73,7 @@ ms.locfileid: "54758321"
   
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `MySourceFiles` 항목 컬렉션의 항목을 c:\MyProject\Destination 폴더로 복사합니다.  
   
 ```  
@@ -94,7 +93,7 @@ ms.locfileid: "54758321"
 </Project>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 재귀적 복사를 수행하는 방법을 보여 줍니다. 이 프로젝트는 디렉터리 구조를 유지하면서 c:\MySourceTree의 모든 파일을 재귀적으로 c:\MyDestinationTree에 복사합니다.  
   
 ```  

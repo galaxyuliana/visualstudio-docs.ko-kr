@@ -14,14 +14,15 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
+monikerRange: vs-2017
 ms.workload:
 - uwp
-ms.openlocfilehash: f7ab539c1e5a5e90006629850f4c0e728e2e89f4
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: f95daba8d1a7a8965be223ff2a9787101530edc1
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57868158"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790929"
 ---
 # <a name="analyze-html-ui-responsiveness-in-universal-windows-apps"></a>유니버설 Windows 앱의 HTML UI 응답성 분석
 이 항목에서는 유니버설 Windows 앱에 사용할 수 있는 성능 도구인 UI 응답성 프로파일러를 사용하여 앱에서 성능 문제를 격리하는 방법에 대해 설명합니다.
@@ -178,7 +179,7 @@ if (performance.mark && performance.measure) {
 
  ![진단 세션 눈금자](../profiling/media/js_htmlvizprof_ruler.png "JS_HTMLVizProf_Ruler")
 
- 타임라인은 활성화 이벤트와 같은 응용 프로그램 수명 주기 이벤트가 발생할 때 표시되며, 사용자 코드에 추가할 수 있는 사용자 표시(사용자 표식 삼각형)를 표시합니다. 이벤트를 선택하여 추가 정보와 함께 도구 설명을 표시할 수 있습니다. 사용자 표식에 대한 자세한 내용은 이 항목의 [분석을 위한 코드 표시](#ProfileMark) 를 참조하세요.
+ 타임라인은 활성화 이벤트와 같은 앱 수명 주기 이벤트가 발생할 때를 나타내며, 사용자 코드에 추가할 수 있는 사용자 표시(사용자 표식 삼각형)를 보여줍니다. 이벤트를 선택하여 추가 정보와 함께 도구 설명을 표시할 수 있습니다. 사용자 표식에 대한 자세한 내용은 이 항목의 [분석을 위한 코드 표시](#ProfileMark) 를 참조하세요.
 
  응용 프로그램 수명 주기 이벤트는 다이아몬드 기호로 표시됩니다. 이는 DOM 이벤트로, 다음을 포함합니다.
 

@@ -24,17 +24,16 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 94f0fc19c84a5e86dbfff27a88b179f6a9bfb566
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: e4010d474c2f1ab1997b372fa551e168fe618021
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54795486"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651658"
 ---
 # <a name="task-list-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 작업 목록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 옵션 페이지에서는 **작업 목록** 미리 알림을 생성하는 주석 토큰을 추가, 삭제 및 변경할 수 있습니다. 이러한 설정을 표시하려면 **도구** 메뉴에서 **옵션**을 선택하고 **환경** 폴더를 확장한 후 **작업 목록**을 선택합니다.  
   
 ## <a name="task-list-options"></a>작업 목록 옵션  

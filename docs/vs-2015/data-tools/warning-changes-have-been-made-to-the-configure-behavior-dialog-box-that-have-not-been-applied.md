@@ -9,17 +9,16 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b4a0ef367be3fd2bbe79472a04437230c0b51180
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b5846fe9db2d7ea02259f949697f5cb164d1c081
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982701"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651758"
 ---
 # <a name="warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied"></a>경고. 동작 구성 대화 상자에 적용되지 않은 변경 내용이 있습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 경고. 동작 구성 대화 상자에 적용되지 않은 변경 내용이 있습니다. 변경 내용을 적용하시겠습니까?  
   
  합니다 **동작 구성** 대화 상자를 사용 하면 사용할 수 있는 모든 클래스에 대 한 Insert, Update 및 Delete 동작을 구성할 수 있습니다. 이 메시지는 새 **클래스** 및 **동작** 조합을 선택하고 이전 변경 내용이 아직 적용되지 않은 경우 나타납니다.  

@@ -3,24 +3,24 @@ title: Mac용 Visual Studio 업데이트
 description: Mac용 Visual Studio 업데이트 및 미리 보기 릴리스 이용 방법을 안내합니다.
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 04/02/2019
 ms.technology: vs-ide-install
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
-ms.openlocfilehash: 6f60b32b66dc2c33a0ecbcd71f80fd613d273b64
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.openlocfilehash: 8c2c6fa6f947f43ed03fd1ec474c9ecb8b84a9fa
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51294405"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584469"
 ---
 # <a name="update-visual-studio-for-mac"></a>Mac용 Visual Studio 업데이트
 
 Mac용 Visual Studio는 IDE 및 지원되는 프레임워크에 대한 업데이트를 정기적으로 배포합니다. 이러한 업데이트에는 새로운 기능, 향상된 기능 및 버그 수정이 포함될 수 있습니다.
 
-Mac용 Visual Studio는 다음 세 가지 채널을 통해 최신 버전을 제공합니다.
+Mac용 Visual Studio는 다음 두 가지 채널을 통해 최신 버전을 제공합니다.
 
 * **안정** - 철저한 테스트를 거친 업데이트를 제공합니다. 원활한 개발 환경을 위해 안정 채널이 권장됩니다.
-* **베타** / **알파** - 안정 채널로 릴리스될 후보 업데이트를 미리 제공합니다. 이러한 릴리스는 매일 사용할 경우 안정적으로 작동하지 않을 수 있습니다.
+* **미리 보기** - 안정 채널로 릴리스될 후보 업데이트를 미리 제공합니다. 이러한 릴리스는 매일 사용할 경우 안정적으로 작동하지 않을 수 있습니다.
 
 ## <a name="checking-for-updates"></a>업데이트 확인
 
@@ -51,6 +51,10 @@ Mac용 Visual Studio는 다음 세 가지 채널을 통해 최신 버전을 제�
 ![업데이트 설치를 시작하는 단추](media/update-image4.png)
 
 설치해야 하는 구성 요소에 따라 추가 라이선스를 수락하거나 컴퓨터 관리자의 사용자 이름과 암호를 입력해야 할 수 있습니다.
+
+## <a name="troubleshooting"></a>문제 해결
+
+Updater에 문제가 있는 경우 [Updater Troubleshooting](updater-troubleshooting.md)(Updater 문제 해결) 가이드에서 다음 단계를 수행해 보세요.
 
 ## <a name="see-also"></a>참고 항목
 

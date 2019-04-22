@@ -11,40 +11,39 @@ caps.latest.revision: 7
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: 648286cca70641d005e27682fe911a783421e6fa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: fa7b0ed959fba781397b3b85ee59f2e62588596c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54758098"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652698"
 ---
 # <a name="build-an-opengl-es-application-on-android-and-ios"></a>Build an OpenGL ES Application on Android and iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 플랫폼 간 모바일 개발용 Visual C++ 옵션을 설치하는 경우 공통 코드를 공유하는 iOS 앱과 Android 앱에 대한 Visual Studio 솔루션 및 프로젝트를 만들 수 있습니다. 이 항목에서는 간단한 iOS 앱과 Android Native Activity 앱 둘 다를 만드는 솔루션 템플릿을 안내합니다. 앱에는 공통적으로 OpenGL ES를 사용하여 각 플랫폼에서 동일한 애니메이션 회전 큐브를 표시하는 C++ 코드가 있습니다. OpenGL ES(OpenGL for Embedded Systems 또는 GLES)는 다양한 모바일 디바이스에서 지원되는 2D 및 3D 그래픽 API입니다.  
   
  [요구 사항](#req)   
- [새 OpenGLES 애플리케이션 프로젝트 만들기](#Create)   
+ [새 OpenGLES 응용 프로그램 프로젝트 만들기](#Create)   
  [Android 앱 빌드 및 실행](#BuildAndroid)   
  [iOS 앱 빌드 및 실행](#BuildIOS)   
  [앱 사용자 지정](#Customize)  
   
 ##  <a name="req"></a> 요구 사항  
- iOS 및 Android용 OpenGL ES 앱을 개발하려면 먼저 모든 시스템 요구 사항을 충족했는지 확인해야 합니다. Visual Studio 2015의 플랫폼 간 모바일 개발용 Visual C++ 옵션을 설치해야 합니다. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다. 자세한 내용 및 자세한 지침은 [플랫폼 간 모바일 개발용 Visual C++ 설치](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. iOS 앱을 빌드 및 테스트하려면 Mac 컴퓨터가 필요하며 설치 지침에 따라 설치해야 합니다. iOS 개발을 위해 설치하는 방법에 대한 자세한 내용은 [iOS를 사용하여 빌드할 도구 설치 및 구성](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
+ iOS 및 Android용 OpenGL ES 앱을 개발하려면 먼저 모든 시스템 요구 사항을 충족했는지 확인해야 합니다. Visual Studio 2015의 플랫폼 간 모바일 개발용 Visual C++ 옵션을 설치해야 합니다. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다. 자세한 내용 및 자세한 지침은 [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. iOS 앱을 빌드 및 테스트하려면 Mac 컴퓨터가 필요하며 설치 지침에 따라 설치해야 합니다. iOS 개발을 위해 설치하는 방법에 대한 자세한 내용은 [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
   
-##  <a name="Create"></a> 새 OpenGLES 애플리케이션 프로젝트 만들기  
+##  <a name="Create"></a> 새 OpenGLES 응용 프로그램 프로젝트 만들기  
  이 자습서에서는 먼저 새 OpenGL ES 애플리케이션 프로젝트를 만든 후 Android용 Visual Studio 에뮬레이터에서 기본 앱을 빌드 및 실행합니다. 그런 다음 iOS용 앱을 빌드하고 iOS 시뮬레이터에서 앱을 실행합니다.  
   
 #### <a name="to-create-a-new-project"></a>새 프로젝트를 만들려면  
   
 1. Visual Studio를 엽니다. 메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
   
-2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++**, **플랫폼 간**을 차례로 선택한 후 **OpenGLES 애플리케이션(Android, iOS)** 템플릿을 선택합니다.  
+2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++**, **플랫폼 간**을 차례로 선택한 후 **OpenGLES 응용 프로그램(Android, iOS)** 템플릿을 선택합니다.  
   
 3. 앱의 이름을 `MyOpenGLESApp`과 같이 지정하고 **확인**를 참조하세요.  
   
-    ![새 OpenGLES 애플리케이션 프로젝트](../cross-platform/media/cppmdd-opengles-newproj.PNG "CPPMDD_OpenGLES_NewProj")  
+    ![새 OpenGLES 응용 프로그램 프로젝트](../cross-platform/media/cppmdd-opengles-newproj.PNG "CPPMDD_OpenGLES_NewProj")  
   
     새 솔루션이 만들어지고 솔루션 탐색기가 열립니다.  
   
@@ -60,7 +59,7 @@ ms.locfileid: "54758098"
   
   솔루션에는 Android 및 iOS 플랫폼용 앱을 빌드하는 두 프로젝트가 있습니다.  
   
-- **MyOpenGLESApp.Android.Packaging** 은 Android 디바이스 또는 에뮬레이터에 배포하기 위한 .apk 파일을 만듭니다. 이 프로젝트에는 리소스와 매니페스트 속성을 설정하는 AndroidManifest.xml 파일이 포함되어 있습니다. Ant 빌드 프로세스를 제어하는 build.xml 파일도 포함되어 있습니다. 이 프로젝트는 기본적으로 시작 프로젝트로 설정되므로 Visual Studio에서 직접 배포 및 실행할 수 있습니다.  
+- **MyOpenGLESApp.Android.Packaging** 은 Android 장치 또는 에뮬레이터에 배포하기 위한 .apk 파일을 만듭니다. 이 프로젝트에는 리소스와 매니페스트 속성을 설정하는 AndroidManifest.xml 파일이 포함되어 있습니다. Ant 빌드 프로세스를 제어하는 build.xml 파일도 포함되어 있습니다. 이 프로젝트는 기본적으로 시작 프로젝트로 설정되므로 Visual Studio에서 직접 배포 및 실행할 수 있습니다.  
   
 - **MyOpenGLESApp.iOS.Application** 에는 MyOpenGLESApp.iOS.StaticLibrary의 C++ 정적 라이브러리 코드에 연결되는 iOS 앱을 개발하기 위한 리소스와 Objective-C 글루 코드가 포함됩니다. 이 프로젝트는 Visual Studio 및 원격 에이전트에서 Mac으로 전송되는 빌드 패키지를 만듭니다. 이 프로젝트를 빌드하면 Visual Studio가 Mac에서 앱을 빌드하고 배포하기 위한 파일과 명령을 보냅니다.  
   
@@ -106,7 +105,7 @@ ms.locfileid: "54758098"
    Visual Studio는 Clang을 플랫폼 도구 집합으로 사용하는 Android NDK를 사용하여 Android Native Activity 프로젝트를 빌드합니다. Visual Studio는 NativeActivity 프로젝트의 속성을 대상 플랫폼에서 컴파일, 연결 및 디버그하는 데 사용되는 명령줄 스위치 및 옵션에 매핑합니다. 자세한 내용을 보려면 MyOpenGLESApp.Android.NativeActivity 프로젝트에 대한 **속성 페이지** 대화 상자를 엽니다. 명령줄 스위치에 대한 자세한 내용은 [Clang 컴파일러 사용자 설명서](http://clang.llvm.org/docs/UsersManual.html)를 참조하세요.  
   
 ##  <a name="BuildIOS"></a> iOS 앱 빌드 및 실행  
- iOS 앱 프로젝트는 Visual Studio에서 개발되고 편집되지만 라이선싱 제한 사항 때문에 Mac에서 빌드하고 배포해야 합니다. Visual Studio는 Mac에서 실행되는 원격 에이전트와 통신하여 프로젝트 파일을 전송하고 빌드, 배포 및 디버깅 명령을 실행합니다. iOS 앱을 빌드하려면 먼저 Mac 및 Visual Studio를 통신하도록 설정 및 구성해야 합니다. 자세한 내용은 [iOS를 사용하여 빌드할 도구 설치 및 구성](../cross-platform/install-and-configure-tools-to-build-using-ios.md)을 참조하세요. 원격 에이전트가 실행되고 Visual Studio가 Mac과 쌍으로 연결되면 iOS 앱을 빌드 및 실행하여 설치 및 설정을 확인할 수 있습니다.  
+ iOS 앱 프로젝트는 Visual Studio에서 개발되고 편집되지만 라이선싱 제한 사항 때문에 Mac에서 빌드하고 배포해야 합니다. Visual Studio는 Mac에서 실행되는 원격 에이전트와 통신하여 프로젝트 파일을 전송하고 빌드, 배포 및 디버깅 명령을 실행합니다. iOS 앱을 빌드하려면 먼저 Mac 및 Visual Studio를 통신하도록 설정 및 구성해야 합니다. 자세한 내용은 [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)을 참조하세요. 원격 에이전트가 실행되고 Visual Studio가 Mac과 쌍으로 연결되면 iOS 앱을 빌드 및 실행하여 설치 및 설정을 확인할 수 있습니다.  
   
 #### <a name="to-build-and-run-the-ios-app"></a>iOS 앱을 빌드하고 실행하려면  
   
@@ -122,7 +121,7 @@ ms.locfileid: "54758098"
   
 3. 솔루션 탐색기에서 MyOpenGLESApp.iOS.Application 프로젝트의 바로 가기 메뉴를 열고 **빌드**를 선택합니다.  
   
-    ![iOS 애플리케이션 프로젝트 빌드](../cross-platform/media/cppmdd-opengles-iosbuild.png "CPPMDD_OpenGLES_iOSBuild")  
+    ![iOS 응용 프로그램 프로젝트 빌드](../cross-platform/media/cppmdd-opengles-iosbuild.png "CPPMDD_OpenGLES_iOSBuild")  
   
     출력 창에 솔루션의 iOS 정적 라이브러리 및 iOS 앱에 대한 빌드 프로세스 출력이 표시됩니다. Mac에서 원격 에이전트를 실행하는 터미널 창에 명령 및 파일 전송 작업이 표시됩니다.  
   

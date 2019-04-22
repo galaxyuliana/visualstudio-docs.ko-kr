@@ -22,17 +22,16 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 741200100e705777520ea585ce02439a3a3c26c7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a13d0c8ff1383e27f9401f6549c422a8fef96e99
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984276"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650046"
 ---
 # <a name="how-to-connect-to-data-in-a-service"></a>방법: 서비스의 데이터에 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 응용 프로그램을 실행 하 여 서비스에서 반환 되는 데이터 연결 합니다 [데이터 소스 구성 마법사](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 를 선택 하 고 **서비스** 에 **데이터소스형식선택**페이지.  
   
  마법사를 완료 하면 서비스 참조를 프로젝트에 추가 되 고에서 즉시 사용할 수는 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다.  

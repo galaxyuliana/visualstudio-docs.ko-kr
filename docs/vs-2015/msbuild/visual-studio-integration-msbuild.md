@@ -19,17 +19,16 @@ caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fedbee06d37ff62b4ccefc812f0c77064ba67025
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
-ms.translationtype: MTE95
+ms.openlocfilehash: 2446320f1cbf0551fdfb1532df4fea23631b1131
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194511"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649266"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 호스팅하여 관리되는 프로젝트를 로드하고 빌드합니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 프로젝트를 관리하므로 프로젝트가 다른 도구에서 작성되어 사용자 지정된 빌드 프로세스를 가지더라도 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 형식의 프로젝트는 대부분 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 사용될 수 있습니다.  
   
  이 항목에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 호스팅 중 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 로드하고 빌드할 프로젝트와 .targets 파일을 사용자 지정할 때 고려해야 하는 부분을 설명합니다. 이를 통해 IntelliSense 및 디버깅 작업과 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 기능이 사용자 지정 프로젝트에서 작동하는지 확인할 수 있습니다.  

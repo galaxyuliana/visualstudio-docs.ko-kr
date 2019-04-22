@@ -14,10 +14,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6bfbcf9a63a01d391cbbc65067793d75d42899c1
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790331"
 ---
 # <a name="debugging-techniques-and-tools-to-help-you-write-better-code"></a>디버깅 기술 및 더 나은 코드를 작성할 수 있도록 도구
@@ -34,7 +34,7 @@ ms.locfileid: "58790331"
 
 * 디버거를 사용 하는 경우
 
-이러한 작업을 보여 주기 위해 오류 및 앱을 디버깅 하려고 할 때 발생 하는 버그의 가장 일반적인 종류 중 일부를 살펴보겠습니다. 샘플 코드는 있지만 C#개념 정보는 일반적으로 c + +, Visual Basic의 경우 JavaScript에 적용 되 고 (언급 한 위치 제외) Visual Studio에서 다른 언어를 지원 합니다. 스크린샷은 C#에 있습니다.
+이러한 작업을 보여 주기 위해 오류 및 앱을 디버깅 하려고 할 때 발생 하는 버그의 가장 일반적인 종류 중 일부를 살펴보겠습니다. 샘플 코드는 있지만 C#, 개념 정보는 일반적으로 적용할 C++, Visual Basic, JavaScript 및 Visual Studio (언급 한 위치 제외) 지 원하는 다른 언어입니다. 스크린샷은 C#에 있습니다.
 
 ## <a name="create-a-sample-app-with-some-bugs-and-errors-in-it"></a>일부 버그와 오류에 샘플 앱 만들기
 

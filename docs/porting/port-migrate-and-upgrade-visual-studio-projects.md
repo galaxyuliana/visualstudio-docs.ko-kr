@@ -1,7 +1,7 @@
 ---
 title: 프로젝트 포팅, 마이그레이션 및 업그레이드
 description: 이전 버전의 Visual Studio에서 만든 프로젝트에 대한 Visual Studio 2017의 지원에 대한 참조 및 Visual Studio에서 프로젝트 마이그레이션이 필요한 경우를 결정하는 방법입니다.
-ms.date: 10/09/2018
+ms.date: 04/16/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -19,12 +19,12 @@ helpviewer_keywords:
 - conversion, projects
 - asset compatibility
 - projects, conversion
-ms.openlocfilehash: 42554a9479168f2afc7a30a122fccc383b3dc745
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.openlocfilehash: e2c51174f14cbfd550bde32192f9db52b1744365
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366694"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584586"
 ---
 # <a name="project-migration-and-upgrade-reference-for-visual-studio"></a>프로젝트 마이그레이션 및 Visual Studio에 대한 업그레이드 참조 
 
@@ -65,7 +65,7 @@ ms.locfileid: "59366694"
 | SharePoint 2016 | Office 개발자 도구 미리 보기 2에서 만든 SharePoint 추가 기능 프로젝트를 Visual Studio 2017에서 열 수 없습니다. 이 제한을 해결하려면 csproj 또는 vbproj 파일에 있는 `MinimumVisualStudioVersion`을 12.0으로, `MinimumOfficeToolsVersion`을 12.2로 업데이트합니다. |
 | Silverlight | Silverlight 프로젝트는 Visual Studio 2017에서 지원되지 않습니다. Silverlight 애플리케이션을 유지하려면 Visual Studio 2015를 계속 사용합니다. |
 | SQL Server Reporting Services 및 SQL Server Analysis Services(SSRS, SSDT, SSAS, MSAS) | 이러한 프로젝트 형식에 대한 지원은 Visual Studio 갤러리의 두 가지 확장 기능을 통해 제공됩니다.  [Microsoft Analysis Services 모델링 프로젝트](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) 및 [Microsoft Reporting Services 프로젝트](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio). SSDT는 Visual Studio 2017에서 데이터 스토리지 및 처리 워크로드를 지원합니다. 자세한 내용은 [Visual Studio용 SSDT(SQL Server Data Tools) 다운로드 및 설치](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 페이지를 참조하세요.|
-| SSIS(SQL Server Integration Services) | Visual Studio 2017에 대한 지원은 SSDT(SQL Server Data Tools)를 통해 제공됩니다. 자세한 내용은 [Visual Studio용 SSDT(SQL Server Data Tools) 다운로드 및 설치](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 페이지 및 [SQL Server Data Tools 팀 블로그](https://devblogs.microsoft.com/ssdt/)를 참조하세요. |
+| SSIS(SQL Server Integration Services) | Visual Studio 2017에 대한 지원은 SSDT(SQL Server Data Tools)를 통해 제공됩니다. 자세한 내용은 [Visual Studio용 SSDT(SQL Server Data Tools) 다운로드 및 설치](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 페이지 및 [SSIS(SQL Server Integration Services)](https://techcommunity.microsoft.com/t5/SQL-Server-Integration-Services/bg-p/SSIS) 팀 블로그를 참조하세요. |
 | Visual C++ | Visual Studio 2017을 사용하여 Visual Studio 2010까지 이전 버전의 Visual Studio에서 만든 프로젝트에서 작업할 수 있습니다. 프로젝트를 처음 열면 최신 컴파일러 및 도구 집합으로 업그레이드하거나 원래 항목을 계속 사용하는 옵션이 있습니다. 원래 항목을 계속 사용하도록 선택하면 Visual Studio 2017에서는 프로젝트 파일을 수정하지 않으며 이전 Visual Studio 설치의 도구 집합을 사용하여 프로젝트를 빌드합니다. 원래 옵션을 유지하는 것은 필요한 경우 원래 버전의 Visual Studio에서 프로젝트를 열 수 있음을 의미합니다. 자세한 내용은 [Visual Studio의 네이티브 멀티 타기팅을 사용하여 이전 프로젝트 빌드](/cpp/porting/use-native-multi-targeting)를 참조하세요. |
 | Visual Studio 확장성/VSIX | MinimumVersion 14.0 이하의 프로젝트는 업데이트를 통해 MinimumVersion 15.0으로 선언됩니다. 그러면 이전 버전의 Visual Studio에서 프로젝트를 열 수 없습니다. 이전 버전에서 프로젝트를 열 수 있도록 허용하려면 MinimumVersion을 `$(VisualStudioVersion)`(으)로 설정합니다. 참고 항목 [방법: Visual Studio 2017로 확장성 프로젝트 마이그레이션](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md). |
 | Visual Studio Lab Management | Microsoft Test Manager 또는 Visual Studio 2010 SP1 이상을 사용하여 이러한 버전에서 만든 환경을 열 수 있습니다. 그러나 Visual Studio 2010 SP1의 경우 환경을 만들기 전에 Microsoft Test Manager 버전이 Team Foundation Server 버전과 일치해야 합니다. |
@@ -139,7 +139,7 @@ ms.locfileid: "59366694"
 | LightSwitch | LightSwitch는 Visual Studio 2019 또는 Visual Studio 2017에서 더 이상 지원되지 않습니다. Visual Studio 2012 이전 버전에서 만들고 Visual Studio 2013 또는 Visual Studio 2015에서 연 프로젝트는 업그레이드되며 이후에는 Visual Studio 2013 또는 Visual Studio 2015에서만 열 수 있습니다. |
 | 부하 테스트 | Visual Studio 2019에서는 웹 성능 및 부하 테스트 기능이 더 이상 사용되지 않습니다. <br/><br/>Visual Studio 2019는 부하 테스트에 대한 마지막 릴리스가 될 것입니다. Apache JMeter, Akamai CloudTest, Blazemeter와 같은 대체 부하 테스트 도구를 사용합니다.  |
 | Visual Studio용 Microsoft Azure 도구 | 이러한 형식의 프로젝트를 열려면 먼저 [Azure SDK for.NET](http://azure.microsoft.com/downloads/)을 설치한 다음 프로젝트를 엽니다. 필요한 경우 프로젝트가 업데이트됩니다. |
-| Microsoft Test Manager | Microsoft Test Manager 및 Feedback Client는 Visual Studio 2019를 시작하는 Visual Studio에서 더 이상 제공되지 않습니다. <br/><br/>수동 및 예비 테스트 요구 사항에 대해 Azure 테스트 계획(Azure DevOps의 일부)을 활용합니다. 여기서 자세히 알아보세요. |
+| Microsoft Test Manager | Microsoft Test Manager 및 Feedback Client는 Visual Studio 2019부터 더 이상 Visual Studio에서 제공되지 않습니다. <br/><br/>수동 및 예비 테스트 요구 사항에 대해 Azure 테스트 계획(Azure DevOps의 일부)을 활용합니다. 자세한 내용은 Azure DevOps 설명서의 [Guidance on Microsoft Test Manager usage](/azure/devops/test/mtm/guidance-mtm-usage?view=azure-devops)(Microsoft Test Manager 사용 참고 자료) 페이지를 참조하세요. |
 | 모델-뷰-컨트롤러 프레임워크(ASP.NET MVC) | MVC 버전 및 Visual Studio 지원:<ul><li>Visual Studio 2010 SP1은 MVC 2 및 MVC 3을 지원합니다. MVC 4 지원은 [Visual Studio 2010 SP1용 ASP.NET 4 MVC 4 다운로드](https://www.microsoft.com/download/details.aspx?id=30683)를 통해 추가됩니다.</li><li>Visual Studio 2012에서는 MVC 3 및 MVC 4만 지원합니다.</li><li>Visual Studio 2013에서는 MVC 4 및 MVC 5만 지원합니다.</li><li>Visual Studio 2019, Visual Studio 2017 및 Visual Studio 2015는 MVC 4(기존 프로젝트는 열 수 있지만 새 프로젝트는 만들 수 없음) 및 MVC 5를 지원합니다.</li></ul><br/>MVC 버전 업그레이드:<ul><li>MVC 2에서 MVC 3로 자동 업그레이드하는 방법에 대한 자세한 내용은 [ASP.NET MVC 3 애플리케이션 업그레이더](http://go.microsoft.com/fwlink/?LinkID=238178)를 참조하세요.</li><li>MVC 2에서 MVC 3로 수동 업그레이드하는 방법에 대한 자세한 내용은 [ASP.NET MVC 3 도구 업데이트로 ASP.NET MVC 2 프로젝트 업그레이드](http://go.microsoft.com/fwlink/?linkid=238178)를 참조하세요.</li><li>MVC 3에서 MVC 4로 수동 업그레이드하는 방법에 대한 자세한 내용은 [ASP.NET MVC 3 프로젝트를 ASP.NET MVC 4로 업그레이드](http://www.asp.net/whitepapers/mvc4-release-notes)를 참조하세요. 프로젝트 대상이 .NET Framework 3.5 SP1일 경우 대상을 변경하여 .NET Framework 4를 사용해야 합니다.</li><li>MVC 4에서 MVC 5로 수동 업그레이드하는 방법에 대한 자세한 내용은 [ASP.NET MVC 4 및 Web API 프로젝트를 ASP.NET MVC 5 및 Web API 2로 업그레이드하는 방법](https://www.asp.net/mvc/overview/releases/how-to-upgrade-an-aspnet-mvc-4-and-web-api-project-to-aspnet-mvc-5-and-web-api-2)을 참조하세요.</li></ul> |
 | 모델링 | Visual Studio에서 프로젝트를 자동으로 업데이트하도록 허용하면 Visual Studio 2015, Visual Studio 2013 또는 Visual Studio 2012에서 프로젝트를 열 수 있습니다.<br/><br/>Visual Studio 2015 이후 모델링 프로젝트의 형식은 변경되지 않았으며, 이러한 버전에서 프로젝트를 열고 수정할 수 있습니다. 하지만 Visual Studio 2017 및 Visual Studio 2019의 동작에 차이가 있습니다.<ul><li>모델링 프로젝트를 메뉴 및 템플릿에서 “종속성 유효성 검사” 프로젝트라고 합니다.</li><li>UML 다이어그램은 Visual Studio 2017 및 Visual Studio 2019에서 더 이상 지원되지 않습니다. UML 파일은 솔루션 탐색기에 이전처럼 나열되지만 XML 파일로 열립니다. UML 다이어그램을 보거나, 만들거나, 편집하려면 Visual Studio 2015를 사용하세요.</li><li>Visual Studio 2019에서는 모델링 프로젝트를 빌드할 때 더 이상 아키텍처 종속성 유효성 검사가 수행되지 않습니다. 대신 각 코드 프로젝트를 빌드할 때 유효성 검사가 수행됩니다. 이 변경은 모델링 프로젝트에 영향을 주지 않지만 유효성을 검사할 코드 프로젝트를 변경해야 합니다. Visual Studio 2019에서는 필요한 경우 코드 프로젝트를 자동으로 변경할 수 있습니다.</li></ul> |
 | MSI 설정(vdproj) | InstallShield 프로젝트를 참조하세요. |
@@ -154,7 +154,7 @@ ms.locfileid: "59366694"
 | Silverlight | Silverlight 프로젝트는 Visual Studio 2019에서 지원되지 않습니다. Silverlight 애플리케이션을 유지하려면 Visual Studio 2015를 계속 사용합니다. |
 | SQL - Redgate | Redgate의 SQL 변경 Automation Core(이전에는 ReadyRoll Core라고 함), SQL Prompt Core 및 SQL Search는 Visual Studio 설치 관리자에서 더 이상 제공되지 않습니다.<br/><br/>이러한 기능에 대해서는 Visual Studio 2017을 계속 사용할 수 있습니다. Visual Studio 2019에서 Redgate의 SQL Toolbelt에 사용할 수 있는 유료 SQL Change Automation 및 SQL Prompt 제품으로 업그레이드할 수 있습니다.|
 | SQL Server Reporting Services 및 SQL Server Analysis Services(SSRS, SSDT, SSAS, MSAS) | 이러한 프로젝트 형식에 대한 지원은 Visual Studio 갤러리의 두 가지 확장 기능을 통해 제공됩니다.  [Microsoft Analysis Services 모델링 프로젝트](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) 및 [Microsoft Reporting Services 프로젝트](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio). SSDT는 Visual Studio 2019에서 데이터 스토리지 및 처리 워크로드를 지원합니다. 자세한 내용은 [Visual Studio용 SSDT(SQL Server Data Tools) 다운로드 및 설치](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 페이지를 참조하세요. |
-| SSIS(SQL Server Integration Services) | Visual Studio 2019에 대한 지원이 곧 제공될 예정입니다. 자세한 내용은 [Visual Studio용 SSDT(SQL Server Data Tools) 다운로드 및 설치](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 페이지 및 [SQL Server Data Tools 팀 블로그](https://devblogs.microsoft.com/ssdt/)를 참조하세요. |
+| SSIS(SQL Server Integration Services) | Visual Studio 2019 지원을 사용할 수 있습니다. 자세한 내용은 [Visual Studio용 SSDT(SQL Server Data Tools) 다운로드 및 설치](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 페이지와 [SSIS(SQL Server Integration Services)](https://techcommunity.microsoft.com/t5/SQL-Server-Integration-Services/bg-p/SSIS) 팀 블로그 및 Marketplace의 [SQL Server Integration Services 프로젝트](https://marketplace.visualstudio.com/items?itemName=SSIS.SqlServerIntegrationServicesProjects&ssr=false#overview) 페이지를 참조하세요. |
 | 테스트 창 확장 | Visual Studio 2019에서는 이전에 공용으로 표시되었지만 공식적으로 문서화되지 않은 테스트 창 API의 일부가 제거되었습니다. 확장 유지 관리자에게 조기 경고하기 위해 광범위하게 표시되는 API가 Visual Studio 2017에서 더 이상 사용되지 않는 것으로 표시되었습니다. 아는 바로는, 이러한 API에 대한 종속성을 사용하는 확장은 거의 없습니다. 자세한 정보 및 업데이트는 [사용되지 않는 테스트 관련 API의 전체 목록](https://github.com/Microsoft/vstest/issues/1830)을 보세요. 시나리오에 영향을 주는 경우 [개발자 커뮤니티](https://developercommunity.visualstudio.com)에 알려주세요. |
 | Visual C++ | Visual Studio 2019를 사용하여 Visual Studio 2010까지 이전 버전의 Visual Studio에서 만든 프로젝트에서 작업할 수 있습니다. 프로젝트를 처음 열면 최신 컴파일러 및 도구 집합으로 업그레이드하거나 원래 항목을 계속 사용하는 옵션이 있습니다. 원래 항목을 계속 사용하도록 선택하면 Visual Studio 2019에서는 프로젝트 파일을 수정하지 않으며 이전 Visual Studio 설치의 도구 집합을 사용하여 프로젝트를 빌드합니다. 원래 옵션을 유지하는 것은 필요한 경우 원래 버전의 Visual Studio에서 프로젝트를 열 수 있음을 의미합니다. 자세한 내용은 [Visual Studio의 네이티브 멀티 타기팅을 사용하여 이전 프로젝트 빌드](/cpp/porting/use-native-multi-targeting)를 참조하세요. |
 | Visual Studio 확장성/VSIX | MinimumVersion 14.0 이하의 프로젝트는 업데이트를 통해 MinimumVersion 15.0으로 선언됩니다. 그러면 이전 버전의 Visual Studio에서 프로젝트를 열 수 없습니다. 이전 버전에서 프로젝트를 열 수 있도록 허용하려면 MinimumVersion을 `$(VisualStudioVersion)`(으)로 설정합니다. 참고 항목 [방법: Visual Studio 2017로 확장성 프로젝트 마이그레이션](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md). |

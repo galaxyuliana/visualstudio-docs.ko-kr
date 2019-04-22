@@ -12,17 +12,16 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1294de78e93709bc60cd94be97613f032725bf5c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 9c4876aedd12b2284982304b16049691ce6c9b0d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54758203"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652893"
 ---
 # <a name="projects-and-solutions-options-dialog-box"></a>프로젝트 및 솔루션, 옵션 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 프로젝트를 개발 및 빌드할 때 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 프로젝트 폴더의 기본 경로를 설정하고 **출력** 창, **작업 목록** 및 **솔루션 탐색기**의 기본 동작을 결정합니다. 이 대화 상자에 액세스하려면 **도구/옵션**을 클릭하고 **프로젝트 및 솔루션**을 확장한 후 **일반**을 클릭합니다.  
   
 > [!NOTE]
@@ -59,7 +58,7 @@ ms.locfileid: "54758203"
  완전히 신뢰할 수 없는 위치(예: UNC 경로 또는 HTTP 경로)에서 새 프로젝트를 만들거나 기존 프로젝트를 열려고 하면 메시지가 표시됩니다. 완전히 신뢰할 수 없는 위치에서 프로젝트를 만들거나 열려고 할 때마다 메시지를 표시할지 여부를 지정하려면 이 옵션을 사용합니다.  
   
  **빌드를 시작할 때 출력 창 표시**  
- 솔루션 빌드 시작 시에 IDE에 출력 창이 자동으로 표시됩니다. 자세한 내용은 [방법: 출력 창 제어](http://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858)를 참조하세요. 기본적으로 이 옵션은 사용하도록 설정됩니다.  
+ 솔루션 빌드 시작 시에 IDE에 출력 창이 자동으로 표시됩니다. 자세한 내용은 [방법: 출력 창 제어](http://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858)입니다. 기본적으로 이 옵션은 사용하도록 설정됩니다.  
   
  **파일 이름을 바꿀 때 기호화된 이름 바꾸기 확인**  
  이 옵션을 선택하면 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서 프로젝트에서 코드 요소에 대한 모든 참조 이름을 바꿀지 묻는 메시지 상자가 표시됩니다.  

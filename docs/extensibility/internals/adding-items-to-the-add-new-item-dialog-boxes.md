@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e392947f86a1adab92289934632dd393f4ff24ed
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f6c0d6928236c151e182c90056641432e4706952
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620995"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651301"
 ---
 # <a name="add-items-to-the-add-new-item-dialog-box"></a>새 항목 추가 대화 상자에 항목 추가
 항목을 추가 하기 위한 프로세스를 **새 항목 추가** 레지스트리 키를 사용 하 여 대화 상자를 시작 합니다. 다음 레지스트리 항목에 표시 된 대로 합니다 **AddItemTemplates** 섹션에서 사용할 수 있는 어떤 항목에 있는 디렉터리의 이름과 경로 포함 합니다 **새 항목 추가** 대화 상자에 배치 됩니다.
@@ -34,7 +34,6 @@ ms.locfileid: "56620995"
  **TemplatesDir** = \\&lt;Visual Studio SDK 설치 경로가&gt;\\VSIntegration\\&lt;SomeFolder&gt; \\ &lt;SomePackage&gt;\\&lt;SomeProject&gt;\\&lt;SomeProjectItems&gt;
 
  **SortPriority** = dword:00000064
-
 
 | 이름 | 형식 | 데이터 (에서 *.rgs* 파일) | 설명 |
 |------------------|-----------| - | - |

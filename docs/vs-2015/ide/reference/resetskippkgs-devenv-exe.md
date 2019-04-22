@@ -13,17 +13,16 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 59bde318995ed8b66637a2220ae1817db2a1e800
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 44e2cb42bf6bf8c1a61512713e9fc87cbe8f0901
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54834680"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648512"
 ---
 # <a name="resetskippkgs-devenvexe"></a>/ResetSkipPkgs(devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 모든 옵션의 선택을 취소하여 VSPackages 로딩 문제를 방지하기 위해 사용자가 VSPackages에 추가된 로딩을 건너뛴 다음 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -35,7 +34,7 @@ Devenv /ResetSkipPkgs
 ## <a name="remarks"></a>주의  
  SkipLoading 태그가 존재하면 VSPackage를 로드할 수 없습니다. 해당 태그를 지우면 VSPackage를 다시 로드할 수 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 모든 SkipLoading 태그를 지웁니다.  
   
 ```  

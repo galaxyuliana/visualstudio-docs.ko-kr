@@ -12,16 +12,16 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: a1c9de1c65c5f3f780e6ea4374fa7d96f436f514
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.openlocfilehash: 451d7a735116d7b181263eebe76751fd49900ce3
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227763"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584417"
 ---
 # <a name="create-a-vuejs-application-using-nodejs-tools-for-visual-studio"></a>Visual Studio용 Node.js 도구를 사용하여 Vue.js 애플리케이션 만들기
 
-Visual Studio 2017에는 Vue.js, JavaScript 및 TypeScript를 사용하여 애플리케이션을 만들 때 개발 환경을 개선하는 [Vue.js](https://vuejs.org/) 프레임워크를 위한 향상된 지원이 포함되어 있습니다.
+Visual Studio는 JavaScript 또는 TypeScript로 [Vue.js](https://vuejs.org/) 프레임워크를 사용한 앱 개발을 지원합니다.
 
 Visual Studio에서 Vue.js 애플리케이션을 개발할 때 다음과 같은 새로운 기능이 지원됩니다.
 
@@ -38,7 +38,7 @@ Visual Studio에서 Vue.js 애플리케이션을 개발할 때 다음과 같은 
 
     아직 Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)  페이지로 이동하여 체험용으로 설치합니다.
 
-    워크로드를 설치해야 하지만 이미 Visual Studio가 있는 경우 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Open Visual Studio 설치 관리자** 링크를 클릭합니다(**파일** > **새로 만들기** > **프로젝트**를 선택합니다). Visual Studio 설치 관리자가 시작됩니다. **Node.js 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
+    워크로드는 설치해야 하지만 Visual Studio는 이미 있는 경우 **도구** > **도구 및 기능 가져오기...** 로 이동하면 Visual Studio 설치 관리자가 열립니다. **Node.js 개발** 워크로드를 선택한 다음 **수정**을 선택합니다.
 
 * ASP.NET Core 프로젝트를 만들려면 ASP.NET 및 웹 개발 및 .NET Core 플랫폼 간 개발 워크로드를 설치해야 합니다.
 
@@ -63,9 +63,14 @@ Vue.js는 빠르게 프로젝트를 스캐폴딩하기 위한 공식 CLI를 제�
 
 #### <a name="create-an-empty-project"></a>빈 프로젝트 만들기
 
-1. Visual Studio를 열고 주 메뉴에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
-1. **Visual C#** > **웹**에서 **ASP.NET Core 웹 애플리케이션**을 선택한 다음, **확인**을 클릭합니다.
+    ::: moniker range=">=vs-2019"
+    **Esc** 키를 눌러 시작 창을 닫습니다. **Ctrl+Q**를 입력하여 검색 상자를 열고 **asp.net**을 입력한 후 **새 ASP.NET Core 웹 애플리케이션 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C#** 을 확장한 후 **웹**을 선택합니다. 가운데 창에서 **ASP.NET Core 웹 애플리케이션**을 선택한 후 **확인**을 선택합니다.
+    ::: moniker-end
 
     **ASP.NET Core 웹 애플리케이션** 프로젝트 템플릿이 표시되지 않는 경우 먼저 **ASP.NET 및 웹 개발** 워크로드 및 .**NET Core** 개발 워크로드를 설치해야 합니다. 워크로드를 설치하려면 **새 프로젝트**(**파일** > **새로 만들기** > **프로젝트**를 선택) 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기** 링크를 클릭합니다. Visual Studio 설치 관리자가 시작됩니다. 필요한 워크로드를 선택합니다.
 
@@ -91,6 +96,9 @@ vue cli npm 모듈을 설치하려면 명령 프롬프트를 열고 버전 3.0�
 1. 명령 프롬프트로 이동한 후 현재 디렉터리를 프로젝트 루트 폴더로 변경합니다.
 
 1. `vue init webpack ClientApp`을 입력하고 추가 질문에 대답하라는 메시지가 나타나면 단계를 수행합니다.
+
+    > [!NOTE]
+    > ‘.vue’ 파일의 경우 변환을 수행하려면 WebPack 또는 유사한 프레임워크를 로더와 함께 사용해야 합니다. TypeScript 및 Visual Studio는 *.vue* 파일을 컴파일하는 방법을 모릅니다. 묶음의 경우도 마찬가지로, TypeScript는 ES2015 모듈(즉, `import` 문과 `export` 문)을 브라우저에서 로드할 단일 최종 *.js* 파일로 변환하는 방법을 모릅니다. 이 경우도 WebPack이 가장 적합한 옵션입니다. 이 프로세스를 Visual Studio 내에서 MSBuild를 사용해 구동하려면 Visual Studio 템플릿에서 시작해야 합니다. 현재 Vue.js 개발을 위해 기본 제공되는 ASP.NET 템플릿이 없습니다.
 
 #### <a name="modify-the-webpack-configuration-to-output-the-built-files-to-wwwroot"></a>webpack 구성을 수정하여 wwwroot로 빌드된 파일 출력
 

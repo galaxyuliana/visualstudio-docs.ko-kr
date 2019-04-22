@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 103503b5f35d335867b4f5a9b0b76d7c3e6ed20e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a0ecdd051ecc44cb3205ca8793653bf31a63abd2
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610608"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584560"
 ---
 # <a name="common-msbuild-project-properties"></a>일반적인 MSBuild 프로젝트 속성
 다음 표에서는 Visual Studio 프로젝트 파일에 정의되거나 MSBuild가 제공하는 *.targets* 파일에 포함된 자주 사용하는 속성을 보여 줍니다.
@@ -54,7 +54,7 @@ ms.locfileid: "56610608"
 | CscToolPath | [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 컴파일러인 *csc.exe*의 경로입니다. |
 | CustomBeforeMicrosoftCommonTargets | 공통 대상을 가져오기 전에 자동으로 가져올 프로젝트 파일 또는 대상 파일의 이름입니다. |
 | DebugSymbols | 빌드 시 기호의 생성 여부를 나타내는 부울 값입니다.<br /><br /> 명령줄에서 **-p:DebugSymbols=false**를 설정하면 프로그램 데이터베이스(*.pdb*) 기호 파일이 생성되지 않습니다. |
-| DebugType | 생성할 디버그 정보의 수준을 정의합니다. 유효한 값은 "full", "pdbonly" 및 "none"입니다. |
+| DebugType | 생성할 디버그 정보의 수준을 정의합니다. 유효한 값은 “full”, “pdbonly”, “portable”, “embedded” 및 “none”입니다. |
 | DefineConstants | 조건부 컴파일러 상수를 정의합니다. 기호/값 쌍은 세미콜론으로 구분되고 다음 구문을 사용하여 지정됩니다.<br /><br /> *symbol1 = value1 ; symbol2 = value2*<br /><br /> 이 속성은 `/define` 컴파일러 스위치와 동일합니다. |
 | DefineDebug | DEBUG 상수를 정의할지 여부를 나타내는 부울 값입니다. |
 | DefineTrace | TRACE 상수를 정의할지 여부를 나타내는 부울 값입니다. |

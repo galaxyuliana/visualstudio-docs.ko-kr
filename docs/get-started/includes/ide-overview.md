@@ -6,12 +6,12 @@ ms.author: gewarren
 author: gewarren
 manager: jillfra
 ms.topic: include
-ms.openlocfilehash: 63e39c3879d51a34bc61f703eaae1e75dc2fd742
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: cd4fefc8a3f63cf3c4bf4c2ca61a09ce9e40170a
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58342716"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58807744"
 ---
 Visual Studio *통합 개발 환경*은 코드를 편집, 디버그 및 빌드한 다음, 앱을 게시하는 데 사용할 수 있는 창의적인 실행 패드입니다. IDE(통합 개발 환경)는 소프트웨어 개발의 다양한 측면에서 사용할 수 있는 다양한 기능을 갖춘 프로그램입니다. Visual Studio는 대부분의 IDE가 제공하는 표준 편집기 및 디버거로서 뿐만 아니라, 컴파일러와 코드 완성 도구, 그래픽 디자이너를 비롯해 소프트웨어 개발 프로세스를 쉽게 만들어 주는 많은 기능을 포함하고 있습니다.
 
@@ -91,22 +91,24 @@ Visual Studio는 Windows 및 Mac에서 사용할 수 있습니다. [Mac용 Visua
 
    ![Visual Studio 멤버 목록](../media/intellisense-list-members.png)
 
-- [빠른 실행](../../ide/reference/quick-launch-environment-options-dialog-box.md)
+- 검색 상자
 
-   Visual Studio는 메뉴, 옵션 및 속성이 매우 다양하여 때때로 버거울 수도 있습니다. **빠른 실행** 검색 상자는 Visual Studio에서 필요한 항목을 빠르게 찾을 수 있는 좋은 방법입니다. 찾으려는 이름을 입력하기만 하면 Visual Studio는 원하는 곳으로 정확하게 안내하는 결과를 나열합니다. 예를 들어 다른 프로그래밍 언어를 위한 지원을 추가하도록 Visual Studio에 기능을 추가하는 경우 **빠른 실행**을 사용하면 워크로드 또는 개별 구성 요소를 설치하도록 Visual Studio 설치 관리자가 열립니다.
+   Visual Studio는 메뉴, 옵션 및 속성이 매우 다양하여 때때로 버거울 수도 있습니다. 검색 상자는 Visual Studio에서 필요한 항목을 빠르게 찾을 수 있는 좋은 방법입니다. 찾으려는 이름을 입력하기만 하면 Visual Studio는 원하는 곳으로 정확하게 안내하는 결과를 나열합니다. 예를 들어 다른 프로그래밍 언어를 위한 지원을 추가하도록 Visual Studio에 기능을 추가하는 경우 검색 상자를 사용하면 워크로드 또는 개별 구성 요소를 설치하도록 Visual Studio 설치 관리자가 열립니다.
 
    > [!TIP]
-   > **빠른 실행** 검색 상자에 대한 바로 가기는 **Ctrl**+**Q**를 누릅니다.
+   > 검색 상자에 대한 바로 가기는 **Ctrl**+**Q**를 누릅니다.
 
    ::: moniker range="vs-2017"
 
    ![Visual Studio 2017의 빠른 실행 검색 상자](../media/quick-launch-nuget.png)
 
+   자세한 내용은 [빠른 실행](../../ide/reference/quick-launch-environment-options-dialog-box.md)을 참조하세요.
+
    ::: moniker-end
 
    ::: moniker range="vs-2019"
 
-   ![Visual Studio 2019의 빠른 실행 검색 상자](../media/vs-2019/quick-launch-nuget.png)
+   ![Visual Studio 2019의 검색 상자](../media/vs-2019/quick-launch-nuget.png)
 
    ::: moniker-end
 

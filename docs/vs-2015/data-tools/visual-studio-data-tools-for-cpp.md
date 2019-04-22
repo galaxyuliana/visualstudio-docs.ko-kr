@@ -1,5 +1,5 @@
 ---
-title: C + + 용 visual Studio 데이터 도구 | Microsoft Docs
+title: Visual Studio 데이터 도구에 대 한 C++ | Microsoft Docs
 ms.prod: visual-studio-dev14
 ms.technology: vs-data-tools
 ms.date: 11/15/2016
@@ -10,24 +10,23 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 0fba11063e7be570dc8ad2ce9a1b07b3ea88ffa2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 85978a79fc1e0110e5b13d6dc0e3198d20ac674a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986241"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653062"
 ---
 # <a name="visual-studio-data-tools-for-c"></a>C++용 Visual Studio 데이터 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
+네이티브 C++ 데이터 원본에 액세스 하는 경우에 종종 가장 빠른 성능을 제공할 수 있습니다. 그러나 데이터에 대 한 도구, C++ Visual Studio에서 응용 프로그램을.NET 응용 프로그램에 대 한 다양 하지 않습니다. 예를 들어, 데이터 원본으로 끌어서 데이터 원본 windows를 사용할 수 없습니다는 C++ 디자인 화면입니다. 개체-관계형 레이어를 필요한를 사용 하는 경우에 직접 작성 하거나 타사 제품을 사용 합니다.  Microsoft Foundation Class 라이브러리를 사용 하는 응용 프로그램 메모리에 데이터를 저장 하 고 사용자에 게 표시 하려면 일부 데이터베이스 클래스와 함께 문서 및 뷰를 사용할 수 있지만 데이터 바인딩 기능에 대 한 마찬가지입니다. 자세한 내용은 [시각적 개체에 대 한 데이터 액세스 C++ ](https://msdn.microsoft.com/library/7wtdsdkh.aspx) 합니다.  
   
-종종 네이티브 c + +는 데이터 원본에 액세스 하는 가장 빠른 성능의 제공할 수 있습니다. 그러나 Visual Studio에서 c + + 응용 프로그램에 대 한 도구는 데이터.NET 응용 프로그램에 대 한 다양 하지 않습니다. 예를 들어, 데이터 소스 창의 데이터 원본 c + + 디자인 화면으로 끌어서 사용할 수 없습니다. 개체-관계형 레이어를 필요한를 사용 하는 경우에 직접 작성 하거나 타사 제품을 사용 합니다.  Microsoft Foundation Class 라이브러리를 사용 하는 응용 프로그램 메모리에 데이터를 저장 하 고 사용자에 게 표시 하려면 일부 데이터베이스 클래스와 함께 문서 및 뷰를 사용할 수 있지만 데이터 바인딩 기능에 대 한 마찬가지입니다. 자세한 내용은 [Visual c + +에서 데이터 액세스](https://msdn.microsoft.com/library/7wtdsdkh.aspx) 합니다.  
-  
- SQL database에 연결 하려면 ODBC 및 OLE DB 드라이버 및 Windows와 함께 제공 되는 ADO 공급자 네이티브 c + + 응용 프로그램 사용할 수 있습니다.     이러한 인터페이스를 지 원하는 모든 데이터베이스에 연결할 수 있습니다. ODBC 드라이버에는 표준입니다. OLE DB는 이전 버전과 호환성을 위해 제공 됩니다. 이러한 데이터 기술에 대 한 자세한 내용은 참조 하세요. [Windows Data Access Components](https://msdn.microsoft.com/library/windows/desktop/aa968814\(v=vs.85\).aspx)  
+ 네이티브 SQL database에 연결 C++ 응용 프로그램은 ODBC 및 OLE DB 드라이버 및 Windows와 함께 제공 되 고 ADO 공급자 사용할 수 있습니다.     이러한 인터페이스를 지 원하는 모든 데이터베이스에 연결할 수 있습니다. ODBC 드라이버에는 표준입니다. OLE DB는 이전 버전과 호환성을 위해 제공 됩니다. 이러한 데이터 기술에 대 한 자세한 내용은 참조 하세요. [Windows Data Access Components](https://msdn.microsoft.com/library/windows/desktop/aa968814\(v=vs.85\).aspx)  
   
  SQL Server 2005에 포함 된 사용자 지정 기능을 활용 하 여 나중에 사용 하 여 [SQL Server Native Client](https://msdn.microsoft.com/sqlserver/aa937733)합니다. 네이티브 클라이언트는 SQL Server ODBC 드라이버와 단일 네이티브 동적 연결 라이브러리 (DLL)의 SQL Server OLE DB 공급자도 포함 됩니다. Microsoft SQL Server에 네이티브 코드 Api (ODBC, OLE DB 및 ADO)를 사용 하 여 응용 프로그램 지원 합니다.  SQL Server Data Tools를 사용 하 여 SQL Server Native Client를 설치합니다. 프로그래밍 가이드는 여기서: [SQL Server Native Client 프로그래밍](https://msdn.microsoft.com/library/ms130892.aspx)합니다.  
   
-## <a name="to-connect-to-localdb-through-odbc-and-sql-native-client-from-a-c-application"></a>C + + 응용 프로그램에서 ODBC 및 SQL Native Client를 통해 localDB에 연결  
+## <a name="to-connect-to-localdb-through-odbc-and-sql-native-client-from-a-c-application"></a>ODBC 및 SQL Native Client를 통해 localDB에 연결 하는 C++ 응용 프로그램  
   
 1. SQL Server 데이터 도구를 설치합니다.  
   
@@ -41,7 +40,7 @@ ms.locfileid: "58986241"
   
     ![데이터베이스 연결 하는 SSMS](../data-tools/media/raddata-ssms-attach-database.png "raddata SSMS 연결할 데이터베이스")  
   
-4. ODBC Windows SDK 샘플을 다운로드 하 고 새 위치에 압축을 풉니다. 이 샘플에서는 데이터베이스 및 쿼리를 실행할 명령에 연결 하는 데 사용 되는 기본 ODBC 명령을 보여 줍니다. 이러한 함수에 대 한 자세히 알아볼 수 있습니다 합니다 [Microsoft ODBC Open Database Connectivity ()](https://msdn.microsoft.com/library/windows/desktop/ms710252\(v=vs.85\).aspx)합니다. (C + + 폴더에 있는 경우) 솔루션을 처음 로드할 때 Visual Studio는 Visual Studio의 현재 버전으로 솔루션을 업그레이드 하려면 제공 합니다. **예**를 클릭합니다.  
+4. ODBC Windows SDK 샘플을 다운로드 하 고 새 위치에 압축을 풉니다. 이 샘플에서는 데이터베이스 및 쿼리를 실행할 명령에 연결 하는 데 사용 되는 기본 ODBC 명령을 보여 줍니다. 이러한 함수에 대 한 자세히 알아볼 수 있습니다 합니다 [Microsoft ODBC Open Database Connectivity ()](https://msdn.microsoft.com/library/windows/desktop/ms710252\(v=vs.85\).aspx)합니다. 솔루션을 처음 로드 하면 (에 C++ 폴더), Visual Studio 현재 버전의 Visual Studio 솔루션을 업그레이드 하려면 제공 됩니다. **예**를 클릭합니다.  
   
 5. Native client를 사용 하는, 해당 헤더 파일 및 lib 파일 필요 합니다. 이러한 파일 함수와 sql.h에 정의 된 ODBC 함수 이외의 SQL server에 관련 된 정의 포함 합니다. **프로젝트** > **속성** > **VC + + 디렉터리**, 디렉터리를 포함 하는 다음을 추가 합니다.  
   

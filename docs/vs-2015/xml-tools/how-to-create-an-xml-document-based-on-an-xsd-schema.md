@@ -9,17 +9,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e857befa71095572661ff2c2e1a2ba074444f231
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 70b42db031c200f16a9189c4d750c9011e739029
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985957"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59647573"
 ---
 # <a name="how-to-create-an-xml-document-based-on-an-xsd-schema"></a>방법: XSD 스키마를 기반으로 XML 문서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 합니다 **샘플 XML 생성** 기능은 XML 스키마 (XSD) 파일에 따라 샘플 XML 파일을 생성 합니다.  
   
  다음과 같은 경우 이 옵션을 사용할 수 있습니다.  

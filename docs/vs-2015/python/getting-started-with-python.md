@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: kraigb
 ms.author: kraigb
 manager: jillfra
-ms.openlocfilehash: 11febf99dc411d50ee94e003515bfa6581591b91
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 9c18ae2731d92e6d128d13e7687bac77ae76dc8a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56678867"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648454"
 ---
 # <a name="getting-started-with-python"></a>Python 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,8 +39,7 @@ Python 프로그래밍 언어는 다음과 같습니다.
 시작 된 언어에 대 한 자세한 내용은 [초급자를 위한 Python](https://www.python.org/about/gettingstarted/) python.org에 있습니다.
 
 Python 자체를 설치 하려면 방문 [ https://www.python.org/download/ ](https://www.python.org/download/)합니다.
- 
-  
+
 ## <a name="python-tools-for-visual-studio"></a>Python Tools for Visual Studio
   
 설치할 수 있는 Visual Studio 용 Python Tools [visualstudio.com](https://www.visualstudio.com/explore/python-vs), 같은 기능을 제공 합니다.  
@@ -64,7 +63,6 @@ Python 자체를 설치 하려면 방문 [ https://www.python.org/download/ ](ht
 - 설치 및 기능 데모 (27 분)] (https://www.youtube.com/watch?v=JNNAOypc6Ek)  
 - [문서](https://github.com/Microsoft/PTVS/wiki)  
 
-
 Visual Studio 제공 하지 않음을 현재 기본적으로 포함 된 Python 인터프리터를 사용 하 여 프로그램을 의미 하는 Python을 사용 하 여 독립 실행형 실행 파일을 만들 note 합니다. 그러나 [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency)에 설명된 것처럼 Python 커뮤니티 내에 이렇게 하는 다양한 방법이 있습니다. 또한 CPython은 블로그 게시물 [Using CPython's Embeddable Zip File](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/)(CPython의 포함 가능한 Zip 파일 사용)에 설명된 것처럼 네이티브 애플리케이션 내에 포함되는 기능을 지원합니다.
   
 ## <a name="building-ui-with-python"></a>Python 사용 하 여 UI 빌드  
@@ -78,9 +76,9 @@ Windows, Mac 및 Linux를 지원하는 Python용 Azure SDK을 통해 Microsoft A
 - SDK를 설치하려면 [Python Package Index](https://pypi.python.org/pypi/azure)(Python 패키지 인덱스)를 사용하거나 Azure 문서에서 [Python 및 SDK 설치](https://azure.microsoft.com/documentation/articles/python-how-to-install/)를 따르세요. 
 - [Python 개발자 센터용 Azure SDK](https://azure.microsoft.com/develop/python/)에는 설치부터 자습서 포함 설명서에 이르기까지 많은 도움말이 있습니다.  중요 사항은 다음과 같습니다.  
 - 방법 가이드:
-  - [Storage Blob](https://azure.microsoft.com/develop/python/how-to-guides/blob-service/)  
-  - [Storage Queue](https://azure.microsoft.com/develop/python/how-to-guides/queue-service/)  
-  - [Storage Table](https://azure.microsoft.com/develop/python/how-to-guides/table-service/)  
+  - [Python에서 Azure Blob Storage를 사용하는 방법](https://azure.microsoft.com/develop/python/how-to-guides/blob-service/)  
+  - [Python에서 큐 저장소를 사용하는 방법](https://azure.microsoft.com/develop/python/how-to-guides/queue-service/)  
+  - [Python에서 테이블 저장소를 사용하는 방법](https://azure.microsoft.com/develop/python/how-to-guides/table-service/)  
   - [Service Bus 큐](https://azure.microsoft.com/develop/python/how-to-guides/service-bus-queues/)
   - [Service Bus 토픽/구독](https://azure.microsoft.com/develop/python/how-to-guides/service-bus-topics/) 
   - [Python에서 서비스 관리를 사용하는 방법](https://azure.microsoft.com/develop/python/how-to-guides/service-management/)  
@@ -93,8 +91,8 @@ Windows, Mac 및 Linux를 지원하는 Python용 Azure SDK을 통해 Microsoft A
   
 ## <a name="see-also"></a>참고 항목  
 
-[PTVS 시작: Visual Studio 설정](../python/getting-started-with-ptvs-setting-up-visual-studio.md)
-[PTVS 시작: 코딩 시작(프로젝트)](../python/getting-started-with-ptvs-start-coding-projects.md)
+[Ptvs 시작: Visual Studio 설정](../python/getting-started-with-ptvs-setting-up-visual-studio.md)
+[PTVS 시작: 코딩 시작 (프로젝트)](../python/getting-started-with-ptvs-start-coding-projects.md)
 [PTVS 시작: 코드 편집](../python/getting-started-with-ptvs-editing-code.md)
 [PTVS 시작: 디버깅](../python/getting-started-with-ptvs-debugging.md)
 [PTVS 시작: 대화형 Python](../python/getting-started-with-ptvs-interactive-python.md)

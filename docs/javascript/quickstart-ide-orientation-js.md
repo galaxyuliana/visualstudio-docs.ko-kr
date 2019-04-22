@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c6d67dd56ad26d3dff3912ae5bdca979c2eaf9d9
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 94fff3c08d9bf6be7467e98a08d107b65928bd60
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58325294"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790669"
 ---
 # <a name="first-look-at-the-visual-studio-ide"></a>먼저 Visual Studio IDE 살펴보기
 
@@ -112,13 +112,13 @@ Visual Studio의 위쪽에 있는 메뉴 모음은 명령을 범주로 그룹화
 
 ![Visual Studio의 출력 창](media/build-output-minimal.png)
 
-## <a name="quick-launch"></a>빠른 실행
+## <a name="search-box"></a>검색 상자
 
-**빠른 실행** 상자는 Visual Studio에서 거의 대부분 작업을 빠르고 손쉽게 수행할 수 있게 해줍니다. 수행하려는 작업과 관련된 일부 텍스트를 입력하면 해당 텍스트와 관련된 옵션 목록이 표시됩니다. 예를 들어 빌드가 정확하게 수행하는 작업에 대한 추가 세부 정보를 표시하기 위해 빌드 출력의 세부 정보 표시를 증가시킨다고 가정해 보겠습니다. 수행할 수 있는 방법은 다음과 같습니다.
+검색 상자는 Visual Studio에서 거의 대부분 작업을 빠르고 손쉽게 수행할 수 있게 해줍니다. 수행하려는 작업과 관련된 일부 텍스트를 입력하면 해당 텍스트와 관련된 옵션 목록이 표시됩니다. 예를 들어 빌드가 정확하게 수행하는 작업에 대한 추가 세부 정보를 표시하기 위해 빌드 출력의 세부 정보 표시를 증가시킨다고 가정해 보겠습니다. 수행할 수 있는 방법은 다음과 같습니다.
 
-1. **세부 정보 표시**를 **빠른 실행** 상자에 입력합니다. 표시된 결과에서 **옵션** 범주에 있는 **프로젝트 및 솔루션 -> 빌드 및 실행**을 선택합니다.
+1. 검색 상자에 **자세한 정도**를 입력합니다. 표시된 결과에서 **옵션** 범주에 있는 **프로젝트 및 솔루션 -> 빌드 및 실행**을 선택합니다.
 
-   ![Visual Studio의 빠른 실행 상자](media/quickstart-IDE-quick-launch.png)
+   ![Visual Studio의 검색 상자](media/quickstart-IDE-quick-launch.png)
 
    **옵션** 대화 상자가 열려 **빌드 및 실행** 옵션 페이지가 표시됩니다.
 
@@ -132,7 +132,7 @@ Visual Studio의 위쪽에 있는 메뉴 모음은 명령을 범주로 그룹화
 
 ## <a name="send-feedback-menu"></a>사용자 의견 보내기 메뉴
 
-Visual Studio를 사용하는 동안 문제가 발생하거나 제품을 개선하는 방법에 대한 제안이 있는 경우 Visual Studio 창의 위쪽에서 **빠른 실행** 상자 옆에 있는 **사용자 의견 보내기** 메뉴를 사용할 수 있습니다.
+Visual Studio를 사용하는 동안 문제가 발생하거나 제품을 개선하는 방법에 대한 제안이 있는 경우 Visual Studio 창의 위쪽에 있는 **사용자 의견 보내기** 메뉴를 사용할 수 있습니다.
 
 ![Visual Studio의 사용자 의견 보내기 메뉴](../ide/media/quickstart-ide-send-feedback.png)
 

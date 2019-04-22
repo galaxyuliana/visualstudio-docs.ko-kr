@@ -9,18 +9,17 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 487e61a98117c8c64b993af5b9300face99478f8
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 972f749d03ec81c40ed91a2fb40161ebdb8cd791
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002681"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650263"
 ---
 # <a name="native-minimum-rules-rule-set"></a>네이티브 최소 규칙 규칙 집합
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Microsoft 네이티브 최소 규칙은 잠재적 보안 허점 및 응용 프로그램 충돌을 비롯 하 여 네이티브 코드의 가장 중요 한 문제에 집중 합니다. 네이티브 프로젝트에 대해 만드는 모든 사용자 지정 규칙 집합에 이 규칙 집합을 포함해야 합니다.  
-
 
 |                                      규칙                                      |                                                  설명                                                  |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|

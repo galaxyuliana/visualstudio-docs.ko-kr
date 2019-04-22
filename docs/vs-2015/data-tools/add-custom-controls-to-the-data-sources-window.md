@@ -23,17 +23,16 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a7dbfb1b0636418971b2dffb6ff67ca2de5e211d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ccdec180c8e38216a230813e1ffdf7ca98281c14
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980779"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651127"
 ---
 # <a name="add-custom-controls-to-the-data-sources-window"></a>데이터 소스 창에 사용자 지정 컨트롤 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 항목을 끌면 합니다 **데이터 원본** 창 데이터 바인딩된 컨트롤을 만드는 디자인 화면에 사용자가 만든 컨트롤의 형식을 선택할 수 있습니다. 창의 각 항목에는 드롭다운 목록에서 선택할 수 있는 컨트롤을 표시 하는 있습니다. 각 항목에 연결 된 컨트롤 집합에는 항목의 데이터 형식에 의해 결정 됩니다. 만들려는 컨트롤 목록에 나타나지 않으면, 목록 컨트롤을 추가 하려면이 항목의 지침을 따라 수 있습니다.  
   
  데이터 바인딩된 컨트롤에서 항목에 대 한 만들기를 선택 하는 방법에 대 한 자세한 내용은 합니다 **데이터 원본** 창 참조 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  

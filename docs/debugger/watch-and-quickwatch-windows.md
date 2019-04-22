@@ -18,10 +18,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: d8cd119ab39939de6562adcb962679874d528283
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59366814"
 ---
 # <a name="watch-variables-with-watch-windows-and-quickwatch"></a>조사식 창 및 간략 한 조사식을 사용 하 여 변수를 시청 하세요.
@@ -232,7 +232,7 @@ public class Program
 만 표시할 합니다 **동적 뷰** 개체에 대 한 추가 **동적** 형식 지정자의 동적 개체 이름 뒤의 **조사식** 창:
 
 - C#의 경우: `ObjectName, dynamic`
-- Visual Basic: `$dynamic, ObjectName`
+- Visual Basic의 경우: `$dynamic, ObjectName`
 
 >[!NOTE]
 >- C# 디버거에서 값을 자동으로 다시 평가 하지 합니다 **동적 뷰** 코드의 다음 줄으로 진행 하는 경우.
@@ -292,7 +292,7 @@ static void Main(string[] args)
 1. 디버깅을 계속합니다. 변수를 확인할 수 있습니다 합니다 **조사식** 창입니다.
 
 ## <a name="see-also"></a>참고자료
-- [디버깅이란 무엇인가요?](../debugger/what-is-debugging.md)
+- [디버깅이란?](../debugger/what-is-debugging.md)
 - [디버깅 기술 및 도구](../debugger/write-better-code-with-visual-studio.md)
 - [디버깅 소개](../debugger/debugger-feature-tour.md)
 - [디버거 창](../debugger/debugger-windows.md)

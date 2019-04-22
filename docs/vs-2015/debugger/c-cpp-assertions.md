@@ -1,5 +1,5 @@
 ---
-title: C-c + + 어설션 | Microsoft Docs
+title: C-C++ 어설션 | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -29,19 +29,19 @@ caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e130bac0a20d2f1e4421b6c8bd34ac2b211c55f8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c5aa51fdf7d0c2537de3c301efa7efb7fe6ce96f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983330"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650111"
 ---
 # <a name="cc-assertions"></a>C/C++ 어설션
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 어설션 문은 프로그램의 지점에서 true가 될 예상 하는 조건을 지정 합니다. 어설션이 실패 하 여 프로그램의 실행이 중단 되며 해당 조건이 true가 아닐 경우와 [어설션 오류 대화 상자](../debugger/assertion-failed-dialog-box.md) 나타납니다.  
 
- Visual c + +에서는 다음 구문을 기반으로 하는 어설션 문을 지원 합니다.  
+ Visual C++ 에서는 다음 구문을 기반으로 하는 어설션 문을 지원 합니다.  
 
 - MFC 프로그램에 대 한 MFC 어설션입니다.  
 
@@ -49,7 +49,7 @@ ms.locfileid: "58983330"
 
 - C 런타임 라이브러리를 사용 하는 프로그램에 대 한 CRT 어설션입니다.  
 
-- ANSI [어설션 함수](http://msdn.microsoft.com/library/a9ca031a-648b-47a6-bdf1-65fc7399dd40) 다른 C/c + + 프로그램에 대 한 합니다.  
+- ANSI [함수를 어설션](http://msdn.microsoft.com/library/a9ca031a-648b-47a6-bdf1-65fc7399dd40) 다른 c /C++ 프로그램입니다.  
 
   논리 오류를 catch는 작업의 결과 확인 하 고 처리 해야 하는 오류 조건을 테스트에 어설션을 사용할 수 있습니다.  
 
@@ -109,7 +109,6 @@ VERIFY ( myFnctn(0)==1 ) // safe
 
 ##  <a name="BKMK_CRT_assertions"></a> CRT 어설션  
  CRTDBG 합니다. H 헤더 파일에 정의 된 [_ASSERT 및 _ASSERTE 매크로](http://msdn.microsoft.com/library/e98fd2a6-7f5e-4aa8-8fe8-e93490deba36) 어설션 검사에 대 한 합니다.  
-
 
 |   매크로    |                                             결과                                              |
 |------------|-------------------------------------------------------------------------------------------------|

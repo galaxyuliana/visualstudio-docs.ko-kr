@@ -14,17 +14,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7523db6598a32c76944c22bfdabe56ee288c6b43
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 4778efc4a50ceb63e72d4283644537345510e833
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54771084"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650423"
 ---
 # <a name="add-existing-project-command"></a>기존 프로젝트 추가 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 현재 솔루션에 기존 프로젝트를 추가합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -44,7 +43,7 @@ File.AddExistingProject filename
 ## <a name="remarks"></a>주의  
  입력 시 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 프로젝트인 TestProject1을 현재 솔루션에 추가합니다.  
   
 ```  

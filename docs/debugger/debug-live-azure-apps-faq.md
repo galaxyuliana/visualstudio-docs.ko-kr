@@ -11,10 +11,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7ea593ad5f88ba29f6b1c0d7c64a129b8f71c7f5
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58857076"
 ---
 # <a name="frequently-asked-questions-for-snapshot-debugging-in-visual-studio"></a>Visual Studio의 스냅숏 디버깅에 대해 자주 묻는 질문
@@ -57,10 +57,10 @@ ms.locfileid: "58857076"
 
 Azure에서 생성된 스냅숏을 디버그하려면 스냅숏 디버거에서 일련의 포트를 열어야 하며 이러한 포트는 원격 디버깅에 필요한 포트와 동일합니다. [여기에서 포트 목록을 찾을 수 있습니다](../debugger/remote-debugger-port-assignments.md).
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio의 디버깅](../debugger/index.md)
-- [스냅숏 디버거를 사용하여 라이브 ASP.NET 앱 디버그](../debugger/debug-live-azure-applications.md)
-- [스냅숏 디버거를 사용하여 라이브 ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets 디버그](../debugger/debug-live-azure-virtual-machines.md)
-- [스냅숏 디버거를 사용하여 라이브 ASP.NET Azure Kubernetes 디버그](../debugger/debug-live-azure-kubernetes.md)
-- [스냅숏 디버깅에 대한 문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)
+- [스냅숏 디버거를 사용 하 여 라이브 ASP.NET 앱 디버그](../debugger/debug-live-azure-applications.md)
+- [라이브 ASP.NET Azure 가상 Machines\Virtual Machines Scale Sets 스냅숏 디버거를 사용 하 여 디버그](../debugger/debug-live-azure-virtual-machines.md)
+- [스냅숏 디버거를 사용 하 여 라이브 ASP.NET Azure Kubernetes 디버깅](../debugger/debug-live-azure-kubernetes.md)
+- [스냅숏 디버깅 문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)

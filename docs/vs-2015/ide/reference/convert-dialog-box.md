@@ -15,17 +15,16 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f020e23b5a58d700fb698e8026ef0b783b6de6a4
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: a67804984c427062e55b72e3bbe942e6e4839f99
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758569"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652828"
 ---
 # <a name="convert-dialog-box"></a>변환 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **변환** 대화 상자에서는 변환 도구를 선택하여 이전 프로젝트에서 새 프로젝트를 만들 수 있습니다(예: Visual Basic 6 프로젝트에서 [!INCLUDE[vbprvblong](../../includes/vbprvblong-md.md)] 프로젝트 만들기). Visual Studio의 이전 버전에서 만든 프로젝트를 업그레이드하려면 CodePlex 웹 사이트에서 제공하는 [Visual Studio 프로젝트 변환기](http://go.microsoft.com/fwlink/?LinkID=246465)를 사용할 수도 있습니다.  
   
  [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)]  

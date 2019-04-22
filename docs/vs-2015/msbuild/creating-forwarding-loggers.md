@@ -12,17 +12,16 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d0fbdfb1af767bfc49d373fedd81598e29ef6918
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ecc9bae7176c0d8c0f79452baff87a7a697db459
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54804629"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648223"
 ---
 # <a name="creating-forwarding-loggers"></a>전달 로거 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 전달 로거는 다중 프로세서 시스템에서 프로젝트를 빌드할 때 모니터링하려는 이벤트를 선택할 수 있도록 하여 로깅 효율성을 개선합니다. 전달 로거를 사용하여 원하지 않는 이벤트가 중앙 로거를 가득 채우고, 빌드 시간이 느려지고, 로그를 어지럽히지 않도록 방지할 수 있습니다.  
   
  전달 로거를 만들려면 <xref:Microsoft.Build.Framework.IForwardingLogger> 인터페이스를 구현한 다음 해당 메서드를 수동으로 구현하거나, <xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger> 클래스 및 미리 구성된 해당 메서드를 사용할 수 있습니다. (두 번째 방법은 대부분의 애플리케이션에서 충분히 사용할 수 있습니다.)  

@@ -1,7 +1,7 @@
 ---
 title: 네트워크 또는 프록시 오류 문제 해결
 description: 방화벽 또는 프록시 서버 배후에서 Visual Studio를 설치하거나 사용할 때 발생할 수 있는 네트워크 또는 프록시 관련 오류에 대한 솔루션을 찾습니다.
-ms.date: 02/23/2018
+ms.date: 03/30/2019
 ms.topic: troubleshooting
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 4cd62e73d3a10eded5d74eaffc5486e237ca02ca
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: e98f06a2dabd6627fbc70b1d072d0e34924c6691
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324963"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790501"
 ---
 # <a name="troubleshooting-network-related-errors-when-you-install-or-use-visual-studio"></a>Visual Studio 설치 또는 사용 시의 네트워크 관련 오류 문제 해결
 
@@ -54,6 +54,8 @@ ms.locfileid: "58324963"
 
 - 프록시에 기본 자격 증명을 사용하려는 경우 다음 작업을 수행할 수 있습니다.
 
+::: moniker range="vs-2017"
+
   1. **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** 또는 **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**를 찾습니다.
 
   2. 구성 파일에서 `<system.net>` 블록을 찾아 다음 코드를 추가합니다.
@@ -67,11 +69,28 @@ ms.locfileid: "58324963"
       `proxyaddress="<http://<yourproxy:port#>`에는 네트워크의 올바른 프록시 주소를 삽입해야 합니다.
 
      > [!NOTE]
-     > 자세한 내용은 [&lt;defaultProxy&gt; 요소(네트워크 설정)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings) 및 [&lt;프록시&gt; 요소(네트워크 설정)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) 페이지를 참조하세요.
+     > 자세한 내용은 [&lt;defaultProxy&gt; 요소(네트워크 설정)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings/) 및 [&lt;프록시&gt; 요소(네트워크 설정)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) 페이지를 참조하세요.
 
-  -또는-
+::: moniker-end
 
-- 또한 [How to connect through an authenticated Web Proxy](https://blogs.msdn.microsoft.com/rido/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy/)(인증된 웹 프록시를 통해 연결하는 방법) 블로그 게시물의 지침에 따라 프록시 사용을 허용하는 코드를 추가할 수도 있습니다.
+::: moniker range="vs-2019"
+
+  1. **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** 또는 **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**를 찾습니다.
+
+  2. 구성 파일에서 `<system.net>` 블록을 찾아 다음 코드를 추가합니다.
+
+      ```xml
+      <defaultProxy enabled="true" useDefaultCredentials="true">
+          <proxy bypassonlocal="True" proxyaddress="http://<yourproxy:port#>"/>
+      </defaultProxy>
+      ```
+
+      `proxyaddress="<http://<yourproxy:port#>`에는 네트워크의 올바른 프록시 주소를 삽입해야 합니다.
+
+     > [!NOTE]
+     > 자세한 내용은 [&lt;defaultProxy&gt; 요소(네트워크 설정)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings/) 및 [&lt;프록시&gt; 요소(네트워크 설정)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) 페이지를 참조하세요.
+
+::: moniker-end
 
 ## <a name="error-the-underlying-connection-was-closed"></a>오류: “기본 연결이 닫혔습니다.”
 

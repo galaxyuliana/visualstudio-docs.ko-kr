@@ -1,6 +1,6 @@
 ---
 title: Azure App Service에 게시
-ms.date: 01/17/2019
+ms.date: 04/02/2019
 ms.topic: quickstart
 helpviewer_keywords:
 - deployment, website
@@ -12,12 +12,12 @@ ms.prod: visual-studio-mac
 ms.custom: video
 ms.workload:
 - azure
-ms.openlocfilehash: 8cc0678dbb3e55d80f51e457f141c7f2dc5a12d9
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: d6e4e605a838ef354b8aef7227d2825fef8b7e7f
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56844271"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856303"
 ---
 # <a name="publish-a-web-app-to-azure-app-service-using-visual-studio-for-mac"></a>Mac용 Visual Studio를 사용하여 Azure App Service에 웹앱 게시
 
@@ -25,9 +25,9 @@ ms.locfileid: "56844271"
 
 ## <a name="prerequisites"></a>전제 조건
 
- - ASP.NET Core가 사용하도록 설정된 상태로 설치된 [Mac용 Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2017).
+ - ASP.NET Core가 사용하도록 설정된 상태로 설치된 [Mac용 Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019).
  - Azure 구독. 아직 구독하지 않은 경우 [무료로 등록합니다](https://azure.microsoft.com/free/dotnet/). 이는 30일 동안 $200의 크레딧 및 12개월의 인기 있는 무료 서비스를 포함합니다.
- - ASP.NET Core 프로젝트 아직 프로젝트가 없는 경우 [새 프로젝트를 만들 수 있습니다](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2017).
+ - ASP.NET Core 프로젝트 아직 프로젝트가 없는 경우 [새 프로젝트를 만들 수 있습니다](~/create-new-projects.md).
 
 ## <a name="publish-to-azure-app-service"></a>Azure App Service에 게시
 

@@ -21,17 +21,16 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ba0695656ce2377456f4150be0fe4f5231f7cb76
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c18b34cd3a38f41279885658a8d354ff6f9e8fe7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971341"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650176"
 ---
 # <a name="handle-a-concurrency-exception"></a>동시성 예외 처리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 동시성 예외 (<xref:System.Data.DBConcurrencyException>)는 두 사용자가 동시에 데이터베이스에서 동일한 데이터를 변경 하려고 할 때 발생 합니다. 이 연습에서는 catch 하는 방법을 보여 주는 Windows 응용 프로그램을 만든를 <xref:System.Data.DBConcurrencyException>오류를 발생 시킨 행 찾아 처리 하는 방법에 대 한 전략에 알아봅니다.  
   
  이 연습에서는 다음 프로세스를 안내합니다.  

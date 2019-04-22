@@ -14,10 +14,10 @@ manager: jillfra
 ms.workload:
 - uwp
 ms.openlocfilehash: 63726f9f38cdede6c8a0525b74244baac9455aad
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790383"
 ---
 # <a name="deploy-uwp-apps-from-visual-studio"></a>Visual Studio에서 UWP 앱 배포
@@ -28,7 +28,7 @@ Visual Studio 배포 기능을 작성 하 고 대상 장치에서 Visual Studio�
 
 - 대상이 원격 디바이스인 경우 Visual Studio에서는 원격 컴퓨터로 필수 파일을 복사한 다음 해당 디바이스에서 앱을 등록합니다.
 
-**디버깅 시작** 옵션(키보드: F5) 또는 **디버깅 없이 시작** 옵션(키보드: CTRL+F5)을 사용하면 Visual Studio에서 앱을 디버그할 때 자동 배포가 수행됩니다. 또한 앱을 수동으로 배포할 수도 있습니다. 수동 배포는 다음 시나리오에서 유용합니다.
+사용 하 여 Visual Studio에서 앱을 디버그할 때 배포가 자동 되는 **디버깅 시작** 옵션 (키보드: F5 키) 또는 **디버깅 하지 않고 시작** 옵션 (키보드: CTRL + F5)입니다. 또한 앱을 수동으로 배포할 수도 있습니다. 수동 배포는 다음 시나리오에서 유용합니다.
 
 - 로컬 또는 원격 컴퓨터에서 애드혹 테스트
 
@@ -45,11 +45,11 @@ Visual Studio 배포 기능을 작성 하 고 대상 장치에서 Visual Studio�
 
      ![로컬 컴퓨터에서 실행할](../debugger/media/vsrun_f5_local.png "VSRUN_F5_Local")
 
-3.  **빌드** 메뉴에서 **배포**를 선택합니다.
+3.   **빌드** 메뉴에서 **배포**를 선택합니다.
 
-##  <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 디바이스 지정 방법
+##  <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 장치 지정 방법
 
-**필수 구성 요소**
+**필수 조건**
 
 Windows 10 원격 장치에서 활성화 해야 합니다 [개발자 모드](/windows/uwp/get-started/enable-your-device-for-development)합니다. 작성자의 업데이트를 실행 하는 Windows 10 장치에서 하거나 나중에 원격 도구를 자동으로 설치 된 앱을 배포 하는 경우. 자세한 내용은 [설치 된 앱 패키지 디버그](../debugger/debug-installed-app-package.md)합니다.
 
@@ -76,21 +76,21 @@ Windows 10 원격 장치에서 활성화 해야 합니다 [개발자 모드](/wi
 
     합니다 **원격 연결** 대화 상자에서 로컬 네트워크 서브넷의 모든 장치와 이더넷 케이블을 통해 Visual Studio 컴퓨터에 직접 연결 되어 장치가 표시 됩니다.
 
-   **Visual c + + 프로젝트 페이지에서 원격 장치 지정**
+   **시각적 개체에서 원격 장치 지정 C++ 프로젝트 페이지**
 
    ![C&#43; &#43; 프로젝트 속성 원격 디버깅용](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN_CPP_ProjProp_Remote")
 
 7. **실행할 디버거** 목록에서 **원격 디버거** 를 선택합니다.
 
-8. **컴퓨터 이름** 상자에 원격 디바이스의 네트워크 이름을 입력합니다. 또는 상자에서 아래쪽 화살표를 선택하여 원격 디버거 연결 선택 대화 상자에서 디바이스를 선택할 수 있습니다.
+8. **컴퓨터 이름** 상자에 원격 장치의 네트워크 이름을 입력합니다. 또는 상자에서 아래쪽 화살표를 선택하여 원격 디버거 연결 선택 대화 상자에서 디바이스를 선택할 수 있습니다.
 
-   **Visual C# 및 Visual Basic 프로젝트 페이지에서 원격 디바이스 지정**
+   **Visual C# 및 Visual Basic 프로젝트 페이지에서 원격 장치 지정**
 
    ![원격 디버깅에 대 한 프로젝트 속성 관리](../debugger/media/vsrun_managed_projprop_remote.png "VSRUN_Managed_ProjProp_Remote")
 
-9. **대상 디바이스** 목록에서 **원격 컴퓨터** 를 선택합니다.
+9. **대상 장치** 목록에서 **원격 컴퓨터** 를 선택합니다.
 
-10. **원격 컴퓨터** 상자에 원격 디바이스의 네트워크 이름을 입력하거나 **찾기** 를 클릭하여 **원격 디버거 연결 선택** 대화 상자에서 디바이스를 선택합니다.
+10. **원격 컴퓨터** 상자에 원격 장치의 네트워크 이름을 입력하거나 **찾기** 를 클릭하여 **원격 디버거 연결 선택** 대화 상자에서 장치를 선택합니다.
 
 ##  <a name="BKMK_Deployment_options"></a> 배포 옵션
 
@@ -104,15 +104,15 @@ Windows 10 원격 장치에서 활성화 해야 합니다 [개발자 모드](/wi
 
 - 에 C# 및 Visual Basic 디버그 속성 페이지의 선택을 취소 합니다 **네트워크 루프백 허용** 확인란 합니다.
 
-- C + + 디버그 속성 페이지를 설정 합니다 **네트워크 루프백 허용** 값을 **No**합니다.
+- 에 C++ 디버그 속성 페이지, 설정 합니다 **네트워크 루프백 허용** 값을 **No**합니다.
 
-**시작 하지 않음 시작 시 코드를 디버그 (C# 및 Visual Basic) / 시작 응용 프로그램 (c + +)**
+**시작 하지 않음 시작 시 코드를 디버그 (C# 및 Visual Basic) / 응용 프로그램 시작 (C++)**
 
 앱 시작 시 디버깅 세션을 자동으로 시작하도록 배포를 구성하려면
 
 - 에 C# 및 Visual Basic 디버그 속성 페이지를 확인 합니다 **시작 하지 않음 시작 시 코드를 디버그** 확인란 합니다.
 
-- C + + 디버그 속성 페이지를 설정 합니다 **응용 프로그램 시작** 값을 **예**합니다.
+- 에 C++ 디버그 속성 페이지, 설정 된 **응용 프로그램 시작** 값을 **예**합니다.
 
 ## <a name="see-also"></a>참고 항목
 

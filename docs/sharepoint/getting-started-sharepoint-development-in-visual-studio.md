@@ -15,10 +15,10 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: c45635da013f360ccbb1fe2343bca23a58f142c4
-ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59504109"
 ---
 # <a name="get-started-sharepoint-development-in-visual-studio"></a>시작 (SharePoint 개발에 Visual Studio)
@@ -47,7 +47,7 @@ ms.locfileid: "59504109"
 |[SharePoint 용 응용 프로그램 페이지 만들기](../sharepoint/creating-application-pages-for-sharepoint.md)|디자이너를 사용하여 애플리케이션 페이지를 디자인하는 방법을 설명합니다.|
 |[웹 파트 또는 응용 프로그램 페이지에 대 한 재사용 가능한 컨트롤 만들기](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)|SharePoint에서 애플리케이션 페이지 및 웹 파트를 위해 재사용 가능한 사용자 지정 컨트롤을 만드는 방법을 설명합니다.|
 |[서버 탐색기를 사용 하 여 SharePoint 연결 찾아보기](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)|Visual Studio 도구 창에서 SharePoint 사이트의 구성 요소를 통해 탐색하는 방법을 설명합니다.|
-|[빌드 및 SharePoint 솔루션 디버깅](../sharepoint/building-and-debugging-sharepoint-solutions.md)|디버그 SharePoint 솔루션 및 빌드하는 방법에 설명 합니다.|
+|[SharePoint 솔루션 빌드 및 디버그](../sharepoint/building-and-debugging-sharepoint-solutions.md)|디버그 SharePoint 솔루션 및 빌드하는 방법에 설명 합니다.|
 |[패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)|설명 패키지 하는 방법 및 SharePoint 솔루션을 배포 합니다.|
 |[Visual Studio에서 SharePoint 도구 확장](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)|SharePoint 도구를 확장하여 필요한 기능을 만드는 방법을 설명합니다.|
 
@@ -55,5 +55,5 @@ ms.locfileid: "59504109"
 
 - [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)
 - [서버 탐색기를 사용 하 여 SharePoint 연결 찾아보기](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)
-- [빌드 및 SharePoint 솔루션 디버깅](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [SharePoint 솔루션 빌드 및 디버그](../sharepoint/building-and-debugging-sharepoint-solutions.md)
 - [패키지 및 SharePoint 솔루션 배포](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

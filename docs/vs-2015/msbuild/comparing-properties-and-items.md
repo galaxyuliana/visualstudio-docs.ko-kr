@@ -11,17 +11,16 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9418bd27d2f089b57cc2fb2abcf7b6610342f32d
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 18964ebdb1e011fb7e9fc17f19eadcc822c1d1bf
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758456"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649123"
 ---
 # <a name="comparing-properties-and-items"></a>속성 및 항목 비교
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild 속성 및 항목은 둘 다 작업에 정보를 전달하고, 조건을 확인한 다음 프로젝트 파일 전체에서 참조할 수 있는 값을 저장하는 데 사용됩니다.  
   
 -   속성은 이름-값 쌍입니다. 자세한 내용은 [MSBuild 속성](msbuild-properties1.md)을 참조하세요.  
@@ -44,7 +43,7 @@ MSBuild 속성 및 항목은 둘 다 작업에 정보를 전달하고, 조건을
 </PropertyGroup>  
 ```  
   
- `BuildDependsOn` 속성은 일반적으로 대상 `DependsOnTargets` 특성의 인수로 사용되며, 해당 특성을 효과적으로 항목 목록으로 변환합니다. 대상을 추가하거나 대상 실행 순서를 변경하기 위해 이 속성을 재정의할 수 있습니다. 예를 들어 개체에 적용된  
+ `BuildDependsOn` 속성은 일반적으로 대상 `DependsOnTargets` 특성의 인수로 사용되며, 해당 특성을 효과적으로 항목 목록으로 변환합니다. 대상을 추가하거나 대상 실행 순서를 변경하기 위해 이 속성을 재정의할 수 있습니다. 예를 들면 다음과 같습니다.  
   
 ```  
 <PropertyGroup>  

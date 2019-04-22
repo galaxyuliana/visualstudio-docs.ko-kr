@@ -18,10 +18,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: dbfd275625e949e87e2b4109e1d56eaeaf9d7e3c
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59366850"
 ---
 # <a name="pseudovariables-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 의사 변수
@@ -36,14 +36,14 @@ ms.locfileid: "59366850"
 
 |의사 변수|함수|
 |--------------------|--------------|
-|`$err`|SetLastError 함수로 설정된 마지막 오류 값을 표시합니다. 표시된 값은 GetLastError 함수에 의해 반환되는 값입니다.<br /><br /> `$err,hr`을 사용하면 이 값이 디코딩된 형태를 확인할 수 있습니다. 예를 들어 마지막 오류가 3 이었다는 `$err,hr` 표시 `ERROR_PATH_NOT_FOUND : The system cannot find the path specified.`|
+|`$err`|SetLastError 함수로 설정된 마지막 오류 값을 표시합니다. 표시된 값은 GetLastError 함수에 의해 반환되는 값입니다.<br /><br /> `$err,hr`을 사용하면 이 값이 디코딩된 형태를 확인할 수 있습니다. 예를 들어 마지막 오류가 3이었다면 `$err,hr`은 `ERROR_PATH_NOT_FOUND : The system cannot find the path specified.`를 표시합니다.|
 |`$handles`|응용 프로그램에 할당된 핸들 수를 표시합니다.|
 |`$vframe`|현재 스택 프레임의 주소를 표시합니다.|
 |`$tid`|현재 스레드의 스레드 ID를 표시합니다.|
 |`$env`|문자열 뷰어의 환경 블록을 표시합니다.|
 |`$cmdline`|프로그램을 시작한 명령줄 문자열을 표시합니다.|
 |`$pid`|프로세스 ID를 표시합니다.|
-|`$` *레지스터 이름*<br /><br /> 또는<br /><br /> `@` *레지스터 이름*|레지스터*registername*의 내용을 표시합니다.<br /><br /> 일반적으로 레지스터 이름 입력만으로 레지스터 내용을 표시할 수 있습니다. 이 구문은 레지스터 이름이 변수 이름을 오버로드하는 경우에만 사용하게 됩니다. 레지스터 이름이 현재 범위의 변수 이름과 같다면 디버거는 해당 이름을 변수 이름으로 해석합니다. 따라서 이 경우에 `$`*registername* 또는 `@`*registername*을 유용하게 사용할 수 있습니다.|
+|`$` *registername*<br /><br /> 또는<br /><br /> `@` *registername*|레지스터*registername*의 내용을 표시합니다.<br /><br /> 일반적으로 레지스터 이름 입력만으로 레지스터 내용을 표시할 수 있습니다. 이 구문은 레지스터 이름이 변수 이름을 오버로드하는 경우에만 사용하게 됩니다. 레지스터 이름이 현재 범위의 변수 이름과 같다면 디버거는 해당 이름을 변수 이름으로 해석합니다. 따라서 이 경우에 `$`*registername* 또는 `@`*registername*을 유용하게 사용할 수 있습니다.|
 |`$clk`|클록 주기 시간을 표시합니다.|
 |`$user`|응용 프로그램을 실행한 계정의 계정 정보가 포함된 구조체를 표시합니다. 보안상의 이유로 암호 정보는 표시되지 않습니다.|
 |`$exceptionstack`|현재 Windows 런타임 예외에 대한 스택 추적을 표시합니다. `$ exceptionstack` UWP 앱 에서만 작동합니다. `$ exceptionstack` 지원 되지 않습니다 C++ 및 SEH 예외|

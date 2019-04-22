@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 416c5e62cf4984219be79572b3b2929a86c29590
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.openlocfilehash: f7a9fdb7d6f17df009920e1677c615cb41df7f6c
+ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58790539"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59504304"
 ---
 # <a name="features-of-visual-studio"></a>Visual Studio의 기능
 
@@ -100,7 +100,7 @@ Visual Studio의 **SQL Server 개체 탐색기**는 SQL Server Management Studio
 
 ## <a name="debug-test-and-improve-your-code"></a>코드 디버그, 테스트 및 향상
 
-코드를 작성할 때 이를 실행하고 버그와 성능을 테스트해야 합니다. Visual Studio의 최신 디버깅 시스템을 사용하면 로컬 프로젝트에서 실행 중인 코드를 원격 디바이스 또는 [디바이스 에뮬레이터](../cross-platform/visual-studio-emulator-for-android.md)에서 디버그할 수 있습니다. 한 번에 문 하나씩, 코드를 단계별로 실행하고 변수를 검사할 수 있습니다. 지정된 조건이 true인 경우에만 적중되는 중단점을 설정할 수 있습니다. 디버그 옵션을 코드 편집기 자체에서 관리할 수 있으므로 코드를 떠날 필요가 없습니다. Visual Studio의 디버깅에 대한 자세한 내용은 [디버거 기능 둘러보기](../debugger/debugger-feature-tour.md)를 참조하세요.
+코드를 작성할 때 이를 실행하고 버그와 성능을 테스트해야 합니다. Visual Studio의 최신 디버깅 시스템을 사용하면 로컬 프로젝트에서 실행 중인 코드를 원격 디바이스 또는 [디바이스 에뮬레이터](../cross-platform/visual-studio-emulator-for-android.md)에서 디버그할 수 있습니다. 한 번에 문 하나씩, 코드를 단계별로 실행하고 변수를 검사할 수 있습니다. 지정된 조건이 true인 경우에만 적중되는 중단점을 설정할 수 있습니다. 디버그 옵션을 코드 편집기 자체에서 관리할 수 있으므로 코드를 떠날 필요가 없습니다. Visual Studio의 디버깅에 대한 자세한 내용은 [디버거 소개](../debugger/debugger-feature-tour.md)를 참조하세요.
 
 앱 성능 향상에 대한 자세한 내용은 Visual Studio의 [프로파일링](../profiling/profiling-feature-tour.md) 기능을 참조하세요.
 

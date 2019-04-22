@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab37b3766c61c63ce99c13bb375d1bdd90d237d2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 0a9c13a1b1bb9c8240faeaaf8d67b0b8df259227
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599651"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649253"
 ---
 # <a name="test-area-5-change-source-control"></a>테스트 영역 5: 소스 제어 변경
 이 소스 제어 플러그 인 테스트 영역에서는 통한 소스 제어 변경 합니다 **소스 제어 변경** 명령입니다.
@@ -45,7 +45,6 @@ ms.locfileid: "56599651"
 
 ### <a name="case-5a-bind"></a>사례 5a: 바인딩
  바인딩 사용자를 선택한 프로젝트 및 솔루션에 소스 코드 제어 정보를 추가할 수 있습니다. 사용자는 일반적으로는 이러한 추가 소스 제어에서 프로젝트를 식별 하 라는 메시지가 표시 됩니다. 사용자 (소스 제어에 추가 대비)이이 작업의 일환으로 소스 제어에서 새 프로젝트를 만들 수 없습니다.
-
 
 | 작업 | 테스트 단계 | 확인 하려면 예상된 결과 |
 | - | - | - |

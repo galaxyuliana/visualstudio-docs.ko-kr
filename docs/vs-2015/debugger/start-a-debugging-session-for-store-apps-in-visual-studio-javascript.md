@@ -17,12 +17,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 600f44cccd57635cc789e2265fe5451e5674d737
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5cb08c00679e3052ef0e0715ca58dd010a52e61b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970804"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649695"
 ---
 # <a name="start-a-debugging-session-for-store-apps-in-visual-studio-javascript"></a>Visual Studio에서 스토어 앱에 대한 디버깅 세션 시작(JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  이 항목에서는 JavaScript 및 HTML5로 작성된 Windows 스토어 앱에 대한 디버깅 세션을 시작하는 방법을 설명합니다. 키를 한 번 입력하여 디버깅을 시작할 수도 있고, 특정 시나리오에 대한 디버깅 세션을 구성하여 앱을 시작할 수도 있습니다.
 
 > [!NOTE]
->  XAML 및 Visual C#, Visual c + + 또는 Visual Basic로 작성 된 앱을 참조 하세요. [(VB, C#, c + + 및 XAML) 디버그 세션 시작](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
+>  XAML 및 시각적 개체에서 작성 된 앱에 대 한 C#, Visual C++, 또는 Visual Basic을 참조 하세요 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
 
 ##  <a name="BKMK_In_this_topic"></a> 항목 내용
  [항목 내용](#BKMK_In_this_topic)
@@ -81,7 +81,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
    Visual Studio가 디버거가 연결된 응용 프로그램을 빌드하고 시작합니다. 중단점에 도달하거나 수동으로 실행을 일시 중단하거나 처리되지 않은 예외가 발생하거나 응용 프로그램이 끝날 때까지 계속해서 실행됩니다. 자세한 내용은 [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)합니다.
 
 ##  <a name="BKMK_Configure_the_debugging_session"></a> 디버깅 세션 구성
- 스크립트가 컴파일되지 않았으므로 빌드 구성 및 플랫폼 설정이 적용되지 않습니다. C + + 또는 관리 되는 구성 요소를 디버깅 하는 경우 설정 합니다 **구성** 에 **디버그** 에서 대상 플랫폼을 선택 하 고는 **구성** 대화 합니다.
+ 스크립트가 컴파일되지 않았으므로 빌드 구성 및 플랫폼 설정이 적용되지 않습니다. 디버깅 하는 경우는 C++ 관리 되는 구성 요소를 설정 또는 **구성** 에 **디버그** 에서 대상 플랫폼을 선택 하 고는 **구성** 대화 합니다.
 
 ###  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> 프로젝트에 대한 디버깅 속성 페이지 열기
 
@@ -184,13 +184,11 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
 2. 목록에서 다음 옵션 중 하나를 선택합니다.
 
-
    |                    |                                                                                                                                                                                                                                                                                                                                                                                                           |
    |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | **로컬 컴퓨터**  |                                                                                                                로컬 컴퓨터의 현재 세션에서 응용 프로그램을 디버깅합니다. 참조 [로컬 컴퓨터에서 실행 Windows 스토어 앱](../debugger/run-windows-store-apps-on-the-local-machine.md)합니다.                                                                                                                 |
    |   **시뮬레이터**    | [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱에 대한 Visual Studio 시뮬레이터에서 응용 프로그램을 디버깅합니다. 시뮬레이터는 로컬 컴퓨터에서 사용할 수 없는 터치 제스처 및 디바이스 회전과 같은 디바이스 기능을 디버깅할 수 있도록 하는 데스크톱 창입니다. 참조 [Windows 스토어 앱 실행 시뮬레이터에서](../debugger/run-windows-store-apps-in-the-simulator.md)합니다. |
    | **원격 컴퓨터** |                          인트라넷을 통해 로컬 컴퓨터에 연결되거나 이더넷 케이블을 사용하여 직접 연결된 디바이스에서 응용 프로그램을 디버깅합니다. 원격으로 디버깅하려면 Visual Studio 원격 도구가 원격 디바이스에 설치되어 실행되고 있어야 합니다. 참조 [Windows 스토어 앱 실행을 원격 컴퓨터에서](../debugger/run-windows-store-apps-on-a-remote-machine.md)합니다.                           |
-
 
 3. **설치된 응용 프로그램 패키지** 목록에서 응용 프로그램을 선택합니다.
 

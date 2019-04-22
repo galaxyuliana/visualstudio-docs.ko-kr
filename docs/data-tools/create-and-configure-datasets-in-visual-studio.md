@@ -12,10 +12,10 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: b71d4b8ea58cbbe36e3fe48228789d4aee02af53
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790864"
 ---
 # <a name="create-and-configure-datasets-in-visual-studio"></a>Visual Studio에서 데이터 세트 만들기 및 구성
@@ -88,9 +88,9 @@ ms.locfileid: "58790864"
 
 독립 실행형 테이블 구현 해야 `Fill` 독립 실행형 테이블에는 논리를 데이터로 채울 수 있습니다. 독립 실행형 데이터 테이블을 채우는 방법은 [DataAdapter에서 DataSet 채우기](/dotnet/framework/data/adonet/populating-a-dataset-from-a-dataadapter)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [Visual Studio의 데이터 세트 도구](../data-tools/dataset-tools-in-visual-studio.md)
-- [데이터 세트에서의 관계](../data-tools/relationships-in-datasets.md)
+- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)
+- [데이터 집합에서의 관계](../data-tools/relationships-in-datasets.md)
 - [계층적 업데이트](../data-tools/hierarchical-update.md)
-- [TableAdapter를 사용하여 데이터 세트 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
+- [TableAdapter를 사용하여 데이터 집합 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)

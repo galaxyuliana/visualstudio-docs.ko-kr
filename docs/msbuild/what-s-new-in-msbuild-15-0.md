@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - multiple
 monikerRange: vs-2017
-ms.openlocfilehash: 0353249712fefc0052a27469b075c52b9fdd5d06
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 718ef14fda76df87dc4627dc518e993058896471
+ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57982911"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "59584300"
 ---
 # <a name="whats-new-in-msbuild-15"></a>MSBuild 15의 새로운 기능
 
@@ -24,7 +24,7 @@ MSBuild는 현재 [.NET Core SDK](https://www.microsoft.com/net/download/core)�
 
  MSBuild는 이제 각 Visual Studio 버전 아래의 폴더에 설치됩니다. 예: *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild*. 또한 다음 PowerShell 모듈을 사용하여 MSBuild를 찾을 수도 있습니다. [vssetup.powershell](https://github.com/Microsoft/vssetup.powershell).
 
- MSBuild는 전역 어셈블리 캐시에 더 이상 설치되지 않습니다. MSBuild를 프로그래밍 방식으로 참조하려면 NuGet 패키지를 사용하세요.
+ MSBuild는 전역 어셈블리 캐시에 더 이상 설치되지 않습니다. MSBuild를 프로그래밍 방식으로 참조하려면 NuGet 패키지를 사용하세요. 자세한 내용은 [MSBuild 15.0에 대한 기존 애플리케이션 업데이트](../msbuild/updating-an-existing-application.md)를 참조하세요.
 
 ## <a name="changed-properties"></a>변경된 속성
 

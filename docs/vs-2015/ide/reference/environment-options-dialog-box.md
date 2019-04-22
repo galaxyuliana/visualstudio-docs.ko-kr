@@ -12,17 +12,16 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8acdea7f4c524e6a8697b502efe610fb95a27680
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: b28a0d68c6e480c7b13a6ab3aa95b93838496383
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54753309"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650033"
 ---
 # <a name="environment-options-dialog-box"></a>옵션 대화 상자, 환경
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **옵션** 대화 상자의 **환경** 폴더에 있는 페이지를 사용하여 IDE(통합 개발 환경)에서 특정 요소의 표시 및 작동 방법을 설정할 수 있습니다. 메뉴 모음의 **도구**, **옵션**을 선택한 다음 **환경**을 선택하여 환경 페이지에 액세스할 수 있습니다.  
   
 > [!NOTE]

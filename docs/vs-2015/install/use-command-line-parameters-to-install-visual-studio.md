@@ -14,25 +14,26 @@ caps.latest.revision: 10
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: cd61d03b5639038612e305697f4245e582ee3efe
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: a3fe0233f08f33535be4b02cc06c29d919d75169
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54794041"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651165"
 ---
 # <a name="use-command-line-parameters-to-install-visual-studio"></a>명령줄 매개 변수를 사용하여 Visual Studio 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [명령줄 매개 변수를 사용 하 여 Visual Studio 2017 설치](https://docs.microsoft.com/visualstudio/install/use-command-line-parameters-to-install-visual-studio)합니다.
+Visual Studio에서 최신 설명서를 참조 하세요 [명령줄 매개 변수를 사용 하 여 Visual Studio 설치](/visualstudio/install/use-command-line-parameters-to-install-visual-studio)합니다.
 
 명령 프롬프트에서 Visual Studio 2015를 설치하는 경우 다음 명령줄 매개 변수(스위치라고도 함)를 사용할 수 있습니다.
 
 > [!NOTE]
->  사용 하는 실제 설치 관리자 부트스트래퍼 파일이 아닌 있는지 확인 합니다. 예를 들어 사용 해야 **`vs_enterprise.exe`** vs_enterprise_ 대신*GUID*.exe입니다. 설치 관리자를 다운로드할 수 있습니다 [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015)합니다.
+> 사용 하는 실제 설치 관리자 부트스트래퍼 파일이 아닌 있는지 확인 합니다. 예를 들어 사용 해야 **`vs_enterprise.exe`** vs_enterprise_ 대신*GUID*.exe입니다. 설치 관리자를 다운로드할 수 있습니다 [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015)합니다.
 
 ## <a name="list-of-command-line-parameters"></a>명령줄 매개 변수 목록
- Visual Studio 명령줄 매개 변수는 대/소문자를 구분하지 않습니다.
+
+Visual Studio 명령줄 매개 변수는 대/소문자를 구분하지 않습니다.
 
 |매개 변수|설명|
 |---------------|-----------------|
@@ -59,7 +60,8 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [명령줄 �
 |**/repair**|Visual Studio를 복구합니다.|
 |**/SuppressRefreshPrompt**|설치 마법사에 업데이트 사용 가능 대화 상자가 표시되지 않도록 하므로 설치 마법사가 필수 또는 권장 업데이트 버전을 자동으로 수락합니다.|
 |**/u**<br /><br /> **/Uninstall**|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 제거합니다.|
-|**/Uninstall /Force**<br /><br /> **/u /force**|Visual Studio 및 다른 제품과 공유하는 모든 기능을 제거합니다. **경고:** 동일한 컴퓨터에 설치 된 다른 제품이 제대로 작동 하지 않을 경우이 매개 변수를 사용 합니다.|
+|**/Uninstall /Force**<br /><br /> **/u /force**|Visual Studio 및 다른 제품과 공유하는 모든 기능을 제거합니다. **경고:**  이 매개 변수를 사용할 경우 같은 컴퓨터에 설치된 다른 제품이 제대로 작동하지 않을 수 있습니다.|
 
 ## <a name="see-also"></a>참고 항목
- [Visual Studio 관리자 가이드](../install/visual-studio-administrator-guide.md)
+
+- [Visual Studio 관리자 가이드](../install/visual-studio-administrator-guide.md)

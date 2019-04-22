@@ -1,7 +1,7 @@
 ---
 title: 방화벽 또는 프록시 서버 뒤에 설치 및 사용
 description: 조직에서 방화벽 또는 프록시 서버를 사용하는 경우 허용 목록에 추가하거나 열려는 도메인 URL, 포트 및 프로토콜을 검토합니다.
-ms.date: 07/10/2018
+ms.date: 03/30/2019
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: b483115daf15d7bf44c188e76993e5ffaedab699
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 227525b08e45832041b573fbb7cf3719484d1b8e
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323846"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58857530"
 ---
 # <a name="install-and-use-visual-studio-and-azure-services-behind-a-firewall-or-proxy-server"></a>방화벽 또는 프록시 서버 배후에서 Visual Studio와 Azure 서비스 설치 및 사용
 
@@ -102,7 +102,7 @@ Visual Studio 설치 관리자는 다양한 도메인과 다운로드 서버에�
 | GitHub 리포지토리 정보 | api.github.com | https | 443 | Bower 패키지에 대한 추가 정보를 가져오는 데 필요합니다. |
 | 웹 Linter | Eslint.org<br><br>www.Bing.com <br><br>www.coffeelint.org | http | 80 | |
 | Cookiecutter<br>탐색기 템플릿<br>검색 <br><br>Cookiecutter <br>탐색기 프로젝트<br> 만들기 | api.github.com <br>raw.githubusercontent.com <br>go.microsoft.com<br><br>pypi.org <br> pypi.python.org | https | 443<br> | 추천 피드 및 GitHub 리포지토리에서 온라인 템플릿을 검색하는 데 사용됩니다. <br><br>PyPI(Python 패키지 인덱스)에서 cookiecutter Python 패키지의 일회성 주문형 설치를 요구하는 cookiecutter 템플릿에서 프로젝트를 만드는 데 사용됩니다. |
-| Python 패키지 <br>검색<br><br>Python 패키지 <br>관리<br><br>Python <br>새 프로젝트 <br>템플릿 | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | pip 패키지를 검색하는 기능을 제공합니다.<br><br>pip가 없을 경우 자동으로 pip를 설치하는 데 사용됩니다. <br><br> 다음을 만드는 데 사용됩니다. <br><br>새 프로젝트 대화 상자에서 다음 Python 프로젝트 템플릿을 cookiecutter 템플릿 URL로 확인하는 데 사용됩니다.<br> - 분류자 프로젝트<br>- 클러스터링 프로젝트 <br> - 재발 프로젝트 <br> - PyKinect를 사용하는 PyGame <br> - Pyvot 프로젝트 |
+| Python 패키지 <br>검색<br><br>Python 패키지 <br>관리<br><br>새로 만들기 <br>Python <br> 프로젝트 <br>템플릿 | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | pip 패키지를 검색하는 기능을 제공합니다.<br><br>pip가 없을 경우 자동으로 pip를 설치하는 데 사용됩니다. <br><br>다음과 같은 새 Python 프로젝트 템플릿을 cookiecutter 템플릿 URL로 확인하는 데 사용됩니다.<br> - 분류자 프로젝트<br>- 클러스터링 프로젝트 <br> - 재발 프로젝트 <br> - PyKinect를 사용하는 PyGame <br> - Pyvot 프로젝트 |
 | Office 웹 <br>추가 기능(add-in) <br> file:/// <br>확인 <br>서비스 | verificationservice.osi.office.net | https | 443 | Office 웹 추가 기능에 대한 매니페스트의 유효성을 검사하는 데 사용됩니다. |
 | SharePoint 및 <br>Office 추가 기능 | sharepoint.com | https | 443 | SharePoint Online에 대한 SharePoint 및 Office 추가 기능을 게시 및 테스트하는 데 사용됩니다. |
 | 워크플로 관리자 <br>테스트 서비스<br> 호스트 | | http | 12292 | 워크플로를 사용하여 SharePoint 추가 기능을 테스트하기 위해 자동으로 생성되는 방화벽 규칙입니다. |
@@ -141,6 +141,7 @@ Visual Studio 설치 관리자는 다양한 도메인과 다운로드 서버에�
 
 ## <a name="see-also"></a>참고 항목
 
+* [Live Share 연결 요구 사항](/visualstudio/liveshare/reference/connectivity/)
 * [Visual Studio의 네트워크 설치 만들기](create-a-network-installation-of-visual-studio.md)
 * [Visual Studio에서 네트워크 관련 오류 문제 해결](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)

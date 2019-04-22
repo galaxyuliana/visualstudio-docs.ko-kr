@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
-ms.openlocfilehash: 2a0b1e14dd822c159484dcaed052a13a35d43939
-ms.sourcegitcommit: 59c48e1e42b48ad25a4e198af670faa4d8dae370
+ms.openlocfilehash: ef208a9f74c1c8ee1ccb6df2c1e54917cd354be3
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "54204335"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856449"
 ---
 # <a name="uninstalling-visual-studio-for-mac"></a>Mac용 Visual Studio 제거
 
@@ -96,6 +96,7 @@ rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf ~/Library/Application\ Support/VisualStudio
 rm -rf ~/Library/Application\ Support/VisualStudio/7.0/LocalInstall/Addins/
+rm -rf ~/Library/Application\ Support/VisualStudio/8.0/LocalInstall/Addins/
 ```
 
 다양한 Xamarin 파일 및 폴더를 포함하는 다음 디렉터리를 제거할 수도 있습니다. 그러나 제거하기 전에 이 디렉터리에는 Android 서명 키가 포함되어 있다는 점에 유의해야 합니다. 자세한 내용은 **[Android SDK 및 Java SDK 제거](#uninstall-android-sdk-and-java-sdk)** 섹션을 참조하세요.
@@ -194,10 +195,10 @@ sudo /Library/Frameworks/Xamarin.Interactive.framework/Versions/Current/uninstal
 
 이전 버전의 경우 다음 아티팩트를 수동으로 제거해야 합니다.
 
-* `"/Applications/Xamarin Workbooks.app"`에서 Workbooks 앱 삭제
-* `"Applications/Xamarin Inspector.app"`에서 Inspector 앱 삭제
-* `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Interactive"` 및 `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Inspector"` 추가 기능 삭제
-* `/Library/Frameworks/Xamarin.Interactive.framework` 및 `/Library/Frameworks/Xamarin.Inspector.framework`에서 Inspector 및 지원 파일 삭제
+* 통합 문서 앱 삭제 `"/Applications/Xamarin Workbooks.app"`
+* 검사기 앱 삭제 `"Applications/Xamarin Inspector.app"`
+* 추가 기능 삭제: `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Interactive"` 및 `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Inspector"`
+* 여기서 검사기 및 지원 파일 삭제: `/Library/Frameworks/Xamarin.Interactive.framework` 및 `/Library/Frameworks/Xamarin.Inspector.framework`
 
 ## <a name="uninstall-the-xamarin-profiler"></a>Xamarin Profiler 제거
 
@@ -216,6 +217,22 @@ rm -rf ~/Library/Logs/XamarinInstaller/
 rm -rf ~/Library/Logs/VisualStudioInstaller/
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf "~/Library/Preferences/Visual Studio/"
+```
+
+## <a name="uninstall-visual-studio-2019-for-mac-preview"></a>Mac용 Visual Studio 2019 미리 보기 제거
+
+Mac용 Visual Studio 2019 미리 보기가 별도의 미리 보기로 시작되어 Mac용 Visual Studio 2017을 Side-by-Side로 설치하여 작업을 계속할 수 있습니다.
+
+Mac용 Visual Studio 2019가 출시되었으므로, 이제 Mac용 Visual Studio 2019 미리 보기 애플리케이션을 안전하게 제거할 수 있습니다.
+
+미리 보기 애플리케이션 번들을 제거하려면 **애플리케이션** 폴더에서 **Visual Studio(미리 보기)** 를 선택하고 다음 이미지에서 표시된 것처럼 **휴지통으로 이동**을 클릭합니다.
+
+![찾기에서 "휴지통으로 이동" 옵션 선택](media/uninstall-remove-vspreview.png)
+
+다음 명령을 사용하여 미리 보기 plist 파일을 제거할 수도 있습니다.
+
+```bash
+rm -rf ~/Library/Preferences/com.microsoft.visual-studio-preview.plist
 ```
 
 ## <a name="see-also"></a>참고 항목

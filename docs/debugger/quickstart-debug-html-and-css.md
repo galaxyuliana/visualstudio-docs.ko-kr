@@ -18,10 +18,10 @@ monikerRange: vs-2017
 ms.workload:
 - uwp
 ms.openlocfilehash: dbd276751d8052f21d92e38a0e337f9c133edf2c
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790032"
 ---
 # <a name="debug-html-and-css-in-uwp-apps-in-visual-studio"></a>Visual Studio에서 UWP 앱에서 HTML 및 CSS 디버그
@@ -30,7 +30,7 @@ JavaScript 앱의 경우 Visual Studio에서 Internet Explorer 및 Visual Studio
 
 DOM 검사 도구에서 제공된 대화형 디버깅 모델을 사용하여 렌더링된 HTML 및 CSS 코드를 보고 수정할 수 있습니다. 디버거를 중지했다 다시 시작하지 않고도 이 모든 작업을 수행할 수 있습니다.
 
-기타 JavaScript 디버깅, JavaScript 콘솔 창을 사용 하 여 및 중단점 설정과 같은 기능에 대 한 정보를 참조 하세요. [퀵 스타트: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md) 하 고 [Visual Studio에서 앱을 디버그](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)합니다.
+기타 JavaScript 디버깅, JavaScript 콘솔 창을 사용 하 여 및 중단점 설정과 같은 기능에 대 한 정보를 참조 하세요. [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md) 하 고 [Visual Studio에서 앱을 디버그](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)합니다.
 
 ## <a name="InspectingDOM"></a> 라이브 DOM 검사
 DOM 탐색기는 렌더링된 페이지의 뷰를 보여 주고, DOM 탐색기를 사용하여 값을 변경하고 변경 결과를 바로 확인할 수 있습니다. 그러면 디버거를 중지했다가 다시 시작하지 않고도 변경 내용을 테스트할 수 있습니다. 이 방법을 사용하여 페이지와 상호 작용할 때 프로젝트의 소스 코드는 변경되지 않으므로 원하는 코드 수정 내용을 찾으면 소스 코드를 변경합니다.
@@ -46,7 +46,7 @@ DOM 탐색기를 사용하면 다음 작업을 수행할 수 있습니다.
 
 - 페이지 요소에 CSS 스타일이 적용된 방식을 검사하고 적용된 규칙을 추적합니다.
 
-  응용 프로그램을 디버깅할 때 주로 DOM 탐색기에서 요소를 선택해야 합니다. 요소를 선택하면 DOM 탐색기 오른쪽 탭에 나타나는 값이 DOM 탐색기에서 선택된 요소를 반영하도록 자동으로 업데이트됩니다. 이러한 탭으로는 **스타일**, **계산됨**, **레이아웃**탭이 있습니다. UWP 앱도 지원 합니다 **이벤트** 하 고 **변경** 탭 합니다. 요소를 선택하는 방법에 대한 자세한 내용은 [Selecting elements](#SelectingElements)을 참조하세요.
+  응용 프로그램을 디버깅할 때 주로 DOM 탐색기에서 요소를 선택해야 합니다. 요소를 선택하면 DOM 탐색기 오른쪽 탭에 나타나는 값이 DOM 탐색기에서 선택된 요소를 반영하도록 자동으로 업데이트됩니다. 탭은 다음과 같습니다. **스타일**하십시오 **계산**를 **레이아웃**합니다. UWP 앱도 지원 합니다 **이벤트** 하 고 **변경** 탭 합니다. 요소를 선택하는 방법에 대한 자세한 내용은 [Selecting elements](#SelectingElements)을 참조하세요.
 
 > [!TIP]
 > DOM 탐색기 창이 닫혀 있는 경우 **디버그**>**창** > **DOM 탐색기** 를 선택하여 창을 다시 엽니다. 창은 스크립트 디버깅 세션 중에만 나타납니다.
@@ -224,7 +224,7 @@ DOM 탐색기를 사용하면 다음 작업을 수행할 수 있습니다.
 
 2. default.html을 열고 `"fView"` DIV 요소의 높이와 너비를 100%로 변경하여 소스 코드를 수정합니다.
 
-3. 디버그 도구 모음에서 **Windows 앱 새로 고침** 단추를 선택하거나 F4 키를 누릅니다. 단추는 다음과 같습니다: ![새로 고침 Windows 앱 단추](../debugger/media/js_refresh.png "JS_Refresh")합니다.
+3. 디버그 도구 모음에서 **Windows 앱 새로 고침** 단추를 선택하거나 F4 키를 누릅니다. 단추는 다음과 같습니다. ![Windows 응용 프로그램 단추를 새로 고칠](../debugger/media/js_refresh.png "JS_Refresh")합니다.
 
     응용 프로그램 페이지가 다시 로드되고 시뮬레이터 또는 Phone 에뮬레이터가 전경으로 돌아갑니다.
 

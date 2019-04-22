@@ -20,17 +20,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f4bb230ba3b90007eb8d347c7334b021f31bed2f
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 48f1543bcecf64a37f98de3edddf2c57dbf46f5c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54835009"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651775"
 ---
 # <a name="useenv-devenvexe"></a>/UseEnv(devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작하고 환경 변수를 **VC++ 디렉터리** 대화 상자에 로드합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -39,7 +38,7 @@ ms.locfileid: "54835009"
 Devenv /useenv  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작하고 환경 변수를 **VC++ 디렉터리** 대화 상자에 로드합니다.  
   
 ```  

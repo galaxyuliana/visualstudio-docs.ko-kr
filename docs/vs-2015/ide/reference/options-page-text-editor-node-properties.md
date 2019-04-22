@@ -12,17 +12,16 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e117eac0a0a5211dcc97ddf14bf6727f62260ff8
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: fa63e84cd7655ebf8a48ff47a8d844a471c193cd
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54767994"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651619"
 ---
 # <a name="options-page-text-editor-node-properties"></a>옵션 페이지, 텍스트 편집기 노드 속성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 문서에서는 **옵션** 대화 상자의 **텍스트 편집기** 범주, `DTE.Properties("TextEditor", <Property Page>)`와 연관된 일부 페이지(또는 속성 컬렉션)에 대해 설명합니다. 각 하위 단원의 제목은 `Properties` 컬렉션에 액세스하는 데 사용되는 호출이며, 각 하위 단원의 표에는 컬렉션의 속성이 나열되어 있습니다.  
   
  [옵션 설정 제어](http://msdn.microsoft.com/library/a09ed242-7494-4cde-bbd1-7a8ec617965d)의 Visual Basic 매크로는 **옵션** 대화 상자의 각 페이지에 대해 현재 옵션과 해당 값을 표시하는 방법을 보여 줍니다.  

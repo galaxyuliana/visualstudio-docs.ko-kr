@@ -21,10 +21,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b46b1b5fa7952fbd1a14dc9eca7f67c493ea2807
-ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59504363"
 ---
 # <a name="publish-clickonce-applications"></a>ClickOnce 응용 프로그램 게시
@@ -77,7 +77,7 @@ ms.locfileid: "59504363"
 |[방법: ClickOnce 애플리케이션의 게시 언어 변경](../deployment/how-to-change-the-publish-language-for-a-clickonce-application.md)|지역화된 버전과 일치하도록 언어 및 문화권을 지정하는 방법을 설명합니다.|
 |[방법: ClickOnce 애플리케이션의 시작 메뉴 이름 지정](../deployment/how-to-specify-a-start-menu-name-for-a-clickonce-application.md)|ClickOnce 응용 프로그램의 표시 이름을 변경하는 방법을 설명합니다.|
 |[방법: 기술 지원을 위한 링크 지정](../deployment/how-to-specify-a-link-for-technical-support.md)|사용자가 애플리케이션에 대한 정보를 얻을 수 있는 웹 페이지나 파일 공유를 식별하는 **지원 URL** 속성을 설정하는 방법을 설명합니다.|
-|[방법: ClickOnce 배포 시에서 개별 필수 구성 요소에 대 한 지원 URL 지정](../deployment/how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md)|각 필수 구성 요소에 대한 개별 지원 URL을 포함하도록 응용 프로그램 매니페스트를 수동으로 변경하는 방법을 설명합니다.|
+|[방법: ClickOnce 배포 시 개별 필수 구성 요소에 대한 지원 URL 지정](../deployment/how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md)|각 필수 구성 요소에 대한 개별 지원 URL을 포함하도록 응용 프로그램 매니페스트를 수동으로 변경하는 방법을 설명합니다.|
 |[방법: ClickOnce 애플리케이션의 게시 페이지 지정](../deployment/how-to-specify-a-publish-page-for-a-clickonce-application.md)|응용 프로그램과 함께 기본 웹 페이지(publish.htm)를 생성 및 게시하는 방법을 설명합니다.|
 |[방법: ClickOnce 기본 웹 페이지 사용자 지정](../deployment/how-to-customize-the-default-web-page-for-a-clickonce-application.md)|자동으로 생성되어 응용 프로그램과 함께 게시되는 웹 페이지를 사용자 지정하는 방법을 설명합니다.|
 |[방법: CD 설치를 위한 자동 시작 사용](../deployment/how-to-enable-autostart-for-cd-installations.md)|미디어를 삽입할 때 ClickOnce 응용 프로그램이 자동으로 시작되도록 자동 시작 기능을 사용하도록 설정하는 방법을 설명합니다.|
@@ -86,11 +86,11 @@ ms.locfileid: "59504363"
 
 |제목|설명|
 |-----------|-----------------|
-|[방법: 파일 연결에 대 한는 ClickOnce 응용 프로그램 만들기](../deployment/how-to-create-file-associations-for-a-clickonce-application.md)|ClickOnce 응용 프로그램에 파일 이름 확장명 지원을 추가하는 방법을 설명합니다.|
+|[방법: ClickOnce 애플리케이션에 대한 파일 연결 만들기](../deployment/how-to-create-file-associations-for-a-clickonce-application.md)|ClickOnce 응용 프로그램에 파일 이름 확장명 지원을 추가하는 방법을 설명합니다.|
 |[방법: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)|ClickOnce 응용 프로그램을 실행하는 데 사용되는 URL에 전달된 매개 변수를 검색하는 방법을 보여 줍니다.|
-|[방법: 디자이너를 사용 하 여 ClickOnce 응용 프로그램의 URL 활성화를 사용 하지 않도록 설정](../deployment/how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer.md)|사용자가 디자이너를 사용하여 **시작** 메뉴에서 애플리케이션을 강제로 시작하도록 하는 방법을 설명합니다.|
+|[방법: 디자이너를 통해 ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정](../deployment/how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer.md)|사용자가 디자이너를 사용하여 **시작** 메뉴에서 애플리케이션을 강제로 시작하도록 하는 방법을 설명합니다.|
 |[방법: ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정](../deployment/how-to-disable-url-activation-of-clickonce-applications.md)|사용자가 **시작** 메뉴에서 애플리케이션을 강제로 시작하도록 하는 방법을 설명합니다.|
-|[연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 어셈블리 다운로드](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)|응용 프로그램 어셈블리를 응용 프로그램에서 처음 사용할 때만 디자이너를 사용하여 다운로드하는 방법을 설명합니다.|
+|[연습: 디자이너를 사용하여 ClickOnce 배포 API에서 요청 시 어셈블리 다운로드](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)|응용 프로그램 어셈블리를 응용 프로그램에서 처음 사용할 때만 디자이너를 사용하여 다운로드하는 방법을 설명합니다.|
 |[연습: ClickOnce 배포 API에서 요청 시 어셈블리 다운로드](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md)|응용 프로그램 어셈블리를 응용 프로그램에서 처음 사용할 때만 다운로드하는 방법을 설명합니다.|
 |[연습: ClickOnce 배포 API 사용 하 여 요청 시 위성 어셈블리 다운로드](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md)|위성 어셈블리를 선택적 항목으로 표시하고 클라이언트 컴퓨터의 현재 문화권 설정에 필요한 어셈블리만 다운로드하는 방법을 설명합니다.|
 |[연습: 수동으로 ClickOnce 응용 프로그램 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)|.NET Framework 유틸리티를 사용하여 ClickOnce 응용 프로그램을 배포하는 방법을 설명합니다.|
