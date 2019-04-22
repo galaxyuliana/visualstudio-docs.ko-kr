@@ -15,17 +15,16 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 328ed2afe4c942c2db16ebca214b7a3dfa631138
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: a986303025460d6ca57cd3aa836a9f61f1804461
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54789837"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648837"
 ---
 # <a name="code-snippet-picker"></a>코드 조각 선택
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 코드 편집기는 사용자가 몇 번의 마우스 클릭으로 현재 문서에 미리 만들어진 코드 블록을 삽입할 수 있는 **코드 조각 선택**을 제공합니다.  
   
  **코드 조각 선택**을 표시하는 프로시저는 사용 중인 언어에 따라 달라집니다.  
@@ -46,7 +45,7 @@ ms.locfileid: "54789837"
   
 - SQL - 코드 편집기에서 원하는 위치를 마우스 오른쪽 단추로 클릭하여 바로 가기 메뉴를 표시하고 **조각 삽입**을 클릭합니다.  
   
-  대부분의 Visual Studio 개발 언어에서 **코드 조각 관리자**를 사용하여 **코드 조각 선택**이 XML 코드 조각 파일을 검사하는 **폴더 목록**에 폴더를 추가할 수 있습니다. 또한 사용자 고유의 조각을 만들어 목록에 추가할 수 있습니다. 자세한 내용은 [연습: 코드 조각 만들기](../../ide/walkthrough-creating-a-code-snippet.md)를 참조하세요.  
+  대부분의 Visual Studio 개발 언어에서 **코드 조각 관리자**를 사용하여 **코드 조각 선택**이 XML 코드 조각 파일을 검사하는 **폴더 목록**에 폴더를 추가할 수 있습니다. 또한 사용자 고유의 조각을 만들어 목록에 추가할 수 있습니다. 자세한 내용은 [연습: 코드 조각 만들기](../../ide/walkthrough-creating-a-code-snippet.md)합니다.  
   
 ## <a name="uielement-list"></a>UI 요소 목록  
  항목 이름  

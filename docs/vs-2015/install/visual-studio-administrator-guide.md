@@ -13,17 +13,17 @@ caps.latest.revision: 76
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: 839573b296d01d10e3f4c06e94cb1553380c673c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 5a84f0a037df92ff31ce66eb6692367ef1d209f6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57868887"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649370"
 ---
 # <a name="visual-studio-administrator-guide"></a>Visual Studio Administrator Guide
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 2017에 대 한 최신 설명서를 참조 하세요. 합니다 [Visual Studio 2017 관리자 가이드](/visualstudio/install/visual-studio-administrator-guide)합니다.
+Visual Studio에서 최신 설명서를 참조 하세요. 합니다 [Visual Studio 관리자 가이드](/visualstudio/install/visual-studio-administrator-guide)합니다.
 
 각 대상 컴퓨터가 충족으로 네트워크에서 Visual Studio 2015를 배포할 수 있습니다 합니다 [최소 설치 요구 사항](https://visualstudio.microsoft.com/vs/older-downloads/)합니다. [Visual Studio의 오프라인 설치 만들기](../install/create-an-offline-installation-of-visual-studio.md) 페이지에 설명된 대로 /layout 스위치와 함께 설치 파일을 실행한 다음, 로컬 머신에서 네트워크 공유로 복사하면 네트워크 공유를 만들 수 있습니다. ISO를 사용 하는 경우 ISO를 탑재할 수 및 공유 하거나 ISO를 네트워크 공유에 복사 합니다.  
   
@@ -45,7 +45,7 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요. 합니다 [V
 |성공|0x00000000 [0]|0x00000bc2 [3010]|설치 성공|  
 |블록|0x80044000 [-2147205120]|0x8004C000 [-2147172352]|보고할 유일한 블록이 “다시 부팅 보류 중”인 경우 완료되는 값은 완료 안 됨-다시 부팅해야 함 값(0x80048bc7)입니다.|  
 |취소|0x00000642 [1602]|0x80048642 [-2147187134]|다시 부팅 값이 반환될 때 반환 코드는 1602입니다.|  
-|완료 안 됨-다시 부팅해야 함|해당 없음|0x80048bc7 [-2147185721]|설치를 계속하려면 다시 시작해야 합니다.|  
+|완료 안 됨-다시 부팅해야 함|N/A|0x80048bc7 [-2147185721]|설치를 계속하려면 다시 시작해야 합니다.|  
 |실패|0x00000643 [1603]|0x80048643 [-2147187133]|다시 부팅 값이 반환될 때 반환 코드는 1603입니다.|  
   
 ## <a name="interactive-administrator-installer"></a>대화형 관리자 설치 관리자  
@@ -54,22 +54,23 @@ Visual Studio 2017에 대 한 최신 설명서를 참조 하세요. 합니다 [V
 ## <a name="controlling-what-is-installed"></a>설치되는 기능 제어  
  최종 사용자가 설치할 수 있는 기능을 제어하려는 경우 관리자 파일 설치와 명령줄 옵션의 두 가지 옵션이 있습니다. 최종 사용자가 Visual Studio 설치 관리자 환경에서 선택할 수 있는 기능을 제한하려는 경우 관리자 파일 설치를 선택합니다. 초기 구성을 만들지만 최종 사용자가 고유한 Visual Studio 설치 관리자 환경을 선택할 수 있게 하려는 경우 명령줄 매개 변수를 선택합니다.  
   
- 관리자 파일 환경에 대한 자세한 내용은 [How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md) 및 [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md)을 참조하세요.  명령줄 컨트롤에 대 한 자세한 내용은 참조는 [Visual Studio 설치를 사용 하 여 명령줄 매개 변수](../install/use-command-line-parameters-to-install-visual-studio.md) 페이지입니다.  
+ 관리자 파일 환경에 대 한 자세한 내용은 참조 하세요. [방법: 만들기 및 Visual Studio의 무인된 설치 실행](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md) 고 [방법: Visual Studio를 배포할 때 제품 키를 자동으로 적용](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md)합니다.  명령줄 컨트롤에 대 한 자세한 내용은 참조는 [Visual Studio 설치를 사용 하 여 명령줄 매개 변수](../install/use-command-line-parameters-to-install-visual-studio.md) 페이지입니다.  
   
 ## <a name="specifying-customer-feedback-settings"></a>사용자 의견 설정 지정  
- 기본적으로 Visual Studio 설치에서는 고객 의견을 허용합니다. 다음 레지스트리 키의 값을 문자열 "0"으로 변경하여 Visual Studio에서 개별 컴퓨터의 고객 의견을 허용하지 않도록 구성할 수 있습니다.  
+
+기본적으로 Visual Studio 설치에서는 고객 의견을 허용합니다. 다음 레지스트리 키의 값을 문자열 "0"으로 변경하여 Visual Studio에서 개별 컴퓨터의 고객 의견을 허용하지 않도록 구성할 수 있습니다.  
   
- **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**  
+**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**  
 **OptIn**  
   
- 예를 들어 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM OptIn="0"으로 변경합니다.  
+예를 들어 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM OptIn="0"으로 변경합니다.  
   
 ## <a name="related-topics"></a>관련 항목  
   
 |항목|설명|  
 |-----------|-----------------|  
 |[방법: Visual Studio의 특정 릴리스 설치](../install/how-to-install-a-specific-release-of-visual-studio.md)|현재 버전의 특정 구성을 설치 하는 방법에 설명 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.|  
-|[방법: Visual Studio 무인 설치 만들기 및 실행](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md)|설치 하는 방법에 설명 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 무인된 모드에서.|  
+|[방법: 만들기 및 Visual Studio의 무인된 설치 실행](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md)|설치 하는 방법에 설명 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 무인된 모드에서.|  
 |[방법: Visual Studio를 배포할 때 제품 키를 자동으로 적용](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md)|여러 컴퓨터에 배포할 때 제품 키를 적용 하는 방법에 설명 합니다.|  
 |[도움말 뷰어 관리자 가이드](../ide/help-viewer-administrator-guide.md)|없거나 인터넷에 액세스할 수 없는 네트워크 환경에 대 한 로컬 도움말 설치를 관리 하는 방법에 대 한 정보를 제공 합니다.|  
 |[Visual Studio 설치](../install/install-visual-studio-2015.md)|지침 및 설치 하는 방법을 설명 하는 항목에 대 한 링크가 제공 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.|

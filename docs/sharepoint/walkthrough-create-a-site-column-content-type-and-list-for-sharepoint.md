@@ -20,10 +20,10 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: dee5d1ec207f2b7bec030076797720fe9e8216ed
-ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59504265"
 ---
 # <a name="walkthrough-create-a-site-column-content-type-and-list-for-sharepoint"></a>연습: SharePoint 용 사이트 열, 콘텐츠 형식 및 목록 만들기
@@ -224,4 +224,4 @@ ms.locfileid: "59504265"
 - [SharePoint 솔루션 개발](../sharepoint/developing-sharepoint-solutions.md)
 - [방법: 사용자 지정 필드 유형 만들기](http://go.microsoft.com/fwlink/?LinkId=192079)
 - [콘텐츠 형식](http://go.microsoft.com/fwlink/?LinkId=192080)
-- [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)
+- [열](http://go.microsoft.com/fwlink/?LinkId=192081)

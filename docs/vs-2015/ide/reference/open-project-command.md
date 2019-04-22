@@ -15,17 +15,16 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 916ea8435571efc01f38e408d4fc2d4563c16f1c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: e2e945eb2faa492f576a0fd0a15fc0bd0e9b208e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54753487"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652425"
 ---
 # <a name="open-project-command"></a>프로젝트 열기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 기존 프로젝트를 엽니다.  
   
 ## <a name="syntax"></a>구문  
@@ -45,7 +44,7 @@ File.OpenProject filename
   
  디버깅 중에는 이 명령을 사용할 수 없습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제는 Test1이라는 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 프로젝트를 엽니다.  
   
 ```  

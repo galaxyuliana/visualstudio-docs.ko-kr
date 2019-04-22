@@ -11,17 +11,16 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fc12ba16a52546b26a7941734caa8c6fca8419b1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: f5d619a18fa38c09b25f2d8367f3f767ac5bdc11
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54764863"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651084"
 ---
 # <a name="target-build-order"></a>대상 빌드 순서
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 단일 대상에 대한 입력이 다른 대상의 출력을 사용하는 경우에는 대상의 순서를 지정해야 합니다. 다음과 같은 특성을 사용하여 대상이 실행되는 순서를 지정할 수 있습니다.  
   
 - `InitialTargets`. 이 `Project` 특성은 대상이 명령줄 또는 `DefaultTargets` 특성에 지정되어 있더라도 처음으로 실행할 대상을 지정합니다.  
@@ -47,7 +46,7 @@ ms.locfileid: "54764863"
   
  가져온 프로젝트의 경우 자체 `InitialTargets` 특성이 있을 수 있습니다. 모든 초기 대상은 함께 집계되어 순서대로 실행됩니다.  
   
- 자세한 내용은 [방법: 먼저 빌드할 대상 지정](../msbuild/how-to-specify-which-target-to-build-first.md)을 참조하세요.  
+ 자세한 내용은 [방법: 먼저 빌드할 대상 지정](../msbuild/how-to-specify-which-target-to-build-first.md)합니다.  
   
 ## <a name="default-targets"></a>기본 대상  
  [Project](../msbuild/project-element-msbuild.md) 요소의 `DefaultTargets` 특성은 대상이 명령줄에 명시적으로 지정되어 있지 않은 경우 빌드할 하나 이상의 대상을 지정합니다.  
@@ -66,13 +65,13 @@ ms.locfileid: "54764863"
   
  가져온 프로젝트의 경우 자체 `DefaultTargets` 특성이 있을 수 있습니다. 처음으로 나오는 `DefaultTargets` 특성에 따라 실행될 기본 대상이 결정됩니다.  
   
- 자세한 내용은 [방법: 먼저 빌드할 대상 지정](../msbuild/how-to-specify-which-target-to-build-first.md)을 참조하세요.  
+ 자세한 내용은 [방법: 먼저 빌드할 대상 지정](../msbuild/how-to-specify-which-target-to-build-first.md)합니다.  
   
 ## <a name="first-target"></a>첫 번째 대상  
  초기 대상, 기본 대상 또는 명령줄 대상이 없으면 MSBuild는 프로젝트 파일이나 가져온 프로젝트 파일에서 처음으로 나오는 대상을 실행합니다.  
   
 ## <a name="target-dependencies"></a>대상 종속성  
- 대상은 상호 간의 종속 관계를 설명할 수 있습니다. `DependsOnTargets` 특성은 대상이 다른 대상에 종속됨을 나타냅니다. 예를 들어 개체에 적용된  
+ 대상은 상호 간의 종속 관계를 설명할 수 있습니다. `DependsOnTargets` 특성은 대상이 다른 대상에 종속됨을 나타냅니다. 예를 들면 다음과 같습니다.  
   
 ```  
 <Target Name="Serve" DependsOnTargets="Chop;Cook" />  

@@ -17,14 +17,15 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
+monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: f73011cd675772add62b25a1f94de52c0018e667
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 725566a4bc09a7c787c5ffa96b9422d15fd197b1
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57867970"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790955"
 ---
 # <a name="analyze-javascript-memory-usage-in-uwp-apps"></a>UWP 앱에서 JavaScript 메모리 사용량 분석
 Visual Studio에서 제공하는 JavaScript 메모리 분석기를 사용하면 JavaScript를 사용하여 Windows용으로 작성된 UWP 앱의 메모리 사용량을 파악하고 메모리 누수를 찾을 수 있습니다. 지원되는 앱으로는 유니버설 Windows 앱을 위한 앱이 있습니다.
@@ -102,7 +103,7 @@ Visual Studio에서 제공하는 JavaScript 메모리 분석기를 사용하면 
 
 1. Visual Studio에서 앱을 엽니다.
 
-2. JavaScript 메모리 분석기를 실행합니다. 자세한 내용은 [JavaScript 메모리 분석기 실행](#run-the-JavaScript-memory-analyzer)을 참조하세요.
+2. JavaScript 메모리 분석기를 실행합니다(이전 단계 참조).
 
 3. 테스트하려는 시나리오에서 앱을 실행합니다. 예를 들어, 특정 페이지 로드 시나 앱 시작 시 시나리오에 대규모 DOM 변환이 관련될 수 있습니다.
 

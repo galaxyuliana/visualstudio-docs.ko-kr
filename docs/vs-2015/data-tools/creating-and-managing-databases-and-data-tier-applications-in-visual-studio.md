@@ -14,16 +14,15 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4c3a8a1f4b0c6e242e3999d870fdfcdc764d8336
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6b6ee9413a2394d0477cd1c7b1a0caf83dd6ad6d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981135"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651385"
 ---
 # <a name="creating-and-managing-databases-and-data-tier-applications-in-visual-studio"></a>데이터베이스 및 Visual Studio에서 데이터 계층 응용 프로그램 만들기 및 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 중요]
 >  이전 버전에 포함 된 데이터베이스 프로젝트 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 지금 나와 [!INCLUDE[sql_Denali_long](../includes/sql-denali-long-md.md)] 도구입니다. 자세한 내용은 [SQL Server Developer Tools](http://go.microsoft.com/fwlink/?LinkId=228126)합니다.

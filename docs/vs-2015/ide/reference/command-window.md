@@ -17,17 +17,16 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c7ec3911496c5106d53f90a281452df2c8a128f6
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 3c83ebc4b2a58976f8848f4576d8b30ad7778db2
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54788349"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650436"
 ---
 # <a name="command-window"></a>명령 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **명령** 창은 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE(통합 개발 환경)에서 직접 명령 또는 별칭을 실행하는 데 사용됩니다. 메뉴 명령 및 메뉴에 나타나지 않는 명령을 둘 다 실행할 수 있습니다. **명령** 창을 표시하려면 **보기** 메뉴에서 **다른 창**을 선택하고 **명령 창**을 선택합니다.  
   
 ## <a name="displaying-the-values-of-variables"></a>변수 값 표시  
@@ -48,7 +47,7 @@ ms.locfileid: "54788349"
 ## <a name="entering-commands"></a>명령 입력  
  보다 큼 기호(`>`)는 명령 창의 왼쪽 가장자리에 새 줄 프롬프트로 표시됩니다. 위쪽 화살표 및 아래쪽 화살표 키를 사용해서 이전에 실행된 명령을 스크롤합니다.  
   
-|작업|솔루션|예|  
+|작업|솔루션|예제|  
 |----------|--------------|-------------|  
 |식을 계산합니다.|식 앞에 물음표(`?`)를 추가합니다.|`? myvar`|  
 |직접 실행 창으로 전환합니다.|`immed`를 보다 큼 기호(>) 없이 창에 입력합니다.|`immed`|  
@@ -114,7 +113,7 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
   짧은 형식 스위치를 그룹으로 결합하고 값을 지정하면 해당 값이 모든 스위치에 적용됩니다. 예를 들어 `/pgm:123`은 `/p:123 /g:123 /m:123`과 같습니다. 그룹에 있는 스위치가 값을 허용하지 않으면 오류가 발생합니다.  
   
 ## <a name="escape-characters"></a>이스케이프 문자  
- 명령줄의 캐럿(^) 문자는 캐럿 바로 뒤의 문자가 제어 문자가 아닌 문자 그대로 해석된다는 것을 의미합니다. 이스케이프 문자는 매개 변수 또는 스위치 값에 곧은 큰따옴표("), 공백, 선행 슬래시, 캐럿 등 또는 리터럴 문자를 포함하기 위해 사용할 수 있습니다(스위치 이름 제외). 예를 들어 개체에 적용된  
+ 명령줄의 캐럿(^) 문자는 캐럿 바로 뒤의 문자가 제어 문자가 아닌 문자 그대로 해석된다는 것을 의미합니다. 이스케이프 문자는 매개 변수 또는 스위치 값에 곧은 큰따옴표("), 공백, 선행 슬래시, 캐럿 등 또는 리터럴 문자를 포함하기 위해 사용할 수 있습니다(스위치 이름 제외). 예를 들면 다음과 같습니다.  
   
 ```  
 >Edit.Find ^^t /regex  

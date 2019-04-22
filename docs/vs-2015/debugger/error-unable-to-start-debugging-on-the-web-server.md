@@ -28,12 +28,12 @@ caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 15e65b85490c2cc65a6f965a37bd28b9a241b428
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ee62f07bd9fb4626f8e8fb3387e4b80ca2d903d7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980967"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652061"
 ---
 # <a name="error-unable-to-start-debugging-on-the-web-server"></a>오류: 웹 서버에서 디버깅을 시작할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,7 +88,6 @@ Visual Studio의 이전 버전 사용 중인 경우:
     (나중에 수정) 이전 버전의 버그는 몇 가지 ASP.NET 디버깅 시나리오에서에서 상승 된 권한이 필요 합니다.
     
 - Visual Studio의 여러 인스턴스를 실행 하는 경우 Visual Studio의 한 인스턴스에서 프로젝트를 다시 열고 다시 시도 합니다.
-   
-  
+
 ## <a name="see-also"></a>참고 항목  
  [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

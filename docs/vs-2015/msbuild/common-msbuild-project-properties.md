@@ -19,17 +19,16 @@ caps.latest.revision: 39
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3f5c7c2f587f4c2fb44ab56223dafa2f988c6103
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 7d5c716d702716ffb0083279523668eab3e01685
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758472"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650243"
 ---
 # <a name="common-msbuild-project-properties"></a>일반적인 MSBuild 프로젝트 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 다음 표에서는 Visual Studio 프로젝트 파일에 정의되거나 MSBuild가 제공하는 .targets 파일에 포함된 자주 사용하는 속성을 보여 줍니다.  
   
  Visual Studio의 프로젝트 파일(.csproj, .vbproj, vcxproj 등)은 IDE를 사용하여 프로젝트를 빌드할 때 실행하는 MSBuild XML 코드를 포함합니다. 일반적으로 프로젝트에서는 하나 이상의 .targets 파일을 가져와서 빌드 프로세스를 정의합니다. 자세한 내용은 [.Targets 파일](../msbuild/msbuild-dot-targets-files.md)을 참조하세요.  

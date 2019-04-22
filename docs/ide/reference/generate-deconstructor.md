@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: 8887f4cd6b4dcd7f08e808f1271f5d546d6a224c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: f24fa988cf14bbf48fe157e2b9ee538d3eff2f35
+ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58159181"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "59537532"
 ---
 # <a name="generate-a-deconstructor-in-visual-studio"></a>Visual Studio에서 분해자 생성
 
@@ -28,19 +28,19 @@ ms.locfileid: "58159181"
 
 **이유:** 수동으로 분해자를 입력할 수 있지만 이 기능은 올바른 out 매개 변수로 스텁을 생성합니다.
 
-## <a name="generate-deconstructor"></a>분해자 생성
+## <a name="generate-a-deconstructor"></a>분해자 생성
 
-1. 원하는 out 매개 변수를 지정하여 새로운 형식을 선언합니다. 이 선언은 선언과 일치하는 분해 인스턴스를 찾을 수 없을 때 오류가 발생됩니다.
+1. 원하는 out 매개 변수를 지정하여 새로운 형식을 선언합니다. 이 선언에서는 선언과 일치하는 분해 인스턴스를 찾을 수 없을 때 오류가 발생합니다.
 
    ![분해자 오류 누락](media/deconstruct.png)
 
-2. 다음으로, 다음 중 하나를 수행합니다.
+2. 다음 단계 중 하나를 수행합니다.
 
    - **키보드**
-      - 선언에 커서를 사용하여 **Ctrl**+**를 누룹니다.** **빠른 작업 및 리팩터링** 메뉴를 트리거합니다.
+      - 선언에서 커서로 Ctrl+.를 선택하여 **빠른 작업 및 리팩터링** 메뉴를 트리거합니다.
    - **마우스**
       - 마우스 오른쪽 단추로 클릭하고 **빠른 작업 및 리팩터링** 메뉴를 선택합니다.
-      - 텍스트 커서가 이미 구부러진 빨간 곡선이 있는 줄 위에 있으면 왼쪽 여백에 나타나는 ![스크루드라이버](media/screwdriver.png) 아이콘을 클릭합니다.
+      - 클래스의 빈 줄에 이미 텍스트 커서가 있는 경우 왼쪽 여백에 나타나는 ![스크루드라이버](media/screwdriver.png) 아이콘을 클릭합니다.
 
       ![분해자 생성 코드 수정](media/deconstruct-codefix.png)
 

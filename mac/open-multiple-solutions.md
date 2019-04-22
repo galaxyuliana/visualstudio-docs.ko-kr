@@ -3,15 +3,15 @@ title: '방법: Mac용 Visual Studio에서 여러 솔루션 열기'
 description: Mac용 Visual Studio에서 둘 이상의 솔루션을 여는 방법 및 둘 이상의 애플리케이션 인스턴스를 여는 방법을 알아봅니다.
 author: conceptdev
 ms.author: crdun
-ms.date: 07/19/2018
+ms.date: 04/02/2019
 ms.assetid: 592BA4E3-8DEF-4FCD-8BA0-519A4CEEE03E
 ms.custom: video
-ms.openlocfilehash: cdbe02cf3d60b460252f09764521afd240551115
-ms.sourcegitcommit: 5dc74b4fdff1357df43a19f6e8a51d7bf706abd6
+ms.openlocfilehash: 031ce885faa29e587fe5d48210d8e13b48fcdc4c
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55768241"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856346"
 ---
 # <a name="open-multiple-solutions-or-instances-of-visual-studio-for-mac"></a>Mac용 Visual Studio의 여러 솔루션 또는 인스턴스 열기
 
@@ -21,11 +21,9 @@ Mac에서 Mac용 Visual Studio를 포함한 모든 애플리케이션은 기본�
 
 ## <a name="open-a-second-instance-of-visual-studio-for-mac"></a>Mac용 Visual Studio의 두 번째 인스턴스 열기
 
-IDE(통합 개발 환경)의 두 번째 인스턴스를 열려면 **터미널** 애플리케이션을 열고 다음 줄을 입력합니다.
+IDE(통합 개발 환경)의 두 번째 인스턴스를 열려면 dock 또는 **애플리케이션** 폴더에서 Visual Studio 아이콘을 마우스 오른쪽 단추로 클릭하고 **새 인스턴스**를 선택합니다.
 
-```bash
-open -n "/Applications/Visual Studio.app"
-```
+![마우스 오른쪽 단추로 클릭한 Visual Studio 아이콘의 새 인스턴스 메뉴 옵션 스크린샷](media/open-new-instance.png)
 
 ## <a name="open-a-second-solution-inside-a-single-instance"></a>단일 인스턴스 내에서 두 번째 솔루션 열기
 

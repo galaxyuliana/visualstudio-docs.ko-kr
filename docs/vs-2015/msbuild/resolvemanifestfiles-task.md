@@ -17,17 +17,16 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ec92f94522c7f2683538ed92b231bfc524632191
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 6ba088b91496c633afe34c20e40c12ded7d2279b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54796959"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651203"
 ---
 # <a name="resolvemanifestfiles-task"></a>ResolveManifestFiles 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 빌드 프로세스에서 빌드된 항목, 종속성, 위성, 콘텐츠, 디버그 기호 및 설명서 등의 항목을 확인합니다.  
   
 ## <a name="parameters"></a>매개 변수  

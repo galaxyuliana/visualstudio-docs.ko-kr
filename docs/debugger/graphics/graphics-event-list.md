@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1cbffb56d437eebffcaa59a146ede2a8b5f94273
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 5e71239755cf7cf5d38f6e71568a0cd7be0f0d98
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56683681"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649994"
 ---
 # <a name="graphics-event-list"></a>그래픽 이벤트 목록
 Visual Studio Graphics Analyzer의 그래픽 이벤트 목록을 사용하여 게임 또는 앱의 프레임 렌더링 중 기록된 Direct3D 이벤트를 살펴봅니다.
@@ -104,7 +104,6 @@ Visual Studio 2017 이상 포함 된 **리소스 기록** 창입니다.  조사�
 ![리소스 기록](media/gfx_diag_resource_history.png)
 
 이 창에는 이벤트 목록에서 선택한 항목의 기록을 볼 수 있습니다.  맨 위에 있는 드롭다운의 기록을 보려면 다른 항목을 선택 하려면 사용할 수 있습니다.  위쪽 창에 포함 된 **프레임 설정 이벤트**합니다.  에 해당 하는 이벤트를 *만들기* 범주를 입력 하 고 일반적으로 초기화 하 고 리소스를 만들 수 있는 호출 됩니다.  포함 하 고 창 아래쪽의 **프레임 이벤트** 섹션입니다.  이러한 일반 읽기 되며 리소스의 사용 하는 동안 발생 하는 이벤트를 작성 합니다.
-
 
 | 열 | 설명 |
 |-----------| - |

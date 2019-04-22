@@ -13,17 +13,16 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 60e0dd272bd22cce2367e59b16fdea7965cb50e7
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: a81c0082bc9b8e31c6c64ff1785f5f380709f3b5
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54761591"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650969"
 ---
 # <a name="resetsettings-devenvexe"></a>/ResetSettings(devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 기본 설정을 복원하고 자동으로 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE를 시작합니다. 필요에 따라 설정을 지정한 .vssettings 파일로 다시 설정합니다.  
   
  기본 설정은 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]가 처음 시작될 때 선택된 프로필에 따라 결정됩니다.  
@@ -43,7 +42,7 @@ Devenv /ResetSettings SettingsFile
 ## <a name="remarks"></a>주의  
  `SettingsFile`이 지정되지 않은 경우에는 다음번에 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작할 때 기본 설정 컬렉션을 선택할지 묻는 메시지가 표시됩니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 명령줄은 `MySettings.vssettings` 파일에 저장된 설정을 적용합니다.  
   
 ```  

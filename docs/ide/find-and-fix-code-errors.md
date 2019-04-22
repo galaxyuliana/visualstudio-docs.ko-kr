@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d130208d022db07fe21b0c9879aa0964dffce3f2
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.openlocfilehash: a43be698fd908737c96f9de3cf346b48e84f27fc
+ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58790526"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59504460"
 ---
 # <a name="make-code-work-in-visual-studio"></a>Visual Studio에서 코드를 작동하게 하기
 
@@ -156,6 +156,6 @@ Visual Studio의 단위 테스트 및 단위 테스트를 통해 더 나은 품�
 
 ## <a name="see-also"></a>참고 항목
 
-- [디버거 기능 둘러보기](../debugger/debugger-feature-tour.md)
-- [디버거 사용에 대해 자세히 알아보기](../debugger/debugger-feature-tour.md)
+- [디버거 소개](../debugger/debugger-feature-tour.md)
+- [디버거 사용에 대해 자세히 알아보기](../debugger/index.md)
 - [코드 생성 및 수정](../ide/code-generation-in-visual-studio.md)

@@ -15,10 +15,10 @@ monikerRange: vs-2017
 ms.workload:
 - uwp
 ms.openlocfilehash: d55023b97397fa7d1b134c246c25b0d0b37a4d18
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790110"
 ---
 # <a name="debug-a-webview-control-in-a-uwp-app"></a>UWP 앱의 WebView 컨트롤 디버그
@@ -81,7 +81,7 @@ ms.locfileid: "58790110"
     > [!NOTE]
     >  콘솔을 사용하면 한 번에 단일 `WebView`, `iFrame`, 공유 계약 또는 웹 작업자와 상호 작용할 수 있습니다. 각 요소에는 웹 플랫폼 호스트(WWAHost.exe)의 개별 인스턴스가 필요합니다. 한 번에 한 호스트와 상호 작용할 수 있습니다.
 
-6.  확인 하 고 앱에서 변수를 수정 하거나에 설명 된 대로 콘솔 명령을 사용 하 여 [퀵 스타트: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md) 하 고 [JavaScript 콘솔 명령](../debugger/javascript-console-commands.md)입니다.
+6.  확인 하 고 앱에서 변수를 수정 하거나에 설명 된 대로 콘솔 명령을 사용 하 여 [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md) 하 고 [JavaScript 콘솔 명령](../debugger/javascript-console-commands.md)입니다.
 
 ## <a name="see-also"></a>참고 항목
 

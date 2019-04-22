@@ -9,17 +9,16 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 733d72f9fdf0d172e5d61d44120f212787d70050
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cb0cc75abced1d94fbedccf46b8953df78db7d28
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985779"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651255"
 ---
 # <a name="start-view"></a>시작 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 시작 뷰는 XML 스키마(XSD) 디자이너의 시작 지점입니다. 새 XSD 파일을 만들면 처음에 시작 뷰가 보입니다.  
   
  시작 뷰에 두 주요 섹션을 *워터 마크* 하며 **스키마 집합 정보** 창. 또한 모든 XSD 디자이너 뷰에서 사용할 수 있는 도구 모음이 있습니다.  

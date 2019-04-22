@@ -7,14 +7,17 @@ ms.date: 11/03/2018
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
-ms.openlocfilehash: 2dca1fdeace3a69fee231c1c31d3db75587e8294
-ms.sourcegitcommit: a260df15214b3198a28ca4e312263942cf6f4ce7
+ms.openlocfilehash: 1a3d95176af41bbf7803144995888b12abeeea3a
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "54443795"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856679"
 ---
 # <a name="install-visual-studio-2017-for-mac"></a>Mac용 Visual Studio 2017 설치
+
+> [!NOTE]
+> Mac용 Visual Studio 2019는 [현재 사용 가능](installation.md?view=vsmac-2019)합니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -23,11 +26,8 @@ ms.locfileid: "54443795"
 Visual Studio에서 iOS를 사용하는 경우 다음 사항이 필요합니다.
 
 - macOS Sierra 10.12 이상이 설치된 Mac
-- Xcode 8.3 이상 대개 안정적인 최신 버전을 사용하는 것이 좋습니다.
+- Xcode 9.3 이상. 대개 안정적인 최신 버전을 사용하는 것이 좋습니다.
 - Apple ID. Apple ID가 없으면 https://appleid.apple.com 에서 새로 만들 수 있습니다. Xcode를 설치하고 서명하려면 Apple ID가 있어야 합니다.
-
-> [!NOTE]
-> 이제 Mac용 Visual Studio 2019 미리 보기를 테스트 및 [설치에 사용할 수 있습니다](installation.md?view=vsmac-2019).
 
 ## <a name="install"></a>설치
 

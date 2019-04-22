@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d38657e1885ed84d5bd5e0e574968ae2009c19d5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: bdfd80818e88af8e2907c982e75628627bcac5e9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645877"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648552"
 ---
 # <a name="walkthrough-add-controls-to-a-document-at-runtime-in-a-vsto-add-in"></a>연습: VSTO 추가 기능에서 런타임에 문서에 컨트롤 추가
   VSTO 추가 기능을 사용 하 여 열려 있는 Microsoft Office Word 문서에 컨트롤을 추가할 수 있습니다. 이 연습에서는 리본 메뉴를 사용 하 여 추가할 사용자를 사용 하도록 설정 하는 방법에 설명 된 <xref:Microsoft.Office.Tools.Word.Controls.Button> 또는 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 문서.
@@ -78,21 +78,17 @@ ms.locfileid: "56645877"
 
 8. **속성** 창에서 다음 속성을 변경합니다.
 
-
    | 속성 | 값 |
    |-----------|-----------------------|
    | **이름** | **addButtonCheckBox** |
    | **레이블** | **추가 단추** |
 
-
 9. **group1**에 두 번째 확인란을 추가하고 다음 속성을 변경합니다.
-
 
    | 속성 | 값 |
    |-----------|---------------------------|
    | **이름** | **addRichTextCheckBox** |
    | **레이블** | **서식 있는 텍스트 컨트롤 추가** |
-
 
 10. 리본 디자이너에서 **단추 추가**를 두 번 클릭합니다.
 

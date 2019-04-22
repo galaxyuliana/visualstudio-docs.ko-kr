@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 44d68b83f9364885ea33af2184f2a911bf916325
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: 6f0fb6c013e3df041e750344c09fb19f8c43b254
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57222336"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649591"
 ---
 # <a name="how-to-add-a-new-item-to-a-workflow-project"></a>방법: 워크플로 프로젝트에 새 항목을 추가 합니다.
 
@@ -21,10 +21,9 @@ ms.locfileid: "57222336"
 
 다음 표에서 워크플로 프로젝트에 추가할 수 있는 Windows WF (Workflow Foundation) 항목을 나열 합니다.
 
-
 | 이름 | 설명 |
 |-| - |
-| 동작 | 다른 활동으로 구성할 활동입니다. 선택할 때와 동일한 XAML 파일이 프로젝트에 추가이 항목을 선택 하는 **활동 라이브러리** 새 프로젝트 템플릿. 이 절차에 대 한 자세한 내용은 참조 하세요. [워크플로 프로젝트 만들기](creating-a-workflow-project.md)합니다. |
+| 활동 | 다른 활동으로 구성할 활동입니다. 선택할 때와 동일한 XAML 파일이 프로젝트에 추가이 항목을 선택 하는 **활동 라이브러리** 새 프로젝트 템플릿. 이 절차에 대 한 자세한 내용은 참조 하세요. [워크플로 프로젝트 만들기](creating-a-workflow-project.md)합니다. |
 | 활동 디자이너 | 활동의 디자인 타임 환경을 사용자 지정할 디자이너입니다. 선택할 때와 동일한 파일이 프로젝트에 추가이 항목을 선택 하는 **활동 디자이너 라이브러리** 새 프로젝트 템플릿. |
 | Code 활동 | 코드로 작성된 실행 논리가 포함된 활동입니다. <xref:System.Activities.CodeActivity.Execute%2A> 메서드의 재정의가 포함된 소스 코드 파일이 이미 생성되어 있습니다. |
 | WCF 워크플로 서비스 | 워크플로 활동을 사용하여 빌드된 [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] 서비스입니다. 선택할 때와 동일한 파일이 프로젝트에 추가이 항목을 선택 하는 **WCF 워크플로 서비스 응용 프로그램** 새 프로젝트 템플릿. 이 절차에 대 한 자세한 내용은 참조 하세요. [방법: WCF 워크플로 서비스 응용 프로그램을 만드는](/visualstudio/workflow-designer/creating-a-workflow-project)합니다. |

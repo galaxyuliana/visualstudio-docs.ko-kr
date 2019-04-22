@@ -16,17 +16,16 @@ caps.latest.revision: 28
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9f1bded7e322387363bddb6b3aa2e6d7913d2da8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: b80e0e7daed1c426ea30c3da9a4e2324d33f48bb
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54773175"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650302"
 ---
 # <a name="msbuild-reference"></a>MSBuild 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]용 빌드 시스템입니다. 다음 링크를 통해 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 참조 정보가 포함된 항목으로 이동할 수 있습니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  

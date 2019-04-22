@@ -9,17 +9,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b55dba438280fc4579fe15bd2a423d323c38abf6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: b0c197a15962d12e101e0d3ab164d706375620d9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54767287"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648249"
 ---
 # <a name="proxy-authorization-required"></a>프록시 권한 필요
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 오류는 대개 사용자가 프록시 서버를 통해 Visual Studio Online에 연결했는데 프록시 서버에서 호출을 차단하는 경우 발생합니다. Visual Studio Online은 사용자의 IDE 로그인 상태를 유지하는 데 사용됩니다.  
   
 ## <a name="to-correct-this-error"></a>이 오류를 해결하려면  

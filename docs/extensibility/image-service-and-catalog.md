@@ -9,10 +9,10 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5c7f2a98b56765efdb8a12cd9cf479bcd3a08402
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58857855"
 ---
 # <a name="image-service-and-catalog"></a>이미지 서비스 및 카탈로그
@@ -89,7 +89,7 @@ ms.locfileid: "58857855"
 </ImageManifest>
 ```
 
- **기호**
+ **Symbols**
 
  가독성 및 유지 관리를 지 원하는 대로 이미지 매니페스트 특성 값에 대 한 기호를 사용할 수 있습니다. 기호는 다음과 같이 정의 됩니다.
 
@@ -122,7 +122,7 @@ ms.locfileid: "58857855"
 
 |||
 |-|-|
-|**기호**|**설명**|
+|**Symbol**|**설명**|
 |CommonProgramFiles|% CommonProgramFiles % 환경 변수 값|
 |LocalAppData|% LocalAppData % 환경 변수 값|
 |ManifestFolder|매니페스트 파일을 포함 하는 폴더|
@@ -131,7 +131,7 @@ ms.locfileid: "58857855"
 |시스템|합니다 *Windows\System32* 폴더|
 |WinDir|% WinDir % 환경 변수 값|
 
- **이미지**
+ **Image**
 
  \<이미지 > 요소는 모니커를 참조할 수 있는 이미지를 정의 합니다. GUID 및 ID 종합해 이미지 모니커를 형성 합니다. 이미지에 대 한 모니커는 전체 이미지 갤러리에서 고유 해야 합니다. 라이브러리를 빌드하는 동안 발생 한 첫 번째 지정 된 모니커를 갖도록 하는 둘 이상의 이미지를 경우 유지 되는 것입니다.
 
@@ -732,7 +732,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
  **ManifestToCode**
 
- 매니페스트 코드 도구를 이미지 매니페스트 파일을 사용 하 고 코드 (c + +, C# 또는 VB)에서 매니페스트 값 참조에 대 한 래퍼 파일을 생성 하거나 *.vsct* 파일입니다.
+ 매니페스트 코드 도구를 이미지 매니페스트 파일을 사용 하 고 코드에서 매니페스트 값 참조에 대 한 래퍼 파일을 생성 (C++, C#, 또는 VB) 또는 *.vsct* 파일.
 
  **ImageLibraryViewer**
 

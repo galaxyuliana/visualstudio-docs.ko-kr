@@ -58,10 +58,10 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 1a59432d6b630606ac5c133e8a5811186fcf7c34
-ms.sourcegitcommit: 40393347a36779230d128f2355a911632a8d458e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58866768"
 ---
 # <a name="managing-external-tools"></a>외부 도구 관리
@@ -78,11 +78,11 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
   
 3.  ATL/MFC 추적 도구: ATL 및 MFC 소스에서 디버그 추적 메시지를 보여 줍니다.  
   
-4.  PreEmptive Protection - Dotfuscator: .NET 프로그램을 리버스 엔지니어링에 대해 보호합니다.  
+4.  PreEmptive Protection - Dotfuscator: 리버스 엔지니어링에 대해.NET 프로그램을 보호합니다.  
   
-5.  SPY++: 프로세스, 스레드, 창 및 창 메시지를 그래픽으로 표시합니다.  
+5.  SPY + +: 프로세스, 스레드, 창 및 창 메시지를 그래픽으로 표시합니다.  
   
-6.  WCF 서비스 구성 편집기: WCF 서비스에 대한 구성 설정을 만들고 수정할 수 있습니다.  
+6.  WCF 서비스 구성 편집기: WCF 서비스에 대 한 구성 설정을 만들고 수정할 수 있습니다.  
   
 > [!WARNING]
 >  설치한 Visual Studio 버전과 적용한 설정 프로필에 따라 다른 외부 도구 목록이 나타날 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
@@ -102,7 +102,7 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
 > [!NOTE]
 >  IDE 상태 표시줄에는 활성 코드 편집기에서 삽입 지점 위치를 나타내기 위해 현재 줄과 현재 열 변수가 표시됩니다. 현재 텍스트 변수는 해당 위치에서 선택한 코드 또는 텍스트를 반환합니다.  
   
-|name|인수|설명|  
+|이름|인수|설명|  
 |----------|--------------|-----------------|  
 |항목 경로|$(ItemPath)|현재 파일의 전체 파일 이름(드라이브 + 경로 + 파일 이름)입니다.|  
 |항목 디렉터리|$(ItemDir)|현재 파일의 디렉터리(드라이브 + 경로)입니다.|  

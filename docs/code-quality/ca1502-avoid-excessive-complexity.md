@@ -19,10 +19,10 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: e968cef6491e1c24d98e5f64248b5104db8c5b65
-ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59232318"
 ---
 # <a name="ca1502-avoid-excessive-complexity"></a>CA1502: 지나치게 복잡하게 만들지 마세요.
@@ -102,7 +102,7 @@ A *노드* 논리 분기 지점을 나타내는 *edge* 노드 사이 선을 나�
 
 ## <a name="related-rules"></a>관련된 규칙
 
-[CA1501: 상속성을 너무 많이 사용하지 마세요.](../code-quality/ca1501-avoid-excessive-inheritance.md)
+[CA1501: 과도 한 상속을 방지](../code-quality/ca1501-avoid-excessive-inheritance.md)
 
 ## <a name="see-also"></a>참고자료
 

@@ -20,10 +20,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e4086c473270befcf2213f003e516128b45c4227
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59366993"
 ---
 # <a name="dataset-visualizer-dialog-box"></a>데이터 세트 시각화 도우미 대화 상자
@@ -37,6 +37,6 @@ ms.locfileid: "59366993"
 ## <a name="see-also"></a>참고 항목
 
 - [디버거 보안](../debugger/debugger-security.md)
-- [사용자 지정 시각화 도우미 만들기](../debugger/create-custom-visualizers-of-data.md)
+- [Create Custom Visualizers of Data](../debugger/create-custom-visualizers-of-data.md)(데이터의 사용자 지정 시각화 도우미 만들기)
 - [디버거 창](../debugger/debugger-windows.md)
-- [데이터 팁의 데이터 값 보기](../debugger/view-data-values-in-data-tips-in-the-code-editor.md)
+- [데이터 팁에서 데이터 값 보기](../debugger/view-data-values-in-data-tips-in-the-code-editor.md)

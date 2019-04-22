@@ -18,13 +18,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e3a87fd0480727a524b36ab209f5126b0f996c30
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790799"
 ---
-# <a name="walkthrough-debug-a-multithreaded-app-using-the-threads-window-c-visual-basic-c"></a>연습: 스레드 창을 사용 하 여 다중 스레드 앱 디버깅 (C#, Visual Basic, c + +)
+# <a name="walkthrough-debug-a-multithreaded-app-using-the-threads-window-c-visual-basic-c"></a>연습: 스레드 창을 사용 하 여 다중 스레드 앱 디버깅 (C#, Visual Basic의 경우 C++)
 
 여러 Visual Studio 사용자 인터페이스 요소에 다중 스레드 응용된 프로그램을 디버깅할 수 있습니다. 이 문서에서는 코드 편집기 창에서 다중 스레드 디버깅 기능을 소개 **디버그 위치** 도구 모음 및 **스레드** 창입니다. 다중 스레드 응용된 프로그램 디버깅을 위한 다른 도구에 대 한 정보를 참조 하세요 [다중 스레드 응용된 프로그램 디버깅 시작](../debugger/get-started-debugging-multithreaded-apps.md)합니다.
 
@@ -37,17 +37,17 @@ ms.locfileid: "58790799"
 1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    키를 눌러 **Esc** 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
+    **Esc** 키를 눌러 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
 
     - 에 대 한 C#을 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C#합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
-    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기**합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    - 에 대 한 C++을 선택 **새 콘솔 앱 프로젝트 만들기**합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
 
     그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 클릭 **만들기**합니다.
     ::: moniker-end
     ::: moniker range="vs-2017"
     메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. 왼쪽된 창에는 **새 프로젝트** 대화 상자에서 다음을 선택 합니다.
     - 에 대 한는 C# 앱 아래에 있는 **Visual C#** 를 선택 **Windows 데스크톱**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)**.
-    - C + + 앱의 경우 아래 **Visual c + +**, 선택 **Windows Desktop**,를 선택한 후 **Windows 콘솔 응용 프로그램**합니다.
+    - 에 대 한는 C++ 앱 아래에 있는 **Visual C++** 를 선택 **Windows 데스크톱**,를 선택한 후 **Windows 콘솔 응용 프로그램**.
 
     그런 다음 같은 이름을 입력 **MyThreadWalkthroughApp** 누릅니다 **확인**합니다.
     ::: moniker-end
@@ -56,7 +56,7 @@ ms.locfileid: "58790799"
 
     새 프로젝트에 나타납니다 **솔루션 탐색기**, 소스 파일을 호출 하 고 *Program.cs* 또는 *MyThreadWalkthroughApp.cpp* 소스 코드 창에서 열립니다.
 
-1. 인 소스 파일의 코드는 C# 또는 c + + 예제에서는 코드 [다중 스레드 응용된 프로그램 디버깅 시작](../debugger/get-started-debugging-multithreaded-apps.md)합니다.
+1. 인 소스 파일의 코드는 C# 또는 C++ 에서 예제 코드 [다중 스레드 응용된 프로그램 디버깅 시작](../debugger/get-started-debugging-multithreaded-apps.md)합니다.
 
 1. 선택 **파일** > **모두 저장**합니다.
 
@@ -109,7 +109,7 @@ ms.locfileid: "58790799"
 
 1. 엽니다는 **디버그 위치** 를 선택 하 여 도구 모음 **보기** > **도구 모음** > **디버그 위치**합니다. 도구 모음 영역에서 마우스 오른쪽 단추로 클릭 하 고 선택 해도 있습니다 **디버그 위치**합니다.
 
-1. 합니다 **디버그 위치** 도구 모음에 세 개의 필드가: **프로세스**에 **스레드**, 및 **스택 프레임**합니다. 드롭다운을 **스레드** 목록 및 스레드 수는 있습니다. 에 **스레드** 목록에서 현재 실행 중인 스레드와로 표시 되는 **>** 기호입니다.
+1. 합니다 **디버그 위치** 도구 모음에 세 개의 필드가 있습니다. **프로세스**, **스레드**, 및 **스택 프레임이**합니다. 드롭다운을 **스레드** 목록 및 스레드 수는 있습니다. 에 **스레드** 목록에서 현재 실행 중인 스레드와로 표시 되는 **>** 기호입니다.
 
 1. 소스 코드 창에서 여백에서 스레드 마커 아이콘 위에 놓고 DataTip에서 플래그 아이콘 (또는 빈 플래그 아이콘 중 하나)를 선택 합니다. 빨간색 플래그 아이콘으로 바뀝니다.
 
@@ -196,6 +196,6 @@ ms.locfileid: "58790799"
 
 다중 스레드 앱 디버깅의 기본 사항을 배웠습니다. 관찰, 플래그 및 플래그를 해제 하 고 고정를 사용 하 여 스레드 재개를 **스레드** 창 합니다 **스레드** 목록에 **디버그 위치** 도구 모음 또는 스레드 마커를 소스 코드 편집기입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [방법: 디버그 중 다른 스레드로 전환](../debugger/how-to-switch-to-another-thread-while-debugging.md)

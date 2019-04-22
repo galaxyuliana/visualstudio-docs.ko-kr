@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 734751492a1024507684922b760c647e91f5df15
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2af331bd100cfedd75e6ab1c90ad7a75c5c83961
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643628"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649435"
 ---
 # <a name="catids-for-objects-that-are-typically-used-to-extend-projects"></a>일반적으로 프로젝트를 확장 하는 데 사용 되는 개체에 대 한 Catid
 다음 표에서 확장 하는 데 사용 되는 Catid `Project` 및 `ProjectItem` 자동화 개체에 대 한 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], 및 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 프로젝트. 에 정의 된 이러한 Catid *VSLangProj.olb*합니다.
@@ -51,7 +51,7 @@ ms.locfileid: "56643628"
 |<xref:VSLangProj.PrjBrowseObjectCATID.prjCATIDCSharpFolderBrowseObject>|{914FE278-054A-45DB-BF9E-5F22484CC84C}|
 |<xref:VSLangProj.PrjBrowseObjectCATID.prjCATIDCSharpReferenceBrowseObject>|{2F0FA3B8-C855-4a4e-95A5-CB45C67D6C27}|
 
-## <a name="c-catids"></a>C + + Catid
+## <a name="c-catids"></a>C++Catid
  다음 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 프로젝트 시스템 Catid에서 형식 라이브러리에서 노출 되지 않는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .NET 2003 및 이러한 프로젝트 개체를 확장 하려고 할 때마다 코드에 포함 되어야 합니다. 형식 라이브러리의 이후 릴리스에서 이러한 Catid가 포함될지 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다.
 
 |이름|GUID|
@@ -87,7 +87,6 @@ const LPOLESTR CVCReferences::s_wszCATID = L"{FE8299CA-19B6-4f20-ABEA-E1FD9A33B6
 ```
 
  에 대 한 Guid를 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 및 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 프로젝트 형식 표에 표시 됩니다.
-
 
 | 프로젝트 형식 | GUID |
 | - | - |

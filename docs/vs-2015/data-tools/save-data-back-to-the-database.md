@@ -26,17 +26,16 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 413a92f2e42b6bacfeb62deb3bae0e50d5ef908b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b2358e177f049d9eda17bcb54baf6a547605419c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986114"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653101"
 ---
 # <a name="save-data-back-to-the-database"></a>데이터를 다시 데이터베이스에 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 데이터 집합에는 데이터의 메모리 내 복사본입니다. 해당 데이터를 수정할 경우 해당 변경 내용을 다시 데이터베이스에 저장 하는 것이 좋습니다. 이렇게 하면 세 가지 방법 중 하나에서:  
   
 - 하나를 호출 하 여 `Update` TableAdapter의 메서드  

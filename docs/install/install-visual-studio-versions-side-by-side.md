@@ -11,12 +11,12 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: 1f2969fe93ab2623b1f8406f6eaa0ce35c454202
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 123f01b2e4545545a380f5a37adcdaf883bc9e91
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58160539"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856932"
 ---
 # <a name="install-visual-studio-versions-side-by-side"></a>Visual Studio 버전 side-by-side 설치
 
@@ -38,7 +38,7 @@ ms.locfileid: "58160539"
 
 * Visual Studio 2019를 사용하여 Visual Studio 2017에서 만든 솔루션을 여는 경우 Visual Studio 2019에 특정 기능을 구현하지 않았다면 나중에 이전 버전에서 다시 솔루션을 열어 수정할 수 있습니다.
 
-* Visual Studio 2019를 사용하여 Visual Studio 2017 이하 버전에서 만든 솔루션을 열려면 Visual Studio 2019와 호환되도록 프로젝트와 파일을 수정해야 할 수 있습니다. 자세한 내용은 [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/port-migrate-upgrade-visual-studio-projects-2019.md) 페이지를 참조하세요.
+* Visual Studio 2019를 사용하여 Visual Studio 2017 이하 버전에서 만든 솔루션을 열려면 Visual Studio 2019와 호환되도록 프로젝트와 파일을 수정해야 할 수 있습니다. 자세한 내용은 [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/port-migrate-and-upgrade-visual-studio-projects.md) 페이지를 참조하세요.
 
 ::: moniker-end
 
@@ -58,10 +58,10 @@ Visual Basic, Visual C# 및 Visual F# 프로젝트는 **프로젝트 디자이�
 
 | 언어 | 항목 |
 |--------------|-----------|
-| Visual Basic | [프로젝트 디자이너, 애플리케이션 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2017) |
+| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2017) |
 | Visual C# | [프로젝트 디자이너, 애플리케이션 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2017) |
-| Visual F# | [Visual Studio에서 Visual F#을 사용하여 개발](../ide/fsharp-visual-studio.md?view=vs-2017) |
-|C++ | [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
+| Visual F# | [Visual F#을 사용하여 Visual Studio에서 개발](../ide/fsharp-visual-studio.md?view=vs-2017) |
+|C++ | [방법: 대상 프레임워크 및 플랫폼 도구 집합 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -69,7 +69,7 @@ Visual Basic, Visual C# 및 Visual F# 프로젝트는 **프로젝트 디자이�
 
 * [Visual Studio 설치](install-visual-studio.md?view=vs-2017)
 * [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017)
-* [C/C++ 격리된 애플리케이션 및 side-by-side 어셈블리 빌드](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
+* [C/C++ 격리된 애플리케이션 및 Side-by-Side 어셈블리 빌드](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end
 
@@ -77,17 +77,17 @@ Visual Basic, Visual C# 및 Visual F# 프로젝트는 **프로젝트 디자이�
 
 | 언어 | 항목 |
 |--------------|-----------|
-| Visual Basic | [프로젝트 디자이너, 애플리케이션 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2019) |
-| Visual C# | [프로젝트 디자이너, 애플리케이션 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2019) |
-| Visual F# | [Visual Studio에서 Visual F#을 사용하여 개발](../ide/fsharp-visual-studio.md?view=vs-2019) |
-| C++ | [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
+| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md) |
+| Visual C# | [프로젝트 디자이너, 애플리케이션 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md) |
+| Visual F# | [Visual F#을 사용하여 Visual Studio에서 개발](../ide/fsharp-visual-studio.md) |
+| C++ | [방법: 대상 프레임워크 및 플랫폼 도구 집합 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 설치](install-visual-studio.md?view=vs-2019)
-* [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/port-migrate-upgrade-visual-studio-projects-2019.md)
-* [C/C++ 격리된 애플리케이션 및 side-by-side 어셈블리 빌드](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
+* [Visual Studio 설치](install-visual-studio.md)
+* [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+* [C/C++ 격리된 애플리케이션 및 Side-by-Side 어셈블리 빌드](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end

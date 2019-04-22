@@ -19,17 +19,16 @@ caps.latest.revision: 38
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6e763c0a39e3785e91733105f8fc18eae324e958
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: f14815502a33fb7d49a10c2724c57a4a0d86e9f7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54758292"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651450"
 ---
 # <a name="target-element-msbuild"></a>Target 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 순차적으로 실행할 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]의 작업 집합을 포함합니다.  
   
  \<Project>  
@@ -64,8 +63,8 @@ ms.locfileid: "54758292"
 |---------------|-----------------|  
 |`Name`|필수 특성입니다.<br /><br /> 대상의 이름입니다.|  
 |`Condition`|선택적 특성입니다.<br /><br /> 평가할 조건입니다. 조건이 `false`로 평가되면 해당 대상 또는 `DependsOnTargets` 특성에 설정되어 있는 대상의 본문이 실행되지 않습니다. 조건에 대한 자세한 내용은 [조건](../msbuild/msbuild-conditions.md)을 참조하세요.|  
-|`Inputs`|선택적 특성입니다.<br /><br /> 이 대상에 대한 입력을 구성하는 파일입니다. 파일이 여러 개인 경우 세미콜론으로 구분합니다. 파일의 타임스탬프를 `Outputs`에 있는 파일의 타임스탬프와 비교하여 `Target`이 최신 상태인지를 확인합니다. 자세한 내용은 [증분 빌드](../msbuild/incremental-builds.md), [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md) 및 [변환](../msbuild/msbuild-transforms.md)을 참조하세요.|  
-|`Outputs`|선택적 특성입니다.<br /><br /> 이 대상에 대한 출력을 구성하는 파일입니다. 파일이 여러 개인 경우 세미콜론으로 구분합니다. 파일의 타임스탬프를 `Inputs`에 있는 파일의 타임스탬프와 비교하여 `Target`이 최신 상태인지를 확인합니다. 자세한 내용은 [증분 빌드](../msbuild/incremental-builds.md), [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md) 및 [변환](../msbuild/msbuild-transforms.md)을 참조하세요.|  
+|`Inputs`|선택적 특성입니다.<br /><br /> 이 대상에 대한 입력을 구성하는 파일입니다. 파일이 여러 개인 경우 세미콜론으로 구분합니다. 파일의 타임스탬프를 `Outputs`에 있는 파일의 타임스탬프와 비교하여 `Target`이 최신 상태인지를 확인합니다. 자세한 내용은 [증분 빌드](../msbuild/incremental-builds.md), [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md), 및 [변환](../msbuild/msbuild-transforms.md)합니다.|  
+|`Outputs`|선택적 특성입니다.<br /><br /> 이 대상에 대한 출력을 구성하는 파일입니다. 파일이 여러 개인 경우 세미콜론으로 구분합니다. 파일의 타임스탬프를 `Inputs`에 있는 파일의 타임스탬프와 비교하여 `Target`이 최신 상태인지를 확인합니다. 자세한 내용은 [증분 빌드](../msbuild/incremental-builds.md), [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md), 및 [변환](../msbuild/msbuild-transforms.md)합니다.|  
 |`Returns`|선택적 특성입니다.<br /><br /> 이 대상을 호출하는 작업(예: MSBuild 작업)에 대해 제공할 항목 집합입니다. 대상이 여러 개인 경우 세미콜론으로 구분합니다. 파일의 대상에 `Returns` 특성이 없으면 Outputs 특성이 이 용도로 대신 사용됩니다.|  
 |`KeepDuplicateOutputs`|선택적 부울 특성입니다.<br /><br /> `true`인 경우 대상의 Returns에서 같은 항목에 대한 여러 참조가 기록됩니다.  기본적으로 이 특성은 `false`입니다.|  
 |`BeforeTargets`|선택적 특성입니다.<br /><br /> 대상 이름의 세미콜론으로 구분된 목록입니다.  지정하는 경우 하나 이상의 지정된 대상을 실행하기 전에 이 대상을 실행해야 함을 나타납니다. 이렇게 하면 프로젝트 작성자가 기존 대상 집합을 직접 수정하지 않고 확장할 수 있습니다. 자세한 내용은 [대상 빌드 순서](../msbuild/target-build-order.md)를 참조하세요.|  
@@ -88,7 +87,7 @@ ms.locfileid: "54758292"
 |-------------|-----------------|  
 |[프로젝트](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일의 필수 루트 요소입니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  실행할 첫 번째 대상은 런타임에 지정됩니다. 대상은 다른 대상에 대한 종속성을 포함할 수 있습니다. 예를 들어 배포용 대상은 컴파일용 대상에 종속됩니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 엔진은 종속성을 `DependsOnTargets` 특성에 나타나는 순서대로 왼쪽에서 오른쪽으로 실행합니다. 자세한 내용은 [대상](../msbuild/msbuild-targets.md)을 참조하세요.  
   
  둘 이상의 대상이 종속성을 포함하고 있더라도 대상은 빌드 중에 한 번만 실행됩니다.  
@@ -103,7 +102,7 @@ ms.locfileid: "54758292"
   
  MSBuild 4 이전 버전에서는 `Target`에 `Outputs`의 같은 항목에 대한 여러 참조가 포함되어 있는 경우 항상 중복 항목이 기록되었습니다. 중복 항목은 전혀 사용되지 않으므로 출력 수와 프로젝트 상호 종속성이 많은 대형 빌드에서는 이러한 방식으로 인해 많은 양의 메모리가 낭비됩니다. `KeepDuplicateOutputs` 특성을 `true`로 설정하면 이러한 중복 항목이 기록됩니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드 예제는 `Csc` 작업을 실행하는 `Target` 요소를 보여 줍니다.  
   
 ```  

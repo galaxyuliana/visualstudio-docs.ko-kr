@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cf319dd00048a4abf6cc4e3806845200c9eefc64
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 78b755991bd90684c08c7126cb17fd169db7e57c
+ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56703580"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59504365"
 ---
 # <a name="inspect-previous-app-states-using-intellitrace-step-back-in-visual-studio-visual-studio-enterprise"></a>Visual Studio(Visual Studio Enterprise)에서 IntelliTrace 뒤로 이동을 사용하여 이전 앱 상태 검사
 
@@ -87,7 +87,7 @@ IntelliTrace 뒤로 이동은 Visual Studio Enterprise 2017 버전 15.5 이상�
 
     ![IntelliTrace 뒤로 이동 개요](../debugger/media/intellitrace-step-back-overview.png "IntelliTrace 뒤로 이동 개요")
 
-    Visual Studio에서 변수를 검사하는 방법에 대해 자세히 알아보려면 [디버거 기능 둘러보기](../debugger/debugger-feature-tour.md)를 참조하세요.
+    Visual Studio에서 변수를 검사하는 방법에 대해 자세히 알아보려면 [디버거 소개](../debugger/debugger-feature-tour.md)를 참조하세요.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 

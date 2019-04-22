@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 898DFEB8-5757-4CCE-8AD2-8BC7706F5855
-ms.openlocfilehash: 7ead923920275c0d0eb048cb961679da4ce2fc94
-ms.sourcegitcommit: 61dc40d6c707f8c79779ec1091b296530d5a7b81
+ms.openlocfilehash: ce205b13537ee74bedee599e46c6e6006d9ceb77
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "55987647"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856408"
 ---
 # <a name="enable-subscription"></a>구독 사용
 
@@ -40,9 +40,9 @@ Mac용 Visual Studio는 선택할 수 있는 세 가지 구독 수준을 제공�
 
 > [!NOTE]
 > Mac용 Visual Studio에는 오프라인 정품 인증을 사용할 수 없습니다.
-> Mac용 Visual Studio 2017 Professional 또는 Enterprise 구독을 활성화하려면 로그인할 때 인터넷에 연결되어 있어야 합니다.
+> Mac용 Visual Studio 2019 Professional 또는 Enterprise 구독을 활성화하려면 로그인할 때 인터넷에 연결되어 있어야 합니다.
 
-인터넷 연결이 없는 컴퓨터를 위해 Mac용 Visual Studio Enterprise 2017을 구입했다면 정품 인증 없이 Mac용 Visual Studio를 계속 사용할 수 있지만 Xamarin Inspector, Xamarin Profiler 및 포함된 어셈블리 기능은 사용할 수 없습니다.
+인터넷 연결이 없는 머신을 위해 Mac용 Visual Studio Enterprise 2019를 구입한 경우 정품 인증 없이 Mac용 Visual Studio를 계속 사용할 수 있지만 Xamarin Inspector, Xamarin Profiler 및 포함된 어셈블리 기능은 사용할 수 없습니다.
 
 ## <a name="see-also"></a>참고 항목
 

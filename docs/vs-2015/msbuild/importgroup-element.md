@@ -17,17 +17,16 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4d700bb6d8aebec1ff78e1e0289b89ae4cd0c91a
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 1b6fb90cd12dc59edc760b081e7108c52c815a72
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54769421"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59650601"
 ---
 # <a name="importgroup-element"></a>ImportGroup 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 선택적인 조건으로 그룹화된 `Import` 요소의 컬렉션을 포함합니다. 자세한 내용은 [Import 요소(MSBuild)](../msbuild/import-element-msbuild.md)를 참조하세요.  
   
  \<Project>  
@@ -65,7 +64,7 @@ ms.locfileid: "54769421"
   
 ## <a name="remarks"></a>주의  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드 예제에서는 `ImportGroup` 요소를 보여 줍니다.  
   
 ```  

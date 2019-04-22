@@ -23,13 +23,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e9a214234d2382fe9cb950ed294bf8aa807b69da
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58790708"
 ---
-# <a name="walkthrough-debugging-a-parallel-application-in-visual-studio-c-visual-basic-c"></a>연습: Visual Studio에서 병렬 응용 프로그램 디버깅 (C#, Visual Basic, c + +)
+# <a name="walkthrough-debugging-a-parallel-application-in-visual-studio-c-visual-basic-c"></a>연습: Visual Studio에서 병렬 응용 프로그램 디버깅 (C#, Visual Basic의 경우 C++)
 
 이 연습에서는 **병렬 스택** 및 **병렬 스택** 창을 사용하여 병렬 애플리케이션을 디버깅하는 방법을 보여줍니다. 이러한 windows 이해 하 고 사용 하는 코드의 런타임 동작을 확인 하는 데 도움이 합니다 [TPL 작업 병렬 라이브러리 ()](/dotnet/standard/parallel-programming/task-parallel-library-tpl) 또는 [동시성 런타임](/cpp/parallel/concrt/concurrency-runtime)합니다. 이 연습에서는 기본 제공 중단점이 있는 샘플 코드를 제공합니다. 또한 코드가 중단된 후에 **병렬 작업** 및 **병렬 스택** 창을 사용하여 코드를 검사하는 방법을 보여줍니다.
 
@@ -65,10 +65,10 @@ ms.locfileid: "58790708"
 1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    키를 눌러 **Esc** 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
+    **Esc** 키를 눌러 시작 창을 닫습니다. 형식 **Ctrl + Q** 입력 검색 상자를 열려면 **콘솔** (또는 **c + +**), 선택 **템플릿**, 차례로:
 
     - 에 대 한 C# 또는 Visual Basic의 경우 선택 **새 콘솔 앱 (.NET Framework) 프로젝트 만들기** 에 대 한 C# 또는 Visual Basic입니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
-    - C + +, 선택할 **새 콘솔 앱 프로젝트 만들기** c + +에 대 한 합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    - 에 대 한 C++을 선택 **새 콘솔 앱 프로젝트 만들기** 에 대 한 C++합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
 
     그런 다음 이름을 입력 하 고 또는 기본 이름을 사용 하 고, 클릭 **만들기**합니다.
     ::: moniker-end
@@ -77,7 +77,7 @@ ms.locfileid: "58790708"
 
     - 에 대 한는 C# 앱 아래에 있는 **Visual C#** 를 선택 **Windows 데스크톱**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)**.
     - Visual Basic 앱의 경우 아래 **Visual Basic**, 선택 **Windows Desktop**를 선택한 다음 가운데 창에서 **콘솔 앱 (.NET Framework)** 합니다.
-    - C + + 앱의 경우 아래 **Visual c + +**, 선택 **Windows Desktop**,를 선택한 후 **Windows 콘솔 응용 프로그램**합니다.
+    - 에 대 한는 C++ 앱 아래에 있는 **Visual C++** 를 선택 **Windows 데스크톱**,를 선택한 후 **Windows 콘솔 응용 프로그램**.
 
     그런 다음 이름을 입력 하 고 또는 기본 이름을 사용 하 고, 클릭 **확인**합니다.
     ::: moniker-end

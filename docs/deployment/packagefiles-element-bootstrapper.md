@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: da625db79e8738bad2a5e73ceee5d8b0adb6603d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 3f3a1ee08fec613522be5247842e10ced1c032e7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605148"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651840"
 ---
 # <a name="ltpackagefilesgt-element-bootstrapper"></a>&lt;PackageFiles&gt; 요소 (부트스트래퍼)
 합니다 `PackageFiles` 요소에 포함 되어 `PackageFile` 의 결과로 실행 설치 패키지를 정의 하는 요소는 `Command` 요소입니다.
@@ -53,7 +53,6 @@ ms.locfileid: "56605148"
 
  `PackageFile` 다음과 같은 특성이 있습니다.
 
-
 | 특성 | 설명 |
 |---------------| - |
 | `Name` | 필수 요소. 패키지 파일의 이름입니다. 이 이름은는 `Command` 요소는 패키지를 설치 하는 조건을 정의 될 때 참조 합니다. 이 값은 키로 사용 합니다 `Strings` 와 같은 도구는 지역화 된 이름을 검색할 테이블 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 패키지를 설명 하는 데 사용할 합니다. |
@@ -74,7 +73,7 @@ ms.locfileid: "56605148"
 </PackageFiles>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [\<제품 > 요소](../deployment/product-element-bootstrapper.md)
 - [\<패키지 > 요소](../deployment/package-element-bootstrapper.md)
 - [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)

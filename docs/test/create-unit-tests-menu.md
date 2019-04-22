@@ -1,6 +1,6 @@
 ---
 title: 단위 테스트 메서드 스텁 만들기
-ms.date: 05/02/2017
+ms.date: 04/01/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - unit testing, create unit tests
@@ -9,32 +9,25 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e8ddc4e7a44aa0d5d42a64556092874413e3a3b2
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: e7eb72f104560991f1bb191e62641041879df071
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57982768"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58857725"
 ---
 # <a name="create-unit-test-method-stubs-with-the-create-unit-tests-command"></a>단위 테스트 만들기 명령을 사용하여 단위 테스트 메서드 스텁 만들기
 
-Visual Studio **단위 테스트 만들기** 명령은 단위 테스트 메서드 스텁을 만드는 기능을 제공합니다. 이 기능을 사용하여 테스트 프로젝트, 테스트 클래스 및 클래스 내 테스트 메서드 스텁을 쉽게 구성할 수 있습니다.
+**단위 테스트 만들기** 명령을 사용하면 단위 테스트 메서드 스텁이 생성됩니다. 이 기능을 사용하여 테스트 프로젝트, 테스트 클래스 및 클래스 내 테스트 메서드 스텁을 쉽게 구성할 수 있습니다.
 
-## <a name="availability-and-extensions"></a>가용성 및 확장
+> [!NOTE]
+> **단위 테스트 만들기** 메뉴 명령은 .NET Framework(하지만.NET Core 아님)를 대상으로 하는 관리 코드에서만 사용할 수 있습니다.
 
-**단위 테스트 만들기** 메뉴 명령:
-
-* Visual Studio 2015 이상의 Community, Professional 및 Enterprise Edition에서 사용할 수 있습니다.
-
-* .NET Framework를 대상으로 하는 C# 코드만 지원합니다.
-
-* 확장 가능하고 MSTest, MSTest V2, NUnit, xUnit 형식으로 테스트 내보내기를 지원합니다.
-
-* .NET Core 프로젝트에서는 아직 사용할 수 없습니다.
+**단위 테스트 만들기** 메뉴 명령은 확장 가능하며 MSTest, MSTest V2, NUnit 및 xUnit에 대한 테스트를 생성하는 데 사용할 수 있습니다.
 
 ## <a name="get-started"></a>시작
 
-시작하려면 테스트할 프로젝트의 코드 편집기에서 메서드, 형식 또는 네임스페이스를 선택하고, 바로 가기 메뉴를 열고, **단위 테스트 만들기**를 선택합니다. 새 단위 테스트에 대한 만들기 옵션을 선택할 수 있는 **단위 테스트 만들기** 대화 상자가 열립니다.
+시작하려면 테스트할 프로젝트의 코드 편집기에서 메서드, 형식 또는 네임스페이스를 선택하고 마우스 오른쪽 단추로 클릭한 다음, **단위 테스트 만들기**를 선택합니다. 테스트를 생성하는 방법을 구성할 수 있는 **단위 테스트 만들기** 대화 상자가 열립니다.
 
 ![단위 테스트 만들기 명령 사용](media/createunittestcommand.png)
 
@@ -46,25 +39,7 @@ Visual Studio **단위 테스트 만들기** 명령은 단위 테스트 메서�
 
 ## <a name="use-third-party-unit-test-frameworks"></a>타사 단위 테스트 프레임워크 사용
 
-Visual Studio에서는 모든 테스트 프레임워크를 사용하여 필요에 맞는 단위 테스트를 쉽게 만들 수 있습니다. 기타 프레임워크를 설치하려면.
-
-::: moniker range="vs-2017"
-
-1. **도구** > **확장 및 업데이트**를 선택합니다.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-1. **확장** > **확장 관리**를 선택합니다.
-
-::: moniker-end
-
-2. **온라인** > **Visual Studio Marketplace** > **도구**를 확장한 다음, **테스트**를 선택합니다.
-
-![타사 테스트 프레임워크 사용](media/createunittestfx.png)
-
-테스트 프레임워크 확장은 Visual Studio Marketplace에서 사용할 수 있습니다.
+NUnit 또는 xUnit에 대한 단위 테스트를 자동으로 생성하려면 Visual Studio Marketplace에서 다음 테스트 프레임워크 확장 중 하나를 설치합니다.
 
 * [테스트 생성기에 대한 NUnit 확장](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension)
 * [테스트 생성기에 대한 xUnit.net 확장](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
@@ -73,9 +48,9 @@ Visual Studio에서는 모든 테스트 프레임워크를 사용하여 필요�
 
 이 기능은 단위 테스트를 만들어야 할 때마다 사용하지만, 특히 테스트 검사가 거의 없거나 문서가 없는 기존 코드를 테스트할 경우 사용합니다. 즉, 코드 사양이 제한되거나 없는 경우 사용합니다. 이 기능은 관찰된 코드 동작의 특징을 결정하는 [스마트 단위 테스트](https://devblogs.microsoft.com/devops/introducing-smart-unit-tests/)와 비슷한 방법을 효과적으로 구현합니다.
 
-그러나 이 기능은 개발자가 일부 코드를 먼저 작성하고 이 코드를 사용하여 유닛 테스트 분야를 부트스트랩하는 상황에도 똑같이 적용할 수 있습니다. 코딩 흐름 내에서 개발자는 특정 코드 조건에 대한 단위 테스트 메서드 스텁을 빠르게 만들어야 할 수 있습니다(적합한 테스트 클래스 및 적합한 테스트 프로젝트 사용).
+그러나 이 기능은 개발자가 일부 코드를 작성하여 시작한 다음, 이를 사용하여 단위 테스트를 부트스트랩하는 상황에도 동일하게 적용됩니다. 코딩 흐름 내에서 개발자는 특정 코드 조각에 대한 단위 테스트 메서드 스텁(적합한 테스트 클래스 및 적합한 테스트 프로젝트 사용)을 신속하게 만들 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 
-- [Creating unit test method stubs with “Create Unit Tests”](https://devblogs.microsoft.com/devops/creating-unit-test-method-stubs-with-create-unit-tests/)(“유닛 테스트 만들기”를 사용하여 유닛 테스트 메서드 스텁 만들기)
-- [유닛 테스트 블로그 게시물](https://devblogs.microsoft.com/devops/?s=unit+testing)
+- ["단위 테스트 만들기"를 사용하여 단위 테스트 메서드 스텁 만들기](https://devblogs.microsoft.com/devops/creating-unit-test-method-stubs-with-create-unit-tests/)
+- [단위 테스트 블로그 게시물](https://devblogs.microsoft.com/devops/?s=unit+testing)

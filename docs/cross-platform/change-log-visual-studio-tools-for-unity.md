@@ -10,12 +10,12 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: 8a8fd54b15381298542f710cbffa81cd9e0295fe
-ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.openlocfilehash: a635ca7369470788f0813f6e246767b64f6af445
+ms.sourcegitcommit: 0a2fdc23faee77187e10a1c19665ba5a1ac68e72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59232764"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59477667"
 ---
 # <a name="change-log-visual-studio-tools-for-unity-windows"></a>변경 로그(Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity에 대한 변경 로그입니다.
@@ -128,7 +128,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 
 -   **통합:**
 
-    -   Visual Studio 2019 지원이 추가되었습니다.
+    -   Visual Studio 2019에 대한 지원이 추가되었습니다(Visual Studio 2019를 외부 스크립트 편집기로 사용하려면 Unity 2018.3 이상 필요).
 
     -   HDPI 크기 조정, 픽셀 단위로 완벽한 이미지 및 테마 지정의 전체 지원과 함께 Visual Studio 이미지 서비스 및 카탈로그가 채택되었습니다.
 

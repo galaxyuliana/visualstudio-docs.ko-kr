@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1b9cd7e785b1c4ffa8613b6f5440a33b99dd2de6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 727bf173336a25f380cc938c3252530f86f22ab8
+ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955312"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58647455"
 ---
 # <a name="modify-the-style-of-objects-in-blend"></a>Blend에서 개체 스타일 수정
 
@@ -78,13 +78,13 @@ ms.locfileid: "55955312"
 
 ### <a name="apply-a-style-or-template-to-a-control"></a>컨트롤에 스타일이나 템플릿 적용
 
-[개체 및 타임라인](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#tour-of-the-objects-and-timeline-panel) 패널에서 개체를 마우스 오른쪽 단추로 클릭하고 **템플릿 편집**을 선택한 후 **리소스 적용**을 선택합니다.
+[개체 및 타임라인](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#objects-and-timeline-window) 창에서 개체를 마우스 오른쪽 단추로 클릭하고 **템플릿 편집**을 선택한 다음, **리소스 적용**을 선택합니다.
 
 ![리소스 적용 메뉴](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png)
 
 ### <a name="restore-the-default-style-or-template-of-a-control"></a>컨트롤의 기본 스타일이나 템플릿 복원
 
-컨트롤을 선택하고 [속성](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#tour-of-the-properties-panel) 패널에서 **스타일**이나 **템플릿** 속성을 찾습니다. **고급 옵션**을 선택한 다음, 바로 가기 메뉴에서 **다시 설정**을 클릭합니다.
+컨트롤을 선택하고 [속성](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#properties-window) 창에서 **스타일**이나 **템플릿** 속성을 찾습니다. **고급 옵션**을 선택한 다음, 바로 가기 메뉴에서 **다시 설정**을 클릭합니다.
 
 ## <a name="visual-states-change-the-appearance-of-a-control-based-on-its-state"></a>시각적 상태: 해당 상태에 따라 컨트롤의 모양을 변경합니다.
 

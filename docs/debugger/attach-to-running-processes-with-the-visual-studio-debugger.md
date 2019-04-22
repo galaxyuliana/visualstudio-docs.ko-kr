@@ -29,10 +29,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: dad698f2ba660b6848e614f13751335894a17ae0
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59366408"
 ---
 # <a name="attach-to-running-processes-with-the-visual-studio-debugger"></a>Visual Studio 디버거에서 실행 중인 프로세스에 연결
@@ -197,7 +197,7 @@ IIS에 배포 된 ASP.NET 응용 프로그램 디버깅에 대 한 자세한 내
 
  디버거 코드 형식에 연결 하지 못했습니다 이유에 대 한 자세한 정보를 하려는 경우 해당 코드 형식에만 다시 연결을 시도 합니다.
 
- **이유 코드 형식 연결 실패에 대 한 특정 정보를 가져오려면:**
+ **코드 형식에 연결하지 못한 이유에 대한 자세한 정보를 얻으려면:**
 
 1.  프로세스에서 분리합니다. 에 **디버그** 메뉴에서 **모두 분리**합니다.
 

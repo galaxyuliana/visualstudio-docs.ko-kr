@@ -13,17 +13,16 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8760a529ddc9453911e2fcaf53255c98ec992e4f
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 0977a1f3cdac48b254140785f6adc5dffc321374
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54789954"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652266"
 ---
 # <a name="installvstemplates-devenvexe"></a>/InstallVSTemplates(devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 *\<Visual Studio 설치 경로>* \Common7\IDE\ProjectTemplates\ 또는 *\<Visual Studio 설치 경로>* \Common7\IDE\ItemTemplates\에 있는 프로젝트 또는 항목 템플릿을 등록하여 **새 프로젝트** 및 **새 항목 추가** 대화 상자를 통해 액세스할 수 있도록 합니다.  
   
 > [!WARNING]

@@ -3,16 +3,16 @@ title: Azure Functions 소개
 description: Mac용 Visual Studio에서 Azure Functions 사용
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
-ms.openlocfilehash: eaf6f82cdc40b174dcd1ca8deb12c412fe675d70
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.openlocfilehash: ac0786e9b52a149fe8067c41aaabe61ad9fd5c87
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51295945"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58857245"
 ---
 # <a name="introduction-to-azure-functions"></a>Azure Functions 소개
 
@@ -20,7 +20,7 @@ Azure Functions는 클라우드에서 명시적인 인프라 프로비전이나 
 
 ## <a name="requirements"></a>요구 사항
 
-Azure 함수 도구는 **Mac용 Visual Studio 7.5**에 포함됩니다.
+Azure Function 도구는 **Mac용 Visual Studio 7.5** 이상에 포함되어 있습니다.
 
 함수를 만들어 배포하려면 [https://azure.com/free](https://azure.com/free)에서 무료로 제공하는 Azure 구독도 필요합니다.
 
@@ -34,6 +34,10 @@ Azure 함수 도구는 **Mac용 Visual Studio 7.5**에 포함됩니다.
 3. 사용할 초기 Azure Functions 템플릿을 선택하여 함수 이름을 입력하고 **다음**을 클릭합니다.
 
     ![Azure Functions 템플릿을 표시하는 새 프로젝트 대화 상자](media/azure-functions-image2.png)
+
+    > [!TIP]
+    > 번들로 제공되는 Azure Functions 런타임 및 템플릿(CLI)은 가능한 한 최신 상태로 유지되지만 필연적으로 구형이 됩니다. 새 Functions 프로젝트를 만들 때 Mac용 Visual Studio는 CLI에 대한 업데이트를 확인하고 아래 이미지와 같이 사용자에게 알립니다. 업데이트된 템플릿을 다운로드하려면 단추를 클릭하면 됩니다.
+    > ![Azure Functions 업데이트를 보여주는 새 프로젝트 대화 상자를 사용할 수 있습니다.](media/azure-functions-update.png)
 
     선택한 함수의 형식에 따라 다음 페이지에서는 다음 이미지에 설명된 액세스 권한과 같은 세부 정보를 입력하라는 메시지가 표시됩니다.
 
@@ -91,22 +95,19 @@ Mac용 Visual Studio에서 Azure Functions 지원을 통해 로컬 개발 컴퓨
 
 ## <a name="publish-to-azure"></a>Azure에 게시
 
-1. 프로젝트 이름을 마우스 오른쪽 단추로 클릭하고 **게시 > Azure에 게시**(![Azure 메뉴 옵션에 게시](media/azure-functions-image5.png))를 선택합니다.
+1. 프로젝트 이름을 마우스 오른쪽 단추로 클릭하고 **게시 > Azure에 게시**를 선택합니다.  ![Azure 메뉴 옵션에 게시](media/azure-functions-image5.png)
 2. Azure 계정을 Mac용 Visual  Studio에 이미 연결한 경우 사용 가능한 앱 서비스 목록이 표시됩니다. 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다.
 3. **Azure App Service 게시** 대화 상자에서 기존 앱 서비스를 선택하거나 **새로 만들기**를 클릭하여 새 앱을 만들 수 있습니다.
-4. **새 App Service 만들기** 대화 상자에서 ![Azure 메뉴 옵션에 게시](media/azure-functions-image7.png) 설정을 입력합니다.
+4. **새 App Service 만들기** 대화 상자에서 다음과 같은 설정을 입력합니다.  ![Azure 메뉴 옵션에 게시](media/azure-functions-image7.png)
 
     |설정  |설명  |
     |---------|---------|
     |**App Service 이름**|새 함수 앱을 식별하는 전역적으로 고유한 이름입니다.|
-    |**구독**|Azure 구독을 사용합니다.|
+    |**구독**|사용할 Azure 구독입니다.|
     |**[리소스 그룹](/azure/azure-resource-manager/resource-group-overview)**|함수 앱을 만들 리소스 그룹의 이름입니다. **+** 를 선택하여 새 리소스 그룹을 만듭니다.|
     |**[서비스 계획](/azure/azure-functions/functions-scale)**|기존 계획을 선택하거나 사용자 지정 계획을 만듭니다. 가까운 지역 또는 함수에 액세스하는 다른 서비스 근처의 위치를 선택합니다.|
 
-    > [!CAUTION]
-    > **가격 책정**을 **소비**로 설정된 상태에서 사용자 저정 서비스 계획을 만들려는 경우 프로비전 오류로 인해 게시가 실패하는 Mac용 Visual Studio 7.6 버전의 버그가 있습니다. 이는 다음 서비스 릴리스에서 수정될 예정입니다.
-
-5. **다음**을 클릭하여 저장소 계정을 만듭니다. Azure 스토리지 계정은 함수 런타임에서 필요합니다. **사용자 지정**을 클릭하여 범용 저장소 계정을 만들거나 기존 저장소 계정을 사용합니다.
+5. **다음**을 클릭하여 스토리지 계정을 만듭니다. Azure 스토리지 계정은 함수 런타임에서 필요합니다. **사용자 지정**을 클릭하여 범용 스토리지 계정을 만들거나 기존 스토리지 계정을 사용합니다.
 
     ![Azure 메뉴 옵션에 게시](media/azure-functions-image8.png)
 
@@ -116,18 +117,15 @@ Mac용 Visual Studio에서 Azure Functions 지원을 통해 로컬 개발 컴퓨
 
     ![Azure 메뉴 옵션에 게시](media/azure-functions-image12.png)
 
-> [!CAUTION]
-> `FUNCTIONS_EXTENSION_VERSION`이 "beta"로 올바르게 설정되지 않은 Mac용 Visual Studio 7.6 버전에 버그가 있습니다. 이는 함수가 실행되지 않을 수 있음을 의미합니다. 이 문제를 해결하려면 [함수 앱 설정](#function-app-settings)으로 이동하여 `FUNCTIONS_EXTENSION_VERSION`을 "-1"에서 "beta"로 설정합니다.
-
 ## <a name="function-app-settings"></a>함수 앱 설정
 
 local.settings.json에서 추가한 모든 설정은 Azure의 함수 앱에도 추가해야 합니다. 이러한 설정은 프로젝트를 게시할 때 자동으로 업로드되지 않습니다.
 
-앱 설정에 액세스하려면 [https://ms.portal.azure.com/](https://ms.portal.azure.com/)의 Azure Portal로 이동합니다. **함수 앱** 아래에서 **함수 앱**을 선택하고 함수 이름을 강조 표시합니다.
+앱 설정에 액세스하려면 [https://ms.portal.azure.com/](https://ms.portal.azure.com/)의 Azure Portal로 이동합니다. **Function App** 아래에서 **Function App**을 선택하고 함수 이름을 강조 표시합니다.
 
 ![Azure 함수 메뉴](media/azure-functions-image9.png)
 
-**개요** 탭에서 **구성된 기능** 아래의 **응용 프로그램 설정**을 선택합니다.
+**개요** 탭에서 **구성된 기능** 아래의 **애플리케이션 설정**을 선택합니다.
 
 ![Azure 함수의 탭을 통해](media/azure-functions-image10.png)
 
@@ -155,7 +153,7 @@ local.settings.json에서 추가한 모든 설정은 Azure의 함수 앱에도 �
 
 - **Queue Trigger** – Azure Storage 큐에 도착하면 메시지에 응답하는 함수입니다. 함수 이름 외에도 이 템플릿은 **경로**(메시지를 읽을 큐의 이름)와 스토리지 계정 **연결**(스토리지 계정 연결 문자열을 포함하는 앱 설정의 이름)을 사용합니다. 자세한 내용은 [Azure 함수 문서의 큐 스토리지 부분](/azure/azure-functions/functions-create-storage-queue-triggered-function)을 참조하세요.
 
-- **Blob Trigger** – 컨테이너에 추가되는 Azure Storage BLOB를 처리합니다. 함수 이름 외에도 이 템플릿은 경로 및 연결 속성을 사용합니다. 경로 속성은 트리거가 모니터링할 스토리지 계정 내의 경로입니다. 연결 계정은 스토리지 계정 연결 문자열을 포함하는 앱 설정의 이름입니다. 자세한 내용은 [Azure Functions Blob Storage 문서](/azure/azure-functions/functions-create-storage-blob-triggered-function)를 참조하세요.
+- **Blob Trigger** – 컨테이너에 추가되는 Azure Storage Blob를 처리합니다. 함수 이름 외에도 이 템플릿은 경로 및 연결 속성을 사용합니다. 경로 속성은 트리거가 모니터링할 스토리지 계정 내의 경로입니다. 연결 계정은 스토리지 계정 연결 문자열을 포함하는 앱 설정의 이름입니다. 자세한 내용은 [Azure Functions Blob Storage 문서](/azure/azure-functions/functions-create-storage-blob-triggered-function)를 참조하세요.
 
 - **일반 웹후크** – 웹후크를 지원하는 서비스에서 요청을 수신할 때마다 실행되는 간단한 함수입니다. 자세한 내용은 [Azure Functions 문서의 일반 웹후크 부분](/azure/azure-functions/functions-create-generic-webhook-triggered-function)을 참조하세요.
 

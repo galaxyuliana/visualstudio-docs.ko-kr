@@ -7,14 +7,12 @@
 ## [업데이트](/visualstudio/mac/update)
 ## [제거](/visualstudio/mac/uninstall)
 
-
 # [사용자 계정](/visualstudio/mac/user-accounts)
 ## [로그인](/visualstudio/mac/signing-in)
 ## [사용할 수 있는 구독](/visualstudio/mac/enable-subscription)
 
 # [IDE 사용자 지정](/visualstudio/mac/customizing-the-ide)
 ## [Mac용 Visual Studio 확장](/visualstudio/mac/extending-visual-studio-mac)
-
 
 # [프로젝트 및 솔루션](/visualstudio/mac/projects-and-solutions)
 ## [새 프로젝트 만들기](/visualstudio/mac/create-new-projects)

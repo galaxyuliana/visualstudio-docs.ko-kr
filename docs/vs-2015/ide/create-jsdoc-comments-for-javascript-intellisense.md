@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 22db62a186c1f1c668a0304a9b586aca85e713c3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: f4d300651731b38b9b86421d36d9de169dc6464d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54758512"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651047"
 ---
 # <a name="create-jsdoc-comments-for-javascript-intellisense"></a>JavaScript IntelliSense에 대한 JSDoc 주석 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,8 +24,7 @@ Visual Studio의 IntelliSense는 표준 JSDoc 주석을 사용하여 스크립�
 ## <a name="jsdoc-comment-tags"></a>JSDoc 주석 태그  
  다음과 같은 표준 JSDoc 주석 태그는 IntelliSense에서 코드에 대한 정보를 표시하는 데 사용됩니다.  
 
-
-|  JSDoc 태그   |                       구문                        |                                                     참고 사항                                                      |
+|  JSDoc 태그   |                       구문                        |                                                     노트                                                      |
 |--------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | @deprecated  |              @deprecated *설명*              |                                   사용되지 않는 함수 또는 메서드를 지정합니다.                                   |
 | @description |             @description *설명*              |                              함수 또는 메서드에 대한 설명을 지정합니다.                               |

@@ -11,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2bba6a290e8d34b2f809916341e9258ae5d36fa9
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: aa242fc8908ec7d07728b706c12f581e5f02548d
+ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324083"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58790682"
 ---
 # <a name="welcome-to-the-visual-studio-ide--visual-basic"></a>Visual Studio IDE 시작 | Visual Basic
 
@@ -102,22 +102,24 @@ Visual Studio는 Windows 및 Mac에서 사용할 수 있습니다. [Mac용 Visua
 
    ::: moniker-end
 
-- [빠른 실행](../../ide/reference/quick-launch-environment-options-dialog-box.md)
+- 검색 상자
 
-   Visual Studio는 메뉴, 옵션 및 속성이 매우 다양하여 때때로 버거울 수도 있습니다. **빠른 실행** 검색 상자는 Visual Studio에서 필요한 항목을 빠르게 찾을 수 있는 좋은 방법입니다. 찾으려는 이름을 입력하기만 하면 Visual Studio는 원하는 곳으로 정확하게 안내하는 결과를 나열합니다. 예를 들어 다른 프로그래밍 언어를 위한 지원을 추가하도록 Visual Studio에 기능을 추가하는 경우 **빠른 실행**을 사용하면 워크로드 또는 개별 구성 요소를 설치하도록 Visual Studio 설치 관리자가 열립니다.
+   Visual Studio는 메뉴, 옵션 및 속성이 매우 다양하여 때때로 버거울 수도 있습니다. 검색 상자는 Visual Studio에서 필요한 항목을 빠르게 찾을 수 있는 좋은 방법입니다. 찾으려는 이름을 입력하기만 하면 Visual Studio는 원하는 곳으로 정확하게 안내하는 결과를 나열합니다. 예를 들어 다른 프로그래밍 언어를 위한 지원을 추가하도록 Visual Studio에 기능을 추가하는 경우 검색 상자를 사용하면 워크로드 또는 개별 구성 요소를 설치하도록 Visual Studio 설치 관리자가 열립니다.
 
    > [!TIP]
-   > **빠른 실행** 검색 상자에 대한 바로 가기는 **Ctrl**+**Q**를 누릅니다.
+   > 검색 상자에 대한 바로 가기는 **Ctrl**+**Q**를 누릅니다.
 
    ::: moniker range="vs-2017"
 
    ![Visual Studio 2017의 빠른 실행 검색 상자](../media/quick-launch-nuget.png)
 
+   자세한 내용은 [빠른 실행](../../ide/reference/quick-launch-environment-options-dialog-box.md)을 참조하세요.
+
    ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 
-   ![Visual Studio 2019의 빠른 실행 검색 상자](media/vs-2019/quick-launch.png)
+   ![Visual Studio 2019의 검색 상자](media/vs-2019/quick-launch.png)
 
    ::: moniker-end
 

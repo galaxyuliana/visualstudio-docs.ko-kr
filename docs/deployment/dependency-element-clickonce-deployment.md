@@ -25,12 +25,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: de4fc349a25719a0494b095e5a37c218b87cb0f8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 84e26a2d7dae70e0029817d4e6bb6e70dd53bce4
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600722"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648236"
 ---
 # <a name="ltdependencygt-element-clickonce-deployment"></a>&lt;종속성&gt; 요소 (ClickOnce 배포)
 를 설치 하려면 응용 프로그램의 버전 및 응용 프로그램 매니페스트의 위치를 식별 합니다.
@@ -78,7 +78,6 @@ ms.locfileid: "56600722"
 ## <a name="dependentassembly"></a>dependentAssembly
  필수 요소. 이 요소에 포함 된 `assemblyIdentity` 요소입니다. 다음 표에서 특성을 보여 줍니다.는 `dependentAssembly` 지원 합니다.
 
-
 | 특성 | 설명 |
 |------------------| - |
 | `preRequisite` | 선택 사항입니다. 이 어셈블리는 GAC에 이미 지정 합니다. 유효한 값은 `true` 및 `false`입니다. 경우 `true`, 지정된 된 어셈블리를 GAC에 없는 경우, 응용 프로그램을 실행 하지 못함. |
@@ -110,14 +109,12 @@ ms.locfileid: "56600722"
 ## <a name="dsigtransform"></a>dsig:Transform
  합니다 `dsig:Transform` 의 필수 자식 요소인는 `dsig:Transforms` 요소입니다. 다음 표에서 특성을 `dsig:Transform` 요소입니다.
 
-
 | 특성 | 설명 |
 |-------------| - |
 | `Algorithm` | 이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 `urn:schemas-microsoft-com:HashTransforms.Identity`합니다. |
 
 ## <a name="dsigdigestmethod"></a>dsig:DigestMethod
  합니다 `dsig:DigestMethod` 의 필수 자식 요소인는 `hash` 요소입니다. 다음 표에서 특성을 `dsig:DigestMethod` 요소입니다.
-
 
 | 특성 | 설명 |
 |-------------| - |
@@ -126,7 +123,7 @@ ms.locfileid: "56600722"
 ## <a name="dsigdigestvalue"></a>dsig:DigestValue
  합니다 `dsig:DigestValue` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestValue` 요소에는 특성이 없습니다. 요소의 텍스트 값은 지정된 된 파일에 대 한 계산 된 해시입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  배포 매니페스트는 일반적으로 단일 있습니다 `assemblyIdentity` 이름과 응용 프로그램 매니페스트 버전을 식별 하는 요소입니다.
 
 ## <a name="example"></a>예제
@@ -183,6 +180,6 @@ ms.locfileid: "56600722"
 </dependency>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)
 - [\<종속성 > 요소](../deployment/dependency-element-clickonce-application.md)

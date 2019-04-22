@@ -9,23 +9,21 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5827debb4f79ef34bbdd059c6beb0003988a721c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 35e292d5fcaaea4f70154cf6febfc26bc20f1318
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985400"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59648967"
 ---
 # <a name="schema-cache"></a>스키마 캐시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 XML 편집기에서는 %InstallRoot%\Xml\Schemas 디렉터리에 있는 스키마 캐시를 제공합니다. 스키마 캐시는 컴퓨터의 모든 사용자에 전체적으로 적용되며 IntelliSense 및 XML 문서 유효성 검사에 사용되는 표준 XML 스키마를 포함합니다.  
 
  XML 편집기는 솔루션에 있는 스키마를 찾을 수도 있습니다에 지정 된 스키마를 **스키마** 문서의 필드 **속성** 창과로 식별 되는 스키마는 `xsi:schemaLocation` 및 `xsi:noNamespaceSchemaLocation`특성입니다.  
 
  다음 표에서는 XML 편집기로 설치된 스키마에 대해 설명합니다.  
-
 
 |     파일 이름      |                                                      설명                                                      |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------|

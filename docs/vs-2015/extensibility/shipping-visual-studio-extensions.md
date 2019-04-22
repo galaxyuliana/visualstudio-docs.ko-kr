@@ -12,18 +12,17 @@ ms.assetid: 13cd263d-25f7-488e-9c1a-cff908caedb6
 caps.latest.revision: 29
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 619cbaeee977f3ff850edf9d58d0790d5219dc36
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: c7154395be43f6a0b07e9f2557d94fa594ef5ba4
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002857"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59647203"
 ---
 # <a name="shipping-visual-studio-extensions"></a>Visual Studio 확장 전달
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 **참고**: Visual Studio Marketplace를 Visual Studio 갤러리 교체 되 고 있습니다. 자세한 내용은이 항목의 최신 버전을 참조 하세요.
-
 
 확장 프로그램 개발을 완료 한 후 다른 컴퓨터에 설치 친구 및 동료와 공유할 또는 Visual Studio 갤러리에 게시할 수 있습니다. 이 섹션에서는 게시 하 고 확장 프로그램을 유지 하기 위해 수행 해야 하는 모든 항목 설명:.vsix 파일을 게시, 지역화, 및 업데이트를 사용 합니다.
 

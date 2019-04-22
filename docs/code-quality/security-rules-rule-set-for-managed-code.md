@@ -9,10 +9,10 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: 45c51a6c5496686ef84b17341c97f00680a80bdd
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59366044"
 ---
 # <a name="security-rules-rule-set-for-managed-code"></a>관리 코드에 대한 보안 규칙 규칙 집합
@@ -63,9 +63,9 @@ Microsoft 보안 규칙 규칙 집합 보고 되는 잠재적인 보안 문제 �
 |[CA2147](../code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md)|투명 메서드는 보안 어설션을 사용할 수 없습니다.|
 |[CA2149](../code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md)|투명 메서드는 네이티브 코드를 호출해서는 안 됩니다.|
 |[CA2210](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md)|어셈블리에는 올바른 강력한 이름을 사용해야 합니다.|
-|[CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)|안전 하지 않은 deserializer BinaryFormatter를 사용 하지 마세요|
-|[CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md)|첫 번째 설정은 BinaryFormatter.Binder 없이 BinaryFormatter.Deserialize를 호출 하지 마세요|
-|[CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)|BinaryFormatter.Binder BinaryFormatter.Deserialize를 호출 하기 전에 설정 되어 있는지 확인|
+|[CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)|안전하지 않은 역직렬 변환기 BinaryFormatter를 사용하지 마세요.|
+|[CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md)|먼저 BinaryFormatter.Binder를 설정하지 않고 BinaryFormatter.Deserialize를 호출하지 마세요.|
+|[CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)|BinaryFormatter.Deserialize를 호출하기 전에 BinaryFormatter.Binder가 설정되었는지 확인합니다.|
 |[CA3001](../code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md)|코드에서 SQL 주입 취약점에 대해 검토합니다.|
 |[CA3002](../code-quality/ca3002-review-code-for-xss-vulnerabilities.md)|코드에서 XSS 취약점에 대해 검토합니다.|
 |[CA3003](../code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md)|코드에서 파일 경로 삽입 취약성에 대해 검토합니다.|

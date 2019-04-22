@@ -14,24 +14,23 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 785aa4b4768ba8066b09f7f61f426406512c1e20
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 0ed7f7106b22cabc2e30c4f979aacda1823ea7d8
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54761674"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651934"
 ---
 # <a name="resources-for-designing-accessible-applications"></a>내게 필요한 옵션을 제공하는 애플리케이션 설계를 위한 리소스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 다음 링크를 사용하면 내게 필요한 옵션이 있는 Windows 애플리케이션과 웹 사이트 개발을 위한 팁과 예제뿐만 아니라 내게 필요한 옵션이 있는 애플리케이션 디자인을 지원하는 기술 관련 정보를 찾을 수 있습니다. 내게 필요한 옵션에 대한 일반적인 내용은 [http://www.microsoft.com/enable/](http://www.microsoft.com/enable/)에서 온라인으로 찾을 수 있습니다.  
   
 ## <a name="technologies"></a>기술  
   
--   **Microsoft Active Accessibility** 내게 필요한 옵션이 Microsoft Windows에서 실행되는 애플리케이션 작업을 도와주는 방식을 개선하는 COM 기반 기술입니다. 사용자 인터페이스 요소에 대한 정보를 안정적으로 노출하는 데 사용되는 애플리케이션 프로그래밍 요소와 COM 인터페이스뿐 아니라 운영 체제에 통합된 동적 연결 라이브러리를 제공합니다. 자세한 내용은 [http://msdn.microsoft.com/library/windows/desktop/dd373592(v=vs.85).aspx](http://msdn.microsoft.com/library/windows/desktop/dd373592\(v=vs.85\).aspx)를 참조하세요.  
+-   **Microsoft Active Accessibility** 내게 필요한 옵션이 Microsoft Windows에서 실행되는 응용 프로그램 작업을 도와주는 방식을 개선하는 COM 기반 기술입니다. 사용자 인터페이스 요소에 대한 정보를 안정적으로 노출하는 데 사용되는 애플리케이션 프로그래밍 요소와 COM 인터페이스뿐 아니라 운영 체제에 통합된 동적 연결 라이브러리를 제공합니다. 자세한 내용은 [http://msdn.microsoft.com/library/windows/desktop/dd373592(v=vs.85).aspx](http://msdn.microsoft.com/library/windows/desktop/dd373592\(v=vs.85\).aspx)를 참조하세요.  
   
--   **Microsoft.NET 음성 기술** Microsoft.NET 음성 SDK는 웹 개발자가 음성 지원 [!INCLUDE[vstecasp](../../includes/vstecasp-md.md)] 애플리케이션을 만들고, 디버그하고, 배포할 수 있도록 해주는 Microsoft [!INCLUDE[vstecasp](../../includes/vstecasp-md.md)] 컨트롤, Microsoft Internet Explorer 음성 추가 기능, 샘플 애플리케이션 및 설명서 집합입니다. 이러한 도구는 개발자가 친숙한 개발 환경을 활용할 수 있도록 Microsoft Visual Studio에 완벽하게 통합되어 있습니다. 자세한 내용은 [http://msdn.microsoft.com/library/ms950383.aspx](http://msdn.microsoft.com/library/ms950383.aspx)를 참조하세요.  
+-   **Microsoft.NET 음성 기술** Microsoft.NET 음성 SDK는 웹 개발자가 음성 지원 [!INCLUDE[vstecasp](../../includes/vstecasp-md.md)] 응용 프로그램을 만들고, 디버그하고, 배포할 수 있도록 해주는 Microsoft [!INCLUDE[vstecasp](../../includes/vstecasp-md.md)] 컨트롤, Microsoft Internet Explorer 음성 추가 기능, 샘플 응용 프로그램 및 설명서 집합입니다. 이러한 도구는 개발자가 친숙한 개발 환경을 활용할 수 있도록 Microsoft Visual Studio에 완벽하게 통합되어 있습니다. 자세한 내용은 [http://msdn.microsoft.com/library/ms950383.aspx](http://msdn.microsoft.com/library/ms950383.aspx)를 참조하세요.  
   
 -   **SAMI 1.0 이해** Microsoft SAMI(Synchronized Accessible Media Interchange) 기술을 사용하면 개발자가 PC 멀티미디어용 오디오 콘텐츠에 캡션을 추가할 수 있습니다. 자세한 내용은 [http://msdn.microsoft.com/library/ms971327.aspx](http://msdn.microsoft.com/library/ms971327.aspx)를 참조하세요.  
   
@@ -39,13 +38,13 @@ ms.locfileid: "54761674"
   
 -   [연습: 액세스할 수 있는 Windows 기반 응용 프로그램을 만드는](http://msdn.microsoft.com/library/654c7f2f-1586-480b-9f12-9d9b8f5cc32b) 이 항목에서는 Windows에 대 한 인증 로고 취득을 위해 다섯 가지 접근성 요구 사항이 포함 하 여 샘플 Windows 응용 프로그램에서에 대 한 단계별 지침을 제공 합니다.  
   
--   **키보드 사용자 인터페이스 설계 지침** 이 기술 문서에서는 사용자가 키보드로 탐색할 수 있도록 Windows 애플리케이션 사용자 인터페이스를 설계하는 방법을 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/ms971323.aspx](http://msdn2.microsoft.com/library/ms971323.aspx)를 참조하세요.  
+-   **키보드 사용자 인터페이스 설계 지침** 이 기술 문서에서는 사용자가 키보드로 탐색할 수 있도록 Windows 응용 프로그램 사용자 인터페이스를 설계하는 방법을 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/ms971323.aspx](http://msdn2.microsoft.com/library/ms971323.aspx)를 참조하세요.  
   
 -   **내게 필요한 옵션이 있는 콘솔** 이 기술 문서에서는 Windows XP에서 내게 필요한 옵션 보조 도구를 사용할 수 있도록 콘솔을 노출하는 데 사용되는 API와 이벤트에 대해 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/ms971319.aspx](http://msdn2.microsoft.com/library/ms971319.aspx)를 참조하세요.  
   
 ## <a name="web-sites"></a>웹 사이트  
   
--   [연습: 이미지 컨트롤, 메뉴 컨트롤 및 AutoPostBack을 사용하기 위한 내게 필요한 옵션 지침](http://msdn.microsoft.com/library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) 이 항목에서는 샘플 웹 페이지에 내게 필요한 옵션이 있는 컨트롤을 포함하는 방법과 웹에 대한 내게 필요한 옵션의 몇 가지 설계 팁을 단계적으로 설명합니다.  
+-   [연습: 사용 하 여 이미지 컨트롤, 메뉴 컨트롤 및 AutoPostBack에 대 한 내게 필요한 옵션 지침](http://msdn.microsoft.com/library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) 이 항목에서는 몇 가지 내게 필요한 옵션 디자인 팁을 비롯 하 여 샘플 웹 페이지에 액세스할 수 있는 컨트롤을 포함 하 여 웹에 대 한 단계별 지침을 제공 합니다.  
   
 -   **내게 필요한 옵션이 있는 웹 페이지** 이 기술 문서에서는 웹 사이트 개발에서 내게 필요한 옵션을 지원하기 위해 사용되는 HTML 3.2 요소 및 기타 요소에 대해 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/ms971309.aspx](http://msdn2.microsoft.com/library/ms971309.aspx)를 참조하세요.  
   

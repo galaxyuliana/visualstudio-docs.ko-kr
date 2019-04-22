@@ -11,17 +11,16 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6ed61d1b65d03053859b5463b574432e0396449a
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 8bcb8aadc2fb2a2f836fccde56e283b38cbc213d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758363"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649240"
 ---
 # <a name="property-functions"></a>속성 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 .NET Framework 버전 4 및 4.5에서는 속성 함수를 사용하여 MSBuild 스크립트를 평가할 수 있습니다. 속성 함수는 속성이 나타나는 곳마다 사용할 수 있습니다. 작업과 달리 속성 함수는 대상 외부에서 사용할 수 있으며, 대상이 실행되기 전에 평가됩니다.  
   
  MSBuild 작업을 사용하지 않고도 시스템 시간을 읽고 문자열을 비교하며 정규식을 일치시키고 빌드 스크립트의 다른 작업을 수행할 수 있습니다. MSBuild는 문자열을 숫자로, 숫자를 문자열로 변환하려고 하며, 필요한 경우 다른 변환을 수행합니다.  

@@ -17,17 +17,16 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 423975825e74b7dab29f19697e1e17fb00430f9c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ed2a999fc3480bda8aa534d3dd32a00f5ff5c039
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980615"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59651921"
 ---
 # <a name="add-code-to-tableadapters-in-n-tier-applications"></a>n 계층 애플리케이션에서 TableAdapter에 코드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 기능을 확장할 수 있습니다는 `TableAdapter` 에 대 한 partial 클래스 파일을 만들어 합니다 `TableAdapter` 코드를 추가 하 (코드를 추가 하는 대신 합니다 *DatasetName*. DataSet.Designer 파일)입니다. Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 한 코드를 사용 합니다. 자세한 내용은 [부분](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) 하거나 [partial (형식)](http://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334)합니다.  
   
  정의 하는 코드를 `TableAdapter` 변경 될 때마다 생성 되는 `TableAdapter`합니다. 구성을 수정 하는 마법사를 실행 하는 동안 변경 된 경우에이 코드는 생성 된 `TableAdapter`합니다. 코드를 다시 생성 하는 동안 삭제를 방지 하기 위해를 `TableAdapter`, partial 클래스 파일의 코드를 추가 합니다 `TableAdapter`합니다.  

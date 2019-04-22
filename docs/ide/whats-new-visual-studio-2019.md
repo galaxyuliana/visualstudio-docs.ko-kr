@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 25a7f5f0e53518e9beb4b509ab27ae4de0f28fa7
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.openlocfilehash: 399207f81ec1f25e6a5169235820989c1b2c34e4
+ms.sourcegitcommit: 0a2fdc23faee77187e10a1c19665ba5a1ac68e72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018157"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59477543"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Visual Studio 2019의 새로운 기능
 
@@ -34,10 +34,10 @@ Visual Studio 2019를 사용하면 모든 개발자, 앱 및 플랫폼을 위한
 다음은 새로운 기능에 대한 간략한 요약입니다.
 
 * **[개발](#develop)**: 향상된 성능, 인스턴트 코드 정리, 더 나은 검색 결과를 사용하여 계속 집중하고 생산성을 유지합니다.
-* **[공동 작업](#collaborate)**: 클라우드 우선 워크플로, 실시간 편집 및 디버깅, Visual Studio에서 바로 코드 검토를 사용하여 자연스럽게 공동 작업합니다.
+* **[공동 작업](#collaborate)**: Git 우선 워크플로, 실시간 편집 및 디버깅, Visual Studio에서 바로 코드 검토를 사용하여 자연스럽게 공동 작업합니다.
 * **[디버그](#debug)**: 특정 값을 강조 표시하여 탐색하고, 메모리 사용을 최적화하며, 애플리케이션 실행의 자동 스냅숏을 만듭니다.
 
-이 버전에 포함된 모든 새로운 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes/)를 참조하세요. 
+이 버전에 포함된 모든 새로운 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes/)를 참조하세요.
 
 ## <a name="develop"></a>개발
 
@@ -55,11 +55,11 @@ Visual Studio 2019를 사용하면 모든 개발자, 앱 및 플랫폼을 위한
 
 ### <a name="refactorings"></a>리팩터링
 
-새로운 C# 리팩터링을 사용하면 코드를 더 쉽게 구성할 수 있습니다. **Ctrl+.** 를 누르고 수행할 작업을 선택하여 리팩터링을 호출하면 됩니다. 
+C#에서 코드 구성을 더 쉽게 만드는 매우 유용한 새로운 리팩터링이 많이 있습니다. 전구 아이콘의 제안으로 표시되며 인터페이스 또는 기본 클래스로 멤버 이동, 폴더 구조와 일치하도록 네임스페이스 조정, foreach-loops를 Linq 쿼리로 변환하는 등의 작업이 포함됩니다.
 
    ![Visual Studio 2019의 리팩터링 환경 애니메이션](media/vs-2019/refactorings.gif)
 
-메서드 매개 변수를 래핑할 수 있는 리팩터링을 포함하여 새 리팩터링이 많이 추가되었습니다.
+**Ctrl+.** 를 누르고 수행할 작업을 선택하여 리팩터링을 호출하면 됩니다.
 
 ### <a name="intellicode"></a>IntelliCode
 
@@ -78,7 +78,7 @@ Visual Studio용 IntelliCode 확장을 처음 소개할 때는 C#만 지원했�
 
 C#을 사용하는 분들을 위해 사용자 고유의 코드에서 사용자 지정 모델을 학습하는 기능도 추가되었습니다.
 
-IntelliCode에 대한 자세한 내용은 [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/)(Visual Studio IntelliCode를 사용하여 더 많이 코딩, 더 적게 스크롤) 블로그 게시물을 참조하세요. 
+IntelliCode에 대한 자세한 내용은 [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/)(Visual Studio IntelliCode를 사용하여 더 많이 코딩, 더 적게 스크롤) 블로그 게시물을 참조하세요.
 
 ### <a name="code-cleanup"></a>코드 정리
 
@@ -142,7 +142,7 @@ Visual Studio 2019를 열면 새 시작 창이 표시됩니다.
 
    ![Visual Studio 2019의 디버그 데이터 중단점을 보여 주는 애니메이션](media/vs-2019/debug-data-breakpoints.gif)
 
-따라서 C++에서 코딩하든, .NET Core에서 코딩하든 간에 일반 중단점을 배치하는 것보다 데이터 중단점을 사용하는 것이 좋습니다. 데이터 중단점은 전역 개체가 수정되거나 목록에 추가 또는 제거되는 위치 찾기와 같은 시나리오에도 유용합니다. 
+따라서 C++에서 코딩하든, .NET Core에서 코딩하든 간에 일반 중단점을 배치하는 것보다 데이터 중단점을 사용하는 것이 좋습니다. 데이터 중단점은 전역 개체가 수정되거나 목록에 추가 또는 제거되는 위치 찾기와 같은 시나리오에도 유용합니다.
 
 또한 대규모 애플리케이션을 개발하는 C++ 개발자인 경우 Visual Studio 2019에서는 메모리 관련 문제없이 애플리케이션을 디버그할 수 있는 Out of Process 기호를 만들었습니다.
 

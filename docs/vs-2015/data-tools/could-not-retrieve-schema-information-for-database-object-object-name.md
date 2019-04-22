@@ -9,17 +9,16 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2fa0c6e6e968f05ed8e2612e330d251ee7251206
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c4847c8b6abf44e1ac68de1f1b9c8cbb0ca0aac7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983188"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652471"
 ---
 # <a name="could-not-retrieve-schema-information-for-database-object-ltobject-namegt"></a>데이터베이스 개체에 대 한 스키마 정보를 가져오지 못했습니다 &lt;개체 이름&gt;
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 경우에 개체에 일반적으로이 메시지가 나타납니다 **서버 탐색기/데이터베이스 탐색기** 클립보드에 복사, 삭제, 데이터베이스에서 되어 디자이너에 붙여넣은 후 합니다. 즉, 데이터베이스 개체가 더 이상 존재하지 않으므로 이 메시지가 나타납니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  

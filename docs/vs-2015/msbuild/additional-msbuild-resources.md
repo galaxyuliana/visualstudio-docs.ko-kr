@@ -599,17 +599,16 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 27dec65ec40db76c643260e26e98375e4a80ec10
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 5bf30e3267939385a3cca3459390c4c7591909a6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54764910"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59647470"
 ---
 # <a name="additional-msbuild-resources"></a>추가 MSBuild 리소스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 문제를 해결하려고 하는데 설명서에서 필요한 정보를 찾을 수 없으면 기술 자료 문서, 개발자 커뮤니티 또는 제품 지원과 같은 다른 리소스를 참조할 수 있습니다.  
   
 ## <a name="knowledge-base-articles"></a>기술 자료 문서  
