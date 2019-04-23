@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f62b580b72f7910f8d5a688acc8df61361286c0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a1763e51a09ba797bd22c85ba998e1533aa18f97
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627924"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050762"
 ---
 # <a name="test-area-6-delete"></a>테스트 영역 6: 삭제
 이 소스 제어 플러그 인 테스트 영역 삭제 작업을 설명합니다.
@@ -36,13 +36,13 @@ ms.locfileid: "56627924"
 ## <a name="expected-behavior"></a>예상된 된 동작
  Delete 테스트 영역에서 테스트 사례에 대해 예상 되는 동작은 다음과 같습니다.
 
--   삭제 된 항목을 더 이상 내에서 볼 **솔루션 탐색기**합니다.
+- 삭제 된 항목을 더 이상 내에서 볼 **솔루션 탐색기**합니다.
 
--   삭제 된 프로젝트 또는 항목의 부모를 체크 아웃 필요에 따라 (가능한 경우 프롬프트.)
+- 삭제 된 프로젝트 또는 항목의 부모를 체크 아웃 필요에 따라 (가능한 경우 프롬프트.)
 
--   을 체크 아웃 삭제 하거나 추가 항목 후에 나타나지 않습니다 합니다 **보류 중인 체크 인** 창입니다.
+- 을 체크 아웃 삭제 하거나 추가 항목 후에 나타나지 않습니다 합니다 **보류 중인 체크 인** 창입니다.
 
--   항목이 여전히 소스 제어 저장소에서 삭제 한 후에 있고 수동으로 제거 해야 합니다.
+- 항목이 여전히 소스 제어 저장소에서 삭제 한 후에 있고 수동으로 제거 해야 합니다.
 
 |작업|테스트 단계|확인 하려면 예상된 결과|
 |------------|----------------|--------------------------------|

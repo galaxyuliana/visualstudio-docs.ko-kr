@@ -12,12 +12,12 @@ caps.latest.revision: 42
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 14f67aee6bba5f0cafc67a4a16184f3b769a2bae
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: da7b1f1bda7fac222d0d47c6bf2a15eaf3a8396f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983191"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052066"
 ---
 # <a name="walkthrough-configuring-and-using-a-custom-rule-set"></a>연습: 사용자 지정 규칙 세트 구성 및 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,21 +26,21 @@ ms.locfileid: "58983191"
   
  이 연습에서는 이러한 프로세스를 단계별로 진행 합니다.  
   
--   클래스 라이브러리를 만듭니다.  
+- 클래스 라이브러리를 만듭니다.  
   
--   선택 된 **Microsoft 기본 디자인 지침 규칙** 코드 분석 규칙 집합입니다.  
+- 선택 된 **Microsoft 기본 디자인 지침 규칙** 코드 분석 규칙 집합입니다.  
   
--   클래스에 사용자 고유의 코드를 추가 합니다.  
+- 클래스에 사용자 고유의 코드를 추가 합니다.  
   
--   코드 분석을 실행 합니다.  
+- 코드 분석을 실행 합니다.  
   
--   규칙 집합을 사용자 지정 합니다.  
+- 규칙 집합을 사용자 지정 합니다.  
   
--   코드 분석을 실행 하 고 규칙 사용자 지정 동작을 설정 하는 방법을 참조 하세요.  
+- 코드 분석을 실행 하 고 규칙 사용자 지정 동작을 설정 하는 방법을 참조 하세요.  
   
 ## <a name="prerequisites"></a>전제 조건  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]또는 [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]또는 [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 ## <a name="using-rule-sets-with-code-analysis"></a>에 코드 분석 규칙 집합 사용  
  먼저 간단한 클래스 라이브러리를 만듭니다.  
@@ -148,9 +148,9 @@ ms.locfileid: "58983191"
   
 #### <a name="run-code-analysis-on-the-rulesetsample-project-for-the-second-time"></a>두 번째로 RuleSetSample 프로젝트에서 코드 분석 실행  
   
-1.  에 **분석** 메뉴에서 클릭 **RuleSetSample에서 코드 분석 실행**합니다.  
+1. 에 **분석** 메뉴에서 클릭 **RuleSetSample에서 코드 분석 실행**합니다.  
   
-2.  오류 목록 창에는 알 수 있듯이 클릭 하면 **경고**, 더 이상 "식별자 철자가" 규칙에 대 한 경고 CA1704 위반을 볼 수 없습니다.  
+2. 오류 목록 창에는 알 수 있듯이 클릭 하면 **경고**, 더 이상 "식별자 철자가" 규칙에 대 한 경고 CA1704 위반을 볼 수 없습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 관리 코드 프로젝트에 대 한 코드 분석 구성](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)   

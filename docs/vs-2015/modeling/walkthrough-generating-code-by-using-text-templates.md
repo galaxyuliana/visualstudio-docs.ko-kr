@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6c59d6ba8b6e807b4380a3f7abad3869e5108448
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 8c374dc5cc616f58cb81a1191b095971561df9b1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983417"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052885"
 ---
 # <a name="walkthrough-generating-code-by-using-text-templates"></a>연습: 텍스트 템플릿을 사용 하 여 코드를 생성 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,9 +86,9 @@ foreach (XmlNode artist in catalog.SelectNodes("artist"))
   
 ##### <a name="to-create-the-project"></a>프로젝트를 만들려면  
   
-1.  **파일** 메뉴에서 **새로 만들기** 를 클릭한 다음 **프로젝트**를 클릭합니다.  
+1. **파일** 메뉴에서 **새로 만들기** 를 클릭한 다음 **프로젝트**를 클릭합니다.  
   
-2.   **Visual C#** 노드를 클릭한 다음, **템플릿** 창에서 **콘솔 응용 프로그램**을 클릭합니다.  
+2.  **Visual C#** 노드를 클릭한 다음, **템플릿** 창에서 **콘솔 응용 프로그램**을 클릭합니다.  
   
 ### <a name="add-a-prototype-xml-file-to-the-project"></a>프로토타입 XML 파일을 프로젝트에 추가  
  이 파일의 목적은 애플리케이션에 읽을 수 있도록 할 XML 노드 형식의 샘플을 제공하는 것입니다. 그러한 샘플은 애플리케이션 테스트에 사용할 파일이 될 수도 있습니다. 템플릿은 이 파일의 각 노드 형식에 대해 C# 클래스를 생성합니다.  

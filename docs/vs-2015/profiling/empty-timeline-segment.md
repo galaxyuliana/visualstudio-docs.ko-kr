@@ -13,25 +13,25 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4ac39a776cb7e6c2c9cbce648c0b3ca3ebc86783
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 0291cfe93492c357401ce371d58683c6815aa12b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54770747"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052820"
 ---
 # <a name="empty-timeline-segment"></a>빈 시간 표시 막대 세그먼트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 동시성 시각화 도우미에서 타임라인의 섹션이 비어 있는 이유(흰색 배경)는 채널 종류에 따라 달라집니다.  
   
--   CPU 스레드 채널의 경우에는 이 타임라인 부분에서 스레드가 존재하지 않았음을 의미합니다. 스레드를 조사하면 확대/축소 컨트롤을 사용하거나 가로로 스크롤해서 실행 중인 섹션을 찾을 수 있습니다.  
+- CPU 스레드 채널의 경우에는 이 타임라인 부분에서 스레드가 존재하지 않았음을 의미합니다. 스레드를 조사하면 확대/축소 컨트롤을 사용하거나 가로로 스크롤해서 실행 중인 섹션을 찾을 수 있습니다.  
   
--   I/O 채널의 경우에는 해당 시점에서 대상 프로세스를 대신해서 디스크 액세스가 발생하지 않았음을 의미합니다.  
+- I/O 채널의 경우에는 해당 시점에서 대상 프로세스를 대신해서 디스크 액세스가 발생하지 않았음을 의미합니다.  
   
--   DirectX 채널의 경우, 이 타임라인 부분에서 대상 프로세스를 대신해서 GPU 작업이 수행되지 않았음을 의미합니다.  
+- DirectX 채널의 경우, 이 타임라인 부분에서 대상 프로세스를 대신해서 GPU 작업이 수행되지 않았음을 의미합니다.  
   
--   표식 채널의 경우에는 표식이 생성되지 않았음을 의미합니다.  
+- 표식 채널의 경우에는 표식이 생성되지 않았음을 의미합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [스레드 뷰](../profiling/threads-view-parallel-performance.md)   

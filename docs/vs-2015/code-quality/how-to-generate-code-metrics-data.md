@@ -13,12 +13,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2ec6063f859333b54adaabea0c68af9fd884845b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: aeba6a777dd060f310f9cbb8801b2405cd76f6b2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981357"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045631"
 ---
 # <a name="how-to-generate-code-metrics-data"></a>방법: 코드 메트릭 데이터 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,15 +31,15 @@ ms.locfileid: "58981357"
   
 ### <a name="to-generate-code-metrics-results-for-an-entire-solution"></a>전체 솔루션에 대해 코드 메트릭 결과 생성 하려면  
   
--   클릭 **분석 메뉴**를 클릭 하 고 **솔루션에 대 한 메트릭을 CalculateCode**합니다.  
+- 클릭 **분석 메뉴**를 클릭 하 고 **솔루션에 대 한 메트릭을 CalculateCode**합니다.  
   
      \- 또는 -  
   
--   **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭 하 고 클릭 **CalculateCode 메트릭**합니다.  
+- **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭 하 고 클릭 **CalculateCode 메트릭**합니다.  
   
      \- 또는 -  
   
--   에 **코드 메트릭 결과** 창 클릭 합니다 **솔루션에 대해 CalculateCode 메트릭** 단추.  
+- 에 **코드 메트릭 결과** 창 클릭 합니다 **솔루션에 대해 CalculateCode 메트릭** 단추.  
   
      결과가 생성 되 고 **코드 메트릭 결과** 창이 표시 됩니다.  
   
@@ -57,7 +57,7 @@ ms.locfileid: "58981357"
   
 ### <a name="to-view-the-results-details"></a>결과 세부 정보를 보려면  
   
--   트리를 확장 합니다 **계층** 열입니다.  
+- 트리를 확장 합니다 **계층** 열입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [관리 코드의 복잡성 및 유지 관리 용이성 측정](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

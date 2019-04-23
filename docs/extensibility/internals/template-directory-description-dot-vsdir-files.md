@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0bcd3855b5dd2fc701b78c5745a9053d19dc7fcf
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 89152fcb003886087704107f2d4c2a66d3313cc3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658255"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050364"
 ---
 # <a name="template-directory-description-vsdir-files"></a>템플릿 디렉터리 설명(.Vsdir) 파일
 템플릿 디렉터리 설명 (.vsdir) 파일은 통합된 개발 환경 (IDE) 폴더, 마법사.vsz 파일 및 대화 상자에서 프로젝트와 연결 된 템플릿 파일을 표시할 수 있도록 하는 텍스트 파일입니다. 콘텐츠 파일 또는 폴더당 하나의 레코드를 포함합니다. 참조 된 위치에 모든.vsdir 파일 하나만.vsdir 파일 여러 폴더, 마법사 또는 템플릿 파일을 설명 하기 위해 일반적으로 제공 되지만 병합 됩니다.
@@ -50,17 +50,17 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 
  마법사 파일을 만들 때 다음 사항을 고려해 야 합니다.
 
--   의미 있는 데이터가 없는 모든 선택적 필드는 0 (영) 자리 표시자로 포함 해야 합니다.
+- 의미 있는 데이터가 없는 모든 선택적 필드는 0 (영) 자리 표시자로 포함 해야 합니다.
 
--   제공 된 지역화 된 이름이 없는 경우에 상대 경로 이름은 마법사 파일에 사용 됩니다.
+- 제공 된 지역화 된 이름이 없는 경우에 상대 경로 이름은 마법사 파일에 사용 됩니다.
 
--   DLLPath clsidPackage 아이콘 위치를 재정의합니다.
+- DLLPath clsidPackage 아이콘 위치를 재정의합니다.
 
--   정의 된 아이콘이 없는 경우 IDE는 해당 확장명을 가진 파일에 대 한 기본 아이콘을 사용 합니다.
+- 정의 된 아이콘이 없는 경우 IDE는 해당 확장명을 가진 파일에 대 한 기본 아이콘을 사용 합니다.
 
--   기본 이름이 없는 제공 하는 경우 'Project' 사용 됩니다.
+- 기본 이름이 없는 제공 하는 경우 'Project' 사용 됩니다.
 
--   .Vsz 파일, 폴더 또는 템플릿 파일을 삭제 하면.vsdir 파일에서 연결 된 해당 레코드도 제거 해야 합니다.
+- .Vsz 파일, 폴더 또는 템플릿 파일을 삭제 하면.vsdir 파일에서 연결 된 해당 레코드도 제거 해야 합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [마법사](../../extensibility/internals/wizards.md)

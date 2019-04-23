@@ -23,12 +23,12 @@ caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: dd897e0d340bed3c82ab47a9e315915456d10480
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6fd484422cdae8cfc04cab169feefdd452f178a5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971242"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056681"
 ---
 # <a name="project-settings-for--c-debug-configurations"></a>C# 디버그 구성에 대한 프로젝트 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,9 +36,9 @@ ms.locfileid: "58971242"
 C# 디버그 구성에 대 한 프로젝트 설정을 변경할 수 있습니다 합니다 **속성 페이지** 창에 설명 된 대로 [디버그 및 릴리스 구성](../debugger/how-to-set-debug-and-release-configurations.md)합니다. 다음 표에서는 **속성 페이지** 창에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.  
   
 > [!WARNING]
->  이 항목은 Windows 스토어 응용 프로그램에 적용되지 않습니다. 참조 [(VB, C#, c + + 및 XAML) 디버그 세션 시작](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
+>  이 항목은 Windows 스토어 응용 프로그램에 적용되지 않습니다. 참조 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
   
-##  <a name="BKMK_Debug_tab"></a> 디버그 탭  
+## <a name="BKMK_Debug_tab"></a> 디버그 탭  
   
 |**설정**|**설명**|  
 |-----------------|---------------------|  
@@ -50,7 +50,7 @@ C# 디버그 구성에 대 한 프로젝트 설정을 변경할 수 있습니다
 |**비관리 코드 디버깅 사용**|관리되는 응용 프로그램에서의 비관리 네이티브 Win32 코드에 대한 호출을 디버깅할 수 있습니다.|  
 |**SQL Server 디버깅 사용**|SQL Server 데이터베이스 개체를 디버깅할 수 있습니다.|  
   
-##  <a name="BKMK_Build_tab"></a> 빌드 탭  
+## <a name="BKMK_Build_tab"></a> 빌드 탭  
   
 |설정|설명|  
 |-------------|-----------------|  

@@ -11,12 +11,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 6b9efdb5ea3e7ccbee9aefb724e847db6a37c2a0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: fddc41d264f30f6de5a2f69b098865cf3d997147
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971027"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60044826"
 ---
 # <a name="how-to-enable-and-disable-full-solution-analysis-for-managed-code"></a>방법: 사용 하도록 설정 하 고 관리 되는 코드에 대 한 전체 솔루션 분석 사용 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "58971027"
   
 #### <a name="to-toggle-full-solution-analysis"></a>전체 솔루션 분석을 설정/해제 하려면  
   
-1.  Visual Studio의 주 메뉴에서 선택 **도구** &#124; **옵션** 보려는 합니다 **옵션** 대화 상자.  
+1. Visual Studio의 주 메뉴에서 선택 **도구** &#124; **옵션** 보려는 합니다 **옵션** 대화 상자.  
   
-2.  에 **옵션** 대화 상자에서 **텍스트 편집기** &#124; **C#** 또는 **Basic** &#124; **고급**.  
+2. 에 **옵션** 대화 상자에서 **텍스트 편집기** &#124; **C#** 또는 **Basic** &#124; **고급**.  
   
-3.  선택 된 **전체 솔루션 분석 사용** 전체 솔루션 분석 사용 하거나 사용 하지 않도록 확인란의 선택을 취소 하려면 확인란 합니다. 선택 된 **확인** 완료 되 면 단추입니다.  
+3. 선택 된 **전체 솔루션 분석 사용** 전체 솔루션 분석 사용 하거나 사용 하지 않도록 확인란의 선택을 취소 하려면 확인란 합니다. 선택 된 **확인** 완료 되 면 단추입니다.  
   
      ![전체 솔루션 분석 사용 확인란을 사용 하도록 설정 합니다. ](../code-quality/media/fsa-toolsoptions.png "FSA_ToolsOptions")  
   

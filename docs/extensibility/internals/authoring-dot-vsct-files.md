@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 442d78f494381021bd480f5649dbb6957bec5ae1
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: 84c7a5194e48e73fbabf60b7c9ef89e6cb04d855
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954052"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053085"
 ---
 # <a name="author-vsct-files"></a>.Vsct 파일 작성
 이 문서에서는 작성 하는 방법을 보여 줍니다.는 *.vsct* 파일을 Visual Studio 통합된 개발 환경 (IDE)에 메뉴 항목, 도구 모음 및 기타 사용자 인터페이스 (UI) 요소를 추가 합니다. 이미 있지 않은 Visual Studio 패키지 (VSPackage) UI 요소를 추가 하는 경우 다음이 단계를 사용 하 여는 *.vsct* 파일입니다.
@@ -30,7 +30,7 @@ ms.locfileid: "56954052"
 
 #### <a name="to-create-the-file-structure"></a>파일 구조를 만들려면
 
-1.  추가 된 *.vsct* 의 단계를 수행 하 여 프로젝트 파일 [방법: .Vsct 파일 만들기](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)합니다.
+1. 추가 된 *.vsct* 의 단계를 수행 하 여 프로젝트 파일 [방법: .Vsct 파일 만들기](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)합니다.
 
 2. 필요한 네임 스페이스를 추가 합니다 `CommandTable` 다음 예제에서와 같이 요소:
 
@@ -40,7 +40,7 @@ ms.locfileid: "56954052"
 
     ```
 
-3.  에 `CommandTable` 요소를 추가 `Commands` 요소를 사용자 지정 메뉴, 도구 모음, 명령 그룹 및 명령은 모든 호스트 합니다. 사용자 지정 UI 요소를 로드 하는 `Commands` 요소가 있어야 합니다. 해당 `Package` 특성 패키지의 이름으로 설정 합니다.
+3. 에 `CommandTable` 요소를 추가 `Commands` 요소를 사용자 지정 메뉴, 도구 모음, 명령 그룹 및 명령은 모든 호스트 합니다. 사용자 지정 UI 요소를 로드 하는 `Commands` 요소가 있어야 합니다. 해당 `Package` 특성 패키지의 이름으로 설정 합니다.
 
      후 합니다 `Commands` 요소를 추가 `Symbols` 요소 이름과 패키지에 대 한 Guid를 정의 하 고 UI 요소에 대 한 명령 Id입니다.
 
@@ -51,9 +51,9 @@ ms.locfileid: "56954052"
 
 1. 맨 위에 있는 `CommandTable` 요소를 추가 `Extern` 각 외부 파일을 참조 하 고 설정에 대 한 요소는 `href` 특성을 파일의 이름입니다. Visual Studio 리소스에 액세스 하려면 다음 헤더 파일을 참조할 수 있습니다.
 
-   -   *Stdidcmd.h*: Visual Studio에서 노출 하는 모든 명령에 대 한 Id를 정의 합니다.
+   - *Stdidcmd.h*: Visual Studio에서 노출 하는 모든 명령에 대 한 Id를 정의 합니다.
 
-   -   *Vsshlids.h*: Visual Studio 메뉴에 대 한 명령 Id를 포함합니다.
+   - *Vsshlids.h*: Visual Studio 메뉴에 대 한 명령 Id를 포함합니다.
 
 2. 패키지는 Visual Studio에서 또는 다른 패키지에서 정의 된 모든 명령을 호출 하는 경우 추가 `UsedCommands` 요소 뒤의 `Commands` 요소입니다. 이 요소와 채우기는 [UsedCommand](../../extensibility/usedcommand-element.md) 패키지의 일부가 아닌 호출 된 각 명령에 대 한 요소입니다. 설정 합니다 `guid` 및 `id` 의 특성을 `UsedCommand` 요소를 호출 하는 명령의 GUID 및 ID 값입니다.
 
@@ -64,15 +64,15 @@ ms.locfileid: "56954052"
 
 #### <a name="to-declare-ui-elements"></a>UI 요소를 선언 하려면
 
-1.  에 `Symbols` 요소를 3 개 추가 [GuidSymbol](../../extensibility/guidsymbol-element.md) 요소입니다. 각 `GuidSymbol` 요소에는 `name` 특성으로 `value` 특성입니다. 설정 된 `name` 특성 요소의 용도 반영 합니다. `value` 특성은 GUID를 사용 합니다. (에서 GUID를 생성 하는 **도구** 메뉴에서 **GUID 만들기**를 선택한 후 **레지스트리 형식**.)
+1. 에 `Symbols` 요소를 3 개 추가 [GuidSymbol](../../extensibility/guidsymbol-element.md) 요소입니다. 각 `GuidSymbol` 요소에는 `name` 특성으로 `value` 특성입니다. 설정 된 `name` 특성 요소의 용도 반영 합니다. `value` 특성은 GUID를 사용 합니다. (에서 GUID를 생성 하는 **도구** 메뉴에서 **GUID 만들기**를 선택한 후 **레지스트리 형식**.)
 
      첫 번째 `GuidSymbol` 요소 패키지를 나타내며 일반적으로 자식이 없습니다. 두 번째 `GuidSymbol` 요소 나타냅니다 명령을 설정 하 고 모든 프로그램 메뉴, 그룹 및 명령을 정의 하는 기호가 포함 됩니다. 세 번째 `GuidSymbol` 요소 이미지 저장소를 나타내고 프로그램 명령에 대 한 아이콘의 모든 기호가 포함 되어 있습니다. 명령 없음 아이콘을 사용 하는 경우에 세 번째를 생략할 수 있습니다 `GuidSymbol` 요소입니다.
 
-2.  에 `GuidSymbol` 하나 이상 추가 하는 명령 집합을 나타내는 요소 [IDSymbol](../../extensibility/idsymbol-element.md) 요소입니다. 이러한 각 메뉴, 도구 모음, 그룹 또는 UI를 추가 하는 명령을 나타냅니다.
+2. 에 `GuidSymbol` 하나 이상 추가 하는 명령 집합을 나타내는 요소 [IDSymbol](../../extensibility/idsymbol-element.md) 요소입니다. 이러한 각 메뉴, 도구 모음, 그룹 또는 UI를 추가 하는 명령을 나타냅니다.
 
      각 `IDSymbol` 요소를 설정 합니다 `name` 특성을 사용 하 여 해당 메뉴, 그룹 또는 명령 참조를 설정한 이름을 `value` 명령 ID를 나타내는 16 진수 숫자로 요소 두 개의 `IDSymbol` 동일한 부모 요소에 동일한 값을 가질 수 있습니다.
 
-3.  아이콘에 필요한 UI 요소에 있는 경우 추가 `IDSymbol` 각 아이콘에 대 한 요소는 `GuidSymbol` 이미지 저장소를 나타내는 요소입니다.
+3. 아이콘에 필요한 UI 요소에 있는 경우 추가 `IDSymbol` 각 아이콘에 대 한 요소는 `GuidSymbol` 이미지 저장소를 나타내는 요소입니다.
 
 ### <a name="put-ui-elements-in-the-ide"></a>IDE에서 UI 요소를 배치
  합니다 [메뉴](../../extensibility/menus-element.md)를 [그룹](../../extensibility/groups-element.md), 및 [단추](../../extensibility/buttons-element.md) 요소는 모든 메뉴, 그룹 및 패키지에 정의 된 명령에 대 한 정의 포함 합니다. 이러한 메뉴, 그룹 및 명령을 사용 하 여 IDE에서 배치를 [부모](../../extensibility/parent-element.md) 를 사용 하 여 또는 UI 요소 정의의 일부인 요소를 [CommandPlacement](../../extensibility/commandplacement-element.md) 요소를 다른 곳에 정의 합니다.
@@ -96,14 +96,14 @@ ms.locfileid: "56954052"
 
 3. 새 명령을 ide에 추가 하는 경우 추가 `Buttons` 요소는 `Commands` 요소입니다. 그런 다음 각 명령에 대 한 추가 [단추](../../extensibility/button-element.md) 요소는 `Buttons` 요소입니다.
 
-   1.  설정 합니다 `guid` 및 `id` 각 특성 `Button` 요소와 설정의 `type` 특성을 원하는 단추의 종류입니다. 설정할 수도 있습니다는 `priority` 특성을 상위 그룹에서 명령의 상대적 위치를 설정 합니다.
+   1. 설정 합니다 `guid` 및 `id` 각 특성 `Button` 요소와 설정의 `type` 특성을 원하는 단추의 종류입니다. 설정할 수도 있습니다는 `priority` 특성을 상위 그룹에서 명령의 상대적 위치를 설정 합니다.
 
        > [!NOTE]
        >  사용 하 여 `type="button"` 표준 메뉴 명령 및 도구 모음의 단추에 대 한 합니다.
 
-   2.  에 `Button` 요소를 추가 [문자열](../../extensibility/strings-element.md) 포함 하는 요소는 [ButtonText](../../extensibility/buttontext-element.md) 요소 및 [CommandName](../../extensibility/commandname-element.md) 요소입니다. `ButtonText` 요소 메뉴 항목 또는 도구 모음 단추에 대 한 도구 설명에 대 한 텍스트 레이블을 제공 합니다. `CommandName` 요소 명령에 사용할 명령의 이름을 제공 합니다.
+   2. 에 `Button` 요소를 추가 [문자열](../../extensibility/strings-element.md) 포함 하는 요소는 [ButtonText](../../extensibility/buttontext-element.md) 요소 및 [CommandName](../../extensibility/commandname-element.md) 요소입니다. `ButtonText` 요소 메뉴 항목 또는 도구 모음 단추에 대 한 도구 설명에 대 한 텍스트 레이블을 제공 합니다. `CommandName` 요소 명령에 사용할 명령의 이름을 제공 합니다.
 
-   3.  명령 아이콘이는 경우 만들기는 [아이콘](../../extensibility/icon-element.md) 요소에는 `Button` 요소를 설정 하 고 해당 `guid` 및 `id` 특성을 `Bitmap` 아이콘에 대 한 요소입니다.
+   3. 명령 아이콘이는 경우 만들기는 [아이콘](../../extensibility/icon-element.md) 요소에는 `Button` 요소를 설정 하 고 해당 `guid` 및 `id` 특성을 `Bitmap` 아이콘에 대 한 요소입니다.
 
        > [!NOTE]
        >  도구 모음 단추에는 아이콘이 있어야 합니다.
@@ -120,9 +120,9 @@ ms.locfileid: "56954052"
 
     대상의 `Parent` 요소는 메뉴 또는 메뉴를 포함 하는 그룹, 그룹 또는 명령입니다.
 
-   1.  설정 된 `guid` 특성의 이름으로는 `GuidSymbol` 명령 집합을 정의 하는 요소입니다. 대상 요소의 일부가 아닌 경우 패키지를 사용 하 여 guid는 명령 집합에 대 한 해당에 정의 된 대로 *.vsct* 파일입니다.
+   1. 설정 된 `guid` 특성의 이름으로는 `GuidSymbol` 명령 집합을 정의 하는 요소입니다. 대상 요소의 일부가 아닌 경우 패키지를 사용 하 여 guid는 명령 집합에 대 한 해당에 정의 된 대로 *.vsct* 파일입니다.
 
-   2.  설정 된 `id` 일치 하는 특성을 `id` 대상 메뉴 또는 그룹의 특성입니다. 메뉴 및 Visual Studio에 의해 노출 되는 그룹의 나열을 참조 하세요 [Guid 및 Id의 Visual Studio 메뉴](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) 하거나 [Guid 및 Id의 Visual Studio 도구 모음](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md)합니다.
+   2. 설정 된 `id` 일치 하는 특성을 `id` 대상 메뉴 또는 그룹의 특성입니다. 메뉴 및 Visual Studio에 의해 노출 되는 그룹의 나열을 참조 하세요 [Guid 및 Id의 Visual Studio 메뉴](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) 하거나 [Guid 및 Id의 Visual Studio 도구 모음](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md)합니다.
 
    IDE에 배치 하는 UI 요소 수가 많은 경우 또는 여러 위치에 표시 되는 요소가 있으면 해당 배치에 정의 된 [CommandPlacements](../../extensibility/commandplacements-element.md) 요소를 다음 단계에 표시 된 대로.
 
@@ -145,79 +145,79 @@ ms.locfileid: "56954052"
 
 1. UI 요소를 표시 하려면 예를 들어, 특정 UI 컨텍스트 에서만에서 솔루션을 로드 되 면 표시 유형 제약 조건을 사용 합니다.
 
-   1.  후 합니다 `Commands` 요소를 추가 `VisibilityConstraints` 요소입니다.
+   1. 후 합니다 `Commands` 요소를 추가 `VisibilityConstraints` 요소입니다.
 
-   2.  제한 하려면 각 UI 항목에 대해 추가 된 [VisibilityItem](../../extensibility/visibilityitem-element.md) 요소입니다.
+   2. 제한 하려면 각 UI 항목에 대해 추가 된 [VisibilityItem](../../extensibility/visibilityitem-element.md) 요소입니다.
 
-   3.  각각에 대해 `VisibilityItem` 요소를 설정 합니다 `guid` 및 `id` 메뉴, 그룹 또는 명령 및 설정 하는 특성을 `context` 에 정의 된 대로 원하는 UI 컨텍스트에 특성를 <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> 클래스.
+   3. 각각에 대해 `VisibilityItem` 요소를 설정 합니다 `guid` 및 `id` 메뉴, 그룹 또는 명령 및 설정 하는 특성을 `context` 에 정의 된 대로 원하는 UI 컨텍스트에 특성를 <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> 클래스.
 
 2. 코드에서 표시 유형 또는 UI 항목의 가용성을 설정 하려면 하나 이상의 다음 명령 플래그를 사용 합니다.
 
-   -   `DefaultDisabled`
+   - `DefaultDisabled`
 
-   -   `DefaultInvisible`
+   - `DefaultInvisible`
 
-   -   `DynamicItemStart`
+   - `DynamicItemStart`
 
-   -   `DynamicVisibility`
+   - `DynamicVisibility`
 
-   -   `NoShowOnMenuController`
+   - `NoShowOnMenuController`
 
-   -   `NotInTBList`
+   - `NotInTBList`
 
    자세한 내용은 참조는 [CommandFlag](../../extensibility/command-flag-element.md) 요소입니다.
 
 3. 요소 표시 되거나 동적으로 모양을 변경 하는 방법을 변경 하려면 하나 이상의 다음 명령 플래그를 사용 합니다.
 
-   -   `AlwaysCreate`
+   - `AlwaysCreate`
 
-   -   `CommandWellOnly`
+   - `CommandWellOnly`
 
-   -   `DefaultDocked`
+   - `DefaultDocked`
 
-   -   `DontCache`
+   - `DontCache`
 
-   -   `DynamicItemStart`
+   - `DynamicItemStart`
 
-   -   `FixMenuController`
+   - `FixMenuController`
 
-   -   `IconAndText`
+   - `IconAndText`
 
-   -   `Pict`
+   - `Pict`
 
-   -   `StretchHorizontally`
+   - `StretchHorizontally`
 
-   -   `TextMenuUseButton`
+   - `TextMenuUseButton`
 
-   -   `TextChanges`
+   - `TextChanges`
 
-   -   `TextOnly`
+   - `TextOnly`
 
    자세한 내용은 참조는 [CommandFlag](../../extensibility/command-flag-element.md) 요소입니다.
 
 4. 요소 명령을 수신 하는 경우 어떻게 반응할지를 변경 하려면 다음 명령 플래그 중 하나 이상을 사용 합니다.
 
-   -   `AllowParams`
+   - `AllowParams`
 
-   -   `CaseSensitive`
+   - `CaseSensitive`
 
-   -   `CommandWellOnly`
+   - `CommandWellOnly`
 
-   -   `FilterKeys`
+   - `FilterKeys`
 
-   -   `NoAutoComplete`
+   - `NoAutoComplete`
 
-   -   `NoButtonCustomize`
+   - `NoButtonCustomize`
 
-   -   `NoKeyCustomize`
+   - `NoKeyCustomize`
 
-   -   `NoToolbarClose`
+   - `NoToolbarClose`
 
-   -   `PostExec`
+   - `PostExec`
 
-   -   `RouteToDocs`
+   - `RouteToDocs`
 
-   -   `TextIsAnchorCommand`
+   - `TextIsAnchorCommand`
 
    자세한 내용은 참조는 [CommandFlag](../../extensibility/command-flag-element.md) 요소입니다.
 

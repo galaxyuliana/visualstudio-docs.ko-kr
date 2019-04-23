@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aa8370dcf36eb13b6ba1491efc5def55a93fff34
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: aabd45871e55fd22b9b9e35597555fd13b15d6eb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643108"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052534"
 ---
 # <a name="walkthrough-complex-data-binding-in-a-document-level-project"></a>연습: 문서 수준 프로젝트의 복합 데이터 바인딩
   이 연습에서는 문서 수준 프로젝트에서 복잡 한 데이터 바인딩의 기본 사항을 보여 줍니다. Northwind SQL Server 데이터베이스의 필드에 Microsoft Office Excel 워크시트에서 여러 셀을 바인딩할 수 있습니다.
@@ -40,20 +40,20 @@ ms.locfileid: "56643108"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
 
--   Northwind SQL Server 예제 데이터베이스를 사용 하 여 서버에 액세스 합니다.
+- Northwind SQL Server 예제 데이터베이스를 사용 하 여 서버에 액세스 합니다.
 
--   SQL Server 데이터베이스에서 읽고 권한입니다.
+- SQL Server 데이터베이스에서 읽고 권한입니다.
 
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기
  첫 번째 단계는 Excel 통합 문서 프로젝트를 만드는 것입니다.
 
 ### <a name="to-create-a-new-project"></a>새 프로젝트를 만들려면
 
-1.  이름의 Excel 통합 문서 프로젝트를 만듭니다 **복잡 한 데이터 바인딩 내**합니다. 마법사에서 선택 **새 문서 만들기**합니다.
+1. 이름의 Excel 통합 문서 프로젝트를 만듭니다 **복잡 한 데이터 바인딩 내**합니다. 마법사에서 선택 **새 문서 만들기**합니다.
 
      자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
 
@@ -91,15 +91,15 @@ ms.locfileid: "56643108"
 
 #### <a name="to-add-a-list-object"></a>목록 개체를 추가 하려면
 
-1.  있는지 확인 합니다 **내 복잡 한 데이터 Binding.xlsx** Visual Studio 디자이너에 통합 문서가 열려 사용 하 여 **Sheet1** 표시 합니다.
+1. 있는지 확인 합니다 **내 복잡 한 데이터 Binding.xlsx** Visual Studio 디자이너에 통합 문서가 열려 사용 하 여 **Sheet1** 표시 합니다.
 
-2.  엽니다는 **데이터 원본** 창과 선택 합니다 **직원** 노드.
+2. 엽니다는 **데이터 원본** 창과 선택 합니다 **직원** 노드.
 
-3.  표시 되는 드롭다운 화살표를 클릭 합니다.
+3. 표시 되는 드롭다운 화살표를 클릭 합니다.
 
-4.  선택 **ListObject** 드롭 다운 목록에서.
+4. 선택 **ListObject** 드롭 다운 목록에서.
 
-5.  끌어서 합니다 **직원** 셀에는 테이블 **A6**합니다.
+5. 끌어서 합니다 **직원** 셀에는 테이블 **A6**합니다.
 
      A <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤인 `EmployeesListObject` 셀에 작성 됩니다 **A6**합니다. 동시에 <xref:System.Windows.Forms.BindingSource> 라는 `EmployeesBindingSource`, 테이블 어댑터 및 <xref:System.Data.DataSet> 인스턴스 프로젝트에 추가 됩니다. 컨트롤이 바인딩되는 <xref:System.Windows.Forms.BindingSource>, 차례로에 바인딩된는 <xref:System.Data.DataSet> 인스턴스.
 
@@ -132,7 +132,7 @@ ms.locfileid: "56643108"
 
 ### <a name="to-save-changes-to-the-database"></a>데이터베이스에 변경 내용을 저장 하려면
 
-1.  에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 이벤트를는 `button`, 다시 데이터베이스에 데이터 집합에서 변경 된 모든 변경 내용을 커밋 하도록 다음 코드를 추가 합니다.
+1. 에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 이벤트를는 `button`, 다시 데이터베이스에 데이터 집합에서 변경 된 모든 변경 내용을 커밋 하도록 다음 코드를 추가 합니다.
 
      [!code-csharp[Trin_VstcoreDataExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs#10)]
      [!code-vb[Trin_VstcoreDataExcel#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb#10)]
@@ -142,33 +142,33 @@ ms.locfileid: "56643108"
 
 ### <a name="to-test-the-data-binding"></a>데이터 바인딩을 테스트 하려면
 
--   **F5**키를 누릅니다.
+- **F5**키를 누릅니다.
 
      통합 문서를 열 때 데이터를 사용 하 여 목록 개체 채워지는지 확인 합니다 **직원** 테이블입니다.
 
 ### <a name="to-modify-data"></a>데이터를 수정 하려면
 
-1.  셀을 클릭 **B7**, 이름이 포함 되어야 하는 **Davolio**합니다.
+1. 셀을 클릭 **B7**, 이름이 포함 되어야 하는 **Davolio**합니다.
 
-2.  이름을 입력 **Anderson**, 누릅니다 **Enter**합니다.
+2. 이름을 입력 **Anderson**, 누릅니다 **Enter**합니다.
 
 ### <a name="to-modify-a-column-header"></a>열 머리글을 수정 하려면
 
-1.  열 머리글을 포함 하는 셀을 클릭 **LastName**합니다.
+1. 열 머리글을 포함 하는 셀을 클릭 **LastName**합니다.
 
-2.  형식 **성을**, 두 단어 사이 공백을 포함 하 여 누릅니다 **Enter**합니다.
+2. 형식 **성을**, 두 단어 사이 공백을 포함 하 여 누릅니다 **Enter**합니다.
 
 ### <a name="to-save-data"></a>데이터를 저장 하려면
 
-1.  클릭 **저장할** 워크시트에 있습니다.
+1. 클릭 **저장할** 워크시트에 있습니다.
 
-2.  Excel을 종료합니다. 클릭 **No** 변경 내용을 저장 하 라는 메시지가 표시 되는 경우.
+2. Excel을 종료합니다. 클릭 **No** 변경 내용을 저장 하 라는 메시지가 표시 되는 경우.
 
-3.  키를 눌러 **F5** 프로젝트를 다시 실행 합니다.
+3. 키를 눌러 **F5** 프로젝트를 다시 실행 합니다.
 
      목록 개체의 데이터로 채워집니다 합니다 **직원** 테이블입니다.
 
-4.  셀의 이름을 **B7** 그대로 **Anderson**를 수행 하 고 다시 데이터베이스에 저장 된 변경 데이터는 합니다. 열 머리글 **LastName** 공백 없이 원래 형식 데이터베이스에 열 머리글 바인딩되지 않은 워크시트에 대 한 변경 내용을 저장 하지 않은 것 이므로 다시 변경 되었습니다.
+4. 셀의 이름을 **B7** 그대로 **Anderson**를 수행 하 고 다시 데이터베이스에 저장 된 변경 데이터는 합니다. 열 머리글 **LastName** 공백 없이 원래 형식 데이터베이스에 열 머리글 바인딩되지 않은 워크시트에 대 한 변경 내용을 저장 하지 않은 것 이므로 다시 변경 되었습니다.
 
 ### <a name="to-add-new-rows"></a>새 행을 추가 하려면
 
@@ -184,44 +184,44 @@ ms.locfileid: "56643108"
 
 ### <a name="to-delete-rows"></a>행을 삭제 하려면
 
--   워크시트의 왼쪽에 있는 번호 16 (16 행)를 마우스 오른쪽 단추로 누른 **삭제**합니다.
+- 워크시트의 왼쪽에 있는 번호 16 (16 행)를 마우스 오른쪽 단추로 누른 **삭제**합니다.
 
 ### <a name="to-sort-the-rows-in-the-list"></a>목록에서 행을 정렬 하려면
 
-1.  목록 내에서 셀을 선택 합니다.
+1. 목록 내에서 셀을 선택 합니다.
 
      각 열 머리글에 화살표 단추가 나타납니다.
 
-2.  화살표 단추를 클릭 합니다 **Last Name** 열 머리글입니다.
+2. 화살표 단추를 클릭 합니다 **Last Name** 열 머리글입니다.
 
-3.  클릭 **오름차순 정렬**합니다.
+3. 클릭 **오름차순 정렬**합니다.
 
      행은 성을 기준으로 사전순으로 정렬 됩니다.
 
 ### <a name="to-filter-information"></a>정보를 필터링 하려면
 
-1.  목록 내에서 셀을 선택 합니다.
+1. 목록 내에서 셀을 선택 합니다.
 
-2.  화살표 단추를 클릭 합니다 **Title** 열 머리글입니다.
+2. 화살표 단추를 클릭 합니다 **Title** 열 머리글입니다.
 
-3.  클릭 **영업 담당자**합니다.
+3. 클릭 **영업 담당자**합니다.
 
      목록에 있는 행만 보여 줍니다 **판매 담당자** 에 **Title** 열입니다.
 
-4.  화살표 단추를 클릭 합니다 **Title** 열 머리글을 다시 합니다.
+4. 화살표 단추를 클릭 합니다 **Title** 열 머리글을 다시 합니다.
 
-5.  클릭 **(All)** 합니다.
+5. 클릭 **(All)** 합니다.
 
      필터링이 제거 되 고 모든 행이 나타납니다.
 
 ## <a name="next-steps"></a>다음 단계
  이 연습에는 목록 개체에는 데이터베이스의 테이블을 바인딩하는 기본적인 보여 줍니다. 다음으로 수행할 수 있는 몇 가지 작업은 다음과 같습니다.
 
--   오프 라인으로 사용할 수 있도록 데이터를 캐시 합니다. 자세한 내용은 [방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터를 캐시](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)합니다.
+- 오프 라인으로 사용할 수 있도록 데이터를 캐시 합니다. 자세한 내용은 [방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터를 캐시](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)합니다.
 
--   솔루션을 배포합니다. 자세한 내용은 [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.
+- 솔루션을 배포합니다. 자세한 내용은 [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.
 
--   필드와 테이블 간 마스터/세부 관계를 만듭니다. 자세한 내용은 [연습: 캐시 된 데이터 집합을 사용 하 여 마스터-세부 관계를 만들고](../vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md)합니다.
+- 필드와 테이블 간 마스터/세부 관계를 만듭니다. 자세한 내용은 [연습: 캐시 된 데이터 집합을 사용 하 여 마스터-세부 관계를 만들고](../vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office 솔루션의 컨트롤에 데이터 바인딩](../vsto/binding-data-to-controls-in-office-solutions.md)

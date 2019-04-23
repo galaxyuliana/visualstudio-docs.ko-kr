@@ -13,12 +13,12 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9fa577b5e68ac93847589e67b2e2110b1a0c9a37
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: bd1535841a01b6e188383d74ed3b6124b4a325f6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656456"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052561"
 ---
 # <a name="how-to-exclude-files-from-the-build"></a>방법: 빌드에서 파일 제외
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "59656456"
   
 #### <a name="to-include-all-cs-or-vb-files-except-form2"></a>Form2를 제외한 모든 .cs 또는 .vb 파일을 포함하려면  
   
--   다음 `Include` 및 `Exclude` 특성 중 하나를 사용합니다.  
+- 다음 `Include` 및 `Exclude` 특성 중 하나를 사용합니다.  
   
     ```  
     <CSFile Include="*.cs" Exclude="Form2.cs"/>  
@@ -53,7 +53,7 @@ ms.locfileid: "59656456"
   
 #### <a name="to-include-all-cs-or-vb-files-except-form2-and-form3"></a>Form2 및 Form3을 제외한 모든 .cs 또는 .vb 파일을 포함하려면  
   
--   다음 `Include` 및 `Exclude` 특성 중 하나를 사용합니다.  
+- 다음 `Include` 및 `Exclude` 특성 중 하나를 사용합니다.  
   
     ```  
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>  
@@ -67,7 +67,7 @@ ms.locfileid: "59656456"
   
 #### <a name="to-include-all-jpg-files-in-subdirectories-of-the-images-directory-except-those-in-the-version2-directory"></a>Version2 디렉터리에서 해당 항목을 제외한 모든 .jpg 파일을 이미지 디렉터리의 하위 디렉터리에 포함하려면  
   
--   다음 `Include` 및 `Exclude` 특성을 사용합니다.  
+- 다음 `Include` 및 `Exclude` 특성을 사용합니다.  
   
     ```  
     <JPGFile  
@@ -83,7 +83,7 @@ ms.locfileid: "59656456"
   
 #### <a name="to-include-the-file-formulavb-only-in-release-builds"></a>Formula.vb 파일을 릴리스 빌드에만 포함하려면  
   
--   다음과 같이 `Condition` 특성을 사용합니다.  
+- 다음과 같이 `Condition` 특성을 사용합니다.  
   
     ```  
     <Compile  

@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d30e789d0ae3fa3e717be9739b94439a7d6a31a2
-ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
+ms.openlocfilehash: be3fb721fd058f127b4d361c769d4cdfdc1e4b92
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "59584547"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050891"
 ---
 # <a name="walkthrough-writing-a-visualizer-in-visual-basic"></a>연습: Visual Basic에서 시각화 도우미 작성
 이 연습에서는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]을 사용하여 간단한 시각화 도우미를 작성하는 방법을 보여 줍니다. 이 연습에서 만들 시각화 도우미는 Windows Forms 메시지 상자를 사용하여 문자열의 내용을 표시합니다. 이 간단한 문자열 시각화 도우미는 프로젝트에 더 유용하게 사용할 수 있는 다른 형식에 대한 시각화 도우미를 만드는 방법을 보여 주는 기본 예제입니다.
@@ -106,15 +106,15 @@ ms.locfileid: "59584547"
 
 ### <a name="to-add-systemwindowsforms"></a>System.Windows.Forms을 추가하려면
 
-1.  **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.
+1. **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.
 
 2. 에 **참조 추가** 대화 상자의 합니다 **찾아보기** 탭을 선택 **찾아보기**는 System.Windows.Forms.DLL 찾고.
 
     DLL을 찾을 수 있습니다 *C:\Windows\Microsoft.NET\Framework\v4.0.30319*합니다.
 
-3.  **확인**을 클릭합니다.
+3. **확인**을 클릭합니다.
 
-4.  DebuggerSide.cs에서 다음 문을 `Imports` 문에 추가합니다.
+4. DebuggerSide.cs에서 다음 문을 `Imports` 문에 추가합니다.
 
     ```vb
     Imports System.Windows.Forms
@@ -125,7 +125,7 @@ ms.locfileid: "59584547"
 
 ### <a name="to-show-the-visualizer-output-in-a-dialog-box"></a>시각화 도우미 출력을 대화 상자에 표시하려면
 
-1.  `Show` 메서드에 다음 코드 줄을 추가합니다.
+1. `Show` 메서드에 다음 코드 줄을 추가합니다.
 
     ```vb
     MessageBox.Show(objectProvider.GetObject().ToString())
@@ -133,20 +133,20 @@ ms.locfileid: "59584547"
 
      이 예제 코드에는 오류 처리 기능이 포함되어 있지 않습니다. 실제 시각화 도우미나 기타 유형의 응용 프로그램을 만들 때는 오류 처리 기능을 포함해야 합니다.
 
-2.  **빌드** 메뉴에서 **MyFirstVisualizer 빌드**를 클릭합니다. 프로젝트가 성공적으로 빌드되어야 합니다. 빌드 오류가 발생하면 계속 진행하기 전에 이를 수정합니다.
+2. **빌드** 메뉴에서 **MyFirstVisualizer 빌드**를 클릭합니다. 프로젝트가 성공적으로 빌드되어야 합니다. 빌드 오류가 발생하면 계속 진행하기 전에 이를 수정합니다.
 
 ## <a name="add-the-necessary-attribute"></a>필수 특성 추가
  이제 디버거(debugger) 쪽 코드를 모두 작성했습니다. 그러나 여기에서 한 단계를 추가로 수행해야 합니다. 시각화 도우미를 구성하는 클래스 컬렉션을 디버기 쪽에 알리는 특성이 필요합니다.
 
 ### <a name="to-add-the-debugee-side-code"></a>디버기 쪽 코드를 추가하려면
 
-1.  DebuggerSide.vb의 `Imports` 문과 `namespace MyFirstVisualizer` 문 사이에 다음 특성 코드를 추가합니다.
+1. DebuggerSide.vb의 `Imports` 문과 `namespace MyFirstVisualizer` 문 사이에 다음 특성 코드를 추가합니다.
 
     ```vb
     <Assembly: System.Diagnostics.DebuggerVisualizer(GetType(MyFirstVisualizer.DebuggerSide), GetType(VisualizerObjectSource), Target:=GetType(System.String), Description:="My First Visualizer")>
     ```
 
-2.  **빌드** 메뉴에서 **MyFirstVisualizer 빌드**를 클릭합니다. 프로젝트가 성공적으로 빌드되어야 합니다. 빌드 오류가 발생하면 계속 진행하기 전에 이를 수정합니다.
+2. **빌드** 메뉴에서 **MyFirstVisualizer 빌드**를 클릭합니다. 프로젝트가 성공적으로 빌드되어야 합니다. 빌드 오류가 발생하면 계속 진행하기 전에 이를 수정합니다.
 
 ## <a name="create-a-test-harness"></a>테스트 도구 만들기
  이제 첫 번째 시각화 도우미가 완성되었습니다. 각 단계를 올바르게 수행했으면 시각화 도우미를 빌드하고 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에 설치할 수 있을 것입니다. 그러나 시각화 도우미를 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에 설치하기 전에 이를 테스트하여 올바르게 실행되는지 확인해야 합니다. 이제 시각화 도우미를 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에 설치하지 않고 실행하는 테스트 환경을 만듭니다.
@@ -183,17 +183,17 @@ ms.locfileid: "59584547"
 
 ### <a name="to-add-necessary-references-to-mytestconsole"></a>MyTestConsole에 필요한 참조를 추가하려면
 
-1.  **솔루션 탐색기**에서 **MyTestConsole**을 마우스 오른쪽 단추로 클릭하고, 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.
+1. **솔루션 탐색기**에서 **MyTestConsole**을 마우스 오른쪽 단추로 클릭하고, 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.
 
-2.  에 **참조 추가** 대화 상자의 합니다 **찾아보기** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers를 클릭 합니다.
+2. 에 **참조 추가** 대화 상자의 합니다 **찾아보기** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers를 클릭 합니다.
 
-3.  **확인**을 클릭합니다.
+3. **확인**을 클릭합니다.
 
-4.  **MyTestConsole**을 마우스 오른쪽 단추로 클릭한 다음, **참조 추가**를 다시 클릭합니다.
+4. **MyTestConsole**을 마우스 오른쪽 단추로 클릭한 다음, **참조 추가**를 다시 클릭합니다.
 
-5.  **참조 추가** 대화 상자에서 **프로젝트** 탭을 클릭한 다음, MyFirstVisualizer를 선택합니다.
+5. **참조 추가** 대화 상자에서 **프로젝트** 탭을 클릭한 다음, MyFirstVisualizer를 선택합니다.
 
-6.  **확인**을 클릭합니다.
+6. **확인**을 클릭합니다.
 
 ## <a name="finish-your-test-harness-and-test-your-visualizer"></a>테스트 도구 끝내기 및 시각화 도우미 테스트
  이제 테스트 환경을 끝내기 위한 코드를 추가합니다.

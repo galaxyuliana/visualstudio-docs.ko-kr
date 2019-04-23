@@ -18,12 +18,12 @@ caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 45ca2bd23c6da7d86b65cc05c0b0dee670e2718f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 48b5d8406f5b5c6d43afadf9e544914e6133090c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982360"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046940"
 ---
 # <a name="how-to-publish-a-clickonce-application-using-the-publish-wizard"></a>방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,11 +50,11 @@ ClickOnce 응용 프로그램을 사용자에게 제공하려면 파일 공유�
   
 4. **애플리케이션 설치 방법** 페이지에서 사용자가 애플리케이션을 설치하기 위해 이동할 위치를 선택합니다.  
   
-   -   웹 사이트에서 설치하는 경우 **웹 사이트에서**를 클릭하고 이전 단계에서 입력한 파일 경로에 해당하는 URL을 입력합니다. **다음**을 클릭합니다. 이 옵션은 일반적으로 FTP 주소를 게시 위치로 지정하는 경우에 사용됩니다. FTP에서 직접 다운로드할 수는 없습니다. 따라서 여기에 URL을 입력해야 합니다.  
+   - 웹 사이트에서 설치하는 경우 **웹 사이트에서**를 클릭하고 이전 단계에서 입력한 파일 경로에 해당하는 URL을 입력합니다. **다음**을 클릭합니다. 이 옵션은 일반적으로 FTP 주소를 게시 위치로 지정하는 경우에 사용됩니다. FTP에서 직접 다운로드할 수는 없습니다. 따라서 여기에 URL을 입력해야 합니다.  
   
-   -   파일 공유에서 애플리케이션을 직접 설치하는 경우에는 **UNC 경로 또는 파일 공유에서**를 클릭한 후, **다음**을 클릭합니다. (폼 c:\deploy\myapp 형식의 게시 위치입니다. 또는 \\\server\myapp.)  
+   - 파일 공유에서 애플리케이션을 직접 설치하는 경우에는 **UNC 경로 또는 파일 공유에서**를 클릭한 후, **다음**을 클릭합니다. (폼 c:\deploy\myapp 형식의 게시 위치입니다. 또는 \\\server\myapp.)  
   
-   -   이동식 미디어에서 설치하는 경우에는 **CD-ROM 또는 DVD-ROM에서**를 클릭한 후, **다음**을 클릭합니다.  
+   - 이동식 미디어에서 설치하는 경우에는 **CD-ROM 또는 DVD-ROM에서**를 클릭한 후, **다음**을 클릭합니다.  
   
 5. **애플리케이션을 오프라인으로 사용할 수 있는지 여부** 페이지에서 적절한 옵션을 클릭합니다.  
   

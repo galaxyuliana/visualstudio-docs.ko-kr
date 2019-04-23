@@ -17,12 +17,12 @@ caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e56cf1bcd061ba38d2855c2c8841b410e68032b0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e297708d4e89bb1fdcef06366f2790254aeab812
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984067"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050572"
 ---
 # <a name="walkthrough-writing-a-visualizer-in-visual-basic"></a>연습: Visual Basic에서 시각화 도우미 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,20 +52,20 @@ ms.locfileid: "58984067"
   
 #### <a name="to-rename-class1vb-and-add-microsoftvisualstudiodebuggervisualizers"></a>Class1.vb의 이름을 바꾸고 Microsoft.VisualStudio.DebuggerVisualizers를 추가하려면  
   
-1.  **솔루션 탐색기**에서 **Class1.vb**를 마우스 오른쪽 단추로 클릭하고, 바로 가기 메뉴에서 **이름 바꾸기**를 클릭합니다.  
+1. **솔루션 탐색기**에서 **Class1.vb**를 마우스 오른쪽 단추로 클릭하고, 바로 가기 메뉴에서 **이름 바꾸기**를 클릭합니다.  
   
-2.  이름을 Class1.vb에서 DebuggerSide.vb 같은 의미 있는 이름으로 변경합니다.  
+2. 이름을 Class1.vb에서 DebuggerSide.vb 같은 의미 있는 이름으로 변경합니다.  
   
     > [!NOTE]
     >  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 새 파일 이름과 일치하도록 DebuggerSide.vb의 클래스 선언이 자동으로 변경됩니다.  
   
-3.  **솔루션 탐색기**에서 **내 첫 번째 시각화 도우미**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.  
+3. **솔루션 탐색기**에서 **내 첫 번째 시각화 도우미**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.  
   
-4.  **참조 추가** 대화 상자의 **.NET** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers.DLL을 클릭합니다.  
+4. **참조 추가** 대화 상자의 **.NET** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers.DLL을 클릭합니다.  
   
-5.  **확인**을 클릭합니다.  
+5. **확인**을 클릭합니다.  
   
-6.  DebuggerSide.vb에서 다음 문을 `Imports` 문에 추가합니다.  
+6. DebuggerSide.vb에서 다음 문을 `Imports` 문에 추가합니다.  
   
     ```  
     Imports Microsoft.VisualStudio.DebuggerVisualizers  
@@ -105,13 +105,13 @@ ms.locfileid: "58984067"
   
 #### <a name="to-add-systemwindowsforms"></a>System.Windows.Forms을 추가하려면  
   
-1.  **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.  
+1. **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.  
   
-2.  **참조 추가** 대화 상자의 **.NET** 탭에서 **System.Windows.Forms**을 클릭합니다.  
+2. **참조 추가** 대화 상자의 **.NET** 탭에서 **System.Windows.Forms**을 클릭합니다.  
   
-3.  **확인**을 클릭합니다.  
+3. **확인**을 클릭합니다.  
   
-4.  DebuggerSide.cs에서 다음 문을 `Imports` 문에 추가합니다.  
+4. DebuggerSide.cs에서 다음 문을 `Imports` 문에 추가합니다.  
   
     ```  
     Imports System.Windows.Forms  
@@ -122,7 +122,7 @@ ms.locfileid: "58984067"
   
 #### <a name="to-show-the-visualizer-output-in-a-dialog-box"></a>시각화 도우미 출력을 대화 상자에 표시하려면  
   
-1.  `Show` 메서드에 다음 코드 줄을 추가합니다.  
+1. `Show` 메서드에 다음 코드 줄을 추가합니다.  
   
     ```  
     MessageBox.Show(objectProvider.GetObject().ToString())  
@@ -130,20 +130,20 @@ ms.locfileid: "58984067"
   
      이 예제 코드에는 오류 처리 기능이 포함되어 있지 않습니다. 실제 시각화 도우미나 기타 유형의 응용 프로그램을 만들 때는 오류 처리 기능을 포함해야 합니다.  
   
-2.  **빌드** 메뉴에서 **MyFirstVisualizer 빌드**를 클릭합니다. 프로젝트가 성공적으로 빌드되어야 합니다. 빌드 오류가 발생하면 계속 진행하기 전에 이를 수정합니다.  
+2. **빌드** 메뉴에서 **MyFirstVisualizer 빌드**를 클릭합니다. 프로젝트가 성공적으로 빌드되어야 합니다. 빌드 오류가 발생하면 계속 진행하기 전에 이를 수정합니다.  
   
 ## <a name="add-the-necessary-attribute"></a>필수 특성 추가  
  이제 디버거(debugger) 쪽 코드를 모두 작성했습니다. 그러나 여기에서 한 단계를 추가로 수행해야 합니다. 시각화 도우미를 구성하는 클래스 컬렉션을 디버기 쪽에 알리는 특성이 필요합니다.  
   
 #### <a name="to-add-the-debugee-side-code"></a>디버기 쪽 코드를 추가하려면  
   
-1.  DebuggerSide.vb의 `Imports` 문과 `namespace MyFirstVisualizer` 문 사이에 다음 특성 코드를 추가합니다.  
+1. DebuggerSide.vb의 `Imports` 문과 `namespace MyFirstVisualizer` 문 사이에 다음 특성 코드를 추가합니다.  
   
     ```  
     <Assembly: System.Diagnostics.DebuggerVisualizer(GetType(MyFirstVisualizer.DebuggerSide), GetType(VisualizerObjectSource), Target:=GetType(System.String), Description:="My First Visualizer")>  
     ```  
   
-2.  **빌드** 메뉴에서 **MyFirstVisualizer 빌드**를 클릭합니다. 프로젝트가 성공적으로 빌드되어야 합니다. 빌드 오류가 발생하면 계속 진행하기 전에 이를 수정합니다.  
+2. **빌드** 메뉴에서 **MyFirstVisualizer 빌드**를 클릭합니다. 프로젝트가 성공적으로 빌드되어야 합니다. 빌드 오류가 발생하면 계속 진행하기 전에 이를 수정합니다.  
   
 ## <a name="create-a-test-harness"></a>테스트 도구 만들기  
  이제 첫 번째 시각화 도우미가 완성되었습니다. 각 단계를 올바르게 수행했으면 시각화 도우미를 빌드하고 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 설치할 수 있을 것입니다. 그러나 시각화 도우미를 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 설치하기 전에 이를 테스트하여 올바르게 실행되는지 확인해야 합니다. 이제 시각화 도우미를 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 설치하지 않고 실행하는 테스트 환경을 만듭니다.  
@@ -177,17 +177,17 @@ ms.locfileid: "58984067"
   
 #### <a name="to-add-necessary-references-to-mytestconsole"></a>MyTestConsole에 필요한 참조를 추가하려면  
   
-1.  **솔루션 탐색기**에서 **MyTestConsole**을 마우스 오른쪽 단추로 클릭하고, 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.  
+1. **솔루션 탐색기**에서 **MyTestConsole**을 마우스 오른쪽 단추로 클릭하고, 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.  
   
-2.  **참조 추가** 대화 상자의 **.NET** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers를 클릭합니다.  
+2. **참조 추가** 대화 상자의 **.NET** 탭에서 Microsoft.VisualStudio.DebuggerVisualizers를 클릭합니다.  
   
-3.  **확인**을 클릭합니다.  
+3. **확인**을 클릭합니다.  
   
-4.  **MyTestConsole**을 마우스 오른쪽 단추로 클릭한 다음, **참조 추가**를 다시 클릭합니다.  
+4. **MyTestConsole**을 마우스 오른쪽 단추로 클릭한 다음, **참조 추가**를 다시 클릭합니다.  
   
-5.  **참조 추가** 대화 상자에서 **프로젝트** 탭을 클릭한 다음, MyFirstVisualizer를 선택합니다.  
+5. **참조 추가** 대화 상자에서 **프로젝트** 탭을 클릭한 다음, MyFirstVisualizer를 선택합니다.  
   
-6.  **확인**을 클릭합니다.  
+6. **확인**을 클릭합니다.  
   
 ## <a name="finish-your-test-harness-and-test-your-visualizer"></a>테스트 도구 끝내기 및 시각화 도우미 테스트  
  이제 테스트 환경을 끝내기 위한 코드를 추가합니다.  

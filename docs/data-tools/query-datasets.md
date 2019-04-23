@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 88433ae91691caf795ad61116c8e3691662aad42
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: ccd8bd0cb37aaa2d4bfad7ea20979987048bf862
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927713"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050675"
 ---
 # <a name="query-datasets"></a>데이터 세트 쿼리
 데이터 집합의 특정 레코드를 검색 하려면 사용 합니다 `FindBy` 메서드는 DataTable에서 테이블의 행 컬렉션을 반복 하거나 사용 하 여 사용자 고유의 foreach 문을 작성할 [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset)합니다.
@@ -33,7 +33,7 @@ ms.locfileid: "55927713"
 
 #### <a name="to-find-a-row-in-a-typed-dataset-with-a-primary-key-value"></a>기본 키 값을 사용 하 여 형식화 된 데이터 집합에서 행을 찾으려면
 
--   행을 찾으려면 호출 강력한 형식의 `FindBy` 테이블의 기본 키를 사용 하는 메서드입니다.
+- 행을 찾으려면 호출 강력한 형식의 `FindBy` 테이블의 기본 키를 사용 하는 메서드입니다.
 
      다음 예제에서는 `CustomerID` 열이 기본 키를 `Customers` 테이블입니다. 즉, 생성 된 `FindBy` 메서드는 `FindByCustomerID`합니다. 이 예제에서는 특정 할당할 <xref:System.Data.DataRow> 생성을 사용 하 여 변수에 `FindBy` 메서드.
 
@@ -42,7 +42,7 @@ ms.locfileid: "55927713"
 
 #### <a name="to-find-a-row-in-an-untyped-dataset-with-a-primary-key-value"></a>기본 키 값을 사용 하 여 형식화 되지 않은 데이터 집합에서 행을 찾으려면
 
--   호출을 <xref:System.Data.DataRowCollection.Find%2A> 메서드는 <xref:System.Data.DataRowCollection> 컬렉션, 기본 키를 매개 변수로 전달 합니다.
+- 호출을 <xref:System.Data.DataRowCollection.Find%2A> 메서드는 <xref:System.Data.DataRowCollection> 컬렉션, 기본 키를 매개 변수로 전달 합니다.
 
      다음 예제에서는 라는 새 행을 선언 하는 방법을 보여 줍니다 `foundRow` 의 반환 값을 할당 합니다 <xref:System.Data.DataRowCollection.Find%2A> 메서드. 기본 키가 있으면 열 인덱스 1의 내용은 메시지 상자에 표시 됩니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "55927713"
 
 #### <a name="to-find-rows-based-on-the-values-in-any-column"></a>열에 값을 기반으로 하는 행을 찾으려면
 
--   데이터 테이블을 사용 하 여 만들어집니다 합니다 <xref:System.Data.DataTable.Select%2A> 배열을 반환 하는 메서드 <xref:System.Data.DataRow>에 전달 된 식에 따라 s는 <xref:System.Data.DataTable.Select%2A> 메서드. 유효한 식을 만드는 방법에 대 한 자세한 내용은 페이지의 "식 구문" 섹션에 대 한 참조를 <xref:System.Data.DataColumn.Expression%2A> 속성입니다.
+- 데이터 테이블을 사용 하 여 만들어집니다 합니다 <xref:System.Data.DataTable.Select%2A> 배열을 반환 하는 메서드 <xref:System.Data.DataRow>에 전달 된 식에 따라 s는 <xref:System.Data.DataTable.Select%2A> 메서드. 유효한 식을 만드는 방법에 대 한 자세한 내용은 페이지의 "식 구문" 섹션에 대 한 참조를 <xref:System.Data.DataColumn.Expression%2A> 속성입니다.
 
      다음 예제에서는 사용 하는 방법을 보여 줍니다 합니다 <xref:System.Data.DataTable.Select%2A> 메서드는 <xref:System.Data.DataTable> 특정 행을 찾기 위한 합니다.
 
@@ -72,28 +72,28 @@ ms.locfileid: "55927713"
 
 다음 코드 예제에서는 형식화 된 데이터 집합의 관계 위/아래로 이동 하는 방법을 보여 줍니다. 형식화 된 코드 예 사용 <xref:System.Data.DataRow>s (`NorthwindDataSet.OrdersRow`) 및 생성 된 FindBy*PrimaryKey* (`FindByCustomerID`) 메서드를 원하는 행을 찾아 관련된 레코드를 반환 합니다. 예제를 컴파일하고 있는 경우에 올바르게 실행:
 
--   명명 된 데이터 집합의 인스턴스에 `NorthwindDataSet` 사용 하 여를 `Customers` 테이블입니다.
+- 명명 된 데이터 집합의 인스턴스에 `NorthwindDataSet` 사용 하 여를 `Customers` 테이블입니다.
 
--   `Orders` 테이블입니다.
+- `Orders` 테이블입니다.
 
--   명명 된 관계 `FK_Orders_Customers`두 테이블 관련 됩니다.
+- 명명 된 관계 `FK_Orders_Customers`두 테이블 관련 됩니다.
 
 또한 두 테이블 반환할 모든 레코드에 대 한 데이터를 사용 하 여 입력 해야 합니다.
 
 #### <a name="to-return-the-child-records-of-a-selected-parent-record"></a>자식 선택한 부모 레코드의 레코드를 반환 하려면
 
--   호출 된 <xref:System.Data.DataRow.GetChildRows%2A> 특정 메서드의 `Customers` 데이터 행 및 행에서 배열을 반환 합니다 `Orders` 테이블:
+- 호출 된 <xref:System.Data.DataRow.GetChildRows%2A> 특정 메서드의 `Customers` 데이터 행 및 행에서 배열을 반환 합니다 `Orders` 테이블:
 
      [!code-csharp[VbRaddataDatasets#6](../data-tools/codesnippet/CSharp/query-datasets_4.cs)]
      [!code-vb[VbRaddataDatasets#6](../data-tools/codesnippet/VisualBasic/query-datasets_4.vb)]
 
 #### <a name="to-return-the-parent-record-of-a-selected-child-record"></a>선택한 자식 레코드의 부모 레코드를 반환 합니다.
 
--   호출을 <xref:System.Data.DataRow.GetParentRow%2A> 특정 메서드의 `Orders` 에서 단일 행 돌아가 데이터 행을 `Customers` 테이블:
+- 호출을 <xref:System.Data.DataRow.GetParentRow%2A> 특정 메서드의 `Orders` 에서 단일 행 돌아가 데이터 행을 `Customers` 테이블:
 
      [!code-csharp[VbRaddataDatasets#7](../data-tools/codesnippet/CSharp/query-datasets_5.cs)]
      [!code-vb[VbRaddataDatasets#7](../data-tools/codesnippet/VisualBasic/query-datasets_5.vb)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [Visual Studio의 데이터 세트 도구](../data-tools/dataset-tools-in-visual-studio.md)
+- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)

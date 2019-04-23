@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 013571a948c6c3fdca5da3c5c9278ca21e1f3698
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 7c07dde4c3b992db30c9fc72a0dfa01f0f13b31e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57869111"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045539"
 ---
 # <a name="ca2233-operations-should-not-overflow"></a>CA2233: 연산은 오버플로되지 않아야 합니다.
 
@@ -102,11 +102,11 @@ End Sub
 
 설정 하려면 C#에서 산술 연산 오버플로/언더플로 확인 합니다.
 
-1.  **솔루션 탐색기**프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다.
+1. **솔루션 탐색기**프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다.
 
-2.  **빌드** 탭을 선택하고 **고급**을 클릭합니다.
+2. **빌드** 탭을 선택하고 **고급**을 클릭합니다.
 
-3.  선택 **산술 연산 오버플로/언더플로 확인** 누릅니다 **확인**합니다.
+3. 선택 **산술 연산 오버플로/언더플로 확인** 누릅니다 **확인**합니다.
 
 ## <a name="see-also"></a>참고자료
 

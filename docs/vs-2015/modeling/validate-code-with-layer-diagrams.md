@@ -21,12 +21,12 @@ caps.latest.revision: 84
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 74c61beeae78fbf76ffee76ff930171ddbe8089a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 143daa7f54179867325206f62a852fd685852a6f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985041"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60051819"
 ---
 # <a name="validate-code-with-layer-diagrams"></a>레이어 다이어그램에 대해 코드 유효성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,50 +58,50 @@ ms.locfileid: "58985041"
 > [!IMPORTANT]
 >  Team Foundation Build를 사용하여 레이어 유효성 검사를 실행하려면 빌드 서버에 동일한 버전의 Visual Studio를 설치해야 합니다.  
   
--   [항목 유효성 검사 지원](#SupportsValidation)  
+- [항목 유효성 검사 지원](#SupportsValidation)  
   
--   [다른.NET 어셈블리 및 유효성 검사에 대 한 프로젝트를 포함 합니다.](#IncludeReferences)  
+- [다른.NET 어셈블리 및 유효성 검사에 대 한 프로젝트를 포함 합니다.](#IncludeReferences)  
   
--   [수동으로 코드 유효성 검사](#ValidateManually)  
+- [수동으로 코드 유효성 검사](#ValidateManually)  
   
--   [코드를 자동으로 유효성 검사](#ValidateAuto)  
+- [코드를 자동으로 유효성 검사](#ValidateAuto)  
   
--   [레이어 유효성 검사 문제 해결](#TroubleshootingValidation)  
+- [레이어 유효성 검사 문제 해결](#TroubleshootingValidation)  
   
--   [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)  
+- [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)  
   
-##  <a name="SupportsValidation"></a> 항목 유효성 검사 지원  
+## <a name="SupportsValidation"></a> 항목 유효성 검사 지원  
  레이어를 웹 사이트, Office 문서, 일반 텍스트 파일 및 여러 앱에서 공유되는 프로젝트의 파일에 연결할 수는 있지만, 유효성 검사 프로세스에는 레이어가 포함되지 않습니다. 별도의 레이어에 연결된 프로젝트 또는 어셈블리의 경우에는 해당 레이어 간에 종속성이 나타나지 않아도 유효성 검사 오류가 나타나지 않습니다. 이러한 참조는 코드에서 사용하지 않는 한 종속성으로 처리되지 않습니다.  
   
-1.  레이어 다이어그램에서 하나 이상의 레이어를 선택, 선택 항목을 마우스 오른쪽 단추로 클릭 하 고, 클릭 **보기 링크**합니다.  
+1. 레이어 다이어그램에서 하나 이상의 레이어를 선택, 선택 항목을 마우스 오른쪽 단추로 클릭 하 고, 클릭 **보기 링크**합니다.  
   
-2.  **레이어 탐색기**를 확인 합니다 **유효성 검사 지원** 열입니다. 값이 false일 경우 해당 항목은 유효성 검사를 지원하지 않습니다.  
+2. **레이어 탐색기**를 확인 합니다 **유효성 검사 지원** 열입니다. 값이 false일 경우 해당 항목은 유효성 검사를 지원하지 않습니다.  
   
-##  <a name="IncludeReferences"></a> 다른.NET 어셈블리 및 유효성 검사에 대 한 프로젝트를 포함 합니다.  
+## <a name="IncludeReferences"></a> 다른.NET 어셈블리 및 유효성 검사에 대 한 프로젝트를 포함 합니다.  
  해당.NET 어셈블리나 프로젝트에 대 한 참조를 자동으로 추가 됩니다 레이어 다이어그램으로 항목을 끌면 합니다 **레이어 참조** 모델링 프로젝트의 폴더입니다. 이 폴더에는 유효성 검사 중 분석되는 프로젝트와 어셈블리에 대한 참조가 포함되어 있습니다. 유효성을 검사할 다른 .NET 어셈블리와 프로젝트는 수동으로 레이어 다이어그램으로 끌어 놓지 않고도 포함할 수 있습니다.  
   
-1.  **솔루션 탐색기**, 모델링 프로젝트를 마우스 오른쪽 단추로 클릭 또는 **레이어 참조** 폴더를 마우스 클릭 **참조 추가**합니다.  
+1. **솔루션 탐색기**, 모델링 프로젝트를 마우스 오른쪽 단추로 클릭 또는 **레이어 참조** 폴더를 마우스 클릭 **참조 추가**합니다.  
   
-2.  에 **참조 추가** 대화 상자에서 어셈블리 또는 프로젝트를 선택한 다음 클릭 **확인**합니다.  
+2. 에 **참조 추가** 대화 상자에서 어셈블리 또는 프로젝트를 선택한 다음 클릭 **확인**합니다.  
   
-##  <a name="ValidateManually"></a> 수동으로 코드 유효성 검사  
+## <a name="ValidateManually"></a> 수동으로 코드 유효성 검사  
  솔루션 항목에 연결 된 열린 레이어 다이어그램에 있는 경우 실행할 수 있습니다 합니다 **유효성 검사** 다이어그램에서 바로 가기 명령입니다. 실행 하려면 명령 프롬프트를 사용할 수도 있습니다는 **msbuild** 명령에 **/p:ValidateArchitecture** 로 설정 하는 사용자 지정 속성 **True**합니다. 예를 들어, 코드를 변경할 때 종속성 충돌을 빠르게 찾을 수 있도록 레이어 유효성 검사를 정기적으로 수행합니다.  
   
 #### <a name="to-validate-code-from-an-open-layer-diagram"></a>열려 있는 레이어 다이어그램에서 코드 유효성을 검사하려면  
   
-1.  다이어그램 곡면을 마우스 오른쪽 단추로 누른 **아키텍처 유효성 검사**합니다.  
+1. 다이어그램 곡면을 마우스 오른쪽 단추로 누른 **아키텍처 유효성 검사**합니다.  
   
     > [!NOTE]
     >  기본적으로 **빌드 작업** 레이어 다이어그램 (.layerdiagram) 파일에 속성이로 설정 된 **유효성 검사** 다이어그램 유효성 검사 프로세스에 포함 되어 있도록 합니다.  
   
      합니다 **오류 목록** 창에 나타나는 모든 오류를 보고 합니다. 유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다.  
   
-2.  각 오류의 소스를 보려면에서 오류를 두 번 클릭 합니다 **오류 목록** 창입니다.  
+2. 각 오류의 소스를 보려면에서 오류를 두 번 클릭 합니다 **오류 목록** 창입니다.  
   
     > [!NOTE]
     >  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 오류 소스 대신 코드 맵이 표시될 수도 있습니다. 레이어 다이어그램에 지정되지 않은 어셈블리에 대한 종속성이 코드에 있거나 레이어 다이어그램에 지정된 종속성이 코드에 없는 경우 종속성 그래프가 표시됩니다. 이 경우 코드 맵이나 코드를 검토하여 종속성이 있어야 하는지 여부를 확인합니다. 코드 맵에 대 한 자세한 내용은 참조 하세요. [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)합니다.  
   
-3.  오류를 관리 하려면 참조 [유효성 검사 오류 관리](#ManageErrors)합니다.  
+3. 오류를 관리 하려면 참조 [유효성 검사 오류 관리](#ManageErrors)합니다.  
   
 #### <a name="to-validate-code-at-the-command-prompt"></a>명령 프롬프트에서 코드 유효성을 검사하려면  
   
@@ -141,7 +141,7 @@ ms.locfileid: "58985041"
   
    유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다.  
   
-###  <a name="ManageErrors"></a> 유효성 검사 오류 관리  
+### <a name="ManageErrors"></a> 유효성 검사 오류 관리  
  개발 과정에서 유효성 검사 중 보고된 충돌 문제 중 일부를 표시하지 않을 수 있습니다. 예를 들어 이미 해결되었거나 특정 시나리오와 관계가 없는 오류를 표시하지 않을 수 있습니다. 오류를 표시하지 않는 경우에는 [!INCLUDE[esprfound](../includes/esprfound-md.md)]에 작업 항목을 기록하는 것이 좋습니다.  
   
 > [!WARNING]
@@ -160,12 +160,12 @@ ms.locfileid: "58985041"
 |표시 되지 않는 모든 오류 복원 합니다 **오류 목록** 창|아무 곳 이나 마우스 오른쪽 단추로 클릭 합니다 **오류 목록** 창 가리킵니다 **유효성 검사 오류 관리**를 클릭 하 고 **표시 안 한 오류**합니다.|  
 |표시 되지 않는 모든 오류에서 숨기기 합니다 **오류 목록** 창|아무 곳 이나 마우스 오른쪽 단추로 클릭 합니다 **오류 목록** 가리킵니다 창 **유효성 검사 오류 관리**를 클릭 하 고 **숨기기 안 한 오류 표시**.|  
   
-##  <a name="ValidateAuto"></a> 코드를 자동으로 유효성 검사  
+## <a name="ValidateAuto"></a> 코드를 자동으로 유효성 검사  
  로컬 빌드를 실행할 때마다 레이어 유효성 검사를 수행할 수 있습니다. 팀에서 Team Foundation Build를 사용하는 경우, 사용자 지정 MSBuild 작업을 생성하여 지정할 수 있는 제어된 체크 인을 사용하여 유효성 검사를 수행하고 빌드 보고서를 사용하여 유효성 검사 오류를 수집할 수 있습니다. 제어 된 체크 인 빌드를 만들려면 참조 [제어 된 체크 인 빌드 프로세스를 사용 하 여 변경 사항을 확인 하려면](http://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)합니다.  
   
 #### <a name="to-validate-code-automatically-during-a-local-build"></a>로컬 빌드 중 자동으로 코드의 유효성을 검사하려면  
   
--   텍스트 편집기를 사용하여 모델링 프로젝트 파일(.modelproj)을 열고 다음 속성을 포함합니다.  
+- 텍스트 편집기를 사용하여 모델링 프로젝트 파일(.modelproj)을 열고 다음 속성을 포함합니다.  
   
 ```  
 <ValidateArchitecture>true</ValidateArchitecture>  
@@ -197,24 +197,24 @@ ms.locfileid: "58985041"
   
    유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다. [!INCLUDE[esprbuild](../includes/esprbuild-md.md)]에 대한 자세한 내용은 다음을 참조하십시오.  
   
--   [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+- [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
--   [빌드 프로세스에 대 한 기본 템플릿 사용](http://msdn.microsoft.com/library/43930b12-c21b-4599-a980-2995e3d16e31)  
+- [빌드 프로세스에 대 한 기본 템플릿 사용](http://msdn.microsoft.com/library/43930b12-c21b-4599-a980-2995e3d16e31)  
   
--   [빌드 템플릿을 기반으로 하는 수정](http://msdn.microsoft.com/library/ee1a8259-1dd1-4a10-9563-66c5446ef41c)  
+- [빌드 템플릿을 기반으로 하는 수정](http://msdn.microsoft.com/library/ee1a8259-1dd1-4a10-9563-66c5446ef41c)  
   
--   [빌드 프로세스 템플릿 사용자 지정](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
+- [빌드 프로세스 템플릿 사용자 지정](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
   
--   [실행 중인 빌드의 진행률 모니터링](http://msdn.microsoft.com/library/e51e3bad-2d1d-4b7b-bfcc-c43439c6c8ef)  
+- [실행 중인 빌드의 진행률 모니터링](http://msdn.microsoft.com/library/e51e3bad-2d1d-4b7b-bfcc-c43439c6c8ef)  
   
-##  <a name="TroubleshootingValidation"></a> 레이어 유효성 검사 문제 해결  
+## <a name="TroubleshootingValidation"></a> 레이어 유효성 검사 문제 해결  
  다음 표에서는 레이어 유효성 검사 문제와 해결 방법에 대해 설명합니다. 이 문제는 코드와 디자인 간의 충돌로 인해 발생하는 오류와 다릅니다. 이러한 오류에 대 한 자세한 내용은 참조 하세요. [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다.  
   
 |**문제**|**가능한 원인**|**해결**|  
 |---------------|------------------------|--------------------|  
 |유효성 검사 오류가 예상대로 발생하지 않습니다.|같은 모델링 프로젝트에 있는 레이어 다이어그램과 솔루션 탐색기의 다른 다이어그램에서 복사한 레이어 다이어그램에 대해서는 유효성 검사가 수행되지 않습니다. 이렇게 복사한 레이어 다어어그램은 원본 레이어 다이어그램과 동일한 참조를 포함합니다.|모델링 프로젝트에 새 레이어 다이어그램을 추가합니다.<br /><br /> 소스 레이어 다이어그램에서 새 다이어그램으로 요소를 복사합니다.|  
   
-##  <a name="UnderstandingValidationErrors"></a> 이해 및 레이어 유효성 검사 오류 해결  
+## <a name="UnderstandingValidationErrors"></a> 이해 및 레이어 유효성 검사 오류 해결  
  레이어 다이어그램에서 코드의 유효성을 검사할 때 코드가 디자인과 충돌하면 유효성 검사 오류가 발생합니다. 예를 들어, 다음과 같은 조건에서 유효성 검사 오류가 발생할 수 있습니다.  
   
 - 잘못된 레이어에 아티팩트가 할당되었습니다. 이 경우 아티팩트를 이동합니다.  

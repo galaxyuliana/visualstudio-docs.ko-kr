@@ -9,25 +9,25 @@ helpviewer_keywords:
 ms.assetid: 847717c9-477d-4ac9-8b2c-2da878912478
 caps.latest.revision: 11
 manager: jillfra
-ms.openlocfilehash: 91c1527de5a5af57602350f317507f97bac53810
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 83608d768940158dcdab427a557577677e56f7c8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970916"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056174"
 ---
 # <a name="how-to-create-a-vsct-file-from-an-existing-cto-file"></a>방법: 만들기는 합니다. 기존 Vsct 파일입니다. Cto 인 파일
 기존 이진 .cto 파일에서 XML 기반 .vsct 파일을 만들 수 있습니다. 이렇게 하면 새 명령 테이블 컴파일러 형식을 이용할 수 있습니다. 이 프로세스는 .ctc 파일에서 .cto 파일이 컴파일된 경우에도 작동합니다. .vsct 파일을 편집하여 다른 .cto 파일로 컴파일할 수 있습니다.  
   
 ### <a name="to-create-a-vsct-file-from-a-cto-file"></a>.cto 파일에서 .vsct 파일을 만들려면  
   
-1.  .cto 파일 및 해당 .ctsym 파일의 복사본을 가져옵니다.  
+1. .cto 파일 및 해당 .ctsym 파일의 복사본을 가져옵니다.  
   
-2.  vsct.exe 컴파일러와 같은 디렉터리에 파일을 배치합니다.  
+2. vsct.exe 컴파일러와 같은 디렉터리에 파일을 배치합니다.  
   
-3.  Visual Studio 명령 프롬프트에서 .cto 및 .ctsym 파일이 들어 있는 디렉터리로 이동합니다.  
+3. Visual Studio 명령 프롬프트에서 .cto 및 .ctsym 파일이 들어 있는 디렉터리로 이동합니다.  
   
-4.  **vsct.exe** _ctofilename_**.cto** _vsctfilename_**.vsct -S**_symfilename_**.ctsym**를 입력합니다.  
+4. **vsct.exe** _ctofilename_**.cto** _vsctfilename_**.vsct -S**_symfilename_**.ctsym**를 입력합니다.  
   
      `ctofilename`은 .cto 파일의 이름이고, `vsctfilename`은 만들려는 vsct 파일의 이름이고, `symfilename`은 .ctsym 파일의 이름입니다.  
   

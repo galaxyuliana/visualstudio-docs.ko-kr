@@ -19,12 +19,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fbbc745ae2d0a20ab14b3960e34182d7f4ed1865
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 67dc8e858a8ee87ee9e1fef9d99bf24ea4994960
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982005"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053210"
 ---
 # <a name="how-to-sign-setup-files-with-signtoolexe-clickonce"></a>방법: SignTool.exe를 사용하여 설치 파일에 서명(ClickOnce)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,23 +37,23 @@ SignTool.exe를 사용하여 설치 프로그램(setup.exe)에 서명을 할 수
   
 ### <a name="to-generate-an-unsigned-setup-program-and-sign-later"></a>서명되지 않은 설치 프로그램을 생성하고 나중에 서명을 하려면  
   
-1.  매니페스트에 서명하는 데 사용할 인증서를 개발 컴퓨터에 설치합니다.  
+1. 매니페스트에 서명하는 데 사용할 인증서를 개발 컴퓨터에 설치합니다.  
   
-2.  **솔루션 탐색기**에서 프로젝트를 선택합니다.  
+2. **솔루션 탐색기**에서 프로젝트를 선택합니다.  
   
-3.  **프로젝트** 메뉴에서 *ProjectName* **속성**을 클릭합니다.  
+3. **프로젝트** 메뉴에서 *ProjectName* **속성**을 클릭합니다.  
   
-4.  **서명** 페이지에서 **ClickOnce 매니페스트 서명** 확인란 선택을 취소합니다.  
+4. **서명** 페이지에서 **ClickOnce 매니페스트 서명** 확인란 선택을 취소합니다.  
   
-5.  **게시** 페이지에서 **필수 구성 요소**를 클릭합니다.  
+5. **게시** 페이지에서 **필수 구성 요소**를 클릭합니다.  
   
-6.  모든 필수 구성 요소가 선택되어 있는지 확인한 다음, **확인**을 클릭합니다.  
+6. 모든 필수 구성 요소가 선택되어 있는지 확인한 다음, **확인**을 클릭합니다.  
   
-7.  **게시** 페이지에서 게시 설정을 확인하고 **지금 게시**를 클릭합니다.  
+7. **게시** 페이지에서 게시 설정을 확인하고 **지금 게시**를 클릭합니다.  
   
      서명되지 않은 응용 프로그램 매니페스트, 서명되지 않은 배포 매니페스트, 버전별 파일 및 서명되지 않은 설치 프로그램이 게시 폴더 위치에 게시됩니다.  
   
-8.  **게시** 페이지에서 **필수 구성 요소**를 클릭합니다.  
+8. **게시** 페이지에서 **필수 구성 요소**를 클릭합니다.  
   
 9. **필수 구성 요소** 대화 상자에서 **필수 구성 요소를 설치하기 위한 설치 프로그램 만들기**를 선택 취소합니다.  
   

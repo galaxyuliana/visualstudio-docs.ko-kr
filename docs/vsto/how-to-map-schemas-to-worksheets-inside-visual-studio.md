@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0fad2851be48c0b3dfc3546794d5b9907f55918a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ae63dd41e18b9226967b77b8adec2f45d05d9447
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637375"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057175"
 ---
 # <a name="how-to-map-schemas-to-worksheets-inside-visual-studio"></a>방법: Visual Studio 내에서 워크시트에 스키마 매핑
   워크시트 Visual Studio에서 열려 있는 동안 워크시트에 XML 스키마를 매핑할 수 있습니다. Visual Studio 외부에서 통합 문서가 열려 있을 때 사용 하는 것과 동일한 Microsoft Office Excel 도구를 사용할 수 있습니다. Office 프로젝트 이전 워크시트에 스키마 매핑 여부 Excel 솔루션을 만든 후 동일한 개체를 만듭니다.
@@ -34,28 +34,28 @@ ms.locfileid: "56637375"
 
 ## <a name="to-map-an-xml-schema-to-an-excel-worksheet-in-visual-studio"></a>Visual Studio에서 Excel 워크시트에 XML 스키마를 매핑하려면
 
-1.  Visual Studio 내에서 Excel 통합 문서 또는 서식 파일 프로젝트를 엽니다.
+1. Visual Studio 내에서 Excel 통합 문서 또는 서식 파일 프로젝트를 엽니다.
 
-2.  디자이너에 포커스를 이동 하려면 워크시트를 클릭 합니다.
+2. 디자이너에 포커스를 이동 하려면 워크시트를 클릭 합니다.
 
-3.  리본에서 **개발자** 탭을 클릭합니다.
+3. 리본에서 **개발자** 탭을 클릭합니다.
 
     > [!NOTE]
     >  **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
 
-4.  에 **XML** 그룹에서 클릭 **원본**합니다.
+4. 에 **XML** 그룹에서 클릭 **원본**합니다.
 
      합니다 **XML 원본** 창이 열립니다.
 
-5.  에 **XML 원본은** 창에서 클릭 **XML 맵을**합니다.
+5. 에 **XML 원본은** 창에서 클릭 **XML 맵을**합니다.
 
      합니다 **XML 맵을** 대화 상자가 열립니다.
 
-6.  에 **XML 맵을** 대화 상자, 클릭 **추가**합니다.
+6. 에 **XML 맵을** 대화 상자, 클릭 **추가**합니다.
 
-7.  스키마 파일을 찾아, 선택 및 클릭 **열려**합니다.
+7. 스키마 파일을 찾아, 선택 및 클릭 **열려**합니다.
 
-8.  **확인**을 클릭합니다.
+8. **확인**을 클릭합니다.
 
      스키마에 표시 됩니다는 **XML 원본** 창입니다. 형식화 된 프로젝트에서 <xref:System.Data.DataSet> 스키마에 따라 생성 되 고 <xref:System.Windows.Forms.BindingSource> 만들어집니다.
 

@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: b5f2296e7dbd6c40327ed516f4da2bf51b8dd4cd
-ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
-ms.translationtype: MTE95
+ms.openlocfilehash: 9e4a30c3aa85969a4cbf712f2f4018c24169ff6d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58268556"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60051416"
 ---
 # <a name="save-data-to-a-database-multiple-tables"></a>데이터베이스에 데이터 저장(여러 테이블)
 
@@ -31,15 +31,15 @@ TableAdapter의 `Update` 메서드를 호출하여 응용 프로그램의 데이
 
 이 연습에서 설명하는 작업은 다음과 같습니다.
 
--  만들기 및 사용 하 여 응용 프로그램에서 데이터 원본을 구성 합니다 [데이터 소스 구성 마법사](../data-tools/media/data-source-configuration-wizard.png)합니다.
+- 만들기 및 사용 하 여 응용 프로그램에서 데이터 원본을 구성 합니다 [데이터 소스 구성 마법사](../data-tools/media/data-source-configuration-wizard.png)합니다.
 
--  에 있는 항목의 컨트롤을 설정 합니다 [데이터 소스 창](add-new-data-sources.md#data-sources-window)합니다. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.
+- 에 있는 항목의 컨트롤을 설정 합니다 [데이터 소스 창](add-new-data-sources.md#data-sources-window)합니다. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.
 
--  **데이터 원본** 창에서 폼으로 항목을 끌어 데이터 바인딩된 컨트롤을 만듭니다.
+- **데이터 원본** 창에서 폼으로 항목을 끌어 데이터 바인딩된 컨트롤을 만듭니다.
 
--  데이터 집합의 각 테이블에서 몇 가지 레코드를 수정 합니다.
+- 데이터 집합의 각 테이블에서 몇 가지 레코드를 수정 합니다.
 
--  데이터 집합의 업데이트된 데이터를 데이터베이스로 다시 보내도록 코드를 수정합니다.
+- 데이터 집합의 업데이트된 데이터를 데이터베이스로 다시 보내도록 코드를 수정합니다.
 
 ## <a name="prerequisites"></a>전제 조건
 
@@ -65,7 +65,7 @@ TableAdapter의 `Update` 메서드를 호출하여 응용 프로그램의 데이
 
 ## <a name="create-the-data-source"></a>데이터 원본 만들기
 
-이 단계에서는 **데이터 원본 구성 마법사**를 사용하여 Northwind 데이터베이스에서 데이터 원본을 만듭니다. 연결을 만들려면 Northwind 샘플 데이터베이스에 액세스해야 합니다. Northwind 샘플 데이터베이스 설정에 대 한 자세한 내용은 [방법: 샘플 데이터베이스 설치](../data-tools/installing-database-systems-tools-and-samples.md)합니다.
+이 단계에서는 **데이터 원본 구성 마법사**를 사용하여 Northwind 데이터베이스에서 데이터 원본을 만듭니다. 연결을 만들려면 Northwind 샘플 데이터베이스에 액세스해야 합니다. Northwind 샘플 데이터베이스 설정에 대 한 자세한 내용은 [방법: 예제 데이터베이스 설치](../data-tools/installing-database-systems-tools-and-samples.md)합니다.
 
 1. 에 **데이터** 메뉴에서 **데이터 소스 표시**합니다.
 
@@ -144,6 +144,6 @@ TableAdapter의 `Update` 메서드를 호출하여 응용 프로그램의 데이
 
 4. 데이터베이스의 값을 점검하여 변경 내용이 저장되었는지 확인합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)

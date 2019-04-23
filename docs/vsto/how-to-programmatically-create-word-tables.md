@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 10683f2bd740a92b41c0063da15d093248396bd5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 24a365ba239e4d87e179bfecd664aa31aef0f359
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619396"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050827"
 ---
 # <a name="how-to-programmatically-create-word-tables"></a>방법: 프로그래밍 방식으로 Word 표 만들기
   <xref:Microsoft.Office.Interop.Word.Tables> 컬렉션은 <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Interop.Word.Selection> 및 <xref:Microsoft.Office.Interop.Word.Range> 클래스의 멤버이므로 이러한 컨텍스트 중 하나에서 표를 만들 수 있습니다. <xref:Microsoft.Office.Interop.Word.Tables> 컬렉션의 <xref:Microsoft.Office.Interop.Word.Tables.Add%2A> 메서드를 사용하여 지정된 범위에 표를 추가합니다.
@@ -51,7 +51,7 @@ ms.locfileid: "56619396"
 
 ### <a name="to-apply-a-style-to-a-table"></a>표에 스타일을 적용하려면
 
-1.  <xref:Microsoft.Office.Interop.Word.Table.Style%2A> 속성을 사용하여 Word 기본 제공 스타일 중 하나를 표에 적용합니다.
+1. <xref:Microsoft.Office.Interop.Word.Table.Style%2A> 속성을 사용하여 Word 기본 제공 스타일 중 하나를 표에 적용합니다.
 
      다음 코드 예제를 사용하려면 프로젝트의 `ThisDocument` 클래스에서 실행합니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "56619396"
 
 ### <a name="to-apply-a-style-to-a-table"></a>표에 스타일을 적용하려면
 
-1.  <xref:Microsoft.Office.Interop.Word.Table.Style%2A> 속성을 사용하여 Word 기본 제공 스타일 중 하나를 표에 적용합니다.
+1. <xref:Microsoft.Office.Interop.Word.Table.Style%2A> 속성을 사용하여 Word 기본 제공 스타일 중 하나를 표에 적용합니다.
 
      다음 코드 예제에서는 활성 문서를 사용합니다. 이 예제를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 실행합니다.
 

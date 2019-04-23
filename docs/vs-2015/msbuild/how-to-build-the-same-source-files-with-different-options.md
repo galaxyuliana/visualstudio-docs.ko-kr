@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0ce859a1fd6ee491ecf22003f5ef99936136496a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 3bce742d4ce0374cb7270b964354d65a03e917d0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663145"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045605"
 ---
 # <a name="how-to-build-the-same-source-files-with-different-options"></a>방법: 동일한 소스 파일을 다른 옵션을 사용하여 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "59663145"
   
 #### <a name="to-set-a-group-of-properties-based-on-another-property"></a>또 다른 속성을 기반으로 속성 그룹을 설정하려면  
   
--   다음과 같은 `PropertyGroup` 요소의 `Condition` 특성을 사용합니다.  
+- 다음과 같은 `PropertyGroup` 요소의 `Condition` 특성을 사용합니다.  
   
     ```  
     <PropertyGroup Condition="'$(Flavor)'=='DEBUG'">  
@@ -44,7 +44,7 @@ ms.locfileid: "59663145"
   
 #### <a name="to-define-a-property-based-on-another-property"></a>또 다른 속성을 기반으로 속성을 정의하려면  
   
--   다음과 같은 `Property` 요소의 `Condition` 특성을 사용합니다.  
+- 다음과 같은 `Property` 요소의 `Condition` 특성을 사용합니다.  
   
     ```  
     <DebugType Condition="'$(Flavor)'=='DEBUG'">full</DebugType>  
@@ -55,7 +55,7 @@ ms.locfileid: "59663145"
   
 #### <a name="to-set-a-project-property-at-the-command-line"></a>명령줄에서 프로젝트 속성을 설정하려면  
   
--   **/property** 스위치와 속성 및 속성 값을 함께 사용합니다. 예를 들어:  
+- **/property** 스위치와 속성 및 속성 값을 함께 사용합니다. 예를 들어:  
   
     ```  
     msbuild file.proj /property:Flavor=Debug  

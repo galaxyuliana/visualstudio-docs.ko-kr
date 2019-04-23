@@ -15,12 +15,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 8690a1f05f54fbac9427f4a03412e0a8054c51d2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 795d48b96392057a3f96cf3a67f3c49de8aee9b9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983143"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052170"
 ---
 # <a name="ca1824-mark-assemblies-with-neutralresourceslanguageattribute"></a>CA1824: NeutralResourcesLanguageAttribute로 어셈블리를 표시하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,13 +45,13 @@ ms.locfileid: "58983143"
 
 #### <a name="to-specify-the-language-of-the-resource-of-the-neutral-culture"></a>중립 문화권의 리소스의 언어를 지정 하려면
 
-1.  **솔루션 탐색기**프로젝트를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **속성**합니다.
+1. **솔루션 탐색기**프로젝트를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **속성**합니다.
 
-2.  왼쪽된 탐색 모음에서 선택 **응용 프로그램**를 클릭 하 고 **어셈블리 정보**합니다.
+2. 왼쪽된 탐색 모음에서 선택 **응용 프로그램**를 클릭 하 고 **어셈블리 정보**합니다.
 
-3.  **어셈블리 정보** 대화 상자에서 언어를 선택 합니다 **중립 언어** 드롭 다운 목록.
+3. **어셈블리 정보** 대화 상자에서 언어를 선택 합니다 **중립 언어** 드롭 다운 목록.
 
-4.  **확인**을 클릭합니다.
+4. **확인**을 클릭합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  이 규칙에서 경고를 표시 하지 않을 것입니다. 그러나 시작 성능이 저하 될 수 있습니다.

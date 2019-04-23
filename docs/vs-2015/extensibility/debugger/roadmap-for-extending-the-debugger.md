@@ -11,12 +11,12 @@ ms.assetid: 1f4096a8-f7aa-4dfa-84e1-6d59263e70bb
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f8c5995de05d5861ff407006d5926081a5b76c8b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 59e12a90d241bf07a53cc98c91eef4cfc6d7d063
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982015"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050987"
 ---
 # <a name="roadmap-for-extending-the-debugger"></a>디버거 확장 로드맵
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,9 +27,9 @@ ms.locfileid: "58982015"
   
  컴파일러 및 해당 출력에는 제품에서 디버깅을 구현 하기 위해 필요한를 결정 합니다. 경우에 컴파일러.  
   
--   Windows 기본 운영 체제를 대상으로 하 고 쓰기는입니다. PDB 파일에 통합 된 네이티브 코드 디버그 엔진 (DE)를 사용 하 여 프로그램을 디버깅할 수 있습니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다. DE 또는 식 계산기를 구현할 필요가 없습니다. 식 계산기는 c + + 프로그래밍 언어의 구문에 대 한 기록 됩니다.  
+- Windows 기본 운영 체제를 대상으로 하 고 쓰기는입니다. PDB 파일에 통합 된 네이티브 코드 디버그 엔진 (DE)를 사용 하 여 프로그램을 디버깅할 수 있습니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다. DE 또는 식 계산기를 구현할 필요가 없습니다. 식 계산기 구문의 기록 되는 C++ 프로그래밍 언어입니다.  
   
--   Microsoft에도 통합 되어 관리 코드 디버그 엔진 DE, 프로그램을 디버깅할 수 있습니다 하는 MSIL (intermediate language)가 출력 생성 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다. 따라서 식 계산기를 구현만 필요 합니다. 샘플 식 계산기 제공 됩니다. 자세한 내용은 다음 항목을 참조하세요.  
+- Microsoft에도 통합 되어 관리 코드 디버그 엔진 DE, 프로그램을 디버깅할 수 있습니다 하는 MSIL (intermediate language)가 출력 생성 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다. 따라서 식 계산기를 구현만 필요 합니다. 샘플 식 계산기 제공 됩니다. 자세한 내용은 다음 항목을 참조하세요.  
   
      [식 계산](../../extensibility/debugger/expression-evaluation-visual-studio-debugging-sdk.md)  
   
@@ -41,7 +41,7 @@ ms.locfileid: "58982015"
   
      [공용 언어 런타임 식 계산기 작성](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)  
   
--   대상 전용 운영 체제나 다른 런타임 환경에 고유한 DE 작성 해야 했습니다. ATL COM을 사용 하 여 간단한 DE를 만드는 자습서가 제공 됩니다. 자세한 내용은 다음 항목을 참조하세요.  
+- 대상 전용 운영 체제나 다른 런타임 환경에 고유한 DE 작성 해야 했습니다. ATL COM을 사용 하 여 간단한 DE를 만드는 자습서가 제공 됩니다. 자세한 내용은 다음 항목을 참조하세요.  
   
      [사용자 지정 디버그 엔진 만들기](../../extensibility/debugger/creating-a-custom-debug-engine.md)  
   

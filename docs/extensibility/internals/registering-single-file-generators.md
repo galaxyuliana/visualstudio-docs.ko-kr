@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba7e6a97e3ee04f43eb7509e77f2e6972042473c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 5f16385452fa0fa0f4e706da1856185355aa95a5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603654"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047191"
 ---
 # <a name="registering-single-file-generators"></a>단일 파일 생성기 등록
 사용자 지정 도구에서 사용할 수 있도록 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 따라서를 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 인스턴스화할 수 있습니다 및 특정 프로젝트 형식에 연결 합니다.
@@ -38,15 +38,15 @@ ms.locfileid: "56603654"
 
 2. 원하는 레지스트리 키를 만듭니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 생성기에서 hive\\*GUID* 여기서 *GUID* 특정 언어의 프로젝트 시스템 또는 서비스에 의해 정의 된 GUID입니다. 키의 이름에는 사용자 지정 도구의 프로그래밍 방식으로 이름이 됩니다. 사용자 지정 도구 키에는 다음 값:
 
-   -   (기본값)
+   - (기본값)
 
         선택 사항입니다. 사용자 지정 도구 설명 해 놓은 제공합니다. 이 매개 변수 선택 사항 이지만 권장 됩니다.
 
-   -   CLSID
+   - CLSID
 
         필수 요소. 구현 하는 COM 구성 요소의 클래스 라이브러리의 식별자를 지정 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>합니다.
 
-   -   GeneratesDesignTimeSource
+   - GeneratesDesignTimeSource
 
         필수 요소. 이 사용자 지정 도구에서 생성 된 파일에서 형식을 사용할 수 있는 비주얼 디자이너를 수행 하는지 여부를 나타냅니다. 이 매개 변수의 값 (0) 0 비주얼 디자이너에 사용할 수 없는 형식에 대 한 또는 비주얼 디자이너를 사용할 수 있는 형식 (1) 1 있어야 합니다.
 

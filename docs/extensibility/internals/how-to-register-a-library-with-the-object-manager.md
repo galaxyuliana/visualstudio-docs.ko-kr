@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fb764b453caa0a6230929fdc5fd002eb56550d67
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 62af216c2c748aafd5128a861fec5033f0ba5d37
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609081"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60051988"
 ---
 # <a name="how-to-register-a-library-with-the-object-manager"></a>방법: 개체 관리자를 사용 하 여 라이브러리를 등록 합니다.
 와 같은 도구 기호 검색 **클래스 뷰**, **개체 브라우저**를 **호출 브라우저** 고 **기호 찾기 결과**를 볼 수 있도록 외부 구성 요소 또는 프로젝트의 기호입니다. 기호는 네임 스페이스, 클래스, 인터페이스, 메서드 및 다른 언어 요소를 포함 합니다. 라이브러리는 이러한 기호를 추적 하 고 노출 하는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 데이터를 사용 하 여 도구를 채우는 개체 관리자입니다.
@@ -38,7 +38,7 @@ ms.locfileid: "56609081"
 
 ### <a name="to-register-a-library-with-the-object-manager"></a>개체 관리자를 사용 하 여 라이브러리를 등록 하려면
 
-1.  라이브러리를 만듭니다.
+1. 라이브러리를 만듭니다.
 
     ```vb
     Private m_CallBrowserLibrary As CallBrowser.Library = Nothing
@@ -55,7 +55,7 @@ ms.locfileid: "56609081"
 
     ```
 
-2.  개체에 대 한 참조를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> 입력 하 고 호출을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary%2A> 메서드.
+2. 개체에 대 한 참조를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> 입력 하 고 호출을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary%2A> 메서드.
 
     ```vb
     Private Sub RegisterLibrary()
@@ -111,7 +111,7 @@ ms.locfileid: "56609081"
 
 ### <a name="to-unregister-a-library-with-the-object-manager"></a>라이브러리 개체 관리자를 등록 취소
 
-1.  개체에 대 한 참조를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> 입력 하 고 호출을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary%2A> 메서드.
+1. 개체에 대 한 참조를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> 입력 하 고 호출을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary%2A> 메서드.
 
     ```vb
     Private Sub UnregisterLibrary()

@@ -15,12 +15,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5e7528e8a589cb64e4debc8c1e119f8f59a6244c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 8b5dc42932334b54bb46664da14af7df8dcfe131
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980955"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050788"
 ---
 # <a name="how-to-create-a-policyactivity-rule-set-legacy"></a>방법: PolicyActivity 규칙 집합 만들기(레거시)
 이 항목에서는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 사용하여 정책 활동 규칙 집합을 만드는 방법에 대해 설명합니다.  
@@ -32,33 +32,33 @@ ms.locfileid: "58980955"
   
 ### <a name="to-select-or-create-a-rule-set-for-a-policyactivity-activity"></a>PolicyActivity 활동의 규칙 집합을 선택하거나 만들려면  
   
-1.  마우스 오른쪽 단추로 클릭 합니다 [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019), 클릭 하 고 **속성** 열려는 합니다 **속성** 창.  
+1. 마우스 오른쪽 단추로 클릭 합니다 [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019), 클릭 하 고 **속성** 열려는 합니다 **속성** 창.  
   
-2.  클릭 합니다 **RuleSetReference** 속성입니다.  
+2. 클릭 합니다 **RuleSetReference** 속성입니다.  
   
-3.  다음 작업 중 하나를 수행합니다.  
+3. 다음 작업 중 하나를 수행합니다.  
   
-    -   클릭 합니다 **RuleSetReference** 줄임표 **[...]** 를 선택한 다음 기존 규칙에서 설정 합니다 [선택 규칙 설정 대화 상자 (레거시)](../workflow-designer/select-rule-set-dialog-box-legacy.md)합니다. 10단계로 이동합니다.  
-  
-         또는  
-  
-    -   규칙 집합의 이름을 입력합니다. 클릭 합니다 **RuleSetReference** 줄임표 **[...]** 를 선택한 후 **편집** 에 [선택 규칙 설정 대화 상자 (레거시)](../workflow-designer/select-rule-set-dialog-box-legacy.md)합니다.  
+    - 클릭 합니다 **RuleSetReference** 줄임표 **[...]** 를 선택한 다음 기존 규칙에서 설정 합니다 [선택 규칙 설정 대화 상자 (레거시)](../workflow-designer/select-rule-set-dialog-box-legacy.md)합니다. 10단계로 이동합니다.  
   
          또는  
   
-    -   규칙 집합의 이름을 입력합니다. 확장 된 **RuleSetReference** 속성과 줄임표 선택 **[...]**  에 **RuleSet Definition** 속성입니다.  
+    - 규칙 집합의 이름을 입력합니다. 클릭 합니다 **RuleSetReference** 줄임표 **[...]** 를 선택한 후 **편집** 에 [선택 규칙 설정 대화 상자 (레거시)](../workflow-designer/select-rule-set-dialog-box-legacy.md)합니다.  
+  
+         또는  
+  
+    - 규칙 집합의 이름을 입력합니다. 확장 된 **RuleSetReference** 속성과 줄임표 선택 **[...]**  에 **RuleSet Definition** 속성입니다.  
   
          합니다 [규칙 집합 편집기 대화 상자 (레거시)](../workflow-designer/rule-set-editor-dialog-box-legacy.md) 열립니다.  
   
-4.  에 [규칙 집합 편집기 대화 상자 (레거시)](../workflow-designer/rule-set-editor-dialog-box-legacy.md), 클릭 **규칙 추가** 규칙 집합에 새 규칙을 추가 하려면.  
+4. 에 [규칙 집합 편집기 대화 상자 (레거시)](../workflow-designer/rule-set-editor-dialog-box-legacy.md), 클릭 **규칙 추가** 규칙 집합에 새 규칙을 추가 하려면.  
   
-5.  입력를 **이름**, **우선 순위**, 및 **재평가** 속성 또는 기본값을 그대로 유지 합니다.  
+5. 입력를 **이름**, **우선 순위**, 및 **재평가** 속성 또는 기본값을 그대로 유지 합니다.  
   
-6.  에 텍스트를 입력 합니다 **조건을**합니다.  
+6. 에 텍스트를 입력 합니다 **조건을**합니다.  
   
-7.  에 텍스트를 입력 합니다 **Thenactions** 하며 **Else 작업**합니다.  
+7. 에 텍스트를 입력 합니다 **Thenactions** 하며 **Else 작업**합니다.  
   
-8.  클릭 **규칙 추가** 다른 규칙을 추가 하려면 다시 합니다.  
+8. 클릭 **규칙 추가** 다른 규칙을 추가 하려면 다시 합니다.  
   
 9. 작업을 마쳤으면 **확인**을 클릭합니다.  
   

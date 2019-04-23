@@ -12,12 +12,12 @@ ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2392f77ef3b78176dd33defd012b828d7a918b5b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e370f48559638e8c68ea5ac8e04eca6960983475
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971589"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046088"
 ---
 # <a name="localizing-vsix-packages"></a>VSIX 패키지 지역화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,9 +53,9 @@ ms.locfileid: "58971589"
   
 #### <a name="to-set-the-include-in-vsix-property"></a>Vsix 속성에 포함 되는 설정  
   
-1.  **솔루션 탐색기**Extension.vsixlangpack 파일을 마우스 오른쪽 단추로 클릭 한 다음 클릭 **속성**합니다.  
+1. **솔루션 탐색기**Extension.vsixlangpack 파일을 마우스 오른쪽 단추로 클릭 한 다음 클릭 **속성**합니다.  
   
-2.  속성 그리드에서 클릭 **Vsix에 포함**, 해당 값을 설정 하 고 `true`입니다.  
+2. 속성 그리드에서 클릭 **Vsix에 포함**, 해당 값을 설정 하 고 `true`입니다.  
   
 ## <a name="example"></a>예제  
   

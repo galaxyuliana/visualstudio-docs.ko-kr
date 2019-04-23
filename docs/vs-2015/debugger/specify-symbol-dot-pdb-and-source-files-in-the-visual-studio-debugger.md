@@ -27,12 +27,12 @@ caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4f5dc8d361386417fe52706fbfc2049d5a420d4c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6be45876174afa00a58ea9948661f051f8df1ddc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984609"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045709"
 ---
 # <a name="specify-symbol-pdb-and-source-files-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 기호 파일(.pdb) 및 원본 파일 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,22 +43,22 @@ ms.locfileid: "58984609"
 
  Visual Studio 2012 이전에는 원격 디바이스에서 관리 코드를 디버그하는 경우 원격 컴퓨터에 기호 파일을 넣어야 했습니다. 이제는 그렇지 않습니다. 모든 기호 파일은 로컬 컴퓨터 또는 **도구/옵션/디버깅/기호** 페이지에 지정된 위치에 있어야 합니다.
 
-##  <a name="BKMK_Find_symbol___pdb__files"></a> 디버거에서는.pdb 파일을 검색할 위치
+## <a name="BKMK_Find_symbol___pdb__files"></a> 디버거에서는.pdb 파일을 검색할 위치
 
-1.  DLL 또는 실행 파일 내의 지정된 위치
+1. DLL 또는 실행 파일 내의 지정된 위치
 
      기본적으로 컴퓨터에서 DLL 또는 실행 파일을 빌드한 경우 링커는 DLL 또는 실행 파일 내에 관련 .pdb 파일의 전체 경로와 파일 이름을 배치합니다. 디버거는 기호 파일이 DLL 또는 실행 파일 내의 지정된 위치에 존재하는지 여부를 먼저 확인합니다. 이는 컴파일한 코드에 사용할 수 있는 기호가 항상 컴퓨터에 있기 때문에 유용합니다.
 
-2.  DLL 또는 실행 파일과 동일한 폴더에 있을 수 있는 .pdb 파일
+2. DLL 또는 실행 파일과 동일한 폴더에 있을 수 있는 .pdb 파일
 
-3.  로컬 기호 캐시 폴더
+3. 로컬 기호 캐시 폴더
 
-4.  활성화된 경우 Microsoft 기호 서버와 같은 지정된 네트워크, 인터넷 또는 로컬 기호 서버 및 위치
+4. 활성화된 경우 Microsoft 기호 서버와 같은 지정된 네트워크, 인터넷 또는 로컬 기호 서버 및 위치
 
-###  <a name="BKMK_Why_do_symbol_files_need_to_exactly_match_the_executable_files_"></a> 기호 파일이 실행 파일과 정확하게 일치해야 하는 이유
+### <a name="BKMK_Why_do_symbol_files_need_to_exactly_match_the_executable_files_"></a> 기호 파일이 실행 파일과 정확하게 일치해야 하는 이유
  디버거는 실행 파일을 빌드할 때 만든 .pdb 파일과 정확히 일치하는 실행 파일의 .pdb 파일만 로드합니다. 즉, .pdb는 원본이거나 원본 .pdb 파일의 복사본이어야 합니다. 올바르고 효율적인 코드를 작성하는 주요 작업 외에 컴파일 속도에 대해 컴파일러가 최적화되므로 실행 파일의 실제 레이아웃은 코드 자체가 변경되지 않은 경우에도 변경될 수 있습니다. 자세한 내용은 [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/)(영문)를 참조하십시오.
 
-###  <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> 기호 위치 및 로드 동작 지정
+### <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a> 기호 위치 및 로드 동작 지정
  VS IDE에서 프로젝트를 디버깅할 때 디버거는 프로젝트 디렉터리에 있는 기호 파일을 자동으로 로드합니다. **도구/옵션/디버깅/기호**에서 Microsoft, Windows 또는 타사 구성 요소의 대체 검색 경로 및 기호 서버를 지정할 수 있습니다. 디버거에서 자동으로 기호를 로드할 특정 모듈을 지정할 수도 있습니다. 그런 다음 본격적으로 디버깅하는 동안 이러한 설정을 수동으로 변경할 수 있습니다.
 
 1. Visual Studio에서 **도구/옵션/디버깅/기호** 페이지를 엽니다.
@@ -96,7 +96,7 @@ ms.locfileid: "58984609"
 
    DLL의 내보내기 테이블에서 사용할 수 있는 기호를 확인하려면 `dumpbin /exports`를 사용하십시오. 모든 32비트 시스템 DLL에 기호를 사용할 수 있습니다. `dumpbin /exports` 출력을 읽으면 영숫자가 아닌 문자를 포함하여 정확한 함수 이름을 확인할 수 있습니다. 이 방법은 함수에 중단점을 설정하는 데 유용합니다. DLL 내보내기 테이블에 있는 함수 이름은 디버거에서 일부가 잘린 상태로 나타날 수 있습니다. 호출은 현재 함수(가장 안쪽에 중첩된)가 맨 위에 표시되어 호출한 순서로 나열됩니다. 자세한 내용은 [dumpbin /exports](http://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf)를 참조하십시오.
 
-###  <a name="BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine"></a> 기호 서버를 사용하여 로컬 컴퓨터에 없는 기호 파일 찾기
+### <a name="BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine"></a> 기호 서버를 사용하여 로컬 컴퓨터에 없는 기호 파일 찾기
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 는 symsrv 프로토콜을 구현하는 기호 서버에서 디버깅 기호 파일을 다운로드할 수 있습니다. [Visual Studio Team Foundation Server](http://msdn.microsoft.com/library/bd6977ca-e30a-491a-a153-671d81222ce6) 와 [Windows용 디버깅 도구](http://msdn.microsoft.com/library/windows/hardware/ff551063\(v=VS.85\).aspx) 는 기호 서버를 구현할 수 있는 두 가지 도구입니다. VS **옵션** 대화 상자에서 사용할 기호 서버를 지정합니다.
 
  사용할 수 있는 기호 서버는 다음과 같습니다.
@@ -118,7 +118,7 @@ ms.locfileid: "58984609"
 > [!NOTE]
 >  Microsoft 공용 기호 서버 이외의 기호 서버를 사용할 경우 기호 서버와 해당 경로를 신뢰할 수 있는지 확인합니다. 기호 파일은 임의의 실행 코드를 포함할 수 있으므로 보안 위협에 노출될 수 있습니다.
 
-###  <a name="BKMK_Find_and_load_symbols_while_debugging"></a> 디버깅하는 동안 기호 찾기 및 로드
+### <a name="BKMK_Find_and_load_symbols_while_debugging"></a> 디버깅하는 동안 기호 찾기 및 로드
  디버거가 중단 모드에 있을 때는 디버거 옵션에 의해 이전에 제외되었거나 컴파일러가 찾을 수 없었던 모듈의 기호를 로드할 수 있습니다. 호출 스택, 모듈, 지역, 자동 및 모든 조사식 창의 바로 가기 메뉴에서 기호를 로드할 수 있습니다. 디버거가 기호 또는 소스 파일을 사용할 수 없는 코드에서 중단되는 경우 문서 창이 나타납니다. 여기에서 누락된 파일에 대한 정보를 찾고 이러한 파일을 찾고 로드하기 위해 조치를 취할 수 있습니다.
 
  **로드된 기호 없음 문서 페이지를 사용하여 기호 찾기**
@@ -160,7 +160,7 @@ ms.locfileid: "58984609"
 |**기호 설정...**|VS **옵션** / **기호** / **옵션** 대화 상자에서 사용할 기호 서버를 지정합니다.|
 |**항상 자동으로 로드**|기호 파일을 디버거에서 자동으로 로드되는 파일 목록에 추가합니다.|
 
-###  <a name="BKMK_Set_compiler_options_for_symbol_files"></a> 기호 파일에 대한 컴파일러 옵션 설정
+### <a name="BKMK_Set_compiler_options_for_symbol_files"></a> 기호 파일에 대한 컴파일러 옵션 설정
  VS IDE에서 프로젝트를 빌드하고 표준 **디버그** 빌드 구성을 사용하면, C++ 및 관리되는 컴파일러에서 코드에 대한 적절한 기호 파일을 만듭니다. 또한 명령줄에 컴파일러 옵션을 설정하여 기호 파일을 만들 수도 있습니다.
 
  **C++ 옵션**
@@ -191,23 +191,23 @@ ms.locfileid: "58984609"
 
   애플리케이션의 구성 파일(Web.config)이 디버그 모드로 설정되어 있어야 합니다. 디버그 모드에서는 동적으로 생성된 파일에 대한 기호가 ASP.NET에서 생성되며 디버거가 ASP.NET 애플리케이션에 연결될 수 있습니다. 웹 프로젝트 템플릿에서 프로젝트를 만든 경우 디버깅을 시작하면 VS가 이를 자동으로 설정합니다.
 
-##  <a name="BKMK_Find_source_files"></a> 소스 파일 찾기
+## <a name="BKMK_Find_source_files"></a> 소스 파일 찾기
 
-###  <a name="BKMK_Where_the_debugger_searches_for_source_files"></a> 디버거에서 소스 파일을 검색하는 위치
+### <a name="BKMK_Where_the_debugger_searches_for_source_files"></a> 디버거에서 소스 파일을 검색하는 위치
  디버거는 다음 위치에서 소스 파일을 찾습니다.
 
-1.  디버거를 시작한 Visual Studio 인스턴스의 IDE에 열려 있는 파일
+1. 디버거를 시작한 Visual Studio 인스턴스의 IDE에 열려 있는 파일
 
-2.  Visual Studio 인스턴스에 열려 있는 솔루션의 파일
+2. Visual Studio 인스턴스에 열려 있는 솔루션의 파일
 
-3.  솔루션의 속성에서 **공용 속성** / **소스 파일 디버그** 페이지에 지정된 디렉터리 ( **솔루션 탐색기**에서 솔루션 노드를 선택하고, 마우스 오른쪽 단추를 클릭하고, **속성**을 선택합니다. )
+3. 솔루션의 속성에서 **공용 속성** / **소스 파일 디버그** 페이지에 지정된 디렉터리 ( **솔루션 탐색기**에서 솔루션 노드를 선택하고, 마우스 오른쪽 단추를 클릭하고, **속성**을 선택합니다. )
 
-4.  모듈의 .pdb에 대한 소스 정보. 모듈이 빌드된 경우 소스 파일의 위치이거나, 소스 서버에 대한 명령일 수 있습니다.
+4. 모듈의 .pdb에 대한 소스 정보. 모듈이 빌드된 경우 소스 파일의 위치이거나, 소스 서버에 대한 명령일 수 있습니다.
 
-###  <a name="BKMK_Find_and_load_source_files_with_the_No_Source___No_Symbols_Loaded_pages"></a> 로드된 소스 없음/로드된 기호 없음 페이지를 사용하여 소스 파일 찾기 및 로드
+### <a name="BKMK_Find_and_load_source_files_with_the_No_Source___No_Symbols_Loaded_pages"></a> 로드된 소스 없음/로드된 기호 없음 페이지를 사용하여 소스 파일 찾기 및 로드
  소스 파일을 사용할 수 없는 위치에서 디버거가 실행을 중단하면 소스 파일을 찾는 데 유용할 수 있는 **로드된 소스 없음** 또는 **로드된 기호 없음** 페이지가 표시됩니다. 디버거에서 실행 파일에 대한 기호(.pdb) 파일을 찾아 검색을 완료할 수 없는 경우 **로드된 기호 없음** 이 표시됩니다. 로드된 기호 없음 페이지는 파일을 검색하는 옵션을 제공합니다. 옵션 중 하나를 실행한 후 .pdb가 발견되고 디버거가 기호 파일에 있는 정보를 사용하여 소스 파일을 검색할 수 있는 경우 소스가 표시됩니다. 그렇지 않은 경우에는 문제를 설명하는 **로드된 소스 없음** 페이지가 나타납니다. 이 페이지에는 문제를 해결할 수 있는 작업을 수행할 수 있는 옵션 링크가 표시됩니다.
 
-###  <a name="BKMK_Add_source_file_search_paths_to_a_solution"></a> 솔루션에 소스 파일 검색 경로 추가
+### <a name="BKMK_Add_source_file_search_paths_to_a_solution"></a> 솔루션에 소스 파일 검색 경로 추가
  소스 파일을 검색할 네트워크 또는 로컬 디렉터리를 지정할 수 있습니다.
 
 1. 솔루션 탐색기에서 솔루션을 선택한 후 바로 가기 메뉴에서 **속성** 을 선택합니다.
@@ -220,7 +220,7 @@ ms.locfileid: "58984609"
 
    지정된 디렉터리만 검색됩니다. 검색하려는 하위 디렉터리에 대한 항목을 추가해야 합니다.
 
-###  <a name="BKMK_Use_source_servers"></a> 소스 서버 사용
+### <a name="BKMK_Use_source_servers"></a> 소스 서버 사용
  로컬 컴퓨터에 소스 코드가 없거나 .pdb 파일이 소스 코드와 일치하지 않는 경우 소스 서버를 사용하여 애플리케이션을 디버깅할 수 있습니다. 소스 서버에서는 파일에 대한 요청을 전달받고 실제 파일을 반환합니다. 소스 서버를 실행하는 데는 srcsrv.dll이라는 DLL 파일이 사용됩니다. 소스 서버는 애플리케이션의 .pdb 파일을 읽습니다. 이 PDB 파일에는 소스 코드 리포지토리에 대한 포인터와 리포지토리에서 소스 코드를 검색하는 데 사용되는 명령이 포함되어 있습니다. srcsrv.ini라는 파일 내에 허용되는 명령의 목록을 지정하여 애플리케이션의 .pdb 파일에서 실행할 수 있는 명령을 제한할 수 있습니다. 이 파일은 srcsrv.dll 및 devenv.exe와 동일한 디렉터리에 있어야 합니다.
 
 > [!IMPORTANT]
@@ -228,19 +228,19 @@ ms.locfileid: "58984609"
 
  **소스 서버를 사용하도록 설정하려면**
 
-1.  이전 단원에서 설명한 보안 지침에 따라 컴파일했는지 확인합니다.
+1. 이전 단원에서 설명한 보안 지침에 따라 컴파일했는지 확인합니다.
 
-2.  **도구** 메뉴에서 **옵션**을 선택합니다.
+2. **도구** 메뉴에서 **옵션**을 선택합니다.
 
      **옵션** 대화 상자가 표시됩니다.
 
-3.  **디버깅** 노드에서 **일반**을 선택합니다.
+3. **디버깅** 노드에서 **일반**을 선택합니다.
 
-4.  **소스 서버 지원 사용** 확인란을 선택합니다.
+4. **소스 서버 지원 사용** 확인란을 선택합니다.
 
      ![원본 서버 옵션을 사용 하도록 설정](../debugger/media/dbg-options-general-enablesrcsrvr-checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")
 
-5.  (선택 사항) 원하는 자식 옵션을 선택합니다.
+5. (선택 사항) 원하는 자식 옵션을 선택합니다.
 
      **부분 트러스트 어셈블리에 대한 소스 서버 허용(관리만 해당)** 및 **항상 묻지 않고 신뢰하지 않는 소스 서버 명령 실행** 은 위에서 설명한 보안 위험을 증가시킬 수 있습니다.
 

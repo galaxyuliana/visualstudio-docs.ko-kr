@@ -17,12 +17,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8af0f56d75d231cdde2dc156519e08d580ad4f5f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cff1677ab9209ce2a51b7587c410731a71e27eb0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986409"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056721"
 ---
 # <a name="troubleshooting-service-references"></a>서비스 참조 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,25 +33,25 @@ ms.locfileid: "58986409"
 
  이 오류를 해결하려면
 
-1.  **솔루션 탐색기**를 열려는 app.config 파일을 두 번 클릭 합니다.
+1. **솔루션 탐색기**를 열려는 app.config 파일을 두 번 클릭 합니다.
 
-2.  찾을 `MaxReceivedMessageSize` 속성 보다 큰 값으로 변경 합니다.
+2. 찾을 `MaxReceivedMessageSize` 속성 보다 큰 값으로 변경 합니다.
 
 ## <a name="cannot-find-a-service-in-my-solution"></a>필자의 솔루션에는 서비스를 찾을 수 없습니다.
  클릭할 때 합니다 **Discover** 단추를 **서비스 참조 추가** 대화 상자에서 솔루션의 WCF 서비스 라이브러리 프로젝트를 하나 이상의 서비스 목록에 나타나지 않습니다. 서비스 라이브러리를 솔루션에 추가 되었지만 아직 컴파일되지 않은 경우 발생할 수 있습니다.
 
  이 오류를 해결하려면
 
--   **솔루션 탐색기**WCF 서비스 라이브러리 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 클릭 **빌드**합니다.
+- **솔루션 탐색기**WCF 서비스 라이브러리 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 클릭 **빌드**합니다.
 
 ## <a name="error-accessing-a-service-over-a-remote-desktop"></a>원격 데스크톱을 통해 서비스에 액세스 하는 오류
  사용자가 액세스 한 원격 데스크톱 연결을 통해 웹에서 호스팅되는 WCF 서비스에 관리 권한이 없는 경우 NTLM 인증이 사용 됩니다. 사용자 관리 권한이 없으면 사용자의 다음과 같은 오류 메시지가 나타날 수 있습니다. "HTTP 요청이 클라이언트 인증 구성표 '익명' 권한이 부여 되지 않습니다. 합니다. 서버에서 수신한 인증 헤더가 되었습니다 'NTLM'. "
 
  이 오류를 해결하려면
 
-1.  웹 사이트 프로젝트에서 엽니다는 **속성** 페이지입니다.
+1. 웹 사이트 프로젝트에서 엽니다는 **속성** 페이지입니다.
 
-2.  에 **시작 옵션** 탭을 선택 취소 합니다 **NTLM 인증** 확인란 합니다.
+2. 에 **시작 옵션** 탭을 선택 취소 합니다 **NTLM 인증** 확인란 합니다.
 
     > [!NOTE]
     > 단독으로 WCF 서비스를 포함 하는 웹 사이트에 대해서만 NTLM 인증을 해제 해야 합니다. WCF 서비스에 대 한 보안은 web.config 파일에서 구성을 통해 관리 됩니다. 이렇게 하면 NTLM 인증이 불필요 한 합니다.
@@ -70,32 +70,32 @@ ms.locfileid: "58986409"
 
  이 오류를 해결 하려면 수동으로 서비스 프로젝트를 다시 작성 해야 합니다.
 
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.
 
-2.  에 **옵션** 대화 상자에서 **프로젝트 및 솔루션**를 선택한 후 **일반**합니다.
+2. 에 **옵션** 대화 상자에서 **프로젝트 및 솔루션**를 선택한 후 **일반**합니다.
 
-3.  있는지 확인 합니다 **고급 빌드 구성 표시** 확인란을 선택한 다음 클릭 **확인**합니다.
+3. 있는지 확인 합니다 **고급 빌드 구성 표시** 확인란을 선택한 다음 클릭 **확인**합니다.
 
-4.  WCF 서비스 프로젝트를 로드 합니다. 자세한 내용은 참조 하세요. [NIB 방법: 다중 프로젝트 솔루션 만들기](http://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)합니다.
+4. WCF 서비스 프로젝트를 로드 합니다. 자세한 내용은 참조 하세요. [NIB 방법: 다중 프로젝트 솔루션 만들기](http://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)합니다.
 
-5.  에 **Configuration Manager** 대화 상자에서를 **활성 솔루션 구성** 하 **디버그**합니다. 자세한 내용은 [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)을 참조하세요.
+5. 에 **Configuration Manager** 대화 상자에서를 **활성 솔루션 구성** 하 **디버그**합니다. 자세한 내용은 [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)을 참조하세요.
 
-6.  **솔루션 탐색기**, WCF 서비스 프로젝트를 선택 합니다.
+6. **솔루션 탐색기**, WCF 서비스 프로젝트를 선택 합니다.
 
-7.  에 **빌드** 메뉴에서 클릭 **다시** WCF 서비스 프로젝트를 다시 빌드해야 합니다.
+7. 에 **빌드** 메뉴에서 클릭 **다시** WCF 서비스 프로젝트를 다시 빌드해야 합니다.
 
 ## <a name="wcf-data-services-do-not-display-in-the-browser"></a>WCF 데이터 서비스가 브라우저에 표시 되지 않음
  데이터의 XML 표현을 확인 하려고 할 때를 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)], Internet Explorer에서 RSS 피드로 데이터를 잘못 해석할 수 있습니다. RSS 피드를 표시하는 옵션은 반드시 비활성화되어 있어야 합니다.
 
  이 오류를 해결 하려면 RSS 피드를 사용 하지 않도록 설정 합니다.
 
-1.  Internet Explorer의 **도구** 메뉴에서 **인터넷 옵션**을 클릭합니다.
+1. Internet Explorer의 **도구** 메뉴에서 **인터넷 옵션**을 클릭합니다.
 
-2.  에 **콘텐츠** 탭의 **피드** 섹션에서 **설정**.
+2. 에 **콘텐츠** 탭의 **피드** 섹션에서 **설정**.
 
-3.  에 **피드 설정** 대화 상자, 일반 합니다 **피드 읽기용 보기를 켜려면** 확인란을 선택한 다음 클릭 **확인**.
+3. 에 **피드 설정** 대화 상자, 일반 합니다 **피드 읽기용 보기를 켜려면** 확인란을 선택한 다음 클릭 **확인**.
 
-4.  **확인**을 클릭하여 **인터넷 옵션** 대화 상자를 닫습니다.
+4. **확인**을 클릭하여 **인터넷 옵션** 대화 상자를 닫습니다.
 
 ## <a name="see-also"></a>참고자료
 

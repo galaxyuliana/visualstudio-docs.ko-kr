@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 2dba61d53bdb0007eb2a4f0acff734613e320ab9
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: f8ef28b453ba6c754c337c5d42581bd658be5f04
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649643"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045552"
 ---
 # <a name="create-custom-views-of-c-objects-in-the-debugger"></a>사용자 지정 뷰 만들기 C++ 디버거에서 개체
 
@@ -40,7 +40,7 @@ Natvis 프레임 워크를 사용 하 여 개발자가 디버깅 하는 동안 �
 
 ![시각화 도우미를 사용 하 여 텍스트 데이터](../debugger/media/dbg_natvis_textbox_visualizer.png "시각화 도우미를 사용 하 여 텍스트 데이터")
 
-##  <a name="BKMK_Using_Natvis_files"></a>.natvis 파일을 사용 하 여 C++ 프로젝트
+## <a name="BKMK_Using_Natvis_files"></a>.natvis 파일을 사용 하 여 C++ 프로젝트
 
 다음을 사용 하 여 Natvis *.natvis* 시각화 규칙을 지정 하는 파일입니다. A *.natvis* 파일이 사용 하 여 XML 파일을 *.natvis* 확장 합니다. Natvis 스키마에 정의 되어 *%VSINSTALLDIR%\Xml\Schemas\natvis.xsd*합니다.
 
@@ -103,17 +103,17 @@ Visual Studio 디버거를 로드 *.natvis* 파일 C++ 프로젝트를 자동으
 
 ::: moniker range="vs-2017"
 
-3.  사용자별 Natvis 디렉터리 (예를 들어 *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
+3. 사용자별 Natvis 디렉터리 (예를 들어 *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-3.  사용자별 Natvis 디렉터리 (예를 들어 *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
+3. 사용자별 Natvis 디렉터리 (예를 들어 *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
 
 ::: moniker-end
 
-4.  시스템 차원 Natvis 디렉터리(*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). 이 디렉터리에는 *.natvis* Visual Studio와 함께 설치 되는 파일입니다. 관리자 권한이 있는 경우에이 디렉터리에 파일을 추가할 수 있습니다.
+4. 시스템 차원 Natvis 디렉터리(*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). 이 디렉터리에는 *.natvis* Visual Studio와 함께 설치 되는 파일입니다. 관리자 권한이 있는 경우에이 디렉터리에 파일을 추가할 수 있습니다.
 
 ## <a name="modify-natvis-files-while-debugging"></a>디버깅 하는 동안.natvis 파일을 수정 합니다.
 
@@ -127,7 +127,7 @@ Visual Studio 디버거를 로드 *.natvis* 파일 C++ 프로젝트를 자동으
 
 또한 사용 하 여는 **.natvisreload** 업그레이드 하는 명령 합니다 *.natvis* 최신 버전으로 파일. 예를 들어를 *.natvis* 파일 소스 제어에 체크 인할 수 있습니다 및 다른 사용자가 최근 변경 내용을 선택 하려고 합니다.
 
-##  <a name="BKMK_Expressions_and_formatting"></a> 식 및 형식 지정
+## <a name="BKMK_Expressions_and_formatting"></a> 식 및 형식 지정
 Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 지정합니다. 향상 된 기능 및 제한 사항 외에도 C++ 에 설명 된 디버거에서 식을 [컨텍스트 연산자 (C++)](../debugger/context-operator-cpp.md), 다음에 유의 합니다.
 
 - Natvis 식은 현재 스택 프레임이 아닌 시각화되는 개체의 컨텍스트에서 평가됩니다. 예를 들어 `x` 라는 필드 참조 식에는 Natvis **x** 라는 지역 변수 필요가 시각화 되는 개체에 **x** 현재 함수에서. Natvis 식 내의 지역 변수는 액세스할 수 없지만 전역 변수에 액세스할 수 있습니다.
@@ -158,7 +158,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 ![간단한 뷰를 사용 하 여 조사식 창이](../debugger/media/watch-simpleview.png "간단한 뷰를 사용 하 여 조사식 창")
 
-##  <a name="BKMK_Diagnosing_Natvis_errors"></a> Natvis 오류
+## <a name="BKMK_Diagnosing_Natvis_errors"></a> Natvis 오류
 
 디버거 시각화 항목에서 오류가 발생 하는 무시 합니다. 형식을 원시 형식으로 표시 하거나 적합 한 다른 시각화를 선택 합니다. 디버거 시각화 항목을 무시 하는 이유를 파악 하 고 기본 구문 및 구문 분석 오류에 Natvis 진단을 사용할 수 있습니다.
 
@@ -168,9 +168,9 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 에 오류가 표시 되는 **출력** 창입니다.
 
-##  <a name="BKMK_Syntax_reference"></a> Natvis 구문 참조
+## <a name="BKMK_Syntax_reference"></a> Natvis 구문 참조
 
-###  <a name="BKMK_AutoVisualizer"></a> AutoVisualizer 요소
+### <a name="BKMK_AutoVisualizer"></a> AutoVisualizer 요소
 `AutoVisualizer` 요소는 *.natvis* 파일의 루트 노드이며 네임스페이스 `xmlns:` 특성을 포함합니다.
 
 ```xml
@@ -183,7 +183,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 `AutoVisualizer` 요소가 있을 수 있습니다 [형식](#BKMK_Type), [HResult](#BKMK_HResult)를 [UIVisualizer](#BKMK_UIVisualizer), 및 [CustomVisualizer](#BKMK_CustomVisualizer) 자식입니다.
 
-###  <a name="BKMK_Type"></a> Type 요소
+### <a name="BKMK_Type"></a> Type 요소
 
 기본 `Type` 이 예제 것 같습니다.
 
@@ -217,7 +217,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 등 고 매크로 $T1, $T2를 사용 하 여 시각화 항목에서 템플릿 매개 변수를 참조할 수 있습니다. 이러한 매크로의 예를 살펴보려면 Visual Studio와 함께 제공되는 *.natvis* 파일을 참조하세요.
 
-####  <a name="BKMK_Visualizer_type_matching"></a> 시각화 도우미 형식 일치
+#### <a name="BKMK_Visualizer_type_matching"></a> 시각화 도우미 형식 일치
 유효성 검사에 실패 하면 시각화 항목을 다음으로 사용 가능한 시각화가 됩니다.
 
 #### <a name="inheritable-attribute"></a>상속 가능한 특성
@@ -267,7 +267,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 </Type>
 ```
 
-###  <a name="BKMK_Condition_attribute"></a> 조건 특성
+### <a name="BKMK_Condition_attribute"></a> 조건 특성
 
 선택적 `Condition` 특성은 많은 시각화 요소를 사용할 수 있으며 시각화 규칙을 사용 하는 시기를 지정 합니다. Condition 특성 내부의 식이로 확인 되 면 `false`, 시각화 규칙이 적용 되지 않습니다. 로 평가 되 면 `true`, 없거나 없습니다 `Condition` 특성인 시각화 적용 됩니다. 시각화 항목에 if-else 논리에 대 한이 특성을 사용할 수 있습니다.
 
@@ -303,7 +303,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 사용할 수는 `IncludeView` 및 `ExcludeView` 형식 및 개별 멤버 특성이 있습니다.
 
-###  <a name="BKMK_Versioning"></a> Version 요소
+### <a name="BKMK_Versioning"></a> Version 요소
 `Version` 요소 범위 시각화 항목을 특정 모듈 및 버전을 지정 합니다. `Version` 요소 이름 충돌을 방지할 수, 실수로 인 한 불일치 감소 및 서로 다른 형식 버전에 대 한 서로 다른 시각화 요소를 허용 합니다.
 
 형식을 정의 하는 다른 모듈에서 사용 되는 공통 헤더 파일, 버전이 지정 된 시각화 유형이 지정 된 모듈 버전의 경우에 나타납니다.
@@ -320,7 +320,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 </Type>
 ```
 
-###  <a name="BKMK_DisplayString"></a> DisplayString 요소
+### <a name="BKMK_DisplayString"></a> DisplayString 요소
 `DisplayString` 요소 변수의 값으로 표시할 문자열을 지정 합니다. 또한 식과 혼합된 임의의 문자열을 허용합니다. 중괄호 내의 모든 항목은 식으로 해석됩니다. 예를 들어, 다음 `DisplayString` 항목:
 
 ```xml
@@ -338,7 +338,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 > [!NOTE]
 > `DisplayString` 요소는 임의 문자열 및 중괄호 구문을 허용하는 유일한 요소입니다. 다른 모든 시각화 요소에는 디버거를 실행할 수 있는 식만 허용 합니다.
 
-###  <a name="BKMK_StringView"></a> StringView 요소
+### <a name="BKMK_StringView"></a> StringView 요소
 
 `StringView` 요소 디버거는 기본 제공 텍스트 시각화 도우미로 보낼 수 있는 값을 정의 합니다. 예를 들어, 다음 시각화에 대 한 지정 된 된 `ATL::CStringT` 형식:
 
@@ -367,7 +367,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 식 `{m_pszData,su}` 포함 됩니다는 C++ 형식 지정자 **su**을 유니코드 문자열로 값을 표시 합니다. 자세한 내용은 [형식 지정자에서 C++ ](../debugger/format-specifiers-in-cpp.md)합니다.
 
-###  <a name="BKMK_Expand"></a> 요소 확장
+### <a name="BKMK_Expand"></a> 요소 확장
 
 선택적 `Expand` 노드 변수 창에서 형식을 확장 하면 시각화 된 형식의 자식을 사용자 지정 합니다. `Expand` 노드 자식 요소를 정의 하는 자식 노드의 목록을 허용 합니다.
 
@@ -375,7 +375,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 - 경우는 `Expand` 노드 아래에 자식 노드가 없는 지정 된 형식을 디버거 창에서 확장 되지 않습니다.
 
-####  <a name="BKMK_Item_expansion"></a> 항목 확장
+#### <a name="BKMK_Item_expansion"></a> 항목 확장
 
  합니다 `Item` 요소는 가장 기본 및 일반 요소에는 `Expand` 노드. `Item` 은 단일 자식 요소를 정의합니다. 예를 들어, 한 `CRect` 필드를 사용 하 여 클래스 `top`, `left`, `right`, 및 `bottom` 다음과 같은 시각화 항목이:
 
@@ -400,7 +400,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 > [!NOTE]
 > 항목 요소의 식이 복합 형식을 가리키는 경우 합니다 **항목** 노드 자체를 확장할 수 있습니다.
 
-####  <a name="BKMK_ArrayItems_expansion"></a> Size
+#### <a name="BKMK_ArrayItems_expansion"></a> Size
 `ArrayItems` 노드를 사용하면 Visual Studio 디버거가 형식을 배열로 해석하고 해당 개별 요소를 표시하도록 할 수 있습니다. `std::vector` 에 대한 시각화는 좋은 예입니다.
 
 ```xml
@@ -456,7 +456,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 ![ArrayItems 확장이 있는 2 차원 배열](../debugger/media/dbg_natvis_expand_arrayitems_2d.png "ArrayItems 확장이 있는 2 차원 배열")
 
-####  <a name="BKMK_IndexListItems_expansion"></a> IndexListItems 확장
+#### <a name="BKMK_IndexListItems_expansion"></a> IndexListItems 확장
 
 사용할 수 있습니다 `ArrayItems` 배열 요소는 연속적으로 메모리에 배치 하는 경우에 확장 합니다. 디버거는 포인터를 늘리는 방식으로 다음 요소를 가져옵니다. 인덱스 값 노드를 조작 해야 하는 경우 사용 하 여 `IndexListItems` 노드. 여기에 사용 하 여 시각화 요소는 `IndexListItems` 노드:
 
@@ -478,7 +478,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 >[!NOTE]
 >사용할 수는 `[]` 예를 들어 연산자 `vector[i]`를 사용 하는 1 차원 배열 시각화를 사용 하 여 `IndexListItems`경우에 형식 자체 (예를 들어 `CATLArray`)이이 연산자를 허용 하지 않습니다.
 
-####  <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems 확장
+#### <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems 확장
 
 시각화된 형식이 링크된 목록을 나타내는 경우 디버거에서는 `LinkedListItems` 노드를 사용하여 해당 자식을 표시할 수 있습니다. 에 대 한 다음과 같은 시각화를 `CAtlList` 사용 하 여 입력 `LinkedListItems`:
 
@@ -555,7 +555,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 - `TreeTraverse_Next // Returns nodes in a tree`
 - `TreeTraverse_Skip // Skips nodes in a pending tree traversal`
 
-####  <a name="BKMK_TreeItems_expansion"></a> TreeItems 확장
+#### <a name="BKMK_TreeItems_expansion"></a> TreeItems 확장
  시각화된 형식이 트리를 나타내는 경우 디버거에서는 `TreeItems` 노드를 사용하여 트리를 단계별로 진행하면서 해당 자식을 표시할 수 있습니다. 다음에 대 한 시각화를은 `std::map` 를 사용 하 여 입력을 `TreeItems` 노드:
 
 ```xml
@@ -577,7 +577,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 구문은 비슷합니다는 `LinkedListItems` 노드. `LeftPointer`하십시오 `RightPointer`, 및 `ValueNode` 트리 노드 클래스의 컨텍스트에서 평가 됩니다. `ValueNode` 사용할지 비어 있을 수 있습니다 `this` 를 참조 하는 `TreeItems` 노드 자체.
 
-####  <a name="BKMK_ExpandedItem_expansion"></a> ExpandedItem 확장
+#### <a name="BKMK_ExpandedItem_expansion"></a> ExpandedItem 확장
  `ExpandedItem` 요소 시각화 된 형식의 자식 이었던 것 처럼 기본 클래스 또는 데이터 멤버의 속성을 표시 하 여 집계 된 자식 뷰를 생성 합니다. 디버거가 지정된 된 식을 계산 하 고 결과의 자식 노드가 시각화 된 형식의 자식 목록에 추가 합니다.
 
 예를 들어, 스마트 포인터 형식 `auto_ptr<vector<int>>` 으로 일반적으로 표시 됩니다.
@@ -611,7 +611,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
 이때 파생된 클래스에 대해 시각화 일치를 해제하는 **nd** 형식 지정자가 필요합니다. 이 고, 그렇지 식 `*(CFrameworkElement*)this` 없었다는 `CPanel` 가장 적합 한 시각화를 기본 시각화 형식 일치 규칙 때문에 다시 적용할 수를 고려 합니다. 사용 된 **nd** 형식 지정자를 기본 클래스에 시각화가 없습니다. 기본 클래스 시각화 또는 기본 확장을 사용 하도록 디버거에 지시 합니다.
 
-####  <a name="BKMK_Synthetic_Item_expansion"></a> 가상 항목 확장
+#### <a name="BKMK_Synthetic_Item_expansion"></a> 가상 항목 확장
  `ExpandedItem` 요소는 계층 구조를 제거하여 데이터를 보다 평면적으로 표시하지만 `Synthetic` 노드는 그 반대입니다. 식의 결과 없는 인위적인 자식 요소를 만들 수 있습니다. 인공 요소 자체의 자식 요소를 포함할 수 있습니다. 다음 예의 `Concurrency::array` 형식에 대한 시각화에서는 사용자에게 진단 메시지를 표시하기 위해 `Synthetic` 노드를 사용합니다.
 
 ```xml
@@ -633,7 +633,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 
  ![가상 요소 확장을 사용 하 여 Concurrency::Array](../debugger/media/dbg_natvis_expand_synthetic.png "Concurrency::Array 가상 요소 확장을 사용 하 여")
 
-###  <a name="BKMK_HResult"></a> HResult 요소
+### <a name="BKMK_HResult"></a> HResult 요소
  합니다 `HResult` 요소에 대해 표시 되는 정보를 사용자 지정할 수 있습니다는 **HRESULT** 디버거 창에 있습니다. `HRValue` 요소에는 사용자 지정할 **HRESULT**의 32비트 값이 포함되어 있어야 합니다. `HRDescription` 요소 디버거 창에 표시할 정보를 포함 합니다.
 
 ```xml
@@ -644,7 +644,7 @@ Natvis 시각화에서는 C++ 식을 사용하여 표시할 데이터 항목을 
 </HResult>
 ```
 
-###  <a name="BKMK_UIVisualizer"></a> UIVisualizer 요소
+### <a name="BKMK_UIVisualizer"></a> UIVisualizer 요소
 `UIVisualizer` 요소는 디버거에 그래픽 시각화 도우미 플러그 인을 등록합니다. 그래픽 시각화 도우미 대화 상자나 다른 인터페이스를 보여 주는 변수 또는 개체 방식으로 데이터 형식을 사용 하 여 일치를 만듭니다. 시각화 도우미 플러그 인으로 작성 해야 합니다는 [VSPackage](../extensibility/internals/vspackages.md), 및 디버거가 사용할 수 있는 서비스를 노출 해야 합니다. 합니다 *.natvis* 파일 이름, 노출된 된 서비스 및 시각화할 수 있는 형식의 GUID 같은 플러그 인에 대 한 등록 정보를 포함 합니다.
 
 UIVisualizer 요소의 예는 다음과 같습니다.

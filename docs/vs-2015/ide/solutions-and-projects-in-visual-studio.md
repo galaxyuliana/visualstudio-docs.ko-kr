@@ -50,12 +50,12 @@ caps.latest.revision: 41
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 32b2f33af3c34cf6245e511cbd54d6ce7cc3a2bd
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: cd93fdc527e38b820bc7df6387ca6f8e9078bfd6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54795254"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045331"
 ---
 # <a name="solutions-and-projects-in-visual-studio"></a>Visual Studio의 솔루션 및 프로젝트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,23 +84,23 @@ Visual Studio에서 앱, 애플리케이션, 웹 사이트, 웹앱, 스크립트
 
 ## <a name="in-this-section"></a>섹션 내용
 
--   [솔루션 및 프로젝트 만들기](../ide/creating-solutions-and-projects.md)
+- [솔루션 및 프로젝트 만들기](../ide/creating-solutions-and-projects.md)
 
--   [프로젝트 항목 추가 및 제거](../ide/adding-and-removing-project-items.md)
+- [프로젝트 항목 추가 및 제거](../ide/adding-and-removing-project-items.md)
 
--   [프로젝트 및 솔루션 속성 관리](../ide/managing-project-and-solution-properties.md)
+- [프로젝트 및 솔루션 속성 관리](../ide/managing-project-and-solution-properties.md)
 
--   [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)
+- [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)
 
--   [애플리케이션 속성](../ide/application-properties.md)
+- [애플리케이션 속성](../ide/application-properties.md)
 
--   [어셈블리 및 매니페스트 서명 관리](../ide/managing-assembly-and-manifest-signing.md)
+- [어셈블리 및 매니페스트 서명 관리](../ide/managing-assembly-and-manifest-signing.md)
 
--   [방법: 애플리케이션 아이콘 지정(Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)
+- [방법: 애플리케이션 아이콘 지정(Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)
 
--   [특정 대상 .NET Framework 버전 지정](../ide/targeting-a-specific-dotnet-framework-version.md)
+- [특정 대상 .NET Framework 버전 지정](../ide/targeting-a-specific-dotnet-framework-version.md)
 
--   [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)
+- [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)
 
 ## <a name="see-also"></a>참고 항목
  [Visual Studio IDE](../ide/visual-studio-ide.md)
