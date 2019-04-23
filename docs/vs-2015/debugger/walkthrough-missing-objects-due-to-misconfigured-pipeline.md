@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 800fa29682460991ca28a0dacb6d5b5a4a9838d4
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 01366bfd0f32f9cbf731613339f2c592873e2623
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58971903"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114108"
 ---
 # <a name="walkthrough-missing-objects-due-to-misconfigured-pipeline"></a>연습: 잘못 구성된 파이프라인으로 인해 누락된 개체
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,13 +23,13 @@ ms.locfileid: "58971903"
   
  이 연습에서는 다음 작업을 설명합니다.  
   
--   **그래픽 이벤트 목록** 을 사용하여 문제의 잠재적인 원인을 찾습니다.  
+- **그래픽 이벤트 목록** 을 사용하여 문제의 잠재적인 원인을 찾습니다.  
   
--   **그래픽 파이프라인 단계** 창을 사용하여 `DrawIndexed` Direct3D API 호출의 효과를 검사합니다.  
+- **그래픽 파이프라인 단계** 창을 사용하여 `DrawIndexed` Direct3D API 호출의 효과를 검사합니다.  
   
--   디바이스 컨텍스트를 검사하여 셰이더 단계를 설정하지 않았음을 확인합니다.  
+- 디바이스 컨텍스트를 검사하여 셰이더 단계를 설정하지 않았음을 확인합니다.  
   
--   **그래픽 파이프라인 단계** 창을 **그래픽 이벤트 호출 스택** 과 함께 사용하여 설정되지 않은 픽셀 셰이더의 원본을 찾을 수 있도록 합니다.  
+- **그래픽 파이프라인 단계** 창을 **그래픽 이벤트 호출 스택** 과 함께 사용하여 설정되지 않은 픽셀 셰이더의 원본을 찾을 수 있도록 합니다.  
   
 ## <a name="scenario"></a>시나리오  
  3차원 앱에 개체가 누락된다면, 셰이더 단계 중 하나가 개체 렌더링 전에 설정되지 않아서 누락된 것일 수 있습니다. 간단한 렌더링이 필요한 앱에서 이 오류의 원인은 보통 개체의 그리기 호출의 호출 스택 어딘가에 문제가 있습니다. 그러나 최적화 방법으로서, 일부 앱에서는 상태 변경 오버헤드를 최소화하기 위해 셰이더 프로그램, 질감 또는 기타 데이터를 공통적으로 가지고 있는 개체들을 함께 일괄 처리합니다. 이러한 앱에서, 오류의 원인은 그리기 호출의 호출 스택보다는 일괄 처리 시스템에 있을 수 있습니다. 이 연습의 시나리오에서는 간단한 렌더링이 필요한 앱을 보여 주므로, 오류 원인을 호출 스택에서 찾을 수 있습니다.  

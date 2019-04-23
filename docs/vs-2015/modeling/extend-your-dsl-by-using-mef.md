@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 87b48a1cd5dc791609a2a15d1fcb657b41e9dcc8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5685adb5a10ddc109ec8a4695e1dbfae6d30a6df
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971363"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114251"
 ---
 # <a name="extend-your-dsl-by-using-mef"></a>MEF를 사용하여 DSL 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -137,15 +137,15 @@ ms.locfileid: "58971363"
   
 3. 다음.NET 어셈블리에 대 한 참조를 추가 합니다.  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.11.0.dll  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll  
   
-   -   System.ComponentModel.Composition.dll  
+   - System.ComponentModel.Composition.dll  
   
-   -   System.Windows.Forms.dll  
+   - System.Windows.Forms.dll  
   
 4. 동일한 솔루션에서 VSIX 프로젝트를 만듭니다. 이 수행 하는 **새 프로젝트** 대화 상자에서 **Visual Basic** 하거나 **Visual C#**, 클릭 **확장성**를 선택한 다음  **VSIX 프로젝트**합니다.  
   
