@@ -6,17 +6,16 @@ ms.assetid: 22725520-59ba-4f6f-80e4-097b1287a34b
 caps.latest.revision: 14
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 52310ffb0a3c08f652f4d628db1c047a5d0417d6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 623e47e7244e9e4317e89f47cfda02bda465273b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54772037"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670292"
 ---
 # <a name="setup-install-and-verifications-for-mac-users"></a>Mac 사용자용 설정, 설치 및 확인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 항목은 Mac에서 주로 작업하고 Mac의 Windows 가상 머신 내부에서 선택적으로 Visual Studio를 사용하는 개발자를 위해 제공됩니다. 주로 Windows 컴퓨터에서 작업하는 개발자가 iOS를 대상으로 하도록 보조 Mac을 설정해야 하면 기본 [설정 및 설치](../cross-platform/setup-and-install.md) 항목을 참조하세요.  
   
  Mac에서 Xamarin을 사용하려면 다음이 필요합니다.  
@@ -33,7 +32,7 @@ ms.locfileid: "54772037"
   
   이 항목에서는 이러한 요구 사항에 대한 지침을 제공합니다.  설치 프로세스가 실행되는 동안 [Xamarin을 사용한 모바일 개발에 대해 알아보기](../cross-platform/learn-about-mobile-development-with-xamarin.md) 항목을 검토하여 필요한 배경 자료를 읽고 살펴볼 수 있습니다.  
   
-  **항목 내용**  
+  **항목 내용:**  
   
 - [Mac 설치(Apple ID, Xcode 및 Xamarin)](#mac)  
   

@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 610ba4b805f2e8737f7b142e02158b80f51c529d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 92a0b432e75cb8df6318be0961cc587257869b27
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635971"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041960"
 ---
 # <a name="word-object-model-overview"></a>Word 개체 모델 개요
   Visual Studio에서 Word 솔루션을 개발하는 경우 Word 개체 모델을 조작합니다. 이 개체 모델은 Word용 주 interop 어셈블리에 제공되고 <xref:Microsoft.Office.Interop.Word> 네임스페이스에서 제공되는 클래스 및 인터페이스로 구성됩니다.
@@ -33,13 +33,13 @@ ms.locfileid: "56635971"
 
  Word 개체 모델을 사용하여 특정 작업을 수행하는 방법에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [문서 작업](../vsto/working-with-documents.md)
+- [문서 작업](../vsto/working-with-documents.md)
 
--   [문서 텍스트 작업](../vsto/working-with-text-in-documents.md)
+- [문서 텍스트 작업](../vsto/working-with-text-in-documents.md)
 
--   [테이블 작업](../vsto/working-with-tables.md)
+- [테이블 작업](../vsto/working-with-tables.md)
 
-##  <a name="understanding"></a> Word 개체 모델 이해
+## <a name="understanding"></a> Word 개체 모델 이해
  Word는 조작할 수 있는 수백 개의 개체를 제공합니다. 이러한 개체는 사용자 인터페이스와 유사한 계층 구조로 구성됩니다. 계층 구조의 맨 위에는 <xref:Microsoft.Office.Interop.Word.Application> 개체가 있습니다. 이 개체는 Word의 현재 인스턴스를 나타냅니다. <xref:Microsoft.Office.Interop.Word.Application> 개체에는 <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Word.Selection>, <xref:Microsoft.Office.Interop.Word.Bookmark>및 <xref:Microsoft.Office.Interop.Word.Range> 개체가 포함되어 있습니다. 이러한 각 개체에는 개체를 조작하고 상호 작용하기 위해 액세스할 수 있는 여러 메서드와 속성이 있습니다.
 
  다음 그림에서는 Word 개체 모델의 계층 구조에서 이러한 개체 보기 중 하나를 보여 줍니다.
@@ -115,7 +115,7 @@ ms.locfileid: "56635971"
 
   Visual Studio는 <xref:Microsoft.Office.Interop.Word.Bookmark> 호스트 컨트롤을 제공하여 <xref:Microsoft.Office.Tools.Word.Bookmark> 개체를 확장합니다. <xref:Microsoft.Office.Tools.Word.Bookmark> 호스트 컨트롤은 네이티브 <xref:Microsoft.Office.Interop.Word.Bookmark>처럼 동작하지만 추가 이벤트 및 데이터 바인딩 기능이 있습니다. Windows Form의 텍스트 상자 컨트롤에 데이터를 바인딩하는 것과 동일한 방식으로 문서의 책갈피 컨트롤에 데이터를 바인딩할 수 있습니다. 자세한 내용은 [Bookmark 컨트롤](../vsto/bookmark-control.md)합니다.
 
-##  <a name="WordOMDocumentation"></a> Word 개체 모델 설명서 사용
+## <a name="WordOMDocumentation"></a> Word 개체 모델 설명서 사용
  Word 개체 모델에 대한 자세한 내용은 Word PIA(주 interop 어셈블리) 참조 및 VBA(Visual Basic for Applications) 개체 모델 참조를 참조할 수 있습니다.
 
 ### <a name="primary-interop-assembly-reference"></a>주 interop 어셈블리 참조

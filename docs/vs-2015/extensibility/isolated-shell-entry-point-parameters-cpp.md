@@ -1,5 +1,5 @@
 ---
-title: 격리 셸 진입점 매개 변수 (c + +) | Microsoft Docs
+title: 격리 셸 진입점 매개 변수 (C++) | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-sdk
@@ -11,14 +11,14 @@ ms.assetid: 18f4b18b-2173-4afa-ba0a-42fe33e61118
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 313632661c3f73fdbd0f23616a068913c77508f8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6089c4ef32ef0d0b0bce081cef6d16bd569c0901
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986423"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041953"
 ---
-# <a name="isolated-shell-entry-point-parameters-c"></a>격리 셸 진입점 매개 변수 (c + +)
+# <a name="isolated-shell-entry-point-parameters-c"></a>격리 셸 진입점 매개 변수 (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio 셸 기반 응용 프로그램을 시작 하는 경우 Visual Studio shell의 시작 진입점을 호출 합니다. 셸 시작 진입점에 대 한 호출에서 다음 설정은 재정의할 수 있습니다. 각 설정에 대 한 참조 [합니다. Pkgdef 파일](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)합니다.  
@@ -79,17 +79,17 @@ typedef int (__cdecl *STARTFCN)(LPSTR, LPWSTR, int, GUID *, WCHAR *pszSettings);
   
  부울 설정에 대 한 다음 문자열을 나타내는 값이 true입니다. 다른 모든 문자열 값 false를 나타냅니다. 이러한 문자열 대/소문자를 구분 하지 않습니다.  
   
--   \+  
+- \+  
   
--   1  
+- 1  
   
--   -1  
+- -1  
   
--   On  
+- On  
   
--   true  
+- true  
   
--   예  
+- 예  
   
 ## <a name="example"></a>예제  
  추가 기능을 사용 하지 않도록 설정 하 고 응용 프로그램에 대 한 기본 프로젝트 위치를 변경 하려면 "AddinsAllowed=false;DefaultProjectsLocation=%USERPROFILE%\temp" 마지막 매개 변수를 설정할 수 있습니다.  

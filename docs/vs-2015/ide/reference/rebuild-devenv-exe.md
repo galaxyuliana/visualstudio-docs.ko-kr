@@ -15,12 +15,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c59e6b50a38348f1588d237e318369c3c668d017
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 72818a3bdb4f983326c95b10cfe4e6af4445cc2f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659464"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60037948"
 ---
 # <a name="rebuild-devenvexe"></a>/Rebuild (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,11 +48,11 @@ devenv SolutionName /rebuild SolnConfigName [/project ProjName] [/projectconfig 
   
 ## <a name="remarks"></a>주의  
   
--   이 스위치는 IDE(통합 개발 환경)내에서 **솔루션 다시 빌드** 메뉴 명령과 동일한 기능을 수행합니다.  
+- 이 스위치는 IDE(통합 개발 환경)내에서 **솔루션 다시 빌드** 메뉴 명령과 동일한 기능을 수행합니다.  
   
--   공백을 포함하는 문자열은 큰따옴표로 묶습니다.  
+- 공백을 포함하는 문자열은 큰따옴표로 묶습니다.  
   
--   오류를 포함한 정리 및 빌드에 대한 요약 정보는 **명령** 창 또는 `/out` 스위치로 지정된 로그 파일에 표시할 수 있습니다.  
+- 오류를 포함한 정리 및 빌드에 대한 요약 정보는 **명령** 창 또는 `/out` 스위치로 지정된 로그 파일에 표시할 수 있습니다.  
   
 ## <a name="example"></a>예제  
  이 예제에서는 `MySolution`의 `Debug` 솔루션 구성 내에 있는 `Debug` 프로젝트 빌드 구성을 사용하여 `CSharpWinApp` 프로젝트를 정리하고 다시 빌드합니다.  

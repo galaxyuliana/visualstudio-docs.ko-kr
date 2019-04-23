@@ -12,12 +12,12 @@ ms.assetid: 2a5f04b8-6c65-4232-bddd-9093653a22c4
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: bb36540aaf6fa30cdcd069fd96a18124daafe2b8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 49fd700120e819bb0b38cb8d91401869a364714c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980579"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039455"
 ---
 # <a name="sample-implementation-of-expression-evaluation"></a>식 계산의 샘플 구현
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,11 +29,11 @@ ms.locfileid: "58980579"
   
  이 구현의 `IDebugExpressionEvaluator::Parse` 다음 작업을 수행 합니다.  
   
-1.  [C + + 전용] 오류가 있는지 확인 하는 식 구문 분석 합니다.  
+1. [C++ 만] 오류가 있는지 확인 하는 식 구문 분석 합니다.  
   
-2.  클래스를 인스턴스화합니다 (호출 `CParsedExpression` 이 예제의)를 구현 하는 `IDebugParsedExpression` 인터페이스 및 구문 분석할 식 클래스에 저장 합니다.  
+2. 클래스를 인스턴스화합니다 (호출 `CParsedExpression` 이 예제의)를 구현 하는 `IDebugParsedExpression` 인터페이스 및 구문 분석할 식 클래스에 저장 합니다.  
   
-3.  반환 된 `IDebugParsedExpression` 에서 인터페이스를 `CParsedExpression` 개체입니다.  
+3. 반환 된 `IDebugParsedExpression` 에서 인터페이스를 `CParsedExpression` 개체입니다.  
   
 > [!NOTE]
 >  이 예제에서는 MyCEE 샘플에서는 식 계산기 계산에서 구문 분석을 분리 하지 않습니다.  

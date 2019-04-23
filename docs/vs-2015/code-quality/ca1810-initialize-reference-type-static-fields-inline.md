@@ -15,12 +15,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 2722286af0d4c95fec30593047bedf1fe0ba4d2d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: dd0372ca3264bedd6fbb17ef3c8326471cb6e99f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983952"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60037870"
 ---
 # <a name="ca1810-initialize-reference-type-static-fields-inline"></a>CA1810: 참조 형식 정적 필드를 인라인으로 초기화하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,9 +42,9 @@ ms.locfileid: "58983952"
 
  정적 생성자 검사로 인해 성능이 저하될 수 있습니다. 종종 정적 생성자는 초기화만 있는지 확인 해야 해당 정적 초기화 하는 경우 정적 필드의 첫 번째 액세스 하기 전에 발생 하는 정적 필드에만 사용 됩니다. `beforefieldinit` 동작은 이러한 및 대부분의 다른 형식에 적합 합니다. 이 적절 한 정적 초기화 전역 상태에 영향을 다음 중 하나가 true 인 경우:
 
--   전역 상태에 대 한 영향 비용이 많이 드는지 및 형식을 사용 하지 않는 경우 필요 하지 않습니다.
+- 전역 상태에 대 한 영향 비용이 많이 드는지 및 형식을 사용 하지 않는 경우 필요 하지 않습니다.
 
--   전역 상태 정보는 형식의 정적 필드에 액세스 하지 않고 액세스할 수 있습니다.
+- 전역 상태 정보는 형식의 정적 필드에 액세스 하지 않고 액세스할 수 있습니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결하려면 모든 정적 데이터를 선언할 때 초기화하고 정적 생성자를 제거합니다.

@@ -11,12 +11,12 @@ ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: dcf653654005b75a889bcafd668fbb9313572ff2
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 1cdd172c2960024da8b12735764161d36498c4e2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002433"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039144"
 ---
 # <a name="deploying-custom-start-pages"></a>사용자 지정 시작 페이지 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,9 +57,9 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
   
 ##### <a name="to-create-an-all-users-deployment"></a>모든 사용자 배포를 만들려면  
   
-1.  코드 뷰에서 extension.vsixmanifest 파일을 엽니다.  
+1. 코드 뷰에서 extension.vsixmanifest 파일을 엽니다.  
   
-2.  에 `Identifier` vsix 매니페스트의 요소 추가 `AllUsers` 의 값을 가진 요소가 `true`합니다.  
+2. 에 `Identifier` vsix 매니페스트의 요소 추가 `AllUsers` 의 값을 가진 요소가 `true`합니다.  
   
     ```  
     <AllUsers>true</AllUsers>  
@@ -67,9 +67,9 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
   
      이렇게 하면 vsix 설치 관리자를 묻는 메시지를 관리자 권한 및 \Common7\IDE\Extensions에 파일을 설치 합니다.  
   
-3.  .Pkgdef 파일을 엽니다.  
+3. .Pkgdef 파일을 엽니다.  
   
-4.  다음을 추가 하 여 hklm 기본 시작 페이지를 설정 하려면.pkgdef를 수정 합니다. 여기서 *MyStartPage.xaml* 시작 페이지를 포함 하는.xaml 파일의 이름입니다.  
+4. 다음을 추가 하 여 hklm 기본 시작 페이지를 설정 하려면.pkgdef를 수정 합니다. 여기서 *MyStartPage.xaml* 시작 페이지를 포함 하는.xaml 파일의 이름입니다.  
   
      [$RootKey$\StartPage\Default]  
   
@@ -84,11 +84,11 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
   
 #### <a name="to-manually-install-a-custom-start-page"></a>사용자 지정 시작 페이지를 수동으로 설치 하려면  
   
-1.  시작 페이지 태그 어셈블리 이외의 지원 파일과 함께 포함 된.xaml 파일을 복사 하 고 사용자의 \StartPages\ 폴더에 붙여 넣습니다.  
+1. 시작 페이지 태그 어셈블리 이외의 지원 파일과 함께 포함 된.xaml 파일을 복사 하 고 사용자의 \StartPages\ 폴더에 붙여 넣습니다.  
   
-2.  시작 페이지를 어셈블리에 필요한 경우 복사 하 고 붙여넣습니다. \\ *Visual Studio 설치 폴더*\Common7\IDE\PrivateAssemblies\\합니다.  
+2. 시작 페이지를 어셈블리에 필요한 경우 복사 하 고 붙여넣습니다. \\ *Visual Studio 설치 폴더*\Common7\IDE\PrivateAssemblies\\합니다.  
   
-3.  에 **시작 페이지 사용자 지정** 목록에서 합니다 **시작** 옵션 페이지에서 새 시작 페이지를 선택 합니다. 자세한 내용은 [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)을 참조하세요.  
+3. 에 **시작 페이지 사용자 지정** 목록에서 합니다 **시작** 옵션 페이지에서 새 시작 페이지를 선택 합니다. 자세한 내용은 [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)   

@@ -11,17 +11,16 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b1f70f2f33b8ad0af4f0fa13489cb75be529c322
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: e01d73457a0b6bf6da2114a4ae967c25f9953a9a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54803225"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670328"
 ---
 # <a name="how-to-set-ide-accessibility-options"></a>방법: IDE 내게 필요한 옵션 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에는 시각 장애인의 읽기와 손 장애인의 쓰기를 도와주는 기능이 포함되어 있습니다. 또한, 편집기에서 텍스트 크기와 색을 변경하고, 도구 모음에서 텍스트와 단추의 크기를 변경하고, 메서드와 매개 변수를 자동 완성하는 등의 다양한 기능이 제공됩니다.  
   
  또한 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서는 가장 자주 입력되는 문자의 접근성을 높이는 Dvorak 키보드 레이아웃을 지원합니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서 제공되는 기본 바로 가기 키를 사용자 지정할 수도 있습니다. 자세한 내용은 [바로 가기 키 식별 및 사용자 지정](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)을 참조하세요.  

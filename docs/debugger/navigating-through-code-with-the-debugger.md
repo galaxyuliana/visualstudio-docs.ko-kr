@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 05458481a691f74f1746860e537d915dcad90efc
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
-ms.translationtype: MTE95
+ms.openlocfilehash: 5c5a57c41753c8689e83da2a6f8473fa643a657f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428754"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041580"
 ---
 # <a name="navigate-through-code-with-the-visual-studio-debugger"></a>Visual Studio 디버거로 코드 탐색
 
@@ -44,7 +44,7 @@ Visual Studio 디버거는 앱의 상태를 검사 하 고 해당 실행 흐름�
 
 항상 시작 부분에 앱을 시작 하 여 디버깅을 시작할 필요가 없습니다. 누를 수도 있습니다 **F11** 에 [코드로 단계](#BKMK_Step_into__over__or_out_of_the_code), 키를 누릅니다 **F10** 에 [코드 건너뛰기](#BKMK_Step_over_Step_out), 또는 [특정 위치까지 실행 또는 함수](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All)합니다.
 
-##  <a name="step-through-code"></a>단계별 코드 실행
+## <a name="step-through-code"></a>단계별 코드 실행
 
 디버거 단계 명령을 쉽게 앱 상태를 검사할 해당 실행 흐름에 대해 자세히 알아봅니다.
 
@@ -75,7 +75,7 @@ Visual Studio 디버거는 앱의 상태를 검사 하 고 해당 실행 흐름�
 >[!TIP]
 >변수를 해당 값을 확인 하거나 마우스로 가리키면 각 코드 줄을 실행 하는 [지역](autos-and-locals-windows.md) 및 [조사식](watch-and-quickwatch-windows.md) 변경 값을 조사 하려면 windows. 함수를 한 단계씩 실행 하는 동안 호출 스택을 시각적으로 추적할 수 있습니다. 참조 [디버깅 하는 동안 호출 스택의 메서드 매핑](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)합니다.
 
-###  <a name="BKMK_Step_over_Step_out"></a> 코드를 통해 단계를 건너뛸 일부 함수
+### <a name="BKMK_Step_over_Step_out"></a> 코드를 통해 단계를 건너뛸 일부 함수
 
 디버깅 하는 동안 함수에 대 한 중요 하지 않을 수 있습니다 또는 알고 작동 검증된 라이브러리 코드와 같은 합니다. 코드를 통해 표시 하지 않으려면 다음 명령을 사용할 수 있습니다. 함수는 계속 실행 되지만, 디버거는 해당 건너뜁니다.
 
@@ -84,7 +84,7 @@ Visual Studio 디버거는 앱의 상태를 검사 하 고 해당 실행 흐름�
 |**F10**|**프로시저 단위 실행**|현재 줄에 함수 호출이 포함 되어 있으면 **프로시저 단위 실행** 코드를 실행 한 다음 호출된 된 함수가 반환 후 코드의 첫 번째 줄에서 실행을 일시 중단 합니다.|
 |**Shift**+**F11**|**프로시저 나가기**|**프로시저 나가기** 계속 코드를 실행 하 고 현재 함수가 반환 될 때 실행을 일시 중단 합니다. 디버거는 현재 함수를 통해 건너뜁니다.|
 
-##  <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> 특정 위치 또는 함수까지 실행
+## <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> 특정 위치 또는 함수까지 실행
 
 정확 하 게 검사 하 고 원하는 코드를 알고 있는 경우 특정 위치 또는 함수에 직접 실행 하는 것이 좋습니다 또는 디버깅을 시작 하려는 위치를 알 수 있습니다.
 
@@ -139,7 +139,7 @@ Visual Studio에서 중단점은 조건부 중단점 및 추적점과 같은 다
 
 실행 중인 앱에서 코드의 사용 가능한 다음 줄에서 중단 하려면 **디버그** > **모두 중단**를 누르거나 **Ctrl**+**Alt**  + **중단**합니다.
 
-##  <a name="BKMK_Set_the_next_statement_to_execute"></a> 실행 흐름 변경에 대 한 포인터를 이동 합니다.
+## <a name="BKMK_Set_the_next_statement_to_execute"></a> 실행 흐름 변경에 대 한 포인터를 이동 합니다.
 
 디버거가 일시 중지 하는 동안 소스 코드의 여백에 있는 노란색 화살표 또는 **디스어셈블리** 창 실행한 다음 문으로의 위치를 표시 합니다. 이 화살표를 이동 하 여 실행한 다음 문을 변경할 수 있습니다. 코드의 일부를 건너뛸 수도 있고 이전 줄으로 반환할 수 있습니다. 포인터를 이동 하는 것은 알려진된 버그를 포함 하는 코드의 섹션을 건너 뛰 려는 경우에 유용 합니다.
 
@@ -181,10 +181,10 @@ Microsoft 기호를 로드 하려면 참조 [기호 위치를 구성 하 고 로
 
 1. 에 **모듈** 창에서 확인할 수 있습니다는 기호가 로드 된 모듈을 합니다 **기호 상태** 열입니다. 선택한 기호를 로드 하려는 모듈을 마우스 오른쪽 단추로 클릭 **기호 로드**합니다.
 
-##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> 한 단계씩 관리 코드의 속성 및 연산자 실행
+## <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> 한 단계씩 관리 코드의 속성 및 연산자 실행
  기본적으로 디버거는 관리 코드의 속성과 연산자를 건너뜁니다. 대부분의 경우 이렇게 하면 더 나은 디버깅 환경이 제공됩니다. 속성 또는 연산자를 한 단계씩 실행을 사용 하도록 설정 하려면 **디버깅할** > **옵션**합니다. **디버깅** > **일반** 페이지에서 **속성 및 연산자 건너뛰기(관리 전용)** 확인란의 선택을 취소합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [디버깅이란?](../debugger/what-is-debugging.md)
 - [디버깅 기술 및 도구](../debugger/write-better-code-with-visual-studio.md)
 - [디버깅 소개](../debugger/debugger-feature-tour.md)

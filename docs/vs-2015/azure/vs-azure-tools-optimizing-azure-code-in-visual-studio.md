@@ -11,12 +11,12 @@ ms.date: 11/11/2016
 ms.author: ghogen
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
-ms.openlocfilehash: ab9a645ac5bb656336ff38114987ff3838c416f9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f9f81b91e0593d42e7792d7596648dc53afd8dd6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982306"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039403"
 ---
 # <a name="optimizing-your-azure-code"></a>Azure 코드 최적화
 Microsoft Azure를 사용하는 앱을 프로그래밍할 경우 클라우드 환경에서 앱 안정성, 동작 및 성능 문제를 방지하기 위해 몇 가지 코딩 방법을 따라야 합니다. Microsoft는 이와 같이 자주 발생하는 문제를 인식 및 식별하고 해결해 주는 Azure 코드 분석 도구를 제공합니다. 이 도구는 Visual Studio에서 NuGet을 통해 다운로드할 수 있습니다.
@@ -216,6 +216,7 @@ while (true)
    }
 }
 ```
+
 ## <a name="consider-using-asynchronous-service-bus-methods"></a>비동기 Service Bus 메서드 사용 고려
 ### <a name="id"></a>ID
 AP2003

@@ -1,5 +1,5 @@
 ---
-title: 'CA3006: 처리 명령 삽입 취약성이 있는지 검토 코드'
+title: 'CA3006: 코드에서 프로세스 명령 주입 취약점에 대해 검토합니다.'
 ms.date: 04/03/2019
 ms.topic: reference
 author: dotpaul
@@ -11,13 +11,13 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: da161e611ca1d802c8da16370907029233bfd785
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018605"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60037987"
 ---
-# <a name="ca3006-review-code-for-process-command-injection-vulnerabilities"></a>CA3006: 처리 명령 삽입 취약성이 있는지 검토 코드
+# <a name="ca3006-review-code-for-process-command-injection-vulnerabilities"></a>CA3006: 코드에서 프로세스 명령 주입 취약점에 대해 검토합니다.
 
 |||
 |-|-|

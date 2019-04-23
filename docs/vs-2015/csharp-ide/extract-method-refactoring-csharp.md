@@ -16,12 +16,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b2d38c46d630f7deccaec8c093c2c4e75456eec0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5a889250e641e004bdb0d89f6965c43c3d6b8e2a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970893"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041400"
 ---
 # <a name="extract-method-refactoring-c"></a>메서드 추출 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,19 +32,19 @@ ms.locfileid: "58970893"
   
  **메서드 추출** 다음과 같은 이점이 있습니다.  
   
--   불연속, 다시 사용할 수 있는 방법을 강조 하 여 최적의 코딩 방식을 권장 합니다.  
+- 불연속, 다시 사용할 수 있는 방법을 강조 하 여 최적의 코딩 방식을 권장 합니다.  
   
--   자체 좋은 구성을 통해 코드를 문서화 하는 것이 좋습니다.  
+- 자체 좋은 구성을 통해 코드를 문서화 하는 것이 좋습니다.  
   
      수 설명이 포함 된 이름을 사용 하는, 높은 수준의 메서드 경우 자세히 같은 일련의 주석입니다.  
   
--   정밀 메서드 재정의 간소화 하기 위해 만드는 것이 좋습니다.  
+- 정밀 메서드 재정의 간소화 하기 위해 만드는 것이 좋습니다.  
   
--   코드 중복을 줄입니다.  
+- 코드 중복을 줄입니다.  
   
 ### <a name="to-use-extract-method"></a>추출 메서드를 사용 하려면  
   
-1.  `ExtractMethod`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
+1. `ExtractMethod`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
   
     ```csharp  
     class A  
@@ -68,13 +68,13 @@ ms.locfileid: "58970893"
     }  
     ```  
   
-2.  추출 하려는 코드 조각을 선택 합니다.  
+2. 추출 하려는 코드 조각을 선택 합니다.  
   
     ```csharp  
     double area = PI * radius * radius;  
     ```  
   
-3.  에 **리팩터링** 메뉴에서 클릭 **메서드 추출**합니다.  
+3. 에 **리팩터링** 메뉴에서 클릭 **메서드 추출**합니다.  
   
      합니다 **메서드 추출** 대화 상자가 나타납니다.  
   
@@ -82,11 +82,11 @@ ms.locfileid: "58970893"
   
      선택한 스키마 코드를 가리킵니다 **리팩터링**를 클릭 하 고 **메서드 추출** 표시 하는 **메서드 추출** 대화 상자.  
   
-4.  와 같이 새 메서드의 이름을 지정 `CircleArea`를 **새 메서드 이름을** 상자입니다.  
+4. 와 같이 새 메서드의 이름을 지정 `CircleArea`를 **새 메서드 이름을** 상자입니다.  
   
      새 메서드 서명 미리 보기가 표시 됩니다 **메서드 서명 미리 보기**합니다.  
   
-5.  **확인**을 클릭합니다.  
+5. **확인**을 클릭합니다.  
   
 ## <a name="remarks"></a>설명  
  사용 하는 경우는 **메서드 추출** 명령을 새 메서드를 동일한 클래스의 소스 멤버 뒤에 삽입 됩니다.  

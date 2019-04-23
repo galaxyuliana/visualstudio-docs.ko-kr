@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bba2a948ef9554434ad1032bcbfb8b54dfe8d4c3
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 2c358f80284083625dfe8c0eb3484c95000beb63
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622724"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670448"
 ---
 # <a name="support-for-user-settings"></a>사용자 설정 지원
 VSPackage를 사용자가 유지 되는 상태 변수 그룹이 있는 하나 이상의 설정 범주를 정의할 수 있습니다 합니다 **설정 가져오기/내보내기** 명령을 합니다 **도구** 메뉴. 이 지 속성을 사용 하려면 설정을 Api 사용에 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]합니다.
@@ -49,7 +49,6 @@ VSPackage를 사용자가 유지 되는 상태 변수 그룹이 있는 하나 �
  ResourcePackage = '{ZZZZZZ ZZZZ ZZZZ ZZZZ ZZZZZZZZZ}'
 
  AlternateParent CategoryName =
-
 
 | 이름 | 형식 | 데이터 | 설명 |
 |-----------------|--------| - | - |

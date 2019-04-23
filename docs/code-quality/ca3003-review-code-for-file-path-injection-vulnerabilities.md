@@ -1,5 +1,5 @@
 ---
-title: 'CA3003: 코드 파일 경로 삽입 취약성이 있는지 검토'
+title: 'CA3003: 코드에서 파일 경로 삽입 취약성에 대해 검토합니다.'
 ms.date: 04/03/2019
 ms.topic: reference
 author: dotpaul
@@ -11,13 +11,13 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: c20d3efb9ea84a7e8bb22288303313ef44b2b795
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018596"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040679"
 ---
-# <a name="ca3003-review-code-for-file-path-injection-vulnerabilities"></a>CA3003: 코드 파일 경로 삽입 취약성이 있는지 검토
+# <a name="ca3003-review-code-for-file-path-injection-vulnerabilities"></a>CA3003: 코드에서 파일 경로 삽입 취약성에 대해 검토합니다.
 
 |||
 |-|-|

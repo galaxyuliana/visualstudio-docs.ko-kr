@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c3ac40bc4ac163b6ab1a6d05b4bec3cedd429aa7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d48a3ad24d094d0ebc822b572f2521eaefae5356
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643095"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039924"
 ---
 # <a name="guidelines-to-create-outlook-form-regions"></a>Outlook 양식 영역 만들기 지침
   다음 정보를 통해 양식 영역을 최적화하고 잠재적인 문제를 방지할 수 있습니다.
@@ -37,7 +37,7 @@ ms.locfileid: "56643095"
 
   [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
-##  <a name="UsingFormRegions"></a> 양식 영역 이름 사용
+## <a name="UsingFormRegions"></a> 양식 영역 이름 사용
  양식 영역을 설명하기 위해 사용하는 여러 가지 이름이 있습니다. 이러한 이름과 이들이 양식 영역에 영향을 미치는 방법 간의 차이점을 이해하는 것이 중요합니다. 다음 표에서는 각 이름에 대해 설명합니다.
 
 |양식 영역 이름|설명|
@@ -46,19 +46,19 @@ ms.locfileid: "56643095"
 |<xref:Microsoft.Office.Tools.Outlook.FormRegionManifest.FormRegionName%2A> 속성|**새 Outlook 양식 영역** 마법사의 **설명 텍스트를 입력하고 디스플레이 기본 설정을 선택하세요.** 페이지에서 이 이름을 지정합니다. 이 이름은 **속성** 창에 **FormRegionName** 속성으로 나타납니다.<br /><br /> <xref:Microsoft.Office.Tools.Outlook.FormRegionManifest.FormRegionName%2A> 속성을 사용하여 Outlook UI(사용자 인터페이스)에서 양식 영역을 식별하는 레이블을 지정합니다. 별도 양식 영역의 경우 이 이름이 Outlook 항목의 리본에 단추로 나타납니다.<br /><br /> 인접한 양식 영역의 경우 이 이름이 양식 영역 위에 머리글 텍스트로 나타납니다.|
 |`Microsoft.Office.Tools.Outlook.FormRegionName` 특성|**Outlook 양식 영역** 항목을 프로젝트에 추가하는 경우 Visual Studio는 이 속성을 양식 영역의 정규화된 이름으로 설정합니다. 기본 정규화된 이름은 VSTO 추가 기능 이름, 점, 양식 영역 이름이 차례로 연결된 이름입니다(예: `OutlookAddIn1.FormRegion1`).<br /><br /> 또한 이 정규화된 이름은 양식 영역 팩터리 클래스의 맨 위에 특성으로 나타납니다.<br /><br /> `Microsoft.Office.Tools.Outlook.FormRegionName` 특성을 사용하여 모든 Outlook VSTO 추가 기능에서 양식 영역을 고유하게 식별합니다. <xref:Microsoft.Office.Tools.Outlook.FormRegionManifest.FormRegionName%2A> 속성을 변경하거나 양식 영역 항목의 이름을 변경하는 방법으로는 `Microsoft.Office.Tools.Outlook.FormRegionName` 특성의 값을 변경할 수 없습니다. 이 이름을 변경하려면 양식 영역 코드 파일의 `Microsoft.Office.Tools.Outlook.FormRegionName` 특성을 수정해야 합니다.|
 
-##  <a name="DisablingInheritance"></a> 양식 영역 상속을 사용 하지 않도록 설정
+## <a name="DisablingInheritance"></a> 양식 영역 상속을 사용 하지 않도록 설정
  기본적으로 사용자 지정 메시지 클래스는 기본 메시지 클래스의 모든 양식 영역 연결을 상속합니다. 예를 들어 `IPM.Task.Contoso`라는 메시지 클래스가 `IPM.Task`에서 파생됩니다. 따라서 `IPM.Task.Contoso`는 `IPM.Task`의 양식 영역 연결을 상속합니다.
 
  양식 영역을 파생된 메시지 클래스와 연결하지 않으려면 양식 영역의 <xref:Microsoft.Office.Tools.Outlook.FormRegionManifest.ExactMessageClass%2A> 속성을 **true**를 참조하세요. 예를 들어 인접 양식 영역을 연결 하는 경우 `IPM.Task` 설정 합니다 <xref:Microsoft.Office.Tools.Outlook.FormRegionManifest.ExactMessageClass%2A> 속성을 **true**, 양식 영역이 표준 작업 양식의 하단에는 추가 합니다. 양식 영역이 사용자 지정된 버전의 표준 작업 양식 하단에는 추가되지 않습니다.
 
-##  <a name="ClassNames"></a> 형식 및 메시지 클래스 이름 이해
+## <a name="ClassNames"></a> 형식 및 메시지 클래스 이름 이해
  Outlook 항목의 형식 이름은 Outlook 항목의 메시지 클래스 이름과 다릅니다. 예를 들어 RSS 항목의 형식 이름은 `Microsoft.Office.Interop.Outlook.PostItem`입니다. RSS 항목의 메시지 클래스 이름은 `IPM.Post.RSS`입니다.
 
  형식 이름을 사용하여 코드의 Outlook 항목을 참조합니다. 형식 이름의 목록을 보려면 참조 [Outlook 메시지 클래스를 사용 하 여 양식 영역 연결](../vsto/associating-a-form-region-with-an-outlook-message-class.md)합니다.
 
  **새 Outlook 양식 영역** 마법사에서 Outlook 항목의 메시지 클래스 이름을 사용하여 항목을 양식 영역과 연결합니다. 올바른 메시지 클래스 이름 목록을 참조 하세요 [Outlook 메시지 클래스를 사용 하 여 양식 영역 연결](../vsto/associating-a-form-region-with-an-outlook-message-class.md)합니다.
 
-##  <a name="ReadingPane"></a> 읽기 창의 인접 양식 영역 디자인
+## <a name="ReadingPane"></a> 읽기 창의 인접 양식 영역 디자인
  Outlook 읽기 창을 사용하여 항목을 열지 않고도 Outlook 항목을 미리 볼 수 있습니다. 읽기 창은 읽기 전용으로 설계되어 있습니다. 따라서 항목 및 양식 영역이 읽기 창에서 열리는 경우 인접 양식 영역에 추가하는 입력 컨트롤(예: 텍스트 상자)이 예상대로 동작하지 않을 수 있습니다.
 
  예를 들어 인접 양식 영역을 가진 항목이 읽기 창에서 열려 있으면 다음과 같은 상황이 가능합니다.
@@ -73,7 +73,7 @@ ms.locfileid: "56643095"
 
    또는 양식 영역의 <xref:Microsoft.Office.Tools.Outlook.FormRegionManifest.ShowInspectorRead%2A> 속성을 **False**를 참조하세요. 이렇게 하면 읽기 창에서 양식 영역을 사용할 수 없습니다.
 
-##  <a name="UsingOptimal"></a> 최적 아이콘 크기 사용
+## <a name="UsingOptimal"></a> 최적 아이콘 크기 사용
  **속성** 창의 **아이콘** 속성 그룹에서 아이콘 속성을 설정하여 양식 영역에 표시하려는 아이콘을 지정할 수 있습니다. 가장 좋은 시각적 품질을 달성하려면 다음 지침을 따릅니다.
 
 - **페이지** 아이콘에 대해서는 PNG(이동식 네트워크 그래픽) 파일을 사용합니다.

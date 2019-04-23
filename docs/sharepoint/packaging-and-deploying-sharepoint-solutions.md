@@ -14,25 +14,25 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 297fefddd45b080af236da0b4fe53649e7d630cf
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 4c187865518c9556d63d9e5e632ec5c658fc3e0f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57867566"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040846"
 ---
 # <a name="package-and-deploy-sharepoint-solutions"></a>패키지 및 SharePoint 솔루션 배포
   일반적으로 솔루션 패키지 (.wsp) 파일을 사용 하 여 SharePoint 솔루션을 SharePoint 서버에 배포 됩니다. 기능으로 SharePoint 프로젝트 항목을 구성 하 고 SharePoint 기능을 배포 하는 패키지를 만들려면 Visual Studio를 사용할 수 있습니다.
 
  이 항목에서는 다음 내용에 대해 설명합니다.
 
--   [기능 및 패키지 만들기](#create-features-and-packages)
+- [기능 및 패키지 만들기](#create-features-and-packages)
 
--   [기능 및 패키징 도구 지원](#feature-and-packaging-tool-support)
+- [기능 및 패키징 도구 지원](#feature-and-packaging-tool-support)
 
--   [SharePoint 솔루션 배포](#deploy-sharepoint-solutions)
+- [SharePoint 솔루션 배포](#deploy-sharepoint-solutions)
 
--   [SharePoint 솔루션에서 파일 배포](#deploy-files-in-sharepoint-solutions)
+- [SharePoint 솔루션에서 파일 배포](#deploy-files-in-sharepoint-solutions)
 
 ## <a name="create-features-and-packages"></a>기능 및 패키지 만들기
  Visual Studio를 사용 하 여 관련된 SharePoint 요소를 그룹화 하는 *기능*합니다. 예를 들어 연락처 목록 정의 대 한 기능 목록 정의와 목록 인스턴스를 포함할 수 있습니다. 배포를 위해 단일 기능에 이러한 두 요소를 결합할 수 있습니다. 기능에 대 한 자세한 내용은 참조 하세요. [문서 블록: 기능](http://go.microsoft.com/fwlink/?LinkID=169183)합니다.
@@ -42,11 +42,11 @@ ms.locfileid: "57867566"
 ## <a name="feature-and-packaging-tool-support"></a>기능 및 패키징 도구 지원
  신속 하 게 기능에 쉽게 배포에 대 한 솔루션 패키지 파일을 SharePoint를 구성에 Visual Studio에서 SharePoint 개발 도구를 사용할 수 있습니다. 기능 및 솔루션 패키지를 구성 하려면 다음 도구를 사용할 수 있습니다.
 
--   디자이너 및 패키지 디자이너 기능입니다.
+- 디자이너 및 패키지 디자이너 기능입니다.
 
--   패키징 탐색기, 도구 창입니다.
+- 패키징 탐색기, 도구 창입니다.
 
--   솔루션 탐색기입니다.
+- 솔루션 탐색기입니다.
 
 ### <a name="feature-designer-and-package-designer"></a>기능 디자이너 및 패키지 디자이너
  기능 만들기 하 고, 범위를 설정 하 고, 기능 디자이너를 사용 하 여 다른 기능 종속성으로 표시할 수 있습니다. 디자이너는 또한 각 기능을 설명 하는 최종 XML 파일을 표시 합니다. 자세한 내용은 [만들 SharePoint 기능](../sharepoint/creating-sharepoint-features.md)합니다.

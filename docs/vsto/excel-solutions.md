@@ -26,12 +26,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f96543c3f2cca5c067eea4af4b14bc67d7d129c7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 69616c4406e6a608e406e479e5fc2de2dcbc2844
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600542"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041528"
 ---
 # <a name="excel-solutions"></a>Excel 솔루션
   Visual Studio에서는 Microsoft Office Excel용 VSTO 추가 기능 및 문서 수준 사용자 지정을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. 이러한 솔루션을 사용하여 Excel을 자동화하고, Excel 기능을 확장한 다음 Excel UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. 문서 수준 사용자 지정 및 VSTO 추가 기능 간의 차이점에 대 한 자세한 내용은 참조 하세요. [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.
@@ -43,20 +43,20 @@ ms.locfileid: "56600542"
 
  이 항목에서는 다음 내용에 대해 설명합니다.
 
--   [Excel 자동화](#automating)합니다.
+- [Excel 자동화](#automating)합니다.
 
--   [Excel 용 문서 수준 사용자 지정 개발](#doclevel)합니다.
+- [Excel 용 문서 수준 사용자 지정 개발](#doclevel)합니다.
 
--   [Excel 용 VSTO 추가 기능 개발](#applevel)합니다.
+- [Excel 용 VSTO 추가 기능 개발](#applevel)합니다.
 
--   [Excel의 사용자 인터페이스 사용자 지정](#UI)합니다.
+- [Excel의 사용자 인터페이스 사용자 지정](#UI)합니다.
 
-##  <a name="automating"></a> Excel 자동화
+## <a name="automating"></a> Excel 자동화
  Excel 개체 모델은 Excel 자동화에 사용할 수 있는 다양한 형식을 노출합니다. 예를 들어 프로그래밍 방식으로 차트를 만들고, 워크시트의 서식을 지정하고, 범위 및 셀의 값을 설정할 수 있습니다. 자세한 내용은 [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)합니다.
 
  Visual Studio에서 Excel 솔루션을 개발하는 경우 솔루션에서 *호스트 항목* 및 *호스트 컨트롤* 을 사용할 수도 있습니다. Excel 개체 모델에서 일반적으로 사용되는 특정 개체(예: <xref:Microsoft.Office.Interop.Excel.Worksheet> 및 <xref:Microsoft.Office.Interop.Excel.Range> )를 확장하는 개체입니다. 확장된 개체는 기반이 되는 Excel 개체처럼 동작하지만 개체에 이벤트 및 데이터 바인딩 기능을 더 추가합니다. 자세한 내용은 [확장 된 개체를 사용 하 여 Excel 자동화](../vsto/automating-excel-by-using-extended-objects.md)합니다.
 
-##  <a name="doclevel"></a> Excel 용 문서 수준 사용자 지정 개발
+## <a name="doclevel"></a> Excel 용 문서 수준 사용자 지정 개발
  Microsoft Office Excel용 문서 수준 사용자 지정은 특정 통합 문서와 연결된 어셈블리로 구성됩니다. 어셈블리는 일반적으로 UI를 사용자 지정하고 Excel을 자동화하여 통합 문서를 확장합니다. Excel 자체와 연결된 VSTO 추가 기능과 달리 사용자 지정에 구현하는 기능은 연결된 통합 문서가 Excel에서 열려 있는 경우에만 사용할 수 있습니다.
 
  Excel 용 문서 수준 사용자 지정 프로젝트를 만들려면 Excel 통합 문서 또는 Excel 서식 파일 프로젝트 템플릿을 사용 합니다 **새 프로젝트** Visual Studio의 대화 상자. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "56600542"
 
  이 대 한 자세한 내용은 생성 된 클래스 및 사용할 수 있는 기타 기능을 문서 수준 프로젝트에서 참조 하세요 [문서 수준 사용자 지정 프로그램](../vsto/programming-document-level-customizations.md)합니다.
 
-##  <a name="applevel"></a> Excel 용 VSTO 추가 기능 개발
+## <a name="applevel"></a> Excel 용 VSTO 추가 기능 개발
  Microsoft Office Excel용 VSTO 추가 기능은 Excel에서 로드되는 어셈블리로 구성됩니다. 어셈블리는 일반적으로 UI를 사용자 지정하고 Excel을 자동화하여 Excel을 확장합니다. 특정 통합 문서와 연결 되는 문서 수준 사용자 지정과 달리 VSTO 추가 기능에서 구현 하는 기능은 단일 통합 문서로 제한 되지 않습니다.
 
  Excel 용 VSTO 추가 기능 프로젝트를 만들려면 Excel 통합 문서 또는 Excel 서식 파일 프로젝트 템플릿을 사용 합니다 **새 프로젝트** Visual Studio의 대화 상자. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
@@ -80,7 +80,7 @@ ms.locfileid: "56600542"
 
  에 대 한 자세한 내용은 합니다 `ThisAddIn` 클래스 및 기타 Visual Studio 기능을 VSTO 추가 기능에서 사용할 수 있습니다 참조 [프로그램 VSTO Add-ins](../vsto/programming-vsto-add-ins.md)합니다.
 
-##  <a name="UI"></a> Excel의 사용자 인터페이스
+## <a name="UI"></a> Excel의 사용자 인터페이스
  Excel의 사용자 인터페이스를 사용자 지정하는 여러 가지 방법이 있습니다. 모든 프로젝트 형식에서 사용할 수 있는 옵션도 있고, VSTO 추가 기능 또는 문서 수준 사용자 지정에만 사용할 수 있는 옵션도 있습니다.
 
 ### <a name="options-for-all-project-types"></a>모든 프로젝트 형식에 대 한 옵션

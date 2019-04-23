@@ -13,17 +13,16 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9e058d18c0a7c6d1d3b26a5b379c308d26f790ca
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 9ffc9410d64f58fff771a0e9b251ee1131eaea5e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54783163"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670032"
 ---
 # <a name="updateconfiguration-devenvexe"></a>/Updateconfiguration (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에 시스템의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 패키지를 병합하고 MEF 캐시에서 변경 내용을 확인하도록 알립니다.  
   
 ## <a name="syntax"></a>구문  
@@ -35,7 +34,7 @@ devenv /updateconfiguration
 ## <a name="remarks"></a>주의  
  VSIX 패키지를 설치하는 경우 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서 이 명령을 자동으로 실행합니다. 파일을 패치한 후 `devenv.exe /updateconfiguration`을 실행하여 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서 MEF 캐시를 업데이트하도록 해야 합니다. 이렇게 하면 수정 내용이 적합한지 여부를 평가할 수 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 명령줄은 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에 시스템의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 패키지를 병합하고 MEF 캐시에서 변경 내용을 확인하도록 합니다.  
   
 ```  

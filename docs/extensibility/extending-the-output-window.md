@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 03e7cb1a462c79f498687296afd8c64accfc1458
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 86498adc4d8bce2a7d428b2951764e5d4b8a96a9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56706212"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041082"
 ---
 # <a name="extend-the-output-window"></a>출력 창 확장
 합니다 **출력** 창 집합이 읽기/쓰기 텍스트 창이 있습니다. Visual Studio에 기본 제공 이러한 창이 있습니다. **빌드**는 프로젝트에서 빌드에 대 한 메시지를 통신 하 고 **일반**는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE에 대 한 메시지를 통신 합니다. 프로젝트에 대 한 참조를 가져올는 **빌드** 창을 통해 자동으로 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> 인터페이스 메서드 및 Visual Studio에 대 한 직접 액세스를 제공 합니다 **일반** 통해 창을 <xref:Microsoft.VisualStudio.Shell.Interop.SVsGeneralOutputWindowPane> 서비스입니다. 기본 제공 창 외에도 있습니다 만들고 관리할 수 있습니다 사용자 고유의 사용자 지정 창입니다.
@@ -25,22 +25,22 @@ ms.locfileid: "56706212"
 ## <a name="create-an-extension-that-uses-the-output-pane"></a>출력 창에서 사용 하는 확장명 만들기
  출력 창의 다양 한 측면을 실행 하는 확장을 만들 수 있습니다.
 
-1.  라는 VSIX 프로젝트를 만듭니다 `TestOutput` 메뉴 명령을 사용 하 여 이름이 **TestOutput**합니다. 자세한 내용은 [메뉴 명령을 사용 하 여 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.
+1. 라는 VSIX 프로젝트를 만듭니다 `TestOutput` 메뉴 명령을 사용 하 여 이름이 **TestOutput**합니다. 자세한 내용은 [메뉴 명령을 사용 하 여 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.
 
-2.  다음 참조를 추가 합니다.
+2. 다음 참조를 추가 합니다.
 
-    1.  EnvDTE
+    1. EnvDTE
 
-    2.  EnvDTE80
+    2. EnvDTE80
 
-3.  *TestOutput.cs*, 다음 추가 문을 사용 하 여:
+3. *TestOutput.cs*, 다음 추가 문을 사용 하 여:
 
     ```f#
     using EnvDTE;
     using EnvDTE80;
     ```
 
-4.  *TestOutput.cs*, 삭제 된 `ShowMessageBox` 메서드. 다음 메서드 스텁을 추가 합니다.
+4. *TestOutput.cs*, 삭제 된 `ShowMessageBox` 메서드. 다음 메서드 스텁을 추가 합니다.
 
     ```csharp
     private void OutputCommandHandler(object sender, EventArgs e)
@@ -48,7 +48,7 @@ ms.locfileid: "56706212"
     }
     ```
 
-5.  TestOutput 생성자에서 OutputCommandHandler에 명령 처리기를 변경 합니다. 명령을 추가 하는 파트는 다음과 같습니다.
+5. TestOutput 생성자에서 OutputCommandHandler에 명령 처리기를 변경 합니다. 명령을 추가 하는 파트는 다음과 같습니다.
 
     ```csharp
     OleMenuCommandService commandService = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
@@ -61,7 +61,7 @@ ms.locfileid: "56706212"
     }
     ```
 
-6.  아래 섹션에서는 출력 창 처리 하는 다른 방법을 보여 주는 다른 방법이 있습니다. 본문에 이러한 메서드를 호출할 수는 `OutputCommandHandler()` 메서드. 예를 들어, 다음 코드를 추가 합니다 `CreatePane()` 다음 섹션에서 제공 하는 메서드.
+6. 아래 섹션에서는 출력 창 처리 하는 다른 방법을 보여 주는 다른 방법이 있습니다. 본문에 이러한 메서드를 호출할 수는 `OutputCommandHandler()` 메서드. 예를 들어, 다음 코드를 추가 합니다 `CreatePane()` 다음 섹션에서 제공 하는 메서드.
 
     ```csharp
     private void OutputCommandHandler(object sender, EventArgs e)

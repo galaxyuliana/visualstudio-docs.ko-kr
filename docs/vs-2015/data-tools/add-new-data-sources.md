@@ -19,17 +19,16 @@ caps.latest.revision: 60
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5bbfeafdf60e58031813c2dcd64b2adfcfb9b5b9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 1131f6d569d01787d26bea7dde1c993401ce9580
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971954"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670175"
 ---
 # <a name="add-new-data-sources"></a>새 데이터 원본 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio의.NET data tools의 컨텍스트에서 용어 *데이터 원본* 데이터 저장소에 연결 하 고.NET 응용 프로그램에 데이터를 노출 하는.NET 개체를 가리킵니다. Visual Studio 디자이너에서 데이터베이스 개체를 끌어서 폼에 데이터를 바인딩하는 상용구 코드를 생성 하는 데이터 원본의 출력을 사용할 수는 **데이터 원본** 창입니다. 이 유형의 데이터 원본 수 있습니다.  
   
 -   일부 종류의 데이터베이스와 연결 된 Entity Framework 모델의 클래스입니다.  

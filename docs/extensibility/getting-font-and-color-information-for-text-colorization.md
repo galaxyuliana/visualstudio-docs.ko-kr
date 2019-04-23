@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1f5d66a2baada5841dc6a0edefb6fa759168bcb5
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 1f6e55c99d874bd18f0045746bbab4ac96370bc5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54924086"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60042409"
 ---
 # <a name="get-font-and-color-information-for-text-colorization"></a>텍스트 색 지정에 대 한 글꼴 및 색 정보 가져오기
 렌더링 또는 사용자 인터페이스 (UI) 요소에 컬러로 텍스트를 표시 하는 프로세스는 프로젝트, 기술 및 개발자 환경 설정의 유형에 따라 달라 집니다. 합니다 **글꼴 및 색** 속성 페이지 설정을 저장 합니다.
@@ -31,11 +31,11 @@ ms.locfileid: "54924086"
 
 색을 지정 하는 VSPackage 현재 가져와야 **글꼴 및 색** 설정 합니다. VSPackage는 다음과 같은 방법으로 요구 사항에 따라 현재 설정을 가져올 수 있습니다.
 
--   저장 또는 현재 상태를 검색 하는 글꼴 및 색 지 속성 메커니즘을 사용 합니다. 자세한 내용은 [액세스 글꼴 및 색 설정을 저장](../extensibility/accessing-stored-font-and-color-settings.md)합니다.
+- 저장 또는 현재 상태를 검색 하는 글꼴 및 색 지 속성 메커니즘을 사용 합니다. 자세한 내용은 [액세스 글꼴 및 색 설정을 저장](../extensibility/accessing-stored-font-and-color-settings.md)합니다.
 
--   사용 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider> 글꼴 및 색 데이터의 인스턴스를 제공 하는 서비스의 인터페이스 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>경우 VSPackage 에서도 글꼴 및 색 공급자가 아닙니다.
+- 사용 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider> 글꼴 및 색 데이터의 인스턴스를 제공 하는 서비스의 인터페이스 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>경우 VSPackage 에서도 글꼴 및 색 공급자가 아닙니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 인터페이스를 구현합니다.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 인터페이스를 구현합니다.
 
 되었는지 확인 하려면 폴링을 통해 얻은 결과 최대 날짜는 데 유용할 수 있습니다 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> 업데이트의 검색 메서드를 호출 하기 전에 필요한 경우를 결정 하는 인터페이스를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.
 

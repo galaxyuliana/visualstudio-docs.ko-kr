@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9ed282ba7f3c26aafe9cd2c97be0bfa843cb0103
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 071077c54abe3126febdc098b6860a65ce0fd792
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601488"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041713"
 ---
 # <a name="how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications"></a>방법: ClickOnce 애플리케이션의 클라이언트 컴퓨터에 신뢰할 수 있는 게시자 추가
 신뢰할 수 있는 애플리케이션 배포를 사용하면 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션이 사용자 프롬프트 없이 더 높은 신뢰 수준으로 실행되도록 클라이언트 컴퓨터를 구성할 수 있습니다. 다음 절차에서는 명령줄 도구 CertMgr.exe를 사용하여, 클라이언트 컴퓨터의 신뢰할 수 있는 게시자 저장소에 게시자의 인증서를 추가하는 방법을 보여 줍니다.
@@ -36,36 +36,36 @@ ms.locfileid: "56601488"
 
 ### <a name="to-add-a-certificate-to-the-trusted-publishers-store-under-the-trusted-root"></a>신뢰할 수 있는 루트 아래의 신뢰할 수 있는 게시자 저장소에 인증서를 추가하려면
 
-1.  CA에서 디지털 인증서를 가져옵니다.
+1. CA에서 디지털 인증서를 가져옵니다.
 
-2.  Base64 X.509(*.cer*) 형식으로 인증서를 내보냅니다. 인증서 형식에 대한 자세한 내용은 [인증서 내보내기](http://go.microsoft.com/fwlink/?LinkId=164793)를 참조하세요.
+2. Base64 X.509(*.cer*) 형식으로 인증서를 내보냅니다. 인증서 형식에 대한 자세한 내용은 [인증서 내보내기](http://go.microsoft.com/fwlink/?LinkId=164793)를 참조하세요.
 
-3.  클라이언트 컴퓨터의 명령 프롬프트에서 다음 명령을 실행합니다.
+3. 클라이언트 컴퓨터의 명령 프롬프트에서 다음 명령을 실행합니다.
 
      **certmgr.exe -add certificate.cer -c -s -r localMachine TrustedPublisher**
 
 ### <a name="to-add-a-certificate-to-the-trusted-publishers-store-under-a-different-root"></a>다른 루트 아래의 신뢰할 수 있는 게시자 저장소에 인증서를 추가하려면
 
-1.  CA에서 디지털 인증서를 가져옵니다.
+1. CA에서 디지털 인증서를 가져옵니다.
 
-2.  Base64 X.509(*.cer*) 형식으로 인증서를 내보냅니다. 인증서 형식에 대한 자세한 내용은 [인증서 내보내기](http://go.microsoft.com/fwlink/?LinkId=164793)를 참조하세요.
+2. Base64 X.509(*.cer*) 형식으로 인증서를 내보냅니다. 인증서 형식에 대한 자세한 내용은 [인증서 내보내기](http://go.microsoft.com/fwlink/?LinkId=164793)를 참조하세요.
 
-3.  클라이언트 컴퓨터의 명령 프롬프트에서 다음 명령을 실행합니다.
+3. 클라이언트 컴퓨터의 명령 프롬프트에서 다음 명령을 실행합니다.
 
      **certmgr.exe -add good.cer -c -s -r localMachine Root**
 
      **certmgr.exe -add good.cer -c -s -r localMachine TrustedPublisher**
 
-## <a name="see-also"></a>참고 항목
-- [연습: ClickOnce 애플리케이션 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
+## <a name="see-also"></a>참고자료
+- [연습: 수동으로 ClickOnce 응용 프로그램 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
 - [ClickOnce 애플리케이션 보안](../deployment/securing-clickonce-applications.md)
 - [ClickOnce 애플리케이션의 코드 액세스 보안](../deployment/code-access-security-for-clickonce-applications.md)
 - [ClickOnce 및 Authenticode](../deployment/clickonce-and-authenticode.md)
 - [신뢰할 수 있는 애플리케이션 배포 개요](../deployment/trusted-application-deployment-overview.md)
 - [방법: ClickOnce 보안 설정 사용](../deployment/how-to-enable-clickonce-security-settings.md)
-- [방법: ClickOnce 애플리케이션의 보안 영역 설정](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
-- [방법: ClickOnce 애플리케이션의 사용자 지정 권한 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [방법: 제한된 사용 권한으로 ClickOnce 애플리케이션 디버그](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
-- [방법: ClickOnce 애플리케이션의 클라이언트 컴퓨터에 신뢰할 수 있는 게시자 추가](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
-- [방법: 애플리케이션 및 배포 매니페스트에 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
+- [방법: ClickOnce 응용 프로그램에 대 한 보안 영역 설정](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
+- [방법: ClickOnce 응용 프로그램에 대 한 사용자 지정 권한 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
+- [방법: 제한 된 권한으로 ClickOnce 응용 프로그램 디버그](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [방법: ClickOnce 응용 프로그램에 대 한 클라이언트 컴퓨터에 신뢰할 수 있는 게시자 추가](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
+- [방법: 애플리케이션 및 배포 매니페스트 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
 - [방법: ClickOnce 신뢰 프롬프트 동작 구성](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)

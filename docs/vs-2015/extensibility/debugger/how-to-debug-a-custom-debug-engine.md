@@ -11,12 +11,12 @@ ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5292d2cde8a75a239f7a905d8cf5d80b09a8f61e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7effa937a8faa0a238f8be2505ddf47223010bc1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970725"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039951"
 ---
 # <a name="how-to-debug-a-custom-debug-engine"></a>방법: 사용자 지정 디버그 엔진 디버그
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,21 +31,21 @@ ms.locfileid: "58970725"
   
 ### <a name="debugging-a-custom-debug-engine"></a>사용자 지정 디버그 엔진 디버그  
   
-1.  Msvsmon.exe를 원격 디버그 모니터를 시작 합니다.  
+1. Msvsmon.exe를 원격 디버그 모니터를 시작 합니다.  
   
-2.  합니다 **도구** 메뉴에서 msvsmon.exe 선택 **옵션** 열려는 합니다 **옵션** 대화 상자.  
+2. 합니다 **도구** 메뉴에서 msvsmon.exe 선택 **옵션** 열려는 합니다 **옵션** 대화 상자.  
   
-3.  "인증 없음" 옵션을 선택 하 고 클릭 **확인**합니다.  
+3. "인증 없음" 옵션을 선택 하 고 클릭 **확인**합니다.  
   
-4.  인스턴스를 시작할 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 사용자 지정 DE 프로젝트를 엽니다.  
+4. 인스턴스를 시작할 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 사용자 지정 DE 프로젝트를 엽니다.  
   
-5.  두 번째 인스턴스를 시작 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 는 DE를 시작 하는 사용자 지정 프로젝트를 엽니다 (개발 하는 경우이 일반적으로 VSIP를 설치할 때 설정 된 실험 레지스트리 하이브에서).  
+5. 두 번째 인스턴스를 시작 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 는 DE를 시작 하는 사용자 지정 프로젝트를 엽니다 (개발 하는 경우이 일반적으로 VSIP를 설치할 때 설정 된 실험 레지스트리 하이브에서).  
   
-6.  이 두 번째 인스턴스의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]사용자 지정 프로젝트에서 소스 파일을 로드 하 고 디버그할 프로그램을 시작 합니다. 로드 하거나 중단점이 적중 될 때까지 대기 DE 허용 하는 데는 몇 분 정도 기다립니다.  
+6. 이 두 번째 인스턴스의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]사용자 지정 프로젝트에서 소스 파일을 로드 하 고 디버그할 프로그램을 시작 합니다. 로드 하거나 중단점이 적중 될 때까지 대기 DE 허용 하는 데는 몇 분 정도 기다립니다.  
   
-7.  첫 번째 인스턴스의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (DE 프로젝트)를 선택 **프로세스에 연결** 에서 합니다 **디버그** 메뉴.  
+7. 첫 번째 인스턴스의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (DE 프로젝트)를 선택 **프로세스에 연결** 에서 합니다 **디버그** 메뉴.  
   
-8.  에 **프로세스에 연결** 대화 상자에서 변경 합니다 **전송** 에 **원격 (네이티브만 인증 안 함)** 합니다.  
+8. 에 **프로세스에 연결** 대화 상자에서 변경 합니다 **전송** 에 **원격 (네이티브만 인증 안 함)** 합니다.  
   
 9. 변경 된 **한정자** 컴퓨터의 이름 (참고:는 항목의 기록을 있으므로이 이름을 한 번만 입력 해야) 합니다.  
   
@@ -57,21 +57,21 @@ ms.locfileid: "58970725"
   
 ### <a name="debugging-a-custom-project-type"></a>사용자 지정 프로젝트 형식을 디버깅  
   
-1.  시작 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 일반 레지스트리 하이브 및 부하 프로젝트가 프로젝트 (이 원본인, 프로젝트 형식에서 프로젝트 형식의 인스턴스화 없습니다)를 입력 합니다.  
+1. 시작 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 일반 레지스트리 하이브 및 부하 프로젝트가 프로젝트 (이 원본인, 프로젝트 형식에서 프로젝트 형식의 인스턴스화 없습니다)를 입력 합니다.  
   
-2.  프로젝트 속성을 열고 다음으로 이동 합니다 **디버그** 페이지입니다. 에 대 한는 **명령**, 경로를 입력 합니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE (이것이 기본적으로 *[드라이브]* \Program Files\Microsoft [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 8\Common7\IDE\devenv.exe).  
+2. 프로젝트 속성을 열고 다음으로 이동 합니다 **디버그** 페이지입니다. 에 대 한는 **명령**, 경로를 입력 합니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE (이것이 기본적으로 *[드라이브]* \Program Files\Microsoft [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 8\Common7\IDE\devenv.exe).  
   
-3.  에 대 한 합니다 **명령 인수**, 형식 `/rootsuffix exp` 실험 레지스트리 하이브에서 (VSIP를 설치할 때 만든)에 대 한 합니다.  
+3. 에 대 한 합니다 **명령 인수**, 형식 `/rootsuffix exp` 실험 레지스트리 하이브에서 (VSIP를 설치할 때 만든)에 대 한 합니다.  
   
-4.  **확인** 을 클릭하여 변경 내용을 수락합니다.  
+4. **확인** 을 클릭하여 변경 내용을 수락합니다.  
   
-5.  F5 키를 눌러 프로젝트 형식을 시작 합니다. 두 번째 인스턴스가 시작 됩니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다.  
+5. F5 키를 눌러 프로젝트 형식을 시작 합니다. 두 번째 인스턴스가 시작 됩니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다.  
   
-6.  이 시점에서 프로젝트 형식 소스 코드에서 중단점을 배치할 수 있습니다.  
+6. 이 시점에서 프로젝트 형식 소스 코드에서 중단점을 배치할 수 있습니다.  
   
-7.  두 번째 인스턴스의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], 로드 또는 프로젝트 형식의 새 인스턴스를 만듭니다. 로드 또는 생성 하는 동안 중단점에 도달할 수 있습니다.  
+7. 두 번째 인스턴스의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], 로드 또는 프로젝트 형식의 새 인스턴스를 만듭니다. 로드 또는 생성 하는 동안 중단점에 도달할 수 있습니다.  
   
-8.  프로젝트 형식을 디버그 합니다.  
+8. 프로젝트 형식을 디버그 합니다.  
   
 9. DE 시작 프로세스를 디버깅 하려는 경우를 시작한 후에 독일에 연결 하는 "디버깅을 사용자 지정 디버그 엔진" 절차의 단계를 수행할 수 있습니다. 이렇게 하면 세 개의 인스턴스가 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 실행: 인스턴스화된 프로젝트 형식 및 사용자 장치에 연결 된 세 번째에 대 한 두 번째 프로젝트 형식이 소스에 하나입니다.  
   

@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d4cac8341adb61a6644e7e331f00584c5c341471
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 49e4618e2262575ffaa642d55ae140529f86942b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58325242"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60038472"
 ---
 # <a name="overview-of-the-programming-model-of-sharepoint-tools-extensions"></a>SharePoint의 프로그래밍 모델 개요 도구 확장
   Visual Studio에서 SharePoint 도구의 확장을 만드는 경우 SharePoint 도구에서 노출하는 확장성 인터페이스를 하나 이상 구현하여 시작합니다. 대부분의 경우 SharePoint 도구에서 제공하는 다른 형식을 사용하여 확장에서 기능도 구현합니다. 일부 시나리오에서는 Visual Studio 및 SharePoint에서 제공하는 다른 개체 모델의 형식을 사용할 수도 있습니다. 각 개체 모델의 용도 이해 하 고 SharePoint 도구의 확장을 만들려면 서로 사용 하는 방법을 알고 있어야 합니다.
@@ -45,14 +45,14 @@ ms.locfileid: "58325242"
 ## <a name="understand-the-object-models-that-you-use-in-sharepoint-tools-extensions"></a>SharePoint 도구 확장에서 사용 하는 개체 모델 이해
  SharePoint 도구의 확장을 만들 때 사용할 수 있는 몇 가지 개체 모델은 다음과 같습니다.
 
--   *SharePoint 도구 개체 모델*합니다. 이 개체 모델에서는 SharePoint 도구 확장과 기타 관련 형식을 만들기 위해 구현하는 확장성 인터페이스를 제공합니다.
+- *SharePoint 도구 개체 모델*합니다. 이 개체 모델에서는 SharePoint 도구 확장과 기타 관련 형식을 만들기 위해 구현하는 확장성 인터페이스를 제공합니다.
 
--   *Visual Studio 자동화 및 통합 개체 모델*합니다. 이러한 개체 모델을 사용하여 SharePoint 도구 개체 모델의 범위를 벗어나는 Visual Studio 기능에 액세스할 수 있습니다.
+- *Visual Studio 자동화 및 통합 개체 모델*합니다. 이러한 개체 모델을 사용하여 SharePoint 도구 개체 모델의 범위를 벗어나는 Visual Studio 기능에 액세스할 수 있습니다.
 
     > [!NOTE]
     >  SharePoint 프로젝트 서비스를 사용하여 SharePoint 도구 개체 모델의 일부 개체를 Visual Studio 자동화 및 통합 개체 모델의 개체로 변환하거나 그 반대로 변환할 수 있습니다. 자세한 내용은 [SharePoint 프로젝트 시스템 형식과 기타 Visual Studio 프로젝트 형식 간의 변환](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md)합니다.
 
--   *SharePoint 서버 및 클라이언트 개체 모델*합니다. 이러한 개체 모델을 사용하여 SharePoint 사이트를 수정하여 SharePoint 도구 확장의 컨텍스트에서 SharePoint 사이트의 데이터를 검색할 수 있습니다.
+- *SharePoint 서버 및 클라이언트 개체 모델*합니다. 이러한 개체 모델을 사용하여 SharePoint 사이트를 수정하여 SharePoint 도구 확장의 컨텍스트에서 SharePoint 사이트의 데이터를 검색할 수 있습니다.
 
 ### <a name="sharepoint-tools-object-model"></a>SharePoint 도구 개체 모델
  각 SharePoint 도구 확장에서는 SharePoint 도구 개체 모델의 형식을 사용하여 확장의 핵심 동작 및 기능을 정의합니다. 다음 표에서 포함 된 어셈블리에서이 개체 모델에 포함 된 네임 스페이스를 설명 합니다.

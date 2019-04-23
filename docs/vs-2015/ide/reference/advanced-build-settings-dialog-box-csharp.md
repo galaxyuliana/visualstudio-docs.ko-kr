@@ -13,17 +13,16 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f4336ef93eded7ed1d56a8ee34fff0189813da17
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: bbdbee2043066716cca2646847c42d0878bab385
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54763350"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670201"
 ---
 # <a name="advanced-build-settings-dialog-box-c"></a>고급 빌드 설정 대화 상자(C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **프로젝트 디자이너**의 **고급 빌드 설정** 대화 상자를 사용하여 프로젝트의 고급 빌드 구성 속성을 지정합니다. 이 대화 상자는 [!INCLUDE[csprcs](../../includes/csprcs-md.md)] 프로젝트에만 적용됩니다.  
   
 ## <a name="general"></a>일반  
@@ -51,7 +50,7 @@ ms.locfileid: "54763350"
   **mscorlib.dll을 참조하지 않음**  
   mscorlib.dll을 프로그램으로 가져와 전체 <xref:System> 네임스페이스를 정의할지 여부를 지정합니다. 고유한 <xref:System> 네임스페이스 및 개체를 정의하거나 만들려면 이 상자를 선택합니다. 자세한 내용은 [/nostdlib(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/ec197989-fa49-4725-a455-e06b551eb65f)를 참조하세요.  
   
-## <a name="output"></a>출력  
+## <a name="output"></a>Output  
  다음 옵션을 사용하여 고급 출력 옵션을 지정할 수 있습니다.  
   
  **디버그 정보**  

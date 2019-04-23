@@ -9,12 +9,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6c79a8a0558594e8981959750ebd348b6f9f4d60
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6503efd0fa606042089e26b4cac23adcabdcb6e7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982118"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041018"
 ---
 # <a name="vs-shell-deployment"></a>VS 셸 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,9 +23,9 @@ Visual Studio를 확인할 수는 격리 된 셸 있습니다 도메인 특정 �
   
 ### <a name="to-set-a-visual-studio-shell-as-the-deployment-target"></a>배포 대상으로 한 Visual Studio Shell을 설정 하려면  
   
-1.  에 **DslPackage** 프로젝트를 열고 **source.extension.tt**합니다.  
+1. 에 **DslPackage** 프로젝트를 열고 **source.extension.tt**합니다.  
   
-2.  아래 `<SupportedProducts>` 삽입:  
+2. 아래 `<SupportedProducts>` 삽입:  
   
     ```  
     <IsolatedShell Version="1.0">MyIsolatedShell</IsolatedShell>  

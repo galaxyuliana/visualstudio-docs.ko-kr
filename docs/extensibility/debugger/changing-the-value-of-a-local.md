@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9abd8a08fc8e9dfbf23ad96e1087d4a8d5105ce9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: cf90a2c03112cb2d3a935a9721f455ec976803c7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702696"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041745"
 ---
 # <a name="change-the-value-of-a-local"></a>로컬 값 변경
 > [!IMPORTANT]
@@ -30,13 +30,13 @@ ms.locfileid: "56702696"
 
 2. `IDebugProperty2::SetValueAsString`는 다음 작업을 수행합니다.
 
-   1.  값을 생성 하는 문자열을 평가 합니다.
+   1. 값을 생성 하는 문자열을 평가 합니다.
 
-   2.  연결 된 바인딩합니다 [IDebugField](../../extensibility/debugger/reference/idebugfield.md) 가져올 개체를 [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) 개체입니다.
+   2. 연결 된 바인딩합니다 [IDebugField](../../extensibility/debugger/reference/idebugfield.md) 가져올 개체를 [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) 개체입니다.
 
-   3.  값을 일련의 바이트로 변환합니다.
+   3. 값을 일련의 바이트로 변환합니다.
 
-   4.  호출 [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) 디버깅 중인 프로그램에 액세스할 수 있도록 메모리에 값의 바이트를 배치 하 합니다.
+   4. 호출 [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) 디버깅 중인 프로그램에 액세스할 수 있도록 메모리에 값의 바이트를 배치 하 합니다.
 
 3. Visual Studio를 새로 고칩니다 합니다 **지역** 표시 (참조 [표시 지역](../../extensibility/debugger/displaying-locals.md) 세부 정보에 대 한).
 

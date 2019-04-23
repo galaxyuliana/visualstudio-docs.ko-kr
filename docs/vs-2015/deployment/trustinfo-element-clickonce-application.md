@@ -23,12 +23,12 @@ caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 829ccc02f9532e62bfb62ec21c8188f313c98e59
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ca7e19925288b1509fec08235f546b84b4afffef
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981570"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039131"
 ---
 # <a name="lttrustinfogt-element-clickonce-application"></a>&lt;trustInfo&gt; 요소 (ClickOnce 응용 프로그램)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,28 +81,28 @@ ms.locfileid: "58981570"
 ## <a name="permissionset"></a>PermissionSet  
  필수. 이 요소는 `applicationRequestMinimum` 요소의 자식이며 `IPermission` 요소를 포함합니다. 이 요소에는 다음 특성이 있습니다.  
   
--   `ID`  
+- `ID`  
   
      필수 요소. 권한 집합을 알려 줍니다. 이 특성은 아무 값이나 될 수 있습니다. ID는 `defaultAssemblyRequest` 및 `assemblyRequest` 특성에서 참조됩니다.  
   
--   `version`  
+- `version`  
   
      필수. 권한의 버전을 알려 줍니다. 일반적으로 이 값은 `1`입니다.  
   
 ## <a name="ipermission"></a>IPermission  
  선택 사항입니다. 이 요소는 `PermissionSet` 요소의 자식입니다. `IPermission` 요소는 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]의 권한 클래스를 완전히 알려 줍니다. `IPermission` 요소에는 다음 특성이 있지만 권한 클래스의 속성에 해당하는 추가 특성이 있을 수 있습니다. 특정 권한에 대한 구문을 확인하려면 Security.config 파일에 나열된 예제를 참조하세요.  
   
--   `class`  
+- `class`  
   
      필수 요소. 강력한 이름으로 권한 클래스를 식별합니다. 예를 들어 다음 코드는 `FileDialogPermission` 유형을 알려 줍니다.  
   
      `System.Security.Permissions.FileDialogPermission, mscorlib, Version=1.2.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`  
   
--   `version`  
+- `version`  
   
      필수. 권한의 버전을 알려 줍니다. 일반적으로 이 값은 `1`입니다.  
   
--   `Unrestricted`  
+- `Unrestricted`  
   
      필수. 애플리케이션에 이 권한을 무제한으로 부여할 필요가 있는지 식별합니다. `true`인 경우 권한 부여에 조건이 없습니다. `false`또는 이 특성이 정의되지 않은 경우에는 `IPermission` 태그에 정의된 권한별 특성에 따라 제한됩니다. 다음 권한을 사용합니다.  
   
@@ -122,18 +122,18 @@ ms.locfileid: "58981570"
 ## <a name="defaultassemblyrequest"></a>defaultAssemblyRequest  
  선택 사항입니다. 모든 어셈블리에 부여된 권한 집합을 알려 줍니다. 이 요소는 `applicationRequestMinimum` 요소의 자식이며 다음과 같은 특성이 있습니다.  
   
--   `permissionSetReference`  
+- `permissionSetReference`  
   
      필수 요소. 기본 권한인 권한 집합의 ID를 알려 줍니다. 권한 집합은 `PermissionSet` 요소에서 선언됩니다.  
   
 ## <a name="assemblyrequest"></a>assemblyRequest  
  선택 사항입니다. 특정 어셈블리에 대한 권한을 알려 줍니다. 이 요소는 `applicationRequestMinimum` 요소의 자식이며 다음과 같은 특성이 있습니다.  
   
--   `Name`  
+- `Name`  
   
      필수 요소. 어셈블리 이름을 알려 줍니다.  
   
--   `permissionSetReference`  
+- `permissionSetReference`  
   
      필수. 이 어셈블리에서 필요로 하는 권한 집합의 ID를 식별합니다. 권한 집합은 `PermissionSet` 요소에서 선언됩니다.  
   
@@ -143,7 +143,7 @@ ms.locfileid: "58981570"
 ## <a name="requestedexecutionlevel"></a>requestedExecutionLevel  
  선택 사항입니다. 애플리케이션 요청이 실행되는 보안 수준을 알려 줍니다. 이 요소에는 자식이 없으며 다음과 같은 특성이 있습니다.  
   
--   `Level`  
+- `Level`  
   
      필수. 애플리케이션이 요청하는 보안 수준을 나타냅니다. 가능한 값은 다음과 같습니다.  
   
@@ -155,7 +155,7 @@ ms.locfileid: "58981570"
   
      [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램은 `asInvoker`의 값으로만 설치됩니다. 다른 모든 값을 사용하는 설치는 실패합니다.  
   
--   `uiAccess`  
+- `uiAccess`  
   
      선택 사항입니다. 애플리케이션에서 보호된 사용자 인터페이스 요소에 대한 액세스를 필요로 하는지 여부를 나타냅니다. 값은 `true` 또는 `false`이며, 기본값은 false입니다. 서명된 애플리케이션만 true 값을 가집니다.  
   

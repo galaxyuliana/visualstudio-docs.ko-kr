@@ -13,12 +13,12 @@ caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 84b5ed45bfa7117eec4cbaa86ad9ca4533339d62
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 148da7602d8198a4c85e2a7fbee2107b4e9662d1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002881"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039061"
 ---
 # <a name="whats-new-for-design-in-visual-studio-in-visual-studio-2015"></a>Visual Studio 2015에서 Visual Studio에서 디자인에 대 한 새로운 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +64,7 @@ ms.locfileid: "59002881"
 
 - **아키텍처 탐색기**. 이제 아키텍처 탐색기를 사용하여 다이어그램을 만들 수 없습니다. 하지만 솔루션 탐색기를 사용할 수 있습니다.
 
-##  <a name="VersionSupport"></a> 아키텍처 및 모델링 도구에 대 한 버전 지원
+## <a name="VersionSupport"></a> 아키텍처 및 모델링 도구에 대 한 버전 지원
 
 Visual Studio 2015는 여러 버전에서 사용할 수 있습니다. 이러한 일부 아키텍처 및 모델링 도구에 대 한 지원을 제공 합니다. 다음 표에서는 각 도구의 사용 가능 여부를 보여 줍니다.
 

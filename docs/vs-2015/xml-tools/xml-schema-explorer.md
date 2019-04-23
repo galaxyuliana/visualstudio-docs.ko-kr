@@ -9,17 +9,16 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 59f2c4ba05b0e802f1daa303db0646a94f36fd31
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 575be3277dd7d876b19b9c557643cb05831255a5
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986303"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670435"
 ---
 # <a name="xml-schema-explorer"></a>XML 스키마 탐색기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XML 스키마 탐색기는 XSD(XML 스키마 정의 언어) 스키마 작업을 수행할 수 있도록 Microsoft Visual Studio 및 XML 편집기와 통합되었습니다. XML 스키마 파일을 열면 합니다 **스키마 집합** 노드가 XML 스키마 탐색기에 나타납니다. 대상 파일은 물론 `include` 또는 `import` 문에서 참조되는 모든 파일에 대해 포함된 스키마, 가져온 스키마 또는 다시 정의된 스키마도 모두 XML 스키마 탐색기에 나타납니다.  
   
  XML 스키마 탐색기를 사용하면 다음을 수행할 수 있습니다.  

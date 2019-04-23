@@ -11,27 +11,27 @@ ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: bc4a8de9f93a04fb062954703a1c14b4c4447308
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 484aa854a8e0987bf034e829a3acf02d6d637870
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982404"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60042656"
 ---
 # <a name="registering-the-program"></a>프로그램 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 디버그 엔진에 대 한 포트를을 가져온 후 표시를 [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) 인터페이스는 프로그램을 디버깅을 사용 하도록 설정 하는 다음 단계는 포트를 등록 합니다. 등록 되 면 프로그램은 다음 방법 중 하나에서 디버깅을 위해 제공 됩니다.  
   
--   디버거를 실행 중인 응용 프로그램의 전체 디버깅 제어할 수 있는 프로세스에 연결입니다.  
+- 디버거를 실행 중인 응용 프로그램의 전체 디버깅 제어할 수 있는 프로세스에 연결입니다.  
   
--   -Just-in-time (JIT) 디버깅, 팩트 후 디버거를 독립적으로 실행 되는 프로그램의 디버깅 수 있습니다. 런타임 아키텍처는 오류를 catch 하는 경우 운영 체제 전에 디버거에 알립니다 때나 런타임 환경 메모리와 faulting 프로그램의 리소스를 해제 합니다.  
+- -Just-in-time (JIT) 디버깅, 팩트 후 디버거를 독립적으로 실행 되는 프로그램의 디버깅 수 있습니다. 런타임 아키텍처는 오류를 catch 하는 경우 운영 체제 전에 디버거에 알립니다 때나 런타임 환경 메모리와 faulting 프로그램의 리소스를 해제 합니다.  
   
 ## <a name="registering-procedure"></a>프로시저를 등록합니다.  
   
 #### <a name="to-register-your-program"></a>프로그램을 등록 하려면  
   
-1.  호출 된 [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md) 포트에서 구현 하는 메서드.  
+1. 호출 된 [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md) 포트에서 구현 하는 메서드.  
   
      `IDebugPortNotify2::AddProgramNode` 필요에 대 한 포인터를 [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) 인터페이스입니다.  
   

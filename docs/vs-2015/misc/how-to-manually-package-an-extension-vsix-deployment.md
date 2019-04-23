@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.assetid: d25990e0-e782-4a79-9d9a-1caf3c56c6a2
 caps.latest.revision: 10
 manager: jillfra
-ms.openlocfilehash: 3537879481430490d32ab30f8f6a2f9f7353659b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 81bf6c5ef975d7ce154c1d8bb987e962dfdf4ec2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982139"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040743"
 ---
 # <a name="how-to-manually-package-an-extension-vsix-deployment"></a>방법: 수동으로 확장명 패키지 (VSIX 배포)
 배포를 위해 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 확장을 래핑할 VSIX 패키지를 만들 수 있습니다. 패키지를 만드는 방법에는 다음 세 가지가 있습니다.  
@@ -33,25 +33,25 @@ ms.locfileid: "58982139"
   
 #### <a name="to-manually-create-a-vsix-package"></a>VSIX 패키지를 수동으로 만들려면  
   
-1.  VSIX 스키마에서 지원되는 형식의 Visual Studio 확장을 만듭니다.  
+1. VSIX 스키마에서 지원되는 형식의 Visual Studio 확장을 만듭니다.  
   
-2.  XML 파일을 만들고 이름을 `extension.vsixmanifest`로 지정합니다.  
+2. XML 파일을 만들고 이름을 `extension.vsixmanifest`로 지정합니다.  
   
-3.  VSIX 스키마에 따라 extension.vsixmanifest 파일을 채웁니다. 예제 매니페스트는 [PackageManifest 요소(루트 요소, VSX 스키마)](http://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)를 참조하세요.  
+3. VSIX 스키마에 따라 extension.vsixmanifest 파일을 채웁니다. 예제 매니페스트는 [PackageManifest 요소(루트 요소, VSX 스키마)](http://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)를 참조하세요.  
   
-4.  두 번째 XML 파일을 만들고 이름을 `[Content_Types].xml`로 지정합니다.  
+4. 두 번째 XML 파일을 만들고 이름을 `[Content_Types].xml`로 지정합니다.  
   
-5.  [Content_Types].xml 파일에 지정 된 대로 입력 [구조는 Content_types\].xml 파일](../extensibility/the-structure-of-the-content-types-dot-xml-file.md)합니다.  
+5. [Content_Types].xml 파일에 지정 된 대로 입력 [구조는 Content_types\].xml 파일](../extensibility/the-structure-of-the-content-types-dot-xml-file.md)합니다.  
   
-6.  배포할 확장과 함께 두 XML 파일을 디렉터리에 넣습니다.  
+6. 배포할 확장과 함께 두 XML 파일을 디렉터리에 넣습니다.  
   
      프로젝트 템플릿 또는 항목 템플릿의 경우 템플릿이 포함된 .zip 파일을 XML 파일과 동일한 폴더에 넣습니다. .zip 파일에 XML 파일을 넣지 마세요.  
   
      다른 모든 경우에는 빌드 출력과 동일한 디렉터리에 XML 파일을 넣습니다.  
   
-7.  Windows 탐색기에서 확장 콘텐츠 및 두 개의 XML 파일이 포함된 폴더를 마우스 오른쪽 단추로 클릭하고 **보내기**를 클릭한 다음 **압축(zip) 폴더**를 클릭합니다.  
+7. Windows 탐색기에서 확장 콘텐츠 및 두 개의 XML 파일이 포함된 폴더를 마우스 오른쪽 단추로 클릭하고 **보내기**를 클릭한 다음 **압축(zip) 폴더**를 클릭합니다.  
   
-8.  결과 .zip 파일의 이름을 *Filename*.vsix로 바꿉니다. 여기서 *Filename* 은 패키지를 설치하는 재배포 가능 파일의 이름입니다.  
+8. 결과 .zip 파일의 이름을 *Filename*.vsix로 바꿉니다. 여기서 *Filename* 은 패키지를 설치하는 재배포 가능 파일의 이름입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)   

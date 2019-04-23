@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 387ec5814e0b5a2a8c2169198a3ceebad47e10d4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c2d06098d1643f4c9b5e64206cdf94362a2c97b4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599482"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040148"
 ---
 # <a name="ribbon-overview"></a>리본 개요
   리본 메뉴 관련된 명령을 쉽게 찾을 수 있도록 구성할 수 있는 방법이 있습니다. 명령은 리본 메뉴에 컨트롤로 나타납니다. 컨트롤은으로 구성 된 *그룹* 응용 프로그램 창 위쪽 가장자리의 가로 스트립을 따라. 관련 그룹은 탭에서 구성됩니다.
@@ -93,12 +93,12 @@ ms.locfileid: "56599482"
 ## <a name="add-multiple-ribbon-items-to-a-project"></a>프로젝트에 여러 개의 리본 항목 추가
  단일 프로젝트에 둘 이상의 리본 항목을 추가할 수 있습니다. 이 기능은 다음 두 작업 중 하나를 수행하려는 경우에 유용합니다.
 
--   Outlook 용 리본 만들기 *검사기*. 자세한 내용은 [Outlook에 대 한 리본을 사용자 지정](../vsto/customizing-a-ribbon-for-outlook.md)합니다.
+- Outlook 용 리본 만들기 *검사기*. 자세한 내용은 [Outlook에 대 한 리본을 사용자 지정](../vsto/customizing-a-ribbon-for-outlook.md)합니다.
 
     > [!NOTE]
     >  검사기는 사용자가 메일 메시지 만들기와 같은 특정 작업을 수행할 때 열리는 창입니다.
 
--   런타임에 표시할 리본 메뉴를 선택 합니다.
+- 런타임에 표시할 리본 메뉴를 선택 합니다.
 
 ### <a name="select-which-ribbons-to-display-at-runtime"></a>런타임에 표시할 리본을 선택 합니다.
  프로젝트에서 여러 개의 리본 메뉴를 포함할 수 있으므로 런타임에 표시할 리본 메뉴를 선택할 수 있습니다.

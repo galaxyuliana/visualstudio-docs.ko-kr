@@ -8,12 +8,12 @@ ms.assetid: 5ef1188f-89dc-413d-801d-0efdaf9b0427
 caps.latest.revision: 24
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1e24e9e405dfeab18ca0e55a617857d73ba4234e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 332926de13053339c4e98f2d533d9e39213be4d5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54766973"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040292"
 ---
 # <a name="enable-coded-ui-testing-of-your-controls"></a>컨트롤의 코딩된 UI 테스트 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "54766973"
   
    ![CUIT&#95;Full](../test/media/cuit-full.png "CUIT_Full")  
   
-##  <a name="recordandplayback"></a> 접근성을 구현하여 기록 및 재생, 속성 유효성 검사를 지원  
+## <a name="recordandplayback"></a> 접근성을 구현하여 기록 및 재생, 속성 유효성 검사를 지원  
  코딩된 UI 테스트 빌더는 기록 중 발견된 컨트롤에 대한 정보를 캡처하고 해당 세션을 재생하기 위한 코드를 생성합니다. 컨트롤이 액세스 가능성을 지원하지 않을 경우, 코딩된 UI 테스트 빌더는 화면 좌표를 사용하여 작업(예: 마우스 클릭)을 캡처합니다. 테스트를 재생하면 생성된 코드가 동일 화면 좌표에서 이러한 마우스 클릭을 실행합니다. 테스트를 재생할 때 컨트롤이 화면의 다른 위치에 표시되면 생성된 코드가 컨트롤에 대해 해당 작업을 수행하는 데 실패합니다. 다른 화면 구성 또는 다른 환경에서 테스트를 재생하거나 UI 레이아웃이 변경된 다음에 재생할 경우에는 작업이 실패할 수 있습니다.  
   
  ![CUIT&#95;RecordNoSupport](../test/media/cuit-recordnosupport.png "CUIT_RecordNoSupport")  
@@ -46,7 +46,7 @@ ms.locfileid: "54766973"
   
  ![CUIT&#95;Accessible](../test/media/cuit-accessible.png "CUIT_Accessible")  
   
-1.  <xref:System.Windows.Forms.Control.ControlAccessibleObject>에서 파생되는 클래스를 구현하고 클래스의 개체를 반환하도록 <xref:System.Windows.Forms.Control.AccessibilityObject%2A> 속성을 재정의합니다.  
+1. <xref:System.Windows.Forms.Control.ControlAccessibleObject>에서 파생되는 클래스를 구현하고 클래스의 개체를 반환하도록 <xref:System.Windows.Forms.Control.AccessibilityObject%2A> 속성을 재정의합니다.  
   
     ```csharp  
     public partial class ChartControl : UserControl  
@@ -71,16 +71,16 @@ ms.locfileid: "54766973"
     }  
     ```  
   
-2.  액세스 가능한 개체의 <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> 및 <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> 속성과 메서드를 재정의합니다.  
+2. 액세스 가능한 개체의 <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> 및 <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> 속성과 메서드를 재정의합니다.  
   
-3.  자식 컨트롤에 대해 또 다른 액세스 가능성 개체를 구현하고 이 액세스 가능성 개체를 반환하도록 자식 컨트롤의 <xref:System.Windows.Forms.Control.AccessibilityObject%2A> 속성을 재정의합니다.  
+3. 자식 컨트롤에 대해 또 다른 액세스 가능성 개체를 구현하고 이 액세스 가능성 개체를 반환하도록 자식 컨트롤의 <xref:System.Windows.Forms.Control.AccessibilityObject%2A> 속성을 재정의합니다.  
   
-4.  자식 컨트롤의 액세스 가능성 개체에 대해 <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A> 및 <xref:System.Windows.Forms.AccessibleObject.Select%2A> 속성과 메서드를 재정의합니다.  
+4. 자식 컨트롤의 액세스 가능성 개체에 대해 <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A> 및 <xref:System.Windows.Forms.AccessibleObject.Select%2A> 속성과 메서드를 재정의합니다.  
   
 > [!NOTE]
 >  이 항목에서는 이 절차의 <xref:System.Windows.Forms.AccessibleObject>에 있는 액세스 가능성 샘플로부터 시작해서 남은 절차의 설명에 따라 빌드합니다. 액세스 가능성 샘플의 작동 가능 버전을 만들려면 콘솔 애플리케이션을 만들고 Program.cs의 코드를 샘플 코드로 바꿉니다. Accessibility, System.Drawing 및 System.Windows.Forms에 대한 참조를 추가해야 합니다. 빌드 경고를 제거하려면 Accessibility에 대한 **Interop 형식 포함**을 **False**로 변경해야 합니다. 프로젝트의 출력 형식을 **콘솔 애플리케이션**에서 **Windows 애플리케이션**으로 변경하면 애플리케이션을 실행할 때 콘솔 창이 표시되지 않습니다.  
   
-##  <a name="customproprties"></a> 속성 공급자를 구현하여 사용자 지정 속성의 유효성 검사를 지원  
+## <a name="customproprties"></a> 속성 공급자를 구현하여 사용자 지정 속성의 유효성 검사를 지원  
  기록 및 재생과 속성 유효성 검사를 위한 기본 지원을 구현한 다음에는 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> 플러그인을 구현해서 코딩된 UI 테스트에서 컨트롤의 사용자 지정 속성을 사용할 수 있도록 지정할 수 있습니다. 예를 들어 다음 절차에서는 코딩된 UI 테스트가 차트 컨트롤의 CurveLegend 자식 컨트롤의 State 속성에 액세스할 수 있도록 속성 공급자를 만듭니다.  
   
  ![CUIT&#95;CustomProps](../test/media/cuit-customprops.png "CUIT_CustomProps")  
@@ -88,7 +88,7 @@ ms.locfileid: "54766973"
 ### <a name="to-support-custom-property-validation"></a>사용자 지정 속성의 유효성 검사를 지원하려면  
  ![CUIT&#95;Props](../test/media/cuit-props.png "CUIT_Props")  
   
-1.  액세스 가능한 개체의 <xref:System.Windows.Forms.AccessibleObject.Description%2A> 속성을 재정의해서 기본 설명(다중 속성을 구현하는 경우에는 여러 설명)과는 세미콜론(;)으로 구분된 설명 문자열에 다양한 속성 값을 전달합니다.  
+1. 액세스 가능한 개체의 <xref:System.Windows.Forms.AccessibleObject.Description%2A> 속성을 재정의해서 기본 설명(다중 속성을 구현하는 경우에는 여러 설명)과는 세미콜론(;)으로 구분된 설명 문자열에 다양한 속성 값을 전달합니다.  
   
     ```csharp  
     public class CurveLegendAccessibleObject : AccessibleObject  
@@ -106,9 +106,9 @@ ms.locfileid: "54766973"
     }  
     ```  
   
-2.  클래스 라이브러리 프로젝트를 만들어서 컨트롤에 대한 UI 테스트 확장명 패키지를 만들고 Accessibility, Microsoft.VisualStudio.TestTools.UITesting, Microsoft.VisualStudio.TestTools.UITest.Common 및 Microsoft.VisualStudio.TestTools.Extension에 대한 참조를 추가합니다. Accessibility에 대한 **Interop 형식 포함**을 **False**로 변경합니다.  
+2. 클래스 라이브러리 프로젝트를 만들어서 컨트롤에 대한 UI 테스트 확장명 패키지를 만들고 Accessibility, Microsoft.VisualStudio.TestTools.UITesting, Microsoft.VisualStudio.TestTools.UITest.Common 및 Microsoft.VisualStudio.TestTools.Extension에 대한 참조를 추가합니다. Accessibility에 대한 **Interop 형식 포함**을 **False**로 변경합니다.  
   
-3.  <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>에서 파생되는 속성 공급자 클래스를 추가합니다.  
+3. <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>에서 파생되는 속성 공급자 클래스를 추가합니다.  
   
     ```csharp  
     using System;  
@@ -127,7 +127,7 @@ ms.locfileid: "54766973"
     }  
     ```  
   
-4.  <xref:System.Collections.Generic.Dictionary%602>에 속성 이름 및 속성 설명을 배치하여 속성 공급자를 구현합니다.  
+4. <xref:System.Collections.Generic.Dictionary%602>에 속성 이름 및 속성 설명을 배치하여 속성 공급자를 구현합니다.  
   
     ```csharp  
     // Define a map of property descriptors for CurveLegend  
@@ -187,7 +187,7 @@ ms.locfileid: "54766973"
     }  
     ```  
   
-5.  어셈블리가 컨트롤 및 해당 자식 항목에 대한 컨트롤 특정 지원을 제공함을 나타내도록 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetControlSupportLevel%2A?displayProperty=fullName>을 재정의합니다.  
+5. 어셈블리가 컨트롤 및 해당 자식 항목에 대한 컨트롤 특정 지원을 제공함을 나타내도록 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetControlSupportLevel%2A?displayProperty=fullName>을 재정의합니다.  
   
     ```csharp  
     public override int GetControlSupportLevel(UITestControl uiTestControl)  
@@ -205,7 +205,7 @@ ms.locfileid: "54766973"
     }  
     ```  
   
-6.  <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider?displayProperty=fullName>의 남아 있는 추상 메서드를 재정의합니다.  
+6. <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider?displayProperty=fullName>의 남아 있는 추상 메서드를 재정의합니다.  
   
     ```csharp  
     public override string[] GetPredefinedSearchProperties(Type specializedClass)  
@@ -240,7 +240,7 @@ ms.locfileid: "54766973"
   
     ```  
   
-7.  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>에서 파생된 확장 패키지 클래스를 추가합니다.  
+7. <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>에서 파생된 확장 패키지 클래스를 추가합니다.  
   
     ```csharp  
     using System;  
@@ -256,7 +256,7 @@ ms.locfileid: "54766973"
     }  
     ```  
   
-8.  어셈블리에 대한 `UITestExtensionPackage` 특성을 정의합니다.  
+8. 어셈블리에 대한 `UITestExtensionPackage` 특성을 정의합니다.  
   
     ```csharp  
     [assembly: Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage(  
@@ -326,7 +326,7 @@ ms.locfileid: "54766973"
 > [!NOTE]
 >  이 확장명 패키지는 "Text" 형식의 모든 컨트롤에 적용됩니다. 같은 형식의 여러 컨트롤을 테스트할 경우, 개별적으로 테스트하고 테스트를 기록할 때 배포되는 확장명 패키지를 관리해야 합니다.  
   
-##  <a name="codegeneration"></a> 사용자 지정 속성에 액세스하기 위해 클래스를 구현하여 코드 생성을 지원  
+## <a name="codegeneration"></a> 사용자 지정 속성에 액세스하기 위해 클래스를 구현하여 코드 생성을 지원  
  코딩된 UI 테스트 빌더는 세션 기록에서 코드를 생성할 때 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl> 클래스를 사용해서 컨트롤에 액세스합니다.  
   
 ```csharp  
@@ -346,7 +346,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
 ### <a name="to-add-a-specialized-class-to-access-your-control"></a>컨트롤에 액세스하는 특수화 클래스를 추가하려면  
  ![CUIT&#95;CodeGen](../test/media/cuit-codegen.png "CUIT_CodeGen")  
   
-1.  <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinControl>에서 파생된 클래스를 구현하고 생성자의 검색 속성 컬렉션에 이 컨트롤의 형식을 추가합니다.  
+1. <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinControl>에서 파생된 클래스를 구현하고 생성자의 검색 속성 컬렉션에 이 컨트롤의 형식을 추가합니다.  
   
     ```csharp  
     public class CurveLegend:WinControl   
@@ -360,7 +360,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
     }  
     ```  
   
-2.  컨트롤의 사용자 지정 속성을 클래스의 속성으로 구현합니다.  
+2. 컨트롤의 사용자 지정 속성을 클래스의 속성으로 구현합니다.  
   
     ```csharp  
     public virtual string State  
@@ -372,7 +372,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
     }  
     ```  
   
-3.  Curve Legend 자식 컨트롤에 대한 새 클래스의 형식을 반환하도록 속성 공급자의 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetSpecializedClass%2A?displayProperty=fullName> 메서드를 재정의합니다.  
+3. Curve Legend 자식 컨트롤에 대한 새 클래스의 형식을 반환하도록 속성 공급자의 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetSpecializedClass%2A?displayProperty=fullName> 메서드를 재정의합니다.  
   
     ```csharp  
     public override Type GetSpecializedClass(UITestControl uiTestControl)   
@@ -389,7 +389,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
     }  
     ```  
   
-4.  새로운 클래스의 PropertyNames 메서드의 형식을 반환하도록 속성 공급자의 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetPropertyNamesClassType%2A> 메서드를 재정의합니다.  
+4. 새로운 클래스의 PropertyNames 메서드의 형식을 반환하도록 속성 공급자의 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.GetPropertyNamesClassType%2A> 메서드를 재정의합니다.  
   
     ```csharp  
     public override Type GetPropertyNamesClassType(UITestControl uiTestControl)  
@@ -406,13 +406,13 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
     }  
     ```  
   
-##  <a name="intentawareactions"></a> 작업 필터를 구현하여 의도 인식 작업을 지원  
+## <a name="intentawareactions"></a> 작업 필터를 구현하여 의도 인식 작업을 지원  
  Visual Studio는 테스트를 기록할 때 각 마우스 및 키보드 이벤트를 캡처합니다. 하지만 일부 경우에는 너무 많은 마우스 및 키보드 이벤트가 포함됨에 따라 작업의 목적이 손실될 수 있습니다. 예를 들어 컨트롤에 자동 완성이 지원될 경우 동일한 마우스 및 키보드 이벤트 집합으로도 다른 환경에서는 테스트를 재생할 때 다른 값이 발생할 수 있습니다. 일련의 키보드 및 마우스 이벤트를 단일 작업으로 대체하는 작업 필터 플러그인을 추가할 수 있습니다. 이 방식을 사용하면 특정 값을 선택하는 일련의 마우스 및 키보드 이벤트를 해당 값을 설정하는 단일 작업으로 대체할 수 있습니다. 이렇게 하면 각 환경 간에 달라지는 자동 완성 기능으로부터 코딩된 UI 테스트를 보호할 수 있습니다.  
   
 ### <a name="to-support-intent-aware-actions"></a>의도 인식 작업을 지원하려면  
  ![CUIT&#95;Actions](../test/media/cuit-actions.png "CUIT_Actions")  
   
-1.  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType%2A> 및 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group%2A> 속성을 재정의하여 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name%2A>에서 파생된 작업 필터 클래스를 구현합니다.  
+1. <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType%2A> 및 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group%2A> 속성을 재정의하여 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name%2A>에서 파생된 작업 필터 클래스를 구현합니다.  
   
     ```csharp  
     internal class MyActionFilter : UITestActionFilter  
@@ -457,7 +457,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
        }  
     ```  
   
-2.  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ProcessRule%2A>을 재정의합니다. 이 예제에서는 두 번 클릭 작업을 단일 클릭 작업으로 바꿉니다.  
+2. <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ProcessRule%2A>을 재정의합니다. 이 예제에서는 두 번 클릭 작업을 단일 클릭 작업으로 바꿉니다.  
   
     ```csharp  
     public override bool ProcessRule(IUITestActionStack actionStack)  
@@ -484,7 +484,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
     }  
     ```  
   
-3.  확장 패키지의 <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService%2A> 메서드에 작업 필터를 추가합니다.  
+3. 확장 패키지의 <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage.GetService%2A> 메서드에 작업 필터를 추가합니다.  
   
     ```csharp  
     public override object GetService(Type serviceType)   
@@ -509,7 +509,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
     }  
     ```  
   
-4.  바이너리를 빌드하고 이를 %ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages에 복사합니다.  
+4. 바이너리를 빌드하고 이를 %ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages에 복사합니다.  
   
 > [!NOTE]
 >  작업 필터는 액세스 가능성 구현 또는 속성 공급자에 종속되지 않습니다.  
@@ -519,24 +519,24 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
   
 #### <a name="to-debug-your-property-provider-or-action-filter"></a>속성 공급자 또는 작업 필터를 디버그하려면  
   
-1.  확장명 패키지의 디버그 버전을 빌드하고, .dll 및 .pdb 파일을 %ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages에 복사합니다.  
+1. 확장명 패키지의 디버그 버전을 빌드하고, .dll 및 .pdb 파일을 %ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages에 복사합니다.  
   
-2.  (디버거가 아닌 위치에서) 애플리케이션을 실행합니다.  
+2. (디버거가 아닌 위치에서) 애플리케이션을 실행합니다.  
   
-3.  코딩된 UI 테스트 빌더를 실행합니다.  
+3. 코딩된 UI 테스트 빌더를 실행합니다.  
   
      `codedUITestBuilder.exe  /standalone`  
   
-4.  디버거를 codedUITestBuilder 프로세스에 연결합니다.  
+4. 디버거를 codedUITestBuilder 프로세스에 연결합니다.  
   
-5.  코드에 중단점을 설정합니다.  
+5. 코드에 중단점을 설정합니다.  
   
-6.  코딩된 UI 테스트 빌더에서, 속성 공급자를 실행하기 위한 어설션을 만들고, 작업 필터를 실행하기 위한 작업을 기록합니다.  
+6. 코딩된 UI 테스트 빌더에서, 속성 공급자를 실행하기 위한 어설션을 만들고, 작업 필터를 실행하기 위한 작업을 기록합니다.  
   
 ## <a name="external-resources"></a>외부 리소스  
   
 ### <a name="guidance"></a>지침  
- [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:System.Windows.Forms.AccessibleObject>   

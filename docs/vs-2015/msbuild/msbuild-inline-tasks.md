@@ -11,17 +11,16 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 03a0dcde4b96afa028a69f5def5cdb52632e5e85
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 33e9bafcba14c65f6f117319180dad7538414885
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54792174"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670305"
 ---
 # <a name="msbuild-inline-tasks"></a>MSBuild 인라인 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild 작업은 일반적으로 <xref:Microsoft.Build.Framework.ITask> 인터페이스를 구현하는 클래스를 컴파일하여 생성됩니다. 자세한 내용은 [작업](../msbuild/msbuild-tasks.md)을 참조하세요.  
   
  .NET Framework 버전 4부터 프로젝트 파일에서 인라인으로 작업을 만들 수 있습니다. 작업을 호스트할 별도의 어셈블리를 만들 필요가 없습니다. 따라서 소스 코드를 추적하기 위해 더 쉽고 작업을 배포하기도 더 쉽습니다. 소스 코드는 스크립트에 통합됩니다.  
@@ -164,7 +163,7 @@ Log.LogError("Hello, world!");
   
   `Code` 요소에 `Fragment` 또는 `Method`의 `Type` 특성이 있는 경우 모든 매개 변수에 대해 자동으로 속성이 만들어집니다. 그렇지 않으면 작업 소스 코드에서 속성을 명시적으로 선언해야 하며 이러한 속성은 해당 매개 변수 정의와 정확히 일치해야 합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 인라인 작업은 지정된 파일에서 나오는 모든 토큰을 지정된 값으로 바꿉니다.  
   
 ```  

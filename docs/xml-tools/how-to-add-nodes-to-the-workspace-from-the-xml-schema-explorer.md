@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 578a50d8fae4047b6e36338f8067561c9e4e9636
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f38760e6a04bd9e88fd4ff6e8c9d31f30ba27647
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935903"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60037756"
 ---
 # <a name="how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer"></a>방법: XML 스키마 탐색기에서 작업 영역에 노드 추가
 
@@ -24,35 +24,35 @@ ms.locfileid: "55935903"
 
 ## <a name="to-add-nodes-through-the-xml-explorer-context-menu"></a>XML 탐색기 상황에 맞는 메뉴를 통해 노드를 추가 하려면
 
-1.  단계에 따라 [방법: XSD 스키마 파일 만들기 및 편집](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md)합니다.
+1. 단계에 따라 [방법: XSD 스키마 파일 만들기 및 편집](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md)합니다.
 
-2.  마우스 오른쪽 단추로 클릭는 `PurchaseOrderType` XSD 탐색기에서 노드. 선택 **그래프 뷰로 표시**합니다.
+2. 마우스 오른쪽 단추로 클릭는 `PurchaseOrderType` XSD 탐색기에서 노드. 선택 **그래프 뷰로 표시**합니다.
 
      그래프 뷰의 디자인 화면에 `purchaseOrderType` 노드가 나타납니다.
 
 ## <a name="to-drag-and-drop-a-node-on-to-a-view"></a>노드를 뷰로 끌어서 놓으려면
 
-1.  마우스 오른쪽 단추로 클릭는 `PurchaseOrderType` 그래프 뷰에서 노드. 선택 **XML 스키마 탐색기에 표시**합니다.
+1. 마우스 오른쪽 단추로 클릭는 `PurchaseOrderType` 그래프 뷰에서 노드. 선택 **XML 스키마 탐색기에 표시**합니다.
 
      노드는 강조 표시 합니다 **XML 스키마 탐색기**합니다.
 
-2.  마우스 오른쪽 단추로 클릭 합니다 `PurchaseOrderType` 에서 노드를 **XML 스키마 탐색기** 선택한 **대 한 모든 참조 표시**.
+2. 마우스 오른쪽 단추로 클릭 합니다 `PurchaseOrderType` 에서 노드를 **XML 스키마 탐색기** 선택한 **대 한 모든 참조 표시**.
 
      `purchaseOrder` 노드가 강조 표시됩니다.
 
-3.  `purchaseOrder` 노드를 그래픽 뷰로 끕니다.
+3. `purchaseOrder` 노드를 그래픽 뷰로 끕니다.
 
      `purchaseOrder` 노드 및 `PurchaseOrderType` 노드가 그래프 뷰의 디자인 화면에 나란히 나타납니다. 이 두 노드는 서로 관련되어 있으므로(`purchaseOrder` 요소가 `PurchaseOrderType` 형식임) 두 노드 사이에 화살표가 그려집니다.
 
 ## <a name="to-add-nodes-using-the-schema-explorer-search-capability"></a>스키마 탐색기 검색 기능을 사용하여 노드를 추가하려면
 
-1.  검색 텍스트 상자에 "purchaseOrder"를 입력 합니다 [XML 탐색기](../xml-tools/xml-schema-explorer.md) 도구 모음 및 검색 단추를 클릭 합니다.
+1. 검색 텍스트 상자에 "purchaseOrder"를 입력 합니다 [XML 탐색기](../xml-tools/xml-schema-explorer.md) 도구 모음 및 검색 단추를 클릭 합니다.
 
      ![XML 스키마 탐색기 키워드 검색](../xml-tools/media/schemaexplorersearch.gif)
 
      검색 결과에서 강조 표시 됩니다는 **XML 스키마 탐색기** 및 세로 스크롤 막대의 눈금 표시로 나타납니다.
 
-2.  검색 결과 클릭 하 여 작업 영역에 추가 합니다 **작업 영역에 선택한 노드 추가** 요약 결과 창에서 단추입니다.
+2. 검색 결과 클릭 하 여 작업 영역에 추가 합니다 **작업 영역에 선택한 노드 추가** 요약 결과 창에서 단추입니다.
 
      ![XML 스키마 탐색기 검색 결과](../xml-tools/media/schemaexplorersearchresult.gif)
 

@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8ed8e7366b438d152abbd6faef91e3f3a0707a61
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 54af4da8ccfff04ed51f19b9265659897281f26d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54756011"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670461"
 ---
 # <a name="introduction-to-wpf"></a>WPF 소개
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ WPF(Windows Presentation Foundation)를 사용하면 시각적으로 뛰어난 �
   
 - 디자이너가 애플리케이션의 동작을 구현하는 개발자와 동시에 애플리케이션의 모양을 구현할 수 있으므로 개발이 보다 효율적입니다.  
   
-- WPF 애플리케이션에 대한[전역화 및 지역화](https://msdn.microsoft.com/library/ms788718\(v=vs.100\).aspx) 가 간소화됩니다.  
+- WPF 응용 프로그램에 대한[전역화 및 지역화](https://msdn.microsoft.com/library/ms788718\(v=vs.100\).aspx) 가 간소화됩니다.  
   
   다음은 WPF 태그 및 코드 숨김에 대한 간략한 소개입니다.  
   
@@ -137,7 +137,7 @@ End Namespace
   
 ```  
   
- 이 예제에서 코드 숨김은 <xref:System.Windows.Window> 클래스에서 파생된 클래스를 구현합니다. `x:Class` 특성은 태그를 코드 숨김 클래스와 연결하는 데 사용됩니다. `InitializeComponent`는 코드 숨김 클래스를 사용하여 태그에서 정의된 UI를 병합하기 위해 코드 숨김 클래스의 생성자에서 호출됩니다. `InitializeComponent`는 애플리케이션을 빌드할 때 자동으로 생성되므로 직접 구현할 필요가 없습니다. `x:Class` 및 `InitializeComponent`를 조합하면 구현을 만들 때마다 올바르게 초기화됩니다. 코드 숨김 클래스는 단추의 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 이벤트에 대한 이벤트 처리기도 구현합니다. 단추를 클릭하면 이벤트 처리기가 <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> 메서드를 호출하여 메시지 상자를 표시합니다.  
+ 이 예제에서 코드 숨김은 <xref:System.Windows.Window> 클래스에서 파생된 클래스를 구현합니다. `x:Class` 특성은 태그를 코드 숨김 클래스와 연결하는 데 사용됩니다. `InitializeComponent`는 코드 숨김 클래스를 사용하여 태그에서 정의된 UI를 병합하기 위해 코드 숨김 클래스의 생성자에서 호출됩니다. `InitializeComponent`는 응용 프로그램을 빌드할 때 자동으로 생성되므로 직접 구현할 필요가 없습니다. `x:Class` 및 `InitializeComponent`를 조합하면 구현을 만들 때마다 올바르게 초기화됩니다. 코드 숨김 클래스는 단추의 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 이벤트에 대한 이벤트 처리기도 구현합니다. 단추를 클릭하면 이벤트 처리기가 <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> 메서드를 호출하여 메시지 상자를 표시합니다.  
   
  다음 그림은 단추를 클릭할 때의 결과를 보여 줍니다.  
   
@@ -248,7 +248,7 @@ End Namespace
 ##  <a name="Graphics"></a> 그래픽  
  WPF는 다음과 같은 이점이 있는 광범위하고 확장 가능하며 유연한 그래픽 집합을 도입합니다.  
   
--   **해상도 및 디바이스 독립적인 그래픽**. WPF 그래픽 시스템의 기본 측정 단위는 실제 화면 해상도에 관계없이 1/96인치인 디바이스 독립적 픽셀이며, 해상도 및 디바이스 독립적인 렌더링을 위한 토대를 제공합니다. 각 디바이스 독립적 픽셀은 렌더링되는 시스템의 dpi(인치당 도트 수) 설정에 맞게 자동으로 확장됩니다.  
+-   **해상도 및 장치 독립적인 그래픽**. WPF 그래픽 시스템의 기본 측정 단위는 실제 화면 해상도에 관계없이 1/96인치인 디바이스 독립적 픽셀이며, 해상도 및 디바이스 독립적인 렌더링을 위한 토대를 제공합니다. 각 디바이스 독립적 픽셀은 렌더링되는 시스템의 dpi(인치당 도트 수) 설정에 맞게 자동으로 확장됩니다.  
   
 -   **향상된 정밀도**. WPF 좌표계는 단정밀도 대신 배정밀도 부동 소수점 숫자로 측정됩니다. 변환 및 불투명도 값도 배정밀도로 표현됩니다. 또한 WPF는 광범위한 색 영역(scRGB)을 지원하며 여러 색 공간의 입력을 관리하기 위한 통합 지원을 제공합니다.  
   
@@ -346,7 +346,7 @@ End Namespace
   
   자세한 내용은 [Windows Presentation Foundation의 입력 체계](https://msdn.microsoft.com/library/ms742190\(v=vs.100\).aspx)를 참조하세요.  
   
-##  <a name="WPF_Customization"></a> WPF 애플리케이션 사용자 지정  
+##  <a name="WPF_Customization"></a> WPF 응용 프로그램 사용자 지정  
  지금까지 애플리케이션을 개발하기 위한 핵심 WPF 구성 요소를 살펴봤습니다. 애플리케이션 모델을 사용하여 주로 컨트롤로 구성된 애플리케이션 콘텐츠를 호스트 및 제공합니다. 사용자 인터페이스에서 컨트롤 정렬을 간소화하고 창 크기 및 디스플레이 설정이 변경되어도 정렬이 유지되도록 하기 위해 WPF 레이아웃 시스템을 사용합니다. 대부분의 애플리케이션은 사용자의 데이터 조작을 허용하므로 데이터 바인딩을 사용하여 사용자 인터페이스와 데이터 통합 작업을 줄입니다. 애플리케이션의 시각적 모양을 개선하려면 WPF에서 제공하는 광범위한 그래픽, 애니메이션 및 미디어 지원을 사용합니다.  
   
  하지만 기본 사항이 고유하고 시각적으로 멋진 사용자 환경을 만들고 관리하는 데 충분하지 않은 경우도 많습니다. 표준 WPF 컨트롤이 원하는 애플리케이션 모양과 통합되지 않을 수 있습니다. 데이터가 가장 효율적인 방식으로 표시되지 않을 수도 있습니다. 애플리케이션의 전반적인 사용자 환경이 Windows 테마의 기본 모양과 느낌에 적합하지 않을 수 있습니다. 여러 측면에서 프레젠테이션 기술은 다른 종류의 확장성만큼 시각적 확장성을 필요로 합니다.  
@@ -485,8 +485,7 @@ End Namespace
   [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../snippets/visualbasic/VS_Snippets_Wpf/IntroToWPFSnippets/VisualBasic/NumericUpDown.xaml.vb#usercontrolcodebehind1)]  
   [!code-csharp[IntroToWPFSnippets#UserControlCODEBEHIND2](../snippets/csharp/VS_Snippets_Wpf/IntroToWPFSnippets/CSharp/NumericUpDown.xaml.cs#usercontrolcodebehind2)]
   [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND2](../snippets/visualbasic/VS_Snippets_Wpf/IntroToWPFSnippets/VisualBasic/NumericUpDown.xaml.vb#usercontrolcodebehind2)]  
-  
-  
+
  다음 예제에서는 사용자 정의 컨트롤을 <xref:System.Windows.Window>에 통합하는 데 필요한 XAML을 보여 줍니다.  
   
  [!code-xml[IntroToWPFSnippets#UserControlWindowMARKUP1](../snippets/csharp/VS_Snippets_Wpf/IntroToWPFSnippets/CSharp/UserControlWindow.xaml#usercontrolwindowmarkup1)]  
@@ -506,7 +505,7 @@ End Namespace
   
 -   [WPF 전역화 및 지역화 개요](https://msdn.microsoft.com/library/ms788718\(v=vs.100\).aspx)  
   
--   [WPF 애플리케이션 성능 최적화](https://msdn.microsoft.com/library/aa970683\(v=vs.100\).aspx)  
+-   [WPF 응용 프로그램 성능 최적화](https://msdn.microsoft.com/library/aa970683\(v=vs.100\).aspx)  
   
 -   [Windows Presentation Foundation 보안](https://msdn.microsoft.com/library/aa970906\(v=vs.100\).aspx)  
   
@@ -519,5 +518,5 @@ End Namespace
   
 ## <a name="see-also"></a>참고 항목  
  [WPF 시작](../designers/getting-started-with-wpf.md)   
- [Windows Presentation Foundation으로 최신 데스크톱 애플리케이션 만들기](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)   
+ [Windows Presentation Foundation으로 최신 데스크톱 응용 프로그램 만들기](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)   
  [Windows Presentation Foundation](https://msdn.microsoft.com/library/ms754130\(v=vs.100\).aspx)

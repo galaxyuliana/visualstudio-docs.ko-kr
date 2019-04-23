@@ -16,12 +16,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7664c94f626b639f4d0330b938777d545128847d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 96d65ae615522bcee43ddf5e8181e96eecc0d958
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986053"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040859"
 ---
 # <a name="error-windows-file-sharing-has-been-configured"></a>오류: Windows 파일 공유가 구성되었음...
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,16 +36,16 @@ ms.locfileid: "58986053"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-1.  다른 계정 이름을 사용하여 로컬 컴퓨터 즉, 디버깅하고 있는 컴퓨터에 로그온합니다.  
+1. 다른 계정 이름을 사용하여 로컬 컴퓨터 즉, 디버깅하고 있는 컴퓨터에 로그온합니다.  
   
      또는  
   
      . 원격 컴퓨터와의 연결을 끊고 사용자의 계정 이름을 사용하여 다른 컴퓨터에 연결하도록 파일 공유를 다시 구성합니다.  
   
-    1.  **시작** 메뉴에서 **보조 프로그램**을 가리킨 다음, **명령 프롬프트**를 클릭합니다.  
+    1. **시작** 메뉴에서 **보조 프로그램**을 가리킨 다음, **명령 프롬프트**를 클릭합니다.  
   
-    2.  Windows 명령 프롬프트에 다음과 같이 입력합니다.  
+    2. Windows 명령 프롬프트에 다음과 같이 입력합니다.  
   
          `net use /delete computer_name`  
   
-    3.  Windows 도움말에 문서화된 방법을 사용하여 파일 공유 설정을 변경합니다.
+    3. Windows 도움말에 문서화된 방법을 사용하여 파일 공유 설정을 변경합니다.

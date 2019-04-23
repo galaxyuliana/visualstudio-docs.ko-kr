@@ -22,12 +22,12 @@ caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 281ce4ed9f56121ab607aeb49c3ee5b20d5ebe02
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c22989b48c05884bc92eeb017f3a5e124fbc1fec
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970946"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039866"
 ---
 # <a name="localizing-clickonce-applications"></a>ClickOnce 응용 프로그램 지역화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,11 +38,11 @@ ms.locfileid: "58970946"
   
  이 항목에서는 다른 문화권에 맞게 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 배포하는 세 가지 방법을 설명합니다.  
   
--   모든 위성 어셈블리를 단일 배포에 포함합니다.  
+- 모든 위성 어셈블리를 단일 배포에 포함합니다.  
   
--   각 문화권에 대해 각각 단일 위성 어셈블리가 포함된 하나의 배포를 생성합니다.  
+- 각 문화권에 대해 각각 단일 위성 어셈블리가 포함된 하나의 배포를 생성합니다.  
   
--   요청 시 위성 어셈블리를 다운로드합니다.  
+- 요청 시 위성 어셈블리를 다운로드합니다.  
   
 ## <a name="including-all-satellite-assemblies-in-a-deployment"></a>배포에 모든 위성 어셈블리 포함  
  여러 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 게시하지 않고 모든 위성 어셈블리를 포함하는 단일 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 게시할 수 있습니다.  
@@ -77,9 +77,9 @@ ms.locfileid: "58970946"
   
  응용 프로그램을 고객에게 제공하기 전에 지역화된 배포를 테스트하는 세 가지 옵션이 있습니다.  
   
--   해당하는 지역화 버전 Windows에서 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 실행할 수 있습니다.  
+- 해당하는 지역화 버전 Windows에서 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 실행할 수 있습니다.  
   
--   응용 프로그램에서 <xref:System.Threading.Thread.CurrentUICulture%2A> 속성을 프로그래밍 방식으로 설정할 수 있습니다. <xref:System.Windows.Forms.Application.Run%2A> 메서드를 호출하기 전에 이 속성을 설정해야 합니다.  
+- 응용 프로그램에서 <xref:System.Threading.Thread.CurrentUICulture%2A> 속성을 프로그래밍 방식으로 설정할 수 있습니다. <xref:System.Windows.Forms.Application.Run%2A> 메서드를 호출하기 전에 이 속성을 설정해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [\<assemblyIdentity > 요소](../deployment/assemblyidentity-element-clickonce-deployment.md)   

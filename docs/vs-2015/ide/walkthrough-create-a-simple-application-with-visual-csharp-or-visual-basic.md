@@ -9,12 +9,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6c45b62e2fb1d6e104621a7fdc285ca208364a22
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 5286f79f55f2a09122fb551911162bd609ce3bb2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54802618"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040561"
 ---
 # <a name="walkthrough-create-a-simple-application-with-visual-c-or-visual-basic"></a>연습: Visual C# 또는 Visual Basic으로 간단한 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "54802618"
 > [!NOTE]
 >  이 연습은 Visual Studio Professional을 기반으로 하며, 여기서 제공하는 WPF 애플리케이션 템플릿에서 이 연습용 프로젝트를 빌드하게 됩니다. Visual Studio Express for Windows Desktop에서도 이 템플릿을 제공하지만, Visual Studio Express for Windows 및 Visual Studio Express for Web에서는 제공하지 않습니다. Visual Studio Express for Windows 사용 방법에 대한 기본적인 정보는 [Windows 스토어 앱용 개발자 센터](http://msdn.microsoft.com/windows/apps/br229519)를 참조하세요. Visual Studio Express for Web 사용 방법에 대한 기본적인 정보는 [ASP.NET 시작](http://www.asp.net/get-started)을 참조하세요. 또한 사용 중인 Visual Studio 버전과 설정에 따라 일부 사용자 인터페이스 요소의 이름과 위치가 결정됩니다. [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
-##  <a name="BKMK_ConfigureIDE"></a> IDE 구성  
+## <a name="BKMK_ConfigureIDE"></a> IDE 구성  
  Visual Studio를 처음 시작하는 경우 MSA(Microsoft Service Account)로 로그인하라는 [Visual Studio에 로그인](http://blogs.msdn.com/b/visualstudio/archive/2013/06/28/welcome-sign-in-to-visual-studio.aspx)메시지가 표시됩니다. 당장 로그인할 필요는 없으며 나중에 로그인해도 됩니다.  
   
  Visual Studio가 시작되면 다음으로 IDE에는 일련의 미리 정의된 사용자 지정을 적용하는 설정 조합을 선택해야 합니다. 각 설정 조합은 쉽게 애플리케이션을 개발할 수 있도록 설계되었습니다.  
@@ -69,7 +69,7 @@ ms.locfileid: "54802618"
   
    이 연습의 나머지 부분에서 나오는 그림에 사용된 색 테마는 밝은 테마입니다. IDE 사용자 지정에 대한 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
-##  <a name="BKMK_CreateApp"></a> 간단한 애플리케이션 만들기  
+## <a name="BKMK_CreateApp"></a> 간단한 애플리케이션 만들기  
   
 ### <a name="create-the-project"></a>프로젝트를 만듭니다.  
  Visual Studio에서 애플리케이션을 만들 때 먼저 프로젝트와 솔루션을 만들어야 합니다. 이 예제에서는 WPF(Windows Presentation Foundation) 프로젝트를 만듭니다.  
@@ -199,7 +199,7 @@ ms.locfileid: "54802618"
   
 ##### <a name="add-code-to-display-message-boxes"></a>메시지 상자를 표시하는 코드를 추가합니다.  
   
-1.  디자인 화면에서 **표시** 단추를 두 번 클릭합니다.  
+1. 디자인 화면에서 **표시** 단추를 두 번 클릭합니다.  
   
      Greetings.xaml.vb 또는 Greetings.xaml.cs는 Button_Click 이벤트에 커서가 있는 상태에서 열립니다. 또한 다음과 같이 click 이벤트 처리기를 추가할 수도 있습니다. 붙여넣은 코드의 이름 아래에 빨간색 물결 무늬가 있는 경우 디자인 화면에서 RadioButton 컨트롤을 선택하고 이름을 바꾸지 않았을 수 있습니다.  
   
@@ -220,7 +220,7 @@ ms.locfileid: "54802618"
     }  
     ```  
   
-2.  Visual Basic의 경우 다음 코드를 입력합니다.  
+2. Visual Basic의 경우 다음 코드를 입력합니다.  
   
     ```vb  
     If RadioButton1.IsChecked = True Then  
@@ -245,9 +245,9 @@ ms.locfileid: "54802618"
     }  
     ```  
   
-3.  애플리케이션을 저장합니다.  
+3. 애플리케이션을 저장합니다.  
   
-##  <a name="BKMK_DebugTest"></a> 애플리케이션 디버깅 및 테스트  
+## <a name="BKMK_DebugTest"></a> 애플리케이션 디버깅 및 테스트  
  그런 다음 애플리케이션에 오류가 있는지 확인하고 두 메시지 상자가 모두 제대로 나타나는지 테스트하기 위해 애플리케이션을 디버깅합니다. 다음 지침에서는 디버거를 빌드하고 시작하는 방법을 설명하지만 나중에 [WPF 애플리케이션 빌드(WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) 및 [Debugging WPF](../debugger/debugging-wpf.md) 에서 추가 정보를 확인할 수 있습니다.  
   
 ### <a name="find-and-fix-errors"></a>오류 찾기 및 수정  
@@ -280,29 +280,29 @@ ms.locfileid: "54802618"
   
 ##### <a name="to-add-breakpoints"></a>중단점을 추가하려면  
   
-1.  Greetings.xaml.vb 또는 Greetings.xaml.cs를 열고 다음 줄을 선택합니다. `MessageBox.Show("Hello.")`  
+1. Greetings.xaml.vb 또는 Greetings.xaml.cs를 열고 다음 줄을 선택합니다. `MessageBox.Show("Hello.")`  
   
-2.  메뉴에서 **디버그**를 선택한 다음 **중단점 설정/해제**를 선택하여 중단점을 추가합니다.  
+2. 메뉴에서 **디버그**를 선택한 다음 **중단점 설정/해제**를 선택하여 중단점을 추가합니다.  
   
      ![디버그 메뉴의 중단점 설정/해제 명령](../ide/media/exploreide-togglebreakpoint.png "ExploreIDE-ToggleBreakpoint")  
   
      편집기 창의 맨 왼쪽 여백 코드 줄 옆에 빨간색 원이 나타납니다.  
   
-3.  `MessageBox.Show("Goodbye.")`줄을 선택합니다.  
+3. `MessageBox.Show("Goodbye.")`줄을 선택합니다.  
   
-4.  F9 키를 눌러 중단점을 추가한 다음 F5 키를 눌러 디버깅을 시작합니다.  
+4. F9 키를 눌러 중단점을 추가한 다음 F5 키를 눌러 디버깅을 시작합니다.  
   
-5.  **Greetings** 창에서 **Hello** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.  
+5. **Greetings** 창에서 **Hello** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.  
   
      `MessageBox.Show("Hello.")` 줄이 노란색으로 강조 표시됩니다. IDE 하단에 있는 자동, 로컬 및 조사식 창은 모두 왼쪽에 도킹되고 호출 스택, 중단점, 명령, 직접 실행 및 출력 창은 모두 오른쪽에 도킹됩니다.  
   
-6.  메뉴 모음에서 **디버그**, **프로시저 나가기**를 선택합니다.  
+6. 메뉴 모음에서 **디버그**, **프로시저 나가기**를 선택합니다.  
   
      애플리케이션은 실행을 다시 시작하고 "Hello"라는 단어가 포함된 메시지 상자가 나타납니다.  
   
-7.  메시지 상자에서 **확인** 단추를 선택하여 닫습니다.  
+7. 메시지 상자에서 **확인** 단추를 선택하여 닫습니다.  
   
-8.  **Greetings** 창에서 **Goodbye** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.  
+8. **Greetings** 창에서 **Goodbye** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.  
   
      `MessageBox.Show("Goodbye.")` 줄이 노란색으로 강조 표시됩니다.  
   

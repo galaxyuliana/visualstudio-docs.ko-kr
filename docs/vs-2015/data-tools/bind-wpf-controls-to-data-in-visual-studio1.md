@@ -22,12 +22,12 @@ caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d34b973043cf5147fa28c08a37945610a7030268
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 3546da7508767c6766b2caa0c96e6238f4cc6e90
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663013"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039020"
 ---
 # <a name="bind-wpf-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,9 +90,9 @@ ms.locfileid: "59663013"
 
  Visual Studio에서는 다음을 수행하는 XAML을 생성합니다.
 
--   항목을 끌어 온 컨테이너의 리소스에 새 <xref:System.Windows.Data.CollectionViewSource>를 추가합니다. <xref:System.Windows.Data.CollectionViewSource>는 서비스에서 반환하는 개체에 있는 데이터를 탐색하고 표시하는 데 사용할 수 있는 개체입니다.
+- 항목을 끌어 온 컨테이너의 리소스에 새 <xref:System.Windows.Data.CollectionViewSource>를 추가합니다. <xref:System.Windows.Data.CollectionViewSource>는 서비스에서 반환하는 개체에 있는 데이터를 탐색하고 표시하는 데 사용할 수 있는 개체입니다.
 
--   컨트롤에 대한 데이터 바인딩을 만듭니다. 디자이너의 기존 컨트롤로 항목을 끌면 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)]이 컨트롤을 항목에 바인딩합니다. 컨테이너에 항목을 끌면는 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 컨트롤을 만듭니다는 끌어 온된 항목에 대해 선택 하 고 항목 컨트롤에 바인딩합니다. 이 컨트롤은 새로운 <xref:System.Windows.Controls.Grid> 내에 만들어집니다.
+- 컨트롤에 대한 데이터 바인딩을 만듭니다. 디자이너의 기존 컨트롤로 항목을 끌면 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)]이 컨트롤을 항목에 바인딩합니다. 컨테이너에 항목을 끌면는 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 컨트롤을 만듭니다는 끌어 온된 항목에 대해 선택 하 고 항목 컨트롤에 바인딩합니다. 이 컨트롤은 새로운 <xref:System.Windows.Controls.Grid> 내에 만들어집니다.
 
 ### <a name="objects"></a>개체
  개체 또는 속성을 끌면 합니다 **데이터 원본** 창에서 디자이너로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 생성 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 는 데이터 바인딩된 컨트롤을 만듭니다 (또는 기존 컨트롤을 개체나 속성에 바인딩하). 그러나 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프록시 서비스 개체를 데이터로 채우는 코드를 생성하지 않기 때문에 이 코드를 직접 작성해야 합니다.
@@ -102,9 +102,9 @@ ms.locfileid: "59663013"
 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 생성 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 다음을 수행 하는:
 
--   항목을 끌어 온 컨테이너의 리소스에 새 <xref:System.Windows.Data.CollectionViewSource>를 추가합니다. <xref:System.Windows.Data.CollectionViewSource>는 개체에 있는 데이터를 탐색하고 표시하는 데 사용할 수 있는 개체입니다.
+- 항목을 끌어 온 컨테이너의 리소스에 새 <xref:System.Windows.Data.CollectionViewSource>를 추가합니다. <xref:System.Windows.Data.CollectionViewSource>는 개체에 있는 데이터를 탐색하고 표시하는 데 사용할 수 있는 개체입니다.
 
--   컨트롤에 대한 데이터 바인딩을 만듭니다. 디자이너의 기존 컨트롤로 항목을 끌면 XAML이 컨트롤을 항목에 바인딩합니다. 컨테이너에 항목을 끌면는 XAML 끌어 온된 항목에 대해 선택 된 컨트롤 만들고 항목 컨트롤에 바인딩합니다. 이 컨트롤은 새로운 <xref:System.Windows.Controls.Grid> 내에 만들어집니다.
+- 컨트롤에 대한 데이터 바인딩을 만듭니다. 디자이너의 기존 컨트롤로 항목을 끌면 XAML이 컨트롤을 항목에 바인딩합니다. 컨테이너에 항목을 끌면는 XAML 끌어 온된 항목에 대해 선택 된 컨트롤 만들고 항목 컨트롤에 바인딩합니다. 이 컨트롤은 새로운 <xref:System.Windows.Controls.Grid> 내에 만들어집니다.
 
 ## <a name="see-also"></a>참고 항목
  [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)

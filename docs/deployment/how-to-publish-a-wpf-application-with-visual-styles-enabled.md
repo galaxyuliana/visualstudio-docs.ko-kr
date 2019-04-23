@@ -1,5 +1,5 @@
 ---
-title: '방법: 비주얼 스타일을 사용 하도록 설정 하 여 WPF 응용 프로그램 게시 | Microsoft Docs'
+title: '방법: 사용 하도록 설정 하는 비주얼 스타일을 사용 하 여 WPF 응용 프로그램 게시 | Microsoft Docs'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
@@ -8,14 +8,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ef6250e9e413d91c218634e90fe67a4f04b83bce
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
-ms.translationtype: MTE95
+ms.openlocfilehash: 4ed9a9a349f2496343a9a9828cd436d8d4015aa9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953919"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60038129"
 ---
-# <a name="how-to-publish-a-wpf-application-with-visual-styles-enabled"></a>방법: 시각적 개체 스타일을 사용하여 WPF 애플리케이션 게시
+# <a name="how-to-publish-a-wpf-application-with-visual-styles-enabled"></a>방법: 비주얼 스타일을 사용하여 WPF 애플리케이션 게시
 
 비주얼 스타일을 사용자가 선택한 테마에 따라 변경 되는 공용 컨트롤의 모양을 사용 하도록 설정 합니다. 기본적으로 비주얼 스타일을 수동으로 활성화 해야 하므로 Windows Presentation Foundation (WPF) 응용 프로그램에 대 한 사용 되지 않습니다. 그러나 WPF 응용 프로그램에 대 한 비주얼 스타일을 사용 하도록 설정 하 고 다음 솔루션을 게시 하면 오류가 발생 합니다. 이 항목에서는이 오류 및 사용 하도록 설정 하는 비주얼 스타일을 사용 하 여 WPF 응용 프로그램을 게시 하기 위한 프로세스를 해결 하는 방법을 설명 합니다. 비주얼 스타일에 대 한 자세한 내용은 참조 하세요. [비주얼 스타일이 개요](/windows/desktop/Controls/visual-styles-overview)합니다. 오류 메시지에 대 한 자세한 내용은 참조 하세요. [ClickOnce 배포 관련 오류 문제 해결](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)합니다.
 
@@ -31,7 +31,7 @@ ms.locfileid: "56953919"
 
   그런 다음 최종 사용자가 응용 프로그램을 설치 하려는 위치에 게시 된 파일을 이동할 수 있습니다.
 
-##  <a name="publish-the-solution-without-visual-styles-enabled"></a>비주얼 스타일을 사용 하지 않고 솔루션을 게시 합니다.
+## <a name="publish-the-solution-without-visual-styles-enabled"></a>비주얼 스타일을 사용 하지 않고 솔루션을 게시 합니다.
 
 1. 프로젝트가 비주얼 스타일을 사용 하지 않았는지 확인 합니다. 먼저, 다음 XML에 대 한 프로젝트의 매니페스트 파일을 확인 합니다. 그런 다음 XML가 있는 경우에 XML을 주석 태그를 사용 하 여 묶습니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "56953919"
 
          app.manifest 파일이 열립니다는 **코드 편집기**합니다.
 
-    **에 매니페스트 파일을 여는 C# 프로젝트**
+    **C# 프로젝트에서 매니페스트 파일을 열려면**
 
     1. 메뉴 모음에서 **프로젝트**하십시오 *ProjectName* **속성**여기서 *ProjectName* WPF 프로젝트의 이름입니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "56953919"
 
          이 단추 등 제외 되는 일반적으로 숨겨져 있는 모든 프로젝트 항목을 보여 줍니다. 매니페스트 파일을 프로젝트 항목으로 표시 됩니다.
 
-2. 빌드하고 솔루션을 게시 합니다. 솔루션을 게시 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: ClickOnce 응용 프로그램 게시 마법사를 사용 하 여 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)합니다.
+2. 빌드하고 솔루션을 게시 합니다. 솔루션을 게시 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.
 
 ## <a name="create-a-manifest-file"></a>매니페스트 파일 만들기
 
@@ -175,7 +175,7 @@ ms.locfileid: "56953919"
 
    다음이 단계를 수행한 후에 최종 사용자가 응용 프로그램을 설치 하려는 위치에 게시 된 파일을 이동할 수 있습니다. 솔루션을 종종 업데이트 하려는 경우 이러한 명령을 스크립트에 이동할 수 있으며 새 버전을 게시할 때마다 스크립트를 실행 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 -[ClickOnce 배포 관련 오류 문제 해결](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
 - [비주얼 스타일 개요](/windows/desktop/Controls/visual-styles-overview)
