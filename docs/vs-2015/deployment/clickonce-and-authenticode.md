@@ -19,12 +19,12 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6057aa437aa4fc0d14bd21f20e3fa657f5c5c15d
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 0732a5f867b357bddf3ff9f9d83bcfd7dd1f0573
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "59001958"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089083"
 ---
 # <a name="clickonce-and-authenticode"></a>ClickOnce 및 Authenticode
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,11 +40,11 @@ Authenticode *는 업계 표준 암호화를 사용 하 여 응용 프로그램�
   
  세 가지 방법 중 하나로 코드 서명을 위한 인증서를 가져올 수 있습니다.  
   
--   인증서 공급업체에서 인증서를 구매합니다.  
+- 인증서 공급업체에서 인증서를 구매합니다.  
   
--   디지털 인증서를 만드는 조직의 담당 그룹에서 인증서를 받습니다.  
+- 디지털 인증서를 만드는 조직의 담당 그룹에서 인증서를 받습니다.  
   
--   [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]에 포함된 MakeCert.exe로 자체 인증서를 생성합니다.  
+- [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]에 포함된 MakeCert.exe로 자체 인증서를 생성합니다.  
   
 ### <a name="how-using-certificate-authorities-helps-users"></a>인증 기관 사용이 사용자에게 도움이 되는 방법  
  MakeCert.exe 유틸리티를 사용하여 생성된 인증서를 일반적으로 *자체 인증서* 또는 *테스트 인증서*라고 합니다. 이런 종류의 인증서는 .NET Framework에서 작동하는 .snk 파일과 같은 방식으로 작동합니다. 공개/개인 암호화 키 쌍으로만 구성되어 있으며 게시자에 대한 확인 가능한 정보가 포함되어 있지 않습니다. 신뢰 수준이 높은 인트라넷에서 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션을 배포하는 경우 자체 서명 인증서를 사용할 수 있습니다. 그러나 이러한 응용 프로그램을 클라이언트 컴퓨터에서 실행하면 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]는 이를 알 수 없는 게시자에서 온 것으로 식별합니다. 기본적으로 자체 인증서로 서명되고 인터넷을 통해 배포된 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션은 신뢰할 수 있는 애플리케이션 배포를 사용할 수 없습니다.  
@@ -61,15 +61,15 @@ Authenticode *는 업계 표준 암호화를 사용 하 여 응용 프로그램�
 ### <a name="updating-expired-certificates"></a>만료된 인증서 업데이트  
  .NET Framework의 이전 버전에서 인증서가 만료된 애플리케이션을 업데이트하면 해당 애플리케이션의 작동이 중지될 수 있습니다. 이 문제를 해결하려면 다음 방법 중 하나를 사용합니다.  
   
--   .NET Framework를 Windows XP에서는 버전 2.0 SP1 이상으로, Windows Vista에서 버전 3.5 이상으로 업데이트합니다.  
+- .NET Framework를 Windows XP에서는 버전 2.0 SP1 이상으로, Windows Vista에서 버전 3.5 이상으로 업데이트합니다.  
   
--   애플리케이션을 제거하고 유효한 인증서로 새 버전을 다시 설치합니다.  
+- 애플리케이션을 제거하고 유효한 인증서로 새 버전을 다시 설치합니다.  
   
--   인증서를 업데이트하는 명령줄 어셈블리를 만듭니다. 이 프로세스에 대한 단계별 정보는 [Microsoft 지원 문서 925521](http://go.microsoft.com/fwlink/?LinkId=179454)에서 찾을 수 있습니다.  
+- 인증서를 업데이트하는 명령줄 어셈블리를 만듭니다. 이 프로세스에 대한 단계별 정보는 [Microsoft 지원 문서 925521](http://go.microsoft.com/fwlink/?LinkId=179454)에서 찾을 수 있습니다.  
   
 ### <a name="storing-certificates"></a>인증서 저장  
   
--   인증서를 .pfx 파일로 파일 시스템에 저장하거나 키 컨테이너 내부에 저장할 수 있습니다. Windows 도메인의 사용자는 여러 키 컨테이너를 가질 수 있습니다. 사용자가 .pfx에 저장해야 한다고 지정하지 않는 한, 기본적으로 MakeCert.exe는 인증서를 개인 키 컨테이너에 저장합니다. [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] 배포를 만들기 위한 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 도구인 Mage.exe 및 MageUI.exe에서는 어떤 방식으로 저장된 인증서든 사용할 수 있습니다.  
+- 인증서를 .pfx 파일로 파일 시스템에 저장하거나 키 컨테이너 내부에 저장할 수 있습니다. Windows 도메인의 사용자는 여러 키 컨테이너를 가질 수 있습니다. 사용자가 .pfx에 저장해야 한다고 지정하지 않는 한, 기본적으로 MakeCert.exe는 인증서를 개인 키 컨테이너에 저장합니다. [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] 배포를 만들기 위한 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 도구인 Mage.exe 및 MageUI.exe에서는 어떤 방식으로 저장된 인증서든 사용할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)   

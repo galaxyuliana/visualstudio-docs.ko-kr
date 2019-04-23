@@ -13,12 +13,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0ff92e93d2fa15591afddddc1a012ff94b8ba6c0
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 172c5b049e19700d3ce2e4ff1fe43490a2194a92
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656013"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088043"
 ---
 # <a name="how-to-manage-word-wrap-in-the-editor"></a>방법: 편집기에서 줄 바꿈 관리
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,19 +34,19 @@ ms.locfileid: "59656013"
   
 #### <a name="to-set-word-wrap-preferences"></a>자동 줄 바꿈 기본 설정을 설정하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 선택합니다.  
+1. **도구** 메뉴에서 **옵션**을 선택합니다.  
   
-2.  **텍스트 편집기** 폴더의 **모든 언어** 하위 폴더에서 **일반** 옵션을 선택하여 이 옵션을 전역으로 설정합니다.  
+2. **텍스트 편집기** 폴더의 **모든 언어** 하위 폴더에서 **일반** 옵션을 선택하여 이 옵션을 전역으로 설정합니다.  
   
      — 또는 —  
   
      프로그래밍 중인 언어에 대한 하위 폴더에서 **일반** 옵션을 선택합니다.  
   
-3.  **설정**에서 **자동 줄 바꿈 옵션**을 선택 또는 선택 취소합니다.  
+3. **설정**에서 **자동 줄 바꿈 옵션**을 선택 또는 선택 취소합니다.  
   
      **자동 줄 바꿈** 옵션을 선택하면 **자동 줄 바꿈 시각 문자 표시** 옵션을 사용할 수 있습니다.  
   
-4.  긴 줄이 두 번째 줄로 줄 바꿈되는 위치에 줄 바꿈 화살표 표시기를 표시하려면 **자동 줄 바꿈 시각 문자 표시** 옵션을 선택합니다. 표시기 화살표를 표시하지 않으려면 이 옵션의 선택을 취소합니다.  
+4. 긴 줄이 두 번째 줄로 줄 바꿈되는 위치에 줄 바꿈 화살표 표시기를 표시하려면 **자동 줄 바꿈 시각 문자 표시** 옵션을 선택합니다. 표시기 화살표를 표시하지 않으려면 이 옵션의 선택을 취소합니다.  
   
     > [!NOTE]
     >  이러한 미리 알림 화살표는 코드에 추가되지 않고 표시용으로만 사용됩니다.  

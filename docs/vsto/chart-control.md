@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a8592bdbe08c70df96cf553ff5548a87704837a8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fbd6adeba6d2c131da10ce028c12c6f50b827444
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596336"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088783"
 ---
 # <a name="chart-control"></a>차트 컨트롤
   <xref:Microsoft.Office.Tools.Excel.Chart> 컨트롤은 이벤트를 노출하는 차트 개체입니다. 워크시트에 차트를 추가하면 Visual Studio에서 Microsoft Office Excel 개체 모델을 트래버스하지 않고 직접 프로그래밍할 수 있는 <xref:Microsoft.Office.Tools.Excel.Chart> 개체를 만듭니다.
@@ -42,35 +42,35 @@ ms.locfileid: "56596336"
 ## <a name="events"></a>이벤트
  <xref:Microsoft.Office.Tools.Excel.Chart> 컨트롤에 대해 다음 이벤트를 사용할 수 있습니다.
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.ActivateEvent>
+- <xref:Microsoft.Office.Tools.Excel.Chart.ActivateEvent>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BeforeDoubleClick>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BeforeDoubleClick>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BeforeRightClick>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BeforeRightClick>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BindingContextChanged>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BindingContextChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Calculate>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Calculate>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Deactivate>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Deactivate>
 
--   <xref:System.ComponentModel.Component.Disposed>
+- <xref:System.ComponentModel.Component.Disposed>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.DragOver>
+- <xref:Microsoft.Office.Tools.Excel.Chart.DragOver>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.DragPlot>
+- <xref:Microsoft.Office.Tools.Excel.Chart.DragPlot>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseDown>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseDown>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseMove>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseMove>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseUp>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseUp>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Resize>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Resize>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.SelectEvent>
+- <xref:Microsoft.Office.Tools.Excel.Chart.SelectEvent>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>
+- <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>
 
 ## <a name="see-also"></a>참고자료
 - [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)

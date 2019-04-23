@@ -17,12 +17,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 535ae11811db3117448bf619c0391b852bd65c67
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d60f88c4d1532a03922f12f21bb9b455ef5d84d8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985459"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105554"
 ---
 # <a name="how-to-debug-a-clickonce-application-with-restricted-permissions"></a>방법: 제한된 권한으로 ClickOnce 애플리케이션 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,31 +35,31 @@ ms.locfileid: "58985459"
   
 ### <a name="to-enable-debugging-with-restricted-permissions"></a>제한된 권한으로 디버깅을 사용하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **프로젝트 디자이너**에서 **보안** 탭을 클릭합니다.  
+2. **프로젝트 디자이너**에서 **보안** 탭을 클릭합니다.  
   
-3.  **ClickOnce 보안 설정 사용** 확인란을 선택한 다음 **부분 신뢰 응용 프로그램** 옵션 단추를 클릭합니다.  
+3. **ClickOnce 보안 설정 사용** 확인란을 선택한 다음 **부분 신뢰 응용 프로그램** 옵션 단추를 클릭합니다.  
   
-4.  **고급** 단추를 클릭합니다.  
+4. **고급** 단추를 클릭합니다.  
   
-5.  **선택한 권한 집합으로 이 응용 프로그램 디버그** 확인란을 선택한 다음 **확인**을 클릭합니다.  
+5. **선택한 권한 집합으로 이 응용 프로그램 디버그** 확인란을 선택한 다음 **확인**을 클릭합니다.  
   
      애플리케이션을 디버그할 때는 사용 권한 집합에 속하지 않는 권한에 액세스하려는 모든 시도가 보안 예외를 발생시킵니다.  
   
 ### <a name="to-specify-a-url-for-debugging"></a>디버깅에 대한 URL을 지정하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **프로젝트 디자이너**에서 **보안** 탭을 클릭합니다.  
+2. **프로젝트 디자이너**에서 **보안** 탭을 클릭합니다.  
   
-3.  **ClickOnce 보안 설정 사용** 확인란을 선택한 다음 **부분 신뢰 응용 프로그램** 옵션 단추를 클릭합니다.  
+3. **ClickOnce 보안 설정 사용** 확인란을 선택한 다음 **부분 신뢰 응용 프로그램** 옵션 단추를 클릭합니다.  
   
-4.  **고급** 단추를 클릭합니다.  
+4. **고급** 단추를 클릭합니다.  
   
-5.  **선택한 권한 집합으로 이 응용 프로그램 디버그** 확인란을 선택한 다음 **확인**을 클릭합니다.  
+5. **선택한 권한 집합으로 이 응용 프로그램 디버그** 확인란을 선택한 다음 **확인**을 클릭합니다.  
   
-6.  **다음 URL에서 다운로드한 것처럼 이 응용 프로그램을 디버그** 텍스트 상자에 URL 또는 네트워크 경로를 입력합니다.  
+6. **다음 URL에서 다운로드한 것처럼 이 응용 프로그램을 디버그** 텍스트 상자에 URL 또는 네트워크 경로를 입력합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: ClickOnce 응용 프로그램에 대 한 사용자 지정 권한 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   

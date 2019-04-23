@@ -9,12 +9,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7935176505e535c35b1c864e56cd314a75e7897c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 3c9d088be89e2cf963df65a0163713c297615121
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54764118"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097481"
 ---
 # <a name="how-to-model-3-d-terrain"></a>방법: 3d 지형 모델
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,15 +23,15 @@ ms.locfileid: "54764118"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   장면에 개체 추가  
+- 장면에 개체 추가  
   
--   면 및 점 선택  
+- 면 및 점 선택  
   
--   선택 영역 변환  
+- 선택 영역 변환  
   
--   **면 나누기** 도구 사용  
+- **면 나누기** 도구 사용  
   
--   디자인 화면에서 개체 프레이밍  
+- 디자인 화면에서 개체 프레이밍  
   
 ## <a name="creating-a-3-d-terrain-model"></a>3D 지형 모델 만들기  
  평면을 나눠서 추가적인 면을 만들고 꼭짓점을 조작하여 흥미로운 지형 특성을 만드는 방식으로 3D 지형을 만들 수 있습니다.  
@@ -68,7 +68,7 @@ ms.locfileid: "54764118"
   
    ![지형 모델을 보여 주는 3D 장면](../designers/media/digit-terrain-model.png "Digit-Terrain-Model")  
   
-   이 지형 모델을 사용하여 [방법: 기하 도형 기반 그라데이션 셰이더 만들기](../designers/how-to-create-a-geometry-based-gradient-shader.md)에 설명된 그라데이션 셰이더의 효과를 표시할 수 있습니다.  
+   이 지형 모델을 사용하여 [방법: 기 하 도형 기반 그라데이션 셰이더 만들기](../designers/how-to-create-a-geometry-based-gradient-shader.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [모델 편집기](../designers/model-editor.md)

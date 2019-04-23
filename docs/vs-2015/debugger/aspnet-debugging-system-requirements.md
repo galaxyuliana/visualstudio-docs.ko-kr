@@ -17,25 +17,25 @@ caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a6f50584c5e01b97eb00a0e7f62998670d033553
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 523764ae5cd787fd4b52650e894eb086ae4adb0c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971417"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097130"
 ---
 # <a name="aspnet-debugging-system-requirements"></a>ASP.NET 디버깅: 시스템 요구 사항
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목에서는 다음과 같은 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 디버깅 시나리오에 대한 소프트웨어 및 보안 요구 사항을 설명합니다.  
   
--   로컬 디버깅: [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 와 웹 애플리케이션이 동일한 컴퓨터에서 실행됩니다. 이 시나리오에는 다음 두 가지 경우가 있습니다.  
+- 로컬 디버깅: [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 와 웹 애플리케이션이 동일한 컴퓨터에서 실행됩니다. 이 시나리오에는 다음 두 가지 경우가 있습니다.  
   
-    -   [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 코드가 파일 시스템에 상주하는 경우  
+    - [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 코드가 파일 시스템에 상주하는 경우  
   
-    -   [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 코드가 IIS 웹 사이트에 상주하는 경우  
+    - [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 코드가 IIS 웹 사이트에 상주하는 경우  
   
--   원격 디버깅: [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]가 클라이언트 컴퓨터에서 실행되며 원격 서버 컴퓨터에서 실행되는 웹 응용 프로그램을 디버깅합니다.  
+- 원격 디버깅: [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]가 클라이언트 컴퓨터에서 실행되며 원격 서버 컴퓨터에서 실행되는 웹 응용 프로그램을 디버깅합니다.  
   
 ## <a name="security-requirements"></a>보안 요구 사항  
  원격 디버깅을 수행하려면 로컬 및 원격 컴퓨터가 도메인 설정 또는 작업 그룹 설정에 있어야 하며,  

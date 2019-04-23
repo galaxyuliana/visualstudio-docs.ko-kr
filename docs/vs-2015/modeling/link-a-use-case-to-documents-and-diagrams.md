@@ -14,12 +14,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7e6e6bc1cd9794534f13915ffb41956e423e94c9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 012ab6828364af155b52bc19d9a83564b2126a6b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985381"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088680"
 ---
 # <a name="link-a-use-case-to-documents-and-diagrams"></a>문서 및 다이어그램에 사용 사례 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,45 +40,45 @@ ms.locfileid: "58985381"
   
 ### <a name="to-open-a-document-associated-with-an-artifact"></a>아티팩트와 연결된 문서를 열려면  
   
--   사용 사례 다이어그램에서 아티팩트 모양을 두 번 클릭합니다.  
+- 사용 사례 다이어그램에서 아티팩트 모양을 두 번 클릭합니다.  
   
      연결된 문서가 열립니다.  
   
 ### <a name="to-link-a-use-case-to-a-diagram-or-file-in-the-same-solution"></a>동일한 솔루션의 다이어그램 또는 파일에 사용 사례를 연결하려면  
   
-1.  사용 사례 시나리오를 설명하는 시퀀스 다이어그램 또는 동작 다이어그램과 같은 다이어그램을 그립니다.  
+1. 사용 사례 시나리오를 설명하는 시퀀스 다이어그램 또는 동작 다이어그램과 같은 다이어그램을 그립니다.  
   
-2.  사용 사례 다이어그램으로 돌아갑니다.  
+2. 사용 사례 다이어그램으로 돌아갑니다.  
   
-3.  솔루션 탐색기에서 사용 사례 다이어그램의 빈 부분으로 다이어그램 또는 파일을 끌어옵니다.  
+3. 솔루션 탐색기에서 사용 사례 다이어그램의 빈 부분으로 다이어그램 또는 파일을 끌어옵니다.  
   
-4.  아티팩트에서 사용 사례로 연결 된 **종속성**합니다.  
+4. 아티팩트에서 사용 사례로 연결 된 **종속성**합니다.  
   
 ### <a name="to-link-to-a-solution-file-such-as-a-word-document-or-powerpoint-presentation"></a>Word 문서 또는 PowerPoint 프레젠테이션과 같은 솔루션 파일에 연결하려면  
   
-1.  솔루션에 문서를 추가합니다.  
+1. 솔루션에 문서를 추가합니다.  
   
-    1.  Word 문서를 솔루션과 동일한 Windows 폴더로 이동합니다.  
+    1. Word 문서를 솔루션과 동일한 Windows 폴더로 이동합니다.  
   
-    2.  솔루션 탐색기에서 솔루션을 마우스 오른쪽 **추가**를 클릭 하 고 **기존 항목**합니다.  
+    2. 솔루션 탐색기에서 솔루션을 마우스 오른쪽 **추가**를 클릭 하 고 **기존 항목**합니다.  
   
-    3.  Word 문서에 이동 하 고 클릭 **추가**합니다.  
+    3. Word 문서에 이동 하 고 클릭 **추가**합니다.  
   
          Word 문서가 솔루션 탐색기의 솔루션 폴더에 나타납니다.  
   
-2.  솔루션 탐색기에서 사용 사례 다이어그램의 빈 부분으로 Word 문서를 끌어옵니다.  
+2. 솔루션 탐색기에서 사용 사례 다이어그램의 빈 부분으로 Word 문서를 끌어옵니다.  
   
      새 아티팩트가 표시됩니다.  
   
-3.  아티팩트에서 사용 사례로 연결 된 **종속성**합니다.  
+3. 아티팩트에서 사용 사례로 연결 된 **종속성**합니다.  
   
 ### <a name="to-link-to-a-shared-document-onenote-element-or-web-page"></a>공유 문서, OneNote 요소 또는 웹 페이지에 연결하려면  
   
-1.  공유 요소의 URL을 가져옵니다. 이 수, 예를 들어, 네트워크 파일 경로 시작을 사용 하는 '\\\\', 웹 페이지 또는 Sharepoint URL 시작 'http://' 또는 링크 하는 OneNote 섹션, 페이지 또는 단락 시작 부분 또는 ' onenote:'.  
+1. 공유 요소의 URL을 가져옵니다. 이 수, 예를 들어, 네트워크 파일 경로 시작을 사용 하는 '\\\\', 웹 페이지 또는 Sharepoint URL 시작 'http://' 또는 링크 하는 OneNote 섹션, 페이지 또는 단락 시작 부분 또는 ' onenote:'.  
   
-2.  도구 상자에서 클릭 **아티팩트** 및 사용 사례 다이어그램에서를 클릭 합니다.  
+2. 도구 상자에서 클릭 **아티팩트** 및 사용 사례 다이어그램에서를 클릭 합니다.  
   
-3.  선택한 새 아티팩트를 사용 하 여 입력 하거나 URL을 붙여 합니다 **하이퍼링크** 속성입니다.  
+3. 선택한 새 아티팩트를 사용 하 여 입력 하거나 URL을 붙여 합니다 **하이퍼링크** 속성입니다.  
   
     > [!NOTE]
     >  일반적인 작업 영역에서 파일을 선택 하는 파일 경로 제공 하려는 경우 (부터 '\\\\'), 또는 Visual Studio 솔루션 내에 있는 파일입니다. 이렇게 하면 파일 경로가 다른 팀 멤버의 컴퓨터에서 또는 솔루션이 이동된 경우에도 유효한 상태로 유지됩니다. Word 문서와 같은 문서 솔루션에 추가 하려면 솔루션 탐색기에서 솔루션을 마우스 오른쪽 단추로 클릭, 가리킨 **추가** 을 클릭 한 다음 **기존 항목**합니다.  

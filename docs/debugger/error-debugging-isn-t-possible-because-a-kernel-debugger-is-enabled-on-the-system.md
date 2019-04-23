@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d876298fd202b96fc6519e5056ca7dd297e386ed
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 63666302bcbf9f8f44c6121b583f0cf7b259f3ba
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709670"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096974"
 ---
 # <a name="error-debugging-isn39t-possible-because-a-kernel-debugger-is-enabled-on-the-system"></a>오류: 디버깅 되었습니다&#39;t 수 있으므로 시스템에 커널 디버거가 사용 가능
 관리 코드를 디버깅할 때 다음 오류 메시지가 나타날 수 있습니다.
@@ -56,7 +56,7 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 
 #### <a name="to-disable-kernel-debugging-in-the-current-session"></a>현재 세션에서 커널 디버깅을 비활성화하려면
 
--   명령 프롬프트에서 다음을 입력합니다.
+- 명령 프롬프트에서 다음을 입력합니다.
 
     ```cmd
     Kdbgctrl.exe -d
@@ -64,23 +64,23 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 
 #### <a name="to-disable-kernel-debugging-for-all-sessions-windows-vista-and-windows-7"></a>모든 세션에 대해 커널 디버깅을 비활성화하려면(Windows Vista 및 Windows 7)
 
-1.  명령 프롬프트에서 다음을 입력합니다.
+1. 명령 프롬프트에서 다음을 입력합니다.
 
     ```cmd
     bcdedit /debug off
     ```
 
-2.  컴퓨터를 다시 시작합니다.
+2. 컴퓨터를 다시 시작합니다.
 
 #### <a name="to-disable-kernel-debugging-for-all-sessions-other-windows-operating-systems"></a>모든 세션에 대해 커널 디버깅을 비활성화하려면(기타 Windows 운영 체제)
 
-1.  시스템 드라이브(일반적으로 C:\\)에서 boot.ini를 찾습니다. boot.ini 파일은 숨겨져 있고 읽기 전용일 수 있습니다. 따라서 이 파일을 보려면 다음 명령을 사용해야 합니다.
+1. 시스템 드라이브(일반적으로 C:\\)에서 boot.ini를 찾습니다. boot.ini 파일은 숨겨져 있고 읽기 전용일 수 있습니다. 따라서 이 파일을 보려면 다음 명령을 사용해야 합니다.
 
     ```cmd
     dir /ASH
     ```
 
-2.  메모장을 사용하여 boot.ini를 열고 다음 옵션을 제거합니다.
+2. 메모장을 사용하여 boot.ini를 열고 다음 옵션을 제거합니다.
 
     ```cmd
     /debug
@@ -88,13 +88,13 @@ Debugging isn't possible because a kernel debugger is enabled on the system
     /baudrate
     ```
 
-3.  컴퓨터를 다시 시작합니다.
+3. 컴퓨터를 다시 시작합니다.
 
 #### <a name="to-debug-with-the-kernel-debugger"></a>커널 디버거를 사용하여 디버깅하려면
 
-1.  커널 디버거가 후크되어 있으면 디버깅을 계속할지 묻는 메시지가 나타납니다. 단추를 클릭하여 디버깅을 계속합니다.
+1. 커널 디버거가 후크되어 있으면 디버깅을 계속할지 묻는 메시지가 나타납니다. 단추를 클릭하여 디버깅을 계속합니다.
 
-2.  `User break exception(Int 3).`이 발생할 수도 있습니다. 이 경우 디버깅을 계속하려면 다음과 같은 커널 디버거 명령을 입력합니다.
+2. `User break exception(Int 3).`이 발생할 수도 있습니다. 이 경우 디버깅을 계속하려면 다음과 같은 커널 디버거 명령을 입력합니다.
 
      `gn`
 

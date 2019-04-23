@@ -12,12 +12,12 @@ caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3ab062ea6f7dfac6001d016704d627c716079989
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 09d423ab5f46f27e9dee4ce15f4b6dbec74d0124
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54760268"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097754"
 ---
 # <a name="how-to-add-class-diagrams-to-projects-class-designer"></a>방법: 프로젝트에 클래스 다이어그램 추가(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,17 +28,17 @@ ms.locfileid: "54760268"
   
 ### <a name="to-add-a-blank-class-diagram-to-a-project"></a>프로젝트에 빈 클래스 다이어그램을 추가하려면  
   
-1.  솔루션 탐색기에서 프로젝트 이름을 마우스 오른쪽 단추로 클릭합니다. 그다음 **새 항목 추가** 또는 **추가**, **새 항목**을 선택합니다.  
+1. 솔루션 탐색기에서 프로젝트 이름을 마우스 오른쪽 단추로 클릭합니다. 그다음 **새 항목 추가** 또는 **추가**, **새 항목**을 선택합니다.  
   
-2.  템플릿 목록에서 **클래스 다이어그램**을 선택합니다. Visual C++ 프로젝트의 경우 **템플릿**, 그다음 **유틸리티**에서 이 템플릿을 찾습니다.  
+2. 템플릿 목록에서 **클래스 다이어그램**을 선택합니다. Visual C++ 프로젝트의 경우 **템플릿**, 그다음 **유틸리티**에서 이 템플릿을 찾습니다.  
   
      클래스 디자이너에 클래스 다이어그램이 열립니다. 이 다이어그램은 솔루션 탐색기에서 프로젝트 계층 구조에 확장명이 .cd인 파일로 나타납니다. 클래스 디자이너 도구 상자를 사용하여 도형과 선을 다이어그램으로 끌어 옵니다.  
   
-3.  여러 클래스 다이어그램을 추가하려면 이 절차의 단계를 반복합니다.  
+3. 여러 클래스 다이어그램을 추가하려면 이 절차의 단계를 반복합니다.  
   
 ### <a name="to-add-a-class-diagram-based-on-existing-types"></a>기존 형식을 기반으로 클래스 다이어그램을 추가하려면  
   
-1.  솔루션 탐색기에서 클래스 파일 상황에 맞는 메뉴를 연 다음 **클래스 다이어그램 보기**를 선택합니다.  
+1. 솔루션 탐색기에서 클래스 파일 상황에 맞는 메뉴를 연 다음 **클래스 다이어그램 보기**를 선택합니다.  
   
      또는  
   
@@ -46,13 +46,13 @@ ms.locfileid: "54760268"
   
 ### <a name="to-display-the-contents-of-a-complete-project-in-a-class-diagram"></a>클래스 다이어그램에 전체 프로젝트의 내용을 표시하려면  
   
-1.  솔루션 탐색기나 클래스 뷰에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **보기**, **클래스 다이어그램 보기**를 차례로 선택합니다.  
+1. 솔루션 탐색기나 클래스 뷰에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **보기**, **클래스 다이어그램 보기**를 차례로 선택합니다.  
   
      자동으로 채워진 클래스 다이어그램이 만들어집니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 클래스 디자이너를 사용하여 형식 만들기](../ide/how-to-create-types-by-using-class-designer.md)   
- [방법: 기존 형식 보기(클래스 디자이너)](../ide/how-to-view-existing-types-class-designer.md)   
+ [방법: 클래스 디자이너를 사용 하 여 형식 만들기](../ide/how-to-create-types-by-using-class-designer.md)   
+ [방법: 기존 형식 보기 (클래스 디자이너)](../ide/how-to-view-existing-types-class-designer.md)   
  [클래스 및 형식 디자인(클래스 디자이너)](../ide/designing-classes-and-types-class-designer.md)   
  [형식 및 관계 보기(클래스 디자이너)](../ide/viewing-types-and-relationships-class-designer.md)   
  [클래스 다이어그램 사용(클래스 디자이너)](../ide/working-with-class-diagrams-class-designer.md)

@@ -8,12 +8,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: d82414b94caee2f1ccbb823e94d9168e5502df8c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 903074787169a8889db89a85d65129c1b97c13e2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970614"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096961"
 ---
 # <a name="ca3076-insecure-xslt-script-execution"></a>CA3076: XSLT 스크립트 실행이 안전하지 않습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,9 +35,9 @@ ms.locfileid: "58970614"
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
--   안전 하지 않은 XsltSettings 인수를 XsltSettings 바꿉니다.<xref:System.Xml.Xsl.XsltSettings.Default%2A> 또는 인스턴스를 사용 하 여 문서 함수 및 스크립트 실행 비활성화입니다.
+- 안전 하지 않은 XsltSettings 인수를 XsltSettings 바꿉니다.<xref:System.Xml.Xsl.XsltSettings.Default%2A> 또는 인스턴스를 사용 하 여 문서 함수 및 스크립트 실행 비활성화입니다.
 
--   <xref:System.Xml.XmlResolver> 인수를 null 또는 <xref:System.Xml.XmlSecureResolver> 인스턴스로 바꿉니다.
+- <xref:System.Xml.XmlResolver> 인수를 null 또는 <xref:System.Xml.XmlSecureResolver> 인스턴스로 바꿉니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  입력 출처를 신뢰할 수 있는지 확신할 수 없으면 이 경고의 규칙이 표시되지 않도록 설정하지 않도록 합니다.

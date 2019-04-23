@@ -6,12 +6,12 @@ ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
 caps.latest.revision: 14
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 4d75c93f2ff1678b1d9790462bc816ea35f8acd9
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 346cc2b68193a72d532ba0542cc406e4afa75234
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662077"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097390"
 ---
 # <a name="learn-about-mobile-development-with-xamarin"></a>Xamarin을 사용한 모바일 개발에 대해 알아보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "59662077"
 ## <a name="essentials-introduction-to-xamarin"></a>주요 사항: Xamarin 소개  
  *10~20분*  
   
-1.  [Xamarin을 사용한 Visual Studio의 모바일 앱](https://www.visualstudio.com/explore/xamarin-vs) (영문)(visualstudio.com)에서는 Xamarin의 기본 특성에 대한 매우 짧은 설명을 제공합니다.  
+1. [Xamarin을 사용한 Visual Studio의 모바일 앱](https://www.visualstudio.com/explore/xamarin-vs) (영문)(visualstudio.com)에서는 Xamarin의 기본 특성에 대한 매우 짧은 설명을 제공합니다.  
   
-2.  Xamarin 전문가인 James Montemagno와 함께하는[C# 및 Visual Studio를 사용하여 플랫폼 간 모바일 앱 빌드](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/Building-cross-platform-mobile-apps-using-C-and-Visual-Studio-2015) (영문)(Channel9, 15분 16초). 처음 3분은 Xamarin 개요이고 코드 데모가 뒤따릅니다.  
+2. Xamarin 전문가인 James Montemagno와 함께하는[C# 및 Visual Studio를 사용하여 플랫폼 간 모바일 앱 빌드](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/Building-cross-platform-mobile-apps-using-C-and-Visual-Studio-2015) (영문)(Channel9, 15분 16초). 처음 3분은 Xamarin 개요이고 코드 데모가 뒤따릅니다.  
   
 ## <a name="essentials-overview-of-the-visual-studio-and-xamarin-environment"></a>주요 사항: Visual Studio 및 Xamarin 환경 개요  
  *5-15분*  
@@ -44,9 +44,9 @@ ms.locfileid: "59662077"
 ## <a name="essentials-how-projects-are-structured"></a>주요 사항: 프로젝트 구성 방법  
  *10~30분*  
   
-1.  [코드 공유 옵션](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (영문)(xamarin.com). 이식 가능한 클래스 라이브러리 옵션은 모든 대상 플랫폼에서 지원되는 .NET API만 사용하는 작업을 가장 잘 지원하므로 이 옵션을 사용하는 것이 좋습니다. 대부분의 비즈니스 논리 코드는 데이터베이스, REST Api 호출 및 이식 가능한 Xamarin 구성 요소에 대 한 호출에 대 한 액세스를 포함 하는 PCL에 (참조 [심층 분석: Xamarin 구성 요소](#components) 이 항목의 끝). Xamarin.Forms로 작성된 일반적인 UI 코드가 PCL에 있을 수도 있습니다.  
+1. [코드 공유 옵션](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (영문)(xamarin.com). 이식 가능한 클래스 라이브러리 옵션은 모든 대상 플랫폼에서 지원되는 .NET API만 사용하는 작업을 가장 잘 지원하므로 이 옵션을 사용하는 것이 좋습니다. 대부분의 비즈니스 논리 코드는 데이터베이스, REST Api 호출 및 이식 가능한 Xamarin 구성 요소에 대 한 호출에 대 한 액세스를 포함 하는 PCL에 (참조 [심층 분석: Xamarin 구성 요소](#components) 이 항목의 끝). Xamarin.Forms로 작성된 일반적인 UI 코드가 PCL에 있을 수도 있습니다.  
   
-2.  (선택 사항) [사례 연구: Tasky](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/case_study-tasky/) (xamarin.com)의 데이터, 데이터 액세스 및 비즈니스 계층을 구분 하는 공유 코드에 대 한 PCL 사용 하 여 프로젝트를 구조화 하는 등 모든 기능을 갖춘 앱을 디자인 및 구조에 대 한 몇 가지 모범 사례에 설명 합니다.  
+2. (선택 사항) [사례 연구: Tasky](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/case_study-tasky/) (xamarin.com)의 데이터, 데이터 액세스 및 비즈니스 계층을 구분 하는 공유 코드에 대 한 PCL 사용 하 여 프로젝트를 구조화 하는 등 모든 기능을 갖춘 앱을 디자인 및 구조에 대 한 몇 가지 모범 사례에 설명 합니다.  
   
 ## <a name="essentials-native-and-xamarinforms-ui-layers"></a>주요 사항: 네이티브 및 Xamarin.Forms UI 계층  
  *10~40분*  
@@ -69,32 +69,32 @@ ms.locfileid: "59662077"
   
   자세히 알아보려면:  
   
-1.  [Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/) (xamarin.com)에서는 Xamarin.Forms 및 네이티브 UI 레이어(Xamarin.iOS 및 Xamarin.Android)에 대한 간단한 개요와 장점 및 단점을 제공합니다.  
+1. [Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/) (xamarin.com)에서는 Xamarin.Forms 및 네이티브 UI 레이어(Xamarin.iOS 및 Xamarin.Android)에 대한 간단한 개요와 장점 및 단점을 제공합니다.  
   
-2.  James Montemagno의 비디오에서 처음 3 분 [Xamarin.Forms: 네이티브 iOS, Android & Windows apps를 사용 하 여 C# & XAML](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/704) (Channel9 13m3s) 또 다른 개요를 제공 하 고 계속 데모 시청할 수 있습니다.  
+2. James Montemagno의 비디오에서 처음 3 분 [Xamarin.Forms: 네이티브 iOS, Android & Windows apps를 사용 하 여 C# & XAML](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/704) (Channel9 13m3s) 또 다른 개요를 제공 하 고 계속 데모 시청할 수 있습니다.  
   
-3.  (선택 사항) [Xamarin.Forms 소개](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/introduction-to-xamarin-forms/) (영문)(xamarin.com)  
+3. (선택 사항) [Xamarin.Forms 소개](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/introduction-to-xamarin-forms/) (영문)(xamarin.com)  
   
-4.  (선택 사항) [디바이스 클래스](http://developer.xamarin.com/guides/xamarin-forms/platform-features/device/) 설명서(영문)에서 사용자 지정을 위해 OnPlatform을 사용하는 예제 참조(xamarin.com)  
+4. (선택 사항) [디바이스 클래스](http://developer.xamarin.com/guides/xamarin-forms/platform-features/device/) 설명서(영문)에서 사용자 지정을 위해 OnPlatform을 사용하는 예제 참조(xamarin.com)  
   
-5.  (선택 사항) Jason Smith(MSDN Magazine)의 [크로스 플랫폼 - Xamarin.Forms를 사용하여 모바일 플랫폼 간에 UI 코드 공유](https://msdn.microsoft.com/magazine/dn904669.aspx) (영문)에서는 Xamarin.Forms 내의 다양한 사용자 지정 옵션에 대해 설명하며 자세한 내용은 [각 플랫폼의 컨트롤 사용자 지정](http://developer.xamarin.com/guides/xamarin-forms/custom-renderer/) (영문)(xamarin.com)에 나와 있습니다.  
+5. (선택 사항) Jason Smith(MSDN Magazine)의 [크로스 플랫폼 - Xamarin.Forms를 사용하여 모바일 플랫폼 간에 UI 코드 공유](https://msdn.microsoft.com/magazine/dn904669.aspx) (영문)에서는 Xamarin.Forms 내의 다양한 사용자 지정 옵션에 대해 설명하며 자세한 내용은 [각 플랫폼의 컨트롤 사용자 지정](http://developer.xamarin.com/guides/xamarin-forms/custom-renderer/) (영문)(xamarin.com)에 나와 있습니다.  
   
 ## <a name="deeper-dive-debugging-with-emulators"></a>심층 분석: 에뮬레이터를 사용 하 여 디버깅  
  *10~15분*  
   
  물리적 디바이스를 사용하지 않고도 플랫폼 간 앱을 디버깅하려면 다음을 사용해야 합니다.  
   
-1.  **Android 에뮬레이터.** 사용 중인 Windows 버전에 따라, Microsoft의 Visual Studio Emulator for Android 또는 Xamarin Player를 사용하는 것이 좋습니다. 두 제품 모두 빠른 성능을 제공하고 다양한 디바이스 기능을 지원합니다.  
+1. **Android 에뮬레이터.** 사용 중인 Windows 버전에 따라, Microsoft의 Visual Studio Emulator for Android 또는 Xamarin Player를 사용하는 것이 좋습니다. 두 제품 모두 빠른 성능을 제공하고 다양한 디바이스 기능을 지원합니다.  
   
-    -   **Windows 8 + 컴퓨터:** Microsoft의를 사용 하는 것이 좋습니다 [Visual Studio Emulator for Android](https://www.visualstudio.com/features/msft-android-emulator-vs.aspx), Visual Studio와 함께 설치 되는 합니다.  [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) 비디오(영문)(Channel9, 5분 55초)에서는 개요 및 데모를 제공합니다.  
+    - **Windows 8 + 컴퓨터:** Microsoft의를 사용 하는 것이 좋습니다 [Visual Studio Emulator for Android](https://www.visualstudio.com/features/msft-android-emulator-vs.aspx), Visual Studio와 함께 설치 되는 합니다.  [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) 비디오(영문)(Channel9, 5분 55초)에서는 개요 및 데모를 제공합니다.  
   
-    -   **Windows 7 또는 이전/Mac OS X에서 실행되는 Windows**: [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player) (xamarin.com)를 사용합니다.  
+    - **Windows 7 또는 이전/Mac OS X에서 실행되는 Windows**: [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player) (xamarin.com)를 사용합니다.  
   
-2.  **Apple iOS 시뮬레이터.** 자세한 내용은 [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1)(iOS 시뮬레이터 시작)(apple.com)를 참조하세요.  
+2. **Apple iOS 시뮬레이터.** 자세한 내용은 [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1)(iOS 시뮬레이터 시작)(apple.com)를 참조하세요.  
   
-3.  **Microsoft Window Phone Emulator.** 자세한 내용은 [Windows Phone 8용 Windows Phone Emulator](https://msdn.microsoft.com/library/dn632391.aspx)를 참조하세요.  
+3. **Microsoft Window Phone Emulator.** 자세한 내용은 [Windows Phone 8용 Windows Phone Emulator](https://msdn.microsoft.com/library/dn632391.aspx)를 참조하세요.  
   
-##  <a name="components"></a> 심층 분석: Xamarin 구성 요소  
+## <a name="components"></a> 심층 분석: Xamarin 구성 요소  
  *10분*  
   
  Xamarin 구성 요소를 통해 대부분 확장 기능을 Xamarin 앱에 사용할 수 있습니다. 추가 UI 컨트롤, 인증, 다양한 클라우드 서비스(예: Microsoft Azure) 등을 비롯한 다운로드할 수 있는 전체 카탈로그는 [http://components.xamarin.com/](http://components.xamarin.com/)에서 찾을 수 있습니다.

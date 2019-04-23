@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 7ed7c1a072fdca6e0572ecb04350f5d64bed067d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e9ce3164a1a6659b4921139172afb9c5e3598821
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984986"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105138"
 ---
 # <a name="ca2218-override-gethashcode-on-overriding-equals"></a>CA2218: Equals를 재정할 때 GetHashCode를 재정의하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,23 +38,23 @@ ms.locfileid: "58984986"
 ## <a name="rule-description"></a>규칙 설명
  <xref:System.Object.GetHashCode%2A> 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 적합 하는 현재 인스턴스를 기반으로 값을 반환 합니다. 두 개체가 동일한 형식이 고 같은지 여부를 지정 하는 다음 형식의 인스턴스가 올바르게 작동 하도록 동일한 해시 코드를 반환 해야 합니다.
 
--   <xref:System.Collections.Hashtable?displayProperty=fullName>
+- <xref:System.Collections.Hashtable?displayProperty=fullName>
 
--   <xref:System.Collections.SortedList?displayProperty=fullName>
+- <xref:System.Collections.SortedList?displayProperty=fullName>
 
--   <xref:System.Collections.Generic.Dictionary%602?displayProperty=fullName>
+- <xref:System.Collections.Generic.Dictionary%602?displayProperty=fullName>
 
--   <xref:System.Collections.Generic.SortedDictionary%602?displayProperty=fullName>
+- <xref:System.Collections.Generic.SortedDictionary%602?displayProperty=fullName>
 
--   <xref:System.Collections.Generic.SortedList%602?displayProperty=fullName>
+- <xref:System.Collections.Generic.SortedList%602?displayProperty=fullName>
 
--   <xref:System.Collections.Specialized.HybridDictionary?displayProperty=fullName>
+- <xref:System.Collections.Specialized.HybridDictionary?displayProperty=fullName>
 
--   <xref:System.Collections.Specialized.ListDictionary?displayProperty=fullName>
+- <xref:System.Collections.Specialized.ListDictionary?displayProperty=fullName>
 
--   <xref:System.Collections.Specialized.OrderedDictionary?displayProperty=fullName>
+- <xref:System.Collections.Specialized.OrderedDictionary?displayProperty=fullName>
 
--   구현 하는 형식 <xref:System.Collections.Generic.IEqualityComparer%601?displayProperty=fullName>
+- 구현 하는 형식 <xref:System.Collections.Generic.IEqualityComparer%601?displayProperty=fullName>
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하는 구현을 제공할 <xref:System.Object.GetHashCode%2A>합니다. 같은 형식의 개체 쌍을 확인 해야 합니다는 구현 하는 경우 같은 값을 반환 하는 구현의 <xref:System.Object.Equals%2A> 반환 `true` 쌍을 찾습니다.

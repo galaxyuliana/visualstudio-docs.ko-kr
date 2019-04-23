@@ -12,12 +12,12 @@ ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 49b5e5b7c36b09e08932fcb414478849a12a7c7b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f6df66c3a6f34e6137850c68785d0eaadbb13a26
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970716"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088147"
 ---
 # <a name="choosing-between-shared-and-versioned-vspackages"></a>공유 및 버전 관리 VSPackage 중에서 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,21 +31,21 @@ ms.locfileid: "58970716"
 ## <a name="shared-vspackages"></a>공유 Vspackage  
  공유 VSPackage를 사용 하 여 적합 한 여러 버전의 동일한 VSPackage를 사용 하는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 공유 VSPackage를 구현 하려면 다음 단계를 수행 해야 합니다.  
   
--   VSPackage를 여러 버전의 호환 되도록 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 따라서 이렇게 두 가지 방법으로 사용할 수 있습니다.  
+- VSPackage를 여러 버전의 호환 되도록 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 따라서 이렇게 두 가지 방법으로 사용할 수 있습니다.  
   
-    -   제한의 가장 오래 된 버전의 기능만 사용 하 여 VSPackage [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 지원 합니다.  
+    - 제한의 가장 오래 된 버전의 기능만 사용 하 여 VSPackage [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 지원 합니다.  
   
-    -   VSPackage의 버전에 맞게 프로그램 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실행 됩니다. 그런 다음 새 서비스에 대 한 쿼리가 실패 하는 경우 VSPackage 제공할 수 있습니다의 이전 버전에서 지원 되는 다른 서비스 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
+    - VSPackage의 버전에 맞게 프로그램 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실행 됩니다. 그런 다음 새 서비스에 대 한 쿼리가 실패 하는 경우 VSPackage 제공할 수 있습니다의 이전 버전에서 지원 되는 다른 서비스 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
   
--   적절 하 게 VSPackage를 등록 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md) 하 고 [관리 되는 VSPackage 등록](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)합니다.  
+- 적절 하 게 VSPackage를 등록 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md) 하 고 [관리 되는 VSPackage 등록](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)합니다.  
   
--   파일 확장명을 적절 하 게 등록 합니다. 자세한 내용은 [Side-by-side-배포에 대 한 파일 이름 확장명 등록](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)합니다.  
+- 파일 확장명을 적절 하 게 등록 합니다. 자세한 내용은 [Side-by-side-배포에 대 한 파일 이름 확장명 등록](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)합니다.  
   
--   적절 한 버전의 VSPackage를 배포 하는 설치 관리자 만들기 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 자세한 내용은 [Windows Installer를 사용 하 여 Vspackage 설치](../extensibility/internals/installing-vspackages-with-windows-installer.md) 하 고 [구성 요소 관리](../extensibility/internals/component-management.md)합니다.  
+- 적절 한 버전의 VSPackage를 배포 하는 설치 관리자 만들기 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 자세한 내용은 [Windows Installer를 사용 하 여 Vspackage 설치](../extensibility/internals/installing-vspackages-with-windows-installer.md) 하 고 [구성 요소 관리](../extensibility/internals/component-management.md)합니다.  
   
--   등록 충돌 문제를 해결 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md)합니다.  
+- 등록 충돌 문제를 해결 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md)합니다.  
   
--   공유 및 버전 관리 파일에서 여러 버전의 안전한 설치 및 제거를 허용 하기 위해 참조 가산을 준수 하는지 확인 합니다. 자세한 내용은 [구성 요소 관리](../extensibility/internals/component-management.md)합니다.  
+- 공유 및 버전 관리 파일에서 여러 버전의 안전한 설치 및 제거를 허용 하기 위해 참조 가산을 준수 하는지 확인 합니다. 자세한 내용은 [구성 요소 관리](../extensibility/internals/component-management.md)합니다.  
   
 ## <a name="versioned-vspackages"></a>버전 관리 Vspackage  
  버전 관리 VSPackage 전략을 아래 각 버전의 VSPackage를 하나 만들 있습니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 지원 합니다. 이 방법은 적절 한 이후 버전의에서 제공 하는 서비스를 활용 하려는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]이므로 각 VSPackage 다른 영향을 주지 않고 진화 할 수 있습니다. 그럼에도 불구 하 고 여러 독립적인 코드 베이스 또는 단일 코드 베이스에서 여러 이진 파일을 만드는 버전 관리 전략을 공유 전략 보다 더 많은 초기 개발을 수반 될 수 있습니다. 또한 추가 설치 작업 해야 할 수 있습니다 각 버전에 대 한 별도 설치 또는 버전을 검색 하는 단일 설치 프로그램을 만들어야 하기 때문에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 설치 되어 있고 VSPackage를 지원 합니다.  

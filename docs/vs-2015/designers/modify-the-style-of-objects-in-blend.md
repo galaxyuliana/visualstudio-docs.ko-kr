@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0d488149302e21f6e46f1c20a32fb7aecefe8337
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: c1f2f4dc5eb4c285b99a72a58836e5f81b3ef30f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869304"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088459"
 ---
 # <a name="modify-the-style-of-objects-in-blend"></a>Blend에서 개체 스타일 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,18 +25,18 @@ ms.locfileid: "57869304"
   
  **항목 내용**:  
   
--   [브러시: 개체의 모양 수정](#Brushes)  
+- [브러시: 개체의 모양 수정](#Brushes)  
   
--   [스타일 및 템플릿: 컨트롤 간 일관된 모양과 느낌 만들기](#Styles)  
+- [스타일 및 템플릿: 컨트롤 간 일관 된 모양과 느낌 만들기](#Styles)  
   
--   [시각적 상태: 해당 상태에 따라 컨트롤의 모양 변경](#Visual)  
+- [시각적 상태: 해당 상태에 따라 컨트롤의 모양 변경](#Visual)  
   
--   [리소스: 색, 스타일 및 템플릿을 만들고 나중에 다시 사용](#Resources)  
+- [리소스: 색, 스타일 및 템플릿 만들기 및 나중에 다시 사용](#Resources)  
   
-##  <a name="Brushes"></a> 브러시: 개체의 모양 수정  
+## <a name="Brushes"></a> 브러시: 개체의 모양을 수정합니다.  
  모양을 변경하려는 경우 브러시를 개체에 적용합니다.  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Brushes Editor](http://www.popscreen.com/v/6A4mO/Microsoft-Expression-Blend-The-Brushes-Editor)(브러시 편집기).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [브러시 편집기](http://www.popscreen.com/v/6A4mO/Microsoft-Expression-Blend-The-Brushes-Editor)합니다.  
   
 ### <a name="paint-a-repeating-image-or-pattern-on-an-object"></a>개체에 반복되는 이미지 또는 패턴 그리기  
  *타일 브러시*를 사용하여 개체에 반복되는 이미지나 패턴을 그릴 수 있습니다.  
@@ -55,9 +55,9 @@ ms.locfileid: "57869304"
   
  ![](../designers/media/fb6c90e0-153c-48fe-b563-e601beac6227.png "fb6c90e0-153c-48fe-b563-e601beac6227") ![](../designers/media/e261b99f-7d8f-4d91-bc84-19c7beccc255.png "e261b99f-7d8f-4d91-bc84-19c7beccc255")  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Tile Brushes](http://www.popscreen.com/v/6A4iM/Microsoft-Expression-Blend-Tile-Brushes)(타일 브러시).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [타일 브러시](http://www.popscreen.com/v/6A4iM/Microsoft-Expression-Blend-Tile-Brushes)합니다.  
   
-##  <a name="Styles"></a> 스타일 및 템플릿: 컨트롤 간 일관된 모양과 느낌 만들기  
+## <a name="Styles"></a> 스타일 및 템플릿: 컨트롤 간 일관된 모양과 느낌을 만듭니다.  
  컨트롤의 모양 및 동작을 한 번 디자인하고 해당 디자인을 다른 컨트롤에 적용하여 컨트롤의 모양과 동작을 개별적으로 유지 관리하지 않아도 됩니다.  
   
  **스타일을 사용해야 하나요?**: 기본 속성(예: 단추 색)을 설정하려면 *스타일*을 사용합니다. 스타일을 컨트롤에 적용한 후에도 컨트롤을 수정할 수 있습니다.  
@@ -92,7 +92,7 @@ ms.locfileid: "57869304"
 >   
 >  ![](../designers/media/4a5612e1-7a28-4587-b870-0fe7112ec2ad.png "4a5612e1-7a28-4587-b870-0fe7112ec2ad")  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create a style](https://www.youtube.com/watch?v=W8YdXDPeKdc)(스타일 만들기).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [스타일 만들기](https://www.youtube.com/watch?v=W8YdXDPeKdc)합니다.  
   
 ### <a name="apply-a-style-or-template-to-a-control"></a>컨트롤에 스타일이나 템플릿 적용  
  [개체 및 타임라인](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) 패널에서 개체를 마우스 오른쪽 단추로 클릭하고 **템플릿 편집**을 선택한 후 **리소스 적용**을 선택합니다.  
@@ -102,19 +102,19 @@ ms.locfileid: "57869304"
 ### <a name="restore-the-default-style-or-template-of-a-control"></a>컨트롤의 기본 스타일이나 템플릿 복원  
  컨트롤을 선택하고 [속성](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) 패널에서 **스타일**이나 **템플릿** 속성을 찾습니다. 그런 다음 **고급 옵션** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb")을 클릭하고 바로 가기 메뉴에서 **다시 설정**을 클릭합니다.  
   
-##  <a name="Visual"></a> 시각적 상태: 해당 상태에 따라 컨트롤의 모양 변경  
+## <a name="Visual"></a> 시각적 상태: 해당 상태에 따라 컨트롤의 모양을 변경합니다.  
  컨트롤에는 사용자 상호 작용에 따라 여러 시각적 모양이 포함될 수 있습니다. 예를 들어 사용자가 클릭하거나 애니메이션 실행 시 단추가 녹색으로 바뀌도록 설정할 수 있습니다. 전환을 사용하여 시각적 상태 간의 시간을 줄이거나 늘릴 수 있습니다.  
   
  ![](../designers/media/a95c671a-5639-40b9-83db-1e6b214330d5.png "a95c671a-5639-40b9-83db-1e6b214330d5")  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Manage the state of your WPF controls](https://www.youtube.com/watch?v=m0PlkF5i6uw)(WPF 컨트롤 상태 관리).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [WPF 컨트롤의 상태를 관리](https://www.youtube.com/watch?v=m0PlkF5i6uw)합니다.  
   
-##  <a name="Resources"></a> 리소스: 색, 스타일 및 템플릿을 만들고 나중에 다시 사용  
+## <a name="Resources"></a> 리소스: 색, 스타일 및 템플릿을 만들고 나중에 다시 사용합니다.  
  프로젝트의 모든 항목을 리소스로 변환할 수 있습니다. 리소스는 애플리케이션의 다른 위치에 다시 사용할 수 있는 단순한 개체입니다. 예를 들어 색을 한 번 만들어 리소스로 만든 후 해당 색을 여러 개체에 사용할 수 있습니다. 이러한 모든 개체의 색을 변경하려면 색 리소스를 변경하기만 하면 됩니다.  
   
  ![](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png "89203705-cf66-46e0-b153-52a23cd744f7") ![](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png "6bff8b19-3cd5-41a0-bbf9-ff65532d5aae")  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [A brief touch on resources](http://www.popscreen.com/v/6A4k7/Microsoft-Expression-Blend-Brief-Touch-on-Resources)(리소스에 대한 간략한 터치).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [리소스에 대 한 간략 한 터치](http://www.popscreen.com/v/6A4k7/Microsoft-Expression-Blend-Brief-Touch-on-Resources)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Blend for Visual Studio를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

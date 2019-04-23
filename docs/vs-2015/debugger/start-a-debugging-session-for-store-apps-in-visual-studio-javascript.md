@@ -17,12 +17,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5cb08c00679e3052ef0e0715ca58dd010a52e61b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 12c5fb2db92c70144e38aa3ca2110b8b3d5c354e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649695"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105120"
 ---
 # <a name="start-a-debugging-session-for-store-apps-in-visual-studio-javascript"></a>Visual Studio에서 스토어 앱에 대한 디버깅 세션 시작(JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 > [!NOTE]
 >  XAML 및 시각적 개체에서 작성 된 앱에 대 한 C#, Visual C++, 또는 Visual Basic을 참조 하세요 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
 
-##  <a name="BKMK_In_this_topic"></a> 항목 내용
+## <a name="BKMK_In_this_topic"></a> 항목 내용
  [항목 내용](#BKMK_In_this_topic)
 
  [디버깅을 쉽게 시작하는 방법](#BKMK_The_easy_way_to_start_debugging)
@@ -67,7 +67,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
 - [디버거 연결](#BKMK_Attach_the_debugger)
 
-##  <a name="BKMK_The_easy_way_to_start_debugging"></a> 디버깅을 쉽게 시작하는 방법
+## <a name="BKMK_The_easy_way_to_start_debugging"></a> 디버깅을 쉽게 시작하는 방법
  ![Windows에만 적용 됩니다](../debugger/media/windows-only-content.png "windows_only_content")
 
 1. Visual Studio에서 응용 프로그램 솔루션을 엽니다.
@@ -80,22 +80,22 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
    Visual Studio가 디버거가 연결된 응용 프로그램을 빌드하고 시작합니다. 중단점에 도달하거나 수동으로 실행을 일시 중단하거나 처리되지 않은 예외가 발생하거나 응용 프로그램이 끝날 때까지 계속해서 실행됩니다. 자세한 내용은 [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)합니다.
 
-##  <a name="BKMK_Configure_the_debugging_session"></a> 디버깅 세션 구성
+## <a name="BKMK_Configure_the_debugging_session"></a> 디버깅 세션 구성
  스크립트가 컴파일되지 않았으므로 빌드 구성 및 플랫폼 설정이 적용되지 않습니다. 디버깅 하는 경우는 C++ 관리 되는 구성 요소를 설정 또는 **구성** 에 **디버그** 에서 대상 플랫폼을 선택 하 고는 **구성** 대화 합니다.
 
-###  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> 프로젝트에 대한 디버깅 속성 페이지 열기
+### <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> 프로젝트에 대한 디버깅 속성 페이지 열기
 
-1.  솔루션 탐색기에서 프로젝트를 선택합니다. 바로 가기 메뉴에서 **속성**을 선택합니다.
+1. 솔루션 탐색기에서 프로젝트를 선택합니다. 바로 가기 메뉴에서 **속성**을 선택합니다.
 
-2.  확장 된 **구성 속성** 노드를 선택한 후 **디버깅**
+2. 확장 된 **구성 속성** 노드를 선택한 후 **디버깅**
 
-###  <a name="BKMK_Choose_the_build_configuration_options"></a> 빌드 구성 옵션 선택
+### <a name="BKMK_Choose_the_build_configuration_options"></a> 빌드 구성 옵션 선택
 
-1.  **구성** 목록에서 **Debug** 또는 **(활성)Debug**를 선택합니다.
+1. **구성** 목록에서 **Debug** 또는 **(활성)Debug**를 선택합니다.
 
-2.  **플랫폼** 목록에서 빌드할 대상 플랫폼을 선택합니다. 대부분의 경우에서 **Any CPU** 는 것이 좋습니다.
+2. **플랫폼** 목록에서 빌드할 대상 플랫폼을 선택합니다. 대부분의 경우에서 **Any CPU** 는 것이 좋습니다.
 
-###  <a name="BKMK_Choose_the_deployment_target"></a> 배포 대상 선택
+### <a name="BKMK_Choose_the_deployment_target"></a> 배포 대상 선택
  Visual Studio 컴퓨터, 로컬 컴퓨터의 Visual Studio 시뮬레이터 또는 원격 컴퓨터에서 앱을 배포하고 디버깅할 수 있습니다. 대상을 선택 합니다 **실행할 디버거** 목록에서 합니다 **디버깅** 프로젝트 속성 페이지.
 
  ![Windows에만 적용 됩니다](../debugger/media/windows-only-content.png "windows_only_content")
@@ -123,7 +123,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
   Windows 스토어 Phone 앱의 경우 선택 **장치** 에서 에뮬레이터 중 하나는 **대상 장치** 목록입니다.
 
-###  <a name="BKMK_Choose_the_debugger_to_use"></a> 사용할 디버거 선택
+### <a name="BKMK_Choose_the_debugger_to_use"></a> 사용할 디버거 선택
  기본적으로 앱에서 디버거는 JavaScript 코드에 연결됩니다. JavaScript 코드 대신 기본 C++ 및 앱 구성 요소의 관리되는 코드를 디버깅하도록 선택할 수 있습니다. 응용 프로그램 프로젝트의 **디버깅** 속성 페이지에 있는 **디버거 형식** 목록에서 디버깅할 코드를 지정합니다.
 
  아래이 디버거 중 하나를 선택 합니다 **디버거 형식** 목록:
@@ -136,28 +136,28 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 |**관리 전용**|응용 프로그램에서 관리 코드를 디버깅합니다. JavaScript 코드와 네이티브 C/C++ 코드는 무시됩니다.|
 |**혼합(관리/네이티브)**|응용 프로그램에서 네이티브 C/C++ 코드 및 관리 코드를 디버깅합니다. JavaScript 코드는 무시됩니다.|
 
-###  <a name="BKMK__Optional__Delay_starting_app_in_the_debug_session"></a> (선택 사항) 디버그 세션에서 앱 시작 지연
+### <a name="BKMK__Optional__Delay_starting_app_in_the_debug_session"></a> (선택 사항) 디버그 세션에서 앱 시작 지연
  기본적으로 디버깅을 시작하면 바로 응용 프로그램이 시작됩니다. 디버그 세션을 시작하되 응용 프로그램 시작을 지연할 수도 있습니다. 앱이 시작 메뉴 또는 활성화 계약에서 시작되거나, 다른 프로세스 또는 메서드에서 시작되는 경우 디버거에서 앱이 시작됩니다. 또한 지연된 시작 기능을 사용하여 앱이 실행되지 않은 경우 앱에서 발생시키려는 백그라운드 이벤트를 디버깅할 수 있습니다.
 
  앱의 시작을 지연할지 여부를 지정 하는 **응용 프로그램 시작** 목록에서 합니다 **디버깅** 앱 프로젝트의 속성 페이지. 다음 옵션 중 하나를 선택합니다.
 
--   선택 **No** 앱의 시작을 지연 합니다.
+- 선택 **No** 앱의 시작을 지연 합니다.
 
--   선택할 **예** 에 앱을 즉시 시작 합니다.
+- 선택할 **예** 에 앱을 즉시 시작 합니다.
 
-###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (선택 사항) 네트워크 루프백 비활성화
+### <a name="BKMK__Optional__Disable_network_loopbacks"></a> (선택 사항) 네트워크 루프백 비활성화
  ![Windows에만 적용 됩니다](../debugger/media/windows-only-content.png "windows_only_content")
 
  보안상의 이유로 일반적인 방식으로 설치된 Windows 스토어 앱은 앱이 설치된 디바이스에 대한 네트워크 호출을 수행할 수 없습니다. 기본적으로 Visual Studio를 배포하면 배포된 응용 프로그램에 대한 이 규칙의 예외가 만들어 집니다. 이 예외로 인해 사용자는 단일 컴퓨터에서 통신 프로시저를 테스트할 수 있습니다. 응용 프로그램을 Windows 스토어에 제출하기 전에 이 예외 없이 응용 프로그램을 테스트해야 합니다.
 
  네트워크 루프백 예외를 제거 하려면 **No** 에서 합니다 **네트워크 루프백 허용** 목록에서 **디버깅** 속성 페이지.
 
-##  <a name="BKMK_Start_the_debugging_session"></a> 디버깅 세션을 시작합니다.
+## <a name="BKMK_Start_the_debugging_session"></a> 디버깅 세션을 시작합니다.
 
-###  <a name="BKMK_Start_debugging__F5_"></a> 디버깅 시작(F5)
+### <a name="BKMK_Start_debugging__F5_"></a> 디버깅 시작(F5)
  선택 하는 경우 **디버깅 시작** 에 **디버그** 메뉴 (키보드: F5 키), Visual Studio 디버거가 연결 된 앱을 시작 합니다. 중단점에 도달하거나 수동으로 실행을 일시 중단하거나 처리되지 않은 예외가 발생하거나 응용 프로그램이 끝날 때까지 계속해서 실행됩니다.
 
-###  <a name="BKMK_Start_debugging__F5__but_delay_the_app_start"></a> 디버깅을 시작하되F5) 응용 프로그램 시작 지연
+### <a name="BKMK_Start_debugging__F5__but_delay_the_app_start"></a> 디버깅을 시작하되F5) 응용 프로그램 시작 지연
  디버그 모드에서 실행되도록 앱을 설정할 수 있지만 디버거가 아닌 방법으로 앱을 시작할 수 있습니다. 예를 들어 시작 메뉴에서 응용 프로그램 시작을 디버깅하거나 응용 프로그램을 시작하지 않고 응용 프로그램에서 백그라운드 프로세스를 디버깅할 수 있습니다. 응용 프로그램 시작을 지연하려면 다음을 수행합니다.
 
 1. 에 **디버그** 앱의 페이지 프로젝트 속성을 선택 **No** 에서 합니다 **응용 프로그램 시작** 목록.
@@ -170,7 +170,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
    . 백그라운드 작업 디버깅 하는 방법에 대 한 자세한 내용은 참조 하세요. [트리거 일시 중단, 다시 시작 및 백그라운드 이벤트를 Windows 스토어)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)합니다.
 
-##  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> 디버거에서 설치된 응용 프로그램 시작
+## <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> 디버거에서 설치된 응용 프로그램 시작
  F5 키를 사용하여 디버깅을 시작할 때 Visual Studio에서는 응용 프로그램을 빌드 및 배포하고 디버그 모드에서 실행되도록 응용 프로그램을 설정한 다음 응용 프로그램을 시작합니다. 디바이스에 이미 설치된 응용 프로그램을 시작하려면 설치된 응용 프로그램 패키지 디버그 대화 상자를 사용합니다. 이 절차는 Windows 스토어에서 설치된 응용 프로그램을 디버깅해야 하는 경우나 응용 프로그램의 소스 파일은 있지만 응용 프로그램에 대한 Visual Studio 프로젝트가 없는 경우에 유용합니다. 예를 들어 Visual Studio 프로젝트 또는 솔루션을 사용하지 않는 사용자 지정 빌드 시스템이 있을 수 있습니다.
 
  응용 프로그램은 로컬 디바이스에 설치되거나 원격 디바이스에 있을 수 있습니다.  응용 프로그램을 즉시 시작하거나 시작 메뉴나 활성화 계약 등의 다른 프로세스나 방법으로 시작될 때 디버거에서 실행되도록 응용 프로그램을 설정할 수 있습니다. 응용 프로그램을 시작하지 않고 백그라운드 프로세스를 디버깅하려는 경우에도 디버그 모드에서 실행되도록 응용 프로그램을 설정할 수 있습니다. 자세한 내용은 [트리거 일시 중단, 다시 시작 및 백그라운드 이벤트를 Windows 스토어)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)합니다.
@@ -198,32 +198,32 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
    **시작**을 클릭하면 응용 프로그램이 시작되거나 디버그 모드에서 실행되도록 설정됩니다.
 
-##  <a name="BKMK_Attach_the_debugger_to_a_running_app_"></a> 실행 중인 응용 프로그램에 디버거 연결
+## <a name="BKMK_Attach_the_debugger_to_a_running_app_"></a> 실행 중인 응용 프로그램에 디버거 연결
  [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램에 디버거를 연결하려면 디버깅 가능 패키지 관리자를 사용하여 응용 프로그램이 디버그 모드에서 실행되도록 설정합니다. 디버깅 가능 패키지 관리자는 Visual Studio 원격 도구와 함께 설치됩니다.
 
  앱에 디버거를 연결하는 기능은 Windows 스토어에서 설치된 앱처럼 이미 설치된 앱을 디버깅해야 하는 경우에 유용합니다. 응용 프로그램의 소스 파일은 있지만 응용 프로그램에 대한 Visual Studio 프로젝트가 없는 경우 연결해야 합니다. 예를 들어 Visual Studio 프로젝트 또는 솔루션을 사용하지 않는 사용자 지정 빌드 시스템이 있을 수 있습니다.
 
  앱에 연결하려면
 
-1.  응용 프로그램이 디버그 모드에서 실행되도록 설정합니다. 이 작업은 응용 프로그램이 실행되고 있지 않을 때 수행해야 합니다.
+1. 응용 프로그램이 디버그 모드에서 실행되도록 설정합니다. 이 작업은 응용 프로그램이 실행되고 있지 않을 때 수행해야 합니다.
 
-2.  응용 프로그램을 시작합니다. 시작 메뉴, 실행 계약 또는 일부 다른 메서드를 통해 앱을 시작할 수 있습니다.
+2. 응용 프로그램을 시작합니다. 시작 메뉴, 실행 계약 또는 일부 다른 메서드를 통해 앱을 시작할 수 있습니다.
 
-3.  실행 중인 응용 프로그램에 디버거 연결합니다.
+3. 실행 중인 응용 프로그램에 디버거 연결합니다.
 
-###  <a name="BKMK_Set_the_app_to_run_in_debug_mode"></a> 응용 프로그램이 디버그 모드에서 실행되도록 설정
+### <a name="BKMK_Set_the_app_to_run_in_debug_mode"></a> 응용 프로그램이 디버그 모드에서 실행되도록 설정
 
-1.  응용 프로그램이 설치된 디바이스에 Visual Studio 원격 도구를 설치합니다. 참조 [원격 도구 설치](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools)합니다.
+1. 응용 프로그램이 설치된 디바이스에 Visual Studio 원격 도구를 설치합니다. 참조 [원격 도구 설치](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools)합니다.
 
-2.  시작 메뉴에서 `Debuggable Package Manager`를 검색한 다음 시작합니다.
+2. 시작 메뉴에서 `Debuggable Package Manager`를 검색한 다음 시작합니다.
 
      AppxDebug cmdlet에 맞게 올바르게 구성된 PowerShell 창이 나타납니다.
 
-3.  응용 프로그램의 디버깅을 사용하도록 설정하려면 응용 프로그램의 PackageFullName 식별자를 지정해야 합니다. PackageFullName이 포함되어 있는 모든 응용 프로그램의 목록을 보려면 PowerShell 프롬프트에서 `Get-AppxPackage` 를 입력합니다.
+3. 응용 프로그램의 디버깅을 사용하도록 설정하려면 응용 프로그램의 PackageFullName 식별자를 지정해야 합니다. PackageFullName이 포함되어 있는 모든 응용 프로그램의 목록을 보려면 PowerShell 프롬프트에서 `Get-AppxPackage` 를 입력합니다.
 
-4.  PowerShell 프롬프트에서 `Enable-AppxDebug` *PackageFullName* 을 입력합니다. 여기서 *PackageFullName* 은 앱의 PackageFullName 식별자입니다.
+4. PowerShell 프롬프트에서 `Enable-AppxDebug` *PackageFullName* 을 입력합니다. 여기서 *PackageFullName* 은 앱의 PackageFullName 식별자입니다.
 
-###  <a name="BKMK_Attach_the_debugger"></a> 디버거 연결
+### <a name="BKMK_Attach_the_debugger"></a> 디버거 연결
 
 > [!TIP]
 >  JavaScript 앱은 wwahost.exe 프로세스의 인스턴스에서 실행됩니다. 앱에 연결할 때 다른 JavaScript 앱이 실행 중인 경우 해당 앱이 실행 중인 wwahost.exe의 숫자 PID(프로세스 ID)를 알아야 합니다.
@@ -238,19 +238,19 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
 2. 원격 디바이스의 응용 프로그램에 연결하려면 **한정자** 상자에 원격 디바이스를 지정합니다. 다음과 같은 작업을 수행할 수 있습니다.
 
-   -   **한정자** 상자에 이름을 입력합니다.
+   - **한정자** 상자에 이름을 입력합니다.
 
-   -   아래쪽 화살표를 선택 합니다 **한정자** 상자 하 고 이전에 연결한 장치의 목록에서 장치를 선택 합니다.
+   - 아래쪽 화살표를 선택 합니다 **한정자** 상자 하 고 이전에 연결한 장치의 목록에서 장치를 선택 합니다.
 
-   -   선택할 **찾을** 로컬 서브넷의 장치 목록에서 장치를 선택 합니다.
+   - 선택할 **찾을** 로컬 서브넷의 장치 목록에서 장치를 선택 합니다.
 
 3. **연결 대상** 상자에서 디버깅할 코드의 형식을 지정합니다.
 
     **선택** 을 선택한 후 다음 중 하나를 수행합니다.
 
-   -    **디버깅할 코드 형식을 자동으로 결정**을 선택합니다.
+   -  **디버깅할 코드 형식을 자동으로 결정**을 선택합니다.
 
-   -   **다음 코드 형식 디버깅** 을 선택한 다음 목록에서 하나 이상의 형식을 선택합니다.
+   - **다음 코드 형식 디버깅** 을 선택한 다음 목록에서 하나 이상의 형식을 선택합니다.
 
 4. 에 **사용 가능한 프로세스** 목록에서 적절 한 선택 **wwahost.exe** 프로세스입니다. 사용 된 **Title** 앱을 식별 하는 열입니다.
 

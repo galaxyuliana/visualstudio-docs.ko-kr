@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b2a411a135330fbf36bde9b28f8015e96a4555c3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 62f6847e03484838f232a9b64f392ca0938f213d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54759911"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114500"
 ---
 # <a name="network-usage"></a>네트워크 사용량
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,13 +67,13 @@ Visual Studio **네트워크** 진단 도구는 [Windows.Web.Http API](https://m
 ### <a name="analysis-tips"></a>분석 팁  
  이 도구는 네트워크 관련 분석을 실행할 때 유용할 수 있는 특정 영역을 강조 표시합니다.  
   
-1.  캐시에서 완전히 처리되는 요청은 **받음** 열에 **(캐시에서)** 로 표시됩니다. 이렇게 하면 사용자 대역폭 절약을 위해 캐시를 효과적으로 사용하는지, 아니면 실수로 응답을 캐시하고 애플리케이션의 최종 사용자에게 오래된 데이터를 제공하고 있는지 결정하는 데 도움이 될 수 있습니다.  
+1. 캐시에서 완전히 처리되는 요청은 **받음** 열에 **(캐시에서)** 로 표시됩니다. 이렇게 하면 사용자 대역폭 절약을 위해 캐시를 효과적으로 사용하는지, 아니면 실수로 응답을 캐시하고 애플리케이션의 최종 사용자에게 오래된 데이터를 제공하고 있는지 결정하는 데 도움이 될 수 있습니다.  
   
-2.  오류 응답(4xx 또는 5xx)은 빨간색 상태 코드로 **결과** 열에 표시되며 요약 막대에도 강조 표시됩니다. 따라서 애플리케이션에서 많은 잠재적 요청 중 오류를 쉽게 파악할 수 있습니다.  
+2. 오류 응답(4xx 또는 5xx)은 빨간색 상태 코드로 **결과** 열에 표시되며 요약 막대에도 강조 표시됩니다. 따라서 애플리케이션에서 많은 잠재적 요청 중 오류를 쉽게 파악할 수 있습니다.  
   
-3.  예쁜 응답 인쇄 단추(본문 탭 내부)를 사용하면 콘텐츠 가독성을 높여 JSON, XML, HTML, CSS, JavaScript 및 TypeScript 응답 페이로드를 통해 구문 분석하는 데 도움이 될 수 있습니다.  
+3. 예쁜 응답 인쇄 단추(본문 탭 내부)를 사용하면 콘텐츠 가독성을 높여 JSON, XML, HTML, CSS, JavaScript 및 TypeScript 응답 페이로드를 통해 구문 분석하는 데 도움이 될 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디버깅 하지 않고 프로 파일링 도구 실행](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)   
  [Visual Studio 블로그: Visual Studio의 네트워크 검사기 소개](http://go.microsoft.com/fwlink/?LinkId=535022)   
- [Channel 9 비디오: VS 진단 도구 – 새 네트워크 프로파일러](http://channel9.msdn.com/Series/ConnectOn-Demand/206)
+ [Channel 9 비디오: VS 진단 도구 – 새 네트워크 Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206)

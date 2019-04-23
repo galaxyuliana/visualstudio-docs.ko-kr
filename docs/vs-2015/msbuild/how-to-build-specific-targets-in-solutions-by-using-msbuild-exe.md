@@ -13,12 +13,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d07c0e11d47e20f43f4d4173de4bcc3c24b864b1
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 8bfef86b8ea82077ba7fe3f753f9835c06c3380a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652726"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097351"
 ---
 # <a name="how-to-build-specific-targets-in-solutions-by-using-msbuildexe"></a>방법: MSBuild.exe를 사용하여 솔루션의 특정 대상 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,9 +27,9 @@ MSBuild.exe를 사용하여 솔루션에서 특정 프로젝트의 특정 대상
   
 ### <a name="to-build-a-specific-target-of-a-specific-project-in-a-solution"></a>솔루션에서 특정 프로젝트의 특정 대상을 빌드하려면  
   
-1.  명령줄에서 `MSBuild.exe <SolutionName>.sln`을 입력합니다. 여기서 `<SolutionName>`은 실행할 대상이 포함된 솔루션의 파일 이름에 해당합니다.  
+1. 명령줄에서 `MSBuild.exe <SolutionName>.sln`을 입력합니다. 여기서 `<SolutionName>`은 실행할 대상이 포함된 솔루션의 파일 이름에 해당합니다.  
   
-2.  **/t** 스위치 뒤에 대상을 *ProjectName*:*TargetName* 형식으로 지정합니다.  
+2. **/t** 스위치 뒤에 대상을 *ProjectName*:*TargetName* 형식으로 지정합니다.  
   
 ## <a name="example"></a>예제  
  다음 예제에서는 `NotInSlnFolder` 프로젝트의 `Rebuild` 대상을 실행하고 나서 `NewFolder` 솔루션 폴더에 있는 `InSolutionFolder` 프로젝트의 `Clean` 대상을 실행합니다.  

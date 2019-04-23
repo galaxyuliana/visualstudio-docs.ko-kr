@@ -10,12 +10,12 @@ ms.assetid: b02fa88c-f92a-4ff6-ba5f-2eb4d48a643a
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0e4fe3b07a2a076218fd004328ad87e4d5e3bab7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2788903c60564d501770616fbe3ad2335e60a250
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982196"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105411"
 ---
 # <a name="extending-the-output-window"></a>출력 창 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,22 +27,22 @@ ms.locfileid: "58982196"
 ## <a name="creating-an-extension-that-uses-the-output-pane"></a>출력 창을 사용 하는 확장을 만들기  
  출력 창의 다양 한 측면을 실행 하는 확장을 만들 수 있습니다.  
   
-1.  라는 VSIX 프로젝트를 만듭니다 `TestOutput` 메뉴 명령을 사용 하 여 이름이 **TestOutput**합니다. 자세한 내용은 [메뉴 명령을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.  
+1. 라는 VSIX 프로젝트를 만듭니다 `TestOutput` 메뉴 명령을 사용 하 여 이름이 **TestOutput**합니다. 자세한 내용은 [메뉴 명령을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.  
   
-2.  다음 참조를 추가 합니다.  
+2. 다음 참조를 추가 합니다.  
   
-    1.  EnvDTE  
+    1. EnvDTE  
   
-    2.  EnvDTE80  
+    2. EnvDTE80  
   
-3.  TestOutput.cs, 추가 다음 문을 사용 하 여:  
+3. TestOutput.cs, 추가 다음 문을 사용 하 여:  
   
     ```f#  
     using EnvDTE;  
     using EnvDTE80;  
     ```  
   
-4.  TestOutput.cs, ShowMessageBox 메서드를 삭제 합니다. 다음 메서드 스텁을 추가 합니다.  
+4. TestOutput.cs, ShowMessageBox 메서드를 삭제 합니다. 다음 메서드 스텁을 추가 합니다.  
   
     ```csharp  
     private void OutputCommandHandler(object sender, EventArgs e)  
@@ -50,7 +50,7 @@ ms.locfileid: "58982196"
     }  
     ```  
   
-5.  TestOutput 생성자에서 OutputCommandHandler에 명령 처리기를 변경 합니다. 명령을 추가 하는 파트는 다음과 같습니다.  
+5. TestOutput 생성자에서 OutputCommandHandler에 명령 처리기를 변경 합니다. 명령을 추가 하는 파트는 다음과 같습니다.  
   
     ```csharp  
     OleMenuCommandService commandService = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;  
@@ -63,7 +63,7 @@ ms.locfileid: "58982196"
     }  
     ```  
   
-6.  아래 섹션에서는 출력 창 처리 하는 다른 방법을 보여 주는 다른 방법이 있습니다. OutputCommandHandler() 메서드의 본문에 이러한 메서드를 호출할 수 있습니다. 예를 들어, 다음 코드는 다음 섹션에 지정 된 CreatePane() 메서드를 추가 합니다.  
+6. 아래 섹션에서는 출력 창 처리 하는 다른 방법을 보여 주는 다른 방법이 있습니다. OutputCommandHandler() 메서드의 본문에 이러한 메서드를 호출할 수 있습니다. 예를 들어, 다음 코드는 다음 섹션에 지정 된 CreatePane() 메서드를 추가 합니다.  
   
     ```csharp  
     private void OutputCommandHandler(object sender, EventArgs e)  

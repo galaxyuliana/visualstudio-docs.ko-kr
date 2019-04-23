@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 50ca0b96ecee2c3537ce88c4468efee48c7cd732
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: cd02491b42e9e6a5d677eca35ccde2aa559352c4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940779"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096883"
 ---
 # <a name="event-handlers-propagate-changes-outside-the-model"></a>이벤트 처리기로 모델 외부의 변경 내용 전파
 
@@ -25,21 +25,21 @@ Visualization and Modeling SDK에서와 같은 비 저장소 변수, 파일, 다
 
 ### <a name="to-define-a-store-event"></a>저장소 이벤트를 정의 하려면
 
-1.  모니터링 하려는 이벤트의 유형을 선택 합니다. 속성 전체 목록을 살펴볼 <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>합니다. 각 속성은 이벤트의 형식에 해당 합니다. 가장 자주 유형은 이벤트를 사용 합니다.
+1. 모니터링 하려는 이벤트의 유형을 선택 합니다. 속성 전체 목록을 살펴볼 <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>합니다. 각 속성은 이벤트의 형식에 해당 합니다. 가장 자주 유형은 이벤트를 사용 합니다.
 
-    -   `ElementAdded` -트리거될 때 모델 요소 링크 관계, 모양 또는 커넥터 생성 됩니다.
+    - `ElementAdded` -트리거될 때 모델 요소 링크 관계, 모양 또는 커넥터 생성 됩니다.
 
-    -   ElementPropertyChanged-트리거되는 경우의 값을 `Normal` 도메인 속성이 변경 될 합니다. 이전 및 새 값을 같지 않은 경우에 이벤트가 트리거될 수 있습니다. 이 이벤트는 계산 및 사용자 지정 저장소 속성에 적용할 수 없습니다.
+    - ElementPropertyChanged-트리거되는 경우의 값을 `Normal` 도메인 속성이 변경 될 합니다. 이전 및 새 값을 같지 않은 경우에 이벤트가 트리거될 수 있습니다. 이 이벤트는 계산 및 사용자 지정 저장소 속성에 적용할 수 없습니다.
 
          관계 링크에 해당 하는 역할 속성에 적용할 수 없습니다. 대신 `ElementAdded` 도메인 관계를 모니터링 합니다.
 
-    -   `ElementDeleted` -모델 요소 후에 트리거된, 관계, 모양 또는 커넥터 삭제 되었습니다. 요소의 속성 값을 계속 액세스할 수 있습니다 하지만 관계가 없으면 다른 요소에 더 합니다.
+    - `ElementDeleted` -모델 요소 후에 트리거된, 관계, 모양 또는 커넥터 삭제 되었습니다. 요소의 속성 값을 계속 액세스할 수 있습니다 하지만 관계가 없으면 다른 요소에 더 합니다.
 
-2.  에 대 한 partial 클래스 정의 추가 _YourDsl_**DocData** 별도 코드 파일에는 **DslPackage** 프로젝트입니다.
+2. 에 대 한 partial 클래스 정의 추가 _YourDsl_**DocData** 별도 코드 파일에는 **DslPackage** 프로젝트입니다.
 
-3.  다음 예제와 같이 메서드로 이벤트의 코드를 작성 합니다. 하기란 `static`에 액세스 하려는 경우가 아니면 `DocData`합니다.
+3. 다음 예제와 같이 메서드로 이벤트의 코드를 작성 합니다. 하기란 `static`에 액세스 하려는 경우가 아니면 `DocData`합니다.
 
-4.  재정의 `OnDocumentLoaded()` 처리기를 등록 합니다. 둘 이상의 처리기에 있는 경우에 같은 위치에 모두 등록할 수 있습니다.
+4. 재정의 `OnDocumentLoaded()` 처리기를 등록 합니다. 둘 이상의 처리기에 있는 경우에 같은 위치에 모두 등록할 수 있습니다.
 
 등록 코드의 위치는 중요 하지 않습니다. `DocView.LoadView()` 대체 위치는입니다.
 
@@ -160,11 +160,11 @@ private static void AlbumTitleAdjuster(object sender,
 
 이벤트를 작성 하는 경우 저장소를 업데이트 하는:
 
--   사용 하 여 `store.InUndoRedoOrRollback` 실행 취소의 모델 요소를 변경 하지 않아도 됩니다. 트랜잭션 관리자를 원래 상태로 다시 저장소에 모든를 설정 합니다.
+- 사용 하 여 `store.InUndoRedoOrRollback` 실행 취소의 모델 요소를 변경 하지 않아도 됩니다. 트랜잭션 관리자를 원래 상태로 다시 저장소에 모든를 설정 합니다.
 
--   사용 하 여 `store.InSerializationTransaction` 모델 파일에서 로드 되는 동안 변경 하지 않아도 됩니다.
+- 사용 하 여 `store.InSerializationTransaction` 모델 파일에서 로드 되는 동안 변경 하지 않아도 됩니다.
 
--   변경 내용을 추가를 트리거할 이벤트를 발생 됩니다. 무한 루프를 방지 하는 있는지 확인 합니다.
+- 변경 내용을 추가를 트리거할 이벤트를 발생 됩니다. 무한 루프를 방지 하는 있는지 확인 합니다.
 
 ## <a name="store-event-types"></a>저장소 이벤트 유형
 

@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 10ceddf29a044ac8538c05cbf7cd300759a76de6
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a67b2e1d9cbbad4a9b3426d264e6fecf8623e5a7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692049"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105092"
 ---
 # <a name="what39s-new-in-the-visual-studio-2015-sdk"></a>새로운&#39;Visual Studio 2015 SDK에 새로운
 Visual Studio SDK는 Visual Studio 2015, 업데이트 하는 Visual Studio 2015 및 Visual Studio 2017에 대 한 다음 새로운 및 업데이트 된 기능.
@@ -23,9 +23,9 @@ Visual Studio SDK는 Visual Studio 2015, 업데이트 하는 Visual Studio 2015 
 
  이러한 항목은는 [VSSDK 유틸리티](../extensibility/internals/vssdk-utilities.md) 섹션:
 
--   합니다 [색 테마 도구](../extensibility/internals/color-theming-tools.md) 만들고 Visual Studio에 대 한 사용자 지정 색을 편집할 수 있도록 합니다.
+- 합니다 [색 테마 도구](../extensibility/internals/color-theming-tools.md) 만들고 Visual Studio에 대 한 사용자 지정 색을 편집할 수 있도록 합니다.
 
--   합니다 [이미지 서비스 도구](../extensibility/internals/image-service-tools.md) Visual Studio 이미지에 대 한 매니페스트 파일을 작업할 수 있도록 합니다.
+- 합니다 [이미지 서비스 도구](../extensibility/internals/image-service-tools.md) Visual Studio 이미지에 대 한 매니페스트 파일을 작업할 수 있도록 합니다.
 
 ## <a name="new-way-to-add-the-visual-studio-sdk-to-visual-studio"></a>Visual Studio에는 Visual Studio SDK를 추가 하는 새로운 방법
  Visual Studio 2015부터 Visual Studio SDK를 별도로 다운로드할 필요가 없습니다. 대신 일반 설치 프로세스의 일부로 설치할 수 있습니다 하거나 나중에 설치할 수 있습니다. VSIX 솔루션을 만들거나 열 때 Visual Studio는 Visual Studio 확장성 도구를 설치 하도록 묻습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.
@@ -36,18 +36,18 @@ Visual Studio SDK는 Visual Studio 2015, 업데이트 하는 Visual Studio 2015 
 ### <a name="visual-c-and-visual-basic"></a>Visual C# 및 Visual Basic
  C# 및 Visual Basic의 경우에 Vspackage, 메뉴 명령, 도구 창, 편집기 분류자, 편집기 도구 영역 및 편집기 여백 확장을 만들 수 있도록 하는 프로젝트 항목 템플릿의 전체 범위. 이러한 템플릿 중 일부 또는 모두 표준 VSIX 프로젝트에 추가할 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
--   [메뉴 명령을 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-a-menu-command.md)
+- [메뉴 명령을 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-a-menu-command.md)
 
--   [도구 창으로 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-a-tool-window.md)
+- [도구 창으로 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-a-tool-window.md)
 
--   [편집기 항목 템플릿을 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-an-editor-item-template.md)
+- [편집기 항목 템플릿을 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-an-editor-item-template.md)
 
--   [VSPackage를 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-a-vspackage.md)
+- [VSPackage를 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-a-vspackage.md)
 
      VSPackage 마법사는 더 이상 C# 또는 Visual Basic에서 확장을 만듭니다.
 
 ### <a name="c"></a>C++
- C + +에서 VSPackage 마법사 메뉴 명령, 도구 창 및 사용자 지정 편집기를 지원 합니다. 이 **새 프로젝트** 대화 상자에서 **Visual c + + / 확장성**합니다.
+ 에 대 한 C++를 VSPackage 마법사 지원 메뉴 명령, 도구 창 및 사용자 지정 편집기입니다. 이 **새 프로젝트** 대화 상자에서 **시각적 C++ / 확장성**합니다.
 
 ## <a name="vs-sdk-reference-assemblies-via-nuget"></a>NuGet 통해 VS SDK 참조 어셈블리
  향상 된 이식성 및 확장성 프로젝트의 공유에 대 한 VS SDK 참조 어셈블리의 NuGet 버전을 사용할 수 있습니다. 이러한 어셈블리는에서 사용할 수 있습니다 [nuget.org](http://www.nuget.org) 공개한 [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility) 프로젝트 또는 Visual Studio를 통해 솔루션을 쉽게 추가할 수 있습니다 및 **참조 / 관리 NuGet 패키지** 대화 합니다. 특정 확장성 어셈블리에 대 한 개별 참조를 추가 하거나 VS SDK를 모두 한 번에 VS SDK를 사용 하 여 어셈블리 참조를 추가할 수 있습니다 [메타 패키지가](http://www.nuget.org/packages/VSSDK_Reference_Assemblies)합니다. NuGet에 대 한 자세한 내용은 참조는 [NuGet 설명서](/NuGet) 하 고 [패키지 관리자 UI](/NuGet/Tools/Package-Manager-UI) 항목입니다.
