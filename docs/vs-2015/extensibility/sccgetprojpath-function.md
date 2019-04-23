@@ -12,23 +12,23 @@ ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 053d8ff8f7e75224b05b1a722ba1bce03cd53a59
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4c7a4af5928f1d7b803e882c1826e451982389bc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972672"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093932"
 ---
 # <a name="sccgetprojpath-function"></a>SccGetProjPath 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 함수는 프로젝트 경로 소스 제어 플러그 인에 의미 있는 문자열에 대 한 라는 메시지입니다. 사용자가 있는 경우 라고 합니다.  
   
--   새 프로젝트 만들기  
+- 새 프로젝트 만들기  
   
--   버전 제어에 기존 프로젝트 추가  
+- 버전 제어에 기존 프로젝트 추가  
   
--   기존 버전 제어 프로젝트를 찾으려고 시도  
+- 기존 버전 제어 프로젝트를 찾으려고 시도  
   
 ## <a name="syntax"></a>구문  
   

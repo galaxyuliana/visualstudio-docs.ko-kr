@@ -13,18 +13,18 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 87f8f60985f9dfe8629cfd96bcffc9926b8a56e1
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 38a4ea987a1b7514d19433f3da75e269fcaf50ec
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662012"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093763"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a>장애인을 위한 내게 필요한 옵션
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽게 만들기 위해 최선을 다하고 있습니다. 다음 항목에서는 장애가 있는 사용자가 Microsoft [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]을(를) 좀 더 쉽게 이용할 수 있도록 돕는 기능, 제품 및 서비스에 대해 다룹니다.  
   
--   [Visual Studio의 접근성 기능](../../ide/reference/accessibility-features-of-visual-studio.md)  
+- [Visual Studio의 접근성 기능](../../ide/reference/accessibility-features-of-visual-studio.md)  
   
--   [도움말 뷰어의 접근성 기능](../../ide/accessibility-features-of-the-help-viewer.md)
+- [도움말 뷰어의 접근성 기능](../../ide/accessibility-features-of-the-help-viewer.md)

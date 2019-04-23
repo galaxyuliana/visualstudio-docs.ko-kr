@@ -9,12 +9,12 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: bb12e0691d4e867a73b9c8999d0ad57cebd7ec44
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c1a5e5d8d33fed3c4e6348bcf2598f7093de5c98
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983127"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093112"
 ---
 # <a name="walkthrough-capturing-graphics-information-programmatically"></a>연습: 프로그래밍 방식으로 그래픽 정보 캡처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,22 +23,22 @@ ms.locfileid: "58983127"
   
  프로그래밍 방식 캡처는 다음과 같은 시나리오에서 유용합니다.  
   
--   그래픽 앱이 swapchain present를 사용하지 않는 경우(예: 텍스처로 렌더링하는 경우) 프로그래밍 방식으로 캡처를 시작합니다.  
+- 그래픽 앱이 swapchain present를 사용하지 않는 경우(예: 텍스처로 렌더링하는 경우) 프로그래밍 방식으로 캡처를 시작합니다.  
   
--   앱이 렌더링되지 않는 경우(예: DirectCompute를 사용하여 계산을 수행하는 경우) 프로그래밍 방식으로 캡처를 시작합니다.  
+- 앱이 렌더링되지 않는 경우(예: DirectCompute를 사용하여 계산을 수행하는 경우) 프로그래밍 방식으로 캡처를 시작합니다.  
   
--   수동 테스트로는 렌더링 문제를 예측하고 캡처하기 어려워도 런타임의 앱 상태에 대한 정보를 사용하여 프로그래밍 방식으로 예측할 수 있는 경우 `CaptureCurrentFrame`을 호출합니다.  
+- 수동 테스트로는 렌더링 문제를 예측하고 캡처하기 어려워도 런타임의 앱 상태에 대한 정보를 사용하여 프로그래밍 방식으로 예측할 수 있는 경우 `CaptureCurrentFrame`을 호출합니다.  
   
-##  <a name="CaptureDX11_2"></a> Windows 8.1의 프로그래밍 방식 캡처  
+## <a name="CaptureDX11_2"></a> Windows 8.1의 프로그래밍 방식 캡처  
  이 연습 부분에서는 Windows 8.1에서 DirectX 11.2 API를 사용하는 앱의 프로그래밍 방식 캡처를 보여 줍니다. 이 API는 강력한 캡처 방법을 사용합니다. Windows 8.0에서 이전 버전의 DirectX를 사용하는 앱에서 프로그래밍 캡처를 사용하는 방법에 대한 자세한 내용은 이 연습 뒷부분의 [Programmatic capture in Windows 8.0 and earlier](#CaptureDX11_1) 를 참조하세요.  
   
  이 섹션에서는 다음 작업을 수행하는 방법을 보여줍니다.  
   
--   프로그래밍 캡처를 사용하도록 앱 준비  
+- 프로그래밍 캡처를 사용하도록 앱 준비  
   
--   IDXGraphicsAnalysis 인터페이스 가져오기  
+- IDXGraphicsAnalysis 인터페이스 가져오기  
   
--   그래픽 정보 캡처  
+- 그래픽 정보 캡처  
   
 > [!NOTE]
 >  프로그래밍 방식 캡처의 이전 구현에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 용 원격 도구를 사용하여 캡처 기능을 제공했으나 Windows 8.1에서는 Direct3D 11.2를 통해 캡처 기능을 직접 지원합니다. 따라서 Windows 8.1에서는 더 이상 프로그래밍 캡처를 위해 원격 도구를 설치할 필요가 없습니다.  
@@ -48,7 +48,7 @@ ms.locfileid: "58983127"
   
 ##### <a name="to-include-programmatic-capture-headers"></a>프로그래밍 캡처 헤더를 포함하려면  
   
--   IDXGraphicsAnalysis 인터페이스를 정의할 소스 파일에 다음 헤더 파일을 포함합니다.  
+- IDXGraphicsAnalysis 인터페이스를 정의할 소스 파일에 다음 헤더 파일을 포함합니다.  
   
     ```  
     #include <DXGItype.h>  
@@ -89,7 +89,7 @@ ms.locfileid: "58983127"
   
 ##### <a name="to-get-the-idxgraphicsanalysis-interface"></a>IDXGraphicsAnalysis 인터페이스를 가져오려면  
   
--   다음 코드를 사용하여 IDXGraphicsAnalysis 인터페이스를 DXGI 디버그 인터페이스에 연결합니다.  
+- 다음 코드를 사용하여 IDXGraphicsAnalysis 인터페이스를 DXGI 디버그 인터페이스에 연결합니다.  
   
     ```  
     IDXGraphicsAnalysis* pGraphicsAnalysis;  
@@ -113,7 +113,7 @@ ms.locfileid: "58983127"
   
 ##### <a name="to-capture-graphics-information"></a>그래픽 정보를 캡처하려면  
   
--   그래픽 정보 캡처를 시작하려면 다음과 같이 `BeginCapture`를 사용합니다.  
+- 그래픽 정보 캡처를 시작하려면 다음과 같이 `BeginCapture`를 사용합니다.  
   
     ```  
     ...  
@@ -129,18 +129,18 @@ ms.locfileid: "58983127"
     ...  
     ```  
   
-##  <a name="CaptureDX11_1"></a> Programmatic capture in Windows 8.0 and earlier  
+## <a name="CaptureDX11_1"></a> Programmatic capture in Windows 8.0 and earlier  
  이 연습 부분에서는 DirectX 11.1 API를 사용하는 Windows 8.0 및 이전 버전용 앱의 프로그래밍 방식 캡처를 보여 줍니다. 이 API는 레거시 캡처 방법을 사용합니다. Windows 8.1에서 DirectX 11.2를 사용하는 앱에서 프로그래밍 캡처를 사용하는 방법에 대한 자세한 내용은 이 연습 뒷부분의 [Windows 8.1의 프로그래밍 방식 캡처](#CaptureDX11_2) 를 참조하세요.  
   
  이 부분에서는 다음 작업을 수행하는 방법을 보여줍니다.  
   
--   프로그래밍 캡처를 사용하도록 컴퓨터 준비  
+- 프로그래밍 캡처를 사용하도록 컴퓨터 준비  
   
--   프로그래밍 캡처를 사용하도록 앱 준비  
+- 프로그래밍 캡처를 사용하도록 앱 준비  
   
--   그래픽 로그 파일의 이름 및 위치 구성  
+- 그래픽 로그 파일의 이름 및 위치 구성  
   
--   `CaptureCurrentFrame` API 사용  
+- `CaptureCurrentFrame` API 사용  
   
 ### <a name="preparing-your-computer-to-use-programmatic-capture"></a>프로그래밍 캡처를 사용하도록 컴퓨터 준비  
  프로그래밍 캡처 API는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 용 원격 도구를 사용하여 캡처 기능을 제공합니다. 로컬 컴퓨터에서 프로그래밍 캡처를 사용하더라도 앱을 실행할 컴퓨터에는 원격 도구가 설치되어 있어야 합니다. 로컬 컴퓨터에서 프로그래밍 캡처를 수행하는 경우[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 를 실행 중일 필요는 없습니다.  
@@ -157,9 +157,9 @@ ms.locfileid: "58983127"
   
 ##### <a name="to-prepare-your-app-to-capture-graphics-information-programmatically"></a>그래픽 정보를 프로그래밍 방식으로 캡처하도록 앱을 준비하려면  
   
-1.  `vsgcapture.h` 헤더가 앱의 소스 코드에 포함되어 있는지 확인합니다. 헤더는 단 한 곳, 예를 들어 프로그래밍 캡처 API를 호출할 소스 코드 파일에 포함하거나 여러 소스 코드 파일에서 API를 호출하기 위해 미리 컴파일된 헤더 파일에 포함할 수 있습니다.  
+1. `vsgcapture.h` 헤더가 앱의 소스 코드에 포함되어 있는지 확인합니다. 헤더는 단 한 곳, 예를 들어 프로그래밍 캡처 API를 호출할 소스 코드 파일에 포함하거나 여러 소스 코드 파일에서 API를 호출하기 위해 미리 컴파일된 헤더 파일에 포함할 수 있습니다.  
   
-2.  현재 프레임의 나머지를 캡처하려고 할 때마다 앱의 소스 코드에서 `g_pVsgDbg->CaptureCurrentFrame()`을 호출합니다. 이 방법은 매개 변수를 사용하지 않고 값을 반환하지 않습니다.  
+2. 현재 프레임의 나머지를 캡처하려고 할 때마다 앱의 소스 코드에서 `g_pVsgDbg->CaptureCurrentFrame()`을 호출합니다. 이 방법은 매개 변수를 사용하지 않고 값을 반환하지 않습니다.  
   
 ### <a name="configuring-the-name-and-location-of-the-graphics-log-file"></a>그래픽 로그 파일의 이름 및 위치 구성  
  그래픽 로그는 `DONT_SAVE_VSGLOG_TO_TEMP` 및 `VSG_DEFAULT_RUN_FILENAME` 매크로가 정의한 위치에 생성됩니다.  
@@ -196,7 +196,7 @@ ms.locfileid: "58983127"
 ## <a name="next-steps"></a>다음 단계  
  이 연습에서는 그래픽 정보를 프로그래밍 방식으로 캡처하는 방법을 보여주었습니다. 다음 단계로 아래 옵션을 고려해 보세요.  
   
--   그래픽 진단 도구를 사용하여 캡처한 그래픽 정보를 분석하는 방법에 대해 알아봅니다. 참조 [개요](../debugger/overview-of-visual-studio-graphics-diagnostics.md)합니다.  
+- 그래픽 진단 도구를 사용하여 캡처한 그래픽 정보를 분석하는 방법에 대해 알아봅니다. 참조 [개요](../debugger/overview-of-visual-studio-graphics-diagnostics.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 그래픽 정보 캡처](../debugger/walkthrough-capturing-graphics-information.md)   

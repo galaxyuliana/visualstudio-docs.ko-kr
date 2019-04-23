@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eb8a9990c28d30d00efdfd98bd106dcd12b05c66
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 70960cc92d60ebbffa34dda75557dfcb9a1a0d67
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913381"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092723"
 ---
 # <a name="how-to-add-a-command-to-the-shortcut-menu"></a>방법: 바로 가기 메뉴에 명령 추가
 
@@ -50,7 +50,7 @@ MEF(Managed Extension Framework)는 다이어그램 메뉴의 메뉴 명령을 �
 
    그 외의 경우에는 MEF 메서드를 사용하여 명령을 정의하는 것이 좋습니다. 자세한 내용은 [MEF를 사용 하 여 DSL 확장](../modeling/extend-your-dsl-by-using-mef.md)합니다.
 
-##  <a name="VSCT"></a> Commands.Vsct에서 명령을 선언 합니다.
+## <a name="VSCT"></a> Commands.Vsct에서 명령을 선언 합니다.
  DslPackage\Commands.vsct에서 메뉴 명령을 선언합니다. 이러한 정의는 메뉴 항목의 레이블 및 메뉴에서 항목이 표시되는 위치를 지정합니다.
 
  Commands.vsct 파일을 편집 하는 디렉터리에 있는 여러.h 파일에서 정의 가져옵니다 *Visual Studio SDK 설치 경로*\VisualStudioIntegration\Common\Inc 합니다. 또한 DSL 정의에서 생성되는 GeneratedVsct.vsct도 포함합니다.
@@ -59,9 +59,9 @@ MEF(Managed Extension Framework)는 다이어그램 메뉴의 메뉴 명령을 �
 
 ### <a name="to-add-the-command"></a>명령을 추가하려면
 
-1.  **솔루션 탐색기**아래에 있는 합니다 **DslPackage** 프로젝트에서 Commands.vsct를 엽니다.
+1. **솔루션 탐색기**아래에 있는 합니다 **DslPackage** 프로젝트에서 Commands.vsct를 엽니다.
 
-2.  `Commands` 요소에서 하나 이상의 단추와 하나의 그룹을 정의합니다. A *단추* 메뉴의 항목입니다. A *그룹* 메뉴에서 섹션입니다. 이러한 항목을 정의하려면 다음 요소를 추가합니다.
+2. `Commands` 요소에서 하나 이상의 단추와 하나의 그룹을 정의합니다. A *단추* 메뉴의 항목입니다. A *그룹* 메뉴에서 섹션입니다. 이러한 항목을 정의하려면 다음 요소를 추가합니다.
 
     ```xml
     <!-- Define a group - a section in the menu -->
@@ -90,7 +90,7 @@ MEF(Managed Extension Framework)는 다이어그램 메뉴의 메뉴 명령을 �
     > [!NOTE]
     > 각 단추나 그룹은 GUID 및 정수 ID로 식별됩니다. 같은 GUID로 여러 그룹과 단추를 만들 수 있지만 이러한 항목의 ID는 각각 달라야 합니다. GUID 이름과 ID는 변환할 실제 Guid와 숫자 Id를 `<Symbols>` 노드.
 
-3.  명령이 DSL 컨텍스트에서만 로드되도록 명령에 대한 표시 유형 제약 조건을 추가합니다. 자세한 내용은 [VisibilityConstraints 요소](../extensibility/visibilityconstraints-element.md)합니다.
+3. 명령이 DSL 컨텍스트에서만 로드되도록 명령에 대한 표시 유형 제약 조건을 추가합니다. 자세한 내용은 [VisibilityConstraints 요소](../extensibility/visibilityconstraints-element.md)합니다.
 
      이렇게 하려면 `CommandTable` 요소에서 `Commands` 요소 뒤에 다음 요소를 추가합니다.
 
@@ -102,7 +102,7 @@ MEF(Managed Extension Framework)는 다이어그램 메뉴의 메뉴 명령을 �
     </VisibilityConstraints>
     ```
 
-4.  GUID 및 ID에 사용되는 이름을 정의합니다. 이렇게 하려면 `Symbols` 요소에서 `CommandTable` 요소 뒤에 `Commands` 요소를 추가합니다.
+4. GUID 및 ID에 사용되는 이름을 정의합니다. 이렇게 하려면 `Symbols` 요소에서 `CommandTable` 요소 뒤에 `Commands` 요소를 추가합니다.
 
     ```xml
     <Symbols>
@@ -115,37 +115,37 @@ MEF(Managed Extension Framework)는 다이어그램 메뉴의 메뉴 명령을 �
     </Symbols>
     ```
 
-5.  `{000...000}`는 그룹 및 메뉴 항목을 식별하는 GUID로 바꿉니다. 새 GUID를 가져오려면 합니다 **GUID 만들기** 도구를 **도구** 메뉴.
+5. `{000...000}`는 그룹 및 메뉴 항목을 식별하는 GUID로 바꿉니다. 새 GUID를 가져오려면 합니다 **GUID 만들기** 도구를 **도구** 메뉴.
 
     > [!NOTE]
     >  그룹 또는 메뉴 항목을 더 추가하는 경우 같은 GUID를 사용할 수 있습니다. 그러나 `IDSymbols`에는 새 값을 사용해야 합니다.
 
-6.  이 절차에서 복사한 코드에서 다음 문자열이 나오면 실제 환경에 맞는 문자열로 바꿉니다.
+6. 이 절차에서 복사한 코드에서 다음 문자열이 나오면 실제 환경에 맞는 문자열로 바꿉니다.
 
-    -   `grpidMyMenuGroup`
+    - `grpidMyMenuGroup`
 
-    -   `cmdidMyContextMenuCommand`
+    - `cmdidMyContextMenuCommand`
 
-    -   `guidCustomMenuCmdSet`
+    - `guidCustomMenuCmdSet`
 
-    -   `My Context Menu Command`
+    - `My Context Menu Command`
 
-##  <a name="version"></a> Package.tt에서 패키지 버전 업데이트
+## <a name="version"></a> Package.tt에서 패키지 버전 업데이트
  명령을 추가하거나 변경할 때마다 새 DSL 버전을 릴리스하기 전에 패키지 클래스에 적용되는 `version`의 <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> 매개 변수를 업데이트합니다.
 
  패키지 클래스는 생성된 파일에서 정의되므로 Package.cs 파일을 생성하는 텍스트 템플릿 파일에서 특성을 업데이트합니다.
 
 ### <a name="to-update-the-packagett-file"></a>Package.tt 파일을 업데이트하려면
 
-1.  **솔루션 탐색기**를 **DslPackage** 프로젝트를 합니다 **GeneratedCode** 폴더 Package.tt 파일을 엽니다.
+1. **솔루션 탐색기**를 **DslPackage** 프로젝트를 합니다 **GeneratedCode** 폴더 Package.tt 파일을 엽니다.
 
-2.  `ProvideMenuResource` 특성을 찾습니다.
+2. `ProvideMenuResource` 특성을 찾습니다.
 
-3.  특성의 `version` 매개 변수(두 번째 매개 변수)를 증분합니다. 원하는 경우 용도에 맞게 매개 변수 이름을 명시적으로 작성할 수 있습니다. 예를 들어:
+3. 특성의 `version` 매개 변수(두 번째 매개 변수)를 증분합니다. 원하는 경우 용도에 맞게 매개 변수 이름을 명시적으로 작성할 수 있습니다. 예를 들어:
 
      `[VSShell::ProvideMenuResource("1000.ctmenu", version: 2 )]`
 
-##  <a name="CommandSet"></a> 명령의 동작을 정의 합니다.
+## <a name="CommandSet"></a> 명령의 동작을 정의 합니다.
 
 DS에는 DslPackage\GeneratedCode\CommandSet.cs에서 선언된 partial 클래스에서 구현되는 일부 명령이 이미 포함되어 있습니다. 새 명령을 추가하려면 같은 클래스의 partial 선언을 포함하는 새 파일을 만들어 이 클래스를 확장해야 합니다. 클래스의 이름은 일반적으로  *\<d s l 이름 >*`CommandSet`합니다. 클래스의 이름을 확인 하 고 해당 내용을 검사 하 여 시작 하는 것이 유용 합니다.
 
@@ -153,15 +153,15 @@ DS에는 DslPackage\GeneratedCode\CommandSet.cs에서 선언된 partial 클래�
 
 ### <a name="extend-the-commandset-class"></a>CommandSet 클래스를 확장 합니다.
 
-1.  솔루션 탐색기의 DslPackage 프로젝트에서 GeneratedCode 폴더를 열고 CommandSet.tt를 확인하여 생성된 CommandSet.cs 파일을 엽니다. 이 파일에 정의된 첫 번째 클래스의 이름과 네임스페이스를 확인합니다. 예를 들어 다음과 같은 코드가 표시될 수 있습니다.
+1. 솔루션 탐색기의 DslPackage 프로젝트에서 GeneratedCode 폴더를 열고 CommandSet.tt를 확인하여 생성된 CommandSet.cs 파일을 엽니다. 이 파일에 정의된 첫 번째 클래스의 이름과 네임스페이스를 확인합니다. 예를 들어 다음과 같은 코드가 표시될 수 있습니다.
 
      `namespace Company.Language1`
 
      `{ ...  internal partial class Language1CommandSet : ...`
 
-2.  **DslPackage**, 라는 폴더를 만듭니다 **사용자 지정 코드**합니다. 이 폴더에 라는 새 클래스 파일을 만듭니다 `CommandSet.cs`합니다.
+2. **DslPackage**, 라는 폴더를 만듭니다 **사용자 지정 코드**합니다. 이 폴더에 라는 새 클래스 파일을 만듭니다 `CommandSet.cs`합니다.
 
-3.  새 파일에 생성된 partial 클래스와 이름 및 네임스페이스가 같은 partial 선언을 작성합니다. 예를 들어:
+3. 새 파일에 생성된 partial 클래스와 이름 및 네임스페이스가 같은 partial 선언을 작성합니다. 예를 들어:
 
      `namespace Company.Language1 /* Make sure this is correct */`
 
@@ -322,13 +322,13 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 ### <a name="to-exercise-the-command"></a>명령을 실행해 보려면
 
-1.  에 **솔루션 탐색기** 도구 모음에서 클릭 **모든 템플릿 변환**합니다.
+1. 에 **솔루션 탐색기** 도구 모음에서 클릭 **모든 템플릿 변환**합니다.
 
-2.  키를 눌러 **F5** 에 솔루션을 다시 빌드하고 실험적 빌드에서 도메인 특정 언어를 디버깅을 시작 합니다.
+2. 키를 눌러 **F5** 에 솔루션을 다시 빌드하고 실험적 빌드에서 도메인 특정 언어를 디버깅을 시작 합니다.
 
-3.  실험적 빌드에서 샘플 다이어그램을 엽니다.
+3. 실험적 빌드에서 샘플 다이어그램을 엽니다.
 
-4.  다이어그램의 여러 항목을 마우스 오른쪽 단추로 클릭하여 명령을 정상적으로 사용하거나 사용하지 않도록 설정하며 선택한 항목에 따라 적절하게 표시되거나 숨겨지는지를 확인합니다.
+4. 다이어그램의 여러 항목을 마우스 오른쪽 단추로 클릭하여 명령을 정상적으로 사용하거나 사용하지 않도록 설정하며 선택한 항목에 따라 적절하게 표시되거나 숨겨지는지를 확인합니다.
 
 ## <a name="troubleshoot"></a>문제 해결
 
@@ -344,11 +344,11 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 **OnStatus 메서드가 호출 되지 않습니다**:
 
--   CommandSet 코드의 GUID 및 ID가 Commands.vsct의 Symbols 섹션에 포함된 GUID 및 ID와 일치하는지 확인합니다.
+- CommandSet 코드의 GUID 및 ID가 Commands.vsct의 Symbols 섹션에 포함된 GUID 및 ID와 일치하는지 확인합니다.
 
--   Commands.vsct에서 모든 Parent 노드의 GUID 및 ID가 올바른 부모 그룹을 식별하는지 확인합니다.
+- Commands.vsct에서 모든 Parent 노드의 GUID 및 ID가 올바른 부모 그룹을 식별하는지 확인합니다.
 
--   Visual Studio 명령 프롬프트에서 devenv /rootsuffix exp /setup을 입력합니다. 그런 다음 Visual Studio 디버깅 인스턴스를 다시 시작합니다.
+- Visual Studio 명령 프롬프트에서 devenv /rootsuffix exp /setup을 입력합니다. 그런 다음 Visual Studio 디버깅 인스턴스를 다시 시작합니다.
 
 - OnStatus 메서드를 단계별로 실행하여 command.Visible 및 command.Enabled가 true로 설정되는지 확인합니다.
 

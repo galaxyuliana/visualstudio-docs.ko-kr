@@ -21,12 +21,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2421121e343fabbe3f2ec7d88ec087c6b84c8709
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b0d27b8a326f72098df7f700c2bc3fac8b85e109
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980923"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092931"
 ---
 # <a name="how-to-write-a-visualizer"></a>방법: 시각화 도우미 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,19 +62,19 @@ ms.locfileid: "58980923"
   
 ### <a name="to-create-the-debugger-side"></a>디버거 쪽 코드를 만들려면  
   
-1.  <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider> 메서드를 사용하여 디버거 쪽에서 시각화되는 개체를 가져옵니다.  
+1. <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider> 메서드를 사용하여 디버거 쪽에서 시각화되는 개체를 가져옵니다.  
   
-2.  <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>에서 상속된 클래스를 만듭니다.  
+2. <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>에서 상속된 클래스를 만듭니다.  
   
-3.  <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> 메서드를 재정의하여 인터페이스를 표시합니다. <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> 메서드를 사용하여 Windows Forms, 대화 상자 및 컨트롤을 인터페이스의 일부로 표시합니다.  
+3. <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> 메서드를 재정의하여 인터페이스를 표시합니다. <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> 메서드를 사용하여 Windows Forms, 대화 상자 및 컨트롤을 인터페이스의 일부로 표시합니다.  
   
-4.  시각화 도우미(<xref:System.Diagnostics.DebuggerVisualizerAttribute>)를 제공하여 <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>를 적용합니다.  
+4. 시각화 도우미(<xref:System.Diagnostics.DebuggerVisualizerAttribute>)를 제공하여 <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>를 적용합니다.  
   
 ### <a name="to-create-the-debuggee-side"></a>디버기 쪽 코드를 만들려면  
   
-1.  시각화 도우미(<xref:System.Diagnostics.DebuggerVisualizerAttribute>)와 개체 소스(<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>)를 제공하여 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>를 적용합니다. 개체 소스를 제공하지 않으면 기본 개체 소스가 사용됩니다.  
+1. 시각화 도우미(<xref:System.Diagnostics.DebuggerVisualizerAttribute>)와 개체 소스(<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>)를 제공하여 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>를 적용합니다. 개체 소스를 제공하지 않으면 기본 개체 소스가 사용됩니다.  
   
-2.  시각화 도우미에서 데이터 개체를 표시할 뿐만 아니라 편집할 수도 있도록 하려면 `TransferData`에서 `CreateReplacementObject` 또는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> 메서드를 재정의해야 합니다.  
+2. 시각화 도우미에서 데이터 개체를 표시할 뿐만 아니라 편집할 수도 있도록 하려면 `TransferData`에서 `CreateReplacementObject` 또는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> 메서드를 재정의해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [사용자 지정 시각화 도우미 만들기](../debugger/create-custom-visualizers-of-data.md)   

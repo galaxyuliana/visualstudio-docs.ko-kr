@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3501c963a3fdc97151fdacce723942ca4e4bc93f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 480a355ee2af321341c54b90edcc582d49102186
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628886"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092866"
 ---
 # <a name="event-logging-for-office-solutions"></a>Office 솔루션에 대 한 이벤트 로깅
   Windows에서 이벤트 뷰어를 사용하여 Office 솔루션을 설치하거나 제거할 때 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 에서 캡처되는 예외 메시지를 확인할 수 있습니다. 이벤트 로거에서 이러한 메시지를 사용하여 설치 및 배포 문제를 해결할 수 있습니다.
@@ -32,19 +32,19 @@ ms.locfileid: "56628886"
 
 ### <a name="to-read-the-event-log-in-windows-server-2003-and-windows-xp"></a>Windows Server 2003 및 Windows XP의 이벤트 로그를 읽으려면
 
-1.  제어판에서 **관리 도구**를 엽니다.
+1. 제어판에서 **관리 도구**를 엽니다.
 
-2.  **이벤트 뷰어**를 시작합니다.
+2. **이벤트 뷰어**를 시작합니다.
 
-3.  이벤트 로그의 목록에서 **애플리케이션**을 선택합니다.
+3. 이벤트 로그의 목록에서 **애플리케이션**을 선택합니다.
 
-4.  **보기** 메뉴에서 **필터**를 클릭합니다.
+4. **보기** 메뉴에서 **필터**를 클릭합니다.
 
-5.  **이벤트 원본** 목록에서 **VSTO 4.0**을 선택합니다.
+5. **이벤트 원본** 목록에서 **VSTO 4.0**을 선택합니다.
 
-6.  설치 이벤트의 경우 **이벤트 ID** 상자에 **4096**을 입력합니다.
+6. 설치 이벤트의 경우 **이벤트 ID** 상자에 **4096**을 입력합니다.
 
-7.  **확인** 을 클릭하여 필터링된 보기를 확인합니다.
+7. **확인** 을 클릭하여 필터링된 보기를 확인합니다.
 
 ### <a name="to-read-the-event-log-in-windows-7-windows-vista-and-windows-server-2008"></a>Windows 7, Windows Vista 및 Windows Server 2008 이벤트 로그를 읽으려면
 
@@ -84,17 +84,17 @@ ms.locfileid: "56628886"
 
 ### <a name="to-disable-the-event-log"></a>이벤트 로그를 사용 하지 않도록 설정
 
-1.  제어판에서 **시스템**을 엽니다.
+1. 제어판에서 **시스템**을 엽니다.
 
-2.  **고급** 탭에서 **환경 변수**를 클릭합니다.
+2. **고급** 탭에서 **환경 변수**를 클릭합니다.
 
-3.  **시스템 변수** 창에서 **새로 만들기**를 클릭합니다.
+3. **시스템 변수** 창에서 **새로 만들기**를 클릭합니다.
 
-4.  **새 시스템 변수** 대화 상자에서 **변수 이름** 상자에 **VSTO_EVENTLOGDISABLED** 를 입력합니다.
+4. **새 시스템 변수** 대화 상자에서 **변수 이름** 상자에 **VSTO_EVENTLOGDISABLED** 를 입력합니다.
 
-5.  **변수 값** 상자에 **1**을 입력합니다.
+5. **변수 값** 상자에 **1**을 입력합니다.
 
-6.  **확인**을 클릭합니다.
+6. **확인**을 클릭합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)

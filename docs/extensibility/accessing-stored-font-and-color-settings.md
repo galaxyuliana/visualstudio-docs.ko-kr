@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 66bbab5cf82d4ada241d8e5b3a4213ac51ecffd2
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: c270c67d21c023310df5b25c015afa754787a33f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335456"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093558"
 ---
 # <a name="access-stored-font-and-color-settings"></a>저장 된 글꼴 및 색 설정에 액세스
 
@@ -29,21 +29,21 @@ Visual Studio 통합된 개발 환경 (IDE) 저장 레지스트리에서 글꼴 
 
 따라서에 지 속성을 시작 하려면 VSPackage 수행 해야 합니다.
 
--   가져올는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스를 호출 하 여 `QueryService` 전역 서비스 공급자에 대 한 합니다.
+- 가져올는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스를 호출 하 여 `QueryService` 전역 서비스 공급자에 대 한 합니다.
 
      `QueryService` 서비스 ID 인수를 사용 하 여 호출 해야 합니다 `SID_SVsFontAndColorStorage` 와의 인터페이스 ID 인수 `IID_IVsFontAndColorStorage`합니다.
 
--   사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> 메서드 인수로 범주의 GUID 및 모드 플래그를 사용 하 여 지속할 범주를 열려고 합니다.
+- 사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> 메서드 인수로 범주의 GUID 및 모드 플래그를 사용 하 여 지속할 범주를 열려고 합니다.
 
      지정 된 모드를는 `fFlags` 인수를 값에서 생성 되는 <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> 열거형입니다. 이 모드를 제어합니다.
 
-    -   통해 액세스할 수 있는 설정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.
+    - 통해 액세스할 수 있는 설정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.
 
-    -   모든 설정 또는 사용자가 수정할을 통해 검색할 수 있는 설정만 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.
+    - 모든 설정 또는 사용자가 수정할을 통해 검색할 수 있는 설정만 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.
 
-    -   사용자 설정 변경 내용을 전파 방식입니다.
+    - 사용자 설정 변경 내용을 전파 방식입니다.
 
-    -   사용 되는 색 값의 형식입니다.
+    - 사용 되는 색 값의 형식입니다.
 
 ## <a name="to-use-state-persistence-of-fonts-and-colors"></a>글꼴 및 색의 상태 지 속성을 사용 하려면
 

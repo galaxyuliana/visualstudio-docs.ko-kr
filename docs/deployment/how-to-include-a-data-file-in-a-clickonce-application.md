@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 470ee530a61ecba5c1acd40be88c469fee6d4f5e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: fd2db09937ad76c0ea4c990fcdba5c34a0f8f66c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596271"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093880"
 ---
 # <a name="how-to-include-a-data-file-in-a-clickonce-application"></a>방법: ClickOnce 애플리케이션에 데이터 파일 포함
 각 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 설치한 응용 프로그램 데이터 디렉터리는 응용 프로그램의 고유한 데이터를 관리할 수 있는 대상 컴퓨터의 로컬 디스크에 할당 됩니다. 데이터 파일의 파일 형식 포함할 수 있습니다: 텍스트 파일, XML 파일 또는 심지어 Microsoft Access 데이터베이스 (*.mdb*) 파일입니다. 다음 절차에서는 임의의 형식으로의 데이터 파일을 추가 하는 방법에 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다.
@@ -60,27 +60,27 @@ ms.locfileid: "56596271"
 
 ### <a name="to-include-a-data-file-by-using-mageuiexe"></a>MageUI.exe를 사용 하 여 데이터 파일을 포함 하려면
 
-1.  응용 프로그램 파일의 나머지 부분을 사용 하 여 응용 프로그램 디렉터리에 데이터 파일을 추가 합니다.
+1. 응용 프로그램 파일의 나머지 부분을 사용 하 여 응용 프로그램 디렉터리에 데이터 파일을 추가 합니다.
 
-2.  일반적으로 응용 프로그램 디렉터리 배포의 현재 버전을 사용 하 여 레이블이 지정 된 디렉터리 됩니다-예를 들어 v1.0.0.0 합니다.
+2. 일반적으로 응용 프로그램 디렉터리 배포의 현재 버전을 사용 하 여 레이블이 지정 된 디렉터리 됩니다-예를 들어 v1.0.0.0 합니다.
 
-3.  에 **파일** 메뉴에서 클릭 **엽니다** 여 응용 프로그램 매니페스트를 엽니다.
+3. 에 **파일** 메뉴에서 클릭 **엽니다** 여 응용 프로그램 매니페스트를 엽니다.
 
-4.  선택 된 **파일** 탭 합니다.
+4. 선택 된 **파일** 탭 합니다.
 
-5.  탭의 맨 위에 있는 텍스트 상자에 응용 프로그램의 파일을 포함 하는 디렉터리를 입력 한 다음 클릭 **채우기**합니다.
+5. 탭의 맨 위에 있는 텍스트 상자에 응용 프로그램의 파일을 포함 하는 디렉터리를 입력 한 다음 클릭 **채우기**합니다.
 
      데이터 파일 표에 표시 됩니다.
 
-6.  설정 된 **파일 형식** 데이터 파일의 값 **데이터**입니다.
+6. 설정 된 **파일 형식** 데이터 파일의 값 **데이터**입니다.
 
-7.  응용 프로그램 매니페스트를 저장 하 고 파일에 다시 서명 합니다.
+7. 응용 프로그램 매니페스트를 저장 하 고 파일에 다시 서명 합니다.
 
      *MageUI.exe* 파일에 다시 서명 하 라는 메시지가 표시 됩니다.
 
-8.  배포 매니페스트에 다시 서명
+8. 배포 매니페스트에 다시 서명
 
      응용 프로그램 매니페스트의 해시가 변경 되었기 때문에 배포 매니페스트에 다시 서명 해야 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 애플리케이션의 로컬 및 원격 데이터 액세스](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)
