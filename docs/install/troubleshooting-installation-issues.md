@@ -1,7 +1,7 @@
 ---
 title: 설치 및 업그레이드 문제 해결
 description: 때로는 무엇인가 잘못될 수도 있습니다. Visual Studio 설치 또는 업그레이드에 실패할 경우 이 페이지가 도움이 될 수 있습니다.
-ms.date: 08/01/2018
+ms.date: 03/30/2019
 ms.custom: seodec18
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -15,12 +15,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 464bd3a6e4c5ed8ade1f9174ff205e2eda5c4aff
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 5de7976af32601b6df188162aef0e129789a5147
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58325122"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58857387"
 ---
 # <a name="troubleshoot-visual-studio-installation-and-upgrade-issues"></a>Visual Studio 설치 및 업그레이드 문제 해결
 
@@ -35,7 +35,17 @@ ms.locfileid: "58325122"
 
 ### <a name="step-1---check-whether-this-problem-is-a-known-issue"></a>1단계 - 이 문제가 알려진 문제인지 확인
 
+::: moniker range="vs-2017"
+
 Microsoft에서 수정을 진행하고 있는 Visual Studio 설치 관리자에 관련된 몇 가지 알려진 문제가 있습니다. 문제에 대한 해결 방법이 있는지 확인하려면 [릴리스 정보의 알려진 문제 섹션](/visualstudio/releasenotes/vs2017-relnotes#-known-issues)을 확인하세요.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+Microsoft에서 수정을 진행하고 있는 Visual Studio 설치 관리자에 관련된 몇 가지 알려진 문제가 있습니다. 문제에 대한 해결 방법이 있는지 확인하려면 [릴리스 정보의 알려진 문제 섹션](/visualstudio/releases/2019/release-notes#-known-issues)을 확인하세요.
+
+::: moniker-end
 
 ### <a name="step-2---check-with-the-developer-community"></a>2단계 - 개발자 커뮤니티에서 확인
 
@@ -48,20 +58,47 @@ Visual Studio 설치 관리자 부트스트래퍼는 나머지 Visual Studio 설
 > [!NOTE]
 > 다음 작업을 수행하여 Visual Studio 설치 관리자 파일을 다시 설치하고 설치 메타데이터를 다시 설정합니다.
 
+::: moniker range="vs-2017"
+
 1. Visual Studio 설치 관리자를 닫습니다.
 2. Visual Studio 설치 관리자 디렉터리를 삭제합니다. 일반적으로 디렉터리는 `C:\Program Files (x86)\Microsoft Visual Studio\Installer`입니다.
 3. Visual Studio 설치 관리자 부트스트래퍼를 실행합니다. Downloads 폴더에서 `vs_[Visual Studio edition]__*.exe` 패턴을 따르는 파일 이름을 사용하는 부트스트래퍼를 찾을 수 있습니다. 해당 애플리케이션을 찾을 수 없으면 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하고 해당 버전의 Visual Studio에 대한 **다운로드**를 클릭하여 부트스트래퍼를 다운로드할 수 있습니다. 그런 다음, 실행 파일을 실행하여 설치 메타데이터를 다시 설정합니다.
 4. Visual Studio를 다시 설치하거나 업데이트해 보세요. 설치 관리자가 계속 실패하면 다음 단계로 이동합니다.
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Visual Studio 설치 관리자를 닫습니다.
+2. Visual Studio 설치 관리자 디렉터리를 삭제합니다. 일반적으로 디렉터리는 `C:\Program Files (x86)\Microsoft Visual Studio\Installer`입니다.
+3. Visual Studio 설치 관리자 부트스트래퍼를 실행합니다. Downloads 폴더에서 `vs_[Visual Studio edition]__*.exe` 패턴을 따르는 파일 이름을 사용하는 부트스트래퍼를 찾을 수 있습니다. 해당 애플리케이션을 찾을 수 없으면 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하고 해당 버전의 Visual Studio에 대한 **다운로드**를 클릭하여 부트스트래퍼를 다운로드할 수 있습니다. 그런 다음, 실행 파일을 실행하여 설치 메타데이터를 다시 설정합니다.
+4. Visual Studio를 다시 설치하거나 업데이트해 보세요. 설치 관리자가 계속 실패하면 다음 단계로 이동합니다.
+
+::: moniker-end
+
 ### <a name="step-4---report-a-problem"></a>4단계 - 문제 보고
 
 경우에 따라 손상된 파일에 관련된 문제인 경우 문제를 사례별로 확인해야 할 수 있습니다. 도움을 받으려면 다음을 수행하세요.
 
+::: moniker range="vs-2017"
+
 1. 설치 로그를 수집합니다. 자세한 내용은 [Visual Studio 설치 로그를 가져오는 방법](#how-to-get-visual-studio-installation-logs)을 참조하세요.
 2. Visual Studio 설치 관리자를 열고 **문제 보고**를 클릭하여 Visual Studio 피드백 도구를 엽니다.
-![[피드백 제공] 단추를 탭하여 피드백 도구를 열 수 있음](media/report-a-problem.png)
+![[피드백 제공] 단추를 탭하여 피드백 도구를 열 수 있습니다.](media/report-a-problem.png)
 3. 문제 보고서의 제목을 지정하고 관련 세부 정보를 제공합니다. **다음**을 클릭하여 **첨부 파일** 섹션으로 이동하고 생성된 로그 파일을 첨부합니다. 일반적으로 파일은 `%TEMP%\vslogs.zip`에 있습니다.
 4. **다음**을 클릭하여 문제 보고서를 검토하고 **제출**을 클릭합니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. 설치 로그를 수집합니다. 자세한 내용은 [Visual Studio 설치 로그를 가져오는 방법](#how-to-get-visual-studio-installation-logs)을 참조하세요.
+2. Visual Studio 설치 관리자를 열고 **문제 보고**를 클릭하여 Visual Studio 피드백 도구를 엽니다.
+![[피드백 제공] 단추를 탭하여 피드백 도구를 열 수 있습니다.](media/vs-2019/vs-installer-report-problem.png)
+3. 문제 보고서의 제목을 지정하고 관련 세부 정보를 제공합니다. **다음**을 클릭하여 **첨부 파일** 섹션으로 이동하고 생성된 로그 파일을 첨부합니다. 일반적으로 파일은 `%TEMP%\vslogs.zip`에 있습니다.
+4. **다음**을 클릭하여 문제 보고서를 검토하고 **제출**을 클릭합니다.
+
+::: moniker-end
 
 ### <a name="step-5---run-installcleanupexe-to-remove-installation-files"></a>5단계 - InstallCleanup.exe를 실행하여 설치 파일 제거
 

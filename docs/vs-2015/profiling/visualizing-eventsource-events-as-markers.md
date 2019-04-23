@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b638bb1e300fd03d358c338c10dec4844f4e4adc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: edce61d7f5cf8f84c021b759fdaee1c06bf68ccb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54801494"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60044924"
 ---
 # <a name="visualizing-eventsource-events-as-markers"></a>EventSource 이벤트를 표식으로 시각화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,11 +26,11 @@ Concurrency 시각화는 EventSource 이벤트를 표식으로 표시할 수 있
   
 ### <a name="marker-type"></a>표식 종류  
   
-1.  [Opcode](http://msdn.microsoft.com/d97953df-669b-4c55-b1a8-925022b339b7) win:Start 또는 win:Stop이 포함된 이벤트는 각각 범위의 시작이나 끝으로 처리됩니다.  중첩되거나 겹치는 범위는 표시할 수 없습니다. 시작되는 스레드와 끝나는 스레드가 다른 이벤트 쌍은 표시할 수 없습니다.  
+1. [Opcode](http://msdn.microsoft.com/d97953df-669b-4c55-b1a8-925022b339b7) win:Start 또는 win:Stop이 포함된 이벤트는 각각 범위의 시작이나 끝으로 처리됩니다.  중첩되거나 겹치는 범위는 표시할 수 없습니다. 시작되는 스레드와 끝나는 스레드가 다른 이벤트 쌍은 표시할 수 없습니다.  
   
-2.  Opcode가 win:Start도 아니고 win:Stop도 아닌 이벤트는 해당 [Level](http://msdn.microsoft.com/dfa4e0a9-4d89-4f50-aef9-1dae0dc11726)(EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR의 필드)이 win:Verbose 이상인 경우가 아니면 표식 플래그로 처리됩니다.  
+2. Opcode가 win:Start도 아니고 win:Stop도 아닌 이벤트는 해당 [Level](http://msdn.microsoft.com/dfa4e0a9-4d89-4f50-aef9-1dae0dc11726)(EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR의 필드)이 win:Verbose 이상인 경우가 아니면 표식 플래그로 처리됩니다.  
   
-3.  그 외의 모든 경우 이벤트는 메시지로 처리됩니다.  
+3. 그 외의 모든 경우 이벤트는 메시지로 처리됩니다.  
   
 ### <a name="importance"></a>중요도  
  다음 표에는 이벤트 수준과 표식 중요도 간의 매핑 방식이 정의되어 있습니다.  
@@ -38,7 +38,7 @@ Concurrency 시각화는 EventSource 이벤트를 표식으로 표시할 수 있
 |ETW 수준|Concurrency 시각화의 중요도|  
 |---------------|---------------------------------------|  
 |win:LogAlways|보통|  
-|win:Critical|위험|  
+|win:Critical|중요|  
 |win:Error|위험|  
 |win:Warning|높음|  
 |win:Informational|보통|  
@@ -74,7 +74,7 @@ Concurrency 시각화는 EventSource 이벤트를 표식으로 표시할 수 있
 |cvImportance 값|Concurrency 시각화의 중요도|  
 |------------------------|---------------------------------------|  
 |0|보통|  
-|1|위험|  
+|1|중요|  
 |2|높음|  
 |3|높음|  
 |4|보통|  

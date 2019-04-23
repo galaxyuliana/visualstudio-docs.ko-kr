@@ -15,12 +15,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 323850d6abbdd46fba609ebf9eaba9ca11225544
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: aa93413a8b0972fd40b8943a6121367196e07d5a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971839"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60058839"
 ---
 # <a name="ca2216-disposable-types-should-declare-finalizer"></a>CA2216: 삭제 가능한 형식은 종료자를 선언해야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,11 +38,11 @@ ms.locfileid: "58971839"
 ## <a name="rule-description"></a>규칙 설명
  이 규칙 위반에는 삭제 가능한 형식에는 다음 형식의 필드가 포함 된 경우 보고 됩니다.
 
--   <xref:System.IntPtr?displayProperty=fullName>
+- <xref:System.IntPtr?displayProperty=fullName>
 
--   <xref:System.UIntPtr?displayProperty=fullName>
+- <xref:System.UIntPtr?displayProperty=fullName>
 
--   <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>
+- <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면 호출 하는 종료자를 구현 하면 <xref:System.IDisposable.Dispose%2A> 메서드.

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.assetid: 78342ce6-36c8-485b-a5f6-760e7a420a26
 caps.latest.revision: 8
 manager: jillfra
-ms.openlocfilehash: 4e17ed6ac15dbaee08c596b67a70b53f440a1e1e
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 457b3baf2b291a0ef96bd8bbd748261348a2108d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002417"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045462"
 ---
 # <a name="how-to-upgrade-a-visual-studio-custom-start-page"></a>방법: Visual Studio 사용자 지정 시작 페이지 업그레이드
 아래 나열된 단계에 따라 Visual Studio 2010 또는 Visual Studio 2012 사용자 지정 시작 페이지를 Visual Studio 2015로 업그레이드할 수 있습니다.
@@ -22,19 +22,19 @@ ms.locfileid: "59002417"
 
 ### <a name="to-upgrade-a-custom-start-page-to-visual-studio-2015"></a>사용자 지정 시작 페이지를 Visual Studio 2015로 업그레이드하려면
 
-1.  Visual Studio 2015 및 Visual Studio 2015 SDK가 설치되어 있는지 확인합니다. [Microsoft Visual Studio 2013 SDK](https://my.visualstudio.com/Downloads?pid=1436)에서 VSSDK를 다운로드할 수 있습니다.
+1. Visual Studio 2015 및 Visual Studio 2015 SDK가 설치되어 있는지 확인합니다. [Microsoft Visual Studio 2013 SDK](https://my.visualstudio.com/Downloads?pid=1436)에서 VSSDK를 다운로드할 수 있습니다.
 
-2.  사용자 지정 템플릿 프로젝트를 엽니다. 프로젝트를 업그레이드해야 함을 알리는 메시지가 나타납니다. **확인** 을 클릭하고 업그레이드가 완료될 때까지 기다립니다.
+2. 사용자 지정 템플릿 프로젝트를 엽니다. 프로젝트를 업그레이드해야 함을 알리는 메시지가 나타납니다. **확인** 을 클릭하고 업그레이드가 완료될 때까지 기다립니다.
 
-3.  시작 페이지 프로젝트와 컨트롤 프로젝트 둘 다의 프로젝트 속성에서 대상 프레임워크가 .NET Framework 4.5 이상인지 확인합니다.
+3. 시작 페이지 프로젝트와 컨트롤 프로젝트 둘 다의 프로젝트 속성에서 대상 프레임워크가 .NET Framework 4.5 이상인지 확인합니다.
 
-4.  시작 페이지 프로젝트에 대한 프로젝트 속성의 디버그 범주에서 Visual Studio 2015 버전의 devenv.exe 경로를 설정합니다.
+4. 시작 페이지 프로젝트에 대한 프로젝트 속성의 디버그 범주에서 Visual Studio 2015 버전의 devenv.exe 경로를 설정합니다.
 
-5.  두 프로젝트의 프로젝트 참조에서 Microsoft.VisualStudio.Shell.11.0에 대한 참조를 제거하고 Microsoft.VisualStudio.Shell.14.0에 대한 참조를 추가합니다.
+5. 두 프로젝트의 프로젝트 참조에서 Microsoft.VisualStudio.Shell.11.0에 대한 참조를 제거하고 Microsoft.VisualStudio.Shell.14.0에 대한 참조를 추가합니다.
 
-6.  XML 편집기를 사용하여 StartPage.xaml을 열고 다음과 같이 변경합니다.
+6. XML 편집기를 사용하여 StartPage.xaml을 열고 다음과 같이 변경합니다.
 
-    1.  네임스페이스를 업데이트합니다. 다음 줄을
+    1. 네임스페이스를 업데이트합니다. 다음 줄을
 
         ```
 
@@ -52,4 +52,4 @@ ms.locfileid: "59002417"
         xmlns:vsfx="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0"
         ```
 
-7.  MyControl.xaml을 열고 네임스페이스 참조 `xmlns:vs="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.11.0"` 을 `xmlns:vs="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0"` 으로 변경합니다.
+7. MyControl.xaml을 열고 네임스페이스 참조 `xmlns:vs="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.11.0"` 을 `xmlns:vs="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0"` 으로 변경합니다.

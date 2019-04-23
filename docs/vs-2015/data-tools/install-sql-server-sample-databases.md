@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: afc99ba7d5b7a6b5cf9fc0e610160213dec5d2e8
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 056e5d1fad258d063e30cfd97e85529ff3a0c9bd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654505"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059638"
 ---
 # <a name="install-sql-server-sample-databases"></a>SQL Server 예제 데이터베이스 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,13 +27,13 @@ ms.locfileid: "59654505"
   
 #### <a name="to-restore-a-database-from-a-bak-file-in-visual-studio"></a>Visual Studio에서.bak 파일에서 데이터베이스를 복원 하려면  
   
-1.  Microsoft SQL Server 데이터베이스를 백업 하는 경우 결과.bak 파일. 데이터베이스 파일을 다시 사용할 수 있는 파일의.bak이 하도록 해야 *복원*합니다. 주 메뉴에서 선택 **뷰** > **SQL Server 개체 탐색기**합니다. 표시 되지 않으면 설치 해야 합니다. 로 이동 **Control Panel** > **프로그램 및 기능**Microsoft Visual Studio 2015를 찾아 클릭 합니다 **변경** 단추입니다. 설치 관리자 창에서 설치 된 구성 요소 목록이 표시 되 면 선택 합니다 **SQL Server 개체 탐색기** 확인란을 선택 하 고 다음 설치를 계속 합니다.  
+1. Microsoft SQL Server 데이터베이스를 백업 하는 경우 결과.bak 파일. 데이터베이스 파일을 다시 사용할 수 있는 파일의.bak이 하도록 해야 *복원*합니다. 주 메뉴에서 선택 **뷰** > **SQL Server 개체 탐색기**합니다. 표시 되지 않으면 설치 해야 합니다. 로 이동 **Control Panel** > **프로그램 및 기능**Microsoft Visual Studio 2015를 찾아 클릭 합니다 **변경** 단추입니다. 설치 관리자 창에서 설치 된 구성 요소 목록이 표시 되 면 선택 합니다 **SQL Server 개체 탐색기** 확인란을 선택 하 고 다음 설치를 계속 합니다.  
   
-2.  SQL Server 개체 탐색기에서 모든 SQL Server 데이터베이스 엔진 (예를 들어, localdb)를 마우스 오른쪽 단추로 누르고**새 쿼리**합니다.  
+2. SQL Server 개체 탐색기에서 모든 SQL Server 데이터베이스 엔진 (예를 들어, localdb)를 마우스 오른쪽 단추로 누르고**새 쿼리**합니다.  
   
      ![SQL Server 개체 탐색기 새 쿼리](../data-tools/media/raddata-sql-server-object-explorer-new-query.png "raddata SQL Server 개체 탐색기 새 쿼리")  
   
-3.  먼저.bak 파일 내에서 데이터베이스 및 로그 파일의 논리적 이름입니다. 를 가져오려면 SQL 쿼리 편집기에이 쿼리를 입력 하 고 선택한 다음 녹색 **실행** 창의 맨 위에 있는 단추입니다. .Bak 파일을 가리키도록 필요에 따라 파일 경로 수정 합니다.  
+3. 먼저.bak 파일 내에서 데이터베이스 및 로그 파일의 논리적 이름입니다. 를 가져오려면 SQL 쿼리 편집기에이 쿼리를 입력 하 고 선택한 다음 녹색 **실행** 창의 맨 위에 있는 단추입니다. .Bak 파일을 가리키도록 필요에 따라 파일 경로 수정 합니다.  
   
     ```  
     RESTORE FILELISTONLY  
@@ -43,7 +43,7 @@ ms.locfileid: "59654505"
   
      결과 창에 표시 되는 논리적 이름을 적어 둡니다.  Northwind 데이터베이스에 대 한 두 개의 논리적 이름은 Northwind 및 Northwind_log입니다.  
   
-4.  이제 데이터베이스를 만들려면이 쿼리를 실행 합니다. 고유한 원본 및 대상 경로, 논리적 데이터베이스 이름 및 적절 하 게 Northwind에 대 한 실제 파일 이름을 대체 합니다. .Mdf 및.ldf 확장명을 유지 합니다.  
+4. 이제 데이터베이스를 만들려면이 쿼리를 실행 합니다. 고유한 원본 및 대상 경로, 논리적 데이터베이스 이름 및 적절 하 게 Northwind에 대 한 실제 파일 이름을 대체 합니다. .Mdf 및.ldf 확장명을 유지 합니다.  
   
     ```  
     RESTORE DATABASE Northwind  
@@ -52,14 +52,14 @@ ms.locfileid: "59654505"
     MOVE 'Northwind_log' TO 'c:\nw\northwind.ldf'  
     ```  
   
-5.  SQL Server 개체 탐색기에서 마우스 오른쪽 단추로 클릭 합니다 **데이터베이스** 노드를 하는 Northwind 데이터베이스 노드를 표시 됩니다. 그렇지 않은 경우 마우스 오른쪽 단추로 클릭 데이터베이스 및 선택 **새 데이터베이스 추가**합니다. 이름 및 바로 전에 만든.mdf 파일의 위치를 입력 합니다.  
+5. SQL Server 개체 탐색기에서 마우스 오른쪽 단추로 클릭 합니다 **데이터베이스** 노드를 하는 Northwind 데이터베이스 노드를 표시 됩니다. 그렇지 않은 경우 마우스 오른쪽 단추로 클릭 데이터베이스 및 선택 **새 데이터베이스 추가**합니다. 이름 및 바로 전에 만든.mdf 파일의 위치를 입력 합니다.  
   
-6.  데이터베이스 Visual Studio에서 데이터 원본으로 사용할 준비가 되었습니다.  
+6. 데이터베이스 Visual Studio에서 데이터 원본으로 사용할 준비가 되었습니다.  
   
 #### <a name="to-restore-a-database-from-a-bak-file-in-sql-server-management-studio"></a>SQL Server Management Studio의.bak 파일에서 데이터베이스를 복원 하려면  
   
-1.  SQL Server Management Studio 다운로드 사이트에서 다운로드 합니다.  
+1. SQL Server Management Studio 다운로드 사이트에서 다운로드 합니다.  
   
-2.  Ssms에서 **개체 탐색기** 창에서 마우스 오른쪽 단추로 클릭는 **데이터베이스** 노드를 선택**Restore Database**,.bak 파일의 위치를 지정 합니다.  
+2. Ssms에서 **개체 탐색기** 창에서 마우스 오른쪽 단추로 클릭는 **데이터베이스** 노드를 선택**Restore Database**,.bak 파일의 위치를 지정 합니다.  
   
      ![데이터베이스를 복원 하는 SSMS](../data-tools/media/raddata-ssms-restore-database.png "raddata 데이터베이스를 복원 하는 SSMS")

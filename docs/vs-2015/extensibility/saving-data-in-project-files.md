@@ -12,12 +12,12 @@ ms.assetid: a3d4b15b-a91e-41ba-b235-e62632d11bc5
 caps.latest.revision: 29
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 72f9f1a098d17d7e6dd0b5cd8218b35f3408695e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 31a9b093fc912be9db573b89d8c6b09e927c8b87
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971590"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048725"
 ---
 # <a name="saving-data-in-project-files"></a>프로젝트 파일에 데이터 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "58971590"
   
 #### <a name="to-save-a-build-related-data-in-the-project-file"></a>프로젝트 파일에서 데이터 관련 빌드를 저장 하려면  
   
--   호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> 프로젝트 파일의 전체 경로 저장 하는 방법입니다.  
+- 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> 프로젝트 파일의 전체 경로 저장 하는 방법입니다.  
   
     ```  
     private SpecializedProject project;  
@@ -49,7 +49,7 @@ ms.locfileid: "58971590"
   
 #### <a name="to-retrieve-build-related-data-from-the-project-file"></a>빌드를 검색할 프로젝트 파일에서 데이터를 관련  
   
--   호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetPropertyValue%2A> 프로젝트 파일의 전체 경로 검색 하는 방법입니다.  
+- 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetPropertyValue%2A> 프로젝트 파일의 전체 경로 검색 하는 방법입니다.  
   
     ```  
     private SpecializedProject project;  
@@ -66,7 +66,7 @@ ms.locfileid: "58971590"
   
 #### <a name="to-save-non-build-related-data-in-the-project-file"></a>저장 되지 않은 빌드 관련 프로젝트 파일의 데이터  
   
-1.  구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.IsFragmentDirty%2A> XML 조각을 마지막으로 변경 되었는지 여부를 결정 하는 메서드는 현재 파일에 저장 합니다.  
+1. 구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.IsFragmentDirty%2A> XML 조각을 마지막으로 변경 되었는지 여부를 결정 하는 메서드는 현재 파일에 저장 합니다.  
   
     ```  
     public int IsFragmentDirty(uint storage, out int pfDirty)  
@@ -96,7 +96,7 @@ ms.locfileid: "58971590"
     }  
     ```  
   
-2.  구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> 프로젝트 파일에 XML 데이터를 저장 하는 방법입니다.  
+2. 구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> 프로젝트 파일에 XML 데이터를 저장 하는 방법입니다.  
   
     ```  
     public int Save(ref Guid guidFlavor, uint storage, out string pbstrXMLFragment, int fClearDirty)  
@@ -147,7 +147,7 @@ ms.locfileid: "58971590"
   
 #### <a name="to-retrieve-non-build-related-data-in-the-project-file"></a>프로젝트 파일에서 비 빌드 관련된 데이터를 검색 하려면  
   
-1.  구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.InitNew%2A> 프로젝트 확장 속성 및 기타 빌드에 관계 없이 데이터를 초기화 하는 방법입니다. 이 메서드는 프로젝트 파일에 있는 XML 구성 데이터가 없는 경우에 호출 됩니다.  
+1. 구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.InitNew%2A> 프로젝트 확장 속성 및 기타 빌드에 관계 없이 데이터를 초기화 하는 방법입니다. 이 메서드는 프로젝트 파일에 있는 XML 구성 데이터가 없는 경우에 호출 됩니다.  
   
     ```  
     public int InitNew(ref Guid guidFlavor, uint storage)  
@@ -163,7 +163,7 @@ ms.locfileid: "58971590"
         return VSConstants.S_OK;  
     ```  
   
-2.  구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> 프로젝트 파일에서 XML 데이터를 로드 하는 방법입니다.  
+2. 구현 된 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> 프로젝트 파일에서 XML 데이터를 로드 하는 방법입니다.  
   
     ```  
     public int Load(ref Guid guidFlavor, uint storage, string pszXMLFragment)  

@@ -11,12 +11,12 @@ ms.assetid: f7fe9a7e-f669-4642-ad5d-186b2e6e6ec9
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e50fbbc3c834fc33f77f3aecef6b51ef9037ecb7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7d1bfcfc3176e14900553504a66307ff6e8dcf5a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971227"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049259"
 ---
 # <a name="designer-initialization-and-metadata-configuration"></a>디자이너 초기화 및 메타데이터 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,15 +31,15 @@ ms.locfileid: "58971227"
 ### <a name="customizing-initialization"></a>사용자 지정 초기화  
  디자이너, 구성 요소 또는 디자이너 화면에 사용자 지정 하는 작업에 포함 됩니다.  
   
-1.  디자이너 메타 데이터를 수정 하 고 효과적으로 특정 방법 변경 <xref:System.Type> 액세스 되거나 변환 됩니다.  
+1. 디자이너 메타 데이터를 수정 하 고 효과적으로 특정 방법 변경 <xref:System.Type> 액세스 되거나 변환 됩니다.  
   
      일반적으로 이렇게 합니다 <xref:System.Drawing.Design.UITypeEditor> 또는 <xref:System.ComponentModel.TypeConverter> 메커니즘입니다.  
   
      예를 들어 때 <xref:System.Windows.Forms>-기반된 디자이너는 초기화 되는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 환경 수정 합니다 <xref:System.Drawing.Design.UITypeEditor> 에 대 한 <xref:System.Web.UI.WebControls.Image> 디자이너를 사용 하 여 리소스 관리자를 사용 하 여 파일 시스템 보다는 비트맵을 가져오려고 하는 데 사용할 개체입니다.  
   
-2.  이벤트 구독 또는 프로젝트 구성 정보를 가져오는 예를 들어, 환경에 통합 합니다. 프로젝트 구성 정보를 가져오고을 확보 하 여 이벤트를 구독할 수는 <xref:System.ComponentModel.Design.ITypeResolutionService> 인터페이스입니다.  
+2. 이벤트 구독 또는 프로젝트 구성 정보를 가져오는 예를 들어, 환경에 통합 합니다. 프로젝트 구성 정보를 가져오고을 확보 하 여 이벤트를 구독할 수는 <xref:System.ComponentModel.Design.ITypeResolutionService> 인터페이스입니다.  
   
-3.  적절 한를 활성화 하 여 사용자 환경의 수정 **도구 상자** 범주 또는 인스턴스에 적용 하 여 디자이너의 적용 가능성을 제한 하 여는 <xref:System.ComponentModel.ToolboxItemFilterAttribute> 디자이너 클래스입니다.  
+3. 적절 한를 활성화 하 여 사용자 환경의 수정 **도구 상자** 범주 또는 인스턴스에 적용 하 여 디자이너의 적용 가능성을 제한 하 여는 <xref:System.ComponentModel.ToolboxItemFilterAttribute> 디자이너 클래스입니다.  
   
 ### <a name="designer-initialization-by-a-vspackage"></a>Vspackage 디자이너 초기화  
  VSPackage 디자이너 초기화를 처리 해야 합니다.  

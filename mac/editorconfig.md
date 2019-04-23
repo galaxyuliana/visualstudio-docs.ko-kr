@@ -7,18 +7,18 @@ ms.date: 05/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
-ms.openlocfilehash: d42103d17b64ee9b3fb2a0660017824490655808
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.openlocfilehash: 3775e3fc4f391ea075a939a877fdab23f1eec1d2
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51294021"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58857504"
 ---
 # <a name="creating-and-editing-a-custom-editorconfig-file"></a>사용자 지정 EditorConfig 파일 만들기 및 편집
 
 Mac용 Visual Studio에서는 프로젝트 또는 솔루션에 [EditorConfig](http://editorconfig.org/) 파일을 추가하여 코드베이스에서 작업하는 모든 사람들의 코딩 스타일을 일관적으로 유지할 수 있습니다. EditorConfig 파일에 선언된 설정은 글로벌 Mac용 Visual Studio 텍스트 편집기 설정에 우선합니다. 프로젝트 또는 코드베이스 내에서 EditorConfig 파일을 사용하여 프로젝트의 코딩 스타일, 기본 설정 및 경고를 지정할 수 있습니다. 파일은 코드베이스의 일부이기 때문에 사용하는 IDE 또는 코드 편집기에 관계없이 모든 사용자가 프로젝트의 코딩 방법을 쉽게 준수할 수 있습니다.
 
-[EditorConfig](http://editorconfig.org/) 파일은 Visual Studio 2017을 비롯한 여러 IDE 및 코드 편집기에서 지원됩니다.
+[EditorConfig](http://editorconfig.org/) 파일은 Visual Studio를 비롯한 여러 IDE 및 코드 편집기에서 지원됩니다.
 
 ## <a name="supported-settings"></a>지원되는 설정
 

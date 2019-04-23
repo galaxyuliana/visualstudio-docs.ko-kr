@@ -21,12 +21,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 31268b94ab632e598badcba3def387ef1fc2ba1d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e60fe59b4d515f37593175f0b76d1562f170abfb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970415"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059100"
 ---
 # <a name="error-aspnet-not-installed"></a>오류: ASP.NET이 설치되어 있지 않음
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "58970415"
   
 ### <a name="to-reinstall-aspnet"></a>ASP.NET을 다시 설치하려면  
   
-1.  명령 프롬프트 창에서 다음 명령을 실행합니다.  
+1. 명령 프롬프트 창에서 다음 명령을 실행합니다.  
   
     ```  
     \WINDOWS\Microsoft.NET\Framework\version\aspnet_regiis -i  

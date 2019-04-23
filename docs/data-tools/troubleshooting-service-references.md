@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: a99cdc4e8c9a4b7551574c93ad6ccdb8c44479df
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: f0d1a9e24c965af9513b3c2645bcee35f916f436
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927048"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048595"
 ---
 # <a name="troubleshoot-service-references"></a>서비스 참조 문제 해결
 
@@ -33,9 +33,9 @@ ms.locfileid: "55927048"
 
 이 오류를 해결하려면
 
-1.  **솔루션 탐색기**를 두 번 클릭 합니다 *app.config* 파일을 엽니다.
+1. **솔루션 탐색기**를 두 번 클릭 합니다 *app.config* 파일을 엽니다.
 
-2.  찾을 `MaxReceivedMessageSize` 속성 보다 큰 값으로 변경 합니다.
+2. 찾을 `MaxReceivedMessageSize` 속성 보다 큰 값으로 변경 합니다.
 
 ## <a name="cannot-find-a-service-in-my-solution"></a>필자의 솔루션에는 서비스를 찾을 수 없습니다.
 
@@ -43,17 +43,17 @@ ms.locfileid: "55927048"
 
 이 오류를 해결하려면
 
--   **솔루션 탐색기**WCF 서비스 라이브러리 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 클릭 **빌드**합니다.
+- **솔루션 탐색기**WCF 서비스 라이브러리 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 클릭 **빌드**합니다.
 
 ## <a name="error-accessing-a-service-over-a-remote-desktop"></a>원격 데스크톱을 통해 서비스에 액세스 하는 오류
 
-사용자가 액세스 한 원격 데스크톱 연결을 통해 웹에서 호스팅되는 WCF 서비스에 관리 권한이 없는 경우 NTLM 인증이 사용 됩니다. 사용자가 다음 오류 메시지가 나타날 수 사용자에 관리 권한이 없는 경우: "HTTP 요청이 클라이언트 인증 구성표 '익명' 권한이 부여 되지 않습니다. 합니다. 서버에서 수신한 인증 헤더가 되었습니다 'NTLM'. "
+사용자가 액세스 한 원격 데스크톱 연결을 통해 웹에서 호스팅되는 WCF 서비스에 관리 권한이 없는 경우 NTLM 인증이 사용 됩니다. 사용자 관리 권한이 없으면 사용자의 다음과 같은 오류 메시지가 나타날 수 있습니다. "HTTP 요청이 클라이언트 인증 구성표 '익명' 권한이 부여 되지 않습니다. 합니다. 서버에서 수신한 인증 헤더가 되었습니다 'NTLM'. "
 
 이 오류를 해결하려면
 
-1.  웹 사이트 프로젝트에서 엽니다는 **속성** 페이지입니다.
+1. 웹 사이트 프로젝트에서 엽니다는 **속성** 페이지입니다.
 
-2.  에 **시작 옵션** 탭을 선택 취소 합니다 **NTLM 인증** 확인란 합니다.
+2. 에 **시작 옵션** 탭을 선택 취소 합니다 **NTLM 인증** 확인란 합니다.
 
     > [!NOTE]
     > 단독으로 WCF 서비스를 포함 하는 웹 사이트에 대해서만 NTLM 인증을 해제 해야 합니다. 구성을 통해 WCF 서비스에 대 한 보안을 관리 합니다 *web.config* 파일입니다. 이렇게 하면 NTLM 인증이 불필요 한 합니다.
@@ -74,19 +74,19 @@ ms.locfileid: "55927048"
 
 이 오류를 해결 하려면 수동으로 서비스 프로젝트를 다시 작성 해야 합니다.
 
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.
 
-2.  에 **옵션** 대화 상자에서 **프로젝트 및 솔루션**를 선택한 후 **일반**합니다.
+2. 에 **옵션** 대화 상자에서 **프로젝트 및 솔루션**를 선택한 후 **일반**합니다.
 
-3.  있는지 확인 합니다 **고급 빌드 구성 표시** 확인란을 선택한 다음 클릭 **확인**합니다.
+3. 있는지 확인 합니다 **고급 빌드 구성 표시** 확인란을 선택한 다음 클릭 **확인**합니다.
 
-4.  WCF 서비스 프로젝트를 로드 합니다.
+4. WCF 서비스 프로젝트를 로드 합니다.
 
-5.  에 **Configuration Manager** 대화 상자에서를 **활성 솔루션 구성** 하 **디버그**합니다. 자세한 내용은 [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)을 참조하세요.
+5. 에 **Configuration Manager** 대화 상자에서를 **활성 솔루션 구성** 하 **디버그**합니다. 자세한 내용은 [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)을 참조하세요.
 
-6.  **솔루션 탐색기**, WCF 서비스 프로젝트를 선택 합니다.
+6. **솔루션 탐색기**, WCF 서비스 프로젝트를 선택 합니다.
 
-7.  에 **빌드** 메뉴에서 클릭 **다시** WCF 서비스 프로젝트를 다시 빌드해야 합니다.
+7. 에 **빌드** 메뉴에서 클릭 **다시** WCF 서비스 프로젝트를 다시 빌드해야 합니다.
 
 ## <a name="wcf-data-services-do-not-display-in-the-browser"></a>WCF Data Services는 브라우저에 표시 하지 않습니다.
 
@@ -94,14 +94,14 @@ ms.locfileid: "55927048"
 
 이 오류를 해결 하려면 RSS 피드를 사용 하지 않도록 설정 합니다.
 
-1.  Internet Explorer의 **도구** 메뉴에서 **인터넷 옵션**을 클릭합니다.
+1. Internet Explorer의 **도구** 메뉴에서 **인터넷 옵션**을 클릭합니다.
 
-2.  에 **콘텐츠** 탭의 **피드** 섹션에서 **설정**.
+2. 에 **콘텐츠** 탭의 **피드** 섹션에서 **설정**.
 
-3.  에 **피드 설정** 대화 상자, 일반 합니다 **피드 읽기용 보기를 켜려면** 확인란을 선택한 다음 클릭 **확인**.
+3. 에 **피드 설정** 대화 상자, 일반 합니다 **피드 읽기용 보기를 켜려면** 확인란을 선택한 다음 클릭 **확인**.
 
-4.  **확인**을 클릭하여 **인터넷 옵션** 대화 상자를 닫습니다.
+4. **확인**을 클릭하여 **인터넷 옵션** 대화 상자를 닫습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

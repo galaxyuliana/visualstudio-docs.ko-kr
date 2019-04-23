@@ -6,12 +6,12 @@ ms.assetid: 359184aa-f5b6-4b6c-99fe-104655b3a494
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a5c5ae2abeea1e1e6b5a2fe360ff8515e5096341
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 43f13ebc6a3f7a430b3608eba37284a85c3c5eab
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971518"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049544"
 ---
 # <a name="addressing-dpi-issues"></a>DPI 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -120,15 +120,15 @@ VsUI::DpiHelper::LogicalToDeviceUnits(&hBitmap);
   
  Visual Studio 환경 내에서 실행 되는 관리 되는 코드에서 DPI 도우미 함수에 액세스 합니다.  
   
--   사용 하는 프로젝트 셸을 MPF의 최신 버전을 참조 해야 합니다. 예를 들어:  
+- 사용 하는 프로젝트 셸을 MPF의 최신 버전을 참조 해야 합니다. 예를 들어:  
   
     ```csharp  
     <Reference Include="Microsoft.VisualStudio.Shell.14.0.dll" />  
     ```  
   
--   프로젝트에 대 한 참조를 확인 하십시오 **System.Windows.Forms**를 **PresentationCore**, 및 **PresentationUI**합니다.  
+- 프로젝트에 대 한 참조를 확인 하십시오 **System.Windows.Forms**를 **PresentationCore**, 및 **PresentationUI**합니다.  
   
--   코드를 사용 합니다 **Microsoft.VisualStudio.PlatformUI** DpiHelper 클래스의 정적 함수 네임 스페이스를 호출 합니다. 지원 되는 형식 (점, 크기, 사각형 및 등)에 새 반환 하는 확장 함수 개체를 확장 제공. 예를 들어:  
+- 코드를 사용 합니다 **Microsoft.VisualStudio.PlatformUI** DpiHelper 클래스의 정적 함수 네임 스페이스를 호출 합니다. 지원 되는 형식 (점, 크기, 사각형 및 등)에 새 반환 하는 확장 함수 개체를 확장 제공. 예를 들어:  
   
     ```csharp  
     using Microsoft.VisualStudio.PlatformUI;  
@@ -207,13 +207,13 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.V
   
  WPF UI UIElement 설정 BitmapScalingMode 속성을 사용 하 여 현재 dpi를 확장 하기 때문에 해당 소스 2-3 배 보다 크게 보입니다 prescaled 이미지를 사용 하 여 이미지 컨트롤을 해야 합니다. 다음은이 효과 대처 하는 몇 가지 방법입니다.  
   
--   100%에 원본 이미지의 치수를 알고 있는 경우 이미지 컨트롤의 정확한 크기를 지정할 수 있습니다. 이러한 크기 확장 하기 전에 UI의 크기를 적용 하는 내용을 반영 합니다.  
+- 100%에 원본 이미지의 치수를 알고 있는 경우 이미지 컨트롤의 정확한 크기를 지정할 수 있습니다. 이러한 크기 확장 하기 전에 UI의 크기를 적용 하는 내용을 반영 합니다.  
   
     ```xaml  
     <Image Source="{Binding Path=SelectedImage, Converter={StaticResource DpiPrescaleImageSourceConverter}}" Width="16" Height="16" />  
     ```  
   
--   원본 이미지의 크기를 알 수 없는 경우는 LayoutTransform 최종 이미지 개체 축소를 사용할 수 있습니다. 예를 들어:  
+- 원본 이미지의 크기를 알 수 없는 경우는 LayoutTransform 최종 이미지 개체 축소를 사용할 수 있습니다. 예를 들어:  
   
     ```xaml  
     <Image Source="{Binding Path=SelectedImage, Converter={StaticResource DpiPrescaleImageSourceConverter}}" >  
@@ -344,9 +344,9 @@ public int GetHostInfo(DOCHOSTUIINFO info)
   
 ## <a name="tips"></a>팁  
   
-1.  WebOC 컨트롤에 문서 속성이 변경 되 면 IDocHostUIHandler 클래스를 사용 하 여 문서를 다시 연결 해야 합니다.  
+1. WebOC 컨트롤에 문서 속성이 변경 되 면 IDocHostUIHandler 클래스를 사용 하 여 문서를 다시 연결 해야 합니다.  
   
-2.  위의 작동 하지 않는 경우 변경 된 DPI 플래그를 가져오지 WebOC의 알려진된 문제가 있습니다. 이 문제를 해결 하는 가장 안정적인 방법은 확대/축소 비율에 대 한 서로 다른 두 값을 사용 하 여 두 개의 호출을 의미 하 고 WebOC의 광학 확대/축소를 설정/해제 방법은입니다. 또한이 해결 방법은 필요한 경우 탐색 호출할 때마다 수행 해야 할 수 있습니다.  
+2. 위의 작동 하지 않는 경우 변경 된 DPI 플래그를 가져오지 WebOC의 알려진된 문제가 있습니다. 이 문제를 해결 하는 가장 안정적인 방법은 확대/축소 비율에 대 한 서로 다른 두 값을 사용 하 여 두 개의 호출을 의미 하 고 WebOC의 광학 확대/축소를 설정/해제 방법은입니다. 또한이 해결 방법은 필요한 경우 탐색 호출할 때마다 수행 해야 할 수 있습니다.  
   
     ```csharp  
     // browser2 is a SHDocVw.IWebBrowser2 in this case  

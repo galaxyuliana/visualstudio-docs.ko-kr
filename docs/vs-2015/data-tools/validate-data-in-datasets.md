@@ -24,12 +24,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 73eb1162411800a951566c9eb14928875966cfb7
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 67c9b9aed677e83cd8012b53530b4c474922108e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661323"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047139"
 ---
 # <a name="validate-data-in-datasets"></a>데이터 세트의 데이터 유효성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -103,9 +103,9 @@ ms.locfileid: "59661323"
   
 #### <a name="to-validate-data-when-a-row-changes-visual-basic"></a>유효성을 검사할 때 행 데이터 변경 (Visual Basic)  
   
-1.  **데이터 세트 디자이너**에서 데이터 세트를 엽니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
+1. **데이터 세트 디자이너**에서 데이터 세트를 엽니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
   
-2.  유효성을 검사 하려는 테이블의 제목 표시줄 두 번 클릭 합니다. 이 작업을 자동으로 만듭니다는 <xref:System.Data.DataTable.RowChanging> 이벤트 처리기는 <xref:System.Data.DataTable> 데이터 집합의 partial 클래스 파일에서 합니다.  
+2. 유효성을 검사 하려는 테이블의 제목 표시줄 두 번 클릭 합니다. 이 작업을 자동으로 만듭니다는 <xref:System.Data.DataTable.RowChanging> 이벤트 처리기는 <xref:System.Data.DataTable> 데이터 집합의 partial 클래스 파일에서 합니다.  
   
     > [!TIP]
     >  행 변경 이벤트 처리기를 만들려는 테이블 이름 왼쪽에 두 번 클릭 합니다. 테이블 이름을 두 번 클릭 하면 편집할 수 있습니다.  
@@ -114,14 +114,14 @@ ms.locfileid: "59661323"
   
 #### <a name="to-validate-data-when-a-row-changes-c"></a>데이터의 유효성을 행 변경 (C#)  
   
-1.  **데이터 세트 디자이너**에서 데이터 세트를 엽니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
+1. **데이터 세트 디자이너**에서 데이터 세트를 엽니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
   
-2.  유효성을 검사 하려는 테이블의 제목 표시줄 두 번 클릭 합니다. 이 작업에 대 한 partial 클래스 파일을 만듭니다는 <xref:System.Data.DataTable>합니다.  
+2. 유효성을 검사 하려는 테이블의 제목 표시줄 두 번 클릭 합니다. 이 작업에 대 한 partial 클래스 파일을 만듭니다는 <xref:System.Data.DataTable>합니다.  
   
     > [!NOTE]
     >  합니다 **데이터 집합 디자이너** 에 대 한 이벤트 처리기를 자동으로 만들어지지 않습니다는 <xref:System.Data.DataTable.RowChanging> 이벤트입니다. 처리 하는 메서드를 만들어야 합니다 <xref:System.Data.DataTable.RowChanging> 테이블의 초기화 메서드에서 이벤트를 후크 이벤트 및 코드를 실행된 합니다.  
   
-3.  Partial 클래스에 다음 코드를 복사 합니다.  
+3. Partial 클래스에 다음 코드를 복사 합니다.  
   
     ```  
     public override void EndInit()  
@@ -155,7 +155,7 @@ ms.locfileid: "59661323"
   
 #### <a name="to-get-all-changed-records-from-a-dataset"></a>데이터 집합에서 변경 된 모든 레코드를 가져오려면  
   
--   호출 된 <xref:System.Data.DataSet.GetChanges%2A> 데이터 집합의 메서드.  
+- 호출 된 <xref:System.Data.DataSet.GetChanges%2A> 데이터 집합의 메서드.  
   
      다음 예제에서는 라는 새 데이터 집합을 만듭니다 `changedRecords` 라는 다른 데이터 집합에서 변경된 된 모든 레코드를 사용 하 여 채웁니다 `dataSet1`합니다.  
   
@@ -164,7 +164,7 @@ ms.locfileid: "59661323"
   
 #### <a name="to-get-all-changed-records-from-a-data-table"></a>데이터 테이블에서 변경 된 모든 레코드를 가져오려면  
   
--   호출을 <xref:System.Data.DataTable.GetChanges%2A> 메서드는 DataTable입니다.  
+- 호출을 <xref:System.Data.DataTable.GetChanges%2A> 메서드는 DataTable입니다.  
   
      다음 예제에서는 라는 새 데이터 테이블을 만듭니다 `changedRecordsTable` 이라는 다른 데이터 테이블에서 변경된 된 모든 레코드를 사용 하 여 채웁니다 `dataTable1`합니다.  
   
@@ -173,14 +173,14 @@ ms.locfileid: "59661323"
   
 #### <a name="to-get-all-records-that-have-a-specific-row-state"></a>특정 행 상태에 있는 모든 레코드를 가져오려면  
   
--   호출을 `GetChanges` 데이터 집합 및 데이터 테이블 패스는 메서드를 <xref:System.Data.DataRowState> 인수로 열거형 값입니다.  
+- 호출을 `GetChanges` 데이터 집합 및 데이터 테이블 패스는 메서드를 <xref:System.Data.DataRowState> 인수로 열거형 값입니다.  
   
      다음 예제에서는 라는 새 데이터 집합을 만드는 방법을 보여 줍니다 `addedRecords` 에 추가 된 레코드로만 채웁니다는 `dataSet1` 데이터 집합입니다.  
   
      [!code-csharp[VbRaddataEditing#16](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#16)]
      [!code-vb[VbRaddataEditing#16](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#16)]  
   
--   다음 예제에서는 최근에 추가 된 모든 레코드를 반환 하는 방법의 `Customers` 테이블:  
+- 다음 예제에서는 최근에 추가 된 모든 레코드를 반환 하는 방법의 `Customers` 테이블:  
   
      [!code-csharp[VbRaddataEditing#17](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#17)]
      [!code-vb[VbRaddataEditing#17](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#17)]  
@@ -195,7 +195,7 @@ ms.locfileid: "59661323"
   
 #### <a name="to-get-the-original-version-of-a-record"></a>레코드의 원래 버전을 가져오려면  
   
--   전달 하 여 열 값에 액세스 합니다 <xref:System.Data.DataRowVersion> 반환할 행의 합니다.  
+- 전달 하 여 열 값에 액세스 합니다 <xref:System.Data.DataRowVersion> 반환할 행의 합니다.  
   
      다음 예제에서는 사용 하는 방법을 보여 줍니다는 <xref:System.Data.DataRowVersion> 의 원래 값을 검색할 값을 `CompanyName` 필드에 <xref:System.Data.DataRow>:  
   
@@ -206,7 +206,7 @@ ms.locfileid: "59661323"
   
 #### <a name="to-get-the-current-version-of-a-record"></a>레코드의 현재 버전을 가져오려면  
   
--   열의 값에 액세스 하 고 반환 하려는 행의 버전을 지정 하는 인덱스에는 매개 변수를 추가 합니다.  
+- 열의 값에 액세스 하 고 반환 하려는 행의 버전을 지정 하는 인덱스에는 매개 변수를 추가 합니다.  
   
      다음 예제에서는 사용 하는 방법을 보여 줍니다는 <xref:System.Data.DataRowVersion> 의 현재 값을 검색할 값을 `CompanyName` 필드에 <xref:System.Data.DataRow>:  
   

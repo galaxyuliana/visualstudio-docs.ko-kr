@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e27850b7531af4d0883f2cbf250987562a56b8f5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fed87ee8106c3e8a09c341b9de4709060627dac1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597649"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048271"
 ---
 # <a name="update-form-regions-in-outlook-projects-that-you-migrate-to-the-net-framework-4-or-the-net-framework-45"></a>.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Outlook 프로젝트에서 양식 영역 업데이트
   양식 영역이 있는 Outlook VSTO 추가 기능 프로젝트의 대상 프레임워크가 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상 버전으로 변경된 경우 생성된 양식 영역 코드 및 런타임에 특정 양식 영역 클래스를 인스턴스화하는 코드를 일부 변경해야 합니다.
@@ -27,11 +27,11 @@ ms.locfileid: "56597649"
 
 ### <a name="to-update-the-generated-code-for-a-form-region-that-you-designed-in-visual-studio"></a>Visual Studio에서 디자인한 양식 영역에 대해 생성된 코드를 업데이트하려면
 
-1.  코드 편집기에서 양식 영역 코드 숨김 파일을 엽니다. 이 파일의 이름은 *YourFormRegion*.Designer.cs 또는 *YourFormRegion*.Designer.vb입니다. Visual Basic 프로젝트에서 이 파일을 보려면 **솔루션 탐색기** 에서 **모든 파일 표시**단추를 클릭합니다.
+1. 코드 편집기에서 양식 영역 코드 숨김 파일을 엽니다. 이 파일의 이름은 *YourFormRegion*.Designer.cs 또는 *YourFormRegion*.Designer.vb입니다. Visual Basic 프로젝트에서 이 파일을 보려면 **솔루션 탐색기** 에서 **모든 파일 표시**단추를 클릭합니다.
 
-2.  `Microsoft.Office.Tools.Outlook.FormRegionControl` 대신 <xref:Microsoft.Office.Tools.Outlook.FormRegionBase>에서 파생되도록 양식 영역 클래스의 선언을 수정합니다.
+2. `Microsoft.Office.Tools.Outlook.FormRegionControl` 대신 <xref:Microsoft.Office.Tools.Outlook.FormRegionBase>에서 파생되도록 양식 영역 클래스의 선언을 수정합니다.
 
-3.  다음 코드 예제에 표시된 것처럼 양식 영역 클래스의 생성자를 수정합니다.
+3. 다음 코드 예제에 표시된 것처럼 양식 영역 클래스의 생성자를 수정합니다.
 
      다음 코드 예제에서는 .NET Framework 3.5를 대상으로 하는 프로젝트에서 양식 영역 클래스의 생성자를 보여 줍니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "56597649"
     }
     ```
 
-4.  아래 표시된 대로 `InitializeManifest` 메서드의 서명을 수정합니다. 메서드의 코드를 수정하지 마세요. 이 코드는 디자이너에서 적용한 양식 영역 설정을 나타냅니다. Visual C# 프로젝트에서 이 메서드를 확인하려면 `Form Region Designer generated code` 라는 영역을 확장해야 합니다.
+4. 아래 표시된 대로 `InitializeManifest` 메서드의 서명을 수정합니다. 메서드의 코드를 수정하지 마세요. 이 코드는 디자이너에서 적용한 양식 영역 설정을 나타냅니다. Visual C# 프로젝트에서 이 메서드를 확인하려면 `Form Region Designer generated code` 라는 영역을 확장해야 합니다.
 
      다음 코드 예제에서는 .NET Framework 3.5를 대상으로 하는 프로젝트에서 `InitializeManifest` 메서드의 서명을 보여 줍니다.
 
@@ -103,21 +103,21 @@ ms.locfileid: "56597649"
     }
     ```
 
-5.  프로젝트에 새 Outlook 양식 영역 항목을 추가합니다. 새 양식 영역에 대한 코드 숨김 파일을 열고 파일에서 *YourNewFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스를 찾은 다음 이러한 클래스를 클립보드에 복사합니다.
+5. 프로젝트에 새 Outlook 양식 영역 항목을 추가합니다. 새 양식 영역에 대한 코드 숨김 파일을 열고 파일에서 *YourNewFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스를 찾은 다음 이러한 클래스를 클립보드에 복사합니다.
 
-6.  프로젝트에 추가한 새 양식 영역을 삭제합니다.
+6. 프로젝트에 추가한 새 양식 영역을 삭제합니다.
 
-7.  대상이 변경된 프로젝트에서 작동하도록 업데이트하는 양식 영역의 코드 숨김 파일에서 *YourOriginalFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스를 찾아 새 양식 영역에서 복사한 코드로 바꿉니다.
+7. 대상이 변경된 프로젝트에서 작동하도록 업데이트하는 양식 영역의 코드 숨김 파일에서 *YourOriginalFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스를 찾아 새 양식 영역에서 복사한 코드로 바꿉니다.
 
-8.  *YourNewFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스에서 *YourNewFormRegion* 클래스에 대한 모든 참조를 검색하고 *YourOriginalFormRegion* 클래스에 대한 각 참조를 대신 변경합니다. 예를 들어 업데이트하는 양식 영역의 이름이 `SalesDataFormRegion` 이고 5단계에서 만든 새 양식 영역의 이름이 `FormRegion1`인 경우 `FormRegion1` 의 모든 참조를 `SalesDataFormRegion`으로 변경합니다.
+8. *YourNewFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스에서 *YourNewFormRegion* 클래스에 대한 모든 참조를 검색하고 *YourOriginalFormRegion* 클래스에 대한 각 참조를 대신 변경합니다. 예를 들어 업데이트하는 양식 영역의 이름이 `SalesDataFormRegion` 이고 5단계에서 만든 새 양식 영역의 이름이 `FormRegion1`인 경우 `FormRegion1` 의 모든 참조를 `SalesDataFormRegion`으로 변경합니다.
 
 #### <a name="to-update-the-generated-code-for-a-form-region-that-you-imported-from-outlook"></a>Outlook에서 가져온 양식 영역에 대해 생성된 코드를 업데이트하려면
 
-1.  코드 편집기에서 양식 영역 코드 숨김 파일을 엽니다. 이 파일의 이름은 *YourFormRegion*.Designer.cs 또는 *YourFormRegion*.Designer.vb입니다. Visual Basic 프로젝트에서 이 파일을 보려면 **솔루션 탐색기** 에서 **모든 파일 표시**단추를 클릭합니다.
+1. 코드 편집기에서 양식 영역 코드 숨김 파일을 엽니다. 이 파일의 이름은 *YourFormRegion*.Designer.cs 또는 *YourFormRegion*.Designer.vb입니다. Visual Basic 프로젝트에서 이 파일을 보려면 **솔루션 탐색기** 에서 **모든 파일 표시**단추를 클릭합니다.
 
-2.  `Microsoft.Office.Tools.Outlook.ImportedFormRegion` 대신 <xref:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase>에서 파생되도록 양식 영역 클래스의 선언을 수정합니다.
+2. `Microsoft.Office.Tools.Outlook.ImportedFormRegion` 대신 <xref:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase>에서 파생되도록 양식 영역 클래스의 선언을 수정합니다.
 
-3.  다음 코드 예제에 표시된 것처럼 양식 영역 클래스의 생성자를 수정합니다.
+3. 다음 코드 예제에 표시된 것처럼 양식 영역 클래스의 생성자를 수정합니다.
 
      다음 코드 예제에서는 .NET Framework 3.5를 대상으로 하는 프로젝트에서 양식 영역 클래스의 생성자를 보여 줍니다.
 
@@ -153,7 +153,7 @@ ms.locfileid: "56597649"
     }
     ```
 
-4.  양식 영역 클래스의 컨트롤을 초기화하는 `InitializeControls` 메서드의 각 코드 줄에 대해 아래와 같이 코드를 수정합니다.
+4. 양식 영역 클래스의 컨트롤을 초기화하는 `InitializeControls` 메서드의 각 코드 줄에 대해 아래와 같이 코드를 수정합니다.
 
      다음 코드 예제에서는 .NET Framework 3.5를 대상으로 하는 프로젝트에서 컨트롤을 초기화하는 방법을 보여 줍니다. 이 코드에서 `GetFormRegionControl` 메서드에는 반환되는 컨트롤의 형식을 지정하는 형식 매개 변수가 있습니다.
 
@@ -175,13 +175,13 @@ ms.locfileid: "56597649"
     this.olkTextBox1 = (Microsoft.Office.Interop.Outlook.OlkTextBox)GetFormRegionControl("OlkTextBox1");
     ```
 
-5.  프로젝트에 새 Outlook 양식 영역 항목을 추가합니다. 새 양식 영역에 대한 코드 숨김 파일을 열고 파일에서 *YourNewFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스를 찾은 다음 이러한 클래스를 클립보드에 복사합니다.
+5. 프로젝트에 새 Outlook 양식 영역 항목을 추가합니다. 새 양식 영역에 대한 코드 숨김 파일을 열고 파일에서 *YourNewFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스를 찾은 다음 이러한 클래스를 클립보드에 복사합니다.
 
-6.  프로젝트에 추가한 새 양식 영역을 삭제합니다.
+6. 프로젝트에 추가한 새 양식 영역을 삭제합니다.
 
-7.  대상이 변경된 프로젝트에서 작동하도록 업데이트하는 양식 영역의 코드 숨김 파일에서 *YourOriginalFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스를 찾아 새 양식 영역에서 복사한 코드로 바꿉니다.
+7. 대상이 변경된 프로젝트에서 작동하도록 업데이트하는 양식 영역의 코드 숨김 파일에서 *YourOriginalFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스를 찾아 새 양식 영역에서 복사한 코드로 바꿉니다.
 
-8.  *YourNewFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스에서 *YourNewFormRegion* 클래스에 대한 모든 참조를 검색하고 *YourOriginalFormRegion* 클래스에 대한 각 참조를 대신 변경합니다. 예를 들어 업데이트하는 양식 영역의 이름이 `SalesDataFormRegion` 이고 5단계에서 만든 새 양식 영역의 이름이 `FormRegion1`인 경우 `FormRegion1` 의 모든 참조를 `SalesDataFormRegion`으로 변경합니다.
+8. *YourNewFormRegion*`Factory` 및 `WindowFormRegionCollection` 클래스에서 *YourNewFormRegion* 클래스에 대한 모든 참조를 검색하고 *YourOriginalFormRegion* 클래스에 대한 각 참조를 대신 변경합니다. 예를 들어 업데이트하는 양식 영역의 이름이 `SalesDataFormRegion` 이고 5단계에서 만든 새 양식 영역의 이름이 `FormRegion1`인 경우 `FormRegion1` 의 모든 참조를 `SalesDataFormRegion`으로 변경합니다.
 
 ## <a name="instantiate-form-region-classes"></a>양식 영역 클래스 인스턴스화
  특정 양식 영역 클래스를 동적으로 인스턴스화하는 코드를 수정해야 합니다. .NET Framework 3.5를 대상으로 하는 프로젝트에서 `Microsoft.Office.Tools.Outlook.FormRegionManifest`와 같은 양식 영역 클래스를 직접 인스턴스화할 수 있습니다. [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 이러한 클래스는 직접 인스턴스화할 수 없는 인터페이스입니다.

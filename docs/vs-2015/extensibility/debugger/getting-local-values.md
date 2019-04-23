@@ -12,12 +12,12 @@ ms.assetid: a10b0764-65ac-476f-bf42-b4a9c38e20de
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 10e5b03f2a9c275de3ac3d8259582aee771a20f7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7344bc5b830de07a72a86537af6839ab0993518a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983907"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60044462"
 ---
 # <a name="getting-local-values"></a>로컬 값 가져오기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,13 +29,13 @@ ms.locfileid: "58983907"
   
  이 구현의 `IDebugProperty2::GetPropertyInfo` 다음 작업을 수행 합니다.  
   
-1.  지역 변수의 이름, 속성 및 특성을 가져옵니다 합니다 [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) 구조 클래스를 인스턴스화하고 초기화 때 채워집니다.  
+1. 지역 변수의 이름, 속성 및 특성을 가져옵니다 합니다 [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) 구조 클래스를 인스턴스화하고 초기화 때 채워집니다.  
   
-2.  지역 변수의 형식을 가져옵니다 합니다 [IDebugField](../../extensibility/debugger/reference/idebugfield.md) 개체입니다.  
+2. 지역 변수의 형식을 가져옵니다 합니다 [IDebugField](../../extensibility/debugger/reference/idebugfield.md) 개체입니다.  
   
-3.  지역 변수의 값을 가져옵니다는 `IDebugField` 개체입니다. 이 필드를 사용 하 여 로컬 메모리 위치에 바인딩되는 [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) 개체 및 값을 결과에서 가져온 [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) 개체입니다.  
+3. 지역 변수의 값을 가져옵니다는 `IDebugField` 개체입니다. 이 필드를 사용 하 여 로컬 메모리 위치에 바인딩되는 [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) 개체 및 값을 결과에서 가져온 [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) 개체입니다.  
   
-4.  요청 된 모든 속성을 반환 합니다는 [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) 구조입니다.  
+4. 요청 된 모든 속성을 반환 합니다는 [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) 구조입니다.  
   
 ## <a name="managed-code"></a>관리 코드  
  이 예제에서는 구현을 보여 줍니다. `IDebugProperty2::GetPropertyInfo` 메서드의 관리 코드에서 로컬에 대 한 합니다. 또한 도우미 함수를 보여 줍니다 `Field.GetType`되는 필드의 형식을 가져오는 데 사용 합니다. `Field.GetValue` 에 표시 됩니다 [평가 지역](../../extensibility/debugger/evaluating-locals.md)합니다. 도우미 함수 `Field.MapModifiersToAttributes` (표시 되지 않음) 단순히 필드를 변환 [FIELD_MODIFIERS](../../extensibility/debugger/reference/field-modifiers.md) 하는 플래그 [DBG_ATTRIB_FLAGS](../../extensibility/debugger/reference/dbg-attrib-flags.md) 값입니다.  

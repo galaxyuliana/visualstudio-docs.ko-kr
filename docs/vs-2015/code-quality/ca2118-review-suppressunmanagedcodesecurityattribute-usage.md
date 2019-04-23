@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: ebe26e81bdee6be1b2e3a795f50c753d9bb66814
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: eb76233e968ad8212d15fbcc815c31ffd0f1838a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981625"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059177"
 ---
 # <a name="ca2118-review-suppressunmanagedcodesecurityattribute-usage"></a>CA2118: SuppressUnmanagedCodeSecurityAttribute 사용을 검토하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,11 +44,11 @@ ms.locfileid: "58981625"
 
  기본 보안 정책 로컬 컴퓨터에서 실행 되 고 아니면 다음 그룹 중 하나의 멤버인 어셈블리에 비관리 코드 권한을 부여 하지 않습니다.
 
--   내 컴퓨터 영역 코드 그룹이
+- 내 컴퓨터 영역 코드 그룹이
 
--   코드 그룹, Microsoft 강력한 이름 지정
+- 코드 그룹, Microsoft 강력한 이름 지정
 
--   ECMA 강력한 코드 그룹 이름 지정
+- ECMA 강력한 코드 그룹 이름 지정
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 특성은 반드시 필요한는 되도록 코드를 주의 깊게 검토 합니다. 관리 되는 코드 보안에 익숙하지 않은이 특성을 사용 하 여의 보안 의미를 이해 하지 않는 경우 코드에서 제거 합니다. 특성이 필요한 경우 호출자가 코드를 악의적으로 사용할 수 없음을 확인 해야 합니다. 코드에 비관리 코드를 실행할 수 있는 권한이 없는 경우이 특성에 영향을 주지 않으며 제거 해야 합니다.

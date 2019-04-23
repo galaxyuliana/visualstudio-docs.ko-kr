@@ -11,23 +11,23 @@ ms.assetid: db80aaf2-0652-4d3f-a8c5-2a98fd8502a2
 caps.latest.revision: 32
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1c2516a204151267f6d4686811fe6a7ecba5fe43
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c00023c7b8e624d5b97726720f0f7642a38c5a4f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54791898"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048777"
 ---
 # <a name="sample-project-for-creating-unit-tests"></a>단위 테스트를 만들기 위한 샘플 프로젝트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 샘플 코드는 다음 연습에서 사용할 수 있도록 제공됩니다.  
   
--   [연습: 관리 코드에 대한 단위 테스트 만들기 및 실행](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). 이 연습에서는 단위 테스트를 작성, 사용자 지정 및 실행하고 테스트 결과를 검사하는 단계를 안내합니다.  
+- [연습: 에 대 한 단위 테스트 만들기 및 실행 관리 코드](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)합니다. 이 연습에서는 단위 테스트를 작성, 사용자 지정 및 실행하고 테스트 결과를 검사하는 단계를 안내합니다.  
   
--   [연습: 테스트 실행 및 코드 검사 보기](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)합니다. 또한 테스트 중인 프로젝트 코드의 부분을 보여 주는 코드 검사 데이터를 확인하는 방법도 설명합니다.  
+- [연습: 테스트 실행 및 코드 검사 보기](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)합니다. 또한 테스트 중인 프로젝트 코드의 부분을 보여 주는 코드 검사 데이터를 확인하는 방법도 설명합니다.  
   
--   [연습: 명령줄 테스트 유틸리티 사용](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867) 이 연습에서는 MSTest.exe 명령줄 유틸리티를 사용하여 테스트를 실행하고 결과를 확인합니다.  
+- [연습: 명령줄 테스트 유틸리티 사용](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867) 이 연습에서는 MSTest.exe 명령줄 유틸리티를 사용하여 테스트를 실행하고 결과를 확인합니다.  
   
 ## <a name="sample-code"></a>샘플 코드  
  이 샘플에서 의도적으로 발생시켜야 하는 오류는 Debit 메서드 "m_balance += amount"의 등호 앞에 더하기 기호가 아닌 빼기 기호가 있어야 한다는 것뿐입니다.  
@@ -129,9 +129,9 @@ namespace BankAccountNS
  /* 이 문서에 사용된 예제 회사, 조직, 제품, 도메인 이름, 전자 메일 주소, 로고, 사람, 장소 및 이벤트는 실제 데이터가 아닙니다.  어떠한 실제 회사, 기관, 제품, 도메인 이름, 전자 메일 주소, 로고, 사람, 장소 또는 이벤트와도 연관시킬 의도가 없으며 그렇게 유추해서도 안 됩니다. \*/  
   
 ## <a name="working-with-the-code"></a>코드 작업  
- 이 코드로 작업하려면 먼저 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 이를 위한 프로젝트를 만들어야 합니다. "연습 준비" 섹션의 단계에 따라 [연습: 연습: 관리 코드에 대한 단위 테스트 만들기 및 실행](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).  
+ 이 코드로 작업하려면 먼저 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 이를 위한 프로젝트를 만들어야 합니다. "연습 준비" 섹션의 단계에 따라 [연습: 에 대 한 단위 테스트 만들기 및 실행 관리 코드](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [연습: 관리 코드에 대한 단위 테스트 만들기 및 실행](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)   
+ [연습: 만들기 및 관리 코드에 대 한 단위 테스트를 실행 합니다.](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)   
  [연습: 테스트 실행 및 코드 검사 보기](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
  [연습: 명령줄 테스트 유틸리티 사용](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)

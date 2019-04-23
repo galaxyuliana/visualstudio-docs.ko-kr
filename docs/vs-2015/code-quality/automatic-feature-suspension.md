@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: ab9b6e0ee62bc2506022a853a04871902fa04aad
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c2e6db11220c2cc7f14bc2f0f05912e7855646c1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984621"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045984"
 ---
 # <a name="automatic-feature-suspension"></a>자동 기능 일시 중단
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,11 +29,11 @@ ms.locfileid: "58984621"
 
  메모리 부족 조건에는 다음과 같습니다.
 
--   Visual C# 및 Visual Basic에 대 한 전체 솔루션 분석 사용 되지 않습니다.
+- Visual C# 및 Visual Basic에 대 한 전체 솔루션 분석 사용 되지 않습니다.
 
--   [가비지 수집](http://msdn.microsoft.com/library/22b6cb97-0c80-4eeb-a2cf-5ed7655e37f9) Visual C# 및 Visual Basic에 대 한 짧은 대기 시간 모드 (GC)는 사용 하지 않도록 설정 합니다.
+- [가비지 수집](http://msdn.microsoft.com/library/22b6cb97-0c80-4eeb-a2cf-5ed7655e37f9) Visual C# 및 Visual Basic에 대 한 짧은 대기 시간 모드 (GC)는 사용 하지 않도록 설정 합니다.
 
--   Visual Studio 캐시가 플러시됩니다.
+- Visual Studio 캐시가 플러시됩니다.
 
 ## <a name="improve-visual-studio-performance"></a>Visual Studio 성능 향상
  팁과 요령 대형 솔루션 또는 메모리 부족 상태를 처리할 때 Visual Studio 성능을 개선 하는 방법에 대해서 [대형 솔루션에 대 한 성능 고려 사항](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions)합니다.
@@ -48,11 +48,11 @@ ms.locfileid: "58984621"
 
 모든 Visual Studio 캐시 즉시를 사용 하 여 비울 지정 하지만 현재 개발 세션을 계속 하거나 Visual Studio를 다시 시작 하는 경우 다시 채우기가 시작 됩니다. 캐시 플러시는 다음 기능에 대 한 캐시를 포함 합니다.
 
--   모든 참조 찾기
+- 모든 참조 찾기
 
--   탐색
+- 탐색
 
--   사용 하 여 추가
+- 사용 하 여 추가
 
 또한 Visual Studio의 내부 작업에 사용 되는 캐시도 지워집니다.
 

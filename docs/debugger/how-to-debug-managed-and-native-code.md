@@ -15,12 +15,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - cplusplus
-ms.openlocfilehash: 9079479ee66b741780eab4907325b1c43a3b5ee4
-ms.sourcegitcommit: 8d453b345c72339c37b489a140dad00b244e6ba4
+ms.openlocfilehash: d1fefda9d8d639bf8d360bbd6b869b75b7dae903
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58476009"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58856504"
 ---
 # <a name="tutorial-debug-c-and-c-in-the-same-debugging-session"></a>자습서: 동일한 디버깅 세션에서 C# 및 C++ 디버그
 
@@ -44,18 +44,18 @@ Visual Studio를 사용하면 혼합 모드 디버깅이라는 디버깅 세션�
 - **C++를 사용한 데스크톱 개발**
 - 만들려는 앱 형식에 따라 **.NET 데스크톱 개발** 또는 **.NET Core 플랫폼 간 개발**을 사용합니다.
 
-Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)  페이지로 이동하여 평가판을 설치합니다.
+Visual Studio를 설치하지 않은 경우  [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/)  페이지로 이동하여 평가판을 설치합니다.
 
 Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual Studio **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기**를 선택합니다. Visual Studio 설치 관리자에서 필요한 워크로드 및 **수정**을 차례로 선택합니다.
 
 ## <a name="create-a-simple-native-dll"></a>간단한 네이티브 DLL 만들기
 
-**DLL 프로젝트용 파일을 만들려면:**
+**DLL 프로젝트용 파일을 만들려면 다음을 수행합니다.**
 
 1. Visual Studio를 열고 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    **Ctrl + Q**를 입력하여 검색 상자를 열고 **빈 프로젝트**를 입력하고 **템플릿**을 선택한 다음, C++용 **새 빈 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다. 그런 다음, **Mixed_Mode_Debugging**과 같은 이름을 입력하고 **만들기**를 클릭합니다.
+    **Esc** 키를 눌러 시작 창을 닫습니다. **Ctrl + Q**를 입력하여 검색 상자를 열고 **빈 프로젝트**를 입력하고 **템플릿**을 선택한 다음, C++용 **새 빈 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다. 그런 다음, **Mixed_Mode_Debugging**과 같은 이름을 입력하고 **만들기**를 클릭합니다.
     ::: moniker-end
     ::: moniker range="vs-2017"
     메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual C++** 아래에 **기타**를 선택한 다음, 가운데 창에서 **빈 프로젝트**를 선택합니다. 그런 다음, **Mixed_Mode_Debugging**과 같은 이름을 입력하고 **확인**을 클릭합니다.
@@ -106,7 +106,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
 1. **파일** > **모두 저장**을 선택하거나 **Ctrl**+**Shift**+**S**를 눌러 파일을 저장합니다.
 
-**DLL 프로젝트를 구성 및 빌드합니다.**
+**DLL 프로젝트를 구성 및 빌드하려면 다음을 수행합니다.**
 
 1. Visual Studio 도구 모음에서 **디버그** 구성 및 **x86** 또는 **x64** 플랫폼을 선택합니다. 호출 앱이 항상 64비트 모드로 실행되는 .NET Core인 경우 플랫폼으로 **x64**를 선택합니다.
 
@@ -132,7 +132,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 1. Visual Studio를 연 다음 새 프로젝트를 만듭니다.
 
     ::: moniker range=">=vs-2019"
-    **Ctrl + Q**를 입력하여 검색 상자를 열고 **콘솔**을 입력하고 **템플릿**을 선택한 다음, C#용 **새 콘솔 앱(.NET Framework) 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
+    **Esc** 키를 눌러 시작 창을 닫습니다. **Ctrl + Q**를 입력하여 검색 상자를 열고 **콘솔**을 입력하고 **템플릿**을 선택한 다음, C#용 **새 콘솔 앱(.NET Framework) 프로젝트 만들기**를 선택합니다. 표시되는 대화 상자에서 **만들기**를 선택합니다.
 
     그런 다음, **Mixed_Mode_Calling_App**과 같은 이름을 입력하고 **만들기**를 클릭합니다.
     ::: moniker-end
@@ -193,7 +193,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
 ### <a name="to-configure-mixed-mode-debugging-for-a-net-core-app"></a>.NET Core 앱에 대한 혼합 모드 디버깅을 구성하려면
 
-Visual Studio 2017의 대부분 버전에서 프로젝트 속성 대신 *launchSettings.json* 파일을 사용하여 .NET Core 앱에서 네이티브 코드에 대한 혼합 모드 디버깅을 사용하도록 설정합니다. 이 기능에 대한 UI 업데이트를 추적하려면 이 [GitHub 문제](https://github.com/dotnet/project-system/issues/1125)를 참조하세요.
+Visual Studio 2017부터 시작하는 대부분의 Visual Studio 버전에서는 프로젝트 속성 대신 *launchSettings.json* 파일을 사용하여 .NET Core 앱에서 네이티브 코드에 대한 혼합 모드 디버깅을 사용하도록 설정합니다. 이 기능에 대한 UI 업데이트를 추적하려면 이 [GitHub 문제](https://github.com/dotnet/project-system/issues/1125)를 참조하세요.
 
 1. **솔루션 탐색기**에서 **속성**을 확장하고 *launchSettings.json* 파일을 엽니다.
 

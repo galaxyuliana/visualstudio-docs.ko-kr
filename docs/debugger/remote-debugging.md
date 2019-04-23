@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2142b73dc44b16e8e7ac149b7377959ae3c5cfcc
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MTE95
+ms.openlocfilehash: 8161623b35dd626e59cdb0ed387ece6a104429a1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526440"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047584"
 ---
 # <a name="remote-debugging"></a>Remote Debugging
 다른 컴퓨터에 배포된 Visual Studio 애플리케이션을 디버그할 수 있습니다. 이렇게 하려면 Visual Studio 원격 디버거를 사용합니다.
@@ -88,26 +88,26 @@ ms.locfileid: "57526440"
 ### <a name="configure_msvsmon"></a> 원격 디버거 구성
 원격 디버거를 처음으로 시작한 후에 원격 디버거 구성의 일부 측면을 변경할 수 있습니다.
 
--   선택에 원격 디버거를 연결할 다른 사용자에 대 한 사용 권한을 추가 하는 경우 **도구 > 권한을**합니다. 사용 권한을 부여하거나 거부하려면 관리자 권한이 있어야 합니다.
+- 선택에 원격 디버거를 연결할 다른 사용자에 대 한 사용 권한을 추가 하는 경우 **도구 > 권한을**합니다. 사용 권한을 부여하거나 거부하려면 관리자 권한이 있어야 합니다.
 
      > [!IMPORTANT]
      > Visual Studio 컴퓨터에서 사용 하는 사용자 계정에서 다른 사용자 계정으로 원격 디버거를 실행할 수는 있지만 원격 디버거의 사용 권한에 다른 사용자 계정을 추가 해야 합니다.
 
      또는 사용 하 여 명령줄에서 원격 디버거를 시작할 수 있습니다 합니다 **허용 / \<사용자 이름 >** 매개 변수: **msvsmon /allow \< username@computer>** 합니다.
 
--   인증 모드 또는 포트 번호를 변경 하거나 원격 도구의 시간 제한 값을 지정 하는 경우: 선택할 **도구 > 옵션**합니다.
+- 인증 모드 또는 포트 번호를 변경 하거나 원격 도구의 시간 제한 값을 지정 하는 경우: 선택할 **도구 > 옵션**합니다.
 
      기본적으로 사용 되는 포트 번호의 나열을 참조 하세요 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)합니다.
 
      > [!WARNING]
      >  원격 도구를 인증 안 함 모드에서 실행할 수도 있지만 이 모드는 사용하지 않는 것이 좋습니다. 이 모드에서 실행할 때는 네트워크 보안이 없습니다. 네트워크에 악의적인 트래픽이나 유해 트래픽 위험이 확실히 없는 경우에만 인증 안 함 모드를 선택하세요.
 
-##  <a name="bkmk_configureService"></a> (선택 사항) 원격 디버거를 서비스로 구성
+## <a name="bkmk_configureService"></a> (선택 사항) 원격 디버거를 서비스로 구성
 ASP.NET 및 기타 서버 환경에서 디버깅을 위해 관리자 권한으로 원격 디버거를 실행 하거나, 항상 실행 하려는 경우 원격 디버거를 서비스로 실행 됩니다.
 
  원격 디버거를 서비스로 구성 하려는 경우 다음이 단계를 수행 합니다.
 
-1. **원격 디버거 구성 마법사** (rdbgwiz.exe)를 찾습니다. (원격 디버거와 별도의 애플리케이션입니다.) 해당 마법사는 원격 도구를 설치하는 경우에만 사용할 수 있으며 Visual Studio와 함께 설치되지 않습니다.
+1. **원격 디버거 구성 마법사** (rdbgwiz.exe)를 찾습니다. 이는 원격 디버거와 별도의 응용 프로그램입니다. 원격 도구를 설치한 경우에만 사용할 수 있습니다. Visual Studio와 함께 설치되지 않습니다.
 
 2. 구성 마법사 실행을 시작합니다. 첫 페이지가 표시되면 **다음**을 클릭합니다.
 
@@ -131,7 +131,7 @@ ASP.NET 및 기타 서버 환경에서 디버깅을 위해 관리자 권한으�
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [디버거 소개](../debugger/debugger-feature-tour.md)
 - [원격 디버깅을 위해 Windows 방화벽 구성](../debugger/configure-the-windows-firewall-for-remote-debugging.md)

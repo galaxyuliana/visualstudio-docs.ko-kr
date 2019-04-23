@@ -14,12 +14,12 @@ caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 19c20241914001f7095e63e0cc25f91b2ab5c35e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 234c289cd039485163aa201516c418bacaed590b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664218"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047427"
 ---
 # <a name="create-a-simple-data-application-by-using-adonet"></a>ADO.NET을 사용하여 간단한 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,17 +33,17 @@ ms.locfileid: "59664218"
   
  **항목 내용**  
   
--   [샘플 데이터베이스 설정](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_setupthesampledatabase)  
+- [샘플 데이터베이스 설정](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_setupthesampledatabase)  
   
--   [폼 만들기 및 컨트롤 추가](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_createtheformsandaddcontrols)  
+- [폼 만들기 및 컨트롤 추가](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_createtheformsandaddcontrols)  
   
--   [연결 문자열 저장](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_storetheconnectionstring)  
+- [연결 문자열 저장](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_storetheconnectionstring)  
   
--   [연결 문자열 검색](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_retrievetheconnectionstring)  
+- [연결 문자열 검색](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_retrievetheconnectionstring)  
   
--   [폼에 대 한 코드 작성](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_writethecodefortheforms)  
+- [폼에 대 한 코드 작성](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_writethecodefortheforms)  
   
--   [응용 프로그램 테스트](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_testyourapplication)  
+- [응용 프로그램 테스트](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_testyourapplication)  
   
 ## <a name="prerequisites"></a>전제 조건  
  응용 프로그램을 만들려면 다음이 필요 합니다.  
@@ -58,10 +58,10 @@ ms.locfileid: "59664218"
   
   이 항목에서는 사용자가 Visual Studio IDE의 기본 기능에 익숙하고 Windows Forms 응용 프로그램 작성, 프로젝트에 폼 추가, 폼에 단추 및 기타 컨트롤 배치, 이러한 컨트롤의 속성 설정 및 간단한 이벤트 코드 작성을 수행할 수 있다고 가정합니다. 이러한 작업에 익숙하지 경우 완료 하는 것이 좋습니다 합니다 [Getting Started with Visual C# 및 Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) 이 항목에서는 시작 하기 전에 합니다.  
   
-##  <a name="BKMK_setupthesampledatabase"></a> 샘플 데이터베이스 설정  
+## <a name="BKMK_setupthesampledatabase"></a> 샘플 데이터베이스 설정  
  이 연습의 샘플 데이터베이스는 고객 및 주문 테이블로 구성되어 있습니다. 테이블에는 처음에 데이터가 없지만 사용자가 만드는 응용 프로그램을 실행할 때 데이터가 추가됩니다. 데이터베이스에는 5개의 간단한 저장 프로시저도 있습니다. [스크립트를 사용 하 여 SQL database 만들기](../data-tools/create-a-sql-database-by-using-a-script.md) 테이블, 기본 및 외래 키, 제약 조건 및 저장된 프로시저를 만드는 TRANSACT-SQL 스크립트가 들어 있습니다.  
   
-##  <a name="BKMK_createtheformsandaddcontrols"></a> 폼 만들기 및 컨트롤 추가  
+## <a name="BKMK_createtheformsandaddcontrols"></a> 폼 만들기 및 컨트롤 추가  
   
 1. Windows Forms 응용 프로그램의 경우 프로젝트를 만들고 SimpleDataApp 이름입니다.  
   
@@ -69,11 +69,11 @@ ms.locfileid: "59664218"
   
 2. 프로젝트에 두 개의 Windows 양식을 추가하여 총 세 개의 양식을 만든 다음, 다음 이름을 지정합니다.  
   
-   -   탐색  
+   - 탐색  
   
-   -   NewCustomer  
+   - NewCustomer  
   
-   -   FillOrCancel  
+   - FillOrCancel  
   
 3. 각 폼에 대해 다음 그림에 나오는 텍스트 상자, 단추 및 기타 컨트롤을 추가합니다. 각 컨트롤에 대해 테이블이 설명하는 속성을 설정합니다.  
   
@@ -119,33 +119,33 @@ ms.locfileid: "59664218"
 |단추|Name = btnFillOrder|  
 |단추|Name = btnFinishUpdates|  
   
-##  <a name="BKMK_storetheconnectionstring"></a> 연결 문자열 저장  
+## <a name="BKMK_storetheconnectionstring"></a> 연결 문자열 저장  
  응용 프로그램이 데이터베이스에 대한 연결을 열려면 응용 프로그램에는 연결 문자열에 액세스할 수 있어야 합니다. 각 폼에 문자열을 수동으로 입력를 방지 하려면 프로젝트에서 app.config 파일에 문자열을 저장 하 고 응용 프로그램의 폼에서 메서드를 호출할 때 문자열을 반환 하는 메서드를 만듭니다.  
   
  연결 문자열을 찾을 수 있습니다 **SQL Server 개체 탐색기** 데이터베이스를 마우스 오른쪽 단추로 클릭를 선택 하 여 **속성**를 찾아 ConnectionString 속성입니다. Ctrl + A를 사용 하 여 문자열을 선택 합니다.  
   
-1.  **솔루션 탐색기**를 선택 합니다 **속성** 노드는 프로젝트를 선택한 후 아래의 **생성 되는 Settings.settings**합니다.  
+1. **솔루션 탐색기**를 선택 합니다 **속성** 노드는 프로젝트를 선택한 후 아래의 **생성 되는 Settings.settings**합니다.  
   
-2.  에 **이름을** 열, 입력 `connString`합니다.  
+2. 에 **이름을** 열, 입력 `connString`합니다.  
   
-3.  에 **형식** 목록에서 **(문자열)** 합니다.  
+3. 에 **형식** 목록에서 **(문자열)** 합니다.  
   
-4.  에 **범위** 목록에서 **응용 프로그램**합니다.  
+4. 에 **범위** 목록에서 **응용 프로그램**합니다.  
   
-5.  에 **값** 열 (하지 않고 따옴표 외부), 연결 문자열을 입력 하 고 다음 변경 내용을 저장 합니다.  
+5. 에 **값** 열 (하지 않고 따옴표 외부), 연결 문자열을 입력 하 고 다음 변경 내용을 저장 합니다.  
   
 > [!NOTE]
 >  실제 응용 프로그램에서 연결 문자열을 안전 하 게에 설명 된 대로 저장 해야 [연결 문자열 및 구성 파일](http://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8)합니다.  
   
-##  <a name="BKMK_retrievetheconnectionstring"></a> 연결 문자열 검색  
+## <a name="BKMK_retrievetheconnectionstring"></a> 연결 문자열 검색  
   
-1.  메뉴 모음에서 선택 **프로젝트** > **참조 추가**, 한 다음 System.Configuration.dll에 대 한 참조를 추가 합니다.  
+1. 메뉴 모음에서 선택 **프로젝트** > **참조 추가**, 한 다음 System.Configuration.dll에 대 한 참조를 추가 합니다.  
   
-2.  메뉴 모음에서 선택 **프로젝트** > **클래스 추가** 클래스 파일을 프로젝트에 추가 하 여 다음 파일 이름을 `Utility`입니다.  
+2. 메뉴 모음에서 선택 **프로젝트** > **클래스 추가** 클래스 파일을 프로젝트에 추가 하 여 다음 파일 이름을 `Utility`입니다.  
   
      Visual Studio에서 파일을 만들고 및에 표시 **솔루션 탐색기**합니다.  
   
-3.  유틸리티 파일에서 자리 표시자 코드를 다음 코드로 바꿉니다. 코드 섹션을 식별하는 번호가 매겨진 주석(Util- 접두사 포함)을 주목하세요. 코드 아래 표에 요점이 요약되어 있습니다.  
+3. 유틸리티 파일에서 자리 표시자 코드를 다음 코드로 바꿉니다. 코드 섹션을 식별하는 번호가 매겨진 주석(Util- 접두사 포함)을 주목하세요. 코드 아래 표에 요점이 요약되어 있습니다.  
   
     ```csharp  
     using System;  
@@ -219,7 +219,7 @@ ms.locfileid: "59664218"
     |Util-2|`returnValue` 변수를 정의하고 `null`(C#) 또는 `Nothing`(Visual Basic)으로 초기화합니다.|  
     |Util-3|입력 한 경우에 `connString` 연결 문자열의 이름으로는 **속성** 지정 해야 창 `"SimpleDataApp.Properties.Settings.connString"` (C#) 또는 `"SimpleDataApp.My.MySettings.connString"` (Visual Basic) 코드에서입니다.|  
   
-##  <a name="BKMK_writethecodefortheforms"></a> 폼에 대 한 코드 작성  
+## <a name="BKMK_writethecodefortheforms"></a> 폼에 대 한 코드 작성  
  이 섹션에서는 각 폼에서 수행되는 작업에 대한 간단한 개요를 포함하며, 폼을 만드는 코드를 보여 줍니다. 번호가 매겨진 주석은 해당 코드 섹션을 식별합니다.  
   
 ### <a name="navigation-form"></a>Navigation 폼  
@@ -1139,5 +1139,5 @@ End Namespace
 |FC-8|`btnFillOrder`에 대한 Click 이벤트 처리기에 추가합니다. 이 코드는 `Sales.uspFillOrder` 저장 프로시저를 실행합니다.|  
 |FC-9|확인 하는 메서드를 만듭니다 `OrderID` 매개 변수로 전송 될 준비가 되는 `SqlCommand` 개체입니다.<br /><br /> -확인에 ID를 입력 된 않도록 `txtOrderID`합니다.<br />-사용 `Regex.IsMatch` 에 정수가 아닌 문자에 대 한 간단한 검사를 정의 합니다.<br />-선언 하는 `parsedOrderID` FC 2에 있는 변수입니다.<br />-올바르면 입력 텍스트를 정수로 변환 하 고 값을 저장 합니다 `parsedOrderID` 변수입니다.<br />-줄 바꿈 합니다 `isOrderID` 관련 메서드는 `btnFindByOrderID`, `btnCancelOrder`, 및 `btnFillOrder` Click 이벤트 처리기.|  
   
-##  <a name="BKMK_testyourapplication"></a> 응용 프로그램 테스트  
+## <a name="BKMK_testyourapplication"></a> 응용 프로그램 테스트  
  빌드 및 각 Click 이벤트 처리기를 코딩 한 후 응용 프로그램을 테스트 하려면 F5 키를 선택 하 고 코딩을 마친 후 다음입니다.

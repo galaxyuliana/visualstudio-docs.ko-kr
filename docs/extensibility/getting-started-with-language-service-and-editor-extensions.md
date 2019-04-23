@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a6002ed1748a5848e43628c88ec0395a0d4053ed
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 829ceea8f4acf0f884e3345e05053d368489d9ea
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56712023"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049024"
 ---
 # <a name="get-started-with-language-service-and-editor-extensions"></a>언어 서비스 및 편집기 확장 시작
 고유한 프로그래밍 언어 또는 모든 콘텐츠 형식에 개요, 중괄호 일치, IntelliSense 및 light bulbs와 같은 언어 서비스 기능을 추가 하려면 편집기 확장을 사용할 수 있습니다. Visual Studio 편집기에서 색 지정, 여백, 프로그램 및 기타 시각적 요소 예를 들어 텍스트의 동작과 모양을 사용자 지정할 수도 있습니다. 또한 고유한 형식의 콘텐츠를 정의 하 고 콘텐츠에 표시 되는 텍스트 보기의 동작과 모양을 지정할 수 있습니다.
@@ -82,9 +82,9 @@ ms.locfileid: "56712023"
 
  작업을 Visual Studio 패키지 확장에서 MEF 구성 요소 편집기도 만들 수도 있습니다. 자세한 다음 연습을 참조 하세요.
 
--   [연습: 편집기 확장에서 셸 명령 사용](../extensibility/walkthrough-using-a-shell-command-with-an-editor-extension.md)
+- [연습: 편집기 확장에서 셸 명령 사용](../extensibility/walkthrough-using-a-shell-command-with-an-editor-extension.md)
 
--   [연습: 편집기 확장에서 바로 가기 키 사용](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)
+- [연습: 편집기 확장에서 바로 가기 키 사용](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)
 
 ## <a name="see-also"></a>참고자료
 - [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)

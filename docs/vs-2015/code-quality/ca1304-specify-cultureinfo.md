@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 173ab11e85853324089f1dee66cd047e0afb7f13
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 8757b04423037d821d7b74293e508f567975da57
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981186"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047934"
 ---
 # <a name="ca1304-specify-cultureinfo"></a>CA1304: CultureInfo를 지정하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,11 +35,11 @@ ms.locfileid: "58981186"
 ## <a name="cause"></a>원인
  메서드 또는 생성자 호출을 받아들이는 오버 로드가 있는 멤버를 <xref:System.Globalization.CultureInfo?displayProperty=fullName> 매개 변수 및 메서드 또는 생성자는 오버 로드를 호출 하지 않습니다는 <xref:System.Globalization.CultureInfo> 매개 변수입니다. 이 규칙에는 다음 방법에 대 한 호출 무시:
 
--   <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>
+- <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>
 
--   <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=fullName>
+- <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=fullName>
 
--   <xref:System.Resources.ResourceManager.GetString%2A?displayProperty=fullName>
+- <xref:System.Resources.ResourceManager.GetString%2A?displayProperty=fullName>
 
 ## <a name="rule-description"></a>규칙 설명
  경우는 <xref:System.Globalization.CultureInfo> 또는 <xref:System.IFormatProvider?displayProperty=fullName> 개체가 제공 되지 않으면, 오버 로드 된 멤버에서 제공 하는 기본 값이 모든 로캘에서 원하는 효과 없을 수 있습니다. 또한 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 멤버 기본 culture를 선택 하 고 코드에 대해 올바르지 않을 수 있다는 가정 하에 따라 서식 지정 합니다. 코드 시나리오에 대 한 예상 대로 작동을 위해 다음 지침에 따라 문화권별 형식 정보를 제공 해야 합니다.

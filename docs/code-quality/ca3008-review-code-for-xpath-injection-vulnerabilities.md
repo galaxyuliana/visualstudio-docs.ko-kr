@@ -1,5 +1,5 @@
 ---
-title: 'CA3008: XPath 주입 취약점에 대 한 코드를 검토 합니다.'
+title: 'CA3008: 코드에서 XPath 삽입 취약성에 대해 검토합니다.'
 ms.date: 04/03/2019
 ms.topic: reference
 author: dotpaul
@@ -11,13 +11,13 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: e66b75160df0e8ecf9d33601ee383ec71cd62c4d
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018580"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60044813"
 ---
-# <a name="ca3008-review-code-for-xpath-injection-vulnerabilities"></a>CA3008: XPath 주입 취약점에 대 한 코드를 검토 합니다.
+# <a name="ca3008-review-code-for-xpath-injection-vulnerabilities"></a>CA3008: 코드에서 XPath 삽입 취약성에 대해 검토합니다.
 
 |||
 |-|-|

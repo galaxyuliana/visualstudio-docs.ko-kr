@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 52ff98f15afb95bda4d69770b84764db21171425
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: be8a17496788b0f4fe8abc9859b46cbfa11a6ed7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599664"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053015"
 ---
 # <a name="grant-trust-to-documents"></a>문서에 신뢰를 부여
   문서 수준 프로젝트에는 인증서를 사용하여 매니페스트에 서명하거나 신뢰 프롬프트를 클릭하는 것과 같은 응용 프로그램 수준 프로젝트와 같은 보안 요구 사항이 있습니다. 또한 문서 또는 통합 문서는 신뢰할 수 있는 위치로 지정된 디렉터리에 있어야 합니다.
@@ -35,13 +35,13 @@ ms.locfileid: "56599664"
 ## <a name="security-considerations-for-office-solutions"></a>Office 솔루션에 대 한 보안 고려 사항
  신뢰할 수 있는 위치에 추가할 폴더를 고려할 때 몇 가지 보안 고려 사항이 있습니다.
 
--   로컬 폴더는 더 안전한 것으로 간주하고 암시적으로 신뢰할 수 있습니다. 파일 공유와 같은 원격 위치는 신뢰할 수 있는 위치로 지정해야 합니다.
+- 로컬 폴더는 더 안전한 것으로 간주하고 암시적으로 신뢰할 수 있습니다. 파일 공유와 같은 원격 위치는 신뢰할 수 있는 위치로 지정해야 합니다.
 
--   신뢰할 수 있는 위치에 디렉터리를 추가하면 이 작업은 Office 솔루션뿐만 아니라 VBA 및 ActiveX 코드에도 완전 신뢰를 부여합니다. 이러한 이유로 루트 디렉터리 및 *내 문서* 폴더를 지정할 수는 신뢰할 수 있는 합니다.
+- 신뢰할 수 있는 위치에 디렉터리를 추가하면 이 작업은 Office 솔루션뿐만 아니라 VBA 및 ActiveX 코드에도 완전 신뢰를 부여합니다. 이러한 이유로 루트 디렉터리 및 *내 문서* 폴더를 지정할 수는 신뢰할 수 있는 합니다.
 
--   신뢰할 수 있는 위치를 사용하여 문서 자체를 신뢰할 수 있지만 사용자 지정을 신뢰하려면 추가 권한이 필요합니다. 인증서를 사용 하 여 매니페스트에 서명, 신뢰 프롬프트를 클릭 하거나 Office 솔루션을 설치를 사용 하 여 사용자 지정에 완전 신뢰를 부여할 수 있습니다 합니다 *Program Files* 디렉터리입니다.
+- 신뢰할 수 있는 위치를 사용하여 문서 자체를 신뢰할 수 있지만 사용자 지정을 신뢰하려면 추가 권한이 필요합니다. 인증서를 사용 하 여 매니페스트에 서명, 신뢰 프롬프트를 클릭 하거나 Office 솔루션을 설치를 사용 하 여 사용자 지정에 완전 신뢰를 부여할 수 있습니다 합니다 *Program Files* 디렉터리입니다.
 
--   문서 수준 솔루션의 문서 또는 통합 문서는 어셈블리와 같은 디렉터리나 다른 디렉터리에 저장할 수 있습니다. 예를 들어 문서는 SharePoint 서버에 있고 어셈블리는 네트워크 파일 공유에 있을 수 있습니다. 자세한 내용은 [방법: ClickOnce를 사용 하 여 SharePoint 서버에 문서 수준 Office 솔루션 게시](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)합니다.
+- 문서 수준 솔루션의 문서 또는 통합 문서는 어셈블리와 같은 디렉터리나 다른 디렉터리에 저장할 수 있습니다. 예를 들어 문서는 SharePoint 서버에 있고 어셈블리는 네트워크 파일 공유에 있을 수 있습니다. 자세한 내용은 [방법: ClickOnce를 사용 하 여 SharePoint 서버에 문서 수준 Office 솔루션 게시](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office 솔루션에 신뢰를 부여](../vsto/granting-trust-to-office-solutions.md)

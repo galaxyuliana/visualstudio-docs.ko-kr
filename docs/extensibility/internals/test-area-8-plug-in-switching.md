@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2093db67a97bcd913773feebe0a4f10bf6ac9180
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: b308fb97a55f61645d038c9a81445f4561415e9b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659503"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047882"
 ---
 # <a name="test-area-8-plug-in-switching"></a>테스트 영역 8: 플러그 인 전환
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 사용자 인터페이스 (UI) 현재 소스 제어 플러그 인을 변경 해야 합니다. 이 테스트 영역은 소스 제어 솔루션에 사용할 플러그 인 선택 프로세스에 대 한 테스트 사례를 제공 합니다.
@@ -24,9 +24,9 @@ ms.locfileid: "59659503"
 ## <a name="command-menu-access"></a>명령 메뉴 액세스
  다음 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 메뉴 경로 테스트 사례에서 사용 됩니다.
 
--   현재 소스 제어 플러그 인: **도구** -> **옵션** -> **소스 제어** -> **플러그 인 선택**합니다.
+- 현재 소스 제어 플러그 인: **도구** -> **옵션** -> **소스 제어** -> **플러그 인 선택**합니다.
 
--   소스 변경 바인딩을 제어 합니다. **파일** -> **소스 제어** -> **소스 제어 변경**...
+- 소스 변경 바인딩을 제어 합니다. **파일** -> **소스 제어** -> **소스 제어 변경**...
 
 ## <a name="common-expected-behavior"></a>예상 되는 일반적인 동작
  Visual Studio를 종료 하거나 솔루션을 다시 로드 하지 않고 소스 제어 플러그 인을 솔루션에 대 한 변경 불가능 합니다. 또한 현재 소스 제어 플러그 인 솔루션 로드 되 면 솔루션에서 사용 하는 자동으로 변경 합니다.

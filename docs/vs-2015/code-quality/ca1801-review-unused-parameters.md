@@ -16,12 +16,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: f356f0a13b9a1b9ecf3a8096b29c1f0c9c6f275a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 0efbec121e08d026145d8762b574847fbd4a2b88
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662610"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045644"
 ---
 # <a name="ca1801-review-unused-parameters"></a>CA1801: 사용되지 않은 매개 변수를 검토하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,17 +38,17 @@ Visual Studio에서 최신 설명서를 참조 하세요. [CA1801: 사용 되지
 ## <a name="cause"></a>원인  
  메서드 시그니처에 메서드 본문에서 사용되지 않는 매개 변수가 있습니다. 이 규칙에서 다음 메서드를 검사 하지 않습니다.  
   
--   참조 하는 대리자 메서드입니다.  
+- 참조 하는 대리자 메서드입니다.  
   
--   메서드를 이벤트 처리기로 사용 합니다.  
+- 메서드를 이벤트 처리기로 사용 합니다.  
   
--   사용 하 여 선언 된 메서드를 `abstract` (`MustOverride` Visual basic에서) 한정자.  
+- 사용 하 여 선언 된 메서드를 `abstract` (`MustOverride` Visual basic에서) 한정자.  
   
--   사용 하 여 선언 된 메서드를 `virtual` (`Overridable` Visual basic에서) 한정자.  
+- 사용 하 여 선언 된 메서드를 `virtual` (`Overridable` Visual basic에서) 한정자.  
   
--   사용 하 여 선언 된 메서드를 `override` (`Overrides` Visual basic에서) 한정자.  
+- 사용 하 여 선언 된 메서드를 `override` (`Overrides` Visual basic에서) 한정자.  
   
--   메서드를 사용 하 여 선언 된 `extern` (`Declare` Visual Basic의 문) 한정자.  
+- 메서드를 사용 하 여 선언 된 `extern` (`Declare` Visual Basic의 문) 한정자.  
   
 ## <a name="rule-description"></a>규칙 설명  
  메서드 본문에 액세스 하는 데 실패 수정 사항이 있는지 확인 하려면 사용 되지 않는 비가상 메서드의 매개 변수를 검토 합니다. 사용 되지 않는 매개 변수에는 유지 관리 및 성능 비용이 발생합니다.  

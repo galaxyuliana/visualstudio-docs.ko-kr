@@ -13,12 +13,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7585d824ea6abf7df0aab5dc07c88abe9ff97081
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b98c520dc96b6f3c6467bbcaf8e48d9cff8791d2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980784"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048738"
 ---
 # <a name="debugging-legacy-workflows"></a>레거시 워크플로 디버깅
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]의 레거시 [!INCLUDE[vs_current_long](../includes/vs-current-long-md.md)]를 사용하여 .NET Framework 3.0 또는 3.5를 대상으로 하는 [!INCLUDE[wf](../includes/wf-md.md)] 응용 프로그램을 빌드하는 경우 다른 프로그램의 경우와 같이 중단점을 설정하고, 프로세스에 연결하고, 스레드 및 호출 스택을 검사하는 방법으로 워크플로를 디버깅할 수 있습니다. 뿐만 아니라 원격으로 디버깅할 수도 있습니다.  
@@ -27,7 +27,7 @@ ms.locfileid: "58980784"
 >  컴퓨터에 여러 버전의 Visual Studio를 설치하고 제거한 경우 다음과 같은 두 가지 문제 중 하나로 WF3 디버깅이 실패할 수 있습니다.  
 > 
 > - 중단점이 적중되지 않습니다.  
->   -   다음 메시지가 표시됩니다.  
+>   - 다음 메시지가 표시됩니다.  
 > 
 >   **웹 서버에서 디버깅을 시작할 수 없습니다. 디버거가 제대로 설치되지 않았습니다.  요청한 코드 형식을 디버깅할 수 없습니다.  설치 하거나 복구 디버거 설치 프로그램을 실행 합니다.**  
 > 

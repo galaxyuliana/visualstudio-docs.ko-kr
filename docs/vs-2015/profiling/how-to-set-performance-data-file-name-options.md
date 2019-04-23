@@ -1,5 +1,5 @@
 ---
-title: '방법: 성능 데이터 파일 이름 옵션 설정 | Microsoft 문서'
+title: '방법: 성능 데이터 파일 이름 옵션 설정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f3d513010b94c61e09f8bda6a9fb3074ba949bdd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: faaa78d34c71d1f0b436b861ccb1ac4892267e9b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54760416"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057838"
 ---
 # <a name="how-to-set-performance-data-file-name-options"></a>방법: 성능 데이터 파일 이름 옵션 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "54760416"
   
  **요구 사항**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 |||  
 |-|-|  
@@ -38,11 +38,11 @@ ms.locfileid: "54760416"
   
 ### <a name="to-change-the-naming-syntax-of-the-profiling-data-files-of-a-performance-session"></a>성능 세션에 대한 프로파일링 데이터 파일의 명명 구문을 변경하려면  
   
-1.  **성능 탐색기**에서 성능 세션의 이름을 마우스 오른쪽 단추로 클릭한 다음 **속성**을 클릭합니다.  
+1. **성능 탐색기**에서 성능 세션의 이름을 마우스 오른쪽 단추로 클릭한 다음 **속성**을 클릭합니다.  
   
-2.  **일반**을 클릭합니다.  
+2. **일반**을 클릭합니다.  
   
-3.  **보고서**에서 다음 설정을 변경합니다.  
+3. **보고서**에서 다음 설정을 변경합니다.  
   
     |||  
     |-|-|  

@@ -11,12 +11,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a97dfc6e7f93602b50102da51127fff6169ac3dc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d2f2a70df72f6dfcdc8946ca2f5afec9efa21a65
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981673"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059242"
 ---
 # <a name="warning-the-dependency-39file39-in-project-39project39-cannot-be-copied-to-the-run-directory-because-it-would-overwrite-the-reference-39file39"></a>경고: 종속성 &#39;파일&#39; 프로젝트에서 &#39;프로젝트&#39; 대 한 참조를 덮어쓰므로 실행된 디렉터리에 복사할 수 없습니다 &#39;파일입니다.&#39;
 참조 간에 충돌이 존재합니다. 즉, 실행할 애플리케이션의 bin 디렉터리에 파일 이름이 같은 둘 이상의 고유 어셈블리 파일을 복사하려고 했습니다. 종속성 중 하나가 기본 참조이므로 실행 디렉터리에서 충돌을 해결할 수 없습니다.  
@@ -31,7 +31,7 @@ ms.locfileid: "58981673"
   
  **이 오류를 해결 하려면**  
   
--   어셈블리 파일을 전역 어셈블리 캐시에 두어 하나(또는 0개)의 어셈블리 파일만 bin 디렉터리에 복사합니다. 전역 어셈블리 캐시는 파일 이름 충돌을 해결합니다. 공용 언어 런타임이 전역 어셈블리 캐시에서 어셈블리를 찾는 방법을 알기 때문에 어셈블리 파일의 로컬 복사본이 만들어지지 않습니다. 자세한 내용은 [Working with Assemblies and the Global Assembly Cache](http://msdn.microsoft.com/library/8a18e5c2-d41d-49ef-abcb-7c27e2469433) 및 [Error: the dependency 'file' in project 'project' cannot be copied to the run directory because it would conflict with dependency 'file'](/visualstudio/misc/error-dependency-file?view=vs-2015)를 참조하세요.  
+- 어셈블리 파일을 전역 어셈블리 캐시에 두어 하나(또는 0개)의 어셈블리 파일만 bin 디렉터리에 복사합니다. 전역 어셈블리 캐시는 파일 이름 충돌을 해결합니다. 공용 언어 런타임이 전역 어셈블리 캐시에서 어셈블리를 찾는 방법을 알기 때문에 어셈블리 파일의 로컬 복사본이 만들어지지 않습니다. 자세한 내용은 [Working with Assemblies and the Global Assembly Cache](http://msdn.microsoft.com/library/8a18e5c2-d41d-49ef-abcb-7c27e2469433) 및 [Error: the dependency 'file' in project 'project' cannot be copied to the run directory because it would conflict with dependency 'file'](/visualstudio/misc/error-dependency-file?view=vs-2015)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)   

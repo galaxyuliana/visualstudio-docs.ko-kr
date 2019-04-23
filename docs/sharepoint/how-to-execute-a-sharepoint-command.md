@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: db95754fd27820e0686f65a22393f51510467fb6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 6f5c285e71179c5dd59fad0357dbf71ee4b32f9d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631187"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049190"
 ---
 # <a name="how-to-execute-a-sharepoint-command"></a>방법: SharePoint 명령 실행
   사용자 지정 SharePoint 도구 확장에서 서버 개체 모델을 사용 하려는 경우 만들어야 *SharePoint 명령을* API를 호출 합니다. 명령을 정의 하 고 SharePoint 도구 확장을 통해 배포한 후 확장 프로그램에 SharePoint 서버 개체 모델을 호출 하는 명령을 실행할 수 있습니다. 명령을 실행 하려면의 ExecuteCommand 메서드 중 하나를 사용는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> 개체입니다.
@@ -26,21 +26,21 @@ ms.locfileid: "56631187"
 
 ### <a name="to-execute-a-sharepoint-command"></a>SharePoint 명령을 실행 하려면
 
-1.  SharePoint 도구 확장 프로그램에 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> 개체입니다. 가져오는 방법은 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> 개체 만들면 확장의 형식에 따라 달라 집니다.
+1. SharePoint 도구 확장 프로그램에 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> 개체입니다. 가져오는 방법은 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> 개체 만들면 확장의 형식에 따라 달라 집니다.
 
-    -   SharePoint 프로젝트 시스템의 확장을 사용 하 여는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.SharePointConnection%2A> 속성입니다.
+    - SharePoint 프로젝트 시스템의 확장을 사용 하 여는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.SharePointConnection%2A> 속성입니다.
 
          프로젝트 시스템 확장에 대 한 자세한 내용은 참조 하세요. [SharePoint 프로젝트 시스템 확장](../sharepoint/extending-the-sharepoint-project-system.md)합니다.
 
-    -   확장에는 **SharePoint 연결** 노드에서 **서버 탐색기**를 사용 하 여는 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext.SharePointConnection%2A> 속성. 가져올는 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext> 개체는 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.Context%2A> 속성입니다.
+    - 확장에는 **SharePoint 연결** 노드에서 **서버 탐색기**를 사용 하 여는 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext.SharePointConnection%2A> 속성. 가져올는 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext> 개체는 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.Context%2A> 속성입니다.
 
          에 대 한 자세한 내용은 **서버 탐색기** 확장을 참조 하십시오 [서버 탐색기에서 SharePoint 연결 노드 확장](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)합니다.
 
-    -   프로젝트 템플릿 마법사를 사용 하는 등의 SharePoint 도구 확장에 포함 하지 않은 코드에 사용 된 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.SharePointConnection%2A> 속성입니다.
+    - 프로젝트 템플릿 마법사를 사용 하는 등의 SharePoint 도구 확장에 포함 하지 않은 코드에 사용 된 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.SharePointConnection%2A> 속성입니다.
 
          프로젝트 서비스 검색에 대 한 자세한 내용은 참조 하세요. [SharePoint 프로젝트 서비스를 사용 하 여](../sharepoint/using-the-sharepoint-project-service.md)입니다.
 
-2.  ExecuteCommand 메서드 중 하나를 호출 하 여 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> 개체입니다. ExecuteCommand 메서드의 첫 번째 인수를 실행 하려는 명령의 이름을 전달 하세요. 명령 사용자 지정 매개 변수가 있으면 ExecuteCommand 메서드의 두 번째 인수는 매개 변수를 전달 합니다.
+2. ExecuteCommand 메서드 중 하나를 호출 하 여 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> 개체입니다. ExecuteCommand 메서드의 첫 번째 인수를 실행 하려는 명령의 이름을 전달 하세요. 명령 사용자 지정 매개 변수가 있으면 ExecuteCommand 메서드의 두 번째 인수는 매개 변수를 전달 합니다.
 
      각 지원 되는 명령 서명에 대 한 다른 ExecuteCommand 오버 로드를 있습니다. 다음 표에서 지원 되는 서명 및 각 서명에 사용 하는 오버 로드를 나열 합니다.
 
@@ -61,11 +61,11 @@ ms.locfileid: "56631187"
 
  에 대 한 호출에 대 한 다음 세부 정보를 확인 합니다 <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection.ExecuteCommand%2A> 메서드:
 
--   첫 번째 매개 변수를 호출 하려는 하는 명령을 식별 합니다. 이 문자열에 전달 하는 값과 일치 합니다 <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> 명령 정의 합니다.
+- 첫 번째 매개 변수를 호출 하려는 하는 명령을 식별 합니다. 이 문자열에 전달 하는 값과 일치 합니다 <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> 명령 정의 합니다.
 
--   두 번째 매개 변수는 명령의 두 번째 사용자 지정 매개 변수를 전달 하려는 값입니다. 전체 경로 것이 경우에 *.wsp* SharePoint 사이트에 업그레이드 되는 파일입니다.
+- 두 번째 매개 변수는 명령의 두 번째 사용자 지정 매개 변수를 전달 하려는 값입니다. 전체 경로 것이 경우에 *.wsp* SharePoint 사이트에 업그레이드 되는 파일입니다.
 
--   코드를 암시적 통과 하지 못한 <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> 매개 변수를 명령입니다. 이 매개 변수는 전달 된 명령에 자동으로 SharePoint 프로젝트 시스템의 확장 또는 확장에서 명령을 호출 하는 경우는 **SharePoint 연결** 노드에서 **서버 탐색기**. 솔루션을 구현 하는 프로젝트 템플릿 마법사와 같이 다른 유형의 합니다 <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 인터페이스는이 매개 변수는 **null**합니다.
+- 코드를 암시적 통과 하지 못한 <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> 매개 변수를 명령입니다. 이 매개 변수는 전달 된 명령에 자동으로 SharePoint 프로젝트 시스템의 확장 또는 확장에서 명령을 호출 하는 경우는 **SharePoint 연결** 노드에서 **서버 탐색기**. 솔루션을 구현 하는 프로젝트 템플릿 마법사와 같이 다른 유형의 합니다 <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 인터페이스는이 매개 변수는 **null**합니다.
 
 ## <a name="compile-the-code"></a>코드 컴파일
  이 예제에서는 Microsoft.VisualStudio.SharePoint 어셈블리에 대 한 필요합니다.

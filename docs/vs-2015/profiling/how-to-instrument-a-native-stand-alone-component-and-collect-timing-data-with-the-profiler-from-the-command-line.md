@@ -9,12 +9,12 @@ caps.latest.revision: 30
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4b3f104354a132702ebfc33e628c4643a34c8da0
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: d98481630ee3f02a96ec0670404c3f9d77e5d5d2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649774"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048829"
 ---
 # <a name="how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line"></a>방법: 네이티브 독립 실행형 구성 요소 계측 및 타이밍 명령줄에서 Profiler 사용 하 여 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "59649774"
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면  
 
--   다음 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
+- 다음 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
 
     |옵션|설명|  
     |------------|-----------------|  
@@ -76,9 +76,9 @@ ms.locfileid: "59649774"
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면  
 
-1.  대상 애플리케이션을 닫습니다.  
+1. 대상 애플리케이션을 닫습니다.  
 
-2.  프로파일러를 종료합니다. 유형:  
+2. 프로파일러를 종료합니다. 유형:  
 
      **VSPerfCmd /shutdown**  
 

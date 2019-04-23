@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 50958671d327013254b0a19e3dda160b1b3035e0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ce9b74012be35433c26f8446f36246dbe93f6442
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54778859"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60044250"
 ---
 # <a name="how-to-filter-report-views-from-the-summary-timeline"></a>방법: 요약 타임라인에서 보고서 뷰 필터링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,8 +23,8 @@ ms.locfileid: "54778859"
   
 ### <a name="to-filter-a-profiling-report-from-the-summary-timeline-graph"></a>요약 시간 표시 막대 그래프에서 프로파일링 보고서를 필터링하려면  
   
-1.  요약 뷰 시간 표시 막대 그래프에서 시간 표시 막대의 한 점을 클릭하고 시간 표시 막대의 다른 점으로 마우스를 끕니다.  
+1. 요약 뷰 시간 표시 막대 그래프에서 시간 표시 막대의 한 점을 클릭하고 시간 표시 막대의 다른 점으로 마우스를 끕니다.  
   
      지정한 지역은 음영 처리됩니다.  
   
-2.  **선택 항목으로 필터링**을 클릭합니다.
+2. **선택 항목으로 필터링**을 클릭합니다.

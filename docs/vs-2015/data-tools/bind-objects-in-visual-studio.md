@@ -19,12 +19,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 96acd1039f9293e6efb64f2726fc53a4c33cdc31
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: ee820bc246e11b722d663ecc6a6037f182bc2c33
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59667185"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053119"
 ---
 # <a name="bind-objects-in-visual-studio"></a>Visual Studio에서 개체 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,17 +42,17 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
 ## <a name="examples-of-using-custom-objects-as-data-sources"></a>데이터 원본으로 사용자 지정 개체를 사용 하는 예제
  데이터 원본으로 개체를 사용 하 여 작업 하는 경우 응용 프로그램 논리를 구현 하는 수많은 방법 있기는 SQL에 대 한 데이터베이스에 있는 경우 몇 가지 표준 작업을 Visual Studio-생성 된 TableAdapter 개체를 사용 하 여 단순화할 수 있습니다. 이 페이지에서는 이러한 표준 프로세스를 구현 하는 방법을 설명 합니다. 사용자 지정 개체를 만들기 위한 지침으로 없습니다 것 TableAdapters.It를 사용 하 여 합니다. 예를 들어, 개체 또는 응용 프로그램 논리의 특정 구현에 관계 없이 다음 표준 작업은 일반적으로 수행 합니다.
 
--   일반적으로 데이터베이스의 개체에 데이터를 로드 합니다.
+- 일반적으로 데이터베이스의 개체에 데이터를 로드 합니다.
 
--   형식화 된 개체의 컬렉션을 만드는 중입니다.
+- 형식화 된 개체의 컬렉션을 만드는 중입니다.
 
--   개체를 추가 하 고 컬렉션에서 개체를 제거 합니다.
+- 개체를 추가 하 고 컬렉션에서 개체를 제거 합니다.
 
--   폼에서 사용자에 게 개체 데이터를 표시 합니다.
+- 폼에서 사용자에 게 개체 데이터를 표시 합니다.
 
--   개체에서 데이터 변경/편집 합니다.
+- 개체에서 데이터 변경/편집 합니다.
 
--   데이터베이스에 다시 개체에서 데이터를 저장합니다.
+- 데이터베이스에 다시 개체에서 데이터를 저장합니다.
 
 > [!NOTE]
 >  더 잘 이해 하 고이 페이지의 예제에 대 한 컨텍스트를 제공 하기 위해 다음을 완료 하는 것이 좋습니다. [연습: 데이터 개체 (Windows Forms)에 연결할](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다. 이 연습에서는 여기에 설명 된 개체를 만듭니다.

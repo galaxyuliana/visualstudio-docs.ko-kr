@@ -16,12 +16,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 12d85a05e8210e292369f4c3a97fbb85dc48d821
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f272f1b7a8fc970ab616ba1c02e815cbb6ecb568
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982016"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059138"
 ---
 # <a name="how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment"></a>방법: ClickOnce 배포 시에서 개별 필수 구성 요소에 대 한 지원 URL 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,9 +34,9 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 �
   
 ### <a name="specifying-a-support-url-for-an-individual-prerequisite"></a>개별 필수 구성 요소에 대 한 지원 URL을 지정합니다.  
   
-1.  에 대 한 응용 프로그램 매니페스트 (.manifest 파일)를 열고 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 텍스트 편집기에서 응용 프로그램입니다.  
+1. 에 대 한 응용 프로그램 매니페스트 (.manifest 파일)를 열고 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 텍스트 편집기에서 응용 프로그램입니다.  
   
-2.  운영 체제 필수 구성 요소를 추가 합니다 `supportUrl` 특성을 `dependentOS` 요소:  
+2. 운영 체제 필수 구성 요소를 추가 합니다 `supportUrl` 특성을 `dependentOS` 요소:  
   
     ```  
      <dependency>  
@@ -48,7 +48,7 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 �
       </dependency>  
     ```  
   
-3.  공용 언어 런타임에서의 특정 버전에 대 한 필수 구성 요소를 추가 합니다 `supportUrl` 특성을 `dependentAssembly` 공용 언어 런타임 종속성을 지정 하는 항목:  
+3. 공용 언어 런타임에서의 특정 버전에 대 한 필수 구성 요소를 추가 합니다 `supportUrl` 특성을 `dependentAssembly` 공용 언어 런타임 종속성을 지정 하는 항목:  
   
     ```  
       <dependency>  
@@ -58,7 +58,7 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 �
       </dependency>  
     ```  
   
-4.  전역 어셈블리 캐시에 미리 설치 해야 하는 어셈블리에 대 한 필수 구성 요소를 설정 합니다 `supportUrl` 에 대 한는 `dependentAssembly` 필요한 어셈블리를 지정 하는 요소:  
+4. 전역 어셈블리 캐시에 미리 설치 해야 하는 어셈블리에 대 한 필수 구성 요소를 설정 합니다 `supportUrl` 에 대 한는 `dependentAssembly` 필요한 어셈블리를 지정 하는 요소:  
   
     ```  
       <dependency>  
@@ -68,9 +68,9 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 �
       </dependency>  
     ```  
   
-5.  선택 사항입니다. .NET Framework 4를 대상으로 하는 응용 프로그램에 대 한 배포 매니페스트 (.application 파일)를 열에 대 한 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 텍스트 편집기에서 응용 프로그램입니다.  
+5. 선택 사항입니다. .NET Framework 4를 대상으로 하는 응용 프로그램에 대 한 배포 매니페스트 (.application 파일)를 열에 대 한 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 텍스트 편집기에서 응용 프로그램입니다.  
   
-6.  .NET Framework 4에 필수 구성 요소를 추가 합니다 `supportUrl` 특성을 `compatibleFrameworks` 요소:  
+6. .NET Framework 4에 필수 구성 요소를 추가 합니다 `supportUrl` 특성을 `compatibleFrameworks` 요소:  
   
     ```  
     <compatibleFrameworks  xmlns="urn:schemas-microsoft-com:clickonce.v2" supportUrl="http://adatum.com/MyApplication/CompatibleFrameworks.htm">  
@@ -79,7 +79,7 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 필수 구성 �
     </compatibleFrameworks>  
     ```  
   
-7.  응용 프로그램 매니페스트를 수동으로 변경한 후 디지털 인증서를 사용 하 여 응용 프로그램 매니페스트에 다시 서명 후 업데이트 하 고도 배포 매니페스트에 다시 서명 합니다. Mage.exe를 사용 해야 합니다 또는 MageUI.exe SDK 도구를 사용 하 여 이러한 파일을 다시 생성으로이 작업을 위해 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 수동 변경 내용을 지웁니다. Mage.exe를 사용 하 여 매니페스트에 다시 서명할 수에 대 한 자세한 내용은 참조 하세요. [방법: 응용 프로그램 및 배포 매니페스트에 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)합니다.  
+7. 응용 프로그램 매니페스트를 수동으로 변경한 후 디지털 인증서를 사용 하 여 응용 프로그램 매니페스트에 다시 서명 후 업데이트 하 고도 배포 매니페스트에 다시 서명 합니다. Mage.exe를 사용 해야 합니다 또는 MageUI.exe SDK 도구를 사용 하 여 이러한 파일을 다시 생성으로이 작업을 위해 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 수동 변경 내용을 지웁니다. Mage.exe를 사용 하 여 매니페스트에 다시 서명할 수에 대 한 자세한 내용은 참조 하세요. [방법: 응용 프로그램 및 배포 매니페스트에 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)합니다.  
   
 ## <a name="net-framework-security"></a>.NET Framework 보안  
  지원 URL은 응용 프로그램은 부분 신뢰에서 실행 하도록 표시 되어 있으면 대화 상자에서 표시 되지 않습니다.  

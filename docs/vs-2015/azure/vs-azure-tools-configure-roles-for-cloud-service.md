@@ -11,12 +11,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
 ms.author: ghogen
-ms.openlocfilehash: 8cbf01d79011f2917236f3577cf25986e4bc5b76
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: c14de7498cf893169295c08947d6687a2121bd6e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "59002321"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059446"
 ---
 # <a name="configure-azure-cloud-service-roles-with-visual-studio"></a>Visual Studio를 사용하여 Azure 클라우드 서비스 역할 구성
 Azure 클라우드 서비스에는 하나 이상의 작업자 또는 웹 역할이 포함될 수 있습니다. 각 역할에 대해 해당 역할을 설정하는 방법을 정의하고 해당 역할을 실행하는 방법을 구성해야 합니다. 클라우드 서비스의 역할에 대한 자세한 내용은 [Azure Cloud Services 소개](https://channel9.msdn.com/Series/Windows-Azure-Cloud-Services-Tutorials/Introduction-to-Windows-Azure-Cloud-Services)를 참조하세요.
@@ -259,7 +259,7 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
 
 이전 섹션의 코드로 만든 파일을 보려면 다음 단계를 수행합니다.
 
-1.  Windows 알림 영역에서 Azure 아이콘을 마우스 오른쪽 단추로 클릭하고, 상황에 맞는 메뉴에서  **에뮬레이터 UI 표시**를 선택합니다.
+1. Windows 알림 영역에서 Azure 아이콘을 마우스 오른쪽 단추로 클릭하고, 상황에 맞는 메뉴에서  **에뮬레이터 UI 표시**를 선택합니다.
 
     ![Azure 컴퓨팅 에뮬레이터 표시](./media/vs-azure-tools-configure-roles-for-cloud-service/show-compute-emulator.png)
 

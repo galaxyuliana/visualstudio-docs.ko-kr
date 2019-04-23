@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8a5df1eebed8e59c994af88a0e3b21e02009c3f1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c4bd2a688e2a10bf0b931851b0d4366684820bf1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614885"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049921"
 ---
 # <a name="source-control-integration-overview"></a>소스 제어 통합 개요
 이 섹션에서는 Visual Studio 소스 제어;에 통합 하는 두 가지 방법 비교 소스 제어 플러그 인 및 원본 제어 솔루션을 제공 하 고 새 소스 제어 기능을 강조 표시 하는 VSPackage는 합니다. Visual Studio 자동 솔루션 기반 전환 뿐 아니라 소스 제어 Vspackage와 원본 제어 플러그 인 간에 수동 전환할 수 있습니다.
@@ -40,19 +40,19 @@ ms.locfileid: "56614885"
 
 ### <a name="drawbacks-to-implementing-a-source-control-plug-in"></a>소스 제어 플러그 인을 구현 하는 데 단점
 
--   고급 기능에 대 한 사용자 나타날 인터페이스의 두 가지 다른 스타일을 혼동할 수 있습니다.
+- 고급 기능에 대 한 사용자 나타날 인터페이스의 두 가지 다른 스타일을 혼동할 수 있습니다.
 
--   소스 제어 플러그 인이 원본 제어 플러그 인 API 사용 권한에 포함 된 소스 제어 모델에만 적용 됩니다.
+- 소스 제어 플러그 인이 원본 제어 플러그 인 API 사용 권한에 포함 된 소스 제어 모델에만 적용 됩니다.
 
--   원본 제어 플러그 인 API는 일부 소스 제어 시나리오에 대 한 너무 제한적일 수 있습니다.
+- 원본 제어 플러그 인 API는 일부 소스 제어 시나리오에 대 한 너무 제한적일 수 있습니다.
 
 ### <a name="advantages-to-implementing-a-source-control-plug-in"></a>소스 제어 플러그 인을 구현 하는 장점
 
--   Visual Studio 소스 제어 플러그 인 잠재적으로 복잡 한 UI를 구현 하지 않아도 되도록 모든 기본 소스 제어 작업에 대 한 모든 UI를 제공 합니다.
+- Visual Studio 소스 제어 플러그 인 잠재적으로 복잡 한 UI를 구현 하지 않아도 되도록 모든 기본 소스 제어 작업에 대 한 모든 UI를 제공 합니다.
 
--   엄격한 API 때문에 소스 제어 플러그 인 쉽게 상호 작용할 수 외부 소스 컨트롤 프로그램이 보다 광범위 한 기능을 제공 하기 Visual Studio 영향을 받지 않으며 훨씬 어떻게 너무 소스 제어 기능을 달성는 원본 제어 플러그 인 API에 따라 수행 됩니다.
+- 엄격한 API 때문에 소스 제어 플러그 인 쉽게 상호 작용할 수 외부 소스 컨트롤 프로그램이 보다 광범위 한 기능을 제공 하기 Visual Studio 영향을 받지 않으며 훨씬 어떻게 너무 소스 제어 기능을 달성는 원본 제어 플러그 인 API에 따라 수행 됩니다.
 
--   소스 제어 VSPackage 보다 플러그 인 소스 제어를 구현 하는 것이 쉽습니다.
+- 소스 제어 VSPackage 보다 플러그 인 소스 제어를 구현 하는 것이 쉽습니다.
 
 ## <a name="source-control-vspackage"></a>소스 제어 VSPackage
  [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] 원본 제어 기능의 완전 한 제어 및 Visual Studio가 제공한 원본 제어 사용자 인터페이스의 완전 한 대체를 사용 하 여 Visual Studio에 심층 통합이 가능 합니다. 소스 제어 VSPackage Visual Studio를 사용 하 여 등록 되 고 소스 제어 기능을 제공 합니다. Visual Studio를 사용 하 여 여러 소스 제어 Vspackage를 등록할 수 있습니다, 있지만 그 중 하나에 활성화할 수 한 번에 합니다. 소스 제어 VSPackage 활성 상태인 동안 Visual Studio에서 소스 제어 기능 및 모양을 완전히 제어할을에 있습니다. 기타 모든 소스 제어 시스템에 등록 될 수 있는 Vspackage 활성화 되며 UI를 전혀 표시 되지 않습니다.
@@ -61,17 +61,17 @@ ms.locfileid: "56614885"
 
 ### <a name="drawbacks-to-implementing-a-source-control-vspackage"></a>소스 제어 VSPackage를 구현 하는 데 단점
 
--   VSPackage는 다양 한 Visual Studio를 사용 하 여 성공적으로 통합 하는 복잡 한 인터페이스를 구현 해야 합니다.
+- VSPackage는 다양 한 Visual Studio를 사용 하 여 성공적으로 통합 하는 복잡 한 인터페이스를 구현 해야 합니다.
 
--   VSPackage는 원본 제어;에 필요한 모든 UI를 제공 해야 합니다. Visual Studio는이 영역에서 도움을 제공 됩니다.
+- VSPackage는 원본 제어;에 필요한 모든 UI를 제공 해야 합니다. Visual Studio는이 영역에서 도움을 제공 됩니다.
 
--   소스 제어 VSPackage Visual Studio에 깊숙히 연결 되 고 원본 제어 프로그램의 외부 버전을 사용 하 여 기능을 쉽게 공유할 수 없습니다 있도록 독립 실행형 프로그램을 사용 하 여 수행할 수 없습니다.
+- 소스 제어 VSPackage Visual Studio에 깊숙히 연결 되 고 원본 제어 프로그램의 외부 버전을 사용 하 여 기능을 쉽게 공유할 수 없습니다 있도록 독립 실행형 프로그램을 사용 하 여 수행할 수 없습니다.
 
 ### <a name="advantages-to-implementing-a-source-control-vspackage"></a>소스 제어 VSPackage를 구현 하는 이점
 
--   VSPackage에 소스 제어 UI 통해 완전 한 제어 및 기능 때문에 소스 제어에 대 한 효율적인 인터페이스를 사용 하 여 사용자가 표시 됩니다.
+- VSPackage에 소스 제어 UI 통해 완전 한 제어 및 기능 때문에 소스 제어에 대 한 효율적인 인터페이스를 사용 하 여 사용자가 표시 됩니다.
 
--   VSPackage는 특정 원본 제어 모델이에 한정 되지 않습니다.
+- VSPackage는 특정 원본 제어 모델이에 한정 되지 않습니다.
 
 ## <a name="see-also"></a>참고 항목
 - [소스 제어](../../extensibility/internals/source-control.md)

@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 108ccd07c5e15a264fcd1dc5efe6f5052cd052f6
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 28f6cf6424799cfbe68734d8fa077eea3c2b2c1a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335543"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047400"
 ---
 # <a name="manage-universal-windows-projects"></a>유니버설 Windows 프로젝트 관리
 
@@ -25,11 +25,11 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 
 ### <a name="navigate-the-shared-project"></a>공유 프로젝트를 이동 합니다.
 
-1.  라는 C# VSIX 프로젝트를 만듭니다 **TestUniversalProject**합니다. (**파일** > **새** > **프로젝트** 차례로 **C#**  >   **확장성** > **Visual Studio 패키지**). 추가 된 **사용자 지정 명령** 프로젝트 항목 템플릿을 (에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목** 으로 이동 하세요 **확장성**). 파일 이름을 **TestUniversalProject**합니다.
+1. 라는 C# VSIX 프로젝트를 만듭니다 **TestUniversalProject**합니다. (**파일** > **새** > **프로젝트** 차례로 **C#**  >   **확장성** > **Visual Studio 패키지**). 추가 된 **사용자 지정 명령** 프로젝트 항목 템플릿을 (에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목** 으로 이동 하세요 **확장성**). 파일 이름을 **TestUniversalProject**합니다.
 
-2.  에 대 한 참조를 추가 *Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll* 하 고 *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll* (에 **확장** 섹션).
+2. 에 대 한 참조를 추가 *Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll* 하 고 *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll* (에 **확장** 섹션).
 
-3.  오픈 *TestUniversalProject.cs* 추가한 다음 `using` 문:
+3. 오픈 *TestUniversalProject.cs* 추가한 다음 `using` 문:
 
     ```csharp
     using EnvDTE;
@@ -42,7 +42,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     using System.Windows.Forms;
     ```
 
-4.  에 `TestUniversalProject` 클래스를 가리키는 private 필드를 추가 합니다 **출력** 창입니다.
+4. 에 `TestUniversalProject` 클래스를 가리키는 private 필드를 추가 합니다 **출력** 창입니다.
 
     ```csharp
     public sealed class TestUniversalProject
@@ -52,7 +52,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     }
     ```
 
-5.  TestUniversalProject 생성자 내에서 출력 창에 대 한 참조를 설정 합니다.
+5. TestUniversalProject 생성자 내에서 출력 창에 대 한 참조를 설정 합니다.
 
     ```csharp
     private TestUniversalProject(Package package)
@@ -77,7 +77,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     }
     ```
 
-6.  기존 코드를 제거 합니다 `ShowMessageBox` 메서드:
+6. 기존 코드를 제거 합니다 `ShowMessageBox` 메서드:
 
     ```csharp
     private void ShowMessageBox(object sender, EventArgs e)
@@ -85,7 +85,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     }
     ```
 
-7.  이 연습에서 여러 다양 한 용도로 사용 하는 DTE 개체를 가져옵니다. 또한 솔루션을 메뉴 단추를 클릭할 때 로드 되도록 해야 합니다.
+7. 이 연습에서 여러 다양 한 용도로 사용 하는 DTE 개체를 가져옵니다. 또한 솔루션을 메뉴 단추를 클릭할 때 로드 되도록 해야 합니다.
 
     ```csharp
     private void ShowMessageBox(object sender, EventArgs e)
@@ -103,7 +103,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     }
     ```
 
-8.  공유 프로젝트를 찾습니다. 공유 프로젝트 컨테이너인 순수 빌드 하거나 출력을 생성 하지 않습니다. 다음 메서드를 검색 하 여 솔루션에서 첫 번째 공유 프로젝트를 찾습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 공유 프로젝트 기능을 가진 개체입니다.
+8. 공유 프로젝트를 찾습니다. 공유 프로젝트 컨테이너인 순수 빌드 하거나 출력을 생성 하지 않습니다. 다음 메서드를 검색 하 여 솔루션에서 첫 번째 공유 프로젝트를 찾습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 공유 프로젝트 기능을 가진 개체입니다.
 
     ```csharp
     private IVsHierarchy FindSharedProject()
@@ -235,7 +235,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     ```
 
     > [!IMPORTANT]
-    > 사용자는 c + + 유니버설 Windows 앱 프로젝트에서 실험적 인스턴스를 연 경우 위의 코드는 예외가 throw 됩니다. 이것은 알려진 문제입니다. 예외를 방지 하려면 대체는 `foreach` 위에 다음을 사용 하 여 차단 합니다.
+    > 사용자를 연 경우는 C++ 실험적 인스턴스에서 유니버설 Windows 앱 프로젝트에서 위의 코드는 예외가 throw 됩니다. 이것은 알려진 문제입니다. 예외를 방지 하려면 대체는 `foreach` 위에 다음을 사용 하 여 차단 합니다.
 
     ```csharp
     var importingProjects = sharedAssetsProject.EnumImportingProjects();
@@ -306,7 +306,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 
 ### <a name="manage-the-shared-items-in-the-platform-project"></a>플랫폼 프로젝트에서 공유 항목 관리
 
-1.  플랫폼 프로젝트에서 공유 항목을 찾습니다. 공유 프로젝트에서 항목 플랫폼 프로젝트에서 공유 항목으로 표시 합니다. 보이지 합니다 **솔루션 탐색기**, 찾기 프로젝트 계층 구조를 탐색할 수 있지만. 다음 메서드는 계층에 설명 하 고 모든 공유 항목을 수집 합니다. 필요에 따라 각 항목의 캡션을 출력합니다. 공유 항목을 새 속성으로 식별 됩니다 <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID7.VSHPROPID_IsSharedItem>합니다.
+1. 플랫폼 프로젝트에서 공유 항목을 찾습니다. 공유 프로젝트에서 항목 플랫폼 프로젝트에서 공유 항목으로 표시 합니다. 보이지 합니다 **솔루션 탐색기**, 찾기 프로젝트 계층 구조를 탐색할 수 있지만. 다음 메서드는 계층에 설명 하 고 모든 공유 항목을 수집 합니다. 필요에 따라 각 항목의 캡션을 출력합니다. 공유 항목을 새 속성으로 식별 됩니다 <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID7.VSHPROPID_IsSharedItem>합니다.
 
     ```csharp
     private void InspectHierarchyItems(IVsHierarchy hier, uint itemid, int level, List<uint> itemIds, bool getSharedItems, bool printItems)
@@ -338,7 +338,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     }
     ```
 
-2.  에 `ShowMessageBox` 메서드를 플랫폼 프로젝트 계층 구조 항목을 탐색 하려면 다음 코드를 추가 합니다. 내에서 삽입 된 `foreach` 블록입니다.
+2. 에 `ShowMessageBox` 메서드를 플랫폼 프로젝트 계층 구조 항목을 탐색 하려면 다음 코드를 추가 합니다. 내에서 삽입 된 `foreach` 블록입니다.
 
     ```csharp
     output.OutputStringThreadSafe("Walk the active platform project:\n");
@@ -346,7 +346,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     this.InspectHierarchyItems(activePlatformHier, (uint)VSConstants.VSITEMID.Root, 1, sharedItemIds, true, true);
     ```
 
-3.  공유 항목을 읽습니다. 숨겨진 연결 파일로 플랫폼 프로젝트에서 공유 항목을 표시 하 고 일반 연결 파일로 모든 속성을 읽을 수 있습니다. 다음 코드는 첫 번째 공유 항목의 전체 경로 읽습니다.
+3. 공유 항목을 읽습니다. 숨겨진 연결 파일로 플랫폼 프로젝트에서 공유 항목을 표시 하 고 일반 연결 파일로 모든 속성을 읽을 수 있습니다. 다음 코드는 첫 번째 공유 항목의 전체 경로 읽습니다.
 
     ```csharp
     var sharedItemId = sharedItemIds[0];
@@ -355,7 +355,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     output.OutputStringThreadSafe(string.Format("Shared item full path: {0}\n", fullPath));
     ```
 
-4.  이제 사용해 보세요. 키를 눌러 **F5** 실험적 인스턴스를 시작할 수 있습니다. 만들기는 C# 실험적 인스턴스에서 유니버설 앱 프로젝트 (에 **새 프로젝트** 대화 상자에서 **Visual C#**   >  **Windows**  >  **Windows 8** > **유니버설** > **허브 앱**)로 이동 합니다 **도구** 메뉴 를클릭합니다. **TestUniversalProject 호출**, 한 다음 텍스트를 확인 합니다 **출력** 창. 다음과 같은 정보가 표시됩니다.
+4. 이제 사용해 보세요. 키를 눌러 **F5** 실험적 인스턴스를 시작할 수 있습니다. 만들기는 C# 실험적 인스턴스에서 유니버설 앱 프로젝트 (에 **새 프로젝트** 대화 상자에서 **Visual C#**   >  **Windows**  >  **Windows 8** > **유니버설** > **허브 앱**)로 이동 합니다 **도구** 메뉴 를클릭합니다. **TestUniversalProject 호출**, 한 다음 텍스트를 확인 합니다 **출력** 창. 다음과 같은 정보가 표시됩니다.
 
     ```
     Found shared project: HubApp.Shared

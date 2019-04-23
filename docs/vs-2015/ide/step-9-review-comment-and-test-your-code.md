@@ -1,5 +1,5 @@
 ---
-title: '9단계: 코드 검토, 주석 처리 및 테스트 | Microsoft Docs'
+title: '9단계: 검토, 주석 처리 및 코드 테스트 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general
@@ -9,12 +9,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b03c6c7af9cfedcf7e45a61dba826d99b300ffbe
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: f601c9cc404d605d5fb0ddf7ad149a595f77ef77
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54796739"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059866"
 ---
 # <a name="step-9-review-comment-and-test-your-code"></a>9단계: 코드 검토, 주석 처리 및 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "54796739"
   
 - Windows Forms 디자이너에서 **그림 표시** 단추를 두 번 클릭하면 IDE에서 자동으로 *메서드*를 프로그램의 코드에 추가합니다.  
   
-- 메서드는 코드 구성 방법, 즉 코드 그룹화 방법을 결정합니다.  
+- 메서드는 코드를 구성하는 방법이며, 코드를 함께 그룹화하는 방법입니다.  
   
 - 대부분의 경우 메서드는 특정 순서로 적은 수의 작업을 수행합니다. 예를 들어 `showButton_Click()` 메서드는 대화 상자를 연 다음 그림을 로드합니다.  
   
@@ -45,11 +45,11 @@ ms.locfileid: "54796739"
   
    문은 특정 작업을 수행하도록 프로그램에 지시합니다. Visual C#에서는 문이 항상 세미콜론으로 끝나고, Visual Basic에서는 줄의 끝이 문의 끝입니다. Visual Basic에서는 세미콜론이 필요하지 않습니다. 위의 문은 사용자가 **OpenFileDialog** 구성 요소를 사용하여 선택한 파일을 로드하도록 `PictureBox` 컨트롤에 지시합니다.  
   
-  ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo")이 항목의 비디오 버전을 보려면 [자습서 1: Visual Basic에서 사진 뷰어 만들기 - 비디오 5](http://go.microsoft.com/fwlink/?LinkId=205216) 또는 [자습서 1: C#에서 사진 뷰어 만들기 - 비디오 5](http://go.microsoft.com/fwlink/?LinkId=205206)를 참조하세요. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.  
+  ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo")이 항목의 비디오 버전을 참조 하세요. [자습서 1: Visual Basic-비디오 5에서에서 사진 뷰어 만들기](http://go.microsoft.com/fwlink/?LinkId=205216) 또는 [자습서 1: 사진 뷰어 만들기 C# -비디오 5](http://go.microsoft.com/fwlink/?LinkId=205206)합니다. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.  
   
 ### <a name="to-add-comments"></a>주석을 추가하려면  
   
-1.  다음 주석을 코드에 추가합니다.  
+1. 다음 주석을 코드에 추가합니다.  
   
      [!code-csharp[VbExpressTutorial1Step9_10#1](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs#1)]
      [!code-vb[VbExpressTutorial1Step9_10#1](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb#1)]  
@@ -64,7 +64,7 @@ ms.locfileid: "54796739"
     >   
     >  코드를 입력할 때 코드 조각을 활성화하려면 코드를 입력하고 Tab 키를 선택합니다. **IntelliSense** 창에 여러 코드 조각이 표시되므로 Tab 키를 두 번 선택해야 하는데, 첫 번째는 **IntelliSense** 창에서 코드 조각을 선택하기 위한 것이고 두 번째는 이 코드 조각을 사용하도록 IDE에 지시하기 위한 것입니다. IntelliSense에서는 `if` 조각은 지원하지만 `ifelse` 조각은 지원하지 않습니다.  
   
-2.  프로그램을 실행하기 전에 다음과 같은 **모두 저장** 도구 모음 단추를 선택하여 프로그램을 저장합니다.  
+2. 프로그램을 실행하기 전에 다음과 같은 **모두 저장** 도구 모음 단추를 선택하여 프로그램을 저장합니다.  
   
      ![모두 저장 도구 모음 단추](../ide/media/express-iconsaveall.png "Express_IconSaveAll")  
 모두 저장 단추  
@@ -78,19 +78,19 @@ Picture Viewer
   
 ### <a name="to-test-your-program"></a>프로그램을 테스트하려면  
   
-1.  F5 키를 선택하거나 **디버깅 시작** 도구 모음 단추를 선택합니다.  
+1. F5 키를 선택하거나 **디버깅 시작** 도구 모음 단추를 선택합니다.  
   
-2.  **그림 표시** 단추를 선택하여 방금 작성한 코드를 실행합니다. 프로그램에서 **파일 열기** 대화 상자가 열립니다. 대화 상자의 맨 아래에 있는 **파일 형식** 드롭다운 목록에 사용자의 필터가 있는지 확인합니다. 그런 다음 그림을 찾아서 엽니다. 일반적으로 **내 문서** 폴더의 **My Pictures\Sample Pictures** 폴더에서 Windows 운영 체제와 함께 제공되는 샘플 그림을 찾을 수 있습니다.  
+2. **그림 표시** 단추를 선택하여 방금 작성한 코드를 실행합니다. 프로그램에서 **파일 열기** 대화 상자가 열립니다. 대화 상자의 맨 아래에 있는 **파일 형식** 드롭다운 목록에 사용자의 필터가 있는지 확인합니다. 그런 다음 그림을 찾아서 엽니다. 일반적으로 **내 문서** 폴더의 **My Pictures\Sample Pictures** 폴더에서 Windows 운영 체제와 함께 제공되는 샘플 그림을 찾을 수 있습니다.  
   
     > [!NOTE]
     >  **그림 파일 선택** 대화 상자에 이미지가 표시되지 않는 경우 대화 상자 오른쪽 아래에 있는 드롭다운 목록에서 "모든 파일(*.\*)" 필터가 선택되어 있는지 확인하십시오.  
   
-3.  그림을 로드합니다. 로드된 그림은 PictureBox에 표시됩니다. 그런 다음 폼 테두리를 끌어서 폼 크기를 조정해 봅니다. 자동으로 폼 안에 도킹되는 TableLayoutPanel 안에 PictureBox가 도킹되기 때문에 그림 영역은 폼과 같은 너비로 폼의 위쪽 90퍼센트를 차지하도록 크기가 조정됩니다. TableLayoutPanel 및 FlowLayoutPanel 컨테이너를 사용하는 것은 바로 이러한 이유 때문입니다. 이러한 컨테이너는 사용자가 폼의 크기를 조정할 때 폼의 크기가 올바로 조정되도록 합니다.  
+3. 그림을 로드합니다. 로드된 그림은 PictureBox에 표시됩니다. 그런 다음 폼 테두리를 끌어서 폼 크기를 조정해 봅니다. 자동으로 폼 안에 도킹되는 TableLayoutPanel 안에 PictureBox가 도킹되기 때문에 그림 영역은 폼과 같은 너비로 폼의 위쪽 90퍼센트를 차지하도록 크기가 조정됩니다. 이유는 TableLayoutPanel 및 FlowLayoutPanel 컨테이너를 사용 합니다. 사용자가 양식의 크기를 조정할 때 양식의 크기가 올바르게 조정되기 때문입니다.  
   
      지금은 더 큰 사진이 사진 뷰어 프로그램 테두리 밖으로 나갑니다. 다음 단계에서는 그림을 창 크기에 맞추는 코드를 추가합니다.  
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   
--   다음 자습서 단계로 이동하려면 [10단계: 추가 단추 및 확인란의 코드 작성](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)을 참조하세요.  
+- 다음 자습서 단계로 이동하려면 [10단계: 추가 단추 및 확인란에 대 한 코드를 작성](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)합니다.  
   
--   이전 자습서 단계로 돌아가려면 [8단계: 그림 단추 이벤트 처리기 표시를 위한 코드 작성](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md)을 참조하세요.
+- 이전 자습서 단계로 돌아가려면 [8단계: 그림 단추 이벤트 처리기 표시를 위한 코드를 작성](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md)합니다.

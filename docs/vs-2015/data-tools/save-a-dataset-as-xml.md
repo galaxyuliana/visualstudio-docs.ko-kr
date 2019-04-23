@@ -19,12 +19,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3e155b33c501326be3d3dcc89fb6b73d501556be
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 2e4331b59c532e681c7e10ab8e43b953e9f72b18
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59657849"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059697"
 ---
 # <a name="save-a-dataset-as-xml"></a>데이터 세트를 XML로 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,14 +37,14 @@ ms.locfileid: "59657849"
   
 ### <a name="to-save-the-data-in-a-dataset-as-xml-to-a-variable"></a>변수에 XML로 데이터 집합에 데이터를 저장 하려면  
   
--   합니다 <xref:System.Data.DataSet.GetXml%2A> 메서드가 반환 되는 <xref:System.String>합니다. 형식의 변수를 선언 하는 것이 즉 <xref:System.String> 의 결과 지정 하 고는 <xref:System.Data.DataSet.GetXml%2A> 메서드.  
+- 합니다 <xref:System.Data.DataSet.GetXml%2A> 메서드가 반환 되는 <xref:System.String>합니다. 형식의 변수를 선언 하는 것이 즉 <xref:System.String> 의 결과 지정 하 고는 <xref:System.Data.DataSet.GetXml%2A> 메서드.  
   
      [!code-csharp[VbRaddataSaving#12](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#12)]
      [!code-vb[VbRaddataSaving#12](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#12)]  
   
 ### <a name="to-save-the-data-in-a-dataset-as-xml-to-a-file"></a>파일에 XML로 데이터 집합에 데이터를 저장 하려면  
   
--   <xref:System.Data.DataSet.WriteXml%2A> 메서드에 몇 가지 오버 로드가 있습니다. 다음 코드를 파일에 데이터를 저장 하는 방법을 보여 줍니다. 변수를 선언 하 고 파일을 저장 하기 위한 올바른 경로 할당 합니다.  
+- <xref:System.Data.DataSet.WriteXml%2A> 메서드에 몇 가지 오버 로드가 있습니다. 다음 코드를 파일에 데이터를 저장 하는 방법을 보여 줍니다. 변수를 선언 하 고 파일을 저장 하기 위한 올바른 경로 할당 합니다.  
   
      [!code-csharp[VbRaddataSaving#13](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#13)]
      [!code-vb[VbRaddataSaving#13](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#13)]  

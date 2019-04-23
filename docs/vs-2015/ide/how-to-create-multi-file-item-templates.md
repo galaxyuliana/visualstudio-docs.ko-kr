@@ -13,12 +13,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4616cb2f0e908b3228061288da05ce01543afdc4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c6c6dde1880881bfb236909fde6ce6deb6bf596f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54785902"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056909"
 ---
 # <a name="how-to-create-multi-file-item-templates"></a>방법: 다중 파일 항목 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,9 +35,9 @@ ms.locfileid: "54785902"
   
 ### <a name="to-manually-create-a-multi-file-item-template"></a>다중 파일 항목 템플릿을 수동으로 만들려면  
   
-1.  단일 파일 항목 템플릿을 만드는 것처럼 항목 템플릿을 만듭니다. 자세한 내용은 [방법: 항목 템플릿 만들기](../ide/how-to-create-item-templates.md)를 참조하세요.  
+1. 단일 파일 항목 템플릿을 만드는 것처럼 항목 템플릿을 만듭니다. 자세한 내용은 [방법: 항목 템플릿 만들기](../ide/how-to-create-item-templates.md)합니다.  
   
-2.  `TargetFileName` 특성을 모든 `ProjectItem` 요소에 추가합니다. `TargetFileName` 특성 값을 $fileinputname$.*FileExtension*으로 설정합니다. 여기서 *FileExtension*은 템플릿에 포함될 파일의 파일 이름 확장명입니다. 예:  
+2. `TargetFileName` 특성을 모든 `ProjectItem` 요소에 추가합니다. `TargetFileName` 특성 값을 $fileinputname$.*FileExtension*으로 설정합니다. 여기서 *FileExtension*은 템플릿에 포함될 파일의 파일 이름 확장명입니다. 예를 들어:  
   
     ```  
     <ProjectItem TargetFileName="$fileinputname$.vb">  
@@ -53,11 +53,11 @@ ms.locfileid: "54785902"
   
      이 템플릿에서 파생된 항목이 프로젝트에 추가되면 파일 이름은 사용자가 **새 항목 추가** 대화 상자에 입력한 이름을 기반으로 합니다.  
   
-3.  템플릿에 포함할 파일을 선택하고 선택 영역을 마우스 오른쪽 단추로 클릭한 다음 **보내기**를 클릭하고 **압축(ZIP) 폴더**를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
+3. 템플릿에 포함할 파일을 선택하고 선택 영역을 마우스 오른쪽 단추로 클릭한 다음 **보내기**를 클릭하고 **압축(ZIP) 폴더**를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
   
-4.  .zip 파일을 사용자 항목 템플릿 위치에 배치합니다. 기본적으로 이 디렉터리는 \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\입니다. 자세한 내용은 [방법: 템플릿 찾기 및 구성](../ide/how-to-locate-and-organize-project-and-item-templates.md)을 참조하세요.  
+4. .zip 파일을 사용자 항목 템플릿 위치에 배치합니다. 기본적으로 이 디렉터리는 \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\입니다. 자세한 내용은 [방법: 템플릿 찾기 및 구성](../ide/how-to-locate-and-organize-project-and-item-templates.md)을 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Windows Forms 템플릿을 보여 줍니다. 이 템플릿을 기반으로 항목이 생성되면 생성된 3개 파일의 이름은 **새 항목 추가** 대화 상자에 입력된 이름과 일치합니다.  
   
 ```  
@@ -87,4 +87,4 @@ ms.locfileid: "54785902"
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [방법: 항목 템플릿 만들기](../ide/how-to-create-item-templates.md)   
  [템플릿 매개 변수](../ide/template-parameters.md)   
- [방법: 템플릿 매개 변수 대체](../ide/how-to-substitute-parameters-in-a-template.md)
+ [방법: 템플릿의 매개 변수 대체](../ide/how-to-substitute-parameters-in-a-template.md)
