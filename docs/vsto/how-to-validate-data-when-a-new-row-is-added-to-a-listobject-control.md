@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a78674a0738c0b7a0f69e04decd70fbbf1d1e367
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d8aefab319b9b197b9b7df0e23fec71aa3cb64d1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615860"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039313"
 ---
 # <a name="how-to-validate-data-when-a-new-row-is-added-to-a-listobject-control"></a>방법: ListObject 컨트롤에는 새 행을 추가할 때 데이터 유효성 검사
   사용자는 데이터에 바인딩된 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤에 새 행을 추가할 수 있습니다. 데이터 원본에 대한 변경 내용을 커밋하기 전에 사용자 데이터의 유효성을 확인할 수 있습니다.
@@ -34,17 +34,17 @@ ms.locfileid: "56615860"
 
 ### <a name="to-validate-data-when-a-new-row-is-added-to-data-bound-listobject"></a>데이터 바인딩된 ListObject에 새 행을 추가할 때 데이터 유효성을 검사하려면
 
-1.  클래스 수준에서 ID 및 <xref:System.Data.DataTable> 에 대한 변수를 만듭니다.
+1. 클래스 수준에서 ID 및 <xref:System.Data.DataTable> 에 대한 변수를 만듭니다.
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#8](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#8)]
      [!code-vb[Trin_VstcoreHostControlsExcel#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#8)]
 
-2.  새 <xref:System.Data.DataTable> 샘플 열과 데이터를 추가 합니다 `Startup` 이벤트 처리기를 `Sheet1` 클래스 (문서 수준 프로젝트를) 또는 `ThisAddIn` 클래스 (VSTO 추가 기능 프로젝트를).
+2. 새 <xref:System.Data.DataTable> 샘플 열과 데이터를 추가 합니다 `Startup` 이벤트 처리기를 `Sheet1` 클래스 (문서 수준 프로젝트를) 또는 `ThisAddIn` 클래스 (VSTO 추가 기능 프로젝트를).
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#9)]
      [!code-vb[Trin_VstcoreHostControlsExcel#9](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#9)]
 
-3.  `list1_BeforeAddDataBoundRow` 이벤트 처리기에 코드를 추가하여 입력된 나이가 허용 가능한 범위 내에 포함되는지 확인합니다.
+3. `list1_BeforeAddDataBoundRow` 이벤트 처리기에 코드를 추가하여 입력된 나이가 허용 가능한 범위 내에 포함되는지 확인합니다.
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#10)]
      [!code-vb[Trin_VstcoreHostControlsExcel#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#10)]

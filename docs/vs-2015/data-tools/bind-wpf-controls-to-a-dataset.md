@@ -18,12 +18,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 663665c77a966d793930326ae04f8d30c71de771
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 70fe24a642ef1bb5dc872f2b4e48438a26aaea07
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665521"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040004"
 ---
 # <a name="bind-wpf-controls-to-a-dataset"></a>데이터 세트로 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,15 +62,15 @@ ms.locfileid: "59665521"
   
 #### <a name="to-create-the-project"></a>프로젝트를 만들려면  
   
-1.  Visual Studio를 시작합니다.  
+1. Visual Studio를 시작합니다.  
   
-2.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
+2. **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
   
-3.  **Visual Basic** 또는 **Visual C#** 을 확장한 다음, **Windows**를 선택합니다.  
+3. **Visual Basic** 또는 **Visual C#** 을 확장한 다음, **Windows**를 선택합니다.  
   
-4.  **WPF 애플리케이션** 프로젝트 템플릿을 선택합니다.  
+4. **WPF 애플리케이션** 프로젝트 템플릿을 선택합니다.  
   
-5.  에 **이름을** 상자에 입력 `AdventureWorksProductsEditor` 클릭 **확인**합니다.  
+5. 에 **이름을** 상자에 입력 `AdventureWorksProductsEditor` 클릭 **확인**합니다.  
   
      Visual Studio 만듭니다는 `AdventureWorksProductsEditor` 프로젝트입니다.  
   
@@ -79,29 +79,29 @@ ms.locfileid: "59665521"
   
 #### <a name="to-create-a-dataset"></a>데이터 집합을 만들려면  
   
-1.  **데이터** 메뉴에서 **데이터 소스 표시**를 클릭합니다.  
+1. **데이터** 메뉴에서 **데이터 소스 표시**를 클릭합니다.  
   
      **데이터 원본** 창이 열립니다.  
   
-2.  **데이터 소스** 창에서 **새 데이터 소스 추가**를 클릭합니다.  
+2. **데이터 소스** 창에서 **새 데이터 소스 추가**를 클릭합니다.  
   
      **데이터 원본 구성** 마법사가 열립니다.  
   
-3.  **데이터 원본 형식 선택** 페이지에서 **데이터베이스**를 선택한 후, **다음**을 클릭합니다.  
+3. **데이터 원본 형식 선택** 페이지에서 **데이터베이스**를 선택한 후, **다음**을 클릭합니다.  
   
-4.  **데이터베이스 모델 선택** 페이지에서 **데이터 세트**를 선택한 후, **다음**을 클릭합니다.  
+4. **데이터베이스 모델 선택** 페이지에서 **데이터 세트**를 선택한 후, **다음**을 클릭합니다.  
   
-5.  **데이터 연결 선택** 페이지에서 다음 옵션 중 하나를 선택합니다.  
+5. **데이터 연결 선택** 페이지에서 다음 옵션 중 하나를 선택합니다.  
   
-    -   AdventureWorksLT 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택한 후, **다음**을 클릭합니다.  
+    - AdventureWorksLT 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택한 후, **다음**을 클릭합니다.  
   
-    -   **새 연결**을 클릭하고 AdventureWorksLT 데이터베이스에 대한 연결을 만듭니다.  
+    - **새 연결**을 클릭하고 AdventureWorksLT 데이터베이스에 대한 연결을 만듭니다.  
   
-6.  **애플리케이션 구성 파일에 연결 문자열 저장** 페이지에서 **예, 다음으로 연결을 저장합니다.** 확인란을 선택한 후, **다음**을 클릭합니다.  
+6. **애플리케이션 구성 파일에 연결 문자열 저장** 페이지에서 **예, 다음으로 연결을 저장합니다.** 확인란을 선택한 후, **다음**을 클릭합니다.  
   
-7.  **데이터베이스 개체 선택** 페이지에서 **테이블**을 확장한 다음, **Product(SalesLT)** 테이블을 선택합니다.  
+7. **데이터베이스 개체 선택** 페이지에서 **테이블**을 확장한 다음, **Product(SalesLT)** 테이블을 선택합니다.  
   
-8.  **마침**을 클릭합니다.  
+8. **마침**을 클릭합니다.  
   
      Visual Studio 프로젝트에 새 AdventureWorksLTDataSet.xsd 파일을 추가 하 고 해당 추가 **AdventureWorksLTDataSet** 항목을 합니다 **데이터 원본** 창입니다. AdventureWorksLTDataSet.xsd 파일은 `AdventureWorksLTDataSet`라는 형식화된 데이터 집합과 `ProductTableAdapter`라는 TableAdapter를 정의합니다. 이 연습 뒷부분에서 `ProductTableAdapter`를 사용하여 데이터 집합에 데이터를 채우고 변경 내용을 데이터베이스에 다시 저장합니다.  
   
@@ -112,32 +112,32 @@ ms.locfileid: "59665521"
   
 #### <a name="to-load-product-rows-that-have-photos"></a>사진이 있는 제품 행을 로드하려면  
   
-1.  **솔루션 탐색기**, AdventureWorksLTDataSet.xsd 파일을 두 번 클릭 합니다.  
+1. **솔루션 탐색기**, AdventureWorksLTDataSet.xsd 파일을 두 번 클릭 합니다.  
   
      데이터 집합 디자이너가 열립니다.  
   
-2.  디자이너에서 마우스 오른쪽 단추로 클릭 합니다 **Fill,GetData()** 쿼리하고 선택 **구성**합니다.  
+2. 디자이너에서 마우스 오른쪽 단추로 클릭 합니다 **Fill,GetData()** 쿼리하고 선택 **구성**합니다.  
   
      **TableAdapter 구성** 마법사가 열립니다.  
   
-3.  **SQL 문을 입력하세요.** 페이지의 텍스트 상자에서 `SELECT` 문 뒤에 다음 WHERE 절을 추가합니다.  
+3. **SQL 문을 입력하세요.** 페이지의 텍스트 상자에서 `SELECT` 문 뒤에 다음 WHERE 절을 추가합니다.  
   
     ```  
     WHERE ThumbnailPhotoFileName <> 'no_image_available_small.gif'  
     ```  
   
-4.  **마침**을 클릭합니다.  
+4. **마침**을 클릭합니다.  
   
 ## <a name="define-the-user-interface"></a>사용자 인터페이스를 정의 합니다.  
  WPF 디자이너에서 XAML을 수정하여 창에 여러 단추를 추가합니다. 이 연습 뒷부분에서 사용자가 이러한 단추를 사용해 제품 레코드를 스크롤하고 변경 내용을 저장할 수 있도록 하는 코드를 추가합니다.  
   
 #### <a name="to-define-the-user-interface-of-the-window"></a>창의 사용자 인터페이스를 정의하려면  
   
-1.  **솔루션 탐색기**에서 MainWindow.xaml을 두 번 클릭 합니다.  
+1. **솔루션 탐색기**에서 MainWindow.xaml을 두 번 클릭 합니다.  
   
      WPF 디자이너에서 창이 열립니다.  
   
-2.  디자이너의 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 뷰에서 `<Grid>` 태그 사이에 다음 코드를 추가합니다.  
+2. 디자이너의 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 뷰에서 `<Grid>` 태그 사이에 다음 코드를 추가합니다.  
   
     ```  
     <Grid.RowDefinitions>  
@@ -149,64 +149,64 @@ ms.locfileid: "59665521"
     <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>  
     ```  
   
-3.  프로젝트를 빌드합니다.  
+3. 프로젝트를 빌드합니다.  
   
 ## <a name="createdata-bound-controls"></a>Createdata 바인딩된 컨트롤  
  끌어 고객 레코드를 표시 하는 컨트롤을 만들 합니다 `Product` 에서 테이블을 **데이터 원본** 창에서 WPF 디자이너로 합니다.  
   
 #### <a name="to-create-data-bound-controls"></a>데이터 바인딩된 컨트롤을 만들려면  
   
-1.  **데이터 소스** 창에서 **Product** 노드의 드롭다운 메뉴를 클릭하고 **정보**를 선택합니다.  
+1. **데이터 소스** 창에서 **Product** 노드의 드롭다운 메뉴를 클릭하고 **정보**를 선택합니다.  
   
-2.  **Product** 노드를 확장합니다.  
+2. **Product** 노드를 확장합니다.  
   
-3.  이 예에서는 일부 필드를 표시하지 않을 것이므로 다음 노드 옆의 드롭다운 메뉴를 클릭하고 **없음**을 선택합니다.  
+3. 이 예에서는 일부 필드를 표시하지 않을 것이므로 다음 노드 옆의 드롭다운 메뉴를 클릭하고 **없음**을 선택합니다.  
   
-    -   ProductCategoryID  
+    - ProductCategoryID  
   
-    -   ProductModelID  
+    - ProductModelID  
   
-    -   ThumbnailPhotoFileName  
+    - ThumbnailPhotoFileName  
   
-    -   rowguid  
+    - rowguid  
   
-    -   ModifiedDate  
+    - ModifiedDate  
   
-4.  **ThumbNailPhoto** 노드 옆의 드롭다운 메뉴를 클릭하고 **이미지**를 선택합니다.  
+4. **ThumbNailPhoto** 노드 옆의 드롭다운 메뉴를 클릭하고 **이미지**를 선택합니다.  
   
     > [!NOTE]
     >  기본적으로 **데이터 원본** 창에서 사진을 나타내는 항목의 기본 컨트롤은 **없음**으로 설정되어 있습니다. 사진은 데이터베이스에서 바이트 배열로 저장되는데 바이트 배열은 단순한 바이트의 배열에서 대형 응용 프로그램의 실행 파일에 이르기까지 모든 항목을 포함할 수 있기 때문입니다.  
   
-5.  **데이터 원본** 창에서 단추가 포함된 행 아래의 그리드 행으로 **Product** 노드를 끌어 옵니다.  
+5. **데이터 원본** 창에서 단추가 포함된 행 아래의 그리드 행으로 **Product** 노드를 끌어 옵니다.  
   
      Visual Studio는 **Product** 테이블의 데이터에 바인딩되는 컨트롤 집합을 정의하는 XAML이 생성됩니다. 또한 데이터를 로드하는 코드도 생성됩니다. 생성 된 XAML 및 코드에 대 한 자세한 내용은 참조 하세요. [Visual Studio에서 데이터를 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)합니다.  
   
-6.  디자이너에서 **제품 ID** 레이블 옆의 텍스트 상자를 클릭합니다.  
+6. 디자이너에서 **제품 ID** 레이블 옆의 텍스트 상자를 클릭합니다.  
   
-7.  **속성** 창에서 **IsReadOnly** 속성 옆의 확인란을 선택합니다.  
+7. **속성** 창에서 **IsReadOnly** 속성 옆의 확인란을 선택합니다.  
   
 ## <a name="navigating-product-records"></a>제품 레코드 탐색  
  사용자가 **\<** 및 **>** 단추를 사용하여 제품 레코드를 스크롤할 수 있도록 하는 코드를 추가합니다.  
   
 #### <a name="to-enable-users-to-navigate-product-records"></a>사용자가 제품 레코드를 탐색할 수 있도록 설정하려면  
   
-1.  디자이너의 창 화면에서 **<** 단추를 두 번 클릭합니다.  
+1. 디자이너의 창 화면에서 **<** 단추를 두 번 클릭합니다.  
   
      Visual Studio가 코드 숨김 파일을 열고 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 이벤트에 대해 새 `backButton_Click` 이벤트 처리기를 만듭니다.  
   
-2.  `Window_Loaded` 이벤트 처리기를 수정하여 `ProductViewSource`, `AdventureWorksLTDataSet` 및 `AdventureWorksLTDataSetProductTableAdapter`가 메서드 외부에 있으며 전체 양식에 액세스할 수 있도록 합니다. 폼에 전역에 이러한 선언 하 고 내에서 할당 된 `Window_Loaded` 다음과 비슷한 이벤트 처리기:  
+2. `Window_Loaded` 이벤트 처리기를 수정하여 `ProductViewSource`, `AdventureWorksLTDataSet` 및 `AdventureWorksLTDataSetProductTableAdapter`가 메서드 외부에 있으며 전체 양식에 액세스할 수 있도록 합니다. 폼에 전역에 이러한 선언 하 고 내에서 할당 된 `Window_Loaded` 다음과 비슷한 이벤트 처리기:  
   
      [!code-csharp[Data_WPFDATASET#1](../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs#1)]
      [!code-vb[Data_WPFDATASET#1](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb#1)]  
   
-3.  다음 코드를 `backButton_Click` 이벤트 처리기에 추가합니다.  
+3. 다음 코드를 `backButton_Click` 이벤트 처리기에 추가합니다.  
   
      [!code-csharp[Data_WPFDATASET#2](../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs#2)]
      [!code-vb[Data_WPFDATASET#2](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb#2)]  
   
-4.  디자이너로 돌아가서 **>** 단추를 두 번 클릭합니다.  
+4. 디자이너로 돌아가서 **>** 단추를 두 번 클릭합니다.  
   
-5.  다음 코드를 `nextButton_Click` 이벤트 처리기에 추가합니다.  
+5. 다음 코드를 `nextButton_Click` 이벤트 처리기에 추가합니다.  
   
      [!code-csharp[Data_WPFDATASET#3](../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs#3)]
      [!code-vb[Data_WPFDATASET#3](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb#3)]  
@@ -216,11 +216,11 @@ ms.locfileid: "59665521"
   
 #### <a name="to-add-the-ability-to-save-changes-to-product-records"></a>제품 레코드 변경 내용을 저장하는 기능을 추가하려면  
   
-1.  디자이너에서 **변경 내용 저장** 단추를 두 번 클릭합니다.  
+1. 디자이너에서 **변경 내용 저장** 단추를 두 번 클릭합니다.  
   
      Visual Studio가 코드 숨김 파일을 열고 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 이벤트에 대해 새 `saveButton_Click` 이벤트 처리기를 만듭니다.  
   
-2.  다음 코드를 `saveButton_Click` 이벤트 처리기에 추가합니다.  
+2. 다음 코드를 `saveButton_Click` 이벤트 처리기에 추가합니다.  
   
      [!code-csharp[Data_WPFDATASET#4](../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs#4)]
      [!code-vb[Data_WPFDATASET#4](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb#4)]  
@@ -233,28 +233,28 @@ ms.locfileid: "59665521"
   
 #### <a name="to-test-the-application"></a>애플리케이션을 테스트하려면  
   
-1.  **F5**키를 누릅니다.  
+1. **F5**키를 누릅니다.  
   
      응용 프로그램이 빌드되고 실행됩니다. 다음 사항을 확인합니다.  
   
-    -   텍스트 상자에 사진이 포함된 첫 번째 제품 레코드의 데이터가 표시됩니다. 이 제품의 ID는 713이고 이름은 **Long-Sleeve Logo Jersey, S**입니다.  
+    - 텍스트 상자에 사진이 포함된 첫 번째 제품 레코드의 데이터가 표시됩니다. 이 제품의 ID는 713이고 이름은 **Long-Sleeve Logo Jersey, S**입니다.  
   
-    -   **>** 또는 **<** 단추를 클릭하여 다른 제품 레코드를 탐색할 수 있습니다.  
+    - **>** 또는 **<** 단추를 클릭하여 다른 제품 레코드를 탐색할 수 있습니다.  
   
-2.  제품 레코드 중 하나에서 **크기** 값을 변경한 다음, **변경 내용 저장**을 클릭합니다.  
+2. 제품 레코드 중 하나에서 **크기** 값을 변경한 다음, **변경 내용 저장**을 클릭합니다.  
   
-3.  애플리케이션을 닫은 다음, Visual Studio에서 **F5**를 눌러 애플리케이션을 다시 시작합니다.  
+3. 애플리케이션을 닫은 다음, Visual Studio에서 **F5**를 눌러 애플리케이션을 다시 시작합니다.  
   
-4.  변경한 제품 레코드로 이동하여 변경 내용이 유지되었는지를 확인합니다.  
+4. 변경한 제품 레코드로 이동하여 변경 내용이 유지되었는지를 확인합니다.  
   
-5.  애플리케이션을 닫습니다.  
+5. 애플리케이션을 닫습니다.  
   
 ## <a name="next-steps"></a>다음 단계  
  이 연습을 완료하고 나면 다음과 같은 관련 작업을 수행할 수 있습니다.  
   
--   Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤을 다른 형식의 데이터 원본에 바인딩하는 방법을 알아봅니다. 자세한 내용은 [WCF 데이터 서비스에 WPF 바인딩 컨트롤](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md)합니다.  
+- Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤을 다른 형식의 데이터 원본에 바인딩하는 방법을 알아봅니다. 자세한 내용은 [WCF 데이터 서비스에 WPF 바인딩 컨트롤](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md)합니다.  
   
--   Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤에 관련 데이터(즉, 부모-자식 관계가 있는 데이터)를 표시하는 방법을 알아봅니다. 자세한 내용은 [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)합니다.  
+- Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤에 관련 데이터(즉, 부모-자식 관계가 있는 데이터)를 표시하는 방법을 알아봅니다. 자세한 내용은 [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   

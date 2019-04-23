@@ -19,14 +19,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: be702dcd19506e6da8fb1e291aa5262dbf4399b2
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: 5a904bfcf147d72dde16ffe0fbf9e754c2c356bb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55018451"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60037822"
 ---
-# <a name="how-to-display-and-hide-register-groups-c-c-visual-basic-f"></a>방법: 레지스터 그룹 표시 및 숨기기 (C#, c + +, Visual Basic의 경우 F#)
+# <a name="how-to-display-and-hide-register-groups-c-c-visual-basic-f"></a>방법: 레지스터 그룹 표시 및 숨기기 (C#, C++, Visual Basic의 경우 F#)
 
 **레지스터** 창은 **옵션** 대화 상자, **디버깅** 노드, **일반** 범주에서 주소 수준 디버깅을 설정한 경우에만 사용할 수 있습니다.
 
@@ -37,12 +37,12 @@ ms.locfileid: "55018451"
 
 ## <a name="display-or-hide-register-groups"></a>레지스터 그룹 표시 또는 숨기기
 
-1.  **레지스터** 창을 마우스 오른쪽 단추로 클릭합니다.
+1. **레지스터** 창을 마우스 오른쪽 단추로 클릭합니다.
 
-2.  바로 가기 메뉴에서 표시하거나 숨기려는 레지스터 그룹을 선택합니다.
+2. 바로 가기 메뉴에서 표시하거나 숨기려는 레지스터 그룹을 선택합니다.
 
      디버깅하고 있는 하드웨어에서 지원하지 않는 레지스터 그룹은 바로 가기 메뉴에서 비활성화되므로 선택할 수 없습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [방법: 레지스터 창 사용](../debugger/how-to-use-the-registers-window.md)

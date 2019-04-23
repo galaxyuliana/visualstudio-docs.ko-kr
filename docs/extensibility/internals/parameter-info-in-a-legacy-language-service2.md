@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 57c5516c70819f8f86d56e93f78ec5d877c72a78
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 838e057fd0063df6a1c592dfefee759b56b9f89b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640378"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041197"
 ---
 # <a name="parameter-info-in-a-legacy-language-service"></a>레거시 언어 서비스의 매개 변수 정보
 IntelliSense 매개 변수 정보는 메서드 매개 변수 목록에 대 한 문자 (일반적으로 여는 괄호)를 시작 하는 사용자가 매개 변수 목록 메서드 시그니처를 표시 하는 도구 설명입니다. 각 매개 변수를 입력 매개 변수 구분 기호 (쉼표)를 입력 하 고 도구 설명 굵게 표시 된 다음 매개 변수를 표시 하도록 업데이트 됩니다.
@@ -111,10 +111,10 @@ testfunc("a string",3);
 
  파서를 사용 하는 단계는 다음과 같습니다.
 
-1.  파서에서 호출 <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartName%2A> "testfunc" 텍스트를 사용 하 여 합니다.
+1. 파서에서 호출 <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartName%2A> "testfunc" 텍스트를 사용 하 여 합니다.
 
-2.  파서에서 호출 <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartParameters%2A>합니다.
+2. 파서에서 호출 <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartParameters%2A>합니다.
 
-3.  파서에서 호출 <xref:Microsoft.VisualStudio.Package.AuthoringSink.NextParameter%2A>합니다.
+3. 파서에서 호출 <xref:Microsoft.VisualStudio.Package.AuthoringSink.NextParameter%2A>합니다.
 
-4.  파서에서 호출 <xref:Microsoft.VisualStudio.Package.AuthoringSink.EndParameters%2A>합니다.
+4. 파서에서 호출 <xref:Microsoft.VisualStudio.Package.AuthoringSink.EndParameters%2A>합니다.

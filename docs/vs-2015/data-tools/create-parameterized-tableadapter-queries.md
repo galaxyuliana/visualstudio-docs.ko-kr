@@ -16,12 +16,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 49bc9f56a07319c9edad1522c5e44b0bb35e92a2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1576dfc54622f42e87ff2e9a951eed321300b1e4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983976"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039290"
 ---
 # <a name="create-parameterized-tableadapter-queries"></a>매개 변수가 있는 TableAdapter 쿼리 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,11 +46,11 @@ ms.locfileid: "58983976"
   
 ### <a name="create-a-parameterized-query-while-designing-a-data-bound-form"></a>데이터 바인딩된 폼을 디자인 하는 동안 매개 변수가 있는 쿼리 만들기  
   
-1.  데이터 집합에 이미 바인딩되어 있는 폼의 컨트롤을 선택합니다. 자세한 내용은 [Visual Studio에서 데이터 바인딩 Windows Forms 컨트롤](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)합니다.  
+1. 데이터 집합에 이미 바인딩되어 있는 폼의 컨트롤을 선택합니다. 자세한 내용은 [Visual Studio에서 데이터 바인딩 Windows Forms 컨트롤](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)합니다.  
   
-2.  에 **데이터** 메뉴에서**쿼리 추가**합니다.  
+2. 에 **데이터** 메뉴에서**쿼리 추가**합니다.  
   
-3.  원하는 매개 변수가 포함된 WHERE 절을 SQL 문에 추가하여 **검색 조건 작성기** 대화 상자에서 필요한 작업을 완료합니다.  
+3. 원하는 매개 변수가 포함된 WHERE 절을 SQL 문에 추가하여 **검색 조건 작성기** 대화 상자에서 필요한 작업을 완료합니다.  
   
 ### <a name="add-a-query-to-an-existing-data-bound-form"></a>쿼리를 기존 데이터 바인딩된 폼에 추가  
   
@@ -91,11 +91,11 @@ TableAdapter에 대 한 쿼리 인 경우 다음 코드를 사용 하 여 운송
   
 ### <a name="enable-a-query-to-accept-null-values"></a>Null 값을 허용 하도록 쿼리를 사용 하도록 설정  
   
-1.  에 **데이터 집합 디자이너**, null 매개 변수 값을 허용 해야 하는 TableAdapter 쿼리를 선택 합니다.  
+1. 에 **데이터 집합 디자이너**, null 매개 변수 값을 허용 해야 하는 TableAdapter 쿼리를 선택 합니다.  
   
-2.  에 **속성** 창에서 **매개 변수**합니다. 줄임표를 누릅니다 (**...** ) 버튼을 클릭 하 여 **매개 변수 컬렉션 편집기**합니다.  
+2. 에 **속성** 창에서 **매개 변수**합니다. 줄임표를 누릅니다 (**...** ) 버튼을 클릭 하 여 **매개 변수 컬렉션 편집기**합니다.  
   
-3.  Null 값을 허용 하는 매개 변수를 선택 하 고 설정 합니다 **AllowDbNull** 속성을 `true`입니다.  
+3. Null 값을 허용 하는 매개 변수를 선택 하 고 설정 합니다 **AllowDbNull** 속성을 `true`입니다.  
   
 ## <a name="see-also"></a>참고자료
 

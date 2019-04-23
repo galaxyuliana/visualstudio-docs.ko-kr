@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f2529b22d7039101f83952b3390221af5b78922b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 34d988f88787efc2f40b663ef2f22e6273055533
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605109"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60038714"
 ---
 # <a name="test-area-4-check-in"></a>테스트 영역 4: 체크 인
 이 소스 제어 플러그 인 테스트 영역에서는 업데이트 된 항목을 통해 버전 저장소에 전송 합니다 **체크 인** 명령입니다.
@@ -33,11 +33,11 @@ ms.locfileid: "56605109"
 
 ## <a name="common-expected-behavior"></a>예상 되는 일반적인 동작
 
--   프로젝트 및 솔루션 또는 프로젝트를 소스 제어에 추가 된 파일에 표시 합니다 **체크** 대화 상자와 **보류 중인 체크 인** 창입니다.
+- 프로젝트 및 솔루션 또는 프로젝트를 소스 제어에 추가 된 파일에 표시 합니다 **체크** 대화 상자와 **보류 중인 체크 인** 창입니다.
 
--   체크 인 후 소스 제어에 추가 항목이 나타납니다.
+- 체크 인 후 소스 제어에 추가 항목이 나타납니다.
 
--   체크 인 한 후 업데이트 된 항목은 저장소에서 버전이 적절히 관리입니다.
+- 체크 인 한 후 업데이트 된 항목은 저장소에서 버전이 적절히 관리입니다.
 
 ## <a name="test-cases"></a>테스트 사례
  체크 인 테스트 영역에 대 한 특정 테스트 사례는 다음과 같습니다.

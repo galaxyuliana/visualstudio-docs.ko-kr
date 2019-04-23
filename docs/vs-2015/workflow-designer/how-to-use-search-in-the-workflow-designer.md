@@ -9,12 +9,12 @@ caps.latest.revision: 3
 author: steved0x
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 427e854c19e65463abcd8780cfe95d38f3ea66f4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1d62f1936e4cf424bde526301210e61f38e5b767
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984409"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60038807"
 ---
 # <a name="how-to-use-search-in-the-workflow-designer"></a>방법: 워크플로 디자이너에서 검색 사용
 더 크고 복잡한 워크플로를 쉽게 만들려면 워크플로 디자이너에서 검색 기능을 사용하여 키워드로 항목을 찾을 수 있습니다. 디자이너는 바꾸기를 지원하지 않습니다. 검색은 디자이너에서 다음을 찾습니다.  
@@ -22,21 +22,21 @@ ms.locfileid: "58984409"
 ## <a name="quick-find"></a>빠른 찾기  
  빠른 찾기는 디자이너에서 다음을 찾습니다.  
   
--   <xref:System.Activities.Activity> 개체, <xref:System.Activities.Statements.FlowNode> 개체, <xref:System.Activities.Statements.State> 개체, 전환 및 기타 사용자 지정 흐름 제어 항목의 속성  
+- <xref:System.Activities.Activity> 개체, <xref:System.Activities.Statements.FlowNode> 개체, <xref:System.Activities.Statements.State> 개체, 전환 및 기타 사용자 지정 흐름 제어 항목의 속성  
   
--   변수  
+- 변수  
   
--   인수  
+- 인수  
   
--   식  
+- 식  
   
 #### <a name="using-quick-find"></a>빠른 찾기 기능 사용  
   
-1.  워크플로 디자이너를 연을 누릅니다 **Ctrl + F**를 선택 하거나 **편집**, **찾기 및 바꾸기**, **빠른 찾기**.  
+1. 워크플로 디자이너를 연을 누릅니다 **Ctrl + F**를 선택 하거나 **편집**, **찾기 및 바꾸기**, **빠른 찾기**.  
   
-2.  에 검색어를 입력 합니다 **찾을 내용** 텍스트 상자 클릭 **다음 찾기**합니다.  
+2. 에 검색어를 입력 합니다 **찾을 내용** 텍스트 상자 클릭 **다음 찾기**합니다.  
   
-3.  검색 조건은 현재 워크플로에 있습니다. 다음 스크린 샷은 디자이너에 있는 활동 표시 이름을 보여 줍니다.  
+3. 검색 조건은 현재 워크플로에 있습니다. 다음 스크린 샷은 디자이너에 있는 활동 표시 이름을 보여 줍니다.  
   
      ![워크플로 디자이너에서 검색 결과](../workflow-designer/media/designersearch.png "DesignerSearch")  
   
@@ -45,8 +45,8 @@ ms.locfileid: "58984409"
   
 #### <a name="using-find-in-files"></a>파일에서 찾기 사용  
   
-1.  키를 눌러 Visual Studio에서 **Ctrl + Shift + F**를 선택 하거나 **편집**합니다 **찾기 및 바꾸기**, **파일에서 찾기**  
+1. 키를 눌러 Visual Studio에서 **Ctrl + Shift + F**를 선택 하거나 **편집**합니다 **찾기 및 바꾸기**, **파일에서 찾기**  
   
-2.  에 검색 조건을 입력 합니다 **찾을 내용** 텍스트 상자를 클릭 하 고 **모두 찾기**  
+2. 에 검색 조건을 입력 합니다 **찾을 내용** 텍스트 상자를 클릭 하 고 **모두 찾기**  
   
-3.  찾기 결과에 표시 됩니다는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **찾기 결과** 보기. 결과 항목을 두 번 클릭하면 Workflow Designer의 일치 항목이 포함된 활동으로 이동됩니다.
+3. 찾기 결과에 표시 됩니다는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **찾기 결과** 보기. 결과 항목을 두 번 클릭하면 Workflow Designer의 일치 항목이 포함된 활동으로 이동됩니다.

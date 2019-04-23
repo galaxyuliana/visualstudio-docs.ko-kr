@@ -11,12 +11,12 @@ ms.assetid: 5e5f3436-6bad-4fd2-8823-6a30353ba648
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2546d9e9c864772bf1a2d3063e8ce4adc1cd7605
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 21a2b520111c07b6c964eae19f5a6064e926db70
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983428"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039985"
 ---
 # <a name="how-to-use-built-in-colorable-items"></a>방법: 기본 제공 색 항목 사용
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,9 +25,9 @@ ms.locfileid: "58983428"
   
 ### <a name="to-use-built-in-colorable-items"></a>기본 제공 색 항목을 사용 하려면  
   
-1.  아래 HKEY_LOCAL_MACHINE\VisualStudio\\*X.Y*\Languages\Language 서비스\\*언어 이름*여기서 *X.Y* 버전이[!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 하 고 *언어 이름* 이름인 언어를 만들기 이라는 DWORD 레지스트리 항목 값을 `RequestStockColors`입니다.  
+1. 아래 HKEY_LOCAL_MACHINE\VisualStudio\\*X.Y*\Languages\Language 서비스\\*언어 이름*여기서 *X.Y* 버전이[!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 하 고 *언어 이름* 이름인 언어를 만들기 이라는 DWORD 레지스트리 항목 값을 `RequestStockColors`입니다.  
   
-2.  설정 된 `RequestStockColors` 레지스트리 항목 값을 1로 합니다.  
+2. 설정 된 `RequestStockColors` 레지스트리 항목 값을 1로 합니다.  
   
      레지스트리 항목에 colorizer의를 만든 후 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> 메서드는 멤버를 사용할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.DEFAULTITEMS> 편집기 사용에 대 한 색 특성 배열을 작성 하는 열거형입니다.  
   

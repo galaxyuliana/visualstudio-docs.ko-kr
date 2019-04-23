@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9fa5df395aee8e93c191535a7bec5b078563e3aa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 6567b4ff4ee7c798ac82c5d33ea50ac206fcd692
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54801109"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039048"
 ---
 # <a name="customizing-project-and-item-templates"></a>프로젝트 템플릿 및 항목 템플릿 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,17 +26,17 @@ ms.locfileid: "54801109"
   
  예를 들어, 아래와 같은 작업을 수행할 수 있습니다.  
   
--   기존 템플릿을 사용자 지정 템플릿으로 수정 및 내보냅니다.  
+- 기존 템플릿을 사용자 지정 템플릿으로 수정 및 내보냅니다.  
   
-     자세한 내용은 [방법: 기존 템플릿 업데이트](../ide/how-to-update-existing-templates.md)를 참조하세요.  
+     자세한 내용은 [방법: 기존 템플릿 업데이트](../ide/how-to-update-existing-templates.md)합니다.  
   
--   기존 값을 바꾸기 위해 사용자 지정 매개 변수를 템플릿에 전달합니다.  
+- 기존 값을 바꾸기 위해 사용자 지정 매개 변수를 템플릿에 전달합니다.  
   
-     자세한 내용은 [방법: 템플릿 매개 변수 대체](../ide/how-to-substitute-parameters-in-a-template.md)를 참조하세요.  
+     자세한 내용은 [방법: 템플릿 매개 변수를 대체](../ide/how-to-substitute-parameters-in-a-template.md)합니다.  
   
--   템플릿에서 프로젝트를 만드는 마법사를 사용자 지정합니다.  
+- 템플릿에서 프로젝트를 만드는 마법사를 사용자 지정합니다.  
   
-     자세한 내용은 [방법: 프로젝트 템플릿에 마법사 사용](../extensibility/how-to-use-wizards-with-project-templates.md)을 참조하세요.  
+     자세한 내용은 [방법: 프로젝트 템플릿을 사용 하 여 마법사를 사용 하 여](../extensibility/how-to-use-wizards-with-project-templates.md)입니다.  
   
 ## <a name="related-sections"></a>관련 단원  
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)  

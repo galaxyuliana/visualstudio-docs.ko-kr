@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6250577a5a1b6793001b1d4b732c3b3101690aad
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: b457bf6491a9b82fc981c66722f4c6e19a517065
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57867876"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040340"
 ---
 # <a name="sharepoint-project-and-project-item-templates"></a>SharePoint 프로젝트 및 프로젝트 항목 템플릿
   다음 섹션에서는 사용할 수 있는 SharePoint 프로젝트에 설명 하 고 프로젝트 항목 템플릿 및 사용 방법에 있습니다.
@@ -41,17 +41,17 @@ ms.locfileid: "57867876"
 ### <a name="sharepoint-2010-project"></a>SharePoint 2010 프로젝트
  콘텐츠를 *SharePoint 2010 프로젝트* 모든 SharePoint 프로젝트 템플릿에 포함 됩니다. SharePoint 2010 프로젝트에는 다음이 포함 됩니다.
 
--   프로젝트 파일입니다.
+- 프로젝트 파일입니다.
 
--   프로젝트 속성 페이지입니다.
+- 프로젝트 속성 페이지입니다.
 
--   A **참조가** 폴더 모든 프로젝트에서 어셈블리 참조를 나열 합니다.
+- A **참조가** 폴더 모든 프로젝트에서 어셈블리 참조를 나열 합니다.
 
--   A **기능** 포함 된 폴더를 *.feature* 구성 파일을 SharePoint 서버에 기능을 배포 하는 데 사용 합니다.
+- A **기능** 포함 된 폴더를 *.feature* 구성 파일을 SharePoint 서버에 기능을 배포 하는 데 사용 합니다.
 
--   A **패키지** 포함 된 폴더를 *Package.package* 파일을 SharePoint에 솔루션을 배포 하는 데 사용 합니다.
+- A **패키지** 포함 된 폴더를 *Package.package* 파일을 SharePoint에 솔루션을 배포 하는 데 사용 합니다.
 
--   Key.snk (강력한 이름 키) 파일에 대 한 강력한 이름으로 어셈블리에 서명 하는 데 사용 되는 보안을 강화 합니다.
+- Key.snk (강력한 이름 키) 파일에 대 한 강력한 이름으로 어셈블리에 서명 하는 데 사용 되는 보안을 강화 합니다.
 
 ### <a name="sharepoint-2010-silverlight-web-part"></a>SharePoint 2010 Silverlight 웹 파트
  *SharePoint 2010 Silverlight 웹 파트* 프로젝트를 사용 하면 웹 파트 만들기를 Silverlight 응용 프로그램을 표시 하는 SharePoint에 대 한 합니다. 이 프로젝트를 만들면 새 Silverlight 응용 프로그램을 추가 하거나 기존 참조 것인지를 지정할 수 있습니다. 자세한 내용은 [SharePoint 용 웹 파트를 만들](../sharepoint/creating-web-parts-for-sharepoint.md) 및 [연습: SharePoint 용 OData를 표시 하는 Silverlight 웹 파트를 만든](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md)합니다.

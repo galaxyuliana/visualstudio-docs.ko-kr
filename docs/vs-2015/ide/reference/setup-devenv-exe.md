@@ -13,17 +13,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0df3b74b6c5acc4b8630dcf5759dd3fd6e7a1afe
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 6e5bbbf3a1a9601a46aa9d3080f0d20583b43d22
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54805367"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670240"
 ---
 # <a name="setup-devenvexe"></a>/Setup(devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 가 모든 사용 가능한 VSPackages에서 메뉴, 도구 모음 및 명령 그룹을 설명하는 리소스 메타데이터를 병합하도록 합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -37,7 +36,7 @@ devenv /setup
   
   `devenv` 및 [devenv](../../ide/reference/setup-devenv-exe.md) 스위치를 사용하려면 관리자 권한으로 [devenv](../../ide/reference/installvstemplates-devenv-exe.md) 를 실행해야 합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예는 VSPackages를 포함하는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 버전의 설치에서 마지막 단계를 보여 줍니다.  
   
 ```  

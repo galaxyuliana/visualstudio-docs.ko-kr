@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b87d3b1659d46a69e5a2e950997d3c0474e84d11
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: b863040bcceb4e86aae7ed4efd83c2466eec12c6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598390"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60037857"
 ---
 # <a name="how-to-programmatically-open-visio-documents"></a>방법: 프로그래밍 방식으로 Visio 문서 열기
   기존 Microsoft Office Visio 문서를 여는 방법은 두 가지가 있습니다. 열기 및 OpenEx 합니다. OpenEx 메서드는 인수는 호출자에 게 문서가 열리는 방식을 지정할 수 있다는 점을 제외 하 고 Open 메서드가 동일 합니다.
@@ -29,7 +29,7 @@ ms.locfileid: "56598390"
 
 ### <a name="to-open-a-visio-document"></a>Visio 문서를 열려면
 
--   `Microsoft.Office.Interop.Visio.Documents.Open` 메서드를 호출하고 Visio 문서의 정규화된 경로를 제공합니다.
+- `Microsoft.Office.Interop.Visio.Documents.Open` 메서드를 호출하고 Visio 문서의 정규화된 경로를 제공합니다.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#5](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#5)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#5](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#5)]
@@ -38,7 +38,7 @@ ms.locfileid: "56598390"
 
 ### <a name="to-open-a-visio-document-as-read-only-and-docked"></a>Visio 문서를 읽기 전용 및 도킹하여 열려면
 
--   `Microsoft.Office.Interop.Visio.Documents.OpenEx` 메서드를 호출하여 Visio 문서의 정규화된 경로를 제공하고 사용하려는 인수(이 경우, 도킹됨 및 읽기 전용)를 포함합니다.
+- `Microsoft.Office.Interop.Visio.Documents.OpenEx` 메서드를 호출하여 Visio 문서의 정규화된 경로를 제공하고 사용하려는 인수(이 경우, 도킹됨 및 읽기 전용)를 포함합니다.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#6](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#6)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#6](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#6)]
@@ -46,7 +46,7 @@ ms.locfileid: "56598390"
 ## <a name="compile-the-code"></a>코드 컴파일
  이 코드 예제에는 다음이 필요합니다.
 
--   명명 된 Visio 문서 `myDrawing.vsd` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).
+- 명명 된 Visio 문서 `myDrawing.vsd` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).
 
 ## <a name="see-also"></a>참고자료
 - [Visio 솔루션](../vsto/visio-solutions.md)

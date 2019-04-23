@@ -14,17 +14,16 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: efae349037d6a826c4d267e12d901306eed7629b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: f7bf12e9f6c90ce544205370a8ed26440388b0a6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758699"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670058"
 ---
 # <a name="assigntargetpath-task"></a>AssignTargetPath 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 작업은 파일 목록을 수락하고 `<TargetPath>` 특성을 아직 지정하지 않은 경우 추가합니다.  
   
 ## <a name="task-parameters"></a>작업 매개 변수  
@@ -39,7 +38,7 @@ ms.locfileid: "54758699"
 ## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `AssignTargetPath` 작업을 실행하여 프로젝트를 구성합니다.  
   
 ```  

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a145907ad76016802e0547fc251b929b913253d5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: afb835c883050064d96c32c80de75d58299892f7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55945679"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040692"
 ---
 # <a name="accessing-models-from-text-templates"></a>텍스트 템플릿에서 모델에 액세스
 텍스트 템플릿을 사용 하 여 보고서 파일, 소스 코드 파일 및 도메인 특정 언어 모델을 기반으로 하는 기타 텍스트 파일을 만들 수 있습니다. 텍스트 템플릿에 대 한 기본 정보를 참조 하세요. [코드 생성 및 T4 텍스트 템플릿](../modeling/code-generation-and-t4-text-templates.md)합니다. 텍스트 템플릿 DSL을 디버깅할 때 실험적 모드에서 작동 하 고 DSL를 배포한 컴퓨터 에서도 작동 합니다.
@@ -75,9 +75,9 @@ Here is a list of elements in the model:
 
  DSL 지시문 프로세서는 두 가지 주요 작업을 수행합니다.
 
--   효과적으로 DSL을 참조 하는 서식 파일에 어셈블리 및 import 지시문을 삽입 합니다. 이렇게 하면 템플릿 코드에서 도메인 클래스를 사용할 수 있습니다.
+- 효과적으로 DSL을 참조 하는 서식 파일에 어셈블리 및 import 지시문을 삽입 합니다. 이렇게 하면 템플릿 코드에서 도메인 클래스를 사용할 수 있습니다.
 
--   지정 하는 파일을 로드를 `requires` 매개 변수 속성을 설정 하 고 `this` 참조 하는 로드 된 모델의 루트 요소입니다.
+- 지정 하는 파일을 로드를 `requires` 매개 변수 속성을 설정 하 고 `this` 참조 하는 로드 된 모델의 루트 요소입니다.
 
 ## <a name="validating-the-model-before-running-the-template"></a>서식 파일을 실행 하기 전에 모델 유효성 검사
  템플릿 실행 되기 전에 유효성을 검사 하려면 모델을 발생할 수 있습니다.

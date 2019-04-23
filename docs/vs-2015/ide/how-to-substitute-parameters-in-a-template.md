@@ -12,14 +12,14 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 97a8a99e160e4d488e44cc9e084789fe3a005eb1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: be004820967f85de41b11c38031722b87a5af375
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54780293"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039416"
 ---
-# <a name="how-to-substitute-parameters-in-a-template"></a>방법: 템플릿 매개 변수 대체
+# <a name="how-to-substitute-parameters-in-a-template"></a>방법: 템플릿 매개 변수를 대체 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 템플릿을 기반으로 하는 파일을 만들 때 클래스 이름 및 네임스페이스와 같은 템플릿 매개 변수를 바꿀 수 있습니다. 템플릿 매개 변수의 전체 목록은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.  
@@ -29,7 +29,7 @@ ms.locfileid: "54780293"
   
 #### <a name="to-use-a-parameter-to-replace-namespace-name-with-the-project-name"></a>매개 변수를 사용하여 네임스페이스 이름을 프로젝트 이름으로 바꾸려면  
   
-1.  템플릿의 하나 이상 코드 파일에 매개 변수를 삽입합니다. 예:  
+1. 템플릿의 하나 이상 코드 파일에 매개 변수를 삽입합니다. 예를 들어:  
   
     ```  
     namespace $safeprojectname$  
@@ -38,9 +38,9 @@ ms.locfileid: "54780293"
     > [!NOTE]
     >  템플릿 매개 변수는 $*parameter*$ 형식으로 작성됩니다.  
   
-2.  템플릿에 대한 .vstemplate 파일에서 이 파일을 포함하는 `ProjectItem` 요소를 찾습니다.  
+2. 템플릿에 대한 .vstemplate 파일에서 이 파일을 포함하는 `ProjectItem` 요소를 찾습니다.  
   
-3.  `ProjectItem` 요소에 대해 `ReplaceParameters` 특성을 `true`로 설정합니다. 예:  
+3. `ProjectItem` 요소에 대해 `ReplaceParameters` 특성을 `true`로 설정합니다. 예를 들어:  
   
     ```  
     <ProjectItem ReplaceParameters="true">Class1.cs</ProjectItem>  

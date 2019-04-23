@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 46b7a159fb2d15f817cad47817262202397d3981
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: c2d337a1ed97524dc04c8154fe2b074baf0921ca
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654323"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60042383"
 ---
 # <a name="troubleshoot-specific-errors-in-clickonce-deployments"></a>ClickOnce 배포 관련 오류 문제 해결
 이 문서에서는 배포 하는 경우 발생할 수 있는 다음과 같은 일반적인 오류가 나열 된 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 하 고 각 문제를 해결 하는 단계를 제공 합니다.
@@ -81,9 +81,9 @@ ms.locfileid: "59654323"
 
  다음을 수행 해야 합니다.
 
--   배포 매니페스트의 id, 응용 프로그램 매니페스트의 id 및 기본 응용 프로그램 EXE의 id 모든 고유한 지 확인 합니다.
+- 배포 매니페스트의 id, 응용 프로그램 매니페스트의 id 및 기본 응용 프로그램 EXE의 id 모든 고유한 지 확인 합니다.
 
--   파일 경로가 100 자를 초과 되지 않았는지 확인 합니다. 너무 긴 파일 경로 포함 하는 응용 프로그램을 저장할 수 있습니다 최대 경로에 대 한 제한을 초과할 수 있습니다. 경로 단축 하 고 다시 설치 합니다.
+- 파일 경로가 100 자를 초과 되지 않았는지 확인 합니다. 너무 긴 파일 경로 포함 하는 응용 프로그램을 저장할 수 있습니다 최대 경로에 대 한 제한을 초과할 수 있습니다. 경로 단축 하 고 다시 설치 합니다.
 
 #### <a name="privatepath-settings-in-application-config-file-are-not-honored"></a>응용 프로그램 구성 파일에서 PrivatePath 설정이 무시 되며
  PrivatePath (Fusion 검색 경로)를 사용 하려면 응용 프로그램에는 완전 신뢰 권한을 요청 해야 합니다. 완전 신뢰를 요청 하 고 다시 시도 하도록 응용 프로그램 매니페스트를 변경해 보세요.
@@ -112,9 +112,9 @@ ms.locfileid: "59654323"
 #### <a name="you-tried-to-sign-with-a-certificate-in-your-certificate-store-and-a-received-blank-message-box"></a>인증서 저장소와 받은 빈 메시지 상자에 인증서를 사용 하 여 로그인 하려고 했습니다.
  에 **서명** 대화 상자에서 수행 해야 합니다.
 
--   선택 **저장된 된 인증서로 서명**, 및
+- 선택 **저장된 된 인증서로 서명**, 및
 
--   목록에서 인증서를 선택 합니다. 첫 번째 인증서가 기본적으로 선택 합니다.
+- 목록에서 인증서를 선택 합니다. 첫 번째 인증서가 기본적으로 선택 합니다.
 
 #### <a name="clicking-the-dont-sign-button-causes-an-exception"></a>서명 하지 않음 "단추를 클릭 하면 예외
  이 문제는 알려진된 버그가 있습니다. 모든 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 매니페스트는 서명 되어야 합니다. 서명 옵션 중 하나를 선택 하 고 클릭 **확인**합니다.

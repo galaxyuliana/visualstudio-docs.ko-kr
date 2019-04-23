@@ -17,12 +17,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5b3e5d7ebb1f61ffdbff98f49f83025115c80f64
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4c785c419ead31ad90e2b20ae7f48af778598bb6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981689"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60042768"
 ---
 # <a name="how-to-specify-a-net-framework-version-for-debugging"></a>방법: 디버깅을 위한.NET Framework 버전 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,29 +35,29 @@ ms.locfileid: "58981689"
   
 ### <a name="to-specify-a-net-framework-version-for-debugging"></a>디버깅을 위한 .NET Framework 버전을 지정하려면  
   
-1.  Windows\Microsoft.NET\Framework 디렉터리에서 컴퓨터에 설치되어 있는 .NET Framework의 버전을 확인합니다. 버전 번호는 다음과 비슷합니다.  
+1. Windows\Microsoft.NET\Framework 디렉터리에서 컴퓨터에 설치되어 있는 .NET Framework의 버전을 확인합니다. 버전 번호는 다음과 비슷합니다.  
   
      `V1.1.4322`  
   
      올바른 버전 번호를 확인하여 기록해 둡니다.  
   
-2.  **레지스트리 편집기**(regedit)를 시작합니다.  
+2. **레지스트리 편집기**(regedit)를 시작합니다.  
   
-3.  **레지스트리 편집기**에서 HKEY_LOCAL_MACHINE 폴더를 엽니다.  
+3. **레지스트리 편집기**에서 HKEY_LOCAL_MACHINE 폴더를 엽니다.  
   
-4.  다음으로 이동합니다. HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine\\{449EC4CC-30D2-4032-9256-EE18EB41B62B}  
+4. 다음으로 이동합니다. HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine\\{449EC4CC-30D2-4032-9256-EE18EB41B62B}  
   
      이 키가 없으면 마우스 오른쪽 단추로 HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine을 클릭하고 **새 키**를 클릭합니다. 새 키 이름을 `{449EC4CC-30D2-4032-9256-EE18EB41B62B}`입니다.  
   
-5.  {449EC4CC-30D2-4032-9256-EE18EB41B62B}로 이동한 후 **이름** 열에서 CLRVersionForDebugging 키를 찾습니다.  
+5. {449EC4CC-30D2-4032-9256-EE18EB41B62B}로 이동한 후 **이름** 열에서 CLRVersionForDebugging 키를 찾습니다.  
   
-    1.  해당하는 키가 없으면 {449EC4CC-30D2-4032-9256-EE18EB41B62B}를 마우스 오른쪽 단추로 클릭하고 **새 문자열 값**을 클릭합니다. 새 문자열 값을 마우스 오른쪽 단추로 클릭, 클릭 **이름 바꾸기**, 및 형식 `CLRVersionForDebugging`합니다.  
+    1. 해당하는 키가 없으면 {449EC4CC-30D2-4032-9256-EE18EB41B62B}를 마우스 오른쪽 단추로 클릭하고 **새 문자열 값**을 클릭합니다. 새 문자열 값을 마우스 오른쪽 단추로 클릭, 클릭 **이름 바꾸기**, 및 형식 `CLRVersionForDebugging`합니다.  
   
-6.  **CLRVersionForDebugging**을 두 번 클릭합니다.  
+6. **CLRVersionForDebugging**을 두 번 클릭합니다.  
   
-7.  **문자열 편집** 상자에서 **값** 상자에 .NET Framework 버전 번호를 입력합니다. 예를 들어: V1.1.4322  
+7. **문자열 편집** 상자에서 **값** 상자에 .NET Framework 버전 번호를 입력합니다. 예를 들어: V1.1.4322  
   
-8.  **확인**을 클릭합니다.  
+8. **확인**을 클릭합니다.  
   
 9. **레지스트리 편집기**를 닫습니다.  
   

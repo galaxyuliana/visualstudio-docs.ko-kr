@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c1bf4f23ffc6d06313c39f0ffe25b9f1a6ffe595
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 5958eb6fb8fd14dd510fa87d900efa76cb6f6a87
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601038"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040718"
 ---
 # <a name="ribbon-object-model-overview"></a>리본 개체 모델 개요
   [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 가져오고 런타임에 리본 컨트롤의 속성을 설정 하는 데 사용할 수 있는 강력한 형식의 개체 모델을 노출 합니다. 예를 들어 수 동적으로 메뉴 컨트롤을 채우는 또는 표시 하거나 숨길 수 컨트롤 컨텍스트. Office 응용 프로그램에서 리본 메뉴가 로드 되기 전에만 있지만 리본, 탭, 그룹 및 컨트롤도 추가할 수 있습니다. 정보를 참조 하세요 [읽기 전용이 되는 속성을 설정할](#SettingReadOnlyProperties)합니다.
@@ -26,12 +26,12 @@ ms.locfileid: "56601038"
 
  이 리본 개체 모델은 주로 구성 합니다 [리본 클래스](#RibbonClass), [리본 이벤트](#RibbonEvents), 및 [리본 컨트롤 클래스](#RibbonControlClasses)합니다.
 
-##  <a name="RibbonClass"></a> Ribbon 클래스
+## <a name="RibbonClass"></a> Ribbon 클래스
  새로 추가한 경우 **리본 (비주얼 디자이너)** 추가 하는 Visual Studio 프로젝트에 항목을 **리본** 프로젝트에 클래스입니다. 합니다 **리본** 클래스에서 상속 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonBase> 클래스입니다.
 
  이 클래스는 리본 코드 파일 및 리본 디자이너 코드 파일 간에 분할 되는 partial 클래스로 표시 됩니다.
 
-##  <a name="RibbonEvents"></a> 리본 이벤트
+## <a name="RibbonEvents"></a> 리본 이벤트
  합니다 **리본** 클래스는 다음 세 가지 이벤트를 포함 합니다.
 
 |이벤트(event)|설명|
@@ -40,7 +40,7 @@ ms.locfileid: "56601038"
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.LoadImage>|하면 리본 사용자 지정의 캐시 이미지에 리본 메뉴가 로드 하는 경우. 이 이벤트 처리기에서 리본 메뉴 이미지를 캐시 하는 코드를 작성 하는 경우 성능이 약간 향상을 얻을 수 있습니다. 자세한 내용은 <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage>을 참조하세요.|
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.Close>|리본 인스턴스가 닫힐 때 발생 합니다.|
 
-##  <a name="RibbonControlClasses"></a> 리본 컨트롤
+## <a name="RibbonControlClasses"></a> 리본 컨트롤
  <xref:Microsoft.Office.Tools.Ribbon> 네임 스페이스에 표시 되는 각 컨트롤에 대 한 형식을 포함 합니다 **Office 리본 컨트롤** 그룹을 **도구 상자**.
 
  다음 표에서 각 종류를 보여 줍니다. `Ribbon` 제어 합니다. 각 컨트롤의 설명을 참조 하세요 [리본 개요](../vsto/ribbon-overview.md)합니다.
@@ -89,7 +89,7 @@ ms.locfileid: "56601038"
 |그룹 로그온을 <xref:Microsoft.Office.Tools.Ribbon.RibbonTab>입니다.|<xref:Microsoft.Office.Tools.Ribbon.RibbonTab.Groups%2A> 속성을 사용합니다.|
 |행 및 열에 표시 되는 횟수를 지정 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>합니다.|사용 된 <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.RowCount%2A> 고 <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ColumnCount%2A> 속성입니다.|
 
-##  <a name="SettingReadOnlyProperties"></a> 읽기 전용으로 설정 하는 속성 설정
+## <a name="SettingReadOnlyProperties"></a> 읽기 전용으로 설정 하는 속성 설정
  리본 메뉴가 로드 되기 전에 일부 속성 에서만 설정할 수 있습니다. 이러한 속성을 설정 하려면 다음 세 위치 가지가 있습니다.
 
 - Visual studio에서 **속성** 창입니다.
@@ -126,7 +126,7 @@ ms.locfileid: "56601038"
  [!code-vb[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.vb#2)]
  [!code-csharp[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.cs#2)]
 
-###  <a name="ReadOnlyProperties"></a> 읽기 전용 되는 속성
+### <a name="ReadOnlyProperties"></a> 읽기 전용 되는 속성
  다음 표에서 리본 메뉴가 로드 되기 전에 설정할 수 있는 속성을 보여 줍니다.
 
 > [!NOTE]
@@ -170,7 +170,7 @@ ms.locfileid: "56601038"
 
 |이벤트(event)|설명|
 |-----------|-----------------|
-|클릭|컨트롤을 클릭할 때 발생 합니다.|
+|클릭 대상|컨트롤을 클릭할 때 발생 합니다.|
 |TextChanged|편집 상자 또는 콤보 상자의 텍스트가 변경 될 때 발생 합니다.|
 |ItemsLoading|컨트롤의 항목 컬렉션은 Office가 요청 될 때 발생 합니다. 컨트롤의 속성을 변경 하는 코드 또는 호출 될 때까지 office 항목 컬렉션을 캐시 합니다 <xref:Microsoft.Office.Core.IRibbonUI.InvalidateControl%2A> 메서드.|
 |ButtonClick|경우 단추를 <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery> 또는 <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown> 를 클릭 합니다.|
@@ -181,7 +181,7 @@ ms.locfileid: "56601038"
 
 |매개 변수|설명|
 |---------------|-----------------|
-|*sender*|이벤트를 발생시킨 컨트롤을 나타내는 <xref:System.Object>입니다.|
+|*sender*|<xref:System.Object> 이벤트를 발생 시킨 컨트롤을 나타내는입니다.|
 |*e*|<xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs>이 들어 있는 <xref:Microsoft.Office.Core.IRibbonControl>입니다. 이 컨트롤에서 제공 하는 리본 개체 모델에서 사용할 수 없는 모든 속성에 액세스 하는 데는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]합니다.|
 
 ## <a name="see-also"></a>참고자료

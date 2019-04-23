@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d039de309e1e9d5ec80d469d4d1329aad7118e71
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: b51f26a4ea2dec50c5ee90c38f49412866b6f866
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625467"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041904"
 ---
 # <a name="how-to-resize-controls-within-worksheet-cells"></a>방법: 워크시트 셀에서 컨트롤 크기 조정
   워크시트에 행 또는 열 크기를 조정 하면 셀 내에서 모든 호스트 컨트롤 크기가 조정 되었습니다에 있는 셀의 너비 또는 높이 자동으로 조정 합니다. Windows Forms 컨트롤 기본적으로 자동으로 크기가 조정 되지 않습니다.
@@ -35,13 +35,13 @@ ms.locfileid: "56625467"
 
 ### <a name="to-make-controls-resize-with-cells-at-design-time"></a>컨트롤 디자인 타임에 셀을 사용 하 여 크기를 조정 하려면
 
-1.  **도구 상자**, 워크시트에 Windows Forms 컨트롤을 끌어 옵니다.
+1. **도구 상자**, 워크시트에 Windows Forms 컨트롤을 끌어 옵니다.
 
-2.  컨트롤을 마우스 오른쪽 단추로 누른 **컨트롤 서식**합니다.
+2. 컨트롤을 마우스 오른쪽 단추로 누른 **컨트롤 서식**합니다.
 
-3.  에 **컨트롤 서식** 대화 상자에서 클릭 합니다 **속성** 탭 합니다.
+3. 에 **컨트롤 서식** 대화 상자에서 클릭 합니다 **속성** 탭 합니다.
 
-4.  아래 **개체 위치**를 선택 합니다 **이동 하 고 셀 크기** 옵션을 선택한 다음 클릭 **확인**합니다.
+4. 아래 **개체 위치**를 선택 합니다 **이동 하 고 셀 크기** 옵션을 선택한 다음 클릭 **확인**합니다.
 
      컨트롤이 포함 된 셀의 크기를 조정 하면 컨트롤의 셀에 맞게 크기가 조정 합니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "56625467"
 
 ### <a name="to-make-controls-resize-with-cells-at-run-time"></a>컨트롤이 런타임에 셀 크기를 조정 하도록
 
-1.  A1 범위 컨트롤을 추가 합니다.
+1. A1 범위 컨트롤을 추가 합니다.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#5](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#5)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#5)]
@@ -60,15 +60,15 @@ ms.locfileid: "56625467"
 ## <a name="reset-control-placement"></a>컨트롤 배치를 다시 설정
  설정 하 여 컨트롤의 크기와 위치를 다시 설정할 수 있습니다 합니다 `Placement` 속성을 다음 중 하나로 <xref:Microsoft.Office.Interop.Excel.XlPlacement> 값:
 
--   <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>
+- <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>
 
--   <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlMove>
+- <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlMove>
 
--   <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlMoveAndSize>
+- <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlMoveAndSize>
 
 ### <a name="to-change-the-behavior-of-a-control-so-that-it-does-not-resize-or-move-with-the-cell"></a>크기를 조정 하거나 셀으로 이동 하지 않도록 컨트롤의 동작을 변경 하려면
 
-1.  컨트롤의 배치 속성을 호출 하 고 값을 설정 합니다 <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>합니다.
+1. 컨트롤의 배치 속성을 호출 하 고 값을 설정 합니다 <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>합니다.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#6](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#6)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#6)]

@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0266e14b3a03e6d8225e7ec9283fe727a9502e53
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 92e4fb1ae7cf7acf387eb9387284534eb55c1066
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54785883"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60040017"
 ---
 # <a name="how-to-disable-the-hosting-process"></a>How to: Disable the Hosting Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,11 +38,11 @@ ms.locfileid: "54785883"
   
    일반적으로 호스팅 프로세스는 사용하지 않습니다.  
   
--   [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 애플리케이션 디버깅을 시작하는 데 필요한 시간이 증가합니다.  
+- [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 애플리케이션 디버깅을 시작하는 데 필요한 시간이 증가합니다.  
   
--   디자인 타임 식 계산을 사용할 수 없습니다.  
+- 디자인 타임 식 계산을 사용할 수 없습니다.  
   
--   부분 신뢰 디버깅을 사용할 수 없습니다.  
+- 부분 신뢰 디버깅을 사용할 수 없습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디버깅 및 호스팅 프로세스](../debugger/debugging-and-the-hosting-process.md)   

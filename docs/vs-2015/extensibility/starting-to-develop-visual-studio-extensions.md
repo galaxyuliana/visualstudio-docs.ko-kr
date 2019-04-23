@@ -11,12 +11,12 @@ ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
 caps.latest.revision: 30
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 03c9ebb2a2c84c400b4fb2d3aea4c3ec121fbf27
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 6d8050ea7447a67f50f42157d57c17d3f1f8a329
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002704"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60038634"
 ---
 # <a name="starting-to-develop-visual-studio-extensions"></a>Visual Studio 확장 개발 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,42 +42,42 @@ ms.locfileid: "59002704"
 
  실제로 대부분의 사람들이 확장 기능 명령, 메뉴 및 도구 모음, windows, IntelliSense 및 프로젝트는 발견 했습니다. 관련 섹션에 대 한 링크는 다음과 같습니다.
 
--   [메뉴 및 명령 확장](../extensibility/extending-menus-and-commands.md): Visual Studio 메뉴 및 도구 모음에 사용자 고유의 항목을 추가 합니다. 새 Visual Studio 기능 또는 자신의 외부 도우미 응용 프로그램을 시작 하 고 사용할 수 있습니다. 메뉴 항목에 대 한 사용자 지정 바로 가기 키를 제공할 수도 있습니다.
+- [메뉴 및 명령 확장](../extensibility/extending-menus-and-commands.md): Visual Studio 메뉴 및 도구 모음에 사용자 고유의 항목을 추가 합니다. 새 Visual Studio 기능 또는 자신의 외부 도우미 응용 프로그램을 시작 하 고 사용할 수 있습니다. 메뉴 항목에 대 한 사용자 지정 바로 가기 키를 제공할 수도 있습니다.
 
--   [확장 및 사용자 지정 도구 Windows](../extensibility/extending-and-customizing-tool-windows.md): 기존 도구 창 확장 또는 사용자 고유의 도구 창을 만들 수 있습니다. 예를 들어, 새 속성을 추가할 수 있습니다 합니다 **속성**, 또는 추가 기능을 추가 하는 새 도구 창을 만들 수 있습니다.
+- [확장 및 사용자 지정 도구 Windows](../extensibility/extending-and-customizing-tool-windows.md): 기존 도구 창 확장 또는 사용자 고유의 도구 창을 만들 수 있습니다. 예를 들어, 새 속성을 추가할 수 있습니다 합니다 **속성**, 또는 추가 기능을 추가 하는 새 도구 창을 만들 수 있습니다.
 
--   [편집기 및 언어 서비스 확장](../extensibility/editor-and-language-service-extensions.md): 새 프로그래밍 언어에 대 한 지원을 만들거나 사용자 고유의 사용자 지정 Visual Studio 언어에 대 한 제공 되는 IntelliSense를 추가 합니다. 새 문 완성, 제안 및 QuickInfo 도구 설명 표시를 새로 만들 수 있습니다. 전구를 사용 하 여 리팩터링 제안을 추가 하 고 새 프로그래밍 언어를 지원 하기 위해 코드를 수정 합니다.
+- [편집기 및 언어 서비스 확장](../extensibility/editor-and-language-service-extensions.md): 새 프로그래밍 언어에 대 한 지원을 만들거나 사용자 고유의 사용자 지정 Visual Studio 언어에 대 한 제공 되는 IntelliSense를 추가 합니다. 새 문 완성, 제안 및 QuickInfo 도구 설명 표시를 새로 만들 수 있습니다. 전구를 사용 하 여 리팩터링 제안을 추가 하 고 새 프로그래밍 언어를 지원 하기 위해 코드를 수정 합니다.
 
--   [프로젝트 확장](../extensibility/extending-projects.md)
+- [프로젝트 확장](../extensibility/extending-projects.md)
 
--   [사용자 설정 및 옵션 확장](../extensibility/extending-user-settings-and-options.md)
+- [사용자 설정 및 옵션 확장](../extensibility/extending-user-settings-and-options.md)
 
--   [속성 및 속성 창 확장](../extensibility/extending-properties-and-the-property-window.md)
+- [속성 및 속성 창 확장](../extensibility/extending-properties-and-the-property-window.md)
 
--   [Visual Studio의 다른 부분 확장](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Visual Studio의 다른 부분 확장](../extensibility/extending-other-parts-of-visual-studio.md)
 
--   [Visual Studio Shell(격리)](../extensibility/visual-studio-isolated-shell.md)
+- [Visual Studio Shell(격리)](../extensibility/visual-studio-isolated-shell.md)
 
-##  <a name="BKMK_ProjectTemplate"></a> 프로젝트 템플릿은 무엇 VSSDK에서 제공 하는?
+## <a name="BKMK_ProjectTemplate"></a> 프로젝트 템플릿은 무엇 VSSDK에서 제공 하는?
  확장의 두 가지 주요 유형은 Vspackage 및 MEF 확장입니다. 일반적으로 VSPackage 확장을 사용 하거나 명령, 도구 창 및 프로젝트를 확장 하는 확장에 사용 됩니다. MEF 확장은 확장 하거나 Visual Studio 편집기 사용자 지정 하는 데 사용 됩니다.
 
  Visual C# 및 Visual Basic 확장용 VSSDK 메뉴 명령, 도구 창 및 편집기 확장을 만드는 새 항목 템플릿을 함께 사용할 수 있는 빈 VSIX 프로젝트 템플릿을 제공 합니다. 자세한 내용은 [What's New in Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md)합니다. 또한 다른 사용자에 게 배포에 대 한이 서식 파일을 패키지 프로젝트 템플릿, 코드 조각 및 기타 아티팩트를 사용할 수 있습니다.
 
- C + +에서 VSPackage 마법사 메뉴 명령, 도구 창 및 사용자 지정 편집기를 추가 하는 코드를 제공 합니다.
+ 에 대 한 C++를 VSPackage 마법사는 메뉴 명령, 도구 창 및 사용자 지정 편집기를 추가 하는 코드를 제공 합니다.
 
  격리 셸 템플릿 버전의 브랜딩 및 사용자 고유의으로 배포할 수 있는 Visual Studio shell에서 확장 패키지에 사용 됩니다. 다음 항목에서는 각 유형의 확장을 사용 하 여 시작 하는 방법을 보여 줍니다.
 
--   메뉴 명령: [메뉴 명령을 사용하여 확장 만들기](../extensibility/creating-an-extension-with-a-menu-command.md)
+- 메뉴 명령: [메뉴 명령을 사용하여 확장 만들기](../extensibility/creating-an-extension-with-a-menu-command.md)
 
--   도구 창: [도구 창으로 확장 만들기](../extensibility/creating-an-extension-with-a-tool-window.md)
+- 도구 창: [도구 창으로 확장 만들기](../extensibility/creating-an-extension-with-a-tool-window.md)
 
--   편집기 확장: [편집기 항목 템플릿을 사용하여 확장 만들기](../extensibility/creating-an-extension-with-an-editor-item-template.md)
+- 편집기 확장: [편집기 항목 템플릿을 사용하여 확장 만들기](../extensibility/creating-an-extension-with-an-editor-item-template.md)
 
--   기본 Vspackage의 경우: [로 확장 만들기](../extensibility/creating-an-extension-with-a-vspackage.md)
+- 기본 Vspackage의 경우: [로 확장 만들기](../extensibility/creating-an-extension-with-a-vspackage.md)
 
--   VSIX 프로젝트 템플릿: [VSIX 프로젝트 템플릿 시작](../extensibility/getting-started-with-the-vsix-project-template.md)
+- VSIX 프로젝트 템플릿: [VSIX 프로젝트 템플릿 시작](../extensibility/getting-started-with-the-vsix-project-template.md)
 
--   Visual Studio 격리 셸: [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
+- Visual Studio 격리 셸: [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
 
 ## <a name="how-do-i-get-my-extension-to-look-like-visual-studio"></a>Visual Studio 처럼 my 확장 가져오기
  확장에 대 한 UI를 디자인 하기 위한 유용한 팁을 얻을 [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md)합니다.

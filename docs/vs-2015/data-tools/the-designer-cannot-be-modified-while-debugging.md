@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: eb021b5222c0c89d15ca9be9c9c155152118df5f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: f79b57d01a091e3617e7470297aa6205aa4e20e0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658775"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041862"
 ---
 # <a name="the-designer-cannot-be-modified-while-debugging"></a>디버깅하는 동안에는 디자이너를 수정할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,7 +23,7 @@ ms.locfileid: "59658775"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   클릭 **디버깅 중지** 에 **디버그** 메뉴.  
+- 클릭 **디버깅 중지** 에 **디버그** 메뉴.  
   
      응용 프로그램의 디버깅이 중지되고 O/R 디자이너에서 항목을 수정할 수 있습니다.  
   

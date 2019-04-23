@@ -11,12 +11,12 @@ ms.assetid: 254a88e7-d3a7-447a-bd0c-8985e73d85cf
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 422a641455d6b706250ca34e3857c3e8d21920ca
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 4da225417724f1de39f25a1527bdf980f3d369cd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981842"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039201"
 ---
 # <a name="enumerating-locals"></a>로컬 항목 열거
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,19 +28,19 @@ ms.locfileid: "58981842"
   
  이 구현의 `IDebugProperty2::EnumChildren` 다음 작업을 수행 합니다.  
   
-1.  메서드를 나타내는이 확인 합니다.  
+1. 메서드를 나타내는이 확인 합니다.  
   
-2.  사용 하는 `guidFilter` 인수에 대해 호출할 메서드를 결정 합니다 [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) 개체. 경우 `guidFilter` 같음:  
+2. 사용 하는 `guidFilter` 인수에 대해 호출할 메서드를 결정 합니다 [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) 개체. 경우 `guidFilter` 같음:  
   
-    1.  `guidFilterLocals`를 호출 [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) 가져오려고는 [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) 개체입니다.  
+    1. `guidFilterLocals`를 호출 [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) 가져오려고는 [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) 개체입니다.  
   
-    2.  `guidFilterArgs`를 호출 [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md) 가져오려고는 `IEnumDebugFields` 개체입니다.  
+    2. `guidFilterArgs`를 호출 [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md) 가져오려고는 `IEnumDebugFields` 개체입니다.  
   
-    3.  `guidFilterLocalsPlusArgs`에서 결과를 결합 하는 열거형을 합성 `IDebugMethodField::EnumLocals` 및 `IDebugMethodField::EnumArguments`합니다. 이 합성 클래스로 표현 됩니다 `CEnumMethodField`합니다.  
+    3. `guidFilterLocalsPlusArgs`에서 결과를 결합 하는 열거형을 합성 `IDebugMethodField::EnumLocals` 및 `IDebugMethodField::EnumArguments`합니다. 이 합성 클래스로 표현 됩니다 `CEnumMethodField`합니다.  
   
-3.  클래스를 인스턴스화합니다 (호출 `CEnumPropertyInfo` 이 예제의) 구현 하는 `IEnumDebugPropertyInfo2` 인터페이스를 포함 합니다 `IEnumDebugFields` 개체입니다.  
+3. 클래스를 인스턴스화합니다 (호출 `CEnumPropertyInfo` 이 예제의) 구현 하는 `IEnumDebugPropertyInfo2` 인터페이스를 포함 합니다 `IEnumDebugFields` 개체입니다.  
   
-4.  반환 된 `IEnumDebugProperty2Info2` 에서 인터페이스를 `CEnumPropertyInfo` 개체입니다.  
+4. 반환 된 `IEnumDebugProperty2Info2` 에서 인터페이스를 `CEnumPropertyInfo` 개체입니다.  
   
 ## <a name="managed-code"></a>관리 코드  
  이 예제에서는 구현을 보여 줍니다. `IDebugProperty2::EnumChildren` 관리 코드에서.  

@@ -10,12 +10,12 @@ ms.assetid: 56b2fdff-146d-4138-a34c-59a9c65a3ddd
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9aa191d36c057e2d5cdcd1c551ac96f6804738b4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ba0ec3092943c0e0cb5593f020926c705cc0eb0a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985477"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60037962"
 ---
 # <a name="idebugfunctionobject2"></a>IDebugFunctionObject2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -37,11 +37,11 @@ IDebugFunctionObject2 : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
  이 인터페이스의 메서드 연기 **IDebugFunctionObject** 다음과 같은 방법으로:  
   
--   합니다 **IDebugEvaluate** 메서드는 플래그를 사용 합니다.  
+- 합니다 **IDebugEvaluate** 메서드는 플래그를 사용 합니다.  
   
--   합니다 **CreateObject** 메서드는 제한 시간 및 플래그를 사용 합니다.  
+- 합니다 **CreateObject** 메서드는 제한 시간 및 플래그를 사용 합니다.  
   
--   합니다 **CreateStringObjectWithLength** 메서드는 길이 사용 합니다.  
+- 합니다 **CreateStringObjectWithLength** 메서드는 길이 사용 합니다.  
   
 ## <a name="methods"></a>메서드  
  이 인터페이스는 다음 메서드를 구현 합니다.  

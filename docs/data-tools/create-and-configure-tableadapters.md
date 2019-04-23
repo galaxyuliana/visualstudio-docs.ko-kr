@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: d4243bcedea1699ba02b3c3715cab7f61ba62281
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 026b670deb5beff42c927894ee9851ddb3ccc3ad
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950021"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60042813"
 ---
 # <a name="create-and-configure-tableadapters"></a>TableAdapter 만들기 및 구성
 
@@ -80,16 +80,16 @@ TableAdapter에 수행한 모든 변경 내용을 주 `Fill` 메서드는 연결
 
 ### <a name="to-start-the-tableadapter-query-configuration-wizard-with-a-new-query"></a>새 쿼리를 사용 하 여 TableAdapter 쿼리 구성 마법사를 시작 하려면
 
-1.  **데이터 세트 디자이너**에서 데이터 세트를 엽니다.
+1. **데이터 세트 디자이너**에서 데이터 세트를 엽니다.
 
-2.  끌어 새 쿼리를 만드는 경우는 **쿼리** 에서 개체를 **데이터 집합** 탭을 **도구 상자** 에 <xref:System.Data.DataTable>를 선택 또는 **추가 쿼리**TableAdapter의 바로 가기 메뉴에서. 끌 수도 있습니다는 **쿼리** 개체의 빈 영역에는 **데이터 집합 디자이너**, 없이 연결 된 TableAdapter를 만듭니다 <xref:System.Data.DataTable>합니다. 이러한 쿼리를 실행된 하는 UPDATE, INSERT 또는 단일 (스칼라) 값을 반환 하거나 DELETE 명령을 데이터베이스에 대해만 수 있습니다.
+2. 끌어 새 쿼리를 만드는 경우는 **쿼리** 에서 개체를 **데이터 집합** 탭을 **도구 상자** 에 <xref:System.Data.DataTable>를 선택 또는 **추가 쿼리**TableAdapter의 바로 가기 메뉴에서. 끌 수도 있습니다는 **쿼리** 개체의 빈 영역에는 **데이터 집합 디자이너**, 없이 연결 된 TableAdapter를 만듭니다 <xref:System.Data.DataTable>합니다. 이러한 쿼리를 실행된 하는 UPDATE, INSERT 또는 단일 (스칼라) 값을 반환 하거나 DELETE 명령을 데이터베이스에 대해만 수 있습니다.
 
-3.  에 **데이터 연결 선택** 화면을 선택 하거나 쿼리를 사용 하는 연결을 만듭니다.
+3. 에 **데이터 연결 선택** 화면을 선택 하거나 쿼리를 사용 하는 연결을 만듭니다.
 
     > [!NOTE]
     > 이 화면 디자이너를 사용 하려면 적절 한 연결을 확인할 수 없는 경우 또는 연결이 없는 경우에 표시 됩니다.
 
-4.  에 **명령 유형을 선택** 화면에서의 데이터베이스에서 데이터를 가져오는 다음 방법 중에서 선택 합니다.
+4. 에 **명령 유형을 선택** 화면에서의 데이터베이스에서 데이터를 가져오는 다음 방법 중에서 선택 합니다.
 
     - **SQL 문을 사용 하 여** 데이터베이스에서 데이터를 선택 하는 SQL 문을 입력할 수 있습니다.
 
@@ -115,6 +115,6 @@ TableAdapter에 수행한 모든 변경 내용을 주 `Fill` 메서드는 연결
     > [!NOTE]
     > 끌어를 **쿼리** 직접 개체를 **데이터 집합 디자이너** 스칼라 (단일) 값만 반환 하는 메서드를 만듭니다. 쿼리 또는 저장된 프로시저를 선택 하면 보다 단일 값을 반환할 수 있습니다, 하는 동안 마법사에서 만들어지는 메서드만 단일 값을 반환 합니다. 예를 들어 쿼리는 반환된 된 데이터의 첫 번째 행의 첫 번째 열을 반환할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [TableAdapter를 사용하여 데이터 세트 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
+- [TableAdapter를 사용하여 데이터 집합 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)

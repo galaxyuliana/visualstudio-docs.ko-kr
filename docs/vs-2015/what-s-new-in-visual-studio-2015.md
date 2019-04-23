@@ -14,12 +14,12 @@ caps.latest.revision: 364
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 18e5effdd2398ce3532c73c1d9f9941554b2043b
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
-ms.translationtype: MTE95
+ms.openlocfilehash: bd06e1b6eb74a6a356c085bdade2733e29d54023
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58195166"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60041837"
 ---
 # <a name="what39s-new-in-visual-studio-2015"></a>Visual Studio 2015의 새로운 기능
 [!INCLUDE[vs2017banner](./includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "58195166"
 ### <a name="cross-platform-apps-and-libraries-for-native-c"></a>네이티브 C++용 플랫폼 간 앱 및 라이브러리
  C++는 대부분의 모바일 디바이스에서 기본적으로 사용할 수 있는 언어입니다. 이 언어를 사용하여 여러 모바일 플랫폼 대상에 대해 빌드할 수 있는 플랫폼 간 공유 코드 라이브러리를 작성할 수 있습니다. C++를 사용하여 전체 모바일 앱을 만들 수도 있습니다. Visual C++를 사용하여 플랫폼 간 코드를 편집, 빌드, 배포 및 디버그할 수 있습니다. Windows 앱용 템플릿 외에도 Android Native-Activity 앱, iOS 앱용 템플릿을 사용하여 프로젝트를 만들거나 Xamarin 하이브리드 앱이 포함된 여러 플랫폼에 대해 공유 코드 라이브러리를 사용하여 프로젝트를 만들 수도 있습니다. 플랫폼별 IntelliSense를 사용하면 API를 탐색하고 Android, iOS 또는 Windows 대상에 대한 올바른 코드를 생성할 수 있습니다. x86 또는 ARM 네이티브 플랫폼에 대한 빌드를 구성하거나, 네트워크에 연결된 Mac의 iOS 시뮬레이터 또는 iOS 디바이스에 코드를 배포하거나 직접 연결된 Android 디바이스에 코드를 배포하거나, 높은 성능의 Android용 Microsoft Visual Studio 에뮬레이터를 사용하여 테스트할 수 있습니다. Visual Studio 디버거에서 중단점을 설정하고 변수를 조사하고 스택을 보고 단계별로 C++ 코드를 실행할 수 있습니다. 플랫폼에 가장 특정한 코드를 제외한 모든 코드를 여러 앱 플랫폼 간에 공유하고, Visual Studio에서 하나의 솔루션을 사용하여 이 코드를 모두 빌드할 수 있습니다.
 
- 플랫폼 간 c + +에서 시작 하려면 참조 [Visual c + +를 사용 하 여 플랫폼 간 모바일 앱 빌드](./misc/build-cross-platform-mobile-apps-with-visual-cpp.md)
+ 플랫폼 간를 시작 하려면 C++를 참조 하세요 [시각적 개체를 사용 하 여 플랫폼 간 모바일 앱 빌드C++](./misc/build-cross-platform-mobile-apps-with-visual-cpp.md)
 
 ### <a name="universal-windows-apps-for-any-windows-10-device"></a>Windows 10 디바이스용 유니버설 Windows 앱
  유니버설 Windows 플랫폼과 단일 Windows 코어를 사용하여 휴대폰에서 데스크톱에 이르는 모든 Windows 10 디바이스에서 동일한 앱을 실행할 수 있습니다. Visual Studio 2015 및 유니버설 Windows 앱 개발 도구를 사용하여 이러한 유니버설 Windows 앱을 만듭니다.
@@ -92,7 +92,7 @@ ms.locfileid: "58195166"
 #### <a name="c"></a>C++
  Visual C++에서는 C++11/14 언어 규칙이 대폭 개선된 것은 물론, 플랫폼 간 모바일 디바이스 개발과 다시 시작 가능한 함수 및 await(현재 C++17에서 표준화하기로 계획)가 지원되며, CRT(C 런타임 라이브러리) 및 C++ STL(표준 템플릿 라이브러리) 구현의 개선 사항 및 버그 수정, MFC의 크기 조정 가능한 대화 상자를 비롯해 새로운 컴파일러 최적화 기능, 향상된 빌드 성능, 새로운 진단 기능, 코드 편집기의 새로운 생산성 도구를 제공합니다.
 
- 자세한 내용은 [What's New for Visual c + +](http://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7) 하며 [Visual c + + 블로그](http://blogs.msdn.com/b/vcblog/)합니다.
+ 자세한 내용은 참조 하세요. [시각적 개체에 대 한 새로운 기능 C++ ](http://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7) 하며 [Visual C++ 블로그](http://blogs.msdn.com/b/vcblog/).
 
 ## <a name="device-preview-menu-bar"></a>디바이스 미리 보기 메뉴 모음
  유니버설 Windows 플랫폼 프로젝트에서 디바이스 미리 보기 메뉴 모음을 사용하면 XAML기반 UI가 다양한 화면 크기에서 렌더링되는 방식을 볼 수 있습니다.
@@ -123,15 +123,15 @@ ms.locfileid: "58195166"
 ## <a name="cross-platform-debugging-support"></a>플랫폼 간 디버깅 지원
  Visual Studio를 사용하여 Windows, iOS 및 Android 디바이스에서 실행되는 네이티브 모바일 앱을 만들고 디버그할 수 있습니다. [Android용 Visual Studio 에뮬레이터](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx)(영문)를 사용하거나 디바이스를 연결하고 Visual Studio에서 직접 코드를 디버그합니다.
 
--   **JavaScript / Cordova**. [Visual Studio Tools for Apache Cordova](http://msdn.microsoft.com/library/dn879821\(v=vs.140\).aspx) 를 사용하여 JavaScript로 Windows, iOS 및 Android용 네이티브 앱을 빌드합니다.
+- **JavaScript / Cordova**. [Visual Studio Tools for Apache Cordova](http://msdn.microsoft.com/library/dn879821\(v=vs.140\).aspx) 를 사용하여 JavaScript로 Windows, iOS 및 Android용 네이티브 앱을 빌드합니다.
 
      [앱 디버그](http://msdn.microsoft.com/library/c2a4a1d4-a4e8-47ec-811f-ad207c54f4d1) MSDN 라이브러리의 Visual Studio 디버깅 Cordova에 대 한 지원에 자세히 설명 합니다.
 
--   **C# / Xamarin**. [Xamarin](http://msdn.microsoft.com/library/dn879698\(v=vs.140\).aspx) 을 사용하여 Visual Studio에서 C#으로 Windows, iOS 및 Android용 네이티브 앱을 빌드합니다.
+- **C# / Xamarin**. [Xamarin](http://msdn.microsoft.com/library/dn879698\(v=vs.140\).aspx) 을 사용하여 Visual Studio에서 C#으로 Windows, iOS 및 Android용 네이티브 앱을 빌드합니다.
 
      [Xamarin 개발자 가이드](http://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/) 의 [디버깅](http://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debugging_with_xamarin_android/) (iOS) 및 [디바이스에서 디버그](http://developer.xamarin.com/guides) 에서는 디버깅 환경에 대해 설명합니다.
 
--   **C++ / Android**. [플랫폼 간 모바일 개발용 Visual C++](cross-platform/visual-cpp-for-cross-platform-mobile-development.md) 템플릿을 [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html) (영문)와 같은 타사 도구와 함께 사용하여 Windows 및 Android용 네이티브 앱을 만듭니다.
+- **C++ / Android**. [플랫폼 간 모바일 개발용 Visual C++](cross-platform/visual-cpp-for-cross-platform-mobile-development.md) 템플릿을 [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html) (영문)와 같은 타사 도구와 함께 사용하여 Windows 및 Android용 네이티브 앱을 만듭니다.
 
 ## <a name="debugging-and-diagnostics"></a>디버깅 및 진단
 
@@ -140,7 +140,7 @@ ms.locfileid: "58195166"
 다음은 코드에 대해 다양한 형식의 진단과 분석을 수행하는 새로운 도구 및 향상된 도구입니다.
 
 ### <a name="perftips"></a>PerfTips
- 성능 팁은 디버깅 동안 메서드의 실행 시간을 표시하여, 프로파일러를 호출할 필요 없이 신속하게 병목 현상을 찾아낼 수 있습니다. 시작하려면 [성능 팁: Visual Studio를 사용하여 디버그하는 동안 성능 정보 요약](http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio.aspx)을 참조하세요.
+ 성능 팁은 디버깅 동안 메서드의 실행 시간을 표시하여, 프로파일러를 호출할 필요 없이 신속하게 병목 현상을 찾아낼 수 있습니다. 시작 하려면 참조 [PerfTips: Visual Studio에서 디버깅 중에 성능 정보 한눈에 확인](http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio.aspx)
 
 ### <a name="error-list"></a>오류 목록
  이제 오류 목록이 모든 열에서 필터링을 지원합니다. 또한 코드 변경으로 수천 개의 경고가 생성되는 경우에도 입력하는 내용에 따라 전체 C# 또는 Visual Basic 솔루션의 오류, 경고 및 코드 분석의 실시간 보기를 보여 줍니다. 새로운 오류 목록은 기존 사용법과 호환됩니다. 자세한 내용은 [Error List Window](./ide/reference/error-list-window.md)을 참조하세요.
@@ -179,7 +179,7 @@ ms.locfileid: "58195166"
 ### <a name="notification-hub"></a>알림 허브
  알림 허브에 대한 UI가 쉽고 빠르게 검색할 수 있도록 간소화되었습니다. 성능 문제, 렌더링 문제 및 크래시를 포함하는 기타 종류의 알림이 추가되었으며, 이제 알림 표시를 중지하도록 Visual Studio에 지시할 수 있습니다. 자세한 내용은 [Visual Studio 알림](./ide/visual-studio-notifications.md)을 참조하세요.
 
-### <a name="codelens-find-what-happened-to-your-code-enterprise-and-professional-editions-only"></a>CodeLens: 코드 변경 사항 찾기(Enterprise 및 Professional Edition에만 해당)
+### <a name="codelens-find-what-happened-to-your-code-enterprise-and-professional-editions-only"></a>CodeLens: (Enterprise 및 Professional edition만 해당) 코드 변경 사항 찾기
  코드에 대한 정보를 찾는 동안 편집기에서 나가지 않고 계속 작업에 집중할 수 있습니다. VSTS(Visual Studio Team Services) 또는 TFS(Team Foundation Server)에 저장된 코드에 대한 작업 항목, 버그, 코드 검토 등의 변경 내용과 기타 기록을 검토할 수 있습니다.
 
  Visual Studio Enterprise 및 Visual Studio Professional에서 이제 다음 작업을 수행할 수 있습니다.
@@ -190,7 +190,7 @@ ms.locfileid: "58195166"
 
 - 코드를 변경한 사용자를 보여 주는 그래프를 확인합니다. 이는 팀의 변경 내용에서 패턴을 찾고 해당 영향을 평가하는 데 도움이 될 수 있습니다.
 
-   ![CodeLens: 코드 변경 내용 기록을 그래프로 보기](./ide/media/codelens.png "CodeLens")
+   ![CodeLens: 코드 변경 내용 기록을 그래프로 참조](./ide/media/codelens.png "CodeLens")
 
 - 코드가 마지막으로 변경된 시기를 쉽게 확인합니다.
 

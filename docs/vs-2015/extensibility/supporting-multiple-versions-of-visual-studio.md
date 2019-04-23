@@ -12,12 +12,12 @@ ms.assetid: 0047aa90-1ed4-40d3-8772-622b2719a4b1
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 1a4ad8b128ea614ba60a19c3526d20af80aab937
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 377a7eceff134211371c17ac14903cba0fb8daa6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983977"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60042142"
 ---
 # <a name="supporting-multiple-versions-of-visual-studio"></a>여러 버전의 Visual Studio 지원
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,15 +26,15 @@ ms.locfileid: "58983977"
 
  Side-by-side-버전의 Visual Studio에 로드 되어야 할 VSPackage를 수행 하기 전에 다음 사항을 고려 합니다.
 
--   수행 하려는 side-by-side-구현 전략을 결정 해야 합니다.
+- 수행 하려는 side-by-side-구현 전략을 결정 해야 합니다.
 
      자세한 내용은 [공유 간의 선택 및 버전 관리 Vspackage](../extensibility/choosing-between-shared-and-versioned-vspackages.md)합니다.
 
--   솔루션 및 프로젝트 파일 형식을 구현 전략에 맞아야 합니다.
+- 솔루션 및 프로젝트 파일 형식을 구현 전략에 맞아야 합니다.
 
      자세한 내용은 [사용자 지정 프로젝트 업그레이드](../misc/upgrading-custom-projects.md) 하 고 [Side-by-side-배포에 대 한 파일 이름 확장명 등록](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)합니다.
 
--   설치 관리자 버전 구성 요소 및 모든 버전에서 공유 하는 구성 요소가 올바르게 설치 하 고 등록 구현 전략을 처리 해야 합니다.
+- 설치 관리자 버전 구성 요소 및 모든 버전에서 공유 하는 구성 요소가 올바르게 설치 하 고 등록 구현 전략을 처리 해야 합니다.
 
      자세한 내용은 [Windows Installer를 사용 하 여 Vspackage 설치](../extensibility/internals/installing-vspackages-with-windows-installer.md) 권한과 [구성 요소 관리](../extensibility/internals/component-management.md)합니다.
 

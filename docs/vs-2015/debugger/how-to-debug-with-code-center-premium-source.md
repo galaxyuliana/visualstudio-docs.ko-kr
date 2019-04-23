@@ -17,12 +17,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e0290fa7c83b36c19663aef85c0179fb9458ddcf
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 88644f3bf768f1b3467467a31edbd83e8e5f151c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002976"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60039879"
 ---
 # <a name="how-to-debug-with-code-center-premium-source"></a>방법: Code Center Premium 소스로 사용 하 여 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,21 +78,21 @@ ms.locfileid: "59002976"
   
 ### <a name="to-debug-your-source-code-using-attach-to-process"></a>프로세스에 연결 기능을 사용하여 소스 코드를 디버깅하려면  
   
-1.  스마트 카드 판독기를 연결하고 Shared Source Initiative에서 받은 카드를 삽입합니다.  
+1. 스마트 카드 판독기를 연결하고 Shared Source Initiative에서 받은 카드를 삽입합니다.  
   
-2.  Visual Studio를 실행합니다.  
+2. Visual Studio를 실행합니다.  
   
-3.  Visual Studio 프로젝트를 엽니다.  
+3. Visual Studio 프로젝트를 엽니다.  
   
-4.  에 **도구** 메뉴에서 클릭 **프로세스에 연결**합니다.  
+4. 에 **도구** 메뉴에서 클릭 **프로세스에 연결**합니다.  
   
-5.  에 **프로세스에 연결** 대화 상자, 클릭 **선택**합니다.  
+5. 에 **프로세스에 연결** 대화 상자, 클릭 **선택**합니다.  
   
-6.  에 **코드 형식 선택** 대화 상자의 **다음 코드 형식 검색**를 선택 **네이티브**를 **관리 되는**, 및 **(관리 v4.0)** 합니다.  
+6. 에 **코드 형식 선택** 대화 상자의 **다음 코드 형식 검색**를 선택 **네이티브**를 **관리 되는**, 및 **(관리 v4.0)** 합니다.  
   
-7.  클릭 **확인** 해제 하는 **코드 형식 선택** 대화 상자.  
+7. 클릭 **확인** 해제 하는 **코드 형식 선택** 대화 상자.  
   
-8.  에 **사용 가능한 프로세스** 상자, 디버깅 하려는 프로세스를 선택 합니다.  
+8. 에 **사용 가능한 프로세스** 상자, 디버깅 하려는 프로세스를 선택 합니다.  
   
 9. **연결**을 클릭합니다.  
   
@@ -117,27 +117,27 @@ ms.locfileid: "59002976"
   
 4. 솔루션의 관리되는 프로젝트 각각에 대해 다음을 수행합니다.  
   
-   1.  솔루션 탐색기에서 프로젝트에 대 한 바로 가기 메뉴를 열고 선택한 후 **속성**합니다.  
+   1. 솔루션 탐색기에서 프로젝트에 대 한 바로 가기 메뉴를 열고 선택한 후 **속성**합니다.  
   
-   2.  선택 **디버깅할** 를 선택한 후 **비관리 코드 디버깅 사용**합니다.  
+   2. 선택 **디버깅할** 를 선택한 후 **비관리 코드 디버깅 사용**합니다.  
   
 ### <a name="to-debug-your-solution-with-code-center-premium-source"></a>Code Center Premium 소스로 솔루션을 디버깅하려면  
   
-1.  `Package` 클래스에서 패키지 생성자에 중단점을 설정합니다.  
+1. `Package` 클래스에서 패키지 생성자에 중단점을 설정합니다.  
   
-2.  에 `Debug` 메뉴에서 클릭 **디버깅 시작**합니다.  
+2. 에 `Debug` 메뉴에서 클릭 **디버깅 시작**합니다.  
   
-3.  패키지 생성자의 중단점에 도달 하면로 이동 합니다 **호출 스택** 창을 마우스 오른쪽 단추로 클릭 한 다음에서 기호 로드 하려는 어셈블리의 스택 프레임을 클릭 **기호 로드**합니다.  
+3. 패키지 생성자의 중단점에 도달 하면로 이동 합니다 **호출 스택** 창을 마우스 오른쪽 단추로 클릭 한 다음에서 기호 로드 하려는 어셈블리의 스택 프레임을 클릭 **기호 로드**합니다.  
   
      소스를 로드할 호출 프레임을 두 번 클릭합니다.  
   
 ### <a name="to-browse-source-code-on-code-center-premium"></a>Code Center Premium에서 소스 코드를 찾아보려면  
   
-1.  스마트 카드 판독기를 연결하고 Shared Source Initiative에서 받은 카드를 삽입합니다.  
+1. 스마트 카드 판독기를 연결하고 Shared Source Initiative에서 받은 카드를 삽입합니다.  
   
-2.  Internet Explorer를 시작하고 URL `https://codepremium.msdn.microsoft.com`을 입력합니다.  
+2. Internet Explorer를 시작하고 URL `https://codepremium.msdn.microsoft.com`을 입력합니다.  
   
-3.  원하는 소스를 찾습니다.  
+3. 원하는 소스를 찾습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)   
