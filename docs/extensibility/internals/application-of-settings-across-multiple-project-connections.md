@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f7d0a13a72613ba72be5a90aa65be991d6ca10b3
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 6dbc2638fa23a1e0c7bf1301c3c978a1ef864c75
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59657040"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074101"
 ---
 # <a name="application-of-settings-across-multiple-project-connections"></a>여러 프로젝트 연결 간 설정 적용
 소스 제어 플러그 인을 여러 프로젝트 또는 여러 연결 컨텍스트 간에 동일한 소스 제어 작업을 실행 하 일괄 처리 작업을 사용할 수는 원본 제어 플러그 인 API 버전 1.2를 사용 하 여 작성. 중복 제거, 프로젝트별 사용자 환경에서 대화 상자에 일괄 처리를 사용할 수 있습니다.
@@ -28,9 +28,9 @@ ms.locfileid: "59657040"
 ## <a name="new-functions"></a>새 함수
 새 함수를 다음 일괄 처리 작업을 지원합니다.
 
--   [SccBeginBatch](../../extensibility/sccbeginbatch-function.md)
+- [SccBeginBatch](../../extensibility/sccbeginbatch-function.md)
 
--   [SccEndBatch](../../extensibility/sccendbatch-function.md)
+- [SccEndBatch](../../extensibility/sccendbatch-function.md)
 
 `SCCBeginBatch` 함수 그룹의 원본 제어 작업을 시작 합니다. `SccEndBatch` 함수 그룹을 닫습니다. 그룹을 중첩할 수 있습니다.
 

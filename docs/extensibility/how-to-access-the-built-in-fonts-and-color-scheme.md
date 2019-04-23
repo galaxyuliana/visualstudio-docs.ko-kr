@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 831123caead6593fdbb548fd6e69a63646790d8a
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 58d5fd0bfe1c8d5f5896d365a7b0ecfdb8da25b3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54969092"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068225"
 ---
 # <a name="how-to-access-the-built-in-fonts-and-color-ccheme"></a>방법: 기본 제공 글꼴을 액세스 및 ccheme 색
 Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연결 된 글꼴 및 색 구성표를 있습니다. 이 체계를 통해 액세스할 수 있습니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 인터페이스입니다.
@@ -34,26 +34,26 @@ Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연�
 
 ## <a name="to-define-a-category-using-built-in-fonts-and-colors"></a>기본 제공 글꼴 및 색을 사용 하 여 범주를 정의 하려면
 
-1.  임의의 GUID를 만듭니다.
+1. 임의의 GUID를 만듭니다.
 
      이 GUID는 범주를 고유 하 게 식별 하는 데 사용 됩니다. 이 범주는 IDE의 기본 글꼴 및 색 지정을 재사용합니다.
 
     > [!NOTE]
     >  사용 하 여 글꼴 및 색 데이터를 검색 하는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 다른 인터페이스를 Vspackage를 사용 하 여이 GUID 기본 제공 정보를 참조 합니다.
 
-2.  범주 이름 VSPackage의 리소스 내에서 문자열 테이블에 추가 해야 합니다 (*.rc*) 파일을 IDE에서 표시 하는 경우 필요에 따라 지역화 될 수 있도록 합니다.
+2. 범주 이름 VSPackage의 리소스 내에서 문자열 테이블에 추가 해야 합니다 (*.rc*) 파일을 IDE에서 표시 하는 경우 필요에 따라 지역화 될 수 있도록 합니다.
 
      자세한 내용은 [추가 또는 삭제 하는 문자열](/cpp/windows/adding-or-deleting-a-string)합니다.
 
 ### <a name="to-register-a-category-using-built-in-fonts-and-colors"></a>기본 제공 글꼴 및 색을 사용 하 여 범주를 등록 하려면
 
-1.  특수 한 유형의 다음 위치에 레지스트리 항목 범주를 생성 합니다.
+1. 특수 한 유형의 다음 위치에 레지스트리 항목 범주를 생성 합니다.
 
      *[HKLM\SOFTWARE\Microsoft \Visual Studio\\\<Visual Studio version>\FontAndColors\\\<Category>*]
 
      *\<범주 >* 범주의 지역화 되지 않은 이름입니다.
 
-2.  4 개의 값이 포함 된 스톡 글꼴 및 색 구성표를 사용 하도록 레지스트리를를 채웁니다.
+2. 4 개의 값이 포함 된 스톡 글꼴 및 색 구성표를 사용 하도록 레지스트리를를 채웁니다.
 
     |이름|형식|데이터|설명|
     |----------|----------|----------|-----------------|

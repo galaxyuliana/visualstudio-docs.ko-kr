@@ -10,15 +10,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a99a221199d2e02b66fd717cdd722091bd724eea
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 786c71f568bc44eeecdd44dfd91462ad00dda445
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56687603"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071189"
 ---
-# <a name="how-to-expand-and-collapse-spy-trees"></a>방법: Spy++ 트리 확장명 및 축소
-확장 및 두 개의 메서드를 사용 하 여 Windows, 프로세스 및 스레드 뷰를 축소할 수 있습니다: 창에서 또는 사용 하 여 아이콘을 클릭 하 여 합니다 **트리** 메뉴. + 및-트리에서 아이콘은 Visual c + + 프로젝트 창 에서도 작동 합니다.
+# <a name="how-to-expand-and-collapse-spy-trees"></a>방법: Spy++ 트리 확장 및 축소
+확장 및 두 개의 메서드를 사용 하 여 Windows, 프로세스 및 스레드 뷰를 축소할 수 있습니다: 창에서 또는 사용 하 여 아이콘을 클릭 하 여 합니다 **트리** 메뉴. + 및-시각적 개체에서 프록시로 트리에서 아이콘 C++ 프로젝트 창입니다.
 
  합니다 **트리** 메뉴에 4 개의 명령이 포함 되어 있습니다.
 
@@ -34,9 +34,9 @@ ms.locfileid: "56687603"
 
 ### <a name="to-expand-or-collapse-spy-trees"></a>또는 Spy + + 트리를 축소 하려면
 
-1.  Windows, 프로세스 또는 스레드 보기에서 항목 중 하나를 선택 합니다.
+1. Windows, 프로세스 또는 스레드 보기에서 항목 중 하나를 선택 합니다.
 
-2.  **트리** 메뉴 확장 중 하나를 선택 하거나 축소 명령입니다.
+2. **트리** 메뉴 확장 중 하나를 선택 하거나 축소 명령입니다.
 
 ## <a name="see-also"></a>참고 항목
 - [Spy++ 사용](../debugger/using-spy-increment.md)

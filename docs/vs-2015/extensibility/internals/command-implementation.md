@@ -10,12 +10,12 @@ ms.assetid: c782175c-cce4-4bd0-8374-4a897ceb1b3d
 caps.latest.revision: 25
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8cd48e7338823c94ad9a16f1b087daac6abe8f6e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a208fabd3d205793763698cde0f6fe367c7bb8b5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981326"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067835"
 ---
 # <a name="command-implementation"></a>명령 구현
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -69,23 +69,23 @@ if ( null != mcs )
   
 - GUID와 명령에서 인식 하는 두 메서드를 구현할 경우 메서드는 모든 명령의 명령 플래그 필드를 설정 해야 (에 `prgCmds` 매개 변수)는 다음 플래그를 사용 하 여:  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 경우 명령이 지원 됩니다.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 경우 명령이 지원 됩니다.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 경우 명령을 볼 수 없습니다.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 경우 명령을 볼 수 없습니다.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 명령에 설정/해제 하 고 확인 한 후에 표시.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 명령에 설정/해제 하 고 확인 한 후에 표시.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 이 명령은 사용 되 면  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 이 명령은 사용 되 면  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 바로 가기 메뉴에 표시 되는 경우 명령을 숨겨야 하는 경우.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 바로 가기 메뉴에 표시 되는 경우 명령을 숨겨야 하는 경우.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 명령 메뉴 컨트롤러가 고을 사용 하지 않는 되지만 해당 드롭다운 메뉴 목록을 비어 있지 않고 계속 사용할 수 있습니다. (이 플래그는 거의 사용 합니다.)  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 명령 메뉴 컨트롤러가 고을 사용 하지 않는 되지만 해당 드롭다운 메뉴 목록을 비어 있지 않고 계속 사용할 수 있습니다. (이 플래그는 거의 사용 합니다.)  
   
 - 명령을 사용 하 여.vsct 파일에 정의 된 경우는 `TextChanges` 플래그, 다음 매개 변수를 설정 합니다.  
   
-  -   설정 합니다 `rgwz` 의 요소는 `pCmdText` 명령의 새 텍스트로 매개 변수입니다.  
+  - 설정 합니다 `rgwz` 의 요소는 `pCmdText` 명령의 새 텍스트로 매개 변수입니다.  
   
-  -   설정 합니다 `cwActual` 의 요소를 `pCmdText` 매개 변수를 명령 문자열의 크기입니다.  
+  - 설정 합니다 `cwActual` 의 요소를 `pCmdText` 매개 변수를 명령 문자열의 크기입니다.  
   
   또한 해야 현재 컨텍스트에 automation 함수 명령을 자동화 기능을 처리 하기 위한 것 하지 않는 한 합니다.  
   

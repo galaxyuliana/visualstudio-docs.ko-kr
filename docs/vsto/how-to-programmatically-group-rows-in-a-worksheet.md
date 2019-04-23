@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f2ff75594cd3c1eb560f9cded5dad2a764198fb5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c2498029b5570a1576f62bcf042a7b87f856f3de
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598239"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076656"
 ---
 # <a name="how-to-programmatically-group-rows-in-a-worksheet"></a>방법: 프로그래밍 방식으로 워크시트에서 행을 그룹화
   하나 이상의 전체 행을 그룹화 할 수 있습니다. 워크시트에 그룹을 만들려면 사용을 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 또는 네이티브 Excel 범위 개체입니다.
@@ -37,7 +37,7 @@ ms.locfileid: "56598239"
 
 ### <a name="to-create-a-group-of-namedrange-controls-on-a-worksheet"></a>워크시트에 NamedRange 컨트롤의 그룹을 만들려면
 
-1.  세 개의 명명 된 범위를 호출 하 여 그룹을 <xref:Microsoft.Office.Tools.Excel.NamedRange.Group%2A> 각 범위의 메서드. 이 코드는 `ThisWorkbook` 클래스가 아니라 시트 클래스에 배치해야 합니다.
+1. 세 개의 명명 된 범위를 호출 하 여 그룹을 <xref:Microsoft.Office.Tools.Excel.NamedRange.Group%2A> 각 범위의 메서드. 이 코드는 `ThisWorkbook` 클래스가 아니라 시트 클래스에 배치해야 합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#32](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#32)]
      [!code-vb[Trin_VstcoreExcelAutomation#32](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#32)]
@@ -50,7 +50,7 @@ ms.locfileid: "56598239"
 
 ### <a name="to-create-a-group-of-excel-ranges-in-a-worksheet"></a>워크시트에서 Excel 범위 그룹을 만들려면
 
-1.  세 개의 명명 된 범위를 호출 하 여 그룹을 <xref:Microsoft.Office.Interop.Excel.Range.Group%2A> 각 범위의 메서드. 다음 예제에서는 세 가지는 것으로 가정 <xref:Microsoft.Office.Interop.Excel.Range> 라는 컨트롤 `data2001`, `data2002`, 및 `dataAll` 동일한 워크시트에 합니다. 각 명명 된 범위는 워크시트의 전체 행을 가리킵니다.
+1. 세 개의 명명 된 범위를 호출 하 여 그룹을 <xref:Microsoft.Office.Interop.Excel.Range.Group%2A> 각 범위의 메서드. 다음 예제에서는 세 가지는 것으로 가정 <xref:Microsoft.Office.Interop.Excel.Range> 라는 컨트롤 `data2001`, `data2002`, 및 `dataAll` 동일한 워크시트에 합니다. 각 명명 된 범위는 워크시트의 전체 행을 가리킵니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#33](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#33)]
      [!code-vb[Trin_VstcoreExcelAutomation#33](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#33)]

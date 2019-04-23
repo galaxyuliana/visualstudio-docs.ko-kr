@@ -11,12 +11,12 @@ ms.assetid: 6e1ae9ec-e9b1-458a-bd96-0eb15e46f1d5
 caps.latest.revision: 24
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 459e7e00f1fc9602b4e003ec16394d9cdf06410a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 5a6a3247ed53b6a84feb203ce0e9b480e7f9ce5d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54775088"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073893"
 ---
 # <a name="testing-a-large-application-with-multiple-ui-maps"></a>여러 UI 맵이 포함된 대형 애플리케이션 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,9 +42,9 @@ ms.locfileid: "54775088"
 ## <a name="do-you-need-multiple-ui-maps"></a>여러 UI 맵이 필요하나요?  
  각각 다음과 같은 유형의 상황에서 UI 맵을 여러 개 만드세요.  
   
--   여러 복합 UI 컨트롤의 복잡한 집합이 함께 논리 연산을 수행(예: 웹 사이트의 등록 페이지 또는 쇼핑 카트의 구매 페이지)  
+- 여러 복합 UI 컨트롤의 복잡한 집합이 함께 논리 연산을 수행(예: 웹 사이트의 등록 페이지 또는 쇼핑 카트의 구매 페이지)  
   
--   독립 컨트롤 집합을 애플리케이션의 다양한 지점에서 액세스(예: 여러 작업 페이지가 있는 마법사). 마법사의 각 페이지가 특히 더 복잡한 경우 각 페이지에 대한 개별 UI 맵을 만들 수 있습니다.  
+- 독립 컨트롤 집합을 애플리케이션의 다양한 지점에서 액세스(예: 여러 작업 페이지가 있는 마법사). 마법사의 각 페이지가 특히 더 복잡한 경우 각 페이지에 대한 개별 UI 맵을 만들 수 있습니다.  
   
 ## <a name="adding-multiple-ui-maps"></a>여러 UI 맵 추가  
   

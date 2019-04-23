@@ -1,5 +1,5 @@
 ---
-title: '방법: 성능 데이터 파일 비교 | Microsoft 문서'
+title: '방법: 성능 데이터 파일 비교 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -14,12 +14,12 @@ caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ee0da10a6ac8786666aaf9dc041f6f198cff2d10
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 185494623e019ef666374bd46e52bca0d58738f4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54799566"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077670"
 ---
 # <a name="how-to-compare-performance-data-files"></a>방법: 성능 데이터 파일 비교
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,28 +34,28 @@ ms.locfileid: "54799566"
   
 ### <a name="to-create-comparison-file-view-for-a-project-in-performance-explorer"></a>[성능 탐색기]에서 프로젝트에 대한 비교 파일 뷰를 만들려면  
   
-1.  **성능 탐색기**의 **보고서** 아래에서 비교를 위한 기준선 값으로 사용할 .vsp 또는 .vsps 보고서 파일을 선택합니다.  
+1. **성능 탐색기**의 **보고서** 아래에서 비교를 위한 기준선 값으로 사용할 .vsp 또는 .vsps 보고서 파일을 선택합니다.  
   
-2.  비교할 .vsp 또는 .vsps 보고서 파일을 선택합니다.  
+2. 비교할 .vsp 또는 .vsps 보고서 파일을 선택합니다.  
   
-3.  선택한 파일을 마우스 오른쪽 단추로 클릭하고 **보고서 비교**를 클릭합니다.  
+3. 선택한 파일을 마우스 오른쪽 단추로 클릭하고 **보고서 비교**를 클릭합니다.  
   
 ### <a name="to-compare-values"></a>값을 비교하려면  
   
-1.  [보고서 뷰] 창에서 **비교 보고서** 탭을 선택합니다.  
+1. [보고서 뷰] 창에서 **비교 보고서** 탭을 선택합니다.  
   
-2.  **테이블** 드롭다운 목록에서 비교할 함수 또는 모듈을 선택합니다.  
+2. **테이블** 드롭다운 목록에서 비교할 함수 또는 모듈을 선택합니다.  
   
-3.  **열** 드롭다운 목록에서 비교할 값을 선택합니다.  
+3. **열** 드롭다운 목록에서 비교할 값을 선택합니다.  
   
-4.  (선택 사항) **Threshold**에 대한 값을 입력합니다.  
+4. (선택 사항) **Threshold**에 대한 값을 입력합니다.  
   
-5.  **적용**을 클릭합니다.  
+5. **적용**을 클릭합니다.  
   
 ### <a name="to-compare-report-files"></a>보고서 파일을 비교하려면  
   
-1.  **분석** 메뉴에서 **성능 보고서 비교**를 선택합니다.  
+1. **분석** 메뉴에서 **성능 보고서 비교**를 선택합니다.  
   
-2.  In the **비교할 분석 파일을 선택합니다.** 창에서 **기본 파일** 분석 파일(.vsp 또는 .vsps) 및 **비교 파일**(.vsp 또는 .vsps)을 선택합니다.  
+2. In the **비교할 분석 파일을 선택합니다.** 창에서 **기본 파일** 분석 파일(.vsp 또는 .vsps) 및 **비교 파일**(.vsp 또는 .vsps)을 선택합니다.  
   
-3.  **확인**을 클릭합니다.
+3. **확인**을 클릭합니다.

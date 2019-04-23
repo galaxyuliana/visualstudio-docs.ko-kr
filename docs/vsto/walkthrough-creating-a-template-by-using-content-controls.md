@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 26632961474f54a545ff0fa900fff6c50a9ec3da
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 565d735e2d822d6cc7b353ffdf106b30201c22d4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605941"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074377"
 ---
 # <a name="walkthrough-create-a-template-by-using-content-controls"></a>연습: 콘텐츠 컨트롤을 사용 하 여 템플릿 만들기
   이 연습에서는 콘텐츠 컨트롤을 사용하여 Microsoft Office Word 서식 파일에서 구조화되고 재사용 가능한 콘텐츠를 만드는 문서 수준 사용자 지정을 만드는 방법을 보여 줍니다.
@@ -47,16 +47,16 @@ ms.locfileid: "56605941"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Word
+- Microsoft Word
 
 ## <a name="create-a-new-word-template-project"></a>새 Word 서식 파일 프로젝트 만들기
  사용자가 고유한 복사본을 쉽게 만들 수 있도록 Word 서식 파일을 만듭니다.
 
 ### <a name="to-create-a-new-word-template-project"></a>새 Word 서식 파일 프로젝트를 만들려면
 
-1.  이름을 사용 하 여 Word 서식 파일 프로젝트를 만듭니다 **MyBuildingBlockTemplate**합니다. 마법사에서 솔루션에 새 문서를 만듭니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
+1. 이름을 사용 하 여 Word 서식 파일 프로젝트를 만듭니다 **MyBuildingBlockTemplate**합니다. 마법사에서 솔루션에 새 문서를 만듭니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 디자이너에서 새 Word 서식 파일을 열고 사이트를 추가 합니다 **MyBuildingBlockTemplate** 프로젝트가 **솔루션 탐색기**합니다.
 
@@ -137,14 +137,14 @@ ms.locfileid: "56605941"
 
 ### <a name="to-modify-the-ui-of-the-content-controls-programmatically"></a>프로그래밍 방식으로 콘텐츠 컨트롤의 UI를 수정하려면
 
-1.  **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 **ThisDocument.cs** 또는 **ThisDocument.vb**를 클릭 하 고 **코드 보기**합니다.
+1. **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 **ThisDocument.cs** 또는 **ThisDocument.vb**를 클릭 하 고 **코드 보기**합니다.
 
-2.  `ThisDocument` 클래스에 다음 코드를 추가합니다. 이 코드는 이 연습의 뒷부분에서 사용할 여러 개체를 선언합니다.
+2. `ThisDocument` 클래스에 다음 코드를 추가합니다. 이 코드는 이 연습의 뒷부분에서 사용할 여러 개체를 선언합니다.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#1](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#1)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#1](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#1)]
 
-3.  `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 표의 <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> 및 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>에 항목을 추가하고 사용자가 편집하기 전에 이러한 각 컨트롤에 표시되는 자리 표시자 텍스트를 설정합니다.
+3. `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 표의 <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> 및 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>에 항목을 추가하고 사용자가 편집하기 전에 이러한 각 컨트롤에 표시되는 자리 표시자 텍스트를 설정합니다.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#2](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#2)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#2](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#2)]
@@ -154,7 +154,7 @@ ms.locfileid: "56605941"
 
 ### <a name="to-prevent-users-from-editing-the-employee-table"></a>사용자가 Employee 표를 편집할 수 없도록 하려면
 
-1.  이전 단계에서 추가한 코드 뒤에 있는 `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 앞에서 선언한 <xref:Microsoft.Office.Tools.Word.GroupContentControl> 개체 안에 표를 넣어 사용자가 Employee 표를 편집할 수 없도록 합니다.
+1. 이전 단계에서 추가한 코드 뒤에 있는 `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 앞에서 선언한 <xref:Microsoft.Office.Tools.Word.GroupContentControl> 개체 안에 표를 넣어 사용자가 Employee 표를 편집할 수 없도록 합니다.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#3](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#3)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#3](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#3)]
@@ -164,12 +164,12 @@ ms.locfileid: "56605941"
 
 ### <a name="to-add-the-tables-to-the-building-blocks-in-the-template"></a>서식 파일의 문서 블록에 표를 추가하려면
 
-1.  이전 단계에서 추가한 코드 뒤에 있는 `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 템플릿에서 다시 사용할 수 있는 모든 구성 요소를 포함 하는 Microsoft.Office.Interop.Word.BuildingBlockEntries 컬렉션에 테이블이 포함 된 새 구성 요소를 추가 합니다. 새 구성 요소 라는 새 범주에 정의 된 **직원 및 고객 정보** 빌딩 블록 형식이 할당 되 고 `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`입니다.
+1. 이전 단계에서 추가한 코드 뒤에 있는 `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 템플릿에서 다시 사용할 수 있는 모든 구성 요소를 포함 하는 Microsoft.Office.Interop.Word.BuildingBlockEntries 컬렉션에 테이블이 포함 된 새 구성 요소를 추가 합니다. 새 구성 요소 라는 새 범주에 정의 된 **직원 및 고객 정보** 빌딩 블록 형식이 할당 되 고 `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`입니다.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#4](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#4)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#4](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#4)]
 
-2.  이전 단계에서 추가한 코드 뒤에 있는 `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 서식 파일에서 표를 삭제합니다. 서식 파일에서 재사용 가능한 문서 블록 갤러리에 추가했으므로 표는 더 이상 필요하지 않습니다. 코드에서 먼저 보호된 Employee 표를 삭제할 수 있도록 문서를 디자인 모드로 설정합니다.
+2. 이전 단계에서 추가한 코드 뒤에 있는 `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 서식 파일에서 표를 삭제합니다. 서식 파일에서 재사용 가능한 문서 블록 갤러리에 추가했으므로 표는 더 이상 필요하지 않습니다. 코드에서 먼저 보호된 Employee 표를 삭제할 수 있도록 문서를 디자인 모드로 설정합니다.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#5](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#5)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#5](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#5)]
@@ -179,7 +179,7 @@ ms.locfileid: "56605941"
 
 ### <a name="to-create-a-content-control-that-displays-the-building-blocks"></a>문서 블록을 표시하는 콘텐츠 컨트롤을 만들려면
 
-1.  이전 단계에서 추가한 코드 뒤에 있는 `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 앞에서 선언한 <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> 개체를 초기화합니다. <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> 범주에 정의 된 모든 구성 요소 표시 **직원 및 고객 정보** 빌딩 블록 형식이 있고 `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`합니다.
+1. 이전 단계에서 추가한 코드 뒤에 있는 `ThisDocument` 클래스의 `ThisDocument_Startup` 메서드에 다음 코드를 추가합니다. 이 코드는 앞에서 선언한 <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> 개체를 초기화합니다. <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> 범주에 정의 된 모든 구성 요소 표시 **직원 및 고객 정보** 빌딩 블록 형식이 있고 `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`합니다.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#6](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#6)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#6](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#6)]
@@ -189,50 +189,50 @@ ms.locfileid: "56605941"
 
 ### <a name="to-test-the-employee-table"></a>Employee 표를 테스트하려면
 
-1.  **F5** 키를 눌러 프로젝트를 실행합니다.
+1. **F5** 키를 눌러 프로젝트를 실행합니다.
 
-2.  클릭 **첫 번째 문서 블록 선택** 첫 번째 문서 블록 갤러리 콘텐츠 컨트롤을 표시 합니다.
+2. 클릭 **첫 번째 문서 블록 선택** 첫 번째 문서 블록 갤러리 콘텐츠 컨트롤을 표시 합니다.
 
-3.  옆에 있는 드롭다운 화살표를 클릭 합니다 **사용자 지정 갤러리 1** 선택한 컨트롤의 머리글 **Employee 테이블**합니다.
+3. 옆에 있는 드롭다운 화살표를 클릭 합니다 **사용자 지정 갤러리 1** 선택한 컨트롤의 머리글 **Employee 테이블**합니다.
 
-4.  오른쪽의 셀을 클릭 합니다 **Employee Name** 셀 및 이름을 입력 합니다.
+4. 오른쪽의 셀을 클릭 합니다 **Employee Name** 셀 및 이름을 입력 합니다.
 
      이 셀에는 텍스트만 추가할 수 있음을 확인합니다. <xref:Microsoft.Office.Tools.Word.PlainTextContentControl>을 통해 사용자는 텍스트만 추가할 수 있고 아트 또는 표와 같은 다른 콘텐츠 형식은 추가할 수 없습니다.
 
-5.  오른쪽의 셀을 클릭 합니다 **Hire Date** 셀 및 날짜 선택 컨트롤에서 날짜를 선택 합니다.
+5. 오른쪽의 셀을 클릭 합니다 **Hire Date** 셀 및 날짜 선택 컨트롤에서 날짜를 선택 합니다.
 
-6.  오른쪽의 셀을 클릭 합니다 **Title** 셀 및 콤보 상자에서 직위 중 하나를 선택 합니다.
+6. 오른쪽의 셀을 클릭 합니다 **Title** 셀 및 콤보 상자에서 직위 중 하나를 선택 합니다.
 
      필요에 따라 목록에 없는 직위의 이름을 입력합니다. 이는 <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>에서 사용자가 항목 목록에서 선택하거나 사용자 고유의 항목을 입력할 수 있기 때문에 가능합니다.
 
-7.  셀의 오른쪽에 있는 아이콘을 클릭 합니다 **그림** 셀 및 표시할 이미지를 찾습니다.
+7. 셀의 오른쪽에 있는 아이콘을 클릭 합니다 **그림** 셀 및 표시할 이미지를 찾습니다.
 
-8.  표에 행 또는 열을 추가하고 표에서 행과 열을 삭제하는 작업을 시도합니다. 표를 수정할 수 없음을 확인합니다. <xref:Microsoft.Office.Tools.Word.GroupContentControl>에서 수정하지 못하도록 합니다.
+8. 표에 행 또는 열을 추가하고 표에서 행과 열을 삭제하는 작업을 시도합니다. 표를 수정할 수 없음을 확인합니다. <xref:Microsoft.Office.Tools.Word.GroupContentControl>에서 수정하지 못하도록 합니다.
 
 ### <a name="to-test-the-customer-feedback-table"></a>사용자 의견 표를 테스트하려면
 
-1.  클릭 **두 번째 문서 블록 선택** 두 번째 문서 블록 갤러리 콘텐츠 컨트롤을 표시 합니다.
+1. 클릭 **두 번째 문서 블록 선택** 두 번째 문서 블록 갤러리 콘텐츠 컨트롤을 표시 합니다.
 
-2.  옆에 있는 드롭다운 화살표를 클릭 합니다 **사용자 지정 갤러리 1** 선택한 컨트롤의 머리글 **Customer 테이블**합니다.
+2. 옆에 있는 드롭다운 화살표를 클릭 합니다 **사용자 지정 갤러리 1** 선택한 컨트롤의 머리글 **Customer 테이블**합니다.
 
-3.  오른쪽의 셀을 클릭 합니다 **Customer Name** 셀 및 이름을 입력 합니다.
+3. 오른쪽의 셀을 클릭 합니다 **Customer Name** 셀 및 이름을 입력 합니다.
 
-4.  오른쪽의 셀을 클릭 합니다 **Satisfaction Rating** 셀 및 사용 가능한 옵션 중 하나를 선택 합니다.
+4. 오른쪽의 셀을 클릭 합니다 **Satisfaction Rating** 셀 및 사용 가능한 옵션 중 하나를 선택 합니다.
 
      사용자 고유의 항목을 입력할 수 없음을 확인합니다. <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>에서는 사용자가 항목 목록에서 선택할 수만 있습니다.
 
-5.  오른쪽의 셀을 클릭 합니다 **주석을** 셀 및 몇 가지 설명을 입력 합니다.
+5. 오른쪽의 셀을 클릭 합니다 **주석을** 셀 및 몇 가지 설명을 입력 합니다.
 
      필요에 따라 아트 또는 포함된 표와 같은 텍스트 이외의 일부 콘텐츠를 추가합니다. 이는 <xref:Microsoft.Office.Tools.Word.RichTextContentControl>에서 사용자가 텍스트 이외의 다른 콘텐츠를 추가할 수 있기 때문입니다.
 
-6.  표에 행 또는 열을 추가하고 표에서 행과 열을 삭제할 수 있음을 확인합니다. 이는 <xref:Microsoft.Office.Tools.Word.GroupContentControl> 안에 넣어 표를 보호하지 않았기 때문에 가능합니다.
+6. 표에 행 또는 열을 추가하고 표에서 행과 열을 삭제할 수 있음을 확인합니다. 이는 <xref:Microsoft.Office.Tools.Word.GroupContentControl> 안에 넣어 표를 보호하지 않았기 때문에 가능합니다.
 
-7.  서식 파일을 닫습니다.
+7. 서식 파일을 닫습니다.
 
 ## <a name="next-steps"></a>다음 단계
  다음 항목에서 콘텐츠 컨트롤을 사용하는 방법에 대해 자세히 알아볼 수 있습니다.
 
--   문서에 포함된 사용자 지정 XML 부분이라는 XML 부분에 콘텐츠 컨트롤을 바인딩합니다. 자세한 내용은 [연습: 사용자 지정 XML 부분에 콘텐츠 컨트롤 바인딩](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md)합니다.
+- 문서에 포함된 사용자 지정 XML 부분이라는 XML 부분에 콘텐츠 컨트롤을 바인딩합니다. 자세한 내용은 [연습: 사용자 지정 XML 부분에 콘텐츠 컨트롤 바인딩](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)

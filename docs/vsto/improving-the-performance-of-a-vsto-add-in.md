@@ -10,12 +10,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a06022075086ad4792d35761c3af0e14f8f96e56
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: df17245a398c71e7ae9ce0077352f47b0b70ab9b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54867470"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071823"
 ---
 # <a name="improve-the-performance-of-a-vsto-add-in"></a>VSTO 추가 기능에 성능을 향상합니다
   Office 애플리케이션용으로 만드는 VSTO 추가 기능을 최적화하여 신속하게 시작하고, 종료하고, 항목을 열고, 다른 작업을 수행할 수 있는 향상된 환경을 사용자에게 제공할 수 있습니다. VSTO 추가 기능이 Outlook용인 경우 낮은 성능 때문에 VSTO 추가 기능이 사용하지 않도록 설정될 가능성도 줄일 수 있습니다. 다음 전략을 실행하여 VSTO 추가 기능의 성능을 높일 수 있습니다.
@@ -30,7 +30,7 @@ ms.locfileid: "54867470"
 
   최적화는 Outlook VSTO 추가 하는 방법에 대 한 자세한 내용은 참조 하세요. [VSTO 추가 기능 사용을 유지 하는 성능 조건을](http://go.microsoft.com/fwlink/?LinkID=266503)합니다.
 
-##  <a name="Load"></a> 요청 시 VSTO 추가 기능 로드
+## <a name="Load"></a> 요청 시 VSTO 추가 기능 로드
  다음과 같은 경우에만 로드되도록 VSTO 추가 기능을 구성할 수 있습니다.
 
 - VSTO 추가 기능이 설치된 후 사용자가 애플리케이션을 처음으로 시작하는 경우
@@ -41,23 +41,23 @@ ms.locfileid: "54867470"
 
 ### <a name="to-configure-a-clickonce-solution-to-load-vsto-add-ins-on-demand"></a>요청 시 VSTO 추가 기능을 로드하도록 ClickOnce 솔루션을 구성하려면
 
-1.  **솔루션 탐색기**에서 프로젝트 노드를 선택합니다.
+1. **솔루션 탐색기**에서 프로젝트 노드를 선택합니다.
 
-2.  메뉴 모음에서 **보기** > **속성 페이지**를 선택합니다.
+2. 메뉴 모음에서 **보기** > **속성 페이지**를 선택합니다.
 
-3.  **게시** 탭에서 **옵션** 단추를 선택합니다.
+3. **게시** 탭에서 **옵션** 단추를 선택합니다.
 
-4.  **게시 옵션** 대화 상자에서 **Office 설정** 목록 항목을 선택하고 **요청 시 로드** 옵션을 선택한 다음 **확인** 단추를 선택합니다.
+4. **게시 옵션** 대화 상자에서 **Office 설정** 목록 항목을 선택하고 **요청 시 로드** 옵션을 선택한 다음 **확인** 단추를 선택합니다.
 
 ### <a name="to-configure-a-windows-installer-solution-to-load-vsto-add-ins-on-demand"></a>요청 시 VSTO 추가 기능을 로드하도록 Windows Installer 솔루션을 구성하려면
 
-1.  레지스트리를 설정 합니다 `LoadBehavior` 항목의 합니다 **_루트_\Software\Microsoft\Office\\_ApplicationName_\Addins\\  _Add-in ID_** 키를 **0x10**합니다.
+1. 레지스트리를 설정 합니다 `LoadBehavior` 항목의 합니다 **_루트_\Software\Microsoft\Office\\_ApplicationName_\Addins\\  _Add-in ID_** 키를 **0x10**합니다.
 
      자세한 내용은 [VSTO 추가 기능에 대 한 레지스트리 항목](../vsto/registry-entries-for-vsto-add-ins.md)합니다.
 
 ### <a name="to-configure-a-solution-to-load-vsto-add-ins-on-demand-while-you-debug-the-solution"></a>솔루션을 디버그하는 동안 요청 시 VSTO 추가 기능을 로드하도록 솔루션을 구성하려면
 
-1.  설정 하는 스크립트를 만들 합니다 `LoadBehavior` 항목의 합니다 **_루트_\Software\Microsoft\Office\\_ApplicationName_\Addins\\  _Add-in ID_** 키를 **0x10**합니다.
+1. 설정 하는 스크립트를 만들 합니다 `LoadBehavior` 항목의 합니다 **_루트_\Software\Microsoft\Office\\_ApplicationName_\Addins\\  _Add-in ID_** 키를 **0x10**합니다.
 
      다음 코드에서는 이 스크립트의 예제를 보여 줍니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "54867470"
 
     ```
 
-2.  스크립트를 사용하여 레지스트리를 업데이트하는 빌드 후 이벤트를 만듭니다.
+2. 스크립트를 사용하여 레지스트리를 업데이트하는 빌드 후 이벤트를 만듭니다.
 
      다음 코드에서는 빌드 후 이벤트에 추가할 수 있는 명령 문자열의 예를 보여 줍니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "54867470"
 
      Visual Basic 프로젝트에서 빌드 후 이벤트를 만드는 방법에 대 한 자세한 내용은 [방법: 빌드 이벤트 지정 &#40;Visual Basic&#41;](../ide/how-to-specify-build-events-visual-basic.md)합니다.
 
-##  <a name="Publish"></a> Windows Installer를 사용 하 여 Office 솔루션 게시
+## <a name="Publish"></a> Windows Installer를 사용 하 여 Office 솔루션 게시
  Windows Installer를 사용 하 여 솔루션을 게시 하는 경우 Visual Studio 2010 Tools for Office 런타임 VSTO 추가 기능을 로드 하는 경우 다음 단계를 무시 합니다.
 
 - 매니페스트 스키마의 유효성 검사
@@ -97,7 +97,7 @@ ms.locfileid: "54867470"
 
   자세한 내용은 [Windows Installer를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-windows-installer.md)합니다.
 
-##  <a name="Bypass"></a> 리본 리플렉션 우회
+## <a name="Bypass"></a> 리본 리플렉션 우회
  사용 하 여 솔루션을 빌드하면 [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], 사용자가 솔루션을 배포 하는 경우 최신 버전의 Visual Studio 2010 Tools for Office 런타임 설치 되어 있는지 확인 합니다. 해당 런타임의 이전 버전 사용자 지정 리본을 찾기 위해 솔루션 어셈블리를 반영 합니다. 이 프로세스로 인해 VSTO 추가 기능이 더 느리게 로드될 수 있습니다.
 
  대신 리플렉션을 사용 하 여 리본 메뉴 사용자 지정 확인에서 모든 버전의 Visual Studio 2010 Tools for Office 런타임을 방지할 수 있습니다. 이 전략을 수행 하려면 재정의 `CreateRibbonExtensibility` 메서드와 리본 개체를 명시적으로 반환 합니다. VSTO 추가 기능에 리본 사용자 지정이 없으면 반환 `null` 메서드 내에서.
@@ -107,7 +107,7 @@ ms.locfileid: "54867470"
  [!code-vb[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb#1)]
  [!code-csharp[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/CSharp/trin_ribbon_choose_ribbon_4/ThisWorkbook.cs#1)]
 
-##  <a name="Perform"></a> 별도 실행 스레드에서 비용이 많이 드는 작업 수행
+## <a name="Perform"></a> 별도 실행 스레드에서 비용이 많이 드는 작업 수행
  별도의 스레드에서 시간이 많이 걸리는 작업(예: 장기 실행 작업, 데이터베이스 연결 또는 다른 종류의 네트워크 호출)을 수행하는 것이 좋습니다. 자세한 내용은 [Office의 스레딩 지원](../vsto/threading-support-in-office.md)합니다.
 
 > [!NOTE]

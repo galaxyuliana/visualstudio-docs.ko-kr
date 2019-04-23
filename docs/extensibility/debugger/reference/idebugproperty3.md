@@ -12,23 +12,23 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4cbce619e15006736a2f36bf1d3ab360f6b964a2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: e73310d8a1cff3b640896d9bb5883cf2508bda6e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56705926"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60069655"
 ---
 # <a name="idebugproperty3"></a>IDebugProperty3
 이 인터페이스는에 대 한 지원을 제공 합니다.
 
--   속성과 연결 된 임의의 긴 문자열을 검색 합니다.
+- 속성과 연결 된 임의의 긴 문자열을 검색 합니다.
 
--   속성을 사용 하 여 고유 ID를 연결 합니다.
+- 속성을 사용 하 여 고유 ID를 연결 합니다.
 
--   속성에 대 한 사용자 지정 뷰어 목록을 검색합니다.
+- 속성에 대 한 사용자 지정 뷰어 목록을 검색합니다.
 
--   결과 오류를 보고 하는 기능을 사용 하 여 속성의 값을 설정 합니다.
+- 결과 오류를 보고 하는 기능을 사용 하 여 속성의 값을 설정 합니다.
 
 ## <a name="syntax"></a>구문
 

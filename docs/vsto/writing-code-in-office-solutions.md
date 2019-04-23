@@ -33,12 +33,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1e47e8bea173298761e2a5170382ef2c4b32c6c5
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 2c5163de342415113321b6bd2337cd75ff528f6c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54864074"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076892"
 ---
 # <a name="write-code-in-office-solutions"></a>Office 솔루션에서 코드를 작성 합니다.
   Visual Studio의 Office 프로젝트에는 기타 유형의 프로젝트와 다른 코드 작성의 몇 가지 측면이 있습니다. 이러한 차이점 중 상당수는 Office 개체 모델이 관리 코드에 노출되는 방식과 관련되어 있으며, 다른 차이점은 Office 프로젝트의 디자인과 관련되어 있습니다.
@@ -63,9 +63,9 @@ ms.locfileid: "54864074"
 
  Office PIA의 형식이 COM 기반 개체 모델의 형식에 해당하기 때문에 이러한 형식을 사용하는 방식은 다른 관리되는 형식과 다른 경우가 많습니다. 예를 들어 Office 주 interop 어셈블리에서 선택적 매개 변수가 있는 메서드를 호출하는 방식은 프로젝트에서 사용하고 있는 프로그래밍 언어에 따라 달라집니다. 자세한 내용은 다음 항목을 참조하세요.
 
--   [Office 솔루션의 선택적 매개 변수](../vsto/optional-parameters-in-office-solutions.md)합니다.
+- [Office 솔루션의 선택적 매개 변수](../vsto/optional-parameters-in-office-solutions.md)합니다.
 
--   [Office 솔루션에서 런타임에 바인딩을](../vsto/late-binding-in-office-solutions.md)합니다.
+- [Office 솔루션에서 런타임에 바인딩을](../vsto/late-binding-in-office-solutions.md)합니다.
 
 ## <a name="program-model-of-office-projects"></a>Office 프로젝트의 프로그램 모델
  모든 Office 프로젝트에는 코드에 대한 진입점을 제공하는 생성된 클래스가 하나 이상 포함되어 있습니다. 이러한 클래스를 사용하면 호스트 애플리케이션의 개체 모델과 작업창 및 사용자 지정 작업창과 같은 기능에도 액세스할 수 있습니다.
@@ -99,8 +99,11 @@ ms.locfileid: "54864074"
 ## <a name="program-with-visual-basic-vs-visual-c-in-office-solutions"></a>Visual Basic vs 사용 하 여 프로그램입니다. Office 솔루션에서 visual C#
  Visual Basic 또는 Visual C#을 사용하여 Office 솔루션을 만들 수 있습니다. Microsoft Office 개체 모델이 Microsoft VBA(Visual Basic for Applications)와 함께 사용하도록 설계되었기 때문에 Visual Basic 개발자는 Microsoft Office 애플리케이션이 노출하는 개체로 편안하게 작업할 수 있습니다. Visual C# 개발자는 Visual Basic 개발자와 거의 동일한 기능을 사용할 수 있지만 Office 개체 모델을 사용하기 위해 추가 코드를 작성해야 하는 경우가 있습니다. 또한 Office 개발의 기본 프로그래밍 기능과 Visual Basic 및 C#으로 작성된 관리 코드 간에는 몇 가지 차이점이 있습니다.
 
+<!-- markdownlint-disable MD003 MD020 -->
 ## <a name="key-differences-between-visual-basic-and-visual-c"></a>Visual Basic 및 Visual C# 간의 주요 차이점
- 다음 표에서는 Office 개발에서 Visual Basic과 Visual C#의 주요 차이점을 보여 줍니다.
+<!-- markdownlint-enable MD003 MD020 -->
+
+다음 표에서는 Office 개발에서 Visual Basic과 Visual C#의 주요 차이점을 보여 줍니다.
 
 |기능|설명|Visual Basic 지원|Visual C# 지원|
 |-------------|-----------------|--------------------------|------------------------|

@@ -14,12 +14,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1433d9ba1f207a0f86902d7afd56db6476b1fd56
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: dc5f69fee15d3dc67b31c54f0b397fbf039aa52a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54787094"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077344"
 ---
 # <a name="template-parameters"></a>템플릿 매개 변수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,19 +29,19 @@ ms.locfileid: "54787094"
 ## <a name="declaring-and-enabling-template-parameters"></a>템플릿 매개 변수 선언 및 사용  
  템플릿 매개 변수는 $*매개 변수*$ 형식으로 선언됩니다. 예:  
   
--   $safeprojectname$  
+- $safeprojectname$  
   
--   $guid1$  
+- $guid1$  
   
--   $guid5$  
+- $guid5$  
   
 #### <a name="to-enable-parameter-substitution-in-templates"></a>템플릿에서 매개 변수 대체를 사용하려면  
   
-1.  템플릿의 .vstemplate 파일에서 매개 변수 대체를 활성화하려는 항목에 해당하는 `ProjectItem` 요소를 찾습니다.  
+1. 템플릿의 .vstemplate 파일에서 매개 변수 대체를 활성화하려는 항목에 해당하는 `ProjectItem` 요소를 찾습니다.  
   
-2.  `ReplaceParameters` 요소의 `ProjectItem` 특성을 `true`로 설정합니다.  
+2. `ReplaceParameters` 요소의 `ProjectItem` 특성을 `true`로 설정합니다.  
   
-3.  프로젝트 항목에 대한 코드 파일에서 적절한 경우 매개 변수를 포함합니다. 예를 들어 다음 매개 변수는 안전한 프로젝트 이름을 파일에서 네임스페이스에 사용할 수 있다고 지정합니다.  
+3. 프로젝트 항목에 대한 코드 파일에서 적절한 경우 매개 변수를 포함합니다. 예를 들어 다음 매개 변수는 안전한 프로젝트 이름을 파일에서 네임스페이스에 사용할 수 있다고 지정합니다.  
   
     ```  
     namespace $safeprojectname$  

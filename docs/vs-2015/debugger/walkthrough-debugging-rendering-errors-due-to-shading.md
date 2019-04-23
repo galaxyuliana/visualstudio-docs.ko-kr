@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 42627b336bb83d915b2af96f0ee569a305212f6d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b4c158c4ce6762b69f73a55915cc459f84cd7fff
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982448"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067159"
 ---
 # <a name="walkthrough-debugging-rendering-errors-due-to-shading"></a>연습: 음영으로 인한 렌더링 오류 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,11 +23,11 @@ ms.locfileid: "58982448"
   
  이 연습에서는 다음 방법을 설명합니다.  
   
--   그래픽 로그 문서를 검사하여 문제를 나타내는 픽셀을 확인합니다.  
+- 그래픽 로그 문서를 검사하여 문제를 나타내는 픽셀을 확인합니다.  
   
--   **그래픽 픽셀 기록** 창에서 픽셀 상태를 좀 더 자세히 검토합니다.  
+- **그래픽 픽셀 기록** 창에서 픽셀 상태를 좀 더 자세히 검토합니다.  
   
--   **HLSL 디버거** 를 사용하여 픽셀 및 꼭지점 셰이더를 검사합니다.  
+- **HLSL 디버거** 를 사용하여 픽셀 및 꼭지점 셰이더를 검사합니다.  
   
 ## <a name="scenario"></a>시나리오  
  개체 색상이 잘못 지정되는 문제는 일반적으로 꼭지점 셰이더가 픽셀 셰이더에 올바르지 않거나 불완전한 정보를 전달할 때 발생합니다.  

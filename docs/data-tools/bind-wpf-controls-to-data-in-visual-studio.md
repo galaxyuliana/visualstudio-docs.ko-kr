@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 00cc931a75dee9d3762e94ca522e4d060584840b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 0d1769440ea72ff477ac78230f2c7c1bb71b5ace
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939101"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066444"
 ---
 # <a name="bind-wpf-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 WPF 컨트롤 바인딩
 
@@ -36,8 +36,8 @@ Visual Studio에서 데이터 바인딩된 컨트롤을 만드는 방법에 대 
 |작업|추가 정보|
 |----------| - |
 |새 데이터 바인딩된 컨트롤을 만듭니다.<br /><br /> 기존 컨트롤을 데이터에 바인딩합니다.|[데이터 세트로 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-a-dataset.md)|
-|부모-자식 관계로 관련 데이터를 표시하는 컨트롤을 만듭니다. 그러면 사용자가 어느 한 컨트롤에서 부모 데이터 레코드를 선택하면 선택한 부모 레코드의 관련 자식 데이터가 다른 한 컨트롤에 표시됩니다.|[WPF 애플리케이션에서 관련 데이터 표시](../data-tools/display-related-data-in-wpf-applications.md)|
-|한 테이블의 정보를 다른 테이블의 외래 키 필드 값을 기반으로 표시하는 *조회 테이블*을 만듭니다.|[WPF 애플리케이션에서 조회 테이블 만들기](../data-tools/create-lookup-tables-in-wpf-applications.md)|
+|부모-자식 관계로 관련 데이터를 표시하는 컨트롤을 만듭니다. 그러면 사용자가 어느 한 컨트롤에서 부모 데이터 레코드를 선택하면 선택한 부모 레코드의 관련 자식 데이터가 다른 한 컨트롤에 표시됩니다.|[WPF 응용 프로그램에서 관련 데이터 표시](../data-tools/display-related-data-in-wpf-applications.md)|
+|한 테이블의 정보를 다른 테이블의 외래 키 필드 값을 기반으로 표시하는 *조회 테이블*을 만듭니다.|[WPF 응용 프로그램에서 조회 테이블 만들기](../data-tools/create-lookup-tables-in-wpf-applications.md)|
 |데이터베이스의 이미지에 컨트롤을 바인딩합니다.|[데이터베이스의 그림에 컨트롤 바인딩](../data-tools/bind-controls-to-pictures-from-a-database.md)|
 
 ## <a name="valid-drop-targets"></a>유효한 놓기 대상
@@ -52,18 +52,18 @@ Visual Studio에서 데이터 바인딩된 컨트롤을 만드는 방법에 대 
 
 | 데이터 원본 | 데이터 소스에 컨트롤을 바인딩하는 XAML을 생성합니다. | 데이터 소스를 데이터로 채우는 코드를 생성합니다. |
 | - | - | - |
-| 데이터 집합 | 적용 | 예 |
-| [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] | 예 | 적용 |
-| 서비스 | 적용 | 아니요 |
-| Object | 적용 | 아니요 |
+| 데이터 집합 | 예 | 예 |
+| [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] | 예 | 예 |
+| 서비스 | 예 | 아니요 |
+| Object | 예 | 아니요 |
 
 ### <a name="datasets"></a>데이터 세트
 
 테이블 또는 열을 끌어다 놓으면 합니다 **데이터 원본** Visual Studio 디자이너 창을 생성 [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] 다음을 수행 하는:
 
--   항목을 끌어 온 컨테이너의 리소스에 데이터 집합과 새 <xref:System.Windows.Data.CollectionViewSource>를 추가합니다. <xref:System.Windows.Data.CollectionViewSource>는 데이터 집합에 있는 데이터를 탐색하고 표시하는 데 사용할 수 있는 개체입니다.
+- 항목을 끌어 온 컨테이너의 리소스에 데이터 집합과 새 <xref:System.Windows.Data.CollectionViewSource>를 추가합니다. <xref:System.Windows.Data.CollectionViewSource>는 데이터 집합에 있는 데이터를 탐색하고 표시하는 데 사용할 수 있는 개체입니다.
 
--   컨트롤에 대한 데이터 바인딩을 만듭니다. 디자이너의 기존 컨트롤로 항목을 끌면 XAML이 컨트롤을 항목에 바인딩합니다. 컨테이너에 항목을 끌면는 XAML 끌어 온된 항목에 대해 선택 된 컨트롤 만들고 항목 컨트롤에 바인딩합니다. 이 컨트롤은 새로운 <xref:System.Windows.Controls.Grid> 내에 만들어집니다.
+- 컨트롤에 대한 데이터 바인딩을 만듭니다. 디자이너의 기존 컨트롤로 항목을 끌면 XAML이 컨트롤을 항목에 바인딩합니다. 컨테이너에 항목을 끌면는 XAML 끌어 온된 항목에 대해 선택 된 컨트롤 만들고 항목 컨트롤에 바인딩합니다. 이 컨트롤은 새로운 <xref:System.Windows.Controls.Grid> 내에 만들어집니다.
 
 또한 Visual Studio에서는 코드 숨김 파일에 대해 다음과 같은 변경 작업도 수행합니다.
 
@@ -102,10 +102,10 @@ Visual Studio에서는 다음을 수행하는 XAML을 생성합니다.
 
 Visual Studio에서 생성 [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] 다음을 수행 하는:
 
--   항목을 끌어 온 컨테이너의 리소스에 새 <xref:System.Windows.Data.CollectionViewSource>를 추가합니다. <xref:System.Windows.Data.CollectionViewSource>는 개체에 있는 데이터를 탐색하고 표시하는 데 사용할 수 있는 개체입니다.
+- 항목을 끌어 온 컨테이너의 리소스에 새 <xref:System.Windows.Data.CollectionViewSource>를 추가합니다. <xref:System.Windows.Data.CollectionViewSource>는 개체에 있는 데이터를 탐색하고 표시하는 데 사용할 수 있는 개체입니다.
 
--   컨트롤에 대한 데이터 바인딩을 만듭니다. 디자이너의 기존 컨트롤로 항목을 끌면 XAML이 컨트롤을 항목에 바인딩합니다. 컨테이너에 항목을 끌면는 XAML 끌어 온된 항목에 대해 선택 된 컨트롤 만들고 항목 컨트롤에 바인딩합니다. 이 컨트롤은 새로운 <xref:System.Windows.Controls.Grid> 내에 만들어집니다.
+- 컨트롤에 대한 데이터 바인딩을 만듭니다. 디자이너의 기존 컨트롤로 항목을 끌면 XAML이 컨트롤을 항목에 바인딩합니다. 컨테이너에 항목을 끌면는 XAML 끌어 온된 항목에 대해 선택 된 컨트롤 만들고 항목 컨트롤에 바인딩합니다. 이 컨트롤은 새로운 <xref:System.Windows.Controls.Grid> 내에 만들어집니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)

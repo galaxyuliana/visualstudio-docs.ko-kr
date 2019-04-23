@@ -60,12 +60,12 @@ caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5953afed3ede465cab03677c00e2e930ac6b6cb4
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: a949f920fe956d1b0b3e7e9522d1b82e26a60168
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665746"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077825"
 ---
 # <a name="writing-code-in-the-code-and-text-editor"></a>코드 및 텍스트 편집기에서 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -188,45 +188,45 @@ Visual Studio의 "탐색" 명령은 코드 파일, 파일 경로 및 코드 기�
 
  언어별 편집기 옵션에 대한 자세한 내용은 다음을 참조하세요.  
 
--   [Visual Basic 설정](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
+- [Visual Basic 설정](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
 
--   [C#용 Visual Studio 개발 환경 사용](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
+- [C#용 Visual Studio 개발 환경 사용](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 
--   [옵션, 텍스트 편집기, JavaScript, 서식](../ide/reference/options-text-editor-javascript-formatting.md)  
+- [옵션, 텍스트 편집기, JavaScript, 서식](../ide/reference/options-text-editor-javascript-formatting.md)  
 
 ## <a name="in-this-section"></a>단원 내용  
 
--   [텍스트 찾기 및 바꾸기](../ide/finding-and-replacing-text.md)  
+- [텍스트 찾기 및 바꾸기](../ide/finding-and-replacing-text.md)  
 
--   [인코딩 및 줄 바꿈](../ide/encodings-and-line-breaks.md)  
+- [인코딩 및 줄 바꿈](../ide/encodings-and-line-breaks.md)  
 
--   [개요](../ide/outlining.md)  
+- [개요](../ide/outlining.md)  
 
--   [리팩터링](../ide/refactoring-in-visual-studio.md)  
+- [리팩터링](../ide/refactoring-in-visual-studio.md)  
 
--   [생산성 팁](../ide/productivity-tips-for-visual-studio.md)  
+- [생산성 팁](../ide/productivity-tips-for-visual-studio.md)  
 
--   [IntelliSense 사용](../ide/using-intellisense.md)  
+- [IntelliSense 사용](../ide/using-intellisense.md)  
 
--   [편집기 사용자 지정](../ide/customizing-the-editor.md)  
+- [편집기 사용자 지정](../ide/customizing-the-editor.md)  
 
--   [방법: 스크롤 막대를 사용자 지정하여 코드 추적](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
+- [방법: 스크롤 막대를 사용자 지정하여 코드 추적](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
 
--   [방법: 정의 피킹(Peeking)을 사용하여 코드 보기 및 편집(Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
+- [방법: 정의 피킹(Peeking)을 사용하여 코드 보기 및 편집(Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
 
--   [전구를 사용하여 빠른 작업 수행](../ide/perform-quick-actions-with-light-bulbs.md)  
+- [전구를 사용하여 빠른 작업 수행](../ide/perform-quick-actions-with-light-bulbs.md)  
 
--   [코드 조각](../ide/code-snippets.md)  
+- [코드 조각](../ide/code-snippets.md)  
 
--   [도구 상자 사용](../ide/using-the-toolbox.md)  
+- [도구 상자 사용](../ide/using-the-toolbox.md)  
 
--   [코드 구조 보기](../ide/viewing-the-structure-of-code.md)  
+- [코드 구조 보기](../ide/viewing-the-structure-of-code.md)  
 
--   [코드에 책갈피 설정](../ide/setting-bookmarks-in-code.md)  
+- [코드에 책갈피 설정](../ide/setting-bookmarks-in-code.md)  
 
--   [작업 목록 사용](../ide/using-the-task-list.md)  
+- [작업 목록 사용](../ide/using-the-task-list.md)  
 
--   [코드 변경 내용 및 기타 기록 찾기](../ide/find-code-changes-and-other-history-with-codelens.md)  
+- [코드 변경 내용 및 기타 기록 찾기](../ide/find-code-changes-and-other-history-with-codelens.md)  
 
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio IDE](../ide/visual-studio-ide.md)

@@ -21,12 +21,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9d2c2c6f178c952a5516533c2722bc451be2e3bf
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 9991adc9d770487c646c97da81b6245ae65ba5f5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649669"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075378"
 ---
 # <a name="relationships-in-datasets"></a>데이터 집합의 관계
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,23 +84,23 @@ ms.locfileid: "59649669"
   
 #### <a name="to-create-a-relationship-between-two-data-tables"></a>두 데이터 테이블 간의 관계를 만들려면  
   
-1.  **데이터 세트 디자이너**에서 데이터 세트를 엽니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
+1. **데이터 세트 디자이너**에서 데이터 세트를 엽니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
   
-2.  끌어서를 **관계** 에서 개체를 **데이터 집합** 관계의 자식 데이터 테이블 도구 상자입니다.  
+2. 끌어서를 **관계** 에서 개체를 **데이터 집합** 관계의 자식 데이터 테이블 도구 상자입니다.  
   
      **관계** 대화 상자가 열리고 채우기는 **자식 테이블** 끌어 놓은 테이블이 포함 된 상자를 **관계** 개체.  
   
-3.  부모 테이블을 선택 합니다 **부모 테이블** 상자입니다. 부모 테이블에 일 대 다 관계의 "일" 쪽에서 레코드를 포함합니다.  
+3. 부모 테이블을 선택 합니다 **부모 테이블** 상자입니다. 부모 테이블에 일 대 다 관계의 "일" 쪽에서 레코드를 포함합니다.  
   
-4.  올바른 자식 테이블에 표시 되는지 확인 합니다 **자식 테이블** 상자입니다. 자식 테이블에 일 대 다 관계의 "다" 쪽에서 레코드를 포함합니다.  
+4. 올바른 자식 테이블에 표시 되는지 확인 합니다 **자식 테이블** 상자입니다. 자식 테이블에 일 대 다 관계의 "다" 쪽에서 레코드를 포함합니다.  
   
-5.  관계의 이름을 입력 합니다 **이름** 하거나 기본 이름을 선택한 테이블을 기반으로 합니다. 이 실제 이름을 <xref:System.Data.DataRelation> 코드의 개체입니다.  
+5. 관계의 이름을 입력 합니다 **이름** 하거나 기본 이름을 선택한 테이블을 기반으로 합니다. 이 실제 이름을 <xref:System.Data.DataRelation> 코드의 개체입니다.  
   
-6.  테이블을 조인 하는 열을 선택 합니다 **키 열** 하 고 **외래 키 열** 나열 합니다.  
+6. 테이블을 조인 하는 열을 선택 합니다 **키 열** 하 고 **외래 키 열** 나열 합니다.  
   
-7.  관계, 제약 조건 또는 둘 다를 만들지 여부를 선택 합니다. 정보를 참조 하세요 [DataRelation 개체 소개](http://msdn.microsoft.com/library/89d8a881-8265-41f2-a88b-61311ab06192)합니다.  
+7. 관계, 제약 조건 또는 둘 다를 만들지 여부를 선택 합니다. 정보를 참조 하세요 [DataRelation 개체 소개](http://msdn.microsoft.com/library/89d8a881-8265-41f2-a88b-61311ab06192)합니다.  
   
-8.  선택 하거나 선택을 취소 합니다 **중첩 된 관계** 상자입니다. 이 옵션을 선택 합니다 <xref:System.Data.DataRelation.Nested%2A> 속성을 `true`, 자식 행을 해당 행은 XML 데이터로 작성 되거나와 동기화 하는 경우 부모 열 내에서 중첩 된 관계의 발생 및 <xref:System.Xml.XmlDataDocument>합니다. 자세한 내용은 [중첩 Datarelation](http://msdn.microsoft.com/library/9530f9c9-dd98-4b93-8cdb-40d7f1e8d0ab)합니다.  
+8. 선택 하거나 선택을 취소 합니다 **중첩 된 관계** 상자입니다. 이 옵션을 선택 합니다 <xref:System.Data.DataRelation.Nested%2A> 속성을 `true`, 자식 행을 해당 행은 XML 데이터로 작성 되거나와 동기화 하는 경우 부모 열 내에서 중첩 된 관계의 발생 및 <xref:System.Xml.XmlDataDocument>합니다. 자세한 내용은 [중첩 Datarelation](http://msdn.microsoft.com/library/9530f9c9-dd98-4b93-8cdb-40d7f1e8d0ab)합니다.  
   
 9. 이러한 테이블에서 레코드를 변경 하는 경우 적용할 규칙을 설정 합니다. 자세한 내용은 <xref:System.Data.Rule>을 참조하세요.  
   
@@ -108,6 +108,6 @@ ms.locfileid: "59649669"
   
 #### <a name="to-display-a-relation-name-in-the-dataset-designer"></a>데이터 집합 디자이너에서 관계 이름을 표시 하려면  
   
-1.  **데이터 세트 디자이너**에서 데이터 세트를 엽니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
+1. **데이터 세트 디자이너**에서 데이터 세트를 엽니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
   
-2.  **데이터** 메뉴를 선택 합니다 **관계 레이블 표시** 관계 이름을 표시 하는 명령입니다. 관계 이름 숨기기에 해당 명령 선택을 취소 합니다.
+2. **데이터** 메뉴를 선택 합니다 **관계 레이블 표시** 관계 이름을 표시 하는 명령입니다. 관계 이름 숨기기에 해당 명령 선택을 취소 합니다.

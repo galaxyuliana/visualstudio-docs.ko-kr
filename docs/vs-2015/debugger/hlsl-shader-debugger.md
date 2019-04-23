@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: aebe99754b19579bbc3475e0eb9a6941da43e558
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ac9352af6bd22ca2cc21545945d56a10db2c458f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972178"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074390"
 ---
 # <a name="hlsl-shader-debugger"></a>HLSL 셰이더 디버거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,9 +53,9 @@ Visual Studio Graphics Analyzer의 HLSL 디버거를 사용하면 앱의 실제 
   
 #### <a name="to-start-the-hlsl-debugger-from-the-graphics-pipeline-stages-window"></a>그래픽 파이프라인 단계 창에서 HLSL 디버거를 시작하려면  
   
-1.  **그래픽 파이프라인 단계** 창에서 디버깅할 셰이더와 연관된 파이프라인 단계를 찾습니다.  
+1. **그래픽 파이프라인 단계** 창에서 디버깅할 셰이더와 연관된 파이프라인 단계를 찾습니다.  
   
-2.  파이프라인 단계 제목 아래에서 작은 녹색 화살표로 표시되는 **디버깅 시작**을 선택합니다.  
+2. 파이프라인 단계 제목 아래에서 작은 녹색 화살표로 표시되는 **디버깅 시작**을 선택합니다.  
   
     > [!NOTE]
     >  이러한 HLSL 디버거로의 진입점은 처리되는 첫 번째 꼭짓점 또는 픽셀인 해당 단계에 대한 첫 번째 셰이더 스레드만을 디버그합니다. 픽셀 기록을 사용하여 이러한 셰이더 단계의 다른 스레드에 액세스할 수 있습니다.  

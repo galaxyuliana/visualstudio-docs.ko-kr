@@ -11,12 +11,12 @@ ms.assetid: a77816e3-b15b-46a0-90cd-be7242e4d6c9
 caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5ae077b8ccb4ce41f94fbc5e11bfff1f16c826c0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0ddf7fd92ac0b2f745f9e73170de22e9724dad76
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981965"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074422"
 ---
 # <a name="hitting-a-breakpoint"></a>중단점 적중
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,9 +25,9 @@ ms.locfileid: "58981965"
   
 ## <a name="troubleshooting-a-hit-breakpoint"></a>적중 횟수 중단점 문제 해결  
   
-1.  DE 보냅니다는 [IDebugBreakpointEvent2](../../extensibility/debugger/reference/idebugbreakpointevent2.md) 인터페이스는 **EVENT_SYNC_STOP**합니다.  
+1. DE 보냅니다는 [IDebugBreakpointEvent2](../../extensibility/debugger/reference/idebugbreakpointevent2.md) 인터페이스는 **EVENT_SYNC_STOP**합니다.  
   
-2.  세션 디버그 관리자 (SDM) 호출 [IDebugBreakpointEvent2:::EnumBreakpoints](../../extensibility/debugger/reference/idebugbreakpointevent2-enumbreakpoints.md) 적중 된 중단점을 가져오려고 합니다.  
+2. 세션 디버그 관리자 (SDM) 호출 [IDebugBreakpointEvent2:::EnumBreakpoints](../../extensibility/debugger/reference/idebugbreakpointevent2-enumbreakpoints.md) 적중 된 중단점을 가져오려고 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 이벤트 호출](../../extensibility/debugger/calling-debugger-events.md)

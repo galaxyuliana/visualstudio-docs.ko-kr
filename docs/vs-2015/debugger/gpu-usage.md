@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: edeb59f08dba3328c464782dd685b24c6bcda852
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: eef55dd0e5af443379b2685ccab9bd2de8074e0d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981831"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066717"
 ---
 # <a name="gpu-usage"></a>GPU 사용량
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -117,11 +117,11 @@ Visual Studio 성능 및 진단 허브의 GPU 사용량 도구를 사용하여 D
   
 #### <a name="to-postpone-profiling-from-the-start-of-the-app"></a>앱 시작 이후 프로파일링을 연기하려면  
   
-1.  주 메뉴에서 **디버그**를 선택한 다음, **성능 및 진단**을 선택합니다(키보드: Alt+F2 키 누름).  
+1. 주 메뉴에서 **디버그**를 선택한 다음, **성능 및 진단**을 선택합니다(키보드: Alt+F2 키 누름).  
   
-2.  성능 및 진단 허브에서 **GPU 사용량** 옆에 있는 **설정** 링크를 선택합니다.  
+2. 성능 및 진단 허브에서 **GPU 사용량** 옆에 있는 **설정** 링크를 선택합니다.  
   
-3.  **일반** 속성 페이지의 **GPU 프로파일링 구성** 아래에서 **앱 시작 시 프로파일링 시작** 확인란의 선택을 취소하여 프로파일링을 연기합니다.  
+3. **일반** 속성 페이지의 **GPU 프로파일링 구성** 아래에서 **앱 시작 시 프로파일링 시작** 확인란의 선택을 취소하여 프로파일링을 연기합니다.  
   
      ![GPU 사용량 수집이 시작되면 구성](../debugger/media/gfx-diag-gpu-usage-config.png "gfx_diag_gpu_usage_config")  
   
@@ -130,7 +130,7 @@ Visual Studio 성능 및 진단 허브의 GPU 사용량 도구를 사용하여 D
   
  이 설정을 사용하여 프로파일링 정보 컬렉션을 연기하는 경우 GPU 사용량 도구에서 앱을 실행할 때 GPU 사용량 도구 창 하단에서 추가 링크를 사용할 수 있게 됩니다. 프로파일링 정보 수집을 시작하려면 **자세한 GPU 사용량 데이터를 추가로 수집하기 시작합니다.** 메시지에서 **시작** 링크를 선택합니다.  
   
-##  <a name="hwsupport"></a> 하드웨어 및 드라이버 지원  
+## <a name="hwsupport"></a> 하드웨어 및 드라이버 지원  
  지원되는 GPU 하드웨어 및 드라이버는 다음과 같습니다.  
   
 |Vendor|GPU 설명|필요한 드라이버 버전|  
@@ -143,10 +143,10 @@ Visual Studio 성능 및 진단 허브의 GPU 사용량 도구를 사용하여 D
   
 ## <a name="see-also"></a>참고자료  
   
--   [DirectX 도구를 사용하여 어려운 게임 그래픽 문제 해결(비디오)](http://channel9.msdn.com/Events/GDC/GDC-2015/Solve-the-Tough-Graphics-Problems-with-your-Game-Using-DirectX-Tools)  
+- [DirectX 도구를 사용하여 어려운 게임 그래픽 문제 해결(비디오)](http://channel9.msdn.com/Events/GDC/GDC-2015/Solve-the-Tough-Graphics-Problems-with-your-Game-Using-DirectX-Tools)  
   
--   [Visual Studio의 GPU 사용량 도구(비디오)](http://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/715)  
+- [Visual Studio의 GPU 사용량 도구(비디오)](http://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/715)  
   
--   [Visual Studio 2013 업데이트 4 CTP1의 GPU 사용량 도구(블로그)](http://blogs.msdn.com/b/vcblog/archive/2014/09/05/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1.aspx)  
+- [Visual Studio 2013 업데이트 4 CTP1의 GPU 사용량 도구(블로그)](http://blogs.msdn.com/b/vcblog/archive/2014/09/05/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1.aspx)  
   
--   [Visual Studio의 DirectX에 대한 GPU 사용량(블로그)](http://blogs.msdn.com/b/ianhu/archive/2014/12/16/gpu-usage-for-directx-in-visual-studio.aspx)
+- [Visual Studio의 DirectX에 대한 GPU 사용량(블로그)](http://blogs.msdn.com/b/ianhu/archive/2014/12/16/gpu-usage-for-directx-in-visual-studio.aspx)

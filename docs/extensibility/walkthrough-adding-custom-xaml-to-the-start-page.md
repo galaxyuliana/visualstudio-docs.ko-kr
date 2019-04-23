@@ -12,12 +12,12 @@ manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: f6f9f2ad3d9eb1e9aca68250c2d9e0702027f687
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 2ee368224eb4991a2f1f167d565bd2b07f85d4c6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57867328"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072178"
 ---
 # <a name="walkthrough-add-custom-xaml-to-the-start-page"></a>연습: 시작 페이지 사용자 지정 XAML 추가
 
@@ -25,11 +25,11 @@ ms.locfileid: "57867328"
 
 ## <a name="add-custom-xaml"></a>사용자 지정 XAML 추가
 
-1.  지침에 따라 시작 페이지를 만들려면 [사용자 지정 시작 페이지를 만들려면](../extensibility/creating-a-custom-start-page.md)합니다.
+1. 지침에 따라 시작 페이지를 만들려면 [사용자 지정 시작 페이지를 만들려면](../extensibility/creating-a-custom-start-page.md)합니다.
 
-2.  에 *MainWindow.xaml* 파일에서 찾기는 \<표 > 섹션.
+2. 에 *MainWindow.xaml* 파일에서 찾기는 \<표 > 섹션.
 
-3.  추가 \<TabControl > 요소 및 \<TabItem > 내는 \< 그리드 > 요소를 다음 예제에서와 같이 합니다.
+3. 추가 \<TabControl > 요소 및 \<TabItem > 내는 \< 그리드 > 요소를 다음 예제에서와 같이 합니다.
 
     ```xml
     <Grid>
@@ -41,7 +41,7 @@ ms.locfileid: "57867328"
     </Grid>
     ```
 
-4.  추가 하 \<TabItem >를 사용 하 여를 \<단추 > 요소는 새 프로젝트를 엽니다.
+4. 추가 하 \<TabItem >를 사용 하 여를 \<단추 > 요소는 새 프로젝트를 엽니다.
 
     ```xml
     <Grid>
@@ -61,25 +61,25 @@ ms.locfileid: "57867328"
 
 ## <a name="test-the-custom-start-page"></a>사용자 지정 시작 페이지를 테스트 합니다.
 
-1.  **F5**키를 누릅니다.
+1. **F5**키를 누릅니다.
 
      설치 되어 있지만 선택 되지 않은 사용자 지정 시작 페이지를 사용 하 여 Visual Studio의 실험적 인스턴스가 열립니다.
 
-2.  Visual Studio의 실험적 인스턴스에서 엽니다는 **도구 상자로 / 환경** 페이지입니다.
+2. Visual Studio의 실험적 인스턴스에서 엽니다는 **도구 상자로 / 환경** 페이지입니다.
 
-3.  선택 **시작**합니다. 에 **시작 페이지 사용자 지정** 목록에서 프로그램 *.xaml* 파일을 마우스 오른쪽 단추로 **확인**합니다.
+3. 선택 **시작**합니다. 에 **시작 페이지 사용자 지정** 목록에서 프로그램 *.xaml* 파일을 마우스 오른쪽 단추로 **확인**합니다.
 
-4.  **보기** 메뉴에서 **시작 페이지**를 클릭합니다.
+4. **보기** 메뉴에서 **시작 페이지**를 클릭합니다.
 
-5.  클릭 합니다 **Bing** 탭 합니다.
+5. 클릭 합니다 **Bing** 탭 합니다.
 
      Bing 웹 페이지 표시 됩니다.
 
-6.  클릭 합니다 **MyButton** 탭 합니다.
+6. 클릭 합니다 **MyButton** 탭 합니다.
 
      표시는 **MyProject** 열리는 단추를 **새 프로젝트** 대화 합니다.
 
-7.  실험적 인스턴스를 닫습니다.
+7. 실험적 인스턴스를 닫습니다.
 
 사용자 지정 시작 페이지에 적용할 **도구** > **옵션** > **환경**선택 **시작**합니다. 에 **시작 페이지 사용자 지정** 목록에서 프로그램 *.xaml* 파일을 마우스 오른쪽 단추로 **확인**합니다.
 

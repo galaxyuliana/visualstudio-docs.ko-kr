@@ -27,12 +27,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0815ccf781782a0d638fcf941a6e48edcf8ccd1f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 53003e2a88faf2ef29d3a1eb3df1da081f20ce57
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624687"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077760"
 ---
 # <a name="program-document-level-customizations"></a>문서 수준 사용자 지정 프로그래밍
   문서 수준 사용자 지정을 사용하여 Microsoft Office Word 또는 Microsoft Office Excel을 확장한 경우 다음 작업을 수행할 수 있습니다.
@@ -62,13 +62,13 @@ ms.locfileid: "56624687"
 
 - Excel용 문서 수준 프로젝트에는 통합 문서에 대해 하나, 각 워크시트에 대해 하나씩 생성된 클래스가 여러 개 있습니다. 기본적으로 이러한 클래스에는 다음 이름이 있습니다.
 
-  -   `ThisWorkbook`
+  - `ThisWorkbook`
 
-  -   `Sheet1`
+  - `Sheet1`
 
-  -   `Sheet2`
+  - `Sheet2`
 
-  -   `Sheet3`
+  - `Sheet3`
 
   생성된 클래스에는 문서가 열리거나 닫힐 때 호출되는 이벤트 처리기가 포함됩니다. 문서가 열릴 때 코드를 실행하려면 `Startup` 이벤트 처리기에 코드를 추가합니다. 문서가 닫히기 직전에 코드를 실행하려면 `Shutdown` 이벤트 처리기에 코드를 추가합니다. 자세한 내용은 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)합니다.
 

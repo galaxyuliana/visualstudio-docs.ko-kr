@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f89db12596754630eddaf78b9429eb2983625481
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 1c24126f18cc55bdddcda97a750b1f443bb8b4d8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599846"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068940"
 ---
 # <a name="how-to-enable-clickonce-security-settings"></a>방법: ClickOnce 보안 설정 사용
 응용 프로그램을 게시 하기 위해 ClickOnce 응용 프로그램에 대 한 코드 액세스 보안을 사용할 수 있어야 합니다. 게시 마법사를 사용 하 여 응용 프로그램을 게시할 때 자동으로 수행 됩니다.
@@ -32,11 +32,11 @@ ms.locfileid: "56599846"
 
 ### <a name="to-enable-clickonce-security-settings"></a>ClickOnce 보안 설정을 사용 하도록 설정
 
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.
 
-2.  **보안** 탭을 클릭합니다.
+2. **보안** 탭을 클릭합니다.
 
-3.  **ClickOnce 보안 설정 사용** 확인란을 선택합니다.
+3. **ClickOnce 보안 설정 사용** 확인란을 선택합니다.
 
      이제 보안 페이지에서 응용 프로그램에 대 한 보안 설정을 지정할 수 있습니다.
 
@@ -45,17 +45,17 @@ ms.locfileid: "56599846"
 
 ### <a name="to-disable-clickonce-security-settings"></a>ClickOnce 보안 설정 사용 안 함
 
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.
 
-2.  **보안** 탭을 클릭합니다.
+2. **보안** 탭을 클릭합니다.
 
-3.  선택을 취소 합니다 **ClickOnce 보안 설정 사용** 확인란 합니다.
+3. 선택을 취소 합니다 **ClickOnce 보안 설정 사용** 확인란 합니다.
 
      응용 프로그램이 완전 신뢰 보안 설정과; 실행 수 에 있는 모든 설정 합니다 **보안** 페이지는 무시 됩니다.
 
     > [!NOTE]
     >  게시 마법사를 사용 하 여 응용 프로그램을 게시할 때마다가 확인란 선택 됩니다. 응용 프로그램이 게시 된 후에 다시 지워야 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 애플리케이션 보안](../deployment/securing-clickonce-applications.md)
 - [ClickOnce 애플리케이션의 코드 액세스 보안](../deployment/code-access-security-for-clickonce-applications.md)

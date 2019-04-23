@@ -1,5 +1,5 @@
 ---
-title: '방법: 성능 세션 수동으로 만들기 | Microsoft 문서'
+title: '방법: 성능 세션 수동으로 만들기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -15,12 +15,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2e326bac1138fc03be94c1e6d1a5037e3d1a2f40
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 622d349fd063cf0a22e3c286003490e088cd4440
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54800832"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068888"
 ---
 # <a name="how-to-manually-create-performance-sessions"></a>방법: 성능 세션 수동으로 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,13 +29,13 @@ ms.locfileid: "54800832"
   
 ### <a name="to-manually-create-a-performance-session"></a>성능 세션을 수동으로 만들려면  
   
-1.  **분석** 메뉴에서 **프로파일러**를 가리키고 **새 성능 세션**을 클릭합니다.  
+1. **분석** 메뉴에서 **프로파일러**를 가리키고 **새 성능 세션**을 클릭합니다.  
   
      빈 성능 세션이 **성능 탐색기**에 추가됩니다.  
   
-2.  **대상**을 마우스 오른쪽 단추로 클릭하고 **대상 이진 파일 추가**를 선택합니다.  
+2. **대상**을 마우스 오른쪽 단추로 클릭하고 **대상 이진 파일 추가**를 선택합니다.  
   
-3.  **대상 이진 파일 추가** 대화 상자에서 파일 이름을 선택하고 **열기**를 클릭합니다.  
+3. **대상 이진 파일 추가** 대화 상자에서 파일 이름을 선택하고 **열기**를 클릭합니다.  
   
      새 이진 파일이 추가됩니다.  
   

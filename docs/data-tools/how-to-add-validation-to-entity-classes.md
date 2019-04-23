@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 5f4f2f5e44ea95137f53019f52de94a5389fa6d8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: ce3658f93df11b83f89e89931d03f35b0fa801a1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913498"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070240"
 ---
 # <a name="how-to-add-validation-to-entity-classes"></a>방법: 엔터티 클래스에 유효성 검사 추가
 엔터티 클래스의 *유효성 검사*는 데이터 개체에 입력된 값이 개체의 스키마 제약 조건과 애플리케이션에 대해 설정된 규칙을 따르는지 확인하는 과정입니다. 업데이트를 내부 데이터베이스에 보내기 전에 데이터의 유효성을 검사하면 오류를 줄일 수 있습니다. 또한 응용 프로그램과 데이터베이스 간에 발생할 수 있는 잠재적 라운드트립 횟수를 줄일 수 있습니다.
@@ -33,23 +33,23 @@ ms.locfileid: "55913498"
 
 ### <a name="to-validate-data-during-a-columns-value-change"></a>열의 값을 변경하는 동안 데이터의 유효성을 검사하려면
 
-1.  새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 **O/R 디자이너**합니다. (**솔루션 탐색기**에서 **.dbml** 파일을 두 번 클릭합니다.)
+1. 새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 **O/R 디자이너**합니다. (**솔루션 탐색기**에서 **.dbml** 파일을 두 번 클릭합니다.)
 
-2.  **O/R 디자이너**에서 유효성 검사를 추가할 클래스를 마우스 오른쪽 단추로 클릭한 다음, **코드 보기**를 클릭합니다.
+2. **O/R 디자이너**에서 유효성 검사를 추가할 클래스를 마우스 오른쪽 단추로 클릭한 다음, **코드 보기**를 클릭합니다.
 
      선택한 엔터티 클래스의 partial 클래스와 함께 코드 편집기가 열립니다.
 
-3.  커서를 partial 클래스에 놓습니다.
+3. 커서를 partial 클래스에 놓습니다.
 
-4.  Visual Basic 프로젝트의 경우
+4. Visual Basic 프로젝트의 경우
 
-    1.  **메서드 이름** 목록을 확장합니다.
+    1. **메서드 이름** 목록을 확장합니다.
 
-    2.  유효성 검사를 추가할 열에 대해 **OnCOLUMNNAMEChanging** 메서드를 찾습니다.
+    2. 유효성 검사를 추가할 열에 대해 **OnCOLUMNNAMEChanging** 메서드를 찾습니다.
 
-    3.  `OnCOLUMNNAMEChanging` 메서드가 partial 클래스에 추가됩니다.
+    3. `OnCOLUMNNAMEChanging` 메서드가 partial 클래스에 추가됩니다.
 
-    4.  다음 코드를 추가하여 입력된 값을 먼저 확인한 다음 열에 입력된 값이 응용 프로그램에서 허용되는지 확인합니다. 다음 `value` 인수는 제안된 값을 포함하고 있으므로 이를 유효한 값으로 확인하는 논리를 추가합니다.
+    4. 다음 코드를 추가하여 입력된 값을 먼저 확인한 다음 열에 입력된 값이 응용 프로그램에서 허용되는지 확인합니다. 다음 `value` 인수는 제안된 값을 포함하고 있으므로 이를 유효한 값으로 확인하는 논리를 추가합니다.
 
         ```vb
         If value.HasValue Then
@@ -62,7 +62,7 @@ ms.locfileid: "55913498"
 
     C# 프로젝트의 경우:
 
-    때문에 C# 프로젝트에서 이벤트 처리기를 자동으로 생성 하지 않기, IntelliSense를 사용 하 여 열 변경 부분 메서드를 만들 수 있습니다. `partial`을 입력한 다음 사용 가능한 부분 메서드에 액세스하기 위한 공간을 입력합니다. 유효성 검사를 추가할 열에 대해 열 변경 메서드를 클릭합니다. 다음 코드는 열 변경 부분 메서드를 선택 하면 생성 되는 코드와 유사 합니다.
+    C# 프로젝트 이벤트 처리기를 자동으로 생성 하지 않기 때문에 열 변경 부분 메서드를 만드는 IntelliSense를 사용할 수 있습니다. `partial`을 입력한 다음 사용 가능한 부분 메서드에 액세스하기 위한 공간을 입력합니다. 유효성 검사를 추가할 열에 대해 열 변경 메서드를 클릭합니다. 다음 코드는 열 변경 부분 메서드를 선택 하면 생성 되는 코드와 유사 합니다.
 
     ```csharp
     partial void OnCOLUMNNAMEChanging(COLUMNDATATYPE value)
@@ -79,23 +79,23 @@ ms.locfileid: "55913498"
 
 ### <a name="to-validate-data-during-an-update-to-an-entity-class"></a>엔터티 클래스에 대한 업데이트 동안 데이터의 유효성을 검사하려면
 
-1.  새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 **O/R 디자이너**합니다. (**솔루션 탐색기**에서 **.dbml** 파일을 두 번 클릭합니다.)
+1. 새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 **O/R 디자이너**합니다. (**솔루션 탐색기**에서 **.dbml** 파일을 두 번 클릭합니다.)
 
-2.  **O/R 디자이너**에서 마우스 오른쪽 단추로 빈 영역을 클릭하고 **코드 보기**를 클릭합니다.
+2. **O/R 디자이너**에서 마우스 오른쪽 단추로 빈 영역을 클릭하고 **코드 보기**를 클릭합니다.
 
      `DataContext`의 partial 클래스와 함께 코드 편집기가 열립니다.
 
-3.  커서를 `DataContext`의 partial 클래스에 놓습니다.
+3. 커서를 `DataContext`의 partial 클래스에 놓습니다.
 
-4.  Visual Basic 프로젝트의 경우
+4. Visual Basic 프로젝트의 경우
 
-    1.  **메서드 이름** 목록을 확장합니다.
+    1. **메서드 이름** 목록을 확장합니다.
 
-    2.  **UpdateENTITYCLASSNAME**를 클릭합니다.
+    2. **UpdateENTITYCLASSNAME**를 클릭합니다.
 
-    3.  `UpdateENTITYCLASSNAME` 메서드가 partial 클래스에 추가됩니다.
+    3. `UpdateENTITYCLASSNAME` 메서드가 partial 클래스에 추가됩니다.
 
-    4.  다음 코드에 표시된 것과 같은 `instance` 인수를 사용하여 개별 열 값에 액세스합니다.
+    4. 다음 코드에 표시된 것과 같은 `instance` 인수를 사용하여 개별 열 값에 액세스합니다.
 
         ```vb
         If (instance.COLUMNNAME = x) And (instance.COLUMNNAME = y) Then
@@ -106,7 +106,7 @@ ms.locfileid: "55913498"
 
     C# 프로젝트의 경우:
 
-    때문에 C# 프로젝트에서 이벤트 처리기를 자동으로 생성 하지 않기, IntelliSense를 사용 하 여 부분을 만들려면 `UpdateCLASSNAME` 메서드. `partial`을 입력한 다음 사용 가능한 부분 메서드에 액세스하기 위한 공간을 입력합니다. 유효성 검사를 추가 하려는 클래스에 대 한 update 메서드를 클릭 합니다. 다음과 유사한 코드를 선택 하면 생성 되는 코드는 `UpdateCLASSNAME` 부분 메서드:
+    C# 프로젝트 이벤트 처리기를 자동으로 생성 하지 않기 때문에 부분을 만드는 데 IntelliSense를 사용할 수 있습니다 `UpdateCLASSNAME` 메서드. `partial`을 입력한 다음 사용 가능한 부분 메서드에 액세스하기 위한 공간을 입력합니다. 유효성 검사를 추가 하려는 클래스에 대 한 update 메서드를 클릭 합니다. 다음과 유사한 코드를 선택 하면 생성 되는 코드는 `UpdateCLASSNAME` 부분 메서드:
 
     ```csharp
     partial void UpdateCLASSNAME(CLASSNAME instance)
@@ -119,7 +119,7 @@ ms.locfileid: "55913498"
     }
     ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio의 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)

@@ -13,12 +13,12 @@ caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 357623a6c93cf2ec87cc9d4b53f76cec535fd6c1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 7432009cb64081fc235ec48a3de5400311260f3f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54805310"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079060"
 ---
 # <a name="understanding-performance-collection-methods"></a>성능 데이터 수집 방법 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "54805310"
 Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 데 사용할 수 있는 5가지 방법을 제공합니다. 이 항목에서는 각 방법에 대해 설명하고, 특정 방법으로 데이터를 수집하는 것이 적절한 몇 가지 시나리오를 제시합니다.  
   
 > [!NOTE]
->  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
+>  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 응용 프로그램의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
   
 |메서드|설명|  
 |------------|-----------------|  
@@ -38,7 +38,7 @@ Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 데 사
   
  일부 프로파일링 방법을 사용하는 경우에는 소프트웨어 및 하드웨어 성능 카운터와 같은 추가 데이터도 수집할 수 있습니다. 자세한 내용은 [추가 성능 데이터 수집](../profiling/collecting-additional-performance-data.md)을 참조하세요.  
   
-##  <a name="sampling"></a> 샘플링  
+## <a name="sampling"></a> 샘플링  
  샘플링 프로파일링 방법은 프로파일링 실행 중에 애플리케이션이 수행하는 작업에 대한 통계 데이터를 수집합니다. 샘플링 방법은 간단하며 애플리케이션 메서드 실행에 거의 영향을 주지 않습니다.  
   
  샘플링은 Visual Studio 프로파일링 도구의 기본 방법이며 다음과 같은 경우 유용합니다.  
@@ -57,7 +57,7 @@ Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 데 사
   
   [샘플링 방법 데이터 뷰](../profiling/profiler-sampling-method-data-views.md)  
   
-##  <a name="instrumentation"></a> 계측  
+## <a name="instrumentation"></a> 계측  
  계측 프로파일링 방법은 프로파일링된 애플리케이션의 함수 호출에 대한 상세 타이밍을 수집합니다. 다음과 같은 경우 계측 프로파일링이 유용합니다.  
   
 - 디스크 I/O와 같은 입/출력 병목 현상을 조사하려는 경우  
@@ -82,7 +82,7 @@ Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 데 사
   
   [계측 방법 데이터 뷰](../profiling/instrumentation-method-data-views.md)  
   
-##  <a name="concurrency"></a> 동시성  
+## <a name="concurrency"></a> 동시성  
  동시성 프로파일링은 다중 스레드 애플리케이션에 대한 정보를 수집합니다. 리소스 경합 프로파일링에서는 경쟁하는 스레드가 공유 리소스에 액세스하기 위해 대기해야 할 때마다 자세한 호출 스택 정보를 수집합니다. 또한 동시성 시각화는 다중 스레드 애플리케이션이 자체적으로, 그리고 하드웨어/운영 체제/호스트 컴퓨터의 다른 프로세스와 상호 작용하는 방식에 대한 보다 일반적인 정보도 수집합니다.  
   
 - 리소스 경합 보고서에는 총 경합 수와 대기가 발생한 모듈, 함수, 소스 코드 줄 및 명령에서 리소스를 대기하는 데 소요된 총 시간이 표시됩니다. 시간 표시 막대 그래프에도 발생하는 경합이 표시됩니다.  
@@ -97,7 +97,7 @@ Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 데 사
   
   [동시성 시각화 도우미](../profiling/concurrency-visualizer.md)  
   
-##  <a name="net_memory"></a> .NET 메모리  
+## <a name="net_memory"></a> .NET 메모리  
  .NET 메모리 할당 프로파일링 방법은 프로파일링된 애플리케이션에서 .NET Framework 개체를 할당할 때마다 컴퓨터 프로세서를 중단합니다. 개체 수명 데이터도 수집되는 경우 프로파일러는 각 .NET Framework 가비지 수집 후에 프로세서를 중단합니다.  
   
  프로파일러는 할당에서 생성되었거나 가비지 수집에서 삭제된 개체의 형식/크기/수에 대한 정보를 수집합니다.  
@@ -118,7 +118,7 @@ Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 데 사
   
   [.NET 메모리 데이터 뷰](../profiling/dotnet-memory-data-views.md)  
   
-##  <a name="tier_interaction"></a> 계층 상호 작용  
+## <a name="tier_interaction"></a> 계층 상호 작용  
  계층 상호 작용 프로파일링에서는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 페이지 또는 기타 애플리케이션과 [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] 데이터베이스 간의 동기 [!INCLUDE[vstecado](../includes/vstecado-md.md)] 호출에 대한 정보를 프로파일링 데이터 파일에 추가합니다. 데이터에는 호출의 수와 시간, 그리고 최대/최소 시간이 포함됩니다. 샘플링, 계측, .NET 메모리 또는 동시성 방법을 통해 수집되는 프로파일링 데이터에 계층 상호 작용 데이터를 추가할 수 있습니다.  
   
  ![계층 상호 작용 프로 파일링 데이터](../profiling/media/tierinteraction-profilingtools.png "TierInteraction_ProfilingTools")  
@@ -129,5 +129,5 @@ Visual Studio 프로파일링 도구는 성능 데이터를 수집하는 데 사
  [계층 상호 작용 뷰](../profiling/tier-interaction-views.md)  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 웹 사이트에 대한 성능 데이터 수집](../profiling/how-to-collect-performance-data-for-a-web-site.md)   
+ [방법: 웹 사이트에 대 한 성능 데이터를 수집 합니다.](../profiling/how-to-collect-performance-data-for-a-web-site.md)   
  [초보자를 위한 성능 프로파일링 지침](../profiling/beginners-guide-to-performance-profiling.md)

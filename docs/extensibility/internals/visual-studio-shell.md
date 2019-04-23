@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b1428b4c5a54b901ca3e21ffc2b23d71763e7804
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 65f3090c6b96290527d2508ba47c899c81d6e6dd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613286"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067081"
 ---
 # <a name="visual-studio-shell"></a>Visual Studio Shell
 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell은 통합의 주요 에이전트인 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 셸에 공통 서비스를 공유 하는 Vspackage를 사용 하도록 설정 하려면 필요한 기능을 제공 합니다. 때문에 아키텍처 목표 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 는 Vspackage의 기본 기능이 vest 방법은 셸에서 기본 기능을 제공 하 고 Vspackage 해당 구성 요소 간에 간 통신을 지원 하기 위한 프레임 워크입니다.
@@ -34,21 +34,21 @@ ms.locfileid: "56613286"
 
 - 공유 서비스와 같은 특정 관리 <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>, 기본 셸 기능을 제공 하는 및 <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, 기본적인 창 관리 기능을 제공 하는 합니다.
 
-- 솔루션 (.sln) 파일을 관리 합니다. 솔루션 관련된 프로젝트를 Visual c + + 6.0에서 작업 영역 (.dsw) 파일과 유사한 그룹에 포함 됩니다.
+- 솔루션 (.sln) 파일을 관리 합니다. 시각적 개체의 작업 영역 (.dsw) 파일과 유사한 관련된 프로젝트의 그룹을 포함 하는 솔루션 C++ 6.0.
 
 - 셸 전체 선택 영역 추적, 컨텍스트 및 통화입니다. 셸은은 다음과 같은 유형의 항목을 추적합니다.
 
-  -   현재 프로젝트
+  - 현재 프로젝트
 
-  -   현재 프로젝트 항목 또는 현재 ItemID <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>
+  - 현재 프로젝트 항목 또는 현재 ItemID <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>
 
-  -   현재 선택을 합니다 **속성** 창 또는 `SelectionContainer`
+  - 현재 선택을 합니다 **속성** 창 또는 `SelectionContainer`
 
-  -   Id 또는 CmdUIGuids 명령, 메뉴 및 도구 모음의 표시 유형을 제어 하는 UI 컨텍스트
+  - Id 또는 CmdUIGuids 명령, 메뉴 및 도구 모음의 표시 유형을 제어 하는 UI 컨텍스트
 
-  -   활성 창, 문서 및 실행 취소 관리자와 같은 현재 요소
+  - 활성 창, 문서 및 실행 취소 관리자와 같은 현재 요소
 
-  -   동적 도움말을 구동 하는 사용자 컨텍스트 특성
+  - 동적 도움말을 구동 하는 사용자 컨텍스트 특성
 
   셸에는 설치 된 Vspackage 및 현재 서비스 간의 통신은 중재합니다. Shell의 주요 기능을 지원 하 고 통합 하는 모든 Vspackage를 사용할 수 있게 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 이러한 핵심 기능에 다음 항목을 포함 합니다.
 

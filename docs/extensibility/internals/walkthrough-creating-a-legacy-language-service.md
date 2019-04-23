@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7a2b61569c7d1608372516fbc8a71b9bc6955775
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 7d58234dbe503f8d086e081464c2e38f759a75e3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56626572"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067094"
 ---
 # <a name="walkthrough-creating-a-legacy-language-service"></a>연습: 레거시 언어 서비스 만들기
 언어 서비스를 구현 하는 관리 되는 패키지 프레임 워크 (MPF) 언어 클래스를 사용 하 여 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 간단 합니다. 언어 서비스, 자체 언어 서비스 및 언어에 대 한 파서를 호스트 하기 위해 VSPackage 해야 합니다.
@@ -26,11 +26,11 @@ ms.locfileid: "56626572"
 ## <a name="locations-for-the-visual-studio-package-project-template"></a>Visual Studio 패키지 프로젝트 템플릿의 위치
  Visual Studio 패키지 프로젝트 템플릿은 세 가지 다른 템플릿 위치에서 찾을 수 있습니다 합니다 **새 프로젝트** 대화 상자:
 
-1.  Visual Basic 확장성에 위치한 템플릿 프로젝트의 기본 언어는 Visual Basic입니다.
+1. Visual Basic 확장성에 위치한 템플릿 프로젝트의 기본 언어는 Visual Basic입니다.
 
-2.  C# 확장성에 위치한 템플릿 프로젝트의 기본 언어는 C#입니다.
+2. C# 확장성에 위치한 템플릿 프로젝트의 기본 언어는 C#입니다.
 
-3.  다른 프로젝트 형식 확장성에 위치한 템플릿 프로젝트의 기본 언어는 C++입니다.
+3. 다른 프로젝트 형식 확장성에 위치한 템플릿 프로젝트의 기본 언어는 C++입니다.
 
 ### <a name="create-a-vspackage"></a>VSPackage를 만듭니다
 
@@ -56,46 +56,46 @@ ms.locfileid: "56626572"
 
 ### <a name="create-the-language-service-class"></a>언어 서비스 클래스 만들기
 
-1.  **솔루션 탐색기**MyLanguagePackage 프로젝트를 마우스 오른쪽 단추로 선택 **추가**를 **참조**를 선택한 후는 **새 참조 추가** 단추입니다.
+1. **솔루션 탐색기**MyLanguagePackage 프로젝트를 마우스 오른쪽 단추로 선택 **추가**를 **참조**를 선택한 후는 **새 참조 추가** 단추입니다.
 
-2.  에 **참조 추가** 대화 상자에서 **Microsoft.VisualStudio.Package.LanguageService** 에 **.NET** 탭을 클릭 **확인**합니다.
+2. 에 **참조 추가** 대화 상자에서 **Microsoft.VisualStudio.Package.LanguageService** 에 **.NET** 탭을 클릭 **확인**합니다.
 
      언어 패키지 프로젝트에 대 한 한 번만 수행 해야 합니다.
 
-3.  **솔루션 탐색기**VSPackage 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **추가**하십시오 **클래스**.
+3. **솔루션 탐색기**VSPackage 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **추가**하십시오 **클래스**.
 
-4.  했는지 **클래스** 템플릿 목록에서 선택 합니다.
+4. 했는지 **클래스** 템플릿 목록에서 선택 합니다.
 
-5.  입력 **MyLanguageService.cs** 고 클래스 파일의 이름을 **추가**합니다.
+5. 입력 **MyLanguageService.cs** 고 클래스 파일의 이름을 **추가**합니다.
 
      원하는 어떤 이름을 사용할 수 있습니다. 여기에서 자세히 설명 하는 이러한 절차를 가정 `MyLanguageService` 이름으로 합니다.
 
-6.  MyLanguageService.cs 파일에 다음 추가 `using` 문입니다.
+6. MyLanguageService.cs 파일에 다음 추가 `using` 문입니다.
 
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#1](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_1.cs)]
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#1](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_1.vb)]
 
-7.  수정 된 `MyLanguageService` 에서 파생 된 클래스는 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스:
+7. 수정 된 `MyLanguageService` 에서 파생 된 클래스는 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스:
 
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#2](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_2.cs)]
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#2](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_2.vb)]
 
-8.  "LanguageService"에 커서를 **편집**를 **IntelliSense** 메뉴에서 **추상 클래스 구현**합니다. 이 언어 서비스 클래스를 구현 하는 데 필요한 최소 메서드를 추가 합니다.
+8. "LanguageService"에 커서를 **편집**를 **IntelliSense** 메뉴에서 **추상 클래스 구현**합니다. 이 언어 서비스 클래스를 구현 하는 데 필요한 최소 메서드를 추가 합니다.
 
 9. 에 설명 된 대로 추상 메서드를 구현 [레거시 언어 서비스 구현](../../extensibility/internals/implementing-a-legacy-language-service2.md)합니다.
 
 ### <a name="register-the-language-service"></a>언어 서비스 등록
 
-1.  MyLanguagePackagePackage.cs 파일을 열고 다음을 추가 `using` 문:
+1. MyLanguagePackagePackage.cs 파일을 열고 다음을 추가 `using` 문:
 
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#3](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_3.vb)]
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#3](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_3.cs)]
 
-2.  에 설명 된 대로 언어 서비스 클래스를 등록 [레거시 언어 서비스 등록](../../extensibility/internals/registering-a-legacy-language-service1.md)합니다. ProvideXX 특성 및 "언어 서비스 Proffering" 섹션을 포함 합니다. 이 항목에서는 TestLanguageService를 사용 하는 위치 MyLanguageService를 사용 합니다.
+2. 에 설명 된 대로 언어 서비스 클래스를 등록 [레거시 언어 서비스 등록](../../extensibility/internals/registering-a-legacy-language-service1.md)합니다. ProvideXX 특성 및 "언어 서비스 Proffering" 섹션을 포함 합니다. 이 항목에서는 TestLanguageService를 사용 하는 위치 MyLanguageService를 사용 합니다.
 
 ### <a name="the-parser-and-scanner"></a>파서 및 검사기
 
-1.  에 설명 된 대로 파서 및 언어에는 스캐너를 구현 [레거시 언어 서비스 파서 및 검사기](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)합니다.
+1. 에 설명 된 대로 파서 및 언어에는 스캐너를 구현 [레거시 언어 서비스 파서 및 검사기](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)합니다.
 
      프로그램 파서 및 검사기를 구현 하는 방법을 전적으로 사용자 이며이 항목의 범위를 벗어납니다.
 
@@ -104,29 +104,29 @@ ms.locfileid: "56626572"
 
 #### <a name="deriving-from-an-mpf-class"></a>MPF 클래스에서 파생
 
-1.  **솔루션 탐색기**VSPackage 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **추가**하십시오 **클래스**.
+1. **솔루션 탐색기**VSPackage 프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **추가**하십시오 **클래스**.
 
-2.  했는지 **클래스** 템플릿 목록에서 선택 합니다.
+2. 했는지 **클래스** 템플릿 목록에서 선택 합니다.
 
      클래스 파일에 대 한 적절 한 이름을 입력 하 고 클릭 **추가**합니다.
 
-3.  새 클래스 파일에서 다음을 추가 `using` 문입니다.
+3. 새 클래스 파일에서 다음을 추가 `using` 문입니다.
 
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#4](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_4.cs)]
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#4](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_4.vb)]
 
-4.  원하는 MPF 클래스에서 파생 되도록 클래스를 수정 합니다.
+4. 원하는 MPF 클래스에서 파생 되도록 클래스를 수정 합니다.
 
-5.  적어도 기본 클래스의 생성자와 동일한 매개 변수를 사용 하는 클래스 생성자를 추가 하 고 기본 클래스 생성자에 생성자 매개 변수를 전달 합니다.
+5. 적어도 기본 클래스의 생성자와 동일한 매개 변수를 사용 하는 클래스 생성자를 추가 하 고 기본 클래스 생성자에 생성자 매개 변수를 전달 합니다.
 
      예를 들어에서 파생 된 클래스의 생성자를 <xref:Microsoft.VisualStudio.Package.Source> 클래스는 다음과 같습니다.
 
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#5](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_5.cs)]
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#5](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_5.vb)]
 
-6.  **편집**를 **IntelliSense** 메뉴에서 **추상 클래스 구현** 기본 클래스에 구현 해야 하는 모든 추상 메서드.
+6. **편집**를 **IntelliSense** 메뉴에서 **추상 클래스 구현** 기본 클래스에 구현 해야 하는 모든 추상 메서드.
 
-7.  그렇지 않은 경우 클래스 내에서 캐럿을 배치 하 고 메서드를 재정의할 수를 입력 합니다.
+7. 그렇지 않은 경우 클래스 내에서 캐럿을 배치 하 고 메서드를 재정의할 수를 입력 합니다.
 
      예를 들어 입력 `public override` 해당 클래스에서 재정의 될 수 있는 모든 메서드의 목록을 보려면.
 

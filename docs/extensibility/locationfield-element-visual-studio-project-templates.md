@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6dba30926b3afafae6cb32e159a98d4155438c08
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: f55c67fbad80b05431ed13439584d3a94fa88c65
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679959"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078306"
 ---
 # <a name="locationfield-element-visual-studio-project-templates"></a>LocationField 요소 (Visual Studio 프로젝트 템플릿)
 지정 여부는 **위치** 텍스트 상자에 **새 프로젝트** 대화 상자 활성화, 비활성화 또는 프로젝트 템플릿에 대 한 숨겨진 합니다.
@@ -51,11 +51,11 @@ ms.locfileid: "56679959"
 
  유효한 텍스트 값은
 
--   `Enabled`를 지정 하는 **위치** 상자를 **새 프로젝트** 대화 상자가 활성화 됩니다.
+- `Enabled`를 지정 하는 **위치** 상자를 **새 프로젝트** 대화 상자가 활성화 됩니다.
 
--   `Disabled`를 지정 하는 합니다 **위치** 상자를 **새 프로젝트** 대화 상자는 비활성화 됩니다.
+- `Disabled`를 지정 하는 합니다 **위치** 상자를 **새 프로젝트** 대화 상자는 비활성화 됩니다.
 
--   `Hidden`를 지정 하는 합니다 **위치** 상자를 **새 프로젝트** 대화 상자가 숨겨집니다.
+- `Hidden`를 지정 하는 합니다 **위치** 상자를 **새 프로젝트** 대화 상자가 숨겨집니다.
 
 ## <a name="remarks"></a>설명
  기본값은 `Enabled`입니다.

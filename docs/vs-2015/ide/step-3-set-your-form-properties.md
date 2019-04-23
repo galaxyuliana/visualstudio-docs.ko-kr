@@ -9,19 +9,19 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d4a93dfca4681f93d0d2a5c45b189fd34c8dccca
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 676ea11188b7b55f3e929280d2b1c67166e37fdc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54782251"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067250"
 ---
 # <a name="step-3-set-your-form-properties"></a>3단계: 폼 속성 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이제 **속성** 창을 사용하여 폼의 모양을 변경합니다.  
   
- ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo")이 항목의 비디오 버전을 보려면 [자습서 1: Visual Basic에서 사진 뷰어 만들기 - 비디오 1](http://go.microsoft.com/fwlink/?LinkId=205209) 또는 [자습서 1: C#에서 사진 뷰어 만들기 - 비디오 1](http://go.microsoft.com/fwlink/?LinkId=205199)을 참조하세요. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.  
+ ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo")이 항목의 비디오 버전을 참조 하세요. [자습서 1: Visual Basic-비디오 1에서에서 사진 뷰어 만들기](http://go.microsoft.com/fwlink/?LinkId=205209) 또는 [자습서 1: 사진 뷰어 만들기 C# -비디오 1](http://go.microsoft.com/fwlink/?LinkId=205199)합니다. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.  
   
 ### <a name="to-set-your-form-properties"></a>폼 속성을 설정하려면  
   
@@ -64,14 +64,14 @@ ms.locfileid: "54782251"
   
 7. 다음 단계로 이동하기 전에 프로그램을 중지합니다. 이는 IDE가 프로그램이 실행 중일 때 프로그램을 변경하는 것을 허용하지 않기 때문입니다. 프로그램을 중지하려면 다음 방법 중 하나를 사용할 수 있습니다.  
   
-   -   도구 모음에서 **디버깅 중지** 단추를 선택합니다.  
+   - 도구 모음에서 **디버깅 중지** 단추를 선택합니다.  
   
-   -   메뉴 모음에서 **디버그**, **디버깅 중지**를 차례로 선택합니다.  
+   - 메뉴 모음에서 **디버그**, **디버깅 중지**를 차례로 선택합니다.  
   
-   -   **Form1** 창의 위쪽 모퉁이에 있는 X 단추를 선택합니다.  
+   - **Form1** 창의 위쪽 모퉁이에 있는 X 단추를 선택합니다.  
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   
--   다음 자습서 단계로 이동하려면 [4단계: TableLayoutPanel 컨트롤을 사용하여 폼 레이아웃](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md)을 참조하세요.  
+- 다음 자습서 단계로 이동하려면 [4단계: TableLayoutPanel 컨트롤을 사용 하 여 폼 레이아웃](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md)합니다.  
   
--   이전 자습서 단계로 돌아가려면 [2단계: 프로그램 실행](../ide/step-2-run-your-program.md)을 참조하세요.
+- 이전 자습서 단계로 돌아가려면 [2단계: 프로그램 실행](../ide/step-2-run-your-program.md)합니다.

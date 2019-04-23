@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c58e6531847d7694d9bde0f4520a3e21de6ce23f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: e5c5f6d73f3606813fd9a1954cdc10bb562baf34
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665625"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070266"
 ---
 # <a name="unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor"></a>Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 원격 디버깅 모니터는 제대로에 설정 되지 않은 원격 컴퓨터 또는 원격 컴퓨터에 네트워크 문제 또는 방화벽으로 인해 액세스할 수 없는 때문에이 메시지가 나타날 수 있습니다.
@@ -130,16 +130,16 @@ Visual Studio에서 프로젝트 속성을 확인 하 고 서버 이름이 올�
 
 다음 방법 중 하나를 사용하여 이 문제를 해결할 수 있습니다.
 
--   Visual Studio 사용자는 원격 디버거의 사용 권한에 추가 (원격 디버거 창에서 선택 **도구 > 권한을**).
+- Visual Studio 사용자는 원격 디버거의 사용 권한에 추가 (원격 디버거 창에서 선택 **도구 > 권한을**).
 
--   원격 컴퓨터의 동일한 사용자 계정 및 암호 Visual Studio 컴퓨터에서 사용 중인 원격 디버거를 다시 시작 합니다.
+- 원격 컴퓨터의 동일한 사용자 계정 및 암호 Visual Studio 컴퓨터에서 사용 중인 원격 디버거를 다시 시작 합니다.
 
     > [!NOTE]
     > 원격 서버에서 원격 디버거를 실행 하는 경우 원격 디버거 응용 프로그램을 마우스 오른쪽 단추로 클릭 하 고 선택 **관리자 권한으로 실행** (또는 원격 디버거를 서비스로 실행할 수 있습니다). 원격 서버에서 실행 하지 않는 경우만 해당 정상적으로 시작 합니다.
 
--   **/allow \<사용자 이름>** 매개 변수를 사용하여 명령줄에서 원격 디버거를 시작할 수 있습니다`msvsmon /allow <username@computer>`.
+- **/allow \<사용자 이름>** 매개 변수를 사용하여 명령줄에서 원격 디버거를 시작할 수 있습니다`msvsmon /allow <username@computer>`.
 
--   또는 사용자가 원격 디버깅을 수행할 수 있습니다. 원격 디버거 창에서 **도구 > 옵션** 대화 상자로 이동합니다. **인증 안 함**을 선택하는 경우 **모든 사용자가 디버깅할 수 있도록 허용**을 선택할 수 있습니다. 그러나 다른 옵션은 실패 하는 경우에 또는 개인 네트워크에 있는 경우이 옵션을 시도해 야.
+- 또는 사용자가 원격 디버깅을 수행할 수 있습니다. 원격 디버거 창에서 **도구 > 옵션** 대화 상자로 이동합니다. **인증 안 함**을 선택하는 경우 **모든 사용자가 디버깅할 수 있도록 허용**을 선택할 수 있습니다. 그러나 다른 옵션은 실패 하는 경우에 또는 개인 네트워크에 있는 경우이 옵션을 시도해 야.
 
 ### <a name="firewall"></a> 원격 머신의 방화벽이 원격 디버거로 들어오는 연결을 허용하지 않음
  Visual Studio와 원격 디버거 간의 통신을 허용하도록 Visual Studio 컴퓨터의 방화벽 및 원격 컴퓨터의 방화벽을 구성해야 합니다. 원격 디버거에서 사용 중인 포트에 대한 자세한 내용은 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)을 참조하세요. Windows 방화벽을 구성하는 방법에 대한 자세한 내용은 [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)을 참조하세요.

@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 608ba29c9f2068ce053fd6b92ba053eb45869ddd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 71d7dc0fc208fa3c108019f6324c3d053673e918
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982785"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070838"
 ---
 # <a name="t4-template-directive"></a>T4 템플릿 지시문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,8 @@ ms.locfileid: "58982785"
   
 ## <a name="debug-attribute"></a>debug 특성  
  예제:  
- ```  
+
+```  
 debug="true"  
 ```  
   
@@ -70,7 +71,8 @@ debug="true"
   
 ## <a name="hostspecific-attribute"></a>hostspecific 특성  
  예제:  
- ```  
+
+```  
 hostspecific="true"  
 ```  
   
@@ -144,7 +146,8 @@ Squares of numbers:
  또한 전처리된 다른 템플릿을 기본 클래스로 지정하는 것이 더 일반적입니다. 기본 템플릿에서는 파생 템플릿의 텍스트를 인터리브할 수 있는 공통 텍스트 블록을 제공합니다. 클래스 기능 블록 `<#+ ... #>`을 사용하여 텍스트 조각이 들어 있는 메서드를 정의할 수 있습니다. 예를 들어 출력 텍스트의 프레임워크를 기본 템플릿에 둠으로써 파생 템플릿에 재정의할 수 있는 가상 메서드를 제공할 수 있습니다.  
   
  전처리된 런타임 텍스트 템플릿 BaseTemplate.tt:  
- ```scr  
+
+```scr  
 This is the common header.  
 <#   
   SpecificFragment1();   
@@ -163,7 +166,8 @@ This is the common footer.
 ```  
   
  전처리된 런타임 텍스트 템플릿 DerivedTemplate1.tt:  
- ```csharp  
+
+```csharp  
 <#@ template language="C#" inherits="BaseTemplate" #>  
 <#   
   // Run the base template:  
@@ -188,12 +192,14 @@ protected override void SpecificFragment2()
 ```  
   
  DerivedTemplate1을 호출할 응용 프로그램 코드:  
- ```csharp  
+
+```csharp  
 Console.WriteLine(new DerivedTemplate().TransformText());  
 ```  
   
  결과 출력:  
- ```  
+
+```  
 This is the common header.  
    Fragment 1 for DerivedTemplate1  
 A common central text.  

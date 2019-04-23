@@ -13,12 +13,12 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c7e1c9c4374e35dd484d478118fe714ff415f93e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 7d7d47746aed2e663eb1fa25e3bb9ca2c6bed2c9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654882"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076421"
 ---
 # <a name="how-to-specify-which-target-to-build-first"></a>방법: 먼저 빌드할 대상 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "59654882"
   
 #### <a name="to-specify-more-than-one-initial-target"></a>두 개 이상의 초기 대상을 지정하려면  
   
--   `Project` 요소의 `InitialTargets` 특성에서 세미콜론으로 구분된 초기 대상을 나열합니다. 예를 들어 `Clean` 대상 및 `Compile` 대상을 차례로 실행하려면 다음을 실행합니다.  
+- `Project` 요소의 `InitialTargets` 특성에서 세미콜론으로 구분된 초기 대상을 나열합니다. 예를 들어 `Clean` 대상 및 `Compile` 대상을 차례로 실행하려면 다음을 실행합니다.  
   
      `<Project InitialTargets="Clean;Compile">`  
   
@@ -55,7 +55,7 @@ ms.locfileid: "59654882"
   
 #### <a name="to-specify-more-than-one-default-target"></a>두 개 이상의 기본 대상을 지정하려면  
   
--   `Project` 요소의 `DefaultTargets` 특성에서 세미콜론으로 구분된 기본 대상을 나열합니다. 예를 들어 `Clean` 대상 및 `Compile` 대상을 차례로 실행하려면 다음을 실행합니다.  
+- `Project` 요소의 `DefaultTargets` 특성에서 세미콜론으로 구분된 기본 대상을 나열합니다. 예를 들어 `Clean` 대상 및 `Compile` 대상을 차례로 실행하려면 다음을 실행합니다.  
   
      `<Project DefaultTargets="Clean;Compile">`  
   
@@ -64,13 +64,13 @@ ms.locfileid: "59654882"
   
 #### <a name="to-use-a-target-other-than-the-default-target-first"></a>기본 대상 이외의 대상을 먼저 사용하려면  
   
--   **/target** 명령줄 스위치를 사용하여 대상을 첫 번째 대상으로 지정합니다. 예를 들어:  
+- **/target** 명령줄 스위치를 사용하여 대상을 첫 번째 대상으로 지정합니다. 예를 들어:  
   
      `msbuild file.proj /target:Clean`  
   
 #### <a name="to-use-several-targets-other-than-the-default-targets-first"></a>기본 대상 이외의 여러 대상을 먼저 사용하려면  
   
--   **/target** 명령줄 스위치를 사용하여 세미콜론 또는 쉼표로 구분된 대상을 나열합니다. 예를 들어:  
+- **/target** 명령줄 스위치를 사용하여 세미콜론 또는 쉼표로 구분된 대상을 나열합니다. 예를 들어:  
   
      `msbuild <file name>.proj /t:Clean;Compile`  
   

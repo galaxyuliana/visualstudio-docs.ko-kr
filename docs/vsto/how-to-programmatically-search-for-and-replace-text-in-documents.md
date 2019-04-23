@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 01e3254c3716cd1c3aaeaa6ca76b33c95f525186
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 9799e958903c56f5a3423f86736668a2affd87da
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610634"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071449"
 ---
 # <a name="how-to-programmatically-search-for-and-replace-text-in-documents"></a>방법: 프로그래밍 방식으로 검색 하 고 문서에서 텍스트 바꾸기
   <xref:Microsoft.Office.Interop.Word.Find> 개체는 <xref:Microsoft.Office.Interop.Word.Selection> 및 <xref:Microsoft.Office.Interop.Word.Range> 개체 둘 다의 멤버이며, 둘 중 하나를 사용하여 Microsoft Office Word 문서에서 텍스트를 검색할 수 있습니다. 바꾸기 명령은 찾기 명령의 확장입니다.
@@ -101,20 +101,20 @@ ms.locfileid: "56610634"
 
 ### <a name="to-search-for-and-replace-text-in-documents"></a>문서에서 텍스트를 검색하고 바꾸려면
 
-1.  프로젝트의 `ThisDocument` 또는 `ThisAddIn` 클래스에 다음 예제 코드를 추가합니다.
+1. 프로젝트의 `ThisDocument` 또는 `ThisAddIn` 클래스에 다음 예제 코드를 추가합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#75](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#75)]
      [!code-csharp[Trin_VstcoreWordAutomation#75](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#75)]
 
      <xref:Microsoft.Office.Interop.Word.Find> 클래스에는 <xref:Microsoft.Office.Interop.Word.Find.ClearFormatting%2A> 메서드가 있고 <xref:Microsoft.Office.Interop.Word.Replacement> 클래스에도 자체 <xref:Microsoft.Office.Interop.Word.Replacement.ClearFormatting%2A> 메서드가 있습니다. 찾기 및 바꾸기 작업을 수행 하는 경우에 두 개체의 서식 지우기 메서드를 사용 해야 합니다. <xref:Microsoft.Office.Interop.Word.Find> 개체에서만 사용하는 경우 대체 텍스트에서 예기치 않은 결과가 발생할 수 있습니다.
 
-2.  <xref:Microsoft.Office.Interop.Word.Find> 개체의 <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> 메서드를 사용하여 찾은 각 항목을 바꿉니다. 바꿀 항목을 지정 하려면 사용 합니다 *대체* 매개 변수입니다. 이 매개 변수는 다음 <xref:Microsoft.Office.Interop.Word.WdReplace> 값 중 하나일 수 있습니다.
+2. <xref:Microsoft.Office.Interop.Word.Find> 개체의 <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> 메서드를 사용하여 찾은 각 항목을 바꿉니다. 바꿀 항목을 지정 하려면 사용 합니다 *대체* 매개 변수입니다. 이 매개 변수는 다음 <xref:Microsoft.Office.Interop.Word.WdReplace> 값 중 하나일 수 있습니다.
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll>은 찾은 항목을 모두 바꿉니다.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll>은 찾은 항목을 모두 바꿉니다.
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceNone>은 찾은 항목을 바꾸지 않습니다.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceNone>은 찾은 항목을 바꾸지 않습니다.
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne>은 찾은 첫 번째 항목을 바꿉니다.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne>은 찾은 첫 번째 항목을 바꿉니다.
 
 ## <a name="see-also"></a>참고자료
 - [방법: 프로그래밍 방식으로 Word에서 검색 옵션 설정](../vsto/how-to-programmatically-set-search-options-in-word.md)

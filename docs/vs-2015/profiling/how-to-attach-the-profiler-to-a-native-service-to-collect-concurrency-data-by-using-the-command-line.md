@@ -9,12 +9,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a33f43f7c12f45cfbe469b618385c64158547d71
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 5b9c46631fcd3ada0946748b515366b4f1b3362a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654349"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070565"
 ---
 # <a name="how-to-attach-the-profiler-to-a-native-service-to-collect-concurrency-data-by-using-the-command-line"></a>방법: 명령줄을 사용 하 여 동시성 데이터를 수집 하려면 네이티브 서비스에는 Profiler 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,7 +66,7 @@ ms.locfileid: "59654349"
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면  
 
--   다음 표의 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
+- 다음 표의 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
 
     |옵션|설명|  
     |------------|-----------------|  
@@ -79,10 +79,10 @@ ms.locfileid: "59654349"
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면  
 
-1.  서비스를 중지하거나 명령 프롬프트에서 다음 명령을 입력하여 대상 애플리케이션에서 프로파일러를 분리합니다.  
+1. 서비스를 중지하거나 명령 프롬프트에서 다음 명령을 입력하여 대상 애플리케이션에서 프로파일러를 분리합니다.  
 
      **VSPerfCmd /detach** 입력  
 
-2.  명령 프롬프트에서 다음 명령을 입력하여 프로파일러를 종료합니다.  
+2. 명령 프롬프트에서 다음 명령을 입력하여 프로파일러를 종료합니다.  
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)

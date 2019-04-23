@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d1abb79bc8d982ba36091bfcbc6ec4c84c5df4a2
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.openlocfilehash: 255b49d3bf07a5a91896d2aff87001f1c68f3afe
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58789532"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077422"
 ---
 # <a name="faq-converting-add-ins-to-vspackage-extensions"></a>FAQ: 추가 기능을 VSPackage 확장으로 변환
 추가 기능은 이제 사용되지 않습니다. 새 Visual Studio 확장을 하려면 VSIX 확장 프로그램을 만드는 해야 합니다. 다음은 Visual Studio 추가 기능에서 VSIX 확장을 변환 하는 방법에 대 한 일부 자주 묻는 질문에 대 한 답변입니다.
@@ -37,7 +37,7 @@ ms.locfileid: "58789532"
 ## <a name="can-i-convert-my-add-in-project-to-a-vsix-project"></a>VSIX 프로젝트에 내 추가 기능 프로젝트를 변환할 수 있나요?
  VSIX 프로젝트에 사용 되는 메커니즘은 추가 기능 프로젝트에서 동일 하기 때문에 VSIX 프로젝트에 직접 추가 기능 프로젝트를 변환할 수 없습니다. VSIX 프로젝트 템플릿 및 올바른 프로젝트 항목 템플릿을 비교적 쉽게 시작 하 고 VSIX 확장으로 실행 중인 코드의 많은 경우
 
-##  <a name="BKMK_StartDeveloping"></a> VSIX 확장 개발 시작 하려면 어떻게 해야 하나요?
+## <a name="BKMK_StartDeveloping"></a> VSIX 확장 개발 시작 하려면 어떻게 해야 하나요?
  메뉴 명령이 포함 된 VSIX를 확인 하는 방법을 다음과 같습니다.
 
 ### <a name="to-make-a-vsix-extension-that-has-a-menu-command"></a>메뉴 명령이 포함 된 VSIX 확장을 확인 하려면
@@ -52,7 +52,7 @@ ms.locfileid: "58789532"
 
    에 **도구** (실험적 인스턴스)에서 메뉴 단추가 표시 됩니다 **내 명령 이름**합니다. 이 단추를 선택 하면 메시지가 표시 됩니다. **TestVSPackagePackage.MenuItemCallback() 내**합니다.
 
-##  <a name="BKMK_RunAddin"></a> VSPackage에서 추가 기능에서 코드를 실행할 수는 방법
+## <a name="BKMK_RunAddin"></a> VSPackage에서 추가 기능에서 코드를 실행할 수는 방법
 
 추가 기능 코드는 보통 두 가지 방법 중 하나로 실행됩니다.
 
@@ -158,24 +158,24 @@ VSPackage에서도 같은 방식을 사용할 수 있습니다. 콜백 메서드
 
 #### <a name="to-insert-window-management-code-from-an-add-in-into-a-vspackage"></a>창 관리 코드를 추가 기능에서 VSPackage로 삽입하려면
 
-1.  와 같이 메뉴 명령이 포함 된 VSPackage를 만듭니다는 [VSIX 확장 개발은 어떻게 시작 하나요?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping) 섹션입니다.
+1. 와 같이 메뉴 명령이 포함 된 VSPackage를 만듭니다는 [VSIX 확장 개발은 어떻게 시작 하나요?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping) 섹션입니다.
 
-2.  VSPackage 정의가 포함된 파일을 엽니다. (C# 프로젝트에서 있기  *\<프로젝트 이름 > Package.cs*.)
+2. VSPackage 정의가 포함된 파일을 엽니다. (C# 프로젝트에서 있기  *\<프로젝트 이름 > Package.cs*.)
 
-3.  다음 `using` 문을 추가합니다.
+3. 다음 `using` 문을 추가합니다.
 
     ```csharp
     using EnvDTE;
     using EnvDTE80;
     ```
 
-4.  `MenuItemCallback` 메서드를 찾습니다. <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> 호출을 추가하여 <xref:EnvDTE80.DTE2> 개체를 가져옵니다.
+4. `MenuItemCallback` 메서드를 찾습니다. <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> 호출을 추가하여 <xref:EnvDTE80.DTE2> 개체를 가져옵니다.
 
     ```csharp
     DTE2 dte = (DTE2)GetService(typeof(DTE));
     ```
 
-5.  추가 기능의 코드를 추가합니다. 예를 들어, 다음은 새 작업을 추가 하는 코드를 **작업 목록**에서 작업의 수를 나열 하 고 다음 작업 하나를 삭제 합니다.
+5. 추가 기능의 코드를 추가합니다. 예를 들어, 다음은 새 작업을 추가 하는 코드를 **작업 목록**에서 작업의 수를 나열 하 고 다음 작업 하나를 삭제 합니다.
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -206,24 +206,24 @@ VSPackage에서도 같은 방식을 사용할 수 있습니다. 콜백 메서드
 ## <a name="how-do-i-manage-projects-and-solutions-in-a-vspackage"></a>VSPackage에서 프로젝트와 솔루션을 관리하려면 어떻게 하나요?
  추가 기능이 프로젝트와 솔루션을 관리하는 경우 VSPackage에서도 추가 기능 코드가 작동합니다. 예를 들어 다음 절차에서는 시작 프로젝트를 가져오는 코드를 추가하는 방법을 보여줍니다.
 
-1.  와 같이 메뉴 명령이 포함 된 VSPackage를 만듭니다는 [VSIX 확장 개발은 어떻게 시작 하나요?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping) 섹션입니다.
+1. 와 같이 메뉴 명령이 포함 된 VSPackage를 만듭니다는 [VSIX 확장 개발은 어떻게 시작 하나요?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping) 섹션입니다.
 
-2.  VSPackage 정의가 포함된 파일을 엽니다. (C# 프로젝트에서 있기  *\<프로젝트 이름 > Package.cs*.)
+2. VSPackage 정의가 포함된 파일을 엽니다. (C# 프로젝트에서 있기  *\<프로젝트 이름 > Package.cs*.)
 
-3.  다음 `using` 문을 추가합니다.
+3. 다음 `using` 문을 추가합니다.
 
     ```csharp
     using EnvDTE;
     using EnvDTE80;
     ```
 
-4.  `MenuItemCallback` 메서드를 찾습니다. <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> 호출을 추가하여 <xref:EnvDTE80.DTE2> 개체를 가져옵니다.
+4. `MenuItemCallback` 메서드를 찾습니다. <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> 호출을 추가하여 <xref:EnvDTE80.DTE2> 개체를 가져옵니다.
 
     ```csharp
     DTE2 dte = (DTE2)GetService(typeof(DTE));
     ```
 
-5.  추가 기능의 코드를 추가합니다. 예를 들어 다음 코드는 솔루션의 시작 프로젝트 이름을 가져옵니다. 이 패키지를 실행할 때는 다중 프로젝트 솔루션이 열려 있어야 합니다.
+5. 추가 기능의 코드를 추가합니다. 예를 들어 다음 코드는 솔루션의 시작 프로젝트 이름을 가져옵니다. 이 패키지를 실행할 때는 다중 프로젝트 솔루션이 열려 있어야 합니다.
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)

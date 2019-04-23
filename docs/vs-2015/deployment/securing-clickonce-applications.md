@@ -1,5 +1,5 @@
 ---
-title: ClickOnce 응용 프로그램 보안 | Microsoft Docs
+title: ClickOnce 애플리케이션 보안 | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-deployment
@@ -17,12 +17,12 @@ caps.latest.revision: 47
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2266cae99336b1ab56131feee9aa96852746b73b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c2d8ecd09487248b4c4be05b354133c710febf30
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986192"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076200"
 ---
 # <a name="securing-clickonce-applications"></a>ClickOnce 애플리케이션 보안
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "58986192"
  기본 사용 권한은 애플리케이션의 원래 버전이 배포된 위치를 기반으로 하며, 애플리케이션 업데이트 시 해당 사용 권한이 상속됩니다. 애플리케이션이 웹 또는 네트워크 위치에서 업데이트를 확인하도록 구성되어 있고 최신 버전이 사용 가능하면 원래 설치된 버전에서 완전 신뢰 권한 대신 인터넷 또는 인트라넷 영역에 대한 사용 권한을 받을 수 있습니다. 시스템 관리자가 특정 애플리케이션 게시자를 신뢰할 수 있는 소스로 정의하는 ClickOnce 배포 정책을 지정하여 해당 메시지가 표시되지 않게 할 수도 있습니다. 이 정책이 배포되는 컴퓨터의 경우 사용 권한이 자동으로 부여되므로 사용자에게 관련 메시지가 표시되지 않습니다. 자세한 내용은 [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)을 참조하십시오. 신뢰할 수 있는 애플리케이션 배포를 구성하기 위해 인증서를 컴퓨터 또는 엔터프라이즈 수준에 설치할 수 있습니다. 자세한 내용은 [방법: ClickOnce 애플리케이션의 클라이언트 컴퓨터에 신뢰할 수 있는 게시자 추가](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)를 참조하세요.  
   
 ## <a name="code-access-security-policies"></a>코드 액세스 보안 정책  
- 응용 프로그램에 대 한 사용 권한이 설정에 따라 결정 됩니다 합니다 [ \<trustInfo > 요소](../deployment/trustinfo-element-clickonce-application.md) 응용 프로그램 매니페스트 요소입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서는 프로젝트의 **보안** 속성 페이지에 있는 설정을 기반으로 이 정보를 자동 생성합니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램에는 요청된 특정 권한만 부여됩니다. 예를 들어, 파일에 액세스하는 데 완전 신뢰 권한이 필요할 때 애플리케이션에서 파일 액세스 권한을 요청하면 완전 신뢰 권한이 아니라 파일 액세스 권한만 부여됩니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 개발할 때, 응용 프로그램에서 필요한 특정 권한만 요청해야 합니다. 대부분의 경우, 인터넷 또는 로컬 인트라넷 영역을 사용하여 애플리케이션을 부분 신뢰로 제한할 수 있습니다. 자세한 내용은 [방법: ClickOnce 응용 프로그램의 보안 영역 설정](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)합니다. 애플리케이션에 사용자 지정 권한이 필요한 경우 사용자 지정 영역을 만들 수 있습니다. 자세한 내용은 [방법: ClickOnce 응용 프로그램에 대 한 사용자 지정 권한을 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)합니다.  
+ 애플리케이션에 대한 권한은 애플리케이션 매니페스트 [\<trustInfo> 요소](../deployment/trustinfo-element-clickonce-application.md)의 설정에 따라 결정됩니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서는 프로젝트의 **보안** 속성 페이지에 있는 설정을 기반으로 이 정보를 자동 생성합니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램에는 요청된 특정 권한만 부여됩니다. 예를 들어, 파일에 액세스하는 데 완전 신뢰 권한이 필요할 때 애플리케이션에서 파일 액세스 권한을 요청하면 완전 신뢰 권한이 아니라 파일 액세스 권한만 부여됩니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 개발할 때, 응용 프로그램에서 필요한 특정 권한만 요청해야 합니다. 대부분의 경우, 인터넷 또는 로컬 인트라넷 영역을 사용하여 애플리케이션을 부분 신뢰로 제한할 수 있습니다. 자세한 내용은 [방법: ClickOnce 응용 프로그램의 보안 영역 설정](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)합니다. 애플리케이션에 사용자 지정 권한이 필요한 경우 사용자 지정 영역을 만들 수 있습니다. 자세한 내용은 [방법: ClickOnce 응용 프로그램에 대 한 사용자 지정 권한을 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)합니다.  
   
  애플리케이션이 배포되는 영역의 기본 권한 집합에 속하지 않는 권한을 포함하면 설치 또는 업데이트 시 권한을 부여하라는 메시지가 나타납니다. 시스템 관리자가 특정 애플리케이션 게시자를 신뢰할 수 있는 소스로 정의하는 ClickOnce 배포 정책을 지정하여 해당 메시지가 표시되지 않게 할 수도 있습니다. 이 정책이 배포되는 컴퓨터에서는 사용 권한이 자동으로 부여되므로 사용자에게 관련 메시지가 표시되지 않습니다.  
   
@@ -79,11 +79,11 @@ ms.locfileid: "58986192"
 ## <a name="deploying-obfuscated-assemblies"></a>난독 처리된 어셈블리 배포  
  Dotfuscator를 통해 애플리케이션을 난독 처리하여 다른 사용자가 코드를 리버스 엔지니어링하지 못하도록 할 수 있습니다. 그러나 어셈블리 난독 처리는 Visual Studio IDE 또는 ClickOnce 배포 프로세스에 통합되지 않습니다. 따라서 빌드 후 단계 등을 통해 배포 프로세스 외부에서 난독 처리를 수행해야 합니다. 프로젝트를 빌드한 후 Visual Studio 외부에서 다음 단계를 직접 수행합니다.  
   
-1.  Dotfuscator를 사용하여 난독 처리를 수행합니다.  
+1. Dotfuscator를 사용하여 난독 처리를 수행합니다.  
   
-2.  Mage.exe나 MageUI.exe를 사용하여 ClickOnce 매니페스트를 생성하고 서명합니다. 자세한 내용은 [Mage.exe (매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) 하 고 [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)합니다.  
+2. Mage.exe나 MageUI.exe를 사용하여 ClickOnce 매니페스트를 생성하고 서명합니다. 자세한 내용은 [Mage.exe (매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) 하 고 [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)합니다.  
   
-3.  배포 소스 위치(웹 서버, UNC 공유 또는 CD-ROM)에 파일을 직접 복사하여 게시합니다.  
+3. 배포 소스 위치(웹 서버, UNC 공유 또는 CD-ROM)에 파일을 직접 복사하여 게시합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)   

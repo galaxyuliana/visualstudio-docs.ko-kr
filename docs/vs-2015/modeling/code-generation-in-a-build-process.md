@@ -12,12 +12,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 61301fce94ab1359a10249f739d2bf613ebfdda8
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: f2146c8a15292ddc9233c8e10b8f58f5212df0c5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002449"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077604"
 ---
 # <a name="code-generation-in-a-build-process"></a>빌드 프로세스의 코드 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,31 +27,31 @@ ms.locfileid: "59002449"
 
 즉, MSBuild에서 텍스트 템플릿을 빌드하는 경우와 같은 방법으로 프로젝트 파일 이름과 같은 항목에 액세스할 수 없습니다. 그러나 수 있습니다 [빌드 매개 변수를 사용 하 여 텍스트 템플릿 지시문 프로세서에 환경 정보를 전달할](#parameters)합니다.
 
-##  <a name="buildserver"></a> 컴퓨터 구성
+## <a name="buildserver"></a> 컴퓨터 구성
 
 개발 컴퓨터에서 빌드 작업을 사용 하려면 설치 [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148)합니다.
 
 하는 경우 [빌드 서버](http://msdn.microsoft.com/library/788443c3-0547-452e-959c-4805573813a9) 는 Visual Studio 설치 되지 않은 컴퓨터에서 실행 개발 컴퓨터에서 빌드 컴퓨터로 다음 파일을 복사 합니다. 여기서 '*'는 가장 최신 버전 번호로 대체합니다.
 
--   $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
+- $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
 
-    -   Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
 
-    -   Microsoft.TextTemplating.Build.Tasks.dll
+    - Microsoft.TextTemplating.Build.Tasks.dll
 
-    -   Microsoft.TextTemplating.targets
+    - Microsoft.TextTemplating.targets
 
--   $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
+- $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
 
-    -   Microsoft.VisualStudio.TextTemplating.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.*.0.dll
 
-    -   Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll(여러 파일)
+    - Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll(여러 파일)
 
-    -   Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
 
--   $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
+- $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
 
-    -   Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
 
 ## <a name="to-edit-the-project-file"></a>프로젝트 파일을 편집하려면
 
@@ -90,7 +90,7 @@ MSBuild에서 일부 특성을 구성하기 위해 프로젝트 파일을 편집
 
 변형 작업을 제어하기 위해 프로젝트 파일에 삽입할 수 있는 몇 가지 속성이 있습니다.
 
--   모든 빌드를 시작할 때 변환 작업을 실행합니다.
+- 모든 빌드를 시작할 때 변환 작업을 실행합니다.
 
     ```xml
     <PropertyGroup>
@@ -98,7 +98,7 @@ MSBuild에서 일부 특성을 구성하기 위해 프로젝트 파일을 편집
     </PropertyGroup>
     ```
 
--   예를 들어, 읽기 전용 파일은 체크 아웃되지 않기 때문에 파일을 덮어씁니다.
+- 예를 들어, 읽기 전용 파일은 체크 아웃되지 않기 때문에 파일을 덮어씁니다.
 
     ```xml
     <PropertyGroup>
@@ -106,7 +106,7 @@ MSBuild에서 일부 특성을 구성하기 위해 프로젝트 파일을 편집
     </PropertyGroup>
     ```
 
--   항상 모든 템플릿 변형:
+- 항상 모든 템플릿 변형:
 
     ```xml
     <PropertyGroup>
@@ -213,7 +213,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 </PropertyGroup>
 ```
 
-##  <a name="parameters"></a> 템플릿으로 빌드 컨텍스트 데이터 전달
+## <a name="parameters"></a> 템플릿으로 빌드 컨텍스트 데이터 전달
 
 프로젝트 파일에서 매개 변수 값을 설정할 수 있습니다. 예를 들어, 빌드 속성을 전달할 수 있습니다 하 고 [환경 변수](../msbuild/how-to-use-environment-variables-in-a-build.md):
 
@@ -234,7 +234,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 The project folder is: <#= ProjectFolder #>
 ```
 
-##  <a name="msbuild"></a> 어셈블리의 프로젝트 속성을 사용 하 여 및 include 지시문
+## <a name="msbuild"></a> 어셈블리의 프로젝트 속성을 사용 하 여 및 include 지시문
 
 $(SolutionDir)과 같은 Visual Studio 매크로는 MSBuild에서 작동하지 않습니다. 대신 적절한 프로젝트 속성을 사용할 수 있습니다.
 
@@ -271,13 +271,13 @@ $(SolutionDir)과 같은 Visual Studio 매크로는 MSBuild에서 작동하지 �
 
 **다른 옵션은 무엇이 있습니다 텍스트 템플릿 변환에 대 한?**
 
--   합니다 [TextTransform 유틸리티](../modeling/generating-files-with-the-texttransform-utility.md) 명령 스크립트에서 사용할 수 있습니다. 대부분의 경우 MSBuild를 사용하는 것이 더 쉽습니다.
+- 합니다 [TextTransform 유틸리티](../modeling/generating-files-with-the-texttransform-utility.md) 명령 스크립트에서 사용할 수 있습니다. 대부분의 경우 MSBuild를 사용하는 것이 더 쉽습니다.
 
--   [VS 확장에서 텍스트 변환 호출](../modeling/invoking-text-transformation-in-a-vs-extension.md)
+- [VS 확장에서 텍스트 변환 호출](../modeling/invoking-text-transformation-in-a-vs-extension.md)
 
--   [디자인 타임 텍스트 템플릿](../modeling/design-time-code-generation-by-using-t4-text-templates.md) Visual Studio에서 변환 됩니다.
+- [디자인 타임 텍스트 템플릿](../modeling/design-time-code-generation-by-using-t4-text-templates.md) Visual Studio에서 변환 됩니다.
 
--   [런타임 텍스트 템플릿](../modeling/run-time-text-generation-with-t4-text-templates.md) 응용 프로그램에서 런타임에 변형 됩니다.
+- [런타임 텍스트 템플릿](../modeling/run-time-text-generation-with-t4-text-templates.md) 응용 프로그램에서 런타임에 변형 됩니다.
 
 ## <a name="read-more"></a>자세히 보기
 

@@ -17,12 +17,12 @@ caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c403cefee3aa7d45c11cd80cf5fc2dd53a06c1fc
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 4cc62b8635a2d7a663b597d4f8a2363fe14ba432
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58971928"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071930"
 ---
 # <a name="how-to-find-the-name-of-the-aspnet-process"></a>방법: ASP.NET 프로세스의 이름 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,25 +42,25 @@ ms.locfileid: "58971928"
   
 ### <a name="to-determine-whether-project-code-resides-on-the-file-system-or-iis"></a>프로젝트 코드가 파일 시스템에 상주하는지 아니면 IIS에 상주하는지 확인하려면  
   
-1.  Visual Studio에서 엽니다 **솔루션 탐색기** 열려 있지 않으면입니다.  
+1. Visual Studio에서 엽니다 **솔루션 탐색기** 열려 있지 않으면입니다.  
   
-2.  응용 프로그램의 이름이 들어 있는 최상위 노드를 선택합니다.  
+2. 응용 프로그램의 이름이 들어 있는 최상위 노드를 선택합니다.  
   
-3.  경우는 **속성** 파일 경로 포함 하는 창 제목, 응용 프로그램 코드는 파일 시스템에 상주 합니다.  
+3. 경우는 **속성** 파일 경로 포함 하는 창 제목, 응용 프로그램 코드는 파일 시스템에 상주 합니다.  
   
      그렇지 않으면 합니다 **속성** 창 제목에는 웹 사이트의 이름이 포함 됩니다.  
   
 ### <a name="to-determine-the-iis-version-under-which-the-application-is-running"></a>응용 프로그램이 실행되는 IIS 버전을 확인하려면  
   
-1.  찾을 **관리 도구** 하 고 실행 합니다. 이 운영 체제에 따라 내의 아이콘이 표시 될 수 있습니다 **Control Panel**, 또는 클릭 하면 나타나는 메뉴 항목 **시작**합니다.  
+1. 찾을 **관리 도구** 하 고 실행 합니다. 이 운영 체제에 따라 내의 아이콘이 표시 될 수 있습니다 **Control Panel**, 또는 클릭 하면 나타나는 메뉴 항목 **시작**합니다.  
   
      Windows xp에서 **제어판** 종류별 보기나 클래식 보기로에 있을 수 있습니다. 종류별 보기를 클릭 해야 **클래식 보기로 전환** 또는 **성능 및 유지 관리** 보려는 합니다 **관리 도구** 아이콘입니다.  
   
-2.  **관리 도구**, 인터넷 정보 서비스를 실행 합니다. MMC 대화 상자가 나타납니다.  
+2. **관리 도구**, 인터넷 정보 서비스를 실행 합니다. MMC 대화 상자가 나타납니다.  
   
-3.  왼쪽 창에 컴퓨터 목록이 표시되면 응용 프로그램 코드가 상주하는 컴퓨터를 선택합니다.  
+3. 왼쪽 창에 컴퓨터 목록이 표시되면 응용 프로그램 코드가 상주하는 컴퓨터를 선택합니다.  
   
-4.  IIS 버전에는 **버전** 오른쪽 창의 열입니다.  
+4. IIS 버전에는 **버전** 오른쪽 창의 열입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [웹 응용 프로그램 원격 디버깅의 필수 구성 요소](../debugger/prerequistes-for-remote-debugging-web-applications.md)   

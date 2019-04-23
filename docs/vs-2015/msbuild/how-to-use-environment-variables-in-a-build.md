@@ -13,12 +13,12 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 78cdc8f95c5a48e8ce0491926b27f0521705e3bb
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 40b296e33d00e6abf6730c7ec29a1fe9ed8e039b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655886"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067991"
 ---
 # <a name="how-to-use-environment-variables-in-a-build"></a>방법: 빌드 시 환경 변수 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "59655886"
   
 #### <a name="to-provide-a-default-value-for-a-property"></a>속성의 기본값을 제공하려면  
   
--   속성에 값이 없는 경우에만 속성에서 `Condition` 특성을 사용하여 값을 설정합니다. 예를 들어 다음 코드는 `ToolsPath` 환경 변수가 설정되지 않은 경우에만 `ToolsPath` 속성을 c:\tools로 설정합니다.  
+- 속성에 값이 없는 경우에만 속성에서 `Condition` 특성을 사용하여 값을 설정합니다. 예를 들어 다음 코드는 `ToolsPath` 환경 변수가 설정되지 않은 경우에만 `ToolsPath` 속성을 c:\tools로 설정합니다.  
   
      `<ToolsPath Condition="'$(TOOLSPATH)' == ''">c:\tools</ToolsPath>`  
   

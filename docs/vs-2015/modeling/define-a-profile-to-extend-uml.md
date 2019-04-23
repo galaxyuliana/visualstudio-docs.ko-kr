@@ -16,12 +16,12 @@ caps.latest.revision: 44
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 832b7b148e73e8d21d56dea6b676910019294e13
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 59e00fb6b4db879ed70904397ba9a54c8bc25a6f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981661"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60069370"
 ---
 # <a name="define-a-profile-to-extend-uml"></a>프로필을 정의하여 UML 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,37 +45,37 @@ ms.locfileid: "58981661"
   
  프로필의 지역화된 변형을 정의할 수도 있습니다. 확장을 로드하는 사용자에게 해당 문화권에 적합한 변형이 표시됩니다.  
   
-##  <a name="DefineProfile"></a> 프로필을 정의 하는 방법  
+## <a name="DefineProfile"></a> 프로필을 정의 하는 방법  
   
 #### <a name="to-define-a-uml-profile"></a>UML 프로필을 정의하려면  
   
-1.  파일 이름 확장명이 `.profile`인 새 XML 파일을 만듭니다.  
+1. 파일 이름 확장명이 `.profile`인 새 XML 파일을 만듭니다.  
   
-2.  에 설명 된 지침에 따라 스테레오 타입 정의 추가할 [프로필의 구조](#Schema)합니다.  
+2. 에 설명 된 지침에 따라 스테레오 타입 정의 추가할 [프로필의 구조](#Schema)합니다.  
   
-3.  Visual Studio 확장(`.vsix` 파일)에 프로필을 추가합니다. 프로필에 대한 새 확장을 만들거나 기존 확장에 프로필을 추가할 수 있습니다.  
+3. Visual Studio 확장(`.vsix` 파일)에 프로필을 추가합니다. 프로필에 대한 새 확장을 만들거나 기존 확장에 프로필을 추가할 수 있습니다.  
   
      다음 섹션을 참조 하세요 [Visual Studio 확장에 프로필을 추가 하는 방법을](#AddProfile)합니다.  
   
-4.  컴퓨터에 확장을 설치합니다.  
+4. 컴퓨터에 확장을 설치합니다.  
   
-    1.  파일 이름 확장명이 `.vsix`인 확장 파일을 두 번 클릭합니다.  
+    1. 파일 이름 확장명이 `.vsix`인 확장 파일을 두 번 클릭합니다.  
   
-    2.  Visual Studio를 다시 시작합니다.  
+    2. Visual Studio를 다시 시작합니다.  
   
-5.  프로필이 설치되었는지 확인합니다.  
+5. 프로필이 설치되었는지 확인합니다.  
   
-    1.  UML 탐색기에서 모델을 선택합니다.  
+    1. UML 탐색기에서 모델을 선택합니다.  
   
-    2.  속성 창에서 클릭 합니다 **프로필** 속성입니다. 프로필이 메뉴에 나타납니다. 프로필 옆의 확인 표시를 설정합니다.  
+    2. 속성 창에서 클릭 합니다 **프로필** 속성입니다. 프로필이 메뉴에 나타납니다. 프로필 옆의 확인 표시를 설정합니다.  
   
-    3.  프로필에서 스테레오타입을 정의하는 요소를 선택합니다. 속성 창에서 클릭 합니다 **스테레오 타입** 속성입니다. 스테레오타입이 목록에 나타납니다. 스테레오타입 중 하나에 대해 확인 표시를 설정합니다.  
+    3. 프로필에서 스테레오타입을 정의하는 요소를 선택합니다. 속성 창에서 클릭 합니다 **스테레오 타입** 속성입니다. 스테레오타입이 목록에 나타납니다. 스테레오타입 중 하나에 대해 확인 표시를 설정합니다.  
   
-    4.  프로필에서 이 스테레오타입에 대한 추가 속성을 정의하는 경우 스테레오타입 속성을 확장하여 표시합니다.  
+    4. 프로필에서 이 스테레오타입에 대한 추가 속성을 정의하는 경우 스테레오타입 속성을 확장하여 표시합니다.  
   
-6.  자신의 컴퓨터에 설치하도록 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 다른 사용자에게 확장 파일을 보냅니다.  
+6. 자신의 컴퓨터에 설치하도록 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 다른 사용자에게 확장 파일을 보냅니다.  
   
-##  <a name="AddProfile"></a> Visual Studio 확장에 프로필을 추가 하는 방법  
+## <a name="AddProfile"></a> Visual Studio 확장에 프로필을 추가 하는 방법  
  프로필을 설치하고 다른 사용자에게 보낼 수 있으려면 Visual Studio 확장에 프로필을 추가해야 합니다. 자세한 내용은 [Visual Studio 확장 배포](http://go.microsoft.com/fwlink/?LinkId=160780)합니다.  
   
 #### <a name="to-define-a-profile-in-a-new-visual-studio-extension"></a>새 Visual Studio 확장에서 프로필을 정의하려면  
@@ -85,19 +85,19 @@ ms.locfileid: "58981661"
    > [!NOTE]
    >  이 절차를 사용하려면 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)]가 설치되어 있어야 합니다.  
   
-   1.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
+   1. **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
   
-   2.  에 **새 프로젝트** 대화 상자의 **설치 된 템플릿**를 확장 **Visual C#**, 클릭 **확장성**, 클릭및 **VSIX 프로젝트**합니다. 프로젝트 이름을 설정 하 고 클릭 **확인**합니다.  
+   2. 에 **새 프로젝트** 대화 상자의 **설치 된 템플릿**를 확장 **Visual C#**, 클릭 **확장성**, 클릭및 **VSIX 프로젝트**합니다. 프로젝트 이름을 설정 하 고 클릭 **확인**합니다.  
   
 2. 프로젝트에 프로필을 추가합니다.  
   
-   -   솔루션 탐색기에서 프로젝트를 마우스 오른쪽 **추가**를 클릭 하 고 **기존 항목**합니다. 대화 상자에서 프로필 파일을 찾습니다.  
+   - 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 **추가**를 클릭 하 고 **기존 항목**합니다. 대화 상자에서 프로필 파일을 찾습니다.  
   
 3. 프로필 파일의 설정 **출력 디렉터리로 복사** 속성입니다.  
   
-   1.  솔루션 탐색기에서 프로필 파일을 마우스 오른쪽 단추로 클릭 **속성**합니다.  
+   1. 솔루션 탐색기에서 프로필 파일을 마우스 오른쪽 단추로 클릭 **속성**합니다.  
   
-   2.  속성 창에서 설정 된 **출력 디렉터리로 복사** 속성을 **항상 복사**합니다.  
+   2. 속성 창에서 설정 된 **출력 디렉터리로 복사** 속성을 **항상 복사**합니다.  
   
 4. 솔루션 탐색기에서 `source.extension.vsixmanifest`를 엽니다.  
   
@@ -105,13 +105,13 @@ ms.locfileid: "58981661"
   
 5. 에 **자산** 페이지에서 프로필을 설명 하는 행을 추가 합니다.  
   
-   -   **새로 만들기**를 클릭합니다. 필드를 설정 합니다 **새 자산 추가** 다음과 같은 대화 합니다.  
+   - **새로 만들기**를 클릭합니다. 필드를 설정 합니다 **새 자산 추가** 다음과 같은 대화 합니다.  
   
-   -   설정할 **형식** 를 `Microsoft.VisualStudio.UmlProfile`  
+   - 설정할 **형식** 를 `Microsoft.VisualStudio.UmlProfile`  
   
         이것은 드롭다운 선택 항목 중 하나가 아니므로 키보드에서 이 이름을 입력합니다.  
   
-   -   클릭 **파일 시스템의 파일** 선택한 프로필 파일의 이름을 예를 들어 `MyProfile.profile`  
+   - 클릭 **파일 시스템의 파일** 선택한 프로필 파일의 이름을 예를 들어 `MyProfile.profile`  
   
 6. 프로젝트를 빌드합니다.  
   
@@ -121,27 +121,27 @@ ms.locfileid: "58981661"
   
 8. **배포를 위해 VSIX를 추출 하려면**  
   
-   1.  Windows 탐색기에서 폴더를 엽니다 **.\bin\Debug** 하거나 **.\bin\Release** 찾으려고 합니다 **.vsix** 파일. 이 파일은 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 확장 파일입니다. 컴퓨터에 설치하고 다른 Visual Studio 사용자에게 보낼 수 있습니다.  
+   1. Windows 탐색기에서 폴더를 엽니다 **.\bin\Debug** 하거나 **.\bin\Release** 찾으려고 합니다 **.vsix** 파일. 이 파일은 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 확장 파일입니다. 컴퓨터에 설치하고 다른 Visual Studio 사용자에게 보낼 수 있습니다.  
   
-   2.  확장을 설치하려면  
+   2. 확장을 설치하려면  
   
-       1.  `.vsix` 파일을 두 번 클릭합니다. Visual Studio 확장 설치 관리자가 시작됩니다.  
+       1. `.vsix` 파일을 두 번 클릭합니다. Visual Studio 확장 설치 관리자가 시작됩니다.  
   
-       2.  실행 중인 Visual Studio 인스턴스를 다시 시작합니다.  
+       2. 실행 중인 Visual Studio 인스턴스를 다시 시작합니다.  
   
    [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)]를 설치하지 않은 경우 소규모 설치에는 다음 절차를 대신 사용할 수 있습니다.  
   
 #### <a name="to-define-a-profile-extension-without-using-visual-studio-sdk"></a>Visual Studio SDK를 사용하지 않고 프로필 확장을 정의하려면  
   
-1.  다음 세 개의 파일이 포함된 Windows 디렉터리를 만듭니다.  
+1. 다음 세 개의 파일이 포함된 Windows 디렉터리를 만듭니다.  
   
-    -   *YourProfile* `.profile`  
+    - *YourProfile* `.profile`  
   
-    -   `extension.vsixmanifest`  
+    - `extension.vsixmanifest`  
   
-    -   `[Content_Types].xml` - 이 이름을 대괄호와 함께 여기에 표시된 대로 입력합니다.  
+    - `[Content_Types].xml` - 이 이름을 대괄호와 함께 여기에 표시된 대로 입력합니다.  
   
-2.  다음 텍스트를 포함하도록 `[Content_Types].xml`을 편집합니다. 각 파일 이름 확장명에 대한 항목이 포함되었는지 확인합니다.  
+2. 다음 텍스트를 포함하도록 `[Content_Types].xml`을 편집합니다. 각 파일 이름 확장명에 대한 항목이 포함되었는지 확인합니다.  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -151,13 +151,13 @@ ms.locfileid: "58981661"
     </Types>  
     ```  
   
-3.  기존 `extension.vsixmanifest`를 복사하고 XML 편집기에서 편집합니다. ID, 이름 및 콘텐츠 노드를 변경합니다.  
+3. 기존 `extension.vsixmanifest`를 복사하고 XML 편집기에서 편집합니다. ID, 이름 및 콘텐츠 노드를 변경합니다.  
   
-    -   다음 디렉터리에서 `extension.vsixmanifest`의 예를 확인할 수 있습니다.  
+    - 다음 디렉터리에서 `extension.vsixmanifest`의 예를 확인할 수 있습니다.  
   
          *드라이브* **: Visual Studio [version] \Common7\IDE\Extensions\Microsoft\Architecture Tools\UmlProfiles \Program Files\Microsoft**  
   
-    -   콘텐츠 노드는 다음과 같아야 합니다.  
+    - 콘텐츠 노드는 다음과 같아야 합니다.  
   
         ```  
         <Content>  
@@ -166,39 +166,39 @@ ms.locfileid: "58981661"
         </Content>  
         ```  
   
-4.  세 개의 파일을 Zip 파일로 압축합니다.  
+4. 세 개의 파일을 Zip 파일로 압축합니다.  
   
      Windows 탐색기에서 세 파일을 선택, 마우스 오른쪽 단추로 클릭 하 고, 가리킨 **보내기**를 클릭 하 고 **압축 (zip) 폴더**합니다.  
   
-5.  Zip 파일의 이름을 바꾸고 파일 이름 확장명을 `.zip`에서 `.vsix`로 변경합니다.  
+5. Zip 파일의 이름을 바꾸고 파일 이름 확장명을 `.zip`에서 `.vsix`로 변경합니다.  
   
-6.  적절한 버전의 Visual Studio가 있는 컴퓨터에 프로필을 설치하려면 `.vsix` 파일을 두 번 클릭합니다.  
+6. 적절한 버전의 Visual Studio가 있는 컴퓨터에 프로필을 설치하려면 `.vsix` 파일을 두 번 클릭합니다.  
   
 #### <a name="to-install-a-uml-profile-from-a-visual-studio-extension"></a>Visual Studio 확장에서 UML 프로필을 설치하려면  
   
-1.  Windows 탐색기에서 `.vsix` 파일을 두 번 클릭하거나 Visual Studio 내에서 엽니다.  
+1. Windows 탐색기에서 `.vsix` 파일을 두 번 클릭하거나 Visual Studio 내에서 엽니다.  
   
-2.  클릭 **설치** 나타나는 대화 상자에서.  
+2. 클릭 **설치** 나타나는 대화 상자에서.  
   
-3.  열을 제거 하거나 일시적으로 확장을 사용 하지 않도록 설정 하려면 **확장 및 업데이트** 에서 합니다 **도구** 메뉴.  
+3. 열을 제거 하거나 일시적으로 확장을 사용 하지 않도록 설정 하려면 **확장 및 업데이트** 에서 합니다 **도구** 메뉴.  
   
-##  <a name="Localized"></a> 지역화 된 프로필을 정의 하는 방법  
+## <a name="Localized"></a> 지역화 된 프로필을 정의 하는 방법  
  각 문화권 또는 언어에 대해 다른 프로필을 정의하고 모두 동일한 확장에 패키징할 수 있습니다. 사용자가 확장을 로드하면 해당 문화권에 대해 정의한 프로필이 표시됩니다.  
   
  기본 프로필은 항상 제공해야 합니다. 사용자 문화권에 대해 프로필을 정의하지 않은 경우 기본 프로필이 표시됩니다.  
   
 #### <a name="to-define-a-localized-profile"></a>지역화된 프로필을 정의하려면  
   
-1.  이전 섹션에서 설명한 대로 프로필을 만듭니다[프로필을 정의 하는 방법](#DefineProfile) 하 고 [Visual Studio 확장에 프로필을 추가 하는 방법을](#AddProfile)합니다. 이는 기본 프로필이며, 지역화된 프로필을 제공하지 않은 모든 설치에 사용됩니다.  
+1. 이전 섹션에서 설명한 대로 프로필을 만듭니다[프로필을 정의 하는 방법](#DefineProfile) 하 고 [Visual Studio 확장에 프로필을 추가 하는 방법을](#AddProfile)합니다. 이는 기본 프로필이며, 지역화된 프로필을 제공하지 않은 모든 설치에 사용됩니다.  
   
-2.  기본 프로필 파일과 동일한 디렉터리에 새 디렉터리를 추가합니다.  
+2. 기본 프로필 파일과 동일한 디렉터리에 새 디렉터리를 추가합니다.  
   
     > [!NOTE]
     >  Visual Studio 확장 프로젝트를 사용하여 확장을 빌드하는 경우 솔루션 탐색기를 사용하여 프로젝트에 새 폴더를 추가합니다.  
   
-3.  새 디렉터리의 이름을 지역화된 문화권에 대한 ISO 짧은 코드로 변경합니다. 예를 들어 불가리아어는 `bg`이고, 프랑스어는 `fr`입니다. `fr-CA`와 같은 특정 문화권이 아니라 일반적으로 두 문자로 이루어진 중립 문화권 코드를 사용해야 합니다. 문화권 코드에 대 한 자세한 내용은 참조 하세요. [CultureInfo.GetCultures 메서드](http://go.microsoft.com/fwlink/?LinkId=160782), 문화권 코드의 전체 목록을 제공 합니다.  
+3. 새 디렉터리의 이름을 지역화된 문화권에 대한 ISO 짧은 코드로 변경합니다. 예를 들어 불가리아어는 `bg`이고, 프랑스어는 `fr`입니다. `fr-CA`와 같은 특정 문화권이 아니라 일반적으로 두 문자로 이루어진 중립 문화권 코드를 사용해야 합니다. 문화권 코드에 대 한 자세한 내용은 참조 하세요. [CultureInfo.GetCultures 메서드](http://go.microsoft.com/fwlink/?LinkId=160782), 문화권 코드의 전체 목록을 제공 합니다.  
   
-4.  기본 프로필의 복사본을 새 디렉터리에 추가합니다. 파일 이름을 변경하지 마세요.  
+4. 기본 프로필의 복사본을 새 디렉터리에 추가합니다. 파일 이름을 변경하지 마세요.  
   
      샘플 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] Extension 폴더에 작성 되거나 압축 되기 전에 `.vsix` 파일에서 다음 폴더와 파일이 포함 됩니다.  
   
@@ -213,13 +213,13 @@ ms.locfileid: "58981661"
     > [!NOTE]
     >  지역화된 버전의 프로필에 대한 참조를 `extension.vsixmanifest`에 삽입하면 안 됩니다. 복사된 프로필 파일은 부모 폴더의 프로필과 이름이 같아야 합니다.  
   
-5.  프로필의 새 복사본을 편집하고 `displayName` 특성과 같이 사용자에게 표시되는 모든 파트를 대상 언어로 번역합니다.  
+5. 프로필의 새 복사본을 편집하고 `displayName` 특성과 같이 사용자에게 표시되는 모든 파트를 대상 언어로 번역합니다.  
   
-6.  개수 제한 없이 원하는 문화권에 대한 추가 문화권 폴더 및 지역화된 프로필을 만들 수 있습니다.  
+6. 개수 제한 없이 원하는 문화권에 대한 추가 문화권 폴더 및 지역화된 프로필을 만들 수 있습니다.  
   
-7.  이전 섹션에서 설명한 대로 확장 프로젝트를 빌드하거나 모든 파일을 압축하여 Visual Studio 확장을 빌드합니다.  
+7. 이전 섹션에서 설명한 대로 확장 프로젝트를 빌드하거나 모든 파일을 압축하여 Visual Studio 확장을 빌드합니다.  
   
-##  <a name="Schema"></a> 프로필의 구조  
+## <a name="Schema"></a> 프로필의 구조  
  다음 샘플에서 UML 프로필의 XSD 파일을 찾을 수 있습니다. [스테레오 타입 및 프로필 XSD 설정](http://go.microsoft.com/fwlink/?LinkID=213811)합니다. 프로필 파일 편집에 도움이 되도록 `.xsd` 파일을 다음 위치에 설치합니다.  
   
  **%ProgramFiles%\Microsoft Visual Studio [version]\Xml\Schemas**  
@@ -251,11 +251,11 @@ ms.locfileid: "58981661"
   
  모든 프로필에 세 개의 주요 섹션이 있습니다. 해당 프로필은 반대 순서로 다음과 같습니다.  
   
--   `<propertyTypes>` - 스테레오타입 섹션에서 정의된 속성에 사용되는 형식 목록입니다.  
+- `<propertyTypes>` - 스테레오타입 섹션에서 정의된 속성에 사용되는 형식 목록입니다.  
   
--   `<metaclasses>` - 이 프로필의 스테레오타입이 적용되는 모델 요소 형식(예: IClass, IInterface, IOperation, IDependency)의 목록입니다.  
+- `<metaclasses>` - 이 프로필의 스테레오타입이 적용되는 모델 요소 형식(예: IClass, IInterface, IOperation, IDependency)의 목록입니다.  
   
--   `<stereotypes>` - 스테레오타입 정의입니다. 각 정의는 대상 모델 요소에 추가된 속성의 이름 및 형식을 포함합니다.  
+- `<stereotypes>` - 스테레오타입 정의입니다. 각 정의는 대상 모델 요소에 추가된 속성의 이름 및 형식을 포함합니다.  
   
 #### <a name="property-types"></a>속성 형식  
  합니다 `<propertyTypes>` 섹션에서 속성에 사용 되는 형식 목록을 선언 합니다 `<stereotypes>` 섹션입니다. 두 종류의 속성 형식이 있으며, 외부 형식과 열거형입니다.  
@@ -335,7 +335,7 @@ ms.locfileid: "58981661"
 </stereotype>  
 ```  
   
-##  <a name="Elements"></a> 모델 요소 형식  
+## <a name="Elements"></a> 모델 요소 형식  
  스테레오 타입을 정의할 수 있는 형식 집합에 포함 된 [UML 모델 요소 형식](../modeling/uml-model-element-types.md)합니다.  
   
 ## <a name="troubleshooting"></a>문제 해결  
@@ -343,7 +343,7 @@ ms.locfileid: "58981661"
  패키지 또는 모델에서 프로필을 선택해야 합니다. 그러면 패키지 또는 모델 내 요소에 스테레오타입이 나타납니다. 자세한 내용은 [uml 스테레오 타입 추가 모델 요소](../modeling/add-stereotypes-to-uml-model-elements.md)합니다.  
   
  UML 모델을 열면 다음 오류가 나타납니다. **VS1707: Serialization 오류가 발생 했기 때문에 다음 프로필을 로드할 수 없습니다. MyProfile.profile**  
- 1.  .profile의 기본 XML 구문이 올바른지 확인합니다.  
+1. .profile의 기본 XML 구문이 올바른지 확인합니다.  
   
 2. 각 모니커 이름이 /profileName/nodeName 형식인지 확인합니다. profileName은 루트 프로필 노드의 name 특성 값입니다. nodeName은 메타클래스, externalType 또는 enumerationType의 name 특성 값입니다.  
   
@@ -351,16 +351,16 @@ ms.locfileid: "58981661"
   
 4. 오류가 발생한 확장을 제거합니다. **도구** 메뉴에서 **확장 및 업데이트**를 클릭합니다.  
   
-   -   확장이 나타나지 않는 경우 다음 항목을 참조하세요.  
+   - 확장이 나타나지 않는 경우 다음 항목을 참조하세요.  
   
 5. VSIX 파일을 다시 빌드하고 Windows 탐색기에서 열어 다시 설치합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 다시 시작합니다.  
   
    확장 확장 관리자에 표시 되지 않지만 다시 설치 하려고 할 때 다음 메시지가 나타납니다. **확장을 적용 하는 모든 제품에 이미 설치 되었습니다.**  
-   1.  하위 폴더에서 확장 파일을 제거 *LocalAppData*\Microsoft\VisualStudio\\[version] \Extensions\  
+   1. 하위 폴더에서 확장 파일을 제거 *LocalAppData*\Microsoft\VisualStudio\\[version] \Extensions\  
   
-   -   보려는 *LocalAppData*, Windows 탐색기 폴더 옵션의 보기 탭에서 숨김 파일 및 폴더 표시를 설정 해야 합니다.  
+   - 보려는 *LocalAppData*, Windows 탐색기 폴더 옵션의 보기 탭에서 숨김 파일 및 폴더 표시를 설정 해야 합니다.  
   
-   -   *LocalAppData* 는 일반적으로 C:\Users\\*userName*\AppData\Local\  
+   - *LocalAppData* 는 일반적으로 C:\Users\\*userName*\AppData\Local\  
   
 6. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 다시 시작합니다.  
   

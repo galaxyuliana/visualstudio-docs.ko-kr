@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0c3a14a254eb3b07a95687faaf377664dd6f747a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1f5b12dce533aa03cf12efd8a6f9fc26ce990e5d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983217"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073828"
 ---
 # <a name="sharing-classes-between-dsls-by-using-a-dsl-library"></a>DSL 라이브러리를 사용하여 DSL 간에 클래스 공유
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,11 +25,11 @@ ms.locfileid: "58983217"
   
 #### <a name="to-create-a-dsl-library"></a>DSL 라이브러리를 만들려면  
   
-1.  새 DSL 프로젝트를 만들고 DSL 라이브러리 솔루션 템플릿을 선택 합니다.  
+1. 새 DSL 프로젝트를 만들고 DSL 라이브러리 솔루션 템플릿을 선택 합니다.  
   
      빈 모델을 사용 하 여 단일 DSL 프로젝트 만들어질 수 있습니다.  
   
-2.  도메인 클래스, 관계, 셰이프 등 추가할 수 있습니다.  
+2. 도메인 클래스, 관계, 셰이프 등 추가할 수 있습니다.  
   
      라이브러리에 있는 요소는 단일 포함 트리를 형성 필요가 없습니다.  
   
@@ -37,15 +37,15 @@ ms.locfileid: "58983217"
   
      설정을 고려 합니다 **상속 한정자** 도메인 클래스의 `Abstract`합니다.  
   
-3.  연결 작성기와 같은 DSL 탐색기에서 정의 하는 요소를 추가할 수 있습니다.  
+3. 연결 작성기와 같은 DSL 탐색기에서 정의 하는 요소를 추가할 수 있습니다.  
   
-4.  유효성 검사 제약 조건 등의 추가 코드를 필요로 하는 사용자 지정 항목을 추가할 수 있습니다.  
+4. 유효성 검사 제약 조건 등의 추가 코드를 필요로 하는 사용자 지정 항목을 추가할 수 있습니다.  
   
-5.  클릭 **모든 템플릿 변환**합니다.  
+5. 클릭 **모든 템플릿 변환**합니다.  
   
-6.  프로젝트를 빌드합니다.  
+6. 프로젝트를 빌드합니다.  
   
-7.  컴파일된 어셈블리 (DLL) 및 파일을 모두 제공 해야 다른 사람들이 사용 하 여 DSL을 배포할 때 `DslDefinition.dsl`합니다. 아래에 폴더에서 컴파일된 어셈블리를 찾을 수 있습니다. `Dsl\bin\*`  
+7. 컴파일된 어셈블리 (DLL) 및 파일을 모두 제공 해야 다른 사람들이 사용 하 여 DSL을 배포할 때 `DslDefinition.dsl`합니다. 아래에 폴더에서 컴파일된 어셈블리를 찾을 수 있습니다. `Dsl\bin\*`  
   
 #### <a name="to-import-a-dsl-library"></a>DSL 라이브러리를 가져오려면  
   

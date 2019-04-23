@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8246f42064a668959ea180c3a97cba643afbb57c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 954a106b87d0ee941aa9c3a6c9c35579d1cb3d54
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645279"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071683"
 ---
 # <a name="how-to-programmatically-list-recently-used-workbook-files"></a>방법: 프로그래밍 방식으로 최근에 사용한 파일 목록에서 통합 문서
   <xref:Microsoft.Office.Interop.Excel._Application.RecentFiles%2A> 속성 최근에 사용한 파일의 Microsoft Office Excel 목록에 표시 되는 모든 파일의 이름이 들어 있는 컬렉션을 반환 합니다. 목록의 길이 유지 하려면 사용자가 선택한 파일의 수에 따라 달라 집니다. 범위에서 결과 표시할 수 있습니다.
@@ -29,7 +29,7 @@ ms.locfileid: "56645279"
 
 ## <a name="to-list-recently-used-workbooks-in-a-range-object"></a>범위 개체의 목록 최근에 사용한 통합 문서에
 
-1.  최근에 사용한 파일 목록을 반복 하 고 이름을 기준으로 셀에 표시 된 <xref:Microsoft.Office.Interop.Excel.Range> 개체입니다.
+1. 최근에 사용한 파일 목록을 반복 하 고 이름을 기준으로 셀에 표시 된 <xref:Microsoft.Office.Interop.Excel.Range> 개체입니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#9](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#9)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#9](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#9)]

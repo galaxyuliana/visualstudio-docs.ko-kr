@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8b653d1b19842910fc88deb9d9cae5db918f35b3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: a343cb508933b91f5400ff6bc17c285a54bd2e87
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54767101"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076801"
 ---
 # <a name="how-to-create-a-basic-texture"></a>방법: 기본 질감 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,15 +23,15 @@ ms.locfileid: "54767101"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   질감 크기 설정  
+- 질감 크기 설정  
   
--   전경색 및 배경색 설정  
+- 전경색 및 배경색 설정  
   
--   알파 채널(투명도) 사용  
+- 알파 채널(투명도) 사용  
   
--   **채우기** 및 **타원** 도구 사용  
+- **채우기** 및 **타원** 도구 사용  
   
--   도구 속성 설정  
+- 도구 속성 설정  
   
 ## <a name="creating-a-basic-texture"></a>기본 질감 만들기  
  [이미지 편집기]를 사용하여 게임 또는 앱에 대한 이미지와 질감을 만들고 수정할 수 있습니다.  
@@ -88,7 +88,7 @@ ms.locfileid: "54767101"
   
     ![전체 "bullseye" 대상 질감](../designers/media/gfx-image-demo-bullseye.png "gfx_image_demo_bullseye")  
   
-    다음 단계로 이 질감에 대한 MIP 수준을 생성할 수 있습니다. 자세한 내용은 [방법: MIP 수준 만들기 및 수정](../designers/how-to-create-and-modify-mip-levels.md)을 참조하세요.  
+    다음 단계로 이 질감에 대한 MIP 수준을 생성할 수 있습니다. 자세한 내용은 [방법: MIP 수준 만들기 및 수정](../designers/how-to-create-and-modify-mip-levels.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Image Editor](../designers/image-editor.md)

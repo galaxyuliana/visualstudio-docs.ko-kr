@@ -16,12 +16,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e083da3dce7ed6b69309557d9e960a302f5b3d60
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5755c6a3b4ece5b40c7799d83bdf33966d5c2b3e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984683"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070786"
 ---
 # <a name="using-the-legacy-activity-designer"></a>레거시 활동 디자이너 사용
 이 항목에서는 레거시 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 활동 디자이너를 사용하는 방법에 대해 설명합니다. 레거시 디자이너는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 하는 경우에 사용합니다.  
@@ -35,9 +35,9 @@ ms.locfileid: "58984683"
   
 2. 선택 된 **활동** 또는 **활동 (코드 분리)** 템플릿.  
   
-   1.  사용 된 **활동** 활동 정의와 사용자 코드가 같은 코드 파일에 사용 하 여 작업을 만들기 위한 템플릿.  
+   1. 사용 된 **활동** 활동 정의와 사용자 코드가 같은 코드 파일에 사용 하 여 작업을 만들기 위한 템플릿.  
   
-   2.  사용 된 **활동 (코드 분리)** 별도 코드 파일에 사용자 코드가 있는 워크플로 마크업으로 표현 된 활동 정의 사용 하 여 작업을 만들기 위한 템플릿.  
+   2. 사용 된 **활동 (코드 분리)** 별도 코드 파일에 사용자 코드가 있는 워크플로 마크업으로 표현 된 활동 정의 사용 하 여 작업을 만들기 위한 템플릿.  
   
 3. 활동 이름을 입력 하거나 기본 이름을 유지 하 고, 클릭 **추가**합니다.  
   

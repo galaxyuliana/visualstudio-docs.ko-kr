@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 630934ce6915191ccb111e8bc061d8faacc421f7
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: ce8bc44bf506cf315420aad4108832f7461f1c70
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415475"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077877"
 ---
 # <a name="add-commands-and-gestures-to-dependency-diagrams"></a>종속성 다이어그램에 명령 및 제스처 추가
 
@@ -66,7 +66,7 @@ ms.locfileid: "58415475"
 
 명령, 레이어 유효성 검사기 및 기타 확장이 포함된 하나의 VSIX를 만들려면 VSIX를 정의하는 프로젝트 하나와 처리기에 대한 개별 프로젝트를 만드는 것이 좋습니다.
 
-1. 새 **클래스 라이브러리** 프로젝트입니다. 이 프로젝트는 명령 또는 제스처 처리기 클래스를 포함합니다.
+1. 새 **클래스 라이브러리** 프로젝트를 만듭니다. 이 프로젝트는 명령 또는 제스처 처리기 클래스를 포함합니다.
 
    > [!NOTE]
    > 한 클래스 라이브러리에서 두 개 이상의 명령 또는 제스처 처리기 클래스를 정의할 수 있지만, 별도 클래스 라이브러리에서 레이어 유효성 검사 클래스를 정의해야 합니다.
@@ -108,7 +108,7 @@ ms.locfileid: "58415475"
 
 8. VSIX의 Visual Studio 또는 다른 컴퓨터에 주 인스턴스를 설치 하려면 합니다 **.vsix** 파일을 **bin** 의 VSIX 프로젝트 디렉터리. VSIX를 설치할 컴퓨터에 파일을 복사합니다. 파일 탐색기에서 VSIX 파일을 두 번 클릭 합니다.
 
-##  <a name="command"></a> 메뉴 명령 정의
+## <a name="command"></a> 메뉴 명령 정의
 
 기존 제스처 또는 명령 프로젝트에 메뉴 명령 정의를 더 추가할 수 있습니다. 각 명령은 다음과 같은 특징이 있는 클래스에 의해 정의됩니다.
 
@@ -124,11 +124,11 @@ ms.locfileid: "58415475"
 
 - `ICommandExtension` 을 구현하는 메서드는 다음과 같습니다.
 
-  -   `string Text {get;}` - 메뉴에 표시되는 레이블입니다.
+  - `string Text {get;}` - 메뉴에 표시되는 레이블입니다.
 
-  -   `void QueryStatus(IMenuCommand command)` - 사용자가 다이어그램을 마우스 오른쪽 단추로 클릭할 때 호출되며 사용자의 현재 선택 항목에 대해 명령이 표시되고 사용할 수 있어야 하는지 여부를 확인합니다.
+  - `void QueryStatus(IMenuCommand command)` - 사용자가 다이어그램을 마우스 오른쪽 단추로 클릭할 때 호출되며 사용자의 현재 선택 항목에 대해 명령이 표시되고 사용할 수 있어야 하는지 여부를 확인합니다.
 
-  -   `void Execute(IMenuCommand command)` - 사용자가 명령을 선택할 때 호출됩니다.
+  - `void Execute(IMenuCommand command)` - 사용자가 명령을 선택할 때 호출됩니다.
 
 - 현재 선택 항목을 확인하기 위해 `IDiagramContext`를 가져올 수 있습니다.
 
@@ -212,7 +212,7 @@ namespace MyLayerExtension // Change to your preference.
 }
 ```
 
-##  <a name="gesture"></a> 제스처 처리기 정의
+## <a name="gesture"></a> 제스처 처리기 정의
 
 제스처 처리기는 사용자가 종속성 다이어그램으로 항목을 끌면 및 사용자가 다이어그램에서 아무 곳 이나 두 번 클릭할 때 응답 합니다.
 
@@ -238,7 +238,7 @@ namespace MyLayerExtensions // change to your preference
 
 제스처 처리기와 관련하여 다음 사항에 주의하세요.
 
--   `IGestureExtension` 의 멤버는 다음과 같습니다.
+- `IGestureExtension` 의 멤버는 다음과 같습니다.
 
      **OnDoubleClick** - 사용자가 다이어그램을 두 번 클릭할 때 호출됩니다.
 
@@ -246,7 +246,7 @@ namespace MyLayerExtensions // change to your preference
 
      **OnDragDrop** - 사용자가 다이어그램에 항목을 놓을 때 호출됩니다.
 
--   각 메서드의 첫 번째 인수는 `IShape`로, 여기서 레이어 요소를 가져올 수 있습니다. 예를 들어:
+- 각 메서드의 첫 번째 인수는 `IShape`로, 여기서 레이어 요소를 가져올 수 있습니다. 예를 들어:
 
     ```csharp
     public void OnDragDrop(IShape target, IDataObject data)
@@ -259,7 +259,7 @@ namespace MyLayerExtensions // change to your preference
     }
     ```
 
--   일부 형식의 끌어온 항목에 대한 처리기는 이미 정의되었습니다. 예를 들어, 사용자는 종속성 다이어그램으로 솔루션 탐색기에서 항목을 끌어 옵니다. 이러한 형식의 항목에 대한 끌기 처리기는 정의할 수 없습니다. 이 경우 `DragDrop` 메서드가 호출되지 않습니다.
+- 일부 형식의 끌어온 항목에 대한 처리기는 이미 정의되었습니다. 예를 들어, 사용자는 종속성 다이어그램으로 솔루션 탐색기에서 항목을 끌어 옵니다. 이러한 형식의 항목에 대한 끌기 처리기는 정의할 수 없습니다. 이 경우 `DragDrop` 메서드가 호출되지 않습니다.
 
 ## <a name="see-also"></a>참고 항목
 

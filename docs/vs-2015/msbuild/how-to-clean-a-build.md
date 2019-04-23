@@ -14,12 +14,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9f4f410656e49b1a76e74898940cbd32314fc8b4
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: f8c64bb19d65540f8c72be9acb1c5f59deb3c8f9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661336"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075365"
 ---
 # <a name="how-to-clean-a-build"></a>방법: 빌드 정리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,11 +31,11 @@ ms.locfileid: "59661336"
   
 #### <a name="to-create-a-directory-for-output-items"></a>출력 항목에 대한 디렉터리를 만들려면  
   
-1.  `Property` 요소를 사용하여 디렉터리의 위치 및 이름을 정의합니다. 예를 들어 프로젝트 및 원본 파일이 포함된 디렉터리에 `BuiltApp`이라는 디렉터리를 만듭니다.  
+1. `Property` 요소를 사용하여 디렉터리의 위치 및 이름을 정의합니다. 예를 들어 프로젝트 및 원본 파일이 포함된 디렉터리에 `BuiltApp`이라는 디렉터리를 만듭니다.  
   
      `<builtdir>BuiltApp</builtdir>`  
   
-2.  디렉터리가 없는 경우 [MakeDir](../msbuild/makedir-task.md) 작업을 사용하여 디렉터리를 만듭니다. 예:  
+2. 디렉터리가 없는 경우 [MakeDir](../msbuild/makedir-task.md) 작업을 사용하여 디렉터리를 만듭니다. 예:  
   
      `<MakeDir Directories = "$(builtdir)"`  
   
@@ -46,7 +46,7 @@ ms.locfileid: "59661336"
   
 #### <a name="to-remove-a-directory-and-all-files-contained-in-the-directory"></a>디렉터리에 포함된 디렉터리 및 모든 파일을 제거하려면  
   
--   `RemoveDir` 작업을 사용하여 디렉터리를 제거합니다. 예:  
+- `RemoveDir` 작업을 사용하여 디렉터리를 제거합니다. 예:  
   
      `<RemoveDir Directories="$(builtdir)" />`  
   

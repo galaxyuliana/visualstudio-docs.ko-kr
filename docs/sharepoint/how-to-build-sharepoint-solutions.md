@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: fe707f1b779978b26a53d11c32e92341e667be04
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 99109376c6c0279bcdd3852bd5bbadd8795c8564
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54867133"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067276"
 ---
 # <a name="how-to-build-sharepoint-solutions"></a>방법: SharePoint 솔루션 빌드
 
@@ -27,11 +27,11 @@ SharePoint 빌드 솔루션 Visual Studio에서 다른 응용 프로그램을 �
 
 ## <a name="to-build-sharepoint-solutions"></a>SharePoint 솔루션을 구축
 
-1.  디버그 또는 릴리스 빌드를 만드는 하는지 여부를 결정 합니다. 자세한 내용은 [디버거 프로젝트 설정](../debugger/debugger-project-settings.md)합니다.
+1. 디버그 또는 릴리스 빌드를 만드는 하는지 여부를 결정 합니다. 자세한 내용은 [디버거 프로젝트 설정](../debugger/debugger-project-settings.md)합니다.
 
-2.  또는 솔루션 또는 프로젝트를 다시 작성에 대 한 적절 한 옵션을 선택 합니다. 자세한 내용은 [Visual Studio에서 컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)합니다.
+2. 또는 솔루션 또는 프로젝트를 다시 작성에 대 한 적절 한 옵션을 선택 합니다. 자세한 내용은 [Visual Studio에서 컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)합니다.
 
-3.  메뉴 모음에서 **빌드** > **솔루션 빌드**를 선택합니다.
+3. 메뉴 모음에서 **빌드** > **솔루션 빌드**를 선택합니다.
 
 ## <a name="see-also"></a>참고자료
 

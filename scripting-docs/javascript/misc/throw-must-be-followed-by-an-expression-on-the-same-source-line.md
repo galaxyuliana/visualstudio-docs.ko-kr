@@ -14,15 +14,15 @@ ms.assetid: b03b7747-01a1-40c6-af80-a1dd70bc5781
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 5d2989b2ebb5cf0095736d5667f85a807558c495
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 4c8ed951fb30b84f114f8f44a60e94b88f0f1d0f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841145"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60069525"
 ---
 # <a name="throw-must-be-followed-by-an-expression-on-the-same-source-line"></a>같은 소스 줄에서 throw 뒤에는 식이 와야 합니다.
-사용 된 `throw` 키워드를 따르지이 식을 사용 하 여 같은 소스 줄에 있지만. A `throw` 문의 두 부분으로 이루어져:는 `throw` throw 식 뒤에 키워드를 합니다. 예를 들면,  
+사용 된 `throw` 키워드를 따르지이 식을 사용 하 여 같은 소스 줄에 있지만. A `throw` 문의 두 부분으로 이루어져:는 `throw` throw 식 뒤에 키워드를 합니다. 예를 들어:  
   
 ```JavaScript  
 if (denominator == 0) {  
@@ -34,7 +34,7 @@ if (denominator == 0) {
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   확인을 `throw` 키워드와 throw 식 동일한 줄에 나타납니다.  
+- 확인을 `throw` 키워드와 throw 식 동일한 줄에 나타납니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Error 개체](../../javascript/reference/error-object-javascript.md)   

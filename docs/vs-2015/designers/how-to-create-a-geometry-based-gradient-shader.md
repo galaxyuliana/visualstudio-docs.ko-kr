@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 555fe986267ce8cd88a5beea6f57cef2ba810156
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 8735931e761f7d511615b5be7e93e0198a6b1a45
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54797539"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071722"
 ---
 # <a name="how-to-create-a-geometry-based-gradient-shader"></a>방법: 기하 도형 기반 그라데이션 셰이더 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,13 +23,13 @@ ms.locfileid: "54797539"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   셰이더 그래프에 노드 추가  
+- 셰이더 그래프에 노드 추가  
   
--   노드 속성 설정  
+- 노드 속성 설정  
   
--   노드 연결 해제  
+- 노드 연결 해제  
   
--   노드 연결  
+- 노드 연결  
   
 ## <a name="creating-a-geometry-based-gradient-shader"></a>기하 도형 기반 그라데이션 셰이더 만들기  
  픽셀의 위치를 셰이더로 통합하여 기하 도형 기반 셰이더를 구현할 수 있습니다. 음영 언어에서 픽셀에는 2D 화면의 색상 및 위치 보다 더 많은 정보가 포함되어 있습니다. 일부 시스템에서는 *조각*이라고 하는 픽셀은 픽셀에 해당하는 표면을 설명하는 값의 모음입니다. 이 문서에 설명된 셰이더는 조각의 월드 공간에서 최종 출력 색상에 영향을 미치는 3D 개체의 각 픽셀 높이를 사용합니다.  

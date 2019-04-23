@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: be71d18b7fa0b3cc9dba8a27c6c462d5ea1a2434
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2e82b884965c5c7362951c7d94199f90c93fbfc3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608440"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073698"
 ---
 # <a name="how-to-programmatically-refer-to-worksheet-ranges-in-code"></a>방법: 프로그래밍 방식으로 코드에서 워크시트 범위 참조
   비슷한 프로세스를 사용 하 여의 내용을 참조 하는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 또는 네이티브 Excel 범위 개체입니다.
@@ -32,7 +32,7 @@ ms.locfileid: "56608440"
 
 ### <a name="to-refer-to-a-namedrange-control"></a>NamedRange 컨트롤에 대 한 참조
 
-1.  에 문자열을 할당 합니다 <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> 의 속성을 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤. 이 코드는 `ThisWorkbook` 클래스가 아니라 시트 클래스에 배치해야 합니다.
+1. 에 문자열을 할당 합니다 <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> 의 속성을 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤. 이 코드는 `ThisWorkbook` 클래스가 아니라 시트 클래스에 배치해야 합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#46](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#46)]
      [!code-vb[Trin_VstcoreExcelAutomation#46](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#46)]
@@ -42,7 +42,7 @@ ms.locfileid: "56608440"
 
 ### <a name="to-refer-to-a-native-range-object"></a>기본 범위 개체를 참조 하려면
 
-1.  문자열을 할당 합니다 <xref:Microsoft.Office.Interop.Excel.Range.Value2%2A> 범위의 속성입니다.
+1. 문자열을 할당 합니다 <xref:Microsoft.Office.Interop.Excel.Range.Value2%2A> 범위의 속성입니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#47](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#47)]
      [!code-vb[Trin_VstcoreExcelAutomation#47](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#47)]

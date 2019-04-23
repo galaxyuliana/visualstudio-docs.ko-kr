@@ -21,12 +21,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ad3dddec84ac8afc00681171bf59d13205229ca7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 533ad333923edf2e3f55ed5c4e85b42f422a573a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970791"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072372"
 ---
 # <a name="how-to-specify-a-link-for-technical-support"></a>방법: 기술 지원을 위한 링크 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,15 +37,15 @@ ms.locfileid: "58970791"
   
 ### <a name="to-specify-a-support-url"></a>지원 URL을 지정 하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **게시** 탭을 클릭합니다.  
+2. **게시** 탭을 클릭합니다.  
   
-3.  클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.  
+3. 클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.  
   
-4.  클릭 **설명을**합니다.  
+4. 클릭 **설명을**합니다.  
   
-5.  에 **지원 URL** 필드에 웹 사이트, 웹 페이지 또는 UNC 공유에는 정규화 된 경로 입력 합니다.  
+5. 에 **지원 URL** 필드에 웹 사이트, 웹 페이지 또는 UNC 공유에는 정규화 된 경로 입력 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   

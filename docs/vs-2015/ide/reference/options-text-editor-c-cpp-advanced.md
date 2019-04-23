@@ -15,12 +15,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a4f7da520c1659ebb75b777c031f171d1465493e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: ca10710d87777cdaeead42015d46cc6d489c907e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660777"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072639"
 ---
 # <a name="options-text-editor-cc-advanced"></a>옵션, 텍스트 편집기, C/C++, 고급
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -73,19 +73,19 @@ ms.locfileid: "59660777"
   
  다음 옵션의 합계를 사용하여 설정됩니다.  
   
--   0 - 없음  
+- 0 - 없음  
   
--   1 - 일반  
+- 1 - 일반  
   
--   2 - 유휴 상태  
+- 2 - 유휴 상태  
   
--   4 - 작업 항목  
+- 4 - 작업 항목  
   
--   8 - IntelliSense  
+- 8 - IntelliSense  
   
--   16 - ACPerf  
+- 16 - ACPerf  
   
--   32 - ClassView  
+- 32 - ClassView  
   
 ## <a name="fallback-location"></a>대체(fallback) 위치  
  대체(fallback) 위치는 기본 위치(솔루션과 동일한 디렉터리)가 사용되지 않는 경우 SDF 및 IntelliSense 지원 파일(예: iPCH)이 배치되는 위치입니다. 사용자에게 솔루션 디렉터리에 쓸 수 있는 권한이 없거나 솔루션 디렉터리가 느린 디바이스에 있는 경우 이러한 상황이 발생할 수 있습니다. 기본 대체(fallback) 위치는 사용자의 임시 디렉터리에 있습니다.  

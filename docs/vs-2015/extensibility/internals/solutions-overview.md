@@ -10,12 +10,12 @@ ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f44ab8e86a32fe4f1923b978bea7f6a7090921b4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 8daa7922b1f1ba7cb90cca9a77a6db14977c7518
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982809"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077617"
 ---
 # <a name="solutions-overview"></a>솔루션 개요
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,9 +37,9 @@ ms.locfileid: "58982809"
   
 3. 경우는 VSPackage가 로드 환경 `QueryInterface` 에 대 한 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> VSPackage 필요로 하는 인터페이스에 대 한 인터페이스입니다.  
   
-   1.  .Sln 파일을 읽을 때 환경 호출 `QueryInterface` 에 대 한 `IVsPersistSolutionProps`합니다.  
+   1. .Sln 파일을 읽을 때 환경 호출 `QueryInterface` 에 대 한 `IVsPersistSolutionProps`합니다.  
   
-   2.  .Suo 파일에서 읽기 환경 호출 `QueryInterface` 에 대 한 `IVsPersistSolutionOpts`합니다.  
+   2. .Suo 파일에서 읽기 환경 호출 `QueryInterface` 에 대 한 `IVsPersistSolutionOpts`합니다.  
   
    이러한 파일의 사용에 관련 된 특정 정보를 찾을 수 있습니다 [솔루션 (합니다. Sln) 파일](../../extensibility/internals/solution-dot-sln-file.md) 고 [솔루션 사용자 옵션 (합니다. Suo) 파일](../../extensibility/internals/solution-user-options-dot-suo-file.md)합니다.  
   

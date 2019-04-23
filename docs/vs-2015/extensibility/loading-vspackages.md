@@ -11,12 +11,12 @@ ms.assetid: f4c3dcea-5051-4065-898f-601269649d92
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 805b86802e64c91e52d869b067fac871603019e3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6c9de9c90840c01b37b99d813fbf23b7c2be3eea
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971235"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066574"
 ---
 # <a name="loading-vspackages"></a>VSPackage 로드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ Vspackage는 해당 기능이 필요한 경우에 Visual Studio에 로드 됩니
   
 ### <a name="autoloading-a-vspackage-in-a-specific-context"></a>특정 컨텍스트에서 VSPackage 자동 로드  
   
--   추가 된 `ProvideAutoLoad` VSPackage 특성에 특성:  
+- 추가 된 `ProvideAutoLoad` VSPackage 특성에 특성:  
   
     ```csharp  
     [DefaultRegistryRoot(@"Software\Microsoft\VisualStudio\14.0")]  
@@ -43,11 +43,11 @@ Vspackage는 해당 기능이 필요한 경우에 Visual Studio에 로드 됩니
   
      열거형된 필드를 참조 하세요. <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> UI 컨텍스트 및 GUID 값의 목록에 대 한 합니다.  
   
--   중단점을 설정 합니다 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드.  
+- 중단점을 설정 합니다 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드.  
   
--   VSPackage를 빌드 및 디버깅을 시작 합니다.  
+- VSPackage를 빌드 및 디버깅을 시작 합니다.  
   
--   솔루션을 로드 하거나 새로 만드십시오.  
+- 솔루션을 로드 하거나 새로 만드십시오.  
   
      VSPackage 로드 하 고 중단점에서 중지 됩니다.  
   
@@ -56,7 +56,7 @@ Vspackage는 해당 기능이 필요한 경우에 Visual Studio에 로드 됩니
   
  사용할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackage%2A> 강제로 VSPackage를 로드 하는 방법입니다.  
   
--   이 코드를 삽입 합니다 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 강제로 다른 VSPackage를 로드 하는 VSPackage의 메서드:  
+- 이 코드를 삽입 합니다 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 강제로 다른 VSPackage를 로드 하는 VSPackage의 메서드:  
   
     ```csharp  
     IVsShell shell = GetService(typeof(SVsShell)) as IVsShell;  

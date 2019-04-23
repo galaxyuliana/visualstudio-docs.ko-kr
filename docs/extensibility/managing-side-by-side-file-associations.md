@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f62318da0fc60a0fa9200d8ec11bdc4bb567ad86
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: f6cd0ac349d332f7e07d4f0ce6e5567cb5deb63c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954389"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067068"
 ---
 # <a name="manage-side-by-side-file-associations"></a>Side-by-side-파일 연결 관리
 
@@ -51,7 +51,7 @@ VSPackage 파일 연결을 제공 하는 경우는 side-by-side-설치를 처리
 
   **Visual Studio의 최신 버전을 결정 하는 CustomAction 테이블 행**
 
-  |작업|형식|소스|대상|
+  |작업|형식|Source|대상|
   |------------|----------|------------|------------|
   |CA_SetDevenvLatest_2002|51|DEVENV_EXE_LATEST|[DEVENV_EXE_2002]|
   |CA_SetDevenvLatest_2003|51|DEVENV_EXE_LATEST|[DEVENV_EXE_2003]|
@@ -81,9 +81,9 @@ VSPackage 파일 연결을 제공 하는 경우는 side-by-side-설치를 처리
 
 - 파일 연결을 소유 하는 사용자가 VSPackage의 버전의 복구를 실행 하도록 지시 합니다.
 
--   적절 한 레지스트리 항목을 다시 작성 하는 별도 실행 프로그램을 제공 합니다.
+- 적절 한 레지스트리 항목을 다시 작성 하는 별도 실행 프로그램을 제공 합니다.
 
--   구성 옵션 페이지 또는 대화 상자를 사용자가 파일 연결을 선택 하 고 손실 된 연결을 회수할 수 있도록 제공 합니다. 제거 후에 실행 하는 사용자에 게 지시 합니다.
+- 구성 옵션 페이지 또는 대화 상자를 사용자가 파일 연결을 선택 하 고 손실 된 연결을 회수할 수 있도록 제공 합니다. 제거 후에 실행 하는 사용자에 게 지시 합니다.
 
 ## <a name="see-also"></a>참고자료
 

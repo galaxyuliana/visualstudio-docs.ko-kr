@@ -12,21 +12,21 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2c358f80284083625dfe8c0eb3484c95000beb63
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 7f7fbb6c8e6a6310b736ade599ad7854bc4255c0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670448"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070742"
 ---
 # <a name="support-for-user-settings"></a>사용자 설정 지원
 VSPackage를 사용자가 유지 되는 상태 변수 그룹이 있는 하나 이상의 설정 범주를 정의할 수 있습니다 합니다 **설정 가져오기/내보내기** 명령을 합니다 **도구** 메뉴. 이 지 속성을 사용 하려면 설정을 Api 사용에 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]합니다.
 
  사용자 지정 설정 지점 및 GUID 라고 하는 레지스트리 항목을 VSPackage의 설정 범주를 정의 합니다. VSPackage는 여러 설정 범주를 지원할 수 있습니다, 그리고 각각 사용자 지정 설정 지점으로 정의 합니다.
 
--   Interop 어셈블리를 기반으로 하는 설정의 구현 (사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> 인터페이스) 레지스트리를 편집 하거나 등록자 스크립트 (.rgs 파일)를 사용 하 여 사용자 지정 설정 지점 만들어야 합니다. 자세한 내용은 [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts)을 참조하십시오.
+- Interop 어셈블리를 기반으로 하는 설정의 구현 (사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> 인터페이스) 레지스트리를 편집 하거나 등록자 스크립트 (.rgs 파일)를 사용 하 여 사용자 지정 설정 지점 만들어야 합니다. 자세한 내용은 [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts)을 참조하십시오.
 
--   관리 패키지 프레임 워크 (MPF)를 사용 하는 코드를 연결 하 여 사용자 지정 설정 지점을 만들어야는 <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> 각 사용자 지정 설정 지점에 대 한 vspackage입니다.
+- 관리 패키지 프레임 워크 (MPF)를 사용 하는 코드를 연결 하 여 사용자 지정 설정 지점을 만들어야는 <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> 각 사용자 지정 설정 지점에 대 한 vspackage입니다.
 
      단일 VSPackage는 여러 사용자 지정 설정 지점을 지원, 각 사용자 지정 설정 지점은 별도 클래스로 구현 되 고 각각의 고유 인스턴스를 등록 된 경우는 <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> 클래스입니다. 따라서 클래스를 구현 하는 설정을 여러 개 설정 범주를 지원할 수 있습니다.
 

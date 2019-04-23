@@ -9,25 +9,25 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 75d1a9fc5ac7fa35afb53c89f5af016ed909d11e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e31d9c01ded7754fd10419f3fd0e18d9616a51eb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55915963"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078241"
 ---
 # <a name="overview-of-domain-specific-language-tools"></a>도메인별 언어 도구 개요
 Visual Studio에서 호스팅되는 도메인 특정 언어 도구 (DSL 도구)를 사용 하 여 도메인 특정 언어의 디자인과 생성 하는 모든 사용자에 게 필요한 언어를 기반으로 하는 모델을 만들 수 있습니다.
 
  DSL 도구에 포함된 도구는 다음과 같습니다.
 
--   도메인 특정 언어 개발을 시작하는 데 도움이 되는 여러 솔루션 템플릿을 사용하는 프로젝트 마법사.
+- 도메인 특정 언어 개발을 시작하는 데 도움이 되는 여러 솔루션 템플릿을 사용하는 프로젝트 마법사.
 
--   도메인 특정 언어 정의를 만들고 편집하는 데 사용되는 그래픽 디자이너.
+- 도메인 특정 언어 정의를 만들고 편집하는 데 사용되는 그래픽 디자이너.
 
--   도메인 특정 언어 정의가 잘 구성되어 있는지 확인하고 문제가 있을 경우 오류와 경고를 표시하는 유효성 검사 엔진.
+- 도메인 특정 언어 정의가 잘 구성되어 있는지 확인하고 문제가 있을 경우 오류와 경고를 표시하는 유효성 검사 엔진.
 
--   도메인 특정 언어 정의를 입력으로 사용하고 소스 코드를 출력으로 생성하는 코드 생성기.
+- 도메인 특정 언어 정의를 입력으로 사용하고 소스 코드를 출력으로 생성하는 코드 생성기.
 
 ## <a name="the-dsl-tools-solution"></a>DSL 도구 솔루션
  도메인 특정 디자이너 마법사는 다음과 같은 솔루션 템플릿을 제공합니다.

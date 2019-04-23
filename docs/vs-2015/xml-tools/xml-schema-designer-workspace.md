@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6d0b14b9f1cbbb81cc814546c5965e505a42885d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 6200b96992638ccf5ad009ac103551824219135f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656546"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074962"
 ---
 # <a name="xml-schema-designer-workspace"></a>XML 스키마 디자이너 작업 영역
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,29 +26,29 @@ XML 스키마 디자이너(XSD 디자이너)는 XML 스키마를 탐색하는 �
 ## <a name="adding-nodes-to-the-workspace"></a>작업 영역에 노드 추가  
  다음 방법으로 작업 영역에 노드를 추가할 수 있습니다.  
   
--   "스키마 집합 정보" 섹션에는 [시작 뷰](../xml-tools/start-view.md)를 클릭 합니다 **추가** 전역 노드 형식 옆에 있는 링크입니다.  
+- "스키마 집합 정보" 섹션에는 [시작 뷰](../xml-tools/start-view.md)를 클릭 합니다 **추가** 전역 노드 형식 옆에 있는 링크입니다.  
   
--   전역 노드, 파일 노드 및 네임스페이스 노드를 XML 스키마 탐색기에서 세 개의 뷰로 끌어서 놓습니다. 자세한 내용은 "노드 끌어서 놓기" 섹션을 참조 하세요 [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)합니다.  
+- 전역 노드, 파일 노드 및 네임스페이스 노드를 XML 스키마 탐색기에서 세 개의 뷰로 끌어서 놓습니다. 자세한 내용은 "노드 끌어서 놓기" 섹션을 참조 하세요 [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)합니다.  
   
--   XML 스키마 탐색기에서 상황에 맞는 메뉴를 사용합니다. 자세한 내용은 [상황에 맞는 메뉴](../xml-tools/context-menus-xml-schema-explorer.md)합니다.  
+- XML 스키마 탐색기에서 상황에 맞는 메뉴를 사용합니다. 자세한 내용은 [상황에 맞는 메뉴](../xml-tools/context-menus-xml-schema-explorer.md)합니다.  
   
--   XSD 탐색기에서 검색을 수행 하 고 클릭 합니다 **작업 영역에 선택한 노드 추가** 요약 결과 창에서 단추입니다. 자세한 내용은 [스키마 집합 검색](../xml-tools/searching-the-schema-set.md)합니다.  
+- XSD 탐색기에서 검색을 수행 하 고 클릭 합니다 **작업 영역에 선택한 노드 추가** 요약 결과 창에서 단추입니다. 자세한 내용은 [스키마 집합 검색](../xml-tools/searching-the-schema-set.md)합니다.  
   
 ## <a name="view-switching"></a>뷰 전환  
  뷰를 전환하려면 다음 중 하나를 사용합니다.  
   
--   XSD 디자이너 도구 모음  
+- XSD 디자이너 도구 모음  
   
--   콘텐츠 모델 뷰 및 그래프 뷰의 상황에 맞는 메뉴  
+- 콘텐츠 모델 뷰 및 그래프 뷰의 상황에 맞는 메뉴  
   
--   시작 뷰 페이지의 워터마크, 빈 콘텐츠 모델 뷰 또는 그래프 뷰의 워터마크  
+- 시작 뷰 페이지의 워터마크, 빈 콘텐츠 모델 뷰 또는 그래프 뷰의 워터마크  
   
--   바로 가기 키: CTRL + 1 시작 뷰, CTRL + 2 그래프 뷰 및 CTRL + 콘텐츠 모델 뷰의 3입니다.  
+- 바로 가기 키: CTRL + 1 시작 뷰, CTRL + 2 그래프 뷰 및 CTRL + 콘텐츠 모델 뷰의 3입니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
   
--   [시작 뷰](../xml-tools/start-view.md)  
+- [시작 뷰](../xml-tools/start-view.md)  
   
--   [그래프 뷰](../xml-tools/graph-view.md)  
+- [그래프 뷰](../xml-tools/graph-view.md)  
   
--   [콘텐츠 모델 뷰](../xml-tools/content-model-view.md)
+- [콘텐츠 모델 뷰](../xml-tools/content-model-view.md)

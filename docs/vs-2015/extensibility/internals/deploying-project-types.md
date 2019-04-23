@@ -11,20 +11,20 @@ ms.assetid: 7f132f67-8589-464c-90dc-0d57ae02aa8f
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6f168656950c65ce133a8e808a0fa1232726e1b5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0fda84d5f7467a65b254d3b12b0466b6ab415d61
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971796"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076474"
 ---
 # <a name="deploying-project-types"></a>프로젝트 형식 배포
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] 새 프로젝트 형식 aggregator (ProjectAggregator2.dll) 및 재배포 (ProjectAggregator2.msi)에 대 한 Windows Installer 패키지를 설치합니다. 관리 코드 프로젝트 형식에 대해 새 집계가 사용 해야 합니다. ProjectAggregator2 작동 방법 제한 된 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] aggregator 관리 코드 프로젝트 형식을 올바르게 작동 하지 못하도록 하는 프로젝트입니다. 다음 단계를 새 집계를 사용 하 여 VSPackage를 변경 하는 방법에 설명 합니다.  
   
-1.  솔루션에서 NativeHierarchyWrapper 프로젝트를 제거 합니다.  
+1. 솔루션에서 NativeHierarchyWrapper 프로젝트를 제거 합니다.  
   
-2.  설치 프로그램에서 NativeHierarchyWrapper 이진 파일을 제거 합니다.  
+2. 설치 프로그램에서 NativeHierarchyWrapper 이진 파일을 제거 합니다.  
   
-3.  ProjectAggregator2.msi 설치에 추가 합니다.
+3. ProjectAggregator2.msi 설치에 추가 합니다.

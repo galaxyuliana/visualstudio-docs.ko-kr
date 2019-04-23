@@ -12,12 +12,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a8f71557dc7939e9b96c3d6cd3f2382ada69b493
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 77529ad9957694b1ea1853b3e8b1b1cc29c45e2b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54774603"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067042"
 ---
 # <a name="troubleshooting-the-help-viewer"></a>도움말 뷰어 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,15 +32,15 @@ ms.locfileid: "54774603"
   
 #### <a name="to-activate-windows-search-service"></a>Windows 검색 서비스를 활성화하려면  
   
-1.  서버 관리자를 클릭합니다.  
+1. 서버 관리자를 클릭합니다.  
   
-2.  왼쪽된 탐색 창에서 선택 **역할**을 선택합니다.  
+2. 왼쪽된 탐색 창에서 선택 **역할**을 선택합니다.  
   
-3.  역할 요약 창에서 선택 **역할 추가**를 선택합니다.  
+3. 역할 요약 창에서 선택 **역할 추가**를 선택합니다.  
   
-4.  파일 서비스 역할을 선택하고 **다음** 단추를 선택합니다.  
+4. 파일 서비스 역할을 선택하고 **다음** 단추를 선택합니다.  
   
-5.  Windows 검색 역할 서비스를 선택합니다.  
+5. Windows 검색 역할 서비스를 선택합니다.  
   
 ## <a name="additional-resources"></a>추가 리소스  
  다음 리소스를 사용하여 도움말 뷰어에 대한 추가 정보를 얻고 피드백을 제공할 수 있습니다.  

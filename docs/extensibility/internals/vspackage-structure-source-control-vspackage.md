@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: aeaa87cf55b9429904286817b043dcba92d2bfcf
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 03b9d4fb6a92694df55d6732ac80d75645209a87
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335222"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071280"
 ---
 # <a name="vspackage-structure-source-control-vspackage"></a>VSPackage 구조(소스 제어 VSPackage)
 
@@ -28,23 +28,23 @@ VSPackage는 해당 메뉴 항목을 선언 하 고.vsct 파일을 통해 기본
 
 소스 제어 VSPackage는 Visual Studio에 긴밀 하 게 통합 됩니다. VSPackage 의미 체계는 다음과 같습니다.
 
--   VSPackage 기능 구현 될 인터페이스 (의 `IVsPackage` 인터페이스)
+- VSPackage 기능 구현 될 인터페이스 (의 `IVsPackage` 인터페이스)
 
--   UI 명령을 구현 (.vsct 파일 및 구현의 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스)
+- UI 명령을 구현 (.vsct 파일 및 구현의 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스)
 
--   Visual Studio 사용 하 여 VSPackage의 등록 합니다.
+- Visual Studio 사용 하 여 VSPackage의 등록 합니다.
 
 소스 제어 VSPackage 이러한 다른 Visual Studio 엔터티를 사용 하 여 통신 해야 합니다.
 
--   프로젝트
+- 프로젝트
 
--   편집기
+- 편집기
 
--   솔루션
+- 솔루션
 
--   Windows
+- Windows
 
--   실행 중인 문서 테이블
+- 실행 중인 문서 테이블
 
 ### <a name="visual-studio-environment-services-that-may-be-consumed"></a>사용 될 수 있는 visual Studio 환경 서비스
 

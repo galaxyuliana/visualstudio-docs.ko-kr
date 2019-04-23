@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bdfd80818e88af8e2907c982e75628627bcac5e9
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: f226f65e493ced3a33dcfe7514633992cce158d0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648552"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070071"
 ---
 # <a name="walkthrough-add-controls-to-a-document-at-runtime-in-a-vsto-add-in"></a>연습: VSTO 추가 기능에서 런타임에 문서에 컨트롤 추가
   VSTO 추가 기능을 사용 하 여 열려 있는 Microsoft Office Word 문서에 컨트롤을 추가할 수 있습니다. 이 연습에서는 리본 메뉴를 사용 하 여 추가할 사용자를 사용 하도록 설정 하는 방법에 설명 된 <xref:Microsoft.Office.Tools.Word.Controls.Button> 또는 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 문서.
@@ -42,18 +42,18 @@ ms.locfileid: "59648552"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] 또는 [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)]
+- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] 또는 [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)]
 
 ## <a name="create-a-new-word-add-in-project"></a>새 프로젝트에서 Word 추가 기능 만들기
  Word VSTO 추가 기능 프로젝트를 만드는 작업부터 시작합니다.
 
 ### <a name="to-create-a-new-word-vsto-add-in-project"></a>새 Word VSTO 추가 기능 프로젝트를 만들려면
 
-1.  이름을 사용 하 여 Word 용 VSTO 추가 기능 프로젝트를 만들려면 **WordDynamicControls**합니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
+1. 이름을 사용 하 여 Word 용 VSTO 추가 기능 프로젝트를 만들려면 **WordDynamicControls**합니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
 
-2.  **Microsoft.Office.Tools.Word.v4.0.Utilities.dll** 어셈블리에 대한 참조를 추가합니다. 이 참조는 이 연습의 뒷부분에서 프로그래밍 방식으로 문서에 Windows Forms 컨트롤을 추가하는 데 필요합니다.
+2. **Microsoft.Office.Tools.Word.v4.0.Utilities.dll** 어셈블리에 대한 참조를 추가합니다. 이 참조는 이 연습의 뒷부분에서 프로그래밍 방식으로 문서에 Windows Forms 컨트롤을 추가하는 데 필요합니다.
 
 ## <a name="provide-a-ui-to-add-controls-to-a-document"></a>문서에 컨트롤을 추가 하는 UI를 제공 합니다.
  Word에서 리본에 사용자 지정 탭을 추가합니다. 사용자는 탭에서 확인란을 선택하여 문서에 컨트롤을 추가할 수 있습니다.
@@ -107,19 +107,19 @@ ms.locfileid: "59648552"
 
 ### <a name="to-add-and-remove-controls-on-the-active-document"></a>활성 문서에서 컨트롤을 추가 및 제거하려면
 
-1.  **솔루션 탐색기**를 두 번 클릭 *ThisAddIn.cs* 또는 *ThisAddIn.vb* 를 코드 편집기에서 파일을 엽니다.
+1. **솔루션 탐색기**를 두 번 클릭 *ThisAddIn.cs* 또는 *ThisAddIn.vb* 를 코드 편집기에서 파일을 엽니다.
 
-2.  `ThisAddIn` 클래스에 다음 코드를 추가합니다. 이 코드에서는 문서에 추가할 컨트롤을 나타내는 <xref:Microsoft.Office.Tools.Word.Controls.Button> 및 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 개체를 선언합니다.
+2. `ThisAddIn` 클래스에 다음 코드를 추가합니다. 이 코드에서는 문서에 추가할 컨트롤을 나타내는 <xref:Microsoft.Office.Tools.Word.Controls.Button> 및 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 개체를 선언합니다.
 
      [!code-vb[Trin_WordAddInDynamicControlsWalkthrough#1](../vsto/codesnippet/VisualBasic/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.vb#1)]
      [!code-csharp[Trin_WordAddInDynamicControlsWalkthrough#1](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.cs#1)]
 
-3.  다음 메서드를 `ThisAddIn` 클래스에 추가합니다. 사용자가 리본의 **단추 추가** 확인란을 클릭하면 확인란이 선택된 경우 이 메서드가 문서의 현재 선택 영역에 <xref:Microsoft.Office.Tools.Word.Controls.Button> 을 추가하고, 확인란 선택이 취소된 경우 <xref:Microsoft.Office.Tools.Word.Controls.Button> 을 제거합니다.
+3. 다음 메서드를 `ThisAddIn` 클래스에 추가합니다. 사용자가 리본의 **단추 추가** 확인란을 클릭하면 확인란이 선택된 경우 이 메서드가 문서의 현재 선택 영역에 <xref:Microsoft.Office.Tools.Word.Controls.Button> 을 추가하고, 확인란 선택이 취소된 경우 <xref:Microsoft.Office.Tools.Word.Controls.Button> 을 제거합니다.
 
      [!code-vb[Trin_WordAddInDynamicControlsWalkthrough#2](../vsto/codesnippet/VisualBasic/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.vb#2)]
      [!code-csharp[Trin_WordAddInDynamicControlsWalkthrough#2](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.cs#2)]
 
-4.  다음 메서드를 `ThisAddIn` 클래스에 추가합니다. 사용자가 리본의 **서식 있는 텍스트 컨트롤 추가** 확인란을 클릭하면 확인란이 선택된 경우 이 메서드가 문서의 현재 선택 영역에 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 을 추가하고, 확인란 선택이 취소된 경우 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 을 제거합니다.
+4. 다음 메서드를 `ThisAddIn` 클래스에 추가합니다. 사용자가 리본의 **서식 있는 텍스트 컨트롤 추가** 확인란을 클릭하면 확인란이 선택된 경우 이 메서드가 문서의 현재 선택 영역에 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 을 추가하고, 확인란 선택이 취소된 경우 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 을 제거합니다.
 
      [!code-vb[Trin_WordAddInDynamicControlsWalkthrough#3](../vsto/codesnippet/VisualBasic/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.vb#3)]
      [!code-csharp[Trin_WordAddInDynamicControlsWalkthrough#3](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.cs#3)]
@@ -129,12 +129,12 @@ ms.locfileid: "59648552"
 
 ### <a name="to-remove-the-button-control-when-the-document-is-saved"></a>문서 저장 시 단추 컨트롤을 제거하려면
 
-1.  에 *ThisAddIn.cs* 또는 *ThisAddIn.vb* 코드 파일에서 다음 메서드를 추가 합니다 `ThisAddIn` 클래스입니다. 이 메서드는 <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> 이벤트의 기본 이벤트 처리기입니다. 저장된 문서에 연결된 <xref:Microsoft.Office.Tools.Word.Document> 호스트 항목이 있는 경우 이벤트 처리기에서 해당 호스트 항목을 가져오고 <xref:Microsoft.Office.Tools.Word.Controls.Button> 컨트롤이 있는 경우 이를 제거합니다.
+1. 에 *ThisAddIn.cs* 또는 *ThisAddIn.vb* 코드 파일에서 다음 메서드를 추가 합니다 `ThisAddIn` 클래스입니다. 이 메서드는 <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> 이벤트의 기본 이벤트 처리기입니다. 저장된 문서에 연결된 <xref:Microsoft.Office.Tools.Word.Document> 호스트 항목이 있는 경우 이벤트 처리기에서 해당 호스트 항목을 가져오고 <xref:Microsoft.Office.Tools.Word.Controls.Button> 컨트롤이 있는 경우 이를 제거합니다.
 
      [!code-vb[Trin_WordAddInDynamicControlsWalkthrough#4](../vsto/codesnippet/VisualBasic/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.vb#4)]
      [!code-csharp[Trin_WordAddInDynamicControlsWalkthrough#4](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.cs#4)]
 
-2.  C#에서 다음 코드를 `ThisAddIn_Startup` 이벤트 처리기에 추가합니다. 이 코드는 C#에서 `Application_DocumentBeforeSave` 이벤트 처리기를 <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> 이벤트와 연결하는 데 필요합니다.
+2. C#에서 다음 코드를 `ThisAddIn_Startup` 이벤트 처리기에 추가합니다. 이 코드는 C#에서 `Application_DocumentBeforeSave` 이벤트 처리기를 <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> 이벤트와 연결하는 데 필요합니다.
 
      [!code-csharp[Trin_WordAddInDynamicControlsWalkthrough#5](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControlsWalkthrough/ThisAddIn.cs#5)]
 
@@ -143,7 +143,7 @@ ms.locfileid: "59648552"
 
 ### <a name="to-add-or-remove-controls-when-the-user-clicks-the-check-boxes-on-the-ribbon"></a>사용자가 리본에서 확인란을 클릭할 때 컨트롤 추가 또는 제거 하려면
 
-1.  에 *MyRibbon.cs* 또는 *MyRibbon.vb* 코드 파일에서 생성 된 대체 `addButtonCheckBox_Click` 및 `addRichTextCheckBox_Click` 다음 코드를 사용 하 여 이벤트 처리기입니다. 이 코드는 이 연습의 앞부분에서 `ToggleButtonOnDocument` 클래스에 추가한 `ToggleRichTextControlOnDocument` 및 `ThisAddIn` 메서드를 호출하도록 이벤트 처리기를 다시 정의합니다.
+1. 에 *MyRibbon.cs* 또는 *MyRibbon.vb* 코드 파일에서 생성 된 대체 `addButtonCheckBox_Click` 및 `addRichTextCheckBox_Click` 다음 코드를 사용 하 여 이벤트 처리기입니다. 이 코드는 이 연습의 앞부분에서 `ToggleButtonOnDocument` 클래스에 추가한 `ToggleRichTextControlOnDocument` 및 `ThisAddIn` 메서드를 호출하도록 이벤트 처리기를 다시 정의합니다.
 
      [!code-vb[Trin_WordAddInDynamicControlsWalkthrough#6](../vsto/codesnippet/VisualBasic/Trin_WordAddInDynamicControlsWalkthrough/MyRibbon.vb#6)]
      [!code-csharp[Trin_WordAddInDynamicControlsWalkthrough#6](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControlsWalkthrough/MyRibbon.cs#6)]
@@ -153,34 +153,34 @@ ms.locfileid: "59648552"
 
 ### <a name="to-test-the-solution"></a>솔루션을 테스트하려면
 
-1.  키를 눌러 **F5** 프로젝트를 실행 합니다.
+1. 키를 눌러 **F5** 프로젝트를 실행 합니다.
 
-2.  활성 문서에서 키를 누릅니다 **Enter** 여러 번 새로 추가 하려면 빈 문서에는 단락입니다.
+2. 활성 문서에서 키를 누릅니다 **Enter** 여러 번 새로 추가 하려면 빈 문서에는 단락입니다.
 
-3.  첫 번째 단락을 선택합니다.
+3. 첫 번째 단락을 선택합니다.
 
-4.  **추가 기능** 탭을 클릭합니다.
+4. **추가 기능** 탭을 클릭합니다.
 
-5.  **컨트롤 추가** 그룹에서 **단추 추가**를 클릭합니다.
+5. **컨트롤 추가** 그룹에서 **단추 추가**를 클릭합니다.
 
      첫 번째 단락에 단추가 나타납니다.
 
-6.  마지막 단락을 선택합니다.
+6. 마지막 단락을 선택합니다.
 
-7.  **컨트롤 추가** 그룹에서 **서식 있는 텍스트 컨트롤 추가**를 클릭합니다.
+7. **컨트롤 추가** 그룹에서 **서식 있는 텍스트 컨트롤 추가**를 클릭합니다.
 
      서식 있는 텍스트 콘텐츠 컨트롤이 마지막 단락에 추가됩니다.
 
-8.  문서를 저장합니다.
+8. 문서를 저장합니다.
 
      문서에서 단추가 제거됩니다.
 
 ## <a name="next-steps"></a>다음 단계
  다음 항목에서 VSTO 추가 기능의 컨트롤에 대해 자세히 알아볼 수 있습니다.
 
--   런타임에 문서에 많은 다른 유형의 컨트롤을 추가 하 고 문서를 다시 열 때 컨트롤을 다시 만드는 방법을 보여 주는 샘플에는 Word에서 추가 기능 동적 컨트롤 샘플을 참조 하세요. [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md).
+- 런타임에 문서에 많은 다른 유형의 컨트롤을 추가 하 고 문서를 다시 열 때 컨트롤을 다시 만드는 방법을 보여 주는 샘플에는 Word에서 추가 기능 동적 컨트롤 샘플을 참조 하세요. [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md).
 
--   Excel 용 VSTO 추가 기능을 사용 하 여 워크시트에 컨트롤을 추가 하는 방법을 보여 주는 연습을 참조 하세요. [연습: 런타임에 VSTO 추가 기능 프로젝트에서 워크시트에 컨트롤 추가](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)합니다.
+- Excel 용 VSTO 추가 기능을 사용 하 여 워크시트에 컨트롤을 추가 하는 방법을 보여 주는 연습을 참조 하세요. [연습: 런타임에 VSTO 추가 기능 프로젝트에서 워크시트에 컨트롤 추가](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Word 솔루션](../vsto/word-solutions.md)

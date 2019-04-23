@@ -24,12 +24,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1ecb4d69db653c24ff13c0c95059d431424e4fe9
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: 35d2343343bf554df7592c8616e7697d88665baf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55069123"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077890"
 ---
 # <a name="how-to-debug-injected-code"></a>방법: 삽입한 코드 디버그
 
@@ -46,27 +46,27 @@ ms.locfileid: "55069123"
 
 ## <a name="to-turn-on-source-annotation"></a>소스 주석을 설정하려면
 
--   **디스어셈블리** 창에서 마우스 오른쪽 단추를 클릭하고 바로 가기 메뉴에서 **소스 코드 표시**를 선택합니다.
+- **디스어셈블리** 창에서 마우스 오른쪽 단추를 클릭하고 바로 가기 메뉴에서 **소스 코드 표시**를 선택합니다.
 
      소스 창에 있는 특성의 위치를 알면 바로 가기 메뉴를 사용하여 **디스어셈블리** 창에서 삽입된 코드를 찾을 수 있습니다.
 
 ## <a name="to-view-injected-code"></a>삽입된 코드를 보려면
 
-1.  디버거는 중단 모드에 있어야 합니다.
+1. 디버거는 중단 모드에 있어야 합니다.
 
-2.  소스 코드 창에서 보려는 삽입된 코드의 특성 앞에 커서를 놓습니다.
+2. 소스 코드 창에서 보려는 삽입된 코드의 특성 앞에 커서를 놓습니다.
 
-3.  마우스 오른쪽 단추를 클릭하여 바로 가기 메뉴에서 **디스어셈블리로 이동**을 선택합니다.
+3. 마우스 오른쪽 단추를 클릭하여 바로 가기 메뉴에서 **디스어셈블리로 이동**을 선택합니다.
 
      특성이 현재 실행 위치와 가까이 있으면 **디버그** 메뉴에서 **디스어셈블리** 창을 선택할 수 있습니다.
 
 ## <a name="to-view-the-disassembly-code-at-the-current-execution-point"></a>현재 실행 위치에서 디스어셈블리 코드를 보려면
 
-1.  디버거는 중단 모드에 있어야 합니다.
+1. 디버거는 중단 모드에 있어야 합니다.
 
-2.  **디버그** 메뉴에서 **창**을 선택하고 **디스어셈블리**를 클릭합니다.
+2. **디버그** 메뉴에서 **창**을 선택하고 **디스어셈블리**를 클릭합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [디버거 보안](../debugger/debugger-security.md)
 - [네이티브 코드 디버그](../debugger/debugging-native-code.md)

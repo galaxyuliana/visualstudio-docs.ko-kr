@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f7d80071871ebe970a9584a1ac40cead7b59ac26
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1bbcbc2411d261b4ddec9423896dc21acc3e0033
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605720"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073737"
 ---
 # <a name="bind-data-to-controls-in-office-solutions"></a>Office 솔루션의 컨트롤에 데이터 바인딩
   컨트롤이 자동으로 데이터를 표시할 수 있도록 Windows Forms 컨트롤 및 Microsoft Office Word 문서 또는 Microsoft Office Excel 워크시트의 *호스트 컨트롤* 을 데이터 원본에 바인딩할 수 있습니다. 애플리케이션 수준과 문서 수준 프로젝트 둘 다 데이터를 컨트롤에 바인딩할 수 있습니다.
@@ -73,22 +73,22 @@ ms.locfileid: "56605720"
 ### <a name="bind-data-in-document-level-projects-at-design-time"></a>디자인 타임에 문서 수준 프로젝트에서 데이터 바인딩
  다음 항목은 디자인 타임에 데이터를 바인딩하는 예제를 보여 줍니다.
 
--   [방법: 데이터베이스의 데이터로 워크시트 채우기](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
+- [방법: 데이터베이스의 데이터로 워크시트 채우기](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
 
--   [방법: 데이터베이스의 데이터로 문서 채우기](../vsto/how-to-populate-documents-with-data-from-a-database.md)
+- [방법: 데이터베이스의 데이터로 문서 채우기](../vsto/how-to-populate-documents-with-data-from-a-database.md)
 
--   [방법: 개체의 데이터로 문서 채우기](../vsto/how-to-populate-documents-with-data-from-objects.md)
+- [방법: 개체의 데이터로 문서 채우기](../vsto/how-to-populate-documents-with-data-from-objects.md)
 
--   [방법: 서비스의 데이터로 문서 채우기](../vsto/how-to-populate-documents-with-data-from-services.md)
+- [방법: 서비스의 데이터로 문서 채우기](../vsto/how-to-populate-documents-with-data-from-services.md)
 
--   [방법: 워크시트에서 데이터베이스 레코드 스크롤](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
+- [방법: 워크시트에서 데이터베이스 레코드 스크롤](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
 
 ### <a name="bind-data-in-vsto-add-in-projects"></a>VSTO 추가 기능 프로젝트에서 데이터 바인딩
  VSTO 추가 기능 프로젝트에서는 런타임에만 컨트롤을 추가할 수 있습니다. 다음 항목에서는 런타임에 바인딩 데이터는 예제를 보여 줍니다.
 
--   [연습: VSTO 추가 기능 프로젝트의 단순 데이터 바인딩](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
+- [연습: VSTO 추가 기능 프로젝트의 단순 데이터 바인딩](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
 
--   [연습: VSTO 추가 기능 프로젝트의 복합 데이터 바인딩](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)
+- [연습: VSTO 추가 기능 프로젝트의 복합 데이터 바인딩](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)
 
 ## <a name="update-data-that-is-bound-to-host-controls"></a>호스트 컨트롤에 바인딩되는 데이터를 업데이트 합니다.
  데이터 원본과 호스트 컨트롤 간의 데이터 바인딩은 양방향 데이터 업데이트를 포함합니다. 단순 데이터 바인딩에서 데이터 원본을 변경하면 호스트 컨트롤에 자동으로 반영되지만 호스트 컨트롤을 변경하면 데이터 원본을 업데이트하기 위해 명시적 호출이 필요합니다. 그 이유는 다른 데이터 바인딩 필드가 함께 변경되지 않으면 한 데이터 바인딩 필드의 변경 내용이 적용되지 않는 경우가 있기 때문입니다. 예를 들어 한 필드는 기간이고 다른 한 필드는 경험한 햇수를 나타내는 두 개의 필드가 있을 수 있습니다. 경험은 기간을 초과할 수 없습니다. 사용자가 기간을 50에서 25로 업데이트하고 경험을 30에서 10으로 업데이트하려면 이 두 필드를 동시에 변경해야 합니다. 이 문제를 해결하기 위해, 코드로 업데이트를 명시적으로 보내야만 단일 데이터 바인딩을 사용하는 필드가 업데이트됩니다.

@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b858d0b5fb8aab1dabb90ae47d234869412adf2e
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: b5f275683309d630f147940e97f924496af79179
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57525793"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074820"
 ---
 # <a name="content-model-view"></a>콘텐츠 모델 뷰
 
@@ -97,13 +97,13 @@ ms.locfileid: "57525793"
 
 콘텐츠 모델 뷰에서 다음 작업에 대한 실행 취소/다시 실행 기능이 사용됩니다.
 
--   끌어서 놓기를 통해 단일 노드 추가
+- 끌어서 놓기를 통해 단일 노드 추가
 
--   스키마 탐색기에서 검색 결과 창의 여러 노드 추가
+- 스키마 탐색기에서 검색 결과 창의 여러 노드 추가
 
--   시작 뷰에서 노드 추가
+- 시작 뷰에서 노드 추가
 
--   단일 또는 여러 노드 삭제
+- 단일 또는 여러 노드 삭제
 
 ## <a name="zoom"></a>확대/축소
 
@@ -111,9 +111,9 @@ ms.locfileid: "57525793"
 
 확대/축소는 다음 방법으로 제어할 수 있습니다.
 
--   유지 된 **Ctrl** 키와 마우스를 회전 휠을 마우스 마우스가 콘텐츠 모델 뷰 화면 위를 가리킬 때.
+- 유지 된 **Ctrl** 키와 마우스를 회전 휠을 마우스 마우스가 콘텐츠 모델 뷰 화면 위를 가리킬 때.
 
--   슬라이더 컨트롤 사용. 슬라이더에서는 현재 확대/축소 수준을 보여 줍니다.
+- 슬라이더 컨트롤 사용. 슬라이더에서는 현재 확대/축소 수준을 보여 줍니다.
 
 선택, 올려 놓거나, 또는 사용 하는 경우 확대/축소 슬라이더는 불투명 **Ctrl** 확대/축소 하려면 마우스 휠을 사용 하 여, 다른 모든 시간에는 투명 합니다.
 

@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: df33470ea76ac29626459c1240873068180b0860
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f6a9b62c62b863448bb1333b162c6706c48cd72b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600986"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071761"
 ---
 # <a name="walkthrough-display-text-in-a-text-box-in-a-document-using-a-button"></a>연습: 단추를 사용 하 여 문서에서 텍스트 상자에 텍스트를 표시 합니다.
   이 연습에서는 Microsoft Office Word에 대한 문서 수준 사용자 지정에서 단추 및 텍스트 상자를 사용하는 방법을 보여 줍니다.
@@ -35,16 +35,16 @@ ms.locfileid: "56600986"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Word
+- Microsoft Word
 
 ## <a name="create-the-project"></a>프로젝트를 만듭니다.
  첫 번째 단계에서는 Word 문서 프로젝트를 만듭니다.
 
 ### <a name="to-create-a-new-project"></a>새 프로젝트를 만들려면
 
-1.  이름을 사용 하 여 Word 문서 프로젝트를 만듭니다 **My Word Button**합니다. 마법사에서 선택 **새 문서 만들기**합니다.
+1. 이름을 사용 하 여 Word 문서 프로젝트를 만듭니다 **My Word Button**합니다. 마법사에서 선택 **새 문서 만들기**합니다.
 
      자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
 
@@ -80,14 +80,14 @@ ms.locfileid: "56600986"
 
 ### <a name="to-write-to-the-text-box-when-the-button-is-clicked"></a>단추를 클릭할 때 텍스트 상자에 쓰려면
 
-1.  **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 **ThisDocument**를 클릭 하 고 **코드 보기** 바로 가기 메뉴.
+1. **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 **ThisDocument**를 클릭 하 고 **코드 보기** 바로 가기 메뉴.
 
-2.  단추의 <xref:System.Windows.Forms.Control.Click> 이벤트 처리기에 다음 코드를 추가합니다.
+2. 단추의 <xref:System.Windows.Forms.Control.Click> 이벤트 처리기에 다음 코드를 추가합니다.
 
      [!code-vb[Trin_VstcoreProgrammingControlsWord#7](../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb#7)]
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#7](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#7)]
 
-3.  C#에서는 단추에 대한 이벤트 처리기를 <xref:Microsoft.Office.Tools.Word.Document.Startup> 이벤트에 추가해야 합니다. 이벤트 처리기를 만드는 방법에 대 한 자세한 내용은 [방법: Office 프로젝트에서 이벤트 처리기 만들기](../vsto/how-to-create-event-handlers-in-office-projects.md)합니다.
+3. C#에서는 단추에 대한 이벤트 처리기를 <xref:Microsoft.Office.Tools.Word.Document.Startup> 이벤트에 추가해야 합니다. 이벤트 처리기를 만드는 방법에 대 한 자세한 내용은 [방법: Office 프로젝트에서 이벤트 처리기 만들기](../vsto/how-to-create-event-handlers-in-office-projects.md)합니다.
 
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#8](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#8)]
 
@@ -96,18 +96,18 @@ ms.locfileid: "56600986"
 
 ### <a name="to-test-your-document"></a>문서를 테스트하려면
 
-1.  키를 눌러 **F5** 프로젝트를 실행 합니다.
+1. 키를 눌러 **F5** 프로젝트를 실행 합니다.
 
-2.  단추를 클릭합니다.
+2. 단추를 클릭합니다.
 
-3.  확인 **Hello World!** 텍스트 상자에 표시 됩니다.
+3. 확인 **Hello World!** 텍스트 상자에 표시 됩니다.
 
 ## <a name="next-steps"></a>다음 단계
  이 연습에서는 Word 문서에서 단추 및 텍스트 상자를 사용하는 기본 사항을 보여 줍니다. 다음으로 수행할 수 있는 몇 가지 작업은 다음과 같습니다.
 
--   콤보 상자를 사용하여 서식 변경. 자세한 내용은 [연습: CheckBox 컨트롤을 사용 하 여 변경 문서 서식](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md)합니다.
+- 콤보 상자를 사용하여 서식 변경. 자세한 내용은 [연습: CheckBox 컨트롤을 사용 하 여 변경 문서 서식](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md)합니다.
 
--   라디오 단추를 사용하여 차트 스타일 선택. 자세한 내용은 [연습: 라디오 단추를 사용 하 여 문서에서 차트를 업데이트](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md)합니다.
+- 라디오 단추를 사용하여 차트 스타일 선택. 자세한 내용은 [연습: 라디오 단추를 사용 하 여 문서에서 차트를 업데이트](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Windows Forms 컨트롤에 대 한 Office 문서 개요](../vsto/windows-forms-controls-on-office-documents-overview.md)

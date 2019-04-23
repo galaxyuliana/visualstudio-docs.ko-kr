@@ -16,12 +16,12 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ac7a5665b287f51e59d99d21802acc252a55a99a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e0c2b544a72f8a50000b48092658254c6b978a1c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985046"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074351"
 ---
 # <a name="how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api"></a>방법: ClickOnce 배포 API를 사용 하 여 프로그래밍 방식으로 응용 프로그램 업데이트 확인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,19 +37,19 @@ ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 �
   
 ### <a name="to-check-for-updates-programmatically"></a>프로그래밍 방식으로 업데이트를 확인 하려면  
   
-1.  원하는 명령줄 또는 시각적 개체 도구를 사용 하 여 새 Windows Forms 응용 프로그램을 만듭니다.  
+1. 원하는 명령줄 또는 시각적 개체 도구를 사용 하 여 새 Windows Forms 응용 프로그램을 만듭니다.  
   
-2.  단추, 메뉴 항목을 만들거나 다른 사용자 인터페이스 항목 하려는 사용자가 업데이트를 확인 하려면 선택 합니다. 해당 항목의 이벤트 처리기에서 확인 하 고 업데이트를 설치 하려면 다음 메서드를 호출 합니다.  
+2. 단추, 메뉴 항목을 만들거나 다른 사용자 인터페이스 항목 하려는 사용자가 업데이트를 확인 하려면 선택 합니다. 해당 항목의 이벤트 처리기에서 확인 하 고 업데이트를 설치 하려면 다음 메서드를 호출 합니다.  
   
      [!code-cpp[ClickOnceAPI#6](../snippets/cpp/VS_Snippets_Winforms/ClickOnceAPI/cpp/form1.cpp#6)]
      [!code-csharp[ClickOnceAPI#6](../snippets/csharp/VS_Snippets_Winforms/ClickOnceAPI/CS/Form1.cs#6)]
      [!code-vb[ClickOnceAPI#6](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceAPI/VB/Form1.vb#6)]  
   
-3.  응용을 프로그램을 컴파일하십시오.  
+3. 응용을 프로그램을 컴파일하십시오.  
   
 ### <a name="using-mageexe-to-deploy-an-application-that-checks-for-updates-programmatically"></a>Mage.exe를 사용 하 여 프로그래밍 방식으로 업데이트를 확인 하는 응용 프로그램을 배포 하려면  
   
--   에 설명 된 대로 Mage.exe를 사용 하 여 응용 프로그램을 배포 하기 위한 지침에 따라 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md) 배포 매니페스트를 생성 하는 Mage.exe를 호출할 때 명령줄 스위치를 사용 하도록 확인 `providerUrl`, ClickOnce 업데이트를 확인 하는 URL을 지정 하 고 있습니다. 응용 프로그램에서 업데이트 됩니다 [ http://www.adatum.com/MyApp ](http://www.adatum.com/MyApp), 예를 들어, 배포 매니페스트를 생성 하는를 호출 하 여 다음과 같이 표시 될 수 있습니다.  
+- 에 설명 된 대로 Mage.exe를 사용 하 여 응용 프로그램을 배포 하기 위한 지침에 따라 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md) 배포 매니페스트를 생성 하는 Mage.exe를 호출할 때 명령줄 스위치를 사용 하도록 확인 `providerUrl`, ClickOnce 업데이트를 확인 하는 URL을 지정 하 고 있습니다. 응용 프로그램에서 업데이트 됩니다 [ http://www.adatum.com/MyApp ](http://www.adatum.com/MyApp), 예를 들어, 배포 매니페스트를 생성 하는를 호출 하 여 다음과 같이 표시 될 수 있습니다.  
   
     ```  
     mage -New Deployment -ToFile WindowsFormsApp1.application -Name "My App 1.0" -Version 1.0.0.0 -AppManifest 1.0.0.0\MyApp.manifest -providerUrl http://www.adatum.com/MyApp/MyApp.application  
@@ -57,7 +57,7 @@ ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 �
   
 ### <a name="using-mageuiexe-to-deploy-an-application-that-checks-for-updates-programmatically"></a>MageUI.exe를 사용 하 여 프로그래밍 방식으로 업데이트를 확인 하는 응용 프로그램을 배포 하려면  
   
--   에 설명 된 대로 Mage.exe를 사용 하 여 응용 프로그램을 배포 하기 위한 지침에 따라 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md) 에 **배포 옵션** 탭, 설정 합니다 **시작 위치** 필드 ClickOnce 업데이트를 확인 하는 응용 프로그램 매니페스트를 합니다. 에 **업데이트 옵션** 탭을 선택 취소 합니다 **이 응용 프로그램의 업데이트 확인** 확인란 합니다.  
+- 에 설명 된 대로 Mage.exe를 사용 하 여 응용 프로그램을 배포 하기 위한 지침에 따라 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md) 에 **배포 옵션** 탭, 설정 합니다 **시작 위치** 필드 ClickOnce 업데이트를 확인 하는 응용 프로그램 매니페스트를 합니다. 에 **업데이트 옵션** 탭을 선택 취소 합니다 **이 응용 프로그램의 업데이트 확인** 확인란 합니다.  
   
 ## <a name="net-framework-security"></a>.NET Framework 보안  
  프로그래밍 방식으로 업데이트를 사용 하도록 응용 프로그램에 완전 신뢰 권한이 있어야 합니다.  

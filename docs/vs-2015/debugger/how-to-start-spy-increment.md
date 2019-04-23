@@ -11,12 +11,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 60231333a084ef62e069f3e3aba9bee8bd25daed
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4ade2b369cd1c9e0371acacfcd63b06a2d89e58a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985647"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066710"
 ---
 # <a name="how-to-start-spy"></a>방법: Spy++ 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "58985647"
   
 ### <a name="to-start-spy-from-visual-studio"></a>Visual Studio에서 Spy + +를 시작 하려면  
   
--   에 **도구** 메뉴에서 클릭 **Spy + +** 합니다.  
+- 에 **도구** 메뉴에서 클릭 **Spy + +** 합니다.  
   
      Spy + + 독립적으로 실행을 시작한 후, 때문에 Visual Studio를 닫을 수 있습니다.  
   
@@ -39,9 +39,9 @@ ms.locfileid: "58985647"
   
 ### <a name="to-start-spy-at-a-command-prompt"></a>Spy + + 명령 프롬프트에서 시작 하려면  
   
-1.  명령 프롬프트 창에서 spyxx.exe 포함 된 폴더로 디렉터리를 변경 합니다. 일반적으로이 폴더의 경로... \\ *Visual Studio 설치 폴더*\Common7\Tools\\합니다.  
+1. 명령 프롬프트 창에서 spyxx.exe 포함 된 폴더로 디렉터리를 변경 합니다. 일반적으로이 폴더의 경로... \\ *Visual Studio 설치 폴더*\Common7\Tools\\합니다.  
   
-2.  형식 **spyxx.exe** 한 다음 ENTER를 누릅니다.  
+2. 형식 **spyxx.exe** 한 다음 ENTER를 누릅니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Spy++ 사용](../debugger/using-spy-increment.md)   

@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 54af4da8ccfff04ed51f19b9265659897281f26d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 8d20b8938f4d841bb42299b7aa9abaf633f72e7d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670461"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074611"
 ---
 # <a name="introduction-to-wpf"></a>WPF 소개
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,12 +27,12 @@ WPF(Windows Presentation Foundation)를 사용하면 시각적으로 뛰어난 �
   
  이 개요는 초보자를 위한 것이며 WPF의 주요 기능 및 개념에 대해 설명합니다.  
   
-##  <a name="Programming_with_WPF"></a> WPF를 사용한 프로그래밍  
+## <a name="Programming_with_WPF"></a> WPF를 사용한 프로그래밍  
  WPF는 대부분 <xref:System.Windows> 네임스페이스에 있는 .NET Framework 형식의 하위 집합으로 존재합니다. 이전에 ASP.NET 및 Windows Forms와 같은 관리되는 기술을 사용하여 .NET Framework로 애플리케이션을 빌드한 적이 있는 경우 기본적인 WPF 프로그래밍 환경이 친숙할 것입니다. 모두 C# 또는 Visual Basic과 같은 원하는 .NET 프로그래밍 언어를 사용하여 클래스를 인스턴스화하고, 속성을 설정하고, 메서드를 호출하고, 이벤트를 처리합니다.  
   
  WPF에는 속성 및 이벤트를 향상시키는 [종속성 속성](https://msdn.microsoft.com/library/ms752914\(v=vs.100\).aspx) 및 [라우트된 이벤트](https://msdn.microsoft.com/library/ms742806\(v=vs.100\).aspx)와 같은 추가 프로그래밍 구문이 포함되어 있습니다.  
   
-##  <a name="Markup_And_Codebehind"></a> 태그 및 코드 숨김  
+## <a name="Markup_And_Codebehind"></a> 태그 및 코드 숨김  
  WPF를 사용하면 ASP.NET 개발자에게 익숙한 환경인 *태그* 및 *코드 숨김*둘 다를 통해 애플리케이션을 개발할 수 있습니다. 일반적으로 XAML 태그를 사용하여 애플리케이션의 모양을 구현하고 관리되는 프로그래밍 언어(코드 숨김)를 사용하여 해당 동작을 구현합니다. 모양 및 동작의 이러한 분리는 다음과 같은 이점이 있습니다.  
   
 - 모양 관련 태그가 동작 관련 코드와 밀접하게 결합되지 않으므로 개발 및 유지 관리 비용이 줄어듭니다.  
@@ -143,7 +143,7 @@ End Namespace
   
  ![MessageBox](../designers/media/wpfintrofigure25.png "WPFIntroFigure25")  
   
-##  <a name="Controls"></a> 컨트롤  
+## <a name="Controls"></a> 컨트롤  
  애플리케이션 모델에서 제공하는 사용자 환경은 생성된 컨트롤입니다. WPF에서 "컨트롤"은 창이나 페이지에서 호스트되고 사용자 인터페이스가 있으며 일부 동작을 구현하는 WPF 클래스의 한 범주에 적용되는 포괄적인 용어입니다.  
   
  자세한 내용은 [컨트롤](http://msdn.microsoft.com/library/3f255a8a-35a8-4712-9065-472ff7d75599)을 참조하세요.  
@@ -151,38 +151,38 @@ End Namespace
 ### <a name="wpf-controls-by-function"></a>기능별 WPF 컨트롤  
  기본 제공 WPF 컨트롤은 다음과 같습니다.  
   
--   **단추**: <xref:System.Windows.Controls.Button> 및 <xref:System.Windows.Controls.Primitives.RepeatButton>  
+- **단추**: <xref:System.Windows.Controls.Button> 및 <xref:System.Windows.Controls.Primitives.RepeatButton>  
   
--   **데이터 표시**: <xref:System.Windows.Controls.DataGrid>, <xref:System.Windows.Controls.ListView>및 <xref:System.Windows.Controls.TreeView>  
+- **데이터 표시**: <xref:System.Windows.Controls.DataGrid>, <xref:System.Windows.Controls.ListView>및 <xref:System.Windows.Controls.TreeView>  
   
--   **날짜 표시 및 선택**: <xref:System.Windows.Controls.Calendar> 및 <xref:System.Windows.Controls.DatePicker>  
+- **날짜 표시 및 선택**: <xref:System.Windows.Controls.Calendar> 및 <xref:System.Windows.Controls.DatePicker>  
   
--   **대화 상자**: <xref:Microsoft.Win32.OpenFileDialog>, <xref:System.Windows.Controls.PrintDialog>및 <xref:Microsoft.Win32.SaveFileDialog>  
+- **대화 상자**: <xref:Microsoft.Win32.OpenFileDialog>, <xref:System.Windows.Controls.PrintDialog>및 <xref:Microsoft.Win32.SaveFileDialog>  
   
--   **디지털 잉크**: <xref:System.Windows.Controls.InkCanvas> 및 <xref:System.Windows.Controls.InkPresenter>  
+- **디지털 잉크**: <xref:System.Windows.Controls.InkCanvas> 및 <xref:System.Windows.Controls.InkPresenter>  
   
--   **문서**: <xref:System.Windows.Controls.DocumentViewer>, <xref:System.Windows.Controls.FlowDocumentPageViewer>, <xref:System.Windows.Controls.FlowDocumentReader>, <xref:System.Windows.Controls.FlowDocumentScrollViewer>및 <xref:System.Windows.Controls.StickyNoteControl>  
+- **문서**: <xref:System.Windows.Controls.DocumentViewer>, <xref:System.Windows.Controls.FlowDocumentPageViewer>, <xref:System.Windows.Controls.FlowDocumentReader>, <xref:System.Windows.Controls.FlowDocumentScrollViewer>및 <xref:System.Windows.Controls.StickyNoteControl>  
   
--   **입력**: <xref:System.Windows.Controls.TextBox>, <xref:System.Windows.Controls.RichTextBox>및 <xref:System.Windows.Controls.PasswordBox>  
+- **입력**: <xref:System.Windows.Controls.TextBox>, <xref:System.Windows.Controls.RichTextBox>및 <xref:System.Windows.Controls.PasswordBox>  
   
--   **레이아웃**: <xref:System.Windows.Controls.Border>, <xref:System.Windows.Controls.Primitives.BulletDecorator>, <xref:System.Windows.Controls.Canvas>, <xref:System.Windows.Controls.DockPanel>, <xref:System.Windows.Controls.Expander>, <xref:System.Windows.Controls.Grid>, <xref:System.Windows.Controls.GridView>, <xref:System.Windows.Controls.GridSplitter>, <xref:System.Windows.Controls.GroupBox>, <xref:System.Windows.Controls.Panel>, <xref:System.Windows.Controls.Primitives.ResizeGrip>, <xref:System.Windows.Controls.Separator>, <xref:System.Windows.Controls.Primitives.ScrollBar>, <xref:System.Windows.Controls.ScrollViewer>, <xref:System.Windows.Controls.StackPanel>, <xref:System.Windows.Controls.Primitives.Thumb>, <xref:System.Windows.Controls.Viewbox>, <xref:System.Windows.Controls.VirtualizingStackPanel>, <xref:System.Windows.Window>및 <xref:System.Windows.Controls.WrapPanel>  
+- **레이아웃**: <xref:System.Windows.Controls.Border>, <xref:System.Windows.Controls.Primitives.BulletDecorator>, <xref:System.Windows.Controls.Canvas>, <xref:System.Windows.Controls.DockPanel>, <xref:System.Windows.Controls.Expander>, <xref:System.Windows.Controls.Grid>, <xref:System.Windows.Controls.GridView>, <xref:System.Windows.Controls.GridSplitter>, <xref:System.Windows.Controls.GroupBox>, <xref:System.Windows.Controls.Panel>, <xref:System.Windows.Controls.Primitives.ResizeGrip>, <xref:System.Windows.Controls.Separator>, <xref:System.Windows.Controls.Primitives.ScrollBar>, <xref:System.Windows.Controls.ScrollViewer>, <xref:System.Windows.Controls.StackPanel>, <xref:System.Windows.Controls.Primitives.Thumb>, <xref:System.Windows.Controls.Viewbox>, <xref:System.Windows.Controls.VirtualizingStackPanel>, <xref:System.Windows.Window>및 <xref:System.Windows.Controls.WrapPanel>  
   
--   **미디어**: <xref:System.Windows.Controls.Image>, <xref:System.Windows.Controls.MediaElement>및 <xref:System.Windows.Controls.SoundPlayerAction>  
+- **미디어**: <xref:System.Windows.Controls.Image>, <xref:System.Windows.Controls.MediaElement>및 <xref:System.Windows.Controls.SoundPlayerAction>  
   
--   **메뉴**: <xref:System.Windows.Controls.ContextMenu>, <xref:System.Windows.Controls.Menu>및 <xref:System.Windows.Controls.ToolBar>  
+- **메뉴**: <xref:System.Windows.Controls.ContextMenu>, <xref:System.Windows.Controls.Menu>및 <xref:System.Windows.Controls.ToolBar>  
   
--   **탐색**: <xref:System.Windows.Controls.Frame>, <xref:System.Windows.Documents.Hyperlink>, <xref:System.Windows.Controls.Page>, <xref:System.Windows.Navigation.NavigationWindow>및 <xref:System.Windows.Controls.TabControl>  
+- **탐색**: <xref:System.Windows.Controls.Frame>, <xref:System.Windows.Documents.Hyperlink>, <xref:System.Windows.Controls.Page>, <xref:System.Windows.Navigation.NavigationWindow>및 <xref:System.Windows.Controls.TabControl>  
   
--   **선택**: <xref:System.Windows.Controls.CheckBox>, <xref:System.Windows.Controls.ComboBox>, <xref:System.Windows.Controls.ListBox>, <xref:System.Windows.Controls.RadioButton>및 <xref:System.Windows.Controls.Slider>  
+- **선택**: <xref:System.Windows.Controls.CheckBox>, <xref:System.Windows.Controls.ComboBox>, <xref:System.Windows.Controls.ListBox>, <xref:System.Windows.Controls.RadioButton>및 <xref:System.Windows.Controls.Slider>  
   
--   **사용자 정보**: <xref:System.Windows.Controls.AccessText>, <xref:System.Windows.Controls.Label>, <xref:System.Windows.Controls.Primitives.Popup>, <xref:System.Windows.Controls.ProgressBar>, <xref:System.Windows.Controls.Primitives.StatusBar>, <xref:System.Windows.Controls.TextBlock>및 <xref:System.Windows.Controls.ToolTip>  
+- **사용자 정보**: <xref:System.Windows.Controls.AccessText>, <xref:System.Windows.Controls.Label>, <xref:System.Windows.Controls.Primitives.Popup>, <xref:System.Windows.Controls.ProgressBar>, <xref:System.Windows.Controls.Primitives.StatusBar>, <xref:System.Windows.Controls.TextBlock>및 <xref:System.Windows.Controls.ToolTip>  
   
-##  <a name="Input_And_Commanding"></a> 입력 및 명령  
+## <a name="Input_And_Commanding"></a> 입력 및 명령  
  컨트롤은 대체로 사용자 입력을 감지하고 응답합니다. [WPF 입력 시스템](https://msdn.microsoft.com/library/ms754010\(v=vs.100\).aspx) 은 직접 및 라우트된 이벤트를 사용하여 텍스트 입력, 포커스 관리 및 마우스 위치 지정을 지원합니다.  
   
  애플리케이션에 복잡한 입력 요구 사항이 있는 경우가 많습니다. WPF는 사용자 입력 작업을 이러한 작업에 응답하는 코드에서 분리하는 [명령 시스템](https://msdn.microsoft.com/library/ms752308\(v=vs.100\).aspx) 을 제공합니다.  
   
-##  <a name="Layout"></a> 레이아웃  
+## <a name="Layout"></a> 레이아웃  
  사용자 인터페이스를 만들 때 위치 및 크기별로 컨트롤을 정렬하여 레이아웃을 구성합니다. 모든 레이아웃의 주요 요구 사항은 창 크기와 표시 설정의 변경 내용에 맞게 조정되는 것입니다. 이러한 상황에서 레이아웃을 조정하는 코드를 작성하도록 요구하는 대신 WPF는 확장 가능한 뛰어난 레이아웃 시스템을 제공합니다.  
   
  이 레이아웃 시스템의 토대는 상대 위치 지정으로, 변화하는 창과 표시 조건에 맞게 조정하는 기능을 향상시킵니다. 또한 이 레이아웃 시스템은 레이아웃을 결정하기 위한 컨트롤 간의 협상을 관리합니다. 협상은 2단계 프로세스입니다. 첫 번째로, 컨트롤이 필요한 위치 및 크기를 부모에게 알립니다. 두 번째로, 부모가 사용할 수 있는 공간을 컨트롤에 알립니다.  
@@ -214,7 +214,7 @@ End Namespace
   
  ![DockPanel 페이지](../designers/media/wpfintrofigure11.png "WPFIntroFigure11")  
   
-##  <a name="Data_Binding"></a> 데이터 바인딩  
+## <a name="Data_Binding"></a> 데이터 바인딩  
  대부분의 애플리케이션은 데이터를 보고 편집할 수 있는 수단을 사용자에게 제공하기 위해 생성됩니다. WPF 애플리케이션의 경우 데이터를 저장 및 액세스하는 작업이 SQL Server 및 ADO .NET과 같은 기술에 의해 이미 제공됩니다. 데이터에 액세스하고 애플리케이션의 관리되는 개체에 로드한 후 WPF 애플리케이션에 대한 힘든 작업이 시작됩니다. 기본적으로 다음 두 가지가 포함됩니다.  
   
 1. 관리되는 개체에서 데이터를 표시 및 편집할 수 있는 컨트롤로 데이터 복사  
@@ -245,16 +245,16 @@ End Namespace
   
    자세한 내용은 [데이터 바인딩 개요](https://msdn.microsoft.com/library/ms752347\(v=vs.100\).aspx)를 참조하세요.  
   
-##  <a name="Graphics"></a> 그래픽  
+## <a name="Graphics"></a> 그래픽  
  WPF는 다음과 같은 이점이 있는 광범위하고 확장 가능하며 유연한 그래픽 집합을 도입합니다.  
   
--   **해상도 및 장치 독립적인 그래픽**. WPF 그래픽 시스템의 기본 측정 단위는 실제 화면 해상도에 관계없이 1/96인치인 디바이스 독립적 픽셀이며, 해상도 및 디바이스 독립적인 렌더링을 위한 토대를 제공합니다. 각 디바이스 독립적 픽셀은 렌더링되는 시스템의 dpi(인치당 도트 수) 설정에 맞게 자동으로 확장됩니다.  
+- **해상도 및 장치 독립적인 그래픽**. WPF 그래픽 시스템의 기본 측정 단위는 실제 화면 해상도에 관계없이 1/96인치인 디바이스 독립적 픽셀이며, 해상도 및 디바이스 독립적인 렌더링을 위한 토대를 제공합니다. 각 디바이스 독립적 픽셀은 렌더링되는 시스템의 dpi(인치당 도트 수) 설정에 맞게 자동으로 확장됩니다.  
   
--   **향상된 정밀도**. WPF 좌표계는 단정밀도 대신 배정밀도 부동 소수점 숫자로 측정됩니다. 변환 및 불투명도 값도 배정밀도로 표현됩니다. 또한 WPF는 광범위한 색 영역(scRGB)을 지원하며 여러 색 공간의 입력을 관리하기 위한 통합 지원을 제공합니다.  
+- **향상된 정밀도**. WPF 좌표계는 단정밀도 대신 배정밀도 부동 소수점 숫자로 측정됩니다. 변환 및 불투명도 값도 배정밀도로 표현됩니다. 또한 WPF는 광범위한 색 영역(scRGB)을 지원하며 여러 색 공간의 입력을 관리하기 위한 통합 지원을 제공합니다.  
   
--   **고급 그래픽 및 애니메이션 지원**. WPF는 애니메이션 장면을 관리하여 그래픽 프로그래밍을 간소화합니다. 장면 처리, 렌더링 루프 및 쌍선형 보간에 대해 걱정할 필요가 없습니다. 또한 WPF는 적중 테스트 및 전체 알파 합치기를 지원합니다.  
+- **고급 그래픽 및 애니메이션 지원**. WPF는 애니메이션 장면을 관리하여 그래픽 프로그래밍을 간소화합니다. 장면 처리, 렌더링 루프 및 쌍선형 보간에 대해 걱정할 필요가 없습니다. 또한 WPF는 적중 테스트 및 전체 알파 합치기를 지원합니다.  
   
--   **하드웨어 가속**. WPF 그래픽 시스템은 그래픽 하드웨어를 활용하여 CPU 사용량을 최소화합니다.  
+- **하드웨어 가속**. WPF 그래픽 시스템은 그래픽 하드웨어를 활용하여 CPU 사용량을 최소화합니다.  
   
 ### <a name="2-d-shapes"></a>2차원 도형  
  WPF는 다음 그림에 표시된 사각형 및 타원과 같은 일반적인 벡터 기반의 2차원 도형 라이브러리를 제공합니다.  
@@ -299,14 +299,14 @@ End Namespace
   
  자세한 내용은 [3차원 그래픽 개요](https://msdn.microsoft.com/library/ms747437\(v=vs.100\).aspx)를 참조하세요.  
   
-##  <a name="Animation"></a> 애니메이션  
+## <a name="Animation"></a> 애니메이션  
  WPF 애니메이션 지원을 사용하면 컨트롤이 커지거나, 흔들리거나, 회전하거나, 사라지도록 하여 흥미로운 페이지 전환 등을 만들 수 있습니다. 사용자 지정 클래스를 비롯한 대부분의 WPF 클래스에 애니메이션 효과를 줄 수 있습니다. 다음 그림에서는 간단한 애니메이션의 작동을 보여 줍니다.  
   
  ![애니메이션 효과가 적용된 큐브의 이미지](../designers/media/wpfintrofigure7.png "WPFIntroFigure7")  
   
  자세한 내용은 [애니메이션 개요](https://msdn.microsoft.com/library/ms752312\(v=vs.100\).aspx)를 참조하세요.  
   
-##  <a name="Media"></a> 미디어  
+## <a name="Media"></a> 미디어  
  풍부한 콘텐츠를 전달하는 한 가지 방법은 시청각 미디어를 사용하는 것입니다. WPF는 이미지, 비디오 및 오디오에 대한 특별한 지원을 제공합니다.  
   
 ### <a name="images"></a>이미지  
@@ -327,7 +327,7 @@ End Namespace
   
  자세한 내용은 [WPF 그래픽, 애니메이션 및 미디어 개요](https://msdn.microsoft.com/library/ms742562\(v=vs.100\).aspx)를 참조하세요.  
   
-##  <a name="Text_and_Typography"></a> 텍스트 및 입력 체계  
+## <a name="Text_and_Typography"></a> 텍스트 및 입력 체계  
  고품질 텍스트 렌더링이 용이하도록 WPF는 다음 기능을 제공합니다.  
   
 - OpenType 글꼴 지원  
@@ -346,7 +346,7 @@ End Namespace
   
   자세한 내용은 [Windows Presentation Foundation의 입력 체계](https://msdn.microsoft.com/library/ms742190\(v=vs.100\).aspx)를 참조하세요.  
   
-##  <a name="WPF_Customization"></a> WPF 응용 프로그램 사용자 지정  
+## <a name="WPF_Customization"></a> WPF 응용 프로그램 사용자 지정  
  지금까지 애플리케이션을 개발하기 위한 핵심 WPF 구성 요소를 살펴봤습니다. 애플리케이션 모델을 사용하여 주로 컨트롤로 구성된 애플리케이션 콘텐츠를 호스트 및 제공합니다. 사용자 인터페이스에서 컨트롤 정렬을 간소화하고 창 크기 및 디스플레이 설정이 변경되어도 정렬이 유지되도록 하기 위해 WPF 레이아웃 시스템을 사용합니다. 대부분의 애플리케이션은 사용자의 데이터 조작을 허용하므로 데이터 바인딩을 사용하여 사용자 인터페이스와 데이터 통합 작업을 줄입니다. 애플리케이션의 시각적 모양을 개선하려면 WPF에서 제공하는 광범위한 그래픽, 애니메이션 및 미디어 지원을 사용합니다.  
   
  하지만 기본 사항이 고유하고 시각적으로 멋진 사용자 환경을 만들고 관리하는 데 충분하지 않은 경우도 많습니다. 표준 WPF 컨트롤이 원하는 애플리케이션 모양과 통합되지 않을 수 있습니다. 데이터가 가장 효율적인 방식으로 표시되지 않을 수도 있습니다. 애플리케이션의 전반적인 사용자 환경이 Windows 테마의 기본 모양과 느낌에 적합하지 않을 수 있습니다. 여러 측면에서 프레젠테이션 기술은 다른 종류의 확장성만큼 시각적 확장성을 필요로 합니다.  
@@ -498,18 +498,18 @@ End Namespace
   
  사용자 지정 컨트롤에 대한 자세한 내용은 [컨트롤 제작 개요](https://msdn.microsoft.com/library/ms745025\(v=vs.100\).aspx)를 참조하세요.  
   
-##  <a name="WPF_Best_Practices"></a> WPF 모범 사례  
+## <a name="WPF_Best_Practices"></a> WPF 모범 사례  
  모든 개발 플랫폼과 마찬가지로 WPF를 다양한 방법으로 사용하여 원하는 결과를 얻을 수 있습니다. WPF 애플리케이션이 필요한 사용자 환경을 제공하고 일반적인 사용자 요구를 충족하도록 하는 한 가지 방법으로 접근성, 전역화 및 지역화, 성능에 대한 권장 모범 사례가 있습니다. 자세한 내용은 다음을 참조하세요.  
   
--   [접근성 모범 사례](https://msdn.microsoft.com/library/aa350483\(v=vs.100\).aspx)접근성 모범 사례  
+- [접근성 모범 사례](https://msdn.microsoft.com/library/aa350483\(v=vs.100\).aspx)접근성 모범 사례  
   
--   [WPF 전역화 및 지역화 개요](https://msdn.microsoft.com/library/ms788718\(v=vs.100\).aspx)  
+- [WPF 전역화 및 지역화 개요](https://msdn.microsoft.com/library/ms788718\(v=vs.100\).aspx)  
   
--   [WPF 응용 프로그램 성능 최적화](https://msdn.microsoft.com/library/aa970683\(v=vs.100\).aspx)  
+- [WPF 응용 프로그램 성능 최적화](https://msdn.microsoft.com/library/aa970683\(v=vs.100\).aspx)  
   
--   [Windows Presentation Foundation 보안](https://msdn.microsoft.com/library/aa970906\(v=vs.100\).aspx)  
+- [Windows Presentation Foundation 보안](https://msdn.microsoft.com/library/aa970906\(v=vs.100\).aspx)  
   
-##  <a name="Summary"></a> 요약  
+## <a name="Summary"></a> 요약  
  WPF는 시각적으로 멋진 다양한 클라이언트 애플리케이션을 빌드하기 위한 포괄적인 프레젠테이션 기술입니다. 이 소개에서는 WPF의 주요 기능을 살펴봤습니다.  
   
  다음 단계는 WPF 애플리케이션을 빌드하는 것입니다.  

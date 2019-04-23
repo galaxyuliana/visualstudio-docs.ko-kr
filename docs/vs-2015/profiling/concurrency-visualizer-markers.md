@@ -11,12 +11,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 47860775a6351cab83cd43975e94373c3558305a
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 143cea7a60fd136777943e849713ca0bdfe171fb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54795349"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078319"
 ---
 # <a name="concurrency-visualizer-markers"></a>동시성 시각화 도우미 표식
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,11 +26,11 @@ ms.locfileid: "54795349"
 ## <a name="kinds-of-markers"></a>표식 종류  
  동시성 시각화 도우미는 애플리케이션 이벤트를 나타내기 위해 플래그, 메시지 및 범위의 세 가지 표식을 사용합니다.  
   
-1.  *플래그*를 사용하여 앱에서 특정 시점을 나타낼 수 있습니다.  예를 들어 플래그를 사용하면 변수 값이 특정 임계값에 도달한 시점 또는 예외가 throw된 시점을 나타낼 수 있습니다.  
+1. *플래그*를 사용하여 앱에서 특정 시점을 나타낼 수 있습니다.  예를 들어 플래그를 사용하면 변수 값이 특정 임계값에 도달한 시점 또는 예외가 throw된 시점을 나타낼 수 있습니다.  
   
-2.  *메시지*도 특정 시점을 표시하지만 메시지는 장기적인 추적을 위해 사용할 수 있습니다.  예를 들어 로그 파일에 무엇이 덤프되었더라도 지금 메시지 호출에 래핑하여 동시성 시각화 도우미에서 이를 추적하고 볼 수 있습니다. 또한 동시성 시각화 도우미를 사용해서 이 데이터를 CSV 파일로 내보낼 수 있습니다.  
+2. *메시지*도 특정 시점을 표시하지만 메시지는 장기적인 추적을 위해 사용할 수 있습니다.  예를 들어 로그 파일에 무엇이 덤프되었더라도 지금 메시지 호출에 래핑하여 동시성 시각화 도우미에서 이를 추적하고 볼 수 있습니다. 또한 동시성 시각화 도우미를 사용해서 이 데이터를 CSV 파일로 내보낼 수 있습니다.  
   
-3.  *범위*는 여러 단계 중 한 단계와 같이 앱에서의 시간 간격을 나타냅니다.  
+3. *범위*는 여러 단계 중 한 단계와 같이 앱에서의 시간 간격을 나타냅니다.  
   
 ## <a name="marker-linkage-to-threads"></a>스레드에 표식 링크  
  표식을 생성하는 각 스레드에는 별도의 타임라인 채널이 포함됩니다.  표식 이벤트를 생성하는 스레드의 ID는 표식 채널의 설명 옆에 표시됩니다.  표식 채널의 왼쪽에 표시되는 ID는 현재 프로세스의 다른 스레드 ID와 일치합니다.  

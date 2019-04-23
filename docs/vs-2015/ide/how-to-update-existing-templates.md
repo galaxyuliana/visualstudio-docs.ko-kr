@@ -13,12 +13,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5b1ffd20fb33048427ba4cacdbbd9360313db089
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 26482e844a4850efb1c50b15e51e4153baf1f9ab
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54771115"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075998"
 ---
 # <a name="how-to-update-existing-templates"></a>방법: 기존 템플릿 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,39 +30,38 @@ ms.locfileid: "54771115"
   
 #### <a name="to-use-export-template-to-update-an-existing-template"></a>템플릿 내보내기를 사용하여 기존 템플릿을 업데이트하려면  
   
-1.  **파일** 메뉴에서 **새로 만들기** 를 클릭한 다음 **새 프로젝트**를 클릭합니다.  
+1. **파일** 메뉴에서 **새로 만들기** 를 클릭한 다음 **새 프로젝트**를 클릭합니다.  
   
-2.  업데이트할 템플릿을 선택하고 임시 프로젝트의 이름과 위치를 입력한 다음, **확인**을 클릭합니다.  
+2. 업데이트할 템플릿을 선택하고 임시 프로젝트의 이름과 위치를 입력한 다음, **확인**을 클릭합니다.  
   
-3.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프로젝트를 수정합니다.  
+3. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프로젝트를 수정합니다.  
   
-4.  **파일** 메뉴에서 **템플릿 내보내기**를 클릭하고 **템플릿 내보내기** 마법사에서 새 템플릿을 만듭니다.  
+4. **파일** 메뉴에서 **템플릿 내보내기**를 클릭하고 **템플릿 내보내기** 마법사에서 새 템플릿을 만듭니다.  
   
-5.  업데이트된 템플릿이 .zip 파일로 압축되었으면 이전 템플릿 .zip 파일을 삭제합니다.  
+5. 업데이트된 템플릿이 .zip 파일로 압축되었으면 이전 템플릿 .zip 파일을 삭제합니다.  
   
 ## <a name="manually-updating-an-existing-template"></a>기존 템플릿 수동 업데이트  
  압축된 .zip 파일에 있는 파일을 수정하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 외부에서 기존 템플릿을 업데이트할 수 있습니다.  
   
 #### <a name="to-manually-update-an-existing-template"></a>기존 템플릿을 수동으로 업데이트하려면  
   
-1.  템플릿을 포함하는 .zip 파일을 찾습니다. 기본적으로 이 파일은 \My Documents\Visual Studio *Version*\My Exported Templates\\에 있습니다.  
+1. 템플릿을 포함하는 .zip 파일을 찾습니다. 기본적으로 이 파일은 \My Documents\Visual Studio *Version*\My Exported Templates\\에 있습니다.  
   
-2.  .zip 파일의 압축을 풉니다.  
+2. .zip 파일의 압축을 풉니다.  
   
-3.  현재 템플릿 파일을 수정 또는 삭제하거나 템플릿에 새 파일을 추가합니다.  
+3. 현재 템플릿 파일을 수정 또는 삭제하거나 템플릿에 새 파일을 추가합니다.  
   
-4.  .vstemplate XML 파일을 열어서 수정한 다음 저장하여 업데이트된 동작 또는 새 파일을 처리합니다. .vstemplate 스키마에 대한 자세한 내용은 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)를 참조하세요. 원본 파일에서 매개 변수화할 수 있는 항목에 대한 자세한 내용은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.  
+4. .vstemplate XML 파일을 열어서 수정한 다음 저장하여 업데이트된 동작 또는 새 파일을 처리합니다. .vstemplate 스키마에 대한 자세한 내용은 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)를 참조하세요. 원본 파일에서 매개 변수화할 수 있는 항목에 대한 자세한 내용은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.  
   
-5.  템플릿에 있는 파일을 선택하고 마우스 오른쪽 단추를 클릭하고 **보내기**를 클릭한 다음, **압축(ZIP) 폴더**를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
+5. 템플릿에 있는 파일을 선택하고 마우스 오른쪽 단추를 클릭하고 **보내기**를 클릭한 다음, **압축(ZIP) 폴더**를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
   
-6.  새 .zip 파일을 이전 .zip 파일과 같은 디렉터리에 넣습니다.  
+6. 새 .zip 파일을 이전 .zip 파일과 같은 디렉터리에 넣습니다.  
   
-7.  추출된 템플릿 파일과 이전 템플릿 .zip 파일을 삭제합니다.  
+7. 추출된 템플릿 파일과 이전 템플릿 .zip 파일을 삭제합니다.  
   
-8.  시작 메뉴의 **Visual Studio 2010/Visual Studio Tools/개발자 명령 프롬프트**에서 개발자 명령 프롬프트의 인스턴스를 시작(관리자로 실행)합니다.  
+8. 시작 메뉴의 **Visual Studio 2010/Visual Studio Tools/개발자 명령 프롬프트**에서 개발자 명령 프롬프트의 인스턴스를 시작(관리자로 실행)합니다.  
   
-9. 
-  `devenv /installvstemplates` 명령을 실행합니다.  
+9. `devenv /installvstemplates` 명령을 실행합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [템플릿 사용자 지정](../ide/customizing-project-and-item-templates.md)   

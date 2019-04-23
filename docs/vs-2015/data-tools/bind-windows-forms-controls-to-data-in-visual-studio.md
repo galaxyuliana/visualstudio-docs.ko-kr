@@ -23,12 +23,12 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 866b2b824735ed96615880350343d17adfeecefc
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 0f2bd51570c8ad1976b6fc9eb5674177f9342833
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653998"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60069460"
 ---
 # <a name="bind-windows-forms-controls-to-data-in-visual-studio"></a>Windows Forms 컨트롤을 Visual Studio의 데이터에 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,21 +41,21 @@ Windows Forms에 데이터를 바인딩하여 응용 프로그램의 사용자�
 
 ## <a name="in-this-section"></a>단원 내용
 
--   [데이터에 Windows Forms컨트롤 바인딩](../data-tools/bind-windows-forms-controls-to-data.md)
+- [데이터에 Windows Forms컨트롤 바인딩](../data-tools/bind-windows-forms-controls-to-data.md)
 
--   [데이터 바인딩된 컨트롤에서 데이터를 저장하기 전에 In-Process 편집 커밋](../data-tools/commit-in-process-edits-on-data-bound-controls-before-saving-data.md)
+- [데이터 바인딩된 컨트롤에서 데이터를 저장하기 전에 In-Process 편집 커밋](../data-tools/commit-in-process-edits-on-data-bound-controls-before-saving-data.md)
 
--   [Windows Forms 애플리케이션에서 조회 테이블 만들기](../data-tools/create-lookup-tables-in-windows-forms-applications.md)
+- [Windows Forms 애플리케이션에서 조회 테이블 만들기](../data-tools/create-lookup-tables-in-windows-forms-applications.md)
 
--   [데이터 검색을 위한 Windows Form 만들기](../data-tools/create-a-windows-form-to-search-data.md)
+- [데이터 검색을 위한 Windows Form 만들기](../data-tools/create-a-windows-form-to-search-data.md)
 
--   [단순 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기](../data-tools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md)
+- [단순 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기](../data-tools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md)
 
--   [복합 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md)
+- [복합 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md)
 
--   [조회 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md)
+- [조회 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md)
 
--   [폼 간에 데이터 전달](../data-tools/pass-data-between-forms.md)
+- [폼 간에 데이터 전달](../data-tools/pass-data-between-forms.md)
 
 ## <a name="bindingsource-component"></a>BindingSource 구성 요소
  <xref:System.Windows.Forms.BindingSource> 구성 요소는 두가지 용도로 사용됩니다. 첫째, 폼의 컨트롤에 데이터 바인딩할 때 추상화 계층을 제공 합니다. 폼의 컨트롤에 바인딩된는 <xref:System.Windows.Forms.BindingSource> (데이터 원본에 직접 바인딩되는) 대신 구성 요소입니다.
@@ -64,11 +64,11 @@ Windows Forms에 데이터를 바인딩하여 응용 프로그램의 사용자�
 
  에 대 한 자세한 내용은 <xref:System.Windows.Forms.BindingSource> 구성 요소를 참조 하세요.
 
--   [BindingSource 구성 요소](http://msdn.microsoft.com/library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9)
+- [BindingSource 구성 요소](http://msdn.microsoft.com/library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9)
 
--   [BindingSource 구성 요소 개요](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)
+- [BindingSource 구성 요소 개요](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)
 
--   [BindingSource 구성 요소 아키텍처](http://msdn.microsoft.com/library/7bc69c90-8a11-48b1-9336-3adab5b41591)
+- [BindingSource 구성 요소 아키텍처](http://msdn.microsoft.com/library/7bc69c90-8a11-48b1-9336-3adab5b41591)
 
 ## <a name="bindingnavigator-control"></a>BindingNavigator 컨트롤
  이 구성 요소는 Windows 응용 프로그램에서 표시 되는 데이터를 탐색 하기 위한 사용자 인터페이스를 제공 합니다. 자세한 내용은 [BindingNavigator 컨트롤](http://msdn.microsoft.com/library/18c1e2a5-9834-40d3-9b2e-2b545e4e769e)을 참조하세요.

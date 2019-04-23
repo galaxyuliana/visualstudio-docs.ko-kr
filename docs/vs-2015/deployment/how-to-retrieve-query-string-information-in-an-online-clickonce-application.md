@@ -16,12 +16,12 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 95fa2a4146e151b689efbb82d933e05be698f62b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7b4d5e914566cc019a3882ed53923f84ecdddf85
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985803"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60069538"
 ---
 # <a name="how-to-retrieve-query-string-information-in-an-online-clickonce-application"></a>방법: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,26 +49,26 @@ ms.locfileid: "58985803"
   
 ### <a name="to-obtain-query-string-information-from-a-clickonce-application"></a>ClickOnce 애플리케이션에서 쿼리 문자열 정보를 가져오려면  
   
-1.  프로젝트에 다음 코드를 추가합니다. 이 코드가 작동하려면 System.Web에 대한 참조가 필요하며 System.Web, System.Collections.Specialized 및 System.Deployment.Application에 대해 `using` 또는 `Imports` 문을 추가해야 합니다.  
+1. 프로젝트에 다음 코드를 추가합니다. 이 코드가 작동하려면 System.Web에 대한 참조가 필요하며 System.Web, System.Collections.Specialized 및 System.Deployment.Application에 대해 `using` 또는 `Imports` 문을 추가해야 합니다.  
   
      [!code-csharp[ClickOnceQueryString#1](../snippets/csharp/VS_Snippets_Winforms/ClickOnceQueryString/CS/Form1.cs#1)]
      [!code-vb[ClickOnceQueryString#1](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceQueryString/VB/Form1.vb#1)]  
   
-2.  이름으로 인덱싱된 쿼리 문자열 매개 변수의 <xref:System.Collections.DictionaryBase.Dictionary%2A> 를 검색하려면 전에 정의한 함수를 호출합니다.  
+2. 이름으로 인덱싱된 쿼리 문자열 매개 변수의 <xref:System.Collections.DictionaryBase.Dictionary%2A> 를 검색하려면 전에 정의한 함수를 호출합니다.  
   
 ### <a name="to-enable-query-string-passing-in-a-clickonce-application-with-mageuiexe"></a>MageUI.exe를 사용하여 ClickOnce 애플리케이션에서 쿼리 문자열이 전달되도록 하려면  
   
-1.  .NET 명령 프롬프트를 열고 다음을 입력합니다.  
+1. .NET 명령 프롬프트를 열고 다음을 입력합니다.  
   
     ```  
     MageUI  
     ```  
   
-2.  **파일** 메뉴에서 **열기**를 선택하고 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램에 대한 배포 매니페스트를 엽니다( `.application` 확장명으로 끝나는 파일).  
+2. **파일** 메뉴에서 **열기**를 선택하고 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램에 대한 배포 매니페스트를 엽니다( `.application` 확장명으로 끝나는 파일).  
   
-3.  왼쪽 탐색 창에서 **배포 옵션** 패널을 선택하고, **애플리케이션으로 URL 매개 변수가 전달되도록 허용** 확인란을 선택합니다.  
+3. 왼쪽 탐색 창에서 **배포 옵션** 패널을 선택하고, **애플리케이션으로 URL 매개 변수가 전달되도록 허용** 확인란을 선택합니다.  
   
-4.  **파일** 메뉴에서 **저장**을 선택합니다.  
+4. **파일** 메뉴에서 **저장**을 선택합니다.  
   
 > [!NOTE]
 >  또는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 쿼리 문자열이 전달되도록 할 수 있습니다. **프로젝트 속성** 을 열고 **게시**탭을 선택하고 **옵션** 단추를 클릭한 다음 **매니페스트** 를 선택하여 **응용 프로그램으로 URL 매개 변수가 전달되도록 허용**확인란을 선택합니다.  

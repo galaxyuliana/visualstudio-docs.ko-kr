@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9a896a5b850887b36a4fb6596923e742429c44dc
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d49c062540b50e442f2ac32e69ee37934c53bf2c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56714129"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068615"
 ---
 # <a name="how-to-implement-undo-management"></a>방법: 실행 취소 관리 구현
 실행 취소 관리에 사용 되는 기본 인터페이스는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager>, 환경에서 구현 되는 합니다. 실행 취소 관리를 지원 하려면 별도 실행 취소 단위를 구현 합니다. (즉, <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit>, 여러 개별 단계로 포함할 수 있습니다.
@@ -27,9 +27,9 @@ ms.locfileid: "56714129"
 
 ### <a name="to-support-undo-management-for-a-single-view-editor"></a>단일 뷰 편집기에 대 한 실행 취소 관리를 지원 하려면
 
-1.  호출 `QueryInterface` 에 `IServiceProvider` 인터페이스에 대 한 창 프레임 `IOleUndoManager`, 실행 취소 관리자에 액세스 하려면 문서 보기 개체에서 (`IID_IOLEUndoManager`).
+1. 호출 `QueryInterface` 에 `IServiceProvider` 인터페이스에 대 한 창 프레임 `IOleUndoManager`, 실행 취소 관리자에 액세스 하려면 문서 보기 개체에서 (`IID_IOLEUndoManager`).
 
-2.  뷰는 창 프레임에 배치 됩니다, 경우 호출 하는 데 사용할 수 있는 사이트 포인터를 가져옵니다 `QueryInterface` 에 대 한 `IServiceProvider`합니다.
+2. 뷰는 창 프레임에 배치 됩니다, 경우 호출 하는 데 사용할 수 있는 사이트 포인터를 가져옵니다 `QueryInterface` 에 대 한 `IServiceProvider`합니다.
 
 ## <a name="cases-where-an-editor-supports-multiple-views"></a>여기서 편집기에서는 여러 보기를 사용할 경우
  문서 및 뷰 분리에 있는 경우 다음 일반적으로 하나의 실행 취소 관리자가 문서 자체와 연결 된입니다. 모든 실행 취소 단위 문서 데이터 개체와 연결 된 하나의 실행 취소 관리자에 배치 됩니다.
@@ -46,17 +46,17 @@ ms.locfileid: "56714129"
 
 3. 릴레이 하 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 하 고 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> 에 저장 된 호출 `IOleCommandTarget` 다음 StandardCommandSet97 명령에 대 한 인터페이스:
 
-   -   cmdidUndo
+   - cmdidUndo
 
-   -   cmdidMultiLevelUndo
+   - cmdidMultiLevelUndo
 
-   -   cmdidRedo
+   - cmdidRedo
 
-   -   cmdidMultiLevelRedo
+   - cmdidMultiLevelRedo
 
-   -   cmdidMultiLevelUndoList
+   - cmdidMultiLevelUndoList
 
-   -   cmdidMultiLevelRedoList
+   - cmdidMultiLevelRedoList
 
 4. 호출 `QueryInterface` 대 `IOleUndoManager` 에 대 한 `IID_IVsChangeTrackingUndoManager`합니다. 에 대 한 포인터를 저장 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>합니다.
 

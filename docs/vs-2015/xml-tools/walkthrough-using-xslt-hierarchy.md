@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5d662a94a77dff02fd994122e5106f5bff35bac3
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: ed644c1dda4ac3674ef60d0027c37532fc6d0f92
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669447"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075626"
 ---
 # <a name="walkthrough-using-xslt-hierarchy"></a>연습: XSLT 계층 구조를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ XSLT 계층 구조 도구를 사용하면 많은 XML 개발 작업을 간단하�
   
 ### <a name="procedure-title"></a>절차 제목  
   
-1.  Visual Studio에서 XML 문서를 엽니다. 이 예제에서는 다음 `collection.xml` 문서를 사용합니다.  
+1. Visual Studio에서 XML 문서를 엽니다. 이 예제에서는 다음 `collection.xml` 문서를 사용합니다.  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -51,7 +51,7 @@ XSLT 계층 구조 도구를 사용하면 많은 XML 개발 작업을 간단하�
     </COLLECTION>  
     ```  
   
-2.  다음 `xslincludefile.xsl`을 추가합니다.  
+2. 다음 `xslincludefile.xsl`을 추가합니다.  
   
     ```  
     <?xml version='1.0'?>  
@@ -74,7 +74,7 @@ XSLT 계층 구조 도구를 사용하면 많은 XML 개발 작업을 간단하�
     </xsl:stylesheet>  
     ```  
   
-3.  다음 `xslinclude.xsl` 파일을 추가합니다.  
+3. 다음 `xslinclude.xsl` 파일을 추가합니다.  
   
     ```  
     <?xml version='1.0'?>  
@@ -108,11 +108,11 @@ XSLT 계층 구조 도구를 사용하면 많은 XML 개발 작업을 간단하�
     </xsl:stylesheet>  
     ```  
   
-4.  `<xsl:include href="xslincludefile.xsl" />` 명령에 중단점을 추가합니다.  
+4. `<xsl:include href="xslincludefile.xsl" />` 명령에 중단점을 추가합니다.  
   
-5.  디버깅을 시작합니다.  
+5. 디버깅을 시작합니다.  
   
-6.  `<xsl:include href="xslincludefile.xsl" />` 명령에서 디버거가 중지되면 한 단계씩 코드 실행 단추를 누릅니다. 참조된 스타일시트에서 디버깅을 계속할 수 있습니다. 계층 구조가 표시되며 디자이너에서 올바른 경로를 표시합니다.  
+6. `<xsl:include href="xslincludefile.xsl" />` 명령에서 디버거가 중지되면 한 단계씩 코드 실행 단추를 누릅니다. 참조된 스타일시트에서 디버깅을 계속할 수 있습니다. 계층 구조가 표시되며 디자이너에서 올바른 경로를 표시합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [연습: XSLT 프로파일러](../xml-tools/walkthrough-xslt-profiler.md)
