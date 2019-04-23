@@ -8,18 +8,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 69ebbf2401432b9afec5a66fb6a7322e3e2df035
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
-ms.translationtype: MTE95
+ms.openlocfilehash: edb78ed49add85b35f3fb89b4ba424d44f52bf8b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58325333"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081868"
 ---
 # <a name="debug-only-user-code-with-just-my-code"></a>내 코드만 사용 하 여 사용자 코드만 디버깅
 
 *내 코드만* 기능은 Visual Studio 디버깅는 자동으로 단계 시스템, 프레임 워크 및 기타 비 사용자 코드를 호출 합니다. 에 **호출 스택** Just My Code 창에 이러한 호출을 축소 **[External Code]** 프레임입니다.
 
-내 코드만.NET Framework, c + + 및 JavaScript 프로젝트에서 다르게 작동합니다.
+.NET framework에서 다르게 작동는 내 코드만 C++, 및 JavaScript 프로젝트입니다.
 
 ## <a name="BKMK_Enable_or_disable_Just_My_Code"></a> 내 코드만 사용 또는 사용 안 함
 
@@ -81,25 +81,25 @@ ms.locfileid: "58325333"
 
 ## <a name="BKMK_C___Just_My_Code"></a> C++ 내 코드만
 
-부터 Visual Studio 2017 버전 15.8, 코드에 대 한 내 코드만 단계별 실행도 지원 됩니다. 이 기능에도 사용 해야 합니다 [(내 코드만 디버깅) /JMC](/cpp/build/reference/jmc) 컴파일러 스위치입니다. 스위치는 c + + 프로젝트에서 기본으로 사용 됩니다. 에 대 한 **호출 스택** 창과 호출 스택 지원 내 코드만 /JMC 스위치가 필요 하지 않습니다.
+부터 Visual Studio 2017 버전 15.8, 코드에 대 한 내 코드만 단계별 실행도 지원 됩니다. 이 기능에도 사용 해야 합니다 [(내 코드만 디버깅) /JMC](/cpp/build/reference/jmc) 컴파일러 스위치입니다. 스위치에는 기본적으로 사용 됩니다 C++ 프로젝트입니다. 에 대 한 **호출 스택** 창과 호출 스택 지원 내 코드만 /JMC 스위치가 필요 하지 않습니다.
 
 <a name="BKMK_CPP_User_and_non_user_code"></a> 사용자 코드로 분류 되려면, 사용자 코드가 포함 된 이진 파일에 대 한 PDB 디버거에서 로드 해야 합니다 (사용 합니다 **모듈** 이 확인란을 선택 하는 창).
 
-같은 호출 스택 동작에 대 한 합니다 **호출 스택** 창에서 c + +에서 내 코드만 고려 되도록 이러한 함수만 *사용자 코드가 아닌*:
+같은 호출 스택 동작에 대 한 합니다 **호출 스택** 창에서 내 코드만 C++ 고려 되도록 이러한 함수만 *사용자 코드가 아닌*:
 
 - 기호 파일에서 소스 정보가 제거된 함수
 - 기호 파일에서 스택 프레임에 해당하는 소스 파일이 없음을 나타내는 함수
 - 함수에 지정 된  *\*.natjmc* 파일을 *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* 폴더입니다.
 
-코드 단계별 실행 동작에 대 한 c + +에서 내 코드만 것으로 간주 되려면 이러한 함수만 *사용자 코드가 아닌*:
+내 코드만, 코드 단계별 실행 동작에 대 한 C++ 를 이러한 함수에만 고려 *사용자 코드가 아닌*:
 
 - 해당 PDB 파일이 로드 되지 않은 디버거에서 함수입니다.
 - 함수에 지정 된  *\*.natjmc* 파일을 *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* 폴더입니다.
 
 > [!NOTE]
-> Just My Code에서 코드 단계별 실행 지원에 대 한 c + + 코드 컴파일해야 합니다. Visual Studio 15.8 미리 보기 3 이상에서는 MSVC 컴파일러를 사용 하 여 및 /JMC 컴파일러 스위치를 사용할 수 있어야 합니다 (기본적으로 사용 됩니다). 자세한 내용은 참조 하세요. [사용자 지정 c + + 호출 스택 및 코드 단계별 실행 동작](#BKMK_CPP_Customize_call_stack_behavior))이 [블로그 게시물](https://devblogs.microsoft.com/cppblog/announcing-jmc-stepping-in-visual-studio/)합니다. 이전 컴파일러를 사용 하 여 컴파일된 코드에 대 한 *.natstepfilter* Just My Code 독립적인 코드를 단계별로 실행 사용자 지정 하는 유일한 방법은 파일이 있습니다. 참조 [단계별 실행 동작 사용자 지정 c + +](#BKMK_CPP_Customize_stepping_behavior)합니다.
+> 코드에서 내 코드만 단계별 실행 지원에 대 한 C++ Visual Studio 15.8 미리 보기 3 이상에서는 MSVC 컴파일러를 사용 하 여 코드 컴파일 및 /JMC 컴파일러 스위치를 사용할 수 있어야 합니다 (기본적으로 사용 됩니다). 자세한 내용은 참조 하세요. [사용자 지정 C++ 호출 스택 및 코드 단계별 실행 동작](#BKMK_CPP_Customize_call_stack_behavior))이 [블로그 게시물](https://devblogs.microsoft.com/cppblog/announcing-jmc-stepping-in-visual-studio/)합니다. 이전 컴파일러를 사용 하 여 컴파일된 코드에 대 한 *.natstepfilter* Just My Code 독립적인 코드를 단계별로 실행 사용자 지정 하는 유일한 방법은 파일이 있습니다. 참조 [사용자 지정 C++ 단계별 실행 동작](#BKMK_CPP_Customize_stepping_behavior)합니다.
 
-<a name="BKMK_CPP_Stepping_behavior"></a> C + + 디버깅 중:
+<a name="BKMK_CPP_Stepping_behavior"></a> 중 C++ 디버깅:
 
 - **디버그** > **단계씩** (또는 **F11**) 사용자 코드의 다음 줄으로 코드를 통해 사용자 코드가 아닌 단계에 있습니다.
 - **디버그** > **나가기** (또는 **Shift**+**F11**) 비 사용자 코드에서 사용자 코드의 다음 줄을 실행 합니다.
@@ -110,9 +110,9 @@ ms.locfileid: "58325333"
 
 디버거가 예외에 도달 여부와 관계 없이 사용자 또는 비 사용자 코드에서 예외를 중지 합니다. **사용자가 처리 하지 않은** 옵션을 **예외 설정** 대화 상자는 무시 됩니다.
 
-###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> C + + 호출 스택 및 코드 단계별 실행 동작을 사용자 지정
+### <a name="BKMK_CPP_Customize_call_stack_behavior"></a> 사용자 지정 C++ 호출 스택 및 코드 단계별 실행 동작
 
-C + + 프로젝트에 대 한 모듈, 소스 파일 및 함수를 지정할 수는 **호출 스택** 창에 지정 하 여 사용자 코드가 아닌 취급  *\*.natjmc* 파일입니다. 이 사용자 지정 코드 최신 컴파일러를 사용 하는 경우 단계별 실행에 적용 됩니다 (참조 [Just My Code c + +](#BKMK_CPP_User_and_non_user_code)).
+에 대 한 C++ 프로젝트를 소스 파일 및 함수 모듈을 지정할 수 있습니다는 **호출 스택** 창에 지정 하 여 사용자 코드가 아닌 취급  *\*.natjmc* 파일입니다. 이 사용자 지정 코드 최신 컴파일러를 사용 하는 경우 단계별 실행에 적용 됩니다 (참조 [ C++ 내 코드만](#BKMK_CPP_User_and_non_user_code)).
 
 - Visual Studio 컴퓨터의 모든 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natjmc* 파일을 합니다 *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* 폴더.
 - 개별 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natjmc* 파일을 합니다 *%USERPROFILE%\My 문서\\< Visual Studio 버전\>\Visualizers* 폴더.
@@ -160,9 +160,9 @@ A *.natjmc* 파일은이 구문 사용 하 여 XML 파일:
 |`Module`|선택 사항입니다. 함수를 포함하는 모듈의 이름 또는 전체 경로입니다. 이 특성을 사용하여 동일한 이름을 가진 함수를 구분할 수 있습니다.|
 |`ExceptionImplementation`|`true`로 설정된 경우 이 함수 대신 예외를 발생시킨 함수가 호출 스택에 표시됩니다.|
 
-###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Just My Code 설정의 관계 없이 c + + 단계별 실행 동작을 사용자 지정
+### <a name="BKMK_CPP_Customize_stepping_behavior"></a> 사용자 지정 C++ 내 코드만 설정의 독립적인 단계별 실행 동작
 
-C + + 프로젝트에서 함수에 대 한 비 사용자 코드로 나열 하는 조치 단계를 지정할 수 있습니다  *\*.natstepfilter* 파일입니다. 에 나열 된 함수  *\*.natstepfilter* 파일 내 코드만 설정에 종속 되지 않습니다.
+C++ 프로젝트의 경우 함수에 대 한 비 사용자 코드로 나열 하는 조치 단계를 지정할 수 있습니다  *\*.natstepfilter* 파일입니다. 에 나열 된 함수  *\*.natstepfilter* 파일 내 코드만 설정에 종속 되지 않습니다.
 
 - 모든 로컬 Visual Studio 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natstepfilter* 파일을 합니다 *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* 폴더.
 - 개별 사용자에 대 한 비 사용자 코드를 지정 하려면 다음을 추가 합니다 *.natstepfilter* 파일을 합니다 *%USERPROFILE%\My 문서\\< Visual Studio 버전\>\Visualizers* 폴더.
@@ -188,11 +188,11 @@ A *.natstepfilter* 파일은이 구문 사용 하 여 XML 파일:
 |요소|설명|
 |-------------|-----------------|
 |`Function`|필수 요소. 하나 이상의 함수를 사용자가 작성하지 않은 함수로 지정합니다.|
-|`Name`|필수 요소. 일치시킬 전체 함수 이름을 지정하는 ECMA 262 형식의 정규식입니다. 예:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> `MyNS::MyClass`의 모든 메서드를 사용자가 작성하지 않은 코드로 간주하도록 디버거에 지시합니다. 일치 항목 찾기에서는 대/소문자를 구분합니다.|
+|`Name`|필수 요소. 일치시킬 전체 함수 이름을 지정하는 ECMA 262 형식의 정규식입니다. 예를 들어:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> `MyNS::MyClass`의 모든 메서드를 사용자가 작성하지 않은 코드로 간주하도록 디버거에 지시합니다. 일치 항목 찾기에서는 대/소문자를 구분합니다.|
 |`Module`|선택 사항입니다. 함수를 포함하는 모듈의 전체 경로를 지정하는 ECMA 262 형식의 정규식입니다. 일치 항목 찾기에서는 대/소문자를 구분하지 않습니다.|
 |`Action`|필수 요소. 대/소문자를 구분하는 다음 값 중 하나입니다.<br /><br /> `NoStepInto`  -함수를 디버거에 지시 합니다.<br /> `StepInto`  -다른 재정의 함수를 한 단계씩 실행 하도록 디버거에 지시 `NoStepInto` 일치 하는 함수에 대 한 합니다.|
 
-##  <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript 내 코드만
+## <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript 내 코드만
 
 <a name="BKMK_JS_User_and_non_user_code"></a> JavaScript 내 코드만 옵션은 다음 분류 중 하나로 코드를 분류하여 단계별 실행 및 호출 스택 표시를 제어합니다.
 
@@ -205,10 +205,10 @@ A *.natstepfilter* 파일은이 구문 사용 하 여 XML 파일:
 JavaScript 디버거는 사용자 또는 사용자가 아닌이 순서 대로 코드를 분류합니다.
 
 1. 기본 분류 합니다.
-   -   호스트에서 제공 하는 문자열을 전달 하 여 실행 되는 스크립트 `eval` 함수는 **MyCode**합니다.
-   -   문자열을 전달 하 여 실행 되는 스크립트를 `Function` 생성자 **LibraryCode**합니다.
-   -   WinJS 또는 Azure SDK와 같은 프레임 워크 참조에서 스크립트가 **LibraryCode**합니다.
-   -   문자열을 전달 하 여 실행 되는 스크립트를 `setTimeout`, `setImmediate`, 또는 `setInterval` 함수는 **UnrelatedCode**합니다.
+   - 호스트에서 제공 하는 문자열을 전달 하 여 실행 되는 스크립트 `eval` 함수는 **MyCode**합니다.
+   - 문자열을 전달 하 여 실행 되는 스크립트를 `Function` 생성자 **LibraryCode**합니다.
+   - WinJS 또는 Azure SDK와 같은 프레임 워크 참조에서 스크립트가 **LibraryCode**합니다.
+   - 문자열을 전달 하 여 실행 되는 스크립트를 `setTimeout`, `setImmediate`, 또는 `setInterval` 함수는 **UnrelatedCode**합니다.
 
 2. 모든 Visual Studio JavaScript 프로젝트에 대 한 지정 된 분류 합니다 *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* 파일입니다.
 

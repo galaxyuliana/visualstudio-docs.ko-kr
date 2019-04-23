@@ -13,39 +13,39 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a415a1021514a4d8b962e4a65a22b691edc66d9d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1be553955abdc42c2a9b4d09ff857e9236b1a002
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635152"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081908"
 ---
 # <a name="how-to-import-a-master-page-or-theme"></a>방법: 마스터 페이지 또는 테마 가져오기
   제공할 수 있습니다 페이지 SharePoint 사이트에서 일관 된 모양을 만들고 마스터 페이지 및 테마를 사용 하 여. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 이러한 요소에 대 한 템플릿을 제공 하지 않습니다 SharePoint Designer에서 만들고를 다음으로 가져와야 하지만 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 자세한 내용은 참조 하세요. [문서 블록: 페이지 및 사용자 인터페이스](http://go.microsoft.com/fwlink/?LinkID=182095) Microsoft 웹 사이트입니다.
 
 ### <a name="to-import-a-master-page-or-theme"></a>마스터 페이지 또는 테마 가져오기
 
-1.  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 만들거나 SharePoint 프로젝트를 엽니다.
+1. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 만들거나 SharePoint 프로젝트를 엽니다.
 
      SharePoint 프로젝트를 만드는 방법에 대 한 자세한 내용은 [SharePoint 프로젝트 및 프로젝트 항목 템플릿](../sharepoint/sharepoint-project-and-project-item-templates.md)합니다.
 
-2.  메뉴 모음에서 **프로젝트** > **새 항목 추가**를 선택합니다.
+2. 메뉴 모음에서 **프로젝트** > **새 항목 추가**를 선택합니다.
 
-3.  에 **새 항목 추가** 대화 상자에서 합니다 **SharePoint** 노드를 선택한 후는 **2010** 노드.
+3. 에 **새 항목 추가** 대화 상자에서 합니다 **SharePoint** 노드를 선택한 후는 **2010** 노드.
 
-4.  SharePoint 템플릿의 목록에서 선택 합니다 **모듈** 템플릿을 모듈에 대 한 이름을 지정 합니다.
+4. SharePoint 템플릿의 목록에서 선택 합니다 **모듈** 템플릿을 모듈에 대 한 이름을 지정 합니다.
 
      모듈에는 SharePoint에서 지정 하는 위치에 배포에 대 한 파일 (예: 마스터 페이지 또는 테마 파일)를 포함 합니다.
 
-5.  모듈의 이름으로 지정 된 기본 파일을 삭제할 *Sample.txt*합니다.
+5. 모듈의 이름으로 지정 된 기본 파일을 삭제할 *Sample.txt*합니다.
 
-6.  모듈 노드를 선택 합니다.
+6. 모듈 노드를 선택 합니다.
 
-7.  메뉴 모음에서 선택 **프로젝트** > **기존 항목 추가**, 고 마스터 페이지 또는 테마 파일을 선택 합니다.
+7. 메뉴 모음에서 선택 **프로젝트** > **기존 항목 추가**, 고 마스터 페이지 또는 테마 파일을 선택 합니다.
 
      마스터 페이지 파일 확장명이.master 및 테마 파일 확장명이.thmx 합니다.
 
-8.  마스터 페이지를 추가한 경우 변경 해당 **배포 충돌 해결** 설정을 **자동** 모듈의 속성입니다.
+8. 마스터 페이지를 추가한 경우 변경 해당 **배포 충돌 해결** 설정을 **자동** 모듈의 속성입니다.
 
     > [!NOTE]
     >  마스터 페이지의 이름이 기본 마스터 페이지 또는 사용자 지정 마스터 페이지에 표시 된 기존 마스터 페이지의 이름과 같은 경우 오류가 발생할 수 있습니다. 이 문제를 해결 하는 방법에 대 한 정보를 참조 하세요. [연습: 사용자 지정 마스터 페이지 및 사이트 페이지를 이미지로 가져오기](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md)합니다.

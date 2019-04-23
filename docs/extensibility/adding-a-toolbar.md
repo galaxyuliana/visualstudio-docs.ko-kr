@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6426572ff346debba32029024a96c9cc5af52ff4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 0485b6649396239d2b6501c65e801a03767d5df1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56699680"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082297"
 ---
 # <a name="add-a-toolbar"></a>도구 모음 추가
 이 연습에서는 Visual Studio IDE에 도구 모음을 추가 하는 방법을 보여 줍니다.
@@ -35,7 +35,7 @@ ms.locfileid: "56699680"
 
 ## <a name="create-a-toolbar-for-the-ide"></a>IDE에 대 한 도구 모음 만들기
 
-1.  *ToolbarTestCommandPackage.vsct*, Symbols 섹션을 찾습니다. GuidToolbarTestCommandPackageCmdSet 라는 GuidSymbol 요소에서 도구 모음 및 도구 모음 그룹에 대 한 선언을 다음과 같이 추가 합니다.
+1. *ToolbarTestCommandPackage.vsct*, Symbols 섹션을 찾습니다. GuidToolbarTestCommandPackageCmdSet 라는 GuidSymbol 요소에서 도구 모음 및 도구 모음 그룹에 대 한 선언을 다음과 같이 추가 합니다.
 
     ```xml
     <IDSymbol name="Toolbar" value="0x1000" />
@@ -43,7 +43,7 @@ ms.locfileid: "56699680"
 
     ```
 
-2.  명령 섹션의 맨 위에 있는 메뉴 섹션을 만듭니다. 도구 모음을 정의 하려면 메뉴 섹션 메뉴 요소를 추가 합니다.
+2. 명령 섹션의 맨 위에 있는 메뉴 섹션을 만듭니다. 도구 모음을 정의 하려면 메뉴 섹션 메뉴 요소를 추가 합니다.
 
     ```xml
     <Menus>
@@ -60,7 +60,7 @@ ms.locfileid: "56699680"
 
      하위 메뉴와 같은 도구 모음을 중첩할 수 없습니다. 부모 그룹에 할당할 필요가 없습니다. 또한 필요가 없습니다 우선 순위를 설정 하려면 도구 모음을 이동할 수 있으므로 합니다. 일반적으로 도구 모음의 초기 배치 프로그래밍 방식으로 정의 되었지만 사용자가 후속 변경 내용은 유지 됩니다.
 
-3.  에 [그룹](../extensibility/groups-element.md) 섹션을 기존 그룹 항목을 한 후 정의 [그룹](../extensibility/group-element.md) 도구 모음에 대 한 명령을 포함 하는 요소입니다.
+3. 에 [그룹](../extensibility/groups-element.md) 섹션을 기존 그룹 항목을 한 후 정의 [그룹](../extensibility/group-element.md) 도구 모음에 대 한 명령을 포함 하는 요소입니다.
 
     ```xml
     <Group guid="guidToolbarTestCommandPackageCmdSet" id="ToolbarGroup"
@@ -69,7 +69,7 @@ ms.locfileid: "56699680"
     </Group>
     ```
 
-4.  도구 모음에서 표시 단추를 확인 합니다. 단추 섹션에서는 도구 모음 단추에 부모 블록을 대체 합니다. 결과 단추 블록은 다음과 같이 표시 됩니다.
+4. 도구 모음에서 표시 단추를 확인 합니다. 단추 섹션에서는 도구 모음 단추에 부모 블록을 대체 합니다. 결과 단추 블록은 다음과 같이 표시 됩니다.
 
     ```xml
     <Button guid="guidToolbarTestCommandPackageCmdSet" id="ToolbarTestCommandId" priority="0x0100" type="Button">
@@ -83,11 +83,11 @@ ms.locfileid: "56699680"
 
      기본적으로 도구 모음에 없는 명령이 나타나지 않습니다.
 
-5.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스에서 표시 됩니다.
+5. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스에서 표시 됩니다.
 
-6.  도구 모음 목록을 가져오려면 Visual Studio 메뉴 모음을 마우스 오른쪽 단추로 클릭 합니다. 선택 **테스트 도구 모음**합니다.
+6. 도구 모음 목록을 가져오려면 Visual Studio 메뉴 모음을 마우스 오른쪽 단추로 클릭 합니다. 선택 **테스트 도구 모음**합니다.
 
-7.  이제 도구 모음에서 찾기 파일 아이콘의 오른쪽에 아이콘으로 표시 됩니다. 했다는 메시지 상자가 표시 아이콘을 클릭 하면 **ToolbarTestCommandPackage 합니다. Inside IDEToolbar.ToolbarTestCommand.MenuItemCallback()**.
+7. 이제 도구 모음에서 찾기 파일 아이콘의 오른쪽에 아이콘으로 표시 됩니다. 했다는 메시지 상자가 표시 아이콘을 클릭 하면 **ToolbarTestCommandPackage 합니다. Inside IDEToolbar.ToolbarTestCommand.MenuItemCallback()**.
 
 ## <a name="see-also"></a>참고자료
 - [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

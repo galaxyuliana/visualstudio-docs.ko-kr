@@ -15,12 +15,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 425a7363e03dcc8a967853bbe574f29678df11a4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7de14898c5fb2bb6f8e95a2af5fd6b39a54cdb1d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981990"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082154"
 ---
 # <a name="ca2107-review-deny-and-permit-only-usage"></a>CA2107: deny 및 permit only 사용을 검토하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,15 +42,15 @@ ms.locfileid: "58981990"
 
  제한 된 유용성 및 동작이 약간 보안 취약점에 대 한 이러한 작업에 사용 하는 코드를 신중 하 게 평가 되어야 합니다. 다음을 살펴보세요.
 
--   [링크 요청](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) Deny 또는 PermitOnly 영향을 받지 않습니다.
+- [링크 요청](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) Deny 또는 PermitOnly 영향을 받지 않습니다.
 
--   Deny 또는 PermitOnly 스택 워크는 요청과 동일한 스택 프레임의 경우 보안 동작을 아무런 효과가 없습니다.
+- Deny 또는 PermitOnly 스택 워크는 요청과 동일한 스택 프레임의 경우 보안 동작을 아무런 효과가 없습니다.
 
--   일반적으로 여러 가지 방법으로 경로 기반 권한을 구성 하는 데 사용 되는 값을 지정할 수 있습니다. 한 가지 형태의 경로에 대 한 액세스를 거부 하 여 모든 형태의 액세스를 거부 하지 않는 합니다. 예를 들어, 파일 공유 \\거부 해야 \Server\Share 네트워크 공유에서 파일에 대 한 액세스를 거부 하려면 x: 드라이브에 매핑되어 \\\Server\Share\File, X:\File 및 파일에 액세스 하는 다른 모든 경로입니다.
+- 일반적으로 여러 가지 방법으로 경로 기반 권한을 구성 하는 데 사용 되는 값을 지정할 수 있습니다. 한 가지 형태의 경로에 대 한 액세스를 거부 하 여 모든 형태의 액세스를 거부 하지 않는 합니다. 예를 들어, 파일 공유 \\거부 해야 \Server\Share 네트워크 공유에서 파일에 대 한 액세스를 거부 하려면 x: 드라이브에 매핑되어 \\\Server\Share\File, X:\File 및 파일에 액세스 하는 다른 모든 경로입니다.
 
--   <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName> Deny 또는 PermitOnly에 도달 하기 전에 스택 워크를 종료할 수 있습니다.
+- <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName> Deny 또는 PermitOnly에 도달 하기 전에 스택 워크를 종료할 수 있습니다.
 
--   Deny가 적용 하는 경우 즉, 호출자에 게 Deny에 의해 차단 된 권한이 호출자에 게 액세스할 수 있습니다 보호 되는 리소스를 직접 Deny 무시. 마찬가지로, 호출자에 게 권한이 없으면 스택 워크를 거부 하지 않고 실패 합니다.
+- Deny가 적용 하는 경우 즉, 호출자에 게 Deny에 의해 차단 된 권한이 호출자에 게 액세스할 수 있습니다 보호 되는 리소스를 직접 Deny 무시. 마찬가지로, 호출자에 게 권한이 없으면 스택 워크를 거부 하지 않고 실패 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이러한 보안 동작을 사용 하면 위반이 발생 합니다. 위반을 해결 하려면 이러한 보안 동작을 사용 하지 마십시오.

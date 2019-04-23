@@ -19,12 +19,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 532781a2e816120dabfe2bec61059955cd0c82a6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: bc6bc7e6e7d11b1b5b77cd90b86a6a6167702872
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658125"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082180"
 ---
 # <a name="n-tier-data-applications-overview"></a>N 계층 데이터 응용 프로그램 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,11 +35,11 @@ N-계층 * 데이터 응용 프로그램은 여러 구분 되는 데이터 응�
   
  Visual Studio는 개발자가 n 계층 응용 프로그램을 만들 수 있도록 몇 가지 기능이 포함 되어 있습니다.  
   
--   데이터 집합 디자이너를 제공 된 **데이터 집합 프로젝트** 데이터 집합 (데이터 엔터티 계층) 할 수 있는 속성 및 `TableAdapter`s (데이터 액세스 계층)를 별도 프로젝트로 합니다.  
+- 데이터 집합 디자이너를 제공 된 **데이터 집합 프로젝트** 데이터 집합 (데이터 엔터티 계층) 할 수 있는 속성 및 `TableAdapter`s (데이터 액세스 계층)를 별도 프로젝트로 합니다.  
   
--   합니다 [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md) DataContext 및 데이터 클래스를 별도 네임 스페이스를 생성 하는 데 필요한 설정을 제공 합니다. 이 통해 데이터 액세스 및 데이터 엔터티 계층의 논리적 분리.  
+- 합니다 [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md) DataContext 및 데이터 클래스를 별도 네임 스페이스를 생성 하는 데 필요한 설정을 제공 합니다. 이 통해 데이터 액세스 및 데이터 엔터티 계층의 논리적 분리.  
   
--   [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) 제공은 <xref:System.Data.Linq.Table%601.Attach%2A> 메서드를 사용 하면 응용 프로그램에서 다른 계층에서 DataContext를 함께 가져올 수 있습니다. 자세한 내용은 [N 계층 응용 프로그램과 원격 linq to SQL](http://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)합니다.  
+- [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) 제공은 <xref:System.Data.Linq.Table%601.Attach%2A> 메서드를 사용 하면 응용 프로그램에서 다른 계층에서 DataContext를 함께 가져올 수 있습니다. 자세한 내용은 [N 계층 응용 프로그램과 원격 linq to SQL](http://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)합니다.  
   
 ## <a name="presentation-tier"></a>프레젠테이션 계층  
  합니다 *프레젠테이션 계층* 사용자가 응용 프로그램 상호 작용 하는 계층입니다. 여기에 포함 된 추가 응용 프로그램 논리 수도 있습니다. 일반적인 프레젠테이션 계층 구성 요소는 다음과 같습니다.  
@@ -57,11 +57,11 @@ N-계층 * 데이터 응용 프로그램은 여러 구분 되는 데이터 응�
   
 - 데이터 액세스 구성 요소와 같은 논리:  
   
-  -   [Tableadapter](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) 하 고 [Dataadapter 및 Datareader](http://msdn.microsoft.com/library/cc952ca2-ec19-46ab-9189-15174b52cb74)합니다.  
+  - [Tableadapter](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) 하 고 [Dataadapter 및 Datareader](http://msdn.microsoft.com/library/cc952ca2-ec19-46ab-9189-15174b52cb74)합니다.  
   
-  -   같은 개체의 데이터를 표현 [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) 엔터티 클래스입니다.  
+  - 같은 개체의 데이터를 표현 [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) 엔터티 클래스입니다.  
   
-  -   일반적인 응용 프로그램 서비스, 인증, 권한 부여 및 개인 설정 등.  
+  - 일반적인 응용 프로그램 서비스, 인증, 권한 부여 및 개인 설정 등.  
   
   다음 그림에서는 Visual Studio에서 사용할 수 있는 및 수 적합 한 위치 n 계층 응용 프로그램의 중간 계층에 있는 기술과 기능을 보여 줍니다.  
   
