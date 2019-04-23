@@ -14,17 +14,16 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c1fca2c1c1dde167c8028d6ad4d543e108a488b4
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: a1fc4f325167fa0df1f5f69cff19c25af5073d82
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54798215"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667900"
 ---
 # <a name="showwebbrowser-command"></a>웹 브라우저 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 IDE(통합 개발 환경) 내부 또는 외부의 웹 브라우저 창에서 지정하는 URL을 표시합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -47,7 +46,7 @@ View.ShowWebBrowser URL [/new][/ext]
 ## <a name="remarks"></a>주의  
  **ShowWebBrowser** 명령의 별칭은 **navigate** 또는 **nav**입니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 IDE 외부의 웹 브라우저에서 MSDN Online 홈페이지를 표시합니다. 웹 브라우저의 인스턴스가 이미 열린 경우 사용되고, 그렇지 않으면 새 인스턴스가 시작됩니다.  
   
 ```  

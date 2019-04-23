@@ -48,17 +48,16 @@ caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5ac63b183493b378fc0e1df454bc94a56722224f
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d9787342709ba9b09ac533177fd6600b9e5c86a0
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54794459"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669005"
 ---
 # <a name="options-text-editor-general"></a>일반, 텍스트 편집기, 옵션
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 대화 상자에서는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 코드 및 텍스트 편집기에 대한 전역 설정을 변경할 수 있습니다. 이 대화 상자를 표시하려면 **도구** 메뉴에서 **옵션**을 클릭하고, **텍스트 편집기** 폴더를 확장하고, **일반**을 클릭합니다.  
   
 > [!NOTE]

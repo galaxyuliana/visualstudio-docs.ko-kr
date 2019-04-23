@@ -9,17 +9,16 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f3c08dbb66e71cc1fd362279ae33006c20e11436
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 722d318d05b37a7dc9c41c8e7078c9b486de6318
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981960"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668355"
 ---
 # <a name="how-to-add-validation-to-entity-classes"></a>방법: 엔터티 클래스에 유효성 검사 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 엔터티 클래스의 *유효성 검사*는 데이터 개체에 입력된 값이 개체의 스키마 제약 조건과 애플리케이션에 대해 설정된 규칙을 따르는지 확인하는 과정입니다. 업데이트를 내부 데이터베이스에 보내기 전에 데이터의 유효성을 검사하면 오류를 줄일 수 있습니다. 또한 응용 프로그램과 데이터베이스 간에 발생할 수 있는 잠재적 라운드트립 횟수를 줄일 수 있습니다.  
   
  합니다 [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md) 삽입, 업데이트 하는 동안 실행 되며 전체 엔터티 중 및 개별 열 뒤 삭제 하는 디자이너에서 생성 된 코드를 확장할 수 있도록 하는 부분 메서드를 제공 합니다. 변경 내용입니다.  

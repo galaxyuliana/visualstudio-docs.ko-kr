@@ -11,18 +11,17 @@ ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0d32428c7a7b1f481771aacaf3e2b0dadfde5db6
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: f8cec34f5eb814dfd236aa5fab46bcc811c8c88f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002425"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669707"
 ---
 # <a name="walkthrough-publishing-a-visual-studio-extension"></a>연습: Visual Studio 확장 게시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 **참고**: Visual Studio Marketplace를 Visual Studio 갤러리 교체 되 고 있습니다. 자세한 내용은이 항목의 최신 버전을 참조 하세요.
-
 
 이 연습에서는 Visual Studio 확장 Visual Studio 갤러리에 게시 하는 방법을 보여 줍니다. 갤러리로 확장 프로그램을 추가 하면 개발자가 사용할 수 **확장 및 업데이트** 을 검색할 수 있는 새롭고 업데이트 된 확장 합니다.
 

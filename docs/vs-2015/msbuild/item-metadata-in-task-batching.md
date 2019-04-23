@@ -14,17 +14,16 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c83f499560bf747843fe74ede4d2187a544bee8b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 862e89ad775d28669ed21e3fe2d292aefb363a91
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54769164"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668195"
 ---
 # <a name="item-metadata-in-task-batching"></a>작업 일괄 처리의 항목 메타데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에는 항목 목록을 항목 메타데이터에 따라 여러 다른 범주 또는 일괄 처리로 나누고 각 일괄 처리를 사용하여 한 번에 하나의 작업을 실행하는 기능이 있습니다. 어떤 항목이 어떤 일괄 처리를 통해 전달될지 정확히 이해하는 것은 어려울 수 있습니다. 이 항목에서는 일괄 처리와 관련된 다음과 같은 일반적인 시나리오를 다룹니다.  
   
 - 하나의 항목 목록을 일괄 처리로 나누기  

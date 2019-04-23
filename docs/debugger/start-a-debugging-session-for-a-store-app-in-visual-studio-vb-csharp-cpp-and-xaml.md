@@ -35,23 +35,23 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 9e863a4106ea81dc06ef84fb812bbb32c6e94b07
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
-ms.translationtype: MTE95
+ms.openlocfilehash: 63c6dfde0f4f097b4bfa595c0e594ba80020cedc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58790513"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669789"
 ---
 # <a name="start-a-debugging-session-for-a-uwp-app"></a>UWP 앱에 대한 디버깅 세션 시작
 
-이 문서에는 유니버설 Windows 플랫폼 (UWP) 앱에 대 한 Visual Studio 디버깅 세션을 시작 하는 방법을 설명 합니다. XAML 및 c + +, XAML에서 UWP 앱을 작성할 수 있습니다 하 고 C#/Visual Basic 합니다. UWP 앱을 디버깅을 시작 하려면 디버깅 세션을 구성 하 고 앱을 시작 하는 방법은 선택 합니다.
+이 문서에는 유니버설 Windows 플랫폼 (UWP) 앱에 대 한 Visual Studio 디버깅 세션을 시작 하는 방법을 설명 합니다. XAML에서 UWP 앱을 작성할 수 있습니다 하 고 C++, XAML 및 C#/Visual Basic 합니다. UWP 앱을 디버깅을 시작 하려면 디버깅 세션을 구성 하 고 앱을 시작 하는 방법은 선택 합니다.
 
 ::: moniker range=">=vs-2019"
 > [!NOTE]
 > Visual Studio 2019 년부터 HTML 및 JavaScript 용 UWP 앱 더 이상 지원 됩니다.
 ::: moniker-end
 ::: moniker range="vs-2017"
-Visual Studio 2017에서 대부분의 명령 및이 문서에 나와 있는 옵션에도 적용 UWP 앱 HTML 및 JavaScript에 대 한 합니다. 주석은 다른 위치 간에 관리 하며 c + + 앱을 JavaScript 앱 일반적으로 c + + UWP 앱에 대 한 명령이 동일.
+Visual Studio 2017에서 대부분의 명령 및이 문서에 나와 있는 옵션에도 적용 UWP 앱 HTML 및 JavaScript에 대 한 합니다. 관리 되는 명령이 서로 있는 및 C++ 앱을 JavaScript 앱 일반적으로 동일 명령에 대 한 C++ UWP 앱.
 ::: moniker-end
 
 ##  <a name="BKMK_The_easy_way_to_start_debugging"></a>Visual Studio 도구 모음에서 디버깅 시작
@@ -98,31 +98,30 @@ Visual Studio 도구 모음에서 디버깅 대상을 설정할 수 있습니다
 
      ![C#및 Visual Basic 프로젝트 디버그 속성 페이지](../debugger/media/dbg_csvb_debugpropertypage.png)
 
-   - C + + 앱 선택 **구성 속성** > **디버깅**합니다.
+   - 에 대 한 C++ 앱 선택 **구성 속성** > **디버깅**.
 
-     ![C + + UWP 앱 디버깅 속성 페이지](../debugger/media/dbg_cpp_debugpropertypage.png)
+     ![C++UWP 앱 디버깅 속성 페이지](../debugger/media/dbg_cpp_debugpropertypage.png)
 
 ###  <a name="BKMK_Choose_the_debugger_to_use"></a> 사용할 디버거 선택
 
 에 대 한 C# 및 Visual Basic 앱을 Visual Studio 이러한 기본적으로 코드를 관리 합니다. 다른 또는 추가적인 코드 형식 디버깅을 선택할 수 있습니다. 설정할 수도 있습니다 **디버거 형식** 프로젝트의 일부인 모든 백그라운드 작업에 대 한 값입니다.
 
-C + + 앱에서 Visual Studio는 기본적으로 네이티브 코드를 디버깅합니다. 특정 형식의 코드 대신, 또는 외에, 네이티브 코드를 디버깅 하도록 선택할 수 있습니다.
+C++ 앱을 Visual Studio는 기본적으로 네이티브 코드를 디버깅 합니다. 특정 형식의 코드 대신, 또는 외에, 네이티브 코드를 디버깅 하도록 선택할 수 있습니다.
 
 **코드 형식 디버깅 하려면 다음을 지정 하려면**
 
 - 에 대 한 C# Visual Basic 앱에서 다음 디버거 중 하나를 선택 하 고는 **응용 프로그램 종류** 및 **백그라운드 프로세스 유형** 아래에 있는 드롭다운 **디버거 형식** 에서 합니다 **디버그** 속성 페이지.
 
-- C + + 앱에서 다음 디버거 중 하나를 선택 합니다 **디버거 형식** 드롭다운을 합니다 **디버깅** 속성 페이지.
+- 에 대 한 C++ 앱에서 다음 디버거 중 하나를 선택 합니다 **디버거 형식** 드롭다운에서 **디버깅** 속성 페이지.
 
 |||
 |-|-|
 |**관리 전용**|응용 프로그램에서 관리 코드를 디버깅합니다. JavaScript 코드와 네이티브 C/C++ 코드는 무시됩니다.|
 |**네이티브 전용**|응용 프로그램에서 네이티브 C/C++ 코드를 디버깅합니다. 관리 코드와 JavaScript 코드는 무시됩니다.|
-|**혼합(관리/네이티브)**|응용 프로그램에서 네이티브 C/C++ 코드 및 관리 코드를 디버깅합니다. JavaScript 코드는 무시됩니다. C + + 프로젝트에서이 옵션 이라고 **관리 / 네이티브**합니다.|
+|**혼합(관리/네이티브)**|응용 프로그램에서 네이티브 C/C++ 코드 및 관리 코드를 디버깅합니다. JavaScript 코드는 무시됩니다. C++ 프로젝트의 경우이 옵션 이라고 **관리 / 네이티브**합니다.|
 |**스크립트**|응용 프로그램에서 JavaScript 코드를 디버깅합니다. 관리 코드와 네이티브 코드는 무시됩니다.|
-|**스크립트가 포함된 네이티브**|네이티브 C/c + + 코드와 앱에서 JavaScript 코드를 디버그 합니다. 관리 되는 코드는 무시 됩니다. C + + 프로젝트 또는 백그라운드 작업에만 사용할 수 있습니다.|
-|**GPU 전용(C++ AMP)**|GPU(그래픽 처리 장치)에서 실행되는 네이티브 C++ 코드를 디버깅합니다. C + + 프로젝트에만 사용할 수 있습니다.|
-
+|**스크립트가 포함된 네이티브**|네이티브 C 디버그 /C++ 코드와 앱에서 JavaScript 코드입니다. 관리 되는 코드는 무시 됩니다. 사용할 수 있는 C++ 프로젝트 또는 백그라운드 태스크만 합니다.|
+|**GPU 전용(C++ AMP)**|GPU(그래픽 처리 장치)에서 실행되는 네이티브 C++ 코드를 디버깅합니다. 사용할 수 있는 C++ 프로젝트에 해당 합니다.|
 
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (선택 사항) 네트워크 루프백을 사용 하지 않도록 설정
 
@@ -132,10 +131,10 @@ C + + 앱에서 Visual Studio는 기본적으로 네이티브 코드를 디버�
 
 -   에 대 한 C# Visual Basic 앱을 선택 취소 합니다 **로컬 네트워크 루프백 허용** 아래의 확인란 **시작 옵션** 에 **디버그** 속성 페이지.
 
--   Visual c + + 앱의 경우 선택 **No** 에서 **로컬 네트워크 루프백 허용** 드롭다운에서 **디버깅** 속성 페이지.
+-   시각적 개체에 대해 C++ 앱을 선택 **No** 에서 합니다 **로컬 네트워크 루프백 허용** 드롭다운을는 **디버깅** 속성 페이지.
 
 ###  <a name="BKMK__Optional__Reinstall_the_app_when_you_start_debugging"></a> 디버깅을 시작할 때 (선택 사항) 앱을 다시 설치
- 설치 문제를 진단 하는 C# 또는 Visual Basic 앱을 선택 **제거 후 패키지를 다시 설치** 에 **디버그** 속성 페이지. 이 옵션 디버깅을 시작할 때 원래 설치를 다시 만듭니다. 이 옵션을 c + + 프로젝트에 사용할 수 없습니다.
+ 설치 문제를 진단 하는 C# 또는 Visual Basic 앱을 선택 **제거 후 패키지를 다시 설치** 에 **디버그** 속성 페이지. 이 옵션 디버깅을 시작할 때 원래 설치를 다시 만듭니다. 이 옵션을 사용할 수 없는 C++ 프로젝트입니다.
 
 ###  <a name="BKMK__Optional__Disable_authentication_requirement_to_start_the_remote_debugger"></a> 원격 디버깅에 대 한 인증 옵션 설정
 
@@ -147,7 +146,7 @@ C + + 앱에서 Visual Studio는 기본적으로 네이티브 코드를 디버�
 
 - 에 대 한 C# 및 Visual Basic 앱에는 **디버그** 속성 페이지에서 선택 **원격 컴퓨터** 으로 **대상 장치**. 그런 다음 선택 **None** 또는 **유니버설 (암호화 되지 않은 프로토콜)** 에 대 한 **Mode**합니다.
 
-- C + + 앱 선택 **원격 컴퓨터** 아래에서 **실행할 디버거** 에 **디버깅** 속성 페이지. 그런 다음 선택 **인증 없음** 또는 **유니버설 (암호화 되지 않은 프로토콜)** 에 대 한 **인증 유형**합니다.
+- 에 대 한 C++ 앱 선택 **원격 컴퓨터** 아래에서 **실행할 디버거** 에 **디버깅** 속성 페이지. 그런 다음 선택 **인증 없음** 또는 **유니버설 (암호화 되지 않은 프로토콜)** 에 대 한 **인증 유형**합니다.
 
 > [!CAUTION]
 > 원격 디버거를 실행할 때는 네트워크 보안이 없습니다 있기 **None** 하거나 **유니버설 (암호화 되지 않은 프로토콜)** 모드입니다. 이러한 모드에 있는 신뢰할 수 있는 네트워크 에서만 악성 코드 또는 유해 트래픽 위험이 없습니다 있는지를 선택 하세요.
@@ -164,7 +163,7 @@ C + + 앱에서 Visual Studio는 기본적으로 네이티브 코드를 디버�
 
 - 에 대 한 C# 및 Visual Basic 앱을 선택 **시작 하지 않음 시작 시 코드를 디버그** 아래에서 **시작 옵션** 에 **디버그** 속성 페이지.
 
-- C + + 앱에 대 한 선택 **No** 에서 **응용 프로그램 시작** 드롭다운에서 **디버깅** 속성 페이지.
+- 에 대 한 C++ 앱을 선택 **No** 에서 **응용 프로그램 시작** 드롭다운에서 합니다 **디버깅** 속성 페이지.
 
 백그라운드 작업 디버깅 하는 방법에 대 한 자세한 내용은 참조 하세요. [트리거 일시 중단, 다시 시작 및 백그라운드 이벤트 UWP 앱 용](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)합니다.
 
@@ -217,5 +216,5 @@ C + + 앱에서 Visual Studio는 기본적으로 네이티브 코드를 디버�
 > JavaScript 앱에 연결 하는 가장 쉬운 방법은 다른 JavaScript 앱을 닫는 것입니다. 또는 실행의 Pid를 기록할 수 있습니다 *wwahost.exe* Windows 작업 관리자에서 앱을 시작 하기 전에 프로세스입니다. 앱을 시작 하면 해당 *wwahost.exe* PID는 이전에 언급 된 다른 것이 됩니다.
 ::: moniker-end
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Visual Studio에서 앱 디버그](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)

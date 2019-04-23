@@ -12,12 +12,12 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e7c7d3eec918895632d07be8c4a015e228743945
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 32aff234b5b45df4154d47f94c975828f31b71fe
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986090"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668342"
 ---
 # <a name="rules-propagate-changes-within-the-model"></a>규칙으로 모델 내부의 변경 내용 전파
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -133,7 +133,6 @@ namespace ExampleNamespace
 
 - 규칙 클래스는 다음 기본 클래스 중 하나에서 파생 됩니다.  
 
-
   |                             기본 클래스                              |                                                                                                                                                                                                                                                                                                                                                                              트리거                                                                                                                                                                                                                                                                                                                                                                              |
   |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
   |           <xref:Microsoft.VisualStudio.Modeling.AddRule>            |                                                                                                                                                                                                                                                                                                                        요소, 링크 또는 셰이프 추가 됩니다.<br /><br /> 이 사용 하 여 새 요소 외에도 새 관계를 검색 합니다.                                                                                                                                                                                                                                                                                                                        |
@@ -146,7 +145,6 @@ namespace ExampleNamespace
   |   <xref:Microsoft.VisualStudio.Modeling.TransactionBeginningRule>   |                                                                                                                                                                                                                                                                                                                                                              트랜잭션을 만들 때 실행 합니다.                                                                                                                                                                                                                                                                                                                                                              |
   |  <xref:Microsoft.VisualStudio.Modeling.TransactionCommittingRule>   |                                                                                                                                                                                                                                                                                                                                                      트랜잭션이 커밋할 수 되려고 할 때 실행 합니다.                                                                                                                                                                                                                                                                                                                                                      |
   |  <xref:Microsoft.VisualStudio.Modeling.TransactionRollingBackRule>  |                                                                                                                                                                                                                                                                                                                                                     트랜잭션을 롤백할 수 되려고 할 때 실행 합니다.                                                                                                                                                                                                                                                                                                                                                     |
-
 
 - 각 클래스에 메서드를 재정의 합니다. 형식 `override` 에서 클래스를 검색 합니다. 이 메서드의 매개 변수에 변경 되는 요소를 식별 합니다.  
 

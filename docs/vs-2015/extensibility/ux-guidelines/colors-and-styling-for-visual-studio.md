@@ -8,12 +8,12 @@ ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
 caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 3b32779fe2d852e21eacf888e7b2326830fa9829
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 10d0ada1ba86f57b9b40a40b6ffc560379d411dc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972716"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670097"
 ---
 # <a name="colors-and-styling-for-visual-studio"></a>색 및 Visual Studio에 대 한 스타일 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,7 +49,6 @@ ms.locfileid: "58972716"
 |개별 기능 또는 기능 그룹 이며 유사한 요소에 대 한 공유 색 없음.|**사용자 지정 색**|영역 관련 되어 있으며 다른 UI를 사용 하 여 공유 하려고 하지는 색 토큰 이름|
 |최종 사용자가 사용자 지정 UI 또는 콘텐츠 (예를 들어, 텍스트 편집기 또는 특수 한 디자이너 창)를 허용 하려고 합니다.|**최종 사용자가 사용자 지정**<br /><br /> **(도구 > 옵션 대화 상자)**|"글꼴 및 색" 페이지에 정의 된 설정 합니다 **도구 > 옵션** 대화 또는 특정 한 UI 기능에 특수 한 페이지입니다.|
 
-
 ### <a name="visual-studio-themes"></a>Visual Studio 테마
  Visual Studio의 세 가지 서로 다른 색 테마 기능: 밝게, 어둡게, 및 파란색입니다. 또한 내게 필요한 옵션에 대 한 설계 된 시스템 색 테마를 고대비 모드를 검색 합니다.
 
@@ -79,7 +78,6 @@ ms.locfileid: "58972716"
  ![도구 &#62; Visual Studio의 옵션 대화 상자](../../extensibility/ux-guidelines/media/0301-a-toolsoptionsdialog.png "a_ToolsOptionsDialog 0301")
 
  **도구 > 옵션 대화 상자**
-
 
 ##  <a name="BKMK_TheVSColorService"></a> VSColor Service
  Visual Studio VSColor service 또는 셸 색 서비스 라고도 하는 환경 색 서비스를 제공 합니다. 이 서비스를 사용 하면 각 테마에 대 한 색을 포함 하는 집합 이름-값 색에 UI 요소의 색 값을 바인딩할 수 있습니다. 색이 자동으로 현재 사용자가 선택한 테마에 맞게 변경 되 고 UI 환경 색 서비스에 바인딩된 있도록는 통합 새 테마를 사용 하 여 이후 버전의 Visual Studio VSColor service 모든 UI 요소에 대해 사용 되어야 합니다.

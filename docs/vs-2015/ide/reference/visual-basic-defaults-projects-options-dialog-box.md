@@ -15,17 +15,16 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a74a045e5e0eac35c183dcb81ea611c9e6363e18
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: b8c4fc730b4ad110b3160a725be0d109cda8c7a7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54755188"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667927"
 ---
 # <a name="visual-basic-defaults-projects-options-dialog-box"></a>옵션 대화 상자, 프로젝트, VB 기본값
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Visual Basic 프로젝트 옵션에 대한 기본 설정을 지정합니다. 새 프로젝트를 만든 경우 지정된 옵션 문이 코드 편집기의 프로젝트 헤더에 추가됩니다. 이 옵션은 모든 Visual Basic 프로젝트에 적용됩니다.  
   
  이 대화 상자에 액세스하려면 **도구** 메뉴에서 **옵션**을 클릭하고 **프로젝트 및 솔루션**을 확장한 후 **VB 기본값**을 클릭합니다.  

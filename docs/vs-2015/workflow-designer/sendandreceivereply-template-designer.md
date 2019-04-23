@@ -12,12 +12,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5c978c4be142283866ce140a1f0870cd654a06dd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 2566d5d0d653af7caa29474e7916352600bf94d4
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986437"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668264"
 ---
 # <a name="sendandreceivereply-template-designer"></a>SendAndReceiveReply 템플릿 디자이너
 **SendAndReceiveReply** 서식 파일은 쌍을 만드는 데 미리 구성 된 <xref:System.ServiceModel.Activities.Send> 및 <xref:System.ServiceModel.Activities.ReceiveReply> 내에서 작업을 <xref:System.Activities.Statements.Sequence> 요청/응답 메시지 교환의 일환으로 상호 연결 되는 클라이언트에서 패턴입니다.  
@@ -42,7 +42,6 @@ ms.locfileid: "58986437"
 
 ### <a name="properties-of-receivereply"></a>ReceiveReply의 속성  
  다음 표에서는 <xref:System.ServiceModel.Activities.ReceiveReply> 속성을 보여 주고 디자이너에서 이 속성을 사용하는 방법을 설명합니다. 이러한 속성은 속성 표에서 편집할 수 있으며 일부 속성은 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 디자이너 화면에서 편집할 수 있습니다.  
-
 
 |                                 속성 이름                                 | 필수 |                                                                                                                                                                                                                                                                                                                                                        사용법                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

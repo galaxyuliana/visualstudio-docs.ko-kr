@@ -9,17 +9,16 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b72213ab2c7dd9fa15fb639b6ef2212f56aa141f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 5d662a94a77dff02fd994122e5106f5bff35bac3
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984061"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669447"
 ---
 # <a name="walkthrough-using-xslt-hierarchy"></a>연습: XSLT 계층 구조를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XSLT 계층 구조 도구를 사용하면 많은 XML 개발 작업을 간단하게 수행할 수 있습니다. XSLT 스타일시트에서는 `includes` 및 `imports` 명령을 사용하는 경우가 자주 있습니다. 컴파일은 주 스타일시트에서 시작하지만 XSLT 스타일시트를 컴파일했을 때 오류가 발생하는 경우 이러한 오류는 주 스타일시트와 다른 소스에서 발생된 것일 수 있습니다. 오류를 해결하거나 스타일시트를 편집하려면 포함되거나 가져온 스타일시트에 액세스할 수 있어야 합니다. 디버거에서 스타일시트를 단계별로 실행하면 포함되거나 가져온 스타일시트가 열릴 수 있으며 하나 이상의 포함된 스타일시트의 일부 지점에 중단점을 추가할 수 있습니다.  
   
  XSLT 계층 구조 도구가 유용한 다른 시나리오는 기본 제공 템플릿 규칙에 중단점을 지정하는 것입니다. 템플릿 규칙은 스타일시트의 각 노드에 대해 생성되며 노드와 일치하는 다른 템플릿이 없는 경우 `xsl:apply-templates`에 의해 호출되는 특수 템플릿입니다. 기본 제공 템플릿 규칙에서 디버깅을 구현하려면 XSLT 디버거가 임시 폴더에서 규칙을 사용하여 파일을 생성하고 주 스타일시트를 사용하여 이러한 파일을 함께 컴파일합니다. 일부 `xsl:apply-template`에서 코드를 한 단계씩 실행하지 않고는 주 스타일시트에 포함된 스타일시트를 찾거나 기본 제공 템플릿 규칙을 사용하여 스타일시트를 열기가 어려울 수 있습니다.  

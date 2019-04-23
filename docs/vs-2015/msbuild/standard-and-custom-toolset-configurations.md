@@ -12,22 +12,20 @@ caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0ad0d60921e9bb42f54cc70c49efbe64f036398d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c629d82d208f45433564c1b36bb5aa889e402915
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54801676"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668330"
 ---
 # <a name="standard-and-custom-toolset-configurations"></a>표준 및 사용자 지정 도구 집합 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 MSBuild 도구 집합은 애플리케이션 프로젝트를 빌드하는 데 사용할 수 있는 작업, 대상 및 도구에 대한 참조를 포함합니다. MSBuild는 표준 도구 집합을 포함하지만 사용자 지정 도구 집합을 만들 수도 있습니다. 도구 집합을 지정하는 방법에 대한 내용은 [도구 집합(ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)을 참조하세요.  
 
 ## <a name="standard-toolset-configurations"></a>표준 도구 집합 구성  
  MSBuild 12.0은 다음 표준 도구 집합을 포함합니다.  
-
 
 | ToolsVersion | 도구 집합 경로(MSBuildBinPath 또는 MSBuildToolsPath 빌드 속성에 지정된 대로) |
 |--------------|--------------------------------------------------------------------------------------|

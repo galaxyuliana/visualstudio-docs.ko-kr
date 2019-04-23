@@ -12,17 +12,16 @@ caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e4cd6d3199d09ffa56c0ac6d2d29fcba613fd280
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 4402abed4fe7e588355614adaf5f1c689af75ad2
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54770712"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668238"
 ---
 # <a name="overriding-toolsversion-settings"></a>ToolsVersion 설정 재정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 다음 세 가지 방법 중 하나로 프로젝트 및 솔루션에 대한 도구 집합을 변경할 수 있습니다.  
   
 1.  명령줄에서 프로젝트 또는 솔루션을 빌드할 때 `/ToolsVersion` 스위치(또는 짧게 `/tv`) 사용  

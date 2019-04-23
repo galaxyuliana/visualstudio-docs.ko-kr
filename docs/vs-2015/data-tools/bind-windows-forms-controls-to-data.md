@@ -19,17 +19,16 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9b81d3d9f7425874c8a3501d8e1d49eb813b97d9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d2aefe68761d31f87d84c9215a6187c28e7b471b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983587"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668992"
 ---
 # <a name="bind-windows-forms-controls-to-data"></a>데이터에 Windows Forms 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 개체를 끌어 데이터 소스 컨트롤에 바인딩할 수 있습니다 합니다 **데이터 원본** Windows 폼 또는 폼에서 기존 컨트롤에 창. 항목을 끌면 전에에 바인딩할 컨트롤의 형식을 설정할 수 있습니다. 다른 값 자체 또는 개별 열 테이블을 선택 하는지 여부에 따라 표시 됩니다.  또한 사용자 지정 값을 설정할 수 있습니다. 테이블에 대해 "Details"는 각 열을 별도 컨트롤에 바인딩되어 있음을 의미 합니다.  
   
  ![DataGridView에 데이터 소스를 바인딩할](../data-tools/media/raddata-bind-data-source-to-datagridview.png "raddata DataGridView 데이터 원본 바인드")  

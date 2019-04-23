@@ -15,17 +15,16 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d1a3d363f51861af5914ee0172c5c9a3511b2485
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: e870b15355da86b8654511cab932f792323446b9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54767353"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669113"
 ---
 # <a name="open-file-command"></a>파일 열기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 기존 파일을 열고 편집기를 지정할 수 있습니다.  
   
 ## <a name="syntax"></a>구문  
@@ -53,7 +52,7 @@ File.OpenFile filename [/e:editorname]
 ## <a name="remarks"></a>주의  
  경로를 입력하여 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 소스 코드 편집기에서 스타일 파일을 "Test1.css"를 엽니다.  
   
 ```  

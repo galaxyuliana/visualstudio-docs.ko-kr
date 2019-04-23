@@ -9,17 +9,16 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 25542f9179917c5675eb56753f79db895f5d2ddf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 8485885cbba43ea9eaef76616607861c44c2ab24
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972148"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668784"
 ---
 # <a name="how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-or-designer"></a>방법: 저장 프로시저 및 함수에 매핑된 DataContext 메서드 만들기(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 저장된 프로시저 및 함수에 추가할 수 있습니다 합니다 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 으로 <xref:System.Data.Linq.DataContext> 메서드. 메서드를 호출하여 필요한 매개 변수에 전달하면 데이터베이스의 저장 프로시저 또는 함수가 실행되어 <xref:System.Data.Linq.DataContext> 메서드의 반환 형식으로 데이터를 반환합니다. 에 대 한 자세한 내용은 <xref:System.Data.Linq.DataContext> 메서드를 참조 하세요 [DataContext 메서드 (O/R 디자이너)](../data-tools/datacontext-methods-o-r-designer.md)합니다.  
   
 > [!NOTE]
