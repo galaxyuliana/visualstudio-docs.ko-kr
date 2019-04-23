@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9c91aa3cbad7fd58fbd819e46f3f3428f68801e9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 093c2e33b8fe3918c280bb68dabda54808cc5e3a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56618941"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060828"
 ---
 # <a name="running-document-table"></a>문서 테이블 실행
 IDE에는 실행 중인 문서 테이블 (RDT) 라는 내부 구조에 현재 열려 있는 모든 문서 목록을 유지 관리 합니다. 이 목록은 이러한 문서를 편집 하 고는 현재 여부에 관계 없이 메모리에 열려 있는 모든 문서를 포함 합니다. 문서는 지속 되 면 프로젝트에는 주 프로젝트 파일 (예를 들어,.vcxproj) 파일을 포함 하는 모든 항목입니다.
@@ -52,9 +52,9 @@ IDE에는 실행 중인 문서 테이블 (RDT) 라는 내부 구조에 현재 �
 
  Resurface를 IDE도 사용 하 여는 RDT (맨 앞으로) 사용자가 해당 문서를 요청 하는 경우 열려 있는 문서입니다. 자세한 내용은 [열린 파일 명령을 사용 하 여 표시 파일](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)합니다. 에 파일을 RDT에서 열려 있는지 여부를 확인 하려면 다음을 수행할 하나.
 
--   항목이 열려 있는지 확인 하려면 문서 모니커 (즉, 전체 문서 경로)에 대 한 쿼리.
+- 항목이 열려 있는지 확인 하려면 문서 모니커 (즉, 전체 문서 경로)에 대 한 쿼리.
 
--   계층 이나 항목 ID를 사용 하 여 전체 문서 경로에 프로젝트 시스템을 요청 하 고 다음 항목에서에서 조회를 RDT입니다.
+- 계층 이나 항목 ID를 사용 하 여 전체 문서 경로에 프로젝트 시스템을 요청 하 고 다음 항목에서에서 조회를 RDT입니다.
 
 ## <a name="see-also"></a>참고 항목
 - [RDT_ReadLock 사용법](../../extensibility/internals/rdt-readlock-usage.md)

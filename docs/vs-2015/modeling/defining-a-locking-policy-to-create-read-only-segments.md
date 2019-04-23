@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f3e882818471014df66ef160521a6e9111a47a27
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ed3eeb8e2907eb71a75884a19f174774055783c4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982070"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062245"
 ---
 # <a name="defining-a-locking-policy-to-create-read-only-segments"></a>잠금 정책을 정의하여 읽기 전용 세그먼트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,15 +58,15 @@ partition.SetLocks(Locks.Delete);
 ### <a name="using-locks"></a>잠금을 사용 하 여  
  다음 예와 같이 체계를 구현 하는 잠금을 사용할 수 있습니다.  
   
--   모든 요소를 제외 하 고 메모를 나타내는 관계는 변경을 허용 하지 않습니다. 이 모델을 변경 하지 않고 주석을 달 수가 있습니다.  
+- 모든 요소를 제외 하 고 메모를 나타내는 관계는 변경을 허용 하지 않습니다. 이 모델을 변경 하지 않고 주석을 달 수가 있습니다.  
   
--   다이어그램 파티션에 허용 하지만 기본 파티션의 변경 내용을 허용 하지 않습니다. 사용자는 다이어그램을 다시 정렬할 수 있지만 기본 모델을 변경할 수 없습니다.  
+- 다이어그램 파티션에 허용 하지만 기본 파티션의 변경 내용을 허용 하지 않습니다. 사용자는 다이어그램을 다시 정렬할 수 있지만 기본 모델을 변경할 수 없습니다.  
   
--   별도 데이터베이스에 등록 된 사용자의 그룹을 제외 하 고 저장소에 변경 내용을 허용 하지 않습니다. 다른 사용자에 대 한 다이어그램 및 모델은 읽기 전용입니다.  
+- 별도 데이터베이스에 등록 된 사용자의 그룹을 제외 하 고 저장소에 변경 내용을 허용 하지 않습니다. 다른 사용자에 대 한 다이어그램 및 모델은 읽기 전용입니다.  
   
--   다이어그램의 부울 속성을 설정 하는 경우 모델 변경 내용 허용 안 함 true로 합니다. 해당 속성을 변경 하는 메뉴 명령을 제공 합니다. 이렇게 하면 해당 하지 않는 사용자가 실수로 변경 합니다.  
+- 다이어그램의 부울 속성을 설정 하는 경우 모델 변경 내용 허용 안 함 true로 합니다. 해당 속성을 변경 하는 메뉴 명령을 제공 합니다. 이렇게 하면 해당 하지 않는 사용자가 실수로 변경 합니다.  
   
--   속성 변경은 허용 하지만 추가 및 삭제 요소의 특정 클래스의 관계를 허용 하지 않습니다. 이 속성을 채울 수는 고정된 형식으로 사용자를 제공 합니다.  
+- 속성 변경은 허용 하지만 추가 및 삭제 요소의 특정 클래스의 관계를 허용 하지 않습니다. 이 속성을 채울 수는 고정된 형식으로 사용자를 제공 합니다.  
   
 ## <a name="lock-values"></a>잠금 값  
  잠금은 저장소, 파티션 또는 개별 ModelElement에서 설정할 수 있습니다. 잠금이 0이 `Flags` 열거형: 사용 하 여 해당 값을 결합할 수 '&#124;'.  
@@ -97,9 +97,9 @@ partition.SetLocks(Locks.Delete);
   
  잠금 정책을 정의 하려면를 지정 해야 합니다.  
   
--   <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>를 구현하는 클래스를 만듭니다.  
+- <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>를 구현하는 클래스를 만듭니다.  
   
--   DSL의 DocData를 통해 사용할 수 있는 서비스에이 클래스를 추가 합니다.  
+- DSL의 DocData를 통해 사용할 수 있는 서비스에이 클래스를 추가 합니다.  
   
 ### <a name="to-define-a-locking-policy"></a>잠금 정책을 정의 하려면  
  <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy> 다음 정의 있습니다.  

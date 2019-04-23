@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b6e6c44895a022521899bdd0383ee71257b83fe3
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: ac5507722a62942dbca67518c2f6689bf29aacfc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668823"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065710"
 ---
 # <a name="one-or-more-selected-items-contain-a-data-type-that-is-not-supported-by-the-designer"></a>선택한 항목 중 하나 이상이 디자이너에서 지원되지 않는 데이터 형식을 포함하고 있습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,9 +23,9 @@ ms.locfileid: "59668823"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-1.  지원되지 않는 데이터 형식이 들어 있지 않은 테이블을 기초로 뷰를 만듭니다.  
+1. 지원되지 않는 데이터 형식이 들어 있지 않은 테이블을 기초로 뷰를 만듭니다.  
   
-2.  뷰를 끌어 **서버 탐색기**/**데이터베이스 탐색기** 디자이너로 합니다.  
+2. 뷰를 끌어 **서버 탐색기**/**데이터베이스 탐색기** 디자이너로 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

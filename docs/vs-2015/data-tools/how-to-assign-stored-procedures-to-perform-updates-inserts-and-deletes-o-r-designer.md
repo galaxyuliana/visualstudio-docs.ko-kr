@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 247e1720a21c88f15a766fb948156e93ec55e308
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 84aa3400eb6b64e8904d95e0fce7b43ae9351ad8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656325"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060867"
 ---
 # <a name="how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-or-designer"></a>방법: 저장 프로시저를 할당하여 업데이트, 삽입 및 삭제 수행(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,23 +34,23 @@ ms.locfileid: "59656325"
   
 #### <a name="to-assign-stored-procedures-to-override-the-default-behavior-of-an-entity-class"></a>저장 프로시저를 지정하여 엔터티 클래스의 기본 동작을 재정의하려면  
   
-1.  디자이너에서 **LINQ to SQL** 파일을 엽니다. (에서.dbml 파일을 두 번 클릭 **솔루션 탐색기**.)  
+1. 디자이너에서 **LINQ to SQL** 파일을 엽니다. (에서.dbml 파일을 두 번 클릭 **솔루션 탐색기**.)  
   
-2.  **서버 탐색기**/**데이터베이스 탐색기**을 확장 하 고 **Stored Procedures** 저장된 프로시저 Insert, Update에 대 한 사용 하려는 찾아서 및/또는 엔터티 클래스의 명령을 삭제 합니다.  
+2. **서버 탐색기**/**데이터베이스 탐색기**을 확장 하 고 **Stored Procedures** 저장된 프로시저 Insert, Update에 대 한 사용 하려는 찾아서 및/또는 엔터티 클래스의 명령을 삭제 합니다.  
   
-3.  저장 프로시저를 O/R 디자이너로 끌어 놓습니다.  
+3. 저장 프로시저를 O/R 디자이너로 끌어 놓습니다.  
   
      저장 프로시저는 메서드 창에 <xref:System.Data.Linq.DataContext> 메서드로 추가됩니다. 자세한 내용은 [DataContext 메서드 (O/R 디자이너)](../data-tools/datacontext-methods-o-r-designer.md)합니다.  
   
-4.  업데이트 수행을 위해 저장 프로시저를 사용하려는 엔터티 클래스를 선택합니다.  
+4. 업데이트 수행을 위해 저장 프로시저를 사용하려는 엔터티 클래스를 선택합니다.  
   
-5.  **속성** 창에서 재정의할 **삽입**, **업데이트** 또는 **삭제** 명령을 선택합니다.  
+5. **속성** 창에서 재정의할 **삽입**, **업데이트** 또는 **삭제** 명령을 선택합니다.  
   
-6.  **런타임 사용** 옆의 줄임표(...)를 클릭하여 **동작 구성** 대화 상자를 엽니다.  
+6. **런타임 사용** 옆의 줄임표(...)를 클릭하여 **동작 구성** 대화 상자를 엽니다.  
   
-7.  **사용자 지정**을 선택합니다.  
+7. **사용자 지정**을 선택합니다.  
   
-8.  **사용자 지정** 목록에서 원하는 저장 프로시저를 선택합니다.  
+8. **사용자 지정** 목록에서 원하는 저장 프로시저를 선택합니다.  
   
 9. **메서드 인수** 및 **클래스 속성** 목록을 살펴보고 **메서드 인수**가 적절한 **클래스 속성**에 매핑되어 있는지 확인합니다. 원래 메서드 인수 (Original_*ArgumentName*)를 원래 속성 (*PropertyName* (Original)) Update 및 Delete 명령에 대 한 합니다.  
   

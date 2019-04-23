@@ -126,12 +126,12 @@ caps.latest.revision: 17
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: 7cd46ee8fd7d9f8a404d930d25257c38f2c1b68f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f16859b3c879e2d3abb64105c50f8ec4934d17e5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983305"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061517"
 ---
 # <a name="annotating-function-parameters-and-return-values"></a>함수 매개 변수 및 반환 값에 주석 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,27 +143,27 @@ ms.locfileid: "58983305"
   
  **주석 및 설명**  
   
--   `_In_`  
+- `_In_`  
   
      입력된 매개 변수는 스칼라, 구조, 구조에 대 한 포인터 및 like를 주석을 지정 합니다.  명시적으로 간단한 스칼라에 사용할 수 있습니다.  매개 변수 사전 상태에서 유효 해야 하며 수정 되지 않습니다.  
   
--   `_Out_`  
+- `_Out_`  
   
      출력 매개 변수는 스칼라, 구조, 구조에 대 한 포인터 및 like는 주석을 지정 합니다.  값을 반환할 수 있는 개체에 적용 되지 않습니다-스칼라 값으로 전달 되는 예를 들어 있습니다.  매개 변수 사전 상태에서 유효 하지 않아도 되지만 사후 상태에서 유효 해야 합니다.  
   
--   `_Inout_`  
+- `_Inout_`  
   
      주석을 함수에 의해 변경 되는 매개 변수를 지정 합니다.  이 사전 상태 및 사후 상태에서 유효 해야 하지만 호출 전후 서로 다른 값으로 간주 됩니다. 수정 가능한 값에 적용 해야 합니다.  
   
--   `_In_z_`  
+- `_In_z_`  
   
      입력으로 사용 되는 null로 끝나는 문자열에 대 한 포인터입니다.  문자열 사전 상태에서 유효 해야 합니다.  변형의 `PSTR`에 이미 올바른 주석이는 것이 좋습니다.  
   
--   `_Inout_z_`  
+- `_Inout_z_`  
   
      수정할 수는 null로 끝나는 문자 배열에 대 한 포인터입니다.  호출 후 및 하기 전에 유효 해야 하지만 값이 변경 된 것으로 간주 됩니다.  Null 종결자를 이동할 수 있습니다 하지만 원래 null 종결자 최대 요소만 액세스할 수 있습니다.  
   
--   `_In_reads_(s)`  
+- `_In_reads_(s)`  
   
      `_In_reads_bytes_(s)`  
   
@@ -171,15 +171,15 @@ ms.locfileid: "58983305"
   
      `_bytes_` variant는 요소 대신 바이트 크기를 제공 합니다. 크기 요소로 표현할 수 없는 경우에 사용 합니다.  예를 들어 `char` 문자열 사용 합니다 `_bytes_` 변형 하는 유사한 작동 하는 경우에 사용 하 여 `wchar_t` 는 합니다.  
   
--   `_In_reads_z_(s)`  
+- `_In_reads_z_(s)`  
   
      크기는 잘 알려져 있고가 null로 끝나는 배열에 대 한 포인터입니다. Null 종결자 까지의 요소-또는 `s` 있습니다 null 종결자가 없는 경우-사전 상태에서 유효 해야 합니다.  크기 (바이트)에서 알 수 있으면 확장 `s` 요소 크기에 따라 합니다.  
   
--   `_In_reads_or_z_(s)`  
+- `_In_reads_or_z_(s)`  
   
      가 null로 끝나는 또는 알려진된 크기 중 하나 또는 둘 다에 배열에 대 한 포인터입니다. Null 종결자 까지의 요소-또는 `s` 있습니다 null 종결자가 없는 경우-사전 상태에서 유효 해야 합니다.  크기 (바이트)에서 알 수 있으면 확장 `s` 요소 크기에 따라 합니다.  (사용 된 `strn` 제품군입니다.)  
   
--   `_Out_writes_(s)`  
+- `_Out_writes_(s)`  
   
      `_Out_writes_bytes_(s)`  
   
@@ -191,11 +191,11 @@ ms.locfileid: "58983305"
   
      `_bytes_` variant는 요소 대신 바이트 크기를 제공 합니다. 크기 요소로 표현할 수 없는 경우에 사용 합니다.  예를 들어 `char` 문자열 사용 합니다 `_bytes_` 변형 하는 유사한 작동 하는 경우에 사용 하 여 `wchar_t` 는 합니다.  
   
--   `_Out_writes_z_(s)`  
+- `_Out_writes_z_(s)`  
   
      배열에 대 한 포인터 `s` 요소입니다.  요소를 사전 상태에서 유효 하지 않아도 됩니다.  Null 종결자를 통해 구성 요소를 사후 상태에서-나타나는-유효 해야 합니다.  크기 (바이트)에서 알 수 있으면 확장 `s` 요소 크기에 따라 합니다.  
   
--   `_Inout_updates_(s)`  
+- `_Inout_updates_(s)`  
   
      `_Inout_updates_bytes_(s)`  
   
@@ -203,11 +203,11 @@ ms.locfileid: "58983305"
   
      `_bytes_` variant는 요소 대신 바이트 크기를 제공 합니다. 크기 요소로 표현할 수 없는 경우에 사용 합니다.  예를 들어 `char` 문자열 사용 합니다 `_bytes_` 변형 하는 유사한 작동 하는 경우에 사용 하 여 `wchar_t` 는 합니다.  
   
--   `_Inout_updates_z_(s)`  
+- `_Inout_updates_z_(s)`  
   
      크기는 잘 알려져 있고가 null로 끝나는 배열에 대 한 포인터입니다. Null 종결자를 통해 구성 요소-나타나는-사전 상태와 사후 상태에서 유효 해야 합니다.  사후 상태에서 값을 사전 상태에서 값과 다른 것으로 간주 되며 null 종결자의 위치를 포함 합니다. 크기 (바이트)에서 알 수 있으면 확장 `s` 요소 크기에 따라 합니다.  
   
--   `_Out_writes_to_(s,c)`  
+- `_Out_writes_to_(s,c)`  
   
      `_Out_writes_bytes_to_(s,c)`  
   
@@ -223,7 +223,7 @@ ms.locfileid: "58983305"
   
      `void *memcpy(_Out_writes_bytes_all_(s) char *p1,    _In_reads_bytes_(s) char *p2,    _In_ int s); void * wordcpy(_Out_writes_all_(s) DWORD *p1,     _In_reads_(s) DWORD *p2,    _In_ int s);`  
   
--   `_Inout_updates_to_(s,c)`  
+- `_Inout_updates_to_(s,c)`  
   
      `_Inout_updates_bytes_to_(s,c)`  
   
@@ -231,11 +231,11 @@ ms.locfileid: "58983305"
   
      `_bytes_` variant는 요소 대신 바이트 크기를 제공 합니다. 크기 요소로 표현할 수 없는 경우에 사용 합니다.  예를 들어 `char` 문자열 사용 합니다 `_bytes_` 변형 하는 유사한 작동 하는 경우에 사용 하 여 `wchar_t` 는 합니다.  
   
--   `_Inout_updates_z_(s)`  
+- `_Inout_updates_z_(s)`  
   
      크기는 잘 알려져 있고가 null로 끝나는 배열에 대 한 포인터입니다. Null 종결자를 통해 구성 요소-나타나는-사전 상태와 사후 상태에서 유효 해야 합니다.  사후 상태에서 값을 사전 상태에서 값과 다른 것으로 간주 되며 null 종결자의 위치를 포함 합니다. 크기 (바이트)에서 알 수 있으면 확장 `s` 요소 크기에 따라 합니다.  
   
--   `_Out_writes_to_(s,c)`  
+- `_Out_writes_to_(s,c)`  
   
      `_Out_writes_bytes_to_(s,c)`  
   
@@ -251,7 +251,7 @@ ms.locfileid: "58983305"
   
      `void *memcpy(_Out_writes_bytes_all_(s) char *p1,    _In_reads_bytes_(s) char *p2,    _In_ int s); void * wordcpy(_Out_writes_all_(s) DWORD *p1,     _In_reads_(s) DWORD *p2,    _In_ int s);`  
   
--   `_Inout_updates_to_(s,c)`  
+- `_Inout_updates_to_(s,c)`  
   
      `_Inout_updates_bytes_to_(s,c)`  
   
@@ -259,7 +259,7 @@ ms.locfileid: "58983305"
   
      `_bytes_` variant는 요소 대신 바이트 크기를 제공 합니다. 크기 요소로 표현할 수 없는 경우에 사용 합니다.  예를 들어 `char` 문자열 사용 합니다 `_bytes_` 변형 하는 유사한 작동 하는 경우에 사용 하 여 `wchar_t` 는 합니다.  
   
--   `_Inout_updates_all_(s)`  
+- `_Inout_updates_all_(s)`  
   
      `_Inout_updates_bytes_all_(s)`  
   
@@ -271,19 +271,19 @@ ms.locfileid: "58983305"
   
      `_bytes_` variant는 요소 대신 바이트 크기를 제공 합니다. 크기 요소로 표현할 수 없는 경우에 사용 합니다.  예를 들어 `char` 문자열 사용 합니다 `_bytes_` 변형 하는 유사한 작동 하는 경우에 사용 하 여 `wchar_t` 는 합니다.  
   
--   `_In_reads_to_ptr_(p)`  
+- `_In_reads_to_ptr_(p)`  
   
      배열에 대 한 포인터 식이 `p` – `_Curr_` (즉, `p` 빼기 `_Curr_`) 표준 적절 한 언어에서 정의 됩니다.  요소를 이전 `p` 사전 상태에서 유효 해야 합니다.  
   
--   `_In_reads_to_ptr_z_(p)`  
+- `_In_reads_to_ptr_z_(p)`  
   
      null로 끝나는 배열에 대 한 포인터 식이 `p` – `_Curr_` (즉, `p` 빼기 `_Curr_`) 표준 적절 한 언어에서 정의 됩니다.  요소를 이전 `p` 사전 상태에서 유효 해야 합니다.  
   
--   `_Out_writes_to_ptr_(p)`  
+- `_Out_writes_to_ptr_(p)`  
   
      배열에 대 한 포인터 식이 `p` – `_Curr_` (즉, `p` 빼기 `_Curr_`) 표준 적절 한 언어에서 정의 됩니다.  요소를 이전 `p` 사전 상태에서 유효 하지 않아도 되 고 사후 상태에서 유효 해야 합니다.  
   
--   `_Out_writes_to_ptr_z_(p)`  
+- `_Out_writes_to_ptr_z_(p)`  
   
      null로 끝나는 배열에 대 한 포인터 식이 `p` – `_Curr_` (즉, `p` 빼기 `_Curr_`) 표준 적절 한 언어에서 정의 됩니다.  요소를 이전 `p` 사전 상태에서 유효 하지 않아도 되 고 사후 상태에서 유효 해야 합니다.  
   
@@ -391,59 +391,59 @@ ms.locfileid: "58983305"
   
  **주석 및 설명**  
   
--   `_Outref_`  
+- `_Outref_`  
   
      결과 사후 상태에서 유효 해야 하며 null 일 수 없습니다.  
   
--   `_Outref_result_maybenull_`  
+- `_Outref_result_maybenull_`  
   
      결과 사후 상태에서 유효 해야 하지만 사후 상태에서 null 일 수 있습니다.  
   
--   `_Outref_result_buffer_(s)`  
+- `_Outref_result_buffer_(s)`  
   
      결과 사후 상태에서 유효 해야 하며 null 일 수 없습니다. 크기의 유효한 버퍼를 가리키는 `s` 요소입니다.  
   
--   `_Outref_result_bytebuffer_(s)`  
+- `_Outref_result_bytebuffer_(s)`  
   
      결과 사후 상태에서 유효 해야 하며 null 일 수 없습니다. 크기의 유효한 버퍼를 가리키는 `s` 바이트입니다.  
   
--   `_Outref_result_buffer_to_(s, c)`  
+- `_Outref_result_buffer_to_(s, c)`  
   
      결과 사후 상태에서 유효 해야 하며 null 일 수 없습니다. 버퍼를 가리키는 `s` 요소는 첫 번째 `c` 유효 합니다.  
   
--   `_Outref_result_bytebuffer_to_(s, c)`  
+- `_Outref_result_bytebuffer_to_(s, c)`  
   
      결과 사후 상태에서 유효 해야 하며 null 일 수 없습니다. 버퍼를 가리키는 `s` 바이트는 첫 번째 `c` 유효 합니다.  
   
--   `_Outref_result_buffer_all_(s)`  
+- `_Outref_result_buffer_all_(s)`  
   
      결과 사후 상태에서 유효 해야 하며 null 일 수 없습니다. 크기의 유효한 버퍼를 가리키는 `s` 유효한 요소입니다.  
   
--   `_Outref_result_bytebuffer_all_(s)`  
+- `_Outref_result_bytebuffer_all_(s)`  
   
      결과 사후 상태에서 유효 해야 하며 null 일 수 없습니다. 유효한 버퍼를 가리키는 `s` 바이트 유효한 요소입니다.  
   
--   `_Outref_result_buffer_maybenull_(s)`  
+- `_Outref_result_buffer_maybenull_(s)`  
   
      결과 사후 상태에서 유효 해야 하지만 사후 상태에서 null 일 수 있습니다. 크기의 유효한 버퍼를 가리키는 `s` 요소입니다.  
   
--   `_Outref_result_bytebuffer_maybenull_(s)`  
+- `_Outref_result_bytebuffer_maybenull_(s)`  
   
      결과 사후 상태에서 유효 해야 하지만 사후 상태에서 null 일 수 있습니다. 크기의 유효한 버퍼를 가리키는 `s` 바이트입니다.  
   
--   `_Outref_result_buffer_to_maybenull_(s, c)`  
+- `_Outref_result_buffer_to_maybenull_(s, c)`  
   
      결과 사후 상태에서 유효 해야 하지만 사후 상태에서 null 일 수 있습니다. 버퍼를 가리키는 `s` 요소는 첫 번째 `c` 유효 합니다.  
   
--   `_Outref_result_bytebuffer_to_maybenull_(s,c)`  
+- `_Outref_result_bytebuffer_to_maybenull_(s,c)`  
   
      결과 사후 상태에서 유효 해야 하지만 사후 상태에서 null 일 수 있습니다. 버퍼를 가리키는 `s` 바이트는 첫 번째 `c` 유효 합니다.  
   
--   `_Outref_result_buffer_all_maybenull_(s)`  
+- `_Outref_result_buffer_all_maybenull_(s)`  
   
      결과 사후 상태에서 유효 해야 하지만 사후 상태에서 null 일 수 있습니다. 크기의 유효한 버퍼를 가리키는 `s` 유효한 요소입니다.  
   
--   `_Outref_result_bytebuffer_all_maybenull_(s)`  
+- `_Outref_result_bytebuffer_all_maybenull_(s)`  
   
      결과 사후 상태에서 유효 해야 하지만 사후 상태에서 null 일 수 있습니다. 유효한 버퍼를 가리키는 `s` 바이트 유효한 요소입니다.  
   
@@ -457,7 +457,7 @@ ms.locfileid: "58983305"
 ## <a name="other-common-annotations"></a>기타 일반 주석  
  **주석 및 설명**  
   
--   `_In_range_(low, hi)`  
+- `_In_range_(low, hi)`  
   
      `_Out_range_(low, hi)`  
   
@@ -476,13 +476,13 @@ ms.locfileid: "58983305"
     > [!IMPORTANT]
     >  "In" 및 "out"의 의미 체계 이름을 포함 하지만 `_In_` 하 고 `_Out_` 수행 **하지** 이러한 주석을 적용할 합니다.  
   
--   `_Pre_equal_to_(expr)`  
+- `_Pre_equal_to_(expr)`  
   
      `_Post_equal_to_(expr)`  
   
      주석이 추가 된 값이 정확 하 게 `expr`합니다.  같음 `_Satisfies_(_Curr_ == expr)` 적절 한 사전 상태 또는 사후 상태 조건 함께 주석이 달린된 개체에 적용 되는 합니다.  
   
--   `_Struct_size_bytes_(size)`  
+- `_Struct_size_bytes_(size)`  
   
      구조체 또는 클래스 선언에 적용 됩니다.  지정 된 바이트 수를 사용 하 여 해당 형식의 유효한 개체를 선언된 된 형식 보다 클 수 있습니다 나타냅니다 `size`합니다.  예를 들어:  
   
@@ -496,7 +496,7 @@ ms.locfileid: "58983305"
  [코드 분석 팀 블로그](http://go.microsoft.com/fwlink/?LinkId=251197)  
   
 ## <a name="see-also"></a>참고 항목  
- [C/c + + 코드 오류를 줄이기 위한 SAL 주석 사용](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
+ [SAL 주석은 C를 줄이기 위해 사용 하 여 /C++ 오류 코드](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [SAL 이해](../code-quality/understanding-sal.md)   
  [함수 동작에 주석 지정](../code-quality/annotating-function-behavior.md)   
  [구조체 및 클래스에 주석 지정](../code-quality/annotating-structs-and-classes.md)   

@@ -11,12 +11,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 40c9c3d2da03b70b75f5c2edd8c256e1e35ea0b4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 4fb6543f5e741010ae19e706ee4a87352d678390
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54769323"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063792"
 ---
 # <a name="concurrency-visualizer-sdk"></a>동시성 시각화 도우미 SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,11 +34,11 @@ ms.locfileid: "54769323"
   
 ##### <a name="to-add-sdk-support-to-a-c-or-visual-basic-project"></a>C# 또는 Visual Basic 프로젝트에 SDK 지원을 추가하려면  
   
-1.  메뉴 모음에서 **분석**, **동시성 시각화 도우미**, **프로젝트에 SDK 추가**를 선택합니다.  
+1. 메뉴 모음에서 **분석**, **동시성 시각화 도우미**, **프로젝트에 SDK 추가**를 선택합니다.  
   
-2.  SDK에 액세스하려는 프로젝트를 선택한 다음 **선택한 프로젝트에 SDK 추가** 단추를 선택합니다.  
+2. SDK에 액세스하려는 프로젝트를 선택한 다음 **선택한 프로젝트에 SDK 추가** 단추를 선택합니다.  
   
-3.  Imports 또는 using 문을 코드에 추가합니다.  
+3. Imports 또는 using 문을 코드에 추가합니다.  
   
     ```csharp  
     using Microsoft.ConcurrencyVisualizer.Instrumentation;  
@@ -53,19 +53,19 @@ ms.locfileid: "54769323"
   
 ##### <a name="to-add-sdk-support-to-a-c-or-c-project"></a>C++ 또는 C 프로젝트에 SDK 지원을 추가하려면  
   
-1.  메뉴 모음에서 **분석**, **동시성 시각화 도우미**, **프로젝트에 SDK 추가**를 선택합니다.  
+1. 메뉴 모음에서 **분석**, **동시성 시각화 도우미**, **프로젝트에 SDK 추가**를 선택합니다.  
   
-2.  SDK에 액세스하려는 프로젝트를 선택한 다음 **선택한 프로젝트에 SDK 추가** 단추를 선택합니다.  
+2. SDK에 액세스하려는 프로젝트를 선택한 다음 **선택한 프로젝트에 SDK 추가** 단추를 선택합니다.  
   
-3.  C++의 경우 `cvmarkersobj.h`를 포함합니다. C의 경우 `cvmarkers.h`를 포함합니다.  
+3. C++의 경우 `cvmarkersobj.h`를 포함합니다. C의 경우 `cvmarkers.h`를 포함합니다.  
   
-4.  using 문을 코드에 추가합니다.  
+4. using 문을 코드에 추가합니다.  
   
     ```  
     using namespace Concurrency::diagnostic;  
     ```  
   
-5.  `marker_series` 개체를 만들고 이를 `span` 생성자에 전달합니다.  
+5. `marker_series` 개체를 만들고 이를 `span` 생성자에 전달합니다.  
   
     ```cpp  
   
@@ -79,19 +79,19 @@ ms.locfileid: "54769323"
   
 #### <a name="to-use-a-new-marker-provider-in-a-c-or-visual-basic-project"></a>C# 또는 Visual Basic 프로젝트에서 새 표식 공급자를 사용하려면  
   
-1.  <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> 개체를 만듭니다.  생성자는 GUID를 사용합니다.  
+1. <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> 개체를 만듭니다.  생성자는 GUID를 사용합니다.  
   
-2.  공급자를 등록하려면 동시성 시각화 도우미 [고급 설정](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 대화 상자를 엽니다.  **표식** 탭을 선택한 다음 **새 공급자 추가** 단추를 선택합니다. [고급 설정](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 대화 상자에서 공급자 및 공급자에 대한 설명을 만드는 데 사용된 GUID를 입력합니다.  
+2. 공급자를 등록하려면 동시성 시각화 도우미 [고급 설정](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 대화 상자를 엽니다.  **표식** 탭을 선택한 다음 **새 공급자 추가** 단추를 선택합니다. [고급 설정](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 대화 상자에서 공급자 및 공급자에 대한 설명을 만드는 데 사용된 GUID를 입력합니다.  
   
 #### <a name="to-use-a-new-marker-provider-in-a-c-or-c-project"></a>C++ 또는 C 프로젝트에서 새 표식 공급자를 사용하려면  
   
-1.  `CvInitProvider` 함수를 사용하여 PCV_PROVIDER를 초기화합니다.  생성자는 GUID* 및 PCV_PROVIDER\*를 사용합니다.  
+1. `CvInitProvider` 함수를 사용하여 PCV_PROVIDER를 초기화합니다.  생성자는 GUID* 및 PCV_PROVIDER\*를 사용합니다.  
   
-2.  공급자를 등록하려면 [고급 설정](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 대화 상자를 엽니다.  **표식** 탭을 선택한 다음 **새 공급자 추가** 단추를 선택합니다. 이 대화 상자에서 공급자 및 공급자에 대한 설명을 만드는 데 사용된 GUID를 입력합니다.  
+2. 공급자를 등록하려면 [고급 설정](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 대화 상자를 엽니다.  **표식** 탭을 선택한 다음 **새 공급자 추가** 단추를 선택합니다. 이 대화 상자에서 공급자 및 공급자에 대한 설명을 만드는 데 사용된 GUID를 입력합니다.  
   
 #### <a name="to-use-a-marker-series-in-a-c-or-visual-basic-project"></a>C# 또는 Visual Basic 프로젝트에서 표식 계열을 사용하려면  
   
-1.  새 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries>를 사용하려면 먼저 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> 개체를 사용하여 이를 만든 다음 새 계열에서 직접 표식 이벤트를 생성합니다.  
+1. 새 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries>를 사용하려면 먼저 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> 개체를 사용하여 이를 만든 다음 새 계열에서 직접 표식 이벤트를 생성합니다.  
   
     ```csharp  
     MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries(″Series 1″);  
@@ -105,7 +105,7 @@ ms.locfileid: "54769323"
   
 #### <a name="to-use-a-marker-series-in-a-c-project"></a>C++ 프로젝트에서 표식 계열을 사용하려면  
   
-1.  `marker_series` 개체를 만듭니다.  새 계열에서 이벤트를 생성할 수 있습니다.  
+1. `marker_series` 개체를 만듭니다.  새 계열에서 이벤트를 생성할 수 있습니다.  
   
     ```scr  
     marker_series series;  
@@ -114,7 +114,7 @@ ms.locfileid: "54769323"
   
 #### <a name="to-use-a-marker-series-in-a-c-project"></a>C 프로젝트에서 표식 계열을 사용하려면  
   
-1.  `CvCreateMarkerSeries` 함수를 사용하여 PCV_MARKERSERIES를 만듭니다.  
+1. `CvCreateMarkerSeries` 함수를 사용하여 PCV_MARKERSERIES를 만듭니다.  
   
     ```cpp  
     PCV_MARKERSERIES series;  

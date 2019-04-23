@@ -12,12 +12,12 @@ ms.assetid: 93f79774-7b79-4dd6-94ad-13698f72c257
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 321dca309476ecba80c0293f100ed64e7bb1cc4e
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 87bfa86585d384c7940d5a5bcf31d07579bc75a1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002601"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064682"
 ---
 # <a name="how-to-update-a-visual-studio-extension"></a>방법: Visual Studio 확장 기능 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,30 +30,30 @@ ms.locfileid: "59002601"
 
 ### <a name="to-update-an-extension-on-your-system"></a>시스템에서 확장을 업데이트 하려면
 
-1.  **도구** 메뉴에서 **확장 및 업데이트**를 클릭합니다.
+1. **도구** 메뉴에서 **확장 및 업데이트**를 클릭합니다.
 
-2.  왼쪽된 창에서 클릭 **업데이트**합니다.
+2. 왼쪽된 창에서 클릭 **업데이트**합니다.
 
-3.  가운데 창에서 업데이트를 설치 하려면 클릭 합니다.
+3. 가운데 창에서 업데이트를 설치 하려면 클릭 합니다.
 
      업데이트 된 확장의 버전 번호는 다른 정보와 함께 오른쪽 창에 표시 됩니다.
 
-4.  오른쪽 창의 맨 아래에서 클릭 **업데이트**합니다.
+4. 오른쪽 창의 맨 아래에서 클릭 **업데이트**합니다.
 
 ### <a name="to-publish-an-update-of-an-extension"></a>확장의 업데이트를 게시 하려면
 
-1.  Visual Studio에서 업데이트 하려는 확장에 대 한 솔루션을 엽니다. 변경 내용을 확인 합니다.
+1. Visual Studio에서 업데이트 하려는 확장에 대 한 솔루션을 엽니다. 변경 내용을 확인 합니다.
 
     > [!IMPORTANT]
     >  부호 없는 모든 사용자 확장 자동으로 업데이트 되지 않습니다. 확장 프로그램에 항상 서명 해야 합니다.
 
-2.  **솔루션 탐색기**, source.extension.manifest를 엽니다.
+2. **솔루션 탐색기**, source.extension.manifest를 엽니다.
 
-3.  매니페스트 디자이너에서 숫자 값을 증가 합니다 **버전** 필드입니다.
+3. 매니페스트 디자이너에서 숫자 값을 증가 합니다 **버전** 필드입니다.
 
-4.  솔루션을 저장 하 고 빌드하십시오.
+4. 솔루션을 저장 하 고 빌드하십시오.
 
-5.  (프로젝트의 \bin\Debug\ 폴더)에 새.vsix 파일을 업로드 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트입니다.
+5. (프로젝트의 \bin\Debug\ 폴더)에 새.vsix 파일을 업로드 합니다 [Visual Studio Marketplace](https://marketplace.visualstudio.com/) 웹 사이트입니다.
 
      확장의 이전 버전을 가진 사용자가 열리면 **확장 및 업데이트**를 새 버전에 표시 됩니다는 **업데이트** 도구를 자동으로 업데이트를 찾도록 설정 되어 있는 목록입니다.
 

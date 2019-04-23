@@ -19,12 +19,12 @@ caps.latest.revision: 38
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f0d77d78cdcf889b22d9cf6901b6beae41aaaee4
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 4391f4cf989b51a49b874e6eccdcceb28f609003
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59366733"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060556"
 ---
 # <a name="how-to-collect-performance-data-for-a-web-site"></a>방법: 웹 사이트에 대 한 성능 데이터를 수집 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,25 +46,25 @@ ms.locfileid: "59366733"
   
 ### <a name="to-profile-a-web-site-project"></a>웹 사이트 프로젝트를 프로파일링하려면  
   
-1.  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 또는 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 에서 [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)]웹 프로젝트를 엽니다.  
+1. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 또는 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 에서 [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)]웹 프로젝트를 엽니다.  
   
-2.  **분석** 메뉴에서 **성능 마법사 시작**을 클릭합니다.  
+2. **분석** 메뉴에서 **성능 마법사 시작**을 클릭합니다.  
   
-3.  마법사의 첫 번째 페이지에서 프로파일링 방법을 선택하고 **다음**을 클릭합니다. 프로파일링 방법에 대한 자세한 내용은 [성능 컬렉션 메서드 이해](../profiling/understanding-performance-collection-methods.md)를 참조하세요. 동시성 시각화 도우미 프로파일링 방법은 웹 애플리케이션에 사용할 수 없습니다.  
+3. 마법사의 첫 번째 페이지에서 프로파일링 방법을 선택하고 **다음**을 클릭합니다. 프로파일링 방법에 대한 자세한 내용은 [성능 컬렉션 메서드 이해](../profiling/understanding-performance-collection-methods.md)를 참조하세요. 동시성 시각화 도우미 프로파일링 방법은 웹 애플리케이션에 사용할 수 없습니다.  
   
-4.  **다음 응용 프로그램 중 프로파일링할 대상을 선택하세요.** 드롭다운 목록에서 현재 프로젝트가 선택되어 있는지 확인하고 **다음**을 클릭합니다.  
+4. **다음 응용 프로그램 중 프로파일링할 대상을 선택하세요.** 드롭다운 목록에서 현재 프로젝트가 선택되어 있는지 확인하고 **다음**을 클릭합니다.  
   
-5.  마법사의 세 번째 페이지에서 TIP(계층 상호 작용 프로파일링) 데이터, 웹 페이지에서 실행 중인 JavaScript의 데이터 또는 둘 모두를 선택할 수 있습니다.  
+5. 마법사의 세 번째 페이지에서 TIP(계층 상호 작용 프로파일링) 데이터, 웹 페이지에서 실행 중인 JavaScript의 데이터 또는 둘 모두를 선택할 수 있습니다.  
   
-    -   계층 상호 작용을 수집하려면 **계층 상호 작용 프로파일링 사용** 확인란을 선택합니다.  
+    - 계층 상호 작용을 수집하려면 **계층 상호 작용 프로파일링 사용** 확인란을 선택합니다.  
   
-    -   웹 페이지에서 실행 중인 JavaScript에서 데이터를 수집하려면 **JavaScript 프로파일링** 확인란을 선택합니다.  
+    - 웹 페이지에서 실행 중인 JavaScript에서 데이터를 수집하려면 **JavaScript 프로파일링** 확인란을 선택합니다.  
   
-6.  **다음**을 클릭합니다.  
+6. **다음**을 클릭합니다.  
   
-7.  마법사의 네 번째 페이지에서 **마침**을 클릭합니다.  
+7. 마법사의 네 번째 페이지에서 **마침**을 클릭합니다.  
   
-8.  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 응용 프로그램에 대해 성능 세션이 만들어지고 브라우저에서 웹 사이트가 시작됩니다. 프로파일링을 수행할 기능을 실행하고 브라우저를 닫습니다.  
+8. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 응용 프로그램에 대해 성능 세션이 만들어지고 브라우저에서 웹 사이트가 시작됩니다. 프로파일링을 수행할 기능을 실행하고 브라우저를 닫습니다.  
   
      프로파일러는 데이터 파일을 생성하고 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 주 창에 데이터의 요약 보기를 표시합니다.  
   
@@ -90,9 +90,9 @@ ms.locfileid: "59366733"
   
 6. 마법사의 세 번째 페이지에서 TIP(계층 상호 작용 프로파일링) 데이터, 웹 페이지에서 실행 중인 JavaScript의 데이터 또는 둘 모두를 선택할 수 있습니다.  
   
-   -   계층 상호 작용을 수집하려면 **계층 상호 작용 프로파일링 사용** 확인란을 선택합니다.  
+   - 계층 상호 작용을 수집하려면 **계층 상호 작용 프로파일링 사용** 확인란을 선택합니다.  
   
-   -   웹 페이지에서 실행 중인 JavaScript에서 데이터를 수집하려면 **JavaScript 프로파일링** 확인란을 선택합니다.  
+   - 웹 페이지에서 실행 중인 JavaScript에서 데이터를 수집하려면 **JavaScript 프로파일링** 확인란을 선택합니다.  
   
 7. **다음**을 클릭합니다.  
   

@@ -13,12 +13,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 05faeddf43c91ce0f45d54d2f6b6ed46cf8d2a4f
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: f34121ca50ae2467addb29809e7a3792063642ec
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157989"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062452"
 ---
 # <a name="sourcetextattr-enumeration"></a>SOURCE_TEXT_ATTR 열거형
 소스 텍스트의 단일 문자 특성을 설명합니다.  
@@ -44,11 +44,11 @@ enum enum_SOURCE_TEXT_ATTR{    SOURCETEXT_ATTR_KEYWORD    = 0x0001,    SOURCETEX
 ## <a name="remarks"></a>설명  
  일반적으로 `IDebugDocumentHost::GetScriptTextAttributes`, `IActiveScriptDebug::GetScriptletTextAttributes`, 및 `IActiveScriptDebug::GetScriptTextAttributes` 경우가 아니면 메서드는 문자당 하나의 텍스트 특성을 반환 합니다.  
   
--   GETATTRTYPE_DEPSCAN 플래그가 설정 되 면 메서드 SOURCETEXT_ATTR_IDENTIFIER 및 SOURCETEXT_ATTR_MEMBERLOOKUP 플래그를 반환할 수 있습니다이 경우  
+- GETATTRTYPE_DEPSCAN 플래그가 설정 되 면 메서드 SOURCETEXT_ATTR_IDENTIFIER 및 SOURCETEXT_ATTR_MEMBERLOOKUP 플래그를 반환할 수 있습니다이 경우  
   
--   GETATTRFLAG_THIS 플래그가 설정 되 면 메서드 SOURCETEXT_ATTR_THIS 플래그를 반환할 수 있습니다이 경우  
+- GETATTRFLAG_THIS 플래그가 설정 되 면 메서드 SOURCETEXT_ATTR_THIS 플래그를 반환할 수 있습니다이 경우  
   
--   GETATTRFLAG_HUMANTEXT 플래그 메서드 SOURCETEXT_ATTR_HUMANTEXT 플래그를 반환할 수 있습니다이 경우에 설정 됩니다.  
+- GETATTRFLAG_HUMANTEXT 플래그 메서드 SOURCETEXT_ATTR_HUMANTEXT 플래그를 반환할 수 있습니다이 경우에 설정 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [액티브 스크립트 디버거 상수, 열거형 및 구조체](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

@@ -11,12 +11,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 640217b9ee9a8cb51ed11931d0d66b2c98e0a165
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f938e08d2bc9363be5e3f9e1ac247dea36f25a80
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986323"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064832"
 ---
 # <a name="link-uml-model-updates-by-using-transactions"></a>트랜잭션을 사용하여 UML 모델 업데이트 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,15 +62,15 @@ Visual Studio에서 UML 디자이너 확장을 정의할 때 몇 가지 변경 �
   
  다음 사항을 참고하십시오.  
   
--   트랜잭션의 끝에 항상 `Commit()`을 포함해야 합니다. 트랜잭션을 커밋하지 않고 삭제하면 트랜잭션이 롤백됩니다. 즉, 모델이 트랜잭션을 시작할 때의 상태로 복원됩니다.  
+- 트랜잭션의 끝에 항상 `Commit()`을 포함해야 합니다. 트랜잭션을 커밋하지 않고 삭제하면 트랜잭션이 롤백됩니다. 즉, 모델이 트랜잭션을 시작할 때의 상태로 복원됩니다.  
   
--   트랜잭션 내에 catch되지 않는 예외가 발생하면 트랜잭션이 롤백됩니다. 트랜잭션의 `using` 블록을 `try…catch` 블록 안에 묶는 것이 자주 사용되는 패턴입니다.  
+- 트랜잭션 내에 catch되지 않는 예외가 발생하면 트랜잭션이 롤백됩니다. 트랜잭션의 `using` 블록을 `try…catch` 블록 안에 묶는 것이 자주 사용되는 패턴입니다.  
   
--   트랜잭션을 중첩할 수 있습니다.  
+- 트랜잭션을 중첩할 수 있습니다.  
   
--   `BeginTransaction()`에 공백이 아닌 임의 이름을 지정할 수 있습니다.  
+- `BeginTransaction()`에 공백이 아닌 임의 이름을 지정할 수 있습니다.  
   
--   UML 모델 저장소만 이러한 트랜잭션의 영향을 받습니다. 모델링 트랜잭션은 변수, 파일 및 데이터베이스와 같은 외부 저장소, 레이어 다이어그램 및 모델 코드에 영향을 주지 않습니다.  
+- UML 모델 저장소만 이러한 트랜잭션의 영향을 받습니다. 모델링 트랜잭션은 변수, 파일 및 데이터베이스와 같은 외부 저장소, 레이어 다이어그램 및 모델 코드에 영향을 주지 않습니다.  
   
 ## <a name="example"></a>예제  
   

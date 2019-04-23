@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 76bfa81f1285dce000f79c356a604bab1d53cc55
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 0c4639b5e2edcfebd05dcc6511102c0369b4b3e1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415826"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066093"
 ---
 # <a name="add-custom-properties-to-dependency-diagrams"></a>종속성 다이어그램에 사용자 지정 속성 추가
 
@@ -37,6 +37,7 @@ ms.locfileid: "58415826"
 >     ```xml
 >     <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>
 >     ```
+>
 > 3. 아래는 **Visual Studio Tools** Visual Studio 응용 프로그램 시작 메뉴를 열고 부분 **개발자 명령 프롬프트**합니다. 다음을 입력합니다.
 >
 >      `devenv /rootSuffix /updateConfiguration`
@@ -62,15 +63,15 @@ public class MyProperty : PropertyExtension<ILayerElement>
 
 <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement> 또는 해당 파생 클래스에서 다음과 같은 속성을 정의할 수 있습니다.
 
--   `ILayerModel` - 모델
+- `ILayerModel` - 모델
 
--   `ILayer` - 각 레이어
+- `ILayer` - 각 레이어
 
--   `ILayerDependencyLink` - 레이어 간의 링크
+- `ILayerDependencyLink` - 레이어 간의 링크
 
--   `ILayerComment`
+- `ILayerComment`
 
--   `ILayerCommentLink`
+- `ILayerCommentLink`
 
 ## <a name="example"></a>예제
 

@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 54284b9e1e55e4e3a3ba8b8237b9420cbf195089
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: b5c763e18f30bec27837e248a27546df821ef33f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704048"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065586"
 ---
 # <a name="attach-after-a-launch"></a>시작 후 연결
 프로그램 시작 디버그 세션 언급된 프로그램에 디버그 엔진 (DE)를 연결할 준비가 된 것입니다.
@@ -23,9 +23,9 @@ ms.locfileid: "56704048"
 ## <a name="design-decisions"></a>디자인 결정
  통신 공유 되는 주소 공간 내에서 쉽게 이기 때문에 두 가지 디자인 방법 간에 선택 해야 합니다: 디버그 세션을 DE 사이의 통신을 설정 합니다. 또는 DE와 프로그램 간의 통신을 설정 합니다. 다음 중에서 선택 합니다.
 
--   디버그 세션을 DE 사이의 통신을 설정 하는 것에 있도록 하는 경우 디버그 세션 공동는 DE 만들고 프로그램에 연결 하는 DE를 요청 합니다. 이 디자인 유지 디버그 세션 및 DE 함께 주소 공간 및 런타임 환경 및 프로그램의 다른 함께 합니다.
+- 디버그 세션을 DE 사이의 통신을 설정 하는 것에 있도록 하는 경우 디버그 세션 공동는 DE 만들고 프로그램에 연결 하는 DE를 요청 합니다. 이 디자인 유지 디버그 세션 및 DE 함께 주소 공간 및 런타임 환경 및 프로그램의 다른 함께 합니다.
 
--   하는 경우는 DE와 프로그램 간의 통신을 설정 하는 것을 런타임 환경에서 공동는 DE를 만듭니다. 이 디자인에서 다른 주소 공간 및 DE, 런타임 환경 및 프로그램 SDM을 유지합니다. 이 디자인은 일반적인 스크립트 언어를 실행 하려면 인터프리터를 사용 하 여 구현 되는 DE입니다.
+- 하는 경우는 DE와 프로그램 간의 통신을 설정 하는 것을 런타임 환경에서 공동는 DE를 만듭니다. 이 디자인에서 다른 주소 공간 및 DE, 런타임 환경 및 프로그램 SDM을 유지합니다. 이 디자인은 일반적인 스크립트 언어를 실행 하려면 인터프리터를 사용 하 여 구현 되는 DE입니다.
 
     > [!NOTE]
     >  DE 프로그램에 연결 하는 방법을 하는 것은 구현에 따라 다릅니다. DE와 프로그램 간의 통신 구현에 따라 다릅니다 이기도합니다.

@@ -14,35 +14,35 @@ ms.assetid: d2d95259-b2bc-4069-9876-60c30ad600a3
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 9b0356e524228e22def9b17dd134e3e011185203
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 421cc23fb807a571b2b36f5f1def5df46a99492b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841106"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064806"
 ---
 # <a name="cant-have-continue-outside-of-loop"></a>루프 외부에서 'continue'를 사용할 수 없습니다.
 사용 하려고 합니다 **계속** 문이 루프 외부에서. 합니다 **계속** 문은의 본문 내 에서만 사용할 수 있습니다  
   
--   `do-while` 루프  
+- `do-while` 루프  
   
--   `while` 루프  
+- `while` 루프  
   
--   **for** loop,  
+- **for** loop,  
   
--   **에 대한/** 루프입니다.  
+- **에 대한/** 루프입니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   있는지 확인 합니다 **계속** 문 a: 본문 내에 나타나지만  
+- 있는지 확인 합니다 **계속** 문 a: 본문 내에 나타나지만  
   
-    -   `do-while` 루프  
+    - `do-while` 루프  
   
-    -   `while` 루프  
+    - `while` 루프  
   
-    -   **for** loop,  
+    - **for** loop,  
   
-    -   **에 대한/** 루프입니다.  
+    - **에 대한/** 루프입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [continue 문](../../javascript/reference/continue-statement-javascript.md)   

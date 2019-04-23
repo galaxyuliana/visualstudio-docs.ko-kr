@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab90fb24820e84f27d67759eb4665d72dffd1aa8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: e6e1d2c71ce7bdb876df997812644fbb819c8977
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56684080"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063493"
 ---
 # <a name="error-handling-and-return-values"></a>오류 처리 및 반환 값
 Vspackage 및 COM 오류에 대 한 동일한 아키텍처를 사용 합니다. 합니다 `SetErrorInfo` 및 `GetErrorInfo` 함수는 Win32 API (응용 프로그래밍 인터페이스)의 일부인 합니다. 모든 VSPackage 통합된 개발 환경 (IDE)에서 호출할 수 있습니다 이러한 다양 한 오류 정보를 기록 하려면 전역 Win32 Api는 오류 알림의 받을 때. [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 오류 정보를 관리 하는 interop 어셈블리를 제공 합니다.
@@ -34,24 +34,24 @@ Vspackage 및 COM 오류에 대 한 동일한 아키텍처를 사용 합니다. 
 ## <a name="general-guidelines"></a>일반 지침
  사용할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> 메서드를 설정 하 고 내부도 VSPackage 구현에 있는 오류를 보고 합니다. 그러나 일반적으로 VSPackage의 오류 메시지를 처리 하기 위한 다음이 지침을 따르세요.
 
--   구현 `ISupportErrorInfo` VSPackage COM 개체에 있습니다.
+- 구현 `ISupportErrorInfo` VSPackage COM 개체에 있습니다.
 
--   오류 보고를 호출 하는 메커니즘을 만들기는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드를 구현 하는 개체의 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>합니다.
+- 오류 보고를 호출 하는 메커니즘을 만들기는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드를 구현 하는 개체의 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>합니다.
 
--   IDE를 통해 사용자에 게 오류를 표시할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> 메서드.
+- IDE를 통해 사용자에 게 오류를 표시할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> 메서드.
 
 ## <a name="error-information-in-the-ide"></a>IDE에서 오류 정보
  다음 규칙에 오류 정보를 처리 하는 방법에 표시 된 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE:
 
--   사용자에 게 오래 된 오류 정보 보고 되지 않습니다 보장 하기 위해 방어 전략을 호출 하는 함수 처럼 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> 메서드가 먼저 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드. 전달 `null` 새 오류 정보를 설정할 수는 아무 것도 호출 하려면 먼저 캐시 된 오류 메시지를 지워야 합니다.
+- 사용자에 게 오래 된 오류 정보 보고 되지 않습니다 보장 하기 위해 방어 전략을 호출 하는 함수 처럼 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> 메서드가 먼저 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드. 전달 `null` 새 오류 정보를 설정할 수는 아무 것도 호출 하려면 먼저 캐시 된 오류 메시지를 지워야 합니다.
 
--   오류 메시지를 직접 보고 하지 않는 함수 호출 에서만 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드는 오류를 반환 하는 이러한 경우 `HRESULT`합니다. 선택을 허용 되는 것은 `ErrorInfo` 함수 또는 반환할 때 항목 <xref:Microsoft.VisualStudio.VSConstants.S_OK>합니다. 이 규칙의 유일한 예외는 호출 오류를 반환 하는 경우 `HRESULT` 여자에 게는 수신 파티 수 복구 명시적으로 무시 해도 괜찮습니다.
+- 오류 메시지를 직접 보고 하지 않는 함수 호출 에서만 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드는 오류를 반환 하는 이러한 경우 `HRESULT`합니다. 선택을 허용 되는 것은 `ErrorInfo` 함수 또는 반환할 때 항목 <xref:Microsoft.VisualStudio.VSConstants.S_OK>합니다. 이 규칙의 유일한 예외는 호출 오류를 반환 하는 경우 `HRESULT` 여자에 게는 수신 파티 수 복구 명시적으로 무시 해도 괜찮습니다.
 
--   명시적으로 오류를 무시 하는 모든 파티 `HRESULT` 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드를 <xref:Microsoft.VisualStudio.VSConstants.S_OK>합니다. 그렇지 않은 경우는 `ErrorInfo` 다른 당사자가 자신의 제공 하지 않고 오류를 생성 하는 경우 개체 실수로 사용할 수 있습니다 `ErrorInfo`합니다.
+- 명시적으로 오류를 무시 하는 모든 파티 `HRESULT` 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드를 <xref:Microsoft.VisualStudio.VSConstants.S_OK>합니다. 그렇지 않은 경우는 `ErrorInfo` 다른 당사자가 자신의 제공 하지 않고 오류를 생성 하는 경우 개체 실수로 사용할 수 있습니다 `ErrorInfo`합니다.
 
--   오류가 발생 하는 모든 메서드에 `HRESULT` 를 호출 하는 것이 좋습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 다양 한 오류 정보를 제공 하는 방법입니다. 하는 경우 반환 된 `HRESULT` 특수 `FACILITY_ITF` 오류를 다음 메서드를 제공 해야 적절 한 `ErrorInfo`개체입니다. 반환 된 오류는 표준 시스템 오류가 발생 하는 경우 (예를 들어 <xref:Microsoft.VisualStudio.VSConstants.E_OUTOFMEMORY>, <xref:Microsoft.VisualStudio.VSConstants.E_ABORT>, <xref:Microsoft.VisualStudio.VSConstants.E_INVALIDARG>, <xref:Microsoft.VisualStudio.VSConstants.E_UNEXPECTED>, 및 등입니다.)를 명시적으로 호출 하지 않고 오류 코드를 반환 하는 것이 좋습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드. 코딩 하려는 방어 전략에서 오류가 발생 하는 경우로 `HRESULT` 항상 호출 (시스템 오류)를 포함 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드를 사용 하 여 `ErrorInfo` 더 자세히 설명에서 실패를 설명 하는 또는 `null`합니다.
+- 오류가 발생 하는 모든 메서드에 `HRESULT` 를 호출 하는 것이 좋습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 다양 한 오류 정보를 제공 하는 방법입니다. 하는 경우 반환 된 `HRESULT` 특수 `FACILITY_ITF` 오류를 다음 메서드를 제공 해야 적절 한 `ErrorInfo`개체입니다. 반환 된 오류는 표준 시스템 오류가 발생 하는 경우 (예를 들어 <xref:Microsoft.VisualStudio.VSConstants.E_OUTOFMEMORY>, <xref:Microsoft.VisualStudio.VSConstants.E_ABORT>, <xref:Microsoft.VisualStudio.VSConstants.E_INVALIDARG>, <xref:Microsoft.VisualStudio.VSConstants.E_UNEXPECTED>, 및 등입니다.)를 명시적으로 호출 하지 않고 오류 코드를 반환 하는 것이 좋습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드. 코딩 하려는 방어 전략에서 오류가 발생 하는 경우로 `HRESULT` 항상 호출 (시스템 오류)를 포함 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> 메서드를 사용 하 여 `ErrorInfo` 더 자세히 설명에서 실패를 설명 하는 또는 `null`합니다.
 
--   실패에서 수신 된 정보에 전달 해야 다른 호출에서 발생 하는 오류를 반환 하는 모든 함수에서 호출 된 `HRESULT` 수정 하지 않고는 `ErrorInfo` 개체입니다.
+- 실패에서 수신 된 정보에 전달 해야 다른 호출에서 발생 하는 오류를 반환 하는 모든 함수에서 호출 된 `HRESULT` 수정 하지 않고는 `ErrorInfo` 개체입니다.
 
 ## <a name="see-also"></a>참고자료
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>

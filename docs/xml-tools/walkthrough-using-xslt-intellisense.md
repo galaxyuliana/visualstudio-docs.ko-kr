@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 826967355b26e06e5d9f0bd26f3efcf745006fe9
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: 880f098d96c23236a065894629a36a746ecedce7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57525442"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062731"
 ---
 # <a name="walkthrough-using-xslt-intellisense"></a>연습: XSLT IntelliSense 사용
 
@@ -21,7 +21,7 @@ ms.locfileid: "57525442"
 
 ## <a name="to-use-intellisense-in-the-name-attribute-of-xslwith-param-and-xslcall-template-elements"></a>xsl:with-param 및 xsl:call-template 요소의 이름 특성에 IntelliSense를 사용하려면
 
-1.  새 XSLT 파일을 만들고 다음 코드에 복사합니다.
+1. 새 XSLT 파일을 만들고 다음 코드에 복사합니다.
 
     ```xml
     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
@@ -45,7 +45,7 @@ ms.locfileid: "57525442"
     </xsl:stylesheet>
     ```
 
-2.  삽입 후 커서 `<xsl:template name="msg23" match="msg23">` 키를 누릅니다 **Enter**합니다. 그리고 나서 다음 `xsl:call-template` 요소 입력을 시작합니다.
+2. 삽입 후 커서 `<xsl:template name="msg23" match="msg23">` 키를 누릅니다 **Enter**합니다. 그리고 나서 다음 `xsl:call-template` 요소 입력을 시작합니다.
 
     ```xml
     <xsl:call-template name="localized-message">
@@ -54,7 +54,7 @@ ms.locfileid: "57525442"
 
      입력할 때 템플릿 이름의 목록이 `name=""` 요소의 `xsl:call-template` 특성에 나타납니다.
 
-3.  삽입 후 커서 `<xsl:call-template name="localized-message">` 키를 누릅니다 **Enter**합니다. 그리고 나서 다음 `xsl:with-param` 요소 입력을 시작합니다.
+3. 삽입 후 커서 `<xsl:call-template name="localized-message">` 키를 누릅니다 **Enter**합니다. 그리고 나서 다음 `xsl:with-param` 요소 입력을 시작합니다.
 
     ```xml
     <xsl:with-param name="msgcode">msg23</xsl:with-param>
@@ -64,7 +64,7 @@ ms.locfileid: "57525442"
 
 ## <a name="to-use-intellisense-in-the-mode-attribute-of-an-xslapply-templates-element"></a>xsl:apply-templates 요소의 모드 특성에 IntelliSense를 사용하려면
 
-1.  새 XSLT 파일을 만들고 다음 코드에 복사합니다.
+1. 새 XSLT 파일을 만들고 다음 코드에 복사합니다.
 
     ```xml
     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
@@ -111,7 +111,7 @@ ms.locfileid: "57525442"
     </xsl:stylesheet>
     ```
 
-2.  삽입 후 커서 `<xsl:apply-templates select="phone" />` 키를 누릅니다 **Enter**합니다. 그리고 나서 다음 `xsl: apply-templates` 요소 입력을 시작합니다.
+2. 삽입 후 커서 `<xsl:apply-templates select="phone" />` 키를 누릅니다 **Enter**합니다. 그리고 나서 다음 `xsl: apply-templates` 요소 입력을 시작합니다.
 
     ```xml
     <xsl:apply-templates select="phone"  mode="accountNumber">
@@ -121,7 +121,7 @@ ms.locfileid: "57525442"
 
 ## <a name="to-use-intellisense-in-the-stylesheet-prefix-and-result-prefix-attributes-of-an-xslnamespace-alias-element"></a>xsl:namespace-alias 요소의 stylesheet-prefix 및 result-prefix 특성에 IntelliSense를 사용하려면
 
-1.  새 XSLT 파일을 만들고 다음 코드에 복사합니다.
+1. 새 XSLT 파일을 만들고 다음 코드에 복사합니다.
 
     ```xml
     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:alt="http://www.w3.org/1999/XSL/Transform-alternate"
@@ -152,7 +152,7 @@ ms.locfileid: "57525442"
     </xsl:stylesheet>
     ```
 
-2.  삽입 후 커서 `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:alt="http://www.w3.org/1999/XSL/Transform-alternate" version="1.0">` 키를 누릅니다 **Enter**합니다. 그리고 나서 다음 `xsl:namespace-alias` 요소 입력을 시작합니다.
+2. 삽입 후 커서 `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:alt="http://www.w3.org/1999/XSL/Transform-alternate" version="1.0">` 키를 누릅니다 **Enter**합니다. 그리고 나서 다음 `xsl:namespace-alias` 요소 입력을 시작합니다.
 
     ```xml
     <xsl:namespace-alias stylesheet-prefix="alt" result-prefix="xsl"/>

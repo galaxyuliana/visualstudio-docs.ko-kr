@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 39f94442e89cee6a615497376ad7baa9c85b7797
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a1b6ef478b9f3661690383623df7c89fae28bb0c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625532"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063545"
 ---
 # <a name="associate-a-form-region-with-an-outlook-message-class"></a>Outlook 메시지 클래스를 사용 하 여 양식 영역을 연결 합니다.
   각 항목의 메시지 클래스를 사용 하 여 양식 영역을 연결 하 여 양식 영역을 표시 하는 Microsoft Office Outlook 항목을 지정할 수 있습니다. 예를 들어, 메일 항목의 맨 아래에 양식 영역을 추가 하려는 경우 양식 영역을 연결할 수는 `IPM.Note` message 클래스입니다.
@@ -50,9 +50,9 @@ ms.locfileid: "56625532"
 ## <a name="associate-a-form-region-with-an-outlook-message-class"></a>Outlook 메시지 클래스를 사용 하 여 양식 영역을 연결 합니다.
  두 가지 방법으로 메시지 클래스를 사용 하 여 양식 영역을 연결할 수 있습니다.
 
--   사용 된 **새 Outlook 양식 영역** 마법사.
+- 사용 된 **새 Outlook 양식 영역** 마법사.
 
--   클래스 특성을 적용 합니다.
+- 클래스 특성을 적용 합니다.
 
 ### <a name="use-the-new-outlook-form-region-wizard"></a>새 Outlook 양식 영역 마법사 사용
  마지막 페이지에는 **새 Outlook 양식 영역** 마법사 표준 메시지 클래스를 선택 하 여 양식 영역과 연결 하려는 사용자 지정 메시지 클래스의 이름을 입력 합니다.

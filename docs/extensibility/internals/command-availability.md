@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ae72a9f8ed20840da958c3c9314c8f25aada801f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 7dfe8a6b3e4c84fd97a159f6ac43e0de47536f0b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625624"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064273"
 ---
 # <a name="command-availability"></a>명령 가용성
 
@@ -44,11 +44,11 @@ Visual Studio 컨텍스트에 사용할 수 있는 명령을 결정 합니다. �
 
 경우 GUID는 아직 정의 되지 않은 적절 한 명령 컨텍스트를 VSPackage의 하나를 정의 하 고 활성 또는 비활성 명령의 표시 유형을 제어 하려면 필요에 따라 수를 프로그래밍할 수 있습니다.:
 
-1.  컨텍스트 Guid를 호출 하 여 등록 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> 메서드.
+1. 컨텍스트 Guid를 호출 하 여 등록 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> 메서드.
 
-2.  호출 하 여 GUID 컨텍스트의 상태를 가져오기는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> 메서드.
+2. 호출 하 여 GUID 컨텍스트의 상태를 가져오기는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> 메서드.
 
-3.  호출 하 여 상황에 맞는 Guid 설정 및 해제를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> 메서드.
+3. 호출 하 여 상황에 맞는 Guid 설정 및 해제를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> 메서드.
 
 > [!CAUTION]
 > VSPackage 영향을 주지 않습니다 모든 기존 컨텍스트 Guid에 따라 달라질 수 있습니다 다른 Vspackage 때문에 있는지 확인 합니다.

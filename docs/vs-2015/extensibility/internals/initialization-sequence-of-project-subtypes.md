@@ -10,12 +10,12 @@ ms.assetid: f657f8c3-5e68-4308-9971-e81e3099ba29
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 79bcd3981da8d8aee37e802b2463b4b33b60c430
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c5594d54c188c2f561dd66229e808e48068ba41a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983433"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062706"
 ---
 # <a name="initialization-sequence-of-project-subtypes"></a>프로젝트 하위 형식의 초기화 시퀀스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "58983433"
   
     다음 초기화 단계를 자세히 설명 합니다.  
   
-   1.  환경의 구현의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsCreateAggregateProject.CreateAggregateProject%2A> 메서드 호출 ' HrCreateInnerProj ' ' 메서드를 다음 함수 선언:  
+   1. 환경의 구현의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsCreateAggregateProject.CreateAggregateProject%2A> 메서드 호출 ' HrCreateInnerProj ' ' 메서드를 다음 함수 선언:  
   
        ```  
        HRESULT HrCreateInnerProj  
@@ -50,13 +50,13 @@ ms.locfileid: "58983433"
   
         이 함수가 호출 될 때 처음으로 즉, 가장 바깥쪽 프로젝트 하위 형식에 대 한 매개 변수 `pOuter` 하 고 `pOwner` 변수로 전달 됩니다 `null` 함수가 가장 바깥쪽 프로젝트 하위 형식 설정 `IUnknown` 에 `pOuter`합니다.  
   
-   2.  다음 호출 환경 `HrCreateInnerProj` 목록의 두 번째 프로젝트 형식 GUID 사용 하 여 함수입니다. 이 GUID는 집계 시퀀스의 기본 프로젝트에서 단계별 실행 두 번째 내부 프로젝트 하위 형식에 해당 합니다.  
+   2. 다음 호출 환경 `HrCreateInnerProj` 목록의 두 번째 프로젝트 형식 GUID 사용 하 여 함수입니다. 이 GUID는 집계 시퀀스의 기본 프로젝트에서 단계별 실행 두 번째 내부 프로젝트 하위 형식에 해당 합니다.  
   
-   3.  `pOuter` 이제 가리키는 합니다 `IUnknown` 가장 바깥쪽 프로젝트 하위 형식의 및 `HrCreateInnerProj` 의 구현이 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProjectFactory.PreCreateForOuter%2A> 구현에 대 한 호출 뒤에 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProject.SetInnerProject%2A>입니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProjectFactory.PreCreateForOuter%2A> 제어를 전달 하는 메서드 `IUnknown` 가장 바깥쪽 프로젝트 하위 형식의 `pOuter`합니다. 여기에 해당 집계 프로젝트 개체를 만들려면 소유 프로젝트 (내부 프로젝트 하위 형식) 해야 합니다. 에 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProject.SetInnerProject%2A> 포인터를 전달 하는 메서드 구현을 `IUnknown` 집계 되는 내부 프로젝트의 합니다. 이러한 두 메서드 집계 개체를 만들고 프로젝트 하위 형식 자체에 참조 횟수를 보유 하 끝나지 않습니다 있도록 COM 집계 규칙을 따르도록 구현 해야 합니다.  
+   3. `pOuter` 이제 가리키는 합니다 `IUnknown` 가장 바깥쪽 프로젝트 하위 형식의 및 `HrCreateInnerProj` 의 구현이 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProjectFactory.PreCreateForOuter%2A> 구현에 대 한 호출 뒤에 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProject.SetInnerProject%2A>입니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProjectFactory.PreCreateForOuter%2A> 제어를 전달 하는 메서드 `IUnknown` 가장 바깥쪽 프로젝트 하위 형식의 `pOuter`합니다. 여기에 해당 집계 프로젝트 개체를 만들려면 소유 프로젝트 (내부 프로젝트 하위 형식) 해야 합니다. 에 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProject.SetInnerProject%2A> 포인터를 전달 하는 메서드 구현을 `IUnknown` 집계 되는 내부 프로젝트의 합니다. 이러한 두 메서드 집계 개체를 만들고 프로젝트 하위 형식 자체에 참조 횟수를 보유 하 끝나지 않습니다 있도록 COM 집계 규칙을 따르도록 구현 해야 합니다.  
   
-   4.  `HrCreateInnerProj` 구현이 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProjectFactory.PreCreateForOuter%2A>합니다. 이 방법에서는 프로젝트 하위 형식 초기화 작업을 수행합니다. 솔루션 이벤트의 예를 들어를 등록할 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProject.InitializeForOuter%2A>합니다.  
+   4. `HrCreateInnerProj` 구현이 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProjectFactory.PreCreateForOuter%2A>합니다. 이 방법에서는 프로젝트 하위 형식 초기화 작업을 수행합니다. 솔루션 이벤트의 예를 들어를 등록할 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAggregatableProject.InitializeForOuter%2A>합니다.  
   
-   5.  `HrCreateInnerProj` 목록의 마지막 GUID (기본 프로젝트)에 도달할 때까지 재귀적으로 호출 됩니다. 이러한 호출의 각각에 대 한 c ~ d 단계를 반복 됩니다. `pOuter` 가장 바깥쪽 프로젝트 하위 형식 가리키는 `IUnknown` 각 집계 수준에 대 한 합니다.  
+   5. `HrCreateInnerProj` 목록의 마지막 GUID (기본 프로젝트)에 도달할 때까지 재귀적으로 호출 됩니다. 이러한 호출의 각각에 대 한 c ~ d 단계를 반복 됩니다. `pOuter` 가장 바깥쪽 프로젝트 하위 형식 가리키는 `IUnknown` 각 집계 수준에 대 한 합니다.  
   
    다음 예제에서는 대략적으로 표시에서 프로그래밍 방식으로 프로세스를 자세히 설명 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsCreateAggregateProject.CreateAggregateProject%2A> 메서드 환경에서 구현 됩니다. 코드는 예 일뿐입니다. 컴파일할 수 없습니다 및 명확성을 위해 제거 된 모든 오류를 확인 합니다.  
   

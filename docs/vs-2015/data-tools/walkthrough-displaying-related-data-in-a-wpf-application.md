@@ -19,12 +19,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 873f20383a3a35dcfc7b51128d07d5efc1d11519
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 400e16918f01697eecce2af608ba89e041ca6449
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972165"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065391"
 ---
 # <a name="walkthrough-displaying-related-data-in-a-wpf-application"></a>연습: WPF 응용 프로그램에서 관련된 데이터 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,19 +61,19 @@ ms.locfileid: "58972165"
   
 #### <a name="to-create-a-new-wpf-project"></a>새 WPF 프로젝트를 만들려면  
   
-1.  Visual Studio를 시작합니다.  
+1. Visual Studio를 시작합니다.  
   
-2.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
+2. **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
   
-3.  확장 **Visual C#** 하거나 **Visual Basic**를 선택한 후 **Windows**합니다.  
+3. 확장 **Visual C#** 하거나 **Visual Basic**를 선택한 후 **Windows**합니다.  
   
-4.  했는지 **.NET Framework 4** 대화 상자의 맨 위에 있는 콤보 상자에서를 선택 합니다. <xref:System.Windows.Controls.DataGrid> 이 연습에서 사용 하는 컨트롤은.NET Framework 4 에서만 사용할 수 있습니다.  
+4. 했는지 **.NET Framework 4** 대화 상자의 맨 위에 있는 콤보 상자에서를 선택 합니다. <xref:System.Windows.Controls.DataGrid> 이 연습에서 사용 하는 컨트롤은.NET Framework 4 에서만 사용할 수 있습니다.  
   
-5.  **WPF 애플리케이션** 프로젝트 템플릿을 선택합니다.  
+5. **WPF 애플리케이션** 프로젝트 템플릿을 선택합니다.  
   
-6.  **이름** 상자에 `AdventureWorksOrdersViewer`을 입력합니다.  
+6. **이름** 상자에 `AdventureWorksOrdersViewer`을 입력합니다.  
   
-7.  **확인**을 클릭합니다.  
+7. **확인**을 클릭합니다.  
   
      Visual Studio 만듭니다는 `AdventureWorksOrdersViewer` 프로젝트입니다.  
   
@@ -102,9 +102,9 @@ ms.locfileid: "58972165"
   
 6. 에 **데이터베이스 개체 선택** 페이지에서 **테이블**, 다음 테이블을 선택 하 고:  
   
-   -   **SalesOrderDetail**  
+   - **SalesOrderDetail**  
   
-   -   **SalesOrderHeader**  
+   - **SalesOrderHeader**  
   
 7. **마침**을 클릭합니다.  
   
@@ -192,15 +192,15 @@ ms.locfileid: "58972165"
   
 #### <a name="to-test-the-application"></a>애플리케이션을 테스트하려면  
   
-1.  **F5**키를 누릅니다.  
+1. **F5**키를 누릅니다.  
   
      응용 프로그램이 빌드되고 실행됩니다. 다음 사항을 확인합니다.  
   
-    -   합니다 **판매 주문 ID** 콤보 상자에 표시 됩니다 **71774**합니다. 엔터티의 첫 번째 순서 ID입니다.  
+    - 합니다 **판매 주문 ID** 콤보 상자에 표시 됩니다 **71774**합니다. 엔터티의 첫 번째 순서 ID입니다.  
   
-    -   선택 하면 각 주문에 대 한 합니다 **판매 주문 ID** 콤보 상자에 자세한 주문 정보가 표시 됩니다는 <xref:System.Windows.Controls.DataGrid>합니다.  
+    - 선택 하면 각 주문에 대 한 합니다 **판매 주문 ID** 콤보 상자에 자세한 주문 정보가 표시 됩니다는 <xref:System.Windows.Controls.DataGrid>합니다.  
   
-2.  애플리케이션을 닫습니다.  
+2. 애플리케이션을 닫습니다.  
   
 ## <a name="next-steps"></a>다음 단계  
  이 연습을 완료 한 후 사용 하는 방법에 알아봅니다.는 **데이터 원본** WPF 바인딩할 Visual Studio의 창 다른 형식의 데이터 소스를 제어 합니다. 자세한 내용은 [WCF 데이터 서비스에 WPF 바인딩 컨트롤](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md) 하 고 [WPF 바인딩 컨트롤을 데이터 집합을](../data-tools/bind-wpf-controls-to-a-dataset.md).  

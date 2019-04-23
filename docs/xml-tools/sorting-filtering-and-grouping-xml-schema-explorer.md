@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 200ac7f9a38a242d6140902374d477339747b9b4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 740fd46d453a6e6a51285d418374d036d83bc598
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55914008"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065028"
 ---
 # <a name="sorting-filtering-and-grouping-xml-schema-explorer"></a>정렬, 필터링 및 그룹화 (XML 스키마 탐색기)
 
@@ -23,41 +23,41 @@ ms.locfileid: "55914008"
 
  사용할 수 있는 필터 옵션은 다음과 같습니다. 기본적으로 **네임 스페이스 표시** 하 고 **스키마 파일 표시** 옵션을 선택 합니다.
 
--   **네임 스페이스 표시**합니다.
+- **네임 스페이스 표시**합니다.
 
--   **스키마 파일 표시**합니다.
+- **스키마 파일 표시**합니다.
 
--   **작성자 표시 (시퀀스/choice/all)** 합니다.
+- **작성자 표시 (시퀀스/choice/all)** 합니다.
 
 ## <a name="sorting-options"></a>정렬 옵션
 
  사용할 수 있는 정렬 옵션은 다음과 같습니다. 기본값은 **유형별 정렬**합니다. **정렬 기준** 옵션 파일 및 네임 스페이스에 적용 되지 않습니다.
 
--   **유형별 정렬**합니다.
+- **유형별 정렬**합니다.
 
--   **이름순 정렬**합니다.
+- **이름순 정렬**합니다.
 
--   **문서 순서**합니다.
+- **문서 순서**합니다.
 
 ### <a name="sort-by-type"></a>유형별 정렬
 
  경우는 **유형별 정렬** 옵션을 선택 하면 전역 노드가 다음 순서로 정렬 됩니다. 그런 다음 노드가 각 그룹 내에서 알파벳순으로 정렬됩니다.
 
-1.  `import` 노드
+1. `import` 노드
 
-2.  `include` 노드
+2. `include` 노드
 
-3.  `redefine` 노드
+3. `redefine` 노드
 
-4.  `attribute` 노드
+4. `attribute` 노드
 
-5.  `attributeGroup` 노드
+5. `attributeGroup` 노드
 
-6.  `complexType` 노드
+6. `complexType` 노드
 
-7.  `simpleType` 노드
+7. `simpleType` 노드
 
-8.  `element` 노드
+8. `element` 노드
 
 9. `group` 노드
 
@@ -65,13 +65,13 @@ ms.locfileid: "55914008"
 
  경우는 **이름순 정렬** 옵션을 선택 하면 전역 노드가 다음 순서로 정렬 됩니다.
 
-1.  `import` 노드(네임스페이스의 알파벳 순서로 정렬)
+1. `import` 노드(네임스페이스의 알파벳 순서로 정렬)
 
-2.  `include` 노드(`schemaLocation` 특성의 알파벳 순서로 정렬)
+2. `include` 노드(`schemaLocation` 특성의 알파벳 순서로 정렬)
 
-3.  `redefine` 노드(`schemaLocation` 특성의 알파벳 순서로 정렬)
+3. `redefine` 노드(`schemaLocation` 특성의 알파벳 순서로 정렬)
 
-4.  기타 전역 노드(알파벳 순서로 정렬)
+4. 기타 전역 노드(알파벳 순서로 정렬)
 
 ### <a name="document-order"></a>문서 순서
 

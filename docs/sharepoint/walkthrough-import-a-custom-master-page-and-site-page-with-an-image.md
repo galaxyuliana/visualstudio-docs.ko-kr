@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3d99b76e1ca9c67c0cd29bd435759b529d97b348
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: c303ab86409a082c3a6817adc526ded432ea54bf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665996"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063181"
 ---
 # <a name="walkthrough-import-a-custom-master-page-and-site-page-with-an-image"></a>연습: 사용자 지정 마스터 페이지 및 사이트 페이지를 이미지로 가져오기
   이 연습에서는 SharePoint 사용자 지정 마스터 페이지와 이미지가 있는 사이트 페이지를 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다.
@@ -36,26 +36,26 @@ ms.locfileid: "59665996"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료 하려면 다음 구성 요소가 있어야 합니다.
 
--   지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
+- 지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
 
--   Visual Studio.
+- Visual Studio.
 
--   SharePoint Designer 2010.
+- SharePoint Designer 2010.
 
 ## <a name="create-items-in-sharepoint-designer"></a>SharePoint Designer에서 항목 만들기
  이 예제에는 내보내기에 대 한 SharePoint Designer에서 세 개의 항목을 만드는 방법을 보여 줍니다: 사용자 지정 마스터 페이지, 사용자 지정 마스터 페이지 및 사이트 페이지에 표시할 이미지 파일을 참조 하는 사이트 페이지입니다. 이미지는 SharePoint /images/ 폴더에 추가 됩니다.
 
 #### <a name="to-create-a-custom-master-page-in-sharepoint-designer"></a>SharePoint Designer에서 사용자 지정 마스터 페이지를 만들려면
 
-1.  SharePoint 디자이너의 탐색 창에서 선택 합니다는 **마스터 페이지** 사이트 개체입니다.
+1. SharePoint 디자이너의 탐색 창에서 선택 합니다는 **마스터 페이지** 사이트 개체입니다.
 
-2.  에 **마스터 페이지** 리본에서 선택 **빈 마스터 페이지**합니다.
+2. 에 **마스터 페이지** 리본에서 선택 **빈 마스터 페이지**합니다.
 
-3.  새 마스터 페이지 선택를 선택한 후는 **마스터 페이지** 리본에서 선택 **파일 편집**합니다.
+3. 새 마스터 페이지 선택를 선택한 후는 **마스터 페이지** 리본에서 선택 **파일 편집**합니다.
 
-4.  SharePoint Designer의 맨 아래에서 선택 합니다 **코드** 탭 합니다.
+4. SharePoint Designer의 맨 아래에서 선택 합니다 **코드** 탭 합니다.
 
-5.  기존 태그를 다음 태그로 바꿉니다.
+5. 기존 태그를 다음 태그로 바꿉니다.
 
     ```aspx-csharp
     <%@ Master Language="C#" %>
@@ -76,39 +76,39 @@ ms.locfileid: "59665996"
     </html>
     ```
 
-6.  페이지 저장을 선택 합니다 **마스터 페이지** 탭을 마스터 페이지 이름 바꾸기 **mybasic1.master**합니다.
+6. 페이지 저장을 선택 합니다 **마스터 페이지** 탭을 마스터 페이지 이름 바꾸기 **mybasic1.master**합니다.
 
 ## <a name="add-an-image-to-the-content-database-in-sharepoint-designer"></a>SharePoint Designer에서 콘텐츠 데이터베이스에 이미지 추가
  이제 사이트 페이지에 표시할 이미지를 추가할 수 있습니다. 이미지는 SharePoint 콘텐츠 데이터베이스에 배포 됩니다.
 
 #### <a name="to-add-an-image-to-the-content-database-in-sharepoint-designer"></a>SharePoint Designer에서 콘텐츠 데이터베이스에 이미지를 추가 하려면
 
-1.  탐색 창에서 선택 합니다 **모든 파일** 사이트 개체를 한 다음 트리 뷰를 선택 합니다 **이미지** 폴더입니다.
+1. 탐색 창에서 선택 합니다 **모든 파일** 사이트 개체를 한 다음 트리 뷰를 선택 합니다 **이미지** 폴더입니다.
 
-2.  에 **모든 파일** 리본에서 선택 **파일 가져오기**, 사용자가 선택한 파일을 선택한 다음 합니다 **확인** 단추. 이 예제에서는 파일 이름은 **myimg1.png**합니다.
+2. 에 **모든 파일** 리본에서 선택 **파일 가져오기**, 사용자가 선택한 파일을 선택한 다음 합니다 **확인** 단추. 이 예제에서는 파일 이름은 **myimg1.png**합니다.
 
      필요에 따라 이미지를 구성 하는 데 하위 폴더를 만들 수 있습니다.
 
-3.  닫기 합니다 **가져오기** 대화 상자.
+3. 닫기 합니다 **가져오기** 대화 상자.
 
 ## <a name="create-a-site-page"></a>사이트 페이지 만들기
  이 기본 사이트 페이지 사용자 지정 마스터 페이지를 사용 하 고 이전 단계에서 추가한 이미지를 표시 합니다.
 
 #### <a name="to-create-a-site-page"></a>사이트 페이지를 만들려면
 
-1.  탐색 창에서 선택 합니다 **사이트 페이지** 개체입니다.
+1. 탐색 창에서 선택 합니다 **사이트 페이지** 개체입니다.
 
-2.  에 **페이지** 리본에서 선택 합니다 **페이지** 단추를 선택는 **ASPX** 형식 페이지 및 다음 새 파일 이름을 **mycontentpage1.aspx**.
+2. 에 **페이지** 리본에서 선택 합니다 **페이지** 단추를 선택는 **ASPX** 형식 페이지 및 다음 새 파일 이름을 **mycontentpage1.aspx**.
 
      필요에 따라 사이트 페이지를 구성 하는 데 하위 폴더를 만들 수 있습니다.
 
-3.  사이트 페이지 목록에서 선택 **MyContentPage1.aspx** 해당 속성 페이지를 열고 다음 페이지의 맨 아래에서 선택 합니다 **파일 편집** 링크 합니다.
+3. 사이트 페이지 목록에서 선택 **MyContentPage1.aspx** 해당 속성 페이지를 열고 다음 페이지의 맨 아래에서 선택 합니다 **파일 편집** 링크 합니다.
 
      메시지 및이 페이지에 안전 모드에서 편집 가능한 모든 영역이 포함 되어 있지 않은지 라는 나타나고 고급 모드에서이 페이지를 열고 것인지 여부를 묻는 경우 합니다 **예** 단추입니다.
 
-4.  페이지의 맨 아래에서 선택 합니다 **코드** 단추입니다.
+4. 페이지의 맨 아래에서 선택 합니다 **코드** 단추입니다.
 
-5.  기존 태그를 다음 태그로 바꿉니다.
+5. 기존 태그를 다음 태그로 바꿉니다.
 
     ```aspx-csharp
     <%@ Import Namespace="Microsoft.SharePoint.ApplicationPages" %>
@@ -124,22 +124,22 @@ ms.locfileid: "59665996"
     </asp:Content>
     ```
 
-6.  업데이트 된 사이트 페이지를 저장 합니다.
+6. 업데이트 된 사이트 페이지를 저장 합니다.
 
 ## <a name="export-the-items-from-sharepoint"></a>SharePoint에서 항목 내보내기
  SharePoint 솔루션을 SharePoint에서 항목을 내보낼 (*.wsp*) 파일입니다.
 
 #### <a name="to-export-items-from-sharepoint-designer"></a>SharePoint Designer에서 항목을 내보내려면
 
-1.  SharePoint 디자이너의 탐색 창에서 선택 합니다는 **팀 사이트** 개체를 선택한 다음는 **사이트** 리본에서 선택 **템플릿으로 저장**합니다.
+1. SharePoint 디자이너의 탐색 창에서 선택 합니다는 **팀 사이트** 개체를 선택한 다음는 **사이트** 리본에서 선택 **템플릿으로 저장**합니다.
 
-2.  에 **템플릿으로 저장** 대화 상자, 파일 이름 및 템플릿 이름을 입력는 **콘텐츠 포함** 확인란을 선택한 후는 **확인** 단추.
+2. 에 **템플릿으로 저장** 대화 상자, 파일 이름 및 템플릿 이름을 입력는 **콘텐츠 포함** 확인란을 선택한 후는 **확인** 단추.
 
      이 사이트의 콘텐츠를 저장 합니다 *.wsp* 파일입니다.
 
-3.  솔루션을 내보낸 후 선택 합니다 **솔루션 갤러리** 링크를 사용할 수 있는 솔루션 파일의 목록을 표시 합니다.
+3. 솔루션을 내보낸 후 선택 합니다 **솔루션 갤러리** 링크를 사용할 수 있는 솔루션 파일의 목록을 표시 합니다.
 
-4.  새 바로 가기 메뉴를 열고 *.wsp* 파일을 선택한 후 **이름으로 대상 저장** 시스템에 저장 합니다.
+4. 새 바로 가기 메뉴를 열고 *.wsp* 파일을 선택한 후 **이름으로 대상 저장** 시스템에 저장 합니다.
 
 ## <a name="import-the-items-into-visual-studio"></a>Visual Studio로 항목 가져오기
  가져오기의 *.wsp* 파일 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 콘텐츠를 가져온 후 사용자 지정할 수 있습니다, 그리고 더 많은 항목을 추가 및 배포 합니다.
@@ -166,9 +166,9 @@ ms.locfileid: "59665996"
 
     기존 마스터 페이지는 기본 마스터 페이지 또는 사용자 지정 마스터 페이지도 표시 되 면 하는 경우 마스터 페이지를 삭제할 수 없습니다 상태는 배포 오류를 받습니다. 이 문제를 방지 하려면이 수행 합니다.
 
-   -   기존 마스터 페이지가 마스터 페이지 기본으로 설정 되어 일시적으로 다른 마스터 페이지 기본 마스터 페이지로 설정 합니다. SharePoint에 파일을 배포한 후 기본 마스터 페이지와 새 마스터 페이지를 설정 합니다.
+   - 기존 마스터 페이지가 마스터 페이지 기본으로 설정 되어 일시적으로 다른 마스터 페이지 기본 마스터 페이지로 설정 합니다. SharePoint에 파일을 배포한 후 기본 마스터 페이지와 새 마스터 페이지를 설정 합니다.
 
-   -   기존 마스터 페이지는 사용자 지정 마스터 페이지로 설정 됩니다, 경우 일시적으로 다른 마스터 페이지 사용자 지정 마스터 페이지. SharePoint에 파일을 배포한 후 사용자 지정 마스터 페이지와 새 마스터 페이지를 설정 합니다.
+   - 기존 마스터 페이지는 사용자 지정 마스터 페이지로 설정 됩니다, 경우 일시적으로 다른 마스터 페이지 사용자 지정 마스터 페이지. SharePoint에 파일을 배포한 후 사용자 지정 마스터 페이지와 새 마스터 페이지를 설정 합니다.
 
 6. 메뉴 모음에서 선택 **빌드합니다** > **솔루션 배포**합니다.
 

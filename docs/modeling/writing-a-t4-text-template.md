@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9ae4a99fd1473ea25667887701198efee23b1356
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 68bb68160b78df4abe1b6874080c9a3ec91a3e31
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970805"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063428"
 ---
 # <a name="writing-a-t4-text-template"></a>T4 텍스트 템플릿 쓰기
 텍스트 템플릿은 해당 템플릿에서 생성될 텍스트를 포함합니다. 예를 들어, 웹 페이지를 만드는 템플릿으로 사용 될 "\<html >..." 및 HTML 페이지의 기타 모든 표준 부분입니다. 템플릿에 삽입 됩니다 *제어 블록*는 프로그램 코드 조각입니다. 제어 블록은 경우에 따라 다른 값을 제공하여 텍스트 부분을 조건부로/반복 적용할 수 있도록 합니다.
@@ -25,11 +25,11 @@ ms.locfileid: "55970805"
 
  텍스트 템플릿은 다음 부분으로 구성됩니다.
 
--   **지시문** -템플릿을 처리 되는 방식을 제어 하는 요소입니다.
+- **지시문** -템플릿을 처리 되는 방식을 제어 하는 요소입니다.
 
--   **텍스트 블록** -출력에 직접 복사 되는 내용입니다.
+- **텍스트 블록** -출력에 직접 복사 되는 내용입니다.
 
--   **제어 블록** -텍스트를 변수 값을 삽입 하 고 텍스트의 조건부 또는 반복 부분을 제어 하는 프로그램 코드입니다.
+- **제어 블록** -텍스트를 변수 값을 삽입 하 고 텍스트의 조건부 또는 반복 부분을 제어 하는 프로그램 코드입니다.
 
 이 항목의 예제를 실행 하려면 복사 하 여 템플릿 파일에 설명 된 대로 [T4 텍스트 템플릿을 사용 하 여 디자인 타임 코드 생성](../modeling/design-time-code-generation-by-using-t4-text-templates.md)합니다. 템플릿 파일을 편집한 후 저장 하 고 출력을 검사할 **.txt** 파일입니다.
 
@@ -107,7 +107,7 @@ Hello!
 <#= 2 + 3 #>
 ```
 
- 여기서 여는 기호에는 "<#="의 3개 문자가 있습니다.
+ 여는 기호는 3 개의 문자 "< #="입니다.
 
  식은 범위 내의 모든 변수를 포함할 수 있습니다. 예를 들어 다음 블록은 숫자가 포함된 줄을 출력합니다.
 
@@ -155,7 +155,7 @@ private int Square(int i)
  제어 블록에 대 한 자세한 내용은 참조 하세요. [텍스트 템플릿 제어 블록](../modeling/text-template-control-blocks.md)합니다.
 
 ### <a name="class-feature-blocks-can-contain-text-blocks"></a>텍스트 블록을 포함할 수 있는 클래스 기능 블록
- 텍스트를 생성하는 메서드를 작성할 수 있습니다. 예를 들면 다음과 같습니다.
+ 텍스트를 생성하는 메서드를 작성할 수 있습니다. 예를 들어:
 
 ```
 List of Squares:
@@ -224,7 +224,7 @@ private void WriteSquareLine(int i)
 
  자세한 내용은 [텍스트 템플릿 유틸리티 메서드](../modeling/text-template-utility-methods.md)합니다.
 
-## <a name="transforming-data-and-models"></a>데이터 및 모델 변형
+## <a name="transforming-data-and-models"></a>데이터 및 모델 변환
  텍스트 템플릿의 가장 유용한 적용 사례는 모델, 데이터베이스 또는 데이터 파일과 같은 소스의 내용에 따라 자료를 생성하는 것입니다. 템플릿은 데이터를 추출한 다음 서식을 다시 지정합니다. 템플릿 컬렉션은 이러한 소스를 여러 파일로 변환할 수 있습니다.
 
  소스 파일을 읽는 방식은 다양합니다.
@@ -264,7 +264,7 @@ Content of MyFile.txt is:
  (의 true가 아닙니다를 [런타임 텍스트 템플릿](../modeling/run-time-text-generation-with-t4-text-templates.md), 코드의 나머지 부분과 함께 컴파일되는 코드를 제공 하는.)
 
 ## <a name="editing-templates"></a>템플릿 편집
- 확장명 관리자 온라인 갤러리에서 특수한 텍스트 템플릿 편집기를 다운로드할 수 있습니다. 에 **도구** 메뉴에서 클릭 **확장 관리자**합니다. 클릭 **온라인 갤러리**, 한 다음 검색 도구를 사용 합니다.
+ 확장 관리자 온라인 갤러리에서 특수한 텍스트 템플릿 편집기를 다운로드할 수 있습니다. 에 **도구** 메뉴에서 클릭 **확장 관리자**합니다. 클릭 **온라인 갤러리**, 한 다음 검색 도구를 사용 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

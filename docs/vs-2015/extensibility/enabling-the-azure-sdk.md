@@ -11,12 +11,12 @@ ms.assetid: 1c323afd-fb4e-449a-adaa-bb7a5d3b1468
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e47fa574d607f0fe56950b232991ad6e5ff2b351
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 3870027762675f4f9791fa720ae932aedf0b5f90
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002520"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061335"
 ---
 # <a name="enabling-the-azure-sdk"></a>Azure SDK를 사용 하도록 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,11 +29,11 @@ Azure SDK for.NET 통해 있습니다 만들기, 구성, 빌드, 디버그, 실�
   
 ### <a name="to-enable-the-azure-sdk"></a>Azure SDK를 사용 하도록 설정 하려면  
   
-1.  에 **파일** 메뉴에서 새 프로젝트를 만듭니다. (클릭 **새로 만들기** 을 클릭 한 다음 **프로젝트**.)  
+1. 에 **파일** 메뉴에서 새 프로젝트를 만듭니다. (클릭 **새로 만들기** 을 클릭 한 다음 **프로젝트**.)  
   
-2.  에 대 한 노드를 확장 **Visual Basic** 또는 **C#** 을 클릭 한 다음 **클라우드**합니다.  
+2. 에 대 한 노드를 확장 **Visual Basic** 또는 **C#** 을 클릭 한 다음 **클라우드**합니다.  
   
-3.  가운데 창에서 선택 **Azure SDK for.NET 가져오기**를 클릭 하 고 **확인**합니다.  
+3. 가운데 창에서 선택 **Azure SDK for.NET 가져오기**를 클릭 하 고 **확인**합니다.  
   
      설치 관리자의 지침에 따릅니다.  
   

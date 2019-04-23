@@ -24,12 +24,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e2839cf3fdd780ffbf2c3cfb50e086996cfc865e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 17eb5c1ca2ad35b7a510c5a70d3ad5c5f741c69d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663299"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063402"
 ---
 # <a name="hierarchical-update"></a>계층적 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,11 +99,11 @@ ms.locfileid: "59663299"
   
 #### <a name="to-add-code-to-commit-parent-records-in-the-dataset-before-adding-new-child-records"></a>새 자식 레코드를 추가하기 전에 데이터 집합에서 부모 레코드를 커밋하는 코드를 추가하려면  
   
-1.  `OrdersBindingSource.AddingNew` 이벤트에 대한 이벤트 처리기를 만듭니다.  
+1. `OrdersBindingSource.AddingNew` 이벤트에 대한 이벤트 처리기를 만듭니다.  
   
-    -   오픈 **Form1** 디자인 뷰에서 선택 **OrdersBindingSource** 구성 요소 트레이에 선택 **이벤트** 에 **속성** 창 및 다음 두 번 클릭 합니다 **AddingNew** 이벤트입니다.  
+    - 오픈 **Form1** 디자인 뷰에서 선택 **OrdersBindingSource** 구성 요소 트레이에 선택 **이벤트** 에 **속성** 창 및 다음 두 번 클릭 합니다 **AddingNew** 이벤트입니다.  
   
-2.  호출 하는 이벤트 처리기에 코드 줄을 추가 합니다 `CustomersBindingSource.EndEdit` 메서드. `OrdersBindingSource_AddingNew` 이벤트 처리기의 코드는 다음과 같습니다.  
+2. 호출 하는 이벤트 처리기에 코드 줄을 추가 합니다 `CustomersBindingSource.EndEdit` 메서드. `OrdersBindingSource_AddingNew` 이벤트 처리기의 코드는 다음과 같습니다.  
   
      [!code-csharp[VSProDataOrcasHierarchicalUpdate#2](../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/CS/Form1.cs#2)]
      [!code-vb[VSProDataOrcasHierarchicalUpdate#2](../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/VB/Form1.vb#2)]  

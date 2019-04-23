@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 4caf96c841b794a76a7aba35f9c8ca302de6e885
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: cdbf5fa21c8fcf9069db9a7348d4ed576fc342c5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923332"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065885"
 ---
 # <a name="how-to-debug-xaml-with-the-workflow-designer"></a>방법: 워크플로 디자이너로 XAML 디버그
 
@@ -24,15 +24,15 @@ ms.locfileid: "55923332"
 
 ## <a name="to-debug-workflow-xaml"></a>워크플로 XAML을 디버깅하려면
 
-1.  Visual Studio에서 워크플로 또는 활동 프로젝트를 엽니다.
+1. Visual Studio에서 워크플로 또는 활동 프로젝트를 엽니다.
 
-2.  에 설명 된 대로 디버깅할 활동을 활동에 중단점을 설정할 [방법: 워크플로에 중단점 설정](../workflow-designer/how-to-set-breakpoints-in-workflows.md)합니다.
+2. 에 설명 된 대로 디버깅할 활동을 활동에 중단점을 설정할 [방법: 워크플로에 중단점 설정](../workflow-designer/how-to-set-breakpoints-in-workflows.md)합니다.
 
-3.  워크플로 정 및 선택 포함 된.xaml 파일을 마우스 오른쪽 단추로 클릭 **코드 보기**합니다. 디자인 뷰에서 중단점을 설정한 활동의 XAML 요소 선언과 같은 줄에 중단점이 표시됩니다.
+3. 워크플로 정 및 선택 포함 된.xaml 파일을 마우스 오른쪽 단추로 클릭 **코드 보기**합니다. 디자인 뷰에서 중단점을 설정한 활동의 XAML 요소 선언과 같은 줄에 중단점이 표시됩니다.
 
-4.  에 설명 된 대로 디버거를 호출 [워크플로 디버깅할](debugging-workflows-with-the-workflow-designer.md)합니다.
+4. 에 설명 된 대로 디버거를 호출 [워크플로 디버깅할](debugging-workflows-with-the-workflow-designer.md)합니다.
 
-5.  코드 실행이 중단점 중 하나에 도달하면 해당 중단점과 연결된 XAML 요소가 강조 표시됩니다. 다음 중단점으로 이동 하려면 사용 합니다 **F10** 하거나 **F11** 키입니다.
+5. 코드 실행이 중단점 중 하나에 도달하면 해당 중단점과 연결된 XAML 요소가 강조 표시됩니다. 다음 중단점으로 이동 하려면 사용 합니다 **F10** 하거나 **F11** 키입니다.
 
 ## <a name="see-also"></a>참고자료
 

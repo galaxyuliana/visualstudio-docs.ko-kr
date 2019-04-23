@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2c7d284e116f72b5f1c19017cf234ea42832c202
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ac93b71d67bc842b2498fbd4d017b17d9ddcf00c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613416"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062619"
 ---
 # <a name="how-to-programmatically-protect-documents-and-parts-of-documents"></a>방법: 프로그래밍 방식으로 문서 및 문서의 일부 보호
   Microsoft Office Word 문서에 보호를 추가하여 사용자의 문서 편집을 방지할 수 있습니다.
@@ -37,19 +37,19 @@ ms.locfileid: "56613416"
 
 ### <a name="to-protect-a-document-that-is-part-of-a-document-level-customization"></a>문서 수준 사용자 지정의 일부인 문서를 보호하려면
 
-1.  프로젝트에서 <xref:Microsoft.Office.Tools.Word.Document.Protect%2A> 클래스의 `ThisDocument` 메서드를 호출합니다.
+1. 프로젝트에서 <xref:Microsoft.Office.Tools.Word.Document.Protect%2A> 클래스의 `ThisDocument` 메서드를 호출합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#111](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#111)]
      [!code-csharp[Trin_VstcoreWordAutomation#111](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#111)]
 
 ### <a name="to-exclude-a-bookmark-control-from-document-protection"></a>문서 보호에서 책갈피 컨트롤을 제외하려면
 
-1.  <xref:Microsoft.Office.Tools.Word.Document.Protect%2A> 메서드를 사용하여 전체 문서를 보호합니다.
+1. <xref:Microsoft.Office.Tools.Word.Document.Protect%2A> 메서드를 사용하여 전체 문서를 보호합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#111](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#111)]
      [!code-csharp[Trin_VstcoreWordAutomation#111](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#111)]
 
-2.  문서 보호에서 `Bookmark1` 을 제외합니다.
+2. 문서 보호에서 `Bookmark1` 을 제외합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#112](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#112)]
      [!code-csharp[Trin_VstcoreWordAutomation#112](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#112)]
@@ -61,7 +61,7 @@ ms.locfileid: "56613416"
 
 ### <a name="to-protect-a-document-by-using-an-application-level-vsto-add-in"></a>애플리케이션 수준 VSTO 추가 기능을 사용하여 문서를 보호하려면
 
-1.  보호하려는 <xref:Microsoft.Office.Interop.Word._Document.Protect%2A> 의 <xref:Microsoft.Office.Interop.Word.Document> 메서드를 호출합니다.
+1. 보호하려는 <xref:Microsoft.Office.Interop.Word._Document.Protect%2A> 의 <xref:Microsoft.Office.Interop.Word.Document> 메서드를 호출합니다.
 
      다음 코드 예제에서는 활성 문서를 보호합니다. 이 코드 예제를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 실행합니다.
 

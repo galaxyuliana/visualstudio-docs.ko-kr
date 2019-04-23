@@ -6,12 +6,12 @@ ms.assetid: 99395da7-ec34-491d-9baa-0590d23283ce
 caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c878eb55dbbdeacf0984b399949b2c3bbb7550b8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e1607ec4863c7e2b21cd69dd57ca4203e3cf4dbf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985209"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063675"
 ---
 # <a name="vsix-color-compiler"></a>VSIX 색 컴파일러
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -111,7 +111,7 @@ Visual Studio 확장명 색 컴파일러 도구는 기존 Visual Studio 테마�
 |-|-|  
 |**특성**|**정의**|  
 |형식|[필수] 형식 색입니다. 다음 중 하나일 수 있습니다.<br /><br /> *CT_INVALID:* 색이 잘못 되었거나 설정 하지 않습니다.<br /><br /> *CT_RAW:* 원시 ARGB 값입니다.<br /><br /> *CT_COLORINDEX:* 사용 하지 마세요.<br /><br /> *CT_SYSCOLOR:* SysColor에서 Windows 시스템 색입니다.<br /><br /> *CT_VSCOLOR:* __VSSYSCOLOREX에서 Visual Studio 색입니다.<br /><br /> *CT_AUTOMATIC:* 자동 색입니다.<br /><br /> *CT_TRACK_FOREGROUND:* 사용 하지 마세요.<br /><br /> *CT_TRACK_BACKGROUND:* 사용 하지 마세요.|  
-|소스|[필수] 16 진수에서 표시 색상 값|  
+|Source|[필수] 16 진수에서 표시 색상 값|  
   
  __VSCOLORTYPE 열거에 의해 지원 되는 모든 값 형식 특성에서 스키마에에서 의해 지원 됩니다. 그러나 CT_RAW 및 CT_SYSCOLOR만 사용 하는 것이 좋습니다.  
   
@@ -149,15 +149,15 @@ Visual Studio 확장명 색 컴파일러 도구는 기존 Visual Studio 테마�
   
  **예제**  
   
--   VsixColorCompiler D:\xml\colors.xml D:\pkgdef\colors.pkgdef  
+- VsixColorCompiler D:\xml\colors.xml D:\pkgdef\colors.pkgdef  
   
--   VsixColorCompiler D:\xml\colors.xml /noLogo  
+- VsixColorCompiler D:\xml\colors.xml /noLogo  
   
 ## <a name="notes"></a>노트  
   
--   이 도구를 최신 버전의 VC + + 런타임 설치 해야 합니다.  
+- 이 도구를 최신 버전의 VC + + 런타임 설치 해야 합니다.  
   
--   단일 파일만 지원 됩니다. 폴더 경로 통해 대량 변환은 지원 되지 않습니다.  
+- 단일 파일만 지원 됩니다. 폴더 경로 통해 대량 변환은 지원 되지 않습니다.  
   
 ## <a name="sample-output"></a>샘플 출력  
  .Pkgdef 파일 도구로 생성 되는 것과 비슷하지만 키 아래:  

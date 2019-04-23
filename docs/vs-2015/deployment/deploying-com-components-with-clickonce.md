@@ -19,19 +19,19 @@ caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 870255afe466709f8e9a5fc48e5135943443900d
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 63328af2211f18fe553c32b018ed0a8422a1857f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002760"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066353"
 ---
 # <a name="deploying-com-components-with-clickonce"></a>ClickOnce를 사용하여 COM 구성 요소 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 일반적으로 기존 COM 구성 요소의 배포는 어려운 작업 이었습니다. 구성 요소는 전역으로 등록 해야 하 고 따라서 겹치는 응용 프로그램 간에 원치 않는 부작용을 일으킬 수 있습니다. 이 이런 아니므로 일반적으로.NET Framework 응용 프로그램에서 문제가 구성 요소는 응용 프로그램에 완전히 격리 또는 side-by-side-호환 됩니다. Visual Studio를 사용 하면 Windows XP 또는 더 높은 운영 체제에서 격리 된 COM 구성 요소를 배포할 수 있습니다.  
   
- [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] .NET 응용 프로그램을 배포 하는 쉽고 안전한 메커니즘을 제공 합니다. 그러나 레거시 COM 구성 요소를 사용 하는 응용 프로그램을 배포 하는 것에 대 한 추가 단계를 수행 해야 합니다. 이 항목에서는 격리 된 COM 구성 요소를 배포 하 고 (예를 들어, Visual Basic 6.0 또는 Visual c + +)에서 네이티브 구성 요소를 참조 하는 방법을 설명 합니다.  
+ [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] .NET 응용 프로그램을 배포 하는 쉽고 안전한 메커니즘을 제공 합니다. 그러나 레거시 COM 구성 요소를 사용 하는 응용 프로그램을 배포 하는 것에 대 한 추가 단계를 수행 해야 합니다. 이 항목에서는 격리 된 COM 구성 요소를 배포 하 고 기본 구성 요소를 참조 하는 방법에 설명 합니다 (Visual Basic 6.0 또는 시각적 개체에서 예를 들어, C++).  
   
  격리 된 COM 구성 요소를 배포 하는 방법에 대 한 자세한 내용은 참조 하세요. "를 사용한 앱 배포 단순화 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 및 등록이 필요 없는 COM" 언제 [ https://msdn.microsoft.com/magazine/msdn-magazine-issues.aspx ](https://msdn.microsoft.com/magazine/msdn-magazine-issues.aspx)합니다.  
   
@@ -49,9 +49,9 @@ ms.locfileid: "59002760"
   
  두 가지는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] COM 구성 요소를 배포 합니다.  
   
--   부트스트래퍼를 사용 하 여 COM 구성 요소; 배포 이 지원 되는 모든 플랫폼에서 작동합니다.  
+- 부트스트래퍼를 사용 하 여 COM 구성 요소; 배포 이 지원 되는 모든 플랫폼에서 작동합니다.  
   
--   기본 구성 요소 격리 (라고도: 등록이 필요 없는 COM) 배포를 사용 합니다. 그러나 Windows XP 또는 더 높은 운영 체제에서이 작동 하는 것은 합니다.  
+- 기본 구성 요소 격리 (라고도: 등록이 필요 없는 COM) 배포를 사용 합니다. 그러나 Windows XP 또는 더 높은 운영 체제에서이 작동 하는 것은 합니다.  
   
 ### <a name="example-of-isolating-and-deploying-a-simple-com-component"></a>격리 및 간단한 COM 구성 요소 배포의 예  
  등록이 필요 없는 COM 구성 요소 배포를 보여주려면이 예제에서는 격리 된 네이티브 COM 구성 요소를 Visual Basic 6.0을 사용 하 여 만든 참조 하는 Visual Basic에서 Windows 기반 응용 프로그램을 만들기를 사용 하 여 배포 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]합니다.  
@@ -60,16 +60,16 @@ ms.locfileid: "59002760"
   
 ##### <a name="to-create-a-native-com-component"></a>네이티브 COM 구성 요소를 만들려면  
   
-1.  Visual Basic 6.0을 사용 합니다 **파일** 메뉴에서 클릭 **새로 만들기**, 다음 **프로젝트**합니다.  
+1. Visual Basic 6.0을 사용 합니다 **파일** 메뉴에서 클릭 **새로 만들기**, 다음 **프로젝트**합니다.  
   
-2.  에 **새 프로젝트** 대화 상자에서를 **Visual Basic** 선택한 노드는 **ActiveX DLL** 프로젝트. **이름** 상자에 `VB6Hello`을 입력합니다.  
+2. 에 **새 프로젝트** 대화 상자에서를 **Visual Basic** 선택한 노드는 **ActiveX DLL** 프로젝트. **이름** 상자에 `VB6Hello`을 입력합니다.  
   
     > [!NOTE]
     >  등록이 필요 없는 COM을 사용 하 여 ActiveX DLL 및 ActiveX 컨트롤 프로젝트 형식만 지원 됩니다. ActiveX EXE 프로젝트 형식과 ActiveX 문서 관리 지원 되지 않습니다.  
   
-3.  **솔루션 탐색기**를 두 번 클릭 **Class1.vb** 텍스트 편집기를 엽니다.  
+3. **솔루션 탐색기**를 두 번 클릭 **Class1.vb** 텍스트 편집기를 엽니다.  
   
-4.  Class1.vb에서 생성된 된 코드에 대 한 후 다음 코드를 추가 합니다 `New` 메서드:  
+4. Class1.vb에서 생성된 된 코드에 대 한 후 다음 코드를 추가 합니다 `New` 메서드:  
   
     ```  
     Public Sub SayHello()  
@@ -77,7 +77,7 @@ ms.locfileid: "59002760"
     End Sub  
     ```  
   
-5.  구성 요소를 빌드하십시오. **빌드할** 메뉴에서 클릭 **솔루션 빌드**합니다.  
+5. 구성 요소를 빌드하십시오. **빌드할** 메뉴에서 클릭 **솔루션 빌드**합니다.  
   
 > [!NOTE]
 >  COM 제어 프로젝트 형식 및 등록이 필요 없는 COM Dll만 지원 합니다. 등록이 필요 없는 com Exe를 사용할 수 없습니다.  
@@ -145,7 +145,7 @@ ms.locfileid: "59002760"
    게시 된 파일을 검사 하면 sysmon.ocx 파일이 포함 된 기록해둔 메시지가 표시 됩니다. 컨트롤이 최종 사용자의 컴퓨터를 다른 버전의 컨트롤을 사용 하 여 다른 응용 프로그램에 있으면이 응용 프로그램을 사용 하 여 방해 없습니다 것 이므로이 응용 프로그램에 완전히 격리 됩니다.  
   
 ## <a name="referencing-native-assemblies"></a>네이티브 어셈블리 참조  
- Visual Studio 네이티브 Visual Basic 6.0 또는 c + + 어셈블리에 대 한 참조를 지원합니다. 이러한 참조를 네이티브 참조 라고 합니다. 참조를 확인 하 여 네이티브 인지 여부를 확인할 수 있습니다 해당 **파일 형식** 속성이 **네이티브** 또는 **ActiveX**합니다.  
+ Visual Studio는 네이티브 Visual Basic 6.0에 대 한 참조를 지원 또는 C++ 어셈블리 이러한 참조를 네이티브 참조 라고 합니다. 참조를 확인 하 여 네이티브 인지 여부를 확인할 수 있습니다 해당 **파일 형식** 속성이 **네이티브** 또는 **ActiveX**합니다.  
   
  네이티브 참조를 추가 하려면 사용 합니다 **참조 추가** 명령을 사용한 다음, 매니페스트를 찾습니다. 일부 구성 요소 DLL에 매니페스트를 배치합니다. 이 경우 자체 DLL을 선택 하기만 하면 및 Visual Studio는 참조로 추가 네이티브 구성 요소에 포함된 된 매니페스트를 검색 하는 경우. Visual Studio는 모든 종속 파일 또는 참조 된 구성 요소와 동일한 폴더에 있는 경우 매니페스트에 나열 된 어셈블리에도 자동으로 포함 됩니다.  
   

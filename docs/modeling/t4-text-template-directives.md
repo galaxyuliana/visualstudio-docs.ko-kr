@@ -14,59 +14,66 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1447af5bcfd2b9b95b834e3b84cab7b8da88ea5b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e09f3a9dfcc6c26e9dd575f4a127884e28def1ef
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946368"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064078"
 ---
 # <a name="t4-text-template-directives"></a>T4 텍스트 템플릿 지시문
-지시문은 텍스트 템플릿 변형 엔진에 명령을 제공합니다.
+지시문은 텍스트 템플릿 변환 엔진에 명령을 제공합니다.
 
- 지시문의 구문은 다음과 같습니다.
+지시문의 구문은 다음과 같습니다.
 
 ```
 <#@ DirectiveName [AttributeName = "AttributeValue"] ... #>
 ```
 
- 모든 특성 값을 큰따옴표로 묶어야 합니다. 값 자체에 따옴표가 포함된 경우 \ 문자를 사용하여 이스케이프해야 합니다.
+모든 특성 값을 큰따옴표로 묶어야 합니다. 값 자체에 따옴표가 포함된 경우 \ 문자를 사용하여 이스케이프해야 합니다.
 
- 일반적으로 지시문은 템플릿 파일이나 포함된 파일의 첫 번째 요소입니다. 지시문을 코드 블록 `<#...#>` 내에 두거나 클래스 기능 블록 `<#+...#>` 뒤에 두면 안 됩니다.
+일반적으로 지시문은 템플릿 파일이나 포함된 파일의 첫 번째 요소입니다. 지시문을 코드 블록 `<#...#>` 내에 두거나 클래스 기능 블록 `<#+...#>` 뒤에 두면 안 됩니다.
 
- [T4 템플릿 지시문](../modeling/t4-template-directive.md)
- ```
+[T4 템플릿 지시문](../modeling/t4-template-directive.md)
+
+```
 <#@ template [language="VB"] [hostspecific="true|TrueFromBase"] [debug="true"] [inherits="templateBaseClass"] [culture="code"] [compilerOptions="options"] [visibility="internal"] [linePragmas="false"] #>
 ```
 
- [T4 매개 변수 지시문](../modeling/t4-parameter-directive.md)
- ```
+[T4 매개 변수 지시문](../modeling/t4-parameter-directive.md)
+
+```
 <#@ parameter type="Full.TypeName" name="ParameterName" #>
 ```
 
- [T4 Output 지시문](../modeling/t4-output-directive.md)
- ```
+[T4 Output 지시문](../modeling/t4-output-directive.md)
+
+```
 <#@ output extension=".fileNameExtension" [encoding="encoding"] #>
 ```
 
- [T4 Assembly 지시문](../modeling/t4-assembly-directive.md)
- ```
+[T4 Assembly 지시문](../modeling/t4-assembly-directive.md)
+
+```
 <#@ assembly name="[assembly strong name|assembly file name]" #>
 ```
 
- [T4 Import 지시문](../modeling/t4-import-directive.md)
- ```
+[T4 Import 지시문](../modeling/t4-import-directive.md)
+
+```
 <#@ import namespace="namespace" #>
 ```
 
- [T4 Include 지시문](../modeling/t4-include-directive.md)
- ```
+[T4 Include 지시문](../modeling/t4-include-directive.md)
+
+```
 <#@ include file="filePath" #>
 ```
 
- [T4 CleanUpBehavior 지시문](../modeling/t4-cleanupbehavior-directive.md)
- ```
+[T4 CleanUpBehavior 지시문](../modeling/t4-cleanupbehavior-directive.md)
+
+```
 <#@ CleanupBehavior processor="T4VSHost" CleanupAfterProcessingtemplate="true" #>
 ```
 
- 또한 고유한 지시문을 만들 수 있습니다. 자세한 내용은 [사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기](../modeling/creating-custom-t4-text-template-directive-processors.md)합니다. Visualization and Modeling SDK를 사용하여 DSL(Domain-Specific Language)을 만드는 경우 지시문 프로세서가 DSL의 일부로 생성됩니다.
+또한 고유한 지시문을 만들 수 있습니다. 자세한 내용은 [사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기](../modeling/creating-custom-t4-text-template-directive-processors.md)합니다. Visualization and Modeling SDK를 사용하여 DSL(Domain-Specific Language)을 만드는 경우 지시문 프로세서가 DSL의 일부로 생성됩니다.

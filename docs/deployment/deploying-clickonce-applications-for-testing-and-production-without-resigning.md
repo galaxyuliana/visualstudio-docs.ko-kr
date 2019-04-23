@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dabed6cb449d51564dafbcddb3a17ccea1cda374
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: e111b0d04b8e703a694917985a0559c05584e25b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56638168"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065508"
 ---
 # <a name="deploy-clickonce-applications-for-testing-and-production-servers-without-resigning"></a>다시 서명 하지 않고 테스트 및 프로덕션 서버용 ClickOnce 응용 프로그램 배포
 이 문서에서는 clickonce 매니페스트 다시 서명 하거나 ClickOnce를 변경 하지 않고 여러 네트워크 위치에서 ClickOnce 응용 프로그램 배포를 사용할 수 있는 버전 3.5는.NET Framework에 도입 된 기능을 설명 합니다.
@@ -34,9 +34,9 @@ ms.locfileid: "56638168"
 
  타사 개발자 및 Isv 옵트인 할 수 있습니다이 기능을 쉽게 고객이 응용 프로그램을 업데이트 합니다. 다음과 같은 상황에서이 기능을 사용할 수 있습니다.
 
--   응용 프로그램을 응용 프로그램의 첫 번째 설치에 없습니다 업데이트 하는 경우.
+- 응용 프로그램을 응용 프로그램의 첫 번째 설치에 없습니다 업데이트 하는 경우.
 
--   컴퓨터에서 응용 프로그램의 구성 하나만 있으면 됩니다. 예를 들어, 서로 다른 두 데이터베이스를 가리키도록 구성 된 응용 프로그램을 하는 경우에이 기능을 사용할 수 없습니다.
+- 컴퓨터에서 응용 프로그램의 구성 하나만 있으면 됩니다. 예를 들어, 서로 다른 두 데이터베이스를 가리키도록 구성 된 응용 프로그램을 하는 경우에이 기능을 사용할 수 없습니다.
 
 ## <a name="exclude-deploymentprovider-from-deployment-manifests"></a>배포 매니페스트에 deploymentProvider 제외
  .NET Framework 2.0 및.NET Framework 3.0에서 오프 라인 가용성을 위해 시스템에 설치 하는 ClickOnce 응용 프로그램 나열 해야 합니다는 `deploymentProvider` 배포 매니페스트에서 합니다. `deploymentProvider` 업데이트 위치; 라고도 ClickOnce 응용 프로그램 업데이트를 확인 하는 있는 위치입니다. 이 요구 사항으로 해당 배포에 서명 하도록 응용 프로그램 게시자에 대 한 필요와 함께 공급 업체 또는 다른 제 3 자에서 ClickOnce 응용 프로그램을 업데이트 하는 회사 어려웠습니다. 하기가 동일한 네트워크의 여러 위치에서 동일한 응용 프로그램을 배포 하기가 더 어렵습니다.
@@ -59,8 +59,8 @@ ms.locfileid: "56638168"
   두 번째 예제에서는 지정 하는 ClickOnce 응용 프로그램을 게시할 `deploymentProvider`, 후 제거 하려는 경우. 사용 하지 않는 새 버전에 한 번 `deploymentProvider` 다운로드는 클라이언트 응용 프로그램의 버전을 해제할 때까지 업데이트를 사용 하는 경로 리디렉션할 수 없습니다 `deploymentProvider` 복원 합니다. 첫 번째 예제에서와 마찬가지로 `deploymentProvider` 현재 업데이트 위치를 새 위치가 아니라 처음 가리켜야 합니다. 삽입 하려고 하면이 경우는 `deploymentProvider` 을 참조 하는 http://subdomain.adatum.com/MyApplication/, 다음 업데이트에 실패 합니다.
 
 ## <a name="create-a-deployment"></a>배포 만들기
- 다른 네트워크 위치에서 배포할 수 있는 배포를 만드는 단계별 지침을 참조 하세요. [연습: 수동으로 다시 서명 필요 하지 않은 없고 브랜드 정보가를유지하는ClickOnce응용프로그램을배포](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md).
+ 다른 네트워크 위치에서 배포할 수 있는 배포를 만드는 단계별 지침을 참조 하세요. [연습: 수동으로 다시 서명 하는 필요가 없고 브랜드 정보가 유지 되는 ClickOnce 응용 프로그램을 배포](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [*Mage.exe*(매니페스트 생성 및 편집 도구)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
 - [*MageUI.exe*(매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)

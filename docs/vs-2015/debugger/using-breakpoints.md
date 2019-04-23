@@ -41,18 +41,18 @@ caps.latest.revision: 63
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ff5858482f64e8e73844c433febe8033b7ab1d70
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: fa7f571a797df6ecd7a2967ba1cefa3d99a0463b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58971904"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064572"
 ---
 # <a name="using-breakpoints"></a>중단점 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 예를 들어 코드 변수의 상태를 확인하거나 호출 스택을 검토하기 위해 디버거 실행을 중지하려는 경우 중단점을 설정할 수 있습니다. 개발자 도구 상자에 가장 중요한 디버깅 기술 중 하나가 있습니다.
   
-##  <a name="BKMK_Overview"></a> 소스 코드에서 함수 중단점 설정  
+## <a name="BKMK_Overview"></a> 소스 코드에서 함수 중단점 설정  
  소스 코드 파일의 왼쪽 여백을 클릭하거나 코드 줄에 커서를 놓고 F9 키를 눌러 소스 코드에 함수 중단점을 설정합니다. 중단점이 왼쪽 여백에 빨간 점으로 나타나고 코드 줄도 색이 지정됩니다.  
   
  ![중단점을 설정](../debugger/media/basicbreakpoint.png "BasicBreakpoint")  
@@ -67,7 +67,7 @@ ms.locfileid: "58971904"
   
  실행 코드의 임의의 줄에서 중단점을 설정할 수 있습니다. 예를 들어 위의 C# 코드에서 변수 선언이나 `for` 루프 또는 `for` 루프 내의 모든 코드에서 중단점을 설정할 수 있지만 네임스페이스, 클래스 선언 또는 메서드 서명에서는 중단점을 설정할 수 없습니다.  
   
-##  <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> 다른 종류의 중단점 설정  
+## <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> 다른 종류의 중단점 설정  
  호출 스택, 디스어셈블리 창 및 네이티브 C++ 코드에서 데이터 조건 또는 메모리 주소에 중단점을 설정할 수도 있습니다.  
   
 ## <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> 호출 스택 창에서 중단점 설정  
@@ -86,11 +86,11 @@ ms.locfileid: "58971904"
 ## <a name="setting-a-breakpoint-in-the-disassembly-window"></a>디스어셈블리 창에서 중단점 설정  
  어셈블리 명령에 중단점을 설정하려면 디버거가 중단 모드여야 합니다.  
   
-1.  애플리케이션 디버그를 시작하고 실행이 중지(예: 중단점에서)되도록 대기합니다. **디스어셈블리** 창을 엽니다(**디버그 / Windows / 디스어셈블리**또는 **Ctrl + Alt + D**).  
+1. 애플리케이션 디버그를 시작하고 실행이 중지(예: 중단점에서)되도록 대기합니다. **디스어셈블리** 창을 엽니다(**디버그 / Windows / 디스어셈블리**또는 **Ctrl + Alt + D**).  
   
-2.  실행을 중단할 명령에서 왼쪽 여백을 클릭하거나 명령에 커서를 설정하고 **F9**키를 누릅니다.  
+2. 실행을 중단할 명령에서 왼쪽 여백을 클릭하거나 명령에 커서를 설정하고 **F9**키를 누릅니다.  
   
-## <a name="BKMK_set_a_data_breakpoint_native_cplusplus_only"></a> 데이터 중단점 (네이티브 c + + 전용) 설정  
+## <a name="BKMK_set_a_data_breakpoint_native_cplusplus_only"></a> 데이터 중단점 설정 (네이티브 C++ 만)  
  데이터 중단점은 지정된 메모리 주소에 저장된 값이 변경되면 실행을 중단합니다. 값을 읽기만 하고 변경하지는 않을 때는 실행이 중단되지 않습니다. 데이터 중단점을 설정하려면 디버거가 중단 모드여야 합니다.  
   
 1. 애플리케이션 디버그를 시작하고 중단점에 도달할 때까지 대기합니다. **디버그** 메뉴에서 **새 중단점 / 데이터 중단점** 을 선택합니다(또는 **중단점** 창을 열고 **새로 만들기 / 데이터 중단점**선택).  
@@ -118,26 +118,26 @@ ms.locfileid: "58971904"
   
  예를 들어 주소를 가진 `my_class` 형식의 개체가 제공된 경우 해당 인스턴스에서 호출된 `my_method` 라는 메서드에 함수 중단점을 설정할 수 있습니다.  
   
-1.  클래스의 해당 인스턴스가 인스턴스화된 후 어딘가에 중단점을 설정합니다.  
+1. 클래스의 해당 인스턴스가 인스턴스화된 후 어딘가에 중단점을 설정합니다.  
   
-2.  인스턴스의 주소를 찾습니다( `0xcccccccc`라고 함).  
+2. 인스턴스의 주소를 찾습니다( `0xcccccccc`라고 함).  
   
-3.  **디버그 / 새 중단점 / 함수 중단점** (또는 **ALT + F9, B**)을 클릭합니다.  
+3. **디버그 / 새 중단점 / 함수 중단점** (또는 **ALT + F9, B**)을 클릭합니다.  
   
-4.  **함수 이름** 상자에 다음 텍스트를 추가합니다.  
+4. **함수 이름** 상자에 다음 텍스트를 추가합니다.  
   
     ```cpp  
     ((my_class *) 0xcccccccc)->my_method  
     ```  
   
-##  <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> 중단점 관리  
+## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> 중단점 관리  
  **중단점** 창(**디버그 / Windows / 중단점**또는 **CTRL + ALT + B**)을 사용하여 솔루션에 설정한 모든 중단점을 볼 수 있습니다.  
   
  ![중단점 창](../debugger/media/breakpointswindow.png "BreakpointsWindow")  
   
  **중단점** 창은 모든 중단점을 관리하는 중심적인 곳이므로 중단점이 중요한 대규모 솔루션이나 복잡한 디버깅 시나리오에서 특히 유용할 수 있습니다. 중단점 집합의 상태 및 위치를 저장하거나 공유해야 하는 경우 **중단점** 창에서만 중단점을 내보내고 가져올 수 있습니다.  
   
-##  <a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a> 고급 중단점  
+## <a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a> 고급 중단점  
   
 ## <a name="breakpoint-conditions"></a>중단점 조건  
  조건을 설정하여 중단점 실행 시점과 위치를 제어할 수 있습니다.  
@@ -209,7 +209,7 @@ ms.locfileid: "58971904"
   
   문자열 값은 큰따옴표로 묶습니다. `&` (AND), `||` (OR), `!` (NOT), 괄호를 사용하여 절을 결합할 수 있습니다.  
   
-##  <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> 중단점 작업 및 추적점  
+## <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> 중단점 작업 및 추적점  
  추적점은 출력 창에 메시지를 인쇄하는 중단점입니다. 추적점은 프로그래밍 언어의 임시 추적 문처럼 작동할 수 있습니다.  
   
  **중단점 설정** 창에서 **작업** 상자를 선택합니다. **작업** 그룹에서 **출력 창에 메시지 기록** 을 선택합니다. **테스트입니다**와 같은 일반 문자열을 인쇄할 수 있습니다. 변수의 값 또는 식을 포함하려면 중괄호로 묶습니다.  
@@ -231,7 +231,7 @@ ms.locfileid: "58971904"
 |**$TICK**||  
 |**$TNAME**||  
   
-##  <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> 중단점 레이블  
+## <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> 중단점 레이블  
  중단점 레이블은 중단점 목록을 정렬하고 필터링하기 위해 **중단점** 창에서만 사용됩니다. 중단점에 레이블을 추가하려면 중단점 행을 선택한 다음 상황에 맞는 메뉴에서 **레이블** 을 선택합니다.  
   
 ## <a name="export-and-import-breakpoints"></a>중단점 내보내기 및 가져오기  
@@ -245,9 +245,9 @@ ms.locfileid: "58971904"
 ### <a name="the-debugger-cant-locate-the-correct-version-of-the-source-file-for-a-breakpoint"></a>디버거가 중단점의 올바른 소스 파일 버전을 찾을 수 없는 경우  
  소스 파일이 변경되었고 소스가 디버깅 중인 코드와 더 이상 일치하지 않는 경우 디버거는 소스 파일이 있더라도 중단점에 해당하는 소스 파일을 찾을 수 있습니다.  
   
-1.  디버그 중인 버전과 일치하지 않는 소스 코드를 Visual Studio에서 표시하려면 **디버그 / 옵션 및 설정**을 선택합니다. **디버깅/일반** 페이지에서 **소스 파일이 원래 버전과 정확하게 일치해야 함** 옵션을 선택 취소합니다.  
+1. 디버그 중인 버전과 일치하지 않는 소스 코드를 Visual Studio에서 표시하려면 **디버그 / 옵션 및 설정**을 선택합니다. **디버깅/일반** 페이지에서 **소스 파일이 원래 버전과 정확하게 일치해야 함** 옵션을 선택 취소합니다.  
   
-2.  소스 파일에 중단점을 바인딩할 수도 있습니다. 중단점을 선택하고 상황에 맞는 메뉴에서 **조건** 을 선택합니다. **중단점 설정** 창에서 **소스 코드가 원래 코드와 일치하지 않아도 됨** 을 클릭합니다.  
+2. 소스 파일에 중단점을 바인딩할 수도 있습니다. 중단점을 선택하고 상황에 맞는 메뉴에서 **조건** 을 선택합니다. **중단점 설정** 창에서 **소스 코드가 원래 코드와 일치하지 않아도 됨** 을 클릭합니다.  
   
 ### <a name="breakpoints-dont-work-in-a-dll"></a>중단점이 DLL에서 작동하지 않는 경우  
  코드가 속한 모듈에 대한 디버그 정보가 디버거에 로드되지 않았으면 소스 파일에서 중단점을 설정할 수 없습니다. 이러한 문제의 증상으로 **중단점을 설정하지 않습니다**와 같은 메시지가 나타날 수 있습니다. 중단점 위치에 경고 중단점 문자 모양이 표시됩니다. 하지만 이러한 경고 중단점은 코드가 로드될 때 실제 중단점이 됩니다. 기호를 로드 하는 방법에 대 한 자세한 내용은 참조 하세요. [지정할 기호 (.pdb) 및 소스 파일](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)합니다.  

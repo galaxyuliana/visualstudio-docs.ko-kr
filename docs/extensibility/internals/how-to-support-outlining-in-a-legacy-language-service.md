@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fe56b66574c535f51504e54b57db7d1659c4b1dc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 85aea5bfa6ccdf5f3753a1397729671249961152
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597311"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060595"
 ---
 # <a name="how-to-support-outlining-in-a-legacy-language-service"></a>방법: 레거시 언어 서비스의 개요 표시 지원
 개요 확장 또는 축소 텍스트의 서로 다른 지역에 사용 됩니다. 사용 되는 방식으로 개요 다른 언어에서 다르게 정의할 수 있습니다. 자세한 내용은 [개요](../../ide/outlining.md)를 참조하세요.
@@ -31,9 +31,9 @@ ms.locfileid: "56597311"
 
 ## <a name="to-support-outlining"></a>개요 표시 지원 하려면
 
-1.  구현 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage> 언어 서비스 개체입니다.
+1. 구현 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage> 언어 서비스 개체입니다.
 
-2.  호출 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions%2A> 새 개요 영역을 추가 하려면 현재 개요 세션 개체에 있습니다.
+2. 호출 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions%2A> 새 개요 영역을 추가 하려면 현재 개요 세션 개체에 있습니다.
 
 ## <a name="robust-programming"></a>강력한 프로그래밍
  사용자가 선택 하면 **정의로 축소** 에 **개요** 메뉴, IDE 호출 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage.CollapseToDefinitions%2A> 언어 서비스에서.

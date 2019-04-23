@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: afe3b2fd5bdae86d0b5046775c695766594ae9b9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 8773b9f80299c1a46b6a57506d09f9f4ca32b998
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54795139"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060776"
 ---
 # <a name="debugging-or-disabling-project-code-in-xaml-designer"></a>XAML 디자이너에서 프로젝트 코드 디버그 또는 사용하지 않도록 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,43 +37,43 @@ ms.locfileid: "54795139"
   
 #### <a name="to-determine-if-project-code-is-causing-an-exception"></a>프로젝트 코드가 예외를 발생시키는지 확인하려면  
   
-1.  처리되지 않은 예외 대화 상자에서 **디자이너를 다시 로드하려면 여기를 클릭** 링크를 선택합니다.  
+1. 처리되지 않은 예외 대화 상자에서 **디자이너를 다시 로드하려면 여기를 클릭** 링크를 선택합니다.  
   
-2.  메뉴 모음에서 **디버그**, **디버깅 시작** 을 선택하여 애플리케이션을 빌드하고 실행합니다.  
+2. 메뉴 모음에서 **디버그**, **디버깅 시작** 을 선택하여 애플리케이션을 빌드하고 실행합니다.  
   
      애플리케이션이 성공적으로 빌드되고 실행되면 디자이너에서 실행 중인 프로젝트 코드로 인해 디자인 타임 예외가 발생할 수 있습니다.  
   
 #### <a name="to-debug-project-code-running-in-the-designer"></a>디자이너에서 실행되는 프로젝트 코드를 디버그하려면  
   
-1.  처리되지 않은 예외 대화 상자에서 **프로젝트 코드 실행을 사용하지 않도록 설정하고 디자이너를 다시 로드하려면 여기를 클릭** 링크를 선택합니다.  
+1. 처리되지 않은 예외 대화 상자에서 **프로젝트 코드 실행을 사용하지 않도록 설정하고 디자이너를 다시 로드하려면 여기를 클릭** 링크를 선택합니다.  
   
-2.  Windows 작업 관리자에서 **작업 끝내기** 단추를 선택하여 현재 실행 중인 Visual Studio XAML 디자이너의 모든 인스턴스를 닫습니다.  
+2. Windows 작업 관리자에서 **작업 끝내기** 단추를 선택하여 현재 실행 중인 Visual Studio XAML 디자이너의 모든 인스턴스를 닫습니다.  
   
      ![작업 관리자의 XAML 디자이너 인스턴스](../designers/media/xaml-taskmanager.png "XAML_TaskManager")  
   
-3.  Visual Studio에서 디버그하려는 코드 또는 컨트롤이 포함된 XAML 페이지를 엽니다.  
+3. Visual Studio에서 디버그하려는 코드 또는 컨트롤이 포함된 XAML 페이지를 엽니다.  
   
-4.  Visual Studio의 새 인스턴스를 연 다음 프로젝트의 두 번째 인스턴스를 엽니다.  
+4. Visual Studio의 새 인스턴스를 연 다음 프로젝트의 두 번째 인스턴스를 엽니다.  
   
-5.  프로젝트 코드에서 중단점을 설정합니다.  
+5. 프로젝트 코드에서 중단점을 설정합니다.  
   
-6.  Visual Studio의 새 인스턴스 메뉴 모음에서 **디버그**, **프로세스에 연결**을 선택합니다.  
+6. Visual Studio의 새 인스턴스 메뉴 모음에서 **디버그**, **프로세스에 연결**을 선택합니다.  
   
-7.  **프로세스에 연결** 대화 상자의 **사용 가능한 프로세스** 목록에서 **XDesProc.exe**를 선택한 다음 **연결** 단추를 선택합니다.  
+7. **프로세스에 연결** 대화 상자의 **사용 가능한 프로세스** 목록에서 **XDesProc.exe**를 선택한 다음 **연결** 단추를 선택합니다.  
   
      ![XAML 디자이너 프로세스](../designers/media/xaml-attach.png "XAML_Attach")  
   
      이는 Visual Studio의 첫 번째 인스턴스의 XAML 디자이너에 대한 프로세스입니다.  
   
-8.  Visual Studio의 첫 번째 인스턴스 메뉴 모음에서 **디버그**, **디버깅 시작**을 선택합니다.  
+8. Visual Studio의 첫 번째 인스턴스 메뉴 모음에서 **디버그**, **디버깅 시작**을 선택합니다.  
   
      이제 디자이너에서 실행 중인 코드를 한 단계씩 실행할 수 있습니다.  
   
 #### <a name="to-disable-project-code-in-the-designer"></a>디자이너에서 프로젝트 코드를 사용하지 않도록 설정하려면  
   
--   처리되지 않은 예외 대화 상자에서 **프로젝트 코드 실행을 사용하지 않도록 설정하고 디자이너를 다시 로드하려면 여기를 클릭** 링크를 선택합니다.  
+- 처리되지 않은 예외 대화 상자에서 **프로젝트 코드 실행을 사용하지 않도록 설정하고 디자이너를 다시 로드하려면 여기를 클릭** 링크를 선택합니다.  
   
--   또는 XAML 디자이너의 도구 모음에서 **프로젝트 코드를 사용하지 않도록 설정** 단추를 선택합니다.  
+- 또는 XAML 디자이너의 도구 모음에서 **프로젝트 코드를 사용하지 않도록 설정** 단추를 선택합니다.  
   
      ![프로젝트 코드 사용 안 함 단추](../designers/media/xaml-disablecode.png "XAML_DisableCode")  
   
@@ -82,7 +82,7 @@ ms.locfileid: "54795139"
     > [!NOTE]
     >  ARM 또는 X64 프로세서를 대상으로 하는 프로젝트의 경우 Visual Studio가 디자이너에서 프로젝트 코드를 실행할 수 없으므로 디자이너에서 **프로젝트 코드를 사용하지 않도록 설정** 단추가 사용하지 않도록 설정됩니다.  
   
--   두 옵션 모두 디자이너가 다시 로드하게 하고 그런 다음 연결된 프로젝트에 대한 모든 코드를 사용하지 않도록 설정합니다.  
+- 두 옵션 모두 디자이너가 다시 로드하게 하고 그런 다음 연결된 프로젝트에 대한 모든 코드를 사용하지 않도록 설정합니다.  
   
     > [!NOTE]
     >  프로젝트 코드를 사용하지 않도록 설정하면 디자인 타임 데이터가 손실될 수 있습니다. 그러므로 디자이너에서 실행되는 코드를 디버그하는 것이 좋습니다.  

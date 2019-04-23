@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f3f937b819628414430104782459da65d350dd69
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: e329631f0bdeb79a068e4a791158f94cec3904ee
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597714"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061933"
 ---
 # <a name="outlook-object-model-overview"></a>Outlook 개체 모델 개요
   Microsoft Office Outlook용 VSTO 추가 기능을 개발하기 위해 Outlook 개체 모델에서 제공하는 개체를 조작할 수 있습니다. Outlook 개체 모델은 사용자 인터페이스의 항목을 나타내는 클래스 및 인터페이스를 제공합니다. 예를 들어 <xref:Microsoft.Office.Interop.Outlook.Application> 개체는 전체 애플리케이션을 나타내고, <xref:Microsoft.Office.Interop.Outlook.Folder> 개체는 메일 메시지 또는 기타 항목이 포함된 폴더를 나타내고, <xref:Microsoft.Office.Interop.Outlook.MailItem> 개체는 메일 메시지를 나타냅니다.
@@ -37,21 +37,21 @@ ms.locfileid: "56597714"
 ## <a name="access-objects-in-an-outlook-project"></a>Outlook 프로젝트의 개체에 액세스
  Outlook은 조작할 수 많은 개체를 제공합니다. 개체 모델을 효과적으로 사용하려면 다음과 같은 최상위 개체를 잘 알고 있어야 합니다.
 
--   <xref:Microsoft.Office.Interop.Outlook.Application>
+- <xref:Microsoft.Office.Interop.Outlook.Application>
 
--   <xref:Microsoft.Office.Interop.Outlook.Explorer>
+- <xref:Microsoft.Office.Interop.Outlook.Explorer>
 
--   <xref:Microsoft.Office.Interop.Outlook.Inspector>
+- <xref:Microsoft.Office.Interop.Outlook.Inspector>
 
--   <xref:Microsoft.Office.Interop.Outlook.Folder>
+- <xref:Microsoft.Office.Interop.Outlook.Folder>
 
--   <xref:Microsoft.Office.Interop.Outlook.MailItem>
+- <xref:Microsoft.Office.Interop.Outlook.MailItem>
 
--   <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>
+- <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>
 
--   <xref:Microsoft.Office.Interop.Outlook.TaskItem>
+- <xref:Microsoft.Office.Interop.Outlook.TaskItem>
 
--   <xref:Microsoft.Office.Interop.Outlook.ContactItem>
+- <xref:Microsoft.Office.Interop.Outlook.ContactItem>
 
 ### <a name="application-object"></a>Application 개체
  <xref:Microsoft.Office.Interop.Outlook.Application> 개체는 Outlook 응용 프로그램을 나타내며 Outlook 개체 모델의 최상위 개체입니다. 이 개체의 가장 중요한 멤버 중 일부는 다음과 같습니다.
@@ -72,22 +72,22 @@ ms.locfileid: "56597714"
 
  <xref:Microsoft.Office.Interop.Outlook.Explorer> 개체를 가져오려면 다음 중 하나를 수행합니다.
 
--   <xref:Microsoft.Office.Interop.Outlook._Application.Explorers%2A> 개체의 <xref:Microsoft.Office.Interop.Outlook.Application> 속성을 사용하여 Outlook의 모든 <xref:Microsoft.Office.Interop.Outlook.Explorer> 개체에 액세스합니다.
+- <xref:Microsoft.Office.Interop.Outlook._Application.Explorers%2A> 개체의 <xref:Microsoft.Office.Interop.Outlook.Application> 속성을 사용하여 Outlook의 모든 <xref:Microsoft.Office.Interop.Outlook.Explorer> 개체에 액세스합니다.
 
--   <xref:Microsoft.Office.Interop.Outlook.Application> 개체의 <xref:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer%2A> 메서드를 사용하여 현재 포커스가 있는 <xref:Microsoft.Office.Interop.Outlook.Explorer>를 가져옵니다.
+- <xref:Microsoft.Office.Interop.Outlook.Application> 개체의 <xref:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer%2A> 메서드를 사용하여 현재 포커스가 있는 <xref:Microsoft.Office.Interop.Outlook.Explorer>를 가져옵니다.
 
--   <xref:Microsoft.Office.Interop.Outlook.Folder> 개체의 `GetExplorer` 메서드를 사용하여 현재 폴더에 대한 <xref:Microsoft.Office.Interop.Outlook.Explorer>를 가져옵니다.
+- <xref:Microsoft.Office.Interop.Outlook.Folder> 개체의 `GetExplorer` 메서드를 사용하여 현재 폴더에 대한 <xref:Microsoft.Office.Interop.Outlook.Explorer>를 가져옵니다.
 
 ### <a name="inspector-object"></a>Inspector 개체
  <xref:Microsoft.Office.Interop.Outlook.Inspector> 개체는 메일 메시지, 작업 또는 약속과 같은 단일 항목을 표시하는 창을 나타냅니다. <xref:Microsoft.Office.Interop.Outlook.Inspector> 개체에는 창을 수정하는 데 사용할 수 있는 메서드 및 속성과 창이 변경될 때 발생하는 이벤트가 포함됩니다.
 
  <xref:Microsoft.Office.Interop.Outlook.Inspector> 개체를 가져오려면 다음 중 하나를 수행합니다.
 
--   <xref:Microsoft.Office.Interop.Outlook._Application.Inspectors%2A> 개체의 <xref:Microsoft.Office.Interop.Outlook.Application> 속성을 사용하여 Outlook의 모든 <xref:Microsoft.Office.Interop.Outlook.Inspector> 개체에 액세스합니다.
+- <xref:Microsoft.Office.Interop.Outlook._Application.Inspectors%2A> 개체의 <xref:Microsoft.Office.Interop.Outlook.Application> 속성을 사용하여 Outlook의 모든 <xref:Microsoft.Office.Interop.Outlook.Inspector> 개체에 액세스합니다.
 
--   <xref:Microsoft.Office.Interop.Outlook.Application> 개체의 <xref:Microsoft.Office.Interop.Outlook._Application.ActiveInspector%2A> 메서드를 사용하여 현재 포커스가 있는 <xref:Microsoft.Office.Interop.Outlook.Inspector>를 가져옵니다.
+- <xref:Microsoft.Office.Interop.Outlook.Application> 개체의 <xref:Microsoft.Office.Interop.Outlook._Application.ActiveInspector%2A> 메서드를 사용하여 현재 포커스가 있는 <xref:Microsoft.Office.Interop.Outlook.Inspector>를 가져옵니다.
 
--   <xref:Microsoft.Office.Interop.Outlook.MailItem> 또는 <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>과 같은 특정 항목의 `GetInspector` 메서드를 사용하여 연결된 검사기를 검색합니다.
+- <xref:Microsoft.Office.Interop.Outlook.MailItem> 또는 <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>과 같은 특정 항목의 `GetInspector` 메서드를 사용하여 연결된 검사기를 검색합니다.
 
 ### <a name="folder-object"></a>폴더 개체
  <xref:Microsoft.Office.Interop.Outlook.Folder> 개체는 메일 메시지, 연락처, 작업 및 기타 항목을 포함하는 폴더를 나타냅니다. Outlook에서는 16개의 기본 제공 <xref:Microsoft.Office.Interop.Outlook.Folder> 개체를 제공합니다.
@@ -118,7 +118,7 @@ ms.locfileid: "56597714"
 
  새 연락처를 만드는 방법을 보여 주는 예제를 참조 하세요. [방법: 프로그래밍 방식으로 Outlook 연락처에 항목을 추가](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)합니다. 기존 연락처를 검색 하는 방법을 보여 주는 예제를 참조 하세요. [방법: 프로그래밍 방식으로 특정 연락처 검색](../vsto/how-to-programmatically-search-for-a-specific-contact.md)합니다.
 
-##  <a name="refdoc"></a> Outlook 개체 모델 설명서 사용
+## <a name="refdoc"></a> Outlook 개체 모델 설명서 사용
  Outlook 개체 모델에 대한 자세한 내용은 Outlook PIA(주 interop 어셈블리) 참조 및 VBA 개체 모델 참조를 참조할 수 있습니다.
 
 ### <a name="primary-interop-assembly-reference"></a>주 interop 어셈블리 참조

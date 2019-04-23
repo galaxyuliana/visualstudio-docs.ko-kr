@@ -12,12 +12,12 @@ ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a5f6b8ef087d3e9d43aaf740a99983cf0f5c8d1b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: cd224f84dd1d0be8167ee55fa7b40264d742c4f7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661557"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063779"
 ---
 # <a name="template-directory-description-vsdir-files"></a>템플릿 디렉터리 설명(.Vsdir) 파일
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,17 +52,17 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 
  마법사 파일을 만들 때 다음 사항을 고려해 야 합니다.  
 
--   의미 있는 데이터가 없는 모든 선택적 필드는 0 (영) 자리 표시자로 포함 해야 합니다.  
+- 의미 있는 데이터가 없는 모든 선택적 필드는 0 (영) 자리 표시자로 포함 해야 합니다.  
 
--   제공 된 지역화 된 이름이 없는 경우에 상대 경로 이름은 마법사 파일에 사용 됩니다.  
+- 제공 된 지역화 된 이름이 없는 경우에 상대 경로 이름은 마법사 파일에 사용 됩니다.  
 
--   DLLPath clsidPackage 아이콘 위치를 재정의합니다.  
+- DLLPath clsidPackage 아이콘 위치를 재정의합니다.  
 
--   정의 된 아이콘이 없는 경우 IDE는 해당 확장명을 가진 파일에 대 한 기본 아이콘을 사용 합니다.  
+- 정의 된 아이콘이 없는 경우 IDE는 해당 확장명을 가진 파일에 대 한 기본 아이콘을 사용 합니다.  
 
--   기본 이름이 없는 제공 하는 경우 'Project' 사용 됩니다.  
+- 기본 이름이 없는 제공 하는 경우 'Project' 사용 됩니다.  
 
--   .Vsz 파일, 폴더 또는 템플릿 파일을 삭제 하면.vsdir 파일에서 연결 된 해당 레코드도 제거 해야 합니다.  
+- .Vsz 파일, 폴더 또는 템플릿 파일을 삭제 하면.vsdir 파일에서 연결 된 해당 레코드도 제거 해야 합니다.  
 
 ## <a name="see-also"></a>참고 항목  
  [마법사](../../extensibility/internals/wizards.md)   
