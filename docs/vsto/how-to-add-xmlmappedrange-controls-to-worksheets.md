@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6f055ba84c4e6a6b48c13f3eef9a433eb4c5b3e1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: cef35cd1aa19ad27e7c47227b726a44756b0fae8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605850"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085722"
 ---
 # <a name="how-to-add-xmlmappedrange-controls-to-worksheets"></a>방법: 워크시트에 XMLMappedRange 컨트롤 추가
   Visual Studio 자동으로 추가 Microsoft Office Excel에서 셀으로 XML 요소를 매핑하는 경우는 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 워크시트에 컨트롤입니다.
@@ -30,30 +30,30 @@ ms.locfileid: "56605850"
 
 ## <a name="to-add-an-xmlmappedrange-control-to-a-worksheet"></a>워크시트에 XMLMappedRange 컨트롤을 추가 하려면
 
-1.  Visual Studio 디자이너에서 Excel 통합 문서를 엽니다.
+1. Visual Studio 디자이너에서 Excel 통합 문서를 엽니다.
 
-2.  컨트롤을 추가 하려는 워크시트를 엽니다.
+2. 컨트롤을 추가 하려는 워크시트를 엽니다.
 
-3.  에 **개발자** 탭을 클릭 **원본**합니다.
+3. 에 **개발자** 탭을 클릭 **원본**합니다.
 
     > [!NOTE]
     >  경우는 **개발자** 탭이 리본 메뉴에 표시 되지 않으면, 사용 하도록 설정 해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
 
      합니다 **XML 원본** 작업창 표시 됩니다.
 
-4.  에 **XML 원본은** 작업창에서 **XML 맵을**합니다.
+4. 에 **XML 원본은** 작업창에서 **XML 맵을**합니다.
 
-5.  에 **XML 맵을** 대화 상자, 클릭 **추가**합니다.
+5. 에 **XML 맵을** 대화 상자, 클릭 **추가**합니다.
 
      합니다 **XML 원본** 대화 상자가 나타납니다.
 
-6.  XML 스키마를 선택 합니다 **XML 원본은** 대화 상자를 클릭 **오픈**합니다.
+6. XML 스키마를 선택 합니다 **XML 원본은** 대화 상자를 클릭 **오픈**합니다.
 
      스키마에 추가 되는 **XML 맵을** 대화 상자.
 
-7.  에 **XML 맵을** 대화 상자, 클릭 **확인**합니다.
+7. 에 **XML 맵을** 대화 상자, 클릭 **확인**합니다.
 
-8.  요소를 끌어 합니다 **XML 원본** 워크시트의 셀에 작업창 합니다.
+8. 요소를 끌어 합니다 **XML 원본** 워크시트의 셀에 작업창 합니다.
 
      <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 만들어지고 프로젝트에 추가 합니다.
 

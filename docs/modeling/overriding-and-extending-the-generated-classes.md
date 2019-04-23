@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8d3c90d955ba412a75005ab47627c1901df57891
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9aa4f39fb54617ae1dbf048a1e13f009c8df5185
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936982"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085631"
 ---
 # <a name="override-and-extend-the-generated-classes"></a>재정의 하 고 생성된 된 클래스를 확장 합니다.
 
@@ -54,9 +54,9 @@ public partial class Book
 
 예를 들어, 예제의 Library.dsl, 합니다 `CirculationBook` 도메인 클래스에는 `Generates``Double Derived` 속성이로 설정 `true`. 해당 도메인 클래스에 대해 생성된 된 코드에는 두 개의 클래스가 들어 있습니다.
 
--   `CirculationBookBase`에 추상 이며 모든 속성과 메서드를 포함 하는 합니다.
+- `CirculationBookBase`에 추상 이며 모든 속성과 메서드를 포함 하는 합니다.
 
--   `CirculationBook`에서 파생 된 `CirculationBookBase`합니다. 빈 생성자를 제외 하 고는 것입니다.
+- `CirculationBook`에서 파생 된 `CirculationBookBase`합니다. 빈 생성자를 제외 하 고는 것입니다.
 
 모든 메서드를 재정의 하는 파생된 클래스의 부분 정의 같은 만들 `CirculationBook`합니다. 생성된 된 메서드와 모델링 프레임 워크에서 상속 된 메서드를 재정의할 수 있습니다.
 

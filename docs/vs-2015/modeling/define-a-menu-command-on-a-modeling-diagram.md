@@ -11,12 +11,12 @@ caps.latest.revision: 63
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1a01681c4674fd5a47d4f5f795f78899df00e770
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: ef029cc6e931509997ad6f094adedc7d96e4bcd3
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970636"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59670321"
 ---
 # <a name="define-a-menu-command-on-a-modeling-diagram"></a>모델링 다이어그램의 메뉴 명령 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,7 +65,6 @@ Visual Studio에서 UML 다이어그램의 바로 가기 메뉴에 추가 메뉴
 
 2. 프로젝트에 다음 참조를 추가합니다.  
 
-
    |                                                                                                    참조                                                                                                    |                                                                                                  수행할 수 있는 기능                                                                                                  |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |                                                                                        System.ComponentModel.Composition                                                                                        |                                         [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)를 사용하여 구성 요소를 정의합니다.                                          |
@@ -74,7 +73,6 @@ Visual Studio에서 UML 다이어그램의 바로 가기 메뉴에 추가 메뉴
    |                                                                                  Microsoft.VisualStudio.Modeling.Sdk.[version]                                                                                  | 모델 이벤트 처리기를 정의합니다.<br /><br /> 모델에 대한 일련의 변경 내용을 캡슐화합니다. 자세한 내용은 [트랜잭션을 사용 하 여 링크 UML 모델 업데이트](../modeling/link-uml-model-updates-by-using-transactions.md)합니다. |
    |                                                            Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]<br /><br /> (항상 필수는 아님)                                                             |                                                                                   제스처 처리기에 대한 추가 다이어그램 요소에 액세스합니다.                                                                                   |
    | Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer<br /><br /> 레이어 다이어그램의 명령에만 필요합니다. 자세한 내용은 [레이어 다이어그램 확장](../modeling/extend-layer-diagrams.md)합니다. |                                                                                             레이어 다이어그램의 명령을 정의합니다.                                                                                              |
-
 
 3. 프로젝트에 클래스 파일을 추가하고 해당 콘텐츠를 다음 코드로 설정합니다.  
 
