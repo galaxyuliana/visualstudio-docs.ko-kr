@@ -11,17 +11,16 @@ caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 08d91cbeb4424e2285a49e45d10c5ef2a0484afe
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 83c2de11e31dced3be48e390d8bd5b21d57d2092
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54796675"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668497"
 ---
 # <a name="item-definitions"></a>항목 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 2.0에서는 [ItemGroup](../msbuild/itemgroup-element-msbuild.md) 요소를 사용하여 프로젝트 파일에서 항목의 정적 선언을 수행할 수 있습니다. 그러나 메타데이터는 모든 항목에 대해 동일하더라도 항목 수준에만 추가할 수 있습니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 3.5부터 [ItemDefinitionGroup](../msbuild/itemdefinitiongroup-element-msbuild.md)이라는 프로젝트 요소가 이 제한 사항을 해결합니다. *ItemDefinitionGroup*을 사용하면 명명된 항목 형식의 모든 항목에 기본 메타데이터 값을 추가하는 항목 정의 집합을 정의할 수 있습니다.  
   
  *ItemDefinitionGroup* 요소는 프로젝트 파일의 [Project](../msbuild/project-element-msbuild.md) 요소 바로 뒤에 표시됩니다. 항목 정의는 다음과 같은 기능을 제공합니다.  
@@ -30,7 +29,7 @@ ms.locfileid: "54796675"
   
 -   항목 형식은 여러 정의를 포함할 수 있습니다. 추가 메타데이터 사양이 형식에 추가되면 마지막 사양이 우선적으로 적용됩니다. \(메타데이터는 속성이 따르는 동일한 가져오기 순서를 따릅니다.\)  
   
--   메타데이터는 가산될 수 있습니다. 예를 들어 CDefines 값은 설정되는 속성에 따라 조건부로 누적됩니다. 예를 들어 `MT;STD_CALL;DEBUG;UNICODE`과 같은 형식입니다.  
+-   메타데이터는 가산될 수 있습니다. 예를 들어 CDefines 값은 설정되는 속성에 따라 조건부로 누적됩니다. 예를 들어, `MT;STD_CALL;DEBUG;UNICODE`을 입력합니다.  
   
 -   메타데이터는 제거될 수 있습니다.  
   
@@ -175,7 +174,7 @@ ms.locfileid: "54796675"
 </ItemDefinitionGroup>  
 ```  
   
- 항목이이 예제에서는 "i"이 조건에서 "test" 항목을 참조합니다.  
+ 이 예제에서 항목 “i”는 Condition의 항목 “test”를 참조합니다.  
   
 ## <a name="overriding-and-deleting-metadata"></a>메타데이터 재정의 및 삭제  
  ItemDefinitionGroup 요소에 정의된 메타데이터는 메타데이터 값을 공백으로 설정하여 나중에 ItemDefinitionGroup 요소에서 재정의할 수 있습니다. 또한 빈 값으로 설정하면 메타데이터 항목을 효과적으로 삭제할 수 있습니다. 예:  

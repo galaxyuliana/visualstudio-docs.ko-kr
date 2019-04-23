@@ -14,16 +14,15 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 43b95fd47c2d5b859478814dd330c175e82bac89
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 1f86605f3e76dc17fd8e404eb0d189f51ff2dc69
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758667"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59652165"
 ---
 # <a name="how-to-extend-the-visual-studio-build-process"></a>방법: Visual Studio 빌드 프로세스 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 빌드 프로세스는 프로젝트 파일로 가져온 일련의 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] .targets 파일로 정의됩니다. 이러한 가져온 파일 중 하나인 Microsoft.Common.targets는 빌드 프로세스의 여러 지점에서 사용자 지정 작업을 실행할 수 있도록 확장될 수 있습니다. 이 항목에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 빌드 프로세스를 확장하는 데 사용할 수 있는 두 가지 방법을 설명합니다.
 
@@ -127,4 +126,4 @@ ms.locfileid: "54758667"
 |`CompileDependsOn`|컴파일 단계 앞이나 뒤에 사용자 지정 프로세스를 삽입하려는 경우 재정의할 속성입니다.|
 
 ## <a name="see-also"></a>참고 항목
- [Visual Studio 통합](../msbuild/visual-studio-integration-msbuild.md) [MSBuild 개념](../msbuild/msbuild-concepts.md) [합니다. 대상 파일](../msbuild/msbuild-dot-targets-files.md)
+ [Visual Studio 통합](../msbuild/visual-studio-integration-msbuild.md) [MSBuild 개념](../msbuild/msbuild-concepts.md) [.Targets 파일](../msbuild/msbuild-dot-targets-files.md)

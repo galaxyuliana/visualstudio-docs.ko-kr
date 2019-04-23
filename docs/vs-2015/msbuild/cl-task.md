@@ -22,17 +22,16 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 136bc554abe6c231dfa80753b19dba89946830c3
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: e8666f990265a1fcf9947ac5c7c18c7489a6bdb8
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54756665"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653595"
 ---
 # <a name="cl-task"></a>CL 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual C++ 컴파일러 도구 cl.exe를 래핑합니다. 컴파일러는 실행(.exe) 파일, 동적 연결 라이브러리(.dll) 파일 또는 코드 모듈(.netmodule) 파일을 생성합니다. 자세한 내용은 [컴파일러 옵션](http://msdn.microsoft.com/library/ed3376c8-bef4-4c9a-80e9-3b5da232644c)을 참조하세요.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -54,7 +53,7 @@ Visual C++ 컴파일러 도구 cl.exe를 래핑합니다. 컴파일러는 실행
   
    자세한 내용은 [컴파일러 옵션](http://msdn.microsoft.com/library/ed3376c8-bef4-4c9a-80e9-3b5da232644c)을 참조하세요.  
   
-- **AdditionalUsingDirectories** 선택적 String 매개 변수입니다.  
+- **AdditionalUsingDirectories** 선택적 String[] 매개 변수입니다.  
   
    **#using** 지시문에 전달된 파일 참조를 확인하기 위해 컴파일러가 검색할 디렉터리를 지정합니다.  
   

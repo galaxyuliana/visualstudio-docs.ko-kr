@@ -9,26 +9,27 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 10cf59d4350d71d6f7feb75757b1c5ea9c9d1363
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 73b06f4235d5770cb6c086d6aed54229e00702de
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54834441"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665144"
 ---
 # <a name="how-to-report-a-problem-with-visual-studio-2015"></a>Visual Studio 2015의 문제를 보고하는 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 2017에 대 한 최신 설명서를 참조 하세요 [Visual Studio 2017의 문제를 보고 하는 방법](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)합니다.
+Visual Studio에 대한 최신 설명서는 [Visual Studio에서 문제를 보고하는 방법](/visualstudio/ide/how-to-report-a-problem-with-visual-studio)을 참조하세요.
 
-Visual Studio 2015를 사용 하 여 문제가 발생 하면 그에 관해 진단 하 고 해결할 수 있도록 하려고 합니다.  **문제 보고** 도구에서 단추를 몇 번만 클릭하여 문제에 대한 자세한 정보를 수집한 후 Microsoft로 보낼 수 있습니다.
+Visual Studio 2015에서 문제가 발생하는 경우 Microsoft에서 문제를 진단하여 해결할 수 있도록 알려 주시기 바랍니다.  **문제 보고** 도구에서 단추를 몇 번만 클릭하여 문제에 대한 자세한 정보를 수집한 후 Microsoft로 보낼 수 있습니다.
 
- Microsoft는 사용자의 개인 정보를 소중히 여깁니다. Microsoft에서 사용자가 보낸 데이터를 취급하는 방법에 대한 자세한 내용은 [Microsoft Visual Studio 제품군 개인정보처리방침](https://www.visualstudio.com/dn948229)을 참조하세요.
+Microsoft는 사용자의 개인 정보를 소중히 여깁니다. Microsoft에서 사용자가 보낸 데이터를 취급하는 방법에 대한 자세한 내용은 [Microsoft Visual Studio 제품군 개인정보처리방침](https://www.visualstudio.com/dn948229)을 참조하세요.
 
 ## <a name="open-the-report-a-problem-tool"></a>문제 보고 도구 열기
- 제목 표시줄에서 **빠른 실행** 옆에 있는 사용자 피드백 아이콘을 클릭하거나 **도움말 &#124; 의견 보내기 &#124; 문제 보고**를 클릭합니다.
 
- ![문제 보고 메뉴 항목](../ide/media/report-a-problem-menu-item.png "문제 보고 메뉴 항목")
+제목 표시줄에서 **빠른 실행** 옆에 있는 사용자 피드백 아이콘을 클릭하거나 **도움말 > 의견 보내기 > 문제 보고**를 클릭합니다.
+
+![문제 보고 메뉴 항목](../ide/media/report-a-problem-menu-item.png "문제 보고 메뉴 항목")
 
 ## <a name="describe-the-problem"></a>문제 설명
 
@@ -43,7 +44,8 @@ Visual Studio 2015를 사용 하 여 문제가 발생 하면 그에 관해 진�
    ![문제 보고 대화 상자](../ide/media/report-a-problem-dialog.png "문제 보고 대화 상자")
 
 ## <a name="provide-a-screenshot-optional"></a>스크린샷 제공(선택 사항)
- 현재 화면을 Microsoft로 보내려면 **스크린샷 포함**을 선택합니다. 이 도구를 사용하면 화면에서 문제가 있는 부분만 표시되도록 이미지를 자를 수 있습니다. **추가 파일 첨부** 단추를 클릭하여 추가 스크린샷 또는 다른 파일을 첨부할 수 있습니다.
+
+현재 화면을 Microsoft로 보내려면 **스크린샷 포함** 을 선택합니다. 이 도구를 사용하면 화면에서 문제가 있는 부분만 표시되도록 이미지를 자를 수 있습니다. **추가 파일 첨부** 단추를 클릭하여 추가 스크린샷 또는 다른 파일을 첨부할 수 있습니다.
 
 ## <a name="provide-a-trace-and-heap-dump-optional"></a>추적 및 힙 덤프 제공(선택 사항)
 
@@ -60,10 +62,13 @@ Visual Studio 2015를 사용 하 여 문제가 발생 하면 그에 관해 진�
      ![추적 파일 기록](../ide/media/record-a-trace-file.png "추적 파일 기록")
 
 ## <a name="describe-the-workaround-if-there-is-one"></a>해결 방법(있는 경우) 설명
- 문제를 해결할 수 있는 경우 해당 용도로 제공되는 편집 상자에 해결 방법을 설명하세요. 그러면 Microsoft에서 문제를 진단하는 데 도움이 될 뿐만 아니라 동일한 문제가 발생하는 다른 사용자에게도 도움이 됩니다.
+
+문제를 해결할 수 있는 경우 해당 용도로 제공되는 편집 상자에 해결 방법을 설명하세요. 그러면 Microsoft에서 문제를 진단하는 데 도움이 될 뿐만 아니라 동일한 문제가 발생하는 다른 사용자에게도 도움이 됩니다.
 
 ## <a name="submit-the-report"></a>보고서 제출
- 제출 단추를 클릭하여 이미지와 추적 또는 덤프 파일과 함께 보고서를 보냅니다. **제출** 단추가 회색으로 표시되는 경우 제목과 설명을 입력했는지 확인합니다.
+
+제출 단추를 클릭하여 이미지와 추적 또는 덤프 파일과 함께 보고서를 보냅니다. **제출** 단추가 회색으로 표시되는 경우 제목과 설명을 입력했는지 확인합니다.
 
 ## <a name="see-also"></a>참고 항목
- [의견 보내기](../ide/talk-to-us.md)
+
+- [의견 보내기](../ide/talk-to-us.md)

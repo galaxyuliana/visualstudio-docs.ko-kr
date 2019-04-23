@@ -13,21 +13,20 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 760caa1fc87b0978571a8a53a44c5cb60616b615
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: c681a67b48baf89e1e601943c6cafd25e91ff332
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54768960"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663916"
 ---
 # <a name="toolbox-data-tab"></a>도구 상자, 데이터 탭
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 폼 및 구성 요소에 추가할 수 있는 데이터 개체를 표시합니다. 연결된 디자이너가 있는 프로젝트를 만들 경우 **도구 상자**의 **데이터** 탭이 표시됩니다. Visual Studio 통합 개발 환경에는 기본적으로 **도구 상자**가 표시됩니다. **도구 상자**를 표시해야 할 경우 **보기** 메뉴에서 **도구 상자**를 선택합니다.  
   
 > [!TIP]
->  데이터 소스 구성 마법사를 실행하면 대부분의 데이터 항목이 자동으로 생성 및 구성됩니다. 자세한 내용은 [Visual Studio를 사용 하 여 데이터 응용 프로그램 만들기](http://msdn.microsoft.com/28edce21-220a-484c-b461-a75b0232d293)합니다.  
+>  데이터 소스 구성 마법사를 실행하면 대부분의 데이터 항목이 자동으로 생성 및 구성됩니다. 자세한 내용은 [Creating Data Applications with Visual Studio](http://msdn.microsoft.com/28edce21-220a-484c-b461-a75b0232d293)(Visual Studio를 사용하여 데이터 애플리케이션 만들기)를 참조하세요.  
   
 ## <a name="ui-element-list"></a>UI 요소 목록  
  구성 요소에 대한 .NET Framework 참조 페이지로 직접 이동하려면 **도구 상자**의 항목 또는 디자이너 트레이의 구성 요소 항목에서 **F1** 키를 누릅니다.  

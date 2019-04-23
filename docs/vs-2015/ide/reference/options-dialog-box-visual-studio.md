@@ -16,16 +16,15 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5ca970fbd31d85b74a5be7c3f23c5d77e1d5f764
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 17abd78c193eb103597aa94f048bd715434e27a9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54787736"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59649656"
 ---
 # <a name="options-dialog-box-visual-studio"></a>옵션 대화 상자(Visual Studio)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
-
 
 **옵션** 대화 상자에서는 필요에 맞게 IDE(통합 개발 환경)를 구성할 수 있습니다. 예를 들어 프로젝트의 기본 저장 위치를 설정하고, 창의 기본 모양과 동작을 변경하고, 일반적으로 사용되는 명령의 바로 가기를 만들 수 있습니다. 개발 언어 및 플랫폼에 관련된 옵션도 있습니다. **도구** 메뉴에서 **옵션**에 액세스할 수 있습니다.
 
