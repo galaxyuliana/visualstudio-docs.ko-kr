@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2afb20f2a337008bc3d3b7fe3dd6aaa5b3f163cf
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: f7b933277a2c509356037e585b7d2256a587c233
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56684977"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090543"
 ---
 # <a name="sample-implementation-of-expression-evaluation"></a>식 계산의 샘플 구현
 > [!IMPORTANT]
@@ -27,11 +27,11 @@ ms.locfileid: "56684977"
 
  `IDebugExpressionEvaluator::Parse` 다음 작업을 수행 합니다.
 
-1.  [C + + 전용] 오류가 있는지 확인 하는 식 구문 분석 합니다.
+1. [C++ 만] 오류가 있는지 확인 하는 식 구문 분석 합니다.
 
-2.  클래스를 인스턴스화합니다 (호출 `CParsedExpression` 이 예제의)를 실행 하는 `IDebugParsedExpression` 인터페이스 및 구문 분석할 식 클래스에 저장 합니다.
+2. 클래스를 인스턴스화합니다 (호출 `CParsedExpression` 이 예제의)를 실행 하는 `IDebugParsedExpression` 인터페이스 및 구문 분석할 식 클래스에 저장 합니다.
 
-3.  반환 된 `IDebugParsedExpression` 에서 인터페이스를 `CParsedExpression` 개체입니다.
+3. 반환 된 `IDebugParsedExpression` 에서 인터페이스를 `CParsedExpression` 개체입니다.
 
 > [!NOTE]
 >  이 예제에서는 MyCEE 샘플에서는 식 계산기 계산에서 구문 분석을 분리 하지 않습니다.

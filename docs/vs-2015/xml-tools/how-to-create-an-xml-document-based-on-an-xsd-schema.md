@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 70b42db031c200f16a9189c4d750c9011e739029
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 623da37807e0fd61041bfeb9ab411ce0cb96d4b5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647573"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091125"
 ---
 # <a name="how-to-create-an-xml-document-based-on-an-xsd-schema"></a>방법: XSD 스키마를 기반으로 XML 문서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,9 +43,9 @@ ms.locfileid: "59647573"
   
 ### <a name="to-generate-an-xml-instance-document-based-on-the-xsd-file"></a>XSD 파일을 기반으로 XML 인스턴스 문서를 생성하려면  
   
-1.  단계에 따라 [방법: XSD 스키마 파일 만들기 및 편집](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md)합니다.  
+1. 단계에 따라 [방법: XSD 스키마 파일 만들기 및 편집](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md)합니다.  
   
-2.  에 [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)를 마우스 오른쪽 단추로 클릭는 `PurchaseOrder` 전역 요소입니다. 선택 **샘플 XML 생성**합니다.  
+2. 에 [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)를 마우스 오른쪽 단추로 클릭는 `PurchaseOrder` 전역 요소입니다. 선택 **샘플 XML 생성**합니다.  
   
      이 옵션을 선택하면 다음 샘플 XML 콘텐츠를 포함하는 PurchaseOrder.xml 파일이 XML 편집기에서 생성되고 열립니다.  
   

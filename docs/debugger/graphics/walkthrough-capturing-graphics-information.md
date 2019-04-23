@@ -8,21 +8,21 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 24ddbcef7c4ebfaa61dfd225c2d1fa13a23b3344
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: fd7136367bfb883cfc5d962a1373fec738413fc6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56711776"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092255"
 ---
 # <a name="walkthrough-capturing-graphics-information"></a>연습: 그래픽 정보 캡처
 이 연습에서는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 그래픽 진단을 사용하여 Direct3D 앱에서 그래픽 정보를 수동으로 캡처하는 방법을 보여 줍니다.
 
  이 연습에서는 다음 작업을 설명합니다.
 
--   앱에 그래픽 진단 후크
+- 앱에 그래픽 진단 후크
 
--   그래픽 정보 캡처
+- 그래픽 정보 캡처
 
 ## <a name="capturing-graphics-information"></a>그래픽 정보 캡처
  그래픽 진단 도구를 사용하려면 먼저, 이 도구에서 사용하는 그래픽 정보를 캡처해야 합니다. 캡처를 사용하도록 설정하려면 **진단 시작** 명령을 사용하여 앱이 시작될 때 그래픽 진단을 후크합니다.
@@ -56,7 +56,7 @@ ms.locfileid: "56711776"
 ## <a name="next-steps"></a>다음 단계
  이 연습에서는 그래픽 정보를 수동으로 캡처하는 방법을 보여 주었습니다. 다음 단계로 아래 옵션을 고려해 보세요.
 
--   그래픽 진단 도구를 사용하여 캡처한 그래픽 정보를 분석하는 방법에 대해 알아봅니다. 참조 [개요](overview-of-visual-studio-graphics-diagnostics.md)합니다.
+- 그래픽 진단 도구를 사용하여 캡처한 그래픽 정보를 분석하는 방법에 대해 알아봅니다. 참조 [개요](overview-of-visual-studio-graphics-diagnostics.md)합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [Capturing Graphics Information](capturing-graphics-information.md)

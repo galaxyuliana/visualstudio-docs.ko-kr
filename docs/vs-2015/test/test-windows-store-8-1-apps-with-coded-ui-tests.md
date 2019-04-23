@@ -8,12 +8,12 @@ ms.assetid: c8d9c15e-ce3c-401a-86ec-c5c124a239d8
 caps.latest.revision: 26
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e8d7f1bf475dca7ed0e06e4b3ebb045b0513d5b7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 827f7b136fb5b9c8de96145e1d8edba7b46b3f72
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54799299"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114667"
 ---
 # <a name="test-windows-uwp-and-81-store-apps-with-coded-ui-tests"></a>코딩된 UI 테스트를 사용하여 Windows UWP 및 8.1 스토어 앱 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ UWP 앱 및 XAML 기반 Store 8.1 앱에 대한 UI 테스트를 만들기 위해
   
 ## <a name="create-a-simple-windows-store-app"></a>간단한 Windows 스토어 앱 만들기  
   
-1.  XAML 기반 Windows 스토어 앱용 코딩된 UI 테스트를 실행하려는 경우 [각 컨트롤을 식별하는 고유한 자동화 속성을 설정해야 합니다](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md).  
+1. XAML 기반 Windows 스토어 앱용 코딩된 UI 테스트를 실행하려는 경우 [각 컨트롤을 식별하는 고유한 자동화 속성을 설정해야 합니다](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md).  
   
      **도구** 메뉴에서 **옵션** 을 가리킨 다음 **텍스트 편집기**, **XAML**및 **기타**를 차례대로 선택합니다.  
   
@@ -30,15 +30,15 @@ UWP 앱 및 XAML 기반 Store 8.1 앱에 대한 UI 테스트를 만들기 위해
   
      ![XAML 기타 옵션](../test/media/cuit-windowsstoreapp-b.png "CUIT_WindowsStoreApp_B")  
   
-2.  Visual C# 또는 Visual Basic 템플릿을 사용하여 빈 XAML 기반 Windows 스토어 앱용 새 프로젝트를 만듭니다.  
+2. Visual C# 또는 Visual Basic 템플릿을 사용하여 빈 XAML 기반 Windows 스토어 앱용 새 프로젝트를 만듭니다.  
   
      ![Windows 스토어 비어 있는 앱&#40;XAML&#41; 만들기](../test/media/cuit-windowsstoreapp-newproject-blankstoreapp.png "CUIT_WindowsStoreApp_NewProject_BlankStoreApp")  
   
-3.  솔루션 탐색기에서 MainPage.xaml을 엽니다. 도구 상자에서 단추 컨트롤과 textbox 컨트롤을 디자인 화면으로 끕니다.  
+3. 솔루션 탐색기에서 MainPage.xaml을 엽니다. 도구 상자에서 단추 컨트롤과 textbox 컨트롤을 디자인 화면으로 끕니다.  
   
      ![Windows 스토어 앱 디자인](../test/media/cuit-windowsstoreapp-design.png "CUIT_WindowsStoreApp_Design")  
   
-4.  단추 컨트롤을 두 번 클릭하여 다음 코드를 추가합니다.  
+4. 단추 컨트롤을 두 번 클릭하여 다음 코드를 추가합니다.  
   
     ```csharp  
     private void button_Click_1(object sender, RoutedEventArgs e)  
@@ -58,7 +58,7 @@ UWP 앱 및 XAML 기반 Store 8.1 앱에 대한 UI 테스트를 만들기 위해
     End Class  
     ```  
   
-5.  F5 키를 눌러 Windows 스토어 앱을 실행합니다.  
+5. F5 키를 눌러 Windows 스토어 앱을 실행합니다.  
   
 ## <a name="create-and-run-a-coded-ui-test-for-the-windows-store-app"></a>Windows 스토어 앱용 코딩된 UI 테스트 만든 후 실행  
 
@@ -294,22 +294,22 @@ UWP 앱 및 XAML 기반 Store 8.1 앱에 대한 UI 테스트를 만들기 위해
   
 ## <a name="q--a"></a>Q&A  
   
--   **Q: 코딩된 UI 테스트용으로 코드 생성 대화 상자에 나의 코딩된 UI 테스트를 기록할 수 있는 옵션이 표시되지 않는 이유는 무엇인가요?**  
+- **Q: 코딩 된 UI 테스트 대화 상자 생성 코드에서 코딩 된 UI 테스트를 기록할 옵션이 보이지 이유**  
   
-     **A**: Windows 스토어 앱의 경우 기록 옵션이 지원되지 않습니다.  
+     **A**: Windows 스토어 앱에 대 한 기록 옵션이 지원 되지 않습니다.  
   
--   **Q: WinJS를 기반으로 Windows 스토어 앱용 코딩된 UI 테스트를 만들 수 있나요?**  
+- **Q: WinJS를 기반 Windows 스토어 앱 용 코딩된 된 UI 테스트 만들기**  
   
-     **A**: 아니요, XAML 기반 앱만 지원됩니다.  
+     **A**: 아니요, XAML 기반 앱만 지원 됩니다.  
   
--   **Q: Windows 8.1 또는 Windows 10이 실행되고 있지 않은 시스템에서 Windows 스토어 앱을 위한 코딩된 UI 테스트를 만들 수 있나요?**  
+- **Q: Windows 8.1 또는 Windows 10을 실행 하지 않는 시스템에서 Windows 스토어 앱 용 코딩 된 UI 테스트를 만들 수 있나요?**  
   
-     **A**: 아니요, 코딩된 UI 테스트 프로젝트 템플릿은 Windows 8.1 및 Windows 10에서만 사용할 수 있습니다. UWP(유니버설 Windows 플랫폼) 앱에 대한 자동화를 만들려면 Windows 10이 필요합니다.  
+     **A**: 아니요, 코딩 된 UI 테스트 프로젝트 템플릿은 Windows 8.1 및 Windows 10에서 사용할 수 있습니다만 됩니다. UWP(유니버설 Windows 플랫폼) 앱에 대한 자동화를 만들려면 Windows 10이 필요합니다.  
 
 <a name="uwpapps"></a>
-- **Q: UWP(유니버설 Windows 플랫폼) 앱을 위한 코딩된 UI 테스트를 만들려면 어떻게 하나요?**  
+- **Q: 유니버설 Windows 플랫폼 (UWP) 앱 용 코딩 된 UI 테스트 만들기**  
   
-   **A**: UWP 앱을 테스트하는 플랫폼에 따라 다음 중 한 가지 방법으로 코딩된 UI 테스트 프로젝트를 만듭니다.  
+   **A**: UWP 앱을 테스트 하는 플랫폼에 따라 다음이 방법 중 하나에서 코딩 된 UI 테스트 프로젝트를 만듭니다.  
   
   - 로컬 컴퓨터에서 실행 중인 UWP 앱이 스토어 앱으로 실행되는 경우. 이를 테스트하려면 **코딩된 UI 테스트 프로젝트(Windows)** 템플릿을 사용해야 합니다. 새 프로젝트를 만들 때 이 템플릿을 찾으려면 **Windows**, **범용** 노드로 이동합니다. 또는 **Windows**, **Windows 8**, **Windows** 노드로 이동합니다.  
   
@@ -317,7 +317,7 @@ UWP 앱 및 XAML 기반 Store 8.1 앱에 대한 UI 테스트를 만들기 위해
   
     프로젝트를 만든 후의 테스트 작성은 이전과 동일합니다.  
   
-- **Q: UIMap.Designer 파일에서 코드를 수정할 수 없는 이유는 무엇인가요?**  
+- **Q: UIMap.Designer 파일에서 코드를 수정할 수 없습니다는 이유**  
   
    **A**: UIMap - 코딩된 UI 테스트 빌더를 사용하여 코드를 생성할 때마다 UIMapDesigner.cs 파일에서 수정된 코드 변경 내용을 덮어씁니다. 기록된 메서드를 수정해야 하는 경우에는 해당 메서드를 UIMap.cs 파일에 복사한 후 이름을 바꾸어야 합니다. UIMap.cs 파일을 사용하여 UIMapDesigner.cs 파일의 메서드와 속성을 재정의할 수 있습니다. 코딩된 UITest.cs 파일에서 원래 메서드에 대한 참조를 제거하고 이름을 바꾼 메서드 이름으로 바꾸어야 합니다.  
   

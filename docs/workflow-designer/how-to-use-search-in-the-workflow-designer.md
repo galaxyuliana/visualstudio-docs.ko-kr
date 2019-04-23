@@ -8,12 +8,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: b1d29c4398e6b6c377ab493c495951f942d15965
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 0a80bfecaa288eabc0161d0262535a7912411f78
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942390"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091293"
 ---
 # <a name="how-to-use-search-in-the-workflow-designer"></a>방법: 워크플로 디자이너에서 검색 사용
 
@@ -23,13 +23,13 @@ ms.locfileid: "55942390"
 
 빠른 찾기는 디자이너에서 다음을 찾습니다.
 
--   <xref:System.Activities.Activity> 개체, <xref:System.Activities.Statements.FlowNode> 개체, <xref:System.Activities.Statements.State> 개체, 전환 및 기타 사용자 지정 흐름 제어 항목의 속성
+- <xref:System.Activities.Activity> 개체, <xref:System.Activities.Statements.FlowNode> 개체, <xref:System.Activities.Statements.State> 개체, 전환 및 기타 사용자 지정 흐름 제어 항목의 속성
 
--   변수
+- 변수
 
--   인수
+- 인수
 
--   식
+- 식
 
 ### <a name="use-quick-find"></a>빠른 찾기 사용
 
@@ -47,8 +47,8 @@ ms.locfileid: "55942390"
 
 ### <a name="use-find-in-files"></a>파일에서 찾기 사용
 
-1.  Visual Studio에서 눌러 **Ctrl**+**Shift**+**F**를 선택 하거나 **편집**  >   **찾기 및 바꾸기** > **파일에서 찾기**합니다.
+1. Visual Studio에서 눌러 **Ctrl**+**Shift**+**F**를 선택 하거나 **편집**  >   **찾기 및 바꾸기** > **파일에서 찾기**합니다.
 
-2.  에 검색 조건을 입력 합니다 **찾을 내용** 텍스트 상자 클릭 **모두 찾기**합니다.
+2. 에 검색 조건을 입력 합니다 **찾을 내용** 텍스트 상자 클릭 **모두 찾기**합니다.
 
-3.  찾기 결과가 표시 되는 **찾기 결과** 보기. 워크플로 디자이너의 일치 항목이 포함 된 활동을 탐색 결과 항목을 두 번 클릭 합니다.
+3. 찾기 결과가 표시 되는 **찾기 결과** 보기. 워크플로 디자이너의 일치 항목이 포함 된 활동을 탐색 결과 항목을 두 번 클릭 합니다.

@@ -13,12 +13,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 34fe3cecc07d567c362e0dbdde3eb271c80dd61c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: e2fd0e329e6cf3434348fba1d3282921ee8c1f57
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54756806"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114797"
 ---
 # <a name="threads-view-parallel-performance"></a>스레드 뷰(병렬 성능)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,19 +42,19 @@ ms.locfileid: "54756806"
 ## <a name="usage"></a>사용법  
  다음은 스레드 뷰를 사용할 수 있는 몇 가지 방법입니다.  
   
--   특정 실행 단계 중에 앱의 UI(사용자 인터페이스)가 응답하지 않는 원인을 파악합니다.  
+- 특정 실행 단계 중에 앱의 UI(사용자 인터페이스)가 응답하지 않는 원인을 파악합니다.  
   
--   동기화, I/O, 페이지 폴트 및 기타 이벤트에서 차단에 소요된 시간을 파악합니다.  
+- 동기화, I/O, 페이지 폴트 및 기타 이벤트에서 차단에 소요된 시간을 파악합니다.  
   
--   시스템에서 실행되고 있는 다른 프로세스의 간섭 정도를 파악합니다.  
+- 시스템에서 실행되고 있는 다른 프로세스의 간섭 정도를 파악합니다.  
   
--   병렬 실행에 대한 부하 분산 문제를 파악합니다.  
+- 병렬 실행에 대한 부하 분산 문제를 파악합니다.  
   
--   확장성이 최적 상태가 아니거나 없는 원인(예: 논리 코어를 더 사용할 수 있는데 병렬 앱의 성능이 개선되지 않는 이유)을 파악합니다.  
+- 확장성이 최적 상태가 아니거나 없는 원인(예: 논리 코어를 더 사용할 수 있는데 병렬 앱의 성능이 개선되지 않는 이유)을 파악합니다.  
   
--   병렬화에 도움이 되는 앱의 동시성 수준을 이해합니다.  
+- 병렬화에 도움이 되는 앱의 동시성 수준을 이해합니다.  
   
--   작업자 스레드 및 중요한 실행 경로 간의 종속성을 이해합니다.  
+- 작업자 스레드 및 중요한 실행 경로 간의 종속성을 이해합니다.  
   
 ## <a name="examining-specific-time-intervals-and-threads"></a>특정 시간 간격 및 스레드 검사  
  스레드 뷰에는 시간 표시 막대가 표시됩니다. 시간 표시 막대 내에서 확대/축소 및 이동하여 애플리케이션의 특정 간격 및 스레드를 검사할 수 있습니다. x축에는 시간이 표시되고 y축에는 여러 채널이 표시됩니다.  

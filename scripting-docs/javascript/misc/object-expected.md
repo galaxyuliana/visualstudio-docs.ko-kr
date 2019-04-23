@@ -14,23 +14,23 @@ ms.assetid: 5d88c93d-e5b5-4b11-9bb5-bf1a5e41ccc3
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 09027661b07bbc489dff4985d3858eb8366437a7
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 501496c4f1bb929308ffbb75c6572de3d3f5b33b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842210"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115096"
 ---
 # <a name="object-expected"></a>개체가 필요합니다.
 `Object`가 아닌 다른 형식의 개체에 대해 메서드 또는 속성을 호출하려고 했거나, `Object`가 필요할 때 `Object`가 아닌 다른 형식의 인수를 전달했습니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   `Object` 형식의 개체에 대해서만 메서드 또는 속성을 호출합니다.  
+- `Object` 형식의 개체에 대해서만 메서드 또는 속성을 호출합니다.  
   
--   개체가 아닌 인수에 대해 오류가 발생하는 경우 `Object` 형식의 개체를 전달합니다.  
+- 개체가 아닌 인수에 대해 오류가 발생하는 경우 `Object` 형식의 개체를 전달합니다.  
   
--   `Object` 형식의 개체 대신 정의되지 않았거나 null 참조가 호출되는지 여부를 확인합니다.  
+- `Object` 형식의 개체 대신 정의되지 않았거나 null 참조가 호출되는지 여부를 확인합니다.  
   
      예를 들어 다음 코드의 myVar에서 이 오류가 발생하는 경우  
   

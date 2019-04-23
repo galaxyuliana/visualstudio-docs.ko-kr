@@ -11,12 +11,12 @@ ms.assetid: 66a2e00a-f558-4e87-96b8-5ecf5509e04c
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: af718d5fe5038a2baa62093078aaed9a3cccb14b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ab81718837f6af8a230348d5e0a34f1da0a2c7bb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982953"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092047"
 ---
 # <a name="sample-implementation-of-locals"></a>로컬 항목의 샘플 구현
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,21 +26,21 @@ ms.locfileid: "58982953"
   
  Visual Studio에서 식 계산기 (EE) 메서드에 대 한 지역 변수를 가져오는 방법을의 개요는 다음과 같습니다.  
   
-1.  Visual Studio 디버그 엔진 (DE)를 호출 [GetDebugProperty](../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md) 가져오려는 [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) 지역 변수를 포함 하 여 스택 프레임의 모든 속성을 나타내는 개체입니다.  
+1. Visual Studio 디버그 엔진 (DE)를 호출 [GetDebugProperty](../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md) 가져오려는 [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) 지역 변수를 포함 하 여 스택 프레임의 모든 속성을 나타내는 개체입니다.  
   
-2.  `IDebugStackFrame2::GetDebugProperty` 호출 [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) 중단점이 발생 하는 방법에 설명 하는 개체를 가져오려고 합니다. 기호 공급자를 제공 하는 DE ([IDebugSymbolProvider](../../extensibility/debugger/reference/idebugsymbolprovider.md)), 주소 ([IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)), 및 바인더 ([IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md)).  
+2. `IDebugStackFrame2::GetDebugProperty` 호출 [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) 중단점이 발생 하는 방법에 설명 하는 개체를 가져오려고 합니다. 기호 공급자를 제공 하는 DE ([IDebugSymbolProvider](../../extensibility/debugger/reference/idebugsymbolprovider.md)), 주소 ([IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)), 및 바인더 ([IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md)).  
   
-3.  `IDebugExpressionEvaluator::GetMethodProperty` 호출 [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md) 제공 된 `IDebugAddress` 가져올 개체를 [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md) 지정된 된 주소를 포함 하는 메서드를 나타내는입니다.  
+3. `IDebugExpressionEvaluator::GetMethodProperty` 호출 [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md) 제공 된 `IDebugAddress` 가져올 개체를 [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md) 지정된 된 주소를 포함 하는 메서드를 나타내는입니다.  
   
-4.  합니다 `IDebugContainerField` 인터페이스에 대 한 쿼리는 [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) 인터페이스입니다. 메서드의 지역에 대 한 액세스를 제공 하는이 인터페이스입니다.  
+4. 합니다 `IDebugContainerField` 인터페이스에 대 한 쿼리는 [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) 인터페이스입니다. 메서드의 지역에 대 한 액세스를 제공 하는이 인터페이스입니다.  
   
-5.  `IDebugExpressionEvaluator::GetMethodProperty` 클래스를 인스턴스화합니다 (호출 `CFieldProperty` 예제의)를 구현 하는 `IDebugProperty2` 메서드의 지역 변수를 나타내는 인터페이스입니다. 합니다 `IDebugMethodField` 개체에 배치 됩니다 `CFieldProperty` 와 함께 개체를 `IDebugSymbolProvider`, `IDebugAddress` 및 `IDebugBinder` 개체입니다.  
+5. `IDebugExpressionEvaluator::GetMethodProperty` 클래스를 인스턴스화합니다 (호출 `CFieldProperty` 예제의)를 구현 하는 `IDebugProperty2` 메서드의 지역 변수를 나타내는 인터페이스입니다. 합니다 `IDebugMethodField` 개체에 배치 됩니다 `CFieldProperty` 와 함께 개체를 `IDebugSymbolProvider`, `IDebugAddress` 및 `IDebugBinder` 개체입니다.  
   
-6.  경우는 `CFieldProperty` 개체를 초기화할 [GetInfo](../../extensibility/debugger/reference/idebugfield-getinfo.md) 라고 하는 `IDebugMethodField` 개체를 가져옵니다을 [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) 메서드 자체에 대 한 모든 표시할 수 있는 정보를 포함 하는 구조 .  
+6. 경우는 `CFieldProperty` 개체를 초기화할 [GetInfo](../../extensibility/debugger/reference/idebugfield-getinfo.md) 라고 하는 `IDebugMethodField` 개체를 가져옵니다을 [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) 메서드 자체에 대 한 모든 표시할 수 있는 정보를 포함 하는 구조 .  
   
-7.  `IDebugExpressionEvaluator::GetMethodProperty` 반환 된 `CFieldProperty` 개체는 `IDebugProperty2` 개체입니다.  
+7. `IDebugExpressionEvaluator::GetMethodProperty` 반환 된 `CFieldProperty` 개체는 `IDebugProperty2` 개체입니다.  
   
-8.  Visual Studio 호출 [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) 반환 된 `IDebugProperty2` 필터를 사용 하 여 개체 `guidFilterLocalsPlusArgs`합니다. 반환 합니다.는 [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) 메서드의 지역 변수를 포함 하는 개체입니다. 이 열거형에 대 한 호출에 의해 채워진 [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) 하 고 [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md)합니다.  
+8. Visual Studio 호출 [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) 반환 된 `IDebugProperty2` 필터를 사용 하 여 개체 `guidFilterLocalsPlusArgs`합니다. 반환 합니다.는 [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) 메서드의 지역 변수를 포함 하는 개체입니다. 이 열거형에 대 한 호출에 의해 채워진 [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) 하 고 [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md)합니다.  
   
 9. Visual Studio 호출 [다음](../../extensibility/debugger/reference/ienumdebugpropertyinfo2-next.md) 가져오려고 한 [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) 각 로컬에 대 한 구조입니다. 이 구조에 대 한 포인터를 포함 한 `IDebugProperty2` 로컬에 대 한 인터페이스입니다.  
   

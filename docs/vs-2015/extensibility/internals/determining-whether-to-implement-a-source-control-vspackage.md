@@ -10,12 +10,12 @@ ms.assetid: 60b3326e-e7e2-4729-95fc-b682e7ad5c99
 caps.latest.revision: 25
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: b47cfde4bbc228aa31d911a9499b74e12b78250c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cff53700dcd6a80f841108d5a2b486dcb0ba7a11
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982406"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090844"
 ---
 # <a name="determining-whether-to-implement-a-source-control-vspackage"></a>소스 제어 VSPackage를 구현할지 여부 결정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,13 +30,13 @@ ms.locfileid: "58982406"
   
  유연성 및 원본 제어 논리 및 UI를 통해 다양 한 제어를 제공 하는 원본 제어 솔루션을 구현 하려는 경우 원본 제어 패키지 통합 경로 수도 있습니다. 다음과 같은 작업을 수행할 수 있습니다.  
   
-1.  사용자 고유의 소스 제어 VSPackage를 등록 (참조 [등록과 선택](../../extensibility/internals/registration-and-selection-source-control-vspackage.md)).  
+1. 사용자 고유의 소스 제어 VSPackage를 등록 (참조 [등록과 선택](../../extensibility/internals/registration-and-selection-source-control-vspackage.md)).  
   
-2.  사용자 지정 UI를 사용 하 여 UI의 기본 소스 제어를 바꿉니다 (참조 [사용자 지정 사용자 인터페이스](../../extensibility/internals/custom-user-interface-source-control-vspackage.md)).  
+2. 사용자 지정 UI를 사용 하 여 UI의 기본 소스 제어를 바꿉니다 (참조 [사용자 지정 사용자 인터페이스](../../extensibility/internals/custom-user-interface-source-control-vspackage.md)).  
   
-3.  사용 되 고 솔루션 탐색기 문자 모양 이벤트를 처리할 문자 모양을 지정 (참조 [문자 모양 제어](../../extensibility/internals/glyph-control-source-control-vspackage.md)).  
+3. 사용 되 고 솔루션 탐색기 문자 모양 이벤트를 처리할 문자 모양을 지정 (참조 [문자 모양 제어](../../extensibility/internals/glyph-control-source-control-vspackage.md)).  
   
-4.  쿼리 편집 하 고 쿼리를 저장 하는 이벤트 처리 (참조 [쿼리 편집 쿼리 저장](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md)).  
+4. 쿼리 편집 하 고 쿼리를 저장 하는 이벤트 처리 (참조 [쿼리 편집 쿼리 저장](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md)).  
   
 ## <a name="see-also"></a>참고 항목  
  [소스 제어 플러그 인 만들기](../../extensibility/internals/creating-a-source-control-plug-in.md)

@@ -12,12 +12,12 @@ ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
 caps.latest.revision: 24
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a8f4ce6ab886fea3364526b53a32f72ad3f1408e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 496ace3193ec2a78033b2e429f6fa7c6cbf11a07
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970684"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091527"
 ---
 # <a name="how-to-access-the-built-in-fonts-and-color-scheme"></a>방법: 기본 제공 글꼴 및 색 구성표에 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,13 +49,13 @@ Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연�
   
 ### <a name="to-register-a-category-using-built-in-fonts-and-colors"></a>기본 제공 글꼴 및 색을 사용 하 여 범주를 등록 하려면  
   
-1.  특수 한 유형의 다음 위치에 레지스트리 항목 범주를 생성 합니다.  
+1. 특수 한 유형의 다음 위치에 레지스트리 항목 범주를 생성 합니다.  
   
      [HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>* \FontAndColors\\*\<Category>*]  
   
      *\<범주 >* 범주의 지역화 되지 않은 이름입니다.  
   
-2.  4 개의 값이 포함 된 스톡 글꼴 및 색 구성표를 사용 하도록 레지스트리를를 채웁니다.  
+2. 4 개의 값이 포함 된 스톡 글꼴 및 색 구성표를 사용 하도록 레지스트리를를 채웁니다.  
   
     |이름|형식|데이터|설명|  
     |----------|----------|----------|-----------------|  
@@ -64,7 +64,7 @@ Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연�
     |NameID|REG_DWORD|ID|리소스의 ID는 VSPackage에서 지역화할 수 있는 범주 이름입니다.|  
     |ToolWindowPackage|REG_SZ|GUID|구현 하는 VSPackage의 GUID는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 인터페이스입니다.|  
   
-3.  
+3. 
   
 ### <a name="to-initiate-the-use-of-system-provided-fonts-and-colors"></a>시스템 제공 글꼴 및 색 사용을 시작 하려면  
   

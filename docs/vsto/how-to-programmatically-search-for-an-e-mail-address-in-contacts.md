@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b6b29e46a61a46ae5e986dec7b14733e3807064b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 178549a815fd9a17377986a5b19e02db12ec76d1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615496"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115226"
 ---
 # <a name="how-to-programmatically-search-for-an-email-address-in-contacts"></a>방법: 프로그래밍 방식으로 연락처에서 전자 메일 주소 검색
   이 예제에서는 메일 주소에 도메인 이름 **example.com** 이 있는 연락처에 대한 연락처 폴더를 검색합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "56615496"
 ## <a name="compile-the-code"></a>코드 컴파일
  이 예제에는 다음 사항이 필요합니다.
 
--   메일 주소에 도메인 이름 **example.com** (예: `somebody@example.com`) 및 이름과 성이 있는 연락처입니다.
+- 메일 주소에 도메인 이름 **example.com** (예: `somebody@example.com`) 및 이름과 성이 있는 연락처입니다.
 
 ## <a name="see-also"></a>참고자료
 - [연락처 항목 작업](../vsto/working-with-contact-items.md)

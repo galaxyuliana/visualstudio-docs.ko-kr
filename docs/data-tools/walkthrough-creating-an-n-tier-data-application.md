@@ -1,5 +1,5 @@
 ---
-title: '연습: N 계층 데이터 응용 프로그램 만들기'
+title: '연습: N 계층 데이터 애플리케이션 만들기'
 ms.date: 09/08/2017
 ms.topic: conceptual
 dev_langs:
@@ -14,14 +14,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 4edd2ce00439a791f55787e9d55e9e51b3c7b27b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 471f0e9b97293bd70457a8f41cb7efddd6acf6c1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55933017"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091826"
 ---
-# <a name="walkthrough-create-an-n-tier-data-application"></a>연습: n 계층 데이터 응용 프로그램 만들기
+# <a name="walkthrough-create-an-n-tier-data-application"></a>연습: n 계층 데이터 애플리케이션 만들기
 *N 계층* 데이터 애플리케이션은 데이터에 액세스하며 여러 논리 *계층*으로 구분되는 애플리케이션입니다. 응용 프로그램 구성 요소를 개별 계층으로 분리하면 응용 프로그램의 확장성과 유지 관리 가능성이 높아집니다. 이는 전체 솔루션을 다시 설계하지 않고도 단일 계층에 적용할 수 있는 새로운 기술을 보다 쉽게 도입할 수 있기 때문입니다. N 계층 아키텍처에는 표시 계층, 중간 계층 및 데이터 계층이 포함됩니다. 중간 계층에는 대개 데이터 액세스 계층, 비즈니스 논리 계층 및 인증, 유효성 검사 등의 공유 구성 요소가 포함됩니다. 데이터 계층에는 관계형 데이터베이스가 포함됩니다. 표시 계층에 액세스하는 최종 사용자로부터 격리된 상태를 유지하기 위해 N 계층 응용 프로그램에서는 보통 중요한 정보가 중간 계층의 데이터 액세스 계층에 저장됩니다. 자세한 내용은 [N 계층 데이터 응용 프로그램 개요](../data-tools/n-tier-data-applications-overview.md)합니다.
 
 N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나는 응용 프로그램에 포함할 각 계층에 대해 개별 프로젝트를 만드는 것입니다. 형식화된 데이터 집합에는 생성된 데이터 집합 및 `DataSet Project` 코드를 포함해야 하는 프로젝트를 결정하는 `TableAdapter` 속성이 포함됩니다.
@@ -30,25 +30,25 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 
 이 연습에서는 다음 단계를 수행 합니다.
 
--   여러 프로젝트가 포함 된 새 n 계층 솔루션을 만듭니다.
+- 여러 프로젝트가 포함 된 새 n 계층 솔루션을 만듭니다.
 
--   N 계층 솔루션에 클래스 라이브러리 프로젝트 두 개를 추가합니다.
+- N 계층 솔루션에 클래스 라이브러리 프로젝트 두 개를 추가합니다.
 
--   **데이터 원본 구성 마법사**를 사용하여 형식화된 데이터 세트를 만듭니다.
+- **데이터 원본 구성 마법사**를 사용하여 형식화된 데이터 세트를 만듭니다.
 
--   생성 된 구분 [Tableadapter](create-and-configure-tableadapters.md) 및 데이터 집합 코드를 별도 프로젝트로 합니다.
+- 생성 된 구분 [Tableadapter](create-and-configure-tableadapters.md) 및 데이터 집합 코드를 별도 프로젝트로 합니다.
 
--   데이터 액세스 계층으로 호출할 WCF(Windows Communication Foundation) 서비스를 만듭니다.
+- 데이터 액세스 계층으로 호출할 WCF(Windows Communication Foundation) 서비스를 만듭니다.
 
--   데이터 액세스 계층에서 데이터를 검색하기 위한 함수를 서비스에서 만듭니다.
+- 데이터 액세스 계층에서 데이터를 검색하기 위한 함수를 서비스에서 만듭니다.
 
--   표시 계층으로 사용할 Windows Forms 응용 프로그램을 만듭니다.
+- 표시 계층으로 사용할 Windows Forms 응용 프로그램을 만듭니다.
 
--   데이터 소스에 바인딩되는 Windows Forms 컨트롤을 만듭니다.
+- 데이터 소스에 바인딩되는 Windows Forms 컨트롤을 만듭니다.
 
--   데이터 테이블을 채우는 코드를 작성합니다.
+- 데이터 테이블을 채우는 코드를 작성합니다.
 
-![비디오 링크](../data-tools/media/playvideo.gif) 이 항목의 비디오 버전을 참조 하세요. [Video How to: N 계층 데이터 애플리케이션 만들기](http://go.microsoft.com/fwlink/?LinkId=115188).
+![비디오 링크](../data-tools/media/playvideo.gif) 이 항목의 비디오 버전을 참조 하세요. [Video How to: N 계층 데이터 응용 프로그램을 만드는](http://go.microsoft.com/fwlink/?LinkId=115188)합니다.
 
 ## <a name="prerequisites"></a>전제 조건
 이 연습에서는 Northwind 샘플 데이터베이스 및 SQL Server Express LocalDB를 사용 합니다.
@@ -77,7 +77,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 
 1. Visual Studio에서에 **파일** 메뉴에서 **새로 만들기** > **프로젝트**합니다.
 
-2. 확장 **시각적 C#**  하거나 **Visual Basic** 왼쪽 창에서 선택한 **Windows Desktop**.
+2. 확장 **Visual C#** 하거나 **Visual Basic** 왼쪽 창에서 선택한 **Windows Desktop**합니다.
 
 3. 가운데 창에서 선택 합니다 **클래스 라이브러리** 형식 프로젝션 합니다.
 
@@ -92,7 +92,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 
 ### <a name="to-create-a-separate-class-library-for-the-tableadapters"></a>Tableadapter에 대 한 별도 클래스 라이브러리를 만들려면
 
-1. 솔루션을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 선택한 **추가** > **새 프로젝트**합니다.
+1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
 2. 에 **새 프로젝트** 대화 상자의 선택 가운데 창에서 **클래스 라이브러리**합니다.
 
@@ -104,7 +104,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
  다음 단계에서는 형식화된 데이터 집합을 만듭니다. Dataset 클래스를 사용 하 여 형식화 된 데이터 집합을 만듭니다 (포함 `DataTables` 클래스) 및 `TableAdapter` 단일 프로젝트에서 클래스입니다. 모든 클래스는 단일 파일로 생성됩니다. Dataset 클래스는 그대로 두고, 다른 프로젝트를 이동 하는 것이 데이터 집합 및 Tableadapter를 다른 프로젝트로 분리 하면는 `TableAdapter` 원래 프로젝트에서 클래스입니다. 따라서 궁극적으로 Tableadapter (DataAccessTier 프로젝트) 포함 하는 프로젝트에서 데이터 집합을 만듭니다. 사용 하 여 데이터 집합을 만들려면 합니다 **데이터 소스 구성 마법사**합니다.
 
 > [!NOTE]
-> 연결을 만들려면 Northwind 샘플 데이터베이스에 액세스해야 합니다. Northwind 샘플 데이터베이스를 설정 하는 방법에 대 한 정보를 참조 하세요 [방법: 샘플 데이터베이스 설치](../data-tools/installing-database-systems-tools-and-samples.md)합니다.
+> 연결을 만들려면 Northwind 샘플 데이터베이스에 액세스해야 합니다. Northwind 샘플 데이터베이스를 설정 하는 방법에 대 한 정보를 참조 하세요. [방법: 예제 데이터베이스 설치](../data-tools/installing-database-systems-tools-and-samples.md)합니다.
 
 ### <a name="to-create-the-dataset"></a>데이터 집합을 만들려면
 
@@ -154,7 +154,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 
 5. **빌드** 메뉴에서 **솔루션 빌드**를 선택합니다.
 
-   데이터 집합 및 TableAdapters가 두 클래스 라이브러리 프로젝트로 분리됩니다. 원래 전체 데이터 집합을 포함 하는 프로젝트 (`DataAccessTier`) 이제는 TableAdapters만 포함 되어 있습니다. 에 지정 된 프로젝트를 **데이터 집합 프로젝트** 속성 (`DataEntityTier`) 형식화 된 데이터 집합을 포함 합니다. *집합인 NorthwindDataSet.Dataset.Designer.vb* (또는  *NorthwindDataSet.Dataset.Designer.cs*).
+   데이터 집합 및 TableAdapters가 두 클래스 라이브러리 프로젝트로 분리됩니다. 원래 전체 데이터 집합을 포함 하는 프로젝트 (`DataAccessTier`) 이제는 TableAdapters만 포함 되어 있습니다. 에 지정 된 프로젝트를 **데이터 집합 프로젝트** 속성 (`DataEntityTier`) 형식화 된 데이터 집합을 포함 합니다. *집합인 NorthwindDataSet.Dataset.Designer.vb* (또는 *NorthwindDataSet.Dataset.Designer.cs*).
 
 > [!NOTE]
 > **데이터 세트 프로젝트** 속성을 설정하여 데이터 세트와 TableAdapters를 분리할 때는 프로젝트의 기존 부분 데이터 세트 클래스가 자동으로 이동되지 않습니다. 따라서 데이터 집합 프로젝트로 기존 데이터 집합 부분 클래스를 수동으로 이동해야 합니다.
@@ -164,7 +164,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 
 ### <a name="to-create-a-new-wcf-service-application"></a>새 WCF 서비스 응용 프로그램을 만들려면
 
-1. 솔루션을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 선택한 **추가** > **새 프로젝트**합니다.
+1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
 2. 에 **새 프로젝트** 대화 상자의 왼쪽 창에서 선택한 **WCF**합니다. 가운데 창에서 선택 **WCF 서비스 라이브러리**합니다.
 
@@ -288,7 +288,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 
 ### <a name="to-create-the-presentation-tier-project"></a>표시 계층 프로젝트를 만들려면
 
-1. 솔루션을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 선택한 **추가** > **새 프로젝트**합니다.
+1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다.
 
 2. 에 **새 프로젝트** 대화 상자의 왼쪽 창에서 선택 **Windows Desktop**합니다. 가운데 창에서 선택 **Windows Forms 앱**합니다.
 
@@ -301,7 +301,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 
 ### <a name="to-set-the-new-presentation-tier-project-as-the-startup-project"></a>새 표시 계층 프로젝트를 시작 프로젝트로 설정하려면
 
--   **솔루션 탐색기**에서 **PresentationTier**를 마우스 오른쪽 단추로 클릭하고 **시작 프로젝트로 설정**을 클릭합니다.
+- **솔루션 탐색기**에서 **PresentationTier**를 마우스 오른쪽 단추로 클릭하고 **시작 프로젝트로 설정**을 클릭합니다.
 
 ## <a name="add-references-to-the-presentation-tier"></a>프레젠테이션 계층에 대 한 참조를 추가 합니다.
  클라이언트 애플리케이션 PresentationTier가 서비스의 메서드에 액세스하려면 데이터 서비스에 대한 서비스 참조가 필요합니다. WCF 서비스를 통한 형식 공유를 사용하도록 설정하려면 데이터 집합에 대한 참조도 필요합니다. 데이터 서비스를 통해 형식 공유를 설정 하기 전까지 부분 데이터 집합 클래스에 추가 하는 코드 프레젠테이션 계층에 사용할 수 없는 경우 일반적으로 행 및 열 변경 이벤트 데이터 테이블의 유효성 검사 코드 등의 코드를 추가 하기 때문에이 코드는 클라이언트에서 액세스 해야 가능성이 높습니다.
@@ -361,7 +361,7 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 에 대 한 기본값 `maxReceivedMessageSize` 에서 검색할 데이터를 저장 하기에 충분히 크지 않은 합니다 `Customers` 및 `Orders` 테이블입니다. 다음 단계에서는 값을 6553600으로 늘릴 수 있습니다. 서비스 참조를 자동으로 업데이트 하는 클라이언트에서 값을 변경 하는 경우.
 
 > [!NOTE]
-> 기본값이 작은 이유는 DoS(서비스 거부) 공격에 대한 노출을 제한하기 위해서입니다. 자세한 내용은 <xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize%2A>을 참조하세요.
+> 기본값이 작은 이유는 DoS(서비스 거부) 공격에 대한 노출을 제한하기 위해서입니다. 자세한 내용은 <xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize%2A>을 참조하십시오.
 
 ### <a name="to-increase-the-maxreceivedmessagesize-value"></a>maxReceivedMessageSize 값을 늘리려면
 
@@ -375,12 +375,12 @@ N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나�
 ## <a name="next-steps"></a>다음 단계
  응용 프로그램 요구 사항에 따라 Windows 기반 응용 프로그램에서 관련 데이터를 저장한 후 몇 단계를 더 수행해야 할 수도 있습니다. 예를 들어 이 응용 프로그램을 다음과 같이 개선할 수 있습니다.
 
--   데이터 집합에 유효성 검사 기능을 추가합니다.
+- 데이터 집합에 유효성 검사 기능을 추가합니다.
 
--   데이터를 데이터베이스로 다시 업데이트하기 위한 추가 메서드를 서비스에 추가합니다.
+- 데이터를 데이터베이스로 다시 업데이트하기 위한 추가 메서드를 서비스에 추가합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [n 계층 애플리케이션에서 데이터 세트 작업](../data-tools/work-with-datasets-in-n-tier-applications.md)
+- [n 계층 응용 프로그램에서 데이터 집합 작업](../data-tools/work-with-datasets-in-n-tier-applications.md)
 - [계층적 업데이트](../data-tools/hierarchical-update.md)
 - [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)

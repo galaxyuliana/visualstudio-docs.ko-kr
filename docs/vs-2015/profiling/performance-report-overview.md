@@ -13,12 +13,12 @@ caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ff52925dea61916b9fa27af8cfacc044588cdb75
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 81bb2392a4ea6d9860cdcf2beeadcfe4e6ec7940
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54785624"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091618"
 ---
 # <a name="performance-report-overview"></a>성능 보고서 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,19 +82,19 @@ Visual Studio Team System Development Edition IDE(통합 개발 환경)의 **성
 ## <a name="customizable-filter-control"></a>사용자 지정 가능한 필터 컨트롤  
  사용자 지정 가능한 필터 컨트롤에는 다음과 같은 옵션이 있습니다.  
   
--   **필터 가져오기** - 이전에 저장한 사용자 지정 쿼리를 검색합니다.  
+- **필터 가져오기** - 이전에 저장한 사용자 지정 쿼리를 검색합니다.  
   
--   **필터 내보내기** - 사용자 지정 쿼리를 지정한 위치에 저장합니다.  
+- **필터 내보내기** - 사용자 지정 쿼리를 지정한 위치에 저장합니다.  
   
--   **쿼리 실행** - 사용자 지정 쿼리 컨트롤에 표시된 대로 쿼리를 실행합니다.  
+- **쿼리 실행** - 사용자 지정 쿼리 컨트롤에 표시된 대로 쿼리를 실행합니다.  
   
--   **쿼리 중지** - 실행 중인 쿼리의 실행을 중지합니다. 실행 중인 쿼리가 없으면 이 단추를 사용할 수 없습니다.  
+- **쿼리 중지** - 실행 중인 쿼리의 실행을 중지합니다. 실행 중인 쿼리가 없으면 이 단추를 사용할 수 없습니다.  
   
--   **쿼리 표시** - 사용자 지정 쿼리 컨트롤 표시하거나 숨깁니다.  
+- **쿼리 표시** - 사용자 지정 쿼리 컨트롤 표시하거나 숨깁니다.  
   
--   **분석 결과 저장** - 보고서를 현재 분석 내용과 함께 .vsps 파일로 저장합니다.  
+- **분석 결과 저장** - 보고서를 현재 분석 내용과 함께 .vsps 파일로 저장합니다.  
   
--   **내보내기** - 다른 뷰를 저장하는 옵션과 함께 현재 보고서를 .CSV 형식 또는 .XML 형식 파일로 저장합니다.  
+- **내보내기** - 다른 뷰를 저장하는 옵션과 함께 현재 보고서를 .CSV 형식 또는 .XML 형식 파일로 저장합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [성능 도구 데이터 분석](../profiling/analyzing-performance-tools-data.md)   

@@ -24,12 +24,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 385f5c9e03aaeb84cf33c6d76a499b0d1e35d5c3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: 3c76167468d9eb6fbe93c3bef0c4ae8c15634fc5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54931988"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091611"
 ---
 # <a name="how-to-debug-an-activex-control"></a>방법: ActiveX 컨트롤 디버그
 
@@ -40,19 +40,19 @@ ActiveX 컨트롤을 디버깅하려면 컨트롤을 실행할 컨테이너(실�
 
 ## <a name="to-specify-a-container-for-the-debug-session"></a>디버그 세션에 사용할 컨테이너를 지정하려면
 
-1.  솔루션 탐색기에서 프로젝트를 선택합니다.
+1. 솔루션 탐색기에서 프로젝트를 선택합니다.
 
-2.  **뷰** 메뉴 선택 **속성 페이지**합니다.
+2. **뷰** 메뉴 선택 **속성 페이지**합니다.
 
-3.  **프로젝트 속성 페이지** 대화 상자에서 **구성 속성** 폴더를 열고 **디버깅**을 선택합니다.
+3. **프로젝트 속성 페이지** 대화 상자에서 **구성 속성** 폴더를 열고 **디버깅**을 선택합니다.
 
-4.  **디버깅** 범주에서 **명령** 속성을 찾습니다.
+4. **디버깅** 범주에서 **명령** 속성을 찾습니다.
 
-5.  컨테이너의 경로 이름을 지정하십시오. 예를 들어, C:\Program Files\Internet Explorer\IEXPLORE.EXE와 같이 입력하십시오.
+5. 컨테이너의 경로 이름을 지정하십시오. 예를 들어, C:\Program Files\Internet Explorer\IEXPLORE.EXE와 같이 입력하십시오.
 
-6.  Internet Explorer를 컨테이너로 지정하고 Active Desktop을 사용하는 경우에는 **명령 인수** 상자에 `/new`를 입력합니다.
+6. Internet Explorer를 컨테이너로 지정하고 Active Desktop을 사용하는 경우에는 **명령 인수** 상자에 `/new`를 입력합니다.
 
-7.  **확인**을 클릭합니다.
+7. **확인**을 클릭합니다.
 
      **프로젝트 속성 페이지** 대화 상자에서 컨테이너를 지정하지 않은 경우에는 디버깅을 시작할 때 컨테이너를 지정할 수 있습니다. 디버깅을 시작하는 실행 명령을 선택하면 [디버깅 세션에 사용할 실행 파일 대화 상자](../debugger/executable-for-debugging-session-dialog-box.md)가 나타납니다. 대화 상자에서 컨테이너의 경로 이름을 지정합니다.
 

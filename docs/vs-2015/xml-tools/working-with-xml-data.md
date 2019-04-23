@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7ce412da98d05d70864a6932021912a6f03f6a7b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 536e3a2aa6254004fb34eb243583184e5ab0279e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662974"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092177"
 ---
 # <a name="working-with-xml-data"></a>XML 데이터 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,17 +26,17 @@ XML 및 관련 기술은 [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual
   
  추가 기능은 다음과 같습니다.  
   
--   스키마에 의해 생성된 조각을 비롯한 XML 조각 지원  
+- 스키마에 의해 생성된 조각을 비롯한 XML 조각 지원  
   
--   요소를 확장 및 축소할 수 있도록 문서 개요 표시  
+- 요소를 확장 및 축소할 수 있도록 문서 개요 표시  
   
--   XSLT 변환을 실행하고 텍스트, XML 또는 HTML로 결과를 볼 수 있는 기능  
+- XSLT 변환을 실행하고 텍스트, XML 또는 HTML로 결과를 볼 수 있는 기능  
   
--   XML 인스턴스 문서에서 XSD(XML 스키마 정의 언어) 스키마를 생성하는 기능  
+- XML 인스턴스 문서에서 XSD(XML 스키마 정의 언어) 스키마를 생성하는 기능  
   
--   IntelliSense 지원을 포함하여 XSLT 스타일시트 편집 지원  
+- IntelliSense 지원을 포함하여 XSLT 스타일시트 편집 지원  
   
--   XML 스키마 탐색기  
+- XML 스키마 탐색기  
   
 ## <a name="xml-schema-designer"></a>XML 스키마 디자이너  
  XML 스키마 디자이너는 XSD(XML 스키마 정의 언어) 스키마 작업을 수행할 수 있도록 Microsoft Visual Studio 2010 및 XML 편집기와 통합되었습니다.  

@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e305ba59eaf5a0f60ec84d40ee9888ac17982c42
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 0ba49e1ab3e25e3f22a9ca8642673aa0a62869f6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650632"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114771"
 ---
 # <a name="colors-and-styling-for-visual-studio"></a>색 및 Visual Studio에 대 한 스타일 지정
 
@@ -85,7 +85,7 @@ Visual Studio 소스 코드는 토큰 이름 및 각 테마에 대해 각 색상
 
 ![도구 &gt; 옵션 대화 상자](../../extensibility/ux-guidelines/media/0301-a_toolsoptionsdialog.png "a_ToolsOptionsDialog 0301")<br />도구 &gt; 옵션 대화 상자
 
-##  <a name="BKMK_TheVSColorService"></a> VSColor Service
+## <a name="BKMK_TheVSColorService"></a> VSColor Service
 
 Visual Studio VSColor service 또는 셸 색 서비스 라고도 하는 환경 색 서비스를 제공 합니다. 이 서비스를 사용 하면 각 테마에 대 한 색을 포함 하는 집합 이름-값 색에 UI 요소의 색 값을 바인딩할 수 있습니다. 색이 자동으로 현재 사용자가 선택한 테마에 맞게 변경 되 고 UI 환경 색 서비스에 바인딩된 있도록는 통합 새 테마를 사용 하 여 이후 버전의 Visual Studio VSColor service 모든 UI 요소에 대해 사용 되어야 합니다.
 
@@ -267,7 +267,7 @@ protected override void Dispose(bool disposing)
 }
 ```
 
-##  <a name="BKMK_ChoosingHighContrastColors"></a> 고대비 색 선택
+## <a name="BKMK_ChoosingHighContrastColors"></a> 고대비 색 선택
 
 ### <a name="overview"></a>개요
 
@@ -330,7 +330,7 @@ UI, 색 집합을 제한이 적용 될 때 *"일반" 테마에서 표시 된 미
 | WindowFrame | -IDE 테두리 |
 | WindowText | -자동 숨기기 탭 전경<br />-선택한 도구 창 탭 전경<br />-포커스가 없는 문서 창의 탭 및 포커스 없음 또는 선택 취소-임시 탭 전경<br />-트리 보기 기본 전경 가리키기 선택 하지 않은 문자 위로<br />도구 창 선택된 된 탭 테두리<br />-스크롤 막대 thumb 배경, 테두리 및 문자 모양 |
 
-##  <a name="BKMK_ExposingColorsForEndUsers"></a> 최종 사용자에 대 한 색을 노출합니다.
+## <a name="BKMK_ExposingColorsForEndUsers"></a> 최종 사용자에 대 한 색을 노출합니다.
 
 ### <a name="overview"></a>개요
 

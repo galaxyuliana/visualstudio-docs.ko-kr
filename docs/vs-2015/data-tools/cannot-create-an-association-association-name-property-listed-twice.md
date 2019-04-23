@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b9592605a25c76b4ea17b6efe91363d59585f56e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: dd366f6bc572798e1115991afccb2b39eb8f9f6d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660972"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091579"
 ---
 # <a name="cannot-create-an-association-ltassociation-namegt---property-listed-twice"></a>&lt;association name&gt; 연결을 만들 수 없습니다. - 속성이 두 번 나열된 경우
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,13 +27,13 @@ ms.locfileid: "59660972"
   
 ### <a name="to-resolve-this-condition"></a>이 문제를 해결하려면  
   
--   메시지를 검사하여 메시지에 지정된 속성을 기록합니다.  
+- 메시지를 검사하여 메시지에 지정된 속성을 기록합니다.  
   
--   **확인**을 클릭하여 메시지 상자를 닫습니다.  
+- **확인**을 클릭하여 메시지 상자를 닫습니다.  
   
--   **연결 속성**을 검사하여 중복된 엔트리를 제거합니다.  
+- **연결 속성**을 검사하여 중복된 엔트리를 제거합니다.  
   
--   **확인**을 클릭합니다.  
+- **확인**을 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](http://msdn.microsoft.com/library/a57e82d5-f7e4-4894-8add-3d9ba4fce186)   

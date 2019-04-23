@@ -24,12 +24,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8430c1814e83dbd8410b0f172a15d879bb221cf3
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: f846b636d2790839de6d05d048fc7e24d0bc6253
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54956677"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114888"
 ---
 # <a name="how-to-get-back-to-the-function-that-called-mfc-if-halted"></a>방법: 중지된 경우 MFC를 호출한 함수로 돌아가기
 
@@ -42,9 +42,9 @@ ms.locfileid: "54956677"
 
 ## <a name="navigate-to-the-function-from-which-mfc-was-called"></a>MFC를 호출한 함수로 이동 합니다.
 
--   **호출 스택** 창을 사용합니다.
+- **호출 스택** 창을 사용합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [네이티브 코드 디버그 FAQ](../debugger/debugging-native-code-faqs.md)
 - [네이티브 코드 디버그](../debugger/debugging-native-code.md)

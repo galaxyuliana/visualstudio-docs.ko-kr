@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: cf5a7c3f7587869a30ca2f367915fba1a42ec262
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 5813a6f89062bf53f7f8c0b57b4ed3a8ef9c4edf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642978"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091436"
 ---
 # <a name="how-to-include-files-by-using-a-module"></a>방법: 모듈을 사용 하 여 파일 포함
   *모듈* (사용 하 여 혼동 하면 안 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] 모듈)은 SharePoint에 ASPX 마스터 페이지와 같은 파일, 텍스트 파일 또는 이미지를 배포할 수 있도록 하는 컨테이너입니다.
@@ -29,31 +29,31 @@ ms.locfileid: "56642978"
 
 #### <a name="to-add-a-module"></a>모듈을 추가 하려면
 
-1.  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 SharePoint 프로젝트를 열거나 만듭니다.
+1. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 SharePoint 프로젝트를 열거나 만듭니다.
 
      자세한 내용은 [SharePoint 프로젝트 및 프로젝트 항목 템플릿](../sharepoint/sharepoint-project-and-project-item-templates.md)합니다.
 
-2.  **솔루션 탐색기**, 프로젝트 노드를 선택한 다음, 메뉴 모음에서 **프로젝트** > **새 항목 추가**합니다.
+2. **솔루션 탐색기**, 프로젝트 노드를 선택한 다음, 메뉴 모음에서 **프로젝트** > **새 항목 추가**합니다.
 
      **새 항목 추가** 대화 상자가 열립니다.
 
-3.  SharePoint 템플릿 목록에서 선택 합니다 **모듈** 템플릿을 선택한 후 합니다 **추가** 단추입니다.
+3. SharePoint 템플릿 목록에서 선택 합니다 **모듈** 템플릿을 선택한 후 합니다 **추가** 단추입니다.
 
      이 단계에서는 프로젝트에서 Module1이라는 노드를 만듭니다.
 
-4.  Module1을 아래에서 삭제 합니다 *Sample.txt* 파일입니다.
+4. Module1을 아래에서 삭제 합니다 *Sample.txt* 파일입니다.
 
      Sample.txt 예를 들어 목적으로 모든 새 모듈에 포함 되어 있으며 필요 하지 않습니다. (참고는 파일을 삭제 하면 해당 항목에서에서 제거 모듈의 *Elements.xml* 파일입니다.)
 
-5.  파일을 SharePoint의 특정 폴더 구조에 배포를 원한다 면에서 Module1 아래 해당 폴더를 만듭니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Module1 노드를 선택 하 여 선택한 다음 메뉴 모음에서 **프로젝트**, **새로 만들기 폴더**합니다.
+5. 파일을 SharePoint의 특정 폴더 구조에 배포를 원한다 면에서 Module1 아래 해당 폴더를 만듭니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Module1 노드를 선택 하 여 선택한 다음 메뉴 모음에서 **프로젝트**, **새로 만들기 폴더**합니다.
 
-6.  파일을 추가 하 고 그런 다음 메뉴 모음에서 선택 하려는 폴더를 선택 **프로젝트**하십시오 **기존 항목 추가**합니다.
+6. 파일을 추가 하 고 그런 다음 메뉴 모음에서 선택 하려는 폴더를 선택 **프로젝트**하십시오 **기존 항목 추가**합니다.
 
-7.  SharePoint에 배포 하 고 선택 하려는 하나 이상의 파일을 선택 합니다 **추가** 단추입니다.
+7. SharePoint에 배포 하 고 선택 하려는 하나 이상의 파일을 선택 합니다 **추가** 단추입니다.
 
      파일을 프로젝트에 추가 하면 항목에 대 한 모듈의 Elements.xml 파일에 자동으로 추가 됩니다. SharePoint 서버에 의해 지정 되는 프로젝트의 루트 디렉터리를 기준으로 파일 복사는 프로젝트를 배포할 때 합니다 **파일** 요소의 **Url** 와 같은 특성 `Url="Module1/New Folder/SomeFile.doc`합니다. 파일에 대 한 배포 위치를 변경 하려는 경우 하거나 이동할 다른 폴더로 **솔루션 탐색기** 변경 하거나 해당 **Url** 설정 합니다.
 
-8.  문서 라이브러리에 표시 하려는 모든 파일을 추가 합니다 `Type="GhostableInLibrary"` 특성에서 해당 항목을 *Elements.xml*합니다. 예를 들면 다음과 같습니다.
+8. 문서 라이브러리에 표시 하려는 모든 파일을 추가 합니다 `Type="GhostableInLibrary"` 특성에서 해당 항목을 *Elements.xml*합니다. 예를 들면 다음과 같습니다.
 
     ```xml
     <File Path="Module1\Some Folder\SomePage.aspx" Url="Module1/Some Folder/SomePage.aspx" Type="GhostableInLibrary" />

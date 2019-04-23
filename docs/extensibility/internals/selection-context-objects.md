@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3e6fa51b39cf6b4cf7917d560469eac06d43fee2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 9bdc3dd946f6ab19f916f4ac536ba05a45fe9226
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637778"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114979"
 ---
 # <a name="selection-context-objects"></a>선택 컨텍스트 개체
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 전역 선택 컨텍스트 개체를 사용 하 여 IDE에서 표시 되어야 할 사항을 결정 합니다. IDE의 각 창 전역 선택 컨텍스트에 푸시된 자체 선택 컨텍스트 개체를 가질 수 있습니다. IDE는 해당 창에 포커스가 있는 경우 창에서 값을 사용 하 여 전역 선택 항목 컨텍스트를 업데이트 합니다. 자세한 내용은 [사용자에 게 피드백](../../extensibility/internals/feedback-to-the-user.md)합니다.
@@ -33,11 +33,11 @@ ms.locfileid: "56637778"
 
   다음 순서 대로 선택 영역 추적의 일반적인 과정을 보여 줍니다.
 
-1.  IDE는 새로 열린된 창에서 선택 항목 컨텍스트를 검색 하 고 전역 선택 컨텍스트에 넣습니다. 선택 항목 컨텍스트 HIERARCHY_DONTPROPAGATE 또는 SELCONTAINER_DONTPROPAGATE을 사용 하는 경우 해당 정보는 전역 컨텍스트를 전파 되지 않습니다. 자세한 내용은 [사용자에 게 피드백](../../extensibility/internals/feedback-to-the-user.md)합니다.
+1. IDE는 새로 열린된 창에서 선택 항목 컨텍스트를 검색 하 고 전역 선택 컨텍스트에 넣습니다. 선택 항목 컨텍스트 HIERARCHY_DONTPROPAGATE 또는 SELCONTAINER_DONTPROPAGATE을 사용 하는 경우 해당 정보는 전역 컨텍스트를 전파 되지 않습니다. 자세한 내용은 [사용자에 게 피드백](../../extensibility/internals/feedback-to-the-user.md)합니다.
 
-2.  알림 이벤트를 요청한 모든 VSPackage에 브로드캐스트 됩니다.
+2. 알림 이벤트를 요청한 모든 VSPackage에 브로드캐스트 됩니다.
 
-3.  VSPackage는 도구 또는 기타 유사한 작업을 다시 활성화 계층을 업데이트 하는 등의 작업을 수행 하 여 수신한 이벤트에서 작동 합니다.
+3. VSPackage는 도구 또는 기타 유사한 작업을 다시 활성화 계층을 업데이트 하는 등의 작업을 수행 하 여 수신한 이벤트에서 작동 합니다.
 
 ## <a name="see-also"></a>참고 항목
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>

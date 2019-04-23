@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cd16fa286c4e6343e69644caa60525a988e180e6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a92554843c1bdde48123515cb2548b2c513ef756
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631681"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092307"
 ---
 # <a name="legacy-language-service-parser-and-scanner"></a>레거시 언어 서비스 파서 및 검사기
 파서가 언어 서비스의 핵심입니다. 관리 패키지 프레임 워크 (MPF) 언어 클래스에 표시 되는 코드에 대 한 정보를 선택 하는 언어 파서가 필요 합니다. 파서를 어휘 토큰으로 텍스트를 구분 하 고 그런 다음 해당 토큰 유형 및 기능을 식별 합니다.
@@ -80,29 +80,29 @@ namespace MyNamespace
 
  언어 서비스는 중괄호를 지원함을 가정 합니다.
 
-1.  사용자가 닫는 중괄호 (}).
+1. 사용자가 닫는 중괄호 (}).
 
-2.  커서 씩 고급, 중괄호는 소스 파일의 커서 위치에 삽입 됩니다.
+2. 커서 씩 고급, 중괄호는 소스 파일의 커서 위치에 삽입 됩니다.
 
-3.  합니다 <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> 의 메서드는 <xref:Microsoft.VisualStudio.Package.Source> 클래스는 형식화 된 닫는 중괄호를 사용 하 여 호출 됩니다.
+3. 합니다 <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> 의 메서드는 <xref:Microsoft.VisualStudio.Package.Source> 클래스는 형식화 된 닫는 중괄호를 사용 하 여 호출 됩니다.
 
-4.  <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> 메서드 호출을 <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> 에서 메서드는 <xref:Microsoft.VisualStudio.Package.Source> 커서의 현재 위치 바로 앞 위치에서 토큰을 가져오려면 클래스입니다. 이 토큰 형식의 닫는 중괄호에 해당).
+4. <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> 메서드 호출을 <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> 에서 메서드는 <xref:Microsoft.VisualStudio.Package.Source> 커서의 현재 위치 바로 앞 위치에서 토큰을 가져오려면 클래스입니다. 이 토큰 형식의 닫는 중괄호에 해당).
 
-    1.  <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> 메서드 호출을 <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> 메서드를 <xref:Microsoft.VisualStudio.Package.Colorizer> 개체를 현재 줄에서 모든 토큰을 가져옵니다.
+    1. <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> 메서드 호출을 <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> 메서드를 <xref:Microsoft.VisualStudio.Package.Colorizer> 개체를 현재 줄에서 모든 토큰을 가져옵니다.
 
-    2.  <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> 메서드 호출을 <xref:Microsoft.VisualStudio.Package.IScanner.SetSource%2A> 메서드를 <xref:Microsoft.VisualStudio.Package.IScanner> 현재 줄의 텍스트를 사용 하 여 개체입니다.
+    2. <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> 메서드 호출을 <xref:Microsoft.VisualStudio.Package.IScanner.SetSource%2A> 메서드를 <xref:Microsoft.VisualStudio.Package.IScanner> 현재 줄의 텍스트를 사용 하 여 개체입니다.
 
-    3.  <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> 메서드를 반복적으로 호출 합니다 <xref:Microsoft.VisualStudio.Package.IScanner.ScanTokenAndProvideInfoAboutIt%2A> 메서드는 <xref:Microsoft.VisualStudio.Package.IScanner> 현재 줄에서 모든 토큰을 수집 하는 개체.
+    3. <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> 메서드를 반복적으로 호출 합니다 <xref:Microsoft.VisualStudio.Package.IScanner.ScanTokenAndProvideInfoAboutIt%2A> 메서드는 <xref:Microsoft.VisualStudio.Package.IScanner> 현재 줄에서 모든 토큰을 수집 하는 개체.
 
-    4.  <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> 에서 개인 메서드를 호출 하는 메서드를 <xref:Microsoft.VisualStudio.Package.Source> 토큰 목록 전달에서 얻은 및 원하는 위치를 포함 하는 토큰을 가져오는 클래스를 <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> 메서드.
+    4. <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> 에서 개인 메서드를 호출 하는 메서드를 <xref:Microsoft.VisualStudio.Package.Source> 토큰 목록 전달에서 얻은 및 원하는 위치를 포함 하는 토큰을 가져오는 클래스를 <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> 메서드.
 
-5.  <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> 메서드가 토큰 트리거 플래그를 찾습니다 <xref:Microsoft.VisualStudio.Package.TokenTriggers> 에서 반환 되는 토큰에는 <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> 메서드, 즉 닫는 중괄호를 나타내는 토큰).
+5. <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> 메서드가 토큰 트리거 플래그를 찾습니다 <xref:Microsoft.VisualStudio.Package.TokenTriggers> 에서 반환 되는 토큰에는 <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> 메서드, 즉 닫는 중괄호를 나타내는 토큰).
 
-6.  트리거 플래그의 경우 <xref:Microsoft.VisualStudio.Package.TokenTriggers> 발견 되는 <xref:Microsoft.VisualStudio.Package.Source.MatchBraces%2A> 에서 메서드를 <xref:Microsoft.VisualStudio.Package.Source> 클래스 라고 합니다.
+6. 트리거 플래그의 경우 <xref:Microsoft.VisualStudio.Package.TokenTriggers> 발견 되는 <xref:Microsoft.VisualStudio.Package.Source.MatchBraces%2A> 에서 메서드를 <xref:Microsoft.VisualStudio.Package.Source> 클래스 라고 합니다.
 
-7.  합니다 <xref:Microsoft.VisualStudio.Package.Source.MatchBraces%2A> 메서드는 구문 분석 이유 값을 사용 하 여 구문 분석 작업을 시작 <xref:Microsoft.VisualStudio.Package.ParseReason>합니다. 이 작업을 최종적으로 호출 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 메서드는 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스입니다. 비동기 구문 분석을 사용 하는 경우이 호출 하 여 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 메서드는 백그라운드 스레드에서 발생 합니다.
+7. 합니다 <xref:Microsoft.VisualStudio.Package.Source.MatchBraces%2A> 메서드는 구문 분석 이유 값을 사용 하 여 구문 분석 작업을 시작 <xref:Microsoft.VisualStudio.Package.ParseReason>합니다. 이 작업을 최종적으로 호출 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 메서드는 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스입니다. 비동기 구문 분석을 사용 하는 경우이 호출 하 여 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 메서드는 백그라운드 스레드에서 발생 합니다.
 
-8.  구문 분석 작업이 완료 되 면, 내부 완료 처리기 (콜백 메서드 라고도 함) 라는 `HandleMatchBracesResponse` 에서 호출 되는 <xref:Microsoft.VisualStudio.Package.Source> 클래스입니다. 이 호출이 자동으로 수행 되는 <xref:Microsoft.VisualStudio.Package.LanguageService> 파서가가 아닌 기본 클래스입니다.
+8. 구문 분석 작업이 완료 되 면, 내부 완료 처리기 (콜백 메서드 라고도 함) 라는 `HandleMatchBracesResponse` 에서 호출 되는 <xref:Microsoft.VisualStudio.Package.Source> 클래스입니다. 이 호출이 자동으로 수행 되는 <xref:Microsoft.VisualStudio.Package.LanguageService> 파서가가 아닌 기본 클래스입니다.
 
 9. `HandleMatchBracesResponse` 메서드 범위에서의 목록을 가져옵니다 합니다 <xref:Microsoft.VisualStudio.Package.AuthoringSink> 에 저장 된 개체는 <xref:Microsoft.VisualStudio.Package.ParseRequest> 개체입니다. (범위는는 <xref:Microsoft.VisualStudio.TextManager.Interop.TextSpan> 소스 파일의 줄 및 문자 범위를 지정 하는 구조입니다.) 이 목록은 범위는 일반적으로 각각 여는 태그와 닫는 중괄호에 대 한 두 범위를 포함합니다.
 
