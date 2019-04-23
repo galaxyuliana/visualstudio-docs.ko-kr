@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3608f516eb9206bc5b4c232c227d3e49c2414be7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 5566538b428502c8e63e752463b0271daeac2918
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599755"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052508"
 ---
 # <a name="how-to-programmatically-determine-the-current-outlook-item"></a>방법: 프로그래밍 방식으로 현재 Outlook 항목 확인
   이 예제에서는 `Explorer.SelectionChange` 이름 현재 폴더 및 선택한 항목에 대 한 정보를 표시 하는 이벤트입니다. 다음 코드는 선택한 항목을 표시 합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "56599755"
 ## <a name="compile-the-code"></a>코드 컴파일
  이 예제에는 다음 사항이 필요합니다.
 
--   일정, 연락처 및 Microsoft Office Outlook에서 전자 메일 항목.
+- 일정, 연락처 및 Microsoft Office Outlook에서 전자 메일 항목.
 
 ## <a name="see-also"></a>참고자료
 - [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)

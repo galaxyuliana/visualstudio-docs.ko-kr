@@ -28,12 +28,12 @@ caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ee62f07bd9fb4626f8e8fb3387e4b80ca2d903d7
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 0b0cbd7afe90b1dbc091263e3a2594c9ca739e1c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652061"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048764"
 ---
 # <a name="error-unable-to-start-debugging-on-the-web-server"></a>오류: 웹 서버에서 디버깅을 시작할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "59652061"
   
 대부분의 경우 IIS가 올바르게 구성 되지 않아이 오류가 발생 합니다.
 
-##  <a name="vxtbshttpservererrorsthingstocheck"></a> IIS 구성 확인
+## <a name="vxtbshttpservererrorsthingstocheck"></a> IIS 구성 확인
 
 여기에서는 및 디버깅을 다시 시도 하기 전에 자세한 문제를 해결 하는 단계를 수행한 후 IIS를 다시 설정 해야 할 수 있습니다. 관리자 명령 프롬프트를 열고 입력 하 여 이렇게 `iisreset`, 또는이 IIS 관리자에서를 수행할 수 있습니다. 
 

@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e9f39c45382fc55144f8200c3951fb4a229b7a43
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: fa5c02fc28e7ffec4765d94758c838ab149e7ac3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57867373"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064195"
 ---
 # <a name="add-extensions-to-dsl-definitions"></a>DSL 정의에 확장 추가
 
@@ -20,15 +20,15 @@ DSL 정의 확장을 사용 하면 도메인 특정 언어 (DSL)에 대 한 확�
 
 DSL 확장 같은 기능을 포함할 수 있습니다.
 
--   모델 및 프레젠테이션 요소에 대 한 속성
+- 모델 및 프레젠테이션 요소에 대 한 속성
 
--   모양 및 연결선에 대 한 decorator
+- 모양 및 연결선에 대 한 decorator
 
--   클래스, 관계, 모양 및 연결선
+- 클래스, 관계, 모양 및 연결선
 
--   유효성 검사 제약 조건
+- 유효성 검사 제약 조건
 
--   도구 상자 항목 및 탭
+- 도구 상자 항목 및 탭
 
 확장된을 사용 하는 DSL의 사용자를 만들고 추가 기능은 인스턴스를 포함 하는 모델을 저장할 수 있습니다. 적절 한 확장명 설치 되어 있는 다른 사용자가 모델을 읽을 수 있습니다. 확장을 설치 하지 않은 사용자는 추가 기능을 사용할 수 없습니다 하지만 업데이트 하 고 추가 기능을 손실 하지 않고 모델을 저장할 수 있습니다.
 

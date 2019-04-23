@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0cc194adc37c8f9f0309780a4c8ef6f9a780223b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ecc310896f7b938025d42e06ac5ef0ec8bac3d35
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982570"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063631"
 ---
 # <a name="how-to-add-a-new-item-to-a-workflow-project"></a>방법: 워크플로 프로젝트에 새 항목 추가
 워크플로 프로젝트를 만든 후에는 워크플로 활동, 디자이너 및 다른 친숙한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 항목을 프로젝트에 추가할 수 있습니다.  
@@ -30,17 +30,17 @@ ms.locfileid: "58982570"
   
 ### <a name="to-add-a-new-item-to-a-workflow-project"></a>워크플로 프로젝트에 새 항목을 추가하려면  
   
-1.  에 **프로젝트** 메뉴에서 클릭 **새 항목 추가...** .  
+1. 에 **프로젝트** 메뉴에서 클릭 **새 항목 추가...** .  
   
      합니다 **새 항목 추가** 대화 상자가 열립니다.  
   
-2.  에 **설치 된 템플릿** 창 **워크플로** 그룹입니다.  
+2. 에 **설치 된 템플릿** 창 **워크플로** 그룹입니다.  
   
-3.  네 항목 중 하나를 선택합니다. 앞의 표에 선택할 수 있는 항목이 나열되어 있습니다.  
+3. 네 항목 중 하나를 선택합니다. 앞의 표에 선택할 수 있는 항목이 나열되어 있습니다.  
   
-4.  항목에 대 한 이름을 입력 합니다 **이름을** 대화 상자의 맨 위에 있는 상자입니다.  
+4. 항목에 대 한 이름을 입력 합니다 **이름을** 대화 상자의 맨 위에 있는 상자입니다.  
   
-5.  클릭 **추가** 현재 워크플로 프로젝트에 항목을 추가 합니다.  
+5. 클릭 **추가** 현재 워크플로 프로젝트에 항목을 추가 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [워크플로 프로젝트 만들기](../workflow-designer/creating-a-workflow-project.md)

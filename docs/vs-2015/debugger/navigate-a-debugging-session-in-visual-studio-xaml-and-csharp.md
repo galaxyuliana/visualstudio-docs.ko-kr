@@ -14,12 +14,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f6a4ea19013aefa1b3d078ce5993d48b4694989c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b5b8d24f01f7882e8c760918119a03a1c489c727
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982103"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059879"
 ---
 # <a name="navigate-a-debugging-session-in-visual-studio-xaml-and-c"></a>Visual Studio에서 디버깅 세션 탐색(XAML 및 C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,17 +35,17 @@ ms.locfileid: "58982103"
 ## <a name="in-this-topic"></a>항목 내용
  배울 방법:
 
--   [샘플 앱 만들기](#BKMK_CreateTheApplication)
+- [샘플 앱 만들기](#BKMK_CreateTheApplication)
 
--   [중단점을 설정하고 중단점까지 실행, 메서드 한 단계씩 코드 실행 및 프로그램 데이터 검사](#BKMK_StepInto)
+- [중단점을 설정하고 중단점까지 실행, 메서드 한 단계씩 코드 실행 및 프로그램 데이터 검사](#BKMK_StepInto)
 
--   [한 단계씩 코드 실행, 프로시저 단위 실행 및 메서드 프로시저 나가기](#BKMK_StepIntoOverOut)
+- [한 단계씩 코드 실행, 프로시저 단위 실행 및 메서드 프로시저 나가기](#BKMK_StepIntoOverOut)
 
--   [조건부 중단점 설정, 커서까지 실행 및 변수 시각화](#BKMK_ConditionCursorVisualize)
+- [조건부 중단점 설정, 커서까지 실행 및 변수 시각화](#BKMK_ConditionCursorVisualize)
 
--   [편집하며 계속하기, 예외에서 복구](#BKMK_EditContinueRecoverExceptions)
+- [편집하며 계속하기, 예외에서 복구](#BKMK_EditContinueRecoverExceptions)
 
-##  <a name="BKMK_CreateTheApplication"></a> 샘플 앱 만들기
+## <a name="BKMK_CreateTheApplication"></a> 샘플 앱 만들기
  디버깅은 코드와 관련이 있으므로 샘플 앱에서는 Windows 스토어 앱의 프레임워크만 사용하여 디버그 세션 탐색의 작동 방식 및 프로그램 상태를 검사하고 변경하는 방법을 확인할 수 있는 소스 파일을 만듭니다. 호출될 모든 코드가 기본 페이지의 생성자에서 호출되고 컨트롤이 추가되지 않으며 이벤트도 처리되지 않습니다.
 
  **기본 C# Windows 스토어 앱을 만듭니다.** Visual Studio를 엽니다. 홈페이지에서 **새 프로젝트** 링크를 선택합니다. 새 프로젝트 대화 상자의 **설치됨** 목록에서 **Visual C#** 을 선택하고 **Windows 스토어**를 선택합니다. 프로젝트 템플릿 목록에서 **애플리케이션**을 선택합니다. Visual Studio에서 새 솔루션 및 프로젝트를 만들고 MainPage.xaml 디자이너 및 XAML 코드 편집기를 표시합니다.
@@ -56,7 +56,7 @@ ms.locfileid: "58982103"
 
  이제 이 항목의 예제도 함께 수행할 수 있습니다.
 
-##  <a name="BKMK_StepInto"></a> 중단점을 설정하고 중단점까지 실행, 메서드 한 단계씩 코드 실행 및 프로그램 데이터 검사
+## <a name="BKMK_StepInto"></a> 중단점을 설정하고 중단점까지 실행, 메서드 한 단계씩 코드 실행 및 프로그램 데이터 검사
  디버그 세션을 시작할 수 있는 가장 일반적인 방법은 선택 하는 것 **디버깅 시작** 에서 합니다 **디버그** 메뉴 (키보드: F5)을 선택합니다. 실행이 시작되고 중단점에 도달하거나, 실행을 수동으로 일시 중단하거나, 예외가 발생하거나, 앱이 종료될 때까지 계속됩니다.
 
  실행이 디버거에서 일시 중단되면 변수 위로 마우스를 이동하여 데이터 팁에서 활성 변수의 값을 확인할 수 있습니다. 지역 및 자동 창을 열어 활성 변수와 해당 현재 값 목록을 확인할 수도 있습니다. 하나 이상의 변수를 조사식 창에 추가하면 앱이 계속 실행될 때 변수의 값에 초점을 맞출 수 있습니다.
@@ -112,7 +112,7 @@ ms.locfileid: "58982103"
 
   조사식 창에서 여러 변수를 조사할 수 있습니다. 지역 창 및 데이터 팁 창의 값과 같이 조사 변수의 값은 실행이 일시 중단될 때마다 업데이트됩니다. 코드 편집기에서 조사식 창에 변수를 추가할 수도 있습니다. 조사할 변수를 선택하고 마우스 오른쪽 단추로 클릭한 다음 **조사식 추가**를 선택합니다.
 
-##  <a name="BKMK_StepIntoOverOut"></a> 한 단계씩 코드 실행, 프로시저 단위 실행 및 메서드 프로시저 나가기
+## <a name="BKMK_StepIntoOverOut"></a> 한 단계씩 코드 실행, 프로시저 단위 실행 및 메서드 프로시저 나가기
  부모 메서드에 의해 호출된 메서드를 한 단계씩 코드 실행하는 것과 달리 메서드를 프로시저 단위로 실행하면 자식 메서드가 실행된 다음 부모가 다시 시작될 때 메서드 호출에서 실행이 일시 중단됩니다. 메서드 작동 방식을 잘 알고 있고 메서드 실행이 조사하고 있는 문제에 영향을 주지 않을 것을 확신하는 경우 메서드를 프로시저 단위로 실행할 수 있습니다.
 
  메서드 호출을 포함하지 않는 코드 줄을 프로시저 단위로 실행하면 줄을 한 단계씩 코드 실행하는 것처럼 줄이 실행됩니다.
@@ -144,7 +144,7 @@ ms.locfileid: "58982103"
 
  **디버깅을 중지합니다.** 디버그 메뉴의 디버깅 중지를 선택 (키보드: Shift + F5)입니다. 이렇게 하면 디버그 세션이 종료됩니다.
 
-##  <a name="BKMK_ConditionCursorVisualize"></a> 조건부 중단점 설정, 커서까지 실행 및 변수 시각화
+## <a name="BKMK_ConditionCursorVisualize"></a> 조건부 중단점 설정, 커서까지 실행 및 변수 시각화
  조건부 중단점은 디버거가 실행을 일시 중단하도록 하는 조건을 지정합니다. 조건은 true 또는 false로 평가될 수 있는 모든 코드 식으로 지정됩니다. 예를 들어 조건부 중단점을 사용하면 변수가 특정 값에 도달하는 경우에만 자주 호출되는 메서드에서 프로그램 상태를 검사할 수 있습니다.
 
  커서까지 실행은 일회용 중단점 설정과 유사합니다. 실행이 일시 중단되면 소스에서 줄을 선택하고 선택한 줄에 도달할 때까지 실행을 다시 시작할 수 있습니다. 예를 들어 메서드의 루프를 단계별로 실행하고 루프의 코드가 올바르게 수행되는지 확인할 수 있습니다. 루프의 모든 반복을 단계별로 실행하는 대신 루프가 실행된 후에 배치되는 커서까지 실행할 수 있습니다.
@@ -180,7 +180,7 @@ ms.locfileid: "58982103"
 
  **디버깅을 중지합니다.** 디버그 메뉴의 디버깅 중지를 선택 (키보드: Shift + F5)입니다. 이렇게 하면 디버그 세션이 종료됩니다.
 
-##  <a name="BKMK_EditContinueRecoverExceptions"></a> 편집하며 계속하기, 예외에서 복구
+## <a name="BKMK_EditContinueRecoverExceptions"></a> 편집하며 계속하기, 예외에서 복구
  일부 환경에서는 Visual Studio 디버거에서 코드를 중단할 경우 변수의 값을 변경하고 문의 논리까지도 변경할 수 있습니다. 이러한 기능을 편집하며 계속하기라고 합니다.
 
  편집하며 계속하기는 예외에서 중단된 경우에 특히 유용할 수 있습니다. 예외를 방지하기 위해 관련된 긴 프로시저 디버깅을 중지하고 다시 시작하는 대신 예외를 "해제"하여 예외가 발생하기 바로 전 지점까지 실행을 이동한 다음 문제가 되는 변수 또는 문을 변경하고 예외를 throw하지 않는 상태로 현재 디버깅 세션을 계속할 수 있습니다.
@@ -213,4 +213,4 @@ ms.locfileid: "58982103"
  **디버깅을 중지합니다.** 에 **디버깅할** 메뉴 선택 **디버깅 중지** (키보드: Shift + F5)입니다. 이렇게 하면 디버그 세션이 종료됩니다.
 
 ## <a name="see-also"></a>참고 항목
- [디버그 세션 시작 (VB, C#, c + + 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) [트리거 일시 중단, 다시 시작 및 백그라운드 이벤트를 Windows 스토어)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md) [Visual Studio에서 앱 디버그](../debugger/debug-store-apps-in-visual-studio.md)
+ [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) [트리거 일시 중단, 다시 시작 및 백그라운드 이벤트를 Windows 스토어)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md) [Visual Studio에서 앱 디버그](../debugger/debug-store-apps-in-visual-studio.md)

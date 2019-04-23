@@ -15,27 +15,27 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 57133b97ede20c0ed28eecbec6e3cea964f9558a
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: cffed1a3905ca1a1aceb9d2cfdcf4abc89f83574
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57873112"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060802"
 ---
 # <a name="debug-sharepoint-solutions"></a>SharePoint 솔루션 디버깅
   사용 하 여 SharePoint 솔루션을 디버깅할 수는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 디버거. 디버깅을 시작할 때 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 서버에 프로젝트 파일을 배포 하 고 다음 웹 브라우저에서 SharePoint 사이트의 인스턴스를 엽니다. 다음 섹션에서는 SharePoint 응용 프로그램에 디버그 하는 방법에 설명 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다.
 
--   [디버깅 사용](#enable-debugging)
+- [디버깅 사용](#enable-debugging)
 
--   [F5 디버깅 및 배포 프로세스](#f5-debug-and-deployment-process)
+- [F5 디버깅 및 배포 프로세스](#f5-debug-and-deployment-process)
 
--   [SharePoint 프로젝트 기능이](#sharepoint-project-features)
+- [SharePoint 프로젝트 기능이](#sharepoint-project-features)
 
--   [워크플로 디버깅](#debug-workflows)
+- [워크플로 디버깅](#debug-workflows)
 
--   [기능 이벤트 수신기를 디버그 합니다.](#debug-feature-event-receivers)
+- [기능 이벤트 수신기를 디버그 합니다.](#debug-feature-event-receivers)
 
--   [Ehanced 디버깅 정보를 사용 하도록 설정](#enable-enhanced-debugging-information)
+- [Ehanced 디버깅 정보를 사용 하도록 설정](#enable-enhanced-debugging-information)
 
 ## <a name="enable-debugging"></a>디버깅 사용
  먼저 SharePoint 솔루션에 디버그할 때 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], 대화 상자를 알려 줍니다 web.config 파일에 디버깅을 사용 하도록 하지 않습니다. (Web.config 파일을 SharePoint 서버를 설치할 때 생성 됩니다. 자세한 내용은 [Web.config 파일을 사용 하 여 작업](http://go.microsoft.com/fwlink/?LinkID=149266).) 대화 상자는 디버깅을 사용 하려면 디버깅 하거나 web.config 파일을 수정 하지 않고 프로젝트를 실행 하는의 옵션을 제공 합니다. 첫 번째 옵션을 선택하면 프로젝트가 정상적으로 실행됩니다. 두 번째 옵션을 선택하면 web.config 파일이 다음과 같이 구성됩니다.
@@ -77,11 +77,11 @@ ms.locfileid: "57873112"
 
  변경을 디버깅을 사용 하지 않도록 설정 하려면 다음을 변경할 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] web.config 파일에서:
 
--   호출 스택 해제 (`CallStack="false"`)
+- 호출 스택 해제 (`CallStack="false"`)
 
--   사용자 지정 오류를 활성화 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] (`<customErrors mode="On" />`)
+- 사용자 지정 오류를 활성화 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] (`<customErrors mode="On" />`)
 
--   컴파일 디버깅 사용 안 함 (`<compilation debug="false">`)
+- 컴파일 디버깅 사용 안 함 (`<compilation debug="false">`)
 
 ## <a name="f5-debug-and-deployment-process"></a>F5 디버깅 및 배포 프로세스
  디버그 모드에서 SharePoint 프로젝트를 실행 하는 경우 SharePoint 배포 프로세스는 다음 작업을 수행 합니다.

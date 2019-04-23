@@ -15,12 +15,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5eb3891026976c036fb48b16ed5ebfeba909100e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 582b3763cf2925e373bb3f71b843755ade49dcd2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54758145"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046500"
 ---
 # <a name="how-to-view-existing-types-class-designer"></a>방법: 기존 형식 보기(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,11 +29,11 @@ ms.locfileid: "54758145"
   
  로컬 및 참조 형식을 볼 수 있습니다. 로컬 형식은 현재 열린 프로젝트에 있으며 읽기/쓰기가 가능하고, 참조 형식은 다른 프로젝트나 참조 어셈블리에 있으며 읽기 전용입니다.  
   
- 클래스 다이어그램에서 새 형식을 디자인하려면 [방법: 클래스 디자이너를 사용하여 형식 만들기](../ide/how-to-create-types-by-using-class-designer.md)를 참조하세요.  
+ 클래스 다이어그램에서 새 형식을 디자인하려면 [방법: 클래스 디자이너를 사용 하 여 형식 만들기](../ide/how-to-create-types-by-using-class-designer.md)합니다.  
   
 ### <a name="to-see-types-in-a-project-on-a-class-diagram"></a>클래스 다이어그램에서 프로젝트의 형식을 보려면  
   
-1. 솔루션 탐색기의 프로젝트에서 기존 클래스 다이어그램(.cd) 파일을 엽니다. 또는 클래스 다이어그램이 없으면 프로젝트에 새 클래스 다이어그램을 추가합니다. [방법: 프로젝트에 클래스 다이어그램 추가(클래스 디자이너)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)을 참조하세요.  
+1. 솔루션 탐색기의 프로젝트에서 기존 클래스 다이어그램(.cd) 파일을 엽니다. 또는 클래스 다이어그램이 없으면 프로젝트에 새 클래스 다이어그램을 추가합니다. [방법: (클래스 디자이너) 프로젝트에 클래스 다이어그램 추가](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)합니다.  
   
 2. 솔루션 탐색기의 프로젝트에서 소스 코드 파일을 클래스 다이어그램으로 끌어 놓습니다.  
   
@@ -41,9 +41,9 @@ ms.locfileid: "54758145"
    >  여러 앱 간에 코드를 공유하는 프로젝트가 솔루션에 포함되어 있는 경우 다음 소스에서만 파일이나 코드를 클래스 다이어그램으로 끌어 올 수 있습니다.  
    > 
    > - 다이어그램을 포함하는 앱 프로젝트  
-   >   -   앱 프로젝트로 가져온 공유 프로젝트  
-   >   -   참조된 프로젝트  
-   >   -   어셈블리  
+   >   - 앱 프로젝트로 가져온 공유 프로젝트  
+   >   - 참조된 프로젝트  
+   >   - 어셈블리  
   
     소스 코드 파일에 정의된 형식을 나타내는 모양은 다이어그램에서 파일을 끌어 놓은 위치에 표시됩니다.  
   
@@ -61,11 +61,11 @@ ms.locfileid: "54758145"
   
 ### <a name="to-display-the-contents-of-a-project-in-a-class-diagram"></a>클래스 다이어그램에서 프로젝트 내용을 표시하려면  
   
-1.  솔루션 탐색기나 클래스 뷰에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **보기**, **클래스 다이어그램 보기**를 차례로 선택합니다.  
+1. 솔루션 탐색기나 클래스 뷰에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **보기**, **클래스 다이어그램 보기**를 차례로 선택합니다.  
   
      자동으로 채워진 클래스 다이어그램이 만들어집니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 형식 간의 상속 보기(클래스 디자이너)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
- [방법: 클래스 다이어그램 사용자 지정(클래스 디자이너)](../ide/how-to-customize-class-diagrams-class-designer.md)   
+ [방법: (클래스 디자이너) 형식 간의 상속 보기](../ide/how-to-view-inheritance-between-types-class-designer.md)   
+ [방법: 클래스 다이어그램 (클래스 디자이너) 사용자 지정](../ide/how-to-customize-class-diagrams-class-designer.md)   
  [형식 및 관계 보기(클래스 디자이너)](../ide/viewing-types-and-relationships-class-designer.md)

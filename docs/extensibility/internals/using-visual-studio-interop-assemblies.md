@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 91e0bc21f328823ccf8c956d85d921de3f3ae75b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 8f083e97427b44256ac565e2fc6822586825aef4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627833"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061946"
 ---
 # <a name="using-visual-studio-interop-assemblies"></a>Visual Studio Interop 어셈블리 사용
 Visual Studio interop 어셈블리는 Visual Studio 확장성을 제공 하는 COM 인터페이스에 액세스 하는 관리 되는 응용 프로그램을 허용 합니다. 가지 직선 COM 인터페이스 및 해당 interop 버전 간의 일부 차이점이 있습니다. 예를 들어 Hresult int 값으로 표현 일반적으로 동일한 방식으로 예외를 처리 해야 및 (특히 out 매개 변수) 매개 변수를 다르게 처리 됩니다.
@@ -87,17 +87,17 @@ else
 > [!NOTE]
 >  다음 방법 전달할 알려져 `IUnknown` 형식으로 포인터를 개체 <xref:System.IntPtr>합니다. 이 섹션에 설명 된 대로 처리 합니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory.InitializeForOwner%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory.InitializeForOwner%2A>
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A>
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.CreateProject%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.CreateProject%2A>
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.QueryViewInterface%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.QueryViewInterface%2A>
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>
 
 ## <a name="optional-out-parameters"></a>[Out] 매개 변수는 선택 사항
  [Out]로 정의 된 매개 변수를 검색할 데이터 형식 (`int`, `object`등)에서 동일한 데이터 형식의 배열로 사용 되는 하지만 인터페이스를 COM에 정의 된 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] interop 어셈블리 메서드 프로토타입.

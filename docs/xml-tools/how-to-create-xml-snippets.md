@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 43305d7b9353bd34e98a3dcfd31205cb9159a2f3
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 99ad13fd3c8c1c2efeeec28794e10a91d9dd0db1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659922"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060841"
 ---
 # <a name="how-to-create-xml-snippets"></a>방법: XML 조각 만들기
 
@@ -23,23 +23,23 @@ XML 편집기는 새 XML 조각을 만드는 데 사용할 수 있습니다. 이
 
  만들려면 새 XML 코드 조각 새 XML 파일을 만들고 사용 합니다 **코드 조각 삽입** 기능입니다.
 
-1.  에 **파일** 메뉴에서 클릭 **새로 만들기** 을 클릭 한 다음 **파일**합니다.
+1. 에 **파일** 메뉴에서 클릭 **새로 만들기** 을 클릭 한 다음 **파일**합니다.
 
-2.  클릭 **XML 파일** 을 클릭 한 다음 **오픈**합니다.
+2. 클릭 **XML 파일** 을 클릭 한 다음 **오픈**합니다.
 
-3.  편집기 창에서 마우스 오른쪽 단추로 누르고 **코드 조각 삽입**합니다.
+3. 편집기 창에서 마우스 오른쪽 단추로 누르고 **코드 조각 삽입**합니다.
 
-4.  선택 **조각** 목록에서 키를 눌러 **Enter**합니다.
+4. 선택 **조각** 목록에서 키를 눌러 **Enter**합니다.
 
-5.  원하는 대로 새 조각을 변경합니다.
+5. 원하는 대로 새 조각을 변경합니다.
 
-6.  **파일** 메뉴 선택 **XMLFile.xml**합니다.
+6. **파일** 메뉴 선택 **XMLFile.xml**합니다.
 
      합니다 **다른 이름으로 파일 저장** 대화 상자가 표시 됩니다.
 
-7.  새 조각의 이름을 입력 하 고 선택 **조각 파일** 에서 합니다 **형식으로 저장** 드롭다운 창입니다.
+7. 새 조각의 이름을 입력 하 고 선택 **조각 파일** 에서 합니다 **형식으로 저장** 드롭다운 창입니다.
 
-8.  사용 하 여는 **에 저장** 파일 위치를 변경 하려면 드롭다운 목록 합니다 *My Documents\Visual Studio 2005\Code Snippets\XML\My XML Snippets* 폴더 및 누릅니다 **저장**.
+8. 사용 하 여는 **에 저장** 파일 위치를 변경 하려면 드롭다운 목록 합니다 *My Documents\Visual Studio 2005\Code Snippets\XML\My XML Snippets* 폴더 및 누릅니다 **저장**.
 
 ## <a name="snippet-description"></a>조각 설명
 

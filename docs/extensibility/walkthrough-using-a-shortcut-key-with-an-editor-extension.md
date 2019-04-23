@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0d2abc185d06aa74e47bb2a36bd17df12a9db5c8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 0e8d4acb5bc43a174187fa74714a9ff24ef0a67c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56710307"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048690"
 ---
 # <a name="walkthrough-use-a-shortcut-key-with-an-editor-extension"></a>연습: 편집기 확장을 사용 하 여 바로 가기 키를 사용 합니다.
 편집기 확장에서 바로 가기 키에 대응할 수 있습니다. 다음 연습에는 바로 가기 키를 사용 하 여 보기 장식 텍스트 뷰를 추가 하는 방법을 보여 줍니다. 이 연습에서는 뷰포트 adornment 편집기 템플릿을 기준으로 하며 장식을 사용 하 여 추가할 수 있도록는 + 문자입니다.
@@ -61,9 +61,9 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
 
  명령 필터는의 구현 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>, 장식 인스턴스화하여 명령을 처리 합니다.
 
-1.  클래스 파일을 추가하고 이름을 `KeyBindingCommandFilter`로 지정합니다.
+1. 클래스 파일을 추가하고 이름을 `KeyBindingCommandFilter`로 지정합니다.
 
-2.  다음 using 문을 추가합니다.
+2. 다음 using 문을 추가합니다.
 
     ```csharp
     using System;
@@ -74,13 +74,13 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
 
     ```
 
-3.  KeyBindingCommandFilter 이라는 클래스에서 상속 해야 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>합니다.
+3. KeyBindingCommandFilter 이라는 클래스에서 상속 해야 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>합니다.
 
     ```csharp
     internal class KeyBindingCommandFilter : IOleCommandTarget
     ```
 
-4.  텍스트 보기에 대 한 전용 필드, 다음 명령을 명령 체인 및 명령 필터가 이미 추가 되어 있는지 여부를 나타내는 플래그를 추가 합니다.
+4. 텍스트 보기에 대 한 전용 필드, 다음 명령을 명령 체인 및 명령 필터가 이미 추가 되어 있는지 여부를 나타내는 플래그를 추가 합니다.
 
     ```csharp
     private IWpfTextView m_textView;
@@ -89,7 +89,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
     internal bool m_adorned;
     ```
 
-5.  텍스트 뷰를 설정 하는 생성자를 추가 합니다.
+5. 텍스트 뷰를 설정 하는 생성자를 추가 합니다.
 
     ```csharp
     public KeyBindingCommandFilter(IWpfTextView textView)
@@ -99,7 +99,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
     }
     ```
 
-6.  구현 된 `QueryStatus()` 같이 메서드.
+6. 구현 된 `QueryStatus()` 같이 메서드.
 
     ```csharp
     int IOleCommandTarget.QueryStatus(ref Guid pguidCmdGroup, uint cCmds, OLECMD[] prgCmds, IntPtr pCmdText)
@@ -108,7 +108,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
     }
     ```
 
-7.  구현 합니다 `Exec()` 메서드를 추가 하도록 자주색 상자 보기로 더하기 기호 (**+**) 문자를 입력 합니다.
+7. 구현 합니다 `Exec()` 메서드를 추가 하도록 자주색 상자 보기로 더하기 기호 (**+**) 문자를 입력 합니다.
 
     ```csharp
     int IOleCommandTarget.Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pvaIn, IntPtr pvaOut)
@@ -135,7 +135,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
 ## <a name="add-the-command-filter-prior-to-visual-studio-2017-version-156"></a>Visual Studio 2017 버전 15.6) (이전 명령 필터 추가
  Adornment 공급자 명령 필터 텍스트 보기에 추가 해야 합니다. 이 예제에서는 공급자 구현 <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener> 텍스트 뷰 생성 이벤트를 수신 대기 하도록 합니다. 또한이 adornment 공급자 장식의 Z 순서를 정의 하는 장식 계층을 내보냅니다.
 
-1.  KeyBindingTestTextViewCreationListener 파일에 다음 추가 문을 사용 하 여:
+1. KeyBindingTestTextViewCreationListener 파일에 다음 추가 문을 사용 하 여:
 
     ```csharp
     using System;
@@ -150,7 +150,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
 
     ```
 
-2.  텍스트 뷰 어댑터를 가져오려면 가져와야는 <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>합니다.
+2. 텍스트 뷰 어댑터를 가져오려면 가져와야는 <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>합니다.
 
     ```csharp
     [Import(typeof(IVsEditorAdaptersFactoryService))]
@@ -158,7 +158,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
 
     ```
 
-3.  변경 된 <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> 메서드를 추가 하도록는 `KeyBindingCommandFilter`합니다.
+3. 변경 된 <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> 메서드를 추가 하도록는 `KeyBindingCommandFilter`합니다.
 
     ```csharp
     public void TextViewCreated(IWpfTextView textView)
@@ -167,7 +167,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
     }
     ```
 
-4.  `AddCommandFilter` 처리기가 텍스트 뷰 어댑터를 가져와 명령 필터를 추가 합니다.
+4. `AddCommandFilter` 처리기가 텍스트 뷰 어댑터를 가져와 명령 필터를 추가 합니다.
 
     ```csharp
     void AddCommandFilter(IWpfTextView textView, KeyBindingCommandFilter commandFilter)
@@ -256,6 +256,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
        return false;
    }
    ```
+
    7. Adornment 계층 정의에서 복사한 *KeyBindingTestTextViewCreationListener.cs* 파일을 합니다 *KeyBindingCommandHandler.cs* 하 고 delete  *KeyBindingTestTextViewCreationListener.cs* 파일:
 
    ```csharp
@@ -319,8 +320,8 @@ private void CreateVisuals(ITextViewLine line)
 
 ## <a name="build-and-test-the-code"></a>빌드 및 코드를 테스트 합니다.
 
-1.  KeyBindingTest 솔루션을 빌드하고 실험적 인스턴스에서 실행 합니다.
+1. KeyBindingTest 솔루션을 빌드하고 실험적 인스턴스에서 실행 합니다.
 
-2.  텍스트 파일을 열거나 만듭니다. 입력 문자를 포함 하는 몇 가지 단어 'a', 차례로 **+** 텍스트 보기에서 아무 곳 이나 합니다.
+2. 텍스트 파일을 열거나 만듭니다. 입력 문자를 포함 하는 몇 가지 단어 'a', 차례로 **+** 텍스트 보기에서 아무 곳 이나 합니다.
 
      자주색 사각형 파일에서 'a' 모든 문자에 표시 됩니다.

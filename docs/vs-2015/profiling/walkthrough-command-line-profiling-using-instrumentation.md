@@ -13,37 +13,37 @@ caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 053904df9a4930385d25c90c310c3199ce1d664f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: d5b7e8dbe12f9c57c101c8f877dfcb0c6ee3196f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54755435"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064695"
 ---
-# <a name="walkthrough-command-line-profiling-using-instrumentation"></a>연습: 계측을 사용하여 명령줄 프로파일링
+# <a name="walkthrough-command-line-profiling-using-instrumentation"></a>연습: 계측을 사용 하 여 프로 파일링 명령줄
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 연습에서는 프로파일링 도구의 계측 방법을 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 독립 실행형 애플리케이션을 프로파일링해 자세한 타이밍 및 호출 수 데이터를 수집하는 과정을 안내합니다. 이 연습에서는 다음 작업을 수행합니다.  
   
--   [VSInstr](../profiling/vsinstr.md) 명령줄 도구를 사용하여 계측된 이진 파일을 생성합니다.  
+- [VSInstr](../profiling/vsinstr.md) 명령줄 도구를 사용하여 계측된 이진 파일을 생성합니다.  
   
--   [VSPerfCLREnv](../profiling/vsperfclrenv.md) 도구를 사용하여 .NET 프로파일링 데이터를 수집하도록 환경 변수를 설정합니다.  
+- [VSPerfCLREnv](../profiling/vsperfclrenv.md) 도구를 사용하여 .NET 프로파일링 데이터를 수집하도록 환경 변수를 설정합니다.  
   
--   [VSPerfCmd](../profiling/vsperfcmd.md) 도구를 사용하여 프로파일링 데이터를 수집합니다.  
+- [VSPerfCmd](../profiling/vsperfcmd.md) 도구를 사용하여 프로파일링 데이터를 수집합니다.  
   
--   [VSPerfReport](../profiling/vsperfreport.md) 도구를 사용하여 프로파일링 데이터의 파일 기반 보고서를 생성합니다.  
+- [VSPerfReport](../profiling/vsperfreport.md) 도구를 사용하여 프로파일링 데이터의 파일 기반 보고서를 생성합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  
   
--   [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)]  
+- [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)]  
   
--   C#에 대한 중간 정도의 이해도  
+- C#에 대한 중간 정도의 이해도  
   
--   명령줄 도구 사용법에 대한 중간 정도의 이해도  
+- 명령줄 도구 사용법에 대한 중간 정도의 이해도  
   
--   [PeopleTrax 샘플](../profiling/peopletrax-sample-profiling-tools.md)의 복사본  
+- [PeopleTrax 샘플](../profiling/peopletrax-sample-profiling-tools.md)의 복사본  
   
--   프로파일링을 통해 제공되는 정보를 사용하려면 디버깅 기호 정보를 준비해 두는 것이 가장 좋습니다. 자세한 내용은 [방법: Windows 기호 정보 참조](../profiling/how-to-reference-windows-symbol-information.md)를 참조하세요.  
+- 프로파일링을 통해 제공되는 정보를 사용하려면 디버깅 기호 정보를 준비해 두는 것이 가장 좋습니다. 자세한 내용은 [방법: 참조 Windows 기호 정보](../profiling/how-to-reference-windows-symbol-information.md)합니다.  
   
 ## <a name="command-line-profiling-using-the-instrumentation-method"></a>계측 방법을 사용하여 명령줄 프로파일링  
  계측은 계측된 모듈의 함수에 대한 진입 및 종료 시 타이밍 정보를 수집하는 프로브 함수를 특수하게 작성된 버전의 프로파일링된 이진 파일에 포함할 수 있는 프로파일링 방법입니다. 이 프로파일링 방법은 샘플링보다 침입성이 높으므로오버헤드가 더 많이 발생합니다. 계측된 이진 파일도 디버그 또는 릴리스 이진 파일보다 더 크므로 배포할 수 없습니다.  
@@ -53,19 +53,19 @@ ms.locfileid: "54755435"
   
 #### <a name="to-profile-the-peopletrax-application-by-using-the-instrumentation-method"></a>계측 방법을 사용하여 PeopleTrax 애플리케이션을 프로파일링하려면  
   
-1.  PeopleTrax 샘플 애플리케이션을 설치하고 릴리스 버전을 빌드합니다.  
+1. PeopleTrax 샘플 애플리케이션을 설치하고 릴리스 버전을 빌드합니다.  
   
-2.  명령 프롬프트 창을 열고 **프로파일링 도구** 디렉터리를 로컬 Path 환경 변수에 추가합니다.  
+2. 명령 프롬프트 창을 열고 **프로파일링 도구** 디렉터리를 로컬 Path 환경 변수에 추가합니다.  
   
-3.  작업 디렉터리를 PeopleTrax 이진 파일이 포함된 디렉터리로 변경합니다.  
+3. 작업 디렉터리를 PeopleTrax 이진 파일이 포함된 디렉터리로 변경합니다.  
   
-4.  파일 기반 보고서를 포함할 디렉터리를 만듭니다. 다음 명령을 입력합니다.  
+4. 파일 기반 보고서를 포함할 디렉터리를 만듭니다. 다음 명령을 입력합니다.  
   
     ```  
     md Reports  
     ```  
   
-5.  VSInstr 명령줄 도구를 사용하여 애플리케이션의 이진 파일을 계측합니다. 별도의 명령줄에서 다음 명령을 입력합니다.  
+5. VSInstr 명령줄 도구를 사용하여 애플리케이션의 이진 파일을 계측합니다. 별도의 명령줄에서 다음 명령을 입력합니다.  
   
     ```  
     VSInstr PeopleTrax.exe  
@@ -77,21 +77,21 @@ ms.locfileid: "54755435"
   
      **참고** 기본적으로 VSInstr은 원본 파일의 계측되지 않은 백업을 저장합니다. 백업 파일 이름의 확장명은 .orig입니다 예를 들어 원본 버전 "MyApp.exe"는 "MyApp.exe.orig"로 저장됩니다.  
   
-6.  다음 명령을 입력하여 적절한 환경 변수를 설정합니다.  
+6. 다음 명령을 입력하여 적절한 환경 변수를 설정합니다.  
   
     ```  
     VsPerfCLREnv /traceon  
     ```  
   
-7.  프로파일러를 시작하려면 다음 명령을 입력합니다.  
+7. 프로파일러를 시작하려면 다음 명령을 입력합니다.  
   
     ```  
     VsPerfCmd /start:trace /output:Reports\Report.vsp  
     ```  
   
-8.  프로파일러를 추적 모드에서 시작한 후 PeopleTrax.exe 프로세스의 계측된 버전을 실행하여 데이터를 수집합니다.  
+8. 프로파일러를 추적 모드에서 시작한 후 PeopleTrax.exe 프로세스의 계측된 버전을 실행하여 데이터를 수집합니다.  
   
-     **PeopleTrax** 애플리케이션 창이 나타납니다.  
+     **PeopleTrax** 응용 프로그램 창이 나타납니다.  
   
 9. **사용자 가져오기**를 클릭합니다.  
   

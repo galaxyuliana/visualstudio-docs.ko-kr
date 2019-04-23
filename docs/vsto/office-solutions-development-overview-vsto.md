@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1c9c834d3fbb49775d9462ac5e6ce3d27127f793
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 45b9dba16a0a8ebf6baaf2f1d7660035294fd80d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628782"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061959"
 ---
 # <a name="office-solutions-development-overview-vsto"></a>Office 솔루션 개발 개요 (VSTO)
   Microsoft Office를 솔루션의 프런트 엔드로 사용하여 Word의 워드 프로세싱 기능, Excel의 데이터 분석 기능 및 Outlook의 전자 메일 관리 기능과 같은 익숙한 Microsoft Office 사용자 인터페이스 및 도구를 활용할 수 있습니다. Visual Studio에서 솔루션을 개발하여 Office 애플리케이션을 사용자 지정하고 비즈니스 프로세스에 필요한 특정 기능을 추가할 수 있습니다. 예를 들어 편집 가능하거나 편집 가능하지 않게 만들 수 있는 기존 부분에서 계약을 구성하는 계약 생성기로 Word를 전환할 수 있습니다. Excel을 사용하여 다양한 프로젝트에 대해 사용자 지정된 자동화된 예산 워크시트를 만들 수 있습니다. 또한 사용자가 Office 솔루션을 오프라인으로 전환하여 복잡한 솔루션을 웹 기반 아키텍처를 사용하는 경우보다 실용적으로 만들 수도 있습니다.
@@ -43,11 +43,11 @@ ms.locfileid: "56628782"
 
  사용자 지정에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [Excel 용 문서 수준 사용자 지정 프로그래밍 시작](../vsto/getting-started-programming-document-level-customizations-for-excel.md)
+- [Excel 용 문서 수준 사용자 지정 프로그래밍 시작](../vsto/getting-started-programming-document-level-customizations-for-excel.md)
 
--   [Word 용 문서 수준 사용자 지정 프로그래밍 시작](../vsto/getting-started-programming-document-level-customizations-for-word.md)
+- [Word 용 문서 수준 사용자 지정 프로그래밍 시작](../vsto/getting-started-programming-document-level-customizations-for-word.md)
 
--   [문서 수준 사용자 지정 아키텍처](../vsto/architecture-of-document-level-customizations.md)
+- [문서 수준 사용자 지정 아키텍처](../vsto/architecture-of-document-level-customizations.md)
 
 ### <a name="vsto-add-ins"></a>VSTO 추가 기능
  VSTO 추가 기능은 Microsoft Office 애플리케이션과 연결된 어셈블리로 구성됩니다. 일반적으로 VSTO 추가 기능은 연결된 애플리케이션이 시작될 때 실행되지만 사용자는 애플리케이션이 이미 실행 중인 경우에도 VSTO 추가 기능을 로드할 수 있습니다. VSTO 추가 기능에서 만든 기능은 열려 있는 문서에 관계없이 애플리케이션 자체에서 사용할 수 있습니다.
@@ -56,9 +56,9 @@ ms.locfileid: "56628782"
 
  VSTO 추가 기능에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [VSTO 추가 기능 프로그래밍 시작](../vsto/getting-started-programming-vsto-add-ins.md)
+- [VSTO 추가 기능 프로그래밍 시작](../vsto/getting-started-programming-vsto-add-ins.md)
 
--   [VSTO 추가 기능 아키텍처](../vsto/architecture-of-vsto-add-ins.md)
+- [VSTO 추가 기능 아키텍처](../vsto/architecture-of-vsto-add-ins.md)
 
 ## <a name="automate-office-applications-by-using-primary-interop-assemblies"></a>주 interop 어셈블리를 사용 하 여 Office 응용 프로그램 자동화
  애플리케이션의 개체 모델에 액세스하는 코드를 작성하여 Office 애플리케이션의 기능을 프로그래밍 방식으로 솔루션에 통합할 수 있습니다. 개체 모델은 다양한 속성 및 메서드를 통해 기능을 노출하는 클래스의 배열입니다. 각 Office 애플리케이션의 개체 모델은 서로 다릅니다.
@@ -69,9 +69,9 @@ ms.locfileid: "56628782"
 
  VSTO Office 솔루션에서 PIA를 사용하는 방법에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [Office 솔루션에서 코드를 작성 합니다.](../vsto/writing-code-in-office-solutions.md)
+- [Office 솔루션에서 코드를 작성 합니다.](../vsto/writing-code-in-office-solutions.md)
 
--   [Office 주 interop 어셈블리](../vsto/office-primary-interop-assemblies.md)
+- [Office 주 interop 어셈블리](../vsto/office-primary-interop-assemblies.md)
 
 ## <a name="run-microsoft-vsto-office-solutions-on-end-user-computers"></a>최종 사용자 컴퓨터에서 Microsoft VSTO Office 솔루션 실행
  VSTO Office 솔루션을 만드는 경우 배포 요구 사항이 개발 선택 사항에 미칠 수 있는 영향을 고려합니다.

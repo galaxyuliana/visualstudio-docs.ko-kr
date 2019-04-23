@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 437f5aecb2fe8f7bb953c9efb6eb33ccb945c9f0
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: dd6514ec43cd3180d808c20d5589bf18e3a9b58b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721796"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048207"
 ---
 # <a name="walkthrough-create-a-core-editor-and-registering-an-editor-file-type"></a>연습: 핵심 편집기 및 등록 하는 편집기 파일 형식 만들기
 이 연습에는 시작 하는 VSPackage를 만드는 방법을 보여 줍니다 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 핵심 편집기를 사용 하 여 파일을 *.myext* 파일 이름 확장명 로드 됩니다.
@@ -26,11 +26,11 @@ ms.locfileid: "56721796"
 ## <a name="locations-for-the-visual-studio-package-project-template"></a>Visual Studio 패키지 프로젝트 템플릿 위치
  Visual Studio 패키지 프로젝트 템플릿은 **새 프로젝트** 대화 상자의 세 가지 서로 다른 위치에 있습니다.
 
-1.  **Visual Basic 확장성**. 프로젝트의 기본 언어는 Visual Basic입니다.
+1. **Visual Basic 확장성**. 프로젝트의 기본 언어는 Visual Basic입니다.
 
-2.  **C# 확장성**. 프로젝트의 기본 언어는 C#입니다.
+2. **C# 확장성**. 프로젝트의 기본 언어는 C#입니다.
 
-3.  **기타 프로젝트 형식 확장성**. 프로젝트의 기본 언어는 C++입니다.
+3. **기타 프로젝트 형식 확장성**. 프로젝트의 기본 언어는 C++입니다.
 
 ### <a name="to-create-the-vspackage"></a>VSPackage를 만들려면
 

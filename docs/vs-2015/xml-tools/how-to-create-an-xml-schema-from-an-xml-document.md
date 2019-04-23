@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 43c4f50b5793933065b2f3ff4342d4aabdbd130b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 8e32d96451e2494816ddd5f7a66591f40f847e85
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669983"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066067"
 ---
 # <a name="how-to-create-an-xml-schema-from-an-xml-document"></a>방법: XML 문서에서 XML 스키마 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,9 +33,9 @@ XML 편집기를 사용하여 XML 문서에서 XSD(XML 스키마 정의 언어) 
   
 ### <a name="to-create-an-xml-schema"></a>XML 스키마를 만들려면  
   
-1.  XML 인스턴스 문서를 XML 편집기에 로드합니다.  
+1. XML 인스턴스 문서를 XML 편집기에 로드합니다.  
   
-2.  클릭 합니다 **Create Schema** 에서 단추를 **도구 모음**합니다.  
+2. 클릭 합니다 **Create Schema** 에서 단추를 **도구 모음**합니다.  
   
      XML 스키마 문서가 만들어지고 XML 인스턴스 문서에 있는 각 네임스페이스에 대해 열립니다. 각 스키마는 임시 기타 파일로 열립니다.  
   

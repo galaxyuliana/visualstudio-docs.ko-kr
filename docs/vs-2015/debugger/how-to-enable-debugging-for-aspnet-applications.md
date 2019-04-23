@@ -18,12 +18,12 @@ caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0dbedf6f2bc0832fa3ba54f691cbf713ccb533a9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3a229111a2aa4dd633d0728d3a1156c6a8048094
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971287"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059957"
 ---
 # <a name="how-to-enable-debugging-for-aspnet-applications"></a>방법: ASP.NET 응용 프로그램에 디버깅 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,32 +35,32 @@ ms.locfileid: "58971287"
   
 ### <a name="to-enable-aspnet-debugging-in-the-project-properties-visual-basicc"></a>프로젝트 속성에서 ASP.NET 디버깅을 사용하도록 설정하려면(Visual Basic/C#)  
   
-1.  **솔루션 탐색기**에서 웹 프로젝트 이름을 마우스 오른쪽 단추로 클릭한 다음 **속성**을 선택합니다.  
+1. **솔루션 탐색기**에서 웹 프로젝트 이름을 마우스 오른쪽 단추로 클릭한 다음 **속성**을 선택합니다.  
   
-2.  프로젝트 속성 페이지에서 **웹** 탭을 클릭합니다.  
+2. 프로젝트 속성 페이지에서 **웹** 탭을 클릭합니다.  
   
-3.  **디버거**아래에서 **ASP.NET** 확인란을 선택합니다.  
+3. **디버거**아래에서 **ASP.NET** 확인란을 선택합니다.  
   
 ### <a name="to-enable-debugging-in-the-webconfig-file"></a>web.config 파일에서 디버깅을 사용하도록 설정하려면  
   
-1.  표준 텍스트 편집기 또는 XML 파서를 사용하여 web.config 파일을 엽니다.  
+1. 표준 텍스트 편집기 또는 XML 파서를 사용하여 web.config 파일을 엽니다.  
   
     > [!NOTE]  
     > 그러나 웹 브라우저를 사용하여 원격으로 파일에 액세스할 수 없습니다. 보안상의 이유로 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]는 브라우저에서 Web.config 파일에 직접 액세스할 수 없도록 Microsoft IIS를 구성합니다. 브라우저를 사용하여 구성 파일에 액세스하려고 하면 HTTP 액세스 오류 403(사용할 수 없음)이 표시됩니다.  
   
-2.  Web.config는 XML 파일이므로 태그로 표시된 중첩된 섹션을 포함합니다.  `configuration/system.web/compilation` 요소를 찾습니다. 컴파일 요소가 없는 경우 생성합니다.  
+2. Web.config는 XML 파일이므로 태그로 표시된 중첩된 섹션을 포함합니다.  `configuration/system.web/compilation` 요소를 찾습니다. 컴파일 요소가 없는 경우 생성합니다.  
   
-3.   `compilation` 요소에 `debug` 특성이 없으면 요소에 특성을 추가합니다.  
+3.  `compilation` 요소에 `debug` 특성이 없으면 요소에 특성을 추가합니다.  
   
-4.  `debug` 특성 값이 `true`로 설정되었는지 확인합니다.  
+4. `debug` 특성 값이 `true`로 설정되었는지 확인합니다.  
   
 web.config 파일은 다음 예제와 같습니다. 구성 요소와 system.web 요소 사이에 섹션이 있을 수 있습니다.  
   
--   구성 요소와 system.web 요소 간의 요소 섹션  
+- 구성 요소와 system.web 요소 간의 요소 섹션  
   
--   system.web 요소와 컴파일 요소 간의 요소 섹션  
+- system.web 요소와 컴파일 요소 간의 요소 섹션  
   
--   컴파일 요소에는 다른 특성 및 요소가 포함될 수 있음  
+- 컴파일 요소에는 다른 특성 및 요소가 포함될 수 있음  
   
 ## <a name="example"></a>예제  
   

@@ -13,12 +13,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 276d3306d908fa8af4e58f38c965b73c1fff9284
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 5a45720c739087c2caf43314cbcbc8aea162534c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659816"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064845"
 ---
 # <a name="how-to-select-the-files-to-build"></a>방법: 빌드할 파일 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "59659816"
   
 #### <a name="to-declare-items-individually"></a>항목을 개별적으로 선언하려면  
   
--   다음과 비슷한 `Include` 특성을 사용합니다.  
+- 다음과 비슷한 `Include` 특성을 사용합니다.  
   
      `<CSFile Include="form1.cs"/>`  
   
@@ -45,7 +45,7 @@ ms.locfileid: "59659816"
   
 #### <a name="to-declare-multiple-items"></a>여러 항목을 선언하려면  
   
--   다음과 비슷한 `Include` 특성을 사용합니다.  
+- 다음과 비슷한 `Include` 특성을 사용합니다.  
   
      `<CSFile Include="form1.cs;form2.cs"/>`  
   
@@ -66,19 +66,19 @@ ms.locfileid: "59659816"
   
 #### <a name="to-include-all-jpg-files-in-the-images-directory-and-subdirectories"></a>Images 디렉터리 및 하위 디렉터리의 모든 .jpg 파일을 포함하려면  
   
--   다음 `Include` 특성을 사용합니다.  
+- 다음 `Include` 특성을 사용합니다.  
   
      `Include="Images\**\*.jpg"`  
   
 #### <a name="to-include-all-jpg-files-starting-with-img"></a>“img”로 시작하는 모든 .jpg 파일을 포함하려면  
   
--   다음 `Include` 특성을 사용합니다.  
+- 다음 `Include` 특성을 사용합니다.  
   
      `Include="Images\**\img*.jpg"`  
   
 #### <a name="to-include-all-files-in-directories-with-names-ending-in-jpgs"></a>디렉터리에서 이름이 “jpgs”로 끝나는 모든 파일을 포함하려면  
   
--   다음 `Include` 특성 중 하나를 사용합니다.  
+- 다음 `Include` 특성 중 하나를 사용합니다.  
   
      `Include="Images\**\*jpgs\*.*"`  
   
@@ -91,7 +91,7 @@ ms.locfileid: "59659816"
   
 #### <a name="to-use-all-visual-c-or-visual-basic-files-as-inputs"></a>모든 Visual C# 또는 Visual Basic 파일을 입력으로 사용하려면  
   
--   다음과 비슷한 `Include` 특성을 사용합니다.  
+- 다음과 비슷한 `Include` 특성을 사용합니다.  
   
      `<CSC Sources="@(CSFile)">...</CSC>`  
   

@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ba574854424eac14898c923701f7d8f4c1f81347
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: d3b94b70db49903e41d26ac0f1382eaa2826e31a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648915"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059759"
 ---
 # <a name="changing-the-return-type-of-a-datacontext-method-cannot-be-undone"></a>DataContext 메서드의 반환 형식 변경은 취소할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,17 +25,17 @@ DataContext 메서드의 반환 형식을 변경하면 실행 취소할 수 없�
   
 ### <a name="to-change-the-return-type-of-a-datacontext"></a>DataContext의 반환 형식을 변경하려면  
   
--   **예**를 클릭합니다.  
+- **예**를 클릭합니다.  
   
 ### <a name="to-exit-the-message-box-and-leave-the-return-type-unchanged"></a>반환 형식을 변경하지 않고 메시지 상자를 끝내려면  
   
--   **아니요**를 클릭합니다.  
+- **아니요**를 클릭합니다.  
   
 ### <a name="to-revert-to-the-original-return-type-after-changing-the-return-type"></a>반환 형식을 변경한 후 원래 반환 형식으로 되돌리려면  
   
-1.  [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서 <xref:System.Data.Linq.DataContext> 메서드를 선택한 다음, 삭제합니다.  
+1. [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서 <xref:System.Data.Linq.DataContext> 메서드를 선택한 다음, 삭제합니다.  
   
-2.  **서버 탐색기/데이터베이스 탐색기**에서 항목을 찾아 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 끌어옵니다.  
+2. **서버 탐색기/데이터베이스 탐색기**에서 항목을 찾아 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 끌어옵니다.  
   
      원래 기본 반환 형식을 갖는 <xref:System.Data.Linq.DataContext> 메서드가 만들어집니다.  
   

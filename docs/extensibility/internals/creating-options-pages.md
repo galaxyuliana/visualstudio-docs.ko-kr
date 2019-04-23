@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5d05b64f2245e4710f501ed8a24f7052cc310b30
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d87e4002bd920a3b189886ae29bc7cf3a6ccf61f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56633085"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60044507"
 ---
 # <a name="create-options-pages"></a>옵션 페이지 만들기
 에 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 관리 패키지 프레임 워크 클래스에서 파생 된 <xref:Microsoft.VisualStudio.Shell.DialogPage> 확장을 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 추가 하 여 IDE **옵션** 아래 페이지를 **도구** 메뉴.
@@ -25,9 +25,9 @@ ms.locfileid: "56633085"
 
  환경 특정 구현 하는 개체를 인스턴스화하고 때문 **도구 옵션** 해당 특정 페이지 IDE에 의해 표시 되 면 페이지:
 
--   A **도구 옵션** VSPackage를 구현 하는 개체 아닌 자체의 개체에 페이지를 구현 해야 합니다.
+- A **도구 옵션** VSPackage를 구현 하는 개체 아닌 자체의 개체에 페이지를 구현 해야 합니다.
 
--   개체를 여러 개 구현할 수 없습니다 **도구 옵션** 페이지입니다.
+- 개체를 여러 개 구현할 수 없습니다 **도구 옵션** 페이지입니다.
 
 ## <a name="register-as-a-tools-options-page-provider"></a>도구 옵션 페이지 공급자로 등록
  통해 지 원하는 사용자 VSPackage 구성을 **도구 옵션** 페이지 제공 하는 이러한 개체를 나타냅니다 **도구 옵션** 의 인스턴스를 적용 하 여 페이지 <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> 합니다 적용할<xref:Microsoft.VisualStudio.Shell.Package>구현입니다.

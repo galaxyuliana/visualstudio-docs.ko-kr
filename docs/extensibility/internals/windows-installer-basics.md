@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d2712c8d52ffd569f7d422708de612ac322045f8
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: bf47b5c6aa84cb5d5cc961e34161435dc27dd517
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57872955"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066262"
 ---
 # <a name="windows-installer-basics"></a>Windows Installer 기본 사항
 Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요소 (WICs 또는 구성 요소 라고도 함) 라는 단위로 이러한 작업을 수행 합니다. 응용 프로그램 또는 사용자의 컴퓨터에서 소프트웨어 제품 제거. 설치 및 Windows Installer를 사용 하 여 설정에 대 한 계산 참조의 기본 단위는 각 WIC를 식별 하는 GUID입니다.
@@ -57,15 +57,15 @@ Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요�
 
 #### <a name="installer-enforced-rules"></a>설치 관리자 적용 규칙
 
--   지정된 된 구성 요소에 있는 모든 파일을 동일한 디렉터리에 설치 되어야 합니다. 반대로, 별개의 폴더에 설치 된 파일은 구성 요소 구분에 속해야 합니다.
+- 지정된 된 구성 요소에 있는 모든 파일을 동일한 디렉터리에 설치 되어야 합니다. 반대로, 별개의 폴더에 설치 된 파일은 구성 요소 구분에 속해야 합니다.
 
--   구성 요소별 키 경로가 하나만 있을 수 있습니다. 키 경로 단순히 파일 또는 레지스트리 키를 전체 구성 요소를 나타냅니다.
+- 구성 요소별 키 경로가 하나만 있을 수 있습니다. 키 경로 단순히 파일 또는 레지스트리 키를 전체 구성 요소를 나타냅니다.
 
 #### <a name="component-provider-responsibilities"></a>구성 요소 공급자 책임
 
--   이후 버전에서는 개별적으로 제공할 수 있는 두 리소스는 별도 구성 요소에 있어야 합니다. 이러한 리소스는 별도로 제공 되지 특정 경우에 동일한 구성 요소도 리소스를 그룹화 할 수 해야 합니다. 사실, 것이 좋습니다 모든 기본 리소스 (예: Dll) 별도 WICs에 항상 존재 합니다. 자세한 내용은 [설치 관리자 구성 요소 정의](/windows/desktop/Msi/defining-installer-components)합니다.
+- 이후 버전에서는 개별적으로 제공할 수 있는 두 리소스는 별도 구성 요소에 있어야 합니다. 이러한 리소스는 별도로 제공 되지 특정 경우에 동일한 구성 요소도 리소스를 그룹화 할 수 해야 합니다. 사실, 것이 좋습니다 모든 기본 리소스 (예: Dll) 별도 WICs에 항상 존재 합니다. 자세한 내용은 [설치 관리자 구성 요소 정의](/windows/desktop/Msi/defining-installer-components)합니다.
 
--   버전이 지정 된 리소스가 해야 적이 둘 이상의 WIC에서 제공 됩니다.
+- 버전이 지정 된 리소스가 해야 적이 둘 이상의 WIC에서 제공 됩니다.
 
 ## <a name="see-also"></a>참고 항목
 - [구성 요소 규칙을 위반 하는 경우 어떻게 되나요?](/windows/desktop/Msi/what-happens-if-the-component-rules-are-broken)

@@ -19,12 +19,12 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4c1942e39895439eb040109a34353d6c361e95c5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: adc2347e6928a841a0a2c24d1d786be8edcbc4ac
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983811"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045786"
 ---
 # <a name="how-to-re-sign-application-and-deployment-manifests"></a>방법: 애플리케이션 및 배포 매니페스트 다시 서명
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,11 +38,11 @@ Windows Forms 응용 프로그램, Windows Presentation Foundation 응용 프로
   
 #### <a name="to-re-sign-the-application-and-deployment-manifests-with-mageexe"></a>Mage.exe를 사용 하 여 매니페스트에 다시 응용 프로그램 및 배포를 서명 하려면  
   
-1.  엽니다는 **Visual Studio 명령 프롬프트** 창입니다.  
+1. 엽니다는 **Visual Studio 명령 프롬프트** 창입니다.  
   
-2.  로그인 하려면 매니페스트 파일이 있는 폴더로 디렉터리를 변경 합니다.  
+2. 로그인 하려면 매니페스트 파일이 있는 폴더로 디렉터리를 변경 합니다.  
   
-3.  응용 프로그램 매니페스트 파일에 서명 하려면 다음 명령을 입력 합니다. ManifestFileName를 확장 매니페스트 파일의 이름으로 바꿉니다. 인증서 파일의 상대 또는 정규화 된 경로 사용 하 여 인증서를 바꾸고 암호를 인증서의 암호로 바꿉니다.  
+3. 응용 프로그램 매니페스트 파일에 서명 하려면 다음 명령을 입력 합니다. ManifestFileName를 확장 매니페스트 파일의 이름으로 바꿉니다. 인증서 파일의 상대 또는 정규화 된 경로 사용 하 여 인증서를 바꾸고 암호를 인증서의 암호로 바꿉니다.  
   
     ```  
     mage -sign ManifestFileName.manifest -CertFile Certificate -Password Password  
@@ -56,7 +56,7 @@ Windows Forms 응용 프로그램, Windows Presentation Foundation 응용 프로
     mage -sign WpfBrowserApplication1.exe.manifest -CertFile ..\WpfBrowserApplication1_TemporaryKey.pfx  
     ```  
   
-4.  업데이트 하 고 이전 단계 에서처럼 자리 표시자 이름을 대체 배포 매니페스트 파일을 서명 하려면 다음 명령을 입력 합니다.  
+4. 업데이트 하 고 이전 단계 에서처럼 자리 표시자 이름을 대체 배포 매니페스트 파일을 서명 하려면 다음 명령을 입력 합니다.  
   
     ```  
     mage -update DeploymentManifest -appmanifest ApplicationManifest -CertFile Certificate -Password Password  
@@ -70,20 +70,20 @@ Windows Forms 응용 프로그램, Windows Presentation Foundation 응용 프로
     mage -update WpfBrowserApplication1.xbap -appmanifest WpfBrowserApplication1.exe.manifest -CertFile ..\WpfBrowserApplication1_TemporaryKey.pfx  
     ```  
   
-5.  필요에 따라 마스터 배포 매니페스트를 복사 (게시할\\*appname*.application) 버전 배포 디렉터리로 (publish\Application 파일\\*appname*_ *버전*).  
+5. 필요에 따라 마스터 배포 매니페스트를 복사 (게시할\\*appname*.application) 버전 배포 디렉터리로 (publish\Application 파일\\*appname*_ *버전*).  
   
 ## <a name="updating-and-re-signing-the-application-and-deployment-manifests"></a>업데이트 및 응용 프로그램 및 배포 매니페스트에 다시 서명  
  이 절차는 이미 변경한 응용 프로그램 매니페스트 파일 (.manifest) 이지만 업데이트 된 다른 파일이 가정 합니다. 파일이 업데이트 될 때 파일을 나타내는 해시도 업데이트 되어야 합니다.  
   
 #### <a name="to-update-and-re-sign-the-application-and-deployment-manifests-with-mageexe"></a>Mage.exe를 사용 하 여 매니페스트를 업데이트 하 고 응용 프로그램 및 배포에 다시 서명  
   
-1.  엽니다는 **Visual Studio 명령 프롬프트** 창입니다.  
+1. 엽니다는 **Visual Studio 명령 프롬프트** 창입니다.  
   
-2.  로그인 하려면 매니페스트 파일이 있는 폴더로 디렉터리를 변경 합니다.  
+2. 로그인 하려면 매니페스트 파일이 있는 폴더로 디렉터리를 변경 합니다.  
   
-3.  게시 출력 폴더의 파일에서.deploy 파일 확장명을 제거 합니다.  
+3. 게시 출력 폴더의 파일에서.deploy 파일 확장명을 제거 합니다.  
   
-4.  업데이트 된 파일에 대 한 새 해시를 사용 하 여 응용 프로그램 매니페스트를 업데이트 하 고 응용 프로그램 매니페스트 파일을 서명 하려면 다음 명령을 입력 합니다. ManifestFileName를 확장 매니페스트 파일의 이름으로 바꿉니다. 인증서 파일의 상대 또는 정규화 된 경로 사용 하 여 인증서를 바꾸고 암호를 인증서의 암호로 바꿉니다.  
+4. 업데이트 된 파일에 대 한 새 해시를 사용 하 여 응용 프로그램 매니페스트를 업데이트 하 고 응용 프로그램 매니페스트 파일을 서명 하려면 다음 명령을 입력 합니다. ManifestFileName를 확장 매니페스트 파일의 이름으로 바꿉니다. 인증서 파일의 상대 또는 정규화 된 경로 사용 하 여 인증서를 바꾸고 암호를 인증서의 암호로 바꿉니다.  
   
     ```  
     mage -update ManifestFileName.manifest -CertFile Certificate -Password Password  
@@ -97,7 +97,7 @@ Windows Forms 응용 프로그램, Windows Presentation Foundation 응용 프로
     mage -update WpfBrowserApplication1.exe.manifest -CertFile ..\WpfBrowserApplication1_TemporaryKey.pfx  
     ```  
   
-5.  업데이트 하 고 이전 단계 에서처럼 자리 표시자 이름을 대체 배포 매니페스트 파일을 서명 하려면 다음 명령을 입력 합니다.  
+5. 업데이트 하 고 이전 단계 에서처럼 자리 표시자 이름을 대체 배포 매니페스트 파일을 서명 하려면 다음 명령을 입력 합니다.  
   
     ```  
     mage -update DeploymentManifest -appmanifest ApplicationManifest -CertFile Certificate -Password Password  
@@ -111,9 +111,9 @@ Windows Forms 응용 프로그램, Windows Presentation Foundation 응용 프로
     mage -update WpfBrowserApplication1.xbap -appmanifest WpfBrowserApplication1.exe.manifest -CertFile ..\WpfBrowserApplication1_TemporaryKey.pfx  
     ```  
   
-6.  응용 프로그램 및 배포 매니페스트 파일 제외 하 고 파일에 다시.deploy 파일 확장명을 추가 합니다.  
+6. 응용 프로그램 및 배포 매니페스트 파일 제외 하 고 파일에 다시.deploy 파일 확장명을 추가 합니다.  
   
-7.  필요에 따라 마스터 배포 매니페스트를 복사 (게시할\\*appname*.application) 버전 배포 디렉터리로 (publish\Application 파일\\*appname*_ *버전*).  
+7. 필요에 따라 마스터 배포 매니페스트를 복사 (게시할\\*appname*.application) 버전 배포 디렉터리로 (publish\Application 파일\\*appname*_ *버전*).  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)   

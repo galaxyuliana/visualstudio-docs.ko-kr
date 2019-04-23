@@ -20,12 +20,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5394e7918c623fee3c1fed4008a952ca7a9e0f22
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 78026f091d9ed61d38d5cf9bd98ec16d85e193c6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323151"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047725"
 ---
 # <a name="customize-code-maps-by-editing-the-dgml-files"></a>Customize code maps by editing the DGML files
 
@@ -80,9 +80,9 @@ ms.locfileid: "58323151"
 ## <a name="ChangeGraphStyle"></a> 지도의 스타일 변경
  맵의 .dgml 파일을 편집하여 맵의 배경색과 테두리 색을 변경할 수 있습니다. 코드 요소 및 링크의 스타일을 변경 하려면을 참조 하세요 [의 코드 요소 및 링크 스타일 변경](#Highlight)합니다.
 
-1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
+1. 텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
-2.  `<DirectedGraph>` 요소에 다음 특성을 추가하여 그래프 스타일을 변경합니다.
+2. `<DirectedGraph>` 요소에 다음 특성을 추가하여 그래프 스타일을 변경합니다.
 
      배경색
 
@@ -110,20 +110,20 @@ ms.locfileid: "58323151"
 ### <a name="CreateCustomStyles"></a>
  다음 코드 요소에 사용자 지정 스타일을 적용할 수 있습니다.
 
--   단일 코드 요소 및 링크
+- 단일 코드 요소 및 링크
 
--   코드 요소 및 링크 그룹
+- 코드 요소 및 링크 그룹
 
--   특정 조건을 기반으로 한 코드 요소 및 링크 그룹
+- 특정 조건을 기반으로 한 코드 요소 및 링크 그룹
 
 > [!TIP]
 >  스타일이 여러 코드 요소 또는 링크에서 반복되는 경우 코드 요소 또는 링크에 범주를 적용한 다음 해당 범주에 스타일을 적용하는 것이 좋습니다. 자세한 내용은 [코드 요소 및 링크에 범주 할당](#AssignCategories) 하 고 [코드 요소 및 링크에 속성 할당](#AssignProperties)합니다.
 
 ##### <a name="to-apply-a-custom-style-to-a-single-code-element"></a>단일 코드 요소에 사용자 지정 스타일을 적용하려면
 
-1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
+1. 텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
-2.  코드 요소의 `<Node/>` 요소를 찾습니다. 다음 특성을 추가하여 스타일을 사용자 지정합니다.
+2. 코드 요소의 `<Node/>` 요소를 찾습니다. 다음 특성을 추가하여 스타일을 사용자 지정합니다.
 
      배경색
 
@@ -212,11 +212,11 @@ ms.locfileid: "58323151"
 
 ##### <a name="to-apply-a-custom-style-to-a-single-link"></a>단일 링크에 사용자 지정 스타일을 적용하려면
 
-1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
+1. 텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
-2.  소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.
+2. 소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.
 
-3.  `<Link/>` 요소에 다음 특성을 추가하여 노드 스타일을 사용자 지정합니다.
+3. `<Link/>` 요소에 다음 특성을 추가하여 노드 스타일을 사용자 지정합니다.
 
      개요 및 화살표 색
 
@@ -373,11 +373,11 @@ ms.locfileid: "58323151"
 
  이 예제에 대한 설명:
 
-1.  하는 경우 `Coverage` > 80 인 설정한는 `Background` 속성을 녹색입니다.
+1. 하는 경우 `Coverage` > 80 인 설정한는 `Background` 속성을 녹색입니다.
 
-2.  다른 경우 `Coverage` 은 > 50 설정한 합니다 `Background` 의 값을 기반으로 하는 속성을 주황색 음영으로는 `Coverage` 속성입니다.
+2. 다른 경우 `Coverage` 은 > 50 설정한 합니다 `Background` 의 값을 기반으로 하는 속성을 주황색 음영으로는 `Coverage` 속성입니다.
 
-3.  또한 `Background` 속성은 `Coverage` 속성 값에 따라 빨간색 음영으로 설정합니다.
+3. 또한 `Background` 속성은 `Coverage` 속성 값에 따라 빨간색 음영으로 설정합니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -440,9 +440,9 @@ ms.locfileid: "58323151"
 
 #### <a name="to-assign-a-property-to-a-code-element"></a>코드 요소에 속성을 할당하려면
 
-1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
+1. 텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
-2.  해당 코드 요소에 대한 `<Node/>` 요소를 찾습니다. 속성 이름 및 해당 값을 지정합니다. 예를 들어:
+2. 해당 코드 요소에 대한 `<Node/>` 요소를 찾습니다. 속성 이름 및 해당 값을 지정합니다. 예를 들어:
 
     ```xml
     <Nodes>
@@ -450,7 +450,7 @@ ms.locfileid: "58323151"
     </Nodes>
     ```
 
-3.  `<Property/>` 섹션에 `<Properties>` 요소를 추가하여 표시 이름 및 데이터 형식 등의 특성을 지정합니다.
+3. `<Property/>` 섹션에 `<Properties>` 요소를 추가하여 표시 이름 및 데이터 형식 등의 특성을 지정합니다.
 
     ```xml
     <Properties>
@@ -460,11 +460,11 @@ ms.locfileid: "58323151"
 
 #### <a name="to-assign-a-property-to-a-link"></a>링크에 속성을 할당하려면
 
-1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
+1. 텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
-2.  소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.
+2. 소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.
 
-3.  `<Node/>` 요소에서 속성 이름 및 해당 값을 지정합니다. 예를 들어:
+3. `<Node/>` 요소에서 속성 이름 및 해당 값을 지정합니다. 예를 들어:
 
     ```xml
     <Links>
@@ -472,7 +472,7 @@ ms.locfileid: "58323151"
     </Links>
     ```
 
-4.  `<Property/>` 섹션에 `<Properties>` 요소를 추가하여 표시 이름 및 데이터 형식 등의 특성을 지정합니다.
+4. `<Property/>` 섹션에 `<Properties>` 요소를 추가하여 표시 이름 및 데이터 형식 등의 특성을 지정합니다.
 
     ```xml
     <Properties>
@@ -485,11 +485,11 @@ ms.locfileid: "58323151"
 
 #### <a name="to-assign-a-category-to-a-code-element"></a>코드 요소에 범주를 할당하려면
 
--   텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
+- 텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
--   원하는 코드 요소에 대한 `<Node/>` 요소를 찾습니다.
+- 원하는 코드 요소에 대한 `<Node/>` 요소를 찾습니다.
 
--   `<Node/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예를 들어:
+- `<Node/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예를 들어:
 
     ```xml
     <Nodes>
@@ -507,11 +507,11 @@ ms.locfileid: "58323151"
 
 #### <a name="to-assign-a-category-to-a-link"></a>링크에 범주를 할당하려면
 
-1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
+1. 텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
-2.  소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.
+2. 소스 코드 요소의 이름과 대상 코드 요소의 이름을 둘 다 포함하는 `<Link/>` 요소를 찾습니다.
 
-3.  `<Link/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예를 들어:
+3. `<Link/>` 요소에 `Category` 특성을 추가하여 범주 이름을 지정합니다. 예를 들어:
 
     ```xml
     <Links>
@@ -519,7 +519,7 @@ ms.locfileid: "58323151"
     </Links>
     ```
 
-4.  `<Category/>` 특성을 사용하여 범주의 표시 텍스트를 지정할 수 있도록 `<Categories>` 섹션에 `Label` 요소를 추가합니다.
+4. `<Category/>` 특성을 사용하여 범주의 표시 텍스트를 지정할 수 있도록 `<Categories>` 섹션에 `Label` 요소를 추가합니다.
 
     ```xml
     <Categories>
@@ -529,9 +529,9 @@ ms.locfileid: "58323151"
 
 #### <a name="to-create-hierarchical-categories"></a>계층적 범주를 만들려면
 
-1.  텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
+1. 텍스트 또는 XML 편집기에서 .dgml 파일을 엽니다.
 
-2.  부모 범주에 대한 `<Category/>` 요소를 추가한 다음 자식 범주의 `BasedOn` 요소에 `<Category/>` 특성을 추가합니다.
+2. 부모 범주에 대한 `<Category/>` 요소를 추가한 다음 자식 범주의 `BasedOn` 요소에 `<Category/>` 특성을 추가합니다.
 
      예를 들어:
 
@@ -559,13 +559,13 @@ ms.locfileid: "58323151"
 
  예를 들어 다음과 같은 코드 요소를 연결할 수 있습니다.
 
--   클래스에 대한 변경 내용을 설명하기 위해 작업 코드 요소, 문서 또는 다른 .dgml 파일의 URL을 클래스의 코드 요소에 연결할 수 있습니다.
+- 클래스에 대한 변경 내용을 설명하기 위해 작업 코드 요소, 문서 또는 다른 .dgml 파일의 URL을 클래스의 코드 요소에 연결할 수 있습니다.
 
--   소프트웨어의 논리 아키텍처에서 레이어를 나타내는 그룹 코드 요소에 종속성 다이어그램을 연결할 수 있습니다.
+- 소프트웨어의 논리 아키텍처에서 레이어를 나타내는 그룹 코드 요소에 종속성 다이어그램을 연결할 수 있습니다.
 
--   인터페이스를 노출하는 구성 요소에 대한 자세한 정보가 표시되도록 해당 인터페이스의 코드 요소에 구성 요소 다이어그램을 연결할 수 있습니다.
+- 인터페이스를 노출하는 구성 요소에 대한 자세한 정보가 표시되도록 해당 인터페이스의 코드 요소에 구성 요소 다이어그램을 연결할 수 있습니다.
 
--   Team Foundation Server 작업 항목 또는 버그 또는 코드 요소에 관련 된 다른 정보를 코드 요소를 연결 합니다.
+- Team Foundation Server 작업 항목 또는 버그 또는 코드 요소에 관련 된 다른 정보를 코드 요소를 연결 합니다.
 
 #### <a name="to-link-a-document-or-url-to-a-code-element"></a>코드 요소에 문서 또는 URL을 연결하려면
 
@@ -599,13 +599,13 @@ ms.locfileid: "58323151"
 
    2. `<Properties>` 섹션에서 다음 작업을 수행합니다.
 
-      1.  각각의 새 참조 형식에 대해 `<Property/>` 요소를 추가합니다.
+      1. 각각의 새 참조 형식에 대해 `<Property/>` 요소를 추가합니다.
 
-      2.  `Id` 특성을 새 참조 특성의 이름으로 설정합니다.
+      2. `Id` 특성을 새 참조 특성의 이름으로 설정합니다.
 
-      3.  추가 합니다 `IsReference` 특성 및 설정 `True` 코드 요소의 나타나나요 참조 **참조로 이동** 바로 가기 메뉴.
+      3. 추가 합니다 `IsReference` 특성 및 설정 `True` 코드 요소의 나타나나요 참조 **참조로 이동** 바로 가기 메뉴.
 
-      4.  사용 된 `Label` 코드 요소에 표시할 텍스트를 지정 하는 특성 **참조로 이동** 바로 가기 메뉴.
+      4. 사용 된 `Label` 코드 요소에 표시할 텍스트를 지정 하는 특성 **참조로 이동** 바로 가기 메뉴.
 
       예를 들어:
 

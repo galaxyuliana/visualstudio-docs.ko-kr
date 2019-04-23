@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 90a97097eed7b97ad96bfda1f5520d1a9b4f0203
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 7a383096d164f1b08e2411a7bc808e96f8a6262e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335404"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061309"
 ---
 # <a name="manage-project-loading-in-a-solution"></a>솔루션의 프로젝트 로드 관리
 Visual Studio 솔루션을 다 수의 프로젝트를 포함할 수 있습니다. 기본 Visual Studio 동작은 솔루션을 열 때 솔루션의 모든 프로젝트를 로드 하 고 사용자가 프로젝트 모두 로드 작업이 완료 될 때까지 액세스할 수 없도록 합니다. 프로젝트 로드 하는 과정은 2 분 이상 지속 로드 되는 프로젝트의 수와 프로젝트의 총 수를 보여 주는 진행률 표시줄이 표시 됩니다. 사용자는 여러 프로젝트가 포함 된 솔루션에서 작업 하는 동안 프로젝트를 언로드할 수 있지만이 절차에 몇 가지 단점이 있습니다: 언로드된 프로젝트에는 솔루션 다시 빌드 명령의 일부로 빌드되지 않는 닫은 IntelliSense 설명은 형식 및 멤버 프로젝트 표시 되지 않습니다.
@@ -59,17 +59,17 @@ pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLo
 ## <a name="handle-solution-load-events"></a>솔루션 로드 이벤트를 처리 합니다.
  솔루션 로드 이벤트를 구독 하려면 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AdviseSolutionEvents%2A> 관리자에 게 솔루션 로드를 활성화할 때입니다. 구현 하는 경우 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents>, 속성을 로드 하는 다른 프로젝트와 관련 된 이벤트에 응답할 수 있습니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeOpenSolution%2A>: 솔루션을 열기 전에이 이벤트가 발생 합니다.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeOpenSolution%2A>: 솔루션을 열기 전에이 이벤트가 발생 합니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeBackgroundSolutionLoadBegins%2A>: 솔루션이 완전히 로드 되었지만 백그라운드 하기 전에 프로젝트를 로드 다시 시작 후이 이벤트가 발생 합니다.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeBackgroundSolutionLoadBegins%2A>: 솔루션이 완전히 로드 되었지만 백그라운드 하기 전에 프로젝트를 로드 다시 시작 후이 이벤트가 발생 합니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterBackgroundSolutionLoadComplete%2A>: 이 이벤트는 솔루션 로드 관리자가 있는지 여부 솔루션을 처음에 완전히 로드 되 면 발생 합니다. 솔루션이 완전히 로드 될 때마다 백그라운드 로드 나 요청 시 로드 후에 실행 됩니다. 동시에, <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExistsAndFullyLoaded_guid> 다시 활성화 됩니다.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterBackgroundSolutionLoadComplete%2A>: 이 이벤트는 솔루션 로드 관리자가 있는지 여부 솔루션을 처음에 완전히 로드 되 면 발생 합니다. 솔루션이 완전히 로드 될 때마다 백그라운드 로드 나 요청 시 로드 후에 실행 됩니다. 동시에, <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExistsAndFullyLoaded_guid> 다시 활성화 됩니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnQueryBackgroundLoadProjectBatch%2A>: 이 이벤트는 프로젝트 (또는 프로젝트)의 로드 하기 전에 발생 합니다. 다른 백그라운드 프로세스가 완료 된 후에 프로젝트가 로드 되도록 설정 `pfShouldDelayLoadToNextIdle` 하 **true**합니다.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnQueryBackgroundLoadProjectBatch%2A>: 이 이벤트는 프로젝트 (또는 프로젝트)의 로드 하기 전에 발생 합니다. 다른 백그라운드 프로세스가 완료 된 후에 프로젝트가 로드 되도록 설정 `pfShouldDelayLoadToNextIdle` 하 **true**합니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeLoadProjectBatch%2A>: 이 이벤트는 프로젝트의 일괄 처리 로드 되려고 할 때 발생 합니다. 하는 경우 `fIsBackgroundIdleBatch` 가 true 이면; 백그라운드에서 로드할 경우 프로젝트에는 `fIsBackgroundIdleBatch` 이 false 인 경우 프로젝트는 로드할 사용자 요청을 동기적으로 인해 예를 들어 사용자 경우 솔루션 탐색기에서 보류 중인 프로젝트를 확장 합니다. 그렇지 않은 경우 수행 해야 하는 비용이 많이 드는 작업을 수행 하려면이 이벤트를 처리할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A>합니다.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeLoadProjectBatch%2A>: 이 이벤트는 프로젝트의 일괄 처리 로드 되려고 할 때 발생 합니다. 하는 경우 `fIsBackgroundIdleBatch` 가 true 이면; 백그라운드에서 로드할 경우 프로젝트에는 `fIsBackgroundIdleBatch` 이 false 인 경우 프로젝트는 로드할 사용자 요청을 동기적으로 인해 예를 들어 사용자 경우 솔루션 탐색기에서 보류 중인 프로젝트를 확장 합니다. 그렇지 않은 경우 수행 해야 하는 비용이 많이 드는 작업을 수행 하려면이 이벤트를 처리할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A>합니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterLoadProjectBatch%2A>: 이 이벤트는 프로젝트의 일괄 처리 로드 되 면 발생 합니다.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterLoadProjectBatch%2A>: 이 이벤트는 프로젝트의 일괄 처리 로드 되 면 발생 합니다.
 
 ## <a name="detect-and-manage-solution-and-project-loading"></a>검색 및 관리 솔루션 및 프로젝트 로드
  프로젝트 및 솔루션 로드 상태를 검색 하기 위해 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.GetProperty%2A> 다음 값을 사용 하 여:

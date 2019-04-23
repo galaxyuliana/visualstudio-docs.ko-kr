@@ -26,12 +26,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d1235abfc6e8a2c384b02fd1d48a859063c058d3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2b40e7814fb809298c71d0078e644c12bd5a9a9e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980972"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064962"
 ---
 # <a name="how-to-debug-com-clients-and-servers-using-rpc-debugging"></a>방법: RPC 디버깅을 사용하여 COM 클라이언트 및 서버 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,13 +40,13 @@ RPC(원격 프로시저 호출) 디버깅을 사용하면 COM 클라이언트/�
   
 ### <a name="to-enable-rpc-debugging"></a>RPC 디버깅을 활성화하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
-2.  **옵션** 대화 상자에서 **Debugging** 폴더를 선택합니다.  
+2. **옵션** 대화 상자에서 **Debugging** 폴더를 선택합니다.  
   
-3.  **네이티브** 페이지를 클릭합니다.  
+3. **네이티브** 페이지를 클릭합니다.  
   
-4.  **RPC 디버깅** 확인란을 선택합니다.  
+4. **RPC 디버깅** 확인란을 선택합니다.  
   
     > [!NOTE]
     >  RPC 호출을 디버깅하려면 관리자 또는 고급 사용자 권한이 있어야 합니다.  

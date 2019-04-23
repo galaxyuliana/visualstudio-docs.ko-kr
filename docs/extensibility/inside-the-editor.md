@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 803fd69df06ae820e39d7edcfa54e56e59717a1c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 3979138944671ff2809f4f73beb0a28b222ec5ff
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54963114"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053197"
 ---
 # <a name="inside-the-editor"></a>편집기 내에서
 
@@ -152,7 +152,7 @@ abXefYj
 
 #### <a name="content-types"></a>내용 유형
 
-콘텐츠 유형은 여러 종류의 콘텐츠를 정의 하는 메커니즘입니다. 콘텐츠 형식 "text", "코드" 또는 "binary"와 같은 파일 형식 또는 "xml", "vb" 또는 "C#"와 같은 기술 형식을 수 있습니다. 예를 들어 C# 및 Visual Basic의 경우에 있지만 다른 프로그래밍 언어에는 없는 키워드는 단어 "using"입니다. 따라서이 키워드의 정의 "C#" 및 "vb" 콘텐츠 형식으로 제한 됩니다.
+콘텐츠 유형은 여러 종류의 콘텐츠를 정의 하는 메커니즘입니다. 콘텐츠 형식 "text", "코드" 또는 "binary"와 같은 파일 형식 또는 "xml", "vb" 또는 "c#"와 같은 기술 형식을 수 있습니다. 예를 들어 C# 및 Visual Basic의 경우에 있지만 다른 프로그래밍 언어에는 없는 키워드는 단어 "using"입니다. 따라서이 키워드의 정의 "c#" 및 "vb" 콘텐츠 형식으로 제한 됩니다.
 
 콘텐츠 형식은 장식 및 편집기의 다른 요소에 대 한 필터로 사용 됩니다. 다양 한 편집기 기능 및 확장 지점 content-type 별로 정의 됩니다. 예를 들어 텍스트 색은 일반 텍스트 파일, XML 파일 및 Visual Basic 소스 코드 파일에 대 한 다릅니다. 일반적으로 텍스트 버퍼는 만들어질 때 텍스트 버퍼의 콘텐츠 형식을 변경할 수 있습니다는 content-type는 할당 됩니다.
 
@@ -202,19 +202,19 @@ abXefYj
 
 기능 정의 해당 구현에서 별도 편집기의 기능 설계 됩니다. 편집기에는 이러한 기능이 포함 됩니다.
 
--   태그 및 분류자
+- 태그 및 분류자
 
--   선의 도구 영역
+- 선의 도구 영역
 
--   프로젝션
+- 프로젝션
 
--   개요
+- 개요
 
--   마우스 및 키 바인딩
+- 마우스 및 키 바인딩
 
--   작업 및 기본 형식
+- 작업 및 기본 형식
 
--   IntelliSense
+- IntelliSense
 
 ### <a name="tags-and-classifiers"></a>태그 및 분류자
 
@@ -262,7 +262,7 @@ C# 분류자를 주석으로 전체 범위 레이블 수 및 영어 분류자 �
 
 팝업 장식을 위의 예를 들어 도구 설명 텍스트 뷰를 다른 작은 창에 표시 되는 그래픽입니다.
 
-###  <a name="projection"></a> Projection
+### <a name="projection"></a> Projection
 
 프로젝션은 서로 다른 종류의 텍스트를 실제로 저장 되지 않습니다 하지만 대신 다른 텍스트 버퍼에서 텍스트를 결합 하는 텍스트 버퍼를 생성 하기 위한 기술입니다. 예를 들어 다른 두 버퍼에서 텍스트를 연결 하 고 하나의 버퍼에 있는 것 처럼 결과 표시 또는 숨기기 하나의 버퍼에서 텍스트의 부분에 프로젝션 버퍼를 사용할 수 있습니다. 프로젝션 버퍼는 다른 프로젝션 버퍼로 소스 버퍼로 작동할 수 있습니다. 다양 한 방법으로 텍스트를 다시 정렬 하려면 프로젝션을 통해 연관 된 버퍼 집합을 생성할 수 있습니다. (이러한 집합은 라고도 *버퍼 그래프*.) Visual Studio 텍스트 개요 기능을 축소 된 텍스트를 숨기려면 프로젝션 버퍼를 사용 하 여 구현 됩니다 하 고 ASP.NET 페이지에 대 한 Visual Studio 편집기 프로젝션을 사용 하 여 Visual Basic 및 C#과 같은 포함 된 언어를 지원 합니다.
 

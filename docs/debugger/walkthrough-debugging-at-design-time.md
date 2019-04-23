@@ -16,14 +16,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cf4a781bee0d0ccb1acd7d9c6b035acac603aea3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 82e82a75ce5ecff8e9b7e6d0b6aaf2e29728fc45
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696703"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049063"
 ---
-# <a name="debug-at-design-time-in-visual-studio-c-c-visual-basic-f"></a>Visual Studio에서 디자인 타임에 디버그 (C#, c + +, Visual Basic의 경우 F#)
+# <a name="debug-at-design-time-in-visual-studio-c-c-visual-basic-f"></a>Visual Studio에서 디자인 타임에 디버그 (C#, C++, Visual Basic의 경우 F#)
 
 실행 중인 앱 하는 동안 대신 디자인 타임에 코드를 디버그 하려면, 사용할 수는 **직접 실행** 창입니다.
 
@@ -33,7 +33,7 @@ XAML 코드 숨김 데이터 바인딩 코드와 같은 XAML 디자이너에서 
 
 Visual Studio를 사용할 수 있습니다 **직접 실행** 앱을 실행 하지 않고 함수 또는 서브루틴을 실행 하는 창입니다. 함수 또는 서브루틴에 중단점이 있으면 Visual Studio가 중단점에서 중단 됩니다. 그런 다음 디버거 창을 사용하여 프로그램 상태를 조사할 수 있습니다. 이 기능은 이라고 *디자인 타임에 디버깅*합니다.
 
-다음 예제에서는 Visual Basic의 경우 사용할 수도 있습니다는 **직접 실행** 창에서 디자인 타임에 C#, F#, 및 c + + 앱.
+다음 예제에서는 Visual Basic의 경우 사용할 수도 있습니다는 **직접 실행** 창에서 디자인 타임에 C#, F#, 및 C++ 앱.
 
 1. 새 Visual Basic 콘솔 응용 프로그램에 다음 코드를 붙여 넣습니다.
 
@@ -102,8 +102,9 @@ Visual Studio를 사용할 수 있습니다 **직접 실행** 앱을 실행 하�
     ```xaml
     <TextBlock Text="{Binding title, ConverterParameter=lower, Converter={StaticResource StringFormatConverter}, Mode=TwoWay}"  />
     ```
+
    페이지 로드 되 면 중단점이 적중 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [디버거 소개](../debugger/debugger-feature-tour.md)
 - [디버거 보안](../debugger/debugger-security.md)

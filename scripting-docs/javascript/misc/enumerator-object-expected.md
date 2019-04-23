@@ -14,12 +14,12 @@ ms.assetid: dc6e32c1-a6e6-4e12-ac99-e3f65f91c8d7
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 14fcb4d990b03a8e7b896014403eb8dceac66b80
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 06005f635e5173e903cfba6a952750d64181d0bf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841833"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064871"
 ---
 # <a name="enumerator-object-expected"></a>Enumerator 개체가 필요합니다.
 호출 하려고 합니다 **Enumerator.prototype.atEnd, Enumerator.prototype.item Enumerator.prototype.moveFirst를** 또는 **Enumerator.prototype.moveNext** 형식의 다른 개체에서 메서드 보다 `Enumerator`합니다. 이 형식의 호출 개체 유형 이어야 `Enumerator`합니다. 이 규칙을 중단 하는 코드의 예는 다음과 같습니다.  
@@ -32,7 +32,7 @@ o.f();
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   만 호출 합니다 **Enumerator.prototype.atEnd**, **Enumerator.prototype.item**합니다 **Enumerator.prototype.moveFirst**, 또는  **Enumerator.prototype.moveNext** 형식의 개체에 있는 메서드의 `Enumerator`합니다. 개체가 있는지 확인 하려면를 `Enumerator` 개체를 사용 합니다.  
+- 만 호출 합니다 **Enumerator.prototype.atEnd**, **Enumerator.prototype.item**합니다 **Enumerator.prototype.moveFirst**, 또는  **Enumerator.prototype.moveNext** 형식의 개체에 있는 메서드의 `Enumerator`합니다. 개체가 있는지 확인 하려면를 `Enumerator` 개체를 사용 합니다.  
   
     ```js
     if(x instanceof Enumerator)  

@@ -12,12 +12,12 @@ caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 415d63717e5702b0faa1b49d1d0d18ebbf773b8f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cf370b4ca0e0a4d14c482c6ece46b79d2d224d34
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981658"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049739"
 ---
 # <a name="define-and-install-a-modeling-extension"></a>모델링 확장 정의 및 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,35 +42,35 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
   
 #### <a name="to-create-a-class-library-project-for-menu-commands-gesture-handlers-or-validation"></a>메뉴 명령, 제스처 처리기 또는 유효성 검사에 대한 클래스 라이브러리 프로젝트를 만들려면  
   
-1.  **파일** 메뉴에서 **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
+1. **파일** 메뉴에서 **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
   
-2.  **설치된 템플릿**에서 **Visual C#** 또는 **Visual Basic**을 선택한 다음 **클래스 라이브러리**를 선택합니다.  
+2. **설치된 템플릿**에서 **Visual C#** 또는 **Visual Basic**을 선택한 다음 **클래스 라이브러리**를 선택합니다.  
   
 #### <a name="to-create-a-vsix-project"></a>VSIX 프로젝트를 만들려면  
   
-1.  코드가 포함된 구성 요소를 만드는 경우 먼저 클래스 라이브러리 프로젝트를 만드는 것이 가장 쉽습니다. 해당 프로젝트에 코드를 추가합니다.  
+1. 코드가 포함된 구성 요소를 만드는 경우 먼저 클래스 라이브러리 프로젝트를 만드는 것이 가장 쉽습니다. 해당 프로젝트에 코드를 추가합니다.  
   
-2.  VSIX 프로젝트를 만듭니다.  
+2. VSIX 프로젝트를 만듭니다.  
   
-    1.  **솔루션 탐색기**의 솔루션 바로 가기 메뉴에서 **추가**, **새 프로젝트**를 선택합니다.  
+    1. **솔루션 탐색기**의 솔루션 바로 가기 메뉴에서 **추가**, **새 프로젝트**를 선택합니다.  
   
-    2.  **설치된 템플릿**에서 **Visual C#** 또는 **Visual Basic**을 확장한 다음 **확장성**을 선택합니다. 가운데 열에서 **VSIX 프로젝트**를 선택합니다.  
+    2. **설치된 템플릿**에서 **Visual C#** 또는 **Visual Basic**을 확장한 다음 **확장성**을 선택합니다. 가운데 열에서 **VSIX 프로젝트**를 선택합니다.  
   
-3.  VSIX 프로젝트를 솔루션의 시작 프로젝트로 설정합니다.  
+3. VSIX 프로젝트를 솔루션의 시작 프로젝트로 설정합니다.  
   
-    -   솔루션 탐색기의 VSIX 프로젝트 바로 가기 메뉴에서 **시작 프로젝트로 설정**을 선택합니다.  
+    - 솔루션 탐색기의 VSIX 프로젝트 바로 가기 메뉴에서 **시작 프로젝트로 설정**을 선택합니다.  
   
-4.  **source.extension.vsixmanifest**를 엽니다. 파일이 매니페스트 편집기에서 열립니다.  
+4. **source.extension.vsixmanifest**를 엽니다. 파일이 매니페스트 편집기에서 열립니다.  
   
-5.  **메타데이터** 탭에서 VSIX의 이름 및 설명 필드를 설정합니다.  
+5. **메타데이터** 탭에서 VSIX의 이름 및 설명 필드를 설정합니다.  
   
-6.  **설치 대상** 탭에서 **새로 만들기** 를 선택하고 Visual Studio 버전을 대상으로 설정합니다.  
+6. **설치 대상** 탭에서 **새로 만들기** 를 선택하고 Visual Studio 버전을 대상으로 설정합니다.  
   
-7.  **자산** 탭에서 Visual Studio 확장에 구성 요소를 추가합니다.  
+7. **자산** 탭에서 Visual Studio 확장에 구성 요소를 추가합니다.  
   
-    1.  **새로 만들기**를 선택합니다.  
+    1. **새로 만들기**를 선택합니다.  
   
-    2.  코드가 포함된 구성 요소의 경우 **새 자산 추가** 대화 상자에서 다음 필드를 설정합니다.  
+    2. 코드가 포함된 구성 요소의 경우 **새 자산 추가** 대화 상자에서 다음 필드를 설정합니다.  
   
         |||  
         |-|-|  
@@ -97,36 +97,36 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
   
 #### <a name="to-run-an-extension-during-its-development"></a>개발 중에 확장을 실행하려면  
   
-1.   [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **디버그** 메뉴에서 **Start 디버그ging**을 선택합니다.  
+1.  [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **디버그** 메뉴에서 **Start 디버그ging**을 선택합니다.  
   
      프로젝트가 빌드되고, [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 의 새 인스턴스가 실험적 모드에서 시작됩니다.  
   
-    -   또는 **디버깅하지 않고 시작**을 선택할 수 있습니다. 이렇게 하면 프로그램을 시작하는 데 걸리는 시간이 줄어듭니다.  
+    - 또는 **디버깅하지 않고 시작**을 선택할 수 있습니다. 이렇게 하면 프로그램을 시작하는 데 걸리는 시간이 줄어듭니다.  
   
-2.  Visual Studio의 실험적 인스턴스에서 모델링 프로젝트를 만들거나 열고 다이어그램을 만들거나 엽니다.  
+2. Visual Studio의 실험적 인스턴스에서 모델링 프로젝트를 만들거나 열고 다이어그램을 만들거나 엽니다.  
   
      확장이 로드되어 실행됩니다.  
   
-3.  **디버깅하지 않고 시작** 을 사용했지만 디버거를 사용하려는 경우 Visual Studio의 기본 인스턴스로 돌아갑니다. **디버그** 메뉴에서 **프로세스에 연결**을 클릭합니다. 대화 상자에서 프로그램 이름이 **devenv**인 Visual Studio의 실험적 인스턴스를 선택합니다.  
+3. **디버깅하지 않고 시작** 을 사용했지만 디버거를 사용하려는 경우 Visual Studio의 기본 인스턴스로 돌아갑니다. **디버그** 메뉴에서 **프로세스에 연결**을 클릭합니다. 대화 상자에서 프로그램 이름이 **devenv**인 Visual Studio의 실험적 인스턴스를 선택합니다.  
   
-##  <a name="Installing"></a> 설치 및 확장 제거  
+## <a name="Installing"></a> 설치 및 확장 제거  
  자신의 컴퓨터나 다른 컴퓨터의 Visual Studio 기본 인스턴스에서 확장을 실행하려면 다음 단계를 수행합니다.  
   
-1.  사용 중인 컴퓨터에서 확장 프로젝트를 통해 빌드된 **.vsix** 파일을 찾습니다.  
+1. 사용 중인 컴퓨터에서 확장 프로젝트를 통해 빌드된 **.vsix** 파일을 찾습니다.  
   
-    1.  **솔루션 탐색기**의 프로젝트 바로 가기 메뉴에서 **Windows 탐색기에서 폴더 열기**를 선택합니다.  
+    1. **솔루션 탐색기**의 프로젝트 바로 가기 메뉴에서 **Windows 탐색기에서 폴더 열기**를 선택합니다.  
   
-    2.  파일을 찾습니다 **bin\\\*\\**_YourProject_**.vsix**  
+    2. 파일을 찾습니다 **bin\\\*\\**_YourProject_**.vsix**  
   
-2.  확장을 설치할 대상 컴퓨터에 **.vsix** 파일을 복사합니다. 이 컴퓨터는 사용 중인 컴퓨터이거나 다른 컴퓨터일 수 있습니다.  
+2. 확장을 설치할 대상 컴퓨터에 **.vsix** 파일을 복사합니다. 이 컴퓨터는 사용 중인 컴퓨터이거나 다른 컴퓨터일 수 있습니다.  
   
-    -   대상 컴퓨터에 **source.extension.vsixmanifest** 의 **설치 대상**탭에서 지정한 Visual Studio 버전 중 하나가 있어야 합니다.  
+    - 대상 컴퓨터에 **source.extension.vsixmanifest** 의 **설치 대상**탭에서 지정한 Visual Studio 버전 중 하나가 있어야 합니다.  
   
-3.  대상 컴퓨터에서 **.vsix** 파일을 두 번 클릭하여 엽니다.  
+3. 대상 컴퓨터에서 **.vsix** 파일을 두 번 클릭하여 엽니다.  
   
      **Visual Studio 확장 설치 관리자** 에서 확장을 열고 설치합니다.  
   
-4.  Visual Studio를 시작하거나 다시 시작합니다.  
+4. Visual Studio를 시작하거나 다시 시작합니다.  
   
 #### <a name="to-uninstall-an-extension"></a>확장을 제거하려면  
   

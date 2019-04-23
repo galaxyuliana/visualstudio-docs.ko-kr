@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: d7cbe3b0593b3a71c65667e78d7b0284cacc4538
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f48a30e11e28daef2d1803646d2b495bcb718b84
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942195"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046191"
 ---
 # <a name="browse-and-select-a-net-type-dialog-box"></a>.NET 유형 선택 대화 상자
 
@@ -24,11 +24,11 @@ ms.locfileid: "55942195"
 
 이 대화 상자는 다음을 비롯한 여러 가지 사용자 시나리오에서 사용됩니다.
 
--   변수 또는 인수의 형식을 설정할 때
+- 변수 또는 인수의 형식을 설정할 때
 
--   제네릭 동작의 형식을 선택할 때
+- 제네릭 동작의 형식을 선택할 때
 
--   <xref:System.Activities.Statements.TryCatch> 활동에 catch를 추가할 때
+- <xref:System.Activities.Statements.TryCatch> 활동에 catch를 추가할 때
 
 > [!NOTE]
 > 형식 브라우저는 Visual Basic 가변 배열 형식을 표시할 수 있지만 다차원 배열 형식을 표시할 수 없습니다. 참조 [가변 배열](http://go.microsoft.com/fwlink/?LinkId=195226) 하 고 [다차원 배열](http://go.microsoft.com/fwlink/?LinkId=195227) 세부 정보에 대 한 합니다.
@@ -37,19 +37,19 @@ ms.locfileid: "55942195"
 
 ### <a name="to-select-a-value-or-reference-type-from-the-type-browser"></a>형식 브라우저에서 값 또는 참조 형식을 선택하려면
 
-1.  에 **형식 이름을** 상자를 사용 하려는 형식의 이름을 입력 합니다.
+1. 에 **형식 이름을** 상자를 사용 하려는 형식의 이름을 입력 합니다.
 
-2.  다음 작업 중 하나를 수행합니다.
+2. 다음 작업 중 하나를 수행합니다.
 
-    -   사용 하려는 형식의 이름을 트리에 표시 되 면 합니다 **형식 이름** 상자에서 선택한 형식을 두 번 클릭 합니다.
+    - 사용 하려는 형식의 이름을 트리에 표시 되 면 합니다 **형식 이름** 상자에서 선택한 형식을 두 번 클릭 합니다.
 
-    -   충분 한 문자를 입력 합니다 **형식 이름을** 상자를 사용 하 고 enter 키를 눌러 유형을 선택 하는 형식을 고유 하 게 식별
+    - 충분 한 문자를 입력 합니다 **형식 이름을** 상자를 사용 하 고 enter 키를 눌러 유형을 선택 하는 형식을 고유 하 게 식별
 
 ### <a name="to-select-a-generic-type-from-the-type-browser"></a>형식 브라우저에서 제네릭 형식을 선택하려면
 
-1.  에 **형식 이름을** 상자를 사용 하려는 이름을 입력 합니다.
+1. 에 **형식 이름을** 상자를 사용 하려는 이름을 입력 합니다.
 
-2.  사용 하려는 형식의 이름을 트리에 표시 되 면 합니다 **형식 이름을** 상자를 클릭 하 여 드롭다운 목록 상자를 선택 형식이 표시 합니다.
+2. 사용 하려는 형식의 이름을 트리에 표시 되 면 합니다 **형식 이름을** 상자를 클릭 하 여 드롭다운 목록 상자를 선택 형식이 표시 합니다.
 
      드롭다운 목록 상자에서 제네릭을 닫는 클릭을 사용 하려는 형식을 선택 **확인**합니다.
 
@@ -65,9 +65,9 @@ ms.locfileid: "55942195"
 
 예를 들어:
 
-1.  입력 **작업이** 일치 <xref:System.OperationCanceledException> 아닌 <xref:System.InvalidOperationException>합니다. <xref:System.InvalidOperationException>을 찾으려면 System.I 또는 Invalid를 입력해야 합니다.
+1. 입력 **작업이** 일치 <xref:System.OperationCanceledException> 아닌 <xref:System.InvalidOperationException>합니다. <xref:System.InvalidOperationException>을 찾으려면 System.I 또는 Invalid를 입력해야 합니다.
 
-2.  입력 **제네릭** 일치 <xref:System.GenericUriParser> 의 형식은 하지 않지만 <xref:System.Collections.Generic> 네임 스페이스입니다. 형식에 대 한 검색할는 <xref:System.Collections.Generic> 네임 스페이스, 네임 스페이스의 정규화 된 이름을 입력 합니다.
+2. 입력 **제네릭** 일치 <xref:System.GenericUriParser> 의 형식은 하지 않지만 <xref:System.Collections.Generic> 네임 스페이스입니다. 형식에 대 한 검색할는 <xref:System.Collections.Generic> 네임 스페이스, 네임 스페이스의 정규화 된 이름을 입력 합니다.
 
 ## <a name="selecting-a-service-contract-using-the-type-browser-dialog"></a>형식 브라우저 대화 상자를 사용하여 서비스 계약 선택
 

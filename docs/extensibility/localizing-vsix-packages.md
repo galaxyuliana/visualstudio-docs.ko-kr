@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e83bf0c3c0bd63ed994784e89252dd2a5479590f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 49908ba5110cf59d0aa4fff6f91bf356ec72c3c2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56687083"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065287"
 ---
 # <a name="localizing-vsix-packages"></a>VSIX 패키지 지역화
 
@@ -53,7 +53,7 @@ Vsixlangpack 파일을 만들 때 설정 해야 합니다 `Include in Vsix` 속�
 
 1. **솔루션 탐색기**Extension.vsixlangpack 파일을 마우스 오른쪽 단추로 클릭 한 다음 클릭 **속성**합니다.
 
-2.  에 **속성 표에서**, 클릭 **Vsix에 포함**, 해당 값을 설정 하 고 `true`입니다.
+2. 에 **속성 표에서**, 클릭 **Vsix에 포함**, 해당 값을 설정 하 고 `true`입니다.
 
 ## <a name="example"></a>예제
 

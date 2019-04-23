@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bd911c978e253b28827b5b4bb0551a2355164663
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fb22e857322cbd1893048392de85768287339198
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645851"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060074"
 ---
 # <a name="wizard-interface-idtwizard"></a>마법사 인터페이스(IDTWizard)
 통합된 개발 환경 (IDE)에서 사용 하 여 <xref:EnvDTE.IDTWizard> 마법사를 사용 하 여 통신 하는 인터페이스입니다. 마법사는 IDE에서 설치 하려면이 인터페이스를 구현 해야 합니다.
@@ -38,23 +38,23 @@ STDMETHOD(Execute)(THIS_
 
  다음 정보를 설명 합니다 <xref:EnvDTE.IDTWizard> 마법사에서 작업을 구현 해야 하는 인터페이스를 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. 호출 하 여 IDE <xref:EnvDTE.IDTWizard.Execute%2A> 메서드에 전달 된 다음 마법사에서:
 
--   DTE 개체
+- DTE 개체
 
      DTE 개체 자동화 모델의 루트입니다.
 
--   코드 세그먼트와 같이 창 대화 상자에 대 한 핸들 `hwndOwner ([in] long)`합니다.
+- 코드 세그먼트와 같이 창 대화 상자에 대 한 핸들 `hwndOwner ([in] long)`합니다.
 
      이 마법사를 사용 하 여 `hwndOwner` 마법사 대화 상자에 대 한 부모로 합니다.
 
--   컨텍스트 매개 변수를 전달할 인터페이스 variant로 서 SAFEARRAY에 대 한 코드 세그먼트에 표시 된 것 처럼 `[in] SAFEARRAY (VARIANT)* ContextParams`합니다.
+- 컨텍스트 매개 변수를 전달할 인터페이스 variant로 서 SAFEARRAY에 대 한 코드 세그먼트에 표시 된 것 처럼 `[in] SAFEARRAY (VARIANT)* ContextParams`합니다.
 
      컨텍스트 매개 변수는 시작 되 고 마법사의 종류와 관련 된 값의 배열 및 프로젝트의 현재 상태를 포함 합니다. IDE 마법사 컨텍스트 매개 변수를 전달합니다. 자세한 내용은 [컨텍스트 매개 변수](../../extensibility/internals/context-parameters.md)합니다.
 
--   사용자 지정 매개 변수를 전달할 인터페이스 변형으로 SAFEARRAY에 대 한 코드 세그먼트에 표시 된 것 처럼 `[in] SAFEARRAY (VARIANT)* CustomParams`합니다.
+- 사용자 지정 매개 변수를 전달할 인터페이스 변형으로 SAFEARRAY에 대 한 코드 세그먼트에 표시 된 것 처럼 `[in] SAFEARRAY (VARIANT)* CustomParams`합니다.
 
      사용자 지정 매개 변수는 사용자 정의 매개 변수 배열을 포함 합니다. .Vsz 파일 IDE를 사용자 지정 매개 변수를 전달합니다. 값으로 결정 됩니다는 `Param=` 문입니다. 자세한 내용은 [사용자 지정 매개 변수](../../extensibility/internals/custom-parameters.md)합니다.
 
--   인터페이스에 대 한 값을 반환 합니다.
+- 인터페이스에 대 한 값을 반환 합니다.
 
     ```
     wizardResultSuccess = -1,

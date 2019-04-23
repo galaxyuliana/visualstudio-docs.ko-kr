@@ -18,12 +18,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 78ac19ac0e992b51affdbf6a0e6e3268ddfa52d0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ca7a85bf7ace1f9aeb0e47e031cda5f793df2331
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983972"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046320"
 ---
 # <a name="refactoring-c"></a>리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,17 +32,17 @@ ms.locfileid: "58983972"
   
  Visual C#의 리팩터링 명령을 제공 합니다 **Refactoring** 메뉴:  
   
--   [메서드 추출 리팩터링(C#)](../csharp-ide/extract-method-refactoring-csharp.md)  
+- [메서드 추출 리팩터링(C#)](../csharp-ide/extract-method-refactoring-csharp.md)  
   
--   [이름 바꾸기 리팩터링(C#)](../csharp-ide/rename-refactoring-csharp.md)  
+- [이름 바꾸기 리팩터링(C#)](../csharp-ide/rename-refactoring-csharp.md)  
   
--   [필드 캡슐화 리팩터링(C#)](../csharp-ide/encapsulate-field-refactoring-csharp.md)  
+- [필드 캡슐화 리팩터링(C#)](../csharp-ide/encapsulate-field-refactoring-csharp.md)  
   
--   [인터페이스 추출 리팩터링(C#)](../csharp-ide/extract-interface-refactoring-csharp.md)  
+- [인터페이스 추출 리팩터링(C#)](../csharp-ide/extract-interface-refactoring-csharp.md)  
   
--   [매개 변수 제거 리팩터링(C#)](../csharp-ide/remove-parameters-refactoring-csharp.md)  
+- [매개 변수 제거 리팩터링(C#)](../csharp-ide/remove-parameters-refactoring-csharp.md)  
   
--   [매개 변수 다시 정렬 리팩터링(C#)](../csharp-ide/reorder-parameters-refactoring-csharp.md)  
+- [매개 변수 다시 정렬 리팩터링(C#)](../csharp-ide/reorder-parameters-refactoring-csharp.md)  
   
 ## <a name="multi-project-refactoring"></a>다중 프로젝트 리팩터링  
  Visual Studio 프로젝트에서 동일한 솔루션에 대 한 다중 프로젝트 리팩터링 지원 합니다. 모든 파일에 대 한 참조를 수정 하는 리팩터링 작업은 동일한 언어의 모든 프로젝트에서 해당 참조를 수정 합니다. 이 대 한 프로젝트 간 참조는 작동합니다. 예를 들어, 클래스 라이브러리 형식의 이름을 바꾸면 클래스 라이브러리를 참조 하는 콘솔 응용 프로그램을 사용 하는 경우 (사용 하는 `Rename` 리팩터링 작업), 콘솔 응용 프로그램에 있는 클래스 라이브러리 형식에 대 한 참조도 업데이트 됩니다.  

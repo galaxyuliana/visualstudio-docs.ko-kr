@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c2be46e61438c555fc7ee7d523b3ff9b758c0a15
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5b6e661a79f190e5befdbcf5c28ec0f4bd29ebf4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983542"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061582"
 ---
 # <a name="how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-or-designer"></a>방법: 테이블 및 보기에 매핑된 LINQ to SQL 클래스 만들기(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,9 +32,9 @@ LINQ to SQL 클래스 데이터베이스 테이블 및 뷰에 매핑되는 이�
 
 #### <a name="to-create-linq-to-sql-classes-that-are-mapped-to-database-tables-or-views"></a>데이터베이스 테이블 또는 뷰에 매핑된 LINQ to SQL 클래스를 만들려면
 
-1.  **Server**/**데이터베이스 탐색기**, 확장 **테이블** 하거나 **뷰** 및 데이터베이스 테이블을 찾거나를 확인 응용 프로그램에서 사용 하도록
+1. **Server**/**데이터베이스 탐색기**, 확장 **테이블** 하거나 **뷰** 및 데이터베이스 테이블을 찾거나를 확인 응용 프로그램에서 사용 하도록
 
-2.  [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 테이블 또는 뷰를 끌어 옵니다.
+2. [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 테이블 또는 뷰를 끌어 옵니다.
 
      엔터티 클래스가 만들어져 디자인 화면에 표시됩니다. 엔터티 클래스에는 선택한 테이블 또는 뷰의 열에 매핑되는 속성이 있습니다.
 
@@ -43,22 +43,22 @@ LINQ to SQL 클래스 데이터베이스 테이블 및 뷰에 매핑되는 이�
 
 #### <a name="to-create-an-object-data-source-based-on-linq-to-sql-entity-classes"></a>LINQ to SQL 엔터티 클래스 기반의 개체 데이터 소스를 만들려면
 
-1.  **빌드** 메뉴에서 **솔루션 빌드**를 클릭하여 프로젝트를 빌드합니다.
+1. **빌드** 메뉴에서 **솔루션 빌드**를 클릭하여 프로젝트를 빌드합니다.
 
-2.  **데이터** 메뉴에서 **데이터 소스 표시**를 클릭합니다.
+2. **데이터** 메뉴에서 **데이터 소스 표시**를 클릭합니다.
 
-3.  **데이터 소스** 창에서 **새 데이터 소스 추가**를 클릭합니다.
+3. **데이터 소스** 창에서 **새 데이터 소스 추가**를 클릭합니다.
 
-4.  **데이터 원본 형식 선택** 페이지에서 **개체**를 클릭한 후, **다음**을 클릭합니다.
+4. **데이터 원본 형식 선택** 페이지에서 **개체**를 클릭한 후, **다음**을 클릭합니다.
 
-5.  노드를 확장하여 클래스를 찾아 선택합니다.
+5. 노드를 확장하여 클래스를 찾아 선택합니다.
 
     > [!NOTE]
     > **Customer** 클래스를 사용할 수 없는 경우에는 마법사를 취소하고, 프로젝트를 빌드하고, 마법사를 다시 실행합니다.
 
-6.  **마침**을 클릭하여 데이터 원본을 만들고 **데이터 원본** 창에 **Customer** 엔터티 클래스를 추가합니다.
+6. **마침**을 클릭하여 데이터 원본을 만들고 **데이터 원본** 창에 **Customer** 엔터티 클래스를 추가합니다.
 
-7.  항목을 **데이터 원본** 창에서 폼으로 끌어 옵니다.
+7. 항목을 **데이터 원본** 창에서 폼으로 끌어 옵니다.
 
 ## <a name="see-also"></a>참고자료
 

@@ -10,12 +10,12 @@ ms.assetid: 097c89d0-f76a-4aaf-ada9-9a778bd179a0
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0ce2f80aa50c3222797d925a888e5c004b21512d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cd99d223d8071b4f0c10052b0b42c421d2360e2a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981690"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065443"
 ---
 # <a name="managing-project-loading-in-a-solution"></a>솔루션의 프로젝트 로드 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,13 +27,13 @@ Visual Studio 솔루션을 다 수의 프로젝트를 포함할 수 있습니다
 ## <a name="project-loading-priorities"></a>우선 순위를 로드 하는 프로젝트  
  Visual Studio에서는 4 개의 서로 다른 프로젝트 로드 우선 순위를 정의합니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop._VSProjectLoadPriority> (기본값): 솔루션을 열 때 프로젝트가 비동기적으로 로드 합니다. 언로드된 프로젝트가 이미 솔루션을 연 후이 우선 순위 설정 되 면 다음 유휴 지점에 프로젝트를 로드할 수 됩니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop._VSProjectLoadPriority> (기본값): 솔루션을 열 때 프로젝트가 비동기적으로 로드 합니다. 언로드된 프로젝트가 이미 솔루션을 연 후이 우선 순위 설정 되 면 다음 유휴 지점에 프로젝트를 로드할 수 됩니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop._VSProjectLoadPriority>: 프로젝트가 솔루션을 열 때 모든 프로젝트가 로드 될 때까지 대기할 필요 없이 로드 된 프로젝트에 액세스할 수 있도록 백그라운드에서 로드 합니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop._VSProjectLoadPriority>: 프로젝트가 솔루션을 열 때 모든 프로젝트가 로드 될 때까지 대기할 필요 없이 로드 된 프로젝트에 액세스할 수 있도록 백그라운드에서 로드 합니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop._VSProjectLoadPriority>: 프로젝트가 액세스할 때 로드 됩니다. 프로젝트를 액세스 하거나 (솔루션의 사용자 옵션 파일에 유지 되는) 열린 문서 목록에 있기 때문에 솔루션을 열면 프로젝트에 속하는 파일을 열 때 솔루션 탐색기에서 프로젝트 노드를 확장할 때 다른 프로젝트 즉 로드 되는 프로젝트에 종속 됩니다. 이 유형의 프로젝트를 빌드 프로세스를 시작 하기 전에 자동으로 로드 되지 않습니다. 솔루션 로드 관리자는 필요한 모든 프로젝트가 로드 되는 것을 담당 합니다. 이러한 프로젝트 파일에서 전체 솔루션에서 찾기/바꾸기의 시작 하기 전에 로드할 수도 있습니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop._VSProjectLoadPriority>: 프로젝트가 액세스할 때 로드 됩니다. 프로젝트를 액세스 하거나 (솔루션의 사용자 옵션 파일에 유지 되는) 열린 문서 목록에 있기 때문에 솔루션을 열면 프로젝트에 속하는 파일을 열 때 솔루션 탐색기에서 프로젝트 노드를 확장할 때 다른 프로젝트 즉 로드 되는 프로젝트에 종속 됩니다. 이 유형의 프로젝트를 빌드 프로세스를 시작 하기 전에 자동으로 로드 되지 않습니다. 솔루션 로드 관리자는 필요한 모든 프로젝트가 로드 되는 것을 담당 합니다. 이러한 프로젝트 파일에서 전체 솔루션에서 찾기/바꾸기의 시작 하기 전에 로드할 수도 있습니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop._VSProjectLoadPriority>: 프로젝트는 사용자가 명시적으로 요청 하지 않으면 로드할 필요가 있습니다. 이 경우 프로젝트는 명시적으로 로드 되지 않습니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop._VSProjectLoadPriority>: 프로젝트는 사용자가 명시적으로 요청 하지 않으면 로드할 필요가 있습니다. 이 경우 프로젝트는 명시적으로 로드 되지 않습니다.  
   
 ## <a name="creating-a-solution-load-manager"></a>솔루션 로드 관리자 만들기  
  개발자 만들면 솔루션 로드 관리자를 구현 하 여 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadManager> 알릴 Visual Studio 솔루션 로드 관리자 활성 상태 인지 확인 합니다.  
@@ -80,17 +80,17 @@ pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority
 ## <a name="handling-solution-load-events"></a>솔루션 로드 이벤트를 처리합니다.  
  솔루션 로드 이벤트를 구독 하려면 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AdviseSolutionEvents%2A> 관리자에 게 솔루션 로드를 활성화할 때입니다. 구현 하는 경우 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents>, 우선 순위를 로드 하는 다른 프로젝트와 관련 된 이벤트에 응답할 수 있습니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeOpenSolution%2A>: 이 솔루션을 열기 전에 발생 합니다. 솔루션의 프로젝트에 대 한 우선 순위를 로드 하는 프로젝트를 변경 하려면 사용할 수 있습니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeOpenSolution%2A>: 이 솔루션을 열기 전에 발생 합니다. 솔루션의 프로젝트에 대 한 우선 순위를 로드 하는 프로젝트를 변경 하려면 사용할 수 있습니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeBackgroundSolutionLoadBegins%2A>: 이 솔루션은 완전히 로드 된 후 시작 되기 전에 백그라운드 로드 프로젝트 다시 발생 합니다. 예를 들어 사용자 부하 우선 순위가 LoadIfNeeded, 프로젝트에 액세스할 수 없거나 솔루션 로드 관리자 수 변경 프로젝트 로드 우선 BackgroundLoad는 해당 프로젝트의 백그라운드 로드를 시작 하려면.  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeBackgroundSolutionLoadBegins%2A>: 이 솔루션은 완전히 로드 된 후 시작 되기 전에 백그라운드 로드 프로젝트 다시 발생 합니다. 예를 들어 사용자 부하 우선 순위가 LoadIfNeeded, 프로젝트에 액세스할 수 없거나 솔루션 로드 관리자 수 변경 프로젝트 로드 우선 BackgroundLoad는 해당 프로젝트의 백그라운드 로드를 시작 하려면.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterBackgroundSolutionLoadComplete%2A>: 솔루션 로드 관리자가 여부 솔루션을 처음에 완전히 로드 된 후 실행 됩니다. 솔루션이 완전히 로드 될 때마다 백그라운드 로드 나 요청 시 로드 후에 실행 됩니다. 동시에, <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExistsAndFullyLoaded_guid> 다시 활성화 됩니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterBackgroundSolutionLoadComplete%2A>: 솔루션 로드 관리자가 여부 솔루션을 처음에 완전히 로드 된 후 실행 됩니다. 솔루션이 완전히 로드 될 때마다 백그라운드 로드 나 요청 시 로드 후에 실행 됩니다. 동시에, <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExistsAndFullyLoaded_guid> 다시 활성화 됩니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnQueryBackgroundLoadProjectBatch%2A>: 이 프로젝트 (또는 프로젝트)의 로드 하기 전에 발생 합니다. 다른 백그라운드 프로세스가 완료 된 후에 프로젝트가 로드 되도록 설정 `pfShouldDelayLoadToNextIdle` 하 **true**합니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnQueryBackgroundLoadProjectBatch%2A>: 이 프로젝트 (또는 프로젝트)의 로드 하기 전에 발생 합니다. 다른 백그라운드 프로세스가 완료 된 후에 프로젝트가 로드 되도록 설정 `pfShouldDelayLoadToNextIdle` 하 **true**합니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeLoadProjectBatch%2A>: 이 프로젝트의 일괄 처리 로드 되려고 할 때 발생 합니다. 하는 경우 `fIsBackgroundIdleBatch` 가 true 이면; 백그라운드에서 로드할 경우 프로젝트에는 `fIsBackgroundIdleBatch` 이 false 인 경우 프로젝트는 로드할 사용자 요청을 동기적으로 인해 예를 들어 사용자 경우 솔루션 탐색기에서 보류 중인 프로젝트를 확장 합니다. 그렇지 않은 경우 수행 해야 하는 비용이 많이 드는 작업을 수행 하려면이 옵션을 구현할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A>합니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeLoadProjectBatch%2A>: 이 프로젝트의 일괄 처리 로드 되려고 할 때 발생 합니다. 하는 경우 `fIsBackgroundIdleBatch` 가 true 이면; 백그라운드에서 로드할 경우 프로젝트에는 `fIsBackgroundIdleBatch` 이 false 인 경우 프로젝트는 로드할 사용자 요청을 동기적으로 인해 예를 들어 사용자 경우 솔루션 탐색기에서 보류 중인 프로젝트를 확장 합니다. 그렇지 않은 경우 수행 해야 하는 비용이 많이 드는 작업을 수행 하려면이 옵션을 구현할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A>합니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterLoadProjectBatch%2A>: 이 프로젝트의 일괄 처리 로드 되 면 발생 합니다.  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterLoadProjectBatch%2A>: 이 프로젝트의 일괄 처리 로드 되 면 발생 합니다.  
   
 ## <a name="detecting-and-managing-solution-and-project-loading"></a>검색 및 관리 솔루션 및 프로젝트 로드  
  프로젝트 및 솔루션 로드 상태를 검색 하기 위해 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.GetProperty%2A> 다음 값을 사용 하 여:  

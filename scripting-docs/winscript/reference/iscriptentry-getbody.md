@@ -17,12 +17,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 1a2cb9757c0a9683a00768d8947dfe33749e4bb9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 7f8f1ad24660401d575af2724b788387fd546af8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58147945"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60064920"
 ---
 # <a name="iscriptentrygetbody"></a>IScriptEntry::GetBody
 본문에 해당 하는 텍스트를 반환 합니다.는 `IScriptEntry` 스크립트 블록, 함수 블록 또는 scriptlet 합니다.  
@@ -39,11 +39,11 @@ HRESULT GetBody(
  `pbstr`  
  [out] 텍스트 본문에 다음 중 하나에서입니다.  
   
--   `IScriptEntry` 스크립트 블록  
+- `IScriptEntry` 스크립트 블록  
   
--   `IScriptEntry` 함수 블록의 함수  
+- `IScriptEntry` 함수 블록의 함수  
   
--   `IScriptEntry` scriptlet 이벤트 처리기  
+- `IScriptEntry` scriptlet 이벤트 처리기  
   
 ## <a name="return-value"></a>반환 값  
  `HRESULT`입니다. 가능한 값에는 다음 표에 있는 값이 포함되지만, 이에 국한되는 것은 아닙니다.  

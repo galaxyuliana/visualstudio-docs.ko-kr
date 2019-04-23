@@ -13,12 +13,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 520843ee596e67de5d4e804e90302f931a1d3b57
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 17d18a485e57b896aaf3f40b0cfdab63e10dce2c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986324"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062232"
 ---
 # <a name="properties-of-types-on-uml-class-diagrams"></a>UML 클래스 다이어그램 형식의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,15 +28,15 @@ UML 클래스 다이어그램에는 *형식* 클래스, 인터페이스 또는 �
 > [!NOTE]
 >  이 항목은 UML 클래스 다이어그램 형식의 속성에 대한 것입니다. 자세한 내용은 다음 항목을 참조하세요.  
   
--   [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)  
+- [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)  
   
--   [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)  
+- [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)  
   
--   [UML 클래스 다이어그램 특성의 속성](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
+- [UML 클래스 다이어그램 특성의 속성](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
   
--   [UML 클래스 다이어그램 작업의 속성](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
+- [UML 클래스 다이어그램 작업의 속성](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
   
--   [UML 클래스 다이어그램 연결의 속성](../modeling/properties-of-associations-on-uml-class-diagrams.md)  
+- [UML 클래스 다이어그램 연결의 속성](../modeling/properties-of-associations-on-uml-class-diagrams.md)  
   
 ## <a name="properties"></a>속성  
  클래스, 인터페이스 또는 열거형의 속성입니다.  

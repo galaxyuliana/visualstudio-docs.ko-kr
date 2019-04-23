@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6aa788fafd7b07f1224bb4abf6bfe527109b3bc6
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a6ad2051212a943cea805579f0f1ab083af60602
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692659"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057253"
 ---
 # <a name="folder-element-visual-studio-project-templates"></a>Folder 요소 (Visual Studio 프로젝트 템플릿)
 프로젝트에 추가 될 폴더를 지정 합니다.
@@ -62,7 +62,7 @@ ms.locfileid: "56692659"
 
  템플릿에서 폴더에 프로젝트 항목을 구성 하려면 다음 방법 중 하나를 사용할 수 있습니다.
 
--   템플릿에서 폴더를 포함 *.zip* 파일과 프로젝트에 추가 합니다 *.vstemplate* 파일에서 파일의 경로를 지정 하 여는 `ProjectItem` 요소를 사용 하 여 `Folder` 요소. 이것이 권장된 방법입니다. 예를 들어:
+- 템플릿에서 폴더를 포함 *.zip* 파일과 프로젝트에 추가 합니다 *.vstemplate* 파일에서 파일의 경로를 지정 하 여는 `ProjectItem` 요소를 사용 하 여 `Folder` 요소. 이것이 권장된 방법입니다. 예를 들어:
 
      `...`
 
@@ -72,7 +72,7 @@ ms.locfileid: "56692659"
 
      `...`
 
--   템플릿에서 폴더를 포함 *.zip* 파일과 프로젝트에 추가 합니다 *.vstemplate* 파일 `Folder` 요소입니다. 예를 들면,
+- 템플릿에서 폴더를 포함 *.zip* 파일과 프로젝트에 추가 합니다 *.vstemplate* 파일 `Folder` 요소입니다. 예를 들어:
 
      `...`
 
@@ -86,7 +86,7 @@ ms.locfileid: "56692659"
 
      `...`
 
--   템플릿에서 폴더를 포함 하지 *.zip* 파일을 사용 하 여 폴더를 추가 하지만 합니다 `TargetFileName` 특성을 `ProjectItem` 요소입니다. 예를 들면,
+- 템플릿에서 폴더를 포함 하지 *.zip* 파일을 사용 하 여 폴더를 추가 하지만 합니다 `TargetFileName` 특성을 `ProjectItem` 요소입니다. 예를 들어:
 
      `...`
 

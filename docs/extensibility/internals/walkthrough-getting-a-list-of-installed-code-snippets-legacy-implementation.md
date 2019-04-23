@@ -12,14 +12,14 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 08040f2436bfd68b5352a1c4cabc15d7ff49c0c1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4635030dad4b43aa27294c8425a70d3f53e5715e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614534"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056850"
 ---
-# <a name="walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation"></a>연습: 설치 된 코드 조각 (레거시 구현) 목록 가져오기
+# <a name="walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation"></a>연습: 설치된 코드 조각 목록 가져오기(레거시 구현)
 코드 조각에서 키나 메뉴 명령 (허용 하는 설치 된 코드 조각 목록 중에서 선택)를 사용 하 여 원본 버퍼에 삽입할 수 있는 코드는 IntelliSense 완성 목록에서 조각 바로 가기를 선택 합니다.
 
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionManager.EnumerateExpansions%2A> 메서드는 특정 언어 GUID에 대 한 모든 코드 조각을 가져옵니다. 해당 조각에 대 한 바로 가기는 IntelliSense 완성 목록에 삽입할 수 있습니다.
@@ -28,7 +28,7 @@ ms.locfileid: "56614534"
 
 ### <a name="to-retrieve-a-list-of-code-snippets"></a>코드 조각의 목록을 검색 하려면
 
-1.  다음 코드에는 지정된 된 언어에 대 한 코드 조각의 목록을 가져오는 방법을 보여 줍니다. 결과 배열에 저장 됩니다 <xref:Microsoft.VisualStudio.TextManager.Interop.VsExpansion> 구조입니다. 이 메서드는 정적 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 메서드를 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> 에서 인터페이스를 <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> 서비스입니다. 그러나 VSPackage 및 호출에 지정 된 서비스 공급자도 사용할 수는 <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A> 메서드.
+1. 다음 코드에는 지정된 된 언어에 대 한 코드 조각의 목록을 가져오는 방법을 보여 줍니다. 결과 배열에 저장 됩니다 <xref:Microsoft.VisualStudio.TextManager.Interop.VsExpansion> 구조입니다. 이 메서드는 정적 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 메서드를 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> 에서 인터페이스를 <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> 서비스입니다. 그러나 VSPackage 및 호출에 지정 된 서비스 공급자도 사용할 수는 <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A> 메서드.
 
     ```csharp
     using System;
@@ -103,7 +103,7 @@ ms.locfileid: "56614534"
 
 ### <a name="to-call-the-getsnippets-method"></a>GetSnippets 메서드를 호출 하려면
 
-1.  다음 메서드를 호출 하는 방법을 보여 줍니다는 `GetSnippets` 메서드 구문 분석 작업을 완료 합니다. 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.OnParseComplete%2A> 이유인 시작 된 구문 분석 작업을 수행한 후 메서드는 <xref:Microsoft.VisualStudio.Package.ParseReason>합니다.
+1. 다음 메서드를 호출 하는 방법을 보여 줍니다는 `GetSnippets` 메서드 구문 분석 작업을 완료 합니다. 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.OnParseComplete%2A> 이유인 시작 된 구문 분석 작업을 수행한 후 메서드는 <xref:Microsoft.VisualStudio.Package.ParseReason>합니다.
 
 > [!NOTE]
 >  `expansionsList` 성능상의 이유로 배열 목록을 캐시 됩니다. 언어 서비스를 중지 하 고 다시 로드 될 때까지 목록에 코드 변경 내용이 반영 되지 않습니다 (예를 들어, 중지 및 다시 시작 하 여 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).
@@ -127,7 +127,7 @@ class TestLanguageService : LanguageService
 
 ### <a name="to-use-the-snippet-information"></a>조각 정보를 사용 하려면
 
-1.  다음 코드를 반환 하는 코드 조각 정보를 사용 하는 방법을 보여 줍니다는 `GetSnippets` 메서드. `AddSnippets` 파서가 코드 조각의 목록을 채우는 데 사용 되는 모든 구문 분석 원인에 대 한 응답에서에서 메서드를 호출 합니다. 전체 구문 분석에 처음으로 완료 된 후 수행 해야이 있습니다.
+1. 다음 코드를 반환 하는 코드 조각 정보를 사용 하는 방법을 보여 줍니다는 `GetSnippets` 메서드. `AddSnippets` 파서가 코드 조각의 목록을 채우는 데 사용 되는 모든 구문 분석 원인에 대 한 응답에서에서 메서드를 호출 합니다. 전체 구문 분석에 처음으로 완료 된 후 수행 해야이 있습니다.
 
      `AddDeclaration` 메서드는 나중에 완성 목록에 표시 되는 선언의 목록을 작성 합니다.
 

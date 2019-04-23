@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7eb266eda25198f6d270ebcf48086141a73dcb9c
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 940cf70047437c8aa3182121e8b1585b448018f8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665456"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060743"
 ---
 # <a name="deploy-an-office-solution-by-using-clickonce"></a>ClickOnce를 사용 하 여 Office 솔루션 배포
   ClickOnce를 사용하면 Office 솔루션을 더 적은 단계로 배포할 수 있습니다. 업데이트를 게시하는 경우 솔루션에서 자동으로 이를 감지하여 설치합니다. 그러나 ClickOnce에서는 컴퓨터의 각 사용자에 대해 별도로 솔루션을 설치하도록 합니다. Windows Installer를 사용 하 여 고려해 야 하므로 (*.msi*) 둘 이상의 사용자를 동일한 컴퓨터에 솔루션을 실행 합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "59665456"
 
   Windows Installer 파일을 만들어 Office 솔루션을 배포 하는 방법에 대 한 자세한 내용은 참조 하세요. [Windows Installer를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-windows-installer.md)합니다.
 
-##  <a name="Publish"></a> 솔루션 게시
+## <a name="Publish"></a> 솔루션 게시
  사용 하 여 솔루션을 게시할 수는 **게시 마법사** 또는 **프로젝트 디자이너**합니다. 이 절차에서는 합니다 **프로젝트 디자이너** 게시 옵션의 전체 집합을 제공 하기 때문입니다. 참조 [게시 마법사 &#40;Visual Studio에서 Office 개발&#41;](../vsto/publish-wizard-office-development-in-visual-studio.md)합니다.
 
 #### <a name="to-publish-the-solution"></a>솔루션을 게시하려면
@@ -62,11 +62,11 @@ ms.locfileid: "59665456"
 
     다음과 같은 형식의 경로를 입력할 수 있습니다.
 
-   -   로컬 경로 (예를 들어 *C:\FolderName\FolderName*).
+   - 로컬 경로 (예를 들어 *C:\FolderName\FolderName*).
 
-   -   네트워크의 폴더에 범용 명명 규칙 (UNC) 경로 (예를 들어  *\\\ServerName\FolderName*).
+   - 네트워크의 폴더에 범용 명명 규칙 (UNC) 경로 (예를 들어  *\\\ServerName\FolderName*).
 
-   -   상대 경로 (예를 들어 *PublishFolder\\*, 프로젝트가 기본적으로 게시 되는 폴더인).
+   - 상대 경로 (예를 들어 *PublishFolder\\*, 프로젝트가 기본적으로 게시 되는 폴더인).
 
 5. 에 **설치 폴더 URL** 상자 최종 사용자가 솔루션을 찾을 위치의 정규화 된 경로 입력 합니다.
 
@@ -133,12 +133,12 @@ ms.locfileid: "59665456"
 
 14. 이 절차의 앞부분에서 지정한 설치 위치에 솔루션 파일을 복사합니다.
 
-##  <a name="Trust"></a> 솔루션에 신뢰를 부여 하는 방법 결정
+## <a name="Trust"></a> 솔루션에 신뢰를 부여 하는 방법 결정
  사용자 컴퓨터에서 솔루션을 실행하려면 먼저 관리자가 신뢰를 부여하거나 사용자가 솔루션을 설치할 때 신뢰 프롬프트에 응답해야 합니다. 솔루션에 신뢰를 부여하려면 신뢰할 수 있고 확인된 게시자를 식별하는 인증서를 사용하여 매니페스트에 서명합니다. 참조 [응용 프로그램 및 배포 매니페스트에 서명 하 여 솔루션을 신뢰](../vsto/granting-trust-to-office-solutions.md#Signing)합니다.
 
  문서 수준 사용자 지정을 배포 하는 사용자의 컴퓨터에서 폴더에 문서를 저장 하거나 SharePoint 사이트에서 문서를 사용할 수 있도록 하려는 경우 Office 문서 위치 신뢰 한다고 확인 합니다. 참조 [문서에 신뢰 부여](../vsto/granting-trust-to-documents.md)합니다.
 
-##  <a name="Helping"></a> 솔루션을 설치할 수 있도록
+## <a name="Helping"></a> 솔루션을 설치할 수 있도록
  사용자가 솔루션을 설치할 수 배포 매니페스트를 열어 설치 프로그램을 실행 하 여 또는 문서 수준 사용자 지정 하는 동안 문서를 직접 열어 합니다. 가장 좋은 방법은 사용자가 설치 프로그램을 사용하여 솔루션을 설치하는 것입니다. 나머지 두 방식의 없는 필수 구성 요소 소프트웨어가 설치 되어 있는지 확인 합니다. 사용자가 설치 위치에서 문서를 열려는 경우, Office 응용 프로그램의 보안 센터에서 신뢰할 수 있는 위치 목록에 이 문서를 추가해야 합니다.
 
 ### <a name="opening-the-document-of-a-document-level-customization"></a>문서 수준 사용자 지정의 문서 열기
@@ -151,34 +151,34 @@ ms.locfileid: "59665456"
 
 ##### <a name="to-add-the-vsto-mime-type-to-iis-60"></a>IIS 6.0에 .vsto MIME 형식을 추가하려면
 
-1.  IIS 6.0을 실행 하는 서버에서 선택 **시작** > **프로그램도** > **관리 도구**  >   **인터넷 정보 서비스 (IIS) 관리자**합니다.
+1. IIS 6.0을 실행 하는 서버에서 선택 **시작** > **프로그램도** > **관리 도구**  >   **인터넷 정보 서비스 (IIS) 관리자**합니다.
 
-2.  컴퓨터 이름을 선택 합니다 **웹 사이트** 폴더 또는 웹 사이트를 구성 하는 합니다.
+2. 컴퓨터 이름을 선택 합니다 **웹 사이트** 폴더 또는 웹 사이트를 구성 하는 합니다.
 
-3.  메뉴 모음에서 선택 **동작** > **속성**합니다.
+3. 메뉴 모음에서 선택 **동작** > **속성**합니다.
 
-4.  에 **HTTP 헤더** 탭을 선택 합니다 **MIME 형식** 단추입니다.
+4. 에 **HTTP 헤더** 탭을 선택 합니다 **MIME 형식** 단추입니다.
 
-5.  에 **MIME 형식** 창 선택 합니다 **새로 만들기** 단추입니다.
+5. 에 **MIME 형식** 창 선택 합니다 **새로 만들기** 단추입니다.
 
-6.  에 **MIME 형식을** 창 입력 **.vsto** 확장명으로 입력 **application/x-ms-vsto** MIME로 입력 한 다음 새 설정을 적용 합니다.
+6. 에 **MIME 형식을** 창 입력 **.vsto** 확장명으로 입력 **application/x-ms-vsto** MIME로 입력 한 다음 새 설정을 적용 합니다.
 
     > [!NOTE]
     >  변경 내용이 적용되려면 World Wide Web Publishing 서비스를 다시 시작하거나 작업자 프로세스가 재생될 때까지 기다려야 합니다. 열을 추가한 후 다음 브라우저의 디스크 캐시를 플러시할 해야 합니다 *.vsto* 파일을 다시 합니다.
 
 ##### <a name="to-add-the-vsto-mime-type-to-iis-70"></a>IIS 7.0에 .vsto MIME 형식을 추가하려면
 
-1.  IIS 7.0을 실행 하는 서버에서 선택 **시작** > **프로그램도** > **Accessories**합니다.
+1. IIS 7.0을 실행 하는 서버에서 선택 **시작** > **프로그램도** > **Accessories**합니다.
 
-2.  바로 가기 메뉴를 열고 **명령 프롬프트**를 선택한 후 **관리자 권한으로 실행 합니다.**
+2. 바로 가기 메뉴를 열고 **명령 프롬프트**를 선택한 후 **관리자 권한으로 실행 합니다.**
 
-3.  에 **열기** 상자에 다음 경로 입력 한 다음를 선택 합니다 **확인** 단추입니다.
+3. 에 **열기** 상자에 다음 경로 입력 한 다음를 선택 합니다 **확인** 단추입니다.
 
     ```cmd
     %windir%\system32\inetsrv
     ```
 
-4.  다음 명령을 입력한 다음 새로운 설정을 적용합니다.
+4. 다음 명령을 입력한 다음 새로운 설정을 적용합니다.
 
     ```cmd
     set config /section:staticContent /+[fileExtension='.vsto',mimeType='application/x-ms-vsto']
@@ -187,7 +187,7 @@ ms.locfileid: "59665456"
     > [!NOTE]
     >  변경 내용이 적용되려면 World Wide Web Publishing 서비스를 다시 시작하거나 작업자 프로세스가 재생될 때까지 기다려야 합니다. 열을 추가한 후 다음 브라우저의 디스크 캐시를 플러시할 해야 합니다 *.vsto* 파일을 다시 합니다.
 
-##  <a name="Put"></a> 최종 사용자의 컴퓨터 (문서 수준 사용자 지정에만 해당)에 솔루션 문서 저장
+## <a name="Put"></a> 최종 사용자의 컴퓨터 (문서 수준 사용자 지정에만 해당)에 솔루션 문서 저장
  배포 후 작업을 만들어 최종 사용자의 컴퓨터에 솔루션의 문서에 복사할 수 있습니다. 따라서 사용자는 수동으로 문서를 복사 하도록 설치 위치에서 해당 컴퓨터에 솔루션을 설치한 후 없습니다. 배포 후 작업을 정의 하는 클래스를 만들기, 빌드 및 솔루션을 게시, 응용 프로그램 매니페스트를 수정 및 응용 프로그램 및 배포 매니페스트에 다시 서명 해야 합니다.
 
  다음 절차에서는 프로젝트 이름 인지 가정 **ExcelWorkbook** 이라는 만든된 폴더에 솔루션을 게시 하 고 **C:\publish** 컴퓨터에 있습니다.
@@ -221,21 +221,21 @@ ms.locfileid: "59665456"
 
 ### <a name="build-and-publish-the-solution"></a>솔루션을 빌드하고 게시합니다.
 
-1.  **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **FileCopyPDA** 프로젝트를 선택한 후 **빌드**합니다.
+1. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **FileCopyPDA** 프로젝트를 선택한 후 **빌드**합니다.
 
-2.  바로 가기 메뉴를 열고 합니다 **ExcelWorkbook** 프로젝트를 선택한 후 **빌드**합니다.
+2. 바로 가기 메뉴를 열고 합니다 **ExcelWorkbook** 프로젝트를 선택한 후 **빌드**합니다.
 
-3.  바로 가기 메뉴를 열고 합니다 **ExcelWorkbook** 프로젝트를 선택한 후 **참조 추가**합니다.
+3. 바로 가기 메뉴를 열고 합니다 **ExcelWorkbook** 프로젝트를 선택한 후 **참조 추가**합니다.
 
-4.  **참조 추가** 대화 상자를 선택 합니다 **프로젝트** 탭을 선택 **FileCopyPDA**를 선택한 후는 **확인** 단추.
+4. **참조 추가** 대화 상자를 선택 합니다 **프로젝트** 탭을 선택 **FileCopyPDA**를 선택한 후는 **확인** 단추.
 
-5.  **솔루션 탐색기**를 선택 합니다 **ExcelWorkbook** 프로젝트입니다.
+5. **솔루션 탐색기**를 선택 합니다 **ExcelWorkbook** 프로젝트입니다.
 
-6.  메뉴 모음에서 **프로젝트** > **새 폴더**합니다.
+6. 메뉴 모음에서 **프로젝트** > **새 폴더**합니다.
 
-7.  Enter **데이터**를 선택 합니다 **Enter** 키입니다.
+7. Enter **데이터**를 선택 합니다 **Enter** 키입니다.
 
-8.  **솔루션 탐색기**를 선택 합니다 **데이터** 폴더입니다.
+8. **솔루션 탐색기**를 선택 합니다 **데이터** 폴더입니다.
 
 9. 메뉴 모음에서 선택 **프로젝트** > **기존 항목 추가**합니다.
 
@@ -253,13 +253,13 @@ ms.locfileid: "59665456"
 
 ### <a name="modify-the-application-manifest"></a>응용 프로그램 매니페스트 수정
 
-1.  솔루션 디렉터리를 엽니다 **c:\publish**를 사용 하 여 **파일 탐색기**합니다.
+1. 솔루션 디렉터리를 엽니다 **c:\publish**를 사용 하 여 **파일 탐색기**합니다.
 
-2.  엽니다는 **응용 프로그램 파일** 솔루션의 버전을 게시 폴더 및 다음 가장 최근의에 해당 하는 폴더를 엽니다.
+2. 엽니다는 **응용 프로그램 파일** 솔루션의 버전을 게시 폴더 및 다음 가장 최근의에 해당 하는 폴더를 엽니다.
 
-3.  엽니다는 **ExcelWorkbook.dll.manifest** 메모장과 같은 텍스트 편집기에서 파일입니다.
+3. 엽니다는 **ExcelWorkbook.dll.manifest** 메모장과 같은 텍스트 편집기에서 파일입니다.
 
-4.  `</vstav3:update>` 요소 뒤에 다음 코드를 추가합니다. 클래스 특성에 대 한는 `<vstav3:entryPoint>` 요소 구문을 사용 합니다. *NamespaceName.ClassName*. 다음 예제에서는 네임스페이스 및 클래스 이름이 같기 때문에 결과 진입점 이름은 `FileCopyPDA.FileCopyPDA`입니다.
+4. `</vstav3:update>` 요소 뒤에 다음 코드를 추가합니다. 클래스 특성에 대 한는 `<vstav3:entryPoint>` 요소 구문을 사용 합니다. *NamespaceName.ClassName*. 다음 예제에서는 네임스페이스 및 클래스 이름이 같기 때문에 결과 진입점 이름은 `FileCopyPDA.FileCopyPDA`입니다.
 
     ```xml
     <vstav3:postActions>
@@ -280,11 +280,11 @@ ms.locfileid: "59665456"
 
 ### <a name="re-sign-the-application-and-deployment-manifests"></a>응용 프로그램 및 배포 매니페스트 다시 서명
 
-1.  에 **%USERPROFILE%\Documents\Visual Studio 2013\Projects\ExcelWorkbook\ExcelWorkbook** 폴더를 복사 합니다 **ExcelWorkbook_TemporaryKey.pfx** 인증서 파일을 다음에 붙여 넣습니다 합니다  *PublishFolder* **files\excelworkbook**\__MostRecentPublishedVersion_ 폴더입니다.
+1. 에 **%USERPROFILE%\Documents\Visual Studio 2013\Projects\ExcelWorkbook\ExcelWorkbook** 폴더를 복사 합니다 **ExcelWorkbook_TemporaryKey.pfx** 인증서 파일을 다음에 붙여 넣습니다 합니다  *PublishFolder* **files\excelworkbook**\__MostRecentPublishedVersion_ 폴더입니다.
 
-2.  Visual Studio 명령 프롬프트를 열고 디렉터리를 변경 합니다 **c:\publish\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ 폴더 (예를 들어 **c:\publish\Application Files\ExcelWorkbook_1_0_0_4**).
+2. Visual Studio 명령 프롬프트를 열고 디렉터리를 변경 합니다 **c:\publish\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ 폴더 (예를 들어 **c:\publish\Application Files\ExcelWorkbook_1_0_0_4**).
 
-3.  다음 명령을 실행하여 수정된 응용 프로그램 매니페스트에 서명합니다.
+3. 다음 명령을 실행하여 수정된 응용 프로그램 매니페스트에 서명합니다.
 
     ```cmd
     mage -sign ExcelWorkbook.dll.manifest -certfile ExcelWorkbook_TemporaryKey.pfx
@@ -292,7 +292,7 @@ ms.locfileid: "59665456"
 
      "ExcelWorkbook.dll.manifest에 서명했습니다"라는 메시지가 나타납니다.
 
-4.  변경 된 **c:\publish** 다음 명령을 실행 하 여 폴더 및 다음 업데이트 및 로그인 배포 매니페스트:
+4. 변경 된 **c:\publish** 다음 명령을 실행 하 여 폴더 및 다음 업데이트 및 로그인 배포 매니페스트:
 
     ```cmd
     mage -update ExcelWorkbook.vsto -appmanifest "Application Files\Ex
@@ -304,38 +304,38 @@ ms.locfileid: "59665456"
 
      "ExcelWorkbook.vsto에 서명했습니다."라는 메시지가 나타납니다.
 
-5.  복사 합니다 *ExcelWorkbook.vsto* 파일을 합니다 **c:\publish\Application Files\ExcelWorkbook**\__MostRecentVersionNumber_ 디렉터리입니다.
+5. 복사 합니다 *ExcelWorkbook.vsto* 파일을 합니다 **c:\publish\Application Files\ExcelWorkbook**\__MostRecentVersionNumber_ 디렉터리입니다.
 
-##  <a name="SharePoint"></a> (문서 수준 사용자 지정에만 해당) SharePoint를 실행 하는 서버에 솔루션 문서 저장
+## <a name="SharePoint"></a> (문서 수준 사용자 지정에만 해당) SharePoint를 실행 하는 서버에 솔루션 문서 저장
  SharePoint를 사용하여 최종 사용자에게 문서 수준 사용자 지정을 게시할 수 있습니다. 사용자가 SharePoint 사이트에서 문서를 열면 런타임에 자동으로 공유 네트워크 폴더의 솔루션을 사용자의 로컬 컴퓨터에 설치합니다. 솔루션이 로컬로 설치된 후, 문서가 바탕 화면과 같은 다른 위치에 복사되는 경우에도 사용자 지정은 계속 작동합니다.
 
 #### <a name="to-put-the-document-on-a-server-thats-running-sharepoint"></a>SharePoint를 실행하는 서버에 문서를 저장하려면
 
-1.  SharePoint 사이트의 문서 라이브러리에 솔루션 문서를 추가합니다.
+1. SharePoint 사이트의 문서 라이브러리에 솔루션 문서를 추가합니다.
 
-2.  다음 방법 중 하나에 해당하는 단계를 수행합니다.
+2. 다음 방법 중 하나에 해당하는 단계를 수행합니다.
 
-    -   Office 구성 도구를 사용하여 모든 사용자 컴퓨터에 있는 Word 또는 Excel의 보안 센터에 SharePoint 실행 서버를 추가합니다.
+    - Office 구성 도구를 사용하여 모든 사용자 컴퓨터에 있는 Word 또는 Excel의 보안 센터에 SharePoint 실행 서버를 추가합니다.
 
          참조 [Office 2010의 보안 정책 및 설정](http://go.microsoft.com/fwlink/?LinkId=99227)합니다.
 
-    -   각 사용자는 다음 단계를 수행해야 합니다.
+    - 각 사용자는 다음 단계를 수행해야 합니다.
 
-        1.  Word 또는 Excel을 열고 로컬 컴퓨터를 선택 합니다 **파일** 탭을 선택한 다음는 **옵션** 단추입니다.
+        1. Word 또는 Excel을 열고 로컬 컴퓨터를 선택 합니다 **파일** 탭을 선택한 다음는 **옵션** 단추입니다.
 
-        2.  에 **보안 센터** 대화 상자를 선택 합니다 **신뢰할 수 있는 위치** 단추입니다.
+        2. 에 **보안 센터** 대화 상자를 선택 합니다 **신뢰할 수 있는 위치** 단추입니다.
 
-        3.  선택 된 **(권장 하지 않음) 네트워크 상의 신뢰할 수 있는 위치 허용** 확인란을 선택한 후는 **새 위치 추가** 단추입니다.
+        3. 선택 된 **(권장 하지 않음) 네트워크 상의 신뢰할 수 있는 위치 허용** 확인란을 선택한 후는 **새 위치 추가** 단추입니다.
 
-        4.  에 **경로** 상자에 업로드 한 문서가 포함 된 SharePoint 문서 라이브러리의 URL을 입력 합니다 (예를 들어 *http://SharePointServerName/TeamName/ProjectName/DocumentLibraryName*).
+        4. 에 **경로** 상자에 업로드 한 문서가 포함 된 SharePoint 문서 라이브러리의 URL을 입력 합니다 (예를 들어 *http://SharePointServerName/TeamName/ProjectName/DocumentLibraryName*).
 
              와 같은 기본 웹 페이지의 이름을 추가 하지 마세요 *default.aspx* 하거나 *AllItems.aspx*합니다.
 
-        5.  선택 합니다 **이 위치의 하위 폴더도 신뢰할 수 있는** 확인란을 선택한 다음를 선택 합니다 **확인** 단추.
+        5. 선택 합니다 **이 위치의 하위 폴더도 신뢰할 수 있는** 확인란을 선택한 다음를 선택 합니다 **확인** 단추.
 
              사용자가 SharePoint 사이트에서 문서를 열면 이 문서가 열리고 사용자 지정이 설치됩니다. 사용자는 바탕 화면에 이 문서를 복사할 수 있습니다. 문서의 속성에서 문서의 네트워크 위치를 가리키므로 사용자 지정은 계속 실행됩니다.
 
-##  <a name="Custom"></a> 사용자 지정 설치 관리자 만들기
+## <a name="Custom"></a> 사용자 지정 설치 관리자 만들기
  솔루션을 게시할 때를 생성 되는 설치 프로그램을 사용 하는 대신, Office 솔루션용 사용자 지정 설치 관리자를 만들 수 있습니다. 예를 들어, 설치를 시작 하려면 스크립트에서 로그인을 사용할 수 있습니다 또는 일괄 처리 파일을 사용 하 여 사용자 개입 없이 솔루션을 설치할 수 있습니다. 이러한 시나리오는 최종 사용자의 컴퓨터에 필수 구성 요소가 이미 설치된 경우에 가장 적합합니다.
 
  사용자 지정 설치 프로세스의 일부로 Office 솔루션용 설치 관리자 도구를 호출 (*VSTOInstaller.exe*)에 기본적으로 다음 위치에 설치 됩니다.
@@ -369,12 +369,12 @@ ms.locfileid: "59665456"
 |-401|솔루션을 제거할 수 없습니다.|
 |-500|솔루션을 설치 또는 제거할 수 없거나 배포 매니페스트를 다운로드할 수 없어 작업이 취소되었습니다.|
 
-##  <a name="Update"></a> 업데이트 게시
+## <a name="Update"></a> 업데이트 게시
  솔루션을 업데이트 하려면 다시 게시를 사용 하 여 합니다 **프로젝트 디자이너** 또는 **게시 마법사**, 한 다음 업데이트 된 솔루션의 설치 위치로 복사 합니다. 설치 위치에 파일을 복사하면 이전 파일을 덮어쓰게 됩니다.
 
  다음에 솔루션을 확인 하는 업데이트에 대 한 찾기 하 고 새 버전을 자동으로 로드 합니다.
 
-##  <a name="Location"></a> 솔루션의 설치 위치 변경
+## <a name="Location"></a> 솔루션의 설치 위치 변경
  솔루션이 게시된 후 설치 경로를 추가하거나 변경할 수 있습니다. 다음 이유 중 하나 이상으로 인해 설치 경로를 변경하려 할 수 있습니다.
 
 - 설치 경로가 알려지기 전에 설치 프로그램을 컴파일한 경우
@@ -410,40 +410,40 @@ ms.locfileid: "59665456"
 
 #### <a name="to-update-the-assemblylocation-property-in-a-document"></a>문서에서 _AssemblyLocation 속성을 업데이트하려면
 
-1.  에 **파일** 탭에서 **정보**, 다음 그림에 나와 있는 합니다.
+1. 에 **파일** 탭에서 **정보**, 다음 그림에 나와 있는 합니다.
 
      ![Excel의 정보 탭](../vsto/media/vsto-infotab.png "Excel의 정보 탭")
 
-2.  에 **속성** 목록에서 선택 **고급 속성**, 다음 그림에 나와 있는 합니다.
+2. 에 **속성** 목록에서 선택 **고급 속성**, 다음 그림에 나와 있는 합니다.
 
      ![Excel의 고급 속성입니다. ](../vsto/media/vsto-advanceddocumentproperties.png "Excel에 고급 속성입니다.")
 
-3.  에 **사용자 지정** 탭에서 합니다 **속성** 목록에서 다음 그림과 같이 _AssemblyLocation을 선택 합니다.
+3. 에 **사용자 지정** 탭에서 합니다 **속성** 목록에서 다음 그림과 같이 _AssemblyLocation을 선택 합니다.
 
      ![AssemblyLocation 속성입니다. ](../vsto/media/vsto-assemblylocationproperty.png "The AssemblyLocation 속성입니다.")
 
      합니다 **값** 상자 배포 매니페스트 식별자를 포함 합니다.
 
-4.  식별자, 전에 형태로 막대를 뒤에 문서의 정규화 된 경로 입력 *경로*|*식별자* (예를 들어 *File://ServerName/ FolderName/FileName | 74744e4b-e4d6-41eb-84f7-ad20346fe2d9*합니다.
+4. 식별자, 전에 형태로 막대를 뒤에 문서의 정규화 된 경로 입력 *경로*|*식별자* (예를 들어 *File://ServerName/ FolderName/FileName | 74744e4b-e4d6-41eb-84f7-ad20346fe2d9*합니다.
 
      이 식별자의 형식을 지정 하는 방법에 대 한 자세한 내용은 참조 하세요. [사용자 지정 문서 속성 개요](../vsto/custom-document-properties-overview.md)합니다.
 
-5.  선택 된 **확인** 단추 및 그런 다음 저장 하 고 문서를 닫습니다.
+5. 선택 된 **확인** 단추 및 그런 다음 저장 하 고 문서를 닫습니다.
 
-6.  /url 매개 변수를 사용하지 않고 설치 프로그램을 실행하여 지정한 위치에 솔루션을 설치합니다.
+6. /url 매개 변수를 사용하지 않고 설치 프로그램을 실행하여 지정한 위치에 솔루션을 설치합니다.
 
-##  <a name="Roll"></a> 이전 버전으로 솔루션 롤백
+## <a name="Roll"></a> 이전 버전으로 솔루션 롤백
  솔루션을 롤백하면 사용자의 해당 솔루션이 이전 버전으로 돌아갑니다.
 
 #### <a name="to-roll-back-a-solution"></a>솔루션을 롤백하려면
 
-1.  솔루션의 설치 위치를 엽니다.
+1. 솔루션의 설치 위치를 엽니다.
 
-2.  최상위 폴더를 게시, 배포 매니페스트는 삭제 (합니다 *.vsto* 파일).
+2. 최상위 폴더를 게시, 배포 매니페스트는 삭제 (합니다 *.vsto* 파일).
 
-3.  롤백할 버전의 하위 폴더를 찾습니다.
+3. 롤백할 버전의 하위 폴더를 찾습니다.
 
-4.  해당 하위 폴더의 배포 매니페스트를 최상위 게시 폴더에 복사합니다.
+4. 해당 하위 폴더의 배포 매니페스트를 최상위 게시 폴더에 복사합니다.
 
      예를 들어, 호출 되는 솔루션을 롤백하려면 **OutlookAddIn1** 버전 1.0.0.0 버전 1.0.0.1에서에서 파일을 복사 합니다 **OutlookAddIn1.vsto** 에서 **OutlookAddIn1_1_0_0_0** 폴더입니다. 파일을 붙여 넣습니다 최상위 게시 폴더에 대 한 버전별 배포 매니페스트 **OutlookAddIn1_1_0_0_1** 있던 합니다.
 

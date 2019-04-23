@@ -22,12 +22,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 40a8901b60c25e29f038aee634ed54519501a925
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1c9ea6398ca02291bb9dc11693c98336cd33b14b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986368"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061993"
 ---
 # <a name="layer-diagrams-reference"></a>레이어 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ Visual Studio에서 사용할 수는 *레이어 다이어그램* 시스템의 �
 |4|**설명**|다이어그램 또는 다이어그램의 요소에 일반적인 메모를 추가하려면 사용합니다.|  
 |5|**주석 링크**|다이어그램의 요소에 주석을 연결하려면 사용합니다.|  
   
-##  <a name="Explorer"></a> 레이어 탐색기  
+## <a name="Explorer"></a> 레이어 탐색기  
  솔루션에서 각 레이어를 프로젝트, 클래스, 네임스페이스, 프로젝트 파일 및 기타 소프트웨어 파트와 같은 아티팩트에 연결할 수 있습니다. 레이어의 숫자는 해당 레이어에 연결된 아티팩트의 수를 나타냅니다. 그러나 레이어의 아티팩트 수를 읽을 때 다음을 고려하세요.  
   
 - 레이어가 직접 연결되지 않은 다른 아티팩트를 포함하는 아티팩트에 연결된 경우 연결된 아티팩트만 숫자에 포함됩니다. 그러나 레이어 유효성 검사 중에는 직접 연결되지 않은 다른 아티팩트도 분석을 위해 포함됩니다.  
@@ -80,7 +80,7 @@ Visual Studio에서 사용할 수는 *레이어 다이어그램* 시스템의 �
   
 #### <a name="to-examine-the-linked-artifacts"></a>연결된 아티팩트를 검사하려면  
   
--   레이어 다이어그램에서 하나 이상의 계층에 대 한 바로 가기 메뉴를 열고 선택한 후 **보기 링크**합니다.  
+- 레이어 다이어그램에서 하나 이상의 계층에 대 한 바로 가기 메뉴를 열고 선택한 후 **보기 링크**합니다.  
   
      **레이어 탐색기** 열리고 선택한 레이어에 연결 된 아티팩트를 보여 줍니다. **레이어 탐색기** 에 각 아티팩트 링크의 속성을 보여 주는 열이 있습니다.  
   

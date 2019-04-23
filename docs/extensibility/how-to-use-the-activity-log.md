@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5cb2453d42517982cc1dd1e2a2f5c51814496392
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: b0699e3a7ad4a56f7e102ca896359290cd7dbecb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324015"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053132"
 ---
 # <a name="how-to-use-the-activity-log"></a>방법: 활동 로그 사용
 Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기능은 소매 환경에서 Vspackage를 디버깅 하는 데 특히 유용 합니다.
@@ -26,7 +26,7 @@ Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기�
 
 ## <a name="to-write-an-entry-to-the-activity-log"></a>활동 로그에 항목을 기록 하려면
 
-1.  이 코드를 삽입 합니다 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드 또는 VSPackage 생성자를 제외한 다른 모든 메서드에서:
+1. 이 코드를 삽입 합니다 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드 또는 VSPackage 생성자를 제외한 다른 모든 메서드에서:
 
     ```csharp
     IVsActivityLog log = GetService(typeof(SVsActivityLog)) as IVsActivityLog;
@@ -40,7 +40,7 @@ Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기�
 
      이 코드는 <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> 서비스 및 캐스팅을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> 인터페이스입니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog.LogEntry%2A> 현재 작품의 문화적 컨텍스트를 사용 하 여 활동 로그에 정보 항목을 씁니다.
 
-2.  (일반적으로 때나 명령을 호출 하는 창이 열린) VSPackage 로드 되 면 텍스트 활동 로그에 기록 됩니다.
+2. (일반적으로 때나 명령을 호출 하는 창이 열린) VSPackage 로드 되 면 텍스트 활동 로그에 기록 됩니다.
 
 ## <a name="to-examine-the-activity-log"></a>활동 로그를 검사 하려면
 

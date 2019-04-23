@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8378bf0a95ca9a844de4985f7403f04978607dcd
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3e17e5a88b958c1361e7f8b3db70d7599f44f766
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615275"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066197"
 ---
 # <a name="source-control-design-decisions"></a>소스 제어 디자인 결정
 소스 제어를 구현 하는 경우 다음 디자인 결정 사항은 프로젝트에 대 한 고려 되어야 합니다.
@@ -28,11 +28,11 @@ ms.locfileid: "56615275"
 ## <a name="will-the-project-include-special-files"></a>특수 한 파일 포함 된 프로젝트?
  다른 중요 한 디자인 결정 프로젝트 구조를 특수 한 파일을 사용 하는지 여부입니다. 특수 한 파일은 솔루션 탐색기에서에 체크 표시 인 및 체크 아웃 대화 상자에 있는 파일의 기반이 되는 숨겨진된 파일입니다. 특수 한 파일을 사용 하는 경우 다음이 지침을 따르세요.
 
-1.  프로젝트 루트 노드를 사용 하 여 특수 한 파일을 연결 하지 않는-즉, 프로젝트 파일 자체입니다. 프로젝트 파일에는 단일 파일 이어야 합니다.
+1. 프로젝트 루트 노드를 사용 하 여 특수 한 파일을 연결 하지 않는-즉, 프로젝트 파일 자체입니다. 프로젝트 파일에는 단일 파일 이어야 합니다.
 
-2.  특수 한 파일 추가, 제거 또는 적절 한 프로젝트의 이름을 바꿀 때 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2> 파일은 특수 한 파일을 지정 하는 플래그 집합을 사용 하 여 이벤트를 발생 해야 합니다. 적절 한 호출 프로젝트에 대 한 응답으로 환경에서 이러한 이벤트 라고 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> 메서드.
+2. 특수 한 파일 추가, 제거 또는 적절 한 프로젝트의 이름을 바꿀 때 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2> 파일은 특수 한 파일을 지정 하는 플래그 집합을 사용 하 여 이벤트를 발생 해야 합니다. 적절 한 호출 프로젝트에 대 한 응답으로 환경에서 이러한 이벤트 라고 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> 메서드.
 
-3.  프로젝트 또는 편집기를 호출 하면 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> 파일의 경우 해당 파일에 연결 된 특수 파일이 자동으로 체크 아웃 되지 않은 합니다. 파일의 부모와 함께 특수 파일을 전달 합니다. 환경에서 전달 되는 모든 파일 간의 관계를 감지 하 고 적절 하 게 체크 아웃 UI에 특수 한 파일을 숨깁니다.
+3. 프로젝트 또는 편집기를 호출 하면 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> 파일의 경우 해당 파일에 연결 된 특수 파일이 자동으로 체크 아웃 되지 않은 합니다. 파일의 부모와 함께 특수 파일을 전달 합니다. 환경에서 전달 되는 모든 파일 간의 관계를 감지 하 고 적절 하 게 체크 아웃 UI에 특수 한 파일을 숨깁니다.
 
 ## <a name="see-also"></a>참고 항목
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A>

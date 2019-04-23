@@ -10,12 +10,12 @@ ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e0ee2059c6a2bc1c5456cc949cf05b921c874cd3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 9118cbe3f4a8dcee443eca8b3fa5fb9a7664fd41
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970931"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049310"
 ---
 # <a name="supplying-undo-support-to-designers"></a>디자이너에 실행 취소 지원 제공
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,9 +41,9 @@ ms.locfileid: "58970931"
 ## <a name="obtaining-undo-support-automatically"></a>실행 취소 기능을 자동으로 가져오기  
  만든 모든 디자이너 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 자동 및 전체 실행 취소 지원 경우 디자이너:  
   
--   사용을 <xref:System.Windows.Forms.Control> 사용자 인터페이스에 대 한 클래스를 기반으로 합니다.  
+- 사용을 <xref:System.Windows.Forms.Control> 사용자 인터페이스에 대 한 클래스를 기반으로 합니다.  
   
--   코드 생성 및 지 속성에 대 한 표준 CodeDOM 기반 코드 생성 및 구문 분석 시스템을 사용합니다.  
+- 코드 생성 및 지 속성에 대 한 표준 CodeDOM 기반 코드 생성 및 구문 분석 시스템을 사용합니다.  
   
      Visual Studio CodeDOM 지원 사용 하 여 작업에 대 한 자세한 내용은 참조 하세요. [동적 소스 코드 생성 및 컴파일](http://msdn.microsoft.com/library/d077a3e8-bd81-4bdf-b6a3-323857ea30fb)  
   
@@ -80,15 +80,15 @@ ms.locfileid: "58970931"
   
 - 이 <xref:System.IServiceProvider> 클래스는 다음 서비스를 제공 해야 합니다.  
   
-  -   <xref:System.ComponentModel.Design.IDesignerHost>.  
+  - <xref:System.ComponentModel.Design.IDesignerHost>.  
   
-  -   <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
+  - <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
   
        디자이너를 사용 하 여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CodeDOM serialization 사용 하도록 선택할 수 있습니다 <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> 와 함께 제공 되는 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 의 구현으로는 <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>합니다.  
   
        이 경우에 <xref:System.IServiceProvider> 를 제공 하는 클래스를 <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> 생성자의 구현으로이 개체를 반환 해야는 <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> 클래스입니다.  
   
-  -   <xref:System.ComponentModel.Design.IComponentChangeService>  
+  - <xref:System.ComponentModel.Design.IComponentChangeService>  
   
        기본값을 사용 하 여 디자이너 <xref:System.ComponentModel.Design.DesignSurface> 제공한 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 디자인 호스트의 기본 구현을 포함 하도록 보장 합니다 <xref:System.ComponentModel.Design.IComponentChangeService> 클래스.  
   

@@ -12,12 +12,12 @@ ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a7650fc8a2ba297ccd3bc2a87be72a3f70062a18
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2b54c6ba8f3daefa53f00478c1d7e4573311cfb6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983427"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061348"
 ---
 # <a name="project-property-user-interface"></a>프로젝트 속성 사용자 인터페이스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,11 +41,11 @@ ms.locfileid: "58983427"
   
 - 프로젝트 하위 형식이 면 다음을 검색 하 여 런타임 시 기본 프로젝트의 다양 한 확장 가능한 개체에 대 한 적절 한 Catid를 확인할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> 값:  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
   
   프로젝트 범위에 대 한 Catid를 확인 하려면 프로젝트 하위 형식에 대 한 위의 속성을 검색 <xref:Microsoft.VisualStudio.VSConstants.VSITEMID> 에서 `VSITEMID``typedef`합니다. 프로젝트 하위 형식 제어 하는 수도 **속성 페이지** 대화 상자 페이지를 프로젝트에 대해 표시 되 구성 종속 및 독립 구성 합니다. 일부 프로젝트 하위 형식 기본 제공 페이지를 제거 하 고 프로젝트 하위 형식에 대 한 특정 페이지를 추가 해야 합니다. 이 호출 하 여 관리 되는 클라이언트 프로젝트를 사용 하도록 설정 하기 위해는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> 다음 속성에 대 한 메서드:  
   

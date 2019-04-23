@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 26fdadf92fa94efe0a08fdf090e5a295e2f65096
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: 6841b8a91cec24f467f6e3f684cbb27e25c9fa63
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54999979"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045618"
 ---
 # <a name="how-to-disable-url-activation-of-clickonce-applications"></a>방법: ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정
 
@@ -35,14 +35,14 @@ ms.locfileid: "54999979"
 
 ### <a name="to-disable-url-activation-for-your-application"></a>응용 프로그램의 URL 활성화를 사용하지 않도록 설정하려면
 
-1.  MageUI.exe에서 배포 매니페스트를 엽니다. 단계를 수행 하면 아직 만들지 않은, 경우 [연습: 수동으로 ClickOnce 응용 프로그램을 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다.
+1. MageUI.exe에서 배포 매니페스트를 엽니다. 단계를 수행 하면 아직 만들지 않은, 경우 [연습: 수동으로 ClickOnce 응용 프로그램을 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다.
 
-2.  **배포 옵션** 탭을 선택합니다.
+2. **배포 옵션** 탭을 선택합니다.
 
-3.  **설치 후 자동으로 애플리케이션 실행** 확인란의 선택을 취소합니다.
+3. **설치 후 자동으로 애플리케이션 실행** 확인란의 선택을 취소합니다.
 
-4.  매니페스트를 저장하고 여기에 서명합니다.
+4. 매니페스트를 저장하고 여기에 서명합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [ClickOnce 애플리케이션 게시](../deployment/publishing-clickonce-applications.md)

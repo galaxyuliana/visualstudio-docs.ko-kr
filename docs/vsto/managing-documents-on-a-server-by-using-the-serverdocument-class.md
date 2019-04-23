@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 83f23bb04c9080b75d2a8e93252d981c0833d69d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 595c9127aad71cac6f446f356c309809b7172d94
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630082"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045489"
 ---
 # <a name="manage-documents-on-a-server-by-using-the-serverdocument-class"></a>ServerDocument 클래스를 사용 하 여 서버의 문서 관리
   사용할 수는 `ServerDocument` 클래스는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Microsoft Office Word 및 Microsoft Office Excel 설치 되지 않은 경우에 문서 수준 사용자 지정의 몇 가지 측면을 관리할 수 합니다. 다음 작업을 수행할 수 있습니다.
@@ -40,7 +40,7 @@ ms.locfileid: "56630082"
 > [!NOTE]
 >  사용 하는 레거시 응용 프로그램의 경우는 `ServerDocument` 클래스를 `Visual Studio Tools for Office` system (버전 3.0 런타임), `Visual Studio Tools for Office` system (버전 3.0 런타임) 응용 프로그램을 실행 하는 컴퓨터에 설치 해야 합니다. `Visual Studio 2010 Tools for Office runtime` 이러한 응용 프로그램을 실행할 수 없습니다.
 
-##  <a name="CachedData"></a> 문서의 캐시 된 데이터를 사용 하 여 작동 합니다.
+## <a name="CachedData"></a> 문서의 캐시 된 데이터를 사용 하 여 작동 합니다.
  `ServerDocument` 클래스는 사용자 지정 된 문서의 데이터 캐시를 사용 하 여 작업을 사용할 수 있는 멤버를 제공 합니다. 캐시 된 데이터에 대 한 자세한 내용은 참조 하세요. [데이터 캐시](../vsto/caching-data.md) 하 고 [서버에서 문서 데이터에에서 액세스](../vsto/accessing-data-in-documents-on-the-server.md)합니다.
 
  다음 표에서 캐시 된 데이터를 사용 하 여 멤버를 나열 합니다.
@@ -50,7 +50,7 @@ ms.locfileid: "56630082"
 |문서에 데이터 캐시가 있는지 여부를 확인 합니다.|<xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.IsCacheEnabled%2A> 메서드|
 |문서의 캐시 된 데이터에 액세스할 수<br /><br /> 자세한 내용은 [서버에서 문서 데이터에에서 액세스](../vsto/accessing-data-in-documents-on-the-server.md)합니다.|<xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.CachedData%2A> 속성|
 
-##  <a name="CustomizationInfo"></a> 문서 사용자 지정 관리
+## <a name="CustomizationInfo"></a> 문서 사용자 지정 관리
  멤버를 사용할 수는 `ServerDocument` 문서와 연결 된 사용자 지정 어셈블리를 관리 하는 클래스입니다. 예를 들어, 제거할 수 없습니다 프로그래밍 방식으로 사용자 지정 문서에서 문서는 더 이상 사용자 지정의 있도록.
 
  다음 표에서 사용자 지정 어셈블리를 관리 하 여 멤버를 나열 합니다.

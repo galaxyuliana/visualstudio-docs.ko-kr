@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e01c76f5696e029cd7d15be75786b1009af4a673
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d2c17d20b54ea16f0a6764277855ca240aeb7224
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56678633"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061214"
 ---
 # <a name="sccqueryinfo-function"></a>SccQueryInfo 함수
 이 함수는 소스 제어에서 선택한 파일의 집합에 대 한 상태 정보를 얻습니다.
@@ -67,13 +67,13 @@ SCCRTN SccQueryInfo(
 
  이 함수를 사용 하 여 파일을 체크 아웃, 다음을 유의 하십시오. `MSSCCI` 상태 요구 사항:
 
--   `SCC_STATUS_OUTBYUSER` 현재 사용자가 파일을 체크 아웃할 때 설정 됩니다.
+- `SCC_STATUS_OUTBYUSER` 현재 사용자가 파일을 체크 아웃할 때 설정 됩니다.
 
--   `SCC_STATUS_CHECKEDOUT` 설정할 수 없습니다 `SCC_STATUS_OUTBYUSER` 설정 됩니다.
+- `SCC_STATUS_CHECKEDOUT` 설정할 수 없습니다 `SCC_STATUS_OUTBYUSER` 설정 됩니다.
 
--   `SCC_STATUS_CHECKEDOUT` 때 파일을 체크 아웃 된 지정 된 작업 디렉터리에만 설정 됩니다.
+- `SCC_STATUS_CHECKEDOUT` 때 파일을 체크 아웃 된 지정 된 작업 디렉터리에만 설정 됩니다.
 
--   경우 파일을 체크 아웃 된 현재 사용자가 작업 디렉터리를 이외의 디렉터리로 `SCC_STATUS_OUTBYUSER` 설정 되어 있지만 `SCC_STATUS_CHECKEDOUT` 아닙니다.
+- 경우 파일을 체크 아웃 된 현재 사용자가 작업 디렉터리를 이외의 디렉터리로 `SCC_STATUS_OUTBYUSER` 설정 되어 있지만 `SCC_STATUS_CHECKEDOUT` 아닙니다.
 
 ## <a name="see-also"></a>참고 항목
 - [소스 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)

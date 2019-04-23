@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 81c85adc3aaa3bedb92709ce59dd2192a6756473
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 93acd8466ae90a6db4d1f25d93460e501335af50
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601241"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062219"
 ---
 # <a name="how-to-programmatically-protect-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 보호
   Microsoft Office Excel의 보호 기능은 사용자 및 코드가 워크시트의 개체를 수정할 수 없도록 차단합니다. 기본적으로 보호를 설정하면 모든 셀이 잠깁니다.
@@ -44,7 +44,7 @@ ms.locfileid: "56601241"
 
 ### <a name="to-allow-editing-in-specific-ranges"></a>특정 범위에서 편집을 허용하려면
 
-1.  에 **변경 내용을** 그룹의 **검토** 탭을 클릭 **범위 편집 허용 사용자**.
+1. 에 **변경 내용을** 그룹의 **검토** 탭을 클릭 **범위 편집 허용 사용자**.
 
      합니다 **범위 편집 허용 사용자** 대화 상자가 나타납니다. 암호를 사용하여 잠금 해제되는 범위 및 암호 없이 범위를 편집할 수 있는 사용자를 지정할 수 있습니다.
 
@@ -53,14 +53,14 @@ ms.locfileid: "56601241"
 
 ### <a name="to-protect-a-worksheet-by-using-code-in-a-document-level-customization"></a>문서 수준 사용자 지정에서 코드를 사용하여 워크시트를 보호하려면
 
-1.  워크시트의 <xref:Microsoft.Office.Tools.Excel.Worksheet.Protect%2A> 메서드를 호출합니다. 이 예제에서는 `Sheet1`이라는 워크시트를 사용한다고 가정합니다.
+1. 워크시트의 <xref:Microsoft.Office.Tools.Excel.Worksheet.Protect%2A> 메서드를 호출합니다. 이 예제에서는 `Sheet1`이라는 워크시트를 사용한다고 가정합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#27](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#27)]
      [!code-vb[Trin_VstcoreExcelAutomation#27](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#27)]
 
 ### <a name="to-protect-a-worksheet-by-using-code-in-a-vsto-add-in"></a>VSTO 추가 기능에서 코드를 사용하여 워크시트를 보호하려면
 
-1.  활성 워크시트의 <xref:Microsoft.Office.Interop.Excel._Worksheet.Protect%2A> 메서드를 호출합니다.
+1. 활성 워크시트의 <xref:Microsoft.Office.Interop.Excel._Worksheet.Protect%2A> 메서드를 호출합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#17](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#17)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#17](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#17)]

@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9fd695c5a33ea8ea7bb9895d34995abd37db7019
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: cb6793855fc4df4080a7f94799cfe2372308a5a0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843963"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060308"
 ---
 # <a name="create-a-basic-project-system-part-1"></a>1 부 기본 프로젝트 시스템을 만들려면
 Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타 자산을 구성 하는 데 사용할 컨테이너를 사용 합니다. 프로젝트에서 솔루션의 자식으로 표시 합니다 **솔루션 탐색기**합니다. 프로젝트를 사용 하 여 구성, 빌드, 디버그 및 소스 코드를 배포 및 웹 서비스, 데이터베이스 및 기타 리소스에 대 한 참조를 만들 수 있습니다.
@@ -39,21 +39,21 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
 
  이 연습에서는 이러한 작업을 수행 하는 방법에 설명 합니다.
 
--   기본 프로젝트 형식을 만듭니다.
+- 기본 프로젝트 형식을 만듭니다.
 
--   기본 프로젝트 템플릿을 만듭니다.
+- 기본 프로젝트 템플릿을 만듭니다.
 
--   Visual Studio 프로젝트 템플릿을 등록 합니다.
+- Visual Studio 프로젝트 템플릿을 등록 합니다.
 
--   프로젝트 인스턴스를 열어 만듭니다는 **새 프로젝트** 대화 상자 및 다음 템플릿을 사용 하 여 합니다.
+- 프로젝트 인스턴스를 열어 만듭니다는 **새 프로젝트** 대화 상자 및 다음 템플릿을 사용 하 여 합니다.
 
--   프로젝트 시스템에 대 한 프로젝트 팩터리를 만듭니다.
+- 프로젝트 시스템에 대 한 프로젝트 팩터리를 만듭니다.
 
--   프로젝트 시스템에 대 한 프로젝트 노드를 만듭니다.
+- 프로젝트 시스템에 대 한 프로젝트 노드를 만듭니다.
 
--   프로젝트 시스템에 대 한 사용자 지정 아이콘을 추가 합니다.
+- 프로젝트 시스템에 대 한 사용자 지정 아이콘을 추가 합니다.
 
--   기본 템플릿 매개 변수 대체를 구현 합니다.
+- 기본 템플릿 매개 변수 대체를 구현 합니다.
 
 ## <a name="prerequisites"></a>전제 조건
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.
@@ -240,11 +240,11 @@ Templates
 ## <a name="add-the-managed-package-framework-code"></a>관리 패키지 프레임 워크 코드를 추가 합니다.
  프로젝트 패키지와 프로젝트 팩터리 간의 연결을 구현 합니다.
 
--   관리 패키지 프레임 워크에 대 한 소스 코드 파일을 가져옵니다.
+- 관리 패키지 프레임 워크에 대 한 소스 코드 파일을 가져옵니다.
 
-    1.  SimpleProject 프로젝트 언로드 (에서 **솔루션 탐색기**, 프로젝트 노드를 선택 하 고 상황에 맞는 메뉴를 클릭 **프로젝트 언로드**.) 및 XML 편집기에서 프로젝트 파일을 엽니다.
+    1. SimpleProject 프로젝트 언로드 (에서 **솔루션 탐색기**, 프로젝트 노드를 선택 하 고 상황에 맞는 메뉴를 클릭 **프로젝트 언로드**.) 및 XML 편집기에서 프로젝트 파일을 엽니다.
 
-    2.  프로젝트 파일에 다음 요소를 추가 (바로 위에 \<가져오기 > 요소). 설정 `ProjectBasePath` 의 위치를 *ProjectBase.files* 방금 다운로드 한 관리 되는 패키지 프레임 워크 코드는 파일입니다. 경로 이름에 백슬래시를 추가 해야 합니다. 이렇게 하지 않으면 프로젝트 관리 패키지 프레임 워크 소스 코드를 찾을에 실패할 수 있습니다.
+    2. 프로젝트 파일에 다음 요소를 추가 (바로 위에 \<가져오기 > 요소). 설정 `ProjectBasePath` 의 위치를 *ProjectBase.files* 방금 다운로드 한 관리 되는 패키지 프레임 워크 코드는 파일입니다. 경로 이름에 백슬래시를 추가 해야 합니다. 이렇게 하지 않으면 프로젝트 관리 패키지 프레임 워크 소스 코드를 찾을에 실패할 수 있습니다.
 
         ```
         <PropertyGroup>
@@ -257,38 +257,38 @@ Templates
         > [!IMPORTANT]
         >  경로 끝에 백슬래시를 잊지 마십시오.
 
-    3.  프로젝트를 다시 로드 합니다.
+    3. 프로젝트를 다시 로드 합니다.
 
-    4.  다음 어셈블리에 대한 참조를 추가합니다.
+    4. 다음 어셈블리에 대한 참조를 추가합니다.
 
-        -   `Microsoft.VisualStudio.Designer.Interfaces` (에  *\<VSSDK 설치 > \VisualStudioIntegration\Common\Assemblies\v2.0*)
+        - `Microsoft.VisualStudio.Designer.Interfaces` (에  *\<VSSDK 설치 > \VisualStudioIntegration\Common\Assemblies\v2.0*)
 
-        -   `WindowsBase`
+        - `WindowsBase`
 
-        -   `Microsoft.Build.Tasks.v4.0`
+        - `Microsoft.Build.Tasks.v4.0`
 
 ### <a name="to-initialize-the-project-factory"></a>프로젝트 팩터리를 초기화 하려면
 
-1.  에 *SimpleProjectPackage.cs* 파일에서 다음을 추가 합니다 `using` 문입니다.
+1. 에 *SimpleProjectPackage.cs* 파일에서 다음을 추가 합니다 `using` 문입니다.
 
     ```csharp
     using Microsoft.VisualStudio.Project;
     ```
 
-2.  파생 된 `SimpleProjectPackage` 클래스에서 `Microsoft.VisualStudio.Package.ProjectPackage`합니다.
+2. 파생 된 `SimpleProjectPackage` 클래스에서 `Microsoft.VisualStudio.Package.ProjectPackage`합니다.
 
     ```csharp
     public sealed class SimpleProjectPackage : ProjectPackage
     ```
 
-3.  프로젝트 팩터리를 등록 합니다. 다음 줄을 추가 합니다 `SimpleProjectPackage.Initialize` 메서드를 직후 `base.Initialize`합니다.
+3. 프로젝트 팩터리를 등록 합니다. 다음 줄을 추가 합니다 `SimpleProjectPackage.Initialize` 메서드를 직후 `base.Initialize`합니다.
 
     ```csharp
     base.Initialize();
     this.RegisterProjectFactory(new SimpleProjectFactory(this));
     ```
 
-4.  추상 속성을 구현 `ProductUserContext`:
+4. 추상 속성을 구현 `ProductUserContext`:
 
     ```csharp
     public override string ProductUserContext
@@ -297,19 +297,19 @@ Templates
     }
     ```
 
-5.  *SimpleProjectFactory.cs*, 다음을 추가 합니다 `using` 기존 뒤의 문으로 `using` 문입니다.
+5. *SimpleProjectFactory.cs*, 다음을 추가 합니다 `using` 기존 뒤의 문으로 `using` 문입니다.
 
     ```csharp
     using Microsoft.VisualStudio.Project;
     ```
 
-6.  파생 된 `SimpleProjectFactory` 클래스에서 `ProjectFactory`합니다.
+6. 파생 된 `SimpleProjectFactory` 클래스에서 `ProjectFactory`합니다.
 
     ```csharp
     class SimpleProjectFactory : ProjectFactory
     ```
 
-7.  다음 더미 메서드를 추가 합니다 `SimpleProjectFactory` 클래스입니다. 이후 섹션에서이 메서드를 구현 합니다.
+7. 다음 더미 메서드를 추가 합니다 `SimpleProjectFactory` 클래스입니다. 이후 섹션에서이 메서드를 구현 합니다.
 
     ```csharp
     protected override ProjectNode CreateProject()
@@ -318,7 +318,7 @@ Templates
     }
     ```
 
-8.  다음 필드 및 생성자를 추가 합니다 `SimpleProjectFactory` 클래스입니다. 이 `SimpleProjectPackage` 설정 서비스 공급자 사이트에서 사용할 수 있도록 참조를 개인 필드에 캐시 됩니다.
+8. 다음 필드 및 생성자를 추가 합니다 `SimpleProjectFactory` 클래스입니다. 이 `SimpleProjectPackage` 설정 서비스 공급자 사이트에서 사용할 수 있도록 참조를 개인 필드에 캐시 됩니다.
 
     ```csharp
     private SimpleProjectPackage package;
@@ -337,17 +337,17 @@ Templates
 
 ### <a name="to-test-the-project-factory-implementation"></a>프로젝트 팩터리 구현을 테스트 하려면
 
-1.  에 *SimpleProjectFactory.cs* 파일에서 다음 줄에 중단점을 설정 합니다는 `SimpleProjectFactory` 생성자입니다.
+1. 에 *SimpleProjectFactory.cs* 파일에서 다음 줄에 중단점을 설정 합니다는 `SimpleProjectFactory` 생성자입니다.
 
     ```csharp
     this.package = package;
     ```
 
-2.  키를 눌러 **F5** Visual Studio의 실험적 인스턴스를 시작 합니다.
+2. 키를 눌러 **F5** Visual Studio의 실험적 인스턴스를 시작 합니다.
 
-3.  실험적 인스턴스에서 새 프로젝트 만들기를 시작 합니다. **새 프로젝트** 대화 상자를 선택 합니다 **SimpleProject** 프로젝트 형식 및 클릭 **확인**합니다. 중단점에서 실행이 중지됩니다.
+3. 실험적 인스턴스에서 새 프로젝트 만들기를 시작 합니다. **새 프로젝트** 대화 상자를 선택 합니다 **SimpleProject** 프로젝트 형식 및 클릭 **확인**합니다. 중단점에서 실행이 중지됩니다.
 
-4.  중단점의 선택을 취소 하 고 디버깅을 중지 합니다. 만들었으므로 하지 프로젝트 노드 아직, 프로젝트 생성 코드는 여전히 예외를 throw 합니다.
+4. 중단점의 선택을 취소 하 고 디버깅을 중지 합니다. 만들었으므로 하지 프로젝트 노드 아직, 프로젝트 생성 코드는 여전히 예외를 throw 합니다.
 
 ## <a name="extend-the-projectnode-class"></a>ProjectNode 클래스 확장
  이제 구현할 수 있습니다는 `SimpleProjectNode` 에서 파생 되는 클래스는 `ProjectNode` 클래스입니다. `ProjectNode` 프로젝트 만들기의 다음 작업을 처리 하는 기본 클래스:
@@ -416,13 +416,13 @@ Templates
 
 ### <a name="to-connect-the-project-factory-class-and-the-node-class"></a>프로젝트 팩터리 클래스 및 노드 클래스를 연결 하려면
 
-1.  에 *SimpleProjectFactory.cs* 파일을 다음 추가 `using` 문:
+1. 에 *SimpleProjectFactory.cs* 파일을 다음 추가 `using` 문:
 
     ```csharp
     using IOleServiceProvider =    Microsoft.VisualStudio.OLE.Interop.IServiceProvider;
     ```
 
-2.  대체는 `SimpleProjectFactory.CreateProject` 메서드를 다음 코드를 사용 합니다.
+2. 대체는 `SimpleProjectFactory.CreateProject` 메서드를 다음 코드를 사용 합니다.
 
     ```csharp
     protected override ProjectNode CreateProject()
@@ -434,18 +434,18 @@ Templates
     }
     ```
 
-3.  솔루션을 다시 작성 하 고 오류 없이 빌드되는지 확인 합니다.
+3. 솔루션을 다시 작성 하 고 오류 없이 빌드되는지 확인 합니다.
 
 ## <a name="test-the-projectnode-class"></a>ProjectNode 클래스 테스트
  프로젝트 계층 구조를 만들면 여부를 확인 하려면 프로젝트 팩터리를 테스트 합니다.
 
 ### <a name="to-test-the-projectnode-class"></a>ProjectNode 클래스를 테스트 하려면
 
-1.  **F5** 키를 눌러 디버깅을 시작합니다. 새 SimpleProject 실험적 인스턴스를 만듭니다.
+1. **F5** 키를 눌러 디버깅을 시작합니다. 새 SimpleProject 실험적 인스턴스를 만듭니다.
 
-2.  Visual Studio 프로젝트를 만들려면 프로젝트 팩터리를 호출 해야 합니다.
+2. Visual Studio 프로젝트를 만들려면 프로젝트 팩터리를 호출 해야 합니다.
 
-3.  Visual Studio의 실험적 인스턴스를 닫습니다.
+3. Visual Studio의 실험적 인스턴스를 닫습니다.
 
 ## <a name="add-a-custom-project-node-icon"></a>추가 사용자 지정 프로젝트 노드 아이콘
  이전 섹션에서 프로젝트 노드 아이콘은 기본 아이콘입니다. 사용자 지정 아이콘을 변경할 수 있습니다.
@@ -527,13 +527,13 @@ Templates
 
 ### <a name="to-test-the-custom-project-node-icon"></a>사용자 지정 프로젝트 노드 아이콘을 테스트 하려면
 
-1.  디버깅을 시작 하 고 실험적 인스턴스에서 새 SimpleProject 만듭니다.
+1. 디버깅을 시작 하 고 실험적 인스턴스에서 새 SimpleProject 만듭니다.
 
-2.  새로 만든 프로젝트를 알 수 있듯이 *SimpleProjectNode.bmp* 프로젝트 노드가 아이콘으로 사용 됩니다.
+2. 새로 만든 프로젝트를 알 수 있듯이 *SimpleProjectNode.bmp* 프로젝트 노드가 아이콘으로 사용 됩니다.
 
      ![간단한 프로젝트 노드를 새 프로젝트](../extensibility/media/simpleprojnewprojectnode.png "SimpleProjNewProjectNode")
 
-3.  오픈 *Program.cs* 코드 편집기에서. 다음 코드와 비슷한 소스 코드를 표시 되어야 합니다.
+3. 오픈 *Program.cs* 코드 편집기에서. 다음 코드와 비슷한 소스 코드를 표시 되어야 합니다.
 
     ```csharp
     using System;
@@ -601,9 +601,9 @@ Templates
 
 3. 에 대 한 값을 확인 합니다 `nameSpace` 고 `className` 매개 변수입니다.
 
-   -   `nameSpace` 값이 지정 되는 \<RootNamespace > 요소에는 *\Templates\Projects\SimpleProject\SimpleProject.myproj* 프로젝트 템플릿 파일입니다. 이 경우 값은 `MyRootNamespace`입니다.
+   - `nameSpace` 값이 지정 되는 \<RootNamespace > 요소에는 *\Templates\Projects\SimpleProject\SimpleProject.myproj* 프로젝트 템플릿 파일입니다. 이 경우 값은 `MyRootNamespace`입니다.
 
-   -   `className` 클래스 이름의 원본 파일, 파일 이름 확장명이 없는 값이 지정 됩니다. 이 경우 첫 번째 대상 폴더에 복사할 파일이 *AssemblyInfo.cs*따라서 className의 값은 `AssemblyInfo`합니다.
+   - `className` 클래스 이름의 원본 파일, 파일 이름 확장명이 없는 값이 지정 됩니다. 이 경우 첫 번째 대상 폴더에 복사할 파일이 *AssemblyInfo.cs*따라서 className의 값은 `AssemblyInfo`합니다.
 
 4. 중단점 및 키를 눌러 제거 **F5** 실행을 계속 합니다.
 
@@ -636,4 +636,4 @@ Templates
 
     ![간단한 프로젝트 명령](../extensibility/media/simpleprojcommand.png "SimpleProjCommand")
 
-   지금까지 관리 되는 기본 프로젝트 시스템을 구현 했습니다.
+   축하합니다. 관리 되는 기본 프로젝트 시스템을 구현 했습니다.

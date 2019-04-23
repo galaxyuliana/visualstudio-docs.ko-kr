@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1b16b8e4e15c304f6e349d2f831ca879a4f7a183
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 7b709012dafe0db3dcc0959908a1e6b4d9e07e21
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56618837"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061994"
 ---
 # <a name="get-started-programming-vsto-add-ins"></a>VSTO 추가 기능 프로그래밍 시작
   VSTO 추가 기능을 사용하여 Microsoft Office 응용 프로그램을 자동화하고 응용 프로그램의 기능을 확장할 수 있으며 응용 프로그램의 UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. Visual Studio를 사용 하 여 만들 수 있는 다른 유형의 Office 솔루션에 VSTO 추가 기능을 비교 하는 방법에 대 한 정보를 참조 하세요 [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.
@@ -40,19 +40,19 @@ ms.locfileid: "56618837"
 
  특정 Microsoft Office 애플리케이션의 개체 모델에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)
+- [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)
 
--   [Word 개체 모델 개요](../vsto/word-object-model-overview.md)
+- [Word 개체 모델 개요](../vsto/word-object-model-overview.md)
 
--   [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)
+- [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)
 
--   [InfoPath 솔루션](../vsto/infopath-solutions.md)
+- [InfoPath 솔루션](../vsto/infopath-solutions.md)
 
--   [PowerPoint 솔루션](../vsto/powerpoint-solutions.md)
+- [PowerPoint 솔루션](../vsto/powerpoint-solutions.md)
 
--   [프로젝트 솔루션](../vsto/project-solutions.md)
+- [프로젝트 솔루션](../vsto/project-solutions.md)
 
--   [Visio 개체 모델 개요](../vsto/visio-object-model-overview.md)
+- [Visio 개체 모델 개요](../vsto/visio-object-model-overview.md)
 
 ## <a name="customize-the-user-interface-of-applications"></a>응용 프로그램의 사용자 인터페이스
  여러 가지 다른 VSTO 추가 기능을 사용 하 여 호스트 응용 프로그램의 UI를 사용자 지정 하려면:

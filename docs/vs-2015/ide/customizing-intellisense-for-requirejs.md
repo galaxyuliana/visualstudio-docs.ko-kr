@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5bcf5f27653782d0280082713306e142702559c8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ce0aadf455e95895309bbae4f23eb84c75935428
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54770323"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049869"
 ---
 # <a name="customizing-intellisense-for-requirejs"></a>RequireJS용으로 IntelliSense 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,9 +25,9 @@ Visual Studio 2013 업데이트 4부터는 널리 사용되는 RequireJS JavaScr
   
  이 항목에서는 다음 작업을 수행하는 방법을 설명합니다.  
   
--   ASP.NET 프로젝트에서 RequireJS 사용자 지정  
+- ASP.NET 프로젝트에서 RequireJS 사용자 지정  
   
--   Apache Cordova 앱, Windows 스토어 앱 및 LightSwitch HTML 앱을 빌드하는 데 사용되는 JSProj 프로젝트에서 RequireJS 사용자 지정  
+- Apache Cordova 앱, Windows 스토어 앱 및 LightSwitch HTML 앱을 빌드하는 데 사용되는 JSProj 프로젝트에서 RequireJS 사용자 지정  
   
 ## <a name="customize-requirejs-in-aspnet-projects"></a>ASP.NET 프로젝트에서 RequireJS 사용자 지정  
  현재 JavaScript 파일에서 require.js 파일을 참조할 때는 RequireJS 지원이 자동으로 설정됩니다. 자세한 내용은 [JavaScript IntelliSense](../ide/javascript-intellisense.md)의 IntelliSense 컨텍스트 확인 섹션을 참조하세요. ASP.NET 프로젝트에서는 보통 _references.js 파일 내에서 /// \<reference/> 지시문을 사용하여 require.js를 참조합니다.  

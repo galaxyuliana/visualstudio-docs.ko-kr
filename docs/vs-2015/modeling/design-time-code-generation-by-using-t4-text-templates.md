@@ -17,12 +17,12 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ff3be8231ede73649ed09569b18fd255882a5221
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f2bd66ca5e5cc7e5884e98ddf4d5c2ba5df15742
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982790"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065145"
 ---
 # <a name="design-time-code-generation-by-using-t4-text-templates"></a>T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,17 +42,17 @@ ms.locfileid: "58982790"
   
 #### <a name="to-create-a-design-time-t4-template-in-visual-studio"></a>Visual Studio에서 디자인 타임 T4 텍스트 템플릿을 만들려면  
   
-1.  만들기는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트를 만들거나 기존 실험 열기.  
+1. 만들기는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트를 만들거나 기존 실험 열기.  
   
      예를 들어 합니다 **파일** 메뉴에서 선택 **새로 만들기**, **프로젝트**합니다.  
   
-2.  텍스트 템플릿 파일을 프로젝트에 추가 하 고 이름을 확장명을 가진 **.tt**합니다.  
+2. 텍스트 템플릿 파일을 프로젝트에 추가 하 고 이름을 확장명을 가진 **.tt**합니다.  
   
      이렇게 하려면 **솔루션 탐색기**, 프로젝트의 바로 가기 메뉴에서 선택 **추가**에 **새 항목**합니다. 에 **새 항목 추가** 대화 상자 선택 **텍스트 템플릿** 가운데 창에서.  
   
      다음에 유의 합니다 **사용자 지정 도구** 파일의 속성은 **TextTemplatingFileGenerator**합니다.  
   
-3.  파일을 엽니다. 다음 지시문이 이미 포함되어 있습니다.  
+3. 파일을 엽니다. 다음 지시문이 이미 포함되어 있습니다.  
   
     ```  
     <#@ template hostspecific="false" language="C#" #>  
@@ -61,17 +61,17 @@ ms.locfileid: "58982790"
   
      [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트에 템플릿을 추가한 경우 언어 특성은 "`VB`"입니다.  
   
-4.  파일 끝에 원하는 텍스트를 추가합니다. 예를 들어:  
+4. 파일 끝에 원하는 텍스트를 추가합니다. 예를 들어:  
   
     ```  
     Hello, world!  
     ```  
   
-5.  파일을 저장합니다.  
+5. 파일을 저장합니다.  
   
      표시 될 수 있습니다는 **보안 경고** 템플릿을 실행 하려는 것인지 묻는 메시지 상자입니다. **확인**을 클릭합니다.  
   
-6.  **솔루션 탐색기**, 템플릿 파일 노드를 확장 하 고 확장명을 가진 파일을 보면 **.txt**합니다. 이 파일에 템플릿에서 생성된 텍스트가 포함되어 있습니다.  
+6. **솔루션 탐색기**, 템플릿 파일 노드를 확장 하 고 확장명을 가진 파일을 보면 **.txt**합니다. 이 파일에 템플릿에서 생성된 텍스트가 포함되어 있습니다.  
   
     > [!NOTE]
     >  프로젝트는 Visual Basic 프로젝트를 클릭 해야 **모든 파일 표시** 하려면 출력 파일을 참조 하세요.  
@@ -150,9 +150,9 @@ ms.locfileid: "58982790"
   
 #### <a name="to-generate-program-code-or-resources"></a>프로그램 코드 또는 리소스를 생성하려면  
   
-1.  .cs, .vb, .resx, .xml 등 적절한 형식의 파일을 생성하도록 출력 지시문을 변경합니다.  
+1. .cs, .vb, .resx, .xml 등 적절한 형식의 파일을 생성하도록 출력 지시문을 변경합니다.  
   
-2.  필요한 솔루션 코드를 생성하는 코드를 삽입합니다. 예를 들어 클래스에서 3개 정수 필드 선언을 생성하려는 경우 다음 코드를 삽입합니다.  
+2. 필요한 솔루션 코드를 생성하는 코드를 삽입합니다. 예를 들어 클래스에서 3개 정수 필드 선언을 생성하려는 경우 다음 코드를 삽입합니다.  
   
     ```csharp  
   
@@ -185,7 +185,7 @@ ms.locfileid: "58982790"
   
     ```  
   
-3.  파일을 저장하고 다음 코드를 포함하는 생성된 파일을 검사합니다.  
+3. 파일을 저장하고 다음 코드를 포함하는 생성된 파일을 검사합니다.  
   
     ```  
     class MyGeneratedClass {  
@@ -295,7 +295,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 > [!TIP]
 >  텍스트 템플릿은 자체 앱 도메인에서 실행되며 마샬링을 통해 서비스에 액세스합니다. 이 경우에는 GetCOMService()가 GetService()보다 안정적입니다.  
   
-##  <a name="Regenerating"></a> 코드를 자동으로 다시 생성  
+## <a name="Regenerating"></a> 코드를 자동으로 다시 생성  
  일반적으로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 여러 파일은 입력 모델 하나를 사용하여 생성됩니다. 각 파일은 자체 템플릿에서 생성되지만 모든 템플릿은 같은 모델을 참조합니다.  
   
  소스 모델이 변경되면 솔루션에서 모든 템플릿을 다시 실행해야 합니다. 이렇게 하려면 수동으로 선택 **모든 템플릿 변형** 에 **빌드** 메뉴.  
@@ -320,25 +320,25 @@ Error("An error message");
 Warning("A warning message");  
 ```  
   
-##  <a name="Converting"></a> 기존 파일을 템플릿으로 변환  
+## <a name="Converting"></a> 기존 파일을 템플릿으로 변환  
  템플릿의 유용한 특징 중 하나는 삽입된 일부 프로그램 코드와 함께, 템플릿에서 생성한 파일과 매우 비슷하다는 점입니다. 이로 인해 템플릿을 만드는 유용한 방법이 제공됩니다. 먼저 일반 파일을 프로토타입으로 같은 만들기는 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 파일을 선택한 다음 결과 파일을 변경 하는 생성 코드를 점진적으로 도입 합니다.  
   
 #### <a name="to-convert-an-existing-file-to-a-design-time-template"></a>기존 파일을 디자인 타임 템플릿으로 변환하려면  
   
-1.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 파일에 `.cs`, `.vb`, `.resx` 파일 등 생성하려는 파일 형식을 추가합니다.  
+1. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 파일에 `.cs`, `.vb`, `.resx` 파일 등 생성하려는 파일 형식을 추가합니다.  
   
-2.  새 파일을 테스트하여 작동하는지 확인합니다.  
+2. 새 파일을 테스트하여 작동하는지 확인합니다.  
   
-3.  솔루션 탐색기에서 파일 이름 확장명을 변경 **.tt**합니다.  
+3. 솔루션 탐색기에서 파일 이름 확장명을 변경 **.tt**합니다.  
   
-4.  다음 속성을 확인 합니다 **.tt** 파일:  
+4. 다음 속성을 확인 합니다 **.tt** 파일:  
   
     |||  
     |-|-|  
     |**사용자 지정 도구 =**|**TextTemplatingFileGenerator**|  
     |**빌드 작업 =**|**없음**|  
   
-5.  파일의 시작 부분에 다음 줄을 삽입합니다.  
+5. 파일의 시작 부분에 다음 줄을 삽입합니다.  
   
     ```  
     <#@ template debug="false" hostspecific="false" language="C#" #>  
@@ -349,13 +349,13 @@ Warning("A warning message");
   
      `extension` 특성을 `.cs`, `.resx`, `.xml` 등 생성하려는 파일 형식의 파일 이름 확장명으로 설정합니다.  
   
-6.  파일을 저장합니다.  
+6. 파일을 저장합니다.  
   
      지정한 확장명으로 보조 파일이 작성됩니다. 이 파일은 해당 파일 형식에 적절한 속성을 포함합니다. 예를 들어 합니다 **빌드 작업** .cs 파일의 속성이 **컴파일**합니다.  
   
      생성된 파일의 내용이 원래 파일과 같은지 확인합니다.  
   
-7.  달라지도록 하려는 파일 부분을 확인합니다. 특정 상황에서만 표시되는 부분이나 반복되는 부분, 특정 값이 달라지는 부분을 예로 들 수 있습니다. 생성 코드를 삽입하고 파일을 저장한 다음 보조 파일이 올바르게 생성되는지 확인합니다. 이 단계를 반복합니다.  
+7. 달라지도록 하려는 파일 부분을 확인합니다. 특정 상황에서만 표시되는 부분이나 반복되는 부분, 특정 값이 달라지는 부분을 예로 들 수 있습니다. 생성 코드를 삽입하고 파일을 저장한 다음 보조 파일이 올바르게 생성되는지 확인합니다. 이 단계를 반복합니다.  
   
 ## <a name="guidelines-for-code-generation"></a>코드 생성 지침  
  참조 하세요 [T4 텍스트 템플릿 작성에 대 한 지침](../modeling/guidelines-for-writing-t4-text-templates.md)합니다.  

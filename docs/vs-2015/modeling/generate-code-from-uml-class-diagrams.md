@@ -16,12 +16,12 @@ caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2613dbd0c803352c758ac1baf1b1f5d4469b9c73
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 020dd35d225d8629a8061d1a74b234b62960c830
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663994"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056161"
 ---
 # <a name="generate-code-from-uml-class-diagrams"></a>UML 클래스 다이어그램에서 코드 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,11 +53,11 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
 
 2. 클래스 다이어그램 또는 **UML 모델 탐색기**, 코드를 생성 하려는 요소를 선택 합니다. 다음 중 하나를 선택할 수 있습니다.  
 
-   -   특정 요소 집합  
+   - 특정 요소 집합  
 
-   -   코드를 생성할 내용이 포함된 패키지 또는 모델  
+   - 코드를 생성할 내용이 포함된 패키지 또는 모델  
 
-   -   모든 요소를 선택할 다이어그램  
+   - 모든 요소를 선택할 다이어그램  
 
 3. 선택한 요소에 대 한 바로 가기 메뉴를 열고 선택한 **코드 생성**합니다.  
 
@@ -71,7 +71,7 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
 
    모델이 C#으로 변환될 수 있는지 확인하기 위해 모델에 적용되는 유효성 검사 테스트가 있습니다. 이러한 테스트가 실패하면 오류 메시지가 표시되고 코드가 생성되지 않습니다. 유효성 검사 메뉴 명령을 만든 경우 유효성 검사 명령이 실패하는 모든 요소에 대해 코드가 생성되지 않습니다. 자세한 내용은 [UML 모델에 대 한 유효성 검사 제약 조건 정의](../modeling/define-validation-constraints-for-uml-models.md)합니다.  
 
-##  <a name="default"></a> 기본 코드 생성 변형  
+## <a name="default"></a> 기본 코드 생성 변형  
  이 섹션에서 생성 되는 결과 요약 합니다.는 **코드 생성** 명령을 사용자 지정 하지 않으면 명령입니다. 자세한 내용은 [코드 생성 명령 사용자 지정](#custom)합니다.  
 
 - UML 모델에서 선택한 형식마다 C# 형식이 하나씩 생성됩니다. 각 형식에서 별도 코드 파일에 배치 됩니다 합니다 **GeneratedCode** 폴더입니다.  
@@ -126,7 +126,7 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
 
   각 특성과 작업에는 설정할 수 있는 스테레오타입 속성도 있습니다. 새 특성의 속성을 표시 되지 않으면 실행 **코드 생성**합니다.  
 
-##  <a name="custom"></a> 코드 생성 명령 사용자 지정  
+## <a name="custom"></a> 코드 생성 명령 사용자 지정  
  합니다 **코드 생성** 텍스트 템플릿 집합을 사용 하 여 모델 요소를 변환 하 여 명령이 작동 합니다. 텍스트 템플릿에 대 한 자세한 내용은 참조 하세요. [코드 생성 및 T4 텍스트 템플릿](../modeling/code-generation-and-t4-text-templates.md)합니다.  
 
  집합이 지정 된 템플릿을 *텍스트 템플릿 바인딩*합니다. 텍스트 템플릿 바인딩의 템플릿을 적용할 생성된 된 출력을 배치할 위치, 및의 다른 매개 변수를 지정 합니다 **코드 생성** 명령입니다.  
@@ -175,7 +175,7 @@ Visual Studio에서 UML 클래스 다이어그램에서 Visual C#.NET 코드를 
 
 5. 바인딩을 원하는 만큼 요소에 연결할 수 있습니다.  
 
-##  <a name="writing"></a> 텍스트 템플릿 작성  
+## <a name="writing"></a> 텍스트 템플릿 작성  
  사용자 고유의 텍스트 템플릿을 작성할 수 있습니다. 텍스트 템플릿은 프로그램 코드나 다른 모든 종류의 텍스트 파일을 생성할 수 있습니다.  
 
  표준 템플릿의 복사본을 수정하여 시작하는 것이 좋습니다. 다음 위치에서 템플릿을 복사할 수 있습니다.  

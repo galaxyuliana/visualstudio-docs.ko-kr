@@ -8,12 +8,12 @@ ms.assetid: 3a01d333-6e31-423f-ae06-5091a4fcb7a9
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 7cbb66d47eb261c0b25f382370bb6590af351edd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e23e242060eea31ae79fd8a3998fb4ee5d734647
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985487"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048677"
 ---
 # <a name="faq-converting-add-ins-to-vspackage-extensions"></a>FAQ: 추가 기능을 VSPackage 확장으로 변환
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,22 +39,22 @@ ms.locfileid: "58985487"
 ## <a name="can-i-convert-my-add-in-project-to-a-vsix-project"></a>VSIX 프로젝트에 내 추가 기능 프로젝트를 변환할 수 있나요?  
  VSIX 프로젝트에 사용 되는 메커니즘은 추가 기능 프로젝트에서 동일 하기 때문에 VSIX 프로젝트에 직접 추가 기능 프로젝트를 변환할 수 없습니다. VSIX 프로젝트 템플릿 및 올바른 프로젝트 항목 템플릿을 비교적 쉽게 시작 하 고 VSIX 확장으로 실행 중인 코드의 많은 경우  
   
-##  <a name="BKMK_StartDeveloping"></a> VSIX 확장 개발 시작 하려면 어떻게 해야 하나요?  
+## <a name="BKMK_StartDeveloping"></a> VSIX 확장 개발 시작 하려면 어떻게 해야 하나요?  
  메뉴 명령이 포함 된 VSIX를 확인 하는 방법을 다음과 같습니다.  
   
 #### <a name="to-make-a-vsix-extension-that-has-a-menu-command"></a>메뉴 명령이 포함 된 VSIX 확장을 확인 하려면  
   
-1.  VSIX 프로젝트를 만듭니다. (**파일**를 **새로 만들기**를 **프로젝트**, 또는 형식 **프로젝트** 에 **빠른 실행** 창). 에 **새 프로젝트** 대화 상자에서 **Visual C# / 확장성** 하거나 **Visual Basic / 확장성** 선택한 **VSIX 프로젝트**.) 프로젝트 이름을 **TestExtension** 에 대 한 위치를 지정 합니다.  
+1. VSIX 프로젝트를 만듭니다. (**파일**를 **새로 만들기**를 **프로젝트**, 또는 형식 **프로젝트** 에 **빠른 실행** 창). 에 **새 프로젝트** 대화 상자에서 **Visual C# / 확장성** 하거나 **Visual Basic / 확장성** 선택한 **VSIX 프로젝트**.) 프로젝트 이름을 **TestExtension** 에 대 한 위치를 지정 합니다.  
   
-2.  추가 된 **사용자 지정 명령** 프로젝트 항목 템플릿. (에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭 합니다 **솔루션 탐색기** 선택한 **추가 / 새 항목**합니다. 에 **새 프로젝트** Visual C# 또는 Visual Basic의 경우 선택 대화 상자를 **확장성** 노드와 선택 **사용자 지정 명령**.)  
+2. 추가 된 **사용자 지정 명령** 프로젝트 항목 템플릿. (에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭 합니다 **솔루션 탐색기** 선택한 **추가 / 새 항목**합니다. 에 **새 프로젝트** Visual C# 또는 Visual Basic의 경우 선택 대화 상자를 **확장성** 노드와 선택 **사용자 지정 명령**.)  
   
-3.  F5 키를 눌러 디버그 모드에서 프로젝트를 빌드하고 실행합니다.  
+3. F5 키를 눌러 디버그 모드에서 프로젝트를 빌드하고 실행합니다.  
   
      두 번째 Visual Studio 인스턴스가 표시됩니다. 이 두 번째 인스턴스는 실험적 인스턴스이며, 코드를 작성하는 데 사용하는 Visual Studio 인스턴스와 설정이 다를 수도 있습니다. 실험적 인스턴스를 처음 실행할 때는 VS Online에 로그인하고 테마와 프로필을 지정하라는 메시지가 표시됩니다.  
   
      에 **도구** (실험적 인스턴스)에서 메뉴 단추가 표시 됩니다 **내 명령 이름**합니다. 이 단추를 선택 하면 메시지가 표시 됩니다. **TestVSPackagePackage.MenuItemCallback() 내**합니다.  
   
-##  <a name="BKMK_RunAddin"></a> VSPackage에서 추가 기능에서 코드를 실행할 수는 방법  
+## <a name="BKMK_RunAddin"></a> VSPackage에서 추가 기능에서 코드를 실행할 수는 방법  
  추가 기능 코드는 보통 두 가지 방법 중 하나로 실행됩니다.  
   
 - 메뉴 명령을 통한 트리거. 코드는 `IDTCommandTarget.Exec` 메서드에 포함되어 있습니다.  

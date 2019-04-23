@@ -14,12 +14,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f1b98429f8d80d14acd6ce7951b9eb116f827ead
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0d607300bc42bd0428655a9590ab2e6dcc2a7043
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970476"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063142"
 ---
 # <a name="how-to-add-a-new-item-to-a-workflow-project-legacy"></a>방법: 워크플로 프로젝트에 새 항목 추가(레거시)
 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 또는 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 대상으로 하는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 제공 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 사용하여 워크플로 프로젝트를 만든 후에는 [!INCLUDE[wf](../includes/wf-md.md)] 항목과 그 밖의 친숙한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 항목을 프로젝트에 추가할 수 있습니다.  
@@ -37,15 +37,15 @@ ms.locfileid: "58970476"
   
 ### <a name="to-add-a-new-item-to-a-workflow-project"></a>워크플로 프로젝트에 새 항목을 추가하려면  
   
-1.  에 **프로젝트** 메뉴에서 클릭 **새 항목 추가**합니다.  
+1. 에 **프로젝트** 메뉴에서 클릭 **새 항목 추가**합니다.  
   
      합니다 **새 항목 추가** 대화 상자가 열립니다.  
   
-2.  항목을 선택합니다.  
+2. 항목을 선택합니다.  
   
      위의 표에서는 사용 가능한 Windows Workflow Foundation 선택 항목을 보여 줍니다.  
   
-3.  클릭 **추가** 워크플로 프로젝트에 항목을 추가 합니다.  
+3. 클릭 **추가** 워크플로 프로젝트에 항목을 추가 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [레거시 워크플로 프로젝트 만들기](../workflow-designer/creating-legacy-workflow-projects.md)

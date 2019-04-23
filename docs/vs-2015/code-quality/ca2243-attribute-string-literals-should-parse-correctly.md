@@ -15,12 +15,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 770c805489e358252151dc8e777941a267f76363
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f23db8a9674de621090be70067a555ef4fca2b99
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981645"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061426"
 ---
 # <a name="ca2243-attribute-string-literals-should-parse-correctly"></a>CA2243: 특성 문자열 리터럴이 올바르게 구문 분석되어야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,11 +55,11 @@ ms.locfileid: "58981645"
 
  규칙은 다음에 의해 트리거됩니다.
 
--   'Version' 포함 된 System.Version를 구문 분석할 수 없는 매개 변수입니다.
+- 'Version' 포함 된 System.Version를 구문 분석할 수 없는 매개 변수입니다.
 
--   System.Guid를 구문 분석할 수 없습니다 및 'guid'를 포함 하는 매개 변수입니다.
+- System.Guid를 구문 분석할 수 없습니다 및 'guid'를 포함 하는 매개 변수입니다.
 
--   System.Uri로 구문 분석할 수 없습니다 및 'uri', 'urn' 또는 'url'를 포함 하는 매개 변수입니다.
+- System.Uri로 구문 분석할 수 없습니다 및 'uri', 'urn' 또는 'url'를 포함 하는 매개 변수입니다.
 
 ## <a name="see-also"></a>참고 항목
  [CA1054: URI 매개 변수는 문자열이 면 안 됩니다.](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)

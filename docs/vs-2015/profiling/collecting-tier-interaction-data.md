@@ -16,12 +16,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: abe38162f20fb73de04301e97974dc348d704b6f
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: a20266c870316be9b6be67e661d13eb4e6fdbaee
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54770892"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047227"
 ---
 # <a name="collecting-tier-interaction-data"></a>계층 상호 작용 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,11 +42,11 @@ ms.locfileid: "54770892"
   
 ### <a name="to-add-tier-interaction-data-to-a-profiling-run-by-using-the-performance-session-property-pages"></a>성능 세션 속성 페이지를 사용하여 프로파일링 실행에 계층 상호 작용 데이터를 추가하려면  
   
-1.  성능 탐색기에서, 상황에 맞는 메뉴에서 **속성**을 선택합니다.  
+1. 성능 탐색기에서, 상황에 맞는 메뉴에서 **속성**을 선택합니다.  
   
-2.  **계층 상호 작용** 페이지를 선택한 다음 **계층 상호 작용 프로파일링 사용** 확인란을 선택합니다.  
+2. **계층 상호 작용** 페이지를 선택한 다음 **계층 상호 작용 프로파일링 사용** 확인란을 선택합니다.  
   
-3.  성능 탐색기에서, **대상** 노드를 선택한 다음 프로파일링하려는 프로젝트, 실행 파일 또는 웹 사이트를 지정합니다.  
+3. 성능 탐색기에서, **대상** 노드를 선택한 다음 프로파일링하려는 프로젝트, 실행 파일 또는 웹 사이트를 지정합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [계층 상호 작용 뷰](../profiling/tier-interactions-view.md)

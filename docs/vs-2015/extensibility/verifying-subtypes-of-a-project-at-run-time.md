@@ -11,12 +11,12 @@ ms.assetid: b87780ec-36a3-4e9a-9ee2-7abdc26db739
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4cf81e62b25f765c070699179e57e2603734f4a3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1e3940097ac53255b7bdd2c12c9ccc64605016e1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972664"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061244"
 ---
 # <a name="verifying-subtypes-of-a-project-at-run-time"></a>런타임에 프로젝트의 하위 형식 확인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58972664"
   
 ### <a name="to-verify-the-presence-of-a-subtype"></a>하위 형식이 있는지 확인 하려면  
   
-1.  프로젝트 계층 구조는 프로젝트 및 솔루션 개체에서 가져올를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> VSPackage에 다음 코드를 추가 하 여 개체입니다.  
+1. 프로젝트 계층 구조는 프로젝트 및 솔루션 개체에서 가져올를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> VSPackage에 다음 코드를 추가 하 여 개체입니다.  
   
     ```  
     EnvDTE.DTE dte;  
@@ -42,7 +42,7 @@ ms.locfileid: "58972664"
   
     ```  
   
-2.  계층을 캐스팅 합니다 <xref:Microsoft.VisualStudio.Shell.Flavor.IVsAggregatableProjectCorrected> 인터페이스입니다.  
+2. 계층을 캐스팅 합니다 <xref:Microsoft.VisualStudio.Shell.Flavor.IVsAggregatableProjectCorrected> 인터페이스입니다.  
   
     ```  
     IVsAggregatableProjectCorrected AP;  
@@ -50,14 +50,14 @@ ms.locfileid: "58972664"
   
     ```  
   
-3.  호출 하 여 프로젝트 형식 Guid의 목록을 가져옵니다는 <xref:Microsoft.VisualStudio.Shell.Flavor.IVsAggregatableProjectCorrected.GetAggregateProjectTypeGuids%2A>합니다.  
+3. 호출 하 여 프로젝트 형식 Guid의 목록을 가져옵니다는 <xref:Microsoft.VisualStudio.Shell.Flavor.IVsAggregatableProjectCorrected.GetAggregateProjectTypeGuids%2A>합니다.  
   
     ```  
     string projTypeGuids = AP.GetAggregateProjectTypeGuids().ToUpper();  
   
     ```  
   
-4.  지정 된 하위의 GUID 목록을 확인 합니다.  
+4. 지정 된 하위의 GUID 목록을 확인 합니다.  
   
     ```  
     // Replace the string "MyGUID" with the GUID of the subtype.  

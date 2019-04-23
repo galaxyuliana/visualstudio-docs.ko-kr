@@ -17,12 +17,12 @@ caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 17be48435dd8251d1269c7a95195d794f750d534
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 18f6e72d18154f11866671a3e448d88c91768c7f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985614"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047100"
 ---
 # <a name="web-control-library-managed-code"></a>웹 컨트롤 라이브러리(관리 코드)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,25 +31,25 @@ ms.locfileid: "58985614"
   
 ### <a name="to-debug-a-web-control-library-method-1"></a>웹 컨트롤 라이브러리를 디버깅하려면(방법 1)  
   
-1.  기존의 웹 컨트롤 라이브러리 프로젝트를 열거나 새 프로젝트를 만듭니다.  
+1. 기존의 웹 컨트롤 라이브러리 프로젝트를 열거나 새 프로젝트를 만듭니다.  
   
-2.  컨트롤을 포함하는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 페이지를 만듭니다.  
+2. 컨트롤을 포함하는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 페이지를 만듭니다.  
   
-3.  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 테스트 환경을 호스팅하는 웹 사이트에 `/Code`라는 하위 디렉터리를 만듭니다.  
+3. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 테스트 환경을 호스팅하는 웹 사이트에 `/Code`라는 하위 디렉터리를 만듭니다.  
   
-4.  컨트롤의 소스 코드를 `/Code` 하위 디렉터리에 복사합니다.  
+4. 컨트롤의 소스 코드를 `/Code` 하위 디렉터리에 복사합니다.  
   
-5.  `/Code` 하위 디렉터리에서 소스 코드를 열고 중단점을 설정합니다.  
+5. `/Code` 하위 디렉터리에서 소스 코드를 열고 중단점을 설정합니다.  
   
-6.  브라우저 창을 열고 테스트 환경을 가리키는 URL을 입력합니다. 컨트롤에서 중단점에 도달하면 디버깅을 시작할 수 있습니다.  
+6. 브라우저 창을 열고 테스트 환경을 가리키는 URL을 입력합니다. 컨트롤에서 중단점에 도달하면 디버깅을 시작할 수 있습니다.  
   
 ### <a name="to-debug-a-web-control-library-method-2"></a>웹 컨트롤 라이브러리 (메서드 2)를 디버깅 하려면  
   
-1.  호스트 응용 프로그램 프로젝트와 웹 컨트롤 프로젝트를 동일한 솔루션에 만듭니다.  
+1. 호스트 응용 프로그램 프로젝트와 웹 컨트롤 프로젝트를 동일한 솔루션에 만듭니다.  
   
-2.  **솔루션 탐색기**호스트 응용 프로그램을 마우스 오른쪽 단추로 클릭 하 고 선택 **참조 추가**합니다.  
+2. **솔루션 탐색기**호스트 응용 프로그램을 마우스 오른쪽 단추로 클릭 하 고 선택 **참조 추가**합니다.  
   
-3.  웹 컨트롤 프로젝트에 참조를 추가합니다.  
+3. 웹 컨트롤 프로젝트에 참조를 추가합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ASP.NET 웹 응용 프로그램](../debugger/debugging-preparation-aspnet-web-applications.md)

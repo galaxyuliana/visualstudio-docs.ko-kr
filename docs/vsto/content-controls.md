@@ -38,12 +38,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 69ad44cefad48199efdb70bd88c1ed3b117d48ad
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: cca58ec0c9f493cd418cbb5aabca7a8d2c1939b4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630862"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062180"
 ---
 # <a name="content-controls"></a>콘텐츠 컨트롤
   콘텐츠 컨트롤은 다음과 같은 기능이 있는 문서와 템플릿을 디자인하는 방법을 제공합니다.
@@ -125,7 +125,7 @@ ms.locfileid: "56630862"
 |다시 실행 또는 실행 취소 작업의 결과로 콘텐츠 컨트롤이 문서에 추가된 후 코드를 실행합니다.|컨트롤의 <xref:Microsoft.Office.Tools.Word.ContentControlBase.Added> 이벤트를 처리합니다.|
 |문서에서 콘텐츠 컨트롤이 삭제되기 바로 전에 코드를 실행합니다.|컨트롤의 <xref:Microsoft.Office.Tools.Word.ContentControlBase.Deleting> 이벤트를 처리합니다.|
 
-##  <a name="Protection"></a> 콘텐츠 컨트롤을 사용 하 여 문서 부분 보호
+## <a name="Protection"></a> 콘텐츠 컨트롤을 사용 하 여 문서 부분 보호
  문서의 일부를 보호하는 경우 사용자가 문서의 해당 부분에서 내용을 변경하거나 삭제하지 못하도록 합니다. 콘텐츠 컨트롤을 사용하여 문서 부분을 보호할 수 있는 여러 가지 방법이 있습니다.
 
  보호하려는 영역이 콘텐츠 컨트롤 안에 있는 경우 콘텐츠 컨트롤의 속성을 사용하여 사용자가 컨트롤을 편집 또는 삭제하지 못하도록 할 수 있습니다.
@@ -141,7 +141,7 @@ ms.locfileid: "56630862"
 
  콘텐츠 컨트롤을 사용 하 여 문서 부분을 보호 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 콘텐츠 컨트롤을 사용 하 여 문서 부분 보호](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md)합니다.
 
-##  <a name="DataBinding"></a> 콘텐츠 컨트롤에 데이터 바인딩
+## <a name="DataBinding"></a> 콘텐츠 컨트롤에 데이터 바인딩
  데이터 소스에 콘텐츠 컨트롤을 바인딩하여 문서의 데이터를 표시할 수 있습니다. 데이터 소스가 업데이트되면 콘텐츠 컨트롤에 변경 내용이 반영됩니다. 변경 내용을 데이터 소스에 다시 저장할 수도 있습니다.
 
  콘텐츠 컨트롤은 다음과 같은 데이터 바인딩 옵션을 제공합니다.
@@ -191,15 +191,15 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
 
  사용자 지정 XML 부분에 다음과 같은 형식의 콘텐츠 컨트롤을 바인딩할 수 있습니다.
 
--   <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>
+- <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.DatePickerContentControl>
+- <xref:Microsoft.Office.Tools.Word.DatePickerContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>
+- <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.PictureContentControl>
+- <xref:Microsoft.Office.Tools.Word.PictureContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.PlainTextContentControl>
+- <xref:Microsoft.Office.Tools.Word.PlainTextContentControl>
 
 ### <a name="data-bind-events-for-content-controls"></a>데이터 바인딩 콘텐츠 컨트롤에 대 한 이벤트
  모든 콘텐츠 컨트롤은 데이터 소스가 업데이트되기 전에 컨트롤의 텍스트가 특정 조건을 충족하는지 확인하는 작업과 같은 데이터 관련 작업을 수행하기 위해 처리할 수 있는 이벤트 집합을 제공합니다. 다음 표에서는 데이터 바인딩과 관련된 콘텐츠 컨트롤 이벤트를 보여 줍니다.
@@ -228,7 +228,7 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
 
  사용자가 콘텐츠 컨트롤의 내용을 편집하는 시기를 확인하기 위해 사용자 지정 XML 부분에 컨트롤을 바인딩한 다음 <xref:Microsoft.Office.Tools.Word.ContentControlBase.StoreUpdating> 이벤트를 처리할 수 있습니다. 이 이벤트는 사용자가 사용자 지정 XML 부분에 바인딩된 컨트롤의 내용을 변경할 때 발생합니다. 사용자 지정 XML 부분에 콘텐츠 컨트롤을 바인딩하는 방법을 보여 주는 연습을 참조 하세요. [연습: 사용자 지정 XML 부분에 콘텐츠 컨트롤 바인딩](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md)합니다.
 
-###  <a name="checkbox"></a> Word 프로젝트의 확인란 콘텐츠 컨트롤
+### <a name="checkbox"></a> Word 프로젝트의 확인란 콘텐츠 컨트롤
  Word 2010에서는 확인란을 나타내는 새로운 형식의 콘텐츠 컨트롤이 도입되었습니다. 그러나는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Office 프로젝트에서 사용할 수는 해당 CheckBoxContentControl 형식을 제공 하지 않습니다. [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] 또는 Word 2010 프로젝트에서 확인란 콘텐츠 컨트롤을 만들려면 <xref:Microsoft.Office.Tools.Word.ControlCollection.AddContentControl%2A> 메서드를 사용하여 <xref:Microsoft.Office.Tools.Word.ContentControl> 개체를 만들고 <xref:Microsoft.Office.Interop.Word.WdContentControlType.wdContentControlCheckBox> 값을 메서드에 전달하여 확인란 콘텐츠 컨트롤을 지정합니다. 다음 코드 예제에서는 이 작업을 수행하는 방법을 보여 줍니다.
 
  [!code-vb[Trin_ContentControlReference#800](../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/checkbox.vb#800)]

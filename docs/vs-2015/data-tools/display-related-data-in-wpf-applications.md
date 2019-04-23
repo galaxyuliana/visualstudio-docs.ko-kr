@@ -22,12 +22,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3a80fa982da118db58abbc589136823d5c433ce3
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: e8a7bd540f5c8a99145b892d080d8cb54e57d968
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59657261"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061179"
 ---
 # <a name="display-related-data-in-wpf-applications"></a>WPF 애플리케이션에서 관련 데이터 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,23 +38,23 @@ ms.locfileid: "59657261"
   
 ## <a name="to-create-controls-that-display-related-records"></a>관련된 레코드를 표시 하는 컨트롤을 만들려면  
   
-1.  **데이터** 메뉴에서 **데이터 원본 표시**를 클릭하여 **데이터 원본** 창을 엽니다.  
+1. **데이터** 메뉴에서 **데이터 원본 표시**를 클릭하여 **데이터 원본** 창을 엽니다.  
   
-2.  **새 데이터 원본 추가**를 클릭하고 **데이터 원본 구성 마법사** 완료합니다.  
+2. **새 데이터 원본 추가**를 클릭하고 **데이터 원본 구성 마법사** 완료합니다.  
   
-3.  WPF 디자이너를 열고 디자이너의 항목에 대 한 유효한 놓기 대상 컨테이너가 포함 되어 있는지 확인 합니다 **데이터 원본** 창입니다.  
+3. WPF 디자이너를 열고 디자이너의 항목에 대 한 유효한 놓기 대상 컨테이너가 포함 되어 있는지 확인 합니다 **데이터 원본** 창입니다.  
   
      유효한 놓기 대상에 대 한 자세한 내용은 참조 하세요. [Visual Studio에서 데이터를 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)합니다.  
   
-4.  에 **데이터 원본** 창 부모 테이블을 나타내는 노드를 확장 또는 관계 개체입니다. 부모 테이블 또는 개체에 일 대 다 관계의 "일" 쪽 켜져 있습니다.  
+4. 에 **데이터 원본** 창 부모 테이블을 나타내는 노드를 확장 또는 관계 개체입니다. 부모 테이블 또는 개체에 일 대 다 관계의 "일" 쪽 켜져 있습니다.  
   
-5.  부모 노드 (또는 부모 노드에 있는 개별 항목)에서 끌어 합니다 **데이터 원본** 창 디자이너에서 유효한 놓기 대상으로 합니다.  
+5. 부모 노드 (또는 부모 노드에 있는 개별 항목)에서 끌어 합니다 **데이터 원본** 창 디자이너에서 유효한 놓기 대상으로 합니다.  
   
      Visual Studio를 끌 수 있는 각 항목에 대 한 새 데이터 바인딩된 컨트롤을 만드는 XAML을 생성 합니다. XAML도 새 추가 <xref:System.Windows.Data.CollectionViewSource> 부모 테이블 또는 개체를 놓기 대상의 리소스에 대 한 합니다. 일부 데이터 원본의 경우 Visual Studio 데이터 부모 테이블이 나 개체를 로드 하는 코드를 생성 합니다. 자세한 내용은 [Visual Studio에서 데이터를 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)합니다.  
   
-6.  에 **데이터 원본** 창 관련된 자식 테이블 또는 개체를 찾습니다. 개체와 관련 된 자식 테이블 데이터의 부모 노드 목록 맨 아래에 확장 가능한 노드로 표시 합니다.  
+6. 에 **데이터 원본** 창 관련된 자식 테이블 또는 개체를 찾습니다. 개체와 관련 된 자식 테이블 데이터의 부모 노드 목록 맨 아래에 확장 가능한 노드로 표시 합니다.  
   
-7.  자식 노드 (또는 개별 항목에 자식 노드)에서 끌어 합니다 **데이터 원본** 창 디자이너에서 유효한 놓기 대상으로 합니다.  
+7. 자식 노드 (또는 개별 항목에 자식 노드)에서 끌어 합니다 **데이터 원본** 창 디자이너에서 유효한 놓기 대상으로 합니다.  
   
      Visual Studio의 각 끌면 항목에 대 한 새 데이터 바인딩된 컨트롤을 만드는 XAML을 생성 합니다. XAML도 새 추가 <xref:System.Windows.Data.CollectionViewSource> 자식 테이블이 나 개체를 놓기 대상의 리소스에 대 한 합니다. 이 새로운 <xref:System.Windows.Data.CollectionViewSource> 는 부모 테이블 또는 디자이너로 끌어 온 개체의 속성에 바인딩됩니다. 일부 데이터 원본의 경우 Visual Studio 데이터 자식 테이블이 나 개체를 로드 하는 코드를 생성 합니다.  
   

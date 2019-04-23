@@ -19,12 +19,12 @@ caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f5a1174f96e34773aac524562d6f62514e92ba5e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 58e5f0e9154137097a94637799966ee94818fca4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "59002177"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047049"
 ---
 # <a name="how-to-configure-the-clickonce-trust-prompt-behavior"></a>방법: ClickOnce 신뢰 프롬프트 동작 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,19 +56,19 @@ ms.locfileid: "59002177"
   
 #### <a name="to-enable-the-clickonce-trust-prompt-by-using-the-registry-editor"></a>레지스트리 편집기를 사용 하 여 ClickOnce 신뢰 프롬프트를 사용 하도록 설정 하려면  
   
-1.  레지스트리 편집기를 엽니다.  
+1. 레지스트리 편집기를 엽니다.  
   
-    1.  **시작**을 클릭한 다음 **실행**을 클릭합니다.  
+    1. **시작**을 클릭한 다음 **실행**을 클릭합니다.  
   
-    2.  에 **열기** 상자에 입력 `regedit` (또는 `regedit32` 32 비트 Windows에서)를 클릭 하 고 **확인**합니다.  
+    2. 에 **열기** 상자에 입력 `regedit` (또는 `regedit32` 32 비트 Windows에서)를 클릭 하 고 **확인**합니다.  
   
-2.  다음 레지스트리 키를 찾습니다.  
+2. 다음 레지스트리 키를 찾습니다.  
   
      \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
   
      키가 없으면 만듭니다.  
   
-3.  다음 하위 키를 추가 **문자열 값**이미 없는, 연결 된 값이 다음 표에 표시 된 경우.  
+3. 다음 하위 키를 추가 **문자열 값**이미 없는, 연결 된 값이 다음 표에 표시 된 경우.  
   
     |문자열 값의 하위 키|값|  
     |-------------------------|-----------|  
@@ -82,9 +82,9 @@ ms.locfileid: "59002177"
   
 #### <a name="to-enable-the-clickonce-trust-prompt-programmatically"></a>프로그래밍 방식으로 ClickOnce 신뢰 프롬프트를 사용 하도록 설정 하려면  
   
-1.  Visual Studio에서 Visual Basic 또는 Visual C# 콘솔 응용 프로그램을 만듭니다.  
+1. Visual Studio에서 Visual Basic 또는 Visual C# 콘솔 응용 프로그램을 만듭니다.  
   
-2.  편집할 Program.cs 또는 Program.vb 파일을 열고 다음 코드를 추가 합니다.  
+2. 편집할 Program.cs 또는 Program.vb 파일을 열고 다음 코드를 추가 합니다.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -108,26 +108,26 @@ ms.locfileid: "59002177"
     key.Close();  
     ```  
   
-3.  애플리케이션을 빌드 및 실행합니다.  
+3. 애플리케이션을 빌드 및 실행합니다.  
   
 ## <a name="restricting-the-clickonce-trust-prompt"></a>ClickOnce 신뢰 프롬프트를 제한합니다.  
  솔루션 사용자 신뢰 여부를 결정 하 라는 메시지가 표시 됩니다 전에 알려진 id가 있는 Authenticode 인증서로 서명 될 수 있도록 신뢰 프롬프트를 제한 합니다.  
   
 #### <a name="to-restrict-the-clickonce-trust-prompt-by-using-the-registry-editor"></a>레지스트리 편집기를 사용 하 여 ClickOnce 신뢰 프롬프트를 제한 하려면  
   
-1.  레지스트리 편집기를 엽니다.  
+1. 레지스트리 편집기를 엽니다.  
   
-    1.  **시작**을 클릭한 다음 **실행**을 클릭합니다.  
+    1. **시작**을 클릭한 다음 **실행**을 클릭합니다.  
   
-    2.  에 **열기** 상자에 입력 `regedit` (또는 `regedit32` 32 비트 Windows에서)를 클릭 하 고 **확인**합니다.  
+    2. 에 **열기** 상자에 입력 `regedit` (또는 `regedit32` 32 비트 Windows에서)를 클릭 하 고 **확인**합니다.  
   
-2.  다음 레지스트리 키를 찾습니다.  
+2. 다음 레지스트리 키를 찾습니다.  
   
      \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
   
      키가 없으면 만듭니다.  
   
-3.  다음 하위 키를 추가 **문자열 값**이미 없는, 연결 된 값이 다음 표에 표시 된 경우.  
+3. 다음 하위 키를 추가 **문자열 값**이미 없는, 연결 된 값이 다음 표에 표시 된 경우.  
   
     |문자열 값의 하위 키|값|  
     |-------------------------|-----------|  
@@ -139,9 +139,9 @@ ms.locfileid: "59002177"
   
 #### <a name="to-restrict-the-clickonce-trust-prompt-programmatically"></a>ClickOnce 신뢰 프롬프트를 프로그래밍 방식으로 제한 하려면  
   
-1.  Visual Studio에서 Visual Basic 또는 Visual C# 콘솔 응용 프로그램을 만듭니다.  
+1. Visual Studio에서 Visual Basic 또는 Visual C# 콘솔 응용 프로그램을 만듭니다.  
   
-2.  편집할 Program.cs 또는 Program.vb 파일을 열고 다음 코드를 추가 합니다.  
+2. 편집할 Program.cs 또는 Program.vb 파일을 열고 다음 코드를 추가 합니다.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -165,26 +165,26 @@ ms.locfileid: "59002177"
     key.Close();  
     ```  
   
-3.  애플리케이션을 빌드 및 실행합니다.  
+3. 애플리케이션을 빌드 및 실행합니다.  
   
 ## <a name="disabling-the-clickonce-trust-prompt"></a>ClickOnce 신뢰 프롬프트를 사용 하지 않도록 설정  
  최종 사용자가 보안 정책에서 이미 신뢰 하지 않는 솔루션을 설치할 수 있는 옵션이 없습니다 있도록 신뢰 프롬프트를 비활성화할 수 있습니다.  
   
 #### <a name="to-disable-the-clickonce-trust-prompt-by-using-the-registry-editor"></a>레지스트리 편집기를 사용 하 여 ClickOnce 신뢰 프롬프트를 사용 하지 않도록 설정  
   
-1.  레지스트리 편집기를 엽니다.  
+1. 레지스트리 편집기를 엽니다.  
   
-    1.  **시작**을 클릭한 다음 **실행**을 클릭합니다.  
+    1. **시작**을 클릭한 다음 **실행**을 클릭합니다.  
   
-    2.  에 **열기** 상자에 입력 `regedit` (또는 `regedit32` 32 비트 Windows에서)를 클릭 하 고 **확인**합니다.  
+    2. 에 **열기** 상자에 입력 `regedit` (또는 `regedit32` 32 비트 Windows에서)를 클릭 하 고 **확인**합니다.  
   
-2.  다음 레지스트리 키를 찾습니다.  
+2. 다음 레지스트리 키를 찾습니다.  
   
      \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
   
      키가 없으면 만듭니다.  
   
-3.  다음 하위 키를 추가 **문자열 값**이미 없는, 연결 된 값이 다음 표에 표시 된 경우.  
+3. 다음 하위 키를 추가 **문자열 값**이미 없는, 연결 된 값이 다음 표에 표시 된 경우.  
   
     |문자열 값의 하위 키|값|  
     |-------------------------|-----------|  
@@ -196,9 +196,9 @@ ms.locfileid: "59002177"
   
 #### <a name="to-disable-the-clickonce-trust-prompt-programmatically"></a>ClickOnce 신뢰 프롬프트를 프로그래밍 방식으로 사용 하지 않도록 설정  
   
-1.  Visual Studio에서 Visual Basic 또는 Visual C# 콘솔 응용 프로그램을 만듭니다.  
+1. Visual Studio에서 Visual Basic 또는 Visual C# 콘솔 응용 프로그램을 만듭니다.  
   
-2.  편집할 Program.cs 또는 Program.vb 파일을 열고 다음 코드를 추가 합니다.  
+2. 편집할 Program.cs 또는 Program.vb 파일을 열고 다음 코드를 추가 합니다.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -223,7 +223,7 @@ ms.locfileid: "59002177"
   
     ```  
   
-3.  애플리케이션을 빌드 및 실행합니다.  
+3. 애플리케이션을 빌드 및 실행합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)   

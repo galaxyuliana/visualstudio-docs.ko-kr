@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 76f34194381df92097e8dc2c42f1bf57a83f484b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d70794dddc02605c76c1af330a49af4be917c0e3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971661"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050142"
 ---
 # <a name="multiple-dsls-in-one-solution"></a>하나의 솔루션에 여러 DSL 포함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,35 +27,35 @@ ms.locfileid: "58971661"
   
 1. 둘 이상의 DSL 솔루션과 VSIX 프로젝트를 만든 다음 모든 프로젝트를 단일 솔루션에 추가합니다.  
   
-   -   새 VSIX 프로젝트를 만들려면: **새 프로젝트** 대화 상자에서 **시각적 C#** , **확장성**, **VSIX 프로젝트**.  
+   - 새 VSIX 프로젝트를 만들려면: **새 프로젝트** 대화 상자에서 **시각적 C#** , **확장성**, **VSIX 프로젝트**.  
   
-   -   VSIX 솔루션 디렉터리에 둘 이상의 DSL 솔루션을 만듭니다.  
+   - VSIX 솔루션 디렉터리에 둘 이상의 DSL 솔루션을 만듭니다.  
   
         각 DSL에 대해 새 Visual Studio 인스턴스를 엽니다. 새 DSL을 만들고 VSIX 솔루션과 같은 솔루션 폴더를 지정합니다.  
   
         각 DSL을 서로 다른 파일 확장명으로 만들어야 합니다.  
   
-   -   이름을 변경 합니다 **Dsl** 하 고 **DslPackage** 모두 다른 되도록 프로젝트. 예: `Dsl1`, `DslPackage1`, `Dsl2`, `DslPackage2`.  
+   - 이름을 변경 합니다 **Dsl** 하 고 **DslPackage** 모두 다른 되도록 프로젝트. 예: `Dsl1`, `DslPackage1`, `Dsl2`, `DslPackage2`.  
   
-   -   각 **DslPackage\*\source.extension.tt**을 올바른 Dsl 프로젝트 이름에이 줄을 업데이트 합니다.  
+   - 각 **DslPackage\*\source.extension.tt**을 올바른 Dsl 프로젝트 이름에이 줄을 업데이트 합니다.  
   
         `string dslProjectName = "Dsl2";`  
   
-   -   VSIX 솔루션에서 Dsl * 및 DslPackage 추가\* 프로젝트입니다.  
+   - VSIX 솔루션에서 Dsl * 및 DslPackage 추가\* 프로젝트입니다.  
   
         각 쌍을 자체 솔루션 폴더에 배치할 수 있습니다.  
   
 2. DSL의 VSIX 매니페스트를 결합합니다.  
   
-   1.  Open _YourVsixProject_**\source.extension.manifest**.  
+   1. Open _YourVsixProject_**\source.extension.manifest**.  
   
-   2.  각 DSL에 대해 선택할 **콘텐츠 추가** 추가:  
+   2. 각 DSL에 대해 선택할 **콘텐츠 추가** 추가:  
   
-       -   `Dsl*` 로 프로젝트를 **MEF 구성 요소**  
+       - `Dsl*` 로 프로젝트를 **MEF 구성 요소**  
   
-       -   `DslPackage*` 로 프로젝트를 **MEF 구성 요소**  
+       - `DslPackage*` 로 프로젝트를 **MEF 구성 요소**  
   
-       -   `DslPackage*` 로 프로젝트를 **VS 패키지**  
+       - `DslPackage*` 로 프로젝트를 **VS 패키지**  
   
 3. 솔루션을 빌드합니다.  
   

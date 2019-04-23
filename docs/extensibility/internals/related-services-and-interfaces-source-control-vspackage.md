@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 00bebd0a08acb9eeab369f5aa80b94e6805277b0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a792bc7b0c64b7e509e6d426c8b4f33c9f816276
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599001"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062050"
 ---
 # <a name="related-services-and-interfaces-source-control-vspackage"></a>관련 서비스 및 인터페이스(소스 제어 VSPackage)
 이 섹션에서는 소스 제어 VSPackage 관련 인터페이스의 모든를 나열 합니다 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]합니다. 소스 제어 VSPackage 이러한 인터페이스의 일부를 구현 하 고 소스 제어 작업을 위해 다른 사용자를 사용 합니다.
@@ -30,11 +30,11 @@ ms.locfileid: "56599001"
 
  인터페이스는:
 
--   필수: 적절 한 엔터티 (소스 제어 VSPackage를 원본 제어 스텁 프로젝트) 인터페이스를 구현 해야 합니다.
+- 필수: 적절 한 엔터티 (소스 제어 VSPackage를 원본 제어 스텁 프로젝트) 인터페이스를 구현 해야 합니다.
 
--   권장: 엔터티는이 인터페이스를 구현 해야 합니다. 그렇지 않으면 소스 제어 기능 제한 될 수 있습니다.
+- 권장: 엔터티는이 인터페이스를 구현 해야 합니다. 그렇지 않으면 소스 제어 기능 제한 될 수 있습니다.
 
--   선택 사항: 엔터티가이 인터페이스를 다양 한 기능 집합을 구현할 수 있습니다.
+- 선택 사항: 엔터티가이 인터페이스를 다양 한 기능 집합을 구현할 수 있습니다.
 
 | 인터페이스 | 용도 | 에 의해 구현 | 구현? |
 | - | - |--------------------------|-------------|

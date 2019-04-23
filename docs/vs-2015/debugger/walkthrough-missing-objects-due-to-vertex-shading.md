@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 14b9b3e338989a7ac4291bdf524b7ea872618d8f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cc1f87ac6ce94a1ef474388f75b33aa963b19f8d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985371"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046382"
 ---
 # <a name="walkthrough-missing-objects-due-to-vertex-shading"></a>연습: 꼭짓점 음영으로 인해 누락된 개체
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,13 +23,13 @@ ms.locfileid: "58985371"
   
  이 연습에서는 다음 작업을 설명합니다.  
   
--   **그래픽 이벤트 목록** 을 사용하여 문제의 잠재적인 원인을 찾습니다.  
+- **그래픽 이벤트 목록** 을 사용하여 문제의 잠재적인 원인을 찾습니다.  
   
--   **그래픽 파이프라인 단계** 창을 사용하여 `DrawIndexed` Direct3D API 호출의 효과를 확인합니다.  
+- **그래픽 파이프라인 단계** 창을 사용하여 `DrawIndexed` Direct3D API 호출의 효과를 확인합니다.  
   
--   **HLSL 디버거** 를 사용하여 꼭짓점 셰이더를 검사합니다.  
+- **HLSL 디버거** 를 사용하여 꼭짓점 셰이더를 검사합니다.  
   
--   **그래픽 이벤트 호출 스택** 을 사용하여 잘못된 HLSL 상수의 소스를 찾습니다.  
+- **그래픽 이벤트 호출 스택** 을 사용하여 잘못된 HLSL 상수의 소스를 찾습니다.  
   
 ## <a name="scenario"></a>시나리오  
  꼭지점 셰이더가 잘못되었거나 예기치 않은 방식으로 개체의 꼭지점을 변환할 때 3D 앱 개체 누락의 일반적인 원인 중 하나가 발생합니다. 예를 들어 개체 크기가 너무 작게 축소되거나 변환되어 카메라 정면이 아닌 뒤에 나타날 수 있습니다.  

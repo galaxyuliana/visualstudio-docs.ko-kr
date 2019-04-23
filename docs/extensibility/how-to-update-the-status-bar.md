@@ -10,21 +10,21 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 257fb9f3d044992c9199eeae68feea1c60063be2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 88acd6cf55e8d03b355f1defb861bc5ae919ed52
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681857"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047971"
 ---
 # <a name="how-to-update-the-status-bar"></a>방법: 상태 표시줄 업데이트
 합니다 **상태 표시줄** 는 하나 이상의 상태 텍스트 줄 또는 표시기를 포함 하는 여러 응용 프로그램 창의 아래쪽에 있는 컨트롤 막대입니다.
 
 ## <a name="to-update-the-status-bar"></a>상태 표시줄을 업데이트 하려면
 
-1.  구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> 폼 보기와 코드 보기와 같은 편집기를 제공 하는 각 개별 뷰 개체 (DocView).
+1. 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> 폼 보기와 코드 보기와 같은 편집기를 제공 하는 각 개별 뷰 개체 (DocView).
 
-2.  IDE가 호출 하는 경우 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A>에서 정보를 업데이트 합니다 **상태 표시줄** 의 메서드를 호출 하 여 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser>입니다.
+2. IDE가 호출 하는 경우 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A>에서 정보를 업데이트 합니다 **상태 표시줄** 의 메서드를 호출 하 여 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser>입니다.
 
     > [!NOTE]
     >  IDE 호출 하 여 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> 만 하면 문서 창의 처음 활성화 합니다. 문서 창 활성화 되어 있는 경우의 나머지 부분에서는 업데이트 해야 합니다 **상태 표시줄** 편집기 변경의 상태 정보.

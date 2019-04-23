@@ -24,14 +24,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1a35e679ebff8a0a262b329298b0f2d135eb9dc8
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MTE95
+ms.openlocfilehash: 794400a14cac5b85f813e7a384c650c581a719e2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526687"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061621"
 ---
-# <a name="use-the-memory-windows-in-the-visual-studio-debugger-c-c-visual-basic-f"></a>Visual Studio 디버거에서 메모리 창을 사용 하 여 (C#, c + +, Visual Basic의 경우 F#)
+# <a name="use-the-memory-windows-in-the-visual-studio-debugger-c-c-visual-basic-f"></a>Visual Studio 디버거에서 메모리 창을 사용 하 여 (C#, C++, Visual Basic의 경우 F#)
 
 디버그 하는 동안 합니다 **메모리** 창 앱을 사용 하는 메모리 공간을 표시 합니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "57526687"
 
 **메모리 내용의 형식을 변경하려면:**
 
--  마우스 오른쪽 단추로 클릭 합니다 **메모리** 창 상황에 맞는 메뉴에서 원하는 형식을 선택 합니다.
+- 마우스 오른쪽 단추로 클릭 합니다 **메모리** 창 상황에 맞는 메뉴에서 원하는 형식을 선택 합니다.
 
 **메모리 창에 표시된 열 수를 변경하려면:**
 
@@ -117,5 +117,5 @@ ms.locfileid: "57526687"
 
    사용 하는 경우 디버그 명령와 같은 **단계**에 표시 된 메모리 주소를 **주소** 필드 및 맨 위에 있는 **메모리** 포인터와 창이 자동으로 변경 변경 내용입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)

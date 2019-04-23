@@ -6,12 +6,12 @@ ms.assetid: 9d9c7fbb-ebae-4b20-9dd8-3c9070c0d0d1
 caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: cdd01551472a3cf619d9156e0db20ad3b7c4931e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 93fa86fcac429b38c1e727f39f8c94611310119c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984325"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60062607"
 ---
 # <a name="image-library-viewer"></a>이미지 라이브러리 뷰어
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -224,9 +224,9 @@ Visual Studio 이미지 라이브러리 뷰어 도구를 로드 하 고 Visual S
   
 ## <a name="notes"></a>노트  
   
--   기본적으로 도구는 Visual Studio 설치 디렉터리에 여러 이미지 매니페스트 가져오게 됩니다. 공개적으로 사용할 수 있는 모니커 있는 하나만 합니다 **Microsoft.VisualStudio.ImageCatalog** 매니페스트 합니다. GUID: ae27a6b0-e345-4288-96df-5eaf394ee369 (수행 **되지** 이 GUID는 사용자 지정 매니페스트 재정의) 형식: KnownMonikers  
+- 기본적으로 도구는 Visual Studio 설치 디렉터리에 여러 이미지 매니페스트 가져오게 됩니다. 공개적으로 사용할 수 있는 모니커 있는 하나만 합니다 **Microsoft.VisualStudio.ImageCatalog** 매니페스트 합니다. GUID: ae27a6b0-e345-4288-96df-5eaf394ee369 (수행 **되지** 이 GUID는 사용자 지정 매니페스트 재정의) 형식: KnownMonikers  
   
--   실제로 표시 하도록 응용 프로그램에 대 한 몇 초가 걸릴 수 있으므로 찾으면 모든 이미지 매니페스트를 로드 하는 시작 시 도구를 시도 합니다. 느리거나 응답이 없는 매니페스트를 로드 하는 동안 수도 수 있습니다.  
+- 실제로 표시 하도록 응용 프로그램에 대 한 몇 초가 걸릴 수 있으므로 찾으면 모든 이미지 매니페스트를 로드 하는 시작 시 도구를 시도 합니다. 느리거나 응답이 없는 매니페스트를 로드 하는 동안 수도 수 있습니다.  
   
 ## <a name="sample-output"></a>샘플 출력  
  이 도구는 모든 출력을 생성 하지 않습니다.

@@ -15,12 +15,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 476d117b04b648c2893885700d94a157399cea15
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: bcf6a06ee89bcc3ba691b38e98cf8bf43d9c063b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54802424"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60048049"
 ---
 # <a name="how-to-add-comments-to-class-diagrams-class-designer"></a>방법: 클래스 다이어그램에 주석 추가(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,9 +33,9 @@ ms.locfileid: "54802424"
   
 ### <a name="to-add-a-comment"></a>주석을 추가하려면  
   
-1.  **클래스 디자이너 도구 상자**에서 클래스 다이어그램으로 주석을 끕니다.  
+1. **클래스 디자이너 도구 상자**에서 클래스 다이어그램으로 주석을 끕니다.  
   
-2.  다이어그램에서 새 주석 도형을 클릭하고 원하는 텍스트를 입력합니다.  
+2. 다이어그램에서 새 주석 도형을 클릭하고 원하는 텍스트를 입력합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [클래스 다이어그램 사용(클래스 디자이너)](../ide/working-with-class-diagrams-class-designer.md)   

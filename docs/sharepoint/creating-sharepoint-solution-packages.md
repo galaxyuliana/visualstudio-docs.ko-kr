@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 147bb56e0d8759ece67ea1454f496b23b770cebf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 8f7afee863d36796bb481f9aca2c24a9ba891ae7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604732"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60049947"
 ---
 # <a name="create-sharepoint-solution-packages"></a>SharePoint 솔루션 패키지 만들기
   패키지 디자이너를 사용 하 여 만들 수 있으며 배포 패키지를 사용자 지정 키를 누릅니다. 예를 들어, SharePoint 프로젝트 항목 및 기능을 IIS 서버를 다시 설정, 기능 활성화 범위를 설정 및 기능 종속성을 식별을 추가할 수 있습니다. 또한 디자이너는 각 패키지를 설명 하는 XML 파일인 매니페스트를 생성 합니다.
@@ -56,17 +56,17 @@ ms.locfileid: "56604732"
 ## <a name="packaging-architecture"></a>패키징 아키텍처
  SharePoint 패키지를 만들 때 다음 단계가 수행 (*.wsp*) Visual Studio에서.
 
-1.  패키지에 패키지의 물리적 및 의미 체계 구조를 정확한 지 확인 하는 유효성이 검사 됩니다.
+1. 패키지에 패키지의 물리적 및 의미 체계 구조를 정확한 지 확인 하는 유효성이 검사 됩니다.
 
-2.  기능, 프로젝트 항목 및 패키지의 패키지 파일 열거 됩니다. 패키지 및 기능에 대 한 매니페스트 파일은 배포 및 정품 인증에 필요한 모든 정보를 포함 하도록 변환 됩니다. 토큰은 정규화 된 값으로 대체 됩니다.
+2. 기능, 프로젝트 항목 및 패키지의 패키지 파일 열거 됩니다. 패키지 및 기능에 대 한 매니페스트 파일은 배포 및 정품 인증에 필요한 모든 정보를 포함 하도록 변환 됩니다. 토큰은 정규화 된 값으로 대체 됩니다.
 
-3.  사용자 지정 가능한 BeforeLayout MSBuild 대상 수행 됩니다. 사용자 지정 하기 전에 패키지를 수정 하려면이 단계를 만들 수 있습니다 합니다 *.wsp* 파일이 만들어집니다.
+3. 사용자 지정 가능한 BeforeLayout MSBuild 대상 수행 됩니다. 사용자 지정 하기 전에 패키지를 수정 하려면이 단계를 만들 수 있습니다 합니다 *.wsp* 파일이 만들어집니다.
 
-4.  열거 되는 파일은 중간 디렉터리에 복사 됩니다.
+4. 열거 되는 파일은 중간 디렉터리에 복사 됩니다.
 
-5.  사용자 지정 가능한 AfterLayout MSBuild 대상 수행 됩니다. 사용자 지정 하기 전에 패키지를 수정 하려면이 단계를 만들 수 있습니다 합니다 *.wsp* 파일이 만들어집니다.
+5. 사용자 지정 가능한 AfterLayout MSBuild 대상 수행 됩니다. 사용자 지정 하기 전에 패키지를 수정 하려면이 단계를 만들 수 있습니다 합니다 *.wsp* 파일이 만들어집니다.
 
-6.  중간 디렉터리의 파일에 추가 되는 *.wsp* 파일입니다.
+6. 중간 디렉터리의 파일에 추가 되는 *.wsp* 파일입니다.
 
 ## <a name="package-folder-structure"></a>패키지 폴더 구조
  SharePoint 프로젝트를 패키지할 때는 *.wsp* 에서 파일을 만들 합니다 *SolutionFolder\bin\\\<BuildConfiguration >* 폴더입니다. 예를 들어 솔루션이 *C:\Visual Studio 2013\Projects\ListDefinition1* 빌드 구성이 릴리스로 설정 됩니다 및 합니다 *.wsp* 파일은 *C:\Visual Studio 2013\ Projects\ListDefinition1\bin\Release*합니다.

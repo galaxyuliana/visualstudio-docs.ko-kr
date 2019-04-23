@@ -23,12 +23,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 392e50b9494d2de17f2d1ac2b0f3c23f1e872fa6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 54466cc3561c194199bbad2b35cd00433da2b0f3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985358"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046151"
 ---
 # <a name="walkthrough-debugging-at-design-time"></a>연습: 디자인 타임에 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ Visual Studio를 사용할 수 있습니다 **직접 실행** 응용 프로그�
   
 ### <a name="to-hit-breakpoints-from-the-immediate-window"></a>직접 실행 창에서 중단점을 적중 하려면  
   
-1.  Visual Basic 콘솔 응용 프로그램에 다음 코드를 붙여 넣습니다.  
+1. Visual Basic 콘솔 응용 프로그램에 다음 코드를 붙여 넣습니다.  
   
     ```  
     Module Module1  
@@ -63,19 +63,19 @@ Visual Studio를 사용할 수 있습니다 **직접 실행** 응용 프로그�
     End Module  
     ```  
   
-2.  읽기는 줄에 중단점을 설정할 `s="Add BreakPoint Here"`합니다.  
+2. 읽기는 줄에 중단점을 설정할 `s="Add BreakPoint Here"`합니다.  
   
-3.  다음을 입력 합니다 **직접 실행** 창: `?MyFunction<enter>`  
+3. 다음을 입력 합니다 **직접 실행** 창: `?MyFunction<enter>`  
   
-4.  중단점에 도달 했는지, 호출 스택을 정확한 지 확인 합니다.  
+4. 중단점에 도달 했는지, 호출 스택을 정확한 지 확인 합니다.  
   
-5.  에 **디버그** 메뉴에서 클릭 **계속**, 디자인 모드에 여전히 있는지 확인 합니다.  
+5. 에 **디버그** 메뉴에서 클릭 **계속**, 디자인 모드에 여전히 있는지 확인 합니다.  
   
-6.  다음을 입력 합니다 **직접 실행** 창: `?MyFunction<enter>`  
+6. 다음을 입력 합니다 **직접 실행** 창: `?MyFunction<enter>`  
   
-7.  다음을 입력 합니다 **직접 실행** 창: `?MySub<enter>`  
+7. 다음을 입력 합니다 **직접 실행** 창: `?MySub<enter>`  
   
-8.  중단점에 도달 하 고 정적 변수의 값을 검사 하는 확인 `i` 에 **지역** 창입니다. 값 3 있어야 합니다.  
+8. 중단점에 도달 하 고 정적 변수의 값을 검사 하는 확인 `i` 에 **지역** 창입니다. 값 3 있어야 합니다.  
   
 9. 호출 스택의 정확한 지 확인 합니다.  
   

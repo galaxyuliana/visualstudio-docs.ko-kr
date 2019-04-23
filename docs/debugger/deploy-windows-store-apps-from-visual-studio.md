@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 63726f9f38cdede6c8a0525b74244baac9455aad
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 02bfb1b4797973b3946405c38598409bf3247c70
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "58790383"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065742"
 ---
 # <a name="deploy-uwp-apps-from-visual-studio"></a>Visual Studio에서 UWP 앱 배포
 
@@ -36,18 +36,18 @@ Visual Studio 배포 기능을 작성 하 고 대상 장치에서 Visual Studio�
 
 - 다른 앱 또는 메서드에서 시작되는 경우 디버깅할 앱 배포
 
-##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> UWP 앱을 배포 하는 방법
+## <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> UWP 앱을 배포 하는 방법
  수동 앱 배포 프로세스는 다음과 같이 간단합니다.
 
-1.  원격 디바이스에 배포하는 경우 앱 시작 프로젝트의 속성 프로젝트 페이지에서 디바이스의 이름 또는 IP 주소를 지정합니다. 이 작업 단계는 이 항목 아래에 나열되어 있습니다.
+1. 원격 디바이스에 배포하는 경우 앱 시작 프로젝트의 속성 프로젝트 페이지에서 디바이스의 이름 또는 IP 주소를 지정합니다. 이 작업 단계는 이 항목 아래에 나열되어 있습니다.
 
-2.  디버거 Visual Studio 도구 모음의 **디버깅 시작** 단추 옆에 있는 드롭다운 목록에서 배포 대상을 선택합니다.
+2. 디버거 Visual Studio 도구 모음의 **디버깅 시작** 단추 옆에 있는 드롭다운 목록에서 배포 대상을 선택합니다.
 
      ![로컬 컴퓨터에서 실행할](../debugger/media/vsrun_f5_local.png "VSRUN_F5_Local")
 
-3.   **빌드** 메뉴에서 **배포**를 선택합니다.
+3.  **빌드** 메뉴에서 **배포**를 선택합니다.
 
-##  <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 장치 지정 방법
+## <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 장치 지정 방법
 
 **필수 조건**
 
@@ -92,7 +92,7 @@ Windows 10 원격 장치에서 활성화 해야 합니다 [개발자 모드](/wi
 
 10. **원격 컴퓨터** 상자에 원격 장치의 네트워크 이름을 입력하거나 **찾기** 를 클릭하여 **원격 디버거 연결 선택** 대화 상자에서 장치를 선택합니다.
 
-##  <a name="BKMK_Deployment_options"></a> 배포 옵션
+## <a name="BKMK_Deployment_options"></a> 배포 옵션
 
 시작 프로젝트의 디버그 속성 페이지에서 다음 배포 옵션을 설정할 수 있습니다.
 

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 75f7dd3149785520023657bb86ec8172dc379ab6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 6454eb53bf6d171e469a4cf2758e0e10a76eab6e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926998"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066119"
 ---
 # <a name="add-code-to-tableadapters-in-n-tier-applications"></a>n 계층 애플리케이션에서 TableAdapter에 코드 추가
 TableAdapter에 대 한 partial 클래스 파일을 만들고 코드를 추가 하 여 TableAdapter의 기능을 확장할 수 있습니다 (코드를 추가 하는 대신 합니다 *DatasetName.DataSet.Designer* 파일). Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 한 코드를 사용 합니다. 자세한 내용은 [부분](/dotnet/visual-basic/language-reference/modifiers/partial) 하거나 [partial (형식)](/dotnet/csharp/language-reference/keywords/partial-type)합니다.
@@ -38,17 +38,17 @@ TableAdapter를 정의 하는 코드는 데이터 집합의 TableAdapter에 변�
 
 ## <a name="to-add-user-code-to-a-tableadapter-in-an-n-tier-application"></a>N 계층 응용 프로그램에서 TableAdapter에 사용자 코드를 추가 하려면
 
-1.  포함 된 프로젝트를 찾는 합니다 *.xsd* 파일입니다.
+1. 포함 된 프로젝트를 찾는 합니다 *.xsd* 파일입니다.
 
-2.  두 번 클릭 합니다 *.xsd* 열려는 파일을 **데이터 집합 디자이너**합니다.
+2. 두 번 클릭 합니다 *.xsd* 열려는 파일을 **데이터 집합 디자이너**합니다.
 
-3.  에 코드를 추가 하 고 클릭 하려는 TableAdapter를 마우스 오른쪽 단추로 클릭 **코드 보기**합니다.
+3. 에 코드를 추가 하 고 클릭 하려는 TableAdapter를 마우스 오른쪽 단추로 클릭 **코드 보기**합니다.
 
      Partial 클래스는 생성 되 고 코드 편집기에서 열립니다.
 
-4.  Partial 클래스 선언 내에 코드를 추가 합니다.
+4. Partial 클래스 선언 내에 코드를 추가 합니다.
 
-5.  다음 예제에서는 코드를 추가 하는 위치를 `CustomersTableAdapter` 에 `NorthwindDataSet`:
+5. 다음 예제에서는 코드를 추가 하는 위치를 `CustomersTableAdapter` 에 `NorthwindDataSet`:
 
     ```vb
     Partial Public Class CustomersTableAdapter
@@ -65,9 +65,9 @@ TableAdapter를 정의 하는 코드는 데이터 집합의 TableAdapter에 변�
     }
     ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [N 계층 데이터 애플리케이션 개요](../data-tools/n-tier-data-applications-overview.md)
-- [n 계층 애플리케이션에서 데이터 세트에 코드 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md)
+- [n 계층 응용 프로그램에서 데이터 집합에 코드 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md)
 - [TableAdapter 만들기 및 구성](create-and-configure-tableadapters.md)
 - [계층적 업데이트 개요](hierarchical-update.md)

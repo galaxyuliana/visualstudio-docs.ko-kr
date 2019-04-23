@@ -18,12 +18,12 @@ caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cb6de5edcd94b0391c090b0f68658258134375aa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2e9292464ee117cf79a249c1c1a0636edb931c1d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972163"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60063234"
 ---
 # <a name="debug-layout-using-dom-explorer"></a>DOM 탐색기를 사용하여 레이아웃 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,11 +42,11 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
 #### <a name="to-fix-the-layout-issue"></a>레이아웃 문제를 해결하려면  
   
-1.  Visual Studio에서 허브/피벗 프로젝트 템플릿을 사용하는 새 스토어 앱을 만듭니다.  
+1. Visual Studio에서 허브/피벗 프로젝트 템플릿을 사용하는 새 스토어 앱을 만듭니다.  
   
-2.  공유된 pages\hub 폴더에서 hub.css를 엽니다.  
+2. 공유된 pages\hub 폴더에서 hub.css를 엽니다.  
   
-3.  다음 CSS 코드를  
+3. 다음 CSS 코드를  
   
     ```css  
     .hubpage .hub .section4 .sub-image-row img {  
@@ -65,22 +65,22 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     }  
     ```  
   
-4.  솔루션 탐색기에서 appName.WindowsPhone 프로젝트 또는 appName.Windows 프로젝트를 선택한 다음 프로젝트의 바로 가기 메뉴에서 **시작 프로젝트로 설정** 을 선택합니다.  
+4. 솔루션 탐색기에서 appName.WindowsPhone 프로젝트 또는 appName.Windows 프로젝트를 선택한 다음 프로젝트의 바로 가기 메뉴에서 **시작 프로젝트로 설정** 을 선택합니다.  
   
-5.  시작 프로젝트에 따라 디버그 도구 모음의 드롭다운 목록에서 **에뮬레이터 8.1 WVGA 4인치 512MB** 또는 **시뮬레이터** 를 선택합니다(**로컬 컴퓨터** 가 기본값임).  
+5. 시작 프로젝트에 따라 디버그 도구 모음의 드롭다운 목록에서 **에뮬레이터 8.1 WVGA 4인치 512MB** 또는 **시뮬레이터** 를 선택합니다(**로컬 컴퓨터** 가 기본값임).  
   
      ![디버그 대상 선택](../debugger/media/js-dom-debug-target-emu.png "JS_DOM_Debug_Target_Emu")  
   
-6.  F5 키를 눌러 디버그 모드에서 응용 프로그램을 실행합니다.  
+6. F5 키를 눌러 디버그 모드에서 응용 프로그램을 실행합니다.  
   
-7.  스크롤 또는 긋기를 통해 섹션 4를 엽니다.  
+7. 스크롤 또는 긋기를 통해 섹션 4를 엽니다.  
   
     > [!TIP]
     >  선택 내용 및 CSS 스타일 변경 내용에 대한 결과를 즉시 확인할 수 있도록 Visual Studio 창 오른쪽에 Phone 에뮬레이터 또는 시뮬레이터를 배치합니다.  
   
      섹션 4가 로드될 때 하부 이미지가 제대로 표시되지 않는 것을 볼 수 있습니다. 각 항목 이미지는 왼쪽 절반이 누락된 상태로 잘려서 표시됩니다.  
   
-8.  Visual Studio로 전환하고 DOM 탐색기에서 **요소 선택** 을 선택하거나 Ctrl+B를 누릅니다. 그러면 항목을 클릭하여 선택할 수 있도록 선택 모드가 변경되며, 앱이 전경에 옵니다. 한 번 클릭 후 모드는 되돌려집니다.  
+8. Visual Studio로 전환하고 DOM 탐색기에서 **요소 선택** 을 선택하거나 Ctrl+B를 누릅니다. 그러면 항목을 클릭하여 선택할 수 있도록 선택 모드가 변경되며, 앱이 전경에 옵니다. 한 번 클릭 후 모드는 되돌려집니다.  
   
     > [!TIP]
     >  화살표 키 또는 다른 방법을 사용하여 DOM 탐색기에서 직접 HTML 요소를 선택할 수도 있습니다. 요소 선택에 대 한 자세한 내용은 참조 하세요. [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)합니다.  
@@ -105,11 +105,11 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
      이 뷰에서는 요소에 대한 몇 가지 유용한 정보를 제공합니다.  
   
-    -   색은 요소를 마우스로 가리킬 때 시뮬레이터에 나타나는 상자 강조 표시에 해당합니다. 파란색 나타내는 \<i m g > 요소 치수 합니다. 태닝 색은 여백 값을 의미합니다.  
+    - 색은 요소를 마우스로 가리킬 때 시뮬레이터에 나타나는 상자 강조 표시에 해당합니다. 파란색 나타내는 \<i m g > 요소 치수 합니다. 태닝 색은 여백 값을 의미합니다.  
   
-    -   왼쪽 여백(margin-left)이 설정되어 있으며, 이것은 증상(이미지 왼쪽이 검은색)과 일치하기 때문에 문제의 원인을 암시합니다.  
+    - 왼쪽 여백(margin-left)이 설정되어 있으며, 이것은 증상(이미지 왼쪽이 검은색)과 일치하기 때문에 문제의 원인을 암시합니다.  
   
-    -   0 픽셀 값이 표시되는 상자(예: 테두리 및 안쪽 여백)는 해당 CSS 속성이 설정되어 있지 않음을 나타냅니다.  
+    - 0 픽셀 값이 표시되는 상자(예: 테두리 및 안쪽 여백)는 해당 CSS 속성이 설정되어 있지 않음을 나타냅니다.  
   
 11. margin-left 규칙이 적용되는 방식을 보려면 **계산됨** 탭을 선택하고 margin-left 규칙 아래를 봅니다. 이 규칙이 5em 값으로 설정되어 있는 것을 볼 수 있지만 대상 디바이스에 따라 계산된 값은 66.66px 또는 146.66px가 됩니다.  
   

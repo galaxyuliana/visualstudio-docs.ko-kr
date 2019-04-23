@@ -13,12 +13,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fc126d8283562f84cabfaae7df1001c832553568
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: f2c1a799663d33e61977c5416ad199bce8bce545
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54778956"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050117"
 ---
 # <a name="common-patterns-for-poorly-behaved-multithreaded-applications"></a>잘못 동작하는 다중 스레드 애플리케이션의 일반 패턴
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "54778956"
   
  다음 그림과 같이 동시성 시각화 도우미가 CPU 사용률 뷰에 이 증상을 표시할 수 있습니다. 여기서 다중 스레드가 있더라도 애플리케이션은 하나의 논리 코어만 사용합니다.  
   
- 자세한 내용은 MSDN 블로그 웹 사이트에 있는 Hazim Shafi의 [Parallel Performance Tools For Windows](http://go.microsoft.com/fwlink/?LinkID=160569)(Windows용 병렬 성능 도구) 블로그에서 "Performance Pattern 1: Identifying Lock Contention"(성능 패턴 1: 잠금 경합 식별)을 참조하세요.  
+ 자세한 내용은 "성능 패턴 1: 식별 잠금 경합이"Hazim shafi에서 [병렬 성능 도구에 대 한 Windows](http://go.microsoft.com/fwlink/?LinkID=160569) MSDN 블로그 웹 사이트에 대 한 블로그.  
   
  ![잠금 경합](../profiling/media/lockcontention-2.png "LockContention_2")  
   
@@ -52,9 +52,9 @@ ms.locfileid: "54778956"
   
  이 문제를 평가할 때 다음 사항을 고려해야 합니다.  
   
--   전체 시스템이 초과 구독될 수 있습니다. 시스템의 다른 프로세스가 스레드를 선점하는 것이 좋습니다. 스레드 뷰에서, 선점 세그먼트 위에서 마우스를 잠시 멈추면 도구 설명에서 스레드 및 스레드를 선점한 프로세스를 식별해 줍니다. 이 프로세스가 반드시 사용자의 프로세스가 선점된 전체 시간 동안 실행된 프로세스는 아닐 수 있지만 사용자의 프로세스에 대해 선점 압력을 형성한 요인에 대한 힌트를 제공합니다.  
+- 전체 시스템이 초과 구독될 수 있습니다. 시스템의 다른 프로세스가 스레드를 선점하는 것이 좋습니다. 스레드 뷰에서, 선점 세그먼트 위에서 마우스를 잠시 멈추면 도구 설명에서 스레드 및 스레드를 선점한 프로세스를 식별해 줍니다. 이 프로세스가 반드시 사용자의 프로세스가 선점된 전체 시간 동안 실행된 프로세스는 아닐 수 있지만 사용자의 프로세스에 대해 선점 압력을 형성한 요인에 대한 힌트를 제공합니다.  
   
--   이 작업의 단계 중 사용자의 프로세스에서 실행할 적절한 스레드 수를 확인하는 방법을 평가합니다. 프로세스에서 직접 활성 병렬 스레드의 수를 계산하는 경우 시스템의 사용 가능한 논리 코어 수를 더 적절히 처리하도록 알고리즘을 수정하는 것이 좋습니다. 동시성 런타임, 작업 병렬 라이브러리 또는 PLINQ를 사용하면 이러한 라이브러리에서 스레드 수를 계산하는 작업을 수행합니다.  
+- 이 작업의 단계 중 사용자의 프로세스에서 실행할 적절한 스레드 수를 확인하는 방법을 평가합니다. 프로세스에서 직접 활성 병렬 스레드의 수를 계산하는 경우 시스템의 사용 가능한 논리 코어 수를 더 적절히 처리하도록 알고리즘을 수정하는 것이 좋습니다. 동시성 런타임, 작업 병렬 라이브러리 또는 PLINQ를 사용하면 이러한 라이브러리에서 스레드 수를 계산하는 작업을 수행합니다.  
   
 ## <a name="inefficient-io"></a>불충분한 I/O  
  ![불충분한 I/O](../profiling/media/inefficient-io.png "Inefficient_IO")  

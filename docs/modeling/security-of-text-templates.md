@@ -9,19 +9,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d9906f3b8af624e1761b73c3338bad98b263aa9e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 66159516c6b1360203130dedb56c0e6c192a118a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957184"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050013"
 ---
 # <a name="security-of-text-templates"></a>텍스트 템플릿 보안
 텍스트 템플릿 모두 다음 보안 고려 사항:
 
--   텍스트 템플릿은 임의의 코드 삽입에 취약 합니다.
+- 텍스트 템플릿은 임의의 코드 삽입에 취약 합니다.
 
--   호스트 된 지시문 프로세서를 찾는 데 사용 하는 메커니즘에 보안이 설정 되지 않으면 악성 지시문 프로세서를 실행할 수 있습니다.
+- 호스트 된 지시문 프로세서를 찾는 데 사용 하는 메커니즘에 보안이 설정 되지 않으면 악성 지시문 프로세서를 실행할 수 있습니다.
 
 ## <a name="arbitrary-code"></a>임의의 코드
  서식 파일을 작성 하는 경우 내 코드를 넣을 수 있습니다는 \<# # > 태그입니다. 이렇게 하면 임의의 코드를 텍스트 템플릿 내에서 실행할 수 있습니다.

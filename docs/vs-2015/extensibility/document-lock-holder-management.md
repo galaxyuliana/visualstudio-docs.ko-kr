@@ -10,12 +10,12 @@ ms.assetid: fa1ce513-eb7d-42bc-b6e8-cb2433d051d5
 caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 260f82822c575ba2476541c889608e9cdcba8ed0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 73c6151b5c02cb81a10c2725091c16457db70e33
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983088"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056824"
 ---
 # <a name="document-lock-holder-management"></a>문서 잠금 소유자 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,9 +30,9 @@ ms.locfileid: "58983088"
 ### <a name="file-b-is-opened-by-a-different-editor"></a>다른 편집기에서 "b" 파일을 열  
  파일 "b"가 이미 열어 놓은 편집기 "B" 편집기 "A"를 열려고 할 때는 두 가지 별도 시나리오를 처리 하:  
   
--   편집기 "A" 문서 편집 잠금을 사용 하 여 "b" 파일에 등록 해야 파일 "b" 호환 편집기에에서 열려 있는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.RegisterDocumentLockHolder%2A> 메서드. 등록 취소는 문서에 사용 하 여 잠금을 편집 수정 파일 "b" 편집기 "A" 완료 되 면를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.UnregisterDocumentLockHolder%2A> 메서드.  
+- 편집기 "A" 문서 편집 잠금을 사용 하 여 "b" 파일에 등록 해야 파일 "b" 호환 편집기에에서 열려 있는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.RegisterDocumentLockHolder%2A> 메서드. 등록 취소는 문서에 사용 하 여 잠금을 편집 수정 파일 "b" 편집기 "A" 완료 되 면를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.UnregisterDocumentLockHolder%2A> 메서드.  
   
--   파일 "b"가 호환 되지 않는 방식으로 열려 있으면 "A" 실패 하거나 수 "A" 부분적으로 열고 적절 한 오류 메시지를 표시 하는 편집기와 연결 된 뷰 편집기에서 파일 "b"의 열기를 시도 하거나 시킬 수 있습니다. 오류 메시지에는 호환 되지 않는 편집기에서 파일 "b"를 닫은 다음 다시 "a"를 사용 하 여 파일을 엽니다 하도록 사용자에 게는 "A" 편집기입니다. 구현할 수도 있습니다는 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 메서드 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable2.QueryCloseRunningDocument%2A> 호환 되지 않는 편집기에 열려 있는 사용자 "b" 파일을 닫습니다. 사용자가 파일 "b", 파일 열기에 "a" 편집기 "A"는 일반적으로 계속 됩니다.  
+- 파일 "b"가 호환 되지 않는 방식으로 열려 있으면 "A" 실패 하거나 수 "A" 부분적으로 열고 적절 한 오류 메시지를 표시 하는 편집기와 연결 된 뷰 편집기에서 파일 "b"의 열기를 시도 하거나 시킬 수 있습니다. 오류 메시지에는 호환 되지 않는 편집기에서 파일 "b"를 닫은 다음 다시 "a"를 사용 하 여 파일을 엽니다 하도록 사용자에 게는 "A" 편집기입니다. 구현할 수도 있습니다는 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 메서드 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable2.QueryCloseRunningDocument%2A> 호환 되지 않는 편집기에 열려 있는 사용자 "b" 파일을 닫습니다. 사용자가 파일 "b", 파일 열기에 "a" 편집기 "A"는 일반적으로 계속 됩니다.  
   
 ## <a name="additional-document-edit-lock-considerations"></a>추가 문서 편집 잠금 고려 사항  
  편집기 "A"는 "B" 편집기도 문서를 저장 하는 것 보다 "b" 파일에 대 한 잠금을 편집 하는 문서에 있는 유일한 편집기 파일 "b"에 대 한 잠금을 편집 하는 경우 다른 동작을 가져옵니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], **클래스 디자이너** 은 예제 연결된 된 코드 파일에서 편집 잠금을 유지 하지 않습니다는 비주얼 디자이너입니다. 즉, 사용자가 디자인 뷰에서 엽니다 클래스 다이어그램 및 연결된 된 코드 파일을 동시에, 열 및 사용자 코드 파일을 수정 하지만 변경 내용을 저장 하지 않습니다 하는 경우 변경 내용이 손실 됩니다 클래스 다이어그램 (.cd) 파일. 경우는 **클래스 디자이너** 에 문서 편집 코드 파일에 대 한 잠금을 사용자 요청 하지 않습니다 코드 파일을 닫을 때 변경 내용을 저장 합니다. IDE 사용자를 닫은 후에 변경 내용을 저장 하는 사용자에 게 요청 합니다 **클래스 디자이너**합니다. 두 파일에 저장된 된 변경 사항은 반영 됩니다. 두 경우는 **클래스 디자이너** 코드 파일 편집기 코드 파일 또는 폼을 닫을 때 저장 하 라는 메시지가 다음 코드 파일에 대해 문서 편집 잠금을 보유 합니다. 이때 폼 및 코드 파일에서 저장된 된 변경 사항은 반영 됩니다. 클래스 다이어그램에 대 한 자세한 내용은 참조 하세요. [클래스 다이어그램 (클래스 디자이너)를 사용 하 여 작업](../ide/working-with-class-diagrams-class-designer.md)합니다.  

@@ -25,14 +25,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0425929908f17b33de71a49b03ae8de729f28309
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 400961eaa14b87d70a685a87be5df48ac92c8281
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681897"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047555"
 ---
-# <a name="view-dlls-and-executables-in-the-modules-window-c-c-visual-basic-f"></a>모듈 창에서 Dll 및 실행 파일 보기 (C#, c + +, Visual Basic의 경우 F#)
+# <a name="view-dlls-and-executables-in-the-modules-window-c-c-visual-basic-f"></a>모듈 창에서 Dll 및 실행 파일 보기 (C#, C++, Visual Basic의 경우 F#)
 
 Visual Studio 디버그 하는 동안 합니다 **모듈** 창을 나열 하 고 Dll 및 실행 파일에 대 한 정보를 보여 줍니다 (*.exe* 파일) 앱이 사용 하 합니다.
 
@@ -73,11 +73,11 @@ Visual Studio 디버그 하는 동안 합니다 **모듈** 창을 나열 하 고
 
 **기호 로드를 특정 모듈에 대 한 동작 변경:**
 
-1.  **모듈** 창에서 모듈을 마우스 오른쪽 단추로 클릭합니다.
+1. **모듈** 창에서 모듈을 마우스 오른쪽 단추로 클릭합니다.
 
-1.  오른쪽 클릭 메뉴에서 선택 하거나 선택 취소 **항상 자동 부하**합니다. 변경 내용은 다음 디버깅 세션에 적용 합니다.
+1. 오른쪽 클릭 메뉴에서 선택 하거나 선택 취소 **항상 자동 부하**합니다. 변경 내용은 다음 디버깅 세션에 적용 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [실행 중단](/previous-versions/visualstudio/visual-studio-2010/7z9se2d8(v=vs.100))
 - [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)
 - [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 01f229e3763777784fab193034eb79a643f5da13
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 9b1799ac2e7124f79d10dcc8860a994e2f182ea7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416191"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60051351"
 ---
 # <a name="how-to-create-a-domain-specific-language-solution"></a>방법: 도메인 특정 언어 솔루션 만들기
 도메인 특정 언어 (DSL) 특수 한 Visual Studio 솔루션을 사용 하 여 만들어집니다.
@@ -54,9 +54,9 @@ ms.locfileid: "58416191"
 
 3. 파일 이름 확장명을 입력 합니다 **파일 확장명** 페이지입니다. 컴퓨터에서 고유 해야 하 고 DSL을 설치 하려는 모든 컴퓨터에서. 메시지가 나타납니다 **응용 프로그램이 나 Visual Studio 편집기는이 확장을 사용할**합니다.
 
-   -   완전히 설치 되지 않은 이전 실험적 Dsl의 파일 이름 확장명을 사용한 경우 지울 수는 있습니다 축소를 사용 하 여 합니다 **실험적 인스턴스 재설정** 도구 [Visual Studio SDK] 메뉴에서 찾을 수 있습니다.
+   - 완전히 설치 되지 않은 이전 실험적 Dsl의 파일 이름 확장명을 사용한 경우 지울 수는 있습니다 축소를 사용 하 여 합니다 **실험적 인스턴스 재설정** 도구 [Visual Studio SDK] 메뉴에서 찾을 수 있습니다.
 
-   -   이 파일 확장명을 사용 하는 다른 Visual Studio 확장 컴퓨터에 완전히 설치 된 경우에 제거 하는 것이 좋습니다. 에 **도구** 메뉴에서 클릭 **확장 관리자**합니다.
+   - 이 파일 확장명을 사용 하는 다른 Visual Studio 확장 컴퓨터에 완전히 설치 된 경우에 제거 하는 것이 좋습니다. 에 **도구** 메뉴에서 클릭 **확장 관리자**합니다.
 
 4. 를 검사 하 고 필요한 경우 필드를 조정, 마법사의 나머지 페이지의 키를 누릅니다. 설정에 만족 했으면 클릭 **완료**합니다. 설정에 대 한 자세한 내용은 참조 하세요. [DSL 디자이너 마법사 페이지](#settings)합니다.
 
@@ -85,15 +85,15 @@ ms.locfileid: "58416191"
 
  도구 또는 패키지의 목록에 표시 되 면 다음 중 하나를 수행 해야 합니다.
 
--   다른 파일 확장명을 입력 합니다.
+- 다른 파일 확장명을 입력 합니다.
 
      \- 또는 -
 
--   Visual Studio 실험적 인스턴스를 다시 설정 합니다. 이전에 만든 Dsl의 모든 등록을 취소 합니다. 에 **시작** 메뉴에서 클릭 **모든 프로그램**, **Microsoft Visual Studio 2010 SDK**, **도구**를 차례로 **다시 설정 합니다 Microsoft Visual Studio 2010 실험적 인스턴스**합니다. 다시 사용 하려는 다른 모든 Dsl을 다시 작성할 수 있습니다.
+- Visual Studio 실험적 인스턴스를 다시 설정 합니다. 이전에 만든 Dsl의 모든 등록을 취소 합니다. 에 **시작** 메뉴에서 클릭 **모든 프로그램**, **Microsoft Visual Studio 2010 SDK**, **도구**를 차례로 **다시 설정 합니다 Microsoft Visual Studio 2010 실험적 인스턴스**합니다. 다시 사용 하려는 다른 모든 Dsl을 다시 작성할 수 있습니다.
 
      \- 또는 -
 
--   Visual Studio Extension이 파일 확장명을 사용 하는 컴퓨터에 완전히 설치 된 경우이 제거 합니다. 에 **도구** 메뉴에서 클릭 **확장 관리자**합니다.
+- Visual Studio Extension이 파일 확장명을 사용 하는 컴퓨터에 완전히 설치 된 경우이 제거 합니다. 에 **도구** 메뉴에서 클릭 **확장 관리자**합니다.
 
 ### <a name="product-settings-page"></a>제품 설정 페이지
  **새 도메인 특정 언어에 속하는 제품의 이름은 무엇입니까?**

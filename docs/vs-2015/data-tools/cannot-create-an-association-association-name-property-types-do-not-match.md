@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 149f9360569978cf3ec15fd60154ad6f1408362f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 79f991954c1c54811496628576283c3c0b4330a2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656598"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60065117"
 ---
 # <a name="cannot-create-an-association-ltassociation-namegt---property-types-do-not-match"></a>&lt;association name&gt; 연결을 만들 수 없습니다. - 속성 형식이 일치하지 않는 경우
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,13 +27,13 @@ ms.locfileid: "59656598"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-1.  메시지를 검사하여 메시지에서 호출된 속성을 기록합니다.  
+1. 메시지를 검사하여 메시지에서 호출된 속성을 기록합니다.  
   
-2.  **확인**을 클릭하여 대화 상자를 닫습니다.  
+2. **확인**을 클릭하여 대화 상자를 닫습니다.  
   
-3.  **연결 속성**을 검사하고 동일한 데이터 형식의 속성을 선택합니다.  
+3. **연결 속성**을 검사하고 동일한 데이터 형식의 속성을 선택합니다.  
   
-4.  **확인**을 클릭합니다.  
+4. **확인**을 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: LINQ to SQL 클래스 (O/R 디자이너) 간 연결 (관계) 만들기](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)   
