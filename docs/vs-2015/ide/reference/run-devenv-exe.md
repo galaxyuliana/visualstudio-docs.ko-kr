@@ -16,17 +16,16 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 120ff132ac33a156cdf734ee0e17f4cfade9380c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 8f941aaff6b4f5f97a298549e91c29ffb19e84ea
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54768895"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667524"
 ---
 # <a name="run-devenvexe"></a>/Run (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 지정한 프로젝트 또는 솔루션을 컴파일하고 실행합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -49,7 +48,7 @@ devenv {/run|/r} {SolutionName|ProjectName}
   
 -   오류를 포함한 요약 정보는 **명령** 창 또는 `/out` 스위치로 지정된 로그 파일에 표시할 수 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 활성 배포 구성을 사용하여 `MySolution` 솔루션을 실행합니다.  
   
 ```  

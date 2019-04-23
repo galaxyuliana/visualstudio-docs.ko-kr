@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 90f7fe4d3e4b316f48aed46c40b3d24e0969a536
-ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
-ms.translationtype: MT
+ms.openlocfilehash: 7eb266eda25198f6d270ebcf48086141a73dcb9c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "59504434"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665456"
 ---
 # <a name="deploy-an-office-solution-by-using-clickonce"></a>ClickOnce를 사용 하 여 Office 솔루션 배포
   ClickOnce를 사용하면 Office 솔루션을 더 적은 단계로 배포할 수 있습니다. 업데이트를 게시하는 경우 솔루션에서 자동으로 이를 감지하여 설치합니다. 그러나 ClickOnce에서는 컴퓨터의 각 사용자에 대해 별도로 솔루션을 설치하도록 합니다. Windows Installer를 사용 하 여 고려해 야 하므로 (*.msi*) 둘 이상의 사용자를 동일한 컴퓨터에 솔루션을 실행 합니다.
@@ -27,13 +27,13 @@ ms.locfileid: "59504434"
 
 - [솔루션 게시](#Publish)
 
-- [솔루션에 신뢰를 부여하는 방법 결정](#Trust)
+- [솔루션에 신뢰를 부여 하는 방법 결정](#Trust)
 
-- [사용자의 솔루션 설치 지원](#Helping)
+- [솔루션을 설치할 수 있도록](#Helping)
 
-- [최종 사용자의 컴퓨터에 솔루션 문서 저장(문서 수준 사용자 지정에만 해당)](#Put)
+- [최종 사용자의 컴퓨터 (문서 수준 사용자 지정에만 해당)에 솔루션 문서 저장](#Put)
 
-- [SharePoint 실행 서버에 솔루션 문서 저장(문서 수준 사용자 지정에만 해당)](#SharePoint)
+- [(문서 수준 사용자 지정에만 해당) SharePoint를 실행 하는 서버에 솔루션 문서 저장](#SharePoint)
 
 - [사용자 지정 설치 관리자 만들기](#Custom)
 
@@ -345,7 +345,6 @@ ms.locfileid: "59504434"
  도구 위치에 없는 경우 사용할 수 있습니다 합니다 **이 Runtime Setup\v4\InstallerPath** 또는 **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSTO Runtime Setup\v4 \InstallerPath** 레지스트리 키를 눌러 해당 도구 경로를 찾습니다.
 
  다음 매개 변수를 사용할 수 있습니다 *VSTOinstaller.exe*합니다.
-
 
 | 매개 변수 | 정의 |
 |------------------| - |

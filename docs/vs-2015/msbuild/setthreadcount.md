@@ -17,17 +17,16 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6a57ac0b3412c6668dea1669d14b72fe399b6ab2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 79987c77da7959c4ba37a4ae8e5b689a052cbbbc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54758628"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666679"
 ---
 # <a name="setthreadcount"></a>SetThreadCount
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 전역 스레드 개수를 설정하고 해당 개수를 현재 스레드에 할당합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -41,7 +40,7 @@ HRESULT WINAPI SetThreadCount(int threadCount);
  사용할 스레드 수입니다.  
   
 ## <a name="return-value"></a>반환 값  
- 스레드 개수가 업데이트된 경우 [SUCCEEDED](<!-- TODO: review code entity reference <xref:assetId:///SUCCEEDED?qualifyHint=False&amp;autoUpgrade=True>  -->) 비트가 설정된 [HRESULT](<!-- TODO: review code entity reference <xref:assetId:///HRESULT?qualifyHint=False&amp;autoUpgrade=True>  -->)를 반환합니다.  
+ [HRESULT] (<!-- TODO: review code entity reference <xref:assetId:///HRESULT?qualifyHint=False&amp;autoUpgrade=True>  -->) [성공] (<!-- TODO: review code entity reference <xref:assetId:///SUCCEEDED?qualifyHint=False&amp;autoUpgrade=True>  -->) 스레드 개수가 업데이트 된 경우에 비트가 설정 합니다.  
   
 ## <a name="requirements"></a>요구 사항  
  **헤더:** FileTracker.h

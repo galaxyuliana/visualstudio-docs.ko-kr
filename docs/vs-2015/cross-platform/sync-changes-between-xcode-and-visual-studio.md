@@ -8,16 +8,15 @@ caps.latest.revision: 10
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: bb7b5ebe398b66a8ae28d7734d64ce67c8735a73
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 42352ba4c5260c4b13a4cb3c6875d3469efcf404
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54754916"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665534"
 ---
 # <a name="sync-changes-between-xcode-and-visual-studio"></a>XCode와 Visual Studio 간에 변경 내용 동기화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 모바일 개발용 Microsoft Visual C++ 구성 요소에는 PC와 Mac 간에 작업을 동기화하는 원격 기능이 포함되어 있습니다. Visual Studio 및 Mac 컴퓨터를 쌍으로 연결하면 XCode에서 프로젝트를 여는 데 사용할 수 있는 새로운 옵션을 Visual Studio에서 iOS 애플리케이션 프로젝트에 대해 상용하고, XCode와 Visual Studio 간에 코드를 이동하고, 임시 XCode 프로젝트 디렉터리를 정리할 수 있습니다.
 

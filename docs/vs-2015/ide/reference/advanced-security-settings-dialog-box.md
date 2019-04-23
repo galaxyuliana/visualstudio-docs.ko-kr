@@ -18,17 +18,16 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 283428e4d4b2c81179d8dbd8ff6200c1d7140eae
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: afdeda6c18c20af1b7f82e42cedc4aadac13ebcb
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758728"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661675"
 ---
 # <a name="advanced-security-settings-dialog-box"></a>고급 보안 설정 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 대화 상자를 사용하면 영역 디버깅과 관련된 보안 설정을 지정할 수 있습니다.  
   
  이 대화 상자에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택한 다음 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너**가 나타나면 **보안** 탭을 클릭합니다. **보안** 페이지에서 **ClickOnce 보안 설정 사용**을 선택하고 **부분 신뢰 애플리케이션**을 클릭한 후 **고급**을 클릭합니다.  

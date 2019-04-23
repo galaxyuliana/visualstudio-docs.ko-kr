@@ -9,17 +9,16 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8229eaa612675f949d716477eda4627840dfca89
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 01c044c86922e5161aaf3d7d342dd02d3ff01afc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981924"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667316"
 ---
 # <a name="this-related-method-is-the-backing-method-for-the-following-default-insert-update-or-delete-methods"></a>이 관련 메서드는 다음과 같은 기본 삽입, 업데이트 및 삭제 메서드를 지원하는 메서드입니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 관련 메서드는 다음과 같은 기본 삽입, 업데이트 또는 삭제 메서드를 지원하는 메서드입니다. 이 관련 메서드를 삭제하면 이러한 메서드도 삭제됩니다. 계속하시겠습니까?  
   
  선택한 `DataContext` 메서드는 O/R 디자이너의 엔터티 클래스 중 하나에 대해 삽입, 업데이트 또는 삭제 메서드 중 하나가 현재 사용되고 있습니다. 선택한 메서드를 삭제하면 이 메서드를 사용하는 엔터티 클래스는 업데이트하는 동안 삽입, 업데이트 또는 삭제를 수행하는 기본 런타임 동작으로 되돌립니다.  

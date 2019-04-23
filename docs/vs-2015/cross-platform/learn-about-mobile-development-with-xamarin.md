@@ -6,17 +6,16 @@ ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
 caps.latest.revision: 14
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 85b63fe01335b75f4286bcc3d19960ab3b873509
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 4d75c93f2ff1678b1d9790462bc816ea35f8acd9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54781698"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662077"
 ---
 # <a name="learn-about-mobile-development-with-xamarin"></a>Xamarin을 사용한 모바일 개발에 대해 알아보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 항목에서는 Xamarin을 사용한 플랫폼 간 모바일 앱 개발을 이해하는 데 도움되는 개요 자료를 안내합니다. 아직 Visual Studio 및 Xamarin을 설치하지 않았으면 먼저 [Setup and install](../cross-platform/setup-and-install.md) 프로세스를 시작하고 여기로 돌아와서 설치 관리자가 실행되는 동안 이러한 리소스를 살펴봅니다.  
   
 > [!NOTE]
@@ -42,7 +41,7 @@ ms.locfileid: "54781698"
   
   ![Xamarin 환경에서 Windows 및 Mac 개발 컴퓨터 간의 관계](../cross-platform/media/crossplat-xamarin-learn-1.png "CrossPlat Xamarin Learn 1")  
   
-## <a name="essentials-how-projects-are-structured"></a>Essentials 프로젝트 구성 방법  
+## <a name="essentials-how-projects-are-structured"></a>주요 사항: 프로젝트 구성 방법  
  *10~30분*  
   
 1.  [코드 공유 옵션](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (영문)(xamarin.com). 이식 가능한 클래스 라이브러리 옵션은 모든 대상 플랫폼에서 지원되는 .NET API만 사용하는 작업을 가장 잘 지원하므로 이 옵션을 사용하는 것이 좋습니다. 대부분의 비즈니스 논리 코드는 데이터베이스, REST Api 호출 및 이식 가능한 Xamarin 구성 요소에 대 한 호출에 대 한 액세스를 포함 하는 PCL에 (참조 [심층 분석: Xamarin 구성 요소](#components) 이 항목의 끝). Xamarin.Forms로 작성된 일반적인 UI 코드가 PCL에 있을 수도 있습니다.  
@@ -52,7 +51,7 @@ ms.locfileid: "54781698"
 ## <a name="essentials-native-and-xamarinforms-ui-layers"></a>주요 사항: 네이티브 및 Xamarin.Forms UI 계층  
  *10~40분*  
   
- Xamarin에서는 두 가지 방법으로 멋진 네이티브 앱을 빌드할 수 있습니다. Xamarin Native 및 Xamarin.Forms입니다.  
+ Xamarin에서는 두 가지 방법으로 멋진 네이티브 앱을 빌드할 수 있습니다: Xamarin Native 및 Xamarin.Forms입니다.  
   
  Xamarin Native를 사용하여 iOS, Android 및 Windows 등의 각 대상 플랫폼에 대한 별도의 UI 코드를 작성합니다.  이 방법을 사용하면 플랫폼별 API에 직접 액세스하여 플랫폼마다 사용자 지정된 UI 환경을 사용할 수 있습니다.  각 플랫폼에 대한 기본 디자이너 및 컨트롤에 대해 모든 권한을 얻게 되므로 각 UI 구축에 도움이 됩니다.  
   

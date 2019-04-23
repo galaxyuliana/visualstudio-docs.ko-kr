@@ -13,12 +13,12 @@ monikerRange: '>= vs-2019'
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 0bbe7d081e15fdf81308218f2bb4b54e7623b333
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 2880b8bee25a79f5f182043ffed5c50c4512d033
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856958"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663193"
 ---
 # <a name="debug-live-aspnet-apps-on-azure-virtual-machines-and-azure-virtual-machine-scale-sets-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용하여 Azure Virtual Machines 및 Azure Virtual Machine Scale Sets의 라이브 ASP.NET 앱 디버그
 
@@ -35,11 +35,11 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
 ## <a name="prerequisites"></a>전제 조건
 
-* Azure VM(Virtual Machines) 및 Azure VMSS(Virtual Machine Scale Sets)용 스냅숏 디버거는 **Azure 개발 워크로드**가 포함된 Visual Studio 2019 Enterprise 미리 보기 이상에서만 사용할 수 있습니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅숏 디버거**에서 찾을 수 있습니다.)
+* Azure Virtual Machines (VM) 및 Azure Virtual Machine Scale Sets에 대 한 스냅숏 디버거는 Visual Studio 2019 Enterprise에 대 한 사용 가능한 이상 합니다 **Azure 개발 워크 로드**합니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅숏 디버거**에서 찾을 수 있습니다.)
 
-    아직 설치되지 않은 경우 [Visual Studio 2019 Enterprise 미리 보기](https://visualstudio.microsoft.com/vs/preview/)를 설치하세요.
+    설치 되어 있지 않은 경우 설치할 [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/vs/)합니다.
 
-* 스냅숏 컬렉션은 다음 Azure VM/VMSS 웹앱에서 사용할 수 있습니다.
+* 스냅숏 컬렉션은 다음 Azure 가상 Machines\Virtual Machine Scale Sets 웹 앱을 사용할 수 있습니다.
   * .NET Framework 4.6.1 이상에서 실행되는 ASP.NET 애플리케이션
   * Windows의 .NET Core 2.0 이상에서 실행되는 ASP.NET Core 애플리케이션
 
@@ -48,9 +48,9 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 1. 스냅숏 디버그할 프로젝트를 엽니다.
 
     > [!IMPORTANT]
-    > 스냅숏 디버그하려면 Azure VM/VMSS 서비스에 게시된 것과 ‘동일한 버전의 소스 코드’를 열어야 합니다.
+    > 스냅숏 디버그 하려면 엽니다는 *동일한 버전의 소스 코드* Azure 가상 Machine\Virtual Machine Scale Set 서비스에 게시 된 합니다.
 
-1. **디버그 > 스냅숏 디버거 연결...** 을 선택합니다. 웹앱이 배포된 Azure VM/VMSS 및 Azure Storage 계정을 선택하고 **연결**을 클릭합니다.
+1. **디버그 > 스냅숏 디버거 연결...** 을 선택합니다. Azure 가상 Machine\Virtual Machine Scale Set를 웹 앱 배포 및 Azure storage 계정을 선택 하 고 클릭 **연결**합니다.
 
       ![디버그 메뉴에서 스냅숏 디버거 시작](../debugger/media/snapshot-debug-menu-attach.png)
 
@@ -58,7 +58,7 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
     > [!IMPORTANT]
     > 처음 VM의 **스냅숏 디버거 연결**을 선택하면 IIS가 자동으로 다시 시작됩니다.
-    > 처음 VMSS의 **스냅숏 디버거 연결**을 선택하면 VMSS의 각 인스턴스를 수동으로 업그레이드해야 합니다.
+    > 처음으로 선택 하면 **스냅숏 디버거 연결** Virtual Machine Scale Sets를 사용 하 여 가상 머신 확장 집합의 각 인스턴스는 수동 업그레이드 하는 필요 합니다.
 
     **모듈**에 대한 메타데이터는 초기에 활성화되지 않습니다. 웹앱으로 이동하면 **컬렉션 시작** 단추가 활성 상태가 됩니다. Visual Studio가 이제 스냅숏 디버깅 모드입니다.
 
@@ -66,9 +66,9 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
     > [!NOTE]
     > Application Insights 사이트 확장도 스냅숏 디버깅을 지원합니다. “사이트 확장이 최신 상태가 아님” 오류 메시지가 표시되면 [스냅숏 디버깅에 대한 문제 해결 팁 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)에서 업그레이드 세부 정보를 참조하세요.
-    > VMSS의 경우 처음 스냅숏 디버거를 연결한 후 사용자가 해당 VMSS의 인스턴스를 수동으로 업그레이드해야 합니다.
+    > VMSS에 대 한 사용자가 처음으로 스냅숏 디버거를 연결한 후 해당 가상 머신 확장 집합에서 인스턴스를 수동으로 업그레이드 해야 합니다.
 
-   Azure VM/VMSS의 모든 모듈이 로드되면 **모듈** 창에 표시됩니다(이 창을 열려면 **디버그 > Windows > 모듈** 선택).
+   합니다 **모듈** 창에 표시 되는 Azure 가상 Machine\Virtual Machine Scale Set에 대 한 모든 모듈을 로드 한 경우 (선택 **디버그 > Windows > 모듈** 이 창을 열려면).
 
    ![모듈 창 확인](../debugger/media/snapshot-modules.png)
 
@@ -105,7 +105,7 @@ snappoint를 켜면 snappoint가 배치된 코드 줄이 실행될 때마다 스
 
 앱에 snappoint를 더 추가하고 **컬렉션 업데이트** 단추로 켤 수도 있습니다.
 
-**도움이 필요하십니까?** [문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)와 [스냅숏 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md) 페이지를 참조하세요.
+**도움이 필요하세요?** [문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)와 [스냅숏 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md) 페이지를 참조하세요.
 
 ## <a name="set-a-conditional-snappoint"></a>조건부 snappoint 설정
 

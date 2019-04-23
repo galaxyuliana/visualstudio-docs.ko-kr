@@ -22,17 +22,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dbeaf44d767779281a3af4fe41f97a827a38c097
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MT
+ms.openlocfilehash: b25a86617fdead402a2bcc3e6d901868caad840e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58985735"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663784"
 ---
 # <a name="create-lookup-tables-in-wpf-applications"></a>WPF 애플리케이션에서 조회 테이블 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 용어 *조회 표* (라고도 *조회 바인딩을*) 다른 테이블의 외래 키 필드의 값을 기반으로 하는 하나의 데이터 테이블의에서 정보를 표시 하는 컨트롤에 설명 합니다. 부모 테이블의 기본 노드 드래그 하 여 조회 테이블을 만들 수도 있고 개체를 **데이터 원본** 열 또는 관련된 자식 테이블의 속성에 이미 바인딩된 컨트롤을 창입니다.  
   
  예를 들어 테이블을 `Orders` 판매 데이터베이스에서. 각 레코드는 `Orders` 테이블에는 `CustomerID` 고객 주문을 나타내는입니다. 합니다 `CustomerID` 에서 고객 레코드를 가리키는 외래 키를 `Customers` 테이블입니다. 주문 목록을 표시 하는 경우는 `Orders` 대신 실제 고객 이름을 표시 하려는 테이블을 `CustomerID`입니다. 고객 이름 이므로 `Customers` 고객 이름을 표시 하는 조회 테이블을 생성 해야 하는 테이블입니다. 조회 테이블 사용 시 합니다 `CustomerID` 값을 `Orders` 관계를 탐색 기록 하 고 고객 이름을 반환 합니다.  

@@ -9,22 +9,22 @@ caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5d842df2056cb6e6b51bdb757057a821af494f15
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
-ms.translationtype: MT
+ms.openlocfilehash: 8d5191d78d8eb543edb12146398687216027eece
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "59003120"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663546"
 ---
 # <a name="using-the-microsoft-monitoring-agent"></a>Microsoft Monitoring Agent 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio에서 최신 설명서를 참조 하세요 [Microsoft Monitoring Agent를 사용 하 여](https://docs.microsoft.com/visualstudio/debugger/using-the-microsoft-monitoring-agent) docs.microsoft.com에서 제공 합니다.
+Visual Studio에서 최신 설명서를 참조 하세요 [Microsoft Monitoring Agent를 사용 하 여](https://docs.microsoft.com/visualstudio/debugger/using-the-microsoft-monitoring-agent)입니다.
 
-**Microsoft Monitoring Agent**를 사용하면 IIS에서 호스트되는 ASP.NET 웹앱과 SharePoint 2010 또는 2013 응용 프로그램의 오류, 성능 문제 또는 기타 문제를 로컬로 모니터링할 수 있습니다. Monitoring Agent에서 IntelliTrace 로그(.iTrace) 파일로 진단 이벤트를 저장할 수 있습니다. 그런 다음 Visual Studio Enterprise(Professional 또는 Community Edition 아님)에서 로그를 열고 모든 Visual Studio 진단 도구를 사용하여 문제를 디버그할 수 있습니다. 또한 **Trace** 모드에서 Monitoring Agent를 실행하여 IntelliTrace 진단 데이터와 메서드 데이터를 수집할 수도 있습니다. Microsoft Monitoring Agent를 [Application Insights](/azure/azure-monitor/app/app-insights-overview) 및 [System Center Operation Manager](http://technet.microsoft.com/library/hh205987.aspx)와 통합할 수 있습니다. Microsoft Monitoring Agent는 설치 시 대상 시스템 환경을 변경합니다.  
+**Microsoft Monitoring Agent**를 사용하면 IIS에서 호스트되는 ASP.NET 웹앱과 SharePoint 2010 또는 2013 응용 프로그램의 오류, 성능 문제 또는 기타 문제를 로컬로 모니터링할 수 있습니다. Monitoring Agent에서 IntelliTrace 로그(.iTrace) 파일로 진단 이벤트를 저장할 수 있습니다. 다음에 Visual Studio Enterprise (Professional 또는 Community edition 아님) 모든 Visual Studio 진단 도구를 사용 하 여 문제를 디버깅 하려면 로그 파일을 열 수 있습니다. 또한 **Trace** 모드에서 Monitoring Agent를 실행하여 IntelliTrace 진단 데이터와 메서드 데이터를 수집할 수도 있습니다. Microsoft Monitoring Agent를 [Application Insights](/azure/azure-monitor/app/app-insights-overview) 및 [System Center Operation Manager](http://technet.microsoft.com/library/hh205987.aspx)와 통합할 수 있습니다. Microsoft Monitoring Agent는 설치 시 대상 시스템 환경을 변경합니다.  
   
 > [!NOTE]
->  **IntelliTrace 독립 실행형 수집기**를 사용하면 대상 환경을 변경하지 않고 원격 컴퓨터의 웹, SharePoint, WPF 및 Windows Forms 앱에 대해 IntelliTrace 진단 및 메서드 데이터를 수집할 수도 있습니다. Microsoft Monitoring Agent를 **Monitor** 모드로 실행하는 경우에 비해 독립 실행형 수집기가 성능에 더 큰 영향을 줍니다. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md)입니다.  
+> **IntelliTrace 독립 실행형 수집기**를 사용하면 대상 환경을 변경하지 않고 원격 컴퓨터의 웹, SharePoint, WPF 및 Windows Forms 앱에 대해 IntelliTrace 진단 및 메서드 데이터를 수집할 수도 있습니다. Microsoft Monitoring Agent를 **Monitor** 모드로 실행하는 경우에 비해 독립 실행형 수집기가 성능에 더 큰 영향을 줍니다. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md)입니다.  
   
  System Center 2012를 사용하는 경우 Microsoft Monitoring Agent와 Operations Manager를 함께 사용하면 문제에 대한 경고를 받고 저장된 IntelliTrace 로그의 링크를 사용하여 Team Foundation Server 작업 항목을 만들 수 있습니다. 그런 다음 추가 디버깅을 위해 이러한 작업 항목을 다른 사용자에게 할당할 수 있습니다. [개발 프로세스와 Operations Manager 통합](http://technet.microsoft.com/library/jj614609.aspx) 및 [Microsoft Monitoring Agent를 사용하여 모니터링](http://technet.microsoft.com/library/dn465153.aspx)을 참조하세요.  
   

@@ -19,17 +19,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1d5d697cecfb30bc52f3386411a32a05718b0662
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 67a35b8987cc9f4f06cc93df2462a4dee326d7e7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54783131"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664020"
 ---
 # <a name="vc-project-settings-projects-and-solutions-options-dialog-box"></a>옵션 대화 상자, 프로젝트 및 솔루션, VC++ 프로젝트 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 대화 상자를 사용하면 빌드 로깅 및 지원 파일 형식과 관련된 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트 설정을 정의할 수 있습니다.  
   
 ### <a name="to-access-this-dialog-box"></a>이 대화 상자에 액세스하려면  

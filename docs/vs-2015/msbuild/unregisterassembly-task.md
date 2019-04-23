@@ -19,17 +19,16 @@ caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 497a767a1cd67c08e82a743d0665a152c5dd7062
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 2ef7ef7f4ec930b8aa338a8be33c4009b3009b20
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54833721"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666154"
 ---
 # <a name="unregisterassembly-task"></a>UnregisterAssembly 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 COM interop 용도로 지정된 어셈블리의 등록을 취소합니다. [RegisterAssembly 작업](../msbuild/registerassembly-task.md)의 역작업을 수행합니다.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -46,7 +45,7 @@ COM interop 용도로 지정된 어셈블리의 등록을 취소합니다. [Regi
   
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:System.MarshalByRefObject> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.AppDomainIsolatedTaskExtension> 클래스의 매개 변수도 상속합니다. `MarshalByRefObject` 클래스는 <xref:Microsoft.Build.Utilities.Task> 클래스와 동일한 기능을 제공하지만 해당 애플리케이션 도메인에서 인스턴스화될 수 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `UnregisterAssembly` 작업을 사용하여 `OutputPath` 및 `FileName` 속성으로 지정된 경로에서 어셈블리(있는 경우)의 등록을 취소합니다.  
   
 ```  

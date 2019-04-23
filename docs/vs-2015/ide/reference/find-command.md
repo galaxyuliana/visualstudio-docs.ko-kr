@@ -14,17 +14,16 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9ffa71b12a0cbe72b2c4fae479990e112fc75940
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ee744a8ab3a22d640f3d48e7291b546f36415d24
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54790316"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667289"
 ---
 # <a name="find-command"></a>찾기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **찾기 및 바꾸기** 창의 **파일에서 바꾸기** 탭에서 사용할 수 있는 옵션의 하위 집합을 사용하여 파일을 검색합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -75,7 +74,7 @@ Edit.Find findwhat [/case] [/doc | /proc | /open | /sel]
  /word 또는 /w  
  선택 사항입니다. 전체 단어만을 검색합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 코드의 현재 선택된 섹션에서 "somestring"이라는 단어에 대해 대/소문자 구분 검색을 수행합니다.  
   
 ```  

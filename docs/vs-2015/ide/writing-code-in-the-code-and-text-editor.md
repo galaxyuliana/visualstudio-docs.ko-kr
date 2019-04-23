@@ -60,12 +60,12 @@ caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dbfb22a5854d8d966548e113f10c6fdb0ddc070a
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
-ms.translationtype: MT
+ms.openlocfilehash: 5953afed3ede465cab03677c00e2e930ac6b6cb4
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366616"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665746"
 ---
 # <a name="writing-code-in-the-code-and-text-editor"></a>코드 및 텍스트 편집기에서 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -171,7 +171,6 @@ Visual Studio의 "탐색" 명령은 코드 파일, 파일 경로 및 코드 기�
     입력 시 텍스트 상자 아래의 드롭다운 목록에 결과가 나타납니다.
 1. 요소로 이동하려면 목록에서 선택합니다.
 
-
 ### <a name="filter-your-search"></a>검색 필터링
 
 검색을 코드 기호로 제한, 앞으로 탐색 쿼리는 "\@" 문자입니다. 예를 들어 `@application`을 검색하는 경우 탐색 시 "application" 단어가 포함된 클래스만 표시됩니다.
@@ -191,13 +190,13 @@ Visual Studio의 "탐색" 명령은 코드 파일, 파일 경로 및 코드 기�
 
 -   [Visual Basic 설정](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
 
--   [C# 용 Visual Studio 개발 환경 사용](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
+-   [C#용 Visual Studio 개발 환경 사용](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 
 -   [옵션, 텍스트 편집기, JavaScript, 서식](../ide/reference/options-text-editor-javascript-formatting.md)  
 
 ## <a name="in-this-section"></a>단원 내용  
 
--   [Finding and Replacing Text](../ide/finding-and-replacing-text.md)  
+-   [텍스트 찾기 및 바꾸기](../ide/finding-and-replacing-text.md)  
 
 -   [인코딩 및 줄 바꿈](../ide/encodings-and-line-breaks.md)  
 
@@ -211,9 +210,9 @@ Visual Studio의 "탐색" 명령은 코드 파일, 파일 경로 및 코드 기�
 
 -   [편집기 사용자 지정](../ide/customizing-the-editor.md)  
 
--   [방법: 스크롤 막대를 사용자 지정 하 여 코드 추적](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
+-   [방법: 스크롤 막대를 사용자 지정하여 코드 추적](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
 
--   [방법: 코드 보기 및 편집 피킹 (Alt + f12 키)를 사용 하 여](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
+-   [방법: 정의 피킹(Peeking)을 사용하여 코드 보기 및 편집(Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
 
 -   [전구를 사용하여 빠른 작업 수행](../ide/perform-quick-actions-with-light-bulbs.md)  
 

@@ -6,16 +6,15 @@ ms.assetid: d22b5186-9e03-4e85-afc9-7cbe28522a6d
 caps.latest.revision: 14
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 6d10240383ddaf4ec2eb242dfc180c59ff084f1d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: add48cc007b9108e565ae89d987caf2797b897f0
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54780264"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664639"
 ---
 # <a name="learn-app-building-basics-with-xamarinforms-in-visual-studio"></a>Visual Studio에서 Xamarin.Forms를 사용한 앱 빌드 기본 사항 알아보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 [Setup and install](../cross-platform/setup-and-install.md) 및 [Verify your Xamarin environment](../cross-platform/verify-your-xamarin-environment.md)의 단계를 완료했으면 이 연습 과정을 통해 Xamarin.Forms로 기본 앱을 구축하는 방법을 확인합니다(아래 참조). Xamarin.Forms를 사용하여 모든 UI 코드를 PCL(이식 가능한 클래스 라이브러리)로 한꺼번에 작성합니다. 그러면 Xamarin은 iOS, Android 및 Windows 플랫폼에 대한 네이티브 UI 컨트롤을 자동으로 렌더링합니다. PCL 옵션은 모든 대상 플랫폼에서 지원되는 .NET API만 사용하는 경우를 가장 잘 지원하고 Xamarin.Forms는 플랫폼 간 UI 코드 공유를 가능하게 하므로 이 접근 방법이 권장됩니다.
 

@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6637899e70262dc238b604ec64907eab1387baf9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d6de035568e1c2aebe853d25dc5f769d233da819
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696313"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662909"
 ---
 # <a name="bpresolutionlocation"></a>BP_RESOLUTION_LOCATION
 중단점 해결 위치의 구조를 지정합니다.
@@ -50,15 +50,15 @@ public struct BP_RESOLUTION_LOCATION {
 
 `bpResLocation.bpresCode`
 
- [C + + 전용] 포함 된 [BP_RESOLUTION_CODE](../../../extensibility/debugger/reference/bp-resolution-code.md) 하는 경우 구조체 `bpType`  =  `BPT_CODE`합니다.
+ [C++ 만] 포함 된 [BP_RESOLUTION_CODE](../../../extensibility/debugger/reference/bp-resolution-code.md) 하는 경우 구조체 `bpType`  =  `BPT_CODE`합니다.
 
 `bpResLocation.bpresData`
 
- [C + + 전용] 포함 된 [BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md) 하는 경우 구조체 `bpType`  =  `BPT_DATA`합니다.
+ [C++ 만] 포함 된 [BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md) 하는 경우 구조체 `bpType`  =  `BPT_DATA`합니다.
 
 `bpResLocation.unused`
 
- [C + + 전용] 자리 표시자입니다.
+ [C++ 만] 자리 표시자입니다.
 
 `unionmember1`
 
@@ -78,7 +78,6 @@ public struct BP_RESOLUTION_LOCATION {
 
 ## <a name="remarks"></a>설명
 이 구조체의 멤버인 합니다 [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) 하 고 [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) 구조입니다.
-
 
  [C# 만] `unionmemberX` 멤버는 다음 표에 따라 해석 됩니다. 왼쪽된 열을 살펴보면를 `bpType` 한 다음 각 기능 확인에 걸쳐 값 `unionmemberX` 마샬링 및 멤버 나타냅니다는 `unionmemberX` 적절 하 게 합니다. C#에서이 구조를 해석 하는 방법에 대 한 예제를 참조 하세요.
 

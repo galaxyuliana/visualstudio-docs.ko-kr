@@ -9,17 +9,16 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a5c7d4bda59b8ff9bdedb775ecc6376a23a2db7b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ff1ec43d6faec329db6138598d84e47db009113e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981620"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665326"
 ---
 # <a name="add-new-connections"></a>새 연결 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 데이터베이스 또는 서비스에 대 한 연결을 테스트 하 고 데이터베이스의 내용과 스키마를 사용 하 여 탐색할 수 있습니다 **서버 탐색기**하십시오 **클라우드 탐색기**, 또는 **SQL Server 개체 탐색기**. 이러한 windows 기능을 어느 정도 까지는 겹칩니다. 기본 차이점은:  
   
  서버 탐색기  

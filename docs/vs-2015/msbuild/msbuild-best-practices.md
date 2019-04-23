@@ -12,17 +12,16 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ad2070bb696a3ce326331d01145b3ef3b54ae5ec
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 6973e905a0587ffdc7cbd0a401e03f933fc60a3a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54780668"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662216"
 ---
 # <a name="msbuild-best-practices"></a>MSBuild 모범 사례
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild 스크립트를 작성할 때는 다음 모범 사례를 따르는 것이 좋습니다.  
   
 -   기본 속성 값은 명령줄에서 기본값을 재정의할 수 있는 속성을 선언하는 대신 `Condition` 특성을 사용하여 처리하는 것이 가장 효율적입니다. 예를 들어 다음과 같은 코드를 사용합니다.  

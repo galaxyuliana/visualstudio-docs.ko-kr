@@ -1,5 +1,5 @@
 ---
-title: '방법: 증분 빌드 | Microsoft Docs'
+title: '방법: 증분 방식으로 빌드 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: msbuild
@@ -13,17 +13,16 @@ caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b1bcb8752d8defacadc641f55594e354e081d5cb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 4aba200bff4bc8a017756ece6576e589f33e9df6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54803912"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662259"
 ---
-# <a name="how-to-build-incrementally"></a>방법: 증분 빌드
+# <a name="how-to-build-incrementally"></a>방법: 증분 방식으로 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 큰 프로젝트를 빌드할 경우 최신 상태에 있는 이전에 빌드된 구성 요소를 다시 빌드하지 않는 것이 중요합니다. 매번 모든 대상이 빌드되면 각 빌드를 완료하는 데 시간이 오래 걸릴 수 있습니다. 증분 빌드(이전에 빌드되지 않은 대상만 또는 오래된 대상이 다시 빌드되는 빌드)를 사용하도록 설정하기 위해 [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] ([!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)])에서는 입력 파일의 타임스탬프를 출력 파일의 타임스탬프와 비교하고 대상을 건너뛰거나, 빌드하거나, 부분적으로 다시 빌드할지 결정할 수 있습니다. 하지만 입력과 출력 간에는 일대일 매핑이 있어야 합니다. 변환을 사용하여 대상이 이 직접 매핑을 식별하도록 할 수 있습니다. 변환에 대한 자세한 내용은 [변환](../msbuild/msbuild-transforms.md)을 참조하세요.  
   
 ## <a name="specifying-inputs-and-outputs"></a>입력 및 출력 지정  
@@ -31,7 +30,7 @@ ms.locfileid: "54803912"
   
 #### <a name="to-specify-inputs-and-outputs-for-a-target"></a>대상에 대한 입력 및 출력을 지정하려면  
   
-- `Target` 요소의 `Inputs` 및 `Outputs` 특성을 사용합니다. 예:  
+- `Target` 요소의 `Inputs` 및 `Outputs` 특성을 사용합니다. 예를 들어:  
   
   ```  
   <Target Name="Build"  
@@ -59,12 +58,12 @@ ms.locfileid: "54803912"
   
  출력과 입력 간에 직접 매핑을 식별할 수 있는 작업(예: [LC 작업](../msbuild/lc-task.md))은 많은 입력에서 하나의 출력 어셈블리를 생성하는 `Csc` 및 [Vbc](../msbuild/vbc-task.md)와 같은 작업과 달리 증분 빌드에 가장 적합합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 가상 도움말 시스템에 대한 도움말 파일을 빌드하는 프로젝트를 사용합니다. 프로젝트는 소스 .txt 파일을 중간 .content 파일로 변환하는 방식으로 작동합니다. .content 파일은 이후 XML 메타데이터와 결합되어 도움말 시스템에서 사용되는 최종 .help 파일을 생성합니다. 프로젝트는 다음 가상 작업을 사용합니다.  
   
-- `GenerateContentFiles`: .txt 파일을 .content 파일로 변환합니다.  
+- `GenerateContentFiles`: .Txt 파일을.content 파일로 변환합니다.  
   
-- `BuildHelp`: .content 파일 및 XML 메타데이터 파일을 결합하여 최종 .help 파일을 빌드합니다.  
+- `BuildHelp`: .Content 파일 및 최종.help 파일을 만드는 XML 메타 데이터 파일을 결합 합니다.  
   
   프로젝트는 변환을 사용하여 `GenerateContentFiles` 작업에서 입력과 출력 간의 일대일 매핑을 만듭니다. 자세한 내용은 [변환](../msbuild/msbuild-transforms.md)을 참조하세요. 또한 `Output` 요소는 자동으로 `GenerateContentFiles` 작업의 출력을 `BuildHelp` 작업의 입력으로 사용하도록 설정됩니다.  
   

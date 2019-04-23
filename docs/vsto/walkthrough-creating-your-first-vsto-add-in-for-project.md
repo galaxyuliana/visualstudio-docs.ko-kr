@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 870f5385074e02036a088b34a94bd4e60d8153bc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 5d257953aeefd56a8b58a75377a64a5d9e882a25
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641756"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665209"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-project"></a>연습: 첫 번째에 VSTO 추가 기능 프로젝트 만들기
   이 연습에서는 Microsoft Office Project 용 VSTO 추가 기능을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 열려 있는 프로젝트에 관계없이 애플리케이션 자체에서 사용할 수 있습니다. 자세한 내용은 [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.
@@ -91,7 +91,6 @@ ms.locfileid: "56641756"
 1.  C#을 사용하는 경우 다음 코드를 `ThisAddIn_Startup` 이벤트 처리기에 추가합니다. 이 코드는 연결 된 `Application_Newproject` NewProject 이벤트와 이벤트 처리기입니다.
 
      [!code-csharp[Trin_ProjectAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#2)]
-
 
 ## <a name="test-the-project"></a>프로젝트 테스트
  프로젝트를 빌드하고 실행할 때 새 작업이 새 결과 프로젝트에 나타나는지 확인합니다.

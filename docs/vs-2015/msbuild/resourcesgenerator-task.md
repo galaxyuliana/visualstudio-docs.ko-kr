@@ -18,17 +18,16 @@ caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f53f6f66b30509b56fbaf7cf54eecd0fe93b1434
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 82a9df8d7d3fae774e27e29e659d02aec35c7593
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54805399"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662155"
 ---
 # <a name="resourcesgenerator-task"></a>ResourcesGenerator 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> 작업은 하나 이상의 리소스(.jpg, .ico, .bmp, 이진 형식의 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 및 기타 확장 형식)를 .resources 파일에 포함합니다.  
   
 ## <a name="task-parameters"></a>작업 매개 변수  
@@ -39,7 +38,7 @@ ms.locfileid: "54805399"
 |`OutputResourcesFile`|필수 **ITaskItem** 출력 매개 변수입니다.<br /><br /> 생성된 .resources 파일의 경로 및 이름을 지정합니다. 경로가 절대 경로가 아니면 루트 프로젝트 디렉터리에 상대적으로 .resource 파일이 생성됩니다.|  
 |`ResourcesFiles`|필수 **ITaskItem[]** 매개 변수입니다.<br /><br /> 생성된 .resources 파일에 포함할 하나 이상의 리소스를 지정합니다.|  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 단일 .bmp 리소스로 .resources 파일을 생성합니다. .bmp 리소스는 프로젝트 루트 디렉터리에 상대적인 디렉터리에 생성됩니다.  
   
 ```  

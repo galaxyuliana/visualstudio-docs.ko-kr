@@ -94,17 +94,16 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3c660138437d9b08d49f9cf0c212e7b3612e9215
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 97edc5419cb552f853a75817564a69dd175ec54b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869870"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666067"
 ---
 # <a name="resources-for-troubleshooting-integrated-development-environment-errors"></a>통합 개발 환경 오류를 해결하기 위한 리소스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 일부 오류 메시지에만 특정 관련된 도움말 항목이 포함됩니다. 오류 메시지의 정보가 문제를 해결하는 데 도움이 되지 않는 경우 기술 자료 문서, 개발자 커뮤니티 또는 제품 지원과 같은 다른 리소스를 참조할 수 있습니다.  
   
 ## <a name="knowledge-base-articles"></a>기술 자료 문서  

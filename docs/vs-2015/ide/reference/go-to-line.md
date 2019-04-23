@@ -14,17 +14,16 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 324af42596017ebe474994e590ff48a19b8f0aaf
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d047980a6d0b33dbe74182eec23b55aa4487799e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54768869"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664572"
 ---
 # <a name="go-to-line"></a>줄 이동
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 대화 상자를 사용하면 활성 문서의 특정 줄로 이동할 수 있습니다. 이 대화 상자에 액세스하려면 편집할 문서를 연 후 **편집** 메뉴에서 **이동**을 선택합니다.  
   
  줄 번호(1 - `n`)  

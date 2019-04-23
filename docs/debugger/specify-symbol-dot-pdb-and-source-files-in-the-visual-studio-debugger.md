@@ -28,14 +28,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a9997601d906ac3be7c3eaf789a0d31e19dae613
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 32c96bf9e206a70f5de38459460d8bdcaee571cc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681714"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666561"
 ---
-# <a name="specify-symbol-pdb-and-source-files-in-the-visual-studio-debugger-c-c-visual-basic-f"></a>Visual Studio 디버거에서 기호 (.pdb) 및 원본 파일 지정 (C#, c + +, Visual Basic의 경우 F#)
+# <a name="specify-symbol-pdb-and-source-files-in-the-visual-studio-debugger-c-c-visual-basic-f"></a>Visual Studio 디버거에서 기호 (.pdb) 및 원본 파일 지정 (C#, C++, Visual Basic의 경우 F#)
 
 프로그램 데이터베이스 (*.pdb*) 기호 파일이 라고도 하는 파일을이 식별자에 매핑하고 해당 식별자에 프로젝트의 소스 코드에서 문 및 지침에 컴파일된 앱.
 
@@ -78,9 +78,9 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
 
      **공용 Microsoft 기호 서버**: 시스템 DLL 이나 타사 라이브러리를 호출 하는 동안 발생 하는 충돌을 디버깅 하려면 해야 시스템 *.pdb* 파일입니다. 시스템 *.pdb* Windows Dll에 대 한 기호를 포함 하는 파일 *.exe* 파일 및 장치 드라이버입니다. Windows 운영 체제, MDAC, IIS, ISA, 기호를 가져올 수 있습니다 및 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 공용 Microsoft 기호 서버에서.
 
-     **기호 서버에 내부 네트워크 또는 로컬 컴퓨터에**: 팀 또는 회사 외부 원본에서 귀하의 제품 및 기호에 대 한 캐시로 기호 서버를 만들 수 있습니다. 기호 서버가 사용자의 컴퓨터에 있을 수도 있습니다.
+     **내부 네트워크 또는 로컬 머신의 기호 서버**: 팀이나 회사는 사용자 고유 제품에 사용하기 위해서나 외부 소스의 기호에 대한 캐시로 기호 서버를 만들 수 있습니다. 기호 서버가 사용자의 컴퓨터에 있을 수도 있습니다.
 
-     **타사 기호 서버**: Windows 응용 프로그램 및 라이브러리의 타사 공급자를 인터넷에 기호 서버에 대 한 액세스를 제공할 수 있습니다.
+     **타사 기호 서버**: Windows 애플리케이션 및 라이브러리의 타사 공급자는 인터넷에 있는 기호 서버에 대한 액세스를 제공할 수 있습니다.
 
      > [!WARNING]
      > 공용 Microsoft 기호 서버 이외의 기호 서버를 사용 하는 경우 해당 경로 및 기호 서버를 신뢰할 수 있는지 확인 합니다. 기호 파일에서 임의의 실행 코드를 포함할 수 있으므로 보안 위협에 노출 될 수 있습니다.
@@ -124,7 +124,7 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
    > 로컬 기호 캐시 C:\Windows 또는 하위 폴더와 같은 보호 된 폴더에 배치 하지 마십시오. 대신 읽기/쓰기 폴더를 사용하십시오.
 
    > [!NOTE]
-   > C + + 프로젝트에 있는 경우에 `_NT_SYMBOL_PATH` 환경 변수 설정에서 설정 값을 재정의 합니다 **이 디렉터리의 기호 캐시**합니다.
+   > 에 대 한 C++ 프로젝트에 있는 경우는 `_NT_SYMBOL_PATH` 환경 변수 설정에서 설정 값을 재정의 합니다 **이 디렉터리의 기호 캐시**합니다.
 
 4. 디버거에서 로드를 원하는 모듈을 지정 합니다 **기호 파일 (.pdb) 위치** 시작 되 면 합니다.
 
@@ -140,7 +140,7 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
 
 - **dll 내보내기 로드(네이티브 전용)**
 
-  DLL 내보내기 테이블이 로드 C/c + +에 대 한 합니다. 자세한 내용은 참조 하세요 [DLL 내보내기 테이블이](#use-dumpbin-exports)합니다. DLL 내보내기 정보를 읽으면 일부 오버를 헤드가, 기본적으로 해제 되어 내보내기 테이블을 로드 하도록 합니다. 사용할 수도 있습니다 `dumpbin /exports` C/c + + 빌드 명령줄에서.
+  DLL 내보내기 테이블이 로드 c /C++입니다. 자세한 내용은 참조 하세요 [DLL 내보내기 테이블이](#use-dumpbin-exports)합니다. DLL 내보내기 정보를 읽으면 일부 오버를 헤드가, 기본적으로 해제 되어 내보내기 테이블을 로드 하도록 합니다. 사용할 수도 있습니다 `dumpbin /exports` c에서 /C++ 빌드 명령줄입니다.
 
 - **주소 수준 디버깅 사용** 고 **소스를 사용할 수 없는 경우 디스어셈블리 표시**
 
@@ -155,7 +155,7 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
   명령을 제한할 수 있는 *srcsrv.dll* 앱에서 실행할 수 있습니다 *.pdb* 라는 파일에 허용 되는 명령의 나열 하 여 파일 *srcsrv.ini*합니다. 위치는 *srcsrv.ini* 와 같은 폴더에 파일 *srcsrv.dll* 하 고 *devenv.exe*합니다.
 
   >[!IMPORTANT]
-  >임의의 명령이 응용 프로그램에 포함할 수 있습니다 *.pdb* 파일을 실행 하려는 명령만 해야를 *srcsrv.ini* 파일입니다. *srcsvr.ini* 파일에 포함되지 않은 명령을 실행하려고 하면 확인 대화 상자가 나타납니다. 자세한 내용은 [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md)을 참조하세요.
+  >임의의 명령이 응용 프로그램에 포함할 수 있습니다 *.pdb* 파일을 실행 하려는 명령만 해야를 *srcsrv.ini* 파일입니다. *srcsvr.ini* 파일에 포함되지 않은 명령을 실행하려고 하면 확인 대화 상자가 나타납니다. 자세한 내용은 참조 하세요. [보안 경고: 디버거가 신뢰할 수 없는 명령을 실행해야 합니다](../debugger/security-warning-debugger-must-execute-untrusted-command.md).
   >
   >명령 매개 변수에 대해서는 유효성 검사를 수행하지 않으므로 신뢰되는 명령에 대해 주의를 기울여야 합니다. 예를 들어 사용자 나열 *cmd.exe* 에 사용자 *srcsrv.ini*, 악의적인 사용자에 매개 변수를 지정할 수 *cmd.exe* 는 위험 하 게 만드는 것입니다.
 
@@ -165,19 +165,19 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
 
 ## <a name="compiler-symbol-options"></a>컴파일러 기호 옵션
 
-표준 Visual Studio IDE에서 프로젝트를 빌드하면 **디버그** 빌드 구성, c + + 및 관리 되는 컴파일러 코드에 대 한 적절 한 기호 파일을 만듭니다. 또한 코드에서 컴파일러 옵션을 설정할 수 있습니다.
+표준 Visual Studio IDE에서 프로젝트를 빌드하면 **디버그** 빌드 구성에는 C++ 관리 되는 컴파일러 코드에 대 한 적절 한 기호 파일을 만듭니다. 또한 코드에서 컴파일러 옵션을 설정할 수 있습니다.
 
 ### <a name="cc-options"></a>C/C++ 옵션
 
 - *VC\<x >.pdb* 하 고  *\<프로젝트 >.pdb* 파일
 
-  A *.pdb* 파일에 C/c + +로 빌드할 때 만들어집니다 [/ZI 또는 /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format)합니다. [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], [/Fd](/cpp/build/reference/fd-program-database-file-name) 이름 옵션은 *.pdb* 파일 컴파일러를 만듭니다. 프로젝트를 만들면 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE를 사용 하 여는 **/Fd** create로 설정 된 옵션을 *.pdb* 라는 파일  *\<프로젝트 >.pdb*합니다.
+  A *.pdb* C에 대 한 파일 /C++ 사용 하 여 빌드할 때 만들어집니다 [/ZI 또는 /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format)합니다. [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], [/Fd](/cpp/build/reference/fd-program-database-file-name) 이름 옵션은 *.pdb* 파일 컴파일러를 만듭니다. 프로젝트를 만들면 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE를 사용 하 여는 **/Fd** create로 설정 된 옵션을 *.pdb* 라는 파일  *\<프로젝트 >.pdb*합니다.
 
-  메이크파일을 사용 하 여 C/c + + 응용 프로그램을 빌드할 경우 지정할 **/ZI** 또는 **/Zi** 사용 하지 않고 **/Fd**, 컴파일러는 두 개 만듭니다 *.pdb*파일:
+  C 프로그램을 작성 하는 경우 /C++ 응용 프로그램을 사용 하는 메이크파일 지정할 **/ZI** 또는 **/Zi** 사용 하지 않고 **/Fd**, 컴파일러는 두 개 만듭니다 *.pdb* 파일:
 
   - *VC\<x>.pdb* 여기서 *\<x>* 는 Visual C++의 버전을 나타냅니다(예: *VC11.pdb*).
 
-    합니다 *VC\<x >.pdb* 파일 개별 개체 파일에 대 한 모든 디버깅 정보를 저장 하 고, 프로젝트 메이크파일과 동일한 디렉터리에 상주 합니다. 각 시간 개체 파일을 만들면, C/c + + 컴파일러에 디버그 정보를 병합 *VC\<x >.pdb*합니다. 와 같은 공통 헤더 파일은 모든 소스 파일에 포함 하는 경우에  *\<windows.h >*, 해당 헤더의 typedef는 모든 개체 파일 보다는 한 번만 저장 됩니다. 삽입되는 정보에는 유형 정보가 포함되지만 함수 정의와 같은 기호 정보는 포함되지 않습니다.
+    합니다 *VC\<x >.pdb* 파일 개별 개체 파일에 대 한 모든 디버깅 정보를 저장 하 고, 프로젝트 메이크파일과 동일한 디렉터리에 상주 합니다. 때마다 C 개체 파일을 생성 /C++ 컴파일러에 디버그 정보를 병합 *VC\<x >.pdb*합니다. 와 같은 공통 헤더 파일은 모든 소스 파일에 포함 하는 경우에  *\<windows.h >*, 해당 헤더의 typedef는 모든 개체 파일 보다는 한 번만 저장 됩니다. 삽입되는 정보에는 유형 정보가 포함되지만 함수 정의와 같은 기호 정보는 포함되지 않습니다.
 
   - *\<project>.pdb*
 
@@ -193,7 +193,7 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
 
 ### <a name="net-framework-options"></a>.NET Framework 옵션
 
-구축 **/debug** 만들려는 *.pdb* 파일입니다. **/debug:full** 또는 **/debug:pdbonly**를 사용하여 애플리케이션을 빌드할 수 있습니다. **/debug:full** 을 사용하여 빌드하면 디버깅 가능한 코드가 생성됩니다. **/debug:pdbonly**를 사용하여 빌드하면 *.pdb* 파일이 생성되지만 디버그 정보를 사용할 수 있다는 사실을 JIT 컴파일러에 알리는 `DebuggableAttribute`는 생성되지 않습니다. 디버깅할 수 없도록 하려는 릴리스 빌드에 대해 *.pdb* 파일을 생성하려면 **/debug:pdbonly**를 사용합니다. 자세한 내용은 [/debug(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option) 또는 [/debug (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/debug)를 참조하세요.
+구축 **/debug** 만들려는 *.pdb* 파일입니다. **/debug:full** 또는 **/debug:pdbonly**를 사용하여 응용 프로그램을 빌드할 수 있습니다. **/debug:full** 을 사용하여 빌드하면 디버깅 가능한 코드가 생성됩니다. **/debug:pdbonly**를 사용하여 빌드하면 *.pdb* 파일이 생성되지만 디버그 정보를 사용할 수 있다는 사실을 JIT 컴파일러에 알리는 `DebuggableAttribute`는 생성되지 않습니다. 디버깅할 수 없도록 하려는 릴리스 빌드에 대해 *.pdb* 파일을 생성하려면 **/debug:pdbonly**를 사용합니다. 자세한 내용은 [/debug(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option) 또는 [/debug (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/debug)를 참조하세요.
 
 ### <a name="web-applications"></a>웹 애플리케이션
 
@@ -260,8 +260,7 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
 
 1. 선택 **확인** 하거나 **적용**합니다.
 
-
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [기호 파일 및 Visual Studio 기호 설정 이해](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/)
 
 - [Visual Studio 2012 및 2013의 .NET 원격 기호 로드 변경 내용](https://devblogs.microsoft.com/devops/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013/)

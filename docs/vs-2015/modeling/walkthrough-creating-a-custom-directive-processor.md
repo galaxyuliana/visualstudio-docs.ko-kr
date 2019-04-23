@@ -12,12 +12,12 @@ caps.latest.revision: 76
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e10c489ee8bd14599220429c9d74821986f8b915
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 665c59e6881ec2e5924845dfc8dcc130b5044095
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985903"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663390"
 ---
 # <a name="walkthrough-creating-a-custom-directive-processor"></a>연습: 사용자 지정 지시문 프로세서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -659,7 +659,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 
     레지스트리 키의 값은 다음과 같습니다.  
 
-
    |   이름    |  형식  |                                   데이터                                   |
    |-----------|--------|--------------------------------------------------------------------------|
    | (기본값) | REG_SZ |                             (값 설정 안 됨)                              |
@@ -668,13 +667,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 
     GAC에 어셈블리를 배치한 경우 값은 다음과 같습니다.  
 
-
    |   이름    |  형식  |               데이터                |
    |-----------|--------|-----------------------------------|
    | (기본값) | REG_SZ |          (값 설정 안 됨)          |
    |   클래스   | REG_SZ | CustomDP.CustomDirectiveProcessor |
    | Assembly  | REG_SZ |           CustomDP.dll            |
-
 
 6. Visual Studio를 다시 시작합니다.  
 

@@ -21,17 +21,16 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c21c14b8c84246545d9ffb3e3dc59210b56fe84e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 05290bed3fe51c69e29d8bafef927c91c63b5249
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54777154"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667263"
 ---
 # <a name="bscmake-task"></a>BscMake 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 중요]
 >  bscmake는 더 이상 Visual Studio IDE에서 사용되지 않습니다. Visual Studio 2008부터 찾아보기 정보는 솔루션 폴더의 .sdf 파일에 자동으로 저장됩니다.  
   
@@ -49,7 +48,7 @@ ms.locfileid: "54777154"
 |**SuppressStartupBanner**|선택적 **Boolean** 매개 변수입니다.<br /><br /> `true`인 경우 작업을 시작할 때 저작권과 버전 번호 메시지가 표시되지 않도록 합니다.<br /><br /> 자세한 내용은 [BSCMAKE 옵션](http://msdn.microsoft.com/library/fa2f1e06-c684-41cf-80dd-6a554835ebd2)의 **/NOLOGO** 옵션을 참조하세요.|  
 |**TrackerLogDirectory**|선택적 **문자열** 매개 변수입니다.<br /><br /> 추적기 로그용 디렉터리를 지정합니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)

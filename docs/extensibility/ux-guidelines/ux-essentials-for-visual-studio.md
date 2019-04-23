@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f7be75a00925fbd3220934d50432f625c66fee9d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 063818aa828305eedfc184231f2dc4de4eec981c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56723502"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667457"
 ---
 # <a name="ux-essentials-for-visual-studio"></a>UX Essentials for Visual Studio
 ## <a name="best-practices"></a>최선의 방법
@@ -102,7 +102,6 @@ ms.locfileid: "56723502"
 
 #### <a name="example-video-links-in-team-explorer"></a>팀 탐색기의 예: 비디오 링크
 UI를 해제 하기 전에 설명 텍스트를 읽을 수 있습니다를 강제는 Visual Studio 내에서 안티 패턴입니다. 올바르게 설계 된, 비디오 링크가 가리키기 및 클릭에 추가 정보와 함께 도구 설명이 표시 되는 "&times;" 사용자가 개입할 필요 없이 메시지를 해제 해야 합니다.
-
 
  ![앤티 설명 텍스트&#45;패턴 &#45; 잘못](../../extensibility/ux-guidelines/media/incorrectuseofmultipleclicks.png "Incorrectuseofmultipleclicks")<br />잘못 된 비디오 링크가 패턴
 

@@ -9,17 +9,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d4f759b947344298eca36c3fd99d024f7fcde2c9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 34eedf61afd79570ca1e4ba471efa9802aae7bfa
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984302"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664127"
 ---
 # <a name="formatting-xml-text-editor-options-dialog-box"></a>서식 지정, XML, 텍스트 편집기, 옵션 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 대화 상자에서는 XML 편집기에 대한 서식 설정을 지정할 수 있습니다. 액세스할 수 있습니다 합니다 **옵션** 대화 상자를 **도구** 메뉴.  
   
 > [!NOTE]

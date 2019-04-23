@@ -23,17 +23,16 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: cb1bdb99db405962f487bc9ec13de961f352ec48
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 7c2dce31d5d2d2564c4a277b479dbf1e463b4632
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982230"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666138"
 ---
 # <a name="bind-controls-to-pictures-from-a-database"></a>데이터베이스의 그림에 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 사용할 수는 **데이터 원본** 창 응용 프로그램에서 컨트롤을 데이터베이스에 이미지를 바인딩할 수 있습니다. 예를 들어 이미지를 바인딩할 수 있습니다는 <xref:System.Windows.Controls.Image> WPF 응용 프로그램에서 또는 컨트롤을 <xref:System.Windows.Forms.PictureBox> Windows Forms 응용 프로그램에서 제어 합니다.  
   
  데이터베이스의 그림은 일반적으로 바이트 배열로 저장 됩니다. 항목의 **데이터 원본** 바이트 배열이 있으면 입력 제어 저장 되는 창으로 설정 **None** 기본적으로 바이트 배열을 간단한 실행 파일에는 바이트 배열에서 아무 것도 포함 될 수 있으므로 대규모 응용 프로그램입니다. 바이트 배열 항목에 대 한 데이터 바인딩된 컨트롤을 만드는 합니다 **데이터 원본** 이미지를 나타내는 창을 만드는 컨트롤을 선택 해야 합니다.  

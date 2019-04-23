@@ -19,17 +19,16 @@ caps.latest.revision: 29
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9f535c1d79b1a37a5a25ff3e6f6d424eb4bc631d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 830d2d7d077b65e205536e1b10579fe64633b21a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54801429"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664999"
 ---
 # <a name="resolvecomreference-task"></a>ResolveComReference 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 하나 이상의 형식 라이브러리 이름 또는 .tlb 파일 목록을 가져온 후 해당 형식 라이브러리를 디스크의 위치로 확인합니다.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -47,15 +46,15 @@ ms.locfileid: "54801429"
 |`ResolvedAssemblyReferences`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 확인된 어셈블리 참조를 지정합니다.|  
 |`ResolvedFiles`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 디스크에서 이 작업에 대한 입력으로 제공된 형식 라이브러리의 물리적 위치에 해당하는 정규화된 파일을 지정합니다.|  
 |`ResolvedModules`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.|  
-|`SdkToolsPath`|선택적 [문자열](<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> `ExecuteAsTool`이 `true`인 경우 이 매개 변수를 대상이 되는 프레임워크 버전의 SDK 도구 경로로 설정해야 합니다.|  
-|`StateFile`|선택적 <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> COM 구성 요소 타임스탬프에 대한 캐시 파일을 지정합니다. 이 매개 변수가 없으면 실행할 때마다 모든 래퍼가 다시 생성됩니다.|  
-|`TargetFrameworkVersion`|선택적 <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 프로젝트 대상 프레임워크 버전을 지정합니다.<br /><br /> 기본값은 `String.Empty`입니다. 대상 프레임워크를 기반으로 하는 참조에 대한 필터링이 없음을 의미합니다.|  
-|`TargetProcessorArchitecture`|선택적 <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 기본 대상 프로세서 아키텍처를 지정합니다. 변환 후에 tlbimp.exe /machine 플래그에 전달됩니다.<br /><br /> 매개 변수 값은 <xref:Microsoft.Build.Utilities.ProcessorArchitecture>의 멤버여야 합니다.|  
+|`SdkToolsPath`|선택적 [String] (<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> `ExecuteAsTool`이 `true`인 경우 이 매개 변수를 대상이 되는 프레임워크 버전의 SDK 도구 경로로 설정해야 합니다.|  
+|`StateFile`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> COM 구성 요소 타임스탬프에 대한 캐시 파일을 지정합니다. 이 매개 변수가 없으면 실행할 때마다 모든 래퍼가 다시 생성됩니다.|  
+|`TargetFrameworkVersion`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> 프로젝트 대상 프레임워크 버전을 지정합니다.<br /><br /> 기본값은 `String.Empty`입니다. 대상 프레임워크를 기반으로 하는 참조에 대한 필터링이 없음을 의미합니다.|  
+|`TargetProcessorArchitecture`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> 기본 대상 프로세서 아키텍처를 지정합니다. 변환 후에 tlbimp.exe /machine 플래그에 전달됩니다.<br /><br /> 매개 변수 값은 <xref:Microsoft.Build.Utilities.ProcessorArchitecture>의 멤버여야 합니다.|  
 |`TypeLibFiles`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> COM 참조에 대한 형식 라이브러리 파일 경로를 지정합니다. 이 매개 변수에 포함된 항목에는 항목 메타데이터가 포함될 수 있습니다. 자세한 내용은 아래 “TypeLibFiles 항목 메타데이터” 섹션을 참조하세요.|  
 |`TypeLibNames`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 확인할 형식 라이브러리 이름을 지정합니다. 이 매개 변수에 포함된 항목에는 일부 항목 메타데이터가 포함되어야 합니다. 자세한 내용은 아래 “TypeLibNames 항목 메타데이터” 섹션을 참조하세요.|  
 |`WrapperOutputDirectory`|선택적 `String` 매개 변수입니다.<br /><br /> 생성된 interop 어셈블리를 배치할 디스크의 위치입니다. 이 항목 메타데이터를 지정하지 않으면 작업은 프로젝트 파일이 있는 디렉터리의 절대 경로를 사용합니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
 ## <a name="typelibnames-item-metadata"></a>TypeLibNames 항목 메타데이터  
  다음 표에서는 `TypeLibNames` 매개 변수에 전달된 항목에 사용 가능한 항목 메타데이터를 설명합니다.  
@@ -78,7 +77,7 @@ ms.locfileid: "54801429"
 > [!NOTE]
 >  형식 라이브러리를 고유하게 식별하기 위해 더 많은 정보를 제공할수록 작업이 디스크에서 올바른 파일로 확인될 가능성이 커집니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [Task 기본 클래스](../msbuild/task-base-class.md)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  

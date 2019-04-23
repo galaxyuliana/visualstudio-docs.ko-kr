@@ -13,22 +13,21 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 17cfc810bbe8cfa303620b19c49941ba9085a849
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 10ce4bd59567d7d055dd107dd05358d994d22c36
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54779361"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662562"
 ---
 # <a name="visual-studio-commands"></a>Visual Studio 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
-
 
 Visual Studio에서는 **명령** 창, **직접 실행** 창 또는 **찾기/명령** 상자에서 명령을 호출할 수 있습니다. 각각의 경우 검색 또는 디버그 작업이 아닌 명령을 따라야 함을 나타내기 위해 보다 큼 부호(`>`)가 사용됩니다.
 
  **키보드, 환경 옵션** 대화 상자에서 명령 및 구문의 전체 목록을 찾을 수 있습니다.
 
- Visual Studio 명령의 이스케이프 문자는 캐럿(^) 문자입니다. 이는 바로 다음 문자가 제어 문자가 아닌 문자 그대로 해석된다는 것을 의미합니다. 이스케이프 문자는 매개 변수 또는 스위치 값에 곧은 큰따옴표("), 공백, 선행 슬래시, 캐럿 등 또는 리터럴 문자를 포함하기 위해 사용할 수 있습니다(스위치 이름 제외). 예를 들어 개체에 적용된
+ Visual Studio 명령의 이스케이프 문자는 캐럿(^) 문자입니다. 이는 바로 다음 문자가 제어 문자가 아닌 문자 그대로 해석된다는 것을 의미합니다. 이스케이프 문자는 매개 변수 또는 스위치 값에 곧은 큰따옴표("), 공백, 선행 슬래시, 캐럿 등 또는 리터럴 문자를 포함하기 위해 사용할 수 있습니다(스위치 이름 제외). 예를 들면 다음과 같습니다.
 
 ```
 >Edit.Find ^^t /regex

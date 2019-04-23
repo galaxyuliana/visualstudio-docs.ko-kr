@@ -9,17 +9,16 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 05acf62d30a1ac272003c0883b4a8c927e13e659
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: a57f94758d4289981740ed9c1a8a463a8a97887d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984651"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661596"
 ---
 # <a name="datacontext-methods-or-designer"></a>DataContext 메서드(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 DataContext] (assetId:///T:System.Data.Linq.DataContext?qualifyHint=False & autoUpgrade = True) 메서드 (의 컨텍스트에서 [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md))의 메서드는는 <xref:System.Data.Linq.DataContext> 저장를 실행 하는 클래스 프로시저 및 데이터베이스에는 함수입니다.  
   
  <xref:System.Data.Linq.DataContext> 클래스는 SQL Server 데이터베이스와 해당 데이터베이스에 매핑되는 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 엔터티 클래스 간의 연결 통로 역할을 하는 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 클래스입니다. <xref:System.Data.Linq.DataContext> 클래스에 연결 문자열 정보 및 데이터베이스에 연결 하 고 데이터베이스에서 데이터를 조작 하기 위한 메서드가 포함 되어 있습니다. 기본적으로 <xref:System.Data.Linq.DataContext> 같은 호출할 수 있는 여러 메서드를 포함 하는 클래스를 <xref:System.Data.Linq.DataContext.SubmitChanges%2A> 업데이트 된 데이터를 전송 하는 메서드 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 데이터베이스로 클래스. 또한 저장 프로시저 및 함수에 매핑되는 <xref:System.Data.Linq.DataContext> 메서드를 추가로 만들 수 있습니다. 즉 이러한 사용자 지정 메서드를 호출하면 <xref:System.Data.Linq.DataContext> 메서드가 매핑되는 데이터베이스의 저장 프로시저 또는 함수가 실행됩니다. 클래스를 확장하는 메서드를 추가하는 것처럼 <xref:System.Data.Linq.DataContext> 클래스에 새 메서드를 추가할 수 있습니다. 그러나에 대 한 토론에 <xref:System.Data.Linq.DataContext> 컨텍스트에서 메서드를 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], 것을 <xref:System.Data.Linq.DataContext> 논의 중인 해당 저장된 프로시저 및 함수에 매핑되는 메서드.  

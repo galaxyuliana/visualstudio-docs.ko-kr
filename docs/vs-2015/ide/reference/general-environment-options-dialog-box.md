@@ -27,17 +27,16 @@ caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5db2476f16010f61af23c460fdd2bc78066c0e4a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 93e60448ec2820758ac7f5a6a5f7b6c4b0065500
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57868129"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667198"
 ---
 # <a name="general-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 일반
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 페이지에서는 IDE(통합 개발 환경)에 대한 다른 옵션 중에서도 색 테마, 상태 표시줄 설정 및 파일 확장명 연결을 변경할 수 있습니다. **도구** 메뉴를 열고 **옵션**을 선택한 다음 **환경** 폴더를 열고 **일반** 페이지를 선택하여 **옵션** 대화 상자에 액세스할 수 있습니다. 이 페이지가 목록에 나타나지 않으면 **옵션** 대화 상자에서 **모든 설정 표시** 확인란을 선택합니다.  
   
 > [!NOTE]

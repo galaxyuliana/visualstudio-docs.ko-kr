@@ -13,17 +13,16 @@ caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: eca5fc85f4a1bcd26c2c4c73ec39fbe855f77add
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 9dd6c297e00a305fbd1b13cf0fe0bd4a4f151f6b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54769372"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665469"
 ---
 # <a name="item-metadata-in-target-batching"></a>대상 일괄 처리의 항목 메타데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에는 빌드 대상의 입력 및 출력에 대한 종속성 분석을 수행하는 기능이 있습니다. 대상의 입력 또는 출력이 최신 상태인지를 확인한 경우 대상을 건너뛰고 빌드를 계속합니다. `Target` 요소는 `Inputs` 및 `Outputs` 특성을 사용하여 종속성을 분석하는 동안 검사할 항목을 지정합니다.  
   
  대상이 일괄 처리 항목을 사용하는 작업을 입력 또는 출력으로 포함하는 경우 대상의 `Target` 요소는 해당 `Inputs` 또는 `Outputs` 특성에서 일괄 처리를 사용하여 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]가 이미 최신 상태인 항목의 일괄 처리를 건너뛰도록 해야 합니다.  

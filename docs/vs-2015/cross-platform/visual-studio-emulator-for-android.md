@@ -8,18 +8,17 @@ ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
 caps.latest.revision: 7
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: ec7e6d3ee6d27c444d0904e750293a3d82c3ab4a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 1b14283127aa4a3488c258f1101a43a4d6208df5
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54789857"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664265"
 ---
 # <a name="visual-studio-emulator-for-android"></a>Android용 Visual Studio 에뮬레이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
-Android용 Visual Studio 에뮬레이터는 Android 장치를 에뮬레이트하는 데스크톱 애플리케이션입니다. 물리적 디바이스를 사용하지 않고도 Android 앱을 디버그하고 테스트할 수 있는 가상화된 환경을 제공합니다. 또한 애플리케이션 프로토타입을 위한 격리된 환경을 제공합니다.  
+Android용 Visual Studio 에뮬레이터는 Android 디바이스를 에뮬레이트하는 데스크톱 응용 프로그램입니다. 물리적 디바이스를 사용하지 않고도 Android 앱을 디버그하고 테스트할 수 있는 가상화된 환경을 제공합니다. 또한 애플리케이션 프로토타입을 위한 격리된 환경을 제공합니다.  
   
  Android용 Visual Studio 에뮬레이터는 실제 디바이스와 비슷한 성능을 제공하도록 설계되었습니다. 하지만 앱을 게시하기 전에 물리적 디바이스에서 앱을 테스트하는 것이 좋습니다.  
   

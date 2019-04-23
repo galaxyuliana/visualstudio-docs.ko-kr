@@ -13,17 +13,16 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fd113acc6c79a6e8307969cbb3ed71705b739a19
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 87f8f60985f9dfe8629cfd96bcffc9926b8a56e1
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54762233"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662012"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a>장애인을 위한 내게 필요한 옵션
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽게 만들기 위해 최선을 다하고 있습니다. 다음 항목에서는 장애가 있는 사용자가 Microsoft [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]을(를) 좀 더 쉽게 이용할 수 있도록 돕는 기능, 제품 및 서비스에 대해 다룹니다.  
   
 -   [Visual Studio의 접근성 기능](../../ide/reference/accessibility-features-of-visual-studio.md)  

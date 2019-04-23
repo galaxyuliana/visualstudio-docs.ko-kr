@@ -9,17 +9,16 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9a7bf4918779fa3c15a21b32432f46dec18564af
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 8faed52971bacdcd08fb8d8769d5b49bd9bf90bf
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982086"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662727"
 ---
 # <a name="sorting-filtering-and-grouping-xml-schema-explorer"></a>정렬, 필터링 및 그룹화(XML 스키마 탐색기)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 통해 사용할 수 있는 옵션에 설명 합니다 **정렬, 필터링 및 그룹화 옵션** XML 스키마 탐색기 도구 모음에서 메뉴.  
   
 ## <a name="filter-options"></a>필터 옵션  

@@ -13,17 +13,16 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9d05e1fd9afa2097a3e216421b5b0f3d23bfc518
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 616a46b4d8349bd2c385fda0dd36e6dc69fa60af
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54778778"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663874"
 ---
 # <a name="assembly-information-dialog-box"></a>어셈블리 정보 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **어셈블리 정보** 대화 상자는 프로젝트에서 자동으로 만들어진 AssemblyInfo 파일에 저장된 [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] 전역 어셈블리 특성의 값을 지정하는 데 사용됩니다. **솔루션 탐색기**에서 파일은 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)]의 **내 프로젝트** 노드에 있고(파일을 보려면 **모든 파일 표시** 클릭). [!INCLUDE[csprcs](../../includes/csprcs-md.md)]의 **속성** 아래에 있습니다. 어셈블리 특성에 대한 자세한 내용은 [특성(C# 및 Visual Basic)](http://msdn.microsoft.com/library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)을 참조하세요.  
   
  이 대화 상자에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택한 다음 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너**가 나타나면 **애플리케이션** 탭을 클릭합니다. **애플리케이션** 페이지에서 **어셈블리 정보** 단추를 클릭합니다.  

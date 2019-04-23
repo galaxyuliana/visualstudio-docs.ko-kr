@@ -24,17 +24,16 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 55452897212c0ce28ec44aa107de44b29ed9f80b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: e2839cf3fdd780ffbf2c3cfb50e086996cfc865e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983006"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663299"
 ---
 # <a name="hierarchical-update"></a>계층적 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 계층적 업데이트 * 무결성 규칙을 유지 하면서 데이터베이스에 다시 (둘 이상의 관련된 테이블을 사용 하 여 데이터 집합)에서 업데이트 된 데이터를 저장 하는 프로세스를 말합니다. *참조 무결성* 삽입, 업데이트 및 삭제 관련된 레코드의 동작을 제어 하는 데이터베이스에서 제약 조건에 의해 제공 되는 일관성 규칙을 가리킵니다. 예를 들어 참조 무결성 적용 해당 고객에 대 한 주문을 만들 수 있도록 허용 하기 전에 고객 레코드를 생성 하는 것입니다.  데이터 집합의 관계에 대 한 자세한 내용은 참조 하세요. [데이터 집합의 관계](../data-tools/relationships-in-datasets.md)  
   
  계층적 업데이트 기능을 사용 하는 `TableAdapterManager` 관리 하는 `TableAdapter`형식화 된 데이터 집합의 합니다. `TableAdapterManager` 구성 요소는를 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]-않으므로 생성 된 클래스에 부분을 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]입니다. Windows Form 또는 WPF 페이지에 데이터 소스 창에서 테이블을 끌어 Visual Studio의 폼 이나 페이지에서 TableAdapterManager 형식의 변수를 추가 하 고 구성 요소 트레이에 디자이너에 표시 합니다. 에 대 한 자세한 내용은 합니다 `TableAdapterManager` 클래스의 TableAdapterManager 참조 섹션을 참조 하십시오 [TableAdapterManager 개요](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)합니다.  
