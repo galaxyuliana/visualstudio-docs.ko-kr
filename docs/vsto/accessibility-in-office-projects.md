@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e35819371a751aa8047adbacd77f55ea257831a1
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a54c9d5322b35092d635edd00e3b200ee67997a9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55944977"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070045"
 ---
 # <a name="accessibility-in-office-projects"></a>Office 프로젝트의 내게 필요한 옵션
 
@@ -40,21 +40,21 @@ Microsoft Visual Studio 및 Microsoft Office 표준 접근성 요구 사항을 �
 
 #### <a name="to-view-shortcut-keys-for-ribbon-tabs-and-controls-in-the-designer"></a>디자이너에서 리본 탭과 컨트롤에 대 한 바로 가기 키를 보려면
 
-1.  Visual Studio에서에 **도구** 메뉴에서 클릭 **옵션**합니다.
+1. Visual Studio에서에 **도구** 메뉴에서 클릭 **옵션**합니다.
 
-2.  확장을 **Office 도구** 노드를 선택한 **Microsoft Office Excel 키보드** 하거나 **Microsoft Office Word 키보드**를 적절 하 게 합니다.
+2. 확장을 **Office 도구** 노드를 선택한 **Microsoft Office Excel 키보드** 하거나 **Microsoft Office Word 키보드**를 적절 하 게 합니다.
 
-3.  선택 **동적 키보드 구성표**합니다.
+3. 선택 **동적 키보드 구성표**합니다.
 
      상태 적용 하려면 변경에 대 한 Visual Studio를 다시 시작 해야 하는 메시지가 나타납니다.
 
-4.  **확인**을 클릭합니다.
+4. **확인**을 클릭합니다.
 
-5.  Visual Studio를 다시 시작 하 고 프로젝트를 다시 엽니다.
+5. Visual Studio를 다시 시작 하 고 프로젝트를 다시 엽니다.
 
-6.  프로젝트의 문서나 통합 문서 디자이너를 엽니다.
+6. 프로젝트의 문서나 통합 문서 디자이너를 엽니다.
 
-7.  키를 눌러 **F6** 리본 메뉴에 대 한 바로 가기 키를 표시 합니다.
+7. 키를 눌러 **F6** 리본 메뉴에 대 한 바로 가기 키를 표시 합니다.
 
 ## <a name="accessibility-at-runtime"></a>런타임 시 내게 필요한 옵션
 

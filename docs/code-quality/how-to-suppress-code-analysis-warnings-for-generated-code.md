@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c0bc46684d94470bb5e12cbdbecb5538ceb89606
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c2d58ea5d23ed8b302b6ec2a0352f23b0eeeff66
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936079"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066522"
 ---
 # <a name="how-to-suppress-code-analysis-warnings-for-generated-code"></a>방법: 생성된 코드에 대한 코드 분석 경고 표시 안 함
 관리 되는 코드 컴파일러는 종종 코드를 빠르게 개발할 수 있도록 프로젝트에 추가 되는 코드를 생성 합니다. 또한 개발자는 종종 응용 프로그램을 신속 하 게 개발 하는 데 타사 도구를 사용 합니다. 이러한 도구는 또한 프로젝트에 추가 되는 코드를 생성 합니다.
@@ -27,8 +27,8 @@ ms.locfileid: "55936079"
 
 ### <a name="to-suppress-warnings-for-generated-code-in-a-project"></a>프로젝트에서 생성 된 코드에 대 한 경고를 표시 하지 않으려면
 
-1.  솔루션 탐색기에서 프로젝트를 마우스 오른쪽 단추로 누른 **속성**합니다.
+1. 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 단추로 누른 **속성**합니다.
 
-2.  클릭 **코드 분석**합니다.
+2. 클릭 **코드 분석**합니다.
 
-3.  선택 된 **생성 된 코드 결과 표시 안 함** 확인란 합니다.
+3. 선택 된 **생성 된 코드 결과 표시 안 함** 확인란 합니다.

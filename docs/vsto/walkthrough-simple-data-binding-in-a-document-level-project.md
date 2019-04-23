@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3b6a23609f096f28d63afc952c069ef6e280f132
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f3b573842aee5f00f161213cf3e01dfcc4c8ba93
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640271"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066651"
 ---
 # <a name="walkthrough-simple-data-binding-in-a-document-level-project"></a>연습: 문서 수준 프로젝트의 단순 데이터 바인딩
   이 연습에서는 문서 수준 프로젝트의 데이터 바인딩의 기본 사항을 보여 줍니다. SQL Server 데이터베이스에서 단일 데이터 필드는 Microsoft Office Excel에서 명명된 된 범위에 바인딩되어 있습니다. 이 연습에는 테이블의 모든 레코드를 스크롤할 수 있도록 하는 컨트롤을 추가 하는 방법을 보여 줍니다.
@@ -41,13 +41,13 @@ ms.locfileid: "56640271"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
 
--   Northwind SQL Server 예제 데이터베이스를 사용 하 여 서버에 액세스 합니다.
+- Northwind SQL Server 예제 데이터베이스를 사용 하 여 서버에 액세스 합니다.
 
--   SQL Server 데이터베이스에서 읽고 권한입니다.
+- SQL Server 데이터베이스에서 읽고 권한입니다.
 
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기
  이 단계에서는 Excel 통합 문서 프로젝트를 만들게 됩니다.
@@ -88,21 +88,21 @@ ms.locfileid: "56640271"
 
 ### <a name="to-add-two-named-ranges"></a>두 개의 명명 된 범위를 추가 하려면
 
-1.  있는지 확인 합니다 *내 간단한 데이터 Binding.xlsx* Visual Studio 디자이너에 통합 문서가 열려 사용 하 여 **Sheet1** 표시 합니다.
+1. 있는지 확인 합니다 *내 간단한 데이터 Binding.xlsx* Visual Studio 디자이너에 통합 문서가 열려 사용 하 여 **Sheet1** 표시 합니다.
 
-2.  열기는 **데이터 원본** 창 확장 및 합니다 **고객** 노드.
+2. 열기는 **데이터 원본** 창 확장 및 합니다 **고객** 노드.
 
-3.  선택 합니다 **CompanyName** 열에 표시 되는 드롭다운 화살표를 클릭 하 고 합니다.
+3. 선택 합니다 **CompanyName** 열에 표시 되는 드롭다운 화살표를 클릭 하 고 합니다.
 
-4.  선택 **NamedRange** 확인 하 고 다음 끌어서 드롭 다운 목록에는 **CompanyName** 셀으로 열 **A1**합니다.
+4. 선택 **NamedRange** 확인 하 고 다음 끌어서 드롭 다운 목록에는 **CompanyName** 셀으로 열 **A1**합니다.
 
      A <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤인 `companyNameNamedRange` 셀에 작성 됩니다 **A1**합니다. 동시에 <xref:System.Windows.Forms.BindingSource> 라는 `customersBindingSource`, 테이블 어댑터 및 <xref:System.Data.DataSet> 인스턴스 프로젝트에 추가 됩니다. 컨트롤이 바인딩되는 <xref:System.Windows.Forms.BindingSource>, 차례로에 바인딩된는 <xref:System.Data.DataSet> 인스턴스.
 
-5.  선택 합니다 **CustomerID** 열에는 **데이터 원본** 창 표시 되는 드롭다운 화살표를 클릭 하 고 합니다.
+5. 선택 합니다 **CustomerID** 열에는 **데이터 원본** 창 표시 되는 드롭다운 화살표를 클릭 하 고 합니다.
 
-6.  클릭 **NamedRange** 확인 하 고 다음 끌어서 드롭 다운 목록에는 **CustomerID** 셀으로 열 **B1**합니다.
+6. 클릭 **NamedRange** 확인 하 고 다음 끌어서 드롭 다운 목록에는 **CustomerID** 셀으로 열 **B1**합니다.
 
-7.  다른 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤인 `customerIDNamedRange` 셀에 작성 됩니다 **B1**, 바인딩할는 <xref:System.Windows.Forms.BindingSource>합니다.
+7. 다른 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤인 `customerIDNamedRange` 셀에 작성 됩니다 **B1**, 바인딩할는 <xref:System.Windows.Forms.BindingSource>합니다.
 
 ### <a name="to-add-four-buttons"></a>네 개의 단추를 추가 하려면
 
@@ -143,28 +143,28 @@ ms.locfileid: "56640271"
 
 ### <a name="to-move-to-the-first-record"></a>첫 번째 레코드를 이동 하려면
 
-1.  에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 의 이벤트는 `Button1` 단추를 클릭 한 첫 번째 레코드를 이동 하려면 다음 코드를 추가:
+1. 에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 의 이벤트는 `Button1` 단추를 클릭 한 첫 번째 레코드를 이동 하려면 다음 코드를 추가:
 
      [!code-csharp[Trin_VstcoreDataExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#4)]
      [!code-vb[Trin_VstcoreDataExcel#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#4)]
 
 ### <a name="to-move-to-the-previous-record"></a>이전 레코드로 이동 하려면
 
-1.  에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 의 이벤트는 `Button2` 단추 및 씩 위치를 뒤로 이동 하려면 다음 코드를 추가:
+1. 에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 의 이벤트는 `Button2` 단추 및 씩 위치를 뒤로 이동 하려면 다음 코드를 추가:
 
      [!code-csharp[Trin_VstcoreDataExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#5)]
      [!code-vb[Trin_VstcoreDataExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#5)]
 
 ### <a name="to-move-to-the-next-record"></a>다음 레코드로 이동 하려면
 
-1.  에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 의 이벤트는 `Button3` 단추를 선택한 위치로 이동 하 여 하나에서 다음 코드를 추가:
+1. 에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 의 이벤트는 `Button3` 단추를 선택한 위치로 이동 하 여 하나에서 다음 코드를 추가:
 
      [!code-csharp[Trin_VstcoreDataExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#6)]
      [!code-vb[Trin_VstcoreDataExcel#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#6)]
 
 ### <a name="to-move-to-the-last-record"></a>마지막 레코드를 이동 하려면
 
-1.  에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 의 이벤트는 `Button4` 단추를 클릭 한 다음 코드를 이동 하는 마지막 레코드를 추가:
+1. 에 대 한 이벤트 처리기를 추가 합니다 <xref:System.Windows.Forms.Control.Click> 의 이벤트는 `Button4` 단추를 클릭 한 다음 코드를 이동 하는 마지막 레코드를 추가:
 
      [!code-csharp[Trin_VstcoreDataExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#7)]
      [!code-vb[Trin_VstcoreDataExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#7)]
@@ -174,22 +174,22 @@ ms.locfileid: "56640271"
 
 ### <a name="to-test-your-workbook"></a>통합 문서를 테스트하려면
 
-1.  키를 눌러 **F5** 프로젝트를 실행 합니다.
+1. 키를 눌러 **F5** 프로젝트를 실행 합니다.
 
-2.  첫 번째 레코드 셀에 나타나는지 확인 **A1** 하 고 **B1**합니다.
+2. 첫 번째 레코드 셀에 나타나는지 확인 **A1** 하 고 **B1**합니다.
 
-3.  클릭 합니다 **>** (`Button3`) 단추 및 다음 레코드로 셀에 나타나는지 확인 **A1** 고 **B1**합니다.
+3. 클릭 합니다 **>** (`Button3`) 단추 및 다음 레코드로 셀에 나타나는지 확인 **A1** 고 **B1**합니다.
 
-4.  예상 대로 레코드 변경 되는지 확인 하려면 다른 스크롤 단추를 클릭 합니다.
+4. 예상 대로 레코드 변경 되는지 확인 하려면 다른 스크롤 단추를 클릭 합니다.
 
 ## <a name="next-steps"></a>다음 단계
  이 연습에서는 데이터베이스의 필드에 명명된 된 범위를 바인딩하는 기본적인을 보여 줍니다. 다음으로 수행할 수 있는 몇 가지 작업은 다음과 같습니다.
 
--   오프 라인으로 사용할 수 있도록 데이터를 캐시 합니다. 자세한 내용은 [방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터를 캐시](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)합니다.
+- 오프 라인으로 사용할 수 있도록 데이터를 캐시 합니다. 자세한 내용은 [방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터를 캐시](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)합니다.
 
--   테이블의 여러 열에 셀을 하나의 필드에 대신 바인딩하십시오. 자세한 내용은 [연습: 문서 수준 프로젝트의 복합 데이터 바인딩](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)합니다.
+- 테이블의 여러 열에 셀을 하나의 필드에 대신 바인딩하십시오. 자세한 내용은 [연습: 문서 수준 프로젝트의 복합 데이터 바인딩](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)합니다.
 
--   사용 하 여를 <xref:System.Windows.Forms.BindingNavigator> 컨트롤을 레코드를 스크롤합니다. 자세한 내용은 [방법: Windows Forms BindingNavigator 컨트롤을 사용 하 여 데이터를 이동](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms)합니다.
+- 사용 하 여를 <xref:System.Windows.Forms.BindingNavigator> 컨트롤을 레코드를 스크롤합니다. 자세한 내용은 [방법: Windows Forms BindingNavigator 컨트롤을 사용 하 여 데이터를 이동](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office 솔루션의 컨트롤에 데이터 바인딩](../vsto/binding-data-to-controls-in-office-solutions.md)

@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ee555376a2943cb29344aad2ed94da2b8ab2ae36
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: dc6492b52cb739c49bdba9f231ebcda313a66105
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617784"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068667"
 ---
 # <a name="how-to-add-a-filter-descriptor-to-a-finder-method"></a>방법: Finder 메서드에 필터 설명자 추가
   필터 설명자 값을 전달할 메서드가 실행 되기 전에 모델의 소비자를 사용 합니다. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
@@ -29,25 +29,25 @@ ms.locfileid: "56617784"
 
 ### <a name="to-add-a-filter-descriptor-to-a-finder-method"></a>Finder 메서드에 필터 설명자를 추가 하려면
 
-1.  에 **BDC 메서드 세부 정보** 창 Finder 메서드 노드를 확장 합니다 **매개 변수** 노드를 다음 입력된 매개 변수를 추가 합니다. 자세한 내용은 [방법: 메서드 매개 변수를 추가](../sharepoint/how-to-add-a-parameter-to-a-method.md)합니다.
+1. 에 **BDC 메서드 세부 정보** 창 Finder 메서드 노드를 확장 합니다 **매개 변수** 노드를 다음 입력된 매개 변수를 추가 합니다. 자세한 내용은 [방법: 메서드 매개 변수를 추가](../sharepoint/how-to-add-a-parameter-to-a-method.md)합니다.
 
-2.  에 **메서드 세부 정보** 창에서 매개 변수의 형식 설명자를 선택 합니다.
+2. 에 **메서드 세부 정보** 창에서 매개 변수의 형식 설명자를 선택 합니다.
 
-3.  메뉴 모음에서 선택 **뷰** > **속성 창**합니다.
+3. 메뉴 모음에서 선택 **뷰** > **속성 창**합니다.
 
-4.  에 **속성** 창에서 **형식 이름** 필터에 대 한 적절 한 데이터 형식 속성입니다.
+4. 에 **속성** 창에서 **형식 이름** 필터에 대 한 적절 한 데이터 형식 속성입니다.
 
      예를 들어 필터 메서드에서 반환 된 판매 주문 수를 제한 하는 주문 날짜를 사용할 수 있습니다. 해당 필터를 지원 하기 위해 합니다 **형식 이름을** 형식 설명자의 속성으로 설정 되어 있어야 **System.DateTime**합니다.
 
-5.  에 **메서드 세부 정보** 창 확장 합니다 **필터 설명자** 노드.
+5. 에 **메서드 세부 정보** 창 확장 합니다 **필터 설명자** 노드.
 
-6.  **필터 설명자 추가** 목록에서 선택 **Filterdescriptor 만들기**합니다.
+6. **필터 설명자 추가** 목록에서 선택 **Filterdescriptor 만들기**합니다.
 
      아래에 새 필터 설명자를 표시 합니다 **필터 설명자** 노드.
 
-7.  메뉴 모음에서 선택 **뷰** > **속성 창**합니다.
+7. 메뉴 모음에서 선택 **뷰** > **속성 창**합니다.
 
-8.  에 **속성** 창에서 선택 합니다 **형식** 속성.
+8. 에 **속성** 창에서 선택 합니다 **형식** 속성.
 
 9. 에 대해 표시 되는 목록에는 **형식** 속성을 원하는 필터링 패턴을 선택 합니다.
 

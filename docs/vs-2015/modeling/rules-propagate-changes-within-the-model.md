@@ -12,12 +12,12 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 32aff234b5b45df4154d47f94c975828f31b71fe
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 581d6d1f6e5923569f4d98705226d2336978bfc5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668342"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067562"
 ---
 # <a name="rules-propagate-changes-within-the-model"></a>규칙으로 모델 내부의 변경 내용 전파
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,7 +87,7 @@ namespace ExampleNamespace
 
 ### <a name="to-define-a-rule-on-a-domain-class"></a>도메인 클래스에 규칙을 정의 하려면  
 
--   사용자 지정 코드 파일에서 클래스를 정의 하 고 사용 하 여 접두사를 <xref:Microsoft.VisualStudio.Modeling.RuleOnAttribute> 특성:  
+- 사용자 지정 코드 파일에서 클래스를 정의 하 고 사용 하 여 접두사를 <xref:Microsoft.VisualStudio.Modeling.RuleOnAttribute> 특성:  
 
     ```  
     [RuleOn(typeof(ExampleElement),   
@@ -97,19 +97,19 @@ namespace ExampleNamespace
 
     ```  
 
--   첫 번째 매개 변수 형식을 주체 도메인 클래스, 도메인 관계, 모양, 연결선 또는 다이어그램 수 있습니다. 일반적으로 도메인 클래스 및 관계에 규칙을 적용 합니다.  
+- 첫 번째 매개 변수 형식을 주체 도메인 클래스, 도메인 관계, 모양, 연결선 또는 다이어그램 수 있습니다. 일반적으로 도메인 클래스 및 관계에 규칙을 적용 합니다.  
 
      합니다 `FireTime` 일반적으로 `TopLevelCommit`입니다. 이렇게 하면 트랜잭션의 모든 기본 변경 내용을 적용 된 후에 규칙이 실행 되도록 합니다. 대체는 규칙 변경; 즉시 실행 하는 인라인 및 LocalCommit (가장 바깥쪽 일 수 있음)는 현재 트랜잭션이 끝날 때 규칙을 실행 합니다. 큐에서 순서에 영향을 하는 규칙의 우선 순위를 설정할 수도 있습니다 이지만 필요한 결과 달성 하는 불안정 한 메서드를 합니다.  
 
--   주체 유형으로 추상 클래스를 지정할 수 있습니다.  
+- 주체 유형으로 추상 클래스를 지정할 수 있습니다.  
 
--   규칙 제목 클래스의 모든 인스턴스에 적용 됩니다.  
+- 규칙 제목 클래스의 모든 인스턴스에 적용 됩니다.  
 
--   에 대 한 기본값 `FireTime` TimeToFire.TopLevelCommit 됩니다. 이렇게 하면 가장 바깥쪽 트랜잭션이 커밋될 때 실행할 규칙. 대안은 TimeToFire.Inline 합니다. 그러면 규칙 트리거 이벤트 직후 실행 될 수 있습니다.  
+- 에 대 한 기본값 `FireTime` TimeToFire.TopLevelCommit 됩니다. 이렇게 하면 가장 바깥쪽 트랜잭션이 커밋될 때 실행할 규칙. 대안은 TimeToFire.Inline 합니다. 그러면 규칙 트리거 이벤트 직후 실행 될 수 있습니다.  
 
 ### <a name="to-register-the-rule"></a>규칙을 등록 하려면  
 
--   규칙 클래스에 의해 반환 된 형식 목록에 추가 `GetCustomDomainModelTypes` 도메인 모델에서:  
+- 규칙 클래스에 의해 반환 된 형식 목록에 추가 `GetCustomDomainModelTypes` 도메인 모델에서:  
 
     ```  
     public partial class ExampleDomainModel  
@@ -125,9 +125,9 @@ namespace ExampleNamespace
 
     ```  
 
--   도메인 모델 클래스의 이름을 모르는 경우 파일을 자세히 살펴보고 **Dsl\GeneratedCode\DomainModel.cs**  
+- 도메인 모델 클래스의 이름을 모르는 경우 파일을 자세히 살펴보고 **Dsl\GeneratedCode\DomainModel.cs**  
 
--   DSL 프로젝트의 사용자 지정 코드 파일에서이 코드를 작성 합니다.  
+- DSL 프로젝트의 사용자 지정 코드 파일에서이 코드를 작성 합니다.  
 
 ### <a name="to-write-the-code-of-the-rule"></a>규칙의 코드를 작성 하려면  
 
@@ -150,19 +150,19 @@ namespace ExampleNamespace
 
   규칙에 대 한 다음 사항에 유의 합니다.  
 
-1.  트랜잭션에서 변경 집합이 여러 규칙을 트리거할 수 있습니다. 일반적으로 규칙은 가장 바깥쪽 트랜잭션이 커밋될 때 실행 됩니다. 지정 되지 않은 순서로 실행 됩니다.  
+1. 트랜잭션에서 변경 집합이 여러 규칙을 트리거할 수 있습니다. 일반적으로 규칙은 가장 바깥쪽 트랜잭션이 커밋될 때 실행 됩니다. 지정 되지 않은 순서로 실행 됩니다.  
 
-2.  규칙은 항상 트랜잭션 내에서 실행 됩니다. 따라서 변경 하려면 새 트랜잭션을 만들 필요가 없습니다.  
+2. 규칙은 항상 트랜잭션 내에서 실행 됩니다. 따라서 변경 하려면 새 트랜잭션을 만들 필요가 없습니다.  
 
-3.  트랜잭션이 롤백될 때, 또는 실행 취소 또는 다시 실행 작업을 수행할 때 규칙 실행 되지 않습니다. 이러한 작업 저장소의 모든 내용이 이전 상태로 다시 설정 합니다. 따라서 경우 스토어 외부에 있는 항목의 상태를 변경 하는 규칙을이 수 하지 기억 synchronism 저장소와 콘텐츠. Store 외부의 상태를 업데이트 하려면 이벤트를 사용 하는 것이 좋습니다. 자세한 내용은 [이벤트 처리기 전파 변경 외부 모델](../modeling/event-handlers-propagate-changes-outside-the-model.md)합니다.  
+3. 트랜잭션이 롤백될 때, 또는 실행 취소 또는 다시 실행 작업을 수행할 때 규칙 실행 되지 않습니다. 이러한 작업 저장소의 모든 내용이 이전 상태로 다시 설정 합니다. 따라서 경우 스토어 외부에 있는 항목의 상태를 변경 하는 규칙을이 수 하지 기억 synchronism 저장소와 콘텐츠. Store 외부의 상태를 업데이트 하려면 이벤트를 사용 하는 것이 좋습니다. 자세한 내용은 [이벤트 처리기 전파 변경 외부 모델](../modeling/event-handlers-propagate-changes-outside-the-model.md)합니다.  
 
-4.  모델 파일에서 로드 되 면 몇 가지 규칙이 실행 됩니다. 로드 하거나 저장 진행에서 중인지 여부를 확인 하려면 `store.TransactionManager.CurrentTransaction.IsSerializing`합니다.  
+4. 모델 파일에서 로드 되 면 몇 가지 규칙이 실행 됩니다. 로드 하거나 저장 진행에서 중인지 여부를 확인 하려면 `store.TransactionManager.CurrentTransaction.IsSerializing`합니다.  
 
-5.  규칙의 코드를 추가 규칙 트리거를 만드는 경우 실행 목록 끝에 추가할 하며 트랜잭션이 완료 되기 전에 실행 됩니다. 다른 모든 규칙 이후에 DeletedRules 실행 됩니다. 하나의 규칙 트랜잭션에서 각 변경에 한 번씩 여러 번 실행할 수입니다.  
+5. 규칙의 코드를 추가 규칙 트리거를 만드는 경우 실행 목록 끝에 추가할 하며 트랜잭션이 완료 되기 전에 실행 됩니다. 다른 모든 규칙 이후에 DeletedRules 실행 됩니다. 하나의 규칙 트랜잭션에서 각 변경에 한 번씩 여러 번 실행할 수입니다.  
 
-6.  규칙의 정보를 전달할에서 정보를 저장할 수는 `TransactionContext`합니다. 트랜잭션 동안 유지 관리 되는 사전을 뿐입니다. 이 트랜잭션이 종료 될 때 삭제 됩니다. 각 규칙에서 이벤트 인수에 대 한 액세스를 제공합니다. 규칙은 예측 가능한 순서로 실행 되지 않도록 해야 합니다.  
+6. 규칙의 정보를 전달할에서 정보를 저장할 수는 `TransactionContext`합니다. 트랜잭션 동안 유지 관리 되는 사전을 뿐입니다. 이 트랜잭션이 종료 될 때 삭제 됩니다. 각 규칙에서 이벤트 인수에 대 한 액세스를 제공합니다. 규칙은 예측 가능한 순서로 실행 되지 않도록 해야 합니다.  
 
-7.  다른 대안을 고려한 후 규칙을 사용 합니다. 예를 들어 값이 변경 될 때 속성을 업데이트 하려는 경우에 계산된 된 속성을 사용 하는 것이 좋습니다. 크기 또는 모양의 위치를 제한 하려는 경우 사용을 `BoundsRule`입니다. 속성 값 변경에 응답 하려는 경우 추가 `OnValueChanged` 처리기 속성입니다. 자세한 내용은 [에 응답 하 고 변경 내용을 전파](../modeling/responding-to-and-propagating-changes.md)합니다.  
+7. 다른 대안을 고려한 후 규칙을 사용 합니다. 예를 들어 값이 변경 될 때 속성을 업데이트 하려는 경우에 계산된 된 속성을 사용 하는 것이 좋습니다. 크기 또는 모양의 위치를 제한 하려는 경우 사용을 `BoundsRule`입니다. 속성 값 변경에 응답 하려는 경우 추가 `OnValueChanged` 처리기 속성입니다. 자세한 내용은 [에 응답 하 고 변경 내용을 전파](../modeling/responding-to-and-propagating-changes.md)합니다.  
 
 ## <a name="example"></a>예제  
  다음 예제에서는 두 요소를 연결 하는 도메인 관계를 인스턴스화할 때 속성을 업데이트 합니다. 사용자가 링크를 다이어그램에서 뿐만 아니라 프로그램 코드 링크를 만드는 경우 때에이 아니라 규칙이 트리거됩니다.  

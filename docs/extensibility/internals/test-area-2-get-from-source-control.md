@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e6e6a9f71a1ebda6e6366096881fb681a864ce31
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 0d7942aa658208143aea3c3ae3a09eb677568f17
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630875"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067185"
 ---
 # <a name="test-area-2-get-from-source-control"></a>테스트 영역 2: 소스 제어에서 가져오기
 이 테스트 영역 가져오기 명령을 통해 버전 저장소에서 항목을 검색 하는 것에 대 한 테스트 사례를 설명 합니다. 웹 프로젝트를 로컬에 이러한 테스트 사례를 적용할 수 있습니다.
@@ -26,13 +26,13 @@ ms.locfileid: "56630875"
 
 ##### <a name="get-latest-version"></a>최신 버전을 가져옵니다.
 
--   **파일**하십시오 **소스 제어**, **최신 버전 가져오기**합니다.
+- **파일**하십시오 **소스 제어**, **최신 버전 가져오기**합니다.
 
--   **파일**하십시오 **최신 버전 가져오기**합니다.
+- **파일**하십시오 **최신 버전 가져오기**합니다.
 
--   바로 가기 메뉴에서 **최신 버전 가져오기**합니다.
+- 바로 가기 메뉴에서 **최신 버전 가져오기**합니다.
 
--   가져오기: **파일**하십시오 **소스 제어**, **가져오기**합니다.
+- 가져오기: **파일**하십시오 **소스 제어**, **가져오기**합니다.
 
 ## <a name="expected-behavior"></a>예상된 된 동작
 

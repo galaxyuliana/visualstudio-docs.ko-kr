@@ -20,12 +20,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2354f65e1b042682a0e58a0dbb4bc12712bb47e3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c853e24da3f203d67874d7b9740d3239abd78c14
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971679"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066600"
 ---
 # <a name="deploying-clickonce-applications-for-testing-and-production-servers-without-resigning"></a>다시 서명하지 않고 테스트 및 프로덕션 서버용 ClickOnce 응용 프로그램 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,9 +37,9 @@ ms.locfileid: "58971679"
   
  타사 개발자 및 Isv에서 옵트인이 기능에 쉽게 고객이 응용 프로그램을 업데이트 합니다. 다음과 같은 상황에서이 기능을 사용할 수 있습니다.  
   
--   응용 프로그램을 응용 프로그램의 첫 번째 설치 되지 않습니다 업데이트 하는 경우.  
+- 응용 프로그램을 응용 프로그램의 첫 번째 설치 되지 않습니다 업데이트 하는 경우.  
   
--   컴퓨터에서 응용 프로그램의 구성 하나만 있으면 됩니다. 예를 들어, 서로 다른 두 데이터베이스를 가리키도록 구성 된 응용 프로그램을 하는 경우에이 기능을 사용할 수 없습니다.  
+- 컴퓨터에서 응용 프로그램의 구성 하나만 있으면 됩니다. 예를 들어, 서로 다른 두 데이터베이스를 가리키도록 구성 된 응용 프로그램을 하는 경우에이 기능을 사용할 수 없습니다.  
   
 ## <a name="excluding-deploymentprovider-from-deployment-manifests"></a>배포 매니페스트에 deploymentProvider 제외  
  .NET Framework 2.0 및.NET Framework 3.0에서 오프 라인 가용성을 위해 시스템에 설치 하는 ClickOnce 응용 프로그램 지정 해야 합니다는 `deploymentProvider` 배포 매니페스트에서 합니다. `deploymentProvider` 업데이트 위치; 라고도 ClickOnce는 응용 프로그램 업데이트를 확인 하는 위치입니다. 이 요구 사항으로 해당 배포에 서명 하도록 응용 프로그램 게시자에 대 한 필요와 결합 되어 공급 업체 또는 다른 제 3 자에서 ClickOnce 응용 프로그램을 업데이트 하는 회사 어려웠습니다. 하기가 동일한 네트워크의 여러 위치에서 동일한 응용 프로그램을 배포 하기가 더 어렵습니다.  

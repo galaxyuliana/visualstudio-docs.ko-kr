@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8485885cbba43ea9eaef76616607861c44c2ab24
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: b395b396ab182ca03be35cddc8d237506b43e39c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668784"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066613"
 ---
 # <a name="how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-or-designer"></a>방법: 저장 프로시저 및 함수에 매핑된 DataContext 메서드 만들기(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,17 +34,17 @@ ms.locfileid: "59668784"
   
 #### <a name="to-create-datacontext-methods-that-return-automatically-generated-types"></a>자동으로 생성된 형식을 반환하는 DataContext 메서드를 만들려면  
   
-1.  **서버 탐색기**/**데이터베이스 탐색기**를 확장 합니다 **Stored Procedures** 사용 중인 데이터베이스의 노드.  
+1. **서버 탐색기**/**데이터베이스 탐색기**를 확장 합니다 **Stored Procedures** 사용 중인 데이터베이스의 노드.  
   
-2.  원하는 저장 프로시저를 찾아 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]의 빈 영역으로 끌어 옵니다.  
+2. 원하는 저장 프로시저를 찾아 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]의 빈 영역으로 끌어 옵니다.  
   
      자동으로 생성된 반환 형식을 갖는 <xref:System.Data.Linq.DataContext> 메서드가 만들어지고 **메서드** 창에 나타납니다.  
   
 #### <a name="to-create-datacontext-methods-that-have-the-return-type-of-an-entity-class"></a>엔터티 클래스의 반환 형식을 갖는 DataContext 메서드를 만들려면  
   
-1.  **서버 탐색기**/**데이터베이스 탐색기**를 확장 합니다 **Stored Procedures** 사용 중인 데이터베이스의 노드.  
+1. **서버 탐색기**/**데이터베이스 탐색기**를 확장 합니다 **Stored Procedures** 사용 중인 데이터베이스의 노드.  
   
-2.  원하는 저장 프로시저를 찾아 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]의 기존 엔터티 클래스로 끌어 옵니다.  
+2. 원하는 저장 프로시저를 찾아 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]의 기존 엔터티 클래스로 끌어 옵니다.  
   
      선택한 엔터티 클래스의 반환 형식을 갖는 <xref:System.Data.Linq.DataContext> 메서드가 만들어지고 **메서드** 창에 나타납니다.  
   

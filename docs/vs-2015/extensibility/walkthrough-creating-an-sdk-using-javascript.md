@@ -8,12 +8,12 @@ ms.assetid: a8c89d5d-5b78-4435-817f-c5f25ca6d715
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 39092d309f8924e68016d5eedeb4f78766cfe29c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3e953d9051b9bc7e95dc29e02eb580c4d93fca26
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970486"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066951"
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>연습: JavaScript를 사용하여 SDK 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,19 +29,19 @@ ms.locfileid: "58970486"
 ## <a name="prerequisites"></a>전제 조건  
  이 연습을 수행하려면 Visual Studio SDK를 설치해야 합니다. 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.  
   
-##  <a name="createSimpleMathVSIX"></a> SimpleMathVSIX 확장 SDK 프로젝트를 만들려면  
+## <a name="createSimpleMathVSIX"></a> SimpleMathVSIX 확장 SDK 프로젝트를 만들려면  
   
-1.  메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
+1. 메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
   
-2.  템플릿 범주 목록에서 아래 **Visual C#** 를 선택 **확장성**를 선택한 후는 **VSIX 프로젝트** 템플릿.  
+2. 템플릿 범주 목록에서 아래 **Visual C#** 를 선택 **확장성**를 선택한 후는 **VSIX 프로젝트** 템플릿.  
   
-3.  에 **이름** 텍스트 상자에서 지정 `SimpleMathVSIX` 선택 합니다 **확인** 단추.  
+3. 에 **이름** 텍스트 상자에서 지정 `SimpleMathVSIX` 선택 합니다 **확인** 단추.  
   
-4.  경우는 **Visual Studio 패키지 마법사** 나타납니다 선택 합니다 **다음** 단추를 **시작** 페이지에서 한 후 **7의 1 페이지**, 선택는 **완료** 단추입니다.  
+4. 경우는 **Visual Studio 패키지 마법사** 나타납니다 선택 합니다 **다음** 단추를 **시작** 페이지에서 한 후 **7의 1 페이지**, 선택는 **완료** 단추입니다.  
   
      하지만 합니다 **매니페스트 디자이너** 열리면 보존이 연습에서는 간단한 매니페스트 파일을 직접 수정 하 여 합니다.  
   
-5.  **솔루션 탐색기**선택한를 source.extension.vsixmanifest 파일에 대 한 바로 가기 메뉴를 열고 **코드 보기**합니다. 이 코드를 사용 하 여 파일의 기존 내용을 바꿉니다.  
+5. **솔루션 탐색기**선택한를 source.extension.vsixmanifest 파일에 대 한 바로 가기 메뉴를 열고 **코드 보기**합니다. 이 코드를 사용 하 여 파일의 기존 내용을 바꿉니다.  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -63,11 +63,11 @@ ms.locfileid: "58970486"
     </PackageManifest>  
     ```  
   
-6.  **솔루션 탐색기**선택한을 SimpleMathVSIX 프로젝트에 대 한 바로 가기 메뉴를 열고 **추가**에 **새 항목**합니다.  
+6. **솔루션 탐색기**선택한을 SimpleMathVSIX 프로젝트에 대 한 바로 가기 메뉴를 열고 **추가**에 **새 항목**합니다.  
   
-7.  에 **데이터** 범주를 선택한 **XML 파일**, 파일 이름을 `SDKManifest.xml`, 선택는 **추가** 단추입니다.  
+7. 에 **데이터** 범주를 선택한 **XML 파일**, 파일 이름을 `SDKManifest.xml`, 선택는 **추가** 단추입니다.  
   
-8.  **솔루션 탐색기**를 SDKManifest.xml 파일에 대 한 바로 가기 메뉴를 열고 선택한 **엽니다** 에서 파일을 표시 합니다 **XML 편집기**.  
+8. **솔루션 탐색기**를 SDKManifest.xml 파일에 대 한 바로 가기 메뉴를 열고 선택한 **엽니다** 에서 파일을 표시 합니다 **XML 편집기**.  
   
 9. SDKManifest.xml 파일에 다음 코드를 추가 합니다.  
   
@@ -128,9 +128,9 @@ ms.locfileid: "58970486"
   
 17. **솔루션 탐색기**, 선택 arithmetic.js 파일에 대 한 바로 가기 메뉴에서 **속성**합니다. 이러한 속성 변경 내용을 확인 합니다.  
   
-    -   설정 된 **VSIX에 포함** 속성을 **True**합니다.  
+    - 설정 된 **VSIX에 포함** 속성을 **True**합니다.  
   
-    -   설정 된 **출력 디렉터리로 복사** 속성을 **항상 복사**합니다.  
+    - 설정 된 **출력 디렉터리로 복사** 속성을 **항상 복사**합니다.  
   
 18. **솔루션 탐색기**, 선택 SimpleMathVSIX 프로젝트에 대 한 바로 가기 메뉴에서 **빌드**합니다.  
   
@@ -140,23 +140,23 @@ ms.locfileid: "58970486"
   
 21. Visual Studio를 다시 시작합니다.  
   
-##  <a name="createSampleApp"></a> SDK를 사용 하는 샘플 앱을 만들려면  
+## <a name="createSampleApp"></a> SDK를 사용 하는 샘플 앱을 만들려면  
   
-1.  메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
+1. 메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
   
-2.  템플릿 범주 목록에서 아래 **JavaScript**를 선택 **Windows 스토어**를 선택한 후는 **비어 있는 앱** 템플릿.  
+2. 템플릿 범주 목록에서 아래 **JavaScript**를 선택 **Windows 스토어**를 선택한 후는 **비어 있는 앱** 템플릿.  
   
-3.  에 **이름을** 상자에서 지정 `ArithmeticUI`합니다. **확인** 단추를 선택합니다.  
+3. 에 **이름을** 상자에서 지정 `ArithmeticUI`합니다. **확인** 단추를 선택합니다.  
   
-4.  **솔루션 탐색기**선택한을 ArithmeticUI 프로젝트에 대 한 바로 가기 메뉴를 열고 **추가**에 **참조**합니다.  
+4. **솔루션 탐색기**선택한을 ArithmeticUI 프로젝트에 대 한 바로 가기 메뉴를 열고 **추가**에 **참조**합니다.  
   
-5.  아래 **Windows**, 선택 **Extensions**, 알 수 있습니다 **간단한 수학** 표시 됩니다.  
+5. 아래 **Windows**, 선택 **Extensions**, 알 수 있습니다 **간단한 수학** 표시 됩니다.  
   
-6.  선택 된 **간단한 수학** 확인란을 선택한 후 합니다 **확인** 단추입니다.  
+6. 선택 된 **간단한 수학** 확인란을 선택한 후 합니다 **확인** 단추입니다.  
   
-7.  **솔루션 탐색기**아래에 있는 **참조**, 있음을 합니다 **간단한 수학** 참조 표시 됩니다. 확장 하 고 arithmetic.js를 포함 하는 \js\ 폴더 인지 확인 합니다. 소스 코드에 설치 되어 있는지 확인 하려면 arithmetic.js를 열 수 있습니다.  
+7. **솔루션 탐색기**아래에 있는 **참조**, 있음을 합니다 **간단한 수학** 참조 표시 됩니다. 확장 하 고 arithmetic.js를 포함 하는 \js\ 폴더 인지 확인 합니다. 소스 코드에 설치 되어 있는지 확인 하려면 arithmetic.js를 열 수 있습니다.  
   
-8.  다음 코드를 사용 하 여 default.htm의 내용을 바꿉니다.  
+8. 다음 코드를 사용 하 여 default.htm의 내용을 바꿉니다.  
   
     ```  
     <!DOCTYPE html>  

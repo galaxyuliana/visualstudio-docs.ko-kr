@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7a70e6b7c8126b2e9d2fc3274d5ecf905dce960d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1ea87ac85ed187becb2f463dfe95fd3dcb812f28
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644512"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066554"
 ---
 # <a name="how-to-programmatically-delete-worksheets-from-workbooks"></a>방법: 프로그래밍 방식으로 통합 문서에서 워크시트 삭제
   통합 문서의 모든 워크시트를 삭제할 수 있습니다. 워크시트를 삭제하려면 워크시트 호스트 항목을 사용하거나 통합 문서의 시트 컬렉션을 통해 워크시트에 액세스합니다.
@@ -34,13 +34,13 @@ ms.locfileid: "56644512"
 > - Excel 2013 통합 문서
 > - Excel 2013 서식 파일
 > - Excel 2010 통합 문서
-> - Excel 2010 서식 파일
+> - Excel 2010 템플릿
 >
 >   다른 형식의 프로젝트에서이 작업을 수행 하려는 경우에 대 한 참조를 추가 해야 합니다 **Microsoft.Office.Interop.Excel** 어셈블리 및 다음 통합 문서를 열고 워크시트를 삭제 하려면 해당 어셈블리의에서 클래스를 사용 해야 합니다. 자세한 내용은 [방법: 주 interop 어셈블리를 통해 Office 응용 프로그램을 대상](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) 하 고 [Excel 2010 주 interop 어셈블리 참조](http://go.microsoft.com/fwlink/?LinkId=189585)합니다.
 
 ### <a name="to-delete-a-worksheet-by-using-a-worksheet-host-item"></a>워크시트 호스트 항목을 사용하여 워크시트를 삭제하려면
 
-1.  <xref:Microsoft.Office.Tools.Excel.Worksheet.Delete%2A> 의 `Sheet1`메서드를 호출합니다.
+1. <xref:Microsoft.Office.Tools.Excel.Worksheet.Delete%2A> 의 `Sheet1`메서드를 호출합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#17](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#17)]
      [!code-vb[Trin_VstcoreExcelAutomation#17](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#17)]
@@ -59,7 +59,7 @@ ms.locfileid: "56644512"
 
 ### <a name="to-delete-a-worksheet-by-using-the-sheets-collection-of-the-excel-workbook"></a>Excel 통합 문서의 시트 컬렉션을 사용하여 워크시트를 삭제하려면
 
-1.  <xref:Microsoft.Office.Interop.Excel.Sheets> 컬렉션의 <xref:Microsoft.Office.Interop.Excel._Worksheet.Delete%2A> 메서드를 호출합니다.
+1. <xref:Microsoft.Office.Interop.Excel.Sheets> 컬렉션의 <xref:Microsoft.Office.Interop.Excel._Worksheet.Delete%2A> 메서드를 호출합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#18](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#18)]
      [!code-vb[Trin_VstcoreExcelAutomation#18](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#18)]

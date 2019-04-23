@@ -22,12 +22,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 099f284838a74ce5e302d9ba6ba0974b85260e73
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e913d67442d21cb1a0895721c22ede9b69363f53
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982654"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068706"
 ---
 # <a name="how-to-debug-an-executable-not-part-of-a-visual-studio-solution"></a>방법: Visual Studio 솔루션의 일부가 아닌 실행 파일를 사용 하는 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,25 +40,25 @@ ms.locfileid: "58982654"
   
 ### <a name="to-create-an-exe-project-for-an-existing-executable"></a>기존 실행 파일에 대한 EXE 프로젝트를 만들려면  
   
-1.  에 **파일** 메뉴에서 클릭 **열려** 선택한 **프로젝트**합니다.  
+1. 에 **파일** 메뉴에서 클릭 **열려** 선택한 **프로젝트**합니다.  
   
-2.  에 **프로젝트 열기** 대화 상자, 드롭다운 목록 옆의 목록을 클릭 합니다 **파일 이름** 상자를 선택한 **모든 프로젝트 파일**합니다.  
+2. 에 **프로젝트 열기** 대화 상자, 드롭다운 목록 옆의 목록을 클릭 합니다 **파일 이름** 상자를 선택한 **모든 프로젝트 파일**합니다.  
   
-3.  실행 파일을 찾은 다음 클릭 **확인**합니다.  
+3. 실행 파일을 찾은 다음 클릭 **확인**합니다.  
   
      실행 파일이 포함된 임시 솔루션이 생성됩니다.  
   
 ### <a name="to-import-an-executable-into-a-visual-studio-solution"></a>실행 파일을 Visual Studio 솔루션으로 가져오려면  
   
-1.  에 **파일** 메뉴에서 **프로젝트 추가**를 클릭 하 고 **기존 프로젝트**합니다.  
+1. 에 **파일** 메뉴에서 **프로젝트 추가**를 클릭 하 고 **기존 프로젝트**합니다.  
   
-2.  에 **기존 프로젝트 추가** 대화 상자, 드롭다운 목록 옆의 목록을 클릭 합니다 **파일 이름** 상자를 선택한 **모든 프로젝트 파일**합니다.  
+2. 에 **기존 프로젝트 추가** 대화 상자, 드롭다운 목록 옆의 목록을 클릭 합니다 **파일 이름** 상자를 선택한 **모든 프로젝트 파일**합니다.  
   
-3.  실행 파일을 찾아 선택합니다.  
+3. 실행 파일을 찾아 선택합니다.  
   
-4.  **확인**을 클릭합니다.  
+4. **확인**을 클릭합니다.  
   
-5.  와 같은 실행 명령을 선택 하 여 실행 파일을 시작 **시작**에서 **디버그** 메뉴.  
+5. 와 같은 실행 명령을 선택 하 여 실행 파일을 시작 **시작**에서 **디버그** 메뉴.  
   
     > [!NOTE]
     >  모든 프로그래밍 언어가 EXE 프로젝트를 지원하는 것은 아닙니다. 이 기능이 필요하면 [!INCLUDE[vcprvc](../includes/vcprvc-md.md)]를 설치합니다.  

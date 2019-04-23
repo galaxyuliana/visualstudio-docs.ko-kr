@@ -16,12 +16,12 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0efd71b38d3fcd8ae8241e31e721bd48e857d3bd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e200d0918e3d346f71da6ec2184e07e7d8433174
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970790"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60069772"
 ---
 # <a name="how-to-specify-verbose-log-files-for-clickonce-deployments"></a>방법: ClickOnce 배포에 대한 자세한 로그 파일 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,13 +35,13 @@ ms.locfileid: "58970790"
   
 ### <a name="to-specify-verbose-log-files"></a>자세한 로그 파일을 지정 하려면  
   
-1.  오픈 **Regedit.exe**합니다.  
+1. 오픈 **Regedit.exe**합니다.  
   
-2.  노드로 이동 `HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment`합니다.  
+2. 노드로 이동 `HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment`합니다.  
   
-3.  필요한 경우 라는 새 문자열 값을 만듭니다. `LogVerbosityLevel`합니다.  
+3. 필요한 경우 라는 새 문자열 값을 만듭니다. `LogVerbosityLevel`합니다.  
   
-4.  설정 된 `LogVerbosityLevel` 값을 `1`입니다.  
+4. 설정 된 `LogVerbosityLevel` 값을 `1`입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)

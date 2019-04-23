@@ -12,12 +12,12 @@ ms.assetid: 09a18bd2-b788-411a-9da6-067d806e46f6
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: baaa2691783562240b5e465c98aab43e6f8cd1e9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3f8317405c52850eceb816b958718835c029c6c4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972128"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068303"
 ---
 # <a name="sccget-function"></a>SccGet 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,21 +86,21 @@ SCCRTN SccGet(
   
  두 가지 방법으로 원본 제어 버전의 로컬 캐시는 원본 제어 데이터베이스와 동기화 되는이 상황을 해결 하기.  
   
-1.  현재 체크 아웃 원본 제어 데이터베이스에서 파일 이름을 바꿀 수 없습니다.  
+1. 현재 체크 아웃 원본 제어 데이터베이스에서 파일 이름을 바꿀 수 없습니다.  
   
-2.  "이전"삭제 "새로 추가" 뒤에 해당 하는를 수행 합니다. 다음 알고리즘은이 작업을 수행 하는 하나의 방법입니다.  
+2. "이전"삭제 "새로 추가" 뒤에 해당 하는를 수행 합니다. 다음 알고리즘은이 작업을 수행 하는 하나의 방법입니다.  
   
-    1.  호출 된 [SccQueryChanges](../extensibility/sccquerychanges-function.md) a.txt 소스 제어 데이터베이스에서 b.txt로 이름 바꾸기에 대 한 자세한 함수입니다.  
+    1. 호출 된 [SccQueryChanges](../extensibility/sccquerychanges-function.md) a.txt 소스 제어 데이터베이스에서 b.txt로 이름 바꾸기에 대 한 자세한 함수입니다.  
   
-    2.  로컬 a.txt를 이름을 b.txt로 바꿉니다.  
+    2. 로컬 a.txt를 이름을 b.txt로 바꿉니다.  
   
-    3.  호출 된 `SccGet` a.txt와 b.txt 함수입니다.  
+    3. 호출 된 `SccGet` a.txt와 b.txt 함수입니다.  
   
-    4.  소스 제어 데이터베이스에 있는 a.txt 없으므로 로컬 버전 캐시 누락 된 a.txt 버전 정보의 제거 됩니다.  
+    4. 소스 제어 데이터베이스에 있는 a.txt 없으므로 로컬 버전 캐시 누락 된 a.txt 버전 정보의 제거 됩니다.  
   
-    5.  B.txt 파일을 체크 아웃 되는 로컬 b.txt 파일의 내용으로 병합 됩니다.  
+    5. B.txt 파일을 체크 아웃 되는 로컬 b.txt 파일의 내용으로 병합 됩니다.  
   
-    6.  이제 업데이트 된 b.txt 파일을 확인할 수 있습니다.  
+    6. 이제 업데이트 된 b.txt 파일을 확인할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   

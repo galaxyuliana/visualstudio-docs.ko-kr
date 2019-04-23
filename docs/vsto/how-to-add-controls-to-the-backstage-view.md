@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bb038fdebdfefeb5f401860c17b5567028c3bb77
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c4241464fe8a43af882fbdbad0f898838e8fd897
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621346"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068368"
 ---
 # <a name="how-to-add-controls-to-the-backstage-view"></a>방법: Backstage 보기에 컨트롤 추가
   리본 디자이너를 사용 하 여 컨트롤을 클릭할 때 열리는 메뉴에 추가 하는 **파일** 탭 합니다. 컨트롤에 추가한 응용 프로그램을 실행 하는 경우는 **파일** 라는 그룹 탭이 표시 **추가 기능**합니다.
@@ -36,31 +36,31 @@ ms.locfileid: "56621346"
 
 ### <a name="to-add-controls-to-backstage-view"></a>Backstage 보기에 컨트롤을 추가 하려면
 
-1.  디자인 뷰에서 리본 항목을 엽니다.
+1. 디자인 뷰에서 리본 항목을 엽니다.
 
      추가 하는 방법에 대 한 자세한를 **리본 (비주얼 디자이너)** 프로젝트에 항목을 참조 하십시오 [방법: 리본 사용자 지정 시작](../vsto/how-to-get-started-customizing-the-ribbon.md)합니다.
 
-2.  리본 디자이너를 클릭 합니다 **파일** 탭 합니다.
+2. 리본 디자이너를 클릭 합니다 **파일** 탭 합니다.
 
      메뉴 디자이너에 표시 됩니다. 이 디자인 화면에 컨트롤이 없습니다.
 
-3.  **Office 리본 컨트롤** 탭의 **도구 상자**, 메뉴 디자이너를 끌어 다음 컨트롤 중 하나:
+3. **Office 리본 컨트롤** 탭의 **도구 상자**, 메뉴 디자이너를 끌어 다음 컨트롤 중 하나:
 
-    -   단추
+    - 단추
 
-    -   CheckBox
+    - CheckBox
 
-    -   갤러리
+    - 갤러리
 
-    -   메뉴
+    - 메뉴
 
-    -   구분 기호
+    - 구분 기호
 
-    -   SplitButton
+    - SplitButton
 
-    -   ToggleButton
+    - ToggleButton
 
-4.  메뉴의 새 위치로 이동 하는 컨트롤을 끕니다.
+4. 메뉴의 새 위치로 이동 하는 컨트롤을 끕니다.
 
 ## <a name="see-also"></a>참고자료
 - [리본 개요](../vsto/ribbon-overview.md)

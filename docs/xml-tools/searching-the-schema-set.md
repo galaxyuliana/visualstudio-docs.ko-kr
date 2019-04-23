@@ -8,20 +8,20 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dfbc41b24dd0e58dd24e0af99afe458d27f8ade6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b73d5c8acac211db09926acf0ba8009aa04ac0a8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55930859"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070905"
 ---
 # <a name="search-the-schema-set"></a>스키마 집합 검색
 
 합니다 **XML 스키마 탐색기** 다음과 같은 방법으로 설정 된 스키마를 검색할 수 있습니다.
 
--   키워드 검색
+- 키워드 검색
 
--   스키마 관련 검색
+- 스키마 관련 검색
 
 ## <a name="keyword-search"></a>키워드 검색
 
@@ -31,11 +31,11 @@ ms.locfileid: "55930859"
 
  합니다 **XML 스키마 탐색기** 다음 특성에 대해 설정 된 스키마를 검색 합니다.
 
--   지정된 키워드와 일치하는 `name` 또는 `ref` 특성. 이름으로 요소, 특성, 형식 및 등을 찾을 수 있습니다.
+- 지정된 키워드와 일치하는 `name` 또는 `ref` 특성. 이름으로 요소, 특성, 형식 및 등을 찾을 수 있습니다.
 
--   include 문의 `schemaLocation` 특성
+- include 문의 `schemaLocation` 특성
 
--   import 문의 `namespace` 특성
+- import 문의 `namespace` 특성
 
 ## <a name="schema-specific-search"></a>스키마 관련 검색
 

@@ -26,12 +26,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 908500a333303857ac88d27c76b285464913ff1c
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MTE95
+ms.openlocfilehash: 53ffc893b63447ab75a439ea1e093ddaf4b75645
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526297"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067133"
 ---
 # <a name="error-unable-to-start-debugging-on-the-web-server"></a>오류: 웹 서버에서 디버깅을 시작할 수 없습니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "57526297"
 - [원격 서버 오류를 반환합니다.](#server_error)
 - [ASP.NET 디버깅을 시작할 수 없습니다.](#aspnet)
 - [디버거가 원격 컴퓨터에 연결할 수 없습니다.](#cannot_connect)
-- [ 일반적인 구성 오류는 도움말을 참조하십시오. 디버거 외부에서 웹 페이지를 실행 합니다. 추가 정보가 제공 될 수 있습니다.](#see_help)
+- [참조 일반적인 구성 오류에 대 한 도움말입니다. 디버거 외부에서 웹 페이지를 실행 합니다. 추가 정보가 제공 될 수 있습니다.](#see_help)
 
 ## <a name="IISlist"></a> IIS 시작 일치 하는 웹 사이트를 표시 하지 않습니다 url
 
@@ -104,7 +104,7 @@ ms.locfileid: "57526297"
 
 - 단계를 수행 하는 작동 하지 않습니다 또는 원격으로 디버깅 하는 경우 [IIS 구성을 확인](#vxtbshttpservererrorsthingstocheck)합니다.
 
-##  <a name="vxtbshttpservererrorsthingstocheck"></a> IIS 구성 확인
+## <a name="vxtbshttpservererrorsthingstocheck"></a> IIS 구성 확인
 
 문제를 해결 하려면 여기서 설명 하는 단계를 수행한 후 및 디버깅을 다시 시도 하기 전에 IIS를 다시 설정 해야 할 수 있습니다. 관리자 권한 명령 프롬프트를 열고 입력 하 여 이렇게 `iisreset`합니다.
 

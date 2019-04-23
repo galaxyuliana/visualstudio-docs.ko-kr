@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 77de080a9ec5a0e00c2990f436c081623790722e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ab8c437285a55013e2c0367865044ee12ba061ed
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612714"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071810"
 ---
 # <a name="registry-entries-for-vsto-add-ins"></a>VSTO 추가 기능에 대 한 레지스트리 항목
   Visual Studio를 사용하여 만든 VSTO 추가 기능을 배포할 때에는 특정 레지스트리 항목 집합을 만들어야 합니다. 이러한 레지스트리 항목은 Microsoft Office 애플리케이션에서 VSTO 추가 기능을 찾아 로드할 수 있는 정보를 제공합니다.
@@ -78,7 +78,7 @@ ms.locfileid: "56612714"
 |**LoadBehavior**|REG_DWORD|필수. 애플리케이션에서 VSTO 추가 기능 및 VSTO 추가 기능의 현재 상태(로드 또는 언로드)를 로드하려고 할 때 지정하는 값입니다.<br /><br /> 기본적으로 이 항목은 시작 시 VSTO 추가 기능을 로드하도록 지정하는 3으로 설정됩니다. 자세한 내용은 [LoadBehavior 값](#LoadBehavior)합니다. **참고:**  수정에서 VSTO 추가 기능 비활성화 하면 사용자, **LoadBehavior** 값을 **HKEY_CURRENT_USER** 레지스트리 하이브입니다. 각 사용자의 값에 대 한 합니다 **LoadBehavior** HKEY_CURRENT_USER 하이브의 값에는 기본값을 재정의 **LoadBehavior** 에 정의 된 합니다 **HKEY_LOCAL_MACHINE** hive입니다.|
 |**Manifest**|REG_SZ|필수 요소. VSTO 추가 기능에 대한 배포 매니페스트의 전체 경로입니다. 경로는 로컬 컴퓨터, 네트워크 공유(UNC) 또는 웹 서버(HTTP)의 위치일 수 있습니다.<br /><br /> Windows Installer를 사용하여 솔루션을 배포하는 경우 **매니페스트** 경로에 접두사 **file:///** 을 추가해야 합니다. 문자열도 추가 해야 합니다  **&#124;vstolocal** (즉, 파이프 문자 **&#124;** 뒤 **vstolocal**)이이 경로 끝에 있습니다. 그러면 솔루션이 ClickOnce 캐시가 아니라 설치 폴더에서 로드됩니다. 자세한 내용은 [Windows Installer를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-windows-installer.md)합니다. **참고:**  Visual Studio를 자동으로 추가 빌드할 때 VSTO 추가 기능에 개발 컴퓨터에는  **&#124;vstolocal** 문자열을이 레지스트리 항목입니다.|
 
-###  <a name="OutlookEntries"></a> Outlook 양식 영역에 대 한 레지스트리 항목
+### <a name="OutlookEntries"></a> Outlook 양식 영역에 대 한 레지스트리 항목
  Outlook용 VSTO 추가 기능에 사용자 지정 양식 영역을 만들 경우 추가 레지스트리 항목을 사용하여 Outlook에 양식 영역을 등록합니다. 이러한 항목은 양식 영역을 지원하는 각 메시지 클래스에 대한 다른 레지스트리 키 아래에 만들어집니다. 다음 위치에서 이러한 레지스트리 키가 있는 *루트* 됩니다 **HKEY_CURRENT_USER** 또는 **HKEY_LOCAL_MACHINE**합니다.
 
  *루트*\Software\Microsoft\Office\Outlook\FormRegions\\*message 클래스*
@@ -87,7 +87,7 @@ ms.locfileid: "56612714"
 
  양식 영역 레지스트리 항목에 대 한 자세한 내용은 참조 하세요. [사용자 지정 양식에서 양식 영역의 위치를 지정](/office/vba/outlook/Concepts/Creating-Form-Regions/specify-the-location-of-a-form-region-in-a-custom-form)합니다. Outlook 양식 영역에 대 한 자세한 내용은 참조 하세요. [만들 Outlook 양식 영역](../vsto/creating-outlook-form-regions.md)합니다.
 
-##  <a name="LoadBehavior"></a> LoadBehavior 값
+## <a name="LoadBehavior"></a> LoadBehavior 값
  합니다 **LoadBehavior** 아래에 있는 항목을 *루트*\Software\Microsoft\Office\\*응용 프로그램 이름*\Addins\\*추가 ID* 키에는 VSTO 추가 기능의 런타임 동작을 지정 하는 값의 비트 조합입니다. 가장 낮은 순서 비트(값 0과 1)는 VSTO 추가 기능이 현재 로드되었는지 여부를 나타냅니다. 다른 비트는 애플리케이션에서 VSTO 추가 기능을 로드하는 시기를 나타냅니다.
 
  일반적으로 **LoadBehavior** 항목 0, 3 또는 16 (10 진수)로 설정 됩니다는 VSTO 추가-설치 될 때 최종 사용자 컴퓨터에 있습니다. VSTO 추가 기능을 빌드하거나 게시할 때, 기본적으로 Visual Studio는 VSTO 추가 기능의 **LoadBehavior** 항목을 3으로 설정합니다.

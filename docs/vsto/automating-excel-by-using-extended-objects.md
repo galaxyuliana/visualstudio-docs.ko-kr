@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 03ea220bf886352a05cc67bdd44a9504dcd86964
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a8a08b58871652cea6332f4239e9da98b28f28e0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600856"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070058"
 ---
 # <a name="automate-excel-by-using-extended-objects"></a>확장 된 개체를 사용 하 여 Excel 자동화
   Visual Studio에서 Excel 솔루션을 개발하는 경우 솔루션에서 *호스트 항목* 및 *호스트 컨트롤*을 사용할 수 있습니다. Excel 개체 모델, 즉 Excel용 주 interop 어셈블리가 노출하는 개체 모델에서 일반적으로 사용되는 특정 개체(예: <xref:Microsoft.Office.Interop.Excel.Worksheet> 및 <xref:Microsoft.Office.Interop.Excel.Range> )를 확장하는 개체입니다. 확장된 개체는 기반이 되는 Excel 개체처럼 동작하지만 개체에 새 이벤트 및 데이터 바인딩 기능 등을 더 추가합니다.
@@ -37,11 +37,11 @@ ms.locfileid: "56600856"
 ## <a name="excel-host-items"></a>Excel 호스트 항목
  Excel 프로젝트는 여러 호스트 항목에 대한 액세스를 제공합니다.
 
--   <xref:Microsoft.Office.Tools.Excel.Worksheet>. 이 호스트 항목 포함 되어 있으며 프로젝트의 워크시트를 나타냅니다. 또한 호스트 컨트롤 및 Windows Forms 컨트롤을 포함하여 관리되는 컨트롤에 대한 컨테이너 역할을 하고 해당 화면에 컨트롤에 대한 정보를 유지 관리합니다. 자세한 내용은 [워크시트 호스트 항목](../vsto/worksheet-host-item.md)합니다.
+- <xref:Microsoft.Office.Tools.Excel.Worksheet>. 이 호스트 항목 포함 되어 있으며 프로젝트의 워크시트를 나타냅니다. 또한 호스트 컨트롤 및 Windows Forms 컨트롤을 포함하여 관리되는 컨트롤에 대한 컨테이너 역할을 하고 해당 화면에 컨트롤에 대한 정보를 유지 관리합니다. 자세한 내용은 [워크시트 호스트 항목](../vsto/worksheet-host-item.md)합니다.
 
--   <xref:Microsoft.Office.Tools.Excel.Workbook>. 이 호스트 항목은 프로젝트의 통합 문서를 나타내며 통합 문서의 모든 워크시트에서 공유하는 구성 요소에 대한 컨테이너 역할을 합니다. 자세한 내용은 [통합 문서 호스트 항목](../vsto/workbook-host-item.md)합니다.
+- <xref:Microsoft.Office.Tools.Excel.Workbook>. 이 호스트 항목은 프로젝트의 통합 문서를 나타내며 통합 문서의 모든 워크시트에서 공유하는 구성 요소에 대한 컨테이너 역할을 합니다. 자세한 내용은 [통합 문서 호스트 항목](../vsto/workbook-host-item.md)합니다.
 
--   <xref:Microsoft.Office.Tools.Excel.ChartSheet>. 이 호스트 항목은 차트만 포함하고 이벤트를 노출하는 Excel의 워크시트를 나타냅니다.
+- <xref:Microsoft.Office.Tools.Excel.ChartSheet>. 이 호스트 항목은 차트만 포함하고 이벤트를 노출하는 Excel의 워크시트를 나타냅니다.
 
      Microsoft Office Excel 문서 수준 사용자 지정 프로젝트에서 디자인 타임에 차트 시트를 새 시트로 추가하면 Visual Studio에서 자동으로 <xref:Microsoft.Office.Tools.Excel.ChartSheet> 호스트 항목을 만듭니다.
 
@@ -52,13 +52,13 @@ ms.locfileid: "56600856"
 
  Excel 프로젝트에서 사용할 수 있는 호스트 컨트롤에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [차트 컨트롤](../vsto/chart-control.md)
+- [차트 컨트롤](../vsto/chart-control.md)
 
--   [ListObject 컨트롤](../vsto/listobject-control.md)
+- [ListObject 컨트롤](../vsto/listobject-control.md)
 
--   [NamedRange 컨트롤](../vsto/namedrange-control.md)
+- [NamedRange 컨트롤](../vsto/namedrange-control.md)
 
--   [XmlMappedRange 컨트롤](../vsto/xmlmappedrange-control.md)
+- [XmlMappedRange 컨트롤](../vsto/xmlmappedrange-control.md)
 
 ## <a name="see-also"></a>참고자료
 - [방법: ListObject 컨트롤을 데이터로 채우기](../vsto/how-to-fill-listobject-controls-with-data.md)

@@ -11,12 +11,12 @@ ms.assetid: d0329fa8-7a8d-4d30-b67b-6f2a97b75a30
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 130d1b6b783a07261b9825c37e21fa2eeb008954
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 738b2608d5afa188cad38d92ed613307d2919ca0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981752"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068732"
 ---
 # <a name="test-area-4-check-in"></a>테스트 영역 4: 체크 인
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,11 +35,11 @@ ms.locfileid: "58981752"
   
 ## <a name="common-expected-behavior"></a>예상 되는 일반적인 동작  
   
--   프로젝트 및 솔루션 또는 프로젝트를 소스 제어에 추가 된 파일에 표시 합니다 **체크** 대화 상자와 **보류 중인 체크 인** 창입니다.  
+- 프로젝트 및 솔루션 또는 프로젝트를 소스 제어에 추가 된 파일에 표시 합니다 **체크** 대화 상자와 **보류 중인 체크 인** 창입니다.  
   
--   체크 인 후 소스 제어에 추가 항목이 나타납니다.  
+- 체크 인 후 소스 제어에 추가 항목이 나타납니다.  
   
--   체크 인 한 후 업데이트 된 항목은 저장소에서 버전이 적절히 관리입니다.  
+- 체크 인 한 후 업데이트 된 항목은 저장소에서 버전이 적절히 관리입니다.  
   
 ## <a name="test-cases"></a>테스트 사례  
  체크 인 테스트 영역에 대 한 특정 테스트 사례는 다음과 같습니다.  

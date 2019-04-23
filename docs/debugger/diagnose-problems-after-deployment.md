@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 081abc8765e1f95b723a598f4fedbaef4357c539
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 2adf068fb1e0a668cb6382398601f6aca4743efa
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655177"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070422"
 ---
 # <a name="diagnose-problems-after-deployment-using-intellitrace-c-visual-basic"></a>IntelliTrace(C#, Visual Basic)를 사용하여 배포 후의 문제 진단
 
@@ -25,20 +25,20 @@ IntelliTrace를 사용하여 배포한 후 ASP.NET 웹앱의 문제를 진단하
 
  **다음이 필요합니다:**
 
--   빌드를 설정하기 위한 Visual Studio, Azure DevOps 또는 Team Foundation Server 2017, 2015, 2013, 2012 또는 2010
+- 빌드를 설정하기 위한 Visual Studio, Azure DevOps 또는 Team Foundation Server 2017, 2015, 2013, 2012 또는 2010
 
--   앱을 모니터링하고 진단 데이터를 기록하기 위한 Microsoft Monitoring Agent
+- 앱을 모니터링하고 진단 데이터를 기록하기 위한 Microsoft Monitoring Agent
 
--   IntelliTrace를 사용하여 진단 데이터를 검토하고 코드를 디버그하기 위한 Visual Studio Enterprise(Professional 또는 Community Edition 아님)
+- IntelliTrace를 사용하여 진단 데이터를 검토하고 코드를 디버그하기 위한 Visual Studio Enterprise(Professional 또는 Community Edition 아님)
 
-##  <a name="SetUpBuild"></a> 1단계: 릴리스를 사용 하 여 빌드 정보를 포함 합니다.
+## <a name="SetUpBuild"></a> 1단계: 릴리스를 사용 하 여 빌드 정보를 포함 합니다.
  빌드 프로세스를 설정하여 웹 프로젝트의 빌드 매니페스트(*BuildInfo.config* 파일)를 만들어 이 매니페스트를 릴리스에 포함시킵니다. 이 매니페스트에는 특정 빌드를 만드는 데 사용된 프로젝트, 소스 제어 및 빌드 시스템에 대한 정보가 포함됩니다. 기록된 이벤트를 살펴보기 위해 IntelliTrace 로그를 열면 Visual Studio가 이 매니페스트 정보를 통해 일치하는 소스 및 기호를 간단히 찾을 수 있습니다.
 
-###  <a name="AutomatedBuild"></a> Team Foundation Server를 사용하여 자동화 빌드용 빌드 매니페스트 만들기
+### <a name="AutomatedBuild"></a> Team Foundation Server를 사용하여 자동화 빌드용 빌드 매니페스트 만들기
 
  Team Foundation 버전 제어 또는 GIT에서 다음 단계를 수행합니다.
 
-####  <a name="TFS2017"></a> Azure DevOps 및 Team Foundation Server 2017
+#### <a name="TFS2017"></a> Azure DevOps 및 Team Foundation Server 2017
 
 Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어 있지 않습니다. 이 파일은 사용되지 않으므로 제거되었습니다. 배포 후 ASP.NET 웹앱을 디버그하려면 다음 방법 중 하나를 사용하세요.
 
@@ -46,18 +46,18 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
 
 * IntelliTrace를 사용해야 하는 경우 Visual Studio에서 프로젝트를 열고 일치하는 빌드의 기호 파일을 로드합니다. **모듈** 창에서 또는 **도구** > **옵션** > **디버깅** > **기호**에서 기호를 구성하여 기호 파일을 로드할 수 있습니다.
 
-####  <a name="TFS2013"></a> Team Foundation Server 2013
+#### <a name="TFS2013"></a> Team Foundation Server 2013
  빌드 파이프라인을 설정하여 소스, 빌드 및 기호의 위치를 빌드 매니페스트(BuildInfo.config 파일)에 추가합니다. Team Foundation Build가 이 파일을 자동으로 만들어 프로젝트의 출력 폴더에 저장합니다.
 
-1.  [빌드 파이프라인을 편집 하거나 새 빌드 파이프라인을 만듭니다.](/azure/devops/pipelines/get-started-designer?view=vsts)
+1. [빌드 파이프라인을 편집 하거나 새 빌드 파이프라인을 만듭니다.](/azure/devops/pipelines/get-started-designer?view=vsts)
 
      ![TFS 2013에서 빌드 파이프라인 보기](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
 
-2.  기본 템플릿(TfvcTemplate.12.xaml) 또는 사용자 지정 템플릿을 선택합니다.
+2. 기본 템플릿(TfvcTemplate.12.xaml) 또는 사용자 지정 템플릿을 선택합니다.
 
      ![빌드 프로세스 템플릿 선택 &#45; TFS 2013](../debugger/media/ffr_tfs2013buildprocesstemplate.png "FFR_TFS2013BuildProcessTemplate")
 
-3.  소스가 자동으로 인덱싱되도록 기호(PDB) 파일을 저장할 위치를 지정합니다.
+3. 소스가 자동으로 인덱싱되도록 기호(PDB) 파일을 저장할 위치를 지정합니다.
 
      사용자 지정 템플릿을 사용하는 경우 해당 템플릿에 소스를 인덱싱하는 활동이 있는지 확인합니다. 나중에 기호 파일을 저장할 위치를 지정하는 MSBuild 인수를 추가합니다.
 
@@ -65,13 +65,13 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
 
      기호에 대한 자세한 내용은 [기호 데이터 게시](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols?view=vsts)를 참조하세요.
 
-4.  이 MSBuild 인수를 추가하여 TFS 및 기호 위치를 빌드 매니페스트 파일에 포함합니다.
+4. 이 MSBuild 인수를 추가하여 TFS 및 기호 위치를 빌드 매니페스트 파일에 포함합니다.
 
      **/p:IncludeServerNameInBuildInfo=True**
 
      웹 서버에 액세스할 수 있는 사용자는 누구나 빌드 매니페스트에서 이러한 위치를 참조할 수 있습니다. 원본 서버가 안전한지 확인합니다.
 
-5.  사용자 지정 템플릿을 사용하는 경우 이 MSBuild 인수를 추가하여 기호 파일을 저장할 위치를 지정합니다.
+5. 사용자 지정 템플릿을 사용하는 경우 이 MSBuild 인수를 추가하여 기호 파일을 저장할 위치를 지정합니다.
 
      **/p:BuildSymbolStorePath=**\<*기호 경로*>
 
@@ -87,41 +87,41 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
 
      웹 서버에 액세스할 수 있는 사용자는 누구나 빌드 매니페스트에서 이러한 위치를 참조할 수 있습니다. 원본 서버가 안전한지 확인합니다.
 
-6.  새 빌드를 실행합니다.
+6. 새 빌드를 실행합니다.
 
     로 [2 단계: 앱 릴리스](#DeployRelease)
 
-####  <a name="TFS2012_2010"></a> Team Foundation Server 2012 또는 2010
+#### <a name="TFS2012_2010"></a> Team Foundation Server 2012 또는 2010
  다음 단계에 따라 프로젝트에 대한 빌드 매니페스트(BuildInfo.config 파일)를 자동으로 만들고 프로젝트의 출력 폴더에 파일을 저장합니다. 이 파일은 출력 폴더에 "*ProjectName*.BuildInfo.config"로 표시되지만 앱 게시 후 배포 폴더에는 "BuildInfo.config"라는 이름으로 바뀝니다.
 
-1.  Team Foundation Build 서버에 임의 버전의 Visual Studio 2013을 설치합니다.
+1. Team Foundation Build 서버에 임의 버전의 Visual Studio 2013을 설치합니다.
 
-2.  소스가 자동으로 인덱싱되도록 빌드 파이프라인에서 기호를 저장할 위치를 지정합니다.
+2. 소스가 자동으로 인덱싱되도록 빌드 파이프라인에서 기호를 저장할 위치를 지정합니다.
 
      사용자 지정 템플릿을 사용하는 경우 해당 템플릿에 소스를 인덱싱하는 활동이 있는지 확인합니다.
 
-3.  빌드 파이프라인에 다음 MSBuild 인수를 추가합니다.
+3. 빌드 파이프라인에 다음 MSBuild 인수를 추가합니다.
 
-    -   **/p:VisualStudioVersion=12.0**
+    - **/p:VisualStudioVersion=12.0**
 
-    -   **/p:MSBuildAssemblyVersion=12.0**
+    - **/p:MSBuildAssemblyVersion=12.0**
 
-    -   **/tv:12.0**
+    - **/tv:12.0**
 
-    -   **/p:IncludeServerNameInBuildInfo=True**
+    - **/p:IncludeServerNameInBuildInfo=True**
 
-    -   **/p:BuildSymbolStorePath=**\<*기호 경로*>
+    - **/p:BuildSymbolStorePath=**\<*기호 경로*>
 
-4.  새 빌드를 실행합니다.
+4. 새 빌드를 실행합니다.
 
     로 [2 단계: 앱 릴리스](#DeployRelease)
 
-###  <a name="ManualBuild"></a> Visual Studio를 사용하여 수동 빌드용 빌드 매니페스트 만들기
+### <a name="ManualBuild"></a> Visual Studio를 사용하여 수동 빌드용 빌드 매니페스트 만들기
  다음 단계에 따라 프로젝트에 대한 빌드 매니페스트(BuildInfo.config 파일)를 자동으로 만들고 프로젝트의 출력 폴더에 파일을 저장합니다. 이 파일은 출력 폴더에 "*ProjectName*.BuildInfo.config"로 표시되지만 앱 게시 후 배포 폴더에는 "BuildInfo.config"라는 이름으로 바뀝니다.
 
-1.  **솔루션 탐색기**에서 웹 프로젝트를 언로드합니다.
+1. **솔루션 탐색기**에서 웹 프로젝트를 언로드합니다.
 
-2.  프로젝트 파일(.csproj, .vbproj)을 엽니다. 다음 줄을 추가합니다.
+2. 프로젝트 파일(.csproj, .vbproj)을 엽니다. 다음 줄을 추가합니다.
 
     ```xml
     <!-- **************************************************** -->
@@ -137,13 +137,13 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
     <!-- **************************************************** -->
     ```
 
-3.  업데이트된 프로젝트 파일을 체크 인합니다.
+3. 업데이트된 프로젝트 파일을 체크 인합니다.
 
-4.  새 빌드를 실행합니다.
+4. 새 빌드를 실행합니다.
 
     로 [2 단계: 앱 릴리스](#DeployRelease)
 
-###  <a name="MSBuild"></a> MSBuild.exe를 사용하여 수동 빌드용 빌드 매니페스트 만들기
+### <a name="MSBuild"></a> MSBuild.exe를 사용하여 수동 빌드용 빌드 매니페스트 만들기
  빌드를 실행할 때 다음의 빌드 인수를 추가합니다.
 
  **/p:GenerateBuildInfoConfigFile=True**
@@ -152,7 +152,7 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
 
  **/p:BuildSymbolStorePath=**\<*기호 경로*>
 
-##  <a name="DeployRelease"></a> 2단계: 앱 릴리스
+## <a name="DeployRelease"></a> 2단계: 앱 릴리스
  빌드 프로세스에서 만들어진 [Web.Deploy 패키지](https://msdn.microsoft.com/library/dd394698.aspx) 를 사용하여 앱을 배포할 경우 빌드 매니페스트는 자동으로 "*ProjectName*.BuildInfo.config"에서 "BuildInfo.config"라는 이름으로 바뀌어 웹 서버에서 앱의 Web.config 파일과 같은 폴더에 저장됩니다.
 
  다른 방법을 사용하여 앱을 배포할 경우에는 빌드 매니페스트가 "*ProjectName*.BuildInfo.config"에서 "BuildInfo.config"라는 이름으로 바뀌어 웹 서버에서 앱의 Web.config 파일과 같은 폴더에 저장되었는지 확인해야 합니다.
@@ -160,14 +160,14 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
 ## <a name="step-3-monitor-your-app"></a>3단계: 앱 모니터링
  앱의 문제를 모니터링하고 진단 이벤트를 기록하고 해당 이벤트를 IntelliTrace 로그 파일에 저장할 수 있도록 웹 서버에 애플리케이션 성능 모니터링을 설정합니다. [배포 문제에 대해 릴리스 모니터링](../debugger/using-the-intellitrace-stand-alone-collector.md)을 참조하세요.
 
-##  <a name="InvestigateEvents"></a> 4 단계: 문제 찾기
+## <a name="InvestigateEvents"></a> 4 단계: 문제 찾기
  IntelliTrace를 사용하여 기록된 이벤트를 검토하고 코드를 디버그하려면 개발 컴퓨터 또는 다른 컴퓨터에 Visual Studio Enterprise가 있어야 합니다. 문제 진단을 도와주는 CodeLens, 디버거 지도 및 코드 맵 등의 도구를 사용할 수도 있습니다.
 
 ### <a name="open-the-intellitrace-log-and-matching-solution"></a>IntelliTrace 로그 및 연결 솔루션 열기
 
-1.  Visual Studio Enterprise에서 IntelliTrace 로그(.iTrace 파일)를 엽니다. 같은 컴퓨터에 Visual Studio Enterprise가 설치된 경우에는 파일을 두 번 클릭합니다.
+1. Visual Studio Enterprise에서 IntelliTrace 로그(.iTrace 파일)를 엽니다. 같은 컴퓨터에 Visual Studio Enterprise가 설치된 경우에는 파일을 두 번 클릭합니다.
 
-2.  프로젝트가 솔루션에 포함되어 빌드되지 않은 경우 Visual Studio가 일치하는 솔루션이나 프로젝트를 자동으로 열도록 하려면 **솔루션 열기** 를 선택합니다. [Q: IntelliTrace 로그에 배포된 애플리케이션에 대한 정보가 누락됐습니다. 그 이유는 무엇입니까? 어떻게 해야 합니까?](#InvalidConfigFile)
+2. 프로젝트가 솔루션에 포함되어 빌드되지 않은 경우 Visual Studio가 일치하는 솔루션이나 프로젝트를 자동으로 열도록 하려면 **솔루션 열기** 를 선택합니다. [Q: IntelliTrace 로그에 배포된 애플리케이션에 대한 정보가 누락됐습니다. 그 이유는 무엇입니까? 어떻게 해야 합니까?](#InvalidConfigFile)
 
      Visual Studio는 일치하는 솔루션 또는 프로젝트를 열 때 보류 중인 변경 내용을 자동으로 보류하지 않습니다. 이 보류 집합에 대해 자세한 정보를 가져오려면 **출력** 창 또는 **팀 탐색기**를 확인합니다.
 
@@ -191,13 +191,13 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
 
 ### <a name="diagnose-a-performance-problem"></a>성능 문제 진단
 
-1.  **성능 위반**에서 기록된 성능 이벤트, 총 실행 시간 및 기타 이벤트 정보를 검토합니다. 그런 다음 특정 성능 이벤트 중 호출된 메서드를 자세히 살펴봅니다.
+1. **성능 위반**에서 기록된 성능 이벤트, 총 실행 시간 및 기타 이벤트 정보를 검토합니다. 그런 다음 특정 성능 이벤트 중 호출된 메서드를 자세히 살펴봅니다.
 
      ![성능 이벤트 정보 보기](../debugger/media/ffr_itsummarypageperformance.png "FFR_ITSummaryPagePerformance")
 
      이벤트를 두 번 클릭할 수도 있습니다.
 
-2.  이벤트 페이지에서 이러한 호출의 실행 시간을 검토합니다. 실행 트리에서 느린 호출을 찾습니다.
+2. 이벤트 페이지에서 이러한 호출의 실행 시간을 검토합니다. 실행 트리에서 느린 호출을 찾습니다.
 
      가장 느린 호출은 여러 번 호출하거나 중첩될 때 등의 경우 자신의 섹션에 나타납니다.
 
@@ -219,7 +219,7 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
 
 ### <a name="diagnose-an-exception"></a>예외 진단
 
-1.  **예외 데이터**에서 기록된 예외 이벤트, 해당 유형, 메시지 및 예외가 발생한 시간을 검토합니다. 코드를 자세히 살펴보려면 예외 그룹의 가장 최근 이벤트부터 디버깅을 시작합니다.
+1. **예외 데이터**에서 기록된 예외 이벤트, 해당 유형, 메시지 및 예외가 발생한 시간을 검토합니다. 코드를 자세히 살펴보려면 예외 그룹의 가장 최근 이벤트부터 디버깅을 시작합니다.
 
      ![예외 이벤트에서 디버깅 시작](../debugger/media/ffr_itsummarypageexception.png "FFR_ITSummaryPageException")
 
@@ -233,33 +233,33 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
 
      [IntelliTrace 로그에 포함되어 있는 기타 모든 이벤트 및 정보는 무엇인가요?](../debugger/using-saved-intellitrace-data.md)
 
-###  <a name="WhatElse"></a> 여기에서 무엇을 할 수 있습니까?
+### <a name="WhatElse"></a> 여기에서 무엇을 할 수 있습니까?
 
--   [이 코드에 대한 자세한 정보를 알아봅니다](../ide/find-code-changes-and-other-history-with-codelens.md). 이 코드에 대한 참조, 변경 기록, 관련 버그, 작업 항목, 코드 검토 또는 단위 테스트를 찾으려면 편집기에서 CodeLens 표시기를 사용합니다(편집기를 종료하지 않고).
+- [이 코드에 대한 자세한 정보를 알아봅니다](../ide/find-code-changes-and-other-history-with-codelens.md). 이 코드에 대한 참조, 변경 기록, 관련 버그, 작업 항목, 코드 검토 또는 단위 테스트를 찾으려면 편집기에서 CodeLens 표시기를 사용합니다(편집기를 종료하지 않고).
 
      ![CodeLens &#45; 이 코드에 대한 참조 보기](../debugger/media/ffr_itsummarypageperformancecodelensreferences.png "FFR_ITSummaryPagePerformanceCodeLensReferences")
 
      ![CodeLens &#45; 이 코드에 대한 변경 기록 보기](../debugger/media/ffr_itsummarypageperformancecodelensauthors.png "FFR_ITSummaryPagePerformanceCodeLensAuthors")
 
--   [디버그할 때 코드 내에서 위치를 매핑합니다.](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md) 디버깅 세션 중에 호출된 메서드를 시각적으로 추적하려면 호출 스택을 매핑합니다.
+- [디버그할 때 코드 내에서 위치를 매핑합니다.](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md) 디버깅 세션 중에 호출된 메서드를 시각적으로 추적하려면 호출 스택을 매핑합니다.
 
      ![디버그하는 동안 호출 스택 매핑](../debugger/media/ffr_itsummarypageperformancedebuggermap.png "FFR_ITSummaryPagePerformanceDebuggerMap")
 
-###  <a name="FAQ"></a> Q & A
+### <a name="FAQ"></a> Q & A
 
-####  <a name="WhyInclude"></a> Q: 프로젝트에 대한 정보, 소스 제어, 빌드 및 기호를 릴리스에 포함해야 하는 이유는?
+#### <a name="WhyInclude"></a> Q: 프로젝트에 대한 정보, 소스 제어, 빌드 및 기호를 릴리스에 포함해야 하는 이유는?
  Visual Studio는 이러한 정보를 사용하여, 디버깅하려는 릴리스에 맞는 솔루션 및 소스를 찾아냅니다. IntelliTrace 로그를 열고 이벤트를 선택하여 디버깅을 시작하면, Visual Studio는 기호를 사용하여 이벤트가 발생한 코드를 찾아 보여줍니다. 그런 다음 기록된 값을 살펴보고 코드 실행 이전 또는 이후 위치로 이동할 수 있습니다.
 
  TFS를 사용하는데 이 정보가 빌드 매니페스트(BuildInfo.config 파일)에 없는 경우 Visual Studio는 현재 연결된 TFS에서 일치하는 소스 및 기호를 찾습니다. Visual Studio가 올바른 TFS나 일치하는 소스를 찾을 수 없는 경우에는 다른 TFS를 선택하라는 메시지가 표시됩니다.
 
-####  <a name="InvalidConfigFile"></a> Q: IntelliTrace 로그에 배포된 애플리케이션에 대한 정보가 누락됐습니다. 그 이유는 무엇입니까? 어떻게 해야 합니까?
+#### <a name="InvalidConfigFile"></a> Q: IntelliTrace 로그에 배포된 애플리케이션에 대한 정보가 누락됐습니다. 그 이유는 무엇입니까? 어떻게 해야 합니까?
  개발 컴퓨터에서 배포하거나 배포 시 TFS에 연결되어 있지 않은 경우에 이러한 문제가 발생할 수 있습니다.
 
-1.  프로젝트의 배포 폴더로 이동합니다.
+1. 프로젝트의 배포 폴더로 이동합니다.
 
-2.  빌드 매니페스트(BuildInfo.config 파일)를 찾아 엽니다.
+2. 빌드 매니페스트(BuildInfo.config 파일)를 찾아 엽니다.
 
-3.  필요한 정보가 파일에 포함되어 있는지 확인합니다.
+3. 필요한 정보가 파일에 포함되어 있는지 확인합니다.
 
 - **ProjectName**
 
@@ -356,32 +356,32 @@ Visual Studio 2017 이상 버전에는 *BuildInfo.config* 파일이 포함되어
     </Build>
     ```
 
-####  <a name="IneligibleWorkspace"></a> Q: Visual Studio에 내가 선택한 작업 영역이 적합하지 않다고 표시되는 이유는 무엇인가요?
+#### <a name="IneligibleWorkspace"></a> Q: Visual Studio에 내가 선택한 작업 영역이 적합하지 않다고 표시되는 이유는 무엇인가요?
  **A:** 선택된 작업 영역에는 소스 제어 폴더와 로컬 폴더 간의 매핑이 없습니다. 이 작업 영역에 대한 매핑을 만들려면 **관리**를 선택합니다. 그렇지 않으면, 이미 매핑된 작업 영역을 선택하거나 새 작업 영역 만듭니다.
 
  ![매핑된 작업 영역 없이 소스 제어에서 열기](../debugger/media/ffr_openprojectfromsourcecontrol_notmapped.png "FFR_OpenProjectFromSourceControl_NotMapped")
 
-####  <a name="ChooseTeamProject"></a> Q: 팀 컬렉션이나 다른 컬렉션을 선택할 때까지 계속할 수 없는 이유는 무엇입니까?
+#### <a name="ChooseTeamProject"></a> Q: 팀 컬렉션이나 다른 컬렉션을 선택할 때까지 계속할 수 없는 이유는 무엇입니까?
  **A:** 이 문제는 다음과 같은 이유로 인해 발생할 수 있습니다.
 
--   Visual Studio가 TFS에 연결되어 있지 않습니다.
+- Visual Studio가 TFS에 연결되어 있지 않습니다.
 
      ![소스 제어에서 열기 &#45; 연결되지 않음](../debugger/media/ffr_openprojectfromsourcecontrol_notconnected.png "FFR_OpenProjectFromSourceControl_NotConnected")
 
--   Visual Studio가 사용자의 현재 팀 컬렉션에서 솔루션 또는 프로젝트를 찾지 못했습니다.
+- Visual Studio가 사용자의 현재 팀 컬렉션에서 솔루션 또는 프로젝트를 찾지 못했습니다.
 
      빌드 매니페스트 파일(\<*ProjectName*>.BuildInfo.config)에서 Visual Studio가 일치하는 소스를 찾을 수 있는 위치를 지정하지 않으면 Visual Studio는 현재 연결된 TFS를 사용하여 일치하는 솔루션 또는 프로젝트를 찾습니다. 현재 팀 컬렉션에 일치하는 소스가 없는 경우 Visual Studio는 다른 팀 컬렉션에 연결할 것인지 묻는 메시지를 표시합니다.
 
--   Visual Studio가 빌드 매니페스트 파일(\<*ProjectName*>.BuildInfo.config)로 지정된 컬렉션에서 솔루션 또는 프로젝트를 찾지 못했습니다.
+- Visual Studio가 빌드 매니페스트 파일(\<*ProjectName*>.BuildInfo.config)로 지정된 컬렉션에서 솔루션 또는 프로젝트를 찾지 못했습니다.
 
      새 TFS로 마이그레이션했기 때문에 지정된 TFS에는 더 이상 일치하는 소스가 없거나 존재하지 않을 수 있습니다. 지정한 TFS가 존재하지 않는 경우 Visual Studio는 1분 정도 후에 시간 초과된 다음 다른 컬렉션에 연결하라는 메시지를 표시할 수 있습니다. 계속하려면 올바른 TFS 서버에 연결합니다.
 
      ![소스 제어에서 열기 &#45; 마이그레이션됨](../debugger/media/ffr_openprojectfromsourcecontrol_migrated.png "FFR_OpenProjectFromSourceControl_Migrated")
 
-####  <a name="WhatWorkspace"></a> Q: 작업 영역 이란?
+#### <a name="WhatWorkspace"></a> Q: 작업 영역 이란?
  **A:** [작업 영역은 소스 사본을 저장](/azure/devops/repos/tfvc/create-work-workspaces?view=vsts) 하므로 작업을 체크 인하기 전에 개별적으로 개발하고 테스트할 수 있습니다. 발견된 솔루션 또는 프로젝트에 특별히 매핑된 작업 영역이 아직 없는 경우 Visual Studio는 사용 가능한 작업 영역을 선택하거나 기본 작업 영역 이름으로 사용자 컴퓨터 이름을 사용하는 새 작업 영역을 만들 것인지 묻는 메시지를 표시합니다.
 
-####  <a name="UntrustedSymbols"></a> Q: 신뢰할 수 없는 기호에 대한 메시지를 받는 이유는 무엇인가요?
+#### <a name="UntrustedSymbols"></a> Q: 신뢰할 수 없는 기호에 대한 메시지를 받는 이유는 무엇인가요?
  ![신뢰할 수 없는 기호 경로로 디버그하나요?](../debugger/media/ffr_ituntrustedsymbolpaths.png "FFR_ITUntrustedSymbolPaths")
 
  **A:** 이 메시지는 빌드 매니페스트 파일(\<*ProjectName*>.BuildInfo.config)의 기호 경로가 신뢰하는 기호 경로의 목록에 포함되지 않을 때 나타납니다. 디버거 옵션에서 기호 경로 목록에 경로를 추가할 수 있습니다.

@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ff3fc897c0b413d6882584671f9cebe1ef73d316
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 6e867c9e83bf353e57d75ee611fe1074efcc9cfe
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335313"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070383"
 ---
 # <a name="service-essentials"></a>서비스 필수 항목
 서비스는 두 Vspackage 간의 계약입니다. 하나의 VSPackage를 사용 하는 다른 VSPackage에 대 한 인터페이스의 특정 집합을 제공 합니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 다른 Vspackage에 서비스를 제공 하는 Vspackage의 컬렉션인 됩니다.
@@ -68,15 +68,15 @@ ms.locfileid: "56335313"
 
 다행 스럽게도 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 대부분의 경우 올바르게 작동 합니다.
 
--   다른 VSPackage에만 알려진 서비스를 제공 하는 VSPackage를 해당 서비스를 요청 하는 VSPackage는 VSPackage 서비스가 로드를 제공 하기 전에 배치 됩니다.
+- 다른 VSPackage에만 알려진 서비스를 제공 하는 VSPackage를 해당 서비스를 요청 하는 VSPackage는 VSPackage 서비스가 로드를 제공 하기 전에 배치 됩니다.
 
--   VSPackage에서 도구 창을 만들어지면 VSPackage는 도구 창이 생성 되기 전에 배치 됩니다.
+- VSPackage에서 도구 창을 만들어지면 VSPackage는 도구 창이 생성 되기 전에 배치 됩니다.
 
--   컨트롤 컨테이너는 VSPackage에서 만든 도구 창에서 호스트 되는 경우 VSPackage 컨트롤 컨테이너를 만들기 전에 배치 됩니다.
+- 컨트롤 컨테이너는 VSPackage에서 만든 도구 창에서 호스트 되는 경우 VSPackage 컨트롤 컨테이너를 만들기 전에 배치 됩니다.
 
 ### <a name="to-get-a-service-from-within-a-tool-window-or-control-container"></a>도구 창 또는 컨트롤 컨테이너 내에서 서비스를 가져오는
 
--   생성자, 도구 창 또는 컨트롤 컨테이너에이 코드를 삽입 합니다.
+- 생성자, 도구 창 또는 컨트롤 컨테이너에이 코드를 삽입 합니다.
 
     ```csharp
     IVsActivityLog log = Package.GetGlobalService(typeof(SVsActivityLog)) as IVsActivityLog;

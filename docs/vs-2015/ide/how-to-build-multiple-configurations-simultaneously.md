@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 431978a10081ec50e9eaca7e88a37f1447f953e4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 16a509c5a8fa46620e60fb5f1497c38d97ff6330
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54785870"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068316"
 ---
 # <a name="how-to-build-multiple-configurations-simultaneously"></a>방법: 여러 구성 동시 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,14 +29,14 @@ ms.locfileid: "54785870"
   
 ### <a name="to-build-a-project-in-multiple-build-configurations"></a>여러 빌드 구성에서 프로젝트를 빌드하려면  
   
-1.  메뉴 모음에서 **빌드**, **일괄 빌드**를 선택합니다.  
+1. 메뉴 모음에서 **빌드**, **일괄 빌드**를 선택합니다.  
   
-2.  **빌드** 열에서 프로젝트를 빌드할 구성에 대한 확인란을 선택합니다.  
+2. **빌드** 열에서 프로젝트를 빌드할 구성에 대한 확인란을 선택합니다.  
   
     > [!TIP]
     >  솔루션에 대한 빌드 구성을 만들거나 편집하려면 메뉴 모음에서 **빌드**, **Configuration Manager**를 선택하여 **Configuration Manager** 대화 상자를 엽니다. 솔루션에 대한 빌드 구성을 편집한 후 **일괄 빌드** 대화 상자에서 **다시 빌드** 단추를 클릭하여 솔루션의 프로젝트에 대한 모든 빌드 구성을 업데이트할 수 있습니다.  
   
-3.  **빌드** 또는 **다시 빌드** 단추를 선택하여 지정한 구성으로 프로젝트를 빌드합니다.  
+3. **빌드** 또는 **다시 빌드** 단추를 선택하여 지정한 구성으로 프로젝트를 빌드합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)   

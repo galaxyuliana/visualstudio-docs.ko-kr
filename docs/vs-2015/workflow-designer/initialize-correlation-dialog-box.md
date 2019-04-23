@@ -11,12 +11,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c5b841298c7d4683059599bb95b145514ab94873
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 75906a279c1047ff98c7ff8d82d7baf3efc8be0d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981671"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068858"
 ---
 # <a name="initialize-correlation-dialog-box"></a>상관 관계 초기화 대화 상자
 **상관 관계 초기화** 대화 상자에서 사용 됩니다 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 편집 하는 <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> 속성의는 <xref:System.ServiceModel.Activities.InitializeCorrelation> 활동. [!INCLUDE[crdefault](../includes/crdefault-md.md)] 합니다 [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md) 항목입니다.  
@@ -30,7 +30,7 @@ ms.locfileid: "58981671"
   
 ## <a name="to-launch-the-initialize-correlation-dialog-box"></a>상관 관계 초기화 대화 상자를 시작하려면  
   
--   클릭 **보기** 에 **InitializeCorrelation** 활동 디자이너나 선택는 <xref:System.ServiceModel.Activities.InitializeCorrelation> 에서 활동 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 옆 줄임표 단추를 클릭 하 고는 <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> 의 속성 속성 표입니다.  
+- 클릭 **보기** 에 **InitializeCorrelation** 활동 디자이너나 선택는 <xref:System.ServiceModel.Activities.InitializeCorrelation> 에서 활동 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 옆 줄임표 단추를 클릭 하 고는 <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> 의 속성 속성 표입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md)

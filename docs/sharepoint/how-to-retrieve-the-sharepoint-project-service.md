@@ -12,21 +12,21 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ce7b6705fcbafaf713faed6f937fcfa29bd013d6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 75caa29d90b41dc696ce586d50928b2adb0875f9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597377"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067523"
 ---
 # <a name="how-to-retrieve-the-sharepoint-project-service"></a>방법: SharePoint 프로젝트 서비스 검색
   SharePoint 프로젝트 서비스는 다음 형식의 솔루션에 액세스할 수 있습니다.
 
--   SharePoint 프로젝트 시스템 확장 프로젝트, 프로젝트 항목 확장 프로젝트 항목 형식 정의 등의 확장입니다. 이러한 유형의 확장에 대 한 자세한 내용은 참조 하세요. [SharePoint 프로젝트 시스템 확장](../sharepoint/extending-the-sharepoint-project-system.md)합니다.
+- SharePoint 프로젝트 시스템 확장 프로젝트, 프로젝트 항목 확장 프로젝트 항목 형식 정의 등의 확장입니다. 이러한 유형의 확장에 대 한 자세한 내용은 참조 하세요. [SharePoint 프로젝트 시스템 확장](../sharepoint/extending-the-sharepoint-project-system.md)합니다.
 
--   확장 된 **SharePoint 연결** 노드에서 **서버 탐색기**합니다. 이러한 유형의 확장에 대 한 자세한 내용은 참조 하세요. [서버 탐색기에서 SharePoint 연결 노드 확장](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)합니다.
+- 확장 된 **SharePoint 연결** 노드에서 **서버 탐색기**합니다. 이러한 유형의 확장에 대 한 자세한 내용은 참조 하세요. [서버 탐색기에서 SharePoint 연결 노드 확장](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)합니다.
 
--   Visual Studio 확장 기능, VSPackage 등의 다른 형식입니다.
+- Visual Studio 확장 기능, VSPackage 등의 다른 형식입니다.
 
 ## <a name="retrieve-the-service-in-project-system-extensions"></a>프로젝트 시스템 확장에서 서비스 검색
  SharePoint 프로젝트 시스템의 모든 확장에서 사용 하 여 프로젝트 서비스에 액세스할 수 있습니다 합니다 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.ProjectService%2A> 의 속성을 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject> 개체입니다.
@@ -35,9 +35,9 @@ ms.locfileid: "56597377"
 
 #### <a name="to-retrieve-the-service-in-a-project-extension"></a>프로젝트 확장에서 서비스를 검색
 
-1.  구현에는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> 인터페이스를 찾습니다는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> 메서드.
+1. 구현에는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> 인터페이스를 찾습니다는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> 메서드.
 
-2.  사용 된 *projectService* 매개 변수를 서비스에 액세스 합니다.
+2. 사용 된 *projectService* 매개 변수를 서비스에 액세스 합니다.
 
      다음 코드 예제에서는 프로젝트 서비스를 사용 하 여 메시지를 쓸 하는 방법에 설명 합니다 **출력** 창 및 **오류 목록** 간단한 프로젝트 확장에는 창입니다.
 
@@ -48,9 +48,9 @@ ms.locfileid: "56597377"
 
 #### <a name="to-retrieve-the-service-in-a-project-item-extension"></a>프로젝트 항목 확장에서 서비스를 검색
 
-1.  구현에는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> 인터페이스를 찾습니다는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension.Initialize%2A> 메서드.
+1. 구현에는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> 인터페이스를 찾습니다는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension.Initialize%2A> 메서드.
 
-2.  사용 하 여는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType.ProjectService%2A> 의 속성을 *projectItemType* 매개 변수는 서비스를 검색 합니다.
+2. 사용 하 여는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType.ProjectService%2A> 의 속성을 *projectItemType* 매개 변수는 서비스를 검색 합니다.
 
      다음 코드 예제에서는 프로젝트 서비스를 사용 하 여 메시지를 쓸 하는 방법에 설명 합니다 **출력** 창 및 **오류 목록** 의 간단한 확장에는 창은 **목록 정의** 프로젝트 항목입니다.
 
@@ -61,9 +61,9 @@ ms.locfileid: "56597377"
 
 #### <a name="to-retrieve-the-service-in-a-project-item-type-definition"></a>프로젝트 항목 형식 정의에서 서비스를 검색 하려면
 
-1.  구현에는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> 인터페이스를 찾습니다는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider.InitializeType%2A> 메서드.
+1. 구현에는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> 인터페이스를 찾습니다는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider.InitializeType%2A> 메서드.
 
-2.  사용 하 여는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition.ProjectService%2A> 의 속성을 *typeDefinition* 매개 변수는 서비스를 검색 합니다.
+2. 사용 하 여는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition.ProjectService%2A> 의 속성을 *typeDefinition* 매개 변수는 서비스를 검색 합니다.
 
      다음 코드 예제에서는 프로젝트 서비스를 사용 하 여 메시지를 쓸 하는 방법에 설명 합니다 **출력** 창 및 **오류 목록** 간단한 프로젝트 항목 형식 정의에 창.
 
@@ -77,9 +77,9 @@ ms.locfileid: "56597377"
 
 #### <a name="to-retrieve-the-service-in-a-server-explorer-extension"></a>서버 탐색기 확장에서 서비스를 검색 하려면
 
-1.  가져오기는 <xref:System.IServiceProvider> 에서 개체를 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.ServiceProvider%2A> 의 속성을 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode> 확장의 개체입니다.
+1. 가져오기는 <xref:System.IServiceProvider> 에서 개체를 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.ServiceProvider%2A> 의 속성을 <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode> 확장의 개체입니다.
 
-2.  사용 하 여는 <xref:System.IServiceProvider.GetService%2A> 요청 하는 메서드는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> 개체입니다.
+2. 사용 하 여는 <xref:System.IServiceProvider.GetService%2A> 요청 하는 메서드는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> 개체입니다.
 
      다음 코드 예제에서는 프로젝트 서비스를 사용 하 여 메시지를 쓸 하는 방법에 설명 합니다 **출력** 창 및 **오류 목록** 의목록노드를확장을추가하는바로가기메뉴에서창**서버 탐색기**합니다.
 

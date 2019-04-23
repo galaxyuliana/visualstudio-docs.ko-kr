@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8ac7771e657b546fdfced7033067d6de26256b96
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 28cc20d00a9846fa119666b01aea2efab3a128ac
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335651"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066418"
 ---
 # <a name="project-subtypes-design"></a>프로젝트 하위 형식 디자인
 
@@ -23,11 +23,11 @@ Microsoft Build Engine (MSBuild)을 기준으로 프로젝트를 확장 하는 V
 
  다음 항목에는 기본 디자인 및 구현 프로젝트 하위 형식의 세부 정보:
 
--   프로젝트 하위 형식 디자인 합니다.
+- 프로젝트 하위 형식 디자인 합니다.
 
--   다중 수준 집계 합니다.
+- 다중 수준 집계 합니다.
 
--   인터페이스를 지원 합니다.
+- 인터페이스를 지원 합니다.
 
 ## <a name="project-subtype-design"></a>프로젝트 하위 형식 디자인
 
@@ -73,11 +73,11 @@ Microsoft Build Engine (MSBuild)을 기준으로 프로젝트를 확장 하는 V
 
 낮은 수준의 프로젝트 하위 형식을 래핑하는 프로젝트 하위 형식 구현 협조적으로 제대로 작동 하려면 내부 프로젝트 하위 형식을 허용 하도록 프로그래밍 해야 합니다. 책임 프로그래밍의 목록이 포함 합니다.
 
--   <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> 내부 하위 형식에 배치 되는 프로젝트 하위 형식의 구현에 위임 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> 둘 다에 대 한 내부 프로젝트 하위 형식의 구현을 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> 메서드.
+- <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> 내부 하위 형식에 배치 되는 프로젝트 하위 형식의 구현에 위임 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> 둘 다에 대 한 내부 프로젝트 하위 형식의 구현을 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> 메서드.
 
--   <xref:EnvDTE80.IInternalExtenderProvider> 래퍼 프로젝트 하위 형식 구현의 해당 내부 프로젝트 하위 형식의 위임 해야 합니다. 특히, 구현의 <xref:EnvDTE80.IInternalExtenderProvider.GetExtenderNames%2A> 내부 프로젝트 하위 형식에서 이름의 문자열을 가져오고 다음 extender로 추가 하려는 문자열을 연결 해야 합니다.
+- <xref:EnvDTE80.IInternalExtenderProvider> 래퍼 프로젝트 하위 형식 구현의 해당 내부 프로젝트 하위 형식의 위임 해야 합니다. 특히, 구현의 <xref:EnvDTE80.IInternalExtenderProvider.GetExtenderNames%2A> 내부 프로젝트 하위 형식에서 이름의 문자열을 가져오고 다음 extender로 추가 하려는 문자열을 연결 해야 합니다.
 
--   합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfgProvider> 래퍼 프로젝트 하위 형식 구현의 인스턴스화해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg> 해당 내부 개체 프로젝트 하위 형식 및 저장 하는 개인 대리자로 이후 기본 프로젝트의 프로젝트 구성 개체 직접 한다는 사실을 알고 있으면만 래퍼 프로젝트 하위 형식 구성 개체가 있습니다. 외부 프로젝트 하위 형식에서 처음 구성 인터페이스를 직접 처리 하려는 선택 하 고 나머지 내부 프로젝트 하위 형식의 구현에 위임할 수 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg.get_CfgType%2A>입니다.
+- 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfgProvider> 래퍼 프로젝트 하위 형식 구현의 인스턴스화해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg> 해당 내부 개체 프로젝트 하위 형식 및 저장 하는 개인 대리자로 이후 기본 프로젝트의 프로젝트 구성 개체 직접 한다는 사실을 알고 있으면만 래퍼 프로젝트 하위 형식 구성 개체가 있습니다. 외부 프로젝트 하위 형식에서 처음 구성 인터페이스를 직접 처리 하려는 선택 하 고 나머지 내부 프로젝트 하위 형식의 구현에 위임할 수 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFlavorCfg.get_CfgType%2A>입니다.
 
 ## <a name="supporting-interfaces"></a>인터페이스를 지원합니다.
 

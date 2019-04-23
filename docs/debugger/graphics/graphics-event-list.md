@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5e71239755cf7cf5d38f6e71568a0cd7be0f0d98
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 6af97740302d5e7053323b54ef11cbf1a279dd94
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649994"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066782"
 ---
 # <a name="graphics-event-list"></a>그래픽 이벤트 목록
 Visual Studio Graphics Analyzer의 그래픽 이벤트 목록을 사용하여 게임 또는 앱의 프레임 렌더링 중 기록된 Direct3D 이벤트를 살펴봅니다.
@@ -49,7 +49,7 @@ Visual Studio Graphics Analyzer의 그래픽 이벤트 목록을 사용하여 �
 
 ##### <a name="to-change-the-event-list-view-mode"></a>이벤트 목록 보기 모드를 변경하려면
 
--   에 **그래픽 이벤트 목록** 창의 이벤트 목록 위에 찾을 **보기** 드롭다운 중에서 선택할를 **타임 라인** 보기 또는 **GPU작업** 보기.
+- 에 **그래픽 이벤트 목록** 창의 이벤트 목록 위에 찾을 **보기** 드롭다운 중에서 선택할를 **타임 라인** 보기 또는 **GPU작업** 보기.
 
 ### <a name="filtering-events"></a>이벤트 필터링
  **그래픽 이벤트 목록** 창의 오른쪽 맨 위 모퉁이에 있는 검색 상자를 사용하여 이름에 특정 키워드가 포함된 이벤트만 포함하도록 이벤트 목록을 필터링할 수 있습니다. 이전 그림에서처럼 `Vertex`와 같은 키워드 하나를 지정하거나 `Draw;Primitive`와 같이 세미콜론으로 구분된 목록을 사용하여 여러 키워드를 지정할 수 있습니다. 그러면 이름에 `Draw` 또는 `Primitive` 가 포함된 이벤트를 찾게 됩니다. 검색어는 공백을 구분합니다. 예를 들어 `VSSet` 와 `VS Set` 는 다른 검색어입니다. 따라서 검색어는 주의 깊게 입력해야 합니다.

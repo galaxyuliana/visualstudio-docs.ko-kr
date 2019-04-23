@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9a949ee781652c3e19b3ebc3476e736374fe4f21
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4bf492c866a43a0098fbcad5660a19c57fc90a3a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634320"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071546"
 ---
 # <a name="how-to-programmatically-print-visio-documents"></a>방법: 프로그래밍 방식으로 Visio 문서 인쇄
   전체 Microsoft Office Visio 문서 또는 특정 페이지만 인쇄할 수 있습니다.
@@ -29,7 +29,7 @@ ms.locfileid: "56634320"
 
 ### <a name="to-print-a-complete-document"></a>전체 문서를 인쇄하려면
 
--   인쇄하려는 `Microsoft.Office.Interop.Visio.Document.Print` 개체의 `Microsoft.Office.Interop.Visio.Document` 메서드를 호출합니다.
+- 인쇄하려는 `Microsoft.Office.Interop.Visio.Document.Print` 개체의 `Microsoft.Office.Interop.Visio.Document` 메서드를 호출합니다.
 
      다음 코드 예제에서는 활성 문서를 인쇄합니다. 이 예제를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 코드를 실행합니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "56634320"
 
 ### <a name="to-print-a-page-of-a-document"></a>문서 페이지를 인쇄하려면
 
--   인쇄하려는 `Microsoft.Office.Interop.Visio.Pages.Print` 개체의 `Microsoft.Office.Interop.Visio.Pages` 메서드를 호출합니다.
+- 인쇄하려는 `Microsoft.Office.Interop.Visio.Pages.Print` 개체의 `Microsoft.Office.Interop.Visio.Pages` 메서드를 호출합니다.
 
      다음 코드 예제에서는 활성 문서의 첫 번째 페이지를 인쇄합니다. 이 예제를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 코드를 실행합니다.
 

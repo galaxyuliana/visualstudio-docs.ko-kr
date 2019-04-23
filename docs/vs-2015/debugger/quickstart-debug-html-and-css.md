@@ -21,12 +21,12 @@ caps.latest.revision: 104
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3518f691109348cfbb75404e94dde66dccd04efc
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 7dd7afa571b83cb5d1b12018da2f1e812a3a5fbd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002665"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068160"
 ---
 # <a name="quickstart-debug-html-and-css"></a>빠른 시작: HTML 및 CSS 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
   기타 JavaScript 디버깅, JavaScript 콘솔 창을 사용 하 여 및 중단점 설정과 같은 기능에 대 한 정보를 참조 하세요. [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md) 하 고 [Visual Studio에서 앱을 디버그](../debugger/debug-store-apps-in-visual-studio.md)합니다.  
   
-##  <a name="InspectingDOM"></a> 라이브 DOM 검사  
+## <a name="InspectingDOM"></a> 라이브 DOM 검사  
  DOM 탐색기는 렌더링된 페이지의 뷰를 보여 주고, DOM 탐색기를 사용하여 값을 변경하고 변경 결과를 바로 확인할 수 있습니다. 그러면 디버거를 중지했다가 다시 시작하지 않고도 변경 내용을 테스트할 수 있습니다. 이 방법을 사용하여 페이지와 상호 작용할 때 프로젝트의 소스 코드는 변경되지 않으므로 원하는 코드 수정 내용을 찾으면 소스 코드를 변경합니다.  
   
 > [!TIP]
@@ -249,17 +249,17 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
 #### <a name="to-refresh-your-app-while-debugging"></a>디버깅하는 동안 응용 프로그램을 새로 고치려면  
   
-1.  응용 프로그램이 실행 중인 동안 Visual Studio로 전환합니다.  
+1. 응용 프로그램이 실행 중인 동안 Visual Studio로 전환합니다.  
   
-2.  default.html을 열고 `"fView"` DIV 요소의 높이와 너비를 100%로 변경하여 소스 코드를 수정합니다.  
+2. default.html을 열고 `"fView"` DIV 요소의 높이와 너비를 100%로 변경하여 소스 코드를 수정합니다.  
   
-3.  디버그 도구 모음에서 **Windows 앱 새로 고침** 단추를 선택하거나 F4 키를 누릅니다. 단추는 다음과 같습니다. ![Windows 응용 프로그램 단추를 새로 고칠](../debugger/media/js-refresh.png "JS_Refresh")합니다.  
+3. 디버그 도구 모음에서 **Windows 앱 새로 고침** 단추를 선택하거나 F4 키를 누릅니다. 단추는 다음과 같습니다. ![Windows 응용 프로그램 단추를 새로 고칠](../debugger/media/js-refresh.png "JS_Refresh")합니다.  
   
      응용 프로그램 페이지가 다시 로드되고 시뮬레이터 또는 Phone 에뮬레이터가 전경으로 돌아갑니다.  
   
      새로 고침 기능에 대 한 자세한 내용은 참조 하세요. [앱 (JavaScript) 새로 고침](../debugger/refresh-an-app-javascript.md)합니다.  
   
-##  <a name="SelectingElements"></a> Selecting elements  
+## <a name="SelectingElements"></a> Selecting elements  
  응용 프로그램을 디버깅할 때 세 가지 방법으로 DOM 요소를 선택할 수 있습니다.  
   
 - DOM 탐색기 창에서 직접 요소를 클릭하거나 화살표 키 사용  
@@ -285,7 +285,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
  사용 하 여 요소를 선택 하는 방법을 보여 주는 예는 **Select 요소** 단추를 참조 하십시오 [DOM 탐색기를 사용 하 여 디버그 하는 CSS 스타일](../debugger/debug-css-styles-using-dom-explorer.md)합니다.  
   
-##  <a name="BrowserSupport"></a> 브라우저 및 플랫폼 지원  
+## <a name="BrowserSupport"></a> 브라우저 및 플랫폼 지원  
  JavaScript용 Visual Studio 도구인 DOM 탐색기와 JavaScript 콘솔 창이 다음 플랫폼에서 지원됩니다.  
   
 - JavaScript와 HTML을 사용하는[!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 및 Windows Phone 스토어 앱  

@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dfa7ed62276e63e80158a86165b59e367d7a88f4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a2c7a993bca55f1224661e15f9a7ecbf0a967e31
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56715598"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066990"
 ---
 # <a name="querychangesfunc"></a>QUERYCHANGESFUNC
 이에서 사용 하는 콜백 함수는 [SccQueryChanges](../extensibility/sccquerychanges-function.md) 파일 이름의 컬렉션을 열거 하 고 각 파일의 상태를 확인 하는 작업입니다.
@@ -52,7 +52,7 @@ typedef BOOL (*QUERYCHANGESFUNC)(
 |SCC_I_OPERATIONCANCELED|처리를 중지 합니다.|
 |SCC_E_xxx|적절 한 SCC 오류 처리를 중지 해야 합니다.|
 
-##  <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA 구조
+## <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA 구조
  각 파일에 전달 된 구조체는 다음과 같습니다.
 
 ```cpp

@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fff1187793350b52484bcac99021be7fc2845607
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: e6eadc98ccdc0960e4b4bc400a94f06b90fe89bd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56717795"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60069499"
 ---
 # <a name="add-a-command-to-the-solution-explorer-toolbar"></a>솔루션 탐색기 도구 모음에 명령 추가
 이 연습에서는 단추를 추가 하는 방법을 보여 줍니다.는 **솔루션 탐색기** 도구 모음입니다.
@@ -38,13 +38,13 @@ ms.locfileid: "56717795"
 ## <a name="add-a-button-to-the-solution-explorer-toolbar"></a>솔루션 탐색기 도구 모음 단추 추가
  연습의이 섹션에는 단추를 추가 하는 방법을 보여 줍니다 합니다 **솔루션 탐색기** 도구 모음입니다. 단추를 클릭 하면 콜백 메서드에서 코드에에서 실행 됩니다.
 
-1.  에 *ToolbarButtonPackage.vsct* 파일을 이동 합니다 `<Symbols>` 섹션입니다. `<GuidSymbol>` 메뉴 그룹 및 명령이 패키지 템플릿에 의해 생성 된 노드를 포함 합니다. 추가 `<IDSymbol>` 이 노드에 명령을 포함 하는 그룹을 선언 하는 요소입니다.
+1. 에 *ToolbarButtonPackage.vsct* 파일을 이동 합니다 `<Symbols>` 섹션입니다. `<GuidSymbol>` 메뉴 그룹 및 명령이 패키지 템플릿에 의해 생성 된 노드를 포함 합니다. 추가 `<IDSymbol>` 이 노드에 명령을 포함 하는 그룹을 선언 하는 요소입니다.
 
     ```xml
     <IDSymbol name="SolutionToolbarGroup" value="0x0190"/>
     ```
 
-2.  에 `<Groups>` 섹션에서는 기존 그룹 항목을 한 후 새 그룹 정의 선언 된 이전 단계에서 합니다.
+2. 에 `<Groups>` 섹션에서는 기존 그룹 항목을 한 후 새 그룹 정의 선언 된 이전 단계에서 합니다.
 
     ```xml
     <Group guid="guidToolbarButtonPackageCmdSet"
@@ -55,7 +55,7 @@ ms.locfileid: "56717795"
 
      부모 guid: id 쌍 설정 `guidSHLMainMenu` 및 `IDM_VS_TOOL_PROJWIN` 이 그룹에 배치 합니다 **솔루션 탐색기** 도구 모음 및 우선 순위가 높은 값을 설정 후 다른 명령 그룹 배치 합니다.
 
-3.  에 `<Buttons>` 섹션에서 생성 된 부모 ID를 변경 `<Button>` 항목 이전 단계에서 정의한 그룹을 반영 하도록 합니다. 수정 된 `<Button>` 요소는 다음과 같습니다.
+3. 에 `<Buttons>` 섹션에서 생성 된 부모 ID를 변경 `<Button>` 항목 이전 단계에서 정의한 그룹을 반영 하도록 합니다. 수정 된 `<Button>` 요소는 다음과 같습니다.
 
     ```xml
     <Button guid="guidToolbarButtonPackageCmdSet" id="ToolbarButtonId" priority="0x0100" type="Button">
@@ -67,11 +67,11 @@ ms.locfileid: "56717795"
     </Button>
     ```
 
-4.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다.
+4. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다.
 
      합니다 **솔루션 탐색기** 기존 단추의 오른쪽 도구 모음 새 명령 단추를 표시 합니다. 단추 아이콘은 취소선.
 
-5.  새로 만들기 단추를 클릭 합니다.
+5. 새로 만들기 단추를 클릭 합니다.
 
      메시지가 있는 대화 상자가 **ToolbarButtonPackage 내 SolutionToolbar.ToolbarButton.MenuItemCallback()** 표시 합니다.
 

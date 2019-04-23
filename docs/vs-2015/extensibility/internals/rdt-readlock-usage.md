@@ -13,12 +13,12 @@ ms.assetid: b935fc82-9d6b-4a8d-9b70-e9a5c5ad4a55
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c818023d50b733a4818c87e67d0b49abde518ad2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a9a6b5f86f0cfbb71f6264bdc74df72ad9209c9d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980727"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070162"
 ---
 # <a name="rdtreadlock-usage"></a>RDT_ReadLock 사용법
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,9 +27,9 @@ ms.locfileid: "58980727"
   
  일반적으로 사용 <xref:Microsoft.VisualStudio.Shell.Interop._VSRDTFLAGS> 다음 중 하나가 true 인 경우:  
   
--   문서를 시각적으로 열려고 할 때 읽기 전용 및 해당 되지 않으므로 설정 하지만 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 소유 해야 합니다.  
+- 문서를 시각적으로 열려고 할 때 읽기 전용 및 해당 되지 않으므로 설정 하지만 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 소유 해야 합니다.  
   
--   사용자가 시각적으로 열려 있는 하지 사용자 UI에 표시 하 고 닫습니다 하려고 하기 전에 문서를 저장 하 라는 메시지가 표시 하려는 경우.  
+- 사용자가 시각적으로 열려 있는 하지 사용자 UI에 표시 하 고 닫습니다 하려고 하기 전에 문서를 저장 하 라는 메시지가 표시 하려는 경우.  
   
 ## <a name="how-to-manage-visible-and-invisible-documents"></a>표시 되 고 보이지 않는 문서를 관리 하는 방법  
  사용자가 ui에서 문서를 열면를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 문서에 대 한 소유자를 설정 해야 및 <xref:Microsoft.VisualStudio.Shell.Interop._VSRDTFLAGS> 플래그를 설정 해야 합니다. 없으면 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 소유자를 설정할 수 있습니다, 다음 문서를 클릭할 때 저장 되지 것입니다 **모두 저장** 또는 IDE를 닫습니다. 이 경우는 문서가 열려 있지 않으면 보이지 않게 메모리에서 수정 및 사용자가 종료 시 문서를 저장 하 라는 메시지가 표시 하거나 저장 하는 경우 의미 **모두 저장** 을 선택 하면는 `RDT_ReadLock` 사용할 수 없습니다. 대신 사용 해야 합니다는 `RDT_EditLock` 하 고 등록을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocumentLockHolder> 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.__VSREGDOCLOCKHOLDER> 플래그입니다.  

@@ -12,12 +12,12 @@ ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: d83f26183c422d39e69dfe106443dae54f576899
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 86e250c5a5922df52acea7445c97862a00cdc826
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986035"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60066837"
 ---
 # <a name="using-the-managed-package-framework-to-implement-a-project-type-c"></a>관리 패키지 프레임워크를 사용하여 프로젝트 형식 구현(C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,9 +29,9 @@ ms.locfileid: "58986035"
   
  이 프로젝트를 VSPackage 솔루션에 추가 하려면 다음을 수행 합니다.  
   
-1.  MPFProj 파일을 다운로드 *MPFProjectDir*합니다.  
+1. MPFProj 파일을 다운로드 *MPFProjectDir*합니다.  
   
-2.  에 *MPFProjectDir*\Dev10\Src\CSharp\ProjectBase.file, 다음 블록을 변경 합니다.  
+2. 에 *MPFProjectDir*\Dev10\Src\CSharp\ProjectBase.file, 다음 블록을 변경 합니다.  
   
 ```  
 <!-- Provide a default value for $(ProjectBasePath) -->  
@@ -40,11 +40,11 @@ ms.locfileid: "58986035"
   </PropertyGroup>  
 ```  
   
-1.  VSPackage 프로젝트를 만듭니다.  
+1. VSPackage 프로젝트를 만듭니다.  
   
-2.  VSPackage 프로젝트를 언로드하십시오.  
+2. VSPackage 프로젝트를 언로드하십시오.  
   
-3.  다른 하기 전에 다음 블록을 추가 하 여 VSPackage.csproj 파일을 편집 `<Import>` 블록:  
+3. 다른 하기 전에 다음 블록을 추가 하 여 VSPackage.csproj 파일을 편집 `<Import>` 블록:  
   
 ```  
 <Import Project="MPFProjectDir\Dev10\Src\CSharp\ProjectBase.files" />  
@@ -56,17 +56,17 @@ ms.locfileid: "58986035"
   </PropertyGroup>  
 ```  
   
-1.  프로젝트를 저장합니다.  
+1. 프로젝트를 저장합니다.  
   
-2.  VSPackage 솔루션을 닫았다가 설정 합니다.  
+2. VSPackage 솔루션을 닫았다가 설정 합니다.  
   
-3.  VSPackage 프로젝트를 다시 엽니다. ProjectBase 라는 새 디렉터리에 표시 됩니다.  
+3. VSPackage 프로젝트를 다시 엽니다. ProjectBase 라는 새 디렉터리에 표시 됩니다.  
   
-4.  VSPackage 프로젝트에 대 한 다음 참조를 추가 합니다.  
+4. VSPackage 프로젝트에 대 한 다음 참조를 추가 합니다.  
   
      Microsoft.Build.Tasks.4.0  
   
-5.  프로젝트를 빌드합니다.  
+5. 프로젝트를 빌드합니다.  
   
 ## <a name="hierarchy-classes"></a>계층 구조 클래스  
  다음 표에서 프로젝트 계층 구조를 지원 합니다 MPFProj의 클래스를 보여 줍니다. 자세한 내용은 [계층 구조 및 선택](../../extensibility/internals/hierarchies-and-selection.md)합니다.  

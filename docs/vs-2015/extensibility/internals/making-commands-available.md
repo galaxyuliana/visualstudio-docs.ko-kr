@@ -13,21 +13,21 @@ ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
 caps.latest.revision: 36
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f709786d908d5bfe4ef4db04916801a5cd6a7366
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 78561db4bbf9517cc3fbcd5d9ac6ca36fcafbe05
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985303"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071228"
 ---
 # <a name="making-commands-available"></a>명령을 사용 가능하게 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 Visual Studio에 여러 Vspackage를 추가 하는 경우 사용자 인터페이스 (UI) 명령을 사용 하 여 들어오지 될 수 있습니다. 다음과 같이이 문제를 줄이기 위해 패키지를 프로그래밍할 수 있습니다.  
   
--   패키지 프로그램 사용자는 경우에 로드 되도록 필요한 합니다.  
+- 패키지 프로그램 사용자는 경우에 로드 되도록 필요한 합니다.  
   
--   통합된 개발 환경 (IDE)의 현재 상태의 컨텍스트에서 해야 할 수 있습니다 하는 경우에 해당 명령을 표시 되도록 패키지를 프로그래밍 합니다.  
+- 통합된 개발 환경 (IDE)의 현재 상태의 컨텍스트에서 해야 할 수 있습니다 하는 경우에 해당 명령을 표시 되도록 패키지를 프로그래밍 합니다.  
   
 ## <a name="delayed-loading"></a>지연 로드  
  사용 하도록 설정 하는 일반적인 방법은 해당 명령이 UI에 표시 됩니다 있지만 패키지 자체에 사용자가 명령 중 하나를 클릭할 때까지 로드 되지 않습니다 있도록 VSPackage를 디자인 하는 지연 로드. .Vsct 파일에서이 위해 명령 플래그가 없으므로 명령을 만듭니다.  
@@ -94,11 +94,11 @@ Visual Studio에 여러 Vspackage를 추가 하는 경우 사용자 인터페이
 ### <a name="custom-context-guids"></a>사용자 지정 컨텍스트 Guid  
  경우 GUID는 아직 정의 되지 않은 적절 한 명령 컨텍스트를 VSPackage의 하나를 정의 하 고 프로그램을 작성 하 게 활성 또는 비활성 명령의 표시 유형을 제어 하려면 필요에 따라 수입니다. 사용 된 <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> 서비스:  
   
--   컨텍스트 Guid를 등록 (호출 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> 메서드).  
+- 컨텍스트 Guid를 등록 (호출 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> 메서드).  
   
--   컨텍스트의 상태를 가져올 `GUID` (호출 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> 메서드).  
+- 컨텍스트의 상태를 가져올 `GUID` (호출 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> 메서드).  
   
--   컨텍스트를 설정 `GUID`켜고 s (호출 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> 메서드).  
+- 컨텍스트를 설정 `GUID`켜고 s (호출 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> 메서드).  
   
     > [!CAUTION]
     >  VSPackage 영향을 주지 않습니다 모든 기존 컨텍스트 GUID의 상태에 따라 달라질 수 있습니다 다른 Vspackage 때문에 있는지 확인 합니다.  

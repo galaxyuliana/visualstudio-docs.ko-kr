@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2f879f8367ad1b992300c9e5b1c8a2887e89205b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 318744ec1a1a9214ce0385fc56fb1c0cf340339b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608013"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60068498"
 ---
 # <a name="how-to-define-a-method-instance"></a>방법: 메서드 인스턴스 정의
   모델의 모든 메서드에 대 한 메서드 인스턴스를 하나 이상 정의 해야 합니다.
@@ -29,15 +29,15 @@ ms.locfileid: "56608013"
 
 ### <a name="to-define-a-method-instance"></a>메서드 인스턴스 정의
 
-1.  에 **BDC 메서드 세부 정보** 창에서 메서드의 노드를 확장 한 다음 확장을 **인스턴스** 노드.
+1. 에 **BDC 메서드 세부 정보** 창에서 메서드의 노드를 확장 한 다음 확장을 **인스턴스** 노드.
 
-2.  에 **메서드 인스턴스 추가** 목록에서 선택 **Finder 인스턴스 만들기**합니다.
+2. 에 **메서드 인스턴스 추가** 목록에서 선택 **Finder 인스턴스 만들기**합니다.
 
      새 메서드 인스턴스 아래에 표시 된 **인스턴스** 노드.
 
-3.  메뉴 모음에서 선택 **뷰** > **속성 창**합니다.
+3. 메뉴 모음에서 선택 **뷰** > **속성 창**합니다.
 
-4.  에 **속성** 창 메서드 인스턴스의 속성을 설정 합니다. 각 속성에 대 한 자세한 내용은 참조 하세요. [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282)합니다.
+4. 에 **속성** 창 메서드 인스턴스의 속성을 설정 합니다. 각 속성에 대 한 자세한 내용은 참조 하세요. [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [BDC 모델 디자인 도구 개요](../sharepoint/bdc-model-design-tools-overview.md)

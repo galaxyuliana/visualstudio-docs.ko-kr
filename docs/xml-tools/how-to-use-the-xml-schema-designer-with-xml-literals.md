@@ -10,12 +10,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: bb3daab1196e151a4fea57ae120b2ec280e2e23a
-ms.sourcegitcommit: 4ffb7be5384ad566ce46538032bf8561754c61a4
+ms.openlocfilehash: 9e92cbdca3ac2c5c366ec054ba79f2e7324986c1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "58070219"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067614"
 ---
 # <a name="how-to-use-the-xml-schema-designer-with-xml-literals"></a>방법: XML 리터럴과 함께 XML 스키마 디자이너 사용
 
@@ -23,7 +23,7 @@ ms.locfileid: "58070219"
 
 ## <a name="create-a-new-visual-basic-project"></a>새 Visual Basic 프로젝트 만들기
 
-1.  Visual Studio를 엽니다.
+1. Visual Studio를 엽니다.
 
 2. 새 Visual Basic을 만듭니다 **콘솔 앱** 라는 프로젝트가 **XMLLiterals**합니다.
 
@@ -31,11 +31,11 @@ ms.locfileid: "58070219"
 
 ## <a name="add-an-existing-xsd-file"></a>기존 XSD 파일 추가
 
-1.  새 텍스트 파일을 메모장에서 엽니다. XML 스키마 샘플 코드를 복사 [구매 주문 스키마](../xml-tools/sample-xsd-file-simple-schema.md) 파일에 붙여 넣습니다.
+1. 새 텍스트 파일을 메모장에서 엽니다. XML 스키마 샘플 코드를 복사 [구매 주문 스키마](../xml-tools/sample-xsd-file-simple-schema.md) 파일에 붙여 넣습니다.
 
-2.  파일 이름으로 일부 위치에 저장 합니다 *PurchaseOrderSchema.xsd*합니다.
+2. 파일 이름으로 일부 위치에 저장 합니다 *PurchaseOrderSchema.xsd*합니다.
 
-3.  **솔루션 탐색기**, 프로젝트의 이름을 마우스 오른쪽 단추로 선택 **추가**를 선택한 후 **기존 항목**합니다. 합니다 **기존 항목 추가** 대화 상자가 나타납니다. 로 이동 합니다 *PurchaseOrderSchema.xsd* 파일, 선택 및 클릭 **추가**합니다.
+3. **솔루션 탐색기**, 프로젝트의 이름을 마우스 오른쪽 단추로 선택 **추가**를 선택한 후 **기존 항목**합니다. 합니다 **기존 항목 추가** 대화 상자가 나타납니다. 로 이동 합니다 *PurchaseOrderSchema.xsd* 파일, 선택 및 클릭 **추가**합니다.
 
      XMLLiterals 프로젝트에는 이제 두 개의 파일이 들어 있습니다. *Module1.vb* 하 고 *PurchaseOrderSchema.xsd*합니다.
 

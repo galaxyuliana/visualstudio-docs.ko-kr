@@ -11,12 +11,12 @@ ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 77363b0ed4635559007680e9923575eac222fbcb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: fa0acb706d0b5cb6a37578ab6cb7b707850c5949
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985082"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070630"
 ---
 # <a name="creating-a-multi-instance-tool-window"></a>다중 인스턴스 도구 창 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,14 +27,14 @@ ms.locfileid: "58985082"
   
 ## <a name="creating-a-basic-single-instance-tool-window"></a>Basic (인스턴스) 도구 창 만들기  
   
-1.  라는 프로젝트를 만듭니다 **MultiInstanceToolWindow** 라는 사용자 지정 도구 창 항목 템플릿을 VSIX 템플릿을 사용 하 여 추가한 **MIToolWindow**합니다.  
+1. 라는 프로젝트를 만듭니다 **MultiInstanceToolWindow** 라는 사용자 지정 도구 창 항목 템플릿을 VSIX 템플릿을 사용 하 여 추가한 **MIToolWindow**합니다.  
   
     > [!NOTE]
     >  도구 창을 사용 하 여 확장을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
   
 ## <a name="making-a-tool-window-multi-instance"></a>다중 인스턴스 도구 창 만들기  
   
-1.  엽니다는 **MIToolWindowPackage.cs** 파일을 찾을 `ProvideToolWindow` 특성입니다. 및 `MultiInstances=true` 다음 예와에서 같이 매개 변수입니다.  
+1. 엽니다는 **MIToolWindowPackage.cs** 파일을 찾을 `ProvideToolWindow` 특성입니다. 및 `MultiInstances=true` 다음 예와에서 같이 매개 변수입니다.  
   
     ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
@@ -46,15 +46,15 @@ ms.locfileid: "58985082"
     {. . .}  
     ```  
   
-2.  MIToolWindowCommand.cs 파일에서 ShowToolWindos() 메서드를 찾습니다. 이 메서드를 호출 합니다 <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> 메서드 집합과 해당 `create` 플래그를 `false` 일까 지 사용할 수 있는 기존 도구 창의 인스턴스를 통해 반복 됩니다 있도록 `id` 가 합니다.  
+2. MIToolWindowCommand.cs 파일에서 ShowToolWindos() 메서드를 찾습니다. 이 메서드를 호출 합니다 <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> 메서드 집합과 해당 `create` 플래그를 `false` 일까 지 사용할 수 있는 기존 도구 창의 인스턴스를 통해 반복 됩니다 있도록 `id` 가 합니다.  
   
-3.  도구 창의 인스턴스를 만들려면 다음을 호출 합니다 <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> 메서드 집합과 해당 `id` 사용 가능한 값 및 해당 `create` 플래그를 `true`.  
+3. 도구 창의 인스턴스를 만들려면 다음을 호출 합니다 <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> 메서드 집합과 해당 `id` 사용 가능한 값 및 해당 `create` 플래그를 `true`.  
   
      기본적으로 값을 `id` 의 매개 변수를 <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> 메서드는 `0`합니다. 이렇게 하면 단일 인스턴스 도구 창입니다. 호스팅 되도록 둘 이상의 인스턴스에 대 한 모든 인스턴스는 자체 고유 있어야 `id`합니다.  
   
-4.  호출를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> 메서드를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> 에서 반환 되는 개체는 <xref:Microsoft.VisualStudio.Shell.ToolWindowPane.Frame%2A> 도구 창 인스턴스의 속성입니다.  
+4. 호출를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> 메서드를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> 에서 반환 되는 개체는 <xref:Microsoft.VisualStudio.Shell.ToolWindowPane.Frame%2A> 도구 창 인스턴스의 속성입니다.  
   
-5.  기본적으로 `ShowToolWindow` 도구 창 항목 템플릿에 의해 생성 되는 메서드는 단일 인스턴스 도구 창을 만듭니다. 다음 예제에서는 수정 하는 방법의 `ShowToolWindow` 여러 인스턴스를 만드는 방법.  
+5. 기본적으로 `ShowToolWindow` 도구 창 항목 템플릿에 의해 생성 되는 메서드는 단일 인스턴스 도구 창을 만듭니다. 다음 예제에서는 수정 하는 방법의 `ShowToolWindow` 여러 인스턴스를 만드는 방법.  
   
     ```csharp  
     private void ShowToolWindow(object sender, EventArgs e)  

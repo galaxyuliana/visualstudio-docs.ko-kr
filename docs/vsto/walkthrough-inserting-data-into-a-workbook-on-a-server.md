@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 194ec4111d5cc4a34879377695667d97032402b9
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 4b68e2f01cae577c7d0913e448aa832b586aa22b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54875943"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60071696"
 ---
 # <a name="walkthrough-insert-data-into-a-workbook-on-a-server"></a>연습: 서버에서 통합 문서에 데이터 삽입
   이 연습에서는 Microsoft Office Excel 통합 문서에 사용 하 여 Excel을 시작 하지 않고 캐시 된 데이터 집합에 데이터를 삽입 하는 방법에 설명 합니다 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 클래스입니다.
@@ -48,36 +48,36 @@ ms.locfileid: "54875943"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
 
--   Microsoft SQL Server 또는 AdventureWorksLT 샘플 데이터베이스가 연결 된 Microsoft SQL Server Express의 실행 중인 인스턴스에 액세스 합니다. AdventureWorksLT 데이터베이스를 다운로드할 수 있습니다 합니다 [CodePlex 웹 사이트](http://go.microsoft.com/fwlink/?linkid=87843)합니다. 데이터베이스 연결에 대한 자세한 내용은 다음 항목을 참조하세요.
+- Microsoft SQL Server 또는 AdventureWorksLT 샘플 데이터베이스가 연결 된 Microsoft SQL Server Express의 실행 중인 인스턴스에 액세스 합니다. AdventureWorksLT 데이터베이스를 다운로드할 수 있습니다 합니다 [CodePlex 웹 사이트](http://go.microsoft.com/fwlink/?linkid=87843)합니다. 데이터베이스 연결에 대한 자세한 내용은 다음 항목을 참조하세요.
 
-    -   SQL Server Management Studio 또는 SQL Server Management Studio Express를 사용 하 여 데이터베이스를 연결 하려면 참조 [방법: 데이터베이스 (SQL Server Management Studio) 연결](/sql/relational-databases/databases/attach-a-database)합니다.
+    - SQL Server Management Studio 또는 SQL Server Management Studio Express를 사용 하 여 데이터베이스를 연결 하려면 참조 [방법: 데이터베이스 (SQL Server Management Studio) 연결](/sql/relational-databases/databases/attach-a-database)합니다.
 
-    -   명령줄을 사용 하 여 데이터베이스를 연결, 참조 [방법: SQL Server Express에 데이터베이스 파일을 첨부할](/previous-versions/sql/)합니다.
+    - 명령줄을 사용 하 여 데이터베이스를 연결, 참조 [방법: SQL Server Express에 데이터베이스 파일을 첨부할](/previous-versions/sql/)합니다.
 
 ## <a name="create-a-class-library-project-that-defines-a-dataset"></a>데이터 집합을 정의 하는 클래스 라이브러리 프로젝트 만들기
  Excel 통합 문서 프로젝트를 콘솔 응용 프로그램에 동일한 데이터 집합을 사용 하려면 두 프로젝트 모두에 의해 참조 되는 별도 어셈블리에 데이터 집합을 정의 해야 합니다. 이 연습에서는 클래스 라이브러리 프로젝트에서 데이터 집합을 정의 합니다.
 
 ### <a name="to-create-the-class-library-project"></a>클래스 라이브러리 프로젝트를 만들려면
 
-1.  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 시작합니다.
+1. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 시작합니다.
 
-2.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.
+2. **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.
 
-3.  템플릿 창에서 확장 **Visual C#** 하거나 **Visual Basic**를 클릭 하 고 **Windows**합니다.
+3. 템플릿 창에서 확장 **Visual C#** 하거나 **Visual Basic**를 클릭 하 고 **Windows**합니다.
 
-4.  프로젝트 템플릿 목록에서 선택 **클래스 라이브러리**합니다.
+4. 프로젝트 템플릿 목록에서 선택 **클래스 라이브러리**합니다.
 
-5.  에 **이름을** 상자에 입력 **AdventureWorksDataSet**합니다.
+5. 에 **이름을** 상자에 입력 **AdventureWorksDataSet**합니다.
 
-6.  클릭 **찾아보기**로 이동 하 *%UserProfile%\My 문서* (Windows XP 및 이전) 또는 *%UserProfile%\Documents* (Windows Vista)에 대 한 폴더를 마우스 클릭 **폴더 선택**합니다.
+6. 클릭 **찾아보기**로 이동 하 *%UserProfile%\My 문서* (Windows XP 및 이전) 또는 *%UserProfile%\Documents* (Windows Vista)에 대 한 폴더를 마우스 클릭 **폴더 선택**합니다.
 
-7.  에 **새 프로젝트** 대화 상자에서 **솔루션용 디렉터리 만들기** 확인란을 선택 하지 않으면.
+7. 에 **새 프로젝트** 대화 상자에서 **솔루션용 디렉터리 만들기** 확인란을 선택 하지 않으면.
 
-8.  **확인**을 클릭합니다.
+8. **확인**을 클릭합니다.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 추가 합니다 **AdventureWorksDataSet** 프로젝트를 **솔루션 탐색기** 열어서 합니다 **Class1.cs** 또는 **Class1.vb** 코드 파일.
 
@@ -125,21 +125,21 @@ ms.locfileid: "54875943"
 
 ### <a name="to-create-the-excel-workbook-project"></a>Excel 통합 문서 프로젝트를 만들려면
 
-1.  **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 합니다 **AdventureWorksDataSet** 솔루션을 가리킵니다 **추가**를 클릭 하 고 **새 프로젝트**합니다.
+1. **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 합니다 **AdventureWorksDataSet** 솔루션을 가리킵니다 **추가**를 클릭 하 고 **새 프로젝트**합니다.
 
-2.  템플릿 창에서 **Visual C#** 또는 **Visual Basic**을 확장한 다음 **Office/SharePoint**를 확장합니다.
+2. 템플릿 창에서 **Visual C#** 또는 **Visual Basic**을 확장한 다음 **Office/SharePoint**를 확장합니다.
 
-3.  확장된 **Office/SharePoint** 노드 아래에서 **Office 추가 기능** 노드를 선택합니다.
+3. 확장된 **Office/SharePoint** 노드 아래에서 **Office 추가 기능** 노드를 선택합니다.
 
-4.  프로젝트 템플릿 목록에서 **Excel 2010 통합 문서** 또는 **Excel 2013 통합 문서** 프로젝트를 선택합니다.
+4. 프로젝트 템플릿 목록에서 **Excel 2010 통합 문서** 또는 **Excel 2013 통합 문서** 프로젝트를 선택합니다.
 
-5.  에 **이름을** 상자에 입력 **AdventureWorksReport**합니다. 위치를 수정 하지 마십시오.
+5. 에 **이름을** 상자에 입력 **AdventureWorksReport**합니다. 위치를 수정 하지 마십시오.
 
-6.  **확인**을 클릭합니다.
+6. **확인**을 클릭합니다.
 
      **Visual Studio Tools for Office 프로젝트 마법사** 가 열립니다.
 
-7.  했는지 **새 문서를 만듭니다** 을 선택 하 고 클릭 **확인**합니다.
+7. 했는지 **새 문서를 만듭니다** 을 선택 하 고 클릭 **확인**합니다.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 열립니다는 **AdventureWorksReport** 디자이너에서 통합 문서 추가 **AdventureWorksReport** 프로젝트가 **솔루션 탐색기**합니다.
 
@@ -148,21 +148,21 @@ ms.locfileid: "54875943"
 
 ### <a name="to-add-the-dataset-to-the-data-sources-in-the-excel-workbook-project"></a>Excel 통합 문서 프로젝트에서 데이터 원본에 데이터 집합을 추가 하려면
 
-1.  **솔루션 탐색기**를 두 번 클릭 **Sheet1.cs** 또는 **Sheet1.vb** 아래를 **AdventureWorksReport** 프로젝트입니다.
+1. **솔루션 탐색기**를 두 번 클릭 **Sheet1.cs** 또는 **Sheet1.vb** 아래를 **AdventureWorksReport** 프로젝트입니다.
 
      통합 문서 디자이너에서 열립니다.
 
-2.  **데이터** 메뉴에서 **새 데이터 소스 추가**를 클릭합니다.
+2. **데이터** 메뉴에서 **새 데이터 소스 추가**를 클릭합니다.
 
      **데이터 원본 구성** 마법사가 열립니다.
 
-3.  클릭 **개체**를 클릭 하 고 **다음**합니다.
+3. 클릭 **개체**를 클릭 하 고 **다음**합니다.
 
-4.  에 **바인딩할 개체 선택** 페이지를 클릭 **참조 추가**합니다.
+4. 에 **바인딩할 개체 선택** 페이지를 클릭 **참조 추가**합니다.
 
-5.  에 **프로젝트** 탭을 클릭 **AdventureWorksDataSet** 을 클릭 한 다음 **확인**합니다.
+5. 에 **프로젝트** 탭을 클릭 **AdventureWorksDataSet** 을 클릭 한 다음 **확인**합니다.
 
-6.  아래는 **AdventureWorksDataSet** 의 네임 스페이스의 **AdventureWorksDataSet** 어셈블리 클릭 **AdventureWorksLTDataSet** 클릭 하 고 **마침** .
+6. 아래는 **AdventureWorksDataSet** 의 네임 스페이스의 **AdventureWorksDataSet** 어셈블리 클릭 **AdventureWorksLTDataSet** 클릭 하 고 **마침** .
 
      합니다 **데이터 원본** 창이 열리고 및 **AdventureWorksLTDataSet** 데이터 원본 목록에 추가 됩니다.
 
@@ -171,13 +171,13 @@ ms.locfileid: "54875943"
 
 ### <a name="to-create-a-listobject-that-is-bound-to-an-instance-of-the-dataset"></a>데이터 집합의 인스턴스에 바인딩되는 목록 개체를 만들려면
 
-1.  에 **데이터 원본** 창 확장 합니다 **AdventureWorksLTDataSet** 노드에서 **AdventureWorksDataSet**합니다.
+1. 에 **데이터 원본** 창 확장 합니다 **AdventureWorksLTDataSet** 노드에서 **AdventureWorksDataSet**합니다.
 
-2.  선택 된 **제품** 노드를 선택 하 고 표시 되는 드롭다운 화살표를 클릭 **ListObject** 드롭 다운 목록에서.
+2. 선택 된 **제품** 노드를 선택 하 고 표시 되는 드롭다운 화살표를 클릭 **ListObject** 드롭 다운 목록에서.
 
      드롭다운 화살표를 표시 되지 않는 경우 통합 문서 디자이너에서 열려 있는지 확인 합니다.
 
-3.  끌기 합니다 **제품** A1 셀에는 테이블입니다.
+3. 끌기 합니다 **제품** A1 셀에는 테이블입니다.
 
      A <xref:Microsoft.Office.Tools.Excel.ListObject> 제어 라는 `productListObject` A1 셀부터 워크시트에 만들어집니다. 동시에 `adventureWorksLTDataSet`라는 데이터 세트 개체와 <xref:System.Windows.Forms.BindingSource>라는 `productBindingSource`가 프로젝트에 추가됩니다. <xref:Microsoft.Office.Tools.Excel.ListObject> 가 <xref:System.Windows.Forms.BindingSource>에 바인딩된 다음 데이터 집합 개체에 바인딩됩니다.
 
@@ -186,37 +186,37 @@ ms.locfileid: "54875943"
 
 ### <a name="to-add-the-dataset-to-the-data-cache"></a>데이터 캐시에 데이터 집합을 추가 하려면
 
-1.  디자이너에서 클릭 **adventureWorksLTDataSet**합니다.
+1. 디자이너에서 클릭 **adventureWorksLTDataSet**합니다.
 
-2.  에 **속성** 창에서 설정 합니다 **한정자** 속성을 **공용**.
+2. 에 **속성** 창에서 설정 합니다 **한정자** 속성을 **공용**.
 
-3.  설정 된 **CacheInDocument** 속성을 **True**합니다.
+3. 설정 된 **CacheInDocument** 속성을 **True**합니다.
 
 ## <a name="checkpoint"></a>검사점
  빌드하고 컴파일 및 오류 없이 실행 되는지 확인 하려면 Excel 통합 문서 프로젝트를 실행 합니다.
 
 ### <a name="to-build-and-run-the-project"></a>프로젝트를 빌드하여 실행하려면
 
-1.  **솔루션 탐색기**, 마우스 오른쪽 단추로 클릭 합니다 **AdventureWorksReport** 프로젝트 **디버그**를 클릭 하 고 **새 인스턴스 시작**.
+1. **솔루션 탐색기**, 마우스 오른쪽 단추로 클릭 합니다 **AdventureWorksReport** 프로젝트 **디버그**를 클릭 하 고 **새 인스턴스 시작**.
 
      프로젝트를 빌드하고 Excel에서 통합 문서가 열립니다. <xref:Microsoft.Office.Tools.Excel.ListObject> 에서 **Sheet1** 비어 있으므로 `adventureWorksLTDataSet` 데이터 캐시의 개체는 데이터가 아직 합니다. 다음 섹션에서는 채우는 데 사용 하는 콘솔 응용 프로그램을 `adventureWorksLTDataSet` 데이터로 개체입니다.
 
-2.  Excel을 닫습니다. 변경 내용을 저장 하지 마십시오.
+2. Excel을 닫습니다. 변경 내용을 저장 하지 마십시오.
 
 ## <a name="create-a-console-application-project"></a>콘솔 응용 프로그램 프로젝트 만들기
  통합 문서에서 캐시 된 데이터 집합에 데이터를 삽입 하는 데 콘솔 응용 프로그램 프로젝트를 만듭니다.
 
 ### <a name="to-create-the-console-application-project"></a>콘솔 응용 프로그램 프로젝트를 만들려면
 
-1.  **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 합니다 **AdventureWorksDataSet** 솔루션을 가리킵니다 **추가**를 클릭 하 고 **새 프로젝트**합니다.
+1. **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 합니다 **AdventureWorksDataSet** 솔루션을 가리킵니다 **추가**를 클릭 하 고 **새 프로젝트**합니다.
 
-2.  에 **프로젝트 형식** 창 확장 **Visual C#** 또는 **Visual Basic**를 클릭 하 고 **Windows**합니다.
+2. 에 **프로젝트 형식** 창 확장 **Visual C#** 또는 **Visual Basic**를 클릭 하 고 **Windows**합니다.
 
-3.  에 **템플릿을** 창 **콘솔 응용 프로그램**합니다.
+3. 에 **템플릿을** 창 **콘솔 응용 프로그램**합니다.
 
-4.  에 **이름을** 상자에 입력 **DataWriter**합니다. 위치를 수정 하지 마십시오.
+4. 에 **이름을** 상자에 입력 **DataWriter**합니다. 위치를 수정 하지 마십시오.
 
-5.  **확인**을 클릭합니다.
+5. **확인**을 클릭합니다.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 추가 합니다 **DataWriter** 프로젝트를 **솔루션 탐색기** 열어서 합니다 **Program.cs** 또는 **Module1.vb** 코드 파일.
 
@@ -276,21 +276,21 @@ ms.locfileid: "54875943"
 
 ### <a name="to-test-the-workbook"></a>통합 문서를 테스트 하려면
 
-1.  열려 있는 경우 Visual Studio 디자이너에서 AdventureWorksReport 통합 문서를 닫습니다.
+1. 열려 있는 경우 Visual Studio 디자이너에서 AdventureWorksReport 통합 문서를 닫습니다.
 
-2.  파일 탐색기에서 빌드 폴더에 있는 AdventureWorksReport 통합 문서를 엽니다는 **AdventureWorksReport** 프로젝트입니다. 기본적으로 다음 위치 중 하나에서 빌드 폴더는:
+2. 파일 탐색기에서 빌드 폴더에 있는 AdventureWorksReport 통합 문서를 엽니다는 **AdventureWorksReport** 프로젝트입니다. 기본적으로 다음 위치 중 하나에서 빌드 폴더는:
 
-    -   *%UserProfile%\My Documents\AdventureWorksReport\bin\Debug* (Windows XP 및 이전)
+    - *%UserProfile%\My Documents\AdventureWorksReport\bin\Debug* (Windows XP 및 이전)
 
-    -   *%UserProfile%\Documents\AdventureWorksReport\bin\Debug* (예: Windows Vista)
+    - *%UserProfile%\Documents\AdventureWorksReport\bin\Debug* (예: Windows Vista)
 
-3.  확인 된 <xref:Microsoft.Office.Tools.Excel.ListObject> 통합 문서를 열면 데이터로 채워집니다.
+3. 확인 된 <xref:Microsoft.Office.Tools.Excel.ListObject> 통합 문서를 열면 데이터로 채워집니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 다음이 항목에서 캐시 된 데이터로 작업 하는 방법에 대 한 자세한 수 있습니다.
 
--   Excel을 시작 하지 않고 캐시 된 데이터 집합에서 데이터를 변경 합니다. 자세한 내용은 [연습: 서버에서 통합 문서에서 캐시 된 데이터 변경](../vsto/walkthrough-changing-cached-data-in-a-workbook-on-a-server.md)합니다.
+- Excel을 시작 하지 않고 캐시 된 데이터 집합에서 데이터를 변경 합니다. 자세한 내용은 [연습: 서버에서 통합 문서에서 캐시 된 데이터 변경](../vsto/walkthrough-changing-cached-data-in-a-workbook-on-a-server.md)합니다.
 
 ## <a name="see-also"></a>참고 항목
 

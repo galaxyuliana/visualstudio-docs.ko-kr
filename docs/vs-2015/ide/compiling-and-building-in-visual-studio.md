@@ -12,12 +12,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 04d67f90006d4e11b2cbe16f6dacd3ba02cde7a6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 7694f0f725af8a20ff3a5a01753b0669c0fd5d9f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54779451"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60067354"
 ---
 # <a name="compiling-and-building-in-visual-studio"></a>Visual Studio에서 컴파일 및 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,17 +40,17 @@ Visual Studio를 사용하여 개발 주기 동안 잦은 간격으로 애플리
 
  IDE 내에서 수행할 수 있는 추가 작업은 다음과 같습니다.
 
--   [빌드 출력 디렉터리 변경](../ide/how-to-change-the-build-output-directory.md)
+- [빌드 출력 디렉터리 변경](../ide/how-to-change-the-build-output-directory.md)
 
--   [올바른 빌드를 위해 다른 프로젝트의 출력에 의존하는 프로젝트 식별](../ide/how-to-create-and-remove-project-dependencies.md)
+- [올바른 빌드를 위해 다른 프로젝트의 출력에 의존하는 프로젝트 식별](../ide/how-to-create-and-remove-project-dependencies.md)
 
--   [빌드 로그 또는 빌드의 출력 창에 포함되는 정보의 양 변경](../ide/how-to-view-save-and-configure-build-log-files.md)
+- [빌드 로그 또는 빌드의 출력 창에 포함되는 정보의 양 변경](../ide/how-to-view-save-and-configure-build-log-files.md)
 
--   [Visual C#, Visual C++ 또는 Visual Basic에 대한 특정 컴파일러 경고 숨기기](../ide/how-to-suppress-compiler-warnings.md)
+- [Visual C#, Visual C++ 또는 Visual Basic에 대한 특정 컴파일러 경고 숨기기](../ide/how-to-suppress-compiler-warnings.md)
 
--   [빌드에 대한 사용자 지정 사전 컴파일 및 사후 컴파일 작업 지정](../ide/specifying-custom-build-events-in-visual-studio.md)
+- [빌드에 대한 사용자 지정 사전 컴파일 및 사후 컴파일 작업 지정](../ide/specifying-custom-build-events-in-visual-studio.md)
 
--   병렬 빌드를 사용하여 빌드 성능 개선. 자세한 내용은 [병렬로 여러 프로젝트 빌드](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) 또는 블로그 게시물 [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx)(C++ 빌드 병렬 처리 조정)을 참조하세요.
+- 병렬 빌드를 사용하여 빌드 성능 개선. 자세한 내용은 [병렬로 여러 프로젝트 빌드](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) 또는 블로그 게시물 [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx)(C++ 빌드 병렬 처리 조정)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
  [연습: 응용 프로그램 빌드](../ide/walkthrough-building-an-application.md) [빌드 구성 이해](../ide/understanding-build-configurations.md) [빌드 플랫폼 이해](../ide/understanding-build-platforms.md) [(컴파일) 웹 사이트 프로젝트 빌드](http://msdn.microsoft.com/library/a9cbb88c-8fff-4c67-848b-98fbfd823193) [ 어떻게: 프로젝트 종속성 만들기 및 제거](../ide/how-to-create-and-remove-project-dependencies.md)

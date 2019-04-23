@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: efb95d2beb90358cbbe359076a815dee13ce7166
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: e39a742c01b013c43992847010bf5f6cb6ac6009
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644382"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60070923"
 ---
 # <a name="create-vsto-add-ins-for-office-by-using-visual-studio"></a>Visual Studio를 사용하여 Office용 VSTO 추가 기능 만들기
   Visual Studio의 Microsoft Office 개발자 도구를 사용하여 Office를 확장하는 .NET Framework 애플리케이션을 만들 수 있습니다. 이러한 애플리케이션을 *Office 솔루션*이라고도 합니다.
@@ -29,9 +29,9 @@ ms.locfileid: "56644382"
 
  Office 개발에 대한 최신 정보는 MSDN에서 다음 개발 센터를 참조하세요.
 
--   합니다 [Visual Studio 개발자 포털을 통한 Office 개발](http://go.microsoft.com/fwlink/?LinkId=123844) 제품 정보, 코드 샘플, 비디오 및 Visual Studio를 사용 하 여 솔루션의 일부분으로 Office 응용 프로그램을 사용자 지정 하는 방법에 대 한 커뮤니티 리소스에 대 한 링크를 포함 합니다. .
+- 합니다 [Visual Studio 개발자 포털을 통한 Office 개발](http://go.microsoft.com/fwlink/?LinkId=123844) 제품 정보, 코드 샘플, 비디오 및 Visual Studio를 사용 하 여 솔루션의 일부분으로 Office 응용 프로그램을 사용자 지정 하는 방법에 대 한 커뮤니티 리소스에 대 한 링크를 포함 합니다. .
 
--   합니다 [Microsoft Office 개발자 센터](http://go.microsoft.com/fwlink/?LinkId=83467) 기술 문서, 코드 샘플, 다운로드, 커뮤니티 정보, 지원 및 Office 사용자 지정 및 Oba (Office 비즈니스 응용 하는 방법에 대 한 기타 문서에 대 한 링크를 포함 합니다. ).
+- 합니다 [Microsoft Office 개발자 센터](http://go.microsoft.com/fwlink/?LinkId=83467) 기술 문서, 코드 샘플, 다운로드, 커뮤니티 정보, 지원 및 Office 사용자 지정 및 Oba (Office 비즈니스 응용 하는 방법에 대 한 기타 문서에 대 한 링크를 포함 합니다. ).
 
 ## <a name="in-this-section"></a>단원 내용
 - [시작 &#40;Visual Studio에서 Office 개발&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
