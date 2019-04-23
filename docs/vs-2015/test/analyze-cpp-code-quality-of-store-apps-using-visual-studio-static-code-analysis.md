@@ -11,12 +11,12 @@ caps.latest.revision: 15
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 867c42d4afb35abcc1e37c86f85a01a7dd3fdf24
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: a8ea5d8a8120f8b78ec41ee7dbaf0221a549f15c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659828"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103877"
 ---
 # <a name="analyze-c-code-quality-of-store-apps-using-visual-studio-static-code-analysis"></a>Visual Studio 정적 코드 분석을 사용하여 스토어 앱의 C++ 코드 품질 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 > [!NOTE]
 > Visual Studio Ultimate, Visual Studio Premium 및 Visual Studio Professional에서는 코드 분석 도구의 기능을 모두 사용할 수 있습니다. MSDN 라이브러리의 [코드 분석 도구를 사용하여 애플리케이션 품질 분석](http://msdn.microsoft.com/library/dd264897.aspx)을 참조하세요.
 
-##  <a name="BKMK_Run"></a> 코드 분석 실행
+## <a name="BKMK_Run"></a> 코드 분석 실행
  Visual Studio 솔루션에서 코드 문석을 실행하려면 다음을 수행합니다.
 
 - **빌드** 메뉴에서 **솔루션에서 코드 분석 실행**을 선택합니다.
@@ -43,7 +43,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
    ![코드 분석 창](../test/media/ca-cpp-collapsed.png "CA_CPP_Collapsed")
 
-##  <a name="BKMK_Analyze"></a> 코드 분석 경고 분석 및 해결
+## <a name="BKMK_Analyze"></a> 코드 분석 경고 분석 및 해결
  특정 경고를 분석하려면 코드 분석 창에서 경고 제목을 선택합니다. 경고가 확장되어 문제에 대한 자세한 정보가 표시됩니다. 가능한 경우 코드 분석에 줄 번호와 경고를 초래한 분석 논리가 표시됩니다.
 
  ![확장된 코드 분석 경고](../test/media/ca-cpp-expanded-callout.png "CA_CPP_Expanded_Callout")
@@ -57,7 +57,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 > [!TIP]
 >  코드 분석 창에서 코드 분석을 다시 실행할 수 있습니다. **분석** 단추를 선택한 다음 분석 범위를 선택합니다. 전체 솔루션 또는 선택한 프로젝트에 대한 분석을 다시 실행할 수 있습니다.
 
-##  <a name="BKMK_Suppress"></a> 코드 분석 경고 표시하지 않기
+## <a name="BKMK_Suppress"></a> 코드 분석 경고 표시하지 않기
  코드 분석 경고를 수정하지 않도록 결정하는 경우가 있습니다. 경고를 해결하려면 코드의 실제 구현에서 문제가 발생할 가능성과 관련하여 너무 많은 기록이 필요하다고 판단할 수 있습니다. 또는 경고에 사용되는 분석이 특정 컨텍스트에 적절하지 않다고 판단할 수도 있습니다. 코드 분석 창에 개별 경고가 나타나지 않도록 개별 경고를 표시하지 않을 수 있습니다.
 
  경고를 표시하지 않으려면 다음을 수행합니다.
@@ -70,12 +70,12 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
    메시지를 표시하지 않도록 설정하면 코드 줄에 대한 경고를 표시하지 않는 `#pragma(warning:`*WarningId*`)`가 삽입됩니다.
 
-##  <a name="BKMK_Search"></a> 코드 분석 결과 검색 및 필터링
+## <a name="BKMK_Search"></a> 코드 분석 결과 검색 및 필터링
  긴 경고 메시지 목록을 검색하고 다중 프로젝트 솔루션에서 경고를 필터링할 수 있습니다.
 
  ![코드 분석 검색 및 필터 창](../test/media/ca-searchfilter.png "CA_SearchFilter")
 
-##  <a name="Warnings"></a> C++ 코드 분석 경고
+## <a name="Warnings"></a> C++ 코드 분석 경고
  코드 분석 시 C++ 코드에 대해 다음과 같은 경고가 발생합니다.
 
 |                                      규칙                                      |                                                  설명                                                  |

@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f27e388c0b7670e8af7d6a97954485ef90d01f9e
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 55a27a8d0c5c119870e92bfbf7cff4b85f90cf99
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54869673"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103532"
 ---
 # <a name="publish-page-project-designer-office-development-in-visual-studio"></a>게시 페이지, 프로젝트 디자이너 (Visual Studio에서 Office 개발)
   **프로젝트 디자이너** 의 **게시** 페이지를 통해 배포를 위한 속성을 구성합니다.
@@ -84,9 +84,9 @@ ms.locfileid: "54869673"
 
 - VSTO 추가 기능 로드 동작
 
-  -   시작 시 로드: Office 애플리케이션이 시작될 때 VSTO 추가 기능이 로드되도록 지정합니다.
+  - 시작 시 로드: Office 애플리케이션이 시작될 때 VSTO 추가 기능이 로드되도록 지정합니다.
 
-  -   요청 시 로드: 사용자가 VSTO 추가 기능의 기능을 사용하는 UI 요소를 클릭할 때처럼 VSTO 추가 기능이 애플리케이션에서 필요로 할 때 로드되도록 지정합니다.
+  - 요청 시 로드: 사용자가 VSTO 추가 기능의 기능을 사용하는 UI 요소를 클릭할 때처럼 VSTO 추가 기능이 애플리케이션에서 필요로 할 때 로드되도록 지정합니다.
 
   **게시 언어** 이 옵션의 Microsoft 소프트웨어 사용 조건에 언어를 설정 하 고 필수 조건 목록에서 언어 팩을 포함 합니다. 사용자 지정의 언어에는 영향을 주지 않습니다. 설치 프로그램의 언어는 Visual Studio의 설치된 언어에 의해 결정됩니다.
 

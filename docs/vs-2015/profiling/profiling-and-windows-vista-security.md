@@ -12,12 +12,12 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b5e82777b0d2f6134f99cabf42030943d4ea9a8a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: fb95164642595195dc62166aec5c81f39abd33e3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54772923"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104065"
 ---
 # <a name="profiling-and-windows-vista-security"></a>프로파일링 및 Windows Vista 보안
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,11 +37,11 @@ ms.locfileid: "54772923"
   
  상호 프로세스 프로파일링 표시 여부 옵션을 설정하면 사용 가능한 프로세스 목록을 확인할 수 있습니다. **프로세스에 연결**을 클릭하면 표시되는 **프로세스에 연결** 창에서 다음과 같은 옵션을 사용할 수 있습니다.  
   
--   **모든 사용자의 프로세스 표시**  
+- **모든 사용자의 프로세스 표시**  
   
      이 옵션을 선택하지 않으면 현재 사용자가 소유한 프로세스만 목록에 표시됩니다. **모든 사용자의 프로세스 표시**를 선택하면 모든 사용자의 프로세스가 목록에 표시됩니다.  
   
--   **모든 세션의 프로세스 표시**  
+- **모든 세션의 프로세스 표시**  
   
      이 옵션을 선택하지 않으면 현재 세션의 프로세스가 목록에 표시됩니다. 이 옵션을 선택하면 모든 세션의 프로세스가 목록에 표시됩니다.  
   
