@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b63c6b91ec4b93129014d1d7213d8426a4565c2c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: e45a2d0527e1d245a0d034310939bd1601db8adc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645929"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666457"
 ---
 # <a name="ltinstallchecksgt-element-bootstrapper"></a>&lt;InstallChecks&gt; 요소 (부트스트래퍼)
 `InstallChecks` 요소를 지 원하는 다양 한 응용 프로그램에 대 한 적절 한 필수 구성 요소가 모두 설치 되었는지 확인 하려면 로컬 컴퓨터에 대해 테스트를 시작 합니다.
@@ -97,7 +97,6 @@ ms.locfileid: "56645929"
 
  `FileCheck` 요소를 포함 하지 하 고 다음과 같은 특성이 있습니다.
 
-
 | 특성 | 설명 |
 |-----------------| - |
 | `Property` | 필수 요소. 결과 저장 하는 속성의 이름입니다. 아래의 테스트에서이 속성을 참조할 수 있습니다 합니다 `InstallConditions` 자식 요소의는 `Command` 요소입니다. 자세한 내용은 [ \<명령 > 요소](../deployment/commands-element-bootstrapper.md)합니다. |
@@ -141,7 +140,7 @@ ms.locfileid: "56645929"
 |`FileName`|선택 사항입니다. 파일의 이름입니다. 레지스트리 키에서 얻은 값 디렉터리 경로 간주 됩니다 지정 하는 경우 및이 이름에 추가 됩니다. 지정 하지 않으면 레지스트리에서 반환 된 값 파일의 전체 경로를 가정 합니다.|
 |`SearchDepth`|선택 사항입니다. 명명된 된 파일에 대 한 하위 폴더를 검색 하는 깊이입니다. 검색에는 깊이 우선 됩니다. 기본값은 0으로, 레지스트리 키의 값으로 지정 된 최상위 폴더에 검색을 제한 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  요소 아래에 있는 동안 `InstallChecks` 해당 실행 되지, 실행할 테스트를 정의 합니다. 테스트를 실행 하려면 만들어야 `Command` 아래에 있는 요소는 `Commands` 요소입니다.
 
 ## <a name="example"></a>예제
@@ -165,7 +164,7 @@ ms.locfileid: "56645929"
 ## <a name="predefined-properties"></a>미리 정의 된 속성
  다음 표에서 `BypassIf` 고 `FailIf` 요소:
 
-|속성|참고 사항|가능한 값|
+|속성|노트|가능한 값|
 |--------------|-----------|---------------------|
 |`Version9X`|Windows 9 X 운영 체제의 버전 번호입니다.|4.10 = Windows 98|
 |`VersionNT`|Windows NT 기반 운영 체제의 버전 번호입니다.|Major.Minor.ServicePack<br /><br /> 5.0 = Windows 2000<br /><br /> 5.1.0 = Windows XP<br /><br /> 5.1.2 = Windows XP Professional SP2<br /><br /> 5.2.0 = Windows Server 2003|
@@ -180,6 +179,6 @@ ms.locfileid: "56645929"
     <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [\<명령 > 요소](../deployment/commands-element-bootstrapper.md)
 - [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)

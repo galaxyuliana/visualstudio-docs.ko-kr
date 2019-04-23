@@ -29,14 +29,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: da49cd81ea309df2d8e2bd0b4c41c28a84564fa8
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MTE95
+ms.openlocfilehash: fd8928f204da4a3af15918a598df6241cd39df85
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526092"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665677"
 ---
-# <a name="create-a-visual-map-of-the-call-stack-while-debugging-c-visual-basic-c-javascript"></a>디버깅 하는 동안 호출 스택의 시각적 맵 만들기 (C#, Visual Basic, c + +, JavaScript)
+# <a name="create-a-visual-map-of-the-call-stack-while-debugging-c-visual-basic-c-javascript"></a>디버깅 하는 동안 호출 스택의 시각적 맵 만들기 (C#, Visual Basic의 경우 C++, JavaScript)
 
 디버깅하는 동안 호출 스택을 시각적으로 추적할 코드 맵을 만듭니다. 맵을 기록해 두면 코드에서 어떤 작업을 하고 있는지 추적하여 버그를 찾는 데 집중할 수 있습니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "57526092"
 명령 및 코드 맵을 사용 하 여 사용할 수 있는 작업의 세부 정보를 참조 하세요 [찾아보기 및 다시 정렬 코드 맵](../modeling/browse-and-rearrange-code-maps.md)합니다.
 
 >[!IMPORTANT]
->만들 수 있습니다 코드 에서만 맵을 [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/)합니다.
+>만들 수 있습니다 코드 에서만 맵을 [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)합니다.
 
 코드 맵 개요는 다음과 같습니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "57526092"
 
 ##  <a name="MapStack"></a> 호출 스택 매핑
 
-1. Visual Studio Enterprise에서 C#, Visual Basic, c + + 또는 JavaScript 프로젝트를 선택 하 여 디버깅을 시작할 **디버그** > **디버깅 시작** 키를 누르거나 **F5**.
+1. Visual Studio Enterprise에서 C#, Visual Basic의 경우 C++, 또는 JavaScript 프로젝트를 선택 하 여 디버깅을 시작할 **디버그** > **디버깅 시작** 키를 누르거나 **F5** .
 
 1. 앱 중단 모드로 들어가거나 한 함수 한 단계씩 실행, 한 후 선택 **디버그** > **코드 맵**를 누르거나 **Ctrl**+**Shift** +**`**.
 
@@ -155,10 +155,10 @@ ms.locfileid: "57526092"
 
 ![다른 사용자와 공유 호출 스택 코드 맵의](../debugger/media/debuggermap_sharewithothers.png "다른 사용자와 공유 호출 스택 코드 맵")
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)
 
-[코드 맵을 사용하여 애플리케이션 디버그](../modeling/use-code-maps-to-debug-your-applications.md)
+[코드 맵을 사용하여 응용 프로그램 디버그](../modeling/use-code-maps-to-debug-your-applications.md)
 
 [코드 맵 분석기를 사용하여 잠재적 문제 찾기](../modeling/find-potential-problems-using-code-map-analyzers.md)
 

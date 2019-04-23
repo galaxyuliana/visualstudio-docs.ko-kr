@@ -13,27 +13,26 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 18df04fc706ea716f7c22baa6508930f0f94a6f6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 3cea1375b59b791c7c81c79be0a462d5eb690776
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54801468"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664173"
 ---
 # <a name="registering-extensions-of-the-net-framework"></a>.NET Framework 확장명 등록
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 .NET Framework의 특정 버전을 확장하는 어셈블리를 개발할 수 있습니다. 해당 어셈블리가 Visual Studio의 **참조 추가** 대화 상자에 표시되도록 설정하려면 이 어셈블리를 포함하는 폴더를 시스템 레지스트리에 추가해야 합니다.  
   
  Trey Research라는 회사가 .NET Framework 4를 확장하는 라이브러리를 개발하여 프로젝트가 .NET Framework 4를 대상으로 할 때 라이브러리 어셈블리가 **참조 추가** 대화 상자에 표시되도록 하려는 경우를 예로 들어 보겠습니다. 이때 어셈블리는 32비트 컴퓨터에서 실행되는 32비트 어셈블리 또는 64비트 컴퓨터에서 실행되는 64비트 어셈블리이며 C:\TreyResearch\Extensions4\ 폴더에 설치된다고 가정합니다.  
   
- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\v4.0.21006\AssemblyFoldersEx\TreyResearch\\ 키를 사용하여 이 폴더를 등록합니다. 이 키에 기본값인 C:\TreyResearch\Extensions4를 지정합니다.  
+ 다음 키를 사용하여 이 폴더를 등록합니다. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\v4.0.21006\AssemblyFoldersEx\TreyResearch\\. 키에 다음 기본값을 제공합니다. C:\TreyResearch\Extensions4.  
   
 > [!NOTE]
 >  .NET Framework 버전의 빌드 번호는 다를 수 있습니다.  
   
- 64비트 컴퓨터에서 32비트 어셈블리를 등록하려면 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\v4.0.21006\AssemblyFoldersEx\TreyResearch\\와 같이 Wow6432 노드를 사용합니다.  
+ 64비트 컴퓨터에서 32비트 어셈블리를 등록하려면 다음과 같이 Wow6432 노드를 사용합니다. HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\v4.0.21006\AssemblyFoldersEx\TreyResearch\\.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 통합](../msbuild/visual-studio-integration-msbuild.md)

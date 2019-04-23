@@ -9,18 +9,17 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 4bc9b014eede5ac19935f29ed8317e1507ae8a42
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: f762920f61b649023f98810f7de8cdb7e3cf908a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002777"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662408"
 ---
 # <a name="mixed-recommended-rules-rule-set"></a>혼합 권장 규칙 규칙 집합
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Microsoft 혼합 권장 규칙은 잠재적 보안 허점, 응용 프로그램 충돌 및 기타 중요 한 논리 및 디자인 오류를 포함 하 여 공용 언어 런타임을 지 원하는 c + + 프로젝트에서 가장 일반적이 고 중요 한 문제에 집중 합니다. 공용 언어 런타임을 지 원하는 c + + 프로젝트에 대해 만든 모든 사용자 지정 규칙 집합에 설정 합니다.이 규칙을 포함 해야 합니다. 이 규칙 집합은 Visual Studio Professional edition 이상 구성 하도록 설계 되었습니다.  
-
+Microsoft 혼합 권장 규칙에서 가장 일반적이 고 중요 한 문제에 집중 하 C++ 잠재적 보안 허점, 응용 프로그램 충돌 및 기타 중요 한 논리 및 디자인 오류를 포함 하 여 공용 언어 런타임을 지 원하는 프로젝트입니다. 이 규칙 집합에 대해 만든 모든 사용자 지정 규칙 집합에 포함 해야 하면 C++ 공용 언어 런타임에서 지 원하는 프로젝트입니다. 이 규칙 집합은 Visual Studio Professional edition 이상 구성 하도록 설계 되었습니다.  
 
 |                                                              규칙                                                              |                                                             설명                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|

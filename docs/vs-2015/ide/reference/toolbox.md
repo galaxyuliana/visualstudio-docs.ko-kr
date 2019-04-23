@@ -16,17 +16,16 @@ caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9f296cda3fb7b57ed323dd8b1a6bbff949b9a6d1
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 0a7c2320f7943798a336e52ba2043f430cdb9231
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54799800"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661349"
 ---
 # <a name="toolbox"></a>도구 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **도구 상자**는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 프로젝트에 추가할 수 있는 컨트롤 및 기타 항목의 아이콘을 표시합니다. **도구 상자**를 열려면 **보기** 메뉴에서 **도구 상자**를 클릭합니다. **도구 상자**를 도킹하고 열린 상태로 고정하거나 **자동 숨기기**로 설정할 수 있습니다.  
   
  **도구 상자** 아이콘을 디자인 뷰로 끌어오거나 코드 편집기에 붙여넣을 수 있습니다. 두 동작 모두 활성 프로젝트 파일에서 **도구 상자** 항목의 인스턴스를 만들 수 있는 기본 코드를 추가합니다.  

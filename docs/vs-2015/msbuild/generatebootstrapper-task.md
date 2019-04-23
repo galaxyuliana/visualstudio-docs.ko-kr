@@ -19,17 +19,16 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 85ea10b956069415198feb74be8c9e546ecc7ff8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 488caf02a20b4f0855df1ba2ef64c85e70e1a6a4
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54769225"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668121"
 ---
 # <a name="generatebootstrapper-task"></a>GenerateBootstrapper 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 애플리케이션과 해당 필수 조건을 검색, 다운로드, 설치할 수 있는 자동화된 방법을 제공합니다. 이 작업은 애플리케이션을 구성하는 모든 구성 요소에 대한 개별 설치 관리자를 통합하는 단일 설치 관리자로 사용됩니다.  
   
 ## <a name="task-parameters"></a>작업 매개 변수  
@@ -96,9 +95,9 @@ ms.locfileid: "54769225"
   
    설치할 설치 필수 조건을 검색할 부트스트래퍼의 위치를 지정합니다. 이 매개 변수는 다음 값 중 하나를 가질 수 있습니다.  
   
-  - `HomeSite`: 필수 조건이 구성 요소 공급업체에서 호스트되고 있음을 나타냅니다.  
+  - `HomeSite`: 필수 구성 요소가 구성 요소 공급업체에서 호스트되고 있음을 나타냅니다.  
   
-  - `Relative`: 필수 조건이 애플리케이션의 같은 위치에 있음을 나타냅니다.  
+  - `Relative`: 응용 프로그램의 동일한 위치에 있음을 나타냅니다.  
   
   - `Absolute`: 모든 구성 요소를 중앙 URL에서 찾을 수 있음을 나타냅니다. 이 값은 `ComponentsUrl` 입력 매개 변수와 함께 사용해야 합니다.  
   
@@ -152,10 +151,10 @@ ms.locfileid: "54769225"
   
    `true`인 경우 부트스트래퍼가 지정된 입력 부트스트래퍼 항목에 대해 XSD 유효성 검사를 수행합니다. 이 매개 변수의 기본값은 `false`입니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `GenerateBootstrapper` 작업을 사용하여 [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)]가 필수 조건으로 설치되어야 하는 애플리케이션을 설치합니다.  
   
 ```  

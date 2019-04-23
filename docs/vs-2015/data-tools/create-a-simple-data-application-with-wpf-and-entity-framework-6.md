@@ -9,17 +9,16 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 56c211597e99689e1ad263cfe12d7dafdf3cf5cc
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 62e1a6c317752dc5513a51d3e8018d15c9598b93
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002697"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664802"
 ---
 # <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>WPF 및 Entity Framework 6을 사용하여 간단한 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 연습에는 SQL Server LocalDB, Northwind 데이터베이스, Entity Framework 6 및 Windows Presentation Foundation을 사용 하 여 Visual Studio에서 기본 "데이터 폼" 응용 프로그램을 만드는 방법을 보여 줍니다. 마스터-세부 뷰를 사용 하 여 기본 데이터 바인딩 작업을 수행 하는 방법을 보여 줍니다과 함께 사용자 지정 "바인딩 탐색기" "다음으로 이동" 단추를 사용 하 여 "이전으로 이동," "처음 이동" 이동 "을 종료 하려면"에 "업데이트" 및 "삭제"입니다.  
   
  이 문서에서는 Visual Studio에서 데이터 도구를 사용 하 여에 중점을 둡니다 및 모든 수준에서 기본 기술에 설명 하려고 하지 않습니다. XAML, Entity Framework 및 SQL에 대 한 기본 지식이 있다고 가정 합니다. 또한이 예제에서는 WPF 응용 프로그램에 대 한 표준 MVVM 아키텍처를 보여 주지 않습니다. 그러나 몇 가지 수정 사항이 MVVM 응용 프로그램 자체에이 코드를 복사할 수 있습니다.  

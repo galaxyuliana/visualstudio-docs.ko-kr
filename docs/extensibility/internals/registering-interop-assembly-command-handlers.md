@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5373e292192294b5dd27eff87c9f9f2b2f97820a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 7a129e0a66399da1efe9bff4d7aef1a94602fa79
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602795"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664468"
 ---
 # <a name="registering-interop-assembly-command-handlers"></a>Interop 어셈블리 명령 처리기를 등록
 VSPackage를 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 는 통합된 개발 환경 (IDE)는 해당 명령을 올바르게 라우팅합니다.
@@ -49,7 +49,6 @@ HKEY_LOCAL_MACHINE\Software\VisualStudio\<Version>\
  \<*리소스 DLL에 대 한 경로*>, \< *메뉴 리소스 ID*>, \< *메뉴 버전*>
 
  다음 표에서 설명 필드 \< *자원 정보*>.
-
 
 | 요소 | 설명 |
 |---------------------------| - |

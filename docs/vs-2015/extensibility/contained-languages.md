@@ -10,17 +10,16 @@ ms.assetid: b75bbb51-8e42-41b1-bece-09ab0b1f03cc
 caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 670c1b751e5f1023530fe1f0c73ab16d24fd5328
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 20a42d614278413e4e6ee09ecacdf842ccee878d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980999"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662247"
 ---
 # <a name="contained-languages"></a>포함 된 언어
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)] 
 
-  
 *언어 포함* 은 다른 언어에 포함 된 언어입니다. 예를 들어, HTML [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 페이지에 포함 될 수 있습니다 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 또는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 스크립트입니다. 이중 언어 아키텍처는 HTML 및 스크립팅 언어에 대 한 IntelliSense, 색 지정 및 다른 편집 기능을 제공 하는.aspx 파일 편집기 필요 합니다.  
   
 ## <a name="implementation"></a>구현  

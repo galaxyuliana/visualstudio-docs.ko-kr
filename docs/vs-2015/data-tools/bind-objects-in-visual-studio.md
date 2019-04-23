@@ -19,16 +19,15 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dedfc71636983a9cbe634551a88eb3de45cb1d99
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 96acd1039f9293e6efb64f2726fc53a4c33cdc31
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982706"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667185"
 ---
 # <a name="bind-objects-in-visual-studio"></a>Visual Studio에서 개체 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 개체 작업에 대 한 디자인 타임 도구를 제공 합니다. UI 컨트롤에 바인딩할 수 있는 개체에는 데이터베이스에서 데이터를 저장 하려는 경우 Entity Framework를 사용 하 여 클래스 또는 클래스를 생성 하는 것이 좋습니다. 엔터티 Frameworkautogenerates 모든 변경 내용 추적 코드, 즉, 로컬 개체를 변경 하는 DbSet 개체에서 AcceptChanges를 호출 하면 데이터베이스에 자동으로 유지 됩니다.    자세한 내용은 [Entity Framework 설명서](https://ef.readthedocs.org/en/latest/)합니다.
 

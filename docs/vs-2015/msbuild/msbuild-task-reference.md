@@ -16,17 +16,16 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5bd6df873bf1aadbec4b12763369c60f127819c0
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MTE95
+ms.openlocfilehash: 19fe581985ec173099790311517c0442a9c29c2f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54834425"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662584"
 ---
 # <a name="msbuild-task-reference"></a>MSBuild 작업 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 작업은 빌드 프로세스 동안 실행되는 코드를 제공합니다. 다음 목록의 작업이 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에 포함되어 있습니다. [!INCLUDE[vcprvc](../includes/vcprvc-md.md)]가 설치되면 [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] 프로젝트를 빌드하는 데 사용되는 추가 작업을 사용할 수 있습니다. 자세한 내용은 [Visual C++ 작업](../msbuild/msbuild-tasks-specific-to-visual-cpp.md)을 참조하세요.  
   
  이 섹션의 항목에 나열된 매개 변수 외에도 각 작업에는 다음과 같은 매개 변수가 있습니다.  
@@ -34,7 +33,7 @@ ms.locfileid: "54834425"
 |매개 변수|설명|  
 |---------------|-----------------|  
 |`Condition`|선택적 `String` 매개 변수입니다.<br /><br /> [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 엔진이 이 작업이 실행될지 여부를 결정하는 데 사용하는 `Boolean` 식입니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 지원되는 조건에 대한 자세한 내용은 [조건](../msbuild/msbuild-conditions.md)을 참조하세요.|  
-|`ContinueOnError`|선택적 매개 변수입니다. 다음 값 중 하나를 포함할 수 있습니다.<br /><br /> -   **WarnAndContinue** 또는 **true**. 작업이 실패할 경우 [Target](../msbuild/target-element-msbuild.md) 요소의 후속 작업과 빌드가 계속 실행되고 작업에서 발생한 모든 오류가 경고로 처리됩니다.<br />-   **ErrorAndContinue**. 작업이 실패할 경우 `Target` 요소의 후속 작업과 빌드가 계속 실행되고 작업에서 발생한 모든 오류가 오류로 처리됩니다.<br />-   **ErrorAndStop** 또는 **false**(기본값). 작업이 실패할 경우 `Target` 요소의 나머지 작업이 실행되지 않고 전체 `Target` 요소와 빌드가 실패한 것으로 간주됩니다.<br /><br /> .NET Framework 4.5 이전 버전은 `true` 및 `false` 값만 지원합니다.<br /><br /> 자세한 내용은 [방법: 작업의 오류 무시](../msbuild/how-to-ignore-errors-in-tasks.md)를 참조하세요.|  
+|`ContinueOnError`|선택적 매개 변수입니다. 다음 값 중 하나를 포함할 수 있습니다.<br /><br /> -   **WarnAndContinue** 또는 **true**. 작업이 실패할 경우 [Target](../msbuild/target-element-msbuild.md) 요소의 후속 작업과 빌드가 계속 실행되고 작업에서 발생한 모든 오류가 경고로 처리됩니다.<br />-   **ErrorAndContinue**. 작업이 실패할 경우 `Target` 요소의 후속 작업과 빌드가 계속 실행되고 작업에서 발생한 모든 오류가 오류로 처리됩니다.<br />-   **ErrorAndStop** 또는 **false**(기본값). 작업이 실패할 경우 `Target` 요소의 나머지 작업이 실행되지 않고 전체 `Target` 요소와 빌드가 실패한 것으로 간주됩니다.<br /><br /> .NET Framework 4.5 이전 버전은 `true` 및 `false` 값만 지원합니다.<br /><br /> 자세한 내용은 [방법: 작업의 오류 무시](../msbuild/how-to-ignore-errors-in-tasks.md)합니다.|  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [Task 기본 클래스](../msbuild/task-base-class.md)  
@@ -113,7 +112,7 @@ ms.locfileid: "54834425"
  버전 번호에 수정 버전 번호를 추가합니다.  
   
  [GenerateApplicationManifest 작업](../msbuild/generateapplicationmanifest-task.md)  
- [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션 매니페스트 또는 네이티브 매니페스트를 생성합니다.  
+ [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 매니페스트 또는 네이티브 매니페스트를 생성합니다.  
   
  [GenerateBootstrapper 작업](../msbuild/generatebootstrapper-task.md)  
  애플리케이션과 해당 필수 조건을 검색, 다운로드, 설치할 수 있는 자동화된 방법을 제공합니다.  

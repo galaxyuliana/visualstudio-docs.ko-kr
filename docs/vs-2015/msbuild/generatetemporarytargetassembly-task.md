@@ -19,17 +19,16 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f3f537e6f9f1712e3d103a0d425265153bf2152e
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 397bb367207646e110243e050c271815b6258ff5
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54774685"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668615"
 ---
 # <a name="generatetemporarytargetassembly-task"></a>GenerateTemporaryTargetAssembly 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 프로젝트에서 하나 이상의 [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] 페이지가 해당 프로젝트에서 로컬로 선언된 형식을 참조할 경우 <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> 작업은 어셈블리를 생성합니다. 생성된 어셈블리는 빌드 프로세스가 완료된 후 또는 빌드 프로세스가 실패하는 경우에 제거됩니다.  
   
 ## <a name="task-parameters"></a>작업 매개 변수  
@@ -51,7 +50,7 @@ ms.locfileid: "54774685"
   
  대신, **MarkupCompilePass1**는 동일한 프로젝트의 형식에 대한 참조를 포함하는 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일의 변환을 [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md)에 의해 실행되는 두 번째 마크업 컴파일 패스로 연기합니다. **MarkupCompilePass2**가 실행되기 전에 임시 어셈블리가 생성됩니다. 이 어셈블리에는 해당 마크업 컴파일 패스가 지연되는 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일에서 사용되는 형식이 포함됩니다. 지연된 컴파일 [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] 파일이 이진 형식으로 변환될 수 있도록 하기 위해 생성된 어셈블리에 대한 참조가 **MarkupCompilePass2** 실행 시에 제공됩니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `Page1.xaml`에 동일한 프로젝트에 있는 형식에 대한 참조가 포함되므로 임시 어셈블리를 생성합니다.  
   
 ```  

@@ -8,16 +8,15 @@ ms.assetid: 30f137e6-595d-4ce7-b8f5-415b07c1caa2
 caps.latest.revision: 33
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: f9ad50aea8da784d05f3852860186bb029e67a54
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
-ms.translationtype: MTE95
+ms.openlocfilehash: 2352f32b36ab7b2973897599be1fd29859fafc17
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954110"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665690"
 ---
 # <a name="build-apps-with-native-ui-using-xamarin-in-visual-studio"></a>Visual Studio에서 Xamarin을 사용하여 네이티브 UI로 앱 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 [설정 및 설치](../cross-platform/setup-and-install.md) 및 [Xamarin 환경 확인](../cross-platform/verify-your-xamarin-environment.md)의 단계를 완료했으면 이 연습 과정을 통해 네이티브 UI 레이어로 기본 Xamarin 앱을 빌드하는 방법을 확인합니다(아래 참조). 네이티브 UI에서는 공유 코드가 PCL(이식 가능한 클래스 라이브러리)에 상주하며 개별 플랫폼 프로젝트가 UI 정의를 포함합니다.
 
@@ -519,7 +518,7 @@ ms.locfileid: "56954110"
 
 2.  적절한 디바이스 또는 에뮬레이터 대상을 선택한 다음 F5 키를 눌러 앱을 시작합니다.
 
-3.  디바이스 또는 에뮬레이터에서 편집 상자에 유효한 미국 우편 번호(예: 60601)를 입력하고 **Get Weather**를 누릅니다. 그러면 해당 지역의 날씨 데이터가 컨트롤에 표시됩니다.
+3.  장치 또는 에뮬레이터에서 편집 상자에 유효한 미국 우편 번호 입력 (예: 60601)를 누르고 **날씨**합니다. 그러면 해당 지역의 날씨 데이터가 컨트롤에 표시됩니다.
 
      ![Android 및 Windows Phone용 날씨 앱](../cross-platform/media/xamarin-getstarted-results.png "Xamarin_GetStarted_Results")
 
@@ -625,7 +624,7 @@ ms.locfileid: "56954110"
 
 2.  F5 키를 눌러 앱을 시작합니다.
 
-3.  Windows Phone 에뮬레이터에서 편집 상자에 유효한 미국 우편 번호(예: 60601)를 입력한 다음 **Get Weather**를 누릅니다. 그러면 해당 지역의 날씨 데이터가 컨트롤에 표시됩니다.
+3.  Windows Phone 에뮬레이터에서 편집 상자에 유효한 미국 우편 번호 입력 (예: 60601)를 누르고 **날씨**합니다. 그러면 해당 지역의 날씨 데이터가 컨트롤에 표시됩니다.
 
      ![실행 중인 앱의 Windows 버전](../cross-platform/media/xamarin-getstarted-results-windows.png "Xamarin_GetStarted_Results_Windows")
 

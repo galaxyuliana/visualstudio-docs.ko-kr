@@ -9,17 +9,16 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 671b0acfd0f2ec81e349bd6a69db0fb64bff94d4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: a29d98455ccf796f331513c7abf5e679e55af8b5
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970562"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669473"
 ---
 # <a name="the-connection-property-in-the-application-settings-file-is-missing-or-incorrect"></a>응용 프로그램 설정 파일에서 연결 속성이 없거나 잘못되었습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 응용 프로그램 설정 파일의 연결 속성이 없거나 잘못되었습니다. .dbml 파일의 연결 문자열이 대신 사용되었습니다.  
   
  .dbml 파일에는 찾을 수 없는 응용 프로그램 설정 파일의 연결 문자열에 대한 참조가 포함되어 있습니다. 이 메시지는 정보 제공을 위한 것이며 **확인**을 클릭할 때 연결 문자열 설정이 만들어집니다.  

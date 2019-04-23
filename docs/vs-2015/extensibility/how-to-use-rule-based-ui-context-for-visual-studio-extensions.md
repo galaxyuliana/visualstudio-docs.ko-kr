@@ -5,12 +5,12 @@ ms.topic: conceptual
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
 caps.latest.revision: 8
 ms.author: gregvanl
-ms.openlocfilehash: fdaa8396049da2a0d875282b13eb2744bedbdd29
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ccdba95816d77e5282e978d508da581d9240ef06
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971528"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664316"
 ---
 # <a name="how-to-use-rule-based-ui-context-for-visual-studio-extensions"></a>방법: Visual Studio 확장에 대해 규칙 기반 UI 컨텍스트 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -137,8 +137,6 @@ Visual Studio에서는 특정 하는 경우 Vspackage 로드가 잘 알려진 <x
 |ActiveProjectCapability:\<Expression>|용어 활성 프로젝트 기능에 제공 된 식과 일치 하는 경우 그렇습니다. 식을 VB와 같이 수 &#124; CSharp|
 |SolutionHasProjectCapability:\<Expression>|위의 유사 하지만 용어 솔루션에는 로드 된 프로젝트 식에 일치 하는 때도 마찬가지입니다.|
 |SolutionHasProjectFlavor:\<projectTypeGuid>|용어 (집계) 지원 되는 프로젝트에 솔루션과 해당된 프로젝트 형식 GUID 일치 하는 버전 때마다 true가 됩니다.|
-
-
 
 ## <a name="compatibility-with-cross-version-extension"></a>버전 간 확장을 사용 하 여 호환성
  규칙 기반된 UI 컨텍스트는 Visual Studio 2015의 새로운 기능 및 이전 버전으로 이식 되지 않은 것입니다. 이 문제 및 이전 버전의 경우 Visual Studio 2013의 자동 로드 해야 하지만 방지 되 고 자동 로드 된 Visual Studio 2015의 규칙 기반 UI 컨텍스트를 활용할 수 있는 Visual Studio의 여러 버전을 대상으로 하는 확장/패키지를 만듭니다.

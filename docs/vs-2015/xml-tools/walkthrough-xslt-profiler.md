@@ -9,17 +9,16 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1fd5f581308a677f1de7cd9311d4a8649b3ea4fc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 003b4ed6407126c7b1b6992c9c99eb30d36379b6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971245"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665391"
 ---
 # <a name="walkthrough-xslt-profiler"></a>연습: XSLT 프로파일러
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XSLT 프로파일러는 XSLT 코드의 성능 관련 문제를 측정 및 평가하고, 대상으로 지정하는 데 도움이 되는 자세한 XSLT 성능 보고서를 만듭니다. XSLT 프로파일러에는 XSL 및 XSLT 스타일시트 최적화에 유용한 힌트도 포함되어 있습니다. 최대 성능이 필요한 XSLT 응용 프로그램의 경우 이 도구가 반드시 필요합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  

@@ -9,17 +9,16 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c0a25766327f2e074c4b7f8adf1ccde5a46895d9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: e3834e22f67001e38096032037f33c5d184a5330
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984688"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668901"
 ---
 # <a name="content-model-view"></a>콘텐츠 모델 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 콘텐츠 모델 뷰에서는 단순/복합 형식, 요소, 모델 그룹, 특성 및 특성 그룹을 포함하여 로컬 스키마 노드와 전역 스키마 노드는 물론 해당 구성 요소를 그래픽으로 표현할 수 있습니다. XML 주석과 처리 명령은 콘텐츠 모델 뷰에서 볼 수 없습니다. 콘텐츠 모델 뷰에 패널 두 개:는 **작업 영역** 패널에 있는 노드의 목록을 포함 하는 [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md), 및 스키마에 대 한 콘텐츠 모델을 볼 수 있는 디자인 화면 선택한 노드를 **작업 영역** 패널입니다. 콘텐츠 모델 뷰에는 XML 스키마 디자이너 도구 모음과 이동 경로 탐색 막대도 들어 있습니다.  
   
  다음 이미지에서는 작업 영역 패널에 6개의 스키마 노드가 포함되어 있습니다. `purchaseOrder` 노드는 작업 영역 패널에서 선택되고 디자인 화면에 표시됩니다.  

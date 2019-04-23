@@ -14,17 +14,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e1fbd5fa522753f813d6987734de80bb7fc05593
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 932dbc9e3971598748e462de92280ac7112f8c62
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54756375"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665118"
 ---
 # <a name="list-call-stack-command"></a>호출 스택 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 현재 호출 스택을 표시합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -94,7 +93,7 @@ kb 2
   
  현재 스택 프레임을 두 번째 프레임으로 설정할 수 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ```  
 >Debug.CallStack /Count:4 /ShowTypes:yes  

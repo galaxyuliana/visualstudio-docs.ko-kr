@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 59dad7f376b79b2e8ac773f8cc604204dcd0c908
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 3d99b76e1ca9c67c0cd29bd435759b529d97b348
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602210"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665996"
 ---
 # <a name="walkthrough-import-a-custom-master-page-and-site-page-with-an-image"></a>연습: 사용자 지정 마스터 페이지 및 사이트 페이지를 이미지로 가져오기
   이 연습에서는 SharePoint 사용자 지정 마스터 페이지와 이미지가 있는 사이트 페이지를 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다.
@@ -150,13 +150,11 @@ ms.locfileid: "56602210"
 
 2. 에 **가져올 항목 선택** 페이지의 **모듈** 에 **형식** 열 가져오기에 대 한 다음 해당 파일에 대해서만 확인란을 선택 합니다.
 
-
    | 파일 이름 | 설명 |
    |------------------------|-----------------------------------------------|
    | \_catalogsmasterpage\_ | 사용자 지정 마스터 페이지입니다. |
    | images_ | SharePoint 파일 시스템에서 이미지 파일입니다. |
    | SitePages_ | 사이트 페이지입니다. |
-
 
 3. 선택 합니다 **완료** 단추는 선택한 항목을 가져올 수 있습니다.
 

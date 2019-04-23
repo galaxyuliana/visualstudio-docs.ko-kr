@@ -19,17 +19,16 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9913d2762b5ebfff98ddb9296637f3e8847ee2f2
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 47fba490edd07c61490760114ca8df91b3e35eb1
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54769202"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668225"
 ---
 # <a name="registerassembly-task"></a>RegisterAssembly 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 지정된 어셈블리 내의 메타데이터를 읽고 필요한 엔트리를 레지스트리에 추가할 수 있습니다. 이렇게 하면 COM 클라이언트에서 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 클래스를 투명하게 만들 수 있습니다. 이 작업의 동작은 [Regasm.exe(어셈블리 등록 도구)](http://msdn.microsoft.com/library/e190e342-36ef-4651-a0b4-0e8c2c0281cb)의 동작과 비슷하지만 같지는 않습니다.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -45,7 +44,7 @@ ms.locfileid: "54769202"
 ## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `RegisterAssembly` 작업을 사용하여 `MyAssemblies` 항목 컬렉션으로 지정된 어셈블리를 등록합니다.  
   
 ```  

@@ -22,17 +22,16 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: dc67a44586d221830825b94dd1c0eb160e307d21
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 6cdbb5d092f431f628e76c7ab629d5ed70429cee
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972372"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661505"
 ---
 # <a name="upgrade-mdf-files"></a>.mdf 파일 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 항목에서는 Visual Studio의 최신 버전을 설치한 후 데이터베이스 파일 (.mdf)을 업그레이드 하는 것에 대 한 옵션을 설명 합니다. 다음 작업에 대 한 지침을 포함 합니다.  
   
 - 최신 버전의 SQL Server Express LocalDB를 사용 하는 데이터베이스 파일을 업그레이드  

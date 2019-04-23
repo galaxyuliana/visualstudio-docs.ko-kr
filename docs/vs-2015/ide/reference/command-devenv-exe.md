@@ -12,17 +12,16 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 317103b514a04ca149940513e4e70c2799037e62
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 81f57fc6a4d21e1310fbb30d2b2dcaa826ad7685
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54775903"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662441"
 ---
 # <a name="command-devenvexe"></a>/Command (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE(통합 개발 환경)를 시작한 후 지정된 명령을 실행합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -40,7 +39,7 @@ devenv /command CommandName
   
  추가 기능이 명령을 표시할 경우에는 이 스위치를 사용하여 명령줄에서 추가 기능을 시작할 수 있습니다. 자세한 내용은 [방법: 추가 기능 관리자를 사용하여 추가 기능 제어](http://msdn.microsoft.com/library/4f60444a-cb48-4cdb-8df4-941f6419aeeb)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작하고 Open Favorite Files(즐겨찾기 파일 열기) 매크로를 자동으로 실행합니다.  
   
 ```  

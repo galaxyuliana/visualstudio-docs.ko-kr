@@ -11,17 +11,16 @@ caps.latest.revision: 38
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 24756553f4b1f5eb1a0ce811842c2843debd71aa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: deeed2ed86b07ec6f3d36f7dd4b4be02c1060155
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54770852"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669811"
 ---
 # <a name="msbuild-items"></a>MSBuild 항목
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild 항목은 빌드 시스템에 대한 입력이며, 일반적으로 파일을 나타냅니다. 항목은 해당 요소 이름에 따라 항목 종류로 그룹화됩니다. 항목 종류는 작업의 매개 변수로 사용할 수 있는 명명된 항목 목록입니다. 작업은 항목 값을 사용하여 빌드 프로세스의 단계를 수행합니다.  
   
  항목은 속하는 항목 종류를 기준으로 이름이 지정되므로 "항목"과 "항목 값"이라는 용어는 동일한 의미로 사용할 수 있습니다.  
@@ -88,9 +87,9 @@ MSBuild 항목은 빌드 시스템에 대한 입력이며, 일반적으로 파�
 -   .NET Framework 3.5부터는 `Target` 요소가 항목 요소가 들어 있을 수 있는 [ItemGroup](../msbuild/itemgroup-element-msbuild.md) 요소를 포함할 수 있습니다.  
   
 ##  <a name="BKMK_ReferencingItems"></a> 프로젝트 파일의 항목 참조  
- 프로젝트 파일 전체에서 항목 종류를 참조하려면 (`ItemType`) 구문을 사용합니다. 예를 들어 `@(Compile)`을 사용하여 이전 예제의 항목 종류를 참조합니다. 이 구문을 사용하면 항목 종류를 작업의 매개 변수로 지정하여 해당 작업에 항목을 전달할 수 있습니다. 자세한 내용은 [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)을 참조하세요.  
+ 프로젝트 파일 전체에서 항목 종류를 참조하려면 (`ItemType`) 구문을 사용합니다. 예를 들어 `@(Compile)`을 사용하여 이전 예제의 항목 종류를 참조합니다. 이 구문을 사용하면 항목 종류를 작업의 매개 변수로 지정하여 해당 작업에 항목을 전달할 수 있습니다. 자세한 내용은 [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)합니다.  
   
- 기본적으로 항목 종류를 확장하면 해당 항목이 세미콜론(;)으로 구분됩니다. @(*ItemType*, '*separator*') 구문을 사용하면 기본값이 아닌 구분 기호를 지정할 수 있습니다. 자세한 내용은 [방법: 항목 목록을 쉼표로 구분하여 표시](../msbuild/how-to-display-an-item-list-separated-with-commas.md)를 참조하세요.  
+ 기본적으로 항목 종류를 확장하면 해당 항목이 세미콜론(;)으로 구분됩니다. @(*ItemType*, '*separator*') 구문을 사용하면 기본값이 아닌 구분 기호를 지정할 수 있습니다. 자세한 내용은 [방법: 표시 항목 목록을 쉼표로 구분 하 여](../msbuild/how-to-display-an-item-list-separated-with-commas.md)입니다.  
   
 ##  <a name="BKMK_Wildcards"></a> 와일드카드를 사용하여 항목 지정  
  **, \* 및 ? 와일드카드 문자를 사용하여 각 파일을 개별적으로 나열하는 대신 파일 그룹을 빌드의 입력으로 지정할 수 있습니다.  
@@ -113,7 +112,7 @@ MSBuild 항목은 빌드 시스템에 대한 입력이며, 일반적으로 파�
 <VBFile Include="D:/**/*.vb"/>  
 ```  
   
- 와일드카드 문자에 대한 자세한 내용은 [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)을 참조하세요.  
+ 와일드카드 문자에 대한 자세한 내용은 [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)합니다.  
   
 ##  <a name="BKMK_ExcludeAttribute"></a> Exclude 특성 사용  
  Item 요소는 `Exclude` 특성을 포함할 수 있습니다. 이 특성은 항목 종류에서 특정 항목(파일)을 제외합니다. `Exclude` 특성은 일반적으로 와일드카드 문자와 함께 사용됩니다. 예를 들어 다음 XML은 `DoNotBuild.cs` 파일을 제외한 디렉터리의 모든 .cs 파일을 CSFile 항목 종류에 추가합니다.  
@@ -131,7 +130,7 @@ MSBuild 항목은 빌드 시스템에 대한 입력이며, 일반적으로 파�
 <Compile Include="*.res" Exclude="Form1.cs">  
 ```  
   
- 자세한 내용은 [방법: 빌드에서 파일 제외](../msbuild/how-to-exclude-files-from-the-build.md)를 참조하세요.  
+ 자세한 내용은 [방법: 빌드에서 파일 제외](../msbuild/how-to-exclude-files-from-the-build.md)합니다.  
   
 ##  <a name="BKMK_ItemMetadata"></a> 항목 메타데이터  
  항목은 `Include` 및 `Exclude` 특성의 정보 이외에 메타데이터를 포함할 수 있습니다. 이 메타데이터는 항목에 대한 추가 정보를 필요로 하는 작업이나 일괄 처리 작업 및 대상에 사용할 수 있습니다. 자세한 내용은 [일괄 처리](../msbuild/msbuild-batching.md)를 참조하세요.  
@@ -360,7 +359,7 @@ Output:
  [MSBuild](msbuild.md)   
  [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)   
  [방법: 빌드에서 파일 제외](../msbuild/how-to-exclude-files-from-the-build.md)   
- [방법: 항목 목록을 쉼표로 구분하여 표시](../msbuild/how-to-display-an-item-list-separated-with-commas.md)   
+ [방법: 쉼표로 구분 하 여 항목 목록을 표시 합니다.](../msbuild/how-to-display-an-item-list-separated-with-commas.md)   
  [항목 정의](../msbuild/item-definitions.md)   
  [일괄 처리](../msbuild/msbuild-batching.md)   
  [Item 요소(MSBuild)](../msbuild/item-element-msbuild.md)

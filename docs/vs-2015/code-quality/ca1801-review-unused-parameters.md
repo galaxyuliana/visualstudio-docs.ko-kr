@@ -16,24 +16,24 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: d1a3b0c7672af9cf10804c84db5103a93ff3ad80
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
-ms.translationtype: MT
+ms.openlocfilehash: f356f0a13b9a1b9ecf3a8096b29c1f0c9c6f275a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "59003072"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59662610"
 ---
 # <a name="ca1801-review-unused-parameters"></a>CA1801: 사용되지 않은 매개 변수를 검토하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio에서 최신 설명서를 참조 하세요. [CA1801: 사용 되지 않는 매개 변수를 검토](https://docs.microsoft.com/visualstudio/code-quality/ca1801-review-unused-parameters) docs.microsoft.com에서 제공 합니다.  
+Visual Studio에서 최신 설명서를 참조 하세요. [CA1801: 사용 되지 않는 매개 변수를 검토](https://docs.microsoft.com/visualstudio/code-quality/ca1801-review-unused-parameters)합니다.  
   
 |||  
 |-|-|  
 |TypeName|ReviewUnusedParameters|  
 |CheckId|CA1801|  
 |범주|Microsoft.Usage|  
-|변경 수준|주요 변경 아님-멤버를 변경 하면에 관계 없이 어셈블리 외부에서 볼 수 없는 경우.<br /><br /> 주요 변경 아님-본문 내에서 매개 변수를 사용 하 여 멤버를 변경 하는 경우.<br /><br /> 주요-매개 변수를 제거 하 고 어셈블리 외부에 표시 됩니다.|  
+|변경 수준|아님-멤버 어셈블리 외부에서 표시 되지 않으면 변경에 관계 없이 하면 됩니다.<br /><br /> 주요 변경 아님-본문 내에서 매개 변수를 사용 하 여 멤버를 변경 하는 경우<br /><br /> 주요-매개 변수를 제거 하 고 어셈블리 외부에 표시 됩니다.|  
   
 ## <a name="cause"></a>원인  
  메서드 시그니처에 메서드 본문에서 사용되지 않는 매개 변수가 있습니다. 이 규칙에서 다음 메서드를 검사 하지 않습니다.  
@@ -42,11 +42,11 @@ Visual Studio에서 최신 설명서를 참조 하세요. [CA1801: 사용 되지
   
 -   메서드를 이벤트 처리기로 사용 합니다.  
   
--   사용 하 여 선언 된 메서드를 `abstract` (`MustOverride` Visual Basic에서) 한정자.  
+-   사용 하 여 선언 된 메서드를 `abstract` (`MustOverride` Visual basic에서) 한정자.  
   
--   사용 하 여 선언 된 메서드를 `virtual` (`Overridable` Visual Basic에서) 한정자.  
+-   사용 하 여 선언 된 메서드를 `virtual` (`Overridable` Visual basic에서) 한정자.  
   
--   사용 하 여 선언 된 메서드를 `override` (`Overrides` Visual Basic에서) 한정자.  
+-   사용 하 여 선언 된 메서드를 `override` (`Overrides` Visual basic에서) 한정자.  
   
 -   메서드를 사용 하 여 선언 된 `extern` (`Declare` Visual Basic의 문) 한정자.  
   

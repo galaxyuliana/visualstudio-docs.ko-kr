@@ -18,17 +18,16 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b47950ea00f8ea7a6ec55476157a54dcd0aa9c75
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2e22a606c720f7d6b3304f6afb297ed76390f7ea
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985964"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668394"
 ---
 # <a name="working-with-a-conceptual-model-wcf-data-services"></a>개념적 모델 작업(WCF Data Services)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 개념적 모델을 사용 하 여 데이터베이스에서 데이터를 설명 하는 경우에 데이터베이스 스키마 및 개체 모델 간의 상호 변환 하는 대신 개체를 통해 데이터를 쿼리할 수 있습니다.  
   
  WCF Data Services 응용 프로그램과 함께 개념적 모델을 사용할 수 있습니다. 다음 항목에는 개념적 모델을 통해 데이터를 쿼리 하는 방법을 보여 줍니다.  

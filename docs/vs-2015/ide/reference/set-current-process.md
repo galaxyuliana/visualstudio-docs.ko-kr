@@ -12,17 +12,16 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: be451ee1a0b4361e44c8be96713872ca0ee3bd76
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ed19c5b95351f8e9c34255a915fc6a446800f761
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54768850"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669942"
 ---
 # <a name="set-current-process"></a>현재 프로세스 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 디버거에서 지정한 프로세스를 활성 프로세스로 설정합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -38,7 +37,7 @@ Debug.SetCurrentProcess index
 ## <a name="remarks"></a>주의  
  디버그하는 동안 여러 프로세스에 연결할 수 있지만 한 번에 프로세스 하나만 디버거에서 활성화됩니다. `SetCurrentProcess` 명령을 사용하여 활성 프로세스를 설정할 수 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ```  
 >Debug.SetCurrentProcess 1  

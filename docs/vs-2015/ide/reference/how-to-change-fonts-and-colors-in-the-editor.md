@@ -15,17 +15,16 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9d3b9957d9eb08c8e6398866fa4b4dd51dbcea70
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 8ce14dacb805839a1e61d8cf56753cedd312c162
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54799110"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661869"
 ---
-# <a name="how-to-change-fonts-and-colors-in-the-editor"></a>방법: 편집기의 글꼴 및 색 변경
+# <a name="how-to-change-fonts-and-colors-in-the-editor"></a>방법: 편집기에서 글꼴 및 색 변경
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 코드 편집기에서 다양한 텍스트 **표시 항목**의 기본 글꼴을 변경하고, 글꼴 크기를 조정하고, 전경색 및 배경색을 변경할 수 있습니다. 글꼴 설정을 변경할 경우 다음 정보를 고려하세요.  
   
 -   **글꼴** 및 **크기** 설정은 모든 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 편집기의 모든 텍스트 요소에 대한 전역 설정입니다.  

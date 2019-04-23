@@ -14,17 +14,16 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ff87add99fb618eaa45d6f9a71a68d82149884e3
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d361e5231d72df81fae164818bbe8341442c9f89
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54753397"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666262"
 ---
 # <a name="list-disassembly-command"></a>디스어셈블리 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 디버그 프로세스를 시작하고 오류 처리 방식을 지정할 수 있습니다.  
   
 ## <a name="syntax"></a>구문  
@@ -56,7 +55,7 @@ Debug.ListDisassembly [/count:number] [/endaddress:expression]
  [/linenumbers:`yes`&#124;`no`]  
  선택 사항입니다. 소스 코드와 연결된 줄 번호를 볼 수 있도록 합니다. /source 스위치는 /linenumbers 스위치를 사용하는 `yes`의 값이 있어야 합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ```  
 >Debug.ListDisassembly  

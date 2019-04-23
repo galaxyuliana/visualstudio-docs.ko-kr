@@ -20,17 +20,16 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fc7ad6952b0e09803e96296f2d91f2359d8d8961
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ed1260d414c21d40bd0dc57f885cf5996594b7d6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54760019"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59664550"
 ---
 # <a name="options-text-editor-c-advanced"></a>옵션, 텍스트 편집기, C#, 고급
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Visual C#의 편집기 서식, 코드 리팩터링 및 XML 문서 주석에 대한 설정을 수정하려면 이 대화 상자를 사용합니다. 이 대화 상자에 액세스하려면 **도구** 메뉴에서 **옵션**을 클릭하고, **텍스트 편집기** 폴더를 확장하고, **C#** 을 확장하고, **고급**을 클릭합니다.  
   
 > [!NOTE]

@@ -9,14 +9,14 @@ caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6340b30f393fc2690a76febf335883b0ebf6f6ed
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ea13b68f65d20f48a15c155761adef6bcbd4536b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54801765"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666022"
 ---
-# <a name="how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line"></a>방법: 명령줄을 통해 ASP.NET 웹 애플리케이션에 프로파일러를 연결하여 동시성 데이터 수집
+# <a name="how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line"></a>방법: 명령줄을 사용 하 여 동시성 데이터 수집을 ASP.NET 웹 응용 프로그램에 Profiler 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 명령줄 도구를 사용하여 프로파일러를 ASP.NET 애플리케이션에 연결하고 프로세스 및 스레드 동시성 데이터를 수집하는 방법을 설명합니다.  
@@ -47,14 +47,13 @@ ms.locfileid: "54801765"
    |       [/automark](../profiling/automark.md) **:** `Interval`       | **/wincounter**와 함께 사용해야 합니다. Windows 성능 카운터 수집 이벤트 사이에 경과하는 시간(밀리초)을 지정합니다. 기본값은 500입니다. |
    |     [/events](../profiling/events-vsperfcmd.md) **:** `Config`     |       프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.etl)로 수집됩니다.       |
 
-
 2. 일반적인 방법으로 ASP.NET 애플리케이션을 시작합니다.  
 
 3. 다음 명령을 입력하여 프로파일러를 ASP.NET 작업자 프로세스에 연결합니다. **VSPerfCmd /attach:**`PID` [**/targetclr:**`Version`]  
 
    -   `PID`는 ASP.NET 작업자 프로세스의 ID 또는 이름을 지정합니다. [Windows 작업 관리자]에서 모든 실행 중인 프로세스의 프로세스 ID를 볼 수 있습니다.  
 
-   -   [/targetclr](../profiling/targetclr.md)**:**`Version`은 한 애플리케이션에 두 개 이상의 런타임 버전이 로드된 경우 프로파일링할 CLR(공용 언어 런타임) 버전을 지정합니다. 이 매개 변수는 선택적 요소입니다.  
+   -   [/targetclr](../profiling/targetclr.md) **:** `Version`은 한 응용 프로그램에 두 개 이상의 런타임 버전이 로드된 경우 프로파일링할 CLR(공용 언어 런타임) 버전을 지정합니다. 이 매개 변수는 선택적 요소입니다.  
 
 ## <a name="controlling-data-collection"></a>데이터 컬렉션 제어  
  애플리케이션이 실행 중이면 VSPerfCmd.exe 옵션을 사용하여 파일에 대한 데이터 쓰기를 시작하고 중지하는 방식으로 데이터 수집을 제어할 수 있습니다. 데이터 수집을 제어하여 애플리케이션의 시작 또는 종료와 같이 프로그램 실행의 특정 부분에 대한 데이터를 수집할 수 있습니다.  
@@ -83,5 +82,5 @@ ms.locfileid: "54801765"
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)  
 
 ## <a name="see-also"></a>참고 항목  
- [ASP.NET 웹 애플리케이션 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [ASP.NET 웹 응용 프로그램 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [VSPerfASPNETCmd를 사용한 빠른 웹 사이트 프로파일링](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)

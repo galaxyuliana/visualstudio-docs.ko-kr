@@ -6,17 +6,16 @@ ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
 caps.latest.revision: 19
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 26733c576a8bfd260368697ba0791a665afa46ff
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 6f0282e94d252040f05091ddb25c17857c3a74b6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54781711"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663861"
 ---
 # <a name="setup-and-install"></a>설정 및 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 iOS, Android 및 Windows 앱을 빌드하려면 다음이 필요합니다.  
   
 - Windows 및 Android 앱 작업: Visual Studio 2015 및 Xamarin 4가 설치된 Windows 개발 컴퓨터(아래 참고 사항 참조). [직접 Xamarin 설치](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install)(xamarin.com)의 지침에 따라 Visual Studio 2013을 사용할 수도 있습니다.   
@@ -73,9 +72,9 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
   
         ![플랫폼 간 모바일 개발 아래에서 Xamarin 옵션 선택](../cross-platform/media/cross-plat-xamarin-setup-2.png "Cross-Plat Xamarin Setup 2")  
   
-   2.  Windows의 경우: **플랫폼 간 모바일 개발 > Microsoft Visual Studio Emulator for Android**합니다. 참고: Windows 7 이하 컴퓨터를 사용하거나 Mac에서 Windows를 실행하고 있으면 이 확인란이 *선택 취소*되어 있는지 확인합니다. 5단계 후에 "Windows 컴퓨터의 에뮬레이터에 대한 참고"를 참조하세요. 물리적 Android 디바이스에서만 디버그하려는 경우에는 이 확인란을 선택 취소한 상태로 유지해도 됩니다.  
+   2.  Windows 8 +: **플랫폼 간 모바일 개발 > Microsoft Visual Studio Emulator for Android**합니다. 참고: Windows 7 이하 컴퓨터를 사용하거나 Mac에서 Windows를 실행하고 있으면 이 확인란이 *선택 취소*되어 있는지 확인합니다. 5단계 후에 "Windows 컴퓨터의 에뮬레이터에 대한 참고"를 참조하세요. 물리적 Android 디바이스에서만 디버그하려는 경우에는 이 확인란을 선택 취소한 상태로 유지해도 됩니다.  
   
-   3.  (선택 사항) Windows 디바이스를 대상으로 지정하려면 **Windows 및 웹 개발 &gt; 유니버설 Windows 앱 개발 도구** 및/또는 **Windows 8.1 및 Windows Phone 8.0/8.1 도구**도 선택합니다. 여기에는 다운로드하는 데 시간이 더 오래 걸리는 에뮬레이터 이미지를 설치하기 위한 옵션이 포함되고, 언제든지 Visual Studio 설치 관리자로 돌아가서 나중에 추가할 수 있습니다.  
+   3.  (선택 사항) Windows 장치를 대상으로 지정하려면 **Windows 및 웹 개발 > 유니버설 Windows 앱 개발 도구** 및/또는 **Windows 8.1 및 Windows Phone 8.0/8.1 도구**도 선택합니다. 여기에는 다운로드하는 데 시간이 더 오래 걸리는 에뮬레이터 이미지를 설치하기 위한 옵션이 포함되고, 언제든지 Visual Studio 설치 관리자로 돌아가서 나중에 추가할 수 있습니다.  
   
 4. 설치 단추를 클릭하면 프로세스가 실행됩니다. 이 작업도 완료하는 데 약간 시간이 걸리므로 기다리는 동안 Mac 설치 지침을 계속 확인하고 [Xamarin을 사용한 모바일 개발에 대해 알아보기](../cross-platform/learn-about-mobile-development-with-xamarin.md)를 살펴볼 수 있습니다.  
   

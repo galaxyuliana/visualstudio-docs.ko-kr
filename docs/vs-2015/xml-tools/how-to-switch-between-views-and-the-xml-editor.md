@@ -9,17 +9,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 55481b5f91e0bb83241a04d61d1bfa91657b5c0d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 0bdc530656ef7e7a57b8e637aeca562eb483e0d9
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970450"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667627"
 ---
 # <a name="how-to-switch-between-views-and-the-xml-editor"></a>방법: 뷰와 XML 편집기 간 전환
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 항목에서는 XML 스키마 디자이너(XSD 디자이너) 뷰와 XML 편집기 간을 전환하는 방법을 보여 줍니다. 이 예제에서는 합니다 [구매 주문 스키마](../xml-tools/sample-xsd-file-simple-schema.md)합니다.  
   
 ### <a name="to-switch-between-the-views-and-the-xml-editor"></a>뷰와 XML 편집기 사이를 전환하려면  

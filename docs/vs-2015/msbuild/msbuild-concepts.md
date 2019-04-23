@@ -11,17 +11,16 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b12406af6894c8478c6f142c98edf064f2c58280
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ab699ad2a70a63fe3f8124cc87960f104a3b4cc2
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54770868"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663312"
 ---
 # <a name="msbuild-concepts"></a>MSBuild 개념
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 빌드 플랫폼이 소프트웨어를 빌드하는 방법을 제어하는 데 사용할 수 있는 기본 XML 스키마를 제공합니다. 빌드의 구성 요소 및 이러한 구성 요소를 빌드할 방법을 지정하려면 MSBuild의 네 가지 부분(속성, 항목, 작업, 대상)을 사용합니다.  
   
 ## <a name="related-topics"></a>관련 항목  

@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5a7a22e683f1db05544f235308dc5ba495f74095
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 90168dd760ba5619e2d50c864f54122b01ed66fa
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629523"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667211"
 ---
 # <a name="ltdeploymentgt-element-clickonce-deployment"></a>&lt;배포&gt; 요소 (ClickOnce 배포)
 업데이트를 배포하고 시스템에 노출하는 데 사용되는 특성을 식별합니다.
@@ -60,14 +60,13 @@ ms.locfileid: "56629523"
 ## <a name="elements-and-attributes"></a>요소 및 특성
  `deployment` 요소는 필수이며 `urn:schemas-microsoft-com:asm.v1` 네임스페이스에 있습니다. 요소에는 다음 특성이 있습니다.
 
-
 | 특성 | 설명 |
 |--------------------------| - |
 | `install` | 필수 요소. Windows에서이 응용 프로그램 정의 하는지 여부를 지정 **시작** 메뉴와 제어판 **프로그램 추가 / 제거** 응용 프로그램입니다. 유효한 값은 `true` 및 `false`입니다. 하는 경우 `false`, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 네트워크에서이 응용 프로그램의 최신 버전을 항상 실행 됩니다 및 인식 하지는 `subscription` 요소입니다. |
 | `minimumRequiredVersion` | 선택 사항입니다. 클라이언트에서 실행할 수 있는이 응용 프로그램의 최소 버전을 지정 합니다. 응용 프로그램의 버전 번호를 배포 매니페스트에 지정 된 버전 번호 보다 작은 경우에 응용 프로그램이 실행 되지 않습니다. 버전 번호 형식으로 지정 해야 합니다 `N.N.N.N`여기서 `N` 는 부호 없는 정수입니다. 경우는 `install` 특성이 `false`, `minimumRequiredVersion` 설정 해서는 안 됩니다. |
 | `mapFileExtensions` | 선택 사항입니다. 기본값은 `false`입니다. 경우 `true`, 배포의 모든 파일에.deploy 확장명이 있어야 합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 웹 서버에서 다운로드 하는 즉시이 확장명 이러한 파일을 제거 됩니다. 사용 하 여 응용 프로그램을 게시 하는 경우 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], 모든 파일에이 확장을 자동으로 추가 합니다. 이 매개 변수를 사용 하면 내 모든 파일이 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포.exe와 같은 "unsafe" 확장명으로 끝나는 파일의 전송을 차단 하는 웹 서버에서 다운로드 합니다. |
 | `disallowUrlActivation` | 선택 사항입니다. 기본값은 `false`입니다. 경우 `true`, 설치 된 응용 프로그램 URL을 클릭 하거나 Internet Explorer에 URL을 입력 하 여 시작 하는 것을 방지 합니다. 경우는 `install` 특성이 있는,이 특성이 무시 됩니다. |
-| `trustURLParameters` | 선택 사항입니다. 기본값은 `false`입니다. 경우 `true`응용 프로그램에 전달 되는 쿼리 문자열 매개 변수를 포함 하도록 URL을 사용 하면, 많은 like 명령줄 인수는 명령줄 응용 프로그램에 전달 됩니다. 자세한 내용은 [방법: 온라인 ClickOnce 응용 프로그램에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)합니다.<br /><br /> 경우는 `disallowUrlActivation` 특성이 `true`를 `trustUrlParameters` 매니페스트에서 제외 이거나 명시적으로 설정 `false`합니다. |
+| `trustURLParameters` | 선택 사항입니다. 기본값은 `false`입니다. 경우 `true`응용 프로그램에 전달 되는 쿼리 문자열 매개 변수를 포함 하도록 URL을 사용 하면, 많은 like 명령줄 인수는 명령줄 응용 프로그램에 전달 됩니다. 자세한 내용은 [방법: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)을 참조하세요.<br /><br /> 경우는 `disallowUrlActivation` 특성이 `true`를 `trustUrlParameters` 매니페스트에서 제외 이거나 명시적으로 설정 `false`합니다. |
 
  `deployment` 다음 자식 요소를 포함 합니다.
 
@@ -97,12 +96,11 @@ ms.locfileid: "56629523"
 
  이 요소는 `deployment` 요소의 자식이며 다음과 같은 특성이 있습니다.
 
-
 | 특성 | 설명 |
 |------------| - |
 | `codebase` | 필수 요소. 위치를 식별,으로 리소스 URI (Uniform Identifier)를 업데이트 하는 데 사용 되는 배포 매니페스트는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다. 이 요소는 CD 기반 설치에 대 한 업데이트 위치를 전달할 수도 있습니다. 유효한 URI 여야 합니다. |
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  구성할 수 있습니다 프로그램 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 시작 시에 업데이트를 검색 하려면 응용 프로그램 시작 후 업데이트를 검색 또는 업데이트 확인 안 함. 시작 시 업데이트를 검색 하려면 합니다 `beforeApplicationStartup` 요소가 아래는 `update` 요소입니다. 시작 후 업데이트를 검색 하려면 합니다 `expiration` 요소가 아래는 `update` 요소와 업데이트 간격을 지정 합니다.
 
  업데이트 확인을 사용 하지 않으려면 제거는 `subscription` 요소입니다. 업데이트 검색 하지 않도록 하려면 배포 매니페스트를 지정 하면 확인할 수 있습니다 수동으로 업데이트를 사용 하 여를 <xref:System.Deployment.Application.ApplicationDeployment.CheckForUpdate%2A> 메서드.
@@ -123,5 +121,5 @@ ms.locfileid: "56629523"
   </deployment>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)

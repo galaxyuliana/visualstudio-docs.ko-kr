@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 95a438c6776e468611a99691c0a4bfea2e4203a5
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
-ms.translationtype: MTE95
+ms.openlocfilehash: c58e6531847d7694d9bde0f4520a3e21de6ce23f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953665"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59665625"
 ---
 # <a name="unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor"></a>Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 원격 디버깅 모니터는 제대로에 설정 되지 않은 원격 컴퓨터 또는 원격 컴퓨터에 네트워크 문제 또는 방화벽으로 인해 액세스할 수 없는 때문에이 메시지가 나타날 수 있습니다.
@@ -81,7 +81,6 @@ Visual Studio 원격 디버거에 연결할 수 없습니다. 이 메시지는 �
 
 - 원격 디버거 버전이 Visual Studio 일치 하지 않습니다. 올바른 버전의 원격 디버거를 가져오려면 참조 [원격 디버깅](../debugger/remote-debugging.md)
 
-
 ## <a name="valid_name"></a> 요청한 이름이 올바르지만 요청 된 형식의 데이터를 찾지 못했습니다.
 
 원격 컴퓨터가 존재 하지만 Visual Studio 원격 디버거에 연결할 수 없습니다. 이 메시지는 여러 가지 이유로 발생할 수 있습니다.
@@ -118,7 +117,7 @@ Windows XP 및 Windows 7에 특정 레거시 문제를 수 있습니다. 이 참
 
 ### <a name="server_incorrect"></a> 서버 이름이 잘못 되었거나 원격 디버거를 사용 하 여 방해 하는 타사 소프트웨어
 
-Visual Studio에서 프로젝트 속성을 확인 하 고 서버 이름이 올바른지 확인 합니다. 항목을 참조 하세요 [ C# 및 Visual Basic](../debugger/remote-debugging-csharp.md#remote_csharp) 하 고 [c + +](../debugger/remote-debugging-cpp.md#remote_cplusplus)합니다. ASP.NET에서 엽니다 **속성 / 웹 / 서버** 또는 **속성 디버그** 프로젝트 형식에 따라 합니다.
+Visual Studio에서 프로젝트 속성을 확인 하 고 서버 이름이 올바른지 확인 합니다. 항목을 참조 하세요 [ C# 및 Visual Basic](../debugger/remote-debugging-csharp.md#remote_csharp) 하 고 [ C++ ](../debugger/remote-debugging-cpp.md#remote_cplusplus). ASP.NET에서 엽니다 **속성 / 웹 / 서버** 또는 **속성 디버그** 프로젝트 형식에 따라 합니다.
 
 > [!NOTE]
 > 프로세스에 연결 하는 경우 프로젝트 속성에서 원격 설정은 사용 되지 않습니다.

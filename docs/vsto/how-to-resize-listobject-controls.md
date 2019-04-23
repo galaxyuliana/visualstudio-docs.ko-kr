@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e6d996cfcfb9dd8c63cf31b203905b486b3a1c82
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: af494a87b2feea10d121e59931e51ef3dd344f67
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598468"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669304"
 ---
 # <a name="how-to-resize-listobject-controls"></a>방법: ListObject 컨트롤 크기 조정
   <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤의 크기는 Microsoft Office Excel 통합 문서에 추가할 때 설정하지만 나중에 크기를 조정할 수 있습니다. 예를 들어 2열로 된 목록을 3열로 변경할 수 있습니다.
@@ -43,7 +43,6 @@ ms.locfileid: "56598468"
  목록 크기를 조정하려면 크기 조정 핸들 중 하나를 클릭하여 끌거나 **목록 크기 조정** 대화 상자에서 크기를 재정의합니다.
 
 ### <a name="to-resize-a-list-by-using-the-resize-list-dialog-box"></a>목록 크기 조정 대화 상자를 사용하여 목록 크기를 조정하려면
-
 
 1.  아무 곳 이나 클릭 합니다 <xref:Microsoft.Office.Tools.Excel.ListObject> 테이블입니다. 합니다 **테이블 도구** > **디자인** 리본에서 탭이 표시 됩니다.
 

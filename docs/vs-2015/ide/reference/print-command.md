@@ -15,17 +15,16 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c72f6668e6babab6bd62cfb0e9a6ca8632df2a84
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 65d78387c6d60d0b432db9aab175fbfe8dc2869b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54763572"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666548"
 ---
 # <a name="print-command"></a>인쇄 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 식을 계산하거나 지정된 텍스트를 표시합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -53,7 +52,7 @@ Debug.Print text
   
  이 명령의 두 버전은 모두 `expA` 식의 현재 값을 반환합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ```  
 >Debug.Print varA  

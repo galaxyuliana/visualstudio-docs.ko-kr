@@ -19,17 +19,16 @@ caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c161dcd18a46928c9e180608a122f106ecd6554e
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 23b991efaa32e2c1886e6e0cd64bb9d6181190d0
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54780904"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667172"
 ---
 # <a name="assignculture-task"></a>AssignCulture 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 작업은 유효한 .NET 문화권 식별자 문자열이 포함되어 있는 항목의 목록을 파일 이름의 일부로 허용하고 해당 문화권 식별자가 포함된 `Culture`라는 메타데이터가 있는 항목을 생성합니다. 예를 들어 Form1.fr-fr.resx라는 파일 이름에 포함된 문화권 식별자 "fr-fr"이 있으므로 이 작업은 `fr-fr`와 같은 `Culture` 메타데이터를 포함하는 동일한 파일 이름을 가진 항목을 생성합니다. 태스크는 파일 이름에서 제거된 문화권을 포함하는 파일 이름의 목록도 생성합니다.  
   
 ## <a name="task-parameters"></a>작업 매개 변수  
@@ -46,7 +45,7 @@ ms.locfileid: "54780904"
 ## <a name="remarks"></a>주의  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `ResourceFiles` 항목 컬렉션을 포함하는 `AssignCulture` 작업을 실행합니다.  
   
 ```  

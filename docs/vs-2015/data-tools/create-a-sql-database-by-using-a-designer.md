@@ -25,17 +25,16 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 24aae7066d3fb14a298c780e5cd9f7e91901821e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 147e9cc66518372e042230a30c16588ab719cb1c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980628"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661583"
 ---
 # <a name="create-a-sql-database-by-using-a-designer"></a>디자이너를 사용 하 여 SQL database 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 테이블 추가 및 만들기 및 SQL Server Express LocalDB의 로컬 데이터베이스 파일을 업데이트 하려면 Visual Studio를 사용 하 여 열 정의와 같은 기본 작업을 탐색할 수 있습니다. 이 연습을 마친 후 로컬 데이터베이스를 사용하여 고급 기능을 알아보고 다른 연습을 미리 준비할 수 있습니다.  
   
  SQL Server Management Studio (별도 다운로드) 또는에서 TRANSACT-SQL 문을 사용 하 여 데이터베이스를 만들 수도 있습니다는 **SQL Server 개체 탐색기** Visual Studio의 도구 창입니다.  

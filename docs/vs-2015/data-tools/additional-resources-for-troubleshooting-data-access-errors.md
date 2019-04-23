@@ -231,17 +231,16 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 8a71d18beaf1c77c16479c914a43cdf45793b685
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 851a1f87cce5f4030a9ba5a4701b6c0055859f10
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982424"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668719"
 ---
 # <a name="additional-resources-for-troubleshooting-data-access-errors"></a>데이터 액세스 오류 문제 해결에 대 한 추가 리소스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSDN(Microsoft Developer Network) 공개 포럼에서 오류 및 경고 문제 해결 관련 지원 정보를 찾을 수 있습니다. 다음 표에 데이터 관련 포럼 MSDN에서 확인할 수 있습니다.  
   
  [Windows Forms 데이터 컨트롤 및 데이터 바인딩](http://go.microsoft.com/fwlink/?LinkId=160179)  

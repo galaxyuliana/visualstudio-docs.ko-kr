@@ -17,17 +17,16 @@ caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e635c7b57bc8653184e5a929c2a87f228056fb82
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 1ba57c1578bd69d71ed0abdac45907d937b89ecb
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54782566"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668193"
 ---
 # <a name="xmlpoke-task"></a>XmlPoke 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XML 파일로의 XPath 쿼리에 의해 지정된 대로 값을 반환합니다.  
   
 ## <a name="parameters"></a>매개 변수  

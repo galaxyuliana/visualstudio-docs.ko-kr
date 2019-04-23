@@ -22,20 +22,19 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 5165cf21328b8af1cda63384a5dafbc8dfc2d849
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 02d40062b1202a261aa7be4ae306329a6a93b37a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002897"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669460"
 ---
 # <a name="accessing-data-in-visual-studio"></a>Visual Studio에서 데이터 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 형식으로 어디서 나 데이터에 연결 하는 응용 프로그램을 만들 수 있습니다-공용, 개인 또는 하이브리드 클라우드 또는 로컬 영역 네트워크에 로컬 컴퓨터에서.
 
- JavaScript, Python, PHP, Ruby 또는 c + +에서 응용 프로그램의 경우 있습니다 컴퓨터 가져오기 라이브러리 및 코드를 작성 하 여 다른 작업을 수행 하기와 같은 데이터에 연결 합니다. .NET 응용 프로그램에 대 한 Visual Studio 데이터 원본 탐색, 개체 모델을 저장 하 고 메모리에서 데이터를 조작 하 고, 사용자 인터페이스에 데이터 바인딩 만들기에 사용할 수 있는 도구를 제공 합니다.     Microsoft Azure는 Azure Storage에 연결 하기 위한.NET, Java, Node.js, PHP, Python, Ruby 및 모바일 앱 및 Visual Studio의 도구에 대 한 Sdk를 제공 합니다.
+ JavaScript, Python, PHP, Ruby에서 응용 프로그램 또는 C++를 가져오기 라이브러리 및 코드를 작성 하 여 다른 작업을 수행 하기와 같은 데이터에 연결 합니다. .NET 응용 프로그램에 대 한 Visual Studio 데이터 원본 탐색, 개체 모델을 저장 하 고 메모리에서 데이터를 조작 하 고, 사용자 인터페이스에 데이터 바인딩 만들기에 사용할 수 있는 도구를 제공 합니다.     Microsoft Azure는 Azure Storage에 연결 하기 위한.NET, Java, Node.js, PHP, Python, Ruby 및 모바일 앱 및 Visual Studio의 도구에 대 한 Sdk를 제공 합니다.
 
  다음 목록에는 Visual Studio에서 사용할 수 있는 여러 데이터베이스 및 저장소 시스템의 일부에 지나지 보여 줍니다. 합니다 [Microsoft Azure](https://azure.microsoft.com/) 제품은 모든 프로 비전 및 관리의 기본 데이터 저장소를 포함 하는 데이터 서비스입니다.  [Azure Tools for Visual Studio](https://www.visualstudio.com/features/azure-tools-vs.aspx) Visual Studio에서 직접 Azure 데이터 저장소를 사용 하 여 작업할 수 있도록 하는 선택적 구성 요소입니다. 대부분의 다른 SQL 및 NoSQL 데이터베이스 제품 여기에 나와 있는 로컬 컴퓨터에서 로컬 네트워크에서 또는 Microsoft Azure 가상 머신에서 호스트할 수 있습니다. 이 시나리오에서는 자체 데이터베이스를 관리 담당 합니다.
 
@@ -99,16 +98,16 @@ Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 
  이러한 기술 중 하나를 사용 하는 요구 사항이 있습니다. 일부 시나리오에서는 성능은 중요 하며, 경우에 특히 사용할 수 있습니다 단순히 DataReader 개체를 데이터베이스에서 읽고 목록과 같은 컬렉션 개체에 필요한 값을 복사할\<T >입니다.
 
 ### <a name="native-c"></a>네이티브 C++
- SQL Server에 연결 하는 c + + 응용 프로그램 사용 해야 합니다 [SQL Server Native Client](https://msdn.microsoft.com/sqlserver/aa937733.aspx)합니다. 사용 하 여 다른 데이터베이스를 액세스할 수 있습니다 [ODBC](https://msdn.microsoft.com/library/ms710252\(v=vs.85\).aspx) 또는 OLE DB 드라이버 직접. ODBC 현재 표준 데이터베이스 인터페이스 이지만 대부분의 데이터베이스 시스템 ODBC 인터페이스를 통해 액세스할 수 없는 사용자 지정 기능을 제공 합니다.  OLE DB는 레거시 COM 데이터 액세스 기술 계속 지원 하지만 새로운 응용 프로그램에 적합 하지 않습니다.  자세한 내용은 [데이터 액세스](http://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)합니다.
+ C++SQL Server에 연결 하는 응용 프로그램 사용 해야 합니다 [SQL Server Native Client](https://msdn.microsoft.com/sqlserver/aa937733.aspx)합니다. 사용 하 여 다른 데이터베이스를 액세스할 수 있습니다 [ODBC](https://msdn.microsoft.com/library/ms710252\(v=vs.85\).aspx) 또는 OLE DB 드라이버 직접. ODBC 현재 표준 데이터베이스 인터페이스 이지만 대부분의 데이터베이스 시스템 ODBC 인터페이스를 통해 액세스할 수 없는 사용자 지정 기능을 제공 합니다.  OLE DB는 레거시 COM 데이터 액세스 기술 계속 지원 하지만 새로운 응용 프로그램에 적합 하지 않습니다.  자세한 내용은 [데이터 액세스](http://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)합니다.
 
- REST 서비스를 사용 하는 c + + 프로그램에서 사용할 수는 [c + + REST SDK](https://github.com/Microsoft/cpprestsdk)합니다.
+ C++REST 서비스를 사용 하는 프로그램에서 사용할 수는 [ C++ REST SDK](https://github.com/Microsoft/cpprestsdk)합니다.
 
- Microsoft Azure Storage를 사용 하는 c + + 프로그램에서 사용할 수는 [Microsoft Azure Storage 클라이언트](http://www.nuget.org/packages/wastorage)합니다.
+ C++Microsoft Azure Storage를 사용 하는 프로그램에서 사용할 수는 [Microsoft Azure Storage 클라이언트](http://www.nuget.org/packages/wastorage)합니다.
 
 #### <a name="data-modeling"></a>데이터 모델링
- Visual Studio c + + 용 ORM 계층을 제공 하지 않습니다.  [ODB](http://www.codesynthesis.com/products/odb/) c + +는 인기 있는 오픈 소스 ORM입니다.
+ Visual Studio에 대 한 ORM 계층을 제공 하지 않습니다 C++입니다.  [ODB](http://www.codesynthesis.com/products/odb/) 되는 인기 있는 오픈 소스 ORM에 대 한 C++합니다.
 
- 레거시 Visual c + + 데이터 액세스 기술에 대 한 자세한 내용은 참조 하세요. [데이터 액세스](http://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)
+ 레거시 시각적 개체에 대 한 자세한 내용은 C++ 데이터 액세스 기술 참조 [데이터 액세스](http://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)
 
 ### <a name="javascript"></a>JavaScript
  [Visual Studio의 JavaScript](https://msdn.microsoft.com/library/hh334522.aspx) 플랫폼 간 앱을 UWP 앱, 클라우드 서비스, 웹 사이트 및 웹 앱을 빌드하기 위한 최고 수준의 언어입니다. 데이터베이스 제품 확인 하 고 원하는 JavaScript 라이브러리를 설치 하려면 Bower, Grunt, Gulp, npm 및 Visual Studio 내에서 NuGet을 사용할 수 있습니다. Sdk를 다운로드 하 여 Azure storage 및 서비스에 연결 합니다 [Azure 웹 사이트](https://azure.microsoft.com/)합니다.  표시 되는 서버 쪽 JavaScript (Node.js) ADO.NET 데이터 소스에 연결 하는 라이브러리입니다.

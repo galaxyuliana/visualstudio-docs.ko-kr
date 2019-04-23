@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 24567262eff261638a6004817d4d0eef51537fd6
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
-ms.translationtype: MT
+ms.openlocfilehash: 26c61934649a8a87cea59b9dd7e1e913fc7a59b0
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223509"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59663065"
 ---
 # <a name="get-started-with-domain-specific-languages"></a>도메인 특정 언어 시작
 
@@ -40,7 +40,6 @@ Dsl의 주 응용 프로그램 중 프로그램 코드, 구성 파일 및 기타
 ## <a name="prerequisites"></a>전제 조건
 
 DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.
-
 
 | | |
 |-|-|

@@ -19,16 +19,15 @@ caps.latest.revision: 42
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ca10874d27664902f98baff47a2fe1e7a0adb0e3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1d0e34075fbadcc998dba09d1b7c13a5ffacc606
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981281"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59667952"
 ---
 # <a name="bind-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 데이터를 컨트롤에 바인딩하여 응용 프로그램 사용자에게 데이터를 표시할 수 있습니다. 항목을 끌어 데이터 바인딩된 컨트롤 이러한를 만들 수 있습니다 합니다 **데이터 원본** 창 디자인 화면 또는 Visual Studio에서 화면에서 컨트롤입니다.
 
@@ -43,7 +42,7 @@ ms.locfileid: "58981281"
 |엔터티 데이터 모델|예<sup>1</sup>|예|예|
 |LINQ to SQL 클래스|No<sup>2</sup>|No<sup>2</sup>|No<sup>2</sup>|
 |[!INCLUDE[ssAstoria](../includes/ssastoria-md.md)], WCF 서비스, 웹 서비스 등의 서비스|예|예|예|
-|Object|예|예|예|
+|개체|예|예|예|
 |SharePoint|예|예|예|
 
  1. 사용 하 여 모델을 생성 합니다 **엔터티 데이터 모델** 마법사 다음 해당 개체를 디자이너로 끌어 옵니다.

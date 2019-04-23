@@ -15,17 +15,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 627e361fca63522f47a1d472655573c14a44035a
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 90aff3fb3d3cbb596708bde1db8ff171198a5a60
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54804610"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59669123"
 ---
 # <a name="list-threads-command"></a>스레드 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 현재 프로그램의 스레드 목록을 표시합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -41,7 +40,7 @@ Debug.ListThreads [index]
 ## <a name="remarks"></a>주의  
  지정하는 경우 `index` 인수는 현재 스레드로 지정된 스레드를 표시합니다. 별표(*)는 현재 스레드 옆에 있는 목록에 표시됩니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ```  
 >Debug.ListThreads   
