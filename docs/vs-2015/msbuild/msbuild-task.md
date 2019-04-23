@@ -19,17 +19,16 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 15a6f0d3a0a50068d05a96994cb01462f07f3258
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 70bebfab781ceb1d608d13a8afad24ee06cb9c28
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54772339"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59656741"
 ---
 # <a name="msbuild-task"></a>MSBuild 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 다른 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트에서 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트를 빌드합니다.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -167,7 +166,7 @@ ms.locfileid: "54772339"
 </Project>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `MSBuild` 작업을 사용하여 `ProjectReferences` 항목 컬렉션으로 지정된 프로젝트를 빌드합니다. 결과 대상 출력은 `AssembliesBuiltByChildProjects` 항목 컬렉션에 저장됩니다.  
   
 ```  

@@ -18,17 +18,16 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bbba71e6c1e636abe160036f10c1de1d11004a65
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: a060444ec5ec8085b56810862e87e523c56fddb6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980815"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59656065"
 ---
 # <a name="extend-the-functionality-of-a-tableadapter"></a>TableAdapter의 기능 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 TableAdapter의 partial 클래스 파일에 코드를 추가 하 여 TableAdapter의 기능을 확장할 수 있습니다.  
   
  TableAdapter에 변경 되 면 TableAdapter를 정의 하는 코드를 다시 생성 합니다 **데이터 집합 디자이너**, 마법사 TableAdapter의 구성을 수정 하는 경우 또는 합니다. 코드를 TableAdapter의 재생성 하는 동안 삭제를 방지 하려면 TableAdapter의 partial 클래스 파일에 코드를 추가 합니다.  

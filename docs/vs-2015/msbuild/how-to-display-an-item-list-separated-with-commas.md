@@ -12,17 +12,16 @@ caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 20df19f09dd31e428555831b98bfd0b3c9360233
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 16a41c2c80948c1466deed3efe8354e49ba64595
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54765027"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655077"
 ---
 # <a name="how-to-display-an-item-list-separated-with-commas"></a>방법: 항목 목록을 쉼표로 구분하여 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] ([!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)])에서 항목 목록을 사용할 때 쉽게 읽을 수 있는 방식으로 해당 항목 목록의 내용을 표시하는 데 유용합니다. 또는 특별한 구분 기호 문자열로 구분된 항목의 목록을 사용하는 작업이 있을 수 있습니다. 이러한 모든 경우에 항목 목록에 대한 구분 기호 문자열을 지정할 수 있습니다.  
   
 ## <a name="separating-items-in-a-list-with-commas"></a>목록에서 항목을 쉼표로 구분  
@@ -46,7 +45,7 @@ ms.locfileid: "54765027"
   
      `@(TXTFile, ', ')`  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서 [Exec](../msbuild/exec-task.md) 작업은 findstr 도구를 실행하여 Phrases.txt 파일에 지정된 텍스트 문자열을 찾습니다. findstr 명령에서 리터럴 검색 문자열은 **/c:** 스위치로 나타나므로 항목 구분 기호 `/c:`는 `@(Phrase)` 항목 목록에 있는 항목 사이에 삽입됩니다.  
   
  이 예제에서 해당하는 명령줄 명령은 다음과 같습니다.  

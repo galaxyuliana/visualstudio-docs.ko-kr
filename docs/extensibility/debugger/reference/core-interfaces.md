@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 33f2d4fda2fe7981863d65b17fc6dba53355dbeb
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 30f51715cd26c9d61e355115db6f4ca4b9831ef0
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702280"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660790"
 ---
 # <a name="core-interfaces"></a>Core 인터페이스
 다음 인터페이스는 디버거를 사용 하 여 확장에 대 한 핵심 인터페이스는 [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)]합니다.
@@ -138,7 +138,6 @@ ms.locfileid: "56702280"
 ##  <a name="Events"></a> 이벤트
  이러한 인터페이스는 DE 및 세션 디버그 관리자 (SDM) 간에 전송 되는 모든 이벤트를 나타냅니다.
 
-
 | 인터페이스 | 에 의해 구현 | 설명 |
 | - |----------------| - |
 | [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md) | DE | DE 보낸 문서를 열 수를 요청 합니다. |
@@ -211,7 +210,6 @@ ms.locfileid: "56702280"
 
 ##  <a name="Ports"></a> 포트
  이러한 인터페이스는 포트 및 포트 공급자를 나타냅니다.
-
 
 | 인터페이스 | 에 의해 구현 | 설명 |
 | - |----------------| - |

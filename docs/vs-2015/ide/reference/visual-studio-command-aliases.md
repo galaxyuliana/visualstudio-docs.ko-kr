@@ -17,16 +17,15 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c0f277ca35552da9deb476d56c15a7b2434463e5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 573c120aafdf520b137e3fb50251ed8606f5c43a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54763411"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654375"
 ---
 # <a name="visual-studio-command-aliases"></a>Visual Studio Command Aliases
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
-
 
 별칭은 명령을 실행하는 데 필요한 텍스트를 단축함으로써 **찾기/명령** 상자 또는 **명령** 창에 명령을 입력하는 수단을 제공합니다. 예를 들어 **열려 있는 파일** 대화 상자를 표시하는 `>File.OpenFile`을 입력하는 대신 미리 정의된 별칭인 `>of`를 사용할 수 있습니다.
 
@@ -67,12 +66,12 @@ ms.locfileid: "54763411"
 |Unicode로 [메모리 목록 표시 명령](../../ide/reference/list-memory-command.md)|du|Debug.ListMemory /Unicode|
 |[문 실행 명령](../../ide/reference/evaluate-statement-command.md)|eval|Debug.EvaluateStatement|
 |종료|종료|File.Exit|
-|선택 영역 서식|format|편집.선택영역서식|
+|선택 영역 서식|형식|편집.선택영역서식|
 |전체 화면|전체 화면|보기.전체화면|
 |[시작 명령](../../ide/reference/start-command.md)|g|디버그.시작|
 |[이동 명령](../../ide/reference/go-to-command.md)|GotoLn|편집.이동|
 |중괄호로 이동|GotoBrace|Edit.GotoBrace|
-|F1도움말|도움말|도움말.F1도움말|
+|F1도움말|Help|도움말.F1도움말|
 |직접 실행 모드|immed|Tools.ImmediateMode|
 |텍스트로 파일 삽입|InsertFile|Edit.InsertFileAsText|
 |[호출 스택 목록 표시 명령](../../ide/reference/list-call-stack-command.md)|kb|Debug.ListCallStack|
@@ -121,7 +120,7 @@ ms.locfileid: "54763411"
 |도구 상자 창|도구 상자|보기.도구상자|
 |[디스어셈블리 목록 표시 명령](../../ide/reference/list-disassembly-command.md)|u|Debug.ListDisassembly|
 |대문자로|Ucase|편집.대문자로|
-|실행 취소|undo|편집.실행취소|
+|실행 취소|실행 취소|편집.실행취소|
 |선택 영역을 탭으로 바꾸지 않음|Untabify|Edit.UntabifySelection|
 |조사식 창|조사식|Debug.WatchN|
 |자동 줄 바꿈 설정/해제|WordWrap|편집.자동줄바꿈설정해제|

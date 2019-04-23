@@ -9,17 +9,16 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 09df214f5537ac81c7fb9802a34b48ee01ceb75b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: eb021b5222c0c89d15ca9be9c9c155152118df5f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985124"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658775"
 ---
 # <a name="the-designer-cannot-be-modified-while-debugging"></a>디버깅하는 동안에는 디자이너를 수정할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 메시지는 응용 프로그램이 디버그 모드로 실행 중일 때 O/R 디자이너에서 항목을 수정하려는 경우 나타납니다. 응용 프로그램이 디버그 모드로 실행 중인 경우 O/R 디자이너는 읽기 전용입니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  

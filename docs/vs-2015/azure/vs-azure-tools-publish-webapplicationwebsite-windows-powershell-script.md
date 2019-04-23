@@ -11,12 +11,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016
 ms.author: ghogen
-ms.openlocfilehash: daf3e22176ef950177ebdb22ae6a9e36bcb5dd83
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6953d8944bb8619560ade4c7b3924dc9e89d3b11
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981790"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660907"
 ---
 # <a name="publish-webapplicationwebsite-windows-powershell-script"></a>Publish-WebApplicationWebSite (Windows PowerShell 스크립트)
 ## <a name="syntax"></a>구문
@@ -29,7 +29,6 @@ Azure 웹 사이트에 웹 프로젝트를 게시합니다. 없는 경우 스크
     -DatabaseServerPassword @{Name = "name"; Password = "password"}
     -SendHostMessagesToOutput
     -Verbose
-
 
 ## <a name="configuration"></a>구성
 배포의 세부 정보를 설명하는 JSON 구성 파일에 대한 경로입니다.

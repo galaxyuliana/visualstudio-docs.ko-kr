@@ -14,17 +14,16 @@ caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f2f570252a5bf87d0949bcda04ba312fe8092704
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 192fdd737816d2239b15530e2d5c03d73f82e0d5
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54773040"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59657508"
 ---
 # <a name="msbuild-toolset-toolsversion"></a>MSBuild 도구 집합(ToolsVersion)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild는 애플리케이션을 빌드하기 위한 작업, 대상 및 도구로 구성된 도구 집합을 사용합니다. 일반적으로 MSBuild 도구 집합에는 microsoft.common.tasks 파일, microsoft.common.targets 파일 및 컴파일러(예: csc.exe 및 vbc.exe)가 포함되어 있습니다. 대부분의 도구 집합을 사용하여 애플리케이션을 둘 이상의 .NET Framework 버전 및 둘 이상의 시스템 플랫폼으로 컴파일할 수 있습니다. 그러나 MSBuild 2.0 도구 집합을 사용해서는 .NET Framework 2.0만 대상으로 할 수 있습니다.  
   
 ## <a name="toolsversion-attribute"></a>ToolsVersion 특성  
@@ -72,7 +71,7 @@ MSBuild는 애플리케이션을 빌드하기 위한 작업, 대상 및 도구�
   
 - <xref:Microsoft.Build.Utilities.ToolLocationHelper> 메서드 사용  
   
-  도구 집합 속성은 도구의 경로를 지정합니다. MSBuild는 프로젝트 파일의 `ToolsVersion` 특성 값을 사용하여 해당 레지스트리 키를 찾은 다음 레지스트리 키의 정보를 사용하여 도구 집합 속성을 설정합니다. 예를 들어, `ToolsVersion`의 값이 `12.0`인 경우 MSBuild는 HKLM\Software\Microsoft\MSBuild\ToolsVersions\12.0 레지스트리 키에 따라 도구 집합 속성을 설정합니다.  
+  도구 집합 속성은 도구의 경로를 지정합니다. MSBuild는 프로젝트 파일의 `ToolsVersion` 특성 값을 사용하여 해당 레지스트리 키를 찾은 다음 레지스트리 키의 정보를 사용하여 도구 집합 속성을 설정합니다. 예를 들어, `ToolsVersion`의 값이 `12.0`인 경우 MSBuild는 이 레지스트리 키에 따라 도구 세트 속성을 설정합니다. HKLM\Software\Microsoft\MSBuild\ToolsVersions\12.0.  
   
   다음은 도구 집합 속성입니다.  
   

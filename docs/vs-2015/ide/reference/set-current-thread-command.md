@@ -14,17 +14,16 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 83c0090db251fb2740fbecc767b93de89021ab64
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 107303082202cb1dbb162ef9dfb845c2f6564df4
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54795382"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655688"
 ---
 # <a name="set-current-thread-command"></a>현재 스레드 설정 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 지정한 스레드를 현재 스레드로 설정합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -37,7 +36,7 @@ Debug.SetCurrentThread index
  `index`  
  필수 요소. 해당 인덱스로 스레드를 선택합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ```  
 >Debug.SetCurrentThread 1  

@@ -22,17 +22,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e1b80fe54fa17c0d7109f6a4ddb4ac5ada98ae2a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 3a80fa982da118db58abbc589136823d5c433ce3
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971990"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59657261"
 ---
 # <a name="display-related-data-in-wpf-applications"></a>WPF 애플리케이션에서 관련 데이터 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 일부 응용 프로그램에서 여러 테이블 또는 부모-자식 관계에서 서로 관련 된 엔터티를 함께 제공 되는 데이터로 작업 하는 것이 좋습니다. 예를 들어 고객을 표시 하는 표를 표시 하려면 수는 `Customers` 테이블입니다. 사용자가 특정 고객을 선택 하면 다른 표의 관련에서 해당 고객의 주문을 `Orders` 테이블입니다.  
   
  항목을 끌어 관련된 데이터를 표시 하는 데이터 바인딩된 컨트롤을 만들 수 있습니다 합니다 **데이터 원본** 창에서 WPF 디자이너로 합니다.  

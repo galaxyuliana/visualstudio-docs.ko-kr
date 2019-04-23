@@ -11,17 +11,16 @@ caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a436135d4acb27e9f875d6a0bd348e37b91c06a6
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: eb11467d8d59e7af11741d7719da2858ac1a784c
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758449"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654037"
 ---
 # <a name="incremental-builds"></a>증분 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 증분 빌드는 해당 입력 파일과 관련하여 최신 상태인 출력 파일이 있는 대상이 실행되지 않도록 최적화된 빌드입니다. 대상 요소는 대상이 입력으로 예상하는 항목을 나타내는 `Inputs` 특성 및 출력으로 생성하는 항목을 나타내는 `Outputs` 특성을 모두 가질 수 있습니다. MSBuild는 이러한 특성의 값 사이에서 1-1 매핑을 찾으려고 시도합니다. 1-1 매핑이 존재하는 경우 MSBuild는 해당 출력 항목의 타임스탬프와 모든 입력 항목의 타임스탬프를 비교합니다. 1-1 매핑이 없는 출력 파일은 모든 입력 파일과 비교됩니다. 출력 파일이 해당 입력 파일보다 최신이거나 두 파일의 타임스탬프가 같은 경우 항목이 최신 상태인 것으로 간주됩니다.  
   
  모든 출력 항목이 최신 상태인 경우 MSBuild는 대상을 건너뜁니다. 이 대상의 *증분 빌드*는 빌드 속도를 크게 향상 시킬 수 있습니다. 일부 파일만 최신 상태인 경우 MSBuild는 대상을 실행하지만 최신 항목을 건너뛰므로 모든 항목을 최신 상태로 합니다. 이는 *부분 증분 빌드*로 알려져 있습니다.  

@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d7590350fdcfb74f90cd4441e97503a60b298c66
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
-ms.translationtype: MT
+ms.openlocfilehash: f0c170beb6bfd8a74d61e6de2398a7478567c893
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954282"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655636"
 ---
 # <a name="add-a-language-server-protocol-extension"></a>언어 서버 프로토콜 확장 추가
 
@@ -259,7 +259,6 @@ namespace MockLanguageExtension
         [BaseDefinition(CodeRemoteContentDefinition.CodeRemoteContentTypeName)]
         internal static ContentTypeDefinition BarContentTypeDefinition;
 
-
         [Export]
         [FileExtension(".bar")]
         [ContentType("bar")]
@@ -290,7 +289,7 @@ LSP 언어 서버에 대 한 지원을 추가 하지 않아도 Visual Studio에�
 
 LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아래이 단계를 수행 합니다.
 
-1. JSON 파일을 추가 (예를 들어 *MockLanguageExtensionSettings.json*) 설정 및 기본값을 포함 하는 프로젝트에서. 예를 들면,
+1. JSON 파일을 추가 (예를 들어 *MockLanguageExtensionSettings.json*) 설정 및 기본값을 포함 하는 프로젝트에서. 예를 들어:
 
     ```json
     {
@@ -338,7 +337,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 
 1. 사용자는 서버를 소유 하는 파일이 포함 된 작업 영역을 엽니다.
 2. 사용자의 파일을 추가 합니다 *.vs* 라는 폴더 *VSWorkspaceSettings.json*합니다.
-3. 줄을 추가 하는 사용자를 *VSWorkspaceSettings.json* 파일 서버에서 제공 하는 설정에 대 한 합니다. 예를 들면,
+3. 줄을 추가 하는 사용자를 *VSWorkspaceSettings.json* 파일 서버에서 제공 하는 설정에 대 한 합니다. 예를 들어:
 
     ```json
     {

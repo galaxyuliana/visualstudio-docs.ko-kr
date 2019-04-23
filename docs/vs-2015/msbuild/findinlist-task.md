@@ -17,17 +17,16 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f5011d1b9e83b379be8eb4b23ec6a7aac649ef9a
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d1fdbc29cfe2fb7d387c6f261953930d2f528150
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54774559"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654570"
 ---
 # <a name="findinlist-task"></a>FindInList 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 지정된 목록에서 일치하는 itemspec이 있는 항목을 찾습니다.  
   
 ## <a name="parameters"></a>매개 변수  

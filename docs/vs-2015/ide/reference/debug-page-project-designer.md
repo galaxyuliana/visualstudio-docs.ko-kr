@@ -14,17 +14,16 @@ caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 22a1accc7421e169ee345fda0446a8474d2eda00
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 611b9c02fd7aaeb4621c4e59555fae2c6dfab247
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54776146"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59656949"
 ---
 # <a name="debug-page-project-designer"></a>프로젝트 디자이너, 디버그 페이지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 > [!WARNING]
 >  이 항목은 Windows 스토어 응용 프로그램에 적용되지 않습니다. Windows 개발자 센터에서 [디버그 세션 시작(VB, C#, C++ 및 XAML)](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)을 참조하세요.  
   
@@ -42,7 +41,7 @@ ms.locfileid: "54776146"
  표시하거나 수정할 플랫폼 설정을 지정합니다. 선택 항목에는 **CPU**(기본값), **x64** 및 **x86**이 포함됩니다. 자세한 내용은 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.  
   
 ## <a name="start-action"></a>시작 작업  
- **시작 작업**은. 프로젝트, 사용자 지정 프로그램, URL 등 애플리케이션을 디버깅할 때 시작할 항목을 나타냅니다. 기본적으로 이 옵션은 **프로젝트 시작**으로 설정되어 있습니다. **디버그** 페이지의 **시작 작업** 설정은 `StartAction` 속성의 값을 결정합니다.  
+ **시작 작업**은. 프로젝트, 사용자 지정 프로그램, URL 등 응용 프로그램을 디버깅할 때 시작할 항목을 나타냅니다. 기본적으로 이 옵션은 **프로젝트 시작**으로 설정되어 있습니다. **디버그** 페이지의 **시작 작업** 설정은 `StartAction` 속성의 값을 결정합니다.  
   
  **시작 프로젝트**  
  이 옵션을 선택하여 애플리케이션을 디버깅할 때 실행 파일(Windows 애플리케이션 및 콘솔 애플리케이션 프로젝트의 경우)이 시작되도록 지정합니다. 이 옵션은 기본적으로 선택됩니다.  
@@ -80,5 +79,5 @@ ms.locfileid: "54776146"
  [C# 디버그 구성을 위한 프로젝트 설정](../../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Visual Basic 디버그 구성을 위한 프로젝트 설정](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [디버깅 속성 관리](http://msdn.microsoft.com/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
- [How to: Debug a ClickOnce Application with Restricted Permissions](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
+ [방법: 제한 된 권한으로 ClickOnce 응용 프로그램 디버그](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
  [방법: 구성 만들기 및 편집](../../ide/how-to-create-and-edit-configurations.md)

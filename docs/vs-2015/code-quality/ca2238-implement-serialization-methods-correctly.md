@@ -15,24 +15,24 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 26d9c23ef8da970a29057c0e299d5b8d12dda524
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: cff617adf2b31ef773de3bc41db7245346795bee
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "59003056"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59657131"
 ---
 # <a name="ca2238-implement-serialization-methods-correctly"></a>CA2238: serialization 메서드를 올바르게 구현하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio에서 최신 설명서를 참조 하세요. [CA2238: Serialization 메서드를 올바르게 구현 하십시오.](https://docs.microsoft.com/visualstudio/code-quality/ca2238-implement-serialization-methods-correctly) docs.microsoft.com에서 제공 합니다.  
+Visual Studio에서 최신 설명서를 참조 하세요. [CA2238: Serialization 메서드를 올바르게 구현 하십시오.](https://docs.microsoft.com/visualstudio/code-quality/ca2238-implement-serialization-methods-correctly)합니다.  
   
 |||  
 |-|-|  
 |TypeName|ImplementSerializationMethodsCorrectly|  
 |CheckId|CA2238|  
 |범주|Microsoft.Usage|  
-|변경 수준|주요-메서드는 어셈블리 외부에 표시 하는 경우입니다.<br /><br /> 주요 변경 아님-메서드 어셈블리 외부에 표시 되지 않으면.|  
+|변경 수준|주요-메서드는 어셈블리 외부에 표시 하는 경우입니다.<br /><br /> 주요 변경 아님-메서드 어셈블리 외부에 표시 되지 않으면|  
   
 ## <a name="cause"></a>원인  
  serialization 이벤트를 처리하는 메서드에 올바른 시그니처, 반환 형식 또는 노출 수준이 없습니다.  

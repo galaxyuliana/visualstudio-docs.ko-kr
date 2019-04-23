@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fd29a8d31d425529db377c812611f1efddc60f11
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MT
+ms.openlocfilehash: 43305d7b9353bd34e98a3dcfd31205cb9159a2f3
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526622"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659922"
 ---
 # <a name="how-to-create-xml-snippets"></a>방법: XML 조각 만들기
 
@@ -64,7 +64,6 @@ XML 편집기는 새 XML 조각을 만드는 데 사용할 수 있습니다. 이
 
 > [!NOTE]
 > XML 조각 텍스트는 `<![CDATA[...]]>` 섹션에 포함되어야 합니다.
-
 
  다음은 상용구 조각으로 만든 `Code` 요소입니다.
 

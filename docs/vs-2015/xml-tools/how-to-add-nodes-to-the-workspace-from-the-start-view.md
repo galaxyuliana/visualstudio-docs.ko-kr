@@ -9,17 +9,16 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0bef136cef69715fdb27a426c4aab5baa1db18dc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 280ae52056d188c1959355c1d7521d1c7e744997
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982010"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654739"
 ---
 # <a name="how-to-add-nodes-to-the-workspace-from-the-start-view"></a>방법: 시작 뷰에서 작업 영역에 노드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 항목에 전역 노드를 추가 하는 방법에 설명 합니다 [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md) 에서 합니다 [시작 뷰](../xml-tools/start-view.md).  
   
 ### <a name="to-add-nodes-to-the-workspace-from-the-start-view"></a>시작 뷰에서 작업 영역에 노드를 추가하려면  

@@ -17,17 +17,16 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 41467515e172b34fe96200020189a02a6a4fc8a2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 0fa25e0bf7742420e21ac75883f9927478ee2c23
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985031"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59656611"
 ---
 # <a name="edit-data-in-datasets"></a>데이터 세트의 데이터 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 모든 데이터베이스의 테이블에서 데이터를 편집할 때 처럼 데이터 테이블의에서 데이터를 편집 합니다. 프로세스는 삽입, 업데이트 및 테이블의 레코드를 삭제 하는 중에 포함할 수 있습니다. 데이터 바인딩된 폼에 있는 사용자가 편집 가능한 필드를 지정할 수 있습니다. 이러한 경우 데이터 바인딩 인프라는 모든 변경 내용 추적 나중에 변경 내용을 데이터베이스로 다시 전송 수 있도록 처리 합니다. 프로그래밍 방식으로 데이터를 편집을 수행한 경우 해당 변경 내용을 다시 데이터베이스에 전송 하려는 개체와 수에 대 한 변경 내용 추적을 수행 하는 메서드를 사용 해야 합니다.  
   
  실제 데이터를 변경 하는 것 외에도 쿼리할 수도 있습니다는 <xref:System.Data.DataTable> 특정 데이터 행을 반환 합니다. 예를 들어, 개별 행, 행 (원래 및 제안 된)의 특정 버전에서 변경 된 행 또는 오류가 있는 행에 대해 쿼리할 수 있습니다.  

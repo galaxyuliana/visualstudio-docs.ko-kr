@@ -19,17 +19,16 @@ caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ec788e9f0ef80a1543aa15f4ff9bfb21daac6123
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 6470125656debf420990ed9b471a5303f66d5712
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54803471"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654918"
 ---
 # <a name="lc-task"></a>LC 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 licx 파일에서 .license 파일을 생성하는 LC.exe를 래핑합니다. LC.exe에 대한 자세한 내용은 [Lc.exe(라이선스 컴파일러)](http://msdn.microsoft.com/library/2de803b8-495e-4982-b209-19a72aba0460)를 참조하세요.  
   
 ## <a name="parameters"></a>매개 변수  
@@ -47,7 +46,7 @@ licx 파일에서 .license 파일을 생성하는 LC.exe를 래핑합니다. LC.
   
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [ToolTaskExtension 기본 클래스](../msbuild/tooltaskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `LC` 작업을 사용하여 라이선스를 컴파일합니다.  
   
 ```  

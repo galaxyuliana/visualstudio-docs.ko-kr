@@ -9,17 +9,16 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 957c1fe49d222a691160eadc4b2cf08f8a20a65a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 247e1720a21c88f15a766fb948156e93ec55e308
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983388"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59656325"
 ---
 # <a name="how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-or-designer"></a>방법: 저장 프로시저를 할당하여 업데이트, 삽입 및 삭제 수행(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 저장 프로시저를 O/R 디자이너에 추가하여 일반적인 <xref:System.Data.Linq.DataContext> 메서드로 실행할 수 있습니다. 기본값을 재정의 하려면 사용할 수도 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 데이터베이스에 변경 내용을 엔터티 클래스에서 저장 되 면 삭제 및 삽입, 업데이트를 수행 하는 런타임 동작 (호출 하는 경우에 예를 들어를 <xref:System.Data.Linq.DataContext.SubmitChanges%2A> 메서드).  
   
 > [!NOTE]

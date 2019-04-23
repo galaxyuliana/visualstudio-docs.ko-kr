@@ -21,17 +21,16 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9b55bc206b204fe2b2e5ef71e2fdb1d48e67802d
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: aadb6b0212f760ab16efd677e02e1d922ae52e12
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54802586"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658496"
 ---
 # <a name="miscellaneous-files"></a>기타 파일
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 편집기를 사용하여 프로젝트 또는 솔루션의 파일에 대해 개별적으로 작업할 수 있습니다. 솔루션이 열려 있는 동안 솔루션 또는 프로젝트에 추가하지 않고 파일을 열고 수정할 수 있습니다. 컨테이너에서 개별적으로 작업하려는 파일을 기타 파일이라고 합니다. 기타 파일은 솔루션 및 프로젝트 외부에 있고, 빌드에 포함되지 않으며, 소스 제어 솔루션에 포함할 수 없습니다.  
   
  컨테이너에서 개별적으로 파일을 열면 여러 가지 이유로 유용합니다. 프로젝트 기반 솔루션을 개발하는 동안 보고 싶지만 솔루션 개발에 필수는 아닌 파일이 있을 수 있습니다. 일반적인 예로 개발 메모 또는 지침, 데이터베이스 스키마 및 코드 클립이 있습니다. 또한 독립 실행형 파일을 만들 수도 있습니다.  

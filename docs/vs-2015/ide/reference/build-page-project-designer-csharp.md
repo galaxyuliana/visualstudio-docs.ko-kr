@@ -14,17 +14,16 @@ caps.latest.revision: 47
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 066535309c7001c3f7a951f68321f7530a06ed05
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 256ceb2e1a40d41798ea8dd38757b447221fab16
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54805323"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658359"
 ---
 # <a name="build-page-project-designer-c"></a>프로젝트 디자이너, 빌드 페이지(C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **프로젝트 디자이너**의 **빌드** 페이지를 사용하여 프로젝트의 빌드 구성 속성을 지정합니다. 이 페이지는 [!INCLUDE[csprcs](../../includes/csprcs-md.md)] 프로젝트에만 적용됩니다.  
   
  **빌드** 페이지에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드(**솔루션** 노드 아님)를 선택합니다. 그런 다음 메뉴 모음에서 **프로젝트**, **속성**을 선택합니다. [프로젝트 디자이너]가 나타나면 **빌드** 탭을 클릭합니다.  
@@ -100,7 +99,7 @@ ms.locfileid: "54805323"
  **All**  
  모든 경고를 오류로 처리합니다.  
   
-## <a name="output"></a>출력  
+## <a name="output"></a>Output  
  다음 설정은 빌드 프로세스에 대한 출력 옵션을 구성하는 데 사용됩니다.  
   
  **출력 경로**  

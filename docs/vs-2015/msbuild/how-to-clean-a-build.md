@@ -14,17 +14,16 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: aa90a0d10b06559b3f4f46fd8dc0c5da4cef981e
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 9f4f410656e49b1a76e74898940cbd32314fc8b4
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54780749"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661336"
 ---
 # <a name="how-to-clean-a-build"></a>방법: 빌드 정리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 빌드를 정리할 때 프로젝트 및 구성 요소 파일을 그대로 두고 모든 중간 파일과 출력 파일이 삭제됩니다. 그런 다음 프로젝트 및 구성 요소 파일에서 중간 파일과 출력 파일의 새 인스턴스를 빌드할 수 있습니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 통해 제공되는 일반 작업 라이브러리에는 시스템 명령을 실행하는 데 사용할 수 있는 [Exec](../msbuild/exec-task.md) 작업이 포함됩니다. 작업의 라이브러리에 자세한 내용은 [작업 참조](../msbuild/msbuild-task-reference.md)를 참조하세요.  
   
 ## <a name="creating-a-directory-for-output-items"></a>출력 항목에 대한 디렉터리 만들기  
@@ -51,7 +50,7 @@ ms.locfileid: "54780749"
   
      `<RemoveDir Directories="$(builtdir)" />`  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드 예제 프로젝트는 `RemoveDir` 작업을 사용하여 디렉터리 및 모든 파일과 포함하는 디렉터리를 삭제하는 새 대상 `Clean`을 포함합니다. 또한 이 예제에서 `Compile` 대상은 빌드가 정리될 때 삭제된 출력 항목에 대한 별도 디렉터리를 만듭니다.  
   
  `Compile`은 기본 대상으로 정의되므로 다른 대상 또는 대상을 지정하지 않으면 자동으로 사용됩니다. 명령줄 스위치 **/target**을 사용하여 다른 대상을 지정합니다. 예:  

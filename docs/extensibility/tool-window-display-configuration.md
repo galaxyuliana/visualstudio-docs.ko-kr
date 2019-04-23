@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ce6345a07aa8476dd9d102e71bbfd8cdfd848d93
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 663bc7a2add5e436cb7b0166387d6e3638087a1a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56707044"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653777"
 ---
 # <a name="tool-window-display-configuration"></a>도구 창 표시 구성
 VSPackage는 도구 창, 기본 위치, 크기, 도킹 스타일 및 다른 표시 유형 정보를 등록 하는 경우 옵션 값에 지정 됩니다. 도구 창 등록에 대 한 자세한 내용은 참조 하세요. [레지스트리에서 Windows 도구](../extensibility/tool-windows-in-the-registry.md)
@@ -34,7 +34,6 @@ HKEY_LOCAL_MACHINE\
             <Tool Window GUID>\
               (Default)       = reg_sz: <Package GUID>Name            = reg_sz: <name of tool window>Float           = reg_sz: <position>Style           = reg_sz: <dock style>Window          = reg_sz: <window GUID>Orientation     = reg_sz: <orientation>DontForceCreate = reg_dword: 0x00000000
 ```
-
 
 | 이름 | 형식 | 데이터 | 설명 |
 |-----------------|-----------| - | - |

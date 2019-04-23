@@ -17,17 +17,16 @@ caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3d5e51a674a075b265aa6ec2550f4e8cf4207c5d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 371357249bb9674a636859c995ad076eb41c2a08
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54804756"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59656429"
 ---
 # <a name="writealltlogs"></a>WriteAllTLogs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 모든 스레드 및 컨텍스트에 대한 추적 로그를 작성합니다.  
   
 ## <a name="syntax"></a>구문  
@@ -44,7 +43,7 @@ HRESULT WINAPI WriteAllTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName
  로그 파일 이름의 루트 이름입니다.  
   
 ## <a name="return-value"></a>반환 값  
- 추적 컨텍스트가 만들어진 경우 [SUCCEEDED](<!-- TODO: review code entity reference <xref:assetId:///SUCCEEDED?qualifyHint=False&amp;autoUpgrade=True>  -->) 비트가 설정된 [HRESULT](<!-- TODO: review code entity reference <xref:assetId:///HRESULT?qualifyHint=False&amp;autoUpgrade=True>  -->)를 반환합니다.  
+ [HRESULT] (<!-- TODO: review code entity reference <xref:assetId:///HRESULT?qualifyHint=False&amp;autoUpgrade=True>  -->) [성공] (<!-- TODO: review code entity reference <xref:assetId:///SUCCEEDED?qualifyHint=False&amp;autoUpgrade=True>  -->) 추적 컨텍스트가 만들어진 경우에 비트가 설정 합니다.  
   
 ## <a name="requirements"></a>요구 사항  
  **헤더:** FileTracker.h  

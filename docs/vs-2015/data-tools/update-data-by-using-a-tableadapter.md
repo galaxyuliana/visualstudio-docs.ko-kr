@@ -21,17 +21,16 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ec53e42a5e49d48e76c6c00e2ffbd5a8a3daafa0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 585dfa357082fbb46794ab5f6dcc7b0e141fc9b7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983933"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653754"
 ---
 # <a name="update-data-by-using-a-tableadapter"></a>TableAdapter를 사용하여 데이터 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 데이터 집합의 데이터를 수정 하 고 유효성을 검사 된 후 databaseby 호출을 다시 업데이트 된 데이터를 보낼 수 있습니다는 `Update` TableAdapter의 메서드. `Update` 메서드는 단일 데이터 테이블을 업데이트 하 고 올바른 명령을 (INSERT, UPDATE 또는 DELETE)에 따라 실행을 <xref:System.Data.DataRow.RowState%2A> 테이블의 각 데이터 행입니다. 데이터 집합에 관련 테이블, Visual Studio는 업데이트를 수행 하는 데 사용할 수 있는 TableAdapterManager 클래스를 생성 합니다. TableAdapterManager 클래스는 데이터베이스에 정의 된 외래 키 제약 조건에 따라 올바른 순서로 업데이트를 확인 합니다. 데이터 바인딩된 컨트롤을 사용 하면 데이터 바인딩 아키텍처 tableAdapterManager 호출 되는 TableAdapterManager 클래스의 멤버 변수를 만듭니다. 자세한 내용은 [계층적 업데이트 개요](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)합니다.  
   
 > [!NOTE]

@@ -20,17 +20,16 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 13f87f5ffaa255fc2c1c0f53b527ecbbceb8e8ee
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 578835b770a9895b00513b6907956bc3bb9f9da7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983555"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653764"
 ---
 # <a name="insert-new-records-into-a-database"></a>데이터베이스에 새 레코드 삽입
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 데이터베이스에 새 레코드를 삽입을 사용할 수 있습니다 합니다 `TableAdapter.Update` 메서드 또는 TableAdapter의 DBDirect 메서드 중 하나 (특히는 `TableAdapter.Insert` 메서드).
   
  응용 프로그램에서 Tableadapter를 사용 하지 않는 경우 명령 개체를 사용할 수 있습니다 (예를 들어 <xref:System.Data.SqlClient.SqlCommand>) 데이터베이스에서 새 레코드를 삽입 합니다.  

@@ -1,5 +1,5 @@
 ---
-title: '방법: 먼저 빌드할 대상 지정 | Microsoft 문서'
+title: '방법: 먼저 빌드할 대상 지정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: msbuild
@@ -13,17 +13,16 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 52baabe5a8cf2e064c72ef7a5ab146d534214d90
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c7e1c9c4374e35dd484d478118fe714ff415f93e
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54797042"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654882"
 ---
 # <a name="how-to-specify-which-target-to-build-first"></a>방법: 먼저 빌드할 대상 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 프로젝트 파일에는 프로젝트 빌드 방식을 정의하는 하나 이상의 `Target` 요소가 포함됩니다. 프로젝트 파일에 `DefaultTargets` 특성, `InitialTargets` 특성이 포함되거나 대상이 명령줄에서 **/target** 스위치를 사용하여 지정된 경우가 아니면 [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] ([!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]) 엔진은 발견한 첫 번째 프로젝트 및 모든 종속성을 빌드합니다.  
   
 ## <a name="using-the-initialtargets-attribute"></a>InitialTargets 특성 사용  
@@ -31,7 +30,7 @@ ms.locfileid: "54797042"
   
 #### <a name="to-specify-one-initial-target"></a>하나의 초기 대상을 지정합니다.  
   
-- `Project` 요소의 `InitialTargets` 특성에서 기본 대상을 지정합니다. 예:  
+- `Project` 요소의 `InitialTargets` 특성에서 기본 대상을 지정합니다. 예를 들어:  
   
    `<Project InitialTargets="Clean">`  
   
@@ -48,7 +47,7 @@ ms.locfileid: "54797042"
   
 #### <a name="to-specify-one-default-target"></a>하나의 기본 대상을 지정하려면  
   
-- `Project` 요소의 `DefaultTargets` 특성에서 기본 대상을 지정합니다. 예:  
+- `Project` 요소의 `DefaultTargets` 특성에서 기본 대상을 지정합니다. 예를 들어:  
   
    `<Project DefaultTargets="Compile">`  
   
@@ -65,13 +64,13 @@ ms.locfileid: "54797042"
   
 #### <a name="to-use-a-target-other-than-the-default-target-first"></a>기본 대상 이외의 대상을 먼저 사용하려면  
   
--   **/target** 명령줄 스위치를 사용하여 대상을 첫 번째 대상으로 지정합니다. 예:  
+-   **/target** 명령줄 스위치를 사용하여 대상을 첫 번째 대상으로 지정합니다. 예를 들어:  
   
      `msbuild file.proj /target:Clean`  
   
 #### <a name="to-use-several-targets-other-than-the-default-targets-first"></a>기본 대상 이외의 여러 대상을 먼저 사용하려면  
   
--   **/target** 명령줄 스위치를 사용하여 세미콜론 또는 쉼표로 구분된 대상을 나열합니다. 예:  
+-   **/target** 명령줄 스위치를 사용하여 세미콜론 또는 쉼표로 구분된 대상을 나열합니다. 예를 들어:  
   
      `msbuild <file name>.proj /t:Clean;Compile`  
   

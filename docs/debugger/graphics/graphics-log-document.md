@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d4596015acd94d7d4f1d4d5552cfe6d83ab8727c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: c4d372c0f21bfeb9768796e494a2689b7fc9f32f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56714285"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658046"
 ---
 # <a name="graphics-log-document"></a>그래픽 로그 문서
 그래픽 로그 문서는 그래픽 진단 세션에서 앱을 실행하는 동안 발생한 그래픽 이벤트의 레코드입니다. 기록된 후에는 Visual Studio Graphics Analyzer에서 이 로그를 검토하여 렌더링 및 성능 문제를 진단할 수 있습니다.
@@ -42,7 +42,7 @@ ms.locfileid: "56714285"
 ## <a name="playback-machine"></a>재생 컴퓨터
  **프레임 목록**의 오른쪽 위 모퉁이에는 **재생 머신**도 표시됩니다. 재생 컴퓨터는 이후 그래픽 진단 세션 중 그래픽 로그 파일에서 그래픽 이벤트를 재생하는 데 사용되는 컴퓨터 또는 장치입니다. 개발 컴퓨터 대신 다른 장치를 사용하여 캡처된 이벤트를 재생하면 문제가 발생한 실행 환경을 보다 정확하게 재현할 수 있습니다. 예를 들어 개발 컴퓨터에서 사용하는 것과 다른 그래픽 하드웨어 또는 드라이버가 있는 컴퓨터나 ARM 기반 Windows RT 태블릿 또는 Windows Phone 장치와 같은 다른 종류의 장치를 사용할 수 있습니다.
 
- 재생 머신을 지정하는 방법에 대한 자세한 내용은 [방법: 그래픽 진단 재생 머신 변경](how-to-change-the-graphics-diagnostics-playback-machine.md)을 참조하세요.
+ 재생 컴퓨터를 지정 하는 방법에 대 한 정보를 참조 하세요. [방법: 그래픽 진단 재생 머신 변경](how-to-change-the-graphics-diagnostics-playback-machine.md)을 참조하세요.
 
 ## <a name="graphics-log-summary-information"></a>그래픽 로그 요약 정보
  그래픽 로그 파일이 활성 문서인 경우 **속성** 창에는 그래픽 진단 캡처 세션을 호스팅하는 환경에 대한 정보가 표시됩니다. 여러 정보 범주가 표시됩니다.
@@ -52,7 +52,7 @@ ms.locfileid: "56714285"
 |속성|설명|
 |--------------|-----------------|
 |**10비트 XR 하이 컬러 형식**|10비트 XR 하이 컬러 형식이 지원되면 **True**이고 그렇지 않은 경우 **False**입니다.|
-|**DirectCompute CS 4.x**|Compute Shader 4.0이 지원되면 **True**이고 그렇지 않으면 **False**입니다.|
+|**DirectCompute CS 4.x**|컴퓨팅 셰이더 4.0이 지원되면 **True**이고 그렇지 않으면 **False**입니다.|
 |**배정밀도 셰이더**|디스플레이 어댑터에서 배정밀도(64비트) 부동 소수점 값을 지원하면 **True**이고 그렇지 않은 경우 **False**입니다.|
 |**드라이버 명령 목록**|드라이버에서 명령 목록을 지원하는 경우 **True**이고 그렇지 않은 경우 **False**입니다.|
 |**드라이버 동시 생성**|드라이버에서 동시(비동기) 생성을 지원하는 경우 **True**이고 그렇지 않은 경우 **False**입니다.|
@@ -73,7 +73,7 @@ ms.locfileid: "56714285"
 
 |속성|설명|
 |--------------|-----------------|
-|**Path**|.vsglog 파일의 경로입니다. **참고:** 레거시 캡처에서이 속성은 사용 합니다.|
+|**Path**|.vsglog 파일의 경로입니다. **참고:**  레거시 캡처에서 이 속성은 사용되지 않습니다.|
 
  **모듈 정보** 이름 및 캡처 세션 중 앱에서 로드 된 동적 연결 라이브러리 (Dll)의 버전을 나열 합니다.
 
@@ -97,7 +97,6 @@ ms.locfileid: "56714285"
 |**Version**|앱 버전입니다.|
 
  **VSG 로그 파일** 그래픽 로그 문서에 대 한 정보를 나열 합니다.
-
 
 | 속성 | 설명 |
 |------------------------| - |

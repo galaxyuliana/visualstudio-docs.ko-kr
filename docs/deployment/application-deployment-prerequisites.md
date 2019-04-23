@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5dfc0bccd0b5b8ae55f5e4df6aec1a85254e2220
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 12a46c424e8b2c44e0622edf4b4a615273580814
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600490"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59657594"
 ---
 # <a name="application-deployment-prerequisites"></a>애플리케이션 배포 필수 구성 요소
 
@@ -45,10 +45,10 @@ ms.locfileid: "56600490"
 
 - 어셈블리 매니페스트에서 어셈블리 종속성 선언을 통해 지정 된 대로 전역 어셈블리 캐시 (GAC)에 미리 설치 해야 하는 모든 어셈블리의 최소 버전입니다.
 
-  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 누락 된 필수 구성 요소를 검색할 수 있습니다 하 고 부트스트래퍼를 사용 하 여 필수 구성 요소를 설치할 수 있습니다. 자세한 내용은 [방법: ClickOnce 응용 프로그램을 사용 하 여 필수 구성 요소 설치](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)합니다.
+  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 누락 된 필수 구성 요소를 검색할 수 있습니다 하 고 부트스트래퍼를 사용 하 여 필수 구성 요소를 설치할 수 있습니다. 자세한 내용은 [방법: ClickOnce 애플리케이션으로 필수 구성 요소 설치](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)를 참조하세요.
 
 > [!NOTE]
->  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 및 *MageUI.exe*와 같은 도구를 통해 생성된 매니페스트의 값을 변경하려면 텍스트 편집기에서 애플리케이션 매니페스트를 편집한 다음, 애플리케이션 및 배포 매니페스트를 모두 다시 서명해야 합니다. 자세한 내용은 [방법: 애플리케이션 및 배포 매니페스트에 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)을 참조하세요.
+>  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 및 *MageUI.exe*와 같은 도구를 통해 생성된 매니페스트의 값을 변경하려면 텍스트 편집기에서 애플리케이션 매니페스트를 편집한 다음, 애플리케이션 및 배포 매니페스트를 모두 다시 서명해야 합니다. 자세한 내용은 [방법: 애플리케이션 및 배포 매니페스트 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)을 참조하세요.
 
  Visual Studio 및 ClickOnce를 사용하여 응용 프로그램을 배포하는 경우 기본적으로 선택되는 부트스트래퍼 패키지는 솔루션의 .NET Framework 버전에 따라 달라집니다. 그러나 대상 .NET Framework 버전을 변경하는 경우에는 **필수 구성 요소 대화 상자**에서 옵션을 수동으로 업데이트해야 합니다.
 
@@ -71,7 +71,6 @@ ms.locfileid: "56600490"
 
  부트스트래퍼 옵션을 변경 하는 경우 서명 되지 않은 부트스트래퍼 변경한 다음 나중에 부트스트래퍼 파일에 서명 해야 합니다.
 
-
 | 명령줄 인수 | 설명 |
 | - | - |
 | **-?, -h, -help** | 도움말 대화 상자를 표시합니다. |
@@ -83,6 +82,6 @@ ms.locfileid: "56600490"
 ## <a name="operating-system-support"></a>운영 체제 지원
  Visual Studio 부트스트래퍼 제한 된 기능을 사용 하 여 낮은 유지 관리 서버 환경을 제공 하므로 Windows Server 2008 Server Core 또는 Windows Server 2008 R2 Server Core에서 지원 되지 않습니다. 예를 들어 Server Core 설치 옵션을 전체.NET Framework에 종속 된 Visual Studio 기능을 실행할 수 없습니다는.NET Framework 3.5 Server Core 프로필을 지원 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)
 - [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)

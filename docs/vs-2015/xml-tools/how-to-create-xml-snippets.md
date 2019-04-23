@@ -9,17 +9,16 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4c676032c2d0bc6c47023c5fd43bc759cccff8de
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: b64c94d26dcb197246f78b721fd087d5dbf1e0dc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982085"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660361"
 ---
 # <a name="how-to-create-xml-snippets"></a>방법: XML 조각 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XML 편집기를 사용하여 새 XML 조각을 만들 수 있습니다. 이 편집기에는 새 XML 조각을 만들기 위한 상용구 조각인 "Snippet"이라는 XML 조각이 들어 있습니다.  
   
 ## <a name="to-create-a-new-xml-snippet"></a>새 XML 조각을 만들려면  

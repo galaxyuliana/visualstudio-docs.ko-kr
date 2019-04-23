@@ -13,17 +13,16 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d5842f0f931eecd822dcaeba5eb6b3e33bd826c9
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ae57c63b9ec97d72d7da7b7ed7de54028c3e32e3
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758843"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658840"
 ---
 # <a name="how-to-display-urls-as-links-in-the-editor"></a>방법: 편집기에서 URL을 링크로 표시
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 코드 편집기에서 코드의 URL(Uniform Resource Locator)을 활성 링크로 포함하도록 선택할 수 있습니다. 이 기능을 사용할 경우 URL은 다음과 같습니다.  
   
 -   밑줄이 표시됩니다.  

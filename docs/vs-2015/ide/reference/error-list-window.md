@@ -16,17 +16,16 @@ caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 080bc6b8efe5407a372ef2e22c53d04fa977e057
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 9dc94abdfb35bc4537f0ba80f96f393157263e63
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54785773"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658151"
 ---
 # <a name="error-list-window"></a>오류 목록 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 참고]
 >  오류 목록에는 특정 오류 메시지에 대한 정보가 표시됩니다. 출력 창에서 오류 번호 또는 오류 문자열 텍스트를 복사할 수 있습니다. 출력 창을 표시하려면 Ctrl+Alt+O 키를 누릅니다. [출력 창](../../ide/reference/output-window.md)을 참조하세요.  
   

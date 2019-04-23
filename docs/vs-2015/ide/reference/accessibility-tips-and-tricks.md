@@ -11,17 +11,16 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 77254bea0c4b587df8f4aef8297f17b6b4304339
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: f60f952b5784b0901c89f0c1f846ac39e6212a6b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54800790"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660154"
 ---
 # <a name="accessibility-tips-and-tricks"></a>내게 필요한 옵션에 대한 유용한 정보
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 쉽게 키보드에서 작업하고 화면 판독기나 기타 보조 기술 디바이스를 사용할 수 있도록 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에는 기본 제공 접근성 기능이 포함되어 있습니다. 이 항목에는 접근성 및 여러 유용한 바로 가기 키 조합에 맞게 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 최적화하기 위한 몇 가지 제안 사항이 포함되어 있습니다.  
   
 > [!NOTE]

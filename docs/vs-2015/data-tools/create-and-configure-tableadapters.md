@@ -20,17 +20,16 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 24f53af16bcab0e3ff631a7c264f139f94d92232
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: d6b6428681815f20951b090075e859959a4e3180
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970911"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660863"
 ---
 # <a name="create-and-configure-tableadapters"></a>TableAdapter 만들기 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Tableadapter 응용 프로그램과 데이터베이스 간에 통신을 제공합니다. 데이터베이스, 쿼리 실행된 또는 저장된 프로시저에 연결 하 고 새 데이터를 반환 하거나 테이블 또는 기존 채우기 <xref:System.Data.DataTable> 반환된 된 데이터를 사용 하 여 합니다. 또한 Tableadapter 다시 데이터베이스에 응용 프로그램에서 업데이트 된 데이터를 보낼 수 있습니다.  
   
  다음 작업 중 하나를 수행 하는 경우에 Tableadapter는 만들어집니다.  

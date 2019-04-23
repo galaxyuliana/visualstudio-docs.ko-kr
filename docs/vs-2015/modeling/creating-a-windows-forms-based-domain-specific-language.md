@@ -9,12 +9,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1faa3b8a7b57ddae646b55a8a17226894a5ed5d2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 2caee9a39df18bfed0dc48a9c0266721500ddeca
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983022"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654943"
 ---
 # <a name="creating-a-windows-forms-based-domain-specific-language"></a>Windows Forms 기반 도메인별 언어 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,12 +33,10 @@ DSL 인스턴스를 모델 탐색기 및 Windows 폼 UI를 표시 합니다.
 
     이 연습에서는 다음 이름은 것으로 간주 됩니다.  
 
-
    |                       |                 |
    |-----------------------|-----------------|
    | 솔루션 이름과 DSL |     FarmApp     |
    |       네임스페이스       | Company.FarmApp |
-
 
 2. 템플릿을 제공 하는 초기 예제를 사용 하 여 실험 합니다.  
 

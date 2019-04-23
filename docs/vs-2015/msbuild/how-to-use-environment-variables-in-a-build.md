@@ -1,5 +1,5 @@
 ---
-title: '방법: 빌드 시 환경 변수 사용 | Microsoft 문서'
+title: '방법: 빌드 시 환경 변수 사용 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: msbuild
@@ -13,17 +13,16 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cf043fbaac2e718b108920a61026378545fa5a95
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 78cdc8f95c5a48e8ce0491926b27f0521705e3bb
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54780975"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655886"
 ---
 # <a name="how-to-use-environment-variables-in-a-build"></a>방법: 빌드 시 환경 변수 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 프로젝트를 빌드할 때 프로젝트 파일이나 프로젝트를 구성하는 파일에 없는 정보를 사용하여 빌드 옵션을 설치해야 하는 경우가 많습니다. 이 정보는 대개 환경 변수에 저장되어 있습니다.  
   
 ## <a name="referencing-environment-variables"></a>환경 변수 참조  
@@ -49,7 +48,7 @@ ms.locfileid: "54780975"
     > [!NOTE]
     >  속성 이름은 대/소문자를 구분하지 않으므로 `$(ToolsPath)` 및 `$(TOOLSPATH)`는 둘 다 같은 속성 또는 환경 변수를 참조합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 프로젝트 파일에서는 환경 변수를 사용하여 디렉터리의 위치를 지정합니다.  
   
 ```  
@@ -72,4 +71,4 @@ ms.locfileid: "54780975"
 
 [MSBuild 속성](../msbuild/msbuild-properties1.md)
 
-[방법: 동일한 소스 파일을 다른 옵션을 사용하여 빌드](../msbuild/how-to-build-the-same-source-files-with-different-options.md)
+[방법: 다양 한 옵션을 사용 하 여 동일한 원본 파일 빌드](../msbuild/how-to-build-the-same-source-files-with-different-options.md)

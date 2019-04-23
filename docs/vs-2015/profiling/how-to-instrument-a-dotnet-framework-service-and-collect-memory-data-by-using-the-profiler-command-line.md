@@ -9,20 +9,20 @@ caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 45904463abf5d7cd420c938f58eed6f35a2831eb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c9bc74cbd0d7fbcfec26f4bfe3f334623baf066b
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54766450"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653738"
 ---
-# <a name="how-to-instrument-a-net-framework-service-and-collect-memory-data-by-using-the-profiler-command-line"></a>방법: 프로파일러 명령줄을 통해 .NET Framework 서비스 계측 및 메모리 데이터 수집
+# <a name="how-to-instrument-a-net-framework-service-and-collect-memory-data-by-using-the-profiler-command-line"></a>방법: .NET Framework 서비스 계측 및 Profiler 명령줄을 사용 하 여 수집 메모리 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 명령줄 도구를 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 서비스를 계측하고 메모리 사용량 데이터를 수집하는 방법에 대해 설명합니다. 메모리 할당 데이터를 수집하거나 메모리 할당 및 개체 수명 데이터를 수집할 수 있습니다.  
 
 > [!NOTE]
->  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
+>  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 응용 프로그램의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
 
 > [!NOTE]
 >  컴퓨터가 시작된 후에 서비스(예: 운영 체제가 시작될 때 시작하는 서비스)를 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.  
@@ -85,7 +85,6 @@ ms.locfileid: "54766450"
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                                  **/wincounter**와 함께 사용해야 합니다. Windows 성능 카운터 수집 이벤트 사이에 경과하는 시간(밀리초)을 지정합니다. 기본값은 500ms입니다.                                                                                   |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                                     프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.etl)로 수집됩니다.                                                                                     |
 
-
 8. 필요한 경우 서비스를 시작합니다.  
 
 9. 프로파일러를 서비스에 연결합니다. 유형:  
@@ -108,7 +107,7 @@ ms.locfileid: "54766450"
     |[/threadon](../profiling/threadon-and-threadoff.md) **:** `TID` [/threadoff](../profiling/threadon-and-threadoff.md) **:** `TID`|스레드 ID(`TID`)로 지정된 스레드에 대한 데이터 수집을 시작(**/threadon**) 또는 중지(**/threadoff**)합니다.|  
 
 ## <a name="ending-the-profiling-session"></a>프로파일링 세션 종료  
- 프로파일링 세션을 종료하려면 계측된 구성 요소를 실행하는 애플리케이션을 닫은 다음, **VSPerfCmd**[/shutdown](../profiling/shutdown.md) 옵션을 시작하여 프로파일러를 끄고 프로파일링 데이터 파일을 닫습니다. **VSPerfClrEnv /globaloff** 명령은 프로파일링 환경 변수를 지웁니다.  
+ 프로파일링 세션을 종료하려면 계측된 구성 요소를 실행하는 응용 프로그램을 닫은 다음, **VSPerfCmd** [/shutdown](../profiling/shutdown.md) 옵션을 시작하여 프로파일러를 끄고 프로파일링 데이터 파일을 닫습니다. **VSPerfClrEnv /globaloff** 명령은 프로파일링 환경 변수를 지웁니다.  
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면  
 

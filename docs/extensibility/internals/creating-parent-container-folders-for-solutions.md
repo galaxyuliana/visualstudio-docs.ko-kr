@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6845e867a8c5fd0ef2b367dc5f2e3b5760869746
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 6c23ec3101baac033cbef47f6f1c3ad6f717a15d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602016"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661063"
 ---
 # <a name="create-parent-container-folders-for-solutions"></a>부모 솔루션에 대 한 컨테이너 폴더 만들기
 원본 제어 플러그 인 API 버전 1.2에는 사용자 솔루션 내에서 모든 웹 프로젝트에 대 한 단일 루트 원본 제어 대상을 지정할 수 있습니다. 이 단일 루트를 슈퍼 통합 루트 (도메인 이름 얻기) 라고 합니다.
@@ -42,7 +42,6 @@ ms.locfileid: "56602016"
 -   프로젝트 및 솔루션 파일에 대 한 다른 공유 있습니다.
 
 -   프로젝트에에서 추가 된 별도로 (소스 제어 솔루션).
-
 
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 도메인 이름 얻기 폴더의 이름을 동일 하 게 솔루션 이름과 확장명이 없는 것이 좋습니다. 다음 표에서 두 가지 버전의 동작을 보여 줍니다.
 

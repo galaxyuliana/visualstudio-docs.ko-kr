@@ -1,5 +1,5 @@
 ---
-title: 'DA0001: 연결에 StringBuilder를 사용하십시오. | Microsoft 문서'
+title: 'DA0001: 연결에 StringBuilder 사용 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -14,17 +14,17 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5a374e867283e4dad614d8bebce88a9bababa7d5
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
-ms.translationtype: MTE95
+ms.openlocfilehash: 386eda282364ccc4ab9841f126bb10944477df18
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355182"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659152"
 ---
-# <a name="da0001-use-stringbuilder-for-concatenations"></a>DA0001: 연결에 StringBuilder를 사용하십시오.
+# <a name="da0001-use-stringbuilder-for-concatenations"></a>DA0001: 연결에 StringBuilder 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio에서 최신 설명서를 참조 하세요 [DA0001: 연결에 StringBuilder를 사용 하 여](https://docs.microsoft.com/visualstudio/profiling/da0001-use-stringbuilder-for-concatenations) docs.microsoft.com에서 제공 합니다.  
+Visual Studio에서 최신 설명서를 참조 하세요. [DA0001: 연결에 StringBuilder를 사용 하 여](https://docs.microsoft.com/visualstudio/profiling/da0001-use-stringbuilder-for-concatenations)입니다.  
   
 |||  
 |-|-|  

@@ -14,20 +14,20 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 3adedb95931dfc2f683595fc97bb98821e32fb38
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 16cbdb0a673f503dcee49b7a323d1453ee93532a
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983496"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59659724"
 ---
 # <a name="access-data-in-visual-studio"></a>Visual Studio에서 데이터 액세스
 
 Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 형식으로 어디서 나 데이터에 연결 하는 응용 프로그램을 만들 수 있습니다-공용, 개인 또는 하이브리드 클라우드 또는 로컬 영역 네트워크에 로컬 컴퓨터에서.
 
-JavaScript, Python, PHP, Ruby 또는 c + +에서 응용 프로그램의 경우 있습니다 컴퓨터 가져오기 라이브러리 및 코드를 작성 하 여 다른 작업을 수행 하기와 같은 데이터에 연결 합니다. .NET 응용 프로그램에 대 한 Visual Studio 데이터 원본 탐색, 개체 모델을 저장 하 고 메모리에서 데이터를 조작 하 고, 사용자 인터페이스에 데이터 바인딩 만들기에 사용할 수 있는 도구를 제공 합니다. Microsoft Azure는 Azure Storage에 연결 하기 위한.NET, Java, Node.js, PHP, Python, Ruby 및 모바일 앱 및 Visual Studio의 도구에 대 한 Sdk를 제공 합니다.
+JavaScript, Python, PHP, Ruby에서 응용 프로그램 또는 C++를 가져오기 라이브러리 및 코드를 작성 하 여 다른 작업을 수행 하기와 같은 데이터에 연결 합니다. .NET 응용 프로그램에 대 한 Visual Studio 데이터 원본 탐색, 개체 모델을 저장 하 고 메모리에서 데이터를 조작 하 고, 사용자 인터페이스에 데이터 바인딩 만들기에 사용할 수 있는 도구를 제공 합니다. Microsoft Azure는 Azure Storage에 연결 하기 위한.NET, Java, Node.js, PHP, Python, Ruby 및 모바일 앱 및 Visual Studio의 도구에 대 한 Sdk를 제공 합니다.
 
-다음 목록에는 Visual Studio에서 사용할 수 있는 여러 데이터베이스 및 저장소 시스템의 일부에 지나지 보여 줍니다. 합니다 [Microsoft Azure](https://azure.microsoft.com/) 제품은 모든 프로 비전 및 관리의 기본 데이터 저장소를 포함 하는 데이터 서비스입니다. 합니다 **Azure 개발** 의 워크 로드가 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) Visual Studio에서 직접 Azure 데이터 저장소를 사용 하 여 사용할 수 있습니다.
+다음 목록에는 Visual Studio에서 사용할 수 있는 여러 데이터베이스 및 저장소 시스템의 일부에 지나지 보여 줍니다. 합니다 [Microsoft Azure](https://azure.microsoft.com/) 제품은 모든 프로 비전 및 관리의 기본 데이터 저장소를 포함 하는 데이터 서비스입니다. 합니다 **Azure 개발** 의 워크 로드가 [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) Visual Studio에서 직접 Azure 데이터 저장소를 사용 하 여 사용할 수 있습니다.
 
 ![Azure 개발 워크로드](media/azure-development-workload.png)
 
@@ -86,7 +86,7 @@ JavaScript, Python, PHP, Ruby 또는 c + +에서 응용 프로그램의 경우 �
 
 ASP.NET과 관련 된 데이터 액세스 설명서를 참조 하세요 [데이터로 작업](https://www.asp.net/web-forms/overview/presenting-and-managing-data) ASP.NET 사이트의. ASP.NET MVC로 Entity Framework를 사용 하 여에 대 한 자습서를 참조 하세요 [Getting Started with Entity Framework 6 Code First MVC 5를 사용 하 여](/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application)입니다.
 
-UWP (유니버설 Windows 플랫폼) 앱에서 C# 또는 Visual Basic.NET 용 Microsoft Azure SDK를 사용 하 여 Azure Storage 및 다른 Azure 서비스에 액세스할 수 있습니다. Windows.Web.HttpClient 클래스 RESTful 서비스와 통신할 수 있도록 합니다. 자세한 내용은 [Windows.Web.Http를 사용 하 여 HTTP 서버에 연결 하는 방법을](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx)합니다.
+UWP (유니버설 Windows 플랫폼) 앱에서 C# 또는 Visual Basic Microsoft Azure SDK for.NET을 사용 하 여 Azure Storage 및 다른 Azure 서비스에 액세스할 수 있습니다. Windows.Web.HttpClient 클래스 RESTful 서비스와 통신할 수 있도록 합니다. 자세한 내용은 [Windows.Web.Http를 사용 하 여 HTTP 서버에 연결 하는 방법을](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx)합니다.
 
 로컬 컴퓨터의 데이터 저장소에 대 한 앱과 동일한 프로세스에서 실행 되는 SQLite를 사용 하는 것이 좋습니다. 개체-관계형 매핑 (ORM) 계층을 필요한 경우에 Entity Framework를 사용할 수 있습니다. 자세한 내용은 [데이터 액세스](/windows/uwp/data-access/index) Windows 개발자 센터에서.
 
@@ -110,15 +110,15 @@ ADO.NET에서 수 있으려면 데이터베이스에 대 한 사용자 지정 �
 
 ## <a name="native-c"></a>네이티브 C++
 
-SQL Server에 연결 하는 c + + 응용 프로그램 사용 해야 합니다 [SQL Server 용 Microsoft® ODBC Driver 13.1](https://www.microsoft.com/download/details.aspx?id=53339) 대부분의 경우에서. 서버에 연결 하는 경우 OLE DB가 필요 하 고을 사용 합니다 [SQL Server Native Client](/sql/relational-databases/native-client/sql-server-native-client)합니다. 사용 하 여 다른 데이터베이스를 액세스할 수 있습니다 [ODBC](https://docs.microsoft.com/sql/odbc/microsoft-open-database-connectivity-odbc?view=sql-server-2017) 또는 OLE DB 드라이버 직접. ODBC 현재 표준 데이터베이스 인터페이스 이지만 대부분의 데이터베이스 시스템 ODBC 인터페이스를 통해 액세스할 수 없는 사용자 지정 기능을 제공 합니다. OLE DB는 레거시 COM 데이터 액세스 기술 계속 지원 하지만 새로운 응용 프로그램에 적합 하지 않습니다. 자세한 내용은 [Visual c + +에서 데이터 액세스](/cpp/data/data-access-in-cpp)합니다.
+C++SQL Server에 연결 하는 응용 프로그램 사용 해야 합니다 [SQL Server 용 Microsoft® ODBC Driver 13.1](https://www.microsoft.com/download/details.aspx?id=53339) 대부분의 경우에서. 서버에 연결 하는 경우 OLE DB가 필요 하 고을 사용 합니다 [SQL Server Native Client](/sql/relational-databases/native-client/sql-server-native-client)합니다. 사용 하 여 다른 데이터베이스를 액세스할 수 있습니다 [ODBC](https://docs.microsoft.com/sql/odbc/microsoft-open-database-connectivity-odbc?view=sql-server-2017) 또는 OLE DB 드라이버 직접. ODBC 현재 표준 데이터베이스 인터페이스 이지만 대부분의 데이터베이스 시스템 ODBC 인터페이스를 통해 액세스할 수 없는 사용자 지정 기능을 제공 합니다. OLE DB는 레거시 COM 데이터 액세스 기술 계속 지원 하지만 새로운 응용 프로그램에 적합 하지 않습니다. 자세한 내용은 [시각적 개체에 대 한 데이터 액세스 C++ ](/cpp/data/data-access-in-cpp)합니다.
 
-REST 서비스를 사용 하는 c + + 프로그램에서 사용할 수는 [c + + REST SDK](https://github.com/Microsoft/cpprestsdk)합니다.
+C++REST 서비스를 사용 하는 프로그램에서 사용할 수는 [ C++ REST SDK](https://github.com/Microsoft/cpprestsdk)합니다.
 
-Microsoft Azure Storage를 사용 하는 c + + 프로그램에서 사용할 수는 [Microsoft Azure Storage 클라이언트](https://www.nuget.org/packages/Microsoft.Azure.Storage.CPP)합니다.
+C++Microsoft Azure Storage를 사용 하는 프로그램에서 사용할 수는 [Microsoft Azure Storage 클라이언트](https://www.nuget.org/packages/Microsoft.Azure.Storage.CPP)합니다.
 
-데이터 모델링&mdash;Visual Studio c + + 용 ORM 계층을 제공 하지 않습니다. [ODB](https://www.codesynthesis.com/products/odb/) c + +는 인기 있는 오픈 소스 ORM입니다.
+데이터 모델링&mdash;Visual Studio에 대 한 ORM 계층을 제공 하지 않습니다 C++합니다. [ODB](https://www.codesynthesis.com/products/odb/) 되는 인기 있는 오픈 소스 ORM에 대 한 C++합니다.
 
-C + + 앱에서 데이터베이스에 연결 하는 방법에 대 한 자세한 내용은 참조 하세요 [c + + 용 Visual Studio data tools](../data-tools/visual-studio-data-tools-for-cpp.md)합니다. 레거시 Visual c + + 데이터 액세스 기술에 대 한 자세한 내용은 참조 하세요. [데이터 액세스](/cpp/data/data-access-in-cpp)합니다.
+데이터베이스에 연결 하는 방법에 대 한 자세한 내용을 보려면 C++ 앱을 참조 하세요 [Visual Studio 데이터 도구에 대 한 C++ ](../data-tools/visual-studio-data-tools-for-cpp.md)합니다. 레거시 시각적 개체에 대 한 자세한 내용은 C++ 데이터 액세스 기술 참조 [데이터 액세스](/cpp/data/data-access-in-cpp)합니다.
 
 ## <a name="javascript"></a>JavaScript
 
@@ -150,7 +150,7 @@ C + + 앱에서 데이터베이스에 연결 하는 방법에 대 한 자세한 
 
 [Office 솔루션의 데이터](../vsto/data-in-office-solutions.md)&mdash;Office 솔루션에서 데이터가 작동 하는 방법을 설명 하는 항목에 대 한 링크를 포함 합니다. 스키마 지향 프로그래밍, 데이터 캐싱 및 서버 쪽 데이터 액세스에 대 한 정보가 포함 됩니다.
 
-[LINQ (Language-Integrated Query)](/dotnet/csharp/linq/)&mdash;에 기본 제공 쿼리 기능을 설명 합니다 C# Visual Basic 및 관계형 데이터베이스, XML 문서, 데이터 집합 및 메모리 내 컬렉션을 쿼리 하기 위한 일반적인 모델입니다.
+[LINQ (Language-Integrated Query)](/dotnet/csharp/linq/)&mdash;C# 및 Visual Basic 및 관계형 데이터베이스, XML 문서, 데이터 집합 및 메모리 내 컬렉션을 쿼리 하기 위한 일반적인 모델에 기본 제공 쿼리 기능을 설명 합니다.
 
 [Visual Studio의 XML 도구](../xml-tools/xml-tools-in-visual-studio.md)&mdash;XML 데이터를 XSLT 디버깅,.NET Framework XML 기능을 사용 하 여 작업 및 XML 쿼리 아키텍처에 설명 합니다.
 

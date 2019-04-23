@@ -16,17 +16,16 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2b81d4f2341f9ddca3468bd77f0f79940dba3d29
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d42495542f96a4ae4918d9d6477f0877979871d2
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54755008"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655896"
 ---
 # <a name="options-text-editor-file-extension"></a>옵션, 텍스트 편집기, 파일 확장명
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 이 [옵션] 대화 상자에서는 특정 파일 확장명을 가진 모든 파일이 Visual Studio IDE(통합 개발 환경)에서 처리되는 방법을 지정할 수 있습니다. 입력하는 각 **확장명**에 대해 편집 환경을 선택할 수 있습니다. 이렇게 하면 특정 형식의 문서가 열리는 IDE 편집기 또는 디자이너를 선택할 수 있습니다. 이러한 옵션을 표시하려면 **도구** 메뉴에서 **옵션**을 선택하고, **텍스트 편집기** 노드를 확장하고, **파일 확장명**을 선택합니다.  
   
  “인코딩 사용” 옵션을 선택하면 해당 형식의 문서를 열 때마다 해당 문서에 대한 인코딩 체계를 선택할 수 있는 대화 상자가 표시됩니다. 다양한 플랫폼에서 또는 다양한 대상 언어로 사용할 프로젝트 문서 버전을 준비 중이라면 이 대화 상자가 유용할 수 있습니다.  

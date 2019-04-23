@@ -14,17 +14,16 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dc35def483b80610b9480dfd57320712d75fe0eb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: b78e70ae790a39cb761eca34dcdc2b9b32b5bbfd
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982238"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653634"
 ---
 # <a name="create-a-sql-database-by-using-a-script"></a>스크립트를 사용 하 여 SQL database 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 이 연습에서는 샘플 코드를 포함 하는 작은 데이터베이스를 만들려면 Visual Studio 사용 [ADO.NET을 사용 하 여 간단한 데이터 응용 프로그램을 만들](../data-tools/create-a-simple-data-application-by-using-adonet.md)합니다.  
   
  **항목 내용**  

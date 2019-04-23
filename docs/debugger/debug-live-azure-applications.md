@@ -12,12 +12,12 @@ manager: jillfra
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: f9a170cec2d41a779ecdecc1f2be408d485b3a63
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: f3dbd175ef5575375c314b942fedff9f77403265
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857478"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59656442"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그
 
@@ -34,9 +34,14 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
 ## <a name="prerequisites"></a>전제 조건
 
-* 스냅숏 디버거는 **Azure 개발 워크로드**가 포함된 Visual Studio 2017 Enterprise 버전 15.5 이상에서만 사용할 수 있습니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅숏 디버거**에서 찾을 수 있습니다.)
+* 스냅숏 디버거는 Visual Studio 2017 Enterprise 버전 15.5 이상부터 사용할 수 있습니다만 합니다 **Azure 개발 워크 로드**합니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅숏 디버거**에서 찾을 수 있습니다.)
 
-    아직 설치되지 않은 경우 [Visual Studio 2017 Enterprise 버전 15.5](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 이상을 설치하세요. 이전 Visual Studio 2017 설치에서 업데이트하는 경우 Visual Studio 설치 관리자를 실행하고 **ASP.NET 및 웹 개발 워크로드**에서 스냅숏 디버거 구성 요소를 선택하세요.
+    ::: moniker range=">=vs-2019"
+    설치 되어 있지 않은 경우 설치할 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)합니다. 이전 Visual Studio 설치에서 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 스냅숏 디버거 구성 요소를 확인 합니다 **ASP.NET 및 웹 개발 워크 로드**합니다.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    아직 설치되지 않은 경우 [Visual Studio 2017 Enterprise 버전 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 이상을 설치하세요. 이전 Visual Studio 2017 설치에서 업데이트하는 경우 Visual Studio 설치 관리자를 실행하고 **ASP.NET 및 웹 개발 워크로드**에서 스냅숏 디버거 구성 요소를 선택하세요.
+    ::: moniker-end
 
 * 기본 이상의 Azure App Service 계획이 있어야 합니다.
 
@@ -112,7 +117,7 @@ snappoint를 켜면 snappoint가 배치된 코드 줄이 실행될 때마다 스
 
 앱에 snappoint를 더 추가하고 **컬렉션 업데이트** 단추로 켤 수도 있습니다.
 
-**도움이 필요하십니까?** [문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)와 [스냅숏 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md) 페이지를 참조하세요.
+**도움이 필요하세요?** [문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)와 [스냅숏 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md) 페이지를 참조하세요.
 
 ## <a name="set-a-conditional-snappoint"></a>조건부 snappoint 설정
 

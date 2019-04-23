@@ -30,17 +30,16 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b0c4a353923bbf5d98bd2ef4fcb3c5fe28447fe8
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 632c3027ccb8019e372abd6400dd3f2333742e05
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54773338"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59658108"
 ---
 # <a name="project-and-solution-file-types"></a>프로젝트 및 솔루션 파일 형식
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서는 다양한 파일 형식을 지원합니다. 특정 설치에서는 설치된 구성 요소에 따라 지원되는 파일 형식이 결정됩니다. 이 항목에서는 일반적인 설치에서 지원되는 솔루션 및 프로젝트 파일 형식을 소개합니다. 기타 파일 형식에 대한 정보는 각 형식의 파일 이름 확장명을 사용하여 검색하세요.  
   
 ## <a name="solution-files-sln-and-suo"></a>솔루션 파일(.sln 및 .suo)  

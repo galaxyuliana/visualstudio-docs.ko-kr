@@ -9,17 +9,16 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c9696d41b228cedb301239ebcd59cb68bc7e437f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: df23a6e2a4288c6370a339d37d151283fe3afa8f
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971334"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655558"
 ---
 # <a name="one-or-more-selected-database-objects-return-a-schema-that-does-not-match-the-schema-of-the-target-class"></a>선택한 데이터베이스 개체 중 하나 이상이 대상 클래스의 스키마와 일치하지 않는 스키마를 반환합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 선택한 하나 이상의 데이터베이스 개체에서 대상 데이터 클래스 스키마와 일치하지 않는 스키마를 반환합니다. 디자이너에 아무 것도 추가되지 않았습니다.  
   
  데이터베이스 개체를 기존 엔터티 클래스로 끌어 오면 데이터베이스 개체에서 반환된 데이터는 대상 엔터티 클래스의 스키마와 일치해야 합니다. 올바른 데이터베이스 개체를 선택했는지, 그리고 올바른 엔터티 클래스를 대상으로 했는지 확인하세요.  

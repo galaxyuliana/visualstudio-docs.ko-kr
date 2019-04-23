@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b834ce2b76d9c73fc5247da3402003b766dd9d87
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 85c3e70fd1d88bfa82d1aa55fe27505414986415
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597799"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654089"
 ---
 # <a name="server-and-client-configuration-issues-in-clickonce-deployments"></a>ClickOnce 배포 시 서버 및 클라이언트 구성 문제
 인터넷 정보 서비스 (IIS)를 사용 하 여 Windows Server에서 배포에는 Windows에서 인식 하지 못하는 파일 형식을 포함 하 고 Microsoft Word 파일을 같은 IIS는 해당 파일을 전송할 거부 하 고 배포에 실패 합니다.
@@ -94,7 +94,6 @@ ms.locfileid: "56597799"
 ## <a name="ftp-protocol-not-supported-for-installing-applications"></a>응용 프로그램을 설치 하는 것에 대 한 지원 되지 않는 프로토콜 FTP
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] HTTP 1.1 웹 서버나 파일 서버에서 응용 프로그램을 설치 하도록 지원 합니다. 응용 프로그램을 설치 하는 것에 대 한 FTP (파일 전송 프로토콜) 지원 되지 않습니다. 응용 프로그램에만 게시에 FTP를 사용할 수 있습니다. 다음 표에서 이러한 차이점을 보여 줍니다.
 
-
 | URL 형식 | 설명 |
 |----------| - |
 | ftp:// | 게시할 수는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 이 프로토콜을 사용 하 여 응용 프로그램입니다. |
@@ -105,12 +104,12 @@ ms.locfileid: "56597799"
 ## <a name="windows-xp-sp2-windows-firewall"></a>Windows XP SP2: Windows 방화벽
  기본적으로 Windows XP SP2에는 Windows 방화벽을 사용 합니다. 게시 및 실행 수는 Windows XP가 설치 된 컴퓨터에서 응용 프로그램을 개발 하는 경우 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] IIS를 실행 하는 로컬 서버에서 응용 프로그램입니다. 그러나 Windows 방화벽을 열지 않으면 다른 컴퓨터에서 IIS를 실행 중인 해당 서버를 액세스할 수 없습니다. Windows 방화벽을 관리 하는 방법은 Windows 도움말을 참조 하세요.
 
-## <a name="windows-server-enable-frontpage-server-extensions"></a>Windows Server: FrontPage server extensions를 사용 하도록 설정
+## <a name="windows-server-enable-frontpage-server-extensions"></a>Windows Server FrontPage server extensions를 사용 하도록 설정
  Microsoft의 FrontPage Server Extensions가 HTTP를 사용 하는 Windows 웹 서버에 대 한 응용 프로그램 게시 필요 합니다.
 
  기본적으로 Windows 서버 없는 FrontPage Server Extensions를 설치 합니다. 사용 하려는 경우 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] FrontPage Server Extensions를 사용 하 여 HTTP를 사용 하는 Windows Server 웹 서버에 게시 하려면 FrontPage Server Extensions를 먼저 설치 해야 합니다. Windows Server에서 사용자 서버 관리 관리 도구를 사용 하 여 설치를 수행할 수 있습니다.
 
-## <a name="windows-server-locked-down-content-types"></a>Windows Server: 잠긴 콘텐츠 형식
+## <a name="windows-server-locked-down-content-types"></a>Windows Server 잠긴 콘텐츠 형식
  IIS [!INCLUDE[WinXPSvr](../debugger/includes/winxpsvr_md.md)] 잠급니다 알려진된 특정 콘텐츠 형식 제외 하 고 모든 파일 형식 (예를 들어 *.htm*, *.html*를 *.txt*등). 배포를 사용 하도록 설정 하려면 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 형식의 파일을 다운로드할 수 있도록 IIS 설정을 변경 해야 하는이 서버를 사용 하 여 응용 프로그램 *.application*를 *.manifest*, 및 기타 사용자 지정 파일 형식 응용 프로그램에서 사용 합니다.
 
  IIS 서버를 사용 하 여 배포 하는 경우 실행할 *inetmgr.exe* 하 고 기본 웹 페이지에 대 한 새 파일 형식을 추가 합니다.
@@ -133,7 +132,7 @@ ms.locfileid: "56597799"
 
  IIS에 대 한 자세한 내용은 참조 하세요. [HTTP 압축에 대 한 추가 문서 유형을 지정 하는 방법을](http://go.microsoft.com/fwlink/?LinkId=178459)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)
 - [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)
 - [애플리케이션 배포 필수 구성 요소](../deployment/application-deployment-prerequisites.md)

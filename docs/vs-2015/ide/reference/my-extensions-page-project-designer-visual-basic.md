@@ -14,17 +14,16 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 65925a0ee6b7247ecd85f9db9536ff8519a01a33
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: a9c21bb50c9e97ed6a5daee713882f1d25456202
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54803164"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59660998"
 ---
 # <a name="my-extensions-page-project-designer-visual-basic"></a>프로젝트 디자이너, My 확장 페이지(Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **프로젝트 디자이너**의 **내 확장** 페이지를 사용하여 프로젝트에서 `My` 네임스페이스 확장을 관리합니다. `My` 네임스페이스 확장을 사용하면 `My` 네임스페이스를 사용자 지정하여 고유한 사용자 지정 멤버를 추가할 수 있습니다. 사용자 지정 `My` 네임스페이스 확장을 만드는 방법에 대한 내용은 [Visual Basic에서 내 네임스페이스 확장](http://msdn.microsoft.com/library/808e8617-b01c-4135-8b21-babe87389e8e)을 참조하세요.  
   
  **내 확장** 페이지에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드의 **내 프로젝트**를 두 번 클릭합니다. **프로젝트 디자이너**가 나타나면 **내 확장** 탭을 클릭합니다.  

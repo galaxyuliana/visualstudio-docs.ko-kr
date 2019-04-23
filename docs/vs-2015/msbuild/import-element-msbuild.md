@@ -19,17 +19,16 @@ caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b7aee698498fa59c4dc6fee66f89b496f8b21f34
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: f7e119eccb31774bc5b300bf9608cb2e23eb83d7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54804042"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654297"
 ---
 # <a name="import-element-msbuild"></a>Import 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 한 프로젝트 파일의 내용을 다른 프로젝트 파일로 가져옵니다.  
   
  \<Project>  
@@ -62,7 +61,7 @@ ms.locfileid: "54804042"
 |[프로젝트](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일의 필수 루트 요소입니다.|  
 |[ImportGroup](../msbuild/importgroup-element.md)|선택적인 조건으로 그룹화된 `Import` 요소의 컬렉션을 포함합니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  `Import` 요소를 사용하면 여러 프로젝트 파일에 공통된 코드를 다시 사용할 수 있습니다. 이렇게 하면 공유 코드에 대한 업데이트가 그것을 가져오는 모든 프로젝트에 전파되므로 코드를 더 쉽게 유지 관리할 수 있습니다.  
   
  규칙에 따라, 가져온 공유 프로젝트 파일은 .targets 파일로 저장되지만, 실제로는 표준 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일입니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 다른 파일 이름 확장명을 가진 프로젝트를 가져오는 것이 금지되지 않지만, 일관성을 위해 .targets 확장명을 사용할 것을 권장합니다.  
@@ -89,7 +88,7 @@ ms.locfileid: "54804042"
 <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\$(MSBuildThisFile)\ImportBefore\*" Condition="'$(ImportByWildcardBeforeMicrosoftCommonTargets)' == 'true' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\$(MSBuildThisFile)\ImportBefore')"/>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 여러 항목과 속성이 있는 프로젝트를 보여주고 일반 프로젝트 파일을 가져옵니다.  
   
 ```  

@@ -16,17 +16,16 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: dfc0c8eca387c2405881334670a51ee5d08685e5
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 8e36d5e50b15a5ede425715ec756f05ab8d014de
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54796879"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59655818"
 ---
 # <a name="common-msbuild-project-items"></a>일반적인 MSBuild 프로젝트 항목
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 항목은 하나 이상의 파일에 대한 명명된 참조입니다. 항목에는 파일 이름, 경로 및 버전 번호와 같은 메타데이터가 포함됩니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 모든 프로젝트 형식에는 공통된 여러 항목이 있습니다. 이러한 항목은 파일 microsoft.build.commontypes.xsd에 정의되어 있습니다.  
   
 ## <a name="common-items"></a>공통 항목  
@@ -90,7 +89,7 @@ ms.locfileid: "54796879"
 |AutoGen|선택적 부울입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE(통합 개발 환경)에서 프로젝트를 위해 해당 파일이 생성되었는지 여부를 나타냅니다.|  
 |링크|선택적 문자열입니다. 파일이 물리적으로 프로젝트 파일의 영향 범위 밖에 있을 때 표시할 표기 경로입니다.|  
 |표시|선택적 부울입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **솔루션 탐색기**에 파일을 표시할지 여부를 나타냅니다.|  
-|CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest|  
+|CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest|  
   
 ### <a name="embeddedresource"></a>EmbeddedResource  
  생성된 어셈블리에 포함될 리소스를 나타냅니다.  
@@ -103,7 +102,7 @@ ms.locfileid: "54796879"
 |CustomToolNamespace|필수 문자열입니다. 이 항목에서 실행되는 모든 파일 생성기가 코드를 만들어야 하는 네임스페이스입니다.|  
 |링크|선택적 문자열입니다. 파일이 물리적으로 프로젝트의 영향 범위 밖에 있을 때 이 표기 경로가 표시됩니다.|  
 |표시|선택적 부울입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **솔루션 탐색기**에 파일을 표시할지 여부를 나타냅니다.|  
-|CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest|  
+|CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest|  
 |LogicalName|필수 문자열입니다. 포함된 리소스의 논리적 이름입니다.|  
   
 ### <a name="content"></a>콘텐츠  
@@ -119,7 +118,7 @@ ms.locfileid: "54796879"
 |PublishState|필수 문자열입니다. 콘텐츠의 게시 상태로 다음 중 하나입니다.<br /><br /> -   기본값<br />-   포함됨<br />-   제외됨<br />-   DataFile<br />-   필수 조건|  
 |IsAssembly|선택적 부울입니다. 파일이 어셈블리인지 여부를 지정합니다.|  
 |표시|선택적 부울입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **솔루션 탐색기**에 파일을 표시할지 여부를 나타냅니다.|  
-|CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest|  
+|CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest|  
   
 ### <a name="none"></a>없음  
  빌드 프로세스에서 역할이 없는 파일을 나타냅니다.  
@@ -132,7 +131,7 @@ ms.locfileid: "54796879"
 |CustomToolNamespace|필수 문자열입니다. 이 항목에서 실행되는 모든 파일 생성기가 코드를 만들어야 하는 네임스페이스입니다.|  
 |링크|선택적 문자열입니다. 파일이 물리적으로 프로젝트의 영향 범위 밖에 있을 때 표시될 표기 경로입니다.|  
 |표시|선택적 부울입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **솔루션 탐색기**에 파일을 표시할지 여부를 나타냅니다.|  
-|CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest|  
+|CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest|  
   
 ### <a name="baseapplicationmanifest"></a>BaseApplicationManifest  
  빌드에 대한 기본 응용 프로그램 매니페스트를 나타내며 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 보안 정보를 포함합니다.  

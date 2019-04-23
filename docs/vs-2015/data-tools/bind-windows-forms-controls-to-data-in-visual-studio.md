@@ -23,16 +23,15 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c00435dab8c8f5e6379979a4eb1ada36033dc01e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 866b2b824735ed96615880350343d17adfeecefc
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984224"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653998"
 ---
 # <a name="bind-windows-forms-controls-to-data-in-visual-studio"></a>Windows Forms 컨트롤을 Visual Studio의 데이터에 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 Windows Forms에 데이터를 바인딩하여 응용 프로그램의 사용자에 게 데이터를 표시할 수 있습니다. 이러한 데이터 바인딩된 컨트롤을 만들려면에서 항목을 이동할 수는 **데이터 원본** Visual Studio에서 Windows Forms 디자이너 창. 이 항목에서는 가장 일반적인 작업, 도구 및 데이터 바인딩된 Windows Forms 응용 프로그램을 만드는 데 관련 된 클래스의 일부를 설명 합니다.
 

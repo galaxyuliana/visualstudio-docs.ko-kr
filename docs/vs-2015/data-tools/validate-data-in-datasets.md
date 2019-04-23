@@ -24,17 +24,16 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1740e9d7668101911862c91457a2c81c48f7b72d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 73eb1162411800a951566c9eb14928875966cfb7
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984772"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661323"
 ---
 # <a name="validate-data-in-datasets"></a>데이터 세트의 데이터 유효성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 데이터 유효성 검사는 데이터 집합의 스키마 내에서 제약 조건에 따르는 데이터 개체에 입력할 값 확인 프로세스. 유효성 검사 프로세스는 또한 이러한 값은 다음과 같습니다 응용 프로그램에 대해 설정 된 규칙을 확인 합니다. 기본 데이터베이스에 업데이트를 보내기 전에 데이터의 유효성을 검사 하는 것이 좋습니다. 이렇게 하면 오류 뿐 아니라 잠재적인 응용 프로그램와 데이터베이스 간의 왕복 수가 줄어듭니다.  
   
  자체 데이터 집합에 유효성 검사를 구축 하 여 데이터 집합에 기록 되는 데이터가 유효한 지 확인할 수 있습니다. 데이터 집합 업데이트 수행 방법에 관계 없이 데이터를 확인할 수 있습니다-구성 요소 내에서 양식 또는 다른 방법으로 컨트롤에서 직접 여부. 데이터 집합 (달리 데이터베이스 백 엔드) 응용 프로그램의 일부 이기 때문에 빌드 응용 프로그램별 유효성 검사 논리 마련 된 공간입니다.  

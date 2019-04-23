@@ -9,17 +9,16 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2fc172e9ed91a354918fd536060f97fcbb259a94
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: afc99ba7d5b7a6b5cf9fc0e610160213dec5d2e8
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980652"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654505"
 ---
 # <a name="install-sql-server-sample-databases"></a>SQL Server 예제 데이터베이스 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 예제 데이터베이스는 SQL 및 LINQ 쿼리, 데이터 바인딩, Entity Framework 모델링 및 등을 사용 하 여 실험에 대 한 유용 합니다.  각 데이터베이스 제품 예제 데이터베이스 자체에 있습니다. Northwind 및 AdventureWorks는 두 가지 인기 있는 SQL Server 샘플 데이터베이스입니다.  
   
  **AdventureWorks** 현재 샘플 데이터베이스인 SQL Server 제품에 제공 합니다. .mdf 파일로 다운로드할 수 있습니다 합니다 [Codeplex의 AdventureWorks 페이지](http://msftdbprodsamples.codeplex.com/)합니다. 일반 및 간단한 (LT) 버전 가지가 데이터베이스의 사용 가능한 여기 있습니다. 대부분의 시나리오에서 LT 버전은 덜 복잡 한 이기 때문에 기본 설정입니다.  

@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2e9f75cfd94ccbf4262771f6278b429006eba939
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
-ms.translationtype: MT
+ms.openlocfilehash: ddc6849aa5c0dec07fc7dbdd08a950809624015d
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324070"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59661222"
 ---
 # <a name="create-a-software-development-kit"></a>소프트웨어 개발 키트 만들기
 소프트웨어 개발 키트 (SDK)은 Visual Studio에서 단일 항목으로 참조할 수 있는 Api 컬렉션입니다. 합니다 **참조 관리자** 대화 상자는 프로젝트에 관련 된 모든 Sdk를 나열 합니다. 프로젝트에 SDK를 추가 하면 Api는 Visual Studio에서 사용할 수 있습니다.
@@ -49,7 +49,6 @@ ms.locfileid: "58324070"
                   \[config]
                         \[arch]
 ```
-
 
 | 노드 | 설명 |
 |------------------------| - |
@@ -168,7 +167,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
 
 5. MinVSVersion: 최소 Visual Studio 버전입니다.
 
-6. MaxPlatformVerson: 최대 대상 플랫폼 버전 확장 SDK가 작동 하지는 플랫폼 버전을 지정 하는 것 같습니다. 예를 들어, Microsoft Visual c + + 런타임 패키지 v11.0만 Windows 8 프로젝트에서 참조 해야 합니다. 따라서 Windows 8 프로젝트의 MaxPlatformVersion 8.0입니다. 즉, Windows 8.1 프로젝트의 경우 필터링 된 Microsoft Visual c + + 런타임 패키지 참조 관리자 오류를 throw 하는 MSBuild 때를 [!INCLUDE[win81](../debugger/includes/win81_md.md)] 프로젝트에서 참조 합니다. 참고:이 요소는 지원부터 [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]합니다.
+6. MaxPlatformVerson: 최대 대상 플랫폼 버전 확장 SDK가 작동 하지는 플랫폼 버전을 지정 하는 것 같습니다. Microsoft Visual 예를 들어, C++ 런타임 패키지 v11.0만 Windows 8 프로젝트에서 참조 해야 합니다. 따라서 Windows 8 프로젝트의 MaxPlatformVersion 8.0입니다. 즉, Microsoft Visual 필터링 참조 관리자 C++ Windows 8.1 프로젝트의 경우 런타임 패키지 및 MSBuild 오류를 throw 경우는 [!INCLUDE[win81](../debugger/includes/win81_md.md)] 프로젝트에서 참조 합니다. 참고:이 요소는 지원부터 [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]합니다.
 
 7. AppliesTo: 적용 되는 Visual Studio 프로젝트 유형을 지정 하 여 참조 관리자에서 사용할 수 있는 Sdk를 지정 합니다. 9 개의 값이 인식 됩니다. WindowsAppContainer VisualC, VB, CSharp, WindowsXAML, JavaScript, 관리 및 네이티브 합니다. SDK 작성자가 사용할 수 있습니다 하 고 ("+'), 또는 ("&#124;")가 아닌 ("! ") 정확 하 게 SDK에 적용 되는 프로젝트 형식의 범위를 지정 하는 연산자입니다.
 
@@ -264,6 +263,6 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     ```
 
 ## <a name="see-also"></a>참고자료
-- [연습: C + +를 사용 하 여 SDK 만들기](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
+- [연습: 사용 하 여 SDK 만들기C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
 - [연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
 - [프로젝트에서 참조 관리](../ide/managing-references-in-a-project.md)

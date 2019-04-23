@@ -21,17 +21,16 @@ caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c3e6a888a5f904c194bcdb6f5c844dbed3084449
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 85c5cef12ed92cbd37b303aa7bd1e23cbced76ae
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54754973"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59653868"
 ---
 # <a name="devenv-command-line-switches"></a>Devenv 명령줄 스위치
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Devenv를 사용하면 IDE(통합 개발 환경)에 대한 다양한 옵션을 설정하고 명령줄에서 프로젝트를 빌드, 디버그 및 배포할 수도 있습니다. 이러한 스위치를 사용하여 스크립트 또는 .bat 파일(예: 야간 빌드 스크립트)에서 IDE를 실행하거나 특정 구성으로 IDE를 시작할 수 있습니다.  
   
 > [!NOTE]
