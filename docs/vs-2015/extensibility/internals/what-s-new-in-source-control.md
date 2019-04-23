@@ -11,12 +11,12 @@ ms.assetid: bcf85418-18fb-4824-9dae-d14bf3d56a77
 caps.latest.revision: 28
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 27623c22664e9d3c6b651615465e6abe812ea408
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 31b55c57f47f25814eff24f13bcf91408468d0f4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002608"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087321"
 ---
 # <a name="what39s-new-in-source-control-in-visual-studio-2015"></a>새로운&#39;Visual Studio 2015에서 소스 제어 기능
 
@@ -33,17 +33,17 @@ ms.locfileid: "59002608"
   
  다음 단계를 소스 제어 패키지를 구현 하는 데 필요한 사항을의 일반적인 개요를 제공 합니다. 자세한 내용은 참조 하세요 [소스 제어 VSPackage를 만드는](../../extensibility/internals/creating-a-source-control-vspackage.md)합니다.  
   
-1.  개인 원본 제어 서비스 proffers 된 VSPackage를 만듭니다.  
+1. 개인 원본 제어 서비스 proffers 된 VSPackage를 만듭니다.  
   
-2.  제공 되는 원본 제어와 관련 된 서비스에서 인터페이스를 구현할 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (예를 들어 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider> 인터페이스).  
+2. 제공 되는 원본 제어와 관련 된 서비스에서 인터페이스를 구현할 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (예를 들어 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider> 인터페이스).  
   
-3.  소스 제어 VSPackage를 등록 합니다.  
+3. 소스 제어 VSPackage를 등록 합니다.  
   
-4.  모든 소스 제어 메뉴 항목, 대화 상자, 도구 모음 및 상황에 맞는 메뉴를 포함 하 여 UI를 구현 합니다.  
+4. 모든 소스 제어 메뉴 항목, 대화 상자, 도구 모음 및 상황에 맞는 메뉴를 포함 하 여 UI를 구현 합니다.  
   
-5.  모든 소스 제어와 관련 된 이벤트 이며 VSPackage에서 처리 해야 하는 경우 소스 제어 VSackage 전달 됩니다.  
+5. 모든 소스 제어와 관련 된 이벤트 이며 VSPackage에서 처리 해야 하는 경우 소스 제어 VSackage 전달 됩니다.  
   
-6.  소스 제어 VSPackage 구현 같은 이벤트를 수신 해야 합니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> Track 프로젝트 문서 TPD () 이벤트 뿐만 아니라 인터페이스 (구현 되는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> 인터페이스) 필요한 조치를 취합니다.  
+6. 소스 제어 VSPackage 구현 같은 이벤트를 수신 해야 합니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> Track 프로젝트 문서 TPD () 이벤트 뿐만 아니라 인터페이스 (구현 되는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> 인터페이스) 필요한 조치를 취합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>   

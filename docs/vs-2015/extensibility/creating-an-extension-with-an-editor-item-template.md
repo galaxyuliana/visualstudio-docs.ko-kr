@@ -10,12 +10,12 @@ ms.assetid: fa3b993b-ab95-47fa-a38b-b788f3a5b2d8
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5c98adbd9b08447ef7b599b00c70d94d2b49050c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 56d9ea80054ec3732f62f70a582b95da32fdbe9c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984810"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086717"
 ---
 # <a name="creating-an-extension-with-an-editor-item-template"></a>편집기 항목 템플릿을 사용하여 확장 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,38 +28,38 @@ ms.locfileid: "58984810"
 ## <a name="creating-a-classifier-extension"></a>분류자 확장명 만들기  
  편집기 분류자 항목 템플릿은 적절 한 텍스트 색 편집기 분류자를 만듭니다 (이 경우 모든) 텍스트 파일에서입니다.  
   
-1.  에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `TestClassifier`을 입력합니다. **확인**을 클릭합니다.  
+1. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `TestClassifier`을 입력합니다. **확인**을 클릭합니다.  
   
-2.  에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **편집기 분류자**합니다. 기본 파일 이름 (EditorClassifier1.cs)을 그대로 둡니다.  
+2. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **편집기 분류자**합니다. 기본 파일 이름 (EditorClassifier1.cs)을 그대로 둡니다.  
   
-3.  세 개의 코드 파일이 있는, 다음과 같습니다.  
+3. 세 개의 코드 파일이 있는, 다음과 같습니다.  
   
-    -   EditorClassifier1.cs 포함 된 `EditorClassifier1` 클래스입니다.  
+    - EditorClassifier1.cs 포함 된 `EditorClassifier1` 클래스입니다.  
   
-    -   EditorClassifier1ClassificationDefinition.cs 포함 된 `OEditorClassifier1ClassificationDefinition` 클래스입니다.  
+    - EditorClassifier1ClassificationDefinition.cs 포함 된 `OEditorClassifier1ClassificationDefinition` 클래스입니다.  
   
-    -   EditorClassifier1Format.cs 포함 된 `EditorClassifier1Format` 클래스입니다.  
+    - EditorClassifier1Format.cs 포함 된 `EditorClassifier1Format` 클래스입니다.  
   
-    -   EditorClassifier1Provider.cs 포함 된 `EditorClassifier1Provider` 클래스입니다.  
+    - EditorClassifier1Provider.cs 포함 된 `EditorClassifier1Provider` 클래스입니다.  
   
-4.  프로젝트를 빌드하고 디버깅을 시작합니다. Visual Studio의 실험적 인스턴스가 표시 됩니다.  
+4. 프로젝트를 빌드하고 디버깅을 시작합니다. Visual Studio의 실험적 인스턴스가 표시 됩니다.  
   
      텍스트 파일을 열면 모든 텍스트는 보라색 배경과 밑줄이 표시 됩니다.  
   
 ## <a name="creating-a-text-relative-adornment-extension"></a>텍스트에 상대적인 Adornment 확장명 만들기  
  편집기 텍스트 장식 템플릿은 만듭니다 텍스트 문자의 모든 인스턴스를 데코레이팅하는 텍스트에 상대적인 adornment 파란색 배경 및 빨간 윤곽선이 있는 상자를 사용 하 여 ' a'입니다. 텍스트에 상대적인 것 때문에 상자를 'a' 문자를 이동 하거나 다시 포맷 하는 경우에 항상 오버레이 합니다.  
   
-1.  에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `TestAdornment`을 입력합니다. **확인**을 클릭합니다.  
+1. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `TestAdornment`을 입력합니다. **확인**을 클릭합니다.  
   
-2.  에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **편집기 텍스트 장식**합니다. 기본 파일 이름 (TextAdornment1.cs/vb)을 그대로 둡니다.  
+2. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **편집기 텍스트 장식**합니다. 기본 파일 이름 (TextAdornment1.cs/vb)을 그대로 둡니다.  
   
-3.  두 코드 파일은 다음과 같습니다.  
+3. 두 코드 파일은 다음과 같습니다.  
   
-    -   TextAdornment1.cs 포함 된 `TextAdornment1` 클래스입니다.  
+    - TextAdornment1.cs 포함 된 `TextAdornment1` 클래스입니다.  
   
-    -   extAdornment1TextViewCreationListener.cs 포함 된 `TextAdornment1TextViewCreationListener` 클래스입니다.  
+    - extAdornment1TextViewCreationListener.cs 포함 된 `TextAdornment1TextViewCreationListener` 클래스입니다.  
   
-4.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다. 텍스트 파일을 열면 텍스트 'a' 문자는 파란색 배경의 대해 빨간색 요약 되어 있습니다.  
+4. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다. 텍스트 파일을 열면 텍스트 'a' 문자는 파란색 배경의 대해 빨간색 요약 되어 있습니다.  
   
 ## <a name="creating-a-viewport-relative-adornment-extension"></a>뷰포트에 상대적인 Adornment 확장명 만들기  
  편집기 뷰포트 Adornment 템플릿은 뷰포트의 오른쪽 위 모서리에 빨간색 윤곽선이 있는 보라색 상자를 추가 하는 상대 뷰포트 adornment를 만듭니다.  
@@ -69,34 +69,34 @@ ms.locfileid: "58984810"
   
 #### <a name="to-create-a-viewport-adornment-extension-by-using-the-editor-viewport-adornment-template"></a>편집기 뷰포트 Adornment 템플릿을 사용 하 여 뷰포트 adornment 확장 프로그램을 만들려면  
   
-1.  에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `ViewportAdornment`을 입력합니다. **확인**을 클릭합니다.  
+1. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `ViewportAdornment`을 입력합니다. **확인**을 클릭합니다.  
   
-2.  에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **편집기 뷰포트 Adornment**합니다. 기본 파일 이름 (ViewportAdornment1.cs/vb)을 그대로 둡니다.  
+2. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **편집기 뷰포트 Adornment**합니다. 기본 파일 이름 (ViewportAdornment1.cs/vb)을 그대로 둡니다.  
   
-3.  두 코드 파일은 다음과 같습니다.  
+3. 두 코드 파일은 다음과 같습니다.  
   
-    -   ViewportAdornment1.cs 포함 된 `ViewportAdornment1` 클래스입니다.  
+    - ViewportAdornment1.cs 포함 된 `ViewportAdornment1` 클래스입니다.  
   
-    -   ViewportAdornment1TextViewCreationListener.cs 포함 된 `ViewportAdornment1TextViewCreationListener` 클래스  
+    - ViewportAdornment1TextViewCreationListener.cs 포함 된 `ViewportAdornment1TextViewCreationListener` 클래스  
   
-4.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다. 새 텍스트 파일을 만든 경우 뷰포트의 오른쪽 위 모서리에 빨간색 윤곽선이 있는 보라색 상자가 표시 됩니다.  
+4. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다. 새 텍스트 파일을 만든 경우 뷰포트의 오른쪽 위 모서리에 빨간색 윤곽선이 있는 보라색 상자가 표시 됩니다.  
   
 ## <a name="creating-a-margin-extension"></a>여백 확장 만들기  
  편집기 여백 템플릿은 만듭니다 "Hello world!" 단어와 함께 표시 되는 녹색 여백 가로 스크롤 막대 아래.  
   
 #### <a name="to-create-a-margin-extension-by-using-the-editor-margin-template"></a>편집기 여백 템플릿을 사용 하 여 여백 확장 프로그램을 만들려면  
   
-1.  에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `MarginExtension`을 입력합니다. **확인**을 클릭합니다.  
+1. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 을 클릭 한 다음 **확장성**합니다. 에 **템플릿을** 창 **VSIX 프로젝트**합니다. **이름** 상자에 `MarginExtension`을 입력합니다. **확인**을 클릭합니다.  
   
-2.  에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **편집기 뷰포트 Adornment**합니다. 기본 파일 이름 (EditorMargin1.cs/vb)을 그대로 둡니다.  
+2. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 이동 하 여 Visual C# **확장성** 노드와 선택 **편집기 뷰포트 Adornment**합니다. 기본 파일 이름 (EditorMargin1.cs/vb)을 그대로 둡니다.  
   
-3.  두 코드 파일은 다음과 같습니다.  
+3. 두 코드 파일은 다음과 같습니다.  
   
-    -   EditorMargin1.cs 포함 된 `EditorMargin1` 클래스입니다.  
+    - EditorMargin1.cs 포함 된 `EditorMargin1` 클래스입니다.  
   
-    -   EditorMargin1Factory.cs 포함 된 `EditorMargin1Factory` 클래스입니다.  
+    - EditorMargin1Factory.cs 포함 된 `EditorMargin1Factory` 클래스입니다.  
   
-4.  이 프로젝트를 빌드하고 디버깅을 시작 합니다. 실험적 인스턴스가 표시 됩니다. 텍스트 파일을 열면 단어 "Hello EditorMargin1"에 있는 녹색 여백은 가로 스크롤 막대 아래에 표시 됩니다.  
+4. 이 프로젝트를 빌드하고 디버깅을 시작 합니다. 실험적 인스턴스가 표시 됩니다. 텍스트 파일을 열면 단어 "Hello EditorMargin1"에 있는 녹색 여백은 가로 스크롤 막대 아래에 표시 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)

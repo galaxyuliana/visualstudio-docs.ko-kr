@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c6e696211cd5a0260d16c3034307a8d3fce50abd
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c1a814e71563f8b31c54fb9caaeb062a505c186e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646111"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087258"
 ---
 # <a name="update-excel-and-word-projects-that-you-migrate-to-the-net-framework-4-or-the-net-framework-45"></a>.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Excel 및 Word 프로젝트 업데이트
   다음 기능 중 하나를 사용하는 Excel 또는 Word 프로젝트가 있는 경우 대상 프레임워크가 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상으로 변경되면 코드를 수정해야 합니다.
@@ -43,14 +43,14 @@ ms.locfileid: "56646111"
 
 ### <a name="to-remove-the-excellocale1033attribute"></a>ExcelLocale1033Attribute를 제거하려면
 
-1.  Visual Studio에서 프로젝트를 열고 **솔루션 탐색기**를 엽니다.
+1. Visual Studio에서 프로젝트를 열고 **솔루션 탐색기**를 엽니다.
 
-2.  **속성** 노드(C#의 경우) 또는 **My Project** 노드(Visual Basic의 경우) 아래에서 AssemblyInfo 코드 파일을 두 번 클릭하여 코드 편집기에서 엽니다.
+2. **속성** 노드(C#의 경우) 또는 **My Project** 노드(Visual Basic의 경우) 아래에서 AssemblyInfo 코드 파일을 두 번 클릭하여 코드 편집기에서 엽니다.
 
     > [!NOTE]
     >  Visual Basic 프로젝트에서 AssemblyInfo 코드 파일을 보려면 **솔루션 탐색기** 에서 **모든 파일 표시** 단추를 클릭해야 합니다.
 
-3.  `Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute`를 찾아 파일에서 제거하거나 주석으로 처리합니다.
+3. `Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute`를 찾아 파일에서 제거하거나 주석으로 처리합니다.
 
     ```vb
     <Assembly: ExcelLocale1033Proxy(True)>
@@ -65,11 +65,11 @@ ms.locfileid: "56646111"
 
 ### <a name="to-remove-the-reference-to-the-excellocal1033proxy-class"></a>ExcelLocal1033Proxy 클래스에 대한 참조를 제거하려면
 
-1.  Visual Studio에서 프로젝트를 열고 **솔루션 탐색기**를 엽니다.
+1. Visual Studio에서 프로젝트를 열고 **솔루션 탐색기**를 엽니다.
 
-2.  **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 *ThisAddin.cs* (에 대 한 C#) 또는 *ThisAddin.vb* (Visual Basic의 경우)를 선택한 후 **코드 보기** .
+2. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 *ThisAddin.cs* (에 대 한 C#) 또는 *ThisAddin.vb* (Visual Basic의 경우)를 선택한 후 **코드 보기** .
 
-3.  코드 편집기의 `VSTO generated code` 영역에서 다음 코드 줄을 주석으로 처리합니다.
+3. 코드 편집기의 `VSTO generated code` 영역에서 다음 코드 줄을 주석으로 처리합니다.
 
     ```vb
     Me.Application = CType(Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(GetType(Excel.Application), Me.Application), Excel.Application)
@@ -81,8 +81,8 @@ ms.locfileid: "56646111"
 
     ```
 
-##  <a name="GetVstoObject"></a> GetVstoObject 및 HasVstoObject 메서드를 사용 하는 코드 업데이트
- .NET Framework 3.5를 대상으로 하는 프로젝트에서는 `GetVstoObject` 또는 `HasVstoObject` 메서드를 프로젝트에 있는 네이티브 개체 <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Excel.Workbook>, <xref:Microsoft.Office.Interop.Excel.Worksheet> 또는 <xref:Microsoft.Office.Interop.Excel.ListObject> 중 하나에서 확장명 메서드로 사용할 수 있습니다. 이러한 메서드를 호출하는 경우 매개 변수를 전달할 필요가 없습니다. 다음 코드 예제에서는 Word VSTO 추가 기능에서.NET Framework 3.5를 대상으로 하는 GetVstoObject 메서드를 사용 하는 방법에 설명 합니다.
+## <a name="GetVstoObject"></a> GetVstoObject 및 HasVstoObject 메서드를 사용 하는 코드 업데이트
+ .NET Framework 3.5를 대상으로 하는 프로젝트에서는 `GetVstoObject` 또는 `HasVstoObject` 메서드를 프로젝트에 있는 네이티브 개체 <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Excel.Workbook>, <xref:Microsoft.Office.Interop.Excel.Worksheet> 또는 <xref:Microsoft.Office.Interop.Excel.ListObject> 중 하나에서 확장 메서드로 사용할 수 있습니다. 이러한 메서드를 호출하는 경우 매개 변수를 전달할 필요가 없습니다. 다음 코드 예제에서는 Word VSTO 추가 기능에서.NET Framework 3.5를 대상으로 하는 GetVstoObject 메서드를 사용 하는 방법에 설명 합니다.
 
 ```vb
 Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _
@@ -122,7 +122,7 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
 
   자세한 내용은 [확장 Word 문서 및 Excel 통합 런타임에 VSTO 추가 기능에서](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)합니다.
 
-##  <a name="generatedclasses"></a> 문서 수준 프로젝트에서 생성된 된 클래스의 인스턴스를 사용 하는 코드 업데이트
+## <a name="generatedclasses"></a> 문서 수준 프로젝트에서 생성된 된 클래스의 인스턴스를 사용 하는 코드 업데이트
  .NET Framework 3.5를 대상으로 하는 문서 수준 프로젝트에서는 프로젝트에서 생성된 클래스가 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]의 다음 클래스에서 파생됩니다.
 
 - `ThisDocument`: <xref:Microsoft.Office.Tools.Word.Document>
@@ -162,7 +162,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 
  프로젝트의 대상을 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상으로 변경하는 경우 다음 중 하나와 같이 코드를 변경해야 합니다.
 
--   프로젝트에서 `DoSomethingToSheet` 개체의 <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> 속성을 전달하도록 <xref:Microsoft.Office.Tools.Excel.WorksheetBase> 메서드를 호출하는 코드를 수정합니다. 이 속성은 <xref:Microsoft.Office.Tools.Excel.Worksheet> 개체를 반환합니다.
+- 프로젝트에서 `DoSomethingToSheet` 개체의 <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> 속성을 전달하도록 <xref:Microsoft.Office.Tools.Excel.WorksheetBase> 메서드를 호출하는 코드를 수정합니다. 이 속성은 <xref:Microsoft.Office.Tools.Excel.Worksheet> 개체를 반환합니다.
 
     ```vb
     DoSomethingToSheet(Globals.Sheet1.Base)
@@ -172,7 +172,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
     DoSomethingToSheet(Globals.Sheet1.Base);
     ```
 
--   대신 `DoSomethingToSheet` 개체를 예상하도록 <xref:Microsoft.Office.Tools.Excel.WorksheetBase> 메서드 매개 변수를 수정합니다.
+- 대신 `DoSomethingToSheet` 개체를 예상하도록 <xref:Microsoft.Office.Tools.Excel.WorksheetBase> 메서드 매개 변수를 수정합니다.
 
     ```vb
     Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.WorksheetBase)
@@ -187,7 +187,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
     }
     ```
 
-##  <a name="winforms"></a> 문서의 Windows Forms 컨트롤을 사용 하는 코드 업데이트
+## <a name="winforms"></a> 문서의 Windows Forms 컨트롤을 사용 하는 코드 업데이트
  추가 해야 합니다는 **를 사용 하 여** (C#) 또는 **Imports** (Visual Basic) 문을 합니다 <xref:Microsoft.Office.Tools.Excel> 또는 <xref:Microsoft.Office.Tools.Word> 컨트롤 속성을 사용 하 여 Windows를 추가 하는 모든 코드 파일의 맨 위에 네임 스페이스 프로그래밍 방식으로 문서 또는 워크시트에 컨트롤을 형성합니다.
 
  .NET Framework 3.5를 대상으로 하는 프로젝트에서 Windows Forms 컨트롤을 추가하는 메서드(예: `AddButton` 메서드)는 <xref:Microsoft.Office.Tools.Excel.ControlCollection> 및 <xref:Microsoft.Office.Tools.Word.ControlCollection> 클래스에서 정의됩니다.
@@ -196,7 +196,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 
  자세한 내용은 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.
 
-##  <a name="ccevents"></a> Word 콘텐츠 컨트롤 이벤트를 처리 하는 코드 업데이트
+## <a name="ccevents"></a> Word 콘텐츠 컨트롤 이벤트를 처리 하는 코드 업데이트
  .NET Framework 3.5를 대상으로 하는 프로젝트에서 Word 콘텐츠 컨트롤의 이벤트는 제네릭 <xref:System.EventHandler%601> 대리자에 의해 처리됩니다. [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서는 이러한 이벤트가 다른 대리자에 의해 처리됩니다.
 
  다음 표에서는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 Word 콘텐츠 컨트롤 이벤트 및 연결된 대리자를 보여 줍니다.
@@ -210,21 +210,21 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 |<xref:Microsoft.Office.Tools.Word.ContentControlBase.Exiting>|<xref:Microsoft.Office.Tools.Word.ContentControlExitingEventHandler>|
 |<xref:Microsoft.Office.Tools.Word.ContentControlBase.StoreUpdating>|<xref:Microsoft.Office.Tools.Word.ContentControlStoreUpdatingEventHandler>|
 
-##  <a name="ole"></a> OLEObject 및 OLEControl 클래스를 사용 하는 코드 업데이트
+## <a name="ole"></a> OLEObject 및 OLEControl 클래스를 사용 하는 코드 업데이트
  .NET Framework 3.5를 대상으로 하는 프로젝트에서는 `Microsoft.Office.Tools.Excel.OLEObject` 및 `Microsoft.Office.Tools.Word.OLEControl` 클래스를 사용하여 문서 또는 워크시트에 사용자 지정 컨트롤(예: Windows Forms 사용자 정의 컨트롤)을 추가할 수 있습니다.
 
  [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 이러한 클래스는 <xref:Microsoft.Office.Tools.Excel.ControlSite> 및 <xref:Microsoft.Office.Tools.Word.ControlSite> 인터페이스로 바뀌었습니다. <xref:Microsoft.Office.Tools.Excel.ControlSite> 및 <xref:Microsoft.Office.Tools.Word.ControlSite>를 대신 참조하도록 `Microsoft.Office.Tools.Excel.OLEObject` 및 `Microsoft.Office.Tools.Word.OLEControl`를 참조하는 코드를 수정해야 합니다. 새 이름을 제외하면 이러한 컨트롤은 .NET Framework 3.5를 대상으로 하는 프로젝트와 동일한 방식으로 동작합니다.
 
  자세한 내용은 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.
 
-##  <a name="itemproperty"></a> Controls.item (object) 속성을 사용 하는 코드 업데이트
+## <a name="itemproperty"></a> Controls.item (object) 속성을 사용 하는 코드 업데이트
  .NET Framework 3.5를 대상으로 하는 프로젝트는 Microsoft.Office.Tools.Word.Document.Controls의 Item(Object) 속성을 사용할 수 있습니다 또는 `Microsoft.Office.Tools.Excel.Worksheet.Controls` 문서 또는 워크시트에 지정된 된 컨트롤에 있는지 여부를 결정 하는 컬렉션입니다.
 
  대상으로 하는 프로젝트는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] Item(Object) 속성을 이러한 컬렉션에서 제거 되었습니다 나중 또는 합니다. 문서 또는 워크시트에 지정 된 컨트롤이 포함 되어 있는지 여부를 결정할의 Contains(System.Object) 메서드를 사용 합니다 <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> 또는 <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> 컬렉션 대신 합니다.
 
  문서 및 워크시트의 Controls 컬렉션에 대 한 자세한 내용은 참조 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.
 
-##  <a name="collections"></a> CollectionBase에서 파생 되는 컬렉션을 사용 하는 코드 업데이트
+## <a name="collections"></a> CollectionBase에서 파생 되는 컬렉션을 사용 하는 코드 업데이트
  여러 컬렉션 형식은.NET Framework 3.5를 대상으로 하는 프로젝트에서의 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 에서 파생 되는 <xref:System.Collections.CollectionBase> 클래스와 같은 `Microsoft.Office.Tools.SmartTagCollection`, `Microsoft.Office.Tools.Excel.ControlCollection`, 및 `Microsoft.Office.Tools.Word.ControlCollection`합니다.
 
  [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 이러한 컬렉션 형식은 이제 <xref:System.Collections.CollectionBase>에서 파생되지 않는 인터페이스입니다. <xref:System.Collections.CollectionBase.Capacity%2A>, <xref:System.Collections.CollectionBase.List%2A>및 <xref:System.Collections.CollectionBase.InnerList%2A>와 같은 일부 멤버는 이러한 컬렉션 형식에서 더 이상 사용할 수 없습니다.

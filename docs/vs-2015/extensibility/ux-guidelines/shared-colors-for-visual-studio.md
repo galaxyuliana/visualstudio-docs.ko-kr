@@ -8,56 +8,59 @@ ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
 caps.latest.revision: 6
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c8d0dfb8a7758d0619557f6c54056cd88ec68771
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 87520a7e17d194d7f5cc28665a6f23466bface65
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983147"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086431"
 ---
 # <a name="shared-colors-for-visual-studio"></a>Visual Studio에 대 한 공유 색
+
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 일반적인 Visual Studio 셸 요소를 사용하는 UI를 디자인하거나 인터페이스 요소를 유사한 기능과 일치시키려는 경우 패키지 정의 파일에서 기존 토큰 이름을 사용하여 색을 선택하고 할당합니다. 이렇게 하면 UI가 전체 Visual Studio 환경과 일관성 있게 유지되며 테마를 추가하거나 업데이트할 경우 자동으로 업데이트됩니다.
 
- 이 문서에서는 유사한 UI를 빌드할 때 참조할 수 있는 일반적인 UI 요소 및 사용되는 토큰 이름을 설명합니다. 이러한 색 토큰에 액세스하는 방법에 대한 자세한 내용은 [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService)를 참조하세요.
+이 문서에서는 유사한 UI를 빌드할 때 참조할 수 있는 일반적인 UI 요소 및 사용되는 토큰 이름을 설명합니다. 이러한 색 토큰에 액세스하는 방법에 대한 자세한 내용은 [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService)를 참조하세요.
 
- 토큰 이름을 올바르게 사용해야 합니다.
+토큰 이름을 올바르게 사용해야 합니다.
 
--   **색 자체가 아니라 함수에 따라 토큰 이름을 사용 합니다.** 일반적인 공유 색은 특정 인터페이스 요소와 연결되며 동일하거나 유사한 기능에만 사용해야 합니다. 예를 들어 단순히 색을 좋아한다고 해서 누른 콤보 상자의 색을 회전 진행률 애니메이션에 다시 사용하지 마세요. 콤보 상자와 애니메이션의 기능은 서로 다르며, 콤보 상자와 연결된 색이 변경될 경우 애니메이션 요소에 적절한 색이 아닐 수 있습니다. 색을 일관성 있게 사용하면 사용자를 올바른 방향으로 인도하고 혼동을 방지하는 데 도움이 됩니다.
+- **색 자체가 아니라 함수에 따라 토큰 이름을 사용 합니다.** 일반적인 공유 색은 특정 인터페이스 요소와 연결되며 동일하거나 유사한 기능에만 사용해야 합니다. 예를 들어 단순히 색을 좋아한다고 해서 누른 콤보 상자의 색을 회전 진행률 애니메이션에 다시 사용하지 마세요. 콤보 상자와 애니메이션의 기능은 서로 다르며, 콤보 상자와 연결된 색이 변경될 경우 애니메이션 요소에 적절한 색이 아닐 수 있습니다. 색을 일관성 있게 사용하면 사용자를 올바른 방향으로 인도하고 혼동을 방지하는 데 도움이 됩니다.
 
--   **배경색과 텍스트 색을 올바른 조합에서으로 사용 합니다.** 텍스트와 함께 사용되는 배경색에는 연결된 텍스트 색이 있습니다. 해당 배경에 지정된 색이 아닌 텍스트 색을 사용하지 마세요. 연결된 텍스트 색이 없는 경우 텍스트를 표시하려는 화면에 해당 배경색을 사용하지 마세요. 텍스트 색과 배경색의 다른 조합에서는 읽을 수 없는 인터페이스가 발생할 수 있습니다.
+- **배경색과 텍스트 색을 올바른 조합에서으로 사용 합니다.** 텍스트와 함께 사용되는 배경색에는 연결된 텍스트 색이 있습니다. 해당 배경에 지정된 색이 아닌 텍스트 색을 사용하지 마세요. 연결된 텍스트 색이 없는 경우 텍스트를 표시하려는 화면에 해당 배경색을 사용하지 마세요. 텍스트 색과 배경색의 다른 조합에서는 읽을 수 없는 인터페이스가 발생할 수 있습니다.
 
--   **해당 위치에 적합 한 컨트롤 색을 사용 합니다.** 특정 상태에서는 일부 Visual Studio 컨트롤에 별도 테두리와 배경색이 없습니다. 대신, 배경 화면에서 해당 색을 선택합니다. 항상 컨트롤을 배치할 위치에 적합한 토큰 이름을 사용해야 합니다.
+- **해당 위치에 적합 한 컨트롤 색을 사용 합니다.** 특정 상태에서는 일부 Visual Studio 컨트롤에 별도 테두리와 배경색이 없습니다. 대신, 배경 화면에서 해당 색을 선택합니다. 항상 컨트롤을 배치할 위치에 적합한 토큰 이름을 사용해야 합니다.
 
 > [!IMPORTANT]
->  "시작 페이지" 또는 "Cider." 범주에 있는 토큰 사용 금지
+> "시작 페이지" 또는 "Cider." 범주에 있는 토큰 사용 금지
 
 ## <a name="command-structures"></a>명령 구조
 
-###  <a name="BKMK_CommandMenus"></a> 메뉴
- 메뉴는 Visual Studio 내의 여러 위치에서 발생할 수 있습니다: 주 메뉴 모음, 문서 또는 도구 창 또는 IDE 전체의 다양 한 위치에서 마우스 오른쪽 단추 클릭을 포함 합니다. 다른 UI 요소와 연결된 메뉴의 구현은 해당 요소에 대한 섹션에서 설명합니다. 항상 Visual Studio 환경에서 제공하는 표준 메뉴 구현을 사용해야 합니다. 그러나 드물긴 하지만 표준 Visual Studio 메뉴에 액세스할 수 없는 경우도 있습니다. 이러한 경우 다음 토큰 이름을 사용하여 Visual Studio의 다른 메뉴와 UI의 일관성을 유지합니다.
+### <a name="BKMK_CommandMenus"></a> 메뉴
 
- ![메뉴 검토](../../extensibility/ux-guidelines/media/0303-000-menuredline.png "0303 000_MenuRedline")
+메뉴는 Visual Studio 내의 여러 위치에서 발생할 수 있습니다: 주 메뉴 모음, 문서 또는 도구 창 또는 IDE 전체의 다양 한 위치에서 마우스 오른쪽 단추 클릭을 포함 합니다. 다른 UI 요소와 연결된 메뉴의 구현은 해당 요소에 대한 섹션에서 설명합니다. 항상 Visual Studio 환경에서 제공하는 표준 메뉴 구현을 사용해야 합니다. 그러나 드물긴 하지만 표준 Visual Studio 메뉴에 액세스할 수 없는 경우도 있습니다. 이러한 경우 다음 토큰 이름을 사용하여 Visual Studio의 다른 메뉴와 UI의 일관성을 유지합니다.
 
- 사용
- -   사용자 지정 메뉴를 만들어야 하는 경우 항상
+![메뉴 검토](../../extensibility/ux-guidelines/media/0303-000-menuredline.png "0303 000_MenuRedline")
+
+사용
+- 사용자 지정 메뉴를 만들어야 하는 경우 항상
 
 - Visual Studio 메뉴와 일치시키려는 새 UI 구성 요소가 있는 경우
 
-  사용 안 함
-  배경색만 단독으로 사용하지 마세요. 항상 지정된 배경/전경 조합을 사용합니다.
+사용 안 함
+배경색만 단독으로 사용하지 마세요. 항상 지정된 배경/전경 조합을 사용합니다.
 
 #### <a name="menu-title"></a>메뉴 제목
- 일반적으로 메뉴가 명령 모음에 있을 경우 메뉴 제목은 배경, 테두리, 제목 텍스트 및 선택적인 문자 모양으로 구성됩니다.
 
- ![메뉴 제목 검토](../../extensibility/ux-guidelines/media/0303-001-menutitleredline.png "0303 001_MenuTitleRedline")
+일반적으로 메뉴가 명령 모음에 있을 경우 메뉴 제목은 배경, 테두리, 제목 텍스트 및 선택적인 문자 모양으로 구성됩니다.
 
- 사용
+![메뉴 제목 검토](../../extensibility/ux-guidelines/media/0303-001-menutitleredline.png "0303 001_MenuTitleRedline")
+
+사용
 사용자 지정 메뉴 제목을 만드는 경우 항상
 
- 사용 안 함
- -   항상 메뉴 제목과 일치시키지 않으려는 모든 항목
+사용 안 함
+- 항상 메뉴 제목과 일치시키지 않으려는 모든 항목
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
@@ -192,15 +195,16 @@ ms.locfileid: "58983147"
   없음
 
 #### <a name="menu"></a>메뉴
- 개별 메뉴 항목은 메뉴 텍스트와 선택적 아이콘, 확인란 또는 하위 메뉴 문자 모양으로 구성됩니다. 마우스로 가리키면 해당 배경색과 텍스트 색이 바뀝니다. 이 색 토큰은 배경/전경 쌍입니다.
 
- ![메뉴 항목 검토](../../extensibility/ux-guidelines/media/0303-009-menuitemredline.png "0303 009_MenuItemRedline")
+개별 메뉴 항목은 메뉴 텍스트와 선택적 아이콘, 확인란 또는 하위 메뉴 문자 모양으로 구성됩니다. 마우스로 가리키면 해당 배경색과 텍스트 색이 바뀝니다. 이 색 토큰은 배경/전경 쌍입니다.
 
- 사용
+![메뉴 항목 검토](../../extensibility/ux-guidelines/media/0303-009-menuitemredline.png "0303 009_MenuItemRedline")
+
+사용
 메뉴 모음이나 명령 모음에서 시작된 모든 드롭다운 목록
 
- 사용 안 함
- -   다른 컨텍스트에서 발생하는 모든 드롭다운 목록
+사용 안 함
+- 다른 컨텍스트에서 발생하는 모든 드롭다운 목록
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
@@ -351,32 +355,34 @@ ms.locfileid: "58983147"
   `Environment.CommandBarSelectedIconDisabled`
 
 ### <a name="command-bar"></a>명령 모음
- 명령 모음은 Visual Studio IDE 내의 여러 위치에 나타날 수 있습니다. 특히, 명령 선반에 표시되며 도구 또는 문서 창에 포함됩니다.
 
- 일반적으로, 항상 Visual Studio 환경에서 제공하는 표준 명령 모음 구현을 사용합니다. 표준 메커니즘을 사용하면 모든 시각적 정보가 올바르게 표시되며 대화형 요소가 다른 Visual Studio 명령 모음 컨트롤과 일관성 있게 동작합니다. 그러나 고유한 명령 모음을 빌드해야 하는 경우 다음 토큰 이름을 사용하여 올바르게 스타일을 지정해야 합니다.
+명령 모음은 Visual Studio IDE 내의 여러 위치에 나타날 수 있습니다. 특히, 명령 선반에 표시되며 도구 또는 문서 창에 포함됩니다.
 
- ![명령 모음 검토](../../extensibility/ux-guidelines/media/0303-018-commandbarredline.png "0303 018_CommandBarRedline")
+일반적으로, 항상 Visual Studio 환경에서 제공하는 표준 명령 모음 구현을 사용합니다. 표준 메커니즘을 사용하면 모든 시각적 정보가 올바르게 표시되며 대화형 요소가 다른 Visual Studio 명령 모음 컨트롤과 일관성 있게 동작합니다. 그러나 고유한 명령 모음을 빌드해야 하는 경우 다음 토큰 이름을 사용하여 올바르게 스타일을 지정해야 합니다.
 
- ![오버플로 단추 검토](../../extensibility/ux-guidelines/media/0303-019-overflowbuttonredline.png "0303 019_OverflowButtonRedline")
+![명령 모음 검토](../../extensibility/ux-guidelines/media/0303-018-commandbarredline.png "0303 018_CommandBarRedline")
 
- 사용
+![오버플로 단추 검토](../../extensibility/ux-guidelines/media/0303-019-overflowbuttonredline.png "0303 019_OverflowButtonRedline")
+
+사용
 포함된 명령 모음이 필요하지만 표준 Visual Studio 명령 모음 구현을 사용할 수 없는 위치
 
- 사용 안 함
- -   명령 모음과 유사하지 않은 UI 요소
+사용 안 함
+- 명령 모음과 유사하지 않은 UI 요소
 
--   토큰 이름이 지정된 구성 요소 이외의 다른 명령 모음 구성 요소
+- 토큰 이름이 지정된 구성 요소 이외의 다른 명령 모음 구성 요소
 
 #### <a name="command-bar-group"></a>명령 모음 그룹
- 명령 모음 그룹은 관련된 명령 모음 컨트롤 집합으로 구성되며 임의 개수의 단추, 분할 단추, 드롭다운 메뉴, 콤보 상자 또는 메뉴를 포함할 수 있습니다. 해당 컨트롤의 색은 별도 토큰 이름으로 제어되며 이 가이드의 다른 위치에서 개별적으로 설명합니다. 구분 기호 선을 사용하여 명령 모음 그룹을 관련된 하위 그룹으로 나눕니다.
 
- ![명령 모음 그룹 검토](../../extensibility/ux-guidelines/media/0303-020-commandbargroupredline.png "0303 020_CommandBarGroupRedline")
+명령 모음 그룹은 관련된 명령 모음 컨트롤 집합으로 구성되며 임의 개수의 단추, 분할 단추, 드롭다운 메뉴, 콤보 상자 또는 메뉴를 포함할 수 있습니다. 해당 컨트롤의 색은 별도 토큰 이름으로 제어되며 이 가이드의 다른 위치에서 개별적으로 설명합니다. 구분 기호 선을 사용하여 명령 모음 그룹을 관련된 하위 그룹으로 나눕니다.
 
- 사용
+![명령 모음 그룹 검토](../../extensibility/ux-guidelines/media/0303-020-commandbargroupredline.png "0303 020_CommandBarGroupRedline")
+
+사용
 포함된 명령 모음이 필요하지만 표준 Visual Studio 명령 모음 구현을 사용할 수 없는 위치
 
- 사용 안 함
- -   명령 모음과 유사하지 않은 UI 요소
+사용 안 함
+- 명령 모음과 유사하지 않은 UI 요소
 
 - 토큰 이름이 지정된 구성 요소 이외의 다른 명령 모음 구성 요소
 
@@ -407,15 +413,16 @@ ms.locfileid: "58983147"
   `Environment.CommandBarToolBarSeparatorHighlight`
 
 #### <a name="command-icons"></a>명령 아이콘
- ![명령 아이콘 검토](../../extensibility/ux-guidelines/media/0303-021-commandiconredline1.png "0303 021_CommandIconRedline1")
 
- ![명령 아이콘 검토](../../extensibility/ux-guidelines/media/0303-022-commandiconredline2.png "0303 022_CommandIconRedline2")
+![명령 아이콘 검토](../../extensibility/ux-guidelines/media/0303-021-commandiconredline1.png "0303 021_CommandIconRedline1")
 
- 사용
+![명령 아이콘 검토](../../extensibility/ux-guidelines/media/0303-022-commandiconredline2.png "0303 022_CommandIconRedline2")
+
+사용
 명령 모음에 배치되는 모든 단추
 
- 사용 안 함
- -   고유한 토큰 이름을 가진 컨트롤
+사용 안 함
+- 고유한 토큰 이름을 가진 컨트롤
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
@@ -551,20 +558,20 @@ ms.locfileid: "58983147"
 
   N/A
 
-####  <a name="BKMK_CommandComboBox"></a> 콤보 상자
+#### <a name="BKMK_CommandComboBox"></a> 콤보 상자
 
 > [!IMPORTANT]
->  콤보 상자는 드롭다운과 유사하지만 편집 가능한 텍스트 영역을 포함합니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있지 않으면 [Drop-down](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandDropDown)아래의 색 토큰을 사용합니다.
+> 콤보 상자는 드롭다운과 유사하지만 편집 가능한 텍스트 영역을 포함합니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있지 않으면 [Drop-down](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandDropDown)아래의 색 토큰을 사용합니다.
 
- ![Combo box redline](../../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303-029_ComboBoxRedline")
+![Combo box redline](../../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303-029_ComboBoxRedline")
 
- 사용
- -   사용자 지정 콤보 상자를 빌드하는 경우
+사용
+- 사용자 지정 콤보 상자를 빌드하는 경우
 
 - 콤보 상자와 유사한 명령 모음 컨트롤을 만드는 경우
 
   사용 안 함
-  -   명령 모음 UI와 항상 일치시키지 않으려는 모든 항목
+  - 명령 모음 UI와 항상 일치시키지 않으려는 모든 항목
 
 - 스타일이 적용된 콤보 상자에 액세스할 수 있는 경우
 
@@ -798,18 +805,18 @@ ms.locfileid: "58983147"
 
   `Environment.ComboBoxDisabledGlyph`
 
-####  <a name="BKMK_CommandDropDown"></a> 드롭다운 목록
+#### <a name="BKMK_CommandDropDown"></a> 드롭다운 목록
 
 > [!IMPORTANT]
->  드롭다운은 콤보 상자와 유사하지만 편집 가능한 텍스트 영역이 없습니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있으면 [Combo box](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox)아래의 색 토큰을 사용합니다.
+> 드롭다운은 콤보 상자와 유사하지만 편집 가능한 텍스트 영역이 없습니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있으면 [Combo box](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox)아래의 색 토큰을 사용합니다.
 
- ![삭제&#45;검토 다운](../../extensibility/ux-guidelines/media/0303-042-dropdownredline.png "0303 042_DropdownRedline")
+![삭제&#45;검토 다운](../../extensibility/ux-guidelines/media/0303-042-dropdownredline.png "0303 042_DropdownRedline")
 
- 사용
+사용
 사용자 지정 드롭다운 목록 컨트롤을 만드는 경우
 
- 사용 안 함
- -   드롭다운 목록과 유사하지 않은 모든 항목
+사용 안 함
+- 드롭다운 목록과 유사하지 않은 모든 항목
 
 - 콤보 상자 또는 분할 단추
 
@@ -1010,15 +1017,16 @@ ms.locfileid: "58983147"
   `Environment.DropDownDisabledGlyph`
 
 #### <a name="split-button"></a>분할 단추
- 분할 단추는 단추, 메뉴, 명령 모음 텍스트 등 다른 명령 모음 컨트롤과 많은 토큰 이름을 공유합니다. 편의를 위해 모든 필요한 작업 및 드롭다운 단추 토큰 이름이 여기에 반복됩니다. 분할 단추 드롭다운 목록은 명령 모음의 구현입니다 [Menus](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandMenus).
 
- ![분할 단추 검토](../../extensibility/ux-guidelines/media/0303-053-splitbuttonredline.png "0303 053_SplitButtonRedline")
+분할 단추는 단추, 메뉴, 명령 모음 텍스트 등 다른 명령 모음 컨트롤과 많은 토큰 이름을 공유합니다. 편의를 위해 모든 필요한 작업 및 드롭다운 단추 토큰 이름이 여기에 반복됩니다. 분할 단추 드롭다운 목록은 명령 모음의 구현입니다 [Menus](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandMenus).
 
- 사용
+![분할 단추 검토](../../extensibility/ux-guidelines/media/0303-053-splitbuttonredline.png "0303 053_SplitButtonRedline")
+
+사용
 사용자 지정 분할 단추를 빌드하는 경우
 
- 사용 안 함
- -   다른 종류의 단추
+사용 안 함
+- 다른 종류의 단추
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
@@ -1425,7 +1433,7 @@ ms.locfileid: "58983147"
   사용자 지정 문서 탭을 만드는 경우
 
   사용 안 함
-  -   임시(미리 보기) 탭
+  - 임시(미리 보기) 탭
 
 - 셸에 테마 업데이트가 있는 경우 자동으로 변경하지 않으려는 모든 UI
 
@@ -1538,15 +1546,16 @@ ms.locfileid: "58983147"
  배경색과 동일한 색으로 설정됨
 
 #### <a name="preview-tab"></a>미리 보기 탭
- 사용자가 솔루션 탐색기 도구 창에서 항목을 클릭하면 문서 탭 채널의 오른쪽에 미리 보기 탭이 나타납니다. 문서의 미리 보기 역할을 하며, 문서 탭 채널의 왼쪽에 문서를 열어 두는 옵션도 사용자에게 제공합니다. 한 번에 하나의 미리 보기 탭만 열 수 있습니다. 미리 보기 탭에는 열린 탭처럼 배경과 선택한 상태가 둘 다 있으며, 활성 상태에서 포커스가 있거나 포커스가 없을 수 있습니다.
 
- ![미리 보기 탭 검토](../../extensibility/ux-guidelines/media/0303-078-previewtabredline.png "0303 078_PreviewTabRedline")
+사용자가 솔루션 탐색기 도구 창에서 항목을 클릭하면 문서 탭 채널의 오른쪽에 미리 보기 탭이 나타납니다. 문서의 미리 보기 역할을 하며, 문서 탭 채널의 왼쪽에 문서를 열어 두는 옵션도 사용자에게 제공합니다. 한 번에 하나의 미리 보기 탭만 열 수 있습니다. 미리 보기 탭에는 열린 탭처럼 배경과 선택한 상태가 둘 다 있으며, 활성 상태에서 포커스가 있거나 포커스가 없을 수 있습니다.
 
- 사용
+![미리 보기 탭 검토](../../extensibility/ux-guidelines/media/0303-078-previewtabredline.png "0303 078_PreviewTabRedline")
+
+사용
 임시 미리 보기를 만들며 일부 요소를 현재 미리 보기 탭 색과 일치시키려는 모든 위치
 
- 사용 안 함
- -   임시(미리 보기)가 아닌 모든 종류의 문서 또는 탭
+사용 안 함
+- 임시(미리 보기)가 아닌 모든 종류의 문서 또는 탭
 
 - 셸에 테마 업데이트가 있는 경우 자동으로 변경하지 않으려는 모든 UI
 
@@ -1661,15 +1670,16 @@ ms.locfileid: "58983147"
   배경색과 동일한 색으로 설정됨
 
 #### <a name="document-overflow-button"></a>문서 오버플로 단추
- 현재 구성에서 모든 문서 탭에 맞는 세로 공간이 있는지 여부에 관계없이 하나 이상의 문서가 열려 있으면 문서 오버플로 단추가 있습니다. **CommandBarMenu** 색으로 제어되는 문서 오버플로 드롭다운 메뉴( [Menus](../../misc/shared-colors.md#BKMK_CommandMenus)참조)는 표시되고 숨겨진 모든 열린 문서의 목록을 표시하며, 모든 열린 문서가 탭 채널에 표시되는지 여부에 따라 오버플로 문자 모양이 바뀝니다.
 
- ![오버플로 검토](../../extensibility/ux-guidelines/media/0303-083-overflowredline.png "0303 083_OverflowRedline")
+현재 구성에서 모든 문서 탭에 맞는 세로 공간이 있는지 여부에 관계없이 하나 이상의 문서가 열려 있으면 문서 오버플로 단추가 있습니다. **CommandBarMenu** 색으로 제어되는 문서 오버플로 드롭다운 메뉴( [Menus](../../misc/shared-colors.md#BKMK_CommandMenus)참조)는 표시되고 숨겨진 모든 열린 문서의 목록을 표시하며, 모든 열린 문서가 탭 채널에 표시되는지 여부에 따라 오버플로 문자 모양이 바뀝니다.
 
- 사용
+![오버플로 검토](../../extensibility/ux-guidelines/media/0303-083-overflowredline.png "0303 083_OverflowRedline")
+
+사용
 사용자 지정 문서 오버플로 단추를 만드는 경우
 
- 사용 안 함
- -   오버플로 단추와 유사하지 않은 UI
+사용 안 함
+- 오버플로 단추와 유사하지 않은 UI
 
 - 명령 모음 오버플로 단추
 
@@ -1895,13 +1905,14 @@ ms.locfileid: "58983147"
  `Environment.TitleBarDragHandle`
 
 #### <a name="title-bar-buttons"></a>제목 표시줄 단추
- ![제목 표시줄 단추 검토](../../extensibility/ux-guidelines/media/0303-095-titlebarbuttonredline.png "0303 095_TitleBarButtonRedline")
 
- 사용
+![제목 표시줄 단추 검토](../../extensibility/ux-guidelines/media/0303-095-titlebarbuttonredline.png "0303 095_TitleBarButtonRedline")
+
+사용
 도구 창 제목 표시줄의 색 토큰을 사용하는 UI에 표시되는 단추
 
- 사용 안 함
- -   다른 위치에 표시되는 단추
+사용 안 함
+- 다른 위치에 표시되는 단추
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
@@ -2227,7 +2238,7 @@ ms.locfileid: "58983147"
   사용자 지정 검색 상자를 디자인하는 경우
 
   사용 안 함
-  -   검색 상자가 아닌 모든 항목
+  - 검색 상자가 아닌 모든 항목
 
 - 검색 상자 UI와 항상 일치시키지 않으려는 모든 항목
 
@@ -2516,17 +2527,18 @@ ms.locfileid: "58983147"
   없음
 
 #### <a name="search-drop-down-lists"></a>검색 드롭다운 목록
- 검색 상자 드롭다운 메뉴는 Visual Studio의 다른 드롭다운 메뉴보다 약간 더 복잡해질 수 있습니다. "추천 검색어" 및 "검색 옵션" 섹션이 메뉴에 단독으로 또는 함께 표시될 수 있으며, 각 섹션에 색이 별도로 지정됩니다. 또한 함께 표시되는 경우 이러한 두 섹션이 줄로 구분되며, 테두리가 전체 드롭다운 메뉴를 둘러쌉니다.
 
- ![검색 저장&#45;검토 다운](../../extensibility/ux-guidelines/media/0303-124-searchdropdownredline.png "0303 124_SearchDropdownRedline")
+검색 상자 드롭다운 메뉴는 Visual Studio의 다른 드롭다운 메뉴보다 약간 더 복잡해질 수 있습니다. "추천 검색어" 및 "검색 옵션" 섹션이 메뉴에 단독으로 또는 함께 표시될 수 있으며, 각 섹션에 색이 별도로 지정됩니다. 또한 함께 표시되는 경우 이러한 두 섹션이 줄로 구분되며, 테두리가 전체 드롭다운 메뉴를 둘러쌉니다.
 
- 사용
- -   사용자 지정 검색 드롭다운 목록을 만드는 경우
+![검색 저장&#45;검토 다운](../../extensibility/ux-guidelines/media/0303-124-searchdropdownredline.png "0303 124_SearchDropdownRedline")
+
+사용
+- 사용자 지정 검색 드롭다운 목록을 만드는 경우
 
 - 올바른 목록 구성 요소에 대해 올바른 토큰 이름 사용
 
   사용 안 함
-  -   다른 컨텍스트에서 표시되는 드롭다운 목록의 경우
+  - 다른 컨텍스트에서 표시되는 드롭다운 목록의 경우
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
@@ -2906,16 +2918,17 @@ Visual Studio 스크롤 막대와 일치시키려는 UI를 만드는 경우
 
  `Environment.ScrollBarArrowGlyphPressed`
 
-###  <a name="BKMK_TreeView"></a> 트리 뷰
- 솔루션 탐색기, 서버 탐색기 및 클래스 뷰를 포함하여 여러 도구 창은 TreeView 범주의 색 이름으로 색이 제어되는 계층적 조직 체계를 구현합니다. 트리 뷰의 모든 항목에는 배경색과 텍스트 색이 있습니다. 중첩된 자식 요소가 있는 항목에는 항목이 확장 또는 축소되었는지 여부를 나타내는 문자 모양도 있습니다.
+### <a name="BKMK_TreeView"></a> 트리 뷰
 
- ![트리 뷰 검토](../../extensibility/ux-guidelines/media/0303-147-treeviewredline.png "0303 147_TreeViewRedline")
+솔루션 탐색기, 서버 탐색기 및 클래스 뷰를 포함하여 여러 도구 창은 TreeView 범주의 색 이름으로 색이 제어되는 계층적 조직 체계를 구현합니다. 트리 뷰의 모든 항목에는 배경색과 텍스트 색이 있습니다. 중첩된 자식 요소가 있는 항목에는 항목이 확장 또는 축소되었는지 여부를 나타내는 문자 모양도 있습니다.
 
- 사용
+![트리 뷰 검토](../../extensibility/ux-guidelines/media/0303-147-treeviewredline.png "0303 147_TreeViewRedline")
+
+사용
 계층적 조직 뷰를 구현해야 하는 모든 위치
 
- 사용 안 함
- -   트리 뷰와 유사하지 않은 모든 항목
+사용 안 함
+- 트리 뷰와 유사하지 않은 모든 항목
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
@@ -3332,13 +3345,14 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
  `CommonControls.CheckBoxGlyphFocused`
 
 ### <a name="drop-boxcombo-box-controls"></a>드롭 상자/콤보 상자 컨트롤
- ![삭제&#45;아래로&#47;콤보 상자 검토](../../extensibility/ux-guidelines/media/0303-167-dropdowncomboboxredline.png "0303 167_DropDownComboBoxRedline")
 
- 사용
+![삭제&#45;아래로&#47;콤보 상자 검토](../../extensibility/ux-guidelines/media/0303-167-dropdowncomboboxredline.png "0303 167_DropDownComboBoxRedline")
+
+사용
 문서 저장소에 속하는 드롭다운 및 콤보 상자
 
- 사용 안 함
- -   드롭다운 또는 콤보 상자가 아닌 모든 UI
+사용 안 함
+- 드롭다운 또는 콤보 상자가 아닌 모든 UI
 
 - 명령 모음의 [Drop-down](../../misc/shared-colors.md#BKMK_CommandDropDown) 또는 [Combo box](../../misc/shared-colors.md#BKMK_CommandComboBox) 에 대해
 
@@ -3690,17 +3704,18 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
  없음
 
 ## <a name="manifest-designer"></a>매니페스트 디자이너
- 매니페스트 디자이너는 Windows 8 및 Windows Phone 8 프로젝트에서 매니페스트 파일을 보다 쉽게 편집할 수 있도록 하는 하나의 방법으로 설계되었습니다. 사용할 수 있는 공유 프레임워크가 없는 동안에는 방향/탐색 탭의 디자인 레이아웃 및 색과 전체적인 구조를 일치시키는 것이 좋습니다. 레이아웃 정보에 대한 자세한 내용은 [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md)을 참조하세요.
 
- ![매니페스트 디자이너 검토](../../extensibility/ux-guidelines/media/0303-175-manifestdesignerredline.png "0303 175_ManifestDesignerRedline")
+매니페스트 디자이너는 Windows 8 및 Windows Phone 8 프로젝트에서 매니페스트 파일을 보다 쉽게 편집할 수 있도록 하는 하나의 방법으로 설계되었습니다. 사용할 수 있는 공유 프레임워크가 없는 동안에는 방향/탐색 탭의 디자인 레이아웃 및 색과 전체적인 구조를 일치시키는 것이 좋습니다. 레이아웃 정보에 대한 자세한 내용은 [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md)을 참조하세요.
 
- 사용
- -   매니페스트 디자이너와 유사한 디자이너
+![매니페스트 디자이너 검토](../../extensibility/ux-guidelines/media/0303-175-manifestdesignerredline.png "0303 175_ManifestDesignerRedline")
+
+사용
+- 매니페스트 디자이너와 유사한 디자이너
 
 - 문서 저장소 내에서 편집기 맨 위에 있는 공용 탭 컨트롤을 사용하는 대신
 
-  사용 안 함
-  -   6개가 넘는 탭이 있는 경우
+사용 안 함
+- 6개가 넘는 탭이 있는 경우
 
 - 매니페스트 디자이너처럼 구조화되지 않은 모든 UI
 
@@ -3964,15 +3979,16 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 ## <a name="shell"></a>셸
 
 ### <a name="background"></a>배경
- 환경 배경은 두 계층으로 이루어져 있습니다. 아래쪽 계층은 전체 IDE에 적용되는 단색입니다. 위쪽 계층은 명령 선반 아래와 IDE의 왼쪽 및 오른쪽 가장자리에서 도구 창 자동 숨기기 채널 사이에 적용됩니다. Visual Studio 2013에서는 위쪽 및 아래쪽 배경 계층이 밝은 테마와 어두운 테마에서 동일한 색으로 설정됩니다.
 
- ![셸 배경 검토](../../extensibility/ux-guidelines/media/0303-187-shellbackgroundredline.png "0303 187_ShellBackgroundRedline")
+환경 배경은 두 계층으로 이루어져 있습니다. 아래쪽 계층은 전체 IDE에 적용되는 단색입니다. 위쪽 계층은 명령 선반 아래와 IDE의 왼쪽 및 오른쪽 가장자리에서 도구 창 자동 숨기기 채널 사이에 적용됩니다. Visual Studio 2013에서는 위쪽 및 아래쪽 배경 계층이 밝은 테마와 어두운 테마에서 동일한 색으로 설정됩니다.
 
- 사용
+![셸 배경 검토](../../extensibility/ux-guidelines/media/0303-187-shellbackgroundredline.png "0303 187_ShellBackgroundRedline")
+
+사용
 Visual Studio 환경의 배경과 일치시키려는 위치
 
- 사용 안 함
- -   배경 화면이 아닌 위치에 대한 채우기
+사용 안 함
+- 배경 화면이 아닌 위치에 대한 채우기
 
 - 전경 요소를 배치하려는 배경
 
@@ -4009,17 +4025,18 @@ Visual Studio 환경의 배경과 일치시키려는 위치
   `Environment.EnvironmentBackgroundGradientMiddle2`
 
 ### <a name="command-shelf"></a>명령 선반
- 명령 선반 배경에는 두 가지 토큰 이름 집합이 사용되며, 각각 메뉴 모음이 있는 위치와 명령 모음이 있는 위치에 사용됩니다. 개별 명령 모음 그룹에는 자체 배경색 값이 있으며, "명령 모음" 섹션에서 자세히 설명합니다. 메뉴 모음 및 명령 모음 텍스트는 각각 메뉴 및 명령 모음 섹션에서 설명합니다.
 
- ![명령 선반 검토](../../extensibility/ux-guidelines/media/0303-188-commandshelfredline.png "0303 188_CommandShelfRedline")
+명령 선반 배경에는 두 가지 토큰 이름 집합이 사용되며, 각각 메뉴 모음이 있는 위치와 명령 모음이 있는 위치에 사용됩니다. 개별 명령 모음 그룹에는 자체 배경색 값이 있으며, "명령 모음" 섹션에서 자세히 설명합니다. 메뉴 모음 및 명령 모음 텍스트는 각각 메뉴 및 명령 모음 섹션에서 설명합니다.
 
- 사용
- -   메뉴 또는 도구 모음을 배치하는 영역
+![명령 선반 검토](../../extensibility/ux-guidelines/media/0303-188-commandshelfredline.png "0303 188_CommandShelfRedline")
+
+사용
+- 메뉴 또는 도구 모음을 배치하는 영역
 
 - 올바른 배경 /? 전경 토큰 이름 조합 합니다.
 
-  사용 안 함
-  명령 선반과 유사하지 않은 영역
+사용 안 함
+명령 선반과 유사하지 않은 영역
 
   구성 요소
 

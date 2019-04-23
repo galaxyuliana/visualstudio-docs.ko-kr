@@ -12,12 +12,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 595c5f326ba7af25f3b6517f9955db18056e38f9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c129ddf016e02fe6c29d5cf63fe57ba07fbd4e95
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54794328"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087978"
 ---
 # <a name="collecting-detailed-timing-data-by-using-instrumentation"></a>계측을 사용하여 자세한 타이밍 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,11 +26,11 @@ ms.locfileid: "54794328"
   
  다음 절차 중 하나를 사용하여 계측 방법을 지정할 수 있습니다.  
   
--   프로파일링 마법사의 첫 페이지에서 **계측**을 선택합니다.  
+- 프로파일링 마법사의 첫 페이지에서 **계측**을 선택합니다.  
   
--   **성능 탐색기** 도구 모음의 **메서드** 목록에서 **계측**을 클릭합니다.  
+- **성능 탐색기** 도구 모음의 **메서드** 목록에서 **계측**을 클릭합니다.  
   
--   성능 세션에 대한 속성 대화 상자의 **일반** 페이지에서 **계측**을 선택합니다.  
+- 성능 세션에 대한 속성 대화 상자의 **일반** 페이지에서 **계측**을 선택합니다.  
   
 ## <a name="common-tasks"></a>일반 작업  
  성능 세션의 _성능 세션_**속성 페이지** 대화 상자에서 추가 옵션을 지정할 수 있습니다. 이 대화 상자를 열려면  
@@ -42,7 +42,7 @@ ms.locfileid: "54794328"
 |작업|관련 내용|  
 |----------|---------------------|  
 |**일반** 페이지에서 .NET 메모리 할당 및 수명 데이터를 추가하고 생성된 프로파일링 데이터(.vsp) 파일에 대한 이름 지정 세부 정보를 지정합니다.|-   [.NET 메모리 할당 및 수명 데이터 수집](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)<br />-   [방법: 성능 데이터 파일 이름 옵션 설정](../profiling/how-to-set-performance-data-file-name-options.md)|  
-|**시작** 페이지에서 사용자 솔루션에 여러 .exe 프로젝트가 있는 경우 시작할 애플리케이션 및 시작 순서를 지정합니다.|-   [방법: 시작할 이진 파일 지정](../profiling/how-to-specify-the-binary-to-start.md)|  
+|**시작** 페이지에서 사용자 솔루션에 여러 .exe 프로젝트가 있는 경우 시작할 응용 프로그램 및 시작 순서를 지정합니다.|-   [방법: 시작할 이진 파일 지정](../profiling/how-to-specify-the-binary-to-start.md)|  
 |**이진** 페이지에서 모듈의 계측된 복사본에 대한 위치를 지정합니다. 기본적으로 원래 이진 파일이 백업 폴더로 이동됩니다.|-   [방법: 계측된 이진 파일 재배치](../profiling/how-to-relocate-instrumented-binaries.md)|  
 |**계층 상호 작용** 페이지에서 프로파일링 실행에 ADO.NET 호출 데이터를 추가합니다.|-   [계층 상호 작용 데이터 수집](../profiling/collecting-tier-interaction-data.md)|  
 |**계측** 페이지에서 작은 함수가 프로파일링되지 않도록 제외하여 프로파일링 오버헤드를 줄이고, JavaScript 코드를 ASP.NET 웹 페이지에 프로파일링하고, 계측 프로세스 전후에 명령 프롬프트에서 실행할 명령을 지정합니다.|-   [방법: 계측에서 간단한 함수 제외 또는 포함](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)<br />-   [방법: 웹 페이지에서 JavaScript 코드 프로파일링](../profiling/how-to-profile-javascript-code-in-web-pages.md)<br />-   [방법: 계측 전 명령 및 계측 후 명령 지정](../profiling/how-to-specify-pre-and-post-instrument-commands.md)|  

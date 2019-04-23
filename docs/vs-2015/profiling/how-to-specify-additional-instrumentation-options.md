@@ -1,5 +1,5 @@
 ---
-title: '방법: 추가 계측 옵션 지정 | Microsoft 문서'
+title: '방법: 추가 계측 옵션 지정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -15,12 +15,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4efa493afa7257d4460fd106a0a9685930ca3e59
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c2440f31b6a6ac345644e20e14b4a82972967fab
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54803045"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104280"
 ---
 # <a name="how-to-specify-additional-instrumentation-options"></a>방법: 추가 계측 옵션 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,22 +29,22 @@ ms.locfileid: "54803045"
   
  **요구 사항**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!IMPORTANT]
 >  삽입된 모든 프로브는 원래 프로그램의 동작을 약간 수정합니다. 이 수정으로 인해 분석 시 오버헤드가 발생합니다. 이 오버헤드의 근사치를 빼더라도 다중 스레드 애플리케이션의 타이밍에 약간의 영향을 미칩니다. [VSInstr](../profiling/vsinstr.md) 도구 옵션을 통해 프로파일링 중에 데이터 수집을 제어할 수 있습니다.  
   
 ### <a name="to-specify-additional-instrumentation-option"></a>추가적인 계측 옵션을 지정하려면  
   
-1.  **성능 탐색기**에서 **성능 세션**을 선택한 다음 마우스 오른쪽 단추를 클릭하고 **속성**을 클릭합니다.  
+1. **성능 탐색기**에서 **성능 세션**을 선택한 다음 마우스 오른쪽 단추를 클릭하고 **속성**을 클릭합니다.  
   
-2.  **속성 페이지**에서 **고급** 속성을 클릭합니다.  
+2. **속성 페이지**에서 **고급** 속성을 클릭합니다.  
   
-3.  **추가 계측 옵션** 상자에 옵션을 입력합니다.  
+3. **추가 계측 옵션** 상자에 옵션을 입력합니다.  
   
      예를 들어 /CONTROL:THREAD를 사용하여 프로파일링 수준을 지정합니다. 전체 옵션 목록을 보려면 [VSInstr](../profiling/vsinstr.md)를 참조하세요.  
   
-4.  **확인**을 클릭합니다.  
+4. **확인**을 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [성능 세션 구성](../profiling/configuring-performance-sessions.md)   

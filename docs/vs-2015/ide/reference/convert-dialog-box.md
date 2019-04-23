@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a67804984c427062e55b72e3bbe942e6e4839f99
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: e69b9a96ba2529eba2f981ab79e59c5e7936cf97
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652828"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086587"
 ---
 # <a name="convert-dialog-box"></a>변환 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,11 +33,11 @@ ms.locfileid: "59652828"
   
 #### <a name="to-access-the-convert-dialog-box"></a>변환 대화 상자에 액세스하려면  
   
-1.  메뉴 모음에서 **파일**, **열기**, **변환**을 선택합니다.  
+1. 메뉴 모음에서 **파일**, **열기**, **변환**을 선택합니다.  
   
      현재 사용할 수 있는 코드 변환 도구 목록이 표시됩니다.  
   
-2.  애플리케이션에 적합한 도구를 선택합니다.  
+2. 애플리케이션에 적합한 도구를 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [NOTINBUILD - 방법: Visual Basic 6.0에서 프로젝트 업그레이드](http://msdn.microsoft.com/c0421e57-5bba-422e-934d-ec42ab9f2af9)   

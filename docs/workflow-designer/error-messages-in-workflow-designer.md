@@ -1,5 +1,5 @@
 ---
-title: 워크플로 디자이너의 오류 메시지
+title: Workflow Designer의 오류 메시지
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -12,14 +12,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 765072cea77a23ca63a176555832bbc95f0ab4b6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ab2cb4562f816b254b658cfdc152dc38033fbe03
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950034"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104547"
 ---
-# <a name="error-messages-in-workflow-designer"></a>워크플로 디자이너의 오류 메시지
+# <a name="error-messages-in-workflow-designer"></a>Workflow Designer의 오류 메시지
 
 이 항목에서는 워크플로 디자이너를 사용 하 여 작업할 때 발생할 수 있는 오류 메시지 유형을 설명 합니다.
 
@@ -27,13 +27,13 @@ ms.locfileid: "55950034"
 
 워크플로 디자이너의 오류는 다음과 같은 상황에서 발생합니다.
 
-1.  식에 오류가 있습니다.
+1. 식에 오류가 있습니다.
 
-2.  활동의 유효성 검사 제약 조건이 충족되지 않았습니다.
+2. 활동의 유효성 검사 제약 조건이 충족되지 않았습니다.
 
-3.  XAML 파일에 오류가 있어서 활동을 로드할 수 없습니다.
+3. XAML 파일에 오류가 있어서 활동을 로드할 수 없습니다.
 
-4.  XAML 파일에 오류가 있어서 워크플로를 로드할 수 없습니다.
+4. XAML 파일에 오류가 있어서 워크플로를 로드할 수 없습니다.
 
 잘못된 식과 충족되지 않은 유효성 검사 제약 조건으로도 워크플로가 작성됩니다. 워크플로는 작성되지만 런타임 시 <xref:System.Activities.InvalidWorkflowException>이 throw됩니다. XAML 파일에 오류가 있으면 빌드가 수행되지 않습니다.
 

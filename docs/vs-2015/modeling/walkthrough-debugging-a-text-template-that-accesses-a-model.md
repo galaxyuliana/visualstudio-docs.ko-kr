@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4d6b759f62c4faa7e2f75f53f85cb04ba4484a7f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: eb5a9e6806c76cbb072090c35444d936ce50bb79
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984935"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087120"
 ---
 # <a name="walkthrough-debugging-a-text-template-that-accesses-a-model"></a>연습: 모델에 액세스 하는 텍스트 템플릿 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,11 +42,11 @@ ms.locfileid: "58984935"
   
 #### <a name="to-create-a-text-template"></a>텍스트 템플릿을 만들려면  
   
-1.  솔루션을 빌드하고 디버거에서 실행을 시작 합니다. (에 **빌드** 메뉴에서 클릭 **솔루션 다시 빌드**를 한 후는 **디버그** 메뉴를 클릭 **디버깅 시작**.) Visual Studio의 새 인스턴스를 디버깅 프로젝트를 엽니다.  
+1. 솔루션을 빌드하고 디버거에서 실행을 시작 합니다. (에 **빌드** 메뉴에서 클릭 **솔루션 다시 빌드**를 한 후는 **디버그** 메뉴를 클릭 **디버깅 시작**.) Visual Studio의 새 인스턴스를 디버깅 프로젝트를 엽니다.  
   
-2.  라는 텍스트 파일을 추가 `DebugTest.tt` 디버깅 프로젝트에 있습니다.  
+2. 라는 텍스트 파일을 추가 `DebugTest.tt` 디버깅 프로젝트에 있습니다.  
   
-3.  있는지 확인 합니다 **사용자 지정 도구** DebugTest.tt의 속성이 `TextTemplatingFileGenerator`합니다.  
+3. 있는지 확인 합니다 **사용자 지정 도구** DebugTest.tt의 속성이 `TextTemplatingFileGenerator`합니다.  
   
 ## <a name="debugging-directives-that-access-a-model-from-a-text-template"></a>텍스트 템플릿에서 모델에 액세스 하는 디버깅 지시문  
  문 및 식 텍스트 템플릿에서 모델에 액세스 하기 전에 생성된 된 지시문 프로세서를 먼저 호출 해야 합니다. 생성 된 지시문 프로세서를 호출 클래스 모델에 사용할 수 있도록 텍스트 템플릿 코드를 속성으로. 자세한 내용은 [텍스트 템플릿에서 모델에 액세스](../modeling/accessing-models-from-text-templates.md)합니다.  
@@ -55,7 +55,7 @@ ms.locfileid: "58984935"
   
 #### <a name="to-debug-an-incorrect-directive-name"></a>잘못 된 지시문 이름을 디버깅 하려면  
   
-1.  DebugTest.tt의 코드를 다음 코드로 바꿉니다.  
+1. DebugTest.tt의 코드를 다음 코드로 바꿉니다.  
   
     > [!NOTE]
     >  코드는 오류를 포함합니다. 디버깅을 위해 오류를 소개 하기.  
@@ -91,7 +91,7 @@ ms.locfileid: "58984935"
     #>  
     ```  
   
-2.  **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
+2. **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
   
      합니다 **오류 목록** 창에이 오류가 표시 됩니다.  
   
@@ -99,9 +99,9 @@ ms.locfileid: "58984935"
   
      이 경우 지시문 호출에 잘못 된 지시문 이름을 포함합니다. 사용자가 지정한 `modelRoot` 지시문 이름을 하지만 올바른 지시문 이름을 그대로 `DebuggingTestLanguage`합니다.  
   
-3.  오류를 두 번 클릭 합니다 **오류 목록** 창의 코드를 이동할 수 있습니다.  
+3. 오류를 두 번 클릭 합니다 **오류 목록** 창의 코드를 이동할 수 있습니다.  
   
-4.  코드를 수정 하려면 지시문 이름을 변경 `DebuggingTestLanguage`합니다.  
+4. 코드를 수정 하려면 지시문 이름을 변경 `DebuggingTestLanguage`합니다.  
   
      변경 내용은 강조 표시 됩니다.  
   
@@ -113,13 +113,13 @@ ms.locfileid: "58984935"
     <#@ DebuggingTestLanguage processor="DebuggingTestLanguageDirectiveProcessor" requires="fileName='Sample.ddd'" provides="ExampleModel=ExampleModel" #>  
     ```  
   
-5.  **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
+5. **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
   
      이제 시스템 텍스트 템플릿을 변환 하 고 해당 출력 파일을 생성 합니다. 에 오류가 표시 되지 것입니다 합니다 **오류 목록** 창입니다.  
   
 #### <a name="to-debug-an-incorrect-property-name"></a>올바르지 않은 속성 이름을 디버깅 하려면  
   
-1.  DebugTest.tt의 코드를 다음 코드로 바꿉니다.  
+1. DebugTest.tt의 코드를 다음 코드로 바꿉니다.  
   
     > [!NOTE]
     >  코드는 오류를 포함합니다. 디버깅을 위해 오류를 소개 하기.  
@@ -155,7 +155,7 @@ ms.locfileid: "58984935"
     #>  
     ```  
   
-2.  에 **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
+2. 에 **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
   
      합니다 **오류 목록** 창이 나타나고 이러한 오류 중 하나가 표시 됩니다.  
   
@@ -173,9 +173,9 @@ ms.locfileid: "58984935"
     <#@ DebuggingTestLanguage processor="DebuggingTestLanguageDirectiveProcessor" requires="fileName='Sample.ddd'" provides="ExampleModel=LibraryModel" #>  
     ```  
   
-3.  코드를 이동할 오류 목록 창에서 오류를 두 번 클릭 합니다.  
+3. 코드를 이동할 오류 목록 창에서 오류를 두 번 클릭 합니다.  
   
-4.  코드를 수정 하려면 속성 이름을 변경 `LibraryModel` 텍스트 템플릿 코드에서.  
+4. 코드를 수정 하려면 속성 이름을 변경 `LibraryModel` 텍스트 템플릿 코드에서.  
   
      변경 내용은 강조 표시되어 있습니다.  
   
@@ -210,6 +210,6 @@ ms.locfileid: "58984935"
     #>  
     ```  
   
-5.  **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
+5. **솔루션 탐색기**DebugTest.tt를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **사용자 지정 도구 실행**합니다.  
   
      이제 시스템 텍스트 템플릿을 변환 하 고 해당 출력 파일을 생성 합니다. 에 오류가 표시 되지 것입니다 합니다 **오류 목록** 창입니다.

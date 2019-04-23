@@ -10,29 +10,29 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 81d91603d6c365946b1064cac3a7f1ca3c1e6ba8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a188116b09b846e81023c239d64d6386c7f2c6ae
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713297"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086522"
 ---
 # <a name="inside-the-core-editor"></a>핵심 편집기 내에서
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 핵심 편집기가 텍스트 정보를 쿼리하고 수정할 수 있는 여러 구성 요소 집합입니다. 핵심 편집기 기존 API를 사용 하 여 사용자 지정 하면, 편집기 어댑터를 통해 라우팅되는 이러한 사용자 지정을 사용 하 여 계속 수 있습니다. 하지만 좋습니다, 새 편집기 API로 사용자 지정을 적용 하는.
 
  다음 영역은 핵심 편집기의 몇 가지 중요 한 측면을 보여 줍니다.
 
--   텍스트 버퍼
+- 텍스트 버퍼
 
--   텍스트 보기
+- 텍스트 보기
 
--   코드 창
+- 코드 창
 
--   텍스트 마커
+- 텍스트 마커
 
--   텍스트 관리자
+- 텍스트 관리자
 
--   언어 서비스와의 통합
+- 언어 서비스와의 통합
 
 ## <a name="in-this-section"></a>단원 내용
 - [기존 API를 사용 하 여 핵심 편집기 인스턴스화할](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md) 사용 하는 방법에 대 한 단계별 지침을 제공 <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> 편집기 코어의 인스턴스를 만들려고 합니다.

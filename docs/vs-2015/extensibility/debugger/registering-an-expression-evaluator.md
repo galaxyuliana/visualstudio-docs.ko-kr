@@ -11,12 +11,12 @@ ms.assetid: 236be234-e05f-4ad8-9200-24ce51768ecf
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: fa412b37ae735ffd53acba9d7e9730f4a51ce416
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 9b1f052392edab92dfd566c14bb0e452ca0056bf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985156"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113900"
 ---
 # <a name="registering-an-expression-evaluator"></a>식 계산기 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -109,9 +109,9 @@ namespace EEMC
 ### <a name="dll-server-process"></a>DLL 서버 프로세스  
  DLL server는 EE 등록 하는 경우:  
   
-1.  해당 클래스 팩터리를 등록 `CLSID` 일반 COM 규칙에 따라 합니다.  
+1. 해당 클래스 팩터리를 등록 `CLSID` 일반 COM 규칙에 따라 합니다.  
   
-2.  도우미 함수를 호출 `SetEEMetric` EE 메트릭을 다음 표에 나와 있는 Visual Studio를 사용 하 여 등록 합니다. 함수 `SetEEMetric` 및 아래에 지정 된 메트릭은 dbgmetric.lib 라이브러리의 일부입니다. 참조 [디버깅을 위한 SDK 도우미](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) 세부 정보에 대 한 합니다.  
+2. 도우미 함수를 호출 `SetEEMetric` EE 메트릭을 다음 표에 나와 있는 Visual Studio를 사용 하 여 등록 합니다. 함수 `SetEEMetric` 및 아래에 지정 된 메트릭은 dbgmetric.lib 라이브러리의 일부입니다. 참조 [디버깅을 위한 SDK 도우미](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) 세부 정보에 대 한 합니다.  
   
     |메트릭|설명|  
     |------------|-----------------|  
@@ -123,10 +123,10 @@ namespace EEMC
     > [!NOTE]
     >  `metricLanguage``GUID` 이름에서 언어를 식별 하는 합니다 `guidLang` 인수를 `SetEEMetric` 언어를 선택 하는. 컴파일러가 디버그 정보 파일을 생성할 때 적절 한 작성 해야 `guidLang` 는 DE 사용 하는 EE에서 알 수 있도록 합니다. 일반적으로 DE이이 언어에 대 한 기호 공급자를 요청 `GUID`, 디버그 정보 파일에 저장 된 합니다.  
   
-3.  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio 아래에 키를 만들어 Visual Studio를 사용 하 여 등록\\*X.Y*여기서 *X.Y* 등록 하도록 Visual Studio의 버전입니다.  
+3. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio 아래에 키를 만들어 Visual Studio를 사용 하 여 등록\\*X.Y*여기서 *X.Y* 등록 하도록 Visual Studio의 버전입니다.  
   
 ### <a name="example"></a>예제  
- 이 함수에는 관리 되지 않는 코드 (c + +) EE 등록 하 고 Visual Studio를 사용 하 여 자체 등록을 취소 하는 방법을 보여 줍니다.  
+ 이 함수는 어떻게 관리 되지 않는 코드를 보여 줍니다 (C++) EE를 등록 하 고 Visual Studio를 사용 하 여 자체 등록을 취소 합니다.  
   
 ```cpp#  
 /*---------------------------------------------------------  

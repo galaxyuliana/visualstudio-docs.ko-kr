@@ -20,12 +20,12 @@ caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5c698b84ec3af759a4c276e0129e628abba9212f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c60405331ebab909e8056d4800bd43b208c92493
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986321"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087146"
 ---
 # <a name="uml-activity-diagrams-reference"></a>UML 동작 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,7 +85,7 @@ ms.locfileid: "58986321"
 |13|**신호 보내기 작업**|다른 동작이나 동일한 동작의 동시 스레드로 메시지 또는 신호를 보내는 작업입니다. 메시지의 유형 및 콘텐츠는 동작의 제목에 암시되거나 추가 주석에 지정됩니다.<br /><br /> 동작은 개체 흐름 또는 입력 핀(16)의 동작에 전달될 수 있는 신호를 통해 데이터를 보낼 수 있습니다.|  
 |14|**이벤트 적용 작업**|동작을 계속하기 전에 메시지 또는 신호를 대기하는 동작입니다. 동작이 받을 수 있는 메시지 유형은 제목에 암시되거나 추가 주석에 지정됩니다.<br /><br /> 동작에 들어오는 제어 흐름이 없는 경우 메시지를 받을 때마다 토큰을 생성합니다.<br /><br /> 동작은 개체 흐름 또는 출력 핀(17)에서 전달될 수 있는 신호를 통해 데이터를 받을 수 있습니다.<br /><br /> -   **마샬링** -true 이면 여러 개의 형식화 된 출력 핀 있을 수 있으며 데이터가 마샬링됩니다. False이면 모든 데이터가 한 핀에 나타납니다.|  
   
-###  <a name="DataFlow"></a> 데이터 흐름  
+### <a name="DataFlow"></a> 데이터 흐름  
  동작 간의 데이터 흐름을 설명할 수 있습니다. 이 섹션에서 사용된 요소에 대한 자세한 내용은 동작 다이어그램 그리기 지침 항목의 데이터 흐름 그리기 섹션을 참조하세요.  
   
  ![데이터 흐름을 보여 주는 동작 다이어그램](../modeling/media/uml-actovdata.png "UML_ActOvData")  

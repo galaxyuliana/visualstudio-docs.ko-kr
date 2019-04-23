@@ -8,12 +8,12 @@ helpviewer_keywords:
 - menus, creating commands
 ms.assetid: 553d5e07-3e19-4aba-b490-6c7dd05fd82e
 manager: jillfra
-ms.openlocfilehash: 52ca70a0a3c4e129063c5d861fd4692dcd85cc9c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 83d528efd499615c92db163aed4d0b8881e75fdf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335502"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086015"
 ---
 # <a name="menucommands-vs-olemenucommands"></a>MenuCommand 및 OleMenuCommand
 파생 하 여 메뉴 명령을 만들 수 있습니다 <xref:System.ComponentModel.Design.MenuCommand> 주고 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 개체를 적절 한 이벤트 처리기를 구현 합니다. 대부분의 경우 <xref:System.ComponentModel.Design.MenuCommand>를 VSPackage 프로젝트 템플릿으로 사용할 수 있지만 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>를 사용해야 할 때가 있습니다.
@@ -63,9 +63,9 @@ ms.locfileid: "56335502"
    </Button>
    ```
 
-   1.  `guid` 및 `id` 필드를 새 명령의 GUID:ID와 일치하도록 설정합니다.
+   1. `guid` 및 `id` 필드를 새 명령의 GUID:ID와 일치하도록 설정합니다.
 
-   2.  `priority` 특성을 설정합니다.
+   2. `priority` 특성을 설정합니다.
 
         `priority` 특성은 .vsct에서 해당 부모 그룹의 다른 개체 간에 단추 위치를 결정하는 데 사용됩니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "56335502"
 
         `priority` 특성을 생략하면 값이 0으로 설정됩니다.
 
-   3.  `type` 특성을 설정합니다. 대부분의 경우 값은 `"Button"`으로 설정됩니다. 다른 유효한 단추 형식 설명을 보려면 [Button 요소](../extensibility/button-element.md)합니다.
+   3. `type` 특성을 설정합니다. 대부분의 경우 값은 `"Button"`으로 설정됩니다. 다른 유효한 단추 형식 설명을 보려면 [Button 요소](../extensibility/button-element.md)합니다.
 
 5. 단추 정의에서 [ButtonText](../extensibility/strings-element.md) 요소가 포함된 [Strings](../extensibility/buttontext-element.md) 요소를 만들어 IDE에 나타나는 메뉴 이름을 포함하고, [CommandName](../extensibility/commandname-element.md) 요소를 만들어 **명령** 창에서 메뉴에 액세스하는 데 사용되는 명령 이름을 포함합니다.
 
@@ -127,11 +127,11 @@ ms.locfileid: "56335502"
 
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스를 사용하여 직접 명령을 처리하는 코드의 경우 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스 및 해당 메서드를 구현해야 합니다. 두 개의 가장 중요한 메서드는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 및 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A>입니다.
 
-1.  다음 예제와 같이 <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> 인스턴스를 가져옵니다.
+1. 다음 예제와 같이 <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> 인스턴스를 가져옵니다.
 
      [!code-csharp[ButtonGroup#21](../extensibility/codesnippet/CSharp/menucommands-vs-olemenucommands_5.cs)]
 
-2.  다음 예제와 같이 처리할 명령의 GUID 및 ID를 해당 매개 변수로 사용하는 <xref:System.ComponentModel.Design.CommandID> 개체를 만듭니다.
+2. 다음 예제와 같이 처리할 명령의 GUID 및 ID를 해당 매개 변수로 사용하는 <xref:System.ComponentModel.Design.CommandID> 개체를 만듭니다.
 
      [!code-csharp[ButtonGroup#22](../extensibility/codesnippet/CSharp/menucommands-vs-olemenucommands_6.cs)]
 
@@ -139,7 +139,7 @@ ms.locfileid: "56335502"
 
      또는 GUID의 원시 문자열 값 및 ID의 정수 값을 사용하여 <xref:System.ComponentModel.Design.CommandID> 개체를 채울 수 있습니다.
 
-3.  다음 예제에서처럼 <xref:System.ComponentModel.Design.MenuCommand> 또는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 개체를 인스턴스화합니다. 이 개체들은 <xref:System.ComponentModel.Design.CommandID>와 함께 명령을 처리하는 메서드를 지정합니다.
+3. 다음 예제에서처럼 <xref:System.ComponentModel.Design.MenuCommand> 또는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 개체를 인스턴스화합니다. 이 개체들은 <xref:System.ComponentModel.Design.CommandID>와 함께 명령을 처리하는 메서드를 지정합니다.
 
      [!code-csharp[ButtonGroup#23](../extensibility/codesnippet/CSharp/menucommands-vs-olemenucommands_7.cs)]
 
@@ -147,7 +147,7 @@ ms.locfileid: "56335502"
 
      패키지 템플릿으로 만든 명령은 기본적으로 패키지 클래스에 있는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 메서드의 `Initialize()` 개체에 전달됩니다.
 
-4.  <xref:System.ComponentModel.Design.MenuCommand> 는 정적 명령에 적합합니다. 동적 메뉴 항목 표시에는 QueryStatus 이벤트 처리기가 필요합니다. <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 는 명령의 호스트 메뉴가 열릴 때 발생하는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> 이벤트와 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text%2A>등의 다른 일부 속성을 추가합니다.
+4. <xref:System.ComponentModel.Design.MenuCommand> 는 정적 명령에 적합합니다. 동적 메뉴 항목 표시에는 QueryStatus 이벤트 처리기가 필요합니다. <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 는 명령의 호스트 메뉴가 열릴 때 발생하는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> 이벤트와 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text%2A>등의 다른 일부 속성을 추가합니다.
 
      패키지 템플릿으로 만든 명령은 기본적으로 패키지 클래스에 있는 <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> 메서드의 `Initialize()` 개체에 전달됩니다. Visual Studio 마법사는 `Initialize` 를 사용하여 `MenuCommand`메서드를 구현합니다. 동적 메뉴 항목 표시의 경우 다음 단계와 같이 `OleMenuCommand`로 변경해야 합니다. 또한 메뉴 항목의 텍스트를 변경하려면 다음 예제와 같이 .vsct 파일의 메뉴 명령 단추에 TextChanges 명령 플래그를 추가해야 합니다.
 
@@ -164,11 +164,11 @@ ms.locfileid: "56335502"
     </Button>
     ```
 
-5.  새 메뉴 명령을 <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand%2A> 인터페이스의 <xref:System.ComponentModel.Design.IMenuCommandService> 메서드에 전달합니다. 이 작업은 다음 예제와 같이 패키지 템플릿으로 만든 명령에 대해 기본적으로 수행됩니다.
+5. 새 메뉴 명령을 <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand%2A> 인터페이스의 <xref:System.ComponentModel.Design.IMenuCommandService> 메서드에 전달합니다. 이 작업은 다음 예제와 같이 패키지 템플릿으로 만든 명령에 대해 기본적으로 수행됩니다.
 
      [!code-csharp[ButtonGroup#24](../extensibility/codesnippet/CSharp/menucommands-vs-olemenucommands_9.cs)]
 
-6.  명령을 처리하는 메서드를 구현합니다.
+6. 명령을 처리하는 메서드를 구현합니다.
 
 ### <a name="to-implement-querystatus"></a>QueryStatus를 구현하려면
 
@@ -247,11 +247,11 @@ ms.locfileid: "56335502"
 
 #### <a name="to-implement-the-exec-method"></a>Exec 메서드를 구현하려면
 
--   `GUID` 명령을 알 수 없는 경우 `OLECMDERR_E_UNKNOWNGROUP`을 반환합니다.
+- `GUID` 명령을 알 수 없는 경우 `OLECMDERR_E_UNKNOWNGROUP`을 반환합니다.
 
--   `GUID` 가 알려졌지만 명령 ID를 알 수 없는 경우 `OLECMDERR_E_NOTSUPPORTED`를 반환합니다.
+- `GUID` 가 알려졌지만 명령 ID를 알 수 없는 경우 `OLECMDERR_E_NOTSUPPORTED`를 반환합니다.
 
--   경우는 `GUID` 명령 ID의 명령에 사용 되는 guid: id 쌍 일치를 *.vsct* 파일에서 연결 된 명령 및 반환 코드를 실행 <xref:Microsoft.VisualStudio.VSConstants.S_OK>합니다.
+- 경우는 `GUID` 명령 ID의 명령에 사용 되는 guid: id 쌍 일치를 *.vsct* 파일에서 연결 된 명령 및 반환 코드를 실행 <xref:Microsoft.VisualStudio.VSConstants.S_OK>합니다.
 
 ## <a name="see-also"></a>참고자료
 

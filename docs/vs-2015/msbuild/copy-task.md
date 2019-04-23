@@ -22,12 +22,12 @@ caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 805a8d6616b4f6c198173ad2a9c9d733ad50de32
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 08442d6044ca978e69f199e76c4668db63c319da
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648709"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086275"
 ---
 # <a name="copy-task"></a>Copy 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,21 +52,21 @@ ms.locfileid: "59648709"
 ## <a name="warnings"></a>경고  
  다음을 포함하여 경고가 기록됩니다.  
   
--   `Copy.DestinationIsDirectory`  
+- `Copy.DestinationIsDirectory`  
   
--   `Copy.SourceIsDirectory`  
+- `Copy.SourceIsDirectory`  
   
--   `Copy.SourceFileNotFound`  
+- `Copy.SourceFileNotFound`  
   
--   `Copy.CreatesDirectory`  
+- `Copy.CreatesDirectory`  
   
--   `Copy.HardLinkComment`  
+- `Copy.HardLinkComment`  
   
--   `Copy.RetryingAsFileCopy`  
+- `Copy.RetryingAsFileCopy`  
   
--   `Copy.FileComment`  
+- `Copy.FileComment`  
   
--   `Copy.RemovingReadOnlyAttribute`  
+- `Copy.RemovingReadOnlyAttribute`  
   
 ## <a name="remarks"></a>주의  
  `DestinationFolder` 또는 `DestinationFiles` 매개 변수 중 하나(둘 다가 아닌)를 지정해야 합니다. 둘 다를 지정하는 경우 작업이 실패하고 오류가 기록됩니다.  

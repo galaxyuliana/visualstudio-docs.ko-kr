@@ -10,12 +10,12 @@ ms.assetid: 800fc739-acd2-4242-84cb-1d83b4d82cf9
 caps.latest.revision: 38
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 46e9ad272dd7d7b6e4a1f6033f09e99cb4b289d3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 9af0a3dc7c08a415f320ce3560cdfc23c462d4c7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54782661"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087523"
 ---
 # <a name="using-code-coverage-to-determine-how-much-code-is-being-tested"></a>코드 검사를 사용하여 테스트할 코드 범위 결정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,17 +30,17 @@ ms.locfileid: "54782661"
   
  **요구 사항**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ### <a name="to-analyze-code-coverage-on-unit-tests-in-test-explorer"></a>테스트 탐색기의 단위 테스트에서 코드 검사를 분석하려면  
   
-1.  **테스트** 메뉴에서 **코드 검사 분석**을 선택합니다.  
+1. **테스트** 메뉴에서 **코드 검사 분석**을 선택합니다.  
   
-2.  실행된 줄을 확인하려면 ![코드 검사 강조 표시 아이콘](../test/media/codecoverage-showcoloringicon.png "CodeCoverage ShowColoringIcon")**코드 검사 강조 표시**을 선택합니다.  
+2. 실행된 줄을 확인하려면 ![코드 검사 강조 표시 아이콘](../test/media/codecoverage-showcoloringicon.png "CodeCoverage ShowColoringIcon")**코드 검사 강조 표시**을 선택합니다.  
   
      색을 변경 하거나 굵게 표시 하려면 선택 **도구**를 **옵션**합니다 **환경**를 **글꼴 및 색**, **표시 설정: 텍스트 편집기**를 선택합니다. **표시 항목**에서 검사 항목을 조정합니다.  
   
-3.  결과에 검사가 낮게 표시되는 경우, 코드에서 실행되지 않은 부분을 확인한 다음 검사할 추가 테스트를 작성합니다. 개발 팀을 일반적으로 약 80%의 코드 검사를 목표로 합니다. 경우에 따라 더 낮은 검사도 허용됩니다. 예를 들어, 일부 코드가 표준 템플릿에서 생성된 경우 낮은 검사가 허용됩니다.  
+3. 결과에 검사가 낮게 표시되는 경우, 코드에서 실행되지 않은 부분을 확인한 다음 검사할 추가 테스트를 작성합니다. 개발 팀을 일반적으로 약 80%의 코드 검사를 목표로 합니다. 경우에 따라 더 낮은 검사도 허용됩니다. 예를 들어, 일부 코드가 표준 템플릿에서 생성된 경우 낮은 검사가 허용됩니다.  
   
 > [!TIP]
 >  정확한 결과를 얻으려면  
@@ -48,7 +48,7 @@ ms.locfileid: "54782661"
 > - 컴파일러 최적화가 해제되었는지 확인하세요.  
 > 
 >   관리되지 않은(네이티브) 코드를 사용하는 경우 디버그 빌드를 사용합니다.  
->   -   각 어셈블리에 대해 .pdb(기호) 파일을 생성하고 있는지 확인합니다.  
+>   - 각 어셈블리에 대해 .pdb(기호) 파일을 생성하고 있는지 확인합니다.  
 > 
 >   예상한 결과를 얻지 못한 경우 [코드 검사 문제 해결](../test/troubleshooting-code-coverage.md)을 참조하세요. . 코드를 업데이트한 후 반드시 코드 검사를 다시 실행하세요. 검사 결과 및 코드 강조는 코드를 수정한 후 또는 테스트를 실행한 경우 자동으로 업데이트되지 않습니다.  
   
@@ -66,15 +66,15 @@ ms.locfileid: "54782661"
   
  여러 실행(예: 다른 테스트 데이터를 사용하는 실행)의 결과를 병합할 수 있습니다.  
   
--   **이전 결과 집합을 보려면** 드롭다운 메뉴에서 선택합니다. 이 메뉴에는 새 솔루션을 열 때 삭제되는 임시 목록이 표시됩니다.  
+- **이전 결과 집합을 보려면** 드롭다운 메뉴에서 선택합니다. 이 메뉴에는 새 솔루션을 열 때 삭제되는 임시 목록이 표시됩니다.  
   
--   **이전 세션의 결과를 보려면** **코드 검사 결과 가져오기**를 선택한 다음 솔루션에서 TestResults 폴더를 탐색하고 .coverage 파일을 가져옵니다.  
+- **이전 세션의 결과를 보려면** **코드 검사 결과 가져오기**를 선택한 다음 솔루션에서 TestResults 폴더를 탐색하고 .coverage 파일을 가져옵니다.  
   
      .coverage 파일이 생성된 이후 소스 코드가 변경된 경우 검사 강조가 잘못될 수 있습니다.  
   
--   **결과를 텍스트 형식으로 읽으려면** **코드 검사 결과 내보내기**를 선택합니다. 그러면 다른 도구로 처리하거나 메일로 쉽게 전송할 수 있는 읽기 가능한 .coveragexm 파일이 생성됩니다.  
+- **결과를 텍스트 형식으로 읽으려면** **코드 검사 결과 내보내기**를 선택합니다. 그러면 다른 도구로 처리하거나 메일로 쉽게 전송할 수 있는 읽기 가능한 .coveragexm 파일이 생성됩니다.  
   
--   **결과를 다른 사람에게 전송하려면** .coverage 파일 또는 내보낸 .coveragexml 파일을 전송합니다. 그런 다음 수신자는 파일을 가져올 수 있습니다. 동일한 버전의 소스 코드가 있으면 검사 강조를 볼 수 있습니다.  
+- **결과를 다른 사람에게 전송하려면** .coverage 파일 또는 내보낸 .coveragexml 파일을 전송합니다. 그런 다음 수신자는 파일을 가져올 수 있습니다. 동일한 버전의 소스 코드가 있으면 검사 강조를 볼 수 있습니다.  
   
 ## <a name="merging-results-from-different-runs"></a>다른 실행에서 결과 병합  
  테스트 데이터에 따라 코드에 다른 블록이 사용되는 경우가 있습니다. 따라서 여러 테스트 실행에서 결과를 결합할 수 있습니다.  
@@ -87,16 +87,16 @@ ms.locfileid: "54782661"
   
 ### <a name="limitations-in-merging"></a>병합 제한 사항  
   
--   다른 코드 버전의 검사 데이터를 병합하는 경우 결과가 별도로 표시되지만 결합되지 않습니다. 완전히 결합된 결과를 얻으려면 동일한 빌드의 코드를 사용하고 테스트 데이터만 변경하세요.  
+- 다른 코드 버전의 검사 데이터를 병합하는 경우 결과가 별도로 표시되지만 결합되지 않습니다. 완전히 결합된 결과를 얻으려면 동일한 빌드의 코드를 사용하고 테스트 데이터만 변경하세요.  
   
--   내보낸 다음 가져온 결과 파일을 병합할 경우 결과를 블록 단위가 아닌 줄 단위로만 볼 수 있습니다. 줄 데이터를 보려면 **열 추가/제거** 명령을 사용합니다.  
+- 내보낸 다음 가져온 결과 파일을 병합할 경우 결과를 블록 단위가 아닌 줄 단위로만 볼 수 있습니다. 줄 데이터를 보려면 **열 추가/제거** 명령을 사용합니다.  
   
--   ASP.NET 프로젝트 테스트의 결과를 병합할 경우 별도 테스트의 결과가 표시되지만 결합되지는 않습니다. 이는 ASP.NET 아티팩트 자체에만 적용되며, 다른 어셈블리의 결과는 결합됩니다.  
+- ASP.NET 프로젝트 테스트의 결과를 병합할 경우 별도 테스트의 결과가 표시되지만 결합되지는 않습니다. 이는 ASP.NET 아티팩트 자체에만 적용되며, 다른 어셈블리의 결과는 결합됩니다.  
   
 ## <a name="excluding-elements-from-the-code-coverage-results"></a>코드 검사 결과에서 요소 제외  
  코드가 텍스트 템플릿에서 생성된 경우와 같이 검사 점수에서 코드의 특정 요소를 제외하려는 경우가 있습니다. `System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage` 특성을 class, struct, method, property, property setter 또는 getter, event 코드 요소에 임의로 추가할 수 있습니다. 클래스를 제외할 경우 해당 파생 클래스는 제외되지 않습니다.  
   
- 예:  
+ 예를 들어:  
   
 ```csharp  
   
@@ -225,19 +225,19 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
   
  `ExcludeSourceFromCodeCoverage(` *ExclusionName* `, L"` *SourceFilePath* `");`  
   
--   *ExclusionName*은 임의의 고유한 이름입니다.  
+- *ExclusionName*은 임의의 고유한 이름입니다.  
   
--   *FunctionName*은 정규화된 함수 이름입니다. 와일드 카드를 포함할 수 있습니다. 예를 들어, 클래스의 모든 함수를 제외하려면 `MyNamespace::MyClass::*`를 씁니다.  
+- *FunctionName*은 정규화된 함수 이름입니다. 와일드 카드를 포함할 수 있습니다. 예를 들어, 클래스의 모든 함수를 제외하려면 `MyNamespace::MyClass::*`를 씁니다.  
   
--   *SourceFilePath*는 .cpp 파일의 로컬 또는 UNC 경로입니다. 와일드 카드를 포함할 수 있습니다. 다음 예제는 특정 디렉터리에서 모든 파일을 제외합니다. `\\MyComputer\Source\UnitTests\*.cpp`  
+- *SourceFilePath*는 .cpp 파일의 로컬 또는 UNC 경로입니다. 와일드 카드를 포함할 수 있습니다. 다음 예제는 특정 디렉터리에서 모든 파일을 제외합니다. `\\MyComputer\Source\UnitTests\*.cpp`  
   
--   `#include <CodeCoverage\CodeCoverage.h>`  
+- `#include <CodeCoverage\CodeCoverage.h>`  
   
--   임의의 네임스페이스 또는 클래스 안이 아닌 전역 네임스페이스에 제외 매크로에 대한 호출을 추가합니다.  
+- 임의의 네임스페이스 또는 클래스 안이 아닌 전역 네임스페이스에 제외 매크로에 대한 호출을 추가합니다.  
   
--   단위 테스트 코드 파일 또는 애플리케이션 코드 파일에 제외를 추가할 수 있습니다.  
+- 단위 테스트 코드 파일 또는 애플리케이션 코드 파일에 제외를 추가할 수 있습니다.  
   
--   제외는 컴파일러 옵션을 설정하거나 `#pragma managed(off)`를 사용하여 관리되지 않는(네이티브) 코드로 컴파일해야 합니다.  
+- 제외는 컴파일러 옵션을 설정하거나 `#pragma managed(off)`를 사용하여 관리되지 않는(네이티브) 코드로 컴파일해야 합니다.  
   
 > [!NOTE]
 >  C++/CLI 코드에서 함수를 제외하려면 함수에 `[System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverage]` 특성을 적용합니다. C#의 경우에도 동일합니다.  
@@ -267,11 +267,11 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 ## <a name="analyzing-code-coverage-in-a-command-line"></a>명령줄에서 코드 검사 분석  
  명령줄에서 테스트를 실행하려면 vstest.console.exe를 사용합니다. 코드 검사는 이 유틸리티의 선택 사항입니다. 자세한 내용은 [MSTest.exe 명령줄 옵션](http://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11)을 참조하세요.  
   
-1.  Visual Studio 개발자 명령 프롬프트를 시작합니다.  
+1. Visual Studio 개발자 명령 프롬프트를 시작합니다.  
   
      Windows의 **시작** 메뉴에서 **모든 프로그램**, **Microsoft Visual Studio**, **Visual Studio Tools**, **개발자 명령 프롬프트**를 차례로 선택합니다.  
   
-2.  실행:  
+2. 실행:  
   
      `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage`  
   
@@ -281,7 +281,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 ## <a name="external-resources"></a>외부 리소스  
   
 ### <a name="guidance"></a>지침  
- [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 검사 분석 사용자 지정](../test/customizing-code-coverage-analysis.md)   

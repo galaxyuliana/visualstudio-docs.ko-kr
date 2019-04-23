@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e0f63555cbda069c3db0a3a1d5819292fc3cda14
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 51dfdc95748690f43809244dc14ae2662d8aec39
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54799707"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086600"
 ---
 # <a name="help-viewer-administrator-guide"></a>도움말 뷰어 관리자 가이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,18 +55,18 @@ ms.locfileid: "54799707"
   
 - 클라이언트에서 Visual Studio를 처음 시작할 때 기본 도움말 콘텐츠를 설치하라는 메시지가 계속 표시됩니다. HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\Help\DisableFirstRunHelpSelection 레지스트리 키를 수정하여 이 메시지가 표시되지 않도록 설정할 수 있습니다.  
   
-### <a name="example"></a>예  
+### <a name="example"></a>예제  
  다음 예제에서는 클라이언트 컴퓨터에 Visual Studio에 대한 영어 콘텐츠를 설치합니다.  
   
 ##### <a name="to-install-english-content-from-the-internet"></a>인터넷에서 영어 콘텐츠를 설치하려면  
   
-1.  **시작**, **실행**을 차례로 선택합니다.  
+1. **시작**, **실행**을 차례로 선택합니다.  
   
-2.  다음과 같이 입력합니다.  
+2. 다음과 같이 입력합니다.  
   
      C:\Program Files (x86)\Microsoft Help Viewer\v2.2\hlpctntmgr.exe /operation install /catalogname VisualStudio14 /locale en-us  
   
-3.  Enter 키를 누릅니다.  
+3. Enter 키를 누릅니다.  
   
 ## <a name="deploying-pre-installed-local-help-content-on-client-computers"></a>클라이언트 컴퓨터에 사전 설치된 로컬 도움말 콘텐츠 배포  
  콘텐츠 집합을 온라인에서 한 컴퓨터에 설치한 다음 설치된 해당 콘텐츠 집합을 다른 컴퓨터에 복사할 수 있습니다.  
@@ -117,15 +117,15 @@ ms.locfileid: "54799707"
   
 ##### <a name="to-package-the-content"></a>콘텐츠를 패키지하려면  
   
-1.  나중에 배포하기 위해 콘텐츠를 복사할 폴더를 만듭니다.  
+1. 나중에 배포하기 위해 콘텐츠를 복사할 폴더를 만듭니다.  
   
      예를 들어 c:\VS12Help 폴더를 만들 수 있습니다.  
   
-2.  관리자 권한으로 cmd.exe를 엽니다.  
+2. 관리자 권한으로 cmd.exe를 엽니다.  
   
-3.  1단계에서 만든 폴더로 이동합니다.  
+3. 1단계에서 만든 폴더로 이동합니다.  
   
-4.  다음과 같이 입력합니다.  
+4. 다음과 같이 입력합니다.  
   
      Xcopy %SYSTEMDRIVE%\ProgramData\Microsoft\HelpLibrary2 \<*폴더 이름*>\ /y /e /k /o  
   
@@ -135,13 +135,13 @@ ms.locfileid: "54799707"
   
 ##### <a name="to-deploy-the-content"></a>콘텐츠를 배포하려면  
   
-1.  네트워크 공유를 만들고 해당 위치에 도움말 콘텐츠를 복사합니다.  
+1. 네트워크 공유를 만들고 해당 위치에 도움말 콘텐츠를 복사합니다.  
   
      예를 들어 c:\VS12Help의 콘텐츠를 \\\myserver\VS12Help에 복사합니다.  
   
-2.  도움말 콘텐츠에 대한 배포 스크립트를 포함할 .bat 파일을 만듭니다. 클라이언트에서 푸시의 일부로 삭제될 파일에 대한 읽기 잠금이 있을 수 있으므로 업데이트를 푸시하기 전에 클라이언트를 종료해야 합니다.  
+2. 도움말 콘텐츠에 대한 배포 스크립트를 포함할 .bat 파일을 만듭니다. 클라이언트에서 푸시의 일부로 삭제될 파일에 대한 읽기 잠금이 있을 수 있으므로 업데이트를 푸시하기 전에 클라이언트를 종료해야 합니다.  
   
-     예:  
+     예를 들어:  
   
     ```  
     REM - copy pre-ripped content to ProgramData  
@@ -199,7 +199,7 @@ ms.locfileid: "54799707"
     :CONTINUE  
     ```  
   
-3.  도움말 콘텐츠가 설치될 로컬 컴퓨터에서 bat 파일을 실행합니다.  
+3. 도움말 콘텐츠가 설치될 로컬 컴퓨터에서 bat 파일을 실행합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [도움말 콘텐츠 관리자에 대한 명령줄 인수](../ide/command-line-arguments-for-the-help-content-manager.md)   

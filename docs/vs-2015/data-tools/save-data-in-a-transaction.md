@@ -20,12 +20,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 07bd9e469d090ffb97e166ce943397b51aedd497
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: fcac3461d0c6dc1c05671eed1ac641c7da6790ef
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647677"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105021"
 ---
 # <a name="save-data-in-a-transaction"></a>트랜잭션에 데이터 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,11 +40,11 @@ ms.locfileid: "59647677"
   
 #### <a name="to-create-the-new-windows-project"></a>새 Windows 프로젝트를 만들려면  
   
-1.  Visual Studio에서에 **파일** 메뉴에서 새 **프로젝트**합니다.  
+1. Visual Studio에서에 **파일** 메뉴에서 새 **프로젝트**합니다.  
   
-2.  프로젝트 이름을 **SavingDataInATransactionWalkthrough**합니다.  
+2. 프로젝트 이름을 **SavingDataInATransactionWalkthrough**합니다.  
   
-3.  선택 **Windows 응용 프로그램**를 선택한 후 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
+3. 선택 **Windows 응용 프로그램**를 선택한 후 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
   
      **SavingDataInATransactionWalkthrough** 프로젝트가 만들어져 **솔루션 탐색기**에 추가됩니다.  
   
@@ -53,27 +53,27 @@ ms.locfileid: "59647677"
   
 #### <a name="to-create-the-data-source"></a>데이터 소스를 만들려면  
   
-1.  에 **데이터** 메뉴에서**데이터 소스 표시**합니다.  
+1. 에 **데이터** 메뉴에서**데이터 소스 표시**합니다.  
   
-2.  **데이터 원본** 창에서 **새 데이터 원본 추가**를 선택하여 **데이터 원본 구성 마법사**를 시작합니다.  
+2. **데이터 원본** 창에서 **새 데이터 원본 추가**를 선택하여 **데이터 원본 구성 마법사**를 시작합니다.  
   
-3.  에 **데이터 소스 형식 선택**화면에서 **데이터베이스**를 선택한 후 **다음**합니다.  
+3. 에 **데이터 소스 형식 선택**화면에서 **데이터베이스**를 선택한 후 **다음**합니다.  
   
-4.  에 **데이터 연결 선택**화면 작업 중 하나를 수행 합니다.  
+4. 에 **데이터 연결 선택**화면 작업 중 하나를 수행 합니다.  
   
-    -   Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.  
+    - Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.  
   
          또는  
   
-    -   **새 연결**을 선택하여 **연결 추가/수정** 대화 상자를 시작하고 Northwind 데이터베이스에 대한 연결을 만듭니다.  
+    - **새 연결**을 선택하여 **연결 추가/수정** 대화 상자를 시작하고 Northwind 데이터베이스에 대한 연결을 만듭니다.  
   
-5.  데이터베이스에서 암호를 요구 하는 경우 중요 한 데이터를 포함 하 여 선택한 옵션을 선택 **다음**합니다.  
+5. 데이터베이스에서 암호를 요구 하는 경우 중요 한 데이터를 포함 하 여 선택한 옵션을 선택 **다음**합니다.  
   
-6.  에 **응용 프로그램 구성 파일에 연결 문자열을 저장** 화면에서 **다음**합니다.  
+6. 에 **응용 프로그램 구성 파일에 연결 문자열을 저장** 화면에서 **다음**합니다.  
   
-7.  에 **데이터베이스 개체 선택** 화면에서 확장 된 **테이블** 노드.  
+7. 에 **데이터베이스 개체 선택** 화면에서 확장 된 **테이블** 노드.  
   
-8.  선택 된 `Customers` 하 고 `Orders` 테이블을 선택한 후 **완료**합니다.  
+8. 선택 된 `Customers` 하 고 `Orders` 테이블을 선택한 후 **완료**합니다.  
   
      **NorthwindDataSet**가 프로젝트에 추가되고 `Customers` 및 `Orders` 테이블이 **데이터 원본** 창에 나타납니다.  
   
@@ -82,13 +82,13 @@ ms.locfileid: "59647677"
   
 #### <a name="to-create-data-bound-controls-on-the-windows-form"></a>Windows form의 컨트롤에 바인딩된 데이터를 만들려면  
   
--   에 **데이터 원본** 창 확장 합니다 **고객** 노드.  
+- 에 **데이터 원본** 창 확장 합니다 **고객** 노드.  
   
--   주 **Customers** 노드를 **데이터 원본** 창에서 **Form1**으로 끌어서 놓습니다.  
+- 주 **Customers** 노드를 **데이터 원본** 창에서 **Form1**으로 끌어서 놓습니다.  
   
      <xref:System.Windows.Forms.DataGridView> 컨트롤과 레코드 탐색에 사용되는 도구 모음인 <xref:System.Windows.Forms.BindingNavigator>가 폼에 나타납니다. [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource> 및 <xref:System.Windows.Forms.BindingNavigator>가 구성 요소 트레이에 나타납니다.  
   
--   관련 끌어 **주문** 노드 (주 **주문** 아니라 노드 아래의 관련된 자식 테이블 노드를 **팩스** 열)를 폼은  **CustomersDataGridView**합니다.  
+- 관련 끌어 **주문** 노드 (주 **주문** 아니라 노드 아래의 관련된 자식 테이블 노드를 **팩스** 열)를 폼은  **CustomersDataGridView**합니다.  
   
      <xref:System.Windows.Forms.DataGridView>가 폼에 나타납니다. OrdersTableAdapter 및 <xref:System.Windows.Forms.BindingSource> 구성 요소 트레이에 나타납니다.  
   
@@ -97,9 +97,9 @@ ms.locfileid: "59647677"
   
 #### <a name="to-add-a-reference-to-the-systemtransactions-dll-file"></a>System.Transactions DLL 파일에 대한 참조를 추가하려면  
   
-1.  에 **프로젝트** 메뉴에서**참조 추가**합니다.  
+1. 에 **프로젝트** 메뉴에서**참조 추가**합니다.  
   
-2.  선택 **System.Transactions**(에 **.NET** 탭)을 선택한 후 **확인**합니다.  
+2. 선택 **System.Transactions**(에 **.NET** 탭)을 선택한 후 **확인**합니다.  
   
      **System.Transactions**에 대한 참조가 프로젝트에 추가됩니다.  
   
@@ -117,38 +117,38 @@ ms.locfileid: "59647677"
   
    관련 데이터의 변경을 조정하는 순서는 다음과 같습니다.  
   
--   자식 레코드를 삭제 합니다. (이 경우 레코드를 삭제 합니다 `Orders` 테이블입니다.)  
+- 자식 레코드를 삭제 합니다. (이 경우 레코드를 삭제 합니다 `Orders` 테이블입니다.)  
   
--   부모 레코드를 삭제 합니다. (이 경우 레코드를 삭제 합니다 `Customers` 테이블입니다.)  
+- 부모 레코드를 삭제 합니다. (이 경우 레코드를 삭제 합니다 `Customers` 테이블입니다.)  
   
--   부모 레코드를 삽입 합니다. (이 경우에 레코드를 삽입 합니다 `Customers` 테이블입니다.)  
+- 부모 레코드를 삽입 합니다. (이 경우에 레코드를 삽입 합니다 `Customers` 테이블입니다.)  
   
--   자식 레코드를 삽입 합니다. (이 경우에 레코드를 삽입 합니다 `Orders` 테이블입니다.)  
+- 자식 레코드를 삽입 합니다. (이 경우에 레코드를 삽입 합니다 `Orders` 테이블입니다.)  
   
 #### <a name="to-delete-existing-orders"></a>기존 주문을 삭제하려면  
   
--   다음 `DeleteOrders` 메서드를 **Form1**에 추가합니다.  
+- 다음 `DeleteOrders` 메서드를 **Form1**에 추가합니다.  
   
      [!code-csharp[VbRaddataSaving#5](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#5)]
      [!code-vb[VbRaddataSaving#5](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#5)]  
   
 #### <a name="to-delete-existing-customers"></a>기존 고객을 삭제하려면  
   
--   다음 `DeleteCustomers` 메서드를 **Form1**에 추가합니다.  
+- 다음 `DeleteCustomers` 메서드를 **Form1**에 추가합니다.  
   
      [!code-csharp[VbRaddataSaving#6](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#6)]
      [!code-vb[VbRaddataSaving#6](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#6)]  
   
 #### <a name="to-add-new-customers"></a>새 고객을 추가하려면  
   
--   다음 `AddNewCustomers` 메서드를 **Form1**에 추가합니다.  
+- 다음 `AddNewCustomers` 메서드를 **Form1**에 추가합니다.  
   
      [!code-csharp[VbRaddataSaving#7](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#7)]
      [!code-vb[VbRaddataSaving#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#7)]  
   
 #### <a name="to-add-new-orders"></a>새 주문을 추가하려면  
   
--   다음 `AddNewOrders` 메서드를 **Form1**에 추가합니다.  
+- 다음 `AddNewOrders` 메서드를 **Form1**에 추가합니다.  
   
      [!code-csharp[VbRaddataSaving#8](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#8)]
      [!code-vb[VbRaddataSaving#8](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#8)]  
@@ -157,7 +157,7 @@ ms.locfileid: "59647677"
   
 #### <a name="to-run-the-application"></a>애플리케이션을 실행하려면  
   
--   선택 **F5** 응용 프로그램을 실행 합니다.  
+- 선택 **F5** 응용 프로그램을 실행 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)

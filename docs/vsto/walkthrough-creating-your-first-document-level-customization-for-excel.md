@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a1289f6eeb802aa53db5f9e43dc3725b8c65f884
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 81020496c1e80718d1aa0995791762d55ef70a76
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622880"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104501"
 ---
 # <a name="walkthrough-create-your-first-document-level-customization-for-excel"></a>연습: Excel 용 첫 문서 수준 사용자 지정 만들기
   이 소개용 연습에서는 Microsoft Office Excel에 대한 문서 수준 사용자 지정을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 특정 통합 문서가 열려 있는 경우에만 사용할 수 있습니다. 통합 문서가 열려 있을 때 새 리본 탭 표시와 같은 응용 프로그램 수준 변경은 문서 수준 사용자 지정을 사용하여 수행할 수 없습니다.
@@ -43,9 +43,9 @@ ms.locfileid: "56622880"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
 
 ## <a name="create-the-project"></a>프로젝트를 만듭니다.
 
@@ -88,9 +88,9 @@ ms.locfileid: "56622880"
 
 ### <a name="to-close-and-reopen-a-worksheet-in-the-designer"></a>디자이너에서 워크시트를 닫았다가 다시 열려면
 
-1.  클릭 하 여 통합 문서를 닫을 합니다 **닫기** 디자이너 창에 대 한 단추 (X).
+1. 클릭 하 여 통합 문서를 닫을 합니다 **닫기** 디자이너 창에 대 한 단추 (X).
 
-2.  **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 합니다 **Sheet1** 코드 파일을 마우스 클릭 **뷰 디자이너**합니다.
+2. **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 합니다 **Sheet1** 코드 파일을 마우스 클릭 **뷰 디자이너**합니다.
 
      \- 또는 -
 
@@ -101,7 +101,7 @@ ms.locfileid: "56622880"
 
 ### <a name="to-add-text-to-a-worksheet-by-using-the-designer"></a>디자이너를 사용하여 워크시트에 텍스트를 추가하려면
 
-1.  디자이너에서 열려 있는 워크시트에서 셀을 선택 **A1**, 다음 텍스트를 입력 합니다.
+1. 디자이너에서 열려 있는 워크시트에서 셀을 선택 **A1**, 다음 텍스트를 입력 합니다.
 
      **이 텍스트는 디자이너를 사용 하 여 추가 되었습니다.**
 
@@ -111,17 +111,17 @@ ms.locfileid: "56622880"
 ## <a name="add-text-to-a-worksheet-programmatically"></a>프로그래밍 방식으로 워크시트에 텍스트 추가
  다음에는 Sheet1 코드 파일에 코드를 추가합니다. 새 코드는 Excel의 개체 모델을 사용하여 통합 문서에 두 번째 텍스트 줄을 추가합니다. 기본적으로 Sheet1 코드 파일에는 다음과 같은 생성된 코드가 포함됩니다.
 
--   워크시트의 프로그래밍 모델을 나타내고 Excel의 개체 모델에 대한 액세스를 제공하는 `Sheet1` 클래스의 부분 정의입니다. 자세한 내용은 [워크시트 호스트 항목](../vsto/worksheet-host-item.md) 하 고 [Word 개체 모델 개요](../vsto/word-object-model-overview.md)합니다. `Sheet1` 클래스의 나머지 부분은 수정해서는 안 되는 숨김 코드 파일에서 정의됩니다.
+- 워크시트의 프로그래밍 모델을 나타내고 Excel의 개체 모델에 대한 액세스를 제공하는 `Sheet1` 클래스의 부분 정의입니다. 자세한 내용은 [워크시트 호스트 항목](../vsto/worksheet-host-item.md) 하 고 [Word 개체 모델 개요](../vsto/word-object-model-overview.md)합니다. `Sheet1` 클래스의 나머지 부분은 수정해서는 안 되는 숨김 코드 파일에서 정의됩니다.
 
--   `Sheet1_Startup` 및 `Sheet1_Shutdown` 이벤트 처리기. 이러한 이벤트 처리기는 Excel에서 사용자 지정을 로드하고 언로드할 때 호출됩니다. 이러한 이벤트 처리기를 사용하여 사용자 지정이 로드될 때 사용자 지정을 초기화하고 사용자 지정이 언로드될 때 사용자 지정에서 사용하는 리소스를 정리할 수 있습니다. 자세한 내용은 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)합니다.
+- `Sheet1_Startup` 및 `Sheet1_Shutdown` 이벤트 처리기. 이러한 이벤트 처리기는 Excel에서 사용자 지정을 로드하고 언로드할 때 호출됩니다. 이러한 이벤트 처리기를 사용하여 사용자 지정이 로드될 때 사용자 지정을 초기화하고 사용자 지정이 언로드될 때 사용자 지정에서 사용하는 리소스를 정리할 수 있습니다. 자세한 내용은 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)합니다.
 
 ### <a name="to-add-a-second-line-of-text-to-the-worksheet-by-using-code"></a>코드를 사용하여 워크시트에 두 번째 텍스트 줄을 추가하려면
 
-1.  **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 **Sheet1**를 클릭 하 고 **코드 보기**합니다.
+1. **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 **Sheet1**를 클릭 하 고 **코드 보기**합니다.
 
      Visual Studio에서 코드 파일이 열립니다.
 
-2.  `Sheet1_Startup` 이벤트 처리기를 다음 코드로 바꿉니다. Sheet1이 열릴 때 이 코드는 워크시트에 두 번째 텍스트 줄을 추가합니다.
+2. `Sheet1_Startup` 이벤트 처리기를 다음 코드로 바꿉니다. Sheet1이 열릴 때 이 코드는 워크시트에 두 번째 텍스트 줄을 추가합니다.
 
      [!code-csharp[Trin_ExcelWorkbookTutorial#1](../vsto/codesnippet/CSharp/Trin_ExcelWorkbookTutorial/Sheet1.cs#1)]
      [!code-vb[Trin_ExcelWorkbookTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ExcelWorkbookTutorial/Sheet1.vb#1)]
@@ -130,41 +130,41 @@ ms.locfileid: "56622880"
 
 ### <a name="to-test-your-workbook"></a>통합 문서를 테스트하려면
 
-1.  **F5** 키를 눌러 프로젝트를 빌드하고 실행합니다.
+1. **F5** 키를 눌러 프로젝트를 빌드하고 실행합니다.
 
      프로젝트를 빌드하면 코드가 통합 문서와 연결된 어셈블리로 컴파일됩니다. Visual Studio는 프로젝트에 대한 빌드 출력 폴더에 통합 문서와 어셈블리의 복사본을 넣고 사용자 지정을 실행할 수 있도록 개발 컴퓨터의 보안 설정을 구성합니다. 자세한 내용은 [빌드 Office 솔루션](../vsto/building-office-solutions.md)합니다.
 
-2.  통합 문서에서 다음 텍스트가 표시되는지 확인합니다.
+2. 통합 문서에서 다음 텍스트가 표시되는지 확인합니다.
 
      **이 텍스트는 디자이너를 사용 하 여 추가 되었습니다.**
 
      **This text was added by using code.**
 
-3.  통합 문서를 닫습니다.
+3. 통합 문서를 닫습니다.
 
 ## <a name="clean-up-the-project"></a>프로젝트 정리
  프로젝트 개발을 완료하면 빌드 출력 폴더의 파일 및 빌드 프로세스에서 생성된 보안 설정을 제거해야 합니다.
 
 ### <a name="to-clean-up-the-completed-project-on-your-development-computer"></a>개발 컴퓨터에서 완료된 프로젝트를 정리하려면
 
-1.  Visual Studio의 **빌드** 메뉴에서 **솔루션 정리**를 클릭합니다.
+1. Visual Studio의 **빌드** 메뉴에서 **솔루션 정리**를 클릭합니다.
 
 ## <a name="next-steps"></a>다음 단계
  기본적인 Excel용 문서 수준 사용자 지정을 만들었으므로 다음 항목에서 사용자 지정을 개발하는 방법에 대해 자세히 알아볼 수 있습니다.
 
--   문서 수준 사용자 지정에서 수행할 수 있는 일반적인 프로그래밍 작업: [문서 수준 사용자 지정 프로그램](../vsto/programming-document-level-customizations.md)합니다.
+- 문서 수준 사용자 지정에서 수행할 수 있는 일반적인 프로그래밍 작업: [문서 수준 사용자 지정 프로그램](../vsto/programming-document-level-customizations.md)합니다.
 
--   Excel 용 문서 수준 사용자 지정과 관련 된 프로그래밍 작업: [Excel 솔루션](../vsto/excel-solutions.md)합니다.
+- Excel 용 문서 수준 사용자 지정과 관련 된 프로그래밍 작업: [Excel 솔루션](../vsto/excel-solutions.md)합니다.
 
--   Excel의 개체 모델 사용: [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)합니다.
+- Excel의 개체 모델 사용: [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)합니다.
 
--   Excel의 UI, 예를 들어, 사용자 지정 리본 메뉴에 사용자 지정 탭 추가 또는 사용자 고유의 작업 창 만들기: [Office UI 사용자 지정](../vsto/office-ui-customization.md)합니다.
+- Excel의 UI, 예를 들어, 사용자 지정 리본 메뉴에 사용자 지정 탭 추가 또는 사용자 고유의 작업 창 만들기: [Office UI 사용자 지정](../vsto/office-ui-customization.md)합니다.
 
--   Visual Studio에서 Office 개발 도구에서 제공 하는 확장 된 Excel 개체를 사용 하 여 Excel 개체 모델 (예를 들어, 문서에서 관리 되는 컨트롤 호스트 및 Windows Forms를 사용 하 여 Excel 컨트롤 데이터 바인딩 사용 가능 하지 않은 작업을 수행 하려면 데이터 바인딩 모델): [확장 된 개체를 사용 하 여 Excel 자동화](../vsto/automating-excel-by-using-extended-objects.md)합니다.
+- Visual Studio에서 Office 개발 도구에서 제공 하는 확장 된 Excel 개체를 사용 하 여 Excel 개체 모델 (예를 들어, 문서에서 관리 되는 컨트롤 호스트 및 Windows Forms를 사용 하 여 Excel 컨트롤 데이터 바인딩 사용 가능 하지 않은 작업을 수행 하려면 데이터 바인딩 모델): [확장 된 개체를 사용 하 여 Excel 자동화](../vsto/automating-excel-by-using-extended-objects.md)합니다.
 
--   빌드 및 디버깅 Excel 용 문서 수준 사용자 지정 합니다. [Office 솔루션 빌드](../vsto/building-office-solutions.md)합니다.
+- 빌드 및 디버깅 Excel 용 문서 수준 사용자 지정 합니다. [Office 솔루션 빌드](../vsto/building-office-solutions.md)합니다.
 
--   Excel 용 문서 수준 사용자 지정 배포: [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.
+- Excel 용 문서 수준 사용자 지정 배포: [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

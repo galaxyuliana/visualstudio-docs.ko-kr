@@ -11,12 +11,12 @@ ms.assetid: 8317cd52-6fea-4e8f-a739-774dc06bd44b
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c4eb1ee2048a5e5580cbeb8320ba573c85b92183
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: eed1a1b3da59d6d5e76c9157fc0a2cb37420c797
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981571"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104358"
 ---
 # <a name="evaluating-a-watch-expression"></a>조사식 창 계산
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,11 +28,11 @@ ms.locfileid: "58981571"
   
  이 구현에서 `IDebugParsedExpression::EvaluateSync`, 식을 구문 분석 되 고 동시에 평가 합니다. 이 구현은 다음 작업을 수행합니다.  
   
-1.  구문 분석 하 고 해당 형식과 값을 보유 하는 일반 개체를 생성 하는 식을 계산 합니다. C#으로 표시 됩니다는 `object` c + +에서로 표시 됩니다 하는 동안는 `VARIANT`합니다.  
+1. 구문 분석 하 고 해당 형식과 값을 보유 하는 일반 개체를 생성 하는 식을 계산 합니다. C#,으로 표시 됩니다는 `object` 에서 C++ 으로 표시 됩니다는 `VARIANT`합니다.  
   
-2.  클래스를 인스턴스화합니다 (호출 `CValueProperty` 이 예제의)를 구현 하는 `IDebugProperty2` 인터페이스 및 클래스의 반환 값을 저장 합니다.  
+2. 클래스를 인스턴스화합니다 (호출 `CValueProperty` 이 예제의)를 구현 하는 `IDebugProperty2` 인터페이스 및 클래스의 반환 값을 저장 합니다.  
   
-3.  반환 된 `IDebugProperty2` 에서 인터페이스를 `CValueProperty` 개체입니다.  
+3. 반환 된 `IDebugProperty2` 에서 인터페이스를 `CValueProperty` 개체입니다.  
   
 ## <a name="managed-code"></a>관리 코드  
  이 구현의 `IDebugParsedExpression::EvaluateSync` 관리 코드에서. 도우미 메서드 `Tokenize` 는 식 구문 분석 트리를 구문 분석 합니다. 도우미 함수 `EvalToken` 토큰 값으로 변환 합니다. 도우미 함수 `FindTerm` 재귀적으로 구문 분석 트리를 트래버스 호출 `EvalToken` 값을 나타내는 식의 모든 작업 (더하기 또는 빼기)를 적용 및 각 노드에 대 한 합니다.  

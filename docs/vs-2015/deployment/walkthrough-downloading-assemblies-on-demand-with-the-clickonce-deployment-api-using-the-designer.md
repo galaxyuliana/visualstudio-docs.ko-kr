@@ -18,12 +18,12 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9c65ca67b54396935f52aaa8168d802f0179afd2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4513a1fa35ab45cf36a8c86572eecd6043ee7415
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970802"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086847"
 ---
 # <a name="walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer"></a>연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 어셈블리 다운로드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,32 +40,32 @@ ms.locfileid: "58970802"
   
 #### <a name="to-create-a-project-that-uses-an-on-demand-assembly-with-visual-studio"></a>Visual Studio와 함께 요청 시 어셈블리를 사용하는 프로젝트를 만들려면  
   
-1.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 새 Windows Forms 프로젝트를 만듭니다. **파일** 메뉴에서 **추가**를 가리킨 다음 **새 프로젝트**를 클릭합니다. 대화 상자에서 **클래스 라이브러리** 프로젝트를 선택하고 이름을 `ClickOnceLibrary`로 지정합니다.  
+1. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 새 Windows Forms 프로젝트를 만듭니다. **파일** 메뉴에서 **추가**를 가리킨 다음 **새 프로젝트**를 클릭합니다. 대화 상자에서 **클래스 라이브러리** 프로젝트를 선택하고 이름을 `ClickOnceLibrary`로 지정합니다.  
   
     > [!NOTE]
     >  Visual Basic에서 이 프로젝트의 루트 네임스페이스를 `Microsoft.Samples.ClickOnceOnDemand` 로 변경하거나 선택한 네임스페이스로 변경하려면 프로젝트 속성을 수정하는 것이 좋습니다. 편의상 이 연습의 두 프로젝트는 네임스페이스가 동일합니다.  
   
-2.  `DynamicClass` 라는 이름의 단일 속성으로 `Message`라는 이름의 클래스를 정의합니다.  
+2. `DynamicClass` 라는 이름의 단일 속성으로 `Message`라는 이름의 클래스를 정의합니다.  
   
      [!code-csharp[ClickOnceLibrary#1](../snippets/csharp/VS_Snippets_Winforms/ClickOnceLibrary/CS/Class1.cs#1)]
      [!code-vb[ClickOnceLibrary#1](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceLibrary/VB/Class1.vb#1)]  
   
-3.  **솔루션 탐색기**에서 Windows Forms 프로젝트를 선택합니다. <xref:System.Deployment.Application> 어셈블리에 참조를 추가하고 `ClickOnceLibrary` 프로젝트에 프로젝트 참조를 추가합니다.  
+3. **솔루션 탐색기**에서 Windows Forms 프로젝트를 선택합니다. <xref:System.Deployment.Application> 어셈블리에 참조를 추가하고 `ClickOnceLibrary` 프로젝트에 프로젝트 참조를 추가합니다.  
   
     > [!NOTE]
     >  Visual Basic에서 이 프로젝트의 루트 네임스페이스를 `Microsoft.Samples.ClickOnceOnDemand`로 변경하거나 선택한 네임스페이스로 변경하려면 프로젝트 속성을 수정하는 것이 좋습니다. 편의상 이 연습의 두 프로젝트는 동일한 네임스페이스에 있습니다.  
   
-4.  폼을 마우스 오른쪽 단추로 클릭하고 메뉴에서 **코드 보기** 를 클릭한 후 폼에 다음 참조를 추가합니다.  
+4. 폼을 마우스 오른쪽 단추로 클릭하고 메뉴에서 **코드 보기** 를 클릭한 후 폼에 다음 참조를 추가합니다.  
   
      [!code-csharp[ClickOnceOnDemand#1](../snippets/csharp/VS_Snippets_Winforms/ClickOnceOnDemand/CS/Form1.cs#1)]
      [!code-vb[ClickOnceOnDemand#1](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceOnDemand/VB/Form1.vb#1)]  
   
-5.  요청 시 이 어셈블리를 다운로드하려면 다음 코드를 추가합니다. 이 코드에서는 제네릭 <xref:System.Collections.DictionaryBase.Dictionary%2A> 클래스를 사용하여 어셈블리 집합을 그룹 이름에 매핑하는 방법을 보여 줍니다. 이 연습에서는 단일 어셈블리만 다운로드하므로 그룹에 어셈블리가 하나뿐입니다. 실제 애플리케이션에서는 애플리케이션의 단일 기능과 관련된 모든 어셈블리를 동시에 다운로드할 수도 있습니다. 매핑 테이블을 사용하면 한 기능에 속한 모든 DLL을 다운로드 그룹 이름과 연결하여 이 작업을 손쉽게 수행할 수 있습니다.  
+5. 요청 시 이 어셈블리를 다운로드하려면 다음 코드를 추가합니다. 이 코드에서는 제네릭 <xref:System.Collections.DictionaryBase.Dictionary%2A> 클래스를 사용하여 어셈블리 집합을 그룹 이름에 매핑하는 방법을 보여 줍니다. 이 연습에서는 단일 어셈블리만 다운로드하므로 그룹에 어셈블리가 하나뿐입니다. 실제 애플리케이션에서는 애플리케이션의 단일 기능과 관련된 모든 어셈블리를 동시에 다운로드할 수도 있습니다. 매핑 테이블을 사용하면 한 기능에 속한 모든 DLL을 다운로드 그룹 이름과 연결하여 이 작업을 손쉽게 수행할 수 있습니다.  
   
      [!code-csharp[ClickOnceOnDemand#2](../snippets/csharp/VS_Snippets_Winforms/ClickOnceOnDemand/CS/Form1.cs#2)]
      [!code-vb[ClickOnceOnDemand#2](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceOnDemand/VB/Form1.vb#2)]  
   
-6.  **보기** 메뉴에서 **도구 상자**를 클릭합니다. <xref:System.Windows.Forms.Button> 도구 상자 **에서 폼으로** 을 끌어옵니다. 단추를 두 번 클릭하고 다음 코드를 <xref:System.Windows.Forms.Control.Click> 이벤트 처리기에 추가합니다.  
+6. **보기** 메뉴에서 **도구 상자**를 클릭합니다. <xref:System.Windows.Forms.Button> 도구 상자 **에서 폼으로** 을 끌어옵니다. 단추를 두 번 클릭하고 다음 코드를 <xref:System.Windows.Forms.Control.Click> 이벤트 처리기에 추가합니다.  
   
      [!code-csharp[ClickOnceOnDemand#3](../snippets/csharp/VS_Snippets_Winforms/ClickOnceOnDemand/CS/Form1.cs#3)]
      [!code-vb[ClickOnceOnDemand#3](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceOnDemand/VB/Form1.vb#3)]  
@@ -74,31 +74,31 @@ ms.locfileid: "58970802"
   
 #### <a name="to-mark-assemblies-as-optional-in-your-clickonce-application-by-using-visual-studio"></a>Visual Studio를 사용하여 ClickOnce 애플리케이션에서 어셈블리를 선택 사항으로 표시하려면  
   
-1.  **솔루션 탐색기** 에서 Windows Forms 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다. **게시** 탭을 선택합니다.  
+1. **솔루션 탐색기** 에서 Windows Forms 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다. **게시** 탭을 선택합니다.  
   
-2.  **응용 프로그램 파일** 단추를 클릭합니다.  
+2. **응용 프로그램 파일** 단추를 클릭합니다.  
   
-3.  ClickOnceLibrary.dll에 대한 목록을 찾습니다. **게시 상태** 드롭다운 상자를 **포함**으로 설정합니다.  
+3. ClickOnceLibrary.dll에 대한 목록을 찾습니다. **게시 상태** 드롭다운 상자를 **포함**으로 설정합니다.  
   
-4.  **그룹** 드롭다운 상자를 확장하고 **새로 만들기**를 선택합니다. `ClickOnceLibrary` 라는 이름을 새 그룹 이름으로 입력합니다.  
+4. **그룹** 드롭다운 상자를 확장하고 **새로 만들기**를 선택합니다. `ClickOnceLibrary` 라는 이름을 새 그룹 이름으로 입력합니다.  
   
-5.  에 설명 된 대로 응용 프로그램을 게시 계속 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.  
+5. 에 설명 된 대로 응용 프로그램을 게시 계속 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.  
   
 #### <a name="to-mark-assemblies-as-optional-in-your-clickonce-application-by-using-manifest-generation-and-editing-tool--graphical-client-mageuiexe"></a>매니페스트 생성 및 편집 도구 — 그래픽 클라이언트(MageUI.exe)를 사용하여 ClickOnce 애플리케이션에서 어셈블리를 선택 사항으로 표시하려면  
   
-1.  만들 하 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 에 설명 된 대로 매니페스트 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)  
+1. 만들 하 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 에 설명 된 대로 매니페스트 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)  
   
-2.  MageUI.exe를 닫기 전에 배포의 애플리케이션 매니페스트를 포함하는 탭을 선택하고 해당 탭에서 **파일** 탭을 선택합니다.  
+2. MageUI.exe를 닫기 전에 배포의 애플리케이션 매니페스트를 포함하는 탭을 선택하고 해당 탭에서 **파일** 탭을 선택합니다.  
   
-3.  애플리케이션 파일의 목록에서 ClickOnceLibrary.dll을 찾고 **파일 형식** 열을 **없음**으로 설정합니다. **그룹** 열에 `ClickOnceLibrary.dll`을 입력합니다.  
+3. 애플리케이션 파일의 목록에서 ClickOnceLibrary.dll을 찾고 **파일 형식** 열을 **없음**으로 설정합니다. **그룹** 열에 `ClickOnceLibrary.dll`을 입력합니다.  
   
 ## <a name="testing-the-new-assembly"></a>새 어셈블리 테스트  
   
 #### <a name="to-test-your-on-demand-assembly"></a>요청 시 어셈블리를 테스트하려면  
   
-1.  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]로 배포된 응용 프로그램을 시작합니다.  
+1. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]로 배포된 응용 프로그램을 시작합니다.  
   
-2.  기본 폼이 나타나면 <xref:System.Windows.Forms.Button>을 누릅니다. 메시지 상자 창에 "Hello, World!"라는 문자열이 표시됩니다.  
+2. 기본 폼이 나타나면 <xref:System.Windows.Forms.Button>을 누릅니다. 메시지 상자 창에 "Hello, World!"라는 문자열이 표시됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:System.Deployment.Application.ApplicationDeployment>

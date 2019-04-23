@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a29d98455ccf796f331513c7abf5e679e55af8b5
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 043db1aca02a82abe08786466f4b47213d09540d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669473"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086028"
 ---
 # <a name="the-connection-property-in-the-application-settings-file-is-missing-or-incorrect"></a>응용 프로그램 설정 파일에서 연결 속성이 없거나 잘못되었습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "59669473"
   
 ### <a name="to-respond-to-this-message"></a>이 메시지에 응답하려면  
   
--   **확인**을 클릭합니다. .dbml 파일에 포함된 연결 정보는 응용 프로그램 설정에 추가됩니다.  
+- **확인**을 클릭합니다. .dbml 파일에 포함된 연결 정보는 응용 프로그램 설정에 추가됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

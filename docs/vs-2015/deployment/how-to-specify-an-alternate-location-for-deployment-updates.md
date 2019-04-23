@@ -16,12 +16,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b7817454cc2c5789975e064dec7a58d8e857a145
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6fafeeb386e1dd40067620d529cb25023d3f0f29
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971678"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087942"
 ---
 # <a name="how-to-specify-an-alternate-location-for-deployment-updates"></a>방법: 배포 업데이트를 위한 대체 위치 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,27 +33,27 @@ ms.locfileid: "58971678"
   
 ### <a name="specifying-an-alternate-location-for-updates-by-using-mageuiexe-windows-forms-based-utility"></a>MageUI.exe (Windows Forms 기반 유틸리티)를 사용 하 여 업데이트에 대 한 대체 위치 지정  
   
-1.  .NET Framework 명령 프롬프트를 열고 형식:  
+1. .NET Framework 명령 프롬프트를 열고 형식:  
   
      **mageui.exe**  
   
-2.  에 **파일** 메뉴 선택 **엽니다** 응용 프로그램의 배포 매니페스트를 엽니다.  
+2. 에 **파일** 메뉴 선택 **엽니다** 응용 프로그램의 배포 매니페스트를 엽니다.  
   
-3.  **배포 옵션** 탭을 선택합니다.  
+3. **배포 옵션** 탭을 선택합니다.  
   
-4.  텍스트 상자에 이름이 **시작 위치**, 응용 프로그램 업데이트에 대 한 배포 매니페스트를 포함 하는 디렉터리에 URL을 입력 합니다.  
+4. 텍스트 상자에 이름이 **시작 위치**, 응용 프로그램 업데이트에 대 한 배포 매니페스트를 포함 하는 디렉터리에 URL을 입력 합니다.  
   
-5.  배포 매니페스트를 저장 합니다.  
+5. 배포 매니페스트를 저장 합니다.  
   
 ### <a name="specifying-an-alternate-location-for-updates-by-using-mageexe"></a>Mage.exe를 사용 하 여 업데이트에 대 한 대체 위치 지정  
   
-1.  .NET Framework 명령 프롬프트를 엽니다.  
+1. .NET Framework 명령 프롬프트를 엽니다.  
   
-2.  다음 명령을 사용 하 여 업데이트 위치를 설정 합니다. 이 예제에서는 **HelloWorld.exe.application** 경로인 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 항상.application 확장명에는 응용 프로그램 매니페스트 및 **http://adatum.com/Update/Path** 해당URL은[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 업데이트를 확인 합니다.  
+2. 다음 명령을 사용 하 여 업데이트 위치를 설정 합니다. 이 예제에서는 **HelloWorld.exe.application** 경로인 프로그램 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 항상.application 확장명에는 응용 프로그램 매니페스트 및 **http://adatum.com/Update/Path** 해당URL은[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 업데이트를 확인 합니다.  
   
      **Mage -Update HelloWorld.exe.application -ProviderUrl http://adatum.com/Update/Path**  
   
-3.  파일을 저장합니다.  
+3. 파일을 저장합니다.  
   
     > [!NOTE]
     >  이제 Mage.exe 사용 하 여 파일에 다시 서명 해야 합니다. 자세한 내용은 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)  

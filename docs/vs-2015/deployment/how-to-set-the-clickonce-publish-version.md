@@ -17,12 +17,12 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b082e92ffac43e48725285bc9fa9052dd82cfd92
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: bca76d104550a8607de82c9092f57d43c027e63c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984077"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104481"
 ---
 # <a name="how-to-set-the-clickonce-publish-version"></a>방법: ClickOnce 게시 버전 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,11 +36,11 @@ ms.locfileid: "58984077"
   
 ### <a name="to-change-the-publish-version"></a>게시 버전을 변경 하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **게시** 탭을 클릭합니다.  
+2. **게시** 탭을 클릭합니다.  
   
-3.  **게시 버전** 필드에 증가 합니다 **주요**, **부**, **빌드**, 또는 **수정** 버전 숫자입니다.  
+3. **게시 버전** 필드에 증가 합니다 **주요**, **부**, **빌드**, 또는 **수정** 버전 숫자입니다.  
   
     > [!NOTE]
     >  버전 번호를; 감소 되지 해야 따라서 이렇게 하면 예측할 수 없는 업데이트 동작을 일으킬 수 있습니다.  

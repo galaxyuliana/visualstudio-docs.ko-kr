@@ -8,12 +8,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 556821ff934d8276622ffb12ddbf4589ac404ab8
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 002a82143ca30e87a8e83f3e7e4b7217ab677f11
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661388"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087926"
 ---
 # <a name="using-the-c-core-guidelines-checkers"></a>C++ Core Guidelines를 이용한 코드검사 사용
 
@@ -84,17 +84,17 @@ C++ Core Guidelines 향상하고 안전한 코드를 작성할 수 있도록 하
 
 새 규칙은 C++ 핵심 지침 검사기에 추가 되 면 기존 코드에 대 한 생성 되는 경고 수가 늘어날 수 있습니다. 사용 하도록 설정 하는 규칙의 종류를 필터링 하려면 미리 정의 된 규칙 집합을 사용할 수 있습니다. Visual Studio 2017 버전 15.3부터 지원 되는 규칙 집합은 됩니다.
 
-  - **소유자 포인터 규칙** 적용 [소유자와 관련 된 리소스 관리 검사\<T >에서 C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
+- **소유자 포인터 규칙** 적용 [소유자와 관련 된 리소스 관리 검사\<T >에서 C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
 
-  - **Const 규칙** 적용 [C++ Core Guidelines의 const 관련 검사](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability)합니다.
+- **Const 규칙** 적용 [C++ Core Guidelines의 const 관련 검사](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability)합니다.
 
-  - **원시 포인터 규칙** 적용 [리소스 관리 검사 C++ Core Guidelines에서 원시 관련이 포인터](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
+- **원시 포인터 규칙** 적용 [리소스 관리 검사 C++ Core Guidelines에서 원시 관련이 포인터](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
 
-  - **고유 포인터 규칙** 적용 [C++ Core Guidelines에서 고유 포인터 의미 체계를 사용 하는 형식 관련 리소스 관리 검사](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
+- **고유 포인터 규칙** 적용 [C++ Core Guidelines에서 고유 포인터 의미 체계를 사용 하는 형식 관련 리소스 관리 검사](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management)합니다.
 
-  - **범위 규칙** 적용 된 [프로필은 C++ Core Guidelines의 범위](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#probounds-bounds-safety-profile)합니다.
+- **범위 규칙** 적용 된 [프로필은 C++ Core Guidelines의 범위](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#probounds-bounds-safety-profile)합니다.
 
-  - **형식 규칙** 적용 된 [프로필은 C++ Core Guidelines의 입력](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#prosafety-type-safety-profile)합니다.
+- **형식 규칙** 적용 된 [프로필은 C++ Core Guidelines의 입력](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#prosafety-type-safety-profile)합니다.
 
 하나 또는 그룹의 몇 가지 경고를 제한할 수 있습니다. **네이티브 최소** 하 고 **네이티브 권장** 집합 기타 PREfast 검사 하는 것 외에도 C++ Core Check 규칙을 포함 하는 규칙입니다. 사용 가능한 규칙 집합, 프로젝트 속성 대화 상자를 열고 보려면를 선택 **코드 Analysis\General**, 열에서 드롭다운 합니다 **규칙 집합** 콤보 상자 및 선택 **여러 규칙 집합 선택** . Visual Studio에서 규칙 집합을 사용 하는 방법에 대 한 자세한 내용은 참조 하세요. [코드 분석 규칙 그룹화를 사용 하 여 규칙 집합](using-rule-sets-to-group-code-analysis-rules.md)합니다.
 

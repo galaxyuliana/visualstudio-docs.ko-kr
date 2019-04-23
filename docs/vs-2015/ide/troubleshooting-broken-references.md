@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dbc1bff5ad547a946efa3edcd5c21cc6de4fad07
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ed23ea566bb27eaa8a315473fdf5345764ad5384
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54780529"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113952"
 ---
 # <a name="troubleshooting-broken-references"></a>Troubleshooting Broken References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,11 +54,11 @@ ms.locfileid: "54780529"
   
 #### <a name="to-fix-a-broken-project-reference-by-correcting-the-reference-path"></a>참조 경로를 수정하여 끊어진 프로젝트 문제를 해결하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다.  
   
-2.  **프로젝트 디자이너**가 표시됩니다.  
+2. **프로젝트 디자이너**가 표시됩니다.  
   
-3.  Visual Basic을 사용할 경우 **참조** 페이지를 선택하고 **참조 경로** 단추를 클릭합니다. **참조 경로** 대화 상자에서 참조할 항목이 포함된 폴더의 경로를 **폴더** 필드에 입력하고 **폴더 추가** 단추를 클릭합니다.  
+3. Visual Basic을 사용할 경우 **참조** 페이지를 선택하고 **참조 경로** 단추를 클릭합니다. **참조 경로** 대화 상자에서 참조할 항목이 포함된 폴더의 경로를 **폴더** 필드에 입력하고 **폴더 추가** 단추를 클릭합니다.  
   
      또는  
   
@@ -69,20 +69,20 @@ ms.locfileid: "54780529"
   
 #### <a name="to-fix-a-broken-project-reference-for-a-file-that-no-longer-exists-on-your-drive"></a>더 이상 드라이브에 없는 파일에 대한 끊어진 프로젝트 참조를 해결하려면  
   
--   참조를 삭제합니다.  
+- 참조를 삭제합니다.  
   
--   참조가 컴퓨터의 또 다른 위치에 있으면 이 위치에서 참조를 읽으세요.  
+- 참조가 컴퓨터의 또 다른 위치에 있으면 이 위치에서 참조를 읽으세요.  
   
--   자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+- 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
   
 ## <a name="referenced-file-has-been-renamed"></a>참조된 파일의 이름이 바뀜  
  참조되는 파일의 이름이 바뀌었을 수 있습니다.  
   
 #### <a name="to-fix-a-broken-reference-for-a-file-that-has-been-renamed"></a>이름이 바뀐 파일에 대한 끊어진 참조를 해결하려면  
   
--   참조를 삭제하고 나서 이름이 바뀐 파일에 참조를 추가합니다.  
+- 참조를 삭제하고 나서 이름이 바뀐 파일에 참조를 추가합니다.  
   
--   참조가 컴퓨터의 또 다른 위치에 있으면 이 위치에서 참조를 읽어야 합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+- 참조가 컴퓨터의 또 다른 위치에 있으면 이 위치에서 참조를 읽어야 합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
   
 ## <a name="network-connection-or-authentication-has-failed"></a>네트워크 연결 또는 인증에 실패함  
  파일에 액세스할 수 없는 경우 네트워크 연결 실패 또는 인증 실패 등의 다양한 원인이 있을 수 있습니다. 각 원인에는 고유한 복구 방법이 있습니다. 예를 들어 필요한 리소스에 액세스하려면 로컬 관리자에게 문의해야 합니다. 하지만 참조를 삭제하고 참조를 사용한 코드를 수정할 수도 있습니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
