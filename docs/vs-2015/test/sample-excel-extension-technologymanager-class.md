@@ -8,12 +8,12 @@ ms.assetid: 8a7b760d-b5ac-4451-9593-6ac1a0b95cdb
 caps.latest.revision: 11
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4ab353f9c42eebe4af10f56f6ee4cda533069121
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 64632c175b44a370d7dcaf48e7c0a8cee766a4ab
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54779572"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078072"
 ---
 # <a name="sample-excel-extension-technologymanager-class"></a>샘플 Excel 확장: TechnologyManager 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,15 +38,15 @@ ms.locfileid: "54779572"
 ## <a name="methods-to-get-an-element"></a>요소를 가져오는 메서드  
  코딩된 UI 테스트 프레임워크는 몇 가지 중요한 메서드를 사용하여 핸들, 화면의 점 또는 다른 기술의 요소를 제공해 기술과 관련된 요소를 가져옵니다. 이러한 메서드에 해당하는 코드에는 설명이 포함되어 있습니다. 기본 메서드는 다음과 같습니다.  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetFocusedElement%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetFocusedElement%2A?displayProperty=fullName>  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromPoint%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromPoint%2A?displayProperty=fullName>  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromWindowHandle%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromWindowHandle%2A?displayProperty=fullName>  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromNativeElement%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromNativeElement%2A?displayProperty=fullName>  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.ConvertToThisTechnology%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.ConvertToThisTechnology%2A?displayProperty=fullName>  
   
 ## <a name="parsequeryid-method"></a>ParseQueryId 메서드  
  코딩된 UI 테스트를 만들 때 사용자는 테스트의 일부 또는 모든 컨트롤에 대해 속성 값을 지정할 수 있습니다. 이러한 속성 값은 테스트 프레임워크가 테스트 중에 특정 UI 컨트롤을 찾는 데 사용하는 검색 속성이라는 이름/값 쌍을 만드는 데 사용됩니다. 모든 검색 속성은 기술 내 모든 요소의 <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement.QueryId%2A?displayProperty=fullName> 속성 값을 나타냅니다. 여기에는 모든 컨트롤도 포함됩니다. 테스트 중에는 컨트롤을 여러 번 확인해야 할 수 있으므로, 기술 관리자는 이 메서드를 사용하여 지정된 컨트롤의 검색 속성 구문 분석을 최적화할 수 있습니다. 또한 이 메서드는 프레임워크가 해당 컨트롤의 후속 검색에 사용할 수 있는 쿠키도 반환합니다. 메서드의 이 구현은 <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.AndCondition.Match%2A?displayProperty=fullName> 메서드를 사용하여 검색 속성을 구문 분석합니다.  

@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: c438514263d9934f70927b46c8d1c9130746a06f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 77b50f5511f76cceda1827d2a36db7514daa6bea
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970756"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076018"
 ---
 # <a name="ca1002-do-not-expose-generic-lists"></a>CA1002: 제네릭 목록을 노출하지 마세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,11 +38,11 @@ ms.locfileid: "58970756"
 ## <a name="rule-description"></a>규칙 설명
  <xref:System.Collections.Generic.List%601?displayProperty=fullName> 성능 및 상속이 아니라 하도록 디자인 된 제네릭 컬렉션이입니다. <xref:System.Collections.Generic.List%601?displayProperty=fullName> 쉽게 상속된 된 클래스의 동작을 변경 하는 가상 멤버를 포함 하지 않습니다. 다음 제네릭 컬렉션을 상속 하도록 설계 되었으며 대신 노출 되어야 합니다 <xref:System.Collections.Generic.List%601?displayProperty=fullName>합니다.
 
--   <xref:System.Collections.ObjectModel.Collection%601?displayProperty=fullName>
+- <xref:System.Collections.ObjectModel.Collection%601?displayProperty=fullName>
 
--   <xref:System.Collections.ObjectModel.ReadOnlyCollection%601?displayProperty=fullName>
+- <xref:System.Collections.ObjectModel.ReadOnlyCollection%601?displayProperty=fullName>
 
--   <xref:System.Collections.ObjectModel.KeyedCollection%602?displayProperty=fullName>
+- <xref:System.Collections.ObjectModel.KeyedCollection%602?displayProperty=fullName>
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면 변경 된 <xref:System.Collections.Generic.List%601?displayProperty=fullName> 형식 상속을 위해 디자인 된 제네릭 컬렉션 중 하나입니다.

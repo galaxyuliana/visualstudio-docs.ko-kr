@@ -23,50 +23,50 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: df8a099470661545666149e32cf02f4481487e54
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: d348675ca8670aa27035d31657d06bc2c4e0a829
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696144"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075352"
 ---
 # <a name="walkthrough-debugging-a-windows-form"></a>연습: Windows Form 디버깅
-Windows 폼에는 가장 일반적인 관리 되는 응용 프로그램 중 하나입니다. Windows 폼에 표준 Windows 응용 프로그램을 만듭니다. Visual Basic을 사용 하 여이 연습을 완료 하려면 C#, 또는 c + +입니다.
+Windows 폼에는 가장 일반적인 관리 되는 응용 프로그램 중 하나입니다. Windows 폼에 표준 Windows 응용 프로그램을 만듭니다. Visual Basic을 사용 하 여이 연습을 완료 하려면 C#, 또는 C++합니다.
 
  먼저, 열려 있는 솔루션을 닫아야 합니다.
 
 ### <a name="to-prepare-for-this-walkthrough"></a>이 연습을 준비하려면
 
--   이미 열려 있는 솔루션이 있으면 닫습니다. (에 **파일** 메뉴에서 **솔루션 닫기**.)
+- 이미 열려 있는 솔루션이 있으면 닫습니다. (에 **파일** 메뉴에서 **솔루션 닫기**.)
 
 ## <a name="create-a-new-windows-form"></a>새 Windows Form 만들기
  다음으로 새 Windows 폼을 만듭니다.
 
 #### <a name="to-create-the-windows-form-for-this-walkthrough"></a>이 연습에 대 한 Windows 폼을 만들려면
 
-1.  에 **파일** 메뉴 선택 **새로 만들기** 클릭 **프로젝트**합니다.
+1. 에 **파일** 메뉴 선택 **새로 만들기** 클릭 **프로젝트**합니다.
 
      **새 프로젝트** 대화 상자가 나타납니다.
 
-2.  프로젝트 형식 창에서 엽니다는 **Visual Basic**를 **시각적 C#** , 또는 **Visual c + +** 노드를 다음
+2. 프로젝트 형식 창에서 엽니다는 **Visual Basic**를 **시각적 C#** , 또는 **Visual C++**  노드를 다음
 
-    1.  Visual Basic 또는 시각적 개체에 대 한 C#을 선택 **Windows 데스크톱** > **Windows 양식 앱**.
+    1. Visual Basic 또는 Visual C#을 선택 **Windows 바탕 화면** > **Windows 양식 앱**합니다.
 
-    2.  Visual c + +에 대 한 선택 **Windows 데스크톱 응용 프로그램**합니다.
+    2. 시각적 개체에 대해 C++을 선택 **Windows 데스크톱 응용 프로그램**합니다.
 
-3.  에 **이름을** 상자, 프로젝트 (예를 들어 Walkthrough_SimpleDebug) 고유한 이름을 지정 합니다.
+3. 에 **이름을** 상자, 프로젝트 (예를 들어 Walkthrough_SimpleDebug) 고유한 이름을 지정 합니다.
 
-4.  **확인**을 클릭합니다.
+4. **확인**을 클릭합니다.
 
      Visual Studio 새 프로젝트를 만들고 Windows Forms 디자이너에서 새 폼을 표시 합니다. 자세한 내용은 [Windows Forms 디자이너](/previous-versions/visualstudio/visual-studio-2010/e06hs424\(v\=vs.100\))합니다.
 
-5.  에 **뷰** 메뉴에서 **도구 상자**합니다.
+5. 에 **뷰** 메뉴에서 **도구 상자**합니다.
 
      도구 상자가 열립니다. 자세한 내용은 [도구 상자](../ide/reference/toolbox.md)를 참조하세요.
 
-6.  도구 상자에서 클릭 합니다 **단추** 컨트롤과 폼 디자인 화면에 컨트롤을 끌어 옵니다. 폼에서 단추를 삭제 합니다.
+6. 도구 상자에서 클릭 합니다 **단추** 컨트롤과 폼 디자인 화면에 컨트롤을 끌어 옵니다. 폼에서 단추를 삭제 합니다.
 
-7.  도구 상자에서 클릭 합니다 **텍스트 상자** 제어 하 고 양식 디자인 화면에 컨트롤을 끌어 옵니다. 삭제 합니다 **텍스트 상자** 양식의 합니다.
+7. 도구 상자에서 클릭 합니다 **텍스트 상자** 제어 하 고 양식 디자인 화면에 컨트롤을 끌어 옵니다. 삭제 합니다 **텍스트 상자** 양식의 합니다.
 
 8. 폼 디자인 화면에서 단추를 두 번 클릭 합니다.
 
@@ -95,7 +95,7 @@ Windows 폼에는 가장 일반적인 관리 되는 응용 프로그램 중 하�
 
 #### <a name="to-debug-the-windows-form-created-for-this-walkthrough"></a>이 연습에서 만든 Windows Form을 디버깅 하려면
 
-1.  소스 창에서 추가한 텍스트와 동일한 줄의 왼쪽된 여백을 클릭 합니다.
+1. 소스 창에서 추가한 텍스트와 동일한 줄의 왼쪽된 여백을 클릭 합니다.
 
      ```vb
     textBox1.Text = "Button was clicked!"
@@ -114,31 +114,31 @@ Windows 폼에는 가장 일반적인 관리 되는 응용 프로그램 중 하�
     > [!NOTE]
     >  모든 줄을 마우스 오른쪽 단추로 클릭 코드의 가리킨 **중단점**, 클릭 하 고 **중단점 삽입** 해당 줄에 중단점을 추가 하려면.
 
-2.  **디버그** 메뉴에서 **시작**을 선택합니다.
+2. **디버그** 메뉴에서 **시작**을 선택합니다.
 
      Windows 폼 실행 되기 시작 합니다.
 
-3.  Windows 폼에 추가한 단추를 클릭 합니다.
+3. Windows 폼에 추가한 단추를 클릭 합니다.
 
      Visual Studio에서이 줄으로 이동 된 코드 페이지에 중단점을 설정한 합니다. 이 줄은 노란색으로 강조 표시되어 있어야 합니다. 이제 응용 프로그램의 변수를 보고 해당 응용 프로그램의 실행을 제어할 수 있습니다. 응용 프로그램 실행, 사용자 작업에 대 한 대기에 이제 중지 되었습니다.
 
-4.  에 **디버그** 메뉴에서 선택 **Windows**, 한 다음 **조사식**, 클릭 **조사식 1**.
+4. 에 **디버그** 메뉴에서 선택 **Windows**, 한 다음 **조사식**, 클릭 **조사식 1**.
 
-5.  에 **조사식 1** 창에서 빈 행을 클릭 합니다. 에 **이름** 열, 형식 `textBox1.Text` (Visual Basic 또는 시각적 개체를 사용 하는 경우 C#) 또는 `textBox1->Text` (사용 중인 경우 c + +), 한 다음 ENTER 키를 누릅니다.
+5. 에 **조사식 1** 창에서 빈 행을 클릭 합니다. 에 **이름** 열, 형식 `textBox1.Text` (Visual Basic 또는 시각적 개체를 사용 하는 경우 C#) 또는 `textBox1->Text` (사용 중인 경우 C++), 한 다음 ENTER 키를 누릅니다.
 
      합니다 **조사식 1** 창으로 인용 부호 안에이 변수의 값을 표시 합니다.
 
     `""`
 
-6.  **디버그** 메뉴에서 **한 단계씩 코드 실행**을 선택합니다.
+6. **디버그** 메뉴에서 **한 단계씩 코드 실행**을 선택합니다.
 
      변경 내용 textBox1.Text의 값을 **조사식 1** 창:
 
     `Button was clicked!`
 
-7.  에 **디버그** 메뉴 선택 **계속** 프로그램 디버깅을 다시 시작 합니다.
+7. 에 **디버그** 메뉴 선택 **계속** 프로그램 디버깅을 다시 시작 합니다.
 
-8.  Windows 폼에 단추를 다시 클릭 합니다.
+8. Windows 폼에 단추를 다시 클릭 합니다.
 
      Visual Studio는 다시 실행을 중단합니다.
 
@@ -153,7 +153,7 @@ Windows 폼에는 가장 일반적인 관리 되는 응용 프로그램 중 하�
 
 #### <a name="to-attach-to-the-windows-form-application-for-debugging"></a>디버깅에 대 한 Windows Form 응용 프로그램에 연결
 
-1.  위에서 만든 프로젝트에서 다시 한 번 추가한 줄에 중단점을 설정 하려면 왼쪽된 여백을 클릭 합니다.
+1. 위에서 만든 프로젝트에서 다시 한 번 추가한 줄에 중단점을 설정 하려면 왼쪽된 여백을 클릭 합니다.
 
      ```vb
     textBox1.Text = "Button was clicked!"
@@ -166,19 +166,19 @@ Windows 폼에는 가장 일반적인 관리 되는 응용 프로그램 중 하�
     ```cpp
     textBox1->Text = "Button was clicked!";
 
-2.  On the **Debug** menu, select **Start Without Debugging**.
+2. On the **Debug** menu, select **Start Without Debugging**.
 
      The Windows Form starts running under Windows, just as if you had double-clicked its executable. The debugger is not attached.
 
-3.  On the **Debug** menu, select **Attach to Process**. (This command is also available on the **Tools** menu.)
+3. On the **Debug** menu, select **Attach to Process**. (This command is also available on the **Tools** menu.)
 
      The **Attach to Process** dialog box appears.
 
-4.  In the **Available Processes** pane, find the process name (Walkthrough_SimpleDebug.exe) in the **Process** column and click it.
+4. In the **Available Processes** pane, find the process name (Walkthrough_SimpleDebug.exe) in the **Process** column and click it.
 
-5.  Click the **Attach** button.
+5. Click the **Attach** button.
 
-6.  In your Windows Form, click the one and only button.
+6. In your Windows Form, click the one and only button.
 
      The debugger breaks execution of the Windows Form at the breakpoint.
 

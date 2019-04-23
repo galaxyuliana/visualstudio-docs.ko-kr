@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 5e7762b50d486f50ed59f489ef45641908d61612
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: c672103c0426f2d49eb47aa41014ee13ff0ecae9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55933108"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073441"
 ---
 # <a name="save-data-from-an-object-to-a-database"></a>개체에서 데이터베이스로 데이터 저장
 
@@ -41,7 +41,7 @@ TableAdapter의 DBDirect 메서드 중 하나에 개체에서 값을 전달 하 
 
 ## <a name="to-save-new-records-from-an-object-to-a-database"></a>데이터베이스 개체에서 새 레코드를 저장 하려면
 
--   값을 전달 하 여 레코드를 만들어야 합니다 `TableAdapter.Insert` 메서드.
+- 값을 전달 하 여 레코드를 만들어야 합니다 `TableAdapter.Insert` 메서드.
 
      다음 예제에서 새 고객 레코드를 만듭니다는 `Customers` 의 값을 전달 하 여 테이블의 `currentCustomer` 개체를 `TableAdapter.Insert` 메서드.
 
@@ -50,7 +50,7 @@ TableAdapter의 DBDirect 메서드 중 하나에 개체에서 값을 전달 하 
 
 ## <a name="to-update-existing-records-from-an-object-to-a-database"></a>데이터베이스 개체에서 기존 레코드를 업데이트 하려면
 
--   호출 하 여 레코드를 수정 합니다 `TableAdapter.Update` 메서드, 레코드를 업데이트 하려면 새 값을 전달 하 고 레코드를 찾고 원래 값을 전달 합니다.
+- 호출 하 여 레코드를 수정 합니다 `TableAdapter.Update` 메서드, 레코드를 업데이트 하려면 새 값을 전달 하 고 레코드를 찾고 원래 값을 전달 합니다.
 
     > [!NOTE]
     > 개체를 전달할 수 있도록 원래 값을 유지 해야 하는 경우는 `Update` 메서드. 사용 하 여 속성을 사용 하 여이 예제는 `orig` 원래 값을 저장 하는 접두사입니다.
@@ -62,7 +62,7 @@ TableAdapter의 DBDirect 메서드 중 하나에 개체에서 값을 전달 하 
 
 ## <a name="to-delete-existing-records-from-a-database"></a>데이터베이스에서 기존 레코드를 삭제 하려면
 
--   호출 하 여 레코드를 삭제 하는 `TableAdapter.Delete` 메서드와 레코드를 찾고 원래 값을 전달 합니다.
+- 호출 하 여 레코드를 삭제 하는 `TableAdapter.Delete` 메서드와 레코드를 찾고 원래 값을 전달 합니다.
 
     > [!NOTE]
     > 개체를 전달할 수 있도록 원래 값을 유지 해야 하는 경우는 `Delete` 메서드. 사용 하 여 속성을 사용 하 여이 예제는 `orig` 원래 값을 저장 하는 접두사입니다.
@@ -76,6 +76,6 @@ TableAdapter의 DBDirect 메서드 중 하나에 개체에서 값을 전달 하 
 
 선택한 수행할 수 있는 권한이 있어야 합니다. `INSERT`, `UPDATE`, 또는 `DELETE` 데이터베이스의 테이블에 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)

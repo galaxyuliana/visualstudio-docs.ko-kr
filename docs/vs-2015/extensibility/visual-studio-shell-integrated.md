@@ -11,12 +11,12 @@ ms.assetid: 0b40d495-f17f-4bb9-ace8-b365a7172784
 caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 87c7b4faaf5aad737c8f7f8b653dbea03bc4de31
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 0ef8bdb5f35ed727a207140dde6cf20f5645e5b3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59003145"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074127"
 ---
 # <a name="visual-studio-shell-integrated"></a>Visual Studio Shell (통합)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,15 +68,15 @@ Visual Studio 통합 셸에 통합된 개발 환경 (IDE), 디버거 및 소스 
 ## <a name="features-not-included-in-the-integrated-shell"></a>Integrated Shell에 포함 되지 않은 기능  
  다음은 integrated shell에 포함 되지 않은 기능 목록입니다.  
   
--   클래스 디자이너  
+- 클래스 디자이너  
   
--   PreEmptive Protection - Dotfuscator  
+- PreEmptive Protection - Dotfuscator  
   
--   언어 기능  
+- 언어 기능  
   
--   VSHost  
+- VSHost  
   
--   Visual Studio 언어 없음 또는 해당 관련된 프로젝트 템플릿 또는 프로젝트 항목 템플릿을 integrated shell에 포함 됩니다. 다른 기능의 언어별 구현할 필요 없이 예에서는 Visual Basic 코드 조각에 대 한 포함 됩니다.  
+- Visual Studio 언어 없음 또는 해당 관련된 프로젝트 템플릿 또는 프로젝트 항목 템플릿을 integrated shell에 포함 됩니다. 다른 기능의 언어별 구현할 필요 없이 예에서는 Visual Basic 코드 조각에 대 한 포함 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 개요 확장](http://msdn.microsoft.com/library/3e9078d7-2763-4cc4-8e20-fac69d747f59)

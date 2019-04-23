@@ -1,5 +1,5 @@
 ---
-title: 'CA2104: 변경 가능한 읽기 전용 참조 형식을 선언하지 마세요.'
+title: 'CA2104: 읽기 전용 참조 형식을 선언 하지 마십시오.'
 ms.date: 11/01/2018
 ms.topic: reference
 f1_keywords:
@@ -18,12 +18,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: a033ed83d6d349ac3876a6f11a24570f3ff8f60c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 40fdeefc2d664b80bb6e17c109349cb5912b0516
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55945016"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077708"
 ---
 # <a name="ca2104-do-not-declare-read-only-mutable-reference-types"></a>CA2104: 변경 가능한 읽기 전용 참조 형식을 선언하지 마세요.
 
@@ -35,7 +35,7 @@ ms.locfileid: "55945016"
 |변경 수준|주요 변경 아님|
 
 > [!NOTE]
-> 사용 되지 않는 규칙 CA2104 이며 Visual Studio의 이후 버전에서 제거 됩니다.
+> 사용 되지 않는 규칙 CA2104 이며 Visual Studio의 이후 버전에서 제거 됩니다. 로 구현 되지 것입니다는 [분석기](roslyn-analyzers-overview.md) 형식의 실제 불변성을 결정 하는 데 필요한 복잡 한 분석 때문입니다.
 
 ## <a name="cause"></a>원인
 
@@ -45,7 +45,7 @@ ms.locfileid: "55945016"
 
 변경 가능한 형식은 해당 인스턴스 데이터를 수정할 수 있는 형식을 말합니다. <xref:System.Text.StringBuilder?displayProperty=fullName> 클래스는 변경 가능한 참조 형식의 예입니다. 클래스의 인스턴스 값을 변경할 수 있는 멤버가 포함 됩니다. 변경할 수 없는 참조 형식의 예로 <xref:System.String?displayProperty=fullName> 클래스입니다. 시작 된 후 해당 값 변경할 수 없습니다.
 
-읽기 전용 한정자 ([읽기 전용](/dotnet/csharp/language-reference/keywords/readonly) 에서 C#를 [ReadOnly](/dotnet/visual-basic/language-reference/modifiers/readonly) Visual Basic의 경우 및 [const](/cpp/cpp/const-cpp) c + +에서) 참조 형식에 필드 (또는 c + +에 대 한 포인터) 필드에서 차단 됩니다. 참조 형식의 다른 인스턴스에 의해 대체 됩니다. 그러나 한정자는 참조 형식을 통해 수정 되지 않도록 필드의 인스턴스 데이터를 방지 하지 않습니다.
+읽기 전용 한정자 ([읽기 전용](/dotnet/csharp/language-reference/keywords/readonly) 에서 C#, [ReadOnly](/dotnet/visual-basic/language-reference/modifiers/readonly) Visual basic의 경우 및 [const](/cpp/cpp/const-cpp) 에서 C++) 참조 형식 필드 (또는 포인터 C++) 필드 참조 형식의 다른 인스턴스에 의해 바꾸지 못하도록 방지 합니다. 그러나 한정자는 참조 형식을 통해 수정 되지 않도록 필드의 인스턴스 데이터를 방지 하지 않습니다.
 
 이 규칙 표시 될 수 있습니다 실수로 형식에 대 한 위반 하는, 실제로 변경할 수 없습니다. 이 경우 경고를 억제 하려면 안전 합니다.
 

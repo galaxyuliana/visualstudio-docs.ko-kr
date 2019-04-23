@@ -27,12 +27,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c8498397e45aad889d575c4ec337d107755b2dba
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 207beb085046748a4eaabdff025cd461c5ddba26
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54788267"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073365"
 ---
 # <a name="using-the-toolbox"></a>도구 상자 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,23 +48,23 @@ ms.locfileid: "54788267"
   
  상황에 맞는 메뉴에서 다음 명령을 사용하여 도구 상자 탭의 항목을 다시 정렬하거나 사용자 지정 탭과 항목을 추가할 수 있습니다.  
   
--   **항목 이름 바꾸기** - 선택한 항목의 이름을 바꿉니다.  
+- **항목 이름 바꾸기** - 선택한 항목의 이름을 바꿉니다.  
   
--   **모두 표시** - 현재 디자이너에 적용된 컨트롤뿐 아니라 사용 가능한 모든 컨트롤을 표시합니다.  
+- **모두 표시** - 현재 디자이너에 적용된 컨트롤뿐 아니라 사용 가능한 모든 컨트롤을 표시합니다.  
   
--   **목록 보기** - 세로 목록에 컨트롤을 표시합니다. 선택을 취소하면 컨트롤이 가로로 표시됩니다.  
+- **목록 보기** - 세로 목록에 컨트롤을 표시합니다. 선택을 취소하면 컨트롤이 가로로 표시됩니다.  
   
--   **항목 선택** - **도구 상자**에 표시되는 항목을 지정할 수 있도록 **도구 상자 항목 선택** 대화 상자를 엽니다. 확인란을 선택하거나 선택을 취소하여 항목을 표시하거나 숨길 수 있습니다.  
+- **항목 선택** - **도구 상자**에 표시되는 항목을 지정할 수 있도록 **도구 상자 항목 선택** 대화 상자를 엽니다. 확인란을 선택하거나 선택을 취소하여 항목을 표시하거나 숨길 수 있습니다.  
   
--   **항목 사전순 정렬** - 이름을 기준으로 항목을 정렬합니다.  
+- **항목 사전순 정렬** - 이름을 기준으로 항목을 정렬합니다.  
   
--   **도구 모음 다시 설정** - 기본 도구 상자 설정 및 항목을 복원합니다.  
+- **도구 모음 다시 설정** - 기본 도구 상자 설정 및 항목을 복원합니다.  
   
--   **탭 추가** - 새 도구 상자 탭을 추가합니다.  
+- **탭 추가** - 새 도구 상자 탭을 추가합니다.  
   
--   **위로 이동** - 선택한 항목을 위로 이동합니다.  
+- **위로 이동** - 선택한 항목을 위로 이동합니다.  
   
--   **아래로 이동** - 선택한 항목을 아래로 이동합니다.  
+- **아래로 이동** - 선택한 항목을 아래로 이동합니다.  
   
 ## <a name="creating-and-distributing-custom-toolbox-controls"></a>사용자 지정 도구 상자 컨트롤 만들기 및 배포  
  Visual Basic 또는 Visual C#에서 사용자 지정 도구 상자 컨트롤을 만들 수 있으며, [Windows Presentation Foundation](../extensibility/creating-a-wpf-toolbox-control.md) 또는 [Windows Forms](../misc/how-to-create-a-toolbox-control-that-uses-windows-forms.md)를 기반으로 하는 프로젝트 템플릿으로 시작할 수도 있습니다. 그런 후에 [도구 상자 컨트롤 설치 관리자](http://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx)를 사용하여 컨트롤을 팀원에게 배포하거나 웹에 게시할 수 있습니다.

@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dac53bc06cb06200dd61adca27fa4894c3c4d8dc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3b20b10a37908e2c9744aeac63bb3eda091da478
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598182"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074494"
 ---
 # <a name="how-to-add-commands-to-shortcut-menus"></a>방법: 바로 가기 메뉴에 명령 추가
   이 항목에는 VSTO 추가 기능을 사용 하 여 Office 응용 프로그램에서 바로 가기 메뉴에 명령을 추가 하는 방법을 보여 줍니다.
@@ -27,26 +27,26 @@ ms.locfileid: "56598182"
 
 ### <a name="to-add-commands-to-shortcut-menus-in-office"></a>Office에서 바로 가기 메뉴에 명령을 추가하려면
 
-1.  **리본 XML** 항목을 문서 수준 또는 VSTO 추가 기능 프로젝트에 추가합니다. 자세한 내용은 [방법: 리본 사용자 지정 시작](../vsto/how-to-get-started-customizing-the-ribbon.md)합니다. 입력
+1. **리본 XML** 항목을 문서 수준 또는 VSTO 추가 기능 프로젝트에 추가합니다. 자세한 내용은 [방법: 리본 사용자 지정 시작](../vsto/how-to-get-started-customizing-the-ribbon.md)합니다. 입력
 
-2.  **솔루션 탐색기**에서 **ThisAddin.cs** 또는 **ThisAddin.vb**를 선택합니다.
+2. **솔루션 탐색기**에서 **ThisAddin.cs** 또는 **ThisAddin.vb**를 선택합니다.
 
-3.  메뉴 모음에서 **보기** > **코드**를 차례로 선택합니다.
+3. 메뉴 모음에서 **보기** > **코드**를 차례로 선택합니다.
 
      **ThisAddin** 클래스 파일이 코드 편집기에서 열립니다.
 
-4.  **ThisAddin** 클래스에 다음 코드를 추가합니다. 이 코드는 `CreateRibbonExtensibilityObject` 메서드를 재정의하고 Office 응용 프로그램에 리본 XML 클래스를 반환합니다.
+4. **ThisAddin** 클래스에 다음 코드를 추가합니다. 이 코드는 `CreateRibbonExtensibilityObject` 메서드를 재정의하고 Office 응용 프로그램에 리본 XML 클래스를 반환합니다.
 
      [!code-csharp[Trin_WordAddIn_Menus#1](../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/thisaddin.cs#1)]
      [!code-vb[Trin_WordAddIn_Menus#1](../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/thisaddin.vb#1)]
 
-5.  **솔루션 탐색기**에서 리본 XML 파일을 선택합니다. 기본적으로 리본 XML 파일 이름은 *Ribbon1.xml*합니다.
+5. **솔루션 탐색기**에서 리본 XML 파일을 선택합니다. 기본적으로 리본 XML 파일 이름은 *Ribbon1.xml*합니다.
 
-6.  메뉴 모음에서 **보기** > **코드**를 차례로 선택합니다.
+6. 메뉴 모음에서 **보기** > **코드**를 차례로 선택합니다.
 
      코드 편집기에서 리본 xml 파일이 열립니다.
 
-7.  코드 편집기에서 바로 가기 메뉴와 바로 가기 메뉴에 추가할 컨트롤을 설명하는 XML을 추가합니다.
+7. 코드 편집기에서 바로 가기 메뉴와 바로 가기 메뉴에 추가할 컨트롤을 설명하는 XML을 추가합니다.
 
      다음 예제에서는 Word 문서의 바로 가기 메뉴에 단추, 메뉴 및 갤러리 컨트롤을 추가합니다. 이 바로 가기 메뉴의 컨트롤 ID는 ContextMenuText입니다. 전체 목록은 Office 2010 바로 가기 컨트롤 ID, 참조 [Office 2010 도움말 파일: Office fluent 사용자 인터페이스 제어 식별자](http://go.microsoft.com/fwlink/?LinkID=181052)합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "56598182"
     </customUI>
     ```
 
-8.  **솔루션 탐색기**에서 **MyRibbon.cs** 또는 **MyRibbon.vb**를 선택합니다.
+8. **솔루션 탐색기**에서 **MyRibbon.cs** 또는 **MyRibbon.vb**를 선택합니다.
 
 9. 콜백 메서드를 추가 합니다 `Ribbon1` 처리 하려는 각 컨트롤에 대 한 클래스입니다.
 

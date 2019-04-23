@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6b7892596af573c777d59f3eb948cdbcc1ffbb72
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 47647910b53b5f86b828ec87c62019b76204f124
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702449"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078371"
 ---
 # <a name="how-to-suppress-file-change-notifications"></a>방법: 파일 변경 알림 표시 안 함
 메시지와 함께 대화 상자가 표시 텍스트 버퍼를 나타내는 물리적 파일이 변경 된 경우 **다음 항목의 변경 내용을 저장 하 시겠습니까?** 이 파일 변경 알림 이라고 합니다. 하지만 많은 변경 하는 경우 파일을이 대화 상자를 반복적으로 표시 될 수 있습니다 신속 하 게 성가신.
@@ -24,19 +24,19 @@ ms.locfileid: "56702449"
 
 ## <a name="to-suppress-file-change-notification"></a>파일 변경 알림을 표시 하지 않으려면
 
-1.  호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.FindAndLockDocument%2A> 텍스트 버퍼 개체가 열려 있는 파일에 연관 된 확인 방법입니다.
+1. 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.FindAndLockDocument%2A> 텍스트 버퍼 개체가 열려 있는 파일에 연관 된 확인 방법입니다.
 
-2.  직접를 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 무시 하기 위해 메모리에 모니터링 하는 파일 변경 내용을 가져와서 개체를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> 에서 인터페이스를 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> (문서 데이터) 개체를 반복한 다음 구현 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl.IgnoreFileChanges%2A> 메서드를 `fIgnore` 매개 변수 로 `true`합니다.
+2. 직접를 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 무시 하기 위해 메모리에 모니터링 하는 파일 변경 내용을 가져와서 개체를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> 에서 인터페이스를 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> (문서 데이터) 개체를 반복한 다음 구현 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl.IgnoreFileChanges%2A> 메서드를 `fIgnore` 매개 변수 로 `true`합니다.
 
-3.  메서드를 호출 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines> 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> 인터페이스 메모리 내 업데이트를 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 파일 변경 (예: 구성 요소에 필드를 추가 되 면)를 사용 하 여 개체입니다.
+3. 메서드를 호출 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines> 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> 인터페이스 메모리 내 업데이트를 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 파일 변경 (예: 구성 요소에 필드를 추가 되 면)를 사용 하 여 개체입니다.
 
-4.  보류 중인 편집 내용이, 사용자가 진행 중 하나를 고려 하지 않고 변경 내용으로 디스크에 있는 파일을 업데이트 합니다.
+4. 보류 중인 편집 내용이, 사용자가 진행 중 하나를 고려 하지 않고 변경 내용으로 디스크에 있는 파일을 업데이트 합니다.
 
      이렇게 하면는 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 파일에 대 한 모니터링을 다시 시작 하는 개체 변경 알림, 텍스트 버퍼 메모리에 생성 된 변경 내용을 반영 합니다. 텍스트 버퍼 메모리에도 다른 모든 보류 중인 편집을 반영합니다. 디스크의 파일을 반영 하 여 생성 되는 최신 코드 및 모든 이전에 사용자가 변경 내용을 사용자가 편집한 코드에 저장 합니다.
 
-5.  호출을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl.IgnoreFileChanges%2A> 에 알리기 위해 메서드를 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 설정 하 여 파일 변경 알림에 대 한 모니터링을 다시 시작 하는 개체를 `fIgnore` 매개 변수를 `false`합니다.
+5. 호출을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl.IgnoreFileChanges%2A> 에 알리기 위해 메서드를 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 설정 하 여 파일 변경 알림에 대 한 모니터링을 다시 시작 하는 개체를 `fIgnore` 매개 변수를 `false`합니다.
 
-6.  소스 코드 제어 (SCC)의 경우와 같이 파일에 대 한 몇 가지 변경 하려는 경우 파일 변경 알림 일시 중단 하도록 전역 파일 변경 서비스에 알려 줘야 합니다.
+6. 소스 코드 제어 (SCC)의 경우와 같이 파일에 대 한 몇 가지 변경 하려는 경우 파일 변경 알림 일시 중단 하도록 전역 파일 변경 서비스에 알려 줘야 합니다.
 
      예를 들어 파일을 다시 작성 하 고 다음 타임 스탬프를 변경 하면 다시 작성 및 타임 스탬프 작업 별도 파일 변경 이벤트로 계산 되므로 파일 변경 알림이 일시 중단 해야 합니다. 전역 파일 변경 알림을 활성화를 대신 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx.IgnoreFile%2A> 메서드.
 

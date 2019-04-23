@@ -9,12 +9,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 551af75c985c9103db37cd3f9fe585655a4df342
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 83dc76e3e92a05f936d94c8cd0f6a2b9b69e4cc1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54800470"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073555"
 ---
 # <a name="start"></a>시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,13 +31,13 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  `Method`  
  다음 키워드 중 하나여야 합니다.  
   
--   **TRACE** - 계측 방법을 지정합니다.  
+- **TRACE** - 계측 방법을 지정합니다.  
   
--   **SAMPLE** - 샘플링 방법을 지정합니다.  
+- **SAMPLE** - 샘플링 방법을 지정합니다.  
   
--   **COVERAGE** - 코드 검사를 지정합니다.  
+- **COVERAGE** - 코드 검사를 지정합니다.  
   
--   **CONCURRENCY** - 리소스 경합 방법을 지정합니다.  
+- **CONCURRENCY** - 리소스 경합 방법을 지정합니다.  
   
 ## <a name="required-options"></a>필수 옵션  
  명령줄에서 **Start**를 지정할 때는 **Output** 옵션을 지정해야 합니다.  
@@ -66,7 +66,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  **Shutdown**[**:**`Timeout`]  
  프로파일러를 해제합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 VSPerfCmd.exe **Start** 옵션을 사용하여 프로파일러를 초기화하는 방법을 보여 줍니다.  
   
 ```  

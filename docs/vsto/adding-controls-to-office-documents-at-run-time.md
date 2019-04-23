@@ -22,12 +22,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7b09e658c896f4f3e864c46dbd02d65a871da318
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c7fa5073fca476159aa756b7a5527dd1007ab66b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600843"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075807"
 ---
 # <a name="add-controls-to-office-documents-at-runtime"></a>런타임에 Office 문서에 컨트롤 추가
   Microsoft Office Word 문서 및 런타임에 Microsoft Office Excel 통합 문서에 컨트롤을 추가할 수 있습니다. 런타임 시 이러한를 제거할 수도 있습니다. 추가 하거나 런타임 시 제거 하는 컨트롤 이라고 *동적 컨트롤*합니다.
@@ -44,16 +44,16 @@ ms.locfileid: "56600843"
 
   ![비디오 링크](../vsto/media/playvideo.gif "비디오 링크") 관련된 비디오 데모를 참조 하세요. [어떻게 할까요? 런타임에 문서 화면에 컨트롤 추가 ](http://go.microsoft.com/fwlink/?LinkId=132782).
 
-##  <a name="ControlsCollection"></a> 컨트롤 컬렉션을 사용 하 여 런타임에 컨트롤 관리
+## <a name="ControlsCollection"></a> 컨트롤 컬렉션을 사용 하 여 런타임에 컨트롤 관리
  추가 하 고 가져오기 또는 런타임 시 컨트롤을 제거, 사용의 도우미 메서드 <xref:Microsoft.Office.Tools.Excel.ControlCollection> 고 <xref:Microsoft.Office.Tools.Word.ControlCollection> 개체입니다.
 
  이러한 개체에 액세스하는 방법은 개발 중인 프로젝트의 유형에 따라 달라집니다.
 
--   Excel용 문서 수준 프로젝트에서는 <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> , `Sheet1`및 `Sheet2`클래스의 `Sheet3` 속성을 사용합니다. 이러한 클래스에 대 한 자세한 내용은 참조 하세요. [워크시트 호스트 항목](../vsto/worksheet-host-item.md)합니다.
+- Excel용 문서 수준 프로젝트에서는 <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> , `Sheet1`및 `Sheet2`클래스의 `Sheet3` 속성을 사용합니다. 이러한 클래스에 대 한 자세한 내용은 참조 하세요. [워크시트 호스트 항목](../vsto/worksheet-host-item.md)합니다.
 
--   Word용 문서 수준 프로젝트에서는 <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> 클래스의 `ThisDocument` 속성을 사용합니다. 이 클래스에 대 한 자세한 내용은 참조 하세요. [문서 호스트 항목](../vsto/document-host-item.md)합니다.
+- Word용 문서 수준 프로젝트에서는 <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> 클래스의 `ThisDocument` 속성을 사용합니다. 이 클래스에 대 한 자세한 내용은 참조 하세요. [문서 호스트 항목](../vsto/document-host-item.md)합니다.
 
--   VSTO 추가 기능 프로젝트에서 Excel 또는 Word를 사용 합니다 `Controls` 의 속성을 <xref:Microsoft.Office.Tools.Excel.Worksheet> 또는 <xref:Microsoft.Office.Tools.Word.Document> 런타임에 생성 하는. 런타임 시 이러한 개체를 생성 하는 방법에 대 한 자세한 내용은 참조 하세요. [확장 Word 문서 및 Excel 통합 런타임에 VSTO 추가 기능에서](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)합니다.
+- VSTO 추가 기능 프로젝트에서 Excel 또는 Word를 사용 합니다 `Controls` 의 속성을 <xref:Microsoft.Office.Tools.Excel.Worksheet> 또는 <xref:Microsoft.Office.Tools.Word.Document> 런타임에 생성 하는. 런타임 시 이러한 개체를 생성 하는 방법에 대 한 자세한 내용은 참조 하세요. [확장 Word 문서 및 Excel 통합 런타임에 VSTO 추가 기능에서](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)합니다.
 
 ### <a name="add-controls"></a>컨트롤 추가
  <xref:Microsoft.Office.Tools.Excel.ControlCollection> 및 <xref:Microsoft.Office.Tools.Word.ControlCollection> 형식에는 문서 및 워크시트에 호스트 컨트롤 및 공용 Windows Forms 컨트롤을 추가하는 데 사용할 수 있는 도우미 메서드가 포함되어 있습니다. 각 메서드 이름은 `Add`*컨트롤 클래스*형식을 사용합니다. 여기서 *컨트롤 클래스* 는 추가할 컨트롤의 클래스 이름입니다. 예를 들어 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 문서에 추가하려면 <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddNamedRange%2A> 메서드를 사용합니다.
@@ -76,7 +76,7 @@ ms.locfileid: "56600843"
 > [!NOTE]
 >  문서의 `Shutdown` 이벤트 처리기에서 프로그래밍 방식으로 컨트롤을 제거하지 마세요. `Shutdown` 이벤트가 발생하면 문서의 UI 요소를 더 이상 사용할 수 없습니다. 문서가 닫히기 전에 컨트롤을 제거하려면 <xref:Microsoft.Office.Tools.Word.Document.BeforeClose> 또는 <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> (Word), <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeClose>또는 <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeSave> (Excel)와 같은 다른 이벤트의 이벤트 처리기에 코드를 추가합니다.
 
-##  <a name="HostControls"></a> 문서에 호스트 컨트롤 추가
+## <a name="HostControls"></a> 문서에 호스트 컨트롤 추가
 
 프로그래밍 방식으로 문서에 호스트 컨트롤을 추가하는 경우 컨트롤을 고유하게 식별하는 이름을 제공해야 하며 문서에서 컨트롤을 추가할 위치를 지정해야 합니다. 구체적인 지침은 다음 항목을 참조하세요.
 
@@ -97,7 +97,7 @@ ms.locfileid: "56600843"
 > [!NOTE]
 > <xref:Microsoft.Office.Tools.Excel.XmlMappedRange>, <xref:Microsoft.Office.Tools.Word.XMLNode>및 <xref:Microsoft.Office.Tools.Word.XMLNodes>호스트 컨트롤은 프로그래밍 방식으로 문서에 추가할 수 없으므로 해당 컨트롤에 대한 도우미 메서드는 제공되지 않습니다.
 
-##  <a name="WindowsForms"></a> 문서에 Windows Forms 컨트롤 추가
+## <a name="WindowsForms"></a> 문서에 Windows Forms 컨트롤 추가
  프로그래밍 방식으로 문서에 Windows Forms 컨트롤을 추가하는 경우 컨트롤을 고유하게 식별하는 이름 및 컨트롤의 위치를 제공해야 합니다. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 각 컨트롤에 대한 도우미 메서드를 제공합니다. 컨트롤 위치에 대해 범위 또는 특정 좌표를 전달할 수 있도록 이러한 메서드는 오버로드됩니다.
 
  문서를 저장하고 닫으면 동적으로 생성된 모든 Windows Forms 컨트롤이 문서에서 제거됩니다. 문서를 다시 열 때 컨트롤을 다시 만드는 코드를 솔루션에 추가할 수 있습니다. VSTO 추가 기능을 사용 하 여 동적 Windows Forms 컨트롤을 만드는 경우 컨트롤의 ActiveX 래퍼가 문서에 남아 있습니다. 자세한 내용은 [Office 문서에서 동적 컨트롤 유지](../vsto/persisting-dynamic-controls-in-office-documents.md)합니다.

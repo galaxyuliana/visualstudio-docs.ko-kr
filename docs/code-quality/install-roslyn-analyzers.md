@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2b1859d422b0f3a76947a64e754521efcda46e65
-ms.sourcegitcommit: 4c7a0c2d712eb24609216577a793e912a6083eaf
+ms.openlocfilehash: 1afeb6f75648ce2ab1687fa9262ab28b658b0d70
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "57982937"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077812"
 ---
 # <a name="install-net-compiler-platform-analyzers"></a>.NET 컴파일러 플랫폼 분석기 설치
 
@@ -24,14 +24,14 @@ Visual Studio.NET 컴파일러 플랫폼의 핵심 집합을 포함 되어 있�
 
 ## <a name="to-install-nuget-analyzer-packages"></a>NuGet 분석기 패키지를 설치 하려면
 
-1.  www.nuget.org 설치 하려는 분석기 패키지를 찾습니다. 예를 들어, 하려는 [Microsoft FxCop 분석기 설치](install-fxcop-analyzers.md#to-install-fxcop-analyzers-as-a-nuget-package) 특히 보안과 성능 문제에 대 한 코드를 확인 합니다.
+1.  www.nuget.org 설치 하려는 분석기 패키지를 찾습니다.
+
+   예를 들어, 하려는 [Microsoft FxCop 분석기 설치](install-fxcop-analyzers.md#to-install-fxcop-analyzers-as-a-nuget-package) 특히 보안과 성능 문제에 대 한 코드를 확인 합니다. 또는 설치할 [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/) 코드 베이스에서 스타일 문제를 찾도록 합니다.
 
 2. 사용 하 여 Visual Studio에서 패키지를 설치 합니다 [패키지 관리자 콘솔](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) 또는 [패키지 관리자 UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console)합니다.
 
    > [!NOTE]
    > 각 분석기 패키지에 대 한 www.nuget.org 페이지에 붙여 명령을 표시 합니다 **패키지 관리자 콘솔**합니다. 클립보드에 텍스트를 복사 하는 유용한 단추는 짝수입니다.
-   >
-   > ![패키지 관리자 콘솔 명령을 표시 하는 NuGet.org 페이지](media/nuget-install-command.png)
 
    분석기 어셈블리 설치 되 고 나타나지 **솔루션 탐색기** 아래에서 **참조가** > **분석기**합니다.
 

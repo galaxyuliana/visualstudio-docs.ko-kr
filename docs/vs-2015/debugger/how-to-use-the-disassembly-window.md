@@ -25,12 +25,12 @@ caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2bd0fe7ca8b2a1f21ebcb6c3434348df9d2e66e5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 42d7c9798527498f2803d814515faefd62c3ace9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986310"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077500"
 ---
 # <a name="how-to-use-the-disassembly-window"></a>방법: 디스어셈블리 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,13 +64,13 @@ ms.locfileid: "58986310"
   
 ### <a name="to-display-the-disassembly-window"></a>디스어셈블리 창을 표시하려면  
   
--   에 **디버그** 메뉴 선택 **Windows**를 클릭 하 고 **디스어셈블리**합니다.  
+- 에 **디버그** 메뉴 선택 **Windows**를 클릭 하 고 **디스어셈블리**합니다.  
   
      디버거는 실행 중이거나 중단 모드에 있어야 합니다.  
   
 ### <a name="to-turn-optional-information-on-or-off"></a>선택적 정보 표시 여부를 선택하려면  
   
--   마우스 오른쪽 단추로 클릭 합니다 **디스어셈블리** 창 고을 선택 하거나 바로 가기 메뉴에서 원하는 옵션의 선택을 취소 합니다.  
+- 마우스 오른쪽 단추로 클릭 합니다 **디스어셈블리** 창 고을 선택 하거나 바로 가기 메뉴에서 원하는 옵션의 선택을 취소 합니다.  
   
      왼쪽 여백의 노란색 화살표는 현재 실행 위치를 나타냅니다. 네이티브 코드에서는 이 화살표가 CPU의 프로그램 카운터에 해당합니다. 이 위치는 프로그램에서 다음에 실행될 명령을 나타냅니다.  
   

@@ -11,12 +11,12 @@ ms.assetid: 27d2f1e1-2503-4aca-9cfc-707abd07ccf0
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5a7602a152054587fa450beae56ad6cbe2c72241
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 70b94eeb48f6b099b3183eb6cbee5e4846d0d92b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982357"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075456"
 ---
 # <a name="extending-other-parts-of-visual-studio"></a>Visual Studio의 다른 부분 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,9 +29,9 @@ ms.locfileid: "58982357"
 ## <a name="extending-the-toolbox"></a>도구 상자 확장
  도구 상자에 새 컨트롤 및 기타 항목을 추가 하는 방법 및 도구 상자 기능을 사용 하는 방법에 알아봅니다.
 
--   [WPF 도구 상자 컨트롤 만들기](../extensibility/creating-a-wpf-toolbox-control.md)
+- [WPF 도구 상자 컨트롤 만들기](../extensibility/creating-a-wpf-toolbox-control.md)
 
--   [Windows Forms 도구 상자 컨트롤 만들기](../extensibility/creating-a-windows-forms-toolbox-control.md)
+- [Windows Forms 도구 상자 컨트롤 만들기](../extensibility/creating-a-windows-forms-toolbox-control.md)
 
 ## <a name="extending-the-status-bar"></a>상태 표시줄 확장
  상태 표시줄 및 진행률 표시줄에 읽기 및 쓰기 방법 및 애니메이션 및 기타 UI를 제공 하는 방법에 알아봅니다. [상태 표시줄 확장](../extensibility/extending-the-status-bar.md)합니다.

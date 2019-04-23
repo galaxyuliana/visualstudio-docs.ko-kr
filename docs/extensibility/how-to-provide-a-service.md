@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2c38f28ae99c2fb70f811b9d6b85e3c771512b17
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 40217c1cfcc2c7ae946e36aadb7a251436023b0a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56723749"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078631"
 ---
 # <a name="how-to-provide-a-service"></a>방법: 서비스를 제공 합니다.
 VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 수 있습니다. 서비스를 제공 하는 VSPackage에 서비스 Visual Studio를 등록 하 고 서비스를 추가 해야 합니다.
@@ -76,7 +76,7 @@ VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 
 
 ### <a name="register-a-service"></a>서비스 등록
 
-1.  서비스를 등록 하려면 추가 <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> 서비스를 제공 하는 VSPackage를 합니다. 다음 예를 참조하세요.
+1. 서비스를 등록 하려면 추가 <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> 서비스를 제공 하는 VSPackage를 합니다. 예를 들면 다음과 같습니다.
 
     ```csharp
     [ProvideService(typeof(SMyService))]
@@ -93,7 +93,7 @@ VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 
 
 ### <a name="add-a-service"></a>서비스 추가
 
-1.  VSPackage 이니셜라이저에서 서비스를 추가 하 고 서비스를 만드는 콜백 메서드를 추가 합니다. 있도록 변경 된 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드:
+1. VSPackage 이니셜라이저에서 서비스를 추가 하 고 서비스를 만드는 콜백 메서드를 추가 합니다. 있도록 변경 된 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드:
 
     ```csharp
     protected override void Initialize()
@@ -105,7 +105,7 @@ VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 
     }
     ```
 
-2.  만들기 및 서비스를 반환 하거나 만들 수 없는 경우 null 해야 하는 콜백 메서드를 구현 합니다.
+2. 만들기 및 서비스를 반환 하거나 만들 수 없는 경우 null 해야 하는 콜백 메서드를 구현 합니다.
 
     ```csharp
     private object CreateService(IServiceContainer container, Type serviceType)
@@ -119,7 +119,7 @@ VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 
     > [!NOTE]
     >  Visual Studio 서비스를 제공 하는 요청을 거부할 수 있습니다. 다른 VSPackage 이미 서비스를 제공 하는 경우 그렇게 수행 합니다.
 
-3.  이제 서비스를 가져올 수 있으며 해당 메서드를 사용할 수 있습니다. 아래 예제에서는 서비스를 사용 하 여 이니셜라이저에서 있지만 서비스를 사용 하려는 서비스 든 가져올 수 있습니다.
+3. 이제 서비스를 가져올 수 있으며 해당 메서드를 사용할 수 있습니다. 아래 예제에서는 서비스를 사용 하 여 이니셜라이저에서 있지만 서비스를 사용 하려는 서비스 든 가져올 수 있습니다.
 
     ```csharp
     protected override void Initialize()

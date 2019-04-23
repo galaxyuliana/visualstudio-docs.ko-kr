@@ -10,27 +10,27 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 98c63d2eff11997a37d27f71d01403b59f276e2b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 971eb3184fc12b9ed72675fbcd46a893981b4c9e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679140"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072957"
 ---
 # <a name="program-control"></a>프로그램 제어
 Visual Studio에서 다음 단계별 실행의 모든 디버깅 및 루틴을 계속 프로그램 수준에서 발생 합니다.
 
--   특정 프레임 환경에서 실행 될 다음 명령으로 컴퓨터를 설정, 다음 문 설정
+- 특정 프레임 환경에서 실행 될 다음 명령으로 컴퓨터를 설정, 다음 문 설정
 
--   즉, 단계별 실행 모드를 종료 하려면 계속 실행
+- 즉, 단계별 실행 모드를 종료 하려면 계속 실행
 
--   다음 명령으로 단계별 실행
+- 다음 명령으로 단계별 실행
 
--   현재 단계별 실행 모드를 사용 하 여 계속합니다.
+- 현재 단계별 실행 모드를 사용 하 여 계속합니다.
 
--   프로그램에 포함 된 스레드를 일시 중단
+- 프로그램에 포함 된 스레드를 일시 중단
 
--   프로그램에 포함 된 스레드 재개
+- 프로그램에 포함 된 스레드 재개
 
 > [!NOTE]
 >  호출 스택 보기는 스레드 수준에서 구현 됩니다. 스레드에 대 한 호출 스택을 볼 때 프레임 정보 열거의 모든 메서드를 구현 해야 합니다 [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) 인터페이스입니다.

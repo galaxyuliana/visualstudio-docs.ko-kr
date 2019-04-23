@@ -11,12 +11,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 511f19e48f91c6719c8b0021ff7eae4071ce89b6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7349bc8c76b749c4306f7483e807507b99a11cff
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983020"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075209"
 ---
 # <a name="add-custom-properties-to-layer-diagrams"></a>레이어 다이어그램에 사용자 지정 속성 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,20 +32,23 @@ ms.locfileid: "58983020"
 > [!IMPORTANT]
 >  속성을 표시하려면 레이어 속성을 표시할 각 컴퓨터에서 다음과 같이 변경해야 합니다.  
 > 
-> 1. 메모장을 사용 하 여 실행할 **관리자 권한으로 실행**합니다. `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`를 엽니다.  
->    2.  `Content` 요소 안에 다음을 추가합니다.  
+>  1. 메모장을 사용 하 여 실행할 **관리자 권한으로 실행**합니다. `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`를 엽니다.  
+>  
+>  2. `Content` 요소 안에 다음을 추가합니다.  
 > 
->    ```xml  
->    <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
->    ```  
->    3.  아래는 **Visual Studio Tools** Visual Studio 응용 프로그램 시작 메뉴를 열고 부분 **개발자 명령 프롬프트**합니다.  
+>     ```xml  
+>     <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
+>     ```  
+>
+>  3. 아래는 **Visual Studio Tools** Visual Studio 응용 프로그램 시작 메뉴를 열고 부분 **개발자 명령 프롬프트**합니다.  
 > 
->    다음을 입력합니다.  
+>     다음을 입력합니다.  
 > 
->    `devenv /rootSuffix /updateConfiguration`  
+>     `devenv /rootSuffix /updateConfiguration`  
 > 
->    `devenv /rootSuffix Exp /updateConfiguration`  
->    4.  Visual Studio를 다시 시작합니다.  
+>     `devenv /rootSuffix Exp /updateConfiguration`  
+>    
+>  4. Visual Studio를 다시 시작합니다.  
   
  **VSIX 프로젝트에서 코드 인지 확인**  
   
@@ -66,15 +69,15 @@ public class MyProperty
   
  <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement> 또는 해당 파생 클래스에서 다음과 같은 속성을 정의할 수 있습니다.  
   
--   `ILayerModel` - 모델  
+- `ILayerModel` - 모델  
   
--   `ILayer` - 각 레이어  
+- `ILayer` - 각 레이어  
   
--   `ILayerDependencyLink` - 레이어 간의 링크  
+- `ILayerDependencyLink` - 레이어 간의 링크  
   
--   `ILayerComment`  
+- `ILayerComment`  
   
--   `ILayerCommentLink`  
+- `ILayerCommentLink`  
   
 ## <a name="example"></a>예제  
  다음 코드는 일반적인 사용자 지정 속성 설명자입니다. 레이어 모델(`ILayerModel`)에서 사용자가 사용자 지정 유효성 검사 메서드의 값을 제공할 수 있게 해주는 부울 속성을 정의합니다.  

@@ -32,12 +32,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 304b61a7e0e11cf3b714fcc6f43855f5ded35713
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 6b9b809750e658b6a5e496e2d90b7b396157f87a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641418"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079021"
 ---
 # <a name="program-vsto-add-ins"></a>VSTO 추가 기능 프로그래밍
   VSTO 추가 기능을 만들어 Microsoft Office 애플리케이션을 확장하는 경우 프로젝트의 `ThisAddIn` 클래스에 대해 직접 코드를 작성합니다. 이 클래스를 사용하여 Microsoft Office 호스트 애플리케이션의 개체 모델 액세스, 애플리케이션의 UI(사용자 인터페이스) 사용자 지정, 다른 Office 솔루션에 VSTO 추가 기능의 개체 표시 등의 작업을 수행할 수 있습니다.
@@ -91,21 +91,21 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 
  특정 Microsoft Office 애플리케이션의 개체 모델에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)
+- [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)
 
--   [Word 개체 모델 개요](../vsto/word-object-model-overview.md)
+- [Word 개체 모델 개요](../vsto/word-object-model-overview.md)
 
--   [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)
+- [Outlook 개체 모델 개요](../vsto/outlook-object-model-overview.md)
 
--   [InfoPath 솔루션](../vsto/infopath-solutions.md)
+- [InfoPath 솔루션](../vsto/infopath-solutions.md)
 
--   [PowerPoint 솔루션](../vsto/powerpoint-solutions.md)
+- [PowerPoint 솔루션](../vsto/powerpoint-solutions.md)
 
--   [프로젝트 솔루션](../vsto/project-solutions.md)
+- [프로젝트 솔루션](../vsto/project-solutions.md)
 
--   [Visio 개체 모델 개요](../vsto/visio-object-model-overview.md)
+- [Visio 개체 모델 개요](../vsto/visio-object-model-overview.md)
 
-###  <a name="AccessingDocuments"></a> Office 응용 프로그램을 시작할 때 문서 액세스
+### <a name="AccessingDocuments"></a> Office 응용 프로그램을 시작할 때 문서 액세스
  일부 [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] 애플리케이션은 시작될 때 자동으로 문서를 열지 않고, [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 애플리케이션은 시작될 때 문서를 열지 않습니다. 따라서 코드를 추가 하지는 `ThisAdd-In_Startup` 이벤트 처리기 코드는 문서를 열어야 하는 데 필요한 경우. 대신 사용자가 문서를 만들거나 열 때 Office 애플리케이션에서 발생하는 이벤트에 해당 코드를 추가합니다. 이런 식으로 코드에서 작업을 수행하기 전에 문서가 열리도록 할 수 있습니다.
 
  다음 코드 예제에서는 사용자가 문서를 만들거나 기존 문서를 여는 경우에만 Word에서 문서로 작업합니다.

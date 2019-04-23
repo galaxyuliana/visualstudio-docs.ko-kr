@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: be57c5d8a298f37f9cffc7cc4b363651efbc9c2b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 3e44a2c9b5fab120432f412e7c70f35c8e1ecafd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665651"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077474"
 ---
 # <a name="how-to-change-the-return-type-of-a-datacontext-method-or-designer"></a>방법: DataContext 메서드의 반환 형식 변경(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,19 +28,19 @@ ms.locfileid: "59665651"
   
 ### <a name="to-change-the-return-type-of-a-datacontext-method-from-the-auto-generated-type-to-an-entity-class"></a>DataContext 메서드의 반환 형식을 자동으로 생성된 형식에서 엔터티 클래스로 변경하려면  
   
-1.  메서드 창에서 <xref:System.Data.Linq.DataContext> 메서드를 선택합니다.  
+1. 메서드 창에서 <xref:System.Data.Linq.DataContext> 메서드를 선택합니다.  
   
-2.  **속성** 창에서 **반환 형식**을 선택한 다음, **반환 형식** 목록에서 사용 가능한 엔터티 클래스를 선택합니다. 추가 하거나에서 만들어 원하는 엔터티 클래스가 목록에 없는 경우는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 목록에 추가 합니다.  
+2. **속성** 창에서 **반환 형식**을 선택한 다음, **반환 형식** 목록에서 사용 가능한 엔터티 클래스를 선택합니다. 추가 하거나에서 만들어 원하는 엔터티 클래스가 목록에 없는 경우는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 목록에 추가 합니다.  
   
-3.  .dbml 파일을 저장합니다.  
+3. .dbml 파일을 저장합니다.  
   
 ### <a name="to-change-the-return-type-of-a-datacontext-method-from-an-entity-class-back-to-the-auto-generated-type"></a>DataContext 메서드의 반환 형식을 엔터티 클래스에서 자동으로 생성된 형식으로 다시 변경하려면  
   
-1.  메서드 창에서 <xref:System.Data.Linq.DataContext> 메서드를 선택한 다음 삭제합니다.  
+1. 메서드 창에서 <xref:System.Data.Linq.DataContext> 메서드를 선택한 다음 삭제합니다.  
   
-2.  데이터베이스 개체를 끌어서 **서버 탐색기**/**데이터베이스 탐색기** O/R 디자이너의 빈 영역에 놓으면 됩니다.  
+2. 데이터베이스 개체를 끌어서 **서버 탐색기**/**데이터베이스 탐색기** O/R 디자이너의 빈 영역에 놓으면 됩니다.  
   
-3.  .dbml 파일을 저장합니다.  
+3. .dbml 파일을 저장합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

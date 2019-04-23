@@ -17,12 +17,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d6a315adb859445c5efa15df5b8366815bfc86d7
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 0b0587f6c1c5d7577d8fddffb73db31f09248fae
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54784789"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075651"
 ---
 # <a name="how-to-manage-build-configurations-with-visual-basic-developer-settings-applied"></a>방법: Visual Basic 개발자 설정을 적용하여 빌드 구성 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,16 +34,16 @@ ms.locfileid: "54784789"
   
 #### <a name="to-enable-advanced-build-configurations"></a>고급 빌드 구성을 사용하도록 설정하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
-2.  **프로젝트 및 솔루션**을 확장하고 **일반**을 클릭합니다.  
+2. **프로젝트 및 솔루션**을 확장하고 **일반**을 클릭합니다.  
   
     > [!NOTE]
     >  **일반** 노드는 **모든 설정 표시** 옵션이 선택 취소된 경우에도 표시됩니다. 모든 옵션을 사용 가능하게 표시하려면 **모든 설정 표시**를 클릭합니다.  
   
-3.  **고급 빌드 구성 표시**를 클릭합니다.  
+3. **고급 빌드 구성 표시**를 클릭합니다.  
   
-4.  **확인**을 클릭합니다.  
+4. **확인**을 클릭합니다.  
   
      **빌드** 메뉴에서 현재 **구성 관리자**를 사용할 수 있고 **구성** 및 **플랫폼** 목록이 프로젝트 디자이너에 표시됩니다.  
   

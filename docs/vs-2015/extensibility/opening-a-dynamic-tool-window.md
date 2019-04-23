@@ -10,12 +10,12 @@ ms.assetid: 21547ba7-6e81-44df-9277-265bf34f877a
 caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 80d2666fc40fa561a0e2993ca50edd0dcf72dbc4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4302e7eabb8e731a4332116956614643a4b95ef2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986034"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076788"
 ---
 # <a name="opening-a-dynamic-tool-window"></a>동적 도구 창 열기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,9 +34,9 @@ ms.locfileid: "58986034"
   
 ### <a name="to-open-a-dynamic-tool-window"></a>동적 도구 창을 열려면  
   
-1.  라는 VSIX 프로젝트를 만듭니다 **DynamicToolWindow** 라는 도구 창 항목 템플릿을 추가 하 고 **DynamicWindowPane.cs**합니다. 자세한 내용은 [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
+1. 라는 VSIX 프로젝트를 만듭니다 **DynamicToolWindow** 라는 도구 창 항목 템플릿을 추가 하 고 **DynamicWindowPane.cs**합니다. 자세한 내용은 [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
   
-2.  DynamicWindowPanePackage.cs 파일인 DynamicWindowPanePackage 선언을 찾습니다. 추가 된 <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> 특성과 T:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute 도구 창을 등록 합니다.  
+2. DynamicWindowPanePackage.cs 파일인 DynamicWindowPanePackage 선언을 찾습니다. 추가 된 <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> 특성과 T:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute 도구 창을 등록 합니다.  
   
     ```vb  
     [[ProvideToolWindow(typeof(DynamicWindowPane)]  
@@ -52,6 +52,6 @@ ms.locfileid: "58986034"
   
      Visual Studio를 닫았다가 경우 지속 되지 않는 일시적인 창으로 DynamicWindowPane 라는 도구 창을 등록 됩니다. DynamicWindowPane 열릴 때마다 <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_string> 적용 되며, 그렇지 않으면 닫힙니다.  
   
-3.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스에서 표시 됩니다. 도구 창이 표시 되지 됩니다.  
+3. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스에서 표시 됩니다. 도구 창이 표시 되지 됩니다.  
   
-4.  실험적 인스턴스에서 프로젝트를 엽니다. 도구 창이 표시 됩니다.
+4. 실험적 인스턴스에서 프로젝트를 엽니다. 도구 창이 표시 됩니다.

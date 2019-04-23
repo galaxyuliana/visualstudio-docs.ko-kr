@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 451afe75d71969b4a4a866fc9a7cda1fd85562d3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c4f5de2926cb38f570defa95463489523c694132
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972395"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079073"
 ---
 # <a name="how-to-enable-and-disable-automatic-code-analysis-for-managed-code"></a>방법: 사용 하도록 설정 하 고 관리 되는 코드에 대 한 자동 코드 분석 사용 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,10 +23,10 @@ ms.locfileid: "58972395"
   
 ### <a name="to-enable-or-disable-automatic-code-analysis"></a>자동 코드 분석을 사용할지 설정 합니다.  
   
-1.  **솔루션 탐색기**프로젝트를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **속성**합니다.  
+1. **솔루션 탐색기**프로젝트를 마우스 오른쪽 단추로 클릭 한 다음 클릭 **속성**합니다.  
   
-2.  프로젝트에 대 한 속성 대화 상자, 클릭 **코드 분석**합니다.  
+2. 프로젝트에 대 한 속성 대화 상자, 클릭 **코드 분석**합니다.  
   
-3.  빌드 형식 지정 **Configuration** 및 대상 플랫폼 **플랫폼**합니다.  
+3. 빌드 형식 지정 **Configuration** 및 대상 플랫폼 **플랫폼**합니다.  
   
-4.  를 사용 하거나 자동 코드 분석을 사용 하지 않도록 설정 하려면 선택 하거나 선택을 취소 합니다 **코드 빌드에 분석 사용 (CODE_ANALYSIS 상수 정의)** 확인란 합니다.
+4. 를 사용 하거나 자동 코드 분석을 사용 하지 않도록 설정 하려면 선택 하거나 선택을 취소 합니다 **코드 빌드에 분석 사용 (CODE_ANALYSIS 상수 정의)** 확인란 합니다.

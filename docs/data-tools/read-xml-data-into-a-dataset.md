@@ -20,12 +20,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 58058bf189cf65214ed7d3fe6083ef418107db4f
-ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
-ms.translationtype: MTE95
+ms.openlocfilehash: fa0472ae7ad7200ead372057f1dd778c077f764e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58268526"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076031"
 ---
 # <a name="read-xml-data-into-a-dataset"></a>XML 데이터를 데이터 세트에 읽어오기
 
@@ -125,9 +125,9 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 
 ### <a name="to-add-controls-to-the-form"></a>컨트롤을 폼에 추가하려면
 
-1.  열기 `Form1` 디자인 뷰에서 합니다.
+1. 열기 `Form1` 디자인 뷰에서 합니다.
 
-2.  **도구 상자**, 다음과 같은 컨트롤을 폼으로 끌어 옵니다.
+2. **도구 상자**, 다음과 같은 컨트롤을 폼으로 끌어 옵니다.
 
     - 하나의 <xref:System.Windows.Forms.DataGridView> 컨트롤
 
@@ -135,9 +135,9 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 
     - 두 <xref:System.Windows.Forms.Button> 컨트롤
 
-3.  다음 속성을 설정합니다.
+3. 다음 속성을 설정합니다.
 
-    |컨트롤|속성|설정|
+    |Control|속성|설정|
     |-------------|--------------|-------------|
     |`TextBox1`|**Multiline**|`true`|
     ||**ScrollBars**|**세로**|
@@ -150,44 +150,44 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 
 이 단계에서는 명명 된 새 데이터 집합을 만든 `authors`합니다. 데이터 집합에 대 한 자세한 내용은 참조 하세요. [Visual Studio에서 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)합니다.
 
-1.  **솔루션 탐색기**에 대 한 원본 파일을 선택 **Form1**를 선택한 후는 **뷰 디자이너** 단추를 **솔루션 탐색기** 도구 모음입니다.
+1. **솔루션 탐색기**에 대 한 원본 파일을 선택 **Form1**를 선택한 후는 **뷰 디자이너** 단추를 **솔루션 탐색기** 도구 모음입니다.
 
-2.  [도구 상자, 데이터 탭](../ide/reference/toolbox-data-tab.md)를 끌어를 **데이터 집합** 끌어다 **Form1**합니다.
+2. [도구 상자, 데이터 탭](../ide/reference/toolbox-data-tab.md)를 끌어를 **데이터 집합** 끌어다 **Form1**합니다.
 
-3.  에 **데이터 집합 추가** 대화 상자에서 **형식화 되지 않은 데이터 집합**를 선택한 후 **확인**합니다.
+3. 에 **데이터 집합 추가** 대화 상자에서 **형식화 되지 않은 데이터 집합**를 선택한 후 **확인**합니다.
 
      **DataSet1** 구성 요소 트레이에 추가 됩니다.
 
-4.  에 **속성** 창에서 **이름** 및 <xref:System.Data.DataSet.DataSetName%2A> 에 대 한 속성`AuthorsDataSet`합니다.
+4. 에 **속성** 창에서 **이름** 및 <xref:System.Data.DataSet.DataSetName%2A> 에 대 한 속성`AuthorsDataSet`합니다.
 
 ## <a name="create-the-event-handler-to-read-the-xml-file-into-the-dataset"></a>데이터 집합에 XML 파일을 읽을 수 이벤트 처리기 만들기
 
 합니다 **읽기 XML** 단추는 데이터 집합에 XML 파일을 읽습니다. 그런 다음에 속성을 설정 합니다 <xref:System.Windows.Forms.DataGridView> 데이터 집합에 바인딩되는 컨트롤입니다.
 
-1.  **솔루션 탐색기**를 선택 **Form1**를 선택한 후는 **뷰 디자이너** 단추를 **솔루션 탐색기** 도구 모음입니다.
+1. **솔루션 탐색기**를 선택 **Form1**를 선택한 후는 **뷰 디자이너** 단추를 **솔루션 탐색기** 도구 모음입니다.
 
-2.  선택 된 **읽기 XML** 단추입니다.
+2. 선택 된 **읽기 XML** 단추입니다.
 
      합니다 **코드 편집기** 열립니다는 `ReadXmlButton_Click` 이벤트 처리기입니다.
 
-3.  다음 코드를 입력 합니다 `ReadXmlButton_Click` 이벤트 처리기:
+3. 다음 코드를 입력 합니다 `ReadXmlButton_Click` 이벤트 처리기:
 
      [!code-csharp[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_1.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_1.vb)]
 
-4.  에 `ReadXMLButton_Click` 이벤트 처리기 코드를 변경은 `filepath =` 올바른 경로를 입력 합니다.
+4. 에 `ReadXMLButton_Click` 이벤트 처리기 코드를 변경은 `filepath =` 올바른 경로를 입력 합니다.
 
 ## <a name="create-the-event-handler-to-display-the-schema-in-the-textbox"></a>텍스트 상자에 스키마를 표시 하려면 이벤트 처리기 만들기
 
 **스키마 표시** 단추를 만듭니다를 <xref:System.IO.StringWriter> 스키마를 사용 하 여 채워지고에 표시 되는 개체는 <xref:System.Windows.Forms.TextBox>제어 합니다.
 
-1.  **솔루션 탐색기**를 선택 **Form1**를 선택한 후는 **뷰 디자이너** 단추입니다.
+1. **솔루션 탐색기**를 선택 **Form1**를 선택한 후는 **뷰 디자이너** 단추입니다.
 
-2.  선택 된 **스키마 표시** 단추입니다.
+2. 선택 된 **스키마 표시** 단추입니다.
 
      합니다 **코드 편집기** 열립니다는 `ShowSchemaButton_Click` 이벤트 처리기입니다.
 
-3.  `ShowSchemaButton_Click` 이벤트 처리기에 다음 코드를 붙여넣습니다.
+3. `ShowSchemaButton_Click` 이벤트 처리기에 다음 코드를 붙여넣습니다.
 
      [!code-csharp[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_2.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_2.vb)]
@@ -196,13 +196,13 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 
 이제 예상 대로 작동 되도록 폼을 테스트할 수 있습니다.
 
-1.  선택 **F5** 응용 프로그램을 실행 합니다.
+1. 선택 **F5** 응용 프로그램을 실행 합니다.
 
-2.  선택 된 **읽기 XML** 단추입니다.
+2. 선택 된 **읽기 XML** 단추입니다.
 
      DataGridView에는 XML 파일의 내용이 표시 됩니다.
 
-3.  선택 된 **스키마 표시** 단추입니다.
+3. 선택 된 **스키마 표시** 단추입니다.
 
      텍스트 상자는 XML 파일에 대 한 XML 스키마를 표시합니다.
 
@@ -214,7 +214,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 
 - 데이터 집합에서 데이터를 편집 하 고 데이터베이스에 작성 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)
 - [Visual Studio의 XML 도구](../xml-tools/xml-tools-in-visual-studio.md)

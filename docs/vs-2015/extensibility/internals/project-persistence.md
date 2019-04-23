@@ -11,12 +11,12 @@ ms.assetid: 42907bcf-4e27-46bd-a8cb-01c2ccd2bde5
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9627170ad65906af1bc7930897c374504cae4552
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: abbcc1fc1048866ef790a4b6779ed15ef80a9be1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002929"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60074244"
 ---
 # <a name="project-persistence"></a>프로젝트 지속성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,9 +27,9 @@ ms.locfileid: "59002929"
   
  프로젝트 항목에는 파일 기반 또는 파일 기반이 아닌 수 있습니다.  
   
--   로컬 또는 원격 파일 기반 항목 수 있습니다. C# 웹 프로젝트에서 예를 들어 원격 시스템에서 파일에 대 한 연결 유지를 로컬로 파일 자체는 원격 시스템에 유지 하는 반면 합니다.  
+- 로컬 또는 원격 파일 기반 항목 수 있습니다. C# 웹 프로젝트에서 예를 들어 원격 시스템에서 파일에 대 한 연결 유지를 로컬로 파일 자체는 원격 시스템에 유지 하는 반면 합니다.  
   
--   파일 기반이 아닌 항목 데이터베이스 또는 저장소에 항목을 저장할 수 있습니다.  
+- 파일 기반이 아닌 항목 데이터베이스 또는 저장소에 항목을 저장할 수 있습니다.  
   
 ## <a name="commit-models"></a>모델을 커밋  
  프로젝트 항목이 있는 위치를 결정 한 후 적절 한 커밋 모델을 선택 해야 합니다. 예를 들어, 로컬 파일을 사용 하 여 파일 기반 모델에서 각 프로젝트를 저장 자율적으로 합니다. 저장소 모델에서 하나의 트랜잭션에서 여러 개의 항목을 저장할 수 있습니다. 자세한 내용은 [프로젝트 형식 디자인 결정](../../extensibility/internals/project-type-design-decisions.md)합니다.  

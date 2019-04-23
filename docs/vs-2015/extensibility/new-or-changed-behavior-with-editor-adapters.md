@@ -10,12 +10,12 @@ ms.assetid: 5555b116-cfdb-4773-ba62-af80fda64abd
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 79f0a700b64abffe93d79d284ce2f45a76b3e6a3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: fc7ddaf7ec67a1e33248d5ce424868849200d3e6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971415"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073620"
 ---
 # <a name="new-or-changed-behavior-with-editor-adapters"></a>편집기 어댑터를 사용 하 여 새롭거나 변경 된 동작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,32 +85,32 @@ ms.locfileid: "58971415"
   
  영향을 받는 메서드 (목록 목록은 전체 목록이 아닙니다) 하는 다음과 같습니다.  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.CenterLines%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.CenterLines%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetCaretPos%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetCaretPos%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetLineAndColumn%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetLineAndColumn%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetNearestPosition%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetNearestPosition%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetPointOfLineColumn%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetPointOfLineColumn%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetTextStream%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetTextStream%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetWordExtent%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetWordExtent%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.PositionCaretForEditing%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.PositionCaretForEditing%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.ReplaceTextOnLine%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.ReplaceTextOnLine%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.SetCaretPos%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.SetCaretPos%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.SetSelection%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.SetSelection%2A>  
   
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.SetTopLine%2A>  
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.SetTopLine%2A>  
   
 #### <a name="outlining"></a>개요  
- 클라이언트 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession> 를 사용 하 여 추가 된 개요 영역 으로만 나타납니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession.AddHiddenRegions%2A>또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSessionEx.AddHiddenRegionsEx%2A>합니다. 임시 지역 편집기 어댑터를 통해 추가 하지 않으므로 표시 되지 됩니다. 마찬가지로, 이러한 클라이언트는 개요 편집기 어댑터 보다는 새 편집기 코드를 사용 하는 언어 (C# 및 c + + 포함)에서 추가 영역을 표시 되지 않습니다.  
+ 클라이언트 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession> 를 사용 하 여 추가 된 개요 영역 으로만 나타납니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession.AddHiddenRegions%2A>또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSessionEx.AddHiddenRegionsEx%2A>합니다. 임시 지역 편집기 어댑터를 통해 추가 하지 않으므로 표시 되지 됩니다. 마찬가지로, 이러한 클라이언트 표시 언어에서 추가 지역 개요 (포함 하 여 C# 및 C++) 편집기 어댑터 보다는 새 편집기 코드를 사용 하는 합니다.  
   
 #### <a name="line-heights"></a>줄 높이  
  새 편집기에서 텍스트 줄에는 글꼴 크기 및 다른 줄을 기준으로 줄을 이동할 수 있는 가능한 줄 변환에 따라 높이가 다른 있을 수 있습니다. 줄 높이 같은 메서드에서 반환 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetLineHeight%2A> 적용 없는 줄 변환을 사용 하 여 기본 글꼴 크기를 사용 하 여 줄의 높이입니다. 이 높이 수도 있고 실제 뷰에서 줄의 높이 나타내지 않을 수 있습니다.  
@@ -120,7 +120,7 @@ ms.locfileid: "58971415"
   
 #### <a name="intellisense"></a>IntelliSense  
   
--   합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.UpdateTipWindow%2A> 메서드 중 하나를 구현 하지 않는 클래스에서 전달 하는 경우 실패 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextTipWindow2> 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodTipWindow3>합니다. 사용자 지정 Win32 소유자가 그린 팝업은 더 이상 지원 합니다.  
+- 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.UpdateTipWindow%2A> 메서드 중 하나를 구현 하지 않는 클래스에서 전달 하는 경우 실패 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextTipWindow2> 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodTipWindow3>합니다. 사용자 지정 Win32 소유자가 그린 팝업은 더 이상 지원 합니다.  
   
 #### <a name="smarttags"></a>SmartTags  
  스마트 태그를 사용 하 여 만든 어댑터 지원 되지 않습니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagData>하십시오 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagTipWindow>, 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSmartTagTipWindow2> 인터페이스.  

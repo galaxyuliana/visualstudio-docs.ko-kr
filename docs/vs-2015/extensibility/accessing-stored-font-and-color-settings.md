@@ -12,12 +12,12 @@ ms.assetid: beba7174-e787-45c2-b6ff-a60f67ad4998
 caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 88562da16a0c9803441b859b6498782e6e316fb6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6ff962a618ba0001441db748facac8af444cd255
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985085"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078098"
 ---
 # <a name="accessing-stored-font-and-color-settings"></a>저장 된 글꼴 및 색 설정에 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,21 +29,21 @@ ms.locfileid: "58985085"
   
  따라서에 지 속성을 시작 하려면 VSPackage 수행 해야 합니다.  
   
--   가져올는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스를 호출 하 여 `QueryService` 전역 서비스 공급자에 대 한 합니다.  
+- 가져올는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스를 호출 하 여 `QueryService` 전역 서비스 공급자에 대 한 합니다.  
   
      `QueryService` 서비스 ID 인수를 사용 하 여 호출 해야 합니다 `SID_SVsFontAndColorStorage` 와의 인터페이스 ID 인수 `IID_IVsFontAndColorStorage`합니다.  
   
--   사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> 메서드 인수로 범주의 GUID 및 모드 플래그를 사용 하 여 지속할 범주를 열려고 합니다.  
+- 사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> 메서드 인수로 범주의 GUID 및 모드 플래그를 사용 하 여 지속할 범주를 열려고 합니다.  
   
      지정 된 모드를는 `fFlags` 인수를 값에서 생성 되는 <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> 열거형입니다. 이 모드를 제어합니다.  
   
-    -   통해 액세스할 수 있는 설정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
+    - 통해 액세스할 수 있는 설정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
   
-    -   모든 설정 또는 경우에 사용자를 수정 하는 이며이 통해 검색할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
+    - 모든 설정 또는 경우에 사용자를 수정 하는 이며이 통해 검색할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
   
-    -   사용자 설정 변경 내용을 전파 방식입니다.  
+    - 사용자 설정 변경 내용을 전파 방식입니다.  
   
-    -   사용 되는 색 값의 형식입니다.  
+    - 사용 되는 색 값의 형식입니다.  
   
 ## <a name="to-use-state-persistence-of-fonts-and-colors"></a>글꼴 및 색의 상태 지 속성을 사용 하려면  
  유지 글꼴 및 색에 포함 됩니다.  

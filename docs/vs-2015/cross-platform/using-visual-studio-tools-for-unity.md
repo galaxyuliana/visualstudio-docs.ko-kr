@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: conceptdev
 ms.author: crdun
 manager: jillfra
-ms.openlocfilehash: 52c0ffe1c4261df6498cc03842d650360954eb44
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: eed341b5ae43f52e7df35d820012e760166e096f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660621"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073431"
 ---
 # <a name="using-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "59660621"
   
 ##### <a name="to-access-unity-documentation"></a>Unity 설명서에 액세스하려면  
   
--   Visual Studio에서 알아보려는 Unity API를 강조 표시하거나 그 위로 커서를 가져간 다음 **Ctrl+Alt+M, Ctrl+H**를 누릅니다.  
+- Visual Studio에서 알아보려는 Unity API를 강조 표시하거나 그 위로 커서를 가져간 다음 **Ctrl+Alt+M, Ctrl+H**를 누릅니다.  
   
 ### <a name="unity-monobehavior-scripting-wizard"></a>Unity MonoBehavior 스크립팅 마법사  
  Unity에서 대부분의 스크립트는 MonoBehavior 클래스에서 파생하고 해당 메서드 중 일부를 재정의하여 구현됩니다. MonoBehavior 마법사를 사용하여 오버로드하려는 MonoBehavior 메서드의 빈 정의를 신속하게 만들 수 있습니다. 이 마법사를 사용하여 사용할 수 있는 메서드의 목록에서 오버로드하려는 하나 이상의 메서드를 지정하고, 코드에서 메서드를 삽입할 위치를 선택하고, 메서드가 사용되는 방법에 대한 설명을 포함할지 여부를 결정할 수 있습니다.  
@@ -59,13 +59,13 @@ ms.locfileid: "59660621"
   
 ###### <a name="to-create-an-empty-monobehavior-method-definition-by-using-the-quick-monobehavior-wizard"></a>빠른 MonoBehavior 마법사를 사용하여 빈 MonoBehavior 메서드 정의를 만들려면  
   
-1.  Visual Studio에서 메서드를 삽입할 위치에 커서를 놓은 다음 **Ctrl+Shift+Q**를 눌러 빠른 MonoBehavior 마법사를 시작합니다. 새 메서드는 항상 그곳에 삽입되어 있으므로 다른 MonoBehavior 마법사와는 달리 이 마법사를 사용할 때는 의도적으로 커서를 배치해야 합니다.  
+1. Visual Studio에서 메서드를 삽입할 위치에 커서를 놓은 다음 **Ctrl+Shift+Q**를 눌러 빠른 MonoBehavior 마법사를 시작합니다. 새 메서드는 항상 그곳에 삽입되어 있으므로 다른 MonoBehavior 마법사와는 달리 이 마법사를 사용할 때는 의도적으로 커서를 배치해야 합니다.  
   
-2.  **스크립트 메서드 만들기** 창의 오른쪽 상단 모서리에 표시되는 프레임워크 버전이 사용 중인 버전과 일치하는지 확인합니다. 일치하지 않으면 사용하려는 버전의 드롭다운 값을 변경합니다.  
+2. **스크립트 메서드 만들기** 창의 오른쪽 상단 모서리에 표시되는 프레임워크 버전이 사용 중인 버전과 일치하는지 확인합니다. 일치하지 않으면 사용하려는 버전의 드롭다운 값을 변경합니다.  
   
-3.  오버로드하려는 메서드를 찾습니다. 스크립트 메서드 만들기 창에서 텍스트 상자에 메서드의 이름을 입력하기 시작합니다. 입력한 이름과 일치하는 메서드 목록이 표시됩니다.  
+3. 오버로드하려는 메서드를 찾습니다. 스크립트 메서드 만들기 창에서 텍스트 상자에 메서드의 이름을 입력하기 시작합니다. 입력한 이름과 일치하는 메서드 목록이 표시됩니다.  
   
-4.  오버로드하려는 메서드를 선택합니다. 원하는 메서드가 목록에 표시되면 마우스 또는 화살표 키로 선택한 다음 **Enter** 키를 누릅니다. 목록에 메서드가 하나만 표시되는 경우 **Enter** 키를 누르기만 하면 됩니다. 메서드는 코드에 삽입됩니다.  
+4. 오버로드하려는 메서드를 선택합니다. 원하는 메서드가 목록에 표시되면 마우스 또는 화살표 키로 선택한 다음 **Enter** 키를 누릅니다. 목록에 메서드가 하나만 표시되는 경우 **Enter** 키를 누르기만 하면 됩니다. 메서드는 코드에 삽입됩니다.  
   
 ### <a name="unity-project-explorer"></a>Unity 프로젝트 탐색기  
  Unity 프로젝트 탐색기를 사용하여 Visual Studio 내의 Unity 프로젝트를 탐색할 수 있습니다.  
@@ -103,16 +103,16 @@ ms.locfileid: "59660621"
 ## <a name="unity-debugging"></a>Unity 디버깅  
  Visual Studio Tools for Unity를 통해 Visual Studio의 강력한 디버거를 사용하여 Unity 프로젝트에 대해 편집기와 게임 스크립트를 모두 디버그할 수 있습니다.  
   
-###  <a name="connecting-visual-studio-to-unity"></a> Unity에 Visual Studio 연결  
+### <a name="connecting-visual-studio-to-unity"></a> Unity에 Visual Studio 연결  
  Visual Studio Tools for Unity는 UDP 연결을 통해 Unity와 통신합니다. 즉, 로컬 또는 네트워크 어느 곳에서나 실행되는 Unity 인스턴스에 완전히 동일한 방식으로 연결할 수 있습니다. **Unity 인스턴스 선택** 대화 상자를 사용하여 네트워크에서 볼 수 있는 모든 Unity 인스턴스에 연결할 수 있습니다.  
   
 ##### <a name="to-open-the-select-unity-instance-dialog"></a>Unity 인스턴스 선택 대화 상자를 열려면  
   
--   Visual Studio의 주 메뉴에서 **디버그**, **Unity 디버거 연결**을 선택합니다.  
+- Visual Studio의 주 메뉴에서 **디버그**, **Unity 디버거 연결**을 선택합니다.  
   
      ![Unity 디버거를 연결합니다.](../cross-platform/media/vstu-debugging-attach-unity-debugger.png "vstu_debugging_attach_unity_debugger")  
   
--   *또는* Visual Studio의 상태 표시줄에서 Visual Studio의 오른쪽 아래 모서리에 있는 플러그 아이콘을 선택합니다.  
+- *또는* Visual Studio의 상태 표시줄에서 Visual Studio의 오른쪽 아래 모서리에 있는 플러그 아이콘을 선택합니다.  
   
      ![이 아이콘은 VSTU가 Unity에 연결되었음을 보여 줍니다.](../cross-platform/media/vstu-connection-connected.png "vstu_connection_connected")  
   
@@ -138,7 +138,7 @@ ms.locfileid: "59660621"
 > [!IMPORTANT]
 >  Visual Studio Tools for Unity 및 Unity 인스턴스가 UDP 네트워크 소켓을 통해 통신 중이므로 방화벽이 이를 감지할 수 있습니다. 이 경우 VSTU 및 Unity가 통신할 수 있도록  연결 권한을 부여해야 합니다.  
   
-###  <a name="debugging-your-project-in-a-unity-player"></a> Unity 플레이어에서 프로젝트 디버그  
+### <a name="debugging-your-project-in-a-unity-player"></a> Unity 플레이어에서 프로젝트 디버그  
  Unity 편집기를 실행 중이지 않은 경우 Visual Studio Tools for Unity를 독립 실행형 플레이어에서 실행 중인 Unity 앱으로 직접 연결하거나 플랫폼 특정적인 문제를 디버그할 수 있습니다.  
   
 ##### <a name="to-enable-script-debugging-in-a-unity-player"></a>Unity 플레이어에서 스크립트 디버깅을 활성화하려면  

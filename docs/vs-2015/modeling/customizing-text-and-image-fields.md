@@ -9,12 +9,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c3201d1c22ac718497b2e355ccf02047ee82a7aa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3c1e6aa853d2f8202ed42652a0d0f70a7300c0b5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986378"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077169"
 ---
 # <a name="customizing-text-and-image-fields"></a>텍스트 및 이미지 필드 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -188,13 +188,13 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
 #### <a name="to-create-a-subclass-of-imagefield"></a>이미지 필드의 하위 클래스를 만들려면  
   
-1.  설정 된 **Generates Double Derived** DSL 정의에서 부모 모양 클래스의 속성입니다.  
+1. 설정 된 **Generates Double Derived** DSL 정의에서 부모 모양 클래스의 속성입니다.  
   
-2.  재정의 `InitializeShapeFields` 모양 클래스의 메서드.  
+2. 재정의 `InitializeShapeFields` 모양 클래스의 메서드.  
   
-    -   DSL 프로젝트에서 새 코드 파일을 만들고 모양 클래스에 대 한 partial 클래스 정의 작성 합니다. 있습니다 메서드 정의 재정의 합니다.  
+    - DSL 프로젝트에서 새 코드 파일을 만들고 모양 클래스에 대 한 partial 클래스 정의 작성 합니다. 있습니다 메서드 정의 재정의 합니다.  
   
-3.  코드 검사 `InitializeShapeFields` DSL\GeneratedCode\Shapes.cs에서.  
+3. 코드 검사 `InitializeShapeFields` DSL\GeneratedCode\Shapes.cs에서.  
   
      재정의 메서드에서 기본 메서드를 호출 하 고 사용자 고유의 이미지 필드 클래스의 인스턴스를 만듭니다. 일반 이미지 필드를 대체 하는 데 사용 된 `shapeFields` 목록입니다.  
   

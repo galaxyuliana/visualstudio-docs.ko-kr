@@ -9,12 +9,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a63234a820c4f3cffae65342bad0b7fd439edfff
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ba6262ef3174428dc14c5f747c4346b5f04e35ee
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54769955"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077630"
 ---
 # <a name="l2dbformxamlcs-source-code"></a>L2DBForm.xaml.cs Source Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,9 +24,9 @@ ms.locfileid: "54769955"
 ## <a name="data-members"></a>데이터 멤버  
  두 private 데이터 멤버는 이 클래스를 L2DBForm.xaml에 사용되는 창 리소스와 연결하는 데 사용됩니다.  
   
--   네임스페이스 변수 `myBooks`는 `"http://www.mybooks.com"`으로 초기화됩니다.  
+- 네임스페이스 변수 `myBooks`는 `"http://www.mybooks.com"`으로 초기화됩니다.  
   
--   `bookList` 멤버는 다음 줄을 사용하여 생성자에서 L2DBForm.xaml의 CDATA 문자열로 초기화됩니다.  
+- `bookList` 멤버는 다음 줄을 사용하여 생성자에서 L2DBForm.xaml의 CDATA 문자열로 초기화됩니다.  
   
     ```  
     bookList = (XElement)((ObjectDataProvider)Resources["LoadedBooks"]).Data;  
@@ -35,11 +35,11 @@ ms.locfileid: "54769955"
 ## <a name="onaddbook-event-handler"></a>OnAddBook 이벤트 처리기  
  이 메서드에는 다음 세 가지 문이 포함되어 있습니다.  
   
--   첫 번째 조건 문은 입력 유효성 검사에 사용됩니다.  
+- 첫 번째 조건 문은 입력 유효성 검사에 사용됩니다.  
   
--   두 번째 문은 사용자가 **Add New Book** UI(사용자 인터페이스) 섹션에서 입력한 문자열 값에서 새 <xref:System.Xml.Linq.XElement>를 만듭니다.  
+- 두 번째 문은 사용자가 **Add New Book** UI(사용자 인터페이스) 섹션에서 입력한 문자열 값에서 새 <xref:System.Xml.Linq.XElement>를 만듭니다.  
   
--   마지막 문은 새 책 요소를 L2DBForm.xaml의 데이터 공급자에 추가합니다. 이렇게 하면 동적 데이터 바인딩을 통해 이 새 항목으로 UI가 자동으로 업데이트되므로 사용자가 추가로 코드를 제공할 필요가 없습니다.  
+- 마지막 문은 새 책 요소를 L2DBForm.xaml의 데이터 공급자에 추가합니다. 이렇게 하면 동적 데이터 바인딩을 통해 이 새 항목으로 UI가 자동으로 업데이트되므로 사용자가 추가로 코드를 제공할 필요가 없습니다.  
   
 ## <a name="onremove-event-handler"></a>OnRemove 이벤트 처리기  
  `OnRemove` 처리기는 두 가지 이유 때문에 `OnAddBook` 처리기보다 복잡합니다. 첫째로, 원시 XML에는 유지된 공백이 포함되어 있기 때문에 일치하는 줄 바꿈도 책 항목과 함께 제거되어야 합니다. 둘째로, 편리함을 위해 원하는 항목에 있던 선택 표시가 목록의 이전 항목으로 다시 설정됩니다.  
@@ -60,7 +60,7 @@ ms.locfileid: "54769955"
   
   동적 데이터 바인딩을 통해 프로그램의 UI가 자동으로 업데이트됩니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ### <a name="description"></a>설명  
   

@@ -8,14 +8,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: edf0bc2b233a44893e9a526e172fa75043ebaa42
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: e44e62997cac1060047de03253880bbf577935da
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689267"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60075326"
 ---
-# <a name="historical-debugging-c-visual-basic-c"></a>기록 디버깅 (C#, Visual Basic, c + +)
+# <a name="historical-debugging-c-visual-basic-c"></a>기록 디버깅 (C#, Visual Basic의 경우 C++)
 
 기록 디버깅은 IntelliTrace에서 수집된 정보에 의존하는 디버깅 모드입니다. 이 디버깅을 사용하면 응용 프로그램 실행 도중 앞이나 뒤로 이동하며 상태를 검사할 수 있습니다.
 
@@ -31,8 +31,8 @@ ms.locfileid: "56689267"
 
 ## <a name="how-do-i-start-using-historical-debugging"></a>기록 디버깅을 사용하여 시작하는 방법은?
 
- IntelliTrace는 기본적으로 설정되어 있습니다. 이벤트 및 함수 호출 관심 하 고 전체 응용 프로그램 상태의 스냅숏 보기 것인지 결정 하면 됩니다. 찾으려는 항목을 정의하는 방법에 대한 자세한 내용은 [IntelliTrace 기능](../debugger/intellitrace-features.md)을 참조하세요. 지원 되는 기능 언어 및 앱에 따라 형식입니다.
+IntelliTrace는 기본적으로 설정되어 있습니다. 이벤트 및 함수 호출 관심 하 고 전체 응용 프로그램 상태의 스냅숏 보기 것인지 결정 하면 됩니다. 찾으려는 항목을 정의하는 방법에 대한 자세한 내용은 [IntelliTrace 기능](../debugger/intellitrace-features.md)을 참조하세요. 지원 되는 기능 언어 및 앱에 따라 형식입니다.
 
- - 기록 디버깅을 사용 하는 스냅숏을 보려면 참조 [IntelliTrace를 사용 하 여 이전 앱 상태를 검사 합니다.](../debugger/view-historical-application-state.md)
- - 변수를 검사 하 고 코드를 탐색 하는 방법에 알아보려면 참조 [기록 디버깅을 사용 하 여 앱 검사](../debugger/historical-debugging-inspect-app.md)
- - IntelliTrace 이벤트를 사용 하 여 디버깅 하는 방법에 대 한 자세한 내용은 참조 하세요 [연습: IntelliTrace를 사용 하 여](../debugger/walkthrough-using-intellitrace.md)입니다.
+- 기록 디버깅을 사용 하는 스냅숏을 보려면 참조 [IntelliTrace를 사용 하 여 이전 앱 상태를 검사 합니다.](../debugger/view-historical-application-state.md)
+- 변수를 검사 하 고 코드를 탐색 하는 방법에 알아보려면 참조 [기록 디버깅을 사용 하 여 앱 검사](../debugger/historical-debugging-inspect-app.md)
+- IntelliTrace 이벤트를 사용 하 여 디버깅 하는 방법에 대 한 자세한 내용은를 참조 하세요. [연습: IntelliTrace를 사용 하 여](../debugger/walkthrough-using-intellitrace.md)입니다.

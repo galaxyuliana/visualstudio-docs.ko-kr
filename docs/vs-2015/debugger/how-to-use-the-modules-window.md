@@ -27,12 +27,12 @@ caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 105325341d8f93f9531c2c85deb8ef21266e872c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2f332ef1a52ae49e51025614745fc1b5c4a44e07
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981459"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078293"
 ---
 # <a name="how-to-use-the-modules-window"></a>방법: 모듈 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,13 +44,13 @@ ms.locfileid: "58981459"
   
 ### <a name="to-display-the-modules-window-in-break-mode-or-in-run-mode"></a>중단 모드 또는 실행 모드에서 모듈 창을 표시하려면  
   
--   에 **디버그** 메뉴 선택 **Windows**를 클릭 하 고 **모듈**합니다.  
+- 에 **디버그** 메뉴 선택 **Windows**를 클릭 하 고 **모듈**합니다.  
   
      기본적으로 **모듈** 창에서는 모듈이 로드 순서대로 정렬됩니다. 그러나 열을 기준으로 정렬할 수도 있습니다.  
   
 ### <a name="to-sort-by-any-column"></a>열별로 정렬하려면  
   
--   정렬 기준이 될 열 맨 위에 있는 단추를 클릭합니다.  
+- 정렬 기준이 될 열 맨 위에 있는 단추를 클릭합니다.  
   
      기호를 로드 하거나 기호 경로 지정 합니다 **모듈** 바로 가기 메뉴를 사용 하 여 창입니다.  
   
@@ -59,23 +59,23 @@ ms.locfileid: "58981459"
   
 #### <a name="to-load-symbols-manually"></a>기호를 수동으로 로드하려면  
   
-1.  에 **모듈** 창에서 기호가 로드 되지 않은 모듈을 마우스 오른쪽 단추로 클릭 합니다.  
+1. 에 **모듈** 창에서 기호가 로드 되지 않은 모듈을 마우스 오른쪽 단추로 클릭 합니다.  
   
-2.  가리킨 **에서 기호 로드** 클릭 하 고 **Microsoft 기호 서버** 하거나 **기호 경로**합니다.  
+2. 가리킨 **에서 기호 로드** 클릭 하 고 **Microsoft 기호 서버** 하거나 **기호 경로**합니다.  
   
 #### <a name="to-change-symbol-load-settings"></a>기호 로드 설정을 변경하려면  
   
-1.  **모듈** 창에서 모듈을 마우스 오른쪽 단추로 클릭합니다.  
+1. **모듈** 창에서 모듈을 마우스 오른쪽 단추로 클릭합니다.  
   
-2.  클릭 **기호 설정**합니다.  
+2. 클릭 **기호 설정**합니다.  
   
      에 설명 된 대로 이제 기호 로드 설정의 변경할 수 있습니다 [기호 위치를 지정 하 고 로드 동작](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#BKMK_Specify_symbol_locations_and_loading_behavior)합니다. 디버깅 세션을 다시 시작할 때까지 변경 내용이 적용되지 않습니다.  
   
 #### <a name="to-change-symbol-load-behavior-for-a-specific-module"></a>특정 모듈에 대한 기호 로드 동작을 변경하려면  
   
-1.  **모듈** 창에서 모듈을 마우스 오른쪽 단추로 클릭합니다.  
+1. **모듈** 창에서 모듈을 마우스 오른쪽 단추로 클릭합니다.  
   
-2.  가리킨 **자동 기호 로드 설정을** 클릭 하 고 **항상 수동으로 로드** 하거나 **기본**입니다. 디버깅 세션을 다시 시작할 때까지 변경 내용이 적용되지 않습니다.  
+2. 가리킨 **자동 기호 로드 설정을** 클릭 하 고 **항상 수동으로 로드** 하거나 **기본**입니다. 디버깅 세션을 다시 시작할 때까지 변경 내용이 적용되지 않습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [실행 중단](http://msdn.microsoft.com/30fc4643-f337-4651-b1ff-f2de2c098d40)   

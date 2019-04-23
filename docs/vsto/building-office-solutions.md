@@ -26,12 +26,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 000a036b90d1fa44f24a8340770790ab216c1d85
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 17ca737e0796230b9af207bf2f203700676ac630
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55945419"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078930"
 ---
 # <a name="build-office-solutions"></a>Office 솔루션 빌드
   일반적으로 Office 프로젝트를 빌드하고 디버깅하는 것은 Windows Forms와 같이 Visual Studio에서 다른 형식의 프로젝트를 빌드하고 디버깅하는 것과 같습니다. 이 섹션의 항목에서는 차이점에 대해 설명합니다. 응용 프로그램을 빌드하는 방법에 대 한 일반 정보를 참조 하세요. [Visual Studio에서 컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)합니다.
@@ -45,15 +45,15 @@ ms.locfileid: "55945419"
 ### <a name="document-level-projects"></a>문서 수준 프로젝트
  문서 수준 프로젝트를 빌드하면 프로젝트 출력에 다음과 같은 항목이 포함됩니다.
 
--   프로젝트 문서의 복사본
+- 프로젝트 문서의 복사본
 
--   프로젝트 어셈블리 및 **true** 로 설정된 해당 **로컬 복사**속성을 가진 참조되는 모든 어셈블리
+- 프로젝트 어셈블리 및 **true** 로 설정된 해당 **로컬 복사**속성을 가진 참조되는 모든 어셈블리
 
--   파일 이름 확장명에는 응용 프로그램 매니페스트의 *.manifest*합니다. 자세한 내용은 [Office 솔루션에 대 한 응용 프로그램 매니페스트](../vsto/application-manifests-for-office-solutions.md)합니다.
+- 파일 이름 확장명에는 응용 프로그램 매니페스트의 *.manifest*합니다. 자세한 내용은 [Office 솔루션에 대 한 응용 프로그램 매니페스트](../vsto/application-manifests-for-office-solutions.md)합니다.
 
--   배포 매니페스트 파일 이름 확장명이 *.vsto*합니다. 자세한 내용은 [Deployment manifests for Office 솔루션](../vsto/deployment-manifests-for-office-solutions.md)합니다.
+- 배포 매니페스트 파일 이름 확장명이 *.vsto*합니다. 자세한 내용은 [Deployment manifests for Office 솔루션](../vsto/deployment-manifests-for-office-solutions.md)합니다.
 
--   프로그램 데이터베이스 (*PDB*) 파일입니다.
+- 프로그램 데이터베이스 (*PDB*) 파일입니다.
 
 > [!NOTE]
 >  로컬 컴퓨터 대신 원격 위치에 문서 수준의 솔루션을 빌드하는 경우 애플리케이션의 보안 센터에서 신뢰할 수 있는 위치 목록에 정규화된 경로를 추가합니다. 자세한 내용은의 문서에 신뢰 부여 라는 섹션을 참조 하세요 [Secure Office 솔루션](../vsto/securing-office-solutions.md)합니다.

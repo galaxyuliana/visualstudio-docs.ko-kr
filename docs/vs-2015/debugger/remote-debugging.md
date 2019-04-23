@@ -19,12 +19,12 @@ caps.latest.revision: 81
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c964eaa8e8c130516b29c88a3ccae78aa902c66a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: a6fe3d3f144b192ef14ff52c942c75d9edd1be85
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649448"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076213"
 ---
 # <a name="remote-debugging"></a>Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "59649448"
 
 ### <a name="to-download-and-install-the-remote-tools"></a>원격 도구 다운로드 및 설치 하려면
   
-1.  장치 또는 서버를 디버그하려는 컴퓨터(대신 Visual Studio를 실행하는 컴퓨터)에 맞는 버전의 원격 도구를 가져옵니다.
+1. 장치 또는 서버를 디버그하려는 컴퓨터(대신 Visual Studio를 실행하는 컴퓨터)에 맞는 버전의 원격 도구를 가져옵니다.
 
     |버전|링크|노트|
     |-|-|-|
@@ -47,14 +47,14 @@ ms.locfileid: "59649448"
     |Visual Studio 2013|[원격 도구](https://msdn.microsoft.com/library/bt727f1t(v=vs.120).aspx#BKMK_Installing_the_Remote_Tools)|Visual Studio 2013 설명서에서 페이지를 다운로드 합니다.|
     |Visual Studio 2012|[원격 도구](https://msdn.microsoft.com/library/bt727f1t(v=vs.110).aspx#BKMK_Installing_the_Remote_Tools)|Visual Studio 2012 설명서에서 페이지를 다운로드 합니다.|
   
-2.  다운로드 페이지에서 (86, x64 또는 ARM 버전) x 운영 체제와 일치 하는 도구 버전을 선택 하 고 원격 도구를 다운로드 합니다.
+2. 다운로드 페이지에서 (86, x64 또는 ARM 버전) x 운영 체제와 일치 하는 도구 버전을 선택 하 고 원격 도구를 다운로드 합니다.
   
     > [!IMPORTANT]
     >  Visual Studio의 버전과 일치 하는 원격 도구의 최신 버전을 설치 하는 것이 좋습니다. 일치 하지 않는 버전 권장 되지 않습니다.  
     >   
     >  또한 설치 하려는 운영 체제와 동일한 아키텍처를 가진 원격 도구를 설치 해야 합니다. 즉, 64 비트 운영 체제를 실행 하는 원격 컴퓨터에서 32 비트 응용 프로그램을 디버그 하려는 원격 컴퓨터의 64 비트 버전의 원격 도구를 설치 해야 합니다.  
   
-3.  실행 파일을 다운로드했으면 지침에 따라 원격 컴퓨터에 응용 프로그램을 설치합니다. 참조 [설치 지침](#bkmk_setup)
+3. 실행 파일을 다운로드했으면 지침에 따라 원격 컴퓨터에 응용 프로그램을 설치합니다. 참조 [설치 지침](#bkmk_setup)
 
 원격 컴퓨터에 원격 디버거 (msvsmon.exe)를 복사 하 고 실행 하려는 경우는 **원격 디버거 구성 마법사** (**rdbgwiz.exe**) 다운로드 하는 경우에 설치 되는 도구 및 있습니다 해야 마법사를 사용 하 여 나중에 구성에 대 한 원격 디버거를 서비스로 실행 하려는 경우에 특히 합니다. 자세한 내용은 [(선택 사항) 원격 디버거를 서비스로 구성](#bkmk_configureService) 아래.
 
@@ -78,27 +78,27 @@ ms.locfileid: "59649448"
 ## <a name="supported-operating-systems"></a>Supported Operating Systems  
  원격 컴퓨터에서 다음 운영 체제 중 하나를 실행해야 합니다.  
   
--   Windows 10  
+- Windows 10  
   
--   Windows 8 또는 8.1  
+- Windows 8 또는 8.1  
   
--   Windows 7 서비스 팩 1  
+- Windows 7 서비스 팩 1  
   
--   Windows Server 2012 또는 Windows Server 2012 R2  
+- Windows Server 2012 또는 Windows Server 2012 R2  
   
--   Windows Server 2008 서비스 팩 2, Windows Server 2008 R2 서비스 팩 1  
+- Windows Server 2008 서비스 팩 2, Windows Server 2008 R2 서비스 팩 1  
   
 ## <a name="supported-hardware-configurations"></a>지원되는 하드웨어 구성  
   
--   1.6GHz 이상의 프로세서  
+- 1.6GHz 이상의 프로세서  
   
--   1GB RAM(가상 머신에서 실행하는 경우 1.5GB)  
+- 1GB RAM(가상 머신에서 실행하는 경우 1.5GB)  
   
--   1GB의 하드 디스크 여유 공간  
+- 1GB의 하드 디스크 여유 공간  
   
--   5400RPM 하드 드라이브  
+- 5400RPM 하드 드라이브  
   
--   1024x768 이상 디스플레이 해상도로 실행되는 DirectX 9 지원 비디오 카드  
+- 1024x768 이상 디스플레이 해상도로 실행되는 DirectX 9 지원 비디오 카드  
   
 ## <a name="network-configuration"></a>네트워크 구성  
  원격 컴퓨터와 Visual Studio 컴퓨터는 네트워크, 작업 그룹 또는 홈 그룹을 통해 연결되거나 이더넷 케이블을 통해 직접 연결되어야 합니다. 인터넷을 통한 디버깅은 지원되지 않습니다.  
@@ -147,7 +147,7 @@ ms.locfileid: "59649448"
    > [!WARNING]
   >  원격 도구를 인증 안 함 모드에서 실행할 수도 있지만 이 모드는 사용하지 않는 것이 좋습니다. 이 모드에서 실행할 때는 네트워크 보안이 없습니다. 네트워크에 악의적인 트래픽이나 유해 트래픽 위험이 확실히 없는 경우에만 인증 안 함 모드를 선택하세요.
 
-##  <a name="bkmk_configureService"></a> (선택 사항) 원격 디버거를 서비스로 구성
+## <a name="bkmk_configureService"></a> (선택 사항) 원격 디버거를 서비스로 구성
  ASP.NET 및 기타 서버 환경에서 디버깅을 위해 관리자 권한으로 원격 디버거를 실행 하거나, 항상 실행 하려는 경우 원격 디버거를 서비스로 실행 됩니다.
   
  원격 디버거를 서비스로 구성 하려는 경우 다음이 단계를 수행 합니다.  
@@ -282,16 +282,16 @@ ms.locfileid: "59649448"
   
  자세한 내용은 원격 디버깅 도움말을 참조 하십시오 (키를 누릅니다 **F1** 원격 디버거 창이 나 클릭 **도움말 / 사용법**). [Visual Studio 2012 및 2013의 .NET 원격 기호 로드 변경 내용](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)에서 자세한 내용을 확인할 수 있습니다.  
   
-##  <a name="bkmk_winstoreAzure"></a> Windows 스토어 및 Azure 앱에서 원격 디버깅  
+## <a name="bkmk_winstoreAzure"></a> Windows 스토어 및 Azure 앱에서 원격 디버깅  
  Windows 스토어 앱을 사용 하 여 원격 디버깅에 대 한 자세한 내용은 [Visual Studio에서 원격 장치의 Windows 스토어 앱 디버깅 및 테스트](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx)합니다.  
   
  Azure의 디버깅에 대한 자세한 내용은 다음 항목 중 하나를 참조하세요.  
   
--   [클라우드 서비스 또는 가상 컴퓨터에서 Visual Studio 디버깅](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md)  
+- [클라우드 서비스 또는 가상 컴퓨터에서 Visual Studio 디버깅](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md)  
   
--   [Visual Studio에서.NET 백 엔드 디버깅](http://blogs.msdn.com/b/azuremobile/archive/2014/03/14/debugging-net-backend-in-visual-studio.aspx)  
+- [Visual Studio에서.NET 백 엔드 디버깅](http://blogs.msdn.com/b/azuremobile/archive/2014/03/14/debugging-net-backend-in-visual-studio.aspx)  
   
--   Azure 웹 사이트의 원격 디버깅 소개 ([1 부](http://azure.microsoft.com/blog/2014/05/06/introduction-to-remote-debugging-on-azure-web-sites/)를 [2 부](http://azure.microsoft.com/blog/2014/05/07/introduction-to-remote-debugging-azure-web-sites-part-2-inside-remote-debugging/)하십시오 [3 부](http://azure.microsoft.com/blog/2014/05/08/introduction-to-remote-debugging-on-azure-web-sites-part-3-multi-instance-environment-and-git/)).  
+- Azure 웹 사이트의 원격 디버깅 소개 ([1 부](http://azure.microsoft.com/blog/2014/05/06/introduction-to-remote-debugging-on-azure-web-sites/)를 [2 부](http://azure.microsoft.com/blog/2014/05/07/introduction-to-remote-debugging-azure-web-sites-part-2-inside-remote-debugging/)하십시오 [3 부](http://azure.microsoft.com/blog/2014/05/08/introduction-to-remote-debugging-on-azure-web-sites-part-3-multi-instance-environment-and-git/)).  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)   

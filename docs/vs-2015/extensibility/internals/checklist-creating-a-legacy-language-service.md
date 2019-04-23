@@ -11,12 +11,12 @@ ms.assetid: 8b73b341-a33a-4ab5-9390-178c9e563d2d
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 23dc268aad528e7a628b384f8931ccfcec2674fe
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3df1a4e61859aee4b27dccf5360e0ae99ad5aa8b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971234"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60077526"
 ---
 # <a name="checklist-creating-a-legacy-language-service"></a>검사 목록: 레거시 언어 서비스 만들기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,13 +25,13 @@ ms.locfileid: "58971234"
   
 ## <a name="steps-for-creating-a-language-service"></a>언어 서비스를 만들기 위한 단계  
   
-1.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> 인터페이스를 구현합니다.  
+1. <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> 인터페이스를 구현합니다.  
   
-    -   VSPackage, 구현 된 <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> 언어 서비스를 제공 하는 인터페이스입니다.  
+    - VSPackage, 구현 된 <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> 언어 서비스를 제공 하는 인터페이스입니다.  
   
-    -   언어 서비스를 통합된 개발 환경 (IDE)에 사용할 수 있도록 프로그램 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> 구현 합니다.  
+    - 언어 서비스를 통합된 개발 환경 (IDE)에 사용할 수 있도록 프로그램 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> 구현 합니다.  
   
-2.  구현 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> 주 언어 서비스 클래스의 인터페이스입니다.  
+2. 구현 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> 주 언어 서비스 클래스의 인터페이스입니다.  
   
      <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> 인터페이스는 핵심 편집기 및 언어 서비스 간의 상호 작용의 시작 지점입니다.  
   
@@ -121,7 +121,7 @@ ms.locfileid: "58971234"
   
    다음 방법 중 하나로 편집기 컨텍스트를 제공 합니다.  
   
-  -   구현 하 여 텍스트 표식에 대 한 컨텍스트를 제공 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> 인터페이스입니다.  
+  - 구현 하 여 텍스트 표식에 대 한 컨텍스트를 제공 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> 인터페이스입니다.  
   
   구현 하 여 모든 사용자 컨텍스트를 제공 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> 인터페이스입니다.  
   

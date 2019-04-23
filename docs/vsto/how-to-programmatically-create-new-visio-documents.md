@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bfefb49b2dea575a7a99c2531a6f241872cd4704
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 61fb1302ffb0a068122c333e196178dfa2b30d86
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629991"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60078943"
 ---
 # <a name="how-to-programmatically-create-new-visio-documents"></a>방법: 프로그래밍 방식으로 새 Visio 문서 만들기
   새 Microsoft Office Visio 드로잉 문서를 만들려면 열려 있는 Visio 문서의 `Microsoft.Office.Interop.Visio.Documents` 컬렉션에 추가합니다. 결과적으로 `Microsoft.Office.Interop.Visio.Documents.Add` 메서드는 새 Visio 드로잉 문서를 만듭니다. 자세한 내용은 VBA 참조 설명서에서 [Microsoft.Office.Interop.Visio.Documents.Add](/office/vba/api/Visio.Documents.Add) 메서드를 참조하세요.
@@ -27,7 +27,7 @@ ms.locfileid: "56629991"
 
 ### <a name="to-create-a-new-document"></a>새 문서를 만들려면
 
--   템플릿을 기반으로 하지 않는 빈 문서를 새로 만들려면 `Microsoft.Office.Interop.Visio.Documents.Add` 메서드를 사용합니다.
+- 템플릿을 기반으로 하지 않는 빈 문서를 새로 만들려면 `Microsoft.Office.Interop.Visio.Documents.Add` 메서드를 사용합니다.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#1](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#1)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#1](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#1)]
@@ -37,7 +37,7 @@ ms.locfileid: "56629991"
 
 ### <a name="to-create-a-new-document-that-is-copied-from-an-existing-document"></a>기존 문서에서 복사된 새 문서를 만들려면
 
--   `Microsoft.Office.Interop.Visio.Documents.Add` 메서드를 호출하고 Visio 다이어그램의 경로를 지정합니다.
+- `Microsoft.Office.Interop.Visio.Documents.Add` 메서드를 호출하고 Visio 다이어그램의 경로를 지정합니다.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#2](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#2)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#2](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#2)]
@@ -47,7 +47,7 @@ ms.locfileid: "56629991"
 
 ### <a name="to-create-a-new-stencil-that-is-copied-from-an-existing-stencil"></a>기존 스텐실에서 복사된 새 스텐실을 만들려면
 
--   `Microsoft.Office.Interop.Visio.Documents.Add` 메서드를 호출하고 스텐실의 경로를 지정합니다.
+- `Microsoft.Office.Interop.Visio.Documents.Add` 메서드를 호출하고 스텐실의 경로를 지정합니다.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#3](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#3)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#3](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#3)]
@@ -57,7 +57,7 @@ ms.locfileid: "56629991"
 
 ### <a name="to-create-a-new-document-that-is-based-on-an-existing-template"></a>기존 템플릿을 기반으로 새 문서를 만들려면
 
--   `Microsoft.Office.Interop.Visio.Documents.Add` 메서드를 호출하고 템플릿의 경로를 지정합니다.
+- `Microsoft.Office.Interop.Visio.Documents.Add` 메서드를 호출하고 템플릿의 경로를 지정합니다.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#4](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#4)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#4](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#4)]
@@ -65,11 +65,11 @@ ms.locfileid: "56629991"
 ## <a name="compile-the-code"></a>코드 컴파일
  이 코드 예제에는 다음이 필요합니다.
 
--   명명 된 Visio 문서 `myDrawing.vsd` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).
+- 명명 된 Visio 문서 `myDrawing.vsd` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).
 
--   명명 된 Visio 문서 `myStencil.vss` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).
+- 명명 된 Visio 문서 `myStencil.vss` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).
 
--   명명 된 Visio 문서 `myTemplate.vst` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).
+- 명명 된 Visio 문서 `myTemplate.vst` 라는 디렉터리에 있어야 합니다 `Test` 에 *My Documents* 폴더 (Windows XP 및 이전) 또는 *문서* 폴더 (Windows Vista).
 
 ## <a name="see-also"></a>참고자료
 - [Visio 솔루션](../vsto/visio-solutions.md)

@@ -14,12 +14,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: aa60d16eec09255f39e18b86b468a2fef2269aff
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ad9a0671595d4628932ff4f2db41a137e060c4d1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54782636"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60076487"
 ---
 # <a name="da0003-many-kernel-samples"></a>DA0003: 커널 샘플이 많습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +41,6 @@ ms.locfileid: "54782636"
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법  
  다음 옵션 중 하나를 사용하여 애플리케이션을 다시 프로파일링하는 것이 좋습니다.  
   
--   계측 방법을 사용하여 프로파일링합니다.  
+- 계측 방법을 사용하여 프로파일링합니다.  
   
--   사용자 모드에서 더 많은 샘플을 수집하기 위해 샘플링 비율을 늘립니다.
+- 사용자 모드에서 더 많은 샘플을 수집하기 위해 샘플링 비율을 늘립니다.

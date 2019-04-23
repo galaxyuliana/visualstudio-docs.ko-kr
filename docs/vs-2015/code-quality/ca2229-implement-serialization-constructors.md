@@ -15,12 +15,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: ee283e2e25958d497e00dad245bb69841196c65c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 41e296a979557a42a96c2f57ce49610d88b98a40
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971031"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60073166"
 ---
 # <a name="ca2229-implement-serialization-constructors"></a>CA2229: serialization 생성자를 구현하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,11 +35,11 @@ ms.locfileid: "58971031"
 ## <a name="cause"></a>원인
  형식에서 구현 된 <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> 인터페이스, 대리자 또는 인터페이스 아니며 다음 조건 중 하나가 true 인:
 
--   형식 없는 받아들이는 생성자는 <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName> 개체 및 <xref:System.Runtime.Serialization.StreamingContext?displayProperty=fullName> 개체 (serialization 생성자 서명).
+- 형식 없는 받아들이는 생성자는 <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName> 개체 및 <xref:System.Runtime.Serialization.StreamingContext?displayProperty=fullName> 개체 (serialization 생성자 서명).
 
--   형식은 봉인 하 고 serialization 생성자에 대 한 액세스 한정자는 없습니다. 보호 된 (제품군)입니다.
+- 형식은 봉인 하 고 serialization 생성자에 대 한 액세스 한정자는 없습니다. 보호 된 (제품군)입니다.
 
--   형식이 sealed 형식 인지 하 고 serialization 생성자에 대 한 액세스 한정자를 개인있지 않습니다.
+- 형식이 sealed 형식 인지 하 고 serialization 생성자에 대 한 액세스 한정자를 개인있지 않습니다.
 
 ## <a name="rule-description"></a>규칙 설명
  이 규칙은 사용자 지정 serialization을 지 원하는 형식에 적합 합니다. 형식을 구현 하는 경우 사용자 지정 serialization을 지원 합니다 <xref:System.Runtime.Serialization.ISerializable> 인터페이스입니다. Serialization 생성자를 deserialize 하거나 다시 사용 하 여 serialize 된 개체를 만들 필요는 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName> 메서드.
