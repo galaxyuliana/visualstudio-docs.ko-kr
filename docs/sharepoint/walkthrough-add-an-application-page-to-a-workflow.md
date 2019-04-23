@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 930252a509466fa65a7cbdf2eabac35cfeb25081
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: fe2e782723b35a8cdd5505c60f74d1be12bb2077
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54865832"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60083043"
 ---
 # <a name="walkthrough-add-an-application-page-to-a-workflow"></a>연습: 워크플로에 응용 프로그램 페이지 추가
   이 연습에서는 워크플로 프로젝트에는 워크플로에서 파생 된 데이터를 표시 하는 응용 프로그램 페이지를 추가 하는 방법에 설명 합니다. 항목에서 설명한 프로젝트 기반 [연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만드는](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)합니다.
@@ -38,22 +38,22 @@ ms.locfileid: "54865832"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
+- 지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
 
--   Visual Studio.
+- Visual Studio.
 
--   항목의 프로젝트를 완료 해야 [연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만드는](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)합니다.
+- 항목의 프로젝트를 완료 해야 [연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만드는](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)합니다.
 
 ## <a name="ammend-the-workflow-code"></a>Ammend 워크플로 코드
  첫째, 경비 보고서 양에 대 한 결과 열 값을 설정 하는 워크플로를 코드 줄을 추가 합니다. 이 값은 나중에 비용 보고서 요약 계산에에서 사용 됩니다.
 
 #### <a name="to-set-the-value-of-the-outcome-column-in-the-workflow"></a>워크플로에서 결과 열의 값을 설정 하려면
 
-1.  항목에서 완료 된 프로젝트를 로드 [연습: 연결 및 시작 Forms를 사용 하 여 워크플로 만드는](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) 에 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]입니다.
+1. 항목에서 완료 된 프로젝트를 로드 [연습: 연결 및 시작 Forms를 사용 하 여 워크플로 만드는](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) 에 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]입니다.
 
-2.  에 대 한 코드를 엽니다 *Workflow1.cs* 하거나 *Workflow1.vb* (프로그래밍 언어)에 따라 합니다.
+2. 에 대 한 코드를 엽니다 *Workflow1.cs* 하거나 *Workflow1.vb* (프로그래밍 언어)에 따라 합니다.
 
-3.  맨 아래에 `createTask1_MethodInvoking` 메서드를 다음 코드를 추가 합니다.
+3. 맨 아래에 `createTask1_MethodInvoking` 메서드를 다음 코드를 추가 합니다.
 
     ```vb
     createTask1_TaskProperties1.ExtendedProperties("Outcome") =
@@ -70,11 +70,11 @@ ms.locfileid: "54865832"
 
 #### <a name="to-add-an-application-page-to-the-project"></a>프로젝트에 응용 프로그램 페이지를 추가 하려면
 
-1.  경비 보고서 프로젝트를 선택한 다음, 메뉴 모음에서 **프로젝트** > **새 항목 추가**합니다.
+1. 경비 보고서 프로젝트를 선택한 다음, 메뉴 모음에서 **프로젝트** > **새 항목 추가**합니다.
 
-2.  에 **템플릿** 창 선택 합니다 **응용 프로그램 페이지** 템플릿을 프로젝트 항목에 대 한 기본 이름을 사용 하 여 (**ApplicationPage1.aspx**), 선택한 합니다 **추가** 단추입니다.
+2. 에 **템플릿** 창 선택 합니다 **응용 프로그램 페이지** 템플릿을 프로젝트 항목에 대 한 기본 이름을 사용 하 여 (**ApplicationPage1.aspx**), 선택한 합니다 **추가** 단추입니다.
 
-3.  에 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] ApplicationPage1.aspx의 대체는 `PlaceHolderMain` 섹션을 다음:
+3. 에 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] ApplicationPage1.aspx의 대체는 `PlaceHolderMain` 섹션을 다음:
 
     ```aspx-csharp
     <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -88,7 +88,7 @@ ms.locfileid: "54865832"
 
      이 코드는 제목과 함께 페이지에 테이블을 추가합니다.
 
-4.  대체 하 여 응용 프로그램 페이지에 제목을 추가 합니다 `PlaceHolderPageTitleInTitleArea` 섹션을 다음:
+4. 대체 하 여 응용 프로그램 페이지에 제목을 추가 합니다 `PlaceHolderPageTitleInTitleArea` 섹션을 다음:
 
     ```aspx-csharp
     <asp:Content ID="PageTitleInTitleArea" ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server" >
@@ -101,9 +101,9 @@ ms.locfileid: "54865832"
 
 #### <a name="to-code-the-application-page"></a>응용 프로그램 페이지 코드
 
-1.  선택 합니다 **ApplicationPage1.aspx** 노드를을 선택한 후 메뉴 모음에서 **뷰** > **코드** 응용 프로그램 페이지 코드를 표시 합니다.
+1. 선택 합니다 **ApplicationPage1.aspx** 노드를을 선택한 후 메뉴 모음에서 **뷰** > **코드** 응용 프로그램 페이지 코드를 표시 합니다.
 
-2.  대체는 **를 사용 하 여** 하거나 **가져오기** 다음을 사용 하 여 클래스의 맨 위에 있는 (에 따라 프로그래밍 언어) 문:
+2. 대체는 **를 사용 하 여** 하거나 **가져오기** 다음을 사용 하 여 클래스의 맨 위에 있는 (에 따라 프로그래밍 언어) 문:
 
     ```vb
     Imports System
@@ -131,7 +131,7 @@ ms.locfileid: "54865832"
     using Microsoft.SharePoint.Navigation;
     ```
 
-3.  `Page_Load` 메서드에 다음 코드를 추가합니다.
+3. `Page_Load` 메서드에 다음 코드를 추가합니다.
 
     ```vb
     Try
@@ -343,9 +343,9 @@ ms.locfileid: "54865832"
 
  자세한 내용은 다음이 항목에서는 Visual Studio에서 Visual Web Designer를 사용 하 여 SharePoint 페이지 콘텐츠를 디자인 하는 방법에 대 한 합니다.
 
--   [SharePoint 용 웹 파트 만들기](../sharepoint/creating-web-parts-for-sharepoint.md)합니다.
+- [SharePoint 용 웹 파트 만들기](../sharepoint/creating-web-parts-for-sharepoint.md)합니다.
 
--   [웹 파트 또는 응용 프로그램 페이지에 대 한 재사용 가능한 컨트롤 만들기](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)합니다.
+- [웹 파트 또는 응용 프로그램 페이지에 대 한 재사용 가능한 컨트롤 만들기](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 

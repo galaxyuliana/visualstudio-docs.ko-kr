@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: aaaa9b5f30844e9d23b35ec9304a70edcd2b6139
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 303c19e8cb02b7c9db78d922f0591cb7ab5f3ed3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55933252"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089317"
 ---
 # <a name="hierarchical-update"></a>계층적 업데이트
 
@@ -87,9 +87,9 @@ ms.locfileid: "55933252"
 
 ### <a name="to-update-the-code-to-commit-changes-to-the-related-tables-before-saving"></a>저장 전에 관련 테이블로 변경 내용을 커밋하도록 코드를 업데이트하려면
 
-1.  <xref:System.Windows.Forms.BindingNavigator>에서 **저장** 단추를 두 번 클릭하여 코드 편집기에서 **Form1**을 엽니다.
+1. <xref:System.Windows.Forms.BindingNavigator>에서 **저장** 단추를 두 번 클릭하여 코드 편집기에서 **Form1**을 엽니다.
 
-2.  `OrdersBindingSource.EndEdit` 메서드를 호출하는 줄 뒤에 `CustomersBindingSource.EndEdit` 메서드를 호출하는 코드 줄을 추가합니다. **저장** 단추 클릭 이벤트 내의 코드는 다음과 같습니다.
+2. `OrdersBindingSource.EndEdit` 메서드를 호출하는 줄 뒤에 `CustomersBindingSource.EndEdit` 메서드를 호출하는 코드 줄을 추가합니다. **저장** 단추 클릭 이벤트 내의 코드는 다음과 같습니다.
 
      [!code-vb[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/VisualBasic/hierarchical-update_1.vb)]
      [!code-csharp[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/CSharp/hierarchical-update_1.cs)]
@@ -101,12 +101,11 @@ ms.locfileid: "55933252"
 
 ### <a name="to-add-code-to-commit-parent-records-in-the-dataset-before-adding-new-child-records"></a>새 자식 레코드를 추가하기 전에 데이터 집합에서 부모 레코드를 커밋하는 코드를 추가하려면
 
-1.  
-  `OrdersBindingSource.AddingNew` 이벤트에 대한 이벤트 처리기를 만듭니다.
+1. `OrdersBindingSource.AddingNew` 이벤트에 대한 이벤트 처리기를 만듭니다.
 
-    -   오픈 **Form1** 디자인 뷰에서 선택 **OrdersBindingSource** 구성 요소 트레이에 선택 **이벤트** 에 **속성** 창 및 다음 두 번 클릭 합니다 **AddingNew** 이벤트입니다.
+    - 오픈 **Form1** 디자인 뷰에서 선택 **OrdersBindingSource** 구성 요소 트레이에 선택 **이벤트** 에 **속성** 창 및 다음 두 번 클릭 합니다 **AddingNew** 이벤트입니다.
 
-2.  호출 하는 이벤트 처리기에 코드 줄을 추가 합니다 `CustomersBindingSource.EndEdit` 메서드. `OrdersBindingSource_AddingNew` 이벤트 처리기의 코드는 다음과 같습니다.
+2. 호출 하는 이벤트 처리기에 코드 줄을 추가 합니다 `CustomersBindingSource.EndEdit` 메서드. `OrdersBindingSource_AddingNew` 이벤트 처리기의 코드는 다음과 같습니다.
 
      [!code-vb[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/VisualBasic/hierarchical-update_2.vb)]
      [!code-csharp[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/CSharp/hierarchical-update_2.cs)]
@@ -126,6 +125,6 @@ ms.locfileid: "55933252"
 |*tableName* `TableAdapter` 속성|나타냅니다는 `TableAdapter`합니다. 생성 된 `TableAdapterManager` 각각에 대 한 속성을 포함 `TableAdapter` 관리 합니다. 예를 들어, Customers 및 Orders 테이블이 포함 된 데이터 집합 사용 하 여 생성 됩니다는 `TableAdapterManager` 포함 된 `CustomersTableAdapter` 및 `OrdersTableAdapter` 속성입니다.|
 |`UpdateOrder` 속성|개별 insert, update 및 delete 명령 순서를 제어합니다. 이 설정의 값 중 하나에 `TableAdapterManager.UpdateOrderOption` 열거형입니다.<br /><br /> 기본적으로 `UpdateOrder` 로 설정 된 **InsertUpdateDelete**합니다. 이 즉, 삽입, 업데이트 하 고 삭제 한 다음 데이터 집합의 모든 테이블에 대해 수행 됩니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)

@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0c805c842832ac99c527ea382169775d8b6b2529
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5114e7b32bd22b341489e15ac354cc24b3c6d7d7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983418"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113315"
 ---
 # <a name="validate-your-uml-model"></a>UML 모델 유효성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,24 +49,24 @@ Visual Studio에서 그릴 수 있는 일부 UML 모델은 프로젝트에서 �
   
 #### <a name="to-install-a-visual-studio-extension"></a>Visual Studio 확장을 설치하려면  
   
-1.  두 번 클릭 합니다 **.vsix** Windows 탐색기 (또는 파일 탐색기)의 파일입니다.  
+1. 두 번 클릭 합니다 **.vsix** Windows 탐색기 (또는 파일 탐색기)의 파일입니다.  
   
-2.  이미 실행 중인 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 인스턴스를 다시 시작합니다.  
+2. 이미 실행 중인 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 인스턴스를 다시 시작합니다.  
   
 ## <a name="disabling-and-uninstalling-validation-constraints"></a>유효성 검사 제약 조건 사용 안 함 및 제거  
  제약 조건이 적용되지 않은 모델을 사용하려는 경우 제약 조건이 포함된 확장을 일시적으로 사용하지 않도록 설정할 수 있습니다. 이 방법으로 여러 가지 확장을 사용하거나 사용하지 않도록 설정하여 서로 다른 시간에 다양한 모델을 사용할 수 있습니다.  
   
 #### <a name="to-disable-or-uninstall-a-visual-studio-extension"></a>Visual Studio 확장을 사용하지 않도록 설정하거나 제거하려면  
   
-1.  에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구** 메뉴에서 클릭 **확장 및 업데이트**합니다.  
+1. 에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구** 메뉴에서 클릭 **확장 및 업데이트**합니다.  
   
-2.  클릭 확장과 **사용 안 함** 일시적으로 확장을 사용 하지 않도록 설정 합니다. 다시 활성화할 수 있습니다이 나중에 돌아가서 합니다 **확장 및 업데이트** 창입니다.  
+2. 클릭 확장과 **사용 안 함** 일시적으로 확장을 사용 하지 않도록 설정 합니다. 다시 활성화할 수 있습니다이 나중에 돌아가서 합니다 **확장 및 업데이트** 창입니다.  
   
      \- 또는 -  
   
      클릭 **제거** 확장을 제거 하려면.  
   
-3.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 다시 시작합니다.  
+3. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 다시 시작합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [UML 모델에 대 한 유효성 검사 제약 조건 정의](../modeling/define-validation-constraints-for-uml-models.md)   

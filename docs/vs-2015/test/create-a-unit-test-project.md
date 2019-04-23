@@ -8,12 +8,12 @@ ms.assetid: a608bfba-1a43-4a60-b73a-1fe53ef58098
 caps.latest.revision: 10
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5adef222f42c3dc2b6035bfa7ab25441051597e0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ca472a8db08f337d873f0e43475a9231f2999b13
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54804348"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096623"
 ---
 # <a name="create-a-unit-test-project"></a>단위 테스트 프로젝트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,21 +25,21 @@ ms.locfileid: "54804348"
   
 ## <a name="to-create-a-unit-test-project"></a>단위 테스트 프로젝트를 만들려면:  
   
-1.  **파일** 메뉴에서 **새로 만들기** 를 선택한 후 **프로젝트** 를 선택합니다(키보드 Ctrl+Shift+N).  
+1. **파일** 메뉴에서 **새로 만들기** 를 선택한 후 **프로젝트** 를 선택합니다(키보드 Ctrl+Shift+N).  
   
-2.  새 프로젝트 대화 상자에서 **설치됨** 노드를 확장하고 테스트 프로젝트에 사용하려는 언어를 선택한 후 **테스트**를 선택합니다.  
+2. 새 프로젝트 대화 상자에서 **설치됨** 노드를 확장하고 테스트 프로젝트에 사용하려는 언어를 선택한 후 **테스트**를 선택합니다.  
   
-3.  Microsoft 단위 테스트 프레임워크 중 하나를 사용하려면 프로젝트 템플릿 목록에서 **단위 테스트 프로젝트** 를 선택합니다. 그렇지 않으면 사용하려는 단위 테스트 프레임워크의 프로젝트 템플릿을 선택합니다. 이 예제의 Accounts 프로젝트를 테스트하기 위해 프로젝트 이름을 AccountsTests로 지정합니다.  
+3. Microsoft 단위 테스트 프레임워크 중 하나를 사용하려면 프로젝트 템플릿 목록에서 **단위 테스트 프로젝트** 를 선택합니다. 그렇지 않으면 사용하려는 단위 테스트 프레임워크의 프로젝트 템플릿을 선택합니다. 이 예제의 Accounts 프로젝트를 테스트하기 위해 프로젝트 이름을 AccountsTests로 지정합니다.  
   
-4.  단위 테스트 프로젝트에서 테스트 중인 코드에 대한 참조를 추가합니다.  동일한 솔루션에서 코드 프로젝트에 대한 참조를 만드는 방법은 다음과 같습니다.  
+4. 단위 테스트 프로젝트에서 테스트 중인 코드에 대한 참조를 추가합니다.  동일한 솔루션에서 코드 프로젝트에 대한 참조를 만드는 방법은 다음과 같습니다.  
   
-    1.  솔루션 탐색기에서 프로젝트를 선택합니다.  
+    1. 솔루션 탐색기에서 프로젝트를 선택합니다.  
   
-    2.  **프로젝트** 메뉴에서 **참조 추가**를 선택합니다.  
+    2. **프로젝트** 메뉴에서 **참조 추가**를 선택합니다.  
   
-    3.  참조 관리자 대화 상자에서 **솔루션** 노드를 열고 **프로젝트**를 선택합니다. 코드 프로젝트 이름을 선택하고 대화 상자를 닫습니다.  
+    3. 참조 관리자 대화 상자에서 **솔루션** 노드를 열고 **프로젝트**를 선택합니다. 코드 프로젝트 이름을 선택하고 대화 상자를 닫습니다.  
   
-5.  테스트하려는 코드가 다른 위치에 있는 경우 참조 추가에 대한 자세한 내용은 [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)를 참조하세요.  
+5. 테스트하려는 코드가 다른 위치에 있는 경우 참조 추가에 대한 자세한 내용은 [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)를 참조하세요.  
   
 ## <a name="next-steps"></a>다음 단계  
  **단위 테스트 작성**  

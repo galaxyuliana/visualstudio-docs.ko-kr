@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 571c010aa8b9cda1002a152ed2d528e22b1aa57e
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 7cb221715ef1c2a50bc60e1725db3b1d8721f165
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54865790"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60083033"
 ---
 # <a name="how-to-populate-documents-with-data-from-objects"></a>방법: 개체의 데이터로 문서 채우기
 
@@ -28,11 +28,11 @@ Windows Forms 프로젝트에서와 동일한 방식으로 Microsoft Office에 �
 
 개체의 데이터로 문서를 채우려면 세 가지 기본 단계를 완료해야 합니다.
 
--   데이터에 바인딩할 수 있는 문서에 컨트롤을 추가합니다.
+- 데이터에 바인딩할 수 있는 문서에 컨트롤을 추가합니다.
 
--   문서에 데이터 개체를 추가합니다.
+- 문서에 데이터 개체를 추가합니다.
 
--   BindingSource에 데이터 개체를 연결합니다.
+- BindingSource에 데이터 개체를 연결합니다.
 
 ## <a name="to-add-a-data-object"></a>데이터 개체를 추가하려면
 
@@ -48,23 +48,23 @@ VSTO 추가 기능 프로젝트에서 컨트롤을 만들고 런타임에 바인
 
 BindingSource에 데이터 개체 연결:
 
-1.  **데이터 원본** 창에서 원하는 데이터 필드를 문서로 끌어옵니다. 그러면 자동으로 컨트롤을 만듭니다.
+1. **데이터 원본** 창에서 원하는 데이터 필드를 문서로 끌어옵니다. 그러면 자동으로 컨트롤을 만듭니다.
 
-2.  코드에서 데이터 원본에 대해 선택한 개체 유형의 인스턴스를 만듭니다.
+2. 코드에서 데이터 원본에 대해 선택한 개체 유형의 인스턴스를 만듭니다.
 
-3.  인스턴스를 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 의 <xref:System.Windows.Forms.BindingSource>속성에 할당합니다.
+3. 인스턴스를 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 의 <xref:System.Windows.Forms.BindingSource>속성에 할당합니다.
 
 ### <a name="application-level-projects"></a>응용 프로그램 수준 프로젝트
 
 BindingSource에 데이터 개체 연결:
 
-1.  코드에서 데이터 원본과 연결되는 개체 유형의 인스턴스를 만듭니다.
+1. 코드에서 데이터 원본과 연결되는 개체 유형의 인스턴스를 만듭니다.
 
-2.  <xref:System.Windows.Forms.BindingSource>의 인스턴스를 만듭니다.
+2. <xref:System.Windows.Forms.BindingSource>의 인스턴스를 만듭니다.
 
-3.  데이터 원본 인스턴스를 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 의 <xref:System.Windows.Forms.BindingSource>속성에 할당합니다.
+3. 데이터 원본 인스턴스를 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 의 <xref:System.Windows.Forms.BindingSource>속성에 할당합니다.
 
-4.  데이터 원본을 데이터 바인딩으로 컨트롤에 추가합니다.
+4. 데이터 원본을 데이터 바인딩으로 컨트롤에 추가합니다.
 
 ## <a name="see-also"></a>참고자료
 

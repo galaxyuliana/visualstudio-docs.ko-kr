@@ -20,27 +20,27 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d805333bd8a2cce43340e61573b082dfdff7db0e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: cdfa5724b25a551a65318fea3ebcaf52d7f397ba
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610915"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084574"
 ---
 # <a name="troubleshoot-errors-in-office-solutions"></a>Office 솔루션의 오류 문제 해결
   Visual Studio에서 Office 솔루션을 개발하는 동안 다음 작업을 수행할 때 문제가 발생할 수 있습니다.
 
--   [만들기, 업그레이드 및 프로젝트 열기](#creating)
+- [만들기, 업그레이드 및 프로젝트 열기](#creating)
 
--   [디자이너를 사용 합니다.](#designers)
+- [디자이너를 사용 합니다.](#designers)
 
--   [코드 작성](#code)
+- [코드 작성](#code)
 
--   [프로젝트 빌드](#building)
+- [프로젝트 빌드](#building)
 
--   [프로젝트 디버그](#debugging)
+- [프로젝트 디버그](#debugging)
 
-##  <a name="creating"></a> 만들기, 업그레이드 및 프로젝트 열기
+## <a name="creating"></a> 만들기, 업그레이드 및 프로젝트 열기
  Office 프로젝트를 만들거나 열 때 다음과 같은 오류가 발생할 수 있습니다.
 
 ### <a name="the-project-cannot-be-created"></a>프로젝트를 만들 수 없습니다.
@@ -60,13 +60,13 @@ ms.locfileid: "56610915"
 
  이러한 오류는 해당 개인 정보가 문서 검사를 사용하여 제거된 통합 문서를 기반으로 하는 프로젝트를 만들려는 경우에 발생할 수 있습니다. 이 오류를 방지하려면 프로젝트를 만들기 전에 다음 단계를 수행합니다.
 
-1.  Excel에서 통합 문서를 엽니다.
+1. Excel에서 통합 문서를 엽니다.
 
-2.  Excel에서 보안 센터를 엽니다.
+2. Excel에서 보안 센터를 엽니다.
 
-3.  에 **개인 정보 옵션** 탭의 선택을 취소 합니다 **저장 시 파일 속성에서 개인 정보 제거** 확인란 합니다.
+3. 에 **개인 정보 옵션** 탭의 선택을 취소 합니다 **저장 시 파일 속성에서 개인 정보 제거** 확인란 합니다.
 
-4.  통합 문서를 저장하고 Excel을 닫습니다.
+4. 통합 문서를 저장하고 Excel을 닫습니다.
 
 ### <a name="cannot-open-a-project-after-migration"></a>마이그레이션 후 프로젝트를 열 수 없습니다.
  Office 솔루션이 Microsoft Office 2010으로 마이그레이션된 후 2007 Microsoft Office System만 설치된 개발 컴퓨터에서는 프로젝트를 열 수 없습니다. 다음과 같은 오류가 표시될 수 있습니다.
@@ -84,17 +84,17 @@ ms.locfileid: "56610915"
 
  프로젝트 업그레이드를 완료한 후 다른 Office 솔루션에서 사용되고 있지 않으면 개발 컴퓨터에서 Visual Studio 2005 Tools for Office Second Edition Runtime을 제거할 수 있습니다.
 
-##  <a name="designers"></a> 디자이너를 사용 합니다.
+## <a name="designers"></a> 디자이너를 사용 합니다.
  문서 수준 프로젝트에서 문서, 통합 문서 또는 워크시트 디자이너를 사용하는 경우 다음과 같은 오류가 발생할 수 있습니다.
 
 ### <a name="designer-failed-to-load-correctly"></a>디자이너를 제대로 로드 하지 못했습니다.
  다음과 같은 경우 Visual Studio에서 디자이너를 열 수 없습니다.
 
--   Excel 또는 Word가 이미 열려 있고 모달 대화 상자를 표시합니다. 디자이너를 열려면 Excel 또는 Word에서 모달 대화 상자가 열려 있는지 확인하고 열려 있는 모달 대화 상자를 모두 닫습니다. 열려 있는 모달 대화 상자가 없는 경우 Excel 또는 Word에서 응답하기 전에 다른 작업이 필요할 수 있습니다.
+- Excel 또는 Word가 이미 열려 있고 모달 대화 상자를 표시합니다. 디자이너를 열려면 Excel 또는 Word에서 모달 대화 상자가 열려 있는지 확인하고 열려 있는 모달 대화 상자를 모두 닫습니다. 열려 있는 모달 대화 상자가 없는 경우 Excel 또는 Word에서 응답하기 전에 다른 작업이 필요할 수 있습니다.
 
--   현재 프로젝트를 디버그 중입니다. 디자이너를 열려면 디버깅을 중지하거나 완료합니다.
+- 현재 프로젝트를 디버그 중입니다. 디자이너를 열려면 디버깅을 중지하거나 완료합니다.
 
--   Excel을 시작할 때 개발 컴퓨터에 설치된 Excel VSTO 추가 기능에서 대화 상자를 표시합니다. Excel 문서 수준 프로젝트를 만들려면 먼저 VSTO 추가 기능을 사용하지 않도록 설정해야 합니다.
+- Excel을 시작할 때 개발 컴퓨터에 설치된 Excel VSTO 추가 기능에서 대화 상자를 표시합니다. Excel 문서 수준 프로젝트를 만들려면 먼저 VSTO 추가 기능을 사용하지 않도록 설정해야 합니다.
 
 ### <a name="controls-appear-as-black-rectangles-on-the-document-or-worksheet"></a>컨트롤이 문서 또는 워크시트에서 검은색 사각형으로 표시
  문서 또는 워크시트에서 컨트롤을 그룹화하는 경우 Visual Studio에서 더 이상 해당 컨트롤을 인식하지 않습니다. 그룹화 된 컨트롤에 액세스할 수 합니다 **속성** 창 고, 문서 또는 워크시트에서 검은색 사각형으로 표시 합니다. 해당 기능을 복원하려면 컨트롤 그룹을 해제해야 합니다.
@@ -105,10 +105,10 @@ ms.locfileid: "56610915"
 ### <a name="insert-clip-art-command-does-nothing-in-the-visual-studio-designer"></a>클립 아트 삽입 명령을 Visual Studio 디자이너에 아무 작업도 수행 하지
  Excel 또는 Word Visual Studio 디자이너에에서 열려 있는 경우 클릭 하는 **클립 아트** 단추를 **그림** 리본의 열리지는 **클립 아트** 작업창입니다. 클립 아트를 추가 하려면 통합 문서 또는 주 프로젝트 폴더에 있는 문서 복사본을 열어야 합니다 (에 있는 복사본 아님 합니다 *\bin* 폴더) Visual Studio 외부에서 클립 아트를 추가 하 고 통합 문서 또는 문서를 저장 합니다.
 
-##  <a name="code"></a> 코드 작성
+## <a name="code"></a> 코드 작성
  Office 프로젝트에서 코드를 작성할 때 다음과 같은 오류가 발생할 수 있습니다.
 
-### <a name="some-events-of-office-objects-are-not-accessible-when-using-c"></a>C#을 사용 하 여 Office 개체의 일부 이벤트에 액세스할 수 없습니다.
+### <a name="some-events-of-office-objects-are-not-accessible-when-using-c"></a>C를 사용 하는 경우에 Office 개체의 일부 이벤트에 액세스할 수 없습니다.\#
  경우에 따라 Visual C# 프로젝트에서 Office PIA(주 interop 어셈블리) 형식 인스턴스의 특정 이벤트에 액세스하려고 할 때 다음과 같은 컴파일러 오류가 표시될 수 있습니다.
 
  "'Microsoft.Office.Interop.Excel._Application.NewWorkbook' 및 'Microsoft.Office.Interop.Excel.AppEvents_Event.NewWorkbook' 간에 모호성이 있습니다."
@@ -170,7 +170,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 
  Word 또는 Excel 네임 스페이스를 가져온을 그 안에 있는 모든 클래스에 대 한 액세스 권한이 있지만 네임 스페이스 모호성을 제거 하려면 Word 또는 Excel을 사용 하 여 모든 형식을 정규화 해야 합니다.
 
-##  <a name="building"></a> 프로젝트 빌드
+## <a name="building"></a> 프로젝트 빌드
  Office 프로젝트를 빌드하면 다음과 같은 오류가 발생할 수 있습니다.
 
 ### <a name="cannot-build-a-document-level-project-that-is-based-on-a-document-with-restricted-permissions"></a>제한 된 권한으로 문서를 기반으로 하는 문서 수준 프로젝트를 빌드할 수 없습니다.
@@ -183,7 +183,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 ### <a name="compiler-errors-occur-after-a-namedrange-control-is-deleted"></a>NamedRange 컨트롤이 삭제 된 후 컴파일러 오류 발생
  디자이너에서 활성 워크시트가 아닌 워크시트에서 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 삭제하는 경우 프로젝트에서 자동 생성된 코드를 제거할 수 없으며 컴파일러 오류가 발생할 수 있습니다. 코드를 제거하려면 컨트롤을 삭제하기 전에 항상 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤이 포함된 워크시트를 선택하여 활성 워크시트로 만들어야 합니다. 컨트롤을 삭제할 때 자동 생성된 코드가 삭제되지 않는 경우 워크시트를 활성화하고 워크시트가 수정된 상태로 표시되도록 내용을 변경하여 디자이너에서 코드를 삭제하게 할 수 있습니다. 프로젝트를 다시 빌드하면 코드가 제거됩니다.
 
-##  <a name="debugging"></a> 프로젝트 디버그
+## <a name="debugging"></a> 프로젝트 디버그
  Office 프로젝트를 디버그하면 다음과 같은 오류가 발생할 수 있습니다.
 
 ### <a name="prompt-to-uninstall-appears-when-you-publish-and-install-a-solution-on-the-development-computer"></a>게시 하 고 개발 컴퓨터에서 솔루션을 설치할 때 제거 메시지가 표시 됩니다.

@@ -19,12 +19,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 67a35b8987cc9f4f06cc93df2462a4dee326d7e7
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 66110f6544bc19476bb4ecdfd6929fb4e26f0b52
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664020"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082436"
 ---
 # <a name="vc-project-settings-projects-and-solutions-options-dialog-box"></a>옵션 대화 상자, 프로젝트 및 솔루션, VC++ 프로젝트 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,9 +33,9 @@ ms.locfileid: "59664020"
   
 ### <a name="to-access-this-dialog-box"></a>이 대화 상자에 액세스하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
-2.  **프로젝트 및 솔루션**을 선택한 다음 **VC++ 프로젝트 설정**을 선택합니다.  
+2. **프로젝트 및 솔루션**을 선택한 다음 **VC++ 프로젝트 설정**을 선택합니다.  
   
 ## <a name="build-customization-search-path"></a>빌드 사용자 지정 검색 경로  
  프로젝트에 대한 빌드 규칙을 정의하는 데 도움이 되는 .rules 파일을 포함하는 디렉터리 목록을 지정합니다.  

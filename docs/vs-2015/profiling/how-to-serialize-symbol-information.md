@@ -1,5 +1,5 @@
 ---
-title: '방법: 기호 정보 직렬화 | Microsoft 문서'
+title: '방법: 기호 정보 직렬화 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -14,12 +14,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3f0359613586531a4cc7b80e25acc02be9ae37f9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: b29ddb0e88a58fbfd924c40134305cf33a3e170b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54769181"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103799"
 ---
 # <a name="how-to-serialize-symbol-information"></a>방법: 기호 정보 직렬화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,13 +28,13 @@ ms.locfileid: "54769181"
   
 ### <a name="to-automatically-serialize-symbol-information"></a>기호 정보를 자동으로 직렬화하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
      **옵션** 대화 상자가 표시됩니다.  
   
-2.  **성능 도구**를 클릭합니다.  
+2. **성능 도구**를 클릭합니다.  
   
-3.  **일반 설정**에서 **자동으로 기호 정보 직렬화**를 선택합니다.  
+3. **일반 설정**에서 **자동으로 기호 정보 직렬화**를 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [성능 세션 구성](../profiling/configuring-performance-sessions.md)   

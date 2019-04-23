@@ -18,12 +18,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ee35a42ea28295869fe05bf6cd1d2c49f12cc39b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 660f1fd1d67490bde327533f9d030c7deba9f819
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54791412"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084923"
 ---
 # <a name="how-to-configure-projects-to-target-platforms"></a>방법: 플랫폼을 대상으로 한 프로젝트 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,16 +39,16 @@ ms.locfileid: "54791412"
   
 2. **활성 솔루션 플랫폼** 목록에서 대상으로 지정할 솔루션으로 64비트 플랫폼을 선택한 다음 **닫기** 단추를 선택합니다.  
   
-   1.  **활성 솔루션 플랫폼** 목록에 원하는 플랫폼이 없는 경우 **새로 만들기**를 선택합니다.  
+   1. **활성 솔루션 플랫폼** 목록에 원하는 플랫폼이 없는 경우 **새로 만들기**를 선택합니다.  
   
         **새 솔루션 플랫폼** 대화 상자가 나타납니다.  
   
-   2.  **새 플랫폼 입력 또는 선택** 목록에서 **x64**를 선택합니다.  
+   2. **새 플랫폼 입력 또는 선택** 목록에서 **x64**를 선택합니다.  
   
        > [!NOTE]
        >  구성의 새 이름을 지정한 경우 **프로젝트 디자이너**에서 설정을 수정하여 올바른 플랫폼을 대상으로 지정해야 합니다.  
   
-   3.  현재 플랫폼 구성에서 설정을 복사하려면 해당 설정을 선택한 다음 **확인** 단추를 선택합니다.  
+   3. 현재 플랫폼 구성에서 설정을 복사하려면 해당 설정을 선택한 다음 **확인** 단추를 선택합니다.  
   
    64비트 플랫폼을 대상으로 하는 모든 프로젝트의 속성이 업데이트되고 프로젝트의 다음 빌드가 64비트 플랫폼에 최적화됩니다.  
   
@@ -57,11 +57,11 @@ ms.locfileid: "54791412"
   
  사용하고 있는 프로그래밍 언어에 따라 이 작업이 다르게 수행됩니다. 자세한 내용은 다음 링크를 참조하세요.  
   
--   [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트의 경우 [/platform(Visual Basic)](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1)을 참조하세요.  
+- [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트의 경우 [/platform(Visual Basic)](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1)을 참조하세요.  
   
--   [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트의 경우 [프로젝트 디자이너, 빌드 페이지(C#)](../ide/reference/build-page-project-designer-csharp.md)를 참조하세요.  
+- [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트의 경우 [프로젝트 디자이너, 빌드 페이지(C#)](../ide/reference/build-page-project-designer-csharp.md)를 참조하세요.  
   
--   [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] 프로젝트의 경우 [/clr(공용 언어 런타임 컴파일)](http://msdn.microsoft.com/library/fec5a8c0-40ec-484c-a213-8dec918c1d6c)를 참조하세요.  
+- [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] 프로젝트의 경우 [/clr(공용 언어 런타임 컴파일)](http://msdn.microsoft.com/library/fec5a8c0-40ec-484c-a213-8dec918c1d6c)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [빌드 플랫폼 이해](../ide/understanding-build-platforms.md)   

@@ -10,12 +10,12 @@ ms.assetid: d5aef766-a24c-4f1f-ac9b-e5462b6627d4
 caps.latest.revision: 41
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 192d97d8d2096b37d2dd52d2ed942ccb595456d0
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 37e0ae51589d85ac52ec962fb3cb193fc37a7ad4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54795794"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081257"
 ---
 # <a name="best-practices-for-coded-ui-tests"></a>최선의 코딩된 UI 테스트 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "54795794"
   
  **요구 사항**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ## <a name="best-practices"></a>모범 사례  
  유연한 코딩된 UI 테스트를 만들려면 다음 지침을 따르세요.  
@@ -64,11 +64,11 @@ ms.locfileid: "54795794"
   
 - 컨트롤에 더 이상 유효하지 않은 어설션이 있는 경우  
   
-  -   어설션이 포함된 메서드를 삭제합니다.  
+  - 어설션이 포함된 메서드를 삭제합니다.  
   
-  -   테스트 메서드에서 이 메서드 호출을 제거합니다.  
+  - 테스트 메서드에서 이 메서드 호출을 제거합니다.  
   
-  -   십자선 단추를 UI 컨트롤로 끌어와 새 어설션을 추가하고 UI 맵을 연 다음 새 어설션을 추가합니다.  
+  - 십자선 단추를 UI 컨트롤로 끌어와 새 어설션을 추가하고 UI 맵을 연 다음 새 어설션을 추가합니다.  
   
   코딩된 UI 테스트를 기록하는 방법에 대한 자세한 내용은 [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)를 참조하세요.  
   

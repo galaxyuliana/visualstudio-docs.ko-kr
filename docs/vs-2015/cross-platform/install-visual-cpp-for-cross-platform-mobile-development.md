@@ -11,12 +11,12 @@ caps.latest.revision: 17
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: 7236c0cde965a52ea6ea19f4244e90ec53851405
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: c19ba7ea458f7922f5e82e3277b9ab305090a5cb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659165"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113081"
 ---
 # <a name="install-visual-c-for-cross-platform-mobile-development"></a>플랫폼 간 모바일 개발용 Visual C++ 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "59659165"
  [Install tools for iOS](#InstallForiOS)   
  [수동으로 종속성 설치 또는 업데이트](#ThirdParty)  
   
-##  <a name="Requirements"></a> 요구 사항  
+## <a name="Requirements"></a> 요구 사항  
   
 - 설치 요구 사항은 [Visual Studio 2015 시스템 요구 사항](https://www.visualstudio.com/visual-studio-2015-system-requirements-vs)을 참조하세요.  
   
@@ -44,23 +44,23 @@ ms.locfileid: "59659165"
   
 - iOS용 코드를 빌드하려면 Apple ID, iOS 개발자 프로그램 계정 및 OS X Mavericks 이상 버전에서 [Xcode 6](http://go.microsoft.com/fwlink/p/?LinkId=536387) 이상을 실행할 수 있는 Mac 컴퓨터가 필요합니다. 자세한 설치 단계는 [Install tools for iOS](#InstallForiOS)를 참조하세요.  
   
-##  <a name="GetTheTools"></a> 도구 다운로드  
+## <a name="GetTheTools"></a> 도구 다운로드  
  플랫폼 간 모바일 개발용 Visual C++는 Visual Studio Community, Professional 및 Enterprise 버전에 포함된 설치 가능한 구성 요소입니다. Visual Studio를 다운로드하려면 [Visual Studio 2015 Downloads](http://go.microsoft.com/fwlink/p/?linkid=517106)(Visual Studio 2015 다운로드) 페이지로 이동하여 Visual Studio 2015 업데이트 2 이상을 다운로드하세요.  
   
-##  <a name="InstallTheTools"></a> 도구 설치  
+## <a name="InstallTheTools"></a> 도구 설치  
  Visual Studio 2015 설치 관리자에는 플랫폼 간 모바일 개발용 Visual C++를 설치하는 옵션이 포함되어 있습니다. 이 옵션은 Visual Studio에 필요한 C++ 언어 도구, 템플릿 및 구성 요소, Android 빌드 및 디버깅에 필요한 GCC 및 Clang 도구 집합 및 iOS 개발을 위해 Mac과 통신하기 위한 구성 요소를 설치합니다. 또한 iOS 및 Android 앱 개발을 지원하는 데 필요한 모든 타사 도구 및 소프트웨어 개발 키트를 설치합니다. 이러한 타사 도구는 대부분 Android 플랫폼 지원에 필요한 오픈 소스 소프트웨어입니다.  
   
--   Android NDK(네이티브 개발 키트)는 Android 플랫폼을 대상으로 하는 C++ 코드를 빌드하는 데 필요합니다.  
+- Android NDK(네이티브 개발 키트)는 Android 플랫폼을 대상으로 하는 C++ 코드를 빌드하는 데 필요합니다.  
   
--   Android 빌드 프로세스를 수행하려면 Android SDK, Apache Ant 및 Java SE 개발 키트가 필요합니다.  
+- Android 빌드 프로세스를 수행하려면 Android SDK, Apache Ant 및 Java SE 개발 키트가 필요합니다.  
   
--   Android용 Microsoft Visual Studio 에뮬레이터는 코드를 테스트 및 디버그하는 데 유용한 선택적 고성능 에뮬레이터입니다.  
+- Android용 Microsoft Visual Studio 에뮬레이터는 코드를 테스트 및 디버그하는 데 유용한 선택적 고성능 에뮬레이터입니다.  
   
 #### <a name="to-install-visual-c-for-cross-platform-mobile-development-and-the-third-party-tools"></a>Visual C++ for Cross-Platform Mobile Development 및 타사 도구를 설치하려면  
   
-1.  [도구 다운로드](#GetTheTools)의 링크를 따라 다운로드한 Visual Studio 2015 설치 관리자를 실행합니다. 선택적 구성 요소를 설치하려면 **사용자 지정** 을 설치 유형으로 선택합니다. **다음** 을 선택하여 설치할 선택적 구성 요소를 선택합니다.  
+1. [도구 다운로드](#GetTheTools)의 링크를 따라 다운로드한 Visual Studio 2015 설치 관리자를 실행합니다. 선택적 구성 요소를 설치하려면 **사용자 지정** 을 설치 유형으로 선택합니다. **다음** 을 선택하여 설치할 선택적 구성 요소를 선택합니다.  
   
-2.  기능 선택에서 **플랫폼 간 모바일 개발** 을 확장하고 **Visual C++ 모바일 개발**을 선택합니다.  
+2. 기능 선택에서 **플랫폼 간 모바일 개발** 을 확장하고 **Visual C++ 모바일 개발**을 선택합니다.  
   
      ![Visual C&#43;&#43; 모바일 개발 선택](../cross-platform/media/cppmdd-install-vcmdd.png "CPPMDD_Install_VCMDD")  
   
@@ -70,9 +70,9 @@ ms.locfileid: "59659165"
   
      **다음** 을 선택하여 계속 진행합니다.  
   
-3.  타사 구성 요소에는 해당 사용 조건이 있습니다. 각 구성 요소 옆에 있는 **사용 조건** 링크를 선택하면 사용 조건을 볼 수 있습니다. **설치**를 선택하여 구성 요소를 추가하고 Visual Studio와 플랫폼 간 모바일 개발용 Visual C++를 설치합니다.  
+3. 타사 구성 요소에는 해당 사용 조건이 있습니다. 각 구성 요소 옆에 있는 **사용 조건** 링크를 선택하면 사용 조건을 볼 수 있습니다. **설치**를 선택하여 구성 요소를 추가하고 Visual Studio와 플랫폼 간 모바일 개발용 Visual C++를 설치합니다.  
   
-4.  설치가 완료되면 설치 관리자를 닫고 컴퓨터를 다시 시작합니다. 타사 구성 요소에 대한 일부 설정 작업은 컴퓨터가 다시 시작된 다음에야 적용됩니다.  
+4. 설치가 완료되면 설치 관리자를 닫고 컴퓨터를 다시 시작합니다. 타사 구성 요소에 대한 일부 설정 작업은 컴퓨터가 다시 시작된 다음에야 적용됩니다.  
   
     > [!IMPORTANT]
     >  모든 항목을 정상적으로 설치하려면 컴퓨터를 다시 시작해야 합니다.  
@@ -82,12 +82,12 @@ ms.locfileid: "59659165"
     > [!NOTE]
     >  사용 중인 컴퓨터 또는 Windows 버전에서 Hyper-V를 지원하지 않는 경우 Microsoft Visual Studio Emulator for Android 구성 요소를 사용할 수 없습니다. Windows Home Edition에는 Hyper-V 지원이 포함되지 않습니다.  
   
-5.  Visual Studio를 엽니다. 처음으로 Visual Studio를 실행하는 경우 구성 및 로그인하는 데 약간의 시간이 걸릴 수 있습니다. Visual Studio가 준비되면 **도구** 메뉴에서 **확장 및 업데이트**, **업데이트**를 차례로 선택합니다. 플랫폼 간 모바일 개발용 Visual C++ 또는 Android용 Microsoft Visual Studio 에뮬레이터에 사용할 수 있는 Visual Studio 업데이트가 있는 경우 설치합니다.  
+5. Visual Studio를 엽니다. 처음으로 Visual Studio를 실행하는 경우 구성 및 로그인하는 데 약간의 시간이 걸릴 수 있습니다. Visual Studio가 준비되면 **도구** 메뉴에서 **확장 및 업데이트**, **업데이트**를 차례로 선택합니다. 플랫폼 간 모바일 개발용 Visual C++ 또는 Android용 Microsoft Visual Studio 에뮬레이터에 사용할 수 있는 Visual Studio 업데이트가 있는 경우 설치합니다.  
   
-##  <a name="InstallForiOS"></a> Install tools for iOS  
+## <a name="InstallForiOS"></a> Install tools for iOS  
  플랫폼 간 모바일 개발용 Visual C++를 사용하여 iOS 코드를 편집 및 디버그하고 iOS 시뮬레이터 또는 iOS 디바이스에 배포할 수 있지만 라이선스 제한으로 인해 Mac에서 원격으로 코드를 빌드해야 합니다. Visual Studio를 사용하여 iOS 앱을 빌드 및 실행하려면 Mac에서 원격 에이전트를 설치 및 구성해야 합니다. 자세한 설치 지침, 필수 조건 및 구성 옵션은 [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)을 참조하세요. iOS용으로 빌드하지 않는 경우에는 이 단계를 건너뛸 수 있습니다.  
   
-##  <a name="ThirdParty"></a> 수동으로 종속성 설치 또는 업데이트  
+## <a name="ThirdParty"></a> 수동으로 종속성 설치 또는 업데이트  
  Visual C++ 모바일 개발 옵션을 설치할 때 Visual Studio 설치 관리자를 사용하여 타사 종속성을 하나 이상 설치하지 않는 경우 나중에 [Install the tools](#InstallTheTools)의 단계를 사용하여 설치할 수 있습니다. Visual Studio와 독립적으로 설치하거나 업데이트할 수도 있습니다.  
   
 > [!CAUTION]
@@ -123,15 +123,15 @@ ms.locfileid: "59659165"
   
 #### <a name="to-set-the-paths-for-third-party-tools"></a>타사 도구에 대한 경로를 설정하려면  
   
-1.  Visual Studio 메뉴 모음에서 **도구**, **옵션**을 차례로 선택합니다.  
+1. Visual Studio 메뉴 모음에서 **도구**, **옵션**을 차례로 선택합니다.  
   
-2.  **옵션** 대화 상자에서 **플랫폼 간**, **C++** 를 차례로 확장하고 **Android**를 선택합니다.  
+2. **옵션** 대화 상자에서 **플랫폼 간**, **C++** 를 차례로 확장하고 **Android**를 선택합니다.  
   
      ![Android 도구 경로 옵션](../cross-platform/media/cppmdd-options-android.PNG "CPPMDD_Options_Android")  
   
-3.  도구에서 사용되는 경로를 변경하려면 경로 옆에 있는 확인란을 선택하고 텍스트 상자에서 폴더 경로를 편집합니다. 찾아보기 단추(**...**)를 사용하여 **위치 선택** 대화 상자를 열고 폴더를 선택할 수도 있습니다.  
+3. 도구에서 사용되는 경로를 변경하려면 경로 옆에 있는 확인란을 선택하고 텍스트 상자에서 폴더 경로를 편집합니다. 찾아보기 단추(**...**)를 사용하여 **위치 선택** 대화 상자를 열고 폴더를 선택할 수도 있습니다.  
   
-4.  **확인** 을 선택하여 사용자 지정 도구 폴더 위치를 저장합니다.  
+4. **확인** 을 선택하여 사용자 지정 도구 폴더 위치를 저장합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [iOS를 사용하여 빌드할 도구 설치 및 구성](../cross-platform/install-and-configure-tools-to-build-using-ios.md)   

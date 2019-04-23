@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6821275f7511b48ac6472b468480e6248463b253
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 6fb65b66bed790a306280a437a1722abea27848a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704880"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113445"
 ---
 # <a name="task-class---internal-members"></a>Task 클래스-내부 멤버
 이 문서에서는 설명의 internal 멤버를 <xref:System.Threading.Tasks.Task?displayProperty=fullName> 도움이 되는 클래스 사용자 지정 디버거를 구현 합니다. 이 클래스에 대 한 일반 정보에 대 한 참조를 <xref:System.Threading.Tasks.Task> 참조 문서입니다.
@@ -67,17 +67,17 @@ ms.locfileid: "56704880"
 ## <a name="remarks"></a>설명
  입구 표시 하므로 다음 내부 메서드는 디버거 엔진에 유용한 <xref:System.Threading.Tasks.Task> 코드 실행 합니다.
 
--   `Execute`
+- `Execute`
 
--   `ExecuteEntry`
+- `ExecuteEntry`
 
--   `ExecuteWithThreadLocal`
+- `ExecuteWithThreadLocal`
 
--   `Finish`
+- `Finish`
 
--   `InnerInvoke`
+- `InnerInvoke`
 
--   `InternalWait`
+- `InternalWait`
 
 ## <a name="see-also"></a>참고자료
 - <xref:System.Threading.Tasks.Task?displayProperty=fullName>

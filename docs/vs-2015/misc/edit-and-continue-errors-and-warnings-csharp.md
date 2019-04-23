@@ -61,12 +61,12 @@ ms.assetid: c0e12b0a-8009-4a4a-979f-c804a91a5d9b
 caps.latest.revision: 11
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 36d2665eef36e0e233cf02d241f550f3e701800f
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: f83f421203b25edbbccf767c0661ece709dd63c4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981925"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085092"
 ---
 # <a name="edit-and-continue-errors-and-warnings-c"></a>편집하며 계속하기의 오류 및 경고(C#)
 Visual C# 편집하며 계속하기에서 허용되지 않는 코드의 섹션을 편집했습니다.  
@@ -79,11 +79,11 @@ Visual C# 편집하며 계속하기에서 허용되지 않는 코드의 섹션�
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-1.  **디버그** 메뉴에서 **실행 취소** 를 선택하여 변경 내용을 취소합니다.  
+1. **디버그** 메뉴에서 **실행 취소** 를 선택하여 변경 내용을 취소합니다.  
   
      또는  
   
-2.  디버깅 세션을 중지하고 편집 작업을 수행한 다음 새 디버깅 세션을 시작합니다.  
+2. 디버깅 세션을 중지하고 편집 작업을 수행한 다음 새 디버깅 세션을 시작합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [편집하며 계속하기(Visual C#)](../debugger/edit-and-continue-visual-csharp.md)

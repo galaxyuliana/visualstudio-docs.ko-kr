@@ -18,12 +18,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 94a8f4f8fe0d1f93ce3467291a20377234db29f4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 45f650283c850a9dce3ae71c7eefbff2ef378535
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984837"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080711"
 ---
 # <a name="add-validation-to-an-n-tier-dataset"></a>n 계층 데이터 세트에 유효성 검사 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,14 +58,14 @@ End Sub
   
 #### <a name="to-add-validation-during-changes-to-individual-column-values"></a>개별 열 값을 변경 하는 동안 유효성 검사를 추가 하려면  
   
-1.  데이터 집합을 두 번 클릭 하 여 디자이너에서 엽니다는 **.xsd** 파일 **솔루션 탐색기**합니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
+1. 데이터 집합을 두 번 클릭 하 여 디자이너에서 엽니다는 **.xsd** 파일 **솔루션 탐색기**합니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
   
-2.  유효성을 검사 하려는 열을 두 번 클릭 합니다. 이 작업은 만듭니다는 <xref:System.Data.DataTable.ColumnChanging> 이벤트 처리기입니다.  
+2. 유효성을 검사 하려는 열을 두 번 클릭 합니다. 이 작업은 만듭니다는 <xref:System.Data.DataTable.ColumnChanging> 이벤트 처리기입니다.  
   
     > [!NOTE]
     >  데이터 집합 디자이너를 자동으로 C# 이벤트에 대 한 이벤트 처리기를 만들지 않습니다. C#에서 이벤트를 처리 하는 데 필요한 코드는 다음 섹션에 포함 됩니다. `SampleColumnChangingEvent` 생성 되 고 그런 다음 최대 연결 합니다 <xref:System.Data.DataTable.ColumnChanging> 이벤트에는 <xref:System.Data.DataTable.EndInit%2A> 메서드.  
   
-3.  확인 코드를 추가 `e.ProposedValue` 응용 프로그램의 요구 사항을 충족 하는 데이터를 포함 합니다. 제안 된 값을 수용할 수 없으면 오류가 있음을 나타내도록 열을 설정 합니다.  
+3. 확인 코드를 추가 `e.ProposedValue` 응용 프로그램의 요구 사항을 충족 하는 데이터를 포함 합니다. 제안 된 값을 수용할 수 없으면 오류가 있음을 나타내도록 열을 설정 합니다.  
   
      다음 코드 예제는 유효성을 검사 합니다 **수량** 0 개 이상의 열을 포함 합니다. 하는 경우 **수량** 보다 작거나 0으로 열이 설정 된 오류입니다. 합니다 `Else` 경우 절에서 오류를 지웁니다 **수량** 0 보다 크면 합니다. 열 변경 이벤트 처리기의 코드는 다음과 같아야 합니다.  
   
@@ -117,18 +117,18 @@ End Sub
   
 #### <a name="to-add-validation-during-changes-to-whole-rows"></a>전체 행을 변경 하는 동안 유효성 검사를 추가 하려면  
   
-1.  데이터 집합을 두 번 클릭 하 여 디자이너에서 엽니다는 **.xsd** 파일 **솔루션 탐색기**합니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
+1. 데이터 집합을 두 번 클릭 하 여 디자이너에서 엽니다는 **.xsd** 파일 **솔루션 탐색기**합니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
   
-2.  디자이너에서 데이터 테이블의 제목 표시줄 두 번 클릭 합니다.  
+2. 디자이너에서 데이터 테이블의 제목 표시줄 두 번 클릭 합니다.  
   
      부분 클래스를 사용 하 여 만들는 `RowChanging` 이벤트 처리기 및 코드 편집기에서 열립니다.  
   
     > [!NOTE]
     >  데이터 집합 디자이너를 자동으로 만들어지지는지 않습니다에 대 한 이벤트 처리기는 <xref:System.Data.DataTable.RowChanging> C# 프로젝트에서 이벤트입니다. 처리 하는 메서드를 만들어야 합니다 <xref:System.Data.DataTable.RowChanging> 테이블의 초기화 메서드에서 이벤트를 후크 이벤트 및 코드를 실행된 합니다.  
   
-3.  Partial 클래스 선언 내에서 사용자 코드를 추가 합니다.  
+3. Partial 클래스 선언 내에서 사용자 코드를 추가 합니다.  
   
-4.  다음 코드는 동안 유효성을 검사 하는 사용자 코드를 추가 하는 위치를 보여 줍니다.는 <xref:System.Data.DataTable.RowChanging> Visual Basic에 대 한 이벤트:  
+4. 다음 코드는 동안 유효성을 검사 하는 사용자 코드를 추가 하는 위치를 보여 줍니다.는 <xref:System.Data.DataTable.RowChanging> Visual Basic에 대 한 이벤트:  
   
     ```vb  
     Partial Class OrdersDataTable  
@@ -145,7 +145,7 @@ End Sub
     End Class  
     ```  
   
-5.  다음 코드를 만드는 방법을 보여 줍니다 합니다 `RowChanging` 이벤트 처리기 및 사용자 코드는 동안 유효성 검사를 추가 하는 위치는 <xref:System.Data.DataTable.RowChanging> C#에 대 한 이벤트:  
+5. 다음 코드를 만드는 방법을 보여 줍니다 합니다 `RowChanging` 이벤트 처리기 및 사용자 코드는 동안 유효성 검사를 추가 하는 위치는 <xref:System.Data.DataTable.RowChanging> C#에 대 한 이벤트:  
   
     ```csharp  
     partial class OrdersDataTable  

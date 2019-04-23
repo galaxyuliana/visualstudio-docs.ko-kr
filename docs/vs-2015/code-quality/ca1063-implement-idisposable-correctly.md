@@ -15,12 +15,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 52e77762900a321cf547709d98d9856088580789
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 822ad7bea622400bfabd5a96a42d81ed4eabf0c4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983973"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081400"
 ---
 # <a name="ca1063-implement-idisposable-correctly"></a>CA1063: IDisposable을 올바르게 구현하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,23 +59,23 @@ ms.locfileid: "58983973"
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  코드를 검사는 다음과 같은 해결이이 위반이 해결 됩니다.
 
--   구현 되는 인터페이스 목록에서 IDisposable을 제거 {0} 하 고 대신 기본 클래스 Dispose 구현을 재정의 합니다.
+- 구현 되는 인터페이스 목록에서 IDisposable을 제거 {0} 하 고 대신 기본 클래스 Dispose 구현을 재정의 합니다.
 
--   형식에서 종료자를 제거 {0}, Dispose (bool disposing)를 재정의 하 고 종료 논리를 코드 경로에서 '삭제'는 false입니다.
+- 형식에서 종료자를 제거 {0}, Dispose (bool disposing)를 재정의 하 고 종료 논리를 코드 경로에서 '삭제'는 false입니다.
 
--   제거 {0}, Dispose (bool disposing)를 재정의 하 고 dispose 논리가 코드 경로에서 '삭제'가 true입니다.
+- 제거 {0}, Dispose (bool disposing)를 재정의 하 고 dispose 논리가 코드 경로에서 '삭제'가 true입니다.
 
--   되도록 {0} public로 선언 되 고 봉인 합니다.
+- 되도록 {0} public로 선언 되 고 봉인 합니다.
 
--   이름 바꾸기 {0} '삭제'를 public 및 sealed로 선언 되어 있는지 확인 합니다.
+- 이름 바꾸기 {0} '삭제'를 public 및 sealed로 선언 되어 있는지 확인 합니다.
 
--   했는지 {0} 보호, 가상, 선언 및 봉인 되지 않은 합니다.
+- 했는지 {0} 보호, 가상, 선언 및 봉인 되지 않은 합니다.
 
--   수정 {0} GC 호출 Dispose(true)를 호출 합니다. 현재 개체 인스턴스에 대해 SuppressFinalize ('this' 또는 'Me' in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)])를 반환 합니다.
+- 수정 {0} GC 호출 Dispose(true)를 호출 합니다. 현재 개체 인스턴스에 대해 SuppressFinalize ('this' 또는 'Me' in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)])를 반환 합니다.
 
--   수정 {0} dispose (false) 호출을 반환 합니다.
+- 수정 {0} dispose (false) 호출을 반환 합니다.
 
--   봉인 되지 않은 루트 IDisposable 클래스를 작성 하는 경우에 IDisposable의 구현은이 단원의 앞에서 설명한 패턴을 따르는지 확인 합니다.
+- 봉인 되지 않은 루트 IDisposable 클래스를 작성 하는 경우에 IDisposable의 구현은이 단원의 앞에서 설명한 패턴을 따르는지 확인 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  이 규칙에서는 경고를 표시해야 합니다.

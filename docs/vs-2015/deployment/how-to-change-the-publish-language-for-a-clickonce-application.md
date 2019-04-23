@@ -17,12 +17,12 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 34f86760fdede4efa84bc069c0ed9c92bf6740bd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cac9d8ef6a8165b8fffd9e7f2be931828bb529f8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984693"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081153"
 ---
 # <a name="how-to-change-the-publish-language-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 게시 언어 변경
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,15 +36,15 @@ ms.locfileid: "58984693"
   
 ### <a name="to-change-the-publish-language"></a>게시 언어를 변경 하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **게시** 탭을 클릭합니다.  
+2. **게시** 탭을 클릭합니다.  
   
-3.  클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.  
+3. 클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.  
   
-4.  클릭 **설명을**합니다.  
+4. 클릭 **설명을**합니다.  
   
-5.  에 **게시 옵션** 대화 상자, 언어 및 문화권에서 **게시 언어** 한 다음 클릭 하 고 드롭 다운 목록 **확인**합니다.  
+5. 에 **게시 옵션** 대화 상자, 언어 및 문화권에서 **게시 언어** 한 다음 클릭 하 고 드롭 다운 목록 **확인**합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   

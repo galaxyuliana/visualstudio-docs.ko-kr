@@ -11,16 +11,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 36fc5dd306782779f553d4144c272c91c7e0f0af
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 4e7f99f646d2a93878ec0a78f75cdc6ae1fb0d1c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55929403"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60095687"
 ---
 # <a name="create-a-simple-data-application-by-using-adonet"></a>ADO.NET을 사용하여 간단한 데이터 애플리케이션 만들기
 
-데이터베이스의 데이터를 조작하는 애플리케이션을 만들면 연결 문자열 정의, 데이터 삽입 및 저장 프로시저 실행과 같은 기본 작업을 수행합니다. 이 항목에 따라 시각적 개체를 사용 하 여 간단한 Windows Forms "데이터 폼" 응용 프로그램 내에서 데이터베이스와 상호 작용 하는 방법을 검색할 수 있습니다 C# 또는 Visual Basic 및 ADO.NET입니다.  모든.NET 데이터 기술-LINQ to SQL과 Entity Framework 데이터 집합을 포함 하 여, 궁극적으로이 문서에 나와 있는 것과 매우 유사한 단계를 수행 합니다.
+데이터베이스의 데이터를 조작하는 애플리케이션을 만들면 연결 문자열 정의, 데이터 삽입 및 저장 프로시저 실행과 같은 기본 작업을 수행합니다. 이 항목에 따라 Visual C# 또는 Visual Basic 및 ADO.NET을 사용 하 여 간단한 Windows Forms "데이터 폼" 응용 프로그램 내에서 데이터베이스와 상호 작용 하는 방법을 확인할 수 있습니다.  모든.NET 데이터 기술-LINQ to SQL과 Entity Framework 데이터 집합을 포함 하 여, 궁극적으로이 문서에 나와 있는 것과 매우 유사한 단계를 수행 합니다.
 
 이 문서는 데이터베이스에서 데이터를 빠른 방식으로 참여 하는 간단한 방법을 보여 줍니다. 응용 프로그램을 trivial이 아닌 방법으로 데이터를 수정 하 고 데이터베이스를 업데이트 하는 경우에 Entity Framework를 사용 하 여 및 데이터 바인딩 기본 데이터의 변경 내용에 사용자 인터페이스 컨트롤을 자동으로 동기화를 사용 해야 합니다.
 
@@ -31,11 +31,11 @@ ms.locfileid: "55929403"
 
 응용 프로그램을 만들려면 다음이 필요 합니다.
 
--   Visual Studio.
+- Visual Studio.
 
--   SQL Server Express LocalDB. SQL Server Express LocalDB가 없는 경우에서 설치할 수 있습니다 합니다 [SQL Server Express 다운로드 페이지](https://www.microsoft.com/sql-server/sql-server-editions-express)합니다.
+- SQL Server Express LocalDB. SQL Server Express LocalDB가 없는 경우에서 설치할 수 있습니다 합니다 [SQL Server Express 다운로드 페이지](https://www.microsoft.com/sql-server/sql-server-editions-express)합니다.
 
-이 항목에는 Visual Studio IDE의 기본 기능에 익숙한 및, 수 있습니다 Windows Forms 응용 프로그램을 만드는 추가 단추 및 기타 컨트롤을 폼에 배치 합니다. 프로젝트에 폼 컨트롤 및 간단한 이벤트 코드의 속성을 설정 가정 합니다. 이러한 작업에 익숙하지 경우 완료 하는 것이 좋습니다 합니다 [시각적 개체를 사용 하 여 시작 C# 및 Visual Basic](../ide/quickstart-visual-basic-console.md) 이 연습을 시작 하기 전에 항목입니다.
+이 항목에는 Visual Studio IDE의 기본 기능에 익숙한 및, 수 있습니다 Windows Forms 응용 프로그램을 만드는 추가 단추 및 기타 컨트롤을 폼에 배치 합니다. 프로젝트에 폼 컨트롤 및 간단한 이벤트 코드의 속성을 설정 가정 합니다. 이러한 작업에 익숙하지 경우 완료 하는 것이 좋습니다 합니다 [Visual C# 및 Visual Basic 시작](../ide/quickstart-visual-basic-console.md) 이 연습을 시작 하기 전에 항목입니다.
 
 ## <a name="set-up-the-sample-database"></a>샘플 데이터베이스 설정
 
@@ -59,7 +59,7 @@ ms.locfileid: "55929403"
 
 7. T-SQL 스크립트, 쿼리 편집기에 붙여넣고 선택한 합니다 **Execute** 단추입니다.
 
-     짧은 시간 후 쿼리 실행이 완료 하 고 데이터베이스 개체 생성 됩니다. 데이터베이스에 두 개의 테이블이: 고객 및 주문 합니다. 이러한 테이블에 데이터가 없는 처음에 있지만 앞으로 만들 응용 프로그램을 실행 하는 경우 데이터를 추가할 수 있습니다. 또한 데이터베이스 4 개의 간단한 저장된 프로시저를 포함합니다.
+     짧은 시간 후 쿼리 실행이 완료 하 고 데이터베이스 개체 생성 됩니다. 데이터베이스에는 두 개의 테이블이 있습니다. 고객과 주문입니다. 이러한 테이블에 데이터가 없는 처음에 있지만 앞으로 만들 응용 프로그램을 실행 하는 경우 데이터를 추가할 수 있습니다. 또한 데이터베이스 4 개의 간단한 저장된 프로시저를 포함합니다.
 
 ## <a name="create-the-forms-and-add-controls"></a>폼 만들기 및 컨트롤 추가
 
@@ -69,11 +69,11 @@ ms.locfileid: "55929403"
 
 2. 프로젝트에 두 개의 Windows 양식을 추가하여 총 세 개의 양식을 만든 다음, 다음 이름을 지정합니다.
 
-   -   **탐색**
+   - **탐색**
 
-   -   **NewCustomer**
+   - **NewCustomer**
 
-   -   **FillOrCancel**
+   - **FillOrCancel**
 
 3. 각 폼에 대해 다음 그림에 나오는 텍스트 상자, 단추 및 기타 컨트롤을 추가합니다. 각 컨트롤에 대해 테이블이 설명하는 속성을 설정합니다.
 
@@ -124,21 +124,21 @@ ms.locfileid: "55929403"
 
  마우스 오른쪽 단추로 클릭 하 여 연결 문자열을 찾을 수 있습니다 합니다 **Sales** 에서 데이터 연결 **서버 탐색기** 선택 하 고 **속성**합니다. 찾을 합니다 **ConnectionString** 속성을 사용 하 여 **Ctrl**+**A**, **Ctrl**+**C**  선택 하 고 문자열을 클립보드에 복사 합니다.
 
-1.  사용 중인 경우 C#의 **솔루션 탐색기**를 확장 합니다 **속성** 노드 프로젝트를 연 다음를 **생성 되는 Settings.settings** 파일.
+1. 사용 중인 경우 C#에서 **솔루션 탐색기**를 확장 합니다 **속성** 노드 프로젝트를 연 다음를 **생성 되는 Settings.settings** 파일.
     Visual Basic을 사용 하는 경우 **솔루션 탐색기**, 클릭 **모든 파일 표시**를 확장 합니다 **My Project** 노드를 연 다음는 **를Settings.settings** 파일입니다.
 
-2.  에 **이름을** 열, 입력 `connString`합니다.
+2. 에 **이름을** 열, 입력 `connString`합니다.
 
-3.  에 **형식** 목록에서 **(문자열)** 합니다.
+3. 에 **형식** 목록에서 **(문자열)** 합니다.
 
-4.  에 **범위** 목록에서 **응용 프로그램**합니다.
+4. 에 **범위** 목록에서 **응용 프로그램**합니다.
 
-5.  에 **값** 열 (하지 않고 따옴표 외부), 연결 문자열을 입력 하 고 다음 변경 내용을 저장 합니다.
+5. 에 **값** 열 (하지 않고 따옴표 외부), 연결 문자열을 입력 하 고 다음 변경 내용을 저장 합니다.
 
 > [!NOTE]
 > 실제 응용 프로그램에서 연결 문자열을 안전 하 게에 설명 된 대로 저장 해야 [연결 문자열 및 구성 파일](/dotnet/framework/data/adonet/connection-strings-and-configuration-files)합니다.
 
-##  <a name="write-the-code-for-the-forms"></a>폼에 대한 코드 작성
+## <a name="write-the-code-for-the-forms"></a>폼에 대한 코드 작성
 
 이 섹션에서는 각 폼에서 수행 하는 작업의 간략 한 개요를 포함 합니다. 또한 폼에 단추를 클릭할 때 기본 논리를 정의 하는 코드를 제공 합니다.
 
@@ -180,6 +180,7 @@ NewCustomer 폼 논리를 완료 하려면 다음이 단계를 수행 합니다.
      ```csharp
      using System.Data.SqlClient;
      ```
+
      ```vb
      Imports System.Data.SqlClient
      ```
@@ -212,6 +213,7 @@ FillOrCancel 폼 논리를 완료 하려면 다음이 단계를 수행 합니다
      using System.Data.SqlClient;
      using System.Text.RegularExpressions;
      ```
+
      ```vb
      Imports System.Data.SqlClient
      Imports System.Text.RegularExpressions
@@ -231,6 +233,6 @@ FillOrCancel 폼 논리를 완료 하려면 다음이 단계를 수행 합니다
 
 각 Click 이벤트 처리기를 코딩하고 코딩을 마친 후에 **F5** 키를 선택하여 애플리케이션을 빌드하고 테스트합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)

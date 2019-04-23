@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: b674239d4d3b800680479830fbb16392e0cdeaf4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: d2ce13fc55c94514bb9da24e43a5c54671becde5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713557"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080659"
 ---
 # <a name="how-to-specify-a-net-framework-version-for-debugging-c-visual-basic-f"></a>방법: 디버깅을 위한.NET Framework 버전 지정 (C#, Visual Basic의 경우 F#)
 
@@ -46,17 +46,17 @@ The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](.
 
 3. **레지스트리 편집기**에서 HKEY_LOCAL_MACHINE 폴더를 엽니다.
 
-4. HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine\\{449EC4CC-30D2-4032-9256-EE18EB41B62B}로 이동
+4. 다음으로 이동합니다. HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine\\{449EC4CC-30D2-4032-9256-EE18EB41B62B}
 
     이 키가 없으면 마우스 오른쪽 단추로 HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine을 클릭하고 **새 키**를 클릭합니다. 새 키 이름을 `{449EC4CC-30D2-4032-9256-EE18EB41B62B}`입니다.
 
 5. {449EC4CC-30D2-4032-9256-EE18EB41B62B}로 이동한 후 **이름** 열에서 CLRVersionForDebugging 키를 찾습니다.
 
-   1.  해당하는 키가 없으면 {449EC4CC-30D2-4032-9256-EE18EB41B62B}를 마우스 오른쪽 단추로 클릭하고 **새 문자열 값**을 클릭합니다. 새 문자열 값을 마우스 오른쪽 단추로 클릭, 클릭 **이름 바꾸기**, 및 형식 `CLRVersionForDebugging`합니다.
+   1. 해당하는 키가 없으면 {449EC4CC-30D2-4032-9256-EE18EB41B62B}를 마우스 오른쪽 단추로 클릭하고 **새 문자열 값**을 클릭합니다. 새 문자열 값을 마우스 오른쪽 단추로 클릭, 클릭 **이름 바꾸기**, 및 형식 `CLRVersionForDebugging`합니다.
 
 6. **CLRVersionForDebugging**을 두 번 클릭합니다.
 
-7. **문자열 편집** 상자에서 **값** 상자에 .NET Framework 버전 번호를 입력합니다. 예를 들어 V1.1.4322 같은 형식입니다.
+7. **문자열 편집** 상자에서 **값** 상자에 .NET Framework 버전 번호를 입력합니다. 예를 들어: V1.1.4322
 
 8. **확인**을 클릭합니다.
 

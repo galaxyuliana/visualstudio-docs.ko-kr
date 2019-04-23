@@ -9,29 +9,29 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 168e136f3a50c5055a9b9fb6d05925dac3586a23
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: db5b2df99a887511351e6b5bd120968edf7c53cb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869059"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080867"
 ---
 # <a name="display-data-in-blend"></a>Blend에서 데이터 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 페이지의 레이아웃을 사용자 지정할 때 디자이너에서 예제 데이터를 볼 수 있습니다. 예제 데이터는 처음부터 새로 또는 기존 클래스를 사용하여 생성할 수 있습니다. 예제 데이터 실행 시 앱에 표시되는 *라이브 데이터* 에 연결할 수도 있습니다.  
   
- **항목 내용**  
+ **항목 내용:**  
   
--   [예제 데이터 생성](#Scratch)  
+- [예제 데이터 생성](#Scratch)  
   
--   [클래스에서 예제 데이터 생성](#Existing)  
+- [클래스에서 예제 데이터 생성](#Existing)  
   
--   [WPF 애플리케이션에 라이브 데이터 표시](#LiveWPF)  
+- [WPF 애플리케이션에 라이브 데이터 표시](#LiveWPF)  
   
--   [스토어 또는 Phone 앱에 라이브 데이터 표시](#LiveStore)  
+- [스토어 또는 Phone 앱에 라이브 데이터 표시](#LiveStore)  
   
-##  <a name="Scratch"></a> 예제 데이터 생성  
+## <a name="Scratch"></a> 예제 데이터 생성  
  예제 데이터를 생성하려면 XAML 문서를 엽니다. **데이터** 패널에서 **예제 데이터 만들기**![](../designers/media/30540d76-7256-43ce-b5d9-4b2edf3d339f.png "30540d76-7256-43ce-b5d9-4b2edf3d339f") 단추를 클릭한 다음 **새 예제 데이터**를 선택합니다.  
   
  **데이터** 패널에서 데이터 구조를 정의한 다음 모든 페이지의 UI 요소에 바인딩합니다.  
@@ -42,23 +42,23 @@ ms.locfileid: "57869059"
   
  ![](../designers/media/05d5356d-91bb-4e6b-b3f7-29b76852c4b3.png "05d5356d-91bb-4e6b-b3f7-29b76852c4b3")  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create sample data from scratch](http://www.bing.com/videos/search?q=blend%20data&qs=n&form=QBVR&pq=blend%20data&sc=8-7&sp=-1&sk=#view=detail&mid=F8F2449A76956D480FD2F8F2449A76956D480FD2)(처음부터 샘플 데이터 만들기).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [처음부터 예제 데이터 만들기](http://www.bing.com/videos/search?q=blend%20data&qs=n&form=QBVR&pq=blend%20data&sc=8-7&sp=-1&sk=#view=detail&mid=F8F2449A76956D480FD2F8F2449A76956D480FD2)합니다.  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Mixing up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg)(Blend를 사용하여 일부 데이터 바인딩 혼합).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Blend와 일부 데이터 바인딩 혼합](https://www.youtube.com/watch?v=LSwPB6CAvjg)합니다.  
   
-##  <a name="Existing"></a> 클래스에서 예제 데이터 생성  
+## <a name="Existing"></a> 클래스에서 예제 데이터 생성  
  데이터 구조를 설명하는 클래스를 이미 만들었으면 이 클래스에서 예제 데이터를 생성할 수 있습니다.  
   
  클래스에서 예제 데이터를 생성하려면 XAML 문서를 열고 **데이터** 패널에서 **예제 데이터 만들기**![](../designers/media/30540d76-7256-43ce-b5d9-4b2edf3d339f.png "30540d76-7256-43ce-b5d9-4b2edf3d339f") 단추를 클릭한 후 **클래스에서 예제 데이터 만들기**를 클릭합니다.  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create sample data from a class](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0CB0QtwIwAA&url=http%3A%2F%2Fchannel9.msdn.com%2FShows%2FInside%2BWindows%2BPhone%2FIWP54--Windows-Phone-Data-Binding-and-the-Magic-of-XAML&ei=F1oHVNryM4ysogSJ2oDYDw&usg=AFQjCNEYvw1WA1rdF7bfpj5RwMLUs7RCVg)(클래스에서 샘플 데이터 만들기).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [클래스에서 예제 데이터 만들기](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0CB0QtwIwAA&url=http%3A%2F%2Fchannel9.msdn.com%2FShows%2FInside%2BWindows%2BPhone%2FIWP54--Windows-Phone-Data-Binding-and-the-Magic-of-XAML&ei=F1oHVNryM4ysogSJ2oDYDw&usg=AFQjCNEYvw1WA1rdF7bfpj5RwMLUs7RCVg)합니다.  
   
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Mixing up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg)(Blend를 사용하여 일부 데이터 바인딩 혼합).  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Blend와 일부 데이터 바인딩 혼합](https://www.youtube.com/watch?v=LSwPB6CAvjg)합니다.  
   
-##  <a name="LiveWPF"></a> WPF 애플리케이션에 라이브 데이터 표시  
- **짧은 비디오 보기:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create an XML data source](https://www.youtube.com/watch?v=RjQueappjqk&feature=youtube_gdata)(XML 데이터 소스 만들기).  
+## <a name="LiveWPF"></a> WPF 애플리케이션에 라이브 데이터 표시  
+ **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [XML 데이터 원본 만들기](https://www.youtube.com/watch?v=RjQueappjqk&feature=youtube_gdata)합니다.  
   
-##  <a name="LiveStore"></a> 스토어 또는 Phone 앱에 라이브 데이터 표시  
+## <a name="LiveStore"></a> 스토어 또는 Phone 앱에 라이브 데이터 표시  
  [데이터 및 파일(XAML) 작업](http://msdn.microsoft.com/library/windows/apps/xaml/br229562.aspx)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  

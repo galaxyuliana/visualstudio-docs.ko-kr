@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 150621514f9153b1e9d67f8e9c85a00275c27b15
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 5519328ef69f98737a7744f0162bdc0951433a60
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416112"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082895"
 ---
 # <a name="extend-dependency-diagrams"></a>종속성 다이어그램 확장
 
@@ -23,23 +23,23 @@ ms.locfileid: "58416112"
 
  종속성 다이어그램에 대 한 자세한 내용은 다음을 참조 하세요.
 
--   [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)
+- [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)
 
--   [종속성 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)
+- [종속성 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)
 
--   [코드에서 종속성 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)
+- [코드에서 종속성 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)
 
--   [종속성 다이어그램을 사용하여 코드 유효성 검사](../modeling/validate-code-with-layer-diagrams.md)
+- [종속성 다이어그램을 사용하여 코드 유효성 검사](../modeling/validate-code-with-layer-diagrams.md)
 
-##  <a name="prereqs"></a> 요구 사항
+## <a name="prereqs"></a> 요구 사항
 
 레이어 확장을 개발하려는 컴퓨터에 다음이 설치되어 있어야 합니다.
 
--   Visual Studio
+- Visual Studio
 
--   [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
+- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
 
--   Visual Studio 용 모델링 SDK
+- Visual Studio 용 모델링 SDK
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

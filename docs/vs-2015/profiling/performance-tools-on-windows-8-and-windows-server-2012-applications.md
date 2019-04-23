@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c13472fc1322701fefada53ee3e94156f35e8072
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c2d5fdd068894434c170c2525499a41c7c14b4e2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54757973"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60095843"
 ---
 # <a name="performance-tools-on-windows-8-and-windows-server-2012-applications"></a>Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual St
 > [!NOTE]
 >  기타 지원되는 버전의 Windows(Windows 7, Windows Server 2008 R2)용 성능 도구는 변경되지 않았습니다.  
   
-##  <a name="BKMK_In_this_topic"></a> 항목 내용  
+## <a name="BKMK_In_this_topic"></a> 항목 내용  
  [Visual Studio IDE에서 Windows 스토어 앱에 대한 데이터 수집](#BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE)  
   
  [Visual Studio IDE에서 Windows 8 데스크톱 또는 Windows Server 2012에서 실행되는 앱에 대한 데이터 수집](#BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE)  
@@ -35,7 +35,7 @@ Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual St
   
   [TIP(계층 상호 작용) 데이터 수집](#BKMK_Collecting_tier_interaction__TIP__data)  
   
-##  <a name="BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE"></a> Visual Studio IDE에서 Windows 스토어 앱에 대한 데이터 수집  
+## <a name="BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE"></a> Visual Studio IDE에서 Windows 스토어 앱에 대한 데이터 수집  
  JavaScript 및 HTML 5로 작성된 Windows 스토어 앱을 프로파일링하는 경우 JavaScript 코드에 대한 계측 데이터를 수집합니다. Visual C++, Visual C# 또는 Visual Basic으로 작성된 Windows 스토어 앱 또는 구성 요소를 프로파일링하는 경우 네이티브 코드 및 관리 코드에 대한 샘플링 데이터를 수집합니다. 로컬이나 원격 컴퓨터에서 앱을 프로파일링할 수 있습니다.  
   
  Windows 스토어 앱을 프로파일링하는 경우 다음 프로파일링 기능과 옵션은 지원되지 않습니다.  
@@ -70,25 +70,25 @@ Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual St
   
 - [로컬 컴퓨터의 Windows 스토어 앱에서 Visual C++, Visual C# 및 Visual Basic 코드 프로파일링](http://msdn.microsoft.com/2d0c939e-0bac-48c5-b727-46f6c6113060)  
   
-- [원격 디바이스의 Windows 스토어 앱에서 Visual C++, Visual C# 및 Visual Basic 코드 프로파일링](http://msdn.microsoft.com/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
+- [원격 장치의 Windows 스토어 앱에서 Visual C++, Visual C# 및 Visual Basic 코드 프로파일링](http://msdn.microsoft.com/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
   
 - [Windows 스토어 앱의 Visual C++, Visual C# 및 Visual Basic 코드에 대한 성능 데이터 분석](http://msdn.microsoft.com/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
   
   [항목 내용](#BKMK_In_this_topic)  
   
-##  <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE"></a> Visual Studio IDE에서 Windows 8 데스크톱 또는 Windows Server 2012에서 실행되는 앱에 대한 데이터 수집  
+## <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE"></a> Visual Studio IDE에서 Windows 8 데스크톱 또는 Windows Server 2012에서 실행되는 앱에 대한 데이터 수집  
  Windows 8에서는 계측 방법을 사용한 프로파일링이 변경되지 않았습니다.  
   
  샘플링 방법을 사용한 TIP(계층 상호 작용 프로파일링)는 지원되지 않습니다.  
   
-###  <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_by_using_sampling_from_the_Visual_Studio_IDE"></a> Visual Studio IDE에서 샘플링을 사용하여 Windows 8 데스크톱 또는 Windows Server 2012에서 실행되는 앱에 대한 데이터 수집  
+### <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_by_using_sampling_from_the_Visual_Studio_IDE"></a> Visual Studio IDE에서 샘플링을 사용하여 Windows 8 데스크톱 또는 Windows Server 2012에서 실행되는 앱에 대한 데이터 수집  
  샘플링 방법을 사용하여 Windows 8 데스크톱 애플리케이션 또는 Windows Server 2012 애플리케이션을 프로파일링하는 경우 다음 프로파일링 기능과 옵션은 지원되지 않습니다.  
   
--   TIP(계층 상호 작용 프로파일링). 계측을 사용한 TIP 데이터 수집이 지원됩니다.  
+- TIP(계층 상호 작용 프로파일링). 계측을 사용한 TIP 데이터 수집이 지원됩니다.  
   
--   샘플링 이벤트 및 타이밍 간격 설정 또는 추가 성능 카운터 데이터 수집과 같은 샘플링 옵션  
+- 샘플링 이벤트 및 타이밍 간격 설정 또는 추가 성능 카운터 데이터 수집과 같은 샘플링 옵션  
   
-##  <a name="BKMK_Profiling_from_the_command_line"></a> 명령줄에서 프로파일링  
+## <a name="BKMK_Profiling_from_the_command_line"></a> 명령줄에서 프로파일링  
  다음 두 명령줄 도구를 사용하여 Visual Studio가 설치되지 않은 디바이스를 비롯한 Windows 8 및 Windows Server 2012 디바이스에서 프로파일링 데이터를 수집합니다.  
   
 |도구 이름|설명|  
@@ -98,24 +98,24 @@ Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual St
   
  두 도구는 로컬 컴퓨터에서 사용하기 위해 Visual Studio와 함께 설치됩니다.  
   
- Visual Studio가 설치되지 않은 장치에서 애플리케이션을 프로파일링하려면 다음 중 하나를 수행합니다.  
+ Visual Studio가 설치되지 않은 디바이스에서 응용 프로그램을 프로파일링하려면 다음 중 하나를 수행합니다.  
   
--   [MSDN 웹 사이트](http://go.microsoft.com/fwlink/?LinkID=219549)에서 Visual Studio용 원격 도구의 일부로 도구를 다운로드합니다.  
+- [MSDN 웹 사이트](http://go.microsoft.com/fwlink/?LinkID=219549)에서 Visual Studio용 원격 도구의 일부로 도구를 다운로드합니다.  
   
--   Visual Studio 컴퓨터에서 독립 실행형 프로파일러 도구 설치 프로그램을 복사하여 실행합니다. 설치 프로그램은 *%VSInstallDir%* **\Team Tools\Performance Tools\Setups** 폴더에 있습니다. 원격 컴퓨터의 운영 체제(x86/x64)용 설치 프로그램을 선택합니다.  
+- Visual Studio 컴퓨터에서 독립 실행형 프로파일러 도구 설치 프로그램을 복사하여 실행합니다. 설치 프로그램은 *%VSInstallDir%* **\Team Tools\Performance Tools\Setups** 폴더에 있습니다. 원격 컴퓨터의 운영 체제(x86/x64)용 설치 프로그램을 선택합니다.  
   
 > [!NOTE]
 >  TIP 프로파일링 데이터를 수집하려면 원격 컴퓨터에 Visual Studio 컴퓨터의 독립 실행형 프로파일러를 설치해야 합니다.  
   
  명령줄에서 Windows 8 및 Windows Server 2012 애플리케이션을 프로파일링하는 경우 다음 프로파일링 기능과 옵션은 지원되지 않습니다.  
   
--   [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md)와 함께 샘플링 모드를 사용하여 Windows 8 및 Windows Server 2012 웹앱에서 데이터 수집  
+- [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md)와 함께 샘플링 모드를 사용하여 Windows 8 및 Windows Server 2012 웹앱에서 데이터 수집  
   
--   VsPerfCmd.exe를 사용하여 샘플링 데이터 수집  
+- VsPerfCmd.exe를 사용하여 샘플링 데이터 수집  
   
--   샘플링 이벤트 및 타이밍 간격 설정 또는 추가 성능 카운터 데이터 수집과 같은 샘플링 옵션  
+- 샘플링 이벤트 및 타이밍 간격 설정 또는 추가 성능 카운터 데이터 수집과 같은 샘플링 옵션  
   
-##  <a name="BKMK_Collecting_tier_interaction__TIP__data"></a> TIP(계층 상호 작용) 데이터 수집  
+## <a name="BKMK_Collecting_tier_interaction__TIP__data"></a> TIP(계층 상호 작용) 데이터 수집  
  상호 작용 프로파일링은 ADO.NET 서비스를 통해 데이터베이스와 통신하는 다중 계층 애플리케이션의 함수 실행 시간에 대한 추가 정보를 제공합니다. 동기 함수 호출에 대해서만 데이터가 수집됩니다.  
   
  **Visual Studio 버전**  

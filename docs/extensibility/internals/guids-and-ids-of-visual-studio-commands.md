@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab40302e7b92f0cb3789c7510ba80904b45f5afe
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: daf131fd6d7940458252e734ab0cc222f2e3a357
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596726"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096137"
 ---
 # <a name="guids-and-ids-of-visual-studio-commands"></a>Guid 및 Id의 Visual Studio 명령
 Visual Studio 통합된 개발 환경 (IDE)에 포함 된 명령의 GUID 및 ID 값은 Visual Studio SDK의 일부로 설치 되는.vsct 파일에서 정의 됩니다. 자세한 내용은 [IDE 정의 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)합니다.
@@ -52,11 +52,11 @@ Visual Studio 통합된 개발 환경 (IDE)에 포함 된 명령의 GUID 및 ID 
 ### <a name="special-cases"></a>특별 한 경우
  다음 경우에 메뉴 텍스트 또는 도구 설명 텍스트를 다 명령 정의에 포함 된 내용입니다.
 
--   같은 밑줄이 그어진 문자를 포함 하는 메뉴 항목의 **인쇄** 명령을 **파일** 나타나는 메뉴에서를 *P* 밑줄이 표시 됩니다.
+- 같은 밑줄이 그어진 문자를 포함 하는 메뉴 항목의 **인쇄** 명령을 **파일** 나타나는 메뉴에서를 *P* 밑줄이 표시 됩니다.
 
      앰퍼샌드 뒤에 나오는 문자 (&) 문자 메뉴 항목 이름에 표시 되는 밑줄이 있습니다. 그러나 *.vsct* 파일은 xml에서는 앰퍼샌드 (&) 문자를 사용 하 여 특수 문자를 표시 하 고 표시할 앰퍼샌드로 철자가 같아야는 필요한  *&amp;amp;* 합니다. 따라서를 *.vsct* 파일을 **인쇄** 명령으로 표시 됩니다  *&amp;a m p; 인쇄*합니다.
 
--   명령와 같은 동적 텍스트입니다 **저장** \<현재 파일 이름을\>, 및 동적 메뉴 항목, 항목 등에서 생성 합니다 **최근에 사용한 파일** 목록.
+- 명령와 같은 동적 텍스트입니다 **저장** \<현재 파일 이름을\>, 및 동적 메뉴 항목, 항목 등에서 생성 합니다 **최근에 사용한 파일** 목록.
 
      동적 텍스트를 검색할 신뢰할 수 있는 방법은 없습니다. 대신 참조 하 여 원하는 명령을 호스트 하는 그룹을 찾을 [Guid 및 Id의 Visual Studio 메뉴](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) 하거나 [Guid 및 Id의 Visual Studio 도구 모음](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md), 해당 그룹의 ID 검색 합니다. 명령 정의와 그룹에 없으면 해당 [부모 요소](../../extensibility/parent-element.md)를 검색 *SharedCmdPlace.vsct* 하 고 *ShellCmdPlace.vsct* (또는  *VsDbgCmdPlace.vsct* 디버거 명령에 대 한)에 대 한는 `<CommandPlacement>` 명령의 부모를 설정 하는 요소입니다. *SharedCmdPlace.vsct*, *ShellCmdPlace.vsct*, 및 *VsDbgCmdPlace.vsct* 에 *\<Visual Studio SDK 설치 경로\>\ VisualStudioIntegration\Common\Inc\\* 폴더입니다.
 

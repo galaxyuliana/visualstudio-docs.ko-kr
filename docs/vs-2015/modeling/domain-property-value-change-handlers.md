@@ -11,12 +11,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ad8cc11947bdaa99fa7d3ee1d48576896859e598
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 500364d42c3c47b471102deee8f95193648183b8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "59002043"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60095635"
 ---
 # <a name="domain-property-value-change-handlers"></a>도메인 속성 값 변경 처리기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,15 +55,15 @@ public partial class Comment
   
  속성 처리기와 관련하여 유의할 사항은 다음과 같습니다.  
   
--   속성 처리기 메서드는 사용자가 도메인 속성을 변경할 때와 프로그램 코드가 속성에 다른 값을 할당할 때 모두 호출됩니다.  
+- 속성 처리기 메서드는 사용자가 도메인 속성을 변경할 때와 프로그램 코드가 속성에 다른 값을 할당할 때 모두 호출됩니다.  
   
--   메서드는 값이 실제로 변경될 때만 호출됩니다. 프로그램 코드가 현재 값과 같은 값을 할당하는 경우에는 처리기가 호출되지 않습니다.  
+- 메서드는 값이 실제로 변경될 때만 호출됩니다. 프로그램 코드가 현재 값과 같은 값을 할당하는 경우에는 처리기가 호출되지 않습니다.  
   
--   계산된 속성 및 사용자 지정 저장소 도메인 속성에는 OnValueChanged 및 OnValueChanging 메서드가 없습니다.  
+- 계산된 속성 및 사용자 지정 저장소 도메인 속성에는 OnValueChanged 및 OnValueChanging 메서드가 없습니다.  
   
--   변경 처리기를 사용하여 새 값을 수정할 수는 없습니다. 값을 특정 범위로 제한하는 등의 작업을 수행하려면 `ChangeRule`을 정의합니다.  
+- 변경 처리기를 사용하여 새 값을 수정할 수는 없습니다. 값을 특정 범위로 제한하는 등의 작업을 수행하려면 `ChangeRule`을 정의합니다.  
   
--   관계의 역할을 나타내는 속성에는 변경 처리기를 추가할 수 없습니다. 대신 관계 클래스에 대해 `AddRule` 및 `DeleteRule`을 정의합니다. 이러한 규칙은 링크를 만들거나 변경할 때 트리거됩니다. 자세한 내용은 [규칙이 전파 변경 내용을 내에서 모델](../modeling/rules-propagate-changes-within-the-model.md)합니다.  
+- 관계의 역할을 나타내는 속성에는 변경 처리기를 추가할 수 없습니다. 대신 관계 클래스에 대해 `AddRule` 및 `DeleteRule`을 정의합니다. 이러한 규칙은 링크를 만들거나 변경할 때 트리거됩니다. 자세한 내용은 [규칙이 전파 변경 내용을 내에서 모델](../modeling/rules-propagate-changes-within-the-model.md)합니다.  
   
 ### <a name="changes-in-and-out-of-the-store"></a>Store 내부 및 외부의 변경 사항  
  속성 처리기 메서드는 변경을 시작한 트랜잭션 내에서 호출됩니다. 그러므로 새 트랜잭션을 열지 않고 Store에서 추가로 변경할 수 있습니다. 변경하면 처리기가 추가로 호출될 수 있습니다.  

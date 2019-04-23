@@ -8,12 +8,12 @@ ms.assetid: a793cf7a-f230-43ce-88d0-fa5d6f1aa9c7
 caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 02abe8858f928e5f3fb036b212e0a1ca777259a9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5f3ed2d3f8bc52b21f6a87ac7d6da00f665f6b28
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971375"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096532"
 ---
 # <a name="ux-essentials-for-visual-studio"></a>UX Essentials for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -22,35 +22,35 @@ ms.locfileid: "58971375"
 
 ### <a name="1-be-consistent-within-the-visual-studio-environment"></a>1. Visual Studio 환경 내에서 일관 되어야 합니다.
 
--   셸 내에서 기존 상호 작용 패턴을 따릅니다.
+- 셸 내에서 기존 상호 작용 패턴을 따릅니다.
 
--   셸의 visual 언어 및 장인 요구 사항 일치 하는 기능을 디자인 합니다.
+- 셸의 visual 언어 및 장인 요구 사항 일치 하는 기능을 디자인 합니다.
 
--   있을 경우 공유 명령 및 컨트롤을 사용 합니다.
+- 있을 경우 공유 명령 및 컨트롤을 사용 합니다.
 
--   Visual Studio 계층 및 컨텍스트를 설정 및 UI를 구동 하는 방법을 이해 합니다.
+- Visual Studio 계층 및 컨텍스트를 설정 및 UI를 구동 하는 방법을 이해 합니다.
 
 ### <a name="2-use-the-environment-service-for-fonts-and-colors"></a>2. 글꼴 및 색에 대 한 환경 서비스를 사용 합니다.
 
--   UI는 사용자 지정 글꼴 및 색 페이지 옵션 대화 상자에서 표시 되는 경우가 아니면 현재 환경 글꼴 설정을 따라야 합니다.
+- UI는 사용자 지정 글꼴 및 색 페이지 옵션 대화 상자에서 표시 되는 경우가 아니면 현재 환경 글꼴 설정을 따라야 합니다.
 
--   UI 요소에는 공유 환경 토큰 또는 기능별 토큰을 사용 하 여 VSColor Service를 사용 해야 합니다.
+- UI 요소에는 공유 환경 토큰 또는 기능별 토큰을 사용 하 여 VSColor Service를 사용 해야 합니다.
 
 ### <a name="3-make-all-imagery-consistent-with-the-new-vs-style"></a>3. 모든 이미지를 새 VS 스타일을 사용 하 여 일관 되 게 합니다.
 
--   아이콘, 문자 모양 및 기타 그래픽에 대 한 Visual Studio 디자인 원칙을 따릅니다.
+- 아이콘, 문자 모양 및 기타 그래픽에 대 한 Visual Studio 디자인 원칙을 따릅니다.
 
--   그래픽 요소에 텍스트를 배치 하지 마십시오.
+- 그래픽 요소에 텍스트를 배치 하지 마십시오.
 
 ### <a name="4-design-from-a-user-centric-perspective"></a>4. 사용자 중심의 관점에서 디자인 합니다.
 
--   내의 개별 기능 하기 전에 작업 흐름을 만듭니다.
+- 내의 개별 기능 하기 전에 작업 흐름을 만듭니다.
 
--   사용자가 잘 알고 있어야 하 고 해당 정보를 사용자 사양에 명시적으로 만들어야 합니다.
+- 사용자가 잘 알고 있어야 하 고 해당 정보를 사용자 사양에 명시적으로 만들어야 합니다.
 
--   UI를 검토 하는 경우 전체 환경 뿐만 아니라 세부 정보를 평가 합니다.
+- UI를 검토 하는 경우 전체 환경 뿐만 아니라 세부 정보를 평가 합니다.
 
--   기능 및 로캘이나 언어에 관계 없이 매력적인 유지 하도록 UI를 디자인 합니다.
+- 기능 및 로캘이나 언어에 관계 없이 매력적인 유지 하도록 UI를 디자인 합니다.
 
 ## <a name="screen-resolution"></a>화면 해상도
 
@@ -69,9 +69,9 @@ ms.locfileid: "58971375"
 
 #### <a name="feature-team-goals"></a>기능 팀의 목표
 
--   사용자 추가 했다고 구성 해야 하는 요소에 대 한 경고를 표시 합니다.
+- 사용자 추가 했다고 구성 해야 하는 요소에 대 한 경고를 표시 합니다.
 
--   사용자의 주를를 입력 해야 하는 영역을 그립니다.
+- 사용자의 주를를 입력 해야 하는 영역을 그립니다.
 
 #### <a name="anti-pattern-solution"></a>안티패턴 솔루션
  사용자가 작업을 시작 하는 즉시 및 이러한 작업을 완료 하기 전에 즉시 구성 해야 하는 영역 옆에 있는 중요 한 중지 아이콘을 배치 합니다.
@@ -88,11 +88,11 @@ ms.locfileid: "58971375"
 #### <a name="alternatives"></a>대체 형식
  이 문제를 훨씬 더 나은 솔루션을 해야 합니다.
 
--   경고 없이 선언에 추가할 사용자를 허용 하 고 항목 속성을 설정 하려면 즉시 이동 합니다.
+- 경고 없이 선언에 추가할 사용자를 허용 하 고 항목 속성을 설정 하려면 즉시 이동 합니다.
 
--   경고 아이콘 (gold 삼각형)을 추가할 때 포커스가 이동 된 항목에서와 같은 다른 선언 목록에 추가 하거나 디자이너 내에서 탭을 변경 하려고 합니다.
+- 경고 아이콘 (gold 삼각형)을 추가할 때 포커스가 이동 된 항목에서와 같은 다른 선언 목록에 추가 하거나 디자이너 내에서 탭을 변경 하려고 합니다.
 
--   사용자가 선언에서 속성을 설정 하기 전에 탭을 변경 하려고 하는 경우 응용 프로그램이 빌드되지 것입니다 설명 대화 상자 표시 (또는 원하는 의미) 경고를 해결 합니다. 사용자 대화 상자를 해제 하 고 탭을 변경 하는 경우 계속 다음 아이콘 (위험 또는 경고, 필요에 따라)에 추가 됩니다 선언 탭.
+- 사용자가 선언에서 속성을 설정 하기 전에 탭을 변경 하려고 하는 경우 응용 프로그램이 빌드되지 것입니다 설명 대화 상자 표시 (또는 원하는 의미) 경고를 해결 합니다. 사용자 대화 상자를 해제 하 고 탭을 변경 하는 경우 계속 다음 아이콘 (위험 또는 경고, 필요에 따라)에 추가 됩니다 선언 탭.
 
 ### <a name="forcing-the-user-to-read-text-before-dismissing-ui"></a>사용자가 UI를 해제 하기 전에 텍스트 읽기
 
@@ -173,9 +173,9 @@ ms.locfileid: "58971375"
 
    **더 나은 솔루션:** 링크를 클릭 하 여 사용자 요청 하는 질문을 제기 합니다.
 
--   Windows Azure 서비스는 어떻게 작동 하나요?
+- Windows Azure 서비스는 어떻게 작동 하나요?
 
--   Windows Azure Mobile Services 프로젝트를 경우 해야 하나요?
+- Windows Azure Mobile Services 프로젝트를 경우 해야 하나요?
 
 #### <a name="using-click-here-for-links"></a>링크에 대 한 "여기 클릭"을 사용 하 여
  하이퍼링크는 자체 설명적 이어야 합니다. "여기를 클릭"을 사용 하는 것이 안티패턴 또는 비슷한 변형입니다.

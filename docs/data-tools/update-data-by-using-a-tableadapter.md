@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 546ca45ed48f9fc247bd5706005153f41cf206e5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: ca5161d0ddb73a72b88f36e85bda9206839aec3d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926764"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082401"
 ---
 # <a name="update-data-by-using-a-tableadapter"></a>TableAdapter를 사용하여 데이터 업데이트
 
@@ -34,11 +34,11 @@ ms.locfileid: "55926764"
 
  데이터 소스를 업데이트 하기 위한 정확한 절차는 비즈니스 요구 사항에 따라 달라질 수 있지만 다음 단계가 포함 됩니다.
 
-1.  어댑터의 호출 `Update` 의 메서드를 `try` / `catch` 블록입니다.
+1. 어댑터의 호출 `Update` 의 메서드를 `try` / `catch` 블록입니다.
 
-2.  예외가 포착 되는 경우 오류를 발생 시키는 데이터 행을 찾습니다.
+2. 예외가 포착 되는 경우 오류를 발생 시키는 데이터 행을 찾습니다.
 
-3.  데이터의 문제 (가능한 경우 프로그래밍 방식으로 또는 수정에 대 한 사용자에 게 잘못 된 행을 제공 하 여) 행을 한 다음 다시 업데이트 (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).
+3. 데이터의 문제 (가능한 경우 프로그래밍 방식으로 또는 수정에 대 한 사용자에 게 잘못 된 행을 제공 하 여) 행을 한 다음 다시 업데이트 (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).
 
 ## <a name="save-data-to-a-database"></a>데이터베이스에 데이터를 저장 합니다.
 
@@ -46,11 +46,11 @@ ms.locfileid: "55926764"
 
 ### <a name="to-update-a-database-by-using-a-tableadapter"></a>TableAdapter를 사용 하 여 데이터베이스를 업데이트 하려면
 
--   TableAdapter의 묶습니다`Update` 의 메서드를 `try` / `catch` 블록입니다. 다음 예제에서는의 내용을 업데이트 하는 방법을 보여 줍니다 합니다 `Customers` 테이블의 `NorthwindDataSet` 내에서 `try` / `catch` 블록입니다.
+- TableAdapter의 묶습니다`Update` 의 메서드를 `try` / `catch` 블록입니다. 다음 예제에서는의 내용을 업데이트 하는 방법을 보여 줍니다 합니다 `Customers` 테이블의 `NorthwindDataSet` 내에서 `try` / `catch` 블록입니다.
 
      [!code-csharp[VbRaddataSaving#9](../data-tools/codesnippet/CSharp/update-data-by-using-a-tableadapter_1.cs)]
      [!code-vb[VbRaddataSaving#9](../data-tools/codesnippet/VisualBasic/update-data-by-using-a-tableadapter_1.vb)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)

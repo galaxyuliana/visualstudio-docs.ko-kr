@@ -13,12 +13,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d37f0ed1dedbd5d4ca893e99465c79c31e453f2f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 98ed42fe1ae496e4c8692c2fd599eceb1c9508af
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980632"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079450"
 ---
 # <a name="idiaenumlinenumbers"></a>IDiaEnumLineNumbers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,15 +49,15 @@ IDiaEnumLineNumbers : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
  이 인터페이스의 다음 메서드 중 하나를 호출 하 여 가져온 합니다 [IDiaSession](../../debugger/debug-interface-access/idiasession.md) 인터페이스:  
   
--   [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md)  
+- [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md)  
   
--   [IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)  
+- [IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)  
   
--   [IDiaSession::findLinesByRVA](../../debugger/debug-interface-access/idiasession-findlinesbyrva.md)  
+- [IDiaSession::findLinesByRVA](../../debugger/debug-interface-access/idiasession-findlinesbyrva.md)  
   
--   [IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)  
+- [IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)  
   
--   [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)  
+- [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)  
   
 ## <a name="example"></a>예제  
  가져오는 방법을 보여 주는이 예제는 `IDiaEnumLineNumbers` 세션에서 인터페이스입니다. 이 경우에 예제에서는 함수에 대 한 줄 번호 열거형을 가져옵니다 (나타내는 `pSymbol`). 줄 번호를 사용 하 여 자세한 예제를 참조 하세요. 합니다 [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) 인터페이스입니다.  

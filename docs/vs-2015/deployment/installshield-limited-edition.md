@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ac447d3511365cf8e7f48344231d0ddb8d2a4374
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a05aba81292fba9520defe39af6977682452b850
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985612"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080633"
 ---
 # <a name="installshield-limited-edition"></a>InstallShield Limited Edition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,10 +26,10 @@ InstallShield Limited Edition을 사용하여 설치 파일을 만든 다음 사
   
 ### <a name="to-enable-installshield-limited-edition"></a>InstallShield Limited Edition을 사용하도록 설정하려면  
   
-1.  메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
+1. 메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
   
-2.  **새 프로젝트** 대화 상자에서 **기타 프로젝트 형식** 을 확장한 다음 **설치 및 배포** 노드를 선택합니다.  
+2. **새 프로젝트** 대화 상자에서 **기타 프로젝트 형식** 을 확장한 다음 **설치 및 배포** 노드를 선택합니다.  
   
-3.  템플릿 목록에서 **InstallShield Limited Edition 사용**을 선택한 다음 **확인** 단추를 선택합니다.  
+3. 템플릿 목록에서 **InstallShield Limited Edition 사용**을 선택한 다음 **확인** 단추를 선택합니다.  
   
-4.  브라우저 창이 열리면 지침을 확인하고 **다운로드 웹 사이트로 이동** 링크를 선택합니다.
+4. 브라우저 창이 열리면 지침을 확인하고 **다운로드 웹 사이트로 이동** 링크를 선택합니다.

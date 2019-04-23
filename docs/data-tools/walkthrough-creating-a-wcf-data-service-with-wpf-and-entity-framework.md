@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: d9e41de9fc395b673f38fa1f7b343594bf905a8d
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
-ms.translationtype: MTE95
+ms.openlocfilehash: 726d0f7e4254f4d9d4210d4b64627cd97c98a430
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223171"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081387"
 ---
 # <a name="walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework"></a>연습: WPF 및 Entity Framework를 사용하여 WCF 데이터 서비스 만들기
 이 연습에서는 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션에서 호스팅되는 [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)]를 만든 다음, Windows Forms 애플리케이션에서 이 서비스에 액세스하는 방법을 보여줍니다.
@@ -90,11 +90,11 @@ ms.locfileid: "57223171"
 
 5. **데이터 연결 선택** 페이지에서 다음 단계 중 하나를 수행합니다.
 
-    -   Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.
+    - Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.
 
          또는
 
-    -   **새 연결** 단추를 선택하여 새 데이터 연결을 구성합니다. 자세한 내용은 [새 연결 추가](../data-tools/add-new-connections.md)합니다.
+    - **새 연결** 단추를 선택하여 새 데이터 연결을 구성합니다. 자세한 내용은 [새 연결 추가](../data-tools/add-new-connections.md)합니다.
 
 6. 데이터베이스에 암호가 필요한 경우 **예, 중요한 데이터를 연결 문자열에 포함합니다.** 옵션 단추를 선택한 후, **다음** 단추를 선택합니다.
 
@@ -154,7 +154,7 @@ ms.locfileid: "57223171"
 
 1. 메뉴 모음에서 파일을 선택 **추가** > **새 프로젝트**합니다.
 
-2. 에 **새 프로젝트** 대화 상자에서 **Visual Basic** 또는 **Visual C#**  노드를 선택 합니다 **Windows** 노드를 선택한 후 **Windows Forms 응용 프로그램**합니다.
+2. 에 **새 프로젝트** 대화 상자에서 합니다 **Visual Basic** 또는 **Visual C#** 노드를 선택 합니다 **Windows** 노드를를 선택한 다음  **Windows Forms 응용 프로그램**합니다.
 
 3. **이름** 텍스트 상자에 `NorthwindClient`를 입력하고 **확인** 단추를 선택합니다.
 
@@ -286,7 +286,7 @@ ms.locfileid: "57223171"
 
 6. 텍스트 상자에 **London**을 입력한 다음, 단추를 선택합니다. London의 고객만 표시됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)
 - [방법: WCF 데이터 서비스 참조 추가, 업데이트 또는 제거](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md)

@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e46e6259009ab583f32deae79711d6b4d0c70528
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 89c4a4598b92096d968225f7420d46244aeca3dc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617836"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082908"
 ---
 # <a name="how-to-programmatically-store-and-retrieve-date-values-in-excel-ranges"></a>방법: 프로그래밍 방식으로 저장 하 고 Excel 범위에서 날짜 값 검색
   저장할 수 있으며 값을 검색 한 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 또는 네이티브 Excel 범위 개체입니다.
@@ -38,23 +38,23 @@ ms.locfileid: "56617836"
 
 ## <a name="use-a-namedrange-control"></a>NamedRange 컨트롤을 사용 하 여
 
--   이 예제에서는 문서 수준 사용자 지정입니다. 아니라 시트 클래스에 배치할 해야 다음 코드는 `ThisWorkbook` 클래스입니다.
+- 이 예제에서는 문서 수준 사용자 지정입니다. 아니라 시트 클래스에 배치할 해야 다음 코드는 `ThisWorkbook` 클래스입니다.
 
 ### <a name="to-store-a-date-value-in-a-named-range"></a>명명된 된 범위에서 날짜 값을 저장 하려면
 
-1.  만들기는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 셀에서 컨트롤 **A1**합니다.
+1. 만들기는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 셀에서 컨트롤 **A1**합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#50](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#50)]
      [!code-vb[Trin_VstcoreExcelAutomation#50](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#50)]
 
-2.  오늘 날짜에 대 한 값으로 설정 `NamedRange1`합니다.
+2. 오늘 날짜에 대 한 값으로 설정 `NamedRange1`합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#51](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#51)]
      [!code-vb[Trin_VstcoreExcelAutomation#51](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#51)]
 
 ### <a name="to-retrieve-a-date-value-from-a-named-range"></a>명명된 된 범위에서 날짜 값을 검색 하려면
 
-1.  날짜 값을 검색 `NamedRange1`합니다.
+1. 날짜 값을 검색 `NamedRange1`합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#52](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#52)]
      [!code-vb[Trin_VstcoreExcelAutomation#52](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#52)]
@@ -63,19 +63,19 @@ ms.locfileid: "56617836"
 
 ### <a name="to-store-a-date-value-in-a-native-excel-range-object"></a>네이티브 Excel 범위 개체의 날짜 값을 저장 하려면
 
-1.  만들기는 <xref:Microsoft.Office.Interop.Excel.Range> 셀을 나타내는 **A1**합니다.
+1. 만들기는 <xref:Microsoft.Office.Interop.Excel.Range> 셀을 나타내는 **A1**합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#25](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#25)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#25](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#25)]
 
-2.  오늘 날짜에 대 한 값으로 설정 `rng`합니다.
+2. 오늘 날짜에 대 한 값으로 설정 `rng`합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#26](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#26)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#26](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#26)]
 
 ### <a name="to-retrieve-a-date-value-from-a-native-excel-range-object"></a>네이티브 Excel 범위 개체에서 날짜 값을 검색 하려면
 
-1.  날짜 값을 검색 `rng`합니다.
+1. 날짜 값을 검색 `rng`합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#27](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#27)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#27](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#27)]

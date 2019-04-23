@@ -12,12 +12,12 @@ ms.assetid: ccf9d83f-c7f3-49c7-a31f-e1f22bec004c
 caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8d9836702b00b51d1e2dbe1cd64687c892feaba4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f1cd8e7e85b9753c3742044ae2a557cdf4637214
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972567"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084884"
 ---
 # <a name="projecttype-element-visual-studio-templates"></a>ProjectType 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58972567"
 지정 된 그룹에 나타나도록 프로젝트 템플릿을 분류 합니다 **새 프로젝트** 하거나 **새 항목 추가** 대화 상자.  
   
 > [!WARNING]
->  Visual Studio 2012에서 시작 하는 c + + 프로젝트 템플릿이 지원 됩니다. Visual Studio 2010 및 이전 버전의 c + +에 대 한 지원 되지 않습니다.  
+>  에 대 한 프로젝트 템플릿은 지원 되지만 C++ Visual Studio 2012에서 시작 합니다. 에 대 한 지원 되지 않습니다 C++ Visual Studio 2010 및 이전 버전입니다.  
   
  \<VSTemplate>  
  \<TemplateData>  
@@ -57,11 +57,11 @@ ms.locfileid: "58972567"
   
  이 값에는 프로젝트 템플릿 만들고, 유형과 다음 값 중 하나를 포함 해야 합니다 지정 합니다.  
   
--   `CSharp`: 서식 파일을 만들도록 지정을 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트 또는 항목입니다.  
+- `CSharp`: 서식 파일을 만들도록 지정을 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트 또는 항목입니다.  
   
--   `VisualBasic`: 서식 파일을 만들도록 지정을 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트 또는 항목입니다.  
+- `VisualBasic`: 서식 파일을 만들도록 지정을 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트 또는 항목입니다.  
   
--   `Web`: 템플릿이 웹 프로젝트 또는 항목을 만들도록 지정 합니다. 경우는 `ProjectType` 이 값을 포함 하는 요소, 프로젝트 또는 항목의 언어에 정의 된 합니다 [ProjectSubType 요소 (Visual Studio 템플릿)](../extensibility/projectsubtype-element-visual-studio-templates.md)합니다.  
+- `Web`: 템플릿이 웹 프로젝트 또는 항목을 만들도록 지정 합니다. 경우는 `ProjectType` 이 값을 포함 하는 요소, 프로젝트 또는 항목의 언어에 정의 된 합니다 [ProjectSubType 요소 (Visual Studio 템플릿)](../extensibility/projectsubtype-element-visual-studio-templates.md)합니다.  
   
 ## <a name="remarks"></a>설명  
  `ProjectType`은 `TemplateData`의 필수 자식 요소입니다.  

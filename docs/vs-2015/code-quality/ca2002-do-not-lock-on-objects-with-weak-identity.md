@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 9c525aa18e94e7951e6355c959a105aa5841e10d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 631979309d9ad42a25b244e8806e5a6849f8b81d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971561"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081491"
 ---
 # <a name="ca2002-do-not-lock-on-objects-with-weak-identity"></a>CA2002: 약한 ID를 가진 개체를 잠그지 마십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,21 +38,21 @@ ms.locfileid: "58971561"
 ## <a name="rule-description"></a>규칙 설명
  응용 프로그램 도메인 경계를 가로질러 직접 액세스할 수 있는 개체를 약한 ID를 가진 개체라고 합니다. 약한 ID를 가진 개체에 대해 잠금을 가져오려고 시도하는 스레드는 같은 개체에 대해 잠금을 가진 다른 응용 프로그램 도메인의 스레드에 의해 차단될 수 있습니다. 형식은 약한 id를 있고 규칙으로 플래그가 지정 됩니다.
 
--   <xref:System.MarshalByRefObject>
+- <xref:System.MarshalByRefObject>
 
--   <xref:System.ExecutionEngineException>
+- <xref:System.ExecutionEngineException>
 
--   <xref:System.OutOfMemoryException>
+- <xref:System.OutOfMemoryException>
 
--   <xref:System.StackOverflowException>
+- <xref:System.StackOverflowException>
 
--   <xref:System.String>
+- <xref:System.String>
 
--   <xref:System.Reflection.MemberInfo>
+- <xref:System.Reflection.MemberInfo>
 
--   <xref:System.Reflection.ParameterInfo>
+- <xref:System.Reflection.ParameterInfo>
 
--   <xref:System.Threading.Thread>
+- <xref:System.Threading.Thread>
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면 설명 섹션의 목록에 있지 않은 형식에서 개체를 사용 합니다.

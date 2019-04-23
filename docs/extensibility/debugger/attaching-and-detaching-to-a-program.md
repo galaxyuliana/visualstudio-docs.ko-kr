@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b81ea271e1ab5d44337ce111e89d5624efd452d0
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 9fe89c6106ab1b411974e44bb05128b2bfc99fc6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56706017"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089605"
 ---
 # <a name="attaching-and-detaching-to-a-program"></a>연결 및 프로그램에 분리
 디버거를 연결 메서드 및 적절 한 특성을 사용 하 여 이벤트의 순서를 전송 해야 합니다.
@@ -31,11 +31,11 @@ ms.locfileid: "56706017"
 
     경우 `S_OK` SDM와 동일한 프로세스에 로드 되는 DE가 반환 됩니다. SDM 다음 작업을 수행합니다.
 
-   1.  호출 [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) 는 DE의 엔진 정보를 가져옵니다.
+   1. 호출 [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) 는 DE의 엔진 정보를 가져옵니다.
 
-   2.  배치는 DE를 만듭니다.
+   2. 배치는 DE를 만듭니다.
 
-   3.  호출 [연결](../../extensibility/debugger/reference/idebugengine2-attach.md)합니다.
+   3. 호출 [연결](../../extensibility/debugger/reference/idebugengine2-attach.md)합니다.
 
 2. DE 보냅니다는 [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) 를 사용 하 여 SDM을 `EVENT_SYNC` 특성입니다.
 

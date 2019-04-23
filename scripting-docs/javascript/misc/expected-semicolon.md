@@ -14,23 +14,23 @@ ms.assetid: 3070cc6c-1138-4655-a7ac-723379f48f94
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: fb3610a41579311e3be8f14483b606a8a9bdc031
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 9e5d0418f09d208d8919a2c431c818e236b62b29
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56840486"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113003"
 ---
 # <a name="expected-"></a>';'이 필요합니다.
 둘 이상의 문이 줄에 배치 하려고 해도 세미콜론으로 구분 되지 않았습니다. 세미콜론은 문 종료 하는 데 사용 됩니다. 사용할 수 있지만 여러 문을 한 줄에 세미콜론을 사용 하 여 다음에서 각각 구분 해야 합니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   세미콜론을 사용 하 여 각 문의 끝을 표시 합니다.  
+- 세미콜론을 사용 하 여 각 문의 끝을 표시 합니다.  
   
--   함수 호출에 괄호를 제대로 사용 해야 합니다.  
+- 함수 호출에 괄호를 제대로 사용 해야 합니다.  
   
--   머리글 안에 세미콜론이 않았습니다 잊은 했는지를 **에 대 한** 루프입니다.  
+- 머리글 안에 세미콜론이 않았습니다 잊은 했는지를 **에 대 한** 루프입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [JavaScript 코드 작성](../../javascript/writing-javascript-code.md)

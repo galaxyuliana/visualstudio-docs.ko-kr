@@ -16,12 +16,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: dba1ec7a21c0340db8b89124892edf78db2e04c8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b5e85bc7a5bac87692448aab393056fa1db5edbd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986306"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084000"
 ---
 # <a name="error-kerberos-authentication-failed"></a>오류: Kerberos 인증 실패
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,19 +48,19 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
   
 ### <a name="to-verify-that-dns-on-the-target-computer-is-correctly-resolving-the-debugger-host-computer-name"></a>대상 컴퓨터의 DNS에서 디버거 호스트 컴퓨터 이름을 제대로 확인하고 있는지 검사하려면  
   
-1.  대상 컴퓨터에서 **시작** 메뉴를 열고 **보조 프로그램**을 가리킨 다음, **명령 프롬프트**를 클릭합니다.  
+1. 대상 컴퓨터에서 **시작** 메뉴를 열고 **보조 프로그램**을 가리킨 다음, **명령 프롬프트**를 클릭합니다.  
   
-2.  **명령 프롬프트** 창에 다음을 입력합니다.  
+2. **명령 프롬프트** 창에 다음을 입력합니다.  
   
     ```  
     ping <debugger_host_computer_name>  
     ```  
   
-3.  `ping` 응답의 첫 번째 줄에는 지정된 컴퓨터의 DNS에서 반환하는 전체 컴퓨터 이름과 IP 주소가 표시됩니다.  
+3. `ping` 응답의 첫 번째 줄에는 지정된 컴퓨터의 DNS에서 반환하는 전체 컴퓨터 이름과 IP 주소가 표시됩니다.  
   
-4.  디버거 호스트 컴퓨터에서 **명령 프롬프트** 창을 열고 `ipconfig`를 실행합니다.  
+4. 디버거 호스트 컴퓨터에서 **명령 프롬프트** 창을 열고 `ipconfig`를 실행합니다.  
   
-5.  IP 주소 값을 비교합니다.  
+5. IP 주소 값을 비교합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)   

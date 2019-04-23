@@ -17,12 +17,12 @@ caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b42eecb5c620e911e448728678781ee32ccb5ca0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3faa57a0a2ca413898364c2d4ad1891df85f1ce8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982917"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60095102"
 ---
 # <a name="limitations-on-wcf-debugging"></a>WCF 디버깅의 제한 사항
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,13 +40,13 @@ ms.locfileid: "58982917"
 ## <a name="limitations-on-stepping-into-a-service"></a>서비스를 한 단계씩 실행하는 경우의 제한 사항  
  디버깅할 클라이언트 응용 프로그램에서 서비스를 한 단계씩 실행하려면 다음 조건이 충족되어야 합니다.  
   
--   클라이언트에서 동기 클라이언트 개체를 사용하여 서비스를 호출해야 합니다.  
+- 클라이언트에서 동기 클라이언트 개체를 사용하여 서비스를 호출해야 합니다.  
   
--   계약 작업은 단방향일 수 없습니다.  
+- 계약 작업은 단방향일 수 없습니다.  
   
--   서버가 비동기 상태인 경우 서비스 내에서 코드를 실행하는 동안 전체 호출 스택을 볼 수 없습니다.  
+- 서버가 비동기 상태인 경우 서비스 내에서 코드를 실행하는 동안 전체 호출 스택을 볼 수 없습니다.  
   
--   app.config 또는 Web.config 파일에서 다음 코드를 사용하여 디버깅을 사용하도록 설정해야 합니다.  
+- app.config 또는 Web.config 파일에서 다음 코드를 사용하여 디버깅을 사용하도록 설정해야 합니다.  
   
     ```  
     <system.web>  
@@ -62,13 +62,13 @@ ms.locfileid: "58982917"
 ## <a name="limitations-on-automatic-attach-to-a-service"></a>서비스에 자동으로 연결하는 경우의 제한 사항  
  서비스에 자동으로 연결할 때는 다음과 같은 제한 사항이 적용됩니다.  
   
--   서비스가 디버깅하는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 일부여야 합니다.  
+- 서비스가 디버깅하는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 일부여야 합니다.  
   
--   서비스가 호스팅되어야 합니다. 서비스가 웹 사이트 프로젝트(파일 시스템 및 HTTP), 웹 응용 프로그램 프로젝트(파일 시스템 및 HTTP) 또는 WCF 서비스 라이브러리 프로젝트의 일부일 수 있습니다. WCF 서비스 라이브러리 프로젝트는 서비스 라이브러리 또는 워크플로 서비스 라이브러리일 수 있습니다.  
+- 서비스가 호스팅되어야 합니다. 서비스가 웹 사이트 프로젝트(파일 시스템 및 HTTP), 웹 응용 프로그램 프로젝트(파일 시스템 및 HTTP) 또는 WCF 서비스 라이브러리 프로젝트의 일부일 수 있습니다. WCF 서비스 라이브러리 프로젝트는 서비스 라이브러리 또는 워크플로 서비스 라이브러리일 수 있습니다.  
   
--   서비스가 WCF 클라이언트에서 호출되어야 합니다.  
+- 서비스가 WCF 클라이언트에서 호출되어야 합니다.  
   
--   app.config 또는 Web.config 파일에서 다음 코드를 사용하여 디버깅을 사용하도록 설정해야 합니다.  
+- app.config 또는 Web.config 파일에서 다음 코드를 사용하여 디버깅을 사용하도록 설정해야 합니다.  
   
     ```  
     <system.web>  

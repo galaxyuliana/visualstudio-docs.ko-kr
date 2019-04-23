@@ -16,12 +16,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 87a9d344b6cad7d27979e73c73caf0dbf97f521d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 6d4199b0f1daad60ea7fdcdf6405ae232a70d5b3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54779244"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082596"
 ---
 # <a name="replace-in-files"></a>파일에서 바꾸기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,9 +35,9 @@ ms.locfileid: "54779244"
   
 ### <a name="to-display-replace-in-files"></a>파일에서 바꾸기를 표시하려면  
   
-1.  **편집** 메뉴에서 **찾기 및 바꾸기**를 확장합니다.  
+1. **편집** 메뉴에서 **찾기 및 바꾸기**를 확장합니다.  
   
-2.  **파일에서 바꾸기**를 선택합니다.  
+2. **파일에서 바꾸기**를 선택합니다.  
   
      — 또는 —  
   

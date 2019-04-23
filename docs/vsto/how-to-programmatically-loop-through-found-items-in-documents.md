@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bcd549a6b7939e27460e9c9362e71f2bb333b079
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 22f8035cc7c1b09e7fd54f3c10842237ee6273b9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628678"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081470"
 ---
 # <a name="how-to-programmatically-loop-through-found-items-in-documents"></a>방법: 프로그래밍 방식으로 문서에서 찾은 항목 반복
   합니다 <xref:Microsoft.Office.Interop.Word.Find> 클래스에는 <xref:Microsoft.Office.Interop.Word.Find.Found%2A> 반환 하는 속성 **true** 는 검색-항목을 찾을 때마다. <xref:Microsoft.Office.Interop.Word.Range> 메서드를 사용하여 <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> 에서 찾은 모든 인스턴스를 순환 검색할 수 있습니다.
@@ -56,7 +56,7 @@ ms.locfileid: "56628678"
 
 ### <a name="to-loop-through-items-in-a-document-level-customization"></a>문서 수준 사용자 지정에서 항목을 순환 검색하려면
 
-1.  다음 예제에서는 문서 수준 사용자 지정의 전체 코드를 보여 줍니다. 이 코드를 사용하려면 프로젝트의 `ThisDocument` 클래스에서 실행합니다.
+1. 다음 예제에서는 문서 수준 사용자 지정의 전체 코드를 보여 줍니다. 이 코드를 사용하려면 프로젝트의 `ThisDocument` 클래스에서 실행합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#78](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#78)]
      [!code-csharp[Trin_VstcoreWordAutomation#78](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#78)]
@@ -65,7 +65,7 @@ ms.locfileid: "56628678"
 
 ### <a name="to-loop-through-items-in-a-vsto-add-in"></a>VSTO 추가 기능에서 항목을 반복 하려면
 
-1.  다음 예제에서는 VSTO 추가 기능의 전체 코드를 보여 줍니다. 이 코드를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 실행합니다.
+1. 다음 예제에서는 VSTO 추가 기능의 전체 코드를 보여 줍니다. 이 코드를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 실행합니다.
 
      [!code-vb[Trin_VstcoreWordAutomationAddIn#78](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#78)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#78](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#78)]

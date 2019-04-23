@@ -15,12 +15,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 46e3941e1aab0e2f6f532a7a394437a0613b8d8d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a78125645dc6369811b4b9e1d7101b7bb4cbba76
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982028"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103825"
 ---
 # <a name="ca1059-members-should-not-expose-certain-concrete-types"></a>CA1059: 멤버는 구체적인 특정 형식을 노출하면 안 됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "58982028"
 ## <a name="cause"></a>원인
  외부에서 볼 수 있는 멤버는 구체적인 특정 형식을 해당 매개 변수 중 하나를 통해 구체적인 특정 형식을 노출 또는 값을 반환 합니다. 현재이 규칙은 구체적인 형식은 노출을 보고:
 
--   파생 된 형식 <xref:System.Xml.XmlNode?displayProperty=fullName>합니다.
+- 파생 된 형식 <xref:System.Xml.XmlNode?displayProperty=fullName>합니다.
 
 ## <a name="rule-description"></a>규칙 설명
  구체적인 형식은 완전히 구현되었기 때문에 인스턴스화할 수 있는 형식을 말합니다. 멤버의 광범위 하 게 사용할 수 있도록, 하려면 구체적인 형식을 제안 된 인터페이스로 바꿉니다. 이 멤버를 인터페이스를 구현 하는 형식 그대로 사용 하거나 인터페이스를 구현 하는 형식이 필요한 경우 사용할 수 있습니다.

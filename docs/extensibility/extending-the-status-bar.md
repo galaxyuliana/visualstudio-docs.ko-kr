@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9f655979e010ea7aa0dafee78648a970cb2e3229
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 499e6c2b34fcc5261ab8fb3a87a24e2cc0959d8c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704776"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113744"
 ---
 # <a name="extend-the-status-bar"></a>상태 표시줄 확장
 정보를 표시 하는 IDE의 아래쪽에 Visual Studio 상태 표시줄을 사용할 수 있습니다.
@@ -32,9 +32,9 @@ ms.locfileid: "56704776"
 
 ### <a name="read-and-write-to-the-status-bar"></a>상태 표시줄에 읽기 및 쓰기
 
-1.  라는 VSIX 프로젝트를 만듭니다 **TestStatusBarExtension** 라는 메뉴 명령을 추가 하 고 **TestStatusBarCommand**합니다.
+1. 라는 VSIX 프로젝트를 만듭니다 **TestStatusBarExtension** 라는 메뉴 명령을 추가 하 고 **TestStatusBarCommand**합니다.
 
-2.  *TestStatusBarCommand.cs*, 명령 처리기 메서드 코드를 바꿉니다 (`MenuItemCallback`) 다음을 사용 하 여:
+2. *TestStatusBarCommand.cs*, 명령 처리기 메서드 코드를 바꿉니다 (`MenuItemCallback`) 다음을 사용 하 여:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -68,17 +68,17 @@ ms.locfileid: "56704776"
     }
     ```
 
-3.  코드를 컴파일하고 디버깅을 시작 합니다.
+3. 코드를 컴파일하고 디버깅을 시작 합니다.
 
-4.  엽니다는 **도구** Visual Studio의 실험적 인스턴스에서 메뉴. 클릭 합니다 **TestStatusBarCommand 호출** 단추입니다.
+4. 엽니다는 **도구** Visual Studio의 실험적 인스턴스에서 메뉴. 클릭 합니다 **TestStatusBarCommand 호출** 단추입니다.
 
      표시 상태 이제 읽기 표시줄에 텍스트 **상태 표시줄에 방금 작성 한 합니다.** 및 표시 되는 메시지 상자에는 동일한 텍스트를 포함 합니다.
 
 ### <a name="update-the-progress-bar"></a>업데이트 진행률 표시줄
 
-1.  이 절차에서는 초기화 하 고 진행률 표시줄을 업데이트 하는 방법을 알아보겠습니다.
+1. 이 절차에서는 초기화 하 고 진행률 표시줄을 업데이트 하는 방법을 알아보겠습니다.
 
-2.  엽니다는 *TestStatusBarCommand.cs* 바꾸고 파일을 `MenuItemCallback` 메서드를 다음 코드로:
+2. 엽니다는 *TestStatusBarCommand.cs* 바꾸고 파일을 `MenuItemCallback` 메서드를 다음 코드로:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -102,21 +102,21 @@ ms.locfileid: "56704776"
     }
     ```
 
-3.  코드를 컴파일하고 디버깅을 시작 합니다.
+3. 코드를 컴파일하고 디버깅을 시작 합니다.
 
-4.  엽니다는 **도구** Visual Studio의 실험적 인스턴스에서 메뉴. 클릭 **TestStatusBarCommand 호출** 단추입니다.
+4. 엽니다는 **도구** Visual Studio의 실험적 인스턴스에서 메뉴. 클릭 **TestStatusBarCommand 호출** 단추입니다.
 
      것을 확인할 수 상태 이제 읽기 표시줄에 텍스트 **진행률 표시줄을 작성 합니다.** 또한 20 초 동안 1 초 마다 업데이트 진행률 표시줄이 표시 됩니다. 그런 다음 상태 표시줄 및 진행률 표시줄 취소 됩니다.
 
 ### <a name="display-an-animation"></a>애니메이션을 표시 합니다.
 
-1.  상태 표시줄 (예: 솔루션에 여러 프로젝트 빌드) 장기 실행 작업을 나타내는 애니메이션을 반복에 표시 됩니다. 이 애니메이션에 표시 되지 않으면 올바른 했는지 확인 **도구가** > **옵션** 설정:
+1. 상태 표시줄 (예: 솔루션에 여러 프로젝트 빌드) 장기 실행 작업을 나타내는 애니메이션을 반복에 표시 됩니다. 이 애니메이션에 표시 되지 않으면 올바른 했는지 확인 **도구가** > **옵션** 설정:
 
      로 이동 합니다 **도구가** > **옵션** > **일반** 탭을 선택 취소 **클라이언트를 기반으로 하는 시각적 효과 자동 조정 성능**합니다. 다음 하위 옵션을 선택 **리치 클라이언트 시각적 효과 사용 하도록 설정**합니다. 이제 Visual Studio의 실험적 인스턴스에서 프로젝트를 빌드할 때 애니메이션을 볼 수 있어야 합니다.
 
      이 절차에서는 프로젝트 또는 솔루션을 빌드를 나타내는 표준 Visual Studio 애니메이션이 표시 합니다.
 
-2.  엽니다는 *TestStatusBarCommand.cs* 바꾸고 파일을 `MenuItemCallback` 메서드를 다음 코드로:
+2. 엽니다는 *TestStatusBarCommand.cs* 바꾸고 파일을 `MenuItemCallback` 메서드를 다음 코드로:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -137,8 +137,8 @@ ms.locfileid: "56704776"
     }
     ```
 
-3.  코드를 컴파일하고 디버깅을 시작 합니다.
+3. 코드를 컴파일하고 디버깅을 시작 합니다.
 
-4.  엽니다는 **도구** 하 고 Visual Studio의 실험적 인스턴스에서 메뉴 **TestStatusBarCommand 호출**합니다.
+4. 엽니다는 **도구** 하 고 Visual Studio의 실험적 인스턴스에서 메뉴 **TestStatusBarCommand 호출**합니다.
 
      메시지 상자에 표시 되 면 맨 오른쪽에 있는 상태 표시줄의 애니메이션도 표시 됩니다. 메시지 상자를 닫고, 애니메이션이 사라집니다.

@@ -26,12 +26,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 484998916619a7dc72693d1854d29849bb62d833
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: bbe703e54c6023a4d14a8610168438acc5c0e953
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612649"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085144"
 ---
 # <a name="word-solutions"></a>Word 솔루션
   Visual Studio에서는 Microsoft Office Word용 VSTO 추가 기능 및 문서 수준 사용자 지정을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. 이러한 솔루션을 사용하여 Word를 자동화하고, Word 기능을 확장한 다음 Word UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. 문서 수준 사용자 지정 및 VSTO 추가 기능 간의 차이점에 대 한 자세한 내용은 참조 하세요. [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.
@@ -43,20 +43,20 @@ ms.locfileid: "56612649"
 
  이 항목에서는 다음 내용에 대해 설명합니다.
 
--   [Word를 자동화](#automating)합니다.
+- [Word를 자동화](#automating)합니다.
 
--   [Word 용 문서 수준 사용자 지정 개발](#doclevel)합니다.
+- [Word 용 문서 수준 사용자 지정 개발](#doclevel)합니다.
 
--   [Word 용 VSTO 추가 기능 개발](#applevel)합니다.
+- [Word 용 VSTO 추가 기능 개발](#applevel)합니다.
 
--   [Word의 사용자 인터페이스 사용자 지정](#UI)합니다.
+- [Word의 사용자 인터페이스 사용자 지정](#UI)합니다.
 
-##  <a name="automating"></a> Word 자동화
+## <a name="automating"></a> Word 자동화
  Word 개체 모델은 Word 자동화에 사용할 수 있는 다양한 형식을 노출합니다. 예를 들어 프로그래밍 방식으로 표를 만들고, 문서의 서식을 지정하고, 범위 및 단락의 텍스트를 설정할 수 있습니다. 자세한 내용은 [Word 개체 모델 개요](../vsto/word-object-model-overview.md)합니다.
 
  Visual Studio에서 Word 솔루션을 개발하는 경우 솔루션에서 *호스트 항목* 및 *호스트 컨트롤* 을 사용할 수도 있습니다. Word 개체 모델에서 일반적으로 사용되는 특정 개체(예: <xref:Microsoft.Office.Interop.Word.Document> 및 <xref:Microsoft.Office.Interop.Word.ContentControl> )를 확장하는 개체입니다. 확장된 개체는 기반이 되는 Word 개체처럼 동작하지만 개체에 이벤트 및 데이터 바인딩 기능을 더 추가합니다. 자세한 내용은 [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)합니다.
 
-##  <a name="doclevel"></a> Word 용 문서 수준 사용자 지정 개발
+## <a name="doclevel"></a> Word 용 문서 수준 사용자 지정 개발
  Microsoft Office Word용 문서 수준 사용자 지정은 특정 문서와 연결된 어셈블리로 구성됩니다. 어셈블리는 일반적으로 UI를 사용자 지정하고 Word를 자동화하여 문서를 확장합니다. Word 자체와 연결된 VSTO 추가 기능과 달리 사용자 지정에 구현하는 기능은 연결된 문서가 Word에서 열려 있는 경우에만 사용할 수 있습니다.
 
  Word용 문서 수준 사용자 지정 프로젝트를 만들려면 Visual Studio의 **새 프로젝트** 대화 상자에서 Word 문서 또는 Word 서식 파일 프로젝트 템플릿을 사용합니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "56612649"
 
  에 대 한 자세한 내용은 합니다 `ThisDocument` 클래스 및 문서 수준 프로젝트에서 사용할 수 있는 기타 기능 참조 [문서 수준 사용자 지정 프로그램](../vsto/programming-document-level-customizations.md)합니다.
 
-##  <a name="applevel"></a> Word 용 VSTO 추가 기능 개발
+## <a name="applevel"></a> Word 용 VSTO 추가 기능 개발
  Microsoft Office Word용 VSTO 추가 기능은 Word에서 로드되는 어셈블리로 구성됩니다. 어셈블리는 일반적으로 UI를 사용자 지정하고 Word를 자동화하여 Word를 확장합니다. 특정 문서와 연결 되는 문서 수준 사용자 지정과 달리 VSTO 추가 기능에서 구현 하는 기능은 단일 문서로 제한 되지 않습니다.
 
  Word용 VSTO 추가 기능 프로젝트를 만들려면 Visual Studio의 **새 프로젝트** 대화 상자에서 Word 추가 기능 프로젝트 템플릿을 사용합니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
@@ -80,7 +80,7 @@ ms.locfileid: "56612649"
 
  에 대 한 자세한 내용은 합니다 `ThisAddIn` 클래스 및 기타 기능을 VSTO 추가 기능에서 사용할 수 있습니다 참조 [프로그램 VSTO 추가 기능](../vsto/programming-vsto-add-ins.md)합니다.
 
-##  <a name="UI"></a> Word의 사용자 인터페이스 사용자 지정
+## <a name="UI"></a> Word의 사용자 인터페이스 사용자 지정
  Word의 사용자 인터페이스를 사용자 지정하는 여러 가지 방법이 있습니다. 모든 프로젝트 형식에서 사용할 수 있는 옵션도 있고, VSTO 추가 기능 또는 문서 수준 사용자 지정에만 사용할 수 있는 옵션도 있습니다.
 
 ### <a name="options-for-all-project-types"></a>모든 프로젝트 형식에 대 한 옵션

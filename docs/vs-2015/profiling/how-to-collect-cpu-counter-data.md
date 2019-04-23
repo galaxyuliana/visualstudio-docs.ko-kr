@@ -1,5 +1,5 @@
 ---
-title: '방법: CPU 카운터 데이터 수집 | Microsoft 문서'
+title: '방법: CPU 카운터 데이터 수집 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -14,12 +14,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2a774ce8b36ceddb4d4b53f90c63bec30acc0273
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: b197bbc434ecf01ad5b6df332530ad719575aede
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54762934"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104085"
 ---
 # <a name="how-to-collect-cpu-counter-data"></a>방법: CPU 카운터 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,17 +50,17 @@ CPU 이벤트 카운터는 하드웨어 관련 성능 데이터를 수집하는 
   
 - 계측을 통해 프로파일링할 경우 하나 이상의 카운터에서 데이터를 수집합니다.  
   
-- 샘플링을 통해 프로파일링할 경우 카운터 이벤트를 샘플링 간격으로 지정합니다. 자세한 내용은 [방법: 샘플링 이벤트 선택](../profiling/how-to-choose-sampling-events.md)을 참조하세요.  
+- 샘플링을 통해 프로파일링할 경우 카운터 이벤트를 샘플링 간격으로 지정합니다. 자세한 내용은 [방법: 샘플링 이벤트 선택](../profiling/how-to-choose-sampling-events.md)합니다.  
   
 ### <a name="to-collect-cpu-performance-counter-data-when-you-profile-by-instrumentation"></a>계측을 통해 프로파일링할 경우 CPU 성능 카운터 데이터를 수집하려면  
   
-1.  성능 세션 **속성 페이지**에서 **CPU 카운터**를 클릭합니다.  
+1. 성능 세션 **속성 페이지**에서 **CPU 카운터**를 클릭합니다.  
   
-2.  **CPU 카운터 수집** 확인란을 선택합니다.  
+2. **CPU 카운터 수집** 확인란을 선택합니다.  
   
-3.  수집할 샘플 이벤트를 찾을 때까지 **사용 가능한 성능 카운터** 트리를 확장합니다.  
+3. 수집할 샘플 이벤트를 찾을 때까지 **사용 가능한 성능 카운터** 트리를 확장합니다.  
   
-4.  수집할 각 이벤트에 대해 이벤트를 선택하고 오른쪽 화살표를 클릭하여 **선택한 카운터** 목록에 이벤트를 추가합니다.  
+4. 수집할 각 이벤트에 대해 이벤트를 선택하고 오른쪽 화살표를 클릭하여 **선택한 카운터** 목록에 이벤트를 추가합니다.  
   
     > [!NOTE]
     >  **사용 가능한 성능 카운터**는 **CPU 카운터 수집** 확인란을 선택한 경우에만 사용하도록 설정됩니다.  

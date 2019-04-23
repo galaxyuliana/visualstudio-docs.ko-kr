@@ -13,12 +13,12 @@ caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4118c9c3e69cbc14481c0057562fdca16414f520
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 19280ccd2564cdbec14a1d74ae8babb9447c05e7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985444"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103729"
 ---
 # <a name="idiasymbol"></a>IDiaSymbol
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,8 +52,8 @@ IDiaSymbol : IUnknown
 |[IDiaSymbol::findInlineeLinesByRVA](../../debugger/debug-interface-access/idiasymbol-findinlineelinesbyrva.md)|클라이언트가 없는 인라인을 직접 또는 간접적으로이 기호는 지정 된 가상 RVA (상대 주소) 내에서 모든 함수의 줄 번호 정보를 반복 하는 데 사용 하는 열거형을 검색 합니다.|  
 |[IDiaSymbol::findInlineeLinesByVA](../../debugger/debug-interface-access/idiasymbol-findinlineelinesbyva.md)|클라이언트가 없는 인라인을 직접 또는 간접적으로이 기호는 지정 된 가상 주소 (VA) 내에서 모든 함수의 줄 번호 정보를 반복 하는 데 사용 하는 열거형을 검색 합니다.|  
 |[IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag](../../debugger/debug-interface-access/idiasymbol-findsymbolsbyrvaforacceleratorpointertag.md)|이 메서드 해당 태그 값을 지정 합니다 지정된 된 상대 가상 주소에서이 스텁 함수에 포함 된 기호의 열거형을 반환 합니다.|  
-|[IDiaSymbol::findSymbolsForAcceleratorPointerTag](../../debugger/debug-interface-access/idiasymbol-findsymbolsforacceleratorpointertag.md)|C + + AMP 스텁 함수에서 가속기 포인터 태그의 수를 반환합니다.|  
-|[IDiaSymbol::get_acceleratorPointerTags](../../debugger/debug-interface-access/idiasymbol-get-acceleratorpointertags.md)|C + + AMP 액셀러레이터 스텁 함수에 해당 하는 모든 가속기 포인터 태그 값을 반환 합니다.|  
+|[IDiaSymbol::findSymbolsForAcceleratorPointerTag](../../debugger/debug-interface-access/idiasymbol-findsymbolsforacceleratorpointertag.md)|Accelerator 포인터 태그의 수를 반환 합니다는 C++ AMP 스텁 함수입니다.|  
+|[IDiaSymbol::get_acceleratorPointerTags](../../debugger/debug-interface-access/idiasymbol-get-acceleratorpointertags.md)|에 해당 하는 모든 가속기 포인터 태그 값을 반환 된 C++ AMP 액셀러레이터 스텁 함수입니다.|  
 |[IDiaSymbol::get_access](../../debugger/debug-interface-access/idiasymbol-get-access.md)|클래스 멤버의 액세스 한정자를 검색합니다.|  
 |[IDiaSymbol::get_addressOffset](../../debugger/debug-interface-access/idiasymbol-get-addressoffset.md)|주소 위치 오프셋된 부분을 검색합니다.|  
 |[IDiaSymbol::get_addressSection](../../debugger/debug-interface-access/idiasymbol-get-addresssection.md)|섹션에 대 한 부분 주소 위치를 검색합니다.|  
@@ -96,7 +96,7 @@ IDiaSymbol : IUnknown
 |[IDiaSymbol::get_hasAssignmentOperator](../../debugger/debug-interface-access/idiasymbol-get-hasassignmentoperator.md)|사용자 정의 데이터 형식에 정의 된 모든 할당 연산자에 있는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_hasCastOperator](../../debugger/debug-interface-access/idiasymbol-get-hascastoperator.md)|사용자 정의 데이터 형식에 정의 된 모든 캐스트 연산자에 있는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_hasDebugInfo](../../debugger/debug-interface-access/idiasymbol-get-hasdebuginfo.md)|컴파일 대상 디버깅 정보를 포함 하는지 여부를 나타내는 플래그를 검색 합니다.|  
-|[IDiaSymbol::get_hasEH](../../debugger/debug-interface-access/idiasymbol-get-haseh.md)|함수는 c + + 스타일 예외 처리기에 있는지 여부를 나타내는 플래그를 검색 합니다.|  
+|[IDiaSymbol::get_hasEH](../../debugger/debug-interface-access/idiasymbol-get-haseh.md)|검색 함수에 있는지 여부를 나타내는 플래그를 C++-스타일 예외 처리기입니다.|  
 |[IDiaSymbol::get_hasEHa](../../debugger/debug-interface-access/idiasymbol-get-haseha.md)|함수는 비동기 예외 처리기에 있는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_hasInlAsm](../../debugger/debug-interface-access/idiasymbol-get-hasinlasm.md)|함수를 인라인 어셈블리에 있는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_hasLongJump](../../debugger/debug-interface-access/idiasymbol-get-haslongjump.md)|함수 (C 스타일 예외 처리의 일부) longjmp 명령을 포함 되는지 여부를 나타내는 플래그를 검색 합니다.|  
@@ -109,8 +109,8 @@ IDiaSymbol : IUnknown
 |[IDiaSymbol::get_InlSpec](../../debugger/debug-interface-access/idiasymbol-get-inlspec.md)|인라인 특성을 사용 하 여 함수를 표시 되었는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_interruptReturn](../../debugger/debug-interface-access/idiasymbol-get-interruptreturn.md)|함수는 인터럽트 명령에서 반환 하는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_intro](../../debugger/debug-interface-access/idiasymbol-get-intro.md)|함수가 기본 클래스 가상 함수와 되는지를 나타내는 플래그를 검색 합니다.|  
-|[IDiaSymbol::get_isAcceleratorGroupSharedLocal](../../debugger/debug-interface-access/idiasymbol-get-isacceleratorgroupsharedlocal.md)|기호가 c + + AMP 액셀러레이터에 대해 컴파일된 코드의 그룹 공유 지역 변수에 해당 하는지 여부를 나타내는 플래그를 검색 합니다.|  
-|[IDiaSymbol::get_isAcceleratorPointerTagLiveRange](../../debugger/debug-interface-access/idiasymbol-get-isacceleratorpointertagliverange.md)|기호에 해당 하는지 여부를 나타내는 플래그를 검색 합니다 *정의 범위 기호* c + + AMP 액셀러레이터에 대해 컴파일된 코드에서 포인터 변수의 태그 구성 요소에 대 한 합니다. 정의 범위 기호는 주소 범위에 대 한 변수의 위치입니다.|  
+|[IDiaSymbol::get_isAcceleratorGroupSharedLocal](../../debugger/debug-interface-access/idiasymbol-get-isacceleratorgroupsharedlocal.md)|기호에 대해 컴파일된 코드의 그룹 공유 지역 변수에 해당 하는지 여부를 나타내는 플래그를 검색 한 C++ AMP 액셀러레이터입니다.|  
+|[IDiaSymbol::get_isAcceleratorPointerTagLiveRange](../../debugger/debug-interface-access/idiasymbol-get-isacceleratorpointertagliverange.md)|기호에 해당 하는지 여부를 나타내는 플래그를 검색 합니다 *정의 범위 기호* 에 대해 컴파일된 코드에서 변수 대 한 포인터의 태그 구성 요소를 C++ AMP 액셀러레이터입니다. 정의 범위 기호는 주소 범위에 대 한 변수의 위치입니다.|  
 |[IDiaSymbol::get_isAcceleratorStubFunction](../../debugger/debug-interface-access/idiasymbol-get-isacceleratorstubfunction.md)|기호에 해당 하는 액셀러레이터 키에 대 한 컴파일된 셰이더에 대 한 최상위 함수 기호에 해당 하는지 여부를 나타냅니다는 `parallel_for_each` 호출 합니다.|  
 |[IDiaSymbol::get_isAggregated](../../debugger/debug-interface-access/idiasymbol-get-isaggregated.md)|데이터 집계 많은 기호의 일부 인지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_isCTypes](../../debugger/debug-interface-access/idiasymbol-get-isctypes.md)|C 형식 기호 파일에 포함 되는지 여부를 나타내는 플래그를 검색 합니다.|  
@@ -156,7 +156,7 @@ IDiaSymbol : IUnknown
 |[IDiaSymbol::get_noReturn](../../debugger/debug-interface-access/idiasymbol-get-noreturn.md)|함수를 사용 하 여 선언 된 여부를 나타내는 플래그를 검색 합니다 [noreturn](http://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d) 특성입니다.|  
 |[IDiaSymbol::get_noStackOrdering](../../debugger/debug-interface-access/idiasymbol-get-nostackordering.md)|스택 버퍼 검사의 일부로 스택 순서가 없다는 수행할 수 있는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_notReached](../../debugger/debug-interface-access/idiasymbol-get-notreached.md)|함수 또는 레이블은 달성 하지 여부를 나타내는 플래그를 검색 합니다.|  
-|[IDiaSymbol::get_numberOfAcceleratorPointerTags](../../debugger/debug-interface-access/idiasymbol-get-numberofacceleratorpointertags.md)|C + + AMP 스텁 함수에서 가속기 포인터 태그의 수를 반환합니다.|  
+|[IDiaSymbol::get_numberOfAcceleratorPointerTags](../../debugger/debug-interface-access/idiasymbol-get-numberofacceleratorpointertags.md)|Accelerator 포인터 태그의 수를 반환 합니다는 C++ AMP 스텁 함수입니다.|  
 |[IDiaSymbol::get_numberOfModifiers](../../debugger/debug-interface-access/idiasymbol-get-numberofmodifiers.md)|원본 형식에 적용 되는 한정자의 수를 검색 합니다.|  
 |[IDiaSymbol::get_numberOfRegisterIndices](../../debugger/debug-interface-access/idiasymbol-get-numberofregisterindices.md)|등록 하는 인덱스 수를 검색 합니다.|  
 |[IDiaSymbol::get_numberOfRows](../../debugger/debug-interface-access/idiasymbol-get-numberofrows.md)|행렬의 행을 검색합니다.|  
@@ -206,7 +206,7 @@ IDiaSymbol : IUnknown
 |[IDiaSymbol::get_uavSlot](../../debugger/debug-interface-access/idiasymbol-get-uavslot.md)|Uav 슬롯을 검색합니다.|  
 |[IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md)|다양 한 사용자 정의 형식 (UDT)을 검색합니다.|  
 |[IDiaSymbol::get_unalignedType](../../debugger/debug-interface-access/idiasymbol-get-unalignedtype.md)|사용자 정의 데이터 형식에 맞춤 인지 여부를 나타내는 플래그를 검색 합니다.|  
-|[IDiaSymbol::get_undecoratedName](../../debugger/debug-interface-access/idiasymbol-get-undecoratedname.md)|C + +를 데코 레이트 하거나 링크, 이름에 대 한 데코 레이트 되지 않은 이름을 검색 합니다.|  
+|[IDiaSymbol::get_undecoratedName](../../debugger/debug-interface-access/idiasymbol-get-undecoratedname.md)|데코레이팅되지 않은 이름을 검색 한 C++ 를 데코 레이트 된 링크, 이름 또는 합니다.|  
 |[IDiaSymbol::get_undecoratedNameEx](../../debugger/debug-interface-access/idiasymbol-get-undecoratednameex.md)|확장 된 `get_undecoratedName` 확장 필드의 값을 기반으로 데코레이팅되지 않은 이름을 검색 하는 메서드.|  
 |[IDiaSymbol::get_unmodifiedTypeId](../../debugger/debug-interface-access/idiasymbol-get-unmodifiedtypeid.md)|원래 (수정 되지 않은) 형식의 ID를 검색합니다.|  
 |[IDiaSymbol::get_upperBound](../../debugger/debug-interface-access/idiasymbol-get-upperbound.md)|FORTRAN 배열 차원의 상한 값을 검색합니다.|  
@@ -228,37 +228,37 @@ IDiaSymbol : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
  다음 방법 중 하나를 호출 하 여이 인터페이스를 가져옵니다.  
   
--   [IDiaEnumSymbols::Item](../../debugger/debug-interface-access/idiaenumsymbols-item.md)  
+- [IDiaEnumSymbols::Item](../../debugger/debug-interface-access/idiaenumsymbols-item.md)  
   
--   [IDiaEnumSymbols::Next](../../debugger/debug-interface-access/idiaenumsymbols-next.md)  
+- [IDiaEnumSymbols::Next](../../debugger/debug-interface-access/idiaenumsymbols-next.md)  
   
--   [IDiaEnumSymbolsByAddr::Next](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-next.md)  
+- [IDiaEnumSymbolsByAddr::Next](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-next.md)  
   
--   [IDiaEnumSymbolsByAddr::Prev](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-prev.md)  
+- [IDiaEnumSymbolsByAddr::Prev](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-prev.md)  
   
--   [IDiaEnumSymbolsByAddr::symbolByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyaddr.md)  
+- [IDiaEnumSymbolsByAddr::symbolByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyaddr.md)  
   
--   [IDiaEnumSymbolsByAddr::symbolByRVA](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyrva.md)  
+- [IDiaEnumSymbolsByAddr::symbolByRVA](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyrva.md)  
   
--   [IDiaEnumSymbolsByAddr::symbolByVA](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyva.md)  
+- [IDiaEnumSymbolsByAddr::symbolByVA](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyva.md)  
   
--   [IDiaSession::findSymbolByAddr](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)  
+- [IDiaSession::findSymbolByAddr](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)  
   
--   [IDiaSession::findSymbolByRVA](../../debugger/debug-interface-access/idiasession-findsymbolbyrva.md)  
+- [IDiaSession::findSymbolByRVA](../../debugger/debug-interface-access/idiasession-findsymbolbyrva.md)  
   
--   [IDiaSession::findSymbolByRVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyrvaex.md)  
+- [IDiaSession::findSymbolByRVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyrvaex.md)  
   
--   [IDiaSession::findSymbolByVA](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)  
+- [IDiaSession::findSymbolByVA](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)  
   
--   [IDiaSession::findSymbolByVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)  
+- [IDiaSession::findSymbolByVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)  
   
--   [IDiaSession::findSymbolByToken](../../debugger/debug-interface-access/idiasession-findsymbolbytoken.md)  
+- [IDiaSession::findSymbolByToken](../../debugger/debug-interface-access/idiasession-findsymbolbytoken.md)  
   
--   [IDiaSession::symbolById](../../debugger/debug-interface-access/idiasession-symbolbyid.md)  
+- [IDiaSession::symbolById](../../debugger/debug-interface-access/idiasession-symbolbyid.md)  
   
--   [IDiaStackWalkHelper::symbolForVA](../../debugger/debug-interface-access/idiastackwalkhelper-symbolforva.md)  
+- [IDiaStackWalkHelper::symbolForVA](../../debugger/debug-interface-access/idiastackwalkhelper-symbolforva.md)  
   
--   [IDiaSymbol::get_types](../../debugger/debug-interface-access/idiasymbol-get-types.md)  
+- [IDiaSymbol::get_types](../../debugger/debug-interface-access/idiasymbol-get-types.md)  
   
 ## <a name="example"></a>예제  
  이 예제에서는 지정된 된 상대 가상 주소에는 함수에 대 한 지역 변수를 표시 하는 방법을 보여 줍니다. 또한 다양 한 종류의 기호 서로 어떻게 관련 되어 있는지 보여 줍니다.  

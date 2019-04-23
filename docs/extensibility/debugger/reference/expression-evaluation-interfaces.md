@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: da46fc4309be1575ffde3d42f8b2c984986ce15b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 1a2dab234f56b9d6ab1368ac87f4da9c5fae4125
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720057"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113133"
 ---
 # <a name="expression-evaluation-interfaces"></a>Expression Evaluation Interfaces
 > [!IMPORTANT]
@@ -28,11 +28,11 @@ ms.locfileid: "56720057"
 
  테이블의 각 인터페이스에서는 다음 목록에서 구현할 수 있는 구성 요소를 보여 줍니다.
 
--   디버그 엔진 (DE)
+- 디버그 엔진 (DE)
 
--   식 계산기 (EE)
+- 식 계산기 (EE)
 
--   Visual Studio (VS)
+- Visual Studio (VS)
 
 |인터페이스|에 의해 구현|설명|
 |---------------|--------------------|-----------------|

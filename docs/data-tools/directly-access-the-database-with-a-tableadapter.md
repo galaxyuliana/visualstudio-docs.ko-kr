@@ -23,12 +23,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: f120f29494b8c519253c98f889496189e7e2594f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 26bcab8d589c1fedcbbc4eb1f8b06bb1c04cac53
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931626"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113302"
 ---
 # <a name="directly-access-the-database-with-a-tableadapter"></a>TableAdapter를 사용하여 데이터베이스에 직접 액세스
 
@@ -42,7 +42,7 @@ TableAdapter 호출 `DbDirect` 수행 하려는 작업을 수행 하는 메서�
 
 ### <a name="to-insert-new-records-directly-into-a-database"></a>데이터베이스에 직접 새 레코드를 삽입 하려면
 
--   TableAdapter의 호출 `Insert` 메서드를 매개 변수로 각 열에 대 한 값을 전달 합니다. 다음 절차에서는 `Region` 예를 들어 Northwind 데이터베이스의 테이블입니다.
+- TableAdapter의 호출 `Insert` 메서드를 매개 변수로 각 열에 대 한 값을 전달 합니다. 다음 절차에서는 `Region` 예를 들어 Northwind 데이터베이스의 테이블입니다.
 
     > [!NOTE]
     > 인스턴스에 사용할 수 없는 경우 사용 하려는 TableAdapter를 인스턴스화하십시오.
@@ -52,7 +52,7 @@ TableAdapter 호출 `DbDirect` 수행 하려는 작업을 수행 하는 메서�
 
 ### <a name="to-update-records-directly-in-a-database"></a>데이터베이스에서 직접 레코드를 업데이트 하려면
 
--   TableAdapter의 호출 `Update` 메서드를 매개 변수로 각 열에 대 한 새 및 원래 값을 전달 합니다.
+- TableAdapter의 호출 `Update` 메서드를 매개 변수로 각 열에 대 한 새 및 원래 값을 전달 합니다.
 
     > [!NOTE]
     > 인스턴스에 사용할 수 없는 경우 사용 하려는 TableAdapter를 인스턴스화하십시오.
@@ -62,7 +62,7 @@ TableAdapter 호출 `DbDirect` 수행 하려는 작업을 수행 하는 메서�
 
 ### <a name="to-delete-records-directly-from-a-database"></a>데이터베이스에서 직접 레코드를 삭제 하려면
 
--   TableAdapter의 호출 `Delete` 의 매개 변수로 각 열에 대 한 값을 전달 하는 메서드를 `Delete` 메서드. 다음 절차에서는 `Region` 예를 들어 Northwind 데이터베이스의 테이블입니다.
+- TableAdapter의 호출 `Delete` 의 매개 변수로 각 열에 대 한 값을 전달 하는 메서드를 `Delete` 메서드. 다음 절차에서는 `Region` 예를 들어 Northwind 데이터베이스의 테이블입니다.
 
     > [!NOTE]
     > 인스턴스에 사용할 수 없는 경우 사용 하려는 TableAdapter를 인스턴스화하십시오.
@@ -70,6 +70,6 @@ TableAdapter 호출 `DbDirect` 수행 하려는 작업을 수행 하는 메서�
      [!code-vb[VbRaddataSaving#21](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_3.vb)]
      [!code-csharp[VbRaddataSaving#21](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_3.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [TableAdapter를 사용하여 데이터 세트 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
+- [TableAdapter를 사용하여 데이터 집합 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)

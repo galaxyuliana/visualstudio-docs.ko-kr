@@ -10,12 +10,12 @@ ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 589e392530238249eefb789170f4f986b24a8551
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ae47942e9b686ac02623e4b3f2d0681babf879f9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981100"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084030"
 ---
 # <a name="managed-extensibility-framework-in-the-editor"></a>편집기의 Managed Extensibility Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,25 +84,25 @@ internal IClassificationTypeRegistryService ClassificationRegistry;
   
 #### <a name="to-consume-editor-functionality-from-a-mef-component-part"></a>MEF 구성 요소 파트에서 편집기 기능을 사용 하려면  
   
-1.  전역 어셈블리 캐시 (GAC)에 있는 System.Composition.ComponentModel.dll를 편집기 어셈블리에 참조를 추가 합니다.  
+1. 전역 어셈블리 캐시 (GAC)에 있는 System.Composition.ComponentModel.dll를 편집기 어셈블리에 참조를 추가 합니다.  
   
-2.  추가 관련 문을 사용 하 여 합니다.  
+2. 추가 관련 문을 사용 하 여 합니다.  
   
     ```  
     using System.ComponentModel.Composition;  
     using Microsoft.VisualStudio.Text;  
     ```  
   
-3.  추가 된 `[Import]` 에 서비스 인터페이스에 특성을 다음과 같이 합니다.  
+3. 추가 된 `[Import]` 에 서비스 인터페이스에 특성을 다음과 같이 합니다.  
   
     ```  
     [Import]  
     ITextBufferFactoryService textBufferService;  
     ```  
   
-4.  서비스를 가져온 경우에 해당 구성 요소 중 하나를 사용할 수 있습니다.  
+4. 서비스를 가져온 경우에 해당 구성 요소 중 하나를 사용할 수 있습니다.  
   
-5.  경우에 배치 하 여 어셈블리를 컴파일한 합니다... Visual Studio 설치의 \Common7\IDE\Components\ 폴더입니다.  
+5. 경우에 배치 하 여 어셈블리를 컴파일한 합니다... Visual Studio 설치의 \Common7\IDE\Components\ 폴더입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)

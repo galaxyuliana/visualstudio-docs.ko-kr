@@ -8,19 +8,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e309015eda874e73213e78e90e953862d23fbe61
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 936428b82e721a1df6003a4bb0eecefe5b696b4c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55956248"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080001"
 ---
 # <a name="troubleshooting-code-analysis-issues"></a>코드 분석 문제 해결
 이 항목에는 다음 Visual Studio 코드 분석 문제에 대한 문제 해결 정보가 포함되어 있습니다.
 
--   [Visual Studio 2010 규칙 집합의 변경 내용이 이전 Visual Studio 버전에 반영되지 않음](#ChildRuleSetChangesInPreviousVersions)
+- [Visual Studio 2010 규칙 집합의 변경 내용이 이전 Visual Studio 버전에 반영되지 않음](#ChildRuleSetChangesInPreviousVersions)
 
-##  <a name="ChildRuleSetChangesInPreviousVersions"></a> Visual Studio 2010 규칙 집합의 변경 내용이 이전 Visual Studio 버전에 반영되지 않음
+## <a name="ChildRuleSetChangesInPreviousVersions"></a> Visual Studio 2010 규칙 집합의 변경 내용이 이전 Visual Studio 버전에 반영되지 않음
  자식 규칙 집합이 포함된 [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)]에서 규칙 집합을 만드는 경우, 자식 규칙 집합의 변경 내용이 이전 버전의 Visual Studio를 사용하는 컴퓨터에서 실행되는 코드 분석에 적용되지 않을 수 있습니다. 이 문제를 해결하려면 자식 규칙 집합을 포함하는 규칙 집합인 부모 규칙 집합을 다시 작성해야 합니다.
 
 1. [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)]에서 부모 규칙 집합을 엽니다.

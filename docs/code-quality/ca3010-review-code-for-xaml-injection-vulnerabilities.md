@@ -11,11 +11,11 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: ea53f5e0cddf1dc6c6caf4c7fcfb79af52ce354e
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59365018"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103695"
 ---
 # <a name="ca3010-review-code-for-xaml-injection-vulnerabilities"></a>CA3010: 코드에서 XAML 삽입 취약성에 대해 검토합니다.
 

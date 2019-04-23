@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: b0f7272178edd1113d01644de9a5224e24907b31
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 373ccaa6552079a8995d61ef09bf6e0845c299d6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982509"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113523"
 ---
 # <a name="ca1811-avoid-uncalled-private-code"></a>CA1811: 호출되지 않는 전용 코드를 사용하지 마세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,15 +35,15 @@ ms.locfileid: "58982509"
 ## <a name="cause"></a>원인
  Private 또는 internal (어셈블리 수준) 멤버 어셈블리의 호출자가 없는, 공용 언어 런타임에 의해 호출 되지 않습니다 및 대리자에 의해 호출 되지 않습니다. 이 규칙에 의해 다음 멤버를 확인 하지 않습니다.
 
--   명시적 인터페이스 멤버입니다.
+- 명시적 인터페이스 멤버입니다.
 
--   정적 생성자입니다.
+- 정적 생성자입니다.
 
--   Serialization 생성자입니다.
+- Serialization 생성자입니다.
 
--   로 표시 된 메서드 <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute?displayProperty=fullName> 또는 <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute?displayProperty=fullName>합니다.
+- 로 표시 된 메서드 <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute?displayProperty=fullName> 또는 <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute?displayProperty=fullName>합니다.
 
--   재정의 된 멤버입니다.
+- 재정의 된 멤버입니다.
 
 ## <a name="rule-description"></a>규칙 설명
  이 규칙은 거짓 긍정 진입점 발생 하는 경우 현재에서 식별할 수 없는 규칙 논리를 보고할 수 있습니다. 또한 컴파일러는 어셈블리에 호출 되지 않는 코드를 내보낼 수 있습니다.

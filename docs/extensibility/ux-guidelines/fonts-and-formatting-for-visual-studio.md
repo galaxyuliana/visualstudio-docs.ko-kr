@@ -8,37 +8,37 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 56c7dc7557c91d82c89e612da7b78e3a889ad01e
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: c0f451ed2ddb6b619e896a664e5592496e4af4de
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796753"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096259"
 ---
 # <a name="fonts-and-formatting-for-visual-studio"></a>글꼴 및 Visual Studio에 대 한 서식 지정
-##  <a name="BKMK_TheEnvironmentFont"></a> 환경 글꼴
+## <a name="BKMK_TheEnvironmentFont"></a> 환경 글꼴
  Visual Studio 내에서 모든 글꼴 사용자 지정에 대 한 사용자에 게 노출 되어야 합니다. 주로 이렇게 합니다 **글꼴 및 색** 페이지에 **도구 > 옵션** 대화 합니다. 글꼴 설정의 세 가지 주요 범주는:
 
--   **환경 글꼴** -대화 상자, 메뉴, 도구 창 및 문서 창을 포함 하 여 모든 인터페이스 요소에 사용 되는 IDE (통합된 개발 환경)에 대 한 기본 글꼴입니다. 기본적으로 최신 버전의 Windows에서 9 pt Segoe UI로 표시 되는 시스템 글꼴은 환경 글꼴이 연결 됩니다. 모든 인터페이스 요소에 대 한 하나의 글꼴을 사용 하 여 IDE 전체에서 일관 된 글꼴 모양이 표시 되도록 하는 데 도움이 됩니다.
+- **환경 글꼴** -대화 상자, 메뉴, 도구 창 및 문서 창을 포함 하 여 모든 인터페이스 요소에 사용 되는 IDE (통합된 개발 환경)에 대 한 기본 글꼴입니다. 기본적으로 최신 버전의 Windows에서 9 pt Segoe UI로 표시 되는 시스템 글꼴은 환경 글꼴이 연결 됩니다. 모든 인터페이스 요소에 대 한 하나의 글꼴을 사용 하 여 IDE 전체에서 일관 된 글꼴 모양이 표시 되도록 하는 데 도움이 됩니다.
 
--   **텍스트 편집기** -요소는 코드 및 기타 화면 편집기 텍스트를 기반으로 사용자 지정할 수 있습니다 텍스트 편집기에서 페이지의 **도구 > 옵션**합니다.
+- **텍스트 편집기** -요소는 코드 및 기타 화면 편집기 텍스트를 기반으로 사용자 지정할 수 있습니다 텍스트 편집기에서 페이지의 **도구 > 옵션**합니다.
 
--   **특정 컬렉션** -자체 설정 페이지에서 해당 인터페이스 요소의 사용자 지정 디자인 특정 글꼴을 노출할 수를 제공 하는 디자이너 창 표시 **도구 > 옵션**합니다.
+- **특정 컬렉션** -자체 설정 페이지에서 해당 인터페이스 요소의 사용자 지정 디자인 특정 글꼴을 노출할 수를 제공 하는 디자이너 창 표시 **도구 > 옵션**합니다.
 
 ### <a name="editor-font-customization-and-resizing"></a>편집기 글꼴 사용자 지정 및 크기 조정
  대개는 확대 사용자나 크기 및/또는 일반 사용자 인터페이스의 독립적인 해당 기본 설정에 따라 편집기에서 텍스트의 색을 확대/축소 합니다. 환경 글꼴 내에서 또는 편집기/designer의 일부로 표시 될 수 있는 요소를 사용할 경우, 이므로 이러한 글꼴 분류 중 하나가 변경 될 때 예상 되는 동작을 명심 해야 합니다.
 
  일부가 아닌 되지만 편집기에 표시 되는 UI 요소를 만들 때 합니다 *콘텐츠*, 예측 가능한 방식으로 요소의 크기가 조정 되도록 환경 글꼴 및 텍스트 글꼴 대신 사용 해야 합니다.
 
-1.  편집기에서 코드 텍스트에 대 한 코드 텍스트 글꼴 설정을 사용 하 여 크기를 조정 하 고 편집기 텍스트의 확대/축소 수준으로 응답 합니다.
+1. 편집기에서 코드 텍스트에 대 한 코드 텍스트 글꼴 설정을 사용 하 여 크기를 조정 하 고 편집기 텍스트의 확대/축소 수준으로 응답 합니다.
 
-2.  인터페이스의 다른 모든 요소는 환경 글꼴 설정와 연결 해야 하 고 환경에서 모든 전역 변경 응답 합니다. 이 포함 하지만에 제한 되지 않습니다.
+2. 인터페이스의 다른 모든 요소는 환경 글꼴 설정와 연결 해야 하 고 환경에서 모든 전역 변경 응답 합니다. 이 포함 하지만에 제한 되지 않습니다.
 
-    -   상황에 맞는 메뉴의 텍스트
+    - 상황에 맞는 메뉴의 텍스트
 
-    -   텍스트 편집기 adornment에서 전구 메뉴 텍스트, 빠른 찾기 편집기 창 등의 창으로 이동
+    - 텍스트 편집기 adornment에서 전구 메뉴 텍스트, 빠른 찾기 편집기 창 등의 창으로 이동
 
-    -   같은 대화 상자에서 텍스트 레이블을 **파일에서 찾기** 또는 **리팩터링**
+    - 같은 대화 상자에서 텍스트 레이블을 **파일에서 찾기** 또는 **리팩터링**
 
 ### <a name="accessing-the-environment-font"></a>환경 글꼴에 액세스
  기본 모드 또는 WinForms 코드 환경 글꼴 메서드를 호출 하 여 액세스할 수 있습니다 `IUIHostLocale::GetDialogFont` 에서 해당 인터페이스를 쿼리 한 후의 `SID_SUIHostLocale` 서비스입니다.
@@ -87,7 +87,7 @@ window.ShowModal()
 <Setter Property="FontSize" Value="{DynamicResource VsFont.EnvironmentFontSize}" />
 ```
 
-###  <a name="BKMK_Formatting"></a> (확장/굵게 표시) 참조를 서식 지정
+### <a name="BKMK_Formatting"></a> (확장/굵게 표시) 참조를 서식 지정
  일부 대화 상자에는 특정 텍스트를 굵게 또는 이외의 환경 글꼴 크기를 필요 합니다. 글꼴은 환경 글꼴이 보다 큰로 코딩 된 이전에 "`environment font +2`" 또는 유사한 합니다. 제공 된 코드 조각을 사용 하 여 높은 DPI 모니터 지원 되며 표시 텍스트에 올바른 크기 및 무게 (예: Light 또는 Semilight) 항상 표시 되는지 확인 합니다.
 
 > **참고: 서식 지정을 적용 하기 전에 확인 지침에 따르는 [텍스트 스타일](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle)합니다.**
@@ -300,7 +300,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
  글꼴을 재설정 하려면 "기본값 사용"에서 클릭 **도구 > 옵션 > 환경 > 글꼴 및 색**합니다.
 
-##  <a name="BKMK_TextStyle"></a> 텍스트 스타일
+## <a name="BKMK_TextStyle"></a> 텍스트 스타일
  텍스트 스타일 글꼴 크기, 두께 및 대/소문자를 가리킵니다. 구현 지침은 [글꼴로](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont)합니다.
 
 ### <a name="text-casing"></a>텍스트 대/소문자 구분
@@ -359,9 +359,9 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ##### <a name="sentence-case"></a>문장
  문장만 문장의 첫 번째 단어는 대문자로 시작에 명사와 대명사 작성 하기 위한 표준 대/소문자 메서드는 "I" 합니다. 일반적으로 문장 전세계 고객에 게 특히 경우 콘텐츠는 번역할 컴퓨터에 대 한 읽기 쉽습니다. 에 대 한 문장 사례를 사용 합니다.
 
-1.  **상태 표시줄 메시지입니다.** 상태 정보만 제공 이며 즉, 간단 하 게 됩니다. 예제: "프로젝트 파일을 로드"
+1. **상태 표시줄 메시지입니다.** 상태 정보만 제공 이며 즉, 간단 하 게 됩니다. 예제: "프로젝트 파일을 로드"
 
-2.  **다른 모든 UI 요소의**, 레이블, 확인란, 라디오 단추 및 목록 상자 항목입니다. 예제: "목록의 모든 항목을 선택 합니다."
+2. **다른 모든 UI 요소의**, 레이블, 확인란, 라디오 단추 및 목록 상자 항목입니다. 예제: "목록의 모든 항목을 선택 합니다."
 
 ### <a name="text-formatting"></a>텍스트 서식 지정
  Visual Studio 2013의 서식 지정 하는 기본 텍스트에 의해 제어 됩니다 [글꼴로](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont)합니다. 이 서비스는 IDE (통합된 개발 환경), 전체에서 일관 된 글꼴 모양이 표시 되도록 하 고 사용자에 게 일관 된 환경을 보장 하기 위해 사용 해야 합니다.
@@ -373,36 +373,36 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 #### <a name="bold-text"></a>굵은 텍스트
  Visual Studio에서 자주 사용 됩니다 하 고에 예약 되어야 하는 굵은 텍스트:
 
--   마법사에서 질문 레이블
+- 마법사에서 질문 레이블
 
--   솔루션 탐색기에서 활성 프로젝트를 지정합니다.
+- 솔루션 탐색기에서 활성 프로젝트를 지정합니다.
 
--   속성 도구 창에서 재정의 된 값
+- 속성 도구 창에서 재정의 된 값
 
--   Visual Basic 편집기 드롭다운 목록에서 특정 이벤트
+- Visual Basic 편집기 드롭다운 목록에서 특정 이벤트
 
--   웹 페이지에 대 한 문서 개요의 서버에서 생성 된 콘텐츠
+- 웹 페이지에 대 한 문서 개요의 서버에서 생성 된 콘텐츠
 
--   섹션 헤더 복잡 한 대화 또는 UI 디자이너
+- 섹션 헤더 복잡 한 대화 또는 UI 디자이너
 
 #### <a name="italics"></a>기울임꼴
  Visual Studio에서 기울임꼴 또는 굵게 기울임꼴 텍스트를 사용 하지 않습니다.
 
 #### <a name="color"></a>색
 
--   파랑 (탐색 및 명령 실행)의 하이퍼링크에 대 한 예약 되어 있으므로 방향에 대해 사용 하지 말아야 합니다.
+- 파랑 (탐색 및 명령 실행)의 하이퍼링크에 대 한 예약 되어 있으므로 방향에 대해 사용 하지 말아야 합니다.
 
--   이러한 목적을 위해 더 큰 머리글 (환경 글꼴 x 155% 이상)를 색칠 할 수 있습니다.:
+- 이러한 목적을 위해 더 큰 머리글 (환경 글꼴 x 155% 이상)를 색칠 할 수 있습니다.:
 
-    -   눈에 띄는 서명 Visual Studio UI를 제공 합니다.
+    - 눈에 띄는 서명 Visual Studio UI를 제공 합니다.
 
-    -   특정 영역을 강조할
+    - 특정 영역을 강조할
 
-    -   표준 진한 회색/검은색 환경 텍스트 색의 릴리프를 제공 합니다.
+    - 표준 진한 회색/검은색 환경 텍스트 색의 릴리프를 제공 합니다.
 
--   머리글 색 기존 Visual Studio 브랜드 색 주 자주색 주로 #FF68217A 활용 해야 합니다.
+- 머리글 색 기존 Visual Studio 브랜드 색 주 자주색 주로 #FF68217A 활용 해야 합니다.
 
--   머리글에서 색을 사용 하는 경우 따라야 합니다 [Windows 색 지침](/windows/desktop/uxguide/vis-color), 대비 비율은 등 다른 접근성 고려 합니다.
+- 머리글에서 색을 사용 하는 경우 따라야 합니다 [Windows 색 지침](/windows/desktop/uxguide/vis-color), 대비 비율은 등 다른 접근성 고려 합니다.
 
 ### <a name="font-size"></a>글꼴 크기
  Visual Studio UI 디자인 자세한 공백으로 밝은 모양을 갖추고 있습니다. 가능한 경우, chrome 및 제목 표시줄 감소 되거나 제거 되었습니다. 정보 밀도 Visual Studio에서 요구 사항 이지만, 입력 체계 개방적인 줄 간격 및 글꼴 크기 및 중량의 변형에 중점을 두어 중요 한 것으로 계속 됩니다.
@@ -474,11 +474,11 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ### <a name="padding-and-spacing"></a>안쪽 여백 및 간격
  머리글에는 적절 한 강조를 제공 하도록 주위에 공간이 필요 합니다. 이 공간은 포인트 크기 및 다른 새로운 수평선 등 환경 글꼴의 텍스트 줄을 머리글 근처에 따라 달라 집니다.
 
--   이상적인 자체로 머리글 안쪽 여백을 자본 문자 높이 공간의 90% 여야 합니다. 예를 들어, 28 pt Segoe UI Light 제목을 26 pt cap 높이 있고 23 pt 또는 약 31 픽셀 안쪽 여백을 약 있어야 합니다.
+- 이상적인 자체로 머리글 안쪽 여백을 자본 문자 높이 공간의 90% 여야 합니다. 예를 들어, 28 pt Segoe UI Light 제목을 26 pt cap 높이 있고 23 pt 또는 약 31 픽셀 안쪽 여백을 약 있어야 합니다.
 
--   제목 주위에 최소 공간 자본 문자 높이의 50% 이어야 합니다. 머리글을 함께 다른 긴밀 하 게 맞춤 요소나 규칙을 더 적은 공간을 사용할 수 있습니다.
+- 제목 주위에 최소 공간 자본 문자 높이의 50% 이어야 합니다. 머리글을 함께 다른 긴밀 하 게 맞춤 요소나 규칙을 더 적은 공간을 사용할 수 있습니다.
 
--   환경 글꼴 텍스트 굵게 표시 된 기본 줄 높이 간격 및 안쪽 여백 따라야 합니다.
+- 환경 글꼴 텍스트 굵게 표시 된 기본 줄 높이 간격 및 안쪽 여백 따라야 합니다.
 
 ## <a name="see-also"></a>참고자료
 

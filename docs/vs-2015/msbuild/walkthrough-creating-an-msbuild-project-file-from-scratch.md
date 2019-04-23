@@ -11,12 +11,12 @@ caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 388b0ebbeea9cd9adb15629f34952ef0307a842b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 5c2082e4f2c67696f057ea8fc779bfaf391e0af1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648820"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096584"
 ---
 # <a name="walkthrough-creating-an-msbuild-project-file-from-scratch"></a>연습: 처음부터 새로 MSBuild 프로젝트 파일 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,13 +54,13 @@ ms.locfileid: "59648820"
   
 #### <a name="to-create-the-minimal-application"></a>최소 애플리케이션을 만들려면  
   
-1.  명령 프롬프트에서 애플리케이션을 만들려는 폴더로 이동합니다(예: \내 문서\ 또는 \바탕 화면\\).  
+1. 명령 프롬프트에서 애플리케이션을 만들려는 폴더로 이동합니다(예: \내 문서\ 또는 \바탕 화면\\).  
   
-2.  **md HelloWorld**를 입력하여 \HelloWorld\\라는 하위 폴더를 만듭니다.  
+2. **md HelloWorld**를 입력하여 \HelloWorld\\라는 하위 폴더를 만듭니다.  
   
-3.  **cd HelloWorld**를 입력하여 새 폴더로 변경합니다.  
+3. **cd HelloWorld**를 입력하여 새 폴더로 변경합니다.  
   
-4.  메모장이나 다른 텍스트 편집기를 시작한 후 다음 코드를 입력합니다.  
+4. 메모장이나 다른 텍스트 편집기를 시작한 후 다음 코드를 입력합니다.  
   
     ```  
     using System;  
@@ -78,28 +78,28 @@ ms.locfileid: "59648820"
     }  
     ```  
   
-5.  이 소스 코드 파일을 저장하고 이름을 Helloworld.cs로 지정합니다.  
+5. 이 소스 코드 파일을 저장하고 이름을 Helloworld.cs로 지정합니다.  
   
-6.  명령 프롬프트에서 **csc helloworld.cs**를 입력하여 애플리케이션을 빌드합니다.  
+6. 명령 프롬프트에서 **csc helloworld.cs**를 입력하여 애플리케이션을 빌드합니다.  
   
-7.  명령 프롬프트에서 **helloworld**를 입력하여 애플리케이션을 테스트합니다.  
+7. 명령 프롬프트에서 **helloworld**를 입력하여 애플리케이션을 테스트합니다.  
   
      **Hello, world!** 메시지가 표시됩니다.  
   
-8.  명령 프롬프트에서 **del helloworld.exe**를 입력하여 애플리케이션을 삭제합니다.  
+8. 명령 프롬프트에서 **del helloworld.exe**를 입력하여 애플리케이션을 삭제합니다.  
   
 ## <a name="creating-a-minimal-msbuild-project-file"></a>최소 MSBuild 프로젝트 파일 만들기  
  최소 애플리케이션 소스 파일이 있으므로 이제 최소 프로젝트 파일을 만들어 애플리케이션을 빌드할 수 있습니다. 이 프로젝트 파일에는 다음 요소가 포함되어 있습니다.  
   
--   필수 루트 `Project` 노드  
+- 필수 루트 `Project` 노드  
   
--   항목 요소를 포함할 `ItemGroup` 노드  
+- 항목 요소를 포함할 `ItemGroup` 노드  
   
--   애플리케이션 소스 파일을 참조하는 항목 요소  
+- 애플리케이션 소스 파일을 참조하는 항목 요소  
   
--   애플리케이션을 빌드하는 데 필요한 작업을 포함할 `Target` 노드  
+- 애플리케이션을 빌드하는 데 필요한 작업을 포함할 `Target` 노드  
   
--   애플리케이션을 빌드하기 위해 Visual C# 컴파일러를 시작하는 `Task` 요소  
+- 애플리케이션을 빌드하기 위해 Visual C# 컴파일러를 시작하는 `Task` 요소  
   
 #### <a name="to-create-a-minimal-msbuild-project-file"></a>최소 MSBuild 프로젝트 파일을 만들려면  
   
@@ -162,7 +162,7 @@ ms.locfileid: "59648820"
   
 #### <a name="to-add-msbuild-to-your-path"></a>경로에 MSBuild를 추가하려면  
   
--   Visual Studio 2013부터 MSBuild 폴더(32비트 운영 체제의 경우 `%ProgramFiles%\MSBuild` 또는 64비트 운영 체제의 경우 `%ProgramFiles(x86)%\MSBuild`)에서 MSBuild.exe를 찾을 수 있습니다.  
+- Visual Studio 2013부터 MSBuild 폴더(32비트 운영 체제의 경우 `%ProgramFiles%\MSBuild` 또는 64비트 운영 체제의 경우 `%ProgramFiles(x86)%\MSBuild`)에서 MSBuild.exe를 찾을 수 있습니다.  
   
      명령 프롬프트에 **set PATH=%PATH%;%ProgramFiles%\MSBuild** 또는 **set PATH=%PATH%;%ProgramFiles(x86)%\MSBuild**를 입력합니다.  
   
@@ -173,11 +173,11 @@ ms.locfileid: "59648820"
   
 #### <a name="to-build-the-application"></a>애플리케이션을 빌드하려면  
   
-1.  명령 프롬프트에 **msbuild helloworld.csproj /t:Build**를 입력합니다.  
+1. 명령 프롬프트에 **msbuild helloworld.csproj /t:Build**를 입력합니다.  
   
      그러면 Helloworld 애플리케이션을 만들기 위해 Visual C# 컴파일러를 호출하여 Helloworld 프로젝트 파일의 Build 대상이 빌드됩니다.  
   
-2.  **helloworld**를 입력하여 애플리케이션을 테스트합니다.  
+2. **helloworld**를 입력하여 애플리케이션을 테스트합니다.  
   
      **Hello, world!** 메시지가 표시됩니다.  
   
@@ -189,9 +189,9 @@ ms.locfileid: "59648820"
 ## <a name="adding-build-properties"></a>빌드 속성 추가  
  프로젝트 파일에 빌드 속성을 추가하여 빌드에 대한 제어를 강화할 수 있습니다. 이제 다음 속성을 추가합니다.  
   
--   애플리케이션의 이름을 지정하기 위한 `AssemblyName` 속성  
+- 애플리케이션의 이름을 지정하기 위한 `AssemblyName` 속성  
   
--   애플리케이션을 포함할 폴더를 지정하기 위한 `OutputPath` 속성  
+- 애플리케이션을 포함할 폴더를 지정하기 위한 `OutputPath` 속성  
   
 #### <a name="to-add-build-properties"></a>빌드 속성을 추가하려면  
   
@@ -260,13 +260,13 @@ ms.locfileid: "59648820"
   
 #### <a name="to-test-the-build-properties"></a>빌드 속성을 테스트하려면  
   
-1.  명령 프롬프트에 **msbuild helloworld.csproj /t:Build**를 입력합니다.  
+1. 명령 프롬프트에 **msbuild helloworld.csproj /t:Build**를 입력합니다.  
   
      그러면 \Bin\ 폴더가 만들어진 다음 Visual C# 컴파일러가 호출되어 MSBuildSample 애플리케이션이 만들어져 \Bin\ 폴더에 배치됩니다.  
   
-2.  \Bin\ 폴더가 만들어져 MSBuildSample 애플리케이션을 포함하고 있는지 확인하려면 **dir Bin**을 입력합니다.  
+2. \Bin\ 폴더가 만들어져 MSBuildSample 애플리케이션을 포함하고 있는지 확인하려면 **dir Bin**을 입력합니다.  
   
-3.  **Bin\MSBuildSample**을 입력하여 애플리케이션을 테스트합니다.  
+3. **Bin\MSBuildSample**을 입력하여 애플리케이션을 테스트합니다.  
   
      **Hello, world!** 메시지가 표시됩니다.  
   
@@ -325,37 +325,37 @@ ms.locfileid: "59648820"
 ## <a name="testing-the-build-targets"></a>빌드 대상 테스트  
  새 빌드 대상을 실행하여 프로젝트 파일의 이러한 기능을 테스트할 수 있습니다.  
   
--   기본 빌드를 바인딩합니다.  
+- 기본 빌드를 바인딩합니다.  
   
--   명령 프롬프트에서 애플리케이션 이름을 설정합니다.  
+- 명령 프롬프트에서 애플리케이션 이름을 설정합니다.  
   
--   다른 애플리케이션이 빌드되기 전에 애플리케이션을 삭제합니다.  
+- 다른 애플리케이션이 빌드되기 전에 애플리케이션을 삭제합니다.  
   
--   다른 애플리케이션을 빌드하지 않고 애플리케이션을 삭제합니다.  
+- 다른 애플리케이션을 빌드하지 않고 애플리케이션을 삭제합니다.  
   
 #### <a name="to-test-the-build-targets"></a>빌드 대상을 테스트하려면  
   
-1.  명령 프롬프트에 **msbuild helloworld.csproj /p:AssemblyName=Greetings**를 입력합니다.  
+1. 명령 프롬프트에 **msbuild helloworld.csproj /p:AssemblyName=Greetings**를 입력합니다.  
   
      **/t** 스위치를 사용하여 대상을 명시적으로 설정하지 않았으므로 MSBuild가 기본 Build 대상을 실행합니다. **/p** 스위치는 `AssemblyName` 속성을 재정의하고 이 속성에 새 값 `Greetings`를 제공합니다. 따라서 새 애플리케이션 Greetings.exe가 \Bin\ 폴더에 만들어집니다.  
   
-2.  \Bin\ 폴더에 MSBuildSample 애플리케이션과 새 Greetings 애플리케이션이 둘 다 포함되어 있는지 확인하려면 **dir Bin**을 입력합니다.  
+2. \Bin\ 폴더에 MSBuildSample 애플리케이션과 새 Greetings 애플리케이션이 둘 다 포함되어 있는지 확인하려면 **dir Bin**을 입력합니다.  
   
-3.  **Bin\Greetings**를 입력하여 Greetings 애플리케이션을 테스트합니다.  
+3. **Bin\Greetings**를 입력하여 Greetings 애플리케이션을 테스트합니다.  
   
      **Hello, world!** 메시지가 표시됩니다.  
   
-4.  **msbuild helloworld.csproj /t:clean**을 입력하여 MSBuildSample 애플리케이션을 삭제합니다.  
+4. **msbuild helloworld.csproj /t:clean**을 입력하여 MSBuildSample 애플리케이션을 삭제합니다.  
   
      그러면 Clean 작업이 실행되어 기본 `AssemblyName` 속성값 `MSBuildSample`이 포함되어 있는 애플리케이션이 제거됩니다.  
   
-5.  **msbuild helloworld.csproj /t:clean /p:AssemblyName=Greetings**를 입력하여 Greetings 애플리케이션을 삭제합니다.  
+5. **msbuild helloworld.csproj /t:clean /p:AssemblyName=Greetings**를 입력하여 Greetings 애플리케이션을 삭제합니다.  
   
      그러면 Clean 작업이 실행되어 지정된 **AssemblyName** 속성값 `Greetings`가 포함되어 있는 애플리케이션이 제거됩니다.  
   
-6.  이제 \Bin\ 폴더가 비어 있는지 확인하려면 **dir Bin**을 입력합니다.  
+6. 이제 \Bin\ 폴더가 비어 있는지 확인하려면 **dir Bin**을 입력합니다.  
   
-7.  **msbuild**를 입력합니다.  
+7. **msbuild**를 입력합니다.  
   
      프로젝트 파일이 지정되어 있지 않더라도 현재 폴더에 프로젝트 파일이 하나뿐이므로 MSBuild는 helloworld.csproj 파일을 빌드합니다. 따라서 MSBuildSample 애플리케이션이 \Bin\ 폴더에 만들어집니다.  
   
@@ -366,7 +366,7 @@ ms.locfileid: "59648820"
   
 #### <a name="to-build-incrementally"></a>증분 방식으로 빌드하려면  
   
-1.  프로젝트 파일에서 다음 특성을 여는 Build 대상에 추가합니다.  
+1. 프로젝트 파일에서 다음 특성을 여는 Build 대상에 추가합니다.  
   
     ```  
     Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe"  
@@ -383,7 +383,7 @@ ms.locfileid: "59648820"
     </Target>  
     ```  
   
-2.  명령 프롬프트에서 **msbuild /v:d**를 입력하여 Build 대상을 테스트합니다.  
+2. 명령 프롬프트에서 **msbuild /v:d**를 입력하여 Build 대상을 테스트합니다.  
   
      helloworld.csproj는 기본 프로젝트 파일이고, 해당 Build는 기본 대상이라는 사실을 기억하세요.  
   

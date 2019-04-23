@@ -30,12 +30,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d459f641983960fdd7c4c1ded3b90c0a578c42b3
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: 253f86f83805d11d7a1a6475fcbaf4eb76bfbc50
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57873670"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081244"
 ---
 # <a name="analyze-and-model-your-architecture"></a>아키텍처 분석 및 모델링
 
@@ -69,39 +69,39 @@ ms.locfileid: "57873670"
 
 **일반적으로 사용 합니다.**
 
--   구조 및 종속성, 업데이트 방법을 더 잘 이해할 수 있도록 프로그램 코드를 검사하고 제안된 변경의 비용을 예측합니다.
+- 구조 및 종속성, 업데이트 방법을 더 잘 이해할 수 있도록 프로그램 코드를 검사하고 제안된 변경의 비용을 예측합니다.
 
 **참고:**
 
--   [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)
--   [코드 맵을 사용하여 응용 프로그램 디버그](../modeling/use-code-maps-to-debug-your-applications.md)
--   [코드 맵 분석기를 사용하여 잠재적 문제 찾기](../modeling/find-potential-problems-using-code-map-analyzers.md)
+- [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)
+- [코드 맵을 사용하여 응용 프로그램 디버그](../modeling/use-code-maps-to-debug-your-applications.md)
+- [코드 맵 분석기를 사용하여 잠재적 문제 찾기](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
 ### <a name="dependency-diagram"></a>종속성 다이어그램
 종속성 다이어그램에서는 레이어 또는 명시적 종속성을 사용 하 여 블록 집합으로 응용 프로그램의 구조를 정의할 수 있습니다. 코드의 종속성과 종속성 다이어그램에 설명 된 종속 간 충돌을 검색 하는 유효성 검사를 실행할 수 있습니다.
 
 **일반적으로 사용 합니다.**
 
--   응용 프로그램 수명 동안 다양한 변경을 통해 응용 프로그램 구조를 안정화합니다.
--   코드에 대한 변경을 확인하기 전에 의도하지 않은 종속성 충돌을 검색합니다.
+- 응용 프로그램 수명 동안 다양한 변경을 통해 응용 프로그램 구조를 안정화합니다.
+- 코드에 대한 변경을 확인하기 전에 의도하지 않은 종속성 충돌을 검색합니다.
 
 **참고:**
 
--   [코드에서 종속성 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)
--   [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)
--   [종속성 다이어그램을 사용하여 코드 유효성 검사](../modeling/validate-code-with-layer-diagrams.md)
+- [코드에서 종속성 다이어그램 만들기](../modeling/create-layer-diagrams-from-your-code.md)
+- [종속성 다이어그램: 참조](../modeling/layer-diagrams-reference.md)
+- [종속성 다이어그램을 사용하여 코드 유효성 검사](../modeling/validate-code-with-layer-diagrams.md)
 
 ### <a name="domain-specific-language-dsl"></a>DSL(도메인 특정 언어)
 DSL은 특정 용도에 맞게 디자인하는 표기법입니다. Visual Studio에서는 일반적으로 그래픽으로 표시됩니다.
 
 **일반적으로 사용 합니다.**
 
--   응용 프로그램 파트를 생성하거나 구성합니다. 표기법 및 도구를 개발하려면 작업이 필요합니다. 결과는 UML 사용자 지정보다 도메인에 더 적합할 수 있습니다.
--   대규모 프로젝트에 사용되거나, 여러 프로젝트에서 DSL을 사용하여 DSL 및 도구 개발에 대한 투자 수익을 얻는 제품군에 사용됩니다.
+- 응용 프로그램 파트를 생성하거나 구성합니다. 표기법 및 도구를 개발하려면 작업이 필요합니다. 결과는 UML 사용자 지정보다 도메인에 더 적합할 수 있습니다.
+- 대규모 프로젝트에 사용되거나, 여러 프로젝트에서 DSL을 사용하여 DSL 및 도구 개발에 대한 투자 수익을 얻는 제품군에 사용됩니다.
 
 **참고:**
 
--   [Visual Studio용 모델링 SDK - 도메인별 언어](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
+- [Visual Studio용 모델링 SDK - 도메인별 언어](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
 
 ## <a name="where-can-i-get-more-information"></a>추가 정보는 어디서 확인할 수 있나요?
 

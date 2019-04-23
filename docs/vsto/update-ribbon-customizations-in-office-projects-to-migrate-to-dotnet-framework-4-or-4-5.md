@@ -12,32 +12,32 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ee1dcd72e80b38eb4dd31603b0133b7ee7f7636b
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 0fae2dc72c44b90068212c09086c63c9e00fd2d0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324684"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096545"
 ---
 # <a name="update-ribbon-customizations-in-office-projects-that-you-migrate-to-the-net-framework-4-or-the-net-framework-45"></a>.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Office 프로젝트에서 리본 사용자 지정 업데이트
   프로젝트를 사용 하 여 만든 리본 사용자 지정을 포함 하는 경우는 **리본 (비주얼 디자이너)** 프로젝트 항목, 대상 프레임 워크를 변경 하는 경우 다음과 같이 변경 하면 프로젝트 코드를 확인 해야 합니다 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 나중에 있습니다.
 
--   생성된 리본 코드를 수정합니다.
+- 생성된 리본 코드를 수정합니다.
 
--   런타임에 리본 컨트롤을 인스턴스화하거나, 리본 이벤트를 처리하거나, 리본 구성 요소의 위치를 프로그래밍 방식으로 설정하는 모든 코드를 수정합니다.
+- 런타임에 리본 컨트롤을 인스턴스화하거나, 리본 이벤트를 처리하거나, 리본 구성 요소의 위치를 프로그래밍 방식으로 설정하는 모든 코드를 수정합니다.
 
 ## <a name="update-the-generated-ribbon-code"></a>생성된 된 리본 코드 업데이트
  프로젝트의 대상 프레임워크가 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상으로 변경된 경우 다음 단계를 수행하여 리본 항목에 대해 생성된 코드를 변경해야 합니다. 업데이트해야 하는 코드 파일은 프로그래밍 언어 및 프로젝트를 만든 방법에 따라 달라집니다.
 
--   Visual Basic 프로젝트에서 또는 Visual C# 프로젝트에서 만든 [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] 나 [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)] 리본 코드 숨김 파일에서 모든 단계를 수행 (*YourRibbonItem*합니다. Designer.cs 또는 *YourRibbonItem*합니다. Designer.vb)입니다. Visual Basic 프로젝트에서 코드 숨김 파일을 보려면 클릭 합니다 **모든 파일 표시** 단추 **솔루션 탐색기**합니다.
+- Visual Basic 프로젝트에서 또는 Visual C# 프로젝트에서 만든 [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] 나 [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)] 리본 코드 숨김 파일에서 모든 단계를 수행 (*YourRibbonItem*합니다. Designer.cs 또는 *YourRibbonItem*합니다. Designer.vb)입니다. Visual Basic 프로젝트에서 코드 숨김 파일을 보려면 클릭 합니다 **모든 파일 표시** 단추 **솔루션 탐색기**합니다.
 
--   Visual Studio 2008에서 만들고 후으로 업그레이드 하는 Visual C# 프로젝트에서 [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)]에서 리본 코드 파일의 처음 두 단계를 수행 (*YourRibbonItem*.cs 또는 *YourRibbonItem*.vb), 및 리본 코드 숨김 파일에서 나머지 단계를 수행 합니다.
+- Visual Studio 2008에서 만들고 후으로 업그레이드 하는 Visual C# 프로젝트에서 [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)]에서 리본 코드 파일의 처음 두 단계를 수행 (*YourRibbonItem*.cs 또는 *YourRibbonItem*.vb), 및 리본 코드 숨김 파일에서 나머지 단계를 수행 합니다.
 
 ### <a name="to-change-the-generated-ribbon-code"></a>생성된 리본 코드를 변경하려면
 
-1.  `Microsoft.Office.Tools.Ribbon.OfficeRibbon` 대신 <xref:Microsoft.Office.Tools.Ribbon.RibbonBase>에서 파생되도록 Ribbon 클래스의 선언을 수정합니다.
+1. `Microsoft.Office.Tools.Ribbon.OfficeRibbon` 대신 <xref:Microsoft.Office.Tools.Ribbon.RibbonBase>에서 파생되도록 Ribbon 클래스의 선언을 수정합니다.
 
-2.  아래와 같이 Ribbon 클래스의 생성자를 수정합니다. 사용자 고유의 코드를 생성자에 추가한 경우 코드를 변경하지 마세요. Visual Basic 프로젝트에서 매개 변수가 없는 생성자만 수정합니다. 다른 생성자는 무시하세요.
+2. 아래와 같이 Ribbon 클래스의 생성자를 수정합니다. 사용자 고유의 코드를 생성자에 추가한 경우 코드를 변경하지 마세요. Visual Basic 프로젝트에서 매개 변수가 없는 생성자만 수정합니다. 다른 생성자는 무시하세요.
 
      다음 코드 예제에서는 .NET Framework 3.5를 대상으로 하는 프로젝트에서 Ribbon 클래스의 기본 생성자를 보여 줍니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "58324684"
     }
     ```
 
-3.  `InitializeComponent` 메서드에서 리본 컨트롤을 생성하는 코드를 코드가 대신 <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체의 도우미 메서드 중 하나를 사용하도록 수정합니다.
+3. `InitializeComponent` 메서드에서 리본 컨트롤을 생성하는 코드를 코드가 대신 <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체의 도우미 메서드 중 하나를 사용하도록 수정합니다.
 
     > [!NOTE]
     >  Visual C# 프로젝트에서 `InitializeComponent` 메서드를 확인하려면 `Component Designer generated code`라는 영역을 확장해야 합니다.
@@ -99,7 +99,7 @@ ms.locfileid: "58324684"
 
      리본 컨트롤에 대 한 도우미 메서드의 전체 목록을 참조 하세요 [인스턴스화할 리본 컨트롤](#ribboncontrols)합니다.
 
-4.  Visual C# 프로젝트에서 <xref:System.EventHandler%601> 대리자를 사용하는 `InitializeComponent` 메서드의 코드 줄을 특정 리본 대리자를 대신 사용하도록 수정합니다.
+4. Visual C# 프로젝트에서 <xref:System.EventHandler%601> 대리자를 사용하는 `InitializeComponent` 메서드의 코드 줄을 특정 리본 대리자를 대신 사용하도록 수정합니다.
 
      예를 들어 파일에 .NET Framework 3.5를 대상으로 하는 프로젝트에서 <xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click> 이벤트를 처리하는 다음 코드 줄이 있다고 가정합니다.
 
@@ -107,13 +107,12 @@ ms.locfileid: "58324684"
 
     \<CodeContentPlaceHolder > 9</CodeContentPlaceHolder> 리본 대리자의 전체 목록을 참조 하세요. [처리 리본 이벤트](#ribbonevents)합니다.
 
-5.  Visual Basic 프로젝트에서 파일의 끝에 있는 `ThisRibbonCollection` 클래스를 찾습니다. 더 이상 `Microsoft.Office.Tools.Ribbon.RibbonReadOnlyCollection`에서 상속하지 않도록 이 클래스의 선언을 수정합니다.
+5. Visual Basic 프로젝트에서 파일의 끝에 있는 `ThisRibbonCollection` 클래스를 찾습니다. 더 이상 `Microsoft.Office.Tools.Ribbon.RibbonReadOnlyCollection`에서 상속하지 않도록 이 클래스의 선언을 수정합니다.
 
-##  <a name="ribboncontrols"></a> 리본 컨트롤 인스턴스화
+## <a name="ribboncontrols"></a> 리본 컨트롤 인스턴스화
  리본 컨트롤을 동적으로 인스턴스화하는 코드를 수정해야 합니다. .NET Framework 3.5를 대상으로 프로젝트에서 리본 컨트롤은 특정 시나리오에서 직접 인스턴스화할 수 있는 클래스입니다. [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 이러한 컨트롤은 직접 인스턴스화할 수 없는 인터페이스입니다. <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체가 제공하는 메서드를 사용하여 컨트롤을 만들어야 합니다.
 
- 
-  <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체에 액세스하는 방법에는 다음 두 가지가 있습니다.
+ <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체에 액세스하는 방법에는 다음 두 가지가 있습니다.
 
 - Ribbon 클래스의 팩터리 속성을 사용 합니다. Ribbon 클래스의 코드에서 이 방법을 사용합니다.
 
@@ -123,7 +122,7 @@ ms.locfileid: "58324684"
 
 \<CodeContentPlaceHolder > 10</CodeContentPlaceHolder> \<CodeContentPlaceHolder > 11</CodeContentPlaceHolder> 다음 표에 프로그래밍 방식으로 만들 수 있습니다 컨트롤과 를대상으로하는프로젝트에서컨트롤을만드는데사용할방법[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상.
 
-|Control|[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상 프로젝트에서 사용할 RibbonFactory 메서드|
+|컨트롤|[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상 프로젝트에서 사용할 RibbonFactory 메서드|
 |-------------| - |
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButton>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonButton%2A>|
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButtonGroup>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonButtonGroup%2A>|
@@ -143,7 +142,7 @@ ms.locfileid: "58324684"
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonTab>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonTab%2A>|
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonToggleButton%2A>|
 
-##  <a name="ribbonevents"></a> 리본 이벤트 처리
+## <a name="ribbonevents"></a> 리본 이벤트 처리
  Ribbon 컨트롤의 이벤트를 처리하는 코드를 수정해야 합니다. .NET Framework 3.5를 대상으로 하는 프로젝트에서 이러한 이벤트는 제네릭 <xref:System.EventHandler%601> 대리자에 의해 처리됩니다. [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서는 이제 이러한 이벤트가 다른 대리자에 의해 처리됩니다.
 
  다음 표에서는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서 리본 이벤트 및 연결된 대리자를 보여 줍니다.
@@ -157,8 +156,7 @@ ms.locfileid: "58324684"
 ## <a name="set-the-position-of-a-ribbon-component-programmatically"></a>리본 요소의 위치를 프로그래밍 방식으로 설정 합니다.
  리본 그룹, 탭 또는 컨트롤의 위치를 설정하는 코드를 수정해야 합니다. .NET Framework 3.5를 대상으로 하는 프로젝트에서는 정적 `Microsoft.Office.Tools.Ribbon.RibbonPosition` 클래스의 `AfterOfficeId` 및 `BeforeOfficeId` 메서드를 사용하여 그룹, 탭 또는 컨트롤의 `Position` 속성을 할당할 수 있습니다. [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상을 대상으로 하는 프로젝트에서는 <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체가 제공하는 <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.RibbonPosition%2A> 속성을 사용하여 이러한 메서드에 액세스해야 합니다.
 
- 
-  <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체에 액세스하는 방법에는 다음 두 가지가 있습니다.
+ <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체에 액세스하는 방법에는 다음 두 가지가 있습니다.
 
 - Ribbon 클래스의 `Factory` 속성 사용. Ribbon 클래스의 코드에서 이 방법을 사용합니다.
 

@@ -11,12 +11,12 @@ caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3a256a13d1840d2bf5f26635c5e572dce30434ae
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: f03c7260899db9e463282e45ef5bc76badb8a483
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655012"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082804"
 ---
 # <a name="walkthrough-using-msbuild"></a>연습: MSBuild 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,11 +36,11 @@ MSBuild는 Microsoft 및 Visual Studio용 빌드 플랫폼입니다. 이 연습�
   
 #### <a name="to-create-a-project-file"></a>프로젝트 파일을 만들려면  
   
-1.  Visual Studio를 엽니다.  
+1. Visual Studio를 엽니다.  
   
-2.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
+2. **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
   
-3.  **새 프로젝트** 대화 상자에서 Visual C# 프로젝트 형식을 선택하고 **Windows Forms 응용 프로그램** 템플릿을 선택합니다. **이름** 상자에 `BuildApp`을 입력합니다. 솔루션의 **위치**를 `D:\`와 같이 입력합니다. **솔루션용 디렉터리 만들기**의 기본값(선택된 상태), **소스 제어에 추가**의 기본값(선택되지 않은 상태) 및 **솔루션 이름**의 기본값(`BuildApp`)을 적용합니다.  
+3. **새 프로젝트** 대화 상자에서 Visual C# 프로젝트 형식을 선택하고 **Windows Forms 응용 프로그램** 템플릿을 선택합니다. **이름** 상자에 `BuildApp`을 입력합니다. 솔루션의 **위치**를 `D:\`와 같이 입력합니다. **솔루션용 디렉터리 만들기**의 기본값(선택된 상태), **소스 제어에 추가**의 기본값(선택되지 않은 상태) 및 **솔루션 이름**의 기본값(`BuildApp`)을 적용합니다.  
   
      **확인**을 클릭하여 프로젝트 파일을 만듭니다.  
   
@@ -49,13 +49,13 @@ MSBuild는 Microsoft 및 Visual Studio용 빌드 플랫폼입니다. 이 연습�
   
 #### <a name="to-examine-the-project-file"></a>프로젝트 파일을 검사하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트 노드 BuildApp을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트 노드 BuildApp을 클릭합니다.  
   
-2.  **속성** 브라우저에서 **프로젝트 파일** 속성이 BuildApp.csproj인지 확인합니다. 모든 프로젝트 파일 이름에는 접미사 "proj"가 추가됩니다. Visual Basic 프로젝트를 만든 경우 프로젝트 파일 이름은 BuildApp.vbproj가 됩니다.  
+2. **속성** 브라우저에서 **프로젝트 파일** 속성이 BuildApp.csproj인지 확인합니다. 모든 프로젝트 파일 이름에는 접미사 "proj"가 추가됩니다. Visual Basic 프로젝트를 만든 경우 프로젝트 파일 이름은 BuildApp.vbproj가 됩니다.  
   
-3.  프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **프로젝트 언로드**를 클릭합니다.  
+3. 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **프로젝트 언로드**를 클릭합니다.  
   
-4.  프로젝트 노드를 다시 마우스 오른쪽 단추로 클릭하고 **BuildApp.csproj 편집**을 클릭합니다.  
+4. 프로젝트 노드를 다시 마우스 오른쪽 단추로 클릭하고 **BuildApp.csproj 편집**을 클릭합니다.  
   
      프로젝트 파일이 코드 편집기에 나타납니다.  
   
@@ -136,17 +136,17 @@ MSBuild는 Microsoft 및 Visual Studio용 빌드 플랫폼입니다. 이 연습�
   
 #### <a name="to-build-the-target"></a>대상을 빌드하려면  
   
-1.  **시작**, **모든 프로그램**을 차례로 클릭합니다. **Visual Studio Tools** 폴더에서 **Visual Studio 명령 프롬프트**를 찾아서 클릭합니다.  
+1. **시작**, **모든 프로그램**을 차례로 클릭합니다. **Visual Studio Tools** 폴더에서 **Visual Studio 명령 프롬프트**를 찾아서 클릭합니다.  
   
-2.  명령 창에서 프로젝트 파일을 포함하는 폴더(이 연습의 경우 D:\BuildApp\BuildApp)로 이동합니다.  
+2. 명령 창에서 프로젝트 파일을 포함하는 폴더(이 연습의 경우 D:\BuildApp\BuildApp)로 이동합니다.  
   
-3.  명령 스위치 /t:HelloWorld를 사용하여 msbuild를 실행합니다. 그러면 HelloWorld 대상이 선택 및 빌드됩니다.  
+3. 명령 스위치 /t:HelloWorld를 사용하여 msbuild를 실행합니다. 그러면 HelloWorld 대상이 선택 및 빌드됩니다.  
   
     ```  
     msbuild buildapp.csproj /t:HelloWorld  
     ```  
   
-4.  **명령 창**에서 출력을 검사합니다. "Hello" 및 "World"의 두 줄이 표시됩니다.  
+4. **명령 창**에서 출력을 검사합니다. "Hello" 및 "World"의 두 줄이 표시됩니다.  
   
     ```  
     Hello  
@@ -202,7 +202,7 @@ $(PropertyName)
   
 #### <a name="to-examine-a-property-value"></a>속성값을 검사하려면  
   
-1.  코드 편집기에서 HelloWorld 대상을 다음 코드로 바꿉니다.  
+1. 코드 편집기에서 HelloWorld 대상을 다음 코드로 바꿉니다.  
   
     ```  
     <Target Name="HelloWorld">  
@@ -211,15 +211,15 @@ $(PropertyName)
     </Target>  
     ```  
   
-2.  프로젝트 파일을 저장합니다.  
+2. 프로젝트 파일을 저장합니다.  
   
-3.  **명령 창**에서 다음 줄을 입력하고 실행합니다.  
+3. **명령 창**에서 다음 줄을 입력하고 실행합니다.  
   
     ```  
     msbuild buildapp.csproj /t:HelloWorld  
     ```  
   
-4.  출력을 검사합니다. 다음과 같은 두 줄이 표시됩니다. 사용 중인 .NET Framework 버전은 이 줄과 다를 수 있습니다.  
+4. 출력을 검사합니다. 다음과 같은 두 줄이 표시됩니다. 사용 중인 .NET Framework 버전은 이 줄과 다를 수 있습니다.  
   
     ```  
     Configuration is Debug  
@@ -366,19 +366,19 @@ $(PropertyName)
   
 #### <a name="to-display-item-type-values-one-per-line"></a>항목 종류 값을 한 줄에 하나씩 표시하려면  
   
-1.  코드 편집기에서 메시지 작업을 다음 줄로 바꿉니다.  
+1. 코드 편집기에서 메시지 작업을 다음 줄로 바꿉니다.  
   
     ```  
     <Message Text="Compile item type contains @(Compile, '%0A%0D')" />  
     ```  
   
-2.  프로젝트 파일을 저장합니다.  
+2. 프로젝트 파일을 저장합니다.  
   
-3.  **명령 창**에서 다음 줄을 입력하고 실행합니다.  
+3. **명령 창**에서 다음 줄을 입력하고 실행합니다.  
   
      `msbuild buildapp.csproj /t:HelloWorld`  
   
-4.  출력을 검사합니다. 다음 줄이 표시됩니다.  
+4. 출력을 검사합니다. 다음 줄이 표시됩니다.  
   
     ```  
     Compile item type contains Form1.cs  
@@ -436,13 +436,13 @@ $(PropertyName)
   
 ##### <a name="to-include-and-exclude-items"></a>항목을 포함 및 제외하려면  
   
-1.  코드 편집기에서 메시지 작업을 다음 줄로 바꿉니다.  
+1. 코드 편집기에서 메시지 작업을 다음 줄로 바꿉니다.  
   
     ```  
     <Message Text="Compile item type contains @(XFiles)" />  
     ```  
   
-2.  Import 요소 바로 뒤에 다음 항목 그룹을 추가합니다.  
+2. Import 요소 바로 뒤에 다음 항목 그룹을 추가합니다.  
   
     ```  
     <ItemGroup>  
@@ -450,15 +450,15 @@ $(PropertyName)
     </ItemGroup>  
     ```  
   
-3.  프로젝트 파일을 저장합니다.  
+3. 프로젝트 파일을 저장합니다.  
   
-4.  **명령 창**에서 다음 줄을 입력하고 실행합니다.  
+4. **명령 창**에서 다음 줄을 입력하고 실행합니다.  
   
     ```  
     msbuild buildapp.csproj /t:HelloWorld  
     ```  
   
-5.  출력을 검사합니다. 다음 줄이 표시됩니다.  
+5. 출력을 검사합니다. 다음 줄이 표시됩니다.  
   
     ```  
     Compile item type contains Form1.cs;Program.cs;Properties/Resources.resx  

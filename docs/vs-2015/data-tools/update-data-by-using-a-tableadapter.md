@@ -21,12 +21,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 585dfa357082fbb46794ab5f6dcc7b0e141fc9b7
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 56b01eb64d38563178d6af947174d0c4d2720bea
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653754"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113824"
 ---
 # <a name="update-data-by-using-a-tableadapter"></a>TableAdapter를 사용하여 데이터 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,18 +38,18 @@ ms.locfileid: "59653754"
   
  데이터 소스를 업데이트 하기 위한 정확한 절차는 비즈니스 요구 사항에 따라 달라질 수 있지만 다음 단계가 포함 됩니다.  
   
-1.  어댑터의 호출 `Update` 의 메서드를 `try` / `catch` 블록입니다.  
+1. 어댑터의 호출 `Update` 의 메서드를 `try` / `catch` 블록입니다.  
   
-2.  예외가 포착 되는 경우 오류를 발생 시키는 데이터 행을 찾습니다. 자세한 내용은 [방법: 오류가 있는 행 찾기](http://msdn.microsoft.com/library/1fa907c5-fe66-4f29-a253-2b97b900050c)합니다.  
+2. 예외가 포착 되는 경우 오류를 발생 시키는 데이터 행을 찾습니다. 자세한 내용은 [방법: 오류가 있는 행 찾기](http://msdn.microsoft.com/library/1fa907c5-fe66-4f29-a253-2b97b900050c)합니다.  
   
-3.  데이터의 문제 (가능한 경우 프로그래밍 방식으로 또는 수정에 대 한 사용자에 게 잘못 된 행을 제공 하 여) 행을 한 다음 다시 업데이트 (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).  
+3. 데이터의 문제 (가능한 경우 프로그래밍 방식으로 또는 수정에 대 한 사용자에 게 잘못 된 행을 제공 하 여) 행을 한 다음 다시 업데이트 (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).  
   
 ## <a name="savedata-to-a-database"></a>Savedata 데이터베이스로  
  호출 된 `Update` TableAdapter의 메서드. 데이터베이스에 쓸 값이 포함 된 데이터 테이블의 이름을 전달 하세요.  
   
 #### <a name="to-update-a-database-by-using-a-tableadapter"></a>TableAdapter를 사용 하 여 데이터베이스를 업데이트 하려면  
   
--   TableAdapter의 묶습니다`Update` 의 메서드를 `try` / `catch` 블록입니다. 다음 예제에서는의 내용을 업데이트 하는 방법을 보여 줍니다 합니다 `Customers` 테이블의 `NorthwindDataSet` 내에서 `try` / `catch` 블록입니다.  
+- TableAdapter의 묶습니다`Update` 의 메서드를 `try` / `catch` 블록입니다. 다음 예제에서는의 내용을 업데이트 하는 방법을 보여 줍니다 합니다 `Customers` 테이블의 `NorthwindDataSet` 내에서 `try` / `catch` 블록입니다.  
   
      [!code-csharp[VbRaddataSaving#9](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form3.cs#9)]
      [!code-vb[VbRaddataSaving#9](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form3.vb#9)]  

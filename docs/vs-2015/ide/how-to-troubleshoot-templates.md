@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: eb2c708bfb6bfafe90b548ad2826e0cf11882a3b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: e7daee59d754b8b09ed8684ff16a6bae81fa3bf8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54793208"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079774"
 ---
 # <a name="how-to-troubleshoot-templates"></a>방법: 템플릿 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,24 +28,24 @@ ms.locfileid: "54793208"
   
 #### <a name="to-validate-the-vstemplate-file"></a>.vstemplate 파일의 유효성을 검사하려면  
   
-1.  템플릿을 포함하는 .zip 파일을 찾습니다.  
+1. 템플릿을 포함하는 .zip 파일을 찾습니다.  
   
-2.  .zip 파일의 압축을 풉니다.  
+2. .zip 파일의 압축을 풉니다.  
   
-3.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **파일** 메뉴에서 **열기**를 클릭하고 **파일**을 클릭합니다.  
+3. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **파일** 메뉴에서 **열기**를 클릭하고 **파일**을 클릭합니다.  
   
-4.  템플릿의 .vstemplate 파일을 선택하고 **열기**를 클릭합니다.  
+4. 템플릿의 .vstemplate 파일을 선택하고 **열기**를 클릭합니다.  
   
-5.  .vstemplate 파일의 XML이 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 템플릿 스키마에 부합하는지 확인합니다. .vstemplate 스키마에 대한 자세한 내용은 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)를 참조하세요.  
+5. .vstemplate 파일의 XML이 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 템플릿 스키마에 부합하는지 확인합니다. .vstemplate 스키마에 대한 자세한 내용은 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)를 참조하세요.  
   
     > [!NOTE]
     >  .vstemplate 파일을 제작하는 동안 IntelliSense 지원을 가져오려면 `xmlns` 특성을 `VSTemplate` 요소에 추가하고 http://schemas.microsoft.com/developer/vstemplate/2005의 값을 할당합니다.  
   
-6.  .vstemplate 파일을 저장한 다음 닫습니다.  
+6. .vstemplate 파일을 저장한 다음 닫습니다.  
   
-7.  템플릿에 포함된 파일을 선택하고, 마우스 오른쪽 단추로 클릭하고, **보내기**를 선택하고, **압축(ZIP) 폴더**를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
+7. 템플릿에 포함된 파일을 선택하고, 마우스 오른쪽 단추로 클릭하고, **보내기**를 선택하고, **압축(ZIP) 폴더**를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
   
-8.  새 .zip 파일을 이전 .zip 파일과 같은 디렉터리에 배치합니다.  
+8. 새 .zip 파일을 이전 .zip 파일과 같은 디렉터리에 배치합니다.  
   
 9. 추출된 템플릿 파일과 이전 템플릿 .zip 파일을 삭제합니다.  
   
@@ -54,13 +54,13 @@ ms.locfileid: "54793208"
   
 #### <a name="to-locate-template-errors-in-event-viewer"></a>이벤트 뷰어에서 템플릿 오류를 찾으려면  
   
-1.  Windows에서 **시작**, **제어판**을 차례로 클릭한 다음 **관리 도구**, **이벤트 뷰어**를 차례로 두 번 클릭합니다.  
+1. Windows에서 **시작**, **제어판**을 차례로 클릭한 다음 **관리 도구**, **이벤트 뷰어**를 차례로 두 번 클릭합니다.  
   
-2.  왼쪽 창에서 **애플리케이션**을 클릭합니다.  
+2. 왼쪽 창에서 **애플리케이션**을 클릭합니다.  
   
-3.  `Visual Studio - VsTemplate`이라는 **원본** 값을 포함하는 이벤트를 검색합니다.  
+3. `Visual Studio - VsTemplate`이라는 **원본** 값을 포함하는 이벤트를 검색합니다.  
   
-4.  오류를 보려면 템플릿 이벤트를 두 번 클릭합니다.  
+4. 오류를 보려면 템플릿 이벤트를 두 번 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [템플릿 사용자 지정](../ide/customizing-project-and-item-templates.md)   

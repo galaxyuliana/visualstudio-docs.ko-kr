@@ -10,21 +10,21 @@ ms.assetid: 289ed4f2-02ac-4899-855e-42dfe57ee05f
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 224fb081f21701433a84121985f90351225036e5
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: e43893af3275258c49e3e23348afb106416636a6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58971920"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113848"
 ---
 # <a name="properties-window-overview"></a>속성 창 개요
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 합니다 **속성** 창을 사용 하 여 windows에서 사용할 수 있는 두 가지 주요 유형에서 선택한 개체에 대 한 속성을 표시 합니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 통합된 개발 환경 (IDE)입니다. 이러한 두 창의 유형은 다음과 같습니다.  
   
--   솔루션 탐색기, 클래스 뷰 및 개체 브라우저와 같은 도구 창  
+- 솔루션 탐색기, 클래스 뷰 및 개체 브라우저와 같은 도구 창  
   
--   이러한 편집기 및 디자이너와 forms 디자이너, XML 편집기, HTML 편집기를 포함 하는 문서 창  
+- 이러한 편집기 및 디자이너와 forms 디자이너, XML 편집기, HTML 편집기를 포함 하는 문서 창  
   
 ## <a name="using-the-properties-window"></a>속성 창 사용  
  합니다 **속성** 단일 또는 여러 선택된 항목의 속성 창에 표시 됩니다. 여러 항목을 선택 하는 경우 선택한 모든 개체에 대 한 모든 속성의 교집합 표시 됩니다.  

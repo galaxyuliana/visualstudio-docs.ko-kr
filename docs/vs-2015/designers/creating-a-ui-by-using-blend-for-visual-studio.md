@@ -11,12 +11,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 80c8d385e0c78461df5b7938d356ec43a481e46e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 8fe6377de1be51ac0fc48904687b60ed8bbc95b1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670422"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082960"
 ---
 # <a name="creating-a-ui-by-using-blend-for-visual-studio"></a>Blend for Visual Studio를 사용하여 UI 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,15 +32,15 @@ Blend for Visual Studio를 사용하면 XAML 기반 Windows 데스크톱, 웹, [
 
  **항목 내용**:
 
--   [도구 패널 둘러보기](#Tools)
+- [도구 패널 둘러보기](#Tools)
 
--   [자산 패널 둘러보기](#Assets)
+- [자산 패널 둘러보기](#Assets)
 
--   [개체 및 타임라인 패널 둘러보기](#Objects)
+- [개체 및 타임라인 패널 둘러보기](#Objects)
 
--   [속성 패널 둘러보기](#Properties)
+- [속성 패널 둘러보기](#Properties)
 
-##  <a name="Tools"></a> 도구 패널 둘러보기
+## <a name="Tools"></a> 도구 패널 둘러보기
  Blend for Visual Studio에서 **도구** 패널을 사용하여 애플리케이션의 개체를 만들고 수정할 수 있습니다. 도구를 선택한 다음 마우스로 아트보드에 그려 개체를 만들 수 있습니다.
 
  ![도구 패널](../designers/media/blend5toolspanel.png "Blend5Toolspanel")
@@ -56,7 +56,7 @@ Blend for Visual Studio를 사용하면 XAML 기반 Windows 데스크톱, 웹, [
 
  **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [도구 모음](https://www.youtube.com/watch?v=VkdUJcvoo54&list=PLBDF977B2F1DAB358&index=4)합니다.
 
-##  <a name="Assets"></a> 자산 패널 둘러보기
+## <a name="Assets"></a> 자산 패널 둘러보기
  Visual Studio의 **도구 상자**와 비슷한 **자산** 패널에서 모든 컨트롤을 찾을 수 있습니다. 컨트롤 외에도, 스타일, 미디어, 동작, 효과 등 무엇이든 **자산** 패널의 아트보드에 추가할 수 있습니다.
 
  ![자산 패널](../designers/media/blend5-assets-panel.png "Blend5_Assets_panel")
@@ -69,7 +69,7 @@ Blend for Visual Studio를 사용하면 XAML 기반 Windows 데스크톱, 웹, [
 |![](../designers/media/b1-4.png "B1_4")|**스타일** 리소스 사전에 포함된 모든 스타일을 표시합니다.|
 |![](../designers/media/b1-5.png "B1_5")|**설명** 선택한 자산 범주 또는 하위 범주에 대한 설명을 표시합니다.|
 
-##  <a name="Objects"></a> 개체 및 타임라인 패널 둘러보기
+## <a name="Objects"></a> 개체 및 타임라인 패널 둘러보기
  이 패널에서는 아트보드에서 개체를 구성하고 원하는 경우 개체에 애니메이션 효과를 적용할 수 있습니다.
 
  ![애니메이션 모드의 개체 및 타임라인 패널](../designers/media/b5-object-timeline-animation.png "b5_object_timeline_animation")
@@ -93,7 +93,7 @@ Blend for Visual Studio를 사용하면 XAML 기반 Windows 데스크톱, 웹, [
 |![](../designers/media/b1-15.png "B1_15")|**타임라인 확대/축소** 타임라인의 확대/축소 해상도를 설정합니다. 확대하면 애니메이션을 좀 더 자세하게 편집할 수 있고 축소하면 더 긴 시간 동안 발생하는 동작이 좀 더 간략하게 표시됩니다. 확대했지만 원하는 시점에 키 프레임을 설정할 수 없다면 맞춤 해상도가 충분히 높게 설정되어 있는지 확인하십시오.|
 |![설명선 16](../designers/media/b5-label-16.png "b5_label_16")|**타임라인 합성 영역** 타임라인이 표시됩니다. 키 프레임을 직접 끌거나 바로 가기 메뉴를 사용하여 이동할 수 있습니다.|
 
-##  <a name="Properties"></a> 속성 패널 둘러보기
+## <a name="Properties"></a> 속성 패널 둘러보기
  이 패널에서는 개체의 속성을 보고 수정할 수 있으며, 아트보드에서 직접 수정하도록 설정할 수도 있습니다. 이렇게 하면 속성 변경 내용이 **속성** 패널에 반영됩니다.
 
  ![속성 패널](../designers/media/blend5-properties-panel.png "Blend5_properties_panel")

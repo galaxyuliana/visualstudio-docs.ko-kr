@@ -9,12 +9,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2a7553bb07e90e690d6409a2ad22636ddc8b627c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 186ca5857d949c7a7a8c90e3e5ec8770705e19cc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981676"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104098"
 ---
 # <a name="how-to-start-debugging-xslt"></a>방법: XSLT 디버깅 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,15 +26,15 @@ XSLT 디버거를 사용하여 XSLT 스타일시트 또는 XSLT 응용 프로그
   
 #### <a name="to-start-debugging-from-a-style-sheet"></a>스타일시트에서 디버깅을 시작하려면  
   
-1.  XML 편집기에서 스타일시트를 엽니다.  
+1. XML 편집기에서 스타일시트를 엽니다.  
   
-2.  선택 **XSL 디버깅** 에서 합니다 **XML** 메뉴.  
+2. 선택 **XSL 디버깅** 에서 합니다 **XML** 메뉴.  
   
 #### <a name="to-start-debugging-from-an-xml-input-document"></a>XML 입력 문서에서 디버깅을 시작하려면  
   
-1.  XML 편집기에서 XML 문서를 엽니다.  
+1. XML 편집기에서 XML 문서를 엽니다.  
   
-2.  선택 **XSL 디버깅** 에서 합니다 **XML** 메뉴.  
+2. 선택 **XSL 디버깅** 에서 합니다 **XML** 메뉴.  
   
 ## <a name="xslt-from-other-languages"></a>다른 언어의 XSLT  
  응용 프로그램을 디버깅하는 동안 XSLT를 한 단계씩 실행할 수도 있습니다. <xref:System.Xml.Xsl.XslCompiledTransform.Transform%2A?displayProperty=fullName> 호출에서 F11 키를 누르면 디버거에서 XSLT 코드를 한 단계씩 실행할 수 있습니다.  
@@ -44,11 +44,11 @@ XSLT 디버거를 사용하여 XSLT 스타일시트 또는 XSLT 응용 프로그
   
 #### <a name="to-start-debugging-an-xslt-application"></a>XSLT 응용 프로그램 디버깅을 시작하려면  
   
-1.  <xref:System.Xml.Xsl.XslCompiledTransform> 개체를 인스턴스화할 때 코드에서 `enableDebug` 매개 변수를 `true`로 설정합니다.  
+1. <xref:System.Xml.Xsl.XslCompiledTransform> 개체를 인스턴스화할 때 코드에서 `enableDebug` 매개 변수를 `true`로 설정합니다.  
   
      그러면 XSLT 프로세서에서 코드를 컴파일할 때 디버그 정보가 생성됩니다.  
   
-2.  F11 키를 눌러 XSLT 코드를 한 단계씩 실행합니다.  
+2. F11 키를 눌러 XSLT 코드를 한 단계씩 실행합니다.  
   
      XSLT 스타일시트가 새 문서 창에 로드되고 XSLT 디버거가 시작됩니다.  
   

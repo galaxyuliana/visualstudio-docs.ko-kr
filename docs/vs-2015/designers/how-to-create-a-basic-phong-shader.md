@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d5e4f1916fb7bfc0672efeddaac5e632692f92f9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 78ff2ecf77d3d8943601b8bd0779fa37811ec2d2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54787332"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113757"
 ---
 # <a name="how-to-create-a-basic-phong-shader"></a>방법: 기본 퐁 셰이더 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,22 +23,22 @@ ms.locfileid: "54787332"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   셰이더 그래프에 노드 추가  
+- 셰이더 그래프에 노드 추가  
   
--   노드 연결 해제  
+- 노드 연결 해제  
   
--   노드 연결  
+- 노드 연결  
   
 ## <a name="the-phong-lighting-model"></a>퐁 조명 모델  
  퐁 조명 모델은 표면의 반사 속성을 시뮬레이트하는 반사 상조 표시를 포함하도록 램버트 조명 모델을 확장합니다. 반사 구성 요소는 램버트 조명 모델에 사용되는 동일한 방향성 광원에서 추가적인 조명을 제공하지만 최종 색에 대한 기여도는 다르게 처리됩니다. 반사 강조 표시는 뷰 방향, 광원 방향 및 표면 방향 간의 관계에 따라 장면의 모든 표면에 다른 영향을 미칩니다. 표면의 확산 색, 반사 강도 및 방향과 광원의 색, 강도 및 방향을 기반으로 결과가 생성됩니다. 뷰어에서 직접 광원을 반사하는 표면은 최대 기여도를 받고 뷰어에서 떨어져 광원을 반사하는 표면은 기여도를 받지 않습니다. 퐁 조명 모델에서 하나 이상의 반사 구성 요소가 결합되어 개체의 각 점에 대한 반사 강조 표시의 색 및 강도를 결정하고 램버트 조명의 결과에 추가되어 픽셀의 최종 색을 생성합니다.  
   
- 램버트 조명 모델에 대한 자세한 내용은 [방법: 기본 램버트 셰이더 만들기](../designers/how-to-create-a-basic-lambert-shader.md)를 참조하세요.  
+ 램버트 조명 모델에 대한 자세한 내용은 [방법: 기본 램버트 셰이더 만들기](../designers/how-to-create-a-basic-lambert-shader.md)합니다.  
   
  시작하기 전에 **속성** 창과 **도구 상자**가 표시되는지 확인하세요.  
   
 #### <a name="to-create-a-phong-shader"></a>퐁 셰이더를 만들려면  
   
-1. [방법: 기본 램버트 셰이더 만들기](../designers/how-to-create-a-basic-lambert-shader.md)에 설명된 대로 램버트 셰이더를 만듭니다.  
+1. [방법: 기본 램버트 셰이더 만들기](../designers/how-to-create-a-basic-lambert-shader.md)합니다.  
   
 2. **최종 색** 노드에서 **램버트** 노드의 연결을 끊습니다. **램버트** 노드의 **RGB** 터미널을 선택하고 **연결 끊기**를 선택합니다. 그러면 다음 단계에서 추가되는 노드에 대한 공간이 생깁니다.  
   

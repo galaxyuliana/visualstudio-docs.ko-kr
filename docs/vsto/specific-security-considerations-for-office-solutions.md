@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b1a40fe9329061b457fb2038399324818ec69e43
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 5c59824594a783ad952a7b15c47ee3f781aba79d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629081"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081322"
 ---
 # <a name="specific-security-considerations-for-office-solutions"></a>Office 솔루션에 대 한 특정 보안 고려 사항
   Microsoft .NET Framework 및 Microsoft Office에서 제공된 보안 기능을 통해 다양한 보안 위협에 대해 Office 솔루션을 보호할 수 있습니다. 이 항목에서는 이러한 위협 중 일부에 대해 설명하고 이러한 위협으로부터 보호하기 위한 권장 사항을 제공합니다. 또한 Office 솔루션에 영향을 주는 Microsoft Office 보안 설정에 대한 정보를 포함합니다.
@@ -39,13 +39,13 @@ ms.locfileid: "56629081"
 
 ### <a name="recommendations"></a>권장 사항
 
--   사용자, 문서, 데이터베이스, 웹 서비스 또는 기타 원본으로부터의 입력 및 데이터의 유효성을 항상 검사합니다.
+- 사용자, 문서, 데이터베이스, 웹 서비스 또는 기타 원본으로부터의 입력 및 데이터의 유효성을 항상 검사합니다.
 
--   사용자 대신 권한 있는 데이터 가져오기 및 보호되지 않는 워크시트에 데이터 쓰기 등 특정 유형의 기능을 노출할 때 주의합니다.
+- 사용자 대신 권한 있는 데이터 가져오기 및 보호되지 않는 워크시트에 데이터 쓰기 등 특정 유형의 기능을 노출할 때 주의합니다.
 
--   애플리케이션 형식에 따라 코드를 실행하기 전에 원본 문서가 실행 중인지 확인해야 합니다. 예를 들어 알려지고 안전한 위치에 저장된 문서에서 실행되고 있는지 확인합니다.
+- 애플리케이션 형식에 따라 코드를 실행하기 전에 원본 문서가 실행 중인지 확인해야 합니다. 예를 들어 알려지고 안전한 위치에 저장된 문서에서 실행되고 있는지 확인합니다.
 
--   애플리케이션에서 권한 있는 작업을 수행하는 경우 문서를 열 때 경고를 표시하는 것도 좋은 방법입니다. 예를 들어 애플리케이션이 개인 정보에 액세스하려고 하며 계속할지 또는 취소할지 선택하라는 시작 대화 상자나 시작 화면을 사용자에게 표시할 수 있습니다. 문제 없는 문서에서 이러한 경고가 나타나는 경우 최종 사용자는 손상되기 전에 애플리케이션을 종료할 수 있습니다.
+- 애플리케이션에서 권한 있는 작업을 수행하는 경우 문서를 열 때 경고를 표시하는 것도 좋은 방법입니다. 예를 들어 애플리케이션이 개인 정보에 액세스하려고 하며 계속할지 또는 취소할지 선택하라는 시작 대화 상자나 시작 화면을 사용자에게 표시할 수 있습니다. 문제 없는 문서에서 이러한 경고가 나타나는 경우 최종 사용자는 손상되기 전에 애플리케이션을 종료할 수 있습니다.
 
 ## <a name="code-is-blocked-by-the-outlook-object-model-guard"></a>Outlook 개체 모델 보호에 의해 코드가 차단 됨
  Microsoft Office에서는 코드에서 개체 모델의 특정 속성, 메서드 및 개체를 사용하지 못하도록 제한할 수 있습니다. 이러한 개체에 액세스를 제한 하면 Outlook 전자 메일 웜 및 바이러스가 악의적인 용도로 개체 모델을 사용 하지 않도록 수 있습니다. 이 보안 기능을 Outlook 개체 모델 보호라고 합니다. Outlook 작업을 중지 하려면 사용자 또는 사용자가 t의 제한 된 기간에 대 한 메서드나 속성에 대 한 액세스를 부여할 수 있도록 하는 보안 경고를 표시 하는 경우 VSTO 추가 기능에 개체 모델 보호에 사용 하는 동안 제한 된 속성 또는 메서드를 사용 하 여, ime입니다. 사용자가 작업을 중지한 경우 Visual Studio의 Office 솔루션을 사용하여 만들어진 Outlook VSTO 추가 기능에서 <xref:System.Runtime.InteropServices.COMException>을 throw합니다.
@@ -103,17 +103,17 @@ ms.locfileid: "56629081"
 
 #### <a name="to-disable-vsto-add-ins-in-microsoft-office-2010-and-microsoft-includeoffice15shortvstoincludesoffice-15-short-mdmd-applications"></a>Microsoft Office 2010 및 Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 애플리케이션에서 VSTO 추가 기능을 사용하지 않으려면
 
-1.  **파일** 탭을 선택합니다.
+1. **파일** 탭을 선택합니다.
 
-2.  *ApplicationName* **옵션** 단추를 선택합니다.
+2. *ApplicationName* **옵션** 단추를 선택합니다.
 
-3.  범주 창에서 **보안 센터**를 선택합니다.
+3. 범주 창에서 **보안 센터**를 선택합니다.
 
-4.  세부 정보 창에서 **보안 센터 설정**을 선택합니다.
+4. 세부 정보 창에서 **보안 센터 설정**을 선택합니다.
 
-5.  범주 창에서 **추가 기능**을 선택합니다.
+5. 범주 창에서 **추가 기능**을 선택합니다.
 
-6.  세부 정보 창에서 **애플리케이션 추가 기능에 신뢰할 수 있는 게시자의 서명 필요** 또는 **모든 애플리케이션 추가 기능 사용 안 함**을 선택합니다.
+6. 세부 정보 창에서 **애플리케이션 추가 기능에 신뢰할 수 있는 게시자의 서명 필요** 또는 **모든 애플리케이션 추가 기능 사용 안 함**을 선택합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office 솔루션 보안](../vsto/securing-office-solutions.md)

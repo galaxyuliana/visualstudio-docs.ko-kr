@@ -2,7 +2,7 @@
 title: '자습서: 리포지토리에서 프로젝트 열기'
 description: Visual Studio를 사용하여 Git 또는 Azure DevOps 리포지토리에서 프로젝트를 여는 방법을 알아봅니다.
 ms.custom: get-started
-ms.date: 03/13/2019
+ms.date: 03/30/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -14,12 +14,12 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: f017e0ef3d7b76ba4d5de18ecab614f030b07501
-ms.sourcegitcommit: 4ffb7be5384ad566ce46538032bf8561754c61a4
+ms.openlocfilehash: 928e77c5c28b76570525b8ea9037cd0d0cef7f99
+ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "58070076"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58857569"
 ---
 # <a name="tutorial-open-a-project-from-a-repo"></a>자습서: 리포지토리에서 프로젝트 열기
 
@@ -33,11 +33,13 @@ ms.locfileid: "58070076"
 
 ::: moniker range="vs-2019"
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다.
 
 ::: moniker-end
 
 ## <a name="open-a-project-from-a-github-repo"></a>GitHub 리포지토리에서 프로젝트 열기
+
+::: moniker range="vs-2017"
 
 1. Visual Studio 2017을 엽니다.
 
@@ -69,7 +71,33 @@ ms.locfileid: "58070076"
 
    ![Visual Studio를 사용하여 GitHub 리포지토리에서 프로젝트를 여는 애니메이션](./media/open-project-from-github.gif)
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Visual Studio 2019를 엽니다.
+
+1. 시작 창에서 **코드 복제 또는 체크 아웃**을 선택합니다.
+
+   !['새 프로젝트 만들기' 창 보기](../get-started/media/vs-2019/clone-checkout-code-dark.png)
+
+1. 리토지토리 위치를 입력한 다음, **복제**를 선택합니다.
+
+   !['코드 복제 또는 체크 아웃' 창 보기](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
+
+   Visual Studio는 리포지토리에서 프로젝트를 엽니다.
+
+1. 사용 가능한 솔루션 파일이 있는 경우 “솔루션 및 폴더” 플라이아웃 메뉴에 표시됩니다. 해당 파일을 선택하면 Visual Studio에서 솔루션을 엽니다.
+
+   ![솔루션 탐색기 드롭다운 목록에서 열려는 항목 선택](./media/open-proj-repo-github-solutions-folders-picker.png)
+
+   리포지토리에 솔루션 파일(특히 .sln 파일)이 없는 경우 플라이아웃 메뉴에 “솔루션을 찾을 수 없음”이 표시됩니다. 하지만 폴더 메뉴의 어떤 파일이든 두 번 클릭하면 Visual Studio 코드 편집기에서 열 수 있습니다.
+
+::: moniker-end
+
 ## <a name="open-a-project-from-an-azure-devops-repo"></a>Azure DevOps 리포지토리에서 프로젝트 열기
+
+::: moniker range="vs-2017"
 
 1. Visual Studio 2017을 엽니다.
 
@@ -103,7 +131,48 @@ ms.locfileid: "58070076"
    솔루션 파일(특히 .sln 파일)은 “솔루션 및 폴더” 플라이아웃 메뉴에 표시됩니다. 해당 파일을 선택하면 Visual Studio에서 솔루션을 엽니다.
 
    리포지토리에 솔루션 파일이 없는 경우 플라이아웃 메뉴에 “솔루션을 찾을 수 없음”이 표시됩니다. 하지만 폴더 메뉴의 어떤 파일이든 두 번 클릭하면 Visual Studio 코드 편집기에서 열 수 있습니다.
-  
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Visual Studio 2019를 엽니다.
+
+1. 시작 창에서 **코드 복제 또는 체크 아웃**을 선택합니다.
+
+   !['새 프로젝트 만들기' 창 보기](../get-started/media/vs-2019/clone-checkout-code-dark.png)
+
+1. **리포지토리 찾아보기** 섹션에서 **Azure DevOps**를 선택합니다.
+
+   !['코드 복제 또는 체크 아웃' 창 보기](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
+
+   로그인 창이 표시되면 계정에 로그인합니다.
+
+1. **프로젝트에 연결** 대화 상자에서 연결할 리포지토리를 선택한 후 **복제**를 선택합니다.
+
+      ![Visual Studio에서 생성된 “프로젝트에 연결” 대화 상자](./media/open-proj-azure-devops-connect-cloud-clone.png)
+
+    > [!NOTE]
+    > 목록 상자에 표시되는 내용은 액세스 권한이 있는 Azure DevOps 리포지토리에 따라 달라집니다.
+
+   Visual Studio는 **팀 탐색기**를 열고 복제가 완료되면 알림을 표시합니다.
+
+     ![복제가 완료된 후 Visual Studio의 팀 탐색기 창](./media/vs-2019/clone-complete-azure-devops.png)
+
+1. 폴더 및 파일을 보려면 **폴더 보기 표시** 링크를 선택합니다.
+
+     ![복제가 완료된 후 Visual Studio의 팀 탐색기 창 솔루션 섹션](./media/vs-2019/show-folder-view-azure-devops.png)
+
+     Visual Studio에서 **솔루션 탐색기**를 엽니다.
+
+1. 열려는 솔루션 파일(특히 .sln 파일)을 검색하려면 **솔루션 및 폴더** 링크를 선택합니다.
+
+      ![Visual Studio에 있는 팀 탐색기의 “솔루션 및 폴더” 알림](./media/open-proj-repo-solutions-folders.png)
+
+   리포지토리에 솔루션 파일이 없는 경우 "솔루션을 찾을 수 없음" 메시지가 나타납니다. 하지만 폴더 메뉴의 어떤 파일이든 두 번 클릭하면 Visual Studio 코드 편집기에서 열 수 있습니다.
+
+::: moniker-end
+
 ## <a name="next-steps"></a>다음 단계
 
 Visual Studio로 코딩할 준비가 되면 다음 언어별 자습서를 자세히 살펴보세요.
@@ -116,5 +185,5 @@ Visual Studio로 코딩할 준비가 되면 다음 언어별 자습서를 자세
 
 ## <a name="see-also"></a>참고 항목
 
-- [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)(Azure DevOps Services: Azure Repos 및 Visual Studio 시작하기)
-- [Microsoft Learn: Azure DevOps 시작하기](/learn/modules/get-started-with-devops/)
+- [Azure DevOps Services: Azure Repos 및 Visual Studio 시작](/azure/devops/repos/git/gitquickstart/)
+- [Microsoft Learn: Azure DevOps 시작](/learn/modules/get-started-with-devops/)

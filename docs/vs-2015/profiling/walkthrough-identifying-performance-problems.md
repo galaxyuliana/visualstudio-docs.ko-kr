@@ -14,12 +14,12 @@ caps.latest.revision: 58
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2f903ddbf82686846298e21765e405d939f11e1b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: e0ac9d085a837ab3ab05754ce70d853112bc48d6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54754820"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096519"
 ---
 # <a name="walkthrough-identifying-performance-problems"></a>연습: 성능 문제 확인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,13 +30,13 @@ ms.locfileid: "54754820"
   
  이 연습에서는 다음과 같은 단계를 수행합니다.  
   
--   샘플링 방법을 사용하여 애플리케이션 프로파일링  
+- 샘플링 방법을 사용하여 애플리케이션 프로파일링  
   
--   성능 문제를 찾아서 해결하기 위해 샘플링된 프로파일링 결과 분석  
+- 성능 문제를 찾아서 해결하기 위해 샘플링된 프로파일링 결과 분석  
   
--   계측 방법을 사용하여 애플리케이션 프로파일링  
+- 계측 방법을 사용하여 애플리케이션 프로파일링  
   
--   성능 문제를 찾아서 해결하기 위해 계측된 프로파일링 결과 분석  
+- 성능 문제를 찾아서 해결하기 위해 계측된 프로파일링 결과 분석  
   
 ## <a name="prerequisites"></a>전제 조건  
   
@@ -51,29 +51,29 @@ ms.locfileid: "54754820"
   
 #### <a name="to-profile-an-application-by-using-the-sampling-method"></a>샘플링 방법을 사용하여 애플리케이션을 프로파일링하려면  
   
-1.  관리자 권한으로 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]을 엽니다. 프로파일링 시에는 관리자 권한으로 Visual Studio를 실행해야 합니다.  
+1. 관리자 권한으로 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]을 엽니다. 프로파일링 시에는 관리자 권한으로 Visual Studio를 실행해야 합니다.  
   
-2.  PeopleTrax 솔루션을 엽니다.  
+2. PeopleTrax 솔루션을 엽니다.  
   
      이제 PeopleTrax 솔루션이 솔루션 탐색기에 표시됩니다.  
   
-3.  프로젝트 구성 설정을 **릴리스**로 설정합니다.  
+3. 프로젝트 구성 설정을 **릴리스**로 설정합니다.  
   
      애플리케이션에서 성능 문제를 검색하려면 릴리스 빌드를 사용해야 합니다. 디버그 빌드에는 성능을 저하시킬 수 있으며 성능 문제를 정확하게 보여 주지 않는 추가 정보가 컴파일되어 있으므로 프로파일링에는 릴리스 빌드를 사용하는 것이 좋습니다.  
   
-4.  **분석** 메뉴에서 **성능 마법사 시작**을 클릭합니다.  
+4. **분석** 메뉴에서 **성능 마법사 시작**을 클릭합니다.  
   
      성능 마법사가 나타납니다.  
   
-5.  **CPU 샘플링(권장)** 이 선택되어 있는지 확인하고 **다음**을 클릭합니다.  
+5. **CPU 샘플링(권장)** 이 선택되어 있는지 확인하고 **다음**을 클릭합니다.  
   
-6.  **다음 애플리케이션 중 프로파일링할 대상을 선택하십시오.** 에서 PeopleTrax를 선택하고 **다음**을 클릭합니다.  
+6. **다음 응용 프로그램 중 프로파일링할 대상을 선택하십시오.** 에서 PeopleTrax를 선택하고 **다음**을 클릭합니다.  
   
-     [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 프로젝트를 빌드하고 애플리케이션 프로파일링을 시작합니다. **PeopleTrax** 애플리케이션 창이 나타납니다.  
+     [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 프로젝트를 빌드하고 응용 프로그램 프로파일링을 시작합니다. **PeopleTrax** 응용 프로그램 창이 나타납니다.  
   
-7.  **사용자 가져오기**를 클릭합니다.  
+7. **사용자 가져오기**를 클릭합니다.  
   
-8.  **ExportData**를 클릭합니다.  
+8. **ExportData**를 클릭합니다.  
   
      메모장이 열리고 **PeopleTrax**에서 내보낸 데이터가 들어 있는 새 파일이 표시됩니다.  
   
@@ -83,23 +83,23 @@ ms.locfileid: "54754820"
   
 #### <a name="to-analyze-sampled-profiling-results"></a>샘플링된 프로파일링 결과를 분석하려면  
   
-1.  요약 뷰에는 프로파일링 실행 과정 동안의 CPU 사용률 시간 표시 막대, 가장 활발하게 사용된 애플리케이션 호출 트리의 분기를 나타내는 **실행 부하 과다 경로** 목록, 그리고 자체 함수 본문에서 코드를 실행하는 동안 가장 많이 샘플링된 함수를 보여 주는 **개별 작업이 가장 많은 함수**의 목록이 표시됩니다.  
+1. 요약 뷰에는 프로파일링 실행 과정 동안의 CPU 사용률 시간 표시 막대, 가장 활발하게 사용된 애플리케이션 호출 트리의 분기를 나타내는 **실행 부하 과다 경로** 목록, 그리고 자체 함수 본문에서 코드를 실행하는 동안 가장 많이 샘플링된 함수를 보여 주는 **개별 작업이 가장 많은 함수**의 목록이 표시됩니다.  
   
      **실행 부하 과다 경로** 목록을 조사하여 목록 끝부분에 있는 PeopleTrax 함수가 PeopleNS.People.GetNames 메서드임을 확인합니다. 이 메서드의 위치를 분석하면 효율적입니다. 함수 이름을 클릭하여 **함수 정보** 뷰에서 GetNames의 정보를 표시합니다.  
   
-2.  **함수 정보** 뷰에느 두 개의 창이 있습니다. 비용 배분 창에서는 함수가 수행한 작업, 해당 함수가 호출한 함수가 수행한 작업, 그리고 샘플링된 인스턴스 수에서 함수를 호출한 함수가 차지하는 비율을 보여 주는 그래픽 뷰가 제공됩니다. 함수 이름을 클릭하면 뷰에서 포커스가 설정된 함수를 변경할 수 있습니다. 예를 들어 PeopleNS.People.GetPeople을 클릭하여 GetPeople을 선택된 함수로 설정할 수 있습니다.  
+2. **함수 정보** 뷰에느 두 개의 창이 있습니다. 비용 배분 창에서는 함수가 수행한 작업, 해당 함수가 호출한 함수가 수행한 작업, 그리고 샘플링된 인스턴스 수에서 함수를 호출한 함수가 차지하는 비율을 보여 주는 그래픽 뷰가 제공됩니다. 함수 이름을 클릭하면 뷰에서 포커스가 설정된 함수를 변경할 수 있습니다. 예를 들어 PeopleNS.People.GetPeople을 클릭하여 GetPeople을 선택된 함수로 설정할 수 있습니다.  
   
      **함수 코드 뷰** 창에는 함수의 소스 코드(사용 가능한 경우)가 표시되며, 선택한 함수에서 가장 비용이 높은 줄이 강조 표시됩니다. GetNames를 선택하면 이 함수가 애플리케이션 리소스에서 문자열을 읽은 다음 <xref:System.IO.StringReader>를 사용하여 문자열의 각 줄을 <xref:System.Collections.ArrayList>에 추가함을 확인할 수 있습니다. 이 함수를 최적화하는 확실한 방법은 없습니다.  
   
-3.  GetNames의 호출자는 PeopleNS.People.GetPeople뿐이므로 비용 배분 창에서 GetPeople을 클릭하여 해당 코드를 조사합니다. 이 메서드는 GetNames에 의해 생성된 사용자 및 회사 이름에서 PersonInformationNS.PersonInformation 개체의 <xref:System.Collections.ArrayList>를 반환합니다. 그러나 GetNames는 PersonInformation 개체를 만들 때마다 두 번 호출됩니다. 메서드 시작 시에 목록을 한 번만 만들고, PersonInformation 만들기 루프 중에 해당 목록으로 인덱싱하면 메서드를 쉽게 최적화할 수 있습니다.  
+3. GetNames의 호출자는 PeopleNS.People.GetPeople뿐이므로 비용 배분 창에서 GetPeople을 클릭하여 해당 코드를 조사합니다. 이 메서드는 GetNames에 의해 생성된 사용자 및 회사 이름에서 PersonInformationNS.PersonInformation 개체의 <xref:System.Collections.ArrayList>를 반환합니다. 그러나 GetNames는 PersonInformation 개체를 만들 때마다 두 번 호출됩니다. 메서드 시작 시에 목록을 한 번만 만들고, PersonInformation 만들기 루프 중에 해당 목록으로 인덱싱하면 메서드를 쉽게 최적화할 수 있습니다.  
   
-4.  샘플 애플리케이션 코드에서는 GetPeople의 대체 버전이 제공되며, 빌드 속성에 조건부 컴파일 기호를 추가하면 최적화된 함수를 호출할 수 있습니다. 솔루션 탐색기 창에서 People 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다. 속성 페이지 메뉴에서 **빌드**를 클릭한 다음 조건부 컴파일 기호 텍스트 상자에 **OPTIMIZED_GETPEOPLE**을 입력합니다. 다음 빌드에서 원래 메서드가 최적화된 버전의 GetPeople로 바뀝니다.  
+4. 샘플 애플리케이션 코드에서는 GetPeople의 대체 버전이 제공되며, 빌드 속성에 조건부 컴파일 기호를 추가하면 최적화된 함수를 호출할 수 있습니다. 솔루션 탐색기 창에서 People 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다. 속성 페이지 메뉴에서 **빌드**를 클릭한 다음 조건부 컴파일 기호 텍스트 상자에 **OPTIMIZED_GETPEOPLE**을 입력합니다. 다음 빌드에서 원래 메서드가 최적화된 버전의 GetPeople로 바뀝니다.  
   
-5.  성능 세션을 다시 실행합니다. 성능 탐색기 도구 모음에서 **프로파일링 시작**을 클릭합니다. **사용자 가져오기**, **데이터 내보내기**를 차례로 클릭합니다. 표시되는 메모장 창을 닫고 PeopleTrax 애플리케이션을 닫습니다.  
+5. 성능 세션을 다시 실행합니다. 성능 탐색기 도구 모음에서 **프로파일링 시작**을 클릭합니다. **사용자 가져오기**, **데이터 내보내기**를 차례로 클릭합니다. 표시되는 메모장 창을 닫고 PeopleTrax 애플리케이션을 닫습니다.  
   
      새 프로파일링 데이터 파일이 생성되고 새 데이터의 **요약** 뷰가 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 주 창에 표시됩니다.  
   
-6.  두 프로파일링 실행을 비교하려면 성능 탐색기에서 두 데이터 파일을 선택하고 마우스 오른쪽 단추로 클릭한 다음 **성능 보고서 비교**를 클릭합니다. 그러면 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 주 창에 비교 보고서 창이 나타납니다. **델타** 열에 함수의 성능 값이 이전 **기준** 값과 이후 **비교** 값으로 변경된 내용이 표시됩니다. **열** 드롭다운 목록에서 비교할 값을 선택할 수 있습니다. **포괄 샘플 비율(%)** 을 선택합니다.  
+6. 두 프로파일링 실행을 비교하려면 성능 탐색기에서 두 데이터 파일을 선택하고 마우스 오른쪽 단추로 클릭한 다음 **성능 보고서 비교**를 클릭합니다. 그러면 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 주 창에 비교 보고서 창이 나타납니다. **델타** 열에 함수의 성능 값이 이전 **기준** 값과 이후 **비교** 값으로 변경된 내용이 표시됩니다. **열** 드롭다운 목록에서 비교할 값을 선택할 수 있습니다. **포괄 샘플 비율(%)** 을 선택합니다.  
   
      GetPeople 및 GetNames 메서드의 성능이 크게 향상되었음을 확인할 수 있습니다.  
   
@@ -110,25 +110,25 @@ ms.locfileid: "54754820"
   
 #### <a name="to-profile-an-existing-application-by-using-the-instrumentation-method"></a>계측 방법을 사용하여 기존 애플리케이션을 프로파일링하려면  
   
-1.  필요한 경우 Visual Studio에서 PeopleTrax 애플리케이션을 엽니다.  
+1. 필요한 경우 Visual Studio에서 PeopleTrax 애플리케이션을 엽니다.  
   
      관리자 권한으로 Visual Studio를 실행 중이며, 솔루션의 빌드 구성이 **릴리스**로 설정되어 있는지 확인합니다.  
   
-2.  성능 탐색기에서 **계측**을 클릭합니다.  
+2. 성능 탐색기에서 **계측**을 클릭합니다.  
   
-3.  성능 탐색기 도구 모음에서 **프로 파일링 시작**을 클릭합니다.  
+3. 성능 탐색기 도구 모음에서 **프로 파일링 시작**을 클릭합니다.  
   
      프로파일러에서 프로젝트를 빌드하고 애플리케이션 프로파일링을 시작합니다. PeopleTrax 애플리케이션 창이 나타납니다.  
   
-4.  **사용자 가져오기**를 클릭합니다.  
+4. **사용자 가져오기**를 클릭합니다.  
   
      PeopleTrax 데이터 표에 데이터가 채워집니다.  
   
-5.  10초 정도 기다렸다가 **데이터 내보내기**를 클릭합니다.  
+5. 10초 정도 기다렸다가 **데이터 내보내기**를 클릭합니다.  
   
      **메모장**이 시작되고 PeopleTrax의 사용자 목록이 들어 있는 새 파일이 표시됩니다. 잠시 기다리면 필터링을 위한 데이터 내보내기 절차를 보다 쉽게 확인할 수 있습니다.  
   
-6.  **메모장**을 닫은 다음 **PeopleTrax** 애플리케이션을 닫습니다.  
+6. **메모장**을 닫은 다음 **PeopleTrax** 응용 프로그램을 닫습니다.  
   
      [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 성능 세션 보고서(*.vsp)를 생성합니다.  
   

@@ -18,12 +18,12 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0d779e364f5cbe7bc4b90e0a77ab3fb825a7b6c2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ab2dc62add13db9af1186a8974ffe5694a98e62e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984359"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60083508"
 ---
 # <a name="how-to-automatically-increment-the-clickonce-publish-version"></a>방법: ClickOnce 게시 버전 자동 증가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,11 +37,11 @@ ms.locfileid: "58984359"
   
 ### <a name="to-disable-automatically-incrementing-the-publish-version"></a>게시 버전 자동 증가 사용 하지 않도록 설정  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **게시** 탭을 클릭합니다.  
+2. **게시** 탭을 클릭합니다.  
   
-3.  에 **게시 버전** 섹션의 선택을 취소는 **자동 릴리스마다 수정 번호 증가** 확인란 합니다.  
+3. 에 **게시 버전** 섹션의 선택을 취소는 **자동 릴리스마다 수정 번호 증가** 확인란 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 게시 버전 설정 ClickOnce](../deployment/how-to-set-the-clickonce-publish-version.md)   

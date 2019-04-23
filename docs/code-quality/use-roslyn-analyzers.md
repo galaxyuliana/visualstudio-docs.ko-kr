@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 30d8423481705a26f1275db8fb37c497b889dc84
-ms.sourcegitcommit: d78821f8c353e0102b1554719f549f32dffac71b
+ms.openlocfilehash: 56637ee7826b944d739e170faf22ae354abd8adc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "58515339"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080815"
 ---
 # <a name="use-roslyn-analyzers"></a>Roslyn 분석기를 사용 합니다.
 
@@ -108,42 +108,42 @@ A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.m
 
 여러 가지 방법으로 규칙 위반을 표시 하지 않을 수 있습니다.
 
-- 모든 현재 위반을 표시 하지 않으려면 선택 **분석** > **코드 분석 실행 및 활성 문제를 표시 하지 않으려면** 메뉴 모음에서. 이 때때로 "기준 설정" 이라고 합니다.
+- **분석** 메뉴
 
-- 진단에서 표시 하지 않으려면 **솔루션 탐색기**, 해당 심각도 **None**합니다.
+   선택 **분석** > **코드 분석 실행 및 활성 문제를 표시 하지 않으려면** 모든 현재 위반 하지 않으려면 메뉴 모음에서. 이 때때로 "기준 설정" 이라고 합니다.
 
-- 규칙 집합 편집기에서 진단을 표시 하지 않으려면 해당 이름 옆에 있는 확인란의 선택을 취소 하거나 설정 **동작** 하 **None**합니다.
+- **솔루션 탐색기**
 
-- 코드 편집기에서 진단을 표시 하지 않으려면 위반 및 키를 눌러 코드 줄에 커서를 놓고 **Ctrl**+**합니다.** 열려는 합니다 **빠른 작업** 메뉴. 선택 **CAxxxx 표시 안 함** > **소스의** 또는 **CAxxxx를 표시 하지 않으려면** > **억제 파일에**입니다.
+   위반 하지 않으려면 **솔루션 탐색기**, 규칙의 심각도 **None**합니다.
+
+- **규칙 집합 편집기**
+
+   규칙 집합 편집기에서 위반을 표시 하지 않으려면 해당 이름 옆에 있는 확인란의 선택을 취소 하거나 설정 **동작** 하 **None**합니다.
+
+- **코드 편집기**
+
+   코드 편집기에서 위반을 표시 하지 않으려면 위반 및 키를 눌러 코드 줄에 커서를 놓고 **Ctrl**+**합니다.** 열려는 합니다 **빠른 작업** 메뉴. 선택 **CAXXXX 표시 안 함** > **억제 파일/소스의**합니다.
 
    ![빠른 작업 메뉴에서 진단 표시 안 함](media/suppress-diagnostic-from-editor.png)
 
-- 진단에서 표시 하지 않으려면를 **오류 목록**를 참조 하세요 [위반 오류 목록에서 표시 하지 않으려면](#suppress-violations-from-the-error-list)합니다.
+- **오류 목록**
 
-### <a name="suppress-violations-from-the-error-list"></a>오류 목록에서 위반 표시 안 함
+   하나 이상의 진단 표시 하지 않을 수 있습니다 합니다 **오류 목록** 을 선택 하 여 요소를 표시 하지 않으려면 하 고 마우스 오른쪽 단추로 클릭 한 다음 **표시 안 함** > **에서 Source/In 비 표시 오류 파일**합니다.
 
-하나 이상의 진단 표시 하지 않을 수 있습니다 합니다 **오류 목록** 을 선택 하 여 요소를 표시 하지 않으려면 하 고 마우스 오른쪽 단추로 클릭 한 다음 **표시 안 함** > **소스**  나 **표시 안 함** > **억제 파일에**입니다.
+   - 무시 하는 경우 **소스**서 **변경 내용 미리 보기** 대화 상자가 열리고의 미리 보기를 표시 합니다 C# [#pragma 경고](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) 또는 Visual Basic [#Disable 경고](/dotnet/visual-basic/language-reference/directives/directives) 소스 코드에 추가 되는 지시문입니다.
 
-- 선택 하는 경우 **소스**서 **변경 내용 미리 보기** 대화 상자가 열리고 C#의 미리 보기를 보여 줍니다 [#pragma 경고](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) 또는 Visual Basic [#Disable 경고](/dotnet/visual-basic/language-reference/directives/directives) 소스 코드에 추가 되는 지시문입니다.
+      ![코드 파일에서 #pragma 경고를 추가 하는 미리 보기](media/pragma-warning-preview.png)
 
-   ![코드 파일에서 #pragma 경고를 추가 하는 미리 보기](media/pragma-warning-preview.png)
+   - 선택 하는 경우 **억제 파일에**의 **변경 내용 미리 보기** 대화 상자가 열리고의 미리 보기를 표시 합니다 <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> 전역 비 표시 오류 파일에 추가 되는 특성입니다.
 
-- 선택 하는 경우 **억제 파일에**의 **변경 내용 미리 보기** 대화 상자가 열리고의 미리 보기를 표시 합니다 <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> 전역 비 표시 오류 파일에 추가 되는 특성입니다.
+      ![SuppressMessage 특성 억제 파일에 추가 하는 미리 보기](media/preview-changes-in-suppression-file.png)
 
-   ![SuppressMessage 특성 억제 파일에 추가 하는 미리 보기](media/preview-changes-in-suppression-file.png)
+   에 **변경 내용 미리 보기** 대화 상자에서 **적용**합니다.
 
-에 **변경 내용 미리 보기** 대화 상자에서 **적용**합니다.
-
-합니다 **오류 목록** 진단 또는 둘 다에서 위반 라이브 코드 분석 및 작성 하는 규칙을 표시 합니다. 빌드 진단 일 수 있으므로 유효 하지 않은 예를 들어, 위반을 수정 하기 위해 코드를 편집 했습니다 해도 다시 작성 하지 않은 경우 억제할 수 없습니다에서 이러한 진단 합니다 **오류 목록**합니다. 그러나 실시간 분석 또는 IntelliSense에서 현재 소스를 사용 하 여 항상 최신임 진단과에서 표시 하지 않을 수 있습니다 합니다 **오류 목록**합니다. 제거 옵션을 마우스 오른쪽 단추로 클릭 하거나 컨텍스트 메뉴에서 사용할 경우 있기 때문일 수 있습니다 여러 개 이상의 빌드에 선택한 진단 합니다. 빌드 진단 선택 항목에서 제외할 전환 합니다 **오류 목록** 에서 원본 필터 **빌드 + IntelliSense** 에 **Intellisense만**. 진단 표시 안 함 및 이전에 설명 된 대로 진행 하려면를 선택 합니다.
-
-![Visual Studio의 오류 목록 원본 필터](media/error-list-filter.png)
-
-> [!NOTE]
-> .NET Core 프로젝트에서 NuGet 분석기를 지정 된 프로젝트에 대 한 참조를 추가 하는 경우 해당 분석기는 자동으로 추가 종속 프로젝트를 너무 합니다. 예를 들어 종속 프로젝트가 단위 테스트 프로젝트를 사용 하는 경우이 동작을 사용 하지 않으려면 private으로 NuGet 패키지를 표시 합니다 *.csproj* 하거나 *.vbproj* 참조 된 프로젝트의 파일:
->
-> ```xml
-> <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" PrivateAssets="all" />
-> ```
+   > [!NOTE]
+   > 표시 되지 않는 경우는 **표시 안 함** 메뉴 옵션에서 **솔루션 탐색기**, 위반 빌드 및 없습니다 실시간 분석에서 가져온 것입니다. 합니다 **오류 목록** 진단 또는 둘 다에서 위반 라이브 코드 분석 및 작성 하는 규칙을 표시 합니다. 빌드 진단 일 수 있으므로 유효 하지 않은 예를 들어, 위반을 수정 하기 위해 코드를 편집 했습니다 해도 다시 작성 하지 않은 경우 억제할 수 없습니다에서 이러한 진단 합니다 **오류 목록**합니다. 실시간 분석 또는 IntelliSense에서 현재 소스를 사용 하 여 항상 최신임 진단과에서 표시 하지 않을 수 있습니다 합니다 **오류 목록**합니다. 제외할 *빌드* 전환 하 고 선택 항목에서 진단을 합니다 **오류 목록** 에서 소스 필터 **빌드 + IntelliSense** 에 **Intellisense만**. 진단 표시 안 함 및 이전에 설명 된 대로 진행 하려면를 선택 합니다.
+   >
+   > ![Visual Studio의 오류 목록 원본 필터](media/error-list-filter.png)
 
 ## <a name="command-line-usage"></a>명령줄 사용법
 
@@ -169,6 +169,14 @@ msbuild myproject.csproj /target:rebuild /verbosity:minimal
 다음 이미지는 분석기 규칙 위반을 포함 하는 프로젝트 개발에 이르기까지 명령줄 빌드 출력을 보여 줍니다.
 
 ![규칙 위반을 사용하여 MSBuild 출력](media/command-line-build-analyzers.png)
+
+## <a name="dependent-projects"></a>종속 프로젝트
+
+.NET Core 프로젝트에서 NuGet 분석기를 지정 된 프로젝트에 대 한 참조를 추가 하는 경우 해당 분석기는 자동으로 추가 종속 프로젝트를 너무 합니다. 예를 들어 종속 프로젝트가 단위 테스트 프로젝트를 사용 하는 경우이 동작을 사용 하지 않으려면 private으로 NuGet 패키지를 표시 합니다 *.csproj* 하거나 *.vbproj* 를설정하여참조된프로젝트의파일**PrivateAssets** 특성:
+
+```xml
+<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.0" PrivateAssets="all" />
+```
 
 ## <a name="see-also"></a>참고자료
 

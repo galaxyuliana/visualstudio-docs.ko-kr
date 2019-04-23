@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8d5191d78d8eb543edb12146398687216027eece
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: c6ea3c9a5ecb0fa10c6b020f3af8a51a65952c9a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663546"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082076"
 ---
 # <a name="using-the-microsoft-monitoring-agent"></a>Microsoft Monitoring Agent 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,56 +30,56 @@ Visual Studio에서 최신 설명서를 참조 하세요 [Microsoft Monitoring A
   
  시작하기 전에 작성 및 배포된 코드와 일치하는 소스와 기호가 있는지 확인합니다. 그러면 IntelliTrace 로그에서 진단 이벤트 디버깅 및 검색을 시작할 때 애플리케이션 코드로 직접 이동할 수 있습니다. Visual Studio에서 배포된 코드에 대해 일치하는 소스를 자동으로 찾아서 열 수 있도록[빌드를 설정](../debugger/diagnose-problems-after-deployment.md) 합니다.  
   
-1.  [1단계: Microsoft Monitoring Agent 설치](#SetUpMonitoring)  
+1. [1단계: Microsoft Monitoring Agent 설치](#SetUpMonitoring)  
   
-2.  [2단계: 앱 모니터링 시작](#MonitorEvents)  
+2. [2단계: 앱 모니터링 시작](#MonitorEvents)  
   
-3.  [3단계: 기록 된 이벤트 저장](#SaveEvents)  
+3. [3단계: 기록 된 이벤트 저장](#SaveEvents)  
   
-##  <a name="SetUpMonitoring"></a> 1단계: Microsoft Monitoring Agent 설치  
+## <a name="SetUpMonitoring"></a> 1단계: Microsoft Monitoring Agent 설치  
  애플리케이션을 변경하지 않고 로컬 모니터링을 수행하려면 웹 서버에 독립 실행형 Monitoring Agent를 설치합니다. System Center 2012를 사용하는 경우 [Microsoft Monitoring Agent 설치](http://technet.microsoft.com/library/dn465156.aspx)를 참조하세요.  
   
-###  <a name="SetUpStandaloneMMA"></a> 독립 실행형 Monitoring Agent 설치  
+### <a name="SetUpStandaloneMMA"></a> 독립 실행형 Monitoring Agent 설치  
   
-1.  다음 사항을 확인합니다.  
+1. 다음 사항을 확인합니다.  
   
-    -   웹 서버에서 [지원되는 버전의 IIS(인터넷 정보 서비스)](http://technet.microsoft.com/library/dn465154.aspx)를 실행 중입니다.  
+    - 웹 서버에서 [지원되는 버전의 IIS(인터넷 정보 서비스)](http://technet.microsoft.com/library/dn465154.aspx)를 실행 중입니다.  
   
-    -   웹 서버에 .NET Framework 3.5, 4 또는 4.5가 설치되어 있습니다.  
+    - 웹 서버에 .NET Framework 3.5, 4 또는 4.5가 설치되어 있습니다.  
   
-    -   웹 서버에서 Windows PowerShell 3.0 이상을 실행 중입니다. [Q: Windows PowerShell 2.0이 설치되어 있는 경우에는 어떻게 해야 하나요?](#PowerShell2)  
+    - 웹 서버에서 Windows PowerShell 3.0 이상을 실행 중입니다. [Q: Windows PowerShell 2.0이 설치되어 있는 경우에는 어떻게 해야 하나요?](#PowerShell2)  
   
-    -   PowerShell 명령을 실행하고 모니터링 시작 시 애플리케이션 풀을 재생할 수 있도록 웹 서버에 대한 관리자 권한이 있습니다.  
+    - PowerShell 명령을 실행하고 모니터링 시작 시 애플리케이션 풀을 재생할 수 있도록 웹 서버에 대한 관리자 권한이 있습니다.  
   
-    -   이전 버전의 Microsoft Monitoring Agent를 제거했습니다.  
+    - 이전 버전의 Microsoft Monitoring Agent를 제거했습니다.  
   
-2.  [무료 Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384)의 32비트 버전( **MMASetup-i386.exe** ) 또는 64비트 버전( **MMASetup-AMD64.exe**)을 Microsoft 다운로드 센터에서 웹 서버로 다운로드합니다.  
+2. [무료 Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384)의 32비트 버전( **MMASetup-i386.exe** ) 또는 64비트 버전( **MMASetup-AMD64.exe**)을 Microsoft 다운로드 센터에서 웹 서버로 다운로드합니다.  
   
-3.  다운로드한 실행 파일을 실행하여 설치 마법사를 시작합니다.  
+3. 다운로드한 실행 파일을 실행하여 설치 마법사를 시작합니다.  
   
-4.  **C:\IntelliTraceLogs**와 같이 IntelliTrace 로그를 저장할 안전한 디렉터리를 웹 서버에 만듭니다.  
+4. **C:\IntelliTraceLogs**와 같이 IntelliTrace 로그를 저장할 안전한 디렉터리를 웹 서버에 만듭니다.  
   
      모니터링을 시작하기 전에 이 디렉터리를 만들어야 합니다. 앱 속도 저하를 방지하려면 사용량이 많지 않은 로컬 고속 디스크의 위치를 선택합니다.  
   
     > [!IMPORTANT]
     >  IntelliTrace 로그에는 개인 데이터와 중요한 데이터가 포함될 수 있습니다. 따라서 파일을 사용해야 하는 ID만 이 디렉터리에 액세스할 수 있도록 합니다. 이와 관련한 사항은 회사의 개인 정보 보호 정책을 확인하세요.  
   
-5.  자세한 함수 수준 모니터링을 실행하거나 SharePoint 애플리케이션을 모니터링하려면 웹앱 또는 SharePoint 애플리케이션을 호스트하는 애플리케이션 풀에 IntelliTrace 로그 디렉터리에 대한 읽기 및 쓰기 권한을 제공합니다. [Q: 애플리케이션 풀에 대한 사용 권한을 설정하려면 어떻게 하나요?](#FullPermissionsITLog)  
+5. 자세한 함수 수준 모니터링을 실행하거나 SharePoint 애플리케이션을 모니터링하려면 웹앱 또는 SharePoint 애플리케이션을 호스트하는 애플리케이션 풀에 IntelliTrace 로그 디렉터리에 대한 읽기 및 쓰기 권한을 제공합니다. [Q: 애플리케이션 풀에 대한 사용 권한을 설정하려면 어떻게 하나요?](#FullPermissionsITLog)  
   
 ### <a name="q--a"></a>Q&A  
   
-####  <a name="PowerShell2"></a> Q: Windows PowerShell 2.0이 설치되어 있는 경우에는 어떻게 해야 하나요?  
+#### <a name="PowerShell2"></a> Q: Windows PowerShell 2.0이 설치되어 있는 경우에는 어떻게 해야 하나요?  
  **A:** PowerShell 3.0을 사용하는 것이 좋습니다. 그렇지 않으면 PowerShell을 실행할 때마다 Microsoft Monitoring Agent PowerShell cmdlet을 가져와야 합니다. 또한 다운로드할 수 있는 도움말 콘텐츠에도 액세스할 수 없습니다.  
   
-1.  **Windows PowerShell** 또는 **Windows PowerShell ISE** 명령 프롬프트 창을 관리자 권한으로 엽니다.  
+1. **Windows PowerShell** 또는 **Windows PowerShell ISE** 명령 프롬프트 창을 관리자 권한으로 엽니다.  
   
-2.  아래의 기본 설치 위치에서 Microsoft Monitoring Agent PowerShell 모듈을 가져옵니다.  
+2. 아래의 기본 설치 위치에서 Microsoft Monitoring Agent PowerShell 모듈을 가져옵니다.  
   
      **PS C:>Import-Module "C:\Program Files\Microsoft Monitoring Agent\Agent\PowerShell\Microsoft.MonitoringAgent.PowerShell\Microsoft.MonitoringAgent.PowerShell.dll"**  
   
-3.  최신 도움말 콘텐츠를 보려면[TechNet을 방문](http://technet.microsoft.com/systemcenter/default) 하세요.  
+3. 최신 도움말 콘텐츠를 보려면[TechNet을 방문](http://technet.microsoft.com/systemcenter/default) 하세요.  
   
-####  <a name="FullPermissionsITLog"></a> Q: 응용 프로그램 풀에 대한 사용 권한은 어떻게 설정하나요?  
+#### <a name="FullPermissionsITLog"></a> Q: 응용 프로그램 풀에 대한 사용 권한은 어떻게 설정하나요?  
  **A:** Windows **icacls** 명령 또는 Windows 탐색기(또는 파일 탐색기)를 사용합니다. 예를 들어:  
   
 - Windows **icacls** 명령을 통해 사용 권한을 설정하려면 다음 명령을 사용합니다.  
@@ -96,28 +96,28 @@ Visual Studio에서 최신 설명서를 참조 하세요 [Microsoft Monitoring A
   
 - Windows 탐색기 또는 파일 탐색기를 통해 사용 권한을 설정하려면 다음 단계를 수행합니다.  
   
-  1.  IntelliTrace 로그 디렉터리의 **속성** 을 엽니다.  
+  1. IntelliTrace 로그 디렉터리의 **속성** 을 엽니다.  
   
-  2.  **보안** 탭에서 **편집**, **추가**를 차례로 선택합니다.  
+  2. **보안** 탭에서 **편집**, **추가**를 차례로 선택합니다.  
   
-  3.  **개체 유형을 선택하세요.** 상자에 **기본 제공 보안 계정** 이 표시되는지 확인하고 표시되지 않으면 **개체 형식** 을 선택하여 추가합니다.  
+  3. **개체 유형을 선택하세요.** 상자에 **기본 제공 보안 계정** 이 표시되는지 확인하고 표시되지 않으면 **개체 형식** 을 선택하여 추가합니다.  
   
-  4.  **찾을 위치를 선택하세요.** 상자에 로컬 컴퓨터가 표시되는지 확인하고 표시되지 않으면 **위치** 를 선택하여 변경합니다.  
+  4. **찾을 위치를 선택하세요.** 상자에 로컬 컴퓨터가 표시되는지 확인하고 표시되지 않으면 **위치** 를 선택하여 변경합니다.  
   
-  5.  **선택할 개체 이름을 입력하세요.** 상자에 웹 앱 또는 SharePoint 응용 프로그램의 응용 프로그램 풀을 추가합니다.  
+  5. **선택할 개체 이름을 입력하세요.** 상자에 웹 앱 또는 SharePoint 응용 프로그램의 응용 프로그램 풀을 추가합니다.  
   
-  6.  **이름 확인** 을 선택하여 이름을 확인합니다. **확인**을 선택합니다.  
+  6. **이름 확인** 을 선택하여 이름을 확인합니다. **확인**을 선택합니다.  
   
-  7.  애플리케이션 풀에 **읽기 및 실행** 권한이 있는지 확인합니다.  
+  7. 애플리케이션 풀에 **읽기 및 실행** 권한이 있는지 확인합니다.  
   
-##  <a name="MonitorEvents"></a> 2단계: 앱 모니터링 시작  
+## <a name="MonitorEvents"></a> 2단계: 앱 모니터링 시작  
  Windows PowerShell [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) 명령을 사용하여 앱 모니터링을 시작합니다. System Center 2012를 사용하는 경우 [Microsoft Monitoring Agent를 사용하여 웹 애플리케이션 모니터링](http://technet.microsoft.com/library/dn465157.aspx)을 참조하세요.  
   
-1.  웹 서버에서 **Windows PowerShell** 또는 **Windows PowerShell ISE** 명령 프롬프트 창을 관리자 권한으로 엽니다.  
+1. 웹 서버에서 **Windows PowerShell** 또는 **Windows PowerShell ISE** 명령 프롬프트 창을 관리자 권한으로 엽니다.  
   
      ![관리자 권한으로 Windows PowerShell을 엽니다](../debugger/media/ffr-powershellrunadmin.png "FFR_PowerShellRunAdmin")  
   
-2.  [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) 명령을 실행하여 앱 모니터링을 시작합니다. 그러면 웹 서버에서 모든 웹앱이 다시 시작됩니다.  
+2. [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) 명령을 실행하여 앱 모니터링을 시작합니다. 그러면 웹 서버에서 모든 웹앱이 다시 시작됩니다.  
   
      이 명령의 간단한 구문은 다음과 같습니다.  
   
@@ -145,11 +145,11 @@ Visual Studio에서 최신 설명서를 참조 하세요 [Microsoft Monitoring A
   
      전체 구문 및 기타 예제에 대한 자세한 내용을 보려면 **get-help Start-WebApplicationMonitoring –detailed** 명령이나 **get-help Start-WebApplicationMonitoring –examples** 명령을 실행합니다.  
   
-3.  모니터링되는 모든 웹앱의 상태를 확인하려면 [Get-WebApplicationMonitoringStatus](http://go.microsoft.com/fwlink/?LinkID=313685) 명령을 실행합니다.  
+3. 모니터링되는 모든 웹앱의 상태를 확인하려면 [Get-WebApplicationMonitoringStatus](http://go.microsoft.com/fwlink/?LinkID=313685) 명령을 실행합니다.  
   
 ### <a name="q--a"></a>Q&A  
   
-####  <a name="Minimizing"></a> Q: 앱 속도를 그대로 유지하면서 데이터를 최대한 수집하는 방법  
+#### <a name="Minimizing"></a> Q: 앱 속도를 그대로 유지하면서 데이터를 최대한 수집하는 방법  
  **A:** Microsoft Monitoring Agent는 많은 데이터를 수집할 수 있으므로 수집하도록 선택하는 데이터 및 수집 방법에 따라 앱 성능에 영향을 줄 수 있습니다. 앱 속도를 그대로 유지하면서 대부분의 데이터를 가져올 수 있는 몇 가지 방법은 다음과 같습니다.  
   
 - 웹 앱 및 SharePoint 애플리케이션의 경우 Monitoring Agent는 지정한 애플리케이션 풀을 공유하는 모든 앱에 대한 데이터를 기록합니다. 이로 인해 단일 애플리케이션 풀을 공유하는 앱의 속도가 느려질 수 있습니다. 그러나 단일 앱의 모듈에서만 데이터를 수집하도록 제한할 수 있습니다. 앱 속도 저하를 방지하려면 각 앱을 자체 애플리케이션 풀에서 호스트합니다.  
@@ -164,9 +164,9 @@ Visual Studio에서 최신 설명서를 참조 하세요 [Microsoft Monitoring A
   
    예를 들면 다음과 같습니다.  
   
-  -   Windows 워크플로를 사용하지 앱에 대해 Windows 워크플로 이벤트를 사용하지 않도록 설정합니다.  
+  - Windows 워크플로를 사용하지 앱에 대해 Windows 워크플로 이벤트를 사용하지 않도록 설정합니다.  
   
-  -   레지스트리에 액세스하기는 하지만 레지스트리 설정에 문제가 표시되지 않는 앱에 대해 레지스트리 이벤트를 사용하지 않도록 설정합니다.  
+  - 레지스트리에 액세스하기는 하지만 레지스트리 설정에 문제가 표시되지 않는 앱에 대해 레지스트리 이벤트를 사용하지 않도록 설정합니다.  
   
 - Monitoring Agent가 수집 계획에서 데이터를 수집하는 모듈을 검토합니다. 다음 단계를 수행하여 관련이 있는 모듈만 포함하도록 수집 계획을 편집합니다.  
   
@@ -230,7 +230,7 @@ Visual Studio에서 최신 설명서를 참조 하세요 [Microsoft Monitoring A
   
   Monitoring Agent는 `id`메서드에서 반환되는 `Employee.Id`, `Employee.Name` , `Employee` 및 `AlterEmployee` 개체의 값을 기록합니다. 그러나 `Address` 개체에 대한 정보는 null인지 여부를 제외하고는 기록하지 않습니다. 또한 `AlterEmployee` 메서드의 로컬 변수에 대한 데이터도 기록하지 않습니다. 단, 다른 메서드가 해당 로컬 변수를 매개 변수로 사용하는 경우에는 로컬 변수가 메서드 매개 변수로 기록됩니다.  
   
-##  <a name="SaveEvents"></a> 3 단계: 기록 된 이벤트 저장  
+## <a name="SaveEvents"></a> 3 단계: 기록 된 이벤트 저장  
  오류 또는 성능 문제가 발견되면 기록된 이벤트를 IntelliTrace 로그에 저장합니다. Monitoring Agent는 이벤트가 기록된 경우에만 로그를 만듭니다. System Center 2012를 사용하는 경우 [Microsoft Monitoring Agent를 사용하여 웹 애플리케이션 모니터링](http://technet.microsoft.com/library/dn465157.aspx)을 참조하세요.  
   
 ### <a name="save-recorded-events-but-continue-monitoring"></a>기록된 이벤트를 저장하고 모니터링 계속  

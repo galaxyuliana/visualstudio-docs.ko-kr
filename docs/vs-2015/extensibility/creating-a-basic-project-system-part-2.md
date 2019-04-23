@@ -12,12 +12,12 @@ ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
 caps.latest.revision: 24
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f1d02b8701f5740de8a747406fc18da3e9f8e6cc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6004e7346ab4bb4bb8d95c04fbbbdd86e1527001
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970955"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079606"
 ---
 # <a name="creating-a-basic-project-system-part-2"></a>기본 프로젝트 시스템 만들기, 2부
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,15 +28,15 @@ ms.locfileid: "58970955"
   
  이 연습에서는 이러한 작업을 수행 하는 방법에 설명 합니다.  
   
--   Visual Studio 템플릿을 만듭니다.  
+- Visual Studio 템플릿을 만듭니다.  
   
--   Visual Studio 템플릿을 배포 합니다.  
+- Visual Studio 템플릿을 배포 합니다.  
   
--   프로젝트 형식 자식 노드를 만드는 합니다 **새 프로젝트** 대화 상자.  
+- 프로젝트 형식 자식 노드를 만드는 합니다 **새 프로젝트** 대화 상자.  
   
--   Visual Studio 템플릿에서 매개 변수 대체를 사용 하도록 설정 합니다.  
+- Visual Studio 템플릿에서 매개 변수 대체를 사용 하도록 설정 합니다.  
   
--   프로젝트 속성 페이지를 만듭니다.  
+- 프로젝트 속성 페이지를 만듭니다.  
   
 > [!NOTE]
 >  이 연습 단계에서는 C# 프로젝트를 기반으로 합니다. 그러나 파일 이름 확장명 및 코드와 같은 세부 정보를 제외 하 고 Visual Basic 프로젝트에 대 한 동일한 단계를 사용할 수 있습니다.  
@@ -120,9 +120,9 @@ ms.locfileid: "58970955"
 ## <a name="adding-a-minimal-vsct-file"></a>최소.vsct 파일 추가  
  Visual Studio 새롭거나 수정 된 Visual Studio 템플릿을 인식 설치 모드에서 실행 되어야 합니다. 설치 모드 있어야.vsct 파일을 필요 합니다. 따라서 최소.vsct 파일을 프로젝트에 추가 해야 합니다.  
   
-1.  SimpleProject 프로젝트 SimpleProject.vsct 이라는 XML 파일을 추가 합니다.  
+1. SimpleProject 프로젝트 SimpleProject.vsct 이라는 XML 파일을 추가 합니다.  
   
-2.  SimpleProject.vsct 파일의 내용을 다음 코드로 바꿉니다.  
+2. SimpleProject.vsct 파일의 내용을 다음 코드로 바꿉니다.  
   
     ```  
     <?xml version="1.0" encoding="utf-8" ?>  
@@ -131,25 +131,25 @@ ms.locfileid: "58970955"
     </CommandTable>  
     ```  
   
-3.  설정 된 **빌드 작업** 이 파일의 **VSCTCompile**합니다. 이렇게 하려면.csproj 파일에만 없습니다 합니다 **속성** 창입니다. 있는지 확인 합니다 **빌드 작업** 로 설정 되어이 파일의 **None** 이 시점에서.  
+3. 설정 된 **빌드 작업** 이 파일의 **VSCTCompile**합니다. 이렇게 하려면.csproj 파일에만 없습니다 합니다 **속성** 창입니다. 있는지 확인 합니다 **빌드 작업** 로 설정 되어이 파일의 **None** 이 시점에서.  
   
-    1.  SimpleProject 노드를 마우스 오른쪽 단추로 누른 **SimpleProject.csproj 편집**합니다.  
+    1. SimpleProject 노드를 마우스 오른쪽 단추로 누른 **SimpleProject.csproj 편집**합니다.  
   
-    2.  .Csproj 파일에서 SimpleProject.vsct 항목을 찾습니다.  
+    2. .Csproj 파일에서 SimpleProject.vsct 항목을 찾습니다.  
   
         ```  
         <None Include="SimpleProject.vsct" />  
         ```  
   
-    3.  빌드 동작을 변경 **VSCTCompile**합니다.  
+    3. 빌드 동작을 변경 **VSCTCompile**합니다.  
   
         ```  
         <VSCTCompile Include="SimpleProject.vsct" />  
         ```  
   
-    4.  프로젝트 파일 및 편집기를 닫습니다.  
+    4. 프로젝트 파일 및 편집기를 닫습니다.  
   
-    5.  SimpleProject 노드를 저장 한 다음에 **솔루션 탐색기** 클릭 **프로젝트 다시 로드**합니다.  
+    5. SimpleProject 노드를 저장 한 다음에 **솔루션 탐색기** 클릭 **프로젝트 다시 로드**합니다.  
   
 ## <a name="examining-the-visual-studio-template-build-steps"></a>Visual Studio 템플릿 빌드 단계를 검사합니다.  
  .Vstemplate 파일 변경 되거나.vstemplate 파일을 포함 하는 프로젝트를 다시 작성 하는 경우 VSPackage 프로젝트 빌드 시스템은 설치 모드에서 Visual Studio를 실행 되는 일반적으로 합니다. 보통 이상 MSBuild의 자세한 정도 설정 하 여 따라 할 수 있습니다.  
@@ -209,11 +209,11 @@ ZipProjects:
   
  이 섹션에서는 SimpleProject 프로젝트 형식에 대 한 콘솔 자식 노드를 만드는 방법을 보여 줍니다.  
   
-1.  \Templates\Projects\ConsoleApp \Templates\Projects\SimpleProject\ 폴더의 이름을\\입니다.  
+1. \Templates\Projects\ConsoleApp \Templates\Projects\SimpleProject\ 폴더의 이름을\\입니다.  
   
-2.  에 **속성** 창 \Templates\Projects\ConsoleApp\ 폴더에서 모든 5 개의 파일을 선택 하 고 있는지 확인 합니다 **빌드 작업** 로 설정 되어 **ZipProject**합니다.  
+2. 에 **속성** 창 \Templates\Projects\ConsoleApp\ 폴더에서 모든 5 개의 파일을 선택 하 고 있는지 확인 합니다 **빌드 작업** 로 설정 되어 **ZipProject**합니다.  
   
-3.  SimpleProject.vstemplate 파일에 다음 줄의 끝에 추가 된 \<TemplateData > 닫는 태그 바로 앞의 섹션입니다.  
+3. SimpleProject.vstemplate 파일에 다음 줄의 끝에 추가 된 \<TemplateData > 닫는 태그 바로 앞의 섹션입니다.  
   
     ```  
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>  
@@ -221,11 +221,11 @@ ZipProjects:
   
      이렇게 하면 콘솔 응용 프로그램 템플릿을 콘솔 자식 노드와 SimpleProject 부모 노드의 자식 노드 위의 한 수준에서 표시 합니다.  
   
-4.  SimpleProject.vstemplate 파일을 저장 합니다.  
+4. SimpleProject.vstemplate 파일을 저장 합니다.  
   
-5.  .Csproj 파일에서 추가 \<OutputSubPath > 각 ZipProject 요소입니다. 앞으로 프로젝트를 업로드 하 고 프로젝트 파일을 편집 합니다.  
+5. .Csproj 파일에서 추가 \<OutputSubPath > 각 ZipProject 요소입니다. 앞으로 프로젝트를 업로드 하 고 프로젝트 파일을 편집 합니다.  
   
-6.  찾을 \<ZipProject > 요소입니다. 각 \<ZipProject > 요소에 추가 \<OutputSubPath > 요소 콘솔 값을 지정 합니다. ZipProject  
+6. 찾을 \<ZipProject > 요소입니다. 각 \<ZipProject > 요소에 추가 \<OutputSubPath > 요소 콘솔 값을 지정 합니다. ZipProject  
   
     ```  
     <ZipProject Include="Templates\Projects\ConsoleApp\AssemblyInfo.cs">  
@@ -245,7 +245,7 @@ ZipProjects:
         </ZipProject>  
     ```  
   
-7.  이 추가 \<PropertyGroup > 프로젝트 파일에:  
+7. 이 추가 \<PropertyGroup > 프로젝트 파일에:  
   
     ```  
     <PropertyGroup>  
@@ -253,7 +253,7 @@ ZipProjects:
     </PropertyGroup>  
     ```  
   
-8.  프로젝트 파일을 저장 하 고 프로젝트를 다시 로드 합니다.  
+8. 프로젝트 파일을 저장 하 고 프로젝트를 다시 로드 합니다.  
   
 ## <a name="testing-the-project-type-child-node"></a>프로젝트 형식 자식 노드를 테스트합니다.  
  확인 하려면 수정 된 프로젝트 파일을 테스트 하는지 여부를 **콘솔** 에 자식 노드가 표시 됩니다는 **새 프로젝트** 대화 상자.  
@@ -285,15 +285,15 @@ ZipProjects:
   
 #### <a name="to-substitute-project-template-parameters"></a>프로젝트 템플릿 매개 변수를 대체 합니다.  
   
-1.  SimpleProjectNode.cs 파일에서 제거 된 `AddFileFromTemplate` 메서드.  
+1. SimpleProjectNode.cs 파일에서 제거 된 `AddFileFromTemplate` 메서드.  
   
-2.  \Templates\Projects\ConsoleApp\SimpleProject.myproj 파일에서 찾습니다는 \<RootNamespace > 속성 $safeprojectname $ 해당 값을 변경 합니다.  
+2. \Templates\Projects\ConsoleApp\SimpleProject.myproj 파일에서 찾습니다는 \<RootNamespace > 속성 $safeprojectname $ 해당 값을 변경 합니다.  
   
     ```  
     <RootNamespace>$safeprojectname$</RootNamespace>  
     ```  
   
-3.  \Templates\Projects\SimpleProject\Program.cs 파일에서 파일의 내용을 다음 코드로 바꿉니다.  
+3. \Templates\Projects\SimpleProject\Program.cs 파일에서 파일의 내용을 다음 코드로 바꿉니다.  
   
     ```  
     using System;  
@@ -315,11 +315,11 @@ ZipProjects:
     }  
     ```  
   
-4.  SimpleProject 프로젝트 다시 빌드 및 디버깅을 시작 합니다. 실험적 인스턴스에서 표시 됩니다.  
+4. SimpleProject 프로젝트 다시 빌드 및 디버깅을 시작 합니다. 실험적 인스턴스에서 표시 됩니다.  
   
-5.  새 SimpleProject 콘솔 응용 프로그램을 만듭니다. (에 **프로젝트 형식** 창 **SimpleProject**합니다. 아래 **Visual Studio 설치 된 템플릿**를 선택 **콘솔 응용 프로그램**.)  
+5. 새 SimpleProject 콘솔 응용 프로그램을 만듭니다. (에 **프로젝트 형식** 창 **SimpleProject**합니다. 아래 **Visual Studio 설치 된 템플릿**를 선택 **콘솔 응용 프로그램**.)  
   
-6.  새로 만든 프로젝트에서 Program.cs를 엽니다. 다음과 같이 표시 됩니다 (파일의 GUID 값이 달라 집니다.):  
+6. 새로 만든 프로젝트에서 Program.cs를 엽니다. 다음과 같이 표시 됩니다 (파일의 GUID 값이 달라 집니다.):  
   
     ```  
     using System;  
@@ -348,11 +348,11 @@ ZipProjects:
   
  이 섹션에서 만든 속성 페이지를 사용 하 여 변경 하 고 이러한 프로젝트 속성을 저장할 수 있습니다.  
   
--   AssemblyName  
+- AssemblyName  
   
--   OutputType  
+- OutputType  
   
--   RootNamespace.  
+- RootNamespace.  
   
 1. 추가 SimpleProjectPackage.cs 파일인 `ProvideObject` 특성을 `SimpleProjectPackage` 클래스:  
   

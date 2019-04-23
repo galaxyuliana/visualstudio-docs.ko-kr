@@ -13,12 +13,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: de0ab486d74e0e8ad3774a65a0b430523c0ac491
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 29832934b848729879ee1ba802c70f85117efd2a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981824"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080380"
 ---
 # <a name="idiapropertystorage"></a>IDiaPropertyStorage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,19 +51,19 @@ IDiaPropertyStorage : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
  이 인터페이스를 호출 하 여 가져올는 `QueryInterface` 다른 인터페이스에서 메서드. 다음 인터페이스를 쿼리할 수는 `IDiaPropertyStorage` 인터페이스:  
   
--   [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)  
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)  
   
--   [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)  
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)  
   
--   [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)  
+- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)  
   
--   [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)  
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)  
   
--   [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
   
--   [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)  
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)  
   
--   [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)  
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)  
   
 ## <a name="example"></a>예제  
  노출 하는 모든 속성을 표시 하는 함수를 보여 주는이 예제는 `IDiaPropertyStorage` 개체입니다. 참조를 [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) 방법의 예는 인터페이스 `IDiaPropertyStorage` 인터페이스에서 가져온 합니다 [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) 인터페이스입니다.  

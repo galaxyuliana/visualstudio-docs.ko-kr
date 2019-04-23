@@ -17,21 +17,21 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 806a2a2165dc604969e2bd8f35a0eb9c1cf07556
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: dbae3a1e003c0d9381b80fc24227e65a18c1c8f1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56636712"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096558"
 ---
 # <a name="visio-object-model-overview"></a>Visio 개체 모델 개요
   Microsoft Office Visio용 Office 솔루션을 개발하기 위해 Visio 개체 모델을 조작할 수 있습니다. 이 개체 모델은 Visio용 주 interop 어셈블리에 제공되고 `Microsoft.Office.Interop.Visio` 네임스페이스에서 제공되는 클래스 및 인터페이스로 구성됩니다.
 
  이 항목에서는 Visio 개체 모델에 대해 간략하게 설명합니다. Visio 개체 모델을 사용하여 Office 프로젝트에서 작업을 수행하는 방법에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [Visio 문서 작업](../vsto/working-with-visio-documents.md)
+- [Visio 문서 작업](../vsto/working-with-visio-documents.md)
 
--   [Visio 셰이프 작업](../vsto/working-with-visio-shapes.md)
+- [Visio 셰이프 작업](../vsto/working-with-visio-shapes.md)
 
 ## <a name="understand-the-visio-object-model"></a>Visio 개체 모델 이해
  Visio는 조작할 수 많은 개체를 제공합니다. 이러한 개체는 사용자 인터페이스와 유사한 계층 구조로 구성됩니다. 계층 구조의 맨 위에는 [Microsoft.Office.Interop.Visio.Application](/office/vba/api/Visio.Application) 개체가 있습니다. 이 개체는 Visio의 현재 인스턴스를 나타냅니다. `Microsoft.Office.Interop.Visio.Application` 개체를 포함 합니다 `Microsoft.Office.Interop.Visio.Document` 및 `Microsoft.Office.Interop.Visio.Page` 개체 뿐만 `Microsoft.Office.Interop.Visio.Documents` 및 `Microsoft.Office.Interop.Visio.Pages` 컬렉션입니다. 이러한 각 개체 및 컬렉션에는 조작하고 상호 작용하기 위해 액세스할 수 있는 여러 메서드와 속성이 있습니다.
@@ -40,11 +40,11 @@ ms.locfileid: "56636712"
 
  다음 섹션에서는 최상위 개체 및 최상위 개체가 서로 상호 작용하는 방식을 간략하게 설명합니다. 이러한 개체에는 다음 개체가 포함됩니다.
 
--   Application 개체
+- Application 개체
 
--   Document 개체
+- Document 개체
 
--   Page 개체
+- Page 개체
 
 ### <a name="application-object"></a>Application 개체
  Microsoft.Office.Interop.Visio.Application 개체 Visio 응용 프로그램을 나타내며 다른 개체의 모든 부모입니다. 멤버는 일반적으로 전체 Visio에 적용됩니다. Microsoft.Office.Interop.Visio.Application의 메서드와 속성을 사용할 수 있습니다 및 `Microsoft.Office.Interop.Visio.ApplicationSettings` Visio 환경을 제어할 수 있는 개체입니다.

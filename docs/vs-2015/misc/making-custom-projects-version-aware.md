@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.assetid: 5233d3ff-6e89-4401-b449-51b4686becca
 caps.latest.revision: 33
 manager: jillfra
-ms.openlocfilehash: 5b2cfb51ad13ed28e1f021b19b52153bf4c09f62
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3118ce72cd75baaf15fc66eedc5f2cd48c6f43d6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981291"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096597"
 ---
 # <a name="making-custom-projects-version-aware"></a>사용자 지정 프로젝트의 버전 인식 설정
 사용자 지정 프로젝트 시스템에서 해당 형식의 프로젝트가 여러 버전의 Visual Studio에서 로드되도록 할 수 있습니다. 또한 이전 버전의 Visual Studio에서 해당 형식의 프로젝트를 로드할 수 없도록 방지할 수도 있습니다. 프로젝트를 복구, 변환 또는 사용 중단해야 하는 경우 자신을 이후 버전으로 식별하도록 해당 프로젝트를 설정할 수 있습니다.  
@@ -24,17 +24,17 @@ ms.locfileid: "58981291"
   
  프로젝트 시스템 작성자는 `UpgradeProject_CheckOnly` 인터페이스에서 `IVsProjectUpgradeViaFactory4` 를 구현하여 프로젝트 시스템 사용자에게 업그레이드 검사를 제공합니다. 사용자가 프로젝트를 열면 이 메서드가 호출되어 로드하기 전에 프로젝트를 복구해야 하는지 여부를 확인합니다. 가능한 업그레이드 요구 사항은 `VSPUVF_REPAIRFLAGS`에 열거되며 여기에는 다음과 같은 요구 사항이 포함됩니다.  
   
-1.  `SPUVF_PROJECT_NOREPAIR`: 복구할이 필요가 없습니다.  
+1. `SPUVF_PROJECT_NOREPAIR`: 복구할이 필요가 없습니다.  
   
-2.  `VSPUVF_PROJECT_SAFEREPAIR`: 이전 버전과 호환 없이 프로젝트가 이전 버전의 제품에서 발생 했던 문제입니다.  
+2. `VSPUVF_PROJECT_SAFEREPAIR`: 이전 버전과 호환 없이 프로젝트가 이전 버전의 제품에서 발생 했던 문제입니다.  
   
-3.  `VSPUVF_PROJECT_UNSAFEREPAIR`: 이전 버전과 호환 되지만 이전 버전의 제품을 사용 하 여 발생 한 문제 중 일부 위험을 사용 하 여 프로젝트를 만듭니다. 예를 들어 프로젝트가 다른 SDK 버전에 의존하는 경우에는 호환되지 않습니다.  
+3. `VSPUVF_PROJECT_UNSAFEREPAIR`: 이전 버전과 호환 되지만 이전 버전의 제품을 사용 하 여 발생 한 문제 중 일부 위험을 사용 하 여 프로젝트를 만듭니다. 예를 들어 프로젝트가 다른 SDK 버전에 의존하는 경우에는 호환되지 않습니다.  
   
-4.  `VSPUVF_PROJECT_ONEWAYUPGRADE`: 프로젝트가 이전 버전과 호환 됩니다.  
+4. `VSPUVF_PROJECT_ONEWAYUPGRADE`: 프로젝트가 이전 버전과 호환 됩니다.  
   
-5.  `VSPUVF_PROJECT_INCOMPATIBLE`: 최신 버전은이 프로젝트는 지원 하지 않습니다 나타냅니다.  
+5. `VSPUVF_PROJECT_INCOMPATIBLE`: 최신 버전은이 프로젝트는 지원 하지 않습니다 나타냅니다.  
   
-6.  `VSPUVF_PROJECT_DEPRECATED`: 이 프로젝트는 지원 되지 않습니다 나타냅니다.  
+6. `VSPUVF_PROJECT_DEPRECATED`: 이 프로젝트는 지원 되지 않습니다 나타냅니다.  
   
 > [!NOTE]
 >  혼동을 줄 수 있으니 업그레이드 플래그를 설정할 때는 서로 결합하지 마세요. 예를 들어 `VSPUVF_PROJECT_SAFEREPAIR | VSPUVF_PROJECT_DEPRECATED`처럼 모호한 업그레이드 상태를 만들지 마세요.  
@@ -49,18 +49,18 @@ ms.locfileid: "58981291"
   
  호환성 사용자 환경을 요약하려면 다음 예제를 참조하세요. 프로젝트가 이전 버전에서 만들어졌고 현재 버전에서 업그레이드가 필요하다고 판단한 경우 사용자에게 변경 권한이 있는지 묻는 대화 상자가 표시됩니다. 사용자가 동의하는 경우 프로젝트가 수정 후 로드됩니다. 그런 다음 솔루션을 닫고 이전 버전에서 다시 열면 단방향으로 업그레이드된 프로젝트는 호환되지 않아 로드되지 않습니다. 프로젝트에 업그레이드가 아닌 복구만 필요한 경우 복구된 프로젝트는 두 버전 모두에서 열립니다.  
   
-##  <a name="BKMK_Incompat"></a> 프로젝트를 호환 되지 않음으로 표시합니다.  
+## <a name="BKMK_Incompat"></a> 프로젝트를 호환 되지 않음으로 표시합니다.  
  프로젝트를 이전 버전의 Visual Studio와 호환되지 않음으로 표시할 수 있습니다.  예를 들어 .NET Framework 4.5 기능을 사용하는 프로젝트를 만든다고 가정합니다. 이 프로젝트는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)]에서 빌드할 수 없으므로 해당 버전에서 로드할 수 없도록 호환되지 않음으로 표시할 수 있습니다.  
   
  호환되지 않는 기능을 추가하는 구성 요소는 프로젝트를 호환되지 않음으로 표시합니다. 구성 요소는 원하는 프로젝트를 나타내는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 인터페이스에 대한 권한이 있어야 합니다.  
   
 #### <a name="to-mark-a-project-as-incompatible"></a>프로젝트를 호환되지 않음으로 표시하려면  
   
-1.  구성 요소에서 글로벌 서비스 SVsSolution의 `IVsAppCompat` 인터페이스를 가져옵니다.  
+1. 구성 요소에서 글로벌 서비스 SVsSolution의 `IVsAppCompat` 인터페이스를 가져옵니다.  
   
      자세한 내용은 <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>을 참조하세요.  
   
-2.  구성 요소에서 `IVsAppCompat.AskForUserConsentToBreakAssetCompat`을 호출하고 원하는 프로젝트를 나타내는 `IVsHierarchy` 인터페이스 배열로 전달합니다.  
+2. 구성 요소에서 `IVsAppCompat.AskForUserConsentToBreakAssetCompat`을 호출하고 원하는 프로젝트를 나타내는 `IVsHierarchy` 인터페이스 배열로 전달합니다.  
   
      이 메서드의 서명은 다음과 같습니다.  
   
@@ -74,9 +74,9 @@ ms.locfileid: "58981291"
     > [!WARNING]
     >  가장 일반적인 시나리오에서는 `IVsHierarchy` 배열에 항목이 하나만 포함됩니다.  
   
-3.  `AskForUserConsentToBreakAssetCompat` 이 `S_OK`를 반환한 경우 구성 요소는 호환성을 차단하는 변경 내용을 수행하거나 적용합니다.  
+3. `AskForUserConsentToBreakAssetCompat` 이 `S_OK`를 반환한 경우 구성 요소는 호환성을 차단하는 변경 내용을 수행하거나 적용합니다.  
   
-4.  구성 요소에서 호환되지 않음으로 표시할 각 프로젝트에 대해 `IVsAppCompat.BreakAssetCompatibility` 메서드를 호출합니다. Visual Studio가 레지스트리에서 현재 버전 문자열을 찾게 하는 대신 구성 요소가 매개 변수 `lpszMinimumVersion` 의 값을 특정 최소 버전으로 설정할 수 있습니다. 이 방법을 사용하면 현재 레지스트리 설정을 기준으로 나중에 구성 요소에 대해 실수로 높은 값을 설정하는 위험을 최소화할 수 있습니다. 해당 값이 높게 설정된 경우 Visual Studio에서 프로젝트를 열 수 없습니다.  
+4. 구성 요소에서 호환되지 않음으로 표시할 각 프로젝트에 대해 `IVsAppCompat.BreakAssetCompatibility` 메서드를 호출합니다. Visual Studio가 레지스트리에서 현재 버전 문자열을 찾게 하는 대신 구성 요소가 매개 변수 `lpszMinimumVersion` 의 값을 특정 최소 버전으로 설정할 수 있습니다. 이 방법을 사용하면 현재 레지스트리 설정을 기준으로 나중에 구성 요소에 대해 실수로 높은 값을 설정하는 위험을 최소화할 수 있습니다. 해당 값이 높게 설정된 경우 Visual Studio에서 프로젝트를 열 수 없습니다.  
   
      이 메서드의 서명은 다음과 같습니다.  
   
@@ -133,21 +133,21 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
   
  예를 들어 `UpgradeProject_CheckOnly` SP1 프로젝트 시스템용으로 작성된 `CreateProject` 및 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 메서드가 프로젝트 파일을 검사하여 `<MinimumVisualStudioVersion>` 빌드 속성이 "11.0"인 것을 발견한 경우 Visual Studio 2010 SP1에서 프로젝트를 로드하지 않습니다. 또한 **솔루션 탐색기** 에 프로젝트가 "호환되지 않음"으로 표시되며 로드되지 않습니다.  
   
-##  <a name="BKMK_UpgradeLogger"></a> 업그레이드로 거  
+## <a name="BKMK_UpgradeLogger"></a> 업그레이드로 거  
  `IVsProjectUpgradeViaFactory::UpgradeProject` 에 대한 호출에는 `IVsUpgradeLogger` 로거가 포함되어 있으며 이 로거는 프로젝트 시스템 및 버전에서 문제 해결을 위한 자세한 업그레이드 추적을 제공하는 데 사용됩니다. 경고나 오류가 기록된 경우 Visual Studio는 업그레이드 보고서를 표시합니다.  
   
  업그레이드 로거를 작성할 때는 다음 지침을 고려합니다.  
   
--   Visual Studio는 모든 프로젝트 업그레이드를 완료한 후 플러시를 호출합니다. 프로젝트 시스템에서 호출하지 마세요.  
+- Visual Studio는 모든 프로젝트 업그레이드를 완료한 후 플러시를 호출합니다. 프로젝트 시스템에서 호출하지 마세요.  
   
--   LogMessage 함수에는 다음 ErrorLevel이 있습니다.  
+- LogMessage 함수에는 다음 ErrorLevel이 있습니다.  
   
-    -   0 - 추적하려는 모든 정보  
+    - 0 - 추적하려는 모든 정보  
   
-    -   1 - 경고  
+    - 1 - 경고  
   
-    -   2 - 오류  
+    - 2 - 오류  
   
-    -   3 - 보고서 포맷터 프로젝트가 업그레이드되면 "Converted"라는 단어(지역화되지 않음)가 한 번 기록됩니다.  
+    - 3 - 보고서 포맷터 프로젝트가 업그레이드되면 "Converted"라는 단어(지역화되지 않음)가 한 번 기록됩니다.  
   
--   프로젝트에 복구 또는 업그레이드가 필요하지 않은 경우 Visual Studio는 UpgradeProject_CheckOnly 또는 UpgradeProjectFlavor_CheckOnly 메서드 실행 중 프로젝트 시스템에서 경고 또는 오류를 기록한 경우에만 로그 파일을 생성합니다.
+- 프로젝트에 복구 또는 업그레이드가 필요하지 않은 경우 Visual Studio는 UpgradeProject_CheckOnly 또는 UpgradeProjectFlavor_CheckOnly 메서드 실행 중 프로젝트 시스템에서 경고 또는 오류를 기록한 경우에만 로그 파일을 생성합니다.

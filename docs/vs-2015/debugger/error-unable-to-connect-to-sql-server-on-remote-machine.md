@@ -17,12 +17,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: be85bc332fffd0b5bab93091a6b5dd0b999834c1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f2e5b19c26ff800b5edabd3bf21f57b21ed06bae
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985976"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60083421"
 ---
 # <a name="error-unable-to-connect-to-sql-server-on-remote-machine"></a>오류: 원격 컴퓨터의 SQL Server에 연결할 수 없음
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "58985976"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   [원격 디버깅](../debugger/remote-debugging.md)을 참조하세요.  
+- [원격 디버깅](../debugger/remote-debugging.md)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [SQL 디버깅](http://msdn.microsoft.com/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)

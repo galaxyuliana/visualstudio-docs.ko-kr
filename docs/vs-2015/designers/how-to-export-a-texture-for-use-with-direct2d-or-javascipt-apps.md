@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5d5858df00057298f961189173a3943f3e23d2b6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 29ee765bfc11362a870d359ff0a9cdc3f633e464
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54781482"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080802"
 ---
 # <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps"></a>방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,34 +23,34 @@ ms.locfileid: "54781482"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   이미지 콘텐츠 파이프라인에서 처리할 소스 이미지 구성.  
+- 이미지 콘텐츠 파이프라인에서 처리할 소스 이미지 구성.  
   
--   Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 생성하도록 이미지 콘텐츠 파이프라인 구성.  
+- Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 생성하도록 이미지 콘텐츠 파이프라인 구성.  
   
-    -   블록 압축 .dds 파일을 생성합니다.  
+    - 블록 압축 .dds 파일을 생성합니다.  
   
-    -   미리 곱한 알파를 생성합니다.  
+    - 미리 곱한 알파를 생성합니다.  
   
-    -   MIP 맵 생성을 사용하지 않도록 설정합니다.  
+    - MIP 맵 생성을 사용하지 않도록 설정합니다.  
   
 ## <a name="rendering-conventions-in-direct2d"></a>Direct2D의 렌더링 규칙  
  Direct2D의 컨텍스트에서 사용되는 질감은 이러한 Direct2D 내부 렌더링 규칙을 따릅니다.  
   
--   Direct2D는 미리 곱한 알파를 사용하여 투명도 및 반투명도를 구현합니다. 질감에 투명도 또는 반투명도를 사용하지 않는 경우에도 Direct2D에서 사용되는 질감은 미리 곱한 알파를 포함해야 합니다. 미리 곱한 알파에 대한 자세한 내용은 [방법: 미리 증가된 알파를 사용하는 질감 내보내기](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)를 참조하세요.  
+- Direct2D는 미리 곱한 알파를 사용하여 투명도 및 반투명도를 구현합니다. 질감에 투명도 또는 반투명도를 사용하지 않는 경우에도 Direct2D에서 사용되는 질감은 미리 곱한 알파를 포함해야 합니다. 미리 곱한 알파에 대한 자세한 내용은 [방법: 미리 증가 된 알파 하는 질감 내보내기](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)합니다.  
   
--   다음 블록 압축 형식 중 하나를 사용하여 질감을 .dds 형식으로 제공해야 합니다.  
+- 다음 블록 압축 형식 중 하나를 사용하여 질감을 .dds 형식으로 제공해야 합니다.  
   
-    -   BC1_UNORM 압축  
+    - BC1_UNORM 압축  
   
-    -   BC2_UNORM 압축  
+    - BC2_UNORM 압축  
   
-    -   BC3_UNORM 압축  
+    - BC3_UNORM 압축  
   
--   MIP 맵은 지원되지 않습니다.  
+- MIP 맵은 지원되지 않습니다.  
   
 #### <a name="to-create-a-texture-thats-compatible-with-direct2d-rendering-conventions"></a>Direct2D 렌더링 규칙에 부합되는 질감을 만들려면  
   
-1. 기본 질감으로 시작합니다. 기존 이미지를 로드하거나 [방법: 기본 질감 만들기](../designers/how-to-create-a-basic-texture.md)의 설명대로 새 질감을 만듭니다. .dds 형식의 블록 압축을 지원하려면 너비 및 높이가 4의 배수인 크기(예: 100x100, 128x128 또는 256x192)의 질감을 지정합니다. MIP 매핑은 지원되지 않으므로 질감은 정사각형일 필요가 없고 크기가 2의 제곱일 필요가 없습니다.  
+1. 기본 질감으로 시작합니다. 기존 이미지를 로드하거나 [방법: 기본 질감 만들기](../designers/how-to-create-a-basic-texture.md)합니다. .dds 형식의 블록 압축을 지원하려면 너비 및 높이가 4의 배수인 크기(예: 100x100, 128x128 또는 256x192)의 질감을 지정합니다. MIP 매핑은 지원되지 않으므로 질감은 정사각형일 필요가 없고 크기가 2의 제곱일 필요가 없습니다.  
   
 2. 이미지 콘텐츠 파이프라인에서 처리되도록 질감 파일을 구성합니다. **솔루션 탐색기**에서 방금 만든 질감 파일에 대한 바로 가기 메뉴를 열고 **속성**을 선택합니다. **구성 속성**, **일반** 페이지에서 **항목 종류** 속성을 **이미지 콘텐츠 파이프라인**으로 설정합니다. **콘텐츠** 속성이 **예**로 설정되고 **빌드에서 제외**가 **아니요**로 설정되어 있는지 확인하고 **적용** 단추를 선택합니다. **이미지 콘텐츠 파이프라인** 구성 속성 페이지가 표시됩니다.  
   

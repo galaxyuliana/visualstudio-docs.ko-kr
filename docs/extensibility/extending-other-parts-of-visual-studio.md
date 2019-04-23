@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 34771bd005b298f73bcc2ee13e2d4cf9a123f1a9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: cf4066a9eee47d1ffad156768287bf036aaae3cf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56683050"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080919"
 ---
 # <a name="extend-other-parts-of-visual-studio"></a>Visual Studio의 다른 부분 확장
 
@@ -29,9 +29,9 @@ Visual Studio 확장성의 기본 구성 요소에는 Vspackage는 합니다.  V
 
 도구 상자에 새 컨트롤 및 기타 항목을 추가 하는 방법 및 도구 상자 기능을 사용 하는 방법에 알아봅니다.
 
--   [WPF 도구 상자 컨트롤 만들기](../extensibility/creating-a-wpf-toolbox-control.md)
+- [WPF 도구 상자 컨트롤 만들기](../extensibility/creating-a-wpf-toolbox-control.md)
 
--   [Windows Forms 도구 상자 컨트롤 만들기](../extensibility/creating-a-windows-forms-toolbox-control.md)
+- [Windows Forms 도구 상자 컨트롤 만들기](../extensibility/creating-a-windows-forms-toolbox-control.md)
 
 ## <a name="extend-the-status-bar"></a>상태 표시줄 확장
 

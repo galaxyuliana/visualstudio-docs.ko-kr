@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 30ea6f9e3c5bfb907b1dc75b28edf7a56a0e86d1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4aadc089fba5c1f55488c72bfd5c3e46ebf59487
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639871"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084403"
 ---
 # <a name="how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted"></a>방법: SharePoint 프로젝트는 배포 되거나 취소 될 때 코드를 실행 합니다.
   SharePoint 프로젝트는 배포 되거나 취소 될 때 추가 작업을 수행 하려는 경우에 Visual Studio에서 발생 하는 이벤트를 처리할 수 있습니다. 자세한 내용은 [확장 SharePoint 패키징 및 배포](../sharepoint/extending-sharepoint-packaging-and-deployment.md)합니다.
@@ -26,11 +26,11 @@ ms.locfileid: "56639871"
 
 1. 프로젝트 항목 확장, 프로젝트 확장명을 또는 새 프로젝트 항목 형식의 정의 만듭니다. 자세한 내용은 다음 항목을 참조하세요.
 
-   -   [방법: SharePoint 프로젝트 항목 확장명 만들기](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
+   - [방법: SharePoint 프로젝트 항목 확장명 만들기](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
 
-   -   [방법: SharePoint 프로젝트 확장명 만들기](../sharepoint/how-to-create-a-sharepoint-project-extension.md)
+   - [방법: SharePoint 프로젝트 확장명 만들기](../sharepoint/how-to-create-a-sharepoint-project-extension.md)
 
-   -   [방법: SharePoint 프로젝트 항목 형식 정의](../sharepoint/how-to-define-a-sharepoint-project-item-type.md)
+   - [방법: SharePoint 프로젝트 항목 형식 정의](../sharepoint/how-to-define-a-sharepoint-project-item-type.md)
 
 2. 확장에 액세스 합니다 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> 개체입니다. 자세한 내용은 [방법: SharePoint 프로젝트 서비스 검색](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md)합니다.
 
@@ -46,9 +46,9 @@ ms.locfileid: "56639871"
 ## <a name="compile-the-code"></a>코드 컴파일
  이 예제에는 다음 어셈블리에 대 한 참조가 필요합니다.
 
--   Microsoft.VisualStudio.SharePoint
+- Microsoft.VisualStudio.SharePoint
 
--   System.ComponentModel.Composition
+- System.ComponentModel.Composition
 
 ## <a name="deploy-the-extension"></a>확장 배포
  확장 배포를 만들려면를 [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] 어셈블리 및 확장을 사용 하 여 배포 하려는 다른 파일에 대 한 패키지 (VSIX) 확장 합니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구의 확장을 배포할](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)합니다.

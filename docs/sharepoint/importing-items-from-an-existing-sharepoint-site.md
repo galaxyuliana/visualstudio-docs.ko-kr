@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4a3fa4013a5fa9b3fb6ec17ee07277f5e4b7d996
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 206cd77ae3c648add62b17c86a4966e6174c345c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645149"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082583"
 ---
 # <a name="import-items-from-an-existing-sharepoint-site"></a>기존 SharePoint 사이트에서 항목 가져오기
   SharePoint 솔루션 패키지 가져오기 프로젝트 템플릿을 사용하면 기존 SharePoint 사이트에 있는 콘텐츠 형식 및 필드 등의 요소를 새 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 솔루션에서 다시 사용할 수 있습니다. 수정 없이도 가져온 솔루션을 대부분 실행할 수 있지만 몇 가지 제한 및 문제를 고려해야 합니다. 항목을 가져온 후 수정한 경우에는 특히 주의해야 합니다.
@@ -119,9 +119,9 @@ ms.locfileid: "56645149"
 
  이 오류가 발생하는 경우 항목이 만들어지지 않습니다. 이 문제는 모듈을 가져올 때 가장 자주 발생합니다. 이 문제를 방지하려면 다음을 수행합니다.
 
--   **새 프로젝트 추가** 대화 상자에서 프로젝트 이름을 입력할 때 짧은 이름을 사용합니다.
+- **새 프로젝트 추가** 대화 상자에서 프로젝트 이름을 입력할 때 짧은 이름을 사용합니다.
 
--   경로가 짧아지도록 가능한 한 루트 폴더에 가까운 위치에 프로젝트를 만듭니다.
+- 경로가 짧아지도록 가능한 한 루트 폴더에 가까운 위치에 프로젝트를 만듭니다.
 
 ## <a name="the-sharepointproductversion-attribute"></a>SharePointProductVersion 특성
  [!INCLUDE[winshare3](../sharepoint/includes/winshare3-md.md)] 또는 [!INCLUDE[offshare7](../sharepoint/includes/offshare7-md.md)]등 이전 버전의 SharePoint에서 만든 솔루션을 가져오는 경우 패키지 매니페스트의 SharePointProductVersion 특성 값을 12.0으로 변경하거나, 가져온 모든 웹 페이지에 스크립트 관리자 컨트롤을 삽입하고 SharePointProductVersion의 값 14.0을 그대로 유지합니다. 그렇지 않은 경우 가져온 웹 양식이 SharePoint에 표시되지 않습니다.

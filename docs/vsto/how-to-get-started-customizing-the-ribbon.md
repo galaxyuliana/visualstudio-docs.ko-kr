@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 14c4ff1e8bf443351f835d74d44b49bbb61e0321
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f164a8f1d1c84725530e7a3afab5e63472ae257e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640118"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081569"
 ---
 # <a name="how-to-get-started-customizing-the-ribbon"></a>방법: 리본 사용자 지정 시작
   Microsoft Office 응용 프로그램의 리본을 사용자 지정 하려면 추가 **리본 (비주얼 디자이너)** 또는 **리본 (XML)** Office 프로젝트 항목입니다.
@@ -37,33 +37,33 @@ ms.locfileid: "56640118"
 
     이름은 다음 문자를 포함할 수 없습니다.
 
-   -   파운드(#)
+   - 파운드(#)
 
-   -   백분율(%)
+   - 백분율(%)
 
-   -   앰퍼샌드 (&)
+   - 앰퍼샌드 (&)
 
-   -   별표(*)
+   - 별표(*)
 
-   -   세로 막대(|)
+   - 세로 막대(|)
 
-   -   백슬래시(\\)
+   - 백슬래시(\\)
 
-   -   콜론(:)
+   - 콜론(:)
 
-   -   큰따옴표(")
+   - 큰따옴표(")
 
-   -   보다 작은 (\<)
+   - 보다 작음(\<)
 
-   -   보다 큼(>)
+   - 보다 큼(>)
 
-   -   물음표(?)
+   - 물음표(?)
 
-   -   슬래시(/)
+   - 슬래시(/)
 
-   -   선행 또는 후행 공백(' ')
+   - 선행 또는 후행 공백(' ')
 
-   -   ("Nul", "aux", "con", "com1", "lpt1" 등)와 같은 Windows 또는 DOS에 예약 된 이름
+   - ("Nul", "aux", "con", "com1", "lpt1" 등)와 같은 Windows 또는 DOS에 예약 된 이름
 
 4. **확인**을 클릭합니다.
 

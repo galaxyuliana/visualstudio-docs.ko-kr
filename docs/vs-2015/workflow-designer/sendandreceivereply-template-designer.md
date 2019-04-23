@@ -12,12 +12,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2566d5d0d653af7caa29474e7916352600bf94d4
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 689f3a57dc3de9bbe63b0ef69a969cac57a639c6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668264"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104163"
 ---
 # <a name="sendandreceivereply-template-designer"></a>SendAndReceiveReply 템플릿 디자이너
 **SendAndReceiveReply** 서식 파일은 쌍을 만드는 데 미리 구성 된 <xref:System.ServiceModel.Activities.Send> 및 <xref:System.ServiceModel.Activities.ReceiveReply> 내에서 작업을 <xref:System.Activities.Statements.Sequence> 요청/응답 메시지 교환의 일환으로 상호 연결 되는 클라이언트에서 패턴입니다.  
@@ -25,11 +25,11 @@ ms.locfileid: "59668264"
 ## <a name="the-sendandreceivereply-template"></a>SendAndReceiveReply 템플릿  
  추가 **SendAndReceiveReply** 템플릿을 만드는 것 외에 세 가지 작업을 수행 합니다 <xref:System.ServiceModel.Activities.Send> 및 <xref:System.ServiceModel.Activities.ReceiveReply> 내에서 활동을 <xref:System.Activities.Statements.Sequence> 활동:  
 
-1.  <xref:System.ServiceModel.Activities.Send.OperationName%2A> 활동의 <xref:System.ServiceModel.Activities.Send.ServiceContractName%2A>, <xref:System.ServiceModel.Activities.Send> 속성이 구성됩니다.  
+1. <xref:System.ServiceModel.Activities.Send.OperationName%2A> 활동의 <xref:System.ServiceModel.Activities.Send.ServiceContractName%2A>, <xref:System.ServiceModel.Activities.Send> 속성이 구성됩니다.  
 
-2.  <xref:System.ServiceModel.Activities.ReceiveReply.Request%2A> 활동의 <xref:System.ServiceModel.Activities.ReceiveReply> 속성이 <xref:System.ServiceModel.Activities.Send> 활동에 바인딩됩니다.  
+2. <xref:System.ServiceModel.Activities.ReceiveReply.Request%2A> 활동의 <xref:System.ServiceModel.Activities.ReceiveReply> 속성이 <xref:System.ServiceModel.Activities.Send> 활동에 바인딩됩니다.  
 
-3.  부모 활동의 변수로 <xref:System.ServiceModel.Activities.CorrelationHandle>이 만들어집니다.  
+3. 부모 활동의 변수로 <xref:System.ServiceModel.Activities.CorrelationHandle>이 만들어집니다.  
 
 ### <a name="using-the-sendandreceivereply-template-designer"></a>SendAndReceiveReply 템플릿 디자이너 사용  
  **SendAndReceiveReply** 활동 디자이너에서 찾을 수 있습니다 합니다 **메시징** 범주의 **도구 상자**를 클릭 하 여 액세스를 **도구 상자**  탭에서 [!INCLUDE[wfd2](../includes/wfd2-md.md)] (또는 선택 **도구 모음** 에서 **뷰** 메뉴 또는 CTRL + ALT + X를 누릅니다.)  
