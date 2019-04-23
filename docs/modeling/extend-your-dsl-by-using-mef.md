@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 40442d9cf740bd4122aaf48f82fdba425aff261e
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 40b62719fb00910e4eef183f960e1a1d4ea9a4a4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415579"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084244"
 ---
 # <a name="extend-your-dsl-by-using-mef"></a>MEF를 사용하여 DSL 확장
 
@@ -24,7 +24,7 @@ MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Ext
 
 ### <a name="to-enable-your-dsl-to-be-extended-by-mef"></a>DSL에서 MEF 확장을 사용 하도록 설정 하려면
 
-1.  라는 새 폴더를 만듭니다 **MefExtension** 안에 **DslPackage** 프로젝트입니다. 다음 파일을 추가 합니다.
+1. 라는 새 폴더를 만듭니다 **MefExtension** 안에 **DslPackage** 프로젝트입니다. 다음 파일을 추가 합니다.
 
      파일 이름: `CommandExtensionVSCT.tt`
 
@@ -72,7 +72,7 @@ MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Ext
     <#@ include file="DslPackage\PackageExtensionEnablement.tt" #>
     ```
 
-2.  라는 새 폴더를 만듭니다 **MefExtension** 안에 **Dsl** 프로젝트입니다. 다음 파일을 추가 합니다.
+2. 라는 새 폴더를 만듭니다 **MefExtension** 안에 **Dsl** 프로젝트입니다. 다음 파일을 추가 합니다.
 
      파일 이름: `DesignerExtensionMetaDataAttribute.tt`
 
@@ -95,7 +95,7 @@ MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Ext
     <#@ include file="Dsl\GestureExtensionController.tt" #>
     ```
 
-3.  명명 된 기존 파일에 다음 줄을 추가 **DslPackage\Commands.vsct**:
+3. 명명 된 기존 파일에 다음 줄을 추가 **DslPackage\Commands.vsct**:
 
     ```xml
     <Include href="MefExtension\CommandExtensionVSCT.vsct"/>
@@ -103,17 +103,17 @@ MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Ext
 
     기존 줄 삽입 `<Include>` 지시문입니다.
 
-4.  오픈 *DslDefinition.dsl*합니다.
+4. 오픈 *DslDefinition.dsl*합니다.
 
-5.  DSL 탐색기에서 선택 **Editor\Validation**합니다.
+5. DSL 탐색기에서 선택 **Editor\Validation**합니다.
 
-6.  속성 창에서 명명 된 속성 중 하나 이상 있는지 확인 **사용 하 여** 는 `true`합니다.
+6. 속성 창에서 명명 된 속성 중 하나 이상 있는지 확인 **사용 하 여** 는 `true`합니다.
 
-7.  에 **솔루션 탐색기** 도구 모음에서 클릭 **모든 템플릿 변환**합니다.
+7. 에 **솔루션 탐색기** 도구 모음에서 클릭 **모든 템플릿 변환**합니다.
 
      보조 파일을 추가한 파일의 각 아래에 나타납니다.
 
-8.  빌드하고 여전히 작동 하는지 확인 하려면 솔루션을 실행 합니다.
+8. 빌드하고 여전히 작동 하는지 확인 하려면 솔루션을 실행 합니다.
 
 DSL은 MEF 사용 되었습니다. 메뉴 명령, 제스처 처리기 및 유효성 검사 제약 조건 MEF 확장으로 작성할 수 있습니다. 다른 사용자 지정 코드와 함께 DSL 솔루션에서 이러한 확장을 작성할 수 있습니다. 또한 사용자 또는 다른 개발자 DSL을 확장 하는 별도 Visual Studio extensions를 작성할 수 있습니다.
 
@@ -123,7 +123,7 @@ DSL은 MEF 사용 되었습니다. 메뉴 명령, 제스처 처리기 및 유효
 
 ### <a name="to-create-a-dsl-extension-vsix"></a>DSL 확장을 VSIX를 만들려면
 
-1. 새 **클래스 라이브러리** 프로젝트입니다.
+1. 새 **클래스 라이브러리** 프로젝트를 만듭니다.
 
 2. 새 프로젝트에서 DSL의 어셈블리에 대 한 참조를 추가 합니다.
 
@@ -135,15 +135,15 @@ DSL은 MEF 사용 되었습니다. 메뉴 명령, 제스처 처리기 및 유효
 
 3. 다음.NET 어셈블리에 대 한 참조를 추가 합니다.
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.11.0.dll
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll
 
-   -   System.ComponentModel.Composition.dll
+   - System.ComponentModel.Composition.dll
 
-   -   System.Windows.Forms.dll
+   - System.Windows.Forms.dll
 
 4. 새 **VSIX 프로젝트** 프로젝트입니다.
 

@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 219d70f1a722a19017399ab851aa2e69c44d2b28
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: e36b7cef0c24367292f7f9e60b86eb9138b12a64
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663364"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082947"
 ---
 # <a name="insert-controls-and-modify-their-behavior-in-xaml-designer"></a>XAML 디자이너 에서 컨트롤을 삽입하고 해당 동작을 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,11 +23,11 @@ ms.locfileid: "59663364"
   
  **항목 내용**  
   
--   [아트보드에 컨트롤 추가](#Insert)  
+- [아트보드에 컨트롤 추가](#Insert)  
   
--   [작업을 수행하는 컨트롤 만들기](#Modify)  
+- [작업을 수행하는 컨트롤 만들기](#Modify)  
   
-##  <a name="Insert"></a> 아트보드에 컨트롤 추가  
+## <a name="Insert"></a> 아트보드에 컨트롤 추가  
  컨트롤을 **자산** 패널에서 **아트보드**로 끌어와 **속성** 창에서 수정할 수 있습니다.  
   
  ![Blend &#45; 자산 &#45; FlipView](../designers/media/blend-assetsflipview-xaml.png "blend_AssetsFlipView_XAML")  
@@ -53,7 +53,7 @@ ms.locfileid: "59663364"
   
  컨트롤을 만들려면 개체를 선택합니다. 그런 다음 **도구** 메뉴에서 **컨트롤 만들기**를 클릭합니다.  
   
-##  <a name="Modify"></a> 작업을 수행하는 컨트롤 만들기  
+## <a name="Modify"></a> 작업을 수행하는 컨트롤 만들기  
  컨트롤은 사용자가 상호 작용하는 경우 작업을 수행할 수 있습니다. 예를 들어 컨트롤은 애니메이션 효과를 적용하고 데이터 소스를 업데이트하거나 비디오를 재생할 수 있습니다.  
   
  *트리거*, *동작*및 *이벤트* 를 사용하여 컨트롤이 작업을 수행하도록 합니다.  

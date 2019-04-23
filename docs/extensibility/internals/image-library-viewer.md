@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5457c0b4e7b355c130fedbdbba456b550a35f1ee
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 749441e960363fe208e3ad67288180c1935db35f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56633254"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084819"
 ---
 # <a name="image-library-viewer"></a>이미지 라이브러리 뷰어
 Visual Studio 이미지 라이브러리 뷰어 도구를 로드 하 고 Visual Studio는 동일한 방식으로 조작할 수 있도록 이미지 매니페스트를 검색할 수 있습니다. 백그라운드, 크기, DPI, 고대비 등 및 기타 설정을 변경할 수 있습니다. 또한 도구는 각 이미지 매니페스트에 대 한 정보를 로드를 표시 하 고 이미지 매니페스트에서 각 이미지에 대 한 소스 정보를 표시 합니다. 이 도구에 유용합니다.
@@ -55,7 +55,7 @@ Visual Studio 이미지 라이브러리 뷰어 도구를 로드 하 고 Visual S
 </ImageManifest>
 ```
 
- **기호**
+ **Symbols**
 
  가독성 및 유지 관리를 지 원하는 대로 이미지 매니페스트 특성 값에 대 한 기호를 사용할 수 있습니다. 기호는 다음과 같이 정의 됩니다.
 
@@ -224,9 +224,9 @@ Visual Studio 이미지 라이브러리 뷰어 도구를 로드 하 고 Visual S
 
 ## <a name="notes"></a>노트
 
--   기본적으로 도구는 Visual Studio 설치 디렉터리에 여러 이미지 매니페스트 가져오게 됩니다. 공개적으로 사용할 수 있는 모니커 있는 하나만 합니다 **Microsoft.VisualStudio.ImageCatalog** 매니페스트 합니다. GUID: ae27a6b0-e345-4288-96df-5eaf394ee369 (수행 **되지** 이 GUID는 사용자 지정 매니페스트 재정의) 형식: KnownMonikers
+- 기본적으로 도구는 Visual Studio 설치 디렉터리에 여러 이미지 매니페스트 가져오게 됩니다. 공개적으로 사용할 수 있는 모니커 있는 하나만 합니다 **Microsoft.VisualStudio.ImageCatalog** 매니페스트 합니다. GUID: ae27a6b0-e345-4288-96df-5eaf394ee369 (수행 **되지** 이 GUID는 사용자 지정 매니페스트 재정의) 형식: KnownMonikers
 
--   실제로 표시 하도록 응용 프로그램에 대 한 몇 초가 걸릴 수 있으므로 찾으면 모든 이미지 매니페스트를 로드 하는 시작 시 도구를 시도 합니다. 느리거나 응답이 없는 매니페스트를 로드 하는 동안 수도 수 있습니다.
+- 실제로 표시 하도록 응용 프로그램에 대 한 몇 초가 걸릴 수 있으므로 찾으면 모든 이미지 매니페스트를 로드 하는 시작 시 도구를 시도 합니다. 느리거나 응답이 없는 매니페스트를 로드 하는 동안 수도 수 있습니다.
 
 ## <a name="sample-output"></a>샘플 출력
  이 도구는 모든 출력을 생성 하지 않습니다.

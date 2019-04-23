@@ -18,12 +18,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9434ad3d67b8cf724323bdb9614d3bfdbd569882
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 65eb724d14123292a0694623bf46859f8a3966f9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971873"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084481"
 ---
 # <a name="error-a-security-check-failed-because-the-iis-admin-service-did-not-respond"></a>오류: IIS 관리자 서비스에서 응답하지 않아서 보안 검사 실패
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,11 +32,11 @@ ms.locfileid: "58971873"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   제어판의 **프로그램 추가 또는 제거**를 사용하여 IIS를 다시 설치합니다.  
+- 제어판의 **프로그램 추가 또는 제거**를 사용하여 IIS를 다시 설치합니다.  
   
--   또는  
+- 또는  
   
--   제어판의 프로그램 추가/제거를 사용하여 컴퓨터에서 IIS를 제거합니다. IIS를 제거했는데도 문제가 해결되지 않으면 레지스트리에서 다음 키가 더 이상 표시되지 않는지 확인합니다.  
+- 제어판의 프로그램 추가/제거를 사용하여 컴퓨터에서 IIS를 제거합니다. IIS를 제거했는데도 문제가 해결되지 않으면 레지스트리에서 다음 키가 더 이상 표시되지 않는지 확인합니다.  
   
     ```  
     HKEY_CLASSES_ROOT\CLSID\{A9E69610-B80D-11D0-B9B9-00A0C922E750}  
@@ -44,7 +44,7 @@ ms.locfileid: "58971873"
   
      또는  
   
--   제어판의 관리 도구를 사용하여 IIS 관리자 서비스를 사용하지 않도록 설정합니다. 이렇게 하면 사용자의 컴퓨터에서 IIS를 사용할 수 없습니다.  
+- 제어판의 관리 도구를 사용하여 IIS 관리자 서비스를 사용하지 않도록 설정합니다. 이렇게 하면 사용자의 컴퓨터에서 IIS를 사용할 수 없습니다.  
   
      이 세 단계 중 하나를 수행한 후에 컴퓨터를 다시 시작합니다.  
   

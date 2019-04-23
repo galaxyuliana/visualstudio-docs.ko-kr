@@ -57,12 +57,12 @@ caps.latest.revision: 41
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1a59432d6b630606ac5c133e8a5811186fcf7c34
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: ce3cfa8762c6202a7c36bd9606a0fa77ccdd94a4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "58866768"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084043"
 ---
 # <a name="managing-external-tools"></a>외부 도구 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,17 +72,17 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
 ## <a name="tools-available-on-the-visual-studio-tools-menu"></a>Visual Studio Tools 메뉴에서 사용할 수 있는 도구  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **도구** 메뉴에서 다음 도구를 호출할 수 있습니다. **빠른 실행** 창에서 이름으로 호출할 수도 있습니다. 예를 들어 GuidGen.exe를 호출하려면 **GUID 만들기**를 입력합니다.  
   
-1.  GUID 만들기: GUID를 생성합니다.  
+1. GUID 만들기: GUID를 생성합니다.  
   
-2.  오류 조회: 입력한 값에서 오류 메시지를 가져옵니다. 자세한 내용은 [ERRLOOK 참조](http://msdn.microsoft.com/library/6040ffc1-2355-4a45-8998-84cbcba4ca91)를 참조하세요.  
+2. 오류 조회: 입력한 값에서 오류 메시지를 가져옵니다. 자세한 내용은 [ERRLOOK 참조](http://msdn.microsoft.com/library/6040ffc1-2355-4a45-8998-84cbcba4ca91)를 참조하세요.  
   
-3.  ATL/MFC 추적 도구: ATL 및 MFC 소스에서 디버그 추적 메시지를 보여 줍니다.  
+3. ATL/MFC 추적 도구: ATL 및 MFC 소스에서 디버그 추적 메시지를 보여 줍니다.  
   
-4.  PreEmptive Protection - Dotfuscator: 리버스 엔지니어링에 대해.NET 프로그램을 보호합니다.  
+4. PreEmptive Protection - Dotfuscator: 리버스 엔지니어링에 대해.NET 프로그램을 보호합니다.  
   
-5.  SPY + +: 프로세스, 스레드, 창 및 창 메시지를 그래픽으로 표시합니다.  
+5. SPY + +: 프로세스, 스레드, 창 및 창 메시지를 그래픽으로 표시합니다.  
   
-6.  WCF 서비스 구성 편집기: WCF 서비스에 대 한 구성 설정을 만들고 수정할 수 있습니다.  
+6. WCF 서비스 구성 편집기: WCF 서비스에 대 한 구성 설정을 만들고 수정할 수 있습니다.  
   
 > [!WARNING]
 >  설치한 Visual Studio 버전과 적용한 설정 프로필에 따라 다른 외부 도구 목록이 나타날 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
@@ -90,11 +90,11 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
 ## <a name="adding-new-tools"></a>새 도구 추가  
  **도구** 메뉴에 외부 도구를 추가할 수 있습니다. **외부 도구** 대화 상자를 열고 **추가**를 클릭하고 나서 정보를 입력합니다. 예를 들어 다음 항목은 현재 Visual Studio에서 열려 있는 파일의 디렉터리를 Windows 탐색기에서 엽니다.  
   
-1.  제목: 파일 위치 열기  
+1. 제목: 파일 위치 열기  
   
-2.  명령: explorer.exe  
+2. 명령: explorer.exe  
   
-3.  인수: /root, "$(ItemDir)"  
+3. 인수: /root, "$(ItemDir)"  
   
 ## <a name="arguments-for-external-tools"></a>외부 도구의 인수  
  다음 인수는 외부 도구를 시작할 때 할당되는 Visual Studio 변수입니다. 메모장 또는 Spy++ 같이 외부 도구에 대한 링크가 외부 도구 대화 상자를 사용하여 **도구** 메뉴에 나열될 수 있습니다.  

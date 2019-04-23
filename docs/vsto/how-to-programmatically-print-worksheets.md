@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e931ca44b8251a7530e1af6b1c8355d0cebd67cc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 76315f6cde5bc54385e217a8f234389a7f45e621
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598949"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084196"
 ---
 # <a name="how-to-programmatically-print-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 인쇄
   통합 문서의 모든 워크시트를 인쇄할 수 있습니다.
@@ -39,7 +39,7 @@ ms.locfileid: "56598949"
 
 ### <a name="to-preview-a-page-before-printing"></a>인쇄 전에 페이지를 미리 보려면
 
-1.  워크시트의 <xref:Microsoft.Office.Tools.Excel.Worksheet.PrintPreview%2A> 메서드를 호출합니다.
+1. 워크시트의 <xref:Microsoft.Office.Tools.Excel.Worksheet.PrintPreview%2A> 메서드를 호출합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#23](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#23)]
      [!code-vb[Trin_VstcoreExcelAutomation#23](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#23)]
@@ -57,7 +57,7 @@ ms.locfileid: "56598949"
 
 ### <a name="to-preview-a-page-before-printing"></a>인쇄 전에 페이지를 미리 보려면
 
-1.  활성 워크시트의 <xref:Microsoft.Office.Interop.Excel._Worksheet.PrintPreview%2A> 메서드를 호출합니다.
+1. 활성 워크시트의 <xref:Microsoft.Office.Interop.Excel._Worksheet.PrintPreview%2A> 메서드를 호출합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#15](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#15)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#15](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#15)]

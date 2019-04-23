@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f1173b55a3e22d7a2fec9ecdb0440765beb970e6
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d7eac5329fb5bfacb036e8f0ed585b96ded2a069
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693102"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084754"
 ---
 # <a name="how-to-manage-multiple-threads-in-managed-code"></a>방법: 관리 코드에서 다중 스레드 관리
 비동기 메서드를 호출 하거나 Visual Studio UI 스레드가 아닌 스레드에서 실행 되는 작업에는 관리 되는 VSPackage 확장에 있는 경우 아래 제공 된 지침을 따라야 합니다. 작업에 대 한 다른 스레드가 완료 되기를 대기할 필요가 없기 때문에 UI 스레드를 반응 형 유지할 수 있습니다. 코드를 효율적으로 수행할 수 스택 공간을 차지 하는 추가 스레드 필요가 없기 때문에 있고 더 안정적이 고 교착 상태 및 중지 문제를 방지 하기 때문에 디버그 하는 일을 쉽게 만들 수 있습니다.
@@ -25,7 +25,7 @@ ms.locfileid: "56693102"
 
 ## <a name="switch-from-the-ui-thread-to-a-background-thread"></a>UI 스레드에서 백그라운드 스레드로 전환
 
-1.  UI 스레드에서 및 사용 하 여 백그라운드 스레드에서 비동기 작업을 수행 하려는 경우 `Task.Run()`:
+1. UI 스레드에서 및 사용 하 여 백그라운드 스레드에서 비동기 작업을 수행 하려는 경우 `Task.Run()`:
 
     ```csharp
     await Task.Run(async delegate{
@@ -35,7 +35,7 @@ ms.locfileid: "56693102"
 
     ```
 
-2.  UI 스레드에서 사용 하 여 백그라운드 스레드에서 작업을 수행 하는 동안 동기적으로 차단 하려는 경우는 <xref:System.Threading.Tasks.TaskScheduler> 속성 `TaskScheduler.Default` 내에서 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run%2A>:
+2. UI 스레드에서 사용 하 여 백그라운드 스레드에서 작업을 수행 하는 동안 동기적으로 차단 하려는 경우는 <xref:System.Threading.Tasks.TaskScheduler> 속성 `TaskScheduler.Default` 내에서 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run%2A>:
 
     ```csharp
     // using Microsoft.VisualStudio.Threading;
@@ -49,7 +49,7 @@ ms.locfileid: "56693102"
 
 ## <a name="switch-from-a-background-thread-to-the-ui-thread"></a>백그라운드 스레드에서 UI 스레드로 전환
 
-1.  백그라운드 스레드에서 및 사용 하 여 UI 스레드에서 작업을 수행 하려는 경우 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>:
+1. 백그라운드 스레드에서 및 사용 하 여 UI 스레드에서 작업을 수행 하려는 경우 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>:
 
     ```csharp
     // Switch to main thread

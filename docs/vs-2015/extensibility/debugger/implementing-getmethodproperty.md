@@ -11,12 +11,12 @@ ms.assetid: 6305874f-a2c4-4432-834c-07530ea84bff
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 3199b5c1a812052735f62c48a882fcd409d93c7e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d35088da401f6f7545f9e69285d25e48cdbbef75
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985840"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085327"
 ---
 # <a name="implementing-getmethodproperty"></a>GetMethodProperty 구현
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,13 +28,13 @@ ms.locfileid: "58985840"
   
  이 구현의 `IDebugExpressionEvaluator::GetMethodProperty` 다음 작업을 수행 합니다.  
   
-1.  호출 [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md)에 전달 합니다 [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md) 개체입니다. 기호 공급자 (SP)가 반환 된 [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md) 지정된 된 주소를 포함 하는 메서드를 나타내는입니다.  
+1. 호출 [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md)에 전달 합니다 [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md) 개체입니다. 기호 공급자 (SP)가 반환 된 [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md) 지정된 된 주소를 포함 하는 메서드를 나타내는입니다.  
   
-2.  가져오는 합니다 [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) 에서 `IDebugContainerField`합니다.  
+2. 가져오는 합니다 [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) 에서 `IDebugContainerField`합니다.  
   
-3.  클래스를 인스턴스화합니다 (호출 `CFieldProperty` 이 예제의) 구현 하는 합니다 [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) 인터페이스를 포함 합니다 `IDebugMethodField` SP에서 반환 된 개체  
+3. 클래스를 인스턴스화합니다 (호출 `CFieldProperty` 이 예제의) 구현 하는 합니다 [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) 인터페이스를 포함 합니다 `IDebugMethodField` SP에서 반환 된 개체  
   
-4.  반환 된 `IDebugProperty2` 에서 인터페이스를 `CFieldProperty` 개체입니다.  
+4. 반환 된 `IDebugProperty2` 에서 인터페이스를 `CFieldProperty` 개체입니다.  
   
 ## <a name="managed-code"></a>관리 코드  
  이 예제에서는 구현을 보여 줍니다. `IDebugExpressionEvaluator::GetMethodProperty` 관리 코드에서.  

@@ -17,12 +17,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b852a83c16920e3e8a4b036a1b7bf37e63fe9cfb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 768bfc5de11f8b7fa6c3cd8988dbcc70633dde89
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985413"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082832"
 ---
 # <a name="how-to-enable-clickonce-security-settings"></a>방법: ClickOnce 보안 설정 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,11 +35,11 @@ ms.locfileid: "58985413"
   
 ### <a name="to-enable-clickonce-security-settings"></a>ClickOnce 보안 설정을 사용 하도록 설정  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **보안** 탭을 클릭합니다.  
+2. **보안** 탭을 클릭합니다.  
   
-3.  **ClickOnce 보안 설정 사용** 확인란을 선택합니다.  
+3. **ClickOnce 보안 설정 사용** 확인란을 선택합니다.  
   
      이제 보안 페이지에서 응용 프로그램에 대 한 보안 설정을 지정할 수 있습니다.  
   
@@ -48,11 +48,11 @@ ms.locfileid: "58985413"
   
 ### <a name="to-disable-clickonce-security-settings"></a>ClickOnce 보안 설정 사용 안 함  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **보안** 탭을 클릭합니다.  
+2. **보안** 탭을 클릭합니다.  
   
-3.  선택을 취소 합니다 **ClickOnce 보안 설정 사용** 확인란 합니다.  
+3. 선택을 취소 합니다 **ClickOnce 보안 설정 사용** 확인란 합니다.  
   
      응용 프로그램이 완전 신뢰 보안 설정과; 실행 수 에 있는 모든 설정 합니다 **보안** 페이지는 무시 됩니다.  
   

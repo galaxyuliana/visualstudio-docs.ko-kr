@@ -18,12 +18,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c34ac4fdcf50d1fde95c957de6aff4b7f004a2d3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1ccd8c399bd92bd98307d44aff913c30390033c7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984062"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60083714"
 ---
 # <a name="how-to-debug-aspnet-exceptions"></a>방법: ASP.NET 예외 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,14 +38,14 @@ ms.locfileid: "58984062"
   
 ### <a name="to-enable-debugging-of-aspnet-exceptions-with-just-my-code"></a>내 코드만 옵션을 사용하여 ASP.NET 예외 디버깅을 설정하려면  
   
-1.  **디버그** 메뉴에서 **예외**를 클릭합니다.  
+1. **디버그** 메뉴에서 **예외**를 클릭합니다.  
   
      **예외** 대화 상자가 표시됩니다.  
   
-2.  **Common Language Runtime Exceptions** 행에서 **Throw**되거나 **사용자가 처리하지 않음**을 선택합니다.  
+2. **Common Language Runtime Exceptions** 행에서 **Throw**되거나 **사용자가 처리하지 않음**을 선택합니다.  
   
      **사용자가 처리하지 않음** 설정을 사용하려면 **내 코드만**을 사용하도록 설정해야 합니다.  
   
 ### <a name="to-use-best-practices-for-aspnet-exception-handling"></a>최상의 방법으로 ASP.NET 예외 처리를 수행하려면  
   
--   예측 가능하며 처리 방법을 알고 있는 예외를 throw할 수 있는 코드의 바깥쪽에 `try … catch` 블록을 배치합니다. 예를 들어, XML 웹 서비스 또는 SQL Server에 직접 응용 프로그램 호출을 생성, 코드에 있어야 **try... catch** 되어 발생할 수 있는 다양 한 예외를 차단 합니다.
+- 예측 가능하며 처리 방법을 알고 있는 예외를 throw할 수 있는 코드의 바깥쪽에 `try … catch` 블록을 배치합니다. 예를 들어, XML 웹 서비스 또는 SQL Server에 직접 응용 프로그램 호출을 생성, 코드에 있어야 **try... catch** 되어 발생할 수 있는 다양 한 예외를 차단 합니다.

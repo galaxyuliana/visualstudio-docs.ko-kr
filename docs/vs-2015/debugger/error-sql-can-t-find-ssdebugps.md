@@ -17,12 +17,12 @@ caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 33e6efb699d12cc58555cacede6a20c5b0091d0d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 25462a99bd3e773f03af3918a9e25d11ed006c1c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983893"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084715"
 ---
 # <a name="error-sql-can39t-find-ssdebugps"></a>오류: SQL 수&#39;t에서 SSDEBUGPS를 찾을
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,9 +39,9 @@ SSDEBUGPS.dll은 SQL Server 디버깅 호스트 구성 요소입니다.
   
 ### <a name="to-copy-ssdebugpsdll-onto-the-sql-server-2005-machine"></a>SQL Server 2005 컴퓨터에 SSDEBUGPS.dll을 복사하려면  
   
-1.  [!INCLUDE[sqprsqlong](../includes/sqprsqlong-md.md)] 머신에서 동일한 이름과 경로의 디렉터리에 파일을 복사합니다.  
+1. [!INCLUDE[sqprsqlong](../includes/sqprsqlong-md.md)] 머신에서 동일한 이름과 경로의 디렉터리에 파일을 복사합니다.  
   
-2.  **명령 프롬프트**를 열고 다음 명령을 실행하여 파일을 등록합니다.  
+2. **명령 프롬프트**를 열고 다음 명령을 실행하여 파일을 등록합니다.  
   
     ```  
     regsvr32 ssdebugps.dll  

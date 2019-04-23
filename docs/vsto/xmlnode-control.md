@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f2102bc7f91570bf68616eb62520e5b955204c26
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a8bd5c4612b59f909ae623eb4092a209798f98c5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599573"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085274"
 ---
 # <a name="xmlnode-control"></a>XMLNode 컨트롤
   **중요 한** Microsoft Word에 대 한이 항목의 설정 정보가 혜택 및 개인 및 United States 및 해당 지역 외부에 위치한는 또는 사용 하는 조직의 사용에 단독으로 표시 되었거나 개발 실행 되는 프로그램, Microsoft Word 2010 년 1 월, Microsoft 구현의 특정 기능을 제거 하는 경우 하기 전에 Microsoft에서 사용이 허가 된 제품에서에서 관련 된 사용자 지정 XML Microsoft Word입니다. Microsoft Word에 대 한이 정보를 읽거나 개인 이나 조직에서는 미국에 있는 Microsoft Word 2010 년 1 월 10 일 후 Microsoft에서 사용이 허가 된 제품에서 실행 되는 프로그램을 개발 하거나를 사용 하는 해당 지역에서 사용 될 수 있습니다. ; 이러한 제품 구매 및 미국 이외의 용도로 사용이 허가 된 날짜 이전에 사용이 허가 된 제품으로 동일한 작동 하지 않습니다.
@@ -37,23 +37,23 @@ ms.locfileid: "56599573"
 ## <a name="events"></a>이벤트
  <xref:Microsoft.Office.Tools.Word.XMLNode> 컨트롤에 대해 다음 이벤트를 사용할 수 있습니다.
 
--   <xref:Microsoft.Office.Tools.Word.XMLNode.AfterInsert>
+- <xref:Microsoft.Office.Tools.Word.XMLNode.AfterInsert>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNode.BeforeDelete>
+- <xref:Microsoft.Office.Tools.Word.XMLNode.BeforeDelete>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNode.BindingContextChanged>
+- <xref:Microsoft.Office.Tools.Word.XMLNode.BindingContextChanged>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNode.ContextEnter>
+- <xref:Microsoft.Office.Tools.Word.XMLNode.ContextEnter>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNode.ContextLeave>
+- <xref:Microsoft.Office.Tools.Word.XMLNode.ContextLeave>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNode.Deselect>
+- <xref:Microsoft.Office.Tools.Word.XMLNode.Deselect>
 
--   <xref:System.ComponentModel.IComponent.Disposed>
+- <xref:System.ComponentModel.IComponent.Disposed>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNode.Select>
+- <xref:Microsoft.Office.Tools.Word.XMLNode.Select>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNode.ValidationError>
+- <xref:Microsoft.Office.Tools.Word.XMLNode.ValidationError>
 
 ## <a name="compare-events"></a>이벤트를 비교 합니다.
  특정 컨텍스트 내에서 커서를 이동할 때 이벤트를 캡처할 수 <xref:Microsoft.Office.Tools.Word.XMLNode> 제어 합니다. 예를 들어 있을 수 있습니다는 <xref:Microsoft.Office.Tools.Word.XMLNode> 라는 컨트롤 `Customer` 자식이 있는 <xref:Microsoft.Office.Tools.Word.XMLNode> 이라는 컨트롤이 `Company`, 및 `Company` 에 두 명의 자식 <xref:Microsoft.Office.Tools.Word.XMLNode> 라는 컨트롤 `CompanyName` 및 `CompanyRegion` 같이:

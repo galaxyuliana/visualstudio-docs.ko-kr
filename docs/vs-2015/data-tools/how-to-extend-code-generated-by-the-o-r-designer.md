@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3a5fc9bb7b6e2d6813c4c571633ef46d4b9e1f48
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: d8aa3ecd29180e01a7d6f254303d42ac328aceaa
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651736"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085222"
 ---
 # <a name="how-to-extend-code-generated-by-the-or-designer"></a>방법: O/R 디자이너에서 생성한 코드 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,25 +27,25 @@ ms.locfileid: "59651736"
   
 #### <a name="to-create-a-partial-class-and-add-code-to-an-entity-class"></a>Partial 클래스를 만들고 엔터티 클래스에 코드를 추가하려면  
   
-1.  새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. (두 번 클릭 합니다 **.dbml** 파일 **솔루션 탐색기**/**데이터베이스 탐색기**.)  
+1. 새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. (두 번 클릭 합니다 **.dbml** 파일 **솔루션 탐색기**/**데이터베이스 탐색기**.)  
   
-2.  에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], 유효성 검사를 추가 하 고 클릭 한 다음 원하는 클래스를 마우스 오른쪽 단추로 클릭 **코드 보기**합니다.  
+2. 에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], 유효성 검사를 추가 하 고 클릭 한 다음 원하는 클래스를 마우스 오른쪽 단추로 클릭 **코드 보기**합니다.  
   
      선택한 엔터티 클래스의 partial 클래스와 함께 코드 편집기가 열립니다.  
   
-3.  엔터티 클래스의 partial 클래스 선언에 사용자 코드를 추가합니다.  
+3. 엔터티 클래스의 partial 클래스 선언에 사용자 코드를 추가합니다.  
   
 ## <a name="adding-code-to-a-datacontext"></a>DataContext에 코드 추가  
   
 #### <a name="to-create-a-partial-class-and-add-code-to-a-datacontext"></a>Partial 클래스를 만들고 DataContext에 코드를 추가하려면  
   
-1.  새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. (두 번 클릭 합니다 **.dbml** 파일 **솔루션 탐색기**/**데이터베이스 탐색기**.)  
+1. 새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. (두 번 클릭 합니다 **.dbml** 파일 **솔루션 탐색기**/**데이터베이스 탐색기**.)  
   
-2.  에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]디자이너의 빈 영역을 마우스 오른쪽 단추로 클릭 한 다음 클릭 **코드 보기**합니다.  
+2. 에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]디자이너의 빈 영역을 마우스 오른쪽 단추로 클릭 한 다음 클릭 **코드 보기**합니다.  
   
      DataContext의 partial 클래스와 함께 코드 편집기가 열립니다.  
   
-3.  DataContext의 partial 클래스 선언에 사용자 코드를 추가합니다.  
+3. DataContext의 partial 클래스 선언에 사용자 코드를 추가합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

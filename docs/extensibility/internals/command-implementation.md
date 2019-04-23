@@ -10,21 +10,21 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d0e6b9776f94c802502bc393f2b8c262408d443e
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 61f35521271df7d3f34e5f10ebf40d502c0f8596
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335625"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089755"
 ---
 # <a name="command-implementation"></a>명령 구현
 명령에서 VSPackage를 구현 하려면 다음 작업을 수행 해야 합니다.
 
-1.  에 *.vsct* 파일, 명령 그룹을 설정 하 고, 다음에 명령을 추가 합니다. 자세한 내용은 [Visual Studio 명령 테이블 (.vsct) 파일](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)합니다.
+1. 에 *.vsct* 파일, 명령 그룹을 설정 하 고, 다음에 명령을 추가 합니다. 자세한 내용은 [Visual Studio 명령 테이블 (.vsct) 파일](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)합니다.
 
-2.  Visual Studio를 사용 하 여 명령을 등록 합니다.
+2. Visual Studio를 사용 하 여 명령을 등록 합니다.
 
-3.  명령을 구현 합니다.
+3. 명령을 구현 합니다.
 
 다음 섹션에서는 등록 명령을 구현 하는 방법을 설명 합니다.
 
@@ -61,29 +61,29 @@ if ( null != mcs )
 ## <a name="querystatus-methods"></a>QueryStatus 메서드
  중 하나를 구현 하는 경우는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 메서드 또는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand%2A> 메서드, 명령 명령을 속한 집합의 GUID 확인 및 명령 ID입니다. 다음 지침을 따릅니다.
 
--   GUID 인식 되지 않으면 경우 두 메서드를 구현할 반환 해야 <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_UNKNOWNGROUP>합니다.
+- GUID 인식 되지 않으면 경우 두 메서드를 구현할 반환 해야 <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_UNKNOWNGROUP>합니다.
 
--   메서드는 반환 해야 하거나 메서드를 구현할 GUID를 인식 하지만 명령을 구현 되지 않았습니다 경우 <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>합니다.
+- 메서드는 반환 해야 하거나 메서드를 구현할 GUID를 인식 하지만 명령을 구현 되지 않았습니다 경우 <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>합니다.
 
--   GUID와 명령에서 인식 하는 두 메서드를 구현할 경우 메서드는 모든 명령의 명령 플래그 필드를 설정 해야 (에 `prgCmds` 매개 변수) 다음을 사용 하 여 <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 플래그:
+- GUID와 명령에서 인식 하는 두 메서드를 구현할 경우 메서드는 모든 명령의 명령 플래그 필드를 설정 해야 (에 `prgCmds` 매개 변수) 다음을 사용 하 여 <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 플래그:
 
-    -   `OLECMDF_SUPPORTED`: 명령이 지원 됩니다.
+    - `OLECMDF_SUPPORTED`: 명령이 지원 됩니다.
 
-    -   `OLECMDF_INVISIBLE`: 명령을 표시 되어야 합니다.
+    - `OLECMDF_INVISIBLE`: 명령을 표시 되어야 합니다.
 
-    -   `OLECMDF_LATCHED`: 명령에 설정/해제 하 고 확인 한 후에 나타납니다.
+    - `OLECMDF_LATCHED`: 명령에 설정/해제 하 고 확인 한 후에 나타납니다.
 
-    -   `OLECMDF_ENABLED`: 명령이 활성화 됩니다.
+    - `OLECMDF_ENABLED`: 명령이 활성화 됩니다.
 
-    -   `OLECMDF_DEFHIDEONCTXTMENU`: 바로 가기 메뉴에 표시 되는 경우 명령을 숨겨야 합니다.
+    - `OLECMDF_DEFHIDEONCTXTMENU`: 바로 가기 메뉴에 표시 되는 경우 명령을 숨겨야 합니다.
 
-    -   `OLECMDF_NINCHED`: 명령 메뉴 컨트롤러가 고을 사용 하지 않는 하지만 해당 드롭다운 메뉴 목록을 비어 있지 않고 계속 사용할 수 있습니다. (이 플래그는 거의 사용 합니다.)
+    - `OLECMDF_NINCHED`: 명령 메뉴 컨트롤러가 고을 사용 하지 않는 하지만 해당 드롭다운 메뉴 목록을 비어 있지 않고 계속 사용할 수 있습니다. (이 플래그는 거의 사용 합니다.)
 
--   명령에 정의 된 경우는 *.vsct* 파일을 `TextChanges` 플래그, 다음 매개 변수 설정:
+- 명령에 정의 된 경우는 *.vsct* 파일을 `TextChanges` 플래그, 다음 매개 변수 설정:
 
-    -   설정 합니다 `rgwz` 의 요소는 `pCmdText` 명령의 새 텍스트로 매개 변수입니다.
+    - 설정 합니다 `rgwz` 의 요소는 `pCmdText` 명령의 새 텍스트로 매개 변수입니다.
 
-    -   설정 합니다 `cwActual` 의 요소를 `pCmdText` 매개 변수를 명령 문자열의 크기입니다.
+    - 설정 합니다 `cwActual` 의 요소를 `pCmdText` 매개 변수를 명령 문자열의 크기입니다.
 
 또한 해야 현재 컨텍스트에 automation 함수 명령을 자동화 기능을 처리 하기 위한 것 하지 않는 한 합니다.
 

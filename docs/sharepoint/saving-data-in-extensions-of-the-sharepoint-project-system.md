@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: eba3f66e55c06efad2a540b1be7d3ad66ddfa3d0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 52b04490a646c7ced27d4a2d7f2344e27cbbae8b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599677"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60082765"
 ---
 # <a name="save-data-in-extensions-of-the-sharepoint-project-system"></a>SharePoint 프로젝트 시스템의 확장에 데이터를 저장 합니다.
   SharePoint 프로젝트 시스템을 확장 하는 경우에 SharePoint 프로젝트를 닫은 후 지속 되는 문자열 데이터를 저장할 수 있습니다. 데이터는 일반적으로 특정 프로젝트 항목 또는 프로젝트 자체에 연결 됩니다.
@@ -35,9 +35,9 @@ ms.locfileid: "56599677"
 ## <a name="save-data-that-is-associated-with-a-project"></a>프로젝트와 연결 된 데이터를 저장 합니다.
  SharePoint 프로젝트에 추가 하는 속성의 값과 같이 프로젝트 수준 데이터가 있는 경우 프로젝트 파일에 데이터를 저장할 수 있습니다 (합니다 *.csproj* 파일 또는 *.vbproj* 파일) 또는 프로젝트 사용자 옵션 파일 (합니다 *. csproj.user* 파일 또는 *. vbproj.user* 파일). 파일에서 데이터를 저장 하려는 데이터를 사용 하려는 방법에 따라 달라 집니다.
 
--   SharePoint 프로젝트를 여는 모든 개발자가 사용할 수 있도록 데이터를 원하는 경우 프로젝트 파일에 데이터를 저장 합니다. 이 파일은 항상 체크 인 소스 제어 데이터베이스에이 파일의 데이터를 다른 개발자는 프로젝트를 체크 아웃가 사용할 수 있도록 합니다.
+- SharePoint 프로젝트를 여는 모든 개발자가 사용할 수 있도록 데이터를 원하는 경우 프로젝트 파일에 데이터를 저장 합니다. 이 파일은 항상 체크 인 소스 제어 데이터베이스에이 파일의 데이터를 다른 개발자는 프로젝트를 체크 아웃가 사용할 수 있도록 합니다.
 
--   현재 개발자가 Visual Studio에서 SharePoint 프로젝트에만 사용할 수 있도록 데이터를 원하는 경우 프로젝트 사용자 옵션 파일에 데이터를 저장 합니다. 이 파일은 일반적으로 체크 인 되지 소스 제어 데이터베이스에 아니므로이 파일의 데이터는 프로젝트를 체크 아웃 하는 다른 개발자에 게 사용할 수 없습니다.
+- 현재 개발자가 Visual Studio에서 SharePoint 프로젝트에만 사용할 수 있도록 데이터를 원하는 경우 프로젝트 사용자 옵션 파일에 데이터를 저장 합니다. 이 파일은 일반적으로 체크 인 되지 소스 제어 데이터베이스에 아니므로이 파일의 데이터는 프로젝트를 체크 아웃 하는 다른 개발자에 게 사용할 수 없습니다.
 
 ### <a name="save-data-to-the-project-file"></a>프로젝트 파일에 데이터를 저장 합니다.
  프로젝트 파일에 데이터를 저장 하려면 변환를 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject> 개체를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> 개체를 사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> 메서드. 다음 코드 예제에서는이 메서드를 사용 하 여 프로젝트 파일에는 프로젝트 속성의 값을 저장 하는 방법에 설명 합니다. 큰 샘플의 컨텍스트에서이 예제를 보려면 [방법: SharePoint 프로젝트에 속성 추가](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md)합니다.

@@ -16,12 +16,12 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: f3456ec773b233da3ef2be1dfa7731460bdf6b44
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4cc41376905dd5bd5df5711d2de3edf1ea1d04dd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972027"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085040"
 ---
 # <a name="ca2000-dispose-objects-before-losing-scope"></a>CA2000: 범위를 벗어나기 전에 개체를 삭제하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,11 +46,11 @@ ms.locfileid: "58972027"
   
  다음은 상황에 따라 여기서는 문을 사용 하 여 IDisposable 개체를 보호 하는 데 충분 하지 않습니다 및 되려면 CA2000 발생할 수 있습니다.  
   
--   개체가 사용 하 여을 외부 try/finally 블록에 생성 되는 필요한 삭제 가능한 개체를 반환 합니다. 블록입니다.  
+- 개체가 사용 하 여을 외부 try/finally 블록에 생성 되는 필요한 삭제 가능한 개체를 반환 합니다. 블록입니다.  
   
--   삭제 가능한 개체의 멤버를 초기화 하지 말아야 사용 하 여 생성자에 문의 합니다.  
+- 삭제 가능한 개체의 멤버를 초기화 하지 말아야 사용 하 여 생성자에 문의 합니다.  
   
--   한 가지 예외 처리기로만 보호 되는 생성자를 중첩 합니다. 예를 들어 개체에 적용된  
+- 한 가지 예외 처리기로만 보호 되는 생성자를 중첩 합니다. 예를 들면 다음과 같습니다.  
   
     ```  
     using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))  
@@ -59,7 +59,7 @@ ms.locfileid: "58972027"
   
      CA2000 닫히지 않음 FileStream 개체 StreamReader 개체 생성에서 오류가 발생할 수 있기 때문에 발생 하도록 하면 됩니다.  
   
--   동적 개체는 IDisposable 개체의 Dispose 패턴을 구현 하는 섀도 개체를 사용 해야 합니다.  
+- 동적 개체는 IDisposable 개체의 Dispose 패턴을 구현 하는 섀도 개체를 사용 해야 합니다.  
   
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우  
  `Dispose`와 같은 <xref:System.IO.Stream.Close%2A>를 호출하는 개체에 대해 메서드를 호출하지 않은 경우나 경고를 발생시킨 메서드가 사용자의 개체를 래핑하는 IDisposable 개체를 반환하는 경우 이 규칙에서 경고를 표시해야 합니다.  

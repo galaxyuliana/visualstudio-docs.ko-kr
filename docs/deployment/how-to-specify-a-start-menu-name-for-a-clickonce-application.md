@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3ab55674cd1de54881eb46b47997a943678cbacd
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 4ef1675480182796e1fe8bbe29baa5ed6a9d5f63
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635620"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085118"
 ---
 # <a name="how-to-specify-a-start-menu-name-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 시작 메뉴 이름 지정
 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 사용 하 여 온라인 및 오프 라인 설치를 항목에 추가 됩니다 합니다 **시작** 메뉴 및 **프로그램 추가 / 제거** 목록입니다. 기본적으로 표시 이름은 응용 프로그램 어셈블리의 이름과 동일 하지만 설정 하 여 표시 이름을 변경할 수 있습니다 **Product name** 에 **게시 옵션** 대화 상자.
@@ -36,18 +36,18 @@ ms.locfileid: "56635620"
 
 ### <a name="to-specify-a-start-menu-name"></a>시작 메뉴 이름 지정
 
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.
 
-2.  **게시** 탭을 클릭합니다.
+2. **게시** 탭을 클릭합니다.
 
-3.  클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.
+3. 클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.
 
-4.  클릭 **설명을**합니다.
+4. 클릭 **설명을**합니다.
 
-5.  에 **게시 옵션** 대화 상자에 표시할 이름을 입력 합니다 **Product name**합니다.
+5. 에 **게시 옵션** 대화 상자에 표시할 이름을 입력 합니다 **Product name**합니다.
 
-6.  게시자 이름을 입력할 수는 필요에 따라 **게시자 이름**합니다.
+6. 게시자 이름을 입력할 수는 필요에 따라 **게시자 이름**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 애플리케이션 게시](../deployment/publishing-clickonce-applications.md)
 - [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

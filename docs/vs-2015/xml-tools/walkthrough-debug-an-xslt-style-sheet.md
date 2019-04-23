@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1f211e2f13f710b66e33691dbc318349eddf15ff
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5e685e77dafe00b8cadd9b273ccc61c8e5d9e1e4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970635"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085105"
 ---
 # <a name="walkthrough-debug-an-xslt-style-sheet"></a>연습: XSLT 스타일시트 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,9 +23,9 @@ ms.locfileid: "58970635"
   
 ### <a name="to-prepare-for-this-walkthrough"></a>이 연습을 준비하려면  
   
-1.  열려 있는 솔루션을 모두 닫습니다.  
+1. 열려 있는 솔루션을 모두 닫습니다.  
   
-2.  두 샘플 파일을 로컬 컴퓨터에 복사합니다.  
+2. 두 샘플 파일을 로컬 컴퓨터에 복사합니다.  
   
 ## <a name="start-debugging"></a>디버깅 시작  
   
@@ -59,19 +59,19 @@ ms.locfileid: "58970635"
   
 #### <a name="to-use-the-watch-window"></a>조사식 창을 사용하려면  
   
-1.  **디버그** 메뉴에서 **Windows**를 가리키고 **조사식**, 클릭 **조사식 1**.  
+1. **디버그** 메뉴에서 **Windows**를 가리키고 **조사식**, 클릭 **조사식 1**.  
   
      그러면 조사식 1 창이 표시됩니다.  
   
-2.  형식 `$bookAverage` 에 **이름을** 필드 및 ENTER 키를 누릅니다.  
+2. 형식 `$bookAverage` 에 **이름을** 필드 및 ENTER 키를 누릅니다.  
   
      `$bookAverage` 변수 값이 창에 표시됩니다.  
   
-3.  형식 `self::node()` 에 **이름을** 필드 및 ENTER 키를 누릅니다.  
+3. 형식 `self::node()` 에 **이름을** 필드 및 ENTER 키를 누릅니다.  
   
      `self::node()`는 현재 컨텍스트 노드로 계산되는 XPath 식입니다. `self::node()` XPath 식의 값은 첫 번째 book 노드입니다. 이 값은 변환을 진행하면서 변경됩니다.  
   
-4.  `self::node()` 노드를 확장한 다음 `price` 노드를 확장합니다.  
+4. `self::node()` 노드를 확장한 다음 `price` 노드를 확장합니다.  
   
      그러면 책 가격 값을 볼 수 있으며 `$bookAverage` 값과 쉽게 비교할 수 있습니다. 책 가격은 평균 아래이므로 `xsl:if` 조건은 성공해야 합니다.  
   
@@ -80,19 +80,19 @@ ms.locfileid: "58970635"
   
 #### <a name="to-step-through-the-code"></a>단계별로 코드를 실행하려면  
   
-1.  **F5**를 눌러 계속합니다.  
+1. **F5**를 눌러 계속합니다.  
   
      첫 번째 book 노드가 `xsl:if` 조건을 만족하기 때문에 book 노드가 XSL 출력 창에 추가됩니다. 디버거는 스타일시트의 `xsl:if` 요소에 다시 배치될 때까지 계속 실행됩니다. 이제 디버거가 books.xml 파일의 두 번째 book 노드에 배치됩니다.  
   
      조사식 1 창에서 `self::node()` 값이 두 번째 book 노드로 변경됩니다. 가격 요소 값을 검사하여 가격이 평균을 초과하는 것을 확인할 수 있으므로 `xsl:if` 조건은 실패해야 합니다.  
   
-2.  **F5**를 눌러 계속합니다.  
+2. **F5**를 눌러 계속합니다.  
   
      두 번째 book 노드는 `xsl:if` 조건을 충족하지 않으므로 이 XSL 출력 창에 추가되지 않습니다. 디버거는 스타일시트의 `xsl:if` 요소에 다시 배치될 때까지 계속 실행됩니다. 이제 디버거가 books.xml 파일의 세 번째 `book` 노드에 배치됩니다.  
   
      조사식 1 창에서 `self::node()` 값이 세 번째 book 노드로 변경됩니다. `price` 요소의 값을 확인하면 가격이 평균보다 낮으므로 `xsl:if` 조건이 충족됨을 알 수 있습니다.  
   
-3.  **F5**를 눌러 계속합니다.  
+3. **F5**를 눌러 계속합니다.  
   
      `xsl:if` 조건을 만족했기 때문에 세 번째 book이 XSL 출력 창에 추가됩니다. XML 문서에 있는 모든 book이 처리되었으므로 디버거가 중지됩니다.  
   

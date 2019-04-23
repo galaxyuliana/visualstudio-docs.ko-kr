@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ef8fd848ed1a8298cc4ea8a5ce9d2c0463a2b779
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: e0b29d88387ccb2ed711f1a000bf7bb00a34dd01
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693606"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60084260"
 ---
 # <a name="idebugprocessex2"></a>IDebugProcessEx2
 이 인터페이스는 세션을 디버그 관리자 (SDM)에 연결 되었거나 프로세스에서 분리 하는 프로세스를 알릴 수 있습니다.
@@ -39,7 +39,7 @@ IDebugProcessEx2 : IUnknown
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 
--   SDM 호출 [QueryInterface](/cpp/atl/queryinterface) 에 `IDebugProcess2` 인터페이스가이 인터페이스를 가져올 수 있습니다.
+- SDM 호출 [QueryInterface](/cpp/atl/queryinterface) 에 `IDebugProcess2` 인터페이스가이 인터페이스를 가져올 수 있습니다.
 
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드
  다음 표에서의 메서드를 보여 줍니다. `IDebugProcessEx2`합니다.
