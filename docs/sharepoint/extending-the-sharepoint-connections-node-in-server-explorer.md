@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e8b63b5a14319a86dc561a0c6068286cdc70a472
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 6b1d461419497a0a45f50f12589cf3ac978a7666
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56595126"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092642"
 ---
 # <a name="extend-the-sharepoint-connections-node-in-server-explorer"></a>서버 탐색기에서 SharePoint 연결 노드 확장
   Visual Studio에서 있습니다 수 개발 컴퓨터의 로컬 SharePoint 사이트를 사용 하 여 연결 합니다 **SharePoint 연결** 에서 노드를 **서버 탐색기** 창입니다. 이 노드는 계층적 트리 보기에서 다양 한 로컬 SharePoint 사이트의 구성 요소를 표시합니다. 예를 들어, 로컬 사이트에서 목록, 문서 라이브러리 및 콘텐츠 형식을 볼 수 있습니다. 사용에 대 한 자세한 내용은 **서버 탐색기** 로컬 SharePoint 사이트에 연결 하려면 참조 [서버 탐색기를 사용 하 여 찾아보기 SharePoint 연결](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)합니다.
@@ -36,9 +36,9 @@ ms.locfileid: "56595126"
 
  사용자 지정 속성 노드를 추가할 수는 다음과 같은 두 종류가 있습니다.
 
--   SharePoint 사이트에서 읽기 전용 데이터 집합을 표시 하는 속성입니다. 데이터는 노드가 나타내는 SharePoint 구성 요소를 설명 합니다. 이 작업을 수행 하는 방법을 보여주는 연습을 참조 하세요. [연습: 웹 파트를 표시 하려면 서버 탐색기 확장](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)합니다.
+- SharePoint 사이트에서 읽기 전용 데이터 집합을 표시 하는 속성입니다. 데이터는 노드가 나타내는 SharePoint 구성 요소를 설명 합니다. 이 작업을 수행 하는 방법을 보여주는 연습을 참조 하세요. [연습: 웹 파트를 표시 하려면 서버 탐색기 확장](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)합니다.
 
--   사용자 지정 읽기/쓰기 데이터를 표시 하는 속성입니다. 이 작업을 수행 하는 방법을 보여 주는 코드 예제를 참조 하세요. [방법: 서버 탐색기에서 SharePoint 노드 확장](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md)합니다.
+- 사용자 지정 읽기/쓰기 데이터를 표시 하는 속성입니다. 이 작업을 수행 하는 방법을 보여 주는 코드 예제를 참조 하세요. [방법: 서버 탐색기에서 SharePoint 노드 확장](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md)합니다.
 
 ## <a name="get-data-for-built-in-nodes"></a>기본 제공 노드에 대 한 데이터 가져오기
  모든 Visual Studio에서 제공 하는 기본 제공 노드 나타내는 SharePoint 구성 요소에 대 한 일부 데이터를 포함 합니다. 예를 들어, SharePoint 사이트의 목록을 나타내는 노드 제목 등의 기본 목록 보기의 URL 목록에 대 한 일부 데이터를 제공 합니다.

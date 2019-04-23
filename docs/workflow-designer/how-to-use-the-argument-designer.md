@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cb4cbcb6b1310e6552dfd757a4b6347212f99cfc
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 2f32228de6486c7e2093175bcd57d698a881ab7f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55941181"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115811"
 ---
 # <a name="how-to-use-the-argument-designer"></a>방법: 인수 디자이너 사용
 
@@ -24,11 +24,11 @@ ms.locfileid: "55941181"
 
 ## <a name="to-create-a-new-argument"></a>새 인수를 만들려면
 
-1.  Visual Studio에서 워크플로 또는 활동 솔루션을 엽니다.
+1. Visual Studio에서 워크플로 또는 활동 솔루션을 엽니다.
 
-2.  클릭 하 여 인수 디자이너를 엽니다는 **인수** 디자인 캔버스의 왼쪽 아래 모서리에 있는 단추입니다. 인수 디자이너가 나타납니다.
+2. 클릭 하 여 인수 디자이너를 엽니다는 **인수** 디자인 캔버스의 왼쪽 아래 모서리에 있는 단추입니다. 인수 디자이너가 나타납니다.
 
-3.  라는 빈 행을 클릭 **만드는 인수**합니다. 이 다음과 같은 기본값을 사용 하 여 새 인수를 사용 하 여 새 행이 추가 됩니다: argumentx에 대 한 합니다 **이름을** 여기서 x는 고유한 인수 이름을 만들기 위해 자동으로 증가 하는 1의 초기 값을 사용 하는 정수 **에서**  에 대 한 합니다 **방향**, 및 **문자열** 에 대 한 합니다 **인수 형식**합니다. 값에 대 한 항목이 **기본값**합니다. 워크플로 디자인 프로세스 중 언제라도 이러한 값을 변경할 수 있습니다.
+3. 라는 빈 행을 클릭 **만드는 인수**합니다. 이 다음과 같은 기본값을 사용 하 여 새 인수를 사용 하 여 새 행이 추가 됩니다: argumentx에 대 한 합니다 **이름을** 여기서 x는 고유한 인수 이름을 만들기 위해 자동으로 증가 하는 1의 초기 값을 사용 하는 정수 **에서**  에 대 한 합니다 **방향**, 및 **문자열** 에 대 한 합니다 **인수 형식**합니다. 값에 대 한 항목이 **기본값**합니다. 워크플로 디자인 프로세스 중 언제라도 이러한 값을 변경할 수 있습니다.
 
     > [!NOTE]
     > 인수를 삭제 하려면 클릭 하 여 인수를 선택 하 고 다음 키를 누릅니다 합니다 **삭제** 키입니다.

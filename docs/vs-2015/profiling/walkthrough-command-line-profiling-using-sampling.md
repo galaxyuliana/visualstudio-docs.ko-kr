@@ -1,5 +1,5 @@
 ---
-title: '연습: 샘플링을 사용하여 명령줄 프로파일링 | Microsoft 문서'
+title: '연습: 샘플링을 사용하여 명령줄 프로파일링 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -13,14 +13,14 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1b2261641f1883830e60785dda1460f0f4202f21
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 6e9c8f14fbec74b353550a1420a5ff3e119d6dce
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54783536"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117436"
 ---
-# <a name="walkthrough-command-line-profiling-using-sampling"></a>연습: 샘플링을 사용하여 명령줄 프로파일링
+# <a name="walkthrough-command-line-profiling-using-sampling"></a>연습: 샘플링을 사용 하 여 프로 파일링 명령줄
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 연습에서는 성능 문제를 파악하도록 명령줄 도구와 샘플링을 사용하여 애플리케이션을 프로파일링하는 방법을 설명합니다.  
@@ -29,21 +29,21 @@ ms.locfileid: "54783536"
   
  이 연습에서는 다음과 같은 단계를 수행합니다.  
   
--   샘플링 및 명령줄 도구를 사용하여 애플리케이션 프로파일링  
+- 샘플링 및 명령줄 도구를 사용하여 애플리케이션 프로파일링  
   
--   성능 문제를 찾아서 해결하기 위해 샘플링된 프로파일링 결과 분석  
+- 성능 문제를 찾아서 해결하기 위해 샘플링된 프로파일링 결과 분석  
   
 ## <a name="prerequisites"></a>전제 조건  
   
--   [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]또는 [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]또는 [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
--   [!INCLUDE[csharp_current_short](../includes/csharp-current-short-md.md)]에 대한 중간 정도의 이해도  
+- [!INCLUDE[csharp_current_short](../includes/csharp-current-short-md.md)]에 대한 중간 정도의 이해도  
   
--   명령줄 도구 사용법에 대한 중간 정도의 이해도  
+- 명령줄 도구 사용법에 대한 중간 정도의 이해도  
   
--   [PeopleTrax 샘플](../profiling/peopletrax-sample-profiling-tools.md)의 복사본  
+- [PeopleTrax 샘플](../profiling/peopletrax-sample-profiling-tools.md)의 복사본  
   
--   프로파일링을 통해 제공되는 정보를 사용하려면 디버깅 기호 정보를 준비해 두는 것이 가장 좋습니다.  
+- 프로파일링을 통해 제공되는 정보를 사용하려면 디버깅 기호 정보를 준비해 두는 것이 가장 좋습니다.  
   
 ## <a name="command-line-profiling-using-the-sampling-method"></a>샘플링 방법을 사용하여 명령줄 프로파일링  
  샘플링은 특정 프로세스를 주기적으로 폴링하여 활성 함수를 확인하는 프로파일링 방법입니다. 결과 데이터는 프로세스를 샘플링할 때 함수가 호출 스택 위에 있었던 빈도에 해당하는 수를 제공합니다.  
@@ -53,19 +53,19 @@ ms.locfileid: "54783536"
   
 #### <a name="to-profile-the-peopletrax-application-by-using-the-sampling-method"></a>샘플링 방법을 사용하여 PeopleTrax 애플리케이션을 프로파일링하려면  
   
-1.  PeopleTrax 샘플 애플리케이션을 설치하고 애플리케이션의 릴리스 버전을 빌드합니다.  
+1. PeopleTrax 샘플 애플리케이션을 설치하고 애플리케이션의 릴리스 버전을 빌드합니다.  
   
-2.  명령 프롬프트 창을 열고 프로파일링 도구 디렉터리를 로컬 Path 환경 변수에 추가합니다.  
+2. 명령 프롬프트 창을 열고 프로파일링 도구 디렉터리를 로컬 Path 환경 변수에 추가합니다.  
   
-3.  작업 디렉터리를 PeopleTrax 이진 파일이 포함된 디렉터리로 변경합니다.  
+3. 작업 디렉터리를 PeopleTrax 이진 파일이 포함된 디렉터리로 변경합니다.  
   
-4.  다음 명령을 입력하여 적절한 환경 변수를 설정합니다.  
+4. 다음 명령을 입력하여 적절한 환경 변수를 설정합니다.  
   
     ```  
     VSPerfCLREnv /sampleon  
     ```  
   
-5.  프로파일러를 제어하는 명령줄 도구인 VSPerfCmd.exe를 실행하여 프로파일링을 시작합니다. 다음 명령은 샘플링 모드에서 애플리케이션 및 프로파일러를 시작합니다.  
+5. 프로파일러를 제어하는 명령줄 도구인 VSPerfCmd.exe를 실행하여 프로파일링을 시작합니다. 다음 명령은 샘플링 모드에서 애플리케이션 및 프로파일러를 시작합니다.  
   
     ```  
     VsPerfCmd /start:sample /output:PeopleTraxReport.vsp /launch:PeopleTrax.exe  
@@ -73,13 +73,13 @@ ms.locfileid: "54783536"
   
      프로파일러 프로세스가 시작되어 PeopleTrax.exe 프로세스에 연결됩니다. 프로파일러 프로세스가 수집된 프로파일링 데이터를 보고서 파일에 쓰기 시작합니다.  
   
-6.  **사용자 가져오기**를 클릭합니다.  
+6. **사용자 가져오기**를 클릭합니다.  
   
-7.  **ExportData**를 클릭합니다.  
+7. **ExportData**를 클릭합니다.  
   
      메모장이 열리고 **PeopleTrax**에서 내보낸 데이터가 들어 있는 새 파일이 표시됩니다.  
   
-8.  메모장을 닫은 다음 **PeopleTrax** 애플리케이션을 닫습니다.  
+8. 메모장을 닫은 다음 **PeopleTrax** 애플리케이션을 닫습니다.  
   
 9. 프로파일러를 종료합니다. 다음 명령을 입력합니다.  
   
@@ -95,11 +95,11 @@ ms.locfileid: "54783536"
   
 11. 프로파일링 데이터는 .vsp 파일에 저장됩니다. 다음 방법 중 하나를 사용하여 결과를 분석합니다.  
   
-    -   Visual Studio IDE에서 .vsp 파일을 엽니다.  
+    - Visual Studio IDE에서 .vsp 파일을 엽니다.  
   
          — 또는 —  
   
-    -   VSPerfReport.exe 명령줄 도구를 사용하여 쉼표로 구분된 값 (.csv) 파일을 생성합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE 외부에서 사용할 보고서를 생성하려면 다음 명령을 사용합니다.  
+    - VSPerfReport.exe 명령줄 도구를 사용하여 쉼표로 구분된 값 (.csv) 파일을 생성합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE 외부에서 사용할 보고서를 생성하려면 다음 명령을 사용합니다.  
   
         ```  
         VSPerfReport <dir> PeopleTraxReport.vsp /output:<dir> /summary:all  

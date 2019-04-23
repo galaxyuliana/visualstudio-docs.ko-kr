@@ -19,12 +19,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: a15c666ace8a8bc3313d5f95e818c68693f15f28
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 17416a3b64d6cbb5f01192440a9df735f0b9fb94
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55912549"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090331"
 ---
 # <a name="filter-and-sort-data-in-a-windows-forms-application"></a>Windows Forms 애플리케이션에서 데이터 필터링 및 정렬
 
@@ -37,18 +37,18 @@ ms.locfileid: "55912549"
 
 ## <a name="to-filter-data-by-using-a-bindingsource-component"></a>BindingSource 구성 요소를 사용 하 여 데이터를 필터링 하려면
 
--   설정 된 <xref:System.Windows.Forms.BindingSource.Filter%2A> 속성을 반환 하려는 식입니다. 다음 코드를 사용 하 여 고객을 반환 하는 예를 들어, 한 `CompanyName` "B"로 시작 합니다.
+- 설정 된 <xref:System.Windows.Forms.BindingSource.Filter%2A> 속성을 반환 하려는 식입니다. 다음 코드를 사용 하 여 고객을 반환 하는 예를 들어, 한 `CompanyName` "B"로 시작 합니다.
 
      [!code-csharp[VbRaddataDisplaying#6](../data-tools/codesnippet/CSharp/filter-and-sort-data-in-a-windows-forms-application_1.cs)]
      [!code-vb[VbRaddataDisplaying#6](../data-tools/codesnippet/VisualBasic/filter-and-sort-data-in-a-windows-forms-application_1.vb)]
 
 ## <a name="to-sort-data-by-using-a-bindingsource-component"></a>BindingSource 구성 요소를 사용 하 여 데이터를 정렬 하려면
 
--   설정 된 <xref:System.Windows.Forms.BindingSource.Sort%2A> 에서 정렬 하려는 열에는 속성입니다. 다음 코드에서 고객을 정렬 하는 예를 들어를 `CompanyName` 내림차순 열:
+- 설정 된 <xref:System.Windows.Forms.BindingSource.Sort%2A> 에서 정렬 하려는 열에는 속성입니다. 다음 코드에서 고객을 정렬 하는 예를 들어를 `CompanyName` 내림차순 열:
 
      [!code-csharp[VbRaddataDisplaying#7](../data-tools/codesnippet/CSharp/filter-and-sort-data-in-a-windows-forms-application_2.cs)]
      [!code-vb[VbRaddataDisplaying#7](../data-tools/codesnippet/VisualBasic/filter-and-sort-data-in-a-windows-forms-application_2.vb)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)

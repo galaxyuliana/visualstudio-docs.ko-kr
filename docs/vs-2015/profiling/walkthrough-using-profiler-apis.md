@@ -12,14 +12,14 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 82d6c16c75cb2605bcdb8382d461d3557846fcc2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 7cb8d054a2e26caddb2ccc9f37d20bb973b1833f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54769637"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090805"
 ---
-# <a name="walkthrough-using-profiler-apis"></a>연습: 프로파일러 API 사용
+# <a name="walkthrough-using-profiler-apis"></a>연습: Profiler Api를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 연습에서는 C# 애플리케이션을 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 API를 사용하는 방법을 보여 줍니다. 프로파일러 API를 사용하여 계측 프로파일링 동안 수집되는 데이터 양을 제한합니다.  
@@ -57,12 +57,12 @@ DataCollection.CurrentId);
   
 #### <a name="to-create-the-code-to-profile"></a>프로파일링할 코드를 만들려면  
   
-1.  Visual Studio에서 새 C# 프로젝트를 만들거나 기본 설정에 따라 명령줄 빌드를 사용합니다.  
+1. Visual Studio에서 새 C# 프로젝트를 만들거나 기본 설정에 따라 명령줄 빌드를 사용합니다.  
   
     > [!NOTE]
     >  빌드는 Microsoft Visual Studio 9\Team Tools\Performance Tools 디렉터리에 있는 Microsoft.VisualStudio.Profiler.dll 라이브러리를 참조해야 합니다.  
   
-2.  다음 코드를 복사하여 프로젝트에 붙여넣습니다.  
+2. 다음 코드를 복사하여 프로젝트에 붙여넣습니다.  
   
     ```  
     using System;  
@@ -141,23 +141,23 @@ DataCollection.CurrentId);
   
 #### <a name="to-collect-and-view-data-at-the-command-line"></a>명령줄에서 데이터를 수집하고 보려면  
   
-1.  이 연습 앞부분의 "프로파일링할 코드 만들기" 절차에서 만든 샘플 코드의 디버그 버전을 컴파일합니다.  
+1. 이 연습 앞부분의 "프로파일링할 코드 만들기" 절차에서 만든 샘플 코드의 디버그 버전을 컴파일합니다.  
   
-2.  관리되는 애플리케이션을 프로파일링하려면 다음 명령을 입력하여 적절한 환경 변수를 설정합니다.  
+2. 관리되는 애플리케이션을 프로파일링하려면 다음 명령을 입력하여 적절한 환경 변수를 설정합니다.  
   
      **VsPefCLREnv /traceon**  
   
-3.  **VSInstr \<filename>.exe** 명령을 입력합니다.  
+3. **VSInstr \<filename>.exe** 명령을 입력합니다.  
   
-4.  **VSPerfCmd /start:trace /output:\<filename>.vsp** 명령을 입력합니다.  
+4. **VSPerfCmd /start:trace /output:\<filename>.vsp** 명령을 입력합니다.  
   
-5.  **VSPerfCmd /globaloff** 명령을 입력합니다.  
+5. **VSPerfCmd /globaloff** 명령을 입력합니다.  
   
-6.  프로그램을 실행합니다.  
+6. 프로그램을 실행합니다.  
   
-7.  **VSPerfCmd /shutdown** 명령을 입력합니다.  
+7. **VSPerfCmd /shutdown** 명령을 입력합니다.  
   
-8.  **VSPerfReport /calltrace:\<filename>.vsp** 명령을 입력합니다.  
+8. **VSPerfReport /calltrace:\<filename>.vsp** 명령을 입력합니다.  
   
      결과 성능 데이터와 함께 현재 디렉터리에 .csv 파일이 만들어집니다.  
   

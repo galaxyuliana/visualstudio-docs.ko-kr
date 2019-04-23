@@ -25,12 +25,12 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6cb3b1f0d1c21a7cde53f8b3eecf1cd25c26b394
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 684738fd2180a3c5bf269b2a30efd970bcf9ab08
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981999"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092203"
 ---
 # <a name="how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window"></a>방법: 호출 스택 창에 네이티브 프레임이 없을 때 관리 코드에서 나가기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,9 +42,9 @@ ms.locfileid: "58981999"
   
 ### <a name="to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-display"></a>네이티브 프레임이 호출 스택 화면에서 없어질 때 관리 코드에 대해 프로시저 나가기를 수행하려면  
   
-1.  네이티브 코드에서 호출 후의 위치 중단점을 관리 코드로 설정합니다.  
+1. 네이티브 코드에서 호출 후의 위치 중단점을 관리 코드로 설정합니다.  
   
-2.  **디버그** 메뉴에서 **계속**을 선택합니다.  
+2. **디버그** 메뉴에서 **계속**을 선택합니다.  
   
      관리되는 호출이 완료되면 네이티브 코드의 중단점에서 실행이 중지됩니다.  
   

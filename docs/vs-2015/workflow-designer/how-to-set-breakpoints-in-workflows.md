@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2aaf61ada4167f29f1c6d4754ced7c9757054a88
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: dc428d70e036da311d2cf3050cec9e94a13782e3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986294"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089980"
 ---
 # <a name="how-to-set-breakpoints-in-workflows"></a>방법: 워크플로에 중단점 설정
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에서는 Visual Basic 또는 C# 코드를 사용할 때와 같이 그래픽 워크플로의 중단점을 설정할 수 있습니다. 예상대로 설정한 각 중단점에서 워크플로 실행이 중지됩니다.  
@@ -32,9 +32,9 @@ ms.locfileid: "58986294"
   
 ### <a name="to-set-a-breakpoint-on-an-activity-in-the-design-view"></a>디자인 뷰에서 활동의 중단점을 설정하려면  
   
-1.  디버거를 중단할 활동을 선택합니다.  
+1. 디버거를 중단할 활동을 선택합니다.  
   
-2.  에 **디버그** 메뉴에서 **중단점 설정/해제**합니다. 활동의 왼쪽 위에 빨간색 아이콘이 표시됩니다.  
+2. 에 **디버그** 메뉴에서 **중단점 설정/해제**합니다. 활동의 왼쪽 위에 빨간색 아이콘이 표시됩니다.  
   
      또는 바로 가기도 눌러 수도 **F9** 활동을 마우스 오른쪽 단추로 클릭 하 고 선택 수 작업 또는 사용자를 선택 키 **중단점** 다음 **중단점 삽입**상황에 맞는 메뉴입니다.  
   

@@ -1,5 +1,5 @@
 ---
-title: '방법: 성능 규칙 구성 | Microsoft 문서'
+title: '방법: 성능 규칙 구성 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -11,12 +11,12 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: dc91bff6819cc5a1ed1e22864157143843f88ba9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 71593496613c75485fd30481777d0fcc1102c11c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54790431"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117813"
 ---
 # <a name="how-to-configure-performance-rules"></a>방법: 성능 규칙 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,18 +25,18 @@ Visual Studio 프로파일링 도구의 성능 경고는 프로파일링된 애�
   
 ### <a name="to-configure-profiler-performance-warnings"></a>프로파일러 성능 경고를 구성하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
-2.  **성능 도구**를 확장하고 **규칙**을 클릭합니다.  
+2. **성능 도구**를 확장하고 **규칙**을 클릭합니다.  
   
-3.  경고를 사용하거나 사용하지 않도록 설정하려면 경고 **ID** 및 이름 옆의 확인란을 선택하거나 선택 취소합니다.  
+3. 경고를 사용하거나 사용하지 않도록 설정하려면 경고 **ID** 및 이름 옆의 확인란을 선택하거나 선택 취소합니다.  
   
-4.  규칙의 경고 수준을 지정하려면 규칙 옆의 **작업** 셀을 클릭하고 경고 수준을 클릭합니다.  
+4. 규칙의 경고 수준을 지정하려면 규칙 옆의 **작업** 셀을 클릭하고 경고 수준을 클릭합니다.  
   
-    -   **사용 안 함** - 규칙을 사용하지 않도록 설정합니다(규칙 ID 옆의 확인란을 선택 취소하는 것과 같음).  
+    - **사용 안 함** - 규칙을 사용하지 않도록 설정합니다(규칙 ID 옆의 확인란을 선택 취소하는 것과 같음).  
   
-    -   **경고** - 규칙을 경고로 표시합니다.  
+    - **경고** - 규칙을 경고로 표시합니다.  
   
-    -   **오류** - 프로파일링 실행을 정지하고 규칙을 오류로 표시합니다.  
+    - **오류** - 프로파일링 실행을 정지하고 규칙을 오류로 표시합니다.  
   
-    -   **정보** - 규칙을 정보 제공용으로만 표시합니다.
+    - **정보** - 규칙을 정보 제공용으로만 표시합니다.

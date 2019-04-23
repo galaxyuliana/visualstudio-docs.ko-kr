@@ -13,12 +13,12 @@ ms.assetid: 4479ac61-18a9-4a30-b213-9921c5af9a26
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: bdaae4fcf52beccabadfa8abd4800c2e96698c42
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 134b4e2d58b0581a14d387e8601cc0bdc57cb56b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982797"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089252"
 ---
 # <a name="idebugboundbreakpoint2getbreakpointresolution"></a>IDebugBoundBreakpoint2::GetBreakpointResolution
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -43,9 +43,9 @@ int GetBreakpointResolution( 
  `ppBPResolution`  
  [out] 반환 된 [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) 다음 중 하나를 나타내는 인터페이스입니다.  
   
--   코드 중단점에 바인딩된 코드의 위치를 설명 하는 중단점 해결 개체입니다.  
+- 코드 중단점에 바인딩된 코드의 위치를 설명 하는 중단점 해결 개체입니다.  
   
--   데이터 중단점에 바인딩되는 위치 데이터 위치입니다.  
+- 데이터 중단점에 바인딩되는 위치 데이터 위치입니다.  
   
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 바인딩된 중단점 개체의 상태 설정 됩니다 `BPS_DELETED` (부분 합니다 [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) 열거형)입니다.  

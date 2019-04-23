@@ -16,12 +16,12 @@ caps.latest.revision: 51
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ca4c3e5016377758e8910c15bf992e629778c0e9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 1f2d3f0bd70a4c7be82b991eb5397065fe3d4ee7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002544"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116175"
 ---
 # <a name="just-in-time-debugging-in-visual-studio"></a>Visual Studio에서 Just-In-Time 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ Visual Studio Just-에-시간을 표시 하는 경우 수행 해야 하는 작�
 
 - 있어야 [Visual Studio가 설치 되어](https://visualstudio.microsoft.com/vs/older-downloads/) 디버그 하려고 하는 오류에 대 한 자세한 정보를 보려면. 참조 [를 사용 하 여 JIT](#BKMK_Using_JIT) 자세한 지침입니다. 오류를 해결 하 고 앱 수 없습니다, 오류를 해결 하려면 앱의 소유자에 게 문의 합니다.
 
-##  <a name="BKMK_Enabling"></a> 사용 하지 않도록 설정 하면 시간에 디버깅 사용 또는 사용
+## <a name="BKMK_Enabling"></a> 사용 하지 않도록 설정 하면 시간에 디버깅 사용 또는 사용
  Just In Time Visual Studio에서 디버깅을 사용 하지 않도록 설정 하거나 설정할 수 있습니다 **도구 / 옵션** 대화 상자.
 
 #### <a name="to-enable-or-disable-just-in-time-debugging"></a>Just-In-Time 디버깅을 활성화하거나 비활성화하려면
@@ -73,36 +73,36 @@ Visual Studio Just-에-시간을 표시 하는 경우 수행 해야 하는 작�
 
 #### <a name="to-disable-just-in-time-debugging-by-editing-the-registry"></a>레지스트리를 편집하여 Just-In-Time 디버깅을 비활성화하려면
 
-1.  에 **시작** 메뉴, 검색 및 실행 `regedit.exe`
+1. 에 **시작** 메뉴, 검색 및 실행 `regedit.exe`
 
-2.  에 **레지스트리 편집기** 창 찾기 및 다음 레지스트리 항목을 삭제 합니다.
+2. 에 **레지스트리 편집기** 창 찾기 및 다음 레지스트리 항목을 삭제 합니다.
 
-    -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger
+    - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger
 
-    -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger
+    - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger
 
-3.  컴퓨터는 64 비트 운영 체제를 실행 하는 경우 다음 레지스트리 항목을 삭제 합니다.
+3. 컴퓨터는 64 비트 운영 체제를 실행 하는 경우 다음 레지스트리 항목을 삭제 합니다.
 
-    -   HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger
+    - HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger
 
-    -   HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger
+    - HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger
 
-4.  실수로 다른 레지스트리 키를 삭제하거나 변경하지 않도록 주의합니다.
+4. 실수로 다른 레지스트리 키를 삭제하거나 변경하지 않도록 주의합니다.
 
-5.  닫기 합니다 **레지스트리 편집기** 창입니다.
+5. 닫기 합니다 **레지스트리 편집기** 창입니다.
 
 > [!NOTE]
 >  Just 시간 서버 쪽 앱에 대 한 디버깅을 사용 하지 않도록 설정 하려는 경우 다음이 단계에서 문제를 해결 하지 IIS 응용 프로그램 설정에서 서버 쪽 디버깅을 해제 하 고 다시 시도 하세요.
 
 #### <a name="to-enable-just-in-time-debugging-of-a-windows-form"></a>Windows Form에 Just-In-Time 디버깅을 사용하려면
 
-1.  기본적으로 Windows Forms 응용 프로그램에는 복구할 수 있는 경우 프로그램을 계속 실행할 수 있도록 하는 최상위 예외 처리기가 있습니다. 예를 들어, Windows Forms 응용 프로그램에서 처리 되지 않은 예외를 throw 하는 경우 다음과 같은 대화 상자가 나타납니다.
+1. 기본적으로 Windows Forms 응용 프로그램에는 복구할 수 있는 경우 프로그램을 계속 실행할 수 있도록 하는 최상위 예외 처리기가 있습니다. 예를 들어, Windows Forms 응용 프로그램에서 처리 되지 않은 예외를 throw 하는 경우 다음과 같은 대화 상자가 나타납니다.
 
      ![WindowsFormsUnhandledException](../debugger/media/windowsformsunhandledexception.png "WindowsFormsUnhandledException")
 
      Windows Forms 응용 프로그램의 디버깅을 사용 하면 시간을에 다음과 같은 추가 단계를 수행 해야 합니다.
 
-2.  설정 합니다 `jitDebugging` 값을 `true` 에 `system.windows.form` 합니다 machine.config 섹션 또는  *\<응용 프로그램 이름 >*. exe.config 파일:
+2. 설정 합니다 `jitDebugging` 값을 `true` 에 `system.windows.form` 합니다 machine.config 섹션 또는  *\<응용 프로그램 이름 >*. exe.config 파일:
 
     ```
     <configuration>
@@ -110,7 +110,7 @@ Visual Studio Just-에-시간을 표시 하는 경우 수행 해야 하는 작�
     </configuration>
     ```
 
-3.  C++ Windows Forms 응용 프로그램의 경우 .config 파일이나 코드에서 `DebuggableAttribute`도 설정해야 합니다. [/Zi](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)만 사용하고 [/Og](http://msdn.microsoft.com/library/d10630cc-b9cf-4e97-bde3-8d7ee79e9435)는 사용하지 않은 상태에서 컴파일하면 컴파일러에서 이 특성을 자동으로 설정합니다. 그러나 최적화되지 않은 릴리스 빌드를 디버깅하려면 이 특성을 직접 설정해야 합니다. 응용 프로그램의 AssemblyInfo.cpp 파일에 다음 줄을 추가하여 이 특성을 설정할 수 있습니다.
+3. C++ Windows Forms 응용 프로그램의 경우 .config 파일이나 코드에서 `DebuggableAttribute`도 설정해야 합니다. [/Zi](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)만 사용하고 [/Og](http://msdn.microsoft.com/library/d10630cc-b9cf-4e97-bde3-8d7ee79e9435)는 사용하지 않은 상태에서 컴파일하면 컴파일러에서 이 특성을 자동으로 설정합니다. 그러나 최적화되지 않은 릴리스 빌드를 디버깅하려면 이 특성을 직접 설정해야 합니다. 응용 프로그램의 AssemblyInfo.cpp 파일에 다음 줄을 추가하여 이 특성을 설정할 수 있습니다.
 
     ```
     [assembly:System::Diagnostics::DebuggableAttribute(true, true)];
@@ -178,19 +178,19 @@ static void Main(string[] args)
 
  Just-In-Time 디버깅과 관련된 다음 오류 메시지가 나타날 수도 있습니다.
 
--   **충돌 프로세스에 연결할 수 없습니다. 지정한 프로그램은 Windows 또는 MS-DOS 프로그램이 아닙니다.**
+- **충돌 프로세스에 연결할 수 없습니다. 지정한 프로그램은 Windows 또는 MS-DOS 프로그램이 아닙니다.**
 
      이 오류는 다른 사용자로 실행 되는 프로세스에 연결 하려고 할 때 발생 합니다.
 
      Visual Studio 시작이이 문제를 해결 하려면 엽니다는 **프로세스에 연결** 대화 상자를 **디버그** 메뉴 및 찾기 프로세스에서 디버그 하려는 **사용 가능한 프로세스**목록입니다. 프로세스의 이름을 모르는 경우 확인 합니다 **Visual Studio Just-In-Time Debugger** 대화 및 참고 프로세스 id입니다. 프로세스를 선택 합니다 **사용 가능한 프로세스** 나열 하 고 클릭 **연결**합니다. 에 **Visual Studio Just-In-Time Debugger** 대화 상자에서 클릭 **No** 대화 상자를 닫습니다.
 
--   **로그온한 사용자가 없으므로 디버거를 시작할 수 없습니다.**
+- **로그온한 사용자가 없으므로 디버거를 시작할 수 없습니다.**
 
      이 오류는 콘솔에 로그온한 사용자가 없는 컴퓨터에서 Just-In-Time 디버깅 시 Visual Studio를 시작하려고 할 때 발생합니다. 로그온한 사용자가 없으므로 Just-In-Time 디버깅 대화 상자를 표시할 사용자 세션이 없습니다.
 
      이 문제를 해결하려면 컴퓨터에 로그온합니다.
 
--   **클래스가 등록되지 않았습니다.**
+- **클래스가 등록되지 않았습니다.**
 
      이 오류는 설치 문제 등으로 인해 등록되지 않은 COM 클래스를 디버거에서 만들려고 했음을 의미합니다.
 

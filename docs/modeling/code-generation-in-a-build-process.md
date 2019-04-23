@@ -13,12 +13,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 02608d5bc1b2c03560b5d954084d84059c34224a
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 07f7c91c74961fa846abb70637f358de59d0eb94
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324327"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117098"
 ---
 # <a name="code-generation-in-a-build-process"></a>빌드 프로세스에서 코드 생성
 
@@ -28,7 +28,7 @@ ms.locfileid: "57324327"
 
 이 MSBuild에서 텍스트 템플릿을 빌드할 때 동일한 방식으로 프로젝트 파일 이름 등을 액세스할 수 없는지를 의미 합니다. 그러나 수 있습니다 [빌드 매개 변수를 사용 하 여 텍스트 템플릿 지시문 프로세서에 환경 정보를 전달할](#parameters)합니다.
 
-##  <a name="buildserver"></a> 컴퓨터 구성
+## <a name="buildserver"></a> 컴퓨터 구성
 
 개발 컴퓨터에서 빌드 작업을 사용 하려면 Visual Studio 용 모델링 SDK를 설치 합니다.
 
@@ -109,7 +109,7 @@ MSBuild의 기능 중 일부를 구성 하려면 프로젝트 파일을 편집 �
     </PropertyGroup>
     ```
 
-- 항상 모든 템플릿 변환:
+- 항상 모든 템플릿 변형:
 
     ```xml
     <PropertyGroup>
@@ -117,13 +117,13 @@ MSBuild의 기능 중 일부를 구성 하려면 프로젝트 파일을 편집 �
     </PropertyGroup>
     ```
 
-     기본적으로 T4 MSBuild 작업은 출력 파일이 명령 프로세서나 템플릿에 의해 이전에 읽혀진 파일이나 포함된 모든 파일 또는 해당 템플릿 파일보다 오래되었을 경우 출력 파일을 재생성합니다. 이는 템플릿과 출력 파일의 날짜만 비교하는 Visual Studio의 모든 템플릿 변환 명령을 사용하는 것보다 훨씬 더 강력한 종속성 테스트입니다.
+     기본적으로 T4 MSBuild 작업은 출력 파일이 명령 프로세서나 템플릿에 의해 이전에 읽혀진 파일이나 포함된 모든 파일 또는 해당 템플릿 파일보다 오래되었을 경우 출력 파일을 재생성합니다. 이는 템플릿과 출력 파일의 날짜만 비교하는 Visual Studio의 모든 템플릿 변형 명령을 사용하는 것보다 훨씬 더 강력한 종속성 테스트입니다.
 
-프로젝트에서 텍스트 변환만 수행하려면 TransformAll 작업을 호출합니다.
+프로젝트에서 텍스트 변형만 수행하려면 TransformAll 작업을 호출합니다.
 
 `msbuild myProject.csproj /t:TransformAll`
 
-특정한 텍스트 템플릿을 변환하려면 다음을 수행합니다.
+특정한 텍스트 템플릿을 변형하려면 다음을 수행합니다.
 
 `msbuild myProject.csproj /t:Transform /p:TransformFile="Template1.tt"`
 
@@ -216,7 +216,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 </PropertyGroup>
 ```
 
-##  <a name="parameters"></a> 템플릿으로 빌드 컨텍스트 데이터 전달
+## <a name="parameters"></a> 템플릿으로 빌드 컨텍스트 데이터 전달
 
 프로젝트 파일에서 매개 변수 값을 설정할 수 있습니다. 예를 들어, 전달할 수 있습니다 [빌드합니다](../msbuild/msbuild-properties.md) 속성 및 [환경 변수](../msbuild/how-to-use-environment-variables-in-a-build.md):
 
@@ -250,7 +250,7 @@ Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 > [!NOTE]
 > MSBuild를 사용하는 경우에만 `ResolveParameterValue`이 `T4ParameterValues`에서 데이터를 가져옵니다. Visual Studio를 사용하여 템플릿을 변형하는 경우 매개 변수에 기본값이 사용됩니다.
 
-##  <a name="msbuild"></a> 어셈블리의 프로젝트 속성을 사용 하 고 include 지시문
+## <a name="msbuild"></a> 어셈블리의 프로젝트 속성을 사용 하 고 include 지시문
 
 Visual Studio 매크로 같은 **$ (solutiondir)** MSBuild에서 작동 하지 않습니다. 대신 적절한 프로젝트 속성을 사용할 수 있습니다.
 

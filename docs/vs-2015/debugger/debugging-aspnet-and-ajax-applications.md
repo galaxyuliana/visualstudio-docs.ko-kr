@@ -19,21 +19,21 @@ caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d1322300992359f386a43c7feef41053611bb866
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2547c9edb501ac8536b06548ab23a5262515ca78
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972583"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116786"
 ---
 # <a name="debugging-aspnet-and-ajax-applications"></a>ASP.NET 및 AJAX 애플리케이션 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램을 디버깅하는 방법은 Windows Form 또는 다른 Windows 응용 프로그램을 디버깅하는 방법과 비슷합니다. 두 종류의 응용 프로그램 모두 컨트롤과 이벤트를 포함하기 때문입니다. 그러나 이 두 종류의 응용 프로그램 간에는 기본적인 차이점도 있습니다.  
   
--   웹 응용 프로그램에서는 상태 추적이 더 복잡합니다.  
+- 웹 응용 프로그램에서는 상태 추적이 더 복잡합니다.  
   
--   Windows 응용 프로그램에서 디버깅할 코드는 대부분 한 위치에 있으며, 웹 응용 프로그램에서는 코드가 클라이언트와 서버에 있을 수 있습니다. 반면 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 코드는 모두 서버에 있으며 클라이언트에 JavaScript 또는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 코드가 있을 수도 있습니다.  
+- Windows 응용 프로그램에서 디버깅할 코드는 대부분 한 위치에 있으며, 웹 응용 프로그램에서는 코드가 클라이언트와 서버에 있을 수 있습니다. 반면 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 코드는 모두 서버에 있으며 클라이언트에 JavaScript 또는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 코드가 있을 수도 있습니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [ASP.NET 디버그 준비](../debugger/preparing-to-debug-aspnet.md)  

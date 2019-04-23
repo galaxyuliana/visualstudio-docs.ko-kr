@@ -11,12 +11,12 @@ ms.assetid: 6f2e39d6-b79d-407e-976f-b62a3cedd378
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8bff060ed373c4158afe8848ac248e8d28da38b1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 705e0fa821000716dc9cd729901fbb7db5fd759c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983140"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117722"
 ---
 # <a name="mssccprjscc-file"></a>MSSCCPRJ.SCC 파일
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,19 +27,19 @@ Visual Studio 솔루션 또는 프로젝트를 IDE를 사용 하 여 소스 제�
   
  소스 제어 플러그 인을 MSSCCPRJ 지 합니다. SCC 파일은 다음 지침을 따라야 합니다.  
   
--   하나의 MSSCCPRJ만 있을 수 있습니다. 디렉터리 당 SCC 파일입니다.  
+- 하나의 MSSCCPRJ만 있을 수 있습니다. 디렉터리 당 SCC 파일입니다.  
   
--   MSSCCPRJ 합니다. SCC 파일에는 지정된 된 디렉터리 내에서 소스 제어 아래에 있는 여러 파일에 대 한 "AuxPath" 및 "ProjName"를 포함할 수 있습니다.  
+- MSSCCPRJ 합니다. SCC 파일에는 지정된 된 디렉터리 내에서 소스 제어 아래에 있는 여러 파일에 대 한 "AuxPath" 및 "ProjName"를 포함할 수 있습니다.  
   
--   "AuxPath" 문자열을 그 안에 따옴표를 사용할 수 없습니다. 구분 기호로 주위에 따옴표를 할 수 (예를 들어, 큰따옴표 쌍 수를 나타내는 빈 문자열)입니다. IDE에서는 MSSCCPRJ에서 읽을 때 "AuxPath" 문자열에서 모든 따옴표를 제거 합니다. SCC 파일입니다.  
+- "AuxPath" 문자열을 그 안에 따옴표를 사용할 수 없습니다. 구분 기호로 주위에 따옴표를 할 수 (예를 들어, 큰따옴표 쌍 수를 나타내는 빈 문자열)입니다. IDE에서는 MSSCCPRJ에서 읽을 때 "AuxPath" 문자열에서 모든 따옴표를 제거 합니다. SCC 파일입니다.  
   
--   MSSCCPRJ "ProjName" 문자열입니다. SCC 파일에서 반환 된 문자열과 정확히 일치 해야 합니다 `SccGetProjPath` 함수입니다. 함수에서 반환한 문자열 주위에 따옴표, 여 MSSCCPRJ 문자열 있는지 확인 합니다. SCC 파일 따옴표 있어야 주위에 그 반대로 가능 합니다.  
+- MSSCCPRJ "ProjName" 문자열입니다. SCC 파일에서 반환 된 문자열과 정확히 일치 해야 합니다 `SccGetProjPath` 함수입니다. 함수에서 반환한 문자열 주위에 따옴표, 여 MSSCCPRJ 문자열 있는지 확인 합니다. SCC 파일 따옴표 있어야 주위에 그 반대로 가능 합니다.  
   
--   MSSCCPRJ 합니다. SCC 파일을 만들거나 파일을 소스 제어 아래에 배치 됩니다 될 때마다 업데이트 됩니다.  
+- MSSCCPRJ 합니다. SCC 파일을 만들거나 파일을 소스 제어 아래에 배치 됩니다 될 때마다 업데이트 됩니다.  
   
--   MSSCCPRJ 경우입니다. SCC 파일 삭제, 공급자를 다시 생성 해야 그 다음에 해당 디렉터리와 관련 된 소스 제어 작업을 수행 합니다.  
+- MSSCCPRJ 경우입니다. SCC 파일 삭제, 공급자를 다시 생성 해야 그 다음에 해당 디렉터리와 관련 된 소스 제어 작업을 수행 합니다.  
   
--   MSSCCPRJ 합니다. SCC 파일 엄격 하 게 정의 된 형식을 따라야 합니다.  
+- MSSCCPRJ 합니다. SCC 파일 엄격 하 게 정의 된 형식을 따라야 합니다.  
   
 ## <a name="an-illustration-of-the-mssccprjscc-file-format"></a>MSSCCPRJ 보여 줍니다. SCC 파일 형식  
  다음은 샘플을 MSSCCPRJ입니다. SCC 파일 형식 (줄 번호를 가이드로만 제공 됩니다 및 파일 본문에 포함 되지 않아야):  

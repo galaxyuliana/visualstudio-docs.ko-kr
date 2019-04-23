@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fee9738cfce003ef19d311856304d87f6a4b2f15
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ce46f1db900aa5c37b49a1cc228290d7d99d29a2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918912"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117254"
 ---
 # <a name="how-to-use-the-expression-editor"></a>방법: 식 편집기 사용
 
@@ -29,25 +29,25 @@ ms.locfileid: "55918912"
 
 - 포커스를 식 편집기에 맞추면 식 편집기 컨트롤처럼 보이고 동작하다가, 포커스를 잃은 후 식 편집기 찾습니다 일반 TextBlock 처럼 다시 합니다.
 
-- 다시 호스트된 워크플로 디자이너의 식 편집기에 포커스를 맞추면 TextBox처럼 동작하고, 다시 호스트된 워크플로 디자이너에서 포커스를 옮기면 식 편집기가 다시 일반 TextBlock처럼 보입니다.
+- 다시 호스트된 Workflow Designer의 식 편집기에 포커스를 맞추면 TextBox처럼 동작하고, 다시 호스트된 워크플로 디자이너에서 포커스를 옮기면 식 편집기가 다시 일반 TextBlock처럼 보입니다.
 
 > [!NOTE]
 > 식 편집기 용 IntelliSense는 Visual Studio 내 에서만 사용할 수 있습니다. Visual Studio 및 재 호스트 된 시나리오에서 컴파일러의 유효성을 검사 식 입력 후 식이 올바르지 않으면 식 편집기 오류 아이콘을 표시 합니다.
 
 ## <a name="use-the-expression-editor"></a>식 편집기 사용
 
-1.  Visual Studio에서 새 또는 기존 워크플로 프로젝트를 엽니다.
+1. Visual Studio에서 새 또는 기존 워크플로 프로젝트를 엽니다.
 
-2.  예를 들어 <xref:System.Activities.Statements.Assign> 활동을 워크플로에 추가합니다.
+2. 예를 들어 <xref:System.Activities.Statements.Assign> 활동을 워크플로에 추가합니다.
 
     > [!NOTE]
     > 여러 가지 워크플로 활동에 식 편집기가 있습니다. 식 TextBlock은 변수 디자이너, 인수 디자이너 및 동적 인수 디자이너에도 나타납니다. 예제에서는 <xref:System.Activities.Statements.Assign> 활동을 사용합니다.
 
-3.  <xref:System.Activities.Statements.Assign> 활동의 활동 디자이너에서 왼쪽 식 편집기를 클릭합니다.
+3. <xref:System.Activities.Statements.Assign> 활동의 활동 디자이너에서 왼쪽 식 편집기를 클릭합니다.
 
      회색 워터 마크 문자열  **\<에 >** 하 고  **\<VB 식 입력 >** 는 기본 텍스트 문자열에서 식 편집기에 대 한는 <xref:System.Activities.Statements.Assign> 활동.
 
-4.  식을 입력합니다. 문자열을 입력할 경우 문자열 앞뒤에 물음표를 붙여야 합니다. 식 인수를 변수에 바인딩하려면 물음표를 제거합니다.
+4. 식을 입력합니다. 문자열을 입력할 경우 문자열 앞뒤에 물음표를 붙여야 합니다. 식 인수를 변수에 바인딩하려면 물음표를 제거합니다.
 
      완료 되 면 디자이너의 다른 부분으로 포커스를 식 편집기 바깥 영역을 선택 합니다. 초점이 옮겨지고 컴파일러에서 앞에서 설명한 대로 식의 유효성을 검사 합니다.
 

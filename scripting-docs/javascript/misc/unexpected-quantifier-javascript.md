@@ -14,12 +14,12 @@ ms.assetid: ba6d34f9-2d6f-486c-a929-6cd9818be322
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: f18195f344adca16fce7403d225c42826a2af544
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 52b98875b560e4863a93849cf99c2f8756cd438a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843405"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117150"
 ---
 # <a name="unexpected-quantifier-javascript"></a>예기치 않은 수량자입니다.(JavaScript)
 정규식 검색 패턴을 작성할 때 잘못 된 반복 요소를 사용 하 여 패턴 요소를 만들었습니다. 예를 들어, 패턴  
@@ -45,7 +45,7 @@ ms.locfileid: "56843405"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   검색 패턴 요소 포함 법적 반복 요소에만 확인 합니다.  
+- 검색 패턴 요소 포함 법적 반복 요소에만 확인 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Regular Expression 개체](../../javascript/reference/regular-expression-object-javascript.md)   

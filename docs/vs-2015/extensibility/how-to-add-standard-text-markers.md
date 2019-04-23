@@ -10,12 +10,12 @@ ms.assetid: a39fca69-0014-474c-933f-51f0e9b9617e
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f7e771acfa44c1b32dfcc33b2ef1cbcaef879b9f
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 3bd7b31a609117a59a5110cdb4460e5c36395ede
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981976"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089213"
 ---
 # <a name="how-to-add-standard-text-markers"></a>방법: 표준 텍스트 마커를 추가 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "58981976"
   
 ### <a name="to-create-a-text-marker"></a>텍스트 마커를 만들려면  
   
-1.  하나 또는 두-차원 좌표계, 호출을 사용 중인지 여부에 따라 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> 메서드 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> 새 텍스트 마커를 만드는 방법.  
+1. 하나 또는 두-차원 좌표계, 호출을 사용 중인지 여부에 따라 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> 메서드 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> 새 텍스트 마커를 만드는 방법.  
   
      이 메서드 호출에서 표식 유형을, 표식, 만들려는 텍스트 범위를 지정 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> 인터페이스입니다. 그런 다음이 메서드는 새로 만든된 텍스트 표식에 대 한 포인터를 반환합니다. 가져온 표식 유형에 <xref:Microsoft.VisualStudio.TextManager.Interop.MARKERTYPE> 열거형입니다. 지정 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> 표식 이벤트를 수신 하려면 인터페이스입니다.  
   
@@ -36,15 +36,15 @@ ms.locfileid: "58981976"
   
 #### <a name="to-add-a-custom-command-to-the-context-menu"></a>상황에 맞는 메뉴에는 사용자 지정 명령을 추가 하려면  
   
-1.  환경을 호출 하는 상황에 맞는 메뉴 표시 되기 전에 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetMarkerCommandInfo%2A> 메서드 및 전달 하면 텍스트 표식에 대 한 포인터에 영향을 받는 상황에 맞는 메뉴에서 명령 항목의 수입니다.  
+1. 환경을 호출 하는 상황에 맞는 메뉴 표시 되기 전에 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetMarkerCommandInfo%2A> 메서드 및 전달 하면 텍스트 표식에 대 한 포인터에 영향을 받는 상황에 맞는 메뉴에서 명령 항목의 수입니다.  
   
      상황에 맞는 메뉴의 중단점 별 명령을 포함 하는 예를 들어 **중단점 제거** 를 통해 **새 중단점**다음 스크린샷에 표시 된 대로 합니다.  
   
      ![마커 상황에 맞는 메뉴](../extensibility/media/vsmarkercontextmenu.gif "vsMarkercontextmenu")  
   
-2.  사용자 지정 명령 이름을 식별 하는 일부 텍스트를 다시 전달 합니다. 예를 들어 **중단점 제거** 환경을 제공 하지 않았습니다 이미 해당 하는 경우에 사용자 지정 명령을 수 있습니다. 또한 전달 하면 지원 되는, 사용 가능한 및 활성화 되 면 명령 인지 및/또는 켜기 / 끄기 전환 합니다. 이 정보를 사용 하 여 올바른 방법으로 사용자 지정 명령 상황에 맞는 메뉴에 표시할 환경입니다.  
+2. 사용자 지정 명령 이름을 식별 하는 일부 텍스트를 다시 전달 합니다. 예를 들어 **중단점 제거** 환경을 제공 하지 않았습니다 이미 해당 하는 경우에 사용자 지정 명령을 수 있습니다. 또한 전달 하면 지원 되는, 사용 가능한 및 활성화 되 면 명령 인지 및/또는 켜기 / 끄기 전환 합니다. 이 정보를 사용 하 여 올바른 방법으로 사용자 지정 명령 상황에 맞는 메뉴에 표시할 환경입니다.  
   
-3.  환경에서 명령을 실행할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> 메서드를 텍스트 마커 및 상황에 맞는 메뉴에서 선택한 명령 수에 대 한 포인터를 전달 합니다.  
+3. 환경에서 명령을 실행할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> 메서드를 텍스트 마커 및 상황에 맞는 메뉴에서 선택한 명령 수에 대 한 포인터를 전달 합니다.  
   
      이 호출에서이 정보를 사용 하 여 사용자 지정 명령을 결정 하는 텍스트 마커의 모든 작업을 실행 합니다.  
   

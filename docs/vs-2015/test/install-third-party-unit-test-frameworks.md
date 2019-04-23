@@ -8,12 +8,12 @@ ms.assetid: 47893b70-46f8-49dc-84bd-ec820178f683
 caps.latest.revision: 12
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7ae69e33d60c4d6bc4257c6c9006b795d8cbdced
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 23d347d43918661ca65019862f476f1d636d5d06
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57868713"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117372"
 ---
 # <a name="install-third-party-unit-test-frameworks"></a>타사 단위 테스트 프레임워크 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ Visual Studio 테스트 탐색기는 탐색기의 어댑터 인터페이스를 �
   
  **요구 사항**  
   
--   Visual Studio Enterprise, Visual Studio Professional  
+- Visual Studio Enterprise, Visual Studio Professional  
   
 ## <a name="acquiring-third-party-frameworks"></a>타사 프레임워크 확보  
  Visual Studio 확장 관리자 또는 MSDN 웹 사이트의 Visual Studio 갤러리를 통해 많은 타사 단위 테스트 프레임워크를 다운로드하고 설치할 수 있습니다. 프레임워크 웹 사이트와 같은 다른 사이트에서도 프레임워크를 다운로드할 수 있습니다.  

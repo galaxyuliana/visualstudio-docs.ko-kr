@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1b298beadf6ffd3a59e5cdd44981a63bed1746cf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4b188be0a8ff3c8bac6dc8fd2b5474756a1565f3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984347"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090029"
 ---
 # <a name="0x2x4x-msaa-variants"></a>0x/2x/4x MSAA 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,13 +36,13 @@ ms.locfileid: "58984347"
   
 - `D3D11_TEXTURE2D_DESC`에서 전달된 `pDesc` 개체가 렌더링 대상을 설명하는 경우, 즉 다음과 같은 경우입니다.  
   
-  -   BindFlags 멤버에는 D3D11_BIND_TARGET 플래그 또는 D3D11_BIND_DEPTH_STENCIL 플래그 집합이 있습니다.  
+  - BindFlags 멤버에는 D3D11_BIND_TARGET 플래그 또는 D3D11_BIND_DEPTH_STENCIL 플래그 집합이 있습니다.  
   
-  -   Usage 멤버가 D3D11_USAGE_DEFAULT로 설정된 경우  
+  - Usage 멤버가 D3D11_USAGE_DEFAULT로 설정된 경우  
   
-  -   CPUAccessFlags 멤버는 0으로 설정되어 있습니다.  
+  - CPUAccessFlags 멤버는 0으로 설정되어 있습니다.  
   
-  -   MipLevels 멤버는 1으로 설정되어 있습니다.  
+  - MipLevels 멤버는 1으로 설정되어 있습니다.  
   
 - 장치에서는 `ID3D11Device::CheckMultisampleQualityLevels`이 결정한 대로 요청된 렌더링 대상 형식(D3D11_TEXTURE2D_DESC::Format 멤버)에 대한 요청된 샘플 수(0, 2 또는 4) 및 샘플 품질(0)을 지원합니다.  
   

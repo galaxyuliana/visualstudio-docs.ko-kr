@@ -17,12 +17,12 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a38e453d9bfff3b2633eb98cc5d6127fa126335f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 020fdd5f3df5f0f3b53f1ca28992c2b6a40a35f8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985740"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116156"
 ---
 # <a name="how-to-set-a-custom-log-file-location-for-clickonce-deployment-errors"></a>방법: ClickOnce 배포 오류에 대한 사용자 지정 로그 파일 위치 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,11 +41,11 @@ ms.locfileid: "58985740"
   
 ### <a name="to-set-a-custom-log-file-location"></a>사용자 지정 로그 파일 위치를 설정 하려면  
   
-1.  오픈 **Regedit.exe**합니다.  
+1. 오픈 **Regedit.exe**합니다.  
   
-2.  노드로 이동 `HKCU\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment`합니다.  
+2. 노드로 이동 `HKCU\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment`합니다.  
   
-3.  문자열 값으로 설정 `LogFilePath` 전체 경로 및 기본 사용자 지정 로그 위치의 파일 이름입니다.  
+3. 문자열 값으로 설정 `LogFilePath` 전체 경로 및 기본 사용자 지정 로그 위치의 파일 이름입니다.  
   
      이 위치는 사용자가 쓰기 액세스는 디렉터리에 있어야 합니다. 예를 들어, Windows Vista에서 다음 폴더 구조를 만들고 설정 `LogFilePath` C:\Users로\\< 사용자 이름\>\Documents\Logs\ClickOnce\installation.log 합니다.  
   

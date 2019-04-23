@@ -14,14 +14,14 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e28232db66663cb668a28a33d12daa8ff3f210ce
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 107b42500bbe2daed0d03d3e23e4817c9c3b3fc4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54761642"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089928"
 ---
-# <a name="how-to-manage-editor-windows"></a>방법: 편집기 창 관리
+# <a name="how-to-manage-editor-windows"></a>방법: 편집기 Windows 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 한 번에 여러 위치에서 코드로 작업할 수 있습니다. 편집기 창을 분할하거나 편집기 창의 여러 인스턴스를 열어 이 작업을 수행합니다.  
@@ -34,9 +34,9 @@ ms.locfileid: "54761642"
   
 #### <a name="to-split-a-pane"></a>창을 분할하려면  
   
-1.  편집기 창 안을 클릭하여 포커스를 지정합니다.  
+1. 편집기 창 안을 클릭하여 포커스를 지정합니다.  
   
-2.  **창** 메뉴에서 **분할**을 선택합니다.  
+2. **창** 메뉴에서 **분할**을 선택합니다.  
   
      편집 영역이 분할 막대로 구분된 두 개 창으로 나뉩니다. 이 창을 독립적으로 스크롤하여 활성 문서의 다른 부분을 동시에 보고 편집할 수 있습니다. 하나의 창에서 변경한 내용은 다른 창에 반영됩니다.  
   
@@ -45,14 +45,14 @@ ms.locfileid: "54761642"
   
 #### <a name="to-return-to-single-pane-view"></a>단일 창 보기로 돌아가려면  
   
--   **창** 메뉴에서 **분할 제거**를 선택합니다.  
+- **창** 메뉴에서 **분할 제거**를 선택합니다.  
   
 ## <a name="creating-new-windows"></a>새 창 만들기  
  편집기 창의 여러 인스턴스를 만들 수도 있습니다. 이 기능을 사용하면 편집기의 둘 이상의 인스턴스에서 긴 문서를 열 수 있으므로 별도의 전체 크기 편집기 창에서 여러 섹션을 동시에 보고 편집할 수 있습니다.  
   
 #### <a name="to-create-a-new-window"></a>새 창을 만들려면  
   
--   **창** 메뉴에서 **새 창**을 클릭합니다.  
+- **창** 메뉴에서 **새 창**을 클릭합니다.  
   
      편집기의 새 탭 인스턴스가 추가됩니다.  
   

@@ -9,12 +9,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b1e202f84fb3b4e0e865e2cebb96b6728289ff6b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: d6c3410468a53b978165dfcae228b71985fcbe51
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54774116"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117761"
 ---
 # <a name="how-to-create-a-basic-color-shader"></a>방법: 기본 색 셰이더 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,13 +23,13 @@ ms.locfileid: "54774116"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   그래프에서 노드 제거  
+- 그래프에서 노드 제거  
   
--   그래프에 노드 추가  
+- 그래프에 노드 추가  
   
--   노드 속성 설정  
+- 노드 속성 설정  
   
--   노드 연결  
+- 노드 연결  
   
 ## <a name="creating-a-flat-color-shader"></a>단색 셰이더 만들기  
  최종 출력 색에 대한 RGB 색 상수의 색 값을 작성하여 최종 색 셰이더를 구현할 수 있습니다.  

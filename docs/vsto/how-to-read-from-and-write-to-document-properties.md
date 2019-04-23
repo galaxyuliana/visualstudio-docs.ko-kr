@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 34c7ac8e496fedbff836eb118f60157c5f637117
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ac0d81c9e42a5c3aa22a09d59f346e6127b1284f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628873"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115772"
 ---
 # <a name="how-to-read-from-and-write-to-document-properties"></a>방법: 읽기 및 문서 속성에 쓰기
   문서와 함께 문서 속성을 저장할 수 있습니다. Office 애플리케이션은 작성자, 제목 및 주제와 같은 다양한 기본 제공 속성을 제공합니다. 이 항목에서는 Microsoft Office Excel 및 Microsoft Office Word에서 문서 속성을 설정하는 방법을 보여 줍니다.
@@ -42,12 +42,12 @@ ms.locfileid: "56628873"
 
 ### <a name="to-change-the-revision-number-property-in-excel"></a>Excel에서 수정 번호 속성을 변경하려면
 
-1.  기본 제공 문서 속성을 변수에 할당합니다.
+1. 기본 제공 문서 속성을 변수에 할당합니다.
 
      [!code-vb[Trin_VstcoreProgramming#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb#7)]
      [!code-csharp[Trin_VstcoreProgramming#7](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs#7)]
 
-2.  `Revision Number` 속성을 1씩 증가시킵니다.
+2. `Revision Number` 속성을 1씩 증가시킵니다.
 
      [!code-vb[Trin_VstcoreProgramming#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb#8)]
      [!code-csharp[Trin_VstcoreProgramming#8](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs#8)]
@@ -65,12 +65,12 @@ ms.locfileid: "56628873"
 
 ### <a name="to-change-the-subject-property"></a>Subject 속성을 변경하려면
 
-1.  기본 제공 문서 속성을 변수에 할당합니다.
+1. 기본 제공 문서 속성을 변수에 할당합니다.
 
      [!code-csharp[Trin_VstcoreProgrammingWord#1](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingWordCS/ThisDocument.cs#1)]
      [!code-vb[Trin_VstcoreProgrammingWord#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingWordVB/ThisDocument.vb#1)]
 
-2.  `Subject` 속성을 "Whitepaper"로 변경합니다.
+2. `Subject` 속성을 "Whitepaper"로 변경합니다.
 
      [!code-csharp[Trin_VstcoreProgrammingWord#2](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingWordCS/ThisDocument.cs#2)]
      [!code-vb[Trin_VstcoreProgrammingWord#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingWordVB/ThisDocument.vb#2)]

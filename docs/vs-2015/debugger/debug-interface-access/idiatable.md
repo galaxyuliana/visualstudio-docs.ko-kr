@@ -13,12 +13,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1b6b68ce7cd629a3c5ae1b585c91de256336f355
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 460da9a44b588cba92bb10efd9fd191457469c09
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971599"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092060"
 ---
 # <a name="idiatable"></a>IDiaTable
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,19 +51,19 @@ IDiaTable : IEnumUnknown
   
  다음 인터페이스는 사용 하 여 구현 합니다 `IDiaTable` 인터페이스 (즉, 쿼리할 수 있습니다는 `IDiaTable` 다음 인터페이스 중 하나에 대 한 인터페이스):  
   
--   [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)  
+- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)  
   
--   [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)  
+- [IDiaEnumSourceFiles](../../debugger/debug-interface-access/idiaenumsourcefiles.md)  
   
--   [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)  
+- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)  
   
--   [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)  
+- [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)  
   
--   [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)  
+- [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)  
   
--   [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)  
+- [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)  
   
--   [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)  
+- [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)  
   
 ## <a name="example"></a>예제  
  첫 번째 함수 `ShowTableNames`, 세션에 있는 모든 테이블의 이름을 표시 합니다. 두 번째 함수를 `GetTable`, 모든 지정된 된 인터페이스를 구현 하는 테이블에 대 한 테이블을 검색 합니다. 세 번째 함수 `UseTable`를 사용 하는 방법을 보여 줍니다는 `GetTable` 함수입니다.  

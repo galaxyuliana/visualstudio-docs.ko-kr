@@ -22,12 +22,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a13d0c8ff1383e27f9401f6549c422a8fef96e99
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: e3361ba51607924ee0bd0701f6f2dddf12334f93
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650046"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090383"
 ---
 # <a name="how-to-connect-to-data-in-a-service"></a>방법: 서비스의 데이터에 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,20 +43,20 @@ ms.locfileid: "59650046"
   
 ### <a name="to-connect-your-application-to-a-service"></a>응용 프로그램 서비스에 연결 하려면  
   
-1.  **데이터** 메뉴에서 **새 데이터 소스 추가**를 클릭합니다.  
+1. **데이터** 메뉴에서 **새 데이터 소스 추가**를 클릭합니다.  
   
-2.  선택 **서비스** 에 **데이터 소스 형식 선택** 페이지를 선택한 다음 클릭 **다음**합니다.  
+2. 선택 **서비스** 에 **데이터 소스 형식 선택** 페이지를 선택한 다음 클릭 **다음**합니다.  
   
-3.  를 사용 하거나 클릭 하려는 서비스의 주소를 입력 **Discover** 현재 솔루션에서 서비스를 찾아 클릭 **이동**합니다.  
+3. 를 사용 하거나 클릭 하려는 서비스의 주소를 입력 **Discover** 현재 솔루션에서 서비스를 찾아 클릭 **이동**합니다.  
   
-4.  필요에 따라 새 **Namespace** 기본값 대신 형식화 될 수 있습니다.  
+4. 필요에 따라 새 **Namespace** 기본값 대신 형식화 될 수 있습니다.  
   
     > [!NOTE]
     >  클릭 **고급** 열려는 합니다 [서비스 참조 구성 대화 상자](../data-tools/configure-service-reference-dialog-box.md)합니다.  
   
-5.  클릭 **확인** 프로젝트에 서비스 참조를 추가 합니다.  
+5. 클릭 **확인** 프로젝트에 서비스 참조를 추가 합니다.  
   
-6.  **마침**을 클릭합니다.  
+6. **마침**을 클릭합니다.  
   
      데이터 원본이 **데이터 원본** 창에 추가됩니다.  
   
@@ -64,7 +64,7 @@ ms.locfileid: "59650046"
   
 #### <a name="to-add-functionality-to-your-application"></a>응용 프로그램에 기능을 추가하려면  
   
--   항목을 선택 합니다 **데이터 원본** 창 바인딩된 컨트롤을 만드는 폼으로 끌어 옵니다. 자세한 내용은 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다.  
+- 항목을 선택 합니다 **데이터 원본** 창 바인딩된 컨트롤을 만드는 폼으로 끌어 옵니다. 자세한 내용은 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [WCF 데이터 서비스에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md)   

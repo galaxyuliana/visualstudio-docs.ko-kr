@@ -11,12 +11,12 @@ caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 46d6849aef52007368f742b25423a52c034d1475
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1d0170d11ffaba831fdd68caa7249d0002526414
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983475"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089616"
 ---
 # <a name="how-to-refresh-the-view"></a>방법: 보기 새로 고침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ Spy + +는 시스템 테이블의 "스냅숏" 고이 정보를 기준으로 보�
   
 ### <a name="to-refresh-the-currently-active-view"></a>현재 활성 뷰를 새로 고치려면  
   
--   선택 **새로 고침** 에서 합니다 **창** 메뉴나 클릭 합니다 **새로 고침** 도구 모음에서 단추.  
+- 선택 **새로 고침** 에서 합니다 **창** 메뉴나 클릭 합니다 **새로 고침** 도구 모음에서 단추.  
   
 ## <a name="see-also"></a>참고 항목  
  [Spy++ 사용](../debugger/using-spy-increment.md)   

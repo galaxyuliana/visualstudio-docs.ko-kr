@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b3e8a5c2cb1e1e58343fa785699ebed4a91ead19
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: efb36d9ee21d5769c7ddd35461e09934b87d5c33
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629965"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116136"
 ---
 # <a name="walkthrough-collect-data-by-using-a-windows-form"></a>연습: Windows 폼을 사용 하 여 데이터를 수집 합니다.
   이 연습에서는 Microsoft Office Excel용 문서 수준 사용자 지정에서 Windows Form을 열고 사용자로부터 정보를 수집하고 워크시트 셀에 해당 정보를 기록하는 방법을 보여 줍니다.
@@ -32,9 +32,9 @@ ms.locfileid: "56629965"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] 또는 [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)]
 
 > [!NOTE]
 >  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
@@ -44,7 +44,7 @@ ms.locfileid: "56629965"
 
 ### <a name="to-create-a-new-project"></a>새 프로젝트를 만들려면
 
-1.  **WinFormInput**이라는 이름의 Excel 통합 문서 프로젝트를 만들고 마법사에서 **새 문서 만들기** 를 선택합니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
+1. **WinFormInput**이라는 이름의 Excel 통합 문서 프로젝트를 만들고 마법사에서 **새 문서 만들기** 를 선택합니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
 
      Visual Studio의 디자이너에 새 Excel 통합 문서가 열리고 **WinFormInput** 프로젝트가 **솔루션 탐색기**에 추가됩니다.
 
@@ -52,13 +52,13 @@ ms.locfileid: "56629965"
 
 ### <a name="to-add-a-named-range-to-sheet1"></a>Sheet1에 명명된 범위를 추가하려면
 
-1.  **에서** A1 `Sheet1`셀을 선택합니다.
+1. **에서** A1 `Sheet1`셀을 선택합니다.
 
-2.  **이름** 상자에 **formInput**를 입력합니다.
+2. **이름** 상자에 **formInput**를 입력합니다.
 
      **이름** 상자는 워크시트의 **A** 열 바로 위에 수식 입력줄의 왼쪽에 있습니다.
 
-3.  **Enter** 키를 누릅니다.
+3. **Enter** 키를 누릅니다.
 
      <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤이 **A1**셀에 추가됩니다. 워크시트에 볼 수 있는 표시가 없지만 **A1** 셀을 선택하면 **formInput** 이 **이름** 상자(왼쪽에 워크시트 바로 위) 및 **속성** 창에 나타납니다.
 
@@ -107,11 +107,11 @@ ms.locfileid: "56629965"
 
 ### <a name="to-send-information-to-the-worksheet"></a>워크시트에 정보를 보내려면
 
-1.  **솔루션 탐색기** 에서 **GetInputString**을 마우스 오른쪽으로 클릭한 다음 **뷰 디자이너**를 클릭합니다.
+1. **솔루션 탐색기** 에서 **GetInputString**을 마우스 오른쪽으로 클릭한 다음 **뷰 디자이너**를 클릭합니다.
 
-2.  해당 단추를 두 번 클릭하여 단추의 추가된 <xref:System.Windows.Forms.Control.Click> 이벤트 처리기로 코드 파일을 엽니다.
+2. 해당 단추를 두 번 클릭하여 단추의 추가된 <xref:System.Windows.Forms.Control.Click> 이벤트 처리기로 코드 파일을 엽니다.
 
-3.  코드를 이벤트 처리기에 추가하여 텍스트 상자에서 받은 입력을 `WriteStringToCell`함수로 보낸 다음 양식을 닫습니다.
+3. 코드를 이벤트 처리기에 추가하여 텍스트 상자에서 받은 입력을 `WriteStringToCell`함수로 보낸 다음 양식을 닫습니다.
 
      [!code-csharp[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/CSharp/WinFormInputCS/GetInputString.cs#3)]
      [!code-vb[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/VisualBasic/WinFormInput/GetInputString.vb#3)]
@@ -121,20 +121,20 @@ ms.locfileid: "56629965"
 
 ### <a name="to-test-your-workbook"></a>통합 문서를 테스트하려면
 
-1.  키를 눌러 **F5** 프로젝트를 실행 합니다.
+1. 키를 눌러 **F5** 프로젝트를 실행 합니다.
 
-2.  Windows Form이 나타나는지 확인합니다.
+2. Windows Form이 나타나는지 확인합니다.
 
-3.  텍스트 상자에 **Hello World** 를 입력한 다음 **확인**을 클릭합니다.
+3. 텍스트 상자에 **Hello World** 를 입력한 다음 **확인**을 클릭합니다.
 
-4.  **Hello World** 가 워크시트의 **A1** 셀에 나타나는지 확인합니다.
+4. **Hello World** 가 워크시트의 **A1** 셀에 나타나는지 확인합니다.
 
 ## <a name="next-steps"></a>다음 단계
  이 연습에서는 Windows Form을 표시하고 데이터를 워크시트에 전달하는 기본 사항을 보여 줍니다. 수행할 수 있는 다른 작업은 다음과 같습니다.
 
--   Excel 통합 문서 또는 Word 문서에서 Windows Forms 컨트롤 사용. 자세한 내용은 [Office 문서 개요에서 Windows Forms 컨트롤](../vsto/windows-forms-controls-on-office-documents-overview.md)합니다.
+- Excel 통합 문서 또는 Word 문서에서 Windows Forms 컨트롤 사용. 자세한 내용은 [Office 문서 개요에서 Windows Forms 컨트롤](../vsto/windows-forms-controls-on-office-documents-overview.md)합니다.
 
--   문서 수준 사용자 지정 또는 VSTO 추가 기능에 Microsoft Office 응용 프로그램의 사용자 인터페이스를 수정 합니다. 자세한 내용은 [Office UI 사용자 지정](../vsto/office-ui-customization.md)합니다.
+- 문서 수준 사용자 지정 또는 VSTO 추가 기능에 Microsoft Office 응용 프로그램의 사용자 인터페이스를 수정 합니다. 자세한 내용은 [Office UI 사용자 지정](../vsto/office-ui-customization.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office 솔루션 개발](../vsto/developing-office-solutions.md)

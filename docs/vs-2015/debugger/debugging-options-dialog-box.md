@@ -25,25 +25,25 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f1f3b6f6ee2c5a815bfa4f3a9744b3ad2c8cc690
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0b1ab0f4875dcafc14b4b9fb8d3922d26e394c22
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972688"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116864"
 ---
 # <a name="debugging-options-dialog-box"></a>옵션 대화 상자, 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 **도구** 메뉴의 **옵션** 대화 상자에 있는 **디버깅** 폴더에는 디버거 도구 옵션을 지정할 수 있는 다음과 같은 페이지가 있습니다.  
   
--   [옵션 대화 상자, 디버깅, 일반](../debugger/general-debugging-options-dialog-box.md)  
+- [옵션 대화 상자, 디버깅, 일반](../debugger/general-debugging-options-dialog-box.md)  
   
--   [옵션 대화 상자, 디버깅, Just-In-Time](../debugger/just-in-time-debugging-options-dialog-box.md)  
+- [옵션 대화 상자, 디버깅, Just-In-Time](../debugger/just-in-time-debugging-options-dialog-box.md)  
   
--   [옵션 대화 상자, 디버깅, 출력 창](../debugger/output-window-debugging-options-dialog-box.md)  
+- [옵션 대화 상자, 디버깅, 출력 창](../debugger/output-window-debugging-options-dialog-box.md)  
   
--   [옵션 대화 상자, 디버깅, 기호](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
+- [옵션 대화 상자, 디버깅, 기호](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 보안](../debugger/debugger-security.md)   

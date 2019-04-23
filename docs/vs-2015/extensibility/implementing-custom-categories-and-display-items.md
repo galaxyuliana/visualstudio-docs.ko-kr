@@ -11,12 +11,12 @@ ms.assetid: 99311a93-d642-4344-bbf9-ff6e7fa5bf7f
 caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 040c2408f8b0e120996f95e31afdf188d123f76a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f84d66a1dc51baffe743b1f7c16b4bf0ff15ef3a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981091"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117904"
 ---
 # <a name="implementing-custom-categories-and-display-items"></a>사용자 지정 범주 및 표시 항목 구현
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,11 +83,11 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
   
 - 메서드를 통해 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> 사용 하 여 IDE를 제공 해야 합니다.  
   
-  -   목록 **표시 항목** 에 **범주입니다.**  
+  - 목록 **표시 항목** 에 **범주입니다.**  
   
-  -   에 대 한 지역화할 수 있는 이름을 **표시 항목**합니다.  
+  - 에 대 한 지역화할 수 있는 이름을 **표시 항목**합니다.  
   
-  -   각 멤버에 대 한 정보를 표시할 **범주**합니다.  
+  - 각 멤버에 대 한 정보를 표시할 **범주**합니다.  
   
   > [!NOTE]
   >  모든 **범주** 하나 이상 있어야 **표시 항목**합니다.  
@@ -96,11 +96,11 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
   
    구현을 사용 하 여 IDE를 제공합니다.  
   
-  -   목록을 합니다 **범주** 지정된 된 그룹을 구성 하는 합니다.  
+  - 목록을 합니다 **범주** 지정된 된 그룹을 구성 하는 합니다.  
   
-  -   인스턴스에 액세스 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> 각를 지 원하는 **범주** 그룹 내에서.  
+  - 인스턴스에 액세스 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> 각를 지 원하는 **범주** 그룹 내에서.  
   
-  -   지역화할 수 있는 그룹 이름입니다.  
+  - 지역화할 수 있는 그룹 이름입니다.  
   
 - IDE를 업데이트 합니다.  
   
@@ -111,13 +111,13 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
 ## <a name="to-handle-font-and-color-changes"></a>핸들 글꼴 및 색 변경  
  VSPackage를 표시 하는 텍스트의 색 지정을 올바르게 지원 하려면 VSPackage를 지 원하는 색 지정 서비스를 통해 사용자가 시작한 변경에 응답 해야 합니다 **글꼴 및 색** 속성 페이지. VSPackage이 작업을 수행 합니다.  
   
--   구현 하 여 IDE에서 생성 된 이벤트를 처리 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 인터페이스입니다.  
+- 구현 하 여 IDE에서 생성 된 이벤트를 처리 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 인터페이스입니다.  
   
      IDE 사용자 수정 다음 적절 한 메서드를 호출 합니다 **글꼴 및 색** 페이지입니다. 예를 들어 호출을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents.OnFontChanged%2A> 새 글꼴을 선택 하는 경우 메서드.  
   
      또는  
   
--   변경 내용에 대 한 IDE를 폴링합니다.  
+- 변경 내용에 대 한 IDE를 폴링합니다.  
   
      시스템이 구현 통해 수행할 수 있습니다이 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다. 하지만 주로 지원용 지 속성을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 메서드는에 대 한 글꼴 및 색 정보를 가져오는 데 사용할 수 있습니다 **항목을 표시**합니다. 자세한 내용은 [에 액세스 하는 저장 된 글꼴 및 색 설정](../extensibility/accessing-stored-font-and-color-settings.md)합니다.  
   

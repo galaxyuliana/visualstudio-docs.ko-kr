@@ -13,12 +13,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 27aed07b7e4212502a819ce024b0ce46680df6bf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: aac43a88a62182a33ea3b340c5520e921d681cd7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54759963"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089577"
 ---
 # <a name="resource-details-view---contention-data"></a>리소스 정보 뷰 - 경합 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,21 +31,21 @@ ms.locfileid: "54759963"
   
 #### <a name="to-magnify-a-timeline-segment"></a>시간 표시 막대 세그먼트를 확대하려면  
   
--   시간 표시 막대의 영역 위로 마우스 포인터를 끕니다.  
+- 시간 표시 막대의 영역 위로 마우스 포인터를 끕니다.  
   
      마우스 단추를 놓으면 뷰가 선택한 시간 세그먼트로 확대됩니다. 이 프로세스를 반복하여 세그먼트를 추가로 확대할 수 있습니다. 시간 스크롤 막대의 스크롤 상자는 뷰에 표시되는 시간 세그먼트의 상대 크기를 나타냅니다.  
   
 #### <a name="to-zoom-out-on-a-timeline"></a>시간 표시 막대를 축소하려면  
   
--   다음 단계 중 하나를 수행합니다.  
+- 다음 단계 중 하나를 수행합니다.  
   
-    -   **축소**를 클릭하여 이전 확대/축소 수준으로 돌아갑니다.  
+    - **축소**를 클릭하여 이전 확대/축소 수준으로 돌아갑니다.  
   
-    -   **확대/축소 다시 설정**을 클릭하여 뷰의 전체 시간 표시 막대를 표시합니다.  
+    - **확대/축소 다시 설정**을 클릭하여 뷰의 전체 시간 표시 막대를 표시합니다.  
   
 #### <a name="to-view-the-call-stack-of-an-event"></a>이벤트의 호출 스택을 보려면  
   
--   시간 표시 막대 그래프에서 이벤트 막대를 클릭합니다.  
+- 시간 표시 막대 그래프에서 이벤트 막대를 클릭합니다.  
   
 #### <a name="to-view-or-edit-the-source-code-of-a-function-in-the-call-stack"></a>호출 스택의 함수 소스 코드를 보거나 편집하려면  
   
@@ -55,12 +55,12 @@ ms.locfileid: "54759963"
   
 #### <a name="to-view-the-call-tree-of-contention-events-for-the-resource"></a>리소스에 대한 경합 이벤트 호출 트리를 보려면  
   
--   시간 표시 막대 그래프에서 **전체**를 클릭합니다.  
+- 시간 표시 막대 그래프에서 **전체**를 클릭합니다.  
   
      리소스에 대한 리소스 경합 뷰가 표시됩니다. 자세한 내용은 [리소스 경합 뷰](../profiling/resource-contentions-view-contention-data.md)를 참조하세요.  
   
 #### <a name="to-view-all-the-contention-events-of-a-thread"></a>스레드의 모든 경합 이벤트를 보려면  
   
--   시간 표시 막대 그래프에서 스레드의 이름이나 ID를 클릭합니다.  
+- 시간 표시 막대 그래프에서 스레드의 이름이나 ID를 클릭합니다.  
   
      선택한 스레드의 스레드 정보 뷰가 나타납니다. 자세한 내용은 [스레드 정보 뷰](../profiling/thread-details-view-contention-data.md)를 참조하세요.
