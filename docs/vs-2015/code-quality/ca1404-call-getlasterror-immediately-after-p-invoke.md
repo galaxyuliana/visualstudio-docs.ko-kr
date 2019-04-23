@@ -15,12 +15,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: a7f1f4d036bd035368cce10684899d880481e37b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e33c724d2cebb9423f2e475d95bf42ac5e2cc966
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970608"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053288"
 ---
 # <a name="ca1404-call-getlasterror-immediately-after-pinvoke"></a>CA1404: P/Invoke 다음에 바로 GetLastError를 호출하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,13 +40,13 @@ ms.locfileid: "58970608"
 
  다음에 대 한 호출을 무시 하는 규칙 플랫폼에 대 한 호출 간에 발생 하는 경우 관리 되는 멤버 메서드 및 호출 호출 <xref:System.Runtime.InteropServices.Marshal.GetLastWin32Error%2A>합니다. 이러한 멤버 오류를 변경 하지 마십시오 메서드 호출을 호출 코드 및 일부 플랫폼의 성공 여부를 결정 하는 데 유용 합니다.
 
--   <xref:System.IntPtr.Zero?displayProperty=fullName>
+- <xref:System.IntPtr.Zero?displayProperty=fullName>
 
--   <xref:System.IntPtr.op_Equality%2A?displayProperty=fullName>
+- <xref:System.IntPtr.op_Equality%2A?displayProperty=fullName>
 
--   <xref:System.IntPtr.op_Inequality%2A?displayProperty=fullName>
+- <xref:System.IntPtr.op_Inequality%2A?displayProperty=fullName>
 
--   <xref:System.Runtime.InteropServices.SafeHandle.IsInvalid%2A?displayProperty=fullName>
+- <xref:System.Runtime.InteropServices.SafeHandle.IsInvalid%2A?displayProperty=fullName>
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면에 대 한 호출을 이동 <xref:System.Runtime.InteropServices.Marshal.GetLastWin32Error%2A> 플랫폼에 대 한 호출 바로 뒤에 오도록 메서드를 호출 합니다.

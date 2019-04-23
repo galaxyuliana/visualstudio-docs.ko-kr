@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0bf16f79401f4b8df3bafff0f92963510110dff1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 40de16290e52755ab92d09edf0c90c045ad4dc86
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622763"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061036"
 ---
 # <a name="test-guide-for-source-control-plug-ins"></a>소스 제어 플러그 인에 대한 테스트 가이드
 이 섹션에서는 소스 제어 플러그 인을 테스트 하는 것에 대 한 지침을 제공 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 광범위 한 개요는 가장 일반적인 테스트 영역 뿐만 아니라 더 복잡 한 문제가 될 수 있는 영역의 일부 제공 됩니다. 이 개요 테스트 사례의 목록은 아닙니다.
@@ -51,55 +51,55 @@ ms.locfileid: "56622763"
 
 ## <a name="test-areas-covered-in-this-section"></a>이 섹션에서 다루는 영역 테스트
 
--   [테스트 영역 1: 소스 제어에서 열기 / 추가](../../extensibility/internals/test-area-1-add-to-open-from-source-control.md)
+- [테스트 영역 1: 소스 제어에서 열기 / 추가](../../extensibility/internals/test-area-1-add-to-open-from-source-control.md)
 
-    -   사례 1a: 소스 제어에 솔루션 추가
+    - 사례 1a: 소스 제어에 솔루션 추가
 
-    -   사례 1b: 소스 제어에서 솔루션 열기
+    - 사례 1b: 소스 제어에서 솔루션 열기
 
-    -   사례 1 c: 소스 제어에서 솔루션을 추가 합니다.
+    - 사례 1 c: 소스 제어에서 솔루션을 추가 합니다.
 
--   [테스트 영역 2: 소스 제어에서 가져오기](../../extensibility/internals/test-area-2-get-from-source-control.md)
+- [테스트 영역 2: 소스 제어에서 가져오기](../../extensibility/internals/test-area-2-get-from-source-control.md)
 
--   [테스트 영역 3: 체크 아웃/체크 아웃 취소](../../extensibility/internals/test-area-3-check-out-undo-checkout.md)
+- [테스트 영역 3: 체크 아웃/체크 아웃 취소](../../extensibility/internals/test-area-3-check-out-undo-checkout.md)
 
-    -   사례 3: 체크 아웃/체크 아웃 취소
+    - 사례 3: 체크 아웃/체크 아웃 취소
 
-    -   사례 3a: 체크 아웃
+    - 사례 3a: 체크 아웃
 
-    -   사례 3b: 오프 라인된 체크 아웃
+    - 사례 3b: 오프 라인된 체크 아웃
 
-    -   사례 3 c: 쿼리 편집/쿼리 저장 (QEQS)
+    - 사례 3 c: 쿼리 편집/쿼리 저장 (QEQS)
 
-    -   3d 경우: 자동 체크 아웃
+    - 3d 경우: 자동 체크 아웃
 
-    -   사례 3e: 체크 아웃 취소
+    - 사례 3e: 체크 아웃 취소
 
--   [테스트 영역 4: 체크인](../../extensibility/internals/test-area-4-check-in.md)
+- [테스트 영역 4: 체크인](../../extensibility/internals/test-area-4-check-in.md)
 
-    -   사례 4a: 수정 된 항목
+    - 사례 4a: 수정 된 항목
 
-    -   사례 4b: 파일 추가
+    - 사례 4b: 파일 추가
 
-    -   사례 4 c: 프로젝트를 추가합니다.
+    - 사례 4 c: 프로젝트를 추가합니다.
 
--   [테스트 영역 5: 소스 제어 변경](../../extensibility/internals/test-area-5-change-source-control.md)
+- [테스트 영역 5: 소스 제어 변경](../../extensibility/internals/test-area-5-change-source-control.md)
 
-    -   사례 5a: 바인딩
+    - 사례 5a: 바인딩
 
-    -   사례 5b: 바인딩 해제
+    - 사례 5b: 바인딩 해제
 
-    -   사례 5 c: 다시 바인딩
+    - 사례 5 c: 다시 바인딩
 
--   [테스트 영역 6: Delete](../../extensibility/internals/test-area-6-delete.md)
+- [테스트 영역 6: Delete](../../extensibility/internals/test-area-6-delete.md)
 
--   [테스트 영역 7: 공유](../../extensibility/internals/test-area-7-share.md)
+- [테스트 영역 7: 공유](../../extensibility/internals/test-area-7-share.md)
 
--   [테스트 영역 8: 플러그 인 전환](../../extensibility/internals/test-area-8-plug-in-switching.md)
+- [테스트 영역 8: 플러그 인 전환](../../extensibility/internals/test-area-8-plug-in-switching.md)
 
-    -   8a 사례: 자동 변경
+    - 8a 사례: 자동 변경
 
-    -   8b 사례: 솔루션 기반 변경
+    - 8b 사례: 솔루션 기반 변경
 
 ## <a name="see-also"></a>참고 항목
 - [소스 제어 플러그 인](../../extensibility/source-control-plug-ins.md)

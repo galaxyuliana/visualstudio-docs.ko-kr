@@ -13,18 +13,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 1d0ff9d8f3113b1df1e10891a3bd2197dd92482d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 50d307cd65bfdf534b6ca3586e69bbc27be25e36
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "58789902"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055387"
 ---
 # <a name="debug-uwp-apps-on-remote-machines-from-visual-studio"></a>Visual Studio에서 원격 컴퓨터에서 UWP 앱 디버그
 
 실행, 디버그, 프로필 및 다른 컴퓨터 또는 장치에서 유니버설 Windows 플랫폼 (UWP) 앱을 테스트 하려면 Visual Studio를 사용할 수 있습니다. 원격 컴퓨터에서 UWP 앱을 실행 중인 Visual Studio 컴퓨터는 터치, 지리적 위치, 실제 방향 등의 UWP 특정 기능을 지원 하지 않는 경우 특히 유용 합니다.
 
-##  <a name="BKMK_Prerequisites"></a> 필수 조건
+## <a name="BKMK_Prerequisites"></a> 필수 조건
 
 Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
 
@@ -35,7 +35,7 @@ Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
   - 시작 하 고 자동으로 원격 도구를 실행 하는 일부 Windows 10 버전입니다. 그렇지 않으면 [설치 하 고 Visual Studio 용 원격 도구를 실행](#BKMK_download)합니다.
   - Windows 10 모바일 장치 필요 하지 않거나 원격 도구를 지원 합니다.
 
-##  <a name="BKMK_ConnectVS"></a> 원격 디버깅을 위해 Visual Studio 프로젝트 구성
+## <a name="BKMK_ConnectVS"></a> 원격 디버깅을 위해 Visual Studio 프로젝트 구성
 <a name="BKMK_DirectConnect"></a> 프로젝트를 사용할 **속성** 연결할 원격 장치를 지정 합니다. 설정을 프로그래밍 언어에 따라 다릅니다.
 
 > [!CAUTION]
@@ -43,27 +43,27 @@ Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
 >
 >선택 하면 **Windows 인증** 에 대 한 합니다 **인증 유형을**를 디버깅할 때 원격 컴퓨터에 로그인 해야 합니다. 원격 디버거를 실행 해야 합니다 **Windows 인증** 모드, Visual Studio 컴퓨터와 동일한 사용자 계정입니다.
 
-###  <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> 구성 된 C# 또는 원격 디버깅을 위해 Visual Basic 프로젝트
+### <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> 구성 된 C# 또는 원격 디버깅을 위해 Visual Basic 프로젝트
 
 1. 선택 된 C# 또는 Visual Studio에서 Visual Basic 프로젝트 **솔루션 탐색기** 선택한는 **속성** 아이콘을 눌러 **Alt** +  **입력**를 마우스 오른쪽 단추로 클릭 하 고 선택 하거나 **속성**합니다.
 
-1.  **디버그** 탭을 선택합니다.
+1. **디버그** 탭을 선택합니다.
 
-1.  아래 **대상 장치**를 선택 **원격 컴퓨터** 원격 컴퓨터의 경우 또는 **장치** 직접 연결 된 Windows 10 Mobile 장치에 대 한 합니다.
+1. 아래 **대상 장치**를 선택 **원격 컴퓨터** 원격 컴퓨터의 경우 또는 **장치** 직접 연결 된 Windows 10 Mobile 장치에 대 한 합니다.
 
-1.  원격 컴퓨터에 대 한 네트워크 이름 또는 IP 주소를 입력 합니다 **원격 컴퓨터** 필드 또는 선택 **찾을** 장치에 대 한 검색할를 [원격 연결 대화 상자](#remote-connections).
+1. 원격 컴퓨터에 대 한 네트워크 이름 또는 IP 주소를 입력 합니다 **원격 컴퓨터** 필드 또는 선택 **찾을** 장치에 대 한 검색할를 [원격 연결 대화 상자](#remote-connections).
 
     ![원격 디버깅에 대 한 프로젝트 속성 관리](../debugger/media/vsrun_managed_projprop_remote.png "디버그 관리 되는 프로젝트 속성")
 
-###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> 구성 된 C++ 원격 디버깅을 위해 프로젝트
+### <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> 구성 된 C++ 원격 디버깅을 위해 프로젝트
 
-1.  선택 된 C++ Visual Studio에서 프로젝트 **솔루션 탐색기** 선택한는 **속성** 아이콘을 눌러 **Alt**+**Enter**를 마우스 오른쪽 단추로 클릭 하 고 선택 하거나 **속성**합니다.
+1. 선택 된 C++ Visual Studio에서 프로젝트 **솔루션 탐색기** 선택한는 **속성** 아이콘을 눌러 **Alt**+**Enter**를 마우스 오른쪽 단추로 클릭 하 고 선택 하거나 **속성**합니다.
 
-1.  선택 된 **디버깅** 탭 합니다.
+1. 선택 된 **디버깅** 탭 합니다.
 
-3.  아래 **실행할 디버거**를 선택 **원격 컴퓨터** 원격 컴퓨터의 경우 또는 **장치** 직접 연결 된 Windows 10 Mobile 장치에 대 한 합니다.
+3. 아래 **실행할 디버거**를 선택 **원격 컴퓨터** 원격 컴퓨터의 경우 또는 **장치** 직접 연결 된 Windows 10 Mobile 장치에 대 한 합니다.
 
-1.  원격 컴퓨터에 대 한 입력 또는 네트워크 이름 또는 IP 주소를 선택 합니다 **컴퓨터 이름** 필드 또는 드롭 다운 하 고 선택할 **찾기** 장치에 대 한 검색 하는 [원격 연결 대화 상자 ](#remote-connections).
+1. 원격 컴퓨터에 대 한 입력 또는 네트워크 이름 또는 IP 주소를 선택 합니다 **컴퓨터 이름** 필드 또는 드롭 다운 하 고 선택할 **찾기** 장치에 대 한 검색 하는 [원격 연결 대화 상자 ](#remote-connections).
 
     ![C++원격 디버깅에 대 한 속성을 프로젝트](../debugger/media/vsrun_cpp_projprop_remote.png " C++ 디버깅 프로젝트 속성")
 
@@ -92,7 +92,7 @@ Visual Studio에서 원격 장치에서 UWP 앱을 디버그 합니다.
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
-##  <a name="BKMK_RunRemoteDebug"></a> UWP 앱을 원격으로 디버그
+## <a name="BKMK_RunRemoteDebug"></a> UWP 앱을 원격으로 디버그
 
 원격 디버깅 로컬 디버깅으로 동일 하 게 작동 합니다.
 

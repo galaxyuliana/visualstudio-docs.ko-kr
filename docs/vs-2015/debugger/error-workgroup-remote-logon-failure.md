@@ -23,12 +23,12 @@ caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d0157b18c0b0dfce2ba69482dc1c61e1ddf3a996
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: bcca366cb06916811a66da9f168684e704c50714
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984780"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056007"
 ---
 # <a name="error-workgroup-remote-logon-failure"></a>오류: 작업 그룹 원격 로그온 실패
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,44 +41,44 @@ ms.locfileid: "58984780"
   
  이 오류는 작업 그룹의 컴퓨터에서 디버깅하는 경우 원격 컴퓨터에 연결할 때 발생할 수 있습니다. 이 오류가 발생하는 원인은 다음과 같습니다.  
   
--   원격 컴퓨터에 이름과 암호가 일치하는 계정이 없습니다.  
+- 원격 컴퓨터에 이름과 암호가 일치하는 계정이 없습니다.  
   
--   Visual Studio 컴퓨터와 원격 머신 둘 다 작업 그룹에 있는 경우 이 오류는 원격 머신의 기본 **로컬 보안 정책** 설정으로 인해 발생할 수 있습니다. **로컬 보안 정책**은 **게스트 전용 - 로컬 사용자를 게스트로 인증**으로 기본 설정되어 있습니다. 이 설정에서 디버깅하려면 원격 머신의 설정을 **클래식 - 로컬 사용자를 그대로 인증**으로 변경해야 합니다.  
+- Visual Studio 컴퓨터와 원격 머신 둘 다 작업 그룹에 있는 경우 이 오류는 원격 머신의 기본 **로컬 보안 정책** 설정으로 인해 발생할 수 있습니다. **로컬 보안 정책**은 **게스트 전용 - 로컬 사용자를 게스트로 인증**으로 기본 설정되어 있습니다. 이 설정에서 디버깅하려면 원격 머신의 설정을 **클래식 - 로컬 사용자를 그대로 인증**으로 변경해야 합니다.  
   
 > [!NOTE]
 >  다음 작업을 수행하려면 관리자 권한이 있어야 합니다.  
   
 ### <a name="to-open-the-local-security-policy-window"></a>로컬 보안 정책 창을 열려면  
   
-1.  **secpol.msc** MMC(Microsoft Management Console) 스냅인을 시작합니다. Windows 검색, Windows 실행 상자 또는 명령 프롬프트에 secpol.msc를 입력합니다.  
+1. **secpol.msc** MMC(Microsoft Management Console) 스냅인을 시작합니다. Windows 검색, Windows 실행 상자 또는 명령 프롬프트에 secpol.msc를 입력합니다.  
   
 ### <a name="to-add-user-rights-assignments"></a>사용자 권한 할당을 추가하려면  
   
-1.  로컬 보안 설정을 엽니다.  
+1. 로컬 보안 설정을 엽니다.  
   
-2.  **로컬 보안 정책** 창을 엽니다.  
+2. **로컬 보안 정책** 창을 엽니다.  
   
-3.  **로컬 정책** 폴더를 확장합니다.  
+3. **로컬 정책** 폴더를 확장합니다.  
   
-4.  **사용자 권한 할당**을 클릭합니다.  
+4. **사용자 권한 할당**을 클릭합니다.  
   
-5.  **정책** 열에서 **프로그램 디버그**를 두 번 클릭하여 **로컬 보안 설정** 대화 상자에서 현재 로컬 그룹 정책 할당 내용을 확인합니다.  
+5. **정책** 열에서 **프로그램 디버그**를 두 번 클릭하여 **로컬 보안 설정** 대화 상자에서 현재 로컬 그룹 정책 할당 내용을 확인합니다.  
   
      ![로컬 보안 정책 권한이](../debugger/media/dbg-err-localsecuritypolicy-userrightsdebugprograms.png "DBG_ERR_LocalSecurityPolicy_UserRightsDebugPrograms")  
   
-6.  새 사용자를 추가하려면 **사용자 또는 그룹 추가** 단추를 클릭합니다.  
+6. 새 사용자를 추가하려면 **사용자 또는 그룹 추가** 단추를 클릭합니다.  
   
 ### <a name="to-change-the-sharing-and-security-model"></a>공유 및 보안 모델을 변경하려면  
   
-1.  **로컬 보안 정책** 창을 엽니다.  
+1. **로컬 보안 정책** 창을 엽니다.  
   
-2.  **로컬 정책** 폴더를 확장합니다.  
+2. **로컬 정책** 폴더를 확장합니다.  
   
-3.  **보안 옵션**을 클릭합니다.  
+3. **보안 옵션**을 클릭합니다.  
   
-4.  에 **정책** 열을 두 번 클릭 **네트워크 액세스: 로컬 계정에 대 한 공유 및 보안 모델**합니다.  
+4. 에 **정책** 열을 두 번 클릭 **네트워크 액세스: 로컬 계정에 대 한 공유 및 보안 모델**합니다.  
   
-5.  에 **네트워크 액세스: 로컬 계정에 대 한 공유 및 보안 모델** 대화 상자에서 값을 변경 **클래식-로컬 사용자를 그대로 인증** 을 클릭 합니다 **적용** 단추입니다.  
+5. 에 **네트워크 액세스: 로컬 계정에 대 한 공유 및 보안 모델** 대화 상자에서 값을 변경 **클래식-로컬 사용자를 그대로 인증** 을 클릭 합니다 **적용** 단추입니다.  
   
      ![로컬 보안 정책 보안 옵션](../debugger/media/dbg-err-localsecuritypolicy-securityoptions-networkaccess.png "DBG_ERR_LocalSecurityPolicy_SecurityOptions_NetworkAccess")  
   

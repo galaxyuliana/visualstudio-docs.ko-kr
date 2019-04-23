@@ -12,12 +12,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c723e0a2cc76b6432fc6f209a7edf4a988a0b3fd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 24ef57b545360cccbf75039b5f64a0f53e636dd8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985547"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059905"
 ---
 # <a name="event-handlers-propagate-changes-outside-the-model"></a>이벤트 처리기로 모델 외부의 변경 내용 전파
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,13 +30,13 @@ Visualization and Modeling SDK에서와 같은 비 저장소 변수, 파일, 다
   
 1. 모니터링 하려는 이벤트의 유형을 선택 합니다. 속성 전체 목록을 살펴볼 <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>합니다. 각 속성은 이벤트의 형식에 해당 합니다. 가장 자주 유형은 이벤트를 사용 합니다.  
   
-   -   `ElementAdded` – 트리거될 때 모델 요소 링크 관계, 모양 또는 커넥터 생성 됩니다.  
+   - `ElementAdded` – 트리거될 때 모델 요소 링크 관계, 모양 또는 커넥터 생성 됩니다.  
   
-   -   ElementPropertyChanged – 트리거되는 경우의 값을 `Normal` 도메인 속성이 변경 될 합니다. 이전 및 새 값을 같지 않은 경우에 이벤트가 트리거될 수 있습니다. 이 이벤트는 계산 및 사용자 지정 저장소 속성에 적용할 수 없습니다.  
+   - ElementPropertyChanged – 트리거되는 경우의 값을 `Normal` 도메인 속성이 변경 될 합니다. 이전 및 새 값을 같지 않은 경우에 이벤트가 트리거될 수 있습니다. 이 이벤트는 계산 및 사용자 지정 저장소 속성에 적용할 수 없습니다.  
   
         관계 링크에 해당 하는 역할 속성에 적용할 수 없습니다. 대신 `ElementAdded` 도메인 관계를 모니터링 합니다.  
   
-   -   `ElementDeleted` – 모델 요소 후에 트리거된, 관계, 모양 또는 커넥터 삭제 되었습니다. 요소의 속성 값을 계속 액세스할 수 있습니다 하지만 관계가 없으면 다른 요소에 더 합니다.  
+   - `ElementDeleted` – 모델 요소 후에 트리거된, 관계, 모양 또는 커넥터 삭제 되었습니다. 요소의 속성 값을 계속 액세스할 수 있습니다 하지만 관계가 없으면 다른 요소에 더 합니다.  
   
 2. 에 대 한 partial 클래스 정의 추가 _YourDsl_**DocData** 별도 코드 파일에는 **DslPackage** 프로젝트입니다.  
   
@@ -166,11 +166,11 @@ private static void AlbumTitleAdjuster(object sender,
   
  이벤트를 작성 하는 경우 저장소를 업데이트 하는:  
   
--   사용 하 여 `store.InUndoRedoOrRollback` 실행 취소의 모델 요소를 변경 하지 않아도 됩니다. 트랜잭션 관리자를 원래 상태로 다시 저장소에 모든를 설정 합니다.  
+- 사용 하 여 `store.InUndoRedoOrRollback` 실행 취소의 모델 요소를 변경 하지 않아도 됩니다. 트랜잭션 관리자를 원래 상태로 다시 저장소에 모든를 설정 합니다.  
   
--   사용 하 여 `store.InSerializationTransaction` 모델 파일에서 로드 되는 동안 변경 하지 않아도 됩니다.  
+- 사용 하 여 `store.InSerializationTransaction` 모델 파일에서 로드 되는 동안 변경 하지 않아도 됩니다.  
   
--   변경 내용을 추가를 트리거할 이벤트를 발생 됩니다. 무한 루프를 방지 하는 있는지 확인 합니다.  
+- 변경 내용을 추가를 트리거할 이벤트를 발생 됩니다. 무한 루프를 방지 하는 있는지 확인 합니다.  
   
 ## <a name="store-event-types"></a>저장소 이벤트 유형  
  각 이벤트 유형에 Store.EventManagerDirectory에서 컬렉션에 해당합니다. 추가 하거나 언제 든 지 이벤트 처리기를 제거할 수 있습니다 하지만 일반적인 문서를 로드 하는 경우에 추가 하는 것입니다.  

@@ -14,12 +14,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2290ec08ea64a2775b3e4ced171dbf14399219cb
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 37fa7bafb77c67d29ff9625fa04388f9dd826f8e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002448"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059268"
 ---
 # <a name="run-time-text-generation-with-t4-text-templates"></a>T4 텍스트 템플릿을 사용하여 런타임 텍스트 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,16 +53,16 @@ This report is Company Confidential.
   
 #### <a name="to-create-a-run-time-text-template"></a>런타임 텍스트 템플릿을 만들려면  
   
-1.  솔루션 탐색기에서 프로젝트의 바로 가기 메뉴 선택 **추가**하십시오 **새 항목**합니다.  
+1. 솔루션 탐색기에서 프로젝트의 바로 가기 메뉴 선택 **추가**하십시오 **새 항목**합니다.  
   
-2.  에 **새 항목 추가** 대화 상자에서 **런타임 텍스트 템플릿**합니다. (에 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 아래에서 확인 **일반적인 Items\General**.)  
+2. 에 **새 항목 추가** 대화 상자에서 **런타임 텍스트 템플릿**합니다. (에 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 아래에서 확인 **일반적인 Items\General**.)  
   
-3.  템플릿 파일의 이름을 입력 합니다.  
+3. 템플릿 파일의 이름을 입력 합니다.  
   
     > [!NOTE]
     >  템플릿 파일 이름이 생성된 된 코드에서 클래스 이름으로 사용 됩니다. 따라서 공백이 나 문장 부호가 것이 없어야 합니다.  
   
-4.  **추가**를 선택합니다.  
+4. **추가**를 선택합니다.  
   
      새 파일 확장명을 가진 만들어집니다 **.tt**합니다. 해당 **사용자 지정 도구** 속성이 **TextTemplatingFilePreprocessor**합니다. 다음 줄을 포함합니다.  
   
@@ -79,18 +79,18 @@ This report is Company Confidential.
   
 #### <a name="to-convert-an-existing-text-file-to-a-run-time-template"></a>기존 텍스트 파일을 런타임에 템플릿으로 변환 하려면  
   
-1.  로 파일을 포함 하면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트입니다. 솔루션 탐색기에서 프로젝트의 바로 가기 메뉴 선택 **추가**하십시오 **기존 항목**합니다.  
+1. 로 파일을 포함 하면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트입니다. 솔루션 탐색기에서 프로젝트의 바로 가기 메뉴 선택 **추가**하십시오 **기존 항목**합니다.  
   
-2.  파일의 설정 **사용자 지정 도구** 속성을 **TextTemplatingFilePreprocessor**합니다. 솔루션 탐색기에서 파일의 바로 가기 메뉴 선택 **속성**합니다.  
+2. 파일의 설정 **사용자 지정 도구** 속성을 **TextTemplatingFilePreprocessor**합니다. 솔루션 탐색기에서 파일의 바로 가기 메뉴 선택 **속성**합니다.  
   
     > [!NOTE]
     >  속성이 이미 있는지 확인 하십시오 **TextTemplatingFilePreprocessor** 아니라 **TextTemplatingFileGenerator**합니다. 이 확장에 이미 있는 파일을 포함 하는 경우 발생할 수 있습니다 **.tt**합니다.  
   
-3.  파일 이름 확장명을 변경 **.tt**합니다. 이 단계는 선택 사항, 있지만 잘못 된 편집기에서 파일을 열고 않을 수 있습니다.  
+3. 파일 이름 확장명을 변경 **.tt**합니다. 이 단계는 선택 사항, 있지만 잘못 된 편집기에서 파일을 열고 않을 수 있습니다.  
   
-4.  파일 이름의 주요 부분에서 공백 또는 문장 부호를 제거 합니다. 예를 들어 "내 웹 Page.tt"의 잘못 되지 것 이지만 "MyWebPage.tt" 올바른 있습니다. 파일 이름은 생성된 된 코드에서 클래스 이름으로 사용 됩니다.  
+4. 파일 이름의 주요 부분에서 공백 또는 문장 부호를 제거 합니다. 예를 들어 "내 웹 Page.tt"의 잘못 되지 것 이지만 "MyWebPage.tt" 올바른 있습니다. 파일 이름은 생성된 된 코드에서 클래스 이름으로 사용 됩니다.  
   
-5.  파일의 시작 부분에 다음 줄을 삽입 합니다. Visual Basic 프로젝트에서 작업 하는 경우 대체 "C#" "VB"를 사용 하 여 합니다.  
+5. 파일의 시작 부분에 다음 줄을 삽입 합니다. Visual Basic 프로젝트에서 작업 하는 경우 대체 "C#" "VB"를 사용 하 여 합니다.  
   
      `<#@ template language="C#" #>`  
   

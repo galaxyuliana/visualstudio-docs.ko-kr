@@ -15,12 +15,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 574b480cbdce0f038ba4d94be6dc2ba9cf46726c
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 7a39b6f84185c78ccea11e09e628050a6bf4f601
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660296"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053402"
 ---
 # <a name="immediate-window"></a>직접 실행 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -118,9 +118,9 @@ ms.locfileid: "59660296"
   
 #### <a name="to-toggle-first-chance-exception-notifications-in-the-immediate-window"></a>직접 실행 창에서 첫째 예외 알림을 전환하려면  
   
-1.  **보기** 메뉴에서 **기타 창**을 클릭하고 **출력**을 클릭합니다.  
+1. **보기** 메뉴에서 **기타 창**을 클릭하고 **출력**을 클릭합니다.  
   
-2.  **출력** 창의 텍스트 영역을 마우스 오른쪽 단추로 클릭하고 **예외 메시지**를 선택 또는 선택 취소합니다.  
+2. **출력** 창의 텍스트 영역을 마우스 오른쪽 단추로 클릭하고 **예외 메시지**를 선택 또는 선택 취소합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Navigating through Code with the Debugger](../../debugger/navigating-through-code-with-the-debugger.md) (디버거로 코드 탐색)  

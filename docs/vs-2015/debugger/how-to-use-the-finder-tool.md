@@ -11,12 +11,12 @@ caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 780cbcf5c6e03c5534b7f2125662696344e9cec4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c14fdcc5d58c62eebf993ba336a109adac5b7106
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981829"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053769"
 ---
 # <a name="how-to-use-the-finder-tool"></a>방법: 찾기 도구 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,13 +30,13 @@ ms.locfileid: "58981829"
   
 ### <a name="to-display-window-properties-or-messages"></a>창 속성 또는 메시지를 표시 하려면  
   
-1.  Spy + + 및 대상 창 표시 되도록 창을 정렬 합니다.  
+1. Spy + + 및 대상 창 표시 되도록 창을 정렬 합니다.  
   
-2.  **Spy** 메뉴 선택 **창 찾기**합니다.  
+2. **Spy** 메뉴 선택 **창 찾기**합니다.  
   
      합니다 [창 찾기 대화 상자](../debugger/find-window-dialog-box.md) 열립니다.  
   
-3.  끌기 합니다 **찾기 도구** 대상 창에 대 한 합니다.  
+3. 끌기 합니다 **찾기 도구** 대상 창에 대 한 합니다.  
   
      도구를 끌면 합니다 **창 찾기** 대화 상자는 선택 된 창의 세부 정보가 표시 됩니다.  
   
@@ -47,9 +47,9 @@ ms.locfileid: "58981829"
     > [!TIP]
     >  화면이 혼란을 줄이기 위해 선택 된 **spy + + 숨기기** 옵션입니다. 이 옵션은 Spy + +의 주 창을 남아 숨기고 합니다 **창 찾기** 대화 상자를 다른 응용 프로그램을 기반으로 표시 합니다. Spy + + 주 창을 클릭할 때 복원 됩니다 **확인** 또는 **취소**, 선택을 취소 하면 또는 **Spy + + 숨기기** 옵션입니다.  
   
-4.  아래 **표시**, 선택 **속성** 하거나 **메시지**.  
+4. 아래 **표시**, 선택 **속성** 하거나 **메시지**.  
   
-5.  **확인**을 누릅니다.  
+5. **확인**을 누릅니다.  
   
      선택한 경우 **속성**서 [창 속성 대화 상자](../debugger/window-properties-dialog-box.md) 열립니다. 선택한 경우 **메시지**, [메시지 보기](../debugger/messages-view.md) 창이 열립니다.  
   

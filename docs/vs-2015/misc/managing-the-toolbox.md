@@ -10,12 +10,12 @@ helpviewer_keywords:
 ms.assetid: 3b052047-f6db-46dd-b3bf-da1c348ee410
 caps.latest.revision: 33
 manager: jillfra
-ms.openlocfilehash: e0e4c47ebeece4720a80b50a4f95921e204dbca6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ba4b166cc409dd2c50c258a9b82ee34c22e9b084
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981920"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054770"
 ---
 # <a name="managing-the-toolbox"></a>Managing the Toolbox
 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 에서는 편집기 또는 디자이너와 같은 VSPackage로 **도구 상자**의 멤버 자격과 모양을 관리할 수 있습니다.  
@@ -27,9 +27,9 @@ ms.locfileid: "58981920"
   
  이 지원은 다음이 필요한 편집기 및 디자이너로 제한됩니다.  
   
-1.  편집기 또는 디자이너의 인스턴스를 제공하는 팩터리 개체 구현. 디자이너 또는 편집기 팩터리 개체를 구현하는 방법에 대한 자세한 내용은 [Editor Factories](../extensibility/editor-factories.md)를 참조하세요.  
+1. 편집기 또는 디자이너의 인스턴스를 제공하는 팩터리 개체 구현. 디자이너 또는 편집기 팩터리 개체를 구현하는 방법에 대한 자세한 내용은 [Editor Factories](../extensibility/editor-factories.md)를 참조하세요.  
   
-2.  편집기 또는 디자이너가 있으면 자동으로 활성화되는 도구 상자 탭 등록.  
+2. 편집기 또는 디자이너가 있으면 자동으로 활성화되는 도구 상자 탭 등록.  
   
 ## <a name="controlling-the-toolbox"></a>도구 상자 제어  
  자동화 지원을 보완하기 위해 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 에서는 VSPackage가 **도구 상자** 의 관리 방법을 보다 완벽하게 제어할 수 있도록 하는 다음 인터페이스를 제공됩니다.  

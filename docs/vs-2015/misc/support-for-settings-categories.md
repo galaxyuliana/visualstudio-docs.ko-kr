@@ -10,12 +10,12 @@ helpviewer_keywords:
 ms.assetid: 3bac375d-8bd5-41be-a8de-32eb33c5cfac
 caps.latest.revision: 20
 manager: jillfra
-ms.openlocfilehash: b37fe476c7654cc21a3b81f4a68aa4abc0348bb1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 833783267c70c0a201e4b84bc5031bce517dc0a2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980891"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054484"
 ---
 # <a name="support-for-settings-categories"></a>설정 범주에 대한 지원
 설정 범주는 IDE(통합 개발 환경)를 사용자 지정하는 옵션 그룹으로 구성됩니다. 예를 들어 설정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창의 레이아웃과 메뉴의 내용을 제어할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
@@ -29,11 +29,11 @@ ms.locfileid: "58980891"
   
  MPF(Managed Package Framework)는 최소한의 추가 코드로 설정 범주를 만들도록 지원합니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Package> 클래스의 서브클래스를 지정하여 범주에 대한 컨테이너를 제공하려면 VSPackage를 만듭니다.  
+- <xref:Microsoft.VisualStudio.Shell.Package> 클래스의 서브클래스를 지정하여 범주에 대한 컨테이너를 제공하려면 VSPackage를 만듭니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.DialogPage> 클래스에서 파생시켜 범주 자체를 만듭니다.  
+- <xref:Microsoft.VisualStudio.Shell.DialogPage> 클래스에서 파생시켜 범주 자체를 만듭니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>로 둘을 연결합니다.  
+- <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>로 둘을 연결합니다.  
   
 ## <a name="support-for-settings-categories"></a>설정 범주에 대한 지원  
  <xref:Microsoft.VisualStudio.Shell.Package> 클래스는 범주 만들기 지원을 제공합니다. <xref:Microsoft.VisualStudio.Shell.DialogPage> 클래스는 범주를 구현합니다. <xref:Microsoft.VisualStudio.Shell.DialogPage>의 기본 구현은 public 속성을 범주로서 사용자에게 제공합니다. 자세한 내용은 [Creating a Settings Category](../extensibility/creating-a-settings-category.md)을 참조하세요.  

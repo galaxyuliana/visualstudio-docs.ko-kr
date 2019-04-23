@@ -21,12 +21,12 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 55ccb6ffd319f725fade42a6e8490f0b0dc22b0f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ece89b3e05e775b5aea50be3643653b258667935
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980988"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055108"
 ---
 # <a name="how-to-debug-inline-assembly-code"></a>방법: 인라인 어셈블리 코드 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,9 +40,9 @@ ms.locfileid: "58980988"
   
 #### <a name="to-debug-inline-assembly-code"></a>인라인 어셈블리 코드를 디버깅하려면  
   
-1.  **디스어셈블리** 창을 사용하여 어셈블리 명령을 확인합니다.  
+1. **디스어셈블리** 창을 사용하여 어셈블리 명령을 확인합니다.  
   
-2.  등록 내용은 **레지스터** 창을 참조하십시오.  
+2. 등록 내용은 **레지스터** 창을 참조하십시오.  
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 보안](../debugger/debugger-security.md)   

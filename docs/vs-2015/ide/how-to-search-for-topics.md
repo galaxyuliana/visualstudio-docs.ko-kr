@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b784dc20f072a7cb8ab6ed80242c09e57ce1127a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 04867207ee8510a99ec19dc3f32175abedb39bf9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54799082"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054640"
 ---
 # <a name="how-to-search-for-topics"></a>방법: 항목 검색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,24 +23,24 @@ ms.locfileid: "54799082"
   
 ### <a name="to-open-the-search-tab"></a>검색 탭을 열려면  
   
--   선택 된 **검색** 도움말 뷰어 창에서 탭 하거나 Ctrl + E 키입니다.  
+- 선택 된 **검색** 도움말 뷰어 창에서 탭 하거나 Ctrl + E 키입니다.  
   
 ### <a name="to-perform-a-full-text-search"></a>전체 텍스트 검색을 수행하려면  
   
-1.  검색 상자에서 찾으려는 단어를 입력합니다.  
+1. 검색 상자에서 찾으려는 단어를 입력합니다.  
   
-2.  검색 쿼리에서 검색에 적용할 논리 또는 고급 검색 연산자를 지정합니다(있는 경우). 사용 가능한 모든 도움말을 검색하려면 연산자를 사용하지 마세요.  
+2. 검색 쿼리에서 검색에 적용할 논리 또는 고급 검색 연산자를 지정합니다(있는 경우). 사용 가능한 모든 도움말을 검색하려면 연산자를 사용하지 마세요.  
   
     > [!NOTE]
     >  **뷰어 옵션** 대화 상자에서 한번에 표시할 최대 검색 결과 수 등의 추가 기본 설정과 기본 로캘이 영어가 아닌 경우 영어 콘텐츠를 포함할지 지정할 수 있습니다.  
   
-3.  Enter 키를 선택합니다.  
+3. Enter 키를 선택합니다.  
   
      검색은 기본적으로 최대 200개의 결과를 반환하며 검색 결과 영역에 표시합니다.  
   
      각 결과에 대한 추가 버전 정보가 콘텐츠에 따라 나타날 수 있습니다.  
   
-4.  항목을 보려면 결과 목록에서 해당 제목을 선택합니다.  
+4. 항목을 보려면 결과 목록에서 해당 제목을 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [전체 텍스트 검색 팁](../ide/full-text-search-tips.md)   

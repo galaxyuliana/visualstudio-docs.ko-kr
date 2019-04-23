@@ -9,12 +9,12 @@ helpviewer_keywords:
 ms.assetid: 4cdf5ab5-9f09-4caf-9011-2dcb2c62f1b7
 caps.latest.revision: 14
 manager: jillfra
-ms.openlocfilehash: 0161b3e44b44567166a337d94101778074561e80
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 1c1fb48e4bb354ef403b39b0f1320ead92f43967
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981921"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054369"
 ---
 # <a name="how-to-use-getglobalservice"></a>방법: Use GetGlobalService
 경우에 따라 도구 창에서 서비스 가져오기 또는 배치 되지 않습니다. 그러지 않으면 요소가 서비스를 알지 못하는 서비스 공급자를 사용 하 여 배치 된 컨테이너를 제어 해야 합니다. 예를 들어, 다음 컨트롤 내에서 활동 로그에 작성 하는 것이 좋습니다. 이러한 및 기타 시나리오에 대 한 자세한 내용은 참조 하세요. [방법: 서비스 문제 해결](../extensibility/how-to-troubleshoot-services.md)합니다.  
@@ -25,15 +25,15 @@ ms.locfileid: "58981921"
   
  다행 스럽게도 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 대부분의 경우 올바르게 작동 합니다.  
   
--   다른 VSPackage에만 알려진 서비스를 제공 하는 VSPackage를 해당 서비스를 요청 하는 VSPackage는 VSPackage 서비스가 로드를 제공 하기 전에 배치 됩니다.  
+- 다른 VSPackage에만 알려진 서비스를 제공 하는 VSPackage를 해당 서비스를 요청 하는 VSPackage는 VSPackage 서비스가 로드를 제공 하기 전에 배치 됩니다.  
   
--   VSPackage에서 도구 창을 만들어지면 VSPackage는 도구 창이 생성 되기 전에 배치 됩니다.  
+- VSPackage에서 도구 창을 만들어지면 VSPackage는 도구 창이 생성 되기 전에 배치 됩니다.  
   
--   컨트롤 컨테이너는 VSPackage에서 만든 도구 창에서 호스트 되는 경우 VSPackage 컨트롤 컨테이너를 만들기 전에 배치 됩니다.  
+- 컨트롤 컨테이너는 VSPackage에서 만든 도구 창에서 호스트 되는 경우 VSPackage 컨트롤 컨테이너를 만들기 전에 배치 됩니다.  
   
 ### <a name="to-get-a-service-from-within-a-tool-window-or-control-container"></a>도구 창 또는 컨트롤 컨테이너 내에서 서비스를 가져오는  
   
--   생성자, 도구 창 또는 컨트롤 컨테이너에이 코드를 삽입 합니다.  
+- 생성자, 도구 창 또는 컨트롤 컨테이너에이 코드를 삽입 합니다.  
   
      [!code-csharp[UseGetGlobalService#1](../snippets/csharp/VS_Snippets_VSSDK/usegetglobalservice/cs/getglobalservicepackage.cs#1)]
      [!code-vb[UseGetGlobalService#1](../snippets/visualbasic/VS_Snippets_VSSDK/usegetglobalservice/vb/getglobalservicepackage.vb#1)]  

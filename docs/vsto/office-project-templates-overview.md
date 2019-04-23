@@ -30,12 +30,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c64fac3e69a1b7678b9583f8529dd7b94201932e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 49cb0af47f34abbda5bd212d8ce535e98c44d6b5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614690"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054575"
 ---
 # <a name="office-project-templates-overview"></a>Office 프로젝트 템플릿 개요
   Visual Studio의 Microsoft Office 개발자 도구에는 다음 형식의 Office 솔루션을 만들기 위한 프로젝트 템플릿이 포함되어 있습니다.
@@ -53,7 +53,7 @@ ms.locfileid: "56614690"
 > [!NOTE]
 > Office 개발 도구는 일부 버전의 Visual Studio에 포함되어 있습니다. 자세한 내용은 [Office 솔루션을 개발 하도록 컴퓨터를 구성](../vsto/configuring-a-computer-to-develop-office-solutions.md)합니다.
 
-##  <a name="DocLevel"></a> 문서 수준 사용자 지정
+## <a name="DocLevel"></a> 문서 수준 사용자 지정
  **새 프로젝트** 대화 상자의 **Office** 노드에는 Word 및 Excel용 문서 수준 사용자 지정을 만들 때 기초로 사용할 수 있는 프로젝트 템플릿이 있습니다.
 
 - **Word 2013 및 2016 VSTO 문서**
@@ -81,17 +81,17 @@ ms.locfileid: "56614690"
 
  이러한 프로젝트 형식에 대한 기초적인 내용은 다음 항목을 참조하십시오.
 
--   [문서 수준 사용자 지정 프로그래밍](../vsto/programming-document-level-customizations.md)
+- [문서 수준 사용자 지정 프로그래밍](../vsto/programming-document-level-customizations.md)
 
--   [Word 솔루션](../vsto/word-solutions.md)
+- [Word 솔루션](../vsto/word-solutions.md)
 
--   [Excel 솔루션](../vsto/excel-solutions.md)
+- [Excel 솔루션](../vsto/excel-solutions.md)
 
--   [연습: Word 용 첫 문서 수준 사용자 지정 만들기](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
+- [연습: Word 용 첫 문서 수준 사용자 지정 만들기](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
 
--   [연습: Excel 용 첫 문서 수준 사용자 지정 만들기](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)
+- [연습: Excel 용 첫 문서 수준 사용자 지정 만들기](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)
 
-##  <a name="AppLevel"></a> VSTO 추가 기능
+## <a name="AppLevel"></a> VSTO 추가 기능
  **새 프로젝트** 대화 상자의 **Office/SharePoint** 노드에는 VSTO 추가 기능을 만들기 시작할 때 사용할 수 있는 다음과 같은 프로젝트 템플릿이 있습니다.
 
 - **Excel 2013 및 2016 VSTO 추가 기능**
@@ -157,7 +157,7 @@ ms.locfileid: "56614690"
 |문서가 읽기 전용으로 설정되어 있지 않은 경우 사용자가 문서를 열고 수정할 수 있습니다. 변경 사항을 저장하면 원본 문서에 저장됩니다.|사용자는 서식 파일을 열고 새 문서로 로컬 복사본을 만들 수 있습니다. 특별한 권한이 없으면 원본을 수정할 수 없습니다.|
 |문서를 열면 <xref:Microsoft.Office.Tools.Word.Document.Open> 이벤트가 발생합니다.|서식 파일을 열면 <xref:Microsoft.Office.Tools.Word.Document.New> 이벤트가 발생합니다.|
 
-##  <a name="Limitations"></a> 전역 서식 파일 및 Excel 추가 기능 (.xla 파일)의 제한 사항
+## <a name="Limitations"></a> 전역 서식 파일 및 Excel 추가 기능 (.xla 파일)의 제한 사항
  문서, 통합 문서 및 서식 파일은 전역 서식 파일이나 Excel VSTO 추가 기능(.xla 파일)으로 제대로 작동하지 않을 수 있습니다.
 
 ## <a name="word-templates"></a>Word 서식 파일

@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2ae3ee33f47a60a74148698424ad58397e0cb577
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0187f7dede25900cdf3a78fdbfe2899e5f318472
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984662"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60043447"
 ---
 # <a name="install-a-uml-profile"></a>UML 프로필 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,21 +29,21 @@ UML 프로필을 통해 Visual Studio를 확장할 수 있습니다. 프로필�
   
 ### <a name="to-install-a-uml-profile-on-your-computer"></a>컴퓨터에 UML 프로필을 설치하려면  
   
-1.  프로필이 Visual Studio 확장(`.vsix`) 파일 형식으로 제공되어야 합니다. 동일한 파일에 다른 기능이 있을 수도 있습니다.  
+1. 프로필이 Visual Studio 확장(`.vsix`) 파일 형식으로 제공되어야 합니다. 동일한 파일에 다른 기능이 있을 수도 있습니다.  
   
      `.vsix` 파일을 컴퓨터의 편리한 위치로 이동합니다.  
   
-2.  Windows 탐색기(또는 파일 탐색기)에서 `.vsix` 파일을 두 번 클릭하거나 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 내에서 엽니다.  
+2. Windows 탐색기(또는 파일 탐색기)에서 `.vsix` 파일을 두 번 클릭하거나 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 내에서 엽니다.  
   
-3.  클릭 **설치** 나타나는 대화 상자에서.  
+3. 클릭 **설치** 나타나는 대화 상자에서.  
   
-4.  열을 제거 하거나 일시적으로 확장을 사용 하지 않도록 설정 하려면 **확장 관리자** 에서 합니다 **도구** 메뉴.  
+4. 열을 제거 하거나 일시적으로 확장을 사용 하지 않도록 설정 하려면 **확장 관리자** 에서 합니다 **도구** 메뉴.  
   
 ### <a name="to-uninstall-or-disable-a-profile-extension"></a>프로필 확장을 제거하거나 사용하지 않도록 설정하려면  
   
-1.  Visual studio **도구가** 메뉴에서 클릭 **확장 관리자**합니다.  
+1. Visual studio **도구가** 메뉴에서 클릭 **확장 관리자**합니다.  
   
-2.  확장을 제거 하 고 클릭 한 다음 클릭 **사용 안 함** 또는 **제거**합니다.  
+2. 확장을 제거 하 고 클릭 한 다음 클릭 **사용 안 함** 또는 **제거**합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [프로필 및 스테레오 타입을 사용 하 여 모델 사용자 지정](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   

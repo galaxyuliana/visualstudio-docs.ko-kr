@@ -27,12 +27,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a233518f34fdafdb45822f4bc12c3edc452f50cb
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 39cdb98f14823b02c8d4d2b60575eddca6da0420
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598858"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055356"
 ---
 # <a name="windows-forms-controls-on-office-documents-overview"></a>Windows Forms 컨트롤에 대 한 Office 문서 개요
   Windows Forms 컨트롤은 사용자가 데이터를 입력하거나 조작하는 데 사용할 수 있는 개체입니다. Microsoft Office Excel 및 Microsoft Office Word 용 문서 수준 프로젝트에서는 디자인 타임에 프로젝트에서 Windows Forms 컨트롤을 문서 또는 통합 문서를 추가할 수 또는 런타임 시 이러한 컨트롤을 프로그래밍 방식으로 추가할 수 있습니다. Excel 또는 Word에 대 한 열려 있는 문서 또는 VSTO 추가 기능에서 런타임에 워크시트에 이러한 컨트롤을 프로그래밍 방식으로 추가할 수 있습니다.
@@ -42,19 +42,20 @@ ms.locfileid: "56598858"
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]
 
 ## <a name="use-windows-forms-controls"></a>Windows Forms 컨트롤 사용
- 작업 창, 사용자 지정 작업창 및 Windows Forms 등의 사용자 지정 가능한 UI(사용자 인터페이스) 요소 및 문서에 Windows Forms 컨트롤을 추가할 수 있습니다. Windows Forms 컨트롤은 문서에서 일반적으로 다른 UI 요소와 동일한 동작을 수행하지만 몇 가지 차이점이 있습니다. 정보를 참조 하세요 [Office 문서의 Windows Forms의 제한 사항 제어](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)입니다.
 
- Windows Forms 컨트롤을 문서에 추가할지 또는 기타 다른 UI 요소에 추가할지에 대한 결정은 여러 가지 요인에 따라 달라집니다. 솔루션의 UI를 디자인할 때는 다음 표에 설명된 Windows Forms 컨트롤의 용도를 고려해야 합니다.
+작업 창, 사용자 지정 작업창 및 Windows Forms 등의 사용자 지정 가능한 UI(사용자 인터페이스) 요소 및 문서에 Windows Forms 컨트롤을 추가할 수 있습니다. Windows Forms 컨트롤은 문서에서 일반적으로 다른 UI 요소와 동일한 동작을 수행하지만 몇 가지 차이점이 있습니다. 정보를 참조 하세요 [Office 문서의 Windows Forms의 제한 사항 제어](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)입니다.
 
- 문서에서
- -   항상 컨트롤을 표시하려는 경우
+Windows Forms 컨트롤을 문서에 추가할지 또는 기타 다른 UI 요소에 추가할지에 대한 결정은 여러 가지 요인에 따라 달라집니다. 솔루션의 UI를 디자인할 때는 다음 표에 설명된 Windows Forms 컨트롤의 용도를 고려해야 합니다.
+
+문서에서
+- 항상 컨트롤을 표시하려는 경우
 
 - 사용자가 문서(예: 편집 화면이 잠긴 폼 기반 문서)에 직접 데이터를 입력하도록 하려는 경우
 
 - 컨트롤을 문서의 데이터에 맞춰 표시하려는 경우. 예를 들어 목록 개체의 각 행에 단추를 추가하는 경우 각 목록 항목에 맞추려고 할 수 있습니다.
 
-  작업 창 또는 사용자 지정 작업창에서
-  -   사용자에게 상황에 맞는 정보를 제공하려는 경우
+작업 창 또는 사용자 지정 작업창에서
+- 사용자에게 상황에 맞는 정보를 제공하려는 경우
 
 - 문서에 쿼리 컨트롤 및 데이터를 제외한 결과만 표시하려는 경우
 
@@ -62,8 +63,8 @@ ms.locfileid: "56598858"
 
 - 문서를 볼 때 컨트롤이 방해되지 않도록 설정하려는 경우
 
-  Windows Form에서
-  -   UI의 크기를 제어하려는 경우
+Windows Form에서
+- UI의 크기를 제어하려는 경우
 
 - 사용자가 컨트롤을 숨기거나 삭제하지 못하게 하려는 경우
 
@@ -80,32 +81,32 @@ ms.locfileid: "56598858"
 ### <a name="create-custom-user-controls"></a>사용자 지정 사용자 컨트롤 만들기
  프로젝트에 사용자 정의 컨트롤을 추가한 다음 **도구 상자**에 추가합니다. 그런 다음 Windows Forms 컨트롤을 문서에 추가할 때와 같은 방법으로 문서에 사용자 정의 컨트롤을 직접 끌어 놓을 수 있습니다. 다음은 사용자 정의 컨트롤을 만들 때 기억해야 할 몇 가지 사항들입니다.
 
--   **sealed** 사용자 정의 컨트롤을 만들지 마세요. 컨트롤을 문서로 끌어 오는 경우 Visual Studio에서는 사용자 정의 컨트롤에서 파생된 래퍼 클래스를 생성하여 확장하고 해당 문서에서 사용할 수 있도록 지원합니다. 사용자 정의 컨트롤이 **sealed**인 경우 Visual Studio에서 래퍼 클래스를 생성할 수 없습니다.
+- **sealed** 사용자 정의 컨트롤을 만들지 마세요. 컨트롤을 문서로 끌어 오는 경우 Visual Studio에서는 사용자 정의 컨트롤에서 파생된 래퍼 클래스를 생성하여 확장하고 해당 문서에서 사용할 수 있도록 지원합니다. 사용자 정의 컨트롤이 **sealed**인 경우 Visual Studio에서 래퍼 클래스를 생성할 수 없습니다.
 
--   사용자 정의 컨트롤에는 <xref:System.Runtime.InteropServices.ComVisibleAttribute> 로 설정된 **T:System.Runtime.InteropServices.ComVisibleAttribute**을 참조하세요. Office 프로젝트 내에서 만들어진 사용자 정의 컨트롤에서는 이 특성이 기본적으로 **true** 로 설정되지만 외부 프로젝트의 일부인 사용자 정의 컨트롤에서는 이 특성이 **true**로 설정되지 않을 수 있습니다.
+- 사용자 정의 컨트롤에는 <xref:System.Runtime.InteropServices.ComVisibleAttribute> 로 설정된 **T:System.Runtime.InteropServices.ComVisibleAttribute**을 참조하세요. Office 프로젝트 내에서 만들어진 사용자 정의 컨트롤에서는 이 특성이 기본적으로 **true** 로 설정되지만 외부 프로젝트의 일부인 사용자 정의 컨트롤에서는 이 특성이 **true**로 설정되지 않을 수 있습니다.
 
--   문서에 사용자 정의 컨트롤을 추가한 다음에는 프로젝트에서 <xref:System.Windows.Forms.UserControl> 클래스의 이름을 변경하거나 삭제하지 마세요. 사용자 정의 컨트롤의 이름을 변경해야 하는 경우에는 먼저 문서에서 삭제하고 이름을 변경한 다음 다시 추가합니다.
+- 문서에 사용자 정의 컨트롤을 추가한 다음에는 프로젝트에서 <xref:System.Windows.Forms.UserControl> 클래스의 이름을 변경하거나 삭제하지 마세요. 사용자 정의 컨트롤의 이름을 변경해야 하는 경우에는 먼저 문서에서 삭제하고 이름을 변경한 다음 다시 추가합니다.
 
 ### <a name="arrange-controls-at-design-time"></a>디자인 타임에 컨트롤을 정렬 합니다.
  디자인 타임에 여러 컨트롤을 Word 및 Excel 문서에 추가하는 경우 Visual Studio의 **Microsoft Office Word** 및 **Microsoft Office Excel** 도구 모음을 사용하여 선택된 모든 컨트롤의 맞춤을 신속하게 설정할 수 있습니다. 이러한 도구 모음은 문서 또는 워크시트가 디자이너에 열려 있는 경우에만 사용할 수 있습니다.
 
  디자이너에서 여러 컨트롤을 선택할 때는 이러한 도구 모음에서 다음 단추를 사용하여 컨트롤을 정렬할 수 있습니다.
 
--   **왼쪽 맞춤**
+- **왼쪽 맞춤**
 
--   **가운데 맞춤**
+- **가운데 맞춤**
 
--   **오른쪽 맞춤**
+- **오른쪽 맞춤**
 
--   **위쪽 맞춤**
+- **위쪽 맞춤**
 
--   **중간 맞춤**
+- **중간 맞춤**
 
--   **아래쪽 맞춤**
+- **아래쪽 맞춤**
 
--   **가로 간격 같게**
+- **가로 간격 같게**
 
--   **세로 간격 같게**
+- **세로 간격 같게**
 
 > [!NOTE]
 >  Word 프로젝트에서 이러한 단추는 선택된 컨트롤이 텍스트에 맞춰지지 않은 경우에만 활성화됩니다. 기본적으로 디자인 타임에 문서에 추가된 컨트롤은 텍스트와 맞춰집니다.

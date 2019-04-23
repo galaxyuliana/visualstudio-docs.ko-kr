@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8ced873db6c1a3c9adbe40625ed44817eb6703d9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 460b948ea7b5bace1b91143d46a4ca2f4c823608
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614898"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60043460"
 ---
 # <a name="saving-a-standard-document"></a>표준 문서 저장
 환경 저장, 다른 이름으로 저장 및 모두 저장 명령을 처리합니다. 사용자가 선택 하는 경우 **저장**, **다른 이름으로 저장**, 또는 **모두 저장** 에서 **파일** 메뉴에 솔루션을 닫습니다는  **모두 저장**, 다음 프로세스가 발생 합니다.
@@ -50,11 +50,11 @@ ms.locfileid: "56614898"
 
 #### <a name="to-change-file-ownership-to-the-miscellaneous-files-project"></a>기타 파일 프로젝트에 파일 소유권을 변경 하려면
 
-1.  서비스에 대 한 쿼리는 <xref:Microsoft.VisualStudio.Shell.Interop.SVsExternalFilesManager> 인터페이스입니다.
+1. 서비스에 대 한 쿼리는 <xref:Microsoft.VisualStudio.Shell.Interop.SVsExternalFilesManager> 인터페이스입니다.
 
      에 대 한 포인터 <xref:Microsoft.VisualStudio.Shell.Interop.IVsExternalFilesManager2> 반환 됩니다.
 
-2.  호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsExternalFilesManager2.TransferDocument%2A> (`pszMkDocumentNew`, `punkWindowFrame`) 문서를 새 계층으로 전송 하는 방법입니다. 다른 이름으로 저장 명령을 수행 하는 계층 구조는이 메서드를 호출 합니다.
+2. 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsExternalFilesManager2.TransferDocument%2A> (`pszMkDocumentNew`, `punkWindowFrame`) 문서를 새 계층으로 전송 하는 방법입니다. 다른 이름으로 저장 명령을 수행 하는 계층 구조는이 메서드를 호출 합니다.
 
 ## <a name="see-also"></a>참고 항목
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>

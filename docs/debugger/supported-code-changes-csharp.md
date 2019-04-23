@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 9e840a8bb19b48c5cd4526ad80526bd62fcf8fa0
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MTE95
+ms.openlocfilehash: f20f61ffc4a6e4105a96b58c3dc73e7154e7c9cd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526181"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055790"
 ---
 # <a name="supported-code-changes-c-and-visual-basic"></a>코드 변경 내용을 지원 (C# 및 Visual Basic)
 편집하며 계속하기에서는 메서드 본문 내의 코드 변경 유형을 대부분 처리합니다. 그러나 메서드 본문 외부의 변경 내용 대부분과 메서드 본문 내의 몇 가지 변경 내용은 디버깅 중에 적용할 수 없습니다. 이러한 지원되지 않는 변경 내용을 적용하려면 디버깅을 중지하고 새로운 버전의 코드로 다시 시작해야 합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "57526181"
 ## <a name="unsupported-changes-to-code"></a>코드에 지원 되지 않는 변경
  다음 변경 내용을 적용할 수 없습니다 C# 및 Visual Basic 코드 디버깅 세션 중:
 
--   현재 문 또는 다른 모든 활성 문에 대한 변경
+- 현재 문 또는 다른 모든 활성 문에 대한 변경
 
      활성 문에는 호출 스택의 함수에서 현재 문을 실행하기 위해 호출된 모든 문이 포함됩니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "57526181"
 |언어 요소/기능|지원 되지 않는 편집 작업|
 |-|-|
 |모든 코드 요소|이름 바꾸기|
-|네임스페이스|추가|
+|네임스페이스|Add|
 |네임 스페이스, 형식, 멤버|삭제|
 |제네릭|추가 또는 수정|
 |인터페이스|수정|
@@ -73,12 +73,12 @@ ms.locfileid: "57526181"
 |연산자 또는 인덱서|수정 형식 매개 변수, 기본 형식, 대리자, 형식 또는 반환 형식 |
 |catch 블록|활성 문을 포함 하는 경우 수정|
 |try – catch – finally 블록|활성 문을 포함 하는 경우 수정|
-|using 문|추가|
+|using 문|Add|
 |비동기 메서드/람다|.NET Framework 4를 대상으로 하는 프로젝트에서 비동기 메서드/람다를 수정 하 고 낮은 (참조 [세부 정보](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
 |반복기|.NET Framework 4를 대상으로 하는 프로젝트에서 반복기를 수정 하 고 낮은 (참조 [세부 정보](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
 
 ## <a name="unsafe-code"></a>안전하지 않은 코드
- 안전하지 않은 코드에 대한 변경에는 안전한 코드에 대한 변경과 동일한 제한 사항이 적용되고 한 가지 제한 사항이 추가로 적용됩니다. `stackalloc` 연산자가 포함된 메서드 안에 있는 안전하지 않은 코드에 대한 변경은 편집하며 계속하기에서 지원하지 않습니다.
+ 안전하지 않은 코드에 대한 변경에는 안전한 코드에 대한 변경과 동일한 제한 사항이 적용되고 한 가지 제한 사항이 추가로 적용됩니다. 편집 하며 계속 하기 변경 내용이 포함 된 메서드 안에 있는 안전 하지 않은 코드를 지원 하지 않습니다는 `stackalloc` 연산자입니다.
 
 ## <a name="unsupported-app-scenarios"></a>지원 되지 않는 앱 시나리오
 
@@ -90,19 +90,19 @@ ms.locfileid: "57526181"
 ## <a name="unsupported-scenarios"></a>지원되지 않는 시나리오
  다음과 같은 디버깅 시나리오에서는 편집하며 계속하기를 사용할 수 없습니다.
 
--   혼합 모드(네이티브/관리) 디버깅
+- 혼합 모드(네이티브/관리) 디버깅
 
--   SQL 디버깅
+- SQL 디버깅
 
--   Dr. Watson 덤프 디버깅
+- Dr. Watson 덤프 디버깅
 
--   포함된 런타임 응용 프로그램 디버깅
+- 포함된 런타임 응용 프로그램 디버깅
 
--   응용 프로그램 디버깅 프로세스에 연결 (**디버그 > 프로세스에 연결**)를 선택 하 여 응용 프로그램을 실행 하는 대신 **시작** 에서 합니다 **디버그** 메뉴.
+- 응용 프로그램 디버깅 프로세스에 연결 (**디버그 > 프로세스에 연결**)를 선택 하 여 응용 프로그램을 실행 하는 대신 **시작** 에서 합니다 **디버그** 메뉴.
 
--   최적화된 코드 디버깅
+- 최적화된 코드 디버깅
 
--   빌드 오류가 발생하여 새 버전을 빌드하는 데 실패한 후 이전 버전의 코드 디버깅
+- 빌드 오류가 발생하여 새 버전을 빌드하는 데 실패한 후 이전 버전의 코드 디버깅
 
 ## <a name="see-also"></a>참고 항목
 - [편집하며 계속하기(Visual C#)](../debugger/edit-and-continue-visual-csharp.md)

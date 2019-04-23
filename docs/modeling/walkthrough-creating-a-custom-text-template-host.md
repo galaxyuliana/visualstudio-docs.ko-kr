@@ -13,12 +13,12 @@ ms.workload:
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: bd488230fc6b88feb60ceeb0556385b99e823de9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 71b72b677e9735edb3254290055815885e543fa9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951594"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055025"
 ---
 # <a name="walkthrough-create-a-custom-text-template-host"></a>연습: 사용자 지정 텍스트 템플릿 호스트 만들기
 
@@ -31,17 +31,17 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
 이 연습에서는 다음 작업을 수행합니다.
 
--   사용자 지정 텍스트 템플릿 호스트 만들기
+- 사용자 지정 텍스트 템플릿 호스트 만들기
 
--   사용자 지정 호스트 테스트
+- 사용자 지정 호스트 테스트
 
 ## <a name="prerequisites"></a>전제 조건
 
 이 연습을 완료하려면 다음이 필요합니다.
 
--   Visual Studio 2010 이상
+- Visual Studio 2010 이상
 
--   Visual Studio SDK
+- Visual Studio SDK
 
 ## <a name="create-a-custom-text-template-host"></a>사용자 지정 텍스트 템플릿 호스트 만들기
 
@@ -51,9 +51,9 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
 2. 다음 어셈블리에 대한 참조를 추가합니다.
 
-   -   **Microsoft.VisualStudio.TextTemplating.\*.0**
+   - **Microsoft.VisualStudio.TextTemplating.\*.0**
 
-   -   **Microsoft.visualstudio.texttemplating.interfaces.10.0 이상 버전**
+   - **Microsoft.visualstudio.texttemplating.interfaces.10.0 이상 버전**
 
 3. Program.cs 또는 Module1.vb 파일의 코드를 다음 코드로 바꿉니다.
 
@@ -722,15 +722,15 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
 ## <a name="test-the-custom-host"></a>사용자 지정 호스트 테스트
 
-사용자 지정 호스트를 테스트하려면 텍스트 템플릿을 작성한 다음 사용자 지정 호스트를 실행하여 이 호스트에 텍스트 템플릿의 이름을 전달하고 템플릿이 변형되었는지 확인합니다.
+사용자 지정 호스트를 테스트하려면 텍스트 템플릿을 작성한 다음 사용자 지정 호스트를 실행하여 이 호스트에 텍스트 템플릿의 이름을 전달하고 템플릿이 변환되었는지 확인합니다.
 
 ### <a name="to-create-a-text-template-to-test-the-custom-host"></a>텍스트 템플릿을 만들어 사용자 지정 호스트를 테스트하려면
 
-1.  텍스트 파일을 만들고 이름을 `TestTemplate.tt`입니다.
+1. 텍스트 파일을 만들고 이름을 `TestTemplate.tt`입니다.
 
      메모장 등의 모든 텍스트 편집기를 사용하여 파일을 만들 수 있습니다.
 
-2.  파일에 다음 코드를 추가합니다.
+2. 파일에 다음 코드를 추가합니다.
 
     > [!NOTE]
     > 텍스트 템플릿의 프로그래밍 언어는 사용자 지정 호스트의 프로그래밍 언어와 일치하지 않아도 됩니다.
@@ -773,13 +773,13 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
     ```
 
-3.  파일을 저장한 후 닫습니다.
+3. 파일을 저장한 후 닫습니다.
 
 ### <a name="to-test-the-custom-host"></a>사용자 지정 호스트를 테스트하려면
 
-1.  명령 프롬프트 창을 엽니다.
+1. 명령 프롬프트 창을 엽니다.
 
-2.  사용자 지정 호스트에 대한 실행 가능한 파일의 경로를 입력하고 Enter 키를 누르지 않습니다.
+2. 사용자 지정 호스트에 대한 실행 가능한 파일의 경로를 입력하고 Enter 키를 누르지 않습니다.
 
      예를 들어 다음과 같이 입력합니다.
 
@@ -788,9 +788,9 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
     > [!NOTE]
     > CustomHost.exe 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기** 다음 명령 프롬프트 창에 파일을 끕니다.
 
-3.  공백을 입력합니다.
+3. 공백을 입력합니다.
 
-4.  텍스트 템플릿 파일의 경로를 입력한 다음 Enter 키를 누릅니다.
+4. 텍스트 템플릿 파일의 경로를 입력한 다음 Enter 키를 누릅니다.
 
      예를 들어 다음과 같이 입력합니다.
 
@@ -801,11 +801,11 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
      사용자 지정 호스트 응용 프로그램이 실행되어 텍스트 템플릿 변형 프로세스를 완료합니다.
 
-5.  **Windows 탐색기**에서 TestTemplate.tt 파일이 포함 된 폴더로 이동 합니다.
+5. **Windows 탐색기**에서 TestTemplate.tt 파일이 포함 된 폴더로 이동 합니다.
 
      이 폴더에는 TestTemplate1.txt 파일도 포함되어 있습니다.
 
-6.  이 파일을 열어 텍스트 템플릿 변환의 결과를 확인합니다.
+6. 이 파일을 열어 텍스트 템플릿 변환의 결과를 확인합니다.
 
      생성된 텍스트 출력이 다음과 같이 나타납니다.
 

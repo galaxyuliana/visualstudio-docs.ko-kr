@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 41fb80c229d016658b030d6ebf6981051c5de096
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2b2872ca6496444cbb3878dc39800a8661400a76
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631499"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056330"
 ---
 # <a name="get-started-programming-document-level-customizations-for-word"></a>Word 용 문서 수준 사용자 지정 프로그래밍 시작
   바로 시작 하는 Visual Studio를 사용 하 여 Microsoft Office Word 용 문서 수준 사용자 지정 만들기를 하는 경우 알아야 할 내용을 다음과 같습니다.
@@ -44,11 +44,11 @@ ms.locfileid: "56631499"
 
  자세한 내용은 다음 항목을 참조하세요.
 
--   [문서 수준 사용자 지정 프로그래밍](../vsto/programming-document-level-customizations.md)
+- [문서 수준 사용자 지정 프로그래밍](../vsto/programming-document-level-customizations.md)
 
--   [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)
+- [확장 된 개체를 사용 하 여 Word 자동화](../vsto/automating-word-by-using-extended-objects.md)
 
--   [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)
+- [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)
 
 ## <a name="customize-the-user-interface-of-word"></a>Word의 사용자 인터페이스 사용자 지정
  대부분의 Microsoft Office 솔루션 솔루션을 사용 하 여 상호 작용 하는 사용자에 대 한 몇 가지 방법을 제공 하는 Office 응용 프로그램의 사용자 인터페이스 (UI)을 수정 합니다. 여러 가지 방법으로는 문서 수준 사용자 지정을 사용 하 여 Word의 UI를 수정할 수 있습니다. 예를 들어 리본 메뉴에 컨트롤을 추가할 수 있습니다 하 고 작업 창에 표시할 수 있습니다. 자세한 내용은 [Office UI 사용자 지정](../vsto/office-ui-customization.md)합니다.

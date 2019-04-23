@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bd4a839c1d93d89cf6d0502e234f7cb1401a6809
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: d297c1ef7079a894a53a77694d213f8b0f5cb257
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56684418"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055407"
 ---
 # <a name="overview-of-visual-studio-graphics-diagnostics"></a>Visual Studio 그래픽 진단 개요
 Visual Studio *그래픽 진단*은 Direct3D 앱의 렌더링 및 성능 문제를 기록한 다음, 분석하기 위한 도구 집합입니다. Windows PC에서 또는 원격 PC 또는 장치에서 로컬로 실행 하는 앱에서 그래픽 진단은 사용할 수 있습니다.
@@ -59,7 +59,7 @@ Visual Studio *그래픽 진단*은 Direct3D 앱의 렌더링 및 성능 문제�
 
 #### <a name="to-open-the-directx-control-panel"></a>DirectX 제어판을 열려면
 
--   메뉴 모음에서 **디버그**, **그래픽**, **DirectX 제어판**을 선택합니다.
+- 메뉴 모음에서 **디버그**, **그래픽**, **DirectX 제어판**을 선택합니다.
 
 ## <a name="graphics-analyzer"></a>그래픽 분석기
  Visual Studio 그래픽 분석기는 이미 캡처한 프레임의 렌더링 및 성능 문제를 검사하기 위한 전용 인터페이스입니다. 그래픽 분석기 내에서 앱의 렌더링 동작을 탐색 및 이해하는 데 도움이 되는 여러 도구를 찾을 수 있습니다. 각 도구는 검사 중인 프레임에 대한 다른 종류의 정보를 노출하며, 도구를 함께 사용하여 프레임 버퍼의 해당 모양부터 렌더링 문제의 소스에 직관적으로 접근할 수 있습니다.

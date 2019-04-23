@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b5846fe9db2d7ea02259f949697f5cb164d1c081
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: e631f73a6714cf26b55cf9907095fc322467d3cd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651758"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053899"
 ---
 # <a name="warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied"></a>경고. 동작 구성 대화 상자에 적용되지 않은 변경 내용이 있습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,11 +25,11 @@ ms.locfileid: "59651758"
   
 ### <a name="to-apply-the-change-and-continue"></a>변경 내용을 적용하고 계속하려면  
   
--   **예**를 클릭하여 선택한 **클래스** 및 **동작**에 변경 내용을 적용합니다.  
+- **예**를 클릭하여 선택한 **클래스** 및 **동작**에 변경 내용을 적용합니다.  
   
 ### <a name="to-cancel-the-previous-change-and-continue"></a>이전 변경 내용을 취소하고 계속하려면  
   
--   **아니요**를 클릭하여 선택한 **클래스** 및 **동작**에 대한 변경 내용을 취소합니다.  
+- **아니요**를 클릭하여 선택한 **클래스** 및 **동작**에 대한 변경 내용을 취소합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

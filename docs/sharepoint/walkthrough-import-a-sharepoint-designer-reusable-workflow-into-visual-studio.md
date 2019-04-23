@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1552e45b13fbbd860a429238cf233bbfccbb3f02
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 702c671922d8ea7a1552504be062b7b31de16a09
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603420"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053938"
 ---
 # <a name="walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio"></a>연습: Visual Studio에 SharePoint Designer의 재사용 가능한 워크플로 가져오기
   이 연습에서는 SharePoint Designer 2010에서 만든 재사용 가능한 워크플로 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 워크플로 프로젝트입니다.
@@ -48,11 +48,11 @@ ms.locfileid: "56603420"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
+- 지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
 
--   Visual Studio.
+- Visual Studio.
 
--   Microsoft [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] SharePoint Designer 2010.
+- Microsoft [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] SharePoint Designer 2010.
 
 ## <a name="create-target-sharepoint-subsites"></a>대상 SharePoint 하위 사이트 만들기
  먼저 두 개의 새 SharePoint 하위 사이트를 만듭니다: 변환 된 워크플로 호스트 하는 다른 SharePoint Designer에서 재사용 가능한 워크플로 호스트를 하나입니다.
@@ -80,27 +80,27 @@ ms.locfileid: "56603420"
 
 #### <a name="to-create-a-sharepoint-designer-reusable-workflow"></a>SharePoint Designer의 재사용 가능한 워크플로 만들려면
 
-1.  에 **하위 사이트** 섹션을 선택 합니다 **SPD1** 수정할 사이트.
+1. 에 **하위 사이트** 섹션을 선택 합니다 **SPD1** 수정할 사이트.
 
-2.  리본에서 선택 합니다 **재사용 가능한 워크플로** 단추입니다.
+2. 리본에서 선택 합니다 **재사용 가능한 워크플로** 단추입니다.
 
      다시 사용할 수 있는 워크플로 만들기 마법사가 나타납니다.
 
-3.  에 **이름을** 상자에 입력 합니다 **SPD Task Workflow**합니다.
+3. 에 **이름을** 상자에 입력 합니다 **SPD Task Workflow**합니다.
 
-4.  에 **Content-type** 목록에서 선택 **작업**를 선택한 후는 **확인** 단추.
+4. 에 **Content-type** 목록에서 선택 **작업**를 선택한 후는 **확인** 단추.
 
      워크플로에서는 SharePoint Designer 워크플로 디자이너에서 열립니다.
 
-5.  워크플로 디자이너에서 1 단계에서 선택한 다음 리본 메뉴를 선택 합니다 **조건을** 단추입니다.
+5. 워크플로 디자이너에서 1 단계에서 선택한 다음 리본 메뉴를 선택 합니다 **조건을** 단추입니다.
 
-6.  조건 목록에서 선택 **현재 항목 필드 값이 같으면**합니다.
+6. 조건 목록에서 선택 **현재 항목 필드 값이 같으면**합니다.
 
      이 단계에서는 라고 하는 조건을 추가 **값이 같은 경우**합니다.
 
-7.  에 **값이 같은 경우** 조건를 선택 합니다 **필드** 링크.
+7. 에 **값이 같은 경우** 조건를 선택 합니다 **필드** 링크.
 
-8.  값의 목록에서 선택 **Title**합니다.
+8. 값의 목록에서 선택 **Title**합니다.
 
 9. 에 **값이 같은 경우** 조건를 선택 합니다 **값** 링크.
 
@@ -128,23 +128,23 @@ ms.locfileid: "56603420"
 
 #### <a name="to-save-and-deploy-the-reusable-workflow"></a>저장 하 고 재사용 가능한 워크플로 배포
 
-1.  SharePoint Designer의 맨 위에 있는 선택 합니다 **저장** 여 진행 상황을 저장 하려면 단추를 선택한 합니다 **게시** 워크플로를 배포 하는 단추를 **SPD1** SharePoint 사이트 .
+1. SharePoint Designer의 맨 위에 있는 선택 합니다 **저장** 여 진행 상황을 저장 하려면 단추를 선택한 합니다 **게시** 워크플로를 배포 하는 단추를 **SPD1** SharePoint 사이트 .
 
-2.  탐색 창에서 선택 합니다 **워크플로** 개체입니다.
+2. 탐색 창에서 선택 합니다 **워크플로** 개체입니다.
 
-3.  아래 **재사용 가능한 워크플로**, 선택 **SPD Task Workflow**합니다.
+3. 아래 **재사용 가능한 워크플로**, 선택 **SPD Task Workflow**합니다.
 
-4.  리본에서 선택 합니다 **템플릿으로 저장** 으로 워크플로 저장 하려면 단추를 *.wsp* 파일입니다.
+4. 리본에서 선택 합니다 **템플릿으로 저장** 으로 워크플로 저장 하려면 단추를 *.wsp* 파일입니다.
 
-5.  엽니다는 **SPD1** 보려면 브라우저에서 SharePoint 사이트를 *.wsp* SharePoint에서 파일입니다.
+5. 엽니다는 **SPD1** 보려면 브라우저에서 SharePoint 사이트를 *.wsp* SharePoint에서 파일입니다.
 
-6.  빠른 실행 모음에서 선택 합니다 **라이브러리** 링크 합니다.
+6. 빠른 실행 모음에서 선택 합니다 **라이브러리** 링크 합니다.
 
-7.  에 **문서 라이브러리** 섹션을 선택 합니다 **사이트 자산** 링크 합니다.
+7. 에 **문서 라이브러리** 섹션을 선택 합니다 **사이트 자산** 링크 합니다.
 
      합니다 **SPD Task Workflow** 파일은 기타 사이트 자산을 사용 하 여 나열 됩니다.
 
-8.  파일 목록에서 해당 파일의 이름을 선택합니다.
+8. 파일 목록에서 해당 파일의 이름을 선택합니다.
 
 9. 에 **파일 다운로드** 대화 상자를 선택 합니다 **저장** 저장 하려면 단추를 *.wsp* 로컬 시스템에서 파일.
 
@@ -188,11 +188,11 @@ ms.locfileid: "56603420"
 
 11. 때문에 합니다 **다시 사용할 수 있는 SharePoint 2010 워크플로 가져오기** 템플릿은 가져온된 워크플로에 대 한 연결 속성 값을 가져오지 않는, 직접 입력 해야 합니다. 가상 하드 디스크 파일에 대한 중요 정보를 제공하려면
 
-    1.  **솔루션 탐색기**를 선택 합니다 **SPD_Workflow_TestFT** 노드.
+    1. **솔루션 탐색기**를 선택 합니다 **SPD_Workflow_TestFT** 노드.
 
-    2.  줄임표 (![ASP.NET 모바일 디자이너 줄임표](../sharepoint/media/mwellipsis.gif "ASP.NET 모바일 디자이너 줄임표"))와 같은 목록 속성 중 하나 옆의 단추를 **대상 목록** 속성입니다.
+    2. 줄임표 (![ASP.NET 모바일 디자이너 줄임표](../sharepoint/media/mwellipsis.gif "ASP.NET 모바일 디자이너 줄임표"))와 같은 목록 속성 중 하나 옆의 단추를 **대상 목록** 속성입니다.
 
-    3.  SharePoint 사용자 지정 마법사에서 누락 값을 입력 하 고 다음을 선택 합니다 **완료** 단추입니다.
+    3. SharePoint 사용자 지정 마법사에서 누락 값을 입력 하 고 다음을 선택 합니다 **완료** 단추입니다.
 
 12. .Xoml 파일을 선택한 다음, 메뉴 모음에서 **뷰** > **디자이너** 워크플로 디자이너에서 가져온된 워크플로 볼 수 있습니다.
 
@@ -206,9 +206,9 @@ ms.locfileid: "56603420"
 
 14. 다음 단계 중 하나를 수행합니다.
 
-    -   두 번 클릭 **CodeActivity1** 이벤트 처리기를 코드를 보고 합니다.
+    - 두 번 클릭 **CodeActivity1** 이벤트 처리기를 코드를 보고 합니다.
 
-    -   에 **속성** 창에 대 한 **CodeActivity1**의 값을 설정 합니다 **ExecuteCode** 속성을 **codeActivity_ExecuteCode**.
+    - 에 **속성** 창에 대 한 **CodeActivity1**의 값을 설정 합니다 **ExecuteCode** 속성을 **codeActivity_ExecuteCode**.
 
 15. 기존 아래에 다음을 추가 **를 사용 하 여** 하거나 **Imports** 문:
 
@@ -225,27 +225,27 @@ ms.locfileid: "56603420"
 
 #### <a name="to-deploy-the-project-and-associate-the-workflow"></a>프로젝트를 배포 하 고 워크플로 연결 하려면
 
-1.  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 선택 합니다 **F5** 실행 하 고 변환 된 워크플로 프로젝트를 배포 하는 키입니다.
+1. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 선택 합니다 **F5** 실행 하 고 변환 된 워크플로 프로젝트를 배포 하는 키입니다.
 
-2.  빠른 실행 모음에서 선택 합니다 **작업** 링크 작업 목록을 표시 합니다.
+2. 빠른 실행 모음에서 선택 합니다 **작업** 링크 작업 목록을 표시 합니다.
 
-3.  에 **목록 도구** 탭을 선택 합니다 **항목** 단추를 선택한 후는 **새 항목** 단추입니다.
+3. 에 **목록 도구** 탭을 선택 합니다 **항목** 단추를 선택한 후는 **새 항목** 단추입니다.
 
      합니다 **작업-새 항목** 대화 상자가 열립니다.
 
-4.  에 **제목** 상자에 입력 합니다 **새 작업**를 선택한 후는 **저장** 단추입니다.
+4. 에 **제목** 상자에 입력 합니다 **새 작업**를 선택한 후는 **저장** 단추입니다.
 
-5.  에 **목록 도구** 탭을 선택 합니다 **목록** 단추를 선택한 후는 **목록 설정** 단추입니다.
+5. 에 **목록 도구** 탭을 선택 합니다 **목록** 단추를 선택한 후는 **목록 설정** 단추입니다.
 
      합니다 **목록 설정** 페이지가 나타납니다.
 
-6.  에 **사용 권한 및 관리** 섹션을 선택 합니다 **워크플로 설정을** 링크 합니다.
+6. 에 **사용 권한 및 관리** 섹션을 선택 합니다 **워크플로 설정을** 링크 합니다.
 
      합니다 **워크플로 설정** 페이지가 나타납니다.
 
-7.  선택 된 **워크플로 추가** 링크 합니다.
+7. 선택 된 **워크플로 추가** 링크 합니다.
 
-8.  에 **워크플로** 목록에서 선택 **WorkflowImportProject1-SPD Workflow Test**합니다.
+8. 에 **워크플로** 목록에서 선택 **WorkflowImportProject1-SPD Workflow Test**합니다.
 
 9. 에 **이름** 상자에 입력 합니다 **SPD Workflow Test**를 선택한 후는 **확인** 단추입니다.
 

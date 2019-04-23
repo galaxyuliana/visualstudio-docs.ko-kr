@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 348dc0cdce8345f0b7de4fb15dcd7175f496dba7
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: a3ba746f9e4dcd8da45a002c5c763384558342ec
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652921"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053912"
 ---
 # <a name="the-property-ltproperty-namegt-cannot-be-deleted-because-it-is-participating-in-the-association-ltassociation-namegt"></a>&lt;property name&gt; 속성은 &lt;association name&gt; 연결에 참여하고 있으므로 삭제할 수 없음
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,13 +25,13 @@ ms.locfileid: "59652921"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-1.  O/R 디자이너에서 오류 메시지에 표시된 데이터 클래스를 연결하는 연결 선을 선택합니다.  
+1. O/R 디자이너에서 오류 메시지에 표시된 데이터 클래스를 연결하는 연결 선을 선택합니다.  
   
-2.  해당 선을 두 번 클릭하여 **연결 편집기** 대화 상자를 엽니다.  
+2. 해당 선을 두 번 클릭하여 **연결 편집기** 대화 상자를 엽니다.  
   
-3.  **연결 속성**에서 속성을 제거합니다.  
+3. **연결 속성**에서 속성을 제거합니다.  
   
-4.  속성 삭제를 다시 한 번 시도합니다.  
+4. 속성 삭제를 다시 한 번 시도합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

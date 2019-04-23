@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cda0284bd9ae4b0f68a8bb0fa779959f52650bdd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d75bfd7634e068224b12168390193773c198957a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937357"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60058527"
 ---
 # <a name="model-user-requirements"></a>사용자 요구 사항 모델링
 
@@ -56,7 +56,7 @@ Visual Studio는 사용자 동작 및 목표 달성을 위해 시스템이 수�
 
 대부분의 다이어그램 형식은 다른 용도로 사용할 수 있습니다. 다이어그램 유형에 대 한 개요를 참조 하세요 [앱에 대 한 모델을 만들](../modeling/create-models-for-your-app.md)합니다.
 
-##  <a name="BusinessRules"></a> Showing Business Rules
+## <a name="BusinessRules"></a> Showing Business Rules
 
 비즈니스 규칙은 특정 사용 사례와 연결되지 않은 요구 사항이며 시스템 전체에서 관찰되어야 합니다.
 
@@ -76,19 +76,19 @@ Visual Studio는 사용자 동작 및 목표 달성을 위해 시스템이 수�
 |-|-|
 |비즈니스 규칙을 준수하는 코드를 개발하는 방법|[앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)|
 
-##  <a name="QoSRequirements"></a> Describing Quality of Service Requirements
+## <a name="QoSRequirements"></a> Describing Quality of Service Requirements
 
 여러 범주의 서비스 품질 요구 사항이 있습니다. 이러한 형식은 다음과 같습니다.
 
--   성능
+- 성능
 
--   보안
+- 보안
 
--   유용성
+- 유용성
 
--   안정성
+- 안정성
 
--   견고성
+- 견고성
 
 특정 사용 사례의 설명에 이러한 요구 사항 중 일부를 포함할 수 있습니다. 기타 요구 사항은 사용 사례와 관련이 없으며 별도 문서에 작성하는 것이 가장 효과적입니다. 가능하면 요구 사항 모델에서 정의된 어휘를 준수하는 것이 유용합니다. 다음 예제에서는 요구 사항에 사용된 주요 단어가 위 그림에서 행위자, 사용 사례 및 클래스의 제목입니다.
 

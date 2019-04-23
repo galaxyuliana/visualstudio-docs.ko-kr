@@ -20,12 +20,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 578835b770a9895b00513b6907956bc3bb9f9da7
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 001f3a3c74f792fbe3028b6915cb350d359221a1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653764"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60043138"
 ---
 # <a name="insert-new-records-into-a-database"></a>데이터베이스에 새 레코드 삽입
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,7 +62,7 @@ ms.locfileid: "59653764"
   
 #### <a name="to-insert-new-records-into-a-database-by-using-the-tableadapterinsert-method"></a>TableAdapter.Insert 메서드를 사용 하 여 데이터베이스에 새 레코드를 삽입 하려면  
   
--   TableAdapter의 호출 `Insert` 메서드를 매개 변수로 각 열에 대 한 값을 전달 합니다.  
+- TableAdapter의 호출 `Insert` 메서드를 매개 변수로 각 열에 대 한 값을 전달 합니다.  
   
     > [!NOTE]
     >  인스턴스에 사용할 수 없는 경우 사용 하려는 TableAdapter를 인스턴스화하십시오.  
@@ -77,7 +77,7 @@ ms.locfileid: "59653764"
   
 #### <a name="to-insert-new-records-into-a-database-by-using-command-objects"></a>명령 개체를 사용 하 여 데이터베이스에 새 레코드를 삽입 하려면  
   
--   새 명령 개체를 만들고 설정한 해당 `Connection`, `CommandType`, 및 `CommandText` 속성입니다.  
+- 새 명령 개체를 만들고 설정한 해당 `Connection`, `CommandType`, 및 `CommandText` 속성입니다.  
   
      [!code-csharp[VbRaddataSaving#16](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#16)]
      [!code-vb[VbRaddataSaving#16](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#16)]  

@@ -26,12 +26,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b2358e177f049d9eda17bcb54baf6a547605419c
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: b0489dec1c2d6cb3d7559a2bdd029ccab6c3ce5f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653101"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056811"
 ---
 # <a name="save-data-back-to-the-database"></a>데이터를 다시 데이터베이스에 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -249,11 +249,11 @@ ms.locfileid: "59653101"
   
  그러나 두 번째 행에 대 한는 `Update` 메서드에서 자동으로 올바른 데이터 명령을 호출 하 고 데이터베이스로 전송 합니다. 특정 SQL 문의 구문을 내부 데이터 저장소에서 지원 되는 SQL의 언어에 따라 달라 집니다. 하지만 다음과 같은 일반 특성은 전송 된 SQL 문을 주목할 만한있지 않습니다.  
   
--   전송된 된 SQL 문과 UPDATE 문의 경우 때문에 UPDATE 문을 사용 하 여에 어댑터를 알고 있는 값을 <xref:System.Data.DataRow.RowState%2A> 속성은 <xref:System.Data.DataRowState>합니다.  
+- 전송된 된 SQL 문과 UPDATE 문의 경우 때문에 UPDATE 문을 사용 하 여에 어댑터를 알고 있는 값을 <xref:System.Data.DataRow.RowState%2A> 속성은 <xref:System.Data.DataRowState>합니다.  
   
--   UPDATE 문의 대상이 행 임을 나타내는 WHERE 절을 포함 하는 전송 된 SQL 문이 여기서 `CustomerID = 'c400'`합니다. 때문에이 부분에서는 SELECT 문은 다른 모든 사용자 로부터 대상 행을 구별 합니다 `CustomerID` 대상 테이블의 기본 키가 있습니다. WHERE 절은 레코드의 원래 버전에서 파생 하는 것에 대 한 정보 (`DataRowVersion.Original`) 행을 식별 하는 데 필요한 값을 변경한 경우.  
+- UPDATE 문의 대상이 행 임을 나타내는 WHERE 절을 포함 하는 전송 된 SQL 문이 여기서 `CustomerID = 'c400'`합니다. 때문에이 부분에서는 SELECT 문은 다른 모든 사용자 로부터 대상 행을 구별 합니다 `CustomerID` 대상 테이블의 기본 키가 있습니다. WHERE 절은 레코드의 원래 버전에서 파생 하는 것에 대 한 정보 (`DataRowVersion.Original`) 행을 식별 하는 데 필요한 값을 변경한 경우.  
   
--   전송 된 SQL 문을 수정 된 열의 새 값을 설정 하는 SET 절을 포함 합니다.  
+- 전송 된 SQL 문을 수정 된 열의 새 값을 설정 하는 SET 절을 포함 합니다.  
   
     > [!NOTE]
     >  경우 TableAdapter의 `UpdateCommand` 속성 저장된 프로시저의 이름으로 설정 된 경우 어댑터는 SQL 문을 생성 하지 않습니다. 대신 전달 된 적절 한 매개 변수를 사용 하 여 저장된 프로시저를 호출 합니다.  

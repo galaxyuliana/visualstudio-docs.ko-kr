@@ -29,12 +29,12 @@ caps.latest.revision: 62
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3fca78c684ac30ca09aedf3c1b9547103608a4f3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f0ebd89937eedfc2851c3b57998ef2628f9e8904
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984264"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053301"
 ---
 # <a name="attach-to-running-processes-with-the-visual-studio-debugger"></a>Visual Studio 디버거에서 실행 중인 프로세스에 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,12 +46,12 @@ ms.locfileid: "58984264"
 > [!TIP]
 > 있는지 여부를 사용 해야 **프로세스에 연결** 디버깅 시나리오에 대 한? 참조 [일반적인 디버깅 시나리오](#BKMK_Scenarios)합니다. IIS에 배포 된, 참조 하는 ASP.NET 응용 프로그램을 디버그 하려는 경우 [원격 IIS 컴퓨터에서 원격 디버깅 ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)합니다.
 
-##  <a name="BKMK_Attach_to_a_running_process"></a> 로컬 컴퓨터에서 실행 중인 프로세스에 연결
+## <a name="BKMK_Attach_to_a_running_process"></a> 로컬 컴퓨터에서 실행 중인 프로세스에 연결
  프로세스에 연결 하려면 프로세스 이름을 알고 있어야 합니다 (참조 [일반적인 디버깅 시나리오](#BKMK_Scenarios) 몇 가지 일반적인 프로세스 이름에 대 한).
 
-1.  Visual Studio에서 선택 **디버그 / 프로세스에 연결** (누르거나 **CTRL + ALT + P**).
+1. Visual Studio에서 선택 **디버그 / 프로세스에 연결** (누르거나 **CTRL + ALT + P**).
 
-2.  **프로세스에 연결** 대화 상자의 **사용 가능한 프로세스** 목록에서 연결할 프로그램을 찾습니다.
+2. **프로세스에 연결** 대화 상자의 **사용 가능한 프로세스** 목록에서 연결할 프로그램을 찾습니다.
 
      원하는 프로세스를 신속 하 게 선택 하려면 프로세스 이름의 첫 글자를 입력 합니다. 프로세스 이름을 모르는 경우 [일반적인 디버깅 시나리오](#BKMK_Scenarios)합니다.
 
@@ -59,17 +59,17 @@ ms.locfileid: "58984264"
 
      프로세스가 다른 사용자 계정으로 실행되고 있으면 **모든 사용자의 프로세스 표시** 확인란을 선택합니다.
 
-3.  **연결 대상** 상자에서 디버깅할 코드 형식이 표시되어 있는지 확인합니다. 기본 **자동** 설정은 디버깅할 코드 형식을 결정합니다. 코드 형식을 수동으로 설정하려면, 다음을 수행합니다.
+3. **연결 대상** 상자에서 디버깅할 코드 형식이 표시되어 있는지 확인합니다. 기본 **자동** 설정은 디버깅할 코드 형식을 결정합니다. 코드 형식을 수동으로 설정하려면, 다음을 수행합니다.
 
-    1.  **연결 대상** 상자에서 **선택**을 클릭합니다.
+    1. **연결 대상** 상자에서 **선택**을 클릭합니다.
 
-    2.  **코드 형식 선택** 대화 상자에서 **다음 코드 형식 디버깅** 을 클릭하고 디버깅할 형식을 선택합니다.
+    2. **코드 형식 선택** 대화 상자에서 **다음 코드 형식 디버깅** 을 클릭하고 디버깅할 형식을 선택합니다.
 
-    3.  **확인**을 클릭합니다.
+    3. **확인**을 클릭합니다.
 
-4.  **연결**을 클릭합니다.
+4. **연결**을 클릭합니다.
 
-##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> 원격 컴퓨터의 프로세스에 연결
+## <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> 원격 컴퓨터의 프로세스에 연결
  프로세스에 연결 하려면 프로세스 이름을 알고 있어야 합니다 (참조 [일반적인 디버깅 시나리오](#BKMK_Scenarios) 몇 가지 일반적인 프로세스 이름에 대 한). IIS에 배포 된 ASP.NET 앱에 대 한 자세한 지침은 [원격 IIS 컴퓨터에서 원격 디버깅 ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)합니다. 다른 앱은 작업 관리자에서 프로세스 이름을 찾을 수 있습니다.
 
  **프로세스에 연결** 대화 상자를 사용할 때 원격 디버깅용으로 설정된 다른 컴퓨터를 선택할 수 있습니다. 자세한 내용은 [원격 디버깅](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)합니다. 원격 컴퓨터를 선택하면 해당 컴퓨터에서 실행되는 사용 가능한 프로세스의 목록을 볼 수 있고 디버깅을 위해 하나 이상의 프로세스에 연결할 수 있습니다.
@@ -146,7 +146,7 @@ ms.locfileid: "58984264"
 
 일부 로컬 디버깅 시나리오에서 디버깅할 수 Visual Studio에서 원본에 액세스할 수 없는 앱을 사용 하 여 올바른 기호 파일이 있는 경우 (기본적으로이 필요 디버그 빌드). 자세한 내용은 참조 하세요. [소스 파일과 기호 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)합니다.
 
-##  <a name="BKMK_Troubleshoot_attach_errors"></a> 연결 오류 문제 해결
+## <a name="BKMK_Troubleshoot_attach_errors"></a> 연결 오류 문제 해결
  실행 중인 프로세스에 디버거를 연결할 때 이 프로세스에는 한 가지 이상의 코드 형식이 포함될 수 있습니다. 디버거가 연결될 수 있는 코드 형식이 **코드 형식 선택** 대화 상자에서 표시되고 선택됩니다.
 
  때로는 디버거가 한 코드 형식에는 연결되고 다른 코드 형식에는 연결되지 않을 수도 있습니다. 이러한 문제는 원격 컴퓨터에서 실행 중인 프로세스에 연결하려 할 때 발생할 수 있습니다. 원격 컴퓨터에 설치된 원격 디버깅 구성 요소가 일부 코드 형식만 지원하고 다른 코드 형식은 지원하지 않을 수도 있습니다. 데이터베이스를 직접 디버깅하기 위해 두 개 이상의 프로세스에 연결하려는 경우에도 이 문제가 발생할 수 있습니다. SQL 디버깅은 단일 프로세스에 대한 연결만 지원합니다.

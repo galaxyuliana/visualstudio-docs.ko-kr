@@ -32,12 +32,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: ace3a8b729a9d0f54817bdad2eb5b8ee5343c0a9
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 6590a07ec7fc67bef5f1b1cfd96e80105fa325ce
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653010"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053731"
 ---
 # <a name="annotating-locking-behavior"></a>잠금 동작에 주석 지정
 다중 스레드 프로그램에서 동시성 버그를 방지하려면 항상 적절한 잠금 규칙을 따르고 SAL 주석을 사용합니다.
@@ -55,11 +55,11 @@ ms.locfileid: "59653010"
 
  다음과 같은 스레드 소유권 규칙에 유의해야 합니다.
 
--   스핀 잠금은 분명한 스레드 소유권이 있는 계산되지 않는 잠금입니다.
+- 스핀 잠금은 분명한 스레드 소유권이 있는 계산되지 않는 잠금입니다.
 
--   뮤텍스와 임계 영역은 분명한 스레드 소유권이 있는 계산되는 잠금입니다.
+- 뮤텍스와 임계 영역은 분명한 스레드 소유권이 있는 계산되는 잠금입니다.
 
--   세마포와 이벤트는 분명한 스레드 소유권이 없는 계산되는 잠금입니다.
+- 세마포와 이벤트는 분명한 스레드 소유권이 없는 계산되는 잠금입니다.
 
 ## <a name="locking-annotations"></a>주석 잠금
  다음 표에서는 잠금 주석을 보여 줍니다.

@@ -17,12 +17,12 @@ caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3d797b0881ef06d8934df52473ae8178e520f96f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 27690ab275d0c7ef2a090fa8ef2e42887ae9daeb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970704"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60043851"
 ---
 # <a name="how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer"></a>방법: 디자이너를 사용하여 ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,17 +37,17 @@ ms.locfileid: "58970704"
   
 #### <a name="to-disable-url-activation-for-your-application"></a>응용 프로그램의 URL 활성화를 사용하지 않도록 설정하려면  
   
-1.  프로젝트 이름을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**, 클릭 **속성**합니다.  
+1. 프로젝트 이름을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**, 클릭 **속성**합니다.  
   
-2.  에 **속성** 페이지를 클릭 합니다 **게시** 탭 합니다.  
+2. 에 **속성** 페이지를 클릭 합니다 **게시** 탭 합니다.  
   
-3.  **옵션**을 클릭합니다.  
+3. **옵션**을 클릭합니다.  
   
-4.  클릭 **매니페스트**합니다.  
+4. 클릭 **매니페스트**합니다.  
   
-5.  라는 레이블이 있는 확인란을 선택 **응용 프로그램 URL을 통해 활성화 되 고 차단**합니다.  
+5. 라는 레이블이 있는 확인란을 선택 **응용 프로그램 URL을 통해 활성화 되 고 차단**합니다.  
   
-6.  응용 프로그램을 배포합니다.  
+6. 응용 프로그램을 배포합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)

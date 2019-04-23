@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: c39ee1113d04cdd3212deccee626a96dd1e3dae7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 038ea6d6daec4c387d3344809d62bbbd67a12eee
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971519"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057583"
 ---
 # <a name="how-to-suppress-code-analysis-warnings-for-generated-code"></a>방법: 생성된 코드에 대한 코드 분석 경고 표시 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,8 +30,8 @@ ms.locfileid: "58971519"
   
 ### <a name="to-suppress-warnings-for-generated-code-in-a-project"></a>프로젝트에서 생성 된 코드에 대 한 경고를 표시 하지 않으려면  
   
-1.  솔루션 탐색기에서 프로젝트를 마우스 오른쪽 단추로 누른 **속성**합니다.  
+1. 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 단추로 누른 **속성**합니다.  
   
-2.  클릭 **코드 분석**합니다.  
+2. 클릭 **코드 분석**합니다.  
   
-3.  선택 된 **생성 된 코드 결과 표시 안 함** 확인란 합니다.
+3. 선택 된 **생성 된 코드 결과 표시 안 함** 확인란 합니다.

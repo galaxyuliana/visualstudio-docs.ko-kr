@@ -29,12 +29,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 58b8e9bc37cde33a09a06503755f2646cca6f75c
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: 2673ed9a69a80b2e9ab9275ff54909e33e4434f4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55018802"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059281"
 ---
 # <a name="view-the-call-stack-and-use-the-call-stack-window-in-the-debugger"></a>호출 스택 보기 및 디버거에서 호출 스택 창 사용
 
@@ -60,7 +60,7 @@ ms.locfileid: "55018802"
 
 ## <a name="display-non-user-code-in-the-call-stack-window"></a>사용자 코드가 아닌 호출 스택 창에 표시
 
--   **호출 스택** 창에서 마우스 오른쪽 단추를 클릭하고 **외부 코드 표시**를 선택합니다.
+- **호출 스택** 창에서 마우스 오른쪽 단추를 클릭하고 **외부 코드 표시**를 선택합니다.
 
 사용자 이외의 경우 표시 되지 않는 모든 코드가 됩니다 [Just My Code](../debugger/just-my-code.md) 사용 가능 합니다. 관리 코드에서 사용자 코드가 아닌 프레임 기본적으로 숨겨집니다. 사용자 코드가 아닌 프레임 대신 다음과 같이 출력 표시 됩니다.
 
@@ -68,29 +68,29 @@ ms.locfileid: "55018802"
 
 ## <a name="bkmk_switch"></a> 다른 스택 프레임 (디버거 컨텍스트 변경)으로 전환
 
-1.  에 **호출 스택** 창, 코드와 확인 하려는 데이터가 포함 된 스택 프레임 마우스 오른쪽 단추로 클릭 합니다.
+1. 에 **호출 스택** 창, 코드와 확인 하려는 데이터가 포함 된 스택 프레임 마우스 오른쪽 단추로 클릭 합니다.
 
     또는 프레임을 두 번 클릭 수를 **호출 스택** 창 프레임으로 전환 합니다.
 
-2.  **프레임으로 전환**을 선택합니다.
+2. **프레임으로 전환**을 선택합니다.
 
      선택한 스택 프레임 옆에 끝이 굽은 녹색 화살표가 표시 됩니다. 실행 포인터는 여전히 노란색 화살표로 표시되어 있는 원래 프레임에 그대로 있습니다. **디버그** 메뉴에서 **한 단계 실행** 또는 **계속**을 선택하면 선택한 프레임이 아닌 원래 프레임에서 실행이 계속됩니다.
 
 ## <a name="view-the-source-code-for-a-function-on-the-call-stack"></a>호출 스택에 있는 함수의 소스 코드 보기
 
--   **호출 스택** 창에서 소스 코드를 보려는 함수를 마우스 오른쪽 단추로 클릭하고 **소스 코드로 이동**을 선택합니다.
+- **호출 스택** 창에서 소스 코드를 보려는 함수를 마우스 오른쪽 단추로 클릭하고 **소스 코드로 이동**을 선택합니다.
 
 ## <a name="run-to-a-specific-function-from-the-call-stack-window"></a>호출 스택 창에서 특정 함수까지 실행
 
--  에 **호출 스택** 창 함수를 선택, 마우스 오른쪽 단추로 클릭을 선택한 후 **커서까지 실행**합니다.
+- 에 **호출 스택** 창 함수를 선택, 마우스 오른쪽 단추로 클릭을 선택한 후 **커서까지 실행**합니다.
 
 ## <a name="set-a-breakpoint-on-the-exit-point-of-a-function-call"></a>함수 호출의 종료 지점에 중단점을 설정 합니다.
 
--   참조 [호출 스택 함수에 중단점을 설정](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window)합니다.
+- 참조 [호출 스택 함수에 중단점을 설정](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window)합니다.
 
 ## <a name="display-calls-to-or-from-another-thread"></a>나 다른 스레드로 호출 표시
 
--   **호출 스택** 창을 마우스 오른쪽 단추로 클릭하고 **다른 스레드로 호출/다른 스레드에서 호출 포함**을 선택합니다.
+- **호출 스택** 창을 마우스 오른쪽 단추로 클릭하고 **다른 스레드로 호출/다른 스레드에서 호출 포함**을 선택합니다.
 
 ## <a name="visually-trace-the-call-stack"></a>호출 스택을 시각적으로 추적
 
@@ -102,15 +102,15 @@ Visual Studio enterprise (전용)에서 디버깅 하는 동안 호출 스택의
 
 ![코드 맵에 호출 스택 표시](../debugger/media/dbg_basics_show_call_stack_on_code_map.gif "ShowCallStackOnCodeMap")
 
-## <a name="view-the-disassembly-code-for-a-function-on-the-call-stack-c-c-visual-basic-f"></a>호출 스택에 있는 함수의 디스어셈블리 코드 보기 (C#, c + +, Visual Basic의 경우 F#)
+## <a name="view-the-disassembly-code-for-a-function-on-the-call-stack-c-c-visual-basic-f"></a>호출 스택에 있는 함수의 디스어셈블리 코드 보기 (C#, C++, Visual Basic의 경우 F#)
 
--   **호출 스택** 창에서 디스어셈블리 코드를 보려는 함수를 마우스 오른쪽 단추로 클릭하고 **디스어셈블리로 이동**을 선택합니다.
+- **호출 스택** 창에서 디스어셈블리 코드를 보려는 함수를 마우스 오른쪽 단추로 클릭하고 **디스어셈블리로 이동**을 선택합니다.
 
 ## <a name="change-the-optional-information-displayed"></a>표시 되는 선택적 정보를 변경 합니다.
 
--   마우스 오른쪽 단추로 클릭 합니다 **호출 스택** 창 및 설정 하거나 해제 **표시 \<**  _정보를_ **>**.
+- 마우스 오른쪽 단추로 클릭 합니다 **호출 스택** 창 및 설정 하거나 해제 **표시 \<**  _정보를_ **>**.
 
-## <a name="bkmk_symbols"></a> 모듈에 대 한 기호 로드 (C#, c + +, Visual Basic의 경우 F#)
+## <a name="bkmk_symbols"></a> 모듈에 대 한 기호 로드 (C#, C++, Visual Basic의 경우 F#)
 
 **호출 스택** 창에서 현재 기호가 로드되어 있지 않은 코드에 대한 디버깅 기호를 로드할 수 있습니다. 이러한 기호는 Microsoft 공용 기호 서버에서 다운로드한 .NET Framework 또는 시스템 기호일 수도 있고 디버깅 중인 컴퓨터의 기호 경로에 있는 기호일 수도 있습니다.
 
@@ -118,27 +118,27 @@ Visual Studio enterprise (전용)에서 디버깅 하는 동안 호출 스택의
 
 ### <a name="to-load-symbols"></a>기호를 로드하려면
 
-1.  에 **호출 스택** 창을 오른쪽 단추로 클릭 하는 기호에 대 한 스택 프레임을 로드 하지 않습니다. 프레임이 흐리게 표시됩니다.
+1. 에 **호출 스택** 창을 오른쪽 단추로 클릭 하는 기호에 대 한 스택 프레임을 로드 하지 않습니다. 프레임이 흐리게 표시됩니다.
 
-2.  가리킨 **기호 로드** 선택한 후 **Microsoft 기호 서버** (있는 경우), 하거나 기호 경로 찾습니다.
+2. 가리킨 **기호 로드** 선택한 후 **Microsoft 기호 서버** (있는 경우), 하거나 기호 경로 찾습니다.
 
 ### <a name="to-set-the-symbol-path"></a>기호 경로를 설정하려면
 
-1.  **호출 스택** 창의 바로 가기 메뉴에서 **기호 설정**을 선택합니다.
+1. **호출 스택** 창의 바로 가기 메뉴에서 **기호 설정**을 선택합니다.
 
      **옵션** 대화 상자가 열리고 **기호** 페이지가 표시됩니다.
 
-2.  선택 **기호 설정**합니다.
+2. 선택 **기호 설정**합니다.
 
-3.  **옵션** 대화 상자에서 폴더 아이콘을 클릭합니다.
+3. **옵션** 대화 상자에서 폴더 아이콘을 클릭합니다.
 
      **기호 파일(.pdb) 위치** 상자에 커서가 표시됩니다.
 
-4.  디버깅 중인 컴퓨터의 기호 위치에 디렉터리 경로 입력 합니다. 로컬 및 원격 디버깅을 위해 로컬 컴퓨터의 경로입니다.
+4. 디버깅 중인 컴퓨터의 기호 위치에 디렉터리 경로 입력 합니다. 로컬 및 원격 디버깅을 위해 로컬 컴퓨터의 경로입니다.
 
-5.  선택 **확인** 닫으려면 합니다 **옵션** 대화 상자.
+5. 선택 **확인** 닫으려면 합니다 **옵션** 대화 상자.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [호출 스택 창의 혼합 코드 및 누락된 정보](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)
 - [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)

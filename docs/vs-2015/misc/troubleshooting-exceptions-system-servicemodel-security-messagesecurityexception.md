@@ -12,21 +12,21 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b6d63393313097503ed92c8a540d85152b3f8688
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ce4b5671d0e10d2f524ee96494d37cb68babe72a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985161"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60058878"
 ---
 # <a name="troubleshooting-exceptions-systemservicemodelsecuritymessagesecurityexception"></a>예외 문제 해결: System.ServiceModel.Security.MessageSecurityException
 A <xref:System.ServiceModel.Security.MessageSecurityException> 때 예외가 [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] 확인 메시지 보안이 잘못 되거나 손상 되었습니다. 이 오류는 다음 조건에 모두 해당될 때 가장 자주 발생합니다.  
   
--   원격 데스크톱 연결 또는 터미널 서비스 등의 원격 연결을 통해 WCF 서비스 참조를 사용하여 웹 사이트 또는 웹 애플리케이션 프로젝트의 WCF 서비스(.svc)와 통신합니다.  
+- 원격 데스크톱 연결 또는 터미널 서비스 등의 원격 연결을 통해 WCF 서비스 참조를 사용하여 웹 사이트 또는 웹 애플리케이션 프로젝트의 WCF 서비스(.svc)와 통신합니다.  
   
--   원격 사이트에 대한 관리자 권한이 없습니다.  
+- 원격 사이트에 대한 관리자 권한이 없습니다.  
   
--   원격 사이트의 로컬 호스트에 대한 요청을 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server에서 처리합니다.  
+- 원격 사이트의 로컬 호스트에 대한 요청을 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server에서 처리합니다.  
   
 ## <a name="associated-tips"></a>관련 팁  
  **ASP.Net Development Server를 사용 하는 경우 NTLM 인증 문제를 해결 합니다.**  
@@ -78,11 +78,11 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> 때 예외가 [!I
   
 #### <a name="to-turn-off-ntlm-security"></a>NTLM 보안을 해제하려면  
   
-1.  **솔루션 탐색기**에서 웹 사이트 이름을 마우스 오른쪽 단추로 클릭한 다음 **속성 페이지**를 클릭합니다.  
+1. **솔루션 탐색기**에서 웹 사이트 이름을 마우스 오른쪽 단추로 클릭한 다음 **속성 페이지**를 클릭합니다.  
   
-2.  **시작 옵션**을 선택한 다음 **NTLM 인증** 확인란의 선택을 취소합니다.  
+2. **시작 옵션**을 선택한 다음 **NTLM 인증** 확인란의 선택을 취소합니다.  
   
-3.  **확인**을 클릭합니다.  
+3. **확인**을 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:System.ServiceModel.Security.MessageSecurityException>   

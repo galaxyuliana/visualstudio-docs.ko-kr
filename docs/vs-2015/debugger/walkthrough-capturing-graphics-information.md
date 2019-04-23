@@ -9,12 +9,12 @@ caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5ad2f63bdbbad7d4427454e69806b06937b259b3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 9ebd0453347084d1662c6bc7837fc1e96f498fbd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982373"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053886"
 ---
 # <a name="walkthrough-capturing-graphics-information"></a>연습: 그래픽 정보 캡처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,18 +23,18 @@ ms.locfileid: "58982373"
   
  이 연습에서는 다음 작업을 설명합니다.  
   
--   앱에 그래픽 진단 후크  
+- 앱에 그래픽 진단 후크  
   
--   그래픽 정보 캡처  
+- 그래픽 정보 캡처  
   
 ## <a name="capturing-graphics-information"></a>그래픽 정보 캡처  
  그래픽 진단 도구를 사용하려면 먼저, 이 도구에서 사용하는 그래픽 정보를 캡처해야 합니다. 캡처를 사용하도록 설정하려면 **진단 시작** 명령을 사용하여 앱이 시작될 때 그래픽 진단을 후크합니다.  
   
 #### <a name="to-enable-the-capture-of-graphics-information-after-a-project-or-solution-is-loaded"></a>프로젝트 또는 솔루션이 로드된 후 그래픽 정보 캡처를 사용하도록 설정하려면  
   
-1.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 그래픽 정보를 캡처하려는 앱용 프로젝트 또는 솔루션 파일을 로드합니다.  
+1. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 그래픽 정보를 캡처하려는 앱용 프로젝트 또는 솔루션 파일을 로드합니다.  
   
-2.  그래픽 진단 도구 모음에서 **진단 시작**을 선택합니다.  
+2. 그래픽 진단 도구 모음에서 **진단 시작**을 선택합니다.  
   
 #### <a name="to-enable-the-capture-of-graphics-information-without-loading-a-project-or-solution"></a>프로젝트 또는 솔루션을 로드하지 않고 그래픽 정보 캡처를 사용하도록 설정하려면  
   
@@ -59,7 +59,7 @@ ms.locfileid: "58982373"
 ## <a name="next-steps"></a>다음 단계  
  이 연습에서는 그래픽 정보를 수동으로 캡처하는 방법을 보여 주었습니다. 다음 단계로 아래 옵션을 고려해 보세요.  
   
--   그래픽 진단 도구를 사용하여 캡처한 그래픽 정보를 분석하는 방법에 대해 알아봅니다. 참조 [개요](../debugger/overview-of-visual-studio-graphics-diagnostics.md)합니다.  
+- 그래픽 진단 도구를 사용하여 캡처한 그래픽 정보를 분석하는 방법에 대해 알아봅니다. 참조 [개요](../debugger/overview-of-visual-studio-graphics-diagnostics.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Capturing Graphics Information](../debugger/capturing-graphics-information.md)

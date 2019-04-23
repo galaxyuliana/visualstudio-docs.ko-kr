@@ -9,12 +9,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 348ddd00d6f6db0ac4080030d2ecaa5b73c57f18
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: f14924ac9464cc6239564f775a122551a9d94c15
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335196"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055199"
 ---
 # <a name="appliesto-element-visual-studio-templates"></a>AppliesTo 요소 (Visual Studio 템플릿)
 
@@ -60,19 +60,19 @@ ms.locfileid: "56335196"
 
 올바른 식 구문은 다음과 같이 정의됩니다.
 
--   기능 식과 같은 "(VisualC &#124; CSharp) + (MSTest &#124; NUnit)".
+- 기능 식과 같은 "(VisualC &#124; CSharp) + (MSTest &#124; NUnit)".
 
--   "&#124;"는 OR 연산자입니다.
+- "&#124;"는 OR 연산자입니다.
 
--   "&" 및 "+" 문자는 모두 AND 연산자입니다.
+- "&" 및 "+" 문자는 모두 AND 연산자입니다.
 
--   "!" 문자는 NOT 연산자입니다.
+- "!" 문자는 NOT 연산자입니다.
 
--   괄호는 계산 우선 순위를 강제 적용합니다.
+- 괄호는 계산 우선 순위를 강제 적용합니다.
 
--   Null 또는 비어 있는 식은 일치하는 항목으로 계산됩니다.
+- Null 또는 비어 있는 식은 일치하는 항목으로 계산됩니다.
 
--   프로젝트 기능에는 이러한 예약 된 문자를 제외한 모든 문자일 수 있습니다. "':;,+-*/\\! ~&#124;& %$@^() ={}<>? \t\b\n\r
+- 프로젝트 기능에는 이러한 예약 된 문자를 제외한 모든 문자일 수 있습니다. "':;,+-*/\\! ~&#124;& %$@^() ={}<>? \t\b\n\r
 
 ## <a name="example"></a>예제
 

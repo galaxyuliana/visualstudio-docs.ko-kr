@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6495f9271114be5fcd35e38d9ed210e07a8b6f66
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ac8612530ad7a28fef76b3339b9207408842aa8c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54774064"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055095"
 ---
 # <a name="how-to-create-and-modify-mip-levels"></a>방법: MIP 수준 만들기 및 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "54774064"
   
 #### <a name="to-generate-mip-levels"></a>MIP 수준을 생성하려면  
   
-1.  [방법: 기본 질감 만들기](../designers/how-to-create-a-basic-texture.md)에서 설명한 대로 기본 질감으로 시작합니다. 최상의 결과를 얻으려면 너비와 높이가 2의 거듭제곱(예: 256, 512, 1024 등)인 질감을 지정합니다.  
+1. [방법: 기본 질감 만들기](../designers/how-to-create-a-basic-texture.md)합니다. 최상의 결과를 얻으려면 너비와 높이가 2의 거듭제곱(예: 256, 512, 1024 등)인 질감을 지정합니다.  
   
-2.  MIP 수준을 생성합니다. **이미지 편집기 모드** 도구 모음에서 **고급**, **도구**, **MIP 생성**을 차례로 선택합니다.  
+2. MIP 수준을 생성합니다. **이미지 편집기 모드** 도구 모음에서 **고급**, **도구**, **MIP 생성**을 차례로 선택합니다.  
   
      이제 **다음 MIP 수준으로 이동** 및 **이전 MIP 수준으로 이동** 단추가 **이미지 편집기 모드** 도구 모음에 표시됩니다. **속성** 창이 표시되면 **MIP 수준** 및 **MIP 수준 수** 읽기 전용 속성이 이미지 속성에 표시됩니다.  
   
@@ -37,12 +37,12 @@ ms.locfileid: "54774064"
   
 #### <a name="to-modify-an-individual-mip-level"></a>개별 MIP 수준을 수정하려면  
   
-1.  수정하려는 MIP 수준을 선택합니다. **이미지 편집기 모드** 도구 모음에서 **다음 MIP 수준으로 이동** 및 **이전 MIP 수준으로 이동** 단추를 사용하여 MIP 수준 간에 이동합니다.  
+1. 수정하려는 MIP 수준을 선택합니다. **이미지 편집기 모드** 도구 모음에서 **다음 MIP 수준으로 이동** 및 **이전 MIP 수준으로 이동** 단추를 사용하여 MIP 수준 간에 이동합니다.  
   
-2.  수정하려는 MIP 수준을 선택하면 그리기 도구를 사용하여 다른 MIP 수준의 콘텐츠를 변경하지 않고 수정할 수 있습니다. 그리기 도구는 **이미지 편집기** 도구 모음에서 사용할 수 있습니다. 도구를 선택하면 **속성** 창에서 해당 속성을 변경할 수 있습니다. 그리기 도구 및 해당 속성에 대한 자세한 내용은 [이미지 편집기](../designers/image-editor.md)를 참조하세요.  
+2. 수정하려는 MIP 수준을 선택하면 그리기 도구를 사용하여 다른 MIP 수준의 콘텐츠를 변경하지 않고 수정할 수 있습니다. 그리기 도구는 **이미지 편집기** 도구 모음에서 사용할 수 있습니다. 도구를 선택하면 **속성** 창에서 해당 속성을 변경할 수 있습니다. 그리기 도구 및 해당 속성에 대한 자세한 내용은 [이미지 편집기](../designers/image-editor.md)를 참조하세요.  
   
 > [!NOTE]
->  특정 효과를 얻기 위해 수행할 수 있는 것처럼 개별 MIP 수준의 콘텐츠를 수정할 필요가 없는 경우 빌드할 때 원본 질감에서 MIP 맵을 생성하는 것이 좋습니다. 이렇게 하면 MIP 수준 수정이 자동으로 다른 수준으로 전파되지 않으므로 MIP 수준이 원본 질감과 동기화되도록 할 수 있습니다. 빌드 시간에 MIP 맵을 생성하는 방법에 대한 자세한 내용은 [방법: MIP 맵을 포함하는 질감 내보내기](../designers/how-to-export-a-texture-that-contains-mipmaps.md)를 참조하세요.  
+>  특정 효과를 얻기 위해 수행할 수 있는 것처럼 개별 MIP 수준의 콘텐츠를 수정할 필요가 없는 경우 빌드할 때 원본 질감에서 MIP 맵을 생성하는 것이 좋습니다. 이렇게 하면 MIP 수준 수정이 자동으로 다른 수준으로 전파되지 않으므로 MIP 수준이 원본 질감과 동기화되도록 할 수 있습니다. 빌드 시간에 밉 맵을 생성하는 방법에 대한 자세한 내용은 [방법: Mip 맵을 포함 하는 질감 내보내기](../designers/how-to-export-a-texture-that-contains-mipmaps.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 기본 질감 만들기](../designers/how-to-create-a-basic-texture.md)
