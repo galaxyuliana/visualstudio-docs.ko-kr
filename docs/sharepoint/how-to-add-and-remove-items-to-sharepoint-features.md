@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 949014204f67f16e22d25cd604585a229c8967e6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f3454ca7c01b44dcae60156e93bffde351209cc5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619227"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099379"
 ---
 # <a name="how-to-add-and-remove-items-to-sharepoint-features"></a>방법: SharePoint 기능에 항목 추가 및 제거
   SharePoint 솔루션을 만들 때 Visual Studio 기능에 기본 SharePoint 프로젝트 항목을 추가 합니다. 배포 하기 전에 추가 하는 SharePoint 기능을 수정 하려면 SharePoint 프로젝트 항목을 제거 합니다.
@@ -46,9 +46,9 @@ ms.locfileid: "56619227"
 
 #### <a name="to-remove-sharepoint-items-with-the-feature-designer"></a>기능 디자이너를 사용 하 여 SharePoint 항목을 제거 하려면
 
-1.  하나 이상의 항목을 선택 합니다 **기능의 항목** 목록입니다.
+1. 하나 이상의 항목을 선택 합니다 **기능의 항목** 목록입니다.
 
-2.  선택는 **제거** 단추 (<) 한 번에 하나의 항목을 제거 하거나 선택 합니다 **모두 제거** 단추 (<<) 모든 항목을 제거 합니다.
+2. 선택는 **제거** 단추 (<) 한 번에 하나의 항목을 제거 하거나 선택 합니다 **모두 제거** 단추 (<<) 모든 항목을 제거 합니다.
 
      SharePoint 프로젝트 항목에 표시 된 **솔루션에서 항목** 목록입니다.
 

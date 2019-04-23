@@ -10,21 +10,21 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e4d1dd6d8f4d64400b4b2358dd47971f3111dcf1
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 3fc77e24a1a9ca72d6f689247f0de6a9e0bf26cc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700694"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098937"
 ---
 # <a name="debugger-contexts"></a>디버거 컨텍스트
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 디버깅, 디버그 엔진 (DE) 동시에 여러 고유한 컨텍스트 내에서 같이 작동 합니다.
 
--   프로그램의 실행 스트림의 현재 위치를 설명 하는 코드 컨텍스트.
+- 프로그램의 실행 스트림의 현재 위치를 설명 하는 코드 컨텍스트.
 
--   문서 컨텍스트 또는 원본 문서 내의 현재 위치를 설명 하는 위치입니다.
+- 문서 컨텍스트 또는 원본 문서 내의 현재 위치를 설명 하는 위치입니다.
 
--   식 계산 컨텍스트는 식의 평가 수행 하는 컨텍스트를 설명 합니다.
+- 식 계산 컨텍스트는 식의 평가 수행 하는 컨텍스트를 설명 합니다.
 
 ## <a name="in-this-section"></a>단원 내용
  [코드 컨텍스트](../../extensibility/debugger/code-context.md) 코드를 지침은, 하지만 다른 방법 변수로 표현 되지 않을 수 있습니다 위치 않던 언어 및 오늘날의 런타임 아키텍처에서 프로그램의 명령 스트림의 주소로 코드 컨텍스트에 설명 합니다.

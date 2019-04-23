@@ -10,12 +10,12 @@ ms.assetid: a208d38e-9bea-41c9-9fe2-38bd86a359cb
 caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4cbce5c13c51747a08b3832440ef91ace3d6a89c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0bb90723a72c10dbf6cfda5edd4aa68f71f1c6b9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970710"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098132"
 ---
 # <a name="adapting-legacy-code-to-the-editor"></a>레거시 코드 편집기로 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,9 +75,9 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
   
 #### <a name="to-create-an-adapter-for-ivstextview"></a>IVsTextView에 대 한 어댑터를 만들려면  
   
-1.  Microsoft.VisualStudio.Editor.dll에 대 한 참조를 추가 합니다. 했는지 `CopyLocal` 로 설정 된 `false`합니다.  
+1. Microsoft.VisualStudio.Editor.dll에 대 한 참조를 추가 합니다. 했는지 `CopyLocal` 로 설정 된 `false`합니다.  
   
-2.  인스턴스화하는 <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>다음과 같이 합니다.  
+2. 인스턴스화하는 <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>다음과 같이 합니다.  
   
     ```  
     using Microsoft.VisualStudio.Editor;  
@@ -85,7 +85,7 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
     IVsEditorAdaptersFactoryService adapterFactoryService = ComponentModel.GetService<IVsEditorAdaptersFactoryService>();  
     ```  
   
-3.  `CreateX()` 메서드를 호출합니다.  
+3. `CreateX()` 메서드를 호출합니다.  
   
     ```  
     adapterFactoryService.CreateTextViewAdapter(textView);  
@@ -96,9 +96,9 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
   
 #### <a name="to-get-an-ivxtextbuffer"></a>IVxTextBuffer를 가져오려면  
   
-1.  IVx* 인터페이스에 대 한 정의에 VSEditor.h 파일에 포함 되는... Visual Studio SDK 설치의 \VisualStudioIntegration\Common\Inc\ 폴더입니다.  
+1. IVx* 인터페이스에 대 한 정의에 VSEditor.h 파일에 포함 되는... Visual Studio SDK 설치의 \VisualStudioIntegration\Common\Inc\ 폴더입니다.  
   
-2.  다음 코드를 사용 하 여 텍스트 버퍼를 인스턴스화하는 `IVsUserData->GetData()` 메서드. 다음 코드에서는 `pData` 에 대 한 포인터를 `IVsUserData` 개체입니다.  
+2. 다음 코드를 사용 하 여 텍스트 버퍼를 인스턴스화하는 `IVsUserData->GetData()` 메서드. 다음 코드에서는 `pData` 에 대 한 포인터를 `IVsUserData` 개체입니다.  
   
     ```  
     #include <textmgr.h>  
@@ -125,9 +125,9 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
   
 #### <a name="to-consume-visual-studio-editor-components-from-a-non-mef-component"></a>비-MEF 구성 요소에서 Visual Studio 편집기 구성 요소를 사용 하려면  
   
-1.  Microsoft.VisualStudio.ComponentModelHost.dll 어셈블리에 대 한 참조를 추가 합니다... Visual Studio 설치의 \Common7\IDE\ 폴더입니다. 했는지 `CopyLocal` 로 설정 된 `false`합니다.  
+1. Microsoft.VisualStudio.ComponentModelHost.dll 어셈블리에 대 한 참조를 추가 합니다... Visual Studio 설치의 \Common7\IDE\ 폴더입니다. 했는지 `CopyLocal` 로 설정 된 `false`합니다.  
   
-2.  개인 추가 `IComponentModel` Visual Studio 편집기 서비스를 다음과 같이 사용 하려는 클래스 멤버입니다.  
+2. 개인 추가 `IComponentModel` Visual Studio 편집기 서비스를 다음과 같이 사용 하려는 클래스 멤버입니다.  
   
     ```  
     using Microsoft.VisualStudio.ComponentModelHost;  
@@ -135,14 +135,14 @@ VsLocalCreateInstance(CLSID_VsTextBuffer, NULL, CLSCTX_INPROC_SERVER, IID_IVsTex
     private IComponentModel componentModel;  
     ```  
   
-3.  구성 요소에 대 한 초기화 메서드에서 구성 요소 모델을 인스턴스화하십시오.  
+3. 구성 요소에 대 한 초기화 메서드에서 구성 요소 모델을 인스턴스화하십시오.  
   
     ```  
     componentModel =  
      (IComponentModel)Package.GetGlobalService(typeof(SComponentModel));  
     ```  
   
-4.  그런 다음 Visual Studio 편집기 서비스 중 하나를 호출 하 여 가져올 수 있습니다는 `IComponentModel.GetService<T>()` 원하는 서비스에 대 한 메서드.  
+4. 그런 다음 Visual Studio 편집기 서비스 중 하나를 호출 하 여 가져올 수 있습니다는 `IComponentModel.GetService<T>()` 원하는 서비스에 대 한 메서드.  
   
     ```  
     textBufferFactoryService =  

@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 91462511f5de22c51dd1d6fd07c192a72e69e541
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 5f17be088d27e473af0c45a950541fe0f5b77085
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59232699"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098651"
 ---
 # <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic의 경우 C++)
 
@@ -59,7 +59,7 @@ Visual Studio Enterprise Edition(Professional 또는 Community Edition 아님)�
 > [!NOTE]
 > 이미 실행 중인 프로세스를 디버깅 하려는 경우에 IntelliTrace 이벤트에만 사용 (호출 정보 없음)를 수집할 수 있습니다. 로컬 컴퓨터 에서만 32 비트 또는 64 비트 프로세스에 연결할 수 있습니다. 프로세스에 연결 하기 전에 발생 하는 이벤트 수집 되지 않습니다.
 
-##  <a name="IntelliTraceVSTraditional"></a> IntelliTrace로 디버깅하는 이유는 무엇인가요?
+## <a name="IntelliTraceVSTraditional"></a> IntelliTrace로 디버깅하는 이유는 무엇인가요?
 
 전통적인 디버깅이나 ‘라이브’ 디버깅은 이전 이벤트에 대해 제한된 데이터를 사용하여 애플리케이션의 현재 상태만 보여 줍니다. 응용 프로그램의 현재 상태를 기반으로 이러한 이벤트를 유추하거나 응용 프로그램을 다시 실행하여 이러한 이벤트를 다시 만들어야 합니다.
 
@@ -97,7 +97,7 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
      배포에서 응용 프로그램의 문제를 진단할 때 유용합니다. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md)입니다.
 
-##  <a name="WhatData"></a> IntelliTrace에서 수집하는 데이터는 무엇인가요?
+## <a name="WhatData"></a> IntelliTrace에서 수집하는 데이터는 무엇인가요?
 
 **이벤트 정보를 수집 합니다.**
 

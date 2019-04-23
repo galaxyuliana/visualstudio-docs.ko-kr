@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6171ca233af1ec2af71f11d3248a9d2e670c156b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 9ab9315c428944de0b047192a789eac6aa654073
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665859"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098625"
 ---
 # <a name="how-to-turn-pluralization-on-and-off-or-designer"></a>방법: 복수 적용 설정 및 해제(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,18 +28,18 @@ ms.locfileid: "59665859"
   
 ### <a name="to-turn-pluralization-on-and-off"></a>복수 적용을 설정 및 해제하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
-2.  **옵션** 대화 상자에서 **데이터베이스 도구**를 확장합니다.  
+2. **옵션** 대화 상자에서 **데이터베이스 도구**를 확장합니다.  
   
 > [!NOTE]
 >  **데이터베이스 도구** 노드가 표시되지 않은 경우에는 **모든 설정 표시**를 선택합니다.  
   
-1.  **O/R 디자이너**를 클릭합니다.  
+1. **O/R 디자이너**를 클릭합니다.  
   
-2.  설정 **복수 이름 적용** 하 **사용** = **False** 설정 하는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 클래스 이름은 변경 되지 않습니다 있도록 합니다.  
+2. 설정 **복수 이름 적용** 하 **사용** = **False** 설정 하는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 클래스 이름은 변경 되지 않습니다 있도록 합니다.  
   
-3.  설정 **복수 이름 적용** 에 **Enabled** = **True** 하면 복수 적용 규칙이 추가 된 개체의 클래스 이름에 적용할는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다.  
+3. 설정 **복수 이름 적용** 에 **Enabled** = **True** 하면 복수 적용 규칙이 추가 된 개체의 클래스 이름에 적용할는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3858d10d685e104617a6de7b5c11c87cfee1872d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 74b3fa73c3a67c721b9311a964e26fa9ab48c16e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54802795"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098969"
 ---
 # <a name="how-to-export-a-shader"></a>방법: 셰이더 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,20 +23,20 @@ ms.locfileid: "54802795"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   셰이더 내보내기  
+- 셰이더 내보내기  
   
 ## <a name="exporting-a-shader"></a>셰이더 내보내기  
  셰이더 디자이너를 사용하여 셰이더를 만든 후, 앱에서 사용하기 전에 그래픽 API가 이해하는 형식으로 셰이더를 내보내야 합니다. 요구 사항에 따라 다양한 방법으로 셰이더를 내보낼 수 있습니다.  
   
 #### <a name="to-export-a-shader"></a>셰이더를 내보내려면  
   
-1.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 **시각적 셰이더 그래프(.dgsl)** 파일을 엽니다.  
+1. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 **시각적 셰이더 그래프(.dgsl)** 파일을 엽니다.  
   
-     열 수 있는 **시각적 셰이더 그래프(.dgsl)** 파일이 없으면 [방법: 기본 색 셰이더 만들기](../designers/how-to-create-a-basic-color-shader.md)에 설명된 대로 파일을 만듭니다.  
+     열 수 있는 **시각적 셰이더 그래프(.dgsl)** 파일이 없으면 [방법: 기본 색 셰이더 만들기](../designers/how-to-create-a-basic-color-shader.md)합니다.  
   
-2.  **셰이더 디자이너** 도구 모음에서 **고급**, **내보내기**, **다른 이름으로 내보내기**를 선택합니다. **셰이더 내보내기** 대화 상자가 표시됩니다.  
+2. **셰이더 디자이너** 도구 모음에서 **고급**, **내보내기**, **다른 이름으로 내보내기**를 선택합니다. **셰이더 내보내기** 대화 상자가 표시됩니다.  
   
-3.  **파일 형식** 드롭다운 목록에서 내보내려는 형식을 선택합니다.  
+3. **파일 형식** 드롭다운 목록에서 내보내려는 형식을 선택합니다.  
   
      선택할 수 있는 형식은 다음과 같습니다.  
   
@@ -49,7 +49,7 @@ ms.locfileid: "54802795"
      **C++ 헤더(\*.h)**  
      HLSL 바이트 코드가 포함된 바이트 배열을 정의하는 C 스타일 헤더로 셰이더를 내보냅니다. 이 옵션을 사용하면 수정 사항을 테스트하기 위해 앱을 다시 컴파일해야 하므로 최종 사용자 문제에 따라 코드를 디버그 및 패치하는 데 더 많은 시간이 사용될 수 있습니다. 그러나 이 옵션을 사용하면 앱에 배포된 후 셰이더를 수정하기가 어려울 수 있지만 바람직하지 않은 방법으로 셰이더를 수정하려는 사용자가 가장 힘들 것입니다.  
   
-4.  **파일 이름** 콤보 상자에서 내보낸 셰이더의 이름을 지정하고 **저장** 단추를 선택합니다.  
+4. **파일 이름** 콤보 상자에서 내보낸 셰이더의 이름을 지정하고 **저장** 단추를 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 기본 색 셰이더 만들기](../designers/how-to-create-a-basic-color-shader.md)   

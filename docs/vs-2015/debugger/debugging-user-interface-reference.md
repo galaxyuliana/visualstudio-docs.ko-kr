@@ -22,12 +22,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f84df26f2dbdd000c61f93b092e2150b2c2242f6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 59cc4e96630be23ee864e3d5a03cbb6dde709695
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971613"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098850"
 ---
 # <a name="debugging-user-interface-reference"></a>사용자 인터페이스 참조 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,17 +36,17 @@ ms.locfileid: "58971613"
   
  Visual Studio 확장성 모델을 사용하면 많은 디버거 기능을 자동화할 수 있습니다. 자세한 내용은 Visual Studio Debugging SDK를 참조하십시오.  
   
--   [중단점 선택 대화 상자](../debugger/choose-breakpoints-dialog-box.md)  
+- [중단점 선택 대화 상자](../debugger/choose-breakpoints-dialog-box.md)  
   
--   [솔루션 속성 페이지 대화 상자, 공용 속성, 소스 파일 디버그](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)  
+- [솔루션 속성 페이지 대화 상자, 공용 속성, 소스 파일 디버그](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)  
   
--   [옵션 대화 상자, 디버깅](../debugger/debugging-options-dialog-box.md)  
+- [옵션 대화 상자, 디버깅](../debugger/debugging-options-dialog-box.md)  
   
--   [편집하며 계속하기 대화 상자](../debugger/edit-and-continue-dialog-box.md)  
+- [편집하며 계속하기 대화 상자](../debugger/edit-and-continue-dialog-box.md)  
   
--   [진행하고 있는 디버깅을 중지하고 있습니다... 대화 상자](../debugger/stop-debugging-in-progress-dialog-box.md)  
+- [진행하고 있는 디버깅을 중지하고 있습니다... 대화 상자](../debugger/stop-debugging-in-progress-dialog-box.md)  
   
--   [디버깅 오류 및 경고 대화 상자](../debugger/debugging-errors-and-warning-dialog-boxes.md)  
+- [디버깅 오류 및 경고 대화 상자](../debugger/debugging-errors-and-warning-dialog-boxes.md)  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)   

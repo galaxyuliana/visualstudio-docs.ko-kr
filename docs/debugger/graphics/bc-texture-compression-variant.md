@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1edc2182b475fca2cb641a2b7598ea5164db368d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 3a25411449c1b13b12f05819061847c252a76c9c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680427"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094088"
 ---
 # <a name="bc-texture-compression-variant"></a>BC 텍스처 압축 변형
 B8G8R8X8, B8G8R8A8 또는 R8G8B8A8의 변형인 픽셀 형식이 있는 질감에 대한 블록 압축을 사용하도록 설정합니다.
@@ -23,18 +23,18 @@ B8G8R8X8, B8G8R8A8 또는 R8G8B8A8의 변형인 픽셀 형식이 있는 질감�
 
  질감이 블록 기반 압축에 적절하고 완벽한 색 충실도가 필요 없는 경우 블록 압축 형식을 사용하여 메모리와 대역폭 사용량을 줄일 것을 고려해 보세요. 
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  원본 질감을 만드는 `ID3DDevice::CreateTexture2D`를 호출할 때마다 블록 기반 압축 형식을 사용하여 질감을 압축합니다. 특히, 질감은 다음과 같은 경우 압축됩니다.
 
 - `D3D11_TEXTURE2D_DESC`에서 전달된 `pDesc` 개체가 변하지 않는 셰이더를 설명하는 경우, 즉 다음과 같은 경우입니다.
 
-  -   BindFlags 멤버에 D3D11_BIND_SHADER_RESOURCE 플래그 집합만 있는 경우
+  - BindFlags 멤버에 D3D11_BIND_SHADER_RESOURCE 플래그 집합만 있는 경우
 
-  -   Usage 멤버가 D3D11_USAGE_DEFAULT 또는 D3D11_USAGE_IMMUTABLE로 설정된 경우
+  - Usage 멤버가 D3D11_USAGE_DEFAULT 또는 D3D11_USAGE_IMMUTABLE로 설정된 경우
 
-  -   CPUAccessFlags 멤버가 0으로 설정된 경우(CPU 액세스 없음)
+  - CPUAccessFlags 멤버가 0으로 설정된 경우(CPU 액세스 없음)
 
-  -   SamplerDesc 멤버에 1로 설정된 Count 멤버가 있는 경우(MSAA(MultiSample Anti-Aliasing) 없음)
+  - SamplerDesc 멤버에 1로 설정된 Count 멤버가 있는 경우(MSAA(MultiSample Anti-Aliasing) 없음)
 
 - 초기 데이터가 `CreateTexture2D`에 대한 호출에 제공된 경우
 

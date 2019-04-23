@@ -16,12 +16,12 @@ ms.technology: vs-ide-general
 ms.topic: reference
 ms.workload:
 - multiple
-ms.openlocfilehash: db30c3d74a7742daa3c9cf7225bc2a38062dc6e4
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 44938c5753491521702867398a514f770cf831fb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660699"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099392"
 ---
 # <a name="per-monitor-awareness-support-for-visual-studio-extenders"></a>Visual Studio extender에 대 한 모니터별 인식을 지원
 Visual Studio 2019 이전 버전의 DPI 인식 컨텍스트를 인식 모니터별 DPI 인식 (PMA) 보다는 시스템으로 설정 했습니다. 성능이 저하 된 시각적 개체에서 생성 한 인식 시스템에서에서 실행 중인 Visual Studio를 렌더링 해야 했던 다른 배율 인수 또는 원격을 사용 하 여 모니터 디스플레이 구성을 사용 하 여 컴퓨터에 예를 들어 (다른 때마다 (예: 흐리게 글꼴 또는 아이콘) 환경 Windows 확장)입니다.
@@ -39,9 +39,9 @@ Visual Studio 2019 이전 버전의 DPI 인식 컨텍스트를 인식 모니터�
 
 ## <a name="enabling-pma"></a>PMA를 사용 하도록 설정
 PMA Visual studio에서를 사용 하려면 다음 요구 사항을 충족 해야 합니다.
-1)  Windows 10 2018 년 4 월 업데이트 (v1803 RS4) 이상
-2)  .NET framework 4.8 RTM 이상
-3)  사용 하 여 visual Studio 2019 합니다 ["다른 픽셀 밀도 사용 하 여 화면에 대 한 최적화 렌더링"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) 옵션이 사용 하도록 설정
+1) Windows 10 2018 년 4 월 업데이트 (v1803 RS4) 이상
+2) .NET framework 4.8 RTM 이상
+3) 사용 하 여 visual Studio 2019 합니다 ["다른 픽셀 밀도 사용 하 여 화면에 대 한 최적화 렌더링"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) 옵션이 사용 하도록 설정
 
 이러한 요구 사항이 충족 되 면 Visual Studio 프로세스 전체에서 PMA 모드를 자동으로 사용 됩니다.
 
@@ -203,6 +203,7 @@ VsUI::CDpiAwareness::LogicalToDeviceUnitsY(m_hwnd, &cy);
 비 WPF 도구 창을 완벽 하 게 지원 PMA 마이그레이션 중인 경우 CLMM 옵트아웃 해야 합니다. 이렇게 하려면 새 인터페이스를 구현 해야 합니다. IVsDpiAware 합니다.
 
 C#: 
+
 ```cs
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
 public interface IVsDpiAeware
@@ -213,6 +214,7 @@ public interface IVsDpiAeware
 ```
  
 C++:
+
 ```cpp
 IVsDpiAware : public IUnknown
 {
@@ -245,6 +247,7 @@ enum __VSDPIMODE
 PMA 모드를 지원 하도록 업데이트 되지 않은 기존 UI PMA 모드로 Visual Studio가 실행 하는 동안 작업을 사소한 변경 해야 할 수 있습니다. 이러한 하나의 수정 오른쪽 DpiAwarenessContext에서 UI를 만들 수 있도록 해야 합니다. UI를 특정 DpiAwarenessContext에 강제 적용 하려면 다음 코드를 사용 하 여 DPI 범위를 입력할 수 있습니다.
 
 C#: 
+
 ```cs
 using (DpiAwareness.EnterDpiScope(DpiAwarenessContext.SystemAware))
 {
@@ -254,6 +257,7 @@ using (DpiAwareness.EnterDpiScope(DpiAwarenessContext.SystemAware))
 ```
 
 C++:
+
 ```cpp
 void MyClass::ShowDialog()
 {

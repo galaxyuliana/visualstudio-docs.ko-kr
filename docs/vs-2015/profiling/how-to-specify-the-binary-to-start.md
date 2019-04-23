@@ -1,5 +1,5 @@
 ---
-title: '방법: 시작할 이진 파일 지정 | Microsoft 문서'
+title: '방법: 시작할 이진 파일 지정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -15,12 +15,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 45b5e3ba98c526ffea1ab63f58ef9193a3eaae75
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 919e84393cf4aef929a504aadbefe905afe24bfb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54759895"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098430"
 ---
 # <a name="how-to-specify-the-binary-to-start"></a>방법: 시작할 이진 파일 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,23 +29,23 @@ DLL 같은 이진 파일을 프로파일링하려면 **\<Target> 속성 페이�
   
  **요구 사항**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 ### <a name="to-specify-the-executable-to-start"></a>시작할 실행 파일을 지정하려면  
   
-1.  **성능 탐색기**에서 대상 이진 파일을 마우스 오른쪽 단추로 클릭한 다음 **속성**을 클릭합니다.  
+1. **성능 탐색기**에서 대상 이진 파일을 마우스 오른쪽 단추로 클릭한 다음 **속성**을 클릭합니다.  
   
-2.  **속성 페이지** 대화 상자에서 **시작** 속성을 클릭합니다.  
+2. **속성 페이지** 대화 상자에서 **시작** 속성을 클릭합니다.  
   
-3.  **프로젝트 속성 재정의** 확인란을 선택합니다.  
+3. **프로젝트 속성 재정의** 확인란을 선택합니다.  
   
-4.  **시작할 실행 파일** 텍스트 상자에 파일 위치를 지정합니다.  
+4. **시작할 실행 파일** 텍스트 상자에 파일 위치를 지정합니다.  
   
-5.  **인수** 텍스트 상자에 애플리케이션 시작에 필요한 인수를 지정합니다.  
+5. **인수** 텍스트 상자에 응용 프로그램 시작에 필요한 인수를 지정합니다.  
   
-6.  **작업 디렉터리** 텍스트 상자에 디렉터리 위치를 지정합니다.  
+6. **작업 디렉터리** 텍스트 상자에 디렉터리 위치를 지정합니다.  
   
-7.  **확인**을 클릭합니다.  
+7. **확인**을 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [성능 세션 구성](../profiling/configuring-performance-sessions.md)

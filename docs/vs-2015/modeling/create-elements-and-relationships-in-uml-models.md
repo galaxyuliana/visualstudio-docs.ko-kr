@@ -11,12 +11,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4b31faa7c71a0f4072d922528a1abc4d040e7dae
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: ce1f236347ad811f1c5d115f30907b7e3356e3af
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "59001970"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099275"
 ---
 # <a name="create-elements-and-relationships-in-uml-models"></a>UML 모델에서 요소 및 관계 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,11 +87,11 @@ using Microsoft.VisualStudio.Uml.Extensions;
   
 #### <a name="to-create-an-association"></a>연결을 만들려면  
   
-1.  대개 관계의 소스 끝이 포함된 패키지 또는 모델인 연결의 소유자를 가져옵니다.  
+1. 대개 관계의 소스 끝이 포함된 패키지 또는 모델인 연결의 소유자를 가져옵니다.  
   
-2.  소유자에 대해 필요한 Create 메서드를 호출합니다.  
+2. 소유자에 대해 필요한 Create 메서드를 호출합니다.  
   
-3.  이름과 같은 관계의 속성을 설정합니다.  
+3. 이름과 같은 관계의 속성을 설정합니다.  
   
      예를 들어:  
   
@@ -100,7 +100,7 @@ using Microsoft.VisualStudio.Uml.Extensions;
     association .Name = "Observes";  
     ```  
   
-4.  관계의 각 끝에 대한 속성을 설정합니다. 항상 `MemberEnds` 두 개가 있습니다. 예를 들어:  
+4. 관계의 각 끝에 대한 속성을 설정합니다. 항상 `MemberEnds` 두 개가 있습니다. 예를 들어:  
   
     ```  
     association .MemberEnds[0].Name = "subject";   // role name  
@@ -125,9 +125,9 @@ anElement.Delete();
   
  모델에서 요소를 삭제할 경우:  
   
--   연결된 모든 관계도 삭제됩니다.  
+- 연결된 모든 관계도 삭제됩니다.  
   
--   다이어그램에서 요소를 나타낸 모든 모양도 삭제됩니다.  
+- 다이어그램에서 요소를 나타낸 모든 모양도 삭제됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)   
