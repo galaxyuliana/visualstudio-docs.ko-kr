@@ -14,12 +14,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 67b3034ee1d651289c167b894b0417d11b5995e8
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 52a2d7c239c9a4f3508f4bdb2077928e44ff802a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653088"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107049"
 ---
 # <a name="walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework"></a>연습: WPF 및 Entity Framework를 사용하여 WCF 데이터 서비스 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,22 +28,22 @@ ms.locfileid: "59653088"
   
  이 연습에서는 다음과 같은 작업을 수행합니다.  
   
--   [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 호스팅하는 웹 응용 프로그램을 만듭니다.  
+- [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 호스팅하는 웹 응용 프로그램을 만듭니다.  
   
--   Northwind 데이터베이스의 Customers 테이블을 나타내는 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)]을 만듭니다.  
+- Northwind 데이터베이스의 Customers 테이블을 나타내는 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)]을 만듭니다.  
   
--   [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 만듭니다.  
+- [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 만듭니다.  
   
--   클라이언트 응용 프로그램을 만들고 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에 대한 참조를 추가합니다.  
+- 클라이언트 응용 프로그램을 만들고 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에 대한 참조를 추가합니다.  
   
--   서비스에 대한 데이터 바인딩을 활성화하고 사용자 인터페이스를 생성합니다.  
+- 서비스에 대한 데이터 바인딩을 활성화하고 사용자 인터페이스를 생성합니다.  
   
--   필요한 경우 응용 프로그램에 필터링 기능을 추가합니다.  
+- 필요한 경우 응용 프로그램에 필터링 기능을 추가합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.  
   
--   Northwind 샘플 데이터베이스  
+- Northwind 샘플 데이터베이스  
   
      이 데이터베이스가 개발 컴퓨터에 없는 경우 [Microsoft 다운로드 센터](http://go.microsoft.com/fwlink/?LinkID=98088)에서 다운로드할 수 있습니다. 자세한 내용은 [샘플 데이터베이스 다운로드](http://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5)합니다.  
   
@@ -80,11 +80,11 @@ ms.locfileid: "59653088"
   
 5. **데이터 연결 선택** 페이지에서 다음 단계 중 하나를 수행합니다.  
   
-   -   Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.  
+   - Northwind 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.  
   
         또는  
   
-   -   **새 연결** 단추를 선택하여 새 데이터 연결을 구성합니다. 자세한 내용은 [새 연결 추가](../data-tools/add-new-connections.md)합니다.  
+   - **새 연결** 단추를 선택하여 새 데이터 연결을 구성합니다. 자세한 내용은 [새 연결 추가](../data-tools/add-new-connections.md)합니다.  
   
 6. 데이터베이스에 암호가 필요한 경우 **예, 중요한 데이터를 연결 문자열에 포함합니다.** 옵션 단추를 선택한 후, **다음** 단추를 선택합니다.  
   
@@ -236,11 +236,11 @@ ms.locfileid: "59653088"
   
 #### <a name="to-add-filtering-by-city"></a>구/군/시 기준 필터링을 추가하려면  
   
-1.  **솔루션 탐색기**에서 **Form1.vb** 또는 **Form1.cs** 노드의 바로 가기 메뉴를 열고 **열기**를 선택합니다.  
+1. **솔루션 탐색기**에서 **Form1.vb** 또는 **Form1.cs** 노드의 바로 가기 메뉴를 열고 **열기**를 선택합니다.  
   
-2.  <xref:System.Windows.Forms.Button>도구 상자**에서 <xref:System.Windows.Forms.TextBox> 컨트롤 및**  컨트롤을 폼에 추가합니다.  
+2. <xref:System.Windows.Forms.Button>도구 상자**에서 <xref:System.Windows.Forms.TextBox> 컨트롤 및**  컨트롤을 폼에 추가합니다.  
   
-3.  바로 가기 메뉴를 열고 합니다 <xref:System.Windows.Forms.Button> 컨트롤을 선택 **코드 보기**에서 다음 코드를 추가 하 고는 `Button1_Click` 이벤트 처리기:  
+3. 바로 가기 메뉴를 열고 합니다 <xref:System.Windows.Forms.Button> 컨트롤을 선택 **코드 보기**에서 다음 코드를 추가 하 고는 `Button1_Click` 이벤트 처리기:  
   
     ```vb  
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click  
@@ -269,11 +269,11 @@ ms.locfileid: "59653088"
     }  
     ```  
   
-4.  앞의 코드에서 `http://localhost:53161/NorthwindCustomers.svc`를 `Form1_Load` 이벤트 처리기의 URL로 바꿉니다.  
+4. 앞의 코드에서 `http://localhost:53161/NorthwindCustomers.svc`를 `Form1_Load` 이벤트 처리기의 URL로 바꿉니다.  
   
-5.  메뉴 모음에서 선택 **디버그**를 **디버깅 시작** 응용 프로그램을 실행 합니다.  
+5. 메뉴 모음에서 선택 **디버그**를 **디버깅 시작** 응용 프로그램을 실행 합니다.  
   
-6.  텍스트 상자에 **London**을 입력한 다음, 단추를 선택합니다. London의 고객만 표시됩니다.  
+6. 텍스트 상자에 **London**을 입력한 다음, 단추를 선택합니다. London의 고객만 표시됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   

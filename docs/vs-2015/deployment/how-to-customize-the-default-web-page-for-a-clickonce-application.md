@@ -18,12 +18,12 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a8fc28666a7b0c1d44ad36fabffa19974fea5956
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 275d3d0547d83e794801c45a7554d58e181d64e7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981696"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107062"
 ---
 # <a name="how-to-customize-the-default-web-page-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 기본 웹 페이지 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,13 +42,13 @@ ClickOnce 응용 프로그램을 웹에 게시할 때 웹 페이지를 자동으
   
 ### <a name="to-customize-the-publish-web-page"></a>게시 웹 페이지 사용자 지정 하려면  
   
-1.  웹 위치를 ClickOnce 응용 프로그램을 게시 합니다. 자세한 내용은 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.  
+1. 웹 위치를 ClickOnce 응용 프로그램을 게시 합니다. 자세한 내용은 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.  
   
-2.  웹 서버에 Visual Web Designer 또는 다른 HTML 편집기에서 Publish.htm 파일을 엽니다.  
+2. 웹 서버에 Visual Web Designer 또는 다른 HTML 편집기에서 Publish.htm 파일을 엽니다.  
   
-3.  필요에 따라 페이지를 사용자 지정 하 고 저장 합니다.  
+3. 필요에 따라 페이지를 사용자 지정 하 고 저장 합니다.  
   
-4.  선택 사항입니다. Visual Studio를에서 지정 된 게시 웹 페이지를 덮어쓰지 않도록 하려면 선택 취소 **자동으로 배포 웹 페이지 생성 모든 게시** 게시 옵션 대화 상자에서.  
+4. 선택 사항입니다. Visual Studio를에서 지정 된 게시 웹 페이지를 덮어쓰지 않도록 하려면 선택 취소 **자동으로 배포 웹 페이지 생성 모든 게시** 게시 옵션 대화 상자에서.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)   

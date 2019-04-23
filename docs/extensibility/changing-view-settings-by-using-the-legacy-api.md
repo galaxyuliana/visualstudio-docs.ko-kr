@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 85a0cb811ecb21cf0dd607bd046011bb7018f3cd
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: dc0dc26a01cdddb4b26dfa65acab2c497618a76e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56697600"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106490"
 ---
 # <a name="change-view-settings-by-using-the-legacy-api"></a>기존 API를 사용 하 여 보기 설정 변경
 가상 공간, 자동 줄 바꿈 및 선택 영역 여백 등의 핵심 편집기 기능에 대 한 설정을 이용 하 여 사용자가 변경할 수 있습니다 합니다 **옵션** 대화 상자. 하지만 이러한 설정을 변경할 수 이기도 프로그래밍 방식으로 합니다.
@@ -25,13 +25,13 @@ ms.locfileid: "56697600"
 
  다음은 핵심 편집기 인스턴스에 대 한 보기 설정을 변경 하기 위한 일반적인 프로세스입니다.
 
-1.  호출 `QueryInterface` 에 (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>)에 대 한는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> 인터페이스입니다.
+1. 호출 `QueryInterface` 에 (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>)에 대 한는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> 인터페이스입니다.
 
-2.  호출 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory%2A> GUID_EditPropCategory_View_MasterSettings에 대 한 값을 지정 하는 메서드를는 `rguidCategory` 매개 변수입니다.
+2. 호출 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory%2A> GUID_EditPropCategory_View_MasterSettings에 대 한 값을 지정 하는 메서드를는 `rguidCategory` 매개 변수입니다.
 
      이렇게에 대 한 포인터를 반환 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> 인터페이스 뷰에 대 한 강제 속성 집합이 포함 되어 있습니다. 이 그룹의 모든 설정이 영구적으로 강제로 적용 합니다. 설정이이 그룹에 없는 경우 지정 된 옵션 따릅니다 합니다 **옵션** 대화 상자 또는 사용자의 명령을 합니다.
 
-3.  호출을 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> 메서드에 적절 한 설정 값을 지정 하는 `idprop` 매개 변수입니다.
+3. 호출을 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> 메서드에 적절 한 설정 값을 지정 하는 `idprop` 매개 변수입니다.
 
      예를 들어, 자동 줄 바꿈을 강제 적용 하려면 호출 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> VSEDITPROPID_ViewLangOpt_WordWrap의 값을 지정 `vt` 에 대 한는 `idprop` 매개 변수입니다. 이 호출 `vt` VT_BOOL 형식의 변형 및 `vt.boolVal` 가 VARIANT_TRUE입니다.
 

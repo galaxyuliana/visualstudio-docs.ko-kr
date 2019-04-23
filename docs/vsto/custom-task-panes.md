@@ -25,12 +25,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f034797a773602f714ce69193ce6987ba9560bf5
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: 9e6ebd09188e737e75c9e5f66ed95411e1a9453d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526709"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106204"
 ---
 # <a name="custom-task-panes"></a>사용자 지정 작업창
   작업창은 일반적으로 Microsoft Office 응용 프로그램에서 창의 한쪽에 도킹된 사용자 인터페이스 패널입니다. 사용자 지정 작업창을 사용하면 사용자 고유의 작업창을 만들고 사용자에게 솔루션 기능에 액세스하기 위한 친숙한 인터페이스를 제공할 수 있습니다. 예를 들어 인터페이스에는 문서를 수정하거나 데이터 소스의 데이터를 표시하는 코드를 실행하는 컨트롤이 포함될 수 있습니다.
@@ -126,7 +126,7 @@ ms.locfileid: "57526709"
 
  VSTO 추가 기능이 언로드되면 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]에서 사용자 지정 작업창이 사용하는 리소스를 자동으로 정리합니다. 호출 하지 마십시오는 <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> 또는 <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> 에서 메서드를 `ThisAddIn_Shutdown` 프로젝트에서 이벤트 처리기입니다. `ThisAddIn_Shutdown`이 호출되기 전에 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]에서 <xref:Microsoft.Office.Tools.CustomTaskPane> 개체가 사용하는 리소스를 정리하기 때문에 이러한 메서드에서 <xref:System.ObjectDisposedException>이 발생합니다. 에 대 한 자세한 내용은 `ThisAddIn_Shutdown`를 참조 하세요 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)
 
-##  <a name="Managing"></a> 여러 응용 프로그램 창에 대 한 사용자 지정 작업창 관리
+## <a name="Managing"></a> 여러 응용 프로그램 창에 대 한 사용자 지정 작업창 관리
  응용 프로그램에서 여러 창을 사용하여 문서 및 기타 항목을 표시하는 사용자 지정 작업창을 만드는 경우 사용자가 예상하는 시기에 작업창이 표시되도록 추가 단계를 수행해야 합니다.
 
  모든 응용 프로그램의 사용자 지정 작업창은 사용자에게 문서 또는 항목의 뷰를 제공하는 문서 프레임 창에 연결됩니다. 작업창은 연결된 창이 표시되는 경우에만 표시됩니다. 그러나 일부 응용 프로그램은 문서 프레임 창을 동일한 방식으로 사용합니다.
@@ -137,7 +137,7 @@ ms.locfileid: "57526709"
 
 - [Word, InfoPath 및 PowerPoint](#WordAndInfoPath)
 
-##  <a name="Outlook"></a> Outlook
+## <a name="Outlook"></a> Outlook
  Outlook에 대한 사용자 지정 작업창을 만드는 경우 사용자 지정 작업창이 특정 탐색기 또는 검사기 창에 연결됩니다. 탐색기 폴더의 내용을 표시 하는 windows 되며 검사기 전자 메일 메시지 또는 작업 같은 항목을 표시 하는 창입니다.
 
  여러 탐색기 또는 검사기 창이 포함된 사용자 지정 작업창을 표시하려는 경우 탐색기 또는 검사기 창이 열릴 때 사용자 지정 작업창의 새 인스턴스를 만들어야 합니다. 이렇게 하려면 탐색기 또는 검사기 창을 만들 때 발생하는 이벤트를 처리한 다음 이벤트 처리기에서 작업창을 만듭니다. 표시되는 창에 따라 탐색기 및 검사기 이벤트를 처리하여 작업창을 숨기거나 표시할 수도 있습니다.
@@ -167,7 +167,7 @@ ms.locfileid: "57526709"
 
  사용자 지정 작업창을 명시적으로 제거하지 않는 경우 Outlook 창에 사용자 지정 작업창의 여러 인스턴스가 표시될 수도 있습니다. 경우에 따라 Outlook에서 창을 재활용하며, 재활용된 창은 연결된 사용자 지정 작업창에 대한 참조를 유지합니다.
 
-##  <a name="WordAndInfoPath"></a> Word, InfoPath 및 PowerPoint
+## <a name="WordAndInfoPath"></a> Word, InfoPath 및 PowerPoint
  Word, InfoPath 및 PowerPoint는 각 문서를 서로 다른 문서 프레임 창에서 표시합니다. 이러한 응용 프로그램에 대한 사용자 지정 작업창을 만드는 경우 사용자 지정 작업창이 특정 문서에만 연결됩니다. 사용자가 다른 문서를 여는 경우 이전 문서가 다시 표시될 때까지 사용자 지정 작업창이 숨겨집니다.
 
  여러 문서가 포함된 사용자 지정 작업창을 표시하려는 경우 사용자가 새 문서를 만들거나 기존 문서를 열 때 사용자 지정 작업창의 새 인스턴스를 만듭니다. 이렇게 하려면 문서를 만들거나 열 때 발생하는 이벤트를 처리한 다음 이벤트 처리기에서 작업창을 만듭니다. 표시되는 문서에 따라 문서 이벤트를 처리하여 작업창을 숨기거나 표시할 수도 있습니다.
@@ -177,43 +177,43 @@ ms.locfileid: "57526709"
 ### <a name="word-events"></a>Word 이벤트
  Word에서 문서 창의 상태를 모니터링하기 위해 다음 이벤트를 처리할 수 있습니다.
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeClose>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeClose>
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen>
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.NewDocument>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.NewDocument>
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.WindowActivate>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.WindowActivate>
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.WindowDeactivate>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.WindowDeactivate>
 
 ### <a name="infopath-events"></a>InfoPath 이벤트
  InfoPath에서 문서 창의 상태를 모니터링하기 위해 다음 이벤트를 처리할 수 있습니다.
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument>
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowActivate>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowActivate>
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowDeactivate>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowDeactivate>
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeClose>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeClose>
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentOpen>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentOpen>
 
 ### <a name="powerpoint-events"></a>PowerPoint 이벤트
  PowerPoint에서 문서 창의 상태를 모니터링하기 위해 다음 이벤트를 처리할 수 있습니다.
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterNewPresentation](/previous-versions/office/developer/office-2010/ff761105(v%3doffice.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterNewPresentation](/previous-versions/office/developer/office-2010/ff761105(v%3doffice.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen](/previous-versions/office/developer/office-2010/ff762843(v%3doffice.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen](/previous-versions/office/developer/office-2010/ff762843(v%3doffice.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.NewPresentation](/previous-versions/office/developer/office-2010/ff761498(v%3doffice.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.NewPresentation](/previous-versions/office/developer/office-2010/ff761498(v%3doffice.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationOpen](/previous-versions/office/developer/office-2010/ff760423(v=office.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationOpen](/previous-versions/office/developer/office-2010/ff760423(v=office.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate](/previous-versions/office/developer/office-2010/ff761153(v=office.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate](/previous-versions/office/developer/office-2010/ff761153(v=office.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
 
 ## <a name="see-also"></a>참고자료
 - [방법: 응용 프로그램에 사용자 지정 작업창 추가](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)

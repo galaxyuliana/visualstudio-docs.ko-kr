@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a81bcfc6c9f5db47c2140e68a7b609efc92bf8fe
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: bd6562a48a66c1c73cd281fb4510e2df737f6a04
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610517"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107270"
 ---
 # <a name="how-to-programmatically-run-excel-calculations"></a>방법: 프로그래밍 방식으로 Excel 계산 실행
   비슷한 프로세스를 사용 하 여 계산에서 실행 하는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 또는 네이티브 Excel 범위 개체입니다.
@@ -32,12 +32,12 @@ ms.locfileid: "56610517"
 
 ### <a name="to-run-calculations-in-a-namedrange-control"></a>NamedRange 컨트롤의 계산을 실행 하려면
 
-1.  명명된 된 범위를 만듭니다.
+1. 명명된 된 범위를 만듭니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#75](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#75)]
      [!code-vb[Trin_VstcoreExcelAutomation#75](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#75)]
 
-2.  호출 된 <xref:Microsoft.Office.Tools.Excel.NamedRange.Calculate%2A> 지정 된 범위의 메서드.
+2. 호출 된 <xref:Microsoft.Office.Tools.Excel.NamedRange.Calculate%2A> 지정 된 범위의 메서드.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#76](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#76)]
      [!code-vb[Trin_VstcoreExcelAutomation#76](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#76)]
@@ -46,12 +46,12 @@ ms.locfileid: "56610517"
 
 ### <a name="to-run-calculations-in-a-native-excel-range"></a>네이티브 Excel 범위에서 계산을 실행 하려면
 
-1.  명명된 된 범위를 만듭니다.
+1. 명명된 된 범위를 만듭니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#30](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#30)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#30](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#30)]
 
-2.  호출 된 <xref:Microsoft.Office.Interop.Excel.Range.Calculate%2A> 지정 된 범위의 메서드.
+2. 호출 된 <xref:Microsoft.Office.Interop.Excel.Range.Calculate%2A> 지정 된 범위의 메서드.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#31](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#31)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#31](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#31)]

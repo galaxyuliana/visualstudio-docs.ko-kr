@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5e61790245acbbb7c16b573220d0aca2a633acb2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 9330a41d0888532640774891386011f6b8dbfc24
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971184"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106022"
 ---
 # <a name="directed-graph-markup-language-dgml-reference"></a>DGML(Directed Graph Markup Language) 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ DGML(Directed Graph Markup Language)은 시각화에 사용되고 복잡성 분�
 > [!NOTE]
 >  .dgml 파일을 편집하는 경우 IntelliSense를 사용하면 각 요소 및 요소 값에 사용할 수 있는 특성을 식별할 수 있습니다. 특성에 색을 지정하려면 "Blue"와 같은 일반적인 색의 이름 또는 "#ffa0b1c3"과 같은 ARGB 16진수 값을 사용합니다. DGML은 WPF(Windows Presentation Foundation) 색 정의 형식의 일부를 사용합니다. 자세한 내용은 [Colors 클래스](http://go.microsoft.com/fwlink/?LinkId=182345)합니다.  
   
-##  <a name="DGML"></a> DGML 구문  
+## <a name="DGML"></a> DGML 구문  
  다음 표에서는 DGML에서 사용되는 요소 종류에 대해 설명합니다.  
   
 - `<DirectedGraph></DirectedGraph>`  
@@ -302,7 +302,7 @@ DGML(Directed Graph Markup Language)은 시각화에 사용되고 복잡성 분�
   </DirectedGraph>  
   ```  
   
-###  <a name="AddAlias"></a> 일반적으로 사용 되는 경로 대 한 별칭  
+### <a name="AddAlias"></a> 일반적으로 사용 되는 경로 대 한 별칭  
  일반적으로 사용되는 경로를 별칭으로 바꾸면 .dgml 파일의 크기뿐만 아니라 파일을 로드하거나 저장하는 데 필요한 시간을 줄일 수 있습니다. 별칭을 만들려면 .dgml 파일의 끝에 `<Paths></Paths>` 섹션을 추가합니다. 다음과 같이 이 섹션에서 `<Path/>` 요소를 추가하여 경로의 별칭을 정의합니다.  
   
 ```xml  

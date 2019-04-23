@@ -11,12 +11,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1ecfff316a6daa4fe7f0b1fc0619f7dd7961c682
-ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
+ms.openlocfilehash: 15a07796278faad43f95b33c020b167f07daa009
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "59002128"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105632"
 ---
 # <a name="graphics-event-list"></a>그래픽 이벤트 목록
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ Visual Studio Graphics Analyzer의 그래픽 이벤트 목록을 사용하여 �
   
 ##### <a name="to-change-the-event-list-view-mode"></a>이벤트 목록 보기 모드를 변경하려면  
   
--   **그래픽 이벤트 목록** 창의 이벤트 목록 위에 **보기** 드롭다운이 있어서 **타임라인** 보기 또는 **그리기 호출** 보기 중에서 선택할 수 있습니다.  
+- **그래픽 이벤트 목록** 창의 이벤트 목록 위에 **보기** 드롭다운이 있어서 **타임라인** 보기 또는 **그리기 호출** 보기 중에서 선택할 수 있습니다.  
   
 ### <a name="filtering-events"></a>이벤트 필터링  
  **그래픽 이벤트 목록** 창의 오른쪽 맨 위 모퉁이에 있는 검색 상자를 사용하여 이름에 특정 키워드가 포함된 이벤트만 포함하도록 이벤트 목록을 필터링할 수 있습니다. 이전 그림에서처럼 `Vertex`와 같은 키워드 하나를 지정하거나 `Draw;Primitive`와 같이 세미콜론으로 구분된 목록을 사용하여 여러 키워드를 지정할 수 있습니다. 그러면 이름에 `Draw` 또는 `Primitive` 가 포함된 이벤트를 찾게 됩니다. 검색어는 공백을 구분합니다. 예를 들어 `VSSet` 와 `VS Set` 는 다른 검색어입니다. 따라서 검색어는 주의 깊게 입력해야 합니다.  

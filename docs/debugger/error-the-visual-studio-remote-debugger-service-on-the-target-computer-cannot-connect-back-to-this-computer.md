@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 823e4517deda68fc807c83373d26fc38740383c2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: e3f406ac338edfc79c3d8fd802d1cb43d0224f21
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713882"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107161"
 ---
 # <a name="error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer"></a>오류: 대상 컴퓨터의 Visual Studio 원격 디버거 서비스가 이 컴퓨터에 다시 연결할 수 없습니다.
 이 오류는 디버깅에 사용하려는 컴퓨터에 연결할 때 인증되지 않는 사용자 계정으로 Visual Studio 원격 디버거 서비스가 실행되고 있음을 의미합니다.
@@ -38,41 +38,41 @@ ms.locfileid: "56713882"
 
  이 밖에도 다음 지침을 따릅니다.
 
--   모든 프로세스를 디버깅할 수 있으려면 Visual Studio 원격 디버거 서비스를 실행하는 데 사용되는 계정이 원격 컴퓨터의 관리자 계정이어야 합니다.
+- 모든 프로세스를 디버깅할 수 있으려면 Visual Studio 원격 디버거 서비스를 실행하는 데 사용되는 계정이 원격 컴퓨터의 관리자 계정이어야 합니다.
 
--   또한 계정에는 **로컬 보안 정책** 관리 도구를 사용하는 원격 컴퓨터에 대한 `Log on as a service` 권한이 부여되어야 합니다.
+- 또한 계정에는 **로컬 보안 정책** 관리 도구를 사용하는 원격 컴퓨터에 대한 `Log on as a service` 권한이 부여되어야 합니다.
 
--   로컬 계정을 사용하여 컴퓨터에 액세스하는 경우 Visual Studio 원격 디버거 서비스를 로컬 계정으로 실행해야 합니다.
+- 로컬 계정을 사용하여 컴퓨터에 액세스하는 경우 Visual Studio 원격 디버거 서비스를 로컬 계정으로 실행해야 합니다.
 
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면
 
-1.  원격 컴퓨터에서 Visual Studio 원격 디버거 서비스가 올바르게 설정되어 있는지 확인합니다. 자세한 내용은 [원격 디버깅](../debugger/remote-debugging.md)합니다.
+1. 원격 컴퓨터에서 Visual Studio 원격 디버거 서비스가 올바르게 설정되어 있는지 확인합니다. 자세한 내용은 [원격 디버깅](../debugger/remote-debugging.md)합니다.
 
-2.  위 표에 나와 있듯이 디버거 호스트 컴퓨터에 액세스할 수 있는 계정으로 원격 디버거 서비스를 실행합니다.
+2. 위 표에 나와 있듯이 디버거 호스트 컴퓨터에 액세스할 수 있는 계정으로 원격 디버거 서비스를 실행합니다.
 
 ### <a name="to-add-log-on-as-a-service-privilege"></a>"서비스로 로그온" 권한을 추가하려면
 
-1.  **시작** 메뉴에서 **제어판**을 선택합니다.
+1. **시작** 메뉴에서 **제어판**을 선택합니다.
 
-2.  필요한 경우 제어판에서 **클래식 보기**를 선택합니다.
+2. 필요한 경우 제어판에서 **클래식 보기**를 선택합니다.
 
-3.  **관리 도구**를 두 번 클릭합니다.
+3. **관리 도구**를 두 번 클릭합니다.
 
-4.  관리 도구 창에서 **로컬 보안 정책**을 두 번 클릭합니다.
+4. 관리 도구 창에서 **로컬 보안 정책**을 두 번 클릭합니다.
 
-5.  **로컬 보안 설정** 창에서 **로컬 정책** 폴더를 확장합니다.
+5. **로컬 보안 설정** 창에서 **로컬 정책** 폴더를 확장합니다.
 
-6.  **사용자 권한 할당**을 클릭합니다.
+6. **사용자 권한 할당**을 클릭합니다.
 
-7.  **P정책** 열에서 **서비스로 로그온**을 두 번 클릭하여 현재 로컬 그룹 정책 할당을 **서비스로 로그온** 대화 상자에 표시합니다.
+7. **P정책** 열에서 **서비스로 로그온**을 두 번 클릭하여 현재 로컬 그룹 정책 할당을 **서비스로 로그온** 대화 상자에 표시합니다.
 
-8.  새 사용자를 추가하려면 **사용자 또는 그룹 추가** 단추를 클릭합니다.
+8. 새 사용자를 추가하려면 **사용자 또는 그룹 추가** 단추를 클릭합니다.
 
 9. 사용자 추가를 마쳤으면 **확인**을 클릭합니다.
 
 ### <a name="to-work-around-this-error"></a>이 오류를 해결하려면
 
--   원격 디버깅 모니터를 서비스가 아닌 응용 프로그램으로 실행합니다.
+- 원격 디버깅 모니터를 서비스가 아닌 응용 프로그램으로 실행합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)
