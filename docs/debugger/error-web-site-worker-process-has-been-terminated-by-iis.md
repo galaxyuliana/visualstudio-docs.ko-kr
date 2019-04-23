@@ -1,5 +1,5 @@
 ---
-title: '오류: 웹 사이트 작업자 프로세스 종료 되었습니다 IIS에서 | Microsoft Docs'
+title: '오류: IIS에서 웹 사이트 작업자 프로세스를 종료 했습니다 | Microsoft Docs'
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords:
@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4d951486d41e3449410f6f815b3b355a281e0898
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 2d89eabec0c199b1b8df7eeb78d0e629d4a70b2e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56698874"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072658"
 ---
 # <a name="error-web-site-worker-process-has-been-terminated-by-iis"></a>오류: IIS에서 웹 사이트 작업자 프로세스를 종료했습니다.
 디버거가 웹 사이트에서 코드 실행을 중지했습니다. 이로 인해 IIS(인터넷 정보 서비스)에서는 작업자 프로세스가 응답을 중지한 것으로 가정하여 작업자 프로세스를 종료했습니다.
@@ -30,9 +30,9 @@ ms.locfileid: "56698874"
 
 1. **관리 도구** 창을 엽니다.
 
-   1.  **시작**을 클릭한 다음, **제어판**을 선택합니다.
+   1. **시작**을 클릭한 다음, **제어판**을 선택합니다.
 
-   2.  **제어판**에서 필요한 경우 **클래식 보기로 전환**을 선택한 다음, **관리 도구**를 두 번 클릭합니다.
+   2. **제어판**에서 필요한 경우 **클래식 보기로 전환**을 선택한 다음, **관리 도구**를 두 번 클릭합니다.
 
 2. **관리 도구** 창에서 **IIS(인터넷 정보 서비스) 관리자**를 두 번 클릭합니다.
 

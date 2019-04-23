@@ -6,12 +6,12 @@ ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 caps.latest.revision: 38
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6e40401b533d5fcaad8dc9bb4530580608efaad9
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: bbeef5aba667f26c1297dfe02556ee192dd53a4b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670227"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072163"
 ---
 # <a name="image-service-and-catalog"></a>이미지 서비스 및 카탈로그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -215,78 +215,78 @@ ms.locfileid: "59670227"
 ### <a name="first-steps-managed"></a>첫 번째 단계 (관리)  
  이미지 서비스를 사용 하려면 프로젝트에 다음 어셈블리의 일부 또는 전부에 대 한 참조를 추가 해야 합니다.  
 
--   **Microsoft.VisualStudio.ImageCatalog.dll**  
+- **Microsoft.VisualStudio.ImageCatalog.dll**  
 
-    -   기본 제공 이미지 카탈로그 KnownMonikers를 사용 하는 경우 필요  
+    - 기본 제공 이미지 카탈로그 KnownMonikers를 사용 하는 경우 필요  
 
--   **Microsoft.VisualStudio.Imaging.dll**  
+- **Microsoft.VisualStudio.Imaging.dll**  
 
-    -   사용 하는 경우 필요 **CrispImage** 하 고 **ImageThemingUtilities** WPF UI에서  
+    - 사용 하는 경우 필요 **CrispImage** 하 고 **ImageThemingUtilities** WPF UI에서  
 
--   **Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll**  
+- **Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll**  
 
-    -   사용 하는 경우 필요 합니다 **ImageMoniker** 하 고 **ImageAttributes** 형식  
+    - 사용 하는 경우 필요 합니다 **ImageMoniker** 하 고 **ImageAttributes** 형식  
 
-    -   **EmbedInteropTypes** 설정 해야 true로  
+    - **EmbedInteropTypes** 설정 해야 true로  
 
--   **Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime**  
+- **Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime**  
 
-    -   사용 하는 경우 필요 합니다 **IVsImageService2** 형식  
+    - 사용 하는 경우 필요 합니다 **IVsImageService2** 형식  
 
-    -   **EmbedInteropTypes** 설정 해야 true로  
+    - **EmbedInteropTypes** 설정 해야 true로  
 
--   **Microsoft.VisualStudio.Utilities.dll**  
+- **Microsoft.VisualStudio.Utilities.dll**  
 
-    -   사용 하는 경우 필요 합니다 **BrushToColorConverter** 는 ImageThemingUtilities에 대 한. **ImageBackgroundColor** WPF UI에서  
+    - 사용 하는 경우 필요 합니다 **BrushToColorConverter** 는 ImageThemingUtilities에 대 한. **ImageBackgroundColor** WPF UI에서  
 
--   **Microsoft.VisualStudio.Shell.\<VSVersion>.0**  
+- **Microsoft.VisualStudio.Shell.\<VSVersion>.0**  
 
-    -   사용 하는 경우 필요 합니다 **IVsUIObject** 형식  
+    - 사용 하는 경우 필요 합니다 **IVsUIObject** 형식  
 
--   **Microsoft.VisualStudio.Shell.Interop.10.0.dll**  
+- **Microsoft.VisualStudio.Shell.Interop.10.0.dll**  
 
-    -   UI WinForms 관련 도우미를 사용 하는 경우 필요  
+    - UI WinForms 관련 도우미를 사용 하는 경우 필요  
 
-    -   **EmbedInteropTypes** 설정 해야 true로  
+    - **EmbedInteropTypes** 설정 해야 true로  
 
 ### <a name="first-steps-native"></a>첫 번째 단계 (네이티브)  
  이미지 서비스를 사용 하려면 일부 또는 모든 프로젝트에 다음 헤더를 포함 해야 합니다.  
 
--   **KnownImageIds.h**  
+- **KnownImageIds.h**  
 
-    -   기본 제공 이미지 카탈로그를 사용 하는 경우 필요 **KnownMonikers**, 하지만 사용할 수 없습니다는 **ImageMoniker** 면에서 값 반환 등의 형식 **IVsHierarchy GetGuidProperty**나 **GetProperty** 호출 합니다.  
+    - 기본 제공 이미지 카탈로그를 사용 하는 경우 필요 **KnownMonikers**, 하지만 사용할 수 없습니다는 **ImageMoniker** 면에서 값 반환 등의 형식 **IVsHierarchy GetGuidProperty**나 **GetProperty** 호출 합니다.  
 
--   **KnownMonikers.h**  
+- **KnownMonikers.h**  
 
-    -   기본 제공 이미지 카탈로그를 사용 하는 경우 필요 **KnownMonikers**합니다.  
+    - 기본 제공 이미지 카탈로그를 사용 하는 경우 필요 **KnownMonikers**합니다.  
 
--   **ImageParameters140.h**  
+- **ImageParameters140.h**  
 
-    -   사용 하는 경우 필요 합니다 **ImageMoniker** 하 고 **ImageAttributes** 형식입니다.  
+    - 사용 하는 경우 필요 합니다 **ImageMoniker** 하 고 **ImageAttributes** 형식입니다.  
 
--   **VSShell140.h**  
+- **VSShell140.h**  
 
-    -   사용 하는 경우 필요 합니다 **IVsImageService2** 형식입니다.  
+    - 사용 하는 경우 필요 합니다 **IVsImageService2** 형식입니다.  
 
--   **ImageThemingUtilities.h**  
+- **ImageThemingUtilities.h**  
 
-    -   이미지를 테마를 처리할 수 없는 경우 필요 합니다.  
+    - 이미지를 테마를 처리할 수 없는 경우 필요 합니다.  
 
-    -   이미지 서비스에 이미지 테마를 처리할 수 있는 경우에이 헤더를 사용 하지 마세요.  
+    - 이미지 서비스에 이미지 테마를 처리할 수 있는 경우에이 헤더를 사용 하지 마세요.  
 
--   **VSUIDPIHelper.h**  
+- **VSUIDPIHelper.h**  
 
-    -   DPI 도우미를 사용 하 여 현재 DPI를 가져오려는 경우 필요 합니다.  
+    - DPI 도우미를 사용 하 여 현재 DPI를 가져오려는 경우 필요 합니다.  
 
 ## <a name="how-do-i-write-new-wpf-ui"></a>새 WPF UI를 작성 하는 방법  
 
-1.  위의 필요한 어셈블리 참조를 추가 하 여 시작 프로젝트에 섹션을 첫 번째 단계입니다. 모두 추가 해야 하는 참조만 추가 필요가 없습니다. (참고: 사용 하는 경우에 대 한 액세스 권한이 **색** of **브러시**에 대 한 참조를 건너뛸 수 있습니다 **유틸리티**변환기가 필요 하지 않으므로,.)  
+1. 위의 필요한 어셈블리 참조를 추가 하 여 시작 프로젝트에 섹션을 첫 번째 단계입니다. 모두 추가 해야 하는 참조만 추가 필요가 없습니다. (참고: 사용 하는 경우에 대 한 액세스 권한이 **색** of **브러시**에 대 한 참조를 건너뛸 수 있습니다 **유틸리티**변환기가 필요 하지 않으므로,.)  
 
-2.  원하는 이미지를 선택 하 고 해당 모니커를 가져옵니다. 사용 하 여는 **KnownMoniker**, 하거나 사용자 고유의 사용자 지정 이미지 및 모니커 경우 직접 사용 합니다.  
+2. 원하는 이미지를 선택 하 고 해당 모니커를 가져옵니다. 사용 하 여는 **KnownMoniker**, 하거나 사용자 고유의 사용자 지정 이미지 및 모니커 경우 직접 사용 합니다.  
 
-3.  추가 **CrispImages** 에 XAML을 합니다. (아래 예제 참조).  
+3. 추가 **CrispImages** 에 XAML을 합니다. (아래 예제 참조).  
 
-4.  설정 된 **ImageThemingUtilities.ImageBackgroundColor** UI 계층의 속성입니다. (배경색 알려져 없는 반드시에 하지 위치에 설정 해야 합니다 **CrispImage**.) (아래 예제 참조).  
+4. 설정 된 **ImageThemingUtilities.ImageBackgroundColor** UI 계층의 속성입니다. (배경색 알려져 없는 반드시에 하지 위치에 설정 해야 합니다 **CrispImage**.) (아래 예제 참조).  
 
 ```xaml  
 <Window  
@@ -312,19 +312,19 @@ ms.locfileid: "59670227"
 
  기존 WPF UI 업데이트는 세 단계로 구성 된 비교적 간단한 프로세스입니다.  
 
-1.  모두 바꾸기 \<이미지 > 요소를 사용 하 여 UI에서 \<CrispImage > 요소  
+1. 모두 바꾸기 \<이미지 > 요소를 사용 하 여 UI에서 \<CrispImage > 요소  
 
-2.  모니커 특성에 모든 원본 특성을 변경 합니다.  
+2. 모니커 특성에 모든 원본 특성을 변경 합니다.  
 
-    -   이미지는 변경 되지 않습니다 하 고 사용 하는 경우 **KnownMonikers**, 한 다음 해당 속성을 정적으로 바인딩할 합니다 **KnownMoniker**합니다. (위의 예제 참조).  
+    - 이미지는 변경 되지 않습니다 하 고 사용 하는 경우 **KnownMonikers**, 한 다음 해당 속성을 정적으로 바인딩할 합니다 **KnownMoniker**합니다. (위의 예제 참조).  
 
-    -   이미지는 변경 되지 않습니다 사용자 고유의 사용자 지정 이미지를 사용 하는 경우 다음 정적으로 바인딩할 사용자 고유의 모니커.  
+    - 이미지는 변경 되지 않습니다 사용자 고유의 사용자 지정 이미지를 사용 하는 경우 다음 정적으로 바인딩할 사용자 고유의 모니커.  
 
-    -   이미지를 변경할 수 있으면 모니커 특성을 속성 변경 내용에 알리는 코드 속성에 바인딩하십시오.  
+    - 이미지를 변경할 수 있으면 모니커 특성을 속성 변경 내용에 알리는 코드 속성에 바인딩하십시오.  
 
-3.  어딘가에 UI 계층 구조를 설정 **ImageThemingUtilities.ImageBackgroundColor** 있는지 색 반전 되도록 제대로 적용 됩니다.  
+3. 어딘가에 UI 계층 구조를 설정 **ImageThemingUtilities.ImageBackgroundColor** 있는지 색 반전 되도록 제대로 적용 됩니다.  
 
-    -   사용 해야 합니다 **BrushToColorConverter** 클래스입니다. (위의 예제 참조).  
+    - 사용 해야 합니다 **BrushToColorConverter** 클래스입니다. (위의 예제 참조).  
 
 ## <a name="how-do-i-update-win32-ui"></a>Win32 UI를 업데이트 하려면 어떻게 해야 하나요?  
  로드 하는 원시 이미지의 이름을 바꾸려면 해당 되는 경우 다음 코드를 추가 합니다. 필요에 따라 HICONs HIMAGELIST 비교와 이러한 방식으로 반환 하는 것에 대 한 값을 전환 합니다.  
@@ -437,18 +437,18 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
 3. 도구 창 탭 탭 작은 경우 (Ctrl + Tab 창 전환기에도 사용)에 충분 합니다.  
 
-   1.  파생 된 클래스의 생성자에서 (있는 경우) 다음이 줄을 제거 합니다 **ToolWindowPane** 형식:  
+   1. 파생 된 클래스의 생성자에서 (있는 경우) 다음이 줄을 제거 합니다 **ToolWindowPane** 형식:  
 
        ```csharp  
        this.BitmapResourceID = <Value>;  
        this.BitmapIndex = <Value>;  
        ```  
 
-   2.  단계 # 1의 참조는 "어떻게 할까요 새 도구 창에서 사용 하 여 이미지 모니커?" 위의 섹션입니다.  
+   2. 단계 # 1의 참조는 "어떻게 할까요 새 도구 창에서 사용 하 여 이미지 모니커?" 위의 섹션입니다.  
 
 4. 도구 창을 열려면 명령입니다.  
 
-   -   2 단계가 표시 된 "작업 방법에 새 도구 창 사용 하 여 이미지 모니커?" 위의 섹션입니다.  
+   - 2 단계가 표시 된 "작업 방법에 새 도구 창 사용 하 여 이미지 모니커?" 위의 섹션입니다.  
 
 ## <a name="how-do-i-use-image-monikers-in-a-vsct-file"></a>.Vsct 파일에서 이미지 모니커를 사용 하는 방법  
  주석 처리 된 줄 아래에 표시 된 대로.vsct 파일을 업데이트 합니다.  
@@ -566,27 +566,27 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 1. 실행 합니다 **ManifestFromResources** 도구인 이미지 스트립을 전달 합니다. 이 줄에 대 한 매니페스트를 생성 됩니다.  
 
-   -   권장: 용도 맞게 매니페스트에 대 한 기본이 아닌 이름을 제공 합니다.  
+   - 권장: 용도 맞게 매니페스트에 대 한 기본이 아닌 이름을 제공 합니다.  
 
 2. 만 사용 하는 경우 **KnownMonikers**, 다음을 수행 합니다.  
 
-   -   대체는 \<이미지 > 섹션으로 매니페스트에 \<이미지 / >입니다.  
+   - 대체는 \<이미지 > 섹션으로 매니페스트에 \<이미지 / >입니다.  
 
-   -   모든 subimage Id를 제거 (개 \<imagestrip 이름 > _ # #).  
+   - 모든 subimage Id를 제거 (개 \<imagestrip 이름 > _ # #).  
 
-   -   권장: AssetsGuid 기호 및 용도 맞게 이미지 스트립 기호 이름을 바꿉니다.  
+   - 권장: AssetsGuid 기호 및 용도 맞게 이미지 스트립 기호 이름을 바꿉니다.  
 
-   -   각 대체 **ContainedImage**의 각 $(ImageCatalogGuid)를 사용 하 여 GUID 바꿀 **ContainedImage**의 $를 사용 하 여 ID (\<모니커 >), 각 외부="true"특성추가**ContainedImage**  
+   - 각 대체 **ContainedImage**의 각 $(ImageCatalogGuid)를 사용 하 여 GUID 바꿀 **ContainedImage**의 $를 사용 하 여 ID (\<모니커 >), 각 외부="true"특성추가**ContainedImage**  
 
-       -   \<모니커 > 바꿔야 합니다 **KnownMoniker** 이미지와 일치 하는 같지만 "KnownMonikers" 이름에서 제거 합니다.  
+       - \<모니커 > 바꿔야 합니다 **KnownMoniker** 이미지와 일치 하는 같지만 "KnownMonikers" 이름에서 제거 합니다.  
 
-   -   추가 < 가져오기 Manifest="$(ManifestFolder)\\< 디렉터리 경로 설치 하는 상대\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\> 의 맨 위에 \<기호 > 섹션.  
+   - 추가 < 가져오기 Manifest="$(ManifestFolder)\\< 디렉터리 경로 설치 하는 상대\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\> 의 맨 위에 \<기호 > 섹션.  
 
-       -   상대 경로 매니페스트에 대 한 제작 설치에 정의 된 배포 위치에 따라 결정 됩니다.  
+       - 상대 경로 매니페스트에 대 한 제작 설치에 정의 된 배포 위치에 따라 결정 됩니다.  
 
 3. 실행 합니다 **ManifestToCode** 기존 코드에는 모니커 이미지 스트립에 대 한 이미지 서비스를 쿼리 하는 데 사용할 수 있도록 래퍼를 생성 하는 도구입니다.  
 
-   -   권장: 래퍼 및 용도 맞게 네임 스페이스에 대 한 기본이 아닌 이름을 제공 합니다.  
+   - 권장: 래퍼 및 용도 맞게 네임 스페이스에 대 한 기본이 아닌 이름을 제공 합니다.  
 
 4. 모든 작업을 수행 합니다 추가 설치 작성/배포 및 다른 코드 변경은 이미지 서비스 및 새 파일을 사용 하 합니다.  
 
@@ -643,11 +643,11 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
  **HIMAGELISTs 지원할 필요가 없습니다.**  
 
-1.  집합을 결정 **KnownMonikers** 프로그램 이미지 스트립에 있는 이미지와 일치는 또는 사용자 이미지 스트립에서 이미지에 대 한 고유한 모니커를 만듭니다.  
+1. 집합을 결정 **KnownMonikers** 프로그램 이미지 스트립에 있는 이미지와 일치는 또는 사용자 이미지 스트립에서 이미지에 대 한 고유한 모니커를 만듭니다.  
 
-2.  필요한 인덱스 대신 모니커를 사용 하도록 이미지 스트립에 있는 이미지를 가져오는 데 모든 매핑을 업데이트 합니다.  
+2. 필요한 인덱스 대신 모니커를 사용 하도록 이미지 스트립에 있는 이미지를 가져오는 데 모든 매핑을 업데이트 합니다.  
 
-3.  이미지 서비스 요청을 통해 업데이트 되는 매핑의 모니커를 사용 하도록 코드를 업데이트 합니다. (업데이트를 의미할 수 있습니다 **CrispImages** 관리 코드 또는 이러한 방식으로 또는 HICONs 이미지 서비스에서 요청 및 네이티브 코드에 대 한 관련 전달 합니다.)  
+3. 이미지 서비스 요청을 통해 업데이트 되는 매핑의 모니커를 사용 하도록 코드를 업데이트 합니다. (업데이트를 의미할 수 있습니다 **CrispImages** 관리 코드 또는 이러한 방식으로 또는 HICONs 이미지 서비스에서 요청 및 네이티브 코드에 대 한 관련 전달 합니다.)  
 
 ## <a name="testing-your-images"></a>이미지를 테스트합니다.  
  이미지 라이브러리 뷰어 도구를 사용 하 여 모든 것이 제대로 작성 되었는지 확인 하 여 이미지 매니페스트를 테스트할 수 있습니다. 도구를 [Visual Studio 2015 SDK](http://msdn.microsoft.com/library/bb166441.aspx)합니다. 이 도구 및 기타 도구에 대 한 설명서를 찾을 수 있습니다 [여기](https://aka.ms/VSImageThemeTools)합니다.  
@@ -676,19 +676,19 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 ## <a name="faq"></a>FAQ  
 
--   로드할 때 포함 해야 하는 종속성이 있습니까 \<Include="Microsoft.VisualStudio.* 참조 합니다. Interop.14.0.DesignTime"/ >?  
+- 로드할 때 포함 해야 하는 종속성이 있습니까 \<Include="Microsoft.VisualStudio.* 참조 합니다. Interop.14.0.DesignTime"/ >?  
 
-    -   EmbedInteropTypes 설정 = "true" 모든 interop Dll에 있습니다.  
+    - EmbedInteropTypes 설정 = "true" 모든 interop Dll에 있습니다.  
 
--   이미지 매니페스트는 my 확장을 사용 하 여 배포 하려면 어떻게 해야 하나요?  
+- 이미지 매니페스트는 my 확장을 사용 하 여 배포 하려면 어떻게 해야 하나요?  
 
-    -   프로젝트에.imagemanifest 파일을 추가 합니다.  
+    - 프로젝트에.imagemanifest 파일을 추가 합니다.  
 
-    -   "VSIX에 포함"을 true로 설정 합니다.  
+    - "VSIX에 포함"을 true로 설정 합니다.  
 
--   CPS 프로젝트 시스템 내를 업데이트 합니다. 변경 내용 **ImageName** 하 고 **StockIconService**?  
+- CPS 프로젝트 시스템 내를 업데이트 합니다. 변경 내용 **ImageName** 하 고 **StockIconService**?  
 
-    -   o CPS 모니커를 사용 하도록 업데이트 되었을 때 이러한가 제거 되었습니다. 더 이상 호출 해야 합니다 **StockIconService**, 원하는 전달 하기만 하면 됩니다 **KnownMoniker** 메서드를 사용 하 여 속성에는 **ToProjectSystemType()** 확장 메서드 CPS 유틸리티입니다. 매핑을 찾을 수 있습니다 **ImageName** 하 **KnownMonikers** 아래:  
+    - o CPS 모니커를 사용 하도록 업데이트 되었을 때 이러한가 제거 되었습니다. 더 이상 호출 해야 합니다 **StockIconService**, 원하는 전달 하기만 하면 됩니다 **KnownMoniker** 메서드를 사용 하 여 속성에는 **ToProjectSystemType()** 확장 메서드 CPS 유틸리티입니다. 매핑을 찾을 수 있습니다 **ImageName** 하 **KnownMonikers** 아래:  
 
         |||  
         |-|-|  
@@ -756,7 +756,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |ImageName.CSharpCodeFile|KnownImageIds.CSFileNode|  
         |ImageName.VisualBasicCodeFile|KnownImageIds.VBFileNode|  
 
-    -   내 완료 목록 공급자를 업데이트 합니다. 어떤 **KnownMonikers** 이전 일치 **StandardGlyphGroup** 하 고 **StandardGlyph** 값?  
+    - 내 완료 목록 공급자를 업데이트 합니다. 어떤 **KnownMonikers** 이전 일치 **StandardGlyphGroup** 하 고 **StandardGlyph** 값?  
 
         ||||  
         |-|-|-|  

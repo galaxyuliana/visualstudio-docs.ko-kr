@@ -19,14 +19,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b554a197afe2deef3619551af2d45d4a80708afe
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 4b8452100eb744d019c0f4c8d5e62566ac761210
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56715364"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072750"
 ---
-# <a name="how-to-page-up-or-down-in-memory"></a>방법: 메모리에서 위 또는 아래로 한 페이지 이동
+# <a name="how-to-page-up-or-down-in-memory"></a>방법: 메모리에서 페이지 위 또는 아래로 이동
 
 **메모리** 창이나 **디스어셈블리** 창에서 메모리 내용을 볼 때 세로 스크롤 막대를 사용하여 메모리 공간에서 위나 아래로 이동할 수 있습니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "56715364"
 
 #### <a name="to-move-up-or-down-one-instruction"></a>명령 위/아래로 이동하려면
 
--   세로 스크롤 막대 맨 위나 맨 아래에 있는 화살표를 클릭합니다.
+- 세로 스크롤 막대 맨 위나 맨 아래에 있는 화살표를 클릭합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [메모리 창](../debugger/memory-windows.md)

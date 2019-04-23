@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 7a01a249df088d2a89e64f1c04c69e80d69b111c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 1126117cb1fc26c4f61bfb0f6ed0e19e86ce9323
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926751"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072671"
 ---
 # <a name="walkthrough-create-a-datatable-in-the-dataset-designer"></a>연습: 데이터 집합 디자이너에서 DataTable 만들기
 
@@ -27,7 +27,7 @@ ms.locfileid: "55926751"
 
 1. Visual Studio에서에 **파일** 메뉴에서 **새로 만들기** > **프로젝트**합니다.
 
-2. 확장 **시각적 C#**  하거나 **Visual Basic** 왼쪽 창에서 선택한 **Windows Desktop**.
+2. 확장 **Visual C#** 하거나 **Visual Basic** 왼쪽 창에서 선택한 **Windows Desktop**합니다.
 
 3. 가운데 창에서 선택 합니다 **Windows Forms 앱** 형식 프로젝션 합니다.
 
@@ -37,33 +37,33 @@ ms.locfileid: "55926751"
 
 ## <a name="add-a-new-dataset-to-the-application"></a>응용 프로그램에 새 데이터 집합 추가
 
-1.  **프로젝트** 메뉴에서 **새 항목 추가**를 선택합니다.
+1. **프로젝트** 메뉴에서 **새 항목 추가**를 선택합니다.
 
      **새 항목 추가** 대화 상자가 나타납니다.
 
-2.  왼쪽 창에서 선택 **데이터**을 선택한 후 **데이터 집합** 가운데 창에서.
+2. 왼쪽 창에서 선택 **데이터**을 선택한 후 **데이터 집합** 가운데 창에서.
 
-3.  **추가**를 선택합니다.
+3. **추가**를 선택합니다.
 
      라는 파일을 추가 하는 visual Studio **DataSet1.xsd** 프로젝트에서 엽니다 합니다 **데이터 집합 디자이너**합니다.
 
 ## <a name="add-a-new-datatable-to-the-dataset"></a>데이터 집합에 새 DataTable을 추가 합니다.
 
-1.  끌어서를 **DataTable** 에서 **데이터 집합** 탭의 **도구 상자** 에 **데이터 집합 디자이너**.
+1. 끌어서를 **DataTable** 에서 **데이터 집합** 탭의 **도구 상자** 에 **데이터 집합 디자이너**.
 
      라는 테이블 **DataTable1** 데이터 집합에 추가 됩니다.
 
-2.  제목 표시줄을 누릅니다 **DataTable1** 하 고 이름을 `Music`입니다.
+2. 제목 표시줄을 누릅니다 **DataTable1** 하 고 이름을 `Music`입니다.
 
 ## <a name="add-columns-to-the-datatable"></a>DataTable에 열 추가
 
-1.  마우스 오른쪽 단추로 클릭 합니다 **음악** 테이블입니다. 가리킨 **추가**를 클릭 하 고 **열**합니다.
+1. 마우스 오른쪽 단추로 클릭 합니다 **음악** 테이블입니다. 가리킨 **추가**를 클릭 하 고 **열**합니다.
 
-2.  열 이름을 `SongID`입니다.
+2. 열 이름을 `SongID`입니다.
 
-3.  **속성** 창에서 <xref:System.Data.DataColumn.DataType%2A> 속성을 <xref:System.Int16?displayProperty=fullName>로 설정합니다.
+3. **속성** 창에서 <xref:System.Data.DataColumn.DataType%2A> 속성을 <xref:System.Int16?displayProperty=fullName>로 설정합니다.
 
-4.  이 프로세스를 반복 하 고 다음 열을 추가 합니다.
+4. 이 프로세스를 반복 하 고 다음 열을 추가 합니다.
 
      `SongTitle`: <xref:System.String?displayProperty=fullName>
 
@@ -81,8 +81,8 @@ ms.locfileid: "55926751"
 
 저장 하는 **DataTableWalkthrough** 프로젝트에 **파일** 메뉴에서 **모두 저장**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [Visual Studio에서 데이터 세트 만들기 및 구성](../data-tools/create-and-configure-datasets-in-visual-studio.md)
+- [Visual Studio에서 데이터 집합 만들기 및 구성](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 - [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)

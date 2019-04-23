@@ -21,12 +21,12 @@ caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 612ed741e373b27c3564c185cc3e9bacffcb7739
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 261c0c0bd8b48634c8d24d56ee4df7ea3bbcf135
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982520"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60072853"
 ---
 # <a name="autos-and-locals-windows"></a>자동 및 지역 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,7 +84,7 @@ void main() {
   
  특정 상황에서는 함수 및 메서드의 반환 값을 볼 수도 있습니다. 아래에서 [View return values of method calls](#bkmk_returnValue) 를 참조하세요.  
   
-##  <a name="bkmk_returnValue"></a> View return values of method calls  
+## <a name="bkmk_returnValue"></a> View return values of method calls  
  .NET 및 C++ 코드에서는 메서드 호출을 프로시저 단위로 실행하거나 프로시저에서 나가는 경우 반환 값을 검사할 수 있습니다. 이 기능은 메서드가 다른 메서드의 반환 값이나 매개 변수로 사용되는 경우처럼 메서드 호출의 결과가 지역 변수에 저장되지 않는 경우에 유용합니다.  
   
  다음 C# 코드는 두 함수의 반환 값을 추가합니다.  
@@ -133,11 +133,11 @@ private static int subtractVars(int i, int j)
   
  그러나 값을 변경하는 경우 주의해야 합니다. 다음과 같은 문제가 있을 수 있습니다.  
   
--   일부 경우에는 식을 계산하면 변수 값이 바뀌거나 프로그램 상태에 영향이 미칠 수 있습니다. 예를 들어 `var1 = ++var2` 를 평가하면 `var1` 및 `var2`의 값이 바뀝니다.  
+- 일부 경우에는 식을 계산하면 변수 값이 바뀌거나 프로그램 상태에 영향이 미칠 수 있습니다. 예를 들어 `var1 = ++var2` 를 평가하면 `var1` 및 `var2`의 값이 바뀝니다.  
   
      데이터를 변경하는 식은 [부작용](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\))을 유발하여 인식하지 못할 경우 예기치 않은 결과를 생성할 수 있습니다. 변경을 수행하기 전에 이러한 변경의 결과를 이해해야 합니다.  
   
--   부동 소수점 값을 편집하면 소수 부분이 10진수에서 이진수로 변환되면서 약간의 오차가 발생할 수 있습니다. 겉보기에 해가 없는 편집 작업을 수행하는 경우에도 부동 소수점 변수의 LSB 중 일부가 변경될 수 있습니다.  
+- 부동 소수점 값을 편집하면 소수 부분이 10진수에서 이진수로 변환되면서 약간의 오차가 발생할 수 있습니다. 겉보기에 해가 없는 편집 작업을 수행하는 경우에도 부동 소수점 변수의 LSB 중 일부가 변경될 수 있습니다.  
   
 ## <a name="debug-location-toolbar"></a>디버그 위치 도구 모음  
  **디버그 위치** 도구 모음을 사용하여 원하는 함수, 스레드 또는 프로세스를 선택할 수 있습니다. 중단점을 설정하고 디버깅을 시작합니다. 이 도구 모음이 표시되지 않으면 도구 모음 영역의 빈 부분을 클릭하여 사용하도록 설정할 수 있습니다. 도구 모음 목록이 표시되면 **디버그 위치**를 선택합니다. 중단점이 적중되면 실행이 중지되고 디버그 위치 도구 모음이 표시될 수 있으며, 다음 그래픽의 맨 아래쪽 행입니다.  
