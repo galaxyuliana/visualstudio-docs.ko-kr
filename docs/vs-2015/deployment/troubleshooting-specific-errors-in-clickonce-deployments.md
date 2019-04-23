@@ -20,12 +20,12 @@ caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0dd4b04f3ded38717c14503cdc21d4c9433bd23f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 348cb15ebc348d6c0ece5e7118e896cc6a21b23b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981577"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60043198"
 ---
 # <a name="troubleshooting-specific-errors-in-clickonce-deployments"></a>ClickOnce 배포 관련 오류 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,15 +44,15 @@ ms.locfileid: "58981577"
 #### <a name="error-message-says-unable-to-retrieve-application-files-missing-in-deployment-or-application-download-has-been-interrupted-check-for-network-errors-and-try-again-later"></a>오류 메시지가 표시 되 면 "응용 프로그램을 검색할 수 없습니다. 배포에서 누락 된 파일"또는"응용 프로그램 다운로드가 중단 되었습니다, 네트워크 오류를 확인 하 고 나중에 다시 시도"  
  이 메시지는 하나 이상의 파일에서 참조 하 고 나타냅니다는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 매니페스트를 다운로드할 수 없습니다. 이 오류를 디버그 하는 가장 쉬운 방법은 URL 다운로드를 시도 하는 것을 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 라는 다운로드할 수 없습니다. 일부 원인은 다음과 같습니다.  
   
--   하는 경우 로그 파일 표시 "(403) 사용할 수 없음" 또는 "(404) 찾을 수 없음"이이 파일의 다운로드를 차단 하지 않도록 웹 서버에 구성 되어 있는지 확인 합니다. 자세한 내용은 [ClickOnce 배포 시 서버 및 클라이언트 구성 문제](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md)를 참조하세요.  
+- 하는 경우 로그 파일 표시 "(403) 사용할 수 없음" 또는 "(404) 찾을 수 없음"이이 파일의 다운로드를 차단 하지 않도록 웹 서버에 구성 되어 있는지 확인 합니다. 자세한 내용은 [ClickOnce 배포 시 서버 및 클라이언트 구성 문제](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md)를 참조하세요.  
   
--   .Config 파일 서버에서 차단 되어 섹션을 참조 "다운로드를 설치 하려고 할 때 오류를 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] .config 파일에 있는 응용 프로그램"이이 항목의 뒷부분에 나오는.  
+- .Config 파일 서버에서 차단 되어 섹션을 참조 "다운로드를 설치 하려고 할 때 오류를 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] .config 파일에 있는 응용 프로그램"이이 항목의 뒷부분에 나오는.  
   
--   이 때문에 발생 했는지 여부를 결정 합니다 `deploymentProvider` 배포 매니페스트의 URL가 정품 인증에 사용 된 URL 다른 위치를 가리키는 합니다.  
+- 이 때문에 발생 했는지 여부를 결정 합니다 `deploymentProvider` 배포 매니페스트의 URL가 정품 인증에 사용 된 URL 다른 위치를 가리키는 합니다.  
   
--   서버에서 모든 파일이 있는지 확인 합니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 로그 알려 주어 야는 파일을 찾을 수 없습니다.  
+- 서버에서 모든 파일이 있는지 확인 합니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 로그 알려 주어 야는 파일을 찾을 수 없습니다.  
   
--   네트워크 연결 문제; 있는지 여부를 참조 하세요. 다운로드 하는 동안 클라이언트 컴퓨터가 오프 라인으로 전환한 경우이 메시지를 받을 수 있습니다.  
+- 네트워크 연결 문제; 있는지 여부를 참조 하세요. 다운로드 하는 동안 클라이언트 컴퓨터가 오프 라인으로 전환한 경우이 메시지를 받을 수 있습니다.  
   
 #### <a name="download-error-when-you-try-to-install-a-clickonce-application-that-has-a-config-file"></a>.Config 파일에 있는 ClickOnce 응용 프로그램을 설치 하려고 할 때 다운로드 오류  
  기본적으로 Visual Basic Windows 기반 응용 프로그램을 App.config 파일을 포함합니다. 사용자가 해당 운영 체제 보안상의 이유로.config 파일의 설치를 차단 하기 때문에 Windows Server 2003을 사용 하는 웹 서버에서 설치 하려고 할 때 문제가 됩니다. 설치할.config 파일을 사용 하도록 설정 하려면 **".deploy" 파일 확장명을 사용 하 여** 에 **게시 옵션** 대화 상자.  
@@ -67,11 +67,11 @@ ms.locfileid: "58981577"
 #### <a name="you-updated-your-application-on-the-server-but-the-client-does-not-download-the-update"></a>서버에서 응용 프로그램을 업데이트 하지만 클라이언트 업데이트를 다운로드 하지 않습니다.  
  다음 작업 중 하나를 완료 하 여이 문제를 해결할 수 있습니다.  
   
--   검사는 `deploymentProvider` 배포 매니페스트의 URL입니다. 동일한 위치에서 비트를 업데이트 하 고 있는지 확인 하는 `deploymentProvider` 가리킵니다.  
+- 검사는 `deploymentProvider` 배포 매니페스트의 URL입니다. 동일한 위치에서 비트를 업데이트 하 고 있는지 확인 하는 `deploymentProvider` 가리킵니다.  
   
--   배포 매니페스트의 업데이트 간격을 확인 합니다. 이 간격을 6 시간 마다 한 번씩 같은 일정 한 간격으로 설정 된 경우 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 이 간격이 경과할 때까지 업데이트에 대 한 검색 됩니다. 응용 프로그램이 시작 될 때마다 업데이트를 검색 하는 매니페스트를 변경할 수 있습니다. 업데이트 간격을 변경 하는 것은 업데이트가 설치 되는, 있지만 응용 프로그램 활성화 저하를 확인 하려면 개발 기간 동안 편리 합니다.  
+- 배포 매니페스트의 업데이트 간격을 확인 합니다. 이 간격을 6 시간 마다 한 번씩 같은 일정 한 간격으로 설정 된 경우 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 이 간격이 경과할 때까지 업데이트에 대 한 검색 됩니다. 응용 프로그램이 시작 될 때마다 업데이트를 검색 하는 매니페스트를 변경할 수 있습니다. 업데이트 간격을 변경 하는 것은 업데이트가 설치 되는, 있지만 응용 프로그램 활성화 저하를 확인 하려면 개발 기간 동안 편리 합니다.  
   
--   시작 메뉴에서 응용 프로그램을 다시 시작 하십시오. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 백그라운드에서 업데이트를 발견 했을 수 있지만 다음 정품 인증에서 비트를 설치 하 라는 메시지가 표시 됩니다.  
+- 시작 메뉴에서 응용 프로그램을 다시 시작 하십시오. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 백그라운드에서 업데이트를 발견 했을 수 있지만 다음 정품 인증에서 비트를 설치 하 라는 메시지가 표시 됩니다.  
   
 #### <a name="during-update-you-receive-an-error-that-has-the-following-log-entry-the-reference-in-the-deployment-does-not-match-the-identity-defined-in-the-application-manifest"></a>업데이트 하는 동안 다음 로그 항목에 오류가 나타날 수 있습니다. "배포에 대 한 참조 응용 프로그램 매니페스트에 정의 된 id를 일치 하지 않습니다"  
  이 오류는 서로 동기화 한 매니페스트에 어셈블리의 id에 대 한 설명을 했 고 배포 및 응용 프로그램 매니페스트를 수동으로 편집한 때문에 발생할 수 있습니다. 어셈블리의 id를 해당 이름, 버전, 문화권 및 공개 키 토큰으로 구성 됩니다. 프로그램 매니페스트에 id 설명을 확인 하 고 모든 차이점을 수정 합니다.  
@@ -84,9 +84,9 @@ ms.locfileid: "58981577"
   
  다음을 수행 해야 합니다.  
   
--   배포 매니페스트의 id, 응용 프로그램 매니페스트의 id 및 기본 응용 프로그램 EXE의 id 모든 고유한 지 확인 합니다.  
+- 배포 매니페스트의 id, 응용 프로그램 매니페스트의 id 및 기본 응용 프로그램 EXE의 id 모든 고유한 지 확인 합니다.  
   
--   파일 경로가 100 자를 초과 되지 않았는지 확인 합니다. 너무 긴 파일 경로 포함 하는 응용 프로그램을 저장할 수 있습니다 최대 경로에 대 한 제한을 초과할 수 있습니다. 경로 단축 하 고 다시 설치 합니다.  
+- 파일 경로가 100 자를 초과 되지 않았는지 확인 합니다. 너무 긴 파일 경로 포함 하는 응용 프로그램을 저장할 수 있습니다 최대 경로에 대 한 제한을 초과할 수 있습니다. 경로 단축 하 고 다시 설치 합니다.  
   
 #### <a name="privatepath-settings-in-application-config-file-are-not-honored"></a>응용 프로그램 구성 파일에서 PrivatePath 설정이 무시 되며  
  PrivatePath (Fusion 검색 경로)를 사용 하려면 응용 프로그램에는 완전 신뢰 권한을 요청 해야 합니다. 완전 신뢰를 요청 하 고 다시 시도 하도록 응용 프로그램 매니페스트를 변경해 보세요.  
@@ -115,9 +115,9 @@ ms.locfileid: "58981577"
 #### <a name="you-tried-to-sign-with-a-certificate-in-your-certificate-store-and-a-received-blank-message-box"></a>인증서 저장소와 받은 빈 메시지 상자에 인증서를 사용 하 여 로그인 하려고 했습니다.  
  에 **서명** 대화 상자에서 수행 해야 합니다.  
   
--   선택 **저장된 된 인증서로 서명**, 및  
+- 선택 **저장된 된 인증서로 서명**, 및  
   
--   목록에서 인증서를 선택 합니다. 첫 번째 인증서가 기본적으로 선택 합니다.  
+- 목록에서 인증서를 선택 합니다. 첫 번째 인증서가 기본적으로 선택 합니다.  
   
 #### <a name="clicking-the-dont-sign-button-causes-an-exception"></a>서명 하지 않음 "단추를 클릭 하면 예외  
  이 문제는 알려진된 버그가 있습니다. 모든 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 매니페스트는 서명 되어야 합니다. 서명 옵션 중 하나를 선택 하 고 클릭 **확인**합니다.  

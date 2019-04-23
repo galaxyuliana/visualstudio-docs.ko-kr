@@ -17,12 +17,12 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6266f487e2e0c66e532297c3fdae3fd3e5498052
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c4bd14060517793d28e24818a051df63efb8f0e0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982868"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60061102"
 ---
 # <a name="how-to-enable-autostart-for-cd-installations"></a>방법: CD 설치를 위한 자동 시작 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,17 +33,17 @@ ms.locfileid: "58982868"
   
 ### <a name="to-enable-autostart"></a>자동 시작 기능을 사용 하도록 설정 하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **게시** 탭을 클릭합니다.  
+2. **게시** 탭을 클릭합니다.  
   
-3.  **옵션** 단추를 클릭합니다.  
+3. **옵션** 단추를 클릭합니다.  
   
      합니다 **게시 옵션** 대화 상자가 나타납니다.  
   
-4.  클릭 **배포**합니다.  
+4. 클릭 **배포**합니다.  
   
-5.  선택 된 **CD 설치는 자동으로 설치를 시작 CD를 삽입 하면** 확인란 합니다.  
+5. 선택 된 **CD 설치는 자동으로 설치를 시작 CD를 삽입 하면** 확인란 합니다.  
   
      Autorun.inf 파일을 응용 프로그램을 게시할 때 게시 위치에 복사 됩니다.  
   

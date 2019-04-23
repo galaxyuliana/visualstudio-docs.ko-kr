@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a781fc290a9be795cf48cf08c062711376bd6acc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 53b75732c636a551e3a000008d3ddcca2aa686cb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982541"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60058482"
 ---
 # <a name="how-to-modify-a-standard-menu-command-in-a-domain-specific-language"></a>방법: 도메인 특정 언어에서 표준 메뉴 명령 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,37 +37,37 @@ DSL에서 자동으로 정의되는 일부 표준 명령의 동작을 수정할 
 > [!NOTE]
 >  메뉴 명령을 직접 만들려는 경우 참조 [방법: 바로 가기 메뉴에 명령을 추가](../modeling/how-to-add-a-command-to-the-shortcut-menu.md)합니다.  
   
-##  <a name="what"></a> 명령을 수정할 수 있습니까?  
+## <a name="what"></a> 명령을 수정할 수 있습니까?  
   
 #### <a name="to-discover-what-commands-you-can-modify"></a>수정할 수 있는 명령을 파악하려면  
   
-1.  에 `DslPackage` 프로젝트를 열고 `GeneratedCode\CommandSet.cs`합니다. 이 C# 파일의 보조 파일로 솔루션 탐색기에서 찾을 수 있습니다 `CommandSet.tt`합니다.  
+1. 에 `DslPackage` 프로젝트를 열고 `GeneratedCode\CommandSet.cs`합니다. 이 C# 파일의 보조 파일로 솔루션 탐색기에서 찾을 수 있습니다 `CommandSet.tt`합니다.  
   
-2.  사용 하 여 해당 이름 끝이이 파일에서 클래스를 찾을 "`CommandSet`", 예를 들어 `Language1CommandSet` 고 `Language1ClipboardCommandSet`입니다.  
+2. 사용 하 여 해당 이름 끝이이 파일에서 클래스를 찾을 "`CommandSet`", 예를 들어 `Language1CommandSet` 고 `Language1ClipboardCommandSet`입니다.  
   
-3.  각 명령 집합 클래스에서 "`override`"와 공백을 차례로 입력합니다. 그러면 IntelliSense에서 재정의할 수 있는 메서드 목록을 표시합니다. 각 명령에는 이름이 "`ProcessOnStatus`" 및 "`ProcessOnMenu`"로 시작하는 메서드 쌍이 있습니다.  
+3. 각 명령 집합 클래스에서 "`override`"와 공백을 차례로 입력합니다. 그러면 IntelliSense에서 재정의할 수 있는 메서드 목록을 표시합니다. 각 명령에는 이름이 "`ProcessOnStatus`" 및 "`ProcessOnMenu`"로 시작하는 메서드 쌍이 있습니다.  
   
-4.  수정할 명령이 포함된 명령 집합 클래스를 확인합니다.  
+4. 수정할 명령이 포함된 명령 집합 클래스를 확인합니다.  
   
-5.  편집 내용을 저장하지 않고 파일을 닫습니다.  
+5. 편집 내용을 저장하지 않고 파일을 닫습니다.  
   
     > [!NOTE]
     >  일반적으로는 생성된 파일을 편집하면 안 됩니다. 다음 번에 파일을 생성하면 편집 내용이 손실됩니다.  
   
-##  <a name="extend"></a> 적절 한 명령 집합 클래스 확장  
+## <a name="extend"></a> 적절 한 명령 집합 클래스 확장  
  명령 집합 클래스의 partial 선언이 포함된 새 파일을 만듭니다.  
   
 #### <a name="to-extend-the-command-set-class"></a>명령 집합 클래스를 확장하려면  
   
-1.  솔루션 탐색기의 DslPackage 프로젝트에서 GeneratedCode 폴더를 열고 CommandSet.tt를 확인하여 생성된 CommandSet.cs 파일을 엽니다. 이 파일에 정의된 첫 번째 클래스의 이름과 네임스페이스를 확인합니다. 예를 들어 다음과 같은 코드가 표시될 수 있습니다.  
+1. 솔루션 탐색기의 DslPackage 프로젝트에서 GeneratedCode 폴더를 열고 CommandSet.tt를 확인하여 생성된 CommandSet.cs 파일을 엽니다. 이 파일에 정의된 첫 번째 클래스의 이름과 네임스페이스를 확인합니다. 예를 들어 다음과 같은 코드가 표시될 수 있습니다.  
   
      `namespace Company.Language1`  
   
      `{ ...  internal partial class Language1CommandSet : ...`  
   
-2.  **DslPackage**, 라는 폴더를 만듭니다 **사용자 지정 코드**합니다. 이 폴더에서 이라는 새 클래스 파일을 만듭니다 `CommandSet.cs`합니다.  
+2. **DslPackage**, 라는 폴더를 만듭니다 **사용자 지정 코드**합니다. 이 폴더에서 이라는 새 클래스 파일을 만듭니다 `CommandSet.cs`합니다.  
   
-3.  새 파일에 생성된 partial 클래스와 이름 및 네임스페이스가 같은 partial 선언을 작성합니다. 예를 들어:  
+3. 새 파일에 생성된 partial 클래스와 이름 및 네임스페이스가 같은 partial 선언을 작성합니다. 예를 들어:  
   
     ```  
     using System;  
@@ -79,7 +79,7 @@ DSL에서 자동으로 정의되는 일부 표준 명령의 동작을 수정할 
   
      **참고** 클래스 파일 템플릿을 사용 하는 새 파일을 만드는 경우 네임 스페이스 및 클래스 이름을 모두 수정 해야 합니다.  
   
-##  <a name="override"></a> 명령 메서드 재정의  
+## <a name="override"></a> 명령 메서드 재정의  
  대부분의 명령에는 두 연결된 방법이 있습니다. 이름 사용 하 여 메서드 같은 `ProcessOnStatus`... 명령이 표시 되 고 사용할 수 있어야 하는지 여부를 결정 합니다. 이 메서드는 사용자가 다이어그램을 마우스 오른쪽 단추로 클릭할 때마다 호출되고 빠르게 실행되며 아무것도 변경하지 않아야 합니다. `ProcessOnMenu`... 사용자 명령을 클릭 하 고 명령의 기능을 수행 해야 하는 경우 호출 됩니다. 이 두 메서드 중 하나 또는 둘 다를 재정의할 수 있습니다.  
   
 ### <a name="to-change-when-the-command-appears-on-a-menu"></a>메뉴에 명령이 표시되는 경우를 변경하려면  

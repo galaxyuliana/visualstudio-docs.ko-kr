@@ -11,12 +11,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b02f1035a8b149ba8cfc1152bb83d1410bd86350
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d93c18f1b62ef7171fb35af896a8e9adbc461680
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983235"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053535"
 ---
 # <a name="graphics-frame-analysis"></a>그래픽 프레임 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -139,7 +139,7 @@ Visual Studio Graphics Analyzer의 그래픽 프레임 분석을 사용하여 Di
   
  프레임 분석에서는 다시 시도 횟수를 10회로 제한합니다. 플랫폼에 공격적인 전원 관리 또는 클록 게이팅 기능이 있는 경우 프레임 분석에 실패할 수 있고 다시 시도 제한을 초과했으므로 오류를 보고할 수 있습니다. 플랫폼에서 설정할 수 있는 경우 플랫폼의 전원 관리와 클록 속도 제한을 보다 여유 있는 값으로 다시 설정하여 이 문제를 완화할 수 있습니다.  
   
-##  <a name="HardwareSupport"></a> 하드웨어 지원  
+## <a name="HardwareSupport"></a> 하드웨어 지원  
   
 ### <a name="timestamps-and-occlusion-queries"></a>타임스탬프 및 폐색 쿼리  
  타임스탬프는 프레임 분석을 지원하는 모든 플랫폼에서 지원됩니다. 픽셀 폐색 카운터에 필요한 깊이 폐색 쿼리는 기능 수준 9.2 이상을 지원하는 플랫폼에서 지원됩니다.  
@@ -182,7 +182,7 @@ Visual Studio Graphics Analyzer의 그래픽 프레임 분석을 사용하여 Di
 > [!NOTE]
 >  이는 기능 수준이 아니라 사용 중인 Direct3D API 호출에만 적용됩니다. Direct3D 11, Direct3D 11.1 또는 Direct3D 11.2 API를 사용하는 한 좋아하는 기능 수준은 무엇이든 사용할 수 있고 프레임 분석이 작동합니다.  
   
-##  <a name="Variants"></a> 변형  
+## <a name="Variants"></a> 변형  
  프레임 분석이 재생 중 프레임이 렌더링되는 방식에 대해 변경한 각 내용을 *변형*이라고 합니다. 프레임 분석에서 검사한 변형은 앱의 렌더링 성능 또는 시각적 품질을 향상시키기 위해 수행한 일반적이고 상대적으로 쉬운 변경에 해당합니다(예: 질감 크기 줄이기, 질감 압축 사용 또는 다른 종류의 앤티앨리어싱 사용). 변형은 앱의 일반적인 렌더링 컨텍스트와 매개 변수를 재정의합니다. 다음은 요약입니다.  
   
 |변형|설명|  

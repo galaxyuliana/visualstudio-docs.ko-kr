@@ -11,12 +11,12 @@ ms.assetid: 497e479b-add8-4644-870a-917f15306b97
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e0d80320b47f0d5968b4aa0e795743e394db2c19
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 2566c97a4dc025e27aecf64a7a8950a578882348
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002592"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054382"
 ---
 # <a name="windows-installer-basics"></a>Windows Installer 기본 사항
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,15 +63,15 @@ Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요�
   
 #### <a name="installer-enforced-rules"></a>설치 관리자 적용 규칙  
   
--   지정된 된 구성 요소에 있는 모든 파일을 동일한 디렉터리에 설치 되어야 합니다. 반대로, 별개의 폴더에 설치 된 파일은 구성 요소 구분에 속해야 합니다.  
+- 지정된 된 구성 요소에 있는 모든 파일을 동일한 디렉터리에 설치 되어야 합니다. 반대로, 별개의 폴더에 설치 된 파일은 구성 요소 구분에 속해야 합니다.  
   
--   구성 요소별 키 경로가 하나만 있을 수 있습니다. 키 경로 단순히 파일 또는 레지스트리 키를 전체 구성 요소를 나타냅니다.  
+- 구성 요소별 키 경로가 하나만 있을 수 있습니다. 키 경로 단순히 파일 또는 레지스트리 키를 전체 구성 요소를 나타냅니다.  
   
 #### <a name="component-provider-responsibilities"></a>구성 요소 공급자 책임  
   
--   이후 버전에서는 개별적으로 제공할 수 있는 두 리소스는 별도 구성 요소에 있어야 합니다. 이러한 리소스는 별도로 제공 되지 특정 경우에 동일한 구성 요소도 리소스를 그룹화 할 수 해야 합니다. 사실, 것이 좋습니다 모든 기본 리소스 (예: Dll) 별도 WICs에 항상 존재 합니다. 자세한 내용은 [설치 관리자 구성 요소 정의](http://msdn.microsoft.com/library/aa368269\(VS.85\).aspx)합니다.  
+- 이후 버전에서는 개별적으로 제공할 수 있는 두 리소스는 별도 구성 요소에 있어야 합니다. 이러한 리소스는 별도로 제공 되지 특정 경우에 동일한 구성 요소도 리소스를 그룹화 할 수 해야 합니다. 사실, 것이 좋습니다 모든 기본 리소스 (예: Dll) 별도 WICs에 항상 존재 합니다. 자세한 내용은 [설치 관리자 구성 요소 정의](http://msdn.microsoft.com/library/aa368269\(VS.85\).aspx)합니다.  
   
--   버전이 지정 된 리소스가 해야 적이 둘 이상의 WIC에서 제공 됩니다.  
+- 버전이 지정 된 리소스가 해야 적이 둘 이상의 WIC에서 제공 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [구성 요소 규칙을 위반 하는 경우 어떻게 되나요?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)

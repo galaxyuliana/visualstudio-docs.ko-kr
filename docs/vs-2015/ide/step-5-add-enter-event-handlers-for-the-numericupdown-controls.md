@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5156af5f8532879bc748627fb62b0b4b6fba4af2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 5e5956414b7d298c5bf198d6e1e7daf3bceb6638
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54776017"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60056369"
 ---
 # <a name="step-5-add-enter-event-handlers-for-the-numericupdown-controls"></a>5단계: NumericUpDown 컨트롤에 대한 Enter 이벤트 처리기 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,17 +22,17 @@ ms.locfileid: "54776017"
 이 자습서의 5단계에서는 퀴즈 문제의 답을 좀 더 쉽게 입력할 수 있도록 Enter 이벤트 처리기를 추가합니다. 이 코드에서는 퀴즈를 푸는 사람이 NumericUpDown 컨트롤을 선택하고 다른 값을 입력하는 즉시 각 NumericUpDown 컨트롤의 현재 값을 선택하고 지웁니다.  
   
 > [!NOTE]
->  이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)를 참조하세요.  
+>  이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
   
 ### <a name="to-verify-the-default-behavior"></a>기본 동작을 확인하려면  
   
-1.  프로그램을 실행하고 퀴즈를 시작합니다.  
+1. 프로그램을 실행하고 퀴즈를 시작합니다.  
   
      더하기 문제의 NumericUpDown 컨트롤에서 **0** 옆에 커서가 깜박이고 있습니다.  
   
-2.  `3`을 입력하면 컨트롤에 **30**이 표시됩니다.  
+2. `3`을 입력하면 컨트롤에 **30**이 표시됩니다.  
   
-3.  `5`를 입력하면 **350**이 나타나지만 잠시 후 **100**으로 변경됩니다.  
+3. `5`를 입력하면 **350**이 나타나지만 잠시 후 **100**으로 변경됩니다.  
   
      이 문제를 해결하려면 먼저 무엇이 문제인지 알아야 합니다. 즉, `3`을 입력했을 때 **0**이 사라지지 않는 이유와 **350**이 잠시 나타났다가 **100**으로 변경되는 이유가 무엇인지 알아야 합니다.  
   
@@ -40,18 +40,18 @@ ms.locfileid: "54776017"
   
 ### <a name="to-add-an-enter-event-handler-for-a-numericupdown-control"></a>NumericUpDown 컨트롤에 대한 Enter 이벤트 처리기를 추가하려면  
   
-1.  폼에서 이름이 "sum"인 첫 번째 NumericUpDown 컨트롤을 선택한 다음 **속성** 대화 상자에서 도구 모음의 **이벤트** 아이콘을 선택합니다.  
+1. 폼에서 이름이 "sum"인 첫 번째 NumericUpDown 컨트롤을 선택한 다음 **속성** 대화 상자에서 도구 모음의 **이벤트** 아이콘을 선택합니다.  
   
      **속성** 대화 상자의 **이벤트** 탭에 폼에서 선택하는 항목에 대해 응답(처리)할 수 있는 모든 이벤트가 표시됩니다. NumericUpDown 컨트롤을 선택했으므로 이 컨트롤과 관련된 모든 이벤트가 나열됩니다.  
   
-2.  **Enter** 이벤트를 선택하고 `answer_Enter`를 입력한 다음 Enter 키를 선택합니다.  
+2. **Enter** 이벤트를 선택하고 `answer_Enter`를 입력한 다음 Enter 키를 선택합니다.  
   
      ![속성 대화 상자](../ide/media/express-answerenter.png "Express_AnswerEnter")  
 속성 대화 상자  
   
      sum NumericUpDown 컨트롤에 대한 Enter 이벤트 처리기를 추가하고 처리기 이름을 **answer_Enter**로 지정했습니다.  
   
-3.  **answer_Enter** 이벤트 처리기의 메서드에 다음 코드를 추가합니다.  
+3. **answer_Enter** 이벤트 처리기의 메서드에 다음 코드를 추가합니다.  
   
      [!code-csharp[VbExpressTutorial3Step5_6#11](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/cs/form1.cs#11)]
      [!code-vb[VbExpressTutorial3Step5_6#11](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/vb/form1.vb#11)]  
@@ -60,18 +60,18 @@ ms.locfileid: "54776017"
   
      다음 줄에서는 answerBox가 개체에서 NumericUpDown 컨트롤로 성공적으로 변환(캐스팅)되었는지 여부를 확인합니다. 변환에 실패할 경우 변수 값은 `null`(C#) 또는 `Nothing`(Visual Basic)입니다. 세 번째 줄은 NumericUpDown 컨트롤에 표시되는 답의 길이를 가져오고, 네 번째 줄은 이 길이를 기준으로 컨트롤의 현재 값을 선택합니다. 이제 퀴즈를 푸는 사람이 컨트롤을 선택하면 Visual Studio에서 이 이벤트를 발생시키고 현재 답이 선택됩니다. 퀴즈를 푸는 사람이 다른 답을 입력하기 시작하면 이전 답이 지워지고 새 답으로 대체됩니다.  
   
-4.  Windows Forms 디자이너에서 difference NumericUpDown 컨트롤을 선택합니다.  
+4. Windows Forms 디자이너에서 difference NumericUpDown 컨트롤을 선택합니다.  
   
-5.  **속성** 대화 상자의 **이벤트** 페이지에서 **Enter** 이벤트로 스크롤하여 행 끝의 드롭다운 화살표를 선택한 다음 방금 추가한 `answer_Enter` 이벤트 처리기를 선택합니다.  
+5. **속성** 대화 상자의 **이벤트** 페이지에서 **Enter** 이벤트로 스크롤하여 행 끝의 드롭다운 화살표를 선택한 다음 방금 추가한 `answer_Enter` 이벤트 처리기를 선택합니다.  
   
-6.  product 및 quotient NumericUpDown 컨트롤에 대해 이전 단계를 반복합니다.  
+6. product 및 quotient NumericUpDown 컨트롤에 대해 이전 단계를 반복합니다.  
   
-7.  프로그램을 저장한 후 실행합니다.  
+7. 프로그램을 저장한 후 실행합니다.  
   
      NumericUpDown 컨트롤을 선택하면 기존 값이 자동으로 선택되고 다른 값을 입력하기 시작하면 기존 값이 지워집니다.  
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   
--   다음 자습서 단계로 이동하려면 [6단계: 빼기 문제 추가](../ide/step-6-add-a-subtraction-problem.md)를 참조하세요.  
+- 다음 자습서 단계로 이동하려면 [6단계: 빼기 문제 추가](../ide/step-6-add-a-subtraction-problem.md)합니다.  
   
--   이전 자습서 단계로 돌아가려면 [4단계: CheckTheAnswer() 메서드 추가](../ide/step-4-add-the-checktheanswer-parens-method.md)를 참조하세요.
+- 이전 자습서 단계로 돌아가려면 [4단계: Checktheanswer () 메서드 추가](../ide/step-4-add-the-checktheanswer-parens-method.md)합니다.

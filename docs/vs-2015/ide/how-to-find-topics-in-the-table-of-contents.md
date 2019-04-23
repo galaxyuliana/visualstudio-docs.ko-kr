@@ -16,17 +16,17 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dd53eef6cb5dc7b7144375f5d0f6b47e11913ed3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: e439521d9a81bc418eb403bb87ee9576605b8e66
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54778344"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055500"
 ---
 # <a name="how-to-find-topics-in-the-table-of-contents"></a>방법: 목차에서 항목 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-**콘텐츠** 탭에서 목차를 사용하여 정보를 찾을 수 있습니다. 목차는 설치된 책의 모든 항목을 포함하는 확장명 가능한 목록입니다. 목차를 탐색하는 방법에 대한 내게 필요한 옵션 정보를 보려면 [바로 가기 키(도움말 뷰어)](../ide/shortcut-keys-help-viewer.md)를 참조하세요.  
+**콘텐츠** 탭에서 목차를 사용하여 정보를 찾을 수 있습니다. 목차는 설치된 책의 모든 항목을 포함하는 확장 가능한 목록입니다. 목차를 탐색하는 방법에 대한 내게 필요한 옵션 정보를 보려면 [바로 가기 키(도움말 뷰어)](../ide/shortcut-keys-help-viewer.md)를 참조하세요.  
   
 > [!IMPORTANT]
 >  목차에서 사용할 수 있는 항목의 범위는 선택한 필터에 따라 다릅니다.  
@@ -36,9 +36,9 @@ ms.locfileid: "54778344"
   
 #### <a name="to-filter-the-toc"></a>목차를 필터링하려면  
   
-1.  **콘텐츠** 탭을 선택합니다.  
+1. **콘텐츠** 탭을 선택합니다.  
   
-2.  **콘텐츠 필터링** 텍스트 상자에 어구를 입력합니다.  
+2. **콘텐츠 필터링** 텍스트 상자에 어구를 입력합니다.  
   
 > [!NOTE]
 >  필터가 실행되는 데 오래 걸리는 경우 `title:` 고급 검색 연산자를 사용하여 결과를 더 빠르게 표시할 수 있습니다.  
@@ -48,9 +48,9 @@ ms.locfileid: "54778344"
   
 #### <a name="to-synchronize-the-toc-with-the-topic-window"></a>항목 창과 목차를 동기화하려면  
   
-1.  항목을 봅니다.  
+1. 항목을 봅니다.  
   
-2.  도구 모음에서 **콘텐츠에 항목 표시** 단추를 클릭하거나 Ctrl+S를 누릅니다.  
+2. 도구 모음에서 **콘텐츠에 항목 표시** 단추를 클릭하거나 Ctrl+S를 누릅니다.  
   
      **콘텐츠** 탭이 열리고 목차에서 항목의 위치가 표시됩니다.  
   

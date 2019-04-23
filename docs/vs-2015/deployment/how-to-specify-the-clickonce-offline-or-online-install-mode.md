@@ -19,12 +19,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0e16c3b921c8ecd2c4c944b60cb5541eac49463e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d4111ca5aee4a405a4a797dbfee14a3d4b50435f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983903"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054253"
 ---
 # <a name="how-to-specify-the-clickonce-offline-or-online-install-mode"></a>방법: ClickOnce 오프라인 또는 온라인 설치 모드 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,19 +37,19 @@ ms.locfileid: "58983903"
   
 ### <a name="to-make-a-clickonce-application-available-online-only"></a>ClickOnce 응용 프로그램을 사용할 수 있도록 온라인만  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **게시** 탭을 클릭합니다.  
+2. **게시** 탭을 클릭합니다.  
   
-3.  에 **설치 모드 및 설정** 영역에서 클릭 합니다 **응용 프로그램은 온라인** 옵션 단추.  
+3. 에 **설치 모드 및 설정** 영역에서 클릭 합니다 **응용 프로그램은 온라인** 옵션 단추.  
   
 ### <a name="to-make-a-clickonce-application-available-online-or-offline"></a>온라인 또는 오프 라인으로 ClickOnce 응용 프로그램을 사용할 수 있도록 하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **게시** 탭을 클릭합니다.  
+2. **게시** 탭을 클릭합니다.  
   
-3.  에 **설치 모드 및 설정** 영역에서 클릭 합니다 **응용 프로그램을 오프 라인으로** 옵션 단추.  
+3. 에 **설치 모드 및 설정** 영역에서 클릭 합니다 **응용 프로그램을 오프 라인으로** 옵션 단추.  
   
      설치에 응용 프로그램 항목을 추가 합니다 **시작** 메뉴와 **프로그램 추가 / 제거** 제어판에서.  
   

@@ -16,21 +16,21 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d2c81a0da3c60bc9b3cfaec357dab0fe2bb33706
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a24fde5f04a88de7eec34836df38bc1cca8669ab
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56654024"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60060634"
 ---
 # <a name="how-to-programmatically-insert-text-into-word-documents"></a>방법: 프로그래밍 방식으로 Word 문서에 텍스트 삽입
   Microsoft Office Word 문서에 텍스트를 삽입하는 기본 방법에는 다음 세 가지가 있습니다.
 
--   범위에 텍스트를 삽입합니다.
+- 범위에 텍스트를 삽입합니다.
 
--   범위의 텍스트를 새 텍스트로 바꿉니다.
+- 범위의 텍스트를 새 텍스트로 바꿉니다.
 
--   <xref:Microsoft.Office.Interop.Word.Selection.TypeText%2A> 개체의 <xref:Microsoft.Office.Interop.Word.Selection> 메서드를 사용하여 커서 또는 선택 영역에 텍스트를 삽입합니다.
+- <xref:Microsoft.Office.Interop.Word.Selection.TypeText%2A> 개체의 <xref:Microsoft.Office.Interop.Word.Selection> 메서드를 사용하여 커서 또는 선택 영역에 텍스트를 삽입합니다.
 
 > [!NOTE]
 >  콘텐츠 컨트롤 및 책갈피에 텍스트를 삽입할 수도 있습니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md) 하 고 [Bookmark 컨트롤](../vsto/bookmark-control.md)합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "56654024"
 
 ### <a name="to-insert-text-in-a-range"></a>범위에 텍스트를 삽입하려면
 
-1.  문서의 시작 부분에 범위를 지정하고 **New Text**텍스트를 삽입합니다.
+1. 문서의 시작 부분에 범위를 지정하고 **New Text**텍스트를 삽입합니다.
 
      다음 코드 예제는 문서 수준 사용자 지정에서 사용할 수 있습니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "56654024"
      [!code-vb[Trin_VstcoreWordAutomationAddIn#51](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#51)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#51](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#51)]
 
-2.  1자에서 삽입된 텍스트의 길이까지 확장된 <xref:Microsoft.Office.Interop.Word.Range> 개체를 선택합니다.
+2. 1자에서 삽입된 텍스트의 길이까지 확장된 <xref:Microsoft.Office.Interop.Word.Range> 개체를 선택합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#52](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#52)]
      [!code-csharp[Trin_VstcoreWordAutomation#52](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#52)]
@@ -64,7 +64,7 @@ ms.locfileid: "56654024"
 
 ### <a name="to-replace-text-in-a-range"></a>범위의 텍스트를 바꾸려면
 
-1.  문서의 처음 12자로 구성된 <xref:Microsoft.Office.Interop.Word.Range> 개체를 만듭니다.
+1. 문서의 처음 12자로 구성된 <xref:Microsoft.Office.Interop.Word.Range> 개체를 만듭니다.
 
      다음 코드 예제는 문서 수준 사용자 지정에서 사용할 수 있습니다.
 
@@ -76,12 +76,12 @@ ms.locfileid: "56654024"
      [!code-vb[Trin_VstcoreWordAutomationAddIn#53](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#53)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#53](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#53)]
 
-2.  이러한 문자를 **New Text**문자열로 바꿉니다.
+2. 이러한 문자를 **New Text**문자열로 바꿉니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#54](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#54)]
      [!code-csharp[Trin_VstcoreWordAutomation#54](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#54)]
 
-3.  범위를 선택합니다.
+3. 범위를 선택합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#55](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#55)]
      [!code-csharp[Trin_VstcoreWordAutomation#55](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#55)]

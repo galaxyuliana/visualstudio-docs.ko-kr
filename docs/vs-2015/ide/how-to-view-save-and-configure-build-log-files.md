@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6826a2f2618ee77944102245781a8df3b2a4596b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 496fcdf28f8ce9b0809988949d435c064734b508
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54760059"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053571"
 ---
 # <a name="how-to-view-save-and-configure-build-log-files"></a>방법: 빌드 로그 파일 보기, 저장 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,23 +25,23 @@ Visual Studio IDE에서 프로젝트를 빌드한 후에 **출력** 창에서 �
   
 ### <a name="to-view-the-build-log-file-for-a-c-project"></a>C++ 프로젝트에 대한 빌드 로그 파일을 보려면  
   
-1.  **Windows 탐색기** 또는 **파일 탐색기**에서 다음 파일을 엽니다. \\...\Visual Studio *Version*\Projects\\*ProjectName*\\*ProjectName*\Debug\\*ProjectName*.txt  
+1. **Windows 탐색기** 또는 **파일 탐색기**에서 다음 파일을 엽니다. \\...\Visual Studio *Version*\Projects\\*ProjectName*\\*ProjectName*\Debug\\*ProjectName*.txt  
   
 ### <a name="to-create-a-build-log-file-for-a-managed-code-project"></a>관리 코드 프로젝트에 빌드 로그 파일을 만들려면  
   
-1.  메뉴 모음에서 **빌드**, **솔루션 빌드**를 선택합니다.  
+1. 메뉴 모음에서 **빌드**, **솔루션 빌드**를 선택합니다.  
   
-2.  **출력** 창에서 빌드의 정보를 강조 표시한 다음 클립보드에 복사합니다.  
+2. **출력** 창에서 빌드의 정보를 강조 표시한 다음 클립보드에 복사합니다.  
   
-3.  메모장과 같은 텍스트 편집기를 열고 정보를 파일에 붙여넣은 다음 저장합니다.  
+3. 메모장과 같은 텍스트 편집기를 열고 정보를 파일에 붙여넣은 다음 저장합니다.  
   
 ### <a name="to-change-the-amount-of-information-included-in-the-build-log"></a>빌드 로그에 포함되는 정보의 양을 변경하려면  
   
-1.  메뉴 모음에서 **도구**, **옵션**을 선택합니다.  
+1. 메뉴 모음에서 **도구**, **옵션**을 선택합니다.  
   
-2.  **프로젝트 및 솔루션** 페이지에서 **빌드 및 실행** 페이지를 선택합니다.  
+2. **프로젝트 및 솔루션** 페이지에서 **빌드 및 실행** 페이지를 선택합니다.  
   
-3.  **MSBuild 프로젝트 빌드 출력 세부 정보 표시** 목록에서 다음 값 중 하나를 선택하고 **확인** 단추를 선택합니다.  
+3. **MSBuild 프로젝트 빌드 출력 세부 정보 표시** 목록에서 다음 값 중 하나를 선택하고 **확인** 단추를 선택합니다.  
   
     |세부 정보 표시 수준|설명|  
     |---------------------|-----------------|  

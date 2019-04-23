@@ -11,12 +11,12 @@ ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
 caps.latest.revision: 30
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e4d28305f8ccd1a6b212b520a7501164be2cc0ee
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6f26c093f09cd5b7b99f00ee69a81be99c769e2e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982818"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054240"
 ---
 # <a name="new-project-generation-under-the-hood-part-one"></a>새 프로젝트 생성: 내부 살펴보기, 1부
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,15 +25,15 @@ ms.locfileid: "58982818"
   
  Visual Studio를 조정 하는 작업을 여러 가지가 있습니다.  
   
--   모든 사용 가능한 프로젝트 형식 트리의 표시 됩니다.  
+- 모든 사용 가능한 프로젝트 형식 트리의 표시 됩니다.  
   
--   각 프로젝트 형식에 대 한 응용 프로그램 템플릿 목록을 표시 하 고 하나를 선택할 수 있습니다.  
+- 각 프로젝트 형식에 대 한 응용 프로그램 템플릿 목록을 표시 하 고 하나를 선택할 수 있습니다.  
   
--   프로젝트 이름 및 경로 등과 같은 응용 프로그램에 대 한 프로젝트 정보를 수집합니다.  
+- 프로젝트 이름 및 경로 등과 같은 응용 프로그램에 대 한 프로젝트 정보를 수집합니다.  
   
--   프로젝트 팩터리에이 정보를 전달합니다.  
+- 프로젝트 팩터리에이 정보를 전달합니다.  
   
--   현재 솔루션의 프로젝트 항목 및 폴더를 생성합니다.  
+- 현재 솔루션의 프로젝트 항목 및 폴더를 생성합니다.  
   
 ## <a name="the-new-project-dialog-box"></a>새 프로젝트 대화 상자  
  모든 새로운 프로젝트의 프로젝트 형식을 선택 하면 시작 됩니다. 클릭 하 여 시작 해 보겠습니다 **새 프로젝트** 에 **파일** 메뉴. 합니다 **새 프로젝트** 대화 상자가 나타나면 다음과 같이 결과 보기:  
@@ -90,7 +90,7 @@ devenv /installvstemplates
  수가 작을수록 더 낮은 우선 순위를 트리에서 높을수록 위치 합니다.  
   
 ##### <a name="developeractivity"></a>DeveloperActivity  
- 이 하위 키가 있는 경우 루트 노드의 위치를 개발자 설정 대화 상자에서 제어 됩니다. 예를 들어 개체에 적용된  
+ 이 하위 키가 있는 경우 루트 노드의 위치를 개발자 설정 대화 상자에서 제어 됩니다. 예를 들면 다음과 같습니다.  
   
  DeveloperActivity REG_SZVC#  
   
@@ -116,11 +116,11 @@ devenv /installvstemplates
   
  경우는 **새 프로젝트** 대화 상자가 열리고 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] ProjectTemplates 폴더를 트래버스하 고 해당 구조를 다시 만듭니다는 **프로젝트 형식** 일부 변경 내용 사용 하 여 트리:  
   
--   루트 노드를 **프로젝트 형식** 트리는 응용 프로그램 템플릿에 의해 결정 됩니다.  
+- 루트 노드를 **프로젝트 형식** 트리는 응용 프로그램 템플릿에 의해 결정 됩니다.  
   
--   노드 이름을 지역화할 수 및 특수 문자를 포함할 수 있습니다.  
+- 노드 이름을 지역화할 수 및 특수 문자를 포함할 수 있습니다.  
   
--   정렬 순서를 변경할 수 있습니다.  
+- 정렬 순서를 변경할 수 있습니다.  
   
 ##### <a name="finding-the-root-node-for-a-project-type"></a>프로젝트 형식에 대 한 루트 노드 찾기  
  Visual Studio ProjectTemplates 폴더 이동, 모든.zip 파일을 엽니다 및.vstemplate 파일을 추출 합니다. .Vstemplate 파일을 응용 프로그램 템플릿을 설명 하기 위해 XML을 사용 합니다. 자세한 내용은 참조 하세요. [새 프로젝트 생성: 내부적으로 2 부](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)합니다.  

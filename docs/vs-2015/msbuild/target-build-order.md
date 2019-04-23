@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f5d619a18fa38c09b25f2d8367f3f767ac5bdc11
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 9ea2068bce101eb27a81da4925e0fef6ffa8c534
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651084"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054446"
 ---
 # <a name="target-build-order"></a>대상 빌드 순서
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,19 +107,19 @@ ms.locfileid: "59651084"
 ## <a name="determining-the-target-build-order"></a>대상 빌드 순서 결정  
  MSBuild는 다음처럼 대상 빌드 순서를 결정합니다.  
   
-1.  `InitialTargets` 대상이 실행됩니다.  
+1. `InitialTargets` 대상이 실행됩니다.  
   
-2.  **/target** 스위치를 통해 명령줄에 지정된 대상이 실행됩니다. 명령줄에서 대상을 지정하지 않으면 `DefaultTargets` 대상이 실행됩니다. 이 두 대상이 모두 없으면 처음으로 나오는 대상이 실행됩니다.  
+2. **/target** 스위치를 통해 명령줄에 지정된 대상이 실행됩니다. 명령줄에서 대상을 지정하지 않으면 `DefaultTargets` 대상이 실행됩니다. 이 두 대상이 모두 없으면 처음으로 나오는 대상이 실행됩니다.  
   
-3.  대상의 `Condition` 특성을 평가합니다. `Condition` 특성이 있고 `false`로 평가되는 경우 대상은 실행되지 않으며 빌드에 영향을 주지 않습니다.  
+3. 대상의 `Condition` 특성을 평가합니다. `Condition` 특성이 있고 `false`로 평가되는 경우 대상은 실행되지 않으며 빌드에 영향을 주지 않습니다.  
   
-4.  대상이 실행되기 전에 `DependsOnTargets` 대상이 실행됩니다.  
+4. 대상이 실행되기 전에 `DependsOnTargets` 대상이 실행됩니다.  
   
-5.  대상이 실행되기 전에 `BeforeTargets` 특성에 해당 대상이 나열되어 있는 모든 대상이 실행됩니다.  
+5. 대상이 실행되기 전에 `BeforeTargets` 특성에 해당 대상이 나열되어 있는 모든 대상이 실행됩니다.  
   
-6.  대상이 실행되기 전에 `Inputs` 특성 및 `Outputs` 특성을 비교합니다. MSBuild는 해당하는 하나 이상의 입력 파일과 관련하여 출력 파일이 오래된 것으로 확인되면 대상을 실행합니다. 그렇지 않으면 MSBuild는 대상을 건너뜁니다.  
+6. 대상이 실행되기 전에 `Inputs` 특성 및 `Outputs` 특성을 비교합니다. MSBuild는 해당하는 하나 이상의 입력 파일과 관련하여 출력 파일이 오래된 것으로 확인되면 대상을 실행합니다. 그렇지 않으면 MSBuild는 대상을 건너뜁니다.  
   
-7.  대상을 실행하거나 건너뛴 후에는 `AfterTargets` 특성에 해당 대상이 나열되어 있는 모든 대상이 실행됩니다.  
+7. 대상을 실행하거나 건너뛴 후에는 `AfterTargets` 특성에 해당 대상이 나열되어 있는 모든 대상이 실행됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [대상](../msbuild/msbuild-targets.md)

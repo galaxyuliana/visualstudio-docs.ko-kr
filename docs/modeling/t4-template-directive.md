@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 88690e57e1781e9fe43b3cf4108c62fab189a988
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 56332c58c48903a13a5b1538cf18986ba81e20a7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949033"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059008"
 ---
 # <a name="t4-template-directive"></a>T4 템플릿 지시문
 
@@ -26,7 +26,7 @@ Visual Studio T4 텍스트 템플릿을 사용 하 여 일반적으로 시작 �
 <#@ template [language="VB"] [compilerOptions="options"] [culture="code"] [debug="true"] [hostspecific="true"] [inherits="templateBaseClass"] [visibility="internal"] [linePragmas="false"] #>
 ```
 
-`template` 지시문에는 변형의 다양한 측면을 지정할 수 있도록 하는 몇 가지 특성이 있습니다. 모든 특성은 선택적입니다.
+`template` 지시문에는 변환의 다양한 측면을 지정할 수 있도록 하는 몇 가지 특성이 있습니다. 모든 특성은 선택적입니다.
 
 ## <a name="compileroptions-attribute"></a>compilerOptions 특성
 
@@ -206,13 +206,15 @@ protected override void SpecificFragment2()
 #>
 ```
 
- DerivedTemplate1을 호출할 응용 프로그램 코드:
- ```csharp
+DerivedTemplate1을 호출할 응용 프로그램 코드:
+
+```csharp
 Console.WriteLine(new DerivedTemplate().TransformText());
 ```
 
- 결과 출력:
- ```
+결과 출력:
+
+```
 This is the common header.
    Fragment 1 for DerivedTemplate1
 A common central text.

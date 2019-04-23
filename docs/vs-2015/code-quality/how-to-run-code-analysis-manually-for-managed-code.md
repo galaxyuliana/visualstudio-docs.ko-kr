@@ -11,12 +11,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 2fa3e57660b6ac68fdc792f3837a9766b497a78b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b9b38288b081d4fb856b433255bf355c13f819ac
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984221"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053861"
 ---
 # <a name="how-to-run-code-analysis-manually-for-managed-code"></a>방법: 관리 코드에 대해 수동으로 코드 분석 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,6 +25,6 @@ ms.locfileid: "58984221"
   
 ### <a name="to-run-code-analysis-manually"></a>코드 분석을 수동으로 실행 하려면  
   
-1.  **솔루션 탐색기**, 프로젝트를 클릭 합니다.  
+1. **솔루션 탐색기**, 프로젝트를 클릭 합니다.  
   
-2.  에 **분석** 메뉴에서 클릭 **에 대해 코드 분석 실행** *프로젝트 이름을*입니다.
+2. 에 **분석** 메뉴에서 클릭 **에 대해 코드 분석 실행** *프로젝트 이름을*입니다.

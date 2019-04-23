@@ -15,12 +15,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: a260f046c33b2afdcf4df0b456069cf0d518b865
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 52950f138354a72f7c0e781d761aa466760e3ca0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981634"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054796"
 ---
 # <a name="ca2233-operations-should-not-overflow"></a>CA2233: 연산은 오버플로되지 않아야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,11 +107,11 @@ End Sub
 
  **설정 하려면 C#에서 산술 연산 오버플로/언더플로 확인**
 
-1.  **솔루션 탐색기**프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다.
+1. **솔루션 탐색기**프로젝트를 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다.
 
-2.  **빌드** 탭을 선택하고 **고급**을 클릭합니다.
+2. **빌드** 탭을 선택하고 **고급**을 클릭합니다.
 
-3.  선택 **산술 연산 오버플로/언더플로 확인** 누릅니다 **확인**합니다.
+3. 선택 **산술 연산 오버플로/언더플로 확인** 누릅니다 **확인**합니다.
 
 ## <a name="see-also"></a>참고 항목
  <xref:System.OverflowException?displayProperty=fullName> [C# 연산자](http://msdn.microsoft.com/library/0301e31f-22ad-49af-ac3c-d5eae7f0ac43) [Checked 및 Unchecked](http://msdn.microsoft.com/library/a84bc877-2c7f-4396-8735-1ce97c42f35e)

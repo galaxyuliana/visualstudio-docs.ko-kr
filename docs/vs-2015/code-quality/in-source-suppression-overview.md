@@ -12,12 +12,12 @@ caps.latest.revision: 42
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: b7f0b3ef2b680dbe4675ef6e8875ef30a1f210bc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 046ae576880c6749c6bb033f66124c0085dfab16
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985126"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057162"
 ---
 # <a name="in-source-suppression-overview"></a>ISS 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "58985126"
  소스에서 메타 데이터를 실수로 전달 하지 않으려면-소스 비 표시 오류 릴리스 빌드에 하지 사용 해야 합니다. 소스에서의 처리 비용으로 인해도 소스에서 메타 데이터를 포함 하 여 대 응용 프로그램의 성능이 저하 될 수 있습니다.  
   
 > [!NOTE]
->  전달 하는 데 코드가 없는 이러한 특성 직접. 자세한 내용은 [방법: 메뉴 항목을 사용 하 여 경고 표시 안 함](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md)합니다. 메뉴 항목을 c + + 코드에 사용할 수 없는 경우  
+>  전달 하는 데 코드가 없는 이러한 특성 직접. 자세한 내용은 [방법: 메뉴 항목을 사용 하 여 경고 표시 안 함](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md)합니다. 메뉴 항목을 사용할 수 없는 C++ 코드입니다.  
   
 ## <a name="suppressmessage-attribute"></a>SuppressMessage 특성  
  코드 분석 경고를 마우스 오른쪽 단추로 클릭할 때 합니다 **오류 목록** 을 클릭 한 다음 **메시지 표시 안 함**, **SuppressMessage** 에 또는 코드에서 특성이 추가 됩니다는 프로젝트의 전역 비 표시 오류 파일입니다.  
@@ -54,36 +54,36 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
   
  여기서  
   
--   **규칙 범주** -규칙이 정의 된 범주입니다. 코드 분석 규칙 범주에 대 한 자세한 내용은 참조 하세요. [관리 코드 경고에 대 한 코드 분석](../code-quality/code-analysis-for-managed-code-warnings.md)합니다.  
+- **규칙 범주** -규칙이 정의 된 범주입니다. 코드 분석 규칙 범주에 대 한 자세한 내용은 참조 하세요. [관리 코드 경고에 대 한 코드 분석](../code-quality/code-analysis-for-managed-code-warnings.md)합니다.  
   
--   **규칙 Id** -규칙의 식별자입니다. 지원 규칙 식별자에 대 한 단기 및 장기 이름을 둘 다 포함 됩니다. 짧은 이름은 CAXXXX; 긴 이름은 CAXXXX:FriendlyTypeName입니다.  
+- **규칙 Id** -규칙의 식별자입니다. 지원 규칙 식별자에 대 한 단기 및 장기 이름을 둘 다 포함 됩니다. 짧은 이름은 CAXXXX; 긴 이름은 CAXXXX:FriendlyTypeName입니다.  
   
--   **근거** -메시지를 표시 하지 않는 이유를 문서화 하는 데 사용 되는 텍스트입니다.  
+- **근거** -메시지를 표시 하지 않는 이유를 문서화 하는 데 사용 되는 텍스트입니다.  
   
--   **메시지 Id** -각 메시지에 대 한 문제의 고유 식별자입니다.  
+- **메시지 Id** -각 메시지에 대 한 문제의 고유 식별자입니다.  
   
--   **범위** -경고가 표시 되는 대상입니다. 대상 지정 하지 않으면, 대상 특성으로 설정 됩니다. 지원 되는 범위는 다음과 같습니다.  
+- **범위** -경고가 표시 되는 대상입니다. 대상 지정 하지 않으면, 대상 특성으로 설정 됩니다. 지원 되는 범위는 다음과 같습니다.  
   
-    -   Module  
+    - Module  
   
-    -   네임스페이스  
+    - 네임스페이스  
   
-    -   리소스  
+    - 리소스  
   
-    -   형식  
+    - 형식  
   
-    -   멤버  
+    - 멤버  
   
--   **대상** -경고가 표시 되는 대상을 지정 하는 데 사용 되는 식별자입니다. 항목 정규화 된 이름을 포함 해야 합니다.  
+- **대상** -경고가 표시 되는 대상을 지정 하는 데 사용 되는 식별자입니다. 항목 정규화 된 이름을 포함 해야 합니다.  
   
 ## <a name="suppressmessage-usage"></a>SuppressMessage 사용  
  코드 분석 경고는 수준에 표시 되지 않습니다의 인스턴스를 **SuppressMessage** 특성이 적용 된 합니다. 이 목적은 위반이 발생 하는 코드에 표시 안 함 정보를 하는 것입니다.  
   
- 비 표시의 일반적인 형식은 규칙 범주 및 규칙 이름의 선택적 읽을 표현을 포함 하는 규칙 식별자를 포함 합니다. 예를 들어 개체에 적용된  
+ 비 표시의 일반적인 형식은 규칙 범주 및 규칙 이름의 선택적 읽을 표현을 포함 하는 규칙 식별자를 포함 합니다. 예를 들면 다음과 같습니다.  
   
  `[SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]`  
   
- 소스에서 메타 데이터를 최소화 하기 위한 엄격한 성능상의 이유로 경우 규칙 이름 자체를 생략할 수 있습니다. 규칙 범주 및 해당 규칙 ID 만으로도 충분히 고유 규칙 식별자가 있습니다. 예를 들어 개체에 적용된  
+ 소스에서 메타 데이터를 최소화 하기 위한 엄격한 성능상의 이유로 경우 규칙 이름 자체를 생략할 수 있습니다. 규칙 범주 및 해당 규칙 ID 만으로도 충분히 고유 규칙 식별자가 있습니다. 예를 들면 다음과 같습니다.  
   
  `[SuppressMessage("Microsoft.Design", "CA1039")]`  
   

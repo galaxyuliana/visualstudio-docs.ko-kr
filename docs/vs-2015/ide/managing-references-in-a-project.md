@@ -23,12 +23,12 @@ caps.latest.revision: 55
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 48d6849a6656f5914d11250e26681e208cdb7487
-ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
+ms.openlocfilehash: e344fa63a9778d0db45ceeb0e313faa4c6448241
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57567217"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057098"
 ---
 # <a name="managing-references-in-a-project"></a>프로젝트의 참조 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,15 +41,15 @@ ms.locfileid: "57567217"
   
  다음 형식의 구성 요소/서비스에 대한 참조를 만들 수 있습니다.  
   
--   Windows 스토어 앱 참조  
+- Windows 스토어 앱 참조  
   
--   .NET Framework 클래스 라이브러리 또는 어셈블리  
+- .NET Framework 클래스 라이브러리 또는 어셈블리  
   
--   COM 구성 요소  
+- COM 구성 요소  
   
--   동일 솔루션에 있는 다른 어셈블리 또는 프로젝트의 클래스 라이브러리  
+- 동일 솔루션에 있는 다른 어셈블리 또는 프로젝트의 클래스 라이브러리  
   
--   XML Web services  
+- XML Web services  
   
 ## <a name="windows-store-app-references"></a>Windows 스토어 앱 참조  
   
@@ -63,9 +63,9 @@ ms.locfileid: "57567217"
   
  앱에서 참조하는 확장 SDK가 지원되지 않는 경우 다음 단계를 수행해야 합니다.  
   
-1.  오류를 일으키는 프로젝트의 이름을 확인합니다. 프로젝트의 대상 플랫폼이 프로젝트 이름 옆의 괄호 안에 표시됩니다. 예를 들어 **MyProjectName (Windows 8.1)** 은 **MyProjectName** 프로젝트가 플랫폼 버전 [!INCLUDE[win81](../includes/win81-md.md)]을 대상으로 한다는 것을 의미합니다.  
+1. 오류를 일으키는 프로젝트의 이름을 확인합니다. 프로젝트의 대상 플랫폼이 프로젝트 이름 옆의 괄호 안에 표시됩니다. 예를 들어 **MyProjectName (Windows 8.1)** 은 **MyProjectName** 프로젝트가 플랫폼 버전 [!INCLUDE[win81](../includes/win81-md.md)]을 대상으로 한다는 것을 의미합니다.  
   
-2.  지원되지 않는 확장 SDK를 소유한 공급업체의 사이트로 이동하여 프로젝트의 대상 플랫폼 버전과 호환되는 종속성으로 확장 SDK 버전을 설치합니다.  
+2. 지원되지 않는 확장 SDK를 소유한 공급업체의 사이트로 이동하여 프로젝트의 대상 플랫폼 버전과 호환되는 종속성으로 확장 SDK 버전을 설치합니다.  
   
     > [!NOTE]
     >  다른 확장 SDK에 대한 종속성이 있는 확장 SDK에서 Visual Studio를 다시 시작할지 여부를 확인하려면 새 C# Windows 스토어 프로젝트를 만들고 해당 프로젝트를 마우스 오른쪽 단추를 클릭한 후 **참조 추가**를 선택하여 **Windows** 탭의 **확장** 하위 탭으로 이동한 후 확장 SDK를 선택하고 **참조 관리자**의 오른쪽 창을 확인합니다. 종속성이 있는 경우 나열됩니다.  
@@ -73,20 +73,20 @@ ms.locfileid: "57567217"
     > [!IMPORTANT]
     >  프로젝트가 Windows 10을 대상으로 하고 이전에 설치된 확장 SDK가 Microsoft Visual C++ 런타임 패키지에 종속된 경우 Windows 10과 호환되는 Microsoft Visual C++ 런타임 패키지의 버전은 v14.0이고 Visual Studio 2015와 함께 설치됩니다.  
   
-3.  이전에 설치한 확장 SDK가 다른 확장 SDK에 종속된 경우 종속성을 소유한 공급업체의 사이트로 이동하여 프로젝트의 대상 플랫폼 버전과 호환되는 종속성 버전을 설치합니다.  
+3. 이전에 설치한 확장 SDK가 다른 확장 SDK에 종속된 경우 종속성을 소유한 공급업체의 사이트로 이동하여 프로젝트의 대상 플랫폼 버전과 호환되는 종속성 버전을 설치합니다.  
   
-4.  Visual Studio를 다시 시작하고 앱을 엽니다.  
+4. Visual Studio를 다시 시작하고 앱을 엽니다.  
   
-5.  오류가 발생한 프로젝트에서 **참조** 노드를 마우스 오른쪽 단추로 클릭한 다음 **참조 추가**를 선택합니다.  
+5. 오류가 발생한 프로젝트에서 **참조** 노드를 마우스 오른쪽 단추로 클릭한 다음 **참조 추가**를 선택합니다.  
   
-6.  **Windows** 탭과 **확장** 하위 탭을 차례로 클릭한 다음 이전 확장 SDK에 대한 확인란의 선택을 취소하고 새 확장 SDK에 대한 확인란을 선택합니다. **확인**을 클릭합니다.  
+6. **Windows** 탭과 **확장** 하위 탭을 차례로 클릭한 다음 이전 확장 SDK에 대한 확인란의 선택을 취소하고 새 확장 SDK에 대한 확인란을 선택합니다. **확인**을 클릭합니다.  
   
 ## <a name="adding-a-reference-at-design-time"></a>디자인 타임에 참조 추가  
  프로젝트에서 어셈블리에 대한 참조를 만드는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 다음 위치에서 어셈블리를 검색합니다.  
   
--   현재 프로젝트 디렉터리. 이 어셈블리는 **찾아보기** 탭을 통해 찾을 수 있습니다.  
+- 현재 프로젝트 디렉터리. 이 어셈블리는 **찾아보기** 탭을 통해 찾을 수 있습니다.  
   
--   같은 솔루션에 있는 다른 프로젝트 디렉터리. 이러한 어셈블리는 **프로젝트** 탭에서 찾을 수 있습니다.  
+- 같은 솔루션에 있는 다른 프로젝트 디렉터리. 이러한 어셈블리는 **프로젝트** 탭에서 찾을 수 있습니다.  
   
 > [!NOTE]
 >  모든 프로젝트에는 mscorlib에 대한 암시적 참조가 포함되어 있습니다. Visual Basic 프로젝트에는 `Microsoft.VisualBasic`에 대한 암시적 참조가 포함되어 있습니다.  

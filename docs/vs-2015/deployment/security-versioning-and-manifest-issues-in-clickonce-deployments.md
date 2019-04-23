@@ -24,12 +24,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1227dea199ebff465fc2dde3ec30568bb50e9ec6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e971271d17c88780ec543ffc12ed4c6ebcc48f23
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984019"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60043682"
 ---
 # <a name="security-versioning-and-manifest-issues-in-clickonce-deployments"></a>ClickOnce 배포의 보안, 버전 관리 및 매니페스트 문제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,11 +67,11 @@ ms.locfileid: "58984019"
   
  프로그램 배포 또는 응용 프로그램 매니페스트를 수동으로 편집한 경우 있습니다 손상 되었을 수 합니다. 손상 된 매니페스트를 올바른 못합니다 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치 합니다. 클릭 하 여 런타임 시 이러한 오류를 디버깅할 수 있습니다 **세부 정보** 에 **ClickOnce 오류** 로그에서 오류 메시지 읽고 대화 상자. 로그는 다음 메시지 중 하나가 나열 됩니다.  
   
--   구문 오류, 줄 번호 및 문자에 대 한 설명을 오류가 발생 하는 위치입니다.  
+- 구문 오류, 줄 번호 및 문자에 대 한 설명을 오류가 발생 하는 위치입니다.  
   
--   요소 또는 매니페스트의 스키마의 위반 하 게 사용 되는 특성의 이름입니다. XML 수동으로 추가한 매니페스트에,를 사용 하는 경우에 매니페스트 스키마에 대 한 사용자 추가 비교 합니다. 자세한 내용은 [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md) 하 고 [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)합니다.  
+- 요소 또는 매니페스트의 스키마의 위반 하 게 사용 되는 특성의 이름입니다. XML 수동으로 추가한 매니페스트에,를 사용 하는 경우에 매니페스트 스키마에 대 한 사용자 추가 비교 합니다. 자세한 내용은 [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md) 하 고 [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)합니다.  
   
--   ID 충돌이 발생 합니다. 배포 및 응용 프로그램 매니페스트에서 종속성 참조 모두에서 고유 해야 합니다. 해당 `name` 고 `publicKeyToken` 특성입니다. 두 특성 모두 매니페스트 내에서 두 요소 간에 일치 하는 경우 매니페스트 구문 분석할 수 없습니다.  
+- ID 충돌이 발생 합니다. 배포 및 응용 프로그램 매니페스트에서 종속성 참조 모두에서 고유 해야 합니다. 해당 `name` 고 `publicKeyToken` 특성입니다. 두 특성 모두 매니페스트 내에서 두 요소 간에 일치 하는 경우 매니페스트 구문 분석할 수 없습니다.  
   
 ## <a name="precautions-when-manually-changing-manifests-or-applications"></a>매니페스트 또는 응용 프로그램을 수동으로 변경 하는 경우 주의 사항  
  응용 프로그램 매니페스트를 업데이트 하면 응용 프로그램 매니페스트 및 배포 매니페스트에 다시 서명 해야 합니다. 배포 매니페스트 파일의 해시와 디지털 서명을 포함 하는 응용 프로그램 매니페스트에 대 한 참조를 포함 합니다.  

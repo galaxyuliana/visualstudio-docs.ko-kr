@@ -11,14 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c29b5c5e80f8a0381a2c42704d14a8ea9fc3cae5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a806e434bebb5a561534fb8aec19d16dc9e28ffd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721071"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057435"
 ---
 # <a name="create-custom-editors-and-designers"></a>사용자 지정 편집기 및 디자이너 만들기
+
 Visual Studio 통합된 개발 환경 (IDE)는 다양 한 유형의 편집기를 호스팅할 수 있습니다.
 
 - Visual Studio 핵심 편집기
@@ -29,10 +30,11 @@ Visual Studio 통합된 개발 환경 (IDE)는 다양 한 유형의 편집기를
 
 - 디자이너
 
-  다음 정보를 해야 하는 편집기 유형의 방법을 선택할 수 있습니다.
+다음 정보를 해야 하는 편집기 유형의 방법을 선택할 수 있습니다.
 
 ## <a name="types-of-editor"></a>편집기의 형식
- Visual Studio 핵심 편집기에 대 한 정보를 참조 하세요 [편집기 및 언어 서비스 확장](../extensibility/extending-the-editor-and-language-services.md)합니다.
+
+Visual Studio 핵심 편집기에 대 한 정보를 참조 하세요 [편집기 및 언어 서비스 확장](../extensibility/extending-the-editor-and-language-services.md)합니다.
 
 ### <a name="custom-editors"></a>사용자 지정 편집기
  사용자 지정 편집기는 특수 한 환경에서 작동 하도록 설계 되었습니다. 예를 들어, 편집기를 Microsoft Exchange server와 같은 특정 리포지토리에 데이터를 읽고 해당 함수는 만들 수 있습니다. 프로젝트 형식 에서만 작동 하는 편집기 또는 특정 명령에는 편집기를 하려는 경우에 사용자 지정 편집기를 선택 합니다. 단, 사용자는 사용자 지정 편집기를 사용 하 여 표준 편집할 수 없습니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로젝트입니다.
@@ -70,24 +72,36 @@ Visual Studio 통합된 개발 환경 (IDE)는 다양 한 유형의 편집기를
    를 포함 하는 경우 외부 편집기에 대 한 호스트 창을 만들 하 고 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> 집합과 메서드를 <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> 열거형 값 `DP_External`. 편집기를 포함할 수 없는 경우 IDE에 대 한 별도 창을 자동으로 만듭니다.
 
 ## <a name="in-this-section"></a>섹션 내용
-- [연습: 사용자 지정 편집기 만들기](../extensibility/walkthrough-creating-a-custom-editor.md) 사용자 지정 편집기를 만드는 방법에 설명 합니다.
 
-- [연습: 사용자 지정 편집기에 기능 추가](../extensibility/walkthrough-adding-features-to-a-custom-editor.md) 를 사용자 지정 편집기 기능을 추가 하는 방법에 설명 합니다.
+[연습: 사용자 지정 편집기 만들기](../extensibility/walkthrough-creating-a-custom-editor.md)\
+사용자 지정 편집기를 만드는 방법을 설명 합니다.
 
-- [디자이너 초기화 및 메타 데이터 구성](../extensibility/designer-initialization-and-metadata-configuration.md) 디자이너를 초기화 하는 방법에 설명 합니다.
+[연습: 사용자 지정 편집기에 기능 추가](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)\
+사용자 지정 편집기 기능을 추가 하는 방법에 설명 합니다.
 
-- [디자이너에 실행 취소 지원 제공](../extensibility/supplying-undo-support-to-designers.md) 디자이너에 대 한 실행 취소 기능을 제공 하는 방법에 설명 합니다.
+[디자이너 초기화 및 메타 데이터 구성](../extensibility/designer-initialization-and-metadata-configuration.md)\
+디자이너를 초기화 하는 방법을 설명 합니다.
 
-- [사용자 지정 편집기의 구문 색 지정](../extensibility/syntax-coloring-in-custom-editors.md) 핵심 편집기에 사용자 지정 편집기의 색상을 지정 하는 구문의 차이점에 설명 합니다.
+[디자이너에 실행 취소 지원 제공](../extensibility/supplying-undo-support-to-designers.md)\
+디자이너에 대 한 실행 취소 기능을 제공 하는 방법에 설명 합니다.
 
-- [사용자 지정 편집기의 데이터 및 문서 보기 문서](../extensibility/document-data-and-document-view-in-custom-editors.md) 사용자 지정 편집기의 문서 데이터 및 문서 보기를 구현 하는 방법에 설명 합니다.
+[사용자 지정 편집기의 구문 색 지정](../extensibility/syntax-coloring-in-custom-editors.md)\
+핵심 편집기에 사용자 지정 편집기의 색상을 지정 하는 구문의 차이점을 설명 합니다.
+
+[문서 데이터 및 사용자 지정 편집기의 문서 뷰](../extensibility/document-data-and-document-view-in-custom-editors.md)\
+사용자 지정 편집기의 문서 데이터 및 문서 보기를 구현 하는 방법에 설명 합니다.
 
 ## <a name="related-sections"></a>관련 단원
-- [편집기에서 레거시 인터페이스](../extensibility/legacy-interfaces-in-the-editor.md) 기존 API를 사용 하 여 핵심 편집기를 액세스 하는 방법에 설명 합니다.
 
-- [레거시 언어 서비스를 개발할](../extensibility/internals/developing-a-legacy-language-service.md) 언어 서비스를 구현 하는 방법에 설명 합니다.
+[편집기에서 레거시 인터페이스](../extensibility/legacy-interfaces-in-the-editor.md)\
+기존 API를 사용 하 여 핵심 편집기를 액세스 하는 방법에 설명 합니다.
 
-- [Visual Studio의 다른 부분 확장](../extensibility/extending-other-parts-of-visual-studio.md) 나머지와 일치 하는 UI 요소를 만드는 방법에 설명 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다.
+[레거시 언어 서비스 개발](../extensibility/internals/developing-a-legacy-language-service.md)\
+언어 서비스를 구현 하는 방법을 설명 합니다.
+
+[Visual Studio의 다른 부분 확장](../extensibility/extending-other-parts-of-visual-studio.md)\
+나머지와 일치 하는 UI 요소를 만드는 방법에 설명 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다.
 
 ## <a name="see-also"></a>참고자료
+
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>

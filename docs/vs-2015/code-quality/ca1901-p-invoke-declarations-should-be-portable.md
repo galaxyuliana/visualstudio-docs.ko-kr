@@ -15,12 +15,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: ed1385ee914fa8b0df31b360f4a1d8fdc8931332
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ccbbc3178a9f65c15d11a27dee1a625cca729240
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971061"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60053951"
 ---
 # <a name="ca1901-pinvoke-declarations-should-be-portable"></a>CA1901: P/Invoke 선언은 이식 가능해야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,9 +38,9 @@ ms.locfileid: "58971061"
 ## <a name="rule-description"></a>규칙 설명
  이 규칙을 위반 하는 다음 시나리오 중 하나가 발생 합니다.
 
--   로 입력 해야 하는 경우 반환 값 또는 매개 변수 고정 크기 정수로 입력 되는 `IntPtr`합니다.
+- 로 입력 해야 하는 경우 반환 값 또는 매개 변수 고정 크기 정수로 입력 되는 `IntPtr`합니다.
 
--   매개 변수를 반환 값으로 입력 된는 `IntPtr` 고정 크기의 정수로 경우 입력 해야 합니다.
+- 매개 변수를 반환 값으로 입력 된는 `IntPtr` 고정 크기의 정수로 경우 입력 해야 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  사용 하 여이 위반을 해결할 수 있습니다 `IntPtr` 나 `UIntPtr` 대신 핸들을 나타내는 `Int32` 또는 `UInt32`합니다.

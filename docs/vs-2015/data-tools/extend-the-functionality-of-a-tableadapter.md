@@ -18,12 +18,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a060444ec5ec8085b56810862e87e523c56fddb6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: db6ea3e2b19b655c3a1ec8dedf60409b8706f3cd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656065"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059034"
 ---
 # <a name="extend-the-functionality-of-a-tableadapter"></a>TableAdapter의 기능 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,13 +41,13 @@ TableAdapter의 partial 클래스 파일에 코드를 추가 하 여 TableAdapte
   
 #### <a name="to-create-a-partial-class-for-a-tableadapter"></a>TableAdapter에 대 한 partial 클래스를 만들려면  
   
-1.  으로 이동 하 여 프로젝트에 새 클래스를 추가 합니다 **프로젝트** 메뉴에서**클래스 추가**합니다.  
+1. 으로 이동 하 여 프로젝트에 새 클래스를 추가 합니다 **프로젝트** 메뉴에서**클래스 추가**합니다.  
   
-2.  클래스 이름을 `CustomersTableAdapterExtended`로 지정합니다.  
+2. 클래스 이름을 `CustomersTableAdapterExtended`로 지정합니다.  
   
-3.  **추가**를 선택합니다.  
+3. **추가**를 선택합니다.  
   
-4.  프로젝트에 대 한 partial 클래스 이름과 올바른 네임 스페이스를 사용 하 여 코드를 다음과 같이 바꿉니다.  
+4. 프로젝트에 대 한 partial 클래스 이름과 올바른 네임 스페이스를 사용 하 여 코드를 다음과 같이 바꿉니다.  
   
      [!code-csharp[VbRaddataTableAdapters#2](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/CustomersTableAdapterExtended.cs#2)]
      [!code-vb[VbRaddataTableAdapters#2](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/CustomersTableAdapterExtended.vb#2)]  

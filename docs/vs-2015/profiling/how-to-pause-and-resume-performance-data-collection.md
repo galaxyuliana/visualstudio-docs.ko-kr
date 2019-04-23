@@ -1,5 +1,5 @@
 ---
-title: '방법: 성능 데이터 수집 일시 중지 및 다시 시작 | Microsoft 문서'
+title: '방법: 성능 데이터 수집 일시 중지 및 다시 시작 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -11,14 +11,14 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c9916a46089e1d3381f1bc1f41dd5b7c0178c964
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 1edfb882838907503a0df106da2181c283f29d9a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54790886"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054003"
 ---
-# <a name="how-to-pause-and-resume-performance-data-collection"></a>방법: 성능 데이터 수집 일시 중지 및 다시 시작
+# <a name="how-to-pause-and-resume-performance-data-collection"></a>방법: 일시 중지 및 다시 시작 성능 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 프로파일링 세션 페이지 창에서 프로파일링 데이터의 컬렉션을 대화형으로 제어할 수 있습니다.  
@@ -32,13 +32,13 @@ ms.locfileid: "54790886"
   
 ### <a name="to-pause--resume-or-stop-profiling"></a>프로파일링을 일시 중지, 다시 시작 또는 중지하려면  
   
--   프로파일링 세션 페이지에서 다음을 수행합니다.  
+- 프로파일링 세션 페이지에서 다음을 수행합니다.  
   
-    -   **수집을 일시 중지합니다.** 를 선택해서 데이터 수집을 일시 중지합니다.  
+    - **수집을 일시 중지합니다.** 를 선택해서 데이터 수집을 일시 중지합니다.  
   
-    -   **수집을 다시 시작합니다.** 를 선택해서 일시 중지된 후 데이터 수집을 다시 시작합니다.  
+    - **수집을 다시 시작합니다.** 를 선택해서 일시 중지된 후 데이터 수집을 다시 시작합니다.  
   
-    -   **프로파일링 중지**를 선택해서 프로파일링 세션을 종료하고 보고서를 생성합니다.  
+    - **프로파일링 중지**를 선택해서 프로파일링 세션을 종료하고 보고서를 생성합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [데이터 수집 제어](../profiling/controlling-data-collection.md)   

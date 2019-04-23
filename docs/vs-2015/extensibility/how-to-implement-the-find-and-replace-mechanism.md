@@ -10,12 +10,12 @@ ms.assetid: bbd348db-3d19-42eb-99a2-3e808528c0ca
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a42df69a7c51b7eb7ef44cf137d8449cf1421ae2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d4362d0b0c3f013ce6f38d13265dcc181c77012c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983842"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057596"
 ---
 # <a name="how-to-implement-the-find-and-replace-mechanism"></a>방법: 구현 찾기 및 바꾸기 메커니즘
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,15 +24,15 @@ Visual Studio 찾기/바꾸기를 구현 하는 두 가지를 제공 합니다. 
   
 ### <a name="to-implement-findreplace"></a>찾기/바꾸기 구현 하려면  
   
-1.  구현 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget> 프레임 속성에서 반환한 개체 중 하나에서 인터페이스 <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> 또는 <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>합니다. 사용자 지정 편집기를 만드는 경우 사용자 지정 편집기 클래스의 일부로이 인터페이스를 구현 해야 합니다.  
+1. 구현 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget> 프레임 속성에서 반환한 개체 중 하나에서 인터페이스 <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> 또는 <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>합니다. 사용자 지정 편집기를 만드는 경우 사용자 지정 편집기 클래스의 일부로이 인터페이스를 구현 해야 합니다.  
   
-2.  사용 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetCapabilities%2A> 메서드 편집기를 지 원하는 옵션을 지정 하 고 텍스트 이미지 검색를 구현 하는지 여부를 나타냅니다.  
+2. 사용 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetCapabilities%2A> 메서드 편집기를 지 원하는 옵션을 지정 하 고 텍스트 이미지 검색를 구현 하는지 여부를 나타냅니다.  
   
      편집기 텍스트 이미지 검색을 지 원하는 경우 구현 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetSearchImage%2A>합니다.  
   
      그렇지 않으면 구현 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A> 고 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace%2A>입니다.  
   
-3.  구현 하는 경우는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A> 하 고 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace%2A> 메서드를 호출 하 여 검색 작업을 간소화할 수 있습니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper> 인터페이스입니다.  
+3. 구현 하는 경우는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A> 하 고 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace%2A> 메서드를 호출 하 여 검색 작업을 간소화할 수 있습니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper> 인터페이스입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper>   
