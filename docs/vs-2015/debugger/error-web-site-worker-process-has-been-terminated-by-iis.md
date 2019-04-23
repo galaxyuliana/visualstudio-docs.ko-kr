@@ -16,12 +16,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 97b6b7a798483000916ee8c99a8000fd45b9cc00
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 787785909cd980176fd9220f58198ae6cc272ea8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986054"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080243"
 ---
 # <a name="error-web-site-worker-process-has-been-terminated-by-iis"></a>오류: IIS에서 웹 사이트 작업자 프로세스를 종료했습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,9 +34,9 @@ ms.locfileid: "58986054"
   
 1. **관리 도구** 창을 엽니다.  
   
-   1.  **시작**을 클릭한 다음, **제어판**을 선택합니다.  
+   1. **시작**을 클릭한 다음, **제어판**을 선택합니다.  
   
-   2.  **제어판**에서 필요한 경우 **클래식 보기로 전환**을 선택한 다음, **관리 도구**를 두 번 클릭합니다.  
+   2. **제어판**에서 필요한 경우 **클래식 보기로 전환**을 선택한 다음, **관리 도구**를 두 번 클릭합니다.  
   
 2. **관리 도구** 창에서 **IIS(인터넷 정보 서비스) 관리자**를 두 번 클릭합니다.  
   

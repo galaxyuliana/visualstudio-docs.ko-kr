@@ -12,12 +12,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 83fd93d2e1e2e5d99f7ea8eca9f5de4ce1b4c7f4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a8fbc314580b106f5e1e8dae5a0a78d043d3940b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971442"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080906"
 ---
 # <a name="how-to-suppress-warnings-by-using-the-menu-item"></a>방법: 메뉴 항목을 사용하여 경고 표시 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,11 +33,11 @@ ms.locfileid: "58971442"
   
 ### <a name="to-suppress-a-warning-by-using-menu-item"></a>메뉴 항목을 사용 하 여 경고를 표시 하려면  
   
-1.  에 **분석** 메뉴 선택 **Windows** 를 선택한 후 **코드 분석**합니다.  
+1. 에 **분석** 메뉴 선택 **Windows** 를 선택한 후 **코드 분석**합니다.  
   
-2.  에 **코드 분석** 창에서 경고 숨김을 선택 합니다.  
+2. 에 **코드 분석** 창에서 경고 숨김을 선택 합니다.  
   
-3.  작업을 선택한 다음 선택 **메시지 표시 안 함**를 선택 하 고 **소스** 또는 **프로젝트 비 표시 오류 파일의**합니다.  
+3. 작업을 선택한 다음 선택 **메시지 표시 안 함**를 선택 하 고 **소스** 또는 **프로젝트 비 표시 오류 파일의**합니다.  
   
      해당 경고가 표시되지 않고, 취소선이 그려진 상태로 경고가 코드 분석 창에 나타납니다.  
   

@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5d269cdb4fe84820174ded9c477fc3c9f917b0b5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: d4f53d723ca9249386027264038df6c5895b7d03
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54802644"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081231"
 ---
 # <a name="work-with-multiple-user-accounts"></a>Work with multiple user accounts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "54802644"
   
 #### <a name="sign-in-to-visual-studio"></a>Visual Studio에 로그인  
   
-1.  Microsoft 계정 또는 조직 계정으로 Visual Studio 2015에 로그인합니다. 다음과 같이 창의 오른쪽 위 모퉁이에 사용자 이름이 나타나야 합니다.  
+1. Microsoft 계정 또는 조직 계정으로 Visual Studio 2015에 로그인합니다. 다음과 같이 창의 오른쪽 위 모퉁이에 사용자 이름이 나타나야 합니다.  
   
      ![현재 로그인한 사용자](../ide/media/vs2015-username.png "VS2015_UserName")  
   
@@ -44,14 +44,14 @@ ms.locfileid: "54802644"
   
 ### <a name="access-your-azure-account-via-add-connected-service-dialog"></a>연결된 서비스 추가 대화 상자를 통해 Azure 계정 액세스  
   
-1.  C#에서 유니버설 앱 프로젝트를 만듭니다.  
+1. C#에서 유니버설 앱 프로젝트를 만듭니다.  
   
-2.  솔루션 탐색기에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **추가 > 연결 서비스**를 선택합니다. 연결된 서비스 추가 마법사가 나타나고 Visual Studio 로그인 ID와 연관된 Azure 계정의 서비스 목록이 표시됩니다. 별도로 Azure에 로그인할 필요가 없습니다. 그렇지만 지정된 컴퓨터에서 처음으로 해당 리소스에 액세스하려고 할 경우 다른 계정으로 로그인해야 합니다.  
+2. 솔루션 탐색기에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **추가 > 연결 서비스**를 선택합니다. 연결된 서비스 추가 마법사가 나타나고 Visual Studio 로그인 ID와 연관된 Azure 계정의 서비스 목록이 표시됩니다. 별도로 Azure에 로그인할 필요가 없습니다. 그렇지만 지정된 컴퓨터에서 처음으로 해당 리소스에 액세스하려고 할 경우 다른 계정으로 로그인해야 합니다.  
   
     > [!WARNING]
-    >  특정 컴퓨터의 Visual Studio 2015에서 스토어 앱을 처음 만드는 경우 컴퓨터의 설정 | . **업데이트 및 보안 &#124; 개발자를 위한** 컴퓨터입니다. 자세한 내용은 [개발에 디바이스 사용](https://msdn.microsoft.com/library/windows/apps/dn706236.aspx)을 참조하세요.  
+    >  처음으로이 특정 컴퓨터의 Visual Studio 2015에서 스토어 앱을 만드는 경우으로 이동 하 여 개발 모드에 대 한 장치를 사용 하도록 설정 하 라는 메시지가 됩니다 **설정 &#124; 합니다. 업데이트 및 보안 &#124; 개발자를 위한** 컴퓨터입니다. 자세한 내용은 [개발에 디바이스 사용](https://msdn.microsoft.com/library/windows/apps/dn706236.aspx)을 참조하세요.  
   
-###  <a name="access_azure"></a> 웹 프로젝트에서 Azure Active Directory 액세스  
+### <a name="access_azure"></a> 웹 프로젝트에서 Azure Active Directory 액세스  
  Azure AD는 ASP.NET MVC 웹 애플리케이션에서의 최종 사용자 Single Sign-In 또는 웹 API 서비스에서의 AD 인증을 지원합니다. 도메인 인증은 개별 사용자 계정 인증과 다릅니다. Active Directory 도메인에 액세스할 수 있는 사용자는 기존 Azure AD 계정을 사용하여 웹 애플리케이션에 연결할 수 있습니다. Office 365 앱은 도메인 인증도 사용할 수 있습니다. 이 작업의 실행 과정을 보려면 웹 애플리케이션을 만듭니다(**파일 > 새 프로젝트 > C# > 클라우드 > ASP.NET 웹 애플리케이션**). 새 ASP.NET 프로젝트 대화 상자에서 **인증 변경**을 선택합니다. 인증 마법사가 나타나고 애플리케이션에서 사용할 인증 종류를 선택할 수 있습니다.  
   
  ![ASP.NET에 대한 인증 대화 상자 변경](../ide/media/vs2015-change-authentication.png "VS2015_change_authentication")  

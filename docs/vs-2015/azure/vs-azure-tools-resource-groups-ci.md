@@ -8,12 +8,12 @@ ms.topic: article
 ms.workload: azure-vs
 ms.date: 08/01/2016
 ms.author: mlearned
-ms.openlocfilehash: b1ce9c317bb05e242f8bdc89d3e294858ba0ce21
-ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
+ms.openlocfilehash: 490ad7e4ee8bcc59530a06ec4eba151e88806028
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "59002408"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079502"
 ---
 # <a name="continuous-integration-in-azure-devops-services-using-azure-resource-group-deployment-projects"></a>Azure 리소스 그룹 배포 프로젝트를 사용하여 Azure DevOps Services에서 연속 통합
 
@@ -172,6 +172,7 @@ Azure Pipelines에서 PowerShell 스크립트를 호출하려면 빌드 파이�
      ```
      -_artifactsLocation $(artifactsLocation) -_artifactsLocationSasToken (ConvertTo-SecureString -String "$(artifactsLocationSasToken)" -AsPlainText -Force)
      ```
+
      ![Azure 리소스 그룹 배포 작업 구성](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough18.png)
 7. 모든 필요한 항목을 추가한 후 빌드 파이프라인을 저장하고 위쪽에서 **새 빌드 큐 대기**를 선택합니다.
 

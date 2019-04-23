@@ -13,12 +13,12 @@ caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 14569a915dc1da4d8628283dfa1aae5338502de1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3765b9804224549c98b57cd1b0a44f0330d278b5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983133"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080581"
 ---
 # <a name="messages-view"></a>메시지 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,21 +34,21 @@ Spy++ 메시지 뷰
   
 #### <a name="to-open-a-messages-view-for-a-window-process-or-thread"></a>창, 프로세스 또는 스레드 메시지 보기를 열려면  
   
-1.  포커스를 이동 하는 [Windows 뷰](../debugger/windows-view.md), [프로세스 뷰에](../debugger/processes-view.md), 또는 [스레드 뷰](../debugger/threads-view.md) 창입니다.  
+1. 포커스를 이동 하는 [Windows 뷰](../debugger/windows-view.md), [프로세스 뷰에](../debugger/processes-view.md), 또는 [스레드 뷰](../debugger/threads-view.md) 창입니다.  
   
-2.  항목을 검사 하려는 해당 메시지에 대 한 노드를 찾아 선택 합니다.  
+2. 항목을 검사 하려는 해당 메시지에 대 한 노드를 찾아 선택 합니다.  
   
-3.  **Spy** 메뉴 선택 **로그 메시지**합니다.  
+3. **Spy** 메뉴 선택 **로그 메시지**합니다.  
   
      합니다 [메시지 옵션 대화 상자](../debugger/message-options-dialog-box.md) 열립니다.  
   
-4.  표시할 메시지에 대 한 옵션을 선택 합니다.  
+4. 표시할 메시지에 대 한 옵션을 선택 합니다.  
   
-5.  키를 눌러 **확인** 메시지 로깅을 시작 합니다.  
+5. 키를 눌러 **확인** 메시지 로깅을 시작 합니다.  
   
      및 메시지 보기 창이 열리고 **메시지** 메뉴가 Spy + + 도구 모음에 추가 됩니다. 선택한 옵션에 따라 활성 메시지 보기 창으로 스트리밍되 기 시작 합니다.  
   
-6.  충분 한 메시지에 있는 경우 선택할 **로깅 중지** 에서 합니다 **메시지** 메뉴.  
+6. 충분 한 메시지에 있는 경우 선택할 **로깅 중지** 에서 합니다 **메시지** 메뉴.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [메시지 뷰 제어](../debugger/how-to-control-messages-view.md)  

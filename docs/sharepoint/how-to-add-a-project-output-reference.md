@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 22b2073e63d2e6551a47469742142821391c86e3
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2ae3965647416d7a8e11cf0ea5e24cef1e54a09b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619331"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079787"
 ---
 # <a name="how-to-add-a-project-output-reference"></a>방법: 프로젝트 출력 참조 추가
   SharePoint에 비 SharePoint 프로젝트 어셈블리 (또는 Silverlight 프로젝트에서.xap 파일)를 배포 하려면 프로젝트 출력 참조로 추가 합니다.
@@ -28,17 +28,17 @@ ms.locfileid: "56619331"
 
 ### <a name="to-add-a-project-output-reference"></a>프로젝트 출력 참조를 추가 하려면
 
-1.  하나 이상의 SharePoint 프로젝트 및 비 SharePoint 프로젝트를 포함 하는 솔루션을 로드 합니다.
+1. 하나 이상의 SharePoint 프로젝트 및 비 SharePoint 프로젝트를 포함 하는 솔루션을 로드 합니다.
 
-2.  **솔루션 탐색기**, SharePoint 프로젝트 노드의 항목을 선택 합니다.
+2. **솔루션 탐색기**, SharePoint 프로젝트 노드의 항목을 선택 합니다.
 
-3.  에 **속성** 창 선택 합니다 **프로젝트 출력 참조** 속성을를 선택한 다음 줄임표 (![ASP.NET 모바일 디자이너 줄임표](../sharepoint/media/mwellipsis.gif "ASP. NET 모바일 디자이너 줄임표")) 단추를 클릭 합니다.
+3. 에 **속성** 창 선택 합니다 **프로젝트 출력 참조** 속성을를 선택한 다음 줄임표 (![ASP.NET 모바일 디자이너 줄임표](../sharepoint/media/mwellipsis.gif "ASP. NET 모바일 디자이너 줄임표")) 단추를 클릭 합니다.
 
-4.  에 **프로젝트 출력 참조** 대화 상자를 선택 합니다 **추가** 단추입니다.
+4. 에 **프로젝트 출력 참조** 대화 상자를 선택 합니다 **추가** 단추입니다.
 
-5.  속성 창에서 화살표 옆에 선택 합니다 **배포 유형을** 속성인 참조와 같은 비 SharePoint 항목에 대 한 적절 한 값을 선택 하 고 **ElementFile**.
+5. 속성 창에서 화살표 옆에 선택 합니다 **배포 유형을** 속성인 참조와 같은 비 SharePoint 항목에 대 한 적절 한 값을 선택 하 고 **ElementFile**.
 
-6.  옆의 화살표를 선택 **프로젝트 이름**비 SharePoint 프로젝트 항목의 이름을 선택한 다음 선택 합니다 **확인** 단추입니다.
+6. 옆의 화살표를 선택 **프로젝트 이름**비 SharePoint 프로젝트 항목의 이름을 선택한 다음 선택 합니다 **확인** 단추입니다.
 
 ## <a name="see-also"></a>참고자료
 - [프로젝트 항목에 패키징 및 배포 정보를 제공 합니다.](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)

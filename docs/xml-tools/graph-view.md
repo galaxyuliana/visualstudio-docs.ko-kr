@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5424e813c5f1e3908c02dbc63798f5891edb8131
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.openlocfilehash: 3beeb41d89f96cea8ab0f7f97bada815101f7e2f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526648"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079710"
 ---
 # <a name="graph-view"></a>그래프 보기
 
@@ -120,11 +120,11 @@ ms.locfileid: "57526648"
 
  그래프 뷰에서 다음 작업에 대한 실행 취소/다시 실행 기능이 사용됩니다.
 
--   끌어서 놓기를 통해 단일 노드 추가
+- 끌어서 놓기를 통해 단일 노드 추가
 
--   스키마 탐색기 또는 시작 뷰 쿼리의 검색 결과 창에서 여러 노드 추가
+- 스키마 탐색기 또는 시작 뷰 쿼리의 검색 결과 창에서 여러 노드 추가
 
--   단일 또는 여러 노드 삭제
+- 단일 또는 여러 노드 삭제
 
 ## <a name="zoom"></a>확대/축소
 
@@ -132,9 +132,9 @@ ms.locfileid: "57526648"
 
  확대/축소는 다음 방법으로 제어할 수 있습니다.
 
--   유지 된 **Ctrl** 키와 마우스를 회전 휠을 마우스 마우스가 그래프 뷰 화면 위를 가리킬 때.
+- 유지 된 **Ctrl** 키와 마우스를 회전 휠을 마우스 마우스가 그래프 뷰 화면 위를 가리킬 때.
 
--   슬라이더 컨트롤 사용. 슬라이더에서는 현재 확대/축소 수준을 보여 줍니다.
+- 슬라이더 컨트롤 사용. 슬라이더에서는 현재 확대/축소 수준을 보여 줍니다.
 
 선택, 올려 놓거나, 또는 사용 하는 경우 확대/축소 슬라이더는 불투명 **Ctrl** 확대/축소 하려면 마우스 휠을 사용 하 여, 다른 모든 시간에는 투명 합니다.
 

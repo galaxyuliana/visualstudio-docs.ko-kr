@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0a57a77e401564b3bd32897a9b32d9773d959a17
-ms.sourcegitcommit: 447f2174bdecdd471d8a8e11c19554977db620a0
+ms.openlocfilehash: db33a55c5ced7c1bbbf4b238185beac43ac290f8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "59002120"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080348"
 ---
 # <a name="walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader"></a>연습: 그래픽 진단을 사용하여 컴퓨팅 셰이더 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,11 +23,11 @@ ms.locfileid: "59002120"
   
  이 연습에서는 다음 작업을 설명합니다.  
   
--   **그래픽 이벤트 목록** 을 사용하여 문제의 잠재적인 원인을 찾습니다.  
+- **그래픽 이벤트 목록** 을 사용하여 문제의 잠재적인 원인을 찾습니다.  
   
--   **그래픽 이벤트 호출 스택**을 사용하여 DirectCompute `Dispatch` 이벤트에서 실행되는 컴퓨팅 셰이더를 결정합니다.  
+- **그래픽 이벤트 호출 스택**을 사용하여 DirectCompute `Dispatch` 이벤트에서 실행되는 컴퓨팅 셰이더를 결정합니다.  
   
--   **그래픽 파이프라인 단계** 창과 HLSL 디버거를 사용하여 문제의 원인이 되는 컴퓨팅 셰이더를 검사합니다.  
+- **그래픽 파이프라인 단계** 창과 HLSL 디버거를 사용하여 문제의 원인이 되는 컴퓨팅 셰이더를 검사합니다.  
   
 ## <a name="scenario"></a>시나리오  
  이 시나리오에서는 DirectCompute를 사용하여 시뮬레이션 업데이트에서 컴퓨팅 성능이 가장 많이 필요한 부분을 수행하는 유체 역학 시뮬레이션을 작성했습니다. 앱이 실행되면 데이터 집합 및 UI가 제대로 렌더링되는 것으로 보이지만 시뮬레이션은 예상대로 작동하지 않습니다. 그래픽 진단을 사용하여 앱을 디버그할 수 있도록 그래픽 로그 문제를 포착할 수 있습니다. 이 문제는 앱에서 다음과 같이 보입니다.  

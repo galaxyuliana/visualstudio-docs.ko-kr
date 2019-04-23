@@ -20,12 +20,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 20611035ba37c509be7e41d8468d0c3d893334b2
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 1b3bba0d47e77b9e712a375627e2e4aebc6702b3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647956"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079489"
 ---
 # <a name="customize-how-visual-studio-creates-captions-for-data-bound-controls"></a>Visual Studio에서 데이터 바인딩된 컨트롤에 대한 캡션을 만드는 방식 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,21 +60,21 @@ ms.locfileid: "59647956"
 
 ### <a name="to-modify-the-smart-captioning-behavior-of-the-data-sources-window"></a>데이터 원본 창의 스마트 캡션 동작을 수정 하려면
 
-1.  클릭 하 여 명령 창을 열고 **시작** 차례로 **실행**합니다.
+1. 클릭 하 여 명령 창을 열고 **시작** 차례로 **실행**합니다.
 
-2.  형식 `regedit` 에 **실행** 대화 상자를 클릭 **확인**합니다.
+2. 형식 `regedit` 에 **실행** 대화 상자를 클릭 **확인**합니다.
 
-3.  확장 된 **HKEY_CURRENT_USER** 노드.
+3. 확장 된 **HKEY_CURRENT_USER** 노드.
 
-4.  확장 된 **소프트웨어** 노드.
+4. 확장 된 **소프트웨어** 노드.
 
-5.  확장 된 **Microsoft** 노드.
+5. 확장 된 **Microsoft** 노드.
 
-6.  확장 된 **VisualStudio** 노드.
+6. 확장 된 **VisualStudio** 노드.
 
-7.  마우스 오른쪽 단추로 클릭 합니다 **10.0** 노드를 새로 만들고 **키** 라는 `Data Designers`합니다.
+7. 마우스 오른쪽 단추로 클릭 합니다 **10.0** 노드를 새로 만들고 **키** 라는 `Data Designers`합니다.
 
-8.  마우스 오른쪽 단추로 클릭 합니다 **데이터 디자이너** 노드를 새로 만들고 **문자열 값** 라는 `SmartCaptionExpression`.
+8. 마우스 오른쪽 단추로 클릭 합니다 **데이터 디자이너** 노드를 새로 만들고 **문자열 값** 라는 `SmartCaptionExpression`.
 
 9. 마우스 오른쪽 단추로 클릭 합니다 **데이터 디자이너** 노드를 새로 만들고 **문자열 값** 라는 `SmartCaptionReplacement`.
 
@@ -96,21 +96,21 @@ ms.locfileid: "59647956"
 
 ### <a name="to-turn-off-the-smart-captioning-feature"></a>스마트 캡션 기능을 해제 하려면
 
-1.  클릭 하 여 명령 창을 열고 **시작** 차례로 **실행**합니다.
+1. 클릭 하 여 명령 창을 열고 **시작** 차례로 **실행**합니다.
 
-2.  형식 `regedit` 에 **실행** 대화 상자를 클릭 **확인**합니다.
+2. 형식 `regedit` 에 **실행** 대화 상자를 클릭 **확인**합니다.
 
-3.  확장 된 **HKEY_CURRENT_USER** 노드.
+3. 확장 된 **HKEY_CURRENT_USER** 노드.
 
-4.  확장 된 **소프트웨어** 노드.
+4. 확장 된 **소프트웨어** 노드.
 
-5.  확장 된 **Microsoft** 노드.
+5. 확장 된 **Microsoft** 노드.
 
-6.  확장 된 **VisualStudio** 노드.
+6. 확장 된 **VisualStudio** 노드.
 
-7.  마우스 오른쪽 단추로 클릭 합니다 **10.0** 노드를 새로 만들고 **키** 라는 `Data Designers`합니다.
+7. 마우스 오른쪽 단추로 클릭 합니다 **10.0** 노드를 새로 만들고 **키** 라는 `Data Designers`합니다.
 
-8.  마우스 오른쪽 단추로 클릭 합니다 **데이터 디자이너** 노드를 새로 만들고 **문자열 값** 라는 `SmartCaptionExpression`.
+8. 마우스 오른쪽 단추로 클릭 합니다 **데이터 디자이너** 노드를 새로 만들고 **문자열 값** 라는 `SmartCaptionExpression`.
 
 9. 마우스 오른쪽 단추로 클릭 합니다 **데이터 디자이너** 노드를 새로 만들고 **문자열 값** 라는 `SmartCaptionReplacement`.
 

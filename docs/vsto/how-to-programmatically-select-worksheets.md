@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ee6e5d89bea21f58c8c5b1cc59f7c7f248630742
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 0b56df406049f3f4076f6e4d1efebcf0eb2abb18
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602652"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081413"
 ---
 # <a name="how-to-programmatically-select-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 선택
   <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> 메서드는 사용자의 선택 영역을 새 개체로 이동하는 지정된 개체를 선택합니다. 사용자의 선택 영역을 변경하지 않고 포커스를 개체로 가져오려는 경우 <xref:Microsoft.Office.Tools.Excel.Worksheet.Activate%2A> 메서드를 사용합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "56602652"
 
 ### <a name="to-select-the-first-worksheet-in-a-workbook-using-a-host-item"></a>호스트 항목을 사용하여 통합 문서의 첫 번째 워크시트를 선택하려면
 
-1.  <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> 의 `Sheet1`메서드를 호출합니다.
+1. <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> 의 `Sheet1`메서드를 호출합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#19](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#19)]
      [!code-vb[Trin_VstcoreExcelAutomation#19](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#19)]
@@ -42,7 +42,7 @@ ms.locfileid: "56602652"
 
 ### <a name="to-select-the-first-worksheet-in-a-workbook-using-the-sheets-collection-of-the-excel-workbook"></a>Excel 통합 문서의 시트 컬렉션을 사용하여 통합 문서의 첫 번째 워크시트를 선택하려면
 
-1.  <xref:Microsoft.Office.Interop.Excel.Sheets> 컬렉션의 <xref:Microsoft.Office.Interop.Excel.Sheets.Select%2A> 메서드를 호출하여 활성 통합 문서의 첫 번째 워크시트를 선택합니다.
+1. <xref:Microsoft.Office.Interop.Excel.Sheets> 컬렉션의 <xref:Microsoft.Office.Interop.Excel.Sheets.Select%2A> 메서드를 호출하여 활성 통합 문서의 첫 번째 워크시트를 선택합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#20](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#20)]
      [!code-vb[Trin_VstcoreExcelAutomation#20](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#20)]

@@ -10,12 +10,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e3ad5c23d880c65a57fdd94739475537c1aebff
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 400c259cf7aac5b6f3ea4a6c196ebaa77e29289b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59367301"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079645"
 ---
 # <a name="ca2300-do-not-use-insecure-deserializer-binaryformatter"></a>CA2300: 안전하지 않은 역직렬 변환기 BinaryFormatter를 사용하지 마세요.
 
@@ -41,18 +41,17 @@ ms.locfileid: "59367301"
 - 가능한 경우 보안 직렬 변환기를 대신 사용 하 고 **공격자가 임의의 형식을 deserialize 하는 데 지정 하지**합니다. 안전한 일부 serializer는 다음과 같습니다.
   - <xref:System.Runtime.Serialization.DataContractSerializer?displayProperty=nameWithType>
   - <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer?displayProperty=nameWithType>
-  - <xref:System.Web.Script.Serialization.JavaScriptSerializer?displayProperty=nameWithType> -사용해 서는 안 <xref:System.Web.Script.Serialization.SimpleTypeResolver?displayProperty=nameWithType>합니다. 형식 확인자를 사용 해야 하는 경우 예상 되는 목록에 deserialize 된 형식을 제한 해야 합니다.
+  - <xref:System.Web.Script.Serialization.JavaScriptSerializer?displayProperty=nameWithType> -사용해 서는 안 <xref:System.Web.Script.Serialization.SimpleTypeResolver?displayProperty=nameWithType>합니다. 형식 확인자를 사용 해야 하는 경우 예상 되는 목록에 deserialize 된 형식을 제한 합니다.
   - <xref:System.Xml.Serialization.XmlSerializer?displayProperty=nameWithType>
-  - NewtonSoft Json.NET-TypeNameHandling.None를 사용 합니다. TypeNameHandling에 대 한 다른 값을 사용 해야 하는 경우 예상 되는 목록에 deserialize 된 형식 제한 해야 합니다.
+  - NewtonSoft Json.NET-TypeNameHandling.None를 사용 합니다. TypeNameHandling에 대 한 다른 값을 사용 해야 하는 경우 사용자 지정 ISerializationBinder 사용 하 여 예상된 목록에 deserialize 된 형식을 제한 합니다.
   - 프로토콜 버퍼
-- Serialize 된 데이터 변조를 확인 합니다. Serialization 한 후 serialize 된 데이터를 암호화 하 여 로그인 합니다. 를 역직렬화 하기 전에 암호화 서명을 확인 합니다. 노출 되는 암호화 키를 보호 해야 하 고 키 회전에 대 한 디자인 해야 합니다.
+- Serialize 된 데이터 변조 증명을 확인 합니다. Serialization 한 후 serialize 된 데이터를 암호화 하 여 로그인 합니다. Deserialization을 수행 하기 전에 암호화 서명을 확인 합니다. 노출 되는 암호화 키를 보호 하 고 키 회전에 대 한 설계 합니다.
 - Deserialize 된 형식을 제한 합니다. 사용자 지정 구현 <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>합니다. 로 역직렬화 하기 전에 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter>로 설정 합니다 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 사용자의 인스턴스에 대 한 속성 <xref:System.Runtime.Serialization.SerializationBinder>합니다. 재정의 된 <xref:System.Runtime.Serialization.SerializationBinder.BindToType%2A> 메서드, 형식에 예기치 않은 경우 다음 예외를 throw 합니다.
- - 역직렬화 된 형식에 대 한 사용자 제한 수 하려는 경우이 규칙을 사용 하지 않도록 설정 하 고 규칙을 사용 하도록 설정 [CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md) 하 고 [CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)합니다. 규칙을 사용 하도록 설정 [CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md) 하 고 [CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md) 있는지 확인 하는 데 도움이 됩니다는 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 속성은 항상 역직렬화 하기 전에 설정 됩니다.
+- 역직렬화 된 형식에 대 한 사용자 제한 수 하려는 경우이 규칙을 사용 하지 않도록 설정 하 고 규칙을 사용 하도록 설정 [CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md) 하 고 [CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)합니다. 규칙 [CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md) 및 [CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md) 하도록 도움말을 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 속성은 항상 역직렬화 하기 전에 설정 됩니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 
-- 입력이 신뢰할 수 있는 경우이 규칙에서 경고를 표시 하지 않아도 안전 합니다. 응용 프로그램의 신뢰 경계 및 데이터 흐름 시간이 지남에 따라 변경 될 수 있다는 것이 좋습니다.
-- 위의 주의 사항 중 하나를 수행한 경우이 경고를 표시 하지 않아도 안전 합니다.
+[!INCLUDE[insecure-deserializers-common-safe-to-suppress](includes/insecure-deserializers-common-safe-to-suppress-md.md)]
 
 ## <a name="pseudo-code-examples"></a>의사 (pseudo) 코드 예제
 

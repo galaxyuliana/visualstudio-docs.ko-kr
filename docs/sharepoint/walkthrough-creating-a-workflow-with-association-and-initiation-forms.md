@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0cf646d324d740090823496d219bf2061358a9cf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 43ee8d26338b6d15530c51191c3368d3fc556d2c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627573"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081738"
 ---
 # <a name="walkthrough-create-a-workflow-with-association-and-initiation-forms"></a>연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만들기
   이 연습에는 연결 및 초기화 폼의 사용을 통합 하는 기본 순차 워크플로 만드는 방법을 보여 줍니다. 이 SharePoint 관리자 (연결 형식)가 처음 연결할 때 및 워크플로 (양식)가 시작 될 때 워크플로에 추가 하는 매개 변수를 사용 하도록 설정 하는 ASPX 폼입니다.
@@ -57,34 +57,34 @@ ms.locfileid: "56627573"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
+- 지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
 
--   Visual Studio.
+- Visual Studio.
 
 ## <a name="create-a-sharepoint-sequential-workflow-project"></a>SharePoint 순차 워크플로 프로젝트 만들기
  순차 워크플로 프로젝트를 먼저 만듭니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 순차 워크플로 마지막 작업이 완료 될 때까지 순서 대로 실행 되는 일련의 단계입니다. 이 절차에서는 SharePoint에서 공유 문서 목록에 적용 되는 순차 워크플로 만듭니다. 워크플로의 마법사는 사이트 또는 목록 정의 사용 하 여 워크플로 연결할 수 있습니다 하 고 워크플로 시작 시기를 결정할 수 있습니다.
 
 #### <a name="to-create-a-sharepoint-sequential-workflow-project"></a>SharePoint 순차 워크플로 프로젝트를 만들려면
 
-1.  메뉴 모음에서 선택 **파일** > **새로 만들기** > **프로젝트** 표시 하는 **새 프로젝트** 대화 상자.
+1. 메뉴 모음에서 선택 **파일** > **새로 만들기** > **프로젝트** 표시 하는 **새 프로젝트** 대화 상자.
 
-2.  확장 합니다 **SharePoint** 노드 아래 **Visual C#** 또는 **Visual Basic**를 선택한 후는 **2010** 노드.
+2. 확장 합니다 **SharePoint** 노드 아래 **Visual C#** 또는 **Visual Basic**를 선택한 후는 **2010** 노드.
 
-3.  에 **템플릿** 창 선택 합니다 **SharePoint 2010 프로젝트** 프로젝트 템플릿.
+3. 에 **템플릿** 창 선택 합니다 **SharePoint 2010 프로젝트** 프로젝트 템플릿.
 
-4.  에 **이름** 상자에 입력 합니다 **ExpenseReport** 를 선택한 후는 **확인** 단추입니다.
+4. 에 **이름** 상자에 입력 합니다 **ExpenseReport** 를 선택한 후는 **확인** 단추입니다.
 
      합니다 **SharePoint 사용자 지정 마법사** 나타납니다.
 
-5.  **디버깅에 대 한 사이트 및 보안 수준을 지정** 페이지를 선택 합니다 **팜 솔루션으로 배포** 옵션 단추를 선택한 후는 **마침** 단추를는 신뢰 수준 및 기본 사이트입니다.
+5. **디버깅에 대 한 사이트 및 보안 수준을 지정** 페이지를 선택 합니다 **팜 솔루션으로 배포** 옵션 단추를 선택한 후는 **마침** 단추를는 신뢰 수준 및 기본 사이트입니다.
 
      또한이 단계는 워크플로 프로젝트에만 사용할 수 있는 옵션 임 팜 솔루션으로 솔루션의 신뢰 수준을 설정 합니다.
 
-6.  **솔루션 탐색기**에서 프로젝트 노드를 선택합니다.
+6. **솔루션 탐색기**에서 프로젝트 노드를 선택합니다.
 
-7.  메뉴 모음에서 **프로젝트** > **새 항목 추가**를 선택합니다.
+7. 메뉴 모음에서 **프로젝트** > **새 항목 추가**를 선택합니다.
 
-8.  준 **Visual C#** 또는 **Visual Basic**를 확장 합니다 **SharePoint** 노드를 선택한 후는 **2010** 노드.
+8. 준 **Visual C#** 또는 **Visual Basic**를 확장 합니다 **SharePoint** 노드를 선택한 후는 **2010** 노드.
 
 9. 에 **템플릿을** 창 선택 **순차 워크플로 (팜 솔루션에만 해당)** 템플릿을 선택한 후는 **추가** 단추입니다.
 
@@ -103,26 +103,26 @@ ms.locfileid: "56627573"
 
 #### <a name="to-add-an-association-form-to-the-workflow"></a>연결 양식을 워크플로에 추가 하려면
 
-1.  선택 된 **Workflow1** 노드에서 **솔루션 탐색기**합니다.
+1. 선택 된 **Workflow1** 노드에서 **솔루션 탐색기**합니다.
 
-2.  메뉴 모음에서 선택 **프로젝트** > **새 항목 추가** 표시 하는 **새 항목 추가** 대화 상자.
+2. 메뉴 모음에서 선택 **프로젝트** > **새 항목 추가** 표시 하는 **새 항목 추가** 대화 상자.
 
-3.  대화 상자의 트리 보기에서 하나를 확장 **Visual C#** 또는 **Visual Basic** (프로젝트 언어)에 따라 확장 합니다 **SharePoint** 노드를 선택한 후의 **2010** 노드.
+3. 대화 상자의 트리 보기에서 하나를 확장 **Visual C#** 또는 **Visual Basic** (프로젝트 언어)에 따라 확장 합니다 **SharePoint** 노드를 선택한 후의 **2010** 노드.
 
-4.  템플릿 목록에서 선택 합니다 **워크플로 연결 양식** 템플릿.
+4. 템플릿 목록에서 선택 합니다 **워크플로 연결 양식** 템플릿.
 
-5.  에 **이름을** 텍스트 상자에 입력 합니다 **ExpenseReportAssocForm.aspx**합니다.
+5. 에 **이름을** 텍스트 상자에 입력 합니다 **ExpenseReportAssocForm.aspx**합니다.
 
-6.  선택 된 **추가** 프로젝트에 폼을 추가 하려면 단추입니다.
+6. 선택 된 **추가** 프로젝트에 폼을 추가 하려면 단추입니다.
 
 ## <a name="designing-and-coding-the-association-form"></a>연결 폼 디자인 및 코딩
  이 절차에서는 컨트롤 및 코드를 추가 하 여 연결 폼에 기능을 소개 합니다.
 
 #### <a name="to-design-and-code-the-association-form"></a>디자인 및 코드 연결 폼
 
-1.  연결 양식 (ExpenseReportAssocForm.aspx)에서 찾을 합니다 `asp:Content` 가 있는 요소가 `ID="Main"`합니다.
+1. 연결 양식 (ExpenseReportAssocForm.aspx)에서 찾을 합니다 `asp:Content` 가 있는 요소가 `ID="Main"`합니다.
 
-2.  이 콘텐츠 요소의 첫 번째 줄 바로 뒤 레이블을 만들고 비용 승인 제한에서 요구 하는 텍스트 상자에 다음 코드를 추가 합니다 (*AutoApproveLimit*):
+2. 이 콘텐츠 요소의 첫 번째 줄 바로 뒤 레이블을 만들고 비용 승인 제한에서 요구 하는 텍스트 상자에 다음 코드를 추가 합니다 (*AutoApproveLimit*):
 
     ```aspx-csharp
     <asp:Label ID="lblAutoApproveLimit" Text="Auto Approval Limit:" runat="server" />
@@ -131,14 +131,14 @@ ms.locfileid: "56627573"
     <br /><br />
     ```
 
-3.  확장을 **ExpenseReportAssocForm.aspx** 파일 **솔루션 탐색기** 해당 종속 파일을 표시 합니다.
+3. 확장을 **ExpenseReportAssocForm.aspx** 파일 **솔루션 탐색기** 해당 종속 파일을 표시 합니다.
 
     > [!NOTE]
     >  프로젝트에 있으면 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]를 선택 해야 합니다는 **모든 파일 보기** 이 단계를 수행 하는 단추입니다.
 
-4.  ExpenseReportAssocForm.aspx 파일에 대 한 바로 가기 메뉴를 열고 **코드 보기**합니다.
+4. ExpenseReportAssocForm.aspx 파일에 대 한 바로 가기 메뉴를 열고 **코드 보기**합니다.
 
-5.  대체는 `GetAssociationData` 메서드:
+5. 대체는 `GetAssociationData` 메서드:
 
     ```vb
     Private Function GetAssociationData() As String
@@ -164,26 +164,26 @@ ms.locfileid: "56627573"
 
 #### <a name="to-create-an-initiation-form"></a>시작 폼을 만들려면
 
-1.  선택 된 **Workflow1** 노드에서 **솔루션 탐색기**합니다.
+1. 선택 된 **Workflow1** 노드에서 **솔루션 탐색기**합니다.
 
-2.  메뉴 모음에서 선택 **프로젝트** > **새 항목 추가** 표시 합니다 **새 항목 추가** 대화 상자.
+2. 메뉴 모음에서 선택 **프로젝트** > **새 항목 추가** 표시 합니다 **새 항목 추가** 대화 상자.
 
-3.  대화 상자의 트리 보기에서 하나를 확장 **Visual C#** 또는 **Visual Basic** (프로젝트 언어)에 따라 확장 합니다 **SharePoint** 노드를 선택한 후의 **2010** 노드.
+3. 대화 상자의 트리 보기에서 하나를 확장 **Visual C#** 또는 **Visual Basic** (프로젝트 언어)에 따라 확장 합니다 **SharePoint** 노드를 선택한 후의 **2010** 노드.
 
-4.  템플릿 목록에서 선택 합니다 **워크플로 시작 양식** 템플릿.
+4. 템플릿 목록에서 선택 합니다 **워크플로 시작 양식** 템플릿.
 
-5.  에 **이름을** 텍스트 상자에 입력 합니다 **ExpenseReportInitForm.aspx**합니다.
+5. 에 **이름을** 텍스트 상자에 입력 합니다 **ExpenseReportInitForm.aspx**합니다.
 
-6.  선택 된 **추가** 프로젝트에 폼을 추가 하려면 단추입니다.
+6. 선택 된 **추가** 프로젝트에 폼을 추가 하려면 단추입니다.
 
 ## <a name="designing-and-coding-the-initiation-form"></a>시작 폼 디자인 및 코딩
  다음으로, 컨트롤 및 코드를 추가 하 여 양식 하는 기능을 소개 합니다.
 
 #### <a name="to-code-the-initiation-form"></a>초기화 폼 코드
 
-1.  시작 양식 (ExpenseReportInitForm.aspx)에서 찾을 합니다 `asp:Content` 포함 하는 요소 `ID="Main"`합니다.
+1. 시작 양식 (ExpenseReportInitForm.aspx)에서 찾을 합니다 `asp:Content` 포함 하는 요소 `ID="Main"`합니다.
 
-2.  바로이 콘텐츠 요소의 첫 번째 줄 뒤 레이블과 비용 승인 한도 표시 하는 텍스트 상자를 만들려면 다음 코드를 추가 (*AutoApproveLimit*) 다른 레이블에 연결 폼에 입력 한 및 비용 합계를 묻는 메시지를 텍스트 상자에 붙여넣습니다 (*ExpenseTotal*):
+2. 바로이 콘텐츠 요소의 첫 번째 줄 뒤 레이블과 비용 승인 한도 표시 하는 텍스트 상자를 만들려면 다음 코드를 추가 (*AutoApproveLimit*) 다른 레이블에 연결 폼에 입력 한 및 비용 합계를 묻는 메시지를 텍스트 상자에 붙여넣습니다 (*ExpenseTotal*):
 
     ```aspx-csharp
     <asp:Label ID="lblAutoApproveLimit" Text="Auto Approval Limit:" runat="server" />
@@ -196,11 +196,11 @@ ms.locfileid: "56627573"
     <br /><br />
     ```
 
-3.  확장을 **ExpenseReportInitForm.aspx** 파일 **솔루션 탐색기** 해당 종속 파일을 표시 합니다.
+3. 확장을 **ExpenseReportInitForm.aspx** 파일 **솔루션 탐색기** 해당 종속 파일을 표시 합니다.
 
-4.  ExpenseReportInitForm.aspx 파일에 대 한 바로 가기 메뉴를 열고 **코드 보기**합니다.
+4. ExpenseReportInitForm.aspx 파일에 대 한 바로 가기 메뉴를 열고 **코드 보기**합니다.
 
-5.  대체는 `Page_Load` 다음 예제에서는 메서드:
+5. 대체는 `Page_Load` 다음 예제에서는 메서드:
 
     ```vb
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As
@@ -222,7 +222,7 @@ ms.locfileid: "56627573"
     }
     ```
 
-6.  대체는 `GetInitiationData` 다음 예제에서는 메서드:
+6. 대체는 `GetInitiationData` 다음 예제에서는 메서드:
 
     ```vb
     ' This method is called when the user clicks the button to start the workflow.
@@ -251,29 +251,29 @@ ms.locfileid: "56627573"
 
 #### <a name="to-customize-the-workflow"></a>워크플로 사용자 지정 하려면
 
-1.  Workflow1 프로젝트에서 열어 워크플로 디자이너에서 워크플로 표시 합니다.
+1. Workflow1 프로젝트에서 열어 워크플로 디자이너에서 워크플로 표시 합니다.
 
-2.  에 **도구 상자**, 확장을 **Windows Workflow v3.0** 노드 찾아서는 **IfElse** 활동.
+2. 에 **도구 상자**, 확장을 **Windows Workflow v3.0** 노드 찾아서는 **IfElse** 활동.
 
-3.  다음 단계 중 하나를 수행 하 여 워크플로에이 작업을 추가 합니다.
+3. 다음 단계 중 하나를 수행 하 여 워크플로에이 작업을 추가 합니다.
 
-    -   에 대 한 바로 가기 메뉴를 열고 합니다 **IfElse** 활동 선택 **복사**, 아래의 줄에 대 한 바로 가기 메뉴를 열고 합니다 **onWorkflowActivated1** 워크플로 디자이너에서 활동 선택한 후 **붙여넣기**합니다.
+    - 에 대 한 바로 가기 메뉴를 열고 합니다 **IfElse** 활동 선택 **복사**, 아래의 줄에 대 한 바로 가기 메뉴를 열고 합니다 **onWorkflowActivated1** 워크플로 디자이너에서 활동 선택한 후 **붙여넣기**합니다.
 
-    -   끌어서 합니다 **IfElse** 활동에서를 **도구 상자**, 아래의 줄에 연결 하 고는 **onWorkflowActiviated1** 워크플로 디자이너에서 활동.
+    - 끌어서 합니다 **IfElse** 활동에서를 **도구 상자**, 아래의 줄에 연결 하 고는 **onWorkflowActiviated1** 워크플로 디자이너에서 활동.
 
-4.  도구 상자에서 확장 합니다 **SharePoint 워크플로** 노드 찾아서는 **CreateTask** 활동.
+4. 도구 상자에서 확장 합니다 **SharePoint 워크플로** 노드 찾아서는 **CreateTask** 활동.
 
-5.  다음 단계 중 하나를 수행 하 여 워크플로에이 작업을 추가 합니다.
+5. 다음 단계 중 하나를 수행 하 여 워크플로에이 작업을 추가 합니다.
 
-    -   바로 가기 메뉴를 열고 합니다 **CreateTask** 활동을 선택 **복사본**, 둘 중 하나에 대 한 바로 가기 메뉴를 열고 **여기에 작업 놓기** 내의 영역  **IfElseActivity1** 워크플로 디자이너에서 선택한 후 **붙여넣기**합니다.
+    - 바로 가기 메뉴를 열고 합니다 **CreateTask** 활동을 선택 **복사본**, 둘 중 하나에 대 한 바로 가기 메뉴를 열고 **여기에 작업 놓기** 내의 영역  **IfElseActivity1** 워크플로 디자이너에서 선택한 후 **붙여넣기**합니다.
 
-    -   끌어서를 **CreateTask** 에서 작업을 **도구 상자** 둘 중 하나에 **여기에 작업 놓기** 내의 영역 **IfElseActivity1**합니다.
+    - 끌어서를 **CreateTask** 에서 작업을 **도구 상자** 둘 중 하나에 **여기에 작업 놓기** 내의 영역 **IfElseActivity1**합니다.
 
-6.  에 **속성** 창에서 속성 값을 입력 *taskToken* 에 대 한 합니다 **CorrelationToken** 속성.
+6. 에 **속성** 창에서 속성 값을 입력 *taskToken* 에 대 한 합니다 **CorrelationToken** 속성.
 
-7.  확장 된 **CorrelationToken** 더하기 기호를 선택 하 여 속성 (![TreeView 더하기 기호](../sharepoint/media/plus.gif "TreeView 더하기")) 옆에 있는 합니다.
+7. 확장 된 **CorrelationToken** 더하기 기호를 선택 하 여 속성 (![TreeView 더하기 기호](../sharepoint/media/plus.gif "TreeView 더하기")) 옆에 있는 합니다.
 
-8.  드롭다운 화살표를 선택 합니다 **OwnerActivityName** 하위 속성을 설정 합니다 *Workflow1* 값입니다.
+8. 드롭다운 화살표를 선택 합니다 **OwnerActivityName** 하위 속성을 설정 합니다 *Workflow1* 값입니다.
 
 9. 선택 합니다 **TaskId** 속성을 선택한 후 줄임표 (![ASP.NET 모바일 디자이너 줄임표](../sharepoint/media/mwellipsis.gif "ASP.NET 모바일 디자이너 줄임표")) 단추를 표시 합니다 **바인딩 속성** 대화 상자.
 
@@ -287,18 +287,18 @@ ms.locfileid: "56627573"
 
 14. 다음 단계 중 하나를 수행 하 여 워크플로에이 작업을 추가 합니다.
 
-    -   바로 가기 메뉴를 열고 합니다 **LogToHistoryListActivity** 활동을 선택 **복사**, 다른 바로 가기 메뉴를 열고 **여기에 작업 놓기** 내의영역**IfElseActivity1** 워크플로 디자이너에서 선택한 후 **붙여넣기**합니다.
+    - 바로 가기 메뉴를 열고 합니다 **LogToHistoryListActivity** 활동을 선택 **복사**, 다른 바로 가기 메뉴를 열고 **여기에 작업 놓기** 내의영역**IfElseActivity1** 워크플로 디자이너에서 선택한 후 **붙여넣기**합니다.
 
-    -   끌어서를 **LogToHistoryListActivity** 에서 작업을 **도구 상자**, 다른 위에 놓습니다 **여기에 작업 놓기** 영역 내에서 **IfElseActivity1** .
+    - 끌어서를 **LogToHistoryListActivity** 에서 작업을 **도구 상자**, 다른 위에 놓습니다 **여기에 작업 놓기** 영역 내에서 **IfElseActivity1** .
 
 ## <a name="add-code-to-the-workflow"></a>워크플로에 코드를 추가 합니다.
  그런 다음 기능을 제공 하는 워크플로를 코드를 추가 합니다.
 
 #### <a name="to-add-code-to-the-workflow"></a>워크플로에 코드를 추가 하려면
 
-1.  에 대 한 바로 가기 메뉴를 열고 합니다 **createTask1** 활동이 워크플로 디자이너에서 선택한 후 **코드 보기**.
+1. 에 대 한 바로 가기 메뉴를 열고 합니다 **createTask1** 활동이 워크플로 디자이너에서 선택한 후 **코드 보기**.
 
-2.  다음 메서드를 추가 합니다.
+2. 다음 메서드를 추가 합니다.
 
     ```vb
     Private Sub createTask1_MethodInvoking(ByVal sender As
@@ -327,7 +327,7 @@ ms.locfileid: "56627573"
     > [!NOTE]
     >  코드를 바꿉니다 `somedomain\\someuser` 작업은 만들 수 있는, 같은 도메인 및 사용자 이름으로 "`Office\\JoeSch`"입니다. 테스트를 위해 사용 하 여 개발 하는 계정을 사용 하 여 쉽습니다.
 
-3.  아래는 `MethodInvoking` 메서드를 다음 예제에서는 추가:
+3. 아래는 `MethodInvoking` 메서드를 다음 예제에서는 추가:
 
     ```vb
     Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As
@@ -355,15 +355,15 @@ ms.locfileid: "56627573"
     }
     ```
 
-4.  워크플로 디자이너에서 선택 합니다 **ifElseBranchActivity1** 활동입니다.
+4. 워크플로 디자이너에서 선택 합니다 **ifElseBranchActivity1** 활동입니다.
 
-5.  에 **속성** 창의 드롭다운 화살표를 선택 합니다 **조건** 속성을 설정을 *코드 조건을* 값.
+5. 에 **속성** 창의 드롭다운 화살표를 선택 합니다 **조건** 속성을 설정을 *코드 조건을* 값.
 
-6.  확장 합니다 **조건을** 더하기 기호를 선택 하 여 속성 (![TreeView 더하기 기호](../sharepoint/media/plus.gif "TreeView 더하기 기호")) 옆에 해당 값 설정한 후 *checkApprovalNeeded* .
+6. 확장 합니다 **조건을** 더하기 기호를 선택 하 여 속성 (![TreeView 더하기 기호](../sharepoint/media/plus.gif "TreeView 더하기 기호")) 옆에 해당 값 설정한 후 *checkApprovalNeeded* .
 
-7.  워크플로 디자이너에서 바로 가기 메뉴를 열고 합니다 **logToHistoryListActivity1** 활동을 선택한 후 **처리기 생성** 에 대 한 빈 메서드를 생성 하는 `MethodInvoking` 이벤트입니다.
+7. 워크플로 디자이너에서 바로 가기 메뉴를 열고 합니다 **logToHistoryListActivity1** 활동을 선택한 후 **처리기 생성** 에 대 한 빈 메서드를 생성 하는 `MethodInvoking` 이벤트입니다.
 
-8.  대체는 `MethodInvoking` 다음을 사용 하 여 코드:
+8. 대체는 `MethodInvoking` 다음을 사용 하 여 코드:
 
     ```vb
     Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As
@@ -391,46 +391,46 @@ ms.locfileid: "56627573"
 
 #### <a name="to-associate-the-workflow"></a>워크플로 연결
 
-1.  선택 된 **Shared Documents** 빠른 실행 모음에 대 한 링크입니다.
+1. 선택 된 **Shared Documents** 빠른 실행 모음에 대 한 링크입니다.
 
-2.  선택 합니다 **라이브러리** 링크를 **라이브러리 도구** 탭을 선택한 후는 **라이브러리 설정** 리본 단추.
+2. 선택 합니다 **라이브러리** 링크를 **라이브러리 도구** 탭을 선택한 후는 **라이브러리 설정** 리본 단추.
 
-3.  **사용 권한 및 관리** 섹션을 선택 합니다 **워크플로 설정을** 링크를 선택한는 **워크플로 추가** 링크를 **워크플로** 페이지.
+3. **사용 권한 및 관리** 섹션을 선택 합니다 **워크플로 설정을** 링크를 선택한는 **워크플로 추가** 링크를 **워크플로** 페이지.
 
-4.  워크플로 설정 페이지의 맨 위 목록에서 선택 합니다 **ExpenseReport-Workflow1** 템플릿.
+4. 워크플로 설정 페이지의 맨 위 목록에서 선택 합니다 **ExpenseReport-Workflow1** 템플릿.
 
-5.  다음 필드에 입력 **ExpenseReportWorkflow** 를 선택 합니다 **다음** 단추입니다.
+5. 다음 필드에 입력 **ExpenseReportWorkflow** 를 선택 합니다 **다음** 단추입니다.
 
      이 사용 하 여 워크플로 연결 합니다 **Shared Documents** 목록 및 워크플로 연결 폼을 표시 합니다.
 
-6.  에 **자동 승인 제한** 텍스트 상자에 입력 합니다 **1200** 를 선택한 후는 **워크플로 연결** 단추입니다.
+6. 에 **자동 승인 제한** 텍스트 상자에 입력 합니다 **1200** 를 선택한 후는 **워크플로 연결** 단추입니다.
 
 ## <a name="start-the-workflow"></a>워크플로 시작 합니다.
  다음으로, 문서 중 하나에 워크플로 연결 합니다 **Shared Documents** 목록 워크플로 시작 양식을 표시 합니다.
 
 #### <a name="to-start-the-workflow"></a>워크플로 시작 하려면
 
-1.  SharePoint 페이지에서 선택 합니다 **홈** 단추입니다.
+1. SharePoint 페이지에서 선택 합니다 **홈** 단추입니다.
 
-2.  선택 된 **Shared Documents** 표시할 빠른 실행 모음에 대 한 링크는 **Shared Documents** 목록.
+2. 선택 된 **Shared Documents** 표시할 빠른 실행 모음에 대 한 링크는 **Shared Documents** 목록.
 
-3.  선택 합니다 **문서** 링크를 **라이브러리 도구** 페이지의 맨 위에 있는 탭을 선택한를 **문서 업로드** 에 새 문서를 업로드 하려면 리본에서 단추를 **Shared Documents** 목록입니다.
+3. 선택 합니다 **문서** 링크를 **라이브러리 도구** 페이지의 맨 위에 있는 탭을 선택한를 **문서 업로드** 에 새 문서를 업로드 하려면 리본에서 단추를 **Shared Documents** 목록입니다.
 
-4.  에 **문서 업로드** 대화 상자를 선택 합니다 **찾아보기** 단추, 문서 파일을 선택는 **열기** 단추를 선택한 후를 **확인** 단추입니다.
+4. 에 **문서 업로드** 대화 상자를 선택 합니다 **찾아보기** 단추, 문서 파일을 선택는 **열기** 단추를 선택한 후를 **확인** 단추입니다.
 
      이 대화 상자에서 문서에 대 한 설정을 변경할 수 있지만 선택 하 여 기본값으로 그대로 합니다 **저장할** 단추입니다.
 
-5.  업로드 된 문서를 선택 하 고 표시를 선택한 후 드롭다운 화살표를 **워크플로** 항목입니다.
+5. 업로드 된 문서를 선택 하 고 표시를 선택한 후 드롭다운 화살표를 **워크플로** 항목입니다.
 
-6.  ExpenseReportWorkflow 옆에 있는 이미지를 선택 합니다.
+6. ExpenseReportWorkflow 옆에 있는 이미지를 선택 합니다.
 
      워크플로 시작 양식을 표시 됩니다. (값에 표시 되는 **자동 승인 제한** 상자는 읽기 전용 연결 양식에서 입력 되었습니다.)
 
-7.  에 **비용 합계** 텍스트 상자에 입력 합니다 **1600**를 선택한 후는 **워크플로 시작** 단추입니다.
+7. 에 **비용 합계** 텍스트 상자에 입력 합니다 **1600**를 선택한 후는 **워크플로 시작** 단추입니다.
 
      이 표시 합니다 **Shared Documents** 목록을 다시 합니다. 이라는 새 열 **ExpenseReportWorkflow** 값을 가진 **완료** 워크플로 시작 항목으로 추가 됩니다.
 
-8.  업로드 된 문서 옆에 있는 드롭다운 화살표를 선택한 다음 선택 합니다 **워크플로** 워크플로 상태 페이지에 표시할 항목입니다. 선택 된 **완료 됨** 값 **완료 워크플로**합니다. 작업은 아래에 **작업** 섹션입니다.
+8. 업로드 된 문서 옆에 있는 드롭다운 화살표를 선택한 다음 선택 합니다 **워크플로** 워크플로 상태 페이지에 표시할 항목입니다. 선택 된 **완료 됨** 값 **완료 워크플로**합니다. 작업은 아래에 **작업** 섹션입니다.
 
 9. 작업 세부 정보를 표시 하기 위해 작업의 제목을 선택 합니다.
 
@@ -443,7 +443,7 @@ ms.locfileid: "56627573"
 ## <a name="next-steps"></a>다음 단계
  다음이 항목에서는 워크플로 템플릿을 만드는 방법에 대 한 자세한 수 있습니다.
 
--   SharePoint 워크플로에 대 한 자세한 내용은 참조 하세요 [Windows SharePoint Services에서 워크플로](http://go.microsoft.com/fwlink/?LinkID=166275)합니다.
+- SharePoint 워크플로에 대 한 자세한 내용은 참조 하세요 [Windows SharePoint Services에서 워크플로](http://go.microsoft.com/fwlink/?LinkID=166275)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [SharePoint 워크플로 솔루션 만들기](../sharepoint/creating-sharepoint-workflow-solutions.md)

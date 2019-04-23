@@ -22,12 +22,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 6cdbb5d092f431f628e76c7ab629d5ed70429cee
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 395e2a6233c1b6187d9089459cb8f267c4c3c904
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661505"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079910"
 ---
 # <a name="upgrade-mdf-files"></a>.mdf 파일 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,15 +54,15 @@ ms.locfileid: "59661505"
   
  데이터베이스를 업그레이드 하기 전에 다음 조건을 고려 하세요.  
   
--   이전 버전 및 최신 버전의 Visual Studio에서 프로젝트에서 작동 하도록 하려는 경우 업그레이드 하지 마세요.  
+- 이전 버전 및 최신 버전의 Visual Studio에서 프로젝트에서 작동 하도록 하려는 경우 업그레이드 하지 마세요.  
   
--   SQL Server Express 대신 LocalDB를 사용 하는 환경에서 응용 프로그램을 사용할 경우 업그레이드 하지 마세요.  
+- SQL Server Express 대신 LocalDB를 사용 하는 환경에서 응용 프로그램을 사용할 경우 업그레이드 하지 마세요.  
   
--   이러한 LocalDB 수락 하지 않았기 때문에 응용 프로그램에서 원격 연결을 사용 하는 경우를 업그레이드 하지 마세요.  
+- 이러한 LocalDB 수락 하지 않았기 때문에 응용 프로그램에서 원격 연결을 사용 하는 경우를 업그레이드 하지 마세요.  
   
--   응용 프로그램에서 인터넷 정보 서비스 (IIS)를 사용 하는 경우 업그레이드 하지 마세요.  
+- 응용 프로그램에서 인터넷 정보 서비스 (IIS)를 사용 하는 경우 업그레이드 하지 마세요.  
   
--   샌드박스 환경에서 데이터베이스 응용 프로그램을 테스트 하려고 하지만 데이터베이스를 관리 하지 않으려는 경우 업그레이드를 고려 합니다.  
+- 샌드박스 환경에서 데이터베이스 응용 프로그램을 테스트 하려고 하지만 데이터베이스를 관리 하지 않으려는 경우 업그레이드를 고려 합니다.  
   
 ### <a name="to-upgrade-a-database-file"></a>데이터베이스 파일을 업그레이드 하려면  
   
@@ -70,17 +70,17 @@ ms.locfileid: "59661505"
   
 2. 에 **연결 추가** 대화 상자에서 다음 정보를 지정 합니다.  
   
-   -   **데이터 원본**: `Microsoft SQL Server (SqlClient)`  
+   - **데이터 원본**: `Microsoft SQL Server (SqlClient)`  
   
-   -   **서버 이름**:  
+   - **서버 이름**:  
   
-       -   기본 버전을 사용 하려면: `(localdb)\MSSQLLocalDB`합니다.  이 지정 ProjectV12 또는 ProjectV13, 설치 된 Visual Studio의 버전 및 첫 번째 LocalDB 인스턴스가 만들어질 때에 따라 합니다. 합니다 **MSSQLLocalDB** 노드에서 **SQL Server 개체 탐색기** 를 가리키는지 버전을 보여 줍니다.  
+       - 기본 버전을 사용 하려면: `(localdb)\MSSQLLocalDB`합니다.  이 지정 ProjectV12 또는 ProjectV13, 설치 된 Visual Studio의 버전 및 첫 번째 LocalDB 인스턴스가 만들어질 때에 따라 합니다. 합니다 **MSSQLLocalDB** 노드에서 **SQL Server 개체 탐색기** 를 가리키는지 버전을 보여 줍니다.  
   
-       -   특정 버전을 사용 하려면: `(localdb)\ProjectsV12` 또는 `(localdb)\ProjectsV13`, 여기서 V12 LocalDB 2014 이며 V13 LocalDB 2016 합니다.  
+       - 특정 버전을 사용 하려면: `(localdb)\ProjectsV12` 또는 `(localdb)\ProjectsV13`, 여기서 V12 LocalDB 2014 이며 V13 LocalDB 2016 합니다.  
   
-   -   **데이터베이스 파일 첨부**: 기본.mdf 파일의 실제 경로입니다.  
+   - **데이터베이스 파일 첨부**: 기본.mdf 파일의 실제 경로입니다.  
   
-   -   **논리적 이름**: 파일을 사용 하려는 이름입니다.  
+   - **논리적 이름**: 파일을 사용 하려는 이름입니다.  
   
 3. **확인** 단추를 선택합니다.  
   
@@ -102,11 +102,11 @@ ms.locfileid: "59661505"
   
 ### <a name="to-work-with-the-database-in-visual-studio-but-retain-compatibility-with-sql-server-express"></a>Visual Studio에서 데이터베이스를 사용 하 여 작동 하지만 SQL Server Express와 호환성을 유지 하려면  
   
--   Visual Studio에서 업그레이드 하지 않고도 프로젝트를 엽니다.  
+- Visual Studio에서 업그레이드 하지 않고도 프로젝트를 엽니다.  
   
-    -   프로젝트를 실행 하려면 F5 키를 선택 합니다.  
+    - 프로젝트를 실행 하려면 F5 키를 선택 합니다.  
   
-    -   데이터베이스를 편집 하려면에서.mdf 파일을 엽니다 **솔루션 탐색기**에서 노드를 확장 하 고 **서버 탐색기** 데이터베이스와 함께 작동 하도록 합니다.  
+    - 데이터베이스를 편집 하려면에서.mdf 파일을 엽니다 **솔루션 탐색기**에서 노드를 확장 하 고 **서버 탐색기** 데이터베이스와 함께 작동 하도록 합니다.  
   
 ### <a name="to-make-sql-server-express-the-default-database-engine"></a>수 있도록 SQL Server Express 기본 데이터베이스 엔진  
   

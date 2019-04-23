@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 493193e24fcee2b3f3290546abc656faee7d88a7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e37f6d7891e561beecdf0f9146d647822940571b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984661"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60079852"
 ---
 # <a name="run-unit-tests-on-uml-extensions"></a>UML 확장에서 단위 테스트 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,20 +50,20 @@ ms.locfileid: "58984661"
   
  이 기능을 지원하는 Visual Studio 버전을 확인하려면 [아키텍처 및 모델링 도구에 대한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요.  
   
-##  <a name="Host"></a> VSIX 확장용 단위 테스트를 설정합니다.  
+## <a name="Host"></a> VSIX 확장용 단위 테스트를 설정합니다.  
  모델링 확장의 메서드는 보통 이미 열려 있는 다이어그램에서 작동합니다. 이 메서드는 **IDiagramContext** , **ILinkedUndoContext**등의 MEF 가져오기를 사용합니다. 테스트를 실행하기 전에 테스트 환경에서 이 컨텍스트를 설정해야 합니다.  
   
 #### <a name="to-set-up-a-unit-test-that-executes-in-includevsprvsincludesvsprvs-mdmd"></a>[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 실행되는 단위 테스트를 설정하려면  
   
-1.  UML 확장 프로젝트와 단위 테스트 프로젝트를 만듭니다.  
+1. UML 확장 프로젝트와 단위 테스트 프로젝트를 만듭니다.  
   
-    1.  **UML 확장 프로젝트입니다.** 일반적으로는 명령 제스처 또는 유효성 검사 프로젝트 템플릿을 사용하여 이 프로젝트를 만듭니다. 예를 들어, 참조 [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)합니다.  
+    1. **UML 확장 프로젝트입니다.** 일반적으로는 명령 제스처 또는 유효성 검사 프로젝트 템플릿을 사용하여 이 프로젝트를 만듭니다. 예를 들어, 참조 [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)합니다.  
   
-    2.  **단위 테스트 프로젝트입니다.** 자세한 내용은 [코드 단위 테스트](../test/unit-test-your-code.md)를 참조하세요.  
+    2. **단위 테스트 프로젝트입니다.** 자세한 내용은 [코드 단위 테스트](../test/unit-test-your-code.md)를 참조하세요.  
   
-2.  UML 모델링 프로젝트가 포함된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션을 만듭니다. 이 솔루션을 테스트 초기 상태로 사용합니다. 이 솔루션은 UML 확장 및 해당 단위 테스트를 작성하는 솔루션과는 다른 별개의 솔루션이어야 합니다. 자세한 내용은 [만들 UML 모델링 프로젝트 및 다이어그램](../modeling/create-uml-modeling-projects-and-diagrams.md)합니다.  
+2. UML 모델링 프로젝트가 포함된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션을 만듭니다. 이 솔루션을 테스트 초기 상태로 사용합니다. 이 솔루션은 UML 확장 및 해당 단위 테스트를 작성하는 솔루션과는 다른 별개의 솔루션이어야 합니다. 자세한 내용은 [만들 UML 모델링 프로젝트 및 다이어그램](../modeling/create-uml-modeling-projects-and-diagrams.md)합니다.  
   
-3.  **UML 확장 프로젝트**에서 .csproj 파일을 텍스트로 편집하고 다음 줄에 `true`가 표시되는지 확인합니다.  
+3. **UML 확장 프로젝트**에서 .csproj 파일을 텍스트로 편집하고 다음 줄에 `true`가 표시되는지 확인합니다.  
   
     ```  
     <CopyBuildOutputToOutputDirectory>true</CopyBuildOutputToOutputDirectory>  
@@ -72,33 +72,33 @@ ms.locfileid: "58984661"
   
      .csproj 파일을 텍스트로 편집하려면 솔루션 탐색기의 프로젝트 바로 가기 메뉴에서 **프로젝트 언로드** 를 선택합니다. 그런 다음 **….csproj 편집**을 선택합니다. 텍스트를 편집한 후 **프로젝트 다시 로드**를 선택합니다.  
   
-4.  UML 확장 프로젝트에서 **Properties\AssemblyInfo.cs**에 다음 줄을 추가합니다. 그러면 단위 테스트가 테스트할 메서드에 액세스할 수 있습니다.  
+4. UML 확장 프로젝트에서 **Properties\AssemblyInfo.cs**에 다음 줄을 추가합니다. 그러면 단위 테스트가 테스트할 메서드에 액세스할 수 있습니다.  
   
     ```csharp  
     [assembly:InternalsVisibleTo("MyUnitTests")] // Name of unit tests assembly.  
     ```  
   
-5.  **단위 테스트 프로젝트**에서 다음 어셈블리 참조를 추가합니다.  
+5. **단위 테스트 프로젝트**에서 다음 어셈블리 참조를 추가합니다.  
   
-    -   *UML 확장 프로젝트*  
+    - *UML 확장 프로젝트*  
   
-    -   **EnvDTE.dll**  
+    - **EnvDTE.dll**  
   
-    -   **Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll**  
+    - **Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll**  
   
-    -   **Microsoft.VisualStudio.ComponentModelHost.dll**  
+    - **Microsoft.VisualStudio.ComponentModelHost.dll**  
   
-    -   **Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll**  
+    - **Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll**  
   
-    -   **Microsoft.VisualStudio.Uml.Interfaces.dll**  
+    - **Microsoft.VisualStudio.Uml.Interfaces.dll**  
   
-    -   **Microsoft.VSSDK.TestHostFramework.dll**  
+    - **Microsoft.VSSDK.TestHostFramework.dll**  
   
-6.  초기화 메서드를 포함한 각 테스트 메서드에 `[HostType("VS IDE")]` 특성을 접두사로 지정합니다.  
+6. 초기화 메서드를 포함한 각 테스트 메서드에 `[HostType("VS IDE")]` 특성을 접두사로 지정합니다.  
   
      그러면 Visual Studio의 실험적 인스턴스에서 테스트가 실행됩니다.  
   
-##  <a name="DTE"></a> DTE 및 ModelStore 액세스  
+## <a name="DTE"></a> DTE 및 ModelStore 액세스  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 모델링 프로젝트를 여는 메서드를 작성합니다. 일반적으로는 각 테스트 실행 시 솔루션을 한 번만 엽니다. 메서드를 한 번만 실행하려면 메서드에 `[AssemblyInitialize]` 특성을 접두사로 지정합니다. 또한 각 테스트 메서드에 [HostType("VS IDE")] 특성도 추가해야 합니다.  예를 들어:  
   
 ```csharp  
@@ -166,7 +166,7 @@ namespace UnitTests
   
  <xref:EnvDTE.Project?displayProperty=fullName> 인스턴스가 모델링 프로젝트를 나타내는 경우에는 <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.IModelingProject>에 대해 해당 인스턴스를 캐스팅할 수 있습니다.  
   
-##  <a name="Opening"></a> 모델 다이어그램 열기  
+## <a name="Opening"></a> 모델 다이어그램 열기  
  일반적으로 각 테스트 또는 테스트 클래스는 열려 있는 다이어그램에 대해 수행합니다. 다음 예에서는 이 테스트 클래스의 다른 메서드보다 먼저 이 메서드를 실행하는 `[ClassInitialize]` 특성을 사용합니다. 여기서도 각 테스트 메서드에 [HostType("VS IDE")] 특성을 추가해야 합니다.  
   
 ```csharp  
@@ -211,7 +211,7 @@ public class MyTestClass
   
 ```  
   
-##  <a name="UiThread"></a> UI 스레드에서 모델 변경 수행  
+## <a name="UiThread"></a> UI 스레드에서 모델 변경 수행  
  테스트 또는 테스트 중인 메서드로 인해 모델 저장소가 변경되는 경우에는 사용자 인터페이스 스레드에서 해당 테스트나 메서드를 실행해야 합니다. 그렇지 않으면 `AccessViolationException`이 표시될 수 있습니다. 테스트 메서드의 코드를 호출할 Invoke 호출 내에 다음과 같이 포함하세요.  
   
 ```  
@@ -231,7 +231,7 @@ using Microsoft.VSSDK.Tools.VsIdeTesting;
     }  
 ```  
   
-##  <a name="MEF"></a> 명령, 제스처 및 기타 MEF 구성 요소를 테스트합니다.  
+## <a name="MEF"></a> 명령, 제스처 및 기타 MEF 구성 요소를 테스트합니다.  
  MEF 구성 요소는 `[Import]` 특성을 포함하며 해당 값이 호스트에 의해 설정되는 속성 선언을 사용합니다. 일반적으로 이러한 속성은 IDiagramContext, SVsServiceProvider, ILinkedUndoContext 등입니다. 이러한 속성을 사용하는 메서드를 테스트할 때는 테스트 대상 메서드를 실행하기 전에 해당 값을 설정해야 합니다. 예를 들어 다음 코드와 같은 명령 확장을 작성한 경우  
   
 ```  

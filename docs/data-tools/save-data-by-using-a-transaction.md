@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 8d5d47cfc21b0aebef884fade422600be2beeb58
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: bf5864d25e78b6050da5c13097503b2998dda44a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55924372"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60080997"
 ---
 # <a name="how-to-save-data-by-using-a-transaction"></a>방법: 트랜잭션을 사용하여 데이터 저장
 
@@ -37,20 +37,20 @@ ms.locfileid: "55924372"
 
 ## <a name="to-add-a-reference-to-the-systemtransactionsdll"></a>System.Transactions.dll에 대 한 참조를 추가 하려면
 
-1.  에 **프로젝트** 메뉴에서 **참조 추가**합니다.
+1. **프로젝트** 메뉴에서 **참조 추가**를 선택합니다.
 
-2.  에 **.NET** 탭 (**SQL Server** SQL Server 프로젝트에 대 한 탭)을 선택 **System.Transactions**를 선택한 후 **확인**합니다.
+2. 에 **.NET** 탭 (**SQL Server** SQL Server 프로젝트에 대 한 탭)을 선택 **System.Transactions**를 선택한 후 **확인**합니다.
 
      에 대 한 참조가 *System.Transactions.dll* 프로젝트에 추가 됩니다.
 
 ## <a name="to-save-data-in-a-transaction"></a>트랜잭션에서 데이터를 저장 하려면
 
--   내에서 데이터를 저장 하는 코드를 추가 합니다. 트랜잭션을 포함 하는 문입니다. 다음 코드를 만들고 인스턴스화하는 방법을 보여 줍니다는 <xref:System.Transactions.TransactionScope> 개체를 사용 하 여 문:
+- 내에서 데이터를 저장 하는 코드를 추가 합니다. 트랜잭션을 포함 하는 문입니다. 다음 코드를 만들고 인스턴스화하는 방법을 보여 줍니다는 <xref:System.Transactions.TransactionScope> 개체를 사용 하 여 문:
 
      [!code-vb[VbRaddataSaving#11](../data-tools/codesnippet/VisualBasic/save-data-by-using-a-transaction_1.vb)]
      [!code-csharp[VbRaddataSaving#11](../data-tools/codesnippet/CSharp/save-data-by-using-a-transaction_1.cs)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)
 - [연습: 트랜잭션에 데이터 저장](../data-tools/save-data-in-a-transaction.md)

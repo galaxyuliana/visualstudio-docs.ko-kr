@@ -18,12 +18,12 @@ caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e30cee45bcb716e70e8b2e585079628b55daa8ee
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: aeaba355e101bd8e48126bfa01f95668a37abe3e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983351"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60081426"
 ---
 # <a name="javascript-console-commands"></a>JavaScript Console commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,7 +93,7 @@ if (console && console.log) {
 ## <a name="examining-objects-in-the-javascript-console-window"></a>JavaScript 콘솔 창에서 개체 검사  
  JavaScript 콘솔 창을 사용하면 범위 내에 있는 개체와 상호 작용할 수 있습니다. 콘솔 창에서 범위 외부의 개체를 검토하려면 코드에서 `console.log` , `console.dir`또는 기타 명령을 사용하세요. 또는 개체가 범위 내에 있는 경우 코드에 중단점을 설정(**중단점** > **Insert 중단점**)하여 콘솔 창에서 이 개체와 상호 작용할 수 있습니다.  
   
-##  <a name="ConsoleLog"></a> console.log 출력 서식 지정  
+## <a name="ConsoleLog"></a> console.log 출력 서식 지정  
  여러 인수를 `console.log`에 전달하는 경우 콘솔은 인수를 배열로 처리하고 출력을 연결합니다.  
   
 ```javascript  
