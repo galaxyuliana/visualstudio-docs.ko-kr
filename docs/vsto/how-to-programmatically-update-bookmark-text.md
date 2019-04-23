@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dbdb6c819ca8f6e109d7f58fb799b08378a963da
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 12a64f35e7d530b80e44f3098035093509766c60
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624674"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113031"
 ---
 # <a name="how-to-programmatically-update-bookmark-text"></a>방법: 프로그래밍 방식으로 책갈피 텍스트 업데이트
   나중에 텍스트를 검색할 수 있도록 또는 책갈피의 텍스트를 바꾸기 위해 Microsoft Office Word 문서의 자리 표시자 책갈피에 텍스트를 삽입할 수 있습니다. 문서 수준 사용자 지정을 개발하는 경우 데이터에 바인딩된 <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤의 텍스트를 업데이트할 수도 있습니다. 자세한 내용은 [Office 솔루션의 컨트롤에 데이터 바인딩](../vsto/binding-data-to-controls-in-office-solutions.md)합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "56624674"
 
 ### <a name="to-update-bookmark-contents-using-a-bookmark-control"></a>책갈피 컨트롤을 사용하여 책갈피 내용을 업데이트하려면
 
-1.  책갈피 이름에 대해 `bookmark` 인수를 사용하고 <xref:Microsoft.Office.Tools.Word.Bookmark.Text%2A> 속성에 할당할 문자열에 대해 `newText` 인수를 사용하는 프로시저를 만듭니다.
+1. 책갈피 이름에 대해 `bookmark` 인수를 사용하고 <xref:Microsoft.Office.Tools.Word.Bookmark.Text%2A> 속성에 할당할 문자열에 대해 `newText` 인수를 사용하는 프로시저를 만듭니다.
 
     > [!NOTE]
     >  <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤의 <xref:Microsoft.Office.Tools.Word.Bookmark.Text%2A> 또는 <xref:Microsoft.Office.Tools.Word.Bookmark.FormattedText%2A> 속성에 텍스트를 할당하면 책갈피가 삭제되지 않습니다.
@@ -50,7 +50,7 @@ ms.locfileid: "56624674"
      [!code-vb[Trin_VstcoreWordAutomation#63](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#63)]
      [!code-csharp[Trin_VstcoreWordAutomation#63](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#63)]
 
-2.  할당 합니다 *newText* 문자열을 합니다 <xref:Microsoft.Office.Tools.Word.Bookmark.Text%2A> 의 속성을 <xref:Microsoft.Office.Tools.Word.Bookmark>.
+2. 할당 합니다 *newText* 문자열을 합니다 <xref:Microsoft.Office.Tools.Word.Bookmark.Text%2A> 의 속성을 <xref:Microsoft.Office.Tools.Word.Bookmark>.
 
      [!code-vb[Trin_VstcoreWordAutomation#64](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#64)]
      [!code-csharp[Trin_VstcoreWordAutomation#64](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#64)]
@@ -59,7 +59,7 @@ ms.locfileid: "56624674"
 
 ### <a name="to-update-bookmark-contents-using-a-word-bookmark-object"></a>Word 책갈피 개체를 사용하여 책갈피 내용을 업데이트하려면
 
-1.  <xref:Microsoft.Office.Interop.Word.Bookmark>의 이름에 대해 `bookmark` 인수를 사용하고 책갈피의 <xref:Microsoft.Office.Interop.Word.Range.Text%2A> 속성에 할당할 문자열에 대해 `newText` 인수를 사용하는 프로시저를 만듭니다.
+1. <xref:Microsoft.Office.Interop.Word.Bookmark>의 이름에 대해 `bookmark` 인수를 사용하고 책갈피의 <xref:Microsoft.Office.Interop.Word.Range.Text%2A> 속성에 할당할 문자열에 대해 `newText` 인수를 사용하는 프로시저를 만듭니다.
 
     > [!NOTE]
     >  네이티브 Word <xref:Microsoft.Office.Interop.Word.Bookmark> 개체에 텍스트를 할당하면 책갈피가 삭제됩니다.
@@ -67,7 +67,7 @@ ms.locfileid: "56624674"
      [!code-vb[Trin_VstcoreWordAutomation#65](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#65)]
      [!code-csharp[Trin_VstcoreWordAutomation#65](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#65)]
 
-2.  할당 합니다 *newText* 문자열는 <xref:Microsoft.Office.Interop.Word.Range.Text%2A> 책갈피를 자동으로 삭제 하는 책갈피의 속성입니다. 그런 후 <xref:Microsoft.Office.Interop.Word.Bookmarks> 컬렉션에 책갈피를 다시 추가합니다.
+2. 할당 합니다 *newText* 문자열는 <xref:Microsoft.Office.Interop.Word.Range.Text%2A> 책갈피를 자동으로 삭제 하는 책갈피의 속성입니다. 그런 후 <xref:Microsoft.Office.Interop.Word.Bookmarks> 컬렉션에 책갈피를 다시 추가합니다.
 
      다음 코드 예제는 문서 수준 사용자 지정에서 사용할 수 있습니다.
 

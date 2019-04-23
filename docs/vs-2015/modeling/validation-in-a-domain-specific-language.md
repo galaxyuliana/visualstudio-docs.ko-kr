@@ -12,12 +12,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3057d333cfc3b08298a5329a34ef52a51556e4ec
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cc3890ee8392088592aef16dcc120637da74e285
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986093"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113458"
 ---
 # <a name="validation-in-a-domain-specific-language"></a>도메인별 언어에서 유효성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,13 +58,13 @@ DSL(Domain-Specific Language) 작성자는 사용자가 만든 모델이 적절�
   
 1. 유효성 검사를 사용 하도록 설정 합니다 **Editor\Validation** 노드:  
   
-   1.  오픈 **Dsl\DslDefinition.dsl**합니다.  
+   1. 오픈 **Dsl\DslDefinition.dsl**합니다.  
   
-   2.  DSL 탐색기에서 확장을 **편집기** 노드와 선택 **유효성 검사**합니다.  
+   2. DSL 탐색기에서 확장을 **편집기** 노드와 선택 **유효성 검사**합니다.  
   
-   3.  속성 창에서 설정 된 **사용 하 여** 속성을 `true`입니다. 이러한 속성을 모두 설정하는 것이 가장 편리합니다.  
+   3. 속성 창에서 설정 된 **사용 하 여** 속성을 `true`입니다. 이러한 속성을 모두 설정하는 것이 가장 편리합니다.  
   
-   4.  클릭 **모든 템플릿 변환** 솔루션 탐색기 도구 모음에서입니다.  
+   4. 클릭 **모든 템플릿 변환** 솔루션 탐색기 도구 모음에서입니다.  
   
 2. 도메인 클래스 또는 도메인 관계 하나 이상에 대해 부분 클래스 정의를 작성합니다. 새 코드 파일에 이러한 정의 작성 합니다 **Dsl** 프로젝트입니다.  
   
@@ -74,7 +74,7 @@ DSL(Domain-Specific Language) 작성자는 사용자가 만든 모델이 적절�
    [ValidationState(ValidationState.Enabled)]  
    ```  
   
-   -   기본적으로 이 특성을 추가하면 파생된 클래스에 대해서도 유효성 검사가 사용하도록 설정됩니다. 특정 파생된 클래스에 대해 유효성 검사를 사용하지 않도록 설정하려는 경우에는 `ValidationState.Disabled`를 사용하면 됩니다.  
+   - 기본적으로 이 특성을 추가하면 파생된 클래스에 대해서도 유효성 검사가 사용하도록 설정됩니다. 특정 파생된 클래스에 대해 유효성 검사를 사용하지 않도록 설정하려는 경우에는 `ValidationState.Disabled`를 사용하면 됩니다.  
   
 4. 클래스에 유효성 검사 메서드를 추가합니다. 각 유효성 검사 메서드의 이름은 원하는 대로 지정할 수 있지만 <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>는 하나 포함되어야 합니다.  
   
@@ -304,7 +304,7 @@ namespace Company.FamilyTree
   
  링크나 요소에 영향을 주는 실행 취소 또는 다시 실행 작업 후에도 처리기가 호출됩니다.  
   
-##  <a name="custom"></a> 사용자 지정 유효성 검사 범주  
+## <a name="custom"></a> 사용자 지정 유효성 검사 범주  
  메뉴, 열기 등의 표준 유효성 검사 범주 외에 원하는 범주를 직접 정의할 수 있습니다. 이러한 범주는 프로그램 코드에서 호출할 수 있으며 사용자가 범주를 직접 호출할 수는 없습니다.  
   
  사용자 지정 범주는 일반적으로 모델이 특정 도구의 사전 조건을 충족하는지를 테스트하는 범주를 정의하는 데 사용됩니다.  
@@ -332,7 +332,7 @@ validationController.ValidateCustom
    "PreconditionsForGeneratePartsList");  
 ```  
   
-##  <a name="alternatives"></a> 유효성 검사에 대 한 대안  
+## <a name="alternatives"></a> 유효성 검사에 대 한 대안  
  유효성 검사 제약 조건은 오류를 보고만 하며 모델을 변경하지는 않습니다. 모델이 잘못된 상태가 되지 않도록 하려면 다른 기술을 대신 사용할 수 있습니다.  
   
  그러나 이러한 기술은 사용하지 않는 것이 좋습니다. 일반적으로는 사용자가 잘못된 모델을 수정하는 방법을 결정하도록 하는 것이 더 효율적입니다.  

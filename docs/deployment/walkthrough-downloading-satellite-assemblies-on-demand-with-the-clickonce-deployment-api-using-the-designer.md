@@ -20,15 +20,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c70782190bbfd76f5536a68eb597dbf3d122e773
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
-ms.translationtype: MTE95
+ms.openlocfilehash: 3af25c298970d9fe7f4a1442dedaf3af9f0172d1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323830"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60095440"
 ---
 # <a name="walkthrough-download-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer"></a>연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드
-위성 어셈블리를 사용하면 Windows Forms 애플리케이션을 여러 문화권에 맞게 구성할 수 있습니다. *위성 어셈블리* 는 애플리케이션의 기본 문화권 이외의 문화권을 위한 애플리케이션 리소스가 포함된 어셈블리입니다.
+위성 어셈블리를 사용하면 Windows Forms 애플리케이션을 여러 문화권에 맞게 구성할 수 있습니다. *위성 어셈블리* 는 응용 프로그램의 기본 문화권 이외의 문화권을 위한 응용 프로그램 리소스가 포함된 어셈블리입니다.
 
  에 설명 된 대로 [ClickOnce 응용 프로그램 지역화](../deployment/localizing-clickonce-applications.md), 동일한 여러 문화권을 위한 여러 위성 어셈블리를 포함할 수 있습니다 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 합니다. 기본적으로 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에서는 단일 클라이언트에 하나의 위성 어셈블리만 필요한 경우라도 배포의 모든 위성 어셈블리를 클라이언트 컴퓨터에 다운로드합니다.
 
@@ -39,45 +39,45 @@ ms.locfileid: "57323830"
 
 ### <a name="to-mark-satellite-assemblies-as-optional"></a>위성 어셈블리를 선택 항목으로 표시하려면
 
-1.  프로젝트를 빌드합니다. 이렇게 하면 지역화할 모든 문화권에 대한 위성 어셈블리가 생성됩니다.
+1. 프로젝트를 빌드합니다. 이렇게 하면 지역화할 모든 문화권에 대한 위성 어셈블리가 생성됩니다.
 
-2.  솔루션 탐색기에서 프로젝트 이름을 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다.
+2. 솔루션 탐색기에서 프로젝트 이름을 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다.
 
-3.  **게시** 탭을 클릭하고 **애플리케이션 파일**을 클릭합니다.
+3. **게시** 탭을 클릭하고 **애플리케이션 파일**을 클릭합니다.
 
-4.  **모든 파일 표시** 확인란을 선택하여 위성 어셈블리를 표시합니다. 기본적으로 모든 위성 어셈블리는 배포에 포함되고 이 대화 상자에 표시됩니다.
+4. **모든 파일 표시** 확인란을 선택하여 위성 어셈블리를 표시합니다. 기본적으로 모든 위성 어셈블리는 배포에 포함되고 이 대화 상자에 표시됩니다.
 
      위성 어셈블리의 이름은 *\<isoCode>\ApplicationName.resources.dll* 형식입니다. 여기에서 \<isoCode>는 RFC 1766 형식의 언어 식별자입니다.
 
-5.  각 언어 식별자에 대해 **다운로드 그룹** 목록에서 **새로 만들기**를 클릭합니다. 다운로드 그룹 이름을 요청하는 메시지가 표시되면 언어 식별자를 입력합니다. 예를 들어 일본어 위성 어셈블리에 대 한 지정 다운로드 그룹 이름을 `ja-JP`입니다.
+5. 각 언어 식별자에 대해 **다운로드 그룹** 목록에서 **새로 만들기**를 클릭합니다. 다운로드 그룹 이름을 요청하는 메시지가 표시되면 언어 식별자를 입력합니다. 예를 들어 일본어 위성 어셈블리에 대 한 지정 다운로드 그룹 이름을 `ja-JP`입니다.
 
-6.  **애플리케이션 파일** 대화 상자를 닫습니다.
+6. **애플리케이션 파일** 대화 상자를 닫습니다.
 
 ### <a name="to-download-satellite-assemblies-on-demand-in-c"></a>C\#에서 요청 시 위성 어셈블리를 다운로드하려면
 
-1.  *Program.cs* 파일을 엽니다. 솔루션 탐색기에서 이 파일을 표시하지 않으려면 프로젝트를 선택하고 **프로젝트** 메뉴에서 **모든 파일 표시**를 클릭합니다.
+1. *Program.cs* 파일을 엽니다. 솔루션 탐색기에서 이 파일을 표시하지 않으려면 프로젝트를 선택하고 **프로젝트** 메뉴에서 **모든 파일 표시**를 클릭합니다.
 
-2.  다음 코드를 사용하여 해당하는 위성 어셈블리를 다운로드하고 응용 프로그램을 시작합니다.
+2. 다음 코드를 사용하여 해당하는 위성 어셈블리를 다운로드하고 응용 프로그램을 시작합니다.
 
      [!code-csharp[ClickOnce.SatelliteAssemblies#1](../deployment/codesnippet/CSharp/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_1.cs)]
 
 ### <a name="to-download-satellite-assemblies-on-demand-in-visual-basic"></a>Visual Basic에서 요청 시 위성 어셈블리를 다운로드하려면
 
-1.  애플리케이션에 대한 **속성** 창에서 **애플리케이션** 탭을 클릭합니다.
+1. 애플리케이션에 대한 **속성** 창에서 **애플리케이션** 탭을 클릭합니다.
 
-2.  탭 페이지 아래쪽에서 **애플리케이션 이벤트 보기**클릭합니다.
+2. 탭 페이지 아래쪽에서 **애플리케이션 이벤트 보기**클릭합니다.
 
-3.  *ApplicationEvents.VB* 파일의 시작 부분에 다음 가져오기를 추가합니다.
+3. *ApplicationEvents.VB* 파일의 시작 부분에 다음 가져오기를 추가합니다.
 
      [!code-vb[ClickOnce.SatelliteAssembliesVB#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_2.vb)]
 
-4.  `MyApplication` 클래스에 다음 코드를 추가합니다.
+4. `MyApplication` 클래스에 다음 코드를 추가합니다.
 
      [!code-vb[ClickOnce.SatelliteAssembliesVB#2](../deployment/codesnippet/VisualBasic/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_3.vb)]
 
 ## <a name="next-steps"></a>다음 단계
  프로덕션 환경에서는 기본적으로 클라이언트 컴퓨터에 올바른 값이 설정되어 있으므로 <xref:System.Threading.Thread.CurrentUICulture%2A>를 특정 값으로 설정하는 줄을 코드 예제에서 제거해야 할 수 있습니다. 예를 들어 애플리케이션이 일본어 클라이언트 컴퓨터에서 실행될 경우 <xref:System.Threading.Thread.CurrentUICulture%2A> 는 기본적으로 `ja-JP` 입니다. 응용 프로그램을 배포하기 전에 이 값을 프로그래밍 방식으로 설정하면 위성 어셈블리를 쉽게 테스트할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [연습: ClickOnce 배포 API 사용 하 여 요청 시 위성 어셈블리 다운로드](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md)
 - [ClickOnce 애플리케이션 지역화](../deployment/localizing-clickonce-applications.md)

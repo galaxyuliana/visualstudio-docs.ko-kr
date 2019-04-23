@@ -13,12 +13,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1059e4035e620d9feb0498bacf5516eed99b5ba3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 394c9adf6794ae6e6c547a46e1fe469e0c642ba8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54755341"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096454"
 ---
 # <a name="how-to-create-multi-project-templates"></a>방법: 다중 프로젝트 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,14 +49,14 @@ ms.locfileid: "54755341"
   
   다중 프로젝트 템플릿의 루트 .vstemplate 파일은 다음과 같은 점에서 단일 프로젝트 템플릿과 다릅니다.  
   
-- `VSTemplate` 요소의 `Type` 특성에는 `ProjectGroup` 값이 포함됩니다. 예:  
+- `VSTemplate` 요소의 `Type` 특성에는 `ProjectGroup` 값이 포함됩니다. 예를 들어:  
   
   ```  
   <VSTemplate Version="2.0.0" Type="ProjectGroup"  
       xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
   ```  
   
-- `TemplateContent` 요소에는 포함된 프로젝트의 .vstemplate 파일에 대한 경로를 정의하는 하나 이상의 `ProjectTemplateLink` 요소를 가진 `ProjectCollection` 요소가 포함됩니다. 예:  
+- `TemplateContent` 요소에는 포함된 프로젝트의 .vstemplate 파일에 대한 경로를 정의하는 하나 이상의 `ProjectTemplateLink` 요소를 가진 `ProjectCollection` 요소가 포함됩니다. 예를 들어:  
   
   ```  
   <TemplateContent>  
@@ -79,17 +79,17 @@ ms.locfileid: "54755341"
   
 ### <a name="to-create-a-multi-project-template"></a>다중 프로젝트 템플릿을 만들려면  
   
-1.  다중 프로젝트 템플릿에 포함할 프로젝트를 만듭니다.  
+1. 다중 프로젝트 템플릿에 포함할 프로젝트를 만듭니다.  
   
-2.  모든 프로젝트에 .vstemplate 파일을 만듭니다. 자세한 내용은 [방법: 프로젝트 템플릿 만들기](../ide/how-to-create-project-templates.md)를 참조하세요.  
+2. 모든 프로젝트에 .vstemplate 파일을 만듭니다. 자세한 내용은 [방법: 프로젝트 템플릿 만들기](../ide/how-to-create-project-templates.md)합니다.  
   
-3.  다중 프로젝트 템플릿의 메타데이터를 포함하는 루트 .vstemplate 파일을 만듭니다. 자세한 내용은 다음 섹션의 첫 번째 예제를 참조하세요.  
+3. 다중 프로젝트 템플릿의 메타데이터를 포함하는 루트 .vstemplate 파일을 만듭니다. 자세한 내용은 다음 섹션의 첫 번째 예제를 참조하세요.  
   
-4.  템플릿에 포함할 파일 및 폴더를 선택하고 선택 영역을 마우스 오른쪽 단추로 클릭한 다음 **보내기**를 클릭하고 **압축(ZIP) 폴더**를 클릭합니다. 파일 및 폴더가 .zip 파일로 압축됩니다.  
+4. 템플릿에 포함할 파일 및 폴더를 선택하고 선택 영역을 마우스 오른쪽 단추로 클릭한 다음 **보내기**를 클릭하고 **압축(ZIP) 폴더**를 클릭합니다. 파일 및 폴더가 .zip 파일로 압축됩니다.  
   
-5.  .zip 템플릿 파일을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 템플릿 디렉터리에 배치합니다. 기본적으로 이 디렉터리는 \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\입니다.  
+5. .zip 템플릿 파일을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 템플릿 디렉터리에 배치합니다. 기본적으로 이 디렉터리는 \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\입니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 기본 다중 프로젝트 루트 .vstemplate 파일을 보여줍니다. 이 예제에서 템플릿에는 `My Windows Application` 프로젝트와 `My Class Library` 프로젝트가 들어 있습니다. `ProjectName` 요소의 `ProjectTemplateLink` 특성은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]가 이 프로젝트에 할당할 이름을 설정합니다. `ProjectName` 특성이 없으면 .vstemplate 파일의 이름이 프로젝트 이름으로 사용됩니다.  
   
 ```  
@@ -114,7 +114,7 @@ ms.locfileid: "54755341"
 </VSTemplate>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 `SolutionFolder` 요소를 사용하여 프로젝트를 `Math Classes` 및 `Graphics Classes`의 두 그룹으로 나눕니다. 이 템플릿에는 각 솔루션 폴더에 2개가 포함되는 4개의 프로젝트가 포함되어 있습니다.  
   
 ```  

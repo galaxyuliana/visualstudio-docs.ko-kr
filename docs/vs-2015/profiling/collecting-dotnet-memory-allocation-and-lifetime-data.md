@@ -12,12 +12,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 232707cd8fa51b8b69c67e1e66cb0790f4938031
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c40c2f824518ed00dacc41094c1b567f5de248ae
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54794217"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112821"
 ---
 # <a name="collecting-net-memory-allocation-and-lifetime-data"></a>.NET 메모리 할당 및 수명 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,13 +33,13 @@ ms.locfileid: "54794217"
 - [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!NOTE]
->  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
+>  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 응용 프로그램의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
   
  샘플링 또는 계측 프로파일링 방법을 사용하여 데이터를 수집할 수 있습니다.  
   
--   샘플링 방법을 사용하면 프로파일러에서 시작되었거나 연결된 프로세스에 의해 생성되는 모든 .NET 메모리 할당 및 개체를 추적합니다.  
+- 샘플링 방법을 사용하면 프로파일러에서 시작되었거나 연결된 프로세스에 의해 생성되는 모든 .NET 메모리 할당 및 개체를 추적합니다.  
   
--   계측 방법을 사용하면 프로파일러에서 계측된 모듈에 의해 생성되는 .NET 메모리 할당 및 개체만 추적합니다.  
+- 계측 방법을 사용하면 프로파일러에서 계측된 모듈에 의해 생성되는 .NET 메모리 할당 및 개체만 추적합니다.  
   
 > [!IMPORTANT]
 >  샘플링 방법을 사용하여 .NET 메모리 데이터(할당, 개체 수명 또는 둘 다)를 수집하는 경우 모든 사용자 지정 샘플링 이벤트가 무시되며 적절한 메모리 할당 이벤트가 데이터를 수집하는 데 사용됩니다.  
@@ -50,11 +50,11 @@ ms.locfileid: "54794217"
   
 ### <a name="to-collect-net-memory-data"></a>.NET 메모리 데이터를 수집하려면  
   
-1.  **성능 탐색기**에서 성능 세션을 마우스 오른쪽 단추로 클릭한 다음 **속성**을 클릭합니다.  
+1. **성능 탐색기**에서 성능 세션을 마우스 오른쪽 단추로 클릭한 다음 **속성**을 클릭합니다.  
   
-2.  _성능 세션_**속성 페이지** 대화 상자에서 **일반** 탭을 클릭하고, **.NET 개체 할당 정보 수집** 확인란을 선택합니다.  
+2. _성능 세션_**속성 페이지** 대화 상자에서 **일반** 탭을 클릭하고, **.NET 개체 할당 정보 수집** 확인란을 선택합니다.  
   
-3.  .NET 개체 수명 데이터를 수집하려면 **추가적으로 .NET 개체 수명 정보 수집** 확인란을 선택합니다.  
+3. .NET 개체 수명 데이터를 수집하려면 **추가적으로 .NET 개체 수명 정보 수집** 확인란을 선택합니다.  
   
 ## <a name="common-tasks"></a>일반 작업  
  성능 세션의 _성능 세션_**속성 페이지** 대화 상자에서 추가 옵션을 지정할 수 있습니다. 이 대화 상자를 열려면  
@@ -70,7 +70,7 @@ ms.locfileid: "54794217"
 |**계층 상호 작용** 페이지에서 프로파일링 실행에 ADO.NET 호출 데이터를 추가합니다.|-   [계층 상호 작용 데이터 수집](../profiling/collecting-tier-interaction-data.md)|  
 |**Windows 이벤트** 페이지에서 샘플링 데이터로 수집할 ETW(Windows용 이벤트 추적) 이벤트를 하나 이상 지정합니다.|-   [방법: ETW(Windows용 이벤트 추적) 데이터 수집](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)|  
 |**Windows 카운터** 페이지에서 프로파일링 데이터에 표시로 추가할 운영 체제 성능 카운터를 하나 이상 지정합니다.|-   [방법: Windows 카운터 데이터 수집](../profiling/how-to-collect-windows-counter-data.md)|  
-|**고급** 페이지에서, 애플리케이션 모듈이 여러 버전을 사용하는 경우 프로파일링할 .NET Framework 런타임의 버전을 지정합니다. 기본적으로 첫 번째 로드된 버전이 프로파일링됩니다.|-   [방법:.NET Framework 런타임 지정](../profiling/how-to-specify-the-dotnet-framework-runtime.md)|  
+|**고급** 페이지에서, 애플리케이션 모듈이 여러 버전을 사용하는 경우 프로파일링할 .NET Framework 런타임의 버전을 지정합니다. 기본적으로 첫 번째 로드된 버전이 프로파일링됩니다.|-   [방법: .NET Framework 런타임 지정](../profiling/how-to-specify-the-dotnet-framework-runtime.md)|  
   
 ## <a name="instrumentation-tasks"></a>계측 작업  
  다음 표의 작업은 계측 방법을 사용하여 프로파일링과 관련된 **속성 페이지** 대화 상자의 옵션입니다.  

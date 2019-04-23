@@ -10,12 +10,12 @@ ms.assetid: 5a3600a1-dc20-4e55-b2a4-809736a6ae65
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: b1f39297c4e87b7d4801b786ca2132acaf366fd3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 71b26fc2d26e180af25919dde5d3c4ee1bc1f891
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985991"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113120"
 ---
 # <a name="attaching-after-a-launch"></a>시작 후 연결
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,9 +25,9 @@ ms.locfileid: "58985991"
 ## <a name="design-decisions"></a>디자인 결정  
  통신 공유 되는 주소 공간 내에서 쉽게 이기 때문에 디버그 세션 사이 DE, 또는 DE와 프로그램 간의 통신을 용이 하 게 더 적합 한지 결정 해야 합니다. 다음 중에서 선택 합니다.  
   
--   디버그 세션을 DE 사이의 의사 소통을 촉진 하는 것에 있도록 하는 경우 다음 디버그 세션 공동는 DE 만들고 프로그램에 연결 하는 DE 요청 합니다. 이런 디버그 세션 및 DE 함께 주소 공간 및 런타임 환경과 프로그램에서 다른 함께 있습니다.  
+- 디버그 세션을 DE 사이의 의사 소통을 촉진 하는 것에 있도록 하는 경우 다음 디버그 세션 공동는 DE 만들고 프로그램에 연결 하는 DE 요청 합니다. 이런 디버그 세션 및 DE 함께 주소 공간 및 런타임 환경과 프로그램에서 다른 함께 있습니다.  
   
--   하는 경우는 DE와 프로그램 간의 의사 소통을 촉진 하는 것, 그런 다음 런타임 환경 공동 만듭니다는 DE. 이런 주소 공간에서 SDM DE, 런타임 환경 및 프로그램 다른 함께 있습니다. 스크립트 언어를 실행 하려면 인터프리터를 사용 하 여 구현 되는 DE 일반적입니다.  
+- 하는 경우는 DE와 프로그램 간의 의사 소통을 촉진 하는 것, 그런 다음 런타임 환경 공동 만듭니다는 DE. 이런 주소 공간에서 SDM DE, 런타임 환경 및 프로그램 다른 함께 있습니다. 스크립트 언어를 실행 하려면 인터프리터를 사용 하 여 구현 되는 DE 일반적입니다.  
   
     > [!NOTE]
     >  DE 프로그램에 연결 하는 방법을 하는 것은 구현에 따라 다릅니다. DE와 프로그램 간의 통신 구현에 따라 다릅니다 이기도합니다.  

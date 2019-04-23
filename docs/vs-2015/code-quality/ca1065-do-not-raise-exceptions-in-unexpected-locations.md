@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 08c91b7a1f649340c3b0c9bece6b8b1b94c74324
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6c5a393c32d7f7182fc3226689e24d20a4cae1ac
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982110"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60095355"
 ---
 # <a name="ca1065-do-not-raise-exceptions-in-unexpected-locations"></a>CA1065: 예기치 않은 위치에서 예외를 발생시키지 마십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,24 +65,24 @@ ms.locfileid: "58982110"
 
  다음 예외는 속성 get 메서드에서 throw 될 수 있습니다.
 
--   <xref:System.InvalidOperationException?displayProperty=fullName> 및 모든 파생 버전 (포함 하 여 <xref:System.ObjectDisposedException?displayProperty=fullName>)
+- <xref:System.InvalidOperationException?displayProperty=fullName> 및 모든 파생 버전 (포함 하 여 <xref:System.ObjectDisposedException?displayProperty=fullName>)
 
--   <xref:System.NotSupportedException?displayProperty=fullName> 및 모든 파생 항목
+- <xref:System.NotSupportedException?displayProperty=fullName> 및 모든 파생 항목
 
--   <xref:System.ArgumentException?displayProperty=fullName> (에서만 get 인덱싱됨)
+- <xref:System.ArgumentException?displayProperty=fullName> (에서만 get 인덱싱됨)
 
--   <xref:System.Collections.Generic.KeyNotFoundException> (에서만 get 인덱싱됨)
+- <xref:System.Collections.Generic.KeyNotFoundException> (에서만 get 인덱싱됨)
 
 ### <a name="event-accessor-methods"></a>이벤트 접근자 메서드
  이벤트 접근자에는 예외를 throw 하지 않는 간단한 작업 이어야 합니다. 이벤트 추가 또는 이벤트 처리기를 제거 하려고 할 때 예외를 throw 하지 해야 합니다.
 
  다음 예외는 이벤트 접근자에서는에서 throw 될 수 있습니다.
 
--   <xref:System.InvalidOperationException?displayProperty=fullName> 및 모든 파생 버전 (포함 하 여 <xref:System.ObjectDisposedException?displayProperty=fullName>)
+- <xref:System.InvalidOperationException?displayProperty=fullName> 및 모든 파생 버전 (포함 하 여 <xref:System.ObjectDisposedException?displayProperty=fullName>)
 
--   <xref:System.NotSupportedException?displayProperty=fullName> 및 모든 파생 항목
+- <xref:System.NotSupportedException?displayProperty=fullName> 및 모든 파생 항목
 
--   <xref:System.ArgumentException> 와 파생 클래스
+- <xref:System.ArgumentException> 와 파생 클래스
 
 ### <a name="equals-methods"></a>Equals 메서드
  다음 **Equals** 메서드는 예외를 throw 하지 않아야 합니다.

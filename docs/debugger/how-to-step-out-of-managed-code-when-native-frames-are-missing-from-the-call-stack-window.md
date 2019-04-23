@@ -23,12 +23,12 @@ manager: jillfra
 ms.workload:
 - cplusplus
 - dotnet
-ms.openlocfilehash: 25021f0c3daffdaf59633fdb9bff0e2659f43d2e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.openlocfilehash: 1efe109741c306d45ce7f7749193f5b638b76949
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55043027"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112873"
 ---
 # <a name="how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window"></a>방법: 호출 스택 창에 네이티브 프레임이 없을 때 관리 코드에서 나가기
 
@@ -39,12 +39,12 @@ ms.locfileid: "55043027"
 
 ## <a name="step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-display"></a>네이티브 프레임이 호출 스택 화면에서 없어질 경우 관리 코드의 프로시저 나가기
 
-1.  네이티브 코드에서 호출 후의 위치 중단점을 관리 코드로 설정합니다.
+1. 네이티브 코드에서 호출 후의 위치 중단점을 관리 코드로 설정합니다.
 
-2.  **디버그** 메뉴에서 **계속**을 선택합니다.
+2. **디버그** 메뉴에서 **계속**을 선택합니다.
 
      관리되는 호출이 완료되면 네이티브 코드의 중단점에서 실행이 중지됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [방법: 호출 스택 창 사용](../debugger/how-to-use-the-call-stack-window.md)

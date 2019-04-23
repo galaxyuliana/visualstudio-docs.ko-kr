@@ -6,12 +6,12 @@ ms.assetid: 0234109b-5dcb-4d9d-acb9-a63f8bd5699c
 caps.latest.revision: 5
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: d67b80feb38e6f1c00c6cf4d1fc1d7915a33dbd9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 33d3094c599ddc8cb472bd6defa211f57e85e84f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985798"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112834"
 ---
 # <a name="manifest-from-resources"></a>Manifest from Resources
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,25 +43,25 @@ ms.locfileid: "58985798"
   
  **예제**  
   
--   ManifestFromResources /resources:D:\Images                       /assembly:My.Assembly.Name                       /isNative  
+- ManifestFromResources /resources:D:\Images                       /assembly:My.Assembly.Name                       /isNative  
   
--   ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /manifest:MyImageManifest.imagemanifest  
+- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /manifest:MyImageManifest.imagemanifest  
   
--   ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml /assembly:My.Assembly.Name /guidName:MyImages /newGuids /newIds  
+- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml /assembly:My.Assembly.Name /guidName:MyImages /newGuids /newIds  
   
 ## <a name="notes"></a>노트  
   
--   이 도구는만.png 및.xaml 파일을 지원합니다. 다른 이미지 또는 파일 형식이 무시 됩니다. 리소스 구문 분석 하는 동안 발생 하는 모든 지원 되지 않는 형식에 대 한 경고가 생성 됩니다. 도구가 완료 되 면 이미지 발견 되는 경우를 지원 하지 않습니다 리소스 구문 분석 오류가 생성 됩니다  
+- 이 도구는만.png 및.xaml 파일을 지원합니다. 다른 이미지 또는 파일 형식이 무시 됩니다. 리소스 구문 분석 하는 동안 발생 하는 모든 지원 되지 않는 형식에 대 한 경고가 생성 됩니다. 도구가 완료 되 면 이미지 발견 되는 경우를 지원 하지 않습니다 리소스 구문 분석 오류가 생성 됩니다  
   
--   .Png 이미지에 대 한 제안 된 형식에 따라 도구는는.png 크기/차원 값 형식으로 지정 된 크기로 설정, 이미지의 실제 크기와 다른 경우에 합니다.  
+- .Png 이미지에 대 한 제안 된 형식에 따라 도구는는.png 크기/차원 값 형식으로 지정 된 크기로 설정, 이미지의 실제 크기와 다른 경우에 합니다.  
   
--   .Png 이미지 너비/높이 형식을 생략할 수 있습니다 하지만 도구는 이미지의 실제 너비/높이 읽고 이미지의 크기/차원 값에 대 한 역할을 사용 합니다.  
+- .Png 이미지 너비/높이 형식을 생략할 수 있습니다 하지만 도구는 이미지의 실제 너비/높이 읽고 이미지의 크기/차원 값에 대 한 역할을 사용 합니다.  
   
--   여러 번 동일한.imagemanifest에 동일한 이미지 스트립에서이 도구를 실행 도구를 독립 실행형 이미지를 이미지 스트립을 분할 하 고 기존 매니페스트를 추가 하려고 하기 때문에 중복 된 매니페스트 항목이 발생 합니다.  
+- 여러 번 동일한.imagemanifest에 동일한 이미지 스트립에서이 도구를 실행 도구를 독립 실행형 이미지를 이미지 스트립을 분할 하 고 기존 매니페스트를 추가 하려고 하기 때문에 중복 된 매니페스트 항목이 발생 합니다.  
   
--   도구에서 생성 된 매니페스트에 대 한 병합 (/newGuids 또는 /newIds 생략)만 수행 해야 합니다. 사용자 지정 또는 다른 수단을 통해 생성 된 매니페스트를 제대로 병합 될 수 있습니다.  
+- 도구에서 생성 된 매니페스트에 대 한 병합 (/newGuids 또는 /newIds 생략)만 수행 해야 합니다. 사용자 지정 또는 다른 수단을 통해 생성 된 매니페스트를 제대로 병합 될 수 있습니다.  
   
--   네이티브 어셈블리에 대 한 생성 된 매니페스트 리소스 네이티브 어셈블리의.rc 파일에서 Id와 일치 하는 ID 기호를 확인 하기 위해 생성 한 후 직접 편집할 수 해야 합니다.  
+- 네이티브 어셈블리에 대 한 생성 된 매니페스트 리소스 네이티브 어셈블리의.rc 파일에서 Id와 일치 하는 ID 기호를 확인 하기 위해 생성 한 후 직접 편집할 수 해야 합니다.  
   
 ## <a name="sample-output"></a>샘플 출력  
  **간단한 이미지 매니페스트**  

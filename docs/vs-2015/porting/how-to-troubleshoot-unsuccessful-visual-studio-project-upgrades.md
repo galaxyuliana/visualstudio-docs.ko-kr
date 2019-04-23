@@ -18,12 +18,12 @@ caps.latest.revision: 31
 author: kraigb
 ms.author: kraigb
 manager: jillfra
-ms.openlocfilehash: 7d5c30c9b61707f9ac4a32d49613b46416a8d881
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 194dae93e3a013da366d454582b531a2cc4ff8b6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54804265"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096337"
 ---
 # <a name="how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades"></a>방법: 실패 한 Visual Studio 프로젝트 업그레이드 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,11 +35,11 @@ ms.locfileid: "54804265"
 
 #### <a name="to-resolve-incorrect-file-paths"></a>잘못 된 파일 경로 확인 하려면
 
-1.  텍스트 편집기에서 프로젝트 파일을 엽니다.
+1. 텍스트 편집기에서 프로젝트 파일을 엽니다.
 
-2.  올바르지 않을 수 있는 파일 경로의 탐색, 특히 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 버전 번호를 포함하는 경로입니다.
+2. 올바르지 않을 수 있는 파일 경로의 탐색, 특히 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 버전 번호를 포함하는 경로입니다.
 
-3.  새 대상으로 가리키도록 잘못 된 파일 경로 수정 합니다.
+3. 새 대상으로 가리키도록 잘못 된 파일 경로 수정 합니다.
 
 ## <a name="the-project-does-not-build-because-references-are-not-valid"></a>참조가 유효 하지 않기 때문에 프로젝트를 빌드하지 않는
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 업그레이드 하는 경우 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]버전을 업그레이드할 수도 있습니다. 프로젝트에 최신 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전에서 중지된 참조가 포함되어 있는 경우 올바르게 해결할 수 없을 수 있습니다. 예를 들어, 버전 번호를 포함 하는 참조에 대 한 특히 될 `Microsoft.VisualStudio.Shell.Interop.8.0`합니다.

@@ -17,12 +17,12 @@ caps.latest.revision: 35
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2357993f6f0d814bc2383564cafe16bb2e21225a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 873f4735cd1be2525b8b009dc94787b4eed394ad
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54762437"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60095745"
 ---
 # <a name="how-to-attach-and-detach-performance-tools-to-running-processes"></a>방법: 실행 중인 프로세스에 성능 도구 연결 및 분리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "54762437"
   
 ### <a name="to-attach-to-a-running-process"></a>실행 중인 프로세스에 연결하려면  
   
-1.  **분석** 메뉴에서 **프로파일러**를 가리키고 **연결/분리**를 클릭합니다.  
+1. **분석** 메뉴에서 **프로파일러**를 가리키고 **연결/분리**를 클릭합니다.  
   
      \- 또는 -  
   
@@ -52,13 +52,13 @@ ms.locfileid: "54762437"
   
      **프로세스에 프로파일러 연결** 대화 상자가 나타납니다.  
   
-2.  연결할 프로세스의 이름을 클릭합니다.  
+2. 연결할 프로세스의 이름을 클릭합니다.  
   
-3.  **연결**을 클릭합니다.  
+3. **연결**을 클릭합니다.  
   
 ### <a name="to-detach-from-a-running-process"></a>실행 중인 프로세스에서 분리하려면  
   
-1.  **분석** 메뉴에서 **프로파일러**를 가리키고 **연결/분리**를 클릭합니다.  
+1. **분석** 메뉴에서 **프로파일러**를 가리키고 **연결/분리**를 클릭합니다.  
   
      \- 또는 -  
   
@@ -66,9 +66,9 @@ ms.locfileid: "54762437"
   
      **프로세스에 프로파일러 연결** 대화 상자가 나타납니다.  
   
-2.  분리할 이미지의 이름을 클릭합니다.  
+2. 분리할 이미지의 이름을 클릭합니다.  
   
-3.  **분리**를 클릭합니다.  
+3. **분리**를 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [데이터 수집 제어](../profiling/controlling-data-collection.md)   

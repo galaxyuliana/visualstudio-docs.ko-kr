@@ -8,12 +8,12 @@ ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
 caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 10d0ada1ba86f57b9b40a40b6ffc560379d411dc
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 257c5944ee1939849c4163fef518abf513183998
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670097"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60095817"
 ---
 # <a name="colors-and-styling-for-visual-studio"></a>색 및 Visual Studio에 대 한 스타일 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -79,7 +79,7 @@ ms.locfileid: "59670097"
 
  **도구 > 옵션 대화 상자**
 
-##  <a name="BKMK_TheVSColorService"></a> VSColor Service
+## <a name="BKMK_TheVSColorService"></a> VSColor Service
  Visual Studio VSColor service 또는 셸 색 서비스 라고도 하는 환경 색 서비스를 제공 합니다. 이 서비스를 사용 하면 각 테마에 대 한 색을 포함 하는 집합 이름-값 색에 UI 요소의 색 값을 바인딩할 수 있습니다. 색이 자동으로 현재 사용자가 선택한 테마에 맞게 변경 되 고 UI 환경 색 서비스에 바인딩된 있도록는 통합 새 테마를 사용 하 여 이후 버전의 Visual Studio VSColor service 모든 UI 요소에 대해 사용 되어야 합니다.
 
 ### <a name="how-the-service-works"></a>서비스의 작동 방식
@@ -256,18 +256,18 @@ protected override void Dispose(bool disposing)
 }
 ```
 
-##  <a name="BKMK_ChoosingHighContrastColors"></a> 고대비 색 선택
+## <a name="BKMK_ChoosingHighContrastColors"></a> 고대비 색 선택
 
 ### <a name="overview"></a>개요
  Windows 보다 분명 화면에 표시 되는 요소, 배경, 텍스트 및 이미지의 색상 대비를 증가 시키는 여러 고대비 시스템 수준 테마를 사용 합니다. 내게 필요한 옵션의 이유로 반드시 사용자가 고대비 테마를 전환할 때 Visual Studio 인터페이스 요소 올바르게 응답 합니다.
 
  고대비 테마에 대 한 시스템 색의 일부만 사용할 수 있습니다. 시스템 색 이름을 선택할 때 다음 팁을 기억해 야 합니다.
 
-1.  **동일한 의미 체계 의미를 갖는 시스템 색 선택** 색 지정 되는 요소와 합니다. 예를 들어 창 내에서 텍스트에 대 한 고대비 색을 선택 하는 경우 WindowText 및 없습니다 ControlText를 사용 합니다.
+1. **동일한 의미 체계 의미를 갖는 시스템 색 선택** 색 지정 되는 요소와 합니다. 예를 들어 창 내에서 텍스트에 대 한 고대비 색을 선택 하는 경우 WindowText 및 없습니다 ControlText를 사용 합니다.
 
-2.  **전경/배경 쌍 선택** 함께 또는 색 선택한 모든 고대비 테마에서 작동 하는지 확신할 수 없습니다.
+2. **전경/배경 쌍 선택** 함께 또는 색 선택한 모든 고대비 테마에서 작동 하는지 확신할 수 없습니다.
 
-3.  **가장 중요 한 UI 부분 확인 하 고 콘텐츠 영역 차별화를 확인 합니다.** 다른 콘텐츠 영역에 대 한 색상 변형이 있습니다 때문에 강력한 테두리 색을 사용 하 여 콘텐츠 영역을 정의 하는 공용 이므로 한 색상의 미묘한 차이, 일반적으로 구분 하는 세부 정보가 손실 됩니다.
+3. **가장 중요 한 UI 부분 확인 하 고 콘텐츠 영역 차별화를 확인 합니다.** 다른 콘텐츠 영역에 대 한 색상 변형이 있습니다 때문에 강력한 테두리 색을 사용 하 여 콘텐츠 영역을 정의 하는 공용 이므로 한 색상의 미묘한 차이, 일반적으로 구분 하는 세부 정보가 손실 됩니다.
 
 ### <a name="system-color-set"></a>시스템 색 집합
  테이블에 [WPF 팀 블로그: SystemColors 참조](http://blogs.msdn.com/b/wpf/archive/2010/11/30/systemcolors-reference.aspx) 시스템 색 이름 및 각 테마에 표시 된 해당 색상의 전체 집합을 나타냅니다.
@@ -323,7 +323,7 @@ protected override void Dispose(bool disposing)
 |WindowFrame|-IDE 테두리|
 |WindowText|-자동 숨기기 탭 전경<br />-선택한 도구 창 탭 전경<br />-포커스가 없는 문서 창의 탭 및 포커스 없음 또는 선택 취소-임시 탭 전경<br />-트리 보기 기본 전경 가리키기 선택 하지 않은 문자 위로<br />도구 창 선택된 된 탭 테두리<br />-Scrollbar의 thumb 배경, 테두리 및 문자 모양|
 
-##  <a name="BKMK_ExposingColorsForEndUsers"></a> 최종 사용자에 대 한 색을 노출합니다.
+## <a name="BKMK_ExposingColorsForEndUsers"></a> 최종 사용자에 대 한 색을 노출합니다.
 
 ### <a name="overview"></a>개요
  경우에 따라 최종 사용자가 코드 편집기 또는 디자인 화면을 만들 때와 같은 UI를 사용자 지정할 수 있도록 해야 합니다. 이 작업을 수행 하는 가장 일반적인 방법은 사용 하는 것은 **도구 > 옵션** 대화 합니다. 통해 사용자 지정을 제공 하는 가장 쉬운 방법은 특수 한 컨트롤을 필요로 하는 UI 매우 특수화 된 경우가 아니면 합니다 **글꼴 및 색** 내에서 페이지를 **환경** 섹션 대화 상자. 사용자 지정에 대 한 노출 하는 각 요소에 대해 사용자는 전경색, 배경색, 또는 둘 다를 변경 하도록 선택할 수 있습니다.
@@ -335,13 +335,13 @@ protected override void Dispose(bool disposing)
 
  VSPackage를 사용자 지정 범주를 구현 하거나 항목을 표시 하려면 다음을 해야 합니다.
 
--   **만들거나 레지스트리에서 범주를 식별 합니다.** IDE의 구현의 합니다 **글꼴 및 색** 속성 페이지에서이 정보를 사용 하 여 올바르게 지정된 된 범주를 지 원하는 서비스에 대 한 쿼리 합니다.
+- **만들거나 레지스트리에서 범주를 식별 합니다.** IDE의 구현의 합니다 **글꼴 및 색** 속성 페이지에서이 정보를 사용 하 여 올바르게 지정된 된 범주를 지 원하는 서비스에 대 한 쿼리 합니다.
 
--   **만들거나 레지스트리 (선택 사항)에서 그룹을 식별 합니다.** 두 개 이상 범주의 합집합을 나타내는 그룹을 정의 하면 유용할 수 있습니다. 그룹을 정의 하는 경우 IDE 자동으로 하위 범주를 병합 한이 그룹 내에서 표시 항목을 배포 합니다.
+- **만들거나 레지스트리 (선택 사항)에서 그룹을 식별 합니다.** 두 개 이상 범주의 합집합을 나타내는 그룹을 정의 하면 유용할 수 있습니다. 그룹을 정의 하는 경우 IDE 자동으로 하위 범주를 병합 한이 그룹 내에서 표시 항목을 배포 합니다.
 
--   **IDE 지원을 구현 합니다.**
+- **IDE 지원을 구현 합니다.**
 
--   **글꼴 및 색 변경 내용을 처리 합니다.**
+- **글꼴 및 색 변경 내용을 처리 합니다.**
 
 #### <a name="to-create-or-identify-categories"></a>만들거나 범주를 식별 합니다.
  특수 한 유형의 범주 아래에 레지스트리 항목 구성 [HKLM\SOFTWARE\Microsoft \Visual Studio\\< Visual Studio 버전\>\FontAndColors\\< 범주\>]. \<범주 > 범주의 지역화 되지 않은 이름입니다.
@@ -426,11 +426,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\FontAndColors\CSharp T
 
  **참고:**
 
--   "NameID" 패키지에서 지역화 된 범주 이름의 리소스 ID =
+- "NameID" 패키지에서 지역화 된 범주 이름의 리소스 ID =
 
--   "ToolWindowPackage" = Package GUID
+- "ToolWindowPackage" = Package GUID
 
--   "Category" = "{9FF46859-A47E-47bf-8AC5-EC3DBE69D1FE}"은 예 시일 뿐 이며 실제 값은 구현자에 의해 제공 되는 새 GUID를 수 있습니다.
+- "Category" = "{9FF46859-A47E-47bf-8AC5-EC3DBE69D1FE}"은 예 시일 뿐 이며 실제 값은 구현자에 의해 제공 되는 새 GUID를 수 있습니다.
 
 ### <a name="set-the-font-and-color-property-category-guid"></a>글꼴 및 색 속성 범주의 GUID를 설정 합니다.
  아래 코드 예제에서는 범주 Guid를 설정 하는 방법을 보여 줍니다.

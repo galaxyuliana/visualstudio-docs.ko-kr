@@ -9,12 +9,12 @@ caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c9bc74cbd0d7fbcfec26f4bfe3f334623baf066b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: e0bbf15c82f62ad61e538f48cec065a9ef806ad4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653738"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113614"
 ---
 # <a name="how-to-instrument-a-net-framework-service-and-collect-memory-data-by-using-the-profiler-command-line"></a>방법: .NET Framework 서비스 계측 및 Profiler 명령줄을 사용 하 여 수집 메모리 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "59653738"
 
     **VSPerfClrEnv** {**/globaltracegc** &#124; **/globaltracegclife**}  
 
-   -   **/globaltracegc** 및 **/globaltracegclife**는 메모리 할당 및 개체 수명 데이터의 수집을 활성화합니다.  
+   - **/globaltracegc** 및 **/globaltracegclife**는 메모리 할당 및 개체 수명 데이터의 수집을 활성화합니다.  
 
        |옵션|설명|  
        |------------|-----------------|  
@@ -91,14 +91,14 @@ ms.locfileid: "59653738"
 
      **VSPerfCmd /attach:** `PID`&#124;`ProcessName`  
 
-    -   서비스의 프로세스 ID 또는 프로세스 이름을 지정합니다. Windows 작업 관리자에서 실행 중인 모든 프로세스의 프로세스 ID와 이름을 볼 수 있습니다.  
+    - 서비스의 프로세스 ID 또는 프로세스 이름을 지정합니다. Windows 작업 관리자에서 실행 중인 모든 프로세스의 프로세스 ID와 이름을 볼 수 있습니다.  
 
 ## <a name="controlling-data-collection"></a>데이터 컬렉션 제어  
  서비스가 실행되는 동안 **VSPerfCmd.exe** 옵션을 사용하여 파일에 대한 데이터 쓰기를 시작하고 중지함으로써 데이터 수집을 제어할 수 있습니다. 데이터 수집을 제어하면 애플리케이션의 시작 또는 종료와 같이 프로그램 실행의 특정 부분에 대한 데이터를 수집할 수 있습니다.  
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면  
 
--   **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
+- **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
 
     |옵션|설명|  
     |------------|-----------------|  
@@ -111,19 +111,19 @@ ms.locfileid: "59653738"
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면  
 
-1.  서비스 제어 관리자에서 서비스를 중지합니다.  
+1. 서비스 제어 관리자에서 서비스를 중지합니다.  
 
-2.  프로파일러를 종료합니다. 유형:  
+2. 프로파일러를 종료합니다. 유형:  
 
      **VSPerfCmd /shutdown**  
 
-3.  모든 프로파일링이 완료되면 프로파일링 환경 변수를 지웁니다. 유형:  
+3. 모든 프로파일링이 완료되면 프로파일링 환경 변수를 지웁니다. 유형:  
 
      **VSPerfClrEnv /globaloff**  
 
      계측된 모듈을 원본으로 바꿉니다. 필요한 경우 서비스의 시작 유형을 다시 구성합니다.  
 
-4.  컴퓨터를 다시 시작합니다.  
+4. 컴퓨터를 다시 시작합니다.  
 
 ## <a name="see-also"></a>참고 항목  
  [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)   

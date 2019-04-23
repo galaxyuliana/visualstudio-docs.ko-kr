@@ -14,12 +14,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b3ae815bb0f9a11b19c711a3a860f8734701cc39
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 3fc21eb85c46d74fabc777147b14575babd9be8b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54775829"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113016"
 ---
 # <a name="keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer"></a>클래스 다이어그램 및 클래스 세부 내용 창의 키보드 및 마우스 바로 가기(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,15 +28,15 @@ ms.locfileid: "54775829"
   
  **항목 내용**  
   
--   [클래스 디자이너에서 마우스 사용](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDesigner)  
+- [클래스 디자이너에서 마우스 사용](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDesigner)  
   
--   [클래스 세부 내용 창에서 마우스 사용](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDetails)  
+- [클래스 세부 내용 창에서 마우스 사용](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#MouseClassDetails)  
   
--   [클래스 디자이너에서 키보드 사용](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDesigner)  
+- [클래스 디자이너에서 키보드 사용](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDesigner)  
   
--   [클래스 세부 내용 창에서 키보드 사용](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDetails)  
+- [클래스 세부 내용 창에서 키보드 사용](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md#KeyboardClassDetails)  
   
-##  <a name="MouseClassDesigner"></a> 클래스 디자이너에서 마우스 사용  
+## <a name="MouseClassDesigner"></a> 클래스 디자이너에서 마우스 사용  
  클래스 다이어그램에서는 다음과 같은 마우스 동작이 지원됩니다.  
   
 |마우스 조합|컨텍스트|설명|  
@@ -49,23 +49,23 @@ ms.locfileid: "54775829"
 |Ctrl+마우스 휠|클래스 다이어그램|확대/축소합니다.|  
 |Ctrl+Shift+클릭|클래스 다이어그램|확대/축소합니다.|  
   
-##  <a name="MouseClassDetails"></a> 클래스 세부 내용 창에서 마우스 사용  
+## <a name="MouseClassDetails"></a> 클래스 세부 내용 창에서 마우스 사용  
  마우스를 사용하여 클래스 세부 내용 창 및 창에 표시되는 데이터의 모양을 다음과 같은 방법으로 변경할 수 있습니다.  
   
--   편집 가능한 셀을 클릭하면 해당 셀의 내용을 편집할 수 있습니다. 속성 창과 소스 코드를 포함하여 데이터가 저장되어 있거나 표시되는 모든 위치에서 변경 내용이 반영됩니다.  
+- 편집 가능한 셀을 클릭하면 해당 셀의 내용을 편집할 수 있습니다. 속성 창과 소스 코드를 포함하여 데이터가 저장되어 있거나 표시되는 모든 위치에서 변경 내용이 반영됩니다.  
   
--   행의 셀을 클릭하면 해당 행이 나타내는 요소의 속성이 속성 창에 표시됩니다.  
+- 행의 셀을 클릭하면 해당 행이 나타내는 요소의 속성이 속성 창에 표시됩니다.  
   
--   열 너비를 변경하려면 열이 원하는 너비가 될 때까지 열 머리글의 오른쪽 경계선을 끕니다.  
+- 열 너비를 변경하려면 열이 원하는 너비가 될 때까지 열 머리글의 오른쪽 경계선을 끕니다.  
   
--   행 왼쪽에 있는 화살표 기호를 클릭하여 구획 또는 속성 노드를 확장하거나 축소할 수 있습니다.  
+- 행 왼쪽에 있는 화살표 기호를 클릭하여 구획 또는 속성 노드를 확장하거나 축소할 수 있습니다.  
   
--   클래스 세부 내용 창에서는 현재 클래스에 새 멤버를 만들고 클래스 세부 내용 창 그리드에서 멤버 구획을 탐색하기 위한 여러 단추를 제공합니다. 자세한 내용은 클래스 세부 내용 창 단추를 참조하세요.  
+- 클래스 세부 내용 창에서는 현재 클래스에 새 멤버를 만들고 클래스 세부 내용 창 그리드에서 멤버 구획을 탐색하기 위한 여러 단추를 제공합니다. 자세한 내용은 클래스 세부 내용 창 단추를 참조하세요.  
   
-##  <a name="KeyboardClassDesigner"></a> 클래스 디자이너에서 키보드 사용  
+## <a name="KeyboardClassDesigner"></a> 클래스 디자이너에서 키보드 사용  
  클래스 다이어그램에서는 다음과 같은 키보드 동작이 지원됩니다.  
   
-|Key|컨텍스트|설명|  
+|키|컨텍스트|설명|  
 |---------|-------------|-----------------|  
 |화살표 키|내부 형식 모양|모양 내용에 대한 트리 스타일 탐색(모양을 둘러싼 래핑이 지원됨) 왼쪽 및 오른쪽 키는 확장 가능한 경우 현재 항목을 확장/축소하고, 그렇지 않은 경우 부모로 이동합니다(자세한 동작은 트리 뷰 탐색 참조).|  
 ||최상위 모양|다이어그램에서 모양 이동|  
@@ -89,7 +89,7 @@ ms.locfileid: "54775829"
 |Shift+Tab|모든 컨텍스트|동일한 부모 내의 이전 자식으로 이동합니다(래핑 지원).|  
 |스페이스바|모든 컨텍스트|현재 요소에 대한 선택을 설정/해제합니다.|  
   
-##  <a name="KeyboardClassDetails"></a> 클래스 세부 내용 창에서 키보드 사용  
+## <a name="KeyboardClassDetails"></a> 클래스 세부 내용 창에서 키보드 사용  
   
 > [!NOTE]
 >  다음 키 바인딩은 코드 입력 환경을 모방하기 위해 특별히 선택되었습니다.  

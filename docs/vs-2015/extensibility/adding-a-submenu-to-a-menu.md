@@ -13,12 +13,12 @@ ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
 caps.latest.revision: 44
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: d90aecf98bf09d9d4312e28d1bdca055cf9792a3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f458d46395c3a902e62ba5dd4ac7d624c326700c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981702"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096467"
 ---
 # <a name="adding-a-submenu-to-a-menu"></a>메뉴에 하위 메뉴 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,9 +34,9 @@ ms.locfileid: "58981702"
   
 ## <a name="adding-a-submenu-to-a-menu"></a>메뉴에 하위 메뉴 추가  
   
-1.  단계를 따릅니다 [Visual Studio 메뉴 모음에 메뉴 추가](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) 프로젝트 및 메뉴 항목을 만듭니다. 이 연습의 단계 VSIX 프로젝트 이름은 가정 `TopLevelMenu`합니다.  
+1. 단계를 따릅니다 [Visual Studio 메뉴 모음에 메뉴 추가](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) 프로젝트 및 메뉴 항목을 만듭니다. 이 연습의 단계 VSIX 프로젝트 이름은 가정 `TopLevelMenu`합니다.  
   
-2.  TestCommandPackage.vsct를 엽니다. 에 `<Symbols>` 섹션에서 추가 `<IDSymbol>` 하위 그룹 및의 모든 명령에 대 한 하위 메뉴에 대 한 요소는 `<GuidSymbol>` "guidTopLevelMenuCmdSet." 라는 노드 이 포함 하는 동일한 노드에 `<IDSymbol>` 최상위 메뉴에 대 한 요소입니다.  
+2. TestCommandPackage.vsct를 엽니다. 에 `<Symbols>` 섹션에서 추가 `<IDSymbol>` 하위 그룹 및의 모든 명령에 대 한 하위 메뉴에 대 한 요소는 `<GuidSymbol>` "guidTopLevelMenuCmdSet." 라는 노드 이 포함 하는 동일한 노드에 `<IDSymbol>` 최상위 메뉴에 대 한 요소입니다.  
   
     ```xml  
     <IDSymbol name="SubMenu" value="0x1100"/>  
@@ -44,7 +44,7 @@ ms.locfileid: "58981702"
     <IDSymbol name="cmdidTestSubCommand" value="0x0105"/>  
     ```  
   
-3.  새로 만든된 하위 메뉴를 추가 합니다 `<Menus>` 섹션입니다.  
+3. 새로 만든된 하위 메뉴를 추가 합니다 `<Menus>` 섹션입니다.  
   
     ```xml  
     <Menu guid="guidTestCommandPackageCmdSet" id="SubMenu" priority="0x0100" type="Menu">  
@@ -58,7 +58,7 @@ ms.locfileid: "58981702"
   
      부모의 GUID/ID 쌍에서 생성 된 메뉴 그룹을 지정 합니다. [Visual Studio 메뉴 모음에 메뉴 추가](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md), 및이 최상위 메뉴의 자식입니다.  
   
-4.  2 단계에서 정의 된 메뉴 그룹 추가 `<Groups>` 섹션 및 하위 메뉴의 자식으로 만듭니다.  
+4. 2 단계에서 정의 된 메뉴 그룹 추가 `<Groups>` 섹션 및 하위 메뉴의 자식으로 만듭니다.  
   
     ```xml  
     <Group guid="guidTestCommandPackageCmdSet" id="SubMenuGroup" priority="0x0000">  
@@ -66,7 +66,7 @@ ms.locfileid: "58981702"
     </Group>  
     ```  
   
-5.  새 `<Button>` 요소는 `<Buttons>` 하위 메뉴 항목으로 2 단계에서 만든 명령을 정의 하는 섹션입니다.  
+5. 새 `<Button>` 요소는 `<Buttons>` 하위 메뉴 항목으로 2 단계에서 만든 명령을 정의 하는 섹션입니다.  
   
     ```xml  
     <Button guid="guidTestCommandPackageCmdSet" id="cmdidTestSubCommand" priority="0x0000" type="Button">  
@@ -79,19 +79,19 @@ ms.locfileid: "58981702"
     </Button>  
     ```  
   
-6.  솔루션을 빌드하고 디버깅을 시작합니다. 실험적 인스턴스를 확인 해야 합니다.  
+6. 솔루션을 빌드하고 디버깅을 시작합니다. 실험적 인스턴스를 확인 해야 합니다.  
   
-7.  클릭 **TestMenu** 라는 새 하위 메뉴를 보려면 **하위 메뉴**합니다. 클릭 **하위 메뉴** 하위 메뉴를 열고 새 명령 참조 **테스트 하위 명령**입니다. 클릭 하면 **하위 명령** 아무 작업도 수행 합니다.  
+7. 클릭 **TestMenu** 라는 새 하위 메뉴를 보려면 **하위 메뉴**합니다. 클릭 **하위 메뉴** 하위 메뉴를 열고 새 명령 참조 **테스트 하위 명령**입니다. 클릭 하면 **하위 명령** 아무 작업도 수행 합니다.  
   
 ## <a name="adding-a-command"></a>명령 추가  
   
-1.  TestCommand.cs를 열고 기존 명령 id입니다. 후 다음 명령 ID를 추가 합니다.  
+1. TestCommand.cs를 열고 기존 명령 id입니다. 후 다음 명령 ID를 추가 합니다.  
   
     ```csharp  
     public const int cmdidTestSubCmd = 0x105;  
     ```  
   
-2.  하위 명령을 추가 합니다. 명령 생성자를 찾습니다. 에 대 한 호출 바로 뒤에 다음 줄을 추가 합니다 `AddCommand` 메서드.  
+2. 하위 명령을 추가 합니다. 명령 생성자를 찾습니다. 에 대 한 호출 바로 뒤에 다음 줄을 추가 합니다 `AddCommand` 메서드.  
   
     ```csharp  
     CommandID subCommandID = new CommandID(CommandSet, (int)TestCommandPackageGuids.cmdidTestSubCmd);  
@@ -126,7 +126,7 @@ ms.locfileid: "58981702"
                 }  
     ```  
   
-3.  SubItemCallback()를 추가 합니다. 이 방법은 하위 메뉴에 새 명령을 클릭할 때 호출 됩니다.  
+3. SubItemCallback()를 추가 합니다. 이 방법은 하위 메뉴에 새 명령을 클릭할 때 호출 됩니다.  
   
     ```csharp  
     private void SubItemCallback(object sender, EventArgs e)  
@@ -152,9 +152,9 @@ ms.locfileid: "58981702"
     }  
     ```  
   
-4.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스에서 표시 됩니다.  
+4. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스에서 표시 됩니다.  
   
-5.  에 **TestMenu** 메뉴에서 클릭 **하위 메뉴** 을 클릭 한 다음 **테스트 하위 명령**합니다. 메시지 상자를 표시 하 고 "테스트 명령 내에서 TestCommand.SubItemCallback()" 텍스트를 표시 해야 합니다.  
+5. 에 **TestMenu** 메뉴에서 클릭 **하위 메뉴** 을 클릭 한 다음 **테스트 하위 명령**합니다. 메시지 상자를 표시 하 고 "테스트 명령 내에서 TestCommand.SubItemCallback()" 텍스트를 표시 해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 메뉴 모음에 메뉴 추가](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)   
