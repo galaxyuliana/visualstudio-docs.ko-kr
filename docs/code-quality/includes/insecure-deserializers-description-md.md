@@ -4,10 +4,10 @@ ms.author: paulming
 ms.date: 04/05/2019
 ms.topic: include
 ms.openlocfilehash: 43327901b2233b9b2818296f9269975d8524438b
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59367271"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60118158"
 ---
 안전 하지 않은 deserializers는 신뢰할 수 없는 데이터를 역직렬화 하는 동안에 취약 합니다. 공격자는 악의적인 의도 사용 하 여 예기치 않은 형식이 serialize 된 데이터를 수정할 수 있습니다. 안전 하지 않은 역직렬 변환기가 공격 수, 예를 들어, 기본 운영 체제에서 명령을 실행, 네트워크를 통해 통신 또는 파일을 삭제 합니다.

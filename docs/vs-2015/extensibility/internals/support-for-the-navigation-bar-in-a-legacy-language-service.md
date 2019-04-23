@@ -11,12 +11,12 @@ ms.assetid: 2d301ee6-4523-4b82-aedb-be43f352978e
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 714e4a24ae6dc2c345b97bbd6e080b0c987f65f7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6cef18951a6ac5494f74c150c4251bafd9597686
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983254"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117943"
 ---
 # <a name="support-for-the-navigation-bar-in-a-legacy-language-service"></a>레거시 언어 서비스의 탐색 모음 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -70,24 +70,24 @@ namespace TestLanguagePackage
   
   구현 된 <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> 메서드는 일반적으로 다음 단계를 수행 합니다.  
   
-1.  소스 파일에 대 한 현재 선언의 목록을 가져옵니다.  
+1. 소스 파일에 대 한 현재 선언의 목록을 가져옵니다.  
   
      목록을 채우는 방법의 여러 가지가 있습니다. 버전에는 사용자 지정 메서드를 만드는 한 가지 방법은 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService> 를 호출 하는 클래스는 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 모든 선언의 목록을 반환 하는 사용자 지정 구문 분석 이유를 사용 하 여 메서드. 또 다른 방법은 호출할 수 있습니다는 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 에서 직접 메서드는 <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> 메서드를 사용자 지정 구문 분석 합니다. 세 번째 접근법의 선언에 캐시할 수 있습니다 합니다 <xref:Microsoft.VisualStudio.Package.AuthoringScope> 의 마지막 전체 구문 분석 작업에서 반환 하는 클래스를 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스는 검색 및는 <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> 메서드.  
   
-2.  채우거 나 형식의 목록을 업데이트 합니다.  
+2. 채우거 나 형식의 목록을 업데이트 합니다.  
   
      형식 목록의 콘텐츠는 소스가 변경 된 경우 또는 현재 캐럿 위치에 따라 형식의 텍스트 스타일을 변경 하려면 선택한 경우 업데이트할 수 있습니다. 이 위치에 전달 되는 참고를 <xref:Microsoft.VisualStudio.Package.TypeAndMemberDropdownBars.OnSynchronizeDropdowns%2A> 메서드.  
   
-3.  현재 캐럿 위치에 따라 형식 목록에서 선택 유형을 결정 합니다.  
+3. 현재 캐럿 위치에 따라 형식 목록에서 선택 유형을 결정 합니다.  
   
      현재 캐럿 위치를 포함 하는 형식을 찾기 위해 1 단계에서 얻은 선언의 검색 하 고 형식 목록에 해당 항목이 있는 인덱스를 확인 하려면 해당 형식에 대 한 형식 목록을 검색 합니다.  
   
-4.  채우거 나 선택한 형식을 기반으로 멤버의 목록을 업데이트 합니다.  
+4. 채우거 나 선택한 형식을 기반으로 멤버의 목록을 업데이트 합니다.  
   
      멤버 목록에 현재 표시 되는 항목을 반영 합니다 **멤버** 드롭 다운 합니다. 멤버 목록의 콘텐츠는 소스가 변경 된 경우 선택한 형식의 멤버만 표시 하는 경우 선택한 형식 변경 된 경우 업데이트 해야 합니다. 소스 파일의 모든 멤버를 표시 하려는 경우 목록의 각 멤버의 텍스트 스타일을 현재 선택한 형식의 변경 된 경우 업데이트 해야 합니다.  
   
-5.  현재 캐럿 위치에 따라 구성원 목록에서 선택한 멤버를 결정 합니다.  
+5. 현재 캐럿 위치에 따라 구성원 목록에서 선택한 멤버를 결정 합니다.  
   
      현재 캐럿 위치를 포함 하는 멤버에 대해 1 단계에서 얻은 선언을 검색 한 다음 멤버 목록에 해당 항목이 있는 인덱스를 확인 하려면 해당 멤버에 대 한 멤버 목록을 검색 합니다.  
   
-6.  반환 `true` 목록 또는 목록 중 하나를 선택 영역에 변경 내용을 적용 된 경우.
+6. 반환 `true` 목록 또는 목록 중 하나를 선택 영역에 변경 내용을 적용 된 경우.

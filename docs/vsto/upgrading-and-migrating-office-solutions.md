@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6a23cca7e0ae333b50c06e5e4b40e0a51d626f9b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c693b85eb7441749300181da8108dae353e91ad1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635711"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089375"
 ---
 # <a name="upgrade-and-migrate-office-solutions"></a>업그레이드 및 Office 솔루션 마이그레이션
   Microsoft Office 프로젝트를 이전 버전 Visual Studio에서 만든 경우 현재 버전의 Visual Studio에서 사용하려면 프로젝트를 업그레이드해야 합니다. Microsoft Office 프로젝트를 업그레이드하려면 Microsoft Office 개발자 도구가 포함된 Visual Studio 버전에서 프로젝트를 엽니다. Microsoft Office 개발자 도구가 포함 된 Visual Studio의 버전에 대 한 자세한 내용은 참조 하세요. [Office 솔루션을 개발 하도록 컴퓨터를 구성](../vsto/configuring-a-computer-to-develop-office-solutions.md)합니다.
@@ -35,22 +35,22 @@ ms.locfileid: "56635711"
 ## <a name="changes-to-upgraded-projects"></a>업그레이드 된 프로젝트 변경
  Microsoft Office 프로젝트를 업그레이드하면 Visual Studio에서는 다음 항목을 대상으로 지정하도록 프로젝트를 수정합니다.
 
--   Visual Studio 2010 Tools for Office 런타임입니다. 자세한 내용은 [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)합니다.
+- Visual Studio 2010 Tools for Office 런타임입니다. 자세한 내용은 [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)합니다.
 
--   현재 어셈블리 참조.
+- 현재 어셈블리 참조.
 
--   프로젝트 형식에서 지원되는 .NET Framework 버전(Visual Studio 2013으로만 업그레이드하는 경우)
+- 프로젝트 형식에서 지원되는 .NET Framework 버전(Visual Studio 2013으로만 업그레이드하는 경우)
 
--   프로젝트 형식에서 지원되는 Microsoft Office 버전(Visual Studio 2013으로만 업그레이드하는 경우)
+- 프로젝트 형식에서 지원되는 Microsoft Office 버전(Visual Studio 2013으로만 업그레이드하는 경우)
 
 ## <a name="assembly-references"></a>어셈블리 참조
  Visual Studio에서는 프로젝트에서 다음 어셈블리 참조를 업그레이드합니다.
 
--   Microsoft Office PIA(주 Interop 어셈블리)
+- Microsoft Office PIA(주 Interop 어셈블리)
 
--   [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]의 어셈블리. 이러한 어셈블리에 대 한 자세한 내용은 참조 하세요. [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)합니다.
+- [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]의 어셈블리. 이러한 어셈블리에 대 한 자세한 내용은 참조 하세요. [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)합니다.
 
--   종속 어셈블리의 새 버전 또는 업데이트 버전.
+- 종속 어셈블리의 새 버전 또는 업데이트 버전.
 
 ## <a name="targeted-net-framework"></a>대상 .NET Framework
  프로젝트를 Visual Studio 2013으로 업그레이드하는 경우 Visual Studio에서 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] 또는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]를 대상으로 하도록 프로젝트를 수정합니다. 프로젝트 대상으로 지정된 .NET Framework 버전은 컴퓨터에 설치된 Office 버전에 따라 다릅니다. [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 이(가) 설치되어 있으면 Visual Studio에서는 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]을(를) 대상으로 지정하도록 프로젝트를 수정합니다. 이외의 경우에는 Visual Studio에서는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]을(를) 대상으로 지정하도록 프로젝트를 수정합니다.

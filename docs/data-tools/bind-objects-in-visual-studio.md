@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: f35aaf5b36da2bf40420bd4461f7d2fa880575e4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 4fb5a8c7a54871c7d948a458768c5551dbb5d550
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937502"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091761"
 ---
 # <a name="bind-objects-as-data-sources-in-visual-studio"></a>Visual Studio에서 데이터 원본으로 개체 바인딩
 
@@ -40,25 +40,25 @@ Visual Studio의 디자인 도구는 데이터로 작업 하는 사용자 지정
 
 데이터 원본으로 개체를 사용 하 여 작업 하는 경우 응용 프로그램 논리를 구현 하는 수많은 방법 있기는 SQL에 대 한 데이터베이스에 있는 경우 몇 가지 표준 작업을 Visual Studio에서 생성 된 TableAdapter 개체를 사용 하 여 단순화할 수 있습니다. 이 페이지에서는 Tableadapter를 사용 하 여 이러한 표준 프로세스를 구현 하는 방법을 설명 합니다. 것은 아닙니다 가이드로 사용자 지정 개체 만들기에 대 한 합니다. 예를 들어, 개체 또는 응용 프로그램 논리의 특정 구현에 관계 없이 다음 표준 작업은 일반적으로 수행 합니다.
 
--   일반적으로 데이터베이스의 개체에 데이터를 로드 합니다.
+- 일반적으로 데이터베이스의 개체에 데이터를 로드 합니다.
 
--   형식화 된 개체의 컬렉션을 만드는 중입니다.
+- 형식화 된 개체의 컬렉션을 만드는 중입니다.
 
--   개체를 추가 하 고 컬렉션에서 개체를 제거 합니다.
+- 개체를 추가 하 고 컬렉션에서 개체를 제거 합니다.
 
--   폼에서 사용자에 게 개체 데이터를 표시 합니다.
+- 폼에서 사용자에 게 개체 데이터를 표시 합니다.
 
--   개체에서 데이터 변경/편집 합니다.
+- 개체에서 데이터 변경/편집 합니다.
 
--   데이터베이스에 다시 개체에서 데이터를 저장합니다.
+- 데이터베이스에 다시 개체에서 데이터를 저장합니다.
 
 ### <a name="load-data-into-objects"></a>개체에 데이터 로드
 
 예를 들어 Tableadapter를 사용 하 여 개체에 데이터를 로드 합니다. Tableadapter는 기본적으로 두 가지는 데이터베이스에서 데이터를 인출 하 고 데이터 테이블 채우는 메서드를 사용 하 여 생성 됩니다.
 
--   `TableAdapter.Fill` 메서드는 반환 되는 데이터를 사용 하 여 기존 데이터 테이블을 채웁니다.
+- `TableAdapter.Fill` 메서드는 반환 되는 데이터를 사용 하 여 기존 데이터 테이블을 채웁니다.
 
--   `TableAdapter.GetData` 메서드는 데이터로 채워진 새 데이터 테이블을 반환 합니다.
+- `TableAdapter.GetData` 메서드는 데이터로 채워진 새 데이터 테이블을 반환 합니다.
 
 호출 하는 가장 쉬운 방법은 데이터를 사용 하 여 사용자 지정 개체를 로드 하는 것은 `TableAdapter.GetData` 메서드, 반환 된 데이터 테이블에 있는 행의 컬렉션을 반복 하 고 각 행의 값을 사용 하 여 각 개체를 채웁니다. 만들 수는 `GetData` TableAdapter에 추가 하는 모든 쿼리에 대해 채워진된 데이터 테이블을 반환 하는 메서드입니다.
 
@@ -147,6 +147,6 @@ Visual Studio 데이터베이스에 대해 직접 실행할 수 있는 DBDirect 
 [!code-csharp[VbRaddataSaving#23](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_6.cs)]
 [!code-vb[VbRaddataSaving#23](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_6.vb)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)

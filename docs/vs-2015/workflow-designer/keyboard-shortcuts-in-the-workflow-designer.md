@@ -11,12 +11,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 41774d09b72430aafc50794cd3d356baa4b565ab
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b1a03463d292fa1d4d980c62daa74b291d6a8cb1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986341"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117306"
 ---
 # <a name="keyboard-shortcuts-in-the-workflow-designer"></a>워크플로 디자이너의 바로 가기 키
 키보드를 사용하여 [!INCLUDE[wfd1](../includes/wfd1-md.md)]의 모든 핵심 기능에 액세스할 수 있습니다.  
@@ -54,13 +54,13 @@ ms.locfileid: "58986341"
   
 - 활동을 연결하려면  
   
-  1.  소스 활동으로 이동하여 해당 활동을 선택합니다.  
+  1. 소스 활동으로 이동하여 해당 활동을 선택합니다.  
   
-  2.  Ctrl+E, M을 여러 번 눌러 키보드 포커스를 대상 활동으로 옮깁니다.  
+  2. Ctrl+E, M을 여러 번 눌러 키보드 포커스를 대상 활동으로 옮깁니다.  
   
-  3.  Ctrl+E, S를 눌러 대상 활동을 선택 항목에 추가합니다.  
+  3. Ctrl+E, S를 눌러 대상 활동을 선택 항목에 추가합니다.  
   
-  4.  Ctrl+E, F를 눌러 소스의 커넥터를 대상에 추가합니다.  
+  4. Ctrl+E, F를 눌러 소스의 커넥터를 대상에 추가합니다.  
   
   키보드로 활동을 연결하는 방법에 대한 참고 사항은 다음과 같습니다.  
   
@@ -73,18 +73,18 @@ ms.locfileid: "58986341"
 ### <a name="expression-editing"></a>식 편집  
  기본적으로 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]의 식 편집기에는 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 텍스트 편집을 위한 기본 바로 가기 키가 적용되며 다음과 같은 제한 사항이 있습니다.  
   
--   다음 명령에 대한 바로 가기 키를 다시 매핑할 수 없습니다. 식을 편집할 때 이러한 명령에 액세스하기 위해서는 기본 바로 가기 키만 사용할 수 있습니다.  
+- 다음 명령에 대한 바로 가기 키를 다시 매핑할 수 없습니다. 식을 편집할 때 이러한 명령에 액세스하기 위해서는 기본 바로 가기 키만 사용할 수 있습니다.  
   
-    1.  잘라내기  
+    1. 잘라내기  
   
-    2.  복사  
+    2. 복사  
   
-    3.  붙여넣기  
+    3. 붙여넣기  
   
-    4.  모두 선택  
+    4. 모두 선택  
   
-    5.  실행 취소  
+    5. 실행 취소  
   
-    6.  다시 실행  
+    6. 다시 실행  
   
--   [!INCLUDE[wfd2](../includes/wfd2-md.md)]의 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 식 편집 명령에 대한 바로 가기 키를 다시 매핑하려면 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 범위에서 바로 가기를 편집합니다. 텍스트 편집기 범위에서 변경한 내용이 [!INCLUDE[wfd2](../includes/wfd2-md.md)]에 자동으로 적용되지는 않습니다. 따라서 양쪽 모두에서 바로 가기를 다시 매핑하려면 범위마다 한 번씩 변경을 두 번 적용해야 합니다.
+- [!INCLUDE[wfd2](../includes/wfd2-md.md)]의 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 식 편집 명령에 대한 바로 가기 키를 다시 매핑하려면 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 범위에서 바로 가기를 편집합니다. 텍스트 편집기 범위에서 변경한 내용이 [!INCLUDE[wfd2](../includes/wfd2-md.md)]에 자동으로 적용되지는 않습니다. 따라서 양쪽 모두에서 바로 가기를 다시 매핑하려면 범위마다 한 번씩 변경을 두 번 적용해야 합니다.

@@ -1,5 +1,5 @@
 ---
-title: '연습: 음영으로 인 한 오류를 렌더링 디버깅 | Microsoft Docs'
+title: '연습: 렌더링 음영으로 인 한 오류 디버깅 | Microsoft Docs'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 01875b05-cc7b-4add-afba-f2b776f86974
@@ -8,23 +8,23 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d2e70fb88a9dd3c51a5e280e1e778bd18220985f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 44e542bcbb801ee4035ba501b50bad81b53e8bdf
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56688370"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091332"
 ---
-# <a name="walkthrough-debugging-rendering-errors-due-to-shading"></a>연습: 음영으로 인한 렌더링 오류 디버깅
+# <a name="walkthrough-debugging-rendering-errors-due-to-shading"></a>연습: 음영으로 인한 렌더링 오류 디버그
 이 연습에 사용 하는 방법을 보여 줍니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 그래픽 진단 개체는 색상이 잘못 지정 셰이더 버그로 인해를 조사 합니다.
 
  이 연습에서는 다음 방법을 설명합니다.
 
--   그래픽 로그 문서를 검사하여 문제를 나타내는 픽셀을 확인합니다.
+- 그래픽 로그 문서를 검사하여 문제를 나타내는 픽셀을 확인합니다.
 
--   **그래픽 픽셀 기록** 창에서 픽셀 상태를 좀 더 자세히 검토합니다.
+- **그래픽 픽셀 기록** 창에서 픽셀 상태를 좀 더 자세히 검토합니다.
 
--   **HLSL 디버거** 를 사용하여 픽셀 및 꼭지점 셰이더를 검사합니다.
+- **HLSL 디버거** 를 사용하여 픽셀 및 꼭지점 셰이더를 검사합니다.
 
 ## <a name="scenario"></a>시나리오
  개체 색상이 잘못 지정되는 문제는 일반적으로 꼭지점 셰이더가 픽셀 셰이더에 올바르지 않거나 불완전한 정보를 전달할 때 발생합니다.

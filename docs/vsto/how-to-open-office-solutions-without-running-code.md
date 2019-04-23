@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3074e019a0b18880cd2188868ef86b7ed2b1fb76
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 9b9a88aff9cd587f695ace56c44eaf9c8fcb8875
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616133"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117202"
 ---
 # <a name="how-to-open-office-solutions-without-running-code"></a>방법: 코드를 실행 하지 않고 Office 솔루션 열기
   관리 코드 확장을 사용 하 여 만든 Microsoft Office 솔루션에는 최종 사용자의 Office 응용 프로그램의 보안 설정이 높은를 설정한 경우에 실행 됩니다. Microsoft Office가 아니라 Microsoft.NET Framework에서.NET 어셈블리 코드 보안을 관리 하는 때문입니다.
@@ -36,7 +36,7 @@ ms.locfileid: "56616133"
 
 ## <a name="to-bypass-the-assembly-by-using-the-shift-key"></a>Shift 키를 사용 하 여 어셈블리를 무시 하려면
 
--   문서 및에서 통합 문서를 열면를 **파일** 메뉴를 누른 채 합니다 **Shift** Word 및 Excel 문서를 여는 동안 초기화 이벤트를 발생 하지 않도록 키를 합니다.
+- 문서 및에서 통합 문서를 열면를 **파일** 메뉴를 누른 채 합니다 **Shift** Word 및 Excel 문서를 여는 동안 초기화 이벤트를 발생 하지 않도록 키를 합니다.
 
     > [!NOTE]
     >  문서 또는 통합 문서를 열면 합니다 **Getting Started** 작업창을 누른 **Shift** 코드가 무시 되지 않습니다. 또한 키를 누른 채 해도 이벤트 문서를 연 후 발생 합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "56616133"
 
 ## <a name="to-bypass-an-assembly-by-renaming-or-removing-it"></a>이름 바꾸기 또는 제거 하 여 어셈블리를 무시 하려면
 
--   어셈블리가 있는 컴퓨터에 필요한 권한이 있는 경우에 이름을 바꿀 수도 있고 문서 또는 통합 문서를 찾을 수 없습니다 있도록 어셈블리를 제거할 수 있습니다. 이 Office 문서를 열 때마다 발생 하는 오류가 발생 합니다.
+- 어셈블리가 있는 컴퓨터에 필요한 권한이 있는 경우에 이름을 바꿀 수도 있고 문서 또는 통합 문서를 찾을 수 없습니다 있도록 어셈블리를 제거할 수 있습니다. 이 Office 문서를 열 때마다 발생 하는 오류가 발생 합니다.
 
      솔루션을 여러 사용자가 사용 하는 경우이 메서드는 실행 모두에 대 한 솔루션을 방지 합니다. 이 기능은 코드 또는 참조 된 서버에서 문제가 발견 되 고 모든 사용자가 해당 실행을 중지 하려는 경우에 유용할 수 있습니다.
 

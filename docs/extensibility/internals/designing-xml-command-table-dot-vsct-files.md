@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a833478a8dec3b9fe82b22295482fed6f5562d14
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1e70a64e01e388af61127fd76f4a2fcee8e5a9b9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641548"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091566"
 ---
 # <a name="design-xml-command-table-vsct-files"></a>XML 명령 테이블 (.vsct) 파일 디자인
 XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 한 명령 항목의 모양을 설명 합니다. 명령 항목 단추, 콤보 상자, 메뉴, 도구 모음 및 명령 항목 그룹에 포함 됩니다. 이 문서에서는 XML 명령 테이블 파일, 메뉴 및 명령 항목에 미치는 및 만드는 방법을 설명 합니다.
@@ -98,19 +98,19 @@ XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 �
 ## <a name="vsct-file-design-guidelines"></a>.vsct 파일 디자인 지침
  성공적으로 디자인 하는 *.vsct* 파일에서 이러한 지침을 따릅니다.
 
--   명령을 그룹에만 배치할 수 있습니다, 그룹 메뉴에만 배치할 수 있습니다 및 메뉴 그룹에만 배치할 수 있습니다. 메뉴만 그룹 IDE에 실제로 표시 되 고 명령을 가져오지 않습니다.
+- 명령을 그룹에만 배치할 수 있습니다, 그룹 메뉴에만 배치할 수 있습니다 및 메뉴 그룹에만 배치할 수 있습니다. 메뉴만 그룹 IDE에 실제로 표시 되 고 명령을 가져오지 않습니다.
 
--   하위 메뉴에 직접 할당할 수 없습니다 있지만 메뉴에 다시 할당 된 그룹에 할당 되어야 합니다.
+- 하위 메뉴에 직접 할당할 수 없습니다 있지만 메뉴에 다시 할당 된 그룹에 할당 되어야 합니다.
 
--   하나의 부모/자식 관리 그룹 또는 해당 정의 지시문의 부모 필드를 사용 하 여 메뉴 명령, 하위 메뉴 및 그룹을 할당할 수 있습니다.
+- 하나의 부모/자식 관리 그룹 또는 해당 정의 지시문의 부모 필드를 사용 하 여 메뉴 명령, 하위 메뉴 및 그룹을 할당할 수 있습니다.
 
--   지시문의 부모 필드를 통해서만 명령 테이블을 구성 하는 것은 중요 한 제한이 있습니다. 개체를 정의 하는 지시문은 하나의 부모만 인수를 사용할 수 있습니다.
+- 지시문의 부모 필드를 통해서만 명령 테이블을 구성 하는 것은 중요 한 제한이 있습니다. 개체를 정의 하는 지시문은 하나의 부모만 인수를 사용할 수 있습니다.
 
--   고유한 개체의 새 인스턴스를 만들려면 새 지시문을 사용 해야 명령, 그룹 또는 하위 메뉴를 다시 사용 `GUID:ID` 쌍입니다.
+- 고유한 개체의 새 인스턴스를 만들려면 새 지시문을 사용 해야 명령, 그룹 또는 하위 메뉴를 다시 사용 `GUID:ID` 쌍입니다.
 
--   각 `GUID:ID` 쌍은 고유 해야 합니다. 에 의해 처리 됩니다, 예를 들어, 배치 된 상황에 맞는 메뉴 또는 도구 모음, 메뉴 명령을 다시 사용 된 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스입니다.
+- 각 `GUID:ID` 쌍은 고유 해야 합니다. 에 의해 처리 됩니다, 예를 들어, 배치 된 상황에 맞는 메뉴 또는 도구 모음, 메뉴 명령을 다시 사용 된 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스입니다.
 
--   명령 및 하위 메뉴도 여러 그룹에 할당할 수 있으며 그룹을 사용 하 여 여러 메뉴에서 할당할 수는 [Commands 요소](../../extensibility/commands-element.md)합니다.
+- 명령 및 하위 메뉴도 여러 그룹에 할당할 수 있으며 그룹을 사용 하 여 여러 메뉴에서 할당할 수는 [Commands 요소](../../extensibility/commands-element.md)합니다.
 
 ## <a name="vsct-file-notes"></a>.vsct 파일 정보
  변경한 경우는 *.vsct* 파일 컴파일와 네이티브 위성 DLL에에서 배치, 후 실행 해야 **devenv.exe /setup /nosetupvstemplates**합니다. 따라서 강제로 다시 읽어야 실험적 레지스트리 및 설명 하는 내부 데이터베이스에서 지정 하는 VSPackage 리소스 수행 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 다시 작성 됩니다.

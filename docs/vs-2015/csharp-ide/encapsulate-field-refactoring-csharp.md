@@ -16,12 +16,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ee56c4588bbbd3ec5cfca03bbd18c6dec1732fbf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a2c8d54b1625a4097d6b5a0acf6555d74fe83001
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981133"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116604"
 ---
 # <a name="encapsulate-field-refactoring-c"></a>필드 캡슐화 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "58981133"
   
 ### <a name="to-create-a-property-from-a-field"></a>필드에서 속성을 만들려면  
   
-1.  `EncapsulateFieldExample`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
+1. `EncapsulateFieldExample`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
   
     ```csharp  
     class Square  
@@ -58,13 +58,13 @@ ms.locfileid: "58981133"
     }  
     ```  
   
-2.  에 [코드 편집기](../ide/writing-code-in-the-code-and-text-editor.md)를 캡슐화 할 필드의 이름을 선언에 커서를 놓습니다. 아래 예제에서 커서를 단어 `width`에 배치합니다.  
+2. 에 [코드 편집기](../ide/writing-code-in-the-code-and-text-editor.md)를 캡슐화 할 필드의 이름을 선언에 커서를 놓습니다. 아래 예제에서 커서를 단어 `width`에 배치합니다.  
   
     ```csharp  
     public int width, height;  
     ```  
   
-3.  에 **리팩터링** 메뉴에서 클릭 **필드 캡슐화**합니다.  
+3. 에 **리팩터링** 메뉴에서 클릭 **필드 캡슐화**합니다.  
   
      합니다 **필드 캡슐화** 대화 상자가 나타납니다.  
   
@@ -72,11 +72,11 @@ ms.locfileid: "58981133"
   
      커서를 마우스 오른쪽 단추로 클릭 가리킵니다 **리팩터링**를 클릭 하 고 **필드 캡슐화** 표시 하는 **필드 캡슐화** 대화 상자.  
   
-4.  설정을 지정합니다.  
+4. 설정을 지정합니다.  
   
-5.  Enter 키를 누르거나 클릭 합니다 **확인** 단추입니다.  
+5. Enter 키를 누르거나 클릭 합니다 **확인** 단추입니다.  
   
-6.  선택한 경우에 **참조 변경 미리 보기** 옵션을 해당 **참조 변경 미리 보기** 창이 열립니다. 클릭 합니다 **적용** 단추입니다.  
+6. 선택한 경우에 **참조 변경 미리 보기** 옵션을 해당 **참조 변경 미리 보기** 창이 열립니다. 클릭 합니다 **적용** 단추입니다.  
   
      다음 `get` 및 `set` 접근자 코드가 소스 파일에 표시됩니다.  
   

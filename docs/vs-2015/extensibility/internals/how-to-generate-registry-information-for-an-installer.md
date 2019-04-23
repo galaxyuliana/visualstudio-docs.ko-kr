@@ -12,12 +12,12 @@ ms.assetid: b1b41012-a777-4ccf-81a6-3b41f0e96583
 caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: b9a1d8e18802c91d1669d709d6236d69a4a7444c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 63dd7f96e1d7af81b81a1b9d6a445356bb8de27e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002657"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117735"
 ---
 # <a name="how-to-generate-registry-information-for-an-installer"></a>방법: 설치 관리자에 대한 레지스트리 정보 생성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "59002657"
   
 ### <a name="to-create-a-registration-manifest"></a>등록 매니페스트를 만들려면  
   
--   RegPkg 사용 하 여 실행 합니다 **/regfile** 전환 합니다. 다른 스위치, 출력 파일의 이름 및 VSPackage의 경로 제공 합니다.  
+- RegPkg 사용 하 여 실행 합니다 **/regfile** 전환 합니다. 다른 스위치, 출력 파일의 이름 및 VSPackage의 경로 제공 합니다.  
   
      예를 들어, 명령 프롬프트에서 입력 다음과 유사 하 게 합니다.  
   
@@ -39,7 +39,7 @@ ms.locfileid: "59002657"
   
 ### <a name="to-view-a-registration-manifest"></a>등록 매니페스트를 보려면  
   
--   임의의 텍스트 편집기에서 등록 매니페스트를 엽니다.  
+- 임의의 텍스트 편집기에서 등록 매니페스트를 엽니다.  
   
      다음 예제는 RegPkg IronPython 언어 서비스에 대해 만든 등록 매니페스트:  
   
@@ -100,7 +100,7 @@ ms.locfileid: "59002657"
   
 ### <a name="to-create-a-windows-installer-xml-toolset-include-file"></a>Windows Installer XML 도구 집합을 만들려면 파일을 포함 합니다.  
   
--   RegPkg 사용 하 여 실행 합니다 **/wixfile** 전환 합니다. 다른 스위치, 출력 파일의 이름 및 VSPackage의 경로 제공 합니다.  
+- RegPkg 사용 하 여 실행 합니다 **/wixfile** 전환 합니다. 다른 스위치, 출력 파일의 이름 및 VSPackage의 경로 제공 합니다.  
   
      예를 들어, 명령 프롬프트에서 입력 다음과 유사 하 게 합니다.  
   
@@ -110,7 +110,7 @@ ms.locfileid: "59002657"
   
 ### <a name="to-view-a-windows-installer-xml-toolset-include-file"></a>Windows Installer XML 도구 집합을 보려면 파일을 포함 합니다.  
   
--   열기 Windows Installer XML 도구 집합 파일을 포함 텍스트 편집기에서.  
+- 열기 Windows Installer XML 도구 집합 파일을 포함 텍스트 편집기에서.  
   
      다음 예제는 IronPython 언어 서비스에 대 한 RegPkg 만든 포함 파일:  
   

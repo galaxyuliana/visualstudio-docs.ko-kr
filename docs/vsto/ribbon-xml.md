@@ -23,12 +23,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6ad84f5a0db677ca9efa9d24b1963959010f25e3
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 77fa9442289851aff91d8d9bfc55e581edfa774a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602026"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117546"
 ---
 # <a name="ribbon-xml"></a>리본 XML
   리본 (XML) 항목을 사용 하면 XML을 사용 하 여 리본을 사용자 지정할 수 있습니다. 리본 (비주얼 디자이너) 항목에서 지원 되지 않는 방식으로 리본을 사용자 지정 하려는 경우 리본 (XML) 항목을 사용 합니다. 각 항목을 사용 하 여 수행할 수 있는 작업의 비교를 참조 하세요 [리본 개요](../vsto/Ribbon-overview.md)합니다.
@@ -55,9 +55,9 @@ ms.locfileid: "56602026"
 ## <a name="define-the-behavior-of-the-custom-ribbon"></a>사용자 지정 리본 메뉴의 동작을 정의
  만들어 리본 메뉴의 단추 클릭과 같은 사용자 작업에 응답할 수 있습니다 *콜백 메서드*합니다. 콜백 메서드는 Windows Forms 컨트롤의 이벤트와 비슷하지만 UI 요소의 XML에서 특성으로 식별됩니다. 리본 클래스에서 메서드를 작성하고 컨트롤이 특성 값과 동일한 이름을 가진 메서드를 호출합니다. 예를 들어 리본의 단추를 클릭할 때 호출 되는 콜백 메서드를 만들 수 있습니다. 콜백 메서드를 만들려면 다음 두 단계가 필요합니다.
 
--   리본 XML 파일의 컨트롤에 코드에서 콜백 메서드를 식별하는 특성을 할당합니다.
+- 리본 XML 파일의 컨트롤에 코드에서 콜백 메서드를 식별하는 특성을 할당합니다.
 
--   리본 클래스에서 콜백 메서드를 정의합니다.
+- 리본 클래스에서 콜백 메서드를 정의합니다.
 
 > [!NOTE]
 >  Outlook에는 추가 단계가 필요합니다. 자세한 내용은 [Outlook에 대 한 리본을 사용자 지정](../vsto/customizing-a-ribbon-for-outlook.md)합니다.
@@ -77,7 +77,7 @@ ms.locfileid: "56602026"
 
  리본 컨트롤에 할당할 수 있는 다양한 형식의 콜백 메서드가 있습니다. 각 컨트롤에 대해 사용할 수 있는 콜백 메서드의 전체 목록은, 기술 문서를 참조 하세요 [(3의 3 부) 개발자를 위한 Office (2007) 리본 사용자 인터페이스를 사용자 지정할](/previous-versions/office/developer/office-2007/aa722523(v=office.12))합니다.
 
-###  <a name="CallBackMethods"></a> 콜백 메서드를 정의 합니다.
+### <a name="CallBackMethods"></a> 콜백 메서드를 정의 합니다.
  리본 코드 파일의 리본 클래스에서 콜백 메서드를 정의합니다. 콜백 메서드에는 다음과 같은 여러 요구 사항이 있습니다.
 
 - public으로 선언해야 합니다.
@@ -93,7 +93,7 @@ ms.locfileid: "56602026"
   [!code-csharp[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs#2)]
   [!code-vb[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb#2)]
 
-##  <a name="RibbonDescriptorFile"></a> 리본 XML 파일 참조
+## <a name="RibbonDescriptorFile"></a> 리본 XML 파일 참조
  리본 XML 파일에 특성과 해당 요소를 추가 하 여 사용자 지정 리본을 정의할 수 있습니다. 기본적으로 리본 XML 파일에는 다음 XML이 포함되어 있습니다.
 
 ```xml
@@ -132,7 +132,7 @@ ms.locfileid: "56602026"
 
  리본 XML 파일의 기본 요소와 특성은 사용할 수 있는 요소 및 특성의 일부에 불과합니다. 사용 가능한 요소 및 특성의 전체 목록은, 기술 문서를 참조 하세요 [(2 / 3 부) 개발자를 위한 Office (2007) 리본 사용자 인터페이스를 사용자 지정할](/previous-versions/office/developer/office-2007/aa338199(v=office.12))합니다.
 
-##  <a name="RibbonExtensionClass"></a> 리본 클래스 참조
+## <a name="RibbonExtensionClass"></a> 리본 클래스 참조
  Visual Studio는 리본 코드 파일에 리본 클래스를 생성합니다. 이 클래스에 리본 메뉴의 컨트롤에 대 한 콜백 메서드를 추가 합니다. 이 클래스는 <xref:Microsoft.Office.Core.IRibbonExtensibility> 인터페이스를 구현합니다.
 
  다음 표에서는 이 클래스의 기본 메서드를 설명합니다.

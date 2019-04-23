@@ -14,19 +14,19 @@ ms.assetid: a31d161a-4a51-43a9-9d65-d8b765ce3c19
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 22d60c7029ce64ba8c8a7b130da3bbddce9b7f6b
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: e897133b39110f65dfadc091f77855cfef1f6f6b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842002"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117280"
 ---
 # <a name="expected--"></a>예상 '-'
 정규식 리터럴 만들려고 시도 했음 해도 슬래시 (/) 중 하나를 포함 하지 않았습니다. 문자열 리터럴 따옴표의 쌍 내에서 문자로 기록 됩니다을 하는 것 처럼 정규식 리터럴 슬래시 (/) 문자 쌍 내에서 문자로 표현 됩니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   정규식의 끝을 표시 하려면 종료 슬래시를 삽입 합니다.  
+- 정규식의 끝을 표시 하려면 종료 슬래시를 삽입 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Regular Expression 개체](../../javascript/reference/regular-expression-object-javascript.md)   

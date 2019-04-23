@@ -18,12 +18,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e4ce804664f78bd4ec329f7e4e66008053291c77
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 26857824cac478936837a125068bd610dfc4c837
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54799774"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117631"
 ---
 # <a name="how-to-create-and-remove-project-dependencies"></a>방법: 프로젝트 종속성 만들기 및 제거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,18 +49,18 @@ ms.locfileid: "54799774"
   
 ### <a name="to-remove-dependencies-from-projects"></a>프로젝트에서 종속성을 제거하려면  
   
-1.  솔루션 탐색기에서 프로젝트를 선택합니다.  
+1. 솔루션 탐색기에서 프로젝트를 선택합니다.  
   
-2.  **프로젝트** 메뉴에서 **프로젝트 종속성**을 선택합니다.  
+2. **프로젝트** 메뉴에서 **프로젝트 종속성**을 선택합니다.  
   
      **프로젝트 종속성** 대화 상자가 열립니다.  
   
     > [!NOTE]
     >  **프로젝트 종속성** 옵션은 프로젝트가 두 개 이상 포함된 솔루션에서만 사용할 수 있습니다.  
   
-3.  **종속성** 탭의 **프로젝트** 드롭다운 메뉴에서 프로젝트를 선택합니다.  
+3. **종속성** 탭의 **프로젝트** 드롭다운 메뉴에서 프로젝트를 선택합니다.  
   
-4.  **다음에 종속** 필드에서 더 이상 이 프로젝트의 종속성이 아닌 모든 다른 프로젝트 옆의 확인란을 선택 취소합니다.  
+4. **다음에 종속** 필드에서 더 이상 이 프로젝트의 종속성이 아닌 모든 다른 프로젝트 옆의 확인란을 선택 취소합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   

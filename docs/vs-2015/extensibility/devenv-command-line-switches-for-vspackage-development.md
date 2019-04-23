@@ -17,12 +17,12 @@ ms.assetid: d65d2c04-dd84-42b0-b956-555b11f5a645
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8a32606b97e2831c2074c1feeaa71e74c116fdc4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 97ce429a7140d7b95393c2dcb8b34491b3adfefa
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984821"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60118047"
 ---
 # <a name="devenv-command-line-switches-for-vspackage-development"></a>VSPackage 개발을 위한 Devenv 명령줄 스위치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,11 +31,11 @@ ms.locfileid: "58984821"
   
  작업은 다음과 같습니다.  
   
--   IDE 외부에서 미리 정의 된 구성에서 응용 프로그램을 배포 합니다.  
+- IDE 외부에서 미리 정의 된 구성에서 응용 프로그램을 배포 합니다.  
   
--   자동으로 사전 설정을 사용 하 여 프로젝트 빌드는 빌드 설정 또는 디버그 구성 합니다.  
+- 자동으로 사전 설정을 사용 하 여 프로젝트 빌드는 빌드 설정 또는 디버그 구성 합니다.  
   
--   IDE 외부 모두에서 특정 한 구성에서 IDE를 로드 합니다. 또한 시작 시 IDE를 사용자 지정할 수 있습니다.  
+- IDE 외부 모두에서 특정 한 구성에서 IDE를 로드 합니다. 또한 시작 시 IDE를 사용자 지정할 수 있습니다.  
   
 ## <a name="guidelines-for-switches"></a>스위치에 대 한 지침  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 문서-사용자 수준 devenv 명령줄 스위치를 설명합니다. 자세한 내용은 [Devenv 명령줄 스위치](../ide/reference/devenv-command-line-switches.md)합니다. 또한 Devenv VSPackage 개발, 배포 및 디버깅을 사용 하 여 유용한 추가 명령줄 스위치를 지원 합니다.  

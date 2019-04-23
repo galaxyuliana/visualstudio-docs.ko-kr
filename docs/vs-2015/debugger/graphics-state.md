@@ -11,12 +11,12 @@ caps.latest.revision: 5
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 670ad5e28dad02c59ac20dee8cab75a52ae650ce
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 485969b40fdcedd2ec8835de8d9c9a699aba9e79
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971989"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091787"
 ---
 # <a name="graphics-state"></a>그래픽 상태
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,13 +37,13 @@ Visual Studio 그래픽 진단의 상태 창은 그리기 호출과 같은 현�
   
 ##### <a name="to-change-the-state-view"></a>상태 보기를 변경하려면  
   
--   상태 창 왼쪽 위, 제목 표시줄 바로 아래에서 사용하려는 상태 보기 스타일에 해당하는 단추를 선택합니다.  
+- 상태 창 왼쪽 위, 제목 표시줄 바로 아래에서 사용하려는 상태 보기 스타일에 해당하는 단추를 선택합니다.  
   
-    -   **API 입력 상태 보기 표시**  
+    - **API 입력 상태 보기 표시**  
   
-    -   **논리 상태 보기 표시**  
+    - **논리 상태 보기 표시**  
   
-    -   **고정된 상태 보기 표시**  
+    - **고정된 상태 보기 표시**  
   
 > [!IMPORTANT]
 >  **고정된 상태 보기 표시**에 상태를 표시하려면 **API 입력 상태 표시** 또는 **논리 상태 표시** 보기에서 상태를 고정해야 합니다.  
@@ -67,8 +67,8 @@ Visual Studio 그래픽 진단의 상태 창은 그리기 호출과 같은 현�
   
 ##### <a name="to-pin-state-in-place"></a>상태를 제자리에 고정하려면  
   
-1.  상태 창에서 관심 있는 상태를 찾습니다. 관심 있는 세부 정보를 찾기 위해 상위 수준 상태를 확장해야 할 수도 있습니다.  
+1. 상태 창에서 관심 있는 상태를 찾습니다. 관심 있는 세부 정보를 찾기 위해 상위 수준 상태를 확장해야 할 수도 있습니다.  
   
-2.  관심 있는 상태 위에 커서를 놓습니다. 상태 항목의 왼쪽에 고정 아이콘이 나타납니다.  
+2. 관심 있는 상태 위에 커서를 놓습니다. 상태 항목의 왼쪽에 고정 아이콘이 나타납니다.  
   
-3.  고정 아이콘을 선택하여 상태 항목을 제자리에 고정합니다.
+3. 고정 아이콘을 선택하여 상태 항목을 제자리에 고정합니다.

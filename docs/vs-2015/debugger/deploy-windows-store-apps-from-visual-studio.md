@@ -14,12 +14,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 520113d97bdf41d750cad340c0ab8868eb85f603
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 73b4350a2e7f277a11f4d6650d8089df0f87fe4d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986480"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116396"
 ---
 # <a name="deploy-windows-store-apps-from-visual-studio"></a>Visual Studio에서 Windows 스토어 앱 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 
 - 다른 앱 또는 메서드에서 시작되는 경우 디버깅할 앱 배포
 
-##  <a name="BKMK_In_this_topic"></a> 항목 내용
+## <a name="BKMK_In_this_topic"></a> 항목 내용
  이 항목에서는 다음과 같은 내용을 배울 수 있습니다.
 
  [Windows 스토어 앱을 배포하는 방법](#BKMK_How_to_deploy_a_Windows_Store_app)
@@ -49,25 +49,25 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 
  [배포 옵션](#BKMK_Deployment_options)
 
-##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> Windows 스토어 앱을 배포하는 방법
+## <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> Windows 스토어 앱을 배포하는 방법
  수동 앱 배포 프로세스는 다음과 같이 간단합니다.
 
-1.  원격 디바이스에 배포하는 경우 앱 시작 프로젝트의 속성 프로젝트 페이지에서 디바이스의 이름 또는 IP 주소를 지정합니다. 이 작업 단계는 이 항목 아래에 나열되어 있습니다.
+1. 원격 디바이스에 배포하는 경우 앱 시작 프로젝트의 속성 프로젝트 페이지에서 디바이스의 이름 또는 IP 주소를 지정합니다. 이 작업 단계는 이 항목 아래에 나열되어 있습니다.
 
-2.  디버거 Visual Studio 도구 모음의 **디버깅 시작** 단추 옆에 있는 드롭다운 목록에서 배포 대상을 선택합니다.
+2. 디버거 Visual Studio 도구 모음의 **디버깅 시작** 단추 옆에 있는 드롭다운 목록에서 배포 대상을 선택합니다.
 
      ![로컬 컴퓨터에서 실행할](../debugger/media/vsrun-f5-local.png "VSRUN_F5_Local")
 
-3.   **빌드** 메뉴에서 **배포**를 선택합니다.
+3.  **빌드** 메뉴에서 **배포**를 선택합니다.
 
-##  <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 장치 지정 방법
+## <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 장치 지정 방법
  **필수 구성 요소**
 
  원격 디바이스에 앱을 배포하려면
 
--   원격 디바이스에 개발자 라이선스가 설치되어 있어야 합니다.
+- 원격 디바이스에 개발자 라이선스가 설치되어 있어야 합니다.
 
--   Visual Studio 원격 도구는 원격 디바이스에 설치해야 하고 원격 디버깅 모니터가 실행 중이어야 합니다.
+- Visual Studio 원격 도구는 원격 디바이스에 설치해야 하고 원격 디버깅 모니터가 실행 중이어야 합니다.
 
      배포 시 원격 디버거 네트워크 채널을 사용하여 원격 디바이스로 앱 파일을 보냅니다.
 
@@ -101,7 +101,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 
 8. **원격 컴퓨터** 상자에 원격 장치의 네트워크 이름을 입력하거나 **찾기** 를 클릭하여 **원격 디버거 연결 선택** 대화 상자에서 장치를 선택합니다.
 
-##  <a name="BKMK_Deployment_options"></a> 배포 옵션
+## <a name="BKMK_Deployment_options"></a> 배포 옵션
  시작 프로젝트의 디버그 속성 페이지에서 다음 배포 옵션을 설정할 수 있습니다.
 
  **네트워크 루프백 허용** 보안상의 이유로 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 일반적인 방식으로 설치 된 앱은에 설치 된 장치에 대 한 네트워크 호출을 수행할 수 없습니다. 기본적으로 Visual Studio를 배포하면 배포된 응용 프로그램에 대한 이 규칙의 예외가 만들어 집니다. 이 예외로 인해 사용자는 단일 컴퓨터에서 통신 프로시저를 테스트할 수 있습니다. 앱을 [!INCLUDE[win8_appstore_long](../includes/win8-appstore-long-md.md)]에 제출하기 전에 이 예외 없이 앱을 테스트해야 합니다.
@@ -112,7 +112,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 
 - JavaScript 및 디버그 속성 페이지에서 **네트워크 루프백 허용** 값을 **아니요**로 설정합니다.
 
-  **시작 하지 않음 시작 시 코드를 디버그 (C# 및 VB) / 응용 프로그램 시작 (JavaScript 및 c + +)** 자동으로 앱이 시작 하는 경우 디버깅 세션을 시작 하기 위해 배포를 구성 하려면:
+  **시작 하지 않음 시작 시 코드를 디버그 (C# 및 VB) / 응용 프로그램 시작 (JavaScript 및 C++)** 자동으로 앱이 시작 하는 경우 디버깅 세션을 시작 하기 위해 배포를 구성 하려면:
 
 - C# 및 VB 디버그 속성 페이지에서 **시작하지 않음(시작 시 코드 디버그)** 확인란을 선택합니다.
 

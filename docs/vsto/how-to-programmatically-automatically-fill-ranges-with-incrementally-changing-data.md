@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 36a91875d2964bf952f039a699da6ed165afa090
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: e4caede15b17478bb9649f09d9341931511b655f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56638532"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117891"
 ---
 # <a name="how-to-programmatically-automatically-fill-ranges-with-incrementally-changing-data"></a>방법: 프로그래밍 방식으로 자동으로 채울 범위 증분 변경 되는 데이터
   합니다 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> 메서드는 <xref:Microsoft.Office.Interop.Excel.Range> 개체 값을 사용 하 여 워크시트의 범위를 자동으로 채울 수 있습니다. 대부분의 경우는 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> 메서드 점진적으로 증가 또는 감소 하는 값 범위에서 저장소를 사용 합니다. 선택적 상수를 제공 하 여 동작을 지정할 수는 <xref:Microsoft.Office.Interop.Excel.XlAutoFillType> 열거형입니다.
@@ -29,9 +29,9 @@ ms.locfileid: "56638532"
 
  사용 하는 경우에 두 범위를 지정 해야 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A>:
 
--   호출 하는 범위는 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> 메서드 채우기의 시작 지점을 지정 하며 초기 값을 포함 합니다.
+- 호출 하는 범위는 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> 메서드 채우기의 시작 지점을 지정 하며 초기 값을 포함 합니다.
 
--   채우기 하려는 범위 매개 변수로 전달 된 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> 메서드. 이 대상 범위는 초기 값이 포함 된 범위를 포함 해야 합니다.
+- 채우기 하려는 범위 매개 변수로 전달 된 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> 메서드. 이 대상 범위는 초기 값이 포함 된 범위를 포함 해야 합니다.
 
     > [!NOTE]
     >  전달할 수 없습니다는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 대신는 <xref:Microsoft.Office.Interop.Excel.Range>합니다. 자세한 내용은 [호스트 항목 및 호스트 컨트롤의 프로그래밍 방식으로 제한](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)합니다.
@@ -45,11 +45,11 @@ ms.locfileid: "56638532"
 
  이 예제에서는 세 가지 영역을 채워야 필요 합니다.
 
--   B 열 5 월요일부터 금요일까지 포함 하는 것입니다. 초기 값 입력 **월요일** B1 셀에서입니다.
+- B 열 5 월요일부터 금요일까지 포함 하는 것입니다. 초기 값 입력 **월요일** B1 셀에서입니다.
 
--   C 열 5 개월을 포함 하는 것입니다. 초기 값 입력 **월** C1 셀에서입니다.
+- C 열 5 개월을 포함 하는 것입니다. 초기 값 입력 **월** C1 셀에서입니다.
 
--   열 D는 일련의 숫자, 각 행 마다 2 씩 증가 포함 하는 것입니다. 초기 값 입력 **4** D1 셀에서 및 **6** D2 셀에서입니다.
+- 열 D는 일련의 숫자, 각 행 마다 2 씩 증가 포함 하는 것입니다. 초기 값 입력 **4** D1 셀에서 및 **6** D2 셀에서입니다.
 
 ## <a name="see-also"></a>참고자료
 - [범위를 사용 하 여 작동 합니다.](../vsto/working-with-ranges.md)

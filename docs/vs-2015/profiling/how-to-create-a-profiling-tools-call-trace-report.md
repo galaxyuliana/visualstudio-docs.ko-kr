@@ -12,14 +12,14 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3669803bd87cbe04117246afad4d5d61866af896
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c92f5cd8f268b249e8f29ddd706860ff18b2f87c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54774903"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117826"
 ---
-# <a name="how-to-create-a-profiling-tools-call-trace-report"></a>방법: 프로파일링 도구 호출 추적 보고서 만들기
+# <a name="how-to-create-a-profiling-tools-call-trace-report"></a>방법: 프로 파일링 도구 호출 추적 보고서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구에 대한 *호출 추적 보고서*는 애플리케이션의 함수에 대한 각 진입 지점 및 종료 지점에 대한 타이밍 정보와 함수로 다른 함수에 대한 각 호출을 나열합니다. 호출 추적 보고서는 계측 방법으로 수집된 경우에만 프로파일링 데이터에 사용할 수 있습니다.  
@@ -29,9 +29,9 @@ ms.locfileid: "54774903"
   
 ### <a name="to-create-a-call-trace-report"></a>호출 추적 보고서를 만들려면  
   
-1.  **명령 프롬프트** 창을 엽니다.  
+1. **명령 프롬프트** 창을 엽니다.  
   
-2.  명령 프롬프트에 다음 명령을 입력합니다.  
+2. 명령 프롬프트에 다음 명령을 입력합니다.  
   
      *ToolsPath* **VSPerfReport** *VSPFile*  **/CallTrace [/Xml]**  
   
@@ -42,5 +42,5 @@ ms.locfileid: "54774903"
     |Xml|Xml 형식의 보고서를 만듭니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: ETW(Windows용 이벤트 추적) 데이터 수집](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)   
+ [방법: Windows (ETW) 데이터 추적 이벤트를 수집 합니다.](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)   
  [프로파일링 도구 API](../profiling/profiling-tools-apis.md)

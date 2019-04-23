@@ -10,23 +10,23 @@ ms.assetid: 79808036-b680-4e4c-9c61-4ed43aa11323
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4227bd8a82df031f04c1ab33761cf9b8520dec7a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 771a3cd8ae25173f3033b3a3229e516570f5dedc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983451"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116240"
 ---
 # <a name="debugger-contexts"></a>디버거 컨텍스트
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 디버깅, 디버그 엔진 (DE) 동시에 여러 고유한 컨텍스트 내에서 같이 작동 합니다.  
   
--   프로그램의 실행 스트림의 현재 위치를 설명 하는 코드 컨텍스트.  
+- 프로그램의 실행 스트림의 현재 위치를 설명 하는 코드 컨텍스트.  
   
--   문서 컨텍스트 또는 원본 문서 내의 현재 위치를 설명 하는 위치입니다.  
+- 문서 컨텍스트 또는 원본 문서 내의 현재 위치를 설명 하는 위치입니다.  
   
--   식 계산 컨텍스트는 식의 평가 수행 하는 컨텍스트를 설명 합니다.  
+- 식 계산 컨텍스트는 식의 평가 수행 하는 컨텍스트를 설명 합니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [코드 컨텍스트](../../extensibility/debugger/code-context.md)  

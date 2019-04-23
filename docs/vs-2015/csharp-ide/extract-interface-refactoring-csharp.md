@@ -16,12 +16,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e59864cabf638f4525165ed4f31c42fff748bf26
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 55b24facd3a9ec935277a42c211a64d824ed6d7f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982225"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116747"
 ---
 # <a name="extract-interface-refactoring-c"></a>인터페이스 추출 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "58982225"
   
 ### <a name="to-use-extract-interface"></a>인터페이스 추출 사용 하려면  
   
-1.  라는 콘솔 응용 프로그램을 만듭니다 `ExtractInterface`, 하 고 다음 대체 `Program` 다음 코드를 사용 하 여  
+1. 라는 콘솔 응용 프로그램을 만듭니다 `ExtractInterface`, 하 고 다음 대체 `Program` 다음 코드를 사용 하 여  
   
     ```csharp  
     // Invoke Extract Interface on ProtoA.  
@@ -45,7 +45,7 @@ ms.locfileid: "58982225"
     }  
     ```  
   
-2.  커서가 `MethodB`, 클릭 **인터페이스 추출** 에 **리팩터링** 메뉴.  
+2. 커서가 `MethodB`, 클릭 **인터페이스 추출** 에 **리팩터링** 메뉴.  
   
      합니다 **인터페이스 추출** 대화 상자가 나타납니다.  
   
@@ -53,9 +53,9 @@ ms.locfileid: "58982225"
   
      마우스를을 마우스 오른쪽 단추로 클릭 가리킵니다 **리팩터링**를 클릭 하 고 **인터페이스 추출** 표시 하는 **인터페이스 추출** 대화 상자.  
   
-3.  클릭 **모두 선택**합니다.  
+3. 클릭 **모두 선택**합니다.  
   
-4.  **확인**을 클릭합니다.  
+4. **확인**을 클릭합니다.  
   
      새 파일, IProtoA.cs, 및 다음 코드를 표시 합니다.  
   

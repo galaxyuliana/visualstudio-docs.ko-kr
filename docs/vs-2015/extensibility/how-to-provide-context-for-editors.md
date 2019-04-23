@@ -10,12 +10,12 @@ ms.assetid: 12df4d06-df6b-4eaf-a7bf-c83655a0c683
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8a74acbcf3da16d7b8e2ac68e761719a6192a2b4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e5900d5c818883ffc78b2399b937c80307b52c36
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971919"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116526"
 ---
 # <a name="how-to-provide-context-for-editors"></a>방법: 편집기에 대 한 컨텍스트를 제공 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,44 +32,44 @@ ms.locfileid: "58971919"
   
 ### <a name="to-create-a-context-bag-for-an-editor-or-a-designer"></a>편집기 또는 디자이너에 대 한 상황에 맞는 모음을 만들려면  
   
-1.  호출 `QueryService` 에 사용자 <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> 에 대 한 인터페이스를 <xref:Microsoft.VisualStudio.Shell.Interop.SVsMonitorUserContext> 서비스입니다.  
+1. 호출 `QueryService` 에 사용자 <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> 에 대 한 인터페이스를 <xref:Microsoft.VisualStudio.Shell.Interop.SVsMonitorUserContext> 서비스입니다.  
   
      에 대 한 포인터를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorUserContext> 인터페이스가 반환 됩니다.  
   
-2.  호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorUserContext.CreateEmptyContext%2A> 새 컨텍스트 또는 하위 컨텍스트의 모음을 만드는 방법.  
+2. 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorUserContext.CreateEmptyContext%2A> 새 컨텍스트 또는 하위 컨텍스트의 모음을 만드는 방법.  
   
      에 대 한 포인터를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext> 인터페이스가 반환 됩니다.  
   
-3.  호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> 컨텍스트 또는 하위 컨텍스트의 모음에 특성, 조회 키워드 또는 F1 키워드를 추가 하는 방법입니다.  
+3. 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> 컨텍스트 또는 하위 컨텍스트의 모음에 특성, 조회 키워드 또는 F1 키워드를 추가 하는 방법입니다.  
   
-4.  하위 컨텍스트의 모음을 만드는 경우 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddSubcontext%2A> 하위 컨텍스트의 모음 부모 컨텍스트 모음에 연결 하는 방법입니다.  
+4. 하위 컨텍스트의 모음을 만드는 경우 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddSubcontext%2A> 하위 컨텍스트의 모음 부모 컨텍스트 모음에 연결 하는 방법입니다.  
   
-5.  호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A> 알림을 받을 때 합니다 **동적 도움말** 기간은 업데이트 하려고 합니다.  
+5. 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A> 알림을 받을 때 합니다 **동적 도움말** 기간은 업데이트 하려고 합니다.  
   
      필요 합니다 **동적 도움말** 창을 호출 하는 편집기를 업데이트할 준비가 되었을 때 기회가 지연 업데이트가 발생할 때까지 컨텍스트가 변경. 이렇게 시스템 유휴 시간까지 시간이 오래 걸리는 알고리즘 실행을 지연 시킬 수 있으므로 성능을 향상 시킬 수 있습니다.  
   
 ### <a name="to-publish-the-context-bag-to-the-seid"></a>컨텍스트 모음을 SEID를 게시 하려면  
   
-1.  호출 `QueryService` 에 <xref:Microsoft.VisualStudio.Shell.Interop.SVsTrackSelectionEx> 에 대 한 포인터를 반환 하도록 서비스에는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> 인터페이스입니다.  
+1. 호출 `QueryService` 에 <xref:Microsoft.VisualStudio.Shell.Interop.SVsTrackSelectionEx> 에 대 한 포인터를 반환 하도록 서비스에는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> 인터페이스입니다.  
   
-2.  호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>, 요소 식별자를 지정 합니다. (`elementid` 매개 변수) SEID_UserContext 전역 수준 컨텍스트를 전달 하는 있는지를 나타내는 값입니다.  
+2. 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>, 요소 식별자를 지정 합니다. (`elementid` 매개 변수) SEID_UserContext 전역 수준 컨텍스트를 전달 하는 있는지를 나타내는 값입니다.  
   
-3.  편집기 또는 디자이너를 활성화 하면,의 값을 해당 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> 개체 전역 선택에 전파 됩니다. 세션당 한 번이 프로세스를 완료 하 여 다음을 호출할 때 만든 전역 컨텍스트에 대 한 포인터를 저장 하기만 하면 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>합니다.  
+3. 편집기 또는 디자이너를 활성화 하면,의 값을 해당 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> 개체 전역 선택에 전파 됩니다. 세션당 한 번이 프로세스를 완료 하 여 다음을 호출할 때 만든 전역 컨텍스트에 대 한 포인터를 저장 하기만 하면 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>합니다.  
   
 ### <a name="to-maintain-the-context-bag"></a>컨텍스트 모음을 유지 하기 위해  
   
-1.  구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext> 되도록 합니다 **동적 도움말** 를 업데이트 하기 전에 창 편집기 또는 디자이너를 호출 합니다.  
+1. 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext> 되도록 합니다 **동적 도움말** 를 업데이트 하기 전에 창 편집기 또는 디자이너를 호출 합니다.  
   
      가 호출 하는 각 상황에 맞는 모음에 대 한 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A> 컨텍스트 모음을 만들고 구현한 후 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate>, IDE 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> 컨텍스트 모음을 업데이트할 컨텍스트 공급자를 알립니다. 전에 특성과 키워드 컨텍스트 모음 및 모든 하위 컨텍스트의 백을 변경 하려면이 호출을 사용할 수는 **동적 도움말** 창 업데이트가 발생 합니다.  
   
-2.  호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A> 편집기 또는 디자이너에 새 컨텍스트 있음을 나타내기 위해 컨텍스트 모음에 있습니다.  
+2. 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A> 편집기 또는 디자이너에 새 컨텍스트 있음을 나타내기 위해 컨텍스트 모음에 있습니다.  
   
      경우는 **동적 도움말** 창 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> 업데이트 하는, 편집기 또는 디자이너를 해당 시점에 부모 컨텍스트 모음 및 모든 하위 컨텍스트의 모음이 모두에 대해 적절 하 게 컨텍스트를 업데이트할 수 있습니다 하 합니다.  
   
     > [!NOTE]
     >  합니다 `SetDirty` 플래그 자동으로 설정 됩니다 `true` 컨텍스트에서 추가 되거나 컨텍스트 모음에서 제거 될 때마다 합니다. **동적 도움말** 창을 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> 컨텍스트 모음에서 경우 합니다 `SetDirty` 플래그가로 설정 되어 `true`합니다. 다시 설정 `false` 업데이트 후 합니다.  
   
-3.  호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> 상황에 맞는 active 컨텍스트 컬렉션에 추가할 또는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A> 컨텍스트를 제거 합니다.  
+3. 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> 상황에 맞는 active 컨텍스트 컬렉션에 추가할 또는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A> 컨텍스트를 제거 합니다.  
   
 ## <a name="robust-programming"></a>강력한 프로그래밍  
  사용자 고유의 편집기를 작성 하는 경우 세 가지 모두를 편집기에 대 한 컨텍스트를 제공 하려면이 항목의 절차를 완료 해야 합니다.  
