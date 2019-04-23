@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 35e292d5fcaaea4f70154cf6febfc26bc20f1318
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 8667c55eed6de6b2b3c76af2ef45a5357a254516
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648967"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115993"
 ---
 # <a name="schema-cache"></a>스키마 캐시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,21 +109,21 @@ XML 편집기에서는 %InstallRoot%\Xml\Schemas 디렉터리에 있는 스키�
 
 #### <a name="to-change-the-schema-cache-location"></a>스키마 캐시 위치를 변경하려면  
 
-1.  **도구** 메뉴에서 **옵션**합니다.  
+1. **도구** 메뉴에서 **옵션**합니다.  
 
-2.  확장 **텍스트 편집기**를 확장 하 고 **XML**를 클릭 하 고 **기타**합니다.  
+2. 확장 **텍스트 편집기**를 확장 하 고 **XML**를 클릭 하 고 **기타**합니다.  
 
-3.  클릭 합니다 **찾아보기** 단추를 **스키마** 필드입니다.  
+3. 클릭 합니다 **찾아보기** 단추를 **스키마** 필드입니다.  
 
-4.  스키마 캐시에 대 한 폴더를 선택 하 고 클릭 **확인**합니다.  
+4. 스키마 캐시에 대 한 폴더를 선택 하 고 클릭 **확인**합니다.  
 
 #### <a name="to-add-another-directory-of-common-schemas"></a>공통 스키마 디렉터리를 추가하려면  
 
-1.  XML 편집기 스키마 캐시 디렉터리에서 catalog.xml 파일을 편집합니다.  
+1. XML 편집기 스키마 캐시 디렉터리에서 catalog.xml 파일을 편집합니다.  
 
-2.  추가 스키마 디렉터리를 가리키는 새 `<Catalog href="…"/>` 요소를 추가합니다.  
+2. 추가 스키마 디렉터리를 가리키는 새 `<Catalog href="…"/>` 요소를 추가합니다.  
 
-3.  변경 내용을 저장합니다.  
+3. 변경 내용을 저장합니다.  
 
      카탈로그가 자동으로 다시 로드됩니다.  
 

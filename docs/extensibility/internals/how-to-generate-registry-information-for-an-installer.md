@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 994135458fb7bc76ef2ab7f4a76ac184e1b6426e
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: fc97aad2d3a056a61ae925816ac6d2457918db65
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54945985"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100783"
 ---
 # <a name="how-to-generate-registry-information-for-an-installer"></a>방법: 설치 관리자에 대 한 레지스트리 정보를 생성 합니다.
 
@@ -28,7 +28,7 @@ ms.locfileid: "54945985"
 
 ## <a name="to-create-a-registration-manifest"></a>등록 매니페스트를 만들려면
 
--   RegPkg 사용 하 여 실행 합니다 **/regfile** 전환 합니다. 다른 스위치, 출력 파일의 이름 및 VSPackage의 경로 제공 합니다.
+- RegPkg 사용 하 여 실행 합니다 **/regfile** 전환 합니다. 다른 스위치, 출력 파일의 이름 및 VSPackage의 경로 제공 합니다.
 
      예를 들어, 명령 프롬프트에서 입력 다음과 유사 하 게 합니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "54945985"
 
 ## <a name="to-view-a-registration-manifest"></a>등록 매니페스트를 보려면
 
--   임의의 텍스트 편집기에서 등록 매니페스트를 엽니다.
+- 임의의 텍스트 편집기에서 등록 매니페스트를 엽니다.
 
      다음 예제는 RegPkg IronPython 언어 서비스에 대해 만든 등록 매니페스트:
 
@@ -99,7 +99,7 @@ ms.locfileid: "54945985"
 
 ## <a name="to-create-a-windows-installer-xml-toolset-include-file"></a>Windows Installer XML을 만들려면 도구 집합 포함 파일
 
--   RegPkg 사용 하 여 실행 합니다 **/wixfile** 전환 합니다. 다른 스위치, 출력 파일의 이름 및 VSPackage의 경로 제공 합니다.
+- RegPkg 사용 하 여 실행 합니다 **/wixfile** 전환 합니다. 다른 스위치, 출력 파일의 이름 및 VSPackage의 경로 제공 합니다.
 
      예를 들어, 명령 프롬프트에서 입력 다음과 유사 하 게 합니다.
 
@@ -109,7 +109,7 @@ ms.locfileid: "54945985"
 
 ## <a name="to-view-a-windows-installer-xml-toolset-include-file"></a>Windows Installer XML을 보려면 도구 집합 포함 파일
 
--   열기 Windows Installer XML 도구 집합 파일을 포함 텍스트 편집기에서.
+- 열기 Windows Installer XML 도구 집합 파일을 포함 텍스트 편집기에서.
 
      다음 예제는 IronPython 언어 서비스에 대 한 RegPkg 만든 포함 파일:
 

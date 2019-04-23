@@ -17,12 +17,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 280cc2fa94b8ea8167da2168cd4fff90bb8fa612
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 76c55d45e279a3fcf6579c77bf7d226c7baf13d2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663234"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102980"
 ---
 # <a name="create-lookup-tables-in-windows-forms-applications"></a>Windows Forms 애플리케이션에서 조회 테이블 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,25 +35,25 @@ ms.locfileid: "59663234"
   
 ## <a name="to-databind-a-lookup-control"></a>데이터 바인딩에 조회 컨트롤  
   
-1.  **데이터 원본** 창을 엽니다.  
+1. **데이터 원본** 창을 엽니다.  
   
     > [!NOTE]
     > 조회 테이블 두 관련된 테이블 또는 개체에서 사용할 수 있어야 합니다 **데이터 원본** 창입니다.
   
-2.  노드를 확장 합니다 **데이터 원본** 부모 테이블 및 모든 해당 열 및 관련된 자식 테이블의 모든 열 표시 될 때까지 창입니다.  
+2. 노드를 확장 합니다 **데이터 원본** 부모 테이블 및 모든 해당 열 및 관련된 자식 테이블의 모든 열 표시 될 때까지 창입니다.  
   
     > [!NOTE]
     >  자식 테이블 노드는 부모 테이블의 확장 가능한 자식 노드로 표시 되는 노드입니다.  
   
-3.  자식 테이블의 놓기 형식을 변경 **세부 정보** 를 선택 하 여 **세부 정보** 자식 테이블의 노드의 컨트롤 목록에서. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  
+3. 자식 테이블의 놓기 형식을 변경 **세부 정보** 를 선택 하 여 **세부 정보** 자식 테이블의 노드의 컨트롤 목록에서. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  
   
-4.  노드 두 테이블 간의 관계를 찾습니다 (의 `CustomerID` 이전 예에서 노드). 해당 드롭 유형을 변경를 <xref:System.Windows.Forms.ComboBox> 를 선택 하 여 **ComboBox** 컨트롤 목록에서.  
+4. 노드 두 테이블 간의 관계를 찾습니다 (의 `CustomerID` 이전 예에서 노드). 해당 드롭 유형을 변경를 <xref:System.Windows.Forms.ComboBox> 를 선택 하 여 **ComboBox** 컨트롤 목록에서.  
   
-5.  기본 자식 테이블 노드를 끌어 합니다 **데이터 원본** 창에서 폼으로 합니다.  
+5. 기본 자식 테이블 노드를 끌어 합니다 **데이터 원본** 창에서 폼으로 합니다.  
   
      데이터 바인딩된 컨트롤 (설명이 포함 된 레이블로) 도구 스트립 (<xref:System.Windows.Forms.BindingNavigator>) 폼에 나타납니다. A [데이터 집합](../data-tools/dataset-tools-in-visual-studio.md)에서 TableAdapter를 <xref:System.Windows.Forms.BindingSource>, 및 <xref:System.Windows.Forms.BindingNavigator> 구성 요소 트레이에 나타납니다.  
   
-6.  이제에서 기본 부모 테이블 노드를 끕니다 합니다 **데이터 원본** 조회 컨트롤에 직접 창 (합니다 <xref:System.Windows.Forms.ComboBox>).  
+6. 이제에서 기본 부모 테이블 노드를 끕니다 합니다 **데이터 원본** 조회 컨트롤에 직접 창 (합니다 <xref:System.Windows.Forms.ComboBox>).  
   
      이제 조회 바인딩은 설정 됩니다. 컨트롤에 설정 된 특정 속성에 대 한 아래 표를 참조 하세요.  
   

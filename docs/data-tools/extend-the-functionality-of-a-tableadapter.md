@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 6df50eb1f8a4d722a0140fd37a6ff0c0d7474a39
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: d0ec905670c72ff7c2c5f5d94c9f5189241daebb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955273"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100016"
 ---
 # <a name="extend-the-functionality-of-a-tableadapter"></a>TableAdapter의 기능 확장
 
@@ -32,23 +32,23 @@ Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 �
 
 ## <a name="locate-tableadapters-in-code"></a>코드에서 Tableadapter를 찾습니다
 
-사용 하 여 Tableadapter 설계 되어는 **데이터 집합 디자이너**, 생성 된 TableAdapter 클래스의 중첩 된 클래스는 아닙니다 <xref:System.Data.DataSet>합니다. Tableadapter는 TableAdapter의 연결 된 데이터 집합의 이름을 기반으로 하는 네임 스페이스에 있습니다. 예를 들어, 응용 프로그램 이라는 데이터 집합을 포함 하는 경우 `HRDataSet`에서 Tableadapter에 위치를 `HRDataSetTableAdapters` 네임 스페이스입니다. (명명 규칙은이 패턴을 따릅니다: *DatasetName* + `TableAdapters`).
+사용 하 여 Tableadapter 설계 되어는 **데이터 집합 디자이너**, 생성 된 TableAdapter 클래스의 중첩 된 클래스는 아닙니다 <xref:System.Data.DataSet>합니다. Tableadapter는 TableAdapter의 연결 된 데이터 집합의 이름을 기반으로 하는 네임 스페이스에 있습니다. 예를 들어, 응용 프로그램 이라는 데이터 집합을 포함 하는 경우 `HRDataSet`에서 Tableadapter에 위치를 `HRDataSetTableAdapters` 네임 스페이스입니다. (명명 규칙은이 패턴을 따릅니다. *DatasetName* + `TableAdapters`).
 
 다음 예제에서는 라는 TableAdapter `CustomersTableAdapter`사용 하 여 프로젝트에 `NorthwindDataSet`입니다.
 
 ### <a name="to-create-a-partial-class-for-a-tableadapter"></a>TableAdapter에 대 한 partial 클래스를 만들려면
 
-1.  으로 이동 하 여 프로젝트에 새 클래스를 추가 합니다 **프로젝트** 메뉴에서 **클래스 추가**합니다.
+1. 으로 이동 하 여 프로젝트에 새 클래스를 추가 합니다 **프로젝트** 메뉴에서 **클래스 추가**합니다.
 
-2.  클래스 이름을 `CustomersTableAdapterExtended`로 지정합니다.
+2. 클래스 이름을 `CustomersTableAdapterExtended`로 지정합니다.
 
-3.  **추가**를 선택합니다.
+3. **추가**를 선택합니다.
 
-4.  프로젝트에 대 한 partial 클래스 이름과 올바른 네임 스페이스를 사용 하 여 코드를 다음과 같이 바꿉니다.
+4. 프로젝트에 대 한 partial 클래스 이름과 올바른 네임 스페이스를 사용 하 여 코드를 다음과 같이 바꿉니다.
 
      [!code-csharp[VbRaddataTableAdapters#2](../data-tools/codesnippet/CSharp/extend-the-functionality-of-a-tableadapter_1.cs)]
      [!code-vb[VbRaddataTableAdapters#2](../data-tools/codesnippet/VisualBasic/extend-the-functionality-of-a-tableadapter_1.vb)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [TableAdapter를 사용하여 데이터 세트 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
+- [TableAdapter를 사용하여 데이터 집합 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)

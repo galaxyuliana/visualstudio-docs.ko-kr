@@ -14,12 +14,12 @@ ms.assetid: 029e0790-ffd1-496d-8700-3b3dbac1b6fd
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 792403a9a53f11431e87115d7a95345e316dc2ac
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 8fd8add72d016bc3f2e815f41c29c735505c8817
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56844297"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108427"
 ---
 # <a name="the-uri-to-be-decoded-is-not-a-valid-encoding"></a>디코딩할 URI가 올바른 인코딩이 아닙니다.
 형식이 잘못 된 URI (Uniform Resource Identifier)를 디코딩 하려고 했습니다. Uri에는 특수 구문이; URI에서 사용할 수 전에 대부분의 영숫자가 아닌 문자를 인코딩해야 합니다. 사용할 수는 `encodeURI` 하 고 `encodeURIComponent` 에서 보통 URI를 만드는 방법 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 문자열입니다.  
@@ -34,7 +34,7 @@ ms.locfileid: "56844297"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   유효한 Uri만 디코딩 하려는 것을 확인 합니다. 일반을 디코딩할 수 없습니다. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 문자열에 잘못 된 문자가 포함 되어 있을 수 있습니다.  
+- 유효한 Uri만 디코딩 하려는 것을 확인 합니다. 일반을 디코딩할 수 없습니다. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 문자열에 잘못 된 문자가 포함 되어 있을 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [decodeURI 함수](../../javascript/reference/decodeuri-function-javascript.md)   

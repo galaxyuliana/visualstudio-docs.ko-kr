@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c4d372c0f21bfeb9768796e494a2689b7fc9f32f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: aed2acd4dbf921d99bcefe2e74575401fc01c7d7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658046"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101323"
 ---
 # <a name="graphics-log-document"></a>그래픽 로그 문서
 그래픽 로그 문서는 그래픽 진단 세션에서 앱을 실행하는 동안 발생한 그래픽 이벤트의 레코드입니다. 기록된 후에는 Visual Studio Graphics Analyzer에서 이 로그를 검토하여 렌더링 및 성능 문제를 진단할 수 있습니다.
@@ -33,11 +33,11 @@ ms.locfileid: "59658046"
 
 #### <a name="to-inspect-a-frame"></a>프레임을 검사하려면
 
--   **프레임 목록**에서 검사하려는 프레임을 선택합니다. 그러면 그래픽 로그 문서의 상단 부분에 표시된 렌더링 대상 출력이 업데이트되어 선택한 프레임이 표시됩니다.
+- **프레임 목록**에서 검사하려는 프레임을 선택합니다. 그러면 그래픽 로그 문서의 상단 부분에 표시된 렌더링 대상 출력이 업데이트되어 선택한 프레임이 표시됩니다.
 
 #### <a name="to-inspect-a-pixel"></a>픽셀을 검사하려면
 
--   그래픽 로그 문서의 상단 부분의 렌더링 대상 출력에서 원하는 픽셀을 선택합니다. 픽셀을 선택하면 **그래픽 픽셀 기록** 창을 사용하여 선택한 픽셀에 대한 자세한 정보를 볼 수 있습니다. 자세한 내용은 [픽셀 기록](graphics-pixel-history.md)합니다.
+- 그래픽 로그 문서의 상단 부분의 렌더링 대상 출력에서 원하는 픽셀을 선택합니다. 픽셀을 선택하면 **그래픽 픽셀 기록** 창을 사용하여 선택한 픽셀에 대한 자세한 정보를 볼 수 있습니다. 자세한 내용은 [픽셀 기록](graphics-pixel-history.md)합니다.
 
 ## <a name="playback-machine"></a>재생 컴퓨터
  **프레임 목록**의 오른쪽 위 모퉁이에는 **재생 머신**도 표시됩니다. 재생 컴퓨터는 이후 그래픽 진단 세션 중 그래픽 로그 파일에서 그래픽 이벤트를 재생하는 데 사용되는 컴퓨터 또는 장치입니다. 개발 컴퓨터 대신 다른 장치를 사용하여 캡처된 이벤트를 재생하면 문제가 발생한 실행 환경을 보다 정확하게 재현할 수 있습니다. 예를 들어 개발 컴퓨터에서 사용하는 것과 다른 그래픽 하드웨어 또는 드라이버가 있는 컴퓨터나 ARM 기반 Windows RT 태블릿 또는 Windows Phone 장치와 같은 다른 종류의 장치를 사용할 수 있습니다.

@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1fdfb43a00515dff57dd59943043ee0a42dc270f
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
-ms.translationtype: MTE95
+ms.openlocfilehash: ff64735e1711a18bd7c55c6e052fa8579bd12e16
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428728"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100367"
 ---
 # <a name="configure-windows-firewall-for-remote-debugging"></a>원격 디버깅용 Windows 방화벽을 구성 합니다.
 
@@ -76,7 +76,7 @@ Visual Studio와 원격 디버거 설치 또는 시작 중 올바른 포트를 �
 
 |**포트**|**들어오는/나가는 포트**|**프로토콜**|**설명**|
 |-|-|-|-|
-|135, 139, 445|나가는 포트|TCP|필수 요소.|
+|135, 139, 445|나가는 포트|TCP|필수.|
 |137, 138|나가는 포트|UDP|필수 요소.|
 
 도메인 정책에 따라 IPSec을 통해 수행할 네트워크 통신에 필요한 경우 Visual Studio와 원격 컴퓨터에서 추가 포트를 열어야 합니다. 원격 IIS 웹 서버를 디버깅 하려면 원격 컴퓨터에서 포트 80을 엽니다.
@@ -102,13 +102,13 @@ Windows 방화벽을 통해 특정 앱을 허용 하려면 참조 [Windows 방�
 
 1. 선택 **앱을 Windows 방화벽을 통해**합니다.
 
-1.  하는 경우 **원격 디버거** 또는 **Visual Studio 원격 디버거** 아래에 표시 하지 않습니다 **허용 된 앱 및 기능**선택, **설정을변경할**를 선택한 후 **다른 앱 허용**합니다.
+1. 하는 경우 **원격 디버거** 또는 **Visual Studio 원격 디버거** 아래에 표시 하지 않습니다 **허용 된 앱 및 기능**선택, **설정을변경할**를 선택한 후 **다른 앱 허용**합니다.
 
-1.  여전히 원격 디버거 응용 프로그램에 나열 되지 않은 경우는 **앱 추가** 대화 상자에서 **찾아보기**, 이동할  *\<Visual Studio 설치 디렉터리\> \\Common7\\IDE\\원격 디버거\\\<x86*하십시오 *x64*, 또는 *Appx* \> 를 앱에 대 한 적절 한 아키텍처에 따라 합니다. 선택 *msvsmon.exe*를 선택한 후 **추가**합니다.
+1. 여전히 원격 디버거 응용 프로그램에 나열 되지 않은 경우는 **앱 추가** 대화 상자에서 **찾아보기**, 이동할  *\<Visual Studio 설치 디렉터리\> \\Common7\\IDE\\원격 디버거\\\<x86*하십시오 *x64*, 또는 *Appx* \> 를 앱에 대 한 적절 한 아키텍처에 따라 합니다. 선택 *msvsmon.exe*를 선택한 후 **추가**합니다.
 
-1.  에 **앱** 목록에서 합니다 **원격 디버거** 방금 추가한 합니다. 선택 **네트워크 형식과**, 한 다음 원격 연결에 대 한 네트워크 종류를 포함 하 여 하나 이상의 네트워크 형식을 선택 합니다.
+1. 에 **앱** 목록에서 합니다 **원격 디버거** 방금 추가한 합니다. 선택 **네트워크 형식과**, 한 다음 원격 연결에 대 한 네트워크 종류를 포함 하 여 하나 이상의 네트워크 형식을 선택 합니다.
 
-1.  선택 **추가**를 선택한 후 **확인**합니다.
+1. 선택 **추가**를 선택한 후 **확인**합니다.
 
 ## <a name="troubleshooting"></a>원격 디버깅 연결 문제 해결
 
@@ -121,7 +121,7 @@ Windows 방화벽을 통해 특정 앱을 허용 하려면 참조 [Windows 방�
   - 을 확인 하거나 규칙 설정을 변경 하려면 마우스 오른쪽 단추로 클릭 합니다 **원격 디버거** 앱 목록에 선택 **속성**합니다. 사용 된 **속성** 탭을 사용 하도록 설정 또는 규칙을 사용 하지 않도록 설정 하거나 변경 하려면 포트 번호, 프로토콜 또는 네트워크 형식입니다.
   - 원격 디버거 앱 규칙 목록에 나타나지 않는 경우 [추가 하 고 올바른 포트를 구성](#configure-ports-for-remote-debugging)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [원격 디버깅](../debugger/remote-debugging.md)
 - [Visual Studio 원격 디버거 포트 할당](../debugger/remote-debugger-port-assignments.md)

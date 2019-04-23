@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e3de20f175ae7300732cd56633aebcdc3e0aa0cf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ba5603fe759f55a85425bc61da0a470aa38d636c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56654037"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099613"
 ---
 # <a name="how-to-resize-namedrange-controls"></a>방법: NamedRange 컨트롤 크기 조정
   Microsoft Office Excel 문서에 추가할 때 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤의 크기를 설정할 수 있지만 나중에 크기를 조정할 수도 있습니다.
@@ -30,32 +30,32 @@ ms.locfileid: "56654037"
 
  이 항목에서는 다음 작업에 대해 설명합니다.
 
--   [디자인 타임에 NamedRange 컨트롤 크기 조정](#designtime)
+- [디자인 타임에 NamedRange 컨트롤 크기 조정](#designtime)
 
--   [런타임에 문서 수준 프로젝트에서 NamedRange 컨트롤 크기 조정](#runtimedoclevel)
+- [런타임에 문서 수준 프로젝트에서 NamedRange 컨트롤 크기 조정](#runtimedoclevel)
 
--   [런타임에 VSTO 추가 기능 프로젝트에서 NamedRange 컨트롤 크기 조정](#runtimeaddin)
+- [런타임에 VSTO 추가 기능 프로젝트에서 NamedRange 컨트롤 크기 조정](#runtimeaddin)
 
-##  <a name="designtime"></a> 디자인 타임에 NamedRange 컨트롤 크기 조정
+## <a name="designtime"></a> 디자인 타임에 NamedRange 컨트롤 크기 조정
  명명된 범위의 크기를 **이름 정의** 대화 상자에서 다시 정의하여 크기를 조정할 수 있습니다.
 
 ### <a name="to-resize-a-named-range-by-using-the-define-name-dialog-box"></a>이름 정의 대화 상자를 사용하여 명명된 범위의 크기를 조정하려면
 
-1.  <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 마우스 오른쪽 단추로 클릭합니다.
+1. <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 마우스 오른쪽 단추로 클릭합니다.
 
-2.  바로 가기 메뉴에서 **명명된 범위 관리** 를 클릭합니다.
+2. 바로 가기 메뉴에서 **명명된 범위 관리** 를 클릭합니다.
 
      **이름 정의** 대화 상자가 나타납니다.
 
-3.  크기를 조정하려는 명명된 범위를 선택합니다.
+3. 크기를 조정하려는 명명된 범위를 선택합니다.
 
-4.  **참조 대상** 상자를 지웁니다.
+4. **참조 대상** 상자를 지웁니다.
 
-5.  명명된 범위의 크기를 정의하는 데 사용하려는 셀을 선택합니다.
+5. 명명된 범위의 크기를 정의하는 데 사용하려는 셀을 선택합니다.
 
-6.  **확인**을 클릭합니다.
+6. **확인**을 클릭합니다.
 
-##  <a name="runtimedoclevel"></a> 런타임에 문서 수준 프로젝트에서 NamedRange 컨트롤 크기 조정
+## <a name="runtimedoclevel"></a> 런타임에 문서 수준 프로젝트에서 NamedRange 컨트롤 크기 조정
  <xref:Microsoft.Office.Tools.Excel.NamedRange.RefersTo%2A> 속성을 사용하여 프로그래밍 방식으로 명명된 범위의 크기를 조정할 수 있습니다.
 
 > [!NOTE]
@@ -63,27 +63,27 @@ ms.locfileid: "56654037"
 
 ### <a name="to-resize-a-named-range-programmatically"></a>프로그래밍 방식으로 명명된 범위의 크기를 조정하려면
 
-1.  <xref:Microsoft.Office.Tools.Excel.NamedRange> 의 **A1** 셀에서 `Sheet1`컨트롤을 만듭니다.
+1. <xref:Microsoft.Office.Tools.Excel.NamedRange> 의 **A1** 셀에서 `Sheet1`컨트롤을 만듭니다.
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#4)]
      [!code-vb[Trin_VstcoreHostControlsExcel#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#4)]
 
-2.  명명된 범위의 크기를 조정하여 **B1**셀을 포함합니다.
+2. 명명된 범위의 크기를 조정하여 **B1**셀을 포함합니다.
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#5)]
      [!code-vb[Trin_VstcoreHostControlsExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#5)]
 
-##  <a name="runtimeaddin"></a> 런타임에 VSTO 추가 기능 프로젝트에서 NamedRange 컨트롤 크기 조정
+## <a name="runtimeaddin"></a> 런타임에 VSTO 추가 기능 프로젝트에서 NamedRange 컨트롤 크기 조정
  크기를 조정할 수는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 런타임에 열려 있는 워크시트에 컨트롤입니다. 추가 하는 방법에 대 한 자세한를 <xref:Microsoft.Office.Tools.Excel.NamedRange> VSTO 추가 기능을 사용 하 여 워크시트에 컨트롤을 참조 하세요 [방법: 워크시트에 NamedRange 컨트롤 추가](../vsto/how-to-add-namedrange-controls-to-worksheets.md)합니다.
 
 ### <a name="to-resize-a-named-range-programmatically"></a>프로그래밍 방식으로 명명된 범위의 크기를 조정하려면
 
-1.  <xref:Microsoft.Office.Tools.Excel.NamedRange> 의 **A1** 셀에서 `Sheet1`컨트롤을 만듭니다.
+1. <xref:Microsoft.Office.Tools.Excel.NamedRange> 의 **A1** 셀에서 `Sheet1`컨트롤을 만듭니다.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#10](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#10)]
      [!code-vb[Trin_Excel_Dynamic_Controls#10](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#10)]
 
-2.  명명된 범위의 크기를 조정하여 **B1**셀을 포함합니다.
+2. 명명된 범위의 크기를 조정하여 **B1**셀을 포함합니다.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#11](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#11)]
      [!code-vb[Trin_Excel_Dynamic_Controls#11](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#11)]

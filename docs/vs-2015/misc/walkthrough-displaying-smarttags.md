@@ -9,12 +9,12 @@ helpviewer_keywords:
 ms.assetid: 10bb4f69-b259-41f0-b91a-69b04385d9a5
 caps.latest.revision: 31
 manager: jillfra
-ms.openlocfilehash: e918c8e83909bb5a04d27f72cb07c7135b00daa9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a14fcb8e81261962e8851347a54d7c8d52565d20
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983580"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110442"
 ---
 # <a name="walkthrough-displaying-smarttags"></a>연습: 스마트 태그 표시
 스마트 태그는 전구로 대체되었습니다. [연습: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)합니다.  
@@ -35,57 +35,57 @@ ms.locfileid: "58983580"
   
 #### <a name="to-create-a-mef-project"></a>MEF 프로젝트를 만들려면  
   
-1.  편집기 분류자 프로젝트를 만듭니다. 솔루션의 이름을 `SmartTagTest`로 지정합니다.  
+1. 편집기 분류자 프로젝트를 만듭니다. 솔루션의 이름을 `SmartTagTest`로 지정합니다.  
   
-2.  VSIX 매니페스트 편집기에서 source.extension.vsixmanifest 파일을 엽니다.  
+2. VSIX 매니페스트 편집기에서 source.extension.vsixmanifest 파일을 엽니다.  
   
-3.  **자산** 섹션에 `Microsoft.VisualStudio.MefComponent` 형식이 포함되어 있고, **소스** 가 `A project in current solution`으로 설정되었으며, **프로젝트** 가 SmartTagTest.dll로 설정되었는지 확인합니다.  
+3. **자산** 섹션에 `Microsoft.VisualStudio.MefComponent` 형식이 포함되어 있고, **소스** 가 `A project in current solution`으로 설정되었으며, **프로젝트** 가 SmartTagTest.dll로 설정되었는지 확인합니다.  
   
-4.  source.extension.vsixmanifest를 저장하고 닫습니다.  
+4. source.extension.vsixmanifest를 저장하고 닫습니다.  
   
-5.  프로젝트에 대한 다음 참조를 추가하고 **CopyLocal** 을 `false`로 설정합니다.  
+5. 프로젝트에 대한 다음 참조를 추가하고 **CopyLocal** 을 `false`로 설정합니다.  
   
      Microsoft.VisualStudio.Language.Intellisense  
   
-6.  기존 클래스 파일을 삭제합니다.  
+6. 기존 클래스 파일을 삭제합니다.  
   
 ## <a name="implementing-a-tagger-for-smart-tags"></a>스마트 태그에 대한 태거 구현  
   
 #### <a name="to-implement-a-tagger-for-smart-tags"></a>스마트 태그에 대한 태거를 구현하려면  
   
-1.  클래스 파일을 추가하고 이름을 `TestSmartTag`로 지정합니다.  
+1. 클래스 파일을 추가하고 이름을 `TestSmartTag`로 지정합니다.  
   
-2.  다음 가져오기를 추가합니다.  
+2. 다음 가져오기를 추가합니다.  
   
      [!code-csharp[VSSDKSmartTagTest#1](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#1)]
      [!code-vb[VSSDKSmartTagTest#1](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#1)]  
   
-3.  <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>에서 상속하는 `TestSmartTag`라는 클래스를 추가합니다.  
+3. <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>에서 상속하는 `TestSmartTag`라는 클래스를 추가합니다.  
   
      [!code-csharp[VSSDKSmartTagTest#2](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#2)]
      [!code-vb[VSSDKSmartTagTest#2](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#2)]  
   
-4.  단어의 첫 문자 아래에 파란색 선을 표시하는 <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>를 <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>으로 사용하여 기본 생성자를 호출하는 이 클래스에 대한 생성자를 추가합니다. <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>을 사용하는 경우 단어의 마지막 문자 아래에 빨간색 선이 표시됩니다.  
+4. 단어의 첫 문자 아래에 파란색 선을 표시하는 <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>를 <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>으로 사용하여 기본 생성자를 호출하는 이 클래스에 대한 생성자를 추가합니다. <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>을 사용하는 경우 단어의 마지막 문자 아래에 빨간색 선이 표시됩니다.  
   
      [!code-csharp[VSSDKSmartTagTest#3](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#3)]
      [!code-vb[VSSDKSmartTagTest#3](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#3)]  
   
-5.  `TestSmartTag` 형식의 <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601>에서 상속하고 <xref:System.IDisposable>을 구현하는 `TestSmartTagger`라는 클래스를 추가합니다.  
+5. `TestSmartTag` 형식의 <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601>에서 상속하고 <xref:System.IDisposable>을 구현하는 `TestSmartTagger`라는 클래스를 추가합니다.  
   
      [!code-csharp[VSSDKSmartTagTest#4](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#4)]
      [!code-vb[VSSDKSmartTagTest#4](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#4)]  
   
-6.  태거 클래스에 다음과 같은 전용 필드를 추가합니다.  
+6. 태거 클래스에 다음과 같은 전용 필드를 추가합니다.  
   
      [!code-csharp[VSSDKSmartTagTest#5](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#5)]
      [!code-vb[VSSDKSmartTagTest#5](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#5)]  
   
-7.  전용 필드를 설정하고 <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> 이벤트를 구독하는 생성자를 추가합니다.  
+7. 전용 필드를 설정하고 <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> 이벤트를 구독하는 생성자를 추가합니다.  
   
      [!code-csharp[VSSDKSmartTagTest#6](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#6)]
      [!code-vb[VSSDKSmartTagTest#6](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#6)]  
   
-8.  현재 단어에 대한 태그가 만들어지도록 <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A>를 구현합니다. 이 메서드는 나중에 설명하는 private 메서드 `GetSmartTagActions` 도 호출합니다.  
+8. 현재 단어에 대한 태그가 만들어지도록 <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A>를 구현합니다. 이 메서드는 나중에 설명하는 private 메서드 `GetSmartTagActions` 도 호출합니다.  
   
      [!code-csharp[VSSDKSmartTagTest#7](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#7)]
      [!code-vb[VSSDKSmartTagTest#7](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#7)]  
@@ -114,17 +114,17 @@ ms.locfileid: "58983580"
   
 #### <a name="to-implement-the-smart-tag-tagger-provider"></a>스마트 태그 태거 공급자를 구현하려면  
   
-1.  <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>에서 상속하는 `TestSmartTagTaggerProvider`라는 클래스를 추가합니다. <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>로 "text"를 사용하고, <xref:Microsoft.VisualStudio.Utilities.OrderAttribute>로 Before="default"를 사용하고, <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute>로 <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>를 사용하여 내보냅니다.  
+1. <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>에서 상속하는 `TestSmartTagTaggerProvider`라는 클래스를 추가합니다. <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>로 "text"를 사용하고, <xref:Microsoft.VisualStudio.Utilities.OrderAttribute>로 Before="default"를 사용하고, <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute>로 <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>를 사용하여 내보냅니다.  
   
      [!code-csharp[VSSDKSmartTagTest#12](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#12)]
      [!code-vb[VSSDKSmartTagTest#12](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#12)]  
   
-2.  <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>를 속성으로 가져옵니다.  
+2. <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>를 속성으로 가져옵니다.  
   
      [!code-csharp[VSSDKSmartTagTest#13](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#13)]
      [!code-vb[VSSDKSmartTagTest#13](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#13)]  
   
-3.  <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider.CreateTagger%2A> 메서드를 구현합니다.  
+3. <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider.CreateTagger%2A> 메서드를 구현합니다.  
   
      [!code-csharp[VSSDKSmartTagTest#14](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#14)]
      [!code-vb[VSSDKSmartTagTest#14](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#14)]  
@@ -168,19 +168,19 @@ ms.locfileid: "58983580"
   
 #### <a name="to-build-and-test-the-smarttagtest-solution"></a>SmartTagTest 솔루션을 빌드하고 테스트하려면  
   
-1.  솔루션을 빌드합니다.  
+1. 솔루션을 빌드합니다.  
   
-2.  디버거에서 이 프로젝트를 실행하면 Visual Studio의 두 번째 인스턴스가 인스턴스화됩니다.  
+2. 디버거에서 이 프로젝트를 실행하면 Visual Studio의 두 번째 인스턴스가 인스턴스화됩니다.  
   
-3.  텍스트 파일을 만들고 일부 텍스트를 입력합니다.  
+3. 텍스트 파일을 만들고 일부 텍스트를 입력합니다.  
   
      텍스트에서 첫 번째 단어의 첫 문자 아래에 파란색 선이 표시됩니다.  
   
-4.  파란색 선 위로 포인터를 이동합니다.  
+4. 파란색 선 위로 포인터를 이동합니다.  
   
      포인터 근처에 단추가 표시됩니다.  
   
-5.  단추를 클릭 하면 두 가지 제안 된 작업 표시 됩니다. **대문자로 변환할** 하 고 **소문자로 변환할**합니다. 첫 번째 동작을 클릭하면 현재 단어의 모든 텍스트가 대문자로 변환됩니다. 두 번째 동작을 클릭하면 모든 텍스트가 소문자로 변환됩니다.  
+5. 단추를 클릭 하면 두 가지 제안 된 작업 표시 됩니다. **대문자로 변환할** 하 고 **소문자로 변환할**합니다. 첫 번째 동작을 클릭하면 현재 단어의 모든 텍스트가 대문자로 변환됩니다. 두 번째 동작을 클릭하면 모든 텍스트가 소문자로 변환됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 파일 이름 확장명에 콘텐츠 형식 연결](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

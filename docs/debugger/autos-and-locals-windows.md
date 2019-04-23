@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7d270b14a0dda18a037eb74181c2eec69cf26dc8
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 60bb98644c1905b030176b28b97575b379bed38d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59366551"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103097"
 ---
 # <a name="inspect-variables-in-the-autos-and-locals-windows"></a>자동 및 지역 창에서 변수 검사
 
@@ -56,9 +56,9 @@ ms.locfileid: "59366551"
 >[!CAUTION]
 >값 및 식 변경 하기 전에 결과 이해 해야 합니다. 가능한 몇 가지 문제는:
 >
->-   일부 경우에는 식을 계산하면 변수 값이 바뀌거나 프로그램 상태에 영향이 미칠 수 있습니다. 예를 들어, 평가할 `var1 = ++var2` 둘 다의 값을 변경 `var1` 및 `var2`합니다. 이러한 식은 있다고 [부작용](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\))합니다. 부작용의 인식할 수 없는 경우 예기치 않은 결과가 발생할 수 있습니다.
+>- 일부 경우에는 식을 계산하면 변수 값이 바뀌거나 프로그램 상태에 영향이 미칠 수 있습니다. 예를 들어, 평가할 `var1 = ++var2` 둘 다의 값을 변경 `var1` 및 `var2`합니다. 이러한 식은 있다고 [부작용](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\))합니다. 부작용의 인식할 수 없는 경우 예기치 않은 결과가 발생할 수 있습니다.
 >
->-   부동 소수점 값을 편집하면 소수 부분이 10진수에서 이진수로 변환되면서 약간의 오차가 발생할 수 있습니다. 무해 한 것 처럼 보이는 편집도 부동 소수점 변수의 비트 중 일부에 대 한 변경 될 수 있습니다.
+>- 부동 소수점 값을 편집하면 소수 부분이 10진수에서 이진수로 변환되면서 약간의 오차가 발생할 수 있습니다. 무해 한 것 처럼 보이는 편집도 부동 소수점 변수의 비트 중 일부에 대 한 변경 될 수 있습니다.
 
 ::: moniker range=">= vs-2019" 
 ## <a name="search-in-the-autos-or-locals-window"></a>자동 또는 지역 창에서 검색
@@ -85,9 +85,9 @@ ms.locfileid: "59366551"
 
 ## <a name="bkmk_whatvariables"></a> 자동 창에서 변수 (C#, C++, Visual Basic, Python)
 
- 다른 코드 언어에 다른 변수를 표시 합니다 **자동** 창입니다.
+다른 코드 언어에 다른 변수를 표시 합니다 **자동** 창입니다.
 
- - C# 및 Visual Basic에서 **자동** 창에는 현재 또는 이전 줄에 사용된 모든 변수가 표시됩니다. 예를 들어, C# 또는 Visual Basic 코드를 다음 4 개의 변수를 선언 합니다.
+- C# 및 Visual Basic에서 **자동** 창에는 현재 또는 이전 줄에 사용된 모든 변수가 표시됩니다. 예를 들어, C# 또는 Visual Basic 코드를 다음 4 개의 변수를 선언 합니다.
 
    ```csharp
        public static void Main()
@@ -106,7 +106,7 @@ ms.locfileid: "59366551"
 
    변수의 `c` 때문에 0 이면 줄 `c = 3` 아직 실행 되지 않았습니다.
 
- - C++의 **자동** 실행이 일시 중지 적어도 세 줄은 현재 줄 앞에 사용 된 변수 창에 표시 됩니다. 예를 들어, C++ 코드에서 6 개의 변수를 선언 합니다.
+- C++의 **자동** 실행이 일시 중지 적어도 세 줄은 현재 줄 앞에 사용 된 변수 창에 표시 됩니다. 예를 들어, C++ 코드에서 6 개의 변수를 선언 합니다.
 
    ```C++
        void main() {
@@ -126,7 +126,7 @@ ms.locfileid: "59366551"
 
     변수의 `e` 아니므로 초기화 줄 `e = 5` 아직 실행 되지 않았습니다.
 
-##  <a name="bkmk_returnValue"></a> View return values of method calls
+## <a name="bkmk_returnValue"></a> View return values of method calls
  .NET에서 및 C++ 코드의 반환 값을 검사할 수 있습니다는 **자동** 건너뛰거나 나간 메서드 호출을 단계별로 실행할 때 창입니다. 보기 메서드 호출에서 반환 값 로컬 변수에 저장 되지 않습니다 하는 경우 유용할 수 있습니다. 메서드가 다른 메서드의 반환 값 또는 매개 변수로 사용할 수 있습니다.
 
  예를 들어, 다음 C# 코드는 두 함수의 반환 값을 추가 합니다.

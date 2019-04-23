@@ -15,12 +15,12 @@ ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 27be664fb035af2c97f0536026b590c468b68b9e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 681a529b33fc2342168ba1fbe1df57746dc8bd7d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981751"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101706"
 ---
 # <a name="localizing-menu-commands"></a>메뉴 명령 지역화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,19 +78,19 @@ ms.locfileid: "58981751"
 ## <a name="localizing-other-text-resources"></a>다른 텍스트 리소스 지역화  
  명령 이름 이외의 텍스트 리소스는 리소스 (.resx) 파일에 정의 됩니다.  
   
-1.  VSPackage.en US.resx VSPackage.resx의 이름을 바꿉니다.  
+1. VSPackage.en US.resx VSPackage.resx의 이름을 바꿉니다.  
   
-2.  지역화 된 언어 마다 VSPackage.en US.resx 파일의 복사본을 만듭니다.  
+2. 지역화 된 언어 마다 VSPackage.en US.resx 파일의 복사본을 만듭니다.  
   
      각 복사본 VSPackage 이름을 지정 합니다. *로캘*.resx, 여기서 *로캘* 특정 문화권 이름입니다.  
   
-3.  저장할 US.resx Resources.resx의 이름을 바꿉니다.  
+3. 저장할 US.resx Resources.resx의 이름을 바꿉니다.  
   
-4.  지역화 된 언어 마다 US.resx 저장할 파일의 복사본을 만듭니다.  
+4. 지역화 된 언어 마다 US.resx 저장할 파일의 복사본을 만듭니다.  
   
      각 복사본 리소스 이름을 지정 합니다. *로캘*.resx, 여기서 *로캘* 특정 문화권 이름입니다.  
   
-5.  특정 언어와 문화권에 대 한 적절 한 문자열 값을 수정 하려면 각.resx 파일을 엽니다. 다음 예제에서는 도구 창의 제목 표시줄에 대 한 지역화 된 리소스 정을 보여 줍니다.  
+5. 특정 언어와 문화권에 대 한 적절 한 문자열 값을 수정 하려면 각.resx 파일을 엽니다. 다음 예제에서는 도구 창의 제목 표시줄에 대 한 지역화 된 리소스 정을 보여 줍니다.  
   
      [Resources.en-US.resx]  
   
@@ -112,9 +112,9 @@ ms.locfileid: "58981751"
 ## <a name="incorporating-localized-resources-into-the-project"></a>지역화 된 리소스를 프로젝트로 통합  
  Assemblyinfo.cs 파일 및 지역화 된 리소스를 통합 하기 위해 프로젝트 파일을 수정 해야 합니다.  
   
-1.  **속성** 노드에서 **솔루션 탐색기**, assemblyinfo.cs 또는 assemblyinfo.vb 편집기에서 엽니다.  
+1. **속성** 노드에서 **솔루션 탐색기**, assemblyinfo.cs 또는 assemblyinfo.vb 편집기에서 엽니다.  
   
-2.  다음 항목을 추가 합니다.  
+2. 다음 항목을 추가 합니다.  
   
     ```csharp  
     [assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]  
@@ -122,13 +122,13 @@ ms.locfileid: "58981751"
   
      이 설정 된 기본 언어로 영어 (미국) 합니다.  
   
-3.  프로젝트를 언로드하십시오.  
+3. 프로젝트를 언로드하십시오.  
   
-4.  편집기에서 프로젝트 파일을 엽니다.  
+4. 편집기에서 프로젝트 파일을 엽니다.  
   
-5.  찾을 합니다 `ItemGroup` 포함 하는 요소 `EmbeddedResource` 요소입니다.  
+5. 찾을 합니다 `ItemGroup` 포함 하는 요소 `EmbeddedResource` 요소입니다.  
   
-6.  에 `EmbeddedResource` 대체 VSPackage.en-US.resx를 호출 하는 요소는 `ManifestResourceName` 요소를 `LogicalName` 로 설정 하는 요소 `VSPackage.en-US.Resources`다음과 같이 합니다.  
+6. 에 `EmbeddedResource` 대체 VSPackage.en-US.resx를 호출 하는 요소는 `ManifestResourceName` 요소를 `LogicalName` 로 설정 하는 요소 `VSPackage.en-US.Resources`다음과 같이 합니다.  
   
     ```xml  
     <EmbeddedResource Include="VSPackage.en-US.resx">  
@@ -137,9 +137,9 @@ ms.locfileid: "58981751"
     </EmbeddedResource>  
     ```  
   
-7.  각 지역화 된 언어에 대 한 복사 합니다 `EmbeddedResource` VsPackage.en-US 및 집합에 대 한 요소를 **Include** 특성 및 **LogicalName** 요소 다음에 표시 된 대로 대상 로캘로 복사본 예입니다.  
+7. 각 지역화 된 언어에 대 한 복사 합니다 `EmbeddedResource` VsPackage.en-US 및 집합에 대 한 요소를 **Include** 특성 및 **LogicalName** 요소 다음에 표시 된 대로 대상 로캘로 복사본 예입니다.  
   
-8.  지역화 된 각 `VSCTCompile` 요소를 추가 `ResourceName` 가리키는 요소의 `Menus.ctmenu`다음 예제에서와 같이 합니다.  
+8. 지역화 된 각 `VSCTCompile` 요소를 추가 `ResourceName` 가리키는 요소의 `Menus.ctmenu`다음 예제에서와 같이 합니다.  
   
     ```xml  
     <ItemGroup>  

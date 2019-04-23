@@ -8,12 +8,12 @@ ms.assetid: a859595f-6517-43f2-9d61-c706cb55a388
 caps.latest.revision: 25
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c7245af090cfdaa8e4282677c8b5a052d63b63e2
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MTE95
+ms.openlocfilehash: 5289804eb85b9af4fff090f98cc97f8d2c9ec676
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54805536"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100406"
 ---
 # <a name="using-different-web-browsers-with-coded-ui-tests"></a>코딩된 UI 테스트에 다른 웹 브라우저 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,19 +26,19 @@ ms.locfileid: "54805536"
   
 - 운영 체제  
   
-  -   Microsoft Windows 7  
+  - Microsoft Windows 7  
   
-  -   Microsoft Windows 8  
+  - Microsoft Windows 8  
   
-  -   Microsoft Windows Server 2008 R2 SP1  
+  - Microsoft Windows Server 2008 R2 SP1  
   
 - 웹 브라우저 버전:  
   
-  -   Windows Internet Explorer 9  
+  - Windows Internet Explorer 9  
   
-  -   Windows Internet Explorer 10  
+  - Windows Internet Explorer 10  
   
-  -   Mozilla Firefox 및 Google Chrome의 지원되는 버전을 확인하려면 [여기](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)로 이동하세요.  
+  - Mozilla Firefox 및 Google Chrome의 지원되는 버전을 확인하려면 [여기](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)로 이동하세요.  
   
 - [코딩된 UI 다중 브라우저용 Selenium 구성 요소](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)를 설치합니다.  
   
@@ -83,19 +83,19 @@ ms.locfileid: "54805536"
 ### <a name="enable-debugging"></a>디버깅 사용  
  웹 애플리케이션을 디버깅하려면 다음 구성 옵션을 완료해야 합니다.  
   
-1.  내 코드만 사용:  
+1. 내 코드만 사용:  
   
-    1.  **도구** 메뉴에서 **옵션**을 선택한 다음 **디버깅**을 선택합니다.  
+    1. **도구** 메뉴에서 **옵션**을 선택한 다음 **디버깅**을 선택합니다.  
   
-    2.  **내 코드만 사용**을 선택합니다.  
+    2. **내 코드만 사용**을 선택합니다.  
   
-2.  CLR 예외 사용 안 함:  
+2. CLR 예외 사용 안 함:  
   
-    1.  **디버그** 메뉴에서 **예외**를 선택합니다.  
+    1. **디버그** 메뉴에서 **예외**를 선택합니다.  
   
-    2.  **공용 언어 런타임 예외**에 대해 **사용자가 처리하지 않음**을 선택 취소합니다.  
+    2. **공용 언어 런타임 예외**에 대해 **사용자가 처리하지 않음**을 선택 취소합니다.  
   
-##  <a name="generate"></a> *코딩된 UI 테스트에 BrowserWindow.CurrentBrowser를 변경할 수 있는 옵션이 표시되지 않습니다.*  
+## <a name="generate"></a> *코딩된 UI 테스트에 BrowserWindow.CurrentBrowser를 변경할 수 있는 옵션이 표시되지 않습니다.*  
  다양한 웹 브라우저를 사용하여 코딩된 UI 테스트를 지원하지 않는 [!INCLUDE[vs2011_first](../includes/vs2011-first-md.md)] 버전을 사용하는 중일 수 있습니다. 코딩된 UI 테스트를 사용하려면 Visual Studio Enterprise를 사용해야 합니다.  
   
  *그 외 무엇을 알아야 하나요?*  
@@ -139,7 +139,7 @@ ms.locfileid: "54805536"
  [다중 브라우저 테스트 오류 문제 해결](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)  
   
 ### <a name="guidance"></a>지침  
- [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 유닛 테스트 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
+ [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
  [Visual Studio 2012 – Chapter 5를 사용한 연속 배달 테스트: 시스템 테스트 자동화](http://go.microsoft.com/fwlink/?LinkID=255196)  
   

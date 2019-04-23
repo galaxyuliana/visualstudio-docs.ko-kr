@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a2338e2402167987767ac5c9527113c4b0ff81d6
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 7f039154265e9031713eb5511bb1c51a63e5b422
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54867327"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60109181"
 ---
 # <a name="how-to-programmatically-cache-a-data-source-in-an-office-document"></a>방법: Office 문서에서 데이터 원본을 프로그래밍 방식으로 캐시
   호출 하 여 문서의 데이터 캐시에 데이터 개체를 프로그래밍 방식으로 추가할 수 있습니다는 `StartCaching` 와 같은 호스트의 메서드 항목을 <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, 또는 <xref:Microsoft.Office.Tools.Excel.Worksheet>합니다. 데이터 개체를 호출 하 여 데이터 캐시에서 제거 된 `StopCaching` 메서드 호스트 항목의 합니다.
@@ -34,19 +34,19 @@ ms.locfileid: "54867327"
 
 ## <a name="to-programmatically-cache-a-data-object"></a>프로그래밍 방식으로 데이터 개체를 캐시 하려면
 
-1.  메서드는 포함 되지 않은 클래스 수준에서 데이터 개체를 선언 합니다. 이 예에서는 가정 선언 하는 한 <xref:System.Data.DataSet> 라는 `dataSet1` 프로그래밍 방식으로 캐시 하려는 합니다.
+1. 메서드는 포함 되지 않은 클래스 수준에서 데이터 개체를 선언 합니다. 이 예에서는 가정 선언 하는 한 <xref:System.Data.DataSet> 라는 `dataSet1` 프로그래밍 방식으로 캐시 하려는 합니다.
 
      [!code-csharp[Trin_VstcoreDataExcel#12](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#12)]
      [!code-vb[Trin_VstcoreDataExcel#12](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#12)]
 
-2.  데이터 개체를 인스턴스화하고 호출을 `StartCaching` 메서드 문서 또는 워크시트 인스턴스 및 데이터 개체의 이름을 전달 합니다.
+2. 데이터 개체를 인스턴스화하고 호출을 `StartCaching` 메서드 문서 또는 워크시트 인스턴스 및 데이터 개체의 이름을 전달 합니다.
 
      [!code-csharp[Trin_VstcoreDataExcel#13](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#13)]
      [!code-vb[Trin_VstcoreDataExcel#13](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#13)]
 
 ## <a name="to-stop-caching-a-data-object"></a>데이터 개체를 캐시를 중지 하려면
 
-1.  호출 된 `StopCaching` 메서드 문서 또는 워크시트 인스턴스 및 데이터 개체의 이름을 전달 합니다. 이 예에서는 있다고 가정를 <xref:System.Data.DataSet> 라는 `dataSet1` 캐싱을 중지 하려는 합니다.
+1. 호출 된 `StopCaching` 메서드 문서 또는 워크시트 인스턴스 및 데이터 개체의 이름을 전달 합니다. 이 예에서는 있다고 가정를 <xref:System.Data.DataSet> 라는 `dataSet1` 캐싱을 중지 하려는 합니다.
 
      [!code-csharp[Trin_VstcoreDataExcel#14](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#14)]
      [!code-vb[Trin_VstcoreDataExcel#14](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#14)]

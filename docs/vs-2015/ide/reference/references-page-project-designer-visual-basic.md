@@ -17,12 +17,12 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a782fe1b69fba6a61b790cb5a6fa8c79f20e5e1d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: dd579e6bf434903ecc1e2fe60b1e62d54c165034
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649149"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114368"
 ---
 # <a name="references-page-project-designer-visual-basic"></a>참조 페이지, 프로젝트 디자이너(Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,9 +46,9 @@ ms.locfileid: "59649149"
 >  프로젝트 시스템이 어셈블리 참조를 찾으면 시스템에서는 다음 순서로 다음 위치를 확인하여 참조를 확인합니다.  
 > 
 > 1. 프로젝트 폴더. 프로젝트 폴더 파일은 **모든 파일 표시**가 적용되지 않을 경우 **솔루션 탐색기**에 표시됩니다.  
->    2.  **참조 경로** 대화 상자에 지정된 폴더.  
->    3.  **참조 추가** 대화 상자에 파일을 표시하는 폴더.  
->    4.  프로젝트의 obj 폴더. COM 참조를 프로젝트에 추가하면 하나 이상의 어셈블리가 프로젝트의 obj 폴더에 추가될 수 있습니다.  
+>    2. **참조 경로** 대화 상자에 지정된 폴더.  
+>    3. **참조 추가** 대화 상자에 파일을 표시하는 폴더.  
+>    4. 프로젝트의 obj 폴더. COM 참조를 프로젝트에 추가하면 하나 이상의 어셈블리가 프로젝트의 obj 폴더에 추가될 수 있습니다.  
   
  **참조**  
  이 목록에는 프로젝트에 있는 사용되거나 사용되지 않은 모든 참조가 표시됩니다.  
@@ -80,11 +80,11 @@ ms.locfileid: "59649149"
  **사용자 가져오기 업데이트**  
  네임스페이스 목록에서 사용자가 지정한 네임스페이스를 선택하고, **가져온 네임스페이스** 상자에서 해당 네임스페이스를 대체할 이름을 입력하고 나서, 이 단추를 클릭하여 새 네임스페이스로 변경합니다. 이 단추는 선택된 네임스페이스가 **사용자 가져오기 추가** 단추를 사용하여 목록에 추가한 네임스페이스인 경우에만 활성화됩니다. 다음을 추가할 수 있습니다.  
   
--   클래스 또는 네임스페이스(예: <xref:System.Math?displayProperty=fullName>).  
+- 클래스 또는 네임스페이스(예: <xref:System.Math?displayProperty=fullName>).  
   
--   별칭이 지정된 가져오기(예: `VB=Microsoft.VisualBasic`).  
+- 별칭이 지정된 가져오기(예: `VB=Microsoft.VisualBasic`).  
   
--   XML 네임스페이스(예: `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`).  
+- XML 네임스페이스(예: `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`).  
   
 ## <a name="see-also"></a>참고 항목  
  [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   

@@ -12,25 +12,25 @@ ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c38f0a891c6ee57ad2d483e48e06624fa9bccdf1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 272946c80f5df2c96d4cf2bf20ea988c71766d46
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981491"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100575"
 ---
 # <a name="idebugproperty3"></a>IDebugProperty3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
 이 인터페이스는에 대 한 지원을 제공 합니다.  
   
--   속성과 연결 된 임의의 긴 문자열을 검색 합니다.  
+- 속성과 연결 된 임의의 긴 문자열을 검색 합니다.  
   
--   속성을 사용 하 여 고유 ID를 연결 합니다.  
+- 속성을 사용 하 여 고유 ID를 연결 합니다.  
   
--   속성에 대 한 사용자 지정 뷰어 목록을 검색합니다.  
+- 속성에 대 한 사용자 지정 뷰어 목록을 검색합니다.  
   
--   결과 오류를 보고 하는 기능을 사용 하 여 속성의 값을 설정 합니다.  
+- 결과 오류를 보고 하는 기능을 사용 하 여 속성의 값을 설정 합니다.  
   
 ## <a name="syntax"></a>구문  
   

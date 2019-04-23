@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5350c4cad7acf936d90698a99299757e13a7de3a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 6a6c94382bd797b4c24057f623b334b2f2cd2983
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658830"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115577"
 ---
 # <a name="how-to-generate-an-xml-snippet-from-an-xml-schema"></a>방법: XML 스키마에서 XML 조각 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,11 +27,11 @@ XML 편집기에는 XSD(XML 스키마 정의 언어) 스키마에서 XML 조각�
   
 - 편집기에서 현재 요소는 특성 없이 비어 있어야 합니다. 예를 들어, 다음은 모두 유효합니다.  
   
-  -   `<Account`  
+  - `<Account`  
   
-  -   `<Account>`  
+  - `<Account>`  
   
-  -   `<Account></Account>`  
+  - `<Account></Account>`  
   
 - 요소 이름의 바로 오른쪽에 커서가 있어야 합니다.  
   
@@ -51,31 +51,31 @@ XML 편집기에는 XSD(XML 스키마 정의 언어) 스키마에서 XML 조각�
   
 #### <a name="to-create-a-new-xml-file-and-associate-it-with-an-xml-schema"></a>새 XML 파일을 만들어 XML 스키마와 연결하려면  
   
-1.  에 **파일** 메뉴에서 **새로 만들기**를 클릭 하 고 **파일**합니다.  
+1. 에 **파일** 메뉴에서 **새로 만들기**를 클릭 하 고 **파일**합니다.  
   
-2.  선택 **XML 파일** 에 **템플릿** 창과 클릭 **열기**합니다.  
+2. 선택 **XML 파일** 에 **템플릿** 창과 클릭 **열기**합니다.  
   
      편집기에서 새 파일이 열립니다. 파일에는 기본 XML 선언, `<?xml version="1.0" encoding="utf-8">`이 포함됩니다.  
   
-3.  문서 속성 창에서 찾아보기 단추를 클릭 합니다. (**...** )에 **스키마** 필드입니다.  
+3. 문서 속성 창에서 찾아보기 단추를 클릭 합니다. (**...** )에 **스키마** 필드입니다.  
   
      합니다 **XSD 스키마** 대화 상자가 표시 됩니다.  
   
-4.  **추가**를 클릭합니다.  
+4. **추가**를 클릭합니다.  
   
      합니다 **XSD 스키마 열기** 대화 상자가 표시 됩니다.  
   
-5.  스키마 파일을 선택 하 고 클릭 **열려**합니다.  
+5. 스키마 파일을 선택 하 고 클릭 **열려**합니다.  
   
-6.  **확인**을 클릭합니다.  
+6. **확인**을 클릭합니다.  
   
      이제 XML 스키마가 XML 문서와 연결되었습니다.  
   
 #### <a name="to-generate-an-xml-snippet"></a>XML 조각을 생성하려면  
   
-1.  편집기 창에 `<`를 입력합니다.  
+1. 편집기 창에 `<`를 입력합니다.  
   
-2.  멤버 목록에 가능한 항목이 표시됩니다.  
+2. 멤버 목록에 가능한 항목이 표시됩니다.  
   
      **!-** 주석을 추가 합니다.  
   
@@ -85,11 +85,11 @@ XML 편집기에는 XSD(XML 스키마 정의 언어) 스키마에서 XML 조각�
   
      **연락처** 루트 요소를 추가 합니다.  
   
-3.  선택 **연락처** 멤버 목록에서 ENTER 키를 누릅니다.  
+3. 선택 **연락처** 멤버 목록에서 ENTER 키를 누릅니다.  
   
      시작 태그 `<Contact`가 추가되고 요소 이름 뒤에 커서가 놓입니다.  
   
-4.  Tab 키를 눌러 스키마 정보를 기반으로 `Contact` 요소에 대한 XML 데이터를 생성합니다.  
+4. Tab 키를 눌러 스키마 정보를 기반으로 `Contact` 요소에 대한 XML 데이터를 생성합니다.  
   
 ### <a name="input"></a>입력  
  다음 스키마 파일은 연습에 사용됩니다.  

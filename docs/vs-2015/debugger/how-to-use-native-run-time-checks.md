@@ -41,12 +41,12 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8f6fc8c2019e8798411a10cd61272c2f6c1684c0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 02f619d727b83e681d9dda6dd851c43f168f1311
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985229"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101680"
 ---
 # <a name="how-to-use-native-run-time-checks"></a>방법: 네이티브 런타임 검사 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,11 +77,11 @@ Visual C++에서는 네이티브 [runtime_checks](http://msdn.microsoft.com/libr
   
 ### <a name="to-enable-native-run-time-checks-in-a-debug-build"></a>디버그 빌드에 네이티브 런타임 검사 기능을 사용하려면  
   
--   **/RTC** 옵션을 사용하고 C 런타임 라이브러리의 디버그 버전(예: /MDd)으로 연결합니다.  
+- **/RTC** 옵션을 사용하고 C 런타임 라이브러리의 디버그 버전(예: /MDd)으로 연결합니다.  
   
 ### <a name="to-modify-native-run-time-check-behavior"></a>네이티브 런타임 검사 동작을 수정하려면  
   
--   `runtime_checks` pragma를 사용합니다.  
+- `runtime_checks` pragma를 사용합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)   

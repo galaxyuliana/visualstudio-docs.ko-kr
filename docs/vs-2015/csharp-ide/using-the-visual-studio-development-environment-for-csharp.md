@@ -17,14 +17,15 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bffc4c5740ad006ca851f56cd2db8fcfdfc21294
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 485f4810f748af707cebba5c50c34144f78371ed
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970560"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102957"
 ---
-# <a name="using-the-visual-studio-development-environment-for-c"></a>C# 용 Visual Studio 개발 환경 사용 #
+# <a name="using-the-visual-studio-development-environment-for-c"></a>C 용 Visual Studio 개발 환경 사용\#
+
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio 통합된 개발 환경 (IDE)는 공통 사용자 인터페이스를 통해 노출 하는 개발 도구 모음입니다. 일부 도구는 다른 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 언어와 공유되는 반면 C# 컴파일러 같은 일부 도구는 Visual C#에만 사용됩니다. 이 항목에서는 가장 중요한 C# 도구에 대한 링크를 제공합니다.
@@ -49,4 +50,7 @@ Visual Studio 통합된 개발 환경 (IDE)는 공통 사용자 인터페이스�
 |[애플리케이션 리소스 관리(.NET)](../ide/managing-application-resources-dotnet.md)|문자열, 이미지, 아이콘, 오디오, 파일 등의 프로젝트 리소스를 추가하거나 편집하는 방법을 보여 줍니다.|
 
 ## <a name="see-also"></a>참고 항목
- [C#](http://msdn.microsoft.com/library/7f4f8103-7068-4f1d-92c7-3c4519b6edbc)[시작 C# ](http://msdn.microsoft.com/library/d6ec050f-3956-4737-8030-a4fa3521d29f) [ C# 대 한 참조](http://msdn.microsoft.com/library/06de3167-c16c-4e1a-b3c5-c27841d4569a)
+
+- [C#](http://msdn.microsoft.com/library/7f4f8103-7068-4f1d-92c7-3c4519b6edbc)
+- [C# 시작](http://msdn.microsoft.com/library/d6ec050f-3956-4737-8030-a4fa3521d29f)
+- [C# 참조](http://msdn.microsoft.com/library/06de3167-c16c-4e1a-b3c5-c27841d4569a)

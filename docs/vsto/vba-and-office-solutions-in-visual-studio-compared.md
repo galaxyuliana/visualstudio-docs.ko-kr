@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d97ff0b7e11bf79a8da6f3e034227c66ae1f9189
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 24e7d3674712a17d940b94637db808c0d91d2d6a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56618330"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110949"
 ---
 # <a name="vba-and-office-solutions-in-visual-studio-compared"></a>비교 하는 Visual Studio에서 Office 및 VBA 솔루션
   Microsoft VBA(Visual Basic for Applications)는 Office 애플리케이션과 긴밀하게 통합되는 비관리 코드를 사용합니다. Visual Studio를 사용하여 만든 Microsoft Office 프로젝트를 사용하면 .NET Framework 및 Visual Studio 디자인 도구를 활용할 수 있습니다.
@@ -38,9 +38,9 @@ ms.locfileid: "56618330"
 
  일부 작업은 VBA를 사용하여 더 쉽고 빠르게 수행할 수 있습니다. 특히 다음의 경우 VBA를 계속 사용하려고 할 수 있습니다.
 
--   사용자 지정 워크시트 함수
+- 사용자 지정 워크시트 함수
 
--   매크로 기록
+- 매크로 기록
 
 ## <a name="combine-vba-solutions-and-office-solutions-created-by-using-visual-studio"></a>Visual Studio를 사용 하 여 만든 Office 솔루션과 VBA 솔루션 결합
  Visual Studio를 사용하여 만든 Office 솔루션에서 VBA 코드를 호출할 수 있으며 VBA에서 Visual Studio를 사용하여 만든 Office 솔루션에서 코드를 호출할 수도 있습니다. 구체적인 방법은 Office 솔루션이 VSTO 추가 기능인지, 아니면 문서 수준 사용자 지정인지에 따라 다릅니다. 자세한 내용은 [다른 Office 솔루션에서 VSTO 추가 기능의 코드 호출](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md) 하 고 [결합 VBA 및 문서 수준 사용자 지정](../vsto/combining-vba-and-document-level-customizations.md)합니다.

@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3df17c9b52a7660da20cb036ad4aad702e86d931
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 06505798dcff86507cfc52c4209bf038776f7fac
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56690723"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100471"
 ---
 # <a name="idebugfunctionobject2"></a>IDebugFunctionObject2
 > [!IMPORTANT]
@@ -35,11 +35,11 @@ IDebugFunctionObject2 : IUnknown
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
  이 인터페이스의 메서드 연기 **IDebugFunctionObject** 다음과 같은 방법으로:
 
--   합니다 **IDebugEvaluate** 메서드는 플래그를 사용 합니다.
+- 합니다 **IDebugEvaluate** 메서드는 플래그를 사용 합니다.
 
--   합니다 **CreateObject** 메서드는 제한 시간 및 플래그를 사용 합니다.
+- 합니다 **CreateObject** 메서드는 제한 시간 및 플래그를 사용 합니다.
 
--   합니다 **CreateStringObjectWithLength** 메서드는 길이 사용 합니다.
+- 합니다 **CreateStringObjectWithLength** 메서드는 길이 사용 합니다.
 
 ## <a name="methods"></a>메서드
  이 인터페이스는 다음 메서드를 구현 합니다.

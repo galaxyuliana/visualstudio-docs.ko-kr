@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 887f71f5aabf7acfdeb822bb4e05c1b0debf63ab
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1ef2edb8996984f943ce3d7ec168eed0692f2493
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602002"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110078"
 ---
 # <a name="component-management"></a>구성 요소 관리
 Windows 설치 관리자에서 작업의 단위는 Windows 설치 관리자 구성 요소 (WICs 또는 구성 요소 라고도 함) 라고 합니다. 설치 및 Windows Installer를 사용 하는 설정에 대 한 계산 참조의 기본 단위는 각 WIC를 식별 하는 GUID입니다.
@@ -27,23 +27,23 @@ Windows 설치 관리자에서 작업의 단위는 Windows 설치 관리자 구�
 
 ## <a name="guidelines-of-authoring-setup-for-side-by-side-installation"></a>Side-by-side-설치에 대 한 설치 프로그램을 작성 지침
 
--   작성자 파일 및 레지스트리 키에 고유한 구성 요소 버전 간에 공유 되는 합니다.
+- 작성자 파일 및 레지스트리 키에 고유한 구성 요소 버전 간에 공유 되는 합니다.
 
      이렇게 하면 다음 버전에서 쉽게 사용할 수 있습니다. 예를 들어, 전역으로 등록 된 형식 라이브러리 파일 확장명, 다른 항목에 등록 **HKEY_CLASSES_ROOT**등입니다.
 
--   공유 구성 요소에 별도 병합 모듈을 그룹화 합니다.
+- 공유 구성 요소에 별도 병합 모듈을 그룹화 합니다.
 
      이 전략에는 앞으로 이동 하 여 나란히 설치에 대 한 올바르게 작성할을 수 있습니다.
 
--   버전 간에 동일한 Windows Installer 구성 요소를 사용 하 여 공유 파일 및 레지스트리 키를 설치 합니다.
+- 버전 간에 동일한 Windows Installer 구성 요소를 사용 하 여 공유 파일 및 레지스트리 키를 설치 합니다.
 
      다른 구성 요소를 사용 하는 경우 다른 VSPackage 여전히 설치 되어 있지만 하나의 버전 관리 VSPackage 제거 하는 경우에 파일과 레지스트리 항목이 제거 됩니다.
 
--   동일한 구성 요소 버전 관리 및 공유 항목을 혼합 하지 마십시오.
+- 동일한 구성 요소 버전 관리 및 공유 항목을 혼합 하지 마십시오.
 
      이렇게 하면 격리 된 위치에 버전이 지정 된 항목과 전역 위치에 공유 항목을 설치 하려면 불가능 합니다.
 
--   버전이 지정 된 파일을 가리키는 공유 레지스트리 키를 갖지 않습니다.
+- 버전이 지정 된 파일을 가리키는 공유 레지스트리 키를 갖지 않습니다.
 
      이렇게 하면 다른 버전 관리 VSPackage를 설치할 때 공유 키를 덮어쓰게 됩니다. 두 번째 버전을 제거한 후에 키가 가리키고 파일은 사라집니다.
 

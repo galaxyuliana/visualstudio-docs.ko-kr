@@ -12,12 +12,12 @@ ms.assetid: 3973d336-a9b7-41a2-a4e6-bb8184a96aaf
 caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 23b0d9d77eae2052f2b9da3c236e231cc17a7e65
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f951e7ef29fbba7225997276b31bd9f32731efc8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972572"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108440"
 ---
 # <a name="sccqueryinfo-function"></a>SccQueryInfo 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,13 +65,13 @@ SCCRTN SccQueryInfo(
   
  이 함수를 사용 하 여 파일을 체크 아웃, 다음을 유의 하십시오. `MSSCCI` 상태 요구 사항:  
   
--   `SCC_STATUS_OUTBYUSER` 현재 사용자가 파일을 체크 아웃할 때 설정 됩니다.  
+- `SCC_STATUS_OUTBYUSER` 현재 사용자가 파일을 체크 아웃할 때 설정 됩니다.  
   
--   `SCC_STATUS_CHECKEDOUT` 설정할 수 없습니다 `SCC_STATUS_OUTBYUSER` 설정 됩니다.  
+- `SCC_STATUS_CHECKEDOUT` 설정할 수 없습니다 `SCC_STATUS_OUTBYUSER` 설정 됩니다.  
   
--   `SCC_STATUS_CHECKEDOUT` 때 파일을 체크 아웃 된 지정 된 작업 디렉터리에만 설정 됩니다.  
+- `SCC_STATUS_CHECKEDOUT` 때 파일을 체크 아웃 된 지정 된 작업 디렉터리에만 설정 됩니다.  
   
--   경우 파일을 체크 아웃 된 현재 사용자가 작업 디렉터리를 이외의 디렉터리로 `SCC_STATUS_OUTBYUSER` 설정 되어 있지만 `SCC_STATUS_CHECKEDOUT` 아닙니다.  
+- 경우 파일을 체크 아웃 된 현재 사용자가 작업 디렉터리를 이외의 디렉터리로 `SCC_STATUS_OUTBYUSER` 설정 되어 있지만 `SCC_STATUS_CHECKEDOUT` 아닙니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   

@@ -14,12 +14,12 @@ caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 010f9b7b0d77bca8bd264ab8a3561743c616dc1f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 52d978472f057359cb2b1e0375f2d7ba524d1925
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983123"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101433"
 ---
 # <a name="inspect-xaml-properties-while-debugging"></a>디버그하는 동안 XAML 속성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -103,10 +103,10 @@ private void button_Click(object sender, RoutedEventArgs e)
 ## <a name="using-xaml-tools-with-running-applications"></a>응용 프로그램이 실행 중인 상태에서 XAML 도구를 사용  
  소스 코드가 없는 경우 이러한 XAML 도구를 사용할 수 있습니다. 실행 중인 XAML 애플리케이션에 연결하면 해당 애플리케이션의 UI 요소에서도 **라이브 시각적 트리**를 사용할 수 있습니다. 다음은 이전에 사용한 동일한 WPF 테스트 응용 프로그램을 사용하는 예제입니다.  
   
-1.  릴리스 구성에서 **TestXaml** 애플리케이션을 시작합니다. **디버그** 구성으로 실행 중인 프로세스에는 연결할 수 없습니다.  
+1. 릴리스 구성에서 **TestXaml** 애플리케이션을 시작합니다. **디버그** 구성으로 실행 중인 프로세스에는 연결할 수 없습니다.  
   
-2.  Visual Studio의 두 번째 인스턴스를 열고 **디버그 / 프로세스에 연결**합니다. 사용 가능한 프로세스 목록에서 **TestXaml.exe**를 찾고 **연결**을 클릭합니다.  
+2. Visual Studio의 두 번째 인스턴스를 열고 **디버그 / 프로세스에 연결**합니다. 사용 가능한 프로세스 목록에서 **TestXaml.exe**를 찾고 **연결**을 클릭합니다.  
   
-3.  응용 프로그램이 실행되기 시작합니다.  
+3. 응용 프로그램이 실행되기 시작합니다.  
   
-4.  Visual Studio의 두 번째 인스턴스의 경우에서 엽니다는 **라이브 시각적 트리** (**디버그 / Windows / 라이브 시각적 트리**). **TestXaml** UI 요소가 표시되어야 하고 애플리케이션을 직접 디버그하는 동안 했던 것처럼 해당 요소를 조작할 수 있어야 합니다.
+4. Visual Studio의 두 번째 인스턴스의 경우에서 엽니다는 **라이브 시각적 트리** (**디버그 / Windows / 라이브 시각적 트리**). **TestXaml** UI 요소가 표시되어야 하고 애플리케이션을 직접 디버그하는 동안 했던 것처럼 해당 요소를 조작할 수 있어야 합니다.

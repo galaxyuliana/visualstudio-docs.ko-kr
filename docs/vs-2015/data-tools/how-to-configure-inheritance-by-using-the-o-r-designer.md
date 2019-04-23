@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ff50d721b55c4035b636f40d6ccb55cbbd6d79b6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 9c4c8cea0b29994bb880dd0d93832da0e875cc56
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662272"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115603"
 ---
 # <a name="how-to-configure-inheritance-by-using-the-or-designer"></a>방법: O/R 디자이너를 사용하여 상속 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,27 +27,27 @@ ms.locfileid: "59662272"
   
 ### <a name="to-create-inherited-data-classes"></a>상속된 데이터 클래스를 만들려면  
   
-1.  엽니다는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 추가 하 여는 **LINQ to SQL 클래스** 기존 Visual Basic 또는 C# 프로젝트에 항목입니다.  
+1. 엽니다는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 추가 하 여는 **LINQ to SQL 클래스** 기존 Visual Basic 또는 C# 프로젝트에 항목입니다.  
   
-2.  기본 클래스로 사용할 테이블을 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 끌어 옵니다.  
+2. 기본 클래스로 사용할 테이블을 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 끌어 옵니다.  
   
-3.  두 번째 테이블 복사본을 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 끌어 와서 이름을 바꿉니다. 이것을 파생 클래스 또는 서브클래스라고 합니다.  
+3. 두 번째 테이블 복사본을 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]로 끌어 와서 이름을 바꿉니다. 이것을 파생 클래스 또는 서브클래스라고 합니다.  
   
-4.  **도구 상자**의 **개체 관계형 디자이너** 탭에서 **상속**을 클릭한 다음, 서브클래스(이름을 바꾼 테이블)를 클릭하고 이를 기본 클래스에 연결합니다.  
+4. **도구 상자**의 **개체 관계형 디자이너** 탭에서 **상속**을 클릭한 다음, 서브클래스(이름을 바꾼 테이블)를 클릭하고 이를 기본 클래스에 연결합니다.  
   
     > [!NOTE]
     >  **도구 상자**에서 **상속** 항목을 클릭한 다음, 마우스 단추를 놓고 3단계에서 만든 클래스의 두 번째 복사본을 클릭한 다음, 2단계에서 만든 첫 번째 클래스를 클릭합니다. 상속 선의 화살표가 첫 번째 클래스를 가리킵니다.  
   
-5.  각 클래스에서 연결에 사용되지 않으므로 표시하지 않을 개체 속성을 모두 삭제합니다. 연결에 사용 되는 개체 속성을 삭제 하려고 하면 오류가 나타납니다. [속성 \<속성 이름 > 연결에 참여 하 고 있으므로 삭제할 수 없습니다 \<연결 이름 >](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md)합니다.  
+5. 각 클래스에서 연결에 사용되지 않으므로 표시하지 않을 개체 속성을 모두 삭제합니다. 연결에 사용 되는 개체 속성을 삭제 하려고 하면 오류가 나타납니다. [속성 \<속성 이름 > 연결에 참여 하 고 있으므로 삭제할 수 없습니다 \<연결 이름 >](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md)합니다.  
   
     > [!NOTE]
     >  파생 클래스는 기본 클래스에 정의된 속성을 상속하므로 각 클래스에 동일한 열은 정의할 수 없습니다. 열은 속성으로 구현됩니다. 기본 클래스의 속성에서 상속 한정자를 설정함으로써 파생 클래스에서 열을 만들 수 있습니다. 자세한 내용은 참조 하세요. [빌드에 없음: 속성 및 메서드 재정의](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)합니다.  
   
-6.  [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서 상속 선을 선택합니다.  
+6. [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서 상속 선을 선택합니다.  
   
-7.  에 **속성** 창에서 **Discriminator Property** 수업에서 레코드를 구분 하는 데 사용 되는 열 이름으로 합니다.  
+7. 에 **속성** 창에서 **Discriminator Property** 수업에서 레코드를 구분 하는 데 사용 되는 열 이름으로 합니다.  
   
-8.  **Derived Class Discriminator Value** 속성을 해당 레코드를 상속된 형식으로 지정한 데이터베이스의 값으로 설정합니다. 이는 판별자 열에 저장된 값이며 상속된 클래스를 지정하는 데 사용되는 값입니다.  
+8. **Derived Class Discriminator Value** 속성을 해당 레코드를 상속된 형식으로 지정한 데이터베이스의 값으로 설정합니다. 이는 판별자 열에 저장된 값이며 상속된 클래스를 지정하는 데 사용되는 값입니다.  
   
 9. **Base Class Discriminator Value** 속성을 해당 레코드를 기본 형식으로 지정한 값으로 설정합니다. 이는 판별자 열에 저장된 값이며 기본 클래스를 지정하는 데 사용되는 값입니다.  
   

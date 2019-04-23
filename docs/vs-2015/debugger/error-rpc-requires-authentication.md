@@ -16,12 +16,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c3393e5a70a0662d15cc4d643f7a5df106860d26
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: dbf0c2d13668dbf380f326ee3a49e0389815a8fd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982843"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102733"
 ---
 # <a name="error-rpc-requires-authentication"></a>오류: RPC에 인증 필요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,10 +30,10 @@ Visual Studio 디버거에서 원격 컴퓨터에 연결할 수 없습니다. �
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-1.  실행할 `\` *windir*`\system32\regedt32.exe`  
+1. 실행할 `\` *windir*`\system32\regedt32.exe`  
   
-2.  찾아 삭제 `HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\RPC\RestrictRemoteClients`합니다.  
+2. 찾아 삭제 `HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\RPC\RestrictRemoteClients`합니다.  
   
-3.  컴퓨터를 다시 시작하여 레지스트리 변경 내용을 적용합니다.  
+3. 컴퓨터를 다시 시작하여 레지스트리 변경 내용을 적용합니다.  
   
-4.  문제가 지속 되 면에 대 한 도메인 관리자에 게 문의 합니다 **컴퓨터 구성-> 관리 템플릿-> 시스템-> 원격 프로시저 호출-> 인증 되지 않은 RPC 클라이언트 제한** 그룹 정책 설정입니다.
+4. 문제가 지속 되 면에 대 한 도메인 관리자에 게 문의 합니다 **컴퓨터 구성-> 관리 템플릿-> 시스템-> 원격 프로시저 호출-> 인증 되지 않은 RPC 클라이언트 제한** 그룹 정책 설정입니다.

@@ -17,12 +17,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ed3a4e4f67ef8a7cc1e13e513d2f03db5f755363
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 12a4f736217374eefa32dda30111da5e71fbab39
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59003008"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110481"
 ---
 # <a name="view-dom-event-listeners"></a>DOM 이벤트 수신기 보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,23 +41,23 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
 #### <a name="to-view-event-listeners"></a>이벤트 수신기를 보려면
 
-1.  Visual Studio에서 Windows Phone 피벗 응용 프로그램 프로젝트 템플릿을 사용하는 JavaScript 앱을 만듭니다.
+1. Visual Studio에서 Windows Phone 피벗 응용 프로그램 프로젝트 템플릿을 사용하는 JavaScript 앱을 만듭니다.
 
-2.  Visual Studio에서 열기 템플릿으로 선택 **에뮬레이터 8.1 WVGA 4 인치 512MB** 디버거의 디버그 도구 모음의 드롭다운 목록에서:
+2. Visual Studio에서 열기 템플릿으로 선택 **에뮬레이터 8.1 WVGA 4 인치 512MB** 디버거의 디버그 도구 모음의 드롭다운 목록에서:
 
      ![디버그 대상 선택](../debugger/media/js-dom-debug-target-emu.png "JS_DOM_Debug_Target_Emu")
 
-3.  F5 키를 눌러 디버그 모드에서 응용 프로그램을 실행합니다.
+3. F5 키를 눌러 디버그 모드에서 응용 프로그램을 실행합니다.
 
-4.  실행 중인 앱으로 이동 합니다 **섹션 3** 피벗 항목입니다.
+4. 실행 중인 앱으로 이동 합니다 **섹션 3** 피벗 항목입니다.
 
-5.  Visual Studio로 전환합니다(Alt+Tab 또는 F12).
+5. Visual Studio로 전환합니다(Alt+Tab 또는 F12).
 
-6.  DOM 탐색기의 오른쪽 상단에 있는 `Find`를 선택합니다.
+6. DOM 탐색기의 오른쪽 상단에 있는 `Find`를 선택합니다.
 
-7.   `ListView`를 입력한 후 Enter 키를 누릅니다.
+7.  `ListView`를 입력한 후 Enter 키를 누릅니다.
 
-8.  필요한 경우 선택 합니다 **다음** 단추를를 `DIV` 나타내는 요소는 `ListView` 컨트롤 (이 요소에는 `data-win-control` 값 `WinJS.UI.ListView`).
+8. 필요한 경우 선택 합니다 **다음** 단추를를 `DIV` 나타내는 요소는 `ListView` 컨트롤 (이 요소에는 `data-win-control` 값 `WinJS.UI.ListView`).
 
      이제 DOM 탐색기에서 `DIV` 요소를 선택할 수 있습니다.
 
@@ -75,16 +75,16 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
      합니다 **이벤트** 탭 계층 목록에서 선택 하는 모든 요소에 대 한 이벤트 수신기가 표시 됩니다.
 
-###  <a name="Tips"></a> 이벤트 수신기를 사용 하 여 문제를 해결 하기 위한 팁
+### <a name="Tips"></a> 이벤트 수신기를 사용 하 여 문제를 해결 하기 위한 팁
  일부 앱 시나리오에서는 이벤트 수신기 제거 해야 합니다 명시적으로 사용 하 여 [removeEventListener](http://msdn.microsoft.com/library/ie/ff975250\(v=vs.85\).aspx)합니다. 사용 된 **이벤트** 코드를 실행 하는 동안 DOM 요소에서 이벤트 수신기가 제거 되었는지 여부를 테스트 하려면 DOM 탐색기에서 탭 합니다. 아래 이러한 유형의 문제를 해결할 수 있는 팁이 몇 가지 나와 있습니다.
 
--   Visual Studio에서 구현 되는 단일 페이지 탐색 모델을 사용 하는 앱에 대 한 [프로젝트 템플릿](http://msdn.microsoft.com/library/windows/apps/hh758331.aspx), 일반적으로 페이지의 일부인 DOM 요소 등의 개체에 대 한 등록 된 이벤트 수신기를 제거할 필요는 없습니다. 이 시나리오에서 DOM 요소 및 연결된 이벤트 수신기는 수명이 동일하고 가비지 수집될 수 있습니다.
+- Visual Studio에서 구현 되는 단일 페이지 탐색 모델을 사용 하는 앱에 대 한 [프로젝트 템플릿](http://msdn.microsoft.com/library/windows/apps/hh758331.aspx), 일반적으로 페이지의 일부인 DOM 요소 등의 개체에 대 한 등록 된 이벤트 수신기를 제거할 필요는 없습니다. 이 시나리오에서 DOM 요소 및 연결된 이벤트 수신기는 수명이 동일하고 가비지 수집될 수 있습니다.
 
--   DOM 요소 또는 개체의 수명이 연결된 수신기와 다르면 `removeEventListener` 메서드를 호출해야 할 수 있습니다. 예를 들어 `window.onresize` 이벤트를 사용하는 경우 이벤트를 처리하는 페이지를 벗어나 탐색하면 이벤트 수신기를 제거해야 할 수 있습니다.
+- DOM 요소 또는 개체의 수명이 연결된 수신기와 다르면 `removeEventListener` 메서드를 호출해야 할 수 있습니다. 예를 들어 `window.onresize` 이벤트를 사용하는 경우 이벤트를 처리하는 페이지를 벗어나 탐색하면 이벤트 수신기를 제거해야 할 수 있습니다.
 
--   `removeEventListener`가 지정된 수신기를 제거하지 못할 경우 개체의 다른 인스턴스에서 호출되고 있는 중일 수 있습니다. 사용할 수는 [bind 메서드 (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) 수신기를 추가 하면이 문제를 해결 하는 방법입니다.
+- `removeEventListener`가 지정된 수신기를 제거하지 못할 경우 개체의 다른 인스턴스에서 호출되고 있는 중일 수 있습니다. 사용할 수는 [bind 메서드 (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) 수신기를 추가 하면이 문제를 해결 하는 방법입니다.
 
--   사용 하 여 추가 된 이벤트 수신기를 제거 하려면 [bind 메서드 (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) 또는 수신기를 추가 하면 익명 함수를 사용 하 여 함수의 인스턴스를 저장 합니다. 아래 이러한 패턴을 안전하게 사용하는 방법이 한 가지 나와 있습니다.
+- 사용 하 여 추가 된 이벤트 수신기를 제거 하려면 [bind 메서드 (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) 또는 수신기를 추가 하면 익명 함수를 사용 하 여 함수의 인스턴스를 저장 합니다. 아래 이러한 패턴을 안전하게 사용하는 방법이 한 가지 나와 있습니다.
 
     ```javascript
     // You could use the following code within the constructor function of an object, or
@@ -104,9 +104,9 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     elem.addEventListener('mouseup', this._handlerFunc.bind(this));
     ```
 
--   `removeEventListener` 특성(예: `obj.on<eventname>`)을 사용하여 이벤트 수신기를 추가한 경우에는 `window.onresize = handlerFunc`를 사용하여 제거할 수 없습니다.
+- `removeEventListener` 특성(예: `obj.on<eventname>`)을 사용하여 이벤트 수신기를 추가한 경우에는 `window.onresize = handlerFunc`를 사용하여 제거할 수 없습니다.
 
--   JavaScript 메모리 분석기를 사용 하 여 [JavaScript 메모리](../profiling/javascript-memory.md) 앱에서. 명시적으로 제거해야 하는 이벤트 수신기는 메모리 누수로 나타날 수 있습니다.
+- JavaScript 메모리 분석기를 사용 하 여 [JavaScript 메모리](../profiling/javascript-memory.md) 앱에서. 명시적으로 제거해야 하는 이벤트 수신기는 메모리 누수로 나타날 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

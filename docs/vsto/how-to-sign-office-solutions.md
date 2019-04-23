@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 25c5388c1b1d14efad9e76b2494f8da423d28979
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 1fff7555c17f4fdac43de2690f8e133cc32881db
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54871665"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101232"
 ---
 # <a name="how-to-sign-office-solutions"></a>방법: Office 솔루션에 서명
   솔루션에 서명 하는 경우에 증거로 인증서를 사용 하 여 솔루션에 신뢰를 부여할 수 있습니다. 여러 솔루션에 대 한 동일한 인증서를 사용할 수 있습니다 하 고 추가 보안 정책 업데이트를 사용 하 여 모든 솔루션 신뢰할 수 있는 됩니다.
@@ -35,15 +35,15 @@ ms.locfileid: "54871665"
 
 ### <a name="to-sign-an-office-solution-by-using-a-certificate"></a>인증서를 사용 하 여 Office 솔루션을 로그인
 
-1.  에 **프로젝트** 메뉴에서 클릭 _SolutionName_**속성**합니다.
+1. 에 **프로젝트** 메뉴에서 클릭 _SolutionName_**속성**합니다.
 
-2.  **시그니처** 탭을 클릭합니다.
+2. **시그니처** 탭을 클릭합니다.
 
-3.  선택 **ClickOnce 매니페스트 서명**합니다.
+3. 선택 **ClickOnce 매니페스트 서명**합니다.
 
-4.  클릭 하 여 인증서를 찾습니다 **저장소에서 선택** 또는 **파일에서 선택** 을 인증서로 이동 합니다.
+4. 클릭 하 여 인증서를 찾습니다 **저장소에서 선택** 또는 **파일에서 선택** 을 인증서로 이동 합니다.
 
-5.  올바른 인증서 사용 되 고 있는지를 확인 하려면 클릭 **자세히** 인증서 정보를 볼 수 있습니다.
+5. 올바른 인증서 사용 되 고 있는지를 확인 하려면 클릭 **자세히** 인증서 정보를 볼 수 있습니다.
 
 ## <a name="see-also"></a>참고자료
 

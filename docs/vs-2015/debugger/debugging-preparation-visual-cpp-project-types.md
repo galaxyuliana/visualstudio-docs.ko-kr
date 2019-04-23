@@ -20,12 +20,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 59c7e42e005e423a27adc7676a05ebc03cd068d3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4752f9b04723934c0fe9a2cf8a74d4d07e474477
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971767"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116201"
 ---
 # <a name="debugging-preparation-visual-c-project-types"></a>디버깅 준비 중: Visual C++ 프로젝트 형식
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "58971767"
   
  참고로 그룹화 된 출력으로 Dll을 만드는 프로젝트 형식과 [DLL 프로젝트 디버깅](../debugger/debugging-dll-projects.md) 의 공통적인 특징 때문입니다.  
   
-##  <a name="BKMK_In_this_topic"></a> 항목 내용  
+## <a name="BKMK_In_this_topic"></a> 항목 내용  
  [권장되는 속성 설정](#BKMK_Recommended_Property_Settings)  
   
  [Win32 프로젝트](#BKMK_Win32_Projects)  
@@ -45,10 +45,10 @@ ms.locfileid: "58971767"
   
   [Windows Forms 애플리케이션(.NET)](#BKMK_Windows_Forms_Applications___NET_)  
   
-##  <a name="BKMK_Recommended_Property_Settings"></a> 권장되는 속성 설정  
- 일부 속성은 모든 관리되지 않는 디버깅 시나리오에서 동일한 방식으로 설정해야 합니다. 다음 표에는 권장 속성 설정이 나와 있습니다. 여기에 나와 있지 않은 설정은 관리되지 않는 프로젝트 형식에 따라 서로 다를 수 있습니다. 자세한 내용은 참조 하세요. [c + + 디버그 구성에 대 한 프로젝트 설정](../debugger/project-settings-for-a-cpp-debug-configuration.md)  
+## <a name="BKMK_Recommended_Property_Settings"></a> 권장되는 속성 설정  
+ 일부 속성은 모든 관리되지 않는 디버깅 시나리오에서 동일한 방식으로 설정해야 합니다. 다음 표에는 권장 속성 설정이 나와 있습니다. 여기에 나와 있지 않은 설정은 관리되지 않는 프로젝트 형식에 따라 서로 다를 수 있습니다. 자세한 내용은 [에 대 한 프로젝트 설정 된 C++ 디버그 구성](../debugger/project-settings-for-a-cpp-debug-configuration.md)  
   
-### <a name="configuration-properties-124-cc-124-optimization-node"></a>구성 속성 &#124; C/c + + &#124; 최적화 노드  
+### <a name="configuration-properties-124-cc-124-optimization-node"></a>구성 속성 &#124; C /C++ &#124; 최적화 노드  
   
 |속성 이름|설정|  
 |-------------------|-------------|  
@@ -62,22 +62,22 @@ ms.locfileid: "58971767"
   
  [항목 내용](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)  
   
-##  <a name="BKMK_Win32_Projects"></a> Win32 프로젝트  
+## <a name="BKMK_Win32_Projects"></a> Win32 프로젝트  
  Win32 응용 프로그램은 C 또는 C++로 작성된 일반 Windows 프로그램입니다. 이러한 형식의 응용 프로그램은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 쉽게 디버깅할 수 있습니다.  
   
  Win32 응용 프로그램에는 MFC 응용 프로그램과 ATL 프로젝트가 포함됩니다. Win32 응용 프로그램은 Windows API를 사용하며 MFC나 ATL을 사용할 수도 있지만 CLR(공용 언어 런타임)는 사용하지 않습니다. 그러나 CLR을 사용하는 관리 코드를 호출할 수는 있습니다.  
   
  다음은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내에서 Win32 프로젝트를 디버깅하는 방법을 보여 주는 절차입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 외부에서 응용 프로그램을 시작하고 여기에 연결하는 방법으로 Win32 응용 프로그램을 디버깅할 수도 있습니다. 자세한 내용은 [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)합니다.  
   
-###  <a name="BKMK_To_debug_a_C_or_C___Win32_application"></a> C 또는 C++ Win32 애플리케이션을 디버그하려면  
+### <a name="BKMK_To_debug_a_C_or_C___Win32_application"></a> C 또는 C++ Win32 애플리케이션을 디버그하려면  
   
-1.  Visual Studio에서 프로젝트를 엽니다.  
+1. Visual Studio에서 프로젝트를 엽니다.  
   
-2.  **디버그** 메뉴에서 **시작**을 선택합니다.  
+2. **디버그** 메뉴에서 **시작**을 선택합니다.  
   
-3.  에 설명 된 기술을 사용 하 여 디버깅할 [디버거 기본 사항](../debugger/debugger-basics.md)합니다.  
+3. 에 설명 된 기술을 사용 하 여 디버깅할 [디버거 기본 사항](../debugger/debugger-basics.md)합니다.  
   
-###  <a name="BKMK_To_manually_set_a_Debug_configuration"></a> 디버그 구성을 직접 설정하려면  
+### <a name="BKMK_To_manually_set_a_Debug_configuration"></a> 디버그 구성을 직접 설정하려면  
   
 1. **보기** 메뉴에서 **속성 페이지**를 클릭합니다.  
   
@@ -95,18 +95,18 @@ ms.locfileid: "58971767"
   
 6. **링커** 노드를 열고 **디버깅**을 선택합니다. 첫 번째 **생성** 행의 드롭다운 목록에서 **예(/DEBUG)** 를 선택합니다. 디버깅하는 경우 항상 이 값으로 설정해야 합니다.  
   
-   자세한 내용은[c + + 디버그 구성에 대 한 프로젝트 설정을](../debugger/project-settings-for-a-cpp-debug-configuration.md)합니다.  
+   자세한 내용은[프로젝트 설정에 대 한는 C++ 디버그 구성](../debugger/project-settings-for-a-cpp-debug-configuration.md)합니다.  
   
    [항목 내용](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)  
   
-##  <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms 애플리케이션(.NET)  
+## <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms 애플리케이션(.NET)  
  **Windows Forms 애플리케이션(.NET)** 템플릿은 [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] Windows Forms 애플리케이션을 만드는 데 사용됩니다. 자세한 내용은 [방법: Windows 애플리케이션 프로젝트 만들기](http://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa)를 참조하세요.  
   
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 이 형식의 응용 프로그램을 디버깅하는 방법은 관리되는 Windows Forms 응용 프로그램의 경우와 비슷합니다.  
   
  프로젝트 템플릿을 사용하여 Windows Forms 프로젝트를 만들면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 디버그 및 릴리스 구성에 필요한 설정을 자동으로 만듭니다. 필요한 경우 **\<프로젝트 이름> 속성 페이지** 대화 상자에서 이러한 설정을 변경할 수 있습니다. 자세한 내용은 [디버그 및 릴리스 구성](../debugger/how-to-set-debug-and-release-configurations.md)을 참조하세요.  
   
- 자세한 내용은 [c + + 디버그 구성에 대 한 프로젝트 설정을](../debugger/project-settings-for-a-cpp-debug-configuration.md)합니다.  
+ 자세한 내용은 [프로젝트 설정에 대 한는 C++ 디버그 구성](../debugger/project-settings-for-a-cpp-debug-configuration.md)합니다.  
   
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 외부에서 응용 프로그램을 시작한 후에 응용 프로그램에 연결하는 방법으로 Windows Forms 응용 프로그램을 디버깅할 수도 있습니다. 자세한 내용은 [실행 중인 프로그램 또는 여러 프로그램에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)을 참조하세요.  
   

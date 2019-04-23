@@ -22,12 +22,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9b12509de2e2ba536d9d54d11a41924d86bf5667
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2d979b53f4bd5962a01fa5eb1b77cc7c81c68a4a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984172"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102421"
 ---
 # <a name="error-unable-to-automatically-step-into-the-server"></a>오류: 서버에 대해 자동으로 한 단계씩 코드를 실행할 수 없음
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,9 +40,9 @@ ms.locfileid: "58984172"
   
  가능한 원인은 다음과 같습니다.  
   
--   [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 애플리케이션의 web.config 파일에서 디버그 모드를 "true"로 설정하지 않았습니다. [ASP.NET 애플리케이션의 디버그 모드](../debugger/how-to-enable-debugging-for-aspnet-applications.md)를 참조하세요.  
+- [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 애플리케이션의 web.config 파일에서 디버그 모드를 "true"로 설정하지 않았습니다. [ASP.NET 애플리케이션의 디버그 모드](../debugger/how-to-enable-debugging-for-aspnet-applications.md)를 참조하세요.  
   
--   Visual Studio가 설치된 후 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 버전이 설치되었습니다. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 은 Visual Studio보다 먼저 설치해야 합니다. 이 문제를 해결하려면 Windows **제어판**, **프로그램 및 기능** 을 사용하여 Visual Studio 설치를 복구합니다.  
+- Visual Studio가 설치된 후 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 버전이 설치되었습니다. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 은 Visual Studio보다 먼저 설치해야 합니다. 이 문제를 해결하려면 Windows **제어판**, **프로그램 및 기능** 을 사용하여 Visual Studio 설치를 복구합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)   

@@ -16,12 +16,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e5e011ccd047551e7ea6cf1426b4118c3ad879f4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f03936b9404339e3ad46e30ef92286da360323bb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982660"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085768"
 ---
 # <a name="unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor"></a>Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,11 +38,11 @@ ms.locfileid: "58982660"
   
 ## <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   원격 컴퓨터에 Visual Studio 원격 디버깅 모니터가 설치되어 실행되고 있는지 확인합니다. 원격 디버거 및 설치 하는 방법에 대 한 자세한 내용은 [원격 디버깅](../debugger/remote-debugging.md)합니다.  
+- 원격 컴퓨터에 Visual Studio 원격 디버깅 모니터가 설치되어 실행되고 있는지 확인합니다. 원격 디버거 및 설치 하는 방법에 대 한 자세한 내용은 [원격 디버깅](../debugger/remote-debugging.md)합니다.  
   
--   Visual Studio에서 프로젝트 속성을 확인합니다(**프로젝트/속성/디버깅**). **원격 서버 이름** 이 올바른지 확인합니다.  
+- Visual Studio에서 프로젝트 속성을 확인합니다(**프로젝트/속성/디버깅**). **원격 서버 이름** 이 올바른지 확인합니다.  
   
--   네트워크에서 원격 컴퓨터에 액세스할 수 있는지 확인합니다.  
+- 네트워크에서 원격 컴퓨터에 액세스할 수 있는지 확인합니다.  
   
 ## <a name="the-remote-machine-is-not-reachable"></a>원격 컴퓨터에 연결할 수 없음  
  원격 컴퓨터를 [ping](https://technet.microsoft.com/library/ee624059\(v=ws.10\).aspx) 하려고 합니다. Ping에 응답하지 않으면 원격 도구도 연결할 수 없습니다. 원격 컴퓨터를 다시 부팅하거나 네트워크에서 올바르게 구성되었는지 확인합니다.  
@@ -58,13 +58,13 @@ ms.locfileid: "58982660"
 ## <a name="the-remote-debugger-is-running-under-a-different-user-account"></a>원격 디버거가 다른 사용자 계정으로 실행되고 있음  
  다음 방법 중 하나를 사용하여 이 문제를 해결할 수 있습니다.  
   
--   원격 디버거를 중지하고 로컬 컴퓨터에서 사용 중인 계정으로 다시 시작할 수 있습니다.  
+- 원격 디버거를 중지하고 로컬 컴퓨터에서 사용 중인 계정으로 다시 시작할 수 있습니다.  
   
--   **/allow \<사용자 이름>** 매개 변수를 사용하여 명령줄에서 원격 디버거를 시작할 수 있습니다. `msvsmon /allow <username@computer>`  
+- **/allow \<사용자 이름>** 매개 변수를 사용하여 명령줄에서 원격 디버거를 시작할 수 있습니다. `msvsmon /allow <username@computer>`  
   
--   원격 디버거의 사용 권한에 사용자를 추가할 수 있습니다(원격 디버거 창, **도구 / 사용 권한**).  
+- 원격 디버거의 사용 권한에 사용자를 추가할 수 있습니다(원격 디버거 창, **도구 / 사용 권한**).  
   
--   이전 단계에서 메서드를 사용할 수 없는 경우 모든 사용자가 원격 디버깅을 수행하도록 허용할 수 있습니다. 원격 디버거 창에서 **도구 / 옵션** 대화 상자로 이동합니다. **인증 안 함**을 선택하는 경우 **모든 사용자가 디버깅할 수 있도록 허용**을 선택할 수 있습니다. 그러나 선택 항목이 없거나 개인 네트워크에 있는 경우에만 이 옵션을 사용해야 합니다.  
+- 이전 단계에서 메서드를 사용할 수 없는 경우 모든 사용자가 원격 디버깅을 수행하도록 허용할 수 있습니다. 원격 디버거 창에서 **도구 / 옵션** 대화 상자로 이동합니다. **인증 안 함**을 선택하는 경우 **모든 사용자가 디버깅할 수 있도록 허용**을 선택할 수 있습니다. 그러나 선택 항목이 없거나 개인 네트워크에 있는 경우에만 이 옵션을 사용해야 합니다.  
   
 ## <a name="the-firewall-on-the-remote-machine-doesnt-allow-incoming-connections-to-the-remote-debugger"></a>원격 컴퓨터의 방화벽이 원격 디버거로 들어오는 연결을 허용하지 않습니다.  
  Visual Studio와 원격 디버거 간의 통신을 허용하도록 Visual Studio 컴퓨터의 방화벽 및 원격 컴퓨터의 방화벽을 구성해야 합니다. 원격 디버거에서 사용 중인 포트에 대한 자세한 내용은 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)을 참조하세요. Windows 방화벽을 구성하는 방법에 대한 자세한 내용은 [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)을 참조하세요.  

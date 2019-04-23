@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5273270905c99b565fe4fd455e9c5c505af9c878
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 67a58ab1bf508ba1b2edc7117412638de6c2231a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56711100"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099548"
 ---
 # <a name="create-a-custom-debug-engine"></a>사용자 지정 디버그 엔진 만들기
 디버그 엔진 (DE)는 구성 요소로, 특정 런타임 아키텍처를 디버깅할 수 있습니다. 일반적으로 런타임 환경 별로 하나의 DE 구현이입니다.
@@ -29,15 +29,15 @@ ms.locfileid: "56711100"
 
  만들기는 DE 다음 단계로 구성 됩니다.
 
-1.  Visual Studio는 DE 등록
+1. Visual Studio는 DE 등록
 
-2.  디버깅할 프로그램 사용 설정
+2. 디버깅할 프로그램 사용 설정
 
-3.  실행 제어 및 상태 평가 구현 합니다.
+3. 실행 제어 및 상태 평가 구현 합니다.
 
-4.  이벤트 보내기
+4. 이벤트 보내기
 
-5.  종료 및 분리
+5. 종료 및 분리
 
 ## <a name="in-this-section"></a>단원 내용
  [사용자 지정 디버그 엔진 등록](../../extensibility/debugger/registering-a-custom-debug-engine.md) 사용할 수 있도록 Visual Studio 디버그 엔진을 등록 하는 데 필요한 단계를 설명 합니다.

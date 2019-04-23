@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e63b1d767fca3514f6f765c56362d0e395496fc4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 26dc068ca15de93cc2b0a3ac68b83d1d351bcad4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54793307"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110598"
 ---
 # <a name="walkthrough-creating-a-realistic-3-d-billiard-ball"></a>연습: 사실적인 3 차원 당구 공 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,22 +23,22 @@ ms.locfileid: "54793307"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   도형 및 질감을 사용하여 당구공의 기본 모양 만들기.  
+- 도형 및 질감을 사용하여 당구공의 기본 모양 만들기.  
   
--   램버트 조명 모델을 사용하여 깊이 추가.  
+- 램버트 조명 모델을 사용하여 깊이 추가.  
   
--   반사 하이라이트를 사용하여 기본 모양 개선.  
+- 반사 하이라이트를 사용하여 기본 모양 개선.  
   
--   환경을 반영하여 공간감 만들기.  
+- 환경을 반영하여 공간감 만들기.  
   
 ## <a name="prerequisites"></a>전제 조건  
  이 연습을 완료하려면 다음 구성 요소와 기술이 필요합니다.  
   
--   질감을 큐브 맵으로 어셈블하는 도구(예: June 2010 DirectX SDK에 포함된 DirectX Texture Tool).  
+- 질감을 큐브 맵으로 어셈블하는 도구(예: June 2010 DirectX SDK에 포함된 DirectX Texture Tool).  
   
--   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 이미지 편집기에 대한 지식.  
+- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 이미지 편집기에 대한 지식.  
   
--   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 셰이더 디자이너에 대한 지식.  
+- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 셰이더 디자이너에 대한 지식.  
   
 ## <a name="creating-the-basic-appearance-with-shape-and-texture"></a>도형 및 질감을 사용하여 기본 모양 만들기  
  컴퓨터 그래픽에서 모양의 가장 기본적인 요소는 도형과 색입니다. 컴퓨터 시뮬레이션에서는 일반적으로 3차원 모델을 사용하여 사실적인 개체의 모양을 표현합니다. 색 세부 정보는 질감 맵을 통해 모델의 표면에 적용됩니다.  
@@ -87,7 +87,7 @@ ms.locfileid: "54793307"
   
 3. 질감 속성을 구성하여 이전 절차에서 만든 질감을 적용합니다. **질감 샘플** 노드의 **질감** 속성 값을 **Texture1**로 설정하고 같은 속성 창에서 **Texture1** 속성 그룹의 **파일 이름** 속성을 사용하여 질감 파일을 지정합니다.  
   
-   셰이더에서 질감을 적용하는 방법에 대한 자세한 내용은 [방법: 기본 질감 셰이더 만들기](../designers/how-to-create-a-basic-texture-shader.md)를 참조하세요.  
+   셰이더에서 질감을 적용하는 방법에 대한 자세한 내용은 [방법: 기본 질감 셰이더 만들기](../designers/how-to-create-a-basic-texture-shader.md)합니다.  
   
    이제 당구공이 다음과 같이 표시됩니다.  
   
@@ -108,7 +108,7 @@ ms.locfileid: "54793307"
   
 - 선택적으로 셰이더 그래프의 **MaterialDiffuse** 속성을 구성하여 조명 동작 방식을 조정할 수 있습니다. 셰이더 그래프의 속성에 액세스하려면 디자인 화면의 빈 영역을 선택하고 **속성** 창에서 액세스할 속성을 찾습니다.  
   
-  셰이더에서 램버트 조명을 적용하는 방법에 대한 자세한 내용은 [방법: 기본 램버트 셰이더 만들기](../designers/how-to-create-a-basic-lambert-shader.md)를 참조하세요.  
+  셰이더에서 램버트 조명을 적용하는 방법에 대한 자세한 내용은 [방법: 기본 램버트 셰이더 만들기](../designers/how-to-create-a-basic-lambert-shader.md)합니다.  
   
   램버트 조명이 적용되면 당구공이 다음과 같이 표시됩니다.  
   
@@ -129,7 +129,7 @@ ms.locfileid: "54793307"
   
 2. 필요한 경우 셰이더 그래프의 반사 속성(**MaterialSpecular** 및 **MaterialSpecularPower**)을 구성하여 반사 하이라이트 동작 방식을 조정할 수 있습니다. 셰이더 그래프의 속성에 액세스하려면 디자인 화면의 빈 영역을 선택하고 **속성** 창에서 액세스할 속성을 찾습니다.  
   
-   셰이더에서 반사광을 적용하는 방법에 대한 자세한 내용은 [방법: 기본 퐁 셰이더 만들기](../designers/how-to-create-a-basic-phong-shader.md)를 참조하세요.  
+   셰이더에서 반사광을 적용하는 방법에 대한 자세한 내용은 [방법: 기본 퐁 셰이더 만들기](../designers/how-to-create-a-basic-phong-shader.md)합니다.  
   
    반사광이 적용되면 당구공이 다음과 같이 표시됩니다.  
   

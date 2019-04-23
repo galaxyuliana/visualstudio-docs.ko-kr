@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9e952cda19664a9d73ebe6b77daba3ecfd78777c
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: a5e5d1fec376a1f35a8b2214a7bde4834cc6bd9d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658711"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101797"
 ---
 # <a name="creating-a-windows-forms-based-domain-specific-language"></a>Windows Forms 기반 도메인별 언어 만들기
 DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모델의 상태를 표시 하려면 Windows Forms를 사용할 수 있습니다. 이 항목에서는 Visual Studio Visualization and Modeling SDK를 사용 하 여 DSL을 Windows Form 바인딩을 통해 안내 합니다.
@@ -35,11 +35,11 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
 2. 템플릿을 제공 하는 초기 예제를 사용 하 여 실험 합니다.
 
-   1.  모든 템플릿 변환 합니다.
+   1. 모든 템플릿 변환 합니다.
 
-   2.  빌드 및 실행 샘플 (**ctrl+f5**).
+   2. 빌드 및 실행 샘플 (**ctrl+f5**).
 
-   3.  Visual Studio의 실험적 인스턴스에서 엽니다는 `Sample` 디버깅 프로젝트의 파일입니다.
+   3. Visual Studio의 실험적 인스턴스에서 엽니다는 `Sample` 디버깅 프로젝트의 파일입니다.
 
         Windows Forms 컨트롤에 표시 되는지 확인 합니다.
 
@@ -49,17 +49,17 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
    Visual Studio의 기본 인스턴스에서 DSL 솔루션에 대 한 다음 사항에 유의 합니다.
 
--   `DslDefinition.dsl` 다이어그램 요소를 포함합니다. 즉,이 DSL의 인스턴스 모델 보기를 DSL 다이어그램을 사용 하지 것입니다. 대신 Windows 폼 모델 바인딩될 하 고 폼에서 요소가 모델에 표시 됩니다.
+- `DslDefinition.dsl` 다이어그램 요소를 포함합니다. 즉,이 DSL의 인스턴스 모델 보기를 DSL 다이어그램을 사용 하지 것입니다. 대신 Windows 폼 모델 바인딩될 하 고 폼에서 요소가 모델에 표시 됩니다.
 
--   외에 `Dsl` 및 `DslPackage` 프로젝트를 솔루션 이라는 세 번째 프로젝트가 포함 되어 `UI.` **UI** 프로젝트는 Windows Forms 컨트롤의 정의 포함 합니다. `DslPackage` 에 따라 달라 집니다 `UI`, 및 `UI` 에 따라 달라 집니다 `Dsl`합니다.
+- 외에 `Dsl` 및 `DslPackage` 프로젝트를 솔루션 이라는 세 번째 프로젝트가 포함 되어 `UI.` **UI** 프로젝트는 Windows Forms 컨트롤의 정의 포함 합니다. `DslPackage` 에 따라 달라 집니다 `UI`, 및 `UI` 에 따라 달라 집니다 `Dsl`합니다.
 
--   에 `DslPackage` 프로젝트 `UI\DocView.cs` 에 정의 되어 있는 Windows Forms 컨트롤을 표시 하는 코드를 포함 합니다 `UI` 프로젝트입니다.
+- 에 `DslPackage` 프로젝트 `UI\DocView.cs` 에 정의 되어 있는 Windows Forms 컨트롤을 표시 하는 코드를 포함 합니다 `UI` 프로젝트입니다.
 
--   `UI` 프로젝트는 DSL에 바인딩된 폼 컨트롤의 작업 예제를 포함 합니다. 그러나 DSL 정의 변경한 경우 작동 하지 않습니다. `UI` 프로젝트 포함 되어 있습니다.
+- `UI` 프로젝트는 DSL에 바인딩된 폼 컨트롤의 작업 예제를 포함 합니다. 그러나 DSL 정의 변경한 경우 작동 하지 않습니다. `UI` 프로젝트 포함 되어 있습니다.
 
-    -   라는 Windows Forms 클래스 `ModelViewControl`합니다.
+    - 라는 Windows Forms 클래스 `ModelViewControl`합니다.
 
-    -   라는 파일로 `DataBinding.cs` 의 추가 부분 정의 포함 하는 `ModelViewControl`합니다. 해당 콘텐츠를 볼 **솔루션 탐색기**, 파일에 대 한 바로 가기 메뉴를 열고 선택 **코드 보기**합니다.
+    - 라는 파일로 `DataBinding.cs` 의 추가 부분 정의 포함 하는 `ModelViewControl`합니다. 해당 콘텐츠를 볼 **솔루션 탐색기**, 파일에 대 한 바로 가기 메뉴를 열고 선택 **코드 보기**합니다.
 
 ### <a name="about-the-ui-project"></a>UI 프로젝트에 대 한
  고유한 DSL을 정의 하려면 DSL 정의 파일을 업데이트 하는 경우에 컨트롤을 업데이트 해야 합니다는 `UI` DSL을 표시 하는 프로젝트입니다. 달리 합니다 `Dsl` 하 고 `DslPackage` 프로젝트에 샘플 `UI` 프로젝트에서 생성 되지 않습니다 `DslDefinitionl.dsl`합니다. 이 연습에서는 다루지 않습니다 하지만 원한다 면 코드를 생성 하려면.tt 파일을 추가할 수 있습니다.
@@ -71,34 +71,34 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
 #### <a name="to-update-the-dsl-definition"></a>DSL 정의 업데이트 하려면
 
-1.  DSL designer에 DslDefinition.dsl을 엽니다.
+1. DSL designer에 DslDefinition.dsl을 엽니다.
 
-2.  삭제 **ExampleElement**
+2. 삭제 **ExampleElement**
 
-3.  이름 바꾸기는 **ExampleModel** 도메인 클래스 `Farm`합니다.
+3. 이름 바꾸기는 **ExampleModel** 도메인 클래스 `Farm`합니다.
 
      라는 추가 도메인 속성을 제공 `Size` 형식의 **Int32**, 및 `IsOrganic` 형식의 **부울**합니다.
 
     > [!NOTE]
     >  루트 도메인 클래스를 삭제 하 고 새 루트를 만든 경우에 편집기 루트 클래스 속성을 다시 설정 해야 합니다. **DSL 탐색기**를 선택 **편집기**합니다. 속성 창에서 설정한 **루트 클래스** 에 `Farm`입니다.
 
-4.  사용 된 **명명 된 도메인 클래스** 다음 도메인 클래스를 만드는 도구:
+4. 사용 된 **명명 된 도메인 클래스** 다음 도메인 클래스를 만드는 도구:
 
-    -   `Field` -이 추가 도메인 속성 지정 라는 `Size`합니다.
+    - `Field` -이 추가 도메인 속성 지정 라는 `Size`합니다.
 
-    -   `Animal` -속성 창에서 설정할 **상속 한정자** 하 **추상**합니다.
+    - `Animal` -속성 창에서 설정할 **상속 한정자** 하 **추상**합니다.
 
-5.  사용 된 **도메인 클래스** 다음 클래스를 만드는 도구:
+5. 사용 된 **도메인 클래스** 다음 클래스를 만드는 도구:
 
-    -   `Sheep`
+    - `Sheep`
 
-    -   `Goat`
+    - `Goat`
 
-6.  사용 합니다 **상속** 도구 `Goat` 하 고 `Sheep` 에서 상속 `Animal`합니다.
+6. 사용 합니다 **상속** 도구 `Goat` 하 고 `Sheep` 에서 상속 `Animal`합니다.
 
-7.  사용 된 **포함** 포함 하는 도구 `Field` 및 `Animal` 에서 `Farm`합니다.
+7. 사용 된 **포함** 포함 하는 도구 `Field` 및 `Animal` 에서 `Farm`합니다.
 
-8.  다이어그램을 정리 하는 데 좋습니다. 중복 된 요소 수를 줄이려면 다음을 사용 합니다 **여기 하위 트리 가져오기** 리프 요소의 바로 가기 메뉴에서 명령을 합니다.
+8. 다이어그램을 정리 하는 데 좋습니다. 중복 된 요소 수를 줄이려면 다음을 사용 합니다 **여기 하위 트리 가져오기** 리프 요소의 바로 가기 메뉴에서 명령을 합니다.
 
 9. **모든 템플릿 변환** 솔루션 탐색기의 도구 모음에서입니다.
 
@@ -112,13 +112,13 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
 #### <a name="to-define-your-dsl-model-as-a-data-source"></a>데이터 원본으로 DSL 모델을 정의 하려면
 
-1.  에 **데이터** 메뉴 선택 **데이터 소스 표시**합니다.
+1. 에 **데이터** 메뉴 선택 **데이터 소스 표시**합니다.
 
      **데이터 원본** 창이 열립니다.
 
      선택할 **새 데이터 소스 추가**합니다. **데이터 원본 구성** 마법사가 열립니다.
 
-2.  선택할 **개체**하십시오 **다음**합니다.
+2. 선택할 **개체**하십시오 **다음**합니다.
 
      확장 **Dsl**, **Company.FarmApp**를 선택 하 고 **팜**,이 모델의 루트 클래스입니다. **마침**을 선택합니다.
 
@@ -175,7 +175,7 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
 #### <a name="to-complete-the-bindings-to-the-dsl"></a>DSL에 대 한 바인딩을 완료
 
-1.  별도 코드 파일에 다음 코드를 추가 합니다 **UI** 프로젝트:
+1. 별도 코드 파일에 다음 코드를 추가 합니다 **UI** 프로젝트:
 
     ```csharp
     using System.ComponentModel;
@@ -201,7 +201,7 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
     }
     ```
 
-2.  에 **DslPackage** 프로젝트를 편집 **DslPackage\DocView.tt** 다음 변수 정의 업데이트 합니다.
+2. 에 **DslPackage** 프로젝트를 편집 **DslPackage\DocView.tt** 다음 변수 정의 업데이트 합니다.
 
     ```csharp
     string viewControlTypeName = "FarmControl";
@@ -212,18 +212,18 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
 #### <a name="to-test-the-dsl"></a>DSL을 테스트 하려면
 
-1.  솔루션을 빌드하고 실행합니다.
+1. 솔루션을 빌드하고 실행합니다.
 
-2.  Visual Studio의 실험적 인스턴스에서 엽니다는 **샘플** 파일입니다.
+2. Visual Studio의 실험적 인스턴스에서 엽니다는 **샘플** 파일입니다.
 
-3.  에 **FarmApp 탐색기**에서 바로 가기 메뉴를 열고 합니다 **팜** 루트 노드를 선택한 **새 Goat 추가**.
+3. 에 **FarmApp 탐색기**에서 바로 가기 메뉴를 열고 합니다 **팜** 루트 노드를 선택한 **새 Goat 추가**.
 
      `Goat1` 에 표시 되는 **동물** 보기.
 
     > [!WARNING]
     >  바로 가기 메뉴를 사용 해야 합니다 **팜에** 노드를 하지는 **동물** 노드.
 
-4.  선택 된 **팜** 루트 노드 및 해당 속성을 봅니다.
+4. 선택 된 **팜** 루트 노드 및 해당 속성을 봅니다.
 
      폼 보기에서 변경 된 **이름을** 또는 **크기** 팜의 합니다.
 
@@ -233,13 +233,13 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
 #### <a name="to-make-the-properties-update-immediately"></a>즉시 업데이트 속성
 
-1.  FarmControl.cs의 디자인 뷰에서 단순 필드 이름, 크기 또는 IsOrganic 등을 선택 합니다.
+1. FarmControl.cs의 디자인 뷰에서 단순 필드 이름, 크기 또는 IsOrganic 등을 선택 합니다.
 
-2.  속성 창에서 확장 **DataBindings** 연 **(고급)** 합니다.
+2. 속성 창에서 확장 **DataBindings** 연 **(고급)** 합니다.
 
      에 **서식 지정 및 고급 바인딩** 대화 상자 아래에 있는 **데이터 원본 업데이트 모드**, 선택 **OnPropertyChanged**합니다.
 
-3.  솔루션을 빌드하고 실행합니다.
+3. 솔루션을 빌드하고 실행합니다.
 
      팜 모델 변경 내용 즉시의 해당 속성 필드의 콘텐츠를 변경할 때 확인 합니다.
 

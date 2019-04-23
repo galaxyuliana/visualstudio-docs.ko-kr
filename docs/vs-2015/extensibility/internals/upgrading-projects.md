@@ -12,12 +12,12 @@ ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 47b4bacb8815db8cf7cb64f47534d1c3b10a8177
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7e97e21b2d08d7398a4372ac31cda63b5cfb9fe9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986116"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100601"
 ---
 # <a name="upgrading-projects"></a>프로젝트 업그레이드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,9 +27,9 @@ ms.locfileid: "58986116"
 ## <a name="upgrade-strategies"></a>업그레이드 전략  
  업그레이드를 지원 하기 위해 프로젝트 시스템 구현을 정의 하 고 업그레이드 전략을 구현 해야 합니다. 전략을 결정 하는 데,--나란히 (SxS) 백업, 복사 백업 중 하나 또는 둘 다 지원 하기 위해 선택할 수 있습니다.  
   
--   SxS 백업 프로젝트를 직접 업그레이드에 적합 한 파일 이름 접미사를 예를 들어 추가 ".old" 해야 하는 파일만 복사를 의미 합니다.  
+- SxS 백업 프로젝트를 직접 업그레이드에 적합 한 파일 이름 접미사를 예를 들어 추가 ".old" 해야 하는 파일만 복사를 의미 합니다.  
   
--   복사 백업 프로젝트를 사용자가 제공한 백업 위치에 모든 프로젝트 항목을 복사 하는 것을 의미 합니다. 원래 프로젝트 위치에서 관련 파일을 업그레이드 한 다음 됩니다.  
+- 복사 백업 프로젝트를 사용자가 제공한 백업 위치에 모든 프로젝트 항목을 복사 하는 것을 의미 합니다. 원래 프로젝트 위치에서 관련 파일을 업그레이드 한 다음 됩니다.  
   
 ## <a name="how-upgrade-works"></a>업그레이드가 작동 하는 방법  
  이전 버전에서 만든 솔루션 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 최신 버전으로 업그레이드 해야 하는지 여부를 결정 하는 솔루션 파일 IDE 검사에서 열립니다. 업그레이드 하는 것이 필요 합니다 **업그레이드 마법사** 업그레이드 프로세스를 통해 사용자를 자동으로 시작 됩니다.  
@@ -37,7 +37,7 @@ ms.locfileid: "58986116"
  솔루션에서 업그레이드 필요한 경우 각 프로젝트 팩터리 해당 업그레이드 전략에 대해 쿼리 합니다. 전략은 프로젝트 팩터리 복사본 또는 SxS 백업 지원 하는지 여부를 결정 합니다. 정보를 보낼 합니다 **업그레이드 마법사**, 백업에 필요한 정보를 수집 하 고 사용자에 게 해당 옵션을 제공 합니다.  
   
 ### <a name="multi-project-solutions"></a>다중 프로젝트 솔루션  
- 솔루션을 여러 프로젝트를 포함 하며 SxS 백업과 웹만 지 원하는 c + + 프로젝트만 해당 지원 복사 백업 프로젝트 하는 경우 같은 업그레이드 전략 다를 경우 프로젝트 팩터리 업그레이드 전략을 조정 해야 합니다.  
+ 솔루션에 여러 프로젝트가 포함 되어 경우와 같이 업그레이드 전략 다를 경우는 C++ 만 지 원하는 SxS 백업 및 웹 프로젝트는 지원 복사본 백업만 프로젝트, 프로젝트 팩터리 업그레이드 전략을 협상 해야 합니다.  
   
  솔루션에 대 한 각 프로젝트 팩터리 쿼리 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory>합니다. 그런 다음 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject_CheckOnly%2A> 전역 프로젝트 파일에 업그레이드 해야 하는지 확인 하 고 지원 되는 업그레이드 전략을 확인할 수 있습니다. 합니다 **업그레이드 마법사** 후 호출 됩니다.  
   

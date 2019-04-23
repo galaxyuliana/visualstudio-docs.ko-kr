@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: efad4455ab5d3cb0daa16482e303cc82296cc2e4
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 7c50bb7bf6c61a8061b3817c53027a3dd6e5b29f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323989"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102629"
 ---
 # <a name="upgrade-custom-project-and-item-templates-for-visual-studio-2017"></a>사용자 지정 프로젝트 및 항목 템플릿을 Visual Studio 2017에 대 한 업그레이드
 
@@ -32,36 +32,36 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 ## <a name="how-to-update-a-vsix-extension-with-project-or-item-templates"></a>프로젝트 또는 항목 템플릿을 VSIX 확장을 업데이트 하는 방법
 
-1.  Visual Studio 2017에서 솔루션을 엽니다. 코드를 업그레이드 하 라는 메시지가 표시 됩니다. **확인**을 클릭합니다.
+1. Visual Studio 2017에서 솔루션을 엽니다. 코드를 업그레이드 하 라는 메시지가 표시 됩니다. **확인**을 클릭합니다.
 
-2.  업그레이드를 완료 한 후에 설치 대상 버전을 변경 하는 것이 해야 합니다. VSIX 프로젝트에서 source.extension.vsixmanifest 파일을 열고 선택 합니다 **설치 대상** 탭 합니다. 경우는 **버전 범위** 필드가 **[14.0]**, 클릭 **편집** Visual Studio 2017을 포함 하도록 변경 합니다. 로를 설정 하는 예를 들어 **[14.0,15.0]** 또는 Visual Studio 2015 또는 Visual Studio 2017 확장을 설치 하려면 **[15.0]** 방금 Visual Studio 2017을 설치 합니다.
+2. 업그레이드를 완료 한 후에 설치 대상 버전을 변경 하는 것이 해야 합니다. VSIX 프로젝트에서 source.extension.vsixmanifest 파일을 열고 선택 합니다 **설치 대상** 탭 합니다. 경우는 **버전 범위** 필드가 **[14.0]**, 클릭 **편집** Visual Studio 2017을 포함 하도록 변경 합니다. 로를 설정 하는 예를 들어 **[14.0,15.0]** 또는 Visual Studio 2015 또는 Visual Studio 2017 확장을 설치 하려면 **[15.0]** 방금 Visual Studio 2017을 설치 합니다.
 
-3.  코드를 다시 컴파일해야 합니다.
+3. 코드를 다시 컴파일해야 합니다.
 
-4.  Visual Studio를 닫습니다.
+4. Visual Studio를 닫습니다.
 
-5.  VSIX를 설치 합니다.
+5. VSIX를 설치 합니다.
 
-6.  다음을 수행 하 여 업데이트를 테스트할 수 있습니다.
+6. 다음을 수행 하 여 업데이트를 테스트할 수 있습니다.
 
-    1.  파일 변경 검색 다음 레지스트리 키에 의해 활성화 됩니다.
+    1. 파일 변경 검색 다음 레지스트리 키에 의해 활성화 됩니다.
 
          **reg add hklm\software\microsoft\visualstudio\15.0\VSTemplate /v DisableTemplateScanning /t REG_DWORD /d 1 /reg:32**
 
-    2.  키를 추가한 후 실행할 **devenv /installvstemplates**합니다.
+    2. 키를 추가한 후 실행할 **devenv /installvstemplates**합니다.
 
-    3.  Visual Studio를 다시 엽니다. 필요한 위치에 템플릿을 찾아야 합니다.
+    3. Visual Studio를 다시 엽니다. 필요한 위치에 템플릿을 찾아야 합니다.
 
     > [!NOTE]
     >  Visual Studio 확장성 프로젝트 템플릿 레지스트리 키가 존재 하는 경우 사용할 수 없는 경우 레지스트리 키를 삭제 해야 합니다 (다시 실행 하십시오 **devenv /installvstemplates**) 사용 합니다.
 
 ## <a name="other-recommendations-for-deploying-project-and-item-templates"></a>프로젝트 및 항목 템플릿을 배포 하기 위한 기타 권장 사항
 
--   압축 된 템플릿 파일을 사용 하지 마십시오. 템플릿 파일에 리소스와 콘텐츠를 검색 하기 위해 압축 된 필요한 압축 되므로 될 데 비용이 많이 들기 합니다. 대신 자신의 디렉터리 템플릿 초기화 속도를 개별 파일로 프로젝트 및 항목 템플릿을 배포 해야 합니다. VSIX 확장에 대 한 SDK 빌드 작업은 자동으로 압축을 풉니다 압축된 템플릿을 VSIX 파일을 만드는 동안.
+- 압축 된 템플릿 파일을 사용 하지 마십시오. 템플릿 파일에 리소스와 콘텐츠를 검색 하기 위해 압축 된 필요한 압축 되므로 될 데 비용이 많이 들기 합니다. 대신 자신의 디렉터리 템플릿 초기화 속도를 개별 파일로 프로젝트 및 항목 템플릿을 배포 해야 합니다. VSIX 확장에 대 한 SDK 빌드 작업은 자동으로 압축을 풉니다 압축된 템플릿을 VSIX 파일을 만드는 동안.
 
--   템플릿 검색 하는 동안 불필요 한 리소스 어셈블리 로드를 방지 하기 위해 미리 보기 또는 템플릿 이름, 설명, 아이콘, 패키지/리소스 ID 항목을 사용 하지 않습니다. 대신, 속성 또는 지역화 된 이름을 사용 하는 각 로캘에 대해 템플릿 항목을 만드는 지역화 된 매니페스트를 사용할 수 있습니다.
+- 템플릿 검색 하는 동안 불필요 한 리소스 어셈블리 로드를 방지 하기 위해 미리 보기 또는 템플릿 이름, 설명, 아이콘, 패키지/리소스 ID 항목을 사용 하지 않습니다. 대신, 속성 또는 지역화 된 이름을 사용 하는 각 로캘에 대해 템플릿 항목을 만드는 지역화 된 매니페스트를 사용할 수 있습니다.
 
--   템플릿을 있는 그대로 파일 항목을 포함 하는 경우 매니페스트 생성 얻지 못할 수도 있습니다 하면 예상된 된 결과가 있습니다. 이 경우 VSIX 프로젝트를 수동으로 생성 된 매니페스트를 추가 해야 합니다.
+- 템플릿을 있는 그대로 파일 항목을 포함 하는 경우 매니페스트 생성 얻지 못할 수도 있습니다 하면 예상된 된 결과가 있습니다. 이 경우 VSIX 프로젝트를 수동으로 생성 된 매니페스트를 추가 해야 합니다.
 
 ## <a name="file-changes-in-project-and-item-templates"></a>프로젝트 및 항목 템플릿 파일 변경 내용
 새 파일을 올바르게 작성할 수 있도록 지점 차이 Visual Studio 2015 및 Visual Studio 2017 버전 템플릿 파일을 보여 줍니다.

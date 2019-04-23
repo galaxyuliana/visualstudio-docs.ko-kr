@@ -17,12 +17,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8868ef00c9d7ffee7687970c5a09b6a044c85455
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 9120a5b3cb60f6c607ed97ab2df24bb157c72371
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971675"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107361"
 ---
 # <a name="how-to-include-a-data-file-in-a-clickonce-application"></a>방법: ClickOnce 애플리케이션에 데이터 파일 포함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,25 +65,25 @@ ms.locfileid: "58971675"
   
 ### <a name="to-include-a-data-file-by-using-mageuiexe"></a>MageUI.exe를 사용 하 여 데이터 파일을 포함 하려면  
   
-1.  응용 프로그램 파일의 나머지 부분을 사용 하 여 응용 프로그램 디렉터리에 데이터 파일을 추가 합니다.  
+1. 응용 프로그램 파일의 나머지 부분을 사용 하 여 응용 프로그램 디렉터리에 데이터 파일을 추가 합니다.  
   
-2.  일반적으로 응용 프로그램 디렉터리 배포의 현재 버전을 사용 하 여 레이블이 지정 된 디렉터리 됩니다-예를 들어 v1.0.0.0 합니다.  
+2. 일반적으로 응용 프로그램 디렉터리 배포의 현재 버전을 사용 하 여 레이블이 지정 된 디렉터리 됩니다-예를 들어 v1.0.0.0 합니다.  
   
-3.  에 **파일** 메뉴에서 클릭 **엽니다** 여 응용 프로그램 매니페스트를 엽니다.  
+3. 에 **파일** 메뉴에서 클릭 **엽니다** 여 응용 프로그램 매니페스트를 엽니다.  
   
-4.  선택 된 **파일** 탭 합니다.  
+4. 선택 된 **파일** 탭 합니다.  
   
-5.  탭의 맨 위에 있는 텍스트 상자에 응용 프로그램의 파일을 포함 하는 디렉터리를 입력 한 다음 클릭 **채우기**합니다.  
+5. 탭의 맨 위에 있는 텍스트 상자에 응용 프로그램의 파일을 포함 하는 디렉터리를 입력 한 다음 클릭 **채우기**합니다.  
   
      데이터 파일 표에 표시 됩니다.  
   
-6.  설정 된 **파일 형식** 데이터 파일의 값 **데이터**입니다.  
+6. 설정 된 **파일 형식** 데이터 파일의 값 **데이터**입니다.  
   
-7.  응용 프로그램 매니페스트를 저장 하 고 파일에 다시 서명 합니다.  
+7. 응용 프로그램 매니페스트를 저장 하 고 파일에 다시 서명 합니다.  
   
      MageUI.exe 파일에 다시 서명 하 라는 메시지가 나타납니다.  
   
-8.  배포 매니페스트에 다시 서명  
+8. 배포 매니페스트에 다시 서명  
   
      응용 프로그램 매니페스트의 해시가 변경 되었기 때문에 배포 매니페스트에 다시 서명 해야 합니다.  
   

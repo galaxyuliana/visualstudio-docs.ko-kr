@@ -14,12 +14,12 @@ ms.assetid: d4286315-814b-4966-b4c4-1ee19d796eff
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: f2b21c585bb48b55929a78554d686477e0fa5649
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 5bf7c570c832fb5db5489a2a9f9bec459f26f0a1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842448"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101278"
 ---
 # <a name="unterminated-comment"></a>종결되지 않은 주석입니다.
 여러 줄의 주석 블록을 시작 해도 제대로 종료 되지 않았습니다. 여러 줄 주석을로 시작는 "/\*" 조합과로 끝나야 "\*/" 조합 합니다. 예를 들면 다음과 같습니다.  
@@ -31,7 +31,7 @@ This is another part of the same comment.*/
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   여러 줄의 주석을 종결 합니다 "*/"입니다.  
+- 여러 줄의 주석을 종결 합니다 "*/"입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Comment 문](../../javascript/reference/comment-statements-javascript.md)

@@ -1,5 +1,5 @@
 ---
-title: '방법: 현재 세션 설정 | Microsoft 문서'
+title: '방법: 현재 세션 설정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -17,12 +17,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: edb5303a283de943ed99fc43003aacdeefe729c9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: d6d7362392aeda9bcff61d811933eb4286d6c4cd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54760394"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102694"
 ---
 # <a name="how-to-set-the-current-session"></a>방법: 현재 세션 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "54760394"
   
 ### <a name="to-set-current-performance-session"></a>현재 성능 세션을 설정하려면  
   
--   **성능 탐색기**에서 성능 세션을 마우스 오른쪽 단추로 클릭한 다음 **현재 세션으로 설정**을 클릭합니다.  
+- **성능 탐색기**에서 성능 세션을 마우스 오른쪽 단추로 클릭한 다음 **현재 세션으로 설정**을 클릭합니다.  
   
      세션 이름이 굵게 표시됩니다.  
   

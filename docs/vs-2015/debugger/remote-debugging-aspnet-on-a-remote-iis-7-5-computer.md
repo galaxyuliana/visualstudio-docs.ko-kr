@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 79fe01ada43b1ac8fe408a1427fd9e65f9cd37cb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5873033e160a8354db70565606dcb399da13e073
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980931"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60109532"
 ---
 # <a name="remote-debugging-aspnet-on-a-remote-iis-computer"></a>원격 IIS 컴퓨터의 원격 디버깅 ASP.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,6 +74,7 @@ ASP.NET 응용 프로그램의 원격 디버깅을 위해 관리자 권한으로
       </system.web>
   
     ```
+
 1. **IIS(인터넷 정보 서비스) 관리자** 를 열고 **사이트**로 이동합니다.
 1. **기본 웹 사이트** 노드를 마우스 오른쪽 단추로 클릭하고 **응용 프로그램 추가**를 선택합니다.
 1. 설정 된 **별칭** 필드를 **MyMVC** 및 응용 프로그램 풀 필드 **ASP.NET v4.0** (ASP.NET 4.5는 응용 프로그램 풀에 대 한 옵션이 아님). **실제 경로** 를 **C:\Publish** (ASP.NET 프로젝트 디렉터리를 복사한 위치)로 설정합니다.

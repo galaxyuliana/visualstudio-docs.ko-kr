@@ -14,12 +14,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a015aeff983979bbb8f6ddedc245c74d3fb5f77b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 686bf7962e164e718f007a44c83febfc8f49418d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54791710"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108375"
 ---
 # <a name="full-text-search-tips"></a>전체 텍스트 검색 팁
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "54791710"
   
 > [!IMPORTANT]
 > 1. 문구 검색은 지원되지 않습니다. 검색 문자열에 여러 단어를 지정하는 경우 지정한 단어를 모두 포함하지만 지정한 정확한 문구가 아닌 항목도 반환됩니다.  
->    2.  검색 문구에서 단어 간의 관계를 지정하려면 논리 연산자를 사용합니다. AND, OR, NOT, NEAR 등의 논리 연산자를 포함하여 검색을 구체화할 수 있습니다. 예를 들어 "declaring NEAR union"을 검색하는 경우 "declaring" 및 "union" 단어를 포함하고 그 사이에 몇 단어만 있는 항목이 검색 결과에 포함됩니다. 자세한 내용은 [검색 식의 논리 연산자](../ide/logical-operators-in-search-expressions.md)를 참조하세요.  
+>    2. 검색 문구에서 단어 간의 관계를 지정하려면 논리 연산자를 사용합니다. AND, OR, NOT, NEAR 등의 논리 연산자를 포함하여 검색을 구체화할 수 있습니다. 예를 들어 "declaring NEAR union"을 검색하는 경우 "declaring" 및 "union" 단어를 포함하고 그 사이에 몇 단어만 있는 항목이 검색 결과에 포함됩니다. 자세한 내용은 [검색 식의 논리 연산자](../ide/logical-operators-in-search-expressions.md)를 참조하세요.  
   
 ### <a name="filters"></a>필터  
  고급 검색 연산자를 사용하여 검색 결과를 더욱 제한할 수 있습니다. 도움말에는 전체 텍스트 검색 결과를 필터링하는 데 사용할 수 있는 세 가지 범주(제목, 코드 및 키워드)가 포함되어 있습니다. 자세한 내용은 [검색 식의 고급 검색 연산자](../ide/advanced-search-operators-in-search-expressions.md)를 참조하세요.  
@@ -51,11 +51,11 @@ ms.locfileid: "54791710"
 ### <a name="ranking-of-search-results"></a>검색 결과의 순위 지정  
  검색 알고리즘은 특정 조건을 적용하여 결과 목록에서 검색 결과의 순위를 위나 아래로 조정합니다. 일반적으로 다음과 같이 작동합니다.  
   
-1.  제목에 검색어를 포함하는 콘텐츠의 순위가 그렇지 않은 콘텐츠보다 높습니다.  
+1. 제목에 검색어를 포함하는 콘텐츠의 순위가 그렇지 않은 콘텐츠보다 높습니다.  
   
-2.  근접한 위치에 검색어를 포함하는 콘텐츠의 순위가 그렇지 않은 콘텐츠보다 높습니다.  
+2. 근접한 위치에 검색어를 포함하는 콘텐츠의 순위가 그렇지 않은 콘텐츠보다 높습니다.  
   
-3.  높은 밀도의 검색어를 포함하는 콘텐츠의 순위가 낮은 밀도의 검색어를 포함하는 콘텐츠보다 높습니다.  
+3. 높은 밀도의 검색어를 포함하는 콘텐츠의 순위가 낮은 밀도의 검색어를 포함하는 콘텐츠보다 높습니다.  
   
 ### <a name="words-ignored-in-searches-stop-words"></a>검색에서 무시되는 단어(중지 단어)  
  자주 사용되는 단어 또는 숫자(중지 단어라고도 함)는 전체 텍스트 검색 시 자동으로 무시됩니다. 예를 들어 "pass through" 문구를 검색하는 경우 검색 결과에 "pass" 단어를 포함하는 항목이 표시되지만 "through" 단어를 포함하는 항목은 표시되지 않습니다.  

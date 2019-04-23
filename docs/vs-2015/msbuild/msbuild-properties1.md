@@ -11,12 +11,12 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 662cd662e8fe18c5a2a8c05a7f5da21c064743b3
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 0f814623d8084619ccbe82d6660900055f81b3ef
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660751"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101186"
 ---
 # <a name="msbuild-properties1"></a>MSBuild Properties1
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -111,11 +111,11 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
 ## <a name="creating-properties-during-execution"></a>실행 중에 속성 만들기  
  `Target` 요소 외부에 배치되는 속성의 경우 빌드의 평가 단계에서 값이 할당됩니다. 후속 실행 단계 중에 다음과 같이 속성을 만들거나 수정할 수 있습니다.  
   
--   모든 작업에서 속성을 내보낼 수 있습니다. 속성을 내보내려면 [Task](../msbuild/task-element-msbuild.md) 요소에 `PropertyName` 특성이 포함된 자식 [Output](../msbuild/output-element-msbuild.md) 요소가 있어야 합니다.  
+- 모든 작업에서 속성을 내보낼 수 있습니다. 속성을 내보내려면 [Task](../msbuild/task-element-msbuild.md) 요소에 `PropertyName` 특성이 포함된 자식 [Output](../msbuild/output-element-msbuild.md) 요소가 있어야 합니다.  
   
--   [CreateProperty](../msbuild/createproperty-task.md) 작업에서 속성을 내보낼 수 있습니다. 이러한 사용법은 더 이상 사용되지 않습니다.  
+- [CreateProperty](../msbuild/createproperty-task.md) 작업에서 속성을 내보낼 수 있습니다. 이러한 사용법은 더 이상 사용되지 않습니다.  
   
--   .NET Framework 3.5부터는 `Target` 요소가 속성 선언이 들어 있을 수 있는 `PropertyGroup` 요소를 포함할 수 있습니다.  
+- .NET Framework 3.5부터는 `Target` 요소가 속성 선언이 들어 있을 수 있는 `PropertyGroup` 요소를 포함할 수 있습니다.  
   
 ## <a name="storing-xml-in-properties"></a>속성에 XML 저장  
  속성은 작업에 값을 전달하거나 로깅 정보를 표시하는 데 사용할 수 있는 임의의 XML을 포함할 수 있습니다. 다음 예제에서는 XML 및 기타 속성 참조를 포함하는 값이 있는 `ConfigTemplate` 속성을 보여 줍니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 개별 속성값을 사용하여 속성 참조를 바꿉니다. 속성값은 나타나는 순서대로 할당됩니다. 따라서 이 예제의 경우 `$(MySupportedVersion)`, `$(MyRequiredVersion)`, `$(MySafeMode)`가 이미 정의되어 있어야 합니다.  

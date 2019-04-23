@@ -10,19 +10,19 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1b47db7802a6e174d8efff054fe9a6454fa6ef73
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 06844e8723cc118d6cc10c44c5c788e48c206684
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643680"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101030"
 ---
 # <a name="properties-window-overview"></a>속성 창 개요
 합니다 **속성** 창을 사용 하 여 windows에서 사용할 수 있는 두 가지 주요 유형에서 선택한 개체에 대 한 속성을 표시 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)입니다. 이러한 두 창의 유형은 다음과 같습니다.
 
--   솔루션 탐색기, 클래스 뷰 및 개체 브라우저와 같은 도구 창
+- 솔루션 탐색기, 클래스 뷰 및 개체 브라우저와 같은 도구 창
 
--   이러한 편집기 및 디자이너와 forms 디자이너, XML 편집기, HTML 편집기를 포함 하는 문서 창
+- 이러한 편집기 및 디자이너와 forms 디자이너, XML 편집기, HTML 편집기를 포함 하는 문서 창
 
 ## <a name="using-the-properties-window"></a>속성 창 사용
  합니다 **속성** 단일 또는 여러 선택된 항목의 속성 창에 표시 됩니다. 여러 항목을 선택 하는 경우 선택한 모든 개체에 대 한 모든 속성의 교집합 표시 됩니다.

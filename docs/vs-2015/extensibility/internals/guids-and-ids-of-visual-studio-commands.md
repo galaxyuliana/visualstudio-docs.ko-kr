@@ -14,12 +14,12 @@ ms.assetid: 2ea4bee2-0259-4675-8e65-2023b312b516
 caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 598daccecbd2b03d0df117262571f6f511e2a247
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2feef3cbe72b7eb8db96052236fe483733e22273
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985797"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107751"
 ---
 # <a name="guids-and-ids-of-visual-studio-commands"></a>Visual Studio 명령의 GUID 및 ID
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,11 +54,11 @@ Visual Studio 통합된 개발 환경 (IDE)에 포함 된 명령의 GUID 및 ID 
 ### <a name="special-cases"></a>특별 한 경우
  다음 경우에 메뉴 텍스트 또는 도구 설명 텍스트를 다 명령 정의에 포함 된 내용입니다.
 
--   같은 밑줄이 그어진 문자를 포함 하는 메뉴 항목의 **인쇄** 명령을 **파일** 메뉴, P 밑줄이 표시 됩니다.
+- 같은 밑줄이 그어진 문자를 포함 하는 메뉴 항목의 **인쇄** 명령을 **파일** 메뉴, P 밑줄이 표시 됩니다.
 
      메뉴 항목 이름에 '&' 문자 뒤에 나오는 문자는 표시는 밑줄이 있습니다. .Vsct 파일 특수 문자를 나타내기 위해 '&' 문자를 사용 하며 철자 표시 되는 앰퍼샌드를 입력 해야 하는 XML로 작성 됩니다 있지만 '&amp;'. 따라서.vsct 파일에에서는 **인쇄** 명령으로 표시 됩니다. '&amp;인쇄 '.
 
--   명령와 같은 동적 텍스트입니다 **저장** *현재 파일 이름을*, 및 동적 메뉴 항목, 항목 등에서 생성 합니다 **최근에 사용한 파일** 목록.
+- 명령와 같은 동적 텍스트입니다 **저장** *현재 파일 이름을*, 및 동적 메뉴 항목, 항목 등에서 생성 합니다 **최근에 사용한 파일** 목록.
 
      동적 텍스트를 검색할 신뢰할 수 있는 방법은 없습니다. 대신 참조 하 여 원하는 명령을 호스트 하는 그룹을 찾을 [Guid 및 Visual Studio 메뉴의 Id](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) 하거나 [Guid 및 Id의 Visual Studio 도구 모음](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md), 해당 그룹의 ID 검색 합니다. 명령 정의와 그룹에 없으면 해당 [부모 요소](../../extensibility/parent-element.md), SharedCmdPlace.vsct 및 ShellCmdPlace.vsct (또는 디버거 명령에 대 한 VsDbgCmdPlace.vsct)에 대 한 검색을 `<CommandPlacement>` 의 부모를 설정 하는 요소는 명령입니다. SharedCmdPlace.vsct, ShellCmdPlace.vsct, andVsDbgCmdPlace.vsct에는 *Visual Studio SDK 설치 경로*\VisualStudioIntegration\Common\Inc\ 폴더입니다.
 

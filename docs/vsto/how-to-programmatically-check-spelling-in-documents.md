@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: cbb02ef8d1032a77cccd045401d9e3387f48a963
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 26eb7e0798fbcf6aad33dd45892a23fb0d54b812
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621099"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110091"
 ---
 # <a name="how-to-programmatically-check-spelling-in-documents"></a>방법: 프로그래밍 방식으로 문서에서 맞춤법 검사
   문서에서 맞춤법을 확인 하려면 사용 된 <xref:Microsoft.Office.Interop.Word._Application.CheckSpelling%2A> 메서드. 이 메서드는 제공된 된 매개 변수 철자가 여부를 나타내는 부울 값을 반환 합니다.
@@ -27,7 +27,7 @@ ms.locfileid: "56621099"
 
 ## <a name="to-check-spelling-and-display-results-in-a-message-box"></a>맞춤법을 검사 하 고 메시지 상자에 결과 표시 하려면
 
-1.  호출 된 <xref:Microsoft.Office.Interop.Word._Application.CheckSpelling%2A> 메서드 맞춤법 오류를 확인 하는 텍스트 범위를 전달 합니다. 이 코드 예제를 사용하려면 프로젝트의 `ThisDocument` 또는 `ThisAddIn` 클래스에서 실행합니다.
+1. 호출 된 <xref:Microsoft.Office.Interop.Word._Application.CheckSpelling%2A> 메서드 맞춤법 오류를 확인 하는 텍스트 범위를 전달 합니다. 이 코드 예제를 사용하려면 프로젝트의 `ThisDocument` 또는 `ThisAddIn` 클래스에서 실행합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#113](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#113)]
      [!code-csharp[Trin_VstcoreWordAutomation#113](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#113)]

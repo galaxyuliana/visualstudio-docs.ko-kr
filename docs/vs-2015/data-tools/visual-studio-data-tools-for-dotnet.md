@@ -9,12 +9,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: da5578321e9c637b12ffbb253a9c0d4c4f87dfe9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: b42617892e377dcf750e9f5cafc914759b7d0c13
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002720"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110929"
 ---
 # <a name="visual-studio-data-tools-for-net"></a>.NET용 Visual Studio 데이터 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,27 +43,27 @@ Visual Studio 및.NET Framework에는 광범위 한 API 및 도구 데이터베�
   
 ## <a name="in-this-section"></a>단원 내용  
   
--   [ADO.NET을 사용하여 간단한 데이터 애플리케이션 만들기](../data-tools/create-a-simple-data-application-by-using-adonet.md)  
+- [ADO.NET을 사용하여 간단한 데이터 애플리케이션 만들기](../data-tools/create-a-simple-data-application-by-using-adonet.md)  
   
--   [새 연결 추가](../data-tools/add-new-connections.md)  
+- [새 연결 추가](../data-tools/add-new-connections.md)  
   
--   [새 데이터 소스 추가](../data-tools/add-new-data-sources.md)  
+- [새 데이터 소스 추가](../data-tools/add-new-data-sources.md)  
   
--   [Visual Studio의 엔터티 데이터 모델 도구](../data-tools/entity-data-model-tools-in-visual-studio.md)  
+- [Visual Studio의 엔터티 데이터 모델 도구](../data-tools/entity-data-model-tools-in-visual-studio.md)  
   
--   [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)  
+- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)  
   
--   [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)(Visual Studio의 LINQ to SQL 도구)  
+- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)(Visual Studio의 LINQ to SQL 도구)  
   
--   [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)  
+- [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)  
   
--   [데이터 액세스 오류 문제 해결을 위한 추가 리소스](../data-tools/additional-resources-for-troubleshooting-data-access-errors.md)  
+- [데이터 액세스 오류 문제 해결을 위한 추가 리소스](../data-tools/additional-resources-for-troubleshooting-data-access-errors.md)  
   
--   [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)  
+- [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)  
   
--   [Visual Studio에서 데이터베이스와 데이터 계층 애플리케이션 만들기 및 관리](../data-tools/creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md)  
+- [Visual Studio에서 데이터베이스와 데이터 계층 애플리케이션 만들기 및 관리](../data-tools/creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md)  
   
--   [데이터 액세스 오류 문제 해결을 위한 추가 리소스](../data-tools/additional-resources-for-troubleshooting-data-access-errors.md)  
+- [데이터 액세스 오류 문제 해결을 위한 추가 리소스](../data-tools/additional-resources-for-troubleshooting-data-access-errors.md)  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)
