@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1626c9c027b12d6a8df8d3169e7d79cefba66006
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: c392323905676706835a94bd86fcd53e3f6b8cc7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659623"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60054783"
 ---
 # <a name="query-datasets"></a>데이터 세트 쿼리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "59659623"
   
 #### <a name="to-find-a-row-in-a-typed-dataset-with-a-primary-key-value"></a>기본 키 값을 사용 하 여 형식화 된 데이터 집합에서 행을 찾으려면  
   
--   행을 찾으려면 호출 강력한 형식의 `FindBy` 테이블의 기본 키를 사용 하는 메서드입니다.  
+- 행을 찾으려면 호출 강력한 형식의 `FindBy` 테이블의 기본 키를 사용 하는 메서드입니다.  
   
      다음 예제에서는 `CustomerID` 열이 기본 키를 `Customers` 테이블입니다. 즉, 생성 된 `FindBy` 메서드는 `FindByCustomerID`합니다. 이 예제에서는 특정 할당할 <xref:System.Data.DataRow> 생성을 사용 하 여 변수에 `FindBy` 메서드.  
   
@@ -42,7 +42,7 @@ ms.locfileid: "59659623"
   
 #### <a name="to-find-a-row-in-an-untyped-dataset-with-a-primary-key-value"></a>기본 키 값을 사용 하 여 형식화 되지 않은 데이터 집합에서 행을 찾으려면  
   
--   호출을 <xref:System.Data.DataRowCollection.Find%2A> 메서드는 <xref:System.Data.DataRowCollection> 컬렉션, 기본 키를 매개 변수로 전달 합니다.  
+- 호출을 <xref:System.Data.DataRowCollection.Find%2A> 메서드는 <xref:System.Data.DataRowCollection> 컬렉션, 기본 키를 매개 변수로 전달 합니다.  
   
      다음 예제에서는 라는 새 행을 선언 하는 방법을 보여 줍니다 `foundRow` 의 반환 값을 할당 합니다 <xref:System.Data.DataRowCollection.Find%2A> 메서드. 기본 키가 있으면 열 인덱스 1의 내용은 메시지 상자에 표시 됩니다.  
   
@@ -53,7 +53,7 @@ ms.locfileid: "59659623"
   
 #### <a name="to-find-rows-based-on-the-values-in-any-column"></a>열에 값을 기반으로 하는 행을 찾으려면  
   
--   데이터 테이블을 사용 하 여 만들어집니다 합니다<xref:System.Data.DataTable.Select%2A> 배열을 반환 하는 메서드 <xref:System.Data.DataRow>에 전달 된 식에 따라 s는 <xref:System.Data.DataTable.Select%2A> 메서드. 유효한 식을 만드는 방법에 대 한 자세한 내용은 페이지의 "식 구문" 섹션에 대 한 참조를 <xref:System.Data.DataColumn.Expression%2A> 속성입니다.  
+- 데이터 테이블을 사용 하 여 만들어집니다 합니다<xref:System.Data.DataTable.Select%2A> 배열을 반환 하는 메서드 <xref:System.Data.DataRow>에 전달 된 식에 따라 s는 <xref:System.Data.DataTable.Select%2A> 메서드. 유효한 식을 만드는 방법에 대 한 자세한 내용은 페이지의 "식 구문" 섹션에 대 한 참조를 <xref:System.Data.DataColumn.Expression%2A> 속성입니다.  
   
      다음 예제에서는 사용 하는 방법을 보여 줍니다 합니다 <xref:System.Data.DataTable.Select%2A> 메서드는 <xref:System.Data.DataTable> 특정 행을 찾기 위한 합니다.  
   
@@ -82,14 +82,14 @@ ms.locfileid: "59659623"
   
 #### <a name="to-return-the-child-records-of-a-selected-parent-record"></a>자식 선택한 부모 레코드의 레코드를 반환 하려면  
   
--   호출 된 <xref:System.Data.DataRow.GetChildRows%2A> 특정 메서드의 `Customers` 데이터 행 및 행에서 배열을 반환 합니다 `Orders` 테이블:  
+- 호출 된 <xref:System.Data.DataRow.GetChildRows%2A> 특정 메서드의 `Customers` 데이터 행 및 행에서 배열을 반환 합니다 `Orders` 테이블:  
   
      [!code-csharp[VbRaddataDatasets#6](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDatasets/CS/Form1.cs#6)]
      [!code-vb[VbRaddataDatasets#6](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb#6)]  
   
 #### <a name="to-return-the-parent-record-of-a-selected-child-record"></a>선택한 자식 레코드의 부모 레코드를 반환 합니다.  
   
--   호출을 <xref:System.Data.DataRow.GetParentRow%2A> 특정 메서드의 `Orders` 에서 단일 행 돌아가 데이터 행을 `Customers` 테이블:  
+- 호출을 <xref:System.Data.DataRow.GetParentRow%2A> 특정 메서드의 `Orders` 에서 단일 행 돌아가 데이터 행을 `Customers` 테이블:  
   
      [!code-csharp[VbRaddataDatasets#7](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDatasets/CS/Form1.cs#7)]
      [!code-vb[VbRaddataDatasets#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb#7)]

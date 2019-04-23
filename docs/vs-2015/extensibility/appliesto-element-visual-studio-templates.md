@@ -8,12 +8,12 @@ ms.assetid: 8fb1334b-d78c-405f-98b4-786e9f6b58d7
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4cf661407273cfe731867fc79bef0f13d19c1f95
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0b5151f739dfe464ae948eb4b4716f659b7a7913
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983240"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60044189"
 ---
 # <a name="appliesto-element-visual-studio-templates"></a>AppliesTo 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,19 +54,19 @@ ms.locfileid: "58983240"
   
  올바른 식 구문은 다음과 같이 정의됩니다.  
   
--   기능 식과 같은 "(VisualC &#124; CSharp) + (MSTest &#124; NUnit)".  
+- 기능 식과 같은 "(VisualC &#124; CSharp) + (MSTest &#124; NUnit)".  
   
--   "&#124;"는 OR 연산자입니다.  
+- "&#124;"는 OR 연산자입니다.  
   
--   "&" 및 "+" 문자는 모두 AND 연산자입니다.  
+- "&" 및 "+" 문자는 모두 AND 연산자입니다.  
   
--   "!" 문자는 NOT 연산자입니다.  
+- "!" 문자는 NOT 연산자입니다.  
   
--   괄호는 계산 우선 순위를 강제 적용합니다.  
+- 괄호는 계산 우선 순위를 강제 적용합니다.  
   
--   Null 또는 비어 있는 식은 일치하는 항목으로 계산됩니다.  
+- Null 또는 비어 있는 식은 일치하는 항목으로 계산됩니다.  
   
--   프로젝트 기능에는 이러한 예약 된 문자를 제외한 모든 문자일 수 있습니다. "':;,+-*/\\! ~&#124;& %$@^() ={}<>? \t\b\n\r  
+- 프로젝트 기능에는 이러한 예약 된 문자를 제외한 모든 문자일 수 있습니다. "':;,+-*/\\! ~&#124;& %$@^() ={}<>? \t\b\n\r  
   
 ## <a name="example"></a>예제  
  다음 예제에서는 세 개의 서로 다른 템플릿을 보여줍니다. `Template1`은 모든 C# 프로젝트 형식 또는 `WindowsAppContainer` 기능을 지원하는 모든 기타 프로젝트 형식에 적용됩니다. `Template2`는 모든 종류의 전체 C# 프로젝트에 적용됩니다. `Template3`은 `WindowsAppContainer` 프로젝트가 아닌 C# 프로젝트에 적용됩니다.  

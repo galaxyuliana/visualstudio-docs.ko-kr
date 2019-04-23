@@ -17,12 +17,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9a7a48039699c5bb35e07a21e5c5c3be8ae8585f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 918462bff3c2ac8dc57cb9c2c55a7d901707683c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54785915"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60051546"
 ---
 # <a name="how-to-create-project-templates"></a>방법: 프로젝트 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,24 +31,24 @@ ms.locfileid: "54785915"
   
 ### <a name="to-create-a-custom-project-template-with-the-standard-export-template-wizard"></a>표준 템플릿 내보내기 마법사를 사용하여 사용자 지정 프로젝트 템플릿을 만들려면  
   
-1.  프로젝트를 만듭니다.  
+1. 프로젝트를 만듭니다.  
   
     > [!NOTE]
     >  템플릿의 소스로 사용할 프로젝트의 이름을 지정할 때 유효한 식별자 문자만 사용하세요. 잘못된 문자로 이름이 지정된 프로젝트에서 내보낸 템플릿은 템플릿을 기반으로 하는 이후 프로젝트에서 컴파일 오류를 일으킬 수 있습니다. 유효한 식별자 문자에 대한 자세한 내용은 [선언 요소 이름](http://msdn.microsoft.com/library/09d8843b-c0dc-4afe-9dab-87c439a69e66)을 참조하세요.  
   
-2.  템플릿으로 내보낼 준비가 될 때까지 프로젝트를 편집합니다.  
+2. 템플릿으로 내보낼 준비가 될 때까지 프로젝트를 편집합니다.  
   
-3.  해당하는 경우 매개 변수를 대체해야 하는 위치를 나타내도록 코드 파일을 편집합니다. 매개 변수 대체에 대 한 자세한 내용은 참조 하세요. [방법: 템플릿 매개 변수 대체](../ide/how-to-substitute-parameters-in-a-template.md)를 참조하세요.  
+3. 해당하는 경우 매개 변수를 대체해야 하는 위치를 나타내도록 코드 파일을 편집합니다. 매개 변수 대체에 대 한 자세한 내용은 참조 하세요. [방법: 템플릿 매개 변수를 대체](../ide/how-to-substitute-parameters-in-a-template.md)합니다.  
   
-4.  **파일** 메뉴에서 **템플릿 내보내기**를 클릭합니다. **템플릿 내보내기** 마법사가 열립니다.  
+4. **파일** 메뉴에서 **템플릿 내보내기**를 클릭합니다. **템플릿 내보내기** 마법사가 열립니다.  
   
-5.  **프로젝트 템플릿**을 클릭합니다.  
+5. **프로젝트 템플릿**을 클릭합니다.  
   
-6.  현재 솔루션에 프로젝트가 두 개 이상 있으면 템플릿으로 내보낼 프로젝트를 선택합니다.  
+6. 현재 솔루션에 프로젝트가 두 개 이상 있으면 템플릿으로 내보낼 프로젝트를 선택합니다.  
   
-7.  **다음**을 클릭합니다.  
+7. **다음**을 클릭합니다.  
   
-8.  템플릿에 대한 아이콘 및 미리 보기 이미지를 선택합니다. 이러한 항목은 **새 프로젝트** 대화 상자에 나타납니다.  
+8. 템플릿에 대한 아이콘 및 미리 보기 이미지를 선택합니다. 이러한 항목은 **새 프로젝트** 대화 상자에 나타납니다.  
   
 9. 템플릿 이름 및 설명을 입력합니다.  
   

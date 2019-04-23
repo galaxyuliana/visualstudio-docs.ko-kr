@@ -10,21 +10,21 @@ ms.assetid: a2fd3758-09bd-45ae-8ecc-2d276c0036ba
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 348fc23fbe240f36e647d12589a9255cec2afad0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 377609cb9f971b667872c198a53b45a6288f2c15
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971709"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052926"
 ---
 # <a name="expression-evaluation-context"></a>식 계산 컨텍스트
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 디버깅 하는 **식 계산 컨텍스트**:  
   
--   식 계산에 대 한 컨텍스트를 나타냅니다. 일반적으로 평가 컨텍스트 변수, 매개 변수, 함수 및 메서드를 평가 하는 어휘 범위에 해당 합니다. 예를 들어, 스택 프레임을 사용 하 여 연결 하는 식 계산 컨텍스트는 해당 하는 경우 로컬 변수, 메서드 매개 변수 및 클래스 멤버를 평가 하는 것에 대 한 컨텍스트를 제공 합니다.  
+- 식 계산에 대 한 컨텍스트를 나타냅니다. 일반적으로 평가 컨텍스트 변수, 매개 변수, 함수 및 메서드를 평가 하는 어휘 범위에 해당 합니다. 예를 들어, 스택 프레임을 사용 하 여 연결 하는 식 계산 컨텍스트는 해당 하는 경우 로컬 변수, 메서드 매개 변수 및 클래스 멤버를 평가 하는 것에 대 한 컨텍스트를 제공 합니다.  
   
--   중단점에서 프로그램을 중지 하는 경우 존재 합니다. 식 자체에 지정 된 컨텍스트 내에서 평가 위한 준비 된 구문 분석 된 식을 나타내는 데이터 구조입니다.  
+- 중단점에서 프로그램을 중지 하는 경우 존재 합니다. 식 자체에 지정 된 컨텍스트 내에서 평가 위한 준비 된 구문 분석 된 식을 나타내는 데이터 구조입니다.  
   
      보다 세부적으로 식을 사용 하 여 만들어집니다 합니다 [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) 메서드. 식을 계산할 때 이름 및 유형의 변수 또는 인수 및 해당 값을 포함 하는 인쇄 가능한 문자열을 생성 합니다. 조사식 창 또는 IDE의 지역 창에서이 문자열이 표시 됩니다.  
   

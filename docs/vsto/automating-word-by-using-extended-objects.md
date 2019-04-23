@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6cdcb13c493fbffb147d2f91c48bfff5b37e3a6d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c75708afa3c230dcc4bba308cf2d7c97b77d802b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598273"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050935"
 ---
 # <a name="automate-word-by-using-extended-objects"></a>확장 된 개체를 사용 하 여 Word 자동화
   Visual Studio에서 Word 솔루션을 개발하는 경우 솔루션에서 *호스트 항목* 및 *호스트 컨트롤*을 사용할 수 있습니다. Word 개체 모델, 즉 Word용 주 interop 어셈블리가 노출하는 개체 모델에서 일반적으로 사용되는 특정 개체(예: <xref:Microsoft.Office.Interop.Word.Document> 및 <xref:Microsoft.Office.Interop.Word.ContentControl> )를 확장하는 개체입니다. 확장된 개체는 기반이 되는 Word 개체처럼 동작하지만 개체에 이벤트 및 데이터 바인딩 기능을 더 추가합니다.
@@ -46,13 +46,13 @@ ms.locfileid: "56598273"
 
  Word 프로젝트에서 사용할 수 있는 호스트 컨트롤에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   [콘텐츠 컨트롤](../vsto/content-controls.md)
+- [콘텐츠 컨트롤](../vsto/content-controls.md)
 
--   [Bookmark 컨트롤](../vsto/bookmark-control.md)
+- [Bookmark 컨트롤](../vsto/bookmark-control.md)
 
--   [XMLNode 컨트롤](../vsto/xmlnode-control.md)
+- [XMLNode 컨트롤](../vsto/xmlnode-control.md)
 
--   [XMLNodes 컨트롤](../vsto/xmlnodes-control.md)
+- [XMLNodes 컨트롤](../vsto/xmlnodes-control.md)
 
 ## <a name="see-also"></a>참고자료
 - [방법: Word 문서에 콘텐츠 컨트롤 추가](../vsto/how-to-add-content-controls-to-word-documents.md)

@@ -10,12 +10,12 @@ ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4310dadc1e4e1d601b5e1e7401749d44b132174e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 46ef86b8cde506aad3e00aa6b5dbc6470c0087de
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983090"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052183"
 ---
 # <a name="how-to-get-a-service"></a>방법: 서비스 가져오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,11 +28,11 @@ ms.locfileid: "58983090"
   
 ## <a name="getting-a-service-from-an-initialized-vspackage"></a>초기화는 VSPackage에서 서비스 가져오기  
   
-1.  모든 Visual Studio 확장은 확장 자산을 포함 하는 VSIX 배포 프로젝트를 시작 합니다. 만들기는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 라는 VSIX 프로젝트 `GetServiceExtension`합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** 대화 상자의 **Visual C# / 확장성**합니다.  
+1. 모든 Visual Studio 확장은 확장 자산을 포함 하는 VSIX 배포 프로젝트를 시작 합니다. 만들기는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 라는 VSIX 프로젝트 `GetServiceExtension`합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** 대화 상자의 **Visual C# / 확장성**합니다.  
   
-2.  이제 라는 사용자 지정 명령 항목 서식 파일을 추가할 **GetServiceCommand**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C# / 확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 **GetServiceCommand.cs**합니다. 사용자 지정 명령인을 만드는 방법에 대 한 자세한 내용은 [메뉴 명령을 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-a-menu-command.md)  
+2. 이제 라는 사용자 지정 명령 항목 서식 파일을 추가할 **GetServiceCommand**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C# / 확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 **GetServiceCommand.cs**합니다. 사용자 지정 명령인을 만드는 방법에 대 한 자세한 내용은 [메뉴 명령을 사용 하 여 확장 만들기](../extensibility/creating-an-extension-with-a-menu-command.md)  
   
-3.  GetServiceCommand.cs에서 MenuItemCommand 메서드의 본문을 제거 하 고 다음 코드를 추가 합니다.  
+3. GetServiceCommand.cs에서 MenuItemCommand 메서드의 본문을 제거 하 고 다음 코드를 추가 합니다.  
   
     ```csharp  
     IVsActivityLog activityLog = ServiceProvider.GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
@@ -43,9 +43,9 @@ ms.locfileid: "58983090"
   
      이 코드는 SVsActivityLog 서비스를 가져오고 캐스팅을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> 인터페이스를 활동 로그에 쓰는 데 사용할 수 있습니다. 예는 [방법: 활동 로그를 사용 하 여](../extensibility/how-to-use-the-activity-log.md)입니다.  
   
-4.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다.  
+4. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스가 표시 됩니다.  
   
-5.  실험적 인스턴스의 도구 메뉴에서 찾을 합니다 **GetServiceCommand 호출** 단추입니다. 이 단추를 클릭 하면 표시 되어야 했다는 메시지 상자가 **활동 로그를 찾을 수 있습니다.**  
+5. 실험적 인스턴스의 도구 메뉴에서 찾을 합니다 **GetServiceCommand 호출** 단추입니다. 이 단추를 클릭 하면 표시 되어야 했다는 메시지 상자가 **활동 로그를 찾을 수 있습니다.**  
   
 ## <a name="getting-a-service-from-a-tool-window-or-control-container"></a>도구 창 또는 컨트롤 컨테이너에서 서비스 가져오기  
  경우에 따라 도구 창에서 서비스 가져오기 또는 배치 되지 않습니다. 그러지 않으면 요소가 서비스를 알지 못하는 서비스 공급자를 사용 하 여 배치 된 컨테이너를 제어 해야 합니다. 예를 들어, 다음 컨트롤 내에서 활동 로그에 작성 하는 것이 좋습니다.  

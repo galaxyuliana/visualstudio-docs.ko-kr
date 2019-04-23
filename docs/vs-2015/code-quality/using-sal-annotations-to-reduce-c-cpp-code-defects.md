@@ -1,5 +1,5 @@
 ---
-title: C-c + + 코드 오류를 줄이기 위한 SAL 주석 사용 | Microsoft Docs
+title: 줄이기 C-SAL 주석 사용C++ 오류 코드 | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-code-analysis
@@ -13,12 +13,12 @@ caps.latest.revision: 29
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: 1331fb7df7cc2c1aaff6a498aab0d9cf8ec8f57f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cb1d5b7f7368b0168a0de6a540a4f025f3179f24
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981597"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046268"
 ---
 # <a name="using-sal-annotations-to-reduce-cc-code-defects"></a>C/C++ 코드 오류를 줄이기 위한 SAL 주석 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,35 +27,35 @@ SAL은 Microsoft 소스 코드 주석 언어입니다. 소스 코드 주석을 �
   
  설명서의이 섹션의 문서 SAL 구문에 대 한 참조를 제공 하며 사용의 예로 제공 SAL 측면에 설명 합니다.  
   
--   [SAL 이해](../code-quality/understanding-sal.md)  
+- [SAL 이해](../code-quality/understanding-sal.md)  
   
      정보 및 SAL 주석은 핵심을 보여 주는 예제를 제공 합니다.  
   
--   [함수 매개 변수 및 반환 값에 주석 지정](../code-quality/annotating-function-parameters-and-return-values.md)  
+- [함수 매개 변수 및 반환 값에 주석 지정](../code-quality/annotating-function-parameters-and-return-values.md)  
   
      SAL 주석 함수 및 함수 매개 변수를 나열합니다.  
   
--   [함수 동작에 주석 지정](../code-quality/annotating-function-behavior.md)  
+- [함수 동작에 주석 지정](../code-quality/annotating-function-behavior.md)  
   
      함수와 함수 동작에 대 한 SAL 주석을 나열합니다.  
   
--   [구조체 및 클래스에 주석 지정](../code-quality/annotating-structs-and-classes.md)  
+- [구조체 및 클래스에 주석 지정](../code-quality/annotating-structs-and-classes.md)  
   
      구조체 및 클래스에 대 한 SAL 주석을 나열합니다.  
   
--   [잠금 동작에 주석 지정](../code-quality/annotating-locking-behavior.md)  
+- [잠금 동작에 주석 지정](../code-quality/annotating-locking-behavior.md)  
   
      잠금 메커니즘을 통해 SAL 주석을 사용 하는 방법에 설명 합니다.  
   
--   [주석 적용 시기 및 위치 지정](../code-quality/specifying-when-and-where-an-annotation-applies.md)  
+- [주석 적용 시기 및 위치 지정](../code-quality/specifying-when-and-where-an-annotation-applies.md)  
   
      조건 또는 기타 SAL 주석 (배치) 범위를 지정 하는 SAL 주석을 나열 합니다.  
   
--   [내장 함수](../code-quality/intrinsic-functions.md)  
+- [내장 함수](../code-quality/intrinsic-functions.md)  
   
      SAL 주석과 내장 함수를 나열합니다.  
   
--   [모범 사례 및 예제](../code-quality/best-practices-and-examples-sal.md)  
+- [모범 사례 및 예제](../code-quality/best-practices-and-examples-sal.md)  
   
      SAL 주석을 사용 하는 방법을 보여 주는 예제를 제공 합니다. 또한 일반적인 문제를 설명합니다.  
   

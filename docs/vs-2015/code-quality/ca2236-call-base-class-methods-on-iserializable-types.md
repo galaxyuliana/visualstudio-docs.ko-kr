@@ -15,12 +15,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: e7447e45108d8755195ad3c7484d55415c520846
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4ec8c14da5c691f6f9740c6df86cb38aeb9fac5e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970891"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057643"
 ---
 # <a name="ca2236-call-base-class-methods-on-iserializable-types"></a>CA2236: ISerializable 형식에서 기본 클래스 메서드를 호출하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,9 +35,9 @@ ms.locfileid: "58970891"
 ## <a name="cause"></a>원인
  형식을 구현 하는 형식에서 파생 되는 <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> 인터페이스를 사용 하 고 다음 조건 중 하나는 true.
 
--   형식에서 사용 하는 생성자, 즉 serialization 생성자를 구현 하는 <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName>, <xref:System.Runtime.Serialization.StreamingContext?displayProperty=fullName> 매개 변수 서명 하지만 기본 형식의 serialization 생성자를 호출 하지 않습니다.
+- 형식에서 사용 하는 생성자, 즉 serialization 생성자를 구현 하는 <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName>, <xref:System.Runtime.Serialization.StreamingContext?displayProperty=fullName> 매개 변수 서명 하지만 기본 형식의 serialization 생성자를 호출 하지 않습니다.
 
--   형식에서 구현 하는 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName> 메서드를 호출 하지 않습니다 하지만 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> 기본 형식의 메서드.
+- 형식에서 구현 하는 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName> 메서드를 호출 하지 않습니다 하지만 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> 기본 형식의 메서드.
 
 ## <a name="rule-description"></a>규칙 설명
  사용자 지정 serialization 프로세스에서 형식이 구현 하는 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> 해당 필드와 필드를 serialization 생성자를 serialize 하는 방법입니다. 형식을 구현 하는 형식에서 파생 되는 경우는 <xref:System.Runtime.Serialization.ISerializable> 인터페이스를 기본 형식 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> 메서드 및 serialization 생성자를 호출 해야 serialize serialize/de-serialize 하는 기본 형식의 필드입니다. 이 고, 그렇지 형식 없습니다 직렬화 되며 올바르게 역직렬화 합니다. 파생된 형식에서 모든 새 필드를 추가 하지 않습니다, 경우 형식 필요는 없습니다 구현 하는 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> 메서드나 serialization 생성자 또는 해당 하는 기본 형식 요소를 호출 합니다.

@@ -24,12 +24,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a0e944d2ed8538a72082bdc52ee72058907ed9d5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3d28efe175bb5bf3e5088918375f580d8076cff9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56633280"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60055303"
 ---
 # <a name="combine-vba-and-document-level-customizations"></a>VBA 및 문서 수준 사용자 지정 결합
   Microsoft Office Word 또는 Microsoft Office Excel의 문서 수준 사용자 지정의 일부인 문서에서 VBA(Visual Basic for Applications) 코드를 사용할 수 있습니다. 사용자 지정 어셈블리에서 문서의 VBA 코드를 호출하거나, 문서의 VBA 코드에서 사용자 지정 어셈블리의 코드를 호출할 수 있도록 프로젝트를 구성할 수 있습니다.
@@ -86,17 +86,17 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ## <a name="requirements"></a>요구 사항
  VBA 코드에서 사용자 지정 어셈블리를 호출할 수 있도록 하기 전에 프로젝트는 다음 요구 사항을 충족해야 합니다.
 
--   문서에 다음 파일 이름 확장명 중 하나가 있어야 합니다.
+- 문서에 다음 파일 이름 확장명 중 하나가 있어야 합니다.
 
-    -   Word의 경우:에 대 한 *.docm* 또는 *.doc*
+    - Word의 경우:에 대 한 *.docm* 또는 *.doc*
 
-    -   : Excel 용 *.xlsm*, *.xltm*하십시오 *.xls*, 또는 *.xlt*
+    - : Excel 용 *.xlsm*, *.xltm*하십시오 *.xls*, 또는 *.xlt*
 
--   문서에 VBA 코드가 포함된 VBA 프로젝트가 이미 있어야 합니다.
+- 문서에 VBA 코드가 포함된 VBA 프로젝트가 이미 있어야 합니다.
 
--   문서의 VBA 코드는 매크로를 사용하도록 설정하라는 메시지를 사용자에게 표시하지 않고 실행될 수 있어야 합니다. Word 또는 Excel의 보안 센터 설정에서 신뢰할 수 있는 위치 목록에 Office 프로젝트의 위치를 추가하여 VBA 코드를 실행하도록 신뢰할 수 있습니다.
+- 문서의 VBA 코드는 매크로를 사용하도록 설정하라는 메시지를 사용자에게 표시하지 않고 실행될 수 있어야 합니다. Word 또는 Excel의 보안 센터 설정에서 신뢰할 수 있는 위치 목록에 Office 프로젝트의 위치를 추가하여 VBA 코드를 실행하도록 신뢰할 수 있습니다.
 
--   Office 프로젝트에는 VBA에 노출할 공용 멤버가 하나 이상 포함된 공용 클래스가 적어도 하나 포함되어 있어야 합니다.
+- Office 프로젝트에는 VBA에 노출할 공용 멤버가 하나 이상 포함된 공용 클래스가 적어도 하나 포함되어 있어야 합니다.
 
      메서드, 속성 및 이벤트를 VBA에 노출할 수 있습니다. 노출하는 클래스는 호스트 항목 클래스(예: Word의 경우 `ThisDocument` 또는 Excel의 경우 `ThisWorkbook` 및 `Sheet1` )이거나 프로젝트에서 정의하는 다른 클래스일 수 있습니다. 호스트 항목에 대 한 자세한 내용은 참조 하세요. [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)합니다.
 
@@ -109,11 +109,11 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 
    이렇게 하려면 다음 주요 단계를 수행해야 합니다.
 
-  1.  COM에 클래스를 노출합니다.
+  1. COM에 클래스를 노출합니다.
 
-  2.  VBA에 노출할 클래스의 인스턴스를 반환하도록 프로젝트에서 호스트 항목 클래스의 **GetAutomationObject** 메서드를 재정의합니다.
+  2. VBA에 노출할 클래스의 인스턴스를 반환하도록 프로젝트에서 호스트 항목 클래스의 **GetAutomationObject** 메서드를 재정의합니다.
 
-  3.  프로젝트에서 호스트 항목 클래스의 **ReferenceAssemblyFromVbaProject** 속성을 **True**로 설정합니다. 이렇게 하면 사용자 지정 어셈블리의 형식 라이브러리가 어셈블리에 포함되고 형식 라이브러리에 대한 참조가 문서의 VBA 프로젝트에 추가됩니다.
+  3. 프로젝트에서 호스트 항목 클래스의 **ReferenceAssemblyFromVbaProject** 속성을 **True**로 설정합니다. 이렇게 하면 사용자 지정 어셈블리의 형식 라이브러리가 어셈블리에 포함되고 형식 라이브러리에 대한 참조가 문서의 VBA 프로젝트에 추가됩니다.
 
   자세한 내용은 참조 하세요. [방법: Visual Basic 프로젝트에서 VBA로 코드 노출](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md) 고 [방법: Visual C에서 VBA로 코드 노출&#35; 프로젝트](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md)합니다.
 
@@ -174,7 +174,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 
  이 메서드는 VBA에 노출한 클래스를 나타내는 개체를 반환합니다. 반환된 개체의 멤버와 메서드 매개 변수가 IntelliSense에서 표시됩니다.
 
-##  <a name="Guidelines"></a> 문서에 VBA 코드를 추가 하기 위한 지침
+## <a name="Guidelines"></a> 문서에 VBA 코드를 추가 하기 위한 지침
  문서 수준 사용자 지정을 호출하는 VBA 코드를 추가할 수 있는 문서의 복사본이 몇 가지 있습니다.
 
  솔루션을 개발하고 테스트하면서 Visual Studio에서 프로젝트를 디버그하거나 실행하는 동안 열려 있는 문서(즉, 빌드 출력 폴더의 문서)에서 VBA 코드를 작성할 수 있습니다. 그러나 Visual Studio에서 빌드 출력 폴더의 문서를 주 프로젝트 폴더의 문서 복사본으로 바꾸기 때문에 이 문서에 추가하는 모든 VBA 코드는 다음번에 프로젝트를 빌드할 때 덮어쓰입니다.
@@ -201,7 +201,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 ### <a name="on-the-end-user-computer"></a>최종 사용자 컴퓨터의
  최종 사용자가 문서 수준 사용자 지정에서 제공하는 서비스를 호출하는 VBA 개발자인 경우 문서의 복사본에서 `CallVSTOAssembly` 속성이나 `GetManagedClass` 메서드를 사용하여 코드를 호출하는 방법을 최종 사용자에게 알려줄 수 있습니다. 솔루션에 업데이트를 게시할 때 최종 사용자 컴퓨터에서 문서의 VBA 코드는 덮어쓰지 않습니다, 그리고 문서 통해 수정 되지 않기 때문에 업데이트를 게시 합니다.
 
-##  <a name="PropertyTasks"></a> 호스트 항목 속성에 의해 수행 하는 작업
+## <a name="PropertyTasks"></a> 호스트 항목 속성에 의해 수행 하는 작업
  **EnableVbaCallers** 및 **ReferenceAssemblyFromVbaProject** 속성을 사용하는 경우 Visual Studio에서는 다른 작업 집합을 수행합니다.
 
 ### <a name="enablevbacallers"></a>속성
@@ -229,9 +229,9 @@ GetManagedClass(pdispInteropObject Object) As Object
 
 2. 문서에서 VBA 프로젝트의 다음 형식 라이브러리에 대한 참조를 추가합니다.
 
-   -   사용자 지정 어셈블리에 대한 형식 라이브러리.
+   - 사용자 지정 어셈블리에 대한 형식 라이브러리.
 
-   -   Microsoft Visual Studio Tools for Office Execution Engine 9.0 형식 라이브러리. 이 형식 라이브러리는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]에 포함되어 있습니다.
+   - Microsoft Visual Studio Tools for Office Execution Engine 9.0 형식 라이브러리. 이 형식 라이브러리는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]에 포함되어 있습니다.
 
    **ReferenceAssemblyFromVbaProject** 속성이 다시 **False**로 설정되면 Visual Studio에서는 다음 작업을 수행합니다.
 

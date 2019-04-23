@@ -25,12 +25,12 @@ caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 83b43b1bb5e47b4d916f18f5a59bba8c04dd21eb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 079ea874e316ede55a489f6f926fd947bd6628fe
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985965"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60051432"
 ---
 # <a name="debugging-mixed-mode-applications"></a>혼합 모드 응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "58985965"
   
 ## <a name="enable-c-edit-and-continue-in-mixed-mode-debugging"></a>혼합 모드 디버깅에서 C++ 편집하며 계속하기 사용  
   
--   Visual Studio 2013에서 C++에 대한 편집하며 계속하기를 사용하려면 레거시 디버깅 엔진으로 되돌려야 합니다. Microsoft Application Lifecycle Management 블로그에서 [Visual Studio 2013에서 관리되는 호환성 모드로 전환](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/switching-to-managed-compatibility-mode-in-visual-studio-2013.aspx)을 참조하세요.  
+- Visual Studio 2013에서 C++에 대한 편집하며 계속하기를 사용하려면 레거시 디버깅 엔진으로 되돌려야 합니다. Microsoft Application Lifecycle Management 블로그에서 [Visual Studio 2013에서 관리되는 호환성 모드로 전환](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/switching-to-managed-compatibility-mode-in-visual-studio-2013.aspx)을 참조하세요.  
   
 ## <a name="property-evaluation-in-mixed-mode-applications"></a>혼합 모드 응용 프로그램의 속성 확인  
  혼합 모드 응용 프로그램에서 디버거의 속성 확인 작업은 많은 리소스를 차지합니다. 그러므로 단계별 실행과 같은 디버깅 작업이 느리게 나타날 수 있습니다. 자세한 내용은 [단계별 실행](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9)을 참조하세요. 혼합 모드 디버깅의 성능이 좋지 않을 경우에는 디버거 창에서 속성 확인을 해제할 수 있습니다.  

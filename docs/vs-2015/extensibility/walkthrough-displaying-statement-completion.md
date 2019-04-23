@@ -10,12 +10,12 @@ ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
 caps.latest.revision: 37
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 06377a3bc8bd192a7c3f66d359350148fe912239
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: db4e63beb1e3d4ff53e547492ae9eae7ee8001e8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982344"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045020"
 ---
 # <a name="walkthrough-displaying-statement-completion"></a>연습: 명령문 완성 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,13 +33,13 @@ ms.locfileid: "58982344"
   
 #### <a name="to-create-a-mef-project"></a>MEF 프로젝트를 만들려면  
   
-1.  C# VSIX 프로젝트를 만듭니다. (에 **새 프로젝트** 대화 상자에서 **Visual C# / 확장성**, 한 다음 **VSIX 프로젝트**.) 솔루션의 이름을 `CompletionTest`로 지정합니다.  
+1. C# VSIX 프로젝트를 만듭니다. (에 **새 프로젝트** 대화 상자에서 **Visual C# / 확장성**, 한 다음 **VSIX 프로젝트**.) 솔루션의 이름을 `CompletionTest`로 지정합니다.  
   
-2.  편집기 분류자 항목 템플릿을 프로젝트에 추가 합니다. 자세한 내용은 [편집기 항목 템플릿을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-an-editor-item-template.md)합니다.  
+2. 편집기 분류자 항목 템플릿을 프로젝트에 추가 합니다. 자세한 내용은 [편집기 항목 템플릿을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-an-editor-item-template.md)합니다.  
   
-3.  기존 클래스 파일을 삭제합니다.  
+3. 기존 클래스 파일을 삭제합니다.  
   
-4.  프로젝트에 다음 참조를 추가 하 고 있는지 확인 하십시오 **CopyLocal** 로 설정 된 `false`:  
+4. 프로젝트에 다음 참조를 추가 하 고 있는지 확인 하십시오 **CopyLocal** 로 설정 된 `false`:  
   
      Microsoft.VisualStudio.Editor  
   
@@ -58,39 +58,39 @@ ms.locfileid: "58982344"
   
 #### <a name="to-implement-the-completion-source"></a>완료 소스를 구현 하려면  
   
-1.  클래스 파일을 추가하고 이름을 `TestCompletionSource`로 지정합니다.  
+1. 클래스 파일을 추가하고 이름을 `TestCompletionSource`로 지정합니다.  
   
-2.  이러한 가져오기를 추가 합니다.  
+2. 이러한 가져오기를 추가 합니다.  
   
      [!code-csharp[VSSDKCompletionTest#1](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#1)]
      [!code-vb[VSSDKCompletionTest#1](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#1)]  
   
-3.  에 대 한 클래스 선언을 수정할 `TestCompletionSource` 구현 되도록 <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource>:  
+3. 에 대 한 클래스 선언을 수정할 `TestCompletionSource` 구현 되도록 <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource>:  
   
      [!code-csharp[VSSDKCompletionTest#2](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#2)]
      [!code-vb[VSSDKCompletionTest#2](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#2)]  
   
-4.  Private 필드의 목록 및 텍스트 버퍼를 사용 하는, 소스 공급자 추가 <xref:Microsoft.VisualStudio.Language.Intellisense.Completion> 개체 (완료 세션에 참가할 식별자에 해당):  
+4. Private 필드의 목록 및 텍스트 버퍼를 사용 하는, 소스 공급자 추가 <xref:Microsoft.VisualStudio.Language.Intellisense.Completion> 개체 (완료 세션에 참가할 식별자에 해당):  
   
      [!code-csharp[VSSDKCompletionTest#3](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#3)]
      [!code-vb[VSSDKCompletionTest#3](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#3)]  
   
-5.  소스 공급자 및 버퍼를 설정 하는 생성자를 추가 합니다. `TestCompletionSourceProvider` 클래스는 이후 단계에서 정의 됩니다.  
+5. 소스 공급자 및 버퍼를 설정 하는 생성자를 추가 합니다. `TestCompletionSourceProvider` 클래스는 이후 단계에서 정의 됩니다.  
   
      [!code-csharp[VSSDKCompletionTest#4](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#4)]
      [!code-vb[VSSDKCompletionTest#4](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#4)]  
   
-6.  구현 된 <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource.AugmentCompletionSession%2A> 컨텍스트에서 제공 하려는 메서드를 완성을 포함 하는 완료 집합을 추가 하 여 합니다. 각 완료 집합의 집합을 포함 <xref:Microsoft.VisualStudio.Language.Intellisense.Completion> 완성, 탭 완성 창에 해당 합니다. (Visual Basic 프로젝트에서 완료 창 탭 이름은 **일반적인** 하 고 **모든**.) FindTokenSpanAtPosition 메서드는 다음 단계에서 정의 됩니다.  
+6. 구현 된 <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource.AugmentCompletionSession%2A> 컨텍스트에서 제공 하려는 메서드를 완성을 포함 하는 완료 집합을 추가 하 여 합니다. 각 완료 집합의 집합을 포함 <xref:Microsoft.VisualStudio.Language.Intellisense.Completion> 완성, 탭 완성 창에 해당 합니다. (Visual Basic 프로젝트에서 완료 창 탭 이름은 **일반적인** 하 고 **모든**.) FindTokenSpanAtPosition 메서드는 다음 단계에서 정의 됩니다.  
   
      [!code-csharp[VSSDKCompletionTest#5](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#5)]
      [!code-vb[VSSDKCompletionTest#5](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#5)]  
   
-7.  다음 메서드는 커서의 위치에서 현재 단어를 찾는 데 사용 됩니다.  
+7. 다음 메서드는 커서의 위치에서 현재 단어를 찾는 데 사용 됩니다.  
   
      [!code-csharp[VSSDKCompletionTest#6](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#6)]
      [!code-vb[VSSDKCompletionTest#6](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#6)]  
   
-8.  구현 된 `Dispose()` 메서드:  
+8. 구현 된 `Dispose()` 메서드:  
   
      [!code-csharp[VSSDKCompletionTest#7](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#7)]
      [!code-vb[VSSDKCompletionTest#7](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#7)]  
@@ -100,17 +100,17 @@ ms.locfileid: "58982344"
   
 #### <a name="to-implement-the-completion-source-provider"></a>완료 소스 공급자를 구현 하려면  
   
-1.  라는 클래스를 추가 `TestCompletionSourceProvider` 구현 하는 <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider>합니다. 이 클래스를 내보낼을 <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> "일반"텍스트의 및 <xref:Microsoft.VisualStudio.Utilities.NameAttribute> "테스트 완료"입니다.  
+1. 라는 클래스를 추가 `TestCompletionSourceProvider` 구현 하는 <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider>합니다. 이 클래스를 내보낼을 <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> "일반"텍스트의 및 <xref:Microsoft.VisualStudio.Utilities.NameAttribute> "테스트 완료"입니다.  
   
      [!code-csharp[VSSDKCompletionTest#8](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#8)]
      [!code-vb[VSSDKCompletionTest#8](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#8)]  
   
-2.  가져오기는 <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>는 완료 소스에서 현재 단어를 찾는 데 사용 됩니다.  
+2. 가져오기는 <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>는 완료 소스에서 현재 단어를 찾는 데 사용 됩니다.  
   
      [!code-csharp[VSSDKCompletionTest#9](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#9)]
      [!code-vb[VSSDKCompletionTest#9](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#9)]  
   
-3.  구현 된 <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider.TryCreateCompletionSource%2A> 완료 원본을 인스턴스화 방법입니다.  
+3. 구현 된 <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider.TryCreateCompletionSource%2A> 완료 원본을 인스턴스화 방법입니다.  
   
      [!code-csharp[VSSDKCompletionTest#10](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletionsource.cs#10)]
      [!code-vb[VSSDKCompletionTest#10](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletionsource.vb#10)]  
@@ -120,24 +120,24 @@ ms.locfileid: "58982344"
   
 #### <a name="to-implement-the-completion-command-handler-provider"></a>완료 명령 처리기 공급자를 구현 하려면  
   
-1.  이라는 파일을 추가 `TestCompletionCommandHandler`합니다.  
+1. 이라는 파일을 추가 `TestCompletionCommandHandler`합니다.  
   
-2.  다음 using 문을 추가 합니다.  
+2. 다음 using 문을 추가 합니다.  
   
      [!code-csharp[VSSDKCompletionTest#11](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletioncommandhandler.cs#11)]
      [!code-vb[VSSDKCompletionTest#11](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletioncommandhandler.vb#11)]  
   
-3.  라는 클래스를 추가 `TestCompletionHandlerProvider` 구현 하는 <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener>합니다. 이 클래스를 내보낼를 <xref:Microsoft.VisualStudio.Utilities.NameAttribute> "토큰 완료 처리기"는 <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> "일반 텍스트"의 및 <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> 의 <xref:Microsoft.VisualStudio.Text.Editor.PredefinedTextViewRoles.Editable>.  
+3. 라는 클래스를 추가 `TestCompletionHandlerProvider` 구현 하는 <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener>합니다. 이 클래스를 내보낼를 <xref:Microsoft.VisualStudio.Utilities.NameAttribute> "토큰 완료 처리기"는 <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> "일반 텍스트"의 및 <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> 의 <xref:Microsoft.VisualStudio.Text.Editor.PredefinedTextViewRoles.Editable>.  
   
      [!code-csharp[VSSDKCompletionTest#12](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletioncommandhandler.cs#12)]
      [!code-vb[VSSDKCompletionTest#12](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletioncommandhandler.vb#12)]  
   
-4.  가져오기는 <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>를 변환할 수 있습니다를 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 에 <xref:Microsoft.VisualStudio.Text.Editor.ITextView>, <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker>, 및 <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> 표준 Visual Studio 서비스에 액세스할 수 있는 합니다.  
+4. 가져오기는 <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>를 변환할 수 있습니다를 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 에 <xref:Microsoft.VisualStudio.Text.Editor.ITextView>, <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker>, 및 <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> 표준 Visual Studio 서비스에 액세스할 수 있는 합니다.  
   
      [!code-csharp[VSSDKCompletionTest#13](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletioncommandhandler.cs#13)]
      [!code-vb[VSSDKCompletionTest#13](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletioncommandhandler.vb#13)]  
   
-5.  구현 된 <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener.VsTextViewCreated%2A> 명령 처리기를 인스턴스화하기 위한 메서드를 합니다.  
+5. 구현 된 <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener.VsTextViewCreated%2A> 명령 처리기를 인스턴스화하기 위한 메서드를 합니다.  
   
      [!code-csharp[VSSDKCompletionTest#14](../snippets/csharp/VS_Snippets_VSSDK/vssdkcompletiontest/cs/testcompletioncommandhandler.cs#14)]
      [!code-vb[VSSDKCompletionTest#14](../snippets/visualbasic/VS_Snippets_VSSDK/vssdkcompletiontest/vb/testcompletioncommandhandler.vb#14)]  
@@ -195,13 +195,13 @@ ms.locfileid: "58982344"
   
 #### <a name="to-build-and-test-the-completiontest-solution"></a>빌드 및 CompletionTest 솔루션 테스트  
   
-1.  솔루션을 빌드합니다.  
+1. 솔루션을 빌드합니다.  
   
-2.  디버거에서 이 프로젝트를 실행하면 Visual Studio의 두 번째 인스턴스가 인스턴스화됩니다.  
+2. 디버거에서 이 프로젝트를 실행하면 Visual Studio의 두 번째 인스턴스가 인스턴스화됩니다.  
   
-3.  텍스트 파일을 만들고 "추가" 단어가 포함 된 일부 텍스트를 입력 합니다.  
+3. 텍스트 파일을 만들고 "추가" 단어가 포함 된 일부 텍스트를 입력 합니다.  
   
-4.  입력할 때 먼저 "a"와 "d" 다음 "addition" 및 "조정"를 포함 하는 목록을 표시 합니다. 또한 선택 되어 있는지 확인 합니다. 다른 "d"를 입력 하면만 "추가"가 이제 선택 목록에 포함 해야 합니다. 스페이스바, 탭 또는 Enter 키를 눌러 "addition" 커밋 또는 Esc 키 또는 다른 키를 입력 하 여 목록 해제 수 있습니다.  
+4. 입력할 때 먼저 "a"와 "d" 다음 "addition" 및 "조정"를 포함 하는 목록을 표시 합니다. 또한 선택 되어 있는지 확인 합니다. 다른 "d"를 입력 하면만 "추가"가 이제 선택 목록에 포함 해야 합니다. 스페이스바, 탭 또는 Enter 키를 눌러 "addition" 커밋 또는 Esc 키 또는 다른 키를 입력 하 여 목록 해제 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 파일 이름 확장명에 콘텐츠 형식 연결](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

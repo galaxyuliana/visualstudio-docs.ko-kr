@@ -29,12 +29,12 @@ caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c5aa51fdf7d0c2537de3c301efa7efb7fe6ce96f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 759376a6682287cbe41d4d1dc13666c5a540f8e9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650111"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050559"
 ---
 # <a name="cc-assertions"></a>C/C++ 어설션
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "59650111"
 
   논리 오류를 catch는 작업의 결과 확인 하 고 처리 해야 하는 오류 조건을 테스트에 어설션을 사용할 수 있습니다.  
 
-##  <a name="BKMK_In_this_topic"></a> 항목 내용  
+## <a name="BKMK_In_this_topic"></a> 항목 내용  
  [어설션 작동 방식](#BKMK_How_assertions_work)  
 
  [디버그 및 릴리스 빌드에 어설션 사용](#BKMK_Assertions_in_Debug_and_Release_builds)  
@@ -76,17 +76,17 @@ ms.locfileid: "59650111"
 
 - [처리 되지 않은 찾기 오류](#BKMK_Testing_error_conditions_)  
 
-##  <a name="BKMK_How_assertions_work"></a> 어설션 작동 방식  
+## <a name="BKMK_How_assertions_work"></a> 어설션 작동 방식  
  디버거에서 중지 되 MFC 나 C 런타임 라이브러리 어설션으로 인해, 다음 원본이 사용 가능한 경우 디버거 탐색 어설션이 발생 한 원본 파일에서 합니다. 어설션 메시지 둘 다에 표시 됩니다는 [출력 창](../ide/reference/output-window.md) 하며 **어설션이 실패 한** 대화 상자. 어설션 메시지를 복사할 수 있습니다 합니다 **출력** 나중에 참조할 수 있도록 저장 하려는 경우 텍스트 창에는 창입니다. 합니다 **출력** 창에는 다른 오류 메시지가 포함 될 수 있습니다. 어설션 실패의 원인에 단서를 제공 하기 때문에 이러한 메시지를 주의 깊게 검토 합니다.  
 
  어설션을 사용 하 여 개발 하는 동안 오류를 검색 합니다. 일반적으로 각 가정에 대 한 하나의 어설션을 사용 하 여 합니다. 예를 들어, 인수로 NULL 인지를 가정 하는 경우 어설션을 가정을 테스트 하려면 사용 합니다.  
 
  [항목 내용](#BKMK_In_this_topic)  
 
-##  <a name="BKMK_Assertions_in_Debug_and_Release_builds"></a> 디버그 및 릴리스 빌드에 어설션 사용  
+## <a name="BKMK_Assertions_in_Debug_and_Release_builds"></a> 디버그 및 릴리스 빌드에 어설션 사용  
  어설션 문을 컴파일할 경우에 `_DEBUG` 정의 됩니다. 그렇지 않으면 컴파일러는 어설션을 null 문으로 처리 합니다. 따라서 어설션 문이 적용 오버 헤드 없이 또는 성능 최종 릴리스 프로그램에서 비용 및 사용 하 여 방지할 수 있도록 `#ifdef` 지시문입니다.  
 
-##  <a name="BKMK_Side_effects_of_using_assertions"></a> 어설션을 사용 하 여의 파생 작업  
+## <a name="BKMK_Side_effects_of_using_assertions"></a> 어설션을 사용 하 여의 파생 작업  
  코드에 어설션을 추가할 경우 어설션이 파생 작업이 없는 있는지 확인 합니다. 예를 들어, 다음 어설션을 수정 하 여 `nM` 값:  
 
 ```  
@@ -107,7 +107,7 @@ VERIFY ( myFnctn(0)==1 ) // safe
 
  [항목 내용](#BKMK_In_this_topic)  
 
-##  <a name="BKMK_CRT_assertions"></a> CRT 어설션  
+## <a name="BKMK_CRT_assertions"></a> CRT 어설션  
  CRTDBG 합니다. H 헤더 파일에 정의 된 [_ASSERT 및 _ASSERTE 매크로](http://msdn.microsoft.com/library/e98fd2a6-7f5e-4aa8-8fe8-e93490deba36) 어설션 검사에 대 한 합니다.  
 
 |   매크로    |                                             결과                                              |
@@ -159,7 +159,7 @@ _ASSERTE(_CrtIsMemoryBlock (myData, size, &requestNumber, &filename, &linenumber
 
  [항목 내용](#BKMK_In_this_topic)  
 
-##  <a name="BKMK_MFC_assertions"></a> MFC 어설션  
+## <a name="BKMK_MFC_assertions"></a> MFC 어설션  
  MFC를 정의 합니다 [ASSERT](http://msdn.microsoft.com/library/1e70902d-d58c-4e7b-9f69-2aeb6cbe476c) 어설션 검사에 대 한 매크로입니다. 또한 정의 `MFC ASSERT_VALID` 및 `CObject::AssertValid` 의 내부 상태를 확인 하기 위한 메서드를 `CObject`-파생 개체입니다.  
 
  경우 MFC의 인수 `ASSERT` 매크로 계산 결과가 0 또는 false 이면 매크로 프로그램 실행을 중지 하 고 사용자에 게 알립니다; 실행이 계속이 고, 그렇지 합니다.  
@@ -181,7 +181,7 @@ ASSERT( pObject1->IsKindOf( RUNTIME_CLASS( CPerson ) ) );
 
  `ASSERT` 매크로 릴리스 버전에 없는 코드를 생성 합니다. 릴리스 버전에서 식을 계산 하는 경우 사용 합니다 [확인](http://msdn.microsoft.com/library/3e1ab4ee-cbc7-4290-a777-c92f42ce7b96) 매크로 ASSERT 대신 합니다.  
 
-###  <a name="BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid"></a> MFC ASSERT_VALID 및 CObject::AssertValid  
+### <a name="BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid"></a> MFC ASSERT_VALID 및 CObject::AssertValid  
  합니다 [CObject::AssertValid](http://msdn.microsoft.com/library/534a0744-4ab6-423d-b492-b4058b3d5157) 메서드는 개체의 내부 상태에 대 한 런타임 검사를 제공 합니다. 재정의 필요 하지 않지만 `AssertValid` 에서 클래스를 파생 시키는 경우 `CObject`, 할 수 있습니다 클래스 보다 안정적이 수행 하 여 합니다. `AssertValid` 모든 유효한 값이 들어 있는지 확인 하는 개체의 멤버 변수에서 어설션을 수행 해야 합니다. 예를 들어 포인터 멤버 변수가 NULL이 아닌지 확인 해야 합니다.  
 
  다음 예제에서는 선언 하는 방법을 보여 줍니다는 `AssertValid` 함수:  
@@ -266,14 +266,14 @@ void CMyData::AssertValid( ) const
 
  디버깅을 빌드할 때 강력한 메커니즘입니다. 나중에 릴리스 빌드 메커니즘은 자동으로 해제 됩니다.  
 
-###  <a name="BKMK_Limitations_of_AssertValid"></a> AssertValid의 제한 사항  
+### <a name="BKMK_Limitations_of_AssertValid"></a> AssertValid의 제한 사항  
  트리거된 어설션이 나타냅니다 개체가 잘못 된 실행이 중지 됩니다. 그러나 어설션의 부족 나타내지만 발견 된 문제가 개체 작동이 보장 되지 않습니다.  
 
  [항목 내용](#BKMK_In_this_topic)  
 
-##  <a name="BKMK_Using_assertions"></a> 어설션을 사용 하 여  
+## <a name="BKMK_Using_assertions"></a> 어설션을 사용 하 여  
 
-###  <a name="BKMK_Catching_logic_errors"></a> 논리 오류 검색  
+### <a name="BKMK_Catching_logic_errors"></a> 논리 오류 검색  
  프로그램의 논리에 따라 true 여야 하는 조건에서 어설션을 설정할 수 있습니다. 어설션이 논리 오류가 발생 하는 효과가 있습니다.  
 
  예를 들어, 컨테이너 및 변수에서 가스 분자를 시뮬레이션 하는 경우 `numMols` 분자의 총 수를 나타냅니다. 이 숫자는 0, MFC 어설션 문을 다음과 같이 포함할 수 있으므로 보다 작을 수 없습니다.  
@@ -293,7 +293,7 @@ _ASSERT(numMols >= 0);
 
  [항목 내용](#BKMK_In_this_topic)  
 
-###  <a name="BKMK_Checking_results_"></a> 결과 확인  
+### <a name="BKMK_Checking_results_"></a> 결과 확인  
  어설션은 테스트 결과 빠른 시각적 검사를 알 수 없는 작업에 유용 합니다.  
 
  예를 들어, 다음 코드에서는 변수를 업데이트 하는 것이 좋습니다 `iMols` 가리키는 연결 된 목록의 내용에 따라 `mols`:  
@@ -316,7 +316,7 @@ _ASSERT(iMols<=numMols); // CRT version
 
  [항목 내용](#BKMK_In_this_topic)  
 
-###  <a name="BKMK_Testing_error_conditions_"></a> 처리 되지 않은 찾기 오류  
+### <a name="BKMK_Testing_error_conditions_"></a> 처리 되지 않은 찾기 오류  
  지점에서 오류 조건을 코드에서 테스트할 수 있는 오류 처리 해야 어설션을 사용할 수 있습니다. 다음 예제에서는 그래픽 루틴이 오류 코드 또는 성공에 0을 반환합니다.  
 
 ```  

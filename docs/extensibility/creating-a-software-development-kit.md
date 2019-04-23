@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ddc6849aa5c0dec07fc7dbdd08a950809624015d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: e9882fd89e149a8b24813ec9edb53e86b0e72b59
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661222"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052079"
 ---
 # <a name="create-a-software-development-kit"></a>소프트웨어 개발 키트 만들기
 소프트웨어 개발 키트 (SDK)은 Visual Studio에서 단일 항목으로 참조할 수 있는 Api 컬렉션입니다. 합니다 **참조 관리자** 대화 상자는 프로젝트에 관련 된 모든 Sdk를 나열 합니다. 프로젝트에 SDK를 추가 하면 Api는 Visual Studio에서 사용할 수 있습니다.
@@ -30,7 +30,7 @@ ms.locfileid: "59661222"
 
 - [확장 Sdk](#ExtensionSDKs)
 
-##  <a name="PlatformSDKs"></a> 플랫폼 Sdk
+## <a name="PlatformSDKs"></a> 플랫폼 Sdk
  플랫폼 Sdk 플랫폼용 앱을 개발 해야 합니다. 예를 들어 합니다 [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK에 대 한 앱을 개발 해야 [!INCLUDE[win81](../debugger/includes/win81_md.md)]합니다.
 
 ### <a name="installation"></a>설치
@@ -58,7 +58,7 @@ ms.locfileid: "59661222"
 | *아키텍처* 폴더 | 지원 되는 모든 *아키텍처* 폴더가 있습니다. Visual Studio는 다음 아키텍처를 지원 합니다: x86, x64, ARM 및 neutral입니다. 참고: Win32, x86에 매핑되고 AnyCPU 중립에 매핑됩니다.<br /><br /> MSBuild 에서만 찾습니다 *\CommonConfiguration\neutral* 플랫폼 Sdk에 대 한 합니다. |
 | *SDKManifest.xml* | 이 파일은 Visual Studio SDK를 사용 해야 하는 방법을 설명 합니다. SDK 매니페스트에서 살펴봅니다 [!INCLUDE[win81](../debugger/includes/win81_md.md)]:<br /><br /> `<FileList             DisplayName = "Windows"             PlatformIdentity = "Windows, version=8.1"             TargetFramework = ".NET for Windows Store apps, version=v4.5.1; .NET Framework, version=v4.5.1"             MinVSVersion = "14.0">              <File Reference = "Windows.winmd">                <ToolboxItems VSCategory = "Toolbox.Default" />             </File> </FileList>`<br /><br /> **DisplayName:** 개체 브라우저 찾아보기 목록에 표시 하는 값입니다.<br /><br /> **PlatformIdentity:** 이 특성의 존재 여부 지시 로컬 Visual Studio 및 MSBuild SDK 플랫폼 SDK는 및에서 추가 된 참조를 복사 하면 안 됩니다.<br /><br /> **TargetFramework:** 이 값에 지정 된 대로 동일한 프레임 워크를 대상으로 하는 프로젝트는 되도록 Visual Studio에서이 특성은 사용 특성 SDK를 사용할 수 있습니다.<br /><br /> **MinVSVersion:** 이 특성에 적용 되는 Sdk만을 사용 하려면 Visual Studio에서 사용 됩니다.<br /><br /> **참조:** 이 특성 컨트롤을 포함 하는 참조만 지정 해야 합니다. 에 대 한 참조를 컨트롤에 포함 되는지 여부를 지정 하는 방법에 대 한 내용은 아래 참조 합니다. |
 
-##  <a name="ExtensionSDKs"></a> 확장 Sdk
+## <a name="ExtensionSDKs"></a> 확장 Sdk
  다음 섹션에서는 확장 SDK를 배포 하기 위해 수행 해야 합니다.
 
 ### <a name="installation"></a>설치
@@ -72,13 +72,13 @@ ms.locfileid: "59661222"
 
  다른 위치를 사용 하려는 경우 두 가지 중 하나를 수행 해야 합니다.
 
-1.  레지스트리 키에서이 지정 합니다.
+1. 레지스트리 키에서이 지정 합니다.
 
      **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number\>\ExtensionSDKs\<SDKName>\<SDKVersion>**\
 
      값이 있는 (기본값) 하위 키를 추가 하 고 `<path to SDK><SDKName><SDKVersion>`입니다.
 
-2.  MSBuild 속성을 추가 `SDKReferenceDirectoryRoot` 프로젝트 파일에 있습니다. 이 속성의 값은 확장 Sdk 참조 하려는 귀하가 거주 하는 디렉터리의 세미콜론으로 구분 된 목록입니다.
+2. MSBuild 속성을 추가 `SDKReferenceDirectoryRoot` 프로젝트 파일에 있습니다. 이 속성의 값은 확장 Sdk 참조 하려는 귀하가 거주 하는 디렉터리의 세미콜론으로 구분 된 목록입니다.
 
 ### <a name="installation-layout"></a>설치 레이아웃
  확장 Sdk 설치 레이아웃은:
@@ -191,10 +191,10 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
 
 16. 파일 참조: 컨트롤이 포함 된 네이티브 Winmd 참조만 지정 합니다. 참조를 컨트롤에 포함 되는지 여부를 지정 하는 방법에 대 한 정보를 참조 하세요 [도구 상자 항목의 위치를 지정](#ToolboxItems) 아래.
 
-##  <a name="ToolboxItems"></a> 도구 상자 항목의 위치를 지정 합니다.
+## <a name="ToolboxItems"></a> 도구 상자 항목의 위치를 지정 합니다.
  ToolBoxItems 요소의 합니다 *SDKManifest.xml* 플랫폼 및 확장 Sdk의 도구 상자 항목의 위치와 범주를 지정 하는 스키마입니다. 다음 예제에서는 서로 다른 위치를 지정 하는 방법을 보여 줍니다. WinMD 또는 DLL에 대 한 참조에 적용 됩니다.
 
-1.  도구 상자 기본 범주에 컨트롤을 배치 합니다.
+1. 도구 상자 기본 범주에 컨트롤을 배치 합니다.
 
     ```
     <File Reference = "sample.winmd">
@@ -202,7 +202,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-2.  특정 범주 이름으로 컨트롤을 배치 합니다.
+2. 특정 범주 이름으로 컨트롤을 배치 합니다.
 
     ```
     <File Reference = "sample.winmd">
@@ -210,7 +210,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-3.  특정 범주 이름 아래에서 컨트롤을 배치 합니다.
+3. 특정 범주 이름 아래에서 컨트롤을 배치 합니다.
 
     ```
     <File Reference = "sample.winmd">
@@ -221,7 +221,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-4.  Blend 및 Visual Studio에서 다양 한 범주 이름 아래에서 컨트롤을 배치 합니다.
+4. Blend 및 Visual Studio에서 다양 한 범주 이름 아래에서 컨트롤을 배치 합니다.
 
     ```
     // Blend accepts a slightly different structure for the category name because it allows a path rather than a single category.
@@ -231,7 +231,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-5.  Blend 및 Visual Studio에서 다르게 특정 컨트롤을 열거 합니다.
+5. Blend 및 Visual Studio에서 다르게 특정 컨트롤을 열거 합니다.
 
     ```
     <File Reference = "sample.winmd">
@@ -242,7 +242,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-6.  특정 컨트롤을 열거 하 고 모든 컨트롤 그룹 또는 Visual Studio 일반 경로 아래에 배치 합니다.
+6. 특정 컨트롤을 열거 하 고 모든 컨트롤 그룹 또는 Visual Studio 일반 경로 아래에 배치 합니다.
 
     ```
     <File Reference = "sample.winmd">
@@ -253,7 +253,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-7.  특정 컨트롤을 열거 하 고 없으면 ChooseItems의 특정 집합에만 표시 도구 상자에 있는 것입니다.
+7. 특정 컨트롤을 열거 하 고 없으면 ChooseItems의 특정 집합에만 표시 도구 상자에 있는 것입니다.
 
     ```
     <File Reference = "sample.winmd">

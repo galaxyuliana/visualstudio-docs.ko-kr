@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 728241c4f8cf8609c453f83f0237d2bdc8410f35
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: caf878f6ea43a7f041285fb02b2f32175ca862b1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986087"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057188"
 ---
 # <a name="how-to-use-the-expression-editor"></a>방법: 식 편집기 사용
 식 편집기는 많은 워크플로 활동에서 식을 입력하거나 계산하는 데 사용되는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 컨트롤입니다. 식 편집기는 IntelliSense, 색 지정, ParamInfo, 오류 물결선 등 다양한 기능이 포함된 완벽한 IDE 편집 환경을 제공합니다. 그리고 컴파일러는 입력된 식의 유효성을 검사합니다. 식이 잘못된 경우 오류 아이콘이 표시됩니다. 편집기로 열 수도 있습니다는 **식 편집기** 대화 상자.  
@@ -25,29 +25,29 @@ ms.locfileid: "58986087"
   
  합니다 **식 편집기** 다음과 같이 동작 합니다.  
   
--   포커스가 식 편집기에 있지 않을 때는 일반 TextBlock 컨트롤과 비슷하게 보입니다.  
+- 포커스가 식 편집기에 있지 않을 때는 일반 TextBlock 컨트롤과 비슷하게 보입니다.  
   
--   포커스를 식 편집기에 맞추면 식 편집기 컨트롤처럼 보이고 동작하다가, 포커스를 바꾸면 다시 일반 TextBlock처럼 보입니다.  
+- 포커스를 식 편집기에 맞추면 식 편집기 컨트롤처럼 보이고 동작하다가, 포커스를 바꾸면 다시 일반 TextBlock처럼 보입니다.  
   
--   다시 호스트된 Workflow Designer의 식 편집기에 포커스를 맞추면 TextBox처럼 동작하고, 다시 호스트된 워크플로 디자이너에서 포커스를 옮기면 식 편집기가 다시 일반 TextBlock처럼 보입니다.  
+- 다시 호스트된 Workflow Designer의 식 편집기에 포커스를 맞추면 TextBox처럼 동작하고, 다시 호스트된 워크플로 디자이너에서 포커스를 옮기면 식 편집기가 다시 일반 TextBlock처럼 보입니다.  
   
 > [!NOTE]
 >  식 편집기용 IntelliSense는 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서만 사용할 수 있습니다. [!INCLUDE[vs2010](../includes/vs2010-md.md)]과 다시 호스트된 시나리오 모두에서 컴파일러가 입력된 식의 유효성을 검사하고 식이 잘못된 경우 식 편집기에 오류 아이콘이 표시됩니다.  
   
 ### <a name="using-the-expression-editor"></a>식 편집기 사용  
   
-1.  [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 새 워크플로 프로젝트 또는 기존 워크플로 프로젝트를 엽니다.  
+1. [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 새 워크플로 프로젝트 또는 기존 워크플로 프로젝트를 엽니다.  
   
-2.  예를 들어 <xref:System.Activities.Statements.Assign> 활동을 워크플로에 추가합니다.  
+2. 예를 들어 <xref:System.Activities.Statements.Assign> 활동을 워크플로에 추가합니다.  
   
     > [!NOTE]
     >  여러 가지 워크플로 활동에 식 편집기가 있습니다. 식 TextBlock은 변수 디자이너, 인수 디자이너 및 동적 인수 디자이너에도 나타납니다. 예제에서는 <xref:System.Activities.Statements.Assign> 활동을 사용합니다.  
   
-3.  <xref:System.Activities.Statements.Assign> 활동의 활동 디자이너에서 왼쪽 식 편집기를 클릭합니다.  
+3. <xref:System.Activities.Statements.Assign> 활동의 활동 디자이너에서 왼쪽 식 편집기를 클릭합니다.  
   
      회색 워터 마크 문자열  **\<에 >** 하 고  **\<VB 식 입력 >** 기본 텍스트 문자열의 식 편집기에는 <xref:System.Activities.Statements.Assign> 활동 합니다.  
   
-4.  식을 입력합니다. 문자열을 입력할 경우 문자열 앞뒤에 물음표를 붙여야 합니다. 식 인수를 변수에 바인딩하려면 물음표를 제거합니다.  
+4. 식을 입력합니다. 문자열을 입력할 경우 문자열 앞뒤에 물음표를 붙여야 합니다. 식 인수를 변수에 바인딩하려면 물음표를 제거합니다.  
   
      작업을 마친 뒤 식 편집기 바깥 영역을 선택하여 디자이너의 다른 부분으로 포커스를 옮깁니다. 그러면 앞에서 설명한 것처럼 컴파일러가 식의 유효성을 검사합니다.  
   

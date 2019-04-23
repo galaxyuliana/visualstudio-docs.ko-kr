@@ -23,12 +23,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4ad4e95f9032c3182da3fe59cee16e4ccc3066c4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 54cb1f67aa1738126fd78e2406c076a4fefa8823
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985915"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60051458"
 ---
 # <a name="how-to-specify-debugger-settings"></a>방법: 디버거 설정 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,15 +37,15 @@ ms.locfileid: "58985915"
   
 ### <a name="to-set-debugger-options"></a>디버거 옵션을 설정하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
-2.  **옵션** 대화 상자에서 **디버깅** 폴더를 엽니다.  
+2. **옵션** 대화 상자에서 **디버깅** 폴더를 엽니다.  
   
-3.  **디버깅** 폴더에서 원하는 옵션 범주를 선택합니다.  
+3. **디버깅** 폴더에서 원하는 옵션 범주를 선택합니다.  
   
      일반적으로 설정하는 옵션은 **일반** 범주에 있습니다. 자세한 내용은 [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)을 참조하세요.  
   
-4.  원하는 옵션을 선택하거나 해제합니다. 옵션에 대한 도움말을 보려면 F1 키를 누르십시오.  
+4. 원하는 옵션을 선택하거나 해제합니다. 옵션에 대한 도움말을 보려면 F1 키를 누르십시오.  
   
 ## <a name="see-also"></a>참고 항목  
  [옵션 대화 상자, 디버깅, 일반](../debugger/general-debugging-options-dialog-box.md)   

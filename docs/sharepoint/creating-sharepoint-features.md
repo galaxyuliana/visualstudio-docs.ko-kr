@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 48b77e07524b6bcabd00de1d8082261e81807a72
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 8d3f453770dbb389a688db0a9edcc8e97e179858
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644460"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60051321"
 ---
 # <a name="create-sharepoint-features"></a>SharePoint 기능 만들기
   손쉬운 배포에 대 한 관련된 SharePoint 프로젝트 항목을 그룹화 하는 SharePoint 기능을 사용할 수 있습니다. 기능 만들기 하 고, 범위를 설정 하 고, SharePoint 기능 디자이너를 사용 하 여 다른 기능 종속성으로 표시할 수 있습니다. 디자이너에는 또한 각 기능을 설명 하는 XML 파일인 매니페스트를 생성 합니다.
@@ -26,9 +26,9 @@ ms.locfileid: "56644460"
 ## <a name="add-features-to-the-sharepoint-solution"></a>SharePoint 솔루션에 기능 추가
  솔루션 탐색기 또는 패키징 탐색기를 사용 하 여 SharePoint 솔루션에 기능을 추가할 수 있습니다. 기능을 추가 하려면 다음 방법 중 하나를 사용할 수 있습니다.
 
--   **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 **기능**를 선택한 후 **기능 추가**합니다.
+- **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 **기능**를 선택한 후 **기능 추가**합니다.
 
--   **패키징 탐색기**, 패키지에 대 한 바로 가기 메뉴를 열고 선택한 후 **추가 기능**합니다.
+- **패키징 탐색기**, 패키지에 대 한 바로 가기 메뉴를 열고 선택한 후 **추가 기능**합니다.
 
 ## <a name="using-the-feature-designer"></a>기능 디자이너를 사용 하 여
  SharePoint 솔루션에는 솔루션 탐색기의 기능 노드 아래에 그룹화 되는 하나 이상의 SharePoint 기능을 포함할 수 있습니다. 각 기능에는 자체 **기능 디자이너** 기능 속성을 사용자 지정에 사용할 수 있습니다. 자세한 내용은 [방법: SharePoint 기능 사용자 지정](../sharepoint/how-to-customize-a-sharepoint-feature.md)합니다. 기능을 서로 구분 하려면 제목, 설명, 버전, 범위 등의 기능 속성을 구성할 수 있습니다.

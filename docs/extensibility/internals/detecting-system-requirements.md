@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 719ced495580bd8ec16eec7e3f422e3ae1f1ccc3
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4232a057c97d3d457a60d97fa000090c18428f66
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643589"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050506"
 ---
 # <a name="detect-system-requirements"></a>시스템 요구 사항 검색
 VSPackage는 Visual Studio가 설치 되어 있지 않으면 작동 하지 않습니다. Microsoft Windows Installer를 사용 하 여 VSPackage의 설치를 관리할 때 Visual Studio가 설치 되어 있는지 여부를 검색 하려면 설치 관리자를 구성할 수 있습니다. 예를 들어 다른 요구 사항에 대 한 시스템을 확인 하 고, 특정 버전의 Windows 또는 특정 양의 RAM 구성할 수도 있습니다.
@@ -24,11 +24,11 @@ VSPackage는 Visual Studio가 설치 되어 있지 않으면 작동 하지 않�
 ## <a name="detect-visual-studio-editions"></a>Visual Studio 버전 검색
  버전의 Visual Studio가 설치 되어 있는지 확인 하십시오는 값을 **설치** 레지스트리 키가 *(REG_DWORD) 1* 다음 표에 나열 된 적절 한 폴더에 합니다. Visual Studio 버전의 계층 구조는 참고 합니다.
 
-1.  엔터프라이즈
+1. Enterprise
 
-2.  Professional
+2. Professional
 
-3.  커뮤니티
+3. 커뮤니티
 
 최신 버전을 설치 하면 이전 버전의 경우 해당 버전에 대 한 레지스트리 키도 추가 됩니다. 즉 Enterprise edition에 설치 된 경우에 **설치** 키로 설정 됩니다 *1* Professional 및 Community 버전 뿐만 아니라 엔터프라이즈에 대 한 합니다. 따라서 해야 최신 버전에 대해서만 확인 해야 합니다.
 

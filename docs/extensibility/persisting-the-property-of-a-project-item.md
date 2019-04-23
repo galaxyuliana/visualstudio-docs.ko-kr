@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a8d2a359d49102daf4c221632fd275f9ef06e324
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.openlocfilehash: 58b2495adf66f6c83bc631650e2a0f06f5b7cdd0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54963985"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60047387"
 ---
 # <a name="persist-the-property-of-a-project-item"></a>프로젝트 항목의 속성 유지
 프로젝트 항목, 소스 파일의 작성자와 같은 추가 속성을 유지 하려는 경우. 프로젝트 파일에서 속성을 저장 하 여이 수행할 수 있습니다.
@@ -27,7 +27,7 @@ ms.locfileid: "54963985"
 
 ## <a name="to-obtain-the-project-hierarchy-with-the-dte-object"></a>DTE 개체를 사용 하 여 프로젝트 계층 구조를 가져오려면
 
-1.  VSPackage에 다음 코드를 추가 합니다.
+1. VSPackage에 다음 코드를 추가 합니다.
 
     ```csharp
     EnvDTE.DTE dte = (EnvDTE.DTE)Package.GetGlobalService(typeof(EnvDTE.DTE));
@@ -41,7 +41,7 @@ ms.locfileid: "54963985"
 
 ## <a name="to-persist-the-project-item-property-with-the-dte-object"></a>DTE 개체를 사용 하 여 프로젝트 항목 속성을 유지 하려면
 
-1.  이전 절차의 메서드에 지정 된 코드에 다음 코드를 추가 합니다.
+1. 이전 절차의 메서드에 지정 된 코드에 다음 코드를 추가 합니다.
 
     ```csharp
     IVsBuildPropertyStorage buildPropertyStorage =
@@ -58,7 +58,7 @@ ms.locfileid: "54963985"
 
 ## <a name="to-obtain-the-project-hierarchy-using-ivsmonitorselection"></a>IVsMonitorSelection를 사용 하 여 프로젝트 계층 구조를 가져오려면
 
-1.  VSPackage에 다음 코드를 추가 합니다.
+1. VSPackage에 다음 코드를 추가 합니다.
 
     ```csharp
     IVsHierarchy hierarchy = null;
@@ -102,7 +102,7 @@ ms.locfileid: "54963985"
 
 ## <a name="to-persist-the-selected-project-item-property-given-the-project-hierarchy"></a>프로젝트 계층 구조에 선택한 프로젝트 항목 속성을 유지 하려면
 
-1.  이전 절차의 메서드에 지정 된 코드에 다음 코드를 추가 합니다.
+1. 이전 절차의 메서드에 지정 된 코드에 다음 코드를 추가 합니다.
 
     ```csharp
     IVsBuildPropertyStorage buildPropertyStorage =

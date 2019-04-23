@@ -21,12 +21,12 @@ caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 85c5cef12ed92cbd37b303aa7bd1e23cbced76ae
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 4eadb8c9553873f43ad9435ad43fae00f57affcb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653868"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050714"
 ---
 # <a name="devenv-command-line-switches"></a>Devenv 명령줄 스위치
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,24 +46,24 @@ Devenv를 사용하면 IDE(통합 개발 환경)에 대한 다양한 옵션을 �
   
  `devenv` 스위치의 구문 규칙은 다른 DOS 명령줄 유틸리티의 구문 규칙과 비슷합니다. 다음 구문 규칙은 모든 `devenv` 스위치 및 해당 인수에 적용됩니다.  
   
--   명령이 `devenv`로 시작합니다.  
+- 명령이 `devenv`로 시작합니다.  
   
--   스위치가 대/소문자를 구분하지 않습니다.  
+- 스위치가 대/소문자를 구분하지 않습니다.  
   
--   솔루션 또는 프로젝트를 지정하는 경우 첫 번째 인수는 파일 경로를 포함하여 솔루션 파일 또는 프로젝트 파일의 이름입니다.  
+- 솔루션 또는 프로젝트를 지정하는 경우 첫 번째 인수는 파일 경로를 포함하여 솔루션 파일 또는 프로젝트 파일의 이름입니다.  
   
--   첫 번째 인수가 솔루션 또는 프로젝트가 아닌 파일인 경우 해당 파일이 새 IDE 인스턴스의 적절한 편집기에서 열립니다.  
+- 첫 번째 인수가 솔루션 또는 프로젝트가 아닌 파일인 경우 해당 파일이 새 IDE 인스턴스의 적절한 편집기에서 열립니다.  
   
--   솔루션 파일 이름 대신 프로젝트 파일 이름을 제공하는 경우 `devenv` 명령은 프로젝트 파일의 부모 폴더에서 이름이 같은 솔루션 파일을 검색합니다. 예를 들어 `devenv /build myproject1.vbproj` 명령은 부모 폴더에서 이름이 "myproject1.sln"인 솔루션 파일을 검색합니다.  
+- 솔루션 파일 이름 대신 프로젝트 파일 이름을 제공하는 경우 `devenv` 명령은 프로젝트 파일의 부모 폴더에서 이름이 같은 솔루션 파일을 검색합니다. 예를 들어 `devenv /build myproject1.vbproj` 명령은 부모 폴더에서 이름이 "myproject1.sln"인 솔루션 파일을 검색합니다.  
   
     > [!NOTE]
     >  이 프로젝트를 참조하는 솔루션 파일 하나만 해당 부모 폴더에 있어야 합니다. 부모 폴더에 이 프로젝트를 참조하는 솔루션 파일이 없거나 두 개 이상 있는 경우 이 프로젝트를 따서 이름이 지정되고 참조하는 임시 솔루션 파일이 생성됩니다.  
   
--   파일 경로 및 파일 이름에 공백이 포함된 경우 큰따옴표("")로 묶어야 합니다. 예를 들어 "c:\project a\\"입니다.  
+- 파일 경로 및 파일 이름에 공백이 포함된 경우 큰따옴표("")로 묶어야 합니다. 예를 들어 "c:\project a\\"입니다.  
   
--   동일한 줄에 있는 스위치와 인수 사이에 공백 문자를 하나 삽입합니다. 예를 들어 **devenv /log output.txt** 명령은 IDE를 열고 해당 세션에 대한 모든 로그 정보를 output.txt에 출력합니다.  
+- 동일한 줄에 있는 스위치와 인수 사이에 공백 문자를 하나 삽입합니다. 예를 들어 **devenv /log output.txt** 명령은 IDE를 열고 해당 세션에 대한 모든 로그 정보를 output.txt에 출력합니다.  
   
--   `devenv` 명령에서는 패턴 일치 구문을 사용할 수 없습니다.  
+- `devenv` 명령에서는 패턴 일치 구문을 사용할 수 없습니다.  
   
 ## <a name="devenv-switches"></a>devenv 스위치  
  다음 명령줄 스위치를 사용하여 IDE를 표시하고 설명된 작업을 수행할 수 있습니다.  

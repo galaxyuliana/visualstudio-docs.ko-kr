@@ -15,12 +15,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: a00a980f5984b05bd1f77a83d4c95d4da0f3ff03
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 37f84bff4802c703bb61b36e9c1933a31cd6c5e3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983744"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60045449"
 ---
 # <a name="ca2240-implement-iserializable-correctly"></a>CA2240: ISerializable을 올바르게 구현하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,9 +35,9 @@ ms.locfileid: "58983744"
 ## <a name="cause"></a>원인
  외부에 표시 되는 형식은에 할당할 수는 <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> 인터페이스 및 다음 조건 중 하나가 참인:
 
--   형식 상속 하지만 재정의 하지 않습니다 합니다 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName> 메서드 및 형식으로 표시 되지 않는 인스턴스 필드를 선언 합니다 <xref:System.NonSerializedAttribute?displayProperty=fullName> 특성입니다.
+- 형식 상속 하지만 재정의 하지 않습니다 합니다 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName> 메서드 및 형식으로 표시 되지 않는 인스턴스 필드를 선언 합니다 <xref:System.NonSerializedAttribute?displayProperty=fullName> 특성입니다.
 
--   Sealed 형식 인지 및 형식에서 구현 하는 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> 외부적으로 표시 하 고 재정의 가능 하지 않은 메서드.
+- Sealed 형식 인지 및 형식에서 구현 하는 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> 외부적으로 표시 하 고 재정의 가능 하지 않은 메서드.
 
 ## <a name="rule-description"></a>규칙 설명
  상속 된 형식에서 선언 된 필드를 인스턴스는 <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> 인터페이스 serialization 프로세스에 자동으로 포함 되지 않습니다. 형식 필드를 포함 하려면 구현 해야 합니다는 <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A> 메서드와 serialization 생성자입니다. 필드를 직렬화 하지 해야 하는 경우 적용 된 <xref:System.NonSerializedAttribute> 특성 필드를 명시적으로 지정 하는 의사 결정을 합니다.
@@ -58,7 +58,7 @@ ms.locfileid: "58983744"
  [!code-vb[FxCop.Usage.ImplementISerializableCorrectly#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Usage.ImplementISerializableCorrectly/vb/FxCop.Usage.ImplementISerializableCorrectly.vb#1)]
 
 ## <a name="example"></a>예제
- 다음 예제에서는 [ISerializable.GetObjectData]의 재정의 가능한 구현을 제공 하 여 두 개의 이전 위반을 수정 (<!-- TODO: review code entity reference <xref:assetId:///ISerializable.GetObjectData?qualifyHint=False&amp;autoUpgrade=False>  -->) 구현을 제공 하 여 Book 클래스에 <!-- TODO: review code entity reference <xref:assetId:///ISerializable.GetObjectData?qualifyHint=False&amp;autoUpgrade=False>  --> 라이브러리 클래스에 있습니다.
+ 다음 예제에서는 [ISerializable.GetObjectData] (의 재정의 가능한 구현을 제공 하 여 두 개의 이전 위반 수정<!-- TODO: review code entity reference <xref:assetId:///ISerializable.GetObjectData?qualifyHint=False&amp;autoUpgrade=False>  -->) Book 클래스에 구현을 제공 하 여 <!-- TODO: review code entity reference <xref:assetId:///ISerializable.GetObjectData?qualifyHint=False&amp;autoUpgrade=False>  --> 라이브러리 클래스입니다.
 
  [!code-cpp[FxCop.Usage.ImplementISerializableCorrectly2#1](../snippets/cpp/VS_Snippets_CodeAnalysis/FxCop.Usage.ImplementISerializableCorrectly2/cpp/FxCop.Usage.ImplementISerializableCorrectly2.cpp#1)]
  [!code-csharp[FxCop.Usage.ImplementISerializableCorrectly2#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Usage.ImplementISerializableCorrectly2/cs/FxCop.Usage.ImplementISerializableCorrectly2.cs#1)]

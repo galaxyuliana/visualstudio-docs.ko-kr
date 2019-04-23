@@ -22,12 +22,12 @@ caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 77795c93679bddb21a56b8c7a64a11ceb6aa1e6c
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: 2c619301d15654ec71c3867bb97622488aac329e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58971876"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60050688"
 ---
 # <a name="walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api"></a>연습: ClickOnce 배포 API 사용 하 여 요청 시 위성 어셈블리 다운로드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,24 +46,24 @@ ms.locfileid: "58971876"
   
 ### <a name="to-download-satellite-assemblies-on-demand"></a>요청 시 위성 어셈블리를 다운로드하려면  
   
-1.  요청 시 위성 어셈블리 다운로드 기능을 사용하려면 애플리케이션에 다음 코드를 추가합니다.  
+1. 요청 시 위성 어셈블리 다운로드 기능을 사용하려면 애플리케이션에 다음 코드를 추가합니다.  
   
      [!code-csharp[ClickOnce.SatelliteAssembliesSDK#1](../snippets/csharp/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesSDK/CS/Program.cs#1)]
      [!code-vb[ClickOnce.SatelliteAssembliesSDK#1](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesSDK/VB/Form1.vb#1)]  
   
-2.  사용 하 여 응용 프로그램에 대 한 위성 어셈블리를 생성할 [Resgen.exe (리소스 파일 생성기)](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4) 또는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
+2. 사용 하 여 응용 프로그램에 대 한 위성 어셈블리를 생성할 [Resgen.exe (리소스 파일 생성기)](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4) 또는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
   
-3.  애플리케이션 매니페스트를 생성하거나 MageUI.exe를 사용하여 기존 애플리케이션 매니페스트를 엽니다. 이 도구에 대 한 자세한 내용은 참조 하세요. [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)합니다.  
+3. 애플리케이션 매니페스트를 생성하거나 MageUI.exe를 사용하여 기존 애플리케이션 매니페스트를 엽니다. 이 도구에 대 한 자세한 내용은 참조 하세요. [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)합니다.  
   
-4.  **파일** 탭을 클릭합니다.  
+4. **파일** 탭을 클릭합니다.  
   
-5.  **줄임표** 단추(**...**)를 클릭하고 Resgen.exe를 사용하여 생성한 위성 어셈블리를 비롯한 응용 프로그램의 모든 어셈블리와 파일이 포함된 디렉터리를 선택합니다. 위성 어셈블리의 이름은 *isoCode*\ApplicationName.resources.dll 형식입니다. 여기에서 *isoCode* 는 RFC 1766 형식의 언어 식별자입니다.  
+5. **줄임표** 단추(**...**)를 클릭하고 Resgen.exe를 사용하여 생성한 위성 어셈블리를 비롯한 응용 프로그램의 모든 어셈블리와 파일이 포함된 디렉터리를 선택합니다. 위성 어셈블리의 이름은 *isoCode*\ApplicationName.resources.dll 형식입니다. 여기에서 *isoCode* 는 RFC 1766 형식의 언어 식별자입니다.  
   
-6.  **채우기** 를 클릭하여 배포에 파일을 추가합니다.  
+6. **채우기** 를 클릭하여 배포에 파일을 추가합니다.  
   
-7.  각 위성 어셈블리의 **옵션** 확인란을 선택합니다.  
+7. 각 위성 어셈블리의 **옵션** 확인란을 선택합니다.  
   
-8.  각 위성 어셈블리의 그룹 필드를 해당 ISO 언어 식별자로 설정합니다. 예를 들어 일본어 위성 어셈블리의 경우 `ja-JP`에서 사용할 수 있는 도구를 사용합니다. 이렇게 하면 1단계에서 추가한 코드를 사용하여 사용자의 <xref:System.Threading.Thread.CurrentUICulture%2A> 속성 설정에 따라 적절한 위성 어셈블리를 다운로드할 수 있습니다.  
+8. 각 위성 어셈블리의 그룹 필드를 해당 ISO 언어 식별자로 설정합니다. 예를 들어 일본어 위성 어셈블리의 경우 `ja-JP`에서 사용할 수 있는 도구를 사용합니다. 이렇게 하면 1단계에서 추가한 코드를 사용하여 사용자의 <xref:System.Threading.Thread.CurrentUICulture%2A> 속성 설정에 따라 적절한 위성 어셈블리를 다운로드할 수 있습니다.  
   
 ## <a name="next-steps"></a>다음 단계  
  프로덕션 환경에서는 기본적으로 클라이언트 컴퓨터에 올바른 값이 설정되어 있으므로 <xref:System.Threading.Thread.CurrentUICulture%2A> 를 특정 값으로 설정하는 줄을 코드 예제에서 제거해야 할 수 있습니다. 예를 들어 애플리케이션이 일본어 클라이언트 컴퓨터에서 실행될 경우 <xref:System.Threading.Thread.CurrentUICulture%2A> 는 기본적으로 `ja-JP` 입니다. 애플리케이션을 배포하기 전에 이 값을 프로그래밍 방식으로 설정하면 위성 어셈블리를 쉽게 테스트할 수 있습니다.  

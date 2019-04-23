@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 377660b32f8edbb26e8a062d55ee152132f7f587
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 8ae22475fa488d93ac4660fdc0cf567f50b32029
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56707083"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60052118"
 ---
 # <a name="walkthrough-implement-code-snippets"></a>연습: 코드 조각 구현
 코드 조각을 작성 하 고 확장의 사용자가 자신의 코드에 추가할 수 있도록 편집기 확장에 포함할 수 있습니다.
@@ -109,33 +109,33 @@ ms.locfileid: "56707083"
 
 ### <a name="to-register-code-snippets-for-a-specific-guid"></a>특정 GUID에 대 한 코드 조각 등록
 
-1.  엽니다는 **CompletionTest** 프로젝트입니다. 이 프로젝트를 만드는 방법에 대 한 자세한 내용은 [연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)합니다.
+1. 엽니다는 **CompletionTest** 프로젝트입니다. 이 프로젝트를 만드는 방법에 대 한 자세한 내용은 [연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)합니다.
 
-2.  프로젝트에서 다음 어셈블리에 대 한 참조를 추가 합니다.
+2. 프로젝트에서 다음 어셈블리에 대 한 참조를 추가 합니다.
 
-    -   Microsoft.VisualStudio.TextManager.Interop
+    - Microsoft.VisualStudio.TextManager.Interop
 
-    -   Microsoft.VisualStudio.TextManager.Interop.8.0
+    - Microsoft.VisualStudio.TextManager.Interop.8.0
 
-    -   microsoft.msxml
+    - microsoft.msxml
 
-3.  프로젝트에서 엽니다는 **source.extension.vsixmanifest** 파일입니다.
+3. 프로젝트에서 엽니다는 **source.extension.vsixmanifest** 파일입니다.
 
-4.  있는지 확인 합니다 **자산** 탭에는 **VsPackage** 형식의 콘텐츠 **프로젝트** 프로젝트의 이름으로 설정 됩니다.
+4. 있는지 확인 합니다 **자산** 탭에는 **VsPackage** 형식의 콘텐츠 **프로젝트** 프로젝트의 이름으로 설정 됩니다.
 
-5.  CompletionTest 프로젝트를 선택 하 고 속성 창에서 설정 **Pkgdef 파일 생성** 하 **true**합니다. 프로젝트를 저장합니다.
+5. CompletionTest 프로젝트를 선택 하 고 속성 창에서 설정 **Pkgdef 파일 생성** 하 **true**합니다. 프로젝트를 저장합니다.
 
-6.  추가 정적 `SnippetUtilities` 프로젝트에 클래스입니다.
+6. 추가 정적 `SnippetUtilities` 프로젝트에 클래스입니다.
 
      [!code-csharp[VSSDKCompletionTest#22](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_1.cs)]
      [!code-vb[VSSDKCompletionTest#22](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_1.vb)]
 
-7.  SnippetUtilities 클래스 GUID를 정의 하 고에서 사용한 값을 제공 합니다 *SnippetsIndex.xml* 파일입니다.
+7. SnippetUtilities 클래스 GUID를 정의 하 고에서 사용한 값을 제공 합니다 *SnippetsIndex.xml* 파일입니다.
 
      [!code-csharp[VSSDKCompletionTest#23](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_2.cs)]
      [!code-vb[VSSDKCompletionTest#23](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_2.vb)]
 
-8.  추가 된 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute> 에 `TestCompletionHandler` 클래스입니다. 이 특성은 프로젝트의 모든 public 또는 internal (비정적) 클래스에 추가할 수 있습니다. (추가 해야 할 수는 `using` Microsoft.VisualStudio.Shell 네임 스페이스에 대 한 문입니다.)
+8. 추가 된 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute> 에 `TestCompletionHandler` 클래스입니다. 이 특성은 프로젝트의 모든 public 또는 internal (비정적) 클래스에 추가할 수 있습니다. (추가 해야 할 수는 `using` Microsoft.VisualStudio.Shell 네임 스페이스에 대 한 문입니다.)
 
      [!code-csharp[VSSDKCompletionTest#24](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_3.cs)]
      [!code-vb[VSSDKCompletionTest#24](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_3.vb)]
@@ -147,14 +147,14 @@ ms.locfileid: "56707083"
 
 #### <a name="to-add-the-insert-snippet-command-to-the-shortcut-menu"></a>바로 가기 메뉴에 코드 조각 삽입 명령을 추가 하려면
 
-1.  열기는 `TestCompletionCommandHandler` 클래스 파일입니다.
+1. 열기는 `TestCompletionCommandHandler` 클래스 파일입니다.
 
      이 클래스를 구현 하므로 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>을 활성화할 수 있습니다 합니다 **조각 삽입** 명령을 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 메서드. 명령을 사용 하기 전에이 메서드는 호출 되지 않는 automation 함수 내에서 때문에 확인 때 합니다 **코드 조각 삽입** 명령을 클릭할 코드 조각 선택 사용자 인터페이스 (UI)를 표시 합니다.
 
      [!code-csharp[VSSDKCompletionTest#25](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_4.cs)]
      [!code-vb[VSSDKCompletionTest#25](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_4.vb)]
 
-2.  프로젝트를 빌드하고 실행합니다. 실험적 인스턴스에서 포함 된 파일을 엽니다는 *.zzz* 파일 이름 확장명을 마우스 오른쪽 단추로 클릭 어디에 있습니다. 합니다 **코드 조각 삽입** 명령이 바로 가기 메뉴에 표시 해야 합니다.
+2. 프로젝트를 빌드하고 실행합니다. 실험적 인스턴스에서 포함 된 파일을 엽니다는 *.zzz* 파일 이름 확장명을 마우스 오른쪽 단추로 클릭 어디에 있습니다. 합니다 **코드 조각 삽입** 명령이 바로 가기 메뉴에 표시 해야 합니다.
 
 ## <a name="implement-snippet-expansion-in-the-snippet-picker-ui"></a>코드 조각 선택 UI에서 코드 조각 확장을 구현 합니다.
  이 섹션에서는 코드 조각 선택기 UI 되도록 코드 조각 확장을 구현 하는 방법을 선택할 때 표시 된 **코드 조각 삽입** 바로 가기 메뉴를 클릭 한 합니다. 사용자 형식 코드 조각 바로 가기 키를 누를 때 코드 조각도 확장 됩니다 **탭**합니다.
@@ -165,42 +165,42 @@ ms.locfileid: "56707083"
 
 #### <a name="to-implement-snippet-expansion"></a>코드 조각 확장을 구현 하려면
 
-1.  포함 된 파일에는 `TestCompletionCommandHandler` 클래스에 다음 코드를 추가 `using` 문입니다.
+1. 포함 된 파일에는 `TestCompletionCommandHandler` 클래스에 다음 코드를 추가 `using` 문입니다.
 
      [!code-csharp[VSSDKCompletionTest#26](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_5.cs)]
      [!code-vb[VSSDKCompletionTest#26](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_5.vb)]
 
-2.  확인 합니다 `TestCompletionCommandHandler` 클래스 구현 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionClient> 인터페이스입니다.
+2. 확인 합니다 `TestCompletionCommandHandler` 클래스 구현 된 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionClient> 인터페이스입니다.
 
      [!code-csharp[VSSDKCompletionTest#27](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_6.cs)]
      [!code-vb[VSSDKCompletionTest#27](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_6.vb)]
 
-3.  에 `TestCompletionCommandHandlerProvider` 클래스, 가져오기는 <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>합니다.
+3. 에 `TestCompletionCommandHandlerProvider` 클래스, 가져오기는 <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>합니다.
 
      [!code-csharp[VSSDKCompletionTest#28](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_7.cs)]
      [!code-vb[VSSDKCompletionTest#28](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_7.vb)]
 
-4.  코드 확장 인터페이스에 대 한 일부 개인 필드를 추가 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>합니다.
+4. 코드 확장 인터페이스에 대 한 일부 개인 필드를 추가 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>합니다.
 
      [!code-csharp[VSSDKCompletionTest#29](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_8.cs)]
      [!code-vb[VSSDKCompletionTest#29](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_8.vb)]
 
-5.  생성자에는 `TestCompletionCommandHandler` 클래스에 다음 필드를 설정 합니다.
+5. 생성자에는 `TestCompletionCommandHandler` 클래스에 다음 필드를 설정 합니다.
 
      [!code-csharp[VSSDKCompletionTest#30](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_9.cs)]
      [!code-vb[VSSDKCompletionTest#30](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_9.vb)]
 
-6.  클릭할 때 코드 조각 선택기를 표시 하는 **코드 조각 삽입** 명령에 다음 코드를 추가 합니다 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> 메서드. (이 설명의 가독성을 높일 있도록는 `Exec()`문 완성에 사용 되는 코드는 표시 되지 않으면 대신 코드 블록을 추가할 기존 메서드.) 다음 코드 블록은 문자를 확인 하는 코드 뒤에 추가 합니다.
+6. 클릭할 때 코드 조각 선택기를 표시 하는 **코드 조각 삽입** 명령에 다음 코드를 추가 합니다 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> 메서드. (이 설명의 가독성을 높일 있도록는 `Exec()`문 완성에 사용 되는 코드는 표시 되지 않으면 대신 코드 블록을 추가할 기존 메서드.) 다음 코드 블록은 문자를 확인 하는 코드 뒤에 추가 합니다.
 
      [!code-csharp[VSSDKCompletionTest#31](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_10.cs)]
      [!code-vb[VSSDKCompletionTest#31](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_10.vb)]
 
-7.  코드 조각을 탐색할 수 있는 필드에 있는 경우 확장 세션 열기 때까지 유지 확장 명시적으로 허용 됩니다. 코드 조각에 필드가 없는 경우 세션을 닫고로 반환 됩니다 `null` 여는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionManager.InvokeInsertionUI%2A> 메서드. 에 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> 메서드를 이전 단계에서 추가한 UI 코드 조각 선택 후 조각 탐색을 처리 하는 다음 코드를 추가 (사용자가 누르면 **탭** 또는 **Shift** + **탭** 조각 삽입 한 후).
+7. 코드 조각을 탐색할 수 있는 필드에 있는 경우 확장 세션 열기 때까지 유지 확장 명시적으로 허용 됩니다. 코드 조각에 필드가 없는 경우 세션을 닫고로 반환 됩니다 `null` 여는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionManager.InvokeInsertionUI%2A> 메서드. 에 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> 메서드를 이전 단계에서 추가한 UI 코드 조각 선택 후 조각 탐색을 처리 하는 다음 코드를 추가 (사용자가 누르면 **탭** 또는 **Shift** + **탭** 조각 삽입 한 후).
 
      [!code-csharp[VSSDKCompletionTest#32](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_11.cs)]
      [!code-vb[VSSDKCompletionTest#32](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_11.vb)]
 
-8.  사용자 형식 해당 바로 가기 키를 누를 때 코드 조각을 삽입할 **탭**, 코드를 추가 하는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> 메서드. 코드 조각을 삽입 하는 private 메서드는 이후 단계에서 표시 됩니다. 이전 단계에서 추가한 탐색 코드 뒤에 다음 코드를 추가 합니다.
+8. 사용자 형식 해당 바로 가기 키를 누를 때 코드 조각을 삽입할 **탭**, 코드를 추가 하는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> 메서드. 코드 조각을 삽입 하는 private 메서드는 이후 단계에서 표시 됩니다. 이전 단계에서 추가한 탐색 코드 뒤에 다음 코드를 추가 합니다.
 
      [!code-csharp[VSSDKCompletionTest#33](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_12.cs)]
      [!code-vb[VSSDKCompletionTest#33](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_12.vb)]
@@ -223,13 +223,13 @@ ms.locfileid: "56707083"
 ## <a name="build-and-test-code-snippet-expansion"></a>빌드 및 테스트 코드 조각 확장
  코드 조각 확장 프로젝트에서 작동 하는지 테스트할 수 있습니다.
 
-1.  솔루션을 빌드합니다. 디버거에서이 프로젝트를 실행 하면 Visual Studio의 두 번째 인스턴스를 시작 됩니다.
+1. 솔루션을 빌드합니다. 디버거에서이 프로젝트를 실행 하면 Visual Studio의 두 번째 인스턴스를 시작 됩니다.
 
-2.  텍스트 파일을 열고 일부 텍스트를 입력 합니다.
+2. 텍스트 파일을 열고 일부 텍스트를 입력 합니다.
 
-3.  텍스트의 위치를 마우스 오른쪽 단추로 누른 **코드 조각 삽입**합니다.
+3. 텍스트의 위치를 마우스 오른쪽 단추로 누른 **코드 조각 삽입**합니다.
 
-4.  포함 된 팝업을 사용 하 여 UI 같아야 합니다. 코드 조각 선택기 **테스트 대체 필드**합니다. 팝업을 두 번 클릭 합니다.
+4. 포함 된 팝업을 사용 하 여 UI 같아야 합니다. 코드 조각 선택기 **테스트 대체 필드**합니다. 팝업을 두 번 클릭 합니다.
 
      다음 코드 조각은 삽입 되어야 합니다.
 
@@ -240,10 +240,10 @@ ms.locfileid: "56707083"
 
      키를 누르지 **Enter** 하거나 **Esc**합니다.
 
-5.  키를 눌러 **탭** 하 고 **Shift**+**탭** "first" 및 "두 번째" 간에 설정/해제 합니다.
+5. 키를 눌러 **탭** 하 고 **Shift**+**탭** "first" 및 "두 번째" 간에 설정/해제 합니다.
 
-6.  눌러 삽입을 허용 **Enter** 하거나 **Esc**합니다.
+6. 눌러 삽입을 허용 **Enter** 하거나 **Esc**합니다.
 
-7.  텍스트의 다른 부분에 "test"를 입력 한 다음 **탭**합니다. "Test" 코드 조각 바로 가기를 이기 때문에 코드 조각은 다시 삽입 해야 합니다.
+7. 텍스트의 다른 부분에 "test"를 입력 한 다음 **탭**합니다. "Test" 코드 조각 바로 가기를 이기 때문에 코드 조각은 다시 삽입 해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계

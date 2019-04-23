@@ -15,12 +15,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 4c5bb40bdf552e78ecae49bfa0b78c6aa403160d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1ce67a70b6cbe955ef13bf6475a672bcbb687d95
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981616"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046541"
 ---
 # <a name="ca1058-types-should-not-extend-certain-base-types"></a>CA1058: 형식은 특정 기본 형식을 확장하면 안 됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,21 +35,21 @@ ms.locfileid: "58981616"
 ## <a name="cause"></a>원인
  외부에서 볼 수 있는 형식이 특정 기본 형식을 확장합니다. 현재이 규칙은 보고 형식에서 파생 되는 형식:
 
--   <xref:System.ApplicationException?displayProperty=fullName>
+- <xref:System.ApplicationException?displayProperty=fullName>
 
--   <xref:System.Xml.XmlDocument?displayProperty=fullName>
+- <xref:System.Xml.XmlDocument?displayProperty=fullName>
 
--   <xref:System.Collections.CollectionBase?displayProperty=fullName>
+- <xref:System.Collections.CollectionBase?displayProperty=fullName>
 
--   <xref:System.Collections.DictionaryBase?displayProperty=fullName>
+- <xref:System.Collections.DictionaryBase?displayProperty=fullName>
 
--   <xref:System.Collections.Queue?displayProperty=fullName>
+- <xref:System.Collections.Queue?displayProperty=fullName>
 
--   <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>
+- <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>
 
--   <xref:System.Collections.SortedList?displayProperty=fullName>
+- <xref:System.Collections.SortedList?displayProperty=fullName>
 
--   <xref:System.Collections.Stack?displayProperty=fullName>
+- <xref:System.Collections.Stack?displayProperty=fullName>
 
 ## <a name="rule-description"></a>규칙 설명
  에 대 한 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전 1에서는 것을 권장 했습니다에서 새 예외를 파생 시키는 <xref:System.ApplicationException>합니다. 새 예외에서 파생 되어야 하 고는 권장 사항이 변경 되었습니다 <xref:System.Exception?displayProperty=fullName> 또는 해당 하위 클래스 중 하나는 <xref:System> 네임 스페이스입니다.
