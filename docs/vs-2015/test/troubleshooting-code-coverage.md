@@ -8,12 +8,12 @@ ms.assetid: 26de91b8-45e3-4976-a20e-a3bd1942ddcb
 caps.latest.revision: 13
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5af016c0ef1e38a4ae7ca42d79ed2030821d0369
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 8faf41bb838880b1f0f747f1feb9d3a318b2f1c4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54797368"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117410"
 ---
 # <a name="troubleshooting-code-coverage"></a>코드 검사 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,9 +45,9 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
 ### <a name="youre-looking-at-a-previous-result"></a>이전 결과가 표시된 상태  
  테스트를 수정하고 다시 실행하면 이전 실행의 코드 강조를 포함한 이전 코드 검사 결과가 계속 표시될 수 있습니다.  
   
-1.  코드 검사 분석을 실행합니다.  
+1. 코드 검사 분석을 실행합니다.  
   
-2.  코드 분석 결과 창에서 최근 결과 집합을 선택했는지 확인하십시오.  
+2. 코드 분석 결과 창에서 최근 결과 집합을 선택했는지 확인하십시오.  
   
 ### <a name="pdb-symbol-files-are-unavailable"></a>.pdb(기호) 파일을 사용할 수 없습니다  
  분석  
@@ -107,17 +107,17 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
  해결  
  두 가지 유형의 오류가 있습니다.  
   
--   **XML 오류**  
+- **XML 오류**  
   
      Visual Studio XML 편집기에서 .runsettings 파일을 엽니다. 오류 표시를 찾습니다.  
   
--   **정규식 오류**  
+- **정규식 오류**  
   
      파일의 각 문자열은 정규식입니다. 오류별로 정규식 오류를 검토하고 특히 다음 항목이 있는지 찾아 보십시오.  
   
-    -   짝이 맞지 않는 괄호 (...) 또는 이스케이프되지 않은 괄호 \\(...\\). 검색 문자열에서 괄호를 일치시키려면 이스케이프 처리해야 합니다. 예를 들어 함수를 일치시키려면 `.*MyFunction\(double\)`을 사용합니다.  
+    - 짝이 맞지 않는 괄호 (...) 또는 이스케이프되지 않은 괄호 \\(...\\). 검색 문자열에서 괄호를 일치시키려면 이스케이프 처리해야 합니다. 예를 들어 함수를 일치시키려면 `.*MyFunction\(double\)`을 사용합니다.  
   
-    -   식의 시작 부분의 별표 또는 더하기 문자열을 일치시키려면 점과 별표, `.*`를 사용합니다.  
+    - 식의 시작 부분의 별표 또는 더하기 문자열을 일치시키려면 점과 별표, `.*`를 사용합니다.  
   
 ### <a name="custom-runsettings-file-with-incorrect-exclusions"></a>제외를 잘못 지정한 사용자 지정 .runsettings 파일  
  분석  

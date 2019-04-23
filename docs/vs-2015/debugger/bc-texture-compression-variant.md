@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2b164933b3d695e1a680e26629b093b59009b502
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f0758d9eb5a003b0353ceb4fee21996d90685fa5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982904"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111235"
 ---
 # <a name="bc-texture-compression-variant"></a>BC 텍스처 압축 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,13 +31,13 @@ B8G8R8X8, B8G8R8A8 또는 R8G8B8A8의 변형인 픽셀 형식이 있는 질감�
   
 - `D3D11_TEXTURE2D_DESC`에서 전달된 `pDesc` 개체가 변하지 않는 셰이더를 설명하는 경우, 즉 다음과 같은 경우입니다.  
   
-  -   BindFlags 멤버에 D3D11_BIND_SHADER_RESOURCE 플래그 집합만 있는 경우  
+  - BindFlags 멤버에 D3D11_BIND_SHADER_RESOURCE 플래그 집합만 있는 경우  
   
-  -   Usage 멤버가 D3D11_USAGE_DEFAULT 또는 D3D11_USAGE_IMMUTABLE로 설정된 경우  
+  - Usage 멤버가 D3D11_USAGE_DEFAULT 또는 D3D11_USAGE_IMMUTABLE로 설정된 경우  
   
-  -   CPUAccessFlags 멤버가 0으로 설정된 경우(CPU 액세스 없음)  
+  - CPUAccessFlags 멤버가 0으로 설정된 경우(CPU 액세스 없음)  
   
-  -   SamplerDesc 멤버에 1로 설정된 Count 멤버가 있는 경우(MSAA(MultiSample Anti-Aliasing) 없음)  
+  - SamplerDesc 멤버에 1로 설정된 Count 멤버가 있는 경우(MSAA(MultiSample Anti-Aliasing) 없음)  
   
 - 초기 데이터가 `CreateTexture2D`에 대한 호출에 제공된 경우  
   

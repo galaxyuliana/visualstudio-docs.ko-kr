@@ -19,12 +19,12 @@ caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2446320f1cbf0551fdfb1532df4fea23631b1131
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 048307c6c8117a77a57da6dc20f2615ae82feb0c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649266"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117501"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,20 +69,20 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## <a name="in-process-compilers"></a>In-Process 컴파일러  
  가능한 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 성능 향상을 위해 in-process 버전의 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 컴파일러를 사용하려고 시도합니다. [!INCLUDE[csprcs](../includes/csprcs-md.md)]에는 적용되지 않습니다. 이러한 시도는 다음 조건이 충족되어야 제대로 작동합니다.  
   
--   프로젝트 대상에 `Vbc` 프로젝트에 대한 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 작업이 있어야 합니다.  
+- 프로젝트 대상에 `Vbc` 프로젝트에 대한 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 작업이 있어야 합니다.  
   
--   작업의 `UseHostCompilerIfAvailable` 매개 변수가 true로 설정되어 있어야 합니다.  
+- 작업의 `UseHostCompilerIfAvailable` 매개 변수가 true로 설정되어 있어야 합니다.  
   
 ## <a name="design-time-intellisense"></a>디자인 타임 IntelliSense  
  빌드에서 출력 어셈블리를 생성하기 전에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 IntelliSense 지원을 받으려면 다음 조건이 충족되어야 합니다.  
   
--   `Compile`이라는 대상이 있어야 합니다.  
+- `Compile`이라는 대상이 있어야 합니다.  
   
--   `Compile` 대상 또는 해당 종속 대상 중 하나는 프로젝트에 대해 `Csc` 또는 `Vbc`와 같은 컴파일러 작업을 호출해야 합니다.  
+- `Compile` 대상 또는 해당 종속 대상 중 하나는 프로젝트에 대해 `Csc` 또는 `Vbc`와 같은 컴파일러 작업을 호출해야 합니다.  
   
--   `Compile` 대상 또는 해당 종속 대상 중 하나를 통해 컴파일러가 IntelliSense에 필요한 모든 매개 변수, 특히 모든 참조를 받도록 해야 합니다.  
+- `Compile` 대상 또는 해당 종속 대상 중 하나를 통해 컴파일러가 IntelliSense에 필요한 모든 매개 변수, 특히 모든 참조를 받도록 해야 합니다.  
   
--   "In-Process 컴파일러" 단원에 나열된 조건이 충족되어야 합니다.  
+- "In-Process 컴파일러" 단원에 나열된 조건이 충족되어야 합니다.  
   
 ## <a name="building-solutions"></a>솔루션 빌드  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내에서 솔루션 파일 및 프로젝트 빌드 순서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 자체에서 제어합니다. 명령줄에서 msbuild.exe를 사용하여 솔루션을 빌드할 때 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 솔루션 파일을 구문 분석하고 프로젝트 빌드 순서를 정합니다. 두 경우 모두 프로젝트는 종속성 순서에 따라 개별적으로 빌드되며 프로젝트 간 참조는 검색되지 않습니다. 이와 대조적으로 msbuild.exe를 사용하여 개별 프로젝트를 빌드하면 프로젝트 간 참조가 검색됩니다.  
@@ -127,22 +127,22 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## <a name="design-time-target-execution"></a>디자인 타임 대상 실행  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 프로젝트를 로드할 때 특정 이름의 대상을 실행하려고 시도합니다. 이러한 대상에는 `Compile`, `ResolveAssemblyReferences`, `ResolveCOMReferences`, `GetFrameworkPaths` 및 `CopyRunEnvironmentFiles`가 있습니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 이러한 대상을 실행하여 컴파일러가 IntelliSense를 제공하도록 초기화되거나, 디버거가 초기화되거나, 솔루션 탐색기에 표시된 참조가 확인될 수 있도록 할 수 있습니다. 이러한 대상이 없어도 프로젝트를 제대로 로드하고 빌드할 수는 있지만 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 디자인 타임 환경이 완전하게 작동하지 않습니다.  
   
-##  <a name="BKMK_EditingProjects"></a> Editing Project Files in Visual Studio  
+## <a name="BKMK_EditingProjects"></a> Editing Project Files in Visual Studio  
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트를 직접 편집하려면 Visual Studio XML 편집기에서 프로젝트 파일을 열 수 있습니다.  
   
 #### <a name="to-unload-and-edit-a-project-file-in-visual-studio"></a>Visual Studio에서 프로젝트 파일을 언로드 및 편집하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트의 바로 가기 메뉴를 열고 **프로젝트 언로드**를 선택합니다.  
+1. **솔루션 탐색기**에서 프로젝트의 바로 가기 메뉴를 열고 **프로젝트 언로드**를 선택합니다.  
   
      해당 프로젝트가 **(사용할 수 없음)** 으로 표시됩니다.  
   
-2.  **솔루션 탐색기**에서 사용할 수 없는 프로젝트의 바로 가기 메뉴를 열고 **편집 \<프로젝트 파일>** 을 선택합니다.  
+2. **솔루션 탐색기**에서 사용할 수 없는 프로젝트의 바로 가기 메뉴를 열고 **편집 \<프로젝트 파일>** 을 선택합니다.  
   
      해당 프로젝트 파일이 Visual Studio XML 편집기에 열립니다.  
   
-3.  프로젝트 파일을 편집 및 저장한 후 닫습니다.  
+3. 프로젝트 파일을 편집 및 저장한 후 닫습니다.  
   
-4.  **솔루션 탐색기**에서 사용할 수 없는 프로젝트의 바로 가기 메뉴를 열고 **프로젝트 다시 로드**를 선택합니다.  
+4. **솔루션 탐색기**에서 사용할 수 없는 프로젝트의 바로 가기 메뉴를 열고 **프로젝트 다시 로드**를 선택합니다.  
   
 ## <a name="intellisense-and-validation"></a>IntelliSense 및 유효성 검사  
  XML 편집기를 사용하여 프로젝트 파일을 편집할 경우 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 스키마 파일에서 IntelliSense 및 유효성 검사를 실행합니다. 이러한 스키마 파일은 *\<Visual Studio 설치 디렉터리>* \Xml\Schemas\1033\MSBuild에 있는 스키마 캐시에 설치됩니다.  
@@ -158,21 +158,21 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## <a name="reference-resolution"></a>참조 확인  
  참조 확인은 프로젝트 파일에 저장된 참조 항목을 사용하여 실제 어셈블리를 찾는 과정입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 **속성** 창에 각 참조에 대한 자세한 속성을 표시하기 위해 참조 확인을 트리거해야 합니다. 다음 목록에서는 세 가지 참조 형식과 참조 확인 방법을 설명합니다.  
   
--   어셈블리 참조:  
+- 어셈블리 참조:  
   
      프로젝트 시스템에서 잘 알려진 이름이 `ResolveAssemblyReferences`인 대상을 호출합니다. 이 대상은 항목 형식 이름이 `ReferencePath`인 항목을 출력해야 합니다. 이러한 항목에는 각각 참조에 대한 전체 경로를 포함하는 항목 사양(항목의 `Include` 특성 값)이 있어야 합니다. 항목에는 다음과 같은 새 메타데이터 외에 전달된 입력 항목의 모든 메타데이터가 있어야 합니다.  
   
-    -   `CopyLocal`: 어셈블리를 출력 폴더로 복사할지 여부를 true 또는 false로 설정하여 나타냅니다.  
+    - `CopyLocal`: 어셈블리를 출력 폴더로 복사할지 여부를 true 또는 false로 설정하여 나타냅니다.  
   
-    -   `OriginalItemSpec`: 참조의 원본 항목 사양이 포함되어 있습니다.  
+    - `OriginalItemSpec`: 참조의 원본 항목 사양이 포함되어 있습니다.  
   
-    -   `ResolvedFrom`: [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 디렉터리에서 확인된 경우 "{TargetFrameworkDirectory}"로 설정됩니다.  
+    - `ResolvedFrom`: [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 디렉터리에서 확인된 경우 "{TargetFrameworkDirectory}"로 설정됩니다.  
   
--   COM 참조:  
+- COM 참조:  
   
      프로젝트 시스템에서 잘 알려진 이름이 `ResolveCOMReferences`인 대상을 호출합니다. 이 대상은 항목 형식 이름이 `ComReferenceWrappers`인 항목을 출력해야 합니다. 이러한 항목에는 각각 COM 참조에 대해 Interop 어셈블리의 전체 경로를 포함하는 항목 사양이 있어야 합니다. 항목에는 전달된 입력 항목의 모든 메타데이터와 함께, 어셈블리를 출력 폴더로 복사할지 여부를 true 또는 false로 설정하여 나타내는 `CopyLocal`이라는 이름의 새 메타데이터가 있어야 합니다.  
   
--   네이티브 참조  
+- 네이티브 참조  
   
      프로젝트 시스템에서 잘 알려진 이름이 `ResolveNativeReferences`인 대상을 호출합니다. 이 대상은 항목 형식 이름이 `NativeReferenceFile`인 항목을 출력해야 합니다. 항목에는 전달된 입력 항목의 모든 메타데이터와 함께, 참조의 원본 항목 사양이 포함되어 있는 `OriginalItemSpec`이라는 새로운 메타데이터 부분이 있어야 합니다.  
   

@@ -9,29 +9,29 @@ helpviewer_keywords:
 ms.assetid: 700e80a4-c1e1-4178-af53-45e86dd2c08b
 caps.latest.revision: 9
 manager: jillfra
-ms.openlocfilehash: fd041724eaf13395ad2e85427de35faa86374abd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2d5ba5a271cd7132d9750fc0569b801022aeb932
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985592"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117858"
 ---
 # <a name="how-to-create-a-vsct-file-from-an-existing-ctc-file"></a>방법: 만들기는 합니다. 기존 Vsct 파일입니다. Ctc 파일
 기존 명령 테이블 .ctc 소스 파일에서 XML 기반 .vsct 파일을 만들 수 있습니다. 이렇게 하면 새 XML 기반 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 명령 테이블(VSCT) 컴파일러 형식을 이용할 수 있습니다.  
   
 ### <a name="to-create-a-vsct-file-from-a-ctc-file"></a>.ctc 파일에서 .vsct 파일을 만들려면  
   
-1.  Perl 언어의 복사본을 가져옵니다.  
+1. Perl 언어의 복사본을 가져옵니다.  
   
-2.  일반적으로 Perl 스크립트 ConvertCTCToVSCT.pl의 복사본을 얻는 합니다  *\<Visual Studio SDK 설치 경로 >* \VisualStudioIntegration\Tools\bin 폴더입니다.  
+2. 일반적으로 Perl 스크립트 ConvertCTCToVSCT.pl의 복사본을 얻는 합니다  *\<Visual Studio SDK 설치 경로 >* \VisualStudioIntegration\Tools\bin 폴더입니다.  
   
-3.  변환하려는 .ctc 소스 파일의 복사본을 가져옵니다.  
+3. 변환하려는 .ctc 소스 파일의 복사본을 가져옵니다.  
   
-4.  동일한 디렉터리에 파일을 배치합니다.  
+4. 동일한 디렉터리에 파일을 배치합니다.  
   
-5.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 명령 프롬프트 창에서 디렉터리로 이동합니다.  
+5. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 명령 프롬프트 창에서 디렉터리로 이동합니다.  
   
-6.  형식  
+6. 형식  
   
     ```  
     perl.exe ConvertCTCtoVSCT.pl PkgCmd.ctc PkgCmd.vsct  

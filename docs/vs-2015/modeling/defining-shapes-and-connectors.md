@@ -9,19 +9,19 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 02b470926001c08695bc6c18712cbd0db41503cf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 761e0e77a0fe9f6f32f08045d81f6eab815801dd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982540"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112327"
 ---
 # <a name="defining-shapes-and-connectors"></a>모양 및 연결선 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 DSL(Domain-Specific Language)에서 다이어그램에 정보를 표시하는 데 사용할 수 있는 다양한 기본 모양 형식이 있습니다.  
   
-##  <a name="shapeTypes"></a> 모양 및 연결선의 기본 형식  
+## <a name="shapeTypes"></a> 모양 및 연결선의 기본 형식  
  DSL 다이어그램에는 표시의 컬렉션인 *셰이프* 선이나 또는 *커넥터*합니다.  이러한 모양에는 일반적으로 다음 사항이 적용됩니다(항상은 아님).  
   
 - 모양은 모델 요소가 표시되는 표현입니다.  
@@ -45,5 +45,5 @@ DSL(Domain-Specific Language)에서 다이어그램에 정보를 표시하는 �
 |스윔 레인|스윔 레인은 다이어그램을 수평 또는 수직 세그먼트로 분할하며, 항상 다이어그램의 다른 모양 아래에 있습니다.<br /><br /> 일반적으로 스윔 레인 모델 요소의 부모는 모델 루트이고 자식은 다른 요소입니다. 예를 들어 작업 흐름 솔루션 템플릿에서 DSL을 만들 수 있습니다.|  
 |연결선|모양 간에 그려지는 선은 보통 참조 관계를 나타냅니다. 연결선을 직선이나 직각선으로 만들고 여러 화살촉 형식을 사용하는 옵션을 설정할 수 있습니다.|  
   
-##  <a name="shapeInheritance"></a> 모양 상속  
+## <a name="shapeInheritance"></a> 모양 상속  
  모양은 다른 모양에서 상속될 수 있습니다. 그러나 이 경우 모양의 종류가 같아야 합니다. 예를 들어 기하 도형만이 기하 도형을 상속할 수 있습니다. 상속된 도형은 기본 도형의 구획과 Decorator를 포함합니다. 연결선은 연결선에서 상속될 수 있습니다.

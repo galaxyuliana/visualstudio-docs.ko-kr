@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ee5112f27498bfa14d742469478cc4961f3cc7b0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7b315c7ab9bb10d039e81ba26b1beb9c4447a205
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983111"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112379"
 ---
 # <a name="16bpp-render-target-format-variant"></a>16bpp 렌더링 대상 형식 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,11 +37,11 @@ ms.locfileid: "58983111"
 ## <a name="remarks"></a>설명  
  렌더링 대상을 만드는 `ID3D11Device::CreateTexture2D`에 대한 호출 시 마다 렌더링 대상 형식은 DXGI_FORMAT_B5G6R5_UNORM으로 다시 설정됩니다. 특히 이 형식은 pDesc에서 전달된 D3D11_TEXTURE2D_DESC 개체가 렌더링 대상을 설명하는 경우 재정의됩니다. 즉, 다음과 같은 경우입니다.  
   
--   BindFlags 멤버에 D3D11_BIND_REDNER_TARGET 플래그 집합이 있는 경우  
+- BindFlags 멤버에 D3D11_BIND_REDNER_TARGET 플래그 집합이 있는 경우  
   
--   BindFlags 멤버에 D3D11_BIND_DEPTH_STENCIL 플래그가 지워진 경우  
+- BindFlags 멤버에 D3D11_BIND_DEPTH_STENCIL 플래그가 지워진 경우  
   
--   Usage 멤버가 D3D11_USAGE_DEFAULT로 설정된 경우  
+- Usage 멤버가 D3D11_USAGE_DEFAULT로 설정된 경우  
   
 ## <a name="restrictions-and-limitations"></a>제한 사항  
  B5G6R5 형식에는 알파 채널이 없으므로 이 변형은 알파 콘텐츠를 유지하지 않습니다. 앱에서 렌더링하려면 렌더링 대상에 알파 채널이 있어야 하는 경우 간단히 B5G6R5 형식으로 전환할 수 있는 것이 아닙니다.  

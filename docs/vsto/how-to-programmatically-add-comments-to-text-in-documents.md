@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2b2f043cba192ed3ff1f4e0ec995b0ee51a48432
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 5aba4c6446b2dbcfcb31c423a28eedd552799b4e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624648"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60118138"
 ---
 # <a name="how-to-programmatically-add-comments-to-text-in-documents"></a>방법: 프로그래밍 방식으로 문서의 텍스트에 주석 추가
   문서 클래스의 주석 속성 다양 한 Microsoft Office Word 문서에서 텍스트에 메모를 추가 합니다.
@@ -29,14 +29,14 @@ ms.locfileid: "56624648"
 
 ## <a name="to-add-a-new-comment-to-text-in-a-document-level-customization"></a>문서 수준 사용자 지정에서 텍스트에 새 메모를 추가하려면
 
-1.  <xref:Microsoft.Office.Interop.Word.Comments.Add%2A> 속성의 <xref:Microsoft.Office.Tools.Word.Document.Comments%2A> 메서드를 호출하고 범위 및 메모 텍스트를 제공합니다. 다음 코드 예제를 사용하려면 프로젝트의 `ThisDocument` 클래스에서 실행합니다.
+1. <xref:Microsoft.Office.Interop.Word.Comments.Add%2A> 속성의 <xref:Microsoft.Office.Tools.Word.Document.Comments%2A> 메서드를 호출하고 범위 및 메모 텍스트를 제공합니다. 다음 코드 예제를 사용하려면 프로젝트의 `ThisDocument` 클래스에서 실행합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#118](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#118)]
      [!code-csharp[Trin_VstcoreWordAutomation#118](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#118)]
 
 ## <a name="to-add-a-new-comment-to-text-in-a-vsto-add-in"></a>VSTO 추가 기능에서 텍스트에 새 메모를 추가 하려면
 
-1.  <xref:Microsoft.Office.Interop.Word.Comments.Add%2A> 속성의 <xref:Microsoft.Office.Interop.Word._Document.Comments%2A> 메서드를 호출하고 범위 및 메모 텍스트를 제공합니다.
+1. <xref:Microsoft.Office.Interop.Word.Comments.Add%2A> 속성의 <xref:Microsoft.Office.Interop.Word._Document.Comments%2A> 메서드를 호출하고 범위 및 메모 텍스트를 제공합니다.
 
      다음 코드 예제에서는 활성 문서에 메모를 추가합니다. 이 예제를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 실행합니다.
 

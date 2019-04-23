@@ -10,12 +10,12 @@ ms.assetid: e8e78514-5720-4fc2-aa43-00b6af482e38
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a9d0836d9633b070a9f48a6bd2b80d1f012f52cb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 00a2f5e4e405ff2cba7275cd4c1310db850632b5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983085"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60118034"
 ---
 # <a name="how-to-implement-error-markers"></a>방법: 오류 마커를 구현 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,16 +44,16 @@ ms.locfileid: "58983085"
   
   파서, 작업 공급자 및 필터 오류 마커를 가능 하 게 하는 데 필요한 인프라를 제공 합니다. 다음 단계를 오류 마커를 표시 하기 위한 프로세스를 제공 합니다.  
   
-1.  필터링 된 뷰 필터는 해당 보기의 데이터와 관련 된 작업 공급자에 대 한 포인터를 가져옵니다.  
+1. 필터링 된 뷰 필터는 해당 보기의 데이터와 관련 된 작업 공급자에 대 한 포인터를 가져옵니다.  
   
     > [!NOTE]
     >  메서드 팁, 문 완성, 오류 표식, 등에 대 한 동일한 명령 필터를 사용할 수 있습니다.  
   
-2.  필터를 다른 줄으로 이동 했음을 나타내는 이벤트를 수신 하는 경우 오류를 확인 하는 작업이 만들어집니다.  
+2. 필터를 다른 줄으로 이동 했음을 나타내는 이벤트를 수신 하는 경우 오류를 확인 하는 작업이 만들어집니다.  
   
-3.  작업 처리기 줄 변경 되었는지 확인 합니다. 그렇다면 오류에 대 한 줄 구문 분석 합니다.  
+3. 작업 처리기 줄 변경 되었는지 확인 합니다. 그렇다면 오류에 대 한 줄 구문 분석 합니다.  
   
-4.  오류가 발견 되 면 작업 공급자는 작업 항목 인스턴스를 만듭니다. 이 이런은 환경을 텍스트 보기에는 오류 표식으로 사용 하는 텍스트 마커를 만듭니다.  
+4. 오류가 발견 되 면 작업 공급자는 작업 항목 인스턴스를 만듭니다. 이 이런은 환경을 텍스트 보기에는 오류 표식으로 사용 하는 텍스트 마커를 만듭니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [텍스트 마커를 사용 하 여 레거시 API를 사용 하 여](../extensibility/using-text-markers-with-the-legacy-api.md)   

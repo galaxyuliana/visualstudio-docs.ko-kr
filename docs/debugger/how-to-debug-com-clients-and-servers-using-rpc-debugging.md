@@ -26,25 +26,25 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 01dca60a19adcf27652bccd096d6e1596ec2fc15
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: a4cd55ff42bc4ba81df881045d06362b469f009b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56688045"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112704"
 ---
-# <a name="how-to-debug-com-clients-and-servers-using-rpc-debugging"></a>방법: RPC 디버깅을 사용하여 COM 클라이언트 및 서버 디버깅
+# <a name="how-to-debug-com-clients-and-servers-using-rpc-debugging"></a>방법: RPC 디버깅을 사용하여 COM 클라이언트 및 서버 디버그
 RPC(원격 프로시저 호출) 디버깅을 사용하면 COM 클라이언트/서버 응용 프로그램을 디버깅할 수 있습니다. RPC 디버깅을 사용하려면 다음과 같은 방법으로 활성화해야 합니다. RPC 디버깅을 활성화하고 클라이언트에서 서버 호출을 한 단계씩 실행하면 디버거에서 서버에 연결하여 코드를 디버깅할 수 있습니다. 디버거를 연결하면 클라이언트 및 서버 프로세스에서 모든 디버거 기능을 사용할 수 있습니다.
 
 ### <a name="to-enable-rpc-debugging"></a>RPC 디버깅을 활성화하려면
 
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.
 
-2.  **옵션** 대화 상자에서 **Debugging** 폴더를 선택합니다.
+2. **옵션** 대화 상자에서 **Debugging** 폴더를 선택합니다.
 
-3.  **네이티브** 페이지를 클릭합니다.
+3. **네이티브** 페이지를 클릭합니다.
 
-4.  **RPC 디버깅** 확인란을 선택합니다.
+4. **RPC 디버깅** 확인란을 선택합니다.
 
     > [!NOTE]
     >  RPC 호출을 디버깅하려면 관리자 또는 고급 사용자 권한이 있어야 합니다.

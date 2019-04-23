@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5c8d86c206eca3ecb1e1fc43e9540485cd83f93a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 95e42442e8dce5db1ef6b670043bf1f26e554773
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918431"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094669"
 ---
 # <a name="keyboard-shortcuts-in-the-workflow-designer"></a>워크플로 디자이너의 바로 가기 키
 
@@ -25,7 +25,7 @@ ms.locfileid: "55918431"
 
 Visual Studio 내에서 전역 바로 가기와 디버깅 바로 가기가 워크플로 디자이너에 적용 됩니다. 또한 다양 한 워크플로 디자이너 관련 바로 가기 키를 만들었습니다. Visual Studio에서 모든 바로 가기 키를 다시 매핑할 수 있습니다. 하지만 다시 호스트된 응용 프로그램에는 이러한 바로 가기 키가 하드 코딩되어 있습니다.
 
-### <a name="workflow-designer-keyboard-shortcuts"></a>워크플로 디자이너 바로 가기 키
+### <a name="workflow-designer-keyboard-shortcuts"></a>Workflow Designer 바로 가기 키
 
 다음 표에서 워크플로 디자이너 명령에 할당 된 기본 바로 가기 키를 보여 줍니다.
 
@@ -57,13 +57,13 @@ Visual Studio 내에서 전역 바로 가기와 디버깅 바로 가기가 워�
 
 - 활동을 연결하려면
 
-    1.  소스 활동으로 이동하여 해당 활동을 선택합니다.
+    1. 소스 활동으로 이동하여 해당 활동을 선택합니다.
 
-    2.  Ctrl+E, M을 여러 번 눌러 키보드 포커스를 대상 활동으로 옮깁니다.
+    2. Ctrl+E, M을 여러 번 눌러 키보드 포커스를 대상 활동으로 옮깁니다.
 
-    3.  Ctrl+E, S를 눌러 대상 활동을 선택 항목에 추가합니다.
+    3. Ctrl+E, S를 눌러 대상 활동을 선택 항목에 추가합니다.
 
-    4.  Ctrl+E, F를 눌러 소스의 커넥터를 대상에 추가합니다.
+    4. Ctrl+E, F를 눌러 소스의 커넥터를 대상에 추가합니다.
 
 키보드로 활동을 연결하는 방법에 대한 참고 사항은 다음과 같습니다.
 

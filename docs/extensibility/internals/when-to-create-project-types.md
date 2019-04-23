@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 45bd40d2261a30ea455132ba92841c33b968eac0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: eaf8982afb01ee07eb8c2d672f351c6e917620a6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614989"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094426"
 ---
 # <a name="when-to-create-project-types"></a>프로젝트 형식을 만들어야 하는 경우
 사용자 지정 하는 기본 제공 새 프로젝트 형식 만들기 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 사용자에 대 한 합니다. 그러나 새 프로젝트 형식을 만들 필요 하지 않습니다 모든 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 사용자 지정 합니다. 다음 지침은 새 프로젝트 형식을 시나리오에 필요한 지 여부를 결정 하는 데 도움이 됩니다.
@@ -23,26 +23,26 @@ ms.locfileid: "56614989"
 ## <a name="create-a-new-project-type"></a>새 프로젝트 형식 만들기
  사용자 지정 하려는 경우 프로젝트 유형을 만들어야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 다음 방법 중 하나 이상의 역할을 합니다.
 
--   빌드에서 participate, 배포, 구성 및 소스 제어 합니다.
+- 빌드에서 participate, 배포, 구성 및 소스 제어 합니다.
 
--   디버깅 지원을 제공 합니다.
+- 디버깅 지원을 제공 합니다.
 
--   프로젝트 항목에 표시할 **솔루션 탐색기**합니다.
+- 프로젝트 항목에 표시할 **솔루션 탐색기**합니다.
 
--   사용 된 **프로젝트 열기** 또는 **새 프로젝트** 대화 상자.
+- 사용 된 **프로젝트 열기** 또는 **새 프로젝트** 대화 상자.
 
--   프로젝트 중첩을 지원 합니다.
+- 프로젝트 중첩을 지원 합니다.
 
 ## <a name="extend-an-existing-project-type"></a>기존 프로젝트 형식 확장
  사용할 수 있는 새 프로젝트 형식을 만들 수도 있습니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 수정 하거나 기존 프로젝트 형식의 동작을 확장 하려면 다음 방법의 예를 들어 빌드 프로세스에 대 한 수정 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 프로젝트:
 
--   하나의 단위로 여러 파일을 사용 합니다.
+- 하나의 단위로 여러 파일을 사용 합니다.
 
--   하위 항목의 계층으로 단일 파일을 표시 합니다.
+- 하위 항목의 계층으로 단일 파일을 표시 합니다.
 
--   편집기 관련 명령을 컨텍스트를 표시 합니다.
+- 편집기 관련 명령을 컨텍스트를 표시 합니다.
 
--   편집기에 대 한 서비스 컨텍스트를 표시 합니다.
+- 편집기에 대 한 서비스 컨텍스트를 표시 합니다.
 
 ## <a name="use-an-existing-project-type"></a>기존 프로젝트 형식 사용
  새 프로젝트를 만드는 경우에 따라 필요 하지 않습니다. 다음 테이블에 대 한 프로젝트 형식을 만들려면 없는 작업을 보여 줍니다.

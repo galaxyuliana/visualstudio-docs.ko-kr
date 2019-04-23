@@ -11,12 +11,12 @@ ms.assetid: 6f2e872c-5ba2-4303-9f50-a90cef9a6225
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 206835d92a2fca27bed2cbb8a96b99e6b7c8a082
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3ffe786b5bc5f6d0bb0233fbb431988e0145611d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972219"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094874"
 ---
 # <a name="test-area-6-delete"></a>테스트 영역 6: 삭제
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,13 +38,13 @@ ms.locfileid: "58972219"
 ## <a name="expected-behavior"></a>예상된 된 동작  
  Delete 테스트 영역에서 테스트 사례에 대해 예상 되는 동작은 다음과 같습니다.  
   
--   삭제 된 항목을 더 이상 내에서 볼 **솔루션 탐색기**합니다.  
+- 삭제 된 항목을 더 이상 내에서 볼 **솔루션 탐색기**합니다.  
   
--   삭제 된 프로젝트 또는 항목의 부모를 체크 아웃 필요에 따라 (가능한 경우 프롬프트.)  
+- 삭제 된 프로젝트 또는 항목의 부모를 체크 아웃 필요에 따라 (가능한 경우 프롬프트.)  
   
--   을 체크 아웃 삭제 하거나 추가 항목 후에 나타나지 않습니다 합니다 **보류 중인 체크 인** 창입니다.  
+- 을 체크 아웃 삭제 하거나 추가 항목 후에 나타나지 않습니다 합니다 **보류 중인 체크 인** 창입니다.  
   
--   항목이 여전히 소스 제어 저장소에서 삭제 한 후에 있고 수동으로 제거 해야 합니다.  
+- 항목이 여전히 소스 제어 저장소에서 삭제 한 후에 있고 수동으로 제거 해야 합니다.  
   
 |작업|테스트 단계|확인 하려면 예상된 결과|  
 |------------|----------------|--------------------------------|  

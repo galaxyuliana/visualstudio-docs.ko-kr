@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 615b9bc4974a0483dec5e9c39727ebae50039a1f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: deba5e493f58a99e672e362977406670e1eee0e1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596531"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094348"
 ---
 # <a name="how-to-create-an-event-receiver-for-a-specific-list-instance"></a>방법: 특정 목록 인스턴스에 대 한 이벤트 수신기 만들기
   목록 인스턴스 이벤트 수신자 목록 정의의 모든 인스턴스에서 발생 하는 이벤트에 응답 합니다. 이벤트 수신기 템플릿 특정 목록 인스턴스에의 타기 팅을 사용 하지 않습니다 하지만 특정 목록 인스턴스에 이벤트에 응답 하는 목록 정의에 범위가 지정 된 이벤트 수신기를 수정할 수 있습니다.
@@ -30,24 +30,24 @@ ms.locfileid: "56596531"
 
 #### <a name="to-modify-an-event-receiver-to-respond-to-a-specific-list-instance"></a>특정 목록 인스턴스에 응답할 이벤트 수신기를 수정 하려면
 
-1.  브라우저에서 SharePoint 사이트를 엽니다.
+1. 브라우저에서 SharePoint 사이트를 엽니다.
 
-2.  탐색 창에서 **나열** 링크 합니다.
+2. 탐색 창에서 **나열** 링크 합니다.
 
-3.  에 **모든 사이트 콘텐츠** 페이지를 선택 합니다 **만들기** 링크 합니다.
+3. 에 **모든 사이트 콘텐츠** 페이지를 선택 합니다 **만들기** 링크 합니다.
 
-4.  에 **만들기** 대화 상자를 선택 합니다 **공지** 입력, 알림의 이름을 **TestAnnouncements**, 선택한 후를 **만들기**단추입니다.
+4. 에 **만들기** 대화 상자를 선택 합니다 **공지** 입력, 알림의 이름을 **TestAnnouncements**, 선택한 후를 **만들기**단추입니다.
 
-5.  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], 이벤트 수신기 프로젝트를 만듭니다.
+5. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], 이벤트 수신기 프로젝트를 만듭니다.
 
-6.  에 **이벤트 수신기 유형을 선택 하십시오?** 목록에서 선택 **목록 항목 이벤트**합니다.
+6. 에 **이벤트 수신기 유형을 선택 하십시오?** 목록에서 선택 **목록 항목 이벤트**합니다.
 
     > [!NOTE]
     >  다른 유형의 예를 들어 목록 정의를 범위 지정 하는 이벤트 수신기를 선택할 수도 있습니다 **전자 메일 이벤트 목록** 하거나 **목록 워크플로 이벤트**합니다.
 
-7.  에 **이벤트 소스를 사용할 항목을?** 목록에서 선택 **공지**합니다.
+7. 에 **이벤트 소스를 사용할 항목을?** 목록에서 선택 **공지**합니다.
 
-8.  에 **다음 이벤트를 처리할** 목록에서를 **항목이 추가 되** 확인란을 선택한 후는 **마침** 단추.
+8. 에 **다음 이벤트를 처리할** 목록에서를 **항목이 추가 되** 확인란을 선택한 후는 **마침** 단추.
 
 9. **솔루션 탐색기**를 열고의 EventReceiver1 아래에서 *Elements.xml*합니다.
 

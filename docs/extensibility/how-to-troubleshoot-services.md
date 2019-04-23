@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b943322fe6172eaaf196cc3f842da9ec0838d8cc
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 681564b2148fb9554e80105c2e18b1d220bb37ea
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702397"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111651"
 ---
 # <a name="how-to-troubleshoot-services"></a>방법: 서비스 문제 해결
 서비스를 가져오려고 할 때 발생할 수 있는 몇 가지 일반적인 문제는
@@ -52,9 +52,9 @@ if (log == null) return;
 
 2. GetService를 호출할 때 서비스 형식 및 인터페이스 형식이 아닌을 사용 합니다. 서비스를 요청할 때 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], <xref:Microsoft.VisualStudio.Shell.Package> 형식에서 GUID를 추출 합니다. 다음 조건에 해당 하는 경우 서비스를 찾을 수 없습니다.
 
-   1.  인터페이스 형식 대신 서비스 유형을 GetService에 전달 됩니다.
+   1. 인터페이스 형식 대신 서비스 유형을 GetService에 전달 됩니다.
 
-   2.  GUID가 없는 인터페이스를 명시적으로 할당 됩니다. 따라서 시스템 필요에 따라 개체에 대 한 기본 GUID를 생성 합니다.
+   2. GUID가 없는 인터페이스를 명시적으로 할당 됩니다. 따라서 시스템 필요에 따라 개체에 대 한 기본 GUID를 생성 합니다.
 
 3. 서비스 요청 VSPackage 배치 되었는지 확인 해야 합니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 생성 후 호출 하기 전에 VSPackage 사이트 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A>합니다.
 

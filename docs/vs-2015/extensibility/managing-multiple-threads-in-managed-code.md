@@ -8,12 +8,12 @@ ms.assetid: 59730063-cc29-4dae-baff-2234ad8d0c8f
 caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 7178b2d901d22956c93145c5e780144b894970de
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e1cde9cf66979815a804868f481910a2d0a21efa
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971153"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111053"
 ---
 # <a name="managing-multiple-threads-in-managed-code"></a>관리 코드에서 다중 스레드 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "58971153"
   
 ## <a name="switching-from-the-ui-thread-to-a-background-thread"></a>UI 스레드에서 백그라운드 스레드로 전환  
   
-1.  UI 스레드에서 되며 백그라운드 스레드에서 비동기 작업을 수행 하려는 경우 Task.Run()를 사용 합니다.  
+1. UI 스레드에서 되며 백그라운드 스레드에서 비동기 작업을 수행 하려는 경우 Task.Run()를 사용 합니다.  
   
     ```csharp  
     await Task.Run(async delegate{  
@@ -37,7 +37,7 @@ ms.locfileid: "58971153"
   
     ```  
   
-2.  UI 스레드에서 사용 하 여 백그라운드 스레드에서 작업을 수행 하는 동안 동기적으로 차단 하려는 경우는 <xref:System.Threading.Tasks.TaskScheduler> 속성 `TaskScheduler.Default` 내에서 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run%2A>:  
+2. UI 스레드에서 사용 하 여 백그라운드 스레드에서 작업을 수행 하는 동안 동기적으로 차단 하려는 경우는 <xref:System.Threading.Tasks.TaskScheduler> 속성 `TaskScheduler.Default` 내에서 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run%2A>:  
   
     ```csharp  
     // using Microsoft.VisualStudio.Threading;  
@@ -51,7 +51,7 @@ ms.locfileid: "58971153"
   
 ## <a name="switching-from-a-background-thread-to-the-ui-thread"></a>백그라운드 스레드에서 UI 스레드로 전환  
   
-1.  백그라운드 스레드에서 및 사용 하 여 UI 스레드에서 작업을 수행 하려는 경우 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>:  
+1. 백그라운드 스레드에서 및 사용 하 여 UI 스레드에서 작업을 수행 하려는 경우 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>:  
   
     ```csharp  
     // Switch to main thread  

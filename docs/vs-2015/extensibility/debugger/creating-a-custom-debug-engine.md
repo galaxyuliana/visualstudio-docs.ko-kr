@@ -12,12 +12,12 @@ ms.assetid: 52794238-6fae-451c-bf1c-99f344c6f173
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a0617d23b49af182504406417023b0d907cadf27
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 829e484ffe4968cdb89ff04e4e7f145decd07c9c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971515"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111521"
 ---
 # <a name="creating-a-custom-debug-engine"></a>사용자 지정 디버그 엔진 만들기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,15 +31,15 @@ ms.locfileid: "58971515"
   
  만들기는 DE 다음 단계로 구성 됩니다.  
   
-1.  Visual Studio는 DE 등록  
+1. Visual Studio는 DE 등록  
   
-2.  디버그할 프로그램을 사용 하도록 설정  
+2. 디버그할 프로그램을 사용 하도록 설정  
   
-3.  실행 제어 및 상태 평가  
+3. 실행 제어 및 상태 평가  
   
-4.  이벤트 전송  
+4. 이벤트 전송  
   
-5.  종료 및 분리  
+5. 종료 및 분리  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [사용자 지정 디버그 엔진 등록](../../extensibility/debugger/registering-a-custom-debug-engine.md)  

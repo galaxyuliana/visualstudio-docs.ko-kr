@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 4f57b21117f5fd5a4ff7c0403afe9cdbd63ec342
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: f771fec52024fb7d1e4c000d374f08929d453917
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950450"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112648"
 ---
 # <a name="commit-in-process-edits-on-data-bound-controls-before-saving-data"></a>데이터 바인딩된 컨트롤에서 데이터를 저장하기 전에 In-Process 편집 커밋
 
@@ -40,17 +40,17 @@ ms.locfileid: "55950450"
 
 ## <a name="to-call-endedit-for-all-bindingsource-components-on-a-form"></a>EndEdit 양식의 모든 BindingSource 구성 요소에 대 한 호출
 
-1.  다음 코드를 포함 하는 폼에 추가 된 <xref:System.Windows.Forms.BindingSource> 구성 요소입니다.
+1. 다음 코드를 포함 하는 폼에 추가 된 <xref:System.Windows.Forms.BindingSource> 구성 요소입니다.
 
      [!code-csharp[VSProDataOrcasEndEditOnAll#1](../data-tools/codesnippet/CSharp/commit-in-process-edits-on-data-bound-controls-before-saving-data_1.cs)]
      [!code-vb[VSProDataOrcasEndEditOnAll#1](../data-tools/codesnippet/VisualBasic/commit-in-process-edits-on-data-bound-controls-before-saving-data_1.vb)]
 
-2.  폼의 데이터를 저장 하는 호출 바로 전에 코드의 다음 줄을 추가 (의 `TableAdapterManager.UpdateAll()` 메서드).
+2. 폼의 데이터를 저장 하는 호출 바로 전에 코드의 다음 줄을 추가 (의 `TableAdapterManager.UpdateAll()` 메서드).
 
      [!code-csharp[VSProDataOrcasEndEditOnAll#2](../data-tools/codesnippet/CSharp/commit-in-process-edits-on-data-bound-controls-before-saving-data_2.cs)]
      [!code-vb[VSProDataOrcasEndEditOnAll#2](../data-tools/codesnippet/VisualBasic/commit-in-process-edits-on-data-bound-controls-before-saving-data_2.vb)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터에 Windows Forms 컨트롤 바인딩](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
 - [계층적 업데이트](../data-tools/hierarchical-update.md)

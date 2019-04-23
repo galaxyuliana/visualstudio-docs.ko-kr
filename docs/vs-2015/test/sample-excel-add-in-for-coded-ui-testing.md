@@ -10,12 +10,12 @@ ms.assetid: 2cd52d1a-4c35-43ca-8a84-9c79dabd907f
 caps.latest.revision: 18
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ded54760efe611b337c736e0474042b70ff8bf2e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 30ba0d48676438f19581e93a3af3c900569f5d5d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54791952"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112261"
 ---
 # <a name="sample-excel-add-in-for-coded-ui-testing"></a>코딩된 UI 테스트에 대한 샘플 Excel 추가 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,11 +28,11 @@ ms.locfileid: "54791952"
   
  다음은 이 추가 기능의 중요한 부분입니다.  
   
--   `ThisAddIn`  클래스 - `ExcelUICommunicator`와 [Excel용 샘플 코딩된 UI 테스트 확장명](../test/sample-coded-ui-test-extension-for-excel.md) 사이에서 .NET Remoting 채널을 관리합니다.  
+- `ThisAddIn`  클래스 - `ExcelUICommunicator`와 [Excel용 샘플 코딩된 UI 테스트 확장명](../test/sample-coded-ui-test-extension-for-excel.md) 사이에서 .NET Remoting 채널을 관리합니다.  
   
--   `ExcelCodedUIAddinHelper_TemporaryKey.pfx`  - 추가 기능을 테스트하기 위한 보안 인증서입니다.  
+- `ExcelCodedUIAddinHelper_TemporaryKey.pfx`  - 추가 기능을 테스트하기 위한 보안 인증서입니다.  
   
--   `ExcelUICommunicator`  클래스 - 이 클래스는 `IExcelUICommunication` 인터페이스를 구현합니다.  
+- `ExcelUICommunicator`  클래스 - 이 클래스는 `IExcelUICommunication` 인터페이스를 구현합니다.  
   
 ## <a name="thisaddin-class"></a>ThisAddIn 클래스  
  이 클래스의 대부분은 실제로 Excel 추가 기능 프로젝트를 만들 때 `ThisAddIn.Designer.cs` 파일에서 Visual Studio Tools for Office로 생성되었습니다.  
@@ -47,5 +47,5 @@ ms.locfileid: "54791952"
   
 ## <a name="see-also"></a>참고 항목  
  [Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
- [연습: Excel용 첫 VSTO 추가 기능 만들기](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)   
+ [연습: 첫 번째 VSTO 추가 기능 만들기 for Excel](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)   
  [Office/SharePoint 개발](http://msdn.microsoft.com/library/2ddec047-263a-4901-a54c-a15fc8472329)

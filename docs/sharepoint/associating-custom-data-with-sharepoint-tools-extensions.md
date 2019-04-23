@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2f22647d646797426a6a49ff24257846e180b1d4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 9a2c1869791b250fb90c6a634f057797f3c57a62
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614079"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112275"
 ---
 # <a name="associate-custom-data-with-sharepoint-tools-extensions"></a>SharePoint 도구 확장과 사용자 지정 데이터 연결
   SharePoint 도구 확장의 특정 개체에 사용자 지정 데이터를 추가할 수 있습니다. 이 데이터 확장 프로그램의 다른 코드에서 나중에 액세스 하려면 확장 프로그램의 한 부분에 있는 경우에 유용 합니다. 데이터 저장 및 액세스 하는 사용자 지정 방법을 구현 하는 대신 확장의 개체를 사용 하 여 데이터를 연결할 수 있으며 나중에 동일한 개체에서 데이터를 다음 검색할 수 있습니다.
@@ -35,35 +35,35 @@ ms.locfileid: "56614079"
 ## <a name="objects-that-can-contain-custom-data"></a>사용자 지정 데이터를 포함할 수 있는 개체
  구현 하는 SharePoint 도구 개체 모델의 모든 개체에 사용자 지정 데이터를 추가할 수 있습니다는 <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject> 인터페이스입니다. 이 인터페이스는 속성 하나만 정의 <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A>, 사용자 지정 데이터 개체의 컬렉션인 합니다. 다음 유형을 구현 <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject>:
 
--   <xref:Microsoft.VisualStudio.SharePoint.IMappedFolder>
+- <xref:Microsoft.VisualStudio.SharePoint.IMappedFolder>
 
--   <xref:Microsoft.VisualStudio.SharePoint.IMenuItem>
+- <xref:Microsoft.VisualStudio.SharePoint.IMenuItem>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectFeature>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectFeature>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectFeatureResourceFile>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectFeatureResourceFile>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItem>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItem>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemFile>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemFile>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectMember>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectMember>
 
--   <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectPackage>
+- <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectPackage>
 
--   <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentContext>
+- <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentContext>
 
--   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode>
+- <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode>
 
--   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeType>
+- <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeType>
 
--   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeDefinition>
+- <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeDefinition>
 
 ## <a name="add-and-retrieve-custom-data"></a>추가 및 사용자 지정 데이터를 검색 합니다.
  SharePoint 도구 확장의 개체에 사용자 지정 데이터를 추가 하려면 합니다 <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> 데이터를 추가 하 고 사용 하 여 개체의 속성을 <xref:Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.Add%2A> 데이터 개체를 추가 하는 방법입니다.

@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bae12ea054c674e14da53fe60879c5466120d0a9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 7c53d7bd1264ff21866746796d598b27cfac5984
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56636517"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094543"
 ---
 # <a name="how-to-cache-data-for-use-offline-or-on-a-server"></a>방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터 캐시
   표시할 수 있습니다 문서에서 캐시할 데이터 항목을 사용할 수 있도록 오프 라인입니다. 또한 따라서 데이터에 대 한 문서에서 문서를 서버에 저장 된 경우 다른 코드를 조작할 수를 합니다.
@@ -36,28 +36,28 @@ ms.locfileid: "56636517"
 
 ### <a name="to-cache-data-in-the-document-using-code"></a>코드를 사용 하 여 문서에서 데이터를 캐시
 
-1.  프로젝트에서 호스트 항목 클래스의 구성원으로 public 필드나 속성의 데이터 항목에 대 한 같은 선언 합니다 `ThisDocumen`Word 프로젝트의 클래스 또는 `ThisWorkbook` Excel 프로젝트의 클래스입니다.
+1. 프로젝트에서 호스트 항목 클래스의 구성원으로 public 필드나 속성의 데이터 항목에 대 한 같은 선언 합니다 `ThisDocumen`Word 프로젝트의 클래스 또는 `ThisWorkbook` Excel 프로젝트의 클래스입니다.
 
-2.  적용 된 <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> 멤버를 문서의 데이터 캐시에 저장할 데이터 항목을 표시 하는 특성입니다. 다음 예제에서는이 특성에 대 한 필드 선언을 적용을 <xref:System.Data.DataSet>입니다.
+2. 적용 된 <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> 멤버를 문서의 데이터 캐시에 저장할 데이터 항목을 표시 하는 특성입니다. 다음 예제에서는이 특성에 대 한 필드 선언을 적용을 <xref:System.Data.DataSet>입니다.
 
      [!code-csharp[Trin_VstcoreDataExcel#11](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#11)]
      [!code-vb[Trin_VstcoreDataExcel#11](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#11)]
 
-3.  데이터 항목의 인스턴스를 만드는 코드를 추가 및 해당 데이터베이스에서 로드 하는 경우.
+3. 데이터 항목의 인스턴스를 만드는 코드를 추가 및 해당 데이터베이스에서 로드 하는 경우.
 
      데이터 항목은 처음 만들어질 때;만 로드 그런 다음 문서를 사용 하 여 캐시를 유지 하 고 업데이트 하는 다른 코드를 작성 해야 합니다.
 
 ### <a name="to-cache-a-dataset-in-the-document-by-using-the-properties-window"></a>속성 창을 사용 하 여 문서에서 데이터 집합 캐시
 
-1.  데이터 집합을 사용 하 여 프로젝트에 데이터 소스를 추가 하 여 예를 들어, Visual Studio 디자이너에서 도구를 사용 하 여 프로젝트에 추가 합니다 **데이터 원본** 창입니다.
+1. 데이터 집합을 사용 하 여 프로젝트에 데이터 소스를 추가 하 여 예를 들어, Visual Studio 디자이너에서 도구를 사용 하 여 프로젝트에 추가 합니다 **데이터 원본** 창입니다.
 
-2.  아직를 디자이너에서 인스턴스를 선택 되어 있지 않고 데이터 집합의 인스턴스를 만듭니다.
+2. 아직를 디자이너에서 인스턴스를 선택 되어 있지 않고 데이터 집합의 인스턴스를 만듭니다.
 
-3.  에 **속성** 창에서 설정 합니다 **CacheInDocument** 속성을 **True**합니다.
+3. 에 **속성** 창에서 설정 합니다 **CacheInDocument** 속성을 **True**합니다.
 
      자세한 내용은 [Office 프로젝트의 속성](../vsto/properties-in-office-projects.md)합니다.
 
-4.  에 **속성** 창에서 합니다 **한정자** 속성을 **공용** (하며 기본값은 **내부**).
+4. 에 **속성** 창에서 합니다 **한정자** 속성을 **공용** (하며 기본값은 **내부**).
 
 ## <a name="see-also"></a>참고자료
 - [데이터 캐시](../vsto/caching-data.md)

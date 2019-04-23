@@ -21,25 +21,25 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4eb2e58070a4be9d9dd5d70fdaddfd5eee997a41
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1af1b3ea3f8996d1d9aed2245514c51751f11bc2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607059"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112392"
 ---
 # <a name="office-and-sharepoint-development-in-visual-studio"></a>Visual Studio에서 office 및 SharePoint 개발
   사용자가 [Office 스토어](https://store.office.com/) 또는 조직 카탈로그에서 다운로드하는 간단한 앱 또는 추가 기능이나 컴퓨터에 설치하는 .NET Framework 기반 솔루션을 만들어 Microsoft Office 및 SharePoint를 확장할 수 있습니다.
 
  항목 내용:
 
--   [Office 및 SharePoint용 추가 기능 만들기](#Apps)
+- [Office 및 SharePoint용 추가 기능 만들기](#Apps)
 
--   [VSTO 추가 기능 만들기](#Add-ins)
+- [VSTO 추가 기능 만들기](#Add-ins)
 
--   [SharePoint 솔루션 만들기](#Solutions)
+- [SharePoint 솔루션 만들기](#Solutions)
 
-##  <a name="Apps"></a> Office 및 SharePoint용 추가 기능 만들기
+## <a name="Apps"></a> Office 및 SharePoint용 추가 기능 만들기
  Office 2013 및 SharePoint 2013에는 Office와 SharePoint를 확장하는 추가 기능을 빌드 및 배포하고 수익을 창출할 수 있는 새로운 추가 기능 모델이 도입되었습니다.  Office 또는 SharePoint Online에서 이러한 추가 기능을 실행할 수 있으며 사용자는 다양한 디바이스에서 추가 기능을 조작할 수 있습니다.
 
  새 사용 하는 방법을 알아봅니다 [Office 추가 기능 모델](/office/dev/add-ins/overview/office-add-ins) 에 사용자를 위한 Office 환경을 확장 합니다.
@@ -81,7 +81,7 @@ ms.locfileid: "56607059"
 |SharePoint용 추가 기능과 기존 SharePoint 솔루션 비교|[SharePoint 솔루션과 SharePoint 추가 기능 비교](/sharepoint/dev/general-development/sharepoint-server-application-lifecycle-management)|
 |SharePoint 추가 기능을 빌드할지 SharePoint 솔루션을 빌드할지 선택|[SharePoint 추가 기능과 SharePoint 솔루션 중에서 결정](/sharepoint/dev/general-development/sharepoint-server-application-lifecycle-management)|
 
-##  <a name="Add-ins"></a> VSTO 추가 기능 만들기
+## <a name="Add-ins"></a> VSTO 추가 기능 만들기
  VSTO 추가 기능을 Office 2007 또는 Office 2010을 대상으로 하거나 Office 추가 기능을 사용 하 여 가능한 것 보다 많은 Office 2013 및 Office 2016을 확장 하 만듭니다. VSTO 추가 기능은 데스크톱에서만 실행되며 사용자는 일반적으로 배포 및 지원 하기가 더 어렵습니다 있으므로 VSTO 추가 기능을 설치 해야 합니다.  그러나 VSTO 추가 기능은 Office와 보다 긴밀하게 통합할 수 있습니다. 예를 들어 추가 기능을 통해 Office 리본 메뉴에 탭과 컨트롤을 추가하고 문서 병합, 차트 수정 등의 고급 자동화 작업을 수행할 수 있습니다. .NET Framework와 C# 및 Visual Basic을 사용하여 Office 개체와 상호 작용할 수 있습니다.
 
  예제는 VSTO 추가 기능을 수행할 수는 다음과 같습니다. 이 VSTO 추가 기능은 PowerPoint에 리본 메뉴 컨트롤, 사용자 지정 작업창 및 대화 상자를 추가합니다.
@@ -95,7 +95,7 @@ ms.locfileid: "56607059"
 |Office를 확장할 수 있는 다양한 방법을 비교하고 VSTO 추가 기능을 사용할지 또는 Office 추가 기능을 사용할지 결정|[Office 추가 기능, VSTO 및 VBA 용 로드맵](https://blogs.msdn.microsoft.com/officeapps/2013/06/18/roadmap-for-apps-for-office-vsto-and-vba/)|
 |VSTO 추가 기능 만들기|[Visual Studio에서 VSTO 추가 기능 빌드](create-vsto-add-ins-for-office-by-using-visual-studio.md)|
 
-##  <a name="Solutions"></a> SharePoint 솔루션 만들기
+## <a name="Solutions"></a> SharePoint 솔루션 만들기
  SharePoint Foundation 2010 및 SharePoint Server 2010을 대상으로 하거나 SharePoint 추가 기능에서 가능한 것 보다 많은 방법으로 SharePoint 2013 및 SharePoint 2016을 확장 하는 SharePoint 솔루션을 만듭니다.
 
  SharePoint 솔루션을 사용하려면 온-프레미스 SharePoint 팜 서버가 필요합니다. SharePoint 솔루션은 관리자가 설치해야 합니다. 또한 이러한 솔루션은 SharePoint에서 실행되므로 서버 성능에 영향을 줄 수 있습니다. 그러나 솔루션을 통해 SharePoint 개체에 보다 심층적으로 액세스할 수 있습니다. 또한 SharePoint 솔루션을 빌드할 때는 .NET Framework와 C# 및 Visual Basic을 사용하여 SharePoint 개체와 상호 작용할 수 있습니다.

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 61a2c1b3ff112052abd44463fdce3a5b36197a71
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a1a113dc3b4a4b3a8a4482dd092878851d740c6e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721344"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112230"
 ---
 # <a name="how-to-turn-off-compatibility-warnings-for-source-control-plug-ins"></a>방법: 원본 제어 플러그 인에 대 한 호환성 경고 해제
 사용자의 소스 제어를 적용 하는 경우 몇 가지 호환성 경고가 표시 될 수 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]입니다. 경고 표시를 소스 제어 플러그 인의 기능에 따라 달라 집니다 있으며 자세한 다음과 같이 해제할 수 있습니다.
@@ -31,7 +31,7 @@ ms.locfileid: "56721344"
 
 ### <a name="to-disable-the-warning-the-installed-source-control-provider-does-not-support-all-the-capabilities"></a>경고를 사용 하지 않도록 설정 합니다. "설치 된 원본 제어 공급자는 모든 기능을 지원 하지 않습니다"
 
--   (필요한 경우 값 추가)는 다음 두 레지스트리 값을 설정 합니다.
+- (필요한 경우 값 추가)는 다음 두 레지스트리 값을 설정 합니다.
 
      **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl\WarnedOldMSSCCIProvider = dword:00000000**
 

@@ -20,23 +20,23 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: df38a0d65a3073e35228c84fa18606e2fe014f9d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 4f1b1980df908aa73959c72240d18496597fb310
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702111"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111833"
 ---
 # <a name="remote-debugging-errors-and-troubleshooting"></a>원격 디버깅 오류 및 문제 해결
 원격으로 디버깅할 때 다음과 같은 오류가 발생할 수 있습니다.
 
--   [오류: 서버에 대해 자동으로 한 단계씩 코드를 실행할 수 없습니다.](../debugger/error-unable-to-automatically-step-into-the-server.md)
+- [오류: 서버에 대해 자동으로 한 단계씩 코드를 실행할 수 없음](../debugger/error-unable-to-automatically-step-into-the-server.md)
 
--   [오류: Microsoft Visual Studio 원격 디버깅 모니터(MSVSMON.EXE)가 원격 컴퓨터에서 실행 중인 것 같지 않습니다.](/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running)
+- [오류: Microsoft Visual Studio 원격 디버깅 모니터(MSVSMON.EXE)가 원격 컴퓨터에서 실행 중인 것 같지 않습니다.](/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running)
 
--   [Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor](../debugger/unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md)
+- [Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor](../debugger/unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md)
 
--   [오류: 원격 컴퓨터는 원격 연결 대화 상자에 표시되지 않습니다.](../debugger/error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md)
+- [오류: 원격 머신은 원격 연결 대화 상자에 표시되지 않습니다.](../debugger/error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md)
 
 ## <a name="see-also"></a>참고 항목
 - [Remote Debugging](../debugger/remote-debugging.md)

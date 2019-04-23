@@ -10,12 +10,12 @@ ms.assetid: 5ee2d1ba-478a-4cb7-898f-c3b4b2ee834e
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9576b220ed3624ee1ee5dbf83630affc38041231
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 45355ff34b2a088c63f6d303e771d7a5008cb80c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986387"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117995"
 ---
 # <a name="preparing-extensions-for-windows-installer-deployment"></a>Windows Installer 배포에 대한 확장 준비
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,34 +27,34 @@ VSIX 패키지를 배포 하려면 Windows Installer 패키지 (MSI)를 사용�
   
 #### <a name="to-prepare-an-extension-project-for-windows-installer-deployment"></a>Windows Installer 배포에 대 한 확장 프로젝트를 준비 하려면  
   
-1.  VSPackage, MEF 구성 요소, 편집기 Adornment 또는 VSIX 매니페스트를 포함 하는 다른 확장성 프로젝트 형식을 만듭니다.  
+1. VSPackage, MEF 구성 요소, 편집기 Adornment 또는 VSIX 매니페스트를 포함 하는 다른 확장성 프로젝트 형식을 만듭니다.  
   
-2.  코드 편집기에서 VSIX 매니페스트를 엽니다.  
+2. 코드 편집기에서 VSIX 매니페스트를 엽니다.  
   
-3.  VSIX 매니페스트를의 InstalledByMsi 요소 설정 `true`합니다. VSIX 매니페스트에 대 한 자세한 내용은 참조 하세요. [VSIX 확장 스키마 2.0 참조](../extensibility/vsix-extension-schema-2-0-reference.md)합니다.  
+3. VSIX 매니페스트를의 InstalledByMsi 요소 설정 `true`합니다. VSIX 매니페스트에 대 한 자세한 내용은 참조 하세요. [VSIX 확장 스키마 2.0 참조](../extensibility/vsix-extension-schema-2-0-reference.md)합니다.  
   
      이 구성 요소를 설치 하려고 VSIX 설치 관리자를 방지 합니다.  
   
-4.  프로젝트를 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 누릅니다 **속성**합니다.  
+4. 프로젝트를 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 누릅니다 **속성**합니다.  
   
-5.  선택 된 **VSIX** 탭 합니다.  
+5. 선택 된 **VSIX** 탭 합니다.  
   
-6.  확인란 **다음 위치에 복사 VSIX 콘텐츠** 파일 설치 프로젝트를 선택 하는 위치에 대 한 경로 입력 합니다.  
+6. 확인란 **다음 위치에 복사 VSIX 콘텐츠** 파일 설치 프로젝트를 선택 하는 위치에 대 한 경로 입력 합니다.  
   
 ## <a name="extracting-files-from-an-existing-vsix-package"></a>기존 VSIX 패키지에서 파일을 추출합니다.  
  원본 파일이 없는 경우 설치 프로젝트에 기존 VSIX 패키지의 콘텐츠를 추가 하려면 다음이 단계를 수행 합니다.  
   
 #### <a name="to-extract-files-from-an-existing-vsix-package"></a>기존 VSIX 패키지에서 파일을 추출 하려면  
   
-1.  이름을 변경 합니다. VSIX 파일에서 확장을 포함 하 *filename*하는.vsix *filename*.zip.  
+1. 이름을 변경 합니다. VSIX 파일에서 확장을 포함 하 *filename*하는.vsix *filename*.zip.  
   
-2.  디렉터리에.zip 파일의 내용을 복사 합니다.  
+2. 디렉터리에.zip 파일의 내용을 복사 합니다.  
   
-3.  디렉터리에서 [Content_types].xml 파일을 삭제 합니다.  
+3. 디렉터리에서 [Content_types].xml 파일을 삭제 합니다.  
   
-4.  이전 절차에서와 같이 VSIX 매니페스트를 편집 합니다.  
+4. 이전 절차에서와 같이 VSIX 매니페스트를 편집 합니다.  
   
-5.  설치 프로젝트에 나머지 파일을 추가 합니다.  
+5. 설치 프로젝트에 나머지 파일을 추가 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 설치 관리자 배포](http://msdn.microsoft.com/121be21b-b916-43e2-8f10-8b080516d2a0)   
