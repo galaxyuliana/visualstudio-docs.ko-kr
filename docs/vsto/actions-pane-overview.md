@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7f6ca07ebf8489dd62d6cfbe232f2522ac0f448a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 628620005c43ae465107e43572684cb74c8d1aa9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608814"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099743"
 ---
 # <a name="actions-pane-overview"></a>작업 창 개요
   작업창은 사용자 지정 가능한 **문서 동작** 특정 Microsoft Office Word 문서 또는 Microsoft Office Excel 통합 문서에 연결 된 작업창 합니다. 작업창과 같은 다른 기본 제공 작업창과 함께 Office 작업창 내에서 호스트 되는 **XML 원본은** Excel에서 작업 창 또는 **스타일 및 서식** word에서 작업창입니다. Windows Forms 컨트롤 또는 WPF 컨트롤을 사용하여 작업 창 사용자 인터페이스를 디자인할 수 있습니다.
@@ -61,17 +61,17 @@ ms.locfileid: "56608814"
 
  솔루션에서 작업창을 숨기려면 다음 여러 가지 옵션이 있습니다.
 
--   Word에 대 한 설정를 <xref:Microsoft.Office.Interop.Word.TaskPane.Visible%2A> 의 속성을 <xref:Microsoft.Office.Interop.Word.TaskPane> 문서 동작 작업창을 나타내는 개체입니다 **false**합니다. 다음 코드 예제는 프로젝트의 `ThisDocument` 클래스에서 실행해야 합니다.
+- Word에 대 한 설정를 <xref:Microsoft.Office.Interop.Word.TaskPane.Visible%2A> 의 속성을 <xref:Microsoft.Office.Interop.Word.TaskPane> 문서 동작 작업창을 나타내는 개체입니다 **false**합니다. 다음 코드 예제는 프로젝트의 `ThisDocument` 클래스에서 실행해야 합니다.
 
      [!code-csharp[Trin_VstcoreActionsPaneWord#34](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#34)]
      [!code-vb[Trin_VstcoreActionsPaneWord#34](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#34)]
 
--   Excel에 대 한 설정 합니다 <xref:Microsoft.Office.Interop.Excel._Application.DisplayDocumentActionTaskPane%2A> 의 속성을 <xref:Microsoft.Office.Tools.Excel.Workbook.Application%2A> 개체를 **false**합니다. 다음 코드 예제는 프로젝트의 `ThisWorkbook` 클래스에서 실행해야 합니다.
+- Excel에 대 한 설정 합니다 <xref:Microsoft.Office.Interop.Excel._Application.DisplayDocumentActionTaskPane%2A> 의 속성을 <xref:Microsoft.Office.Tools.Excel.Workbook.Application%2A> 개체를 **false**합니다. 다음 코드 예제는 프로젝트의 `ThisWorkbook` 클래스에서 실행해야 합니다.
 
      [!code-csharp[Trin_VstcoreActionsPaneExcel#11](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs#11)]
      [!code-vb[Trin_VstcoreActionsPaneExcel#11](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb#11)]
 
--   Word 또는 Excel을 설정할 수도 있습니다는 <xref:Microsoft.Office.Core.CommandBar.Visible%2A> 작업창에 나타내는 명령 모음의 속성 **false**합니다. 다음 코드 예제는 프로젝트의 `ThisDocument` 또는 `ThisWorkbook` 클래스에서 실행해야 합니다.
+- Word 또는 Excel을 설정할 수도 있습니다는 <xref:Microsoft.Office.Core.CommandBar.Visible%2A> 작업창에 나타내는 명령 모음의 속성 **false**합니다. 다음 코드 예제는 프로젝트의 `ThisDocument` 또는 `ThisWorkbook` 클래스에서 실행해야 합니다.
 
      [!code-csharp[Trin_VstcoreActionsPaneExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs#9)]
      [!code-vb[Trin_VstcoreActionsPaneExcel#9](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb#9)]
@@ -86,9 +86,9 @@ ms.locfileid: "56608814"
 
 ##### <a name="to-display-the-actions-pane-by-using-the-ui-of-word-or-excel"></a>Word 또는 Excel의 UI를 사용하여 작업 창을 표시하려면
 
-1.  리본 메뉴에서를 클릭 합니다 **보기** 탭 합니다.
+1. 리본 메뉴에서를 클릭 합니다 **보기** 탭 합니다.
 
-2.  에 **표시/숨기기** 그룹에서 클릭 합니다 **문서 동작** 토글 단추입니다.
+2. 에 **표시/숨기기** 그룹에서 클릭 합니다 **문서 동작** 토글 단추입니다.
 
 ## <a name="program-actions-pane-events"></a>프로그램 작업 창 이벤트
  작업 창에 여러 개의 사용자 정의 컨트롤을 추가한 다음 사용자 정의 컨트롤을 표시하거나 숨겨 문서의 이벤트에 응답하는 코드를 작성할 수 있습니다. 문서에 XML 스키마 요소를 매핑하는 경우 삽입 지점이 XML 요소 중 하나의 내부에 있을 때마다 작업 창에 특정 사용자 정의 컨트롤을 표시할 수 있습니다. 자세한 내용은 [방법: Visual Studio 내부의 Word 문서에 스키마 매핑](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md) 고 [방법: Visual Studio 내에서 워크시트에 스키마 매핑](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)합니다.

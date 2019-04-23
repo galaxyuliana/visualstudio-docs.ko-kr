@@ -12,12 +12,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c3087353b4d8875d1933c285343c3f1460c0e276
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ba45ba733f5447523b6793d4f5e2946c3507c82e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981212"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098691"
 ---
 # <a name="troubleshoot-extensions-for-layer-diagrams"></a>레이어 다이어그램의 확장명 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,13 +45,13 @@ ms.locfileid: "58981212"
   
 #### <a name="an-old-version-of-my-validation-results-appears-or-my-validation-method-is-not-called"></a>이전 버전의 유효성 검사 결과가 나타나거나, 내 유효성 검사 메서드가 호출되지 않습니다.  
   
-1.  실험적 인스턴스에서 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 **빌드** 메뉴에서 클릭 **솔루션 정리**합니다. 캐시된 이전 유효성 검사 분석 결과가 지워집니다.  
+1. 실험적 인스턴스에서 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 **빌드** 메뉴에서 클릭 **솔루션 정리**합니다. 캐시된 이전 유효성 검사 분석 결과가 지워집니다.  
   
-2.  모델의 레이어가 코드 요소와 연결되었는지, 그리고 모델에 종속성 링크가 하나 이상 있는지 확인합니다. 유효성을 검사할 항목이 없는 경우에는 유효성 검사가 호출되지 않습니다.  
+2. 모델의 레이어가 코드 요소와 연결되었는지, 그리고 모델에 종속성 링크가 하나 이상 있는지 확인합니다. 유효성을 검사할 항목이 없는 경우에는 유효성 검사가 호출되지 않습니다.  
   
-3.  일반 중단점은 별도 프로세스로 실행되기 때문에 유효성 검사 메서드에서 작동하지 않습니다. 메서드를 단계별로 실행하려는 경우 `System.Diagnostics.Debugger.Launch()` 호출을 삽입해야 합니다.  
+3. 일반 중단점은 별도 프로세스로 실행되기 때문에 유효성 검사 메서드에서 작동하지 않습니다. 메서드를 단계별로 실행하려는 경우 `System.Diagnostics.Debugger.Launch()` 호출을 삽입해야 합니다.  
   
-4.  **source.extension.vsixmanifest** 레이어 유효성 검사 프로젝트에서 모두 추가 되어 있는지 확인 한 **MEF 구성 요소** 항목 및 **사용자 지정 확장 형식** 아래에 있는 항목 **콘텐츠**합니다.  
+4. **source.extension.vsixmanifest** 레이어 유효성 검사 프로젝트에서 모두 추가 되어 있는지 확인 한 **MEF 구성 요소** 항목 및 **사용자 지정 확장 형식** 아래에 있는 항목 **콘텐츠**합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [레이어 다이어그램 확장](../modeling/extend-layer-diagrams.md)

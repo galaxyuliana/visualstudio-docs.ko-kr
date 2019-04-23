@@ -9,12 +9,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 15bf6243fc6e39a4cd7817bdfe964943ab16a3d1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: d70a0c279c0720e79477b518ab63cf0326ca5237
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54792010"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111248"
 ---
 # <a name="how-to-create-a-basic-lambert-shader"></a>방법: 기본 램버트 셰이더 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,11 +23,11 @@ ms.locfileid: "54792010"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   셰이더 그래프에 노드 추가  
+- 셰이더 그래프에 노드 추가  
   
--   노드 연결 해제  
+- 노드 연결 해제  
   
--   노드 연결  
+- 노드 연결  
   
 ## <a name="the-lambert-lighting-model"></a>램버트 조명 모델  
  램버트 조명 모델은 주변 및 방향성 조명을 3D 장면의 음영 개체에 통합합니다. 주변 구성 요소는 3D 장면에서 기본 수준의 조명을 제공합니다. 방향성 구성 요소는 방향성(멀리) 광원에서 추가 조명을 제공합니다. 주변 조명은 방향에 관계없이 장면의 모든 표면에 똑같이 영향을 미칩니다. 특정 표면의 경우 표면의 주변 색과 장면에 있는 주변 조명의 색 및 강도를 기반으로 결과가 생성됩니다. 방향성 조명은 광원 방향을 기준으로 표면 방향에 따라 장면의 모든 표면에 서로 다른 영향을 미칩니다. 표면의 확산 색 및 방향과 광원의 색, 강도 및 방향을 기반으로 결과가 생성됩니다. 직접 광원을 향하는 표면은 최대 기여도를 받고 광원의 정반대 방향을 향하는 표면은 기여도를 받지 않습니다. 램버트 조명 모델에서 주변 구성 요소와 하나 이상의 방향성 구성 요소는 결합되어 개체의 각 점에 대한 총 확산 색 기여도를 결정합니다.  

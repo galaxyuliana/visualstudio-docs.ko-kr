@@ -23,12 +23,12 @@ ms.assetid: d2611385-0134-4387-8c5a-979fe625a462
 caps.latest.revision: 37
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7ec7527e51175b82d06a35ad7a6bc26856acf5dd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c0344b9961e7ade31864d70c7d7422f328983abd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982152"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100980"
 ---
 # <a name="how-to-use-a-visualizer"></a>방법: 시각화 도우미 사용
 시각화 도우미를 사용하여 변수 또는 개체의 내용을 데이터 형식에 대해 의미 있는 방식으로 표시할 수 있습니다. 시각화 도우미를 사용할 수 있습니다 **DataTips**, **조사식** 창에는 **자동** 창 또는 **지역** 창.  
@@ -40,15 +40,15 @@ ms.locfileid: "58982152"
   
 ### <a name="to-open-a-visualizer"></a>시각화 도우미를 열려면  
   
-1.  변수 이름 옆에 나타나는 돋보기 아이콘을 클릭 **DataTips**, **조사식** 창 또는 합니다 **자동**를 **지역**, 또는 **간략 한 조사식** 창입니다.  
+1. 변수 이름 옆에 나타나는 돋보기 아이콘을 클릭 **DataTips**, **조사식** 창 또는 합니다 **자동**를 **지역**, 또는 **간략 한 조사식** 창입니다.  
   
      시각화 도우미의 목록이 나타납니다.  
   
-2.  사용할 시각화 도우미를 클릭합니다.  
+2. 사용할 시각화 도우미를 클릭합니다.  
   
 ### <a name="to-use-a-visualizer-for-managed-code-during-remote-debugging"></a>원격 디버깅하는 동안 관리 코드에 시각화 도우미를 사용하려면  
   
--   디버깅 세션을 시작하기 전에 시각화 도우미 DLL을 원격 컴퓨터에 복사합니다.  
+- 디버깅 세션을 시작하기 전에 시각화 도우미 DLL을 원격 컴퓨터에 복사합니다.  
   
      DLL에 대한 경로는 원격 컴퓨터와 로컬 컴퓨터에서 같아야 합니다. 이 경로는 다음 위치 중 하나일 수 있습니다.  
   

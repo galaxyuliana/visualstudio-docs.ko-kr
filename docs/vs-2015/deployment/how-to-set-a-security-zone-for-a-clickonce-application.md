@@ -17,12 +17,12 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a0652f8dbb1acfec111dcc587f3ce4ba2496eb4c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 9af4507d7ccd604f82aae675bf87d36c0b039b26
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982250"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110468"
 ---
 # <a name="how-to-set-a-security-zone-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 보안 영역 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,17 +33,17 @@ ClickOnce 애플리케이션에 대한 코드 액세스 보안 권한을 설정�
   
 ### <a name="to-set-a-security-zone"></a>보안 영역을 설정하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  **보안** 탭을 클릭합니다.  
+2. **보안** 탭을 클릭합니다.  
   
-3.  **ClickOnce 보안 설정 사용** 확인란을 선택합니다.  
+3. **ClickOnce 보안 설정 사용** 확인란을 선택합니다.  
   
-4.  **부분 신뢰 응용 프로그램** 옵션 단추를 선택합니다.  
+4. **부분 신뢰 응용 프로그램** 옵션 단추를 선택합니다.  
   
      **ClickOnce 보안 권한** 섹션의 컨트롤이 사용됩니다.  
   
-5.  **설치할 응용 프로그램을 가져올 영역** 드롭다운 목록에서 보안 영역을 선택합니다.  
+5. **설치할 응용 프로그램을 가져올 영역** 드롭다운 목록에서 보안 영역을 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: ClickOnce 응용 프로그램에 대 한 사용자 지정 권한 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   

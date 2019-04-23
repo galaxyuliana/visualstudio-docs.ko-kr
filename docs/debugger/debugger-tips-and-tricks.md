@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bb47aa94dbf444e27fd149e2e16c723677f973eb
-ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
+ms.openlocfilehash: 8b4c763ff31c6c62a177c77f8886f1de305a5170
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "59537561"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097325"
 ---
 # <a name="learn-productivity-tips-and-tricks-for-the-debugger-in-visual-studio"></a>For the Debugger in Visual Studio 생산성 팁과 트릭 배우기
 
@@ -74,17 +74,17 @@ Visual Studio에서 지 원하는 대부분의 언어에서 디버깅 세션 중
 
 #### <a name="to-create-an-object-id"></a>개체 ID를 만들려면
 
-1.  추적 하려는 변수에 중단점을 설정 합니다.
+1. 추적 하려는 변수에 중단점을 설정 합니다.
 
-2.  디버거를 시작 합니다 (**F5**) 중단점에서 중지 합니다.
+2. 디버거를 시작 합니다 (**F5**) 중단점에서 중지 합니다.
 
 3. 변수를 찾을 합니다 **지역** 창 (**디버그 > Windows > 지역**), 변수를 마우스 오른쪽 단추로 **개체 ID 만들기**합니다.
 
     ![개체 ID를 만듭니다](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
 
-4.  **$** 창에 **지역** 창을 닫습니다. 이 변수는 개체 id입니다.
+4. **$** 창에 **지역** 창을 닫습니다. 이 변수는 개체 id입니다.
 
-5.  개체 ID 변수를 마우스 오른쪽 단추로 클릭 하 고 선택 **조사식 추가**합니다.
+5. 개체 ID 변수를 마우스 오른쪽 단추로 클릭 하 고 선택 **조사식 추가**합니다.
 
 자세한 내용은 [개체 ID 만들기](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds)합니다.
 
@@ -126,13 +126,13 @@ Visual Studio에서 지 원하는 대부분의 언어에서 디버깅 세션 중
 
 #### <a name="to-show-threads-in-your-source-code"></a>소스 코드에서 스레드를 표시 하려면
 
-1.  디버깅 하는 동안 클릭 합니다 **소스의 스레드 표시** 단추 ![소스의 스레드 표시](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") 에 **디버그** 도구 모음입니다.
+1. 디버깅 하는 동안 클릭 합니다 **소스의 스레드 표시** 단추 ![소스의 스레드 표시](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") 에 **디버그** 도구 모음입니다.
 
-2.  창 왼쪽의 여백을 확인합니다. 이 줄에 표시 된 *스레드 마커* 아이콘 ![스레드 마커](../debugger/media/dbg-thread-marker.png "ThreadMarker") 두 가닥의 실와 유사한 합니다. 스레드 마커는 이 위치에서 스레드가 중지되었음을 나타냅니다.
+2. 창 왼쪽의 여백을 확인합니다. 이 줄에 표시 된 *스레드 마커* 아이콘 ![스레드 마커](../debugger/media/dbg-thread-marker.png "ThreadMarker") 두 가닥의 실와 유사한 합니다. 스레드 마커는 이 위치에서 스레드가 중지되었음을 나타냅니다.
 
     스레드 마커 중단점에서 부분적으로 숨겨진 수를 확인 합니다.
 
-3.  스레드 마커에 포인터를 올려 놓습니다. DataTips가 나타납니다. DataTip을 통해 중지된 각 스레드의 이름과 스레드 ID 번호를 알 수 있습니다.
+3. 스레드 마커에 포인터를 올려 놓습니다. DataTips가 나타납니다. DataTip을 통해 중지된 각 스레드의 이름과 스레드 ID 번호를 알 수 있습니다.
 
     스레드 위치를 볼 수도 있습니다는 [병렬 스택 창의](../debugger/get-started-debugging-multithreaded-apps.md)합니다.
 

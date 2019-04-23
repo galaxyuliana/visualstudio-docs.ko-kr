@@ -11,12 +11,12 @@ ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
 caps.latest.revision: 52
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 255afb948f7a7e00f1249c332eac7234800ae980
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 64ab627d785e8b00b5159969a01dc1102df30359
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985673"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117579"
 ---
 # <a name="adding-a-menu-to-the-visual-studio-menu-bar"></a>Visual Studio 메뉴 모음에 메뉴 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "58985673"
 
 ## <a name="creating-a-vsix-project-that-has-a-custom-command-item-template"></a>사용자 지정 명령 항목 템플릿을 VSIX 프로젝트 만들기
 
-1.  라는 VSIX 프로젝트를 만듭니다 `TopLevelMenu`합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** 대화 상자의 **Visual C#** / **확장성**합니다.  자세한 내용은 [메뉴 명령을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.
+1. 라는 VSIX 프로젝트를 만듭니다 `TopLevelMenu`합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** 대화 상자의 **Visual C#** / **확장성**합니다.  자세한 내용은 [메뉴 명령을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.
 
-2.  프로젝트를 열면 라는 사용자 지정 명령 항목 템플릿을 추가 **TestCommand**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C# / 확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 **TestCommand.cs**합니다.
+2. 프로젝트를 열면 라는 사용자 지정 명령 항목 템플릿을 추가 **TestCommand**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C# / 확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 **TestCommand.cs**합니다.
 
 ## <a name="creating-a-menu-on-the-ide-menu-bar"></a>IDE 메뉴 모음의 메뉴 만들기
 
 #### <a name="to-create-a-menu"></a>메뉴를 만들려면
 
-1.  **솔루션 탐색기**, TestCommandPackage.vsct를 엽니다.
+1. **솔루션 탐색기**, TestCommandPackage.vsct를 엽니다.
 
      파일 끝에는 \<기호 > 몇 가지를 포함 하는 노드 \<GuidSymbol > 노드. GuidTestCommandPackageCmdSet 노드에서 새 기호를 다음과 같이 추가 합니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "58985673"
     <IDSymbol name="TopLevelMenu" value="0x1021"/>
     ```
 
-2.  빈 \<메뉴 >에서 노드를 \<명령 > 노드를 직전 \<그룹 >입니다. 에 \<메뉴 > 노드를 추가 \<메뉴 > 다음과 같은 노드:
+2. 빈 \<메뉴 >에서 노드를 \<명령 > 노드를 직전 \<그룹 >입니다. 에 \<메뉴 > 노드를 추가 \<메뉴 > 다음과 같은 노드:
 
     ```xml
     <Menus>
@@ -71,7 +71,7 @@ ms.locfileid: "58985673"
 
      값을 `CommandName` 문자열 텍스트를 메뉴 항목에 표시 되도록 지정 합니다.
 
-3.  에 \<그룹 > 섹션을 찾습니다 합니다 \<그룹 > 변경를 \<부모 > 방금 추가한 메뉴를 가리키도록 요소:
+3. 에 \<그룹 > 섹션을 찾습니다 합니다 \<그룹 > 변경를 \<부모 > 방금 추가한 메뉴를 가리키도록 요소:
 
     ```csharp
     <Groups>
@@ -83,15 +83,15 @@ ms.locfileid: "58985673"
 
      이렇게 하면 새 메뉴 그룹 부분입니다.
 
-4.  찾기는 `Buttons` 섹션입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 패키지 템플릿은 생성에 `Button` 로 설정 하는 부모 요소 `MyMenuGroup`합니다. 결과적으로,이 명령을 메뉴에 표시 됩니다.
+4. 찾기는 `Buttons` 섹션입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 패키지 템플릿은 생성에 `Button` 로 설정 하는 부모 요소 `MyMenuGroup`합니다. 결과적으로,이 명령을 메뉴에 표시 됩니다.
 
 ## <a name="building-and-testing-the-extension"></a>빌드 및 확장 테스트
 
-1.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스의 인스턴스 표시 됩니다.
+1. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스의 인스턴스 표시 됩니다.
 
-2.  실험적 인스턴스에서 메뉴 모음에 포함 되어야 합니다는 **TestMenu** 메뉴.
+2. 실험적 인스턴스에서 메뉴 모음에 포함 되어야 합니다는 **TestMenu** 메뉴.
 
-3.  에 **TestMenu** 메뉴에서 클릭 **테스트 명령 호출**합니다.
+3. 에 **TestMenu** 메뉴에서 클릭 **테스트 명령 호출**합니다.
 
      메시지 상자를 표시 하 고 "TestCommand 패키지 내에서 TopLevelMenu.TestCommand.MenuItemCallback()" 메시지를 표시 해야 합니다. 이 새 명령이 작동 하는 것을 나타냅니다.
 

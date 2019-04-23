@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: aa425b945b2694ed11e77116611ba45cf21cf6e1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: daf5b32ce8088dbb020fdaf484013dd1a1889826
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605161"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112340"
 ---
 # <a name="vsix-color-compiler"></a>VSIX 색 컴파일러
 Visual Studio 확장명 색 컴파일러 도구는 기존 Visual Studio 테마에 대 한 색을 나타내는.xml 파일을 사용 하는 콘솔 응용 프로그램 및 변환 하는.pkgdef 파일에 Visual Studio에서 해당 색을 사용할 수 있습니다. .Xml 파일 간의 차이점을 비교 하기가 쉽지 이기 때문에이 도구는 소스 제어에서 사용자 지정 색을 관리 하는 데 유용 합니다. 것도 연결 될 수 있습니다 빌드 환경에 빌드 출력이 잘못.pkgdef 파일을 되도록 합니다.
@@ -111,7 +111,7 @@ Visual Studio 확장명 색 컴파일러 도구는 기존 Visual Studio 테마�
 |-|-|
 |**특성**|**정의**|
 |형식|[필수] 형식 색입니다. 다음 중 하나일 수 있습니다.<br /><br /> *CT_INVALID:* 색이 잘못 되었거나 설정 하지 않습니다.<br /><br /> *CT_RAW:* 원시 ARGB 값입니다.<br /><br /> *CT_COLORINDEX:* 사용 하지 마세요.<br /><br /> *CT_SYSCOLOR:* SysColor에서 Windows 시스템 색입니다.<br /><br /> *CT_VSCOLOR:* __VSSYSCOLOREX에서 Visual Studio 색입니다.<br /><br /> *CT_AUTOMATIC:* 자동 색입니다.<br /><br /> *CT_TRACK_FOREGROUND:* 사용 하지 마세요.<br /><br /> *CT_TRACK_BACKGROUND:* 사용 하지 마세요.|
-|소스|[필수] 16 진수에서 표시 색상 값|
+|Source|[필수] 16 진수에서 표시 색상 값|
 
  __VSCOLORTYPE 열거에 의해 지원 되는 모든 값 형식 특성에서 스키마에에서 의해 지원 됩니다. 그러나 CT_RAW 및 CT_SYSCOLOR만 사용 하는 것이 좋습니다.
 
@@ -149,15 +149,15 @@ Visual Studio 확장명 색 컴파일러 도구는 기존 Visual Studio 테마�
 
  **예제**
 
--   VsixColorCompiler D:\xml\colors.xml D:\pkgdef\colors.pkgdef
+- VsixColorCompiler D:\xml\colors.xml D:\pkgdef\colors.pkgdef
 
--   VsixColorCompiler D:\xml\colors.xml /noLogo
+- VsixColorCompiler D:\xml\colors.xml /noLogo
 
 ## <a name="notes"></a>노트
 
--   이 도구를 최신 버전의 VC + + 런타임 설치 해야 합니다.
+- 이 도구를 최신 버전의 VC + + 런타임 설치 해야 합니다.
 
--   단일 파일만 지원 됩니다. 폴더 경로 통해 대량 변환은 지원 되지 않습니다.
+- 단일 파일만 지원 됩니다. 폴더 경로 통해 대량 변환은 지원 되지 않습니다.
 
 ## <a name="sample-output"></a>샘플 출력
  .Pkgdef 파일 도구로 생성 되는 것과 비슷하지만 키 아래:

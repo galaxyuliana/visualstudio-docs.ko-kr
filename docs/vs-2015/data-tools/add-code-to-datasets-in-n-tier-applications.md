@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4308fb0aa39120704c5537188407a9686e9b13a4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 078230c2b80d364b68fb127f18fc21a0b931cbce
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971980"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106672"
 ---
 # <a name="add-code-to-datasets-in-n-tier-applications"></a>n 계층 애플리케이션에서 데이터 집합에 코드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,15 +38,15 @@ ms.locfileid: "58971980"
 
 ## <a name="add-code-to-datasets-in-n-tier-applications"></a>n 계층 애플리케이션에서 데이터 집합에 코드 추가
 
-1.  .Xsd 파일 (데이터 집합)를 포함 하는 프로젝트를 찾습니다.
+1. .Xsd 파일 (데이터 집합)를 포함 하는 프로젝트를 찾습니다.
 
-2.  선택 된 **.xsd** 파일을 데이터 집합을 엽니다.
+2. 선택 된 **.xsd** 파일을 데이터 집합을 엽니다.
 
-3.  코드 (테이블 이름 제목 표시줄에서)을 추가 하 고 클릭 하려는는 데이터 테이블을 마우스 오른쪽 단추로 클릭 **코드 보기**합니다.
+3. 코드 (테이블 이름 제목 표시줄에서)을 추가 하 고 클릭 하려는는 데이터 테이블을 마우스 오른쪽 단추로 클릭 **코드 보기**합니다.
 
      Partial 클래스는 생성 되 고 코드 편집기에서 열립니다.
 
-4.  Partial 클래스 선언 내에 코드를 추가 합니다.
+4. Partial 클래스 선언 내에 코드를 추가 합니다.
 
      다음 예제에서는 코드에서 NorthwindDataSet CustomersDataTable를 추가할 위치를 보여 줍니다.
 

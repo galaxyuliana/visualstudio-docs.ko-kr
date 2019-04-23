@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e7443a4789008f3bb5992695761dff228bd32298
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 6e3b66bfd7f3f5d0ef0f4893efeb81c80df5d4ae
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601410"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093516"
 ---
 # <a name="how-to-programmatically-set-search-options-in-word"></a>방법: 프로그래밍 방식으로 Word에서 검색 옵션 설정
   Microsoft Office Word 문서에서 선택 항목에 대 한 검색 옵션을 설정 하는 방법은 두 가지 있습니다.
@@ -38,7 +38,7 @@ ms.locfileid: "56601410"
 
 ### <a name="to-set-search-options-using-a-find-object"></a>Find 개체를 사용 하 여 검색 옵션을 설정 하려면
 
-1.  속성을 설정 된 <xref:Microsoft.Office.Interop.Word.Find> 텍스트에 대 한 선택을 통해 앞으로 검색 하는 개체 **오세요**.
+1. 속성을 설정 된 <xref:Microsoft.Office.Interop.Word.Find> 텍스트에 대 한 선택을 통해 앞으로 검색 하는 개체 **오세요**.
 
      [!code-vb[Trin_VstcoreWordAutomation#76](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#76)]
 
@@ -47,7 +47,7 @@ ms.locfileid: "56601410"
 
 ### <a name="to-set-search-options-using-execute-method-arguments"></a>Execute 메서드 인수를 사용 하 여 검색 옵션을 설정 하려면
 
-1.  검색 조건 매개 변수로 전달 합니다 <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> 텍스트에 대 한 선택을 통해 앞으로 검색 하는 방법 **오세요**합니다.
+1. 검색 조건 매개 변수로 전달 합니다 <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> 텍스트에 대 한 선택을 통해 앞으로 검색 하는 방법 **오세요**합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#77](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#77)]
      [!code-csharp[Trin_VstcoreWordAutomation#77](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#77)]

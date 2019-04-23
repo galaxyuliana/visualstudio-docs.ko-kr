@@ -11,12 +11,12 @@ caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 678e7a9c32f8c69e9f0bac5ebc3a077e7e625771
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f8de4432f1d0b4ab4bf24159744d20708d732fbd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986504"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108721"
 ---
 # <a name="understanding-models-classes-and-relationships"></a>모델, 클래스 및 관계 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,13 +65,13 @@ ms.locfileid: "58986504"
   
  DSL 정의 다이어그램을 다시 정렬 하려면 다음을 수행할 수 있습니다.  
   
--   기본 교환 및 사용 하 여 뷰를 참조 합니다 **여기로 트리 가져오기** 하 고 **트리 분할** 명령 합니다. 이 명령은 표시 하는 단일 도메인 클래스를 마우스 오른쪽 단추로 클릭 합니다.  
+- 기본 교환 및 사용 하 여 뷰를 참조 합니다 **여기로 트리 가져오기** 하 고 **트리 분할** 명령 합니다. 이 명령은 표시 하는 단일 도메인 클래스를 마우스 오른쪽 단추로 클릭 합니다.  
   
--   Ctrl + 위쪽 및 Ctrl + 아래쪽 화살표 키를 눌러 도메인 클래스와 모양 클래스를 다시 정렬 합니다.  
+- Ctrl + 위쪽 및 Ctrl + 아래쪽 화살표 키를 눌러 도메인 클래스와 모양 클래스를 다시 정렬 합니다.  
   
--   축소 하거나 각 셰이프의 오른쪽 위에 있는 아이콘을 사용 하 여 클래스를 확장 합니다.  
+- 축소 하거나 각 셰이프의 오른쪽 위에 있는 아이콘을 사용 하 여 클래스를 확장 합니다.  
   
--   도메인 클래스의 맨 아래에 있는 빼기 기호 (-)를 클릭 하 여 트리의 특정 부분을 축소 합니다.  
+- 도메인 클래스의 맨 아래에 있는 빼기 기호 (-)를 클릭 하 여 트리의 특정 부분을 축소 합니다.  
   
 ## <a name="inheritance"></a>상속  
  상속을 사용 하 여 도메인 클래스를 정의할 수 있습니다. 상속 파생을 만들려면 상속 도구, 파생 클래스 및 기본 클래스를 차례로 클릭 합니다. 모델 요소에는 기본 클래스에서 상속 된 모든 속성과 함께 자체 도메인 클래스에 정의 된 모든 속성이 있습니다. 또한 관계에 해당 역할을 상속합니다.  

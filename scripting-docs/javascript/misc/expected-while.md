@@ -14,19 +14,19 @@ ms.assetid: 867c10d0-7df6-4ba3-bbe6-7d5b3900cb22
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 0c05f2fffeabdfbeccd68259c3648aceac862d80
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 4ec06ea25a6a6486a444d430e3ef15b888760650
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56840301"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097260"
 ---
 # <a name="expected-while"></a>'while'이 필요합니다.
 포함 되지 않은 합니다 `while` 조건이 `do...while` 루프입니다. A **수행** 문에 해당 있어야 `while` 코드 블록의 끝을 테스트 합니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   포함 된 `while` 닫는 중괄호 뒤의 문으로 테스트 합니다.  
+- 포함 된 `while` 닫는 중괄호 뒤의 문으로 테스트 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [while 문](../../javascript/reference/while-statement-javascript.md)   

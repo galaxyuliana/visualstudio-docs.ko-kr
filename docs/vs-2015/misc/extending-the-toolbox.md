@@ -10,21 +10,21 @@ helpviewer_keywords:
 ms.assetid: bb84a79e-cd4c-4a58-8871-2513e7119b6e
 caps.latest.revision: 38
 manager: jillfra
-ms.openlocfilehash: a1cf66baf73fe4a04dcb21b0c7ac7609214bea20
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 54026b770a0de7780e950a3e30e649cb67ce1d3b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983788"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088706"
 ---
 # <a name="extending-the-toolbox"></a>도구 상자 확장
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구 상자** 에서 IDE의 끌어서 놓기 메커니즘을 통해 편집기 및 디자이너에 기능을 제공하는 개체의 컬렉션을 제공합니다.  
   
  VSPackage는 다음과 같은 두 가지 기본 방법으로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구 상자**작업을 수행합니다.  
   
--   VSPackage는 새 데이터 항목 및 컨트롤을 **도구 상자**에 추가할 수 있습니다.  
+- VSPackage는 새 데이터 항목 및 컨트롤을 **도구 상자**에 추가할 수 있습니다.  
   
--   VSPackage는 끌어서 놓기 작업을 지원하고 **도구 상자** 의 모양을 구성하면서 기존 **도구 상자**기능의 대상 또는 소비자가 될 수 있습니다.  
+- VSPackage는 끌어서 놓기 작업을 지원하고 **도구 상자** 의 모양을 구성하면서 기존 **도구 상자**기능의 대상 또는 소비자가 될 수 있습니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [방법: Windows Forms를 사용 하는 도구 상자 컨트롤 만들기](../misc/how-to-create-a-toolbox-control-that-uses-windows-forms.md)  

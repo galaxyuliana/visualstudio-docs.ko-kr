@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f90ae35a002517c34af39cb53deec05a458f716
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: e229bd791118b23e0b8c04a8a5384a4bbc3342c0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680531"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085535"
 ---
 # <a name="sample-implementation-of-changing-values"></a>값 변경 샘플 구현
 > [!IMPORTANT]
@@ -29,13 +29,13 @@ ms.locfileid: "56680531"
 
  구현의 `IDebugProperty2::SetValueAsString` 다음 작업을 수행 합니다.
 
-1.  값을 생성 하는 식을 계산 합니다.
+1. 값을 생성 하는 식을 계산 합니다.
 
-2.  연결 된 바인딩합니다 [IDebugField](../../extensibility/debugger/reference/idebugfield.md) 개체를 생성 하 고 해당 메모리 위치를 [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) 개체입니다.
+2. 연결 된 바인딩합니다 [IDebugField](../../extensibility/debugger/reference/idebugfield.md) 개체를 생성 하 고 해당 메모리 위치를 [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) 개체입니다.
 
-3.  값을 일련의 바이트로 변환합니다.
+3. 값을 일련의 바이트로 변환합니다.
 
-4.  호출 [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) 바이트 메모리에 저장할 수 있습니다.
+4. 호출 [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) 바이트 메모리에 저장할 수 있습니다.
 
 ## <a name="managed-code"></a>관리 코드
  다음 코드는 구현의 `IDebugProperty2::SetValueAsString` 관리 코드에서.

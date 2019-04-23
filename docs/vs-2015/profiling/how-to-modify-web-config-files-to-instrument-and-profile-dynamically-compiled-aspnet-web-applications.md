@@ -9,12 +9,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 53c55987c22104a8951976890812d90f6bb838d4
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: a16ad46722213a703785d08209d68b3c4ee6b04f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54774995"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099595"
 ---
 # <a name="how-to-modify-webconfig-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications"></a>방법: 계측할 Web.Config 파일 수정 및 동적으로 컴파일된 ASP.NET 웹 애플리케이션 프로파일링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,27 +38,27 @@ ms.locfileid: "54774995"
   
 ### <a name="to-add-the-aspnethelper-assembly-as-a-configurationruntimeassemblybindingdependentassembly-element"></a>ASPNetHelper 어셈블리를 configuration/runtime/assemblyBinding/dependentAssembly 요소로 추가하려면  
   
-1.  필요한 경우 **runtime** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+1. 필요한 경우 **runtime** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
   
      **runtime** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **runtime** 자식 요소만 포함될 수 있습니다.  
   
-2.  필요한 경우 **assemblyBinding** 요소를 **runtime** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+2. 필요한 경우 **assemblyBinding** 요소를 **runtime** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
   
      **runtime** 요소에는 하나의 **assemblyBinding** 요소만 포함될 수 있습니다.  
   
-3.  다음 특성 이름 및 값을 **assemblyBinding** 요소에 추가합니다.  
+3. 다음 특성 이름 및 값을 **assemblyBinding** 요소에 추가합니다.  
   
     |특성 이름|특성 값|  
     |--------------------|---------------------|  
     |**Xmlns**|**urn:schemas-microsoft-com:asm.v1**|  
   
-4.  **dependentAssembly** 요소를 **assemblyBinding** 요소의 자식 요소로 추가합니다.  
+4. **dependentAssembly** 요소를 **assemblyBinding** 요소의 자식 요소로 추가합니다.  
   
      **dependentAssembly** 요소에는 특성이 없습니다.  
   
-5.  **assemblyIdentity** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.  
+5. **assemblyIdentity** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.  
   
-6.  다음 특성 이름 및 값을 **assemblyIdentity** 요소에 추가합니다.  
+6. 다음 특성 이름 및 값을 **assemblyIdentity** 요소에 추가합니다.  
   
     |특성 이름|특성 값|  
     |--------------------|---------------------|  
@@ -66,9 +66,9 @@ ms.locfileid: "54774995"
     |**PublicKeyToken**|**b03f5f7f11d50a3a**|  
     |**culture**|**Neutral**|  
   
-7.  **codeBase** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.  
+7. **codeBase** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.  
   
-8.  다음 특성 이름 및 값을 **codeBase** 요소에 추가합니다.  
+8. 다음 특성 이름 및 값을 **codeBase** 요소에 추가합니다.  
   
     |특성 이름|특성 값|  
     |--------------------|---------------------|  
@@ -98,15 +98,15 @@ ms.locfileid: "54774995"
   
 ### <a name="to-add-the-profiler-post-process-step-to-the-configurationsystemwebcompilation-element"></a>프로파일러 사후 처리 단계를 configuration/system.web/compilation 요소에 추가하려면  
   
-1.  필요한 경우 **system.web** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+1. 필요한 경우 **system.web** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
   
      **system.web** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **system.web** 자식 요소만 포함될 수 있습니다.  
   
-2.  필요한 경우 **compilation** 요소를 **system.web** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+2. 필요한 경우 **compilation** 요소를 **system.web** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
   
      **system.web** 요소에는 하나의 **compilation** 자식 요소만 포함될 수 있습니다.  
   
-3.  **compilation** 요소에서 기존 특성을 제거하고 다음 특성 이름 및 값을 추가합니다.  
+3. **compilation** 요소에서 기존 특성을 제거하고 다음 특성 이름 및 값을 추가합니다.  
   
     |특성 이름|특성 값|  
     |--------------------|---------------------|  
@@ -130,22 +130,22 @@ ms.locfileid: "54774995"
   
 ### <a name="to-add-profiler-location-settings-to-the-configurationappsettings-element"></a>configuration/appSettings 요소에 프로파일러 위치 설정을 추가하려면  
   
-1.  필요한 경우 **appSettings** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
+1. 필요한 경우 **appSettings** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.  
   
      **appSettings** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **appSettings** 자식 요소만 포함될 수 있습니다.  
   
-2.  **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.  
+2. **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.  
   
-3.  다음 특성 이름 및 값을 **add** 요소에 추가합니다.  
+3. 다음 특성 이름 및 값을 **add** 요소에 추가합니다.  
   
     |특성 이름|특성 값|  
     |--------------------|---------------------|  
     |**key**|**Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation**|  
     |**value**|`PerformanceToolsFolder` **\VSInstr.Exe**|  
   
-4.  또 다른 **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.  
+4. 또 다른 **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.  
   
-5.  다음 특성 이름 및 값을 **add** 요소에 추가합니다.  
+5. 다음 특성 이름 및 값을 **add** 요소에 추가합니다.  
   
     |특성 이름|특성 값|  
     |--------------------|---------------------|  
@@ -175,7 +175,7 @@ ms.locfileid: "54774995"
     </configuration>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  동적으로 컴파일된 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 애플리케이션의 계측 및 프로파일링을 사용하도록 설정하는 전체 web.config 파일은 다음과 같습니다. 이 예제에서는 수정하기 전에 파일에 다른 설정이 없었다고 가정합니다.  
   
 ```  

@@ -23,12 +23,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ed0801e9654e1d2f78f2ed49f47dabe6f0e619ab
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 0c949f9a5d8c56f44e0754715d056b4d3837f76a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54868042"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087601"
 ---
 # <a name="troubleshoot-sharepoint-packaging-and-deployment"></a>SharePoint 패키징 및 배포 문제 해결
   이 항목에서는 SharePoint 솔루션을 패키지하고 배포할 때 발생할 수 있는 다양한 문제에 대해 설명합니다.
@@ -73,9 +73,9 @@ ms.locfileid: "54868042"
 ### <a name="resolution"></a>해결
  이 문제를 해결하려면 다음 단계를 수행합니다.
 
-1.  Microsoft 지원 문서에 설명 된 대로 업데이트 KB967535를 설치 [수정: 핫픽스는 Windows Vista 및 Windows Server 2008 용 IIS 7.0에서 ASP.NET의 두 가지 문제를 해결 하는 사용 가능한](http://go.microsoft.com/fwlink/?LinkId=179055)합니다.
+1. Microsoft 지원 문서에 설명 된 대로 업데이트 KB967535를 설치 [수정: 핫픽스는 Windows Vista 및 Windows Server 2008 용 IIS 7.0에서 ASP.NET의 두 가지 문제를 해결 하는 사용 가능한](http://go.microsoft.com/fwlink/?LinkId=179055)합니다.
 
-2.  Web.config 파일에 다음 코드를 추가합니다.
+2. Web.config 파일에 다음 코드를 추가합니다.
 
     ```xml
     <compilation batch="false" optimizeCompilations="true">

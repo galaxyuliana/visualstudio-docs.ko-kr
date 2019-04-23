@@ -8,32 +8,32 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 272d9bd9b1e54c6ff97b522375b773002e93dd49
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d57c06cbc465537e0ac523c8133a718369b5ea69
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56683144"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087796"
 ---
 # <a name="images-and-icons-for-visual-studio"></a>Visual Studio의 이미지 및 아이콘
-##  <a name="BKMK_ImageUseInVisualStudio"></a> Visual Studio에서 이미지 사용
+## <a name="BKMK_ImageUseInVisualStudio"></a> Visual Studio에서 이미지 사용
  아트 워크를 만들기 전에 하는 것이 좋습니다에 1,000 개 이상 이미지를 사용 합니다 [Visual Studio 이미지 라이브러리](http://www.microsoft.com/en-my/download/details.aspx?id=35825)합니다.
 
 ### <a name="types-of-images"></a>이미지 형식
 
--   **아이콘**합니다. 명령, 계층, 템플릿 및 등에 표시 되는 작은 이미지입니다. Visual Studio에서 사용 되는 기본 아이콘 크기는 16 x 16 PNG입니다. 이미지 서비스에서 자동으로 생성 되는 아이콘 HDPI 지원이 XAML 형식을 생성 합니다.
+- **아이콘**합니다. 명령, 계층, 템플릿 및 등에 표시 되는 작은 이미지입니다. Visual Studio에서 사용 되는 기본 아이콘 크기는 16 x 16 PNG입니다. 이미지 서비스에서 자동으로 생성 되는 아이콘 HDPI 지원이 XAML 형식을 생성 합니다.
 
      **참고:** 이미지 메뉴 시스템에서 사용 되지만, 모든 명령에 대 한 아이콘을 만들지 마십시오. 참조 하세요 [Visual Studio의 메뉴 및 명령](../../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md) 명령 아이콘을 가져와야 하는지 여부를 확인 합니다.
 
--   **미리 보기입니다.** 새 프로젝트 대화 상자와 같은 대화 상자에서 미리 보기 영역에 사용 되는 이미지입니다.
+- **미리 보기입니다.** 새 프로젝트 대화 상자와 같은 대화 상자에서 미리 보기 영역에 사용 되는 이미지입니다.
 
--   **대화 상자 이미지입니다.** 대화 상자 또는 마법사 설명이 포함 된 그래픽 또는 메시지 표시기에 표시 되는 이미지입니다. 사용자의 이목을 (경고, 경고) 또는 어려운 개념을 설명 하는 데 필요한 경우에 및 자주 사용 합니다.
+- **대화 상자 이미지입니다.** 대화 상자 또는 마법사 설명이 포함 된 그래픽 또는 메시지 표시기에 표시 되는 이미지입니다. 사용자의 이목을 (경고, 경고) 또는 어려운 개념을 설명 하는 데 필요한 경우에 및 자주 사용 합니다.
 
--   **애니메이션이 적용 된 이미지입니다.** 진행률 표시기, 상태 표시줄 및 작업 대화 상자에 사용 합니다.
+- **애니메이션이 적용 된 이미지입니다.** 진행률 표시기, 상태 표시줄 및 작업 대화 상자에 사용 합니다.
 
--   **커서입니다.** 개체 삭제 될 수 있습니다 및 등에 있는 마우스를 사용 하 여 작업이 허용 되는지 여부를 나타내는 데 사용 합니다.
+- **커서입니다.** 개체 삭제 될 수 있습니다 및 등에 있는 마우스를 사용 하 여 작업이 허용 되는지 여부를 나타내는 데 사용 합니다.
 
-##  <a name="BKMK_IconDesign"></a> 아이콘 디자인
+## <a name="BKMK_IconDesign"></a> 아이콘 디자인
 
 ### <a name="overview"></a>개요
  Visual Studio 정리 기 하 도형 및 50/50 긍정/부정 (밝은/어두운) 간의 균형 및 직접을 이해할 수 있는 기능을 사용 하 여 최신 스타일 아이콘을 사용 합니다. 중요 아이콘 디자인 중심으로 쉽게 구별할 수 있도록, 간소화 및 컨텍스트를 가리킵니다.
@@ -149,7 +149,7 @@ ms.locfileid: "56683144"
 
  ![수정 아이콘 각도](../../extensibility/ux-guidelines/media/0404-30_iconanglescorrect.png "0404 30_IconAnglesCorrect")
 
-#### <a name="perspective"></a>Cube
+#### <a name="perspective"></a>큐브 뷰
  아이콘을 명확 하 고 이해 하기 쉽게 유지 합니다. 큐브 뷰 및 광원 필요한 경우에 사용 합니다. 큐브 뷰를 사용 하 여 아이콘 요소에는 피해 야 하지만 일부 요소 없으면 인식할 수 있는있지 않습니다. 이러한 경우 스타일이 지정 된 큐브 뷰는 요소의 명확 하 게를 통신합니다.
 
  ![3 점 소실점](../../extensibility/ux-guidelines/media/0404-31_3pointperspective.png "0404 31_3PointPerspective")<br />3점 원근감
@@ -210,19 +210,19 @@ ms.locfileid: "56683144"
 
 #### <a name="file-types"></a>파일 형식
 
--   **32 비트 PNG:** 아이콘에 대 한 기본 설정된 된 형식입니다. 단일 래스터 (픽셀) 이미지를 저장할 수 있는 무손실 데이터 압축 파일 형식입니다. 32 비트 PNG 파일에는 알파 채널 투명도, 감마 보정 및 인터레이스 지원합니다.
+- **32 비트 PNG:** 아이콘에 대 한 기본 설정된 된 형식입니다. 단일 래스터 (픽셀) 이미지를 저장할 수 있는 무손실 데이터 압축 파일 형식입니다. 32 비트 PNG 파일에는 알파 채널 투명도, 감마 보정 및 인터레이스 지원합니다.
 
--   **32 비트 BMP:** 비 WPF 컨트롤에 대 한 합니다. RGB/A 이미지 형식는 알파 채널 투명도 사용 하 여 true 컬러 이미지를 32 비트 BMP XP 또는 하이 컬러 라고도 합니다. 알파 채널을 사용 하면 다음을 추가 (네 번째)으로 비트맵 내에서 저장 되는 Adobe Photoshop에서 지정 된 투명도 계층이 색 채널입니다. 검은색 배경 색상에 대 한 빠른 시각적 표시를 제공 하는 모든 32 비트 BMP 파일에 아트 워크 프로덕션 중에 추가 됩니다. 이 검은색 배경 영역을 UI에 마스킹되을 나타냅니다.
+- **32 비트 BMP:** 비 WPF 컨트롤에 대 한 합니다. RGB/A 이미지 형식는 알파 채널 투명도 사용 하 여 true 컬러 이미지를 32 비트 BMP XP 또는 하이 컬러 라고도 합니다. 알파 채널을 사용 하면 다음을 추가 (네 번째)으로 비트맵 내에서 저장 되는 Adobe Photoshop에서 지정 된 투명도 계층이 색 채널입니다. 검은색 배경 색상에 대 한 빠른 시각적 표시를 제공 하는 모든 32 비트 BMP 파일에 아트 워크 프로덕션 중에 추가 됩니다. 이 검은색 배경 영역을 UI에 마스킹되을 나타냅니다.
 
--   **32 비트 ICO:** 프로젝트 아이콘 및 항목을 추가 합니다. 모든 ICO 파일은 32 비트 알파 채널 투명도 사용 하 여 true 색 (RGB/A). ICO 파일 여러 크기와 색 농도 저장할 수 있으므로 Vista 아이콘 16x16, 32x32, 48x48, 256 x 256 이미지 크기 포함 된 ICO 형식이 많습니다. Windows 탐색기에서 제대로 표시를 위해 ICO 파일 해야 수 저장 다운 각 이미지 크기에 대 한 24 비트 및 8 비트 색 농도를 합니다.
+- **32 비트 ICO:** 프로젝트 아이콘 및 항목을 추가 합니다. 모든 ICO 파일은 32 비트 알파 채널 투명도 사용 하 여 true 색 (RGB/A). ICO 파일 여러 크기와 색 농도 저장할 수 있으므로 Vista 아이콘 16x16, 32x32, 48x48, 256 x 256 이미지 크기 포함 된 ICO 형식이 많습니다. Windows 탐색기에서 제대로 표시를 위해 ICO 파일 해야 수 저장 다운 각 이미지 크기에 대 한 24 비트 및 8 비트 색 농도를 합니다.
 
--   **XAML:** 디자인 화면 및 Windows 표시기 (adorner)에 대 한 합니다. XAML 아이콘은 크기 조정, 회전, 관리 및 투명도 지 원하는 벡터 기반 이미지 파일입니다. 오늘 Visual Studio에서 일반적인 되지 있지만 유연성으로 인해 인기가 점점.
+- **XAML:** 디자인 화면 및 Windows 표시기 (adorner)에 대 한 합니다. XAML 아이콘은 크기 조정, 회전, 관리 및 투명도 지 원하는 벡터 기반 이미지 파일입니다. 오늘 Visual Studio에서 일반적인 되지 있지만 유연성으로 인해 인기가 점점.
 
--   **SVG**
+- **SVG**
 
--   **24 비트 BMP:** Visual Studio 명령 모음에 대 한 합니다. True-색 RGB 이미지 형식, 24 비트 BMP는 knock 게임 스케일 아웃 투명도 계층에 대 한 색상 키로 자홍 (R = 255, G = 0, B = 255)를 사용 하 여 계층의 투명도 만드는 아이콘 규칙입니다. 24 비트 BMP, 모든 자홍 표면 배경색을 사용 하 여 표시 됩니다.
+- **24 비트 BMP:** Visual Studio 명령 모음에 대 한 합니다. True-색 RGB 이미지 형식, 24 비트 BMP는 knock 게임 스케일 아웃 투명도 계층에 대 한 색상 키로 자홍 (R = 255, G = 0, B = 255)를 사용 하 여 계층의 투명도 만드는 아이콘 규칙입니다. 24 비트 BMP, 모든 자홍 표면 배경색을 사용 하 여 표시 됩니다.
 
--   **24 비트 GIF:** Visual Studio 명령 모음에 대 한 합니다. 투명도 지 원하는 한 true 색 RGB 이미지 형식입니다. GIF 파일 마법사 아트 워크 및 GIF 애니메이션에서 자주 사용 됩니다.
+- **24 비트 GIF:** Visual Studio 명령 모음에 대 한 합니다. 투명도 지 원하는 한 true 색 RGB 이미지 형식입니다. GIF 파일 마법사 아트 워크 및 GIF 애니메이션에서 자주 사용 됩니다.
 
 ### <a name="icon-construction"></a>아이콘 생성
  Visual Studio에서 가장 작은 아이콘 크기는 16 x 16입니다. 가장 일반적인 사용은 32 x 32입니다. 아이콘을 디자인할 때 전체 16x16, 24x24 또는 32 x 32 프레임 찰 필요가 염두에 둡니다. 읽을 수 있고 일관성 아이콘 생성 사용자 인식에 필수적입니다. 아이콘을 작성할 때 다음 사항을 준수 합니다.
@@ -244,18 +244,18 @@ ms.locfileid: "56683144"
 
  Visual Studio 아이콘의 색을 사용 하 여에 대 한 자세한 내용은 참조 하세요. [이미지에서 색을 사용 하 여](../../extensibility/ux-guidelines/images-and-icons-for-visual-studio.md#BKMK_UsingColorInImages)입니다.
 
-##  <a name="BKMK_UsingColorInImages"></a> 이미지에서 색을 사용 하 여
+## <a name="BKMK_UsingColorInImages"></a> 이미지에서 색을 사용 하 여
 
 ### <a name="overview"></a>개요
  Visual Studio 아이콘은 주로 단색입니다. 색 특정 정보를 전달 하기 위해 예약 되어 서는 안 장식 합니다. 색이 사용 됩니다.
 
--   액션을 나타내려면
+- 액션을 나타내려면
 
--   사용자 상태 알림 경고를 발생 시
+- 사용자 상태 알림 경고를 발생 시
 
--   언어 정보를 지정 하려면
+- 언어 정보를 지정 하려면
 
--   IntelliSense 내의 항목을 구분 하기 위해
+- IntelliSense 내의 항목을 구분 하기 위해
 
 ### <a name="accessibility"></a>액세스 가능성
  Visual Studio 규정 준수 지침 아이콘을 모두 선택 색과 대비 접근성 요구 사항에 제품 전달에 필요 합니다. 시각적 언어 색상표의 색 거쳤습니다 및 이러한 요구 사항을 충족 합니다.
@@ -358,7 +358,7 @@ ms.locfileid: "56683144"
 |이벤트 클래스|VS 작업 주황색|C27D1A / 194,125,26|![Swatch C27D1A](../../extensibility/ux-guidelines/media/0405_c27d1a.png "0405_C27D1A")|
 |확장 메서드, 메서드, 모듈, 대리자|VS 작업 자주색|652D90 / 101,45,144|![Swatch 652D90](../../extensibility/ux-guidelines/media/0405_652d90.png "0405_652D90")|
 |필드, 열거형 항목, 매크로, 구조체, 공용 구조체 값 형식, 연산자, 인터페이스|VS 작업 파랑|00539C / 0,83,156|![Swatch 00539C](../../extensibility/ux-guidelines/media/0405_00539c.png "0405_00539C")|
-|Object|VS 작업 녹색|388A34 56,138,52 /|![Swatch 388A34](../../extensibility/ux-guidelines/media/0405_388a34.png "0405_388A34")|
+|개체|VS 작업 녹색|388A34 56,138,52 /|![Swatch 388A34](../../extensibility/ux-guidelines/media/0405_388a34.png "0405_388A34")|
 |상수, 예외, 열거형 항목, 맵, 맵 항목, Namespace, 템플릿, 형식 정의|배경 (VS BG)|424242 / 66,66,66|![Swatch 424242](../../extensibility/ux-guidelines/media/0405_424242.png "0405_424242")|
 
 ##### <a name="examples-of-intellisense-icons"></a>IntelliSense 아이콘의 예
@@ -366,7 +366,7 @@ ms.locfileid: "56683144"
 ||||||
 |-|-|-|-|-|
 |![IntelliSense 클래스 아이콘](../../extensibility/ux-guidelines/media/0405-36_intellisenseclass.png "0405 36_IntelliSenseClass")<br />클래스|![IntelliSense private 이벤트 아이콘](../../extensibility/ux-guidelines/media/0405-37_intellisenseprivateevent.png "0405 37_IntelliSensePrivateEvent")<br />Private 이벤트|![IntelliSense 대리자 아이콘](../../extensibility/ux-guidelines/media/0405-38_intellisensedelegate.png "0405 38_IntelliSenseDelegate")<br />대리자|![IntelliSense 메서드 친구 아이콘](../../extensibility/ux-guidelines/media/0405-39_intellisensemethodfriend.png "0405 39_IntelliSenseMethodFriend")<br />Friend 메서드|![필드 아이콘](../../extensibility/ux-guidelines/media/0405-40_field.png "0405 40_Field")<br />필드|
-|![IntelliSense 보호 열거형 항목 아이콘](../../extensibility/ux-guidelines/media/0405-41_intellisenseprotectedenumitem.png "0405 41_IntelliSenseProtectedEnumItem")<br />보호 된 열거형 항목|![IntelliSense 개체 아이콘](../../extensibility/ux-guidelines/media/0405-42_intellisenseobject.png "0405 42_IntelliSenseObject")<br />Object|![IntelliSense 템플릿 아이콘](../../extensibility/ux-guidelines/media/0405-43_intellisensetemplate.png "0405 43_IntelliSenseTemplate")<br />템플릿|![IntelliSense 예외 바로 가기 아이콘](../../extensibility/ux-guidelines/media/0405-44_intellisenseexceptionshortcut.png "0405 44_IntelliSenseExceptionShortcut")<br />예외 바로 가기||
+|![IntelliSense 보호 열거형 항목 아이콘](../../extensibility/ux-guidelines/media/0405-41_intellisenseprotectedenumitem.png "0405 41_IntelliSenseProtectedEnumItem")<br />보호 된 열거형 항목|![IntelliSense 개체 아이콘](../../extensibility/ux-guidelines/media/0405-42_intellisenseobject.png "0405 42_IntelliSenseObject")<br />개체|![IntelliSense 템플릿 아이콘](../../extensibility/ux-guidelines/media/0405-43_intellisensetemplate.png "0405 43_IntelliSenseTemplate")<br />템플릿|![IntelliSense 예외 바로 가기 아이콘](../../extensibility/ux-guidelines/media/0405-44_intellisenseexceptionshortcut.png "0405 44_IntelliSenseExceptionShortcut")<br />예외 바로 가기||
 
 ### <a name="notifications"></a>알림
  Visual Studio의 알림 상태를 나타내는 데 사용 됩니다. 알림 색상표를 검정 또는 흰색 포그라운드 채우기 옵션 뿐만 아니라 다음 네 가지 색을 사용 하 여 다음 상태 수준 사용 하 여 알림을 정의.

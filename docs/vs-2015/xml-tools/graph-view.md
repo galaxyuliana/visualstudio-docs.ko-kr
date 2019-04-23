@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 74ae0319bcf9c155bce693f9cf0924c8be449043
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 3e2b51128e851252d3949e6cfde122a52a09af6e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658606"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110546"
 ---
 # <a name="graph-view"></a>그래프 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -115,11 +115,11 @@ ms.locfileid: "59658606"
 ## <a name="undoredo"></a>실행 취소/다시 실행  
  그래프 뷰에서 다음 작업에 대한 실행 취소/다시 실행 기능이 사용됩니다.  
   
--   끌어서 놓기를 통해 단일 노드 추가  
+- 끌어서 놓기를 통해 단일 노드 추가  
   
--   스키마 탐색기 또는 시작 뷰 쿼리의 검색 결과 창에서 여러 노드 추가  
+- 스키마 탐색기 또는 시작 뷰 쿼리의 검색 결과 창에서 여러 노드 추가  
   
--   단일 또는 여러 노드 삭제  
+- 단일 또는 여러 노드 삭제  
   
 ## <a name="zoom"></a>확대/축소  
  그래프 뷰의 오른쪽 아래 모퉁이에서 확대/축소를 사용할 수 있습니다.  

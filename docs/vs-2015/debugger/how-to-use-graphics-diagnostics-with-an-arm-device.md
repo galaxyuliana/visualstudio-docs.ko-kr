@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f2a606d6b22dabc8bab0477a240499021a4312c3
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 7ae934de4a9f0dbcf4076d7402abd138eac20268
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002456"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104878"
 ---
 # <a name="how-to-use-graphics-diagnostics-with-an-arm-device"></a>방법: ARM 장치의 그래픽 진단 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,9 +28,9 @@ ms.locfileid: "59002456"
   
 #### <a name="to-enable-remote-debugging-on-your-arm-based-device"></a>ARM 기반 장치에서 원격 디버깅을 사용하도록 설정하려면  
   
-1.  설치 합니다 [ARM 키트 정책](http://msdn.microsoft.com/windows/desktop/dn469188) ARM 기반 장치에서.  
+1. 설치 합니다 [ARM 키트 정책](http://msdn.microsoft.com/windows/desktop/dn469188) ARM 기반 장치에서.  
   
-2.  설치 합니다 [원격 디버깅 도구](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015) ARM 기반 장치에서.  
+2. 설치 합니다 [원격 디버깅 도구](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015) ARM 기반 장치에서.  
   
 > [!IMPORTANT]
 >  Windows Phone 8.1 장치의 경우 개발용으로 사용자의 휴대폰을 등록해야 할 수 있습니다. 그렇게 하려면 등록된 개발자여야 합니다. 자세한 내용은 [배포 및 Windows Phone 8 용 앱을 실행 하는 방법을](http://msdn.microsoft.com/library/windowsphone/develop/ff402565.aspx)합니다.  
@@ -39,11 +39,11 @@ ms.locfileid: "59002456"
   
 #### <a name="to-configure-and-start-graphics-diagnostics-on-your-device"></a>장치에서 그래픽 진단을 구성한 후 시작하려면  
   
-1.  에 **솔루션 플랫폼** 드롭 다운 목록에서 **ARM** ARM 기반 장치를 원격 디버깅 대상으로 사용할 수 있도록 합니다.  
+1. 에 **솔루션 플랫폼** 드롭 다운 목록에서 **ARM** ARM 기반 장치를 원격 디버깅 대상으로 사용할 수 있도록 합니다.  
   
-2.  에 **디버그 대상** 드롭 다운 목록에서 ARM 장치를 선택 합니다.  
+2. 에 **디버그 대상** 드롭 다운 목록에서 ARM 장치를 선택 합니다.  
   
-3.  메뉴에서 선택 **디버그**, **그래픽**하십시오 **진단 시작**. (키보드: Alt+F5)  
+3. 메뉴에서 선택 **디버그**, **그래픽**하십시오 **진단 시작**. (키보드: Alt+F5)  
   
 ## <a name="see-also"></a>참고 항목  
  [원격 컴퓨터에서 Windows 스토어 앱 실행](../debugger/run-windows-store-apps-on-a-remote-machine.md)   

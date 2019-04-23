@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: conceptdev
 ms.author: crdun
 manager: jillfra
-ms.openlocfilehash: c4f431dba7f9732333812f64b44db52358071996
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 6c572d76389c5914f4a9b01b82677449ec1db28b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658801"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097169"
 ---
 # <a name="application-lifecycle-management-alm-with-unity-apps"></a>ALM(Application Lifecycle Management) 및 Unity 앱
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,11 +66,11 @@ ms.locfileid: "59658801"
   
  Unity로 버전 제어를 수행하기 위한 특별 고려 사항:  
   
-1.  Unity는 기본적으로 숨겨져 있는 불투명 단일 라이브러리에서 게임 자산 메타데이터를 추적합니다. 파일 및 메타데이터를 동기화된 상태로 유지하려면 메타데이터를 표시하고 더 관리하기 쉬운 청크로 저장해야 합니다. 자세한 내용은 [Unity와 함께 외부 버전 제어 시스템 사용](http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html)(Unity 설명서)을 참조하세요.  
+1. Unity는 기본적으로 숨겨져 있는 불투명 단일 라이브러리에서 게임 자산 메타데이터를 추적합니다. 파일 및 메타데이터를 동기화된 상태로 유지하려면 메타데이터를 표시하고 더 관리하기 쉬운 청크로 저장해야 합니다. 자세한 내용은 [Unity와 함께 외부 버전 제어 시스템 사용](http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html)(Unity 설명서)을 참조하세요.  
   
-2.  Unity 프로젝트의 일부 파일 및 폴더는 위의 링크에 설명된 것처럼 소스 제어에 적합하지 않습니다. Assets 및 ProjectSettings 폴더는 추가해야 하고 Library 및 Temp 폴더는 추가하면 안 됩니다. 소스 제어로 이동하지 않는 생성된 파일의 추가 목록에 대해서는 StackOverflow의 [Unity3D 소스 제어에 Git을 사용하는 방법](http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control)을 참조하세요. 독립적으로 이 주제에 대한 블로그 게시물을 올린 개발자도 많습니다.  
+2. Unity 프로젝트의 일부 파일 및 폴더는 위의 링크에 설명된 것처럼 소스 제어에 적합하지 않습니다. Assets 및 ProjectSettings 폴더는 추가해야 하고 Library 및 Temp 폴더는 추가하면 안 됩니다. 소스 제어로 이동하지 않는 생성된 파일의 추가 목록에 대해서는 StackOverflow의 [Unity3D 소스 제어에 Git을 사용하는 방법](http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control)을 참조하세요. 독립적으로 이 주제에 대한 블로그 게시물을 올린 개발자도 많습니다.  
   
-3.  질감 또는 오디오 파일과 같은 Unity 프로젝트의 이진 자산은 많은 스토리지 공간을 차지할 수 있습니다. Git와 같은 다양한 소스 제어 시스템은 변경 내용이 파일의 일부에만 영향을 주는 경우에도 변경될 때마다 파일의 고유 복사본을 저장합니다. 이로 인해 Git 리포지토리가 너무 커질 수 있습니다. 이 문제를 해결하기 위해 대개 Unity 개발자는 최종 자산만 리포지토리에 추가하고 OneDrive, DropBox, git-annex 등의 다른 방법으로 자산의 작업 기록을 유지합니다. 일반적으로 이러한 자산은 소스 코드 변경에 따라 버전을 관리할 필요가 없으므로 이 접근 방식은 유용합니다. 또한 개발자는 일반적으로 프로젝트 편집기의 Asset Serialization Mode를 Force Text로 설정하여 이진 형식이 아니라 텍스트에 장면 파일을 저장하므로 소스 제어에서 병합할 수 있습니다. 자세한 내용은 [편집기 설정](http://docs.unity3d.com/Manual/class-EditorManager.html)(Unity 설명서)을 참조하세요.  
+3. 질감 또는 오디오 파일과 같은 Unity 프로젝트의 이진 자산은 많은 스토리지 공간을 차지할 수 있습니다. Git와 같은 다양한 소스 제어 시스템은 변경 내용이 파일의 일부에만 영향을 주는 경우에도 변경될 때마다 파일의 고유 복사본을 저장합니다. 이로 인해 Git 리포지토리가 너무 커질 수 있습니다. 이 문제를 해결하기 위해 대개 Unity 개발자는 최종 자산만 리포지토리에 추가하고 OneDrive, DropBox, git-annex 등의 다른 방법으로 자산의 작업 기록을 유지합니다. 일반적으로 이러한 자산은 소스 코드 변경에 따라 버전을 관리할 필요가 없으므로 이 접근 방식은 유용합니다. 또한 개발자는 일반적으로 프로젝트 편집기의 Asset Serialization Mode를 Force Text로 설정하여 이진 형식이 아니라 텍스트에 장면 파일을 저장하므로 소스 제어에서 병합할 수 있습니다. 자세한 내용은 [편집기 설정](http://docs.unity3d.com/Manual/class-EditorManager.html)(Unity 설명서)을 참조하세요.  
   
 ## <a name="build"></a>빌드  
  참조 링크: **[Build](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  

@@ -18,12 +18,12 @@ caps.latest.revision: 44
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 33928df6dd1151dc79dd07c966985666d2e7fd19
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: aa0735f25b7e6b0007172c8c42eb06222a0425fb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655792"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086860"
 ---
 # <a name="bind-wpf-controls-to-a-wcf-data-service"></a>WCF 데이터 서비스에 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,57 +68,57 @@ ms.locfileid: "59655792"
   
 #### <a name="to-create-the-service-project"></a>해당 서비스 프로젝트를 만들려면  
   
-1.  Visual Studio를 시작합니다.  
+1. Visual Studio를 시작합니다.  
   
-2.  **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
+2. **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
   
-3.  **Visual C#** 또는 **Visual Basic**을 확장한 다음, **웹**을 선택합니다.  
+3. **Visual C#** 또는 **Visual Basic**을 확장한 다음, **웹**을 선택합니다.  
   
-4.  **ASP.NET 웹 응용 프로그램** 프로젝트 템플릿을 선택합니다.  
+4. **ASP.NET 웹 응용 프로그램** 프로젝트 템플릿을 선택합니다.  
   
-5.  에 **이름을** 상자에 입력 `AdventureWorksService` 클릭 **확인**합니다.  
+5. 에 **이름을** 상자에 입력 `AdventureWorksService` 클릭 **확인**합니다.  
   
      Visual Studio 만듭니다는 `AdventureWorksService` 프로젝트입니다.  
   
-6.  **솔루션 탐색기**에서 **Default.aspx**를 오른쪽 마우스 단추로 클릭하고 **삭제**를 선택합니다. 이 연습에서는 해당 파일이 필요하지 않습니다.  
+6. **솔루션 탐색기**에서 **Default.aspx**를 오른쪽 마우스 단추로 클릭하고 **삭제**를 선택합니다. 이 연습에서는 해당 파일이 필요하지 않습니다.  
   
 ## <a name="create-an-entity-data-model-for-the-service"></a>서비스에 대 한 엔터티 데이터 모델 만들기  
  [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 사용하여 응용 프로그램에 데이터를 표시하려면 서비스에 대해 데이터 모델을 정의해야 합니다. [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] 두 가지 유형의 데이터 모델을 지원 합니다. 엔터티 데이터 모델 및 구현 하는 공용 언어 런타임 (CLR) 개체를 사용 하 여 정의 된 사용자 지정 데이터 모델을 <xref:System.Linq.IQueryable%601> 인터페이스입니다. 이 연습에서는 데이터 모델에 대해 엔터티 데이터 모델을 만듭니다.  
   
 #### <a name="to-create-an-entity-data-model"></a>엔터티 데이터 모델을 만들려면  
   
-1.  **프로젝트** 메뉴에서 **새 항목 추가**를 클릭합니다.  
+1. **프로젝트** 메뉴에서 **새 항목 추가**를 클릭합니다.  
   
-2.  설치된 템플릿 목록에서 **데이터**를 클릭한 다음, **ADO.NET 엔터티 데이터 모델** 프로젝트 항목을 선택합니다.  
+2. 설치된 템플릿 목록에서 **데이터**를 클릭한 다음, **ADO.NET 엔터티 데이터 모델** 프로젝트 항목을 선택합니다.  
   
-3.  이름을 변경할 `AdventureWorksModel.edmx`, 클릭 **추가**합니다.  
+3. 이름을 변경할 `AdventureWorksModel.edmx`, 클릭 **추가**합니다.  
   
      **엔터티 데이터 모델** 마법사가 열립니다.  
   
-4.  **모델 콘텐츠 선택** 페이지에서 **데이터베이스에서 생성**을 클릭한 후, **다음**을 클릭합니다.  
+4. **모델 콘텐츠 선택** 페이지에서 **데이터베이스에서 생성**을 클릭한 후, **다음**을 클릭합니다.  
   
-5.  **데이터 연결 선택** 페이지에서 다음 옵션 중 하나를 선택합니다.  
+5. **데이터 연결 선택** 페이지에서 다음 옵션 중 하나를 선택합니다.  
   
-    -   AdventureWorksLT 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.  
+    - AdventureWorksLT 샘플 데이터베이스에 대한 데이터 연결이 드롭다운 목록에 표시되면 해당 연결을 선택합니다.  
   
-    -   **새 연결**을 클릭하고 AdventureWorksLT 데이터베이스에 대한 연결을 만듭니다.  
+    - **새 연결**을 클릭하고 AdventureWorksLT 데이터베이스에 대한 연결을 만듭니다.  
   
-6.  **데이터 연결 선택** 페이지에서 **다른 이름으로 App.Config의 엔터티 연결 설정 저장** 옵션이 선택되어 있는지 확인한 후, **다음**을 클릭합니다.  
+6. **데이터 연결 선택** 페이지에서 **다른 이름으로 App.Config의 엔터티 연결 설정 저장** 옵션이 선택되어 있는지 확인한 후, **다음**을 클릭합니다.  
   
-7.  **데이터베이스 개체 선택** 페이지에서 **테이블**을 확장한 다음, **SalesOrderHeader** 테이블을 선택합니다.  
+7. **데이터베이스 개체 선택** 페이지에서 **테이블**을 확장한 다음, **SalesOrderHeader** 테이블을 선택합니다.  
   
-8.  **마침**을 클릭합니다.  
+8. **마침**을 클릭합니다.  
   
 ## <a name="create-the-service"></a>서비스 만들기  
  만들기는 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] WPF 응용 프로그램 엔터티 데이터 모델에서 데이터를 노출 합니다.  
   
 #### <a name="to-create-the-service"></a>해당 서비스를 만들려면  
   
-1.  **프로젝트** 메뉴에서 **새 항목 추가**를 선택합니다.  
+1. **프로젝트** 메뉴에서 **새 항목 추가**를 선택합니다.  
   
-2.  설치 된 템플릿 목록에서 클릭 **웹**를 선택한 후 합니다 **WCF 데이터 서비스** 프로젝트 항목입니다.  
+2. 설치 된 템플릿 목록에서 클릭 **웹**를 선택한 후 합니다 **WCF 데이터 서비스** 프로젝트 항목입니다.  
   
-3.  에 **이름을** 상자에 입력 `AdventureWorksService.svc`, 클릭 **추가**합니다.  
+3. 에 **이름을** 상자에 입력 `AdventureWorksService.svc`, 클릭 **추가**합니다.  
   
      Visual Studio에 추가 된 `AdventureWorksService.svc` 프로젝트에.  
   
@@ -127,41 +127,41 @@ ms.locfileid: "59655792"
   
 #### <a name="to-configure-the-service"></a>서비스를 구성하려면  
   
-1.  에 `AdventureWorks.svc` 코드 파일에서 바꾸기는 `AdventureWorksService` 클래스 선언을 다음 코드로 합니다.  
+1. 에 `AdventureWorks.svc` 코드 파일에서 바꾸기는 `AdventureWorksService` 클래스 선언을 다음 코드로 합니다.  
   
      [!code-csharp[Data_WPFWCF#1](../snippets/csharp/VS_Snippets_ProTools/data_wpfwcf/cs/adventureworksservice.svc.cs#1)]
      [!code-vb[Data_WPFWCF#1](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfwcf/vb/adventureworksservice.svc.vb#1)]  
   
      이 코드는 업데이트를 `AdventureWorksService` 에서 파생 되도록 클래스를 <xref:System.Data.Services.DataService%601> 에서 작동 하는 `AdventureWorksLTEntities` 개체 컨텍스트 클래스 엔터티 데이터 모델에 합니다. 또한 서비스의 클라이언트에 `InitializeService` 엔터티에 대한 모든 읽기/쓰기 권한을 허용하도록 `SalesOrderHeader` 메서드를 업데이트합니다.  
   
-2.  프로젝트를 빌드하고 오류가 없이 빌드되는지 확인합니다.  
+2. 프로젝트를 빌드하고 오류가 없이 빌드되는지 확인합니다.  
   
 ## <a name="create-the-wpf-client-application"></a>WPF 클라이언트 응용 프로그램 만들기  
  [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에서 데이터를 표시하려면 서비스를 기반으로 하는 데이터 소스를 사용하여 새 WPF 응용 프로그램을 만듭니다. 이 연습 뒷부분에서 응용 프로그램에 데이터 바인딩된 컨트롤을 추가합니다.  
   
 #### <a name="to-create-the-wpf-client-application"></a>WPF 클라이언트 응용 프로그램을 만들려면  
   
-1.  **솔루션 탐색기**에서 솔루션 노드를 마우스 오른쪽 단추로 클릭하고, **추가**를 클릭하고, **새 프로젝트**를 선택합니다.  
+1. **솔루션 탐색기**에서 솔루션 노드를 마우스 오른쪽 단추로 클릭하고, **추가**를 클릭하고, **새 프로젝트**를 선택합니다.  
   
-2.  **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic**을 확장한 다음, **Windows**를 선택합니다.  
+2. **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic**을 확장한 다음, **Windows**를 선택합니다.  
   
-3.  **WPF 애플리케이션** 프로젝트 템플릿을 선택합니다.  
+3. **WPF 애플리케이션** 프로젝트 템플릿을 선택합니다.  
   
-4.  **이름** 상자에 `AdventureWorksSalesEditor`를 입력하고 **확인**을 클릭합니다.  
+4. **이름** 상자에 `AdventureWorksSalesEditor`를 입력하고 **확인**을 클릭합니다.  
   
      Visual Studio에 추가 된 `AdventureWorksSalesEditor` 프로젝트를 솔루션입니다.  
   
-5.  **데이터** 메뉴에서 **데이터 소스 표시**를 클릭합니다.  
+5. **데이터** 메뉴에서 **데이터 소스 표시**를 클릭합니다.  
   
      **데이터 원본** 창이 열립니다.  
   
-6.  **데이터 소스** 창에서 **새 데이터 소스 추가**를 클릭합니다.  
+6. **데이터 소스** 창에서 **새 데이터 소스 추가**를 클릭합니다.  
   
      **데이터 원본 구성** 마법사가 열립니다.  
   
-7.  마법사의 **데이터 원본 형식 선택** 페이지에서 **서비스**를 선택한 후, **다음**을 클릭합니다.  
+7. 마법사의 **데이터 원본 형식 선택** 페이지에서 **서비스**를 선택한 후, **다음**을 클릭합니다.  
   
-8.  **서비스 참조 추가** 대화 상자에서 **검색**을 클릭합니다.  
+8. **서비스 참조 추가** 대화 상자에서 **검색**을 클릭합니다.  
   
      Visual Studio는 사용 가능한 서비스에 대 한 현재 솔루션을 검색 하 고 추가 `AdventureWorksService.svc` 에서 사용 가능한 서비스 목록에는 **Services** 상자입니다.  
   
@@ -180,11 +180,11 @@ ms.locfileid: "59655792"
   
 #### <a name="to-create-the-window-layout"></a>창 레이아웃을 만들려면  
   
-1.  **솔루션 탐색기**에서 MainWindow.xaml을 두 번 클릭 합니다.  
+1. **솔루션 탐색기**에서 MainWindow.xaml을 두 번 클릭 합니다.  
   
      WPF 디자이너에서 창이 열립니다.  
   
-2.  디자이너의 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 뷰에서 `<Grid>` 태그 사이에 다음 코드를 추가합니다.  
+2. 디자이너의 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 뷰에서 `<Grid>` 태그 사이에 다음 코드를 추가합니다.  
   
     ```  
     <Grid.RowDefinitions>  
@@ -196,7 +196,7 @@ ms.locfileid: "59655792"
     <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>  
     ```  
   
-3.  프로젝트를 빌드합니다.  
+3. 프로젝트를 빌드합니다.  
   
 ## <a name="create-the-data-bound-controls"></a>데이터 바인딩된 컨트롤 만들기  
  끌어 고객 레코드를 표시 하는 컨트롤을 만들 합니다 `SalesOrderHeaders` 에서 노드를 **데이터 원본** 창에서 디자이너로 합니다.  
@@ -231,20 +231,20 @@ ms.locfileid: "59655792"
   
 7. 다음의 각 텍스트 상자에 대해 **IsReadOnly** 속성을 설정합니다.  
   
-   -   **구매 주문 번호**  
+   - **구매 주문 번호**  
   
-   -   **판매 주문 ID**  
+   - **판매 주문 ID**  
   
-   -   **판매 주문 번호**  
+   - **판매 주문 번호**  
   
 ## <a name="load-the-data-from-the-service"></a>서비스에서 데이터 로드  
  서비스 프록시 개체를 사용 하 여 서비스에서 판매 데이터를 로드 합니다. 그런 다음 반환된 된 데이터에 대 한 데이터 원본에 할당 된 <xref:System.Windows.Data.CollectionViewSource> WPF 창에서.  
   
 #### <a name="to-load-the-data-from-the-service"></a>서비스에서 데이터를 로드하려면  
   
-1.  디자이너를 만들려면를 `Window_Loaded` 이벤트 처리기에서 텍스트를 두 번 클릭: **MainWindow**합니다.  
+1. 디자이너를 만들려면를 `Window_Loaded` 이벤트 처리기에서 텍스트를 두 번 클릭: **MainWindow**합니다.  
   
-2.  이벤트 처리기를 다음 코드로 바꿉니다. 이 코드의 *localhost*주소는 사용 중인 개발 컴퓨터의 로컬 호스트 주소로 바꿔야 합니다.  
+2. 이벤트 처리기를 다음 코드로 바꿉니다. 이 코드의 *localhost*주소는 사용 중인 개발 컴퓨터의 로컬 호스트 주소로 바꿔야 합니다.  
   
      [!code-csharp[Data_WPFWCF#2](../snippets/csharp/VS_Snippets_ProTools/data_wpfwcf/cs/adventureworkssaleseditor/mainwindow.xaml.cs#2)]
      [!code-vb[Data_WPFWCF#2](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfwcf/vb/adventureworkssaleseditor/mainwindow.xaml.vb#2)]  
@@ -254,20 +254,20 @@ ms.locfileid: "59655792"
   
 #### <a name="to-enable-users-to-navigate-sales-records"></a>사용자가 판매 레코드를 탐색할 수 있도록 설정하려면  
   
-1.  디자이너의 창 화면에서 **<** 단추를 두 번 클릭합니다.  
+1. 디자이너의 창 화면에서 **<** 단추를 두 번 클릭합니다.  
   
      Visual Studio가 코드 숨김 파일을 열고 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 이벤트에 대해 새 `backButton_Click` 이벤트 처리기를 만듭니다.  
   
-2.  다음 코드를 생성된 `backButton_Click` 이벤트 처리기에 추가합니다.  
+2. 다음 코드를 생성된 `backButton_Click` 이벤트 처리기에 추가합니다.  
   
      [!code-csharp[Data_WPFWCF#3](../snippets/csharp/VS_Snippets_ProTools/data_wpfwcf/cs/adventureworkssaleseditor/mainwindow.xaml.cs#3)]
      [!code-vb[Data_WPFWCF#3](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfwcf/vb/adventureworkssaleseditor/mainwindow.xaml.vb#3)]  
   
-3.  디자이너로 돌아와서 **>** 단추를 두 번 클릭합니다.  
+3. 디자이너로 돌아와서 **>** 단추를 두 번 클릭합니다.  
   
      Visual Studio가 코드 숨김 파일을 열고 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 이벤트에 대해 새 `nextButton_Click` 이벤트 처리기를 만듭니다.  
   
-4.  다음 코드를 생성된 `nextButton_Click` 이벤트 처리기에 추가합니다.  
+4. 다음 코드를 생성된 `nextButton_Click` 이벤트 처리기에 추가합니다.  
   
      [!code-csharp[Data_WPFWCF#4](../snippets/csharp/VS_Snippets_ProTools/data_wpfwcf/cs/adventureworkssaleseditor/mainwindow.xaml.cs#4)]
      [!code-vb[Data_WPFWCF#4](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfwcf/vb/adventureworkssaleseditor/mainwindow.xaml.vb#4)]  
@@ -277,11 +277,11 @@ ms.locfileid: "59655792"
   
 #### <a name="to-add-the-ability-to-save-changes-to-sales-records"></a>판매 레코드 변경 내용을 저장하는 기능을 추가하려면  
   
-1.  디자이너에서 **변경 내용 저장** 단추를 두 번 클릭합니다.  
+1. 디자이너에서 **변경 내용 저장** 단추를 두 번 클릭합니다.  
   
      Visual Studio가 코드 숨김 파일을 열고 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 이벤트에 대해 새 `saveButton_Click` 이벤트 처리기를 만듭니다.  
   
-2.  다음 코드를 `saveButton_Click` 이벤트 처리기에 추가합니다.  
+2. 다음 코드를 `saveButton_Click` 이벤트 처리기에 추가합니다.  
   
      [!code-csharp[Data_WPFWCF#5](../snippets/csharp/VS_Snippets_ProTools/data_wpfwcf/cs/adventureworkssaleseditor/mainwindow.xaml.cs#5)]
      [!code-vb[Data_WPFWCF#5](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfwcf/vb/adventureworkssaleseditor/mainwindow.xaml.vb#5)]  
@@ -291,36 +291,36 @@ ms.locfileid: "59655792"
   
 #### <a name="to-test-the-application"></a>애플리케이션을 테스트하려면  
   
-1.  **빌드합니다** 메뉴에서 클릭 **솔루션 빌드**합니다. 솔루션이 오류 없이 빌드되는지 확인합니다.  
+1. **빌드합니다** 메뉴에서 클릭 **솔루션 빌드**합니다. 솔루션이 오류 없이 빌드되는지 확인합니다.  
   
-2.  키를 눌러 **ctrl+f5**합니다.  
+2. 키를 눌러 **ctrl+f5**합니다.  
   
      Visual Studio는 디버깅하지 않고 **AdventureWorksService** 프로젝트를 시작합니다.  
   
-3.  **솔루션 탐색기**에서 **AdventureWorksSalesEditor** 프로젝트를 마우스 오른쪽 단추로 클릭합니다.  
+3. **솔루션 탐색기**에서 **AdventureWorksSalesEditor** 프로젝트를 마우스 오른쪽 단추로 클릭합니다.  
   
-4.  컨텍스트 메뉴의 **디버그**에서 **새 인스턴스 시작**을 클릭합니다.  
+4. 컨텍스트 메뉴의 **디버그**에서 **새 인스턴스 시작**을 클릭합니다.  
   
      응용 프로그램이 실행됩니다. 다음 사항을 확인합니다.  
   
-    -   판매 주문 ID가 **71774**인 첫 번째 판매 레코드의 서로 다른 데이터 필드가 텍스트 상자에 표시됩니다.  
+    - 판매 주문 ID가 **71774**인 첫 번째 판매 레코드의 서로 다른 데이터 필드가 텍스트 상자에 표시됩니다.  
   
-    -   **>** 또는 **<** 단추를 클릭하여 다른 판매 레코드를 탐색할 수 있습니다.  
+    - **>** 또는 **<** 단추를 클릭하여 다른 판매 레코드를 탐색할 수 있습니다.  
   
-5.  판매 레코드 중 하나의 **주석** 상자에 텍스트를 입력한 다음, **변경내용 저장**을 클릭합니다.  
+5. 판매 레코드 중 하나의 **주석** 상자에 텍스트를 입력한 다음, **변경내용 저장**을 클릭합니다.  
   
-6.  응용 프로그램을 닫았다가 Visual Studio에서 다시 시작합니다.  
+6. 응용 프로그램을 닫았다가 Visual Studio에서 다시 시작합니다.  
   
-7.  변경한 판매 레코드로 이동하여 응용 프로그램을 닫았다가 다시 열어도 변경 내용이 그대로 유지되는지 확인합니다.  
+7. 변경한 판매 레코드로 이동하여 응용 프로그램을 닫았다가 다시 열어도 변경 내용이 그대로 유지되는지 확인합니다.  
   
-8.  애플리케이션을 닫습니다.  
+8. 애플리케이션을 닫습니다.  
   
 ## <a name="next-steps"></a>다음 단계  
  이 연습을 완료하고 나면 다음과 같은 관련 작업을 수행할 수 있습니다.  
   
--   Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤을 다른 형식의 데이터 원본에 바인딩하는 방법을 알아봅니다. 자세한 내용은 [데이터 집합에 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-a-dataset.md)합니다.  
+- Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤을 다른 형식의 데이터 원본에 바인딩하는 방법을 알아봅니다. 자세한 내용은 [데이터 집합에 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-a-dataset.md)합니다.  
   
--   Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤에 관련 데이터(즉, 부모-자식 관계가 있는 데이터)를 표시하는 방법을 알아봅니다. 자세한 내용은 [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)합니다.  
+- Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤에 관련 데이터(즉, 부모-자식 관계가 있는 데이터)를 표시하는 방법을 알아봅니다. 자세한 내용은 [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   

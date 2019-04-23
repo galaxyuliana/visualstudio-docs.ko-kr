@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a6754c8264b68d8884f5e8ebaea763e004c71596
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 191635364c445bc3959ee2f5f63c7c72c71f171d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913917"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093126"
 ---
 # <a name="type-collection-editor-dialog-box"></a>형식 컬렉션 편집기 대화 상자
 
@@ -31,16 +31,16 @@ ms.locfileid: "55913917"
 
 ## <a name="to-bring-up-the-type-collection-editor-for-the-send-and-receive-activities"></a>Send 및 Receive 활동에 대해 형식 컬렉션 편집기를 표시하려면
 
-1.  선택 합니다 **보낼** 또는 **수신** 디자인 뷰에서 작업 합니다.
+1. 선택 합니다 **보낼** 또는 **수신** 디자인 뷰에서 작업 합니다.
 
-2.  키를 눌러 **F4** 불러오려면 합니다 **속성** 창입니다.
+2. 키를 눌러 **F4** 불러오려면 합니다 **속성** 창입니다.
 
-3.  에 **속성** 창에서 줄임표 단추 옆에를 클릭 합니다 **KnownTypes** 속성입니다.
+3. 에 **속성** 창에서 줄임표 단추 옆에를 클릭 합니다 **KnownTypes** 속성입니다.
 
 ## <a name="to-bring-up-the-type-collection-editor-for-the-invokemethod-activity"></a>InvokeMethod 활동에 대해 형식 컬렉션 편집기를 표시하려면
 
-1.  선택 된 **InvokeMethod** 디자인 뷰에서 작업 합니다.
+1. 선택 된 **InvokeMethod** 디자인 뷰에서 작업 합니다.
 
-2.  키를 눌러 **F4** 불러오려면 합니다 **속성** 창입니다.
+2. 키를 눌러 **F4** 불러오려면 합니다 **속성** 창입니다.
 
-3.  에 **속성** 창에서 줄임표 단추 옆에를 클릭 합니다 **GenericTypeArguments** 속성입니다.
+3. 에 **속성** 창에서 줄임표 단추 옆에를 클릭 합니다 **GenericTypeArguments** 속성입니다.

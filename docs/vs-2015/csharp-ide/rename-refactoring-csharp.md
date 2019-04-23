@@ -16,12 +16,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 40e13682b6ff22a0052adc7db9f9db9f18d36cc9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 82f3d4a3ae9bc587fef038186afe9faef880571c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983537"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114733"
 ---
 # <a name="rename-refactoring-c"></a>이름 바꾸기 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "58983537"
   
 #### <a name="to-rename-an-identifier"></a>식별자의 이름을 바꾸려면  
   
-1.  `RenameIdentifier`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
+1. `RenameIdentifier`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
   
     ```csharp  
     class ProtoClassA  
@@ -76,23 +76,23 @@ ms.locfileid: "58983537"
     }  
     ```  
   
-2.  커서를 놓고 `MethodB`를 메서드 선언 또는 메서드 호출 합니다.  
+2. 커서를 놓고 `MethodB`를 메서드 선언 또는 메서드 호출 합니다.  
   
-3.  **리팩터링** 메뉴에서 **이름 바꾸기**합니다. 합니다 **이름 바꾸기** 대화 상자가 나타납니다.  
+3. **리팩터링** 메뉴에서 **이름 바꾸기**합니다. 합니다 **이름 바꾸기** 대화 상자가 나타납니다.  
   
      커서를 마우스 오른쪽 단추로 클릭 가리킵니다 **리팩터링** 상황에 맞는 메뉴를 클릭 한 다음 **이름 바꾸기** 표시 하는 **이름 바꾸기** 대화 상자.  
   
-4.  에 **새 이름을** 필드에 입력 `MethodC`합니다.  
+4. 에 **새 이름을** 필드에 입력 `MethodC`합니다.  
   
-5.  선택 된 **주석에서 검색** 확인란 합니다.  
+5. 선택 된 **주석에서 검색** 확인란 합니다.  
   
-6.  **확인**을 클릭합니다.  
+6. **확인**을 클릭합니다.  
   
-7.  에 **변경 내용 미리 보기** 대화 상자, 클릭 **적용**합니다.  
+7. 에 **변경 내용 미리 보기** 대화 상자, 클릭 **적용**합니다.  
   
 #### <a name="to-rename-an-identifier-using-smart-tags"></a>스마트 태그를 사용 하 여 식별자 이름을 바꾸려면  
   
-1.  `RenameIdentifier`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
+1. `RenameIdentifier`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
   
     ```csharp  
     class ProtoClassA  
@@ -113,18 +113,18 @@ ms.locfileid: "58983537"
     }  
     ```  
   
-2.  선언에 `MethodB`, 형식 또는 메서드 식별자 백스페이스 키입니다. 이 식별자 아래에 스마트 태그 프롬프트가 표시 됩니다.  
+2. 선언에 `MethodB`, 형식 또는 메서드 식별자 백스페이스 키입니다. 이 식별자 아래에 스마트 태그 프롬프트가 표시 됩니다.  
   
     > [!NOTE]
     >  이름 바꾸기 리팩터링 스마트 태그를 사용 하 여 한 식별자 선언에만 호출할 수 있습니다.  
   
-3.  SHIFT + ALT + F10 바로 가기 키를 입력 하 고 스마트 태그 메뉴에 표시할 아래쪽 화살표를 누릅니다.  
+3. SHIFT + ALT + F10 바로 가기 키를 입력 하 고 스마트 태그 메뉴에 표시할 아래쪽 화살표를 누릅니다.  
   
      또는  
   
      스마트 태그를 표시 하는 스마트 태그 메시지 위로 마우스 포인터를 이동 합니다. 스마트 태그 위에 마우스 포인터를 이동 하 고 스마트 태그 메뉴에 표시할 아래쪽 화살표를 클릭 합니다.  
   
-4.  선택 된 **이름 바꾸기 '\<identifer1 >'를 '\<identifier2 >'** 메뉴 항목 이름 바꾸기 리팩터링 코드의 변경 내용 미리 보기 없이 호출을 합니다. 에 대 한 모든 참조가  **\<identifer1 >** 으로 자동 업데이트 됩니다  **\<identifier2 >** 합니다.  
+4. 선택 된 **이름 바꾸기 '\<identifer1 >'를 '\<identifier2 >'** 메뉴 항목 이름 바꾸기 리팩터링 코드의 변경 내용 미리 보기 없이 호출을 합니다. 에 대 한 모든 참조가  **\<identifer1 >** 으로 자동 업데이트 됩니다  **\<identifier2 >** 합니다.  
   
      또는  
   

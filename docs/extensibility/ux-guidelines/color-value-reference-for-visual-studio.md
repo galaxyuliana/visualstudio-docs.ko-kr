@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: Jamie.Young
 manager: jillfra
-ms.openlocfilehash: 20fbe41bef16527ee66d0e87de8456ed1c65b865
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
+ms.openlocfilehash: 64d2396215ab8c27607e5d1734cdc8cdfe675db6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428832"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60118086"
 ---
 # <a name="color-value-reference-for-visual-studio"></a>Visual Studio에 대 한 색 값 참조
 
@@ -26,13 +26,13 @@ ms.locfileid: "57428832"
 
 이 참조 가이드를 사용할 때 기억해 야 합니다.
 
--   **항상 전경 및 배경 색상을 함께 복사 합니다.** 색상을 원하는 단지 하나의 UI 요소와 다른 백그라운드에서 포그라운드를 선택 하지 마십시오.
+- **항상 전경 및 배경 색상을 함께 복사 합니다.** 색상을 원하는 단지 하나의 UI 요소와 다른 백그라운드에서 포그라운드를 선택 하지 마십시오.
 
--   **이들은 16 진수 코드를 색 토큰에 없습니다.** 토큰을 나중에 변경 될 수 있습니다 하는 방법을 제어할 수 없으므로 이러한 UI 요소의 실제 색 토큰 이름을 사용할 수 없습니다. 대신 사용자 고유의 범주 내 토큰 만들고 테이블에 표시 되는 색상 값을 사용 합니다. 기존 UI에서 찾을 수 있습니다에 대 한 토큰 색상 [Visual Studio에 대 한 색 공유](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md)합니다.
+- **이들은 16 진수 코드를 색 토큰에 없습니다.** 토큰을 나중에 변경 될 수 있습니다 하는 방법을 제어할 수 없으므로 이러한 UI 요소의 실제 색 토큰 이름을 사용할 수 없습니다. 대신 사용자 고유의 범주 내 토큰 만들고 테이블에 표시 되는 색상 값을 사용 합니다. 기존 UI에서 찾을 수 있습니다에 대 한 토큰 색상 [Visual Studio에 대 한 색 공유](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md)합니다.
 
 - **높은 대비 견본 비교만 표시 됩니다.** 높은 대비 UI에 대 한 시스템 색 이름을 사용 하 고 이러한 견본에는 스 포 이트 또는 색 선택기를 사용 하지 마십시오. 이 항목의 높은 대비 견본 Windows에서 고대비 #1 테마를 반영합니다. 색 다른 고대비 테마에서 다르게 보입니다.
 
--   **최상의 결과 쌍 색 설정 UI를 사용 하 여 예제와 비슷합니다.**
+- **최상의 결과 쌍 색 설정 UI를 사용 하 여 예제와 비슷합니다.**
 
 ## <a name="properties-window"></a>속성 창
 

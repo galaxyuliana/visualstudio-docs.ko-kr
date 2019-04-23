@@ -11,12 +11,12 @@ ms.assetid: 1bf11fec-dece-4943-8053-6de1483c43eb
 caps.latest.revision: 30
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 319d889d2763662cda92d815ce45a3becfcab8cf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 8c2b993a6c6947adfa3b01f2947b992b23236b8f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970979"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106126"
 ---
 # <a name="creating-options-pages"></a>옵션 페이지 만들기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,9 +27,9 @@ ms.locfileid: "58970979"
   
  환경 특정 구현 하는 개체를 인스턴스화하고 때문 **도구 옵션** 해당 특정 페이지 IDE에 의해 표시 되 면 페이지:  
   
--   A **도구 옵션** VSPackage를 구현 하는 개체 아닌 자체의 개체에 페이지를 구현 해야 합니다.  
+- A **도구 옵션** VSPackage를 구현 하는 개체 아닌 자체의 개체에 페이지를 구현 해야 합니다.  
   
--   개체를 여러 개 구현할 수 없습니다 **도구 옵션** 페이지입니다.  
+- 개체를 여러 개 구현할 수 없습니다 **도구 옵션** 페이지입니다.  
   
 ## <a name="registering-as-a-tools-options-page-provider"></a>도구 옵션 페이지 공급자로 등록  
  통해 지 원하는 사용자 VSPackage 구성을 **도구 옵션** 페이지 제공 하는 이러한 개체를 나타냅니다 **도구 옵션** 의 인스턴스를 적용 하 여 페이지 <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> 합니다 적용할<xref:Microsoft.VisualStudio.Shell.Package>구현입니다.  

@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: conceptdev
 ms.author: crdun
 manager: jillfra
-ms.openlocfilehash: 6901c44e61ba291bbc40ad9654f27f52f0e7f48a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 184004d24d685c0e7242f9ba5b34f679cc581d26
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655171"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105034"
 ---
 # <a name="getting-started-with-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,30 +27,30 @@ ms.locfileid: "59655171"
 ## <a name="prerequisites"></a>전제 조건  
  Visual Studio Tools for Unity를 사용하려면 다음이 필요합니다.  
   
--   Visual Studio Community, Professional, Premium 또는 Enterprise와 같은 확장을 지원하는 **Visual Studio** 버전. Visual Studio Community를 무료로 다운로드할 수 있습니다.  
+- Visual Studio Community, Professional, Premium 또는 Enterprise와 같은 확장을 지원하는 **Visual Studio** 버전. Visual Studio Community를 무료로 다운로드할 수 있습니다.  
   
      [Visual Studio Community 다운로드](http://www.visualstudio.com/downloads/download-visual-studio-vs)  
   
--   **Unity** 버전 4.0.0 이상. Visual Studio Tools for Unity 2.1 이상에 대한 기본 제공 지원을 활용하려면 **Unity** 버전 5.2.0 이상  
+- **Unity** 버전 4.0.0 이상. Visual Studio Tools for Unity 2.1 이상에 대한 기본 제공 지원을 활용하려면 **Unity** 버전 5.2.0 이상  
   
      [Unity 다운로드](https://unity3d.com/get-unity/download)  
   
 ## <a name="install-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 설치  
  Visual Studio 갤러리에서 Visual Studio Tools for Unity를 다운로드하고 설치합니다. 사용 중인 Visual Studio 버전에 맞는 패키지를 설치해야 합니다. Unity 5.2 이상에서 VSTU에 대한 기본 제공 지원을 활용하려면 Visual Studio Tools for Unity 버전 2.1 이상을 설치해야 합니다.  
   
--   Visual Studio 2015 Community, Visual Studio 2015 Professional 또는 Visual Studio 2015 Enterprise의 경우:  
+- Visual Studio 2015 Community, Visual Studio 2015 Professional 또는 Visual Studio 2015 Enterprise의 경우:  
   
      [Visual Studio 2015 Tools for Unity 다운로드](https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9)  
   
--   Visual Studio 2013 Community, Visual Studio 2013 Professional 또는 Visual Studio 2013 Premium의 경우:  
+- Visual Studio 2013 Community, Visual Studio 2013 Professional 또는 Visual Studio 2013 Premium의 경우:  
   
      [Visual Studio 2013 Tools for Unity 다운로드](https://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2)  
   
--   Visual Studio 2012 Professional 또는 Visual Studio 2012 Premium의 경우:  
+- Visual Studio 2012 Professional 또는 Visual Studio 2012 Premium의 경우:  
   
      [Visual Studio 2012 Tools for Unity 다운로드](https://visualstudiogallery.msdn.microsoft.com/7ab11d2a-f413-4ed6-b3de-ff1d05157714)  
   
--   Visual Studio 2010 Professional 또는 Visual Studio 2010 Premium의 경우:  
+- Visual Studio 2010 Professional 또는 Visual Studio 2010 Premium의 경우:  
   
      [Visual Studio 2010 Tools for Unity 다운로드](https://visualstudiogallery.msdn.microsoft.com/6e536faa-ce73-494a-a746-6a14753015f1)  
   

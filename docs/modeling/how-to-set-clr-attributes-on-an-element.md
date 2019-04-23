@@ -11,31 +11,31 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b890a5d3d5c48ad3841075a8ae818d2d37d44f98
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8954aa6a42e743617080bb6918508273c1dd9528
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946628"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60089109"
 ---
 # <a name="how-to-set-clr-attributes-on-an-element"></a>방법: 요소에 CLR 특성 설정
 사용자 지정 특성은 도메인 요소, 모양, 연결선 및 다이어그램에 추가할 수 있는 특수 한 특성입니다. 상속 되는 모든 특성을 추가할 수는 `System.Attribute` 클래스입니다.
 
 ### <a name="to-add-a-custom-attribute"></a>사용자 지정 특성을 추가 하려면
 
-1.  에 **DSL 탐색기**, 사용자 지정 특성을 추가 하려면 원하는 요소를 선택 합니다.
+1. 에 **DSL 탐색기**, 사용자 지정 특성을 추가 하려면 원하는 요소를 선택 합니다.
 
-2.  에 **속성** 창에서 다음을 합니다 **사용자 지정 특성** 속성인 찾아보기 (**...** ) 아이콘입니다.
+2. 에 **속성** 창에서 다음을 합니다 **사용자 지정 특성** 속성인 찾아보기 (**...** ) 아이콘입니다.
 
      합니다 **특성 편집** 대화 상자가 열립니다.
 
-3.  에 **이름** 열을 클릭  **\<특성 추가 >** 특성의 이름을 입력 합니다. Enter 키를 누릅니다.
+3. 에 **이름** 열을 클릭  **\<특성 추가 >** 특성의 이름을 입력 합니다. Enter 키를 누릅니다.
 
-4.  특성 이름에서 줄에서는 괄호를 보여 줍니다. 이 줄에서 입력 특성에 대 한 매개 변수 형식 (예를 들어 `string`), 한 다음 ENTER를 누릅니다.
+4. 특성 이름에서 줄에서는 괄호를 보여 줍니다. 이 줄에서 입력 특성에 대 한 매개 변수 형식 (예를 들어 `string`), 한 다음 ENTER를 누릅니다.
 
-5.  에 **이름 속성** 열, 예를 들어 적절 한 이름을 입력 `MyString`합니다.
+5. 에 **이름 속성** 열, 예를 들어 적절 한 이름을 입력 `MyString`합니다.
 
-6.  **확인**을 클릭합니다.
+6. **확인**을 클릭합니다.
 
      합니다 **사용자 지정 특성** 속성 형식은 이제 특성을 표시 합니다.
 

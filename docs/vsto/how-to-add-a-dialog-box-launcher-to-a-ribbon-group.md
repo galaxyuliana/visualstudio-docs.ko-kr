@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aa12fdc3eea5c353071fb4a80e2c99f2f9e060c2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 9d831cb629665e641394d011bd11eb74481c4f94
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629952"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087185"
 ---
 # <a name="how-to-add-a-dialog-box-launcher-to-a-ribbon-group"></a>방법: 리본 그룹에 대화 상자 표시 아이콘 추가
   리본의 그룹에 대화 상자 표시 아이콘을 추가할 수 있습니다. 대화 상자 표시 아이콘은 그룹에 표시 되는 작은 아이콘입니다. 사용자 그룹에 관련 된 추가 옵션을 제공 하는 작업 창 또는 관련된 대화 상자를 열려면이 아이콘을 클릭 합니다.
@@ -27,11 +27,11 @@ ms.locfileid: "56629952"
 
 ### <a name="to-add-a-dialog-box-launcher-to-a-ribbon-group"></a>리본 그룹에 대화 상자 표시 아이콘을 추가 하려면
 
-1.  리본 코드 파일을 선택 (*.vb* 하거나 *.cs* 파일)에서 **솔루션 탐색기**합니다.
+1. 리본 코드 파일을 선택 (*.vb* 하거나 *.cs* 파일)에서 **솔루션 탐색기**합니다.
 
-2.  에 **뷰** 메뉴에서 클릭 **디자이너**합니다.
+2. 에 **뷰** 메뉴에서 클릭 **디자이너**합니다.
 
-3.  리본 디자이너에서 모든 그룹을 마우스 오른쪽 단추로 클릭 한 다음 클릭 **DialogBoxLauncher 추가**합니다.
+3. 리본 디자이너에서 모든 그룹을 마우스 오른쪽 단추로 클릭 한 다음 클릭 **DialogBoxLauncher 추가**합니다.
 
      코드를 추가 하는 <xref:Microsoft.Office.Tools.Ribbon.RibbonGroup.DialogLauncherClick> 이벤트 그룹을 사용자 지정 또는 기본 제공 대화 상자를 엽니다.
 

@@ -12,12 +12,12 @@ ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
 caps.latest.revision: 39
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 28588f04119eea31dfb0f32beb3b78376aa1b6b3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3c63f6c98153c9f7a9fab171b3caddd57df717cc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983239"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107803"
 ---
 # <a name="adding-a-menu-controller-to-a-toolbar"></a>도구 모음에 메뉴 컨트롤러 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -114,7 +114,7 @@ ms.locfileid: "58983239"
   
 ## <a name="implementing-the-menu-controller-commands"></a>메뉴 컨트롤러 명령 구현  
   
-1.  TWTestCommandPackageGuids.cs, 기존 명령 Id 뒤에 세 가지 메뉴 항목에 대 한 명령 Id를 추가 합니다.  
+1. TWTestCommandPackageGuids.cs, 기존 명령 Id 뒤에 세 가지 메뉴 항목에 대 한 명령 Id를 추가 합니다.  
   
     ```csharp  
     public const int cmdidMCItem1 = 0x130;  
@@ -122,13 +122,13 @@ ms.locfileid: "58983239"
     public const int cmdidMCItem3 = 0x132;  
     ```  
   
-2.  TWTestCommand.cs, TWTestCommand 클래스의 맨 위에 있는 다음 코드를 추가 합니다.  
+2. TWTestCommand.cs, TWTestCommand 클래스의 맨 위에 있는 다음 코드를 추가 합니다.  
   
     ```csharp  
     private int currentMCCommand; // The currently selected menu controller command  
     ```  
   
-3.  TWTestCommand 생성자에 대 한 마지막 호출 후에 `AddCommand` 메서드를 동일한 처리기를 통해 각 명령에 대 한 이벤트를 라우팅하는 코드를 추가 합니다.  
+3. TWTestCommand 생성자에 대 한 마지막 호출 후에 `AddCommand` 메서드를 동일한 처리기를 통해 각 명령에 대 한 이벤트를 라우팅하는 코드를 추가 합니다.  
   
     ```csharp  
     for (int i = TWTestCommandPackageGuids.cmdidMCItem1; i <=  
@@ -149,7 +149,7 @@ ms.locfileid: "58983239"
     }  
     ```  
   
-4.  선택으로 선택한 명령을 표시할 TWTestCommand 클래스에 이벤트 처리기를 추가 합니다.  
+4. 선택으로 선택한 명령을 표시할 TWTestCommand 클래스에 이벤트 처리기를 추가 합니다.  
   
     ```csharp  
     private void OnMCItemQueryStatus(object sender, EventArgs e)  
@@ -162,7 +162,7 @@ ms.locfileid: "58983239"
     }  
     ```  
   
-5.  사용자가 메뉴 컨트롤러에서 명령을 선택할 때 MessageBox를 표시 하는 이벤트 처리기를 추가 합니다.  
+5. 사용자가 메뉴 컨트롤러에서 명령을 선택할 때 MessageBox를 표시 하는 이벤트 처리기를 추가 합니다.  
   
     ```csharp  
     private void OnMCItemClicked(object sender, EventArgs e)  
@@ -214,13 +214,13 @@ ms.locfileid: "58983239"
   
 ## <a name="testing-the-menu-controller"></a>메뉴 컨트롤러 테스트  
   
-1.  프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스를 확인 해야 합니다.  
+1. 프로젝트를 빌드하고 디버깅을 시작합니다. 실험적 인스턴스를 확인 해야 합니다.  
   
-2.  엽니다는 **테스트 도구 창** 에 **보기 / 다른 Windows** 메뉴.  
+2. 엽니다는 **테스트 도구 창** 에 **보기 / 다른 Windows** 메뉴.  
   
      메뉴 컨트롤러 도구 창의 도구 모음에 나타나고 표시 **MC 항목 1**합니다.  
   
-3.  메뉴 컨트롤러 단추 왼쪽의 화살표를 클릭 합니다.  
+3. 메뉴 컨트롤러 단추 왼쪽의 화살표를 클릭 합니다.  
   
      세 항목의 첫 번째 선택한 아이콘 주위에 강조 표시 상자에 표시 됩니다. 클릭 **MC 항목 3**합니다.  
   

@@ -9,21 +9,21 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 939198eb18dd8fd572f1bd5bf3f4a21b44a5cf2d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 344975f0f28c8fc8ee6f8a213b519f0b17e5880a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936969"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105346"
 ---
 # <a name="text-template-control-blocks"></a>텍스트 템플릿 제어 블록
 제어 블록을 사용하면 다양한 출력을 생성하기 위해 텍스트 템플릿에 코드를 작성할 수 있습니다. 다음과 같은 세 가지 종류의 제어 블록이 있으며 각각 여는 대괄호로 구분됩니다.
 
--   `<# Standard control blocks #>`은 문을 포함할 수 있습니다.
+- `<# Standard control blocks #>`은 문을 포함할 수 있습니다.
 
--   `<#= Expression control blocks #>`은 식을 포함할 수 있습니다.
+- `<#= Expression control blocks #>`은 식을 포함할 수 있습니다.
 
--   `<#+ Class feature control blocks #>`은 메서드, 필드 및 속성을 포함할 수 있습니다.
+- `<#+ Class feature control blocks #>`은 메서드, 필드 및 속성을 포함할 수 있습니다.
 
 ## <a name="standard-control-block"></a>표준 제어 블록
  표준 제어 블록은 문을 포함합니다. 예를 들어, 다음 표준 블록에서는 XML 문서에서 모든 특성의 이름을 가져옵니다.
@@ -145,17 +145,17 @@ Some text.
 
  제어 블록을 사용할 때는 다음 사항을 고려해야 합니다.
 
--   **언어입니다.** 텍스트 템플릿에서 C# 또는 Visual Basic 코드를 사용할 수 있습니다. 기본 언어는 C#이지만 `template` 지시문의 `language` 매개 변수를 사용하여 Visual Basic을 지정할 수 있습니다. (에 대 한 자세한 내용은 합니다 `template` 지시문을 참조 하십시오 [T4 텍스트 템플릿 지시문](../modeling/t4-text-template-directives.md).)
+- **언어입니다.** 텍스트 템플릿에서 C# 또는 Visual Basic 코드를 사용할 수 있습니다. 기본 언어는 C#이지만 `template` 지시문의 `language` 매개 변수를 사용하여 Visual Basic을 지정할 수 있습니다. (에 대 한 자세한 내용은 합니다 `template` 지시문을 참조 하십시오 [T4 텍스트 템플릿 지시문](../modeling/t4-text-template-directives.md).)
 
      제어 블록에서 사용하는 언어는 텍스트 템플릿에서 생성하는 텍스트의 언어 또는 형식과 관련이 없습니다. Visual Basic 코드를 사용하여 C#을 생성할 수 있으며 그 반대로도 생성할 수 있습니다.
 
      `include` 지시문을 사용하여 포함하는 모든 텍스트 템플릿을 비롯한 지정된 텍스트 템플릿에서 한 언어만 사용할 수 있습니다.
 
--   **지역 변수입니다.** 텍스트 템플릿의 표준 및 식 제어 블록에 있는 모든 코드가 단일 메서드로 생성되므로 로컬 변수 이름과 충돌하지 않는지 확인해야 합니다. 다른 텍스트 템플릿을 포함하는 경우 변수 이름이 모든 포함된 템플릿에서 고유하도록 해야 합니다. 이렇게 하는 한 가지 방법은 텍스트 템플릿을 식별하는 각 로컬 변수 이름(해당 텍스트 템플릿에 선언됨)에 문자열을 추가하는 것입니다.
+- **지역 변수입니다.** 텍스트 템플릿의 표준 및 식 제어 블록에 있는 모든 코드가 단일 메서드로 생성되므로 로컬 변수 이름과 충돌하지 않는지 확인해야 합니다. 다른 텍스트 템플릿을 포함하는 경우 변수 이름이 모든 포함된 템플릿에서 고유하도록 해야 합니다. 이렇게 하는 한 가지 방법은 텍스트 템플릿을 식별하는 각 로컬 변수 이름(해당 텍스트 템플릿에 선언됨)에 문자열을 추가하는 것입니다.
 
      특히 여러 텍스트 템플릿을 포함하는 경우 로컬 변수를 선언할 때 적절한 값으로 초기화하는 것도 좋은 방법입니다.
 
--   **제어 블록의 중첩.** 제어 블록은 다른 제어 블록 안에 중첩될 수 없습니다. 다른 제어 블록을 열기 전에 주어진 제어 블록을 항상 종료해야 합니다. 예를 들어, 다음은 표준 제어 블록의 일부로 식 블록의 텍스트를 인쇄하는 방법을 보여 줍니다.
+- **제어 블록의 중첩.** 제어 블록은 다른 제어 블록 안에 중첩될 수 없습니다. 다른 제어 블록을 열기 전에 주어진 제어 블록을 항상 종료해야 합니다. 예를 들어, 다음은 표준 제어 블록의 일부로 식 블록의 텍스트를 인쇄하는 방법을 보여 줍니다.
 
     ```
     <#
@@ -167,4 +167,4 @@ Some text.
     <# } #>
     ```
 
--   **리팩터링 합니다.** 텍스트 템플릿을 간단하고 이해하기 쉽게 유지하려면 다시 사용할 수 있는 코드를 클래스 기능 블록에서 도우미 함수로 구분하거나 Microsoft.VisualStudio.TextTemplating.TextTransformation 클래스에서 상속하는 텍스트 템플릿 클래스를 만들어 반복되는 코드를 방지하는 것이 좋습니다.
+- **리팩터링 합니다.** 텍스트 템플릿을 간단하고 이해하기 쉽게 유지하려면 다시 사용할 수 있는 코드를 클래스 기능 블록에서 도우미 함수로 구분하거나 Microsoft.VisualStudio.TextTemplating.TextTransformation 클래스에서 상속하는 텍스트 템플릿 클래스를 만들어 반복되는 코드를 방지하는 것이 좋습니다.

@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ffc7fbdace660a894352623a3ff8765a165b5556
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 70c83c31ba8c415de9c2a7be8f60c9c6ee8ba9ac
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619500"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111534"
 ---
 # <a name="how-to-specify-verbose-log-files-for-clickonce-deployments"></a>방법: ClickOnce 배포에 대한 자세한 로그 파일 지정
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 모든 배포에 대 한 활동 로그를 유지 관리합니다. 이러한 로그는 설치, 초기화, 업데이트 및 제거와 관련 된 세부 정보 문서는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 합니다. 세부 사항이 증가 하는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 레지스트리 편집기를 사용 하 여 이러한 로그 파일에 쓰기 (*regedit.exe*) 세부 정보 표시 수준을 지정 하려면.
@@ -32,13 +32,13 @@ ms.locfileid: "56619500"
 
 ### <a name="to-specify-verbose-log-files"></a>자세한 로그 파일을 지정 하려면
 
-1.  오픈 *Regedit.exe*합니다.
+1. 오픈 *Regedit.exe*합니다.
 
-2.  노드로 이동 **HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment**합니다.
+2. 노드로 이동 **HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment**합니다.
 
-3.  필요한 경우 라는 새 문자열 값을 만듭니다. `LogVerbosityLevel`합니다.
+3. 필요한 경우 라는 새 문자열 값을 만듭니다. `LogVerbosityLevel`합니다.
 
-4.  설정 된 `LogVerbosityLevel` 값을 `1`입니다.
+4. 설정 된 `LogVerbosityLevel` 값을 `1`입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)

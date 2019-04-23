@@ -10,23 +10,23 @@ ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 85c537d5e915324a2bd8cd858c5ff133370b62f7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 51fac40d0bffe570ac1f374872fb4572c1c83441
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983685"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60109467"
 ---
 # <a name="source-control-configuration-details"></a>소스 제어 구성 세부 정보
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 소스 제어를 구현 하려면 다음을 수행 하 여 편집기나 프로젝트 시스템을 올바르게 구성 해야 합니다.  
   
--   변경 된 상태로 전환 하는 권한을 요청합니다  
+- 변경 된 상태로 전환 하는 권한을 요청합니다  
   
--   파일을 저장할 수 있는 권한을 요청  
+- 파일을 저장할 수 있는 권한을 요청  
   
--   추가, 제거 또는 프로젝트의 파일 이름을 바꿀 수 있는 권한을 요청합니다  
+- 추가, 제거 또는 프로젝트의 파일 이름을 바꿀 수 있는 권한을 요청합니다  
   
 ## <a name="request-permission-to-transition-to-changed-state"></a>변경 된 상태로 전환 하는 권한을 요청합니다  
  프로젝트 또는 편집기를 호출 하 여 변경 된 (더티) 상태로 전환 하는 권한을 요청 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>합니다. 구현 하는 각 편집기 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData.IsDocDataDirty%2A> 를 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> 환경에서 문서를 반환 하기 전에 변경에 대 한 승인 받고 `True` 에 대 한 `M:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData.IsDocDataDirty(System.Int32@)`합니다. 프로젝트를 기본적으로 프로젝트 파일에 대 한 편집기 있고 결과적으로, 해당 파일에 대 한 텍스트 편집기와 마찬가지로 프로젝트 파일에 대 한 상태 변경 추적을 구현에 대 한 동일한 책임이 있습니다. 환경 솔루션의 변경 된 상태를 처리 하지만 솔루션 참조 하지만 프로젝트 파일 또는 해당 항목 처럼 저장 하지 않습니다 모든 개체의 변경된 된 상태를 처리 해야 합니다. 일반적으로 프로젝트 또는 편집기를 지 속성 항목에 대 한 관리를 담당 하는 경우 다음 것 상태 변경 추적을 구현 하는 일을 담당 합니다.  

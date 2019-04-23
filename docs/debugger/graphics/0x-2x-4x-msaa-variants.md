@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 74d1be80fff92a8663582ba4e51e65ecc224ef1f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: a442ed4a81cac312c675d9dd6d83a8901e939f15
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56699225"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093984"
 ---
 # <a name="0x2x4x-msaa-variants"></a>0x/2x/4x MSAA 변형
 모든 렌더링 대상 및 스왑 체인에서 MSAA(MultiSample Anti-Aliasing) 설정을 재정의합니다.
@@ -28,18 +28,18 @@ ms.locfileid: "56699225"
 > [!NOTE]
 >  하드웨어에서는 일부 형식에 대해 MSAA를 완전히 지원하지 않을 수 있습니다. 이러한 변형에서 해결할 수 없는 하드웨어 제한이 발생한 경우 성능 요약 테이블의 해당 열은 빈 칸이며 오류 메시지가 생성됩니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  이러한 변형은 렌더링 대상을 생성하는 `ID3DDevice::CreateTexture2D`에 대한 호출 시 샘플 수 및 샘플 품질 인수를 재정의합니다. 특히 이러한 매개 변수는 다음과 같은 경우 재정의됩니다.
 
 - `D3D11_TEXTURE2D_DESC`에서 전달된 `pDesc` 개체가 렌더링 대상을 설명하는 경우, 즉 다음과 같은 경우입니다.
 
-  -   BindFlags 멤버에는 D3D11_BIND_TARGET 플래그 또는 D3D11_BIND_DEPTH_STENCIL 플래그 집합이 있습니다.
+  - BindFlags 멤버에는 D3D11_BIND_TARGET 플래그 또는 D3D11_BIND_DEPTH_STENCIL 플래그 집합이 있습니다.
 
-  -   Usage 멤버가 D3D11_USAGE_DEFAULT로 설정된 경우
+  - Usage 멤버가 D3D11_USAGE_DEFAULT로 설정된 경우
 
-  -   CPUAccessFlags 멤버는 0으로 설정되어 있습니다.
+  - CPUAccessFlags 멤버는 0으로 설정되어 있습니다.
 
-  -   MipLevels 멤버는 1으로 설정되어 있습니다.
+  - MipLevels 멤버는 1으로 설정되어 있습니다.
 
 - 장치에서는 `ID3D11Device::CheckMultisampleQualityLevels`이 결정한 대로 요청된 렌더링 대상 형식(D3D11_TEXTURE2D_DESC::Format 멤버)에 대한 요청된 샘플 수(0, 2 또는 4) 및 샘플 품질(0)을 지원합니다.
 

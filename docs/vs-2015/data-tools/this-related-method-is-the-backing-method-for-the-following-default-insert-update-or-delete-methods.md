@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 01c044c86922e5161aaf3d7d342dd02d3ff01afc
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 53b27637a270e18ae56809cce8c478de1929b48e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59667316"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111794"
 ---
 # <a name="this-related-method-is-the-backing-method-for-the-following-default-insert-update-or-delete-methods"></a>이 관련 메서드는 다음과 같은 기본 삽입, 업데이트 및 삭제 메서드를 지원하는 메서드입니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,13 +25,13 @@ ms.locfileid: "59667316"
   
 ### <a name="to-delete-the-selected-method-causing-the-entity-class-to-use-runtime-updates"></a>엔터티 클래스에서 런타임 업데이트를 사용할 수 있도록 선택한 메서드를 삭제하려면  
   
--   **예**를 클릭합니다.  
+- **예**를 클릭합니다.  
   
      선택한 메서드가 삭제되고 업데이트 동작을 재정의하기 위해 이 메서드를 사용하는 모든 클래스가 기본 LINQ to SQL 런타임 동작을 사용하도록 되돌립니다.  
   
 ### <a name="to-close-the-message-box-leaving-the-selected-method-unchanged"></a>선택한 메서드를 변경하지 않고 메시지 상자를 닫으려면  
   
--   **아니요**를 클릭합니다.  
+- **아니요**를 클릭합니다.  
   
      메시지 상자가 닫히고 변경되지 않습니다.  
   

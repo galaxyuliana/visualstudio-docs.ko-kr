@@ -13,12 +13,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: be99c10a999ec190f538816e39eac411dc85544e
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: daace3e78cca67fd9b44144cd6c8a5608dbd9a1e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54763376"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111196"
 ---
 # <a name="disk-operations-report-threads-view"></a>디스크 작업 보고서(스레드 뷰)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,23 +27,23 @@ ms.locfileid: "54763376"
   
  현재 표시되는 기간에 프로파일링 중인 프로세스를 대신해서 발생하는 각 디스크 액세스에 대해서는 다음 정보가 보고됩니다.  
   
--   디스크 액세스를 수행한 프로세스의 이름 및 PID  
+- 디스크 액세스를 수행한 프로세스의 이름 및 PID  
   
--   디스크에 액세스한 스레드의 ID  
+- 디스크에 액세스한 스레드의 ID  
   
--   액세스된 파일의 이름  
+- 액세스된 파일의 이름  
   
--   파일당 읽기 횟수  
+- 파일당 읽기 횟수  
   
--   읽은 바이트 수  
+- 읽은 바이트 수  
   
--   읽기 대기 시간(밀리초)  
+- 읽기 대기 시간(밀리초)  
   
--   쓰기 횟수  
+- 쓰기 횟수  
   
--   기록한 바이트 수  
+- 기록한 바이트 수  
   
--   쓰기 대기 시간(밀리초)  
+- 쓰기 대기 시간(밀리초)  
   
 ## <a name="see-also"></a>참고 항목  
  [스레드 뷰](../profiling/threads-view-parallel-performance.md)

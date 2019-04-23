@@ -17,12 +17,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0fa25e0bf7742420e21ac75883f9927478ee2c23
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: b1549cf23f87a56f724a0b5e56b7b59f4fa88ac2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656611"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105008"
 ---
 # <a name="edit-data-in-datasets"></a>데이터 세트의 데이터 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "59656611"
   
 #### <a name="to-delete-records-from-a-data-table"></a>데이터 테이블에서 레코드를 삭제 하려면  
   
--   호출 된 <xref:System.Data.DataRow.Delete%2A> 메서드는 <xref:System.Data.DataRow>합니다.  
+- 호출 된 <xref:System.Data.DataRow.Delete%2A> 메서드는 <xref:System.Data.DataRow>합니다.  
   
      이 메서드 레코드를 물리적으로 제거 하지 않습니다. 대신, 삭제에 대 한 레코드를 표시합니다.  
   
@@ -83,7 +83,7 @@ ms.locfileid: "59656611"
   
 #### <a name="to-determine-if-changes-have-been-made-to-any-rows"></a>모든 행에 변경 사항이 생겼는지 확인 하려면  
   
--   호출 된 <xref:System.Data.DataSet.HasChanges%2A> 메서드를 확인 하는 데이터 집합의 행을 변경 합니다.  
+- 호출 된 <xref:System.Data.DataSet.HasChanges%2A> 메서드를 확인 하는 데이터 집합의 행을 변경 합니다.  
   
      다음 예제에서는 반환 값을 확인 하는 방법의 <xref:System.Data.DataSet.HasChanges%2A> 변경 된 행 이라는 데이터 집합에 있는지 여부를 검색 하는 방법 `NorthwindDataset1`:  
   
@@ -95,7 +95,7 @@ ms.locfileid: "59656611"
   
 #### <a name="to-determine-what-type-of-changes-have-been-made-to-a-row"></a>확인 하려면 어떤 유형의 변경에 적용 된 행  
   
--   전달 된 <xref:System.Data.DataRowState> 값을 <xref:System.Data.DataSet.HasChanges%2A> 메서드.  
+- 전달 된 <xref:System.Data.DataRowState> 값을 <xref:System.Data.DataSet.HasChanges%2A> 메서드.  
   
      다음 예제에서는 명명 된 데이터 집합을 확인 하는 방법을 보여 줍니다 `NorthwindDataset1` 새 행을 추가한 경우를 확인 하려면:  
   
@@ -105,9 +105,9 @@ ms.locfileid: "59656611"
 ## <a name="to-locate-rows-that-have-errors"></a>오류가 있는 행을 찾기 위한  
  개별 열 및 행의 데이터를 사용할 때 오류가 발생할 수 있습니다. 확인할 수 있습니다 합니다 `HasErrors` 속성에 오류가 있는지 확인 하는 <xref:System.Data.DataSet>를 <xref:System.Data.DataTable>, 또는 <xref:System.Data.DataRow>합니다.  
   
-1.  확인 된 `HasErrors` 속성을 데이터 집합에 오류가 있는지 확인 합니다.  
+1. 확인 된 `HasErrors` 속성을 데이터 집합에 오류가 있는지 확인 합니다.  
   
-2.  경우는 `HasErrors` 속성은 `true`, 테이블의 컬렉션을 반복 차례로 통해 행을 오류 행을 찾습니다.  
+2. 경우는 `HasErrors` 속성은 `true`, 테이블의 컬렉션을 반복 차례로 통해 행을 오류 행을 찾습니다.  
   
      [!code-csharp[VbRaddataEditing#23](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#23)]
      [!code-vb[VbRaddataEditing#23](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#23)]

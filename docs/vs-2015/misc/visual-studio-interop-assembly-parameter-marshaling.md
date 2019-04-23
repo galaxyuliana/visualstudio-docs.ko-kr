@@ -11,12 +11,12 @@ helpviewer_keywords:
 ms.assetid: 89123eae-0fef-46d5-bd36-3d2a166b14e3
 caps.latest.revision: 24
 manager: jillfra
-ms.openlocfilehash: 6bde8ba3acd88936e482124f189fd35f7a1d6421
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 209f5956d77e714f7f663693f9ac22241d428480
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970923"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105070"
 ---
 # <a name="visual-studio-interop-assembly-parameter-marshaling"></a>Visual Studio Interop 어셈블리 매개 변수 마샬링
 관리 코드에서 기록 되는 Vspackage를 호출 하거나 관리 되지 않는 COM 코드에서 호출 해야 합니다. 일반적으로 메서드 인수를 변환 또는 자동으로 interop 마샬러가 마샬링됩니다. 그러나 경우에 따라 인수 변환할 수 없는 간단한 방식입니다. 이러한 경우 interop 어셈블리 메서드 프로토타입 매개 변수는 COM 함수 매개 변수를 최대한 가깝게 일치 하도록 사용 됩니다. 자세한 내용은 [Interop 마샬링](http://msdn.microsoft.com/library/115f7a2f-d422-4605-ab36-13a8dd28142a)합니다.  
@@ -28,11 +28,11 @@ ms.locfileid: "58970923"
   
  각 메서드에 대 한 참조 설명서는 세 개의 관련 섹션이 포함 되어 있습니다.  
   
--   [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] COM 함수 프로토타입이 있습니다.  
+- [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] COM 함수 프로토타입이 있습니다.  
   
--   Interop 어셈블리 메서드 프로토타입입니다.  
+- Interop 어셈블리 메서드 프로토타입입니다.  
   
--   COM 매개 변수 및 각 대 한 간단한 설명을의 목록.  
+- COM 매개 변수 및 각 대 한 간단한 설명을의 목록.  
   
 ##### <a name="look-for-differences-between-the-two-prototypes"></a>두 가지 프로토타입 간의 차이점에 대 한 확인  
  대부분의 상호 운용성 문제에 같은 종류의 정의와 COM 인터페이스에서 특정 형식의 정의 간의 불일치에서 파생 된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interop 어셈블리입니다. 예를 들어 전달 하는 기능에서 차이 `null` [out] 매개 변수에서 값입니다. 두 가지 프로토타입 간의 차이점에 대 한 확인 하며 전달 되는 데이터에 대 한 해당 문제를 고려해 야 합니다.  
@@ -79,17 +79,17 @@ else
 > [!NOTE]
 >  다음 방법 전달할 알려져 `IUnknown` 형식으로 포인터를 개체 <xref:System.IntPtr>합니다. 이 섹션에 설명 된 대로 처리 합니다.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory.InitializeForOwner%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory.InitializeForOwner%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.CreateProject%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.CreateProject%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.QueryViewInterface%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.QueryViewInterface%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>  
   
 ### <a name="optional-out-parameters"></a>[Out] 매개 변수는 선택 사항  
  [Out]로 정의 된 매개 변수를 검색할 데이터 형식 (`int`, `object`등)에서 동일한 데이터 형식의 배열로 사용 되는 하지만 인터페이스를 COM에 정의 된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interop 어셈블리 메서드 프로토타입.  

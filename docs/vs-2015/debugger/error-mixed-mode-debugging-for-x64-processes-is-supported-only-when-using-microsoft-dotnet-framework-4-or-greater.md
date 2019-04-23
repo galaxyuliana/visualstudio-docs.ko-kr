@@ -16,12 +16,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6d338ee3660c4459510de7b01b42cb3670328e4c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 56ae0260b73d41e953fa25b74eae9b012604258a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972170"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106347"
 ---
 # <a name="error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-net-framework-4-or-greater"></a>오류: x64 프로세스용 혼합 모드 디버깅은 Microsoft .NET Framework 4 이상을 사용할 때만 지원됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "58972170"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   다음 단계 중 하나를 수행합니다.  
+- 다음 단계 중 하나를 수행합니다.  
   
-    -   [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]를 버전 4로 업그레이드합니다.  
+    - [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]를 버전 4로 업그레이드합니다.  
   
-    -   디버깅을 위해 32비트 버전의 응용 프로그램을 빌드합니다.  
+    - 디버깅을 위해 32비트 버전의 응용 프로그램을 빌드합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디바이스에서 원격 도구 설정](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)

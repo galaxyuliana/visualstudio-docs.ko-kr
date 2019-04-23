@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3142d854a3a6371983dc6c5851ad007c387f1480
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 025f5366938eb00114b035f0b7992d61433cc181
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603042"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102564"
 ---
 # <a name="validating-breakpoints-in-a-legacy-language-service"></a>레거시 언어 서비스의 중단점 유효성 검사
 중단점 디버거에서 실행 되는 동안 특정 지점에서 프로그램 실행 중지 해야 함을 나타냅니다. 편집기에 중단점의 올바른 위치를 구성 하는 데 대 한 지식은 없는 사용자 소스 파일에서 줄 중단점을 배치 수 있습니다. 디버거를 시작할 때 실행 중인 프로그램에 적절 한 위치에 바인딩됩니다 (보류 중단점 라고 함)은 표시 된 중단점의 모든 나타납니다. 중단점의 유효성을 검사 했는지 한 번에 유효한 코드 위치 표시 합니다. 예를 들어, 메모 중단점 올바르지 소스 코드의 위치에 있는 코드 없이 있기 때문에 합니다. 디버거가 잘못 된 중단점을 해제합니다.
@@ -25,13 +25,13 @@ ms.locfileid: "56603042"
 
 ## <a name="implementing-support-for-validating-breakpoints"></a>중단점 유효성 검사에 대 한 지원 구현
 
--   <xref:Microsoft.VisualStudio.Package.LanguageService.ValidateBreakpointLocation%2A> 메서드에 중단점의 위치를 제공 됩니다. 구현에는 위치가 유효 하 고 줄 위치를 사용 하 여 관련 코드를 식별 하는 텍스트 범위를 반환 하 여이 중단점이 나타내는 있는지 여부를 결정 해야 합니다.
+- <xref:Microsoft.VisualStudio.Package.LanguageService.ValidateBreakpointLocation%2A> 메서드에 중단점의 위치를 제공 됩니다. 구현에는 위치가 유효 하 고 줄 위치를 사용 하 여 관련 코드를 식별 하는 텍스트 범위를 반환 하 여이 중단점이 나타내는 있는지 여부를 결정 해야 합니다.
 
--   반환 <xref:Microsoft.VisualStudio.VSConstants.S_OK> 위치가 유효 하면 또는 <xref:Microsoft.VisualStudio.VSConstants.S_FALSE> 유효 하지 않은 경우.
+- 반환 <xref:Microsoft.VisualStudio.VSConstants.S_OK> 위치가 유효 하면 또는 <xref:Microsoft.VisualStudio.VSConstants.S_FALSE> 유효 하지 않은 경우.
 
--   중단점이 올바르면 중단점 함께 텍스트 범위를 강조 표시 됩니다.
+- 중단점이 올바르면 중단점 함께 텍스트 범위를 강조 표시 됩니다.
 
--   중단점 올바르지 않으면 오류 메시지가 상태 표시줄에 나타납니다.
+- 중단점 올바르지 않으면 오류 메시지가 상태 표시줄에 나타납니다.
 
 ### <a name="example"></a>예제
  구현을 보여 주는이 예제는 <xref:Microsoft.VisualStudio.Package.LanguageService.ValidateBreakpointLocation%2A> 지정 된 위치 (해당 되는 경우) 코드의 범위를 가져오려면 파서를 호출 하는 메서드입니다.

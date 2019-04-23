@@ -13,12 +13,12 @@ ms.assetid: 9d383e2c-eee1-4996-973a-0652d4c5951c
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 73dd2fc2fade7ab779a434920846d624f9777467
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 42f901fa31b3b682c7e19c98f5707adb3b4fb3f3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980919"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60093919"
 ---
 # <a name="querychangesfunc"></a>QUERYCHANGESFUNC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ typedef BOOL (*QUERYCHANGESFUNC)(
 |SCC_I_OPERATIONCANCELED|처리를 중지 합니다.|  
 |SCC_E_xxx|적절 한 SCC 오류 처리를 중지 해야 합니다.|  
   
-##  <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA 구조  
+## <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA 구조  
  각 파일에 전달 된 구조체는 다음과 같습니다.  
   
 ```cpp#  

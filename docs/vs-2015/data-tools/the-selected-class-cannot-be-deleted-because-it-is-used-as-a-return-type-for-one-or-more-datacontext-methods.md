@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 02454e308a97f043caa6e85e1c4308c2d2a2402e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: d8eb5f93ef3770b0d275d71d818e44d52a067f83
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649045"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094686"
 ---
 # <a name="the-selected-class-cannot-be-deleted-because-it-is-used-as-a-return-type-for-one-or-more-datacontext-methods"></a>선택한 클래스가 하나 이상의 DataContext 메서드의 반환 형식으로 사용되므로 해당 클래스를 삭제할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,9 +25,9 @@ ms.locfileid: "59649045"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-1.  식별 <xref:System.Data.Linq.DataContext> 반환 형식으로 선택 하 여 엔터티 클래스를 사용 하는 메서드를 <xref:System.Data.Linq.DataContext> 메서드에서 메서드 창 및 검사는 **반환 형식** 속성에는 **속성** 창 .  
+1. 식별 <xref:System.Data.Linq.DataContext> 반환 형식으로 선택 하 여 엔터티 클래스를 사용 하는 메서드를 <xref:System.Data.Linq.DataContext> 메서드에서 메서드 창 및 검사는 **반환 형식** 속성에는 **속성** 창 .  
   
-2.  **반환 형식**을 서로 다른 엔터티 클래스로 설정하거나 메서드 창에서 <xref:System.Data.Linq.DataContext> 메서드를 삭제합니다.  
+2. **반환 형식**을 서로 다른 엔터티 클래스로 설정하거나 메서드 창에서 <xref:System.Data.Linq.DataContext> 메서드를 삭제합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

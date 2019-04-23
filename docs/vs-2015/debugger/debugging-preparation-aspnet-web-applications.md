@@ -19,12 +19,12 @@ caps.latest.revision: 38
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: baa5e454eec00c2530190834974cd946838a0947
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e7a2640d39c90dc36a3960d230df46ac75bdbce6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983233"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092424"
 ---
 # <a name="debugging-preparation-aspnet-web-applications"></a>디버깅 준비 중: ASP.NET 웹 응용 프로그램
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,19 +33,19 @@ ms.locfileid: "58983233"
   
 ### <a name="to-create-a-web-forms-application"></a>Web Forms 응용 프로그램을 만들려면  
   
-1.  에 **파일** 메뉴 선택 **새 웹 사이트**합니다.  
+1. 에 **파일** 메뉴 선택 **새 웹 사이트**합니다.  
   
-2.  에 **새 웹 사이트** 대화 상자에서 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] **웹 사이트**합니다.  
+2. 에 **새 웹 사이트** 대화 상자에서 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] **웹 사이트**합니다.  
   
-3.  **확인**을 클릭합니다.  
+3. **확인**을 클릭합니다.  
   
 ### <a name="to-debug-your-web-form"></a>Web Form을 디버깅하려면  
   
-1.  함수와 이벤트 처리기에서 하나 이상의 중단점을 설정합니다.  
+1. 함수와 이벤트 처리기에서 하나 이상의 중단점을 설정합니다.  
   
      자세한 내용은 [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)을 참조하세요.  
   
-2.  중단점에 도달하면 함수 내부에서 코드를 단계별로 실행합니다. 문제가 해결될 때까지 코드의 실행을 확인합니다.  
+2. 중단점에 도달하면 함수 내부에서 코드를 단계별로 실행합니다. 문제가 해결될 때까지 코드의 실행을 확인합니다.  
   
      자세한 내용은 [단계별 실행](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) 하 고 [웹 응용 프로그램 디버깅 및 스크립트](../debugger/debugging-web-applications-and-script.md)합니다.  
   
@@ -54,13 +54,13 @@ ms.locfileid: "58983233"
   
 #### <a name="to-change-the-default-debug-configuration"></a>기본 디버그 구성을 변경하려면  
   
-1.  **솔루션 탐색기**, 웹 사이트를 마우스 오른쪽 단추로 **속성 페이지** 열려는 합니다 **속성 페이지** 대화 상자.  
+1. **솔루션 탐색기**, 웹 사이트를 마우스 오른쪽 단추로 **속성 페이지** 열려는 합니다 **속성 페이지** 대화 상자.  
   
-2.  클릭 **시작 옵션**합니다.  
+2. 클릭 **시작 옵션**합니다.  
   
-3.  설정할 **시작 작업** 먼저 표시 되는 웹 페이지에 있습니다.  
+3. 설정할 **시작 작업** 먼저 표시 되는 웹 페이지에 있습니다.  
   
-4.  아래 **디버거**, 했는지 **ASP.NET 디버깅** 을 선택 합니다.  
+4. 아래 **디버거**, 했는지 **ASP.NET 디버깅** 을 선택 합니다.  
   
      자세한 내용은 [웹 프로젝트에 대 한 속성 페이지 설정](../debugger/property-pages-settings-for-web-projects.md)합니다.  
   

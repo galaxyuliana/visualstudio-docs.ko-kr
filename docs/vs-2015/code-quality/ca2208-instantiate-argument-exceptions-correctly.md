@@ -15,12 +15,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: ae3bb98e91904debfd3c238e70ce0ff0127e82b2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6d7020563d7bcbc794a0d2980a8dcc77c0d98d0b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985122"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60109979"
 ---
 # <a name="ca2208-instantiate-argument-exceptions-correctly"></a>CA2208: 인수 예외를 올바르게 인스턴스화하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,9 +35,9 @@ ms.locfileid: "58985122"
 ## <a name="cause"></a>원인
  가능한 원인은 다음과 같습니다.
 
--   즉, 또는 [System.ArgumentException]에서 파생 된 예외 형식의 기본 (매개 변수가 없는) 생성자 호출 (<!-- TODO: review code entity reference <xref:assetId:///System.ArgumentException?qualifyHint=True&amp;autoUpgrade=True>  -->).
+- 즉, 또는 [System.ArgumentException] (에서 파생 된 예외 형식의 기본 (매개 변수가 없는) 생성자 호출<!-- TODO: review code entity reference <xref:assetId:///System.ArgumentException?qualifyHint=True&amp;autoUpgrade=True>  -->)를 사용하여 저장하는 값에 액세스할 수 있습니다.
 
--   즉, 또는 [System.ArgumentException.]에서 파생 된 예외 형식의 매개 변수가 있는 생성자에 잘못 된 문자열 인수가 전달 (<!-- TODO: review code entity reference <xref:assetId:///System.ArgumentException.?qualifyHint=True&amp;autoUpgrade=True>  -->)
+- 즉, 또는 [System.ArgumentException.]에서 파생 된 예외 형식의 매개 변수가 있는 생성자에 잘못 된 문자열 인수가 전달 (<!-- TODO: review code entity reference <xref:assetId:///System.ArgumentException.?qualifyHint=True&amp;autoUpgrade=True>  -->)
 
 ## <a name="rule-description"></a>규칙 설명
  기본 생성자를 호출 하는 대신 더 의미 있는 예외 메시지를 제공할 수 있도록 생성자 오버 로드 중 하나를 호출 합니다. 예외 메시지는 개발자를 대상으로 하 고 수정 하거나 예외를 방지 하는 방법과 오류 조건을 명확 하 게 설명 해야 합니다.

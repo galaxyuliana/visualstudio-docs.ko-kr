@@ -14,21 +14,21 @@ ms.assetid: 8da7485f-7050-4559-97c3-ccfa782cdff3
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: a449faa9d74e96406bd8fb18bbb63f61d2d53bdc
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 10564f34683fec5c38ae069f2fb0c51fb0c8902a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843249"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103461"
 ---
 # <a name="expected-constant"></a>상수가 필요합니다.
 조건부 컴파일 테스트 문에서 (비 조건부 컴파일) 변수를 사용 하려고 했습니다. 조건부 컴파일 테스트 문은 상수 여야 합니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   리터럴 변수를 바꿉니다.  
+- 리터럴 변수를 바꿉니다.  
   
--   조건부 컴파일 변수를 사용 하 여 변수를 대체 합니다.  
+- 조건부 컴파일 변수를 사용 하 여 변수를 대체 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [조건부 컴파일](../../javascript/advanced/conditional-compilation-javascript.md)   

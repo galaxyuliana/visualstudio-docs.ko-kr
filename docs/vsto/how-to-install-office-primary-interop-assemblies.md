@@ -13,21 +13,21 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e7ceba236859b61444546661c2b8395c75b8d792
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2ddba23ecb6007ff3b678932b118208742d1f0d4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623049"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60109506"
 ---
 # <a name="how-to-install-office-primary-interop-assemblies"></a>방법: Office 주 interop 어셈블리 설치
   Office를 설치할 때 Microsoft Office PIA(주 interop 어셈블리)를 설치합니다.
 
 ## <a name="to-install-the-pias-when-you-install-office"></a>Office를 설치할 때 PIA를 설치하려면
 
-1.  .NET Framework 2.0 이상 버전이 설치되어 있는지 확인합니다.
+1. .NET Framework 2.0 이상 버전이 설치되어 있는지 확인합니다.
 
-2.  Microsoft Office를 설치 하 고 있는지 확인 합니다 **.NET 프로그래밍 지원** 기능을 확장 하려는 응용 프로그램에 대 한 선택 (이 기능은 기본 설치에 포함 됨).
+2. Microsoft Office를 설치 하 고 있는지 확인 합니다 **.NET 프로그래밍 지원** 기능을 확장 하려는 응용 프로그램에 대 한 선택 (이 기능은 기본 설치에 포함 됨).
 
     > [!WARNING]
     >  PIA는 기본적으로 프로그램에서 VSTO 추가 기능 또는 사용자 지정을 사용 하 여 필수 구성 요소로 사용자에 게 Pia를 배포할 필요가 빌드할 때 솔루션에 포함 됩니다.

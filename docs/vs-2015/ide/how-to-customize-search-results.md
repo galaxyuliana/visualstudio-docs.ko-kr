@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: aa56b6c1dbb79cf3d6c59283856e763c2cf7a958
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 35fa2825d9fbb4b6a34d813c812bde1bc465f14f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54799787"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108388"
 ---
 # <a name="how-to-customize-search-results"></a>방법: 검색 결과 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,11 +29,11 @@ ms.locfileid: "54799787"
   
 #### <a name="to-change-the-number-of-topics-displayed-at-a-time"></a>한 번에 표시되는 항목 수를 변경하려면  
   
-1.  **도구 모음**에서 **뷰어 옵션**을 선택합니다.  
+1. **도구 모음**에서 **뷰어 옵션**을 선택합니다.  
   
      **뷰어 옵션** 대화 상자가 나타납니다.  
   
-2.  **최대 검색 결과** 목록에서 25, 50, 100 또는 200을 선택합니다.  
+2. **최대 검색 결과** 목록에서 25, 50, 100 또는 200을 선택합니다.  
   
 ## <a name="search-for-content-by-language"></a>언어별로 콘텐츠 검색  
  영어 이외의 언어로 작성된 콘텐츠가 설명서에 포함된 경우도 있습니다. 검색 결과의 범위를 특정 언어의 콘텐츠로 좁힐 수 있습니다. 검색 쿼리와 일치하는 영어 콘텐츠를 포함할 수도 있습니다.  
@@ -43,11 +43,11 @@ ms.locfileid: "54799787"
   
 #### <a name="to-include-english-content-alongside-content-in-another-language"></a>다른 언어의 콘텐츠와 함께 영어 콘텐츠를 포함하려면  
   
-1.  **도구 모음**에서 **뷰어 옵션**을 선택합니다.  
+1. **도구 모음**에서 **뷰어 옵션**을 선택합니다.  
   
      **뷰어 옵션** 대화 상자가 나타납니다.  
   
-2.  **모든 탐색 탭과 F1 요청에 영어 콘텐츠 포함** 확인란을 선택합니다.  
+2. **모든 탐색 탭과 F1 요청에 영어 콘텐츠 포함** 확인란을 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [전체 텍스트 검색 팁](../ide/full-text-search-tips.md)

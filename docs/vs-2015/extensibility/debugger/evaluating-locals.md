@@ -11,12 +11,12 @@ ms.assetid: 7d1ed528-4e7a-4d8f-87b4-162440644a75
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: fcbf6c3908460ce9d0f34b31c9a815c652de8031
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ba059cc1c5546bc437c7ea83a08aa8dca0a56f98
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985670"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117684"
 ---
 # <a name="evaluating-locals"></a>로컬 항목 계산
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,13 +28,13 @@ ms.locfileid: "58985670"
   
  이 기능은 로컬 값을 검색 하는 다음 작업을 수행 하는 도우미 함수에 캡슐화 됩니다.  
   
-1.  바인딩하는 `IDebugField` 메모리를 얻으려고 하는 개체는 `IDebugObject` 개체입니다.  
+1. 바인딩하는 `IDebugField` 메모리를 얻으려고 하는 개체는 `IDebugObject` 개체입니다.  
   
-2.  메모리에서 값을 가져옵니다. 이 값은 일련의 바이트로로 표시 됩니다.  
+2. 메모리에서 값을 가져옵니다. 이 값은 일련의 바이트로로 표시 됩니다.  
   
-3.  지역 변수의 형식을 기반으로 값 형식을 지정 합니다.  
+3. 지역 변수의 형식을 기반으로 값 형식을 지정 합니다.  
   
-4.  지역 변수의 값을 포함 하는 일반 개체를 반환 합니다. 이것이 C#의 경우에 `object`, 이것이 c + +에서는 `VARIANT`.  
+4. 지역 변수의 값을 포함 하는 일반 개체를 반환 합니다. C#,이 `object`, 및 C++,이 `VARIANT`합니다.  
   
 ## <a name="managed-code"></a>관리 코드  
  관리 코드에서 로컬 변수의 값을 검색 하는 함수는 구현입니다.  

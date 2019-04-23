@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f76abaaa1210320c14175be2bb47828b7bd06aa9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 654773f5a5e46960f8c015cc6f731e16332fcdd7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608099"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094322"
 ---
 # <a name="how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer"></a>방법: 추가 및 패키지 디자이너를 사용 하 여 패키지에 기능과 항목 제거
   SharePoint 솔루션을 만들 때 Visual Studio 솔루션의 패키지에 기본 SharePoint 기능을 추가 합니다. 최종 배포 하기 전에 추가할 수 있으며 SharePoint 프로젝트 항목 및 SharePoint 패키지를 수정 하는 기능을 제거할 수 있습니다.
@@ -52,7 +52,7 @@ ms.locfileid: "56608099"
 
 #### <a name="to-remove-sharepoint-features-with-the-package-designer"></a>패키지 디자이너를 사용 하 여 SharePoint 기능을 제거 하려면
 
-1.  **패키지에 항목** 나열, 제거 및 선택 하려는 항목을 선택 합니다 **제거** (<) 단추를 선택 하거나를 **모두 제거** 단추 (<<) 제거 하려면 모든 항목입니다.
+1. **패키지에 항목** 나열, 제거 및 선택 하려는 항목을 선택 합니다 **제거** (<) 단추를 선택 하거나를 **모두 제거** 단추 (<<) 제거 하려면 모든 항목입니다.
 
      SharePoint 항목에 표시 된 **솔루션에서 항목** 목록입니다.
 

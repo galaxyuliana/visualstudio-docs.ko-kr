@@ -11,12 +11,12 @@ caps.latest.revision: 6
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: 01989e9e9d6b186e520f48d45202687d690410fc
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: e554c7b97c2feac031510cfdd0894d29b4ba85eb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661492"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115642"
 ---
 # <a name="create-an-android-native-activity-app"></a>Android Native Activity 앱 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,10 +27,10 @@ ms.locfileid: "59661492"
  [새 Native Activity 프로젝트 만들기](#Create)   
  [기본 Android Native Activity 앱 빌드 및 실행](#BuildHello)  
   
-##  <a name="req"></a> 요구 사항  
+## <a name="req"></a> 요구 사항  
  Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항을 충족하고 Visual Studio 2015의 Visual C++ 모바일 개발 옵션을 설치했는지 확인해야 합니다. 자세한 내용은 [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Microsoft Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다.  
   
-##  <a name="Create"></a> 새 Native Activity 프로젝트 만들기  
+## <a name="Create"></a> 새 Native Activity 프로젝트 만들기  
  이 자습서에서는 먼저 새 Android Native Activity 프로젝트를 만든 후 Android용 Visual Studio 에뮬레이터에서 기본 앱을 빌드 및 실행합니다.  
   
 #### <a name="to-create-a-new-project"></a>새 프로젝트를 만들려면  
@@ -49,30 +49,30 @@ ms.locfileid: "59661492"
   
    새 Android Native Activity 앱 솔루션에는 다음 두 프로젝트가 포함되어 있습니다.  
   
--   **MyAndroidApp.NativeActivity** 에는 앱을 Android에서 Native Activity로 실행하기 위한 참조 및 붙이기 코드가 포함되어 있습니다. 붙이기 코드의 진입점 구현은 main.cpp에 있습니다. 미리 컴파일된 헤더는 pch.h에 있습니다. 이 Native Activity 앱 프로젝트는 공유 라이브러리 .so 파일로 컴파일되며 패키징 프로젝트에서 이 라이브러리를 선택합니다.  
+- **MyAndroidApp.NativeActivity** 에는 앱을 Android에서 Native Activity로 실행하기 위한 참조 및 붙이기 코드가 포함되어 있습니다. 붙이기 코드의 진입점 구현은 main.cpp에 있습니다. 미리 컴파일된 헤더는 pch.h에 있습니다. 이 Native Activity 앱 프로젝트는 공유 라이브러리 .so 파일로 컴파일되며 패키징 프로젝트에서 이 라이브러리를 선택합니다.  
   
--   **MyAndroidApp.Packaging** 은 Android 장치 또는 에뮬레이터에 배포하기 위한 .apk 파일을 만듭니다. 이 프로젝트에는 리소스와 매니페스트 속성을 설정하는 AndroidManifest.xml 파일이 포함되어 있습니다. Ant 빌드 프로세스를 제어하는 build.xml 파일도 포함되어 있습니다. 이 프로젝트는 기본적으로 시작 프로젝트로 설정되므로 Visual Studio에서 직접 배포 및 실행할 수 있습니다.  
+- **MyAndroidApp.Packaging** 은 Android 장치 또는 에뮬레이터에 배포하기 위한 .apk 파일을 만듭니다. 이 프로젝트에는 리소스와 매니페스트 속성을 설정하는 AndroidManifest.xml 파일이 포함되어 있습니다. Ant 빌드 프로세스를 제어하는 build.xml 파일도 포함되어 있습니다. 이 프로젝트는 기본적으로 시작 프로젝트로 설정되므로 Visual Studio에서 직접 배포 및 실행할 수 있습니다.  
   
-##  <a name="BuildHello"></a> 기본 Android Native Activity 앱 빌드 및 실행  
+## <a name="BuildHello"></a> 기본 Android Native Activity 앱 빌드 및 실행  
  템플릿을 통해 생성된 앱을 제작 및 실행하여 설치 및 설정을 확인합니다. 이 초기 테스트의 경우 Android용 Visual Studio 에뮬레이터에 의해 설치된 디바이스 프로필 중 하나에서 앱을 실행합니다. 다른 대상에서 앱을 테스트하려는 경우 대상 에뮬레이터를 로드하거나 디바이스를 컴퓨터에 연결할 수 있습니다.  
   
 #### <a name="to-build-and-run-the-default-native-activity-app"></a>기본 NativeActivity 앱을 빌드하고 실행하려면  
   
-1.  아직 선택하지 않은 경우 **솔루션 플랫폼** 드롭다운 목록에서 **x86** 을 선택합니다.  
+1. 아직 선택하지 않은 경우 **솔루션 플랫폼** 드롭다운 목록에서 **x86** 을 선택합니다.  
   
      ![솔루션 플랫폼 드롭다운 x86 선택](../cross-platform/media/cppmdd-rc-na-solution-x86.png "CPPMDD_RC_NA_Solution_x86")  
   
       **x86** 목록이 표시되지 않는 경우 **x86** 드롭다운 목록에서 **솔루션 플랫폼** 을 선택한 후 플랫폼을 선택합니다.  
   
-2.  메뉴 모음에서 **빌드**, **솔루션 빌드**를 선택합니다.  
+2. 메뉴 모음에서 **빌드**, **솔루션 빌드**를 선택합니다.  
   
      출력 창에 솔루션의 두 프로젝트에 대한 빌드 프로세스 출력이 표시됩니다.  
   
-3.  배포 대상으로 VS 에뮬레이터 Android Phone(x86) 프로필 중 하나를 선택합니다.  
+3. 배포 대상으로 VS 에뮬레이터 Android Phone(x86) 프로필 중 하나를 선택합니다.  
   
      다른 에뮬레이터를 설치했거나 Android 디바이스를 연결한 경우 배포 대상 드롭다운 목록에서 선택할 수 있습니다.  
   
-4.  F5 키를 눌러 디버깅을 시작하거나 Shift+F5를 눌러 디버깅하지 않고 시작합니다.  
+4. F5 키를 눌러 디버깅을 시작하거나 Shift+F5를 눌러 디버깅하지 않고 시작합니다.  
   
      다음은 Android용 Visual Studio 에뮬레이터에서 기본 앱이 나타나는 모양입니다.  
   
@@ -80,6 +80,6 @@ ms.locfileid: "59661492"
   
      에뮬레이터가 시작됩니다. 코드를 로드하고 배포하는 데 몇 초 정도 걸릴 수 있습니다. 앱이 시작되면 중단점을 설정하고 디버거를 사용하여 코드를 단계별로 실행하고 지역을 검토하고 값을 조사할 수 있습니다.  
   
-5.  Shift+F5를 눌러 디버깅을 중지합니다.  
+5. Shift+F5를 눌러 디버깅을 중지합니다.  
   
      에뮬레이터는 별도의 프로세스로 계속 실행됩니다. 코드를 편집 및 컴파일하여 동일한 에뮬레이터에 여러 번 배포할 수 있습니다.

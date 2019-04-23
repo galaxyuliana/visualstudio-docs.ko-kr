@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7d391022e9ce86b2866d941d8c0b56e2e35e3776
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a9760d019fa80d4ecae63633c38ac9df60932202
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629445"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101199"
 ---
 # <a name="how-to-programmatically-display-a-string-in-a-worksheet-cell"></a>방법: 프로그래밍 방식으로 워크시트 셀에 문자열을 표시
   이 예제에서는 프로그래밍 방식으로 셀에 텍스트를 표시 하는 방법에 설명 합니다. 셀에 텍스트를 표시 하려면를 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 또는 네이티브 Excel 범위 개체입니다.
@@ -30,7 +30,7 @@ ms.locfileid: "56629445"
 
 ### <a name="to-display-text-in-a-namedrange-control"></a>NamedRange 컨트롤의 텍스트를 표시 하려면
 
-1.  값을 설정 합니다 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 **Hello World**합니다.
+1. 값을 설정 합니다 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 **Hello World**합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#68](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#68)]
      [!code-vb[Trin_VstcoreExcelAutomation#68](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#68)]
@@ -40,7 +40,7 @@ ms.locfileid: "56629445"
 
 ### <a name="to-display-text-in-an-excel-range"></a>Excel 범위에서 텍스트를 표시 하려면
 
-1.  셀 범위를 검색할 **A1** 온 `Sheet1` 값을 설정 하 고 **Hello World**.
+1. 셀 범위를 검색할 **A1** 온 `Sheet1` 값을 설정 하 고 **Hello World**.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#69](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#69)]
      [!code-vb[Trin_VstcoreExcelAutomation#69](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#69)]

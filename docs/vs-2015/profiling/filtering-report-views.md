@@ -11,12 +11,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d27e104aec3719e3f88e75cb326082913068b44b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 344a2dbe0e629f62f609806008b963be2be058a1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54793089"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108739"
 ---
 # <a name="filtering-report-views"></a>보고서 뷰 필터링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,11 +31,11 @@ ms.locfileid: "54793089"
   
 #### <a name="to-create-a-profiler-report-filter"></a>프로파일러 보고서 필터를 만들려면  
   
-1.  성능 보고서 뷰 필터 창이 표시되지 않는 경우 성능 보고서 뷰 도구 모음의 **필터 표시**를 클릭합니다.  
+1. 성능 보고서 뷰 필터 창이 표시되지 않는 경우 성능 보고서 뷰 도구 모음의 **필터 표시**를 클릭합니다.  
   
      성능 보고서 뷰 필터는 테이블입니다. 테이블의 각 행은 필터 절을 나타냅니다. 필터에 필요한 만큼의 절을 추가할 수 있습니다.  
   
-2.  필터에 추가하려는 각 절의 경우 행의 다음 필드에 값을 선택하거나 입력합니다.  
+2. 필터에 추가하려는 각 절의 경우 행의 다음 필드에 값을 선택하거나 입력합니다.  
   
     |필드|설명|  
     |-----------|-----------------|  
@@ -44,7 +44,7 @@ ms.locfileid: "54793089"
     |**Operator**|필드와 값 간의 절에 원하는 관계를 지정하는 연산자를 선택합니다.<br /><br /> =    같음<br /><br /> <>  같지 않음<br /><br /> <    보다 작음<br /><br /> >    보다 큼<br /><br /> <=  작거나 같음<br /><br /> >=  크거나 같음|  
     |**값**|찾을 값을 선택하거나 입력합니다. 필드에 대해 사용 가능한 값이 나열되는 필드도 있습니다.|  
   
-3.  
+3. 
   
 #### <a name="to-create-a-profiler-report-filter-from-the-marks-report-view"></a>표시 보고서 뷰에서 프로파일러 보고서 필터를 만들려면  
   
@@ -66,33 +66,33 @@ ms.locfileid: "54793089"
   
 #### <a name="to-load-an-existing-filter-from-a-file"></a>파일에서 기존 필터를 로드하려면  
   
-1.  성능 보고서 뷰 도구 모음에서 **필터 가져오기**를 클릭합니다.  
+1. 성능 보고서 뷰 도구 모음에서 **필터 가져오기**를 클릭합니다.  
   
      **필터 로드** 대화 상자가 표시됩니다.  
   
-2.  로드할 필터(.vspf) 파일의 위치와 파일 이름을 지정합니다.  
+2. 로드할 필터(.vspf) 파일의 위치와 파일 이름을 지정합니다.  
   
 #### <a name="to-execute-a-filter"></a>필터를 실행하려면  
   
--   성능 보고서 뷰 도구 모음에서 **필터 실행**을 클릭합니다.  
+- 성능 보고서 뷰 도구 모음에서 **필터 실행**을 클릭합니다.  
   
 #### <a name="to-stop-a-filter-that-is-taking-too-long-to-execute"></a>실행하는 데 시간이 너무 오래 걸리는 필터를 중지하려면  
   
--   성능 보고서 뷰 도구 모음에서 **필터 중지**를 클릭합니다.  
+- 성능 보고서 뷰 도구 모음에서 **필터 중지**를 클릭합니다.  
   
 #### <a name="to-remove-a-filter-on-a-report-view"></a>보고서 뷰의 필터를 제거하려면  
   
-1.  성능 보고서 뷰 필터에서 절의 행을 삭제합니다.  
+1. 성능 보고서 뷰 필터에서 절의 행을 삭제합니다.  
   
-2.  성능 보고서 뷰 도구 모음에서 **필터 실행**을 클릭합니다.  
+2. 성능 보고서 뷰 도구 모음에서 **필터 실행**을 클릭합니다.  
   
 #### <a name="to-save-a-filter-to-a-file"></a>파일에 필터를 저장하려면  
   
-1.  성능 보고서 뷰 도구 모음에서 **필터 내보내기**를 클릭합니다.  
+1. 성능 보고서 뷰 도구 모음에서 **필터 내보내기**를 클릭합니다.  
   
      **필터 저장** 대화 상자가 표시됩니다.  
   
-2.  저장할 필터(.vspf) 파일의 위치와 파일 이름을 지정합니다.  
+2. 저장할 필터(.vspf) 파일의 위치와 파일 이름을 지정합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [성능 도구 보고서 뷰 사용자 지정](../profiling/customizing-performance-tools-report-views.md)

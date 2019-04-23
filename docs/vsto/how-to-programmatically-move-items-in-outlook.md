@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 10b0f05e758f71830d5377c738ff9dee683022b8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3dcbfbe7b6e6ac5bacb9e8e36e43d780d3051903
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641626"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108973"
 ---
 # <a name="how-to-programmatically-move-items-in-outlook"></a>방법: 프로그래밍 방식으로 Outlook에서 항목 이동
   읽지 않은 전자 메일 메시지를 이동 하는이 예제는 **받은 편지함** 라는 폴더로 **테스트**합니다. 단어가 포함 된 메시지 이동 **테스트** 에 `Subject` 필드입니다.
@@ -30,9 +30,9 @@ ms.locfileid: "56641626"
 ## <a name="compile-the-code"></a>코드 컴파일
  이 예제에는 다음 사항이 필요합니다.
 
--   명명 된 Outlook 메일 폴더 **테스트**합니다.
+- 명명 된 Outlook 메일 폴더 **테스트**합니다.
 
--   단어를 사용 하 여 도착 하는 전자 메일 메시지 **테스트** 에 `Subject` 필드입니다.
+- 단어를 사용 하 여 도착 하는 전자 메일 메시지 **테스트** 에 `Subject` 필드입니다.
 
 ## <a name="see-also"></a>참고자료
 - [폴더 작업](../vsto/working-with-folders.md)

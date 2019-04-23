@@ -19,27 +19,27 @@ caps.latest.revision: 60
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1131f6d569d01787d26bea7dde1c993401ce9580
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: db550b2a99f12190cac0bde74859191c2943b2d5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670175"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102760"
 ---
 # <a name="add-new-data-sources"></a>새 데이터 원본 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio의.NET data tools의 컨텍스트에서 용어 *데이터 원본* 데이터 저장소에 연결 하 고.NET 응용 프로그램에 데이터를 노출 하는.NET 개체를 가리킵니다. Visual Studio 디자이너에서 데이터베이스 개체를 끌어서 폼에 데이터를 바인딩하는 상용구 코드를 생성 하는 데이터 원본의 출력을 사용할 수는 **데이터 원본** 창입니다. 이 유형의 데이터 원본 수 있습니다.  
   
--   일부 종류의 데이터베이스와 연결 된 Entity Framework 모델의 클래스입니다.  
+- 일부 종류의 데이터베이스와 연결 된 Entity Framework 모델의 클래스입니다.  
   
--   일부 종류의 데이터베이스와 연결 된 데이터 집합입니다.  
+- 일부 종류의 데이터베이스와 연결 된 데이터 집합입니다.  
   
--   Windows Communication Foundation (WCF) 데이터 서비스 또는 REST 서비스와 같은 네트워크 서비스를 나타내는 클래스입니다.  
+- Windows Communication Foundation (WCF) 데이터 서비스 또는 REST 서비스와 같은 네트워크 서비스를 나타내는 클래스입니다.  
   
--   SharePoint 서비스를 나타내는 클래스입니다.  
+- SharePoint 서비스를 나타내는 클래스입니다.  
   
--   클래스 또는 솔루션에서 수집 합니다.  
+- 클래스 또는 솔루션에서 수집 합니다.  
   
 > [!NOTE]
 >  데이터 바인딩 기능을 사용 하지 않는 경우 데이터 집합, Entity Framework, LINQ to SQL, WCF, 또는 SharePoint에서 "data source" 개념이 적용 되지 않습니다. SQLCommand 개체를 사용 하 여 데이터베이스에 직접 연결 하 고 데이터베이스와 직접 통신 하기만 됩니다.  
@@ -77,11 +77,11 @@ Visual Studio의.NET data tools의 컨텍스트에서 용어 *데이터 원본* 
   
  다음 유형의 서비스에서 데이터 소스를 만들 수 있습니다.  
   
--   WCF Data Services. 자세한 내용은 [개요](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)합니다.  
+- WCF Data Services. 자세한 내용은 [개요](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)합니다.  
   
--   WCF 데이터 서비스입니다. 자세한 내용은 [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)합니다.  
+- WCF 데이터 서비스입니다. 자세한 내용은 [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)합니다.  
   
--   웹 서비스 비교입니다.  
+- 웹 서비스 비교입니다.  
   
     > [!NOTE]
     >  에 표시 되는 항목의 **데이터 원본** 창 서비스를 반환 하는 데이터에 따라 달라 집니다. **데이터 원본 구성 마법사**에서 바인딩 가능한 개체를 만들기에 충분한 정보를 제공하지 않는 서비스도 있습니다. 예를 들어 서비스가 형식화 되지 않은 데이터 집합을 반환 하는 경우 항목이에 나타납니다 합니다 **데이터 원본** 창 마법사를 완료 합니다. 형식화 되지 않은 데이터 집합 스키마를 제공 하지 않으며 마법사가 데이터 원본을 만들려면 충분 한 정보를 갖고 있지 않으므로 때문입니다.  

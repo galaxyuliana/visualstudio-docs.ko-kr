@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1f18c88e72a40d3070d9a366e0c6c4e0f3888565
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4bb98e2b1c83ff06570a77dc84ce6a7bf690f81d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628392"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097000"
 ---
 # <a name="extend-sharepoint-packaging-and-deployment"></a>SharePoint 패키징 및 배포 확장
   SharePoint 프로젝트의 패키징 및 배포 프로세스를 확장할 수 있습니다.
@@ -35,9 +35,9 @@ ms.locfileid: "56628392"
 ## <a name="run-code-when-a-sharepoint-solution-is-deployed-or-retracted"></a>SharePoint 솔루션이 배포 되거나 취소 하는 경우 코드를 실행 합니다.
  SharePoint 솔루션이 배포되거나 취소될 때 이벤트를 처리하여 추가 작업을 수행할 수 있습니다. Visual Studio에서는 다음 시나리오에서 처리할 수 있는 이벤트를 발생시킵니다.
 
--   SharePoint 프로젝트 항목에 대한 각 배포 단계가 실행되기 전후. 자세한 내용은 [방법: 배포 단계를 실행할 때 코드 실행](../sharepoint/how-to-run-code-when-deployment-steps-are-executed.md)합니다.
+- SharePoint 프로젝트 항목에 대한 각 배포 단계가 실행되기 전후. 자세한 내용은 [방법: 배포 단계를 실행할 때 코드 실행](../sharepoint/how-to-run-code-when-deployment-steps-are-executed.md)합니다.
 
--   SharePoint 프로젝트가 배포되거나 취소되기 전후. 자세한 내용은 [방법: SharePoint 프로젝트는 배포 되거나 취소 될 때 코드를 실행할](../sharepoint/how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted.md)합니다.
+- SharePoint 프로젝트가 배포되거나 취소되기 전후. 자세한 내용은 [방법: SharePoint 프로젝트는 배포 되거나 취소 될 때 코드를 실행할](../sharepoint/how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted.md)합니다.
 
 ## <a name="handle-deployment-conflicts"></a>배포 충돌 처리
  모듈, 웹 파트, 목록 인스턴스 및 콘텐츠 형식과 같은 SharePoint 프로젝트 항목의 일부 형식은 배포 충돌 해결을 기본적으로 제공합니다. 이러한 프로젝트 항목 중 하나가 포함된 솔루션을 배포하는 경우 Visual Studio에서는 먼저 배포할 항목의 파일과 같은 이름, URL 또는 ID를 가진 파일이 SharePoint 사이트에 이미 있는지 여부를 확인합니다. 충돌이 있는 경우 Visual Studio에서 자동으로 충돌을 해결할 수 있습니다. 또는 Visual Studio에서 충돌을 해결하거나 배포를 취소하도록 할지를 묻는 메시지가 표시될 수도 있습니다. 자세한 내용은 [Troubleshooting SharePoint Packaging and Deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)을 참조하세요.

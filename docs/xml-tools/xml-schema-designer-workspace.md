@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4ce85980be2e55e9d3886f39ec855303b7b458cb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e6dde8eee0c21f41cb21acf97fb68961dd0beee7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55930880"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107348"
 ---
 # <a name="xml-schema-designer-workspace"></a>XML 스키마 디자이너 작업 영역
 
@@ -25,22 +25,22 @@ XML 스키마 디자이너(XSD 디자이너)는 XML 스키마를 탐색하는 �
 
 다음 방법으로 작업 영역에 노드를 추가할 수 있습니다.
 
--   "스키마 집합 정보" 섹션에는 [시작 뷰](../xml-tools/start-view.md)를 클릭 합니다 **추가** 전역 노드 형식 옆에 있는 링크입니다.
+- "스키마 집합 정보" 섹션에는 [시작 뷰](../xml-tools/start-view.md)를 클릭 합니다 **추가** 전역 노드 형식 옆에 있는 링크입니다.
 
--   전역 노드, 파일 노드 및 네임 스페이스 노드를 끌어서 놓을 합니다 **XML 스키마 탐색기** 에 세 가지 뷰 중 하나입니다. 자세한 내용은 "노드 끌어서 놓기" 섹션을 참조 하세요 [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)합니다.
+- 전역 노드, 파일 노드 및 네임 스페이스 노드를 끌어서 놓을 합니다 **XML 스키마 탐색기** 에 세 가지 뷰 중 하나입니다. 자세한 내용은 "노드 끌어서 놓기" 섹션을 참조 하세요 [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)합니다.
 
--   상황에 맞는 (마우스 오른쪽 단추로 클릭) 메뉴를 사용 합니다 **XML 스키마 탐색기**합니다. 자세한 내용은 [상황에 맞는 메뉴](../xml-tools/context-menus-xml-schema-explorer.md)합니다.
+- 상황에 맞는 (마우스 오른쪽 단추로 클릭) 메뉴를 사용 합니다 **XML 스키마 탐색기**합니다. 자세한 내용은 [상황에 맞는 메뉴](../xml-tools/context-menus-xml-schema-explorer.md)합니다.
 
--   XSD 탐색기에서 검색을 수행 하 고 클릭 합니다 **작업 영역에 선택한 노드 추가** 요약 결과 창에서 단추입니다. 자세한 내용은 [스키마 집합 검색](../xml-tools/searching-the-schema-set.md)합니다.
+- XSD 탐색기에서 검색을 수행 하 고 클릭 합니다 **작업 영역에 선택한 노드 추가** 요약 결과 창에서 단추입니다. 자세한 내용은 [스키마 집합 검색](../xml-tools/searching-the-schema-set.md)합니다.
 
 ## <a name="switch-views"></a>보기 전환
 
 뷰를 전환하려면 다음 중 하나를 사용합니다.
 
--   XSD 디자이너 도구 모음
+- XSD 디자이너 도구 모음
 
--   콘텐츠 모델 뷰 및 그래프 뷰의 상황에 맞는 (마우스 오른쪽 단추로 클릭) 메뉴.
+- 콘텐츠 모델 뷰 및 그래프 뷰의 상황에 맞는 (마우스 오른쪽 단추로 클릭) 메뉴.
 
--   시작 뷰 페이지의 워터마크, 빈 콘텐츠 모델 뷰 또는 그래프 뷰의 워터마크
+- 시작 뷰 페이지의 워터마크, 빈 콘텐츠 모델 뷰 또는 그래프 뷰의 워터마크
 
--   바로 가기 키: **Ctrl**+**1** 시작 보기의 경우 **Ctrl**+**2** 그래프 보기의 경우와 **Ctrl** + **3** 콘텐츠 모델 뷰에 대 한 합니다.
+- 바로 가기 키: **Ctrl**+**1** 시작 보기의 경우 **Ctrl**+**2** 그래프 보기의 경우와 **Ctrl** + **3** 콘텐츠 모델 뷰에 대 한 합니다.

@@ -11,30 +11,30 @@ caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dfa174ca228adcd404edb3e91733731f975ed732
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1dc596909862c2ebb490fa478e1f5f71f88dd7ac
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981287"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106646"
 ---
 # <a name="customizing-and-extending-a-domain-specific-language"></a>도메인별 언어 사용자 지정 및 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio 모델링 및 시각화 SDK (VMSDK)는 모델링 도구를 정의할 수 있습니다 여러 수준을 제공 합니다.  
   
-1.  DSL 정의 다이어그램을 사용 하 여 도메인 특정 언어 (DSL)를 정의 합니다. 신속 하 게 사용 되는 다이어그램 표기법, 읽을 수 있는 XML 양식 및 코드 및 기타 아티팩트를 생성 하는 데 필요한 기본 도구를 사용 하 여 DSL을 만들 수 있습니다.  
+1. DSL 정의 다이어그램을 사용 하 여 도메인 특정 언어 (DSL)를 정의 합니다. 신속 하 게 사용 되는 다이어그램 표기법, 읽을 수 있는 XML 양식 및 코드 및 기타 아티팩트를 생성 하는 데 필요한 기본 도구를 사용 하 여 DSL을 만들 수 있습니다.  
   
      자세한 내용은 [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)합니다.  
   
-2.  DSL 정의의 고급 기능을 사용 하 여 DSL을 미세 조정 합니다. 예를 들어 사용자가 요소를 만들 때 표시 되는 추가 링크를 만들 수 있습니다. 이러한 기술은 대부분 DSL 정의 구현 된다는 및 일부 프로그램 코드 몇 줄이 필요 합니다.  
+2. DSL 정의의 고급 기능을 사용 하 여 DSL을 미세 조정 합니다. 예를 들어 사용자가 요소를 만들 때 표시 되는 추가 링크를 만들 수 있습니다. 이러한 기술은 대부분 DSL 정의 구현 된다는 및 일부 프로그램 코드 몇 줄이 필요 합니다.  
   
-3.  프로그램 코드를 사용 하 여 모델링 도구를 확장 합니다. VMSDK는 DSL 정의에서 생성된 코드를 사용하여 확장을 쉽게 통합할 수 있도록 설계되었습니다.  자세한 내용은 [도메인별 도메인별 언어 사용자 지정 하려면 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.  
+3. 프로그램 코드를 사용 하 여 모델링 도구를 확장 합니다. VMSDK는 DSL 정의에서 생성된 코드를 사용하여 확장을 쉽게 통합할 수 있도록 설계되었습니다.  자세한 내용은 [도메인별 도메인별 언어 사용자 지정 하려면 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.  
   
 > [!NOTE]
 >  DSL 정의 파일을 업데이트 하는 경우 잊지 말고 클릭 **모든 템플릿 변환** 솔루션을 다시 작성 하기 전에 솔루션 탐색기의 도구 모음입니다.  
   
-##  <a name="customShapes"></a> 이 섹션에서  
+## <a name="customShapes"></a> 이 섹션에서  
   
 |이 결과를 얻으려면|이 항목을 참조 하세요.|  
 |----------------------------|-------------------------|  

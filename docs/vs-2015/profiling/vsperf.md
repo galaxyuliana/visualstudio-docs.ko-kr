@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0a32de469c5b58ca2bf58901e30b81cfb70ed84b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ee221f0c1da32694e869177399981cc16ce901f4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54803529"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099470"
 ---
 # <a name="vsperf"></a>VSPerf
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "54803529"
   
    프로 파일링 옵션에 대한 자세한 내용은 [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
   
-##  <a name="BKMK_In_this_topic"></a> 항목 내용  
+## <a name="BKMK_In_this_topic"></a> 항목 내용  
  이 항목에서는 `vsperf.exe` 명령줄 도구와 함께 사용할 수 있는 옵션에 대해 설명합니다. 이 항목에는 다음과 같은 단원이 포함되어 있습니다.  
   
  [Windows 스토어 앱 전용](#BKMK_windows_store_apps_only)  
@@ -36,7 +36,7 @@ ms.locfileid: "54803529"
   
  [모든 애플리케이션](#BKMK_All_applications)  
   
-##  <a name="BKMK_windows_store_apps_only"></a> Windows 스토어 앱 전용  
+## <a name="BKMK_windows_store_apps_only"></a> Windows 스토어 앱 전용  
  이러한 옵션은 Windows 스토어 앱에만 적용됩니다.  
   
 |||  
@@ -47,7 +47,7 @@ ms.locfileid: "54803529"
 |**/noclr**|선택 사항입니다. CLR 데이터를 수집하지 않습니다.<br /><br /> /package 또는 /attach와 함께 사용해야 합니다.<br /><br /> 최적화 상태이며 관리되는 기호를 확인하지 않습니다.|  
 |**/listapps**|설치된 응용 프로그램 Name 및 PackageFullNames의 목록을 표시합니다.|  
   
-##  <a name="BKMK_Windows_8_classic_applications_and_Windows_Server_2012_applications_only"></a> Windows 8 데스크톱 애플리케이션 및 Windows Server 2012 애플리케이션 전용  
+## <a name="BKMK_Windows_8_classic_applications_and_Windows_Server_2012_applications_only"></a> Windows 8 데스크톱 애플리케이션 및 Windows Server 2012 애플리케이션 전용  
  이러한 옵션은 Windows 스토어 앱에서 작동하지 않습니다.  
   
 |||  
@@ -56,7 +56,7 @@ ms.locfileid: "54803529"
 |**/args:{ExecutableArguments}**|**/launch** 대상을 전달할 명령줄 인수를 지정합니다.|  
 |**/console**|새 명령 창에서 **/launch** 대상을 실행합니다.|  
   
-##  <a name="BKMK_All_applications"></a> 모든 애플리케이션  
+## <a name="BKMK_All_applications"></a> 모든 애플리케이션  
  이러한 옵션은 모든 Windows 8 또는 Windows Server 2012 애플리케이션에 적용됩니다.  
   
 |||  

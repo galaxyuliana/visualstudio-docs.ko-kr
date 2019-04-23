@@ -15,12 +15,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 19191d8812d198b6a72ec8b6bdc8e75ef9d8f4ee
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3fb1a6255539ded989c5ad9638fc961d606a19f7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982221"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097117"
 ---
 # <a name="ca1039-lists-are-strongly-typed"></a>CA1039: 목록은 강력한 형식이어야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,17 +35,17 @@ ms.locfileid: "58982221"
 ## <a name="cause"></a>원인
  Public 또는 protected 형식 구현 <xref:System.Collections.IList?displayProperty=fullName> 하지만 다음 중 하나 이상에 대해 강력한 형식의 메서드를 제공 하지 않습니다.
 
--   IList.Item
+- IList.Item
 
--   IList.Add
+- IList.Add
 
--   IList.Contains
+- IList.Contains
 
--   IList.IndexOf
+- IList.IndexOf
 
--   IList.Insert
+- IList.Insert
 
--   IList.Remove
+- IList.Remove
 
 ## <a name="rule-description"></a>규칙 설명
  이 규칙에 필요 <xref:System.Collections.IList> 사용자는 인수를 캐스팅할 필요가 없도록 강력 하 게 제공 하는 구현 형식의 멤버가 <xref:System.Object?displayProperty=fullName> 인터페이스에 의해 제공 되는 기능을 사용할 때를 입력 합니다. <xref:System.Collections.IList> 인터페이스는 인덱스로 액세스할 수 있는 개체의 컬렉션에 의해 구현 됩니다. 이 규칙에서는 구현 하는 형식이 가정 <xref:System.Collections.IList> 보다 강력한 형식의 인스턴스 컬렉션을 관리 하는 <xref:System.Object>합니다.

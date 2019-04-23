@@ -16,14 +16,14 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5e734100928bdd6a8609ab59d172d278e91b8ae7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 1f4788ab9fa23049ded8107fe1d33a9419b79c00
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54778528"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091241"
 ---
-# <a name="how-to-locate-and-organize-project-and-item-templates"></a>방법: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성
+# <a name="how-to-locate-and-organize-project-and-item-templates"></a>방법: 찾기 및 프로젝트 구성 및 항목 템플릿
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야 **새 프로젝트** 및 **새 항목 추가** 대화 상자에 템플릿이 나타납니다. 템플릿에 대한 사용자 지정 하위 범주를 만들어 이러한 하위 범주가 사용자 인터페이스에 나타나도록 할 수도 있습니다.  
@@ -90,23 +90,23 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
   
 ##### <a name="to-create-new-installed-item-template-categories"></a>설치된 항목 템플릿 범주를 새로 만들려면  
   
-1.  설치된 템플릿 디렉터리의 언어 폴더에 폴더를 만듭니다. 예를 들어, [!INCLUDE[csprcs](../includes/csprcs-md.md)] 항목 템플릿에 대해 Web 범주를 만들려면 다음 디렉터리를 만듭니다.  
+1. 설치된 템플릿 디렉터리의 언어 폴더에 폴더를 만듭니다. 예를 들어, [!INCLUDE[csprcs](../includes/csprcs-md.md)] 항목 템플릿에 대해 Web 범주를 만들려면 다음 디렉터리를 만듭니다.  
   
      \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\CSharp\1033\Web\  
   
-2.  이 범주의 모든 템플릿을 새 폴더에 넣습니다.  
+2. 이 범주의 모든 템플릿을 새 폴더에 넣습니다.  
   
-3.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 모든 인스턴스를 닫습니다.  
+3. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 모든 인스턴스를 닫습니다.  
   
-4.  **시작** 메뉴에서 **실행**을 클릭한 다음 **cmd**를 입력하고 **확인**을 클릭합니다.  
+4. **시작** 메뉴에서 **실행**을 클릭한 다음 **cmd**를 입력하고 **확인**을 클릭합니다.  
   
-5.  명령 프롬프트에서 devenv.exe가 있는 디렉터리를 찾고 **devenv /setup**를 입력합니다.  
+5. 명령 프롬프트에서 devenv.exe가 있는 디렉터리를 찾고 **devenv /setup**를 입력합니다.  
   
-6.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 실행합니다.  
+6. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 실행합니다.  
   
-7.  프로젝트를 만들거나 기존 프로젝트를 엽니다.  
+7. 프로젝트를 만들거나 기존 프로젝트를 엽니다.  
   
-8.  **프로젝트** 메뉴에서 **새 항목 추가**를 클릭합니다.  
+8. **프로젝트** 메뉴에서 **새 항목 추가**를 클릭합니다.  
   
 9. 웹 범주가 **새 항목 추가** 대화 상자의 **프로젝트 형식** 창에 나타나는지 확인합니다.  
   
@@ -129,30 +129,30 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
   
 ##### <a name="to-create-new-custom-item-template-categories"></a>사용자 지정 항목 템플릿 범주를 새로 만들려면  
   
-1.  사용자 지정 항목 템플릿 디렉터리의 언어 폴더에 폴더를 만듭니다. 예를 들어 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 템플릿에 대해 HelloWorld 범주를 만들려면 다음 디렉터리를 만듭니다.  
+1. 사용자 지정 항목 템플릿 디렉터리의 언어 폴더에 폴더를 만듭니다. 예를 들어 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 템플릿에 대해 HelloWorld 범주를 만들려면 다음 디렉터리를 만듭니다.  
   
      \My Documents\\<Visual Studio version\>\Templates\ItemTemplates\CSharp\HelloWorld\  
   
-2.  이 범주의 모든 템플릿을 새 폴더에 넣습니다.  
+2. 이 범주의 모든 템플릿을 새 폴더에 넣습니다.  
   
-3.  프로젝트를 만들거나 기존 프로젝트를 엽니다.  
+3. 프로젝트를 만들거나 기존 프로젝트를 엽니다.  
   
-4.  **프로젝트** 메뉴에서 **새 항목 추가**를 클릭합니다.  
+4. **프로젝트** 메뉴에서 **새 항목 추가**를 클릭합니다.  
   
-5.  HelloWorld 범주가 **새 항목 추가** 대화 상자의 **프로젝트 형식** 창에 나타나는지 확인합니다.  
+5. HelloWorld 범주가 **새 항목 추가** 대화 상자의 **프로젝트 형식** 창에 나타나는지 확인합니다.  
   
 ### <a name="displaying-templates-in-parent-categories"></a>부모 범주에 템플릿 표시  
  .vstemplate 파일에서 `NumberOfParentCategoriesToRollUp` 요소를 사용하여 하위 범주의 템플릿이 부모 범주에 표시되도록 할 수 있습니다. 이 단계는 프로젝트 템플릿과 항목 템플릿 모두에 대해 동일합니다.  
   
 ##### <a name="to-display-templates-in-parent-categories"></a>템플릿을 부모 범주에 표시하려면  
   
-1.  템플릿을 포함하는 .zip 파일을 찾습니다.  
+1. 템플릿을 포함하는 .zip 파일을 찾습니다.  
   
-2.  .zip 파일의 압축을 풉니다.  
+2. .zip 파일의 압축을 풉니다.  
   
-3.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 .vstemplate 파일을 엽니다.  
+3. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 .vstemplate 파일을 엽니다.  
   
-4.  `TemplateData` 요소에서 `NumberOfParentCategoriesToRollUp` 요소를 추가합니다. 예를 들어 다음 코드에서는 템플릿이 부모 범주에 표시되고 더 높은 범주에는 표시되지 않도록 합니다.  
+4. `TemplateData` 요소에서 `NumberOfParentCategoriesToRollUp` 요소를 추가합니다. 예를 들어 다음 코드에서는 템플릿이 부모 범주에 표시되고 더 높은 범주에는 표시되지 않도록 합니다.  
   
     ```  
     <TemplateData>  
@@ -164,13 +164,13 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
     </TemplateData>  
     ```  
   
-5.  .vstemplate 파일을 저장한 다음 닫습니다.  
+5. .vstemplate 파일을 저장한 다음 닫습니다.  
   
-6.  템플릿에 있는 파일을 선택하고 선택 영역을 마우스 오른쪽 단추로 클릭한 다음 **보내기**를 클릭하고 **압축(ZIP) 폴더**를 클릭합니다. 파일이 .zip 파일로 압축됩니다.  
+6. 템플릿에 있는 파일을 선택하고 선택 영역을 마우스 오른쪽 단추로 클릭한 다음 **보내기**를 클릭하고 **압축(ZIP) 폴더**를 클릭합니다. 파일이 .zip 파일로 압축됩니다.  
   
-7.  추출된 템플릿 파일과 이전 템플릿 .zip 파일을 삭제합니다.  
+7. 추출된 템플릿 파일과 이전 템플릿 .zip 파일을 삭제합니다.  
   
-8.  새 .zip 파일을 삭제된 .zip 파일이 있던 디렉터리에 넣습니다.  
+8. 새 .zip 파일을 삭제된 .zip 파일이 있던 디렉터리에 넣습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [템플릿 사용자 지정](../ide/customizing-project-and-item-templates.md)   

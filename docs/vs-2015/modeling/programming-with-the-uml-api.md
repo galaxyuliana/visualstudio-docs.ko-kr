@@ -12,12 +12,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 24f4f21c984f70ca10236de7bf15d0187fd12d71
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e85fc0add84f6f6097355d1fc7a58cc954c8e538
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971368"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111755"
 ---
 # <a name="programming-with-the-uml-api"></a>Programming with the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,9 +44,9 @@ Visual Studio의 UML API를 사용 하면 만들기, 읽기 및 UML 모델 및 �
   
  해당 플랫폼의 형식은 UML 확장을 작성하기 위해 참조하는 일부 어셈블리에 표시됩니다. [!INCLUDE[dsl](../includes/dsl-md.md)] API에 액세스하여 UML 도구에 대한 확장을 만들 수 있지만 다음을 고려해야 합니다.  
   
--   일부 간단한 변경으로 인해 불일치 및 예기치 않은 효과가 도입되는 것을 확인할 수 있습니다.  
+- 일부 간단한 변경으로 인해 불일치 및 예기치 않은 효과가 도입되는 것을 확인할 수 있습니다.  
   
--   구현은 나중에 변경될 수 있으므로 [!INCLUDE[dsl](../includes/dsl-md.md)] API를 사용하여 수행한 적응이 더 이상 작동하지 않을 수 있습니다.  
+- 구현은 나중에 변경될 수 있으므로 [!INCLUDE[dsl](../includes/dsl-md.md)] API를 사용하여 수행한 적응이 더 이상 작동하지 않을 수 있습니다.  
   
 ## <a name="the-api-assemblies"></a>API 어셈블리  
  다음 표에서는 UML 도구에 대한 확장성을 제공하는 어셈블리 및 사용하는 것이 좋은 네임스페이스에 대해 간략하게 설명합니다.  

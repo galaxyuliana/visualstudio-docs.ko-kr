@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 5afabf877fbd1a34bc579d81a137abbd5771fed5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: 4e41cb7bf747a1c083dc1728d7ea26f47ad8fa48
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55944067"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106997"
 ---
 # <a name="bind-controls-to-pictures-from-a-database"></a>데이터베이스의 그림에 컨트롤 바인딩
 
@@ -34,14 +34,14 @@ ms.locfileid: "55944067"
 
 ## <a name="to-bind-a-picture-in-a-database-to-a-control"></a>데이터베이스의 그림 컨트롤에 바인딩할
 
-1.  디자인 화면에 컨트롤을 추가 하려면 WPF 디자이너 또는 Windows Forms 디자이너에서 열려 있는지 확인 합니다.
+1. 디자인 화면에 컨트롤을 추가 하려면 WPF 디자이너 또는 Windows Forms 디자이너에서 열려 있는지 확인 합니다.
 
-2.  에 **데이터 원본** 창에서 원하는 테이블을 확장 하거나 해당 열 또는 속성을 표시할 개체입니다.
+2. 에 **데이터 원본** 창에서 원하는 테이블을 확장 하거나 해당 열 또는 속성을 표시할 개체입니다.
 
    > [!TIP]
    > 경우는 **데이터 원본** 창이 열려 있지 않으면, 선택 하 여 엽니다 **뷰** > **기타 Windows** > **데이터 원본을**.
 
-3.  열 이나 이미지 데이터를 포함 하는 속성을 선택 하 고 해당 드롭다운 목록 컨트롤 목록에서 다음 컨트롤 중 하나를 선택 합니다.
+3. 열 이나 이미지 데이터를 포함 하는 속성을 선택 하 고 해당 드롭다운 목록 컨트롤 목록에서 다음 컨트롤 중 하나를 선택 합니다.
 
     - WPF designer가 열려 있으면 선택 **이미지**합니다.
 
@@ -49,6 +49,6 @@ ms.locfileid: "55944067"
 
     - 또는 데이터 바인딩을 지원 하 고 이미지를 표시할 수 있는 다른 컨트롤을 선택할 수 있습니다. 사용 하려는 컨트롤의 사용 가능한 컨트롤 목록에 없는 경우 목록에 추가 하 고 선택 수 있습니다. 자세한 내용은 [데이터 소스 창에 사용자 지정 컨트롤을 추가할](../data-tools/add-custom-controls-to-the-data-sources-window.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)

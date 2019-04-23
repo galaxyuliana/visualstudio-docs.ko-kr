@@ -21,12 +21,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 813e49ab316f1fe74daa7a797dd6e16a878667d1
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: ae5d345da49ee33841a50622f3d1c59e2309890c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664585"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106295"
 ---
 # <a name="commit-in-process-edits-on-data-bound-controls-before-saving-data"></a>데이터 바인딩된 컨트롤에서 데이터를 저장하기 전에 In-Process 편집 커밋
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,12 +44,12 @@ ms.locfileid: "59664585"
   
 ## <a name="to-call-endedit-for-all-bindingsource-components-on-a-form"></a>EndEdit 양식의 모든 BindingSource 구성 요소에 대 한 호출  
   
-1.  다음 코드를 포함 하는 폼에 추가 된 <xref:System.Windows.Forms.BindingSource> 구성 요소입니다.  
+1. 다음 코드를 포함 하는 폼에 추가 된 <xref:System.Windows.Forms.BindingSource> 구성 요소입니다.  
   
      [!code-csharp[VSProDataOrcasEndEditOnAll#1](../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/CS/Form1.cs#1)]
      [!code-vb[VSProDataOrcasEndEditOnAll#1](../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/VB/Form1.vb#1)]  
   
-2.  폼의 데이터를 저장 하는 호출 바로 전에 코드의 다음 줄을 추가 (의 `TableAdapterManager.UpdateAll()` 메서드).  
+2. 폼의 데이터를 저장 하는 호출 바로 전에 코드의 다음 줄을 추가 (의 `TableAdapterManager.UpdateAll()` 메서드).  
   
      [!code-csharp[VSProDataOrcasEndEditOnAll#2](../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/CS/Form1.cs#2)]
      [!code-vb[VSProDataOrcasEndEditOnAll#2](../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/VB/Form1.vb#2)]  

@@ -15,21 +15,21 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0198c9e9e6238547bb8a9ea1a49c9f8a2a611cbc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 52e0dc775e5e9413fb251261a319e529f36393eb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603979"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102187"
 ---
 # <a name="choose-a-clickonce-deployment-strategy"></a>ClickOnce 배포 전략 선택
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 배포하는 전략에는 세 가지가 있으며, 주로 배포하는 응용 프로그램 종류에 따라 전략을 선택합니다. 세 가지 배포 전략은 다음과 같습니다.
 
--   웹 또는 네트워크 공유에서 설치
+- 웹 또는 네트워크 공유에서 설치
 
--   CD에서 설치
+- CD에서 설치
 
--   웹 또는 네트워크 공유에서 응용 프로그램 시작
+- 웹 또는 네트워크 공유에서 응용 프로그램 시작
 
     > [!NOTE]
     >  배포 전략을 선택하고 응용 프로그램 업데이트를 제공하는 전략을 선택할 수도 있습니다. 자세한 내용은 [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)합니다.
@@ -39,7 +39,7 @@ ms.locfileid: "56603979"
 
  이 전략은 네트워크 연결에 의존하므로 LAN(Local Area Network)이나 고속 인터넷 연결에 액세스할 수 있는 사용자에게 배포할 응용 프로그램에 가장 적합합니다.
 
- 웹에서 응용 프로그램을 배포할 경우 응용 프로그램이 URL을 통해 활성화될 때 응용 프로그램으로 인수를 전달할 수 있습니다. 자세한 내용은 [방법: 온라인 ClickOnce 응용 프로그램에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)합니다. 이 문서에 설명된 다른 방법을 사용하여 활성화되는 응용 프로그램에는 인수를 전달할 수 없습니다.
+ 웹에서 응용 프로그램을 배포할 경우 응용 프로그램이 URL을 통해 활성화될 때 응용 프로그램으로 인수를 전달할 수 있습니다. 자세한 내용은 [방법: 온라인 ClickOnce 애플리케이션에서 쿼리 문자열 정보 검색](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md)을 참조하세요. 이 문서에 설명된 다른 방법을 사용하여 활성화되는 응용 프로그램에는 인수를 전달할 수 없습니다.
 
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 이 배포 전략을 사용하려면 게시 마법사의 **애플리케이션 설치 방법** 페이지에서 **웹에서** 또는 **UNC 경로 또는 파일 공유에서**를 클릭합니다.
 
@@ -71,8 +71,8 @@ ms.locfileid: "56603979"
 
  .NET Framework 2.0을 대상으로 하는 응용 프로그램에는 Internet Explorer가 필요합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)
 - [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)
-- [방법: ClickOnce 응용 프로그램 게시 마법사를 사용 하 여 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [방법: 게시 마법사를 사용 하 여 ClickOnce 응용 프로그램 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
 - [ClickOnce 애플리케이션 보안](../deployment/securing-clickonce-applications.md)

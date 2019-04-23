@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b64c94d26dcb197246f78b721fd087d5dbf1e0dc
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: c6e6ec0cb8affbb820886f2bca163aae00d8536f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660361"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101381"
 ---
 # <a name="how-to-create-xml-snippets"></a>방법: XML 조각 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,23 +24,23 @@ XML 편집기를 사용하여 새 XML 조각을 만들 수 있습니다. 이 편
 ## <a name="to-create-a-new-xml-snippet"></a>새 XML 조각을 만들려면  
  만들려면 새 XML 코드 조각 새 XML 파일을 만들고 사용 합니다 **코드 조각 삽입** 기능입니다.  
   
-1.  에 **파일** 메뉴에서 클릭 **새로 만들기** 을 클릭 한 다음 **파일**합니다.  
+1. 에 **파일** 메뉴에서 클릭 **새로 만들기** 을 클릭 한 다음 **파일**합니다.  
   
-2.  클릭 **XML 파일** 을 클릭 한 다음 **오픈**합니다.  
+2. 클릭 **XML 파일** 을 클릭 한 다음 **오픈**합니다.  
   
-3.  편집기 창에서 마우스 오른쪽 단추로 누르고 **코드 조각 삽입**합니다.  
+3. 편집기 창에서 마우스 오른쪽 단추로 누르고 **코드 조각 삽입**합니다.  
   
-4.  선택 **조각** 목록에서 ENTER 키를 누릅니다.  
+4. 선택 **조각** 목록에서 ENTER 키를 누릅니다.  
   
-5.  원하는 대로 새 조각을 변경합니다.  
+5. 원하는 대로 새 조각을 변경합니다.  
   
-6.  **파일** 메뉴 선택 **XMLFile.xml**합니다.  
+6. **파일** 메뉴 선택 **XMLFile.xml**합니다.  
   
      합니다 **다른 이름으로 파일 저장** 대화 상자가 표시 됩니다.  
   
-7.  새 조각의 이름을 입력 하 고 선택 **조각 파일** 에서 합니다 **형식으로 저장** 드롭다운 창입니다.  
+7. 새 조각의 이름을 입력 하 고 선택 **조각 파일** 에서 합니다 **형식으로 저장** 드롭다운 창입니다.  
   
-8.  사용 된 **에 저장** 드롭다운 목록에서 파일 위치를 My Documents\Visual Studio 2005\Code Snippets\XML\My XML Snippets 폴더로 변경 하 고 다음 키를 누릅니다 **저장**합니다.  
+8. 사용 된 **에 저장** 드롭다운 목록에서 파일 위치를 My Documents\Visual Studio 2005\Code Snippets\XML\My XML Snippets 폴더로 변경 하 고 다음 키를 누릅니다 **저장**합니다.  
   
 ## <a name="snippet-description"></a>조각 설명  
  이 단원에서는 상용구 조각의 몇 가지 핵심 요소에 대해 설명합니다. XML 조각에서 사용 하는 스키마 요소에 대 한 자세한 내용은 참조 하세요. [코드 조각 스키마 참조](../ide/code-snippets-schema-reference.md)합니다.  

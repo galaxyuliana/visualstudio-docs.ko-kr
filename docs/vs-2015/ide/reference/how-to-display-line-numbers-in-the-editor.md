@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: be7091a9a960a62a0f60ad9bb0093a2f0d08236b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 7873d54ecdf3ce96ab64d94e9b1864c7ef2904b0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650984"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088264"
 ---
 # <a name="how-to-display-line-numbers-in-the-editor"></a>방법: 편집기에서 줄 번호 표시
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,9 +34,9 @@ ms.locfileid: "59650984"
   
 #### <a name="to-display-line-numbers-in-code"></a>코드의 줄 번호를 표시하려면  
   
-1.  메뉴 모음에서 **도구**, **옵션**을 선택합니다. **텍스트 편집기** 노드를 확장한 다음 사용 중인 언어에 대한 노드를 선택하거나 **모든 언어**를 선택하여 모든 언어에 줄 번호를 켭니다. 또는 **빠른 실행** 상자에 **줄 번호**를 입력할 수 있습니다.  
+1. 메뉴 모음에서 **도구**, **옵션**을 선택합니다. **텍스트 편집기** 노드를 확장한 다음 사용 중인 언어에 대한 노드를 선택하거나 **모든 언어**를 선택하여 모든 언어에 줄 번호를 켭니다. 또는 **빠른 실행** 상자에 **줄 번호**를 입력할 수 있습니다.  
   
-2.  ![편집기에 줄 번호를 표시하는 옵션](../../ide/reference/media/vs-displaylinenumbers.png "VS_DisplayLineNumbers")  
+2. ![편집기에 줄 번호를 표시하는 옵션](../../ide/reference/media/vs-displaylinenumbers.png "VS_DisplayLineNumbers")  
   
 > [!NOTE]
 >  언어나 설정에 따라 **옵션** 대화 상자에서 **모든 설정 표시** 확인란을 선택하여 **모든 언어** 하위 노드를 표시해야 할 수 있습니다.  

@@ -11,12 +11,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b1b98875bbc7ea4fc33c342ab625be385593aab8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a9838e934421e619c85f348052fbe589288391c1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972056"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104722"
 ---
 # <a name="responding-to-and-propagating-changes"></a>변경 내용에 대한 대응 및 전파
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,13 +45,13 @@ ms.locfileid: "58972056"
   
  외부 저장소에서 일관성을 유지 하려면 저장소 및 규칙 개체를 사용 하 여 모델을 동기화 하려면 store 이벤트를 사용 합니다.  
   
--   **사용자 지정 규칙을 만드는** 추상 규칙에서 파생 클래스로 사용자 지정 규칙을 만듭니다. 또한 사용자 지정 규칙에 대 한 프레임 워크를 알려야 합니다. 자세한 내용은 [규칙이 전파 변경 내용을 내에서 모델](../modeling/rules-propagate-changes-within-the-model.md)합니다.  
+- **사용자 지정 규칙을 만드는** 추상 규칙에서 파생 클래스로 사용자 지정 규칙을 만듭니다. 또한 사용자 지정 규칙에 대 한 프레임 워크를 알려야 합니다. 자세한 내용은 [규칙이 전파 변경 내용을 내에서 모델](../modeling/rules-propagate-changes-within-the-model.md)합니다.  
   
--   **이벤트 구독** 이벤트를 구독할 수 있습니다, 전에 이벤트 처리기 및 대리자를 만듭니다. 사용 하 여는 <xref:Microsoft.VisualStudio.Modeling.Store.EventManagerDirectory%2A>속성 이벤트를 구독할 수 있습니다. 자세한 내용은 [이벤트 처리기 전파 변경 외부 모델](../modeling/event-handlers-propagate-changes-outside-the-model.md)합니다.  
+- **이벤트 구독** 이벤트를 구독할 수 있습니다, 전에 이벤트 처리기 및 대리자를 만듭니다. 사용 하 여는 <xref:Microsoft.VisualStudio.Modeling.Store.EventManagerDirectory%2A>속성 이벤트를 구독할 수 있습니다. 자세한 내용은 [이벤트 처리기 전파 변경 외부 모델](../modeling/event-handlers-propagate-changes-outside-the-model.md)합니다.  
   
--   **변경을 실행 취소 중** 트랜잭션의 실행을 취소 하면 이벤트가 발생 하지만 규칙이 적용 되지 않습니다. 규칙 값을 변경 하 고 해당 변경 내용을 취소할 경우에 취소 작업을 실행 하는 동안 값을 원래 값으로 재설정 됩니다. 이벤트가 발생할 때 원래 값으로 다시 값을 수동으로 변경 해야 합니다. Transactons 및 실행 취소 하는 방법에 대 한 자세한 내용은를 참조 하세요. [방법: 트랜잭션을 사용 모델을 업데이트 하 여](../modeling/how-to-use-transactions-to-update-the-model.md)입니다.  
+- **변경을 실행 취소 중** 트랜잭션의 실행을 취소 하면 이벤트가 발생 하지만 규칙이 적용 되지 않습니다. 규칙 값을 변경 하 고 해당 변경 내용을 취소할 경우에 취소 작업을 실행 하는 동안 값을 원래 값으로 재설정 됩니다. 이벤트가 발생할 때 원래 값으로 다시 값을 수동으로 변경 해야 합니다. Transactons 및 실행 취소 하는 방법에 대 한 자세한 내용은를 참조 하세요. [방법: 트랜잭션을 사용 모델을 업데이트 하 여](../modeling/how-to-use-transactions-to-update-the-model.md)입니다.  
   
--   **규칙 및 이벤트를 이벤트 인수를 전달** 두 이벤트 규칙 전달 되는 `EventArgs` 모델 변경 방법에 대 한 정보가 포함 된 매개 변수입니다.  
+- **규칙 및 이벤트를 이벤트 인수를 전달** 두 이벤트 규칙 전달 되는 `EventArgs` 모델 변경 방법에 대 한 정보가 포함 된 매개 변수입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)   

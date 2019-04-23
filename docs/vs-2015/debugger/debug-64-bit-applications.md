@@ -17,12 +17,12 @@ caps.latest.revision: 38
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 600166699a40ac91d403d7b76948ac924b4a35c2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d603d2435183581cac92a7c6dae6a4044d8f8fe5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984633"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087432"
 ---
 # <a name="debug-64-bit-applications"></a>64비트 애플리케이션 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,22 +40,22 @@ ms.locfileid: "58984633"
 ## <a name="debug-a-64-bit-application"></a>64비트 애플리케이션 디버그  
  64비트 애플리케이션 디버그를 시도하려면  
   
-1.  Visual Studio 솔루션(예: C# 콘솔 애플리케이션)을 만듭니다.  
+1. Visual Studio 솔루션(예: C# 콘솔 애플리케이션)을 만듭니다.  
   
-2.  Configuration Manager를 사용하여 구성을 64비트로 설정합니다. 자세한 내용은 [방법: 플랫폼을 대상으로 한 프로젝트 구성](../ide/how-to-configure-projects-to-target-platforms.md)을 참조하세요.  
+2. Configuration Manager를 사용하여 구성을 64비트로 설정합니다. 자세한 내용은 [방법: 플랫폼을 대상으로 한 프로젝트 구성](../ide/how-to-configure-projects-to-target-platforms.md)을 참조하세요.  
   
-3.  이때 64비트 버전의 원격 디버거(msvsmon.exe)가 시작됩니다. 64비트 구성을 사용하는 솔루션이 열려 있으면 디버거가 실행됩니다.  
+3. 이때 64비트 버전의 원격 디버거(msvsmon.exe)가 시작됩니다. 64비트 구성을 사용하는 솔루션이 열려 있으면 디버거가 실행됩니다.  
   
-4.  디버깅을 시작합니다. 사용자 환경은 32비트 구성과 동일합니다. 오류가 발생할 경우 아래의 문제 해결 섹션을 참조하세요.  
+4. 디버깅을 시작합니다. 사용자 환경은 32비트 구성과 동일합니다. 오류가 발생할 경우 아래의 문제 해결 섹션을 참조하세요.  
   
 ## <a name="troubleshooting-64-bit-debugging"></a>64비트 디버깅 문제 해결  
  오류가 표시 될 수 있습니다. "64 비트 디버깅 작업이 예상 보다 오래 걸립니다." 이 경우 Visual Studio에서 64비트 버전의 msvsmon.exe로 요청을 보냈으며, 해당 요청의 결과가 반환되는 데 오랜 시간이 걸렸습니다.  
   
  이 오류의 주요 원인으로는 다음 두 가지가 있습니다.  
   
--   컴퓨터에 설치된 네트워킹 보안 소프트웨어로 인해 네트워킹 스택이 불안정하며 localhost를 통과하는 패킷이 삭제되었습니다. 모든 네트워크 보안 소프트웨어를 사용하지 않도록 설정하고 문제가 해결되는지 확인합니다. 이 방법으로 문제가 해결되면 소프트웨어가 localhost 트래픽을 방해한다고 네트워크 보안 소프트웨어 공급업체에 신고합니다.  
+- 컴퓨터에 설치된 네트워킹 보안 소프트웨어로 인해 네트워킹 스택이 불안정하며 localhost를 통과하는 패킷이 삭제되었습니다. 모든 네트워크 보안 소프트웨어를 사용하지 않도록 설정하고 문제가 해결되는지 확인합니다. 이 방법으로 문제가 해결되면 소프트웨어가 localhost 트래픽을 방해한다고 네트워크 보안 소프트웨어 공급업체에 신고합니다.  
   
--   Visual Studio에서 중단 또는 성능 문제가 발생합니다. 문제가 주기적으로 발생하는 경우 Visual Studio(devenv.exe) 및 작업자 프로세스(msvsmon.exe)의 덤프를 수집하여 Microsoft로 보낼 수 있습니다. 
+- Visual Studio에서 중단 또는 성능 문제가 발생합니다. 문제가 주기적으로 발생하는 경우 Visual Studio(devenv.exe) 및 작업자 프로세스(msvsmon.exe)의 덤프를 수집하여 Microsoft로 보낼 수 있습니다. 
   
 ## <a name="see-also"></a>참고 항목  
  [64비트 응용 프로그램](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   

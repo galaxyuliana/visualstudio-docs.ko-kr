@@ -15,12 +15,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5380c73b8286d492cb29f60acce3294aaac25d1f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 505f876b9c7943c8b039b74459552b77ce539477
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984896"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101121"
 ---
 # <a name="how-to-change-the-debug-stepping-option-legacy"></a>방법: 단계별 디버깅 옵션 변경(레거시)
 이 항목에서는 [!INCLUDE[wf](../includes/wf-md.md)]에서 동시 동작이 있는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 응용 프로그램의 단계별 디버깅 옵션을 변경하는 방법에 대해 설명합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -33,13 +33,13 @@ ms.locfileid: "58984896"
   
 #### <a name="to-change-the-debug-stepping-option"></a>디버그 단계별 옵션을 변경하려면  
   
-1.  Visual Studio를 시작합니다.  
+1. Visual Studio를 시작합니다.  
   
-2.  기존 레거시 워크플로 프로젝트를 열거나 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 하며 동시 활동을 사용하는 새 프로젝트를 만듭니다.  
+2. 기존 레거시 워크플로 프로젝트를 열거나 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 하며 동시 활동을 사용하는 새 프로젝트를 만듭니다.  
   
-3.  에 **워크플로** 메뉴에서에서 [!INCLUDE[wfd2](../includes/wfd2-md.md)], 가리킨 **디버그**를 가리킨 다음 **단계별 옵션**.  
+3. 에 **워크플로** 메뉴에서에서 [!INCLUDE[wfd2](../includes/wfd2-md.md)], 가리킨 **디버그**를 가리킨 다음 **단계별 옵션**.  
   
-4.  선택 **인스턴스** 하거나 **분기**합니다.  
+4. 선택 **인스턴스** 하거나 **분기**합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [레거시 워크플로 디버깅](../workflow-designer/debugging-legacy-workflows.md)   

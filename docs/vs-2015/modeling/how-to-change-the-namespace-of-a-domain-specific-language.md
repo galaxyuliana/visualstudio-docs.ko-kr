@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2a48c0692dcdcc93d58b5909b03b151ed7e1aae2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 57ec75ec116b3b107b01a139621d3c59ca8ecac9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971649"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094913"
 ---
 # <a name="how-to-change-the-namespace-of-a-domain-specific-language"></a>방법: 도메인 특정 언어의 네임스페이스 변경
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,23 +25,23 @@ ms.locfileid: "58971649"
   
 ### <a name="to-change-the-namespace-of-a-domain-specific-language"></a>도메인 특정 언어의 네임 스페이스를 변경 하려면  
   
-1.  **DSL 탐색기**를 클릭 합니다 **Dsl** 노드.  
+1. **DSL 탐색기**를 클릭 합니다 **Dsl** 노드.  
   
-2.  에 **속성** 창에서 변경 합니다 **Namespace** 속성입니다.  
+2. 에 **속성** 창에서 변경 합니다 **Namespace** 속성입니다.  
   
-3.  솔루션을 저장 하 고 템플릿을 변형 합니다.  
+3. 솔루션을 저장 하 고 템플릿을 변형 합니다.  
   
-4.  에 **프로젝트** 메뉴에서 클릭 **Dsl 속성**합니다.  
+4. 에 **프로젝트** 메뉴에서 클릭 **Dsl 속성**합니다.  
   
      프로젝트에 대 한 속성이 표시 됩니다.  
   
-5.  **응용 프로그램** 탭을 클릭합니다.  
+5. **응용 프로그램** 탭을 클릭합니다.  
   
-6.  변경 된 **기본 네임 스페이스** 속성을 새 네임 스페이스 이름입니다.  
+6. 변경 된 **기본 네임 스페이스** 속성을 새 네임 스페이스 이름입니다.  
   
-7.  어셈블리의 이름을 변경 하려면 변경 된 **어셈블리 이름 속성입니다.**  
+7. 어셈블리의 이름을 변경 하려면 변경 된 **어셈블리 이름 속성입니다.**  
   
-8.  어셈블리 이름을 변경한 경우 DslPackage\Package.tt 열고이 줄을 업데이트 합니다.  
+8. 어셈블리 이름을 변경한 경우 DslPackage\Package.tt 열고이 줄을 업데이트 합니다.  
   
      `string dslAssembly = "YourDSLassembly.Dsl.dll";`  
   
@@ -49,9 +49,9 @@ ms.locfileid: "58971649"
   
 10. Visual Studio 실험적 인스턴스 다시 설정 합니다.  
   
-    1.  삭제할 **\Users\\**_{name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**  
+    1. 삭제할 **\Users\\**_{name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**  
   
-    2.  Windows에서 **시작** 메뉴에서 선택 **모든 프로그램**를 **Microsoft Visual Studio 2010 SDK**를 **도구**, **다시 설정 합니다 실험적 인스턴스에서**합니다.  
+    2. Windows에서 **시작** 메뉴에서 선택 **모든 프로그램**를 **Microsoft Visual Studio 2010 SDK**를 **도구**, **다시 설정 합니다 실험적 인스턴스에서**합니다.  
   
 11. 에 **빌드할** 메뉴에서 선택 **솔루션 다시 빌드**합니다.  
   

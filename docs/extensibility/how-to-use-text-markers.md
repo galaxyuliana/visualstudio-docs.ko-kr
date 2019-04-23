@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f847fa2ba58c8d3278a4ecec1c7d7ddc204f27e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 7575368a39aa7b6306336883327e2f7b9cafa8a8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56707499"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60109714"
 ---
 # <a name="how-to-use-text-markers"></a>방법: 텍스트 마커를 사용 합니다.
 텍스트 마커를 편집 하려면 적용할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> 개체입니다.
@@ -24,17 +24,17 @@ ms.locfileid: "56707499"
 
 ### <a name="to-apply-text-markers"></a>텍스트 마커를 적용 하려면
 
-1.  인스턴스는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> 클래스입니다.
+1. 인스턴스는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> 클래스입니다.
 
     > [!NOTE]
     >  핵심 편집기를 편집 하는 모든 문서에 표준 텍스트 마커를 자동으로 적용 하 고 표준 텍스트 마커를 명시적으로 적용할 필요는 없습니다.
 
-2.  호출 하 여 관심 있는 표식의 표식 유형 ID를 가져올는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> 메서드는 `GUID` 사용 하려는 텍스트 마커의 합니다.
+2. 호출 하 여 관심 있는 표식의 표식 유형 ID를 가져올는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> 메서드는 `GUID` 사용 하려는 텍스트 마커의 합니다.
 
     > [!NOTE]
     >  사용 하지 마십시오는 `GUID` VSPackage 또는 텍스트 마커를 제공 하는 서비스입니다.
 
-3.  사용 하 여 호출 하 여 표식 유형 ID를 가져올는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> 메서드 호출에 매개 변수로 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> 메서드 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> 텍스트 마커를 텍스트의 지정된 된 지역에 적용 하는 방법.
+3. 사용 하 여 호출 하 여 표식 유형 ID를 가져올는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> 메서드 호출에 매개 변수로 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> 메서드 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> 텍스트 마커를 텍스트의 지정된 된 지역에 적용 하는 방법.
 
 ### <a name="to-add-features-to-text-markers"></a>텍스트 표식에 기능을 추가 하려면
 

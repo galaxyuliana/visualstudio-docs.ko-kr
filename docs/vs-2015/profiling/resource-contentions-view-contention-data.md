@@ -13,12 +13,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2f98cad59356b48be185ba8e73d91bd3d368ff2a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c6a7d4d1e80323b4d260ac558661c222f72ec3c1
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54804136"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108713"
 ---
 # <a name="resource-contentions-view---contention-data"></a>리소스 경합 뷰 - 경합 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,16 +33,16 @@ ms.locfileid: "54804136"
 ### <a name="function-values"></a>함수 값  
  함수 값은 호출 트리에 표시되는 실행 경로에서 나타난 함수 인스턴스를 기준으로 합니다.  
   
--   전용 값은 함수가 함수 본문의 문을 실행할 때 발생한 이벤트를 기준으로 합니다. 함수가 호출한 함수에서 발생한 이벤트는 전용 값에 포함되지 않습니다.  
+- 전용 값은 함수가 함수 본문의 문을 실행할 때 발생한 이벤트를 기준으로 합니다. 함수가 호출한 함수에서 발생한 이벤트는 전용 값에 포함되지 않습니다.  
   
--   포괄 값은 함수 또는 함수가 호출한 함수를 실행할 때 발생한 이벤트를 기준으로 합니다.  
+- 포괄 값은 함수 또는 함수가 호출한 함수를 실행할 때 발생한 이벤트를 기준으로 합니다.  
   
 ### <a name="percentage-values"></a>백분율 값  
  백분율 값은 프로파일링 데이터의 총 시간 또는 경합 이벤트를 기준으로 합니다. 프로파일링 실행의 보고서나 뷰를 필터링하면 필터링된 데이터의 차단된 시간 및 경합만 전체 값으로 사용됩니다.  
   
 ## <a name="navigating-the-resource-allocation-view"></a>리소스 할당 뷰 탐색  
   
-|열|설명|  
+|Column|설명|  
 |------------|-----------------|  
 |**이름**|리소스 또는 함수의 이름입니다.|  
 |**차단된 전용 시간**|-   리소스의 경우 리소스 액세스가 차단되어 스레드가 대기해야 했던 총 시간입니다.<br />-   함수의 경우 함수가 함수 본문의 코드를 실행할 때 이러한 함수 인스턴스의 부모 리소스 액세스가 차단되었던 시간입니다. 해당 함수가 호출한 함수의 차단된 시간은 포함되지 않습니다.|  

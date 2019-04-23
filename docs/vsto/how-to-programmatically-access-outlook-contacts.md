@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c46df4218a12c0f9a155567aeee0c007d0a19c53
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: a9fc9cf214a8aebd663a7de29528790aa3cc0b46
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598208"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104228"
 ---
 # <a name="how-to-programmatically-access-outlook-contacts"></a>방법: 프로그래밍 방식으로 Outlook 연락처 액세스
   이 예제에서는 마지막 이름이 지정 된 검색 문자열을 포함 하는 모든 연락처를 찾습니다.
@@ -32,7 +32,7 @@ ms.locfileid: "56598208"
 ## <a name="compile-the-code"></a>코드 컴파일
  이 예제에는 다음 사항이 필요합니다.
 
--   연락처 마지막 이름에 포함 된 문자열 "**Na"** (예: Tzipi Butnaru)에 **연락처** 폴더입니다.
+- 연락처 마지막 이름에 포함 된 문자열 "**Na"** (예: Tzipi Butnaru)에 **연락처** 폴더입니다.
 
 ## <a name="see-also"></a>참고자료
 - [연락처 항목 작업](../vsto/working-with-contact-items.md)

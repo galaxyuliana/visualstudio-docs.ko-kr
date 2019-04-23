@@ -56,12 +56,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 62cd0007a2dd231bcfc0e99f64ac76d20d415263
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fb5877bccdc60d031e6ccd799eb6536df15fda38
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643432"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088777"
 ---
 # <a name="additional-support-for-errors-in-office-solutions"></a>Office 솔루션 오류에에서 대 한 추가 지원
 
@@ -71,11 +71,11 @@ Visual Studio에서 Office 솔루션을 만들 때 발생 하는 문제에 대 �
 
 Office 솔루션의 몇 가지 일반적인 오류를 사용 하 여 지원이 필요한 경우 다음 항목을 참조 합니다.
 
--   [Office 솔루션의 오류 문제 해결](../vsto/troubleshooting-errors-in-office-solutions.md)
+- [Office 솔루션의 오류 문제 해결](../vsto/troubleshooting-errors-in-office-solutions.md)
 
--   [Office 솔루션 보안 문제 해결](../vsto/troubleshooting-office-solution-security.md)
+- [Office 솔루션 보안 문제 해결](../vsto/troubleshooting-office-solution-security.md)
 
--   [Office 솔루션 배포 문제 해결](../vsto/troubleshooting-office-solution-deployment.md)
+- [Office 솔루션 배포 문제 해결](../vsto/troubleshooting-office-solution-deployment.md)
 
 ## <a name="other-resources"></a>기타 리소스
 

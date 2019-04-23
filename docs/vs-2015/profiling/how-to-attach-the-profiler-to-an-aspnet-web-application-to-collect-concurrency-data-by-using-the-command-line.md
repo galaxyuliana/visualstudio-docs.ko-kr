@@ -9,12 +9,12 @@ caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ea13b68f65d20f48a15c155761adef6bcbd4536b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: d720779019ab4106fa6c4b727e9994f168a2d8f2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59666022"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102291"
 ---
 # <a name="how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line"></a>방법: 명령줄을 사용 하 여 동시성 데이터 수집을 ASP.NET 웹 응용 프로그램에 Profiler 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,16 +51,16 @@ ms.locfileid: "59666022"
 
 3. 다음 명령을 입력하여 프로파일러를 ASP.NET 작업자 프로세스에 연결합니다. **VSPerfCmd /attach:**`PID` [**/targetclr:**`Version`]  
 
-   -   `PID`는 ASP.NET 작업자 프로세스의 ID 또는 이름을 지정합니다. [Windows 작업 관리자]에서 모든 실행 중인 프로세스의 프로세스 ID를 볼 수 있습니다.  
+   - `PID`는 ASP.NET 작업자 프로세스의 ID 또는 이름을 지정합니다. [Windows 작업 관리자]에서 모든 실행 중인 프로세스의 프로세스 ID를 볼 수 있습니다.  
 
-   -   [/targetclr](../profiling/targetclr.md) **:** `Version`은 한 응용 프로그램에 두 개 이상의 런타임 버전이 로드된 경우 프로파일링할 CLR(공용 언어 런타임) 버전을 지정합니다. 이 매개 변수는 선택적 요소입니다.  
+   - [/targetclr](../profiling/targetclr.md) **:** `Version`은 한 응용 프로그램에 두 개 이상의 런타임 버전이 로드된 경우 프로파일링할 CLR(공용 언어 런타임) 버전을 지정합니다. 이 매개 변수는 선택적 요소입니다.  
 
 ## <a name="controlling-data-collection"></a>데이터 컬렉션 제어  
  애플리케이션이 실행 중이면 VSPerfCmd.exe 옵션을 사용하여 파일에 대한 데이터 쓰기를 시작하고 중지하는 방식으로 데이터 수집을 제어할 수 있습니다. 데이터 수집을 제어하여 애플리케이션의 시작 또는 종료와 같이 프로그램 실행의 특정 부분에 대한 데이터를 수집할 수 있습니다.  
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면  
 
--   다음 표의 VSPerfCmd 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
+- 다음 표의 VSPerfCmd 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
 
     |옵션|설명|  
     |------------|-----------------|  
@@ -73,11 +73,11 @@ ms.locfileid: "59666022"
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면  
 
-1.  프로파일러를 닫거나 명령 프롬프트에서 다음을 입력하여 대상 애플리케이션에서 프로파일러를 분리합니다.  
+1. 프로파일러를 닫거나 명령 프롬프트에서 다음을 입력하여 대상 애플리케이션에서 프로파일러를 분리합니다.  
 
      **VSPerfCmd /detach**  
 
-2.  명령 프롬프트에서 다음 명령을 입력하여 프로파일러를 종료합니다.  
+2. 명령 프롬프트에서 다음 명령을 입력하여 프로파일러를 종료합니다.  
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)  
 

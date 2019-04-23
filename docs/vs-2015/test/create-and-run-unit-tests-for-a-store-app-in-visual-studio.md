@@ -11,12 +11,12 @@ caps.latest.revision: 28
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7ab342c2d038a0021d94858de916e66456622adb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 3c328b8522913dcb8095c09a031b2a2c80f58030
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54794494"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086769"
 ---
 # <a name="create-and-run-unit-tests-for-a-store-app-in-visual-studio"></a>Visual Studio에서 스토어 앱에 대한 단위 테스트 만들기 및 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,8 +27,8 @@ Visual Studio 2012 Express for Windows 8 단위 테스트 도구는 소프트웨
 >  이 섹션의 항목에서는 Visual Studio 2012 Express for Windows 8의 기능을 설명합니다. Visual Studio Ultimate, VS Premium 및 VS Professional은 단위 테스트에 대한 추가 기능을 제공합니다.
 >
 > - VS Ultimate, VS Premium 및 VS Professional에서는 Microsoft 테스트 탐색기에 대한 추가 어댑터를 만든 타사 또는 오픈 소스 단위 테스트 프레임워크를 사용할 수 있습니다. VS Ultimate 및 VS Premium을 사용하여 테스트에 대한 코드 검사 정보를 분석하고 표시할 수도 있습니다.
->   -   VS Ultimate에서는 모든 작업을 빌드한 후에 테스트를 실행할 수 있습니다. 또한 관리 코드에 대한 격리 프레임워크인 Microsoft Fakes를 사용하여 Microsoft Fakes는 시스템과 타사 기능을 테스트 코드로 대체함으로써 자체 코드에 대한 테스트에 집중할 수 있습니다.
->   -   **JavaScript**. JavaScript 단위 테스트는 Visual Studio Express for Windows 8의 IDE에서는 사용할 수 없습니다. Visual Studio Professional, Premium 및 Ultimate, JavaScript 단위 테스트 프레임워크는 Visual Studio 갤러리에서 확장으로 사용할 수 있습니다. 또한 독립 실행형 타사 또는 오픈 소스 JavaScript 단위 테스트 프레임워크 중 하나를 사용하여 JavaScript 코드를 테스트할 수도 있습니다.
+>   - VS Ultimate에서는 모든 작업을 빌드한 후에 테스트를 실행할 수 있습니다. 또한 관리 코드에 대한 격리 프레임워크인 Microsoft Fakes를 사용하여 Microsoft Fakes는 시스템과 타사 기능을 테스트 코드로 대체함으로써 자체 코드에 대한 테스트에 집중할 수 있습니다.
+>   - **JavaScript**. JavaScript 단위 테스트는 Visual Studio Express for Windows 8의 IDE에서는 사용할 수 없습니다. Visual Studio Professional, Premium 및 Ultimate, JavaScript 단위 테스트 프레임워크는 Visual Studio 갤러리에서 확장으로 사용할 수 있습니다. 또한 독립 실행형 타사 또는 오픈 소스 JavaScript 단위 테스트 프레임워크 중 하나를 사용하여 JavaScript 코드를 테스트할 수도 있습니다.
 >
 >   자세한 내용은 MSDN 라이브러리의 [코드 단위 테스트](../test/unit-test-your-code.md)를 참조하세요.
 

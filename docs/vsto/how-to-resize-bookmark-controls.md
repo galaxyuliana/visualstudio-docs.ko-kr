@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1769ed711c0334ef14a3567478cc5010ec4165ea
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 04eefc37162eaa90743982a0039e21d1d9edfb1a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644954"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090721"
 ---
 # <a name="how-to-resize-bookmark-controls"></a>방법: 책갈피 컨트롤 크기 조정
   Microsoft Office Word 문서에 추가할 때 <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤의 크기를 설정합니다. 나중에 크기를 조정할 수도 있습니다.
@@ -47,15 +47,15 @@ ms.locfileid: "56644954"
 
 ### <a name="to-resize-a-bookmark-in-a-document-level-project-at-design-time"></a>디자인 타임에 문서 수준 프로젝트에서 책갈피 크기를 조정하려면
 
-1.  **속성** 창에서 책갈피를 선택합니다.
+1. **속성** 창에서 책갈피를 선택합니다.
 
-2.  <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> 속성 값을 늘리거나 줄입니다.
+2. <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> 속성 값을 늘리거나 줄입니다.
 
-3.  <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> 속성 값을 늘리거나 줄입니다.
+3. <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> 속성 값을 늘리거나 줄입니다.
 
 ### <a name="to-resize-a-bookmark-in-a-document-level-project-at-runtime"></a>런타임에 문서 수준 프로젝트에서 책갈피 크기를 조정 하려면
 
-1.  수정 합니다 <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> 및 <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> 의 속성을 <xref:Microsoft.Office.Tools.Word.Bookmark> 디자인 타임 또는 런타임에 만든 합니다.
+1. 수정 합니다 <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> 및 <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> 의 속성을 <xref:Microsoft.Office.Tools.Word.Bookmark> 디자인 타임 또는 런타임에 만든 합니다.
 
      다음 코드 예제에서는 `SampleBookmark`라는 책갈피의 시작 부분에 다섯 개의 문자를 추가합니다. 이 코드는 책갈피 앞에 최소 다섯 개의 문자로 된 텍스트가 있다고 가정합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "56644954"
 
 ### <a name="to-resize-a-bookmark-in-a-vsto-add-in-project-at-runtime"></a>런타임에 VSTO 추가 기능을 프로젝트에서 책갈피 크기를 조정 하려면
 
-1.  수정 합니다 <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> 및 <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> 의 속성을 <xref:Microsoft.Office.Tools.Word.Bookmark> 런타임에 생성.
+1. 수정 합니다 <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> 및 <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> 의 속성을 <xref:Microsoft.Office.Tools.Word.Bookmark> 런타임에 생성.
 
      다음 코드 예제는 활성 문서의 첫 번째 단락에 텍스트를 포함하는 <xref:Microsoft.Office.Tools.Word.Bookmark> 를 만든 다음 <xref:Microsoft.Office.Tools.Word.Bookmark>의 처음과 끝에서 다섯 개의 문자를 제거합니다.
 
@@ -81,11 +81,11 @@ ms.locfileid: "56644954"
 
 ### <a name="to-recreate-a-bookmark-in-a-document-level-project-at-design-time"></a>디자인 타임에 문서 수준 프로젝트에서 책갈피를 다시 만들려면
 
-1.  새 <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤에 포함될 텍스트를 선택합니다.
+1. 새 <xref:Microsoft.Office.Tools.Word.Bookmark> 컨트롤에 포함될 텍스트를 선택합니다.
 
-2.  **삽입** 메뉴에서 **책갈피**를 클릭합니다.
+2. **삽입** 메뉴에서 **책갈피**를 클릭합니다.
 
-3.  **책갈피** 대화 상자에서 크기를 조정하려는 책갈피 이름을 선택하고 **추가**를 클릭합니다.
+3. **책갈피** 대화 상자에서 크기를 조정하려는 책갈피 이름을 선택하고 **추가**를 클릭합니다.
 
 ## <a name="see-also"></a>참고자료
 - [방법: Word 문서에 책갈피 컨트롤 추가](../vsto/how-to-add-bookmark-controls-to-word-documents.md)

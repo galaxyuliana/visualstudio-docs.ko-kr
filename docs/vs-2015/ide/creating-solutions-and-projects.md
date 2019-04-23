@@ -18,12 +18,12 @@ caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: db0aaaee01c27fa4588cc2268cd3106abfcc739e
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d91263dc0f66c048e308505e461c8b1536b77a06
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54763116"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60109818"
 ---
 # <a name="creating-solutions-and-projects"></a>Creating Solutions and Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,7 +62,7 @@ ms.locfileid: "54763116"
 ## <a name="adding-single-files-at-the-solution-level"></a>솔루션 수준에서 단일 파일 추가  
  경우에 따라 여러 프로젝트에서 참조하거나, 특정 프로젝트가 아니라 논리적으로 솔루션 수준에 속하는 텍스트 또는 기타 데이터를 포함하는 파일이 있습니다.  솔루션에 단일 항목을 추가하려면  
   
-1.  **솔루션 탐색기**에서 솔루션 노드를 마우스 오른쪽 단추로 클릭하고 **추가 &#124; 새 항목** 또는 **추가 &#124; 기존 항목**을 선택합니다.  
+1. **솔루션 탐색기**에서 솔루션 노드를 마우스 오른쪽 단추로 클릭하고 **추가 &#124; 새 항목** 또는 **추가 &#124; 기존 항목**을 선택합니다.  
   
 ## <a name="creating-empty-solutions"></a>빈 솔루션 만들기  
  프로젝트는 항상 솔루션 내에 있어야 하지만 프로젝트가 없는 솔루션을 만들 수도 있습니다.  
@@ -87,11 +87,11 @@ ms.locfileid: "54763116"
   
 ##### <a name="to-delete-a-solution"></a>솔루션을 삭제하려면  
   
-1.  **솔루션 탐색기**에서 삭제할 솔루션을 마우스 오른쪽 단추로 클릭하고 **파일 탐색기에서 폴더 열기**를 선택합니다.  
+1. **솔루션 탐색기**에서 삭제할 솔루션을 마우스 오른쪽 단추로 클릭하고 **파일 탐색기에서 폴더 열기**를 선택합니다.  
   
-2.  파일 탐색기에서 한 수준 위로 이동합니다.  
+2. 파일 탐색기에서 한 수준 위로 이동합니다.  
   
-3.  솔루션을 포함하는 디렉터리를 선택하고 Delete 키를 누릅니다.  
+3. 솔루션을 포함하는 디렉터리를 선택하고 Delete 키를 누릅니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [솔루션 및 프로젝트](../ide/solutions-and-projects-in-visual-studio.md)   

@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 694e96c9b3d7c88e5ef2ac3ae1e51101afbe3f25
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 305f24204c1be7186b2d2d49fa61a0c32c52c8cb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621710"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104397"
 ---
 # <a name="how-to-programmatically-copy-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 복사
   워크시트의 복사본을 만들고 통합 문서의 기존 워크시트 앞이나 뒤에 해당 워크시트를 삽입할 수 있습니다. 워크시트를 삽입할 위치를 지정하지 않으면 새 워크시트를 포함할 새 통합 문서가 생성됩니다.
@@ -30,14 +30,14 @@ ms.locfileid: "56621710"
 
 ## <a name="to-add-a-copied-worksheet-to-a-workbook-in-a-document-level-customization"></a>문서 수준 사용자 지정에서 통합 문서에 복사된 워크시트를 추가하려면
 
-1.  <xref:Microsoft.Office.Interop.Excel.Worksheets.Copy%2A> 메서드를 사용하여 현재 통합 문서의 첫 번째 워크시트를 복사하고 세 번째 시트 뒤에 복사본을 배치합니다.
+1. <xref:Microsoft.Office.Interop.Excel.Worksheets.Copy%2A> 메서드를 사용하여 현재 통합 문서의 첫 번째 워크시트를 복사하고 세 번째 시트 뒤에 복사본을 배치합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#16](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#16)]
      [!code-vb[Trin_VstcoreExcelAutomation#16](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#16)]
 
 ## <a name="to-add-a-copied-worksheet-to-a-workbook-in-a-vsto-add-in"></a>VSTO 추가 기능에서 통합 문서에 복사된 워크시트를 추가하려면
 
-1.  <xref:Microsoft.Office.Interop.Excel.Worksheets.Copy%2A> 메서드를 사용하여 현재 통합 문서의 첫 번째 워크시트를 복사하고 세 번째 시트 뒤에 복사본을 배치합니다.
+1. <xref:Microsoft.Office.Interop.Excel.Worksheets.Copy%2A> 메서드를 사용하여 현재 통합 문서의 첫 번째 워크시트를 복사하고 세 번째 시트 뒤에 복사본을 배치합니다.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#12](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#12)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#12](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#12)]

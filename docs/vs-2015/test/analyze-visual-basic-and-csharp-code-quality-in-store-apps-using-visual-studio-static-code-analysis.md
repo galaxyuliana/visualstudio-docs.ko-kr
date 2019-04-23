@@ -11,12 +11,12 @@ caps.latest.revision: 16
 author: erickson-doug
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9353b4c3f5f5f073a0658d2cf506a46e13d3662c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: daa26ed2e893d4e11b9f2e18ef5127aafe847b96
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54795678"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108343"
 ---
 # <a name="analyze-visual-basic-and-c-code-quality-in-store-apps-using-visual-studio-static-code-analysis"></a>Visual Studio 정적 코드 분석을 사용하여 스토어 앱의 Visual Basic 및 C# 코드 품질 분석
 
@@ -42,7 +42,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
  [Visual Basic 및 C# 코드 분석 경고](../test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Warnings)
 
-##  <a name="BKMK_Run"></a> 코드 분석 실행
+## <a name="BKMK_Run"></a> 코드 분석 실행
  Visual Studio 솔루션에서 코드 문석을 실행하려면 다음을 수행합니다.
 
 - **빌드** 메뉴에서 **솔루션에서 코드 분석 실행**을 선택합니다.
@@ -57,12 +57,12 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
    ![코드 분석 창](../test/media/ca-managed-collapsed.png "CA_Managed_Collapsed")
 
-##  <a name="BKMK_Analyze"></a> 코드 분석 경고 분석 및 해결
+## <a name="BKMK_Analyze"></a> 코드 분석 경고 분석 및 해결
  특정 경고를 분석하려면 코드 분석 창에서 경고 제목을 클릭합니다. 경고가 확장되어 문제에 대한 자세한 정보가 표시됩니다.
 
  ![확장된 코드 분석 경고](../test/media/ca-managed-callouts.png "CA_Managed_Callouts")
 
- 경고를 확장하면 Visual Studio Code 편집기에서 경고를 발생시킨 코드 줄이 강조 표시됩니다.
+ 경고를 확장하면 Visual Studio 코드 편집기에 경고를 발생시킨 코드 줄이 강조 표시됩니다.
 
  ![코드 분석 텍스트 강조 표시](../test/media/ca-managed-sourceline.png "CA_Managed_SourceLine")
 
@@ -71,7 +71,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 > [!TIP]
 >  코드 분석 창에서 코드 분석을 다시 실행할 수 있습니다. **분석** 단추를 클릭한 다음 분석 범위를 선택합니다. 전체 솔루션 또는 선택한 프로젝트에 대한 분석을 다시 실행할 수 있습니다.
 
-##  <a name="BKMK_Suppress"></a> 코드 분석 경고 표시하지 않기
+## <a name="BKMK_Suppress"></a> 코드 분석 경고 표시하지 않기
  코드 분석 경고를 수정하지 않도록 결정하는 경우가 있습니다. 경고를 해결하려면 코드의 실제 구현에서 문제가 발생할 가능성과 관련하여 너무 많은 기록이 필요하다고 판단할 수 있습니다. 또는 경고에 사용되는 분석이 특정 컨텍스트에 적절하지 않다고 판단할 수도 있습니다. 코드 분석 창에 개별 경고가 나타나지 않도록 개별 경고를 표시하지 않을 수 있습니다.
 
  경고를 표시하지 않으려면 다음을 수행합니다.
@@ -88,14 +88,14 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
      경고를 소스 파일에서 표시하지 않을지 비표시 오류(Suppression) 파일에서 표시하지 않을지 여부는 해당 코딩 스타일과 요구에 따라 결정하면 됩니다.
 
-##  <a name="BKMK_Search"></a> 코드 분석 결과 검색 및 필터링
+## <a name="BKMK_Search"></a> 코드 분석 결과 검색 및 필터링
  긴 경고 메시지 목록을 검색하고 다중 프로젝트 솔루션에서 경고를 필터링할 수 있습니다.
 
  ![코드 분석 검색 및 필터 창](../test/media/ca-searchfilter.png "CA_SearchFilter")
 
  [!INCLUDE[vs_dev11_expwin_long](../includes/vs-dev11-expwin-long-md.md)]에서는 모든 코드 분석 경고마다 경고의 심각도 수준이 있습니다.
 
-##  <a name="BKMK_Warnings"></a> Visual Basic 및 C# 코드 분석 경고
+## <a name="BKMK_Warnings"></a> Visual Basic 및 C# 코드 분석 경고
  코드 분석 시 다음과 같은 경고가 발생합니다.
 
  [CA1001: 삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.](http://msdn.microsoft.com/library/ms182172.aspx)

@@ -13,12 +13,12 @@ caps.latest.revision: 44
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1b64be59e1a962eb23ef12ba49e8b4fa73bd7a44
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d0b98d57500ad2115abfcbd229d29009afdda059
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972475"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60114232"
 ---
 # <a name="capturing-graphics-information"></a>그래픽 정보 캡처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,9 +60,9 @@ Visual Studio Graphics Analyzer를 사용하여 렌더링 문제 및 성능 문�
   
 ##### <a name="to-configure-graphics-diagnostics-capture-options"></a>그래픽 진단 캡처 옵션을 구성하려면  
   
-1.  메뉴 모음에서 도구, 옵션을 차례로 선택합니다. 옵션 대화 상자가 표시됩니다.  
+1. 메뉴 모음에서 도구, 옵션을 차례로 선택합니다. 옵션 대화 상자가 표시됩니다.  
   
-2.  왼쪽의 옵션 범주 목록에서 그래픽 진단을 선택한 다음 원하는 그래픽 진단 옵션을 구성합니다.  
+2. 왼쪽의 옵션 범주 목록에서 그래픽 진단을 선택한 다음 원하는 그래픽 진단 옵션을 구성합니다.  
   
      **캡처하는 동안 호출 스택 수집(캡처 속도가 느려짐)**  
      호출 스택을 수집하려면 이 확인란을 선택합니다. 기본적으로 호출 스택은 수집되지 않습니다. 호출 스택을 캡처하려면 **캡처 중 호출 스택 컬렉션(캡처 속도가 느려짐)** 확인란이 컬렉션 사용으로 설정되어 있는지 확인한 다음, **그리기, 디스패치, 표시 및 perf 마커용** 옵션(기본값)을 설정하여 가장 중요한 호출 스택만 수집하거나 **모든 항목용** 옵션을 설정하여 모든 호출 스택을 수집합니다. 나중에 호출 스택 수집을 중지하려면 **캡처 중 호출 스택 수집(캡처 속도가 느려짐)** 확인란의 선택을 취소합니다.  

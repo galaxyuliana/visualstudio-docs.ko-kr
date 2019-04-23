@@ -16,12 +16,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2c3e4a9cffd81561af39cef5eb88f4a7745b2dad
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 4fb88d4db82bde5f93d33716b65e2e8a4b48305a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54753418"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115668"
 ---
 # <a name="how-to-collect-windows-counter-data"></a>방법: Windows 카운터 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,28 +30,28 @@ Windows 카운터는 프로파일링 중에 설정된 간격으로 수집할 수
   
  **요구 사항**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!NOTE]
 >  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
   
 ### <a name="to-collect-windows-counter-data"></a>Windows 카운터 데이터를 수집하려면  
   
-1.  [성능 탐색기]에서 Windows 카운터를 구성할 세션을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.  
+1. [성능 탐색기]에서 Windows 카운터를 구성할 세션을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.  
   
-2.  **속성 페이지**에서 **Windows 카운터**를 클릭합니다.  
+2. **속성 페이지**에서 **Windows 카운터**를 클릭합니다.  
   
-3.  **Windows 카운터 수집** 확인란을 선택합니다.  
+3. **Windows 카운터 수집** 확인란을 선택합니다.  
   
-4.  **수집 간격(밀리초)** 텍스트 상자에 시간 간격을 입력합니다.  
+4. **수집 간격(밀리초)** 텍스트 상자에 시간 간격을 입력합니다.  
   
-5.  **카운터 범주** 드롭다운 목록에서 범주를 선택합니다.  
+5. **카운터 범주** 드롭다운 목록에서 범주를 선택합니다.  
   
-6.  **인스턴스** 드롭다운 목록에서 인스턴스를 선택합니다.  
+6. **인스턴스** 드롭다운 목록에서 인스턴스를 선택합니다.  
   
-7.  애플리케이션을 프로파일링할 때 사용할 카운터를 선택합니다.  
+7. 애플리케이션을 프로파일링할 때 사용할 카운터를 선택합니다.  
   
-8.  **적용**을 클릭합니다.  
+8. **적용**을 클릭합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [성능 세션 구성](../profiling/configuring-performance-sessions.md)   

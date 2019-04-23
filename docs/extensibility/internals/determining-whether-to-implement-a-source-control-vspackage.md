@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: de43eaa56b4405c48be423f94b905cb845cc9843
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fd3e0888cb45facbf2946e6a4656147dab75350e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628145"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100491"
 ---
 # <a name="determine-whether-to-implement-a-source-control-vspackage"></a>소스 제어 VSPackage를 구현할지 여부 결정
 이 섹션에서는 소스 제어 통합 적합 한 경로 선택 하는 방법에 대 한 솔루션을 사용 하면 광범위 한 지침을 확장 하는 것에 대 한 원본 제어 플러그 인 및 소스 제어 Vspackage의 선택 항목을 설명 합니다.
@@ -28,13 +28,13 @@ ms.locfileid: "56628145"
 
  유연성 및 원본 제어 논리 및 UI를 통해 다양 한 제어를 제공 하는 원본 제어 솔루션을 구현 하려는 경우 원본 제어 패키지 통합 경로 수도 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
 
-1.  사용자 고유의 소스 제어 VSPackage를 등록 (참조 [등록과 선택](../../extensibility/internals/registration-and-selection-source-control-vspackage.md)).
+1. 사용자 고유의 소스 제어 VSPackage를 등록 (참조 [등록과 선택](../../extensibility/internals/registration-and-selection-source-control-vspackage.md)).
 
-2.  사용자 지정 UI를 사용 하 여 UI의 기본 소스 제어를 바꿉니다 (참조 [사용자 지정 사용자 인터페이스](../../extensibility/internals/custom-user-interface-source-control-vspackage.md)).
+2. 사용자 지정 UI를 사용 하 여 UI의 기본 소스 제어를 바꿉니다 (참조 [사용자 지정 사용자 인터페이스](../../extensibility/internals/custom-user-interface-source-control-vspackage.md)).
 
-3.  사용 되 고 솔루션 탐색기 문자 모양 이벤트를 처리할 문자 모양을 지정 (참조 [문자 모양 제어](../../extensibility/internals/glyph-control-source-control-vspackage.md)).
+3. 사용 되 고 솔루션 탐색기 문자 모양 이벤트를 처리할 문자 모양을 지정 (참조 [문자 모양 제어](../../extensibility/internals/glyph-control-source-control-vspackage.md)).
 
-4.  쿼리 편집 하 고 쿼리를 저장 하는 이벤트 처리 (참조 [쿼리 편집 쿼리 저장](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md)).
+4. 쿼리 편집 하 고 쿼리를 저장 하는 이벤트 처리 (참조 [쿼리 편집 쿼리 저장](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md)).
 
 ## <a name="see-also"></a>참고자료
 - [소스 제어 플러그 인 만들기](../../extensibility/internals/creating-a-source-control-plug-in.md)

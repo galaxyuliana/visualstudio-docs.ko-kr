@@ -10,12 +10,12 @@ ms.date: 06/28/2018
 ms.author: mikejo
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
-ms.openlocfilehash: 049d8500f9f3f2a8695d686484ea48f84f2e034b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3790d370e969a913db31c3bab139b2c42ef97d22
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982805"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105436"
 ---
 # <a name="set-up-diagnostics-for-azure-cloud-services-and-virtual-machines"></a>Azure Cloud Services 및 Virtual Machines에 대한 진단 설정
 Azure 클라우드 서비스 또는 가상 머신 문제를 해결해야 하는 경우 Visual Studio를 사용하여 Azure Diagnostics를 보다 쉽게 설정할 수 있습니다. 진단은 클라우드 서비스를 실행하는 가상 머신 및 가상 머신 인스턴스에서 시스템 데이터와 로깅 데이터를 캡처합니다. 진단 데이터는 사용자가 선택한 저장소 계정으로 전송됩니다. Azure의 진단 로깅에 대한 자세한 내용은 [Azure App Service에서 웹앱에 대해 진단 로깅 사용](/azure/app-service/web-sites-enable-diagnostic-log)을 참조하세요.
@@ -150,12 +150,13 @@ Azure SDK 2.6 이상을 사용 중이고 사용자 지정 데이터 원본을 �
 
 Azure SDK 2.5를 사용 중이고 사용자 지정 데이터 원본을 지정하려면 다음 예와 같이 diagnostics.wadcfgx 파일의 `WindowsEventLog` 섹션에 추가하면 됩니다.
 
-```
+```xml
 <WindowsEventLog scheduledTransferPeriod="PT1M">
    <DataSource name="Application!*" />
    <DataSource name="CustomDataSource!*" />
 </WindowsEventLog>
 ```
+
 ### <a name="performance-counters"></a>성능 카운터
 성능 카운터 정보는 시스템 병목 지점을 찾고 시스템 및 애플리케이션 성능을 미세하게 조정하는 데 도움이 될 수 있습니다. 자세한 내용은 [Azure 애플리케이션에서 성능 카운터 만들기 및 사용](https://msdn.microsoft.com/library/azure/hh411542.aspx)을 참조하세요. 성능 카운터를 캡처하려면 **성능 카운터 전송 사용** 확인란을 선택합니다. 저장소 계정으로의 이벤트 로그 전송 간격을 늘리거나 줄이려면 변경 된 **전송 기간(분)** 값을 변경합니다. 추적하려는 성능 카운터에 대한 확인란을 선택 합니다.
 

@@ -29,12 +29,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fd8928f204da4a3af15918a598df6241cd39df85
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 3de5a3f9e9c5b8f89a9c8917794247098ba12d06
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665677"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111807"
 ---
 # <a name="create-a-visual-map-of-the-call-stack-while-debugging-c-visual-basic-c-javascript"></a>디버깅 하는 동안 호출 스택의 시각적 맵 만들기 (C#, Visual Basic의 경우 C++, JavaScript)
 
@@ -51,7 +51,7 @@ ms.locfileid: "59665677"
 
  ![코드 맵의 호출 스택으로 디버그](../debugger/media/debuggermap_overview.png "DebuggerMap_Overview")
 
-##  <a name="MapStack"></a> 호출 스택 매핑
+## <a name="MapStack"></a> 호출 스택 매핑
 
 1. Visual Studio Enterprise에서 C#, Visual Basic의 경우 C++, 또는 JavaScript 프로젝트를 선택 하 여 디버깅을 시작할 **디버그** > **디버깅 시작** 키를 누르거나 **F5** .
 
@@ -89,11 +89,11 @@ ms.locfileid: "59665677"
 
 에 **레이아웃** 메뉴에서 할 수 있습니다.
 
--   기본 레이아웃을 변경합니다.
--   선택 취소 하 여 지도 자동으로 다시 정렬 중지 **디버깅 시 자동으로 레이아웃**합니다.
--   선택 취소 하 여 항목을 추가할 때 최소한으로 맵을 다시 정렬 **증분 레이아웃**합니다.
+- 기본 레이아웃을 변경합니다.
+- 선택 취소 하 여 지도 자동으로 다시 정렬 중지 **디버깅 시 자동으로 레이아웃**합니다.
+- 선택 취소 하 여 항목을 추가할 때 최소한으로 맵을 다시 정렬 **증분 레이아웃**합니다.
 
-##  <a name="MakeNotes"></a> 코드에 대해 메모하기
+## <a name="MakeNotes"></a> 코드에 대해 메모하기
 
 코드에서 발생 하는 추적 하기 위한 주석을 추가할 수 있습니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "59665677"
 
  ![코드 맵의 호출 스택에 설명 추가](../debugger/media/debuggermap_addcomment.png "DebuggerMap_AddComment")
 
-##  <a name="UpdateMap"></a> 다음 호출 스택과 함께 맵 업데이트
+## <a name="UpdateMap"></a> 다음 호출 스택과 함께 맵 업데이트
 
 함수에 다음 중단점까지 또는 단계 앱을 실행 하면 맵에 새 호출 스택이 자동으로 추가 합니다.
 
@@ -111,7 +111,7 @@ ms.locfileid: "59665677"
 
 맵에 새 호출 스택이 자동으로 추가 중지 하려면 선택 ![자동으로 코드 맵에 표시 호출 스택](../debugger/media/debuggermap_automaticupdateicon.gif "자동으로 코드 맵에 표시 호출 스택") 코드 맵 도구 모음에서 합니다. 맵에 계속 기존 호출 스택을 강조 표시 합니다. 현재 호출 스택을 맵에 수동으로 추가 하려면 다음을 누릅니다 **Ctrl**+**Shift**+**`** 합니다.
 
-##  <a name="AddRelatedCode"></a> 맵에 관련 코드 추가
+## <a name="AddRelatedCode"></a> 맵에 관련 코드 추가
 
 이제를 가져온 후 지도 C# 또는 Visual Basic의 경우 필드, 속성 및 코드에서 발생 하는 추적에 다른 메서드와 같은 항목을 추가할 수 있습니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "59665677"
 
  ![호출 스택 코드 맵의 필드를 사용 하는 방법](../debugger/media/debuggermap_foundallreferences.png "DebuggerMap_FoundAllReferences")
 
-##  <a name="FindBugs"></a> 맵을 사용하여 버그 찾기
+## <a name="FindBugs"></a> 맵을 사용하여 버그 찾기
  코드를 시각화하면 버그를 더 빠르게 찾을 수 있습니다. 예를 들어 드로잉 응용 프로그램에서 버그를 조사 한다고 가정 합니다. 선을 그렸다가 취소하려는 경우 다른 선을 그릴 때까지 아무 것도 발생하지 않습니다.
 
  따라서 `clear`, `undo` 및 `Repaint` 메서드에서 중단점을 설정하고, 디버깅을 시작하고, 다음과 같은 맵을 빌드합니다.

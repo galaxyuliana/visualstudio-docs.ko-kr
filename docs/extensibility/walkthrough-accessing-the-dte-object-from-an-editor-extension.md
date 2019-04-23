@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 011e62af5c836eab4d59e5262774c53be3807638
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 1319e539c185a231637b4e78d7ac0de9154ed8a3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56718312"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105177"
 ---
 # <a name="walkthrough-accessing-the-dte-object-from-an-editor-extension"></a>연습: 편집기 확장에서 DTE 개체 액세스
 Vspackage에서 DTE 개체를 호출 하 여 가져올 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> DTE 개체의 유형과 메서드. Framework MEF (Managed Extensibility) 확장을 가져올 수 있습니다 <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> 호출을 <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> 형식의 메서드 <xref:EnvDTE.DTE>합니다.
@@ -27,17 +27,17 @@ Vspackage에서 DTE 개체를 호출 하 여 가져올 수 있습니다는 <xref
 
 ### <a name="to-get-the-dte-object-from-the-serviceprovider"></a>ServiceProvider에서 DTE 개체를 가져와
 
-1.  라는 C# VSIX 프로젝트를 만듭니다 `DTETest`합니다. 편집기 분류자 항목 템플릿을 추가 하 고 이름을 `DTETest`입니다. 자세한 내용은 [편집기 항목 템플릿을 사용 하 여 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-an-editor-item-template.md)합니다.
+1. 라는 C# VSIX 프로젝트를 만듭니다 `DTETest`합니다. 편집기 분류자 항목 템플릿을 추가 하 고 이름을 `DTETest`입니다. 자세한 내용은 [편집기 항목 템플릿을 사용 하 여 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-an-editor-item-template.md)합니다.
 
-2.  프로젝트에 다음 어셈블리 참조를 추가 합니다.
+2. 프로젝트에 다음 어셈블리 참조를 추가 합니다.
 
-    -   EnvDTE
+    - EnvDTE
 
-    -   EnvDTE80
+    - EnvDTE80
 
-    -   Microsoft.VisualStudio.Shell.Immutable.10.0
+    - Microsoft.VisualStudio.Shell.Immutable.10.0
 
-3.  로 이동 합니다 *DTETest.cs* 파일을 추가한 다음 `using` 지시문:
+3. 로 이동 합니다 *DTETest.cs* 파일을 추가한 다음 `using` 지시문:
 
     ```csharp
     using EnvDTE;
@@ -46,7 +46,7 @@ Vspackage에서 DTE 개체를 호출 하 여 가져올 수 있습니다는 <xref
 
     ```
 
-4.  에 `GetDTEProvider` 클래스, 가져오기는 <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider>합니다.
+4. 에 `GetDTEProvider` 클래스, 가져오기는 <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider>합니다.
 
     ```csharp
     [Import]
@@ -54,14 +54,14 @@ Vspackage에서 DTE 개체를 호출 하 여 가져올 수 있습니다는 <xref
 
     ```
 
-5.  `GetClassifier()` 메서드에 다음 코드를 추가합니다.
+5. `GetClassifier()` 메서드에 다음 코드를 추가합니다.
 
     ```csharp
     DTE dte = (DTE)ServiceProvider.GetService(typeof(DTE));
 
     ```
 
-6.  사용 해야 하는 경우는 <xref:EnvDTE80.DTE2> 인터페이스를 DTE 개체를 캐스팅할 수 있습니다.
+6. 사용 해야 하는 경우는 <xref:EnvDTE80.DTE2> 인터페이스를 DTE 개체를 캐스팅할 수 있습니다.
 
 ## <a name="see-also"></a>참고자료
 - [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)

@@ -11,12 +11,12 @@ caps.latest.revision: 3
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 824d60ef0f17012524f9d0150a90ccd9efcfb3a9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: b87971e1fd2e484aa54ff4de56ee56e00b19b1e6
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150961"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101017"
 ---
 # <a name="iactivescripttraceinfostartscripttracing-method"></a>IActiveScriptTraceInfo::StartScriptTracing 메서드
 스크립트 추적을 시작합니다.  
@@ -37,8 +37,8 @@ HRESULT StartScriptTracing(     [in] IActiveScriptSiteTraceInfo * pSiteTraceInfo
 ## <a name="return-value"></a>반환 값  
  이 메서드에 대 한 가능한 반환 값은 다음과 같습니다.  
   
-1.  S_OK: 명령 실행 성공  
+1. S_OK: 명령 실행 성공  
   
-2.  E_POINTER: `pSiteTraceInfo` 가 NULL 포인터입니다.  
+2. E_POINTER: `pSiteTraceInfo` 가 NULL 포인터입니다.  
   
-3.  E_NOTIMPL: 구현되지 않았습니다.
+3. E_NOTIMPL: 구현되지 않았습니다.

@@ -15,12 +15,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: f82714ad03fc84f7112657aeafdbd257f426fc82
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 50375390b3a09ec18fcccd45e4eaee7e9fe102e2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985323"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094790"
 ---
 # <a name="ca1816-call-gcsuppressfinalize-correctly"></a>CA1816: GC.SuppressFinalize를 올바르게 호출하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,16 +34,16 @@ ms.locfileid: "58985323"
 
 ## <a name="cause"></a>원인
 
--   구현 하는 메서드 <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 호출 하지 않습니다 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName>합니다.
+- 구현 하는 메서드 <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 호출 하지 않습니다 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName>합니다.
 
--   구현의 없는 메서드에 <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 호출 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName>합니다.
+- 구현의 없는 메서드에 <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 호출 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName>합니다.
 
--   메서드 호출 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 이 (Visual Basic의 Me) 이외의 값을 전달 하 고 있습니다.
+- 메서드 호출 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 이 (Visual Basic의 Me) 이외의 값을 전달 하 고 있습니다.
 
 ## <a name="rule-description"></a>규칙 설명
  <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 메서드를 사용 하면 사용자 개체를 가비지 수집 되기 전에 언제 든 지 리소스를 해제 합니다. 경우는 <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 메서드를 호출할 개체의 리소스를 해제 합니다. 이렇게 하면 종료는 불필요 합니다. <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 호출 해야 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 하므로 가비지 수집기는 개체의 종료자를 호출 하지 않습니다.
 
- [변수]를 다시 구현 하지 않아도 파생된 형식과 종료자를 방지 하기 위해 (<!-- TODO: review code entity reference <xref:assetId:///System.IDisposable?qualifyHint=True&amp;autoUpgrade=False>  -->) 계속 호출 해야 종료자 없이 unsealed 형식의 호출 하 고 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName>입니다.
+ [변수] (다시 구현 하지 않아도 파생 형식 종료자를 사용 하 여 방지 하기 위해<!-- TODO: review code entity reference <xref:assetId:///System.IDisposable?qualifyHint=True&amp;autoUpgrade=False>  -->)를 호출 하려면 종료자 없이 unsealed 형식의 호출 계속 해야 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName>합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  에이 규칙 위반 문제를 해결 합니다.
@@ -52,7 +52,7 @@ ms.locfileid: "58985323"
 
  메서드 구현의 없으면 <xref:System.IDisposable.Dispose%2A>에 대 한 호출을 제거 하거나 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 형식으로 이동 하거나 <xref:System.IDisposable.Dispose%2A> 구현 합니다.
 
- 변경에 대 한 모든 호출 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 이 Me (Visual Basic에서)를 전달 합니다.
+ 변경에 대 한 모든 호출 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 이 Me (Visual basic에서)를 전달 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  사용 하 여 의도적는 경우에이 규칙에서 경고를 표시 하지 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName> 다른 개체의 수명을 제어 합니다. 구현의 경우이 규칙에서 경고를 표시 하지 마십시오 <xref:System.IDisposable.Dispose%2A> 호출 하지 않습니다 <xref:System.GC.SuppressFinalize%2A?displayProperty=fullName>합니다. 이런 경우 종료 되지 않도록 하는 데 실패 하 고 성능이 저하 됩니다 및 이점도 없습니다.

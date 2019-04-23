@@ -1,5 +1,5 @@
 ---
-title: '방법: 항목 템플릿 만들기 | Microsoft 문서'
+title: '방법: 항목 템플릿 만들기 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general
@@ -14,17 +14,17 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f7ec6628c6cfd12a35de151689196dadd4868f83
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
-ms.translationtype: MTE95
+ms.openlocfilehash: 587d0a3fb571a0cb5934f56fca1ffa0ad34d3086
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324762"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108791"
 ---
 # <a name="how-to-create-item-templates"></a>방법: 항목 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 항목 [첫 번째 절차](#to-add-a-custom-project-item-template-to-the-add-new-item-dialog-box)의 단계에서는 **템플릿 내보내기** 마법사를 사용하여 항목 템플릿을 만드는 방법을 보여 줍니다. 템플릿이 여러 파일로 구성되는 경우 [방법: 다중 파일 항목 템플릿 만들기](../ide/how-to-create-multi-file-item-templates.md)를 참조하세요.  
+이 항목 [첫 번째 절차](#to-add-a-custom-project-item-template-to-the-add-new-item-dialog-box)의 단계에서는 **템플릿 내보내기** 마법사를 사용하여 항목 템플릿을 만드는 방법을 보여 줍니다. 템플릿이 여러 파일로 구성되는 경우 [방법: 다중 파일 항목 템플릿 만들기](../ide/how-to-create-multi-file-item-templates.md)합니다.  
   
  마법사에서 기본 템플릿 만들기에 대한 많은 작업을 수행하지만 대부분의 경우 템플릿을 내보낸 후 .vstemplate 파일을 수동으로 수정해야 합니다. 예를 들어 항목을 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱 프로젝트의 **새 항목 추가** 대화 상자에 표시하려면 몇 가지 추가 단계를 수행해야 합니다. 이 항목의 [두 번째 절차](#to-enable-the-item-template-to-be-used-in-a-store-project)에 따라 해당 작업을 수행할 수 있습니다.  
  
@@ -34,21 +34,21 @@ ms.locfileid: "58324762"
   
 ### <a name="to-add-a-custom-project-item-template-to-the-add-new-item-dialog-box"></a>사용자 지정 프로젝트 항목 템플릿을 새 항목 추가 대화 상자에 추가하려면  
   
-1.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프로젝트를 만들거나 엽니다.  
+1. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프로젝트를 만들거나 엽니다.  
   
-2.  항목을 프로젝트에 추가한 후 원하는 경우 수정합니다.  
+2. 항목을 프로젝트에 추가한 후 원하는 경우 수정합니다.  
   
-3.  매개 변수를 대체해야 하는 위치를 나타내도록 코드 파일을 수정합니다. 자세한 내용은 [방법: 템플릿 매개 변수 대체](../ide/how-to-substitute-parameters-in-a-template.md)를 참조하세요.  
+3. 매개 변수를 대체해야 하는 위치를 나타내도록 코드 파일을 수정합니다. 자세한 내용은 [방법: 템플릿 매개 변수를 대체](../ide/how-to-substitute-parameters-in-a-template.md)합니다.  
   
-4.  **파일** 메뉴에서 **템플릿 내보내기**를 클릭합니다.  
+4. **파일** 메뉴에서 **템플릿 내보내기**를 클릭합니다.  
   
-5.  **항목 템플릿**을 클릭하고 항목을 포함하는 프로젝트를 선택한 후 **다음**을 클릭합니다.  
+5. **항목 템플릿**을 클릭하고 항목을 포함하는 프로젝트를 선택한 후 **다음**을 클릭합니다.  
   
-6.  템플릿을 만들 항목을 선택하고 **다음**을 클릭합니다.  
+6. 템플릿을 만들 항목을 선택하고 **다음**을 클릭합니다.  
   
-7.  템플릿에 포함할 어셈블리 참조를 선택한 후 **다음**을 클릭합니다.  
+7. 템플릿에 포함할 어셈블리 참조를 선택한 후 **다음**을 클릭합니다.  
   
-8.  아이콘 파일 이름, 미리 보기 이미지, 템플릿 이름 및 템플릿 설명을 입력한 다음 **마침**을 클릭합니다.  
+8. 아이콘 파일 이름, 미리 보기 이미지, 템플릿 이름 및 템플릿 설명을 입력한 다음 **마침**을 클릭합니다.  
   
      템플릿 파일은 .zip 파일에 추가되고 대화 상자에서 지정한 디렉터리에 복사됩니다. 기본 위치는 **..\Users\\<username\>\Documents\Visual Studio \<Version>\My Exported Templates\\** 폴더입니다.  
   
@@ -141,21 +141,21 @@ ms.locfileid: "58324762"
   
 ### <a name="to-manually-create-an-item-template-without-using-the-export-template-wizard"></a>템플릿 내보내기 마법사를 사용하지 않고 항목 템플릿을 수동으로 만들려면  
   
-1.  프로젝트 및 프로젝트 항목을 만듭니다.  
+1. 프로젝트 및 프로젝트 항목을 만듭니다.  
   
-2.  템플릿으로 저장할 준비가 될 때까지 프로젝트 항목을 수정합니다.  
+2. 템플릿으로 저장할 준비가 될 때까지 프로젝트 항목을 수정합니다.  
   
-3.  해당되는 경우 매개 변수를 대체해야 하는 위치를 나타내도록 코드 파일을 수정합니다. 매개 변수 대체에 대한 자세한 내용은 방법: 템플릿 매개 변수 대체를 참조하세요.  
+3. 해당되는 경우 매개 변수를 대체해야 하는 위치를 나타내도록 코드 파일을 수정합니다. 매개 변수를 대체 하는 방법에 대 한 자세한 내용은 방법: 템플릿 매개 변수를 대체 합니다.  
   
-4.  XML 파일을 만들고 .vstemplate 파일 확장명을 사용하여 새 항목 템플릿과 같은 디렉터리에 저장합니다.  
+4. XML 파일을 만들고 .vstemplate 파일 확장명을 사용하여 새 항목 템플릿과 같은 디렉터리에 저장합니다.  
   
-5.  항목 템플릿 메타데이터를 제공하도록 .vstemplate XML 파일을 작성합니다. 자세한 내용은 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md) 및 이전 섹션의 예제를 참조하세요.  
+5. 항목 템플릿 메타데이터를 제공하도록 .vstemplate XML 파일을 작성합니다. 자세한 내용은 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md) 및 이전 섹션의 예제를 참조하세요.  
   
-6.  .vstemplate 파일을 저장한 다음 닫습니다.  
+6. .vstemplate 파일을 저장한 다음 닫습니다.  
   
-7.  Windows 탐색기에서 템플릿에 포함할 파일을 선택하고 선택 항목을 마우스 오른쪽 단추로 클릭한 다음 보내기를 클릭하고 압축(ZIP) 폴더를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
+7. Windows 탐색기에서 템플릿에 포함할 파일을 선택하고 선택 항목을 마우스 오른쪽 단추로 클릭한 다음 보내기를 클릭하고 압축(ZIP) 폴더를 클릭합니다. 선택한 파일이 .zip 파일로 압축됩니다.  
   
-8.  .zip 파일을 복사하여 사용자 항목 템플릿 위치에 붙여넣습니다. Visual Studio 2015에서 기본 디렉터리는 ..\Users\\<username\>\Documents\Visual Studio 2015\Templates\ItemTemplates\\입니다. 자세한 내용은 방법: 프로젝트 템플릿과 항목 템플릿 찾기 및 구성을 참조하세요.  
+8. .zip 파일을 복사하여 사용자 항목 템플릿 위치에 붙여넣습니다. Visual Studio 2015에서 기본 디렉터리는 ..\Users\\<username\>\Documents\Visual Studio 2015\Templates\ItemTemplates\\입니다. 자세한 내용은 방법: 찾기 및 프로젝트 구성 및 항목 템플릿.  
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   

@@ -16,12 +16,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b44c260e00ae5ef8b0d23e7aede139563ff22d98
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 36065120dc636f0004f0e00d8b17a0059a680723
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983118"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105593"
 ---
 # <a name="warning-script-debugging-disabled"></a>경고: 스크립트 디버깅 사용 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,17 +32,17 @@ Internet Explorer에서는 현재 스크립트 디버깅을 사용하지 않습�
   
 ### <a name="to-enable-script-debugging-in-internet-explorer"></a>Internet Explorer에서 스크립트 디버깅을 사용하려면  
   
-1.  Internet Explorer의 **도구** 메뉴에서 **인터넷 옵션**을 선택합니다.  
+1. Internet Explorer의 **도구** 메뉴에서 **인터넷 옵션**을 선택합니다.  
   
-2.  **인터넷 옵션** 대화 상자에서 **고급** 탭을 클릭합니다.  
+2. **인터넷 옵션** 대화 상자에서 **고급** 탭을 클릭합니다.  
   
-3.  **고급** 탭의 **설정** 상자에서 **탐색** 범주를 찾습니다.  
+3. **고급** 탭의 **설정** 상자에서 **탐색** 범주를 찾습니다.  
   
-4.  **스크립트 디버깅 사용 안 함(Internet Explorer)** 의 선택을 취소합니다.  
+4. **스크립트 디버깅 사용 안 함(Internet Explorer)** 의 선택을 취소합니다.  
   
-5.  **확인**을 클릭합니다.  
+5. **확인**을 클릭합니다.  
   
-6.  Internet Explorer를 종료하고 다시 시작합니다.  
+6. Internet Explorer를 종료하고 다시 시작합니다.  
   
      그러면 새 설정이 적용됩니다.  
   

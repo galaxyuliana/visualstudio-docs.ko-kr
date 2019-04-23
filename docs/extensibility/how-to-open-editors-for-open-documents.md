@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 89fba307b40d7e0b8ede2d437b214e3f58929c39
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 654fdb6a921a0d6a25490b17f6f0ce3ffafa4ae4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702488"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085586"
 ---
 # <a name="how-to-open-editors-for-open-documents"></a>방법: 열린 문서에 대 한 편집기 열기
 프로젝트 문서 창이 열리기 전에 프로젝트 먼저 결정 해야 합니다 있는지 여부를 파일이 이미 열려 다른 편집기에 대 한 문서 창에서. 파일은 프로젝트 관련 편집기에 열거나 수 또는 표준 편집기 중 하나에 등록 된 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다.
@@ -46,11 +46,11 @@ ms.locfileid: "56702488"
 
 ### <a name="to-open-a-standard-editor-for-an-open-file"></a>열려 있는 파일에 대 한 표준 편집기를 열려면
 
-1.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>를 호출합니다.
+1. <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>를 호출합니다.
 
      이 메서드는 문서가 아직 열려 있지 호출 하 여 먼저 확인 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A>합니다. 문서가 이미 열려 있으면 해당 편집기 창 다시 표시 됩니다.
 
-2.  문서가 열려 있지 않으면 다음 단계에 따라 [방법: 표준 편집기 열기](../extensibility/how-to-open-standard-editors.md)합니다.
+2. 문서가 열려 있지 않으면 다음 단계에 따라 [방법: 표준 편집기 열기](../extensibility/how-to-open-standard-editors.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [열기 및 프로젝트 항목 저장](../extensibility/internals/opening-and-saving-project-items.md)

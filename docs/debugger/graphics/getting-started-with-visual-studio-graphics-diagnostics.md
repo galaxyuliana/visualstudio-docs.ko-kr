@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3c77b95b05409adf7c5e4c9a81136ca9143cec03
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: f7d74b90fc0bcbe67b13cffadb2793bc15213b9f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56688058"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094140"
 ---
 # <a name="getting-started-with-visual-studio-graphics-diagnostics"></a>Visual Studio 그래픽 진단 시작
 이 섹션에서는 처음으로 그래픽 진단 사용을 준비한 다음 Direct3D 앱에서 프레임을 캡처하고 Graphics Analyzer에서 검사합니다.
@@ -28,7 +28,7 @@ ms.locfileid: "56688058"
 
  그래픽 도구를 설치하는 방법에 대한 자세한 내용은 [Windows 10용 그래픽 도구 설치](#InstallGraphicsTools)를 참조하세요.
 
-##  <a name="InstallGraphicsTools"></a> Windows 10용 그래픽 도구 설치
+## <a name="InstallGraphicsTools"></a> Windows 10용 그래픽 도구 설치
  Windows 10에서 그래픽 진단 인프라는 *그래픽 도구*라는 Windows의 선택적 기능에서 제공합니다. 이 기능은 캡처할 앱이 이전 버전의 Windows를 대상으로 하는지 여부나 사용하는 Direct3D 버전에 관계없이 Windows 10에서 그래픽 정보를 캡처하고 재생하는 데 필요합니다. 그래픽 도구 기능을 미리 설치하도록 선택할 수 있습니다. 그렇지 않으면 처음으로 Visual Studio에서 그래픽 진단 세션을 시작할 때 주문형으로 설치됩니다.
 
 #### <a name="to-install-graphics-tools-for-windows-10"></a>Windows 10용 그래픽 도구를 설치하려면
@@ -70,7 +70,7 @@ ms.locfileid: "56688058"
 
 #### <a name="to-capture-single-frames"></a>단일 프레임을 캡처하려면
 
--   Visual Studio의 그래픽 도구 모음 또는 진단 세션 창에서 **프레임 캡처** 단추를 선택합니다. 또는 앱에 포커스가 있으면 누르기만 합니다 **Print Screen** 키보드의 키입니다.
+- Visual Studio의 그래픽 도구 모음 또는 진단 세션 창에서 **프레임 캡처** 단추를 선택합니다. 또는 앱에 포커스가 있으면 누르기만 합니다 **Print Screen** 키보드의 키입니다.
 
 #### <a name="to-capture-a-sequence-of-frames"></a>프레임 시퀀스를 캡처하려면
 

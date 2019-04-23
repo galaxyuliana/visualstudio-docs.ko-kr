@@ -23,12 +23,12 @@ caps.latest.revision: 31
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 088313e4452e2606b1908430c81c69446346775c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b7408100bbbda5533a65a3a55715fc46088f6061
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972166"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60106360"
 ---
 # <a name="how-to-display-and-hide-register-groups"></a>방법: 레지스터 그룹 표시 / 숨기기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,9 +42,9 @@ ms.locfileid: "58972166"
   
 ### <a name="to-display-or-hide-register-groups"></a>레지스터 그룹을 표시하거나 숨기려면  
   
-1.  **레지스터** 창을 마우스 오른쪽 단추로 클릭합니다.  
+1. **레지스터** 창을 마우스 오른쪽 단추로 클릭합니다.  
   
-2.  바로 가기 메뉴에서 표시하거나 숨기려는 레지스터 그룹을 선택합니다.  
+2. 바로 가기 메뉴에서 표시하거나 숨기려는 레지스터 그룹을 선택합니다.  
   
      디버깅하고 있는 하드웨어에서 지원하지 않는 레지스터 그룹은 바로 가기 메뉴에서 비활성화되므로 선택할 수 없습니다.  
   

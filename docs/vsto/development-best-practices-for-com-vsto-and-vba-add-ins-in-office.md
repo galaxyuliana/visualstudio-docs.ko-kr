@@ -11,19 +11,19 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b81dec69d27cc32fa5e6848d358049d8b8e2c04e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2fcc2fe575bd6b526f5f66d936625c87e91b0b39
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643576"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111183"
 ---
 # <a name="development-best-practices-for-com-vsto-and-vba-add-ins-in-office"></a>Office의 COM, VSTO 및 VBA 추가 기능에 대 한 개발 모범 사례
   Office 용 COM, VSTO, VBA 추가 기능을 개발 하는 경우이 문서에 설명 된 개발 모범 사례를 따르세요.   확인 하는 데 도움이 됩니다.
 
--  추가 기능에서 다른 버전 및 Office 배포의 호환성.
--  사용자 및 IT 관리자에 대 한 추가 배포의 복잡성이 감소 합니다.
--  추가 기능에 의도 하지 않은 설치 또는 런타임 오류가 발생 하지 않습니다.
+- 추가 기능에서 다른 버전 및 Office 배포의 호환성.
+- 사용자 및 IT 관리자에 대 한 추가 배포의 복잡성이 감소 합니다.
+- 추가 기능에 의도 하지 않은 설치 또는 런타임 오류가 발생 하지 않습니다.
 
 >참고: 사용 하 여 [데스크톱 브리지](/windows/uwp/porting/desktop-to-uwp-root) 사용자 COM을 준비 하려면 VBA 또는 VSTO 추가 기능에서 Windows 스토어 지원 되지 않습니다. Windows 스토어 또는 Office 스토어에 COM, VSTO 및 VBA 추가 기능을 배포할 수 없습니다.
 

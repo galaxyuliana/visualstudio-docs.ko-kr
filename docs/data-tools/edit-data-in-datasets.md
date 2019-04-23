@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 5adc9574fa36fd77c1d30d6045795953c37349bc
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.openlocfilehash: d693113db28acc456625f7c22b671006ed17038b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928675"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096987"
 ---
 # <a name="edit-data-in-datasets"></a>데이터 세트의 데이터 편집
 모든 데이터베이스의 테이블에서 데이터를 편집할 때 처럼 데이터 테이블의에서 데이터를 편집 합니다. 프로세스는 삽입, 업데이트 및 테이블의 레코드를 삭제 하는 중에 포함할 수 있습니다. 데이터 바인딩된 폼에 있는 사용자가 편집 가능한 필드를 지정할 수 있습니다. 이러한 경우 데이터 바인딩 인프라는 모든 변경 내용 추적 나중에 변경 내용을 데이터베이스로 다시 전송 수 있도록 처리 합니다. 프로그래밍 방식으로 데이터를 편집을 수행한 경우 해당 변경 내용을 다시 데이터베이스에 전송 하려는 개체와 수에 대 한 변경 내용 추적을 수행 하는 메서드를 사용 해야 합니다.
@@ -53,7 +53,7 @@ ms.locfileid: "55928675"
 
 #### <a name="to-delete-records-from-a-data-table"></a>데이터 테이블에서 레코드를 삭제 하려면
 
--   호출 된 <xref:System.Data.DataRow.Delete%2A> 메서드는 <xref:System.Data.DataRow>합니다.
+- 호출 된 <xref:System.Data.DataRow.Delete%2A> 메서드는 <xref:System.Data.DataRow>합니다.
 
      이 메서드 레코드를 물리적으로 제거 하지 않습니다. 대신, 삭제에 대 한 레코드를 표시합니다.
 
@@ -70,15 +70,15 @@ ms.locfileid: "55928675"
 
 변경이 추적 된 두 가지 방법으로 각 데이터 행 합니다.
 
--   와 관련 된 정보를 포함 하는 각 데이터 행의 <xref:System.Data.DataRow.RowState%2A> (예를 들어 <xref:System.Data.DataRowState.Added>, <xref:System.Data.DataRowState.Modified>, <xref:System.Data.DataRowState.Deleted>, 또는 <xref:System.Data.DataRowState.Unchanged>).
+- 와 관련 된 정보를 포함 하는 각 데이터 행의 <xref:System.Data.DataRow.RowState%2A> (예를 들어 <xref:System.Data.DataRowState.Added>, <xref:System.Data.DataRowState.Modified>, <xref:System.Data.DataRowState.Deleted>, 또는 <xref:System.Data.DataRowState.Unchanged>).
 
--   해당 행의 여러 버전을 포함 하는 각 변경 된 데이터 행 (<xref:System.Data.DataRowVersion>), (하기 전에 변경) 원래 버전과 (변경) 후 현재 버전입니다. 변경 보류 중인 경우 기간 (에 응답 하는 경우에 <xref:System.Data.DataTable.RowChanging> 이벤트), 세 번째 버전-제안 된 버전-도 사용할 수 있습니다.
+- 해당 행의 여러 버전을 포함 하는 각 변경 된 데이터 행 (<xref:System.Data.DataRowVersion>), (하기 전에 변경) 원래 버전과 (변경) 후 현재 버전입니다. 변경 보류 중인 경우 기간 (에 응답 하는 경우에 <xref:System.Data.DataTable.RowChanging> 이벤트), 세 번째 버전-제안 된 버전-도 사용할 수 있습니다.
 
 합니다 <xref:System.Data.DataSet.HasChanges%2A> 데이터 집합의 반환 `true` 데이터 집합의 변경 된 경우. 에 변경 된 행이 있는지 확인 한 후 호출할 수 있습니다는 `GetChanges` 메서드를 <xref:System.Data.DataSet> 또는 <xref:System.Data.DataTable> 변경 된 행 집합을 반환 합니다.
 
 #### <a name="to-determine-if-changes-have-been-made-to-any-rows"></a>모든 행에 변경 사항이 생겼는지 확인 하려면
 
--   호출 된 <xref:System.Data.DataSet.HasChanges%2A> 메서드를 확인 하는 데이터 집합의 행을 변경 합니다.
+- 호출 된 <xref:System.Data.DataSet.HasChanges%2A> 메서드를 확인 하는 데이터 집합의 행을 변경 합니다.
 
 다음 예제에서는 반환 값을 확인 하는 방법의 <xref:System.Data.DataSet.HasChanges%2A> 변경 된 행 이라는 데이터 집합에 있는지 여부를 검색 하는 방법 `NorthwindDataset1`:
 
@@ -90,7 +90,7 @@ ms.locfileid: "55928675"
 
 #### <a name="to-determine-what-type-of-changes-have-been-made-to-a-row"></a>확인 하려면 어떤 유형의 변경에 적용 된 행
 
--   전달 된 <xref:System.Data.DataRowState> 값을 <xref:System.Data.DataSet.HasChanges%2A> 메서드.
+- 전달 된 <xref:System.Data.DataRowState> 값을 <xref:System.Data.DataSet.HasChanges%2A> 메서드.
 
 다음 예제에서는 명명 된 데이터 집합을 확인 하는 방법을 보여 줍니다 `NorthwindDataset1` 새 행을 추가한 경우를 확인 하려면:
 
@@ -100,13 +100,13 @@ ms.locfileid: "55928675"
 ## <a name="to-locate-rows-that-have-errors"></a>오류가 있는 행을 찾기 위한
 개별 열 및 행의 데이터를 사용할 때 오류가 발생할 수 있습니다. 확인할 수 있습니다 합니다 `HasErrors` 속성에 오류가 있는지 확인 하는 <xref:System.Data.DataSet>를 <xref:System.Data.DataTable>, 또는 <xref:System.Data.DataRow>합니다.
 
-1.  확인 된 `HasErrors` 속성을 데이터 집합에 오류가 있는지 확인 합니다.
+1. 확인 된 `HasErrors` 속성을 데이터 집합에 오류가 있는지 확인 합니다.
 
-2.  경우는 `HasErrors` 속성은 `true`, 테이블의 컬렉션을 반복 차례로 통해 행을 오류 행을 찾습니다.
+2. 경우는 `HasErrors` 속성은 `true`, 테이블의 컬렉션을 반복 차례로 통해 행을 오류 행을 찾습니다.
 
 [!code-csharp[VbRaddataEditing#23](../data-tools/codesnippet/CSharp/edit-data-in-datasets_7.cs)]
 [!code-vb[VbRaddataEditing#23](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_7.vb)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [Visual Studio의 데이터 세트 도구](../data-tools/dataset-tools-in-visual-studio.md)
+- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)

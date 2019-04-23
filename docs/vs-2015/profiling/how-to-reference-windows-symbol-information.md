@@ -1,5 +1,5 @@
 ---
-title: '방법: Windows 기호 정보 참조 | Microsoft 문서'
+title: '방법: Windows 기호 정보 참조 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -14,12 +14,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8819964eff232cc01cbcfc2081e01eca47f04c15
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 45e1ad3c89d811a0a2bd715c86d8fcd8006600b0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54801702"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086704"
 ---
 # <a name="how-to-reference-windows-symbol-information"></a>방법: Windows 기호 정보 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,17 +33,17 @@ Visual Studio 프로파일링 도구는 기호 파일(.pdb)을 사용하여 프�
   
 ### <a name="to-use-the-microsoft-symbol-server"></a>Microsoft 기호 서버를 사용하려면  
   
-1.  기호 파일 정보가 포함된 폴더를 만듭니다(예: C:\SymbolCache).  
+1. 기호 파일 정보가 포함된 폴더를 만듭니다(예: C:\SymbolCache).  
   
-2.  **도구** 메뉴에서 **옵션**을 클릭합니다.  
+2. **도구** 메뉴에서 **옵션**을 클릭합니다.  
   
      **옵션** 대화 상자가 표시됩니다.  
   
-3.  **디버깅** 트리를 확장하고 **기호**를 클릭합니다.  
+3. **디버깅** 트리를 확장하고 **기호**를 클릭합니다.  
   
-4.  **기호 파일(.pdb) 위치**에서 **Microsoft 기호 서버**를 선택합니다.  
+4. **기호 파일(.pdb) 위치**에서 **Microsoft 기호 서버**를 선택합니다.  
   
-5.  **기호 서버에서 이 디렉터리로 기호 캐시**에서 다음과 같이 1단계에서 만든 폴더의 경로를 입력합니다.  
+5. **기호 서버에서 이 디렉터리로 기호 캐시**에서 다음과 같이 1단계에서 만든 폴더의 경로를 입력합니다.  
   
      **C:\SymbolCache**  
   

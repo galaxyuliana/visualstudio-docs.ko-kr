@@ -11,19 +11,19 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8e90b66288d15abdaf85c519bd89deb6262e4363
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 48d70901a2d616031eeed197b639f3a7bb7336c3
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971366"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60092996"
 ---
 # <a name="read-a-uml-model-in-program-code"></a>프로그램 코드에서 UML 모델 읽기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 UML API를 사용하여 UML 모델 및 해당 다이어그램을 로드할 수 있습니다.  
   
-##  <a name="Reading"></a> 프로그램 코드에서 모델 읽기  
+## <a name="Reading"></a> 프로그램 코드에서 모델 읽기  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창에 표시하지 않고 모델의 콘텐츠에 액세스하려면 `ModelingProject.LoadReadOnly()`를 사용합니다.  
   
  예를 들어:  
@@ -70,7 +70,7 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] API를 사용하여 사용자 인터페이스에서 모델 및 다이어그램을 열 수도 있습니다. 자세한 내용은 [Visual Studio API를 사용 하 여 UML 모델 열기](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)합니다.  
   
-##  <a name="Standalone"></a> 독립 실행형 응용 프로그램  
+## <a name="Standalone"></a> 독립 실행형 응용 프로그램  
  이전 섹션의 예제는 Visual Studio 확장에서 작동합니다. 독립 실행형 응용 프로그램에서 모델을 읽을 수 있지만 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트에 일부 참조를 추가해야 합니다.  
   
 > [!NOTE]
@@ -82,9 +82,9 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
 2. UML 모델에 액세스하는 데 필요한 [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] 참조를 추가합니다. 일반적으로 다음과 같습니다.  
   
-   -   Microsoft.VisualStudio.Uml.Interfaces.dll  
+   - Microsoft.VisualStudio.Uml.Interfaces.dll  
   
-   -   Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll  
+   - Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll  
   
 3. 이전 섹션에 나열 된 참조 외에도 다음 프로젝트 참조를 추가할 **\Program Files\Microsoft Visual Studio [version] \Common7\IDE\PrivateAssemblies**:  
   

@@ -12,12 +12,12 @@ ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
 caps.latest.revision: 29
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: d0ca68c9d95f0b2b511ece0ecafbd9bdcacf328d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 8a96e6b10b68fc3b3275fbadb07de310c224da8c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971525"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104916"
 ---
 # <a name="support-for-code-snippets-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 조각 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,11 +41,11 @@ ms.locfileid: "58971525"
 ## <a name="providing-support-for-code-snippets"></a>코드 조각에 대 한 지원을 제공합니다.  
  코드 조각에 대 한 지원을 사용 하려면 제공 하거나 코드를 설치 해야 하 고 이러한 조각을 삽입 하려면 사용자에 대 한 의미를 제공 해야 합니다. 코드 조각에 대 한 지원을 사용 하도록 설정 하는 방법은 세 가지 단계가 있습니다.  
   
-1.  조각 파일을 설치 합니다.  
+1. 조각 파일을 설치 합니다.  
   
-2.  언어 서비스에 대 한 코드 조각을 사용 하도록 설정 합니다.  
+2. 언어 서비스에 대 한 코드 조각을 사용 하도록 설정 합니다.  
   
-3.  호출 된 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 개체입니다.  
+3. 호출 된 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 개체입니다.  
   
 ### <a name="installing-the-snippet-files"></a>조각 파일 설치  
  언어에 대 한 모든 코드 조각은 파일당 일반적으로 하나의 코드 조각 템플릿 XML 파일에 템플릿으로 저장 됩니다. 코드 조각 템플릿을 사용 하는 XML 스키마에 대 한 내용은 참조 하세요 [코드 조각 스키마 참조](../../ide/code-snippets-schema-reference.md)합니다. 언어 ID를 사용 하 여 각 코드 조각 템플릿은 식별 되며 이 언어 ID 레지스트리에 지정 되 고 배치 됩니다는 `Language` 특성을 \<코드 > 템플릿에 태그입니다.  
@@ -117,9 +117,9 @@ ms.locfileid: "58971525"
 ### <a name="inserting-a-code-snippet-by-using-a-menu-command"></a>메뉴 명령을 사용 하 여 코드 조각 삽입  
  메뉴 명령의 사용 하 여 코드 조각을 브라우저를 표시 하려면 메뉴 명령을 추가 하 고이 호출 합니다 <xref:Microsoft.VisualStudio.Package.ExpansionProvider.DisplayExpansionBrowser%2A> 에서 메서드를 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 인터페이스는 메뉴 명령에 응답에서 합니다.  
   
-1.  .Vsct 파일에 명령 및 단추를 추가 합니다. 작업을 수행 하는 지침을 찾을 수 있습니다 [연습: Visual Studio 패키지 템플릿을 사용 하 여 메뉴 명령 만들기](http://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de)합니다.  
+1. .Vsct 파일에 명령 및 단추를 추가 합니다. 작업을 수행 하는 지침을 찾을 수 있습니다 [연습: Visual Studio 패키지 템플릿을 사용 하 여 메뉴 명령 만들기](http://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de)합니다.  
   
-2.  클래스를 파생 합니다 <xref:Microsoft.VisualStudio.Package.ViewFilter> 클래스를 재정의 <xref:Microsoft.VisualStudio.Package.ViewFilter.QueryCommandStatus%2A> 메서드 새 메뉴 명령에 대 한 지원을 나타냅니다. 이 예에서는 메뉴 명령에 항상 사용 하도록 설정 합니다.  
+2. 클래스를 파생 합니다 <xref:Microsoft.VisualStudio.Package.ViewFilter> 클래스를 재정의 <xref:Microsoft.VisualStudio.Package.ViewFilter.QueryCommandStatus%2A> 메서드 새 메뉴 명령에 대 한 지원을 나타냅니다. 이 예에서는 메뉴 명령에 항상 사용 하도록 설정 합니다.  
   
     ```csharp  
     using Microsoft.VisualStudio.Package;  
@@ -155,7 +155,7 @@ ms.locfileid: "58971525"
     }  
     ```  
   
-3.  재정의 <xref:Microsoft.VisualStudio.Package.ViewFilter.HandlePreExec%2A> 에서 메서드를 <xref:Microsoft.VisualStudio.Package.ViewFilter> 가져오려고 클래스는 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 개체와 호출을 <xref:Microsoft.VisualStudio.Package.ExpansionProvider.DisplayExpansionBrowser%2A> 개체에서 메서드.  
+3. 재정의 <xref:Microsoft.VisualStudio.Package.ViewFilter.HandlePreExec%2A> 에서 메서드를 <xref:Microsoft.VisualStudio.Package.ViewFilter> 가져오려고 클래스는 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 개체와 호출을 <xref:Microsoft.VisualStudio.Package.ExpansionProvider.DisplayExpansionBrowser%2A> 개체에서 메서드.  
   
     ```csharp  
     using Microsoft.VisualStudio.Package;  
@@ -207,15 +207,15 @@ ms.locfileid: "58971525"
   
      다음 메서드는 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 클래스는 지정 된 순서 대로 Visual Studio에서 코드 조각을 삽입 하는 동안 호출 됩니다.  
   
-4.  <xref:Microsoft.VisualStudio.Package.ExpansionProvider.OnItemChosen%2A>  
+4. <xref:Microsoft.VisualStudio.Package.ExpansionProvider.OnItemChosen%2A>  
   
-5.  <xref:Microsoft.VisualStudio.Package.ExpansionProvider.IsValidKind%2A>  
+5. <xref:Microsoft.VisualStudio.Package.ExpansionProvider.IsValidKind%2A>  
   
-6.  <xref:Microsoft.VisualStudio.Package.ExpansionProvider.OnBeforeInsertion%2A>  
+6. <xref:Microsoft.VisualStudio.Package.ExpansionProvider.OnBeforeInsertion%2A>  
   
-7.  <xref:Microsoft.VisualStudio.Package.ExpansionProvider.FormatSpan%2A>  
+7. <xref:Microsoft.VisualStudio.Package.ExpansionProvider.FormatSpan%2A>  
   
-8.  <xref:Microsoft.VisualStudio.Package.ExpansionProvider.OnAfterInsertion%2A>  
+8. <xref:Microsoft.VisualStudio.Package.ExpansionProvider.OnAfterInsertion%2A>  
   
      후 합니다 <xref:Microsoft.VisualStudio.Package.ExpansionProvider.OnAfterInsertion%2A> 메서드가 호출 되 면 코드 조각 삽입 된 및 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 개체는 방금 삽입 된 코드 조각을 수정 하는 데는 특별 한 편집 모드입니다.  
   

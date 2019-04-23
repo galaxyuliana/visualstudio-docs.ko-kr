@@ -11,12 +11,12 @@ caps.latest.revision: 2
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: e5cfb895ce15227656e60a34c5134b7e8905838f
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: d5661df1f7f9266be34b59703316b06bec631007
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58147750"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099691"
 ---
 # <a name="iactivescripttraceinfostopscripttracing-method"></a>IActiveScriptTraceInfo::StopScriptTracing 메서드
 스크립트 추적을 중지 합니다.  
@@ -33,6 +33,6 @@ HRESULT StopScriptTracing(void); }
 ## <a name="return-value"></a>반환 값  
  가능한 반환 값이이 메서드에 대 한 아래와 같습니다.  
   
-1.  S_OK: 명령 실행 성공  
+1. S_OK: 명령 실행 성공  
   
-2.  E_NOTIMPL: 구현되지 않았습니다.
+2. E_NOTIMPL: 구현되지 않았습니다.

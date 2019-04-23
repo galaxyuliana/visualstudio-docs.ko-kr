@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c7c904e74793710dedc96d4a769d4f6c61a15e69
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 834651f525ccb292f82d5cf0ab5a7068a1cf7f20
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54760773"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108310"
 ---
 # <a name="how-to-create-a-basic-3-d-model"></a>방법: 기본 3d 모델 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,15 +23,15 @@ ms.locfileid: "54760773"
   
  이 문서는 다음 활동을 보여 줍니다.  
   
--   장면에 개체 추가  
+- 장면에 개체 추가  
   
--   면 및 가장자리 선택  
+- 면 및 가장자리 선택  
   
--   선택 영역 변환  
+- 선택 영역 변환  
   
--   **면 나누기** 및 **면 돌출** 도구 사용  
+- **면 나누기** 및 **면 돌출** 도구 사용  
   
--   **삼각 측량** 명령 사용  
+- **삼각 측량** 명령 사용  
   
 ## <a name="creating-a-basic-3-d-model"></a>기본 3D 모델 만들기  
  모델 편집기를 사용하여 게임 또는 앱에 사용할 3D 모델 및 장면을 만들고 수정할 수 있습니다. 다음 단계에서는 모델 편집기를 사용하여 집의 단순 3D 모델을 만드는 방법을 보여줍니다. 단순 모델은 계속 생성 중인 최종 아트 자산의 대체물로, 충돌 탐지를 위한 메시로, 표현하는 개체가 너무 멀어 자세한 렌더링을 사용할 수 없을 때 덜 자세한 모델로 사용할 수 있습니다.  

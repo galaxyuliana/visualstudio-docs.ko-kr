@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7f8e3f4d53b0a8b79367064761ba0fc5b901dc5e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: d694fe9bb614acfd80e5ec1b9f6bed166775c214
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670071"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091482"
 ---
 # <a name="how-to-select-the-xml-schemas-to-use"></a>방법: 사용할 XML 스키마 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,23 +50,23 @@ XML 편집기에서는 %InstallDir%\Xml\Schemas 디렉터리에 있는 스키마
   
 ### <a name="to-add-an-xml-schema-to-the-schema-cache"></a>스키마 캐시에 XML 스키마를 추가하려면  
   
-1.  문서 속성 창에서에서 단추를 클릭 합니다 **스키마** 필드입니다.  
+1. 문서 속성 창에서에서 단추를 클릭 합니다 **스키마** 필드입니다.  
   
-2.  **추가**를 클릭합니다.  
+2. **추가**를 클릭합니다.  
   
      열립니다는 **XSD 스키마 열기** 대화 합니다.  
   
-3.  스키마 캐시에 추가할 스키마를 찾아 선택합니다.  
+3. 스키마 캐시에 추가할 스키마를 찾아 선택합니다.  
   
-4.  **열기**를 클릭합니다.  
+4. **열기**를 클릭합니다.  
   
      스키마에 추가 하는 스키마를 캐시 하 고는 합니다 **사용 하 여** 열 값으로 설정 됩니다 **이 스키마를 사용 하 여**입니다.  
   
 ### <a name="to-delete-an-xml-schema-from-the-schema-cache"></a>스키마 캐시에서 XML 스키마를 삭제하려면  
   
-1.  문서 속성 창에서에서 단추를 클릭 합니다 **스키마** 필드입니다.  
+1. 문서 속성 창에서에서 단추를 클릭 합니다 **스키마** 필드입니다.  
   
-2.  스키마를 제거 하 고 클릭 한 다음 선택 **제거**합니다.  
+2. 스키마를 제거 하 고 클릭 한 다음 선택 **제거**합니다.  
   
      그러면 스키마가 메모리 내 스키마 캐시에서 제거되지만 파일 시스템에서는 제거되지 않습니다.  
   

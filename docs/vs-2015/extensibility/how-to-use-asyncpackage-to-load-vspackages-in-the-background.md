@@ -5,12 +5,12 @@ ms.topic: conceptual
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
 caps.latest.revision: 9
 ms.author: gregvanl
-ms.openlocfilehash: 7de79fbbd5221a75bec1e168c22e687ddc9c7ffa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f59838913ed3f9bc6679336393f6db9181291e3d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981879"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091670"
 ---
 # <a name="how-to-use-asyncpackage-to-load-vspackages-in-the-background"></a>방법: AsyncPackage를 사용하여 백그라운드에서 VSPackage 로드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,11 +75,11 @@ public sealed class TestPackage : AsyncPackage
 ## <a name="convert-an-existing-vspackage-to-asyncpackage"></a>기존 VSPackage AsyncPackage 변환  
  작업의 대부분은 새 동일 **AsyncPackage**합니다. 위의 1 ~ 5 단계를 수행 해야 합니다. 다음에 주의 수행 해야 합니다.  
   
-1.  제거 해야 합니다 **초기화** 패키지에서 제공 되었던 재정의 합니다.  
+1. 제거 해야 합니다 **초기화** 패키지에서 제공 되었던 재정의 합니다.  
   
-2.  교착 상태를 방지 합니다. 있을 수 있습니다 Rpc 이제 백그라운드 스레드에서 발생 하는 코드에서 숨겨집니다. 해야 하는 RPC 하는 경우 (예: **GetService**) 중 하나 (1) 주 스레드가 전환 해야, (2) 사용 하 여 비동기 버전의 경우 API가 (예: **GetServiceAsync**).  
+2. 교착 상태를 방지 합니다. 있을 수 있습니다 Rpc 이제 백그라운드 스레드에서 발생 하는 코드에서 숨겨집니다. 해야 하는 RPC 하는 경우 (예: **GetService**) 중 하나 (1) 주 스레드가 전환 해야, (2) 사용 하 여 비동기 버전의 경우 API가 (예: **GetServiceAsync**).  
   
-3.  너무 자주 스레드 간에 전환 하지 마세요. 백그라운드 스레드에서 발생할 수 있는 작업을 지역화 하려고 합니다. 이렇게 하면 로드 시간이 줄어듭니다.  
+3. 너무 자주 스레드 간에 전환 하지 마세요. 백그라운드 스레드에서 발생할 수 있는 작업을 지역화 하려고 합니다. 이렇게 하면 로드 시간이 줄어듭니다.  
   
 ## <a name="querying-services-from-asyncpackage"></a>AsyncPackage에서 서비스를 쿼리합니다.  
  **AsyncPackage** 수도 있고 호출자에 따라 비동기적으로 로드 되지 않을 수 있습니다. 예를 들어,  

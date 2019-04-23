@@ -16,14 +16,14 @@ caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 88f9d8fc871f182bb3a6d7f36c3648982e7a9684
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 0533ed4a4d1fc45b41f1e324b087cc0e249e1083
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54780936"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100458"
 ---
-# <a name="walkthrough-find-a-memory-leak-javascript"></a>연습: 메모리 누수 찾기(JavaScript)
+# <a name="walkthrough-find-a-memory-leak-javascript"></a>연습: 메모리 누수 찾기 (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content.png "windows_and_phone_content")  
@@ -34,18 +34,18 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
 ### <a name="running-the-javascript-memory-analyzer-test-app"></a>JavaScript 메모리 분석기 테스트 앱 실행  
   
-1.  Visual Studio에서 **파일**, **새로 만들기**, **프로젝트**를 선택합니다.  
+1. Visual Studio에서 **파일**, **새로 만들기**, **프로젝트**를 선택합니다.  
   
-2.  왼쪽 창에서 **JavaScript** 를 선택하고 **Windows**, **Windows 8**을 선택한 다음 **유니버설** 또는 **Windows Phone 앱**을 선택합니다.  
+2. 왼쪽 창에서 **JavaScript** 를 선택하고 **Windows**, **Windows 8**을 선택한 다음 **유니버설** 또는 **Windows Phone 앱**을 선택합니다.  
   
     > [!IMPORTANT]
     >  이 항목에 표시된 메모리 사용 결과는 Windows 8 앱에 대해 테스트됩니다.  
   
-3.  가운데 창에서 **새 앱** 프로젝트 템플릿을 선택합니다.  
+3. 가운데 창에서 **새 앱** 프로젝트 템플릿을 선택합니다.  
   
-4.  **이름** 상자에 `JS_Mem_Tester`와 같은 이름을 지정한 다음 **확인**을 선택합니다.  
+4. **이름** 상자에 `JS_Mem_Tester`와 같은 이름을 지정한 다음 **확인**을 선택합니다.  
   
-5.  **솔루션 탐색기**에서 default.html을 열고 \<body> 태그 사이에 다음 코드를 붙여 넣습니다.  
+5. **솔루션 탐색기**에서 default.html을 열고 \<body> 태그 사이에 다음 코드를 붙여 넣습니다.  
   
     ```html  
     <div class="wrapper">  
@@ -57,7 +57,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     > [!IMPORTANT]
     >  Windows 8.1유니버설 앱 템플릿을 사용하는 경우 .Windows 프로젝트와 .WindowsPhone 프로젝트 모두에서 HTML 및 CSS 코드를 업데이트해야 합니다.  
   
-6.  default.css를 열고 다음 CSS 코드를 추가합니다.  
+6. default.css를 열고 다음 CSS 코드를 추가합니다.  
   
     ```css  
     .memleak {  
@@ -65,7 +65,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     }  
     ```  
   
-7.  default.js를 열고 모든 코드를 이 코드로 바꿉니다.  
+7. default.js를 열고 모든 코드를 이 코드로 바꿉니다.  
   
     ```javascript  
     (function () {  
@@ -126,7 +126,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     })();  
     ```  
   
-8.  F5 키를 선택하여 디버깅을 시작합니다. 페이지에 **메모리 누수** 단추가 나타나는지 확인합니다.  
+8. F5 키를 선택하여 디버깅을 시작합니다. 페이지에 **메모리 누수** 단추가 나타나는지 확인합니다.  
   
 9. Alt+Tab을 눌러 Visual Studio로 다시 전환하고 Shift+F5를 눌러 디버깅을 중지합니다.  
   
@@ -224,7 +224,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     > [!TIP]
     >  경우에 따라 `Global` 개체와 관련하여 개체를 찾으면 해당 개체를 쉽게 확인할 수 있습니다. 이렇게 하려면 식별자에 대한 바로 가기 메뉴를 열고 **루트 뷰에서 보기**를 선택합니다.  
   
-##  <a name="FixingMemory"></a> 메모리 문제 수정  
+## <a name="FixingMemory"></a> 메모리 문제 수정  
   
 1. 프로파일러에 의해 표시된 데이터를 사용하여 ID가 "item"인 DOM 요소 제거를 담당하는 코드를 검사합니다. 이 작업은 `initialize()` 함수에서 수행됩니다.  
   

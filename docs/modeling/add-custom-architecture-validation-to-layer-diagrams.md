@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7e1d0a0cd2b82c16871e157e6f78c766895c34b3
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 2d79c56cfeb2c1a5ef6f83ef64c005fd794c1f29
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415046"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60096909"
 ---
 # <a name="add-custom-architecture-validation-to-dependency-diagrams"></a>종속성 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가
 
@@ -75,7 +75,7 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 ### <a name="to-add-layer-validation-to-a-separate-vsix"></a>개별 VSIX에 레이어 유효성 검사를 추가하려면
 
-1. 새 **클래스 라이브러리** 프로젝트입니다. 이 프로젝트에는 레이어 유효성 검사 클래스가 포함됩니다.
+1. 새 **클래스 라이브러리** 프로젝트를 만듭니다. 이 프로젝트에는 레이어 유효성 검사 클래스가 포함됩니다.
 
 2. 찾거나 만들지를 **VSIX 프로젝트** 솔루션에. VSIX 프로젝트에는 이름이 **source.extension.vsixmanifest**인 파일이 포함됩니다.
 
@@ -83,9 +83,9 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 4. **source.extension.vsixmanifest**의 **자산**에서 레이어 유효성 검사 프로젝트를 MEF 구성 요소로 추가합니다.
 
-    1.  **새로 만들기**를 선택합니다.
+    1. **새로 만들기**를 선택합니다.
 
-    2.  **새 자산 추가** 대화 상자에서 다음을 설정합니다.
+    2. **새 자산 추가** 대화 상자에서 다음을 설정합니다.
 
          **형식** = **Microsoft.VisualStudio.MefComponent**
 
@@ -95,9 +95,9 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 5. 또한 레이어 유효성 검사로 추가해야 합니다.
 
-    1.  **새로 만들기**를 선택합니다.
+    1. **새로 만들기**를 선택합니다.
 
-    2.  **새 자산 추가** 대화 상자에서 다음을 설정합니다.
+    2. **새 자산 추가** 대화 상자에서 다음을 설정합니다.
 
          **형식** = **Microsoft.VisualStudio.ArchitectureTools.Layer.Validator**을 참조하세요. 이는 드롭다운 목록의 옵션 중 하나가 아닙니다. 키보드에서 입력해야 합니다.
 
@@ -125,7 +125,7 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 9. VSIX의 Visual Studio 또는 다른 컴퓨터에 주 인스턴스를 설치 하려면 합니다 **.vsix** 파일을 **bin** 의 VSIX 프로젝트 디렉터리. VSIX를 설치할 컴퓨터에 파일을 복사합니다. Windows 탐색기에서 VSIX 파일을 두 번 클릭합니다.
 
-##  <a name="programming"></a> 프로그래밍 유효성 검사
+## <a name="programming"></a> 프로그래밍 유효성 검사
 
 레이어 유효성 검사 확장을 정의하려면 다음 특징을 가진 클래스를 정의합니다.
 
@@ -194,7 +194,7 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 코드에서 레이어에서 요소로 연결된 링크에는 “Represents” 범주가 있습니다.
 
-##  <a name="debugging"></a> 유효성 검사 디버그
+## <a name="debugging"></a> 유효성 검사 디버그
 
 레이어 유효성 검사 확장을 디버그하려면 Ctrl+F5를 누릅니다. Visual Studio의 실험적 인스턴스가 열립니다. 이 인스턴스에서 레이어 모델을 열거나 만듭니다. 이 모델은 코드와 연결되어야 하고 종속성을 하나 이상 포함해야 합니다.
 
@@ -226,7 +226,7 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 적합한 Visual Studio 버전이 설치된 컴퓨터에 유효성 검사 확장을 설치하려면 대상 컴퓨터에서 VSIX 파일을 엽니다.
 
-##  <a name="example"></a> Example code
+## <a name="example"></a> Example code
 
 ```csharp
 using System;

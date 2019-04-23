@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f0c170beb6bfd8a74d61e6de2398a7478567c893
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 44b8e31fea497bff928ce19e5cb165c7809883cb
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655636"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104566"
 ---
 # <a name="add-a-language-server-protocol-extension"></a>언어 서버 프로토콜 확장 추가
 
@@ -296,6 +296,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
         "foo.maxNumberOfProblems": -1
     }
     ```
+
 2. JSON 파일을 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다. 변경 된 **빌드** "콘텐츠"에 대 한 작업 및 "VSIX에 포함 ' 속성을 true로 합니다.
 
 3. ConfigurationSections를 구현 하 고 JSON 파일에 정의 된 설정에 대 한 접두사의 목록을 반환 합니다 (Visual Studio Code에서이 매핑할 package.json에서 구성 섹션 이름):
@@ -318,6 +319,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
     ```
 
     예제:
+
     ```
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\MockLanguageExtension]
     @="$PackageFolder$\MockLanguageExtensionSettings.json"

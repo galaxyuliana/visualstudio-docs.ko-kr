@@ -11,12 +11,12 @@ ms.assetid: e94a4fea-94df-488e-8560-9538413422bc
 caps.latest.revision: 36
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: ec19e71685fc2a866f23d5050861e5733ef6cb39
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 324e74c78f01da47c544b5f640ad0bd9052a1bb4
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981182"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107647"
 ---
 # <a name="subscribing-to-an-event"></a>이벤트 구독
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,13 +30,13 @@ ms.locfileid: "58981182"
   
 #### <a name="to-create-an-extension-with-a-tool-window"></a>도구 창으로 확장 프로그램을 만들려면  
   
-1.  라는 프로젝트를 만듭니다 **RDTExplorer** 라는 사용자 지정 도구 창 항목 템플릿을 VSIX 템플릿을 사용 하 여 추가한 **RDTExplorerWindow**합니다.  
+1. 라는 프로젝트를 만듭니다 **RDTExplorer** 라는 사용자 지정 도구 창 항목 템플릿을 VSIX 템플릿을 사용 하 여 추가한 **RDTExplorerWindow**합니다.  
   
      도구 창을 사용 하 여 확장을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
   
 #### <a name="to-subscribe-to-rdt-events"></a>RDT 이벤트를 구독할 수  
   
-1.  RDTExplorerWindowControl.xaml 파일을 열고 라는 단추를 삭제할 `button1`합니다. 추가 된 <xref:System.Windows.Forms.ListBox> 제어 하 고 기본 이름을 적용 합니다. Grid 요소는 다음과 같습니다.  
+1. RDTExplorerWindowControl.xaml 파일을 열고 라는 단추를 삭제할 `button1`합니다. 추가 된 <xref:System.Windows.Forms.ListBox> 제어 하 고 기본 이름을 적용 합니다. Grid 요소는 다음과 같습니다.  
   
     ```xml  
     <Grid>  
@@ -47,7 +47,7 @@ ms.locfileid: "58981182"
     </Grid>  
     ```  
   
-2.  코드 뷰에서 RDTExplorerWindow.cs 파일을 엽니다. 다음 추가 using 문을 파일의 시작에 있습니다.  
+2. 코드 뷰에서 RDTExplorerWindow.cs 파일을 엽니다. 다음 추가 using 문을 파일의 시작에 있습니다.  
   
     ```csharp  
     using Microsoft.VisualStudio;  
@@ -55,24 +55,24 @@ ms.locfileid: "58981182"
     using Microsoft.VisualStudio.Shell.Interop;  
     ```  
   
-3.  수정 합니다 `RDTExplorerWindow` 있으므로 클래스에서 파생 하는 것 외에도 있는 <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> 구현 클래스는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents> 인터페이스.  
+3. 수정 합니다 `RDTExplorerWindow` 있으므로 클래스에서 파생 하는 것 외에도 있는 <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> 구현 클래스는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents> 인터페이스.  
   
     ```csharp  
     public class RDTExplorerWindow : ToolWindowPane, IVsRunningDocTableEvents  
     {. . .}  
     ```  
   
-4.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>를 구현해야 합니다.  
+4. <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>를 구현해야 합니다.  
   
-    -   인터페이스를 구현 합니다. IVsRunningDocTableEvents 이름에 커서를 놓습니다. 전구가 왼쪽된 여백에 표시 됩니다. 전구는 오른쪽에 있는 아래쪽 화살표를 클릭 하 고 선택 **인터페이스 구현**합니다.  
+    - 인터페이스를 구현 합니다. IVsRunningDocTableEvents 이름에 커서를 놓습니다. 전구가 왼쪽된 여백에 표시 됩니다. 전구는 오른쪽에 있는 아래쪽 화살표를 클릭 하 고 선택 **인터페이스 구현**합니다.  
   
-5.  인터페이스의 각 메서드에서 줄을 바꿀 `throw new NotImplementedException();` 이 사용 하 여:  
+5. 인터페이스의 각 메서드에서 줄을 바꿀 `throw new NotImplementedException();` 이 사용 하 여:  
   
     ```csharp  
     return VSConstants.S_OK;  
     ```  
   
-6.  쿠키 필드 RDTExplorerWindow 클래스를 추가 합니다.  
+6. 쿠키 필드 RDTExplorerWindow 클래스를 추가 합니다.  
   
     ```csharp  
     private uint rdtCookie;   
@@ -80,7 +80,7 @@ ms.locfileid: "58981182"
   
      반환 되는 쿠키를 포함 하는이 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> 메서드.  
   
-7.  RDT 이벤트에 등록 하려면 RDTExplorerWindow의 initialize () 메서드를 재정의 합니다. 항상 생성자에 없는 ToolWindowPane의 initialize () 메서드에서 서비스를 가져와야 합니다.  
+7. RDT 이벤트에 등록 하려면 RDTExplorerWindow의 initialize () 메서드를 재정의 합니다. 항상 생성자에 없는 ToolWindowPane의 initialize () 메서드에서 서비스를 가져와야 합니다.  
   
     ```csharp  
     protected override void Initialize()  
@@ -93,7 +93,7 @@ ms.locfileid: "58981182"
   
      <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable> 서비스를 가져오기 위해 호출 되는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable> 인터페이스입니다. 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> RDT 이벤트를 구현 하는 개체에 연결 하는 메서드 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>,이 경우 RDTExplorer 개체입니다.  
   
-8.  RDTExplorerWindow의 dispose () 메서드를 업데이트 합니다.  
+8. RDTExplorerWindow의 dispose () 메서드를 업데이트 합니다.  
   
     ```csharp  
     protected override void Dispose(bool disposing)  

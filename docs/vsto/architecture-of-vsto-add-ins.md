@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 04f4fff68720b456ac8ac2b8e121d9194019060c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 957805caa946dced54d52f1aa6b4a7f96e75b31a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56633111"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60091085"
 ---
 # <a name="architecture-of-vsto-add-ins"></a>VSTO 추가 기능의 아키텍처
   Visual Studio에서 Office 개발자 도구를 사용하여 만든 VSTO 추가 기능에는 안정성과 보안을 강조하고 Microsoft Office와 긴밀하게 작업할 수 있도록 하는 아키텍처 기능이 있습니다. 이 항목에서는 다음과 같은 VSTO 추가 기능의 측면에 대해 설명합니다.
@@ -36,7 +36,7 @@ ms.locfileid: "56633111"
 
   VSTO 추가 기능을 만드는 방법에 대 한 일반적인 내용은 참조 하세요. [Office 솔루션 개발 개요 &#40;VSTO&#41; ](../vsto/office-solutions-development-overview-vsto.md) 하 고 [VSTO 추가 기능 프로그래밍 시작](../vsto/getting-started-programming-vsto-add-ins.md).
 
-##  <a name="UnderstandingAddIns"></a> VSTO 추가 기능 이해
+## <a name="UnderstandingAddIns"></a> VSTO 추가 기능 이해
  Visual Studio에서 Office 개발자 도구를 사용 하 여 VSTO 추가 기능 작성 하는 경우 Microsoft Office 응용 프로그램에서 로드 되는 관리 코드 어셈블리를 만듭니다. 어셈블리가 로드된 후 VSTO 추가 기능은 애플리케이션에서 발생하는 이벤트(예: 사용자가 메뉴 항목을 클릭할 때)에 응답할 수 있습니다. VSTO 추가 기능은 애플리케이션을 자동화하고 확장하기 위해 개체 모델을 호출할 수도 있으며 [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)]의 클래스 중 하나를 사용할 수 있습니다.
 
  어셈블리는 애플리케이션의 주 interop 어셈블리를 통해 애플리케이션의 COM 구성 요소와 통신합니다. 자세한 내용은 [Office 주 interop 어셈블리](../vsto/office-primary-interop-assemblies.md) 하 고 [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
@@ -46,7 +46,7 @@ ms.locfileid: "56633111"
 > [!NOTE]
 >  Visual Studio에서 Office 개발자 도구를 사용하여 만든 VSTO 추가 기능은 최종 사용자가 호스트 Microsoft Office 애플리케이션을 시작할 때만 사용할 수 있도록 설계되었습니다. 애플리케이션이 프로그래밍 방식으로 시작되는 경우(예를 들어 자동화를 사용하여 시작) VSTO 추가 기능은 예상대로 작동하지 않을 수도 있습니다.
 
-##  <a name="AddinComponents"></a> VSTO 추가 기능의 구성 요소
+## <a name="AddinComponents"></a> VSTO 추가 기능의 구성 요소
  VSTO 추가 기능 어셈블리가 주 구성 요소이지만, Microsoft Office 애플리케이션이 VSTO 추가 기능을 검색하고 로드하는 방식에서 중요한 역할을 수행하는 몇 가지 다른 구성 요소가 있습니다.
 
 ### <a name="registry-entries"></a>레지스트리 항목
@@ -64,7 +64,7 @@ ms.locfileid: "56633111"
 
  자세한 내용은 [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)합니다.
 
-##  <a name="HowAddinsWork"></a> Microsoft Office 응용 프로그램을 사용 하 여 VSTO 추가 기능을 작동 하는 방법
+## <a name="HowAddinsWork"></a> Microsoft Office 응용 프로그램을 사용 하 여 VSTO 추가 기능을 작동 하는 방법
  사용자가 Microsoft Office 애플리케이션을 시작할 때 애플리케이션은 배포 매니페스트와 애플리케이션 매니페스트를 사용하여 최신 버전의 VSTO 추가 기능 어셈블리를 찾고 로드합니다. 다음 그림에서는 이러한 VSTO 추가 기능의 기본 아키텍처를 보여 줍니다.
 
  ![2007 office 추가 기능 아키텍처](../vsto/media/office07addin.png "2007 Office 추가 기능 아키텍처")
@@ -75,21 +75,21 @@ ms.locfileid: "56633111"
 ### <a name="loading-process"></a>로드 프로세스
  다음 단계는 사용자가 애플리케이션을 시작할 때 발생합니다.
 
-1.  애플리케이션은 Visual Studio에서 Office 개발자 도구를 사용하여 만든 VSTO 추가 기능을 식별하는 항목에 대한 레지스트리를 확인합니다.
+1. 애플리케이션은 Visual Studio에서 Office 개발자 도구를 사용하여 만든 VSTO 추가 기능을 식별하는 항목에 대한 레지스트리를 확인합니다.
 
-2.  애플리케이션은 이러한 레지스트리 항목을 찾는 경우 VSTOEE.dll을 로드하고, 이 DLL은 VSTOLoader.dll을 로드합니다. 이러한 DLL은 Visual Studio 2010 Tools for Office Runtime의 로더 구성 요소인 관리되지 않는 DLL입니다. 자세한 내용은 [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)합니다.
+2. 애플리케이션은 이러한 레지스트리 항목을 찾는 경우 VSTOEE.dll을 로드하고, 이 DLL은 VSTOLoader.dll을 로드합니다. 이러한 DLL은 Visual Studio 2010 Tools for Office Runtime의 로더 구성 요소인 관리되지 않는 DLL입니다. 자세한 내용은 [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)합니다.
 
-3.  *VSTOLoader.dll* 로드 된 [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] 관리 되는 부분을 시작 하 고는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+3. *VSTOLoader.dll* 로드 된 [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] 관리 되는 부분을 시작 하 고는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
-4.  [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 매니페스트 업데이트를 확인하고 최신 응용 프로그램 및 배포 매니페스트를 다운로드합니다.
+4. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 매니페스트 업데이트를 확인하고 최신 응용 프로그램 및 배포 매니페스트를 다운로드합니다.
 
-5.  [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 일련의 보안 검사를 수행합니다. 자세한 내용은 [Secure Office 솔루션](../vsto/securing-office-solutions.md)합니다.
+5. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 일련의 보안 검사를 수행합니다. 자세한 내용은 [Secure Office 솔루션](../vsto/securing-office-solutions.md)합니다.
 
-6.  VSTO 추가 기능을 실행하도록 신뢰할 수 있는 경우 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 배포 매니페스트와 애플리케이션 매니페스트를 사용하여 어셈블리 업데이트를 확인합니다. 새 버전의 어셈블리를 사용할 수 있는 경우 런타임은 새 버전의 어셈블리를 클라이언트 컴퓨터의 [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] 캐시에 다운로드합니다. 자세한 내용은 [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.
+6. VSTO 추가 기능을 실행하도록 신뢰할 수 있는 경우 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 배포 매니페스트와 애플리케이션 매니페스트를 사용하여 어셈블리 업데이트를 확인합니다. 새 버전의 어셈블리를 사용할 수 있는 경우 런타임은 새 버전의 어셈블리를 클라이언트 컴퓨터의 [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] 캐시에 다운로드합니다. 자세한 내용은 [Office 솔루션 배포](../vsto/deploying-an-office-solution.md)합니다.
 
-7.  [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 VSTO 추가 기능 어셈블리를 로드할 새로운 응용 프로그램 도메인을 만듭니다.
+7. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 VSTO 추가 기능 어셈블리를 로드할 새로운 응용 프로그램 도메인을 만듭니다.
 
-8.  [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 VSTO 추가 기능 어셈블리를 응용 프로그램 도메인에 로드합니다.
+8. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 VSTO 추가 기능 어셈블리를 응용 프로그램 도메인에 로드합니다.
 
 9. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 VSTO 추가 기능에서 <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> 메서드를 호출합니다(메서드를 재정의한 경우).
 

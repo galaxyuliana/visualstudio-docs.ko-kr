@@ -16,12 +16,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 2ef9eaa8e0921d8ff463478a42eca688d4b952b7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 85aadaca762983b193e42ec2469f88a429a4e532
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983959"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111742"
 ---
 # <a name="ca1303-do-not-pass-literals-as-localized-parameters"></a>CA1303: 리터럴을 지역화된 매개 변수로 전달하지 마세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,11 +38,11 @@ ms.locfileid: "58983959"
 
  이 경고는 리터럴 문자열 매개 변수 또는 속성 값으로 전달 되 고 다음 경우 중 하나 이상의 참인 경우에 발생 합니다.
 
--   <xref:System.ComponentModel.LocalizableAttribute> 매개 변수 또는 속성의 특성은 설정을 true로 합니다.
+- <xref:System.ComponentModel.LocalizableAttribute> 매개 변수 또는 속성의 특성은 설정을 true로 합니다.
 
--   "Text", "Message" 또는 "캡션"를 포함 하는 매개 변수 또는 속성 이름입니다.
+- "Text", "Message" 또는 "캡션"를 포함 하는 매개 변수 또는 속성 이름입니다.
 
--   Console.Write 또는 Console.WriteLine 메서드에 전달 되는 문자열 매개 변수의 이름이 "value" 또는 "format"입니다.
+- Console.Write 또는 Console.WriteLine 메서드에 전달 되는 문자열 매개 변수의 이름이 "value" 또는 "format"입니다.
 
 ## <a name="rule-description"></a>규칙 설명
  소스 코드에 포함 된 문자열 리터럴을 지역화 하기 어렵습니다.

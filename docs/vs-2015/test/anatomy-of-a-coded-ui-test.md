@@ -10,12 +10,12 @@ ms.assetid: 9c5d82fc-3fb7-4bb1-a9ac-ac1fa3a4b500
 caps.latest.revision: 25
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 35222fc9e320bafbaafe1bc19e174649142252c1
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 46226d241db04cad0f4859650dc2aff855b72f08
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54781179"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102031"
 ---
 # <a name="anatomy-of-a-coded-ui-test"></a>코딩된 UI 테스트 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "54781179"
   
  **요구 사항**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ## <a name="contents-of-a-coded-ui-test"></a>코딩된 UI 테스트 내용  
  코딩된 UI 테스트를 만드는 경우 **코딩된 UI 테스트 빌더**에서 테스트 대상 사용자 인터페이스 맵과 모든 테스트에 대한 테스트 메서드, 매개 변수 및 어설션을 만듭니다. 각 테스트에 대한 클래스 파일도 만듭니다.  
@@ -32,11 +32,11 @@ ms.locfileid: "54781179"
 |파일|목차|편집 가능 여부|  
 |----------|--------------|---------------|  
 |[UIMap.Designer.cs](#UIMapDesignerFile)|[선언 섹션](#UIMapDesignerFile)<br /><br /> [UIMap 클래스](#UIMapClass)(부분, 자동 생성됨)<br /><br /> [메서드](#UIMapMethods)<br /><br /> [속성](#UIMapProperties)|아니요|  
-|[UIMap.cs](#UIMapCS)|[UIMap 클래스](#UIMapCS)(부분)|적용|  
-|[CodedUITest1.cs](#CodedUITestCS)|[CodedUITest1 클래스](#CodedUITestCS)<br /><br /> [메서드](#CodedUITestMethods)<br /><br /> [속성](#CodedUITestProperties)|적용|  
+|[UIMap.cs](#UIMapCS)|[UIMap 클래스](#UIMapCS)(부분)|예|  
+|[CodedUITest1.cs](#CodedUITestCS)|[CodedUITest1 클래스](#CodedUITestCS)<br /><br /> [메서드](#CodedUITestMethods)<br /><br /> [속성](#CodedUITestProperties)|예|  
 |[UIMap.uitest](#UIMapuitest)|테스트용 UI의 XML 맵|아니요|  
   
-###  <a name="UIMapDesignerFile"></a> UIMap.Designer.cs  
+### <a name="UIMapDesignerFile"></a> UIMap.Designer.cs  
  이 파일에는 테스트를 만들 때 **코딩된 UI 테스트 빌더**에서 자동으로 생성되는 코드가 들어 있습니다. 이 파일은 테스트가 변경될 때마다 다시 생성되므로 코드를 추가하거나 수정할 수 있는 파일이 아닙니다.  
   
 #### <a name="declarations-section"></a>선언 섹션  
@@ -60,7 +60,7 @@ using MouseButtons = System.Windows.Forms.MouseButtons;
   
  <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls> 네임스페이스는 Windows UI(사용자 인터페이스)용으로 포함되었습니다. 웹 페이지 UI의 경우 네임스페이스는 <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>입니다. Windows Presentation Foundation UI의 경우 네임스페이스는 <xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>입니다.  
   
-####  <a name="UIMapClass"></a> UIMap 클래스  
+#### <a name="UIMapClass"></a> UIMap 클래스  
  파일의 다음 섹션은 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> 클래스입니다.  
   
 ```  
@@ -95,7 +95,7 @@ public UIStartWindow UIStartWindow
 public UIMathApplicationWindow UIMathApplicationWindow  
 ```  
   
-#####  <a name="UIMapMethods"></a> UIMap 메서드  
+##### <a name="UIMapMethods"></a> UIMap 메서드  
  각 메서드는 `AddItems()` 메서드와 유사한 구조입니다. 이 내용은 보다 명확하도록 줄 바꿈과 함께 표시되는 코드 아래에서 자세히 설명합니다.  
   
 ```  
@@ -142,7 +142,7 @@ Assert.AreEqual(
   
  Windows 계산기 애플리케이션의 개발자가 공개적으로 사용할 수 있는 컨트롤 이름을 제공하지 않으므로 텍스트 상자 이름은 알 수 없음으로 나열됩니다. 실제 값이 예상 값과 같지 않은 경우 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName> 메서드가 실패하여 테스트에 실패합니다. 또한 예상 값은 소수점 뒤에 공백을 포함합니다. 이 특정 테스트의 기능을 수정해야 하는 경우 해당 소수점과 공백을 허용해야 합니다.  
   
-#####  <a name="UIMapProperties"></a> UIMap 속성  
+##### <a name="UIMapProperties"></a> UIMap 속성  
  각 속성에 대한 코드도 클래스 전체에서 매우 표준적입니다. `AddItemsParams` 속성에 대한 다음 코드는 `AddItems()` 메서드에서 사용됩니다.  
   
 ```  
@@ -186,7 +186,7 @@ public class AddItemsParams
   
  `UIMap.cs` 파일의 모든 클래스와 마찬가지로, 이 클래스는 <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>로 시작합니다. 이 작은 클래스에는 앞에서 설명한 `UIMap.AddItems()` 메서드에서 사용되는 <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName> 메서드의 매개 변수로 사용할 문자열을 정의하는 `Fields` 영역이 있습니다. 이러한 매개 변수가 사용되는 메서드를 호출하기 전에 해당 문자열 필드의 값을 바꾸는 코드를 작성할 수 있습니다.  
   
-###  <a name="UIMapCS"></a> UIMap.cs  
+### <a name="UIMapCS"></a> UIMap.cs  
  기본적으로 이 파일은 메서드나 속성이 없는 partial `UIMap` 클래스를 포함합니다.  
   
 #### <a name="uimap-class"></a>UIMap 클래스  
@@ -194,7 +194,7 @@ public class AddItemsParams
   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>의 모든 부분에서 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> 클래스의 다른 부분에 있는 메서드와 속성을 사용할 수 있습니다.  
   
-###  <a name="CodedUITestCS"></a> CodedUITest1.cs  
+### <a name="CodedUITestCS"></a> CodedUITest1.cs  
  이 파일은 **코딩된 UI 테스트 빌더**에서 생성되지만 테스트를 수정할 때마다 다시 생성되지 않으므로 이 파일의 코드를 수정할 수 있습니다. 파일 이름은 테스트를 만들 때 지정한 테스트 이름에서 생성됩니다.  
   
 #### <a name="codeduitest1-class"></a>CodedUITest1 클래스  
@@ -207,7 +207,7 @@ public class CodedUITest1
   
  T:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute가 클래스에 자동으로 적용되어 테스트 프레임워크에서 해당 클래스를 테스트 확장으로 인식할 수 있게 합니다. 또한 partial 클래스가 아닙니다. 모든 클래스 코드가 이 파일에 포함됩니다.  
   
-#####  <a name="CodedUITestProperties"></a> CodedUITest1 속성  
+##### <a name="CodedUITestProperties"></a> CodedUITest1 속성  
  클래스는 파일 맨 아래에 있는 두 개의 기본 속성을 포함합니다. 속성을 수정하면 안 됩니다.  
   
 ```  
@@ -219,7 +219,7 @@ public TestContext TestContext
 public UIMap UIMap  
 ```  
   
-#####  <a name="CodedUITestMethods"></a> CodedUITest1 메서드  
+##### <a name="CodedUITestMethods"></a> CodedUITest1 메서드  
  기본적으로 클래스는 하나의 메서드만 포함합니다.  
   
 ```  
@@ -262,7 +262,7 @@ public void MyTestCleanup()
   
  <xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute>를 사용하여 이 클래스에 더 많은 메서드를 추가하는 경우 테스트 프레임워크에서 테스트의 일부로 각 메서드를 호출합니다.  
   
-###  <a name="UIMapuitest"></a> UIMap.uitest  
+### <a name="UIMapuitest"></a> UIMap.uitest  
  코딩된 UI 테스트 기록의 구조 및 모든 해당 부분을 나타내는 XML 파일입니다. 여기에는 작업 및 클래스와 해당 클래스의 메서드 및 속성도 포함됩니다. [UIMap.Designer.cs](#UIMapDesignerFile) 파일은 코딩된 UI 빌더에서 테스트 구조를 재현하기 위해 생성되고, 테스트 프레임워크에 대한 연결을 제공하는 코드를 포함합니다.  
   
  `UIMap.uitest` 파일은 직접 편집할 수 없습니다. 그러나 코딩된 UI 빌더를 사용하여 테스트를 수정할 수 있으며, `UIMap.uitest` 파일과 [UIMap.Designer.cs](#UIMapDesignerFile) 파일이 자동으로 수정됩니다.  

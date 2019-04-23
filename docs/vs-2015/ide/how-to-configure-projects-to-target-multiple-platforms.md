@@ -12,12 +12,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e67d4a5df03f128285de45473c933761d6c7eb04
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 7457b5be3a6c1cbf2c2b6a1c6f66f9fb89e8d225
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54785828"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100302"
 ---
 # <a name="how-to-configure-projects-to-target-multiple-platforms"></a>방법: 여러 플랫폼을 대상으로 한 프로젝트 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,31 +29,31 @@ ms.locfileid: "54785828"
   
 #### <a name="to-set-your-configuration-to-target-a-different-platform"></a>다른 플랫폼을 대상으로 하는 구성을 설정하려면  
   
-1.  **빌드** 메뉴에서 **Configuration Manager**를 클릭합니다.  
+1. **빌드** 메뉴에서 **Configuration Manager**를 클릭합니다.  
   
-2.  **활성 솔루션 플랫폼 상자**에서 솔루션의 대상이 될 플랫폼을 선택하거나 **\<새로 만들기>** 를 선택하여 새 플랫폼을 만듭니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]은(는) **Configuration Manager** 대화 상자에서 활성 플랫폼으로 설정된 플랫폼을 대상으로 애플리케이션을 컴파일합니다.  
+2. **활성 솔루션 플랫폼 상자**에서 솔루션의 대상이 될 플랫폼을 선택하거나 **\<새로 만들기>** 를 선택하여 새 플랫폼을 만듭니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]은(는) **Configuration Manager** 대화 상자에서 활성 플랫폼으로 설정된 플랫폼을 대상으로 애플리케이션을 컴파일합니다.  
   
 ## <a name="removing-a-platform"></a>플랫폼 제거  
  플랫폼에 대한 요구가 없다고 생각되면 Configuration Manager 대화 상자를 사용하여 제거할 수 있습니다. 그러면 구성 및 대상 조합에 대해 구성한 모든 솔루션 및 프로젝트 설정이 제거됩니다.  
   
 #### <a name="to-remove-a-platform"></a>플랫폼을 제거하려면  
   
-1.  **빌드** 메뉴에서 **Configuration Manager**를 클릭합니다.  
+1. **빌드** 메뉴에서 **Configuration Manager**를 클릭합니다.  
   
-2.  **활성 솔루션 플랫폼 상자**에서 **\<편집>** 을 선택합니다. **솔루션 플랫폼 편집** 대화 상자가 열립니다.  
+2. **활성 솔루션 플랫폼 상자**에서 **\<편집>** 을 선택합니다. **솔루션 플랫폼 편집** 대화 상자가 열립니다.  
   
-3.  제거하려는 플랫폼을 클릭하고 **제거**를 클릭합니다.  
+3. 제거하려는 플랫폼을 클릭하고 **제거**를 클릭합니다.  
   
 ## <a name="targeting-multiple-platforms-with-one-solution"></a>한 솔루션으로 여러 플랫폼을 대상으로 지정  
  구성 및 플랫폼 설정 조합을 기반으로 설정을 변경할 수 있기 때문에 둘 이상의 플랫폼을 대상으로 지정할 수 있는 솔루션을 설정할 수 있습니다.  
   
 #### <a name="to-target-multiple-platforms"></a>여러 플랫폼을 대상으로 지정하려면  
   
-1.  **Configuration Manager**를 사용하여 솔루션에 대해 두 개 이상의 대상 플랫폼을 추가합니다.  
+1. **Configuration Manager**를 사용하여 솔루션에 대해 두 개 이상의 대상 플랫폼을 추가합니다.  
   
-2.  **활성 솔루션 플랫폼** 목록에서 대상으로 지정할 플랫폼을 선택합니다.  
+2. **활성 솔루션 플랫폼** 목록에서 대상으로 지정할 플랫폼을 선택합니다.  
   
-3.  솔루션을 빌드합니다.  
+3. 솔루션을 빌드합니다.  
   
 #### <a name="to-build-multiple-solution-configurations-at-once"></a>한 번에 여러 솔루션 구성을 빌드하려면  
   

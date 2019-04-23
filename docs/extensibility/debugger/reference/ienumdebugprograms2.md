@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 866b3718ac6071b5e7bd5cc44ed2ca17dd54dc8e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: a37ad954202910930ff06c8206e66c0594a8d1d8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56687643"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107400"
 ---
 # <a name="ienumdebugprograms2"></a>IEnumDebugPrograms2
 이 인터페이스는 현재 디버그 세션에서 실행 중인 프로그램을 열거 합니다.
@@ -41,20 +41,20 @@ IEnumDebugPrograms2 : IUnknown
 |------------|-----------------|
 |[다음](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md)|열거형 시퀀스에는 프로그램의 지정된 된 수를 검색 합니다.|
 |[Skip](../../../extensibility/debugger/reference/ienumdebugprograms2-skip.md)|열거형 시퀀스에는 프로그램의 지정된 된 수를 건너뜁니다.|
-|[다시 설정](../../../extensibility/debugger/reference/ienumdebugprograms2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
+|[Reset](../../../extensibility/debugger/reference/ienumdebugprograms2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
 |[Clone](../../../extensibility/debugger/reference/ienumdebugprograms2-clone.md)|현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugprograms2-getcount.md)|열거자에서 프로그램의 수를 가져옵니다.|
 
 ## <a name="remarks"></a>설명
  Visual Studio는이 인터페이스를 사용합니다.
 
--   채울 합니다 **모듈** 창 (호출 하 여 [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) 호출한 [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) 각 프로그램에서).
+- 채울 합니다 **모듈** 창 (호출 하 여 [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) 호출한 [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) 각 프로그램에서).
 
--   채울 합니다 **프로세스에 연결** 목록 (호출 하 여 `IDebugProcess2::EnumPrograms` 호출한 [QueryInterface](/cpp/atl/queryinterface) 각 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 를얻기위해인터페이스[IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md) 인터페이스).
+- 채울 합니다 **프로세스에 연결** 목록 (호출 하 여 `IDebugProcess2::EnumPrograms` 호출한 [QueryInterface](/cpp/atl/queryinterface) 각 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 를얻기위해인터페이스[IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md) 인터페이스).
 
--   프로세스에서 각 프로그램을 디버그할 수 있는 DEs의 목록을 생성할지 (사용 하 여 [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogram2-getengineinfo.md)).
+- 프로세스에서 각 프로그램을 디버그할 수 있는 DEs의 목록을 생성할지 (사용 하 여 [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogram2-getengineinfo.md)).
 
--   각 프로그램에 편집 하며 계속 (ENC) 업데이트 적용 (IDebugProcess2::EnumPrograms를 호출 하 고 다음 호출 하 여 [GetENCUpdate](../../../extensibility/debugger/reference/idebugprogram2-getencupdate.md)).
+- 각 프로그램에 편집 하며 계속 (ENC) 업데이트 적용 (IDebugProcess2::EnumPrograms를 호출 하 고 다음 호출 하 여 [GetENCUpdate](../../../extensibility/debugger/reference/idebugprogram2-getencupdate.md)).
 
 ## <a name="requirements"></a>요구 사항
  헤더: msdbg.h

@@ -1,5 +1,5 @@
 ---
-title: ': Kerberos 인증 오류 | Microsoft Docs'
+title: '오류: Kerberos 인증이 실패 했습니다. | Microsoft Docs'
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords:
@@ -14,14 +14,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cb327ad703c744f94970162f493cb61dffb8fac3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 76a62a821a9b110be2ffd8e25cbdf6721f12bc08
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56701071"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087568"
 ---
-# <a name="error-kerberos-authentication-failed"></a>오류: Kerberos 인증에 실패했습니다.
+# <a name="error-kerberos-authentication-failed"></a>오류: Kerberos 인증 실패
 원격 디버깅을 시작할 때 다음 오류 메시지가 나타날 수 있습니다.
 
 ```cmd
@@ -38,25 +38,25 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
 
 - 도메인 컨트롤러에서 Kerberos가 해제된 경우
 
-  Kerberos 인증을 사용할 수 없는 경우 Visual Studio 원격 디버깅 모니터를 실행하는 데 사용되는 계정을 변경해야 합니다. 프로시저를 참조 하세요 [오류: 대상 컴퓨터의 Visual Studio 원격 디버거 서비스가이 컴퓨터에 다시 연결할 수 없습니다.](../debugger/error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md)합니다.
+  Kerberos 인증을 사용할 수 없는 경우 Visual Studio 원격 디버깅 모니터를 실행하는 데 사용되는 계정을 변경해야 합니다. 프로시저를 참조 하세요. [오류: 대상 컴퓨터의 Visual Studio 원격 디버거 서비스가이 컴퓨터에 다시 연결할 수 없습니다.](../debugger/error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md)합니다.
 
   두 컴퓨터가 모두 같은 도메인에 연결되어 있는 경우에도 이 메시지가 나타나면 해당 컴퓨터의 DNS에서 디버거 호스트 컴퓨터의 이름을 제대로 확인하고 있는지 검사합니다. 다음 절차를 참조하십시오.
 
 ### <a name="to-verify-that-dns-on-the-target-computer-is-correctly-resolving-the-debugger-host-computer-name"></a>대상 컴퓨터의 DNS에서 디버거 호스트 컴퓨터 이름을 제대로 확인하고 있는지 검사하려면
 
-1.  대상 컴퓨터에서 **시작** 메뉴를 열고 **보조 프로그램**을 가리킨 다음, **명령 프롬프트**를 클릭합니다.
+1. 대상 컴퓨터에서 **시작** 메뉴를 열고 **보조 프로그램**을 가리킨 다음, **명령 프롬프트**를 클릭합니다.
 
-2.  **명령 프롬프트** 창에 다음을 입력합니다.
+2. **명령 프롬프트** 창에 다음을 입력합니다.
 
     ```cmd
     ping <debugger_host_computer_name>
     ```
 
-3.  `ping` 응답의 첫 번째 줄에는 지정된 컴퓨터의 DNS에서 반환하는 전체 컴퓨터 이름과 IP 주소가 표시됩니다.
+3. `ping` 응답의 첫 번째 줄에는 지정된 컴퓨터의 DNS에서 반환하는 전체 컴퓨터 이름과 IP 주소가 표시됩니다.
 
-4.  디버거 호스트 컴퓨터에서 **명령 프롬프트** 창을 열고 `ipconfig`를 실행합니다.
+4. 디버거 호스트 컴퓨터에서 **명령 프롬프트** 창을 열고 `ipconfig`를 실행합니다.
 
-5.  IP 주소 값을 비교합니다.
+5. IP 주소 값을 비교합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)

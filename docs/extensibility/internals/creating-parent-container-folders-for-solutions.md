@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6c23ec3101baac033cbef47f6f1c3ad6f717a15d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: b9b48cb7862b23df325b35bba0cb3e197573e3c0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661063"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102720"
 ---
 # <a name="create-parent-container-folders-for-solutions"></a>부모 솔루션에 대 한 컨테이너 폴더 만들기
 원본 제어 플러그 인 API 버전 1.2에는 사용자 솔루션 내에서 모든 웹 프로젝트에 대 한 단일 루트 원본 제어 대상을 지정할 수 있습니다. 이 단일 루트를 슈퍼 통합 루트 (도메인 이름 얻기) 라고 합니다.
@@ -35,13 +35,13 @@ ms.locfileid: "59661063"
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 소스 제어에 솔루션을 추가 하는 경우 거의 항상 IDE 도메인 이름 얻기 폴더를 만듭니다. 구체적으로 다음과 같은 경우:
 
--   프로젝트에 웹 프로젝트를 파일 공유입니다.
+- 프로젝트에 웹 프로젝트를 파일 공유입니다.
 
--   프로젝트 및 솔루션 파일에 대 한 다양 한 드라이브가 있습니다.
+- 프로젝트 및 솔루션 파일에 대 한 다양 한 드라이브가 있습니다.
 
--   프로젝트 및 솔루션 파일에 대 한 다른 공유 있습니다.
+- 프로젝트 및 솔루션 파일에 대 한 다른 공유 있습니다.
 
--   프로젝트에에서 추가 된 별도로 (소스 제어 솔루션).
+- 프로젝트에에서 추가 된 별도로 (소스 제어 솔루션).
 
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 도메인 이름 얻기 폴더의 이름을 동일 하 게 솔루션 이름과 확장명이 없는 것이 좋습니다. 다음 표에서 두 가지 버전의 동작을 보여 줍니다.
 

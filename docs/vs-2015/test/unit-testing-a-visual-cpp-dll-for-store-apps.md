@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dbdf8ccb423058f10246a439838d1b970d65109f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 716e6141d9f5ae76773a47b81ae54f5d7b70a9ec
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54771197"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60104189"
 ---
 # <a name="unit-testing-a-visual-c-dll-for-store-apps"></a>스토어 앱의 Visual C++ DLL 유닛 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "54771197"
   
  또한 이 항목에서는 단일 Visual Studio 솔루션과 테스트할 DLL 및 단위 테스트에 대한 별도의 프로젝트를 만듭니다. DLL 프로젝트에 직접 단위 테스트를 포함하거나 단위 테스트 및 .DLL에 대한 별도의 솔루션을 만들 수도 있습니다. 사용할 구조에 대한 팁은 [기존 C++ 애플리케이션에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)를 참조하세요.  
   
-##  <a name="BKMK_In_this_topic"></a> 항목 내용  
+## <a name="BKMK_In_this_topic"></a> 항목 내용  
  이 항목에서는 다음 작업을 안내합니다.  
   
  [솔루션 및 단위 테스트 프로젝트 만들기](#BKMK_Create_the_solution_and_the_unit_test_project)  
@@ -42,35 +42,35 @@ ms.locfileid: "54771197"
   
  [테스트를 변경하지 않고 코드 리팩터링](#BKMK_Refactor_the_code_without_changing_tests)  
   
-##  <a name="BKMK_Create_the_solution_and_the_unit_test_project"></a> 솔루션 및 단위 테스트 프로젝트 만들기  
+## <a name="BKMK_Create_the_solution_and_the_unit_test_project"></a> 솔루션 및 단위 테스트 프로젝트 만들기  
   
-1.  **파일** 메뉴에서 **새로 만들기**를 선택하고 **새 프로젝트**를 선택합니다.  
+1. **파일** 메뉴에서 **새로 만들기**를 선택하고 **새 프로젝트**를 선택합니다.  
   
-2.  새 프로젝트 대화 상자에서 **설치됨**, **Visual C++** 를 차례로 확장하고 **Windows 스토어**를 선택합니다. 그런 다음 프로젝트 템플릿 목록에서 **단위 테스트 라이브러리(Windows 스토어 앱)** 를 선택합니다.  
+2. 새 프로젝트 대화 상자에서 **설치됨**, **Visual C++** 를 차례로 확장하고 **Windows 스토어**를 선택합니다. 그런 다음 프로젝트 템플릿 목록에서 **단위 테스트 라이브러리(Windows 스토어 앱)** 를 선택합니다.  
   
      ![C&#43;&#43; 단위 테스트 라이브러리 만들기](../test/media/ute-cpp-windows-unittestlib-create.png "UTE_Cpp_windows_UnitTestLib_Create")  
   
-3.  프로젝트 이름을 `RooterLibTests`로 지정하고 위치를 지정합니다. 솔루션 이름을 `RooterLib`로 지정하고 **솔루션용 디렉터리 만들기**가 선택되어 있는지 확인합니다.  
+3. 프로젝트 이름을 `RooterLibTests`로 지정하고 위치를 지정합니다. 솔루션 이름을 `RooterLib`로 지정하고 **솔루션용 디렉터리 만들기**가 선택되어 있는지 확인합니다.  
   
      ![솔루션 및 프로젝트 이름과 위치 지정](../test/media/ute-cpp-windows-unittestlib-createspecs.png "UTE_Cpp_windows_UnitTestLib_CreateSpecs")  
   
-4.  새 프로젝트에서 **unittest1.cpp**를 엽니다.  
+4. 새 프로젝트에서 **unittest1.cpp**를 엽니다.  
   
      ![unittest1.cpp](../test/media/ute-cpp-windows-unittest1-cpp.png "UTE_Cpp_windows_unittest1_cpp")  
   
      다음 사항에 유의합니다.  
   
-    -   각 테스트는 `TEST_METHOD(YourTestName){...}`를 사용하여 정의됩니다.  
+    - 각 테스트는 `TEST_METHOD(YourTestName){...}`를 사용하여 정의됩니다.  
   
          기존의 함수 시그니처는 작성할 필요가 없습니다. 시그니처는 TEST_METHOD 매크로에 의해 생성됩니다. 이 매크로는 void를 반환하는 인스턴스 함수를 생성합니다. 또한 테스트 메서드에 대한 정보를 반환하는 정적 함수를 생성합니다. 이 정보를 통해 테스트 탐색기에서 메서드를 찾을 수 있습니다.  
   
-    -   테스트 메서드는 `TEST_CLASS(YourClassName){...}`를 사용해서 클래스로 그룹화됩니다.  
+    - 테스트 메서드는 `TEST_CLASS(YourClassName){...}`를 사용해서 클래스로 그룹화됩니다.  
   
          테스트를 실행하면 각 테스트 클래스의 인스턴스가 생성됩니다. 테스트 메서드는 지정되지 않은 순서로 호출됩니다. 각 모듈, 클래스 또는 메서드의 전/후에 호출되는 특별한 메서드를 정의할 수 있습니다. 자세한 내용은 MSDN 라이브러리의 [Microsoft.VisualStudio.TestTools.CppUnitTestFramework 사용](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)을 참조하세요.  
   
-##  <a name="BKMK_Verify_that_the_tests_run_in_Test_Explorer"></a> 테스트 탐색기에서 테스트가 실행되는지 확인  
+## <a name="BKMK_Verify_that_the_tests_run_in_Test_Explorer"></a> 테스트 탐색기에서 테스트가 실행되는지 확인  
   
-1.  일부 테스트 코드를 삽입합니다.  
+1. 일부 테스트 코드를 삽입합니다.  
   
     ```cpp  
     TEST_METHOD(TestMethod1)  
@@ -81,21 +81,21 @@ ms.locfileid: "54771197"
   
      `Assert` 클래스는 테스트 메서드의 결과를 확인하는 데 사용할 수 있는 몇 가지 정적 메서드를 제공합니다.  
   
-2.  **테스트** 메뉴에서 **실행**을 선택하고 **모두 실행**을 선택합니다.  
+2. **테스트** 메뉴에서 **실행**을 선택하고 **모두 실행**을 선택합니다.  
   
      테스트 프로젝트가 빌드되고 실행됩니다. 테스트 탐색기 창이 나타나고 테스트가 **통과한 테스트** 아래에 나열됩니다. 창의 아래쪽에 있는 요약 창은 선택된 테스트에 대한 추가 정보를 제공합니다.  
   
      ![테스트 탐색기](../test/media/ute-cpp-testexplorer-testmethod1.png "UTE_Cpp_TestExplorer_TestMethod1")  
   
-##  <a name="BKMK_Add_the_DLL_project_to_the_solution"></a> 솔루션에 DLL 프로젝트 추가  
+## <a name="BKMK_Add_the_DLL_project_to_the_solution"></a> 솔루션에 DLL 프로젝트 추가  
   
-1.  솔루션 탐색기에서 솔루션 이름을 선택합니다. 바로 가기 메뉴에서 **추가**를 선택한 다음 **새 프로젝트 추가**를 선택합니다.  
+1. 솔루션 탐색기에서 솔루션 이름을 선택합니다. 바로 가기 메뉴에서 **추가**를 선택한 다음 **새 프로젝트 추가**를 선택합니다.  
   
      ![RooterLib 프로젝트 만들기](../test/media/ute-cpp-windows-rooterlib-create.png "UTE_Cpp_windows_RooterLib_Create")  
   
-2.  **새 프로젝트 추가** 대화 상자에서 **DLL(Windows 스토어 앱)** 을 선택합니다.  
+2. **새 프로젝트 추가** 대화 상자에서 **DLL(Windows 스토어 앱)** 을 선택합니다.  
   
-3.  **RooterLib.h** 파일에 다음 코드를 추가합니다.  
+3. **RooterLib.h** 파일에 다음 코드를 추가합니다.  
   
     ```cpp  
     // The following ifdef block is the standard way of creating macros which make exporting   
@@ -121,17 +121,17 @@ ms.locfileid: "54771197"
   
      `CRooterLib` 클래스는 생성자와 `SqareRoot` 평가자 메서드를 선언합니다.  
   
-4.  명령줄에 ROOTERLIB_EXPORTS 기호를 추가합니다.  
+4. 명령줄에 ROOTERLIB_EXPORTS 기호를 추가합니다.  
   
-    1.  솔루션 탐색기에서 **RooterLib** 프로젝트를 선택한 다음 바로 가기 메뉴에서 **속성**을 선택합니다.  
+    1. 솔루션 탐색기에서 **RooterLib** 프로젝트를 선택한 다음 바로 가기 메뉴에서 **속성**을 선택합니다.  
   
          ![전처리기 기호 정의 추가](../test/media/ute-cpp-windows-addpreprocessorsymbol.png "UTE_Cpp_windows_AddPreprocessorSymbol")  
   
-    2.  RooterLib 속성 페이지 대화 상자에서 **구성 속성**, **C++** 를 차례로 확장하고 **전처리기**를 선택합니다.  
+    2. RooterLib 속성 페이지 대화 상자에서 **구성 속성**, **C++** 를 차례로 확장하고 **전처리기**를 선택합니다.  
   
-    3.  **전처리기 정의** 목록에서 **\<편집...>** 을 선택하고 전처리기 정의 대화 상자에서 `ROOTERLIB_EXPORTS`를 추가합니다.  
+    3. **전처리기 정의** 목록에서 **\<편집...>** 을 선택하고 전처리기 정의 대화 상자에서 `ROOTERLIB_EXPORTS`를 추가합니다.  
   
-5.  선언된 함수의 최소 구현을 추가합니다. **RooterLib.cpp**를 열고 다음 코드를 추가합니다.  
+5. 선언된 함수의 최소 구현을 추가합니다. **RooterLib.cpp**를 열고 다음 코드를 추가합니다.  
   
     ```  
     // constructor  
@@ -147,23 +147,23 @@ ms.locfileid: "54771197"
   
     ```  
   
-##  <a name="BKMK_Couple_the_test_project_to_the_dll_project"></a> DLL 프로젝트에 테스트 프로젝트 연결  
+## <a name="BKMK_Couple_the_test_project_to_the_dll_project"></a> DLL 프로젝트에 테스트 프로젝트 연결  
   
 1. RooterLibTests 프로젝트에 RooterLib를 추가합니다.  
   
-   1.  솔루션 탐색기에서 **RooterLibTests** 프로젝트를 선택한 다음 바로 가기 메뉴에서 **참조...** 를 선택합니다.  
+   1. 솔루션 탐색기에서 **RooterLibTests** 프로젝트를 선택한 다음 바로 가기 메뉴에서 **참조...** 를 선택합니다.  
   
-   2.  RooterLib 프로젝트 속성 대화 상자에서 **공용 속성**을 확장하고 **프레임워크 및 참조**를 선택합니다.  
+   2. RooterLib 프로젝트 속성 대화 상자에서 **공용 속성**을 확장하고 **프레임워크 및 참조**를 선택합니다.  
   
-   3.  **새 참조 추가...** 를 선택합니다.  
+   3. **새 참조 추가...** 를 선택합니다.  
   
-   4.  **참조 추가** 대화 상자에서 **솔루션**을 확장한 다음 **프로젝트**를 선택합니다. 그런 다음 **RouterLib** 항목을 선택합니다.  
+   4. **참조 추가** 대화 상자에서 **솔루션**을 확장한 다음 **프로젝트**를 선택합니다. 그런 다음 **RouterLib** 항목을 선택합니다.  
   
 2. **unittest1.cpp**에 RooterLib 헤더 파일을 포함합니다.  
   
-   1.  **unittest1.cpp**를 엽니다.  
+   1. **unittest1.cpp**를 엽니다.  
   
-   2.  다음 코드를 `#include "CppUnitTest.h"` 줄 아래에 추가합니다.  
+   2. 다음 코드를 `#include "CppUnitTest.h"` 줄 아래에 추가합니다.  
   
        ```cpp  
        #include "..\RooterLib\RooterLib.h"  
@@ -200,9 +200,9 @@ ms.locfileid: "54771197"
   
    테스트 및 코드 프로젝트를 설정하고 코드 프로젝트에서 함수를 실행하는 테스트를 실행할 수 있는지 확인했습니다. 이제 실제 테스트 및 코드 작성을 시작할 수 있습니다.  
   
-##  <a name="BKMK_Iteratively_augment_the_tests_and_make_them_pass"></a> 반복적으로 테스트를 확장하고 통과하도록 만들기  
+## <a name="BKMK_Iteratively_augment_the_tests_and_make_them_pass"></a> 반복적으로 테스트를 확장하고 통과하도록 만들기  
   
-1.  새 테스트 추가:  
+1. 새 테스트 추가:  
   
     ```  
     TEST_METHOD(RangeTest)  
@@ -224,16 +224,16 @@ ms.locfileid: "54771197"
     >   
     >  사용자가 요구 사항을 변경할 경우, 더 이상 올바르지 않은 테스트는 비활성화합니다. 새 테스트를 작성하고, 동일한 증분 방식으로 한 번에 하나씩 작동합니다.  
   
-2.  테스트 탐색기에서 **모두 실행**을 선택합니다.  
+2. 테스트 탐색기에서 **모두 실행**을 선택합니다.  
   
-3.  테스트가 실패합니다.  
+3. 테스트가 실패합니다.  
   
      ![RangeTest 실패](../test/media/ute-cpp-testexplorer-rangetest-fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")  
   
     > [!TIP]
     >  테스트 작성 후 즉시 각 테스트가 실패하는지 확인합니다. 이렇게 하면 결코 실패하지 않는 테스트를 작성하게 되는 간단한 실수를 방지하는 데 도움이 됩니다.  
   
-4.  새 테스트가 통과하도록 테스트 중인 코드를 개선합니다. **RooterLib.cpp**에 다음을 추가합니다.  
+4. 새 테스트가 통과하도록 테스트 중인 코드를 개선합니다. **RooterLib.cpp**에 다음을 추가합니다.  
   
     ```cpp  
     #include <math.h>  
@@ -254,14 +254,14 @@ ms.locfileid: "54771197"
   
     ```  
   
-5.  솔루션을 빌드한 다음 테스트 탐색기에서 **모두 실행**을 선택합니다.  
+5. 솔루션을 빌드한 다음 테스트 탐색기에서 **모두 실행**을 선택합니다.  
   
      두 테스트가 모두 통과합니다.  
   
 > [!TIP]
 >  한 번에 하나씩 테스트를 추가하여 코드를 개발합니다. 각 반복 후 모든 테스트가 통과하는지 확인합니다.  
   
-##  <a name="BKMK_Debug_a_failing_test"></a> 실패한 테스트 디버그  
+## <a name="BKMK_Debug_a_failing_test"></a> 실패한 테스트 디버그  
   
 1. **unittest1.cpp**에 다른 테스트를 추가합니다.  
   
@@ -303,13 +303,13 @@ ms.locfileid: "54771197"
   
 3. 테스트가 실패한 이유를 확인하려면 함수를 단계별로 실행합니다.  
   
-   1.  `SquareRoot` 함수의 시작 부분에 중단점을 설정합니다.  
+   1. `SquareRoot` 함수의 시작 부분에 중단점을 설정합니다.  
   
-   2.  실패한 테스트의 바로 가기 메뉴에서 **선택한 테스트 디버그**를 선택합니다.  
+   2. 실패한 테스트의 바로 가기 메뉴에서 **선택한 테스트 디버그**를 선택합니다.  
   
         중단점에서 실행이 중지되면 코드를 단계별로 실행합니다.  
   
-   3.  예외를 catch하는 코드를 **RooterLib.cpp**에 추가합니다.  
+   3. 예외를 catch하는 코드를 **RooterLib.cpp**에 추가합니다.  
   
        ```  
        #include <stdexcept>  
@@ -325,15 +325,15 @@ ms.locfileid: "54771197"
   
        ```  
   
-   1.  테스트 탐색기에서 **모두 실행**을 선택하여 수정된 메서드를 테스트하고 실패가 재발하지 않는지 확인합니다.  
+   1. 테스트 탐색기에서 **모두 실행**을 선택하여 수정된 메서드를 테스트하고 실패가 재발하지 않는지 확인합니다.  
   
    이제 모든 테스트가 통과합니다.  
   
    ![모든 테스트 통과](../test/media/ute-ult-alltestspass.png "UTE_ULT_AllTestsPass")  
   
-##  <a name="BKMK_Refactor_the_code_without_changing_tests"></a> 테스트를 변경하지 않고 코드 리팩터링  
+## <a name="BKMK_Refactor_the_code_without_changing_tests"></a> 테스트를 변경하지 않고 코드 리팩터링  
   
-1.  `SquareRoot` 함수에서 중앙 계산을 단순화합니다.  
+1. `SquareRoot` 함수에서 중앙 계산을 단순화합니다.  
   
     ```  
     // old code  
@@ -343,7 +343,7 @@ ms.locfileid: "54771197"
   
     ```  
   
-2.  **모두 실행**을 선택하여 리팩터링된 메서드를 테스트하고 실패가 재발하지 않는지 확인합니다.  
+2. **모두 실행**을 선택하여 리팩터링된 메서드를 테스트하고 실패가 재발하지 않는지 확인합니다.  
   
     > [!TIP]
     >  훌륭한 단위 테스트의 안정적인 집합은 코드를 변경할 때 버그를 만들지 않았다는 확신을 줍니다.  

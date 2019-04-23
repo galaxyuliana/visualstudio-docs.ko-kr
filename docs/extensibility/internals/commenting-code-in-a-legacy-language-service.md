@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0aa4d1c3126c22661285f18aac18a63d55468312
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 9c82669ac6d4f32f1525b7e14427ed620a51cfc5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647303"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60102707"
 ---
 # <a name="comment-code-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 주석
 프로그래밍 언어는 일반적으로 주석을 추가 하거나 코드를 주석 처리 하는 수단을 제공 합니다. 주석을 코드에 대 한 추가 정보를 제공 하지만 컴파일 또는 해석 하는 중에 무시 되는 텍스트의 섹션을입니다.
@@ -26,9 +26,9 @@ ms.locfileid: "59647303"
 ## <a name="comment-styles"></a>주석 스타일
 주석의 일반 스타일 두 가지가 있습니다.
 
-1.  한 줄에 주석 인 줄 주석입니다.
+1. 한 줄에 주석 인 줄 주석입니다.
 
-2.  블록 주석에서 주석에서 여러 줄을 포함할 수는 경우입니다.
+2. 블록 주석에서 주석에서 여러 줄을 포함할 수는 경우입니다.
 
 줄 주석은 일반적으로 시작 문자 (또는 문자), 블록 주석 하는 동안 시작 및 끝 문자를 포함할 수 있습니다. 예를 들어 C#에서는 줄 주석 시작 `//`, 블록 주석으로 시작 하 고 `/*` 끝나는 `*/`합니다.
 

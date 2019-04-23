@@ -1,5 +1,5 @@
 ---
-title: '연습: 그래픽 진단을 사용 하 여 계산 셰이더 디버깅 | Microsoft Docs'
+title: '연습: 그래픽 진단을 사용 하 여 계산 셰이더를 디버깅 하려면 | Microsoft Docs'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a
@@ -8,23 +8,23 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 448f9f95da763a17bf7bb54fb222da031403b38a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 2ffdbee23ff363f7c0f1e843c30f09551f38ab3b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713791"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105372"
 ---
-# <a name="walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader"></a>연습: 그래픽 진단을 사용하여 컴퓨팅 셰이더 디버깅
+# <a name="walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader"></a>연습: 그래픽 진단을 사용하여 컴퓨팅 셰이더 디버그
 이 연습에서는 Visual Studio 그래픽 진단 도구를 사용하여 잘못된 결과를 생성하는 컴퓨팅 셰이더를 조사하는 방법을 보여 줍니다.
 
  이 연습에서는 다음 작업을 설명합니다.
 
--   **그래픽 이벤트 목록** 을 사용하여 문제의 잠재적인 원인을 찾습니다.
+- **그래픽 이벤트 목록** 을 사용하여 문제의 잠재적인 원인을 찾습니다.
 
--   **그래픽 이벤트 호출 스택**을 사용하여 DirectCompute `Dispatch` 이벤트에서 실행되는 컴퓨팅 셰이더를 결정합니다.
+- **그래픽 이벤트 호출 스택**을 사용하여 DirectCompute `Dispatch` 이벤트에서 실행되는 컴퓨팅 셰이더를 결정합니다.
 
--   **그래픽 파이프라인 단계** 창과 HLSL 디버거를 사용하여 문제의 원인이 되는 컴퓨팅 셰이더를 검사합니다.
+- **그래픽 파이프라인 단계** 창과 HLSL 디버거를 사용하여 문제의 원인이 되는 컴퓨팅 셰이더를 검사합니다.
 
 ## <a name="scenario"></a>시나리오
  이 시나리오에서는 DirectCompute를 사용하여 시뮬레이션 업데이트에서 컴퓨팅 성능이 가장 많이 필요한 부분을 수행하는 유체 역학 시뮬레이션을 작성했습니다. 앱이 실행되면 데이터 집합 및 UI가 제대로 렌더링되는 것으로 보이지만 시뮬레이션은 예상대로 작동하지 않습니다. 그래픽 진단을 사용하여 앱을 디버그할 수 있도록 그래픽 로그 문제를 포착할 수 있습니다. 이 문제는 앱에서 다음과 같이 보입니다.
@@ -88,7 +88,7 @@ ms.locfileid: "56713791"
 
     ![IntegrateCS 계산 셰이더를 디버깅 합니다. ](media/gfx_diag_demo_compute_shader_fluid_step_7.png "gfx_diag_demo_compute_shader_fluid_step_7")
 
-4. 컴퓨팅 셰이더 디버깅을 중지하려면 **디버그** 도구 모음에서 **디버깅 중지**를 선택합니다(키보드에서 Shift+F5 키).
+4. 계산 셰이더 디버깅을 중지 하는 **디버깅할** 도구 모음 선택 **디버깅 중지** (키보드: Shift + F5)입니다.
 
 5. 그 다음, 두 번째 `Dispatch` 이벤트를 선택하고 이전 단계에서와 마찬가지로 컴퓨팅 셰이더 디버깅을 시작합니다.
 

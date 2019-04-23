@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7ff4aba08b4eaa1d508c3371a3da80b8cac48534
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: bbc09543d0ee0297678d3f205becc55a6b6d7714
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986081"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085935"
 ---
 # <a name="how-to-use-transactions-to-update-the-model"></a>방법: 트랜잭션을 사용하여 모델 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,9 +61,9 @@ catch (Exception ex)
 ## <a name="rolling-back-a-transaction"></a>트랜잭션 롤백  
  저장소를 유지 하거나 트랜잭션이 이전 상태로 되돌아갑니다 않도록, 다음이 전략 중 하나를 사용할 수 있습니다.  
   
-1.  트랜잭션의 범위 내에서 잡히지 않는 예외가 발생 합니다.  
+1. 트랜잭션의 범위 내에서 잡히지 않는 예외가 발생 합니다.  
   
-2.  명시적 트랜잭션을 롤백하십시오.  
+2. 명시적 트랜잭션을 롤백하십시오.  
   
     ```  
     this.Store.TransactionManager.CurrentTransaction.Rollback();  

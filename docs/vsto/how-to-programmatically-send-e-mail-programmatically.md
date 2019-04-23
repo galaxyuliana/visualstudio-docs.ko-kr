@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 280b4f526bad3e0ba646058b3e2410a98ca910fe
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4def747f4077d7b847e7e87082dc4b0b96cf04c9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646007"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110793"
 ---
 # <a name="how-to-programmatically-send-email"></a>방법: 프로그래밍 방식으로 전자 메일 보내기
   이 예제에서는 도메인 이름을 가진 연락처에 전자 메일 메시지를 보냅니다 **example.com** 가 전자 메일 주소입니다.
@@ -33,7 +33,7 @@ ms.locfileid: "56646007"
 ## <a name="compile-the-code"></a>코드 컴파일
  이 예제에는 다음 사항이 필요합니다.
 
--   도메인 이름을 가진 연락처 **example.com** 가 전자 메일 주소입니다.
+- 도메인 이름을 가진 연락처 **example.com** 가 전자 메일 주소입니다.
 
 ## <a name="robust-programming"></a>강력한 프로그래밍
  도메인 이름을 검색 하는 필터 코드를 제거 하지 마세요 **example.com**합니다. 필터를 제거 하는 경우 솔루션이 회원님 연락처의 모든 전자 메일 메시지를 전송 됩니다.

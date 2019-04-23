@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8187fbfce9492623df5d998acd0bb4279b7ce0d2
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: b4cfca45d2ad1979b091c668854990ce9a7c0311
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59657469"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090422"
 ---
 # <a name="design-time-code-generation-by-using-t4-text-templates"></a>T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성
 디자인 타임 T4 텍스트 템플릿을 Visual Studio 프로젝트에서 프로그램 코드 및 기타 파일을 생성할 수 있습니다. 데이터에 따라 생성 되는 코드를 달라 지도록 템플릿을 작성 일반적으로 *모델*합니다. 모델은 파일 또는 응용 프로그램의 요구 사항에 대 한 키 정보가 포함 된 데이터베이스.
@@ -141,9 +141,9 @@ ms.locfileid: "59657469"
 
 #### <a name="to-generate-program-code-or-resources"></a>프로그램 코드 또는 리소스를 생성하려면
 
-1.  .cs, .vb, .resx, .xml 등 적절한 형식의 파일을 생성하도록 출력 지시문을 변경합니다.
+1. .cs, .vb, .resx, .xml 등 적절한 형식의 파일을 생성하도록 출력 지시문을 변경합니다.
 
-2.  필요한 솔루션 코드를 생성하는 코드를 삽입합니다. 예를 들어 클래스에서 3개 정수 필드 선언을 생성하려는 경우 다음 코드를 삽입합니다.
+2. 필요한 솔루션 코드를 생성하는 코드를 삽입합니다. 예를 들어 클래스에서 3개 정수 필드 선언을 생성하려는 경우 다음 코드를 삽입합니다.
 
     ```csharp
 
@@ -176,7 +176,7 @@ ms.locfileid: "59657469"
 
     ```
 
-3.  파일을 저장하고 다음 코드를 포함하는 생성된 파일을 검사합니다.
+3. 파일을 저장하고 다음 코드를 포함하는 생성된 파일을 검사합니다.
 
     ```csharp
     class MyGeneratedClass {

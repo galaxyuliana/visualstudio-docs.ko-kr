@@ -18,12 +18,12 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e739edf3d32b011f915ca0aad69e5148104afc05
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 63356c6eb423ddead54290cc11c865a5102f55f2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984076"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098469"
 ---
 # <a name="how-to-specify-a-publish-page-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 게시 페이지 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,29 +36,29 @@ ms.locfileid: "58984076"
   
 ### <a name="to-specify-a-custom-web-page-for-a-clickonce-application"></a>ClickOnce 응용 프로그램에 대 한 사용자 지정 웹 페이지를 지정 하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  선택 된 **게시** 창입니다.  
+2. 선택 된 **게시** 창입니다.  
   
-3.  클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.  
+3. 클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.  
   
-4.  클릭 **배포**합니다.  
+4. 클릭 **배포**합니다.  
   
-5.  에 **게시 옵션** 대화 상자에서 확인 합니다 **게시 한 후 웹 페이지를 열고 배포** 확인란을 선택 (선택 됩니다 기본적으로).  
+5. 에 **게시 옵션** 대화 상자에서 확인 합니다 **게시 한 후 웹 페이지를 열고 배포** 확인란을 선택 (선택 됩니다 기본적으로).  
   
-6.  에 **배포 웹 페이지:** 상자, 웹 페이지에 대 한 이름을 입력 한 다음 클릭 **확인**합니다.  
+6. 에 **배포 웹 페이지:** 상자, 웹 페이지에 대 한 이름을 입력 한 다음 클릭 **확인**합니다.  
   
 ### <a name="to-prevent-the-publish-page-from-launching-each-time-you-publish"></a>게시 페이지 게시 될 때마다 시작 하지 않도록 설정 하려면  
   
-1.  **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
+1. **솔루션 탐색기**에서 프로젝트를 선택한 상태에서 **프로젝트** 메뉴에서 **속성**을 클릭합니다.  
   
-2.  선택 된 **게시** 창입니다.  
+2. 선택 된 **게시** 창입니다.  
   
-3.  클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.  
+3. 클릭 합니다 **옵션** 버튼을 클릭 합니다 **게시 옵션** 대화 상자.  
   
-4.  클릭 **배포**합니다.  
+4. 클릭 **배포**합니다.  
   
-5.  에 **게시 옵션** 대화 상자, 일반 합니다 **게시 한 후 웹 페이지를 열고 배포** 확인란 합니다.  
+5. 에 **게시 옵션** 대화 상자, 일반 합니다 **게시 한 후 웹 페이지를 열고 배포** 확인란 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   

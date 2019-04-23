@@ -11,12 +11,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a1a2ddeb3ab46bba30a505782fdd18d7df49574d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 1052529bb743091398b55535b231597c6609add9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985575"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110494"
 ---
 # <a name="accessing-models-from-text-templates"></a>텍스트 템플릿에서 모델에 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,15 +57,15 @@ Here is a list of elements in the model:
   
  이 템플릿에 대 한 다음 사항에 유의 합니다.  
   
--   도메인 클래스, 속성 및 관계 DSL 정의에 정의 된 템플릿을 사용할 수 있습니다.  
+- 도메인 클래스, 속성 및 관계 DSL 정의에 정의 된 템플릿을 사용할 수 있습니다.  
   
--   서식 파일에 지정 된 모델 파일을 로드 합니다 `requires` 속성입니다.  
+- 서식 파일에 지정 된 모델 파일을 로드 합니다 `requires` 속성입니다.  
   
--   속성에서 `this` 루트 요소를 포함 합니다. 여기에서 코드 모델의 다른 요소와 이동할 수 있습니다. 속성의 이름은 일반적으로 DSL의 루트 도메인 클래스와 동일 합니다. 이 예제에서는 `this.ExampleModel`입니다.  
+- 속성에서 `this` 루트 요소를 포함 합니다. 여기에서 코드 모델의 다른 요소와 이동할 수 있습니다. 속성의 이름은 일반적으로 DSL의 루트 도메인 클래스와 동일 합니다. 이 예제에서는 `this.ExampleModel`입니다.  
   
--   코드 조각을 작성 되는 언어는 C#, 하지만 모든 종류의 텍스트를 생성할 수 있습니다. 또는 코드를 작성할 수 있습니다 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 속성을 추가 하 여 `language="VB"` 에 `template` 지시문입니다.  
+- 코드 조각을 작성 되는 언어는 C#, 하지만 모든 종류의 텍스트를 생성할 수 있습니다. 또는 코드를 작성할 수 있습니다 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 속성을 추가 하 여 `language="VB"` 에 `template` 지시문입니다.  
   
--   서식 파일을 디버깅 하려면 추가 `debug="true"` 에 `template` 지시문입니다. 서식 파일의 다른 인스턴스에서 열립니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 예외가 발생 합니다. 코드에서 특정 지점에서 디버거를 중단 하려는 경우 insert 문 `System.Diagnostics.Debugger.Break();`  
+- 서식 파일을 디버깅 하려면 추가 `debug="true"` 에 `template` 지시문입니다. 서식 파일의 다른 인스턴스에서 열립니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 예외가 발생 합니다. 코드에서 특정 지점에서 디버거를 중단 하려는 경우 insert 문 `System.Diagnostics.Debugger.Break();`  
   
      자세한 내용은 [T4 텍스트 템플릿 디버깅](../modeling/debugging-a-t4-text-template.md)합니다.  
   
@@ -80,9 +80,9 @@ Here is a list of elements in the model:
   
  DSL 지시문 프로세서는 두 가지 주요 작업을 수행합니다.  
   
--   효과적으로 DSL을 참조 하는 서식 파일에 어셈블리 및 import 지시문을 삽입 합니다. 이렇게 하면 템플릿 코드에서 도메인 클래스를 사용할 수 있습니다.  
+- 효과적으로 DSL을 참조 하는 서식 파일에 어셈블리 및 import 지시문을 삽입 합니다. 이렇게 하면 템플릿 코드에서 도메인 클래스를 사용할 수 있습니다.  
   
--   지정 하는 파일을 로드를 `requires` 매개 변수 속성을 설정 하 고 `this` 참조 하는 로드 된 모델의 루트 요소입니다.  
+- 지정 하는 파일을 로드를 `requires` 매개 변수 속성을 설정 하 고 `this` 참조 하는 로드 된 모델의 루트 요소입니다.  
   
 ## <a name="validating-the-model-before-running-the-template"></a>서식 파일을 실행 하기 전에 모델 유효성 검사  
  템플릿 실행 되기 전에 유효성을 검사 하려면 모델을 발생할 수 있습니다.  
@@ -100,7 +100,7 @@ Here is a list of elements in the model:
   
    오류가 있으면 오류 창에 보고 됩니다 하 고 결과 파일에는 오류 메시지가 포함 됩니다.  
   
-##  <a name="Multiple"></a> 텍스트 템플릿에서 여러 모델에 액세스  
+## <a name="Multiple"></a> 텍스트 템플릿에서 여러 모델에 액세스  
   
 > [!NOTE]
 >  이 메서드는 동일한 템플릿에서 여러 모델을 읽을 수 있지만 ModelBus 참조를 지원 하지 않습니다. ModelBus 참조 하 여 상호 연결 하는 모델, 참조 [텍스트 템플릿에서 Visual Studio ModelBus를 사용 하 여](../modeling/using-visual-studio-modelbus-in-a-text-template.md)입니다.  

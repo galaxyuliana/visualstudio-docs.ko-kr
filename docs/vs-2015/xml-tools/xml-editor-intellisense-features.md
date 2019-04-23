@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 64c7bc0f5b9aa9b23aa940583cebcd3e202e6487
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 9c691eea7417e882ee3b73e9f2adc538714b486a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653647"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094668"
 ---
 # <a name="xml-editor-intellisense-features"></a>XML 편집기 IntelliSense 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,19 +85,19 @@ XML 편집기에서는 Visual Studio에서 제공하는 다른 언어 편집기�
   
  XML 편집기에서는 다음 항목에 대해 이 작업을 수행합니다.  
   
--   일치하는 시작 태그와 끝 태그  
+- 일치하는 시작 태그와 끝 태그  
   
--   쌍 "\<" 또는 ">" 꺾쇠 괄호입니다.  
+- 쌍 "\<" 또는 ">" 꺾쇠 괄호입니다.  
   
--   주석의 시작과 끝  
+- 주석의 시작과 끝  
   
--   처리 명령의 시작과 끝  
+- 처리 명령의 시작과 끝  
   
--   CDATA 블록의 시작과 끝  
+- CDATA 블록의 시작과 끝  
   
--   DTD 선언의 시작과 끝  
+- DTD 선언의 시작과 끝  
   
--   특성의 여는 따옴표와 닫는 따옴표  
+- 특성의 여는 따옴표와 닫는 따옴표  
   
 ## <a name="modifying-the-intellisense-options"></a>IntelliSense 옵션 수정  
  IntelliSense 및 자동 완성 기능은 기본적으로 활성화되어 있습니다. 그러나 도구-옵션 설정을 수정하여 이를 변경할 수 있습니다.  
@@ -112,11 +112,11 @@ XML 편집기에서는 Visual Studio에서 제공하는 다른 언어 편집기�
   
 #### <a name="to-change-the-auto-completion-behavior"></a>자동 완성 동작을 변경하려면  
   
-1.  **도구** 메뉴에서 **옵션**을 선택합니다.  
+1. **도구** 메뉴에서 **옵션**을 선택합니다.  
   
-2.  확장 **텍스트 편집기**를 확장 하 고 **XML**를 선택 하 고 **기타**.  
+2. 확장 **텍스트 편집기**를 확장 하 고 **XML**를 선택 하 고 **기타**.  
   
-3.  아무 것도 변경 합니다 **자동 삽입** 섹션을 클릭 **확인**합니다.  
+3. 아무 것도 변경 합니다 **자동 삽입** 섹션을 클릭 **확인**합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [XML 편집기](../xml-tools/xml-editor.md)   

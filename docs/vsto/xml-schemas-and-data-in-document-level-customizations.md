@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d2959707048cb3223b6866c3c8aa4c04cc146077
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: eb56d2f9b6d2d5c08956d48f4f53a46305d9fd26
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54875453"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117931"
 ---
 # <a name="xml-schemas-and-data-in-document-level-customizations"></a>문서 수준 사용자 지정의 XML 스키마 및 데이터
   **중요 한** Microsoft Word에 대 한이 항목의 설정 정보가 혜택 및 개인 및 United States 및 해당 지역 외부에 위치한는 또는 사용 하는 조직의 사용에 단독으로 표시 되었거나 개발 실행 되는 프로그램, Microsoft Word 2010 년 1 월, Microsoft 구현의 특정 기능을 제거 하는 경우 하기 전에 Microsoft에서 사용이 허가 된 제품에서에서 관련 된 사용자 지정 XML Microsoft Word입니다. Microsoft Word에 대 한이 정보를 읽거나 개인 이나 조직에서는 미국에 있는 Microsoft Word 2010 년 1 월 10 일 후 Microsoft에서 사용이 허가 된 제품에서 실행 되는 프로그램을 개발 하거나를 사용 하는 해당 지역에서 사용 될 수 있습니다. ; 이러한 제품 구매 및 미국 이외의 용도로 사용이 허가 된 날짜 이전에 사용이 허가 된 제품으로 동일한 작동 하지 않습니다.
@@ -40,16 +40,16 @@ ms.locfileid: "54875453"
 
  두 가지 주요 개체:
 
--   XML 스키마 (XSD 파일)입니다. 통합 문서에서 모든 스키마에 대 한 Visual Studio 프로젝트에 스키마를 추가합니다. XSD 확장을 사용 하 여 프로젝트 항목으로 표시 됨 **솔루션 탐색기**합니다.
+- XML 스키마 (XSD 파일)입니다. 통합 문서에서 모든 스키마에 대 한 Visual Studio 프로젝트에 스키마를 추가합니다. XSD 확장을 사용 하 여 프로젝트 항목으로 표시 됨 **솔루션 탐색기**합니다.
 
--   형식화된 <xref:System.Data.DataSet> 클래스. 이 클래스는 스키마를 기반으로 생성 됩니다. 이 데이터 집합 클래스는 나타나지 **클래스 뷰**합니다.
+- 형식화된 <xref:System.Data.DataSet> 클래스. 이 클래스는 스키마를 기반으로 생성 됩니다. 이 데이터 집합 클래스는 나타나지 **클래스 뷰**합니다.
 
 ## <a name="objects-created-when-schema-elements-are-mapped-to-excel-worksheets"></a>스키마 요소는 Excel 워크시트에 매핑될 때 생성 된 개체
  스키마 요소를 매핑하는 경우는 **XML 원본** 워크시트, Visual Studio에 작업 창에서 자동으로 여러 개체를 만든 하 고 프로젝트에 추가 합니다.
 
--   컨트롤입니다. 통합 문서에서 매핑된 모든 개체에 대 한는 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 제어 (반복 되지 않는 스키마 요소) 또는 <xref:Microsoft.Office.Tools.Excel.ListObject> 제어 (반복 되는 스키마 요소) 프로그래밍 모델에 만들어집니다. <xref:Microsoft.Office.Tools.Excel.ListObject> 만 통합 문서에서 매핑 및 매핑된 개체를 삭제 하 여 컨트롤을 삭제할 수 있습니다. 컨트롤에 대 한 자세한 내용은 참조 하세요. [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)합니다.
+- 컨트롤입니다. 통합 문서에서 매핑된 모든 개체에 대 한는 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 제어 (반복 되지 않는 스키마 요소) 또는 <xref:Microsoft.Office.Tools.Excel.ListObject> 제어 (반복 되는 스키마 요소) 프로그래밍 모델에 만들어집니다. <xref:Microsoft.Office.Tools.Excel.ListObject> 만 통합 문서에서 매핑 및 매핑된 개체를 삭제 하 여 컨트롤을 삭제할 수 있습니다. 컨트롤에 대 한 자세한 내용은 참조 하세요. [호스트 항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)합니다.
 
--   BindingSource. 만들 때를 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 워크시트에 반복 되지 않는 스키마 요소를 매핑하여를 <xref:System.Windows.Forms.BindingSource> 만들어집니다 및 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 컨트롤이 바인딩되는 <xref:System.Windows.Forms.BindingSource>합니다. 바인딩해야 합니다 <xref:System.Windows.Forms.BindingSource> 형식화 된 인스턴스와 같은 문서에 매핑된 스키마와 일치 하는 데이터 원본 인스턴스에 <xref:System.Data.DataSet> 생성 된 클래스입니다. 설정 하 여 바인딩을 만들 합니다 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 및 <xref:System.Windows.Forms.BindingSource.DataMember%2A> 속성에서 노출 되는 합니다 **속성** 창입니다.
+- BindingSource. 만들 때를 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 워크시트에 반복 되지 않는 스키마 요소를 매핑하여를 <xref:System.Windows.Forms.BindingSource> 만들어집니다 및 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 컨트롤이 바인딩되는 <xref:System.Windows.Forms.BindingSource>합니다. 바인딩해야 합니다 <xref:System.Windows.Forms.BindingSource> 형식화 된 인스턴스와 같은 문서에 매핑된 스키마와 일치 하는 데이터 원본 인스턴스에 <xref:System.Data.DataSet> 생성 된 클래스입니다. 설정 하 여 바인딩을 만들 합니다 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 및 <xref:System.Windows.Forms.BindingSource.DataMember%2A> 속성에서 노출 되는 합니다 **속성** 창입니다.
 
     > [!NOTE]
     >  합니다 <xref:System.Windows.Forms.BindingSource> 자동으로 만들어지지는지 않습니다 <xref:Microsoft.Office.Tools.Excel.ListObject> 개체입니다. 에 수동으로 바인딩해야 합니다 <xref:Microsoft.Office.Tools.Excel.ListObject> 설정 하 여 데이터 원본에는 <xref:System.Windows.Forms.BindingSource.DataSource%2A> 및 <xref:System.Windows.Forms.BindingSource.DataMember%2A> 속성에는 **속성** 창.

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5a39c92e60cc1d7e2c7cb02b2e16c59d653db2c8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: d3745cd73e09031b747b6bd17973abb97196ce46
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56678217"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105164"
 ---
 # <a name="updating-the-user-interface"></a>사용자 인터페이스 업데이트
 명령을 구현한 후에 새 명령의 상태를 사용 하 여 사용자 인터페이스를 업데이트 하는 코드를 추가할 수 있습니다.
@@ -25,9 +25,9 @@ ms.locfileid: "56678217"
 
 ### <a name="to-update-the-ui"></a>UI를 업데이트 하려면
 
-1.  다음 단계 중 하나를 수행합니다.
+1. 다음 단계 중 하나를 수행합니다.
 
-    -   <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.UpdateCommandUI%2A> 메서드를 호출합니다.
+    - <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.UpdateCommandUI%2A> 메서드를 호출합니다.
 
          <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> 인터페이스에서 가져올 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> 서비스를 다음과 같이 합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "56678217"
 
          하는 경우의 매개 변수를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.UpdateCommandUI%2A> 0이 아닌 (`TRUE`)를 동기적으로 한 즉시 업데이트가 수행 됩니다. 0을 전달 하는 것이 좋습니다 (`FALSE`) 좋은 성능을 유지 하기 위해이 매개 변수에 대 한 합니다. 캐시 하지 않도록 하려는 경우 적용 된 `DontCache` .vsct 파일에서 명령을 만들 때 플래그입니다. 그럼에도 불구 하 고 플래그를 신중 하 게 사용 또는 성능 저하 될 수 있습니다. 명령 플래그에 대 한 자세한 내용은 참조는 [Command Flag 요소](../extensibility/command-flag-element.md) 설명서.
 
-    -   창에서 바로 활성화 모델을 사용 하 여 ActiveX 컨트롤을 호스트 하는 vspackage에서 더 편리할 수 있습니다 사용 하 여 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager.UpdateUI%2A> 메서드. <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.UpdateCommandUI%2A> 의 메서드를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> 인터페이스 및 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager.UpdateUI%2A> 에서 메서드를 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> 인터페이스는 기능적으로 동일 합니다. 모두 다시 모든 명령의 상태를 쿼리하려면 환경을 발생 합니다. 일반적으로 업데이트를 즉시 수행 되지 않습니다. 대신, 업데이트 하는 유휴 시간까지 지연 됩니다. 셸 좋은 성능을 유지 하기 위해 명령 상태를 캐시 합니다. 캐시 하지 않도록 하려는 경우 적용 된 `DontCache` .vsct 파일에서 명령을 만들 때 플래그입니다. 그럼에도 불구 하 고 사용 하 여 플래그를 신중 하 게 성능 저하 될 수 있습니다.
+    - 창에서 바로 활성화 모델을 사용 하 여 ActiveX 컨트롤을 호스트 하는 vspackage에서 더 편리할 수 있습니다 사용 하 여 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager.UpdateUI%2A> 메서드. <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.UpdateCommandUI%2A> 의 메서드를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> 인터페이스 및 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager.UpdateUI%2A> 에서 메서드를 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> 인터페이스는 기능적으로 동일 합니다. 모두 다시 모든 명령의 상태를 쿼리하려면 환경을 발생 합니다. 일반적으로 업데이트를 즉시 수행 되지 않습니다. 대신, 업데이트 하는 유휴 시간까지 지연 됩니다. 셸 좋은 성능을 유지 하기 위해 명령 상태를 캐시 합니다. 캐시 하지 않도록 하려는 경우 적용 된 `DontCache` .vsct 파일에서 명령을 만들 때 플래그입니다. 그럼에도 불구 하 고 사용 하 여 플래그를 신중 하 게 성능 저하 될 수 있습니다.
 
          통지를 가져올 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> 인터페이스를 호출 하 여는 `QueryInterface` 메서드는 <xref:Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager> 개체 또는에서 인터페이스를 가져오는 <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> 서비스.
 

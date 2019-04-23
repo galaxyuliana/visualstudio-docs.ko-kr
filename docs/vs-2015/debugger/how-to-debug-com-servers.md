@@ -23,12 +23,12 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a7548b100e5bbcccd75a3cd5e7d94d6e7f72ed48
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3552ff1ffb5d6b3e3789aebd3a8903bf82a66b16
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984014"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60088316"
 ---
 # <a name="how-to-debug-com-servers"></a>방법: COM 서버 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,11 +39,11 @@ COM 서버 응용 프로그램을 디버깅할 경우 쉽게 해결할 수 없�
   
 ### <a name="to-debug-a-server-application-without-container-information"></a>컨테이너 정보 없이 서버 응용 프로그램을 디버깅하려면  
   
-1.  일반적인 응용 프로그램처럼 서버 디버깅을 시작합니다.  
+1. 일반적인 응용 프로그램처럼 서버 디버깅을 시작합니다.  
   
-2.  원하는 대로 중단점을 설정합니다.  
+2. 원하는 대로 중단점을 설정합니다.  
   
-3.  컨테이너 응용 프로그램을 시작합니다.  
+3. 컨테이너 응용 프로그램을 시작합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [COM 및 ActiveX 디버깅](../debugger/com-and-activex-debugging.md)   

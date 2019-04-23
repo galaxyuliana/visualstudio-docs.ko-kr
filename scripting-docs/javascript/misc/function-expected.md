@@ -14,12 +14,12 @@ ms.assetid: f62ade94-9f6f-4832-9b9b-49a06a385bbe
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 41d1ecc982dcdc4d494fc167e4784e9121bec15e
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 4442143b2766ed3608a852d0f811a6b943fd19df
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843937"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117057"
 ---
 # <a name="function-expected"></a>함수가 필요합니다.
 중 하나를 호출 하려고 하거나 합니다 **함수 프로토타입** 되지 않은 개체의 메서드는 `Function` 개체, 함수 호출 컨텍스트의 개체를 사용 합니다. 때문에 다음 코드에서이 오류를 생성 하는 예를 들어 **예제에서는** 함수가 아닙니다.  
@@ -31,9 +31,9 @@ var x = example();           // Try and call example as if it were a function.
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
--   호출한 **함수 프로토타입에** 메서드를 `Function` 개체입니다.  
+- 호출한 **함수 프로토타입에** 메서드를 `Function` 개체입니다.  
   
--   함수 호출 연산자를 사용 해야 `()` 만 함수를 호출 합니다.  
+- 함수 호출 연산자를 사용 해야 `()` 만 함수를 호출 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [함수 개체](../../javascript/reference/function-object-javascript.md)   

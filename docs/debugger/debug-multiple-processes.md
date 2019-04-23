@@ -19,14 +19,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5d9c592663e32b8050644d459b8db45f3f0f5307
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 160e219b6fc2ab314f8d0dd91043c18101f2c3a5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630745"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097143"
 ---
-# <a name="debug-multiple-processes-c-visual-basic-c"></a>여러 프로세스 디버깅 (C#, Visual Basic, c + +)
+# <a name="debug-multiple-processes-c-visual-basic-c"></a>여러 프로세스 디버깅 (C#, Visual Basic의 경우 C++)
 
 Visual Studio는 여러 프로세스가 포함 된 솔루션을 디버깅할 수 있습니다. 시작 하거나 수 있습니다 및 프로세스 간 전환, 중단, 계속 및 원본, 디버깅을 중지, 및 end를 단계별로 개별 프로세스에서 분리 합니다.
 
@@ -48,11 +48,11 @@ Visual Studio 솔루션에서 둘 이상의 프로젝트를 독립적으로 실�
 
 1. 선택 **현재 선택 영역**를 **단일 시작 프로젝트** 및 프로젝트 파일 또는 **여러 개의 시작 프로젝트**합니다.
 
-   선택 하는 경우 **여러 개의 시작 프로젝트**, 각 프로젝트에 대해 수행할 시작 순서 및 동작을 변경할 수 있습니다: **시작**를 **디버깅 하지 않고 시작**, 또는 **None**합니다.
+   선택 하는 경우 **여러 개의 시작 프로젝트**, 각 프로젝트에 대해 수행할 시작 순서 및 동작을 변경할 수 있습니다. **시작**하십시오 **디버깅 하지 않고 시작**, 또는 **없음**합니다.
 
 1. 선택 **Apply**, 또는 **확인** 적용 하 고 대화 상자를 닫습니다.
 
-###  <a name="BKMK_Attach_to_a_process"></a> 프로세스에 연결
+### <a name="BKMK_Attach_to_a_process"></a> 프로세스에 연결
 
 디버거 수도 *연결* 원격 장치에서을 비롯해 Visual Studio 외부의 프로세스에서 실행 되는 앱입니다. 앱에 연결한 후 Visual Studio 디버거를 사용할 수 있습니다. 디버깅 기능이 제한 될 수 있습니다. 디버그 정보를 사용 하 여 앱을 빌드할 여부, 앱의 소스 코드에 액세스할 수 있는지 여부, JIT 컴파일러가 디버그 정보를 추적 하는 여부에 따라 다릅니다.
 
@@ -69,7 +69,7 @@ Visual Studio 솔루션에서 둘 이상의 프로젝트를 독립적으로 실�
 >[!NOTE]
 >자식 프로젝트가 동일한 솔루션에 있는 경우에도 디버거는 디버깅된 프로세스에서 시작되는 자식 프로세스에 자동으로 연결되지 않습니다. 자식 프로세스를 디버깅 하려면이 시작 된 후 자식 프로세스에 연결 하거나 새 디버거 인스턴스에서 자식 프로세스를 시작 하려면 Windows 레지스트리 편집기를 구성 하십시오.
 
-###  <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> 레지스트리 편집기를 사용 하 여 디버거에서 프로세스를 자동으로 시작
+### <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> 레지스트리 편집기를 사용 하 여 디버거에서 프로세스를 자동으로 시작
 
 경우에 따라 다른 프로세스에서 실행 되는 앱에 대 한 시작 코드를 디버그 해야 합니다. 서비스 및 사용자 지정 설치 작업을 예로 들 수 있습니다. 디버거를 시작 하 고 앱에 자동으로 연결을 사용할 수 있습니다.
 
@@ -93,7 +93,7 @@ Visual Studio 솔루션에서 둘 이상의 프로젝트를 독립적으로 실�
 
    ![Regedit.exe의 자동 디버거 시작 항목](../debugger/media/dbg_execution_automaticstart_result.png "regedit.exe의 자동 디버거 시작 항목")
 
-##  <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> 여러 프로세스를 사용 하 여 디버그
+## <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> 여러 프로세스를 사용 하 여 디버그
 <a name="BKMK_Configure_the_execution_behavior_of_multiple_processes"></a>
 
 여러 프로세스를 사용 하 여 앱을 디버깅할 때 중단, 단계별 실행 및 계속 디버거 명령을 모든 프로세스에 영향을 기본적으로. 예를 들어, 프로세스를 중단점에서 일시 중지 하면 다른 모든 프로세스의 실행도 일시 중단 됩니다. 이 기본 동작을 변경하여 실행 명령의 대상을 더욱 세부적으로 제어할 수 있습니다.
@@ -102,7 +102,7 @@ Visual Studio 솔루션에서 둘 이상의 프로젝트를 독립적으로 실�
 
 - 아래 **도구가** (또는 **디버그**) > **옵션** > **디버깅** > **일반**을 선택 하거나 선택을 취소 합니다 **한 프로세스가 중단 될 때 모든 프로세스 중단** 확인란 합니다.
 
-###  <a name="BKMK_Break__step__and_continue_commands"></a> 명령 중단, 단계별 실행 및 계속 실행
+### <a name="BKMK_Break__step__and_continue_commands"></a> 명령 중단, 단계별 실행 및 계속 실행
 
 다음 표에서 디버깅 동작 때 명령 합니다 **한 프로세스가 중단 될 때 모든 프로세스 중단** 확인란을 선택 또는 선택 취소:
 
@@ -117,12 +117,12 @@ Visual Studio 솔루션에서 둘 이상의 프로젝트를 독립적으로 실�
 |**프로세스** 창 > **프로세스 중단**|N/A|선택한 프로세스가 중단됩니다.<br />다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|
 |**프로세스** 창 > **프로세스 계속**|N/A|선택한 프로세스가 다시 시작됩니다.<br />다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|
 
-###  <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> 소스 및 기호(.pdb) 파일 찾기
+### <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> 소스 및 기호(.pdb) 파일 찾기
 프로세스의 소스 코드를 탐색 하려면 디버거에서 해당 소스 파일과 기호 파일에 대 한 액세스를 해야 합니다. 자세한 내용은 [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)을 참조하세요.
 
-프로세스에 대 한 파일에 액세스할 수 없는 경우 사용 하 여 탐색할 수 있습니다 합니다 **디스어셈블리** 창입니다. 자세한 내용은 [방법: 디스어셈블리 창을 사용 하 여](../debugger/how-to-use-the-disassembly-window.md)입니다.
+프로세스에 대 한 파일에 액세스할 수 없는 경우 사용 하 여 탐색할 수 있습니다 합니다 **디스어셈블리** 창입니다. 자세한 내용은 [방법: 디스어셈블리 창 사용](../debugger/how-to-use-the-disassembly-window.md)을 참조하세요.
 
-###  <a name="BKMK_Switch_between_processes"></a> 프로세스 간 전환
+### <a name="BKMK_Switch_between_processes"></a> 프로세스 간 전환
 
 을 디버깅할 경우 언제 든 지 프로세스 하나만 디버거에서 활성화 되에서는 여러 프로세스에 연결할 수 있습니다. **디버그 위치** 도구 모음이나 **프로세스** 창에서 활성 또는 *현재* 프로세스를 설정할 수 있습니다. 프로세스 간에 전환하려면 두 프로세스가 모두 중단 모드여야 합니다.
 
@@ -172,7 +172,7 @@ Visual Studio 솔루션의 프로세스 디버깅을 시작 하는 경우 다음
 |**프로세스** 창 > **프로세스 종료**|선택한 프로세스가 종료 됩니다.<br />다른 프로세스가 기존 상태(일시 중단됨 또는 실행 중)를 유지합니다.|
 |**프로세스** 창 > **디버깅 중지 시 분리**|선택 하면 **디버깅할** > **디버깅 중지** 선택한 프로세스에서 분리 합니다. <br />을 선택 하지 **디버깅할** > **디버깅 중지** 선택한 프로세스를 종료 합니다. |
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)

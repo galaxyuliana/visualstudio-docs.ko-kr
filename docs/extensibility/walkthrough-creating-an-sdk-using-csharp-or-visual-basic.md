@@ -8,25 +8,25 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bc41b980b012254ac263e027f1dd0361405c8366
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: e61da4205840f1831f956a31f5ebc00525b8cafc
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954010"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086639"
 ---
 # <a name="walkthrough-create-an-sdk-using-c-or-visual-basic"></a>연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic
 이 연습에서는 Visual C#을 사용 하 여 간단한 수학 라이브러리 SDK를 만들고 다음 SDK는 Visual Studio 확장 (VSIX)로 패키지 하는 방법에 알아봅니다. 다음 절차를 완료 합니다.
 
--   [SimpleMath Windows 런타임 구성 요소를 만들려면](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createClassLibrary)
+- [SimpleMath Windows 런타임 구성 요소를 만들려면](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createClassLibrary)
 
--   [SimpleMathVSIX 확장 프로젝트를 만들려면](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createVSIX)
--   [클래스 라이브러리를 사용 하는 샘플 앱을 만들려면](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createSample)
+- [SimpleMathVSIX 확장 프로젝트를 만들려면](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createVSIX)
+- [클래스 라이브러리를 사용 하는 샘플 앱을 만들려면](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createSample)
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 수행하려면 Visual Studio SDK를 설치해야 합니다. 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.
 
-##  <a name="createClassLibrary"></a> SimpleMath Windows 런타임 구성 요소를 만들려면
+## <a name="createClassLibrary"></a> SimpleMath Windows 런타임 구성 요소를 만들려면
 
 1. 메뉴 모음에서 선택 **파일** > **새로 만들기** > **새 프로젝트**합니다.
 
@@ -54,25 +54,25 @@ ms.locfileid: "56954010"
 
 9. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **SimpleMath** 프로젝트 노드를 선택한 후 **빌드**합니다.
 
-##  <a name="createVSIX"></a> SimpleMathVSIX 확장 프로젝트를 만들려면
+## <a name="createVSIX"></a> SimpleMathVSIX 확장 프로젝트를 만들려면
 
-1.  에 대 한 바로 가기 메뉴를 **솔루션 'SimpleMath'** 노드를 선택 **추가** > **새 프로젝트**합니다.
+1. 에 대 한 바로 가기 메뉴를 **솔루션 'SimpleMath'** 노드를 선택 **추가** > **새 프로젝트**합니다.
 
-2.  템플릿 목록에서 확장 **Visual C#** 또는 **Visual Basic**를 선택 합니다 **확장성** 노드를 선택한 후 합니다 **VSIX 프로젝트** 템플릿입니다.
+2. 템플릿 목록에서 확장 **Visual C#** 또는 **Visual Basic**를 선택 합니다 **확장성** 노드를 선택한 후 합니다 **VSIX 프로젝트** 템플릿입니다.
 
-3.  에 **이름** 상자에서 지정 **SimpleMathVSIX**를 선택한 후는 **확인** 단추입니다.
+3. 에 **이름** 상자에서 지정 **SimpleMathVSIX**를 선택한 후는 **확인** 단추입니다.
 
-4.  **솔루션 탐색기**를 선택 합니다 **source.extension.vsixmanifest** 항목입니다.
+4. **솔루션 탐색기**를 선택 합니다 **source.extension.vsixmanifest** 항목입니다.
 
-5.  메뉴 모음에서 **보기** > **코드**를 차례로 선택합니다.
+5. 메뉴 모음에서 **보기** > **코드**를 차례로 선택합니다.
 
-6.  다음 XML의 기존 XML로 바꿉니다.
+6. 다음 XML의 기존 XML로 바꿉니다.
 
      [!code-xml[CreatingAnSDKUsingWinRT#1](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_2.xml)]
 
-7.  **솔루션 탐색기**를 선택 합니다 **SimpleMathVSIX** 프로젝트입니다.
+7. **솔루션 탐색기**를 선택 합니다 **SimpleMathVSIX** 프로젝트입니다.
 
-8.  메뉴 모음에서 **프로젝트** > **새 항목 추가**를 선택합니다.
+8. 메뉴 모음에서 **프로젝트** > **새 항목 추가**를 선택합니다.
 
 9. 목록의 **공통 항목**를 확장 하 고 **데이터**를 선택한 후 **XML 파일**.
 
@@ -83,6 +83,7 @@ ms.locfileid: "56954010"
 12. 파일의 내용을 다음 XML로 바꿉니다.
 
     **C#**
+
     ```xml
     <FileList
       DisplayName="WinRT Math Library (CS)"
@@ -95,6 +96,7 @@ ms.locfileid: "56954010"
     ```
 
     **Visual Basic**
+
     ```xml
     <FileList
       DisplayName="WinRT Math Library (VB)"
@@ -149,7 +151,7 @@ ms.locfileid: "56954010"
 
 30. 선택 된 **설치** 단추, 설치가 완료 되기를 기다린 후 다음 Visual Studio를 다시 시작 합니다.
 
-##  <a name="createSample"></a> 클래스 라이브러리를 사용 하는 샘플 앱을 만들려면
+## <a name="createSample"></a> 클래스 라이브러리를 사용 하는 샘플 앱을 만들려면
 
 1. 메뉴 모음에서 선택 **파일** > **새로 만들기** > **새 프로젝트**합니다.
 
@@ -176,6 +178,7 @@ ms.locfileid: "56954010"
 10. **솔루션 탐색기**오픈 **MainPage.xaml**를 다음 XAML을 사용 하 여 해당 내용을 바꿉니다.
 
     **C#**
+
     ```xml
     <Page
         x:Class="WinRTMathTestCS.MainPage"
@@ -201,6 +204,7 @@ ms.locfileid: "56954010"
     ```
 
     **Visual Basic**
+
     ```xml
     <Page
         x:Class="WinRTMathTest.MainPage"
@@ -239,6 +243,6 @@ ms.locfileid: "56954010"
     성공적으로 만들고 확장명 SDK를 사용 합니다.
 
 ## <a name="see-also"></a>참고자료
-- [연습: C + +를 사용 하 여 SDK 만들기](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
+- [연습: 사용 하 여 SDK 만들기C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
 - [연습: JavaScript를 사용 하 여 SDK 만들기](../extensibility/walkthrough-creating-an-sdk-using-javascript.md)
 - [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)

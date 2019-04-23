@@ -7,12 +7,12 @@ author: gregvanl
 ms.author: gregvanl
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8a0de1ccf4a75bb10ae120e9237ceb176a3794a1
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 99b23c223d91678f03a52910ed4516be0839a338
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680986"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60113965"
 ---
 # <a name="how-to-use-asyncpackage-to-load-vspackages-in-the-background"></a>방법: AsyncPackage를 사용 하 여 백그라운드에서 Vspackage를 로드 합니다.
 디스크 I/O 로드 되 고 VS 패키지 초기화 될 수 있습니다. 이러한 I/O UI 스레드에서 발생 하는 경우에 응답성 문제를 발생할 수 있습니다. Visual Studio 2015에 도입 된이 문제를 해결 합니다 <xref:Microsoft.VisualStudio.Shell.AsyncPackage> 백그라운드 스레드에서 로드 패키지를 사용 하도록 설정 하는 클래스입니다.
@@ -75,11 +75,11 @@ public sealed class TestPackage : AsyncPackage
 ## <a name="convert-an-existing-vspackage-to-asyncpackage"></a>기존 VSPackage AsyncPackage 변환
  작업의 대부분은 새 동일 **AsyncPackage**합니다. 위의 1 ~ 5 단계를 수행 합니다. 또한 수행할 다음 권장 사항 사용 하 여 특별 한 주의가 필요 합니다.
 
-1.  제거 해야 합니다 `Initialize` 패키지에서 제공 되었던 재정의 합니다.
+1. 제거 해야 합니다 `Initialize` 패키지에서 제공 되었던 재정의 합니다.
 
-2.  교착 상태를 방지 합니다. 있을 수 있습니다 Rpc 코드에서 숨겨집니다. 이제 백그라운드 스레드에서 발생합니다. 있는지 확인 하는 경우 RPC (예를 들어 **GetService**) 중 하나 (1) 주 스레드가 전환 해야, (2) 사용 하 여 비동기 버전의 경우 API가 있습니다 (예를 들어, **GetServiceAsync**).
+2. 교착 상태를 방지 합니다. 있을 수 있습니다 Rpc 코드에서 숨겨집니다. 이제 백그라운드 스레드에서 발생합니다. 있는지 확인 하는 경우 RPC (예를 들어 **GetService**) 중 하나 (1) 주 스레드가 전환 해야, (2) 사용 하 여 비동기 버전의 경우 API가 있습니다 (예를 들어, **GetServiceAsync**).
 
-3.  너무 자주 스레드 간에 전환 하지 마세요. 로드 하는 시간을 줄이기 위해 백그라운드 스레드에서 발생할 수 있는 작업을 지역화 하려고 합니다.
+3. 너무 자주 스레드 간에 전환 하지 마세요. 로드 하는 시간을 줄이기 위해 백그라운드 스레드에서 발생할 수 있는 작업을 지역화 하려고 합니다.
 
 ## <a name="querying-services-from-asyncpackage"></a>AsyncPackage에서 서비스를 쿼리합니다.
  **AsyncPackage** 수도 있고 호출자에 따라 비동기적으로 로드 되지 않을 수 있습니다. 예를 들어,

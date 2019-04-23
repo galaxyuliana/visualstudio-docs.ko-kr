@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: 3ca198b88a8e42ba937ceb2426edd23793765b03
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: cdde44b5d960a3f9ef462e06b55260477a8933c0
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656208"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60097078"
 ---
 # <a name="install-and-configure-tools-to-build-using-ios"></a>Install and Configure Tools to Build using iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,47 +42,47 @@ ms.locfileid: "59656208"
   
  [Configure the remote agent on the Mac](#ConfigureMac)  
   
-##  <a name="Prerequisites"></a> 필수 조건  
+## <a name="Prerequisites"></a> 필수 조건  
  원격 에이전트를 설치 및 사용하여 iOS용 코드를 개발하려면 다음 필수 조건이 있어야 합니다.  
   
--   OS X Mavericks 이상을 실행하는 Mac 컴퓨터  
+- OS X Mavericks 이상을 실행하는 Mac 컴퓨터  
   
--    [Apple ID](https://appleid.apple.com/)  
+-  [Apple ID](https://appleid.apple.com/)  
   
--   Apple의 활성 [iOS 개발자 프로그램](https://developer.apple.com/programs/ios/) 계정  
+- Apple의 활성 [iOS 개발자 프로그램](https://developer.apple.com/programs/ios/) 계정  
   
--   [Xcode 6](https://developer.apple.com/xcode/downloads/)  
+- [Xcode 6](https://developer.apple.com/xcode/downloads/)  
   
      Xcode 6은 앱 스토어에서 다운로드할 수 있습니다.  
   
--   Xcode 명령줄 도구  
+- Xcode 명령줄 도구  
   
      Xcode 명령줄 도구를 설치하려면 Mac에서 터미널 앱을 열고 다음 명령을 입력합니다.  
   
      `xcode-select --install`  
   
--   Xcode에서 구성된 iOS 서명 ID  
+- Xcode에서 구성된 iOS 서명 ID  
   
      iOS 서명 ID를 얻는 방법에 대한 자세한 내용은 iOS 개발자 라이브러리에서 [서명 ID 및 인증서 유지 관리](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) 를 참조하세요. Xcode에서 서명 ID를 보거나 설정하려면 **Xcode** 메뉴를 열고 **기본 설정**을 선택합니다. **계정** 을 선택하고 Apple ID를 선택한 다음 **세부 정보 보기** 단추를 선택합니다.  
   
--   개발에 iOS 디바이스를 사용하는 경우 디바이스에 대해 Xcode에서 구성된 프로비저닝 프로필  
+- 개발에 iOS 디바이스를 사용하는 경우 디바이스에 대해 Xcode에서 구성된 프로비저닝 프로필  
   
      프로비저닝 프로필을 만드는 방법에 대한 자세한 내용은 iOS 개발자 라이브러리에서 [회원 센터를 사용하여 프로비저닝 프로필 만들기](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW24) 를 참조하세요.  
   
--   [Node.js](http://nodejs.org/)  
+- [Node.js](http://nodejs.org/)  
   
--   npm의 업데이트된 버전  
+- npm의 업데이트된 버전  
   
      Node.js와 함께 제공된 npm 버전이 vcremote를 설치할 수 있을 만큼 최신 버전이 아닐 수 있습니다. npm을 업데이트하려면 Mac에서 터미널 앱을 열고 다음 명령을 입력합니다.  
   
      `sudo npm install -g npm@latest`  
   
-##  <a name="Install"></a> iOS용 원격 에이전트 설치  
+## <a name="Install"></a> iOS용 원격 에이전트 설치  
  플랫폼 간 모바일 개발용 Visual C++를 설치하는 경우 Visual Studio는 Mac에서 실행되는 원격 에이전트인 [vcremote](http://go.microsoft.com/fwlink/p/?LinkId=534988)와 통신하여 파일을 전송하고, iOS 앱을 빌드 및 실행하고, 디버깅 명령을 보낼 수 있습니다.  
   
  원격 에이전트를 설치하기 전에 [필수 조건](#Prerequisites) 을 충족하고 [플랫폼 간 모바일 개발용 Visual C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#InstallTheTools)를 설치했는지 확인합니다.  
   
-###  <a name="DownloadInstall"></a> 원격 에이전트를 다운로드하여 설치하려면  
+### <a name="DownloadInstall"></a> 원격 에이전트를 다운로드하여 설치하려면  
   
 - Mac의 터미널 앱에서 다음 명령을 입력합니다.  
   
@@ -97,10 +97,10 @@ ms.locfileid: "59656208"
   
   Visual Studio를 새 버전으로 업데이트하는 경우 현재 원격 에이전트 버전도 업데이트해야 합니다. 원격 에이전트를 업데이트하려면 원격 에이전트 다운로드 및 설치 단계를 반복합니다.  
   
-##  <a name="Start"></a> 원격 에이전트 시작  
+## <a name="Start"></a> 원격 에이전트 시작  
  Visual Studio에서 iOS 코드를 빌드 및 실행하려면 원격 에이전트가 실행되고 있어야 합니다. Visual Studio가 원격 에이전트와 쌍으로 연결되어야 통신할 수 있습니다. 기본적으로 원격 에이전트는 Visual Studio와 쌍으로 연결되기 위해 PIN이 필요한 보안된 연결 모드로 실행됩니다.  
   
-###  <a name="RemoteAgentStartServer"></a> 원격 에이전트를 시작하려면  
+### <a name="RemoteAgentStartServer"></a> 원격 에이전트를 시작하려면  
   
 - Mac의 터미널 앱에서 다음 명령을 입력합니다.  
   
@@ -120,7 +120,7 @@ ms.locfileid: "59656208"
   
 #### <a name="to-disable-secured-connection-mode"></a>보안된 연결 모드를 사용하지 않도록 설정하려면  
   
--   vcremote에서 보안된 연결 모드를 사용하지 않도록 설정하려면 Mac의 터미널 앱에서 다음 명령을 입력합니다.  
+- vcremote에서 보안된 연결 모드를 사용하지 않도록 설정하려면 Mac의 터미널 앱에서 다음 명령을 입력합니다.  
   
      `vcremote --secure false`  
   
@@ -134,9 +134,9 @@ ms.locfileid: "59656208"
   
 #### <a name="to-stop-the-remote-agent"></a>원격 에이전트를 중지하려면  
   
--   vcremote가 실행되는 터미널 창에서 `Control+C`를 입력합니다.  
+- vcremote가 실행되는 터미널 창에서 `Control+C`를 입력합니다.  
   
-##  <a name="ConfigureVS"></a> Visual Studio에서 원격 에이전트 구성  
+## <a name="ConfigureVS"></a> Visual Studio에서 원격 에이전트 구성  
  Visual Studio에서 원격 에이전트에 연결하려면 Visual Studio 옵션에서 원격 구성을 지정해야 합니다.  
   
 #### <a name="to-configure-the-remote-agent-from-visual-studio"></a>Visual Studio에서 원격 에이전트를 구성하려면  
@@ -172,68 +172,68 @@ ms.locfileid: "59656208"
   
    Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원격 에이전트에 연결합니다. Mac에서 새 보안 인증서를 생성하거나 해당 호스트 이름 또는 IP 주소가 변경되지 않는 한 Visual Studio를 원격 에이전트와 쌍으로 다시 연결할 필요가 없습니다.  
   
-##  <a name="GeneratePIN"></a> Generate a new security PIN  
+## <a name="GeneratePIN"></a> Generate a new security PIN  
  원격 에이전트를 처음 시작하는 경우 생성된 PIN은 제한된 시간(기본적으로 10분) 동안만 유효합니다. 시간이 만료되기 전에 Visual Studio를 원격 에이전트와 쌍으로 연결하지 않으면 새 PIN을 생성해야 합니다.  
   
 #### <a name="to-generate-a-new-pin"></a>새 PIN을 생성하려면  
   
-1.  에이전트를 중지합니다(또는 Mac에서 두 번째 터미널 앱 창을 열고 여기에 명령 입력).  
+1. 에이전트를 중지합니다(또는 Mac에서 두 번째 터미널 앱 창을 열고 여기에 명령 입력).  
   
-2.  터미널 앱에서 다음 명령을 입력합니다.  
+2. 터미널 앱에서 다음 명령을 입력합니다.  
   
      `vcremote generateClientCert`  
   
      원격 에이전트가 새 임시 PIN을 생성합니다. 새 PIN을 사용하여 Visual Studio를 쌍으로 연결하려면 [Visual Studio에서 원격 에이전트 구성](#ConfigureVS)의 단계를 반복합니다.  
   
-##  <a name="GenerateCert"></a> 새 서버 인증서 생성  
+## <a name="GenerateCert"></a> 새 서버 인증서 생성  
  보안을 위해, Visual Studio를 원격 에이전트와 연결하는 서버 인증서는 Mac의 IP 주소 또는 호스트 이름에 연결되어 있습니다. 이러한 값이 변경되면 새 서버 인증서를 생성한 후 Visual Studio를 새 값으로 다시 구성해야 합니다.  
   
 #### <a name="to-generate-a-new-server-certificate"></a>새 서버 인증서를 생성하려면  
   
-1.  vcremote 에이전트를 중지합니다.  
+1. vcremote 에이전트를 중지합니다.  
   
-2.  터미널 앱에서 다음 명령을 입력합니다.  
+2. 터미널 앱에서 다음 명령을 입력합니다.  
   
      `vcremote resetServerCert`  
   
-3.  확인 메시지가 표시되면 `Y`을 입력합니다.  
+3. 확인 메시지가 표시되면 `Y`을 입력합니다.  
   
-4.  터미널 앱에서 다음 명령을 입력합니다.  
+4. 터미널 앱에서 다음 명령을 입력합니다.  
   
      `vcremote generateClientCert`  
   
      이렇게 하면 새 임시 PIN이 생성됩니다.  
   
-5.  새 PIN을 사용하여 Visual Studio를 쌍으로 연결하려면 [Visual Studio에서 원격 에이전트 구성](#ConfigureVS)의 단계를 반복합니다.  
+5. 새 PIN을 사용하여 Visual Studio를 쌍으로 연결하려면 [Visual Studio에서 원격 에이전트 구성](#ConfigureVS)의 단계를 반복합니다.  
   
-##  <a name="ConfigureMac"></a> Configure the remote agent on the Mac  
+## <a name="ConfigureMac"></a> Configure the remote agent on the Mac  
  다양한 명령줄 옵션을 사용하여 원격 에이전트를 구성할 수 있습니다. 예를 들어 빌드 요청을 수신할 포트와 파일 시스템에 유지할 최대 빌드 수를 지정할 수 있습니다. 기본적으로 해당 제한은 10개 빌드입니다. 원격 에이전트는 종료 시 최대값을 초과하는 빌드를 제거합니다.  
   
 #### <a name="to-configure-the-remote-agent"></a>원격 에이전트를 구성하려면  
   
--   원격 에이전트 명령의 전체 목록을 보려면 터미널 앱에서 다음을 입력합니다.  
+- 원격 에이전트 명령의 전체 목록을 보려면 터미널 앱에서 다음을 입력합니다.  
   
      `vcremote --help`  
   
--   보안 모드를 사용하지 않도록 설정하고 단순한 HTTP 기반 연결을 사용하려면 다음을 입력합니다.  
+- 보안 모드를 사용하지 않도록 설정하고 단순한 HTTP 기반 연결을 사용하려면 다음을 입력합니다.  
   
      `vcremote --secure false`  
   
      이 옵션을 사용하는 경우 Visual Studio에서 에이전트를 구성할 때 **보안** 확인란을 선택 취소하고 **Pin** 필드를 비워 둡니다.  
   
--   원격 에이전트 파일의 위치를 지정하려면 다음을 입력합니다.  
+- 원격 에이전트 파일의 위치를 지정하려면 다음을 입력합니다.  
   
      `vcremote --serverDir directory_path`  
   
      여기서 *directory_path* 는 로그 파일, 빌드 및 서버 인증서를 배치할 Mac의 위치입니다. 기본적으로 이 위치는 /Users/*사용자 이름*/vcremote입니다. 빌드는 이 위치에 빌드 번호를 기준으로 구성됩니다.  
   
--   백그라운드 프로세스를 사용하여 `stdout` 및 `stderr` 을 server.log라는 파일에 캡처하려면 다음을 입력합니다.  
+- 백그라운드 프로세스를 사용하여 `stdout` 및 `stderr` 을 server.log라는 파일에 캡처하려면 다음을 입력합니다.  
   
      `vcremote > server.log 2>&1 &`  
   
      server.log 파일은 빌드 문제를 해결하는 데 도움이 될 수 있습니다.  
   
--   명령줄 매개 변수 대신 구성 파일을 사용하여 에이전트를 실행하려면 다음 명령을 입력합니다.  
+- 명령줄 매개 변수 대신 구성 파일을 사용하여 에이전트를 실행하려면 다음 명령을 입력합니다.  
   
      `vcremote --config config_file_path`  
   

@@ -17,12 +17,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ed2a999fc3480bda8aa534d3dd32a00f5ff5c039
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 3c3ddcb99163fe3548f020094647566c1779f5d9
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651921"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115369"
 ---
 # <a name="add-code-to-tableadapters-in-n-tier-applications"></a>n 계층 애플리케이션에서 TableAdapter에 코드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,17 +43,17 @@ ms.locfileid: "59651921"
   
 ### <a name="to-add-user-code-to-a-tableadapter-in-an-n-tier-application"></a>N 계층 응용 프로그램에서 TableAdapter에 사용자 코드를 추가 하려면  
   
-1.  .Xsd 파일 (데이터 집합)를 포함 하는 프로젝트를 찾습니다.  
+1. .Xsd 파일 (데이터 집합)를 포함 하는 프로젝트를 찾습니다.  
   
-2.  두 번 클릭 합니다 **.xsd** 파일을 데이터 집합을 엽니다.  
+2. 두 번 클릭 합니다 **.xsd** 파일을 데이터 집합을 엽니다.  
   
-3.  마우스 오른쪽 단추로 클릭 합니다 `TableAdapter` 에 코드를 추가 하 고 클릭 하려는**코드 보기**합니다.  
+3. 마우스 오른쪽 단추로 클릭 합니다 `TableAdapter` 에 코드를 추가 하 고 클릭 하려는**코드 보기**합니다.  
   
      Partial 클래스는 생성 되 고 코드 편집기에서 열립니다.  
   
-4.  Partial 클래스 선언 내에 코드를 추가 합니다.  
+4. Partial 클래스 선언 내에 코드를 추가 합니다.  
   
-5.  다음 예제에서는 코드를 추가 하는 위치를 `CustomersTableAdapter` 에 `NorthwindDataSet`:  
+5. 다음 예제에서는 코드를 추가 하는 위치를 `CustomersTableAdapter` 에 `NorthwindDataSet`:  
   
     ```vb  
     Partial Public Class CustomersTableAdapter  

@@ -19,12 +19,12 @@ caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dffe803bc0b082f4f14c9010e165bd6b169674fe
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 3c9902080ae501c1d77a59f152d7d272462d2264
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59657456"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60115421"
 ---
 # <a name="set-the-control-to-be-created-when-dragging-from-the-data-sources-window"></a>데이터 소스 창에서 끌어올 때 만들 컨트롤 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,13 +57,13 @@ ms.locfileid: "59657456"
   
 #### <a name="to-set-the-controls-to-be-created-for-columns-or-properties"></a>열 또는 속성에 대해 생성 될 컨트롤을 설정 하려면  
   
-1.  WPF 디자이너 또는 Windows Forms 디자이너가 열려 있는지 확인 합니다.  
+1. WPF 디자이너 또는 Windows Forms 디자이너가 열려 있는지 확인 합니다.  
   
-2.  에 **데이터 원본** 창에서 원하는 테이블을 확장 하거나 해당 열 또는 속성을 표시할 개체입니다.  
+2. 에 **데이터 원본** 창에서 원하는 테이블을 확장 하거나 해당 열 또는 속성을 표시할 개체입니다.  
   
-3.  만들 컨트롤 설정 하려는 각 열 또는 속성을 선택 합니다.  
+3. 만들 컨트롤 설정 하려는 각 열 또는 속성을 선택 합니다.  
   
-4.  열 또는 속성에 대 한 드롭다운 메뉴를 클릭 하 고 항목을 디자이너로 끌어올 때 만들 컨트롤을 선택 합니다.  
+4. 열 또는 속성에 대 한 드롭다운 메뉴를 클릭 하 고 항목을 디자이너로 끌어올 때 만들 컨트롤을 선택 합니다.  
   
      사용 가능한 컨트롤 목록이 있는 디자이너에서 열어 놓은,.NET Framework의 버전 프로젝트가 대상으로 다르며는 사용자 지정 바인딩을 사용 하면 데이터에 추가한을 지 원하는 컨트롤을 **도구 상자**합니다. 만들려는 컨트롤의 사용 가능한 컨트롤 목록에 있으면 목록에 컨트롤을 추가할 수 있습니다. 자세한 내용은 [데이터 소스 창에 사용자 지정 컨트롤을 추가할](../data-tools/add-custom-controls-to-the-data-sources-window.md)합니다.  
   

@@ -17,12 +17,12 @@ caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 34d643d3a5966ac287773b2d01d88596d51239f9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0b8081946da2053d257691c8ec5dc2b1302e4d75
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986450"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105840"
 ---
 # <a name="trusted-application-deployment-overview"></a>Trusted Application Deployment Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,15 +58,15 @@ ms.locfileid: "58986450"
   
   신뢰할 수 있는 애플리케이션 배포를 활용하려면 다음 단계에 따라야 합니다.  
   
-1.  게시자에 대한 인증서를 가져옵니다.  
+1. 게시자에 대한 인증서를 가져옵니다.  
   
-2.  모든 클라이언트의 신뢰할 수 있는 게시자 저장소에 게시자를 추가합니다.  
+2. 모든 클라이언트의 신뢰할 수 있는 게시자 저장소에 게시자를 추가합니다.  
   
-3.  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 만듭니다.  
+3. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램을 만듭니다.  
   
-4.  게시자의 인증서를 사용하여 배포 매니페스트에 서명합니다.  
+4. 게시자의 인증서를 사용하여 배포 매니페스트에 서명합니다.  
   
-5.  클라이언트 컴퓨터에 애플리케이션 배포를 게시합니다.  
+5. 클라이언트 컴퓨터에 애플리케이션 배포를 게시합니다.  
   
 ### <a name="obtain-a-certificate-for-the-publisher"></a>게시자에 대한 인증서 가져오기  
  디지털 인증서는 Microsoft Authenticode 인증 및 보안 시스템의 핵심 구성 요소입니다. Authenticode는 Windows 운영 체제의 표준 파트입니다. 모든 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션은 신뢰할 수 있는 애플리케이션 배포에 참여하는지와 관계없이 디지털 인증서로 서명되어야 합니다. Authenticode를 사용 하는 방법의 전체 설명을 보려면 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]를 참조 하세요 [ClickOnce 및 Authenticode](../deployment/clickonce-and-authenticode.md)합니다.  
@@ -78,9 +78,9 @@ ms.locfileid: "58986450"
   
  애플리케이션을 관리되는 데스크톱 환경에 배포하지 않으면 다음 옵션을 사용하여 신뢰할 수 있는 게시자 저장소에 인증서를 추가할 수 있습니다.  
   
--   <xref:System.Security.Cryptography?displayProperty=fullName> 네임스페이스.  
+- <xref:System.Security.Cryptography?displayProperty=fullName> 네임스페이스.  
   
--   CertMgr.exe - Internet Explorer의 구성 요소이므로 Windows 98 및 모든 이후 버전에 있습니다. 자세한 내용은 [Certmgr.exe (인증서 관리자 도구)](http://msdn.microsoft.com/library/7e953b43-1374-4bbc-814f-53ca1b6b52bb)합니다.  
+- CertMgr.exe - Internet Explorer의 구성 요소이므로 Windows 98 및 모든 이후 버전에 있습니다. 자세한 내용은 [Certmgr.exe (인증서 관리자 도구)](http://msdn.microsoft.com/library/7e953b43-1374-4bbc-814f-53ca1b6b52bb)합니다.  
   
 ### <a name="create-a-clickonce-application"></a>ClickOnce 애플리케이션 만들기  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램은 응용 프로그램을 설명하고 설치 매개 변수를 제공하는 매니페스트 파일과 결합된 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 클라이언트 응용 프로그램입니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 에서 **게시** 명령을 사용하여 프로그램을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]응용 프로그램으로 전환할 수 있습니다. 또는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 에 포함된 도구를 사용하여 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]배포에 필요한 모든 파일을 생성할 수 있습니다. 자세한 단계 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 참조 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)  

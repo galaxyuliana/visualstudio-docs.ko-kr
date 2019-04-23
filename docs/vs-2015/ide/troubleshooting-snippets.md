@@ -13,12 +13,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7fe80ad6c3983b35f97071093428bf7f356292b0
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 61f1a623d5ee5edee376819ad6c385aead5003f8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54803764"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60117956"
 ---
 # <a name="troubleshooting-snippets"></a>코드 조각 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,15 +29,15 @@ IntelliSense 코드 조각 문제는 코드 조각 파일이 손상되었거나 
   
 ### <a name="the-snippet-cannot-be-dragged-from-file-explorer-to-a-visual-studio-source-file"></a>코드 조각은 파일 탐색기에서 Visual Studio 원본 파일로 끌어올 수 없습니다.  
   
--   코드 조각 파일의 XML은 손상되었을 수 있습니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **XML 편집기**는 XML 구조에서 문제를 찾을 수 있습니다.  
+- 코드 조각 파일의 XML은 손상되었을 수 있습니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **XML 편집기**는 XML 구조에서 문제를 찾을 수 있습니다.  
   
--   코드 조각 파일은 코드 조각 스키마를 준수하지 않을 수 있습니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **XML 편집기**는 XML 구조에서 문제를 찾을 수 있습니다.  
+- 코드 조각 파일은 코드 조각 스키마를 준수하지 않을 수 있습니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 **XML 편집기**는 XML 구조에서 문제를 찾을 수 있습니다.  
   
 ### <a name="the-code-has-compiler-errors-that-are-not-highlighted"></a>코드에는 강조 표시되지 않는 컴파일러 오류가 있습니다.  
   
--   프로젝트 참조를 누락했을 수 있습니다. 코드 조각에 대한 설명서를 검토합니다. 참조가 컴퓨터에 없는 경우 설치해야 합니다. 코드 조각을 삽입하려면 필요한 참조를 프로젝트에 추가해야 합니다. 코드 조각이 참조 정보를 누락한 경우 코드 조각 생성자에 오류로 보고될 수 있습니다.  
+- 프로젝트 참조를 누락했을 수 있습니다. 코드 조각에 대한 설명서를 검토합니다. 참조가 컴퓨터에 없는 경우 설치해야 합니다. 코드 조각을 삽입하려면 필요한 참조를 프로젝트에 추가해야 합니다. 코드 조각이 참조 정보를 누락한 경우 코드 조각 생성자에 오류로 보고될 수 있습니다.  
   
--   변수는 정의되지 않을 수 있습니다. 코드 조각에서 정의되지 않은 변수는 강조 표시해야 합니다. 그렇지 않으면 코드 조각 작성자에 오류로 보고될 수 있습니다.  
+- 변수는 정의되지 않을 수 있습니다. 코드 조각에서 정의되지 않은 변수는 강조 표시해야 합니다. 그렇지 않으면 코드 조각 작성자에 오류로 보고될 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 조각](../ide/code-snippets.md)

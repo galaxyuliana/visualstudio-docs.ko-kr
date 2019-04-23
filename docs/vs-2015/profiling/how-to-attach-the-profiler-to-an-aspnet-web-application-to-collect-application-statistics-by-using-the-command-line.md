@@ -9,12 +9,12 @@ caps.latest.revision: 38
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cd8b160eca8b3a7e628ed9eda199c0b26fe38c14
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 619b64578c5fd626f9ffa8cfca8f777fdc1c93a5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648657"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105730"
 ---
 # <a name="how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-application-statistics-by-using-the-command-line"></a>방법: 명령줄을 사용 하 여 응용 프로그램 통계를 수집 하도록 ASP.NET 웹 응용 프로그램에 Profiler 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,9 +44,9 @@ ms.locfileid: "59648657"
 
     **VSPerfClrEnv /globalsampleon** [**/samplelineoff**]  
 
-   -   **/globalsampleon**을 선택하면 샘플링이 사용하도록 설정됩니다.  
+   - **/globalsampleon**을 선택하면 샘플링이 사용하도록 설정됩니다.  
 
-   -   **/samplelineoff**를 선택하면 수집된 데이터를 특정 소스 코드 줄에 할당하는 기능이 사용하지 않도록 설정됩니다. 이 옵션을 지정하면 데이터가 함수에만 할당됩니다.  
+   - **/samplelineoff**를 선택하면 수집된 데이터를 특정 소스 코드 줄에 할당하는 기능이 사용하지 않도록 설정됩니다. 이 옵션을 지정하면 데이터가 함수에만 할당됩니다.  
 
 3. 컴퓨터를 다시 시작합니다.  
 
@@ -73,9 +73,9 @@ ms.locfileid: "59648657"
 
 6. 프로파일러를 ASP.NET 작업자 프로세스에 연결합니다. Type:**VSPerfCmd** [/attach](../profiling/attach.md)**:**{`PID`&#124;`ProcName`} [`Sample Event`] [[/targetclr](../profiling/targetclr.md)**:**`Version`]  
 
-   -   `PID`는 ASP.NET 작업자 프로세스의 프로세스 ID를 지정하고, `ProcName`은 작업자 프로세스의 이름을 지정합니다. Windows 작업 관리자에서 실행 중인 모든 프로세스의 프로세스 ID와 이름을 볼 수 있습니다.  
+   - `PID`는 ASP.NET 작업자 프로세스의 프로세스 ID를 지정하고, `ProcName`은 작업자 프로세스의 이름을 지정합니다. Windows 작업 관리자에서 실행 중인 모든 프로세스의 프로세스 ID와 이름을 볼 수 있습니다.  
 
-   -   기본적으로 성능 데이터는 10,000,000번의 무중단 프로세서 클록 주기마다 샘플링됩니다. 이는 1GH 프로세서에서 초당 약 100회 정도 샘플링합니다. 다음 **VSPerfCmd** 옵션 중 하나를 지정하여 클록 주기 간격을 변경하거나 다른 샘플링 이벤트를 지정할 수 있습니다.  
+   - 기본적으로 성능 데이터는 10,000,000번의 무중단 프로세서 클록 주기마다 샘플링됩니다. 이는 1GH 프로세서에서 초당 약 100회 정도 샘플링합니다. 다음 **VSPerfCmd** 옵션 중 하나를 지정하여 클록 주기 간격을 변경하거나 다른 샘플링 이벤트를 지정할 수 있습니다.  
 
    |샘플 이벤트|설명|  
    |------------------|-----------------|  
@@ -85,14 +85,14 @@ ms.locfileid: "59648657"
    |[/counter](../profiling/counter.md) **:** `Config`|샘플링 이벤트 및 간격을 `Config`에 지정된 프로세서 성능 카운터 및 간격으로 변경합니다.|  
    |[/targetclr](../profiling/targetclr.md) **:** `Version`|한 애플리케이션에 두 개 이상의 런타임 버전이 로드된 경우 프로파일링할 CLR(공용 언어 런타임) 버전을 지정합니다.|  
 
-   -   **/targetclr:** `Version`은 한 응용 프로그램에 둘 이상의 런타임 버전이 로드될 때 프로파일링할 CLR 버전을 지정합니다. 선택 사항입니다.  
+   - **/targetclr:** `Version`은 한 응용 프로그램에 둘 이상의 런타임 버전이 로드될 때 프로파일링할 CLR 버전을 지정합니다. 선택 사항입니다.  
 
 ## <a name="controlling-data-collection"></a>데이터 컬렉션 제어  
  애플리케이션이 실행되는 동안 **VSPerfCmd.exe** 옵션을 사용하여 파일에 대한 데이터 쓰기를 시작하고 중지함으로써 데이터 수집을 제어할 수 있습니다. 데이터 수집을 제어하면 애플리케이션의 시작 또는 종료와 같이 프로그램 실행의 특정 부분에 대한 데이터를 수집할 수 있습니다.  
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면  
 
--   **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
+- **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.  
 
     |옵션|설명|  
     |------------|-----------------|  
@@ -109,21 +109,21 @@ ms.locfileid: "59648657"
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면  
 
-1.  다음 중 하나를 수행하여 대상 애플리케이션에서 프로파일러를 분리합니다.  
+1. 다음 중 하나를 수행하여 대상 애플리케이션에서 프로파일러를 분리합니다.  
 
-    -   **VSPerfCmd /detach** 입력  
+    - **VSPerfCmd /detach** 입력  
 
          또는  
 
-    -   [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스를 닫습니다.  
+    - [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스를 닫습니다.  
 
-2.  프로파일러를 종료합니다. 입력: **VSPerfCmd** [/shutdown](../profiling/shutdown.md)  
+2. 프로파일러를 종료합니다. 입력: **VSPerfCmd** [/shutdown](../profiling/shutdown.md)  
 
-3.  (선택 사항) 프로파일링 환경 변수를 지웁니다. 유형:  
+3. (선택 사항) 프로파일링 환경 변수를 지웁니다. 유형:  
 
      **VSPerfCmd /globaloff**  
 
-4.  컴퓨터를 다시 시작합니다.  
+4. 컴퓨터를 다시 시작합니다.  
 
 ## <a name="see-also"></a>참고 항목  
  [ASP.NET 웹 응용 프로그램 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)   

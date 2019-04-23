@@ -23,12 +23,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7c2dce31d5d2d2564c4a277b479dbf1e463b4632
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: a01220c1c8dc21bc770c509aacfe345fd3107ae5
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59666138"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105567"
 ---
 # <a name="bind-controls-to-pictures-from-a-database"></a>데이터베이스의 그림에 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,17 +41,17 @@ ms.locfileid: "59666138"
   
 ## <a name="bind-a-picture-in-a-database-to-a-control"></a>데이터베이스의 그림에 컨트롤을 바인딩합니다  
   
-1.  디자인 화면에 컨트롤을 추가 하려면 WPF 디자이너 또는 Windows Forms 디자이너에서 열려 있는지 확인 합니다.  
+1. 디자인 화면에 컨트롤을 추가 하려면 WPF 디자이너 또는 Windows Forms 디자이너에서 열려 있는지 확인 합니다.  
   
-2.  에 **데이터 원본** 창에서 원하는 테이블을 확장 하거나 해당 열 또는 속성을 표시할 개체입니다.  
+2. 에 **데이터 원본** 창에서 원하는 테이블을 확장 하거나 해당 열 또는 속성을 표시할 개체입니다.  
   
-3.  열 이나 이미지 데이터를 포함 하는 속성을 선택 하 고 해당 드롭다운 목록 컨트롤 목록에서 다음 컨트롤 중 하나를 선택 합니다.  
+3. 열 이나 이미지 데이터를 포함 하는 속성을 선택 하 고 해당 드롭다운 목록 컨트롤 목록에서 다음 컨트롤 중 하나를 선택 합니다.  
   
-    -   WPF designer가 열려 있으면 선택 **이미지**합니다.  
+    - WPF designer가 열려 있으면 선택 **이미지**합니다.  
   
-    -   Windows Forms 디자이너를 연 경우 선택할 **PictureBox**합니다.  
+    - Windows Forms 디자이너를 연 경우 선택할 **PictureBox**합니다.  
   
-    -   또는 데이터 바인딩을 지원 하 고 이미지를 표시할 수 있는 다른 컨트롤을 선택할 수 있습니다. 사용 하려는 컨트롤의 사용 가능한 컨트롤 목록에 없는 경우 목록에 추가 하 고 선택 수 있습니다. 자세한 내용은 [데이터 소스 창에 사용자 지정 컨트롤을 추가할](../data-tools/add-custom-controls-to-the-data-sources-window.md)합니다.  
+    - 또는 데이터 바인딩을 지원 하 고 이미지를 표시할 수 있는 다른 컨트롤을 선택할 수 있습니다. 사용 하려는 컨트롤의 사용 가능한 컨트롤 목록에 없는 경우 목록에 추가 하 고 선택 수 있습니다. 자세한 내용은 [데이터 소스 창에 사용자 지정 컨트롤을 추가할](../data-tools/add-custom-controls-to-the-data-sources-window.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)

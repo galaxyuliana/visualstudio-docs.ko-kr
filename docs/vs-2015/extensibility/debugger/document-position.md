@@ -10,23 +10,23 @@ ms.assetid: b59d739c-7572-427f-a70d-4e5df63d02c1
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: ec5124144e93d37c0f288450b00865461091253f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0107befa502d13ada7f5fd9e6081dde5f7c1cdc2
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981162"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60100146"
 ---
 # <a name="document-position"></a>문서 위치
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 디버깅을 **위치를 문서화**:  
   
--   IDE에 알려진 소스 파일의 위치는 추상화를 제공 합니다. 대부분의 언어에 대 한 현재 문서 위치 수 생각할 수 원본 파일의 위치입니다.  
+- IDE에 알려진 소스 파일의 위치는 추상화를 제공 합니다. 대부분의 언어에 대 한 현재 문서 위치 수 생각할 수 원본 파일의 위치입니다.  
   
--   디버그 엔진에는 소스 문서의 위치를 설명합니다.  
+- 디버그 엔진에는 소스 문서의 위치를 설명합니다.  
   
--   에 의해 구현 되는 [IDebugDocumentPosition2](../../extensibility/debugger/reference/idebugdocumentposition2.md) 인터페이스입니다.  
+- 에 의해 구현 되는 [IDebugDocumentPosition2](../../extensibility/debugger/reference/idebugdocumentposition2.md) 인터페이스입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 컨텍스트](../../extensibility/debugger/code-context.md)   

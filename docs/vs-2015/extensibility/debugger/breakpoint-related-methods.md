@@ -11,23 +11,23 @@ ms.assetid: a6f77bf0-bf81-443f-8683-5f12075bbe10
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 06f7904a1ae38ce9a2c8103208490bc67e8dc7b1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 47ba1529521fdce042512a38d32ad2ca2eb3cb82
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985921"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60085561"
 ---
 # <a name="breakpoint-related-methods"></a>중단점 관련 메서드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 디버그 엔진 (DE)에 중단점 설정을 지원 해야 합니다. Visual Studio 디버깅 중단점의 형식을 지원 합니다.  
   
--   바인딩된  
+- 바인딩된  
   
      UI를 통해 요청 하 고 지정 된 코드 위치로 성공적으로 바인딩할  
   
--   보류 중  
+- 보류 중  
   
      UI 하지만 실제에 아직 바인딩되지 않았습니다 지침을 통해 요청  
   

@@ -73,12 +73,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 45562119158faad0d596b74faecd786668abf8dd
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
-ms.translationtype: MTE95
+ms.openlocfilehash: f55bd71b2174a03fb44b4512f04997e48d636d12
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227750"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103279"
 ---
 # <a name="crt-debug-heap-details"></a>CRT 디버그 힙 정보
 이 항목에서는 CRT 디버그 힙에 대해 자세히 설명합니다.
@@ -147,7 +147,7 @@ NoMansLand (0xfd) 양쪽 응용 프로그램에서 사용 하는 메모리의 "N
 
 `_CRT_BLOCK` 여러 런타임 라이브러리 함수에 의해 내부적으로 할당된 메모리 블록은 CRT 블록으로 표시되어 별도로 처리할 수 있습니다. 결과적으로 누수 탐지나 다른 작업들이 런타임 라이브러리 함수의 영향을 받지 않습니다. 할당은 CRT 형식의 어떠한 블록도 할당하거나 할당 취소하거나 해제할 수 없습니다.
 
-`_CLIENT_BLOCK` 애플리케이션은 지정한 할당 그룹을 이 형식의 메모리 블록으로 할당함으로써 디버깅을 위해 이 할당 그룹을 특별히 추적하여 디버그 힙 함수를 명시적으로 호출할 수 있습니다. 예를 들어, MFC는 모든 **CObjects**를 클라이언트 블록으로 할당하며, 다른 애플리케이션은 클라이언트 블록에 여러 메모리 개체를 가질 수 있습니다. 또한 보다 정교하게 추적하도록 클라이언트 블록의 하위 형식을 지정할 수 있습니다. 클라이언트 블록의 하위 형식을 지정하려면 16비트로 남긴 숫자를 변환하고 `OR`으로 `_CLIENT_BLOCK`연산을 실행하십시오. 예:
+`_CLIENT_BLOCK` 애플리케이션은 지정한 할당 그룹을 이 형식의 메모리 블록으로 할당함으로써 디버깅을 위해 이 할당 그룹을 특별히 추적하여 디버그 힙 함수를 명시적으로 호출할 수 있습니다. 예를 들어, MFC는 모든 **CObjects**를 클라이언트 블록으로 할당하며, 다른 애플리케이션은 클라이언트 블록에 여러 메모리 개체를 가질 수 있습니다. 또한 보다 정교하게 추적하도록 클라이언트 블록의 하위 형식을 지정할 수 있습니다. 클라이언트 블록의 하위 형식을 지정하려면 16비트로 남긴 숫자를 변환하고 `OR`으로 `_CLIENT_BLOCK`연산을 실행하십시오. 예를 들어:
 
 ```cpp
 #define MYSUBTYPE 4
@@ -201,7 +201,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
 
 2. 모든 비트를 설정 `OR`연산 (비트 &#124; 기호)의 해당 비트 마스크 (응용 프로그램 코드에서 상수로 표시)를 사용 하 여 임시 변수입니다.
 
-3. 적절한 비트 마스크의 `AND` 연산(비트 ~ 기호)으로 변수를 `NOT` 연산(비트 & 기호)하여 나머지 비트를 해제합니다.
+3. 하 여 다른 비트를 해제 `AND`연산 (비트 & 기호) 사용 하 여 변수를 `NOT` (비트 ~ 기호) 적절 한 비트 마스크입니다.
 
 4. `_CrtSetDbgFlag`에 대해 새로운 상태를 만들기 위해 임시 변수로 저장한 값에 설정한 `newFlag` 매개 변수를 사용하여 `_crtDbgFlag`를 호출합니다.
 
@@ -261,7 +261,7 @@ int main( )   {
 
 ![맨 위로 이동](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)
 
-##  <a name="BKMK_Heap_State_Reporting_Functions"></a> 힙 상태 보고 함수
+## <a name="BKMK_Heap_State_Reporting_Functions"></a> 힙 상태 보고 함수
  **_CrtMemState**
 
  지정한 순간에 힙 상태의 요약 스냅숏을 캡처하려면 CRTDBG.H에 정의된 _CrtMemState 구조체를 사용하십시오.

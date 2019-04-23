@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e5c03fa6a04abd06af9e24b83977d491e9809265
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c8520084b57fdf0f831f62626593832d03c25636
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985900"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107868"
 ---
 # <a name="updating-shapes-and-connectors-to-reflect-the-model"></a>모양 및 연결선을 업데이트하여 모델 반영
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,9 +32,9 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## <a name="set-shape-map-properties-to-control-the-visibility-of-a-decorator"></a>도형 맵에 데코레이터의 가시성을 제어 하는 속성 설정  
  DSL 정의에서 모양과 도메인 클래스 간의 매핑을 구성 하 여 프로그램 코드를 작성 하지 않고도 데코레이터의 가시성을 제어할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.  
   
--   [방법: 데코레이터의 가시성 제어-리디렉션](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
+- [방법: 데코레이터의 가시성 제어-리디렉션](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
   
--   [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)  
+- [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)  
   
 ## <a name="expose-the-color-and-style-of-a-shape-as-properties"></a>색 및 스타일 셰이프를 속성으로 노출  
  DSL 정의에서 모양 클래스를 마우스 오른쪽 **Add Exposed**, 다음 항목 중 하나를 같은 클릭 **채우기 색**합니다.  
@@ -115,7 +115,7 @@ partial class MyLanguageDiagram
   
  이 메서드는 모두 도메인 속성 및 도형의 크기와 같은 비 저장소 기능을 사용할 수 있습니다.  
   
-##  <a name="OnAssociatedProperty"></a> AssociateValueWith() 모양의 다른 기능을 업데이트 하는 데  
+## <a name="OnAssociatedProperty"></a> AssociateValueWith() 모양의 다른 기능을 업데이트 하는 데  
  그림자를 또는 연결선의 화살표 스타일에 있는지 여부와 같은 모양의 일부 기능에 대 한 도메인 속성으로 기능을 노출 기본 설정 방법이 있습니다.  이러한 기능에 변경이 트랜잭션 시스템에 의해 제어 됩니다. 따라서 하기에 적합 하지 업데이트 규칙 실행 취소 명령을 수행할 때 호출 되지 때문에 규칙을 사용 하 여 합니다.  
   
  대신 사용 하 여 이러한 기능을 업데이트할 수 있습니다 <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnAssociatedPropertyChanged%2A>합니다. 다음 예제에서는 화살표 스타일을 커넥터는 커넥터를 표시 하는 관계의 도메인 속성의 값으로 제어 됩니다.  

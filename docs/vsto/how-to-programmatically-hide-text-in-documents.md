@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0c39a82a6b381296c47dcbf059b22e351dba3afc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1da471ff1911cdda4a62ef9c150236b3a225342f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646085"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110169"
 ---
 # <a name="how-to-programmatically-hide-text-in-documents"></a>방법: 프로그래밍 방식으로 문서에서 텍스트 숨기기
   텍스트의 특정 범위에 대해 <xref:Microsoft.Office.Interop.Word._Font.Hidden%2A> 의 <xref:Microsoft.Office.Interop.Word.Range.Font%2A> 속성을 설정하여 문서에서 텍스트를 숨길 수 있습니다.
@@ -29,17 +29,17 @@ ms.locfileid: "56646085"
 
 ## <a name="to-hide-text-in-a-bookmark-control-while-printing-the-document"></a>문서를 인쇄하는 동안 책갈피 컨트롤에서 텍스트를 숨기려면
 
-1.  지정된 범위에 있는 모든 텍스트를 숨기는 프로시저를 만듭니다.
+1. 지정된 범위에 있는 모든 텍스트를 숨기는 프로시저를 만듭니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#105](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#105)]
      [!code-csharp[Trin_VstcoreWordAutomation#105](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#105)]
 
-2.  지정된 범위에 있는 모든 텍스트를 표시하는 프로시저를 만듭니다.
+2. 지정된 범위에 있는 모든 텍스트를 표시하는 프로시저를 만듭니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#106](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#106)]
      [!code-csharp[Trin_VstcoreWordAutomation#106](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#106)]
 
-3.  책갈피의 범위를 `HideText` 메서드로 전달하고, 문서를 인쇄한 다음 동일한 범위를 `UnhideText` 메서드로 전달합니다.
+3. 책갈피의 범위를 `HideText` 메서드로 전달하고, 문서를 인쇄한 다음 동일한 범위를 `UnhideText` 메서드로 전달합니다.
 
      다음 코드 예제는 문서 수준 사용자 지정에서 사용할 수 있습니다. 이 예제를 사용하려면 프로젝트의 `ThisDocument` 클래스에서 실행합니다.
 

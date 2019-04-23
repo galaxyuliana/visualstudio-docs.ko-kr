@@ -11,12 +11,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 678c09cca8f7b90c9be6dc2b7101ca04d9f94812
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: b61492d992d37d7377e73185202bfbdd97063195
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982333"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60116669"
 ---
 # <a name="navigate-the-uml-model"></a>UML 모델 탐색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,9 +30,9 @@ ms.locfileid: "58982333"
   
  IElement를 제외한 모든 형식은 하나 이상의 상위 형식에서 속성을 상속합니다.  
   
--   모델 유형의 요약을 참조 하세요 [UML 모델 요소 형식](../modeling/uml-model-element-types.md)합니다.  
+- 모델 유형의 요약을 참조 하세요 [UML 모델 요소 형식](../modeling/uml-model-element-types.md)합니다.  
   
--   API의 전체 세부 정보를 참조 하세요 [UML 모델링 확장성에 대 한 API 참조](../modeling/api-reference-for-uml-modeling-extensibility.md)합니다.  
+- API의 전체 세부 정보를 참조 하세요 [UML 모델링 확장성에 대 한 API 참조](../modeling/api-reference-for-uml-modeling-extensibility.md)합니다.  
   
 ### <a name="relationships"></a>관계  
  UML 사양에 정의된 속성 및 관계는 .NET 속성으로 구현됩니다.  
@@ -122,11 +122,11 @@ foreach (IShape<IInterface> in
 ## <a name="accessing-another-model-or-diagrams"></a>다른 모델 또는 다이어그램 액세스  
  다음과 같은 작업을 수행할 수 있습니다.  
   
--   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 모델 버스를 사용하여 서로 다른 모델의 요소 간에 링크를 만듭니다. 자세한 내용은 [다른 모델 및 도구를 사용 하 여 통합 UML 모델](../modeling/integrate-uml-models-with-other-models-and-tools.md)합니다.  
+- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 모델 버스를 사용하여 서로 다른 모델의 요소 간에 링크를 만듭니다. 자세한 내용은 [다른 모델 및 도구를 사용 하 여 통합 UML 모델](../modeling/integrate-uml-models-with-other-models-and-tools.md)합니다.  
   
--   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 사용자 인터페이스에 표시하지 않고 모델링 프로젝트 및 다이어그램을 읽기 전용 모드로 로드합니다. 자세한 내용은 [프로그램 코드에서 UML 모델 읽기](../modeling/read-a-uml-model-in-program-code.md)합니다.  
+- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 사용자 인터페이스에 표시하지 않고 모델링 프로젝트 및 다이어그램을 읽기 전용 모드로 로드합니다. 자세한 내용은 [프로그램 코드에서 UML 모델 읽기](../modeling/read-a-uml-model-in-program-code.md)합니다.  
   
--   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 모델링 프로젝트 및 다이어그램을 열고 내용에 액세스합니다. 자세한 내용은 [Visual Studio API를 사용 하 여 UML 모델 열기](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)합니다.  
+- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 모델링 프로젝트 및 다이어그램을 열고 내용에 액세스합니다. 자세한 내용은 [Visual Studio API를 사용 하 여 UML 모델 열기](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)   

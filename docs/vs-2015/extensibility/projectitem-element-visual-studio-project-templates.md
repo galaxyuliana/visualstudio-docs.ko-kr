@@ -13,12 +13,12 @@ ms.assetid: 82879fbe-7756-42cd-9a07-c10edf5b4673
 caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6e08d08e8ec68e684ced1972f277af9b04805c3e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e4f480275c29906f3bb941187ff537e3a02a1f45
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986109"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099132"
 ---
 # <a name="projectitem-element-visual-studio-project-templates"></a>ProjectItem 요소(Visual Studio 프로젝트 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,21 +90,21 @@ ms.locfileid: "58986109"
   
 ### <a name="to-rename-files-with-parameters"></a>매개 변수를 사용 하 여 파일 이름을 바꾸려면  
   
-1.  .Vstemplate 파일에 다음 XML을 사용 합니다.  
+1. .Vstemplate 파일에 다음 XML을 사용 합니다.  
   
     ```  
     <ProjectItem TargetFileName="$safeprojectname$.vb">MyFile.vb</ProjectItem>  
     ```  
   
-2.  프로젝트 파일을 엽니다 (.vbproj에는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트) 텍스트 편집기에서 또는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
+2. 프로젝트 파일을 엽니다 (.vbproj에는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트) 텍스트 편집기에서 또는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
   
-3.  다음 XML과 유사한 프로젝트 파일의 줄을 찾습니다.  
+3. 다음 XML과 유사한 프로젝트 파일의 줄을 찾습니다.  
   
     ```  
     <Compile Include="MyFile.vb">  
     ```  
   
-4.  다음 XML 코드 줄을 바꿉니다.  
+4. 다음 XML 코드 줄을 바꿉니다.  
   
     ```  
     <Compile Include="$safeprojectname$.vb">  

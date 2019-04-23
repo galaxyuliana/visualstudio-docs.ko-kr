@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ab82a563d5b5dce373394f9f83e883e2d2ee1129
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 9d8ce41d6532a7c389d20872c35a216a96910578
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416021"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60087771"
 ---
 # <a name="understanding-the-dsl-code"></a>DSL 코드 이해
 
@@ -45,15 +45,15 @@ ms.locfileid: "58416021"
 
  생성된 코드는 직접 편집하지 않는 것이 좋습니다. 솔루션을 다시 빌드하면 편집 내용이 손실되기 때문입니다. 대신 다음 작업을 수행하여 DSL을 사용자 지정합니다.
 
--   DSL 정의의 여러 매개 변수를 조정합니다.
+- DSL 정의의 여러 매개 변수를 조정합니다.
 
--   별도의 코드 파일에 partial 클래스를 작성하여 생성된 클래스에 정의되어 있거나 해당 클래스에서 상속되는 메서드를 재정의합니다. 경우에 따라 설정 해야 합니다 **Generates Double Derived** 생성 된 메서드를 재정의 하려면 DSL 정의에서 클래스의 옵션입니다.
+- 별도의 코드 파일에 partial 클래스를 작성하여 생성된 클래스에 정의되어 있거나 해당 클래스에서 상속되는 메서드를 재정의합니다. 경우에 따라 설정 해야 합니다 **Generates Double Derived** 생성 된 메서드를 재정의 하려면 DSL 정의에서 클래스의 옵션입니다.
 
--   생성 된 코드가 고유한 코드에 대해 '후크'를 제공 하는 DSL 정의에서 옵션을 설정 합니다.
+- 생성 된 코드가 고유한 코드에 대해 '후크'를 제공 하는 DSL 정의에서 옵션을 설정 합니다.
 
      예를 들어, 설정 하는 경우는 **Has Custom Constructor** 도메인 클래스의 옵션 및 다음 솔루션을 빌드할 오류 메시지가 표시 됩니다. 이러한 오류 메시지 중 하나를 두 번 클릭하면 사용자 지정 코드가 제공해야 하는 항목을 설명하는 주석이 생성된 코드에 표시됩니다.
 
--   텍스트 템플릿을 직접 작성하여 응용 프로그램에 맞는 코드를 생성합니다. 사용 하 여 여러 프로젝트에 공통 되는 템플릿의 일부를 공유 하는 파일을 포함할 수 및 고유한 파일 구조로 초기화 되는 프로젝트를 설정 하려면 Visual Studio 프로젝트 템플릿을 만들 수 있습니다.
+- 텍스트 템플릿을 직접 작성하여 응용 프로그램에 맞는 코드를 생성합니다. 사용 하 여 여러 프로젝트에 공통 되는 템플릿의 일부를 공유 하는 파일을 포함할 수 및 고유한 파일 구조로 초기화 되는 프로젝트를 설정 하려면 Visual Studio 프로젝트 템플릿을 만들 수 있습니다.
 
 ## <a name="generated-files-in-dsl"></a>DSL의 생성된 파일
  생성된 된 다음 파일에 표시 된 **Dsl** 프로젝트입니다.

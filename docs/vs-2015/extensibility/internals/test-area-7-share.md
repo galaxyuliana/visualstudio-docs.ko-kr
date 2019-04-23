@@ -11,12 +11,12 @@ ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 47bf73d60d71a7b1c2e1c80e58c5900c870599ca
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a788eb73c65a84731dd5505af54f4dd78439d456
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981763"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60111638"
 ---
 # <a name="test-area-7-share"></a>테스트 영역 7: 공유
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,13 +27,13 @@ ms.locfileid: "58981763"
   
  공유 폴더에 하나 이상의 파일에 소스 제어를 사용 하 여 폴더를 선택 하는 경우 작동 합니다. 다음과 같은 공유 명령을 비활성화 됩니다.  
   
--   선택한 폴더에 빈 폴더 경우.  
+- 선택한 폴더에 빈 폴더 경우.  
   
--   실제 폴더 올바르지만 없습니다 소스 제어 파일을 포함 합니다.  
+- 실제 폴더 올바르지만 없습니다 소스 제어 파일을 포함 합니다.  
   
--   가상 폴더의 경우 소스 제어에서 파일 인지의 여부.  
+- 가상 폴더의 경우 소스 제어에서 파일 인지의 여부.  
   
--   원격 사이트 웹 프로젝트인 경우입니다.  
+- 원격 사이트 웹 프로젝트인 경우입니다.  
   
 ## <a name="command-menu-access"></a>명령 메뉴 액세스  
  다음 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 통합된 개발 환경 메뉴 경로 테스트 사례에서 사용 됩니다.  
@@ -42,11 +42,11 @@ ms.locfileid: "58981763"
   
 ## <a name="expected-behavior"></a>예상된 된 동작  
   
--   공유 된 파일 공유 위치에 나타납니다.  
+- 공유 된 파일 공유 위치에 나타납니다.  
   
--   파일 공유는 원본 제어 버전 저장소 기록에서는 볼 수 있습니다.  
+- 파일 공유는 원본 제어 버전 저장소 기록에서는 볼 수 있습니다.  
   
--   파일의 위치를 모두 편집 공유 파일을 편집 합니다.  
+- 파일의 위치를 모두 편집 공유 파일을 편집 합니다.  
   
 ## <a name="test-cases"></a>테스트 사례  
  공유 테스트 영역에 대 한 특정 테스트 사례는 다음과 같습니다.  

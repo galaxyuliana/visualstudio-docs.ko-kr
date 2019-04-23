@@ -11,12 +11,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 93165a1534ed01dca057fc13059858c4c3e7a81c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 0a440fbd87e85a72b2807ea09c7af61adf9f8af7
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985384"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108362"
 ---
 # <a name="deploying-a-custom-directive-processor"></a>사용자 지정 지시문 처리기 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,27 +48,27 @@ ms.locfileid: "58985384"
   
 #### <a name="to-develop-a-custom-directive-processor-in-a-vsix-project"></a>VSIX 프로젝트에서 사용자 지정 지시문 프로세서를 개발하려면  
   
-1.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 VSIX 프로젝트를 만듭니다.  
+1. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 VSIX 프로젝트를 만듭니다.  
   
-    -   에 **새 프로젝트** 대화 상자에서 **Visual Basic** 또는 **Visual C#** 를 확장 한 다음 **확장성**합니다. 클릭 **VSIX 프로젝트**합니다.  
+    - 에 **새 프로젝트** 대화 상자에서 **Visual Basic** 또는 **Visual C#** 를 확장 한 다음 **확장성**합니다. 클릭 **VSIX 프로젝트**합니다.  
   
-2.  **source.extension.vsixmanifest**콘텐츠 형식을 설정 하 고 지원 되는 버전입니다.  
+2. **source.extension.vsixmanifest**콘텐츠 형식을 설정 하 고 지원 되는 버전입니다.  
   
-    1.  VSIX에 편집기에서 매니페스트를 **자산** 탭에서 **새로 만들기** 새 항목의 속성을 설정:  
+    1. VSIX에 편집기에서 매니페스트를 **자산** 탭에서 **새로 만들기** 새 항목의 속성을 설정:  
   
          **콘텐츠 형식** = **VSPackage**  
   
          **소스 프로젝트** = \<*현재 프로젝트*>  
   
-    2.  클릭 **선택 된 버전** 지시문 프로세서를 사용할 수는 원하는 설치 유형을 선택 합니다.  
+    2. 클릭 **선택 된 버전** 지시문 프로세서를 사용할 수는 원하는 설치 유형을 선택 합니다.  
   
-3.  .pkgdef 파일을 추가하고 VSIX에 포함할 속성을 설정합니다.  
+3. .pkgdef 파일을 추가하고 VSIX에 포함할 속성을 설정합니다.  
   
-    1.  텍스트 파일을 만들고 이름을 \< *assemblyName*>.pkgdef 합니다.  
+    1. 텍스트 파일을 만들고 이름을 \< *assemblyName*>.pkgdef 합니다.  
   
          \<*assemblyName*>는 일반적으로 프로젝트의 이름과 동일 합니다.  
   
-    2.  솔루션 탐색기에서 이 파일을 선택하고 다음과 같이 속성을 설정합니다.  
+    2. 솔루션 탐색기에서 이 파일을 선택하고 다음과 같이 속성을 설정합니다.  
   
          **빌드 작업** = **콘텐츠**  
   
@@ -76,9 +76,9 @@ ms.locfileid: "58985384"
   
          **VSIX에 포함** = **True**  
   
-    3.  VSIX의 이름을 설정하고 ID가 고유한지 확인합니다.  
+    3. VSIX의 이름을 설정하고 ID가 고유한지 확인합니다.  
   
-4.  .pkgdef 파일에 다음 텍스트를 추가합니다.  
+4. .pkgdef 파일에 다음 텍스트를 추가합니다.  
   
     ```  
     [$RootKey$\TextTemplating]  
@@ -91,46 +91,46 @@ ms.locfileid: "58985384"
   
      `CustomDirectiveProcessorName`, `NamespaceName`, `ClassName`, `AssemblyName`을 사용자 고유의 이름으로 바꿉니다.  
   
-5.  프로젝트에 다음 참조를 추가합니다.  
+5. 프로젝트에 다음 참조를 추가합니다.  
   
-    -   **Microsoft.VisualStudio.TextTemplating.\*.0**  
+    - **Microsoft.VisualStudio.TextTemplating.\*.0**  
   
-    -   **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**  
+    - **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**  
   
-    -   **Microsoft.VisualStudio.TextTemplating.VSHost.\*.0**  
+    - **Microsoft.VisualStudio.TextTemplating.VSHost.\*.0**  
   
-6.  사용자 지정 지시문 프로세서 클래스를 프로젝트에 추가합니다.  
+6. 사용자 지정 지시문 프로세서 클래스를 프로젝트에 추가합니다.  
   
      이 클래스는 <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> 또는 <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>를 구현해야 하는 공용 클래스입니다.  
   
 #### <a name="to-install-the-custom-directive-processor"></a>사용자 지정 지시문 프로세서를 설치하려면  
   
-1.  Windows 탐색기(Windows 8의 파일 탐색기)에서 빌드 디렉터리(일반적으로 bin\Debug 또는 bin\Release)를 엽니다.  
+1. Windows 탐색기(Windows 8의 파일 탐색기)에서 빌드 디렉터리(일반적으로 bin\Debug 또는 bin\Release)를 엽니다.  
   
-2.  다른 컴퓨터에 지시문 프로세서를 설치하려면 .vsix 파일을 해당 컴퓨터에 복사합니다.  
+2. 다른 컴퓨터에 지시문 프로세서를 설치하려면 .vsix 파일을 해당 컴퓨터에 복사합니다.  
   
-3.  .vsix 파일을 두 번 클릭합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension 설치 관리자가 나타납니다.  
+3. .vsix 파일을 두 번 클릭합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension 설치 관리자가 나타납니다.  
   
-4.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 다시 시작합니다. 이제 사용자 지정 지시문 프로세서를 참조하는 지시문이 포함된 텍스트 템플릿을 실행할 수 있습니다. 각 지시문의 형식은 다음과 같습니다.  
+4. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 다시 시작합니다. 이제 사용자 지정 지시문 프로세서를 참조하는 지시문이 포함된 텍스트 템플릿을 실행할 수 있습니다. 각 지시문의 형식은 다음과 같습니다.  
   
      `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" … #>`  
   
 #### <a name="to-uninstall-or-temporarily-disable-the-custom-directive-processor"></a>사용자 지정 지시문 프로세서를 제거하거나 임시로 사용하지 않도록 설정하려면  
   
-1.  에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구** 메뉴에서 클릭 **확장 관리자**합니다.  
+1. 에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구** 메뉴에서 클릭 **확장 관리자**합니다.  
   
-2.  지시문 프로세서를 포함 된 VSIX를 선택한 다음 클릭 **제거** 하거나 **사용 하지 않도록 설정**합니다.  
+2. 지시문 프로세서를 포함 된 VSIX를 선택한 다음 클릭 **제거** 하거나 **사용 하지 않도록 설정**합니다.  
   
 ### <a name="troubleshooting-a-directive-processor-in-a-vsix"></a>VSIX에서 지시문 프로세서 문제 해결  
  지시문 프로세서가 작동하지 않으면 다음 제안 사항이 도움이 될 수 있습니다.  
   
--   사용자 지정 지시문에서 지정하는 프로세서 이름이 .pkgdef 파일에서 지정한 `CustomDirectiveProcessorName`과 일치해야 합니다.  
+- 사용자 지정 지시문에서 지정하는 프로세서 이름이 .pkgdef 파일에서 지정한 `CustomDirectiveProcessorName`과 일치해야 합니다.  
   
--   `IsDirectiveSupported` 메서드가 `true`의 이름이 전달될 때 `CustomDirective`를 반환해야 합니다.  
+- `IsDirectiveSupported` 메서드가 `true`의 이름이 전달될 때 `CustomDirective`를 반환해야 합니다.  
   
--   확장 관리자에서 확장이 표시 되지 않지만 시스템은 설치할 수 없습니다, 하는 경우에서 확장을 삭제 **%localappdata%\Microsoft\VisualStudio\\\*. 0\Extensions\\** .  
+- 확장 관리자에서 확장이 표시 되지 않지만 시스템은 설치할 수 없습니다, 하는 경우에서 확장을 삭제 **%localappdata%\Microsoft\VisualStudio\\\*. 0\Extensions\\** .  
   
--   .vsix 파일을 열고 파일 내용을 검사합니다. 이 파일을 열려면 파일 확장명을 .zip으로 변경합니다. 이 파일에 .dll, .pkgdef 및 extension.vsixmanifest 파일이 포함되어 있는지 확인합니다. extension.vsixmanifest 파일은 SupportedProducts 노드에 적절한 목록을 포함해야 하며 Content 노드 아래에 VsPackage 노드를 포함해야 합니다.  
+- .vsix 파일을 열고 파일 내용을 검사합니다. 이 파일을 열려면 파일 확장명을 .zip으로 변경합니다. 이 파일에 .dll, .pkgdef 및 extension.vsixmanifest 파일이 포함되어 있는지 확인합니다. extension.vsixmanifest 파일은 SupportedProducts 노드에 적절한 목록을 포함해야 하며 Content 노드 아래에 VsPackage 노드를 포함해야 합니다.  
   
      `<Content>`  
   
@@ -174,15 +174,15 @@ ms.locfileid: "58985384"
   
 3. 지시문 프로세서 클래스와 이름이 같은 레지스트리 키를 추가합니다.  
   
-   -   레지스트리 트리에서 마우스 오른쪽 단추로 클릭 합니다 **DirectiveProcessors** 가리킨 **새로 만들기**를 클릭 하 고 **키**합니다.  
+   - 레지스트리 트리에서 마우스 오른쪽 단추로 클릭 합니다 **DirectiveProcessors** 가리킨 **새로 만들기**를 클릭 하 고 **키**합니다.  
   
 4. 새 노드에서 다음 표에 따라 Class와 CodeBase 또는 Assembly의 문자열 값을 추가합니다.  
   
-   1.  사용자가 만든 노드를 마우스 오른쪽 **새로 만들기**를 클릭 하 고 **문자열 값**합니다.  
+   1. 사용자가 만든 노드를 마우스 오른쪽 **새로 만들기**를 클릭 하 고 **문자열 값**합니다.  
   
-   2.  값의 이름을 편집합니다.  
+   2. 값의 이름을 편집합니다.  
   
-   3.  이름을 두 번 클릭하고 데이터를 편집합니다.  
+   3. 이름을 두 번 클릭하고 데이터를 편집합니다.  
   
    사용자 지정 지시문 프로세서가 GAC에 없는 경우 레지스트리 하위 키는 다음 표와 같습니다.  
   

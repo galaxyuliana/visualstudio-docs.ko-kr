@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 73266c77a26f614af9978b48f7475086070aa5e6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 1d4221cfdc0d741264aa4667892117ba0cc24f9a
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59666009"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60108284"
 ---
 # <a name="msbuild-multitargeting-overview"></a>MSBuild 멀티 타기팅 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,15 +26,15 @@ MSBuild를 사용하면 .NET Framework의 여러 버전 중 하나 및 여러 �
   
  MSBuild 대상 지정의 몇 가지 기능은 다음과 같습니다.  
   
--   .NET Framework의 이전 버전(예: 2.0, 3.5 또는 4)을 대상으로 하는 애플리케이션을 개발할 수 있습니다.  
+- .NET Framework의 이전 버전(예: 2.0, 3.5 또는 4)을 대상으로 하는 애플리케이션을 개발할 수 있습니다.  
   
--   .NET Framework 외에 Silverlight 프레임워크 등의 다른 프레임워크를 대상으로 지정할 수 있습니다.  
+- .NET Framework 외에 Silverlight 프레임워크 등의 다른 프레임워크를 대상으로 지정할 수 있습니다.  
   
--   대상 프레임워크의 미리 정의된 하위 집합인 *프레임워크 프로필*을 대상으로 지정할 수 있습니다.  
+- 대상 프레임워크의 미리 정의된 하위 집합인 *프레임워크 프로필*을 대상으로 지정할 수 있습니다.  
   
--   현재 버전의 .NET Framework용 서비스 팩이 릴리스될 경우 해당 서비스 팩을 대상으로 지정할 수 있습니다.  
+- 현재 버전의 .NET Framework용 서비스 팩이 릴리스될 경우 해당 서비스 팩을 대상으로 지정할 수 있습니다.  
   
--   MSBuild 대상 지정은 대상 프레임워크 및 플랫폼에서 사용 가능한 기능만 애플리케이션에서 사용되도록 합니다.  
+- MSBuild 대상 지정은 대상 프레임워크 및 플랫폼에서 사용 가능한 기능만 애플리케이션에서 사용되도록 합니다.  
   
 ## <a name="target-framework-and-platform"></a>대상 프레임워크 및 플랫폼  
  *대상 프레임워크*는 프로젝트가 실행되도록 기본 제공되는 .NET Framework의 버전이고 *대상 플랫폼*은 프로젝트가 실행되도록 기본 제공되는 시스템 플랫폼입니다.  예를 들어 802x86 프로세서 제품군(x86)과 호환되는 32비트 플랫폼에서 실행할 .NET Framework 2.0 애플리케이션을 대상으로 지정할 수 있습니다. 대상 프레임워크와 대상 플랫폼의 조합을 *대상 컨텍스트*라고 합니다. 자세한 내용은 [대상 프레임 워크 및 대상 플랫폼](../msbuild/msbuild-target-framework-and-target-platform.md)을 참조하세요.  

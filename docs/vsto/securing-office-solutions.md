@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8e2f164135ab6b7f187b2b5967eca4faf747f37e
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.openlocfilehash: 31a17fdf51e838405c93efca79d7994cd40ece5c
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54871184"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60107621"
 ---
 # <a name="secure-office-solutions"></a>Office 솔루션 보안
   Office 솔루션에 대 한 보안 모델에서는 여러 가지 기술을: 합니다 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)], Microsoft Office 및 Internet Explorer 제한 된 사이트 영역에 보안 센터. 다음 섹션에서는 다양한 보안 기능의 작동 방식을 설명합니다.
@@ -38,7 +38,7 @@ ms.locfileid: "54871184"
 
   [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
-##  <a name="GrantingTrustToSolutions"></a> Office 솔루션에 신뢰를 부여
+## <a name="GrantingTrustToSolutions"></a> Office 솔루션에 신뢰를 부여
  Office 솔루션에 신뢰를 부여하는 것은 각 최종 사용자의 보안 정책을 수정하여 다음 증거에 따라 Office 솔루션을 신뢰하는 것입니다.
 
 - 배포 매니페스트에 서명하는 데 사용되는 인증서입니다.
@@ -47,16 +47,16 @@ ms.locfileid: "54871184"
 
   자세한 내용은 [Office 솔루션에 신뢰를 부여](../vsto/granting-trust-to-office-solutions.md)합니다.
 
-##  <a name="GrantingTrustToDocuments"></a> 문서에 신뢰를 부여
+## <a name="GrantingTrustToDocuments"></a> 문서에 신뢰를 부여
  문서 수준 사용자 지정을 사용하려면 문서가 신뢰할 수 있는 위치로 지정된 디렉터리에 있어야 합니다. 자세한 내용은 [문서에 신뢰 부여](../vsto/granting-trust-to-documents.md)합니다.
 
-##  <a name="GrantingTrustWindowsInstaller"></a> Windows Installer를 사용 하는 경우에 신뢰 부여
+## <a name="GrantingTrustWindowsInstaller"></a> Windows Installer를 사용 하는 경우에 신뢰 부여
  Windows Installer를 사용하여 MSI 파일을 만들고 Office 솔루션을 Program Files 디렉터리에 설치합니다. 이 작업에는 관리자 권한이 필요합니다. Program Files 디렉터리에 Office 솔루션에서 Visual Studio 2010 Tools for Office 런타임 이들 Office 솔루션을 신뢰할 수 있는 것으로 간주 하 고 ClickOnce 신뢰 프롬프트를 표시 하지 않습니다.
 
-##  <a name="Security"></a> Office 솔루션에 대 한 특정 보안 고려 사항
+## <a name="Security"></a> Office 솔루션에 대 한 특정 보안 고려 사항
  [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] 및 Microsoft Office에서 제공된 보안 기능을 통해 Office 솔루션에서 다양한 보안 위협을 방지할 수 있습니다. 자세한 내용은 [Office 솔루션에 대 한 특정 보안 고려 사항](../vsto/specific-security-considerations-for-office-solutions.md)합니다.
 
-##  <a name="SecurityDuringDeployment"></a> 개발 중 보안
+## <a name="SecurityDuringDeployment"></a> 개발 중 보안
  개발 프로세스를 간소화할 수 있도록 Visual Studio는 프로젝트를 빌드할 때마다 컴퓨터에서 솔루션을 실행 및 디버그하는 데 필요한 보안 정책을 설정합니다. 일부 시나리오에서는 프로젝트를 개발하기 위해 추가적인 보안 조치를 취해야 할 수 있습니다.
 
 ### <a name="document-level-solutions"></a>문서 수준 솔루션
@@ -75,7 +75,7 @@ ms.locfileid: "54871184"
 
  잠시 후에 많은 임시 인증서가 생성되었을 수 있으므로 때때로 임시 인증서를 지워야 합니다.
 
-##  <a name="VisualStudioToolsForOfficeRuntime"></a> Visual Studio Tools for Office 런타임
+## <a name="VisualStudioToolsForOfficeRuntime"></a> Visual Studio Tools for Office 런타임
  [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 의 기능을 사용자 지정에 부여 된 권한과 게시자의 id를 확인 합니다. 이 기능은 보안 검사 시퀀스를 통해 이들 권한을 확인합니다.
 
 ### <a name="security-during-customization-loading"></a>로드 하는 사용자 지정 하는 동안 보안

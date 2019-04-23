@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba1c2c053a9e2c906e5ca9e530a5a46a2501a840
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 0530e5547fd17e1db84e7164039b507cb4583703
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56606422"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60086315"
 ---
 # <a name="parameter-info-in-a-legacy-language-service"></a>레거시 언어 서비스의 매개 변수 정보
 IntelliSense 매개 변수 정보 도구 설명이 있는 언어 구문에 대 한 힌트를 사용 하 여 사용자를 제공 합니다.
@@ -43,31 +43,31 @@ IntelliSense 매개 변수 정보 도구 설명이 있는 언어 구문에 대 �
 
  경우에 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData> 클래스 호출 되 면 해당 메서드를 다음 순서로 호출 됩니다.
 
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetContextStream%2A>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetContextStream%2A>
 
      현재 텍스트 버퍼의 위치 및 관련 데이터의 길이 반환합니다. 이렇게 하면 IDE에 도구 설명 창 사용 하 여 해당 데이터를 가리지 합니다.
 
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetCurMethod%2A>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetCurMethod%2A>
 
      처음에 표시 하려는 메서드 수 (인덱스 0부터 시작)를 반환 합니다. 예를 들어 0을 반환 하는 경우 다음 첫 번째 오버 로드 된 메서드는 처음에 표시 됩니다.
 
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetOverloadCount%2A>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetOverloadCount%2A>
 
      현재 컨텍스트에서 적용할 수 있는 오버 로드 된 메서드를 반환 합니다. 값을이 메서드에 대 한 1 보다 큰 반환 하는 경우 다음 텍스트 뷰에 표시 됩니다 위쪽 및 아래쪽 화살표가 있습니다. 아래쪽 화살표를 클릭 하면 IDE 호출을 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.NextMethod%2A> 메서드. 위쪽 화살표를 클릭 하면 IDE 호출을 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.PrevMethod%2A> 메서드.
 
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetMethodText%2A>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetMethodText%2A>
 
      매개 변수 정보 도구 설명의 텍스트를 여러 번 호출 하는 동안 생성 되는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetMethodText%2A> 고 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetParameterText%2A> 메서드.
 
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetParameterCount%2A>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetParameterCount%2A>
 
      메서드를 표시할 매개 변수 개수를 반환 합니다.
 
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetParameterText%2A>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.GetParameterText%2A>
 
      표시 하려는 오버 로드를 사용 하 여 해당 하는 메서드 값을 반환 하는 경우이 메서드는에 대 한 호출 뒤에 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.UpdateView%2A> 메서드.
 
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.UpdateView%2A>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.UpdateView%2A>
 
      언어 서비스를 편집기 메서드 팁 표시 되 면 업데이트를 알립니다. 에 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.UpdateView%2A> 메서드를 다음을 호출 합니다.
 
@@ -75,6 +75,6 @@ IntelliSense 매개 변수 정보 도구 설명이 있는 언어 구문에 대 �
     <pTxWin> ->UpdateTipWindow(<pTip>, UTW_CONTENTCHANGED | UTW_CONTEXTCHANGED).
     ```
 
--   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.OnDismiss%2A>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.OnDismiss%2A>
 
      에 대 한 호출을 수신 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.OnDismiss%2A> 메서드 팁 창의 닫을 때 메서드.

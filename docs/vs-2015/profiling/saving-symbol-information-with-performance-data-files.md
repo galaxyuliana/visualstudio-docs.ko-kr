@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4bd8b861b6501fda2ed0739725a05225e31343e1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: e9d2e8b0414746523d0f76e8266f6463d9c05574
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54780891"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60098893"
 ---
 # <a name="saving-symbol-information-with-performance-data-files"></a>성능 데이터 파일을 사용하여 기호 정보 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,9 +51,9 @@ ms.locfileid: "54780891"
   
 - Windows 기호 캐시의 경로를 설정했는지 확인합니다. 기호 캐시 경로를 설정하려면 다음 중 하나를 수행합니다.  
   
-  -   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE의 디버거->기호 옵션을 올바른 경로로 설정합니다.  
+  - [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE의 디버거->기호 옵션을 올바른 경로로 설정합니다.  
   
-  -   기호를 포함하도록 VSPerfReport 명령줄의 -symbolpath 옵션을 추가합니다.  
+  - 기호를 포함하도록 VSPerfReport 명령줄의 -symbolpath 옵션을 추가합니다.  
   
 - [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]에서 기호가 표시되지 않으면 ASP 서버에 대해 기호 서버를 올바르게 설정했는지 확인합니다.  
   

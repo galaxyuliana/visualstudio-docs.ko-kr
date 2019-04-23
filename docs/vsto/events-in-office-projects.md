@@ -32,12 +32,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 63329433204af7c7fe7ae40366a376c9da16fdcd
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 6318108523f072beaae85c51604dbb45982a244f
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627742"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60094855"
 ---
 # <a name="events-in-office-projects"></a>Office 프로젝트의 이벤트
   각 Office 프로젝트 템플릿은 몇 가지 이벤트 처리기를 자동으로 생성합니다. 문서 수준 사용자 지정의 이벤트 처리기는 VSTO 추가 기능의 이벤트 처리기와 약간 다릅니다.
@@ -52,34 +52,34 @@ ms.locfileid: "56627742"
 
  문서 수준 프로젝트를 만드는 경우 Visual Studio에서는 생성된 코드 파일에서 **Startup** 이벤트에 대한 이벤트 처리기를 만듭니다.
 
--   Microsoft Office Word 프로젝트에 대한 이벤트 처리기의 이름은 `ThisDocument_Startup`입니다.
+- Microsoft Office Word 프로젝트에 대한 이벤트 처리기의 이름은 `ThisDocument_Startup`입니다.
 
--   Microsoft Office Excel 프로젝트에 대한 이벤트 처리기의 이름은 다음과 같습니다.
+- Microsoft Office Excel 프로젝트에 대한 이벤트 처리기의 이름은 다음과 같습니다.
 
-    -   `Sheet1_Startup`
+    - `Sheet1_Startup`
 
-    -   `Sheet2_Startup`
+    - `Sheet2_Startup`
 
-    -   `Sheet3_Startup`
+    - `Sheet3_Startup`
 
-    -   `ThisWorkbook_Startup`
+    - `ThisWorkbook_Startup`
 
 ### <a name="shutdown-event"></a>Shutdown 이벤트
  **Shutdown** 이벤트는 코드가 로드된 응용 프로그램 도메인이 언로드되려고 할 때 각 호스트 항목(문서 또는 워크시트)에 대해 발생합니다. 이 이벤트는 언로드될 때 클래스에서 호출되는 마지막 항목입니다.
 
  문서 수준 프로젝트를 만드는 경우 Visual Studio에서는 생성된 코드 파일에서 **Shutdown** 이벤트에 대한 이벤트 처리기를 만듭니다.
 
--   Microsoft Office Word 프로젝트에 대한 이벤트 처리기의 이름은 `ThisDocument_Shutdown`입니다.
+- Microsoft Office Word 프로젝트에 대한 이벤트 처리기의 이름은 `ThisDocument_Shutdown`입니다.
 
--   Microsoft Office Excel 프로젝트에 대한 이벤트 처리기의 이름은 다음과 같습니다.
+- Microsoft Office Excel 프로젝트에 대한 이벤트 처리기의 이름은 다음과 같습니다.
 
-    -   `Sheet1_Shutdown`
+    - `Sheet1_Shutdown`
 
-    -   `Sheet2_Shutdown`
+    - `Sheet2_Shutdown`
 
-    -   `Sheet3_Shutdown`
+    - `Sheet3_Shutdown`
 
-    -   `ThisWorkbook_Shutdown`
+    - `ThisWorkbook_Shutdown`
 
 > [!NOTE]
 >  문서의 **Shutdown** 이벤트 처리기 중에 프로그래밍 방식으로 컨트롤을 제거하지 마세요. 문서의 UI 요소는 **Shutdown** 이벤트가 발생할 때 더 이상 사용할 수 없습니다. 애플리케이션이 닫히기 전에 컨트롤을 제거하려면 **BeforeClose** , **BeforeSave**등의 다른 이벤트 처리기에 코드를 추가합니다.
@@ -145,9 +145,9 @@ ms.locfileid: "56627742"
 #### <a name="shutdown-event-in-outlook-vsto-add-ins"></a>Outlook VSTO 추가 기능의 shutdown 이벤트
  <xref:Microsoft.Office.Tools.AddInBase.Shutdown> 이벤트는 사용자가 Outlook에서 COM 추가 기능 대화 상자를 사용하여 VSTO 추가 기능을 사용하지 않도록 설정할 때만 발생합니다. 이 이벤트는 Outlook이 종료될 때 발생하지 않습니다. Outlook이 종료될 때 실행되어야 하는 코드가 있는 경우 다음 이벤트 중 하나를 처리합니다.
 
--   <xref:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Quit> 개체의 <xref:Microsoft.Office.Interop.Outlook.Application> 이벤트
+- <xref:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Quit> 개체의 <xref:Microsoft.Office.Interop.Outlook.Application> 이벤트
 
--   <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close> 개체의 <xref:Microsoft.Office.Interop.Outlook.Explorer> 이벤트
+- <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close> 개체의 <xref:Microsoft.Office.Interop.Outlook.Explorer> 이벤트
 
 > [!NOTE]
 >  레지스트리를 수정하여 Outlook이 종료될 때 Outlook에서 <xref:Microsoft.Office.Tools.AddInBase.Shutdown> 이벤트를 강제로 발생시킬 수 있습니다. 그러나 관리자가 이 설정을 되돌리는 경우 `ThisAddIn_Shutdown` 메서드에 추가하는 모든 코드가 Outlook이 종료될 때 더 이상 실행되지 않습니다. 자세한 내용은 [Outlook 2010의 종료 변경](http://go.microsoft.com/fwlink/?LinkID=184614)합니다.

@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 26dbe873d1552136c36748e638085bf39e5e530c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ab8744e84e035501ba9bb8d531d982f4c17e206e
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983881"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60103238"
 ---
 # <a name="how-to-create-a-work-item-for-a-managed-code-defect"></a>방법: 관리 코드 오류에 대한 작업 항목 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,16 +26,16 @@ ms.locfileid: "58983881"
   
 ### <a name="to-create-a-work-item-for-managed-code-defect"></a>관리 코드 오류에 대 한 작업 항목을 만들려면  
   
-1.  에 **코드 분석** 창에서 경고를 선택 합니다.  
+1. 에 **코드 분석** 창에서 경고를 선택 합니다.  
   
-2.  선택 **동작**, 선택한 **작업 항목 만들기** 만들려는 작업 항목의 유형을 선택 합니다.  
+2. 선택 **동작**, 선택한 **작업 항목 만들기** 만들려는 작업 항목의 유형을 선택 합니다.  
   
      오류 정보를 지정할 수 있습니다 새 작업 항목이 생성 됩니다.  
   
 ### <a name="to-create-a-work-item-for-multiple-managed-code-defects"></a>여러 관리 코드 오류에 대 한 작업 항목을 만들려면  
   
-1.  에 **오류 목록**, 여러 경고를 선택 하 고 경고를 마우스 오른쪽 단추로 클릭 합니다.  
+1. 에 **오류 목록**, 여러 경고를 선택 하 고 경고를 마우스 오른쪽 단추로 클릭 합니다.  
   
-2.  가리킨 **작업 항목 만들기** 만들려는 작업 항목의 유형을 클릭 합니다.  
+2. 가리킨 **작업 항목 만들기** 만들려는 작업 항목의 유형을 클릭 합니다.  
   
      버그 정보를 지정할 수 있도록 선택한 모든 경고에 대 한 단일 작업 항목 생성 됩니다.

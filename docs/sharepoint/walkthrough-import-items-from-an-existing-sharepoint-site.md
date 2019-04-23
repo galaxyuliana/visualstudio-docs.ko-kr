@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 24ee1588555d51c20989d782375b32e5874df878
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 89559798e342c8993e523517e5c85fc38e1c0cf8
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841751"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60110876"
 ---
 # <a name="walkthrough-import-items-from-an-existing-sharepoint-site"></a>연습: 기존 SharePoint 사이트에서 항목 가져오기
   이 연습에서는 기존 SharePoint 사이트에서 항목을 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다.
@@ -36,9 +36,9 @@ ms.locfileid: "56841751"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
 
--   지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
+- 지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] 및 SharePoint입니다.
 
--   Visual Studio.
+- Visual Studio.
 
 ## <a name="customize-a-sharepoint-site"></a>SharePoint 사이트를 사용자 지정
  예를 들어 만들고 새 사이트 열을 추가 하 고 나중에 사용할 다른 하위 사이트를 만들어 SharePoint 하위 사이트를 사용자 지정 합니다. 나중에 첫 번째 하위.wsp 파일로 내보내려면를 다음.wsp 가져오기 프로젝트를 사용 하 여 두 번째 하위 사이트에 사용자 지정 사이트 열을 가져옵니다.
@@ -79,23 +79,23 @@ ms.locfileid: "56841751"
 
 ### <a name="to-export-an-existing-sharepoint-site"></a>기존 SharePoint 사이트를 내보내려면
 
-1.  SharePoint 사이트에서 선택할 **사이트 설정** 에 **사이트 작업** 사이트 설정 페이지를 표시 하려면 탭 합니다.
+1. SharePoint 사이트에서 선택할 **사이트 설정** 에 **사이트 작업** 사이트 설정 페이지를 표시 하려면 탭 합니다.
 
-2.  에 **사이트 작업** 섹션 사이트 설정 페이지의 선택 합니다 **템플릿으로 저장 사이트** 링크 합니다.
+2. 에 **사이트 작업** 섹션 사이트 설정 페이지의 선택 합니다 **템플릿으로 저장 사이트** 링크 합니다.
 
-3.  에 **파일 이름** 상자에 입력 합니다 **ExampleSite**, 및를 **템플릿 이름** 상자에 입력 합니다 **예제 사이트**합니다.
+3. 에 **파일 이름** 상자에 입력 합니다 **ExampleSite**, 및를 **템플릿 이름** 상자에 입력 합니다 **예제 사이트**합니다.
 
-4.  예를 들어 유지 합니다 **콘텐츠 포함** 확인란의 선택을 취소 합니다.
+4. 예를 들어 유지 합니다 **콘텐츠 포함** 확인란의 선택을 취소 합니다.
 
      이 확인란을 선택 하는 경우 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] .wsp 파일에 목록 및 문서 라이브러리와 해당 콘텐츠를 저장 합니다. 이 기능은 일부 상황에서 유용 하지만이 예제에 대 한 필요 하지 않습니다.
 
-5.  작업이 성공적으로 완료 되 면 선택 합니다 **솔루션 갤러리** .wsp 파일을 보려면 링크 합니다.
+5. 작업이 성공적으로 완료 되 면 선택 합니다 **솔루션 갤러리** .wsp 파일을 보려면 링크 합니다.
 
      이상, 열린 솔루션 갤러리 페이지를 보려면를 **사이트 작업** 메뉴에서 선택 **사이트 설정**를 선택 합니다 **최상위 사이트 설정으로 이동** 링크를  **사이트 컬렉션 관리** 섹션을 선택한 후 합니다 **솔루션** 링크를 **갤러리** 섹션입니다.
 
-6.  솔루션 갤러리에서 선택 합니다 **ExampleSite** 링크 합니다.
+6. 솔루션 갤러리에서 선택 합니다 **ExampleSite** 링크 합니다.
 
-7.  에 **파일 다운로드** 대화 상자를 선택 합니다 **저장** 다운로드 폴더에는 기본적으로 로컬 시스템에서 파일을 저장 하려면 단추입니다.
+7. 에 **파일 다운로드** 대화 상자를 선택 합니다 **저장** 다운로드 폴더에는 기본적으로 로컬 시스템에서 파일을 저장 하려면 단추입니다.
 
 ## <a name="import-the-wsp-file"></a>.Wsp 파일 가져오기
  이제는 *.wsp* 가져오기, (사용자 지정 사이트 열 테스트)를 다시 사용 하려는 항목을 포함 하는 파일을 *.wsp* 파일에 액세스할 수 합니다.
@@ -130,13 +130,13 @@ ms.locfileid: "56841751"
 
 ### <a name="to-deploy-the-project"></a>프로젝트를 배포 하려면
 
-1.  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 선택 합니다 **F5** 배포 및 실행 하는 키를 *.wsp* 프로젝트 가져오기.
+1. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]를 선택 합니다 **F5** 배포 및 실행 하는 키를 *.wsp* 프로젝트 가져오기.
 
-2.  SharePoint 사이트에서 엽니다는 **사이트 작업** 메뉴를 선택한 후 **사이트 설정** 사이트 설정 페이지를 표시 합니다.
+2. SharePoint 사이트에서 엽니다는 **사이트 작업** 메뉴를 선택한 후 **사이트 설정** 사이트 설정 페이지를 표시 합니다.
 
-3.  에 **갤러리** 섹션을 선택 합니다 **사이트 열** 링크 합니다.
+3. 에 **갤러리** 섹션을 선택 합니다 **사이트 열** 링크 합니다.
 
-4.  아래로 스크롤하여 합니다 **사용자 지정 열** 섹션입니다.
+4. 아래로 스크롤하여 합니다 **사용자 지정 열** 섹션입니다.
 
      첫 번째 SharePoint 사이트에서 가져온 사용자 지정 사이트 열 목록에 나타나는지 확인 합니다.
 

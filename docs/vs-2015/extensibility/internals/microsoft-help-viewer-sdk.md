@@ -8,27 +8,27 @@ ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
 caps.latest.revision: 34
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e4a72acafa4e2ad8de757541312a13f203f73559
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e08a443513bb6043ec2f3841067021ffc65dd92d
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972460"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60099013"
 ---
 # <a name="microsoft-help-viewer-sdk"></a>Microsoft 도움말 뷰어 SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 이 문서에서는 Visual Studio 도움말 뷰어 통합 업체에 대 한 다음 작업을 포함 됩니다.
 
--   (F1 지원) 항목 만들기
+- (F1 지원) 항목 만들기
 
--   도움말 뷰어 콘텐츠 브랜드 패키지 만들기
+- 도움말 뷰어 콘텐츠 브랜드 패키지 만들기
 
--   문서 집합을 배포합니다.
+- 문서 집합을 배포합니다.
 
--   Visual Studio shell (통합 또는 격리)에 추가 도움말
+- Visual Studio shell (통합 또는 격리)에 추가 도움말
 
--   추가 리소스
+- 추가 리소스
 
 ### <a name="creating-a-topic-f1-support"></a>(F1 지원) 항목 만들기
  이 섹션에서는 제공 된 항목, 항목에서는 요구 사항, 해당 렌더링 된 결과가 포함 된 항목 (F1 지원 요구 사항 포함) 및 마지막으로 예제 항목을 만드는 방법에 대 한 짧은 설명을의 구성 요소 개요를 제공 합니다.
@@ -63,7 +63,7 @@ ms.locfileid: "58972460"
 
 - javascript
 
-- csharp 또는 C#
+- csharp 또는 c#
 
 - cplusplus visualc + + 또는 c + +
 
@@ -132,17 +132,17 @@ ms.locfileid: "58972460"
 
  항목의 본문 (머리글 및 바닥글 제외 함)는 페이지 링크, 참고 섹션, 축소 가능한 영역, 코드 조각 및 언어 특정 텍스트 부분에 포함 됩니다.  브랜딩 표시 된 항목의 해당 영역에 대 한 자세한 내용은 섹션을 참조 하세요.
 
-1.  항목 제목 태그를 추가 합니다.  `<div class="title">Contoso Topic 4</div>`
+1. 항목 제목 태그를 추가 합니다.  `<div class="title">Contoso Topic 4</div>`
 
-2.  참고 섹션을 추가 합니다. `<div class="alert"> add your table tag and text </div>`
+2. 참고 섹션을 추가 합니다. `<div class="alert"> add your table tag and text </div>`
 
-3.  축소 가능한 영역을 추가 합니다.  `<CollapsibleArea Expanded="1" Title="Collapsible Area Test Heading"> add text  </CollapsibleArea>`
+3. 축소 가능한 영역을 추가 합니다.  `<CollapsibleArea Expanded="1" Title="Collapsible Area Test Heading"> add text  </CollapsibleArea>`
 
-4.  코드 조각을 추가 합니다.  `<CodeSnippet EnableCopyCode="true" Language="CSharp" ContainsMarkup="false" DisplayLanguage="C#" > a block of code </CodeSnippet>`
+4. 코드 조각을 추가 합니다.  `<CodeSnippet EnableCopyCode="true" Language="CSharp" ContainsMarkup="false" DisplayLanguage="C#" > a block of code </CodeSnippet>`
 
-5.  코드 언어에 대 한 특정 텍스트를 추가 합니다.  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` 해당 devLangnu 참고 = 다른 언어를 입력할 수 있습니다. 예를 들어 devLangnu = "Fortran" Fortran 표시 됩니다 때 코드 조각을 DisplayLanguage Fortran =
+5. 코드 언어에 대 한 특정 텍스트를 추가 합니다.  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` 해당 devLangnu 참고 = 다른 언어를 입력할 수 있습니다. 예를 들어 devLangnu = "Fortran" Fortran 표시 됩니다 때 코드 조각을 DisplayLanguage Fortran =
 
-6.  페이지 링크를 추가 합니다. `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`
+6. 페이지 링크를 추가 합니다. `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`
 
 > [!NOTE]
 >  참고:에 대 한 지원 되지 않는 새로운 "표시 언어" (예제에서는 F#, Cobol, Fortran) 코드 조각에서 코드 색 지정 단색 됩니다.
@@ -296,13 +296,13 @@ some F# code
 
 1. 설정 된 **VendorContent** 도움말 2.1 레지스트리 키 아래의 값:
 
-   -   32 비트 운영 체제:
+   - 32 비트 운영 체제:
 
         HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.1\Catalogs\VisualStudio12
 
         "VendorContent"=dword:00000001
 
-   -   64 비트 운영 체제:
+   - 64 비트 운영 체제:
 
         HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.1\Catalogs\VisualStudio12
 

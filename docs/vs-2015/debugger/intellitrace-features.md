@@ -22,12 +22,12 @@ caps.latest.revision: 73
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3c10dd5661cafd5deeef66d8a65b0ddb61738125
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 9b1fc7da90eb4f263aaf3de19eb37cfa3272a249
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984744"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60105733"
 ---
 # <a name="intellitrace-features"></a>IntelliTrace 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,12 +43,12 @@ IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호�
 > [!NOTE]
 >  **IntelliTrace** 옵션 페이지에 있는 모든 설정의 범위는 개별 프로젝트나 솔루션이 아니라 Visual Studio 전체입니다. 이 설정에서 변경된 내용은 Visual Studio의 모든 인스턴스, 모든 디버깅 세션 및 모든 프로젝트나 솔루션에 적용됩니다.  
   
-##  <a name="ChooseEvents"></a> IntelliTrace에서 기록 하는 이벤트 선택  
+## <a name="ChooseEvents"></a> IntelliTrace에서 기록 하는 이벤트 선택  
  특정 IntelliTrace 이벤트에 대한 기록을 설정하거나 해제할 수 있습니다.  
   
  디버그 중이면 디버깅을 중지합니다. 로 이동 **도구 / 옵션 / IntelliTrace / IntelliTrace 이벤트**합니다. IntelliTrace에서 기록하도록 지정할 이벤트를 선택합니다.  
   
-##  <a name="GoingFurther"></a> IntelliTrace 이벤트를 수집 및 호출 정보  
+## <a name="GoingFurther"></a> IntelliTrace 이벤트를 수집 및 호출 정보  
  이 기능은 기본적으로 사용하도록 설정되어 있지 않지만, IntelliTrace는 이벤트와 함께 메서드 호출을 기록할 수 있습니다. 호출으로 이동 하는 메서드의 컬렉션을 사용 하도록 설정 하려면 **도구 / 옵션 / IntelliTrace / 일반**, 선택한 **IntelliTrace 이벤트 및 호출 정보**합니다.  
   
  이렇게 하면 호출 스택 이력을 참조하고 코드에서 호출을 통해 앞뒤로 이동할 수 있습니다. IntelliTrace는 메서드 이름, 메서드 시작/종료 지점, 특정 매개 변수 값, 반환 값 등의 데이터를 기록합니다.  
@@ -75,14 +75,14 @@ IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호�
 ### <a name="search-for-a-line-or-method-in-intellitrace"></a>IntelliTrace에서 줄 또는 메서드 검색  
  메서드 호출 정보가 사용하도록 설정된 경우에만 메서드를 검색할 수 있습니다. 특정 줄 또는 메서드에 대해 IntelliTrace 기록을 검색할 수 있습니다. 디버거 실행이 중단된 동안 함수 본문 내부를 마우스 오른쪽 단추로 클릭하여 상황에 맞는 메뉴를 표시하거나 **IntelliTrace에서 이 줄 검색** 또는 **IntelliTrace에서 이 메서드 검색**을 클릭합니다.  
   
-###  <a name="ControlCallData"></a> IntelliTrace에서 기록하는 호출 정보의 양 제어  
+### <a name="ControlCallData"></a> IntelliTrace에서 기록하는 호출 정보의 양 제어  
  기본적으로 IntelliTrace는 솔루션에 사용되는 모든 모듈에 대한 정보를 기록합니다. IntelliTrace에서 관심 있는 모듈에 대한 호출 정보만 기록하게 설정할 수 있습니다. **도구 / 옵션 / IntelliTrace / 모듈**에 포함할 모듈이 나 IntelliTrace에서 제외할 모듈을 지정할 수 있습니다. IntelliTrace는 지정한 모듈에서 발생하는 이벤트만 수집하며 관심 있는 모듈 내에서 발생한 메서드 호출만 수집합니다.  
   
  여러 모듈을 추가하려면 문자열의 시작이나 끝 부분에 와일드카드 문자 *를 사용합니다. 모듈 이름에는 어셈블리 이름이 아닌 파일 이름을 사용합니다. 파일 경로는 사용할 수 없습니다.  
   
  모듈의 수를 최소로 유지합니다. 그러면 수집할 데이터의 양이 적기 때문에 성능이 높아집니다. 또한 검토할 데이터가 적기 때문에 UI의 노이즈가 줄어듭니다.  
   
-##  <a name="SaveSession"></a> 파일에 IntelliTrace 데이터 저장  
+## <a name="SaveSession"></a> 파일에 IntelliTrace 데이터 저장  
  IntelliTrace에서 수집 된 데이터를 저장할 수 있습니다 하 **디버그 / IntelliTrace / IntelliTrace 세션 저장** 디버깅 하는 응용 프로그램은 중단 상태인 동안. 응용 프로그램이 계속 실행 중이거나 디버깅을 중지한 경우에는 해당 메뉴 항목이 비활성화되어 IntelliTrace에서 수집된 데이터를 저장할 수 없게 됩니다.  
   
  으로 이동 하 여 파일에 자동으로 저장 하도록 IntelliTrace를 구성할 수 있습니다 **도구 / 옵션 / IntelliTrace / 고급** 를 선택 하 고 **이 디렉터리에 IntelliTrace 기록 저장**합니다. 생성된 파일에 대해 집합 크기를 구성할 수도 있습니다. 그러면 공간이 부족할 때 IntelliTrace가 오래된 데이터를 덮어씁니다. Visual Studio는 자동으로 저장되고 Visual Studio 호스팅 프로세스(vshost.exe)가 켜져 있는 경우 각 IntelliTrace 세션에 대해 두 개의 파일을 만듭니다.  

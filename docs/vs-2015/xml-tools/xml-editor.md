@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3c9c348607c4a009a5b9b0a501e61dda443127df
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: HT
+ms.openlocfilehash: 5dd1834593be7638a56eb31c70677ea9be146b8b
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665586"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60112177"
 ---
 # <a name="xml-editor"></a>XML 편집기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,13 +46,13 @@ XML 편집기는 [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio 
 ## <a name="express-editions"></a>Express Edition  
  Visual Studio Express Edition에서는 다음 XML 편집기 기능을 사용할 수 없습니다.  
   
--   XML 인스턴스 문서에서 XML 스키마 만들기  
+- XML 인스턴스 문서에서 XML 스키마 만들기  
   
--   XML 편집기에서 XSLT 출력 보기  
+- XML 편집기에서 XSLT 출력 보기  
   
--   XSLT 스타일시트를 편집하는 동안 스마트 유효성 검사  
+- XSLT 스타일시트를 편집하는 동안 스마트 유효성 검사  
   
--   XML 스키마 탐색기  
+- XML 스키마 탐색기  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [XML 문서 유효성 검사](../xml-tools/xml-document-validation.md)  
