@@ -14,17 +14,16 @@ caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 041b57c252ffe77dc7374b39ba40b8152a390205
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 2b1d82356d2f19388fd642214d03c1a1097b81ff
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54778739"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59654336"
 ---
 # <a name="task-base-class"></a>작업 기본 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 다양한 작업은 궁극적으로 <xref:Microsoft.Build.Utilities.Task> 클래스에서 상속됩니다. 이 클래스는 매개 변수에서 파생되는 작업에 해당 매개 변수 몇 개를 추가합니다. 이러한 매개 변수가 이 문서에 나열되어 있습니다.  
   
 ## <a name="parameters"></a>매개 변수  

@@ -14,18 +14,17 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d8ee0de9cad23b6208c9b015c65a8d9494821eae
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 0a4bc73046ca32645ffcdc8c3f2978c9245aaec6
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54789812"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59668069"
 ---
 # <a name="quick-watch-command"></a>간략한 조사식 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
-식 필드에 선택 하거나 지정한 텍스트를 표시 합니다 [간략 한 조사식 대화 상자](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)합니다. 이 대화 상자를 사용하여 디버거에서 인식되는 변수 또는 식의 현재 값이나 레지스터의 콘텐츠를 계산할 수 있습니다. 또한 비const 변수 값 또는 레지스터 콘텐츠를 변경할 수 있습니다.  
+[간략한 조사식](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867) 대화 상자의 [식] 필드에 선택한 텍스트 또는 지정한 텍스트를 표시합니다. 이 대화 상자를 사용하여 디버거에서 인식되는 변수 또는 식의 현재 값이나 레지스터의 콘텐츠를 계산할 수 있습니다. 또한 비const 변수 값 또는 레지스터 콘텐츠를 변경할 수 있습니다.  
   
 ## <a name="syntax"></a>구문  
   
@@ -40,7 +39,7 @@ Debug.QuickWatchq [text]
 ## <a name="remarks"></a>주의  
  `text`가 생략되면 커서에서 현재 선택된 텍스트 또는 단어가 조사식 창에 추가됩니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ```  
 >Debug.QuickWatch  

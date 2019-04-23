@@ -13,17 +13,16 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 545d5ff9530de577a553923eea3cb208bd5bc68e
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 81532137b98b415a598a2770b19c3df8ce14f135
+ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54794412"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59666470"
 ---
 # <a name="options-text-editor-javascript-formatting"></a>옵션, 텍스트 편집기, JavaScript, 서식
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 **옵션** 대화 상자의 **서식** 페이지를 사용하여 코드 편집기의 서식 코드에 대한 옵션을 설정합니다. 메뉴 모음에서 이 페이지에 액세스하려면 **도구**, **옵션**을 선택한 다음 **텍스트 편집기**, **JavaScript** 및 **서식**을 확장합니다.  
   
  [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)]  
