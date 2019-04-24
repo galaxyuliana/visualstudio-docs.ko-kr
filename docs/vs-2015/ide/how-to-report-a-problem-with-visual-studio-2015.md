@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 73b06f4235d5770cb6c086d6aed54229e00702de
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: d8cedd5ab26539d5ebe32aee8df272691dd0a779
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665144"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60083651"
 ---
 # <a name="how-to-report-a-problem-with-visual-studio-2015"></a>Visual Studio 2015의 문제를 보고하는 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ Microsoft는 사용자의 개인 정보를 소중히 여깁니다. Microsoft에�
 
 ## <a name="describe-the-problem"></a>문제 설명
 
-###  <a name="describe_the_problem"></a>
+### <a name="describe_the_problem"></a>
 
 1. Visual Studio 내의 올바른 팀에게 전달될 수 있도록 문제에 대한 설명이 포함된 제목을 입력합니다.
 
@@ -49,15 +49,15 @@ Microsoft는 사용자의 개인 정보를 소중히 여깁니다. Microsoft에�
 
 ## <a name="provide-a-trace-and-heap-dump-optional"></a>추적 및 힙 덤프 제공(선택 사항)
 
-###  <a name="provide_a_trace_and_heap_dump"></a>
+### <a name="provide_a_trace_and_heap_dump"></a>
 
-1.  추적 및 힙 덤프 파일은 문제를 진단하는 데 매우 유용합니다.   문제 보고 도구를 사용하여 재현 단계를 기록하여 데이터를 Microsoft로 보내 주시면 감사하겠습니다.
+1. 추적 및 힙 덤프 파일은 문제를 진단하는 데 매우 유용합니다.   문제 보고 도구를 사용하여 재현 단계를 기록하여 데이터를 Microsoft로 보내 주시면 감사하겠습니다.
 
-2.  **문제를 재현할 수 있도록 작업을 기록하세요.** 옆에 있는 펼침 단추를 클릭합니다. 문제가 발생하여 Visual Studio가 정지하거나 충돌할 경우 Visual Studio의 다른 인스턴스를 열고 목록 보기에서 해당 인스턴스를 선택합니다.
+2. **문제를 재현할 수 있도록 작업을 기록하세요.** 옆에 있는 펼침 단추를 클릭합니다. 문제가 발생하여 Visual Studio가 정지하거나 충돌할 경우 Visual Studio의 다른 인스턴스를 열고 목록 보기에서 해당 인스턴스를 선택합니다.
 
-3.  **기록 시작** 을 클릭하고 문제를 재현하는 단계를 수행합니다. 완료되면 부동 창에서 **기록 중지** 단추를 클릭합니다.
+3. **기록 시작** 을 클릭하고 문제를 재현하는 단계를 수행합니다. 완료되면 부동 창에서 **기록 중지** 단추를 클릭합니다.
 
-4.  Visual Studio에서 기록된 정보를 수집하여 패키징하는 동안 몇 분 정도 기다립니다. 컬렉션 프로세스가 완료되면 다음과 같은 대화 상자가 나타납니다.
+4. Visual Studio에서 기록된 정보를 수집하여 패키징하는 동안 몇 분 정도 기다립니다. 컬렉션 프로세스가 완료되면 다음과 같은 대화 상자가 나타납니다.
 
      ![추적 파일 기록](../ide/media/record-a-trace-file.png "추적 파일 기록")
 
