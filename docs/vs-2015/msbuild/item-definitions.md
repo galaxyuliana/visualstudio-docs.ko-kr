@@ -11,12 +11,12 @@ caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 83c2de11e31dced3be48e390d8bd5b21d57d2092
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: a9298f57e3b1f4a05effcb82a39e14503c9cbf74
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668497"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60090761"
 ---
 # <a name="item-definitions"></a>항목 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,15 +25,15 @@ ms.locfileid: "59668497"
   
  *ItemDefinitionGroup* 요소는 프로젝트 파일의 [Project](../msbuild/project-element-msbuild.md) 요소 바로 뒤에 표시됩니다. 항목 정의는 다음과 같은 기능을 제공합니다.  
   
--   대상 외부에 있는 항목에 대한 전역 기본 메타데이터를 정의할 수 있습니다. 즉, 동일한 메타데이터가 지정된 형식의 모든 항목에 적용됩니다.  
+- 대상 외부에 있는 항목에 대한 전역 기본 메타데이터를 정의할 수 있습니다. 즉, 동일한 메타데이터가 지정된 형식의 모든 항목에 적용됩니다.  
   
--   항목 형식은 여러 정의를 포함할 수 있습니다. 추가 메타데이터 사양이 형식에 추가되면 마지막 사양이 우선적으로 적용됩니다. \(메타데이터는 속성이 따르는 동일한 가져오기 순서를 따릅니다.\)  
+- 항목 형식은 여러 정의를 포함할 수 있습니다. 추가 메타데이터 사양이 형식에 추가되면 마지막 사양이 우선적으로 적용됩니다. \(메타데이터는 속성이 따르는 동일한 가져오기 순서를 따릅니다.\)  
   
--   메타데이터는 가산될 수 있습니다. 예를 들어 CDefines 값은 설정되는 속성에 따라 조건부로 누적됩니다. 예를 들어, `MT;STD_CALL;DEBUG;UNICODE`을 입력합니다.  
+- 메타데이터는 가산될 수 있습니다. 예를 들어 CDefines 값은 설정되는 속성에 따라 조건부로 누적됩니다. 예를 들어, `MT;STD_CALL;DEBUG;UNICODE`을 입력합니다.  
   
--   메타데이터는 제거될 수 있습니다.  
+- 메타데이터는 제거될 수 있습니다.  
   
--   메타데이터의 포함 여부를 제어하는 데 조건을 사용할 수 있습니다.  
+- 메타데이터의 포함 여부를 제어하는 데 조건을 사용할 수 있습니다.  
   
 ## <a name="item-metadata-default-values"></a>항목 메타데이터 기본값  
  ItemDefinitionGroup에 정의된 항목 메타데이터는 기본 메타데이터의 선언일 뿐입니다. 이 메타데이터는 ItemGroup을 사용하여 메타데이터 값을 포함하는 Item을 정의해야만 적용됩니다.  
@@ -66,21 +66,21 @@ ms.locfileid: "59668497"
 ## <a name="value-sources"></a>값 소스  
  ItemDefinitionGroup에 정의된 메타데이터 값은 다음과 같은 다양한 소스에서 가져올 수 있습니다.  
   
--   PropertyGroup 속성  
+- PropertyGroup 속성  
   
--   ItemDefinitionGroup의 항목  
+- ItemDefinitionGroup의 항목  
   
--   ItemDefinitionGroup 항목의 항목 변환  
+- ItemDefinitionGroup 항목의 항목 변환  
   
--   환경 변수  
+- 환경 변수  
   
--   \(MSBuild.exe 명령줄의\) 전역 속성  
+- \(MSBuild.exe 명령줄의\) 전역 속성  
   
--   예약된 속성  
+- 예약된 속성  
   
--   ItemDefinitionGroup의 Item에 대한 잘 알려진 메타데이터  
+- ItemDefinitionGroup의 Item에 대한 잘 알려진 메타데이터  
   
--   CDATA 섹션 \<\!\[CDATA\[여기에 있는 내용은 구문 분석되지 않음\]\]\>  
+- CDATA 섹션 \<\!\[CDATA\[여기에 있는 내용은 구문 분석되지 않음\]\]\>  
   
 > [!NOTE]
 >  ItemGroup의 항목 메타데이터는 ItemDefinitionGroup 요소가 ItemGroup 요소보다 먼저 처리되므로 ItemDefinitionGroup 메타데이터 선언에서 사용 가능하지 않습니다.  
